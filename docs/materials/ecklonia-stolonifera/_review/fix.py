@@ -1,0 +1,31 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/ecklonia-stolonifera/dossier.json'
+d=json.load(open(p))
+changes=[]
+def rep(where,obj,key,old,new,why):
+    s=obj[key]
+    assert s.count(old)==1,(where,old)
+    obj[key]=s.replace(old,new); changes.append({"where":where,"before":old,"after":new,"why":why})
+S={s['key']:s for s in d['sections']}
+rep('sections.history',S['history'],'body','과학 연구는 2000년대 초 부산 지역 연구진을 중심으로 본격화되었다[7, 8, 9].','2000년대 초부터 부산 지역 연구진이 이 종의 플로로탄닌 연구를 잇달아 발표했다[7, 8, 9].','[7–9]는 부산(부경대) 연구진의 2003–2004년 논문일 뿐 연구 \'본격화\'를 말하지 않음; 1990년대 연구[15, 16]도 있어 사실 서술로 낮춤')
+rep('sections.history',S['history'],'body','이후 간 보호, 항비만, 항염증 연구가 이어졌고, 2018년에는 곰피추출물이 건강기능식품 개별인정형 원료로 인정되었다[1, 10, 19].','이후 간 보호[10]·항비만[19]·항염증[13] 연구가 이어졌고, 식약처 목록에는 \'곰피추출물(기능성원료인정제2018-1호)\'이 건강기능식품 개별인정형 원료로 올라 있다[1].','[10]·[19]는 2018년 인정을 말하지 않음; 인정 번호는 I1020 원자료(C코드 행)로만 확인되므로 출처를 나눔, 항염증 근거[13] 추가')
+rep('sections.related_species',S['related_species'],'body','일본 웹 자료에는 곰피를 감태의 아종(E. cava subsp. stolonifera)으로 다룬 예가 있다고 하나, 이 분류 처리의 원문은 확인하지 못함.','일본 학술지의 한 논문은 츠루아라메를 감태의 아종(Ecklonia cava subsp. stolonifera)이라는 학명으로 적었으나, 이 분류 처리의 근거 문헌은 확인하지 못함[28].','출처 없는 문장; [28] 서지(웹 검색 결과)에 그 학명 표기가 있어 출처를 붙이고 근거 문헌 미확인을 밝힘')
+rep('sections.processing',S['processing'],'body','기능성 소재용 추출물은 주로 말린 곰피 가루를 70% 에탄올로 환류 추출한 뒤 감압 농축·동결건조해 만든다[3, 5].','동물 실험에 쓴 추출물은 말린 곰피 가루를 70% 에탄올로 9시간 추출한 뒤 감압 농축·동결건조해 만들었다[3, 5].','[3]·[5]는 각 연구의 추출물 제조법일 뿐 \'주로\' 그렇게 만든다는 일반화를 하지 않음([3] 환류 9시간, [5] 70% 주정 9시간)')
+rep('sections.safety',S['safety'],'body','성인 상한섭취량은 2,400 µg/일이다[27].','한국인 성인(19세 이상) 상한섭취량은 2,400 µg/일이다[27].','[27] 표 4: 2,400 µg/일은 19세 이상 기준(12–18세는 1,900–2,200)')
+rep('sections.safety',S['safety'],'body','곰피 자체의 요오드 함량은 국가표준식품성분표와 PubMed 논문에서 확인하지 못함. 웹 검색 결과 요약에 따르면 일본 학술지의 한 논문은 츠루아라메(E. cava subsp. stolonifera)의 요오드를 4.43 mg/g(비색법)·4.84 mg/g(GC)으로 보고했으나, 원문은 열지 못했다[28].','곰피 자체의 요오드 함량을 다룬 PubMed 논문과 공공 성분표 값은 확인하지 못함. 일본 학술지의 2023년 분석법 단보는 츠루아라메(E. cava subsp. stolonifera) 건조 분말 시료의 요오드를 4.43 mg/g(비색법)·4.84 mg/g(GC)으로 보고했다고 웹 검색 결과에 요약되어 있으나, 원문을 열지 못해 시료 수·채취지는 확인하지 못함[28]. 이 값은 같은 연구에 함께 쓰인 구로메(E. cava subsp. kurome) 값과 다르다[28].','[28]은 비색 정량법 확립 단보(16(2):85–89, 2023)로, 값이 건조 분말 기준·방법 검증용 시료값임을 밝힘; PubMed 검색(Ecklonia stolonifera/tsuruarame AND iodine)으로 다른 값 없음 확인; 국가표준식품성분표는 이 환경에서 열지 못함')
+# last added sentence is weak; remove it
+S['safety']['body']=S['safety']['body'].replace(' 이 값은 같은 연구에 함께 쓰인 구로메(E. cava subsp. kurome) 값과 다르다[28].','')
+changes[-1]['after']=changes[-1]['after'].replace(' 이 값은 같은 연구에 함께 쓰인 구로메(E. cava subsp. kurome) 값과 다르다[28].','')
+rep('sections.safety',S['safety'],'body','세포 실험에서는 곰피 추출물 200 μg/mL와 디엑콜 100 μM에서 세포독성이 나타났다[5].','3T3-L1 지방전구세포 실험에서는 곰피 추출물 200 μg/mL와 디엑콜 100 μM에서 세포독성이 나타났다[5].','[5] 2.10·3.2절: 3T3-L1 세포 24시간 MTT — 세포 종류를 밝힘')
+C={c['name']:c for c in d['compounds']}
+rep('compounds[Phlorofucofuroeckol A].activity_ko',C['Phlorofucofuroeckol A'],'activity_ko','쥐 염증성 통증 모델에서 진통 효과(30 mg/kg 경구)[29]','생쥐 염증성 통증 모델(포르말린·CFA)에서 경구 30 mg/kg 또는 척수강 내 10 μg 투여로 진통 효과[29]','[29] 초록: 수컷·암컷 생쥐(mice), 척수강 내 10 μg 또는 경구 30 mg/kg')
+rep('compounds[Laminarin].activity_ko',C['Laminarin'],'activity_ko','갈조류의 저장 다당; 데치기로 빠져나감 [2]','갈조류의 저장 다당; 데치면 알긴산·후코이단 같은 수용성 다당이 빠져나간다고 정리됨(라미나린을 따로 지목하지는 않음) [2]','[2] 4.1절은 데치기로 알긴산·후코이단 등이 빠진다고 썼을 뿐 라미나린을 지목하지 않음')
+rep('compounds[Iodine].content_text',C['Iodine'],'content_text','곰피 자체 값은 공공 성분표·PubMed에서 확인하지 못함; 웹 검색 요약상 일본 논문은 츠루아라메 4.43 mg/g(비색법)·4.84 mg/g(GC) 보고(원문 미확인) [28]','곰피 자체 값은 PubMed·공공 성분표에서 확인하지 못함; 웹 검색 요약상 일본 분석법 단보(2023)는 츠루아라메 건조 분말 4.43 mg/g(비색법)·4.84 mg/g(GC) 보고(원문 미확인) [28]','[28] 기준(건조 분말)·성격(분석법 단보) 명시')
+rep('compounds[Iodine].activity_ko',C['Iodine'],'activity_ko','한국인 성인 상한섭취량 2,400 µg/일 [27]','한국인 19세 이상 상한섭취량 2,400 µg/일 [27]','[27] 표 4 연령 기준')
+src={s['n']:s for s in d['sources']}
+old=src[28]['title']
+src[28]['title']='「比色法による海藻中ヨウ素の簡易定量分析法の確立」(海藻中 요오드 비색 간이정량법 단보). Algal Resources 2023;16(2):85–89 — 원문을 열지 못하고 웹 검색 결과 요약으로만 확인함'
+changes.append({"where":"sources[28].title","before":old,"after":src[28]['title'],"why":"웹 검색으로 논문 제목·연도(2023)·쪽(85–89)을 확인해 서지 보완"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/ecklonia-stolonifera/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

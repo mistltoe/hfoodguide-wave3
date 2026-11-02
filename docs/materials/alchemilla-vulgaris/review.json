@@ -1,0 +1,129 @@
+{
+ "slug": "alchemilla-vulgaris",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 92,
+ "checked_items": 58,
+ "verified": 131,
+ "fixed": 18,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "나머지 연구 대부분은 꽃 핀 지상부 전체를 시료로 썼다[2, 3, 5, 8].",
+   "after": "나머지 연구는 대부분 지상부나 부위를 밝히지 않은 마른 풀을 시료로 썼다[2, 3, 5, 8].",
+   "why": "[3]은 부위를 밝히지 않은 마른 풀(dried plant), [2]는 개화기 채집 풀(부위 미기재), [8]만 지상부라고 씀 — \"꽃 핀 지상부 전체\"는 과장"
+  },
+  {
+   "where": "sections.history",
+   "before": "러시아에서는 이 풀이 노인의학에서",
+   "after": "러시아어 총설에서는 이 풀이 노인의학에서",
+   "why": "[36]은 러시아어 총설 한 편이며 러시아 전체의 이용 실태를 말하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "1950년 벨기에에서는 고혈압용 차에",
+   "after": "1950년 벨기에 약학지에는 고혈압용 차에",
+   "why": "[28]은 J Pharm Belg 서지 정보만 있고 초록이 없어 사례 발생 국가는 확인 불가 — 학술지 기준으로 표현"
+  },
+  {
+   "where": "sections.history",
+   "before": "1980년대 프랑스 연구에서는 이 풀의 플라보노이드 분획이",
+   "after": "1986년 프랑스어 논문에서는 이 풀의 플라보노이드 분획(A1)이",
+   "why": "[34] 1986년, 프랑스어 논문(영문 초록); 0.16 mg/mL는 분획 A1 값"
+  },
+  {
+   "where": "sections.biology",
+   "before": "세르비아에서는 6–9월에 꽃이 피고",
+   "after": "6–9월에 꽃이 피고",
+   "why": "[2] 본문은 일반 형태 설명으로 쓰며 세르비아에 한정하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "사람 장내 미생물과 배양하면 엘라그산이 우로리틴 C로 바뀌고 플라보노이드 배당체가 사라졌다[4].",
+   "after": "사람 분변 미생물(공여자 3명)과 24시간 배양하자 엘라그산과 퀘르세틴·켐페롤 글루쿠로나이드가 사라졌고, 우로리틴 C는 공여자 1명의 시료에서만 검출되었다[4].",
+   "why": "[4] 전문: 우로리틴 C는 D1 시료에서만 검출, 글루쿠로나이드는 세 공여자 시료 모두에서 없어짐 — 일반화 표현 정정"
+  },
+  {
+   "where": "compounds[Gallic acid].part",
+   "before": "지상부(마른 풀)",
+   "after": "마른 풀(부위 명시 없음)",
+   "why": "[3] 재료는 \"dried lady's mantle plant\", [2]는 개화기 채집 풀로 부위를 쓰지 않음 — \"지상부\" 근거 없음"
+  },
+  {
+   "where": "compounds[Ellagic acid].part",
+   "before": "지상부(마른 풀)",
+   "after": "마른 풀(부위 명시 없음)",
+   "why": "[3] 재료는 \"dried lady's mantle plant\", [2]는 개화기 채집 풀로 부위를 쓰지 않음 — \"지상부\" 근거 없음"
+  },
+  {
+   "where": "compounds[Catechin].part",
+   "before": "지상부(개화기)",
+   "after": "개화기 채집 풀(부위 명시 없음)",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Quercetin].part",
+   "before": "지상부",
+   "after": "개화기 채집 풀(부위 명시 없음)",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Luteolin 7-O-glucoside].part",
+   "before": "지상부",
+   "after": "개화기 채집 풀(부위 명시 없음)",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Kaempferol 3-O-glucoside].part",
+   "before": "지상부",
+   "after": "개화기 채집 풀(부위 명시 없음)",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Caffeic acid].part",
+   "before": "지상부",
+   "after": "개화기 채집 풀(부위 명시 없음)·지상부",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Rutin].part",
+   "before": "지상부",
+   "after": "개화기 채집 풀(부위 명시 없음)·지상부",
+   "why": "[2] Methods 는 개화기 채집·자연 건조만 쓰고 부위를 밝히지 않음([8] 터키 시료만 지상부)"
+  },
+  {
+   "where": "compounds[Quercetin].activity_ko",
+   "before": "메탄올 추출물에 많고 혈관 이완 작용과 관련지어짐[11]",
+   "after": "혈관 이완 작용을 보인 메탄올 추출물에 특히 많았음(인과는 확인되지 않음)[11]",
+   "why": "[11] 초록은 메탄올 추출물에 퀘르세틴이 많다고만 쓰며 퀘르세틴과 혈관 이완을 직접 연결하지 않음"
+  },
+  {
+   "where": "compounds[Ellagic acid].activity_ko",
+   "before": "사람 장내 미생물 배양에서 우로리틴 C로 전환됨[4]",
+   "after": "사람 분변 미생물 배양에서 사라지고 공여자 1명 시료에서 우로리틴 C가 검출됨[4]",
+   "why": "[4] 우로리틴 C는 D1 시료에서만 검출"
+  },
+  {
+   "where": "assays[2].part",
+   "before": "지상부(세르비아 블라시나 호수 자생지, 2017년 개화기 채집, 자연 건조)",
+   "after": "개화기 채집 풀(세르비아 블라시나 호수 자생지, 2017년 한여름 채집, 자연 건조; 부위는 본문에 없음)",
+   "why": "[2] Methods: 'collected at the flowering stage in midsummer 2017', 부위 미기재"
+  },
+  {
+   "where": "assays[1].source",
+   "before": "[4]",
+   "after": "[4, 5]",
+   "why": "rationale 이 [5]를 인용하므로 source 에 포함"
+  }
+ ],
+ "unverifiable_notes": [
+  "[28] (PMID 14804274, 1950) 은 PubMed 서지 정보만 있고 초록이 없어 혼입 사례 내용은 제목으로만 확인함",
+  "[5][6][7][9][10]–[13][15]–[27][29]–[36] 은 PubMed 초록으로 대조; [2][3][4][8] 은 PMC 전문으로 대조(표 수치·Methods 조건 일치)",
+  "[2] LC-MS/MS 크로마토그래피 조건은 이전 논문 인용으로 본문에 없어 빈칸 유지가 맞음",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 대조: 레이디스맨틀잎(Alchemilla vulgaris L., Ladys mantle, 사용가능부위 : 잎, 사용가능) — card.json·overview 와 일치. 같은 속 A. xanthochlora(Ladys mantle잎)·A. alpina(고산알케밀라잎)·A. arvensis/Aphanes arvensis(Parsley piert잎) 행도 존재 확인, 이 종 값과 섞이지 않음",
+  "근연종 혼입 점검: A. xanthochlora 자료([30][35])는 related_species 에서 따로 표시, 성분 값에는 없음. [5]의 A. mollis 전용 성분(카테킨·프로시아니딘 삼량체·켐페롤 글루쿠로나이드)은 A. vulgaris 값으로 쓰이지 않음. [15] 엽록체 유전체는 아프리카 2종임을 본문이 밝힘",
+  "EMA·ESCOP·GBIF·POWO 등은 네트워크 허용 목록 밖이라 열지 않음(우회하지 않음). WebSearch 0회"
+ ]
+}

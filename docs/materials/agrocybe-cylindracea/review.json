@@ -1,0 +1,33 @@
+{"slug": "agrocybe-cylindracea", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 67, "checked_items": 57,
+ "verified": 92, "fixed": 22, "removed": 6, "unverifiable": 4,
+ "changes": [
+  {"where": "sections.related_species", "before": "중국에서 기재된 A. chaxingu는 오히려 유럽 계통과 가깝게 묶였다[2]", "after": "A. chaxingu로 불린 중국 균주들은 아시아 계통에 들었고, 윈난에서 기재된 근연종(Cyclocybe salicaceicola) 한 균주가 유럽 계통과 가깝게 묶였다[2]", "why": "[2] 전문: chaxingu 균주(MES02023·IHI15)는 아시아 단계통군, 유럽 계통의 자매군은 윈난 기재종(YAASM0711)"},
+  {"where": "sections.related_species", "before": "같은 조건에서 키웠을 때 아시아 계통 균주는 갓이 크고 … 경향이 있었다[2].", "after": "(삭제, 글자 수 조정)", "why": "800자 한도 안에서 식품원료 목록의 혼동 이름(보리볏짚버섯 사용불가, 풀버섯 별명 '볏짚버섯') 문장을 넣기 위해 부차적 문장 정리"},
+  {"where": "sections.related_species", "before": "-", "after": "보리볏짚버섯(Agrocybe erebia) '사용불가', 풀버섯(Volvariella volvacea) 별명 '볏짚버섯' 혼동 주의[1]", "why": "I1020 로컬 원자료(data/raw/mfds_rawmtrl/I1020_20261013.json)에서 확인"},
+  {"where": "sections.biology", "before": "4극성 이형접합성 … 2차 동형접합성", "after": "4극성 이체성(heterothallism) … 2차 동체성(secondary homothallism)", "why": "[3] 은 tetrapolar heterothallic·secondary homothallism. 이형접합성(heterozygosity)과 다른 개념"},
+  {"where": "sections.overview / history", "before": "이탈리아에서는 pioppino로 알려져 있다[2, 7]", "after": "pioppino라는 이름으로도 불린다[2, 7, 26]", "why": "[7] 초록은 'Pioppino mushroom'이라는 이름만 쓰고 이탈리아 명칭이라고 말하지 않음; [26] 키워드에 Black poplar mushroom·Pioppino"},
+  {"where": "sections.history", "before": "국내 학회지 논문은 … '버들볏짚버섯' … 일본 이름 '야나기마쓰타케' … WebSearch 요약으로만 확인[27]", "after": "2008년 한국버섯학회지 논문이 있으나 원문을 열지 못해 다른 국문명·일본명은 확인하지 못함[27]", "why": "koreascience 는 접근 불가, 검색 결과로는 서지(6권 1호 13–19쪽)만 확인되고 별명·일본명은 확인 불가"},
+  {"where": "aliases", "before": "버들볏짚버섯, Poplar mushroom", "after": "(삭제)", "why": "확인 가능한 출처 없음(I1020 별명 칸 비어 있음)"},
+  {"where": "name_en", "before": "Black poplar mushroom (poplar mushroom)", "after": "Black poplar mushroom", "why": "[2]·[5]·[26] 은 black poplar (mushroom)만 씀"},
+  {"where": "sections.cultivation", "before": "850 mL 병재배 병당 114 g … 미송 톱밥 75%·밀기울 25%·수분 70% [27, 28]", "after": "세부 수치는 확인하지 못함[27]", "why": "원문 미열람, WebSearch 로도 수치 확인 불가 → 수치 삭제, 출처 [28] 제거"},
+  {"where": "sections.processing", "before": "이 푸코글루코갈락탄은 … IC50 490 μg/mL … 동물·세포 실험이 있다[11, 12]", "after": "별도 연구의 ACP … 높은 농도 … 사람에서의 효과는 확인되지 않았다[11, 12]", "why": "[10]의 JACP-30과 [12]의 ACP가 같은 분획이라는 근거 없음; 세포·동물 결과 과장 방지"},
+  {"where": "sections.processing", "before": "셀레늄을 넣어 키운 균사체 다당도 연구되었다", "after": "균사체(식품원료 사용 부위가 아님) 다당도 생쥐에서 연구되었다", "why": "[30] 은 균사체 다당, 식품원료 지위는 자실체만"},
+  {"where": "sections.genetics", "before": "미토콘드리아 유전체는 116,329 bp", "after": "중국 광시 연구진이 A. aegerita(tea tree mushroom)로 분석한 미토콘드리아 유전체는 116,329 bp", "why": "[15] 키워드 'tea tree mushroom'—아시아 계통(차수고 계열) 균주일 수 있어 출처 성격 명시"},
+  {"where": "sections.genetics", "before": "자실체 발달 7단계의 전사체 분석", "after": "유럽 균주의 자실체 형성 과정 7개 시점 전사체 분석", "why": "[26] 은 7개 시점(균사 단계 포함)"},
+  {"where": "sections.safety", "before": "카드뮴 섭취가 내용섭취량의 최대 27–31%", "after": "생버섯 300 g(건물 30 g) 1회 섭취 가정 … 최대 27–31% … 건강상 우려 수준은 아니라고 봄", "why": "[22] 전문의 섭취 가정·결론 반영"},
+  {"where": "sections.safety", "before": "메탄올 추출물은 에임스 시험에서", "after": "튀르키예 야생 시료의 메탄올 추출물은 에임스 시험(TA98·TA100)에서", "why": "[23] 전문 대조"},
+  {"where": "compounds[beta-1,6-Glucan].activity_ko", "before": "다당(ACP) 9주 투여로 … (동물 실험)[11]", "after": "이 분획 자체의 활성은 보고되지 않음[10]; 분획 미특정 다당(ACP)은 …[11]", "why": "[11] 의 ACP 를 β-(1→6)-글루칸 분획의 활성으로 붙인 것은 근거 없음"},
+  {"where": "compounds[Agrocybe aegerita lectin].activity_ko", "before": "시알산 특이 렉틴으로 당사슬 연구 도구로 쓰임[14]", "after": "이와 별개로 A. cylindracea에서 분리된 시알산 특이 렉틴은 …[14]", "why": "[14] 의 시알산 특이 렉틴(A. cylindracea 렉틴)과 [6] 의 간독성 AAL 을 같은 단백질로 단정할 근거 없음"},
+  {"where": "compounds[Brunnein B].activity_ko", "before": "이 종에서 처음 보고된 화합물", "after": "이전에 보고되지 않은 새 화합물", "why": "[5] 'not reported previously'"},
+  {"where": "compounds[Ageritin].content_text", "before": "100 g당 2.5 mg 넘게", "after": "100 g당 2.5 mg 넘게(생·건 기준은 초록에 없음)", "why": "기준 명시"},
+  {"where": "compounds[L-Glutamine]·[5'-CMP], assays[0..1].content", "before": "mg/g", "after": "mg/g (−80 ℃ 보관 자실체 분말, 생·건 기준 미명시)", "why": "[4] 전문 Methods 에 건조 여부·기준 없음"},
+  {"where": "sections.overview", "before": "A. aegerita가 A. cylindracea로도 알려져", "after": "A. aegerita가 유럽과 미국에서는 A. cylindracea로도 알려져", "why": "[6] 원문 그대로"},
+  {"where": "sources", "before": "[28] 한국버섯학회지 2011 (WebSearch 요약)", "after": "삭제, [29]–[32] → [28]–[31] 재번호", "why": "주장 삭제로 미사용"}
+ ],
+ "unverifiable_notes": [
+  "[27] koreascience 원문은 허용 목록 밖이라 열지 못함. WebSearch 1회로 서지(한국버섯학회지 6(1):13–19, 2008)만 확인",
+  "[5]·[6]·[10]·[11]·[12]·[13]·[14]·[15]·[16]·[18]·[19]·[20]·[21]·[24]·[26]·[28]–[31] 은 PubMed 초록으로 대조(전문 없음 또는 불필요). [2]·[3]·[4]·[8]·[17]·[22]·[23]·[25] 는 PMC 전문으로 대조",
+  "assays[0..1] 분석 조건(칼럼·이동상·기울기·유속·온도·검출·주입량·전처리)은 [4] 전문 Methods 와 한 칸씩 일치. 검출·정량한계·회수율은 원문에 없음",
+  "식품원료 지위(버들송이, Agrocybe cylindracea (DC. ex Fr.) Maire, 사용가능, 사용가능부위: 자실체)는 card.json 및 I1020 로컬 원자료와 일치. 볏짚버섯·이끼볏짚버섯·황토볏짚버섯 자료는 본문 성분·안전성 자료에 섞여 있지 않음"
+ ]}

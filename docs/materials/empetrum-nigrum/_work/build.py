@@ -1,0 +1,224 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+
+def pm(n, title, pmid, doi=None, pmc=None, note="초록만 확인"):
+    t = f"{title} (PMID {pmid}" + (f", {pmc}" if pmc else "") + f"; {note})"
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n": n, "title": t, "url": url, "publisher": "PubMed", "accessed": A}
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 시로미열매(Empetrum nigrum L. / Empetrum nigrum var. japonicum K.Koch / Empetrum albicarpha Sugaw. / Empetrum asiaticum Nakai; 이명 암고란(岩高蘭)·조이(鳥李); Crowberry, Korean crowberry), 사용가능, 사용가능부위: 열매; 같은 속·근연 다른 행(Empetrum rubrum열매, Purple crowberry열매 E. atropurpureum, Rockberry열매 E. eamesii, Portuguese crowberry열매 Corema album) 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, 카드 card.json 의 다른 나라 목록 표시 포함)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Black Crowberry (Empetrum nigrum L.) Flavonoids and Their Health Promoting Activity — Molecules 2016;21(12):1685 (리뷰)", "27941619", "10.3390/molecules21121685", "PMC6272966", "전문 확인; 도구 출력에서 이탤릭 학명·일부 접두어가 빠져 있음"),
+    pm(3, "Anthocyanin composition and antioxidant activity of the Crowberry (Empetrum nigrum) and other berries — J Agric Food Chem 2008;56(12):4457-62", "18522397", "10.1021/jf800406v"),
+    pm(4, "Variation in the anthocyanin concentration of wild populations of crowberries (Empetrum nigrum L subsp. hermaphroditum) — J Agric Food Chem 2010;58(23):12286-91", "21058654", "10.1021/jf1037695"),
+    pm(5, "Alaskan wild berry resources and human health under the cloud of climate change — J Agric Food Chem 2010;58(7):3884-900", "20025229", "10.1021/jf902693r", "PMC2850959", "전문 확인; 도구 출력에서 이탤릭 학명이 빠져 있어 시료 코드 EN-AK·EN-SD·EN-PH 로 대조"),
+    pm(6, "Anthocyanin Profile and Antioxidant Activity of Various Berries Cultivated in Korea — Nat Prod Commun 2015;10(6):963-8", "26197528"),
+    pm(7, "Antioxidant, α-glucosidase inhibitory and anti-inflammatory effects of aerial parts extract from Korean crowberry (Empetrum nigrum var. japonicum) — Saudi J Biol Sci 2016;23(2):181-8", "26980998", "10.1016/j.sjbs.2015.02.008", "PMC4778518", "전문 확인"),
+    pm(8, "Risk reduction of ethyl acetate fraction of Empetrum nigrum var. japonicum via antioxidant properties against hydrogen peroxide-induced cell damage — J Toxicol Environ Health A 2009;72(21-22):1499-508", "20077224", "10.1080/15287390903213178"),
+    pm(9, "Empetrum nigrum var. japonicum Extract Suppresses Ultraviolet B-Induced Cell Damage via Absorption of Radiation and Inhibition of Oxidative Stress — Evid Based Complement Alternat Med 2013:983609", "23476710", "10.1155/2013/983609", "PMC3588204", "전문 확인"),
+    pm(10, "Empetrum nigrum var. japonicum extract suppresses γ-ray radiation-induced cell damage via inhibition of oxidative stress — Am J Chin Med 2011;39(1):161-70", "21213406", "10.1142/S0192415X11008725"),
+    pm(11, "In Vitro and In Vivo Antiangiogenic Activity of Crowberry (Empetrum nigrum var. japonicum) — Nat Prod Commun 2016;11(4):503-6", "27396205"),
+    pm(12, "Crowberry inhibits cell proliferation and migration through a molecular mechanism that includes inhibition of DEK and Akt signaling in cholangiocarcinoma — Chin Med 2022;17:73", "35698073", "10.1186/s13020-022-00623-6", "PMC9190153", "전문 확인"),
+    pm(13, "Effects of crowberry (Empetrum nigrum subsp.) supplementation on inflammatory and metabolic adverse effects in high-fat diet-induced experimental obesity — Food Nutr Res 2026;70:14418", "42859780", "10.29219/fnr.v70.14418", "PMC13653420", "전문 확인; 아종명은 도구 출력에서 빠져 확인 못함"),
+    pm(14, "Arctic berry extracts target the gut-liver axis to alleviate metabolic endotoxaemia, insulin resistance and hepatic steatosis in diet-induced obese mice — Diabetologia 2018;61(4):919-931", "29270816", "10.1007/s00125-017-4520-z"),
+    pm(15, "Enhanced Glucose Uptake in Human Liver Cells and Inhibition of Carbohydrate Hydrolyzing Enzymes by Nordic Berry Extracts — Molecules 2017;22(10):1806", "29064442", "10.3390/molecules22101806", "PMC6151378"),
+    pm(16, "Inhibition activity of wild berry juice fractions against Streptococcus pneumoniae binding to human bronchial cells — Phytother Res 2011;25(1):122-7", "20625989", "10.1002/ptr.3240"),
+    pm(17, "A single Mid-Pleistocene long-distance dispersal by a bird can explain the extreme bipolar disjunction in crowberries (Empetrum) — Proc Natl Acad Sci USA 2011", "21402939", "10.1073/pnas.1012249108", "PMC3081031", "PMC 전문 본문이 비어 있어 초록만 확인; 초록의 학명은 도구 출력에서 빠짐"),
+    pm(18, "Phylogenetic relationships of Empetraceae inferred from sequences of chloroplast gene matK and nuclear ribosomal DNA ITS region — Mol Phylogenet Evol 2002;25(2):306-15", "12414312", "10.1016/s1055-7903(02)00241-5"),
+    pm(19, "Cytogenetic variation in the British flora: origins and significance — New Phytol 1984;98(1):101-118", "29681119", "10.1111/j.1469-8137.1984.tb06100.x"),
+    pm(20, "Characterisation of the differential interference effects of two boreal dwarf shrub species — Oecologia 2000;123(1):122-128", "28308737", "10.1007/s004420050997"),
+    pm(21, "Phenolic responses of mountain crowberry (Empetrum nigrum ssp. hermaphroditum) to global climate change are compound specific and depend on grazing by reindeer — J Chem Ecol 2013;39(11-12):1390-9", "24287946", "10.1007/s10886-013-0367-z"),
+    pm(22, "Antioxidants Content in Empetrum nigrum Fresh and Dried Fruits — Iran J Public Health 2016;45(2):263-5 (편집자에게 보내는 글)", "27114994", None, "PMC4841884", "전문 확인; 학명 일부는 도구 출력에서 빠져 있음"),
+    pm(23, "Structure elucidation and NMR assignments of a new dihydrochalcone from Empetrum nigrum subsp. asiaticum (Nakai ex H.Ito) Kuvaev — Nat Prod Res 2020;34(7):930-934", "30584772", "10.1080/14786419.2018.1542390"),
+    pm(24, "Nigrumol A, a new triterpenoid from Empetrum nigrum subsp. asiaticum (Nakai ex H.Ito) Kuvaev — Nat Prod Res 2022;36(20):5263-5267", "34030545", "10.1080/14786419.2021.1929975"),
+    pm(25, "A new dimethoxy dihydrochalcone isolated from the shoots of Empetrum nigrum L. — Nat Prod Res 2022;36(20):5142-5147", "33949278", "10.1080/14786419.2021.1920584"),
+    pm(26, "Total synthesis and antibacterial evaluation of Empetroxepins A and B and related analogs — Bioorg Med Chem Lett 2022;75:128955", "36038118", "10.1016/j.bmcl.2022.128955"),
+    pm(27, "The tolerance of Empetrum nigrum to copper and nickel — Environ Pollut 2000;109(2):221-9", "15092893", "10.1016/s0269-7491(99)00264-x"),
+    pm(28, "A study of the spatial distribution patterns of airborne polycyclic aromatic hydrocarbons in crowberry (Empetrum nigrum) in Ilulissat, Greenland — Environ Sci Pollut Res Int 2021;28(18):23133-23142", "33442805", "10.1007/s11356-021-12365-3"),
+    pm(29, "Impact of early and late winter icing events on sub-arctic dwarf shrubs — Plant Biol (Stuttg) 2014;16(1):125-32", "23574610", "10.1111/plb.12015"),
+    pm(30, "Special delivery: scavengers direct seed dispersal towards ungulate carcasses — Biol Lett 2018;14(8):20180388", "30111659", "10.1098/rsbl.2018.0388", "PMC6127118"),
+    pm(31, "Isolation, synthesis, and biological activities of a bibenzyl from Empetrum nigrum var. — Biosci Biotechnol Biochem 2020;84(1):31-36", "31794330", "10.1080/09168451.2019.1662279", None, "초록만 확인; 변종명은 도구 출력에서 빠져 확인 못함"),
+    pm(32, "Slow growth of Empetrum nigrum in industrial barrens: combined effect of pollution and age of extant plants — Environ Pollut 2008;156(2):454-60", "18329145", "10.1016/j.envpol.2008.01.025"),
+    pm(33, "Compositional and morphological analyses of wax in northern wild berry species — Food Chem 2019;295:441-448", "31174780", "10.1016/j.foodchem.2019.05.134"),
+    pm(34, "Identification of antibacterial peptides from endophytic microbiome — Appl Microbiol Biotechnol 2016;100(21):9283-9293", "27541748", "10.1007/s00253-016-7765-4"),
+    {"n": 35, "title": "한라산 동사면 장기생태 연구지역의 산림청 지정 희귀식물 목록(시로미 VU 표기) — 한국자원식물학회 2019 학술발표 요지 (koreascience 는 이 환경에서 열리지 않아 본문은 열지 않고 WebSearch 요약으로만 확인)", "url": "https://koreascience.kr/article/CFKO201921956453547.pdf", "publisher": "한국자원식물학회(KoreaScience)", "accessed": A},
+    {"n": 36, "title": "희귀 수종 시로미의 액아줄기 유도 미세번식 (국립산림과학원 연구; koreascience 는 이 환경에서 열리지 않아 본문은 열지 않고 WebSearch 요약으로만 확인)", "url": "https://koreascience.kr/article/JAKO201034952231609.page?lang=ko", "publisher": "KoreaScience", "accessed": A},
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "시로미(Empetrum nigrum)는 잎을 사계절 달고 있는 상록 난쟁이 관목으로, 높은 산과 추운 지역에서 자라며 검은 열매(crowberry)를 맺는다[9]. 북반구의 유럽·유라시아·캐나다 등에 흔한 야생 장과(베리)이고, 분류 체계에 따라 진달래과(Ericaceae) 또는 시로미과(Empetraceae)로 다룬다[1, 2, 18]. "
+  "식약처 「식품원료 목록」에는 원료명 '시로미열매'(이명 암고란(岩高蘭)·조이(鳥李), 영명 Crowberry·Korean crowberry) 한 행이 있고, 학명 칸에는 Empetrum nigrum L., 국내 변종 표기 E. nigrum var. japonicum K.Koch, E. albicarpha Sugaw., E. asiaticum Nakai가 함께 적혀 있다[1]. "
+  "상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 열매'여서, 잎·줄기는 이 목록에서 식품원료로 확인되지 않는다[1]. "
+  "앱 카드에는 다른 나라 목록으로 EU 신규식품(Novel Food) 카탈로그 표시가 있으나, 그 구체적 지위는 확인하지 못함. "
+  "이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+  "열매는 시아니딘·델피니딘 3-갈락토사이드 중심의 안토시아닌과 퀘르세틴·미리세틴 계열 플라보놀이 많아, 비교 연구에서 다른 베리보다 총 안토시아닌이 높게 나왔다[2, 3, 6]. "
+  "효과 근거는 간세포 포도당 흡수 증가 같은 시험관 결과[15]와 동물 실험이 대부분이고, 사람 연구는 건강한 성인이 분말 2 g을 4주간 먹은 소규모 연구 등이 리뷰로 전해질 뿐이다[2, 13]."},
+ {"key": "history", "title": "역사와 쓰임", "body":
+  "국내 문헌에서 시로미는 한국에 자생하며 민간에서 널리 쓰였다고 소개된다[11]. "
+  "한국에서는 젊음을 유지하고 방광염·신장염·요도염 같은 염증성 질환을 다스리는 데 썼다고 전한다[7]. "
+  "중국 민간에서는 가지와 잎을 소화불량 등 비위(脾胃)에, 열매를 간을 보하는 데 쓰며 알코올성 간질환 예방·치료에 이용한다는 기록이 논문에 인용되어 있다[12]. "
+  "러시아에서는 열매를 간질·마비 증상에 쓰는 민간요법이 있고, 시로미 추출물이 든 동종요법 약이 간질 치료에 쓰였다고 리뷰는 정리한다[2]. "
+  "북미 원주민 공동체에서는 생과가 전통 식단의 일부였고, 알래스카 앵커리지 부근의 원주민은 잎과 줄기를 설사와 신장 질환에 썼다[2, 5]. "
+  "핀란드에서는 열매를 주스로 마신다[9].\n\n"
+  "열매 안토시아닌을 처음 정량한 북유럽 연구에서는 시아니딘·델피니딘·말비딘 갈락토사이드가 전체의 약 60%를 차지했다[2]. "
+  "2008년 일본 연구는 HPLC-DAD·질량분석으로 안토시아닌 13종을 확인했고[3], 2010년 핀란드 연구는 아종 hermaphroditum 야생 집단에서 15종을 검출했다[4]. "
+  "국내에서는 제주 연구진이 국내 변종(var. japonicum) 에틸아세테이트 분획의 세포 보호 효과를 2009년부터 잇달아 보고했다[8, 9, 10]. "
+  "한라산 장기생태 연구지역 보고에서 시로미는 산림청 지정 희귀식물(취약, VU)로 표기되었으나, 이는 본문을 열지 못하고 WebSearch 요약으로만 확인한 내용이다[35]."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "시로미는 북극·고산 환경과 온대·아한대 기후에 걸쳐 북반구를 둘러싸며 분포하는 종이다[22]. "
+  "꽃이 암수딴그루인 기본 아종과 한 그루에 양성화를 피우는 아종으로 나뉘며[22], 양성화 아종은 hermaphroditum(산시로미, mountain crowberry)으로 불린다[4, 21]. "
+  "리뷰는 이 아종을 4배체로 소개하며, 2026년 핀란드 연구는 4배체 아종이 다른 아종보다 더 북쪽에서 자란다고 썼다[2, 13]. "
+  "열매는 즙이 많고 껍질에 안토시아닌 색소가 많다[2, 22].\n\n"
+  "고산 툰드라에서 시로미는 주로 영양번식을 하는 핵심종이며, 까마귀류 같은 청소동물의 배설물에서 살아 있는 씨앗이 흔히 나와 새가 씨앗을 퍼뜨리는 것으로 보고되었다[30]. "
+  "러시아 연구는 새순에서 새 다이하이드로칼콘을 포함해 다이하이드로칼콘·비벤질·다이하이드로페난트렌 등 8종을 분리했다[25]. "
+  "일본 다테야마에서는 뇌조가 이 식물의 잎과 열매를 자주 먹는다[31]. "
+  "스웨덴 아북극 실험에서 1월에 얼음으로 덮인 구역은 2년 뒤 열매 생산이 대조구보다 83% 적었다[29]. "
+  "구리·니켈 제련소 부근에서도 자라는 드문 종으로, 실험 조건에서 오래된 줄기에 구리 3000 mg/kg 이상, 니켈 1000 mg/kg 이상을 쌓으면서도 살아남았다[27]. "
+  "열매 표면 왁스는 알케인이 주성분이어서 트라이테르페노이드가 주성분인 빌베리·링곤베리와 다르다[33]. "
+  "국내 연구에서는 한라산 해발 약 3,600피트 지점에서 잎·줄기 시료를 채집했다[7]."},
+ {"key": "related_species", "title": "근연종과 이름", "body":
+  "식약처 목록의 시로미열매 행은 E. nigrum L.과 함께 국내 변종 var. japonicum K.Koch와 E. asiaticum Nakai를 같은 원료로 묶어 적는다[1]. "
+  "국내·중국 연구는 이 아시아 계통을 E. nigrum var. japonicum으로 적고[7, 12], 내몽골 연구는 E. nigrum subsp. asiaticum (Nakai ex H.Ito) Kuvaev로 적는다[23, 24]. "
+  "양성화 계통은 아종(subsp. hermaphroditum)으로 다루는 연구와 별도 종(E. hermaphroditum)으로 다루는 연구가 있다[4, 20]. "
+  "스웨덴 연구는 두 분류군이 형태는 비슷하지만, 비벤질 화합물의 치환 차이 때문에 소나무 씨앗 발아를 억제하는 힘이 크게 다르다고 보고했다[20].\n\n"
+  "같은 속의 다른 식품원료로 목록에는 Empetrum rubrum열매, Purple crowberry열매(E. atropurpureum), Rockberry열매(E. eamesii, 영명 Purple crowberry)가 따로 올라 있다[1]. "
+  "엽록체·핵 유전자 분석에서 시로미속은 하나의 계통군을 이루며, Corema·Ceratiola 계통군과 자매 관계였다[18]. "
+  "Corema album(포르투갈 흰 시로미)은 식약처 목록에서 'Portuguese crowberry열매'라는 별도 원료이므로 성분·효과 자료를 시로미와 섞지 말아야 한다[1]. "
+  "같은 진달래과 야생 베리인 빌베리와는 안토시아닌 구성이 비슷하고, 시로미 쪽 총량이 더 높다고 보고된다[2, 13]."},
+ {"key": "cultivation", "title": "자생과 채집", "body":
+  "시로미는 주로 야생에서 채집하는 베리이며, 리뷰는 상업 제품에 흔히 쓰이지 않는다고 평가했다[2]. "
+  "국내 재배 면적이나 생산량 같은 생산 통계는 확인하지 못함. "
+  "핀란드 연구에서는 신선한 열매 약 900 g으로 자연 건조 분말 100 g을 만들었다[13].\n\n"
+  "열매 성분은 자라는 곳에 따라 크게 달라진다[4, 5]. "
+  "핀란드 네 야생 집단에서 중부·동부 시료는 델피니딘 3-갈락토사이드가, 최북단·서부 시료는 시아니딘 3-갈락토사이드가 가장 많았다[4]. "
+  "알래스카 세 곳 가운데 기후가 가장 혹독한 포인트호프 시료의 총 안토시아닌이 가장 높았다[5]. "
+  "노르웨이 툰드라 실험에서는 순록 방목 강도에 따라 온난화가 잎 페놀 성분을 바꾸는 방향이 달라졌다[21]. "
+  "제련소 부근 오염 지역의 개체는 비오염지 개체보다 평균 두 배 늙었고 새순이 짧았지만, 열매 생산은 오염과 나이에 영향을 받지 않았다[32]. "
+  "국립산림과학원 연구에서 희귀 수종인 시로미의 조직배양(미세번식)에 WPM 배지가 MS 배지보다 낫다고 보고되었으나, 이는 본문을 열지 못하고 WebSearch 요약으로만 확인한 내용이다[36]."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "생과는 탄닌이 많아 약간 시고 쓰며 떫어 식물 문헌에서 먹기 어려운 열매로 분류되기도 하나, 얼리면 맛이 나아진다[2]. "
+  "그래서 주스·잼, 다른 베리와 섞은 제품, 와인으로 먹는 경우가 많다[2]. "
+  "루마니아 연구에서 말린 열매는 생과보다 건조중량 기준 총 폴리페놀(4.30 → 7.51 mg GAE/g DW)과 플라보노이드(2.46 → 3.94 mg CE/g DW)가 높게 측정되어, 저자들은 말린 분말을 생과 대용으로 쓸 수 있다고 보았다[22].\n\n"
+  "열매의 짙은 색은 천연 색소로 주목받는다[2]. "
+  "처리하지 않은 시로미 주스의 안토시아닌 반감기는 4–6주였고, 산소를 90% 없애면 안정성이 3–4배 좋아졌다[2]. "
+  "다른 연구에서 시로미 주스 안토시아닌 반감기는 21 °C 2.2주, 9 °C 7.3주, 4 °C 12.3주로 낮은 온도에서 길었다[2]. "
+  "블랙커런트 와인에 시로미 주스를 넣으면 색이 약 35% 진해졌지만 6개월 저장 후 색 강도가 약 60% 줄었다[2]. "
+  "블랙커런트 주스에 시로미 분말 추출물을 넣으면 총 폴리페놀이 100 mL당 159 mg에서 293 mg으로 늘고, 건강한 사람에서 식후 혈당·인슐린 반응이 조금 완만해졌다[2]. "
+  "주스 분획은 폐렴구균이 사람 기관지 세포에 붙는 것을 막고 성장을 억제했다(시험관)[16]. "
+  "주스를 짜고 남은 박(press residue)에 안토시아닌이 가장 많았다는 보고도 있다[2]."},
+ {"key": "genetics", "title": "유전과 계통", "body":
+  "시로미는 배수성 변이가 있는 종으로, 영국에서도 분포와 생태가 다른 두 염색체형(cytotype)이 보고되었다[19]. "
+  "양성화 아종은 4배체로 소개된다[2, 13].\n\n"
+  "엽록체 matK 유전자와 핵 ITS 염기서열 분석에서 남반구와 북반구의 시로미속 식물은 하나의 계통군으로 묶였고, 이는 두 반구에서 따로 생겼다는 가설을 부정하고 장거리 산포를 지지했다[18]. "
+  "2011년 연구는 핵 저복제 유전자 2곳과 엽록체 2곳을 41개체(핵 클론 420개)에서 분석해 시로미속을 세 계통군으로 나눴다[17]. "
+  "동부 캐나다의 분홍 열매 계통이 나머지와 자매군이었고, 남반구의 붉은 열매 계통은 북미 서북부의 검은 열매 계통과 가장 가까웠다[17]. "
+  "남·북반구 계통의 최근 공통조상은 약 56만–93만 년 전으로 추정되어, 중기 플라이스토세에 새 한 번의 장거리 산포로 양극 분포를 설명할 수 있다고 결론지었다[17].\n\n"
+  "핀란드 연구진은 시로미 내생균 군집이 대부분 알려지지 않은 분류군으로 이루어졌음을 확인하고, 내생균 DNA 라이브러리에서 새 항균 단백질 유전자(En-AP1)를 찾았다[34]. "
+  "시로미 자체의 전체 유전체 해독 결과는 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "식약처 목록에서 식품원료로 쓸 수 있는 부위는 열매뿐이다[1]. "
+  "국내 연구 다수는 잎·줄기 등 지상부나 전초 추출물을 썼으므로, 그 결과를 식품으로 먹는 열매에 그대로 옮겨서는 안 된다[7, 12]. "
+  "이 종에 대한 고시형 원료의 섭취 시 주의사항은 없고, 공공기관이 낸 알레르기·독성 정보는 확인하지 못함.\n\n"
+  "사람 연구는 건강한 성인이 시로미 분말 2 g을 4주간 매일 먹고 총콜레스테롤·LDL이 낮아졌다는 연구가 리뷰로 전해지며, 참가자 수는 리뷰에 51명, 다른 글에 55명으로 서로 다르게 적혀 있다[2, 22]. "
+  "쥐에게 사료 무게의 20%를 시로미 분말로 12주간 먹인 실험에서 체중 증가는 달라지지 않았고 염증 지표가 낮아졌다[13]. "
+  "같은 실험에서 간의 Cyp3a11 발현이 늘었는데, 저자들은 이 효소가 사람의 약물대사 효소 CYP3A4와 기능이 비슷하므로 추가 연구가 필요하다고 적었다[13]. "
+  "다른 비만 쥐 실험에서는 시로미 추출물이 고인슐린혈증을 막지 못해, 대사 효과 근거는 일관되지 않다[14].\n\n"
+  "시로미는 오염원 근처에서 중금속을 오래된 줄기에 쌓고[27], 그린란드 마을 주변 시료에서는 다환방향족탄화수소(PAH) 19종 중 18종이 0.69–93.01 μg/kg 범위로 검출되어 배출원에 가까울수록 높았다[28]. "
+  "이 결과들은 줄기·지상부 시료를 포함한 환경 모니터링 연구이므로 열매의 섭취 위해로 바로 해석할 수는 없지만, 도로·제련소 주변 채집은 피하는 편이 안전하다는 근거로 볼 수 있다[27, 28]."},
+]
+
+compounds = [
+ {"name": "Cyanidin 3-galactoside", "name_ko": "시아니딘-3-갈락토사이드", "class": "안토시아닌", "role": "marker", "part": "열매",
+  "content_text": "동결건조 열매 추출물 8.04 mg/g extract(HPLC)[3]; 핀란드 최북단·서부 야생 집단의 주 안토시아닌[4]; 국내 재배 베리 비교에서 주 안토시아닌[6]",
+  "activity_ko": "열매 주 색소로 항산화 활성에 기여(추출물 수준)[3]", "source": [3, 4, 6]},
+ {"name": "Delphinidin 3-galactoside", "name_ko": "델피니딘-3-갈락토사이드", "class": "안토시아닌", "role": "marker", "part": "열매",
+  "content_text": "동결건조 열매 추출물 8.62 mg/g extract[3]; 핀란드 중부·동부 집단에서 총 안토시아닌의 24% 이상[4]; 알래스카 세 시료 모두 주요 피크[5]",
+  "activity_ko": "열매 주 색소(개별 활성 자료는 확인하지 못함)", "source": [3, 4, 5]},
+ {"name": "Malvidin 3-galactoside", "name_ko": "말비딘-3-갈락토사이드", "class": "안토시아닌", "role": "bioactive", "part": "열매",
+  "content_text": "알래스카 포인트호프 시료의 3대 안토시아닌 중 하나[5]; 시아니딘·델피니딘 갈락토사이드와 합쳐 총 안토시아닌의 약 60%(초기 정량 연구)[2]",
+  "activity_ko": "안토시아닌 혼합물로서 항산화(개별 활성 자료는 확인하지 못함)[2]", "source": [5, 2]},
+ {"name": "Petunidin 3-galactoside", "name_ko": "페투니딘-3-갈락토사이드", "class": "안토시아닌", "role": "bioactive", "part": "열매",
+  "content_text": "북유럽 베리 비교에서 다른 베리보다 비교적 많이 들어 있음(수치는 리뷰에 없음)[2]",
+  "activity_ko": "", "source": [2]},
+ {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보놀", "role": "bioactive", "part": "열매",
+  "content_text": "국내산 열매 23 ± 1.5 mg/100 g FW(HPLC)[2]; 캐나다 열매 플라보놀 37.2 mg/100 g FW 중 퀘르세틴-3-글루코사이드 13.6 mg/100 g FW[2]",
+  "activity_ko": "플라보놀(퀘르세틴·미리세틴·캠페롤) 합계가 양파·케일·브로콜리보다 높다고 보고[2]", "source": [2]},
+ {"name": "Kaempferol", "name_ko": "캠페롤", "class": "플라보놀", "role": "bioactive", "part": "열매",
+  "content_text": "국내산 열매 21.5 ± 0.5 mg/100 g FW[2]; 캐나다 열매 0.72 mg/100 g FW(배당체 형태)[2]",
+  "activity_ko": "", "source": [2]},
+ {"name": "Myricetin", "name_ko": "미리세틴", "class": "플라보놀", "role": "bioactive", "part": "열매",
+  "content_text": "열매 플라보놀 35종이 미리세틴·퀘르세틴의 배당체로 확인됨(함량 수치는 리뷰에 없음)[2]",
+  "activity_ko": "", "source": [2]},
+ {"name": "Epicatechin", "name_ko": "에피카테킨", "class": "플라반-3-올", "role": "bioactive", "part": "열매",
+  "content_text": "7.09 ± 0.41 mg/100 g FW(열매 플라반-3-올 중 최다)[2]",
+  "activity_ko": "", "source": [2]},
+ {"name": "Proanthocyanidins", "name_ko": "프로안토시아니딘(A형 중합체)", "class": "축합형 탄닌", "role": "bioactive", "part": "열매",
+  "content_text": "알래스카 세 시료 0.75·2.86·3.74 mg/g FW(에피카테킨 당량, 280 nm)[5]",
+  "activity_ko": "프로안토시아니딘 분획이 3T3-L1 지방세포의 지질 축적을 줄임(시험관)[5]", "source": [5]},
+ {"name": "Coumaric acid", "name_ko": "쿠마르산", "class": "페놀산", "role": "bioactive", "part": "열매",
+  "content_text": "주된 페놀산 8.33 ± 0.63 mg/100 g FW, 다른 이성질체 1.33 mg/100 g FW; 총 페놀산 12.1 mg/100 g FW(UHPLC-MS/MS; 이성질체 접두어는 도구 출력에서 빠져 확인 못함)[2]",
+  "activity_ko": "", "source": [2]},
+ {"name": "2'-Methoxy-4'-hydroxydihydrochalcone", "name_ko": "2'-메톡시-4'-하이드록시다이하이드로칼콘", "class": "다이하이드로칼콘", "role": "marker", "part": "전초(국내 식품원료 사용부위 아님); 열매에도 존재 보고",
+  "content_text": "중국산 전초 메탄올 추출물 중 0.71%(HPLC-DAD, 250 nm)[12]; 열매에 2'-메톡시-4'-하이드록시 α·β-다이하이드로칼콘 존재(리뷰)[2]",
+  "activity_ko": "항균 활성이 있는 성분으로 소개됨[2]", "source": [12, 2]},
+ {"name": "2',4'-Dihydroxychalcone", "name_ko": "2',4'-다이하이드록시칼콘", "class": "칼콘", "role": "bioactive", "part": "전초(국내 식품원료 사용부위 아님)",
+  "content_text": "전초 메탄올 추출물 중 1.35%(250 nm 크로마토그램의 주 피크)[12]",
+  "activity_ko": "P-388 백혈병·HT-29 대장암 세포에 강한 항암 효과가 보고된 성분으로 인용됨[12]", "source": [12]},
+ {"name": "Empetroxepin A", "name_ko": "엠페트록세핀 A", "class": "다이벤즈옥세핀", "role": "bioactive", "part": "식물체(부위는 초록에 없음)",
+  "content_text": "함량 확인하지 못함(분리·합성 연구)[26]",
+  "activity_ko": "황색포도상구균·고초균에 MIC 256 μg/mL의 약한 항균 활성[26]", "source": [26]},
+ {"name": "Batatasin III", "name_ko": "바타타신 III", "class": "비벤질", "role": "bioactive", "part": "잎(아종 hermaphroditum)",
+  "content_text": "가벼운 방목 조건에서 온난화로 잎 농도 감소(수치는 초록에 없음)[21]",
+  "activity_ko": "", "source": [21]},
+ {"name": "Nigrumol A", "name_ko": "니그루몰 A", "class": "트라이테르페노이드", "role": "bioactive", "part": "지상부(subsp. asiaticum)",
+  "content_text": "새 화합물로 분리(함량 확인하지 못함)[24]",
+  "activity_ko": "에탄올·사염화탄소로 유도한 L02 간세포 독성을 줄임(시험관)[24]", "source": [24]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Cyanidin 3-glucoside", "compound_ko": "총 안토시아닌(시아니딘-3-글루코사이드 당량)", "part": "열매(알래스카 야생, 냉동 시료의 페놀 농축 추출물)",
+  "content": "아쿠탄 2.76, 셀도비아 2.65, 포인트호프 4.39 mg/g FW[5]", "method": "HPLC-UV/Vis(520 nm)",
+  "conditions": {"instrument": "Agilent 1100 HPLC", "column": "Supelcosil-LC-18 역상, 250 mm × 4.6 mm, 5 μm (Supelco)",
+   "mobile_phase": "A: 5% 포름산 수용액, B: 100% 메탄올",
+   "gradient": "B 10%(0분)·15%(5분)·20%(15분)·25%(20분)·30%(25분)·60%(45분)·10%(47분)·10%(60분) 단계식",
+   "flow": "1 mL/min", "temp": "", "detection": "520 nm", "injection": "",
+   "sample_prep": "열매를 산성 메탄올(메탄올 99.7%:TFA 0.3%, 2:1 v/w)로 균질화·여과, 감압 농축 후 에틸아세테이트로 지용성 성분 제거, Amberlite XAD-7 수지에 흡착 후 산성 메탄올로 용출·동결건조(페놀 농축 추출물); 메탄올 5 mg/mL로 녹여 0.45 μm 나일론 필터 여과",
+   "standard": "피크 동정은 머무름 시간·MS 스펙트럼·표준품 비교, 총량은 전체 피크 면적을 시아니딘-3-글루코사이드 당량으로 환산",
+   "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "열매의 주 생리활성 성분군이자 산지·기후에 따라 크게 달라지는 성분이라 품질 비교 지표로 쓰임; 전문 확인, 컬럼 온도·주입량·검출한계·회수율은 본문에 없음[5].",
+  "source": [5], "url": "https://doi.org/10.1021/jf902693r", "source_kind": "paper"},
+ {"role": "literature", "compound": "Cyanidin 3-galactoside", "compound_ko": "시아니딘-3-갈락토사이드(델피니딘-3-갈락토사이드 등 13종 동시 분석)", "part": "열매(동결건조 분말)",
+  "content": "시아니딘-3-갈락토사이드 8.04, 델피니딘-3-갈락토사이드 8.62, 총 안토시아닌 41.8 mg/g extract[3]", "method": "HPLC-DAD-ESI-MS",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+   "sample_prep": "동결건조 열매 분말을 0.5% 아세트산이 든 80% 메탄올로 추출(초록 기재)",
+   "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "열매 안토시아닌 중 가장 많은 두 성분으로 개별 정량됨; 전문 확인 못함(초록만 확인, 분석 조건 칸은 비움)[3].",
+  "source": [3], "url": "https://doi.org/10.1021/jf800406v", "source_kind": "paper"},
+ {"role": "literature", "compound": "2'-Methoxy-4'-hydroxydihydrochalcone", "compound_ko": "2'-메톡시-4'-하이드록시다이하이드로칼콘(2',4'-다이하이드록시다이하이드로칼콘·2',4'-다이하이드록시칼콘 동시 정량)", "part": "전초(중국 헤이룽장성 약재시장 구입, var. japonicum; 국내 식품원료 사용부위 아님)",
+  "content": "메탄올 추출물 중 0.71%, 1.15%, 1.35%(각 성분 순서대로, 원문 표기 그대로)[12]", "method": "HPLC-DAD(동정은 HPLC-MS/MS)",
+  "conditions": {"instrument": "HITACHI Chromaster(5260 자동시료주입기, 5430 DAD), 질량분석기 Agilent 6460", "column": "LaChrom ODS C-18, 250 mm × 4.6 mm, 5 μm (HITACHI)",
+   "mobile_phase": "A: 0.5% 인산 수용액, D: 메탄올",
+   "gradient": "D 58→60%(20분), 60→62%(55분), 62→100%(20분), 100% D 10분 세척; 초기 조건으로 20분 평형",
+   "flow": "0.7 mL/min", "temp": "", "detection": "UV 250 nm", "injection": "5 μL",
+   "sample_prep": "자연 건조·분쇄한 전초 6.0 kg을 메탄올 25 L로 환류 추출(5시간 × 3회), 감압 농축(수율 25%), DMSO에 300 mg/mL로 녹여 −20 °C 보관",
+   "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "앱 카드의 지표성분 후보(이 속에서만 보고된 다이하이드로칼콘)를 실제로 정량한 유일한 확인 사례; 전문 확인, 표준품·검량·검출한계·회수율은 본문에 없고 열매가 아닌 전초 자료다[12].",
+  "source": [12], "url": "https://doi.org/10.1186/s13020-022-00623-6", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "empetrum-nigrum", "name_ko": "시로미", "name_en": "Crowberry (black crowberry, Korean crowberry)",
+ "scientific_name": "Empetrum nigrum L.",
+ "aliases": ["시로미열매", "암고란(岩高蘭)", "조이(鳥李)", "Crowberry", "Korean crowberry", "Black crowberry",
+             "Empetrum nigrum var. japonicum K.Koch", "Empetrum asiaticum Nakai", "Empetrum albicarpha Sugaw.",
+             "Empetrum nigrum subsp. asiaticum (Nakai ex H.Ito) Kuvaev", "Empetrum nigrum subsp. hermaphroditum"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

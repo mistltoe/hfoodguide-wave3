@@ -1,0 +1,303 @@
+slug "empetrum-nigrum"
+name_ko "시로미"
+name_en "Crowberry (black crowberry, Korean crowberry)"
+scientific_name "Empetrum nigrum L."
+aliases [
+ "시로미열매",
+ "암고란(岩高蘭)",
+ "조이(鳥李)",
+ "Crowberry",
+ "Korean crowberry",
+ "Black crowberry",
+ "Empetrum nigrum var. japonicum K.Koch",
+ "Empetrum asiaticum Nakai",
+ "Empetrum albicarpha Sugaw.",
+ "Empetrum nigrum subsp. asiaticum (Nakai ex H.Ito) Kuvaev",
+ "Empetrum nigrum subsp. hermaphroditum"
+]
+compounds [
+ {
+  "name": "Cyanidin 3-galactoside",
+  "name_ko": "시아니딘-3-갈락토사이드",
+  "class": "안토시아닌",
+  "role": "marker",
+  "part": "열매",
+  "content_text": "동결건조 열매 추출물 8.04 mg/g extract(HPLC)[3]; 핀란드 최북단·서부 야생 집단의 주 안토시아닌[4]; 국내 재배 베리 비교에서 주 안토시아닌[6]",
+  "activity_ko": "열매 주 색소로 항산화 활성에 기여(추출물 수준)[3]",
+  "source": [
+   3,
+   4,
+   6
+  ]
+ },
+ {
+  "name": "Delphinidin 3-galactoside",
+  "name_ko": "델피니딘-3-갈락토사이드",
+  "class": "안토시아닌",
+  "role": "marker",
+  "part": "열매",
+  "content_text": "동결건조 열매 추출물 8.62 mg/g extract[3]; 핀란드 중부·동부 집단에서 총 안토시아닌의 24% 이상[4]; 알래스카 세 시료 모두 주요 피크[5]",
+  "activity_ko": "열매 주 색소(개별 활성 자료는 확인하지 못함)",
+  "source": [
+   3,
+   4,
+   5
+  ]
+ },
+ {
+  "name": "Malvidin 3-galactoside",
+  "name_ko": "말비딘-3-갈락토사이드",
+  "class": "안토시아닌",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "알래스카 포인트호프 시료의 3대 안토시아닌 중 하나[5]; 시아니딘·델피니딘 갈락토사이드와 합쳐 총 안토시아닌의 약 60%(초기 정량 연구)[2]",
+  "activity_ko": "안토시아닌 혼합물로서 항산화(개별 활성 자료는 확인하지 못함)[2]",
+  "source": [
+   5,
+   2
+  ]
+ },
+ {
+  "name": "Petunidin 3-galactoside",
+  "name_ko": "페투니딘-3-갈락토사이드",
+  "class": "안토시아닌",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "북유럽 베리 비교에서 다른 베리보다 비교적 많이 들어 있음(수치는 리뷰에 없음)[2]",
+  "activity_ko": "",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "Quercetin",
+  "name_ko": "퀘르세틴",
+  "class": "플라보놀",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "국내산 열매 23 ± 1.5 mg/100 g FW(HPLC)[2]; 캐나다 열매 플라보놀 37.2 mg/100 g FW 중 퀘르세틴-3-글루코사이드 13.6 mg/100 g FW[2]",
+  "activity_ko": "플라보놀(퀘르세틴·미리세틴·캠페롤) 합계가 양파·케일·브로콜리보다 높다고 보고[2]",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "Kaempferol",
+  "name_ko": "캠페롤",
+  "class": "플라보놀",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "국내산 열매 21.5 ± 0.5 mg/100 g FW[2]; 캐나다 열매 0.72 mg/100 g FW(배당체 형태)[2]",
+  "activity_ko": "",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "Myricetin",
+  "name_ko": "미리세틴",
+  "class": "플라보놀",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "열매 플라보놀 35종이 미리세틴·퀘르세틴의 배당체로 확인됨(함량 수치는 리뷰에 없음)[2]",
+  "activity_ko": "",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "Epicatechin",
+  "name_ko": "에피카테킨",
+  "class": "플라반-3-올",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "7.09 ± 0.41 mg/100 g FW(열매 플라반-3-올 중 최다)[2]",
+  "activity_ko": "",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "Proanthocyanidins",
+  "name_ko": "프로안토시아니딘(A형 중합체)",
+  "class": "축합형 탄닌",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "알래스카 세 시료 0.75·2.86·3.74 mg/g FW(에피카테킨 당량, 280 nm)[5]",
+  "activity_ko": "프로안토시아니딘 분획이 3T3-L1 지방세포의 지질 축적을 줄임(시험관)[5]",
+  "source": [
+   5
+  ]
+ },
+ {
+  "name": "Coumaric acid",
+  "name_ko": "쿠마르산",
+  "class": "페놀산",
+  "role": "bioactive",
+  "part": "열매",
+  "content_text": "주된 페놀산 8.33 ± 0.63 mg/100 g FW, 다른 이성질체 1.33 mg/100 g FW; 총 페놀산 12.1 mg/100 g FW(UHPLC-MS/MS; 이성질체 접두어는 도구 출력에서 빠져 확인 못함)[2]",
+  "activity_ko": "",
+  "source": [
+   2
+  ]
+ },
+ {
+  "name": "2'-Methoxy-4'-hydroxydihydrochalcone",
+  "name_ko": "2'-메톡시-4'-하이드록시다이하이드로칼콘",
+  "class": "다이하이드로칼콘",
+  "role": "marker",
+  "part": "전초(국내 식품원료 사용부위 아님); 열매에도 존재 보고",
+  "content_text": "중국산 전초 메탄올 추출물 중 0.71%(HPLC-DAD, 250 nm)[12]; 열매에 2'-메톡시-4'-하이드록시 α·β-다이하이드로칼콘 존재(리뷰)[2]",
+  "activity_ko": "항균 활성이 있는 성분으로 소개됨[2]",
+  "source": [
+   12,
+   2
+  ]
+ },
+ {
+  "name": "2',4'-Dihydroxychalcone",
+  "name_ko": "2',4'-다이하이드록시칼콘",
+  "class": "칼콘",
+  "role": "bioactive",
+  "part": "전초(국내 식품원료 사용부위 아님)",
+  "content_text": "전초 메탄올 추출물 중 1.35%(250 nm 크로마토그램의 주 피크)[12]",
+  "activity_ko": "P-388 백혈병·HT-29 대장암 세포에 강한 항암 효과가 보고된 성분으로 인용됨[12]",
+  "source": [
+   12
+  ]
+ },
+ {
+  "name": "Empetroxepin A",
+  "name_ko": "엠페트록세핀 A",
+  "class": "다이벤즈옥세핀",
+  "role": "bioactive",
+  "part": "식물체(부위는 초록에 없음)",
+  "content_text": "함량 확인하지 못함(분리·합성 연구)[26]",
+  "activity_ko": "황색포도상구균·고초균에 MIC 256 μg/mL의 약한 항균 활성[26]",
+  "source": [
+   26
+  ]
+ },
+ {
+  "name": "Batatasin III",
+  "name_ko": "바타타신 III",
+  "class": "비벤질",
+  "role": "bioactive",
+  "part": "잎(아종 hermaphroditum)",
+  "content_text": "가벼운 방목 조건에서 온난화로 잎 농도 감소(수치는 초록에 없음)[21]",
+  "activity_ko": "",
+  "source": [
+   21
+  ]
+ },
+ {
+  "name": "Nigrumol A",
+  "name_ko": "니그루몰 A",
+  "class": "트라이테르페노이드",
+  "role": "bioactive",
+  "part": "지상부(subsp. asiaticum)",
+  "content_text": "새 화합물로 분리(함량 확인하지 못함)[24]",
+  "activity_ko": "에탄올·사염화탄소로 유도한 L02 간세포 독성을 줄임(시험관)[24]",
+  "source": [
+   24
+  ]
+ }
+]
+markers []
+nutrients []
+assays [
+ {
+  "role": "literature",
+  "compound": "Cyanidin 3-glucoside",
+  "compound_ko": "총 안토시아닌(시아니딘-3-글루코사이드 당량)",
+  "part": "열매(알래스카 야생, 냉동 시료의 페놀 농축 추출물)",
+  "content": "아쿠탄 2.76, 셀도비아 2.65, 포인트호프 4.39 mg/g FW[5]",
+  "method": "HPLC-UV/Vis(520 nm)",
+  "conditions": {
+   "instrument": "Agilent 1100 HPLC",
+   "column": "Supelcosil-LC-18 역상, 250 mm × 4.6 mm, 5 μm (Supelco)",
+   "mobile_phase": "A: 5% 포름산 수용액, B: 100% 메탄올",
+   "gradient": "B 10%(0분)·15%(5분)·20%(15분)·25%(20분)·30%(25분)·60%(45분)·10%(47분)·10%(60분) 단계식",
+   "flow": "1 mL/min",
+   "temp": "",
+   "detection": "520 nm",
+   "injection": "",
+   "sample_prep": "열매를 산성 메탄올(메탄올 99.7%:TFA 0.3%, 2:1 v/w)로 균질화·여과, 감압 농축 후 에틸아세테이트로 지용성 성분 제거, Amberlite XAD-7 수지에 흡착 후 산성 메탄올로 용출·동결건조(페놀 농축 추출물); 메탄올 5 mg/mL로 녹여 0.45 μm 나일론 필터 여과",
+   "standard": "피크 동정은 머무름 시간·MS 스펙트럼·표준품 비교, 총량은 전체 피크 면적을 시아니딘-3-글루코사이드 당량으로 환산",
+   "linearity": "",
+   "lod": "",
+   "loq": "",
+   "recovery": ""
+  },
+  "rationale": "열매의 주 생리활성 성분군이자 산지·기후에 따라 크게 달라지는 성분이라 품질 비교 지표로 쓰임; 전문 확인, 컬럼 온도·주입량·검출한계·회수율은 본문에 없음[5].",
+  "source": [
+   5
+  ],
+  "url": "https://doi.org/10.1021/jf902693r",
+  "source_kind": "paper"
+ },
+ {
+  "role": "literature",
+  "compound": "Cyanidin 3-galactoside",
+  "compound_ko": "시아니딘-3-갈락토사이드(델피니딘-3-갈락토사이드 등 13종 동시 분석)",
+  "part": "열매(동결건조 분말)",
+  "content": "시아니딘-3-갈락토사이드 8.04, 델피니딘-3-갈락토사이드 8.62, 총 안토시아닌 41.8 mg/g extract[3]",
+  "method": "HPLC-DAD-ESI-MS",
+  "conditions": {
+   "instrument": "",
+   "column": "",
+   "mobile_phase": "",
+   "gradient": "",
+   "flow": "",
+   "temp": "",
+   "detection": "",
+   "injection": "",
+   "sample_prep": "동결건조 열매 분말을 0.5% 아세트산이 든 80% 메탄올로 추출(초록 기재)",
+   "standard": "",
+   "linearity": "",
+   "lod": "",
+   "loq": "",
+   "recovery": ""
+  },
+  "rationale": "열매 안토시아닌 중 가장 많은 두 성분으로 개별 정량됨; 전문 확인 못함(초록만 확인, 분석 조건 칸은 비움)[3].",
+  "source": [
+   3
+  ],
+  "url": "https://doi.org/10.1021/jf800406v",
+  "source_kind": "paper"
+ },
+ {
+  "role": "literature",
+  "compound": "2'-Methoxy-4'-hydroxydihydrochalcone",
+  "compound_ko": "2'-메톡시-4'-하이드록시다이하이드로칼콘(2',4'-다이하이드록시다이하이드로칼콘·2',4'-다이하이드록시칼콘 동시 정량)",
+  "part": "전초(중국 헤이룽장성 약재시장 구입, var. japonicum; 국내 식품원료 사용부위 아님)",
+  "content": "메탄올 추출물 중 0.71%, 1.15%, 1.35%(각 성분 순서대로, 원문 표기 그대로)[12]",
+  "method": "HPLC-DAD(동정은 HPLC-MS/MS)",
+  "conditions": {
+   "instrument": "HITACHI Chromaster(5260 자동시료주입기, 5430 DAD), 질량분석기 Agilent 6460",
+   "column": "LaChrom ODS C-18, 250 mm × 4.6 mm, 5 μm (HITACHI)",
+   "mobile_phase": "A: 0.5% 인산 수용액, D: 메탄올",
+   "gradient": "D 58→60%(20분), 60→62%(55분), 62→100%(20분), 100% D 10분 세척; 초기 조건으로 20분 평형",
+   "flow": "0.7 mL/min",
+   "temp": "",
+   "detection": "UV 250 nm",
+   "injection": "5 μL",
+   "sample_prep": "자연 건조·분쇄한 전초 6.0 kg을 메탄올 25 L로 환류 추출(5시간 × 3회), 감압 농축(수율 25%), DMSO에 300 mg/mL로 녹여 −20 °C 보관",
+   "standard": "",
+   "linearity": "",
+   "lod": "",
+   "loq": "",
+   "recovery": ""
+  },
+  "rationale": "앱 카드의 지표성분 후보(이 속에서만 보고된 다이하이드로칼콘)를 실제로 정량한 유일한 확인 사례; 전문 확인, 표준품·검량·검출한계·회수율은 본문에 없고 열매가 아닌 전초 자료다[12].",
+  "source": [
+   12
+  ],
+  "url": "https://doi.org/10.1186/s13020-022-00623-6",
+  "source_kind": "paper"
+ }
+]
+production []
+world []
+gi []
+orgs []

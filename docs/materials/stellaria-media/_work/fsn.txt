@@ -1,0 +1,1805 @@
+1
+
+Introduction
+
+Oxidative stress (OS) caused by the excess of free radicals can lead to cellular and tissue damage, contributing to the onset of chronic and degenerative diseases. This stress is linked to a range of health issues, including cardiovascular diseases, neurodegenerative disorders, cancer, and diabetes (Aly et al.; El‐Nashar et al.; Tan et al.). However, natural antioxidants derived from plants, especially those rich in phenolic compounds, are being recognized for their potential to counteract OS and mitigate its harmful effects (Elgindi et al.; Saracila et al.). Phytotherapy, an evolving and cost‐effective approach, leverages plant‐based secondary metabolites to create new therapeutic agents with minimal side effects (Aly et al.; Khedher et al.; Saber et al.). For example, fruits, vegetables, spices, and herbs are notable sources of antioxidants (Alqethami and Aldhebiani). The growing popularity of herbal medicines can be attributed to their reduced side effects compared to synthetic drugs (El‐Nashar et al.; Kripasana and Xavier). Additionally, the consumption of traditional leafy vegetables, which are abundant in various health‐promoting phytochemicals, is essential for enhancing health (Abdelazim et al.; Kudumela et al.; A. Singab et al.; A. N. B. Singab et al.). Plant‐derived drugs represent an evolving, safe, and cost‐effective strategy and an alternative approach to conventional procedures involving animal cell cultures or microbial fermentation (Elebeedy et al.; Hussiny et al.). Consequently, drugs obtained from natural plant compounds can offer patients more rapid and accessible treatments (Abdelghffar et al.; Eldahshan et al.; Goher et al.; Subramoniam; Veeresham). The genusL. belongs to the family Caryophyllaceae and comprises about 120 species, according to recent studies, distributed primarily in temperate zones across Asia and Europe (Li, Yang, and Mehri; Salinitro et al.).L., also known as “chickweed,” is a small, herbaceous annual plant with oval leaves and small white flowers, widely distributed across Europe, Asia, and North America, often found in gardens and agricultural fields (Ahmad et al.). In Turkey,.is prevalent, particularly in the northern regions, where it contributes to local biodiversity and traditional herbal practices (Güner and Aslan).is an edible and medicinal plant, as highlighted by different studies. For example, it is consumed as a leaf vegetable, often raw in salads or lightly cooked (Tutenocakli). In traditional medicine,is well‐regarded for helping in weight loss and improving blood lipid profiles. For example, in the Hungarian tradition,tea enhances overall metabolism and decreases blood glucose levels, making it a valuable adjunct therapy for diabetic patients (Demján et al.). Additionally,is commonly included in daily diets to help manage various conditions such as respiratory issues and skin ailments (such as burns, cuts, and scratches due to its healing effects) (Miere et al.). In various studies,has been traditionally used to treat mental tension and inflammations of the renal, digestive, reproductive, and respiratory tracts (Shan et al.). The plant is reported for its antipyretic, anti‐inflammatory (Morita et al.), anticancer (Chon et al.), antifungal, and antibacterial properties (Shinde et al.). It also has diuretic, expectorant, antiasthmatic (Duke), and anxiolytic effects (Arora and Sharma), and is used for rheumatic joint inflammation and wound healing (Arora and Sharma). Regarding the chemical composition,contains about 50 bioactive compounds (Oladeji and Oyebamiji), most of which are of phenolic origin such as vanillic acid, p‐hydroxybenzoic acid, ferulic acid, caffeic acid, and chlorogenic acid (Kitanov). The plant also features significant flavonoid and saponin constituents, including apigenin, genistein, vicenin‐2, and gypsogenin (Hodisan and Sancraian). Moreover, it has a total of 16 free amino acids, with 9 being essential amino acids: valine, threonine, isoleucine, leucine, methionine, phenylalanine, histidine, lysine, and arginine (Shan et al.).
+
+In this study, ethyl acetate, ethanol, ethanol/water, and water were utilized as solvents to obtain different extracts from the aerial parts of. Each extract was then evaluated for its inhibitory potential against enzymes responsible for non‐infectious human diseases, as well as for its antioxidant effects. UPLC‐ESI‐MS analysis was performed to analyze the composition of each extract. Specifically, the DPPH and ABTS assays were conducted to evaluate the quenching activities, while CUPRAC, FRAP, and phosphomolybdenum assays were utilized to assess reducing power. Additionally, a metal chelating assay was performed to gain more information about the antioxidant potential of the extracts. The targets for evaluating antienzymatic ability included acetylcholinesterase (AChE), butyrylcholinesterase (BChE), tyrosinase, amylase, and glucosidase. Furthermore, the percentage of viability of cell lines, including human embryonic kidney cells (HEK 293), murine macrophages (RAW 264.7), and human hepatocarcinoma cells (HepG2), was calculated to investigate the cytotoxic potential of all the extracts in this study. As an innovative approach, after collecting all chemical and biological activity results, we performed the disease ontology enrichment analysis, protein–protein interaction (PPI) network analysis, and molecular docking to understand the interactions between the components in the UPLC‐ESI‐MS analysis and target proteins and genes. The obtained results can serve as a scientific starting point for further health‐promoting applications with.
+
+2
+
+Materials and Methods
+
+2.1
+
+Plant Collection
+
+In 2022, plant materials were gathered from Maltepe location (Başıbüyük), Istanbul, Turkey. Dr. Ismail Senkardes performed the taxonomic identification, and a voucher specimen was stored in the herbarium of Marmara University (Voucher number: MARE‐22584). The aerial portions were separated, dried in the shade at room temperature, powdered, and then stored away from light.
+
+2.2
+
+Plant Extract Preparation
+
+The extraction process involved four solvents: ethyl acetate, ethanol, ethanol/water (70%), and water. Each sample, weighing 10 g, was macerated with 200 mL of ethyl acetate, ethanol, and ethanol/water for a 24‐h period at room temperature. The water extract was created by steeping 10 g of plant material in boiled water for 15 min. Organic solvents were evaporated under reduced pressure, and the water extract underwent freeze‐drying.
+
+2.3
+
+Assay for Total Phenolic and Flavonoid Contents
+
+Following the procedures specified by Zengin and Aktumsek (), total phenolics and flavonoids were measured. Gallic acid (GA) and rutin (RE) were employed as references in the experiments, with the results presented as gallic acid equivalents (GAE) and rutin equivalents.
+
+2.4
+
+‐‐Analysis
+
+A comprehensive analysis was conducted using HPLC‐ESI‐MS/MS to investigate the chemical constitution of various extracts derived from.
+
+The samples were introduced into a Shimadzu 8045 (UPLC) system manufactured in Kyoto, Japan, which was linked to a triple quadrupole mass analyzer manufactured by Shimadzu Corporation. The extracts were diluted in HPLC‐quality methanol and filtered through a 0.2 μm polytetrafluoroethylene (PTFE) filter. Chromatography was used to isolate compounds using a Shimpack C18 reversed‐phase column with a particle size of 2.7 μm and dimensions of 2 × 150 mm. Gradient elution was implemented using solvents A (water) and B (acetonitrile) at 0.2 mL/min. Start elution with 10% B concentration for 5 min. The concentration was gradually increased to 30% B for 15 min, then to 70% B for 22 min. The concentration was increased to 80% B from 22 to 30 min. Eventually, the concentration was lowered to 10% B for 35 min. Mass detection was done using negative electrospray ionization (ESI). Set the interface temperature to 300°C and the desolvation temperature to 526°C. Set the cone gas flow rate to 50 L/h and the nebulizing gas flow rate to 3 L/min. Collision‐induced dissociation (CID) (MS/MS) assessments were performed by individually adjusting the collision energy for each peak within a range of 20–50 eV (eV). Mass spectrometry was conducted within the mass range of m/z 100–1200.
+
+The data processing was conducted with the Lab Solutions program. The data collection and analysis procedures were conducted using XcaliburTM2.0.7 software, developed by Thermo Scientific in Karlsruhe, Germany (Aly et al.,; Zengin et al.).
+
+2.5
+
+Assays for In Vitro Antioxidant Capacity
+
+As per the procedures outlined in our previous paper (Aly et al.; Grochowski et al.), various antioxidant assays were executed. The outcomes from the DPPH, ABTS radical scavenging, CUPRAC, and FRAP assays were reported in milligrams of Trolox equivalents (TE) per gram of extract. The phosphomolybdenum (PBD) assay indicated the antioxidant potential in millimoles of Trolox equivalents (TE) per gram of extract, while the metal chelating activity (MCA) was expressed in milligrams of disodium edetate equivalents (EDTAE) per gram of extract.
+
+2.6
+
+Inhibitory Effects Against Some Key Enzymes
+
+In accordance with the established protocols (Aly et al.; Grochowski et al.), enzyme inhibition experiments were conducted on the samples. The activities inhibiting amylase and glucosidase were expressed in acarbose equivalents (ACAE) per gram of extract, whereas inhibition of acetylcholinesterase (AChE) and butyrylcholinesterase (BChE) was measured in milligrams of galanthamine equivalents (GALAE) per gram of extract. Tyrosinase inhibition was calculated in milligrams of kojic acid equivalents (KAE) per gram of extract.
+
+2.7
+
+Cell Culture
+
+Human hepatocarcinoma HepG2, murine macrophages RAW 264.7, and human embryonic HEK 293 cell lines were cultured in Dulbecco's Modified Eagle medium (DMEM) supplemented with fetal bovine serum (10%), L‐glutamine (2 mM, 1%), and penicillin (50 U/mL)/streptomycin (50 μg/mL) (1%), and kept under a humidified atmosphere at 37°C and 5% CO.
+
+2.8
+
+Determination of Cellular Viability
+
+Cells were plated in 96‐well plates at 5 × 10cells/ well (HepG2) and 1 × 10cells/ well (RAW 264.7 and HEK 293). After an overnight incubation, cells were treated with the extracts at the concentration of 100 μg/mL for 72 h. Cells incubated with DMSO at 0.5% were used as control. The cellular viability was determined by the MTT (3‐(4,5‐dimethylthiazol‐2‐yl)‐2,5‐diphenyltetrazolium bromide) test, as described formerly (Rodrigues et al.). The percentage of cellular viability was calculated relative to the control (DMSO 0.5%).
+
+2.9
+
+Disease Ontology Enrichment Analysis
+
+A comprehensive Disease Ontology (DOSE) enrichment analysis was conducted using the DOSE package (version 3.30.1) in R. This methodology is based on the protocols established by Yu et al. () and other relevant literature in the fields of bioinformatics and systems biology. The genes associated with the molecules were sourced from TMCSD, PubChem, and SwissTarget. The DOSE package integrates semantic similarity measures and enrichment analysis to explore the associations between genes and diseases. The enrichment analysis identifies overrepresented disease terms linked to a set of genes, thereby providing insights into potential disease‐related pathways. DOSE employs a hypergeometric distribution model to calculatevalues, which identify statistically significant disease terms. Additionally, semantic similarity scores are calculated to assess the degree of relatedness between the identified diseases. This ensures that the gene sets associated with molecules are accurately analyzed within the context of disease ontology (Yu et al.).
+
+2.10
+
+Screening of Potential Targets
+
+The identification of therapeutic targets represents a pivotal stage in the development of novel pharmaceutical agents within the field of medical research. In this context, the Comparative Toxicogenomics Database (CTD), PubChem, GeneCards, and DisGeNET databases are of significant value as tools for identifying potential drug targets in the fight against cancer. A search for the term “renal cell carcinoma” in the four aforementioned databases revealed a number of related genes. The genes associated with the compounds were then identified using the online databases TMCSD, PubChem, and SwissTarget. Common targets were identified using the Venny V2.1.0 online tool, with the aim of identifying targets that were relevant to the effects of the compounds on renal cell carcinoma (Yagi et al.).
+
+2.11
+
+Protein–Protein Interaction () Network Analysis
+
+A protein–protein interaction (PPI) network was constructed using the STRING V12.0 database in order to investigate the renal cell carcinoma properties of. This analysis focused on the functional interactions between proteins. A network confidence value of ≥ 0.4 was employed to identify potential targets, with “” specified as the species of interest in the Cytoscape software, version 3.10.2 (Yagi et al.).
+
+2.12
+
+Molecular Docking
+
+The proteins and enzymes utilized in this study were sourced from the Protein Data Bank (PDB) (for further details, please refer to Table). Subsequently, the co‐crystallized ligands, cofactors, and water molecules were removed using BIOVIA Discovery Studio Visualizer V4.5. The ligands were obtained from PubChem, while those not present in the database were created using ChemDraw V23.1.1 and subsequently optimized with OpenBabel V3.1.1. The ligand energy minimization process was conducted using Avogadro V0.8.0 with the MMFF94 force field. The preparation of protein and enzyme structures was conducted using MGL Tools software, version 1.5.6. The active sites of the proteins were identified using POCASA V1.1 and relevant literature (see Table) (Hetmann et al.; Duran et al.). To validate the docking results, a re‐docking process was conducted. The ligand was re‐docked with the protein, and the root mean square deviation (RMSD) values were calculated to assess the accuracy of the docking process (Castro‐Alvarez, Costa, and Vilarrasa). The root mean square deviation (RMSD) was calculated using the following formula to measure the average deviation between the positions of atoms in the reference and target structures:
+
+Molecular docking was conducted using AutoDock Vina V1.1.2, with grid boxes defined in accordance with the methodology outlined by Trott and Olson ().
+
+3
+
+Results and Discussion
+
+3.1
+
+Total Phenolic and Flavonoid Content
+
+Studies have shown that the total phenolic and flavonoid contents in various plant extracts significantly correlate with their antioxidant activities, emphasizing the importance of these compounds in natural antioxidants (Syed Salleh et al.). The Folin–Ciocalteu assay is a colorimetric test widely used in the evaluation of the content of phenols and flavonoids from natural products (Dominguez‐López, Pérez, and Lamuela‐Raventós; Narvarte et al.). In this work, different extracts derived from the aerial parts ofwere tested in the Folin–Ciocalteu assay to determine the total phenolic and flavonoid content. In Table, it can be seen that the highest level of phenolics was found in the ethanol and ethyl acetate extracts, with values of 22.76 ± 0.07 and 22.71 ± 0.82 mg GAE/g, respectively. Other extracts showed lower values of TPC (14.22 ± 0.04 mg GAE/g for water and 14.10 ± 0.08 mg GAE/g for ethanol/water). Regarding the total flavonoid content, the best result was obtained with ethanol/water, with a value of 6.75 ± 0.31 mg RE/g. Then the TFC order was water > ethanol > ethyl acetate, with values of 5.75 ± 0.14, 2.57 ± 0.43, and 1.13 ± 0.08 mg RE/g, respectively. In the study by Rakhimzhanova, Kılınçarslan, and Mammadov (), the ethanolic extract of driedshowed the highest total phenolic content with a value of 21.43 ± 0.12 mg GAE/g. These findings agree with our results. However, the aerial part extract oftested in our work showed lower values of total flavonoid content. This discrepancy may be attributed to the fact that the extracts used in this study, prepared exclusively from the aerial parts of the plant, demonstrated lower values of total flavonoid compounds compared to the study by Rakhimzhanova, Kılınçarslan, and Mammadov (), which employed the whole plant for extract preparation.
+
+TABLE 1
+
+Total phenolic and flavonoid contents in the tested extracts.
+
+Extracts
+
+TPC (mg GAE/g)
+
+TFC (mg RE/g)
+
+Ethyl acetate
+
+22.71 ± 0.82
+
+1.13 ± 0.08
+
+Ethanol
+
+22.76 ± 0.07
+
+2.57 ± 0.43
+
+Ethanol/water
+
+14.10 ± 0.08
+
+6.75 ± 0.31
+
+Water
+
+14.22 ± 0.04
+
+5.75 ± 0.14
+
+Values are reported as mean ± SD of three parallel measurements. Different letters (a,b, c and d) indicate significant differences between the extracts (< 0.05).
+
+Abbreviations: GAE, Gallic acid equivalents; RE, Rutin equivalents.
+
+3.2
+
+‐‐/Profiling of the Different Extracts of
+
+An investigation of the variability in the chemical composition of the(Caryophyllaceae) different extracts of ethyl acetate, ethanol, ethanol/water, and water was performed using LC–MS/MS analysis. The total ion chromatogram revealed the presence of 24 distinct chromatographic peaks (Figuresand). There are a total of 12 phenolic compounds, consisting of nine flavonoids, two phenolic acids, and one coumarin. In addition, seven fatty acids, four fatty amides, and one sphingolipid were successfully identified by analyzing their molecular ion peaks, MSdata, and comparing them with existing literature (Table).
+
+The findings demonstrated that flavonoids were particularly concentrated in the ethyl acetate, ethanol, and ethanol/water extracts, but fatty acids and fatty acid amides were mostly present in the ethyl acetate extract. Furthermore, water was an effective solvent for extracting phenolic acids and flavonoid glycosides. Flavonoids are recognized as the main group of plant compounds inand are accountable for its numerous biological properties (Aleem et al.; Oladeji and Oyebamiji).
+
+Apigenin and apigenin C‐glycosides were previously identified inand(Ancheeva et al.). Peaksandshow a parent ion peak at563 and 725 [M‐H], respectively. A daughter ion peak at [M‐H–120]was also observed in the product ion spectra and was a characteristic production of C‐glycosides (Sun et al.). Peaksandwere identified as apigenin 6‐C‐hexoside 8‐C‐pentoside and apigenin 6‐C‐(6″‐hexosyl)‐hexoside‐8‐C‐pentoside I.
+
+Moreover, flavonoid‐glycosides, isorhamnetin‐3‐O‐hexoside () and kampferol‐O‐hexoside‐O‐dideoxyhexoside () with their deprotonated molecular ion at477 and 739, respectively, were identified in the water extract. Another two flavonoid glycosides were characterized as naringenin‐7‐O‐hexoside () and acacetin‐O‐hexoside‐O‐deoxy hexoside () with a parent ion peak at433 and 591 [M‐H], respectively.
+
+Flavonoid aglycones are among the most abundant secondary metabolites in the genusas previously investigated in themethanol extract (Katanić Stanković et al.). Concerning the detected flavonoid aglycones in, eriodictyol () and tricin () were characterized based on their parent ion peaks at287 and 329 [M‐H]and their characteristic ions at151, 135 and 249, 175, respectively. The tentatively identified compound in Peakis naringenin, which has a parent ion peak at m/z 271[M‐H]. It is found in all four extracts, but its quantity varies. It is particularly abundant in ethanol and ethanol/water extracts.
+
+Phenolic acid namely the derivative of quinic acid (), was detected at377. It was exclusively extracted using ethanol/water and is a significant constituent of the water extract. Also, verbascoside () was detected at623, it is a derivative of caffeic acid and was previously identified inmethanol extract (Katanić Stanković et al.). One coumarin was identified as aesculin () with a molecular ion peak ate339 in the four extracts and it had the highest abundance in the water extract.
+
+In addition, the ethyl acetate and ethanol extracts ofwere shown to contain significant amounts of fatty acids, specifically dihydroxy‐linoleic acid, heptadecadienoic acid, octadecadienoic acid, hydroxy octadecadienoic acid, octadecadienoic acid isomer I, and linoleic acid. Furthermore, fatty acid amides have a higher retention time in the chromatogram, specifically between 19.89 min and 22.70 min. These compounds are identified as palmitamide, oleamide, and stearamide. They displayed the distinctive molecular ion fragment of an acyl chain, which was identified at57 (Divito et al.).
+
+FIGURE 1
+
+The HPLC chromatograms of: (a) ethyl acetate extract positive mode, (b) ethyl acetate extract negative mode, (c) ethanol extract positive mode, (d) ethanol extract negative mode.
+
+FIGURE 2
+
+The HPLC chromatograms of: (a) ethanol/water extract positive mode, (b) ethanol/water extract negative mode, (c) water extract positive mode, (d) water extract negative mode.
+
+TABLE 2
+
+Metabolites identified tentatively in the ethyl acetate (EtOAc), ethanol, ethanol/water, and water extracts offrom Turkey using UPLC‐ESI‐MS/MS analysis.
+
+Peak no.
+
+t
+
+R
+
+[M‐H]
+
+[M + H]
+
+MS
+
+Tentatively identified compounds
+
+Phytochemical class
+
+Relative area %
+
+Ref.
+
+Stellaria media
+
+EtOAc
+
+Ethanol
+
+Ethanol/water
+
+Water
+
+1
+
+0.79
+
+377.17
+
+—
+
+191, 93
+
+Quinic acid derivative
+
+Quinic acid derivative
+
+—
+
+12.51
+
+23.95
+
+—
+
+(Nilofar et al.)
+
+2
+
+1.07
+
+477.29
+
+—
+
+477, 315, 314, 285
+
+Isorhamnetin‐3‐O‐hexoside
+
+Flavonoid
+
+—
+
+—
+
+—
+
+1.07
+
+(AbouZeid et al.)
+
+3
+
+4.93
+
+563.28
+
+—
+
+443,353, 269
+
+Apigenin 6‐C‐hexoside
+
+8‐C‐pentoside
+
+Flavonoid
+
+—
+
+—
+
+16.87
+
+42.74
+
+(Katanić Stanković et al.)
+
+4
+
+5.57
+
+725.38
+
+727.37
+
+443, 353, 365, 383,
+
+384, 425
+
+Apigenin 6‐C‐(6″‐hexosyl)‐hexoside‐8‐C‐pentoside I
+
+Flavonoid
+
+—
+
+—
+
+1.52
+
+1.95
+
+(Katanić Stanković et al.)
+
+5
+
+6.41
+
+739.35
+
+—
+
+285, 241, 254, 227
+
+Kampferol‐O‐hexoside‐O‐dideoxyhexoside
+
+Flavonoid
+
+—
+
+—
+
+—
+
+0.51
+
+(Abdelghffar et al.)
+
+6
+
+6.84
+
+287.19
+
+—
+
+151, 135, 107
+
+Eriodictyol
+
+Flavonoid
+
+—
+
+—
+
+1.36
+
+2.56
+
+(Katanić Stanković et al.)
+
+7
+
+9.62
+
+329.32
+
+—
+
+249, 175, 229, 211, 171
+
+Tricin
+
+Flavonoid
+
+2.50
+
+3.51
+
+4.51
+
+—
+
+(Raslan et al.)
+
+8
+
+11.34
+
+311.24
+
+—
+
+293, 267, 171, 153
+
+Dihydroxy‐linoleic acid
+
+Fatty acid
+
+1.13
+
+0.91
+
+0.69
+
+—
+
+(Ayoub et al.)
+
+9
+
+11.71
+
+—
+
+274.30
+
+106, 256,
+
+274
+
+Hexadecasphinganine
+
+Sphingolipid
+
+0.49
+
+1.00
+
+1.30
+
+0.63
+
+(AbouZeid et al.)
+
+10
+
+14.41
+
+265.22
+
+—
+
+Heptadecadienoic acid
+
+Fatty acid
+
+—
+
+—
+
+—
+
+11.11
+
+(AbouZeid et al.)
+
+11
+
+14.43
+
+293.27
+
+—
+
+275, 231, 183, 211, 121
+
+Octadecadienoic acid
+
+Fatty acid
+
+15.74
+
+9.98
+
+4.31
+
+—
+
+(Zengin et al.)
+
+12
+
+14.57
+
+293.26
+
+—
+
+275, 231, 183, 211, 121
+
+Octadecadienoic acid
+
+Fatty acid
+
+9.46
+
+3.34
+
+1.94
+
+—
+
+(Zengin et al.)
+
+13
+
+15.58
+
+295.29
+
+—
+
+277, 195, 183, 171
+
+Hydroxyoctadecadienoic acid
+
+Fatty acid
+
+11.79
+
+5.89
+
+—
+
+—
+
+(Zengin et al.)
+
+14
+
+16.68
+
+433.34
+
+—
+
+271
+
+Naringenin‐7‐O‐hexoside
+
+Flavonoid
+
+—
+
+0.25
+
+2.79
+
+—
+
+(Rodrigues et al.)
+
+15
+
+18.62
+
+—
+
+280.33
+
+109, 133
+
+Octadecadienoic acid isomer I
+
+Fatty acid
+
+4.14
+
+2.39
+
+3.00
+
+3.50
+
+(AbouZeid et al.)
+
+16
+
+19.47
+
+271.30
+
+—
+
+225, 241, 151, 119
+
+Naringenin
+
+Flavonoid
+
+7.35
+
+19.85
+
+9.21
+
+0.71
+
+(Abdelghffar et al.)
+
+17
+
+19.89
+
+—
+
+256.34
+
+102, 116, 57
+
+Palmitamide
+
+Fatty acid amide
+
+3.71
+
+9.75
+
+3.25
+
+10.75
+
+(Zengin et al.)
+
+18
+
+20.01
+
+—
+
+256.35
+
+102, 116, 57
+
+Palmitamide
+
+Fatty acid amide
+
+4.08
+
+4.13
+
+6.76
+
+—
+
+(Zengin et al.)
+
+19
+
+20.35
+
+—
+
+282.57
+
+97,83, 57, 69, 149, 163
+
+Oleamide
+
+Fatty acid amide
+
+12.36
+
+13.37
+
+8.85
+
+23.18
+
+(Zengin et al.)
+
+20
+
+20.45
+
+623.4166
+
+—
+
+315, 461, 462
+
+Verbascoside
+
+Phenolic acid
+
+2.31
+
+—
+
+—
+
+—
+
+(Katanić Stanković et al.)
+
+21
+
+20.46
+
+339.34
+
+—
+
+177, 163
+
+Aesculin
+
+Coumarin
+
+—
+
+2.74
+
+2.00
+
+7.02
+
+(Hamdan et al.)
+
+22
+
+20.94
+
+279.31
+
+—
+
+279
+
+Linoleic acid
+
+Fatty acid
+
+1.22
+
+0.20
+
+—
+
+—
+
+(Fahmy et al.)
+
+23
+
+21.40
+
+591.41
+
+593.43
+
+284, 242
+
+Acacetin‐O‐hexoside‐O‐deoxy hexoside
+
+Flavonoid
+
+5.63
+
+5.65
+
+6.73
+
+—
+
+(El‐Nashar et al.)
+
+24
+
+22.70
+
+—
+
+284.40
+
+567.70
+
+[2 M + 1]
+
+88, 102, 57
+
+Stearamide
+
+Fatty acid amide
+
+10.74
+
+12.52
+
+4.96
+
+5.73
+
+(Castillo‐Peinado et al.)
+
+3.3
+
+Antioxidant Effects
+
+The assessment of the antioxidant activity of plant extracts is one of the fundamental steps in the process that transforms natural resources into pharmaceutical products. For this reason, in this study, we investigated the scavenging ability with DPPH and ABTS assays, the reducing power with CUPRAC, FRAP, and Phosphomolybdenum assays, and the metal chelating capacity. Results are reported in Table. The best scavenging ability in the DPPH assay was observed for the water extract with a value of 13.04 ± 0.36 mg TE/g, followed by ethanol/water with a value of 10.10 ± 0.96 mg TE/g, and ethanol with 2.62 ± 0.30 mg TE/g. No DPPH scavenging ability was observed for the ethyl acetate extract. Regarding the ABTS assay, water was the best extract with a value of 59.98 ± 0.57 mg TE/g, followed by ethanol/water (39.13 ± 1.66 mg TE/g), ethanol (26.67 ± 1.19 mg TE/g), and ethyl acetate (12.94 ± 0.88 mg TE/g). In the CUPRAC, FRAP, and Phosphomolybdenum assays, the transformation of Cuto Cu, Feto Fe, and Mo(VI) to Mo(V), respectively, is evaluated. In the CUPRAC assay, the extract that showed the highest reducing power was ethanol with a value of 61.60 ± 1.00 mg TE/g, followed by ethyl acetate with 55.82 ± 1.12 mg TE/g, ethanol/water with 36.82 ± 1.01 mg TE/g, and water (24.28 ± 0.02 mg TE/g). In the FRAP assay, ethanol was the best, with 27.55 ± 0.24 mg TE/g, followed by water with 26.46 ± 0.24 mg TE/g, ethanol/water with 25.93 ± 0.27 mg TE/g, and ethyl acetate with a value of 25.11 ± 1.17 mg TE/g. In the Phosphomolybdenum assay (PBD), the best ability was observed for ethyl acetate (2.05 ± 0.07 mmol TE/g), followed by ethanol (1.97 ± 0.06 mmol TE/g). Ethanol/water and water showed the weakest ability, with 0.82 ± 0.04 mmol TE/g and 0.22 ± 0.01 mmol TE/g, respectively. The chelation of transition metals is a very important antioxidant mechanism to stop the production of hydroxyl radicals in the Fenton reaction. Among the tested extracts in this study, the ethyl acetate extract revealed the best chelating ability, with a value of 25.60 ± 0.61 mg EDTAE/g. For water and ethanol/water extracts, similar results were observed (17.96 ± 0.24 mg EDTAE/g and 17.21 ± 0.84 mg EDTAE/g, respectively). In other works, the antioxidant capacity ofhad already been evaluated using DPPH, and the results were expressed as scavenging percentage and IC50, which are not comparable to our results. In the study by Rakhimzhanova, Kılınçarslan, and Mammadov (), the ethanol extracts with an IC50 value of 49.72 ± 0.57 showed higher radical scavenging activity compared to water extracts. Aleem et al. () found that the extract ofexhibited a high‐level antioxidant capacity with a scavenging percentage of 76% for DPPH, as stated by Oladeji and Oyebamiji ().
+
+TABLE 3
+
+Antioxidant properties of the tested extracts.
+
+Extracts
+
+DPPH (mg TE/g)
+
+ABTS (mg TE/g)
+
+CUPRAC (mg TE/g)
+
+FRAP (mg TE/g)
+
+Chelating (mg EDTAE/g)
+
+PBD (mmol TE/g)
+
+Ethyl acetate
+
+na
+
+12.94 ± 0.88
+
+55.82 ± 1.12
+
+25.11 ± 1.17
+
+25.60 ± 0.61
+
+2.05 ± 0.07
+
+Ethanol
+
+2.62 ± 0.30
+
+26.67 ± 1.19
+
+61.60 ± 1.00
+
+27.55 ± 0.24
+
+9.18 ± 0.46
+
+1.97 ± 0.06
+
+Ethanol/water
+
+10.10 ± 0.96
+
+39.13 ± 1.66
+
+36.82 ± 1.01
+
+25.93 ± 0.27
+
+17.21 ± 0.84
+
+0.82 ± 0.04
+
+Water
+
+13.04 ± 0.36
+
+59.98 ± 0.57
+
+24.28 ± 0.02
+
+26.46 ± 0.24
+
+17.96 ± 0.24
+
+0.22 ± 0.01
+
+Values are reported as mean ± SD of three parallel measurements. Different letters (a, b, c and d) indicate significant differences between the extracts (< 0.05).
+
+Abbreviations: EDTAE, EDTA equivalent; MCA, metal chelating Activity; na, not active; PBD, phosphomolybdenum; TE, Trolox Equivalent.
+
+3.4
+
+Enzyme Inhibitory Effects
+
+Inhibiting enzymes involved in Alzheimer's disease, hyperpigmentation, and type‐2 diabetes, natural enzyme inhibitors play an important role in the treatment of non‐infectious diseases. In this regard, extracts from the aerial parts ofwere tested against AChE, BChE, Tyrosinase, Amylase, and Glucosidase. The results are reported in Table. In AChE inhibition, ethyl acetate showed the best results with 2.44 ± 0.04 mg GALAE/g, followed by ethanol with 2.25 ± 0.10 mg GALAE/g, ethanol/water with 1.87 ± 0.07 mg GALAE/g, and water (0.30 ± 0.05 mg GALAE/g). Also, in the BChE inhibition assay, ethyl acetate extract was the strongest, with a value of 3.98 ± 0.39 mg GALAE/g. Ethanol showed similar results (3.95 ± 0.40 mg GALAE/g). Ethanol/water, compared to the other extracts tested in this study, exhibited a weak ability to inhibit BChE with a value of 0.45 ± 0.06 mg GALAE/g, and water was not active. Regarding tyrosinase inhibition, the most potent ability was detected for ethanol and ethanol/water extracts, with values of 51.99 ± 0.50 mg KAE/g and 48.02 ± 1.17 mg KAE/g, respectively. In this case, water showed 12.77 ± 0.47 mg KAE/g and ethyl acetate was not active. Ethyl acetate extract was the best to inhibit amylase (0.79 ± 0.03 mmol ACAE/g), followed by ethanol extract with a value of 0.76 ± 0.03 mmol ACAE/g, ethanol/water (0.48 ± 0.01 mmol ACAE/g), and water (0.09 ± 0.01 mmol ACAE/g). The most active against glucosidase was ethanol (1.19 ± 0.04 mmol ACAE/g), followed by ethanol/water with a value of 0.91 ± 0.12 mmol ACAE/g, and water (0.36 ± 0.01 mmol ACAE/g). This time, ethyl acetate extract was the weakest (0.34 ± 0.01 mmol ACAE/g). There are not many studies in the literature regarding the enzymatic inhibition capacity ofextracts. However, in the study by Khan, Ahmad, and Ahmed (), the extract ofshowed promising inhibitory activities on the enzymes α‐amylase and β‐glucosidase, suggesting its potential use as a natural treatment for controlling postprandial glucose levels in diabetic patients.
+
+TABLE 4
+
+Enzyme inhibitory properties of the tested extracts.
+
+Solvents
+
+AChE (mg GALAE/g)
+
+BChE (mg GALAE/g)
+
+Tyrosinase (mg KAE/g)
+
+Amylase (mmol ACAE/g)
+
+Glucosidase (mmol ACAE/g)
+
+Ethyl acetate
+
+2.44 ± 0.04
+
+3.98 ± 0.39
+
+na
+
+0.79 ± 0.03
+
+0.34 ± 0.01
+
+Ethanol
+
+2.25 ± 0.10
+
+3.95 ± 0.40
+
+51.99 ± 0.50
+
+0.76 ± 0.03
+
+1.19 ± 0.04
+
+Ethanol/water
+
+1.87 ± 0.07
+
+0.45 ± 0.06
+
+48.02 ± 1.17
+
+0.48 ± 0.01
+
+0.91 ± 0.12
+
+Water
+
+0.30 ± 0.05d
+
+na
+
+12.77 ± 0.47
+
+0.09 ± 0.01
+
+0.36 ± 0.01
+
+Values are reported as mean ± SD of three parallel measurements. Different letters (a, b, c and d) indicate significant differences between the extracts (< 0.05).
+
+Abbreviations: ACAE, acarbose equivalent; GALAE, galantamine equivalent; KAE, kojic acid equivalent; na, not active.
+
+3.5
+
+Cytotoxic Effects
+
+Extracts from the aerial parts ofwere utilized to assess cytotoxicity experiments against 3 different cell lines, including HEK 293, RAW 264.7, and HepG2, at a single concentration of 100 mg/mL. The control contained 0.5% DMSO and the results, reported in Table, were expressed as a percentage of cellular viability. Ethyl acetate and water extract exhibited the best cytotoxicity effect against the HEK 293 cell line, with a viability of 17.8 ± 2.5% and 19.9 ± 3.7%, respectively; while for ethanol, the result was 27.3 ± 4.1% and for ethanol/water 33.0 ± 3.9%. Against the RAW 264.7 cell line, the best cytotoxic effect was observed for the water extract with a moderate cytotoxic effect (45.1 ± 1.0% of cellular viability) and the lower cytotoxicity was noted for the ethyl acetate extract (74.5 ± 3.5%). As reported from this study, cytotoxicity experiment against the HepG2 cell line results, water exhibited the least cellular viability, with a value of 33.9 ± 0.7%, followed by ethyl acetate (50.1 ± 2.8%), ethanol/water (51.2 ± 2.2%), and ethanol (55.8 ± 3.3%). In our study, the highest sensitivity toaerial parts extracts was observed in the HEK 293 cell line, with values ranging from 17.8 ± 2.5% to 33.0 ± 3.9%. This suggests the potential ofextracts to be therapeutically approached in targeting cancer cells. On the other hand, the least sensitivity was observed for HepG2, with values ranging from 45.1 ± 1.0% to 74.5 ± 3.5%, making the extracts potentially appropriate for applications that need less harmful effects. Regarding the cytotoxic effect ofextracts, the study by Ma et al. () highlighted those concentrations below 30 μg/mL (including the concentration of 100 μg/mL tested in this study) do not show cytotoxic effects on HepG2 cells. These results, however, cannot be compared with ours since the extracts were not prepared in the same way.
+
+TABLE 5
+
+Cellular viability (%) of the tested extracts on mammalian RAW, HepG2, and S17 cell lines, applied at 100 μg/mL.
+
+Cell lines/samples
+
+0.5% DMSO
+
+Ethyl acetate
+
+Ethanol
+
+Ethanol/water
+
+Water
+
+HEK 293
+
+95.1 ± 3.1
+
+17.8 ± 2.5
+
+27.3 ± 4.1
+
+33.0 ± 3.9
+
+19.9 ± 3.7
+
+RAW 264.7
+
+89.2 ± 3.5
+
+74.5 ± 3.5
+
+70.2 ± 2.2
+
+71.0 ± 4.6
+
+45.1 ± 1.0
+
+HepG2
+
+99.5 ± 3.4
+
+50.1 ± 2.8
+
+55.8 ± 3.3
+
+51.2 ± 2.2
+
+33.9 ± 0.7
+
+Extracts were tested at 100 μg/mL, and results are expressed as a percentage of cellular viability (%) relatively to the control containing 0.5% DMSO. Values represent the mean ± standard error of the mean (SEM).
+
+3.6
+
+Disease Ontology Enrichment Analysis
+
+The Disease Ontology enrichment analysis (DOSE), conducted in the present study, revealed significant associations between the gene sets of interest and a number of diseases. These findings offer vital insights into the potential biological functions and disease implications of the genes under investigation. The enrichment analysis identified significant associations with multiple types of cancer, including renal cell carcinoma (Figure). These findings suggest that the genes under investigation may play a role in oncogenic processes, underscoring their significance in cancer biology.
+
+Furthermore, the identification of diseases such as pre‐malignant neoplasm, brain ischemia, and kidney failure indicate the potential involvement of these genes in these conditions. In view of the pronounced enrichment for cancers, including renal cell carcinoma, these diseases were the subject of particular attention in the subsequent docking studies. The prominence of renal cell carcinoma in the enrichment analysis afforded a robust context for examining the interactions of our compounds with key cancer‐related proteins. Furthermore, ischemia, which is characterized by intricate molecular mechanisms, was selected for investigation into the potential therapeutic applications of the genes under study. These selections were made in order to capitalize on the robust disease associations revealed by the enrichment analysis and to concentrate on conditions with high clinical relevance and unmet medical needs.
+
+FIGURE 3
+
+Gene‐disease associations related to: DOSE analysis.
+
+3.7
+
+of Active Compounds: Targeting Cancer
+
+In order to identify genes associated withphytochemicals, the SwissTarget, PubChem, and TCMSP databases were utilized. Following the elimination of duplicate gene pairs, a total of 434 target genes were identified. Among the compounds analyzed, naringenin, tricin, and eriodictyol were found to have the highest number of nodes. In contrast, apigenin 6‐C‐hexoside 8‐C‐pentoside was linked to a single target gene. The network map illustrates the common targets of these compounds, demonstrating the extensive many‐to‐many relationships between the compounds and their targets (Figure). In order to identify genes associated with renal cell carcinoma, the CTD, String, GeneCards, and DisGeNET databases were referenced. In the case of the CTD database, only those genes with direct evidence were selected. A total of 45 genes were selected for further analysis (Figure).
+
+The analysis conducted using the STRING database involved these 45 cancer‐associated targets, resulting in the identification of a gene interaction network comprising 45 nodes and 405 edges. The network was visually represented by ellipses of varying sizes, with the size of each ellipse serving to highlight the relative importance of the gene within the network. In order to identify the key genes within this complex structure, the maximal clique centrality (MCC) method was employed via the CytoHubba plugin, which identified the following hub genes: The identified hub genes were TP53, CDKN2A, PTEN, KRAS, and HRAS (Figure). The aforementioned hub genes were selected for docking studies, with the objective of further exploring their potential as therapeutic targets.
+
+FIGURE 4
+
+Target analysis ofand renal cell carcinoma. (a) Venn diagram showing the overlap between‐related genes and renal cell carcinoma‐associated genes. (b) Interaction between active compounds and target genes involved in renal cell carcinoma.
+
+FIGURE 5
+
+Renal cell carcinoma interaction network: (a) mapping the network of gene targets, (b) hub genes related renal cell carcinoma.
+
+3.8
+
+Molecular Docking
+
+As part of the study, molecular docking was conducted for enzymes and proteins. The requisite coordinates and grid sizes for these analyses are provided in Supplementary Table. From the multitude of compounds identified in, aesculin, naringenin, acacetin O‐hexoside‐O‐deoxyhexoside, tricin, apigenin 6‐C‐hexoside 8‐C pentoside, napigenin‐7‐O‐hexoside, and eriodictyol were selected for comprehensive analysis due to their pervasive distribution. In the study of renal cell carcinoma, the selected proteins included TP53, CDKN2A, PTEN, KRAS, and HRAS, in addition to the enzymes AChE, BChE, Tyr, Amylase, and Glucosidase. The proteins were identified through a disease ontology enrichment analysis using the DOSE package, followed by the screening of disease‐associated genes in the STRING database. Figureprovides a visual representation of the genes commonly associated with renal cell carcinoma. The selected compounds exhibited binding energies ranging from −11.2 to −6.2 kcal/mol with both enzymatic targets and renal cell carcinoma‐associated proteins (Tablesand). Subsequently, compounds exhibiting a minimum docking score threshold of −8.0 kcal/mol and at least one hydrogen bond were selected for a more comprehensive evaluation. A hydrogen bond distance cutoff of 4 Å was applied in order to facilitate the evaluation process. Figureprovides a visual representation, and Tablelists the compounds that exceeded the docking score threshold of −8.0 kcal/mol.
+
+The results of the molecular docking study show that out of seven molecules, two compounds, acacetin‐O‐hexoside‐O‐deoxyhexoside and napigenin 7‐O‐hexoside, have remarkable binding energies with proteins. Analysis of the binding energies for enzyme residues revealed higher interactions between AChE and acacetin O‐hexoside‐O‐deoxyhexoside, AChE and napigenin 7‐O‐hexoside, BChE and acacetin O‐hexoside‐O‐deoxyhexoside, respectively. In these interactions, it was observed that bonds such as pi‐pi, pi‐sigma, pi‐sulfur, pi‐alkyl, and conventional hydrogen bonds were more prevalent than hydrogen bonds (Figure). The detection of hydrogen bonds in the interactions between acacetin O‐hexoside‐O‐deoxyhexoside and AChE (Figure), napigenin 7‐O‐hexoside and AChE (Figure), acacetin O‐hexoside‐O‐deoxyhexoside and BChE (Figure), acacetin O‐hexoside‐O‐deoxyhexoside and HRAS (Figure), napigenin 7‐O‐hexoside and HRAS (Figure), napigenin 7‐O‐hexoside and KRAS highlighted the significance of these interactions (Figure). The highest binding score observed was −10.1 kcal/mol (Table).
+
+A molecular docking study was conducted to elucidate the inhibitory potential of various bioactive compounds against renal cell carcinoma. In this context, acacetin 7‐O‐hexoside‐O‐deoxyhexoside and napigenin 7‐O‐hexoside exhibited strong binding affinities with various target enzymes and proteins, thereby demonstrating their potential for therapeutic applications. With regard to amylase, apigenin 6‐C‐hexoside 8‐C‐pentoside exhibited the highest binding affinity (−10.0 kcal/mol), with the lower RMSD value of 0.596, interacting with key residues such as His A:305 (3), Glu A:233, and Asp A:300. Similarly, acacetin O‐hexoside‐O‐deoxyhexoside, with the highest RMSD value of 2.6156, and napigenin 7‐O‐hexoside, with the highest RMSD value of 7.6274, exhibited comparable interactions at the Glu A:233 residue, with binding affinities of −9.6 and −9.5 kcal/mol, respectively. In the case of BChE, acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 1.0193, and napigenin 7‐O‐hexoside, with a lower RMSD value of 0.7728, exhibited robust and consistent binding interactions, particularly with the Glu A:197 and His A:438 residues. With regard to glucosidase, both compounds exhibited notable binding scores, with acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 0.9842 (−8.7 kcal/mol), and napigenin 7‐O‐hexoside, with a lower RMSD value of 0.9854 (−9.3 kcal/mol), demonstrating significant interactions. With regard to AChE, acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 0.2657 (−11.5 kcal/mol), and napigenin 7‐O‐hexoside, with the highest RMSD value of 4.653 (−11.1 kcal/mol), demonstrated interactions with residues such as Phe A:295, suggesting potential applications in the treatment of neurodegenerative diseases. On Tyr, acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 0.7353 (−9.3 kcal/mol), and napigenin 7‐O‐hexoside, with a lower RMSD value of 0.7134 (−9.5 kcal/mol), demonstrated significant and consistent interactions with Arg A:374. In the context of HRAS interactions, napigenin 7‐O‐hexoside, with a lower RMSD value of 0.515 (−11.2 kcal/mol), and acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 1.8465 (−9.7 kcal/mol), exhibited notable binding affinity, particularly with residues Gln A:61 and Lys A:16. With regard to KRAS, napigenin 7‐O‐hexoside, with a lower RMSD value of 1.0536 (−10.6 kcal/mol), and acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 0.1978 value (−9.1 kcal/mol), exhibited the potential to act as effective inhibitors. In the case of Pten, acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 0.1978 (−9.5 kcal/mol), and napigenin 7‐O‐hexoside, with a lower RMSD value of 1.0482 (−8.8 kcal/mol), demonstrated interactions. With regard to CDKN2A, acacetin O‐hexoside‐O‐deoxyhexoside, with a lower RMSD value of 1.049 (−8.2 kcal/mol), exhibited binding interactions with residues Asp A:108 and Arg A:46 (3). Finally, acacetin O‐hexoside‐O‐deoxyhexoside, with the highest RMSD value of 4.6987 (−8.0 kcal/mol), was observed to interact with Lys A:332 with regard to TP53. The results indicate that acacetin O‐hexoside‐O‐deoxyhexoside and naringenin 7‐O‐hexoside have the potential to serve as effective inhibitors in the treatment of renal cell carcinoma. These molecules demonstrate strong binding affinities to various enzymes and proteins, which suggests broad therapeutic potential.
+
+FIGURE 6
+
+Enzymes’ and proteins' active sites with compounds showing the best binding energy: (a) Interaction between acacetin O‐hexoside‐O‐deoxyhexoside and AChE. (b) Interaction between napigenin 7‐O‐hexoside and AChE. (c) Interaction between acacetin O‐hexoside‐O‐deoxyhexoside and BChE. (d) Interaction between acacetin O‐hexoside‐O‐deoxyhexoside and HRAS. (e) Interaction between napigenin 7‐O‐hexoside and HRAS. (f) Interaction between napigenin 7‐O‐hexoside and KRAS.
+
+TABLE 6
+
+The docking score (kcal/mol) and interacting residues of the enzyme and protein.
+
+Compound
+
+Receptor
+
+Binding energy (kcal/mol)
+
+RMSD
+
+Interaction
+
+Amino acid residues
+
+Target
+
+PDB ID
+
+Type
+
+Number
+
+Binding site
+
+Aesculin
+
+Amylase
+
+2qv4
+
+−8.2
+
+0.5198
+
+H‐bond
+
+2
+
+Glu A:233
+
+Naringenin
+
+Amylase
+
+2qv4
+
+−8.9
+
+0.1911
+
+H‐bond
+
+2
+
+Gln A:63, Asp A:300
+
+Acacetin‐O‐hexoside‐O‐deoxyhexoside
+
+Amylase
+
+2qv4
+
+−9.6
+
+2.6156
+
+H‐bond
+
+4
+
+Asp A:300, His A:299, Glu A:233 (2)
+
+Tricin
+
+Amylase
+
+2qv4
+
+−8.1
+
+0.9933
+
+H‐bond
+
+0
+
+Apigenin 6‐C‐hexoside 8‐C‐pentoside
+
+Amylase
+
+2qv4
+
+−10.0
+
+0.596
+
+H‐bond
+
+8
+
+His A:305 (3), Glu A:233, Asp A:300, Gln A:63 (2), Thr A:163
+
+Napigenin 7‐O‐hexoside
+
+Amylase
+
+2qv4
+
+−9.5
+
+7.6274
+
+H‐bond
+
+2
+
+Glu A:233, His A:201
+
+Eriodictyol
+
+Amylase
+
+2qv4
+
+−9.1
+
+1.0156
+
+H‐bond
+
+6
+
+Gln A:63, Glu A:233, Asp A:197 (2), His A:299
+
+Acacetin‐O‐hexoside‐O‐deoxyhexoside
+
+Glucosidase
+
+3w37
+
+−8.7
+
+0.9842
+
+H‐bond
+
+6
+
+Arg A:552, Asp A:630, Asp A:232, Asp A:568 (3)
+
+Apigenin 6‐C‐hexoside 8‐C‐pentoside
+
+Glucosidase
+
+3w37
+
+−8.1
+
+0.6559
+
+H‐bond
+
+2
+
+Ser A:406, Thr A:409
+
+Napigenin 7‐O‐hexoside
+
+Glucosidase
+
+3w37
+
+−9.3
+
+0.9854
+
+H‐bond
+
+2
+
+Asp A:23, Asp A:357
+
+Eriodictyol
+
+Glucosidase
+
+3w37
+
+−8.2
+
+0.1661
+
+H‐bond
+
+3
+
+Asp A:357 (2), Asp A:232
+
+Aesculin
+
+AChE
+
+2y2v
+
+−9.3
+
+0.8818
+
+H‐bond
+
+5
+
+Trp A:86, Gly A:126, Ala A:204, Tyr A:341, Thr A:83
+
+Naringenin
+
+AChE
+
+2y2v
+
+−9.9
+
+0.7023
+
+H‐bond
+
+4
+
+Thr A:341 (2), Thr A:337, Thr A:124
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+AChE
+
+2y2v
+
+−11.5
+
+0.2657
+
+H‐bond
+
+6
+
+His A:447, Glu A:202 (2), Asp A:74, Phe A:295, Arg A:296
+
+Tricin
+
+AChE
+
+2y2v
+
+−9.5
+
+0.6109
+
+H‐bond
+
+3
+
+Thr A:337, Phe A:295, Ser A:293
+
+Apigenin 6‐C‐hexoside 8‐C‐pentoside
+
+AChE
+
+2y2v
+
+−9.8
+
+0.5919
+
+H‐bond
+
+4
+
+Gln A:291, Ser A:293, Arg A:296, Phe A:295
+
+Napigenin 7‐O‐hexoside
+
+AChE
+
+2y2v
+
+−11.1
+
+4.653
+
+H‐bond
+
+4
+
+Glu A:202, Gly A:120, Arg A:296, Asp A:274
+
+Eriodictyol
+
+AChE
+
+2y2v
+
+−9.9
+
+0.5723
+
+H‐bond
+
+3
+
+Thr A:341 (2), Thr A:124
+
+Aesculin
+
+BChE
+
+3djy
+
+−8.7
+
+0.9659
+
+H‐bond
+
+4
+
+Trp A:82, Trp A:440, Thr A:122, His A:438
+
+Naringenin
+
+BChE
+
+3djy
+
+−8.7
+
+0.9843
+
+H‐bond
+
+2
+
+Glu A:197, Gly A:115
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+BChE
+
+3djy
+
+−10.1
+
+1.0193
+
+H‐bond
+
+5
+
+Gly A:117, Glu A:197 (2), Ala A:199, His A:438
+
+Tricin
+
+BChE
+
+3djy
+
+−8.6
+
+0.7419
+
+H‐bond
+
+1
+
+Asp A:70
+
+Apigenin 6‐C‐hexoside 8‐C‐pentoside
+
+BChE
+
+3djy
+
+−9.7
+
+0.6381
+
+H‐bond
+
+1
+
+His A:438
+
+Napigenin 7‐O‐hexoside
+
+BChE
+
+3djy
+
+−10.0
+
+0.7728
+
+H‐bond
+
+6
+
+Glu A:197, Tyr A:128, Asn A:68, Asp A:70, His A:438, Tyr A:332
+
+Eriodictyol
+
+BChE
+
+3djy
+
+−9.1
+
+1.0191
+
+H‐bond
+
+3
+
+Asn A:68, Asp A:70, Asn A:83
+
+Acacetin‐O‐hexoside‐O‐deoxyhexoside
+
+Tyr
+
+5m8o
+
+−9.3
+
+0.7353
+
+H‐bond
+
+10
+
+Glu A:216, Arg A:374 (2), Tyr A:362 (2), Asn A:378 (2), Gln A:390, Asp A:212, Thr A:391
+
+Napigenin‐7‐O‐hexoside
+
+Tyr
+
+5m8o
+
+−9.5
+
+0.7134
+
+H‐bond
+
+8
+
+Arg A:374 (2), Ser A:394, Gly A:386, Asn A:385, Asn A:318 (2), Arg A:321
+
+Acacetin‐O‐hexoside‐O‐deoxyhexoside
+
+CDKN2A
+
+1 dc2
+
+−8.2
+
+1.049
+
+H‐bond
+
+7
+
+Asp A:108, Asp A:84, Arg A:46 (3), Tyr A:44, Tyr A:77
+
+Aesculin
+
+Hra‐S
+
+1p2s
+
+−8.5
+
+1.0597
+
+H‐bond
+
+3
+
+Asp A:33, Gly A:15, Glu A:31
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+Hra‐S
+
+1p2s
+
+−9.7
+
+1.8465
+
+H‐bond
+
+3
+
+Gly A:13 (2), Asp A:33
+
+Tricin
+
+Hra‐S
+
+1p2s
+
+−8.5
+
+0.0684
+
+H‐bond
+
+2
+
+Thr A:35, Gly A:13
+
+Apigenin 6‐C‐hexoside
+
+8‐C‐pentoside
+
+Hra‐S
+
+1p2s
+
+−8.2
+
+0.6451
+
+H‐bond
+
+6
+
+Asp A:119, Lys A:147, Lys A:16, Thr A:35, Asp A:33, Lys A:117
+
+Napigenin 7‐O‐hexoside
+
+Hra‐S
+
+1p2s
+
+−11.2
+
+0.515
+
+H‐bond
+
+5
+
+Gln A:61, Gly A:60, Lys A:16, Ser A:17, Lys A:147
+
+Eriodictyol
+
+Hra‐S
+
+1p2s
+
+−8.7
+
+2.1889
+
+H‐bond
+
+1
+
+Glu A:31
+
+Aesculin
+
+Kra‐s
+
+8afb
+
+−8.0
+
+1.0695
+
+H‐bond
+
+2
+
+Thr A:32, Lys A:16
+
+Naringenin
+
+Kra‐s
+
+8afb
+
+−8.3
+
+1.0607
+
+H‐bond
+
+2
+
+Thr A:32, Ser A:145
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+Kra‐s
+
+8afb
+
+−9.1
+
+0.7933
+
+H‐bond
+
+9
+
+Lys A:147, Ser A:145, Val A:129, Tyr A: 32 (2), Glu A:31, Gly A:13 (2), Ser A:117
+
+Tricin
+
+Kra‐s
+
+8afb
+
+−9.0
+
+0.3823
+
+H‐bond
+
+4
+
+Tyr A:32, Ala A:18, Ser A:145, Asn A:116
+
+Apigenin 6‐C‐hexoside 8‐C‐pentoside
+
+Kra‐s
+
+8afb
+
+−8.8
+
+0.5755
+
+H‐bond
+
+3
+
+Tyr A:32, Val A:29, Lys A:147
+
+Napigenin 7‐O‐hexoside
+
+Kra‐s
+
+8afb
+
+−10.6
+
+1.0536
+
+H‐bond
+
+4
+
+Gly A:15 (2), Lys A:16 (2)
+
+Eriodictyol
+
+Kra‐s
+
+8afb
+
+−8.8
+
+1.0295
+
+H‐bond
+
+3
+
+Asp A:119, Ala A:146, Tyr A:32
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+Pten
+
+1d5r
+
+−9.5
+
+0.1978
+
+H‐bond
+
+1
+
+Lys A:332
+
+Napigenin 7‐O‐hexoside
+
+Pten
+
+1d5r
+
+−8.8
+
+1.0482
+
+H‐bond
+
+7
+
+Asp A:324, Asn A:323 (2), Gln A:149, Tyr A:176
+
+Eriodictyol
+
+Pten
+
+1d5r
+
+−8.1
+
+0.8453
+
+H‐bond
+
+2
+
+Asp A:324, Arg A:173
+
+Acacetin O‐hexoside‐O‐deoxyhexoside
+
+TP53
+
+6mxy
+
+−8.0
+
+4.6987
+
+H‐bond
+
+1
+
+Lys A:332
+
+3.9
+
+Conclusion
+
+In summary, the biological properties and chemical profiles ofextracts were extensively studied. Based on UHPLC–MS/MS results, the extracts were rich in flavonoids. In general, we did not observe any correlation between the tested biological properties. For example, although the ethyl acetate and ethanol extracts contained more phenolics compared to ethanol/water and water extracts, the extracts were the weakest in the DPPH assay. Interestingly, the water extract also showed the best scavenging ability in the ABTS assay. However, the ethyl acetate and ethanol extracts were more active in the enzyme inhibition tests. In terms of cell viability (%), the ethyl acetate, ethanol, and water extracts were as toxic to normal cell lines (HEK 293). Taken together, the differences can be explained by the complex nature of the phytochemicals and their interactions, for example, antagonistic or synergistic. Furthermore, the observed ability cannot be directly attributed to the presence of phenols and other compounds alone but can be attributed to the observed abilities. Network pharmacology and molecular docking analysis also revealed the interaction between the compounds (particularly flavonoids) and enzymatic targets as well as target genes. Our results suggest thatcan be an alternative natural raw material instead of synthetic active ingredients in the pharmaceutical, nutraceutical, and cosmetic industries. However, further experimental studies strongly recommend isolating active ingredients and their effects as well as pharmacokinetic properties.
+
+Author Contributions
+
+conceptualization (equal), data curation (equal), investigation (equal), writing – original draft (equal).conceptualization (equal), investigation (equal), methodology (equal), writing – original draft (equal).conceptualization (equal), funding acquisition (equal), methodology (equal), visualization (equal).investigation (equal), validation (equal), writing – original draft (equal), writing – review and editing (equal).conceptualization (equal), investigation (equal), writing – original draft (equal).investigation (equal), methodology (equal), writing – original draft (equal).data curation (equal), investigation (equal), writing – original draft (equal), writing – review and editing (equal).investigation (equal), methodology (equal), writing – review and editing (equal).conceptualization (equal), data curation (equal), investigation (equal), writing – original draft (equal), writing – review and editing (equal).resources (equal), validation (equal), writing – original draft (equal).investigation (equal), writing – original draft (equal), writing – review and editing (equal).investigation (equal), methodology (equal), writing – original draft (equal).investigation (equal), methodology (equal), resources (equal).conceptualization, methodology, writing – original draft.conceptualization, methodology, writing – original draft.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Supporting information
+
+Table S1.

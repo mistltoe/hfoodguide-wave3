@@ -1,0 +1,143 @@
+{
+ "slug": "stellaria-media",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 76,
+ "checked_items": 70,
+ "verified": 124,
+ "fixed": 19,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "별꽃(Stellaria media)은 석죽과(Caryophyllaceae) 별꽃속의 한해살이 풀로, 영어로 chickweed라 불리며 온대·한대 지역에 널리 퍼져 있다[2].",
+   "after": "별꽃(Stellaria media)은 석죽과(Caryophyllaceae) 별꽃속의 풀로, 영어로 chickweed라 불리며 추운 지역과 온대 지역에 널리 퍼져 있다[2]. 미국 노스캐롤라이나 잡초 조사에서는 한해살이 종으로 분류되었다[28].",
+   "why": "[2] 리뷰는 '여러해살이(perennial)'라고 써서 '한해살이'를 뒷받침하지 않음; 한해살이 분류는 [28] 초록에 있음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "어린 순만 식품에 쓸 수 있다[1]",
+   "after": "순만 식품원료로 쓸 수 있다[1]",
+   "why": "[1] 조건은 '사용가능부위 : 순'뿐이고 '어린'은 원문에 없음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "등 동물·세포 실험이다[4, 30–33]",
+   "after": "등 동물·세포·시험관(효소) 실험이다[4, 30–33]",
+   "why": "[31] COX-2 억제는 무세포 효소 시험"
+  },
+  {
+   "where": "sections.history",
+   "before": "17세기 영국의 한 약초서는 옴(mange) 치료에 권했다고",
+   "after": "17세기 영국의 한 약초학자가 옴(mange) 치료에 권했다고",
+   "why": "[5] 원문은 약초학자(herbalist)가 권했다고 씀"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "water chickweed(Myosoton aquaticum)가 속한 Myosoton 속을",
+   "after": "Myosoton 속을",
+   "why": "[13] 초록에 종명·영명이 없어 출처 없는 보충 삭제"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "헝가리 연구는 한 협회가 2017년에 수확한 지상부를 말려 썼고",
+   "after": "헝가리 연구는 한 협회가 2017년에 수확한 풀(부위 구분 없음)을 말려 썼고",
+   "why": "[6] 원문은 'herb'·'drug'라고만 쓰고 지상부라고 하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "수경 재배에서는 용액 pH 5에서 새싹의 아연이 1640 μg/g 건조중량, pH 6.5에서 니켈이 250 μg/g 건조중량까지 쌓였다[24].",
+   "after": "수경 재배(용액 아연 0.55 mM 또는 니켈 0.1 mM)에서는 pH 5에서 지상부의 아연이 평균 1640 μg/g 건조중량, pH 6.5에서 니켈이 평균 250 μg/g 건조중량까지 쌓였다[24].",
+   "why": "[24] 원문 'shoots'는 새싹이 아니라 지상부; 평균값·처리 농도 조건 보충"
+  },
+  {
+   "where": "sections.processing",
+   "before": "헝가리 연구는 말린 지상부를 끓는 물(1:10)로",
+   "after": "헝가리 연구는 말린 풀을 끓는 물(1:10)로",
+   "why": "[6] 원문은 지상부라고 하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "중국 연구는 생즙을 거대다공성 수지와 한외여과로 나눠 플라보노이드·다당·단백질 분획을 만들었다[5].",
+   "after": "중국 연구는 생풀 즙을 거대다공성 수지와 한외여과로 처리해 시료 7개(SM-1~7)를 만들었고, 활성이 가장 컸던 SM-3에는 플라보노이드 C-배당체·다당·단백질이 함께 들어 있었다[5].",
+   "why": "[5] 전문: 성분별 분획이 아니라 제법이 다른 시료 7개이며 SM-3이 세 성분을 함께 포함"
+  },
+  {
+   "where": "sections.safety",
+   "before": "질산염이 47–597 mg/100 g 범위라고 했으나, 초록에",
+   "after": "질산염이 47–597 mg/100 g 범위라고 했으나[9], 초록에",
+   "why": "출처 표시 누락 보완([9] 초록 확인)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "쥐에게 별꽃차 100 mg/kg을 먹였을 때 간·신장 기능과 심장 형태·기능은 변하지 않았다[7].",
+   "after": "고콜레스테롤 식이를 먹인 쥐에게 별꽃차 100 mg/kg을 먹였을 때 간·신장 기능과 심장 형태·기능은 변하지 않았다[7]. 인도 연구의 생즙 동결건조물에서 카드뮴·납·비소는 WHO 허용 기준보다 낮았고 아플라톡신은 5 ppb 미만이었다[4].",
+   "why": "[7] 실험 조건 보충, [4] 전문의 중금속·아플라톡신 품질 결과 추가"
+  },
+  {
+   "where": "compounds.Vitexin",
+   "before": "지상부(생즙 분획)",
+   "after": "전초 생즙 분획(SM-3)",
+   "why": "[5] 시료는 생풀 전체(fresh chickweed)"
+  },
+  {
+   "where": "compounds.Gypsogenin",
+   "before": "(쥐)",
+   "after": "(생쥐)",
+   "why": "[4] 실험동물은 Swiss albino 생쥐"
+  },
+  {
+   "where": "compounds.Gypsogenin",
+   "before": "생즙 동결건조물 총사포닌 1.19 μg/g",
+   "after": "생즙 동결건조물 총사포닌(집소게닌 개별 정량 아님) 1.19 μg/g",
+   "why": "총사포닌을 집소게닌 함량으로 오해하지 않게"
+  },
+  {
+   "where": "compounds.Oleanolic acid",
+   "before": "올레아난형 사포닌의 기본 골격[4]",
+   "after": "별꽃의 올레아난형 트라이테르페노이드 사포닌이 리파아제 억제 후보로 인용됨(생쥐 연구의 고찰)[4]",
+   "why": "[4] 는 올레아놀산을 '기본 골격'이라 쓰지 않음; 원문 고찰 내용으로 바꿈"
+  },
+  {
+   "where": "compounds.Potassium",
+   "before": "생잎",
+   "after": "생잎·연한 줄기",
+   "why": "[3] 무기질은 잎과 연한 줄기 생중량 기준"
+  },
+  {
+   "where": "nutrients[0].form",
+   "before": "생잎(스페인",
+   "after": "생잎·연한 줄기(스페인",
+   "why": "[3] 'leaves and tender stems' 생중량 기준"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "지상부 생풀 착즙 동결건조물(인도 하리아나주 채취)",
+   "after": "생풀(전초) 착즙 동결건조물(인도 하리아나주 히사르 채취)",
+   "why": "[4] 원문은 'fresh herb/fresh plant'로 지상부라 하지 않음"
+  },
+  {
+   "where": "assays[2].part",
+   "before": "지상부 생즙의 거대다공성 수지·한외여과 분획 SM-3",
+   "after": "생풀(전초) 즙의 거대다공성 수지·한외여과 시료 SM-3",
+   "why": "[5] 원문은 'fresh chickweed' 전체"
+  },
+  {
+   "where": "sources[2]",
+   "before": "전문 확인; 2차 문헌(리뷰))",
+   "after": "전문 확인; 2차 문헌(리뷰); 원문은 여러해살이라고 씀)",
+   "why": "리뷰의 생활형 표기 오류 메모"
+  }
+ ],
+ "unverifiable_notes": [
+  "[9] 초록은 별꽃 카로틴 4.2 mg/100 g 을 주지만 생중량/건중량 기준을 밝히지 않음(값은 원문대로 둠)",
+  "[2] 리뷰가 정리한 집소게닌·올레아놀산 분리, 잎 GC-MS 아피게닌은 1차 문헌을 열지 못해 리뷰 서술로만 확인",
+  "[6] LC-MS/UPLC 분석 세부는 보충자료에 있어 확인 못함(본문 수치 9.88 mg QE/g, 일치도 82.8·62.9 는 전문으로 확인)",
+  "[20] 초록에서 종명이 빠져 있으나 PubMed 'Stellaria media'[tiab] 검색으로 이 논문의 여섯 종에 별꽃이 들어 있음을 확인",
+  "[11]~[34] 중 PMC 전문이 없는 논문은 초록으로 대조; [3]·[4]·[5]·[6]·[2] 는 PMC 전문, [8] 은 작성자 저장 전문으로 대조",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 의 '별꽃순' 행(식품원료 A코드, 사용가능, 사용가능부위: 순)과 card.json·overview 가 일치함을 확인; 같은 속 벼룩나물순·왕별꽃순·Star chickweed잎·S. jamesiana/neglecta/nipponica/diversiflora/sessiliflora잎 자료가 본문 수치에 섞이지 않았음",
+  "사람 대상 임상시험은 PubMed(Clinical Trial/RCT 유형 필터) 0건으로 확인",
+  "WebSearch 0회 사용"
+ ]
+}

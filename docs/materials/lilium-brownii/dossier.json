@@ -1,0 +1,604 @@
+{
+ "slug": "lilium-brownii",
+ "name_ko": "홍콩백합",
+ "name_en": "Brown's lily (Hong Kong lily)",
+ "scientific_name": "Lilium brownii F.E.Br. ex Miellez",
+ "aliases": [
+  "홍콩백합꽃잎",
+  "홍콩백합비늘줄기",
+  "당나리",
+  "당개나리",
+  "Lilium austale",
+  "Lilium brownii var. australe",
+  "Lilium brownii var. viridulum",
+  "룽야백합",
+  "Longya lily",
+  "백합(百合)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "홍콩백합(Lilium brownii)은 백합과 백합속의 여러해살이 알뿌리 식물로, 흰 비늘잎이 겹겹이 모인 비늘줄기를 음식과 약으로 쓴다[2]. 식약처 「식품원료 목록」에는 '홍콩백합꽃잎'과 '홍콩백합비늘줄기' 두 행이 있고, 학명은 Lilium brownii F.Br. ex Miellez(함께 적힌 이름 Lilium austale Stapf, Lilium brownii var. australe), 별명은 당나리·당개나리다[1]. 두 행 모두 식품에 쓸 수 있는 원료(사용가능, 식품원료 A코드)이고 사용 조건은 '사용가능부위 : 비늘줄기, 꽃잎'이다[1]. 같은 목록의 '백합' 행들(백합가루·백합추출액·백합꽃잎·백합비늘줄기·백합뿌리)은 참나리·백합(百合, L. brownii var. viridulum)·큰솔나리를 함께 기원으로 적어, 이 종의 변종이 '백합' 원료에도 들어간다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n중국 약전은 참나리(L. lancifolium), L. brownii var. viridulum, 큰솔나리(L. pumilum)의 비늘줄기를 약재 백합(百合, Lilii Bulbus)의 기원으로 정한다[2]. 비늘줄기에는 다당류·스테로이드 사포닌·페닐프로파노이드(레갈로사이드 등)·플라보노이드가 주요 성분으로 정리된다[2]. 효능 근거는 대부분 세포·동물 실험이며, 이 종만으로 한 사람 시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "중국에서 백합 비늘줄기는 한나라 때부터 음식이자 약으로 기록되었고, 음(陰)을 기르고 폐를 적시며 마음을 안정시키는 데 쓰였다[2]. 2025년 리뷰는 후한(동한) 때의 문헌이 var. viridulum의 비늘줄기를 배 아픔을 덜고 대변을 잘 통하게 하며 장기를 기르고 마음을 가라앉힌다고 적었다고 소개한다[2]. 같은 리뷰는 독성 절에서 이 책이 L. brownii와 var. viridulum을 독 없는 상품(上品)으로 올렸다고 쓰고, 다른 절에서는 중품(中品)으로 적어 서술이 엇갈린다[2]. 옛날에는 여러 백합속 종이 섞여 쓰였으나 명나라 무렵에는 L. brownii와 var. viridulum이 정통 기원으로 자리 잡았고, 후베이 징저우·간쑤 청현·안후이 추저우·산둥 허쩌가 산지로 꼽혔다[2]. 본초 문헌 고증 연구도 var. viridulum을 정통 약용 백합으로 보고, 참나리(권단)는 일부 의서에서 잘못 쓰였으며 산단(L. pumilum)은 효능이 다르다고 결론지었다[3]. 장중경의 『금궤요략』에 실린 백합지황탕이 대표 처방이고, 백합지모탕도 옛 의서의 '백합병' 처방으로 소개된다[2]. 한국에서 이 종을 먹어 온 역사 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "홍콩백합은 백합과 백합속의 여러해살이 알뿌리 식물이며, 비늘줄기는 수십 장의 흰 비늘잎이 연꽃처럼 겹쳐 있다[2]. 학명 L. brownii 아래 변종 var. viridulum Baker가 있으며, 중국에서는 '룽야백합(Longya lily)'이라 부른다[20]. var. viridulum은 북아시아와 동아시아에 널리 분포한다고 보고되었다[4]. 중국 광둥성에는 이 종의 자연 집단이 있어 유전 다양성과 집단 구조가 연구되었다[5]. var. viridulum 비늘줄기 녹말은 본래 B형 결정 구조를 보였다[17]. 리뷰는 백합 비늘줄기에 녹말이 건조중량 11.10–19.54%, 다당류가 신선중량 100 g당 2.0–5.0 g, 스테로이드 사포닌이 0.1–0.3 g 들어 있다고 정리했으나, 이는 여러 백합을 묶은 값이다[2]. 식약처 목록은 꽃잎도 먹을 수 있는 부위로 두지만, 이 종의 꽃잎 성분을 정량한 논문은 PubMed에서 찾지 못해 확인하지 못함. 꽃의 모양·색, 꽃 피는 시기 같은 형태 정보는 식물지 원문을 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "식약처 목록에는 이 종 말고도 백합속 식품원료가 여럿 있다[1]. 중나리(L. leichtlinii var. maximowiczii), 섬말나리(L. hansonii), 야마유리(L. auratum), 땅나리(L. callosum), 말나리(L. distichum), 하늘말나리(L. tsingtauense)는 각각 다른 행이며, 야마유리는 뿌리, 섬말나리는 비늘줄기와 어린잎처럼 쓸 수 있는 부위도 다르다[1]. '백합' 행은 참나리·백합(L. brownii var. viridulum)·큰솔나리를 한데 묶어 적었으므로, 제품의 '백합'이 어느 종인지는 원료 표시로 따로 확인해야 한다[1]. 개별인정형 건강기능식품 원료 '참나리추출분말'은 참나리(L. lancifolium) 비늘줄기가 원료로, 이 종과 다르다[1]. 중국 시장에는 참나리, 란저우백합(L. davidii var. unicolor), 백합(L. brownii var. viridulum) 세 가지가 주로 유통되며, 근적외선 분광으로 94.37% 정확도로 구별되었다[31]. 쓴맛 성분인 레갈로사이드 A·B는 참나리가 이 종보다 각각 약 2–7배, 4–16배 많았고, 레갈로사이드 C·E는 이 종에서 검출되지 않았다[7]. 두 종을 2차원 액체크로마토그래피-고분해능 질량분석으로 비교해 모두 331개 성분을 확인했고 페닐프로파노이드 유도체와 스테로이드 사포닌이 가장 많았다[30]. 식약처 목록에서 '백합'은 조개(Meretrix lusoria)의 이름이기도 하다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "룽야백합은 장시·후난·광시성 여러 현이 본래 산지로 꼽히며, 2015년 말 재배 면적 12.5만 무(畝), 생산량 8만 t으로 중국 3대 식용 백합의 하나가 되었다[22]. 연구 시료는 주로 후난성에서 왔으며, 다당 비교 연구는 후난성 룽후이현, 콜히친 연구의 'Longya' 시료는 후난성 헝둥현에서 채집했다[6, 8]. 룽야백합의 뿌리·줄기·비늘줄기·잎에서 찾은 2,4-다이-tert-부틸페놀(2,4-DTBP)이 자가독성 물질로 확인되었고[20], 이 물질은 이어짓기 장해의 핵심 원인으로 지목되며 이어짓기 뒤 흙 속 함량이 0.75 μg/g에서 1.2 μg/g으로 늘었다[21]. 이어짓기 밭 흙에서 이 물질을 분해하는 세균 두 균주가 분리되어 현장 시험까지 진행되었다[21]. 버섯 배지 잔재와 탄소나노튜브를 섞어 흙을 환원 소독하는 방법도 이어짓기 피해를 줄이려고 시험되었다[36]. 룽야백합은 잿빛곰팡이병균(Botrytis cinerea)에 약하고[22], 비늘줄기 썩음병 연구에서는 페닐프로파노이드 생합성 경로가 저항성에 중요하다고 보았다[23]. 중국 저장성 리수이시의 L. brownii에서는 사과줄기홈바이러스(ASGV)가 처음 보고되었다[24]. 개체 선발로 얻은 새 계통 '쉐펑(Xuefeng)'은 전통 계통 '룽야'보다 플라보노이드 85종과 배당체가 많았다[25, 26]. 국내 농작물생산조사·특용작물 생산실적에서 이 종의 재배 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "백합 비늘줄기는 찌거나 삶아 먹고, 가루·술·기능성 음료로 가공하며, 여름에는 설탕을 넣은 백합탕이나 죽으로 먹는다[2]. 식약처 목록에도 '백합가루'·'백합추출액'처럼 가공 형태의 원료가 올라 있다[1]. var. viridulum 다당 추출에서 아임계수(150 °C, 10분) 수율은 54.91%로 초음파 추출(3.69%)보다 훨씬 높았고, 아임계수 다당의 포도당 비율은 91.67%였다[6]. 정제 다당 가운데 분자량 12.0 kDa 만노글루칸(LLP11)은 모의 소화 효소에 분해되지 않고 장내세균의 아세트산 생산에 쓰였다[15]. 312 kDa 글루코만난(LBP)은 대식세포의 면역 관련 유전자 발현을 높였다[14]. 녹말은 수분 25%에서 수분-열처리하면 조리 후 저항전분이 44.15%로 가장 높았다[17]. 백합지모탕처럼 지모와 함께 달이면 백합 쪽 페놀 배당체의 추출이 억제되었다[35]. 쥐 불면 모델에서는 백합(L. brownii) 7일 투여가 세로토닌·멜라토닌 수치와 장내세균을 회복시켰다[29]. 파킨슨병 생쥐 모델에서는 에탄올·물 추출물 30일 투여가 모두 운동 기능을 개선했으나, 사람 근거는 아니다[32]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "var. viridulum의 엽록체 유전체는 152,665 bp이며, 역반복 영역(합계 53,052 bp)·대단일복사 영역 82,085 bp·소단일복사 영역 17,528 bp로 이루어지고 유전자 131개(tRNA 38, rRNA 8, 단백질 암호 85)가 예측되었다[4]. 광둥성 자연 집단의 유전 다양성 연구는 초록이 없어 수치는 확인하지 못함. 2,4-DTBP 처리 룽야백합의 전사체 분석에서 유전자 단편(unigene) 188,505개가 얻어졌다[20]. '쉐펑'과 '룽야' 비교에서는 플라보노이드 합성 효소 유전자 59개가 쉐펑에서 더 많이 발현되었고, MYB 1개와 bHLH 4개 전사인자가 안토시아닌 합성과 연결되었다[25]. 대사체·전사체 비교에서 이 종은 식용 전용 대조 백합보다 스테로이드 사포닌과 스테로이드 알칼로이드가 많았고, 관련 CYP450 유전자 발현도 높았다[19]. 룽야백합의 배발생 캘러스 재생·형질전환 체계가 확립되어 형질전환율 65.56%를 얻었다[22]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 홍콩백합 비늘줄기·꽃잎은 사용가능 원료이며[1], 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 확인하지 못함. 중국 약전의 말린 백합(여러 종 기원) 하루 용량은 6–12 g이고, 리뷰는 경구 5.55–60 g 범위에서 급성 독성 기록이 없고 중독 사례도 보고되지 않았으나 만성 중독 가능성은 배제할 수 없다고 정리했다[2]. 백합의 쓴맛을 콜히친 탓으로 보는 주장이 있었으나, 2026년 고분해능 LC-MS 연구는 'Longya' 등 5개 품종의 비늘줄기·뿌리·줄기·꽃·잎에서 콜히친과 생합성 전구체 15종을 모두 검출하지 못했다[8]. 같은 연구에서 가장 쓴 품종은 'Longyahong'으로 쓴맛이 비늘줄기 겉껍질에 몰려 있었고, 껍질의 스테로이드 알칼로이드 배당체와 사포닌이 쓴맛을 냈으며, 'Longya'는 쓴맛이 약했다[8]. 시중 백합 약재에서 유황 훈증이 흔한 문제로 보고되었으나 시료 기원 종은 확인하지 못함[34].\n\n고양이 백합 중독은 사람 식품 안전과 별개다[27]. 백합속 식물은 고양이에게 신장 독성이 있어 잎 2장이나 꽃 일부로도 죽을 수 있고, 꽃잎·수술·잎·꽃가루 모두 위험하다[27]. 이스터백합(L. longiflorum)의 수용성 추출물은 고양이에게 신장 세뇨관 괴사를 일으켰다[28]. 카드 자료에는 이 종이 유럽식품안전청(EFSA) 식물 목록(Compendium of botanicals)에 있다고 표시되어 있으나 해당 항목 원문은 확인하지 못함[37]. 홍콩백합 자체의 고양이 독성 시험과 국내 공공기관의 알레르기·잔류농약 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Regaloside A",
+   "name_ko": "레갈로사이드 A",
+   "class": "페닐프로파노이드 글리세롤 배당체",
+   "role": "marker",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "참나리가 이 종보다 약 2–7배 많음(LC-MS 정량, 초록)[7]",
+   "activity_ko": "참나리(권단) 추출물에서 골라 표준품으로 시험한 결과 고혈당 생쥐 혈당 저하, α-글루코시데이스 억제[33]",
+   "source": [
+    7,
+    33
+   ]
+  },
+  {
+   "name": "Regaloside B",
+   "name_ko": "레갈로사이드 B",
+   "class": "페닐프로파노이드 글리세롤 배당체",
+   "role": "marker",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "참나리가 이 종보다 약 4–16배 많음(초록); 레갈로사이드 C·E는 이 종에서 불검출[7]",
+   "activity_ko": "참나리(권단) 추출물에서 골라 표준품으로 시험한 결과 고혈당 생쥐 혈당 27.87→14.11 mmol/L[33]",
+   "source": [
+    7,
+    33
+   ]
+  },
+  {
+   "name": "1-O-feruloyl-2-O-p-coumaroylglycerol",
+   "name_ko": "1-O-페룰로일-2-O-p-쿠마로일글리세롤",
+   "class": "페닐프로페노이드 아실글리세롤",
+   "role": "bioactive",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "클로로포름 분획에서 분리(함량 미기재)[9]",
+   "activity_ko": "LPS 자극 대식세포 NO 생성 억제 IC50 9.12 μM[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "1,3-O-diferuloylglycerol",
+   "name_ko": "1,3-O-다이페룰로일글리세롤",
+   "class": "페닐프로페노이드 아실글리세롤",
+   "role": "bioactive",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "클로로포름 분획에서 분리(함량 미기재)[9]",
+   "activity_ko": "NO 생성 억제 IC50 12.01 μM, NF-κB·MAPK 경로 억제[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "1-O-p-coumaroyl-3-O-feruloylglycerol",
+   "name_ko": "1-O-p-쿠마로일-3-O-페룰로일글리세롤",
+   "class": "페놀산 글리세라이드 이량체",
+   "role": "bioactive",
+   "part": "L. brownii(부위는 초록에 비늘줄기로 명시 안 됨)",
+   "content_text": "분리 성분(함량 미기재)[10]",
+   "activity_ko": "파킨슨병 세포·생쥐 모델에서 신경 보호(p62-Keap1-Nrf2)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "3-O-acetyl-1-O-caffeoylglycerol",
+   "name_ko": "3-O-아세틸-1-O-카페오일글리세롤",
+   "class": "페닐프로파노이드",
+   "role": "bioactive",
+   "part": "비늘줄기",
+   "content_text": "새 화합물로 분리(함량 미기재)[11]",
+   "activity_ko": "50 μg/mL에서 모노아민산화효소 20.96% 억제[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "26-O-beta-D-glucopyranosylnuatigenin",
+   "name_ko": "26-O-글루코실누아티게닌",
+   "class": "스테로이드 사포닌(푸로스피로스타놀계)",
+   "role": "bioactive",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "새 스테로이드 사포닌 7종 가운데 하나로 분리(함량 미기재)[13]",
+   "activity_ko": "구조 동정 연구로 활성은 초록에 없음[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "(22R,25R)-5alpha-spirosolan-3beta-ol 3-O-rhamnosyl-glucosyl-glucoside",
+   "name_ko": "아이소스피로스타놀형 배당체(화합물 2)",
+   "class": "스테로이드 배당체",
+   "role": "bioactive",
+   "part": "비늘줄기",
+   "content_text": "새 화합물로 분리(함량 미기재)[12]",
+   "activity_ko": "간암세포 SMMC-7721·HepG2 증식 억제 IC50 26.3·30.9 μM[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Glucomannan",
+   "name_ko": "글루코만난(LBP)",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "작은 비늘줄기(var. viridulum)",
+   "content_text": "분자량 312 kDa, 만노스:포도당 몰비 0.582:0.418[14]",
+   "activity_ko": "5 μg/mL에서 대식세포 TNF-α·IL-6 등 발현 증가[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Mannoglucan",
+   "name_ko": "만노글루칸(LLP11)",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "분자량 12.0 kDa, α-1,4-포도당·β-1,4-만노스 주사슬[15]",
+   "activity_ko": "모의 소화에서 분해되지 않고 장내세균 발효로 아세트산 생성[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Lily polysaccharide",
+   "name_ko": "백합 다당(LBVP)",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "건조 분말 기준 수율 아임계수 54.91%, 초음파 3.69%; 아임계수 다당 포도당 91.67%[6]",
+   "activity_ko": "추출법이 종보다 다당 성질에 더 큰 영향[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Pectin",
+   "name_ko": "펙틴 다당(WLBP-A3-c)",
+   "class": "펙틴 다당류",
+   "role": "bioactive",
+   "part": "L. brownii",
+   "content_text": "59 kDa, HG:RG-I:RG-II 질량비 76.0:17.2:6.8[16]",
+   "activity_ko": "시험관 항산화(같은 연구의 둥굴레 펙틴보다 약함)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Starch",
+   "name_ko": "녹말",
+   "class": "탄수화물",
+   "role": "nutrient",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "수분-열처리(수분 25%) 후 조리 시료 저항전분 44.15%[17]",
+   "activity_ko": "본래 B형 결정 구조, 수분-열처리 후 A형으로 바뀜[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "2,4,6-trichloro-3-methyl-5-methoxyphenol 1-O-gentiobioside",
+   "name_ko": "염소화 페닐 배당체(새 화합물 1)",
+   "class": "클로로페닐 배당체",
+   "role": "bioactive",
+   "part": "비늘줄기(var. viridulum)",
+   "content_text": "드문 새 클로로페닐 배당체 2종 가운데 하나로 분리(함량 미기재)[18]",
+   "activity_ko": "LPS 자극 대식세포 NO 생성 억제는 약함[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Colchicine",
+   "name_ko": "콜히친",
+   "class": "알칼로이드",
+   "role": "bioactive",
+   "part": "비늘줄기·뿌리·줄기·꽃·잎",
+   "content_text": "'Longya' 등 5개 품종 모든 조직에서 불검출(HPLC-Q-TOF-MS)[8]",
+   "activity_ko": "과거 쓴맛·독성 원인으로 거론되었으나 이 연구는 존재를 부정[8]",
+   "source": [
+    8
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Lily polysaccharide (monosaccharide composition)",
+   "compound_ko": "백합 다당(LBVP) 수율·단당 조성·분자량",
+   "part": "비늘줄기(var. viridulum, 후난성 룽후이현 신선 비늘줄기를 건조 분말로)",
+   "content": "수율 아임계수 54.91 ± 0.63%, 초음파 3.69 ± 0.69%; 분자량 333 kDa·53 kDa; 아임계수 다당 포도당 91.67%, 초음파 다당 포도당 42.41–45.16%·만노스 51.85–55.50%(세 종 범위)[6]",
+   "method": "중량법 수율 + HPAEC-PAD(단당) + GPC(분자량)",
+   "conditions": {
+    "instrument": "Thermo ICS5000 이온크로마토그래프(HPAEC-PAD); GPC는 Agilent 1260",
+    "column": "CarboPac PA-20 (3 × 150 mm); GPC: Waters Ultrahydrogel 120·250·500 (7.8 × 300 mm, 3개 직렬)",
+    "mobile_phase": "A: 탈이온수, B: 0.1 M NaOH, C: 0.1 M NaOH + 0.2 M NaAc",
+    "gradient": "A/B/C(%): 0분 95/5/0 → 26분 85/5/10 → 42분 85/5/10 → 42.1분 60/0/40 → 52분 60/40/0 → 52.1분 95/5/0 → 60분 95/5/0",
+    "flow": "0.5 mL/min(HPAEC); 1 mL/min(GPC)",
+    "temp": "GPC 30 °C(HPAEC 칼럼 온도 미기재)",
+    "detection": "펄스 전류 검출기(PAD)",
+    "injection": "5 μL(HPAEC); 40 μL, 1 mg/mL(GPC)",
+    "sample_prep": "아임계수: 건조 분말:물 1:15, 150 °C 10분 → 6,000 rpm 10분 원심, 무수에탄올 침전 4 °C 12시간, 동결건조; 초음파: 1:20, 65 °C 20분; 단당 분석은 다당 5 mg을 2 M TFA 121 °C 2시간 가수분해",
+    "standard": "단당 표준품(Sigma; 표 2에 13종을 나열하고 본문은 11종 사용이라 적음); 분자량은 PEG 표준(1,960–326,000)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "다당은 백합의 주요 활성·영양 성분으로, 세 식용 백합과 두 추출법을 같은 조건에서 비교함; 전문 확인, 검량·검출한계·회수율은 원문에 없음[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.3389/fnut.2022.998942",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Regaloside A",
+   "compound_ko": "레갈로사이드 A·B(C·E 포함 비교)",
+   "part": "비늘줄기(var. viridulum, 참나리와 비교)",
+   "content": "참나리가 이 종보다 레갈로사이드 A 약 2–7배, B 약 4–16배 많음; C·E는 이 종에서 불검출[7]",
+   "method": "대사체·전사체 통합 분석 중 정량(분석 기기는 초록에 없음, 전문 확인 못함)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "쓴맛과 관련된 페닐프로파노이드 글리세롤 배당체로 종 간 품질 일관성 평가에 쓰자고 제안됨; 초록만 확인, 전문 확인 못함[7].",
+   "source": [
+    7
+   ],
+   "url": "https://doi.org/10.1016/j.jpba.2022.114778",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Colchicine",
+   "compound_ko": "콜히친(생합성 전구체 15종 포함 표적 선별)",
+   "part": "비늘줄기·뿌리·줄기·꽃·잎('Longya' 등 5개 품종, 'Longya'는 후난성 헝둥현 채집)",
+   "content": "모든 조직에서 콜히친·전구체 불검출(양성대조 2종에서는 검출)[8]",
+   "method": "UHPLC-Q-TOF-MS(ESI 양이온)",
+   "conditions": {
+    "instrument": "Agilent 1290 Infinity II UHPLC + Agilent 6530 Q-TOF",
+    "column": "XAqua-C18, 150 × 2.1 mm, 2.8 μm",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "0–15분 5–25% B; 15–27분 25–38% B; 27–35분 38–90% B",
+    "flow": "0.3 mL/min",
+    "temp": "30 °C",
+    "detection": "ESI 양이온, m/z 100–1000, 콜히친 [M+H]+ m/z 400.1755; 가스 350 °C, 건조가스 12 L/min, 분무가스 10 L/min, 모세관 4000 V, fragmentor 135 V, skimmer 65 V, 충돌에너지 10·20·30 V, 기준 이온 m/z 112.9855·966.0007",
+    "injection": "1 μL",
+    "sample_prep": "-80 °C 보관 조직을 48시간 동결건조·분쇄, 0.1000 g + 70% 에탄올 10 mL 초음파 1시간, 0.22 μm 여과",
+    "standard": "콜히친 표준품(시판)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "첨가 회수 시험은 하지 않았다고 원문에 명시"
+   },
+   "rationale": "백합의 쓴맛·독성 원인으로 오래 거론된 성분이라 존재 여부를 검증함; 전문 확인, 받아온 전문에서 'Longya'의 학명 표기가 빠져 있어 var. viridulum 여부는 다른 문헌의 룽야백합 명칭으로 판단[8, 20].",
+   "source": [
+    8,
+    20
+   ],
+   "url": "https://doi.org/10.3390/molecules31040721",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 홍콩백합꽃잎·홍콩백합비늘줄기(Lilium brownii F.Br. ex Miellez / Lilium austale Stapf / Lilium brownii var. australe; 별명 당나리·당개나리), 사용가능, 사용가능부위: 비늘줄기, 꽃잎; 대조: 백합가루·백합추출액·백합꽃잎·백합비늘줄기·백합뿌리(참나리 L. lancifolium / 백합(百合) L. brownii var. viridulun[원문 표기] / 큰솔나리 L. pumilum), 참나리추출분말(개별인정형, L. lancifolium), 중나리·섬말나리·야마유리·땅나리·말나리·하늘말나리 등 같은 속 다른 행 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Traditional uses, nutritional properties, phytochemical metabolites, pharmacological properties, and potential applications of Lilium spp.: a systematic review — Front Pharmacol 2025 (PMID 41368573, PMC12682905, 전문 확인; 받아온 전문에서 학명 이탤릭이 빠져 문맥으로 종을 판단)",
+   "url": "https://doi.org/10.3389/fphar.2025.1713957",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "[Herbal textual research on traditional Chinese medicine \"Baihe\" (Lilii Bulbus)] — Zhongguo Zhong Yao Za Zhi 2019 (PMID 31872612, 초록만 확인)",
+   "url": "https://doi.org/10.19540/j.cnki.cjcmm.20190903.101",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The complete chloroplast genome of Lilium brownii F.E.Brown var. viridulum Baker (Liliaceae) — Mitochondrial DNA B Resour 2020 (PMID 33366839, PMC7748718, 초록 확인)",
+   "url": "https://doi.org/10.1080/23802359.2020.1720534",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Genetic diversity and genetic structure analysis of the natural populations of Lilium brownii from Guangdong, China — Biochem Genet 2009 (PMID 19543969, 초록 없음, 제목만 확인)",
+   "url": "https://doi.org/10.1007/s10528-009-9258-y",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Systematic evaluation on the physicochemical characteristics of a series polysaccharides extracted from different edible lilies by ultrasound and subcritical water — Front Nutr 2022 (PMID 36204382, PMC9531164, 전문 확인; 학명은 약어 LBVP와 채집지로 판단)",
+   "url": "https://doi.org/10.3389/fnut.2022.998942",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Integrative analysis of metabolome and transcriptome provide new insights into the bitter components of Lilium lancifolium and Lilium brownii — J Pharm Biomed Anal 2022 (PMID 35462288, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jpba.2022.114778",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "LC-MS-Based Screening for Colchicine and Characterization of Major Bitter Constituents in Lily — Molecules 2026;31(4):721 (PMID 41752498, PMC12942747, 전문 확인; 'Longya' 품종 학명은 받아온 전문에서 빠져 있음)",
+   "url": "https://doi.org/10.3390/molecules31040721",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Bioassay-Guided Isolation of Anti-Inflammatory Components from the Bulbs of Lilium brownii var. viridulum and Identifying the Underlying Mechanism through Acting on the NF-κB/MAPKs Pathway — Molecules 2017 (PMID 28333094, PMC6154308, 초록 확인)",
+   "url": "https://doi.org/10.3390/molecules22040506",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "A phenolic acid glyceride dimer isolated from Lilium brownii exerts neuroprotective effects in Parkinson's disease by modulating the p62-Keap1-Nrf2 signalling pathway — Eur J Pharmacol 2026 (PMID 41620005, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ejphar.2026.178618",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Two New Phenylpropanoid Compounds from Lilium Brownii and Their Anti-monoamine Oxidase Activity — Chem Biodivers 2024 (PMID 38634793, 초록만 확인)",
+   "url": "https://doi.org/10.1002/cbdv.202400524",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Two New Isospirostanol-Type Saponins from the Bulbs of Lilium Brownii and Their Anti-Hepatocarcinogenic Activity — Chem Biodivers 2024 (PMID 38414116, 초록만 확인)",
+   "url": "https://doi.org/10.1002/cbdv.202400257",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "New steroidal saponins from the bulbs of Lilium brownii var. viridulum — Carbohydr Res 2012 (PMID 22960210, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.carres.2012.07.027",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Extraction, structural characterization and immunoactivity of glucomannan type polysaccharides from Lilium brownii var. viridulum Baker — Carbohydr Res 2024 (PMID 38335805, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.carres.2024.109046",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Purification, characterization, simulated gastrointestinal digestion and gut microbiota fermentation of a mannoglucan from Lilium brownii var. viridulum (Longya lily) — Food Chem X 2024 (PMID 39139491, PMC11321392, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.fochx.2024.101671",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Pectic polysaccharides from Lilium brownii and Polygonatum odoratum exhibit significant antioxidant effects in vitro — Int J Biol Macromol 2023 (PMID 38123037, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2023.128830",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Effects of heat-moisture and acid treatments on the structural, physicochemical, and in vitro digestibility properties of lily starch (Lilium brownii var. viridulum Baker) — Int J Biol Macromol 2020 (PMID 31972200, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2020.01.181",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Two new chlorophenyl glycosides from the bulbs of Lilium brownii var. viridulum — J Asian Nat Prod Res 2012 (PMID 22694345, 초록만 확인)",
+   "url": "https://doi.org/10.1080/10286020.2012.691096",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Integrative analysis of metabolome and transcriptome provides new insights into functional components of Lilii Bulbus — Chin Herb Med 2024 (PMID 39072198, PMC11283230, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.chmed.2023.10.004",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Physiological and transcriptomic analyses provide preliminary insights into the autotoxicity of Lilium brownii var. viridulum (Longya lily) — Front Plant Sci 2024 (PMID 38807780, PMC11130447, 초록 확인)",
+   "url": "https://doi.org/10.3389/fpls.2024.1330061",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Biodegradation of 2,4-di-tert-butylphenol in continuous cropping field: Impacts on sustainable cultivation of Lilium brownii — J Environ Manage 2026 (PMID 41775239, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jenvman.2026.129162",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Establishment of Highly Efficient Plant Regeneration, Callus Transformation and Analysis of Responsive PR Promoters in Lilium brownii var. viridulum — Plants 2023 (PMID 37653909, PMC10221712, 전문 확인)",
+   "url": "https://doi.org/10.3390/plants12101992",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Integrated transcriptomic and metabolomic analysis reveals the molecular profiles of dynamic variation in Lilium brownii var. viridulum suffering from bulb rot — Front Genet 2024 (PMID 39205945, PMC11349735, 초록 확인)",
+   "url": "https://doi.org/10.3389/fgene.2024.1432997",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "First report of apple stem grooving virus infecting a species of Lilium (Lilium brownii) in China — Mol Biol Rep 2026 (PMID 41733802, 초록만 확인)",
+   "url": "https://doi.org/10.1007/s11033-026-11597-1",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Integrative metabolomic and transcriptomic profiling deciphers flavonoid biosynthesis of bulbs in Lilium brownii var. viridulum — Sci Rep 2026 (PMID 41844743, PMC13128856, 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-026-43274-5",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Multi-Omics Decoding of Potential Microbial-Genetic Synergy Underlying Polysaccharide and Glycosidic Polymer Biosynthesis in Two Cultivars of Lilium brownii var. viridulum Baker — Metabolites 2025 (PMID 41295298, PMC12654296, 초록 확인)",
+   "url": "https://doi.org/10.3390/metabo15110712",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Lily toxicity in the cat — Top Companion Anim Med 2010 (PMID 21147474, 초록만 확인)",
+   "url": "https://doi.org/10.1053/j.tcam.2010.09.006",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "A comprehensive study of Easter lily poisoning in cats — J Vet Diagn Invest 2004 (PMID 15586568, 초록만 확인)",
+   "url": "https://doi.org/10.1177/104063870401600607",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "A comprehensive study on the relieving effect of Lilium brownii on the intestinal flora and metabolic disorder in p-chlorphenylalanine induced insomnia rats — Pharm Biol 2022 (PMID 34978949, PMC8725957, 초록 확인)",
+   "url": "https://doi.org/10.1080/13880209.2021.2019283",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "In-depth exploration and comparison of chemical constituents from two Lilium species through offline two-dimensional liquid chromatography combined with multimode acquisition of high-resolution mass spectrometry — J Chromatogr A 2022 (PMID 35339744, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.chroma.2022.462980",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Rapid identification of Lilium species and polysaccharide contents based on near infrared spectroscopy and weighted partial least square method — Int J Biol Macromol 2020 (PMID 32179116, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2020.03.109",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Neuroprotective properties of the Lilium brownii extracts in the experimental model of Parkinson's disease — Metab Brain Dis 2024 (PMID 39060803, 초록만 확인)",
+   "url": "https://doi.org/10.1007/s11011-024-01397-6",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "The hypoglycemic metabolites and potential mechanisms of Lilium (lily) — Front Pharmacol 2026 (PMID 42338973, PMC13283800, 전문 확인; 비교한 네 백합 가운데 var. viridulum 포함, 가장 강한 추출물은 Juandan(참나리), 레갈로사이드는 그 추출물에서 골라 시험)",
+   "url": "https://doi.org/10.3389/fphar.2026.1806579",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "[Effect of sulfur fumigation on quality and safety of Lilii Bulbus] — Zhongguo Zhong Yao Za Zhi 2023 (PMID 36872229, 초록만 확인, 시료 기원 종 미확인)",
+   "url": "https://doi.org/10.19540/j.cnki.cjcmm.20221031.301",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Chemical interaction between Lilium brownii and Rhizoma Anemarrhenae, the herbal constituents of Baihe Zhimu decoction, by LC-QqQ-LIT-MS — Biomed Chromatogr 2017 (PMID 29027684, 초록만 확인)",
+   "url": "https://doi.org/10.1002/bmc.4118",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Reductive soil disinfestation by mixing carbon nanotubes and mushroom residues to mitigate the continuous cropping obstacles for Lilium brownii — Crop Health 2024 (PMID 41649639, PMC12825970, 초록 확인)",
+   "url": "https://doi.org/10.1007/s44297-024-00023-2",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "EFSA Compendium of botanicals — card.json 의 EU_EFSA_COMPENDIUM 표시만 근거, 이 종의 항목 원문은 네트워크 허용 목록 밖이라 미열람",
+   "url": "https://www.efsa.europa.eu/en/data/compendium-botanicals",
+   "publisher": "European Food Safety Authority",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

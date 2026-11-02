@@ -1,0 +1,115 @@
+{
+ "slug": "empetrum-nigrum",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 73,
+ "checked_items": 65,
+ "verified": 119,
+ "fixed": 16,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "분류 체계에 따라 진달래과(Ericaceae) 또는 시로미과(Empetraceae)로 다룬다[1, 2, 18]",
+   "after": "논문에 따라 시로미과(Empetraceae)로 적거나 진달래과(Ericaceae)에 넣는다[2, 3, 18]",
+   "why": "[1] I1020 원자료에는 과(科) 칸이 없음. Empetraceae 는 [2]·[18], Ericaceae 는 PubMed 주제어(MeSH) 분류로 [3]에 붙어 있음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "국내 변종 표기 E. nigrum var. japonicum K.Koch",
+   "after": "E. nigrum var. japonicum K.Koch",
+   "why": "[1] 학명 칸은 '국내 변종'이라 적지 않음(학명 나열만)"
+  },
+  {
+   "where": "sections.overview",
+   "before": "…리뷰로 전해질 뿐이다[2, 13]",
+   "after": "…[2]",
+   "why": "[13]은 사람 연구를 소개하지 않음(쥐 실험·임상 필요 언급뿐). 51명·2 g·4주는 [2] 전문에서 확인"
+  },
+  {
+   "where": "sections.history",
+   "before": "러시아에서는 열매를 간질·마비 증상에 쓰는 민간요법이 있고…",
+   "after": "민간요법에서는 열매를 간질·마비 증상에 쓰고, 러시아에서는 동종요법 약(간질)…",
+   "why": "[2] 전문은 민간요법(간질·마비)을 러시아로 한정하지 않음. 러시아는 동종요법 약 Empetrin 에만 해당"
+  },
+  {
+   "where": "sections.history",
+   "before": "앵커리지 부근 원주민은 잎과 줄기를 설사와 신장 질환에 썼다[2, 5]",
+   "after": "생과 전통 식단[2, 5] / 잎·줄기를 설사 치료에 썼고, 이 식물은 신장 질환에도 쓰인다고 기록[5]",
+   "why": "[5] 전문: Tanaina 는 잎·줄기를 설사에 썼고 'the plant is noted for countering kidney trouble'. [2]는 앵커리지 내용 없음"
+  },
+  {
+   "where": "sections.history",
+   "before": "처음 정량한 북유럽 연구",
+   "after": "처음 정량한 연구(아종 hermaphroditum 열매)",
+   "why": "[2] 전문에 '북유럽' 표기 없음, 시료는 subsp. hermaphroditum"
+  },
+  {
+   "where": "sections.biology",
+   "before": "hermaphroditum(산시로미, mountain crowberry)",
+   "after": "hermaphroditum(영명 mountain crowberry)",
+   "why": "국문명 '산시로미'는 어느 출처에도 없음([21]은 mountain crowberry 만)"
+  },
+  {
+   "where": "sections.biology",
+   "before": "제련소 부근에서도 자라는 드문 종으로",
+   "after": "제련소 부근에서도 자라며",
+   "why": "[27] 초록에 '드문 종' 표현 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "국내 변종 var. japonicum K.Koch",
+   "after": "변종 var. japonicum K.Koch",
+   "why": "[1] 원자료에 '국내 변종' 표기 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "Corema album(포르투갈 흰 시로미)",
+   "after": "Corema album(영명 Portuguese crowberry)",
+   "why": "출처 없는 국문 별명 제거, [1] 영명으로 대체"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "동부 캐나다의 분홍 열매 계통 / 남반구의 붉은 열매 계통",
+   "after": "…(E. eamesii) / …(흔히 별도 종 E. rubrum으로 다룸)",
+   "why": "[17] 초록에 명시. 같은 속 다른 식품원료(E. eamesii·E. rubrum)와 구분되도록 명시"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "조직배양에 WPM 배지가 MS 배지보다 낫다고 보고[36]",
+   "after": "희귀 수종으로 보고 액아줄기 유도 미세번식 방법을 연구, 세부 결과는 확인하지 못함[36]",
+   "why": "koreascience 는 이 환경에서 열리지 않고, 검색 요약에서도 WPM>MS 결과는 확인되지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "줄기·지상부 시료를 포함한 환경 모니터링 연구",
+   "after": "줄기(재배 실험)나 부위를 나누지 않은 식물체 시료를 쓴 환경·생리 연구",
+   "why": "[27]은 삽목 재배 실험, [28] 초록은 부위 구분 없는 composite 시료"
+  },
+  {
+   "where": "aliases",
+   "before": "Empetrum nigrum subsp. hermaphroditum",
+   "after": "(삭제)",
+   "why": "[1] 원료 행에 없는 별개 아종(4배체·북유럽)으로 시로미의 별명이 아님. 본문 근연종·생물학 절에서만 다룸"
+  },
+  {
+   "where": "sources[12]",
+   "before": "Chin Med 2022;17:73",
+   "after": "Chin Med 2022;17(1):69",
+   "why": "PubMed 서지(PMID 35698073) 쪽번호 69"
+  },
+  {
+   "where": "sources[17]",
+   "before": "Proc Natl Acad Sci USA 2011",
+   "after": "Proc Natl Acad Sci USA 2011;108(16):6520-5",
+   "why": "PubMed 서지로 권·호·쪽 보충"
+  }
+ ],
+ "unverifiable_notes": [
+  "[35] 한라산 희귀식물(시로미 VU) — koreascience 가 이 환경에서 막혀 본문은 못 열었고 WebSearch 요약으로 '산림청 지정 희귀식물 7분류군 중 시로미(VU)' 표기만 다시 확인. 본문에 이미 그렇게 단서가 있어 유지",
+  "[36] 시로미 미세번식 — WebSearch 요약으로 희귀 수종·기내 증식 연구라는 점만 확인, WPM>MS 결과는 지움",
+  "[3],[4],[6],[8],[10],[11],[14]-[21],[23]-[34] 는 초록으로 대조(PMC 전문 있는 [2],[5],[7],[9],[12],[13],[22]는 전문 대조). [3] 분석 조건 칸은 원래대로 비어 있음",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 의 시로미열매 행(사용가능, 사용가능부위: 열매)과 같은 속 다른 행(Empetrum rubrum열매, Purple crowberry열매=E. atropurpureum, Rockberry열매=E. eamesii 영명 Purple crowberry, Portuguese crowberry열매=Corema album)으로 확인 — card.json 과 일치, 다른 종 자료 섞임 없음"
+ ]
+}
