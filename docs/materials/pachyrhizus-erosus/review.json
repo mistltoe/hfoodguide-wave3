@@ -1,0 +1,117 @@
+{
+ "slug": "pachyrhizus-erosus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 64,
+ "checked_items": 69,
+ "verified": 115,
+ "fixed": 14,
+ "removed": 2,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "aliases",
+   "before": "히카마",
+   "after": "(삭제)",
+   "why": "출처 없는 별명. 식품원료 목록[1]·종설[12] 어디에도 없음([12]은 한국·중국 이름을 bang kuang 으로 적음)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "건강한 성인 30명을 무작위로 나눈 시험에서 덩이뿌리 즙 500 mL를 마신 뒤",
+   "after": "건강한 성인 30명을 덩이뿌리 즙·구아바 즙·물 세 군(각 10명)으로 무작위 배정한 시험에서 덩이뿌리 즙 500 mL를 마신 군은",
+   "why": "[20] 초록: 덩이뿌리 즙 군은 10명뿐(30명은 세 군 합계)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "씨앗을 식품으로 쓰려고 건조·볶기 등으로",
+   "after": "Pachyrhizus속 씨앗을 식품으로 쓰려고 건조·볶기 등으로",
+   "why": "[23]은 Pachyrhizus sp. 씨앗(종 미특정)을 다룸"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "이 속의 유전 연구 도구로 핵 마이크로새틀라이트(SSR) 표지 17개가 개발되었고",
+   "after": "이 속의 유전 연구 도구로 근연종 P. ahipa에서 핵 마이크로새틀라이트(SSR) 표지 17개가 개발되었고",
+   "why": "[11] 전문: 표지는 P. ahipa 시료로 만들고 다른 종에 교차 증폭함"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "엽록체 DNA와 SSR을 함께 쓴 연구는 재래종이",
+   "after": "엽록체 DNA와 SSR을 함께 쓴 연구는 페루 안데스의 근연 재배종(이 종이 아닌 P. tuberosus·P. ahipa 계통) 재래종이",
+   "why": "[13]은 P. erosus가 아닌 안데스 Pachyrhizus 재래종 연구 — 근연종 자료 섞임 방지"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "육종 쪽에서는 씨앗의 독성 폴리페놀인",
+   "after": "육종 쪽에서는 Pachyrhizus속(여러 종·계통) 씨앗의 독성 폴리페놀인",
+   "why": "[4]는 Pachyrhizus sp. 씨앗 100여 시료(종 구분 없음)"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "페루 안데스의 재배 계통을 분석한 연구는",
+   "after": "페루 안데스의 근연 재배종(이 종이 아닌 P. tuberosus·P. ahipa 계통)을 분석한 연구는",
+   "why": "[13]의 대상 종 명시"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "페루 시험 포장에서는 2010년 새로운 포티바이러스인 Yam bean mosaic virus가 보고되었다[15]",
+   "after": "2010년 페루 시험 포장의 yam bean(Pachyrhizus spp.)에서 바이러스 병징이 나타났고, 새 포티바이러스로 확인되어 Yam bean mosaic virus로 이름 붙었다[15]",
+   "why": "[15]: 2010년은 병징 관찰 연도(논문은 2012년), 대상은 Pachyrhizus spp."
+  },
+  {
+   "where": "sections.safety",
+   "before": "먹어서는 안 되는 부위다[2, 12]",
+   "after": "먹어서는 안 되는 부위다[2, 6, 12]",
+   "why": "[6]: 덩이뿌리 외 성숙 꼬투리·씨앗·잎이 독성이라고 명시 — 근거 보강"
+  },
+  {
+   "where": "sections.safety",
+   "before": "중독된 사례가 여러 차례 보고되었다[5–9]",
+   "after": "중독된 사례가 사망 1례를 포함해 여러 차례 보고되었다[5–9]",
+   "why": "[6] 사망 사례"
+  },
+  {
+   "where": "sections.safety",
+   "before": "콩처럼 조리해 먹지 말아야 한다[6, 12]",
+   "after": "콩처럼 조리해 먹지 말아야 한다[5, 6, 12]",
+   "why": "[5]: 씨앗으로 끓인 국을 먹고 집단 중독"
+  },
+  {
+   "where": "compounds.Rotenone",
+   "before": "씨앗 0.58 mg/g 미만~3.53 mg/g(100여 시료)[4]",
+   "after": "Pachyrhizus속 씨앗 0.58 mg/g 미만~3.53 mg/g(종 구분 없는 100여 시료)[4]",
+   "why": "[4]는 Pachyrhizus sp. 씨앗"
+  },
+  {
+   "where": "compounds.Pachyrrhizine",
+   "before": "씨앗 0.25 mg/g 미만~3.29 mg/g[4]",
+   "after": "Pachyrhizus속 씨앗 0.25 mg/g 미만~3.29 mg/g(종 구분 없는 100여 시료)[4]",
+   "why": "[4]는 Pachyrhizus sp. 씨앗"
+  },
+  {
+   "where": "assays[2].conditions.column",
+   "before": "Hypersil Gold C18 (5 μm, 250 × 4.6 mm, Thermo)",
+   "after": "",
+   "why": "[2] 로테논 분석 절은 '같은 크로마토그래프'만 적고 칼럼은 명시하지 않음 — 원문에 없는 칸 삭제"
+  },
+  {
+   "where": "assays[2].rationale",
+   "before": "전문(Methods) 확인 — 칼럼은 같은 장비 설명에서 옮겼고, 유속·정량한계·회수율은 본문에 없음[2].",
+   "after": "전문(Methods) 확인 — 같은 HPLC 장비로 분석했다고만 적어 칼럼·유속·정량한계·회수율은 본문에 없음[2].",
+   "why": "원문에 없는 칼럼 추정 제거"
+  },
+  {
+   "where": "assays[3].part",
+   "before": "씨앗(비식용 부위)",
+   "after": "씨앗(비식용 부위, Pachyrhizus속 여러 계통)",
+   "why": "[4]는 종 구분 없는 Pachyrhizus sp."
+  }
+ ],
+ "unverifiable_notes": [
+  "[9] Clin Toxicol 2023 서신은 PubMed 에 초록이 없어 서지(대만, 로테논 함유 콩 섭취 환자)만 확인 — 안전 절의 '오인 섭취 사례' 묶음 인용으로만 둠",
+  "nutrients(생 덩이뿌리 100 g당)는 종설[12] 전문의 재인용 값과 일치함을 확인했으나 원 연구는 열지 못함(basis 에 이미 명시)",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 두 행(Jicama덩이뿌리·건Jicama덩이뿌리, SCNM Pachyrhizus erosus, 사용가능, '사용가능부위 : 덩이뿌리')과 일치. 같은 파일에 Pachyrhizus 속 다른 원료는 없음",
+  "name_ko 'Jicama덩이'는 card.json 값이며 I1020 원료명은 'Jicama덩이뿌리'다 — 카드 생성 규칙에서 잘린 것으로 보이나 card.json 은 입력이라 고치지 않음(오케스트레이터 확인 권장)",
+  "[13]의 대상 종은 PubMed 초록에서 종명이 빠져 있어 제목·맥락(페루 안데스 재래종, P. tuberosus·P. ahipa)으로 판단",
+  "PMC 전문 확인: [2][3][11][12]. 나머지는 PubMed 초록으로 대조. WebSearch·WebFetch 는 쓰지 않음"
+ ]
+}

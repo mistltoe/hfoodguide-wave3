@@ -1,0 +1,147 @@
+{
+ "slug": "viola-yedoensis",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 69,
+ "checked_items": 64,
+ "verified": 111,
+ "fixed": 18,
+ "removed": 3,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "고리형 펩타이드인 사이클로타이드다[5, 7, 13].",
+   "after": "고리형 펩타이드인 사이클로타이드다[5, 7, 13, 31].",
+   "why": "[31] 은 이 종의 플라본 C-배당체 35종을 LC-MS 로 동정한 연구로 플라본 C-배당체 서술의 근거; 샤프토사이드 항목에서 옮김"
+  },
+  {
+   "where": "sections.history",
+   "before": "2020년판은 말린 전초를 종기·옹종·단독·뱀에 물린 데 쓰며 하루 15–30 g을 쓴다고 정했다고 총설은 전한다[5]. 다른 연구는 V. yedoensis가 1977년판부터 자화지정의 유일한 기원식물로 지정되었다고 적어, 수재 시점에 대한 서술이 출처마다 다르다[2].",
+   "after": "2020년판은 말린 전초를 종기·옹종·단독·뱀에 물린 데 쓰며 용량은 15–30 g이라고 정했다고 총설은 전한다[5]. 다른 연구는 V. yedoensis가 1977년판부터 자화지정의 유일한 기원식물로 지정되었다고 적었다[2].",
+   "why": "[5] 는 '권장 용량 15–30 g' 이라고만 쓰고 '하루' 는 없음. [5] 의 1963년(첫 수재)과 [2] 의 1977년(유일 기원 지정)은 서로 다른 사실이라 '출처마다 다르다' 는 오해 소지"
+  },
+  {
+   "where": "sections.biology",
+   "before": "열매 시기에는 길이 10 cm, 너비 4 cm까지 커진다[5].",
+   "after": "열매 시기에는 길이 10 cm 넘게, 너비 4 cm까지 커진다[5].",
+   "why": "[5] 전문: 'lengths exceeding 10 cm and widths reaching up to 4 cm'"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "자화지정 약재 18배치를 조사한 연구에서 시판품과 국가 표준 대조약재는 주로 V. prionantha였고, 법정 기원종 V. philippica에서는 에스쿨레틴·에스쿨린이 HPLC에서 거의 검출되지 않았다[2].",
+   "after": "자화지정 약재 18배치를 조사한 연구에서 시판품과 국가 표준 대조약재는 주로 V. prionantha였고, 법정 기원종 V. philippica에서는 에스쿨레틴·에스쿨린이 HPLC에서 거의 검출되지 않았다[2]. 이 연구가 감별 지표로 정한 쿠마린 4종(시클로리인·에스쿨린·에스쿨레틴·프리오난토사이드)도 V. prionantha의 주성분으로 확인된 것이다[2].",
+   "why": "[2] 전문: 네 쿠마린은 V. prionantha 에서 주성분으로 확인되었고 다른 종(법정 기원종 포함)에서는 검출되지 않거나 매우 적음 — 시료 종 명시"
+  },
+  {
+   "where": "sections.processing",
+   "before": "전초를 80% 메탄올로 초음파 추출해 HPLC로 비교한 연구는 시클로리인·에스쿨린·에스쿨레틴·프리오난토사이드를 감별 지표성분으로 제안했다[2]. V. philippica 추출물에서는 용매에 따라 성분이 달라, 디클로로메탄·에틸아세테이트 분획에 에스쿨레틴이, 에탄올·부탄올 분획에 시클로리인이 많았다[11].",
+   "after": "전초를 80% 메탄올로 초음파 추출해 HPLC로 비교한 연구는 시클로리인·에스쿨린·에스쿨레틴·프리오난토사이드를 감별 지표성분으로 제안했는데, 이 네 성분은 V. prionantha에서 주로 확인되었고 법정 기원종 V. philippica에서는 에스쿨린·에스쿨레틴이 미량이었다[2].",
+   "why": "[2] 전문으로 시료 종 명시. 옛 [11](Fitoterapia 2026;191:107238, PMID 41951179)은 PubMed 에 'Retracted Publication' 으로 표시되어 문장 삭제"
+  },
+  {
+   "where": "sections.processing",
+   "before": "전초 추출물은 실험동물 연구에도 쓰였는데, 육계 사료에 0.5·1.5·4.5% 넣은 시험에서 LPS로 유발한 장 손상이 줄었다[30].",
+   "after": "호제비꽃은 실험동물 연구에도 쓰였는데, 육계 사료에 0.5·1.5·4.5% 넣은 시험에서 LPS로 유발한 장 손상이 줄었다[30].",
+   "why": "[30] 초록은 'Vy supplementation' 이라고만 하고 추출물이라는 말이 없음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "이 종의 사이클로타이드 고리화에 관여하는 사이클로타이드를 만드는 이 식물의 펩타이드 아스파라기닐 연결효소 VyPAL2는 결정 구조가 밝혀져, 기질 인식과 연결 반응의 원리가 제시되었다[25].",
+   "after": "사이클로타이드를 만드는 이 식물의 펩타이드 아스파라기닐 연결효소(PAL) VyPAL2는 활성 상태의 결정 구조가 밝혀져, 기질 인식과 연결 반응의 원리가 제시되었다[25].",
+   "why": "중복 문구 정리, '고리화에 관여' 는 [25] 초록에 없음(초록은 PAL 이 사이클로타이드 생산 식물의 효소라고만 씀)"
+  },
+  {
+   "where": "compounds[Esculetin].content_text",
+   "before": "중국약전 2020년판 기준 건조물 0.20% 이상(총설 인용); 반정량 0.484 ± 0.028%(총설 인용); 법정 기원종 V. philippica 시료에서는 HPLC에서 거의 검출 안 됨; V. philippica 디클로로메탄 추출물 308.125 ± 0.151 µg/mg, 에틸아세테이트 추출물 344.748 ± 0.071 µg/mg",
+   "after": "중국약전 2020년판 기준 건조물 0.20% 이상(총설 인용); 반정량 0.484 ± 0.028%(총설 인용); 법정 기원종 V. philippica 시료에서는 HPLC에서 거의 검출 안 됨",
+   "why": "옛 [11] 철회 논문의 V. philippica 추출물 함량 삭제"
+  },
+  {
+   "where": "compounds[Esculetin].source",
+   "before": "[2, 5, 8, 11, 32]",
+   "after": "[2, 5, 8, 32]",
+   "why": "철회 논문 [11] 제거"
+  },
+  {
+   "where": "compounds[Esculin].content_text",
+   "before": "n-부탄올 추출물에서 분리(함량 수치 없음); 감별 지표성분으로 제안",
+   "after": "n-부탄올 추출물에서 분리(함량 수치 없음)[10]; 자화지정 비교 연구에서는 V. prionantha의 주성분으로 확인되어 감별 지표성분으로 제안, 법정 기원종 V. philippica에서는 미량[2]",
+   "why": "[2] 전문: 지표 쿠마린은 V. prionantha 시료에서 확인 — 다른 종 자료가 이 종 지표처럼 읽히지 않게 시료 종 명시"
+  },
+  {
+   "where": "compounds[Cichoriin].content_text",
+   "before": "V. philippica 에탄올 추출물 56.494 ± 0.019 µg/mg, n-부탄올 추출물 42.888 ± 0.069 µg/mg",
+   "after": "n-부탄올 추출물에서 분리(함량 수치 없음)[10]; 자화지정 비교 연구에서는 V. prionantha의 주성분으로 확인되어 감별 지표성분으로 제안[2]",
+   "why": "옛 [11](철회 논문) 함량 삭제, [2] 시료 종 명시"
+  },
+  {
+   "where": "compounds[Cichoriin].source",
+   "before": "[2, 10, 11]",
+   "after": "[2, 10]",
+   "why": "철회 논문 [11] 제거"
+  },
+  {
+   "where": "compounds[Prionanthoside].content_text",
+   "before": "n-부탄올 추출물에서 분리(함량 수치 없음)",
+   "after": "n-부탄올 추출물에서 분리(함량 수치 없음)[10]; 자화지정 비교 연구에서는 V. prionantha의 주성분으로 확인되어 감별 지표성분으로 제안[2]",
+   "why": "[2] 전문으로 시료 종 명시"
+  },
+  {
+   "where": "compounds[Schaftoside].activity_ko",
+   "before": "이 종의 대표 플라본 이중 C-배당체",
+   "after": "플라본 이중 C-배당체(활성 보고 없음)",
+   "why": "'이 종의 대표' 는 [7]·[31] 초록에 근거 없음"
+  },
+  {
+   "where": "compounds[Schaftoside].source",
+   "before": "[7, 31]",
+   "after": "[7]",
+   "why": "[31] 초록은 샤프토사이드를 명시하지 않음 — overview 의 플라본 C-배당체 문장으로 옮김"
+  },
+  {
+   "where": "compounds[Apigenin 6-C-alpha-L-arabinopyranosyl-8-C-beta-D-xylopyranoside].activity_ko",
+   "before": "제비꽃속에서만 보고된 플라본 C-배당체",
+   "after": "플라본 이중 C-배당체(활성 보고 없음)",
+   "why": "'제비꽃속에서만 보고' 는 card.json 후보(LOTUS) 규칙 문구이고 [7] 이 말하지 않음"
+  },
+  {
+   "where": "compounds[Delphinidin]",
+   "before": "{\"name\": \"Delphinidin\", \"name_ko\": \"델피니딘 계열 안토시아닌\", \"content_text\": \"꽃에서 안토시아닌 14종 분리·동정(V. prionantha 와 함께 분석; 함량 수치는 초록에 없음)\"}",
+   "after": "{\"name\": \"Anthocyanins (delphinidin, cyanidin, petunidin, malvidin, peonidin glycosides)\", \"name_ko\": \"안토시아닌(5개 아글리콘 계열 14종)\", \"content_text\": \"꽃에서 V. prionantha와 함께 분석해 두 종에서 안토시아닌 14종 동정(아글리콘 Dp·Cy·Pt·Mv·Pn; 종별 분포·함량 수치는 초록에 없음)\"}",
+   "why": "[12] 초록: 14종은 델피니딘만이 아니라 5개 아글리콘 계열이며 두 종을 합친 결과"
+  },
+  {
+   "where": "assays[Esculetin, cichoriin]",
+   "before": "에스쿨레틴: 디클로로메탄 추출물 308.125 ± 0.151 µg/mg, 에틸아세테이트 추출물 344.748 ± 0.071 µg/mg; 시클로리인: 에탄올 추출물 56.494 ± 0.019 µg/mg, n-부탄올 추출물 42.888 ± 0.069 µg/mg",
+   "after": "(삭제)",
+   "why": "[11] PMID 41951179 는 PubMed 에 Retracted Publication 으로 표시됨"
+  },
+  {
+   "where": "assays[0].rationale",
+   "before": "자화지정 감별용 특징 크로마토그램을 만든 방법으로, 네 쿠마린을 지표성분으로 정했다. 전문(Methods)에서 조건을 옮겼으며, 정량 함량은 본문에 없고 법정 기원종 V. philippica에서는 에스쿨린·에스쿨레틴이 거의 검출되지 않았다고만 적혀 있다[2].",
+   "after": "자화지정과 제비꽃속 위품을 감별하려고 특징 크로마토그램을 만든 방법으로, 네 쿠마린을 지표성분으로 정했다. 전문(Methods)에서 조건을 옮겼다. 네 성분은 V. prionantha의 주성분으로 확인되었고, 법정 기원종 V. philippica(= V. yedoensis)에서는 에스쿨린·에스쿨레틴이 미량이라 HPLC에서 거의 검출되지 않았으며 정량 함량은 본문에 없다[2].",
+   "why": "[2] 전문: 네 쿠마린은 V. prionantha 에서 확인 — 시료 종 혼동 방지"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "전초 건조 분말(시판 자화지정 18배치와 제비꽃속 6종 야생 시료 42점)",
+   "after": "전초 건조 분말(제비꽃속 6종 야생 시료 42점과 시판 자화지정·대조약재)",
+   "why": "[2] 전문: HPLC 특징 성분 비교는 6종 42점, 18배치는 주로 형태·TLC 비교 후 크로마토그램 대조"
+  },
+  {
+   "where": "sources",
+   "before": "[11] Fitoterapia 2026;191:107238 (PMID 41951179)",
+   "after": "(삭제, 12–35 → 11–34 로 번호 정리)",
+   "why": "PubMed 기사 유형에 'Retracted Publication' — 철회 논문"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 호제비꽃잎, Viola yedoensis Makino, Field purpleflower violet, 이명 들제비꽃·들오랑캐꽃·씨름꽃·지정초, '사용가능부위 : 잎', 사용가능 — card.json·overview·safety 와 일치. 제비꽃(V. mandshurica)·삼색제비꽃(꽃)·향기제비꽃(꽃 제한적사용, 잎 사용가능)·금강제비꽃잎·졸방제비꽃잎·민졸방제비꽃순은 별도 행으로 확인했고 이 자료에 섞이지 않음",
+  "같은 목록의 'Chinese violet잎'(학명 Viola yezoensis)이 V. yedoensis 의 오기인지 별개 종(V. yezoensis Maxim.)인지는 원자료만으로 판단 불가 — 본문은 '별개 항목' 으로만 씀",
+  "이명 처리: [2] 전문은 V. yedoensis Makino 를 1977년판부터 중국약전 자화지정의 유일 기원으로 적고 현재 V. philippica Cav. 의 이명으로 취급한다고 씀. [2] 의 감별 지표 쿠마린 4종은 V. prionantha 시료의 주성분이었고 법정 기원종(V. philippica)에서는 미량 — 본문·compounds·assays 에 시료 종을 명시",
+  "[2] PMC8892722 전문으로 assays[0] 조건(Agilent 1260, ZORBAX SB-C18 4.6×250 mm 5 µm, 0.4% 아세트산/메탄올 기울기 5단계, 1 mL/min, 25 °C, 20 µL, DAD 345 nm, TripleTOF 4600 조건, 시료 전처리) 한 칸씩 대조 — 일치. 엽록체 유전체 156,395–158,067 bp 일치",
+  "[5] 총설은 _work/PMC12073729.txt 전문으로 대조(1963년판 첫 수재, 2020년판 15–30 g·에스쿨레틴 0.20% 이상(건조물)·반정량 0.484 ± 0.028%, Flora of China 형태 수치, 분포, 허브차·기능성식품, 설사 위품 경고, VYAC 아토피 처방) — 일치",
+  "그 밖의 논문([3]·[4]·[6]–[33])은 PubMed 초록으로만 확인(전문 없음 또는 불필요). [12] 은 PMC6327322 가 있으나 초록으로 충분"
+ ]
+}

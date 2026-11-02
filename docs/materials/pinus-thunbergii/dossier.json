@@ -1,0 +1,506 @@
+{
+ "slug": "pinus-thunbergii",
+ "name_ko": "곰솔",
+ "name_en": "Japanese black pine",
+ "scientific_name": "Pinus thunbergii Parl.",
+ "aliases": [
+  "곰솔잎",
+  "해송",
+  "가지해송",
+  "왕솔",
+  "Black pine",
+  "Japanese black pine"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "곰솔(Pinus thunbergii Parl.)은 소나무과(Pinaceae) 소나무속의 상록 침엽수로, 식약처 「식품원료 목록」에는 '곰솔잎'이라는 원료명으로 올라 있다[1]. 식품원료로서의 지위는 '사용가능'이고 사용 조건은 '사용가능부위 : 잎'이므로, 이 항목으로 쓸 수 있는 부위는 잎(솔잎)뿐이다[1]. 목록의 별명 칸에는 가지해송·해송·왕솔이, 영어 이름 칸에는 Black pine이 적혀 있다[1]. 학명 칸에는 Pinus thunbergii Parl.와 함께 'Pinus massoniana Palib.'가 적혀 있지만, 논문에서 Pinus massoniana Lamb.(마미송)는 곰솔과 잎 구조·DNA 서열로 구별되는 다른 종으로 다뤄진다[1, 12]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n곰솔은 한국·중국·일본 등 동아시아 해안에 자라는 침엽수로 소개된다[11]. 잎에서는 아실화 플라보놀 배당체인 쿼서틴 3-O-(3″-O-p-쿠마로일)글루코사이드가 마른 잎 100 g당 25.46–40.28 mg으로 정량되었다[3]. 잎 에탄올 추출물은 대식세포 실험과 생쥐 귀에 바르는 부종 실험에서 항염 작용을 보였고[4], 부위가 초록에 적히지 않은 곰솔 추출물은 인플루엔자 A 바이러스 세포 실험에서 감염 세포의 생존율을 높였으나 함께 시험한 측백나무 추출물보다 약했다[9]. 이들은 세포·동물 결과로, 사람에게서 같은 효과를 뜻하지 않는다[4, 9]. 사람을 대상으로 곰솔잎의 효과나 안전성을 본 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "한 국내 연구는 곰솔을 한국에서 'gomsol', 중국에서 'hēisōng', 일본에서 'kuromatsu'라 부르며 잎과 줄기가 검은빛을 띠어 Japanese black pine이라 불린다고 소개했다[4]. 같은 연구는 곰솔의 꽃가루와 나무껍질을 먹을 수 있고 동양 의학에서 당뇨·신경통 등에 써 왔다고 적었다[4]. 그러나 국내 식품원료 목록의 곰솔 항목은 잎만 허용하며, 나무껍질과 꽃가루는 품종 흑반송(Pinus thunbergii f. multicaulis) 항목에서 따로 허용된다[1]. 따라서 '곰솔 꽃가루·껍질'을 식품원료로 말할 때에는 흑반송 항목인지 확인해야 한다[1].\n\n국내 연구진은 소나무(red pine)와 곰솔(black pine, 논문 표기 'Haesong pine')을 한국에서 가장 흔한 두 소나무로 소개하고, 곰솔 잎을 속초·울진·영덕 바닷가에서 채취해 성분을 비교했다[3]. 곰솔은 기술·약용·농업 등에 오래 쓰여 왔지만 잎·가지·껍질의 저휘발성 대사물은 거의 연구되지 않았다는 평가가 2013년에 나왔다[6]. 화석 잎 표피 연구는 곰솔이 일본의 마이오세 화석종 Pinus mikii와 일부 표피 형질을 공유하며, 기후가 서늘해지면서 그에 적응한 집단에서 생겨났을 가능성을 제시했다[23]. 국내에서 곰솔잎을 차나 음료로 마셔 온 역사를 기록한 공공기관 자료는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "곰솔은 동아시아 해안에 자라는 침엽수이며, 일본에서는 준고유종으로 기술된다[11, 23]. 자생 고도 범위를 1차 출처로는 확인하지 못함. 현미경 연구에서 곰솔·마미송·유송(Pinus tabuliformis)의 잎은 잎 수와 길이, 관다발 수, 기공선 분포, 수지구의 수와 위치가 서로 뚜렷이 달랐다[12]. 중국 칭다오의 곰솔 순림에서 새 잎은 6월 말에 분화하기 시작해 9월 중순에 생장을 멈췄다[16]. 솔잎혹파리(Thecodiplosis japonensis)에 감염된 잎은 건전한 잎보다 길이가 60.17% 짧았고, 혹이 생긴 조직에서는 아미노산이 40.83% 늘고 총 폴리페놀·탄닌·카로티노이드는 줄었다[16].\n\n한국 동해안 삼척의 곰솔 해안림에서는 외생균근균 27분류군이 확인되었고 Cenococcum geophilum이 우점했다[17]. 국내 공업지역 토양에서 자란 곰솔 잎은 Ca/Al 몰비가 10으로 비공업지역(15)보다 낮았고 마그네슘 농도도 낮았다[18]. 3년생 나무의 잎에서는 에탄올로 추출되는 유리 아미노산 27종이 확인되었고, 유리 아미노산 총량은 같은 나이의 소나무 잎보다 적었다[8]. 곰솔 잎의 친유성 추출물에서 산 성분은 주로 라브단형 디테르페노이드(trans-코뮤닉산)였고, 잔가지와 겉껍질에서는 아비에탄형 수지산이 주를 이뤘다[6]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동 주의",
+   "body": "식품원료 목록에는 소나무(Pinus densiflora)·구주소나무(P. sylvestris)·잣나무(P. koraiensis)·눈잣나무(P. pumila)·파인너트(P. edulis)·라디아타소나무(P. radiata) 등 같은 속의 원료가 곰솔과 별도 항목으로 올라 있으므로 그 자료를 곰솔에 옮겨 쓰면 안 된다[1]. 예컨대 소나무 항목은 순·줄기·나무껍질·가지·잎·꽃가루를 허용하고 뿌리·솔방울은 제한적으로 허용하지만(솔방울은 일반증류주 원료에 한함), 곰솔 항목은 잎만 허용한다[1]. 품종 흑반송(P. thunbergii f. multicaulis, 별명 곰반송·만주흑송)은 나무껍질과 꽃가루가 허용된 별도 항목이다[1].\n\n이름 혼동도 있다[1]. '해송'은 곰솔의 별명이지만 목록에서 해조류 청각(Codium fragile)의 별명으로도 쓰이고, '해송버섯자실체'는 버섯(Tricholoma auratum)이다[1]. '검은소나무'라는 별명은 목록에서 곰솔이 아니라 피네아소나무(Pinus pinea) 항목에 적혀 있다[1].\n\n일본 세토내해 연안 51개 조사지의 소나무림은 평균 소나무 51.4%, 곰솔 28.9%, 두 종의 잡종 19.7%로 이루어져 두 종이 자연 교잡한다[13]. 곰솔은 소나무재선충에 대한 저항성이 낮아 소나무와 마미송보다 피해를 받기 쉬운 종으로 기술된다[14]. 곰솔과 소나무 잎은 HPLC 크로마토그램 모양이 비슷했지만, 소나무 잎에는 플라보놀 배당체 5종이 모두 뚜렷했던 반면 곰솔 잎에는 쿼서틴 쿠마로일글루코사이드를 뺀 4종이 아주 적었다[3]."
+  },
+  {
+   "key": "cultivation",
+   "title": "자생지·조림과 생산",
+   "body": "곰솔은 바닷가에서 잘 자라 한국 동해안과 중국 황해 연안에서 해안림을 이루며, 중국은 해안림 복원 조림에 곰솔 등 소나무류를 쓰고 있다[17, 25]. 해안림 곰솔 묘목의 뿌리에는 주변 큰 나무와 같은 외생균근균이 86.7–100% 비율로 자리 잡아 숲 갱신에 이 균류가 중요할 수 있다고 해석되었다[17]. 산성 강하물로 토양이 산성화된 국내 공업지역에서는 마그네슘 결핍과 높은 알루미늄·망간 농도가 곰솔 생장을 제한할 수 있다고 보고되었다[18].\n\n병해충 가운데 소나무재선충(Bursaphelenchus xylophilus)과 그 매개충이 가장 큰 위협으로, 일본 세토내해 조사에서 매개충 하늘소로 인한 고사 비율은 곰솔이 35%로 소나무(20%)와 잡종(18%)보다 높았다[13]. 솔잎혹파리 저항성 유전자 Rpgm에 연관된 AFLP 표지가 찾아져 저항성 개체 선발에 쓰일 수 있다[15]. 곰솔잎을 식품원료로 채취·재배하는 면적이나 생산량에 관한 국내 통계(통계청·산림청 특용작물 통계 등)는 확인하지 못함. 지리적 표시 등록 품목도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "수증기 증류한 곰솔 잎 정유의 수율은 0.296%(v/w)였고, 같은 조건의 소나무 잎 정유는 0.304%였다[2]. 초음파 보조 염석 수증기 증류로 최적화한 다른 연구에서 곰솔 잎 정유 수율은 0.214%로, 마미송(0.425%)과 잣나무(0.852%)보다 낮았다[7]. 이 연구는 개잎갈나무(Cedrus deodara)를 포함한 네 종의 정유에서 휘발 성분 74종을 확인하고 α-피넨·β-피넨·리모넨·보르닐아세테이트·저마크렌 D 등 9종을 종을 가르는 주요 성분으로 꼽았다[7]. 곰솔 잎 104.0 g을 70% 에탄올로 실온에서 세 번 추출해 동결건조하자 10.86 g(수율 10.44%)이 얻어졌다[4].\n\n솔잎을 찌거나 볶으면 3분 처리에서 플라보놀 배당체가 늘었다가 10분 처리에서 줄었다는 결과는 소나무 잎(금강소나무)으로 얻은 것이어서 곰솔 잎에 그대로 적용할 수는 없다[3]. 식약처 「식품 등의 생산실적」에는 개별인정형 원료 '솔잎증류농축액'이 집계되지만, 식품원료 목록의 해당 건강기능식품 항목(기능성원료인정 제2007-8호)에는 학명이 적혀 있지 않고 일반 식품원료의 증류농축액은 소나무(Pinus densiflora) 항목('소나무잎증류농축액')으로 올라 있어 곰솔 제품으로 볼 근거가 없다[1, 24]. 곰솔잎을 원료로 한 식품·건강기능식품의 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 분자 연구",
+   "body": "곰솔 엽록체 유전체는 1994년에 전체 서열(119,707 bp)이 밝혀졌으며 rRNA 유전자 4개와 tRNA 유전자 32개를 가진다[10]. 이 엽록체 유전체는 속씨식물에 있는 ndh 유전자 11개를 모두 잃어 4개는 완전히 없어지고 7개는 위유전자로 남아 있었다[10]. 2026년에는 국립산림과학원 연구진이 미토콘드리아 유전체를 처음 완성했는데, 원형 염색체(약 2.24 Mb)와 선형 염색체(약 0.31 Mb) 두 개로 이루어진 총 2,553,981 bp였다[11]. 이 미토콘드리아 유전체는 단백질 암호 유전자 41개, tRNA 유전자 17개, rRNA 유전자 3개를 가졌다[11].\n\n곰솔·마미송·유송의 잎은 두 DNA 바코드 가운데 한 서열에서 종간·종내 거리가 뚜렷이 갈려 분자 감별이 가능했고, 다른 한 서열에서는 바코딩 간격이 뚜렷하지 않았다[12]. 솔잎혹파리 저항성 유전자 Rpgm은 AFLP 표지 두 개 사이(한쪽 6.6 cM, 다른 쪽 15.3 cM)에 위치했다[15]. 소나무재선충 접종 24시간 뒤 감수성 곰솔에서 2,603개, 저항성 곰솔에서 2,559개의 발현 차이 유전자가 확인되었고, 저항성 개체는 리그닌 함량이 늘 더 높았다[14]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "곰솔잎은 고시형 원료가 아니어서 고시된 섭취 시 주의사항이 없다[1]. 곰솔잎의 알레르기·급성독성·반복투여독성을 다룬 공공기관 자료나 사람 대상 안전성 연구는 확인하지 못함. 곰솔 잎 70% 에탄올 추출물은 생쥐 대식세포에 24시간 동안 25–100 µg/mL로 처리했을 때 세포 생존율에 유의한 차이를 보이지 않았으나, 논문은 24시간을 넘겨 처리하면 세포독성이 나타난다고도 적었다[4]. 이는 세포 실험 결과로 사람의 섭취 안전성을 보여 주지 않는다[4].\n\n솔잎 섭취의 유산 우려는 주로 다른 소나무속 종의 자료에서 나온다[21, 22]. 미국 폰데로사소나무(Pinus ponderosa) 잎을 먹은 임신 말기 소에서는 자궁 혈류 감소와 조산이 나타났고, 이 잎의 혈관수축성 지질은 임신 기니피그에서 유산 작용을 보였으나 같은 실험에서 이소쿠프레스산을 넣은 사료는 그러지 않았다[21]. 소 실험에서는 라브단계 디테르펜산인 이소쿠프레스산이 주된 유산 물질로 제시되었고, 다른 식물(대만향나무 뿌리)에서 얻은 이소쿠프레스산은 소 황체세포의 프로게스테론 생성을 억제했다(세포 실험)[26]. 로지폴소나무(Pinus contorta) 잎은 이소쿠프레스산을 건조중량의 0.8% 함유했고, 이를 하루 62–78 mg/kg씩 먹인 임신 소가 8–10일 뒤 유산했다[22]. 이 결과는 소·기니피그에 대한 다른 종의 자료이며, 곰솔 잎에 이소쿠프레스산이 들어 있는지와 그 함량은 확인하지 못함(PubMed 검색에서 관련 보고 없음). 곰솔 잎의 친유성 산 성분은 주로 같은 라브단형인 trans-코뮤닉산으로 보고되었으나, 이 성분의 유산 작용은 확인하지 못함[6]. 임신부의 곰솔잎 음용에 관한 공공기관 권고도 확인하지 못함.\n\n솔잎은 대기오염물질을 모은다[19, 20]. 중국 랴오닝성 35곳의 곰솔 잎은 주로 기체상의 다환방향족탄화수소(PAH)를 흡수했고, 다이옥신류(PCDD/F)는 잎이 오래될수록 많이 쌓였으나 곰솔은 마미송보다 적게 흡수했다[19, 20]. 도로변·공업지역 솔잎의 식품 잔류 기준을 다룬 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin 3-O-(3''-O-p-coumaroyl)-beta-D-glucoside",
+   "name_ko": "쿼서틴 3-O-(3″-O-p-쿠마로일)-β-D-글루코사이드(QCG)",
+   "class": "아실화 플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "곰솔 잎 25.46–40.28 mg/100 g(건조중량, HPLC-PDA 350 nm); 속초 채취 잎이 울진·영덕보다 유의하게 높음. 같은 연구의 소나무 잎은 25.54–27.03 mg/100 g",
+   "activity_ko": "곰솔 잎에서 가장 두드러진 플라보노이드로, 소나무 잎보다 곰솔 잎에 더 많았음. 아실화 플라보놀 배당체는 항산화·항균 작용이 보고된 성분군",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "아이소퀘르시트린(쿼서틴 3-O-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "곰솔 잎에서는 '아주 적은 양'으로만 검출(수치는 본문 표에 있으나 전문 텍스트에서 확인하지 못함); (참고: 다른 종인 소나무 잎 봄 채취 18.35 mg/100 g 건조중량)",
+   "activity_ko": "솔잎의 대표 플라보놀 배당체 가운데 하나",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Astragalin",
+   "name_ko": "아스트라갈린(캠페롤 3-O-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "곰솔 잎에서는 아주 적은 양으로만 검출(곰솔 수치 확인하지 못함)",
+   "activity_ko": "솔잎에서 분리된 5종 플라보놀 배당체 가운데 하나",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Quercetin 3-O-(6''-O-acetyl)-beta-D-glucoside",
+   "name_ko": "쿼서틴 3-O-(6″-O-아세틸)글루코사이드",
+   "class": "아세틸화 플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "곰솔 잎에서는 아주 적은 양으로만 검출(곰솔 수치 확인하지 못함)",
+   "activity_ko": "아세틸·아실화 플라보놀 배당체는 강한 항산화·항균 활성이 보고된 성분군",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-(6''-O-acetyl)-beta-D-glucoside",
+   "name_ko": "캠페롤 3-O-(6″-O-아세틸)글루코사이드",
+   "class": "아세틸화 플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "곰솔 잎에서는 아주 적은 양으로만 검출(곰솔 수치 확인하지 못함)",
+   "activity_ko": "솔잎에서 분리된 5종 플라보놀 배당체 가운데 하나",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Quinic acid",
+   "name_ko": "퀸산",
+   "class": "페놀산(유기산)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "70% 에탄올 추출물의 UHPLC-Q-Orbitrap-MS 분석에서 많은 양이 확인됨(정량값 없음)",
+   "activity_ko": "추출물의 항산화·항염 작용에 기여할 후보 성분으로 논의됨",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Pinocembrin",
+   "name_ko": "피노셈브린",
+   "class": "플라바논",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 70% 에탄올 추출물에서 잠정 동정(정량값 없음)",
+   "activity_ko": "항염 작용이 알려진 성분으로 추출물의 활성 후보로 언급됨",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Secoisolariciresinol diglucoside",
+   "name_ko": "세코아이소라리시레시놀 디글루코사이드",
+   "class": "리그난 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 추출물에서 동정된 리그난 5종 가운데 하나(정량값 없음)",
+   "activity_ko": "추출물 성분 조성 확인용으로 동정됨",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Roseoside",
+   "name_ko": "로세오사이드",
+   "class": "메가스티그만 배당체(논문 분류: 세스퀴테르페노이드)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 추출물에서 잠정 동정(정량값 없음)",
+   "activity_ko": "산화 스트레스를 줄이는 성분으로 알려져 추출물 활성 후보로 언급됨",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Pinusthunbergiside A",
+   "name_ko": "피누스툰베르기사이드 A",
+   "class": "네오리그난 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물에서 새 화합물로 분리(함량 확인하지 못함). 함께 분리된 기지 네오리그난 배당체 6종은 이 식물에서 처음 보고",
+   "activity_ko": "분리된 네오리그난 가운데 4종(이 화합물 제외)이 비만세포주(RBL-2H3)의 탈과립을 IC50 52.3–75.3 µM으로 억제",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "trans-Communic acid",
+   "name_ko": "trans-코뮤닉산",
+   "class": "라브단형 디테르펜산",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 친유성 추출물의 주된 산 성분(GC/MS, 함량 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "곰솔 잎과 잔가지·껍질을 구별하는 화학분류 지표로 제시됨",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "10-Nonacosanol",
+   "name_ko": "10-노나코사놀",
+   "class": "장쇄 지방알코올(왁스 성분)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 친유성 추출물의 주요 중성 성분(함량 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "잎 표면 왁스 성분",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "베타-시토스테롤",
+   "class": "식물스테롤",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "잎 친유성 추출물의 주요 중성 성분 가운데 하나(함량 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "잎·잔가지에 공통으로 많은 식물스테롤",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "alpha-Pinene",
+   "name_ko": "α-피넨",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "잎(정유)",
+   "content_text": "곰솔 잎 정유 수율 0.296%(v/w)[2], 0.214%[7]; α-피넨의 곰솔 정유 내 비율은 초록에서 확인하지 못함",
+   "activity_ko": "개잎갈나무를 포함한 네 종 침엽 정유의 항산화·항균 활성과 관련된 성분으로 지목됨[7]; 곰솔 잎 정유의 라디칼 소거 IC50 30 µg/mL[2]",
+   "source": [
+    2,
+    7
+   ]
+  },
+  {
+   "name": "Asparagine",
+   "name_ko": "아스파라긴(유리 아미노산)",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "3년생 곰솔 잎에서 유리 아미노산 27종 확인(HPLC), 총량은 소나무 잎보다 적음; 아스파라긴 함량 수치는 확인하지 못함",
+   "activity_ko": "눈이 틀 때 아스파라긴이 나타나는 양상이 소나무와 곰솔을 구별하는 특징으로 제시됨",
+   "source": [
+    8
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin 3-O-(3''-O-p-coumaroyl)-beta-D-glucoside (QCG) and four other flavonol glycosides",
+   "compound_ko": "쿼서틴 3-O-(3″-O-p-쿠마로일)글루코사이드 등 플라보놀 배당체 5종",
+   "part": "잎(속초·울진·영덕 바닷가 채취, 동결건조)",
+   "content": "곰솔 잎 QCG 25.46–40.28 mg/100 g 건조중량(나머지 4종은 아주 적음)[3]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Waters e2690/5 HPLC, 2998 photodiode array detector, autosampler",
+    "column": "YMC-Pack Pro C18(원문 표기 '46 mm i.d.×250 mm'), Waters Guard-Pak C18 precolumn",
+    "mobile_phase": "A: 0.05% H3PO4 수용액, B: 아세토나이트릴",
+    "gradient": "0–10분 10→20% B, 10–15분 20% B, 15–30분 20→30% B, 30–35분 30→40% B, 35–40분 40→50% B, 40–50분 50→60% B, 50–55분 60→90% B, 55–60분 90→100% B",
+    "flow": "0.8 mL/min",
+    "temp": "",
+    "detection": "350 nm",
+    "injection": "",
+    "sample_prep": "건조 솔잎 분말 10 g을 80% 에탄올 100 mL로 초음파 1시간씩 2회 추출, 여과·감압농축 후 80% 에탄올 100 mL에 재용해, 밤새 정치 후 상층을 100 mL로 맞추고 0.45 µm PVDF 필터 여과",
+    "standard": "소나무 잎에서 직접 분리·NMR/MS로 동정한 플라보놀 배당체 5종(QG·KG·QAG·KAG·QCG), 머무름 시간 비교",
+    "linearity": "상관계수 0.995 이상(QCG 검량식 y=1.2033x+0.4858)",
+    "lod": "",
+    "loq": "",
+    "recovery": "5종 모두 95% 이상"
+   },
+   "rationale": "곰솔 잎과 소나무 잎을 같은 방법으로 비교한 정량 연구로, 곰솔 잎에서는 QCG만 뚜렷하고 다른 4종은 매우 적어 QCG가 곰솔 잎의 특징적 플라보노이드로 쓰일 수 있다. 전문(PMC8027044)에서 조건을 확인함",
+   "source": [
+    3
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33859965/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quinic acid and 15 other metabolites (qualitative profiling)",
+   "compound_ko": "퀸산 등 대사물 16종(정성 분석)",
+   "part": "잎(전남 강진, 2014년 8월 채취)",
+   "content": "정량값 없음 — 페놀산 2종(주로 퀸산), 플라보노이드 7종, 리그난 5종, 세스퀴테르페노이드 1종, 장쇄 지방산 1종 동정[4]",
+   "method": "UHPLC-Q-Orbitrap-MS",
+   "conditions": {
+    "instrument": "Q-Exactive Orbitrap 질량분석기(ESI) + Dionex UltiMate 3000 RS 펌프·오토샘플러·칼럼 오븐",
+    "column": "Hypersil GOLD C18 selectivity, 1.9 µm, 50 × 2.1 mm",
+    "mobile_phase": "본문은 이전 연구 방법을 따랐다고만 적음(확인하지 못함)",
+    "gradient": "",
+    "flow": "",
+    "temp": "25 °C",
+    "detection": "ESI-MS(Orbitrap)",
+    "injection": "",
+    "sample_prep": "잎 104.0 g을 70% 에탄올로 실온 24시간씩 3회 추출, 45 °C 감압농축·동결건조 후 70% 에탄올에 재용해",
+    "standard": "표준품·문헌·NIST·MassBank 대조로 잠정 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "곰솔 잎 추출물의 항염 활성 연구에서 성분 조성을 확인한 분석이다. 정량 시험법이 아니라 정성 프로파일이며, 이동상·기울기는 본문에 없어 비워 둠. 전문(PMC7817271)에서 확인함",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33519946/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Essential oil volatiles (steam distillation)",
+   "compound_ko": "솔잎 정유 휘발 성분",
+   "part": "잎",
+   "content": "곰솔 잎 정유 수율 0.296%(v/w); 라디칼 소거 IC50 30 µg/mL[2]",
+   "method": "GC-MS",
+   "conditions": {},
+   "rationale": "곰솔과 소나무 잎 정유를 같은 방법으로 비교한 연구다. 초록만 확인했고 전문 확인 못함 — 칼럼·온도 조건과 성분별 함량은 비워 둠",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21213230/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 곰솔잎·흑반송꽃가루·흑반송나무껍질·소나무잎증류농축액 등",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Volatile compounds and antimicrobial and antioxidant activities of the essential oils of the needles of Pinus densiflora and Pinus thunbergii (2011)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21213230/",
+   "publisher": "Journal of the Science of Food and Agriculture 91(4):703-9",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Quantitative Changes of Flavonol Glycosides from Pine Needles by Cultivar, Harvest Season, and Thermal Process (2021; PMC8027044 전문)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33859965/",
+   "publisher": "Preventive Nutrition and Food Science 26(1):100-108",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Pinus thunbergii Parl. Extracts Reduce Acute Inflammation by Targeting Oxidative Stress (2021; PMC7817271 전문)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33519946/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine 2021:7924645",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Neolignan inhibitors of antigen-induced degranulation in RBL-2H3 cells from the needles of Pinus thunbergii (2014)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25451795/",
+   "publisher": "Fitoterapia 99:347-51",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Low-volatile lipophilic compounds in needles, defoliated twigs, and outer bark of Pinus thunbergii (2013)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24555293/",
+   "publisher": "Natural Product Communications 8(12):1759-62",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Efficient Extraction, Chemical Characterization, and Bioactivity of Essential Oil From Pine Needles (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40079166/",
+   "publisher": "Phytochemical Analysis 36(5):1539-1559",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Studies on the constituents of Pinus densiflora leaves. II. On the ethanol-extractable amino acids compared with Pinus thunbergii leaves (1989)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2746471/",
+   "publisher": "Yakugaku Zasshi 109(2):127-43",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Antiviral activity of the plant extracts from Thuja orientalis, Aster spathulifolius, and Pinus thunbergii against influenza virus A/PR/8/34 (2013)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23314378/",
+   "publisher": "Journal of Microbiology and Biotechnology 23(1):125-30",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Loss of all ndh genes as determined by sequencing the entire chloroplast genome of the black pine Pinus thunbergii (1994)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7937893/",
+   "publisher": "Proceedings of the National Academy of Sciences USA 91(21):9794-8",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The first complete assembly and analysis of mitochondrial genome of Pinus thunbergii in Pinaceae (2026)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42387401/",
+   "publisher": "BMC Plant Biology 26(1)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Microscopic and molecular identification of pine needles (2018)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30226333/",
+   "publisher": "Zhejiang Da Xue Xue Bao Yi Xue Ban 47(3):300-306",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "A demographic analysis of mortality caused by the pine wood nematode and pine sawyer beetles in pine forests in the Seto Inland Sea-side, Japan (1986)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28311773/",
+   "publisher": "Oecologia 68(3):321-326",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Transcriptomic analysis reveals differentially expressed genes associated with pine wood nematode resistance in resistant Pinus thunbergii (2023)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36807984/",
+   "publisher": "Tree Physiology 43(6):995-1008",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Identification of AFLP markers linked to a resistance gene against pine needle gall midge in Japanese black pine (2003)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15067405/",
+   "publisher": "Theoretical and Applied Genetics 108(6):1177-81",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Growth dynamics of galls and chemical defence response of Pinus thunbergii Parl. to the pine needle gall midge, Thecodiplosis japonensis (2020)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32703997/",
+   "publisher": "Scientific Reports 10:12289",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Ectomycorrhizal fungal communities associated with Pinus thunbergii in the eastern coastal pine forests of Korea (2009)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19557441/",
+   "publisher": "Mycorrhiza 20(1):39-49",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Soil nutrient bioavailability and nutrient content of pine trees (Pinus thunbergii) in areas impacted by acid deposition in Korea (2008)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18758977/",
+   "publisher": "Environmental Monitoring and Assessment 157:43-50",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Distribution of PAHs in pine (Pinus thunbergii) needles and soils correlates with their gas-particle partitioning (2009)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19350900/",
+   "publisher": "Environmental Science & Technology 43(5):1336-41",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "PCDD/Fs accumulation in pine needles: variation with species and pine needle age (2015)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26330320/",
+   "publisher": "Environmental Science and Pollution Research 23(1):563-70",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Abortifacient effects of a unique class of vasoactive lipids from Pinus ponderosa needles (1999)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10461998/",
+   "publisher": "Journal of Animal Science 77(8):2187-93",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Abortifacient effects of lodgepole pine (Pinus contorta) and common juniper (Juniperus communis) on cattle (1998)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9778758/",
+   "publisher": "Veterinary and Human Toxicology 40(5):260-3",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Relicts of the Mid-Miocene Climatic Optimum may contribute to the floristic diversity of Japan: a case study of Pinus mikii and its extant relatives (2017)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29101488/",
+   "publisher": "Journal of Plant Research 131(2):239-244",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 2018–2025년판, 품목 유형별 현황(개별인정형) — 로컬 파싱본 docs/stats/hf_items.csv",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Diversity and community structure of ectomycorrhizal fungi in Pinus thunbergii coastal forests bordering the Yellow Sea of China (2021)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33813730/",
+   "publisher": "Brazilian Journal of Microbiology 52(2):801-809",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Isocupressic acid blocks progesterone production from bovine luteal cells (2002)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12568280/",
+   "publisher": "The American Journal of Chinese Medicine 30(4):533-41",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

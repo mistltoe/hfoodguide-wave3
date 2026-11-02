@@ -1,0 +1,600 @@
+{
+ "slug": "akebia-quinata",
+ "name_ko": "으름덩굴",
+ "name_en": "Five-leaf chocolate vine (chocolate vine)",
+ "scientific_name": "Akebia quinata (Houtt.) Decne.",
+ "aliases": [
+  "으름",
+  "으름덩굴열매",
+  "으름덩굴잎",
+  "으름덩굴과실분말",
+  "Five-leaf chocolate vine",
+  "chocolate vine",
+  "Akebia quinata (Houtt.) Dence.",
+  "Akebia quinata Decaisne"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "으름덩굴(Akebia quinata (Houtt.) Decne.)은 으름덩굴과(Lardizabalaceae)에 속하는 덩굴성 목본으로 한국·중국·일본 등 동아시아에 분포한다[14][19]. 영어로는 chocolate vine이라 하며, 논문에 쓰이는 five-leaf akebia는 식품원료 목록에서 잡종 Akebia x pentaphylla의 원료명이라 구별해야 한다[2][18][19]. 열매는 과일로 먹고 약재로도 쓴다[19].\n\n식품의약품안전처 「식품원료 목록」에서 으름덩굴은 사용가능 원료이며, 사용 조건은 '사용가능부위 : 잎, 열매'이다[1]. 목록에는 으름덩굴·으름덩굴열매·으름덩굴과실분말·으름덩굴잎 4개 원료명과 다른 이름 '으름'과 영문명 Five-leaf chocolate vine이 적혀 있다[1]. 같은 목록에서 으름덩굴줄기·으름덩굴뿌리와 '목통줄기'는 사용불가이고, 줄기 약재인 목통은 건강기능식품 제조에 사용할 수 없는 원료로 고시되어 있다[2][3]. 고시형 원료의 원재료 기록은 확인하지 못함.\n\n열매와 씨앗에는 아케비아 사포닌 D·헤데라코사이드 C 같은 트리테르펜 사포닌이, 잎에는 클로로겐산 계열 페놀산과 루틴이 많다고 보고되었다[17][18][19]. 확인된 먹는 사람 시험은 발효 잎·열매 음료의 숙취 시험(남성 25명, 5개 군) 하나이며 위약군과 혈중 에탄올 차이는 유의하지 않았다[21]. 목통(木通)이라는 약재 이름 때문에 아리스톨로크산이 든 관목통(등칡, Aristolochia manshuriensis)이 대용·혼입되어 콩팥 손상 사례가 있어 구분이 중요하다[4][5][7]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통적 이용",
+   "body": "으름덩굴의 줄기는 '목통(일본명 Mokutsu)'이라는 이뇨·소염 약재로 쓰였고, 일본약전은 으름덩굴과 삼엽으름덩굴을 목통의 기원 식물로 정하고 있다[12]. 일본 목통 시장은 대부분 야생 으름덩굴류에서 얻은 국산품이 차지한다고 보고되었다[12]. 일본 구마모토번이 펴낸 히고국 「산물장」에도 으름덩굴이 약용 식물로 올라 있다[33].\n\n줄기는 요로 염증 질환 치료에 써 왔다고 소개되고[24], 말린 열매는 진통·소염·이뇨제로, 한국에서는 비만 치료용 생약으로도 쓰였다고 한다[20]. 한국에서는 잎을 데쳐 먹는 민간 이용이 소개되었다[17]. 유럽약전은 2018년 제9판 추록 9.6에 'Akebia stem' 각조를 처음 실었고, 으름덩굴·삼엽으름덩굴 또는 그 혼합물을 원료로 인정한다[14].\n\n중국 전통 의약에서는 '목통(mutong)' 대신 관목통(Aristolochia manshuriensis)이나 천목통(Clematis armandii)을 쓰는 대체가 허용되어 아리스톨로크산 노출 위험을 키웠다고 지적되었다[4]. 대만에서는 2004년 이전에 관목통이 섞인 목통 처방이 이루어졌다고 보고되었다[5]. 한국에서 으름 열매를 먹어 온 역사 기록의 연대는 이 자료에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "으름덩굴은 덩굴로 자라는 목본 식물이며 한국·중국·일본에 분포한다[17][19]. 일본과 한반도 남부에서 채집한 표본 분석에서 형태로 동정한 으름덩굴은 고유의 ITS1 염기서열을 가졌다[13].\n\n한 그루에 암꽃과 수꽃이 따로 피는 암수한그루(monoecious)이며 꿀샘이 없다[28]. 꽃잎처럼 보이는 꽃받침이 3수성 방사대칭을 이루고, 암꽃이 수꽃보다 커서 꽃가루 매개 곤충이 암꽃을 먼저 찾아 타가수분이 일어나기 쉽다고 설명된다[28]. 기하형태 분석에서 암꽃의 꽃덮이 모양은 수꽃보다 변이가 컸다[28]. 자가불화합성 식물이지만 자연 상태에서 같은 그루 꽃끼리의 수분과 꽃가루 부족이 함께 관찰되었고, 자기 꽃가루가 많이 묻으면 어린 열매 맺힘이 줄었다[29].\n\n말린 열매 정유에서는 86개 성분(전체의 98.4%)이 확인되었고 리모넨·유제놀·옥탄알·p-시멘이 주성분이었다[15]. 줄기 정유는 헥산산·팔미트산 등 포화지방산 비율이 높아 열매와 조성이 달랐다[15]. 개화·결실 시기와 열매 크기에 관한 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동 약재",
+   "body": "같은 속의 삼엽으름덩굴(Akebia trifoliata)과 두 종의 잡종으로 여겨지는 Akebia x pentaphylla(Five-leaf akebia)는 식품원료 목록에 따로 올라 있으며 각각 열매·잎을 쓸 수 있다[2][12]. A. x pentaphylla의 ITS1에는 두 종의 서열과 그 키메라가 함께 들어 있어 균일한 종이라기보다 잡종 개체군으로 해석되었다[13].\n\n으름덩굴 줄기의 주요 트리테르펜 배당체는 C-3과 C-28 두 자리에 당이 붙은 형태인 반면, 삼엽으름덩굴은 C-28에만 당이 붙어 있어 화학적으로 구별할 수 있다고 보고되었다[16]. 으름덩굴 부탄올 추출물에서는 구아이아닌 N·콜린소니딘·칼로파낙스사포닌 A 같은 올레아난 이당 사포닌도 분리되었다[25]. 리뷰는 페놀 배당체 2-(3,4-dihydroxyphenyl)-ethyl-O-β-D-glucopyranoside가 으름덩굴에서만 발견되었다고 정리했다[14].\n\n이름이 비슷한 관목통(關木通)은 쥐방울덩굴과의 등칡(Aristolochia manshuriensis)에서 얻는 약재로, 콩팥 독성 성분인 아리스톨로크산을 함유한다[4][9]. 식품원료 목록에서 등칡은 사용불가 원료이다[2]. 한 FDA 연구진 논문은 관목통을 등칡의 뿌리로 적었으나[4], 독성 시험 논문들은 줄기(Caulis aristolochiae manshuriensis)로 적었다[10]. 천목통(Clematis armandii)도 목통의 대용품으로 쓰였다[4]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "일본에서는 머루·으름덩굴·삼엽으름덩굴·멀꿀·다래 등 자생 과수가 최근 소규모로 재배되기 시작했다[30]. 이런 자생 과수는 틈새시장 품목이어서 재배 면적과 생산량이 적고 변동이 크다고 설명된다[30].\n\n국내 연구에 쓰인 잎 시료는 공주와 무주에서 채집해 45 °C에서 3일 말렸다[17]. 공주와 무주 잎은 네오클로로겐산과 이소클로로겐산 C 함량이 유의하게 달라 재배·채취 지역을 품질 관리에서 고려해야 한다고 제안되었다[17]. 연구용 말린 열매는 서울 경동 약재시장에서 구입한 것이었다[19].\n\n유럽에서는 정원의 벽이나 지지대를 덮는 관상용 덩굴로 심는다[34]. 2003년 이탈리아 북부 비엘라 지역 정원에서 흰가루병(Oidium sp.)이 처음 보고되었고, 잎이 누렇게 변해 말라 죽었다[34]. 통계청·농림축산식품부 통계에서 으름(으름덩굴)의 국내 재배 면적과 생산량은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품원료 목록에는 열매를 말려 가루로 만든 '으름덩굴과실분말'이 별도 원료명으로 올라 있다[1]. 연구에서는 잎·열매를 효모로 1개월 발효하고 1주일 알코올 발효한 뒤 알코올을 날려 30%로 희석한 추출물을 숙취 음료 시제품으로 썼다[21]. 이 발효 추출물은 전통주 막걸리 생산의 부산물로 소개되었다[21].\n\n열매를 70% 메탄올로 환류 추출한 뒤 된장 곰팡이 유래 효소로 생물전환한 추출물은 3T3-L1 지방세포와 고지방식 흰쥐(군당 6마리, 4주)에서 전환하지 않은 추출물보다 체중·지방조직 감소 효과가 컸다(세포·동물 시험)[22]. 씨앗 300 g을 70% 에탄올로 초음파 추출해 동결건조하면 21.6 g(수율 7.2%)의 추출물을 얻었다[18]. 잎은 70% 에탄올로 시료 대비 80배(mL/g) 부피에서 80분 초음파 추출할 때 지표성분 수율이 가장 높았다[17].\n\n열매 추출물을 넣은 크림을 8주 바른 사람 시험에서 눈가 깊은 주름의 깊이가 줄었다고 보고되었다[35]. 줄기 약재인 목통은 건강기능식품 원료로 쓸 수 없다[3]. 식약처 「식품 등의 생산실적」에서 으름덩굴 원료 건강기능식품 생산 기록은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 종 판별",
+   "body": "으름덩굴의 엽록체 유전체 전체 길이는 157,817 bp이며, 큰 단일복제 영역 86,544 bp, 작은 단일복제 영역 18,989 bp, 역반복 영역 두 개(각 26,142 bp)로 이루어진다[31]. 유전자는 132개(단백질 암호 87, tRNA 37, rRNA 8)로 보고되었다[31]. 핵 유전체 해독 결과는 확인하지 못함.\n\n핵 리보솜 DNA의 ITS1 서열로 으름덩굴과 삼엽으름덩굴을 구별할 수 있고, 이를 바탕으로 목통 생약을 다른 식물 유래 약재와 가르는 PCR-RFLP 법이 제안되었다[13]. 일본 각지 야생 개체의 ITS에서는 91·128·133·134·221번 자리 염기가 지역에 따라 달랐고, 86번 자리 결실형은 아와지시마·하리마나다·긴키 일대에만 있었다[12]. 세 Akebia 분류군 12개 시료의 AFLP 분석에서 977개 다형 밴드(다형률 92.61%)가 나왔고 으름덩굴은 따로 한 무리를 이루었다[32].\n\n국내 연구진은 파이로시퀀싱으로 으름덩굴과 등칡(관목통)의 서열 양상이 뚜렷이 달라 두 약재를 유전자로 판별할 수 있음을 보였다[11]. 품종 육성 기록은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 주의",
+   "body": "식품원료 목록상 으름덩굴은 잎과 열매만 식품에 쓸 수 있고, 줄기와 뿌리는 사용불가이다[1][2]. 줄기 약재 목통(木桶으로 표기, Akebia Caulis)은 「건강기능식품의 기준 및 규격」 [별표 5]의 건강기능식품 제조에 사용할 수 없는 원료이다[3].\n\n가장 큰 위험은 같은 '목통' 이름으로 유통된 관목통(등칡)과의 혼동이다[4]. 등칡 추출물에서는 아리스톨로크산 I·II가 추출물 1 g당 2.85 mg·0.50 mg 정량되었다[36]. 관목통이 든 한약을 약 1개월 먹은 41세 남성이 신부전으로 숨진 증례[7], 일본에서 관목통(Kan-mokutsu) 복용 뒤 판코니 증후군이 생긴 두 증례가 보고되었다[8]. 대만 건강보험 자료 분석에서 아리스톨로크산 혼입이 의심되는 '목통(Mu Tong)' 제품의 누적 섭취 200 g 초과는 말기신부전 위험 증가(오즈비 5.82)와 관련되었고[6], 말기신부전 환자 코호트에서 2004년 이전 관목통이 섞인 목통 처방은 요로상피암 위험 증가와 관련되었다[5].\n\n반면 흰쥐에 으름덩굴 4 g/일을 5일 먹인 시험에서는 콩팥 손상이 없었고 연구진은 으름덩굴을 아리스톨로크산이 없는 식물로 보았다[9]. 생쥐 28일 반복 경구 시험에서 으름덩굴의 무독성량은 3.00 g/kg/일보다 높았고 관목통은 0.06 g/kg/일이었다[10]. 알레르기·잔류 농약 등 공공기관 안전 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Akebia saponin D",
+   "name_ko": "아케비아 사포닌 D(아스페로사포닌 VI)",
+   "class": "트리테르펜 사포닌",
+   "role": "marker",
+   "part": "씨앗(70% 에탄올 추출 동결건조물)",
+   "content_text": "9.07 ± 0.33 mg/g(씨앗 추출물, 8개 지표 중 최다)[18]",
+   "activity_ko": "씨앗 품질 관리 지표 8종의 하나로 정량; 단독으로는 암세포 독성이 뚜렷하지 않았다[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Dipsacoside B",
+   "name_ko": "딥사코사이드 B",
+   "class": "트리테르펜 사포닌",
+   "role": "marker",
+   "part": "씨앗(추출물)",
+   "content_text": "7.04 mg/g(씨앗 추출물)[18]",
+   "activity_ko": "5개 사람 암세포주에 세포독성, A549 IC50 11.89 ± 0.23 μM(세포)[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Hederacoside C",
+   "name_ko": "헤데라코사이드 C(칼로파낙스사포닌 B)",
+   "class": "트리테르펜 사포닌",
+   "role": "marker",
+   "part": "열매·씨앗",
+   "content_text": "말린 열매 2.4 kg에서 125.8 mg 분리(분리 수득량)[19]; 씨앗 추출물 지표 8종에 포함(개별 함량은 표에만 있어 확인하지 못함)[18]",
+   "activity_ko": "INS-1 세포 포도당 자극 인슐린 분비를 약하게 늘림(세포)[19]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Hederacolchiside F",
+   "name_ko": "헤데라콜키사이드 F",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "열매·씨앗",
+   "content_text": "말린 열매 2.4 kg에서 11.5 mg 분리(분리 수득량)[19]",
+   "activity_ko": "인슐린 분비 증가 효과는 약했다(세포)[19]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "alpha-Hederin",
+   "name_ko": "α-헤데린",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "씨앗 추출물 지표 8종에 포함(8종 함량 범위 0.42–9.07 mg/g)[18]",
+   "activity_ko": "이 연구 조건에서 뚜렷한 암세포 독성은 없었다[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Akebia saponin PA",
+   "name_ko": "아케비아 사포닌 PA",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "열매(말린 것)",
+   "content_text": "말린 열매 2.4 kg에서 131.0 mg 분리(분리 수득량)[19]",
+   "activity_ko": "10 μM에서 포도당 자극 지수(GSI) 5.41 ± 0.02(세포)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Hederagenin",
+   "name_ko": "헤데라게닌",
+   "class": "트리테르펜(사포게닌)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "말린 열매 2.4 kg에서 75.0 mg 분리(분리 수득량)[19]",
+   "activity_ko": "열매 유래 헤데라게닌 50 mg/kg/일 21일 투여가 흰쥐 알코올 간손상의 염증·세포자멸을 줄임[23]; 줄기 사포게닌으로서 진통·항염(생쥐·흰쥐)[24]",
+   "source": [
+    19,
+    23,
+    24
+   ]
+  },
+  {
+   "name": "Maslinic acid",
+   "name_ko": "마슬린산",
+   "class": "트리테르펜",
+   "role": "bioactive",
+   "part": "열매(말린 것)",
+   "content_text": "말린 열매 2.4 kg에서 108.0 mg 분리(분리 수득량)[19]",
+   "activity_ko": "10 μM에서 GSI 4.20 ± 0.01(세포)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Stigmasterol 3-O-beta-D-glucoside",
+   "name_ko": "스티그마스테롤-3-O-β-D-글루코사이드",
+   "class": "피토스테롤 배당체",
+   "role": "bioactive",
+   "part": "열매(말린 것)",
+   "content_text": "말린 열매 2.4 kg에서 87.8 mg 분리(분리 수득량)[19]",
+   "activity_ko": "10 μM에서 GSI 5.82 ± 0.10으로 글리클라지드(6.22 ± 0.16)와 비슷했고 PDX-1 발현을 높임(세포)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "marker",
+   "part": "잎·열매·씨앗",
+   "content_text": "잎 품질 지표 5종에 포함(함량은 표에만 있어 확인하지 못함)[17]; 열매 추출물에서 HPLC로 확인[20]",
+   "activity_ko": "3T3-L1 지방세포 분화 억제와 AMPK 인산화 증가(세포)[20]",
+   "source": [
+    17,
+    18,
+    20
+   ]
+  },
+  {
+   "name": "Isochlorogenic acid C",
+   "name_ko": "이소클로로겐산 C(4,5-디카페오일퀸산)",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "잎·열매",
+   "content_text": "공주·무주 잎을 가르는 핵심 지표(VIP > 1.5), 무주 시료에서 더 높음[17]",
+   "activity_ko": "지방세포 분화 억제·AMPK 활성화(세포)[20]",
+   "source": [
+    17,
+    20
+   ]
+  },
+  {
+   "name": "Neochlorogenic acid",
+   "name_ko": "네오클로로겐산",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 지표 5종의 하나, 공주·무주 시료 간 함량 차이 유의(p < 0.05)[17]",
+   "activity_ko": "잎 품질 지표 성분; 혈관내피세포 ICAM-1·VCAM-1 억제는 잎 추출물 전체(10 μg/mL)의 결과이며 이 성분 단독 효과는 시험하지 않음(세포)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 지표 5종의 하나, 지역 간 차이 없음(p > 0.05)[17]",
+   "activity_ko": "잎 품질 관리 지표로 선정[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Calceolarioside B",
+   "name_ko": "칼세올라리오사이드 B",
+   "class": "페닐에타노이드 배당체",
+   "role": "bioactive",
+   "part": "부위 원문 미기재(약재 목통 유래로 소개)",
+   "content_text": "으름덩굴에서 분리 보고[26]",
+   "activity_ko": "오미크론 BA.2 스파이크 단백질 결합·세포 진입 억제, IL-6 감소(세포)[27]",
+   "source": [
+    26,
+    27
+   ]
+  },
+  {
+   "name": "Limonene",
+   "name_ko": "리모넨",
+   "class": "모노테르펜(정유)",
+   "role": "bioactive",
+   "part": "열매(말린 것) 정유",
+   "content_text": "열매 정유 주성분(정유 86개 성분, 98.4% 확인)[15]",
+   "activity_ko": "열매 향의 주된 휘발 성분[15]",
+   "source": [
+    15
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Akebia saponin D",
+   "compound_ko": "아케비아 사포닌 D 등 씨앗 지표 8종(클로로겐산·이소클로로겐산 A·C, 헤데라콜키사이드 F, 헤데라코사이드 C, 딥사코사이드 B, α-헤데린)",
+   "part": "씨앗(70% 에탄올 추출 동결건조물)",
+   "content": "8종 0.42–9.07 mg/g; 아케비아 사포닌 D 9.07 ± 0.33 mg/g, 딥사코사이드 B 7.04 mg/g[18]",
+   "method": "UPLC-MS/MS(MRM, ESI 음이온·양이온)",
+   "conditions": {
+    "instrument": "Waters Acquity UPLC I-Class Plus + Xevo TQ-S micro 삼중사중극자 질량분석기(ESI)",
+    "column": "Waters Acquity UPLC BEH C18(130 Å, 2.1 × 100 mm, 1.7 μm, part no. 186002352)",
+    "mobile_phase": "증류수와 아세토니트릴(둘 다 0.1% 포름산)",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "MRM; 음이온 모드(클로로겐산 m/z 352.99→190.94, 이소클로로겐산 C 515.02→172.98, 딥사코사이드 B 1073.52→749.31, 아케비아 사포닌 D 973.41[M+HCOO]→603.23, α-헤데린 749.29→471.22), 양이온 모드(이소클로로겐산 A 517.08→116.96); 12.0분 안에 모두 용출",
+    "injection": "",
+    "sample_prep": "동결건조 추출물 100 mg + 50% 메탄올 10 mL, 초음파 10분·볼텍스 10분 → 클로로겐산·이소클로로겐산 A는 10배, 사포닌류는 100배 희석 → 0.2 μm 여과(추출물: 말린 씨앗 300 g + 70% 에탄올 500 mL 초음파 1시간 × 3회, 수율 7.2%)",
+    "standard": "8종 표준품(1.0 mg/mL 메탄올 원액)",
+    "linearity": "결정계수(r²) ≥ 0.994",
+    "lod": "",
+    "loq": "검량선 최저 농도(S/N ≥ 10)로 설정 — 성분별 값은 표에만 있어 확인하지 못함",
+    "recovery": "90.32–108.18%(표준물 첨가법, RSD < 10.0%)"
+   },
+   "rationale": "연구진은 씨앗 품질 평가 지표로 12개 후보 가운데 실제 검출된 8종을 골랐고, 가장 많은 성분이 아케비아 사포닌 D였다[18]. 기울기·유속·칼럼 온도는 전문 표에만 있어 비워 둠.",
+   "source": [
+    18
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901900/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isochlorogenic acid C",
+   "compound_ko": "이소클로로겐산 C 등 잎 지표 5종(네오클로로겐산·클로로겐산·크립토클로로겐산·루틴)",
+   "part": "잎(공주·무주 채집 14개 시료, 45 °C 3일 건조)",
+   "content": "개별 함량은 전문 표에만 있어 확인하지 못함; 이소클로로겐산 C가 지역 판별 핵심 지표(VIP > 1.5)[17]",
+   "method": "HPLC-DAD(300 nm), 동정은 HPLC-ESI-MS/MS",
+   "conditions": {
+    "instrument": "Shimadzu HPLC + DAD(동정: Shimadzu Prominence HPLC + 삼중사중극자 MS, ESI)",
+    "column": "RStech HECTOR-M C18, 250 × 4.6 mm, 5 μm",
+    "mobile_phase": "A 물(0.1% 포름산), B 아세토니트릴(0.1% 포름산)",
+    "gradient": "0–50분 B 10→30%(LC-MS: 0–100분 10→30%)",
+    "flow": "1 mL/min(LC-MS 0.5 mL/min)",
+    "temp": "30 °C",
+    "detection": "UV 300 nm(DAD 200–400 nm 스캔)",
+    "injection": "",
+    "sample_prep": "건조 잎 분말을 70% 에탄올(80 mL/g)로 280 W 초음파 80분 추출 → 4000 rpm 5분 원심 → 0.22 μm 여과",
+    "standard": "네오클로로겐산·클로로겐산·크립토클로로겐산·루틴·이소클로로겐산 C 표준품(Sigma-Aldrich)",
+    "linearity": "검량선 작성(값은 표에만 있음)",
+    "lod": "0.16–0.62 μg/mL(S/N 3)",
+    "loq": "0.48–1.99 μg/mL(S/N 10)",
+    "recovery": "정확도 97.1–107.2%, 일내·일간 정밀도 RSD 0.2–2.3%·0.6–2.8%"
+   },
+   "rationale": "클로로겐산 유도체와 루틴이 심혈관 보호 활성과 관련되고 잎에 많아 품질 지표로 골랐다[17]. 지문 분석에서 15개 특징 피크 중 11개를 동정했다[17].",
+   "source": [
+    17
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9316754/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산·이소클로로겐산 A·이소클로로겐산 C",
+   "part": "열매(말린 익은 열매 추출물)",
+   "content": "HPLC로 세 성분 함유 확인, 함량은 확인하지 못함[20]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매 추출물과 세 성분 모두 지방세포 분화를 억제하고 AMPK 인산화를 높여 항비만 활성 성분으로 제시되었다[20]. 전문 확인 못함(초록만 확인).",
+   "source": [
+    20
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25835369/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 으름덩굴(Akebia quinata (Houtt.) Dence.): 으름덩굴·으름덩굴열매·으름덩굴과실분말·으름덩굴잎",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 사용불가 행 대조: 으름덩굴줄기·으름덩굴뿌리, 목통줄기(으름덩굴 및 기타 동속 근연식물), 목통(건강기능식품 C코드), 등칡(Aristolochia manshuriensis), 그리고 삼엽으름덩굴(A. trifoliata)·Five-leaf akebia(Akebia x pentaphylla) 행 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 [별표 5] 건강기능식품 제조에 사용할 수 없는 원료 — 목통(木桶): Akebia quinata Decaisne(으름덩굴), 이명 정옹(丁翁)·만년등(萬年藤)·Akebia Stem·Akebia Caulis (로컬 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt)",
+   "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Complexities of the herbal nomenclature system in traditional Chinese medicine (TCM): lessons learned from the misuse of Aristolochia-related species. Phytomedicine. 2007;14(4):273-9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16863692/",
+   "publisher": "Phytomedicine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Increased risk of urinary tract cancer in ESRD patients associated with usage of Chinese herbal products suspected of containing aristolochic acid. PLoS One. 2014;9(8):e105218",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4149424/",
+   "publisher": "PLoS One (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Risks of kidney failure associated with consumption of herbal products containing Mu Tong or Fangchi: a population-based case-control study. Am J Kidney Dis. 2010;55(3):507-18",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20116155/",
+   "publisher": "American Journal of Kidney Diseases (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Fatal renal failure due to the Chinese herb \"GuanMu Tong\" (Aristolochia manshuriensis): autopsy findings and review of literature. Forensic Sci Int. 2010;199(1-3):e5-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20193994/",
+   "publisher": "Forensic Science International (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Chinese herb nephropathy in Japan presents adult-onset Fanconi syndrome: could different components of aristolochic acids cause a different type of Chinese herb nephropathy? Clin Nephrol. 2000;53(4):301-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10809420/",
+   "publisher": "Clinical Nephrology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "The nephrotoxicity of Aristolochia manshuriensis in rats is attributable to its aristolochic acids. Clin Exp Nephrol. 2003;7(3):186-94",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14586714/",
+   "publisher": "Clinical and Experimental Nephrology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Comparative 28-day repeated oral toxicity of Longdan Xieganwan, Akebia trifoliate, Akebia quinata and Caulis aristolochiae manshuriensis in mice. J Ethnopharmacol. 2008;119(1):87-93",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18582552/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Genetical identification of Akebia and Aristolochia species by using Pyrosequencing. J Biotechnol. 2005;120(4):360-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16112220/",
+   "publisher": "Journal of Biotechnology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Difference of ITS sequences of Akebia plants growing in various parts of Japan. J Nat Med. 2009;63(3):368-74",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19277830/",
+   "publisher": "Journal of Natural Medicines (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Molecular characterization of akebia plants and the derived traditional herbal medicine. Biol Pharm Bull. 2009;32(4):665-70",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19336902/",
+   "publisher": "Biological & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Akebia quinata and Akebia trifoliata - a review of phytochemical composition, ethnopharmacological approaches and biological studies. J Ethnopharmacol. 2021;280:114486",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34352331/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Constituents of essential oil from the dried fruits and stems of Akebia quinata (THUNB.) DECNE. J Oleo Sci. 2007;56(2):59-63",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17898464/",
+   "publisher": "Journal of Oleo Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Triterpene glycosides from the stems of Akebia quinata. Chem Pharm Bull (Tokyo). 2007;55(9):1319-24",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17827755/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Phenolic Profile and Fingerprint Analysis of Akebia quinata Leaves Extract with Endothelial Protective Activity. Molecules. 2022;27(14):4636",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9316754/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Simultaneous Component Analysis of Akebia quinata Seeds (Lardizabalaceae) by UPLC-MS/MS for Quality and Cytotoxicity Assessment. Plants (Basel). 2025;14(5):669",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11901900/",
+   "publisher": "Plants (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Bioactive Phytochemicals Isolated from Akebia quinata Enhances Glucose-Stimulated Insulin Secretion by Inducing PDX-1. Plants (Basel). 2020;9(9):1087",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570369/",
+   "publisher": "Plants (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Akebia quinata extract exerts anti-obesity and hypolipidemic effects in high-fat diet-fed mice and 3T3-L1 adipocytes. J Ethnopharmacol. 2015;168:17-24",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25835369/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Effect of Beverage Containing Fermented Akebia quinata Extracts on Alcoholic Hangover. Prev Nutr Food Sci. 2016;21(1):9-13",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4827629/",
+   "publisher": "Preventive Nutrition and Food Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Bioconverted Fruit Extract of Akebia Quinata Exhibits Anti-Obesity Effects in High-Fat Diet-Induced Obese Rats. Nutrients. 2022;14(21):4683",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9656223/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Hederagenin Supplementation Alleviates the Pro-Inflammatory and Apoptotic Response to Alcohol in Rats. Nutrients. 2017;9(1):41",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5295085/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Antinociceptive and anti-inflammatory effects of the saponin and sapogenins obtained from the stem of Akebia quinata. J Med Food. 2005;8(1):78-85",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15857214/",
+   "publisher": "Journal of Medicinal Food (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Structure-activity relationship of oleanane disaccharides isolated from Akebia quinata versus cytotoxicity against cancer cells and NO inhibition. Biol Pharm Bull. 2004;27(5):744-7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15133259/",
+   "publisher": "Biological & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Three new lignan glycosides with IL-6 inhibitory activity from Akebia quinata. Chem Pharm Bull (Tokyo). 2014;62(3):288-93",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24583784/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Calceolarioside B inhibits SARS-CoV-2 Omicron BA.2 variant cell entry and modulates immune response. Virol J. 2024;21(1):329",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11662824/",
+   "publisher": "Virology Journal (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Perianth symmetry in sexually differentiated flowers of Akebia quinata (Lardizabalaceae). PeerJ. 2025;13:e20060",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12449860/",
+   "publisher": "PeerJ (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "The influence of self-pollen deposition on female reproductive success in a self-incompatible plant, Akebia quinata. Front Plant Sci. 2022;13:935217",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9399832/",
+   "publisher": "Frontiers in Plant Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Native fruit tree genetic resources in Japan. Breed Sci. 2016;66(1):82-9",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4780805/",
+   "publisher": "Breeding Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "The complete chloroplast genome of Akebia quinata (Lardizabalaceae) and phylogenetic analysis. Mitochondrial DNA B Resour. 2020;5(3):3023-3024",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7781986/",
+   "publisher": "Mitochondrial DNA Part B (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "[AFLP analysis of three species from Akebia genus]. Zhong Yao Cai. 2013;36(8):1249-52",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24558820/",
+   "publisher": "Zhong Yao Cai (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "[Studies on the medicinal plant in the \"Sambutsu-cho\" of Higo Province possessed by the Kumamoto clan (II): on the medicinal herbs]. Yakushigaku Zasshi. 1993;28(2):63-72",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11639722/",
+   "publisher": "Yakushigaku Zasshi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "First Report of Powdery Mildew (Oidium sp.) on Akebia quinata in Italy. Plant Dis. 2004;88(6):682",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30812603/",
+   "publisher": "Plant Disease (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Ameliorating Effect of Akebia quinata Fruit Extracts on Skin Aging Induced by Advanced Glycation End Products. Nutrients. 2015;7(11):9337-52",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4663606/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "In Vitro and In Vivo Genotoxicity Assessment of Aristolochia manshuriensis Kom. Evid Based Complement Alternat Med. 2012;2012:412736",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3403598/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PubMed Central)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

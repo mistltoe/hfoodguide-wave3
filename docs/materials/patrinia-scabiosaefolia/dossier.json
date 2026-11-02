@@ -1,0 +1,571 @@
+{
+ "slug": "patrinia-scabiosaefolia",
+ "name_ko": "마타리",
+ "name_en": "Golden lace (Dahurian patrinia)",
+ "scientific_name": "Patrinia scabiosaefolia Fisch. ex Link",
+ "aliases": [
+  "마타리순",
+  "가얌취",
+  "패장근(뿌리, 식품원료 사용불가)",
+  "Patrinia scabiosifolia",
+  "Dahurian patrinia",
+  "패장(敗醬, 뚝갈과 공용 약재명)",
+  "Herba Patriniae",
+  "Bai Jiang Cao"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "마타리(Patrinia scabiosaefolia Fisch. ex Link)는 노란 꽃을 피우는 마타리속 여러해살이풀로, 식품의약품안전처 「식품원료 목록」에는 학명이 'Patrinia scabiosaefolia Fisch. ex Link / Patrinia scabiosifolia ex Trevir.', 다른 이름 '가얌취', 영어 이름 Golden lace·Dahurian patrinia로 올라 있다[1]. 같은 학명 아래 원료명 '마타리'와 '마타리순'은 '사용가능'이고 사용 조건은 '사용가능부위 : 순'이어서, 식품원료로 쓸 수 있는 부위는 순(어린순)뿐이다[1]. 같은 목록에서 뿌리를 가리키는 '패장근'은 '사용불가'로 올라 있으므로 마타리 뿌리는 식품원료로 쓸 수 없다[1]. 같은 목록 원자료(2026-10-13 내려받음)에는 원료명 '패장'만으로 된 항목이 없고, 건강기능식품 고시형 원료의 원재료라는 표시도 없다[1].\n\n중국에서는 마타리와 뚝갈(Patrinia villosa) 두 종을 함께 한약재 '패장(敗醬, Herba Patriniae, 바이장차오)'으로 쓰며, 마타리는 트리테르펜 사포닌과 휘발 성분이 많은 쪽으로 정리되어 있다[2]. 동아시아에서는 마타리 전초를 국거리 채소로도 먹는다고 소개된다[5]. 잎에서는 루테올로사이드와 올레아놀산이 HPLC로, 약재에서는 클로로겐산·이소클로로겐산 A·C가 UPLC로 정량되었다[3][7]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통적 이용",
+   "body": "패장은 중국의 『신농본초경』에 중품 약재로 처음 실렸고, 한국의 『동의보감』에도 약효가 적혀 있어 한국에서 400년 넘게 쓰였다고 정리되어 있다[2]. 1977년판 중국약전과 여러 성(省)의 약재 규격은 마타리와 뚝갈 두 종을 모두 패장의 기원 식물로 인정했다[2]. 전통적으로 장옹(맹장염 같은 장의 고름집), 이질·장염, 간염, 산후 복통, 종기 등에 썼고, 율무·부자와 함께 쓰는 '의이부자패장산'은 『금궤요략』의 대표 처방이다[2]. 마타리는 한국과 동아시아 민간에서 급성 맹장염, 궤양성 대장염, 골반 염증 같은 염증 질환에 써 온 약초로 소개된다[24]. \n\n1974년 일본약학회 학술지(Chem Pharm Bull)에 마타리에서 이리도이드 배당체 '파트리노사이드'가 새 화합물로 보고되었다[21]. 1986년에는 마타리 뿌리줄기와 뿌리의 진정·수면 효과에 대한 임상 관찰과 약리 연구가 발표되었으나 초록이 없어 내용은 확인하지 못함[30]. 국내 연구진은 뿌리 메탄올 추출물이 DSS 대장염 생쥐의 증상을 줄이고[22], 100 mg/kg 투여가 급성 췌장염 쥐의 혈청 아밀레이스·리파아제를 낮추며[23], 에틸아세테이트 분획이 대식세포의 NO·IL-6 생성을 억제한다고 보고했다(동물·세포실험)[31]. 중국에서는 에탄올 추출물이 대장암 이식 생쥐의 종양 부피와 종양 내 미세혈관 밀도를 줄였다는 보고가 있다(동물실험)[25]. 국내 식품으로서 마타리순을 언제부터 어떻게 먹어 왔는지는 공공기관 자료에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "마타리는 길가, 풀밭, 덤불, 숲 가장자리와 숲속의 해발 (50–)400–2100(–2600) m에서 자라는 키 30–100(–200) cm의 여러해살이풀이다[2]. 뿌리줄기는 옆으로 또는 비스듬히 뻗고, 줄기는 황록색에서 황갈색이며 때로 연한 자줏빛을 띠고 아래쪽은 거의 털이 없고 위쪽은 짧은 털이 있다[2]. 뿌리잎은 로제트로 모여 나며 달걀꼴·타원꼴로 갈라지지 않거나 깃꼴로 갈라지고 길이 1.8–10.5 cm, 너비 1.2–3 cm이며 꽃이 필 무렵 시든다[2]. 줄기잎은 길이 5–15 cm로 깃꼴로 깊게 갈라지며 곁갈래는 2–5쌍이다[2].\n\n꽃차례는 취산꽃차례가 모인 큰 산방꽃차례이고 곁가지는 5–7쌍이며, 꽃줄기 뒷면에 흰 거친 털이 빽빽하다[2]. 꽃부리는 노란 종 모양이고 통 부분은 약 1.5 × 1.5 mm이며, 꽃은 7–9월, 열매는 9–10월에 맺는다[2]. 시장 표본을 감별한 연구는 마타리의 작은포(소포)가 퇴화한 점과 꽃줄기 뒷면에 털이 빽빽한 점을 확인 형질로 들었다[4]. 분포는 동아시아, 중앙아시아, 북아메리카 서북부로 소개된다[5]. 식물분류에서는 마타리과(Valerianaceae)로 다뤄 왔고[13][20], 최근 문헌에서는 인동과(Caprifoliaceae)로 넓게 묶기도 한다[2][24]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 구분",
+   "body": "가장 가까운 비교 대상은 같은 약재명 '패장'으로 함께 쓰이는 뚝갈(Patrinia villosa)이다[2][3]. 식품원료 목록에서 뚝갈은 '뚝갈잎'이라는 별도 원료(사용가능부위 : 잎)로 올라 있어, 순만 쓸 수 있고 뿌리(패장근)는 쓸 수 없는 마타리와 부위·지위가 다르다[1]. UPLC-QTOF-MS 비교에서 마타리에서는 107개 성분이 확인되었고, 플라보노이드·사포닌·테르페노이드·유기산 비율이 28.46%·32.09%·22.38%·6.79%로 사포닌이 가장 많았다[6]. 잎의 Na·Mg·K·Fe 네 원소 함량을 쓴 주성분분석·군집분석에서도 두 종이 서로 다른 무리로 갈렸다[3].\n\n중국 시장에서 '패장'으로 팔리는 시료 35점을 형태·박층크로마토그래피·DNA로 감별한 연구에서는 마타리, 뚝갈, P. heterophylla, P. monandra 네 종이 확인되었다[4]. 홍콩 약재 시장에서는 마타리속이 아닌 십자화과 말냉이(Thlaspi arvense)가 '패장'으로 잘못 더 많이 유통되며, 대장암 생쥐 실험에서 말냉이 물 추출물은 마타리보다 효과가 약했다[8]. 정리 논문도 다른 속 식물이 패장으로 혼동될 수 있으니 임상 사용에서 가려내야 한다고 적었다[2]. 국내 시장의 혼입 실태는 공공기관 자료에서 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "마타리는 아시아와 북아메리카에서 자라는 산나물이자 약초로 소개된다[9]. 중국에서는 마타리속 약초를 식품이나 보충제로도 쓰기 때문에 여러 성에서 널리 재배한다고 보고되었다[4]. 논문에 쓰인 시료는 중국 여러 성의 시장에서 산 생시료, 중국 보저우의 약재 회사에서 산 건조 약재, 중국 여러 성에서 채집한 잎 등이다[3][4][5]. 러시아 극동(블라디보스토크)의 연구진은 현지에서 얻은 원료로 추출물을 만들어 HPLC-MS로 성분을 확인했다[29].\n\n베이징의 건물 철거지 오염 토양에 마타리를 포함한 여러해살이 관상식물 14종을 섞어 심어 토양 복원 효과를 본 연구가 있어, 관상용으로도 쓰인다[32]. 국내 연구진은 마타리에서 새 엄브라바이러스 후보인 'patrinia mild mottle virus'(유전체 4,214 nt)를 분리해 보고했으나, 재배지 피해 정도는 초록에서 확인하지 못함[28]. 자란 환경·생육 시기·수확 시기에 따라 성분 함량과 약리 활성이 달라진다는 정리가 있어 원료의 산지와 채취 시기를 기록할 필요가 있다[2]. 통계청 농작물생산조사와 농림축산식품부 「특용작물 생산실적」에서 마타리 품목의 국내 재배 면적·생산량은 확인하지 못함. 국내 재배 기술(파종·수확 시기)을 정리한 공공기관 자료도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품원료로는 순만 쓸 수 있다[1]. 동아시아에서는 마타리 전초를 국거리 채소로 쓰고, 중국 일부 지역에서는 마타리속 잎을 잎채소로 먹는다고 소개된다[3][5]. 정리 논문은 패장(두 기원 종)의 연한 줄기와 잎을 산에서 자라는 질 좋은 채소로 소개하고, 후베이·푸젠성에 차 제품이 많다고 적었으나 차의 원료가 어느 종인지는 전문 텍스트에서 확인하지 못함[2]. 다만 이런 먹는 방법이 한국 식품원료 목록의 '순' 조건과 같은 부위인지는 확인하지 못함.\n\n연구용 추출 방법은 다양하다[5][15][16]. 건조 분말을 물과 1:10으로 섞어 65 °C에서 175분 초음파 추출한 물 추출물에서는 72개 성분이 확인되었고 글루콘산(상대 함량 6.57%)이 가장 많았다[5]. 정유에서는 44개 성분(전체의 83.919%)이 확인되었고, 꽃에서 용매로 뽑은 앱솔루트의 수율은 0.105%였다[15][16]. 약재 16배치의 UPLC 지문에서 공통 피크 6개의 유사도는 0.924–1.000이었다[7]. 뿌리 추출물을 비타민나무 잎 추출물과 섞은 조합이 비만 생쥐의 체중 증가를 줄였다는 연구가 있으나, 뿌리는 국내 식품원료로 쓸 수 없다[1][27]. 식약처 「식품 등의 생산실적」에서 마타리 원료 건강기능식품의 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보와 종 확인",
+   "body": "마타리 자체의 엽록체 유전체 길이·구성을 따로 보고한 논문은 이번 PubMed 검색에서 확인하지 못함. 마타리속 감별 연구는 GenBank에 있던 마타리속 엽록체 전체 유전체 9건을 정렬해 변이가 큰 구간 세 곳을 찾았고, 모두 대단일복사(LSC) 구간에 있었다[4]. 이 연구에서 범용 바코드인 ITS2와 psbA-trnH는 종을 잘 가르지 못했고, 엽록체 표적 구간(atpB, petA, rpl2-rpl23, psaI-ycf4)의 염기 차이가 종 구분에 쓸모 있었다[4]. 이 연구의 마타리 참조 증거표본(기준표본(type)이 아님)은 홍콩중문대학 Shiu-Ying Hu 표본관(CUHK)에 수집번호 M. C. Li 083으로 보관되었다[4].\n\n같은 연구의 박층크로마토그래피에서는 같은 마타리라도 산지가 다른 시료 두 점에서 특정 반점이 약하거나 없어, 화학 지문만으로는 개체 차이를 피하기 어렵다고 했다[4]. 중국 하얼빈의 연구는 마타리 표본(PSF2013-1~4)을 따로 보관하고 잎의 원소 조성으로 뚝갈과 구분했다[3]. 마타리에서 분리된 엄브라바이러스 후보의 유전체는 4,214 nt이며 열린 읽기틀 4개를 가진다[28]. 품종 육성이나 국내 등록 품종 정보는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료 목록에서 마타리는 순만 '사용가능'이고 뿌리(패장근)는 '사용불가'이므로, 뿌리나 뿌리 추출물을 식품에 쓰는 것은 이 목록의 조건 밖이다[1]. 건강기능식품 고시형 원료가 아니어서 식약처 고시의 섭취 시 주의사항은 없다[1]. 마타리순의 알레르기·농약 잔류·독성 성분에 대한 공공기관 정보는 확인하지 못함.\n\n두 기원 종을 함께 다룬 정리 논문에 따르면 패장은 통상 용량에서는 거의 독성이 없지만, 많이 먹으면 일시적 백혈구 감소, 어지럼, 메스꺼움 같은 가벼운 부작용이 보고되었고 일부 환자는 입마름·위 불편을 겪었다고 하나, 이 임상 기록이 어느 종에 대한 것인지는 전문 텍스트에서 확인하지 못함[2]. 같은 정리는 사람에게서 부작용이 나타난 용량을 하루 4–12 g으로 적었고, 한 종의 뿌리 메탄올 추출물이 생쥐 혈청 아미노전이효소를 높였다고 했으나 어느 종인지는 전문 텍스트에서 확인하지 못함[2]. 대장암 이식 생쥐에 마타리 에탄올 추출물을 투여한 실험에서는 뚜렷한 부작용이 관찰되지 않았다(동물실험)[26]. 항불안 연구는 독성 평가를 함께 했다고 밝혔으나 초록에 수치가 없어 확인하지 못함[29]. 동물실험에서 마타리 건조 추출물의 항불안·진정 효과가 보고되었고 1986년 뿌리줄기·뿌리의 진정·수면 효과 연구도 있으나[29][30], 약물 상호작용과 사람 대상 임상 안전성 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Oleanolic acid",
+   "name_ko": "올레아놀산",
+   "class": "트리테르펜",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출, HPLC-UV 210 nm로 산지별 정량(마타리·뚝갈 시료를 함께 분석, 산지별 값 표는 전문 텍스트에서 확인하지 못함)[3]",
+   "activity_ko": "패장의 대표 트리테르펜 비당체로 항종양·항균·항바이러스 활성이 보고됨(정리 논문)[2]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Luteoloside",
+   "name_ko": "루테올로사이드(루테올린-7-O-글루코사이드)",
+   "class": "플라보노이드 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 80% 메탄올 추출, HPLC-UV 350 nm로 산지별 정량(값은 확인하지 못함)[3]",
+   "activity_ko": "잎의 Na·Mg·K 함량과 양의 상관을 보인 주요 생리활성 성분으로 정량됨[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "약재(부위는 초록에 없음)",
+   "content_text": "UPLC 지문(16배치)에서 확인·함량 측정 대상 성분(수치는 초록에 없어 확인하지 못함)[7]",
+   "activity_ko": "패장 물 추출물의 라디칼 소거 활성 성분으로 꼽힘(정리 논문)[2]",
+   "source": [
+    2,
+    7
+   ]
+  },
+  {
+   "name": "Isochlorogenic acid A",
+   "name_ko": "이소클로로겐산 A(3,5-디카페오일퀸산)",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "약재(부위는 초록에 없음)",
+   "content_text": "UPLC 지문에서 확인된 3개 피크 가운데 하나(수치는 확인하지 못함)[7]",
+   "activity_ko": "품질 평가 지표 성분으로 쓰임[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Isochlorogenic acid C",
+   "name_ko": "이소클로로겐산 C(4,5-디카페오일퀸산)",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "약재(부위는 초록에 없음)",
+   "content_text": "UPLC 지문에서 확인된 3개 피크 가운데 하나(수치는 확인하지 못함)[7]",
+   "activity_ko": "품질 평가 지표 성분으로 쓰임[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Patrinoside",
+   "name_ko": "파트리노사이드",
+   "class": "이리도이드 배당체",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "1974년 마타리에서 새 이리도이드 배당체로 보고(함량은 확인하지 못함)[21]",
+   "activity_ko": "3T3-L1 지방세포 인슐린 저항성 개선, RAW264.7 세포 NO·TNF-α·IL-6 억제(세포실험)[11]",
+   "source": [
+    11,
+    21
+   ]
+  },
+  {
+   "name": "Patrinoside A",
+   "name_ko": "파트리노사이드 A",
+   "class": "이리도이드 배당체",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "분리 보고(함량은 확인하지 못함)[11]",
+   "activity_ko": "NF-κB·MAPK 경로 억제, ROS 감소(세포실험)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Hederagenin",
+   "name_ko": "헤데라게닌(배당체)",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "지상부·뿌리",
+   "content_text": "지상부에서 헤데라게닌 배당체 사포닌 H3, 뿌리에서 헤데라게닌 배당체 2종 분리(함량은 확인하지 못함)[17][19]",
+   "activity_ko": "헤데라게닌은 항염·항세포자멸 활성이 보고됨(정리 논문)[2]",
+   "source": [
+    2,
+    17,
+    19
+   ]
+  },
+  {
+   "name": "Ursolic acid",
+   "name_ko": "우르솔산(배당체)",
+   "class": "트리테르펜",
+   "role": "bioactive",
+   "part": "씨",
+   "content_text": "씨의 주성분으로 우르솔산·올레아놀산 배당체 3쌍 분리(함량은 확인하지 못함)[18]",
+   "activity_ko": "항산화·항증식 활성이 보고됨(정리 논문)[2]",
+   "source": [
+    2,
+    18
+   ]
+  },
+  {
+   "name": "Patrinolide A",
+   "name_ko": "파트리놀라이드 A",
+   "class": "트리테르펜 락톤",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "한국 연구진이 뿌리에서 새 화합물로 분리(함량은 확인하지 못함)[20]",
+   "activity_ko": "활성은 초록에서 확인하지 못함[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Patriniscabioside A",
+   "name_ko": "파트리니스카비오사이드 A·B",
+   "class": "이리도이드 배당체",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "전초에서 새 이리도이드 배당체 2종으로 분리(함량은 확인하지 못함)[12]",
+   "activity_ko": "분리 화합물 하나가 10 μM에서 NF-κB 경로를 73.44% 억제(리포터 유전자 실험)[12]; 별도 연구에서 마타리 부탄올 분획의 이리도이드 배당체 2종(1종은 새 화합물)은 3T3-L1 지방세포 인슐린 저항성을 개선함[10]",
+   "source": [
+    10,
+    12
+   ]
+  },
+  {
+   "name": "Patrinolide B",
+   "name_ko": "파트리놀라이드 B–D",
+   "class": "트리테르펜",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "전초에서 새 트리테르펜 3종으로 분리(함량은 확인하지 못함)[13]",
+   "activity_ko": "함께 분리된 기지 트리테르펜 하나가 NOS(IC50 10.1 μM)·AChE(IC50 10.0 μM) 억제[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Patriniaol A",
+   "name_ko": "파트리니아올 A",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "전초에서 새 모노테르펜으로 분리(함량은 확인하지 못함)[14]",
+   "activity_ko": "HCT-116 대장암 세포 IC50 42.23 μM(세포실험)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Caryophyllene oxide",
+   "name_ko": "카리오필렌 옥사이드",
+   "class": "세스퀴테르펜(정유)",
+   "role": "bioactive",
+   "part": "정유",
+   "content_text": "정유의 12.802%(GC-MS)[15]",
+   "activity_ko": "정유 전체가 암세포 증식 억제(50–200 μg/mL)와 DPPH 소거(IC50 1.455 mg/mL)를 보임[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Gluconic acid",
+   "name_ko": "글루콘산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "건조 약재 물 추출물",
+   "content_text": "UHPLC-MS 상대 피크 면적 6.57%(검출 성분 중 최고)[5]",
+   "activity_ko": "장 건강과 관련된 성분으로 논의됨(장염 생쥐 연구)[5]",
+   "source": [
+    5
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Luteoloside",
+   "compound_ko": "루테올로사이드",
+   "part": "잎(건조 분말)",
+   "content": "산지별 μg/g 값(Table 4)은 전문 텍스트에서 확인하지 못함[3]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent 1100 series HPLC(G1314A VWD)",
+    "column": "Agilent 역상 TC-C 칼럼(아래첨자 표기가 전문 텍스트에서 빠짐), 4.6 × 250 mm, 5 µm, 같은 회사 보호 칼럼",
+    "mobile_phase": "A: 물-인산(100:0.5), B: 아세토니트릴",
+    "flow": "1 mL/min",
+    "temp": "30 °C",
+    "injection": "20 µL",
+    "lod": "",
+    "loq": "",
+    "gradient": "등용매 B 17%",
+    "detection": "UV 350 nm",
+    "sample_prep": "잎 분말 약 2 g + 80% 메탄올 50 mL, 1시간 환류 2회 → 여과·건고 → 메탄올 10 mL 정용 → 0.45 µm 막 여과",
+    "standard": "루테올로사이드 표준품, 메탄올 원액 40.0 μg/mL",
+    "linearity": "2–40 μg/mL(0.04–0.8 μg), r = 0.9999, n = 6; 일내 변동계수 0.16%",
+    "recovery": "평균 102.47%(RSD 1.71%, 표준첨가법)"
+   },
+   "rationale": "마타리(표본 PSF2013-1~4)와 뚝갈 잎의 주요 생리활성 성분 2종 가운데 하나로 골라 원소 조성과의 상관을 보려고 정량했다[3]. 식품원료 사용 부위(순)가 아닌 잎을 분석했고, 검출·정량한계는 본문에 없어 비워 둠. 분석법은 마타리와 뚝갈 시료에 공통으로 썼다.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4621645/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Oleanolic acid",
+   "compound_ko": "올레아놀산",
+   "part": "잎(건조 분말)",
+   "content": "산지별 μg/g 값(Table 4)은 전문 텍스트에서 확인하지 못함[3]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent 1100 series HPLC(G1314A VWD)",
+    "column": "Agilent 역상 TC-C 칼럼(아래첨자 표기가 전문 텍스트에서 빠짐), 4.6 × 250 mm, 5 µm, 같은 회사 보호 칼럼",
+    "mobile_phase": "A: 물-인산(100:0.5), B: 아세토니트릴",
+    "flow": "1 mL/min",
+    "temp": "30 °C",
+    "injection": "20 µL",
+    "lod": "",
+    "loq": "",
+    "gradient": "등용매 B 73%",
+    "detection": "UV 210 nm",
+    "sample_prep": "잎 분말 약 2 g + 에탄올 25 mL, 2시간 환류 2회 → 여과·건고 → 메탄올 10 mL 정용 → 0.45 µm 막 여과",
+    "standard": "올레아놀산 표준품, 메탄올 원액 50.0 μg/mL(검량 범위는 본문에 '0.3–6.0 mg/mL'로 적힘)",
+    "linearity": "0.6–12.0 μg, r = 0.9998, n = 6; 일내 변동계수 0.18%",
+    "recovery": "평균 101.05%(RSD 1.62%, 표준첨가법)"
+   },
+   "rationale": "루테올로사이드와 함께 패장(마타리·뚝갈)의 주요 생리활성 성분 2종 가운데 하나로 골라 원소 조성과의 상관을 보려고 정량했다[3]. 분석법은 마타리(PSF2013-1~4)와 뚝갈 시료에 공통으로 썼고, 원액 농도(μg/mL)와 검량 범위(mg/mL) 단위가 원문에서 서로 맞지 않아 그대로 옮김.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4621645/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산",
+   "part": "약재(16배치, 부위는 초록에 없음)",
+   "content": "초록에 수치 없음 — 확인하지 못함[7]",
+   "method": "UPLC(지문 + 다성분 함량 측정)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "마타리 품질 평가법으로 16배치의 UPLC 지문을 만들고 확인된 3개 피크(클로로겐산·이소클로로겐산 A·C)를 함량 측정에 썼다[7]. 전문 확인 못함(PMC 전문 없음) — 분석 조건 칸은 비워 둠.",
+   "source": [
+    7
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38070780/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 마타리·마타리순·패장근(Patrinia scabiosaefolia) 항목(로컬 원자료 I1020_20261013.json 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "The Herba Patriniae (Caprifoliaceae): A review on traditional uses, phytochemistry, pharmacology and quality control. J Ethnopharmacol. 2020;265:113264 (doi:10.1016/j.jep.2020.113264)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7443212/",
+   "publisher": "Elsevier (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Species classification and bioactive ingredients accumulation of BaiJiangCao based on characteristic inorganic elements analysis by ICP-MS and multivariate analysis. Pharmacogn Mag. 2015;11(44):756-63 (doi:10.4103/0973-1296.165577)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4621645/",
+   "publisher": "Wolters Kluwer Medknow (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "A systematic approach for authentication of medicinal Patrinia species using an integration of morphological, chemical and molecular methods. Sci Rep. 2024;14:6566 (doi:10.1038/s41598-024-57115-w)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10951358/",
+   "publisher": "Springer Nature (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Patrinia scabiosaefolia L. Modulates the Intestinal Microecology to Treat DSS-Induced Ulcerative Colitis: UHPLC-OE-MS/MS, Network Pharmacology, and Experimental Validation. Foods. 2025;14(7):1145 (doi:10.3390/foods14071145)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11988699/",
+   "publisher": "MDPI (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Two Species Origins Comparison of Herba Patriniae Based on Their Ingredients Profile by UPLC-QTOF/MS/MS and OPLS-DA. Chem Biodivers. 2022;19(9):e202100961 (doi:10.1002/cbdv.202100961) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35979749/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Hepatoprotective activity of Patrinia scabiosaefolia Fisch and quality evaluation based on UPLC fingerprint and multi-component analysis. Fitoterapia. 2023;173:105771 (doi:10.1016/j.fitote.2023.105771) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38070780/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "\"Bai Jiang Cao\" for treatment of colon cancer - comparison between Patrinia scabiosaefolia Link and the misused species Thlaspi arvense L. J Ethnopharmacol. 2025;353:120454 (doi:10.1016/j.jep.2025.120454) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40840726/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "New iridoids from Patrinia scabiosaefolia and their hypoglycemic effects by activating PI3K/Akt signaling pathway. Fitoterapia. 2023;165:105423 (doi:10.1016/j.fitote.2022.105423) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36608711/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Effects and mechanisms of iridoid glycosides from Patrinia scabiosaefolia on improving insulin resistance in 3T3-L1 adipocytes. Food Chem Toxicol. 2019;134:110806 (doi:10.1016/j.fct.2019.110806) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31521635/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Patrinoside and Patrinoside A from Patrinia scabiosaefolia Improve Insulin Resistance by Inhibiting NF-κB, MAPK Pathways and Oxidative Stress in RAW264.7 and 3T3-L1 Cells. Oxid Med Cell Longev. 2023;2023:9069645 (doi:10.1155/2023/9069645) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36733419/",
+   "publisher": "Hindawi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Two New Iridoid Glucosides from the Whole Plant of Patrinia scabiosa Link. Molecules. 2021;26(14):4201 (doi:10.3390/molecules26144201) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34299477/",
+   "publisher": "MDPI (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Triterpenoids and iridoids from Patrinia scabiosaefolia. Fitoterapia. 2017;119:130-135 (doi:10.1016/j.fitote.2017.04.011) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28456554/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Lignans, Monoterpenes and γ-Pyrone Derivatives from Patrinia scabiosifolia with Cytotoxic Activity against HCT-116 Cells. Chem Biodivers. 2020;17(10):e2000397 (doi:10.1002/cbdv.202000397) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32743961/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Chemical Composition, Anticancer, Anti-neuroinflammatory, and Antioxidant Activities of the Essential Oil of Patrinia scabiosaefolia. Chin J Integr Med. 2018;24(3):207-212 (doi:10.1007/s11655-016-2459-4) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27586471/",
+   "publisher": "Springer (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Chemical Composition of Patrinia scabiosifolia Flower Absolute and Its Migratory and Proliferative Activities in Human Keratinocytes. Chem Biodivers. 2019;16(8):e1900252 (doi:10.1002/cbdv.201900252) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31250551/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "A triterpenoid saponin from Patrinia scabiosaefolia. J Nat Prod. 1997;60(10):1060-2 (doi:10.1021/np970175v) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9358650/",
+   "publisher": "American Chemical Society (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Phytochemical studies of seeds of medicinal plants. III. Ursolic acid and oleanolic acid glycosides from seeds of Patrinia scabiosaefolia Fischer. Chem Pharm Bull (Tokyo). 1993;41(1):183-6 (doi:10.1248/cpb.41.183) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8448818/",
+   "publisher": "The Pharmaceutical Society of Japan (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Triterpenoid Glycosides from the Roots of Patrinia scabiosaefolia. Planta Med. 1987;53(1):62-5 (doi:10.1055/s-2006-962622) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17268965/",
+   "publisher": "Thieme (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "A new triterpene lactone from the roots of Patrinia scabiosaefolia. Arch Pharm Res. 2001;24(5):416-7 (doi:10.1007/BF02975186) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11693542/",
+   "publisher": "Pharmaceutical Society of Korea (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Letter: Patrinoside, a new iridoid glycoside from Patrinia scabiosaefolia. Chem Pharm Bull (Tokyo). 1974;22(8):1935-7 (doi:10.1248/cpb.22.1935) — 서지 정보만(초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4430045/",
+   "publisher": "The Pharmaceutical Society of Japan (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Anti-inflammatory effects of methanol extract of Patrinia scabiosaefolia in mice with ulcerative colitis. J Ethnopharmacol. 2010;136(3):428-35 (doi:10.1016/j.jep.2010.04.047) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20573566/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Inhibitory effect of Patrinia scabiosaefolia on acute pancreatitis. World J Gastroenterol. 2006;12(7):1110-4 (doi:10.3748/wjg.v12.i7.1110) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16534854/",
+   "publisher": "Baishideng (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Inhibitory effect of Patrinia scabiosifolia Link on the development of atopic dermatitis-like lesions in human keratinocytes and NC/Nga mice. J Ethnopharmacol. 2017;206:135-143 (doi:10.1016/j.jep.2017.03.045) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28347830/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Patrinia scabiosaefolia inhibits colorectal cancer growth through suppression of tumor angiogenesis. Oncol Rep. 2013;30(3):1439-43 (doi:10.3892/or.2013.2582) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23820929/",
+   "publisher": "Spandidos (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Patrinia scabiosaefolia induces mitochondrial-dependent apoptosis in a mouse model of colorectal cancer. Oncol Rep. 2013;30(2):897-903 (doi:10.3892/or.2013.2528) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23754194/",
+   "publisher": "Spandidos (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Antiobesity effects of the combination of Patrinia scabiosaefolia root and Hippophae rhamnoides leaf extracts. J Food Biochem. 2020;44(6):e13214 (doi:10.1111/jfbc.13214) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32232876/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Complete genome sequence of a tentative new umbravirus isolated from Patrinia scabiosaefolia. Arch Virol. 2019;164(9):2375-2378 (doi:10.1007/s00705-019-04312-y) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31183555/",
+   "publisher": "Springer (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Evaluation of the anxiolytic activity of dry extract of Patrinia scabiosifolia under acoustic stress. Eur Rev Med Pharmacol Sci. 2023;27(24):11701-11712 (doi:10.26355/eurrev_202312_34767) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38164833/",
+   "publisher": "Verduci (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Clinical observation and pharmacological investigation of the sedative and hypnotic effects of the Chinese drug rhizome and root of Patrinia scabiosaefolia Fisch. J Tradit Chin Med. 1986;6(2):89-94 — 서지 정보만(초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3773563/",
+   "publisher": "Journal of Traditional Chinese Medicine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Inhibition of LPS-induced inflammatory biomarkers by ethyl acetate fraction of Patrinia scabiosaefolia through suppression of NF-κB activation in RAW 264.7 cells. Immunopharmacol Immunotoxicol. 2012;34(2):282-91 (doi:10.3109/08923973.2011.602412) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21854107/",
+   "publisher": "Taylor & Francis (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Microbial perspective on restoration of degraded urban soil using ornamental plants. J Environ Manage. 2024 (doi:10.1016/j.jenvman.2024.120920) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38688130/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

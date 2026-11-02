@@ -1,0 +1,646 @@
+{
+ "slug": "pachyrhizus-erosus",
+ "name_ko": "Jicama덩이",
+ "name_en": "Jicama (yam bean, Mexican turnip)",
+ "scientific_name": "Pachyrhizus erosus (L.) Urb.",
+ "aliases": [
+  "Jicama덩이뿌리",
+  "건Jicama덩이뿌리",
+  "jicama",
+  "yam bean",
+  "Mexican turnip",
+  "히카마"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "Jicama(Pachyrhizus erosus)는 콩과(Fabaceae) Pachyrhizus속의 덩굴성 여러해살이 식물로, 영어로는 jicama, yam bean, Mexican turnip이라고 부른다[1, 12]. 식약처 「식품원료 목록」에는 'Jicama덩이뿌리'와 '건Jicama덩이뿌리' 두 원료명으로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 덩이뿌리'다[1]. 곧 식품원료로 쓸 수 있는 부위는 덩이뿌리뿐이며, 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n먹는 부위인 덩이뿌리는 생으로 라임·고추와 곁들이거나 샐러드·수프에 넣어 먹는다[2]. 덩이뿌리 고형분의 주된 탄수화물은 전분이고, 이눌린·니스토스 같은 프락토올리고당과 펙틴도 함께 들어 있다[3]. 반면 씨앗에는 살충 성분인 로테논이 있어 그대로 먹을 수 없는 부위로 정리된다[12]. 멕시코 시장에서 산 덩이뿌리를 분석한 연구에서는 과육과 껍질 어디에서도 로테논이 검출되지 않았다[2]. 국내 생산 통계와 국가표준식품성분표 값은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "내력과 이용의 역사",
+   "body": "이 종은 중앙아메리카와 멕시코의 반건조 열대 지역에서 기원했고, 이후 필리핀·인도네시아·말레이시아·베트남·태국·대만·중국·인도 등으로 재배가 퍼졌다[12]. 멕시코에서는 콜럼버스 이전 시기부터 덩이뿌리를 먹으려고 재배해 왔고, 씨앗은 진드기·해충을 막는 성질로 알려져 왔다[30]. 종설은 이 작물이 최근 한국에도 들어왔고, 높은 영양가와 질소 고정 능력 때문에 아프리카 여러 나라에도 식량 보완 목적으로 도입되었다고 적는다[12].\n\n대만 남부에서는 덩이뿌리가 흔한 식품이지만 씨앗은 거의 먹지 않는다고 보고되었다[5]. 태국 북부에서도 널리 재배되며, 덩이뿌리를 뺀 성숙 꼬투리·씨앗·잎은 독성이 있다는 사실이 지역에서 알려져 있다[6]. 태국에서는 이 종이 구아바와 함께 흔히 먹는 작물로 소개되었다[20]. 일본에서 태국 민간약 'Kwao Keur'로 표시된 건강보조제를 DNA로 조사했을 때 일부 제품에서 원래 원료가 아닌 이 종의 서열이 나왔다[18]. 학계에서는 이 속의 작물을 연구 투자가 적은 '고아 작물'로 부른다[11]."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징",
+   "body": "따뜻하고 습한 열대 기후에서 해발 0–1400 m에 자라며, 알맞은 기온은 20–28 °C, 연 강수량은 약 1500 mm 안팎이다[12]. 덩이뿌리에서 해마다 2–6 m 길이의 줄기가 뻗고, 덩이뿌리는 최대 20 kg까지 자란다고 보고되었다[12]. 잎은 짙은 녹색의 겹잎이고, 꽃은 길이 1–2.5 cm의 양성화로 스스로 꽃가루받이를 하며, 파종 뒤 58–68일에 피기 시작해 92–103일 동안 이어진다[12]. 꼬투리는 6–13 cm × 8–17 mm이고, 씨앗은 올리브 녹색에서 갈색·적갈색을 띠며 납작한 네모꼴에서 둥근꼴이다[12].\n\nPachyrhizus속 작물은 주로 제꽃가루받이를 하며 타가수분율은 보통 2–4%다[11]. 뿌리혹에서 분리한 균주로 Bradyrhizobium pachyrhizi와 B. jicamae 두 신종이 기재되었고, 이 균주들은 콩에는 뿌리혹을 만들지 못했다[14]. 멕시코 과나후아토에서 키운 두 상업 계통의 덩이뿌리는 하루 0.069·0.072 cm씩 굵어져 최종 지름이 12.7·12.3 cm였다[3]. 같은 연구에서 덩이뿌리 전분은 생육 후반으로 갈수록 늘어 건물 기준 42.7–43.7%에 이르렀다[3]. 덩이뿌리와 껍질의 에틸아세테이트 분획에서는 플라보노이드 21종, 페놀류 6종, 쿠마린 2종, 리그난 1종 등 30가지 성분이 확인되었다[21]. 비식용 부위인 씨앗에서는 새로운 12-nor-로테노이드 등 여러 로테노이드와 29 kDa 리보솜 불활성화 단백질(pachyerosin)이 분리되었다[17, 26]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동 주의",
+   "body": "Pachyrhizus속은 5종으로, 야생종 P. ferrugineus·P. panamensis와 재배종 P. ahipa·P. erosus·P. tuberosus로 이루어진다[11]. 식약처 「식품원료 목록」에 이 속으로 올라 있는 원료는 P. erosus의 덩이뿌리 두 건(생·건)뿐이다[1]. 페루 안데스의 재배 계통을 분석한 연구는 안데스형과 아마존형 재래종이 뚜렷이 다른 두 계통으로 나뉜다고 보고하며 분류 재검토가 필요하다고 했다[13].\n\n근연종 자료는 이 종과 섞지 않아야 한다[25, 27]. 예를 들어 P. tuberosus 씨앗의 제니스테인 250 µg/g, 로테노이드·파키리진 분리 결과는 다른 종의 값이다[25, 27]. 영어 이름이 비슷한 African yam bean은 Sphenostylis stenocarpa로 아예 다른 속의 콩과 작물이므로 그 영양·가공 자료를 이 종에 옮기면 안 된다[19]. 태국 민간약 'Kwao Keur'의 원식물은 Pueraria candollei var. mirifica인데, 이 이름으로 팔린 일부 제품에서 이 종의 DNA가 확인되어 원료 혼입 사례로 보고되었다[18]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 수확",
+   "body": "Pachyrhizus속 작물은 덩이뿌리를 얻으려고 키우지만 번식은 씨앗으로만 한다[11]. 농가는 덩이뿌리 비대를 돕기 위해 꽃봉오리를 따 주고, 포기마다 꼬투리 하나만 남기거나 씨받이용 포기를 따로 고른다[11]. 멕시코 과나후아토의 상업 재배 예에서는 씨앗을 ha당 30 kg, 20 cm 간격으로 한 알씩 심고, 계절에 따라 10–12회 물을 대며 비료 없이 첫 3개월 동안 손 김매기를 두 번 하고 화학적으로 꽃을 제거했다[3]. 이 연구는 파종 뒤 106·127·160·190일에 덩이뿌리를 수확해 성분 변화를 비교했다[3].\n\n질소를 고정하는 콩과 작물이어서 지속 가능한 농업과 식량 보완 측면에서 주목받는다[12]. 페루 시험 포장에서는 2010년 새로운 포티바이러스인 Yam bean mosaic virus가 보고되었다[15]. 씨앗 추출물은 배추좀나방의 산란을 억제해 천연 해충 방제 소재로 시험되기도 했다[24]. 수확한 덩이뿌리는 약 12.5–13 °C에서 4주 넘게 좋은 상태를 유지했고, 0 °C에서는 1주 안에 부패가 나타났다는 선행 연구가 정리되어 있다[2]. 국내 재배 면적·생산량 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "덩이뿌리는 껍질을 벗겨 생으로 먹거나 익혀 먹고, 썰어 52 °C에서 8–12시간 말리면 밀폐 용기에서 상온 1년까지 보관할 수 있다고 정리되어 있다[2]. 식약처 목록에는 생 덩이뿌리와 함께 말린 '건Jicama덩이뿌리'도 따로 올라 있다[1]. 덩이뿌리를 3개월 냉동하면 껍질의 이소플라본 함량이 생것의 절반 수준으로 줄고 항산화력도 떨어졌다[2]. 덩이뿌리 전분은 식품 안정제·식감 개선제, 먹을 수 있는 코팅, 생분해 포장재 원료로 연구되지만 대규모 이용은 아직 적다[22].\n\n건강 관련 연구로는 건강한 성인 30명을 무작위로 나눈 시험에서 덩이뿌리 즙 500 mL를 마신 뒤 혈중 질산염·아질산염이 오르고 콜라겐 유도 혈소판 응집이 줄었다는 보고가 있다[20]. 시험관 소화 실험에서는 덩이뿌리의 추정 혈당지수가 25 미만으로 낮게 나왔고, 쌀밥에 섞으면 추정 혈당지수가 53.07로 낮아졌다[3, 28]. 다만 이들은 단기·소규모이거나 시험관 결과여서 효능을 단정할 근거는 아니다[12]. 씨앗을 식품으로 쓰려고 건조·볶기 등으로 로테논을 최대 80%까지 줄인 연구가 있으나, 종설은 아직 안전한 수준에 이르지 못해 씨앗 이용은 매우 제한적이라고 정리한다[12, 23]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 육종",
+   "body": "이 속의 유전 연구 도구로 핵 마이크로새틀라이트(SSR) 표지 17개가 개발되었고, 모두 속 안의 다른 종에서도 증폭되었다[11]. 이 표지들의 대립유전자 수는 3–12개, 기대 이형접합도는 0.095–0.831로 종과 품종군을 구별할 만큼 다형성이 높았다[11]. 엽록체 DNA와 SSR을 함께 쓴 연구는 재래종이 환경에 따라 다른 생태형으로 분화했다는 결과를 냈다[13].\n\n육종 쪽에서는 씨앗의 독성 폴리페놀인 파키리진과 로테논을 빠르게 정량하는 UHPLC 방법을 검증하고, 100개가 넘는 계통·재배지·수확 시기 시료를 분석해 두 성분이 적은 유전자형을 골라냈다[4]. 이 종과 공생하는 뿌리혹세균 B. pachyrhizi PAC48T의 초안 유전체는 B. elkanii와 매우 비슷했다[29]. 페루의 바이러스 병징 시료에서는 small RNA 서열 분석으로 Yam bean mosaic virus 전장 유전체가 조립되었다[15]. 이 종 자체의 전장 유전체 해독 결과는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 이 종의 사용 부위는 덩이뿌리로 한정되어 있다[1]. 씨앗·잎·줄기에는 로테논을 비롯한 살충 성분(로테노이드)이 들어 있어 먹어서는 안 되는 부위다[2, 12]. 실제로 대만·태국 등에서 씨앗을 음식으로 잘못 먹고 중독된 사례가 여러 차례 보고되었다[5–9]. 따라서 꼬투리나 씨앗을 콩처럼 조리해 먹지 말아야 한다[6, 12].\n\n먹는 부위인 덩이뿌리에서는 과육과 껍질 모두 로테논이 검출되지 않았다[2]. 멕시코에서는 덩이뿌리를 먹은 뒤 입술·입천장·목이 가려운 구강알레르기증후군 10례가 보고되었고, 환자는 모두 알레르기비염이 있었다[10]. 식약처 등 공공기관이 이 종에 대해 따로 낸 섭취 주의 정보는 이번 조사에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Inulin",
+   "name_ko": "이눌린",
+   "class": "프럭탄(프락토올리고당·다당)",
+   "role": "nutrient",
+   "part": "덩이뿌리",
+   "content_text": "파종 106일 덩이뿌리 건물 기준 13.4% ± 0.7%(YS 계통)·8.4% ± 0.2%(PS 계통), 190일에는 5.1%·3.1%로 감소[3]",
+   "activity_ko": "프리바이오틱 식이섬유로 주목되며, 덩이뿌리 추정 혈당지수가 낮은 이유의 하나로 제시됨[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Nystose",
+   "name_ko": "니스토스",
+   "class": "프락토올리고당",
+   "role": "nutrient",
+   "part": "덩이뿌리",
+   "content_text": "파종 106일 건물 기준 15.8% ± 0.9%(YS)·18.5% ± 0.1%(PS)[3]",
+   "activity_ko": "포도당 1개와 과당 3개로 된 프락토올리고당으로 HPLC로 처음 확인됨[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Starch",
+   "name_ko": "전분",
+   "class": "다당",
+   "role": "nutrient",
+   "part": "덩이뿌리",
+   "content_text": "건물 기준 34.8%(YS, 106일)→42.7%(190일), 31.4%(PS, 106일)→43.7%(190일)[3]",
+   "activity_ko": "덩이뿌리 고형분의 주된 탄수화물이며 식품 안정제·코팅·포장재 원료로 연구됨[3, 22]",
+   "source": [
+    3,
+    22
+   ]
+  },
+  {
+   "name": "Biochanin A",
+   "name_ko": "바이오카닌 A",
+   "class": "이소플라본",
+   "role": "bioactive",
+   "part": "덩이뿌리 껍질",
+   "content_text": "생 껍질 52.5 ± 6.2 mg/100 g(건물), 3개월 냉동 후 25.9, 4개월 후 15.6; 과육에서는 불검출[2]",
+   "activity_ko": "이 종 덩이뿌리에서 처음 보고된 이소플라본으로, 껍질 추출물의 세포 실험 활성과 함께 보고됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Daidzein",
+   "name_ko": "다이드제인",
+   "class": "이소플라본",
+   "role": "bioactive",
+   "part": "덩이뿌리(껍질·과육)",
+   "content_text": "생 껍질 23.0 ± 2.0, 생 과육 2.2 ± 1.0 mg/100 g(건물)[2]",
+   "activity_ko": "덩이뿌리에서 분리된 대표 이소플라본으로 시험관 항산화 활성이 보고됨[2, 12]",
+   "source": [
+    2,
+    12
+   ]
+  },
+  {
+   "name": "Genistein",
+   "name_ko": "제니스테인",
+   "class": "이소플라본",
+   "role": "bioactive",
+   "part": "덩이뿌리 껍질",
+   "content_text": "생 껍질 2.6 ± 0.6 mg/100 g(건물), 과육 불검출[2]",
+   "activity_ko": "콩 이소플라본과 같은 성분이나 이 종 덩이뿌리 함량은 낮음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "덩이뿌리(껍질·과육)",
+   "content_text": "생 과육 70.3 ± 1.4, 생 껍질 61.7 ± 5.1 mg/100 g(건물); 4개월 냉동 후 과육 16.1[2]",
+   "activity_ko": "덩이뿌리에서 처음 정량된 페놀산으로 항산화력과 관련됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Isochlorogenic acid",
+   "name_ko": "이소클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "덩이뿌리 껍질",
+   "content_text": "생 껍질 95.8 ± 3.8 mg/100 g(건물), 냉동 시료에서는 불검출[2]",
+   "activity_ko": "껍질에 많은 페놀산으로 냉동 보관 중 사라짐[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Caffeic acid",
+   "name_ko": "카페산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "덩이뿌리 과육",
+   "content_text": "생 과육 44.2 ± 3.7 mg/100 g(건물), 껍질·냉동 시료 불검출[2]",
+   "activity_ko": "과육의 페놀산으로 항산화 활성에 기여하는 성분으로 보고됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "비타민 C(아스코브산)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "덩이뿌리",
+   "content_text": "생 덩이뿌리 14 ± 0.1 mg/100 g(종설 재인용)[12]",
+   "activity_ko": "덩이뿌리의 대표 비타민[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Kaikasaponin III",
+   "name_ko": "카이카사포닌 III",
+   "class": "트라이터페노이드 배당체",
+   "role": "bioactive",
+   "part": "덩이뿌리(껍질·과육)",
+   "content_text": "덩이뿌리에서 분리 보고, 함량은 확인하지 못함[12]",
+   "activity_ko": "덩이뿌리에서 이소플라본과 함께 분리된 사포닌[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Rotenone",
+   "name_ko": "로테논",
+   "class": "로테노이드(이소플라보노이드)",
+   "role": "bioactive",
+   "part": "씨앗(비식용 부위)",
+   "content_text": "씨앗 0.58 mg/g 미만~3.53 mg/g(100여 시료)[4]; 덩이뿌리 과육·껍질 불검출(검출한계 0.02 mg/mL)[2]",
+   "activity_ko": "살충 성분으로 씨앗·잎·줄기를 먹으면 안 되는 이유이며, 식용 부위인 덩이뿌리에서는 검출되지 않음[2, 12]",
+   "source": [
+    4,
+    2,
+    12
+   ]
+  },
+  {
+   "name": "Pachyrrhizine",
+   "name_ko": "파키리진",
+   "class": "페닐퓨라노쿠마린",
+   "role": "bioactive",
+   "part": "씨앗(비식용 부위)",
+   "content_text": "씨앗 0.25 mg/g 미만~3.29 mg/g[4]",
+   "activity_ko": "로테논과 함께 씨앗의 독성 폴리페놀로 분류되어 육종 선발 지표로 정량됨[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Erosusone",
+   "name_ko": "에로수손",
+   "class": "프레닐화 칼콘",
+   "role": "bioactive",
+   "part": "잎(비식용 부위)",
+   "content_text": "베트남산 잎 메탄올 추출물에서 새로 분리, 함량 확인하지 못함[16]",
+   "activity_ko": "암세포주 3종에 IC50 22.04–45.03 µM 범위의 세포독성(시험관 결과)[16]",
+   "source": [
+    16
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Isoflavones (biochanin A, daidzein, genistein) and phenolic acids",
+   "compound_ko": "이소플라본(바이오카닌 A·다이드제인·제니스테인)과 페놀산",
+   "part": "덩이뿌리(껍질·과육)",
+   "content": "생 껍질 바이오카닌 A 52.5, 다이드제인 23.0, 제니스테인 2.6 mg/100 g(건물); 생 과육 다이드제인 2.2, 클로로겐산 70.3 mg/100 g(건물)[2]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Dionex HPLC, PDA 100 UV-VIS 검출기",
+    "column": "Hypersil Gold C18 (5 μm, 250 × 4.6 mm, Thermo)",
+    "mobile_phase": "A: 1% 폼산 수용액, B: 아세토나이트릴",
+    "gradient": "B 5–60%, 60분",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "254·285 nm",
+    "injection": "",
+    "sample_prep": "멕시코 시장산 덩이뿌리를 껍질·과육으로 나눠(생, −20 °C 3·4개월 냉동) 메탄올 속슬렛 3시간 추출",
+    "standard": "biochanin A·daidzein·formononetin·genistein·glycitein·ononin 및 페놀산 11종 표준품(Fluka), 머무름 시간·UV 스펙트럼 비교",
+    "linearity": "표준 검량선 0.06–1.00 mg/mL",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "덩이뿌리(식용 부위)의 이소플라본·페놀산을 껍질과 과육으로 나눠 정량한 연구로, 보관 중 성분 변화를 보는 지표로 쓰였다[2]. 전문(Methods) 확인 — 칼럼 온도·주입량·검출·정량한계·회수율은 본문에 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12165963/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Inulin (and nystose, sucrose, glucose, fructose)",
+   "compound_ko": "이눌린(니스토스·자당·포도당·과당 동시 분석)",
+   "part": "덩이뿌리",
+   "content": "파종 106일 건물 기준 이눌린 13.4% ± 0.7%(YS)·8.4% ± 0.2%(PS), 니스토스 15.8% ± 0.9%(YS)·18.5% ± 0.1%(PS)[3]",
+   "method": "HPLC-RID",
+   "conditions": {
+    "instrument": "Agilent 1200 Infinity 4원 펌프, 굴절률 검출기(RID 1260, Agilent)",
+    "column": "Hamilton Ca 칼럼 (7.8 × 305 mm, 8 µm, 79436)",
+    "mobile_phase": "물",
+    "gradient": "등용매",
+    "flow": "0.4 mL/min",
+    "temp": "칼럼 85 °C, 검출기 55 °C",
+    "detection": "굴절률(RI)",
+    "injection": "20 µL",
+    "sample_prep": "덩이뿌리 2 mm 절편을 30 °C 72시간 건조·분쇄(0.5 mm 체); 건조 시료 0.5 g을 60 °C 물 40 mL에 풀고(pH 6.5–8 유지) 50 mL로 정용 → 1,008 ×g 10분 원심 → 상등액 0.45 µm·0.2 µm 나일론 필터 여과",
+    "standard": "치커리 이눌린(Sigma-Aldrich)·과당·포도당·자당 표준품 10 mg/mL",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "덩이뿌리의 프리바이오틱 탄수화물인 이눌린·프락토올리고당을 HPLC로 처음 정량한 방법으로, 생육 단계에 따른 함량 변화를 추적하는 데 쓰였다[3]. 전문(Methods) 확인 — 머무름 시간은 이눌린 11.9분, 니스토스 12.7분이며 검출·정량한계·회수율은 본문에 없음[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007308/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rotenone",
+   "compound_ko": "로테논",
+   "part": "덩이뿌리(껍질·과육)",
+   "content": "덩이뿌리 껍질·과육 모두 불검출[2]",
+   "method": "HPLC-UV(PDA)",
+   "conditions": {
+    "instrument": "Dionex HPLC, PDA 100 UV-VIS 검출기(이소플라본 분석과 같은 장비)",
+    "column": "Hypersil Gold C18 (5 μm, 250 × 4.6 mm, Thermo)",
+    "mobile_phase": "물 : 아세토나이트릴 = 1 : 1",
+    "gradient": "등용매, 분석 시간 20분",
+    "flow": "",
+    "temp": "",
+    "detection": "290 nm",
+    "injection": "",
+    "sample_prep": "껍질·과육 메탄올 속슬렛 3시간 추출물",
+    "standard": "로테논 표준품, 머무름 시간 14.1분",
+    "linearity": "검량선 0.06–1.00 mg/mL",
+    "lod": "0.02 mg/mL",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "로테논은 씨앗·잎·줄기에 있는 살충 성분이어서 식용 부위인 덩이뿌리에 섞여 있지 않은지 확인하는 안전성 지표로 분석되었다[2, 12]. 전문(Methods) 확인 — 칼럼은 같은 장비 설명에서 옮겼고, 유속·정량한계·회수율은 본문에 없음[2].",
+   "source": [
+    2,
+    12
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12165963/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rotenone and pachyrrhizine",
+   "compound_ko": "로테논·파키리진",
+   "part": "씨앗(비식용 부위)",
+   "content": "로테논 0.58 mg/g 미만~3.53 mg/g, 파키리진 0.25 mg/g 미만~3.29 mg/g[4]",
+   "method": "UHPLC-UV",
+   "conditions": {},
+   "rationale": "씨앗의 두 독성 폴리페놀을 함께 정량해 함량이 낮은 유전자형을 고르는 데 쓴 검증 방법이다(파키리진 0.25–5 mg/g, 로테논 0.58–4 mg/g 범위에서 검증)[4]. 초록만 확인 — 마이크로파 보조 추출·고상추출 정제·내부표준(dihydrorotenone)을 쓴다는 점 외의 칼럼·이동상 등 조건은 전문 확인 못함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24209316/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "생 덩이뿌리",
+   "basis": "100 g당(종설이 인용한 개별 연구값, 원 연구는 확인하지 못함)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 82.01,
+     "unit": "g"
+    },
+    {
+     "name": "에너지",
+     "value": 39,
+     "unit": "kcal"
+    },
+    {
+     "name": "단백질",
+     "value": 1.23,
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": 0.1,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 14.9,
+     "unit": "g"
+    },
+    {
+     "name": "전분",
+     "value": 9.04,
+     "unit": "g"
+    },
+    {
+     "name": "조섬유",
+     "value": 1.4,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 0.5,
+     "unit": "g"
+    },
+    {
+     "name": "비타민 C",
+     "value": 14,
+     "unit": "mg"
+    },
+    {
+     "name": "칼슘",
+     "value": 16,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 1.4,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 12.9,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 18,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 172,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 35,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 0.16,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    12
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Jicama덩이뿌리·건Jicama덩이뿌리(Pachyrhizus erosus), 사용가능부위 : 덩이뿌리",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Impact of Storage on Bioactive and Toxic Compounds in Jicama (Pachyrhizus erosus) Tubers: Effects on Thyroid Cancer and Inflammatory Responses. Plant Foods Hum Nutr 2025;80(3):138. doi:10.1007/s11130-025-01381-0 (PMID 40512265)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12165963/",
+   "publisher": "Plant Foods for Human Nutrition (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Polysaccharides of nutritional interest in jicama (Pachyrhizus erosus) during root development. Food Sci Nutr 2022;10(4):1146-1158. doi:10.1002/fsn3.2746 (PMID 35432974)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007308/",
+   "publisher": "Food Science & Nutrition (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Fast method for the simultaneous quantification of toxic polyphenols applied to the selection of genotypes of yam bean (Pachyrhizus sp.) seeds. Talanta 2013;117:94-101. doi:10.1016/j.talanta.2013.08.038 (PMID 24209316)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24209316/",
+   "publisher": "Talanta (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Yam bean seed poisoning mimicking cyanide intoxication. Intern Med J 2007;37(2):130-2. doi:10.1111/j.1445-5994.2007.01245.x (PMID 17229258)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17229258/",
+   "publisher": "Internal Medicine Journal (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "The first fatal case of yam bean and rotenone toxicity in Thailand. J Med Assoc Thai 2005;88(7):984-7 (PMID 16241030)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16241030/",
+   "publisher": "Journal of the Medical Association of Thailand (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Toxic leukoencephalopathy due to yam bean seeds poisoning. Neurologist 2012;18(4):199-201. doi:10.1097/NRL.0b013e31825cf3cc (PMID 22735244)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22735244/",
+   "publisher": "The Neurologist (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Oxidative storm in a patient with acute rotenone-containing plant poisoning. Am J Emerg Med 2020;38(6):1296.e1-1296.e3. doi:10.1016/j.ajem.2020.01.019 (PMID 31956048)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31956048/",
+   "publisher": "The American Journal of Emergency Medicine (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Lactic acidosis in a patient who ingested rotenone-containing beans (Pachyrhizus erosus). Clin Toxicol (Phila) 2023;61(4):316-317. doi:10.1080/15563650.2023.2185495 (PMID 36988456)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36988456/",
+   "publisher": "Clinical Toxicology (PubMed 서지, 초록 없음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Oral Allergy Syndrome Associated with Jicama. Med J Islam Repub Iran 2022;36:26. doi:10.47176/mjiri.36.26 (PMID 35999918)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9386743/",
+   "publisher": "Medical Journal of the Islamic Republic of Iran (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Microsatellite markers for the yam bean Pachyrhizus (Fabaceae). Appl Plant Sci 2013;1(7):apps.1200551. doi:10.3732/apps.1200551 (PMID 25202568)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4103131/",
+   "publisher": "Applications in Plant Sciences (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "The Bioactivity and Phytochemicals of Pachyrhizus erosus (L.) Urb.: A Multifunctional Underutilized Crop Plant. Antioxidants (Basel) 2021;11(1):58. doi:10.3390/antiox11010058 (PMID 35052562)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8773301/",
+   "publisher": "Antioxidants (종설, PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Ecotypic differentiation under farmers' selection: Molecular insights into the domestication of Pachyrhizus Rich. ex DC. (Fabaceae) in the Peruvian Andes. Evol Appl 2017;10(5):498-513. doi:10.1111/eva.12472 (PMID 28515782)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5427675/",
+   "publisher": "Evolutionary Applications (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Bradyrhizobium pachyrhizi sp. nov. and Bradyrhizobium jicamae sp. nov., isolated from effective nodules of Pachyrhizus erosus. Int J Syst Evol Microbiol 2009;59(Pt 8):1929-34. doi:10.1099/ijs.0.006320-0 (PMID 19567584)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19567584/",
+   "publisher": "International Journal of Systematic and Evolutionary Microbiology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Complete genome sequence of a potyvirus infecting yam beans (Pachyrhizus spp.) in Peru. Arch Virol 2012;157(4):773-6. doi:10.1007/s00705-011-1214-6 (PMID 22227800)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22227800/",
+   "publisher": "Archives of Virology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Chemical Constituents from the Leaves of Pachyrhizus erosus Collected in Vietnam. Chem Pharm Bull (Tokyo) 2021;69(11):1136-1139. doi:10.1248/cpb.c21-00614 (PMID 34719597)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34719597/",
+   "publisher": "Chemical and Pharmaceutical Bulletin (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Purification and characterization of a novel type I ribosome inactivating protein, pachyerosin, from Pachyrhizus erosus seeds, and preparation of its immunotoxin against human hepatoma cells. Planta Med 2014;80(11):896-901. doi:10.1055/s-0034-1382836 (PMID 25029173)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25029173/",
+   "publisher": "Planta Medica (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Botanical origin of dietary supplements labeled as \"Kwao Keur\", a folk medicine from Thailand. J Nat Med 2014;68(1):220-4. doi:10.1007/s11418-013-0779-7 (PMID 23677774)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23677774/",
+   "publisher": "Journal of Natural Medicines (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Serological and RT-PCR evaluation of African yam bean (Sphenostylis stenocarpa (Hochst ex. A. Rich) Harms) accessions to viral resistance under field condition. Sci Rep 2024;14(1):9708. doi:10.1038/s41598-024-59977-6 (PMID 38678095)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11055943/",
+   "publisher": "Scientific Reports (PubMed 서지)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Platelet inhibitory effects of juices from Pachyrhizus erosus L. root and Psidium guajava L. fruit: a randomized controlled trial in healthy volunteers. BMC Complement Altern Med 2016;16:269. doi:10.1186/s12906-016-1255-1 (PMID 27488183)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4972974/",
+   "publisher": "BMC Complementary and Alternative Medicine (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Phytochemical Profile and Antioxidant Activity of the Tuber and Peel of Pachyrhizus erosus. Antioxidants (Basel) 2025;14(4):416. doi:10.3390/antiox14040416 (PMID 40298739)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12023986/",
+   "publisher": "Antioxidants (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Jicama (Pachyrhizus spp.) a nonconventional starch: A review on isolation, composition, structure, properties, modifications and its application. Int J Biol Macromol 2024;258(Pt 2):129095. doi:10.1016/j.ijbiomac.2023.129095 (PMID 38158067)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38158067/",
+   "publisher": "International Journal of Biological Macromolecules (종설, PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Degradation of rotenone in yam bean seeds (Pachyrhizus sp.) through food processing. J Agric Food Chem 2013;61(46):11173-9. doi:10.1021/jf402584k (PMID 24175585)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24175585/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Oviposition deterrent activities of Pachyrhizus erosus seed extract and other natural products on Plutella xylostella (Lepidoptera: Plutellidae). J Insect Sci 2014;14:244. doi:10.1093/jisesa/ieu106 (PMID 25525107)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5634021/",
+   "publisher": "Journal of Insect Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Distribution of isoflavones and coumestrol in neglected tropical and subtropical legumes. J Sci Food Agric 2013;93(3):575-9. doi:10.1002/jsfa.5835 (PMID 22926873)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22926873/",
+   "publisher": "Journal of the Science of Food and Agriculture (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "12-Nor-rotenoids and other cytotoxic constituents of Pachyrhizus erosus seeds. Phytochemistry 2024;229:114281. doi:10.1016/j.phytochem.2024.114281 (PMID 39265878)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39265878/",
+   "publisher": "Phytochemistry (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Cytotoxic constituents of Pachyrhizus tuberosus from Peruvian amazon. Nat Prod Commun 2013;8(10):1423-6 (PMID 24354192)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24354192/",
+   "publisher": "Natural Product Communications (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Tuber crops could be a potential food component for lowering starch digestibility and estimated glycemic index in rice. J Sci Food Agric 2024;104(14):8519-8528. doi:10.1002/jsfa.13679 (PMID 38953558)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38953558/",
+   "publisher": "Journal of the Science of Food and Agriculture (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Genome Sequence of Bradyrhizobium pachyrhizi Strain PAC48T, a Nitrogen-Fixing Symbiont of Pachyrhizus erosus (L.) Urb. Genome Announc 2015;3(5):e01074-15. doi:10.1128/genomeA.01074-15 (PMID 26383651)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574380/",
+   "publisher": "Genome Announcements (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Rotenone isolated from Pachyrhizus erosus displays cytotoxicity and genotoxicity in K562 cells. Nat Prod Res 2014;28(20):1780-5. doi:10.1080/14786419.2014.939081 (PMID 25055205)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25055205/",
+   "publisher": "Natural Product Research (PubMed 초록)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

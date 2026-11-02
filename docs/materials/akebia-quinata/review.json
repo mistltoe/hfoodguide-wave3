@@ -1,0 +1,94 @@
+{
+ "slug": "akebia-quinata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 71,
+ "checked_items": 62,
+ "verified": 119,
+ "fixed": 11,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "으름덩굴(Akebia quinata (Houtt.) Decne.)은 으름덩굴과(Lardizabalaceae)에 속하는 덩굴성 목본으로 한국·중국·일본 등 동아시아에 분포한다[19].",
+   "after": "으름덩굴(Akebia quinata (Houtt.) Decne.)은 으름덩굴과(Lardizabalaceae)에 속하는 덩굴성 목본으로 한국·중국·일본 등 동아시아에 분포한다[14][19].",
+   "why": "[19] 는 명명자를 (Thunb.) Decne. 로 적음 — (Houtt.) Decne. 표기는 [14] 가 뒷받침해 출처 추가"
+  },
+  {
+   "where": "sections.overview",
+   "before": "영어로는 chocolate vine 또는 five-leaf akebia라 부르며, 열매는 과일로 먹고 전통 의약에도 쓰인다[18][19].",
+   "after": "영어로는 chocolate vine이라 부르고 논문에서는 five-leaf akebia라고도 하지만, 식품원료 목록의 'Five-leaf akebia'는 잡종 Akebia x pentaphylla를 가리키므로 구별해야 한다[2][18][19]. 열매는 과일로 먹고 약재로도 쓴다[19].",
+   "why": "영문명 five-leaf akebia 가 식품원료 목록에서는 A. x pentaphylla 원료명이라 근연종과 섞일 수 있음(I1020 원자료 대조); '과일로 먹는다'는 [19] 초록에만 있음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "사람 대상 연구는 발효 잎·열매 추출 음료의 숙취 시험(남성 25명) 하나가 확인되었다[21].",
+   "after": "확인된 먹는 사람 시험은 발효 잎·열매 음료의 숙취 시험(남성 25명, 5개 군) 하나이며 위약군과 혈중 에탄올 차이는 유의하지 않았다[21].",
+   "why": "[35] 에 바르는 크림 사람 시험이 따로 있어 '사람 연구 하나'는 부정확; [21] 은 3시간 시점 대조군과 유의차 없음이라 효과 과장 방지"
+  },
+  {
+   "where": "sections.overview",
+   "before": "목통(木通)이라는 약재 이름 때문에 아리스톨로크산이 든 관목통(등칡, Aristolochia manshuriensis)과 섞여 쓰인 사고가 있어 구분이 중요하다[4][6].",
+   "after": "목통(木通)이라는 약재 이름 때문에 아리스톨로크산이 든 관목통(등칡, Aristolochia manshuriensis)이 대용·혼입되어 콩팥 손상 사례가 있어 구분이 중요하다[4][5][7].",
+   "why": "[6] 은 'Mu Tong' 섭취와 말기신부전의 연관만 보고하고 혼입 사실은 [5](관목통이 섞인 목통 처방)·[7](관목통 사망 증례)이 직접 말함"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "식품원료 목록에 따로 올라 있으며 각각 열매·잎을 쓸 수 있다[2].",
+   "after": "식품원료 목록에 따로 올라 있으며 각각 열매·잎을 쓸 수 있다[2][12].",
+   "why": "A. x pentaphylla 를 잡종으로 보는 근거는 I1020 목록이 아니라 [12] 초록"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "으름덩굴 줄기에서는 구아이아닌 N·콜린소니딘·칼로파낙스사포닌 A 같은 올레아난 이당 사포닌도 분리되었다[25].",
+   "after": "으름덩굴 부탄올 추출물에서는 구아이아닌 N·콜린소니딘·칼로파낙스사포닌 A 같은 올레아난 이당 사포닌도 분리되었다[25].",
+   "why": "[25] 초록은 부위를 적지 않고 'n-BuOH extract of Akebia quinata' 라고만 씀"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이름이 비슷한 관목통(關木通)은 쥐방울덩굴과의 등칡(Aristolochia manshuriensis) 줄기로, 콩팥 독성 성분인 아리스톨로크산을 함유한다[4][9].",
+   "after": "이름이 비슷한 관목통(關木通)은 쥐방울덩굴과의 등칡(Aristolochia manshuriensis)에서 얻는 약재로, 콩팥 독성 성분인 아리스톨로크산을 함유한다[4][9].",
+   "why": "[4] 는 관목통을 등칡 '뿌리'로 적어 '줄기'라는 단정을 [4] 가 뒷받침하지 않음(부위 차이는 다음 문장에서 다룸)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "열매를 70% 메탄올로 환류 추출한 뒤 된장 곰팡이(Aspergillus kawachii) 유래 효소로 생물전환한 추출물은 3T3-L1 지방세포와 고지방식 흰쥐에서 전환하지 않은 추출물보다 체중·지방조직 감소 효과가 컸다[22].",
+   "after": "열매를 70% 메탄올로 환류 추출한 뒤 된장 곰팡이 유래 효소로 생물전환한 추출물은 3T3-L1 지방세포와 고지방식 흰쥐(군당 6마리, 4주)에서 전환하지 않은 추출물보다 체중·지방조직 감소 효과가 컸다(세포·동물 시험)[22].",
+   "why": "[22] 원문(PMC 전문)에서 곰팡이 종명 Aspergillus kawachii 를 확인하지 못함; 동물 시험 규모 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "대만 건강보험 자료 분석에서 목통 누적 섭취 200 g 초과는 말기신부전 위험 증가(오즈비 5.82)와 관련되었고[6], 2004년 이전 관목통이 섞인 목통 처방은 요로상피암 위험 증가와 관련되었다[5].",
+   "after": "대만 건강보험 자료 분석에서 아리스톨로크산 혼입이 의심되는 '목통(Mu Tong)' 제품의 누적 섭취 200 g 초과는 말기신부전 위험 증가(오즈비 5.82)와 관련되었고[6], 말기신부전 환자 코호트에서 2004년 이전 관목통이 섞인 목통 처방은 요로상피암 위험 증가와 관련되었다[5].",
+   "why": "[6] 의 Mu Tong 은 아리스톨로크산 혼입 의심 제품으로 분석된 것이라 으름덩굴 자체의 위험으로 읽히지 않게 함; [5] 는 ESRD 환자 코호트"
+  },
+  {
+   "where": "compounds.Neochlorogenic acid.activity_ko",
+   "before": "잎 추출물(10 μg/mL)이 LPS 자극 혈관내피세포의 ICAM-1·VCAM-1 발현을 억제(세포)[17]",
+   "after": "잎 품질 지표 성분; 혈관내피세포 ICAM-1·VCAM-1 억제는 잎 추출물 전체(10 μg/mL)의 결과이며 이 성분 단독 효과는 시험하지 않음(세포)[17]",
+   "why": "[17] 은 추출물로만 활성 시험 — 성분 활성으로 옮겨 적은 과장"
+  },
+  {
+   "where": "name_en",
+   "before": "Five-leaf chocolate vine (chocolate vine, five-leaf akebia)",
+   "after": "Five-leaf chocolate vine (chocolate vine)",
+   "why": "'five-leaf akebia' 는 식품원료 목록에서 Akebia x pentaphylla 원료명(Five-leaf akebia열매·잎)이라 근연종과 섞임"
+  },
+  {
+   "where": "aliases",
+   "before": "[\"으름\", \"으름덩굴열매\", \"으름덩굴잎\", \"으름덩굴과실분말\", \"Five-leaf chocolate vine\", \"chocolate vine\", \"five-leaf akebia\", \"Akebia quinata (Houtt.) Dence.\", \"Akebia quinata Decaisne\"]",
+   "after": "[\"으름\", \"으름덩굴열매\", \"으름덩굴잎\", \"으름덩굴과실분말\", \"Five-leaf chocolate vine\", \"chocolate vine\", \"Akebia quinata (Houtt.) Dence.\", \"Akebia quinata Decaisne\"]",
+   "why": "같은 이유로 별명에서 제거(본문에서 구별 설명)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1][2] 식품원료 목록은 웹 대신 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 으름덩굴·열매·과실분말·잎 사용가능(사용가능부위: 잎, 열매), 으름덩굴줄기·뿌리·목통줄기(으름덩굴 및 기타 동속 근연식물)·등칡 사용불가, 목통(C코드) '건강기능식품 제조에 사용할 수 없는 원료', 삼엽으름덩굴(A. trifoliata) 열매·잎, Five-leaf akebia(A. x pentaphylla) 열매·잎 사용가능 — 모두 일치",
+  "[3] 은 로컬 고시 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt 의 [별표 5] 줄(목통(木桶) | Akebia quinata Decaisne (으름덩굴) | 정옹·만년등·Akebia Stem·Akebia Caulis)로 확인",
+  "[17][18][19][21][22][23][30] 은 PubMed 도구로 PMC 전문 확인. [17][18] 의 성분별 함량·검량선·LOQ 값은 표에만 있어 본문 텍스트로는 확인하지 못함(원래 '확인하지 못함'으로 적혀 있어 유지)",
+  "[22] 전문에서 생물전환 곰팡이 종명이 추출 텍스트에 빠져 있어 Aspergillus kawachii 를 확인하지 못함 → 종명 삭제",
+  "[26] 칼세올라리오사이드 B 분리 부위는 초록에 없음([27] 은 '목통(Mutong)' 유래로 적음 — 목통은 사용불가 부위인 줄기 약재)",
+  "[8][24][25][32][33] 등 나머지는 초록으로 대조(일본어·중국어 원문 전문은 보지 못함)",
+  "목통 혼동 정리: [4](FDA 연구진)는 목통(A. quinata)을 관목통(A. manshuriensis 뿌리) 또는 천목통(Clematis armandii)으로 대체하는 관행이 아리스톨로크산 노출 위험을 키웠다고 씀; [5] 는 2004년 이전 대만에서 관목통이 섞인 목통 처방, [7] 은 관목통 주성분 환약 사망 증례, [8] 은 일본 Kan-mokutsu 판코니 증후군, [9][10] 은 으름덩굴 자체는 아리스톨로크산이 없고 동물 독성이 낮음을 보고, [36] 은 등칡 추출물 AA I·II 2.85·0.50 mg/g(추출물 기준)"
+ ]
+}

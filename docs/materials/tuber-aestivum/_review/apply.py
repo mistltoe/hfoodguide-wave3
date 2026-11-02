@@ -1,0 +1,36 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/tuber-aestivum/dossier.json'
+d=json.load(open(p))
+changes=[]
+def sec(key,old,new,why):
+    for s in d['sections']:
+        if s['key']==key:
+            assert s['body'].count(old)==1,(key,old)
+            s['body']=s['body'].replace(old,new); changes.append({"where":"sections."+key,"before":old,"after":new,"why":why}); return
+    raise SystemExit(key)
+sec('overview',"값어치는 대부분 향에서 나오며, 버건디 트러플",
+ "트러플의 품질은 고유한 향에 크게 좌우되며[31], 버건디 트러플",
+ "[18] 은 상품 가치를 말하지 않음; 품질이 향에 좌우된다는 문장은 [31] 초록에 있음")
+sec('related_species',"ITS 계통에서 가장 가까운 자매종은 Tuber mesentericum이다[2, 3].",
+ "ITS 계통에서 가장 가까운 자매종은 Tuber mesentericum이다[2].",
+ "[3](2004) 초록은 T. mesentericum 을 언급하지 않음; 자매종 언급은 [2] 에만 있음")
+sec('genetics',"핵형 연구에서 송로버섯의 염색체 수는 2n=10으로 관찰되었다[15].",
+ "트러플 유전학 총설은 송로버섯의 염색체 수를 2n=10으로 소개했다[15].",
+ "[15] 는 원 핵형 연구가 아니라 총설(Review)로, 다른 연구의 관찰값을 인용함")
+sec('safety',"자실체 미생물 조사에서 미생물은 대부분 겉껍질(피층)에 약 9.0 log cfu/g으로 있었고, 건강한 속살(글레바)에는 거의 없었다[23].",
+ "송로버섯과 검은서양송로 자실체를 함께 조사한 연구에서 미생물은 대부분 겉껍질(피층)에 약 9.0 log cfu/g으로 있었고, 건강한 속살(글레바)에는 거의 없었다(두 종을 합친 결과)[23].",
+ "[23] 초록의 9.0 log cfu/g·피층 집중은 T. aestivum·T. melanosporum 두 종 공통 결과로, 이 종만의 값이 아님")
+sec('safety',"메탄올 추출물이 일부 암세포주에 세포독성을 보였다는 보고도 세포 실험 결과일 뿐이다[25].",
+ "송로버섯과 흰서양송로를 함께 다룬 연구에서 메탄올 추출물이 일부 암세포주(HeLa·MCF7·HT-29)에 세포독성을 보였다는 보고도 초록에서 종별 결과가 갈리지 않는 세포 실험 결과일 뿐이며, 같은 연구에서 COX-1·12-LOX 경로 억제는 흰서양송로에서만 나타났다[25].",
+ "[25] 초록은 세포독성을 두 종 합쳐 기술하고, 항염 활성은 T. magnatum 에서만 보였다고 씀 — 다른 종 결과와 섞이지 않게 구분")
+for a in d['assays']:
+    if a['compound']=='1-Octen-3-ol':
+        old=a['compound_ko']; a['compound_ko']="1-옥텐-3-올 등 휘발 성분 45종"
+        changes.append({"where":"assays[1-Octen-3-ol].compound_ko","before":old,"after":a['compound_ko'],"why":"[17] 은 두 종에서 모두 45개 성분을 동정함(1-옥텐-3-올 포함), '외 45종'은 과다"})
+for c in d['compounds']:
+    if c['name']=='Brassicasterol':
+        old=c['content_text']; c['content_text']="총 스테롤의 29%(Tuber 속 범위 28–44%와 비교한 문맥; PMC 전문 추출본에서 종명이 빠져 종 귀속은 문맥 판단)[24]"
+        changes.append({"where":"compounds[Brassicasterol].content_text","before":old,"after":c['content_text'],"why":"[24] PMC 전문에서 종명이 지워져 29% 가 이 종 값인지 문맥으로만 판단 가능 — 한계를 명시"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/tuber-aestivum/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

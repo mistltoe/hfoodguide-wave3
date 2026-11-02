@@ -1,0 +1,95 @@
+import json
+from pathlib import Path
+A="2026-11-02"
+def pm(n,title,pub,doi=None,pmid=None):
+    url=f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n":n,"title":title,"url":url,"publisher":pub,"accessed":A}
+S=[
+ {"n":1,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 세이터열매(Parkia speciosa Hassk.), 제링(Archidendron jiringa) 행","url":"https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020","publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ pm(2,"Parkia speciosa Hassk.: A Potential Phytomedicine (2013, 총설, PMID 23956777)","Evidence-Based Complementary and Alternative Medicine","10.1155/2013/709028"),
+ pm(3,"Phytochemical Contents and Pharmacological Potential of Parkia speciosa Hassk. for Diabetic Vasculopathy: A Review (2022, PMID 35204313)","Antioxidants (Basel)","10.3390/antiox11020431"),
+ pm(4,"Assessment and comparison of phytochemical constituents and biological activities of bitter bean (Parkia speciosa Hassk.) collected from different locations in Malaysia (2018, PMID 29417254)","Chemistry Central Journal","10.1186/s13065-018-0377-6"),
+ pm(5,"Effect of Boiling, Steaming and Microwaving on the Antioxidant and Antibacterial Properties of Parkia speciosa Seeds (2025, PMID 40237845)","Plant Foods for Human Nutrition","10.1007/s11130-025-01351-6"),
+ pm(6,"Headspace constituents of Parkia speciosa seeds (2001, PMID 11858549)","Natural Product Letters","10.1080/10575630108041277"),
+ pm(7,"Purification and characterisation of a C-S lyase in seeds of Parkia speciosa Hassk. (2022, PMID 36444008)","Food Chemistry","10.1016/j.foodchem.2022.134438"),
+ pm(8,"Organosulfide profile and hydrogen sulfide-releasing capacity of stinky bean (Parkia speciosa) oil: Effects of pH and extraction methods (2015, PMID 26213085)","Food Chemistry","10.1016/j.foodchem.2015.06.072"),
+ pm(9,"Alterations in the morphological, sugar composition, and volatile flavor properties of petai (Parkia speciosa Hassk.) seed during ripening (2018, PMID 29579971)","Food Research International","10.1016/j.foodres.2018.01.044"),
+ pm(10,"Volatile aroma components and MS-based electronic nose profiles of dogfruit (Pithecellobium jiringa) and stink bean (Parkia speciosa) (2017, PMID 30046489)","Journal of Advanced Research","10.1016/j.jare.2017.11.003"),
+ pm(11,"Modification of Physiochemical and Techno-Functional Properties of Stink Bean (Parkia speciosa) by Germination and Hydrothermal Cooking Treatment (2023, PMID 38137284)","Foods","10.3390/foods12244480"),
+ pm(12,"Phytochemical quantification and HPLC analysis of Parkia speciosa pod extract (2024, PMID 38555883)","Medical Journal of Malaysia",pmid="38555883"),
+ pm(13,"Phylogeny and historical biogeography of the pantropical genus Parkia (Leguminosae, Caesalpinioideae, mimosoid clade) (2021, PMID 34146678)","Molecular Phylogenetics and Evolution","10.1016/j.ympev.2021.107219"),
+ pm(14,"Genus Parkia: Phytochemical, Medicinal Uses, and Pharmacological Properties (2021, 총설, PMID 33435507)","International Journal of Molecular Sciences","10.3390/ijms22020618"),
+ pm(15,"Bat pollinators: a decade of monitoring reveals declining visitation rates for some species in Thailand (2024, PMID 38431697)","Zoological Letters","10.1186/s40851-024-00228-x"),
+ pm(16,"Differential pollen placement on an Old World nectar bat increases pollination efficiency (2015, PMID 26482654)","Annals of Botany","10.1093/aob/mcv163"),
+ pm(17,"Applications of differential scanning calorimetry in developing cryopreservation strategies for Parkia speciosa, a tropical tree producing recalcitrant seeds (2008, PMID 18516340)","CryoLetters",pmid="18516340"),
+ pm(18,"Microbiota dynamics and volatilome profile during stink bean fermentation (Sataw-Dong) with Lactobacillus plantarum KJ03 as a starter culture (2018, PMID 30166195)","Food Microbiology","10.1016/j.fm.2018.04.012"),
+ pm(19,"Effects of convection-, vacuum- and freeze-drying on antioxidant, physicochemical properties, functional properties and storage stability of stink bean (Parkia speciosa) powder (2020, PMID 33087975)","Journal of Food Science and Technology","10.1007/s13197-020-04501-7"),
+ pm(20,"Extraction of antioxidative and antihypertensive bioactive peptides from Parkia speciosa seeds (2013, PMID 23993504)","Food Chemistry","10.1016/j.foodchem.2013.06.030"),
+ pm(21,"Enzymatic conversion of djenkolic acid in djenkol bean to aromatic cyclic organosulfides with antimicrobial activity (2025, PMID 41092618)","Food Chemistry","10.1016/j.foodchem.2025.146677"),
+ pm(22,"Djenkolism: case report and literature review (2014, PMID 24790471)","International Medical Case Reports Journal","10.2147/IMCRJ.S58379"),
+ pm(23,"Evaluating the toxic and beneficial effects of jering beans (Archidendron jiringa) in normal and diabetic rats (2011, PMID 21744354)","Journal of the Science of Food and Agriculture","10.1002/jsfa.4516"),
+ pm(24,"Retraction: In Vivo Antioxidant and Antiulcer Activity of Parkia speciosa Ethanolic Leaf Extract against Ethanol-Induced Gastric Ulcer in Rats (2023, PMID 37948324)","PLoS One","10.1371/journal.pone.0294012"),
+ pm(25,"Parkia speciosa empty pod prevents hypertension and cardiac damage in rats given N(G)-nitro-l-arginine methyl ester (2017, PMID 28992471)","Biomedicine & Pharmacotherapy","10.1016/j.biopha.2017.09.095"),
+ pm(26,"UPLC-MS-Based Metabolomics Profiling for α-Glucosidase Inhibiting Property of Parkia speciosa Pods (2021, PMID 33499128)","Life (Basel)","10.3390/life11020078"),
+ pm(27,"Correlation study between gastronomy culture and content of selenium towards prevalence of cardiovascular and diabetes in West Java, Indonesia (2020, PMID 33242796)","Journal of Trace Elements in Medicine and Biology","10.1016/j.jtemb.2020.126679"),
+ pm(28,"Mitogenic effect of Parkia speciosa seed lectin on human lymphocytes (2000, PMID 11199124)","Planta Medica","10.1055/s-2000-9565"),
+ pm(29,"The Polysulfide Containing Medicinal Plant Parkia speciosa Hassk. has Both Antioxidant and Cardioprotective Activity (2025, PMID 40651035)","Chemistry & Biodiversity","10.1002/cbdv.202500094"),
+ pm(30,"Assessment of antioxidant and antibacterial efficacy of some indigenous vegetables consumed by the Manipuri community in Sylhet, Bangladesh (2024, PMID 39315213)","Heliyon","10.1016/j.heliyon.2024.e37750"),
+ pm(31,"Phylogeography of African Locust Bean (Parkia biglobosa) Reveals Genetic Divergence and Spatially Structured Populations in West and Central Africa (2018, PMID 30247720)","Journal of Heredity","10.1093/jhered/esy047"),
+ pm(32,"Inter-simple sequence repeat (ISSR) marker analysis in Parkia timoriana (DC.) Merr. populations from Northeast India (2013, PMID 24254257)","Applied Biochemistry and Biotechnology","10.1007/s12010-013-0639-7"),
+ pm(33,"Hemagglutinating activity of proteins from Parkia speciosa seeds (2010, PMID 20645760)","Pharmaceutical Biology","10.3109/13880200903046195"),
+]
+
+sections=[
+{"key":"overview","title":"한눈에 보기","body":
+"세이터(Parkia speciosa Hassk.)는 콩과(Fabaceae)에 속하는 동남아시아 열대 나무로, 영어로는 stink bean(냄새 나는 콩)·bitter bean으로 불리고 말레이시아·인도네시아에서는 petai, 태국에서는 sator(sataw)라고 부른다[2, 3]. 식약처 「식품원료 목록」에는 원료명 '세이터열매'로 한 행이 올라 있고, 영어명으로 Sator·Petai·Stink bean·Twisted Cluster bean·yongchaa 등이 함께 적혀 있다[1]. 이 행은 식품에 쓸 수 있는 원료(사용가능)이며 사용 조건은 '사용가능부위 : 열매'라서 잎·뿌리·나무껍질은 이 목록으로 쓸 수 없다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n주로 먹는 것은 길고 납작한 꼬투리 속의 연두색 씨앗이며, 날로 또는 익혀 먹는다[2]. 씨앗의 강한 냄새는 1,2,4-트라이싸이올레인·렌티오닌 같은 고리형 폴리설파이드(황 원자가 고리에 여럿 들어 있는 휘발성 성분)에서 나온다고 보고되었다[2, 5, 6]. 생김새와 냄새가 비슷한 '제링(젠콜, Archidendron jiringa)'은 다른 속의 식물이고, 같은 목록에서 '사용불가'로 분류되어 있어 구별해야 한다[1, 22]."},
+{"key":"history","title":"이용의 역사","body":
+"세이터는 말레이시아·인도네시아·태국·필리핀 같은 열대 지역에 흔하며, 필리핀에서는 u'pang, 인도에서는 yongchak으로도 불린다[2]. 말레이시아에서는 씨앗을 날로 먹는 반찬인 '울람(ulam)'으로 가장 많이 먹고, 반쯤 익은 씨앗은 소금물에 절여 두기도 한다[2]. 고추 양념(삼발)·말린 새우·코코넛 밀크와 함께 볶거나 끓이는 요리, 볶음밥 재료로도 쓰인다[3]. 방글라데시 실렛 지역 마니푸리 공동체에서도 'Yongchak' 씨앗을 전통 채소로 먹는다고 보고되었다[30]. 인도네시아 서자바에서는 마늘·젠콜과 함께 세이터를 생채소로 즐겨 먹는 식문화가 있다[27].\n\n민간에서는 씨앗을 당뇨·신장 질환·두통에 썼고, 뿌리 달인 물은 고혈압에 썼다고 전한다[2]. 말레이반도 원주민은 씨앗을 요로 감염으로 여겨지는 신장 질환에 썼다는 기록도 있다[2]. 빈 꼬투리 메탄올 추출물은 L-NAME으로 고혈압을 유발한 쥐에서 혈압 상승을 막았다는 동물실험이 있다[25]. 다만 이런 전통 용도는 사람 임상시험으로 확인된 것이 아니다[2, 3]."},
+{"key":"biology","title":"식물학적 특징","body":
+"세이터는 높이 40 m까지 자라는 상록 교목으로, 잎은 두 번 깃꼴로 갈라진 겹잎(2회 우상복엽)이 어긋나게 붙는다[2, 3]. 꽃은 긴 꽃대 끝에 공 모양으로 매달려 아래로 처지며, 열매는 길이 35–55 cm, 너비 3–5 cm의 납작하고 긴 초록 꼬투리가 6–10개씩 송이로 달린다[3]. 식약처 목록의 영어명에는 'Twisted Cluster bean'도 올라 있다[1]. 한 꼬투리에는 연두색 씨앗이 10–18개 들어 있다[5]. 씨앗은 납작한 타원형이고, 마늘과 비슷하면서 표고버섯 같은 독특한 풍미가 있다고 설명된다[3].\n\n세이터는 박쥐가 꽃가루를 옮기는 박쥐매개 식물이다[15]. 태국 남부에서 6년간 조사한 결과, 세이터 꽃을 찾는 주된 박쥐는 동굴에 사는 Eonycteris spelaea였다[15]. 이 박쥐는 식물 종마다 몸의 다른 부위에 꽃가루를 묻혀 다른 종 사이의 꽃가루 이동을 줄인다[16]. 씨앗은 말리면 죽는 '난저장성(recalcitrant)' 씨앗이라 생식질 보존에는 줄기 끝 조직을 초저온 보존하는 방법이 연구되었다[17]."},
+{"key":"related_species","title":"근연종과 혼동 주의","body":
+"Parkia속은 약 35종으로, 중남미·아프리카-마다가스카르·인도-태평양의 열대 숲과 사바나에 분포하며 세 개의 절(Parkia, Platyparkia, Sphaeroparkia)로 나뉜다[13]. 이 속의 여러 종이 전통 약용으로 쓰이며, 연구가 많은 종으로는 세이터 외에 서아프리카의 아프리카 로커스트콩(Parkia biglobosa), 인도 북동부의 Parkia timoriana 등이 있다[14, 31, 32]. 식약처 「식품원료 목록」에서 Parkia속으로 확인된 행은 세이터열매 하나였다[1].\n\n가장 주의할 혼동 대상은 젠콜(jengkol)·제링(jering)으로 불리는 Archidendron속 콩이다[22, 23]. 이 콩은 문헌에 따라 Archidendron jiringa 또는 Archidendron pauciflorum으로 적히며, 많이 먹으면 젠콜산 결정이 요로를 막는 '젠콜중독(djenkolism)'을 일으킨다[22, 23]. 식약처 목록에서 '제링'(Archidendron jiringa, 이명 Pithecellobium jiringa 등)은 '사용불가'로 분류되어 있어, 사용가능인 세이터열매와 지위가 다르다[1]. 두 콩은 모두 동남아시아의 '냄새 나는 콩'으로 함께 연구되며 휘발성 황 성분 1,2,4-트라이싸이올레인을 공유한다[10]."},
+{"key":"cultivation","title":"재배와 수확","body":
+"세이터는 동남아시아 저지대 열대우림의 사질 양토(포드졸성 토양)와 강가에서 잘 자라며, 생육에 알맞은 연평균 기온은 24 °C이고 해발 1,500 m까지 재배된다[3]. 번식은 씨앗 파종, 꺾꽂이, 눈접으로 하며, 씨앗은 껍질을 벗기거나 물에 담가 휴면을 깨고 발아를 앞당긴다[3]. 파종 1년 뒤 0.5–1.0 m 높이가 되면 밭에 옮겨 심고, 줄 사이와 그루 사이를 각각 10 m로 둔다[3]. 나무는 대략 7년째부터 꽃이 피고 열매를 맺으며, 꽃은 해마다 1–3월과 8–10월에 핀다고 보고되었다[3]. 태국 시장에서는 9–10월에 수확한 꼬투리가 팔린 기록이 있다[11].\n\n말레이시아에서는 마을에서 재배하며, 같은 나라 안에서도 페락·느그리슴빌란·조호르 산지에 따라 씨앗의 플라보노이드·페놀 함량과 항산화 활성이 크게 달랐다[4]. 꼬투리의 α-글루코시데이스 억제 활성도 말레이시아 6개 지역 시료 사이에 차이가 있었다[26]. 국내 재배와 생산 통계는 확인하지 못함."},
+{"key":"processing","title":"가공과 이용","body":
+"씨앗은 꼬투리에서 까내어 날로, 굽거나 데치거나 익혀 먹는다[3]. 덜 익거나 다 익은 씨앗은 소금물에 절인 장아찌로 만들며, 소금물에서 자연 발효시킨 '사타우 동(Sataw-Dong)'도 있다[2, 3, 18]. 이 발효에는 Lactobacillus plantarum이 우세했고, 이를 종균으로 넣으면 5일 안에 소금물 pH가 3.98까지 떨어져 발효가 빨라졌다[18].\n\n조리 방법은 성분을 바꾼다[5]. 끓이거나 전자레인지로 익히면 총페놀 함량이 줄고, 찌기는 가장 많이 남겼으며, 익힌 씨앗은 1,2,4,5-테트라싸이안이 줄고 항균 활성이 약해졌다[5]. 반대로 티오프롤린(티아졸리딘-4-카복실산)은 날 씨앗에서는 검출되지 않고 삶은 씨앗에서 크게 늘었다[2]. 기름 추출 방식에 따라 유기황 성분 총량은 용매 추출 680 ppm, 수증기 증류 444 ppm으로 달랐다[8]. 씨앗 가루는 진공 건조가 항산화능과 색을 가장 잘 지켰다[19]. 발아시키면 단백질이 늘고 지방이 줄었으며[11], 씨앗 단백질을 효소로 분해한 펩타이드에서 항산화·ACE 억제 활성이 보고되었다[20]."},
+{"key":"genetics","title":"유전과 계통","body":
+"세이터가 속한 Parkia속은 엽록체 유전자(matK, trnL, psbA-trnH, rps16-trnQ)와 핵 ITS 염기서열 분석에서 하나의 계통(단계통)으로 확인되었다[13]. 화석 보정 분석에 따르면 이 속의 공통 조상은 마이오세 약 1,885만 년 전으로 추정되고, 아마존 저지대 열대우림에서 기원한 뒤 신대륙에서 구대륙으로 한 번 퍼져 나갔다[13]. 인도-태평양 무리의 분화 연대는 약 515만 년 전이며, 마지막 빙기 순다 대륙붕의 드러남이 이 지역 종 분화의 주된 원인으로 제시되었다[13].\n\n같은 속의 다른 종에서는 집단 유전 연구가 이어졌다[31, 32]. 아프리카 로커스트콩(P. biglobosa)은 서·중앙아프리카 집단 사이 유전적 분화가 확인되었고, 인도 북동부의 P. timoriana는 ISSR 표지로 집단 다양성이 분석되었다[31, 32]. 세이터 자체의 핵 유전체 해독, 염색체 수, 품종 등록 정보는 확인하지 못함."},
+{"key":"safety","title":"안전성","body":
+"세이터열매는 식약처 「식품원료 목록」에서 열매에 한해 사용가능한 원료이다[1]. 국내 공공기관의 알레르기·잔류농약·독성 정보는 확인하지 못함. 총설에 따르면 사람에서의 독성시험이나 약동학 연구는 없고, 꼬투리 메탄올 추출물이 사람 혈관내피세포에 독성을 보이지 않았다는 세포 실험만 있다[2]. 먹은 뒤 소변에서 냄새가 나는 것으로 보아 성분이 신장으로 배설된다고 추정된다[2]. 씨앗 껍질과 꼬투리에는 탄닌이 많아 단백질 소화를 떨어뜨릴 수 있으므로 어린이가 많이 먹는 것은 권하지 않는다는 의견이 있다[2]. 씨앗 단백질(렉틴 포함)은 적혈구 응집과 림프구 분열 촉진 활성을 보였다[28, 33].\n\n젠콜산과의 관계는 구별해서 봐야 한다[2, 7, 22]. 세이터 씨앗의 냄새 성분은 젠콜산이 C-S 분해효소로 쪼개져 생기며, 씨앗에 있는 젠콜산이 요관을 막을 수 있다는 언급도 있다[2, 7]. 그러나 신부전 사례(96건 중 4명 사망)가 정리된 젠콜중독은 젠콜콩(Archidendron) 섭취로 보고된 것이다[22]. 세이터 섭취로 인한 젠콜중독 사례 보고는 확인하지 못함. 세이터 잎 추출물의 위궤양 동물실험 논문(2013)은 2023년 철회되어 근거로 쓰지 않았다[24]."},
+]
+
+compounds=[
+ {"name":"1,2,4-Trithiolane","name_ko":"1,2,4-트라이싸이올레인","class":"고리형 폴리설파이드","role":"marker","part":"씨앗","content_text":"씨앗 헤드스페이스 4.75%[6]; 날 씨앗 기름 상대 피크 15.53%[5]; 익으면서 상대량 0.93%→13.66%[10]","activity_ko":"씨앗 특유 냄새의 주성분 중 하나[6]; 항균 성분으로 보고[2]; 젠콜산이 C-S 분해효소로 분해되어 생성[7]","source":[2,5,6,7,10]},
+ {"name":"1,2,4,5-Tetrathiane","name_ko":"1,2,4,5-테트라싸이안","class":"고리형 폴리설파이드","role":"bioactive","part":"씨앗","content_text":"날 씨앗 기름 상대 피크 48.23%(가장 많음), 익히면 15.14–21.33%로 감소[5]","activity_ko":"익힌 씨앗의 항균 활성 감소와 관련된 성분으로 추정[5]","source":[5]},
+ {"name":"Lenthionine","name_ko":"렌티오닌(1,2,3,5,6-펜타싸이에페인)","class":"고리형 폴리설파이드","role":"bioactive","part":"씨앗","content_text":"날 씨앗 기름 상대 피크 20.7%[5]","activity_ko":"향 성분; 젠콜콩–세이터 효소 처리로 생긴 주요 고리형 유기황의 하나로 항균 활성[21]","source":[5,21]},
+ {"name":"1,2,4,6-Tetrathiepane","name_ko":"1,2,4,6-테트라싸이에페인","class":"고리형 폴리설파이드","role":"bioactive","part":"씨앗(기름)","content_text":"날 씨앗 기름 상대 피크 0.27%[5]","activity_ko":"씨앗 기름에서 황화수소 공여체로 확인, 쥐 심부전 모델 연구에 쓰임[29]","source":[5,29]},
+ {"name":"1,2,4,5,7,8-Hexathionane","name_ko":"헥사싸이오네인(hexathionine)","class":"고리형 폴리설파이드","role":"bioactive","part":"씨앗","content_text":"씨앗에서 보고(함량 미기재)[2]; 2025년 연구에서는 검출되지 않음[5]","activity_ko":"트라이싸이올레인과 함께 씨앗의 항균 성분으로 보고[2]","source":[2,5]},
+ {"name":"1,2,4,5,7-Pentathiocane","name_ko":"펜타싸이오케인","class":"고리형 폴리설파이드","role":"bioactive","part":"씨앗","content_text":"씨앗의 고리형 폴리설파이드로 보고(함량 미기재)[2]","activity_ko":"씨앗의 강한 냄새와 맛의 원인 성분군[2]","source":[2]},
+ {"name":"Hydrogen sulfide","name_ko":"황화수소","class":"황 화합물(기체)","role":"bioactive","part":"씨앗","content_text":"씨앗 헤드스페이스 41.30%[6]","activity_ko":"익을수록 늘어나는 휘발성 황 성분[9]","source":[6,9]},
+ {"name":"Djenkolic acid","name_ko":"젠콜산","class":"비단백질 아미노산(함황)","role":"bioactive","part":"씨앗","content_text":"냄새 성분의 전구체로 씨앗에 존재(함량 미기재)[7]","activity_ko":"C-S 분해효소로 메테인다이싸이올을 거쳐 1,2,4-트라이싸이올레인 생성[7]; 요관 폐색 원인으로 거론[2]","source":[2,7]},
+ {"name":"Thioproline","name_ko":"티오프롤린(티아졸리딘-4-카복실산)","class":"함황 아미노산 유도체","role":"bioactive","part":"씨앗(익힌 것)","content_text":"날 씨앗에서는 검출되지 않고 삶은 뒤 크게 증가[2]","activity_ko":"아질산을 붙잡아 발암성 N-나이트로소 화합물 생성을 막는 물질로 보고[2]","source":[2]},
+ {"name":"beta-Sitosterol","name_ko":"베타시토스테롤","class":"식물스테롤","role":"bioactive","part":"씨앗","content_text":"씨앗 클로로폼 추출 분획에서 66%(스티그마스테롤 34%와 혼합)[3]","activity_ko":"혼합 분획 100 mg/kg이 당뇨 쥐 혈당을 낮춤(단독으로는 효과 없음)[2, 3]","source":[2,3]},
+ {"name":"Stigmasterol","name_ko":"스티그마스테롤","class":"식물스테롤","role":"bioactive","part":"씨앗","content_text":"씨앗 클로로폼 추출 분획에서 34%[3]","activity_ko":"베타시토스테롤과 함께 쓸 때 혈당 강하 작용(동물실험)[2]","source":[2,3]},
+ {"name":"Stigmast-4-en-3-one","name_ko":"스티그마스트-4-엔-3-온","class":"스테로이드 케톤","role":"bioactive","part":"빈 꼬투리","content_text":"빈 꼬투리 클로로폼 추출물에서 분리(함량 미기재)[2]","activity_ko":"당뇨 쥐에서 혈당을 84% 낮춤(100 mg/kg)[2]","source":[2]},
+ {"name":"Quercetin","name_ko":"퀘르세틴","class":"플라보놀","role":"marker","part":"씨앗; 꼬투리","content_text":"씨앗에서 가장 많은 식별 성분 중 하나(수치는 표에 있어 확인 못함)[4]; 꼬투리 추출물 0.19±0.47 g/kg[12]","activity_ko":"씨앗 추출물의 항산화 활성과 상관[4]","source":[4,12]},
+ {"name":"Gallic acid","name_ko":"갈산","class":"페놀산","role":"bioactive","part":"씨앗; 꼬투리","content_text":"씨앗에서 퀘르세틴과 함께 가장 많은 성분[4]; 꼬투리 추출물 5.91±1.07 g/kg[12]","activity_ko":"씨앗 추출물의 항균 활성과 가장 높은 상관[4]","source":[4,12]},
+ {"name":"Caffeic acid","name_ko":"카페산","class":"페놀산","role":"bioactive","part":"꼬투리","content_text":"꼬투리 추출물 6.45±3.36 g/kg[12]","activity_ko":"꼬투리 추출물의 주요 페놀산[12]","source":[12]},
+]
+
+nutrients=[{"form":"생 씨앗 동결건조 가루(태국 시장품)","basis":"100 g당(가루 기준)","items":[
+ {"name":"수분","value":4.49,"unit":"g"},{"name":"단백질","value":31.40,"unit":"g"},{"name":"지방","value":23.18,"unit":"g"},
+ {"name":"총 식이섬유","value":24.96,"unit":"g"},{"name":"탄수화물(차감법)","value":39.16,"unit":"g"},{"name":"에너지","value":490.86,"unit":"kcal"}],"source":[11]}]
+
+assays=[
+ {"role":"literature","compound":"Quercetin","compound_ko":"퀘르세틴(갈산·루틴·캠페롤·카테킨·루테올린·미리세틴, 페놀산 5종 동시 확인)","part":"씨앗(45 °C 건조 분말)","content":"퀘르세틴과 갈산이 가장 많은 성분; 총플라보노이드 7.4–12.4 mg QE/g DM, 총페놀 14.9–26.3 mg GAE/g DM(개별 성분 수치는 표에 있어 확인 못함)[4]","method":"UHPLC-UV","conditions":{"instrument":"","column":"ZORBAX Eclipse Plus C18, 5 µm, 4.6 × 250 mm","mobile_phase":"A 0.03 M 인산, B 메탄올(HPLC 등급)","gradient":"0분 4.0% B → 10분 100% B → 15분 100% B → (원문 표기) 2.0분 4.0% B","flow":"1 mL/min","temp":"35 °C","detection":"UV 280·320·360 nm","injection":"10 µL","sample_prep":"씨앗 45 °C 오븐 120시간 건조 → 80 mesh 분쇄 → 분말 5 g + 무수 에탄올 25 mL, 80 rpm 10분 진탕 → 1시간 환류 → 여과(Whatman No.1) → 회전증발 농축, −20 °C 보관","standard":"Sigma-Aldrich 표준품; 머무름 시간·UV 스펙트럼·흡광비 비교와 공주입으로 확인","linearity":"","lod":"","loq":"","recovery":""},"rationale":"씨앗의 항산화 활성과 가장 높은 상관을 보인 플라보노이드 성분으로 산지 비교 지표로 쓰임; 전문 확인, 직선성·회귀식은 본문 표에 있어 확인 못함, 기기 제조사·검출한계·회수율은 원문에 없음[4].","source":[4],"url":"https://doi.org/10.1186/s13065-018-0377-6","source_kind":"paper"},
+ {"role":"literature","compound":"1,2,4,5-Tetrathiane","compound_ko":"1,2,4,5-테트라싸이안(1,2,4-트라이싸이올레인·렌티오닌 등 고리형 폴리설파이드 7종)","part":"씨앗(헥세인 추출 기름)","content":"날 씨앗 기름 상대 피크: 1,2,4,5-테트라싸이안 48.23±1.26%, 렌티오닌 20.7±1.39%, 1,2,4-트라이싸이올레인 15.53±9.52%[5]","method":"GC-MS","conditions":{"instrument":"Agilent 7890A GC + 5975C MS, 7683B 자동주입기","column":"HP-5MS, 30 m × 0.25 mm, 막두께 0.25 µm","mobile_phase":"운반기체 헬륨(99.99%)","gradient":"오븐 50 °C 3분 → 4 °C/min → 250 °C 5분 유지","flow":"1 mL/min","temp":"주입구 250 °C, 이온원 200 °C, 전달관 270 °C","detection":"MS, 질량범위 m/z 40–500","injection":"1.0 µL, 비분할(splitless)","sample_prep":"씨앗 150 g + 같은 양 물 분쇄 → 헥세인 200 mL 진탕 → −80 °C에서 수층 동결 → 유기층 40 °C 농축 → 무수 황산나트륨 탈수 → 다이클로로메테인 1:4 희석 → 0.45 µm PTFE 여과","standard":"","linearity":"","lod":"","loq":"","recovery":""},"rationale":"씨앗의 냄새와 항균 활성을 내는 고리형 폴리설파이드를 조리 전후로 비교한 분석; 값은 상대 피크 면적(%)으로 절대 함량이 아님, 표준품·검출한계는 원문에 없음, 전문 확인[5].","source":[5],"url":"https://doi.org/10.1007/s11130-025-01351-6","source_kind":"paper"},
+ {"role":"literature","compound":"Caffeic acid","compound_ko":"카페산(갈산·루틴·퀘르세틴 동시 정량)","part":"꼬투리 추출물","content":"카페산 6.45±3.36 g/kg, 갈산 5.91±1.07 g/kg, 루틴 0.39±0.84 g/kg, 퀘르세틴 0.19±0.47 g/kg[12]","method":"HPLC","conditions":{"instrument":"","column":"","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"","injection":"","sample_prep":"","standard":"","linearity":"","lod":"","loq":"","recovery":""},"rationale":"꼬투리 추출물의 주요 페놀 성분 4종을 정량한 연구; 전문 확인 못함(초록만 확인), 분석 조건은 비워 둠[12].","source":[12],"url":"https://pubmed.ncbi.nlm.nih.gov/38555883/","source_kind":"paper"},
+]
+
+d={"slug":"parkia-speciosa","name_ko":"세이터","name_en":"Petai (stink bean, bitter bean, twisted cluster bean)","scientific_name":"Parkia speciosa Hassk.",
+ "aliases":["세이터열매","Sator","Sataw","Petai","Petai Bean","Pete","Stink bean","Bitter bean","Twisted Cluster bean","yongchaa","yongchaak","Yongchak","zawngtah","u'pang"],
+ "sections":sections,"compounds":compounds,"markers":[],"nutrients":nutrients,"assays":assays,"production":[],"world":[],"gi":[],"orgs":[],"sources":S}
+out=Path(__file__).resolve().parents[1]/"dossier.json"
+out.write_text(json.dumps(d,ensure_ascii=False,indent=1),encoding="utf-8")
+for s in sections: print(s["key"],len(s["body"]))

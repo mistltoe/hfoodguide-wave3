@@ -1,0 +1,263 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(n, title, url, pub):
+    return {"n": n, "title": title, "url": url, "publisher": pub, "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 송로버섯(Tuber aestivum / Tuber melanosporum) 항목 및 같은 속 원료",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Species recognition in the truffle genus Tuber — the synonyms Tuber aestivum and Tuber uncinatum. Environ Microbiol 2005;7:1535-46 (PMID 16156727)", "https://doi.org/10.1111/j.1462-2920.2005.00837.x", "Environmental Microbiology (PubMed 초록)"),
+    pm(3, "Tuber aestivum and Tuber uncinatum: two morphotypes or two species? FEMS Microbiol Lett 2004;235:109-15 (PMID 15158269)", "https://doi.org/10.1016/j.femsle.2004.04.029", "FEMS Microbiology Letters (PubMed 초록)"),
+    pm(4, "Genetic variability of Tuber uncinatum and its relatedness to other black truffles. Environ Microbiol 2002;4:584-94 (PMID 12366753)", "https://doi.org/10.1046/j.1462-2920.2002.00343.x", "Environmental Microbiology (PubMed 초록)"),
+    pm(5, "Intraspecific genotypic variability determines concentrations of key truffle volatiles. New Phytol 2012;194:823-35 (PMID 22394027)", "https://doi.org/10.1111/j.1469-8137.2012.04077.x", "New Phytologist (PubMed 초록)"),
+    pm(6, "Hidden fairy rings and males — genetic patterns of natural Burgundy truffle (Tuber aestivum Vittad.) populations reveal new insights into its life cycle. Environ Microbiol 2022;24:6376-91 (PMID 35837848)", "https://doi.org/10.1111/1462-2920.16131", "Environmental Microbiology (PubMed 초록)"),
+    pm(7, "The fall of the summer truffle: recurring hot, dry summers result in declining fruitbody production of Tuber aestivum in Central Europe. Glob Chang Biol 2022;28:7376-90 (PMID 36200354)", "https://doi.org/10.1111/gcb.16424", "Global Change Biology (PubMed 초록)"),
+    pm(8, "New insights into the complex relationship between weight and maturity of Burgundy truffles (Tuber aestivum). PLoS One 2017;12:e0170375 (PMID 28125633)", "https://doi.org/10.1371/journal.pone.0170375", "PLoS One (PubMed 초록)"),
+    pm(9, "Eco-archaeological excavation techniques reveal snapshots of subterranean truffle growth. Fungal Biol 2021;125:951-61 (PMID 34776232)", "https://doi.org/10.1016/j.funbio.2021.09.001", "Fungal Biology (PubMed 초록)"),
+    pm(10, "Soil temperature and hydric potential influences the monthly variations of soil Tuber aestivum DNA in a highly productive orchard. Sci Rep 2019;9:12964 (PMID 31506577)", "https://doi.org/10.1038/s41598-019-49602-2", "Scientific Reports (PubMed 초록)"),
+    pm(11, "Potential and limitations of Burgundy truffle cultivation. Appl Microbiol Biotechnol 2013;97:5215-24 (PMID 23666478)", "https://doi.org/10.1007/s00253-013-4956-0", "Applied Microbiology and Biotechnology (PubMed 초록)"),
+    pm(12, "Truffle renaissance in Poland — history, present and prospects. J Ethnobiol Ethnomed 2017;13:36 (PMID 28619090)", "https://doi.org/10.1186/s13002-017-0163-x", "Journal of Ethnobiology and Ethnomedicine (PubMed 초록)"),
+    pm(13, "Ribosomal DNA polymorphisms reveal genetic structure and a phylogeographic pattern in the Burgundy truffle Tuber aestivum Vittad. Mycologia 2019;111:26-39 (PMID 30676256)", "https://doi.org/10.1080/00275514.2018.1543508", "Mycologia (PubMed 초록)"),
+    pm(14, "SSR-based identification of genetic groups within European populations of Tuber aestivum Vittad. Mycorrhiza 2016;26:99-110 (PMID 26070448)", "https://doi.org/10.1007/s00572-015-0649-0", "Mycorrhiza (PubMed 초록)"),
+    pm(15, "Current state and perspectives of truffle genetics and sustainable biotechnology. Appl Microbiol Biotechnol 2006;72:437-41 (PMID 16802150)", "https://doi.org/10.1007/s00253-006-0519-y", "Applied Microbiology and Biotechnology (PubMed 초록)"),
+    pm(16, "Pezizomycetes genomes reveal the molecular basis of ectomycorrhizal truffle lifestyle. Nat Ecol Evol 2018;2:1956-65 (PMID 30420746)", "https://doi.org/10.1038/s41559-018-0710-4", "Nature Ecology & Evolution (PubMed 초록)"),
+    pm(17, "Headspace solid-phase microextraction followed by gas chromatography-mass spectrometry as a powerful analytical tool for the discrimination of truffle species according to their volatiles. Front Nutr 2022;9:856250 (PMID 35558753, PMC9085510)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085510/", "Frontiers in Nutrition (PMC 전문)"),
+    pm(18, "Characterization of the key aroma compounds in white Alba truffle (Tuber magnatum pico) and Burgundy truffle (Tuber uncinatum) by means of the sensomics approach. J Agric Food Chem 2017;65:9287-96 (PMID 28965409)", "https://doi.org/10.1021/acs.jafc.7b04073", "Journal of Agricultural and Food Chemistry (PubMed 초록)"),
+    pm(19, "Are bacteria responsible for aroma deterioration upon storage of the black truffle Tuber aestivum: a microbiome and volatilome study. Food Microbiol 2019;84:103251 (PMID 31421748)", "https://doi.org/10.1016/j.fm.2019.103251", "Food Microbiology (PubMed 초록)"),
+    pm(20, "Shelf-life extension of fresh Tuber aestivum and Tuber melanosporum truffles by modified atmosphere packaging with microperforated films. J Food Sci 2010;75:E225-33 (PMID 20546403)", "https://doi.org/10.1111/j.1750-3841.2010.01602.x", "Journal of Food Science (PubMed 초록)"),
+    pm(21, "Effects of electron-beam irradiation on the shelf life, microbial populations and sensory characteristics of summer truffles (Tuber aestivum) packaged under modified atmospheres. Food Microbiol 2011;28:141-8 (PMID 21056786)", "https://doi.org/10.1016/j.fm.2010.09.008", "Food Microbiology (PubMed 초록)"),
+    pm(22, "Effects of gamma irradiation on the shelf-life and bioactive compounds of Tuber aestivum truffles packaged in passive modified atmosphere. Int J Food Microbiol 2020;332:108774 (PMID 32634639)", "https://doi.org/10.1016/j.ijfoodmicro.2020.108774", "International Journal of Food Microbiology (PubMed 초록)"),
+    pm(23, "Diversity of culturable microorganisms and occurrence of Listeria monocytogenes and Salmonella spp. in Tuber aestivum and Tuber melanosporum ascocarps. Food Microbiol 2010;27:286-93 (PMID 20141948)", "https://doi.org/10.1016/j.fm.2009.11.001", "Food Microbiology (PubMed 초록)"),
+    pm(24, "Application of pressurized liquid extractions to obtain bioactive compounds from Tuber aestivum and Terfezia claveryi. Foods 2022;11:298 (PMID 35159450, PMC8834127)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8834127/", "Foods (PMC 전문)"),
+    pm(25, "Phenolic profile, antioxidant, anti-inflammatory and cytotoxic activities of black (Tuber aestivum Vittad.) and white (Tuber magnatum Pico) truffles. Food Chem 2014;165:460-6 (PMID 25038699)", "https://doi.org/10.1016/j.foodchem.2014.05.116", "Food Chemistry (PubMed 초록)"),
+    pm(26, "Anti-angiogenic and anti-inflammatory activity of the summer truffle (Tuber aestivum Vittad.) extracts and a correlation with the chemical constituents identified therein. Food Res Int 2020;137:109699 (PMID 33233273)", "https://doi.org/10.1016/j.foodres.2020.109699", "Food Research International (PubMed 초록)"),
+    pm(27, "Comparison of structural and antioxidant activity of polysaccharide extracted from truffles. J Food Sci 2022;87:2999-3012 (PMID 35674229)", "https://doi.org/10.1111/1750-3841.16207", "Journal of Food Science (PubMed 초록)"),
+    pm(28, "Comparison of chemical composition in Tuber aestivum Vittad. of different geographical origin. Chem Biodivers 2016;13:1617-29 (PMID 27603569)", "https://doi.org/10.1002/cbdv.201600041", "Chemistry & Biodiversity (PubMed 초록)"),
+    pm(29, "New insights into black truffle biology: discovery of the potential connecting structure between a Tuber aestivum ascocarp and its host root. Mycorrhiza 2019;29:219-26 (PMID 30989396)", "https://doi.org/10.1007/s00572-019-00892-4", "Mycorrhiza (PubMed 초록)"),
+    pm(30, "Two ectomycorrhizal truffles, Tuber melanosporum and T. aestivum, endophytically colonise roots of non-ectomycorrhizal plants in natural environments. New Phytol 2020;225:2542-56 (PMID 31733103)", "https://doi.org/10.1111/nph.16321", "New Phytologist (PubMed 초록)"),
+    pm(31, "Composition of commercial truffle flavored oils with GC-MS analysis and discrimination with an electronic nose. Food Chem 2014;146:30-5 (PMID 24176309)", "https://doi.org/10.1016/j.foodchem.2013.09.016", "Food Chemistry (PubMed 초록)"),
+    pm(32, "[Identification of macronutrients and some oligoelements in \"molisano\" Tuber aestivum truffles]. Clin Ter 2004;155:363-5 (PMID 15700629)", "https://pubmed.ncbi.nlm.nih.gov/15700629/", "La Clinica Terapeutica (PubMed 영문 초록)"),
+    pm(33, "Predicted climate change will increase the truffle cultivation potential in central Europe. Sci Rep 2020;10:21281 (PMID 33277535)", "https://doi.org/10.1038/s41598-020-76177-0", "Scientific Reports (PubMed 초록)"),
+    pm(34, "Tuber aestivum Vittad. mycelium quantified: advantages and limitations of a qPCR approach. Mycorrhiza 2013;23:341-8 (PMID 23271632)", "https://doi.org/10.1007/s00572-012-0475-6", "Mycorrhiza (PubMed 초록)"),
+    pm(35, "Temporal dynamics of ectomycorrhizal community composition on root systems of oak seedlings infected with Burgundy truffle. Mycol Res 2008;112:1344-54 (PMID 18644445)", "https://doi.org/10.1016/j.mycres.2008.06.005", "Mycological Research (PubMed 초록)"),
+]
+
+overview = (
+    "송로버섯(Tuber aestivum)은 땅속에서 자실체를 맺는 자낭균으로, 여러 나무·관목의 뿌리와 외생균근을 이루며 영어권에서는 여름 트러플(summer truffle) 또는 버건디 트러플(Burgundy truffle)이라고 부른다[10]. "
+    "유럽 전역에 자연 분포하는 넓은 분포역을 가진 트러플이다[14]. "
+    "식품의약품안전처 「식품원료 목록」에는 '송로버섯자실체'·'건조송로버섯'·'송로버섯오일'·'송로버섯주스'·'송로버섯추출물' 5개 원료명이 올라 있으며, 모두 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. "
+    "이 항목의 학명 칸에는 'Tuber aestivum (Wulfen) Vitt. / Tuber melanosporum Vittad.'로 두 종이 함께 적혀 있고 영문명은 'Truffle'이어서, 목록의 '송로버섯'은 두 종을 아우르는 이름이다[1]. "
+    "검은서양송로(T. melanosporum)는 같은 목록에 '검은서양송로자실체'로 따로 올라 있으므로, 이 문서는 T. aestivum 자료만 다룬다[1]. "
+    "건강기능식품 고시형 원료의 원재료로 쓰인 예는 확인하지 못함.\n\n"
+    "값어치는 대부분 향에서 나오며, 버건디 트러플(T. uncinatum으로 표기) 향 분석에서는 1-피롤린과 2,3-부탄다이온의 향 활성값이 가장 높았다[18]. "
+    "신선 자실체는 저장 중 향과 세균 군집이 함께 빠르게 바뀌어, 포장·방사선 조사 등으로 저장 기간을 늘리는 연구가 이어졌다[19, 20, 21]."
+)
+
+history = (
+    "Tuber uncinatum은 연구자에 따라 별개의 종·변종·아종 또는 T. aestivum의 이명으로 다뤄져 오랫동안 혼란을 낳았다[2]. "
+    "유럽 8개국의 자실체 117개를 조사한 2005년 연구는 두 무리를 가르던 유일한 정량 형질인 포자 그물 높이가 진단 형질이 못 되고, ITS 계통에서 두 이름이 한 단계통군 안에 섞인다고 보고했다[2]. "
+    "이 연구는 두 이름을 이명으로 보고 먼저 발표된 T. aestivum을 써야 하며, 합의가 이뤄질 때까지 거래에서는 'T. aestivum syn. T. uncinatum'으로 적자고 제안했다[2]. "
+    "이탈리아 등 유럽 시료를 ITS·β-튜불린·EF1α 유전자로 분석한 2004년 연구도 두 형태형이 같은 종이며, 포자 모양·맛·향의 차이는 유전보다 생태 요인 때문일 것이라고 보았다[3]. "
+    "반면 2002년 북이탈리아 연구는 여러 분자 표지가 두 무리를 따로 묶는다고 보고해, 한때 견해가 갈렸다[4].\n\n"
+    "폴란드 문헌 조사에서는 트러플이 적어도 1661년부터 알려졌고 18세기에는 비목재 임산물로 다뤄졌다[12]. "
+    "이 지식은 2차 세계대전 뒤 거의 잊혔다가 21세기 첫 10년에 재배원이 생기면서 되살아났고, 그 가운데 한 곳이 여름 트러플의 첫 자실체를 냈다[12]. "
+    "국내 「식품원료 목록」에서는 '송로(松露)'가 알버섯(Rhizopogon rubescens)의 이명으로, '송로버섯'이 흰서양송로(T. magnatum)의 이명으로도 적혀 있어 우리말 이름이 가리키는 대상이 하나가 아니다[1]. "
+    "국내 도입 시기와 유통 역사는 확인하지 못함."
+)
+
+biology = (
+    "송로버섯은 나무와 공생하는 이형접합성(heterothallic) 자낭균으로, 땅속에서 자실체를 맺는다[6]. "
+    "자연 개체군 세 곳의 유전 분석에서 자실체를 이루는 암컷과 수정 상대인 수컷의 유전 구조가 따로 나타났고, 수컷은 유전형이 다양하고 해마다 바뀌어 썩은 자실체에서 나온 포자가 싹튼 것으로 추정되었다[6]. "
+    "한 곳에서는 큰 암컷 개체 하나가 해마다 30 cm씩 바깥으로 자라는 고리 모양(요정의 고리)을 이루었고, 50개가 넘는 수컷 개체와 수정했다[6]. "
+    "2004년 연구는 이 종이 자가수정을 할 가능성이 크다고 보았으나, 이후 짝짓기형 유전자 분석은 다른 귀한 트러플과 비슷한 생식 방식을 뒷받침했다[3, 6].\n\n"
+    "헝가리의 생산성 높은 재배원에서 2014년 8월 사흘 동안 거둔 자실체 2,656개는 2–755 g이었고, 다섯 성숙 단계에 거의 고르게 나뉘어 무게와 성숙도가 대체로 무관했다[8]. "
+    "독일 남부 세 곳을 고고학식으로 정밀 발굴한 연구에서는 자실체 73개의 생체중이 0.1–103.2 g으로 천 배 차이가 났고, 초여름부터 이듬해 늦겨울까지 자라고 익는 일이 동시에 일어날 수 있다고 보았다[9]. "
+    "채석장 벽에 붙어 자란 자실체를 관찰한 연구에서는 자실체를 받치는 부착 구조가 글레바 비슷한 조직의 관으로 이뤄져 흙 속 균사망과 이어져 있었다[29]. "
+    "이 종은 외생균근을 맺지 않는 식물의 뿌리에도 내생균처럼 들어가 살며, 이런 개체는 근처 자실체에 모계로만 기여했다[30]."
+)
+
+related = (
+    "식품원료 목록에는 같은 속의 검은서양송로(T. melanosporum), 대리석덩이버섯(T. borchii), 흰서양송로(T. magnatum), 'Winter truffle자실체'(T. brumale)가 사용가능 원료로 따로 올라 있다[1]. "
+    "같은 목록에서 아시아산 검은덩이버섯(T. indicum)은 '사용불가'로 되어 있다[1]. "
+    "옛 이름 Tuber uncinatum은 현재 대체로 같은 종의 이명으로 다루며, ITS 계통에서 가장 가까운 자매종은 Tuber mesentericum이다[2, 3].\n\n"
+    "그리스산 송로버섯과 대리석덩이버섯(T. borchii)은 HS-SPME-GC-MS 휘발 성분으로 뚜렷이 갈렸다[17]. "
+    "송로버섯에서는 1-옥텐-3-올·2-부탄온·3-메틸부탄알·2-메틸-1-부탄올·에탄올이 특징 성분이었고, 대리석덩이버섯 휘발 성분의 33–53%를 차지한 2-메틸부탄산은 송로버섯에서 검출되지 않았다[17]. "
+    "흰서양송로와 함께 분석한 향 연구에서 버건디 트러플(T. uncinatum으로 표기)은 2,3-부탄다이온·페닐아세트산·바닐린의 향 희석 배수가 가장 높아, 두 종의 핵심 향 성분 구성이 뚜렷이 달랐다[18]. "
+    "터키 시료 45개와 유럽 시료 144개의 ITS를 비교한 연구에서는 하플로타입 63개 가운데 32개가 터키에만 있었고, 터키 시료 안에 숨은 종이 있을 가능성도 제기되었다[13]. "
+    "비교 유전체 연구에서 송로버섯을 포함한 Tuber 속 종들은 유전체 특징이 매우 비슷했다[16]."
+)
+
+cultivation = (
+    "버건디 트러플 재배는 참나무·개암나무 등의 묘목에 인공으로 균근을 맺게 한 뒤 알맞은 땅에 옮겨 심는 방식으로 이뤄진다[11]. "
+    "개암나무·참나무·소나무·피나무·서어나무를 심은 생산성 높은 한 재배원에서는 심은 지 5년 뒤 수확이 시작되어 2017년 최대 320 kg/ha에 이르렀다[10]. "
+    "이 재배원에서 토양 속 송로버섯 DNA의 월별 변화는 토양 온도와 수분 포텐셜로 일부 설명되었다[10]. "
+    "토양과 뿌리의 균사량은 ITS를 겨냥한 실시간 PCR 표지(Ta0)로 잴 수 있으나, 흙 속에 남는 안정된 DNA 때문에 검출 한계가 생긴다[34].\n\n"
+    "미국에서 접종 묘목을 석회를 뿌린 밭에 옮겨 심은 2년 관찰에서는 송로버섯 균근이 늘었고, 토착 균근균이 단기간에 이를 밀어내지 않았다[35]. "
+    "독일 남서부와 스위스 20곳을 최대 8년 동안 3주 간격으로 관측한 연구에서는 여름 기온이 그 지점의 30년 평균보다 1 °C 오를 때마다 해마다의 자실체 생산량이 중앙값 22%씩 줄었다[7]. "
+    "가장 생산성이 높은 개체군에서는 한 해 여름 기온이 3 °C만 높아도 자실체 생산이 완전히 멈췄다[7]. "
+    "체코에서는 농경지의 약 14%(8,486 km²)가 이미 버건디 트러플 재배에 매우 알맞은 것으로 평가되었다[33]."
+)
+
+processing = (
+    "송로버섯 자실체는 수확 뒤 향이 빨리 바뀌며, 실온 9일 저장 동안 신선한 자실체에 많던 α·β-프로테오박테리아와 스핑고박테리아가 부패균(γ-프로테오박테리아·바실리)으로 바뀌었다[19]. "
+    "이때 다이메틸설파이드(DMS)·부탄-2-온·메틸부탄올·2-페닐에탄올 등이 신선도·부패 표지 성분으로 확인되었다[19]. "
+    "미세천공 필름 MAP(4 °C에서 내부 CO2 15%·O2 7%)는 신선 송로버섯의 저장 기간을 21일로 늘렸다[20]. "
+    "MAP 포장 뒤 전자선 2.5 kGy를 쬐면 저장 기간이 무처리 21일에서 42일로 늘었고 관능 품질은 나빠지지 않았다[21]. "
+    "감마선 0.5–2.5 kGy도 미생물을 3 log cfu/g 넘게 줄였으며, 탄수화물·키틴·β-글루칸·단백질은 변하지 않고 스테롤(특히 스티그마스테롤)만 약간 줄었다[22].\n\n"
+    "가압 용매 추출(PLE)에서는 물로 180 °C·30분 추출하면 다당이 많은 분획을, 에탄올로 추출하면 스테롤이 많은 분획을 얻었다[24]. "
+    "마이크로파 열수 추출 뒤 Sephadex G-200으로 정제한 송로버섯 다당(TAP)은 주로 만노스와 글루코스로 이뤄졌고 몰비는 14.76:12.31이었다[27]. "
+    "이탈리아 시판 트러플 향 올리브유 18개를 분석한 연구는 휘발 성분 63종 가운데 트러플 유래로 볼 수 있는 것이 19종뿐이었고, 블랙 트러플 향료에 합성 비스(메틸싸이오)메테인을 쓰는 관행을 확인했다[31]."
+)
+
+genetics = (
+    "2018년 비교 유전체 연구는 버건디 트러플을 포함한 Tuber 속 유전체가 전이인자가 많고 리그노셀룰로스 분해 효소 유전자가 적다는 공통점을 보였다[16]. "
+    "같은 연구는 트러플의 강한 향 성분이 새 유전자가 아니라 기존 유전자의 발현 차이에서 나온다고 보았다[16]. "
+    "핵형 연구에서 송로버섯의 염색체 수는 2n=10으로 관찰되었다[15].\n\n"
+    "유럽 각지의 자실체 230개를 SSR 표지 15개로 분석한 결과 다좌위 유전형 181개와 유전 집단 4개가 나왔고, 그중 하나는 프랑스 남동부·이탈리아·스페인에만 있었다[14]. "
+    "이형접합성 결핍은 개체군 병목이 아니라 확장을 가리켜, 이 종이 지중해 지역에서도 멸종 위기에 있지 않다고 해석되었다[14]. "
+    "ITS 분석에서는 북동유럽·남유럽·터키의 세 유전 군집이 구분되었고, 터키가 빙하기 피난처이자 다양성 중심지였을 것으로 추정되었다[13]. "
+    "유럽 7개국 자실체 223개(T. uncinatum으로 표기)의 향 분석에서는 향 차이의 대부분이 탄소 8개짜리 휘발 성분(C8-VOC)에서 왔으며, 이 차이는 성숙도보다 균의 유전형과 연관되었다[5]. "
+    "폴란드·슬로바키아·이탈리아산 자실체를 비교한 연구에서는 이탈리아산이 조사한 성분 대부분을 더 많이 함유했고, 폴란드산은 지질과 폴리페놀이 더 많았다[28]."
+)
+
+safety = (
+    "송로버섯 자실체는 「식품원료 목록」에서 사용가능 원료이며, 사용 조건은 '사용가능부위 : 자실체'이다[1]. "
+    "건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없고, 국내 공공기관의 알레르기·독성 정보는 확인하지 못함. "
+    "자실체 미생물 조사에서 미생물은 대부분 겉껍질(피층)에 약 9.0 log cfu/g으로 있었고, 건강한 속살(글레바)에는 거의 없었다[23]. "
+    "송로버섯 전체 자실체의 슈도모나스는 평균 8.3 log cfu/g, 장내세균은 6.3 log cfu/g이었다[23]. "
+    "같은 조사에서 송로버섯 시료의 10%에서 리스테리아 모노사이토제니스가 검출되었고 살모넬라는 검출되지 않았다[23]. "
+    "이탈리아 몰리세산 자실체의 납·카드뮴·크롬·니켈 등을 측정한 연구에서는 병적인 수준의 중금속 농도가 나오지 않았다[32].\n\n"
+    "에탄올 추출물의 리폭시게나제 억제 IC50은 147.3 µg/mL(양성 대조 아스코르브산 40.2 µg/mL)였으나, 이는 시험관 효소 실험 결과로 사람 효과 자료는 아니다[26]. "
+    "메탄올 추출물이 일부 암세포주에 세포독성을 보였다는 보고도 세포 실험 결과일 뿐이다[25]. "
+    "목록의 '송로버섯' 항목은 두 종을 함께 적고 있고 아시아산 검은덩이버섯(T. indicum)은 사용불가 원료이므로, 원료의 종 확인이 중요하다[1]. "
+    "시판 트러플 향 제품에는 합성 향료가 쓰인 사례가 있어 원재료 표시를 확인할 필요가 있다[31]."
+)
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body": overview},
+    {"key": "history", "title": "이름과 이용의 역사", "body": history},
+    {"key": "biology", "title": "균학적 특징", "body": biology},
+    {"key": "related_species", "title": "가까운 종과 혼동", "body": related},
+    {"key": "cultivation", "title": "재배와 채취", "body": cultivation},
+    {"key": "processing", "title": "가공과 저장", "body": processing},
+    {"key": "genetics", "title": "유전체와 유전 다양성", "body": genetics},
+    {"key": "safety", "title": "안전성", "body": safety},
+]
+
+
+def c(name, ko, cls, role, part, content, act, src):
+    return {"name": name, "name_ko": ko, "class": cls, "role": role, "part": part,
+            "content_text": content, "activity_ko": act, "source": src}
+
+
+compounds = [
+    c("1-Octen-3-ol", "1-옥텐-3-올", "C8 알코올", "marker", "자실체",
+      "그리스산 정규화 피크 면적 4.6–22%[17]", "버섯·흙 향; 송로버섯의 특징 휘발 성분[17]; C8 성분 차이는 균 유전형과 연관[5]", [17, 5]),
+    c("3-Methylbutanal", "3-메틸부탄알", "알데하이드", "marker", "자실체",
+      "그리스산 정규화 피크 면적 2–36%[17]", "송로버섯 시료에서 가장 많은 성분으로 보고된 특징 휘발 성분[17]", [17]),
+    c("2-Methyl-1-butanol", "2-메틸-1-부탄올", "알코올", "bioactive", "자실체",
+      "그리스산 정규화 피크 면적 검출 안 됨–32%[17]", "송로버섯의 특징 성분[17]; 메틸부탄올은 저장 중 부패 표지로도 제시[19]", [17, 19]),
+    c("2-Butanone", "2-부탄온(부탄-2-온)", "케톤", "bioactive", "자실체",
+      "그리스산 정규화 피크 면적 7–30%[17]", "송로버섯의 특징 성분[17]; 실온 저장 중 신선도·부패 표지 성분[19]", [17, 19]),
+    c("3-Octanone", "3-옥탄온", "C8 케톤", "bioactive", "자실체",
+      "그리스산 정규화 피크 면적 검출 안 됨–11.2%[17]", "버섯·풀 향으로 설명되는 성분[17]", [17]),
+    c("Dimethyl sulfide", "다이메틸설파이드(DMS)", "휘발성 황화합물", "marker", "자실체",
+      "함량 수치는 확인하지 못함", "실온 저장 중 신선도 표지 성분으로 확인[19]", [19]),
+    c("1-Pyrroline", "1-피롤린(3,4-다이하이드로-2H-피롤)", "질소 화합물", "marker", "자실체",
+      "향 활성값(OAV) 1530[18]", "버건디 트러플(T. uncinatum)에서 향 활성값이 가장 높은 핵심 향 성분, 아민·정액 비슷한 냄새[18]", [18]),
+    c("2,3-Butanedione", "2,3-부탄다이온(다이아세틸)", "케톤", "marker", "자실체",
+      "향 활성값(OAV) 1130[18]; 그리스산 정규화 피크 면적 0.9–1.7%[17]", "버터 향; 버건디 트러플의 향 희석 배수가 가장 높은 성분 가운데 하나[18]", [18, 17]),
+    c("Vanillin", "바닐린", "페놀 알데하이드", "bioactive", "자실체",
+      "함량 수치는 확인하지 못함", "바닐라 향; 버건디 트러플에서 향 희석 배수가 가장 높은 성분 가운데 하나[18]", [18]),
+    c("Ergosterol", "에르고스테롤", "스테롤", "bioactive", "자실체",
+      "브라시카스테롤과 함께 주 스테롤[24]", "균류 세포막 성분; 에탄올 가압 추출로 스테롤 분획 농축[24]", [24]),
+    c("Brassicasterol", "브라시카스테롤", "스테롤", "bioactive", "자실체",
+      "총 스테롤의 29%[24]", "주 스테롤 가운데 하나; Tuber 속에서 28–44% 범위로 보고[24]", [24]),
+    c("Stigmasterol", "스티그마스테롤", "스테롤", "bioactive", "자실체",
+      "감마선 조사 뒤 약간 감소(수치는 확인하지 못함)[22]", "식물형 스테롤; 방사선 조사로 줄어드는 성분[22]", [22]),
+    c("beta-Glucan", "β-글루칸", "다당", "bioactive", "자실체",
+      "β-글루칸과 키틴이 총 탄수화물의 약 89–95%[24]", "주 탄수화물; 물 가압 추출(180 °C·30분)로 농축[24]; 감마선 조사에도 변하지 않음[22]", [24, 22]),
+    c("Chitin", "키틴", "다당", "nutrient", "자실체",
+      "β-글루칸과 함께 총 탄수화물의 약 89–95%[24]", "균류 세포벽 구조 다당[24]", [24]),
+    c("4-Hydroxybenzoic acid", "p-하이드록시벤조산", "페놀산", "bioactive", "자실체",
+      "LC-MS/MS로 페놀 45종을 분석한 연구에서 송로버섯의 주된 페놀(바이칼레인·캠페롤과 함께)[25]", "추출물의 항산화 활성은 중간 정도(시험관 실험)[25]", [25]),
+]
+
+assays = [
+    {
+        "role": "literature", "compound": "1-Octen-3-ol",
+        "compound_ko": "1-옥텐-3-올(외 휘발 성분 45종)",
+        "part": "자실체(그리스 자연 산지, 2021년 4–7월 채취, 씻어 말린 뒤 -20 °C 보관)",
+        "content": "정규화 피크 면적 1-옥텐-3-올 4.6–22%, 3-메틸부탄알 2–36%, 2-부탄온 7–30%, 2-메틸-1-부탄올 검출 안 됨–32%[17]",
+        "method": "HS-SPME-GC-MS(전체 피크 면적 합을 100%로 정규화한 상대값)",
+        "conditions": {
+            "instrument": "Agilent 6890N GC + 5973 사중극자 질량검출기",
+            "column": "DB-WAX 60 m × 0.32 mm, 막 두께 0.25 µm",
+            "mobile_phase": "헬륨(99.999%)",
+            "gradient": "40 °C(5분) → 5 °C/min → 240 °C(5분)",
+            "flow": "1.2 mL/min",
+            "temp": "주입구 270 °C, MS 이온원 250 °C, 사중극자 130 °C",
+            "detection": "EI 스캔 m/z 35–350",
+            "injection": "스플릿리스, SPME 섬유를 주입구에서 5분 탈착",
+            "sample_prep": "균질화한 시료 100 mg을 15 mL 유리 바이알에 넣고 85 µm CAR/PDMS 섬유로 50 °C에서 45분 추출(시료량·온도·시간을 한 변수씩 최적화), 3반복",
+            "standard": "NIST 라이브러리(2.0 g, 2011) 질량 스펙트럼과 머무름 지수로 동정",
+            "linearity": "", "lod": "", "loq": "", "recovery": ""
+        },
+        "rationale": "1-옥텐-3-올·3-메틸부탄알·2-부탄온·2-메틸-1-부탄올·에탄올이 PLS-DA에서 송로버섯을 대리석덩이버섯과 가르는 특징 성분으로 나와 종 판별 지표로 제시되었다[17]. 절대 정량이 아닌 상대 백분율이며 검출·정량한계와 회수율은 원문에 없다[17].",
+        "source": [17], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085510/", "source_kind": "paper"
+    },
+    {
+        "role": "literature", "compound": "Ergosterol",
+        "compound_ko": "에르고스테롤(브라시카스테롤 등 스테롤)",
+        "part": "자실체(동결건조 분말)",
+        "content": "에르고스테롤과 브라시카스테롤이 주 스테롤, 브라시카스테롤은 총 스테롤의 29%[24]",
+        "method": "비누화 후 GC-MS-FID",
+        "conditions": {
+            "instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "",
+            "detection": "FID 및 MS",
+            "injection": "",
+            "sample_prep": "자실체를 동결건조(LyoBeta 15)·분쇄해 0.5 mm 미만으로 체질하고 -80 °C 보관; 추출물은 분말 0.5 g과 해사(1:8)를 10 mL 셀에 넣고 ASE 350으로 물·에탄올·물:에탄올(1:1)을 50·115·180 °C, 5·17.5·30분 조건에서 가압 추출; 자실체와 추출물을 비누화한 뒤 분석, 3반복",
+            "standard": "에르고스테롤 표준품(95%)으로 에르고스테롤과 유도체 정량, 내부표준 헥사데케인(10%)",
+            "linearity": "", "lod": "", "loq": "", "recovery": ""
+        },
+        "rationale": "에르고스테롤은 균사의 주 구성 성분이라 균 생장을 보여 주는 생체 지표로 쓰이며, 에탄올 가압 추출은 스테롤 분획을 얻는 데 알맞았다[24]. 전문(PMC)을 열었으나 칼럼·온도 프로그램은 앞선 논문 인용으로만 적혀 있어 비워 두었고, 전문 추출본에서 종명이 빠져 브라시카스테롤 29%는 Tuber 속 범위(28–44%)와 비교한 문맥으로 이 종의 값으로 판단했다[24].",
+        "source": [24], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8834127/", "source_kind": "paper"
+    },
+    {
+        "role": "literature", "compound": "1-Pyrroline",
+        "compound_ko": "1-피롤린·2,3-부탄다이온(핵심 향 성분)",
+        "part": "자실체(버건디 트러플, T. uncinatum으로 표기)",
+        "content": "향 활성값(OAV) 1-피롤린 1530, 2,3-부탄다이온 1130[18]",
+        "method": "용매 추출·SAFE 증류 뒤 향 추출물 희석 분석(AEDA), 안정동위원소 희석 정량(SIDA)",
+        "conditions": {},
+        "rationale": "향 재조합·제외 실험에서 OAV 1을 넘는 성분만으로 버건디 트러플 향을 재현했고, 1-피롤린이 핵심 향 성분으로 처음 확인되어 향 품질 지표가 된다[18]. 전문 확인 못함(초록만 확인)[18].",
+        "source": [18], "url": "https://doi.org/10.1021/acs.jafc.7b04073", "source_kind": "paper"
+    },
+]
+
+d = {
+    "slug": "tuber-aestivum",
+    "name_ko": "송로버섯",
+    "name_en": "Burgundy truffle (summer truffle)",
+    "scientific_name": "Tuber aestivum (Wulfen) Vitt.",
+    "aliases": ["송로버섯자실체", "건조송로버섯", "Truffle", "Burgundy truffle", "summer truffle", "버건디 트러플", "여름 트러플", "Tuber uncinatum(이명)"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))
