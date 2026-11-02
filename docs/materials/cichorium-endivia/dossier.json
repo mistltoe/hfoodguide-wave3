@@ -1,0 +1,666 @@
+{
+ "slug": "cichorium-endivia",
+ "name_ko": "앤디브",
+ "name_en": "Endive (escarole, curly endive)",
+ "scientific_name": "Cichorium endivia L.",
+ "aliases": [
+  "앤디브잎",
+  "에스케롤",
+  "엔다이브",
+  "에스카롤",
+  "프리제",
+  "Endive",
+  "Escarole",
+  "Curly endive",
+  "Frisée",
+  "Garden endive"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "앤디브(Cichorium endivia L.)는 국화과(Asteraceae) 치커리속의 잎채소로, 잎이 가늘고 깊게 갈라진 곱슬잎형(프리제, var. crispum)과 잎이 넓고 덜 갈라진 넓은잎형(에스카롤, var. latifolium)으로 나뉜다[2]. 두 유형 모두 생채소 샐러드나 포장 샐러드로 먹으며, 소비가 특히 늘어난 유럽에서는 이탈리아·스페인·프랑스가 치커리속 채소의 대표 국가로 꼽힌다[2].\n\n식품의약품안전처 「식품원료 목록」에서 앤디브는 식품에 사용할 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 잎'이다[1]. 목록의 원료명은 '앤디브잎'이고, 이명 '에스케롤'과 영문명 Endive·Escarole endive·Garden endive·White chicory가 함께 적혀 있다[1]. 같은 목록 자료에서 다른 나라 목록이나 건강기능식품 고시형 원료의 원재료로 표시된 기록은 없다[1].\n\n앤디브 잎의 쓴맛은 락투신·락투코피크린 같은 세스퀴테르펜 락톤에서 오며, 곱슬잎형의 총량이 넓은잎형보다 약 2.4배 많았다[2]. 잎에는 치코르산·카페오일퀸산 같은 페놀산과 캠페롤 배당체도 많다[8, 11]. 같은 속의 치커리(Cichorium intybus)와 그 재배형인 위트루프(벨기에 엔다이브)·라디치오는 앤디브와 다른 종이므로 자료를 섞지 않아야 한다[4, 31]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "앤디브의 기원은 아직 확실히 정리되지 않았다[4, 36]. 치커리속은 널리 재배되는 치커리(C. intybus)와 앤디브(C. endivia), 야생종 C. bottae·C. spinosum·C. calvum·C. pumilum으로 이루어지며, AFLP 분석에서 앤디브는 C. pumilum·C. calvum과 한 무리로 묶였다[36]. 2022년 유전체 비교 연구는 치커리가 앤디브의 조상이라는 기존 가설을 받아들이지 않았다[4]. 2025년 ddRAD 분석에서도 제꽃가루받이를 하는 앤디브·C. pumilum은 자가불화합성인 치커리·C. spinosum과 유전적으로 구분되었다[37].\n\n약용 전통도 남아 있다[34]. 이집트 시나이 사막 베두인 전통 의학에서 쓰는 식물 61종을 조사한 연구에서 앤디브 메탄올 추출물은 사람 림프종 세포에 비교적 강한 세포독성을 보인 식물 가운데 하나였다(시험관 결과)[34]. 앤디브는 지중해 지역에서 널리 먹는 식용 식물로도 소개된다[16].\n\n이탈리아 캄파니아주에서는 에스카롤 재배가 지역 경제의 중요한 활동으로 소개된다[9]. 한국에 언제 들어왔는지와 국내 고문헌 기록은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "앤디브는 염색체 수 2n = 2x = 18의 한해살이 식물로, 지중해 위도에서는 5–8월에 꽃이 핀다[2]. 잎이 뭉쳐 로제트(포기)를 이룬 뒤 꽃대가 올라와 보라색 꽃을 피우며, 제꽃가루받이가 우세해 타가수분율은 1% 정도다[2]. 그래서 자연 집단은 동형접합성이 높은 계통들이 섞인 형태다[2].\n\n곱슬잎형은 가운데 잎맥이 좁고 잎몸이 깊게 갈라지며, 넓은잎형(에스카롤)은 연한 녹색 잎에 굵은 가운데 잎맥과 넓고 조금 갈라진 잎몸, 톱니 모양 가장자리를 가진다[2]. 유전자 SNP 분석에서도 두 유형은 뚜렷이 다른 두 계통군으로 나뉘었다[2, 6].\n\n저장 탄수화물은 치커리와 다르다[22]. 한해살이 앤디브(곱슬잎형)와 두해살이 치커리(위트루프)를 비교한 연구에서 1-케스토스·니스토스·이눌린은 치커리 뿌리에서만 나오고 앤디브 조직에서는 검출되지 않았다[22]. 반면 다른 연구는 과습 스트레스를 받은 앤디브 잎에서 수크로스·케스토스·이눌린이 줄었다고 보고해, 잎의 프럭탄 유무는 연구마다 다르다[23]. 뿌리에서는 구아이아놀라이드·저마크라놀라이드·엘레마놀라이드형 세스퀴테르펜과 그 배당체 23종(새 화합물 12종)이 분리되었다[30]. 곱슬잎형 뿌리에서도 세스퀴테르펜 락톤 13종(새 구아이아놀라이드 1종 포함)과 페놀산 에스터 3종이 보고되었다[29]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "치커리속(Cichorium)은 재배종인 치커리(C. intybus)·앤디브와 야생종 C. bottae·C. spinosum·C. calvum·C. pumilum으로 이루어지며, 앤디브는 C. pumilum·C. calvum과 유전적으로 가깝다[36]. 시장에서 '엔다이브'라고 부르는 벨기에 엔다이브(위트루프, C. intybus var. foliosum)와 붉은 라디치오는 치커리의 재배형으로, 앤디브(C. endivia)와는 다른 종이다[31, 37]. 이탈리아의 카스텔프랑코 치커리는 치커리(var. silvestre)와 에스카롤(C. endivia var. latifolium)을 교잡해 얻은 채소로 소개된다[31].\n\n국화과 작물 전사체 비교에서 치커리와 앤디브 사이에 유전자 이입(introgression)의 흔적이 확인되었다[7]. 엽록체 유전체 계통 분석에서 앤디브는 치커리속 안에서 다른 종과 잘 구분되는 별도 계통을 이루었다[5]. 세스퀴테르펜 락톤 생합성 효소(저마크렌 A 합성효소·산화효소, 코스투놀라이드 합성효소) 계통수에서는 앤디브·치커리·상추(Lactuca sativa) 단백질이 서로 가깝게 묶였다[2].\n\n치커리 뿌리의 이눌린은 앤디브에 그대로 적용할 수 없다[22]. 이 문서의 성분·안전 자료는 앤디브 잎(일부는 뿌리·종자) 연구만 모았다[2, 8, 9]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "앤디브는 대부분 노지에서 기르며, 수확 직전 폭우로 인한 과습에 약해 품종에 따라 포기 무게가 6–35% 줄었다[23]. 이탈리아 라치오주 시험에서는 8월 말 육묘장에 파종하고 3주 된 모종을 1 m²당 8.2주로 밭에 옮겨 심어 11월 하순에 수확했다[2]. 상업 품종은 대부분 반복 자가수분으로 만든 순계이고, 육종은 이른 꽃대 올라옴(추대) 저항성, 잎끝마름·뿌리썩음·흰가루병 저항성, 영양·맛·저장성 향상을 목표로 한다[2].\n\n이탈리아 캄파니아주는 에스카롤의 주요 생산지로 소개되지만, 해당 논문이 인용한 재배 면적·생산량 수치는 기준 연도와 원 통계가 밝혀져 있지 않아 싣지 않는다[9]. 이탈리아 북부에서는 Fusarium oxysporum에 의한 시들음병이 보고되어 농가마다 포기의 약 40%가 증상을 보였다[32]. 스페인 노지 재배 연구는 앤디브를 날로 또는 익혀 먹는 인기 채소로 소개하고, 브라시노스테로이드 유사체 살포가 수량과 총페놀을 높였다고 보고했다[35].\n\n국내의 앤디브 재배 면적·생산량 공식 통계와 지리적 표시 등록은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "앤디브는 생채소 샐러드나 최소가공 포장 샐러드로 주로 소비된다[2]. 신선편이 제품은 잎이 갈변하기 쉬운데, 6 °C 저장 중 주요 페놀을 추적한 연구에서 가장 많은 페놀인 치코르산 함량이 저장 첫 24시간 동안 크게 변했다[13]. 국내 연구에서는 엔다이브를 2 °C에서 20일간 저장하며 포장 방법을 비교해, 종이상자 안을 HDPE 필름으로 속포장한 처리에서 중량 감소가 가장 적고 외관이 가장 좋았다[25].\n\n출하 과정에서 버려지는 겉잎도 연구 대상이다[9]. 이탈리아 캄파니아의 에스카롤 3품종 겉잎을 80% 에탄올로 초음파 추출하면 수율은 3–4%였고, 추출물에서 페놀산·플라보놀·세스퀴테르펜 락톤 등 35종이 확인되었다[9]. 끓이기·냉동·동결건조가 치커리속 채소의 수용성 항산화·산화촉진 활성에 주는 영향도 에스카롤과 곱슬잎형을 포함해 조사되었다[31].\n\n식약처 「식품 등의 생산실적」에서 앤디브를 원료로 한 건강기능식품 생산 실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "앤디브 유전체는 2022년에 염색체 수준으로 조립되었고, 한 연구는 641 Mb(콘티그 N50 5.16 Mb)에 단백질 암호화 유전자 46,711개를 보고했다[3]. 같은 해 다른 연구는 0.89 Gb로 조립했고, 치커리(1.28 Gb)와의 크기 차이는 주로 LTR 레트로트랜스포존 때문이라고 했다[4]. 두 연구의 유전체 크기가 달라 둘 다 적는다[3, 4]. 앤디브·치커리·우엉 유전체는 공통의 전유전체 3배화(WGT-1)를 겪은 것으로 나타났다[4].\n\n테르펜 합성효소 유전자군이 크게 늘어나 있고, 쓴맛이 강한 품종에서 세스퀴테르펜 락톤 생합성 유전자의 발현이 높았다[3]. 엽록체 유전체(품종 'Confiance')는 152,809 bp이고 유전자 136개(단백질 암호화 90, tRNA 38, rRNA 8)를 가진다[5]. 곱슬잎형 'Domari'의 전사체는 유니진 77,022개로 조립되었고, SNP 3,177개가 곱슬잎형과 넓은잎형을 구분했다[2].\n\nRAD 시퀀싱으로 얻은 SNP 4,621개는 육종 계통 32개를 모두 구별했고, 잎 모양을 가르는 표지 24개가 상추 8번 염색체 끝부분 49.6 Mb 구간에 대응되었다[6]. 플라보노이드 배당화 효소 유전자(CeUGT)를 앤디브에서 찾아 대장균에서 발현시킨 연구도 있다[33]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "앤디브는 흔히 먹는 채소이며, 전초 에탄올 추출물의 60% 에탄올 용출 분획을 생쥐에 5,000 mg/kg 한 번 먹인 급성 경구 독성시험에서 LD50은 5,000 mg/kg보다 커 사실상 독성이 없다고 평가되었으나, 저자들은 추가 독성 연구로 확인해야 한다고 밝혔다[15]. 다만 국화과 식물의 세스퀴테르펜 락톤은 접촉 알레르기의 주요 원인이며, 국화과 접촉 알레르기를 정리한 총설은 식용 국화과 가운데 상추와 앤디브의 감작 비율을 20–30%로 제시했다[19]. 샐러드용 치커리속 채소를 다루는 사람에게서 직업성 접촉피부염이 보고되었고, 치커리 즉시형 알레르기 환자가 앤디브·상추를 먹은 뒤에도 반응한 사례가 있다[20, 21].\n\n잎채소는 질산염이 많은 편이다[18]. 이탈리아 시장 조사에서 앤디브와 상추를 섞은 그린샐러드의 질산염 최고치는 4,200 mg/kg이었고, 평균 섭취량은 1일 섭취허용량(질산 이온 3.7 mg/kg 체중) 아래였다[18]. 이탈리아 두 지역에서 기른 앤디브의 질산염 함량은 위험 기준보다 반복적으로 낮았다[17].\n\n날로 먹는 포장 샐러드는 미생물 관리가 중요하다[26]. 아일랜드 슈퍼마켓 조사에서 곱슬잎형·에스카롤·라디치오가 섞인 샐러드 잎 등 신선편이 제품에서 리스테리아 모노사이토제네스가 분리되었다[26]. 슬로베니아의 2009년 조사에서 앤디브를 포함한 농산물 170점은 농약 최대잔류허용기준을 넘지 않았다[27]. 국내 공공기관의 앤디브 알레르기·잔류농약 관련 안전 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Chicoric acid",
+   "name_ko": "치코르산(디카페오일타르타르산)",
+   "class": "페놀산(하이드록시신남산 유도체)",
+   "role": "marker",
+   "part": "잎(에스카롤)",
+   "content_text": "잎 페놀 화합물 가운데 가장 많음(페놀산이 총 페놀의 약 70%); 개별 수치는 표에 있어 확인하지 못함[8]",
+   "activity_ko": "신선편이 저장 중 가장 많은 페놀로, 저장 첫 24시간 동안 함량이 크게 변함[13]",
+   "source": [
+    8,
+    13
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산(5-O-카페오일퀸산)",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎(곱슬잎형·넓은잎형); 종자",
+   "content_text": "두 변종 모두에서 확인(정성)[10]",
+   "activity_ko": "종자 추출물에서 OH 라디칼 소거능이 시나린보다 강함(시험관)[28]",
+   "source": [
+    10,
+    28
+   ]
+  },
+  {
+   "name": "Caftaric acid",
+   "name_ko": "카프타르산(카페오일타르타르산)",
+   "class": "페놀산(하이드록시신남산 유도체)",
+   "role": "bioactive",
+   "part": "잎(에스카롤)",
+   "content_text": "잎에서 정량(카페산 당량), 수치 확인하지 못함[8]; cis-카프타르산은 var. latifolium에서 특징적으로 확인[10]",
+   "activity_ko": "에스카롤 잎의 주요 페놀산 가운데 하나[8]",
+   "source": [
+    8,
+    10
+   ]
+  },
+  {
+   "name": "3,5-Dicaffeoylquinic acid",
+   "name_ko": "3,5-디카페오일퀸산",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎(곱슬잎형)",
+   "content_text": "var. crispum에서 특징적으로 확인(정성)[10]",
+   "activity_ko": "곱슬잎형과 넓은잎형을 구분하는 페놀 성분으로 보고됨[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Cynarin",
+   "name_ko": "시나린(1,3-디카페오일퀸산)",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "bioactive",
+   "part": "종자",
+   "content_text": "종자 추출물에서 확인(함량 수치 없음)[28]",
+   "activity_ko": "종자 추출물에서 DPPH·ABTS 라디칼 소거능이 클로로겐산보다 강함(시험관)[28]",
+   "source": [
+    28
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-glucuronide",
+   "name_ko": "캠페롤 3-O-글루쿠로나이드",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎(에스카롤)",
+   "content_text": "잎에서 가장 많은 플라보놀(플라보놀이 총 페놀의 약 30%); 개별 수치는 표에 있어 확인하지 못함[8]",
+   "activity_ko": "캠페롤 유도체가 겉잎 추출물에서 가장 많은 폴리페놀로 정량됨[9]",
+   "source": [
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-(6''-O-malonyl)glucoside",
+   "name_ko": "캠페롤 3-O-(6″-O-말로닐)글루코사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "에스카롤 잎에서 두 번째로 많은 플라보놀[8]",
+   "activity_ko": "곱슬잎형·에스카롤 유전자원에서 쓴맛·떫은맛·풀냄새 지각과 일관되게 관련[12]",
+   "source": [
+    8,
+    12
+   ]
+  },
+  {
+   "name": "Astragalin",
+   "name_ko": "아스트라갈린(캠페롤 3-O-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "전초 추출물",
+   "content_text": "추출물에서 분리(함량 수치 없음)[15]",
+   "activity_ko": "ORAC 항산화 활성(시험관); 이 화합물을 분리한 추출물(CEE)은 간세포·생쥐 산화 손상을 줄임[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Lactucin",
+   "name_ko": "락투신",
+   "class": "세스퀴테르펜 락톤(구아이아놀라이드)",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "락투신류 합계(LcTOT) 곱슬잎형 1453.5 ± 548.5, 넓은잎형 584.1 ± 73.8 mg/kg 건물[2]",
+   "activity_ko": "쓴맛 성분; 곱슬잎형이 넓은잎형보다 3.7배 많아 두 유형을 가르는 지표[2]",
+   "source": [
+    2,
+    9
+   ]
+  },
+  {
+   "name": "Lactucopicrin",
+   "name_ko": "락투코피크린",
+   "class": "세스퀴테르펜 락톤(구아이아놀라이드)",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "락투코피크린류 합계(LpTOT) 곱슬잎형 786.4 ± 186.8, 넓은잎형 346.7 ± 113.1 mg/kg 건물[2]",
+   "activity_ko": "앤디브 쓴맛 지각에 지배적 영향[2, 12]; 순수 화합물이 생쥐 대식세포의 거품세포 형성을 억제하고 고지방식 ApoE 결손 생쥐 동맥경화반의 거품세포를 줄임(세포·동물, 앤디브 섭취 연구 아님)[14]",
+   "source": [
+    2,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "8-Deoxylactucin",
+   "name_ko": "8-데옥시락투신",
+   "class": "세스퀴테르펜 락톤(구아이아놀라이드)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎에서 정량했으나 개별 수치는 표에 있어 확인하지 못함[2]",
+   "activity_ko": "곱슬잎형('Domari'·'Myrna')에서 넓은잎형보다 많음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "11beta,13-Dihydrolactucin",
+   "name_ko": "11β,13-디하이드로락투신",
+   "class": "세스퀴테르펜 락톤(구아이아놀라이드)",
+   "role": "bioactive",
+   "part": "겉잎 추출물; 잎",
+   "content_text": "'Leonida' 겉잎 추출물에서 가장 많은 세스퀴테르펜 락톤(락투신 당량), 수치는 표에 있어 확인하지 못함[9]",
+   "activity_ko": "세스퀴테르펜이 많은 'Leonida' 추출물이 대식세포 IL-6 분비를 약 40% 줄임(시험관)[9]",
+   "source": [
+    2,
+    9
+   ]
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "β-시토스테롤",
+   "class": "식물스테롤",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "총 스테롤 106.3–176.0 mg/kg 생체중 중 45–56%[17]",
+   "activity_ko": "앤디브 잎 스테롤의 주성분[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Stigmasterol",
+   "name_ko": "스티그마스테롤",
+   "class": "식물스테롤",
+   "role": "nutrient",
+   "part": "잎; 전초 추출물",
+   "content_text": "총 스테롤 중 38–43%[17]",
+   "activity_ko": "에탄올 추출물에서 분리된 성분 가운데 하나[16]",
+   "source": [
+    16,
+    17
+   ]
+  },
+  {
+   "name": "Phylloquinone",
+   "name_ko": "필로퀴논(비타민 K1)",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "잎(생)",
+   "content_text": "231 µg/100 g(USDA 값, WebSearch 요약으로만 확인)[24]",
+   "activity_ko": "혈액 응고에 필요한 비타민; 함량 수치만 확인[24]",
+   "source": [
+    24
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Lactucopicrin",
+   "compound_ko": "락투코피크린(세스퀴테르펜 락톤 6종 동시: 락투신·8-데옥시락투신·락투코피크린과 각 11,13-디하이드로체)",
+   "part": "잎(겉잎을 뗀 로제트 잎) 동결건조물",
+   "content": "총 세스퀴테르펜 락톤 곱슬잎형 2239 ± 531, 넓은잎형 930.8 ± 181.7 mg/kg 건물; LpTOT 786.4 ± 186.8 vs 346.7 ± 113.1, LcTOT 1453.5 ± 548.5 vs 584.1 ± 73.8 mg/kg 건물[2]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Thermo-Finnigan HPLC(4원 펌프, DAD 검출기)",
+    "column": "C18 Kinetex, 250 × 4.60 mm, 5 µm",
+    "mobile_phase": "A: 메탄올/물 14:86 (v/v), B: 메탄올/물 64:36 (v/v)",
+    "gradient": "0–20분 A 100→58%; 20–30분 58% A; 30–45분 58→0% A; 45–50분 0% A; 50–52분 0→100% A; 52–62분 100% A",
+    "flow": "0.5 mL/min",
+    "temp": "",
+    "detection": "UV 260 nm",
+    "injection": "80 µL",
+    "sample_prep": "동결건조 잎 2 g + 메탄올/물(80:20, v/v)·2% 포름산 50 mL + 내부표준 산토닌 용액 3 mL, 80 °C에서 15분 진탕(1000 g/min) 초음파 보조 추출 3회(총 150 mL) → 감압 건고 → 메탄올/디클로로메탄(1:7) 재용해 → 고상추출(SPE) 칼럼, 디클로로메탄/에틸아세테이트(3:2) 6 mL 용출 → 50 kHz 초음파 30분(37 °C) → 메탄올 4 mL 첨가",
+    "standard": "내부표준 산토닌 101.7 µg/mL(3 mL 첨가)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "락투신·락투코피크린류는 앤디브 잎의 대표 세스퀴테르펜 락톤으로 쓴맛을 결정하고 곱슬잎형과 넓은잎형을 가르는 지표다[2]. 칼럼 온도·검출한계·정량한계·회수율은 본문에 없어 비워 둠.",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6312536/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chicoric acid",
+   "compound_ko": "치코르산(페놀산 10종·플라보놀 5종 동시)",
+   "part": "잎(에스카롤, 세균 비료 접종 후 60일 온실 재배) 동결건조물",
+   "content": "페놀 15종(페놀산 10, 플라보놀 5) 정량; 페놀산이 총 페놀의 약 70%로 치코르산이 가장 많고, 플라보놀은 약 30%로 캠페롤 3-O-글루쿠로나이드가 가장 많음; 개별 수치(g/kg 건물)는 표에 있어 확인하지 못함[8]",
+   "method": "HPLC-DAD-ESI-MS/MS",
+   "conditions": {
+    "instrument": "Hewlett-Packard 1200 시리즈 액체크로마토그래프(Agilent) + API 3200 Qtrap(ESI, 삼중사중극자-이온트랩)",
+    "column": "Spherisorb S3 ODS-2 C18 역상, 150 × 4.6 mm, 3 µm (Waters)",
+    "mobile_phase": "A: 포름산 수용액(원문 농도 표기 '0.1 mL L', 단위 위첨자 확인 못함), B: 아세토니트릴",
+    "gradient": "",
+    "flow": "",
+    "temp": "35 °C",
+    "detection": "DAD 280·330·370 nm(전 스펙트럼 220–600 nm); 정량 280 nm(프로토카테쿠산 유도체)·330 nm(카페산 유도체·치코르산)·360 nm(플라본·플라보놀); MS 음이온 모드 m/z 100–1700, 전주사·MS/MS",
+    "injection": "",
+    "sample_prep": "동결건조 시료 5 mg을 메탄올:물(80:20)로 초음파 추출 3회, 상등액 합쳐 헥산 액액분배로 정제, 감압 농축해 최종 2 mL",
+    "standard": "외부표준법: 프로토카테쿠산 유도체는 갈산 당량, 카페산 유도체는 카페산 당량, 캠페롤·퀘르세틴 유도체는 각각 'kaempferol 3-O-glucuoside'(원문 표기, 글루쿠로나이드/글루코사이드 불분명)·퀘르세틴 3-O-글루코사이드 당량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "치코르산은 에스카롤 잎에서 가장 많은 페놀 화합물이라 페놀 조성의 지표로 쓰였다[8]. 기울기·유속·주입량은 선행 문헌을 인용해 본문에 없고, 검출·정량한계·회수율도 없어 비워 둠.",
+   "source": [
+    8
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7919373/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "11beta,13-Dihydrolactucin",
+   "compound_ko": "세스퀴테르펜 락톤(디하이드로락투신 등, 락투신 당량)",
+   "part": "겉잎(버려지는 잎) 80% 에탄올 초음파 추출물, 동결건조",
+   "content": "'Leonida'가 세스퀴테르펜이 가장 많고 'Capriccio'가 가장 적음; 디하이드로락투신과 그 이성질체가 'Leonida'에서 가장 많음; 수치는 표에 있어 확인하지 못함[9]",
+   "method": "UHPLC-HRMS (Q-Orbitrap)",
+   "conditions": {
+    "instrument": "Thermo UltiMate 3000 UHPLC + Q Exactive 하이브리드 사중극자-오비트랩 질량분석기",
+    "column": "Luna C 계열 역상 칼럼(첨자 표기 손실), 150 × 2 mm, 3 µm, 100 Å (Phenomenex)",
+    "mobile_phase": "A: 0.1% (v/v) 포름산 수용액, B: 아세토니트릴",
+    "gradient": "B 5% → 50%(25분, 직선)",
+    "flow": "",
+    "temp": "",
+    "detection": "고분해능 질량분석(Q Exactive); 정량 이온·모드는 본문에 없음. 정성 분석(양·음이온 모드)에서 락투신 [M+H]+ m/z 277.1070, 락투코피크린 [M+H]+ m/z 411.1448",
+    "injection": "",
+    "sample_prep": "냉동 겉잎 100 g + 에탄올/물(80:20, v/v) 600 mL, 침지형 초음파기 40 kHz로 50분 추출 → 여과·30 °C 감압 농축 → 동결건조(수율 3–4%)",
+    "standard": "락투신 표준품 당량으로 정량(락투신은 표준품과 동시 용출로 확인)",
+    "linearity": "화합물마다 기기 응답의 직선성을 확인했다고만 기재(수치 없음)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "세스퀴테르펜 락톤은 치커리속 특유 성분으로, 이 성분이 가장 많은 'Leonida' 추출물이 세포 항산화·항염 효과도 가장 컸다고 저자들이 해석했다[9]. 정량 조건의 유속(정성 분석은 0.2 mL/min)·칼럼 온도·주입량·검출한계·정량한계·회수율은 본문에 없어 비워 둠.",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10376668/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Kaempferol 3-O-(6''-O-malonyl)glucoside",
+   "compound_ko": "캠페롤 유도체(말로닐헥소사이드·헥소사이드·우로나이드, 캠페롤 당량)",
+   "part": "겉잎(버려지는 잎) 80% 에탄올 초음파 추출물, 동결건조",
+   "content": "'Performance'가 캠페롤 유도체가 가장 많고, 말로닐헥소사이드·헥소사이드·우로나이드 결합체가 가장 많음; 수치는 표에 있어 확인하지 못함[9]",
+   "method": "UPLC-MS/MS (MRM)",
+   "conditions": {
+    "instrument": "Shimadzu Nexera X2 UPLC + ABSCIEX API 6500 QTRAP 질량분석기(양·음이온 모드)",
+    "column": "Luna Omega C 계열 역상 칼럼(첨자 표기 손실), 100 × 2 mm, 1.7 µm, 100 Å (Phenomenex)",
+    "mobile_phase": "A: 0.1% (v/v) 포름산 수용액, B: 아세토니트릴",
+    "gradient": "B 5% → 50%(15분)",
+    "flow": "",
+    "temp": "",
+    "detection": "MRM 모드(화합물별 최적화 조건)",
+    "injection": "",
+    "sample_prep": "냉동 겉잎 100 g + 에탄올/물(80:20, v/v) 600 mL, 침지형 초음파기 40 kHz로 50분 추출 → 여과·30 °C 감압 농축 → 동결건조",
+    "standard": "각 아글리콘(캠페롤) 당량으로 정량",
+    "linearity": "화합물마다 기기 응답의 직선성을 확인했다고만 기재(수치 없음)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "캠페롤 유도체는 세 품종 추출물 모두에서 가장 많은 폴리페놀이었고, 함량이 높은 품종이 라디칼 소거능도 약 3배 높았다[9]. 유속·온도·주입량·검출한계·정량한계·회수율은 본문에 없어 비워 둠.",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10376668/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "앤디브 잎·생(USDA SR Legacy 'Endive, raw', FDC ID 168412; WebSearch 요약으로만 확인)",
+   "basis": "가식부 100 g",
+   "items": [
+    {
+     "name": "칼륨",
+     "value": 314,
+     "unit": "mg"
+    },
+    {
+     "name": "엽산",
+     "value": 142,
+     "unit": "μg"
+    },
+    {
+     "name": "비타민 K",
+     "value": 231,
+     "unit": "μg"
+    }
+   ],
+   "source": [
+    24
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 앤디브(Cichorium endivia L.)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Transcriptome driven characterization of curly- and smooth-leafed endives reveals molecular differences in the sesquiterpenoid pathway. Hortic Res. 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6312536/",
+   "publisher": "Springer Nature (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "The chromosome-scale assembly of endive (Cichorium endivia) genome provides insights into the sesquiterpenoid biosynthesis. Genomics. 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35691507/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The genomes of chicory, endive, great burdock and yacon provide insights into Asteraceae palaeo-polyploidization history and plant inulin production. Mol Ecol Resour. 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35751596/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "The Chloroplast Genome of Endive (Cichorium endivia L.): Cultivar Structural Variants and Transcriptome Responses to Stress Due to Rain Extreme Events. Genes (Basel). 2023",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10531310/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Genotyping by RAD Sequencing Analysis Assessed the Genetic Distinctiveness of Experimental Lines and Narrowed Down the Genomic Region Responsible for Leaf Shape in Endive (Cichorium endivia L.). Genes (Basel). 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231076/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Genomics of Compositae crops: reference transcriptome assemblies and evidence of hybridization with wild relatives. Mol Ecol Resour. 2014",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24103297/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Bacterial Fertilizers Based on Rhizobium laguerreae and Bacillus halotolerans Enhance Cichorium endivia L. Phenolic Compound and Mineral Contents and Plant Development. Foods. 2021",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7919373/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Characterization of Health Beneficial Components in Discarded Leaves of Three Escarole (Cichorium endivia L.) Cultivar and Study of Their Antioxidant and Anti-Inflammatory Activities. Antioxidants (Basel). 2023",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10376668/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Hydroxycinnamic acid derivatives occurring in Cichorium endivia vegetables. J Pharm Biomed Anal. 2008",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18515031/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Identification of phenolic constituents in Cichorium endivia var. crispum and var. latifolium salads by HPLC-DAD and ESI-MS/MS. J Agric Food Chem. 2012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23157223/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "The impact of sesquiterpene lactones and phenolics on sensory attributes: An investigation of a curly endive and escarole germplasm collection. Food Chem. 2016",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26775966/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Fine monitoring of major phenolic compounds in lettuce and escarole leaves during storage. J Food Biochem. 2019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31353660/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Terpene Lactucopicrin Limits Macrophage Foam Cell Formation by a Reduction of LOX-1 in Lipid Rafts. Mol Nutr Food Res. 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34932892/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Hepatoprotective activity of Cichorium endivia L. extract and its chemical constituents. Molecules. 2011",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6264765/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Potential Gonado-Protective Effect of Cichorium endivia and Its Major Phenolic Acids against Methotrexate-Induced Testicular Injury in Mice. Biomedicines. 2022",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9406180/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Influence of cultivation sites on sterol, nitrate, total phenolic contents and antioxidant activity in endive and stem chicory edible products. Int J Food Sci Nutr. 2016",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27575665/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Determination of nitrates by a novel ion chromatographic method: occurrence in leafy vegetables (organic and conventional) and exposure assessment for Italian consumers. Food Addit Contam. 2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13129772/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "[Compositae dermatitis]. Med Pregl. 2003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12793186/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Occupational contact dermatitis from Cichorium (chicory, endive) and Lactuca (lettuce). Contact Dermatitis. 1975",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/139250/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Inhalative occupational and ingestive immediate-type allergy caused by chicory (Cichorium intybus). Clin Exp Allergy. 1996",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8877160/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Comparison of carbohydrate partitioning and expression patterns of some genes involved in carbohydrate biosynthesis pathways in annual and biennial species of Cichorium spp. Phytochemistry. 2021",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33360645/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Leaf nutrient content and transcriptomic analyses of endive (Cichorium endivia) stressed by downpour-induced waterlog reveal a gene network regulating kestose and inulin contents. Hortic Res. 2021",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8087766/",
+   "publisher": "Springer Nature (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "USDA FoodData Central — Endive, raw (SR Legacy, FDC ID 168412) (WebSearch 요약으로만 확인: USDA 값을 인용한 제3자 사이트 요약이며 USDA 원문은 네트워크 허용 목록 밖이라 열지 못함)",
+   "url": "https://fdc.nal.usda.gov/food-details/168412/nutrients",
+   "publisher": "미국 농무부(USDA) 농업연구청",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Changes in Freshness of Endive (Cichorium endivia L.) by Different Packaging Types. 한국포장학회지. 2016 (원문 미열람, WebSearch 초록 요약으로 2 °C·20일·HDPE 속포장 결과만 확인)",
+   "url": "https://koreascience.or.kr/article/JAKO201610958456978.page",
+   "publisher": "KoreaScience(한국과학기술정보연구원)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Isolation and pulsed-field gel electrophoresis typing of Listeria monocytogenes from modified atmosphere packaged fresh-cut vegetables collected in Ireland. J Food Prot. 2006",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17066939/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Pesticide residues in cauliflower, eggplant, endive, lettuce, pepper, potato and wheat of the Slovene origin found in 2009. Acta Chim Slov. 2010",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24061906/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Screening and evaluation of active compounds in polyphenol mixtures by HPLC coupled with chemical methodology and its application. Food Chem. 2017",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28274421/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Sesquiterpenoids and phenolics from roots of Cichorium endivia var. crispum. Fitoterapia. 2006",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16797141/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Sesquiterpenes from the roots of Cichorium endivia. Chem Pharm Bull (Tokyo). 2008",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18827387/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Anti- and pro-oxidant water soluble activity of Cichorium genus vegetables and effect of thermal treatment. J Agric Food Chem. 2002",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12137499/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "First Report of Fusarium Wilt of Endive (Cichorium endivia) Caused by Fusarium oxysporum in Italy. Plant Dis. 2009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30754361/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Identification of a novel glycosyltransferase from Cichorium endivia L. and its application in the synthesis of fisetin-3'-O-glucoside. Int J Biol Macromol. 2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40615004/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "The traditional medical uses and cytotoxic activities of sixty-one Egyptian plants: discovery of an active cardiac glycoside from Urginea maritima. J Ethnopharmacol. 2013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23228916/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Effects of brassinosteroid analogues on total phenols, antioxidant activity, sugars, organic acids and yield of field grown endive (Cichorium endivia L.). J Sci Food Agric. 2013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23184906/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "A search for diagnostic AFLP markers in Cichorium species with emphasis on endive and chicory cultivar groups. Genome. 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10902710/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "A pioneering genotypic and phylogenetic characterisation of Cichorium crops through a genome-scale sequencing for future breeding innovations. BMC Plant Biol. 2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40610864/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

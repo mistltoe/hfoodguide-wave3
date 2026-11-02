@@ -1,0 +1,164 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pmc(p): return f"https://pmc.ncbi.nlm.nih.gov/articles/{p}/"
+def doi(d): return f"https://doi.org/{d}"
+S = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 니거(Guizotia abyssinica (L.f.) Cass.), 원료명 니거씨앗", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Plants of the World Online — Guizotia abyssinica (L.f.) Cass. (WebSearch 요약으로만 확인, 페이지 직접 열람 못함)", "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:210735-1", "Royal Botanic Gardens, Kew", A),
+ ("BSBI 종 정보 — Guizotia abyssinica (WebSearch 요약으로만 확인, 페이지 직접 열람 못함)", "https://bsbi.org/taxa/2cd4p9h.k0a/guizotia-abyssinica", "Botanical Society of Britain and Ireland", A),
+ ("Patterns of domestication in the Ethiopian oil-seed crop noug (Guizotia abyssinica). Evol Appl 2015 (PMC 전문)", pmc("PMC4430770"), "Evolutionary Applications (Wiley), doi:10.1111/eva.12256", A),
+ ("Nutritional Profile of the Ethiopian Oilseed Crop Noug (Guizotia abyssinica Cass.): Opportunities for Its Improvement as a Source for Human Nutrition. Foods 2021;10:1778 (PMC 전문)", pmc("PMC8393925"), "Foods (MDPI), doi:10.3390/foods10081778", A),
+ ("Fatty acid composition, total phenolic and total flavonoid contents, and antioxidant activity of Niger seed (Guizotia abyssinica) accessions collected from major producer areas of Ethiopia. PLoS One 2025 (PMC 전문)", pmc("PMC11729926"), "PLoS One, doi:10.1371/journal.pone.0317397", A),
+ ("Mineral and Anti-Nutritional Contents of Niger Seed (Guizotia abyssinica (L.f.) Cass.), Linseed and Sesame Varieties Grown in Ethiopia. Foods 2017;6(4):27 (PMC 전문)", pmc("PMC5409315"), "Foods (MDPI), doi:10.3390/foods6040027", A),
+ ("SNP-based linkage mapping reveals novel quantitative trait loci for yield traits in noug (Guizotia abyssinica (L. f.) Cass.). Front Plant Sci 2025 (PMC 전문)", pmc("PMC12454408"), "Frontiers in Plant Science, doi:10.3389/fpls.2025.1662582", A),
+ ("Transcriptome analysis identifies genes regulating self-compatibility, flowering time, and oil biosynthesis in Noug (Guizotia abyssinica). Sci Rep 2025 (PMC 전문)", pmc("PMC12432173"), "Scientific Reports, doi:10.1038/s41598-025-18728-x", A),
+ ("RNA-Seq Provides Novel Genomic Resources for Noug (Guizotia abyssinica) and Reveals Microsatellite Frequency and Distribution in Its Transcriptome. Front Plant Sci 2022 (PubMed 초록)", doi("10.3389/fpls.2022.882136"), "Frontiers in Plant Science", A),
+ ("New Transcriptome-Based SNP Markers for Noug (Guizotia abyssinica) and Their Conversion to KASP Markers for Population Genetics Analyses. Genes 2020;11:1373 (PubMed 초록)", doi("10.3390/genes11111373"), "Genes (MDPI)", A),
+ ("Analysis of genetic diversity and population structure of oilseed crop noug (Guizotia abyssinica) accessions collected from Ethiopia. Mol Biol Rep 2022 (PubMed 초록)", doi("10.1007/s11033-022-08005-9"), "Molecular Biology Reports (Springer)", A),
+ ("Establishing genomic tools and resources for Guizotia abyssinica (L.f.) Cass. — EST library, microsatellite loci, and chloroplast genome. Mol Ecol Resour 2010 (PubMed 초록)", doi("10.1111/j.1755-0998.2010.02859.x"), "Molecular Ecology Resources (Wiley)", A),
+ ("Comparative chloroplast RNA editing analysis in wild and genetically diverse niger (Guizotia abyssinica) genotypes. Gene 2025 (PubMed 초록)", doi("10.1016/j.gene.2025.149797"), "Gene (Elsevier)", A),
+ ("Optimized extraction and quality evaluation of Niger seed oil via microwave-pulsed electric field pretreatments. Food Sci Nutr 2020 (PMC 전문)", pmc("PMC7063364"), "Food Science & Nutrition (Wiley), doi:10.1002/fsn3.1396", A),
+ ("Sterols as a biomarker in tracing niger and sesame seeds oils adulterated with palm oil. Heliyon 2021;7:e06797 (PMC 전문)", pmc("PMC8080039"), "Heliyon (Elsevier), doi:10.1016/j.heliyon.2021.e06797", A),
+ ("Fatty Acid Profile, Total Phenolic Content, and Antioxidant Activity of Niger Seed (Guizotia abyssinica) and Linseed (Linum usitatissimum). Front Nutr 2021 (PubMed 초록)", doi("10.3389/fnut.2021.674882"), "Frontiers in Nutrition", A),
+ ("Functional properties, nutritional value, and industrial applications of Niger Oilseeds (Guizotia abyssinica Cass.). Crit Rev Food Sci Nutr 2012 (PubMed 초록)", doi("10.1080/10408398.2010.486083"), "Critical Reviews in Food Science and Nutrition (Taylor & Francis)", A),
+ ("Optimizing niger seed (Guizotia abyssinica) oil quality: infrared-heat induced changes in bioactive profile, physiochemical attributes, and oxidative stability. J Food Sci 2024 (PubMed 초록)", doi("10.1111/1750-3841.17085"), "Journal of Food Science (Wiley)", A),
+ ("Effect of Locally Manufactured Niger Seed Oil on Lipid Profile Compared to Imported Palm and Sunflower Oils on Rat Models. J Lipids 2018 (PubMed 초록)", doi("10.1155/2018/7846350"), "Journal of Lipids (Hindawi)", A),
+ ("Assessment of quality of edible vegetable oils accessed in Gondar City, Northwest Ethiopia. BMC Res Notes 2019 (PubMed 초록)", doi("10.1186/s13104-019-4831-x"), "BMC Research Notes", A),
+ ("Microbial quality assessment of Niger seed (Guizotia abyssinica) oil in Gondar city: A laboratory-based cross-sectional study. PLoS One 2025 (PubMed 초록)", doi("10.1371/journal.pone.0331546"), "PLoS One", A),
+ ("Aflatoxin B1 contamination and fungal diversity in oilseed cakes and formulated feeds from livestock feed markets in Addis Ababa and surrounding areas. Mycotoxin Res 2026 (PubMed 초록)", doi("10.1007/s12550-025-00630-0"), "Mycotoxin Research (Springer)", A),
+ ("Level of aflatoxins in dairy feeds, poultry feeds, and feed ingredients produced by feed factories in Addis Ababa, Ethiopia. Mycotoxin Res 2024 (PubMed 초록)", doi("10.1007/s12550-024-00531-8"), "Mycotoxin Research (Springer)", A),
+ ("Asthma induced by canary food mix. Allergy Asthma Proc 2003;24(4):265-8 (PubMed 초록)", "https://pubmed.ncbi.nlm.nih.gov/12974193/", "Allergy and Asthma Proceedings", A),
+ ("In Vitro Antidiabetic, Antioxidant, and Prebiotic Activities of the Chemical Compounds Isolated from Guizotia abyssinica. Antioxidants 2022;11:2482 (PMC 전문)", pmc("PMC9774103"), "Antioxidants (MDPI), doi:10.3390/antiox11122482", A),
+ ("Development and validation of benomyl birdseed agar for the isolation of Cryptococcus neoformans and Cryptococcus gattii from environmental samples. Med Mycol 2014 (PubMed 초록)", doi("10.1093/mmy/myt028"), "Medical Mycology (Oxford)", A),
+ ("미국 농무부 동식물검역청(APHIS) 유해잡초 규정 개정(2010, 7 CFR 360.400 니거 씨앗 열처리) (WebSearch 요약으로만 확인, 원문 직접 열람 못함)", "https://www.federalregister.gov/documents/2010/11/10/2010-28346/update-of-noxious-weed-regulations", "U.S. Federal Register / USDA APHIS", A),
+ ("Birdseed aliens originating from Niger (Guizotia abyssinica) wild bird food. British & Irish Botany (WebSearch 요약으로만 확인, 원문 직접 열람 못함)", "https://britishandirishbotany.org/index.php/bib/article/view/35", "British & Irish Botany (BSBI)", A),
+ ("Application of acid activated natural clays for improving quality of Niger (Guizotia abyssinica Cass) oil. Heliyon 2022 (PubMed 초록)", doi("10.1016/j.heliyon.2022.e09241"), "Heliyon (Elsevier)", A),
+ ("Improving the quality of used frying niger seed oil with adsorbent treatment. Heliyon 2021 (PubMed 초록)", doi("10.1016/j.heliyon.2021.e06748"), "Heliyon (Elsevier)", A),
+ ("Determining the Optimal Harvesting Moment of Green Forage from Guizotia abyssinica Cultivated as a Catch Crop on Silage. Animals 2024;14:2455 (PubMed 초록)", doi("10.3390/ani14172455"), "Animals (MDPI)", A),
+]
+sources = [dict(n=i+1, title=t, url=u, publisher=p, accessed=a) for i,(t,u,p,a) in enumerate(S)]
+
+sec = {}
+sec["overview"] = ("한눈에 보기",
+"니거(Guizotia abyssinica (L.f.) Cass.)는 국화과(Asteraceae)의 한해살이 기름작물로, 원산지 에티오피아에서는 누그(noug)라고 부른다[1][4]. 식품의약품안전처 「식품원료 목록」에서 니거는 식품에 쓸 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 씨앗', 원료명은 '니거씨앗'이다[1]. 같은 목록 자료에는 건강기능식품 고시형 원료의 원재료나 다른 나라 원료 목록에 올라 있다는 표시가 없다[1].\n\n"
+"씨앗은 기름이 많아 에티오피아 여러 유전형에서 총지질이 32.5–45.7%였고, 지방산의 72.3–77.8%가 필수지방산인 리놀레산이었다[5]. 단백질은 17.8–30.0%로 재배지에 따라 달랐다[5]. 에티오피아와 인도가 주산지이며, 에티오피아에서는 식용유 수요의 60% 넘게를 니거 기름이 채운다는 보고가 있다[8]. 미국과 유럽에서는 핀치 같은 새의 모이로도 쓰인다[9]. 쥐에게 니거 기름 15% 사료를 8주 먹인 실험에서는 팜유를 먹인 쥐보다 혈중 지질이 낮았다[20].")
+sec["history"] = ("역사",
+"니거를 처음 재배한 때는 분명하지 않지만, 고고식물학 자료로 보아 악숨 시대(기원전 800년–기원후 700년)에는 이미 있었고 그보다 앞서 작물화되었을 것으로 보며, 기원전 3000년 이전이라는 견해도 있다[4]. 영국·아일랜드 식물학회(BSBI) 자료는 에티오피아에서 4,000년 동안 기름작물로 재배되었고 1806년 무렵 영국 정원에 들어왔다고 적고 있다(검색 요약으로만 확인)[3].\n\n"
+"에티오피아에서는 살짝 볶은 씨앗을 절구에 곱게 빻아 걸쭉하게 만든 뒤, 빵·설탕·소금을 넣고 다시 찧어 공 모양으로 빚어 먹는다[5]. 니거 씨앗과 기름은 전통적으로 영양·의약 용도로 널리 쓰였다고 정리되어 있다[18]. 기름은 비누·페인트 원료, 윤활유, 등불 연료로도 쓰였다[6]. 에티오피아에서는 1988년 Fogera·Esete-1, 1994년 Kuyu, 2002년 Shambu-1, 2010년 Ginchi 품종이 나왔고, Ginchi가 가장 널리 재배된다[6]. 한국에서 니거를 먹어 온 기록은 이번 조사에서 확인하지 못함.")
+sec["biology"] = ("생물학적 특징",
+"니거는 가지를 많이 치고 머리모양꽃차례를 많이 다는 풀로, 꽃차례와 씨앗 크기가 가까운 기름작물인 해바라기의 10분의 1에도 못 미친다[4]. 꽃이 고르게 피지 않고 익은 씨앗이 밭에서 떨어지는 성질이 남아 있어 '반쯤 작물화된' 작물로 불린다[4]. 자가불화합성이라 다른 개체의 꽃가루를 받아야 열매를 맺고, 꽃가루받이는 꿀벌에 크게 의존한다[4][9]. 야생에서 자라는 니거는 알려져 있지 않다[4]. Kew 식물 목록(POWO)은 원산지를 아프리카 북동부 열대(에티오피아·에리트레아)로, 계절적으로 건조한 열대의 한해살이풀로 적고 있다(검색 요약으로만 확인)[2].\n\n"
+"연관지도 작성에 쓴 집단에서는 키가 110–292 cm, 꽃이 피기까지 49–115일로 개체 차이가 컸다[8]. 에티오피아 각지에서 모은 계통을 같은 밭에서 기르자 잎 크기·가지 수·개화 시기가 원산지의 강수량에 따라 달라, 비 조건에 대한 지역 적응의 흔적이 보였다[4]. 물에 잠기기 쉬운 땅에서도 잘 자라고 거름을 적게 줘도 수확이 나와 소농이 선호한다[4].")
+sec["related_species"] = ("근연종",
+"니거의 가장 가까운 야생 친척이자 조상으로 여겨지는 것은 Guizotia scabra의 아종 schimperi다[4]. 이 아종은 니거보다 씨앗이 작고 가지가 많으며 씨앗이 잘 떨어지고, 에티오피아 여러 곳에 흔하며 니거와 생식 가능한 잡종을 만든다[4]. 그러나 미세위성(SSR) 표지 16개로 니거 29개 계통과 야생 아종 4개 집단을 비교하자 두 무리가 뚜렷이 나뉘었고, 최근 섞인 흔적은 니거 두 개체에서만 보였다[4].\n\n"
+"엽록체 RNA 편집 비교에서는 야생 G. scabra의 편집 자리가 404곳으로, 재배 니거 유전형(166–304곳)보다 많아 작물화 과정에서 다양성이 줄었다고 해석되었다[14]. 해바라기는 같은 해바라기족(Heliantheae)에 속하는 가장 가까운 기름작물이다[4]. 두 종의 엽록체 유전체에는 큰 재배열이 없고, 1.4%의 자리에 삽입·결실이 있다[13]. 니거 연관지도 연구는 해바라기 염색체와 상당한 공선성(synteny)을 확인했다[8].")
+sec["cultivation"] = ("재배와 생산",
+"니거는 주로 에티오피아·에리트레아·인도에서 재배되고, 아프리카와 아시아의 다른 나라에서도 작은 규모로 기른다[4][8]. 에티오피아에서는 다른 기름작물이 자라기 어려운 습한 땅에서 재배되어 토양 보전에도 쓰이며, 기름작물 생산의 약 50%를 차지한다(인도는 약 3%)[6]. 2025년 한 논문은 에티오피아의 재배 면적을 358,828 ha, 생산량을 295,000 t으로 인용했으나, 원 통계의 연도는 확인하지 못함. 평균 수량은 ha당 0.8–1.2 t으로 개량 해바라기(ha당 3.5 t)보다 훨씬 낮다[8].\n\n"
+"재배 환경은 성분에도 영향을 준다[5]. 해발 1,900–2,400 m의 세 곳에서 기른 시험에서 단백질은 더 건조한 긴치(27.5%)가 홀레타(25.4%)보다 높았고, 무기질은 토양 차이로 홀레타에서 대체로 높았다[5]. 올레산이 많은 계통도 높은 곳에서는 함량이 줄어, 데브레 제이트(1,900 m) 9.8%, 긴치(2,300 m) 7.1%, 홀레타(2,400 m) 4.8%였다[5]. 북유럽에서는 7–10월 짧은 기간에 사이짓기 작물로 길러 사일리지 사료로 쓰는 시험도 있다[32]. 국내 재배·생산 통계는 확인하지 못함.")
+sec["processing"] = ("가공과 이용",
+"니거 씨앗은 주로 기름을 짜는 데 쓰이고, 기름을 짜고 남은 깻묵은 양·염소 같은 가축의 사료가 된다[6][23]. 에티오피아에서 니거 기름은 식용유 공급의 50–60%를 차지한다[6]. 니거·참깨 기름은 리터당 약 3달러로 팜유(약 1달러)보다 비싸 팜유를 섞는 속임 판매가 문제인데, 스테롤을 GC-MS로 분석해 팜유 10% 혼입을 찾아낼 수 있었다[16].\n\n"
+"마이크로파·펄스전기장 전처리 뒤 스크루 압착하는 연구에서는 최적 조건(156.34초, 1.18 kV/cm, 20 rpm)의 착유 효율이 35%였고, 토코페롤은 조금 늘었으나 불포화지방산은 조금 줄었다[15]. 적외선으로 180 °C에서 10분 가열하면 착유율이 33.09%에서 40.56%로, 총페놀이 6.67에서 173.62 mg GAE/kg으로 높아졌다[19]. 산 처리한 천연 점토로 기름을 탈색하거나, 20시간 튀김에 쓴 기름을 재·산화마그네슘으로 처리해 품질을 되살리는 연구도 있다[30][31]. 니거 씨앗 추출물 배지는 환경 시료에서 크립토코쿠스 효모를 골라 키우는 데 쓰인다[27]. 국내 니거 제품의 생산실적은 확인하지 못함.")
+sec["genetics"] = ("유전과 육종",
+"니거는 염색체 2n = 2x = 30인 이배체이며, 유전체 크기는 약 1.5–1.7 Gb로 추정된다[8]. 아직 참조 유전체는 없다[9]. 2010년 발현 유전자 표지(EST) 25,711개와 엽록체 유전체가 처음 공개되었고, 중복 유전자 분석에서 두 번의 고대 배수화 흔적이 확인되었다[13].\n\n"
+"30개 유전형의 RNA-seq 조립에서 유전자 단위(unigene) 409,309개와 SSR 40,776개가 나왔다[10]. 2025년 분석에서는 차등발현유전자 2,547개 가운데 409개가 지방산 대사와 관련되었다[9]. 전사체 SNP를 KASP 표지로 바꿔 24개 계통을 분석하자 계통 사이 분화(FST 0.045)가 낮았다[11]. 에티오피아·에리트레아 161계통의 SSR 분석에서도 유전 변이의 96.06%가 집단 안에 있었다[12]. 2025년에는 F2 286개체와 SNP 13,888개로 첫 고밀도 연관지도(15개 연관군)를 만들고 기름 함량(13.88–55.62%) 등 형질의 QTL 27개를 찾았다[8]. 자가불화합성이라 원하는 계통을 순종으로 유지하기 어려워 자가화합성 계통 개발이 육종 목표로 꼽힌다[4].")
+sec["safety"] = ("안전성",
+"니거 씨앗에 대한 국내 공공기관의 알레르기·잔류·독성 정보는 확인하지 못함. 스페인에서 카나리아 새모이를 다루던 성인에게 니거 씨앗에 의한 천식·비결막염·접촉 두드러기가 보고되었고, 니거 추출물의 IgE 결합 단백질(11·44 kDa)은 해바라기씨·쑥·민들레 추출물로 억제되었다[25]. 씨앗의 피트산은 평균 352.58 mg/100 g, 탄닌은 91–201 mg/100 g으로, 무기질 흡수를 낮출 수 있다[7].\n\n"
+"에티오피아 사료 시장의 니거 깻묵 시료 64%가 아플라톡신 B1 허용 기준(20 µg/kg)을 넘었고, 사료 공장 조사에서는 110.93–438.86 µg/kg이었다[23][24]. 곤다르의 니거 기름 12개 시료에서는 황색포도상구균·아스페르길루스 플라부스 등이 검출되었다[22]. 같은 도시의 지역산 식용유는 과산화물가 15.09 meq/kg, 산가 2.43 mg KOH/g으로 WHO/FAO 기준에 맞지 않았다[21]. 리놀레산이 많아 산화되기 쉬우므로 공기를 막은 용기에 보관하라고 권한다[5][9]. 미국은 수입 니거 씨앗에 새삼 등 유해잡초 씨앗이 섞일 수 있어 열처리를 요구한다(검색 요약으로만 확인)[28]. 영국에서도 새모이용 수입 니거 씨앗에 다른 식물 씨앗이 섞여 들어온다고 보고되었다(검색 요약으로만 확인)[29].")
+sections = [dict(key=k, title=v[0], body=v[1]) for k,v in sec.items()]
+
+def C(name, ko, cls, role, part, content, act, src):
+    return dict(name=name, name_ko=ko, **{"class": cls}, role=role, part=part, content_text=content, activity_ko=act, source=src)
+compounds = [
+ C("Linoleic acid","리놀레산","다가불포화지방산(오메가-6)","marker","씨앗(기름)",
+   "총지방산의 72.3–77.8%(에티오피아 유전형, 3곳 재배)[5]; 67.30–74.67%, 179–234 mg/g 건조 씨앗(5개 지역)[6]; 73.3–76.8%(5품종)[17]; 74.64 ± 0.03%(이란산 표준 시료)[15]",
+   "사람이 만들지 못하는 필수지방산으로, 혈청 콜레스테롤을 낮추는 쪽으로 작용하는 불포화지방산으로 정리됨[5]; 많을수록 산화 안정성은 낮아짐[9]",[5,6,9,15,17]),
+ C("Oleic acid","올레산","단일불포화지방산(오메가-9)","nutrient","씨앗(기름)",
+   "총지방산의 5.2–9.2%[5]; 5.44–11.02%(상대 %)[6]; 8.90 ± 0.02%[15]",
+   "저지대 계통에서 많고 높은 곳에서 재배하면 줄어듦[5]; 많을수록 열 안정성이 높아짐[9]",[5,6,9,15]),
+ C("Palmitic acid","팔미트산","포화지방산","nutrient","씨앗(기름)",
+   "총지방산의 7.8–9.6%[5]; 10.32–10.66%, 24.8–37.1 mg/g[6]; 8.34 ± 0.05%[15]",
+   "주요 포화지방산[5][6]",[5,6,15]),
+ C("Stearic acid","스테아르산","포화지방산","nutrient","씨앗(기름)",
+   "총지방산의 7.2–10.0%[5]; 7.59–8.76%(상대 %)[6]; 8.09 ± 0.01%[15]",
+   "다른 기름작물(대부분 1–6%)보다 비율이 높은 편[5]",[5,6,15]),
+ C("alpha-Tocopherol","알파-토코페롤","토코페롤(비타민 E)","bioactive","씨앗 기름(압착)",
+   "478.68 ± 7.5(원문 표의 단위 표기 '%', 총 토코페롤 515.62 ± 11.3)[15]",
+   "니거 기름에서 가장 많은 토코페롤[15]",[15]),
+ C("gamma-Tocopherol","감마-토코페롤","토코페롤(비타민 E)","bioactive","씨앗 기름(압착)",
+   "27.80 ± 2.2(같은 표, 단위 표기 '%')[15]",
+   "알파-토코페롤 다음으로 많은 토코페롤[15]",[15]),
+ C("beta-Sitosterol","베타-시토스테롤","식물스테롤","marker","씨앗 기름(속슬렛 헥산 추출)",
+   "2778.96 mg/kg 기름[16]",
+   "니거 기름의 주된 스테롤로, 스테롤 조성은 기름 진위 판별 지표로 쓰임[16]",[16]),
+ C("Campesterol","캄페스테롤","식물스테롤","nutrient","씨앗 기름",
+   "869.85 mg/kg 기름[16]","시토스테롤·스티그마스테롤과 함께 주요 스테롤[16]",[16]),
+ C("Stigmasterol","스티그마스테롤","식물스테롤","nutrient","씨앗 기름",
+   "920.46 mg/kg 기름[16]","주요 스테롤[16]",[16]),
+ C("Lupeol","루페올","트리테르펜 알코올","marker","씨앗 기름",
+   "587.5 mg/kg 기름[16]","참깨·팜유와 비교해 니거 기름에서만 뚜렷한 양으로 확인됨(라노스테롤·올레안-12-엔-3-온과 함께)[16]",[16]),
+ C("Phytic acid","피트산","항영양소(이노시톨 인산)","bioactive","씨앗",
+   "평균 352.58 mg/100 g(5품종, 에티오피아 홀레타 재배)[7]",
+   "무기질과 결합해 흡수를 낮출 수 있는 항영양소; 니거가 아마씨·참깨보다 많았음[7]",[7]),
+ C("Myricitrin","미리세틴-3-O-람노사이드","플라보놀 배당체","bioactive","지상부(식품원료 사용 부위 아님)",
+   "지상부 90% 메탄올 추출물에서 분리(함량은 확인하지 못함)[26]",
+   "분리 성분 가운데 DPPH 소거능이 가장 높음(4629.76 ± 6.02 µmol 트롤록스 당량/g, 시험관)[26]",[26]),
+ C("Sesamin","세사민","리그난","bioactive","지상부(식품원료 사용 부위 아님)",
+   "지상부 추출물에서 분리(함량은 확인하지 못함)[26]",
+   "지상부에서 분리된 알려진 성분 9종 가운데 하나[26]",[26]),
+ C("Pentyl ferulate","펜틸 페룰레이트","페룰산 에스터","bioactive","지상부(식품원료 사용 부위 아님)",
+   "지상부에서 새 화합물로 분리(함량은 확인하지 못함)[26]",
+   "니거에서 처음 보고된 새 화합물[26]",[26]),
+]
+
+def cond(**k):
+    base = dict(instrument="",column="",mobile_phase="",gradient="",flow="",temp="",detection="",injection="",sample_prep="",standard="",linearity="",lod="",loq="",recovery="")
+    base.update(k); return base
+assays = [
+ dict(role="literature", compound="Linoleic acid", compound_ko="리놀레산(지방산 메틸에스터 GC-MS 정량)", part="씨앗(에티오피아 5개 지역, Ginchi 품종)",
+  content="총지방산의 67.30–74.67%, 179–234 mg/g 건조 씨앗; 총지방산 239.99–347.74 mg/g[6]",
+  method="GC-MS(EI)",
+  conditions=cond(instrument="Agilent 7890B GC – 5977A MS(전자이온화)",
+   column="용융 실리카 모세관 칼럼 30 m × 0.25 mm, 막 두께 0.25(원문 표기)",
+   mobile_phase="운반기체 헬륨(99.999%)", gradient="오븐 125 °C 2분 → 30 °C/분으로 170 °C → 15 °C/분으로 200 °C, 2분 유지 → 3 °C/분으로 230 °C, 20분 유지",
+   flow="1 mL/min", temp="주입구 250 °C, 이온원 230 °C, 사중극자 150 °C", detection="EI 70 eV, m/z 40–500, 용매 지연 3.5분",
+   injection="분할비 25:1",
+   sample_prep="씨앗 가루 0.50 g + 클로로포름:메탄올(2:1) 12 mL, 300 rpm 36시간 진탕 → 원심 → 0.73% NaCl 2 mL 넣고 아래층(클로로포름) 회수 → 감압 건조 후 톨루엔 5 mL; 1 mL에 내부표준 넣고 1% 메탄올성 황산 2 mL, 50 °C 12시간 메틸화 → 5% NaCl 5 mL, 헥산 2 × 3 mL 추출 → 무수 황산나트륨",
+   standard="내부표준 운데칸산 0.1697 mg/mL, 175 µL; 지방산 표준품(Sigma-Aldrich)"),
+  rationale="니거 기름 지방산의 대부분을 차지하는 리놀레산이 니거 씨앗 품질의 핵심 지표다[6]. 상대 %가 0.1% 넘는 지방산을 내부표준 대비로 정량했다. 직선성·검출한계·회수율은 본문에 없어 비워 둠. 원문 표 2의 올레산(1.03–1.60 mg/g)과 박센산 값은 표 1의 상대 %와 맞지 않아 주의가 필요하다[6].",
+  source=[6], url=pmc("PMC11729926"), source_kind="paper"),
+ dict(role="literature", compound="Linoleic acid", compound_ko="리놀레산·총지질(GC-FID)", part="씨앗(에티오피아 재래종·육종집단·품종 45개, 3곳 재배)",
+  content="리놀레산 총지방산의 72.3–77.8%, 총지질 32.5–45.7%[5]",
+  method="GC-FID",
+  conditions=cond(instrument="Shimadzu GC-17A, 불꽃이온화검출기(FID)",
+   sample_prep="씨앗 10알을 0.15 M 아세트산 1 mL와 메탄올:클로로포름(2:1) 3.75 mL로 균질화 → 클로로포름 1.25 mL·물 0.9 mL 넣고 3000 rpm 2분 원심 → 클로로포름층을 70 °C에서 질소로 건조 → 2% 황산-메탄올 2 mL, 90 °C 45분 메틸화 → 물 0.9 mL·헥산 2 mL, 2000 rpm 2분 원심 → 헥산층 200 µL 분석(Bligh & Dyer 변법)",
+   standard="내부표준 메틸 헵타데카노에이트(17:0-ME) 200 nmol"),
+  rationale="지방산 조성과 총지질을 함께 구해 품종·재배지 비교에 쓴 방법이다[5]. 총지질은 지방산 무게와 글리세롤로 트리아실글리세롤 무게를 계산해 구했다. 칼럼·온도 조건은 본문에 없어(앞선 논문 방법 인용) 비워 둠[5].",
+  source=[5], url=pmc("PMC8393925"), source_kind="paper"),
+ dict(role="literature", compound="alpha-Tocopherol", compound_ko="알파-토코페롤(감마·델타 동시)", part="씨앗 압착 기름(이란 파르스산 씨앗)",
+  content="표준 시료 알파 478.68 ± 7.5, 감마 27.80 ± 2.2, 델타 9.14 ± 2.6, 총 515.62 ± 11.3(원문 단위 표기 '%')[15]",
+  method="HPLC-FLD(AOCS Ce 8-89)",
+  conditions=cond(column="LiChrosorb SI 60-5, 250 × 4.5 mm(원문 표기 'ml'), 5 µm",
+   mobile_phase="아세토니트릴:증류수 95:5", flow="0.6 µl min(원문 표기 그대로)", detection="형광 검출기"),
+  rationale="토코페롤은 니거 기름의 주요 천연 항산화 성분이며, 그 가운데 알파-토코페롤이 가장 많다[15]. 파장·주입량·검량 조건은 본문에 없어 비워 둠. 원문의 단위('%')와 유속 단위는 표기가 이상해 원문 그대로 옮김.",
+  source=[15], url=pmc("PMC7063364"), source_kind="paper"),
+ dict(role="literature", compound="beta-Sitosterol", compound_ko="베타-시토스테롤(스테롤 프로필)", part="씨앗 기름(속슬렛 헥산 5시간 추출)",
+  content="베타-시토스테롤 2778.96, 스티그마스테롤 920.46, 캄페스테롤 869.85, 루페올 587.5 mg/kg 기름[16]",
+  method="GC-MS(TMS 유도체)",
+  conditions=cond(instrument="ThermoQuest GC8000 Top – Voyager MS",
+   column="DB-5MS, 30 m × 0.25 mm, 0.50 µm (J&W Scientific)",
+   mobile_phase="운반기체 헬륨, 보조기체 질소 30 mL/min",
+   gradient="60 °C 1분 → 40 °C/분으로 310 °C, 27분 유지",
+   temp="주입구 260 °C, 검출기 310 °C, 이온원 200 °C",
+   detection="EI 70 eV, m/z 20–500 스캔", injection="1 µL, 분할 주입",
+   sample_prep="기름 약 0.30 g + 내부표준 0.2 mL → 2 M KOH 에탄올 7 mL, 80 °C 1시간 비누화 → 물 10 mL, 디에틸에테르 10 mL로 3회 추출·세척 → 무수 황산나트륨, 30 °C 감압 건조 → 헥산 5 mL; 실리카 SPE(Strata Si-1, 1 g/6 mL)에서 헥산:에테르 95:5 10 mL로 세척, 60:40 7 mL로 스테롤 용출 → 질소 건조 → Tri-Sil 100 µL, 60 °C 45분 TMS화 → 헥산 0.2 mL",
+   standard="내부표준 5α-콜레스탄 1 mg/mL(에틸아세테이트); 콜레스테롤·스티그마스타놀, 식물스테롤 혼합 표준(브라시카스테롤 13%·캄페스테롤 26%·스티그마스테롤 7%·베타-시토스테롤 53%)"),
+  rationale="스테롤 조성은 기름마다 달라 진위 판별 지표로 쓰이며, 이 방법으로 팜유 10% 혼입을 검출했다[16]. 루페올·라노스테롤·올레안-12-엔-3-온은 니거 기름에서만 뚜렷했다. 직선성·검출한계·회수율은 본문에 없어 비워 둠.",
+  source=[16], url=pmc("PMC8080039"), source_kind="paper"),
+]
+
+d = dict(slug="guizotia-abyssinica", name_ko="니거", name_en="Niger (noug)", scientific_name="Guizotia abyssinica (L.f.) Cass.",
+ aliases=["니거씨앗","누그","noug","niger seed"], sections=sections, compounds=compounds, markers=[], assays=assays,
+ nutrients=[], production=[], world=[], gi=[], orgs=[], sources=sources)
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

@@ -1,0 +1,25 @@
+{"slug": "cichorium-endivia", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 72, "checked_items": 71,
+ "verified": 120, "fixed": 13, "removed": 7, "unverifiable": 3,
+ "changes": [
+  {"where": "world", "before": "이탈리아 area_ha 6,800 / production_t 152,800 / 캄파니아 27,895 톤 (year null)", "after": "[] (모두 삭제)", "why": "옛 [10](Antioxidants 2023) 고찰에서 출처 표기 없이 2차 인용한 값으로 기준 연도가 없고, 같은 문단의 살레르노 252,000 q/캄파니아 312,000 q(=31,200 t)와 27,895 t가 서로 맞지 않으며, '남부 약 100,000 t'인데 캄파니아가 1위라는 점도 내부 모순. 1차 통계(ISTAT·FAOSTAT)는 열 수 없음"},
+  {"where": "sections.cultivation", "before": "이탈리아의 … 재배 면적은 6,800 ha가 넘고 생산량은 152,800 톤 … 캄파니아주가 27,895 톤으로 가장 많이 생산한다[10].", "after": "캄파니아주는 에스카롤 주요 생산지로 소개되지만 … 수치는 기준 연도와 원 통계가 밝혀져 있지 않아 싣지 않는다[9].", "why": "위와 같음"},
+  {"where": "sections.history", "before": "야생 상태 미상·C. pumilum 조상설·치커리×C. pumilum 잡종설·고대 이집트/인도/16세기 중부 유럽 전파 [2]", "after": "치커리속 6종 구성과 AFLP상 앤디브–C. pumilum–C. calvum 군집[36], 2025 ddRAD에서 자가화합성 앤디브·C. pumilum vs 자가불화합성 치커리·C. spinosum 구분[37]", "why": "[2] PROSEA는 WebSearch 요약으로만 보고 원문을 열지 못함(허용 목록 밖) — 확인 불가 주장 삭제, PubMed 1차 문헌(PMID 10902710, 40610864)으로 대체"},
+  {"where": "sections.history", "before": "이탈리아에서는 앤디브의 일부 품종·재래종이 농식품부의 「전통 농식품 목록」에 올라 있다고 한다[10].", "after": "이탈리아 캄파니아주에서는 에스카롤 재배가 지역 경제의 중요한 활동으로 소개된다[9].", "why": "원문 문장의 학명이 PMC 본문에서 빠져 앤디브인지 치커리속 전체인지 불분명(근연종 혼입 위험), 부처도 이탈리아 농림식품임업정책부임"},
+  {"where": "sections.history", "before": "…세포독성을 보인 식물 가운데 하나였다[35].", "after": "…하나였다(시험관 결과)[34].", "why": "세포 결과임을 명시"},
+  {"where": "sections.related_species", "before": "…지중해 지역에는 야생 근연종인 C. pumilum과 C. calvum이 자란다[2].", "after": "치커리속은 재배종 치커리·앤디브와 야생종 C. bottae·C. spinosum·C. calvum·C. pumilum으로 이루어지며, 앤디브는 C. pumilum·C. calvum과 유전적으로 가깝다[36].", "why": "[2] 확인 불가 → Kiers et al. 2000 초록으로 대체"},
+  {"where": "sections.related_species", "before": "…다른 종이다[32].", "after": "…다른 종이다[31, 37].", "why": "위트루프=C. intybus var. foliosum 은 [31] 초록에 없음, [37] 초록에 'var. foliosum (Witloof)' 있음"},
+  {"where": "sections.safety", "before": "생쥐 급성 경구 독성시험에서 앤디브 추출물의 LD50은 5,000 mg/kg보다 커 사실상 독성이 없다고 평가되었다[16].", "after": "전초 에탄올 추출물의 60% 에탄올 용출 분획을 5,000 mg/kg 한 번 먹인 시험 … 추가 독성 연구로 확인해야 한다고 밝혔다[15].", "why": "전문 확인: 시험물질은 정제 분획(CEE), 단회 투여, 저자가 추가 확인 필요 명시 — 일반화 과장 완화"},
+  {"where": "sections.safety", "before": "상추와 앤디브는 국화과 알레르기 환자의 20–30%에서 감작원으로 보고되었다[20].", "after": "총설은 식용 국화과 가운데 상추와 앤디브의 감작 비율을 20–30%로 제시했다[19].", "why": "초록 표현('Among the edible types, lettuce and endive (20-30%)')이 모집단을 밝히지 않음 — 원문 수준으로 맞춤"},
+  {"where": "compounds.Lactucopicrin.activity_ko", "before": "대식세포 거품세포 형성 억제(세포·생쥐)[15]", "after": "순수 화합물이 … 거품세포 형성 억제, ApoE 결손 생쥐 … (세포·동물, 앤디브 섭취 연구 아님)[14]", "why": "앤디브가 아닌 순수 락투코피크린 실험 — 과장 방지"},
+  {"where": "compounds.Astragalin.activity_ko", "before": "ORAC 항산화 활성; 추출물은 간세포·생쥐 산화 손상을 줄임[16]", "after": "ORAC 항산화 활성(시험관); 이 화합물을 분리한 추출물(CEE)은 …[15]", "why": "화합물 자체의 간보호 효과로 읽히지 않게"},
+  {"where": "assays[1].part / conditions.standard", "before": "파종 후 60일 / 캠페롤 3-O-글루쿠로나이드 당량", "after": "세균 비료 접종 후 60일 온실 재배 / 'kaempferol 3-O-glucuoside'(원문 표기, 불분명)", "why": "Foods 2021 전문: 'After 60 days post bacterial inoculation', 표준물 표기는 오탈자"},
+  {"where": "assays[2].conditions.detection / rationale", "before": "고분해능 질량분석(정성 분석은 양·음이온 모드); 락투신 … 411.1448", "after": "정량 이온·모드는 본문에 없음, m/z 값은 정성 분석의 [M+H]+ / 유속 0.2 mL/min은 정성 분석 조건임을 명시", "why": "Antioxidants 2023 Methods 2.4: 0.2 mL/min·30분 기울기는 정성 분석, 정량은 25분 기울기에 유속 미기재"},
+  {"where": "sources", "before": "[2] PROSEA/Pl@ntUse (WebSearch 요약)", "after": "삭제, Kiers 2000(PMID 10902710)·Scariolo 2025(PMID 40610864) 추가 후 1–37로 재번호", "why": "열람 불가 2차 요약 출처 제거"}
+ ],
+ "unverifiable_notes": [
+  "USDA FoodData Central(FDC 168412) 칼륨 314 mg·엽산 142 µg·비타민 K 231 µg/100 g: 원문 사이트가 허용 목록 밖이라 열지 못함, 작성자가 이미 'WebSearch 요약으로만 확인'이라 표기 — 그대로 둠",
+  "[25] KoreaScience 국내 포장 연구: 원문 미열람, WebSearch 초록 요약으로 2 °C·20일·HDPE 속포장 결과가 일치함을 확인",
+  "[1] 식품원료 목록 지위(앤디브잎, 사용가능부위: 잎, 이명 에스케롤)는 card.json 과 대조해 일치",
+  "PMC 전문 확인: [2] Hortic Res 2019(STL 정량 조건 전부 일치), [8] Foods 2021, [9] Antioxidants 2023, [15] Molecules 2011; 나머지 논문은 PubMed 초록으로 대조"
+ ]}

@@ -1,0 +1,123 @@
+{
+ "slug": "pastinaca-sativa",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 69,
+ "checked_items": 76,
+ "verified": 126,
+ "fixed": 17,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "흰색~연노란색",
+   "after": "흰색~노란색",
+   "why": "[2]는 pale white to vibrant yellow"
+  },
+  {
+   "where": "sections.overview",
+   "before": "푸로쿠마린이 알려져 있다[3][17]",
+   "after": "푸로쿠마린이 알려져 있다[3][19]",
+   "why": "[17] 초록은 파스닙 폴리아세틸렌을 이름으로 특정하지 않음 → 파스닙 뿌리에서 팔카리놀·팔카린디올을 정량한 [19]로 교체"
+  },
+  {
+   "where": "sections.history",
+   "before": "라틴어 pastinum(땅을 갈다) 또는 pastus(먹을거리)",
+   "after": "라틴어 pastino(포도나무를 심으려 땅을 고르다) 또는 pastus(먹을거리)",
+   "why": "[2] 원문은 pastino, \"preparing the land for planting of the vine\""
+  },
+  {
+   "where": "sections.history",
+   "before": "세르비아·이탈리아 민간에서는 뿌리·잎 우린 물을 소화·이뇨용으로,",
+   "after": "세르비아 민간에서는 뿌리·잎·열매 우린 물을 소화·이뇨·식욕 증진용으로, 이탈리아에서는 뿌리·잎 우린 물을 담즙 분비·이뇨용으로,",
+   "why": "[2] 원문: 세르비아(소화·이뇨·식욕·젖 분비), 이탈리아(담즙 분비·이뇨)로 나라별 용도가 다름"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "파스닙굴나방(Depressaria pastinacella)",
+   "after": "파스닙웹웜(Depressaria pastinacella, 꽃·열매를 먹는 나방 애벌레)",
+   "why": "Depressaria pastinacella 는 webworm(거미줄치레류)으로 굴나방(leaf miner)이 아님"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "북미와 뉴질랜드에서는 꽃을 먹는 파스닙굴나방이 종자 생산을 최대 75%까지 줄였다[26]",
+   "after": "뉴질랜드에서는 2004년 처음 나타난 파스닙웹웜이 2006년 종자 생산을 최대 75%까지 줄였다[26]",
+   "why": "[26] 초록: 75% 감소는 뉴질랜드 개체군(2006)에 한정, 북미 값 아님"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "2026년 파스닙 첫 염색체 수준 유전체가",
+   "after": "2026년 파스닙 염색체 수준 유전체가",
+   "why": "[23] 초록에 \"첫\" 유전체라는 표현 없음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "굴나방과의 상호작용",
+   "after": "파스닙웹웜과의 상호작용",
+   "why": "곤충 이름 정정(webworm)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "파스닙 퓌레를 먹은 영아의 입 주위 피부염과 어린이 사례도 보고되었다[13][14]",
+   "after": "파스닙 퓌레로 인한 영아의 입 주위 광피부염이 보고되었고[13], 소아과 학술지에도 파스닙 광피부염 증례가 실렸다[14]",
+   "why": "[14]는 초록이 없어 환자 연령을 확인하지 못함 → 확인 가능한 범위로 씀"
+  },
+  {
+   "where": "sections.safety",
+   "before": "말·염소 실험에서 야생 파스닙 즙을 피부에 바르면 심한 광피부염이 생겼지만, 먹인 염소의 혈청에서는 잔토톡신이 검출되지 않았다[7]",
+   "after": "방목 말의 광과민 사례 조사와 염소 실험에서 야생 파스닙을 피부에 바르면 염소와 말에 심한 광피부염이 생겼지만, 먹인 염소는 대체로 영향이 없었고 혈청에서 잔토톡신도 검출되지 않아 피부 접촉이 주된 경로로 해석되었다[7]",
+   "why": "[7] 초록: 먹인 염소는 largely unaffected, 피부 도포가 원인 경로"
+  },
+  {
+   "where": "sections.safety",
+   "before": "뿌리 소랄렌류 약 40 ppm은 조리로 줄지 않는다[5].",
+   "after": "1981년 연구는 뿌리의 소랄렌류 3종 합계를 약 40 ppm으로 보고하며 끓이거나 전자레인지로 익혀도 줄지 않는다고 했다[5]. 이 값은 갓 캔 뿌리 값(2.5 mg/kg 미만)[6]보다 높아 시료 상태에 따라 차이가 크다.",
+   "why": "[5] 초록: 3종 합계 약 40 ppm, 끓이기·전자레인지; [6]과의 차이를 밝힘"
+  },
+  {
+   "where": "compounds.Falcarinol",
+   "before": "백혈병 세포주 CEM-C7H2에 IC50 3.5 µmol/L로 가장 강한 세포독성[17]",
+   "after": "셀러리 뿌리에서 분리한 팔카리놀이 세포 실험에서 백혈병 세포주 CEM-C7H2에 IC50 3.5 µmol/L로 가장 강한 세포독성을 보임(사람 효과 아님)[17]",
+   "why": "[17] 시험 화합물은 셀러리 뿌리에서 분리; 세포 결과임을 밝힘"
+  },
+  {
+   "where": "compounds.Falcarindiol",
+   "before": "숙성 파스닙의 항염 효과를 일부 설명하는 성분으로 정량됨[4]",
+   "after": "숙성 후 크게 늘어 숙성 추출물의 세포·동물 항염 효과를 일부 설명할 수 있다고 제시됨[4]",
+   "why": "[4]는 \"may partially explain\" — 세포·생쥐 결과임을 밝힘"
+  },
+  {
+   "where": "compounds.Falcarindiol 3-acetate",
+   "before": "최소가공 중 껍질 벗기기에서 크게 손실[21]",
+   "after": "최소가공 중 폴리아세틸렌(이 성분 포함) 손실은 주로 껍질 벗기기 단계에서 생김[21]",
+   "why": "[21] 초록은 폴리아세틸렌 전체에 대한 결과"
+  },
+  {
+   "where": "compounds.Quercetin",
+   "before": "뿌리 페놀 성분 중 하나로 항산화 평가에 쓰임[2]",
+   "after": "리뷰는 USDA 함량값만 제시하며, 파스닙 퀘르세틴의 효능 근거는 확인하지 못함[2]",
+   "why": "[2]에 퀘르세틴으로 항산화를 평가했다는 내용 없음"
+  },
+  {
+   "where": "compounds.Sphondin",
+   "before": "파스닙굴나방과의 공진화로 함량이 높아진 것으로 해석된 방어 성분[25]",
+   "after": "표본관 표본과 비교해 파스닙웹웜과의 상호작용으로 함량이 높아진 것으로 해석된 방어 성분[25]",
+   "why": "곤충명 정정, [25] 초록 표현에 맞춤"
+  },
+  {
+   "where": "compounds.Octyl acetate",
+   "before": "파스닙굴나방이",
+   "after": "파스닙웹웜이",
+   "why": "곤충명 정정"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품안전나라 OpenAPI 는 열지 않았고, 저장소의 식품원료 목록 자료(docs/materials/foodlist/cards.json·card.json: 파스닙뿌리·잎·농축액·퓌레, 사용가능부위 뿌리·잎, 다른 이름 설탕당근·아메리카 방풍나물, status allowed)로 대조함 — overview 와 일치",
+  "[2]·[3]·[4] 는 PubMed 도구로 PMC 전문을 받아 대조함(영양성분 표 5, HPLC 조건 전부 원문과 일치; [3] 주입량 '5 mL' 은 원문 표기 그대로)",
+  "[10] SKLM 2007 은 초록이 없어 '평가했다'는 사실만 확인",
+  "[13]·[14] 는 초록이 없어 서지·MeSH(영아)만 확인; [14] 환자 연령은 확인하지 못해 문장을 약하게 고침",
+  "푸로쿠마린(광독성) 관련 내용은 [2][5][6][7][12][13][14][15][34] 와 대조; [5](약 40 ppm)과 [6](갓 캔 뿌리 <2.5 mg/kg) 값의 차이를 본문에 밝힘",
+  "국내 생산 통계·국내 공공기관 안전 정보는 원래대로 '확인하지 못함' 유지; WebSearch 는 쓰지 않음"
+ ]
+}

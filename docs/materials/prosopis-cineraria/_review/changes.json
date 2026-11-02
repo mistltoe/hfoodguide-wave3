@@ -1,0 +1,56 @@
+[
+ {
+  "where": "sections.history",
+  "before": "샤미를 쓰고 매운맛에 성질이 차고 떫으며 설사를 일으키는 약재로",
+  "after": "샤미를 쓰고(tikta) 매운맛(katu)에 성질이 차고 떫으며 설사를 일으키는 약재로",
+  "why": "[5] 원문은 tikta(쓴맛)·katu(매운맛)를 함께 적음 — 쓴맛 누락"
+ },
+ {
+  "where": "sections.history",
+  "before": "1899년 무렵 라지푸타나(지금의 라자스탄)에 큰 기근이 들었을 때 나무껍질을 먹을거리로 삼아 많은 사람이 살아났다고 전하며, 이 리뷰 원문에는 연도가 '1898-69'로 적혀 있다[5].",
+  "after": "라지푸타나(지금의 라자스탄)에 큰 기근이 들었을 때 나무껍질을 먹을거리로 삼아 많은 사람이 살아났다고 전한다. 기근 연도는 리뷰 원문에 '1898-69'로 적혀 있어 정확한 해는 확인하지 못함[5].",
+  "why": "[5]는 '1898-69'라고만 씀 — '1899년 무렵'은 출처에 없는 추정이라 뺌"
+ },
+ {
+  "where": "sections.history",
+  "before": "\n\n인도 라자스탄에서는 1730년 조드푸르 왕의 신하들이 케자를리 마을의 케즈리 나무를 베러 왔을 때 비슈노이 공동체가 이를 막다 많은 사람이 목숨을 잃은 일이 전한다(WebSearch 검색 요약으로만 확인)[26]. 케즈리는 라자스탄의 주 나무(state tree)이며, 2025년에는 태양광 발전 부지에서 이 나무가 베어지는 문제가 보도되었다(WebSearch 검색 요약으로만 확인)[27]. UAE는 2008년 Ghaf를 나라 나무로 정했다[15].",
+  "after": "",
+  "why": "[26]·[27]은 검색 요약뿐이고 원문이 열리지 않음(이번 검토에서도 접속 불가), PubMed 대체 출처 없음 → 삭제. [15] 전문에 '2008년 나라 나무 지정'이 없음 → 삭제(나라 나무 사실은 overview [3, 4]에 남음)"
+ },
+ {
+  "where": "sections.cultivation",
+  "before": " 인도 라자스탄에서는 태양광 발전 부지 조성으로 나무가 베어지는 일이 보도되었다(WebSearch 검색 요약으로만 확인)[27].",
+  "after": "",
+  "why": "[27] 원문 확인 불가(검색 요약만) → 삭제"
+ },
+ {
+  "where": "sections.cultivation",
+  "before": "Ghaf나무 밭은 토양 동물·유기탄소·미생물 활성이 높아 가장 좋은 토양 생태계로 평가되었다[25].",
+  "after": "Ghaf나무 밭이 가장 좋은 토양 생태계(pedoecosystem)로 평가되었다[25]. 다만 토양 동물에 대한 촉진 효과는 대추나무류(Ziziphus mauritiana) 밭이 가장 컸고, 유기탄소·미생물 활성은 나무 종이 아니라 '나무만 있는 밭'이 '나무+작물 밭'보다 높았다는 비교다[25].",
+  "why": "[25] 초록: 토양 동물 촉진 효과 최대는 Z. mauritiana, 유기탄소 등은 나무 단독 vs 나무+작물 비교 — Ghaf 밭이 토양 동물·유기탄소가 높다는 서술은 과장"
+ },
+ {
+  "where": "sections.cultivation",
+  "before": "파키스탄 건조 평야에서는 Ghaf나무와 Salvadora oleoides가",
+  "after": "건조 평야의 사례 연구(파키스탄 연구진)에서는 Ghaf나무와 Salvadora oleoides가",
+  "why": "[30] 초록에 조사지가 파키스탄이라고 명시되지 않음(저자 소속만 라호르)"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "Ghaf나무와 메스키트 계통(Neltuma)은 약 2300만 년 전에 갈라진 것으로 추정되며, 두 유전체 사이의 동질 배열(synteny)은 약하다[3].",
+  "after": "유전체 비교에서 Ghaf나무는 남미 메스키트류 P. alba(지금의 Neltuma alba) 계통과 약 2300만 년 전에 갈라진 것으로 추정되었고, 두 유전체 사이의 동질 배열(synteny)은 약하다[3].",
+  "why": "[3]의 2300만 년 추정은 Neltuma 전체가 아니라 비교에 쓴 P. alba 유전체와의 분기"
+ },
+ {
+  "where": "sources[12].title",
+  "before": "Evaluation of antibacterial and antidiarrheal properties of Prosopis cineraria in Albino rats. 3 Biotech (2025). doi:10.1007/s13205-025-04432-0 (초록; PMC 전문 본문은 받지 못함)",
+  "after": "Evaluation of antibacterial and antidiarrheal properties of Prosopis cineraria in Albino rats. 3 Biotech (2025). doi:10.1007/s13205-025-04432-0 (초록; PMC12297156)",
+  "why": "PubMed 메타데이터에 PMC12297156 있음; 대조는 초록으로 함"
+ },
+ {
+  "where": "sources[29].title",
+  "before": "Letter: An unconventional legume — Prosopis cineraria. Am J Clin Nutr 27(8):1035 (1974). doi:10.1093/ajcn/27.8.1035 (제목만 확인, 초록 없음)",
+  "after": "Letter: An unconventional legume — Prosopis cineraria. Am J Clin Nutr 27(10):1035-6 (1974). doi:10.1093/ajcn/27.8.1035 (제목만 확인, 초록 없음)",
+  "why": "PubMed 서지: 27권 10호 1035-6쪽"
+ }
+]
