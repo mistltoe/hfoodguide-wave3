@@ -1,0 +1,116 @@
+{
+ "slug": "ixeris-dentata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 56,
+ "checked_items": 50,
+ "verified": 88,
+ "fixed": 14,
+ "removed": 2,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "산씀바귀는 Lactuca raddeana로 왕고들빼기속이다[1]",
+   "after": "산씀바귀는 학명이 Lactuca raddeana인 Lactuca 속 원료다[1]",
+   "why": "[1] 원자료는 학명만 적고 국문 속명(왕고들빼기속)은 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "씀바귀·흰씀바귀·고들빼기(Ixeris sonchifolia로 표기)를 비교한 연구에서 총페놀 함량은 각각 30, 35.33, 43.79 mg/g GAE였다[4]. 같은 연구에서 루테올린 7-O-글루코사이드가 씀바귀(8.76 mg/g 건조중량)와 흰씀바귀(10.35 mg/g 건조중량)의 주성분이었고, 고들빼기에서는 루테올린 7-O-글루쿠로나이드(34.66 mg/g 건조중량)가 주성분이었다[4].",
+   "after": "씀바귀(Ixeris dentata)·흰씀바귀(var. albiflora)·Ixeris sonchifolia를 비교한 연구에서 총페놀 함량은 씀바귀 30 mg/g GAE, 흰씀바귀 35.33 mg/g GAE였고, Ixeris sonchifolia가 43.79 mg/g GAE로 가장 높았다[4]. 같은 연구에서 루테올린 7-O-글루코사이드가 씀바귀(8.76 mg/g 건조중량)와 흰씀바귀(10.35 mg/g 건조중량)의 주성분이었고, Ixeris sonchifolia에서는 루테올린 7-O-글루쿠로나이드(34.66 mg/g 건조중량)가 주성분이었다[4]. Ixeris sonchifolia는 흔히 고들빼기로 불리지만 식약처 목록의 고들빼기 학명(Crepidiastrum sonchifolium / Youngia sonchifolia)에는 이 이름이 없다[1]. 이 출처만으로 같은 원료인지는 확인하지 못함. 이 백과에서는 이 결과를 고들빼기 자료로 옮겨 쓰지 않는다[1, 4].",
+   "why": "[4] 초록은 'Ixeris sonchifolia'로만 적음 — 고들빼기로 단정한 부분을 원 표기로 되돌리고 고들빼기 자료와 섞이지 않게 함"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": " 2019년 국내 학술지 논문은 2015년 10월 초 흰씀바귀의 주 재배지로 경기 양평·충남 당진·강원 춘천·충북 괴산의 4개 지역을 들고 그곳에서 1년생 재래종을 모아 생육 특성을 조사했다고 하나, 이는 검색 요약으로만 확인했고 원문은 확인하지 못함[27].",
+   "after": " 흰씀바귀의 국내 주 재배지는 원문으로 확인한 자료가 없어 확인하지 못함.",
+   "why": "[27]은 WebSearch 요약으로만 확인되고 원문(koreascience)이 허용 목록 밖이라 열 수 없음 — 재배지·연도 주장을 덜어냄"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "새 바이러스 두 종이 분리된 보고가 있다[20]",
+   "after": "새 바이러스 두 종(폴레로바이러스속·움브라바이러스속으로 분류 제안)이 분리된 보고가 있다[20]",
+   "why": "[20] 초록 내용 보강(맞는 문장, 표현만 구체화)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "변종을 밝히지 않은 씀바귀 연구에서는 물·에탄올·메탄올 추출물과 녹즙(green sap)이 시험 재료로 쓰였다[6, 15, 23].",
+   "after": "변종을 밝히지 않은 씀바귀 연구에서는 물·에탄올 추출물, 메탄올 추출물의 물 분획, 녹즙(green sap)이 시험 재료로 쓰였다[6, 15, 23, 29].",
+   "why": "[6]·[15]·[23]에는 메탄올 추출물이 없음 — 메탄올 추출물의 물 분획을 쓴 [29]를 붙임"
+  },
+  {
+   "where": "sections.processing",
+   "before": "비피도박테리움이나 락토바실루스로 발효한 씀바귀 추출물이 쥐에서 발효하지 않은 것보다 알레르기 반응을 더 억제했다는 동물 결과가 있다[22].",
+   "after": "비피도박테리움 브레베나 락토바실루스 아시도필루스로 발효한 씀바귀 추출물이 생쥐에서 발효하지 않은 것보다 수동 피부 아나필락시스와 긁기 행동을 더 억제했다는 세포·동물 결과가 있다[22].",
+   "why": "[22] 초록: 실험동물은 생쥐(mice), 지표는 PCA 반응·긁기 행동, 세포 실험(RBL-2H3) 병행"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "일본의 Ixeridium dentatum ssp. dentatum은 무수정 생식을 하는 3배체로 보고되었으며",
+   "after": "동아시아 저지대에 분포하는 Ixeridium dentatum ssp. dentatum은 무수정 생식을 하는 3배체로 보고되었으며(표지 개발에는 일본 개체를 씀)",
+   "why": "[18] 초록은 분포를 동아시아 저지대로 적고, 일본은 시료 출처임"
+  },
+  {
+   "where": "sections.safety",
+   "before": "씀바귀 물 분획 1.0 g/kg을 4일 먹인 생쥐에서",
+   "after": "씀바귀 메탄올 추출물의 물 분획 1.0 g/kg을 4일 연속 투여한 생쥐에서",
+   "why": "[29] 초록은 '메탄올 추출물의 물 분획'이며 투여 경로를 적지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "씀바귀 성분 이소류실락투신의 폐 대식세포 염증 억제도 세포 결과다[17].",
+   "after": "씀바귀 잎에서 분리한 성분 이소류실락투신이 생쥐 폐포 대식세포주에서 석탄 비산재로 유발한 염증을 억제한 것도 세포 결과다[17].",
+   "why": "[17] 전문: 잎 메탄올 추출물에서 분리, MH-S(생쥐 폐포 대식세포주), 석탄 비산재 자극"
+  },
+  {
+   "where": "compounds[Ixerin M].part",
+   "before": "뿌리(흰씀바귀, forma albiflora로 표기); 씀바귀 전초",
+   "after": "뿌리(흰씀바귀, forma albiflora로 표기); 씀바귀 전체 추출물(부위 미기재)",
+   "why": "[8] 초록은 'whole extract of Ixeris dentata'로 부위(전초)를 밝히지 않음"
+  },
+  {
+   "where": "compounds[Ixerin M].content_text",
+   "before": "흰씀바귀 뿌리 80% 메탄올 추출물에서 분리(함량 미기재)[5]; 씀바귀 전초 추출물에서도 분리[8]",
+   "after": "흰씀바귀 뿌리 80% 메탄올 추출물에서 분리(함량 미기재)[5]; 씀바귀 전체 추출물(부위 미기재)에서도 분리[8]",
+   "why": "[8] 초록은 'whole extract of Ixeris dentata'로 부위(전초)를 밝히지 않음"
+  },
+  {
+   "where": "compounds[Ixerisoside A].part",
+   "before": "씀바귀 전초(변종 미기재)",
+   "after": "씀바귀 전체 추출물(부위 미기재)(변종 미기재)",
+   "why": "[8] 초록은 'whole extract of Ixeris dentata'로 부위(전초)를 밝히지 않음"
+  },
+  {
+   "where": "compounds[Ixerisoside A].content_text",
+   "before": "씀바귀 전초 추출물에서 분리(함량 미기재)[8]",
+   "after": "씀바귀 전체 추출물(부위 미기재)에서 분리(함량 미기재)[8]",
+   "why": "[8] 초록은 'whole extract of Ixeris dentata'로 부위(전초)를 밝히지 않음"
+  },
+  {
+   "where": "compounds[8-Epidesacylcynaropicrin 3-O-glucoside].content_text",
+   "before": "씀바귀에서 정제(함량 미기재)[10]; 씀바귀 전초에서도 분리[8]",
+   "after": "씀바귀에서 정제(함량 미기재)[10]; 씀바귀 전체 추출물(부위 미기재)에서도 분리[8]",
+   "why": "[8] 초록은 'whole extract of Ixeris dentata'로 부위(전초)를 밝히지 않음"
+  },
+  {
+   "where": "sources[20].title",
+   "before": "Complete genome analysis of a novel umbravirus-polerovirus combination isolated from Ixeridium dentatum (Arch Virol 2017, PMID 28905257, 초록)",
+   "after": "Complete genome analysis of a novel umbravirus-polerovirus combination isolated from Ixeridium dentatum (Arch Virol 2017;162(12):3893-3897, PMID 28905257, 초록)",
+   "why": "권·쪽 보강(PubMed)"
+  },
+  {
+   "where": "sources[27]",
+   "before": "[27] 흰씀바귀 재래종 생육 특성 논문(Korean Journal of Agricultural Science 2019, WebSearch 요약만)",
+   "after": "(삭제, 이후 [28]→[27], [29]→[28] 번호 정리)",
+   "why": "원문 확인 불가 출처 — 인용 문장 삭제에 따라 제거"
+  }
+ ],
+ "unverifiable_notes": [
+  "[17] PMC 전문에서 식물 학명이 서식 제거로 빠져 있음 — 'ID' 약칭·같은 연구진의 씀바귀(Ixeridium dentatum) 잎 연구[13]와 같은 방식이라 씀바귀 잎으로 판단(변종 미기재, 흰씀바귀 근거 아님)",
+  "name_en 'White-flowered toothed ixeris' 는 식약처 원자료 ENG_NM 이 비어 있어 출처 없는 서술형 영문명 — 학명 뜻(albiflora=흰 꽃)에 따른 풀이로 남김",
+  "[13]·[14] 초록 일부 학명·유전자명이 서식 제거로 빠져 있으나 제목·키워드로 종 확인",
+  "흰씀바귀 국내 재배지·생산 통계: [27](koreascience) 원문이 허용 목록 밖이라 확인 불가 — 문장 삭제",
+  "대조 결과: 국문명·학명·사용부위(뿌리·잎)는 I1020_20261013.json 원자료(흰씀바귀뿌리·흰씀바귀잎, Ixeris dentata (Thunb.) Nakai var. albiflora Nakai, '사용가능부위 : 뿌리,잎')와 일치. 씀바귀(Ixeridium dentatum / Ixeris dentata)는 별도 원료로 바르게 구분됨. 흰씀바귀 고유 근거는 [2]·[3]·[4]·[5]뿐이고, 변종 미기재 씀바귀 연구는 모두 '씀바귀'로 표기되어 흰씀바귀 결과처럼 쓰인 곳은 없었음. [2]·[3] PMC 전문으로 함량·HPLC 조건 전수 대조 일치."
+ ]
+}

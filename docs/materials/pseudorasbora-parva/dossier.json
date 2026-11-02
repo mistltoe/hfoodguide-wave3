@@ -1,0 +1,477 @@
+{
+ "slug": "pseudorasbora-parva",
+ "name_ko": "참붕어",
+ "name_en": "Stone moroko",
+ "scientific_name": "Pseudorasbora parva (Temminck & Schlegel, 1846)",
+ "aliases": [
+  "참붕어",
+  "깨붕어",
+  "꽃붕어",
+  "돌고리",
+  "보리붕어",
+  "열치",
+  "Stone moroko",
+  "Topmouth gudgeon",
+  "False dace"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "참붕어(Pseudorasbora parva)는 동아시아 원산의 작은 잉어목 민물고기로, 영어로는 stone moroko·topmouth gudgeon 등으로 불린다[1, 2, 10]. 원산지는 중국·대만·한국·일본이며 물풀이 많은 호수와 연못에 흔히 살고, 몸길이는 보통 12.5 cm를 넘지 않는다[2].\n\n식약처 「식품원료 목록」에는 원료명 '참붕어'(이명 깨붕어·꽃붕어·돌고리·보리붕어·열치, 영문 Stone moroko·False dace)가 수산물로 올라 있고 상태는 '사용가능'이다[1]. 부위 칸은 '-'로 적혀 있고 따로 정한 사용 조건은 없으며, 건강기능식품 고시형 원료의 원재료도 아니어서 고시 지표성분이나 1일 섭취량 기준은 없다[1].\n\n이름에 '붕어'가 들어가지만 붕어(Carassius auratus)와는 다른 속의 물고기이고, 식품원료 목록에서도 따로 올라 있다[1, 6]. 중국·대만·일본에서는 살이 연하고 잔뼈가 적으며 지방이 적은 식용어로 소비되어 왔다고 보고된다[2]. 국내에서는 간흡충(Clonorchis sinensis) 피낭유충이 자주 검출되는 민물고기로 조사되어, 날것으로 먹지 않는 것이 중요하다[3, 4, 5]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "이 종은 Temminck와 Schlegel이 1846년에 기재했다[2, 13]. 영어권에서는 stone moroko 외에 topmouth gudgeon이라는 이름이 널리 쓰이고, 식약처 목록에는 False dace도 함께 적혀 있다[1, 13].\n\n유럽에는 1960년대에 들어왔다[10]. 1961년 루마니아 남부 담보비차강 유역의 누체트 양어장에서 처음 기록되었고 이후 알바니아·리투아니아에서도 확인되었다고 하며[2], 루마니아와 알바니아에서 1961년에 함께 처음 발견되었다고 적은 문헌도 있다[14]. 주로 다른 물고기의 종묘에 섞여 우연히 옮겨졌고, 이후 북아프리카·중동·중앙아시아와 오세아니아(피지)까지 퍼졌다[14]. 2011년 연구는 원산지 밖 최소 32개국에서 이 종이 확인된다고 정리했다[10]. 폴란드에서는 1990년 헝가리산 초식성 아시아 잉어류 종묘와 함께 처음 들어왔다고 보고된다[2].\n\n원산지인 중국에서는 주로 튀김 형태로 지역 요리에 쓰이고, 큰 육식성 양식어의 먹이로도 쓰인다고 한다[2]. 국내 고문헌이나 전통 음식 속 참붕어 이용 기록은 이번 조사에서 공식 출처로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "참붕어는 물풀이 무성한 작은 수로, 웅덩이, 작은 호수에 흔히 살며, 먹이 폭이 넓고 환경 내성이 커서 새 서식지에 쉽게 자리 잡는다[14]. 몸이 작고 수명이 짧은 편으로, 폴란드 집단에서는 나이가 0+에서 5+세까지 확인되었다[14].\n\n폴란드 바르딘카강 집단(602마리)에서는 암컷의 93%, 수컷의 60%가 태어난 첫해에 성숙했고, 성숙한 가장 작은 개체는 표준체장 암컷 25 mm, 수컷 28 mm였다[14]. 산란기는 4월 말부터 8월 중순까지(수온 14–24 °C) 이어졌고, 암컷은 한 철에 2–3회 나누어 알을 낳았으며 절대 포란수는 평균 1,372개(225–6,620개)였다[14]. 수컷이 알을 지키는 습성이 있어 번식 성공에 도움이 된다고 해석된다[14].\n\n원산지인 아무르강에서는 수온 15–19 °C에서 산란하고, 중국·일본 원산 집단의 산란기는 대략 3–6월로 보고된다[14]. 튀르키예의 세 호수 집단은 산란기가 3–7월, 5–10월, 6–8월로 서로 달랐고, 2세 암컷 한 마리가 2,949개의 알을 가진 집단도 있었다[15]. 원산지와 침입지 29개 집단을 비교한 연구에서는 원산지에서 성장 특성을 좌우하던 유전·환경 요인이 침입 집단에서는 약해졌다[21]. 실험실 독성 시험에서 참붕어는 여러 오염물질, 특히 농약 같은 유기 오염물질에 민감해 수질 지표 생물 후보로 제안되었다[19]. 중국 랴오허의 토착어 4종 비교에서도 암모니아·카드뮴·니트로벤젠에 대한 민감도가 Abbottina liaoningensis 다음으로 높았다[20]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "참붕어는 잉어과의 모래무지아과(Gobioninae)로 분류되며, 최근 문헌은 모래무지과(Gobionidae)로 따로 다루기도 한다[6, 7]. 이름에 '붕어'가 붙지만 붕어(Carassius auratus, Crusian carp)와는 다른 무리이며, 식약처 「식품원료 목록」에서도 참붕어와 붕어·붕어엑기스·붕어추출액이 각각 별도 원료로 올라 있다[1]. 같은 목록에는 모래무지(Pseudogobio esocinus), 누치(Hemibarbus labeo), 참마자(Hemibarbus longirostris) 같은 다른 민물 잉어목 어류도 별도 수산물 원료로 실려 있다[1].\n\n같은 속의 Pseudorasbora elongata는 먹물 붓을 닮은 몸빛을 가진 중국 고유종으로, 야생 집단이 줄어 여러 차례 멸종위기종으로 지정되었다[9]. 모래무지아과 안의 계통 분석에서 누치속의 Hemibarbus maculatus는 약 1,830만 년 전에 참붕어와 공통 조상을 나눈 것으로 추정되었다[8].\n\n국내 간흡충 조사에서 참붕어와 돌고기(Pungtungia herzi)는 감염률이 높아 지역의 간흡충 전파 정도를 가늠하는 지표 어종이 될 수 있다고 제안되었다[3]. 튀르키예에서는 미토콘드리아 COI 유전자 바코드로 참붕어를 붕어속 어류 등 다른 외래 민물고기와 구별할 수 있음을 보였다[22]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 양식",
+   "body": "원산지에서는 자연 어획량이 시장 수요를 채우지 못해 다른 물고기와 함께 연못에서 기르기도 한다[2]. 논문 저자들은 중국 하천 소형어 어획물에서 참붕어가 생물량의 5%까지 차지할 수 있다는 점과 중국의 연간 민물고기 소비량(원문 표기 약 5만 6천 톤)을 들어 연간 어획량을 560–2,800톤으로 가정해 추산했으나, 이는 공식 통계가 아닌 가상 추정치다[2].\n\n유럽에서는 잉어 양식장의 종묘에 섞여 퍼졌고, 대량으로 생기면 기르는 물고기와 먹이를 다투며 토착 어류의 알과 어린 개체를 먹는다고 보고된다[14]. EU 규정에 따라 잡은 개체를 다시 물에 놓아줄 수 없어 보통 버려지지만, 식품 원료로 활용해 개체 수를 줄이자는 제안도 나왔다[2]. 독일 연못 31곳 조사에서는 참붕어 등 침입어의 환경 DNA 농도가 높을수록 양서류 환경 DNA 농도가 낮았다[23].\n\n참붕어는 겉보기에 건강한 채로 물고기 병원체 Sphaerothecum destruens(로제트 병원체)를 옮기는 보균 숙주로, 이 병원체가 유럽 토착 잉어과 어류의 폐사와 산란 억제를 일으킨 사례가 보고되었다[11, 12, 13, 17]. 국내 참붕어만 따로 집계한 어획·양식 생산 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "폴란드 연구(2024년 9월 채집, 양식 연못 2곳·하천 1곳)는 참붕어 살의 일반성분이 유럽의 흔한 민물고기 범위에 들고, 지방 5% 미만·단백질 15% 미만인 저지방·저단백 어류(E군)로 분류된다고 보고했다[2]. 내장을 뺀 몸통 수율은 70–83%였고, 양식 연못 집단(평균 82.90%)이 가장 높았다[2]. 양식 연못 개체의 살은 하천 개체보다 열량이 뚜렷이 높았다[2].\n\n저자들은 아시아의 작은 물고기 요리처럼 튀김 간식, 어묵·저장식품 재료, 국물 요리, 건조·발효 식품으로 쓸 수 있다고 제안했다[2]. 다만 이는 가공 기술과 관능 평가가 더 필요한 제안 단계로, 실제 제품화 결과는 아니다[2].\n\n참붕어에서 기능성 성분이나 생리활성 펩타이드를 분리해 정량한 연구는 이번 조사에서 확인하지 못함. 국내에서 참붕어를 원료로 한 제품 생산실적도 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 염색체",
+   "body": "참붕어의 미토콘드리아 유전체는 16,601 bp의 고리 모양으로, 전달 RNA 유전자 22개, 단백질 암호 유전자 13개, 리보솜 RNA 유전자 2개와 조절 부위(D-loop)를 가지며 A+T 함량은 55.97%다[6]. 튀르키예 집단의 핵형은 2n = 50(중부 동원체 18, 차중부 26, 차단부 6, 염색체 팔 수 94)이었고, 45S rDNA는 23번 쌍 한 곳에만 있었다[7].\n\n같은 속 P. elongata의 염색체 수준 유전체(1.4 Gb, 25개 염색체)는 기존 참붕어 유전체와 높은 동일 배열성(collinearity)을 보였다[9]. 다만 참붕어 자체 유전체 조립의 크기·유전자 수는 이번 조사에서 원문으로 확인하지 못함.\n\n유럽 집단의 시토크롬 b 유전자 약 700 bp 분석에서는 침입 집단의 다양성이 원산지 집단보다 높았고, 한 지역에 들어온 뒤 여러 갈래로 퍼졌으며 그 전에 유전적으로 다른 원산 집단이 섞였다고 해석되었다[10]. 벨기에 하천에서는 이동 장벽(둑·수문·물레방아 등)이 많을수록 참붕어의 유전 다양성이 뚜렷이 낮아졌고, 장벽 가운데 물레방아가 유전 구조에 가장 큰 영향을 주었다[18]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 주의",
+   "body": "참붕어는 국내에서 간흡충의 제2중간숙주로 자주 확인된다[3, 4]. 2007–2008년 전국 34개 지역 조사에서 참붕어의 간흡충 피낭유충 양성률은 48%였고 한 마리에서 최대 1,142개가 나왔다[3]. 2018–2020년 강원 철원 토교저수지 관개수로 조사에서는 참붕어 양성률이 82.1%, 감염 개체당 평균 88개였다[4]. 간흡충은 중간숙주인 민물고기를 먹어 감염되며 담관 염증·섬유화와 담관암 발생에 관여할 수 있어, 질병관리청 보고서는 주민에게 날 민물고기 섭취의 위험을 알려 식습관을 바꾸도록 해야 한다고 밝혔다[5].\n\n2024년 9월 폴란드 3개 집단(양식 연못 2곳·하천 1곳, 집단당 16마리)의 등쪽 살(습중량 기준)에서 납은 0.0077–0.0101 mg/kg, 카드뮴은 0.0027–0.0037 mg/kg으로 EU 식품 기준(납 0.30, 카드뮴 0.05 mg/kg)보다 낮았다[2]. 하루 30 g 섭취를 가정한 추정 섭취량은 참고 용량의 0.28–3.03%였고 위해 지수(THQ)는 모두 1 미만이었다[2]. 같은 논문은 오염된 이탈리아 아르노강 집단의 니켈이 폴란드 집단보다 높고 납은 45배 넘게 높았다고 비교해, 사는 물의 오염도에 따라 값이 크게 달라짐을 보였다[2]. 아르노강 외래종 연구에서는 참붕어 같은 잉어과 어류의 금속 농도가 몸 크기와 뚜렷한 관계를 보이지 않았다[16].\n\n고시형 원료가 아니어서 따로 정한 섭취 주의사항은 없다[1]. 국내 참붕어의 중금속 측정값과 참붕어 단독의 알레르기 정보는 공공기관 자료에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Protein",
+   "name_ko": "단백질",
+   "class": "다량영양소(일반성분)",
+   "role": "nutrient",
+   "part": "살(필레)",
+   "content_text": "14.07–15.25%(폴란드 3개 집단, 켈달법 질소×6.25)[2]; 원산지(중국) 문헌값 12.80–16.41%(논문 고찰에서 인용)[2]",
+   "activity_ko": "저지방·저단백 어류(E군) 분류의 근거가 된 일반성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Lipids",
+   "name_ko": "지방(총지질)",
+   "class": "다량영양소(일반성분)",
+   "role": "nutrient",
+   "part": "살(필레)",
+   "content_text": "2.27–3.75%(폴란드 3개 집단, Folch 추출·중량법)[2]; 원산지(중국) 문헌값 2.82–9.82%[2]",
+   "activity_ko": "하천 개체가 양식 연못 개체보다 낮음(먹이 조건 차이로 해석)[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Water",
+   "name_ko": "수분",
+   "class": "일반성분",
+   "role": "nutrient",
+   "part": "살(필레)",
+   "content_text": "72.19–74.83%(폴란드; 하천 집단 74.83%로 가장 높음)[2]; 원산지(중국) 문헌값 77.29–80.20%[2]",
+   "activity_ko": "일반성분 분석의 기준값(105 °C 건조)[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ash",
+   "name_ko": "회분(무기질 총량)",
+   "class": "일반성분",
+   "role": "nutrient",
+   "part": "살(필레)",
+   "content_text": "2.88–2.91%(폴란드, 550 °C 회화)[2]; 원산지(중국) 문헌값 1.05–3.33%[2]",
+   "activity_ko": "집단 간 유의한 차이 없음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Lead",
+   "name_ko": "납",
+   "class": "중금속(오염물질)",
+   "role": "bioactive",
+   "part": "살(등쪽 근육)",
+   "content_text": "0.0077–0.0101 mg/kg 습중량(폴란드 3개 집단, 집단당 16마리)[2]",
+   "activity_ko": "EU 기준 0.30 mg/kg보다 낮음; 몸길이·체중과 유의한 양의 상관[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cadmium",
+   "name_ko": "카드뮴",
+   "class": "중금속(오염물질)",
+   "role": "bioactive",
+   "part": "살(등쪽 근육)",
+   "content_text": "0.0027–0.0037 mg/kg 습중량(폴란드 3개 집단)[2]",
+   "activity_ko": "EU 기준 0.05 mg/kg보다 낮음; 추정 섭취량은 참고 용량의 1.17–1.57%[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Nickel",
+   "name_ko": "니켈",
+   "class": "중금속(오염물질)",
+   "role": "bioactive",
+   "part": "살(등쪽 근육)",
+   "content_text": "0.18–0.22 mg/kg 습중량(라신 연못 0.215189, 바르딘카강 0.186706 mg/kg)[2]",
+   "activity_ko": "조사 금속 중 가장 높은 농도; 오염된 아르노강 집단보다 약 40% 낮음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cobalt",
+   "name_ko": "코발트",
+   "class": "중금속(미량원소)",
+   "role": "bioactive",
+   "part": "살(등쪽 근육)",
+   "content_text": "개별 수치는 표에만 있어 본문에서 확인하지 못함; 농도 순서 Co < Cd < Pb < Ni, 납이 코발트의 약 4배[2]",
+   "activity_ko": "추정 섭취량은 참고 용량의 0.28–0.41%[2]",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Lead",
+   "compound_ko": "납",
+   "part": "살(등쪽 근육)",
+   "content": "0.0077–0.0101 mg/kg 습중량(라신 연못 0.01010, 바르딘카강 0.00773 mg/kg)[2]",
+   "method": "GFAAS(흑연로 원자흡광, 제만 보정)",
+   "conditions": {
+    "instrument": "Hitachi Zeeman ZA3000 편광 원자흡광분광기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "흑연로 원자흡광(GFAAS)",
+    "injection": "",
+    "sample_prep": "살 시료 1.00 ± 0.01 g(등쪽 부위, 집단당 16마리, 습중량 기준) + 진한 HNO3 5 mL → 고압 마이크로파 분해(Speedwave Xpert, Berghof) → 10 mL로 희석; 초순수 HNO3(69%)·Milli-Q 물(18.2 MΩ) 사용",
+    "standard": "인증 표준용액 1000 mg/L(Pb·Cd·Ni: 독일 제조사, Co: 불가리아 제조사)로 검량선 작성, 시료당 3회 이상 반복",
+    "linearity": "",
+    "lod": "0.0002 mg/L(Pb·Cd), 0.0005 mg/L(Co·Ni)",
+    "loq": "",
+    "recovery": "인증표준물질 Fish muscle ERM-BB422로 검증, 회수율 95–108%(Pb 95%, Cd 96%, Co 104%, Ni 108%)"
+   },
+   "rationale": "납은 EU가 식용 어류에 최대 기준을 둔 유해 금속이어서, 침입종 참붕어를 식품으로 쓸 수 있는지 판단하는 핵심 지표로 쓰였다[2]. 전문(Methods) 확인 — 칼럼·이동상 칸은 원자흡광법이라 해당 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12491469/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cadmium",
+   "compound_ko": "카드뮴",
+   "part": "살(등쪽 근육)",
+   "content": "0.0027–0.0037 mg/kg 습중량[2]",
+   "method": "GFAAS(흑연로 원자흡광, 제만 보정)",
+   "conditions": {
+    "instrument": "Hitachi Zeeman ZA3000 편광 원자흡광분광기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "흑연로 원자흡광(GFAAS)",
+    "injection": "",
+    "sample_prep": "살 시료 1.00 ± 0.01 g(등쪽 부위, 집단당 16마리, 습중량 기준) + 진한 HNO3 5 mL → 고압 마이크로파 분해(Speedwave Xpert, Berghof) → 10 mL로 희석; 초순수 HNO3(69%)·Milli-Q 물(18.2 MΩ) 사용",
+    "standard": "인증 표준용액 1000 mg/L로 검량선 작성, 시료당 3회 이상 반복",
+    "linearity": "",
+    "lod": "0.0002 mg/L",
+    "loq": "",
+    "recovery": "ERM-BB422 기준 정확도 96%(전체 원소 회수율 95–108%)"
+   },
+   "rationale": "카드뮴도 EU 식용 어류 최대 기준(0.05 mg/kg)이 있는 유해 금속으로, 참붕어 살의 섭취 위해성(추정 섭취량·THQ) 평가에 쓰였다[2]. 전문(Methods) 확인[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12491469/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Protein",
+   "compound_ko": "단백질(조단백)",
+   "part": "살(필레, 집단별 분쇄 균질물)",
+   "content": "14.07–15.25%[2]",
+   "method": "켈달법(AOAC 973.48, 질소×6.25)",
+   "conditions": {
+    "instrument": "Kjeltec KT200 증류 장치(Foss, 덴마크)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "증류 후 과잉 산을 표준 NaOH 용액으로 역적정",
+    "injection": "",
+    "sample_prep": "잡은 즉시 필레를 떠 산지별로 핸드 블렌더로 균질화 → 약 500 mg을 진한 황산 10 cm3로 습식 분해 → 암모니아 증류; 집단별 3반복",
+    "standard": "질소-단백질 환산계수 6.25",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "참붕어 살의 영양 가치를 판단하는 기본 지표로, 지방과 함께 어류 영양 분류(E군)의 근거가 되었다[2]. 전문(Methods) 확인 — 지방은 Folch법(클로로포름:메탄올 2:1, AOAC 960.39), 회분은 550 °C 회화(AOAC 999.11)로 쟀다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12491469/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "살(중국 원산지 야생 개체; 폴란드 논문 고찰에서 인용한 2차 자료)",
+   "basis": "원문 % 표기(습중량 기준으로 보임), 원 논문은 확인하지 못함[2]",
+   "items": [
+    {
+     "name": "수분",
+     "value": 79.2,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 16.34,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 2.82,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 1.45,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    2
+   ]
+  },
+  {
+   "form": "살(중국 원산지 양식 개체; 폴란드 논문 고찰에서 인용한 2차 자료)",
+   "basis": "원문 % 표기(습중량 기준으로 보임), 원 논문은 확인하지 못함[2]",
+   "items": [
+    {
+     "name": "수분",
+     "value": 77.29,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 16.41,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 4.65,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 1.05,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    2
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Pseudorasbora parva 행(참붕어; 이명 깨붕어·꽃붕어·돌고리·보리붕어·열치; Stone moroko, False dace; 수산물; 부위 '-'; 사용가능) 및 같은 목록의 붕어(Carassius auratus)·붕어엑기스·붕어추출액·모래무지(Pseudogobio esocinus)·누치(Hemibarbus labeo)·참마자(Hemibarbus longirostris) 행(data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/pseudorasbora-parva/card.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Kozioł A 외. Nutritional quality and heavy metal in invasive stone moroko (Pseudorasbora parva) from natural waters and aquaculture ponds. Sci Rep 2025;15:34385 (PMID 41038911, doi:10.1038/s41598-025-17243-3) — PMC 전문",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12491469/",
+   "publisher": "Scientific Reports (Nature Portfolio)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Kim EM 외. Infection status of freshwater fish with metacercariae of Clonorchis sinensis in Korea. Korean J Parasitol 2008;46(4):247-51 (PMID 19127331, doi:10.3347/kjp.2008.46.4.247)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2612610/",
+   "publisher": "The Korean Journal of Parasitology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Sohn WM 외. Survey of Zoonotic Trematode Metacercariae in Fish from Irrigation Canal of Togyo-jeosuji (Reservoir) in Cheorwon-gun, Gangwon-do, Republic of Korea. Korean J Parasitol 2021;59(4):427-432 (PMID 34470096, doi:10.3347/kjp.2021.59.4.427)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8413859/",
+   "publisher": "The Korean Journal of Parasitology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "질병관리청 감염병진단분석국 매개체분석과. 2022년 민물고기 간흡충 피낭유충 감염 실태 조사. 주간 건강과 질병 2023;16(43):1455-1463 (PMID 41334171, doi:10.56786/PHWR.2023.16.43.1) — PMC 전문",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12480428/",
+   "publisher": "질병관리청(주간 건강과 질병)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Xu W 외. Mitochondrial DNA sequence of Pseudorasbora parva (Cyprinidae: Gobioninae). Mitochondrial DNA A 2016;27(1):416-7 (PMID 24621220, doi:10.3109/19401736.2014.898284) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24621220/",
+   "publisher": "Mitochondrial DNA Part A (Taylor & Francis)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Arslan A 외. Molecular cytogenetic analysis in Pseudorasbora parva (Cypriniformes: Gobionidae) — important invasive fish species in Türkiye. Genetica 2026;154(1) (PMID 42423833, doi:10.1007/s10709-026-00275-6) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42423833/",
+   "publisher": "Genetica (Springer)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Lian Q 외. A chromosome-level genome assembly of Hemibarbus maculatus. Sci Data 2026;13 (PMID 41748651, doi:10.1038/s41597-026-06856-6) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13056976/",
+   "publisher": "Scientific Data (Nature Portfolio)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Wang P 외. A chromosome-level genome assembly and annotation of the Pseudorasbora elongata (Cypriniformes: Cyprinidae). Sci Data 2025;12:554 (PMID 40169578, doi:10.1038/s41597-025-04890-4) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11961702/",
+   "publisher": "Scientific Data (Nature Portfolio)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Simon A 외. Invasive cyprinid fish in Europe originate from the single introduction of an admixed source population followed by a complex pattern of spread. PLoS One 2011;6(6):e18560 (PMID 21674031, doi:10.1371/journal.pone.0018560) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3108587/",
+   "publisher": "PLoS ONE",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Gozlan RE 외. Biodiversity: disease threat to European fish. Nature 2005;435(7045):1046 (PMID 15973399, doi:10.1038/4351046a) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15973399/",
+   "publisher": "Nature",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Combe M, Gozlan RE. The rise of the rosette agent in Europe: An epidemiological enigma. Transbound Emerg Dis 2018;65(6):1474-1481 (PMID 30144307, doi:10.1111/tbed.13001) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30144307/",
+   "publisher": "Transboundary and Emerging Diseases (Wiley)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Andreou D, Gozlan RE. Associated disease risk from the introduced generalist pathogen Sphaerothecum destruens: management and policy implications. Parasitology 2016;143(9):1204-10 (PMID 27216376, doi:10.1017/S003118201600072X) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4926270/",
+   "publisher": "Parasitology (Cambridge University Press)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Kirczuk L 외. Reproductive Potential of Stone Moroko (Pseudorasbora parva) (Teleostei: Cypriniformes: Gobionidae) Inhabiting Central Europe. Animals 2021;11(9):2627 (PMID 34573593, doi:10.3390/ani11092627) — PMC 전문",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8471933/",
+   "publisher": "Animals (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Küçük F 외. Spatio-temporal variation in reproductive characteristics of invasive fish Pseudorasbora parva in the lakes region of Türkiye. J Fish Biol 2025;106(2):305-314 (PMID 39385443, doi:10.1111/jfb.15932) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11842178/",
+   "publisher": "Journal of Fish Biology (Wiley)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Balzani P 외. Metal accumulation in relation to size and body condition in an all-alien species community. Environ Sci Pollut Res 2022;29(17):25848-25857 (PMID 34851482, doi:10.1007/s11356-021-17621-0) — PMC 전문(수치 표는 본문 텍스트에 없음)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8986740/",
+   "publisher": "Environmental Science and Pollution Research (Springer)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Combe M 외. Towards unravelling the Rosette agent enigma: Spread and emergence of the co-invasive host-pathogen complex, Pseudorasbora parva-Sphaerothecum destruens. Sci Total Environ 2022;806:150427 (PMID 34600207, doi:10.1016/j.scitotenv.2021.150427) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34600207/",
+   "publisher": "Science of the Total Environment (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Deflem IS 외. Contrasting population genetic responses to migration barriers in two native and an invasive freshwater fish. Evol Appl 2022;15(12):2010-2027 (PMID 36540633, doi:10.1111/eva.13469) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9753842/",
+   "publisher": "Evolutionary Applications (Wiley)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Wang XN 외. [Species sensitivity evaluation of Pseudorasbora parva]. Huan Jing Ke Xue 2013;34(6):2329-34 (PMID 23947052) — 중국어 논문의 영문 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23947052/",
+   "publisher": "Huan Jing Ke Xue (Environmental Science, 중국)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Liu Z 외. Toxicity of ammonia, cadmium, and nitrobenzene to four local fishes in the Liao River, China and the derivation of site-specific water quality criteria. Ecotoxicol Environ Saf 2017;147:656-663 (PMID 28934709, doi:10.1016/j.ecoenv.2017.09.008) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28934709/",
+   "publisher": "Ecotoxicology and Environmental Safety (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Gozlan RE 외. Native drivers of fish life history traits are lost during the invasion process. Ecol Evol 2020;10(16):8623-8633 (PMID 32884645, doi:10.1002/ece3.6521) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7452779/",
+   "publisher": "Ecology and Evolution (Wiley)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Keskin E 외. DNA barcoding common non-native freshwater fish species in Turkey: low genetic diversity but high population structuring. Mitochondrial DNA 2013;24(3):276-87 (PMID 23298166, doi:10.3109/19401736.2012.748041) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23298166/",
+   "publisher": "Mitochondrial DNA (Taylor & Francis)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Riaz M 외. Using eDNA to understand predator-prey interactions influenced by invasive species. Oecologia 2023;202(4):757-767 (PMID 37594600, doi:10.1007/s00442-023-05434-6) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10474997/",
+   "publisher": "Oecologia (Springer)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

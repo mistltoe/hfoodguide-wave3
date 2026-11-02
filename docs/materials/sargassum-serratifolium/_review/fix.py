@@ -1,0 +1,48 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/sargassum-serratifolium/dossier.json'
+d=json.load(open(p))
+S={s['key']:s for s in d['sections']}
+changes=[]
+def rep(key,old,new,why):
+    b=S[key]['body']; assert old in b,(key,old[:40]); S[key]['body']=b.replace(old,new); changes.append({"where":"sections."+key,"before":old,"after":new,"why":why})
+rep('overview','에탄올 추출물의 메로테르페노이드 농축 분획(MES)은 100 g당 이 세 성분을 합쳐 45.7 ± 2.2 g 담고 있었다[4].',
+ '70% 에탄올 추출물에서 염·수용성 당을 걷어 낸 메로테르페노이드 농축 분획(MES) 100 g당 이 세 성분이 합쳐 45.7 ± 2.2 g이었다[4]. 이 값은 분획 기준이며, 말린 해조나 생해조 기준 함량은 원문에 없다[4].',
+ '[4] 값은 MES(분획) 100 g 기준임을 분명히 함 — 건조 해조 기준으로 오독될 수 있음')
+rep('history','이들 논문은 유엔환경계획(UNEP)이 모자반속을 과잉 축적 때문에 해양 오염원으로 지목했다고 쓰며, 이는 톱니모자반 한 종이 아니라 모자반속 전체에 대한 서술이다[8][10].',
+ '이들 논문은 유엔(UN)[8] 또는 유엔환경계획(UNEP)[10]이 모자반속을 과잉 번식·축적 때문에 해양 오염원으로 지목했다고 쓰며, 이는 톱니모자반 한 종이 아니라 모자반속 전체에 대한 서술이고 UNEP 원문은 확인하지 못함[8][10].',
+ '[8] 원문은 UNEP가 아니라 \"UN\"으로 씀; 기관 원문 미확인 표기')
+rep('history','메로테르페노이드의 항염·항산화 활성 보고가 이어졌다[16][17][18].',
+ '에탄올 추출물·메로테르페노이드의 항염 활성(미세아교세포·혈관내피세포, 일부 생쥐)과 헥산 추출물의 암세포 증식 억제(세포) 보고가 이어졌다[16][17][18].',
+ '[18]은 항산화가 아니라 헥산 추출물의 뇌종양 세포 실험임')
+rep('biology','한 논문은 주로 한국과 일본 연안에 산다고 적었다[3]. 국내 학술지 논문은 국내에서는 제주 해역과 남해에, 국외에서는 중국·일본 등에 분포한다고 정리했다고 웹 검색 결과에 요약되어 있으나 원문은 열지 못했다[27].',
+ '한 논문은 주로 한국과 일본 연안에 산다고 적었다[3]. 국내 세부 분포(해역별)는 원문으로 확인하지 못함.',
+ '[27]은 웹 검색 요약뿐이고 원문 확인 불가 — 근거에서 덜어냄')
+rep('biology','형태: 다른 모자반류처럼 공기주머니(기낭)가 있어 수면 가까이 떠오르고, 부착기는 납작한 원반 모양(반상형)이며 줄기 가장자리에 끝이 뭉툭한 가시가 난다고 웹 검색 결과에 요약되어 있으나 원문은 열지 못했다[28]. 이 종의 성숙 시기·수온 범위 같은 생태 자료는 확인하지 못함.',
+ '형태: 모자반속은 엽상체·줄기·가지의 형태로 분류하지만 종 사이 차이가 작고 환경·생장 단계에 따라 달라진다[25]. 톱니모자반 고유의 형태 기재(기낭·부착기·잎 가장자리 등)와 성숙 시기·수온 범위 같은 생태 자료는 원문으로 확인하지 못함.',
+ '[28]은 웹 검색 요약뿐이고 원문 확인 불가 — 형태 서술 삭제, [25]의 속 수준 서술로 대체')
+rep('cultivation','연구에 쓰인 시료는 양식이 아니라 자연 군락에서 채집한 것이었다[2][4][26].',
+ '연구에 쓰인 시료는 부산 연안·서해 등 연안에서 채집한 것이며, 양식 여부는 원문에 적혀 있지 않다[2][4][26].',
+ '원문은 \"연안에서 채집\"만 적음 — \"자연 군락\"은 추정')
+rep('cultivation','2026년 논문의 시료도 같은 채집분에서 나왔고 증거표본이 기탁되었다[10].',
+ '2026년 논문의 시료는 앞서 보고된 다른 논문(같은 연구실)과 같은 채집분이라고만 적혀 있어 채집 시기는 확인하지 못했고, 증거표본이 기탁되었다[10].',
+ '[10] 원문은 \"Gwon 등이 앞서 보고한 것과 같은 채집분\"이라고만 씀 — 2017년 5월 채집분과 같다는 근거 없음')
+rep('safety','에탄올 추출물은 RAW 264.7 대식세포에서 5 ppm, HaCaT 각질세포에서 2.5 ppm까지 생존율에 영향을 주지 않았다[8].',
+ '에탄올 추출물은 RAW 264.7 대식세포에서 5 ppm, HaCaT 각질세포에서 2.5 ppm까지 생존율을 떨어뜨리지 않았다[8]. 같은 논문의 아토피 피부염 생쥐 실험은 먹인 것이 아니라 피부에 바른 것이다[8].',
+ '[8] 동물 실험은 국소 도포임을 명시(섭취 근거로 오독 방지)')
+for c in d['compounds']:
+    if c['name'] in ('Sargahydroquinoic acid','Sargachromenol','Sargaquinoic acid'):
+        old=c['part']; c['part']='엽상체 전체(건조) — 70% 에탄올 추출 메로테르페노이드 농축 분획(MES)'
+        oc=c['content_text']; c['content_text']=oc.replace('[4]','; 분획 기준, 건조 해조 기준 아님[4]')
+        changes.append({"where":"compounds."+c['name'],"before":old+' / '+oc,"after":c['part']+' / '+c['content_text'],"why":"함량이 MES 분획 기준임을 분명히 함"})
+    if c['name']=='Sargahydroquinoic acid':
+        o=c['activity_ko']; c['activity_ko']=o.replace('시상하부 주입 생쥐에서 체중 증가 억제(동물)[3]','제3뇌실 직접 주입(경구 아님) 고지방식 생쥐에서 체중 증가 억제(동물)[3]')
+        changes.append({"where":"compounds.SHQA.activity_ko","before":o,"after":c['activity_ko'],"why":"[3]은 뇌실 캐뉼라 주입 — 섭취 효과로 과장되지 않게"})
+a=d['assays'][2]; o=a['content']; a['content']='에탄올 추출물 1 g당 합계 227 ± 6.31 mg(추출물 기준; 비교한 용매 추출물 가운데 최고)'
+changes.append({"where":"assays[2].content","before":o,"after":a['content'],"why":"[6] 값은 추출물 기준"})
+# drop sources 27,28 and renumber
+d['sources']=[s for s in d['sources'] if s['n'] not in (27,28)]
+s=json.dumps(d,ensure_ascii=False)
+assert '[27]' not in s and '[28]' not in s
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open(p.replace('dossier.json','_review/changes.json'),'w'),ensure_ascii=False,indent=1)
+print(len(changes))

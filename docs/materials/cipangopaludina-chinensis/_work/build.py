@@ -1,0 +1,177 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(pmid, title, journal, doi, pmc=None):
+    pub = f"{journal}, doi:{doi}" + (f", {pmc}" if pmc else "") + " (PubMed)"
+    return dict(title=title, url=f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", publisher=pub, accessed=A)
+S = [
+ ("mfds", dict(title="식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 논우렁이(Cipangopaludina chinensis malleata)·큰논우렁이(C. chinensis japonica) 항목(로컬 원자료 I1020_20261013)", url="https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", publisher="식품의약품안전처", accessed="2026-10-13")),
+ ("as", pm("33736365","Human health risk from consumption of aquatic species in arsenic-contaminated shallow urban lakes. Sci Total Environ 2021;770:145318","Science of the Total Environment","10.1016/j.scitotenv.2021.145318","PMC8032223")),
+ ("uk", pm("37796948","Quantitative PCR (qPCR) assay for the specific detection of the Chinese mystery snail (Cipangopaludina chinensis) in the UK. PLoS One 2023;18(10):e0292163","PLoS One","10.1371/journal.pone.0292163","PMC10553251")),
+ ("emac", pm("29103269","Echinostoma macrorchis (Digenea: Echinostomatidae): Metacercariae in Cipangopaludina chinensis malleata Snails and Adults from Experimental Rats in Korea. Korean J Parasitol 2017;55(5):541-548","Korean Journal of Parasitology","10.3347/kjp.2017.55.5.541","PMC5678464")),
+ ("ecin", pm("10577736","Cipangopaludina chinensis malleata (Gastropoda: Viviparidae): a new second molluscan intermediate host of a human intestinal fluke Echinostoma cinetorchis (Trematoda: Echinostomatidae) in Korea. J Parasitol 1999;85(5):963-4","Journal of Parasitology","PMID 10577736")),
+ ("lao", pm("31914519","Echinostoma macrorchis Metacercariae in Cipangopaludina chinensis malleata from Xiengkhuang Province, Lao PDR and Morphologies of Adults from Experimental Animals. Korean J Parasitol 2019;57(6):657-664","Korean Journal of Parasitology","10.3347/kjp.2019.57.6.657","PMC6960248")),
+ ("tw", pm("1822939","Current status of food-borne parasitic zoonoses in Taiwan. Southeast Asian J Trop Med Public Health 1991;22 Suppl:62-4","Southeast Asian Journal of Tropical Medicine and Public Health","PMID 1822939")),
+ ("ang", pm("38982497","A new diagnostic technique for identifying Angiostrongylus spp. larvae in intermediate snail species by examining the buccal cavity. Parasit Vectors 2024","Parasites & Vectors","10.1186/s13071-024-06350-1","PMC11234760")),
+ ("angc", pm("17094598","[Experimental study on compatibility of three species of freshwater snails with Angiostrongylus cantonensis]. Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi 2006;24(4):277-80","Chinese Journal of Parasitology & Parasitic Diseases","PMID 17094598")),
+ ("prd", pm("11590745","Heavy metal concentrations in edible bivalves and gastropods available in major markets of the Pearl River Delta. J Environ Sci (China) 2001;13(2):210-7","Journal of Environmental Sciences (China)","PMID 11590745")),
+ ("krm", pm("39547293","Heavy metal bioaccumulation based on seasonal monsoon impact in benthic macroinvertebrates of Korean streams. Chemosphere 2024","Chemosphere","10.1016/j.chemosphere.2024.143749")),
+ ("bai", pm("23520840","Effect of periphyton community structure on heavy metal accumulation in mystery snail (Cipangopaludina chinensis): a case study of the Bai River, China. J Environ Sci (China) 2012;24(10):1723-30","Journal of Environmental Sciences (China)","10.1016/s1001-0742(11)60976-5")),
+ ("neo", pm("23544050","Mid-Neolithic exploitation of mollusks in the Guanzhong Basin of Northwestern China: preliminary results. PLoS One 2013;8(3):e58999","PLoS One","10.1371/journal.pone.0058999","PMC3601151")),
+ ("morph", pm("25465086","Morphological analysis of the Chinese Cipangopaludina species (Gastropoda; Caenogastropoda: Viviparidae). Zool Res 2014;35(6):510-27","Zoological Research","10.13918/j.issn.2095-8137.2014.6.510","PMC4790280")),
+ ("mito", pm("28742843","Sequencing of the complete mitochondrial genomes of eight freshwater snail species exposes pervasive paraphyly within the Viviparidae family (Caenogastropoda). PLoS One 2017;12(7):e0181699","PLoS One","10.1371/journal.pone.0181699","PMC5526530")),
+ ("inc", pm("30996240","Enigmatic incongruence between mtDNA and nDNA revealed by multi-locus phylogenomic analyses in freshwater snails. Sci Rep 2019;9:6223","Scientific Reports","10.1038/s41598-019-42682-0","PMC6470147")),
+ ("smrt", pm("35783279","SMRT Sequencing Reveals Candidate Genes and Pathways With Medicinal Value in Cipangopaludina chinensis. Front Genet 2022;13:881952","Frontiers in Genetics","10.3389/fgene.2022.881952","PMC9243326")),
+ ("dev", pm("40752182","Transcriptomic analysis unveils critical genes governing early development and sex differentiation in the Cipangopaludina chinensis (Gastropoda: Viviparidae). Comp Biochem Physiol Part D 2025;56:101590","Comparative Biochemistry and Physiology Part D","10.1016/j.cbd.2025.101590")),
+ ("tent", pm("42229772","Identifying key drivers of tentacle specialization in Cipangopaludina chinensis through transcriptomic analysis. Genomics 2026","Genomics","10.1016/j.ygeno.2026.111271")),
+ ("neuro", pm("28413703","Lifelong neurogenesis in the cerebral ganglion of the Chinese mud snail, Cipangopaludina chinensis. Brain Behav 2017;7(4):e00652","Brain and Behavior","10.1002/brb3.652","PMC5390835")),
+ ("ps13", pm("23987338","Purification, characterization and immunostimulatory activity of polysaccharide from Cipangopaludina chinensis. Carbohydr Polym 2013;98(1):217-23","Carbohydrate Polymers","10.1016/j.carbpol.2013.05.075")),
+ ("liver", pm("23733103","Preliminary characterization and potential hepatoprotective effect of polysaccharides from Cipangopaludina chinensis. Food Chem Toxicol 2013;59:18-25","Food and Chemical Toxicology","10.1016/j.fct.2013.05.036")),
+ ("ccpsn", pm("26572424","Characterization of a novel purified polysaccharide from the flesh of Cipangopaludina chinensis. Carbohydr Polym 2015;136:875-83","Carbohydrate Polymers","10.1016/j.carbpol.2015.09.062")),
+ ("infl", pm("28927593","Anti-inflammatory and anti-angiogenic activities of a purified polysaccharide from flesh of Cipangopaludina chinensis. Carbohydr Polym 2017;176:152-159","Carbohydrate Polymers","10.1016/j.carbpol.2017.08.073")),
+ ("athero", pm("31556417","Protective activities of polysaccharides from Cipangopaludina chinensis against high-fat-diet-induced atherosclerosis via regulating gut microbiota in ApoE-deficient mice. Food Funct 2019;10(10):6644-6654","Food & Function","10.1039/c9fo01530b")),
+ ("car", pm("22277890","Identification of carotenoids in the freshwater shellfish Unio douglasiae nipponensis, Anodonta lauta, Cipangopaludina chinensis laeta, and Semisulcospira libertina. J Oleo Sci 2012;61(2):69-74","Journal of Oleo Science","10.5650/jos.61.69")),
+ ("enz", pm("35918583","Property of arylsulfatase and β-glucuronidase extracted from digestive tracts of Cipangopaludina chinensis and their cleavage performance on conjugated natural estrogens. Environ Sci Pollut Res Int 2022;29(42):64244-64251","Environmental Science and Pollution Research","10.1007/s11356-022-22260-0")),
+ ("prot", pm("39268005","Proteomics and phosphoproteomics reveal novel proteins involved in Cipangopaludina chinensis carcasses. Front Chem 2024;12:1416942","Frontiers in Chemistry","10.3389/fchem.2024.1416942","PMC11390518")),
+ ("starv", pm("38941864","Comparative physiological, biochemical and transcriptomic analyses to reveal potential regulatory mechanisms in response to starvation stress in Cipangopaludina chinensis. Comp Biochem Physiol Part D 2024;52:101279","Comparative Biochemistry and Physiology Part D","10.1016/j.cbd.2024.101279")),
+ ("rice", pm("35282274","Comparison of the composition and function of gut microbes between adult and juvenile Cipangopaludina chinensis in the rice snail system. PeerJ 2022;10:e13042","PeerJ","10.7717/peerj.13042","PMC8916024")),
+ ("gut", pm("40708023","Dynamic response of gut microbiota mediates the adaptation of Cipangopaludina chinensis to Pomacea canaliculata invasion. Microbiome 2025;13:171","Microbiome","10.1186/s40168-025-02160-4","PMC12291480")),
+ ("us", pm("18941789","Interactions among invaders: community and ecosystem effects of multiple invasive species in an experimental aquatic system. Oecologia 2008;159(1):161-70","Oecologia","10.1007/s00442-008-1176-x")),
+ ("chj", pm("2099176","[Studies on Echinostoma spp. in the Chungju Reservoir and upper streams of the Namhan River]. Korean J Parasitol 1990;28(4):221-33","Korean Journal of Parasitology","10.3347/kjp.1990.28.4.221")),
+ ("hehu", pm("42940380","Nutritional Composition of the Hehu Field Snail: A Comparison of Open-Air and Greenhouse Paddy Culture Systems. Foods 2026;15(20):3743","Foods (MDPI)","10.3390/foods15203743","PMC13704281")),
+ ("shell", pm("37100317","Characterization of the shell proteins in two freshwater snails Pomacea canaliculata and Cipangopaludina chinensis. Int J Biol Macromol 2023;124524","International Journal of Biological Macromolecules","10.1016/j.ijbiomac.2023.124524")),
+]
+N = {k: i+1 for i, (k, _) in enumerate(S)}
+def r(*ks): return "[" + ", ".join(str(N[k]) for k in ks) + "]"
+
+sections = [
+("overview","한눈에 보기", f"""논우렁이는 동아시아 원산의 논우렁이과(Viviparidae) 민물 고둥으로, 껍데기 높이가 40–60 mm에 이르는 크고 둥근 고둥이며 뚜껑(operculum)으로 껍데기 입구를 닫는다{r('uk')}. 식품의약품안전처 「식품원료 목록」에는 '논우렁이'(학명 Cipangopaludina chinensis malleata)와 '큰논우렁이'(C. chinensis japonica)가 수산물 분류의 '사용가능' 원료로 따로 올라 있다{r('mfds')}. 두 항목 모두 사용 조건 칸은 비어 있고 부위 칸은 '-'로 적혀 있으며, 논우렁이 항목에는 '논고동, 골뱅이, 우렁'이 이명으로 실려 있다{r('mfds')}. 이 종은 건강기능식품 고시형 원료의 원재료로는 확인되지 않았다{r('mfds')}.
+
+중국에서는 경제적 가치가 큰 식용·양식 고둥으로 소개되며, 벼와 우렁이를 함께 기르는 체계에서도 연구된다{r('dev', 'rice')}. 살에서 얻은 황산화 다당류(CCPS)의 면역·간 보호·항염 작용이 세포와 동물 실험에서 보고되었다{r('ps13', 'liver', 'infl')}. 사람 대상 시험은 확인하지 못함.
+
+한국산 개체에서는 사람 장흡충을 포함한 극구흡충류의 피낭유충이 흔히 검출되어, 이 종이 사람 감염원이 될 수 있다고 보고되었다{r('ecin', 'emac')}."""),
+("history","이용 역사", f"""중국 관중분지의 신석기 중기 유적(약 5600–4500 cal. yr BP) 구덩이에서 논우렁이 껍데기가 짐승 뼈·석기·토기와 함께 나와, 연구진은 이를 먹고 버린 음식물 잔해로 해석했다{r('neo')}. 다만 출토량이 많지 않아 주식은 아니었을 것으로 보았다{r('neo')}. 현대 중국 문헌은 이 종을 약용 가치가 높은 경제 종으로 소개한다{r('smrt', 'rice')}.
+
+북미에는 1890년대에 캘리포니아의 중국계 시장에서 식용으로 팔리면서 처음 들어온 것으로 기록되어 있다{r('as')}. 이후 미국 북부 호수에 널리 퍼져 토착 고둥 군집에 영향을 주는 침입종이 되었다{r('us')}. 유럽에서는 네덜란드에 적어도 2007년부터 있었고, 영국에서는 2018년 서식스 습지에서 처음 확인되었는데 관상용 연못·수족관 거래와 일부 아시아 공동체의 식용 수요가 유입 경로로 추정된다{r('uk')}.
+
+한국에서는 1990년 충주호 일대 조사에서 이미 논우렁이(C. chinensis malleata)가 기생충 매개 패류 조사 대상에 포함되었다{r('chj')}. 1999년 보고는 한국의 논우렁이과로 C. chinensis malleata와 C. japonica 두 종을 들었다{r('ecin')}. 한국의 전통 식용 기록과 이용 규모를 다룬 공식 자료는 확인하지 못함."""),
+("biology","생물 특성", f"""논우렁이는 영국에서 가장 큰 민물 고둥으로 소개될 만큼 커서 껍데기 높이 40–60 mm, 폭 30–40 mm에 이른다{r('uk')}. 알을 낳지 않고 몸 안에서 새끼를 키워 낳는 난태생으로, 6–10월에 새끼를 낳고 암컷 한 마리가 한 해 최대 30마리, 일생 160마리 넘게 낳을 수 있다고 정리되어 있다{r('uk')}. 수명은 최대 5년으로 인용되기도 하고, 신경절 연구에서는 암컷이 최대 7년, 수컷이 최대 5년을 산다고 보고했다{r('uk', 'neuro')}.
+
+암수가 따로 있으며 수컷의 오른쪽 더듬이가 교미기관으로 바뀌는 뚜렷한 성적이형을 보인다{r('tent')}. 주로 돌·수초 표면의 부착조류를 긁어 먹고, 체내 바나듐·크롬·니켈 축적은 먹이 부착조류 가운데 단세포 규조류의 비율과 관련되었다{r('bai')}. 미국의 실험 연못에서는 부착조류량을 줄이고 인 배설이 적어 물의 질소:인 비를 높였다{r('us')}.
+
+한국에서는 관개 수로·연못·논에서 채집되었다{r('emac')}. 여름에는 물가 얕은 곳에 머물다가 겨울에는 깊은 곳으로 옮긴다고 알려져 있다{r('uk')}. 30일 넘게 굶기면 체중·생존율·소화효소(아밀레이스·프로테에이스·라이페이스) 활성이 크게 떨어졌다{r('starv')}."""),
+("related_species","관련 종·이름", f"""논우렁이속(Cipangopaludina)은 분류가 매우 혼란스러운 무리다{r('uk', 'morph')}. 중국 표본의 형태 재검토에서는 기록된 18종이 11종과 2아종으로 정리되었고, C. wingatei는 C. chinensis의 동종이명, C. fluminalis는 C. chinensis의 아종으로 처리되었다{r('morph')}. 북미 문헌에서는 같은 종을 Bellamya chinensis라는 이름으로 부르는 경우가 많다{r('us', 'as')}.
+
+식약처 목록은 논우렁이를 C. chinensis malleata, 큰논우렁이를 C. chinensis japonica로 적어 같은 종의 두 아종처럼 다룬다{r('mfds')}. 반면 1999년 국내 기생충학 보고는 C. japonica를 별개의 종으로 적었다{r('ecin')}. 아종 C. c. chinensis와 C. c. laeta는 미토콘드리아 DNA로 네 계통, 핵 DNA로 두 무리로 나뉘고 서로 유전자가 섞인 흔적이 있었다{r('inc')}. 미토콘드리아 유전체 비교에서는 C. ussuriensis가 Bellamya 쪽에 묶여 속의 경계도 다시 정해야 한다는 의견이 나왔다{r('mito')}.
+
+중국에서 논에 기르는 식용 고둥 C. hehuensis는 다른 종이다{r('hehu')}. 이른바 '왕우렁이'(Pomacea canaliculata)는 사과우렁이과의 외래 침입종으로 논우렁이와 다른 과다{r('shell', 'gut')}. 다슬기(Semisulcospira libertina)도 다른 과로, 카로티노이드 구성이 논우렁이 아종과 달랐다{r('car')}. 이명 '골뱅이'는 식품원료 목록에서 바다 고둥류의 이명으로도 쓰이므로 학명으로 구분해야 한다{r('mfds')}."""),
+("cultivation","양식·채취", f"""중국에서 논우렁이는 경제적 가치가 큰 양식 종으로 다루어지며, 벼와 우렁이를 함께 기르는 체계에서 어린 개체와 성체의 장내 미생물이 비교되었다{r('rice')}. 이 연구는 어린 개체 장에서 많았던 지표 세균을 초기 먹이 개발에 활용할 가능성을 제시했다{r('rice')}. 초기 발생과 성분화 유전자 연구는 성비를 조절해 번식 효율을 높이는 기초 자료로 수행되었다{r('dev')}. 굶주림 반응 연구는 월동 생존을 이해하려는 목적이었다{r('starv')}.
+
+외래종 왕우렁이가 함께 사는 곳에서는 병원체 감염으로 논우렁이 폐사가 늘 수 있는데, 저항성 개체군의 장내 미생물을 옮겨 주면 생존율이 높아졌다{r('gut')}. 이 결과는 실험·야외 조사 수준이며 양식 현장의 표준 기술로 정리된 것은 확인하지 못함.
+
+한국에서는 전북 임실, 전남 화순·신안, 경남 진주의 관개 수로·연못·논에서 채집한 개체가 연구에 쓰였다{r('emac')}. 국내 양식 기술 지침과 생산·유통 통계는 공식 자료에서 확인하지 못함."""),
+("processing","가공·추출 연구", f"""논우렁이 살을 뜨거운 물로 추출하고 DEAE-52·Sephadex G-100 크로마토그래피로 정제하자 람노스와 포도당이 주성분인 두 다당 분획(평균 분자량 226 kDa, 235 kDa)이 얻어졌다{r('ps13')}. 이 조다당은 사이클로포스파마이드를 투여한 생쥐에서 흉선·비장 지수와 대식세포 기능을 높였다{r('ps13')}. 포도당 위주에 우론산과 황산기가 많은 다당은 BCG/LPS로 간 손상을 유발한 생쥐에서 혈청 ALT·AST를 낮췄다{r('liver')}.
+
+정제 다당 CCPSn은 분자량 91.1 kDa의 황산화 α-(1→3)-글루칸으로, 황산기 함량이 9.12%였다{r('ccpsn')}. 정제 다당은 대식세포·혈관내피세포 실험에서 염증 매개물질과 혈관 신생 지표를 용량에 따라 줄였다{r('infl')}. ApoE 결손 생쥐에 12주간 고지방식과 함께 먹이자 동맥경화반 면적이 줄고 장내 세균 구성이 바뀌었다{r('athero')}. 이 결과들은 모두 세포·동물 실험이며 사람에게서의 효과는 확인하지 못함.
+
+살과 내장에서는 1,382개 단백질과 1,039개 인산화 단백질이 확인되었고 산지에 따라 발현이 달랐다{r('prot')}. 소화관에서 얻은 아릴설파테이스는 4 °C에서도 최대 활성의 53.2%를 유지해, 시료 분석용 효소의 대안으로 제안되었다{r('enz')}."""),
+("genetics","유전 정보", f"""논우렁이는 2017년 중국 논우렁이과 8종과 함께 미토콘드리아 전체 유전체가 해독되었다{r('mito')}. 논우렁이과 미토콘드리아 유전체는 16,392–18,544 bp로 신복족류 가운데 가장 크고 A+T 비율이 평균 72.5%로 높았다{r('mito')}.
+
+PacBio 단일분자 실시간(SMRT) 염기서열 분석으로 얻은 전장 전사체에서는 평균 길이 2,572 bp의 유전자 26,312개와 단순반복서열(SSR) 8,058개가 확인되었고, 91.86%가 주요 데이터베이스에 주석되었다{r('smrt')}. 이 자료에서 약물 대사·면역 관련 후보 유전자(CYP1A1, CYP2J, GST 등)가 제시되었다{r('smrt')}. 초기 발생과 성분화 전사체 분석에서는 정소 발달 후보로 SYCP1·CDK1 등, 난소 발달 후보로 DAX1·Foxl2 등이 골라졌다{r('dev')}. 수컷 오른쪽 더듬이의 교미기관 분화에는 좌우 비대칭 조절 유전자 Pitx2의 발현 증가가 관련되었다{r('tent')}.
+
+아종 C. c. chinensis와 C. c. laeta는 미토콘드리아와 핵 DNA의 계통이 서로 어긋났고, 두 무리는 플라이오세–플라이스토세 초기에 갈라진 뒤 유전자 교류를 겪은 것으로 추정되었다{r('inc')}. 영국에서는 COI 유전자 204 bp를 겨냥한 종 특이 qPCR로 물속 환경 DNA에서 이 종을 찾아냈으나, 매우 가까운 근연종 하나와는 COI 서열이 비슷해 구분하지 못했다{r('uk')}."""),
+("safety","안전성", f"""식약처 「식품원료 목록」에서 논우렁이와 큰논우렁이는 '사용가능' 원료이며 별도 사용 조건은 없다{r('mfds')}. 이 종에 대한 공공기관의 알레르기·잔류 기준 정보는 확인하지 못함.
+
+한국산 논우렁이는 사람 장흡충인 Echinostoma cinetorchis의 제2중간숙주로 처음 확인되었고 사람 감염원이 될 수 있다고 보고되었다{r('ecin')}. 5개 지역 75마리 조사에서는 Echinostoma macrorchis 피낭유충 감염률이 60.0–100%, 감염 개체당 19–183개였다{r('emac')}. 라오스의 같은 아종에서도 이 피낭유충이 확인되었다{r('lao')}. 대만에서는 광동주혈선충(Angiostrongylus cantonensis) 감염의 추가적인 주요 감염원으로 논우렁이가 꼽혔다{r('tw')}. 실험 감염에서도 이 종은 광동주혈선충에 잘 감염되었으나 감염 밀도는 왕우렁이보다 낮았다{r('angc', 'ang')}.
+
+중금속은 서식 환경에 따라 크게 달랐다{r('bai', 'krm')}. 홍콩·광둥 시장의 식용 패류 조사에서 논우렁이의 크롬 농도는 1일 허용 섭취 한도와 현지 규제 수준보다 높았다{r('prd')}. 미국 비소 오염 호수의 가식부 총비소는 호수 평균 2.9–46.4 μg/g이었고 그 가운데 평균 58%가 무기비소였다{r('as')}. 한국 하천에서는 홍수 뒤 이 아종의 구리 축적이 두드러졌다{r('krm')}."""),
+]
+
+compounds = [
+ dict(name="Sulfated polysaccharide", name_ko="황산화 다당류(CCPS, 조다당)", class_="다당류", role="bioactive", part="살(연체부)",
+      content_text="함량 수치는 초록에 없음; 포도당 위주이며 우론산·황산기 함량이 높다고 보고 [22]",
+      activity_ko="BCG/LPS 간 손상 생쥐에서 혈청 ALT·AST를 낮춤(동물 실험)[22]", source=["liver"]),
+ dict(name="alpha-1,3-Glucan", name_ko="황산화 α-(1→3)-글루칸(CCPSn)", class_="다당류", role="bioactive", part="살(연체부)",
+      content_text="분자량 91.1 kDa, 황산기 함량 9.12%, 분지도 약 16.73% [23]",
+      activity_ko="구조가 밝혀진 정제 다당(활성 시험은 이 논문에 없음)[23]", source=["ccpsn"]),
+ dict(name="Rhamnose", name_ko="람노스(CCPS-1·CCPS-2 구성당)", class_="단당(다당 구성당)", role="bioactive", part="살(연체부)",
+      content_text="CCPS-1·CCPS-2 는 람노스와 포도당이 주구성당인 이종다당, 평균 분자량 226·235 kDa; 구성비 수치는 초록에 없음 [21]",
+      activity_ko="조다당이 사이클로포스파마이드 처리 생쥐의 면역 지표를 높임(동물 실험)[21]", source=["ps13"]),
+ dict(name="Glucose", name_ko="포도당(다당 구성당)", class_="단당(다당 구성당)", role="bioactive", part="살(연체부)",
+      content_text="CCPS 의 주구성당; CCPSn 은 D-포도당만으로 된 동종다당 [22, 23]",
+      activity_ko="다당 골격을 이루는 당[23]", source=["liver","ccpsn"]),
+ dict(name="Lutein", name_ko="루테인", class_="카로티노이드", role="bioactive", part="연체부",
+      content_text="아종 C. chinensis laeta 의 주요 카로티노이드로 동정; 함량 수치는 초록에 없음 [26]",
+      activity_ko="먹이(조류) 유래 색소로 동정됨[26]", source=["car"]),
+ dict(name="Zeaxanthin", name_ko="제아잔틴", class_="카로티노이드", role="bioactive", part="연체부",
+      content_text="아종 C. chinensis laeta 의 주요 카로티노이드로 동정; 함량 수치는 초록에 없음 [26]",
+      activity_ko="루테인과 함께 주요 색소로 동정됨[26]", source=["car"]),
+ dict(name="Arsenic", name_ko="비소(총비소)", class_="유해 원소(오염물질)", role="bioactive", part="가식부(껍데기 뺀 연조직 전체)",
+      content_text="미국 워싱턴주 얕은 호수 3곳 평균 2.9–46.4 μg/g, 깊은 오염 호수 11.8 μg/g(원문 μg As g⁻¹, 오븐 건조 조직을 분해해 측정; 생·건 기준 표기는 원문에 따로 없음) [2]",
+      activity_ko="무기비소 비율이 평균 58%로 가재(20%)·물고기(7%)보다 높았음[2]", source=["as"]),
+ dict(name="Arsenobetaine", name_ko="아르세노베타인", class_="유기비소 화합물", role="bioactive", part="가식부(껍데기 뺀 연조직 전체)",
+      content_text="오염 호수 2곳 우렁이 비소 화학종 평균: As(III) 33%, As(V) 25%, 아르세노베타인 30% [2]",
+      activity_ko="독성이 비교적 낮은 유기비소 형태[2]", source=["as"]),
+ dict(name="Chromium", name_ko="크롬", class_="중금속(오염물질)", role="bioactive", part="살(생중량 기준 분석)",
+      content_text="홍콩·광둥 시장 시료에서 1일 허용 한도와 현지 규제 수준을 넘음; 수치는 초록에 없음 [10]",
+      activity_ko="시장 유통 식용 패류 오염 조사 항목[10]", source=["prd"]),
+ dict(name="Copper", name_ko="구리", class_="중금속", role="bioactive", part="개체",
+      content_text="한국 하천 조사에서 홍수 뒤 C. chinensis malleata 의 구리 축적이 두드러짐; 수치는 초록에 없음 [11]",
+      activity_ko="필수 미량원소이나 과다 축적은 오염 지표[11]", source=["krm"]),
+ dict(name="Cadmium", name_ko="카드뮴", class_="중금속(오염물질)", role="bioactive", part="개체",
+      content_text="중국 바이강 유역에서 부착조류의 카드뮴이 많을수록 이 종의 카드뮴도 늘었음; 수치는 초록에 없음 [12]",
+      activity_ko="먹이 부착조류를 통한 축적 경로가 제시됨[12]", source=["bai"]),
+ dict(name="Arylsulfatase", name_ko="아릴설파테이스(효소)", class_="효소", role="bioactive", part="소화관",
+      content_text="60 U/g(습중량 기준, 원문 'U/g wet waste'); 4 °C에서 최대 활성의 53.2% 유지 [27]",
+      activity_ko="포합형 천연 에스트로겐을 분해해 분석용 효소 대안으로 제안[27]", source=["enz"]),
+ dict(name="beta-Glucuronidase", name_ko="β-글루쿠로니데이스(효소)", class_="효소", role="bioactive", part="소화관",
+      content_text="5 U/g(습중량 기준, 원문 'U/g wet waste') [27]",
+      activity_ko="포합형 에스트로겐 분해에 함께 쓰임[27]", source=["enz"]),
+]
+
+assays = [
+ dict(role="literature", compound="Total arsenic", compound_ko="총비소", part="가식부(껍데기 뺀 연조직 전체)",
+      content="호수별 평균 2.9–46.4 μg/g(얕은 호수), 11.8 μg/g(깊은 호수) [2]", method="마이크로파 산분해 후 ICP-MS",
+      conditions=dict(instrument="Agilent 7900 ICP-MS", column="", mobile_phase="", gradient="", flow="", temp="", detection="ICP-MS(비소)", injection="",
+        sample_prep="가식부를 60 °C에서 하룻밤 건조해 막자사발로 균질화하고 항량까지 건조; 마이크로파 분해(CEM MARS 5, 수정 EPA 3015a, 미량금속급 HNO3, 가압 용기) 후 2%(v/v) HNO3로 희석",
+        standard="인증 다원소 표준액으로 검량", linearity="", lod="0.25 μg/L(용액 중 비소)", loq="",
+        recovery="분해 확인: NIST 2711a 92 ± 10%(n=6), DOLT-5 99 ± 9%(n=11); ICP-MS 정확도: NIST 1640a 87 ± 6%(n=10)"),
+      rationale="이 종의 가식부를 사람 섭취 위해성 평가용으로 정량한 연구다. 전문(Methods)을 확인했다[2].", source=["as"], url="https://pubmed.ncbi.nlm.nih.gov/33736365/", source_kind="paper"),
+ dict(role="literature", compound="Arsenic species (arsenite, arsenate, arsenobetaine)", compound_ko="비소 화학종(아비산·비산·아르세노베타인)", part="가식부(껍데기 뺀 연조직 전체)",
+      content="오염 호수 2곳 우렁이 평균 As(III) 33%, As(V) 25%, 아르세노베타인 30%, 무기비소 58% [2]", method="IC-ICP-MS(이온크로마토그래피-유도결합플라스마 질량분석)",
+      conditions=dict(instrument="이온크로마토그래프-ICP-MS(기종 표기 없음)", column="Dionex AS14 음이온교환 칼럼", mobile_phase="탄산암모늄계 용액(원문 표기 'NH4CO3', 아래첨자 손실로 정확한 염 확인 못함)", gradient="탄산암모늄 농도 기울기(세부 값 원문에 없음)", flow="1 mL/min", temp="", detection="ICP-MS, 분석 시간 7분", injection="20 μL",
+        sample_prep="-80 °C 보관 시료를 72시간 동결건조·균질화 후 묽은 산 가열 추출; 추출액을 200 mM 탄산암모늄계 용액과 1:1 희석",
+        standard="비소 화학종 1차 표준액(아르세노베타인·아르세노콜린·아비산·DMA·MMA·비산); 품질관리 NIST 2669a", linearity="", lod="", loq="",
+        recovery="추출 효율(화학종 합/총비소) 우렁이 36 ± 26%(n=6)"),
+      rationale="섭취 위해성은 무기비소가 좌우하므로 화학종 비율을 따로 정량했다; 우렁이는 추출 효율이 낮아 비율 해석에 한계가 있다. 전문(Methods)을 확인했다[2].", source=["as"], url="https://pubmed.ncbi.nlm.nih.gov/33736365/", source_kind="paper"),
+ dict(role="literature", compound="Polysaccharide composition (glucose, uronic acid, sulfate)", compound_ko="다당 구성(포도당·우론산·황산기)", part="살(연체부)",
+      content="CCPS 는 포도당이 대부분이며 우론산·황산기 함량이 높음; 수치는 초록에 없음 [22]", method="화학 분석 및 기체크로마토그래피(GC)",
+      conditions=dict(instrument="", column="", mobile_phase="", gradient="", flow="", temp="", detection="", injection="", sample_prep="", standard="", linearity="", lod="", loq="", recovery=""),
+      rationale="생리활성 연구의 대상 물질인 다당의 구성을 확인하는 지표다. 초록만 확인했으며 전문 확인 못함[22].", source=["liver"], url="https://pubmed.ncbi.nlm.nih.gov/23733103/", source_kind="paper"),
+ dict(role="literature", compound="Carotenoids (lutein, zeaxanthin)", compound_ko="카로티노이드(루테인·제아잔틴)", part="연체부",
+      content="아종 C. chinensis laeta 의 주요 카로티노이드가 루테인·제아잔틴으로 동정됨; 함량 수치는 초록에 없음 [26]", method="카로티노이드 동정(세부 기기 초록에 없음)",
+      conditions=dict(instrument="", column="", mobile_phase="", gradient="", flow="", temp="", detection="", injection="", sample_prep="", standard="", linearity="", lod="", loq="", recovery=""),
+      rationale="같은 수역의 다슬기·민물조개와 색소 구성을 구별하는 성분이다. 아종 laeta 자료이며 초록만 확인해 전문 확인 못함[26].", source=["car"], url="https://pubmed.ncbi.nlm.nih.gov/22277890/", source_kind="paper"),
+]
+
+def fix(x):
+    x = dict(x)
+    if "class_" in x: x["class"] = x.pop("class_")
+    x["source"] = [N[k] for k in x["source"]]
+    return x
+
+import re
+def renum(text):
+    # [n] placeholders in content strings were written with final numbers already; verify they match keys
+    return text
+
+d = dict(slug="cipangopaludina-chinensis", name_ko="논우렁이", name_en="Chinese mystery snail",
+         scientific_name="Cipangopaludina chinensis",
+         aliases=["큰논우렁이", "논고동", "골뱅이", "우렁", "Cipangopaludina chinensis malleata", "Cipangopaludina chinensis japonica", "Bellamya chinensis", "Mystery snail"],
+         sections=[dict(key=k, title=t, body=b) for k, t, b in sections],
+         compounds=[fix(c) for c in compounds], markers=[], assays=[fix(a) for a in assays],
+         nutrients=[], production=[], gi=[], orgs=[], world=[],
+         sources=[dict(n=N[k], **v) for k, v in S])
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print(N)

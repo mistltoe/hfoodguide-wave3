@@ -1,0 +1,18 @@
+# notes
+- PMID 41038911 PMC12491469 Koziol 2025 Sci Rep: Poland SK/WR/RP. fillet protein 14.07-15.25%, fat 2.27-3.75%, water 72.19-74.83% (WR 74.83), ash 2.88-2.91%. carcass yield 70-83% (SK 82.90). TL 57.10-97.50 mm, 2.63-7.99 g, CF 0.68-1.42 mean 1.04. Pb 0.0077-0.0101, Cd 0.0027-0.0037, Ni 0.18-0.22 (RP 0.215189, WR 0.186706) mg/kg ww. GFAAS Hitachi ZA3000 Zeeman; microwave digestion Speedwave Xpert 1.00 g + 5 mL HNO3 -> 10 mL; LOD 0.0002 mg/L Cd,Pb; 0.0005 Co,Ni; CRM ERM-BB422 recovery 95-108% (Cd96 Co104 Pb95 Ni108). EDI 0.28-3.03% RfD at 30 g/day; EU limits Pb 0.30 Cd 0.05. China native data: protein 12.80-16.41, fat 2.82-9.82, water 77.29-80.20, ash 1.05-3.33; wild vs farmed protein 16.34/16.41, fat 2.82/4.65. Europe first 1961 Nucet fish farm Romania; Poland 1990. EU Reg 1143/2014 release banned. Native China Taiwan Korea Japan; usually <=12.5 cm. China fried dishes, feed. hypothetical 560-2800 t catch.
+- PMID 19127331 PMC2612610 Kim 2008 KJP: 2007-2008, 21 spp 677 fish 34 regions; P. parva 48% (1-1,142 mc/fish); P. parva & Pungtungia herzi index fish.
+- PMID 34470096 PMC8413859 Sohn 2021 KJP Cheorwon Togyo 2018-2020: P. parva CsMc prevalence 82.1%, 88 PFI.
+- PMID 29529849 PMC5858666 Sohn 2018 KJP Wicheon Gunwi: gobioninid group-1 (P. parva etc - species names stripped) 323 fish all infected avg 1,310 CsMc.
+- PMID 41334171 PMC12480428 KDCA PHWR 2023 2022 survey 10 regions (species name stripped in abstract).
+- PMID 42423833 Arslan 2026 Genetica: 2n=50, 18m+26sm+6st, FN=94, Gobionidae, Türkiye.
+- PMID 41748651 PMC13056976 Hemibarbus maculatus genome: H. maculatus & P. parva common ancestor ~18.3 Mya.
+- PMID 40169578 PMC11961702 P. elongata genome 1.4 Gb, 25 chr; high collinearity with P. parva genome.
+- PMID 34600207 Combe 2021 STOTEN: P. parva asymptomatic carrier of Sphaerothecum destruens (rosette agent), France.
+- PMID 37594600 eDNA Germany predator of amphibians.
+- PMID 36540633 Belgium genetic diversity barriers.
+- PMID 24621220 Xu 2014 Mitochondrial DNA A: mtDNA 16,601 bp, 22 tRNA 13 PCG 2 rRNA, D-loop, A+T 55.97%; Gobioninae.
+- PMID 30144307 Combe & Gozlan 2018 TBED review: S. destruens arrived in Europe with healthy carrier P. parva from China ~60 years ago, unnoticed >45 years.
+- PMID 27216376 PMC4926270 Andreou & Gozlan 2016 Parasitology: S. destruens generalist; believed introduced with P. parva (Temminck & Schlegel, 1846).
+- PMID 38792728 PMC11123968 Jiang 2024 Microorganisms: Wuhan East Lake 18 fish spp, C. sinensis overall 32.5% (species names stripped).
+- PMID 34851482 PMC8986740 Balzani 2021: Arno River, 14 metals ICP-OES, dorsal muscle no skin, dried 60C 48h, 10 mL HNO3 microwave 1600 W 210C, LOD 0.01 ppm dw; cyprinids (Alburnus & P. parva) no significant metal-size relationship. values not in text.
+- PMID 29843105 Ma 2018: Se exposure liver (lab).
