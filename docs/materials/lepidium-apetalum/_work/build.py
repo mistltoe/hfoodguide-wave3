@@ -1,0 +1,108 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+def pm(n, title, pmid, pub, pmc=None):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    p = f"{pub} (PubMed PMID {pmid}" + (f", {pmc} 전문)" if pmc else ")")
+    return {"n": n, "title": title, "url": url, "publisher": p, "accessed": ACC}
+S = [
+ {"n": 1, "title": "식품원료 목록(다닥냉이순, Lepidium apetalum Willd. / Lepidium micranthum Ledeb.)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)", "accessed": "2026-10-13"},
+ pm(2, "Phytochemical profiling of Lepidium apetalum using GC/LC-MS metabolomics coupled with chemometric and bioactivity analyses (2025)", "41446587", "Food Chemistry: X", "PMC12723153"),
+ pm(3, "Descurainia sophia L. and Lepidium apetalum Willd.: A comprehensive review of botany, ethnopharmacology, phytochemistry, pharmacology, actual and potential applications (2025)", "40962150", "Fitoterapia"),
+ pm(4, "Advances on Lepidii Semen and Descurainiae Semen (2014, 중국어 논문·영문 초록)", "25898564", "Zhongguo Zhong Yao Za Zhi"),
+ pm(5, "Seed Biology of Lepidium apetalum (Brassicaceae), with Particular Reference to Dormancy and Mucilage Development (2020)", "32151019", "Plants (Basel)", "PMC7154808"),
+ pm(6, "A chromosome-level genome assembly and annotation of the medicinal plant Lepidium apetalum (2024)", "38886663", "BMC Genomic Data"),
+ pm(7, "The complete chloroplast genome sequence of medicinal plant: Lepidium apetalum (Brassicaceae) (2020)", "33457970", "Mitochondrial DNA Part B"),
+ pm(8, "A comparative study of the chloroplast genomes of five Lepidium species with high medicinal value (2023)", "36043226", "Functional Plant Biology"),
+ pm(9, "Mini-barcode development based on chloroplast genome of Descurainiae Semen Lepidii Semen and its adulterants and its application in Chinese patent medicine (2025, 중국어 논문·영문 초록)", "40350868", "Zhongguo Zhong Yao Za Zhi"),
+ pm(10, "Hydroethanolic Extract of Lepidium apetalum Willdenow Alleviates Dextran Sulfate Sodium-Induced Colitis (2024)", "39061864", "Antioxidants (Basel)", "PMC11273485"),
+ pm(11, "Ethanol Extract of Lepidium apetalum Seed Elicits Contractile Response and Attenuates Atrial Natriuretic Peptide Secretion in Beating Rabbit Atria (2013)", "24288558", "Evidence-Based Complementary and Alternative Medicine"),
+ pm(12, "Evomonoside: the cytotoxic cardiac glycoside from Lepidium apetalum (1995, 초록 없음 — 서지 정보만 확인)", "7617779", "Planta Medica"),
+ pm(13, "2-Phenylacetamide Isolated from the Seeds of Lepidium apetalum and Its Estrogen-Like Effects In Vitro and In Vivo (2018)", "30205508", "Molecules"),
+ pm(14, "Two Sulfur Glycoside Compounds Isolated from Lepidium apetalum Willd Protect NRK52e Cells against Hypertonic-Induced Adhesion and Inflammation (2017)", "29137154", "Molecules"),
+ pm(15, "Bioactive Constituents Obtained from the Seeds of Lepidium apetalum Willd. (2017)", "28350346", "Molecules"),
+ pm(16, "New bioactive flavonoid glycosides isolated from the seeds of Lepidium apetalum Willd. (2015)", "25869847", "Fitoterapia"),
+ pm(17, "Extraction of Lepidium apetalum seed oil using supercritical carbon dioxide and anti-oxidant activity of the extracted oil (2011)", "22143572", "Molecules"),
+ pm(18, "Anti-asthmatic effects of lepidii seu Descurainiae Semen plant species in ovalbumin-induced asthmatic mice (2019)", "31344479", "Journal of Ethnopharmacology"),
+ pm(19, "Host Range of Plasmodiophora brassicae on Cruciferous Crops and Weeds in China (2016)", "30686153", "Plant Disease"),
+ pm(20, "Uridine derivatives from the seeds of Lepidium apetalum Willd. and their estrogenic effects (2018)", "30075391", "Phytochemistry"),
+ pm(21, "2-phenylacetamide Separated from the seed of Lepidium apetalum Willd. inhibited renal fibrosis via MAPK pathway mediated RAAS and oxidative stress in SHR Rats (2023)", "37353787", "BMC Complementary Medicine and Therapies"),
+ pm(22, "From the Literature on Mining to Computational Verification: A Review of the Anti-Radiation Mechanisms of Sulfur Compounds in the Seeds of Lepidium apetalum Willd and Descurainia sophia (2026)", "41751982", "International Journal of Molecular Sciences", "PMC12940398"),
+ pm(23, "[Study of distribution of sinapine in commonly used crude drugs from cruciferous plants] (2006, 중국어 논문·영문 초록)", "16827311", "Se Pu (Chinese Journal of Chromatography)"),
+]
+
+sec = []
+def add(k, t, b): sec.append({"key": k, "title": t, "body": b})
+
+add("overview", "개요",
+"다닥냉이(Lepidium apetalum Willd.)는 십자화과(Brassicaceae) 다닥냉이속의 한해살이 또는 두해살이풀이다[1, 5]. 식약처 「식품원료 목록」에는 '다닥냉이순'이라는 원료명, 영문명 Pepperweed·Peppergrass, 이명 학명 Lepidium micranthum Ledeb.으로 실려 있다[1]. 이 원료의 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 순'이므로, 식품원료로 쓸 수 있는 부위는 어린 순뿐이다[1]. 같은 목록에서 다닥냉이 씨앗이나 씨앗 추출물은 원료로 확인되지 않았다[1].\n\n"
+"이 종의 연구는 대부분 씨앗을 말린 약재 '정력자(葶藶子, 중국명 Tinglizi)'를 대상으로 한 성분 분리와 세포·동물 실험이다[3, 4]. 잎·줄기·뿌리를 씨앗과 나란히 분석한 연구는 2025년에 처음 보고되었다고 저자들이 밝히고 있다[2]. 따라서 아래의 성분·효능 자료 가운데 상당수는 식품원료 부위(순)가 아닌 씨앗 자료이며, 각 항목에 부위를 따로 적었다[2, 3]. 순(어린 잎·줄기)만 따로 시험한 사람 연구는 확인하지 못함.")
+
+add("history", "역사와 전통적 이용",
+"중국에서는 다닥냉이와 재쑥(Descurainia sophia)의 익은 씨앗을 모두 '정력자'라 부르며, 다닥냉이 씨앗을 북정력자(Lepidii Semen), 재쑥 씨앗을 남정력자(Descurainiae Semen)라고 구분한다[4, 9]. 전통 의학에서 정력자는 폐의 열을 내리고 숨찬 증상을 가라앉히며 소변을 잘 나오게 하고 부기를 빼는 약으로 쓰였다고 정리된다[4]. 이 약재는 중국뿐 아니라 이란·인도·한국·일본 등에서도 쓰인다고 보고된다[3]. 한국에서는 이 씨앗을 'Jungryukza(정력자)'라고 부른다고 국외 학술지에 소개되었다[11].\n\n"
+"중국 문헌을 정리한 연구에 따르면 전초와 씨앗은 류머티즘성 관절염, 고혈압성 부종, 결막염 등에도 쓰였다[2]. 같은 연구는 잎과 줄기를 산나물로 먹거나 국·무침에 넣고, 어린 싹을 샐러드에 넣으며, 씨앗을 식욕을 돋우는 향신료로 쓴다고 적었다[2]. 한국에서 다닥냉이 순을 나물로 먹어 온 기록이나 대한민국약전의 정력자 기원 규정 원문은 확인하지 못함.")
+
+add("biology", "식물학적 특징",
+"다닥냉이는 키 10–25 cm의 한해살이 또는 두해살이 잡초로, 4–6월에 꽃이 피고 열매를 맺는다[5]. 아시아와 유럽에 널리 분포하며 길가, 비탈, 골짜기, 경작지처럼 사람이 교란한 곳에 자란다[5]. 중국에 기록된 다닥냉이속 16종 가운데 하나로, 중국에서는 주로 북부·동북부·서남부에 분포한다[2]. 국내 자생지와 분포 범위는 공공기관 자료로 확인하지 못함.\n\n"
+"5–6월에 생활사를 마치면 열매의 양쪽 껍질이 갈라지며 씨앗이 흩어진다[5]. 갓 익은 씨앗은 적갈색의 긴 타원형이며, 물에 닿으면 씨껍질 바깥층에서 점액질이 많이 나와 씨앗 둘레에 젤 층을 만든다[5]. 이 점액질은 씨앗이 물을 빨리 흡수하고 천천히 잃게 하며, 가뭄 조건에서 발아와 어린 식물 생장을 돕는 것으로 관찰되었다[5]. 염색체 수는 2n = 32로 보고되었다[6].")
+
+add("related_species", "근연종과 혼동 주의",
+"같은 속의 식품원료로는 마카(Lepidium meyenii, 뿌리, 제한적사용), 콩다닥냉이(Lepidium virginicum, 잎, 이명 콩알냉이), 들다닥냉이(Lepidium campestre, 잎)가 식약처 목록에 따로 실려 있으며, 쓸 수 있는 부위와 상태가 다르다[1]. 마카의 뿌리 자료나 다른 다닥냉이속 식물의 잎 자료를 이 종의 순 자료로 옮겨 쓰면 안 된다[1]. 재쑥(Descurainia sophia)은 다른 속 식물이지만 씨앗이 같은 약재명 정력자로 유통되므로 문헌에서 두 종의 자료가 함께 정리되는 경우가 많다[3, 4].\n\n"
+"알레르기성 기도 염증 생쥐 모델에서는 재쑥 씨 추출물이 다닥냉이 씨 추출물보다 효과가 컸다고 보고되어, 두 기원 약재의 작용이 같지 않음을 보여 준다[18]. 엽록체 유전체 비교에서는 다닥냉이가 Lepidium perfoliatum과 유전적 배경이 비슷한 것으로 분석되었다[8]. 중국 시판 정력자 함유 제제에서는 정품 외에 냉이(Capsella bursa-pastoris) 씨앗이 섞인 사례가 DNA 바코드로 검출되었다[9].")
+
+add("cultivation", "재배와 채취",
+"다닥냉이는 재배 작물보다 잡초로 다뤄지는 식물이며, 국내 재배 면적이나 생산 통계는 확인하지 못함. 씨앗 발아 연구에서 갓 익은 씨앗은 얕은 생리적 휴면 상태였고, 10/20 °C 변온에서 가장 잘 발아했으며 빛이 발아를 촉진했다[5]. 실온 건조 저장(후숙), 지베렐린 처리, 씨껍질 상처 내기가 휴면을 깨는 데 효과가 있었고, 씨껍질에 상처를 내면 발아율이 34%에서 76%로 높아졌다[5]. 반면 4 °C 저온 처리는 휴면 해제에 효과가 없었다[5].\n\n"
+"이 결과로 볼 때 자연에서는 주로 가을이나 봄에 싹이 트는 것으로 추정되었다[5]. 같은 연구는 빛을 받아야 잘 발아하는 성질 때문에 깊이 갈아엎는 것이 이 잡초를 줄이는 방법이 될 수 있다고 제안했다[5]. 중국의 십자화과 작물·잡초 조사에서 다닥냉이는 뿌리혹병균(Plasmodiophora brassicae)의 기주로 확인되었으므로, 배추류 밭 주변에서는 이 병의 기주 잡초가 될 수 있다[19]. 식용 순의 채취 시기·방법에 관한 공공기관 자료는 확인하지 못함.")
+
+add("processing", "가공과 이용",
+"중국에서는 잎과 줄기를 산나물·국·무침으로, 어린 싹을 샐러드로 먹는다고 정리되어 있다[2]. 국내에서 다닥냉이순을 원료로 쓴 가공식품이나 생산실적 자료는 확인하지 못함. 부위별 정유를 수증기 증류로 얻었을 때 수율은 뿌리 0.35%, 씨앗 0.17%, 잎 0.14%, 씨껍질 0.12%(건조 중량 기준, 부피/무게)였다[2].\n\n"
+"잎 정유는 피톨·테르페노이드가 중심인 반면, 뿌리·씨앗·씨껍질 정유는 질소·황 함유 성분(페닐아세토니트릴, 에루신, 벤질 이소티오시아네이트 등)이 대부분이어서 부위에 따라 향과 성분이 크게 다르다[2]. 씨앗 기름은 초임계 이산화탄소 추출에서 30.0 MPa, 70 °C, 120분, 유량 25.95 L/h 조건일 때 약 36.3%까지 추출되었다[17]. 국내 연구기관은 다닥냉이 1 kg을 70% 에탄올 10 L로 3시간 환류 추출한 뒤 동결건조해 동물 실험용 추출물을 만들었으나, 원료 부위는 논문에 분명히 적혀 있지 않다[10].")
+
+add("genetics", "유전체와 판별",
+"다닥냉이의 염색체 수준 핵 유전체는 크기 296.80 Mb, GC 함량 34.41%, 반복 서열 23.89%로 조립되었고, 16개 염색체에 조립 서열의 99.79%가 배치되었다[6]. 이 유전체에서 46,584개 유전자와 105개 위유전자가 예측되었다[6]. 엽록체 유전체는 154,680 bp이며 대단일복제부위 83,787 bp, 소단일복제부위 18,013 bp, 역반복부위 2개(각 26,440 bp)로 이루어지고 유전자 128개를 담고 있다[7].\n\n"
+"다른 연구진이 분석한 다닥냉이 엽록체 유전체에는 유전자 130개(단백질 암호화 85개, tRNA 37개, rRNA 8개)와 단순반복서열 87개가 있었다[8]. 정력자의 두 기원(다닥냉이·재쑥)과 위품 7종을 구별하기 위해 엽록체 psbB 영역의 미니 바코드가 개발되었고, 혼합 약재와 중국 제제에서 기원 종을 정성·정량으로 판별할 수 있었다[9]. 이 판별법은 씨앗 약재용으로 개발된 것으로, 순 원료에 적용한 사례는 확인하지 못함.")
+
+add("safety", "안전성",
+"식약처 목록에서 다닥냉이는 순만 '사용가능' 원료이며, 씨앗(정력자)은 식품원료 목록에서 확인되지 않으므로 씨앗을 식품으로 쓰는 근거로 삼을 수 없다[1]. 씨앗 에탄올 추출물에는 디기탈리스와 비슷하게 작용하는 강심배당체 헬베티코사이드가 들어 있고, 토끼 심방 실험에서 심장 수축력을 높였다[11]. 이 종에서는 세포독성을 보이는 강심배당체 에보모노사이드도 보고되었다[12]. 순에 이런 강심배당체가 얼마나 들어 있는지는 확인하지 못함.\n\n"
+"씨앗에서 분리한 2-페닐아세트아마이드와 우리딘 유도체는 세포·생쥐 실험에서 에스트로겐 유사 작용을 보였는데, 이는 씨앗 성분의 실험 결과이며 순 섭취와 직접 관련짓기 어렵다[13, 20]. 잎 메탄올 추출물은 100 μg/mL에서 백혈병 세포주(HL-60) 증식을 57.45% 억제했는데, 이는 시험관 세포 결과다[2]. 다닥냉이순의 알레르기, 잔류농약, 독성에 관한 공공기관 정보는 확인하지 못함. 심장약(강심제)을 복용하는 사람이 씨앗 약재를 함께 쓰는 경우의 상호작용 자료도 확인하지 못함.")
+
+compounds = [
+ {"name": "Phytol", "name_ko": "피톨", "class": "디테르펜 알코올(휘발성)", "role": "bioactive", "part": "잎(정유)", "content_text": "잎 정유의 상대 피크 면적 18.50%; 줄기 정유 7.43%[2]", "activity_ko": "잎 정유의 주성분 — 개별 효능은 이 종에서 시험하지 않음[2]", "source": [2]},
+ {"name": "6,10,14-Trimethylpentadecan-2-one", "name_ko": "6,10,14-트라이메틸펜타데칸-2-온(헥사하이드로파르네실 아세톤)", "class": "테르페노이드 케톤(휘발성)", "role": "bioactive", "part": "잎(정유)", "content_text": "잎 정유 11.05%, 줄기 정유 3.94%(상대 피크 면적)[2]", "activity_ko": "잎 정유 주성분(성분 보고)[2]", "source": [2]},
+ {"name": "beta-Ionone", "name_ko": "β-이오논", "class": "노르이소프레노이드(휘발성)", "role": "bioactive", "part": "잎(정유)", "content_text": "잎 정유의 trans-β-ionone 9.25%(상대 피크 면적)[2]", "activity_ko": "잎 정유 향 성분(성분 보고)[2]", "source": [2]},
+ {"name": "Palmitic acid", "name_ko": "팔미트산(n-헥사데칸산)", "class": "포화지방산", "role": "nutrient", "part": "줄기(정유)", "content_text": "줄기 정유 42.47%(상대 피크 면적), 부위 판별 기여도(VIP) 9.43으로 가장 높음[2]", "activity_ko": "부위 간 차이를 가르는 대표 성분[2]", "source": [2]},
+ {"name": "Benzyl isothiocyanate", "name_ko": "벤질 이소티오시아네이트", "class": "이소티오시아네이트(글루코시놀레이트 분해산물)", "role": "bioactive", "part": "뿌리·씨껍질(정유) — 잎 정유 주성분 아님", "content_text": "뿌리 정유 2.47%, 씨껍질 정유 4.94%(상대 피크 면적)[2]", "activity_ko": "정유의 NO 생성 억제(대식세포)와 양의 상관 — 세포 결과[2]", "source": [2]},
+ {"name": "Erucin", "name_ko": "에루신", "class": "이소티오시아네이트", "role": "bioactive", "part": "씨껍질·뿌리(정유)", "content_text": "씨껍질 정유 44.19%, 뿌리 정유 7.73%(상대 피크 면적)[2]", "activity_ko": "씨껍질 정유의 강한 NO 생성 억제(IC50 1.34 μg/mL)와 관련된 것으로 추정 — 세포 결과[2]", "source": [2]},
+ {"name": "Benzyl cyanide", "name_ko": "페닐아세토니트릴", "class": "니트릴(글루코시놀레이트 분해산물)", "role": "bioactive", "part": "뿌리·씨앗(정유)", "content_text": "뿌리 정유 69.62%, 씨앗 정유 40.85%, 씨껍질 정유 14.59%(상대 피크 면적)[2]", "activity_ko": "뿌리·씨앗 정유의 최대 성분(성분 보고)[2]", "source": [2]},
+ {"name": "Glucotropaeolin", "name_ko": "글루코트로페올린(벤질 글루코시놀레이트)", "class": "글루코시놀레이트", "role": "marker", "part": "씨앗(정력자)", "content_text": "탈황 형태인 cis·trans-데설포글루코트로페올린이 이 종에서 분리됨(정량값 없음)[14]; 씨앗의 황 함유 배당체와 그 분해산물 벤질 이소티오시아네이트가 주요 활성 성분으로 정리됨[22]", "activity_ko": "탈황 유도체가 고삼투압 신장세포 모델에서 염증·RAAS 지표를 낮춤 — 세포 결과[14]", "source": [22, 14]},
+ {"name": "Helveticoside", "name_ko": "헬베티코사이드", "class": "강심배당체(카데놀라이드)", "role": "bioactive", "part": "씨앗(에탄올 추출물)", "content_text": "씨앗 에탄올 추출물의 구성 성분으로 언급(정량값 확인하지 못함)[11]", "activity_ko": "토끼 심방에서 박출량·맥압 증가(디기탈리스 유사 작용) — 적출 장기 결과[11]", "source": [11]},
+ {"name": "Evomonoside", "name_ko": "에보모노사이드", "class": "강심배당체", "role": "bioactive", "part": "부위 확인하지 못함(초록 없음)", "content_text": "이 종에서 세포독성 강심배당체로 보고(정량값 확인하지 못함)[12]", "activity_ko": "세포독성 — 원문 확인하지 못함[12]", "source": [12]},
+ {"name": "2-Phenylacetamide", "name_ko": "2-페닐아세트아마이드", "class": "아마이드(페닐아세트아마이드)", "role": "bioactive", "part": "씨앗", "content_text": "씨앗에서 분리한 주요 화합물로 보고(함량 확인하지 못함)[13]", "activity_ko": "MCF-7 세포 증식·미성숙 생쥐 자궁 지수 증가(에스트로겐 유사)[13]; 고혈압 쥐에서 신장 섬유화 완화[21] — 세포·동물 결과", "source": [13, 21]},
+ {"name": "Sinapine", "name_ko": "시나핀", "class": "콜린 에스테르(페닐프로파노이드)", "role": "bioactive", "part": "씨앗(정력자)·70% 에탄올 추출물", "content_text": "Semen Lepidii에서 HPLC로 분포 조사[23]; 70% 에탄올 추출물에서 표준품 대조로 검출(정량값 없음)[10]", "activity_ko": "천연 항산화 성분으로 소개됨[23]", "source": [23, 10]},
+ {"name": "Quercetin", "name_ko": "쿼세틴", "class": "플라보놀", "role": "bioactive", "part": "70% 에탄올 추출물(원료 부위 불분명)", "content_text": "카테킨·비세닌-2 등 11개 성분과 함께 UPLC-MS/MS로 검출(정량값 없음)[10]", "activity_ko": "추출물이 DSS 대장염 생쥐에서 장벽 기능 지표 개선 — 추출물 전체의 동물 결과[10]", "source": [10]},
+ {"name": "Apetalumoside A", "name_ko": "아페탈루모사이드류(플라보노이드 배당체)", "class": "플라보노이드 배당체", "role": "bioactive", "part": "씨앗", "content_text": "씨앗에서 새 플라보노이드 배당체 아페탈루모사이드 A, B1–B7, C 분리[16]", "activity_ko": "일부가 HepG2 세포의 중성지방 축적 억제 — 세포 결과[16, 15]", "source": [16, 15]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Phytol, 6,10,14-trimethylpentadecan-2-one, trans-beta-ionone (leaf volatile oil)", "compound_ko": "피톨·헥사하이드로파르네실 아세톤·trans-β-이오논(잎 정유)",
+  "part": "잎(정유) — 식품원료 부위인 순과 가장 가까운 자료", "content": "잎 정유 중 상대 피크 면적 18.50%, 11.05%, 9.25%; 잎 정유 수율 0.14%[2]",
+  "method": "GC-MS(수증기 증류 정유, 비표적 분석, 상대 피크 면적)",
+  "conditions": {"instrument": "Shimadzu GC-2030 가스크로마토그래프 + QP2020 NX 질량분석기", "column": "DB-5 MS 모세관 칼럼(30 m × 250 μm, 막 두께 0.25 μm)", "mobile_phase": "운반 기체 헬륨", "gradient": "50 °C(1분 유지) → 8 °C/min → 310 °C(11.5분 유지)", "flow": "1 mL/min(정유량)", "temp": "주입구 280 °C, 전달관 280 °C, 이온원 230 °C", "detection": "EI 70 eV, m/z 50–500, 초당 12.5 스펙트럼", "injection": "5 μL, 전면 주입구 퍼지 유량 3 mL/min", "sample_prep": "그늘 건조·40 mesh 분말 약 100 g을 물 1,000 mL와 함께 30분 초음파 후 Clevenger 장치로 약 6시간 수증기 증류, 정유를 n-헥산에 1 mg/mL로 녹임", "standard": "n-알케인 혼합 표준으로 선형 머무름 지수 계산, NIST23 라이브러리 대조(개별 표준품 정량 아님)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "잎·줄기·뿌리·씨앗·씨껍질을 같은 조건으로 비교한 유일한 부위별 분석이며, 잎 정유는 테르페노이드·지방산이 63.71%를 차지해 질소·황 성분이 많은 씨앗과 구별된다(전문 확인)[2]. 상대 면적 백분율이라 절대 함량이 아니고, 직선성·검출한계·회수율은 원문에 없다[2]. 순만 따로 분석한 자료는 확인하지 못함.",
+  "source": [2], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12723153/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Non-volatile metabolites (methanol extracts by plant part)", "compound_ko": "부위별 메탄올 추출물 비휘발성 대사체(지방산·아미노산·페닐프로파노이드·플라보노이드 등)",
+  "part": "잎·줄기·뿌리·씨앗·씨껍질(메탄올 추출물)", "content": "5개 부위에서 대사체 573종 주석, 부위 판별 성분 88종(LC-MS)[2]",
+  "method": "UPLC-QE-Orbitrap-HRMS(비표적 대사체 분석, 정성)",
+  "conditions": {"instrument": "Vanquish UPLC + Orbitrap Exploris 120 질량분석기", "column": "Phenomenex Kinetex C18(2.1 mm × 100 mm, 2.6 μm)", "mobile_phase": "A: 0.01% 아세트산 수용액, B: 이소프로판올–아세토니트릴(1:1, v/v)", "gradient": "0–1분 1% B, 1–8분 1→99% B, 8–11분 99% B, 11–11.1분 99→1% B, 11.1–12분 1% B", "flow": "", "temp": "자동시료주입기 4 °C", "detection": "ESI 양·음이온(+3.8 kV/−3.4 kV), full MS 분해능 60,000, MS/MS 15,000, 충돌에너지 20·30·40 eV", "injection": "2 μL", "sample_prep": "분말 3.0 g을 메탄올 100 mL로 20분 초음파 추출 3회, 감압 농축·동결건조 후 메탄올 1 mg/mL로 녹여 12,000 rpm 15분 원심분리", "standard": "자체 데이터베이스(표준품 스펙트럼) 대조", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "부위별 성분 차이를 보여 주는 정성 분석이며 정량 지표는 아니다(전문 확인)[2]. 잎 메탄올 추출물의 생리활성(HL-60 세포 IC50 82.10 μg/mL 등)과 대사체를 연관 지었으나 세포 실험 결과다[2].",
+  "source": [2], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12723153/", "source_kind": "paper"},
+]
+
+d = {"slug": "lepidium-apetalum", "name_ko": "다닥냉이", "name_en": "Pepperweed (Peppergrass)",
+     "scientific_name": "Lepidium apetalum Willd.",
+     "aliases": ["다닥냉이순", "Lepidium micranthum Ledeb.", "Pepperweed", "Peppergrass", "정력자(葶藶子, 씨앗 약재명)", "북정력자(Lepidii Semen, 씨앗 약재)", "Tinglizi"],
+     "sections": sec, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+     "production": [], "world": [], "gi": [], "orgs": [], "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sec: print(s["key"], len(s["body"]))

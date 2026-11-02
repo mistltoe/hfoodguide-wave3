@@ -1,0 +1,56 @@
+{
+ "slug": "jasus-edwardsii",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 90,
+ "checked_items": 60,
+ "verified": 143,
+ "fixed": 5,
+ "removed": 2,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.safety",
+   "before": "(806자) … 다른 속 닭새우(Panulirus stimpsoni)·아메리카바다가재의 트로포미오신이 갑각류 알레르기 환자 IgE와 반응했다는 보고는 이 종 자료가 아니다[34].",
+   "after": "(741자) 같은 내용을 줄이고 Panulirus stimpsoni·Homarus americanus 알레르겐 문장과 출처 [34]를 뺌",
+   "why": "지시: 안전성 800자 이하, 다른 닭새우·랍스터(Panulirus·Homarus) 자료 섞지 않기. PubMed 재검색(Jasus/rock lobster AND allergen/tropomyosin)에서 이 종 알레르겐 논문 없음(남아공 rock lobster=J. lalandii 직업성 알레르기 조사만)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "가공 부산물인 머리는 전체 무게의 절반 이상을 차지하며, 오스트레일리아에서 해마다 약 3,000톤이 나온다[19].",
+   "after": "가공 부산물인 머리는 전체 무게의 절반 이상을 차지하며, 오스트레일리아의 닭새우류 머리는 해마다 약 3,000톤이 나오는 것으로 추산되었다(종을 구분하지 않은 값)[19].",
+   "why": "[19] 전문: 'Australia produces about 3,000 tons of rock lobster heads' — 세계 최대 rock lobster 생산국 오스트레일리아 전체 값으로, 서부 닭새우(Panulirus cygnus) 등이 섞였을 수 있어 이 종 값으로 단정하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "이 종과 민물가재를 함께 시험한 연구에서 탁상형 전기 기절 장치는 받아들일 만한 방법으로 평가되었으나 아주 큰 개체(1.76 kg) 하나는 기절시키지 못했다[29]. 초록에서 종 이름이 빠져 있어 종별 결과는 확인하지 못함.",
+   "after": "피오르드랜드산 붉은 닭새우 10마리와 민물가재 10마리를 시험한 연구에서 탁상형 전기 기절 장치는 민물가재를 모두 즉사시켰고, 닭새우는 9마리를 기절시켜 그중 3마리가 즉사했으나 가장 큰 개체(1.76 kg)에는 전류가 걸리지 않았다[29]. 연구진은 아주 큰 개체를 빼면 받아들일 만한 방법으로 평가했다[29].",
+   "why": "[29] PMC 전문 확인: 종별 결과(닭새우 10마리 중 1마리 1,760 g 실패, 9마리 중 3마리 즉사; 민물가재 10마리 모두 즉사)가 원문에 있어 '확인하지 못함'을 채움"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "세계 어획량(톤)과 뉴질랜드 어획 할당량은 확인하지 못함.",
+   "after": "뉴질랜드에서는 붉은 닭새우가 가장 가치 큰 연안 상업 어업으로 해마다 2,500–3,000톤이 잡히고 2022년 가치는 3억 4,000만 뉴질랜드달러라고, 한 논문 서론이 업계 단체 자료를 인용해 적었다[29]. 세계 어획량(톤)과 뉴질랜드 어획 할당량은 확인하지 못함.",
+   "why": "[29] PMC 전문 서론의 뉴질랜드 생산량·가치(2차 인용)로 '확인하지 못함' 일부 보강"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "열대·아열대의 Panulirus속 닭새우들은",
+   "after": "Panulirus속 닭새우들은",
+   "why": "[8] 초록에 '열대·아열대' 서술 없음"
+  },
+  {
+   "where": "sources",
+   "before": "[34] Leung 1998 Panulirus stimpsoni·Homarus americanus tropomyosin (PMID 9597774)",
+   "after": "삭제, [35]–[37] → [34]–[36]",
+   "why": "이 종 자료 아님(다른 닭새우·랍스터)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품원료 지위는 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 행(붉은남방닭새우·Jasus edwardsii·수산물·부위 '-'·사용가능·이명 Red rock lobster)과 card.json 으로 대조, 일치",
+  "[10][12][19][29] PMC 전문으로 수치 대조(수출 3,500–4,000 t·약 2억 AUD, 496/86·10.9 mg, 머리 성분·중금속표·UPLC 조건, 기절 실험 종별 결과)",
+  "[2]–[9][11][13]–[18][20]–[28][30]–[36] 은 PubMed 초록으로 대조; [17] 간 비소·카드뮴의 생/건 기준은 초록에 없어 '표기 없음' 유지",
+  "[29] 초록·전문에서 종명이 서식 제거로 빠져 있으나 'red or Southern rock lobster'·피오르드랜드 어획으로 이 종으로 판단",
+  "NCBI eutils/PMC 웹·doi.org 등은 프록시 차단으로 열지 않음; WebSearch 사용 0회"
+ ]
+}

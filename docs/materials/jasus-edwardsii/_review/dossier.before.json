@@ -1,0 +1,642 @@
+{
+ "slug": "jasus-edwardsii",
+ "name_ko": "붉은남방닭새우",
+ "name_en": "Red rock lobster",
+ "scientific_name": "Jasus edwardsii",
+ "aliases": [
+  "Red rock lobster",
+  "Southern rock lobster",
+  "Jasus edwardsii (Hutton, 1875)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "붉은남방닭새우(Jasus edwardsii)는 뉴질랜드와 오스트레일리아 남부 바다에 사는 집게 없는 대형 닭새우류(가시바닷가재류) 갑각류로, 영어로는 red rock lobster 또는 southern rock lobster라고 부른다[1, 10]. 식약처 「식품원료 목록」에는 '붉은남방닭새우'라는 이름의 수산물 원료로 올라 있으며, 쓸 수 있는 부위는 따로 정하지 않았고('-') 사용 조건 없이 '사용가능'이다[1]. 같은 목록의 영문명·이명은 'Red rock lobster' 하나뿐이다[1].\n\n오스트레일리아 태즈메이니아·빅토리아·남오스트레일리아에서 아시아 시장으로 해마다 3,500–4,000톤이 수출되며 총수입은 약 2억 오스트레일리아달러로 보고되었다[10]. 뉴질랜드에서도 경제적 가치가 가장 큰 어업 가운데 하나이며 생태·문화·여가 낚시 가치도 크다[25]. 대부분 살아 있는 상태로 유통되며, 중국 시장에서는 붉은빛 개체가 더 높은 값을 받는다[10, 16]. 먹는 사람에게 중요한 안전 문제는 독성 플랑크톤이 번성할 때 간췌장(내장)에 쌓이는 마비성 패류독소다[12]. 건강기능식품 고시형 원료의 원재료는 아니며, 국내 수입량·유통 통계는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "붉은남방닭새우는 1875년에 기재된 종으로, 학명 뒤에 기재 연도 1875년이 붙는다[2]. 1970년대 논문에는 'Jasus edwardsii(=lalandii)'로 적혀 남아프리카 종 J. lalandii와 같은 종으로 다루던 시기가 있었음을 보여 준다[9].\n\n오스트레일리아 남부 어업은 깊은 바다에서 잡히는 옅은 빛(브린들) 개체보다 얕은 바다의 붉은 개체를 선호하며, 수출업자가 붉은 개체에 kg당 10 오스트레일리아달러(약 15%)를 더 주기도 한다[10]. 이 때문에 깊은 곳의 옅은 개체 약 1만 마리를 얕은 연안으로 옮겨 붉은 개체로 바꾸고 자원을 늘리는 대규모 이주 실험이 태즈메이니아·남오스트레일리아에서 이루어졌다[11]. 옮긴 암컷은 원래 자리의 옅은 개체보다 4배, 새 자리의 붉은 개체보다 2배 빨리 자랐고, 약 30%는 옮긴 뒤 1년 동안 번식을 미뤘다[11].\n\n2012년 10월 태즈메이니아 동부 해안에서 이 종의 간췌장에서 마비성 패류독소가 처음 검출되어 오스트레일리아에서 이 종의 첫 상업 어업 폐쇄가 내려졌다[14]. 그 뒤 홍합을 감시종으로 쓰는 독소 관리 체계가 세워졌다[12]. 국내에 들어온 시기와 경로는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "종·형태·생태",
+   "body": "붉은남방닭새우는 닭새우과(Palinuridae) Jasus속의 한 종으로, 오스트레일리아 남부와 뉴질랜드에 걸쳐 5,500 km가 넘는 넓은 분포역을 가진다[3]. 암컷은 해마다 알을 최대 50만 개 낳고, 바다를 떠다니는 유생 기간이 12–24개월로 해양 생물 가운데 가장 긴 편이다[3, 5]. 투명한 잎 모양 유생(필로소마)을 거쳐 헤엄치는 후기유생(퓨에룰루스)이 되면 저장 지질을 연료로 대륙붕을 건너 연안으로 이동한다[21].\n\n후기유생은 저장 에너지로 인지질을 쓰는데, 연안·외해에서 잡은 개체의 총지질 중 인지질이 86–96%였다[21]. 인지질은 투명해서 눈으로 사냥하는 포식자를 피하는 데 유리할 것으로 해석되었다[21]. 실내 사육 유생은 10–22 °C 범위에서 산소 소비가 S자 모양으로 늘었고, 연구진은 초기 유생 사육 수온으로 18 °C를 권했다[23].\n\n성체는 연안 암초에서 성게를 잡아먹는 주요 포식자다[24]. 태즈메이니아 동부에서는 큰 개체를 많이 잡아 낸 결과, 수온 상승으로 퍼진 성게가 다시마 숲을 갉아먹는 현상에 대한 저항력이 떨어진 것으로 나타났다[24]. 남오스트레일리아에서는 1991–2015년 암컷의 성숙 크기가 지역과 시기에 따라 달랐고, 따뜻한 북서부에서 더 컸다[31]. 피 속 산소 운반 단백질 헤모시아닌은 분자량 49만의 육량체로 보고되었는데, 이 1976년 연구는 종을 'J. edwardsii(=lalandii)'로 적었다[9]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "Jasus속에는 현재 6종이 있으며, 남위 40도 부근 대륙붕과 해산에 흩어져 산다[6]. 대륙붕에 사는 종끼리, 섬·해산에 사는 종끼리 각각 공통 조상을 나누었고, 동태평양의 J. caveorum·J. frontalis는 나머지 4종과 유전적으로 더 멀었다[6]. 이 문서는 남아프리카의 J. lalandii나 칠레 후안페르난데스제도의 J. frontalis 자료를 이 종 값으로 옮기지 않았다[6, 7].\n\n오스트레일리아 동부의 eastern rock lobster(Sagmariasus verreauxi)는 Sagmariasus가 예전에 아속으로 제안되었으나, 핵 유전자 계통 분석에서 독립 속으로 볼 만큼 갈라진 것으로 나타났다[8]. 미토콘드리아 단백질 유전자 계통수에서도 Jasus속과 이 종이 한 무리를 이루었다[7]. 식약처 목록에는 'Green rock lobster'(Sagmariasus verreauxi)가 별도 원료로 올라 있다[1]. 이 종은 수온이 오르며 태즈메이니아로 분포를 넓히고 있어 붉은남방닭새우와 경쟁 관계가 연구되며, 유산소 범위와 탈출 속도의 최적 수온이 S. verreauxi 쪽이 더 높았다[30].\n\n국내 시장에서 '닭새우'라는 이름은 식약처 목록상 Panulirus japonicus에 쓰이며, 열대·아열대의 Panulirus속 닭새우들은 소리를 내는 다른 무리(Stridentes)에 속한다[1, 8]. 이 문서는 Panulirus속 자료를 섞지 않았다[1]. 국문명 '붉은남방닭새우'는 식약처 목록에서 확인했으나, 국가생물종목록 등 다른 공식 국명 근거는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "붉은남방닭새우는 대부분 야생 어획으로 공급되며, 통발에 잡힌 뒤 배의 물칸·바다 가두리·육상 수조에 길게는 몇 달까지 산 채로 보관된다[16]. 태즈메이니아 조사에서는 하룻밤 통발 한 번에 5–30개를 놓는 상업 어선으로 수컷을 모았다[10]. 오스트레일리아에서는 잡은 뒤 중국 수출 전까지 전용 수조 시설에 보관하는데, 2015–16년 어기에 일부 시설에서 생존율이 떨어졌고 조사 결과 밀집·장기 보관형 시설에서 그 위험이 더 컸다(오즈비 7.0)[37].\n\n태즈메이니아 동부 해안은 생물독소 관리 구역 8곳으로 나뉘고, 홍합 감시 결과에 따라 구역을 닫은 뒤 구역마다 법정 크기 개체 5마리의 간췌장을 검사한다[12]. 동부 해안 대부분은 탈피기 보호, 알 품은 암컷 보호 등을 위해 9월 1일부터 12월 초까지 계절 금어기가 있다[12]. 뉴질랜드 연구는 이 종의 유전 구조가 현재의 해역별 관리 체계를 뒷받침한다고 보았다[2].\n\n양식은 아직 연구 단계로, 유생 사육 수온·영양 연구가 이어졌다[20, 23]. 2021–2023년 뉴질랜드 남서부의 연속 해양 열파 때 상태가 나쁜 개체가 잡혔고, 실험에서 극한 열파 조건은 혈림프 단백질을 낮췄지만 평균 수온으로 돌아오면 대부분 회복되었다[25]. 꼬리 끝이 검게 썩는 꼬리부채 괴사는 상처 부위 세균 침입으로 생겨 상품 가치를 크게 떨어뜨리며, 새 바이러스(RRLCV)도 원인 후보로 제시되었다[26, 27]. 세계 어획량(톤)과 뉴질랜드 어획 할당량은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용",
+   "body": "주된 상품은 산 채로 수출하는 활가재이며, 태즈메이니아(오스트레일리아)와 뉴질랜드의 이 종 산업 가치는 합쳐서 3억 6,500만 오스트레일리아달러로 제시되었다[16]. 물 밖 운송을 흉내 낸 실험에서 24시간 뒤 배 근육의 젖산·포도당이 크게 늘었고, 연구진은 넷째 걷는다리 근육의 아르기닌인산을 스트레스 지표로 제안했다[28]. 물 밖에 둔 실험에서 생존율은 40시간 뒤 97%, 64시간 뒤 57%(두 번째 실험은 37%)였고 껍데기 색은 생존과 관계가 없었다[36].\n\n운송 중 대사를 낮추려 쓰는 마취제 성분 이소유게놀은 심장 미토콘드리아의 복합체 I과 사이토크롬 c 산화효소 호흡을 억제했다[35]. 뉴질랜드는 상업적으로 잡은 십각류를 죽이기 전 의식을 잃게 하도록 동물복지법으로 정하고 있다[29]. 이 종과 민물가재를 함께 시험한 연구에서 탁상형 전기 기절 장치는 받아들일 만한 방법으로 평가되었으나 아주 큰 개체(1.76 kg) 하나는 기절시키지 못했다[29]. 초록에서 종 이름이 빠져 있어 종별 결과는 확인하지 못함.\n\n가공 부산물인 머리는 전체 무게의 절반 이상을 차지하며, 오스트레일리아에서 해마다 약 3,000톤이 나온다[19]. 머리(생물)는 수분 70.8%, 단백질 12.7%, 지방 0.1%였고, pH 14 알칼리 처리로 만든 단백질 가수분해물은 소 젤라틴보다 높은 유화력과 필수아미노산 30.3%를 보였다[19]. 간(간췌장)은 지질이 약 24.3%로, 초임계 이산화탄소로 뽑은 지질은 다불포화지방산이 총지질의 31.3%였다[17]. 국내 유통 형태와 가공 실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "오랫동안 분포역 전체가 하나로 섞인 집단으로 여겨졌으나, 미세위성 표지 8개 분석에서 태즈메이니아와 뉴질랜드 사이에 뚜렷한 분화와 동쪽(태즈메이니아→뉴질랜드)으로 치우친 유전자 흐름이 나타났다[4]. 뉴질랜드 안에서도 세 유전 무리와 별도의 오스트레일리아 무리가 확인되었고, 이는 앞선 유생 분산 모형과 대체로 맞았다[3].\n\n2026년 연구는 중립 SNP 1,608개와 이상치 SNP 250개로 뉴질랜드 22곳과 태즈메이니아 1곳을 분석해, 뉴질랜드 안 연결성은 높지만 이상치 표지로는 북동·북서·남부 세 지역이 갈린다고 보고했다[2]. 이 구조는 탄산염 농도·해저 거칠기·표층 수온과 강하게 연관되었고, 유전자 흐름은 남부→북서→북동 방향으로 비대칭이었다[2]. 남동 오스트레일리아에서 갓 정착한 후기유생을 4개 연도에 걸쳐 본 연구는 해마다 유전 구성이 들쭉날쭉한 '혼돈적 유전 조각화'와 약한 정착 후 선택의 흔적을 찾았다[5].\n\n이 종과 S. verreauxi의 ddRAD 라이브러리로 설계한 포획 탐침은 Jasus속 다른 5종에서도 다형 좌위 4,465개를 검증했다[33]. 수컷성을 정하는 안드로겐샘 특이 인슐린 유사 인자 전사체가 이 종에서도 확인되었다[32]. 이 종의 참조 유전체 조립과 미토콘드리아 전장 유전체 발표 여부는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 붉은남방닭새우는 사용 조건 없는 '사용가능' 수산물 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 이 종을 다룬 국내 공공기관의 알레르기·잔류물질·중금속 안내는 확인하지 못함.\n\n가장 잘 연구된 위해 요인은 마비성 패류독소로, 2012–2020년 태즈메이니아 간췌장 시료 496개 중 86개(17%)가 이매패류 기준 0.8 mg STX 당량/kg을 넘었고, 최고값은 10.9 mg STX 당량/kg이었다[12]. 독소는 간췌장에만 문제 수준으로 쌓이고 꼬리 살에서는 검출되지 않았으며, 삶거나 쪄도 간췌장의 독소 농도는 줄지 않았다[13, 14]. 독소 먹이를 끊으면 하루 약 7%씩 빠졌고, 조류 세포에 직접 노출만으로는 쌓이지 않았다[15, 16]. 태즈메이니아에서 이 독소와 관련된 질병 보고는 없었다[12].\n\n오스트레일리아산 간(간췌장)에서는 비소 240 mg/kg, 카드뮴 8 mg/kg이 보고되었다(생·건 기준·비소 형태 표기 없음)[17]. 빅토리아 연안 가식부 조사에서는 비소·카드뮴·수은·납 평균이 FSANZ 기준 이하였다[18]. 말린 머리의 무기비소는 0.2 mg/kg, 카드뮴은 0.1 mg/kg이었다[19].\n\n이 종의 알레르겐(트로포미오신 등)을 직접 다룬 논문은 PubMed에서 확인하지 못함(검색어 Jasus·rock lobster AND tropomyosin/allergen). 다른 속 닭새우(Panulirus stimpsoni)·아메리카바다가재의 트로포미오신이 갑각류 알레르기 환자 IgE와 반응했다는 보고는 이 종 자료가 아니다[34]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Saxitoxin",
+   "name_ko": "삭시톡신(마비성 패류독소, STX 당량)",
+   "class": "구아니디늄계 신경독(오염 물질)",
+   "role": "contaminant",
+   "part": "간췌장",
+   "content_text": "태즈메이니아 야생 개체 최고 10.9 mg STX 당량/kg, 2012–2020년 시료 496개 중 86개(17%)가 0.8 mg STX 당량/kg 초과 [12]; 실험 최고 9.0 mg STX·2HCl 당량/kg [15]; 꼬리 살 불검출 [14]",
+   "activity_ko": "먹이(홍합 등)에서 옮아와 간췌장에 쌓이며, 사람에게 마비성 중독을 일으킬 수 있어 어업 폐쇄 기준으로 관리된다[12, 13]",
+   "source": [
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Gonyautoxin",
+   "name_ko": "고니아우톡신(GTX1&4·GTX2&3)",
+   "class": "마비성 패류독소 유사체",
+   "role": "contaminant",
+   "part": "간췌장",
+   "content_text": "야생 간췌장 독소 조성은 GTX1&4·GTX2&3·C1&2가 주를 이룸(몰 백분율, 시료마다 다름) [12]; 조리 실험 조성은 STX·GTX2,3·C1,2·GTX5 우세 [13]",
+   "activity_ko": "배출 단계에서 GTX1&4가 줄고 GTX2&3·STX 비율이 늘었다[12]",
+   "source": [
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Cadmium",
+   "name_ko": "카드뮴",
+   "class": "중금속(오염 물질)",
+   "role": "contaminant",
+   "part": "간(간췌장)·머리",
+   "content_text": "간 8 mg/kg(원문 생·건 기준 표기 없음) [17]; 말린 머리 0.1 mg/kg, 머리 단백질 가수분해물 <0.01 mg/kg [19]",
+   "activity_ko": "간에 높게 쌓이므로 부산물 이용 시 관리가 필요하다; 빅토리아 연안 가식부 평균은 FSANZ 기준 이하였다[17, 18]",
+   "source": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Arsenic",
+   "name_ko": "비소(총비소·무기비소)",
+   "class": "준금속(오염 물질)",
+   "role": "contaminant",
+   "part": "간(간췌장)·머리",
+   "content_text": "간 비소 240 mg/kg(형태·기준 표기 없음) [17]; 말린 머리 무기비소 0.2 mg/kg, 가수분해물 0.18 mg/kg [19]",
+   "activity_ko": "무기비소가 독성이 크며, 말린 머리와 가수분해물의 무기비소는 FSANZ 기준(2 mg/kg)보다 낮았다[19]",
+   "source": [
+    17,
+    19
+   ]
+  },
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "단백질(일반성분)",
+   "role": "nutrient",
+   "part": "머리(생물)·필로소마 유생",
+   "content_text": "머리 12.7 ± 1.89%(생물 기준) [19]; 필로소마 유생 건물의 31.4–41.7% [20]",
+   "activity_ko": "머리 단백질을 가수분해해 유화제·필수아미노산 원료로 쓰는 방안이 제안되었다[19]",
+   "source": [
+    19,
+    20
+   ]
+  },
+  {
+   "name": "Lipid",
+   "name_ko": "총지질",
+   "class": "지질(일반성분)",
+   "role": "nutrient",
+   "part": "간(간췌장)·머리·유생",
+   "content_text": "간 약 24.3%(w/w) [17]; 머리 0.1 ± 0.03%(생물 기준) [19]; 필로소마 유생 건물의 7.9%(부화 직후)–12.5%(4기) [20]",
+   "activity_ko": "유생이 굶을 때 가장 빨리 소모되는 에너지원이었다[20]",
+   "source": [
+    17,
+    19,
+    20
+   ]
+  },
+  {
+   "name": "Phospholipid",
+   "name_ko": "인지질(극성 지질)",
+   "class": "지질",
+   "role": "nutrient",
+   "part": "후기유생·필로소마 전신",
+   "content_text": "후기유생 총지질의 86–96% [21]; 필로소마 유생 총지질의 79–92%(극성 지질) [20]",
+   "activity_ko": "후기유생이 대륙붕을 건너는 동안 주 연료로 쓰인다[21]",
+   "source": [
+    20,
+    21
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "n-3 장쇄 다불포화지방산",
+   "role": "nutrient",
+   "part": "간(간췌장) 추출 지질",
+   "content_text": "초임계 CO2 추출 지질의 DHA·EPA 농도가 속슬렛 추출의 7배; 전체 다불포화지방산 31.3% 대 7.8%(총지질 대비) [17]",
+   "activity_ko": "간 지질을 필수지방산 원료로 쓸 가능성이 제시되었다(가공 부산물 연구)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 장쇄 다불포화지방산",
+   "role": "nutrient",
+   "part": "간(간췌장) 추출 지질·유생",
+   "content_text": "초임계 CO2 추출 지질에서 속슬렛 추출보다 7배(DHA와 함께) [17]; 유생은 20:5n-3 등 주요 필수지방산을 굶을 때도 일부 보존 [20]",
+   "activity_ko": "유생 발달에 필요한 필수지방산이다[20]",
+   "source": [
+    17,
+    20
+   ]
+  },
+  {
+   "name": "Essential amino acids",
+   "name_ko": "필수아미노산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "머리 단백질 가수분해물(알칼리 처리)",
+   "content_text": "총아미노산의 30.3% [19]",
+   "activity_ko": "어류 단백질(26–36%)과 비슷한 수준으로 평가되었다[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "머리 단백질 가수분해물(알칼리 처리)",
+   "content_text": "총아미노산의 15.6%(가장 많음); 아스파르트산 9.6%, 글리신 8.3% [19]",
+   "activity_ko": "가수분해물 아미노산 조성의 주 성분이다[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "아스코르브산(비타민 C)",
+   "class": "수용성 비타민",
+   "role": "nutrient",
+   "part": "필로소마 유생 전신(사육)",
+   "content_text": "부화 직후 36 μg/g 건물 → 1기 말 333 μg/g 건물; 2기 말 먹인 유생 439, 굶긴 유생 174 μg/g 건물 [20]",
+   "activity_ko": "먹이(강화 아르테미아)에서 빠르게 축적되었다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Cholesterol",
+   "name_ko": "콜레스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "필로소마 유생·혈림프",
+   "content_text": "야생 필로소마의 스테롤은 대부분 콜레스테롤 [22]; 수컷 성체 혈림프 0.23–0.72 mmol/L(지점별 평균) [10]",
+   "activity_ko": "먹이의 다른 스테롤을 콜레스테롤로 바꾸거나 대사하는 것으로 해석되었다[22]",
+   "source": [
+    10,
+    22
+   ]
+  },
+  {
+   "name": "Hemocyanin",
+   "name_ko": "헤모시아닌",
+   "class": "구리 함유 산소 운반 단백질",
+   "role": "bioactive",
+   "part": "혈림프",
+   "content_text": "육량체 분자량 490,000, 단량체 81,000(1976년, 종 표기 'J. edwardsii(=lalandii)') [9]; 수컷 성체 혈림프 산소결합 헤모시아닌 0.43–0.75 mmol/L(지점별 평균) [10]",
+   "activity_ko": "협동적 산소 결합(n 최대 3.7)과 뚜렷한 보어 효과를 보였다[9]",
+   "source": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Arginine phosphate",
+   "name_ko": "아르기닌인산",
+   "class": "포스파겐(근육 에너지 저장)",
+   "role": "bioactive",
+   "part": "근육(넷째 걷는다리·배 굽힘근)",
+   "content_text": "야생 개체 근육에서 ATP의 약 5배(수치 원문 초록에 없음) [28]",
+   "activity_ko": "물 밖 운송 스트레스 지표로 제안되었다[28]",
+   "source": [
+    28
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Paralytic shellfish toxins (saxitoxin equivalents)",
+   "compound_ko": "마비성 패류독소(삭시톡신 당량)",
+   "part": "간췌장",
+   "content": "최고 10.9 mg STX 당량/kg(2017년 Maria 구역); 496개 중 86개(17%)가 0.8 mg STX 당량/kg 초과 [12]",
+   "method": "사전 칼럼 산화 HPLC-FLD(AOAC 2005.06 기반); 2018년 이후 연구 시료는 HILIC-MS/MS",
+   "conditions": {
+    "instrument": "HPLC-형광검출기(사전 칼럼 산화) / 친수성 상호작용 크로마토그래피-탠덤 질량분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "형광검출(과요오드산·과산화물 산화 생성물) / MS/MS",
+    "injection": "",
+    "sample_prep": "간췌장을 개체별 균질화; 1% 아세트산으로 끓는 물중탕 5분 추출 후 냉각·원심분리·희석·pH 조정·고체상추출 정제(HPLC-FLD). LC-MS/MS는 시료:1% 아세트산 2 g:18 mL 또는 5 g:10 mL, 수산화암모늄 첨가 후 흑연화 탄소 고체상추출 카트리지(250 mg/3 mL)로 정제, 아세토니트릴/물/아세트산(20:80:1) 용출 후 아세토니트릴 희석",
+    "standard": "인증 표준물질로 정량; FAO/WHO 독성등가계수로 STX 당량 환산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "마비성 패류독소는 이 종에서 간췌장에만 문제 수준으로 쌓이며, 태즈메이니아는 이매패류 기준(0.8 mg STX 당량/kg)을 간췌장에 적용해 어업 구역 개폐를 결정한다. 원문(전문 확인)은 칼럼·이동상·검출한계를 적지 않고 선행 방법 문헌을 인용했으며, 보고 단위는 Codex 단위(mg STX·2HCl 당량/kg)보다 약 24% 낮게 나온다고 밝혔다[12].",
+   "source": [
+    12
+   ],
+   "url": "https://doi.org/10.3390/md19090510",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids",
+   "compound_ko": "아미노산 조성(필수아미노산)",
+   "part": "머리 단백질 가수분해물(알칼리 처리)",
+   "content": "필수아미노산 30.3%(총아미노산 대비), 글루탐산 15.6% [19]",
+   "method": "산가수분해 후 역상 UPLC-UV(아미노산 유도체화 키트용 칼럼·용리액)",
+   "conditions": {
+    "instrument": "초고성능 액체크로마토그래피(UV 검출기)",
+    "column": "BEH C18, 1.7 μm, 2.1 × 100 mm(아미노산 유도체 분석 전용 칼럼)",
+    "mobile_phase": "A: 10 mmol/L 포름산암모늄·물/메탄올 90/10(v/v)·포름산 0.3%(w/w); B: 10 mmol/L 포름산암모늄·포름산 0.5%(w/w)·메탄올",
+    "gradient": "",
+    "flow": "0.7 mL/min",
+    "temp": "55 °C",
+    "detection": "UV 260 nm",
+    "injection": "0.5 μL(칼럼 주입량 50 pmol)",
+    "sample_prep": "가수분해물을 6 mol/L 염산, 100 °C에서 25시간 가수분해; 산을 감압 제거 후 pH 2.2 리튬 시트르산 완충액에 재용해",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "부산물(머리)로 만든 가수분해물의 영양 질을 필수아미노산 비율로 평가했다. 원문(전문 확인)에 기울기 조건·표준물질·검출한계·회수율은 없다[19].",
+   "source": [
+    19
+   ],
+   "url": "https://doi.org/10.1002/fsn3.352",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Heavy metals (inorganic arsenic, cadmium, lead, mercury, tin)",
+   "compound_ko": "중금속(무기비소·카드뮴·납·수은·주석)",
+   "part": "말린 머리·머리 단백질 가수분해물",
+   "content": "말린 머리 무기비소 0.2, 카드뮴 0.1, 납·수은·주석 <0.01 mg/kg; 가수분해물 무기비소 0.18, 카드뮴 <0.01, 납 0.21, 수은 0.16, 주석 18 mg/kg [19]",
+   "method": "ICP-MS 및 ICP-AES(미국 환경보호청 방법 6010B·6020)",
+   "conditions": {
+    "instrument": "유도결합플라스마 질량분석기·유도결합플라스마 원자방출분광기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "말린 머리 및 동결건조 가수분해물",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "수산 부산물을 식품 원료로 쓸 때 가장 큰 안전 문제로 중금속(특히 무기비소)을 들고 FSANZ 기준과 비교했다. 원문(전문 확인)은 미국 환경보호청 방법 번호만 적고 기기 조건·검출한계는 적지 않았다[19].",
+   "source": [
+    19
+   ],
+   "url": "https://doi.org/10.1002/fsn3.352",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [
+  {
+   "country": "오스트레일리아(태즈메이니아·빅토리아·남오스트레일리아)",
+   "metric": "export_t",
+   "year": "연간(2016년 논문 서론, 기준 연도 미표기)",
+   "value": "3,500–4,000",
+   "unit": "톤",
+   "note": "아시아 시장 수출량; 총수입 약 2억 오스트레일리아달러",
+   "source": [
+    10
+   ]
+  },
+  {
+   "country": "오스트레일리아(태즈메이니아)",
+   "metric": "industry_value",
+   "year": "2021년 논문 서론(기준 연도 미표기)",
+   "value": 97,
+   "unit": "백만 오스트레일리아달러",
+   "note": "태즈메이니아 상업 어업 가치",
+   "source": [
+    12
+   ]
+  },
+  {
+   "country": "오스트레일리아(태즈메이니아)·뉴질랜드",
+   "metric": "industry_value",
+   "year": "2021년 논문 서론(기준 연도 미표기)",
+   "value": 365,
+   "unit": "백만 오스트레일리아달러",
+   "note": "두 지역 산업 가치 합계",
+   "source": [
+    16
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 붉은남방닭새우(Jasus edwardsii) 1행(수산물, 부위 '-', 사용가능, 사용 조건 없음, 영문명·이명 'Red rock lobster') 및 근연 'Green rock lobster'(Sagmariasus verreauxi)·닭새우(Panulirus japonicus) 등 Panulirus속 행 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "High Gene Flow With Patterns of Asymmetric Connectivity and Adaptive Divergence in the New Zealand Southern Rock Lobster, Jasus edwardsii (Hutton, 1875). Evol Appl 2026;19(4):e70233",
+   "url": "https://doi.org/10.1111/eva.70233",
+   "publisher": "Evolutionary Applications (PubMed 41953211, PMC13054955)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Testing the consistency of connectivity patterns for a widely dispersing marine species. Heredity 2013;111(4):345-54",
+   "url": "https://doi.org/10.1038/hdy.2013.58",
+   "publisher": "Heredity (PubMed 23820580, PMC3807265)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Investigation of genetic structure between deep and shallow populations of the southern Rock Lobster, Jasus edwardsii in Tasmania, Australia. PLoS One 2013;8(10):e77978",
+   "url": "https://doi.org/10.1371/journal.pone.0077978",
+   "publisher": "PLoS One (PubMed 24250747, PMC3820960)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Temporal genetic patterns of diversity and structure evidence chaotic genetic patchiness in a spiny lobster. Mol Ecol 2018;27(1):54-65",
+   "url": "https://doi.org/10.1111/mec.14427",
+   "publisher": "Molecular Ecology (PubMed 29134719)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Global drivers of recent diversification in a marine species complex. Mol Ecol 2021;30(5):1223-1236",
+   "url": "https://doi.org/10.1111/mec.15780",
+   "publisher": "Molecular Ecology (PubMed 33342039)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "A first nuclear and mitochondrial genomic portrait of Robinson Crusoe's (Juan Fernández Island) spiny lobster Jasus frontalis. BMC Genomics 2025;26(1):623",
+   "url": "https://doi.org/10.1186/s12864-025-11794-5",
+   "publisher": "BMC Genomics (PubMed 40597611, PMC12211721)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Molecular evidence for the Southern Hemisphere origin and deep-sea diversification of spiny lobsters (Crustacea: Decapoda: Palinuridae). Mol Phylogenet Evol 2009;51(2):304-11",
+   "url": "https://doi.org/10.1016/j.ympev.2009.01.015",
+   "publisher": "Molecular Phylogenetics and Evolution (PubMed 19405196)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "The subunit structure of the hemocyanin from the crayfish Jasus edwardsii. Biophys Chem 1976;6(1):47-57",
+   "url": "https://doi.org/10.1016/0301-4622(76)80060-9",
+   "publisher": "Biophysical Chemistry (PubMed 13875)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Spatial Variability in Condition of Southern Rock Lobsters (Jasus edwardsii) at the Start of the Tasmanian Fishing Season. PLoS One 2016;11(11):e0166343",
+   "url": "https://doi.org/10.1371/journal.pone.0166343",
+   "publisher": "PLoS One (PubMed 27846289, PMC5112911)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The good, the bad and the recovery in an assisted migration. PLoS One 2010;5(11):e14160",
+   "url": "https://doi.org/10.1371/journal.pone.0014160",
+   "publisher": "PLoS One (PubMed 21151965, PMC2996890)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Field Validation of the Southern Rock Lobster Paralytic Shellfish Toxin Monitoring Program in Tasmania, Australia. Mar Drugs 2021;19(9):510",
+   "url": "https://doi.org/10.3390/md19090510",
+   "publisher": "Marine Drugs (PubMed 34564172, PMC8468395)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Fate of Paralytic Shellfish Toxins in Southern Rock Lobster (Jasus edwardsii) during Cooking: Concentration, Composition, and Distribution. J Food Prot 2018;81(2):240-245",
+   "url": "https://doi.org/10.4315/0362-028X.JFP-17-280",
+   "publisher": "Journal of Food Protection (PubMed 29356586)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Experimental uptake and depuration of paralytic shellfish toxins in Southern Rock Lobster, Jasus edwardsii. Toxicon 2018;143:44-50",
+   "url": "https://doi.org/10.1016/j.toxicon.2018.01.001",
+   "publisher": "Toxicon (PubMed 29326037)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Paralytic shellfish toxin uptake, tissue distribution, and depuration in the Southern Rock Lobster Jasus edwardsii Hutton. Harmful Algae 2020;95:101818",
+   "url": "https://doi.org/10.1016/j.hal.2020.101818",
+   "publisher": "Harmful Algae (PubMed 32439058)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Lobster Supply Chains Are Not at Risk from Paralytic Shellfish Toxin Accumulation during Wet Storage. Toxins 2021;13(2):129",
+   "url": "https://doi.org/10.3390/toxins13020129",
+   "publisher": "Toxins (PubMed 33572356, PMC7916109)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Significant Enrichment of Polyunsaturated Fatty Acids (PUFAs) in the Lipids Extracted by Supercritical CO2 from the Livers of Australian Rock Lobsters (Jasus edwardsii). J Agric Food Chem 2015;63(18):4621-8",
+   "url": "https://doi.org/10.1021/jf5059396",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed 25905456)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Trace metal concentrations in edible tissue of snapper, flathead, lobster, and abalone from coastal waters of Victoria, Australia. Ecotoxicol Environ Saf 2006;63(2):286-92",
+   "url": "https://doi.org/10.1016/j.ecoenv.2004.11.006",
+   "publisher": "Ecotoxicology and Environmental Safety (PubMed 16677912)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Protein hydrolysates produced from rock lobster (Jasus edwardsii) head: emulsifying capacity and food safety. Food Sci Nutr 2016;4(6):869-877",
+   "url": "https://doi.org/10.1002/fsn3.352",
+   "publisher": "Food Science & Nutrition (PubMed 27826437, PMC5090651)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Biochemical composition during growth and starvation of early larval stages of cultured spiny lobster (Jasus edwardsii) phyllosoma. Comp Biochem Physiol A 2003;136(2):353-70",
+   "url": "https://doi.org/10.1016/s1095-6433(03)00167-3",
+   "publisher": "Comparative Biochemistry and Physiology A (PubMed 14511754)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Lipid reserves used by pueruli of the spiny lobster Jasus edwardsii in crossing the continental shelf of New Zealand. Comp Biochem Physiol A 2001;129(2-3):305-11",
+   "url": "https://doi.org/10.1016/s1095-6433(00)00348-2",
+   "publisher": "Comparative Biochemistry and Physiology A (PubMed 11423303)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Identifying potential prey of the pelagic larvae of the spiny lobster Jasus edwardsii using signature lipids. Comp Biochem Physiol B 2004;137(4):487-507",
+   "url": "https://doi.org/10.1016/j.cbpc.2004.02.003",
+   "publisher": "Comparative Biochemistry and Physiology B (PubMed 15082000)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "The ontogeny of physiological response to temperature in early stage spiny lobster (Jasus edwardsii) larvae. Comp Biochem Physiol A 2004;138(2):161-8",
+   "url": "https://doi.org/10.1016/j.cbpb.2004.03.010",
+   "publisher": "Comparative Biochemistry and Physiology A (PubMed 15275650)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Overfishing reduces resilience of kelp beds to climate-driven catastrophic phase shift. Proc Natl Acad Sci USA 2009;106(52):22341-5",
+   "url": "https://doi.org/10.1073/pnas.0907529106",
+   "publisher": "PNAS (PubMed 20018706, PMC2793314)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Spiny rock lobster (Jasus edwardsii) responses to marine heatwave conditions in southern New Zealand. Mar Environ Res 2025;211:107410",
+   "url": "https://doi.org/10.1016/j.marenvres.2025.107410",
+   "publisher": "Marine Environmental Research (PubMed 40795677)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "A Novel Crustavirus as a Candidate Aetiology of Tail Fan Necrosis in New Zealand Red Rock Lobsters, Jasus edwardsii. J Fish Dis 2025;49(2):e70033",
+   "url": "https://doi.org/10.1111/jfd.70033",
+   "publisher": "Journal of Fish Diseases (PubMed 40760952, PMC12757902)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Pathology of tail fan necrosis in the spiny lobster, Jasus edwardsii. J Invertebr Pathol 2018;154:5-11",
+   "url": "https://doi.org/10.1016/j.jip.2018.03.010",
+   "publisher": "Journal of Invertebrate Pathology (PubMed 29573993)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Metabolic characteristics of muscles in the spiny lobster, Jasus edwardsii, and responses to emersion during simulated live transport. Comp Biochem Physiol B 2001;128(3):435-44",
+   "url": "https://doi.org/10.1016/s1096-4959(00)00340-7",
+   "publisher": "Comparative Biochemistry and Physiology B (PubMed 11250538)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "The efficacy of electrical stunning of New Zealand rock lobster and freshwater crayfish using [상용 탁상형 전기 기절 장치 — 상표명 생략]. Anim Welf 2023;32:e57",
+   "url": "https://doi.org/10.1017/awf.2023.76",
+   "publisher": "Animal Welfare (PubMed 38487437, PMC10936369)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Mismatch of thermal optima between performance measures, life stages and species of spiny lobster. Sci Rep 2020;10:21235",
+   "url": "https://doi.org/10.1038/s41598-020-78052-4",
+   "publisher": "Scientific Reports (PubMed 33277537, PMC7718242)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Spatial and temporal variations in female size at maturity of a Southern Rock Lobster (Jasus edwardsii) population: A likely response to climate change. PLoS One 2019;14(11):e0225144",
+   "url": "https://doi.org/10.1371/journal.pone.0225144",
+   "publisher": "PLoS One (PubMed 31710648, PMC6844478)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Identification and characterization of androgenic gland specific insulin-like peptide-encoding transcripts in two spiny lobster species: Sagmariasus verreauxi and Jasus edwardsii. Gen Comp Endocrinol 2015;214:126-33 (온라인 공개 2014)",
+   "url": "https://doi.org/10.1016/j.ygcen.2014.06.027",
+   "publisher": "General and Comparative Endocrinology (PubMed 24997416)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Efficiency of ddRAD target enriched sequencing across spiny rock lobster species (Palinuridae: Jasus). Sci Rep 2017;7(1):6781",
+   "url": "https://doi.org/10.1038/s41598-017-06582-5",
+   "publisher": "Scientific Reports (PubMed 28754989, PMC5533801)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Molecular identification of the lobster muscle protein tropomyosin as a seafood allergen. Mol Mar Biol Biotechnol 1998;7(1):12-20",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9597774/",
+   "publisher": "Molecular Marine Biology and Biotechnology (PubMed 9597774, DOI 없음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Cardiac mitochondrial energetics of the Australasian red spiny lobster, Jasus edwardsii, when exposed to isoeugenol within a commercial anaesthetic. J Exp Biol 2022;225(12):jeb242771",
+   "url": "https://doi.org/10.1242/jeb.242771",
+   "publisher": "Journal of Experimental Biology (PubMed 35647661)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Predicting transport survival of brindle and red rock lobsters Jasus edwardsii using haemolymph biochemistry and behaviour traits. Comp Biochem Physiol A 2016;201:101-109",
+   "url": "https://doi.org/10.1016/j.cbpa.2016.07.001",
+   "publisher": "Comparative Biochemistry and Physiology A (PubMed 27395444)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Investigation of risk factors associated with sub-optimal holding survival in southern rock lobster (Jasus edwardsii) in Australia. Prev Vet Med 2020;183:105122",
+   "url": "https://doi.org/10.1016/j.prevetmed.2020.105122",
+   "publisher": "Preventive Veterinary Medicine (PubMed 32891901)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

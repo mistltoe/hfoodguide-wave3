@@ -1,0 +1,52 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/phyllostachys-nigra/dossier.json'
+d=json.load(open(p))
+changes=[]
+def sec(k): return next(s for s in d['sections'] if s['key']==k)
+def rep(where,obj,key,old,new,why):
+    v=obj[key]
+    assert old in v,(where,old)
+    obj[key]=v.replace(old,new); changes.append(dict(where=where,before=old,after=new,why=why))
+
+rep('sections.history',sec('history'),'body',
+ "마디줄기를 가열해 얻는 즙(죽력, Bambusae Caulis in Liquamen)은 동아시아에서 기침과 천식에 쓰던 전통 약재로 소개된다[16].",
+ "마디줄기를 가열해 얻는 즙(죽력, Bambusae Caulis in Liquamen)은 동아시아에서 기침과 천식에 쓰던 전통 약재로 소개되지만, 이 논문 초록은 원료 대나무의 종을 적지 않았다[16].",
+ "[16] 초록은 'heat-treated fresh bamboo stems'라고만 써 원료 종이 없음 — 솜대 고유 자료로 읽히지 않게 함(왕대 등과 섞일 수 있음)")
+rep('sections.cultivation',sec('cultivation'),'body',
+ "국내에서는 한 연구진이 솜대 잎을 5–6월 두 달에 걸쳐 따서 동결건조해 성분을 분석했다[20]. P. nigra 잎의 총 플라보노이드를 같은 밭에서 매달 따서 잰 결과",
+ "국내 연구진은 반추위 메탄 저감 시험관 실험에 쓰려고 솜대 잎(어린잎·성숙잎)을 5–6월 두 달에 걸쳐 따 모아 동결건조한 뒤 일반성분·폴리페놀을 분석했으며, 채집지는 본문에 적혀 있지 않다[20]. 중국 연구에서 P. nigra 잎의 총 플라보노이드를 같은 밭에서 매달 따서 잰 결과",
+ "[20] 전문: 채집지 미기재, 목적은 반추위 메탄 시험관 실험; [11] 은 중국 문헌인데 '국내' 문단에 이어 붙어 국내 자료처럼 읽힘")
+rep('sections.processing',sec('processing'),'body',
+ "다만 식품원료 목록에서 솜대줄기·오죽줄기는 사용불가다[1, 2].",
+ "다만 식품원료 목록에서 솜대줄기·오죽줄기는 사용불가이고, 대나무아과(Bambusoidae)의 '속청'(부위 속껍질)도 사용불가다[1, 2, 4].",
+ "로컬 I1020 원자료에 속청(속껍질, Bambusoidae) 사용불가 행이 있어 죽여 관련 지위를 보강")
+rep('sections.genetics',sec('genetics'),'body',
+ "솜대 현탁 배양세포는 퍼트레신의",
+ "P. nigra 현탁 배양세포(초록에는 변종 표기 없이 'bamboo (Phyllostachys nigra)'로 적힘)는 퍼트레신의",
+ "[25] 초록은 var. henonis 를 밝히지 않음 — 솜대로 단정하지 않음")
+c=next(x for x in d['compounds'] if x['name']=='Chlorogenic acid')
+rep('compounds.Chlorogenic acid.activity_ko',c,'activity_ko',
+ "잎 추출물 항산화 활성과 상관(시험관)[7]",
+ "추출물 DPPH 활성과의 유의한 상관은 다른 종(PA) 시료에서 보고되었고, 이 종(PN) 추출물 활성은 오리엔틴 함량과 관련됨(시험관)[7]",
+ "[7] 전문 결과: CA 상관은 PA 추출물(r=−0.508), PN 추출물은 ORI(r=−0.501)와 관련")
+o=next(x for x in d['compounds'] if x['name']=='Orientin')
+rep('compounds.Orientin.activity_ko',o,'activity_ko',
+ "DPPH IC50 0.84 µM(시험관)[7];",
+ "DPPH IC50 0.84 µM(시험관), 이 종 잎 추출물 항산화 활성과 가장 관련된 성분(단계 회귀 R² 21.9%)[7];",
+ "[7] 전문: 'The main antioxidant compounds in PN is ORI (21.9%)'")
+a=d['assays'][0]
+rep('assays[0].rationale',a,'rationale',
+ "이 종 잎은 클로로겐산이 특히 많아 구별 지표가 된다[7]",
+ "이 종 잎은 클로로겐산이 다른 두 잎의 약 4배로 많아 구별에 쓸 수 있는 차이를 보였다[7]",
+ "원문은 '지표'로 정하지 않았고 함량 차이만 보고")
+a=d['assays'][1]
+rep('assays[1].rationale',a,'rationale',
+ "이 종 잎에서 가장 많은 플라보노이드 C-배당체로 보고되고",
+ "세 잎 가운데 이 종 잎에서 함량이 가장 높았고",
+ "[7] 은 세 종 간 비교(PN이 iso-ORI 최다)이지 PN 안에서 가장 많은 성분이라고 하지 않음")
+s4=next(s for s in d['sources'] if s['n']==4)
+rep('sources[4].title',s4,'title',"조릿대(Sasa borealis) 제한적사용","대나무아과 '속청'(부위 속껍질) 사용불가; 조릿대(Sasa borealis) 제한적사용",
+ "processing 에 추가한 속청 행 근거를 출처 제목에 명시")
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/phyllostachys-nigra/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))
