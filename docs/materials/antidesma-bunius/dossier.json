@@ -1,0 +1,669 @@
+{
+ "slug": "antidesma-bunius",
+ "name_ko": "빅나이",
+ "name_en": "Bignay",
+ "scientific_name": "Antidesma bunius (L.) Spreng.",
+ "aliases": [
+  "빅나이열매",
+  "Bignay",
+  "Bugnay",
+  "Mao Luang",
+  "Maoberry",
+  "Mamao",
+  "Buni"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "개요",
+   "body": "빅나이는 동남아시아에서 나는 상록수 Antidesma bunius (L.) Spreng.의 작은 장과 모양 열매로, 영어로 bignay라 부른다[1, 9, 13]. 식약처 「식품원료 목록」에는 원료명 '빅나이열매', 학명 'Antidesma bunius', 영어 이름 'Bignay'로 올라 있다[1]. 이 목록에서 빅나이열매는 식품에 쓸 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 열매'로 열매만 쓸 수 있다[1]. 식품원료 목록 항목에는 건강기능식품 관련 기재가 없고, 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못했다[1].\n\n열매는 녹색·붉은색을 거쳐 익으면 검은색이 되며, 생으로 먹거나 와인·잼·젤리·차로 가공한다[10]. 열매에는 안토시아닌(시아니딘-3-글루코사이드 등)과 카테킨·에피카테킨·갈산 같은 폴리페놀이 많다고 보고되었다[5, 12, 13]. 효능 연구는 대부분 시험관 실험과 쥐 실험이며, 사람을 대상으로 한 임상시험은 확인하지 못함. 고지방 사료를 먹인 쥐에게 열매 추출물을 하루 0.38–1.52 g/kg씩 12주 먹인 실험에서는 체중과 중성지방이 줄었다는 보고가 있으나 동물 결과다[14–16]. 잎·줄기껍질·씨앗을 쓴 연구도 많으므로 열매 결과와 나누어 읽어야 하며, 예컨대 필리핀 과수 6종의 잎 추출물로 A549 폐암 세포 성장 억제를 본 연구는 열매가 아닌 잎을 쓴 시험관 결과다[17, 19, 20, 29]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "필리핀에서는 bignay(벵게트 지방에서는 bugnay)로 불리며, 벵게트주 야생 과일 조사에서 약용으로 문화적 중요도가 가장 높은 열매로 꼽혔다[24]. 필리핀에서는 혈액순환계·소화기 질환에 쓰는 생약 제품의 원료로도 인기가 있다[23]. 필리핀 북부의 열대과일 와인 산업에서 가장 흔히 쓰는 재료 가운데 하나이며, 한 연구는 필리핀 와인 가공업체의 절반 이상이 빅나이를 쓴다고 적었다(지역 통상산업부 개인 교신 인용)[9].\n\n태국 동북부에서는 마오루앙(Mao Luang)이라 부르며, 익은 생과를 위장·대사 문제(당뇨·이질·소화불량·변비)에 전통적으로 써 왔다고 소개된다[13]. 영어 논문에서는 maoberry라고도 쓰며, 열매가 입마름·식욕부진·소화불량·고혈압·당뇨에 좋다고 여겨진다고 적은 연구도 있다[14, 15]. 태국 동북부에서는 약용식물로도 널리 알려져 있다[18]. 필리핀에서는 당뇨를 다스리는 민간약으로 쓰인 식물 가운데 하나로 연구되었다[22]. 1977년 Nature 논문은 이 열매의 쓴맛을 느끼는 정도가 사람마다 크게 다르다고 처음 보고했다[25, 26]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "빅나이는 Antidesma속에 속하며, 최근 문헌은 이 속을 여우주머니과(Phyllanthaceae)로 둔다[3, 13, 18, 22]. APG II(2003) 체계에서 예전 대극과의 Phyllanthoideae 아과가 여우주머니과로 분리되었다고 정리되어 있으며[28], 예전 분류에 따라 대극과(Euphorbiaceae)로 적은 논문도 있다[10, 12, 21]. 식약처 식품원료 목록 원자료에는 과(科) 정보가 실려 있지 않다[1]. Antidesma속에는 102종이 있다고 정리되어 있다[3]. 필리핀에서 흔한 식물이며 태국 동북부와 인도 일부에서도 재배된다고 소개된다[11].\n\nPROSEA(동남아 식물자원) 기재를 옮긴 검색 요약에 따르면 암수딴그루이며, 열매는 지름 8–10 mm의 둥근 또는 달걀꼴 핵과다(원문 페이지는 열지 못함)[2]. 열매는 30–40개씩 송이로 달리고, 익으면서 녹색(덜 익음)·붉은색(반쯤 익음)·검은색(완숙)으로 바뀐다[10]. 태국 두 품종(Fapratan·Sangkrow 2) 완숙 생과의 평균값은 100알 무게 65.62 g, 당도 16.50 °Brix였다[8]. 열매즙의 쓴맛은 일부 사람만 느끼며, PTC를 쓰다고 느낀 132명 가운데 15명만 빅나이 즙을 쓰다고 했고 이들의 쓴맛 점수는 매우 약했다[26]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 이름",
+   "body": "태국에서 '마오루앙(Mao Luang)' 또는 '마마오(Mamao)'라는 이름은 빅나이(A. bunius)를 가리키는 경우가 많다[5, 12]. 그러나 같은 속의 Antidesma thwaitesianum Müll. Arg.도 'mamao luang'으로 불리며 열매 연구가 따로 있어, 태국 이름만으로는 종을 구별할 수 없다[30]. 이 문서에서는 학명이 A. bunius로 명시된 연구만 썼다[5, 12, 13].\n\n인도네시아 연구에서는 'Buni'라 부른다[19]. Antidesma속 102종 가운데 성분·약리가 연구된 종은 16종뿐이며, 이 문서에는 다른 종의 수치를 섞지 않았다[3]. 식약처 식품원료 목록에서 Antidesma속 원료는 빅나이열매 한 가지만 확인했다[1]. 필리핀 시판 빅나이 생약 제품 11개를 DNA 바코드로 조사한 결과 3개만 진짜 빅나이였고, 나머지 8개는 다른 식물이나 충전재가 들어 있었다[23]. 같은 연구는 야생 Antidesma 9종의 K-A-H-L 부위 서열 56건으로 표준 참조 라이브러리를 만들었다[23]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 수확",
+   "body": "태국 연구용 열매는 사꼰나콘주 푸판 계곡의 딥테로카프 숲에서 거둔 15개 품종이었다[6, 7]. 이 연구는 우기(5–10월)에 익은 열매를 거두었다[7]. 다른 태국 연구들도 사꼰나콘주에서 7–9월에 익은 열매를 구했다(일부는 현지 농장·과수원에서 구입)[12, 14, 15]. 태국 14개 품종 비교에서는 'Kumlai' 품종의 갈산·에피카테킨·카테킨·시아니딘-3-O-글루코사이드가 가장 많았다[5].\n\n필리핀에서는 국립대학 식물육종연구소가 보유한 두 품종의 열매를 2019년 5–8월에 덜 익음·반쯤 익음·완숙 단계로 나누어 거둔 연구가 있다[10]. 필리핀 카가얀밸리 농장의 열매는 5–7월에 수확되었다[11]. PROSEA 요약에 따르면 실생묘는 수꽃 나무가 될 수 있고 암나무도 열매 맺기까지 여러 해가 걸려 접목·취목 같은 영양번식을 선호한다[2]. 국내 재배와 생산 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "필리핀에서 빅나이 와인은 완숙 열매를 펄퍼에 넣어 과육을 짜고, 씨·껍질·과육 일부로 된 박(포마스)이 부산물로 남는다[9]. 이 박을 동결건조하면 총페놀이 생시료 1,967.32에서 1,767.48 mg GAE/100 g DW로 약 10% 줄었지만, 45 °C 열풍건조에서는 1,284.45 mg GAE/100 g DW로 약 35% 줄었다(본문 값; 초록은 1,742 대 1,273으로 조금 다르게 적음)[9]. 총안토시아닌은 동결건조 뒤 474.89, 열풍건조 뒤 210.97 mg C3GE/100 g DW로 생시료(171.95)보다 높게 측정되었다(초록은 496 대 223)[9].\n\n태국 마오루앙 레드와인은 껍질을 함께 발효(스킨 콘택트)하면 플라보노이드·페놀산·유기산과 알코올이 더 많았다[8]. 필리핀 두 품종의 열매를 증기 데치기(105 °C, 5분)나 물 데치기(90 °C, 2분)하면 시험관 지질 흡수 관련 활성이 대체로 생과 동결건조 시료보다 낮았다[10]. 쥐 실험에는 열매를 갈아 씨와 찌꺼기를 걸러낸 즙을 감압 농축한 추출물(한 연구는 갈아서 농축한 즙)을 썼다[14, 15]. 식약처 「식품 등의 생산실적」의 빅나이 제품 실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "여우주머니과 엽록체 유전체를 비교한 2026년 논문의 표에는 빅나이 엽록체 유전체(GenBank ON022043)가 162,160 bp, 대단일복사영역 89,499 bp, 소단일복사영역 19,051 bp, 역반복영역 26,805 bp, 유전자 131개, GC 36.40%로 실려 있다[28]. 이 값은 원문 표의 열 순서로 읽은 것이다[28]. 염색체 수와 핵 유전체 해독 보고는 확인하지 못함.\n\n필리핀 연구는 야생 Antidesma 9종의 56개 유전자 등록 서열(K-A-H-L 부위)로 생약 제품 진위를 가렸다[23]. 열매 성분은 품종에 따라 크게 달랐는데, 태국 15개 품종의 프로시아니딘 B1·B2와 카테킨 함량 차이가 컸다[6]. 이 열매의 쓴맛 인식은 먹는 사람의 쓴맛 수용체 유전자 TAS2R38 형과 관련이 있어, 쓴맛을 느낀 사람은 모두 PTC 비감지형(AVI) 하플로타입을 적어도 하나 가졌다[26, 27]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 빅나이는 열매에 한해 사용가능한 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 국내 공공기관의 알레르기·잔류농약·독성 성분 정보는 확인하지 못함.\n\n필리핀산 열매 70% 에탄올 추출물을 생쥐(암수 각 20마리)에게 500–2000 mg/kg 한 번 먹인 OECD 423 급성독성 시험에서 14일 동안 죽거나 이상 증상을 보인 개체가 없어 LD50은 2000 mg/kg보다 큰 것으로 보았다[11]. 같은 추출물의 카드뮴은 0.002 ppm, 납은 약 0.50 ppm이었다[11]. 저자들도 만성독성·유전독성 자료가 없다고 적었다[11]. 열매가 아닌 씨앗 에탄올 추출물을 당뇨 쥐에게 6주 동안 먹인 연구에서는 크레아티닌·알부민·ALP 등이 달라져 콩팥 기능 이상 가능성이 지적되었다[17]. 인도 미조람산 열매의 옥살산은 2.42 mg/100 g FW, 피트산은 5.64 mg/100 g(건조 시료로 분석)으로 보고되었다[4]. 필리핀 시판 빅나이 생약 제품 11개 가운데 8개가 다른 식물이나 충전재로 바뀌어 있었다[23]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Cyanidin 3-glucoside",
+   "name_ko": "시아니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "marker",
+   "part": "열매(과육·껍질)",
+   "content_text": "안토시아닌 농축 분획 31.4 ± 1.4 mg/g 추출물(LC-MS/MS)[12]; 에탄올 추출물 13.4 ± 0.7 mg/g 추출물(HPLC-PDA)[13]; 14개 품종 중 'Kumlai' 54.67 mg/100 g DW[5]",
+   "activity_ko": "열매의 주요 안토시아닌으로 항산화 능력과 상관이 있다고 보고(시험관)[5, 12]",
+   "source": [
+    5,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Delphinidin 3-glucoside",
+   "name_ko": "델피니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "안토시아닌 농축 분획 21.7 ± 0.8 mg/g 추출물(LC-MS/MS)[12]",
+   "activity_ko": "안토시아닌 분획 성분(분획은 장 말타아제·수크라아제 억제, 시험관)[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라보놀(플라반-3-올)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "15개 품종 생과 73.39–316.22 mg/100 g FW[6]; 'Kumlai' 127.60 mg/100 g DW[5]; 에탄올 추출물 2.26 ± 0.61 mg/g 추출물[13]",
+   "activity_ko": "주요 폴리페놀 성분[5, 6]",
+   "source": [
+    5,
+    6,
+    13
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "에피카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매·와인 박",
+   "content_text": "'Kumlai' 949.73 mg/100 g DW[5]; 와인 박(생·동결건조·열풍건조 모두)에서 가장 많은 페놀 성분으로 최대 약 50 mg/100 g DW[9]",
+   "activity_ko": "주요 폴리페놀 성분[5, 9]",
+   "source": [
+    5,
+    9
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "'Kumlai' 281.30 mg/100 g DW[5]; 에탄올 추출물에서 HPLC로 검출[13]",
+   "activity_ko": "품종별 항산화 능력과 상관(시험관)[5]",
+   "source": [
+    5,
+    13
+   ]
+  },
+  {
+   "name": "Procyanidin B2",
+   "name_ko": "프로시아니딘 B2(B1 포함)",
+   "class": "프로안토시아니딘",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "초록 수치: B2 최고 5,006.39 mg/100 g FW('Sangkrow 2'), B1 최고 4,122.75 mg/100 g FW('Lompat')[6] — 생과 100 g당 수 g으로 다른 연구보다 매우 커 단위 확인 필요(전문 확인 못함)",
+   "activity_ko": "품종 간 차이가 큰 주요 플라보노이드로 보고[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "아스코르브산(비타민 C)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "15개 품종 생과 10.01–16.55 mg/g FW(초록 수치, 100 g당 1 g 이상이라 다른 보고보다 매우 커 단위 확인 필요)[7]; 미조람산 열매 126.00 mg/100 g(생과 측정)[4]",
+   "activity_ko": "항산화 영양소[4]",
+   "source": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Tartaric acid",
+   "name_ko": "주석산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "15개 품종 생과 7.97–12.16 mg/g FW; 구연산 4.44–11.73, 사과산 3.05–4.52, 옥살산 1.00–1.45 mg/g FW[7]",
+   "activity_ko": "신맛을 내는 주요 유기산[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매·와인 박",
+   "content_text": "안토시아닌 분획에서 LC-MS/MS로 추정 동정[12]; 건조 와인 박에서 세 번째로 많은 페놀 성분[9]",
+   "activity_ko": "폴리페놀 구성 성분[9, 12]",
+   "source": [
+    9,
+    12
+   ]
+  },
+  {
+   "name": "(E)-2-Hexenal",
+   "name_ko": "(E)-2-헥세날",
+   "class": "알데하이드(향기 성분)",
+   "role": "bioactive",
+   "part": "건조 열매",
+   "content_text": "헤드스페이스 GC-MS 피크 면적 31.9%로 가장 많은 휘발 성분[11]",
+   "activity_ko": "풋내·과일 향을 내는 향기 성분[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Friedelin",
+   "name_ko": "프리델린",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "줄기껍질(열매 아님)",
+   "content_text": "줄기껍질 에틸아세테이트 분획에서 분리(함량 보고 없음)[19]",
+   "activity_ko": "α-글루코시다아제 억제 IC50 19.51 μg/mL(시험관)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Betulinic acid",
+   "name_ko": "베툴린산",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "줄기껍질(열매 아님)",
+   "content_text": "줄기껍질에서 분리(함량 보고 없음)[19]",
+   "activity_ko": "α-글루코시다아제 억제 IC50 18.49 μg/mL(시험관)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Amentoflavone",
+   "name_ko": "아멘토플라본",
+   "class": "바이플라보노이드",
+   "role": "bioactive",
+   "part": "잎(열매 아님)",
+   "content_text": "잎 메탄올 추출물에서 분리(함량 보고 없음)[20]; 속의 화학분류 지표 후보로 정리됨[3]",
+   "activity_ko": "LPS 자극 세포 NO 생성 억제(IC50 8.5–26.9 μM 범위, 시험관)[20]",
+   "source": [
+    20,
+    3
+   ]
+  },
+  {
+   "name": "Antidesoside",
+   "name_ko": "안티데소사이드",
+   "class": "티루칼레인형 트라이테르펜 배당체",
+   "role": "bioactive",
+   "part": "잎(열매 아님)",
+   "content_text": "잎에서 새 화합물로 분리(함량 보고 없음)[20]",
+   "activity_ko": "NO 생성 억제(시험관)[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보노이드 배당체",
+   "role": "bioactive",
+   "part": "지상부(열매 아님)·와인 박",
+   "content_text": "지상부에서 분리(함량 보고 없음)[21]; 와인 박에서 HPLC로 검출[9]",
+   "activity_ko": "최종당화산물 생성 억제 IC50 0.2 mM 미만(시험관)[21]",
+   "source": [
+    21,
+    9
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "열매(인도 미조람 숲·텃밭 채집, 2021–2022년)",
+   "basis": "원문 표 1–4 값 그대로. 시료는 50–60 °C에서 말려 분말로 분석했고 색소·비타민은 생과로 측정했다고 적혀 있으나 표마다 생·건 기준은 밝히지 않음(수분 69.81%인데 조섬유 24.27%라 일부 값은 건조 기준일 가능성)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 69.81,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 3.98,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 0.82,
+     "unit": "%"
+    },
+    {
+     "name": "탄수화물",
+     "value": 5.91,
+     "unit": "%"
+    },
+    {
+     "name": "총당",
+     "value": 2.24,
+     "unit": "%"
+    },
+    {
+     "name": "조섬유",
+     "value": 24.27,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 3.49,
+     "unit": "%"
+    },
+    {
+     "name": "에너지",
+     "value": 46.94,
+     "unit": "kcal/100 g"
+    },
+    {
+     "name": "비타민 C",
+     "value": 126.0,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "비타민 E",
+     "value": 36.69,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "안토시아닌",
+     "value": 336.67,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "칼슘",
+     "value": 376.1,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "마그네슘",
+     "value": 163.0,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "철",
+     "value": 8.17,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "아연",
+     "value": 3.5,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "나트륨",
+     "value": 45.59,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "칼륨",
+     "value": 1.36,
+     "unit": "%"
+    }
+   ],
+   "source": [
+    4
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "시아니딘-3-글루코사이드(델피니딘-3-글루코사이드 함께)",
+   "part": "열매(태국 사꼰나콘산 완숙 열매, 씨 제거)",
+   "content": "안토시아닌 농축 분획 C3G 31.4 ± 1.4 mg/g 추출물, D3G 21.7 ± 0.8 mg/g 추출물; 총안토시아닌(pH 차이법) 66.9 ± 1.3 mg C3G/g 추출물[12]",
+   "method": "LC-MS/MS(ESI, MRM-EPI)",
+   "conditions": {
+    "instrument": "Agilent 1290 HPLC + ABSciex QTRAP 5500",
+    "column": "Inertsil ODS-2 C18, 250 × 4.6 mm, 5 µm, 150 Å",
+    "mobile_phase": "A 포름산:물 = 10:90, B 포름산:물:아세토니트릴:메탄올 = 10:40:22.5:22.5",
+    "gradient": "B 15–20%(5분), 20–27%(35분), 27–65%(45분), 65–100%(50분), 60분까지 15%로 복귀",
+    "flow": "0.6 mL/min",
+    "temp": "",
+    "detection": "ESI, 이온 스프레이 5.5 kV, 소스 500 °C, 커튼 가스 25 psi, 충돌 에너지 20 eV",
+    "injection": "5 µL",
+    "sample_prep": "열매 10 kg 씨 제거 후 증류수 20 L와 갈아 거르고 원심분리·동결건조; 분말 1 g을 물 20 mL에 녹여 C18 고체상 추출(0.2% 포름산 물 세척, 80% 아세토니트릴 용출) 후 농축",
+    "standard": "시아니딘-3-글루코사이드, 델피니딘-3-글루코사이드",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매의 검붉은 색과 항산화 활성을 내는 주된 안토시아닌으로 여러 연구에서 주성분으로 보고됨[5, 12]",
+   "source": [
+    12
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7824535/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "시아니딘-3-글루코사이드·카테킨",
+   "part": "열매(태국 사꼰나콘산 익은 생과)",
+   "content": "95% 에탄올 추출물(수율 12.08%, 생과 기준) C3G 13.4 ± 0.7 mg/g 추출물, 카테킨 2.26 ± 0.61 mg/g 추출물; 같은 추출물의 pH 차이법 총안토시아닌은 3.76 ± 0.19 mg C3G eq/g 추출물로 HPLC 값과 차이가 있음[13]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Shimadzu LC-2030C PDA HPLC",
+    "column": "Hypersil Gold PFP, 4 × 250 mm, 5 µm(원문 'C18 Hypersil Gold PFP')",
+    "mobile_phase": "A 0.1% 포름산 수용액, B 메탄올",
+    "gradient": "0.01–15분 B 100%까지 증가, 15.01–25분 B 100% 유지, 25.01–30분 B 0%로 감소",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "PDA 280·360·520 nm",
+    "injection": "10 µL",
+    "sample_prep": "익은 생과를 씻어 2시간 말린 뒤 95% 에탄올과 1:2로 갈아 실온(28 ± 2 °C) 24시간 침지, 여과·감압 농축·동결건조; 분석 시 10 mg/mL",
+    "standard": "갈산·카테킨·시아니딘-3-글루코사이드·프로토카테큐산 혼합 표준(1.56–50 µg/mL)",
+    "linearity": "표준 혼합액 검량선(y = ax + b, r 값 원문 표)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "추출물의 두 주성분으로 정량되어 항산화 활성의 원인 성분으로 제시됨[13]",
+   "source": [
+    13
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891370/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Epicatechin",
+   "compound_ko": "에피카테킨(카테킨 등 9종)",
+   "part": "와인 착즙 박(씨·껍질·과육 일부, 필리핀 라구나산 완숙 열매)",
+   "content": "생시료 박에서 에피카테킨이 가장 많아 약 50 mg/100 g DW, 다음이 카테킨; 건조 뒤 개별 페놀은 15–52% 감소[9]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Shimadzu Prominence HPLC, 광다이오드 배열 검출기",
+    "column": "Inertsil ODS-3, 250 mm × 4.5 mm, 5 µm(GL Sciences)",
+    "mobile_phase": "A 아세토니트릴:아세트산 산성 물 = 2:98, B 아세토니트릴:아세트산 산성 물 = 98:2",
+    "gradient": "0–3분 10% B, 3–8분 20%, 8–12분 30%, 12–13분 40%, 13–20분 50%, 20–30분 70%, 30–35분 90%, 35–40분 10% B",
+    "flow": "0.8 mL/min",
+    "temp": "30 °C",
+    "detection": "PDA(파장 원문에서 확인하지 못함)",
+    "injection": "20 µL",
+    "sample_prep": "분쇄 박 0.5 g + 에탄올:물:구연산 50:50:1(v/v/w) 15 mL, 60 °C 60분, 초음파 15분, 원심분리·여과, 잔사 2회 반복; 0.22 µm PVDF 여과",
+    "standard": "갈산·카테킨·에피카테킨·루틴·카페산·시링산·엘라그산·p-쿠마르산·trans-페룰산·미리세틴·레스베라트롤·퀘르세틴(검량선 R² ≥ 0.99)",
+    "linearity": "R² ≥ 0.99",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "빅나이 열매·박의 주요 플라반-3-올로 건조 공정의 품질 지표로 쓰임[9]",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9902252/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Gallic acid",
+   "compound_ko": "갈산·에피카테킨·카테킨·시아니딘-3-O-글루코사이드",
+   "part": "열매(태국 동북부 14개 품종)",
+   "content": "'Kumlai' 품종 갈산 281.30, (−)-에피카테킨 949.73, (+)-카테킨 127.60, 시아니딘-3-O-글루코사이드 54.67 mg/100 g DW[5]",
+   "method": "HPLC",
+   "conditions": {},
+   "rationale": "14개 품종 모두의 주요 폴리페놀이며 항산화 능력과 상관이 있다고 보고됨; 전문 확인 못함(초록만 확인)[5]",
+   "source": [
+    5
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25794747/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 빅나이열매",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "PROSEA (Plant Resources of South-East Asia) No 2: Edible fruits and nuts — Antidesma bunius (페이지 직접 열람 못함, 검색 요약으로 암수딴그루·열매 크기만 확인)",
+   "url": "https://uses.plantnet-project.org/en/Antidesma_bunius_(PROSEA)",
+   "publisher": "PROSEA Foundation / Pl@ntUse",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "A comprehensive review on traditional uses, phytochemical, and pharmacological properties of the genus Antidesma L. Fitoterapia 2024;176:106023 (PMID 38772510, doi:10.1016/j.fitote.2024.106023)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38772510/",
+   "publisher": "Fitoterapia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Nutritional profiling, bioactive phytochemicals, and functional food components of wild edible fruits from the Indo-Burma biodiversity hotspot. Sci Rep 2026 (PMID 42230950, doi:10.1038/s41598-026-55985-w)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342570/",
+   "publisher": "Scientific Reports (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Phytochemicals and antioxidant capacities of Mao-Luang (Antidesma bunius L.) cultivars from Northeastern Thailand. Food Chem 2015;181:248-55 (PMID 25794747, doi:10.1016/j.foodchem.2015.02.093)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25794747/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "An analysis on flavonoids contents in Mao Luang fruits of fifteen cultivars (Antidesma bunius), grown in northeast Thailand. Pak J Biol Sci 2008;11(7):996-1002 (PMID 18810968, doi:10.3923/pjbs.2008.996.1002)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18810968/",
+   "publisher": "Pakistan Journal of Biological Sciences (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "An analysis on organic acids contents in ripe fruits of fifteen Mao Luang (Antidesma bunius) cultivars. Pak J Biol Sci 2008;11(7):974-81 (PMID 18810965, doi:10.3923/pjbs.2008.974.981)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18810965/",
+   "publisher": "Pakistan Journal of Biological Sciences (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Flavonoids, phenolics and organic acids in brewed red wines of non-skin contact and skin contact fermentation of Mao Luang ripe fruits (Antidesma bunius). Pak J Biol Sci 2008;11(13):1654-61 (PMID 18819615, doi:10.3923/pjbs.2008.1654.1661)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18819615/",
+   "publisher": "Pakistan Journal of Biological Sciences (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Impact of drying on the bioactive compounds and antioxidant properties of bignay [Antidesma bunius (L.) Spreng.] pomace. Food Prod Process Nutr 2023 (PMID 40477808, doi:10.1186/s43014-022-00122-z)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9902252/",
+   "publisher": "Food Production, Processing and Nutrition (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "In vitro lipid-lowering properties of the fruits of two bignay [Antidesma bunius (L.) Spreng] cultivars as affected by maturity stage and thermal processing. Food Chem Mol Sci 2021 (PMID 35415628, doi:10.1016/j.fochms.2021.100020)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8991519/",
+   "publisher": "Food Chemistry: Molecular Sciences (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Acute oral toxicity assessment of ethanolic extracts of Antidesma bunius (L.) Spreng fruits in mice. Toxicol Rep 2021 (PMID 34221900, doi:10.1016/j.toxrep.2021.06.010)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246092/",
+   "publisher": "Toxicology Reports (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Inhibitory effect of Antidesma bunius fruit extract on carbohydrate digestive enzymes activity and protein glycation in vitro. Antioxidants 2021;10(1):32 (PMID 33396768, doi:10.3390/antiox10010032)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7824535/",
+   "publisher": "Antioxidants (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Phenolic profile, antioxidant activity, and anti-obesogenic bioactivity of Mao Luang fruits (Antidesma bunius L.). Molecules 2019;24(22):4109 (PMID 31739440, doi:10.3390/molecules24224109)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6891370/",
+   "publisher": "Molecules (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "The potential of antioxidant-rich Maoberry (Antidesma bunius) extract on fat metabolism in liver tissues of rats fed a high-fat diet. BMC Complement Altern Med 2019;19:294 (PMID 31684925, doi:10.1186/s12906-019-2716-0)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6829826/",
+   "publisher": "BMC Complementary and Alternative Medicine (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Maoberry (Antidesma bunius) ameliorates oxidative stress and inflammation in cardiac tissues of rats fed a high-fat diet. BMC Complement Altern Med 2018;18:336 (PMID 30591041, doi:10.1186/s12906-018-2400-9)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6307262/",
+   "publisher": "BMC Complementary and Alternative Medicine (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Maoberry (Antidesma bunius) improves glucose metabolism, triglyceride levels, and splenic lesions in high-fat diet-induced hypercholesterolemic rats. J Med Food 2018 (PMID 30277837, doi:10.1089/jmf.2018.4203)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30277837/",
+   "publisher": "Journal of Medicinal Food (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Hypoglycemic and hypolipidemic effects of seed extract from Antidesma bunius (L.) Spreng in streptozotocin-induced diabetic rats. Pak J Biol Sci 2016;19(5):211-218 (PMID 29023025, doi:10.3923/pjbs.2016.211.218)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29023025/",
+   "publisher": "Pakistan Journal of Biological Sciences (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Investigation of antidiabetic action of Antidesma bunius extract in type 1 diabetes. Arch Physiol Biochem 2015;121(3):116-22 (PMID 26066546, doi:10.3109/13813455.2015.1038278)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26066546/",
+   "publisher": "Archives of Physiology and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "α-Glucosidase inhibitory activity from ethyl acetate extract of Antidesma bunius (L.) Spreng stem bark containing triterpenoids. Pharmacogn Mag 2017;13(52):590-594 (PMID 29200718, doi:10.4103/pm.pm_25_17)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29200718/",
+   "publisher": "Pharmacognosy Magazine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Tirucallane glycoside from the leaves of Antidesma bunius and inhibitory NO production in BV2 cells and RAW264.7 macrophages. Nat Prod Commun 2016;11(7):935-937 (PMID 30452166)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30452166/",
+   "publisher": "Natural Product Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Chemical constituents of Antidesma bunius aerial parts and the anti-AGEs activity of selected compounds. Phytochemistry 2022 (PMID 35798090, doi:10.1016/j.phytochem.2022.113300)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35798090/",
+   "publisher": "Phytochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "α-Glucosidase inhibitory activity of selected Philippine plants. J Ethnopharmacol 2012;144(1):217-9 (PMID 22954497, doi:10.1016/j.jep.2012.08.019)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22954497/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Standard reference material (SRM) DNA barcode library approach for authenticating Antidesma bunius (L.) Spreng. (bignay) derived herbal medicinal products. Food Addit Contam A 2019 (PMID 31596175, doi:10.1080/19440049.2019.1670868)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31596175/",
+   "publisher": "Food Additives & Contaminants Part A (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Ethno-botanical survey of edible wild fruits in Benguet, Cordillera administrative region, the Philippines. Asian Pac J Trop Biomed 2014;4(Suppl 1):S525-38 (PMID 25183144, doi:10.12980/APJTB.4.201414B36)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25183144/",
+   "publisher": "Asian Pacific Journal of Tropical Biomedicine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Divergent taste responsiveness to fruit of the tree Antidesma bunius. Nature 1977;265:536-7 (초록 없음, 서지만 확인) (PMID 834304, doi:10.1038/265536a0)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/834304/",
+   "publisher": "Nature (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Taste perception of Antidesma bunius fruit and its relationships to bitter taste receptor gene haplotypes. Chem Senses 2018;43(7):463-468 (PMID 29878085, doi:10.1093/chemse/bjy037)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29878085/",
+   "publisher": "Chemical Senses (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Bitter fruit: inverse associations between PTC and Antidesma bunius perception. Chem Senses 2018 (PMID 29982450, doi:10.1093/chemse/bjy044)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29982450/",
+   "publisher": "Chemical Senses (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Anatomy and the chloroplast genome of Bischofia plants reveal important phylogenetic relationship and the genetic diversity in Phyllanthaceae (표 1 비교 자료) (PMID 42128939)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13365585/",
+   "publisher": "PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Integrating computational methods in network pharmacology and in vitro screening to uncover multi-targeting phytochemicals against aberrant protein glycosylation in lung cancer. ACS Omega 2023 (PMID 37332828, doi:10.1021/acsomega.2c07542)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10268607/",
+   "publisher": "ACS Omega (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Antioxidant activities of mamao luang (Antidesma thwaitesianum Müll. Arg.) fruit: extraction and application in raw chicken patties. J Food Sci 2020;85(3):647-656 (PMID 32043581, doi:10.1111/1750-3841.15035)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32043581/",
+   "publisher": "Journal of Food Science (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

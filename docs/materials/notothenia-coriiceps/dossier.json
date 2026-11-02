@@ -1,0 +1,588 @@
+{
+ "slug": "notothenia-coriiceps",
+ "name_ko": "검정돌치",
+ "name_en": "Black rockcod",
+ "scientific_name": "Notothenia coriiceps",
+ "aliases": [
+  "Black rockcod",
+  "Antarctic bullhead notothen",
+  "Notothenia coriiceps neglecta"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "검정돌치(Notothenia coriiceps)는 남극해 고유종으로 Notothenioidei 아목 Nototheniidae 과에 속하는 바닥 생활 물고기로, 영어로는 black rockcod 또는 Antarctic bullhead notothen이라 부른다[1, 2]. 식약처 「식품원료 목록」에는 원료명 '검정돌치', 영문명 Black rockcod, 분류 수산물로 올라 있고 상태는 '사용가능'이다[1]. 이 목록에서 사용 부위는 따로 정하지 않은 '-'로 적혀 있고 별도의 사용 조건은 없다[1]. 같은 목록에는 같은 속의 대리석무늬돌치(N. rossii)·검정민대구(N. microlepidota)와 이빨고기(Dissostichus속)가 각각 다른 항목으로 올라 있으며, 이 문서는 그 종들의 자료를 섞지 않았다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못해 지표성분은 비워 두었다.\n\n이 종은 남극 연안 얕은 바다에 매우 많고 남극을 둘러싼 분포를 보이는 것으로 알려져, 차가운 환경 적응 연구의 모델 생물로 쓰인다[2]. 2014년 국내 연구진이 주도한 국제 공동 연구가 세종기지 인근 마리안 소만에서 잡은 개체로 이 종의 유전체 초안을 발표했다[2]. 식품으로서의 영양 성분 자료는 확인하지 못했고, 학술 자료는 주로 수은·중금속·잔류성 유기오염물질 축적과 지방산 조성, 추위 적응 단백질에 관한 것이다[12, 14, 15, 19, 21]."
+  },
+  {
+   "key": "history",
+   "title": "이름·연구 역사",
+   "body": "이 종은 1844년 Richardson이 기재한 종이다[7]. 1990년 논문들에서는 Notothenia coriiceps neglecta라는 아종 이름으로 혈색소 β 사슬 아미노산 서열과 부동 당단백질 유전자가 보고되었다[20, 21]. 1990년 연구는 이 물고기가 얼음이 낀 서식지에서 얼지 않도록 부동 당단백질(AFGP) 8종을 만든다고 밝혔다[21]. 같은 해 혈색소 연구는 온대 어류보다 적혈구 수와 혈색소 농도가 낮고 Hb1이 전체의 약 90%를 차지한다고 보고했다[20].\n\n국내에서는 1995년 한국해양연구소 극지연구센터가 활동하는 남극 해역에서 잡은 'Notothenia neglecta' 대구류의 간·위에서 고래회충류(Pseudoterranova decipiens) 3기 유충이 발견되어 날로 먹지 말라는 권고가 나왔다[28]. 이 보고의 학명이 현재의 N. coriiceps와 완전히 같은 대상인지는 이번 조사에서 확인하지 못함. 국내 극지 연구에서는 2012년 1월 세종기지 인근 마리안 소만에서 낚시로 잡은 개체를 유전체 연구에, 2023년 1–2월 세종기지 부두와 맥스웰만 촛대바위 연안에서 낚시·통발로 잡은 개체를 성장 연구에 썼다[2, 7]. 상업적 어업이나 국내 식용 유통의 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생활사",
+   "body": "검정돌치는 수심 표층부터 약 550 m까지 사는 바닥 생활 포식자이며, 머리가 크고 넓고 납작하며 몸이 뭉툭하다[7]. 2023년 1–2월 킹조지섬 세종기지 부두에서 잡힌 111마리는 전장 180–420 mm, 무게 88.76–1,336.55 g이었다[7]. 이 연구에서 길이-무게 관계의 b 값은 3.22(전체), 풍만도(K)는 1.57 ± 0.02로 대리석무늬돌치보다 높았다[7]. 이 종은 단각류·고둥류(삿갓조개)·해조류·물고기 등 여러 먹이를 먹으며 바닥 무척추동물 의존도가 크다[7]. 표준체장 95.8–109.3 mm의 어린 개체를 포함한 연안 돌치류 3종의 위 내용물은 주로 단각류와 크릴류였고 해조류는 드물었다[9].\n\n이 종은 남극반도 서쪽 브랜스필드 해협 얕은 바다에서 개체 수와 생물량이 가장 많은 바닥 어종이며, 이석 분석에서는 수온 상승이 성장에 대체로 부정적인 영향을 준 것으로 나타났다[8]. 포터 코브 먹이그물 모형에서 이 종을 없애면 먹이그물 안정성이 크게 바뀌어 핵심 종으로 평가되었다[10]. 서식 수온은 −1.9~+2 °C이고, 인공수정한 알은 약 6개월 뒤 부화했다[11]. 이 종은 −2.5~6.0 °C 범위에서만 살 수 있는 협온성 어류로 알려져 있고, 급격한 가온 실험에서 임계 최고 온도는 17.1 ± 0.2 °C였다[2, 23]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·종 판별",
+   "body": "식약처 목록에는 같은 속의 대리석무늬돌치(N. rossii)와 검정민대구(N. microlepidota)가 별도 원료로 있으므로 이름과 학명을 구분해야 한다[1]. 대리석무늬돌치는 이 종과 같은 연안에 함께 살지만 몸이 더 날씬하고 머리가 좁은 반부유성 어종이며, 성숙하면 깊은 대륙붕으로 옮겨 간다[7]. 세종기지 부두(얕은 곳)에서는 검정돌치가 82.35%, 3 km 떨어진 촛대바위(깊은 곳)에서는 대리석무늬돌치가 87.99%를 차지해 서식 깊이가 달랐다[7].\n\n두 종은 기생충 12분류군을 함께 가지며 기생충 군집이 매우 비슷했다[27]. 활동성이 큰 대리석무늬돌치는 아가미·간의 항산화 효소 활성이 더 높았고, 느린 검정돌치는 아가미 메탈로티오네인 유사 단백질과 간 환원형 글루타티온이 더 많았다[26]. 같은 아목의 빙어류(Channichthyidae)는 혈색소가 없는 '흰 피' 물고기로, 혈색소가 있는 이 종보다 임계 최고 온도가 낮았다(13.3–13.9 °C 대 17.1 °C)[23]. 9개 기관 지방산 조성은 두 Notothenia 종이 전체적으로 비슷하지만 일부 기관에서 차이가 있었다[19]. 따라서 같은 해역에서 함께 조사된 근연종의 수치를 이 종의 값으로 옮겨 쓰지 않았다[15, 17, 19]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·채집",
+   "body": "이 종의 양식 기술이나 상업 어획 통계는 확인하지 못함. 연구용 개체는 세종기지 주변 마리안 소만의 수심 20–30 m에서 낚시로 잡거나, 부두와 맥스웰만 연안 수심 2–30 m에서 낚시·통발로 잡았다[2, 7]. 미국 연구진은 남극반도 서쪽 댈먼만 등지에서 저인망과 미끼 통발로 이 종을 포함한 남극 어류를 잡아 기지 수조에서 0 ± 1 °C로 길렀다[31]. 세종기지 연구에서는 원통형 깔때기 통발의 어획 효율이 낮아 이후에는 낚시만 썼다[7].\n\n남극반도 서쪽은 최근 수십 년간 남극해에서 기후변화 영향을 가장 크게 받은 해역 중 하나로, 2002·2006·2012·2018년 개체의 이석 모양이 해마다 뚜렷이 구분되었다[8]. 이석 성장 궤적과 해수면 수온 추세를 함께 보면 수온 상승이 협온성인 이 종의 성장에 대체로(일관되게는 아니지만) 부정적인 영향을 준 것으로 해석되었다[8]. 남극해양생물자원보존위원회(CCAMLR) 보존조치 원문을 이번 환경에서 열지 못해, 이 종을 직접 지정한 어획 규제는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·유통·연구 이용",
+   "body": "식품으로서 이 종의 가공·유통 형태와 국내 수입 실적은 확인하지 못함. 연구에서는 이 종의 몸에서 나온 여러 단백질이 관심을 받았다[21, 22, 24, 25, 29]. 대장균에서 만든 이 종의 4형 부동 단백질(AFPIV)은 0.5 mg/ml 농도에서 열 이력(thermal hysteresis) 0.08 °C를 보였다[22]. 이 종의 모로네시딘 유사 항균 펩타이드는 용혈 독성이 낮았지만 항균 범위가 좁고 염에 민감해 항생제 후보로는 적합하지 않다고 평가되었다[24]. 이 종의 메탈로티오네인(MT_nc)은 어류 메탈로티오네인으로는 처음 3차원 구조가 밝혀졌다[25].\n\n2026년 연구는 이 종의 근육 추출물에서 mTOR에 결합하는 단백질 Dnajb5를 찾았다[29]. 다만 근육 재생 개선(재생 섬유 단면적 약 26% 증가)과 악력 14% 향상은 생쥐 세포와 생쥐 근육 손상 모형에서 Dnajb5를 줄였을 때의 결과로, 이 물고기를 먹었을 때의 효과가 아니다[29]. 이 종을 원료로 한 사람 대상 연구는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "이 종의 유전체 초안은 한 개체의 DNA를 84.5배 깊이로 읽어 637 Mb 크기로 조립되었고, 단백질 암호 유전자 32,260개와 반복 서열 18.15%가 예측되었다[2]. 조립 결과의 N50 스캐폴드 길이는 219 kb, 가장 긴 스캐폴드는 28 Mb였다[2]. 비교 분석에서 미토콘드리아 단백질과 혈색소 유전자가 빠르게 진화했고, 열충격인자 HSF1에서는 인산화 의존 수모화 모티프가 사라진 것이 확인되었다[2]. 앞선 연구는 이 종의 BAC 라이브러리를 만들고 반복 서열 비율을 13.4%로 추정했다[5].\n\n대부분의 남극암치류는 반수 염색체가 24개이지만 이 종은 11개이며, 11개 중 9개는 조상 염색체 2개가, 2개는 3개가 융합해 생겼다[3]. 미토콘드리아 유전체는 18,347 bp로 단백질 유전자 13개, tRNA 22개, rRNA 2개, 조절 부위 2개를 가진다[4]. 뇌·간 전사체도 다른 남극 어류 2종과 함께 해독되었다[6]. 저산소 조절 인자 HIF-1α에는 9개 아미노산 길이의 글루타민·글루탐산 삽입 변이가 있지만, 저산소 노출 시 간에서 818개 유전자 발현이 바뀌어 저산소 반응 경로는 작동했다[30]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성·오염물질",
+   "body": "식약처 「식품원료 목록」에서 이 종은 별도 조건 없는 '사용가능' 수산물 원료이다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못해 고시 섭취 시 주의사항도 없다. 이 종을 따로 다룬 국내 공공기관의 알레르기·잔류물질 검사 결과는 이번 조사에서 확인하지 못함.\n\n남극 애드미럴티만 개체 근육의 총수은은 100.2–670.3 ng/g 건조중량이었고 그중 약 79%가 메틸수은이었으며, 영양 단계가 오를수록 농도가 1.6–1.8배씩 높아졌다[12]. 같은 연구의 모든 개체는 셀레늄:수은 몰비가 1보다 커 독성이 완화될 수 있다고 해석되었다[12]. 리빙스턴섬 개체에서 카드뮴은 간(1.36 ± 0.19 mg/kg 건조중량), 납은 비장(3.33 ± 0.86 mg/kg 건조중량)에서 가장 높았다[14]. 포터 코브 조사에서는 PCB가 검출한계 미만이었고 퇴적물과 생물의 오염 수준은 환경적 우려 수준이 아니라고 평가되었다[16]. 반면 다른 연구는 이 종과 대리석무늬돌치가 함께 조사한 Trematomus newnesi보다 PCB·DDT·PBDE 등을 더 잘 축적한다고 보고했다[15]. 동남극 중산기지와 서남극 장성기지 주변 개체의 근육·간·심장 수은 동위원소 조성은 해빙 조건과 먹이 활동에 따라 수은 기원이 달라짐을 보여 주었다[13].\n\n킹조지섬 필데스만 개체는 모두 기생충에 감염되어 있었고, 구두충류를 비롯한 12분류군이 나왔다[27]. 1995년 국내 보고는 남극 대구류에서 사람 고래회충증을 일으킬 수 있는 유충을 찾고 날로 먹지 말 것을 권했다[28]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Mercury",
+   "name_ko": "총수은",
+   "class": "중금속 오염물질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "100.2–670.3 ng/g 건조중량 — 남극 킹조지섬 애드미럴티만[12]",
+   "activity_ko": "영양 단계에 따라 생물농축(TMS 0.22), 영양 단계당 1.6–1.8배 증가[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Methylmercury",
+   "name_ko": "메틸수은",
+   "class": "유기수은 오염물질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "총수은의 약 79%[12]",
+   "activity_ko": "질소 안정동위원소(δ15N)와 양의 상관, 생물확대(TMS 0.18)[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "미량원소",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "개별 수치는 초록에 없음 — 모든 개체에서 Se:Hg 몰비 > 1[12]",
+   "activity_ko": "수은 독성 완화 가능성으로 해석됨[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Cadmium",
+   "name_ko": "카드뮴",
+   "class": "중금속",
+   "role": "bioactive",
+   "part": "간",
+   "content_text": "1.36 ± 0.19 mg/kg 건조중량(간 평균, 조사 조직 중 최고) — 리빙스턴섬 사우스만, 3–7세 개체[14]",
+   "activity_ko": "향후 비교를 위한 기준값으로 제시됨[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Lead",
+   "name_ko": "납",
+   "class": "중금속",
+   "role": "bioactive",
+   "part": "비장",
+   "content_text": "3.33 ± 0.86 mg/kg 건조중량(비장 평균, 조사 조직 중 최고)[14]",
+   "activity_ko": "기지 주변 등 일부 지점의 납은 사람 활동과 관련될 수 있다고 보고됨(포터 코브 퇴적물 기준)[16]",
+   "source": [
+    14,
+    16
+   ]
+  },
+  {
+   "name": "Zinc",
+   "name_ko": "아연",
+   "class": "미량원소",
+   "role": "nutrient",
+   "part": "비장·비늘",
+   "content_text": "비장 143.97 ± 16.17 mg/kg 건조중량[14]; 비늘에서도 높은 수준[17]",
+   "activity_ko": "비늘의 높은 농도는 인근 화산 활동 퇴적물 영향으로 해석됨[17]",
+   "source": [
+    14,
+    17
+   ]
+  },
+  {
+   "name": "Manganese",
+   "name_ko": "망가니즈",
+   "class": "미량원소",
+   "role": "nutrient",
+   "part": "비늘",
+   "content_text": "14.80 ± 4.77 mg/kg 건조중량(리빙스턴섬)[14]",
+   "activity_ko": "비늘이 장기 오염의 비침습 지표로 쓰일 수 있다고 제안됨[17]",
+   "source": [
+    14,
+    17
+   ]
+  },
+  {
+   "name": "Uranium",
+   "name_ko": "우라늄",
+   "class": "방사성 미량원소",
+   "role": "bioactive",
+   "part": "비늘",
+   "content_text": "0.08 ± 0.01 μg/g — 제임스로스섬[18]",
+   "activity_ko": "먹이사슬에서 위협이 될 수준은 아닌 낮은 값으로 평가됨[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Polychlorinated biphenyls",
+   "name_ko": "폴리염화비페닐(PCB)",
+   "class": "잔류성 유기오염물질",
+   "role": "bioactive",
+   "part": "근육·간·생식소·아가미",
+   "content_text": "개체별 수치는 초록에 없음 — 3종 합산 POPs 부하 중 ΣPCB 40%[15]; 포터 코브 개체는 검출한계 미만[16]",
+   "activity_ko": "이 종은 함께 조사한 Trematomus newnesi보다 PCB·DDT 등을 더 잘 축적하는 것으로 보고됨[15]",
+   "source": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Omega-3 fatty acids",
+   "name_ko": "n-3 다가불포화지방산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "간을 제외한 기관",
+   "content_text": "간을 제외한 기관에서 가장 많은 지방산; 모든 기관의 n-3/n-6 비 > 3.5 — 애드미럴티만 여름 채집[19]",
+   "activity_ko": "개별 함량은 초록에 없음[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "9개 기관",
+   "content_text": "주요 포화지방산(수치는 초록에 없음)[19]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "대부분 기관",
+   "content_text": "가장 많은 단일불포화지방산(수치는 초록에 없음)[19]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Antifreeze glycoprotein",
+   "name_ko": "부동 당단백질(AFGP)",
+   "class": "당단백질",
+   "role": "bioactive",
+   "part": "혈액(분비 단백질)",
+   "content_text": "AFGP 1–8의 8종(분자량 2,600–34,000); 한 유전자에 46개 반복 단위[21]",
+   "activity_ko": "얼음이 낀 서식지에서 체액이 얼지 않게 함[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Hemoglobin",
+   "name_ko": "혈색소(Hb1·Hb2)",
+   "class": "단백질",
+   "role": "bioactive",
+   "part": "적혈구",
+   "content_text": "Hb1 약 90%, Hb2 약 5%(전체 혈색소 중)[20]",
+   "activity_ko": "혈색소 유전자가 빠르게 진화해 차가운 환경의 산소 공급에 관여한다고 추정됨[2]",
+   "source": [
+    20,
+    2
+   ]
+  },
+  {
+   "name": "Metallothionein",
+   "name_ko": "메탈로티오네인(MT_nc)",
+   "class": "금속결합 단백질",
+   "role": "bioactive",
+   "part": "(재조합 단백질 구조 연구)",
+   "content_text": "β 도메인 시스테인 9개·금속 3개, α 도메인 시스테인 11개·금속 4개[25]",
+   "activity_ko": "카드뮴·아연 등 금속 결합; 아가미 메탈로티오네인 유사 단백질은 대리석무늬돌치보다 많음[25, 26]",
+   "source": [
+    25,
+    26
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Total mercury and methylmercury",
+   "compound_ko": "총수은·메틸수은",
+   "part": "근육",
+   "content": "총수은 100.2–670.3 ng/g 건조중량, 메틸수은 약 79% [12]",
+   "method": "총수은·메틸수은 정량 + 탄소·질소 안정동위원소 분석(기기 세부는 초록에 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종은 남극 연안 바닥 먹이그물의 중간 포식자로 수은 생물농축 지표 생물로 쓰였다. 초록만 확인했고 전문 확인 못함[12].",
+   "source": [
+    12
+   ],
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.181163",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Pb, Cd, Cu, Zn, Mn",
+   "compound_ko": "납·카드뮴·구리·아연·망가니즈",
+   "part": "간·비장·근육·뼈·비늘·아가미·전신",
+   "content": "Cd 간 1.36 ± 0.19, Pb 비장 3.33 ± 0.86, Zn 비장 143.97 ± 16.17, Cu 아가미 3.76 ± 1.16, Mn 비늘 14.80 ± 4.77 mg/kg 건조중량 [14]",
+   "method": "중금속 정량(분석 기기는 초록에 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "3–7세 개체의 기관별 금속 농도를 처음 제시해 먹이·서식지와의 관계를 볼 기준값으로 삼았다. 초록만 확인했고 전문 확인 못함[14].",
+   "source": [
+    14
+   ],
+   "url": "https://doi.org/10.1007/s12011-010-8739-5",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters",
+   "compound_ko": "지방산 조성",
+   "part": "9개 기관",
+   "content": "간을 제외한 기관에서 n-3 다가불포화지방산이 가장 많음, n-3/n-6 > 3.5 [19]",
+   "method": "GC-FID(기체크로마토그래피-불꽃이온화검출)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "불꽃이온화검출(FID)",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "같은 해역에 사는 대리석무늬돌치와 기관별 지방산 대사·먹이 습성 차이를 비교하려 정량했다. 초록만 확인했고 전문 확인 못함[19].",
+   "source": [
+    19
+   ],
+   "url": "https://doi.org/10.1016/j.cbpb.2009.10.012",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Polar lipid classes (PC, PE, cardiolipin)",
+   "compound_ko": "극성 지질 조성(포스파티딜콜린·포스파티딜에탄올아민·카디오리핀)",
+   "part": "심실 미토콘드리아막",
+   "content": "조사한 모든 종에서 PC 약 40%, PE 약 25%, CL 약 13%(극성 지질 중); 검정돌치는 빙어류보다 불포화 지수가 높고 총 PE/총 PC 비가 1.1배 큼 [31]",
+   "method": "전자분무 삼중사중극자 질량분석(ESI-MS/MS) 지질체 분석",
+   "conditions": {
+    "instrument": "삼중사중극자 질량분석기(4000 QTRAP)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "이아실 극성 지질 프로필(상대 함량)",
+    "injection": "",
+    "sample_prep": "막 시료를 탈이온수로 600 μl로 맞춘 뒤 메탄올:클로로포름 2:1을 넣고 30초 볼텍스 → 600 g 10분 원심분리 → 아래층 회수, 3회 반복 → 물 세척 후 질소로 건조",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "심장 미토콘드리아막의 유동성과 내열성 차이를 설명하려 극성 지질 조성을 정량했다. PMC 전문 Methods에서 확인했고, 칼럼·이동상 등은 외부 지질체 분석 기관의 기존 방법을 인용만 해 적혀 있지 않다[31].",
+   "source": [
+    31
+   ],
+   "url": "https://doi.org/10.1016/j.cbpb.2019.05.011",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 검정돌치(Notothenia coriiceps) 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "The genome sequence of the Antarctic bullhead notothen reveals evolutionary adaptations to a cold environment. Genome Biol 2014;15(9):468",
+   "url": "https://doi.org/10.1186/s13059-014-0468-1",
+   "publisher": "Genome Biology, PubMed 25252967, PMC4192396",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Cold Fusion: Massive Karyotype Evolution in the Antarctic Bullhead Notothen. G3 (Bethesda) 2017;7(7):2195-2207",
+   "url": "https://doi.org/10.1534/g3.117.040063",
+   "publisher": "G3: Genes, Genomes, Genetics, PubMed 28576775, PMC5498148",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Complete mitochondrial genome of the Antarctic bullhead notothen, Notothenia coriiceps (Perciformes, Nototheniidae). Mitochondrial DNA A 2016;27(2):1407-8",
+   "url": "https://doi.org/10.3109/19401736.2014.947603",
+   "publisher": "Mitochondrial DNA Part A, PubMed 25121834",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Genome enablement of the notothenioidei: genome size estimates from 11 species and BAC libraries from 2 representative taxa. J Exp Zool B 2010;314(5):369-81",
+   "url": "https://doi.org/10.1002/jez.b.21341",
+   "publisher": "Journal of Experimental Zoology Part B, PubMed 20235119, PMC3631310",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Transcriptomics and comparative analysis of three antarctic notothenioid fishes. PLoS One 2012;7(8):e43762",
+   "url": "https://doi.org/10.1371/journal.pone.0043762",
+   "publisher": "PLoS ONE, PubMed 22916302, PMC3420891",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Comparative analysis of length-weight relationships and condition factors of two congeneric rockcod species from the shores of King George Island, Antarctica. PeerJ 2026;14:e20513",
+   "url": "https://doi.org/10.7717/peerj.20513",
+   "publisher": "PeerJ, PubMed 41527562, PMC12790788",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Otolith morphology as a tool to discriminate climate-driven growth variations in populations of black rockcod (Notothenia coriiceps) sampled over the last three decades off the Antarctic Peninsula. Sci Total Environ 2025;1005:180869",
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.180869",
+   "publisher": "Science of the Total Environment, PubMed 41187401",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Morphology and diet are decoupled in nearshore notothenoids from King George Island, West Antarctica. J Fish Biol 2024;104(4):957-968",
+   "url": "https://doi.org/10.1111/jfb.15632",
+   "publisher": "Journal of Fish Biology, PubMed 38032136",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Potter Cove's Heavyweights: Estimation of Species' Interaction Strength of an Antarctic Food Web. Ecol Evol 2024;14(11):e70389",
+   "url": "https://doi.org/10.1002/ece3.70389",
+   "publisher": "Ecology and Evolution, PubMed 39493615, PMC11531876",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Embryogenesis and early skeletogenesis in the antarctic bullhead notothen, Notothenia coriiceps. Dev Dyn 2016;245(11):1066-1080",
+   "url": "https://doi.org/10.1002/dvdy.24437",
+   "publisher": "Developmental Dynamics, PubMed 27507212, PMC5065385",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Mercury contamination in polar fish: Bioaccumulation and trophic transfer in Notothenia coriiceps from Admiralty Bay, maritime Antarctic. Sci Total Environ 2025;1010:181163",
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.181163",
+   "publisher": "Science of the Total Environment, PubMed 41364998",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Foraging behavior and sea ice-dependent factors affecting the bioaccumulation of mercury in Antarctic coastal waters. Sci Total Environ 2024;912:169557",
+   "url": "https://doi.org/10.1016/j.scitotenv.2023.169557",
+   "publisher": "Science of the Total Environment, PubMed 38141978",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Heavy metals in Antarctic notothenioid fish from South Bay, Livingston Island, South Shetlands (Antarctica). Biol Trace Elem Res 2011;141(1-3):150-8",
+   "url": "https://doi.org/10.1007/s12011-010-8739-5",
+   "publisher": "Biological Trace Element Research, PubMed 20571934",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Fingerprint of persistent organic pollutants in tissues of Antarctic notothenioid fish. Sci Total Environ 2014;499:89-98",
+   "url": "https://doi.org/10.1016/j.scitotenv.2014.08.033",
+   "publisher": "Science of the Total Environment, PubMed 25173865",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Presence and distribution of persistent toxic substances in sediments and marine organisms of Potter Cove, Antarctica. Arch Environ Contam Toxicol 2010;59(4):582-92",
+   "url": "https://doi.org/10.1007/s00244-010-9509-2",
+   "publisher": "Archives of Environmental Contamination and Toxicology, PubMed 20379707",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Concentrations of Thirteen Trace Metals in Scales of Three Nototheniid Fishes from Antarctica (James Ross Island, Antarctic Peninsula). Biol Trace Elem Res 2019;191(1):214-223",
+   "url": "https://doi.org/10.1007/s12011-018-1598-1",
+   "publisher": "Biological Trace Element Research, PubMed 30600496",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "First data on uranium uptake in three nototheniid fishes from Antarctica (James Ross Island). Chemosphere 2018;211:510-514",
+   "url": "https://doi.org/10.1016/j.chemosphere.2018.07.195",
+   "publisher": "Chemosphere, PubMed 30086527",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Comparison of fatty acid composition in nine organs of the sympatric Antarctic teleost fish species Notothenia coriiceps and Notothenia rossii (Perciformes: Nototheniidae). Comp Biochem Physiol B 2010;155(2):132-7",
+   "url": "https://doi.org/10.1016/j.cbpb.2009.10.012",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PubMed 19883785",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Hemoglobin from the antarctic fish Notothenia coriiceps neglecta. Amino acid sequence of the beta chain. Comp Biochem Physiol B 1990;96(2):367-73",
+   "url": "https://doi.org/10.1016/0305-0491(90)90390-f",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PubMed 2361365",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "An antifreeze glycopeptide gene from the antarctic cod Notothenia coriiceps neglecta encodes a polyprotein of high peptide copy number. Proc Natl Acad Sci USA 1990;87(23):9265-9",
+   "url": "https://doi.org/10.1073/pnas.87.23.9265",
+   "publisher": "PNAS, PubMed 2251271, PMC55145",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Molecular and comparative analyses of type IV antifreeze proteins (AFPIVs) from two Antarctic fishes, Pleuragramma antarcticum and Notothenia coriiceps. Comp Biochem Physiol B 2011;159(4):197-205",
+   "url": "https://doi.org/10.1016/j.cbpb.2011.04.006",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PubMed 21571089",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Thermal tolerance of Antarctic notothenioid fishes correlates with level of circulating hemoglobin. Physiol Biochem Zool 2011;84(4):353-62",
+   "url": "https://doi.org/10.1086/660191",
+   "publisher": "Physiological and Biochemical Zoology, PubMed 21743249",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Characterization of Two Antimicrobial Peptides from Antarctic Fishes (Notothenia coriiceps and Parachaenichthys charcoti). PLoS One 2017;12(1):e0170821",
+   "url": "https://doi.org/10.1371/journal.pone.0170821",
+   "publisher": "PLoS ONE, PubMed 28122029, PMC5266299",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Solution structure of MT_nc, a novel metallothionein from the Antarctic fish Notothenia coriiceps. Structure 2003;11(4):435-43",
+   "url": "https://doi.org/10.1016/s0969-2126(03)00044-3",
+   "publisher": "Structure, PubMed 12679021",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Antioxidant defense system and oxidative status in Antarctic fishes: The sluggish rockcod Notothenia coriiceps versus the active marbled notothen Notothenia rossii. J Therm Biol 2017;68:119-127",
+   "url": "https://doi.org/10.1016/j.jtherbio.2017.02.013",
+   "publisher": "Journal of Thermal Biology, PubMed 28689713",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Comparison of the parasite community of two notothens, Notothenia rossii and Notothenia coriiceps, from King George Island, Antarctica. J Helminthol 2019;93(6):732-737",
+   "url": "https://doi.org/10.1017/S0022149X18000858",
+   "publisher": "Journal of Helminthology, PubMed 30270818",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Recovery of Pseudoterranova decipiens (Anisakidae) larvae from codfish of the Antarctic Ocean. Korean J Parasitol 1995;33(3):231-4",
+   "url": "https://doi.org/10.3347/kjp.1995.33.3.231",
+   "publisher": "The Korean Journal of Parasitology, PubMed 8528631",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Dnajb5 From Antarctic Fish Reveals a Redox-Sensitive Mechanism Coordinating Muscle Regeneration via mTORC1 and HDAC4. J Cachexia Sarcopenia Muscle 2026;17(4):e70332",
+   "url": "https://doi.org/10.1002/jcsm.70332",
+   "publisher": "Journal of Cachexia, Sarcopenia and Muscle, PubMed 42434865, PMC13355398",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "The hypoxia response pathway in the Antarctic fish Notothenia coriiceps is functional despite a poly Q/E insertion mutation in HIF-1α. Comp Biochem Physiol D 2024;50:101218",
+   "url": "https://doi.org/10.1016/j.cbd.2024.101218",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PubMed 38412701, PMC11128347",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Mitochondrial membranes in cardiac muscle from Antarctic notothenioid fishes vary in phospholipid composition and membrane fluidity. Comp Biochem Physiol B 2019;235:46-53",
+   "url": "https://doi.org/10.1016/j.cbpb.2019.05.011",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PubMed 31176865, PMC10228150",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

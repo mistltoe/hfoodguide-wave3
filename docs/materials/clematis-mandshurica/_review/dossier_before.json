@@ -1,0 +1,488 @@
+{
+ "slug": "clematis-mandshurica",
+ "name_ko": "으아리",
+ "name_en": "Manchurian clematis",
+ "scientific_name": "Clematis mandshurica Rupr. (Kew POWO 승인명 Clematis terniflora var. mandshurica (Rupr.) Ohwi)",
+ "aliases": [
+  "으아리잎",
+  "큰위령선",
+  "좀으아리",
+  "위령선(뿌리 약재명)",
+  "Clematis terniflora var. mandshurica",
+  "Manchurian clematis",
+  "Clematidis Radix(뿌리 약재)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "개요",
+   "body": "으아리는 미나리아재비과(Ranunculaceae) 으아리속(Clematis)의 덩굴성 여러해살이 식물로, 식약처 「식품원료 목록」에는 학명 Clematis mandshurica, 영문명 Manchurian clematis, 이명 '큰위령선'·'좀으아리'로 실려 있다[1]. 같은 목록에서 '으아리잎' 행은 상태가 '사용가능'이고 사용 조건은 '사용가능부위 : 잎'인 반면, 같은 학명의 '으아리뿌리' 행은 '사용불가'다[1]. 따라서 식품원료로 쓸 수 있는 것은 잎뿐이며, 이 자료는 잎을 중심으로 정리한다[1].\n\n으아리 연구의 대부분은 뿌리·뿌리줄기 약재인 위령선(威靈仙)의 트리테르펜 사포닌과 항염 작용을 다룬 것이다[13, 14, 16]. 한국 연구진은 뿌리를 약으로 쓰는 전통을 근거로 만든 에탄올 추출물이 생쥐 대식세포의 NO·PGE2 생성과 지연형 과민반응을 줄였다고 보고했고[17], 중국 연구진은 으아리 총 사포닌이 콜라겐 유도 관절염 쥐의 관절염 점수를 낮췄다고 보고했다(사포닌 원료 부위는 초록에 미기재)[24]. 위령선은 식약처 고시 「건강기능식품의 기준 및 규격」 [별표 5]의 '건강기능식품 제조에 사용할 수 없는 원료'에 올라 있다[3, 4]. 잎에 대해서는 잎 에탄올 추출물에서 캠페롤 배당체가 주 성분으로 확인되었고 세포·생쥐 실험에서 염증 지표를 낮춘 보고가 있다[5]. 잎 추출물과 개망초 잎 추출물을 1:1로 섞은 혼합물로 사람 72명을 4주 동안 시험한 연구가 하나 있으나 으아리 잎 단독 효과는 확인하지 못함[9]."
+  },
+  {
+   "key": "history",
+   "title": "역사·이용",
+   "body": "한 논문은 위령선이 여러 으아리속 식물의 뿌리와 뿌리줄기에서 나오며 중국약전과 동의보감에 진통·해열·항염 약으로 실려 있다고 정리했다[5]. 같은 논문은 C. terniflora var. mandshurica(으아리)가 한국에서 '으아리' 또는 '위령선'으로 불리고, 잎은 중국 약물 사전에 편도염·담석증·결막염 같은 염증성 질환에 쓰는 것으로 적혀 있다고 소개했다[5]. 다른 논문은 으아리를 '예로부터 식품 첨가물과 여러 질병의 치료제로 써 왔다'고 적었지만 근거 문헌은 따로 밝히지 않았다[8].\n\n현대에는 으아리를 포함한 세 약초(으아리·하눌타리·꿀풀) 정제 추출 복합제(연구 코드 SKI306X)가 무릎 골관절염 의약품으로 개발되어 2001년 위약 대조 시험과 2024년 3상 시험이 보고되었다[18, 19]. 이 복합제에 쓴 으아리 부위는 확인한 초록·전문에 적혀 있지 않았다[18, 19, 29]. 2020년 이후에는 국내 연구진이 재배한 으아리 잎을 원료로 한 혼합 추출물 연구가 이어졌다[6–9]. 한국에서 으아리 잎을 나물로 먹어 온 기록은 공공기관 자료로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "으아리는 미나리아재비과 아네모네족(Anemoneae)에 속하며, 으아리속은 전 세계에 약 355종(다른 논문은 약 300종)이 퍼져 있는 큰 속이다[5, 10]. 엽록체 유전체 논문은 이 종의 자생지를 중국·한국·몽골·러시아 극동으로 적었다[10]. 웹 검색 요약으로 확인한 Kew POWO 종 페이지는 이 식물을 C. terniflora var. mandshurica (Rupr.) Ohwi라는 변종 이름으로 받아들이고 원산지에 한국을 포함한다[26].\n\n중국에서는 이 식물의 어린잎에 기생하는 혹응애류(Eriophyidae) 두 신종이 기재되었으며, 이들은 잎을 심하게 말리고 물집처럼 부풀게 한다[11]. 한 국내 연구는 국립수목원에서 받은 표본(증거표본 번호 기재)을 썼고[5], 다른 연구는 화분용 배양토에서 6주 키운 식물의 잎을 수확해 썼다[6, 8]. 잎·꽃·열매의 형태 기재는 공공기관 원문으로 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·혼동 주의",
+   "body": "식약처 목록의 학명 표기는 행마다 다르다: 식품원료 행은 'Clematis mandshurica'로만, 건강기능식품 '위령선' 행은 'Clematis mandshurica Maximowicz'로 적고 이명 칸에 '으아리(Clematis mandshurica Ruprecht)'를 함께 둔다[1, 3]. 같은 목록에서 이름이 비슷한 참으아리뿌리(C. terniflora)·큰꽃으아리뿌리(C. patens)는 '사용불가'이고, 사위질빵(C. apiifolia)·할미밀망(C. trichotoma)·작은사위질빵(C. pierottii)·개버무리잎(C. serratifolia)도 모두 '사용불가'다[2]. 특히 사위질빵의 이명 칸에도 '위령선'이 있어 이름만으로 원료를 고르면 사용불가 식물과 섞일 수 있다[2].\n\n고시 [별표 5]의 위령선은 으아리뿐 아니라 큰꽃으아리·참으아리의 뿌리 약재를 함께 가리킨다[4]. 해외 학계는 으아리를 참으아리의 변종(C. terniflora var. mandshurica)으로 다루기도 하므로, 논문에서 학명이 다르게 적혀 있어도 같은 식물일 수 있다[5, 26]. 반대로 같은 속의 다른 종(예: C. flammula 지상부 정유)에서 나온 성분·독성 자료를 으아리 잎 자료로 옮기지 않는다[12, 27]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배·생태",
+   "body": "한 국내 연구진은 으아리를 상업용 화분 배양토에 완효성 비료를 주어 6주 동안 키운 뒤 잎을 수확했다[6, 8]. 다른 연구는 중국 지린농업대학 약초원에서 기른 개체의 생잎으로 유전체를 해독했다[10]. 2024년 잎 연구는 국립수목원에서 받은 재료 30 kg을 썼다[5].\n\n중국에서는 이 식물의 연한 잎에 혹응애류가 붙어 잎말림과 물집 모양 변형을 일으킨다는 보고가 있다[11]. 엽록체 유전체 논문은 그동안의 으아리 연구가 주로 재배 기술·화학 성분·약리 활성에 집중되었고 유전·분자 연구는 적었다고 정리했다[10]. 국내 재배 면적·생산량 통계는 통계청·농림축산식품부 특용작물 자료(로컬 파일)에서 확인하지 못함. 국내 지리적 표시 등록도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출",
+   "body": "2024년 잎 연구에서는 재료 30 kg을 갈아 에탄올로 70 °C에서 5시간씩 두 번 추출하고 여과·동결건조했으며, 건조 추출물 수율은 약 5.3%였다[5]. 이 추출물의 HPLC-DAD-MS 프로파일에서 캠페롤-3-O-루티노사이드가 가장 많았고 캠페롤-3-O-글루코사이드-7-O-람노사이드가 그다음 주 성분이었다[5].\n\n혼합 추출물 연구에서는 잎을 물로 씻어 50 °C에서 말린 뒤 1 mm 이하로 갈고, 잎 150 g을 7배량의 50% 에탄올로 1시간 추출한 뒤 2시간씩 두 번 환류 추출했다[6, 8]. 여과·농축해 만든 가루를 개망초 잎 추출물과 1:1로 섞었고, HPLC에서 클로로겐산과 스쿠텔라린이 주 성분으로 확인되었다[6]. 다만 두 성분이 으아리 잎과 개망초 잎 가운데 어느 쪽에서 왔는지는 원문에서 나누어 분석하지 않았다[6]. 뿌리 사포닌은 에틸아세테이트-n-부탄올-에탄올-0.05% TFA(5:10:2:20) 용매계의 고속역류크로마토그래피로 한 번에 순도 97% 이상으로 분리되었으나[25], 이는 식품에 쓸 수 없는 부위의 결과다[1]. 국내 식품·건강기능식품 생산실적에서 으아리 잎 원료는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전·분자",
+   "body": "중국 지린성 약초원 개체의 생잎으로 해독한 으아리 엽록체 유전체는 159,563 bp이며, 큰 단일복사 부위 79,360 bp, 작은 단일복사 부위 18,121 bp, 역반복 부위 31,041 bp 두 개로 이루어진다[10]. 유전자는 모두 132개로 단백질 암호 유전자 90개, tRNA 34개, rRNA 8개가 주석되었고 전체 GC 함량은 37.98%였다[10]. 부위별 GC 함량은 큰 단일복사 부위 36.3%, 작은 단일복사 부위 31.3%, 역반복 부위 42.1%였다[10].\n\n같은 논문의 최대우도 계통수(미나리아재비과 20종, 아네모네속을 외군으로 둠)에서 으아리는 아네모네족 안에 놓였고, 으아리속 안의 엽록체 분화가 크다고 보고되었다[10]. 계통수에서 가장 가까운 종의 이름은 확인한 전문 텍스트에 빠져 있어 확인하지 못함[10]. 핵 유전체 해독이나 잎 성분 생합성 유전자 연구는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 으아리는 잎만 식품원료로 쓸 수 있고 뿌리는 '사용불가'다[1]. 뿌리 약재인 위령선은 「건강기능식품의 기준 및 규격」 [별표 5]의 건강기능식품 제조에 사용할 수 없는 원료에 들어 있다[3, 4]. 뿌리에서 분리한 사포닌은 사람 암세포주에 낮은 μM 농도에서 증식 억제·세포독성을 보였는데[14, 15], 이는 식품으로 쓰지 않는 부위의 세포 실험 결과로 잎 섭취 안전성과는 별개다[1].\n\n으아리속 5분류군(중국 1종·호주 4분류군)의 프로토아네모닌을 비교한 연구에서는 잎 함량이 줄기·뿌리보다 높았지만, 초록에 측정 종이 적혀 있지 않아 으아리 잎의 프로토아네모닌 함량·자극성 자료는 확인하지 못함[12]. 잎 에탄올 추출물은 RAW 264.7 세포에서 1,000 μg/mL까지 생존율에 영향을 주지 않았다[5]. 으아리 잎·개망초 잎 혼합 추출물 하루 200 mg을 4주 먹은 사람 시험의 초록에는 이상반응 결과가 적혀 있지 않았다[9]. 사람에서 으아리 잎 단독 섭취의 안전성 자료, 알레르기, 임신·수유 중 안전성은 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Kaempferol 3-O-rutinoside",
+   "name_ko": "캠페롤-3-O-루티노사이드(니코티플로린)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물 HPLC 프로파일의 최대 성분(정량값 미보고)[5]",
+   "activity_ko": "잎 추출물의 대식세포 염증 매개체 억제 효과에 기여할 것으로 저자가 추정(세포·생쥐 결과)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-glucoside-7-O-rhamnoside",
+   "name_ko": "캠페롤-3-O-글루코사이드-7-O-람노사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물의 주 성분 가운데 하나(정량값 미보고)[5]",
+   "activity_ko": "잎 추출물 HPLC-MS 주 피크로 동정[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎(개망초 잎과의 1:1 혼합 추출물)",
+   "content_text": "혼합 추출물 HPLC(335 nm)의 주 성분, 정량값 미보고; 으아리 잎 유래 여부는 나누어 분석하지 않음[6]",
+   "activity_ko": "혼합물의 항산화 성분으로 제시(게르빌루스쥐 뇌허혈 실험)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Scutellarin",
+   "name_ko": "스쿠텔라린",
+   "class": "플라본 배당체",
+   "role": "bioactive",
+   "part": "잎(개망초 잎과의 1:1 혼합 추출물)",
+   "content_text": "혼합 추출물 HPLC(335 nm)의 주 성분, 정량값 미보고; 으아리 잎 유래 여부는 나누어 분석하지 않음[6]",
+   "activity_ko": "혼합물의 항산화 성분으로 제시(동물 실험)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Hederagenin",
+   "name_ko": "헤데라제닌",
+   "class": "올레아난형 트리테르펜",
+   "role": "bioactive",
+   "part": "뿌리(식품 사용불가 부위)",
+   "content_text": "뿌리의 주 활성 성분으로 기재(정량값 없음)[16]",
+   "activity_ko": "RAW 264.7 세포 염증 매개체 억제, 생쥐 카라기난 부종 감소 — 세포·동물 결과[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Clematomandshurica saponin A",
+   "name_ko": "클레마토만슈리카 사포닌 A",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리·뿌리줄기(식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[13]",
+   "activity_ko": "COX-2 억제 IC50 2.66 μM(효소·세포 수준)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Clematomandshurica saponin B",
+   "name_ko": "클레마토만슈리카 사포닌 B",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리·뿌리줄기(식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[13]",
+   "activity_ko": "COX-2 억제 IC50 2.58 μM(효소·세포 수준)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Mandshunoside A",
+   "name_ko": "만슈노사이드 A",
+   "class": "트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리·뿌리줄기(식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[15]",
+   "activity_ko": "대장암 세포주 HCT 116 IC50 2.1 μM, HT-29 IC50 3.7 μM — 세포 결과[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Mandshunoside H",
+   "name_ko": "만슈노사이드 H",
+   "class": "트리테르펜 사포닌(단일 당쇄)",
+   "role": "bioactive",
+   "part": "뿌리·뿌리줄기(식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[23]",
+   "activity_ko": "NO 생성 억제 IC50 8.3 μM(만슈노사이드 F는 12.7 μM) — 세포 결과[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "Clemomanshurinane C",
+   "name_ko": "클레모만슈리난 C",
+   "class": "리그난",
+   "role": "bioactive",
+   "part": "뿌리·뿌리줄기(식품 사용불가 부위)",
+   "content_text": "정량값 없음(새 화합물로 분리)[20]",
+   "activity_ko": "리폭시게나아제 중등도 억제 — 효소 결과[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "alpha-Viniferin",
+   "name_ko": "α-비니페린",
+   "class": "스틸벤 삼량체",
+   "role": "bioactive",
+   "part": "뿌리(MeSH 기준, 식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[21]",
+   "activity_ko": "BV2 미세아교세포 NO·PGE2 생성 억제 — 세포 결과[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "trans-Isoferulic acid",
+   "name_ko": "트랜스-이소페룰산",
+   "class": "하이드록시신남산",
+   "role": "bioactive",
+   "part": "뿌리(MeSH 기준, 식품 사용불가 부위)",
+   "content_text": "정량값 없음(분리 화합물)[22]",
+   "activity_ko": "BV2 세포 NO·PGE2 생성 억제, 세포독성 없음 — 세포 결과[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "alpha-L-Rhamnopyranosyl-(1->6)-beta-D-glucopyranosyl-3-indolecarbonate",
+   "name_ko": "인돌카보네이트 이당 배당체(RG3I)",
+   "class": "인돌 배당체",
+   "role": "bioactive",
+   "part": "확인하지 못함(초록에 부위 미기재)",
+   "content_text": "정량값 없음(분리 화합물)[28]",
+   "activity_ko": "BV2 세포 NO·PGE2 생성 억제 — 세포 결과[28]",
+   "source": [
+    28
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Kaempferol 3-O-rutinoside, kaempferol 3-O-glucoside-7-O-rhamnoside (profile)",
+   "compound_ko": "캠페롤 배당체 2종(프로파일)",
+   "part": "잎(국립수목원 재료) 에탄올 추출물",
+   "content": "두 성분이 주 피크로 확인됨; 함량 수치 미보고[5]",
+   "method": "HPLC-DAD-MS(단일 사중극자)",
+   "conditions": {
+    "instrument": "Agilent HP 1260 Infinity 액체크로마토그래프 + Agilent 6120 단일 사중극자 질량분석기, DAD",
+    "column": "Capcell Pak C18 (4.6 × 250 mm, 5 μm; Shiseido)",
+    "mobile_phase": "A: 0.1% 포름산, B: 아세토니트릴",
+    "gradient": "0분 B 20%, 60분 B 30%, 70분 B 60%, 100분 B 70%, 120분 B 20%(선형)",
+    "flow": "1 mL/min",
+    "temp": "실온",
+    "detection": "DAD 260–345 nm(2 nm 간격, 0.4초마다); MS 모세관 전압 3.2 kV, 콘 전압 27 V, 이온원 100 °C, 가스 600 L/h·40 °C, m/z 50–1000",
+    "injection": "10 μL",
+    "sample_prep": "재료 30 kg을 갈아 에탄올로 70 °C 5시간씩 2회 추출, 여과·동결건조(수율 약 5.3%)",
+    "standard": "자체 식물 데이터베이스·문헌 대조(머무름 시간·질량)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "으아리 잎 단독 추출물에서 확인된 주 성분이어서 잎 원료의 지표 후보가 된다; 정량·검증(직선성·검출한계·회수율)은 원문에 없음(전문 확인)[5]",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.1155/2024/6653893",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid, scutellarin",
+   "compound_ko": "클로로겐산·스쿠텔라린",
+   "part": "으아리 잎·개망초 잎 50% 에탄올 추출물 1:1 혼합물",
+   "content": "두 성분이 주 성분으로 확인됨; 함량 수치 미보고[6]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent 1260 Infinity II",
+    "column": "Supelco Discovery C18 (4.6 × 250 mm, 5 μm)",
+    "mobile_phase": "A: 인산 수용액, B: 메탄올",
+    "gradient": "0–5분 B 5%; 5–27분 5→30%; 27–47분 30→55%; 47–47.1분 55→100%; 47.1–52분 100%; 52–52.1분 100→5%; 52.1–55분 5%",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "UV 335 nm",
+    "injection": "0.5 μL",
+    "sample_prep": "시료·표준품을 50% 메탄올에 녹임",
+    "standard": "클로로겐산(머무름 시간 22.912분)·스쿠텔라린(37.770분) 표준품; 원문 결과 문단은 시료의 두 성분 머무름 시간을 모두 22.823분으로 적음(원문 그대로)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "혼합 추출물의 품질 확인용 주 성분으로 쓰였다; 두 원료를 나누어 분석하지 않아 으아리 잎만의 지표로 보기는 어렵다(전문 확인)[6]",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.3892/etm.2021.9614",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 으아리잎 행(학명 Clematis mandshurica, 이명 큰위령선·좀으아리, 영문 Manchurian clematis, 사용가능, 사용가능부위 잎)과 으아리뿌리 행(같은 학명, 사용불가); 2026-10-13 받은 원자료 대조",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)",
+   "accessed": "2026-10-13",
+   "n": 1
+  },
+  {
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 대조 행: 사위질빵(Clematis apiifolia, 이명에 '위령선', 전체, 사용불가), 참으아리뿌리(C. terniflora, 사용불가), 큰꽃으아리뿌리(C. patens, 사용불가), 할미밀망(C. trichotoma, 사용불가), 작은사위질빵(C. pierottii, 사용불가), 개버무리잎(C. serratifolia, 사용불가)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)",
+   "accessed": "2026-10-13",
+   "n": 2
+  },
+  {
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 건강기능식품(C코드) '위령선' 행(학명 Clematis mandshurica Maximowicz, 영문 Clematidis Radix, 이명 으아리·큰꽃으아리·참으아리, '건강기능식품 제조에 사용할 수 없는 원료', 사용불가)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)",
+   "accessed": "2026-10-13",
+   "n": 3
+  },
+  {
+   "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 [별표 5] 건강기능식품 제조에 사용할 수 없는 원료 — 위령선(威靈仙): Clematis mandshurica Maximowicz, Clematidis Radix, 으아리(Clematis mandshurica Ruprecht)·큰꽃으아리(C. patens)·참으아리(C. terniflora) (로컬 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt)",
+   "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13",
+   "n": 4
+  },
+  {
+   "title": "Anti-Inflammatory Effects of Clematis terniflora var. mandshurica Leaf on Lipopolysaccharide-Induced Acute Lung Injury. Evid Based Complement Alternat Med 2024;2024:6653893 (PMID 38230250, PMC10791263, 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38230250/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (Hindawi/Wiley)",
+   "accessed": "2026-11-02",
+   "n": 5
+  },
+  {
+   "title": "Experimental pretreatment with YES-10, a plant extract rich in scutellarin and chlorogenic acid, protects hippocampal neurons from ischemia/reperfusion injury via antioxidant role. Exp Ther Med 2021;21(3):209 (PMID 33488792, PMC7812581, 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33488792/",
+   "publisher": "Experimental and Therapeutic Medicine (Spandidos)",
+   "accessed": "2026-11-02",
+   "n": 6
+  },
+  {
+   "title": "YES-10, a combination of extracts from Clematis mandshurica Rupr. and Erigeron annuus (L.) Pers., prevents ischemic brain injury in a gerbil model of transient forebrain ischemia. Plants (Basel) 2020;9(2):154 (PMID 31991860, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31991860/",
+   "publisher": "Plants (MDPI)",
+   "accessed": "2026-11-02",
+   "n": 7
+  },
+  {
+   "title": "Anti-stress effects of Fameyes in in vitro and in vivo models of stresses. Lab Anim Res 2022;38(1):37 (PMID 36471422, PMC9724292, 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36471422/",
+   "publisher": "Laboratory Animal Research (BMC)",
+   "accessed": "2026-11-02",
+   "n": 8
+  },
+  {
+   "title": "YES-10 improves stress, tension, and fatigue by reducing cortisol and IL-6 levels. J Med Food 2022;25(2):205-212 (PMID 35148195, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35148195/",
+   "publisher": "Journal of Medicinal Food",
+   "accessed": "2026-11-02",
+   "n": 9
+  },
+  {
+   "title": "Complete chloroplast genome characterization and phylogenetic analysis of Clematis mandshurica (Ranunculaceae). Mitochondrial DNA B Resour 2022;7(5) (PMID 35573590, PMC9103393, 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35573590/",
+   "publisher": "Mitochondrial DNA Part B (Taylor & Francis)",
+   "accessed": "2026-11-02",
+   "n": 10
+  },
+  {
+   "title": "Two new eriophyid mite species associated with Clematis terniflora var. mandshurica in China (Acari, Eriophyidae). ZooKeys 2016;(621):1-14 (PMID 27833416, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27833416/",
+   "publisher": "ZooKeys (Pensoft)",
+   "accessed": "2026-11-02",
+   "n": 11
+  },
+  {
+   "title": "Protoanemonin content variation between Clematis spp.: leaf, stem and root. Nat Prod Commun 2013;8(2):211-2 (PMID 23513731, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23513731/",
+   "publisher": "Natural Product Communications",
+   "accessed": "2026-11-02",
+   "n": 12
+  },
+  {
+   "title": "Triterpene saponins from Clematis mandshurica. J Nat Prod 2006;69(11):1591-5 (PMID 17125227, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17125227/",
+   "publisher": "Journal of Natural Products (ACS)",
+   "accessed": "2026-11-02",
+   "n": 13
+  },
+  {
+   "title": "Triterpene saponins from Clematis mandshurica and their antiproliferative activity. Planta Med 2013;79(11):987-94 (PMID 23804038, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23804038/",
+   "publisher": "Planta Medica (Thieme)",
+   "accessed": "2026-11-02",
+   "n": 14
+  },
+  {
+   "title": "Cytotoxic triterpene saponins from Clematis mandshurica. J Asian Nat Prod Res 2011;13(12):1104-9 (PMID 22115034, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22115034/",
+   "publisher": "Journal of Asian Natural Products Research",
+   "accessed": "2026-11-02",
+   "n": 15
+  },
+  {
+   "title": "Hederagenin, a major component of Clematis mandshurica Ruprecht root, attenuates inflammatory responses in RAW 264.7 cells and in mice. Int Immunopharmacol 2015 (PMID 26481049, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26481049/",
+   "publisher": "International Immunopharmacology (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 16
+  },
+  {
+   "title": "Anti-inflammatory effects of an ethanolic extract from Clematis mandshurica Rupr. J Ethnopharmacol 2006;108(1):142-7 (PMID 16787723, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16787723/",
+   "publisher": "Journal of Ethnopharmacology (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 17
+  },
+  {
+   "title": "Effect of SKI 306X, a new herbal anti-arthritic agent, in patients with osteoarthritis of the knee: a double-blind placebo controlled study. Am J Chin Med 2001;29(3-4):485-91 (PMID 11789591, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11789591/",
+   "publisher": "The American Journal of Chinese Medicine",
+   "accessed": "2026-11-02",
+   "n": 18
+  },
+  {
+   "title": "Efficacy and safety of SKCPT in patients with knee osteoarthritis: a multicenter, randomized, double-blinded, active-controlled phase III clinical trial. J Ethnopharmacol 2024;337(Pt 2):118843 (PMID 39303963, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39303963/",
+   "publisher": "Journal of Ethnopharmacology (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 19
+  },
+  {
+   "title": "Lipoxygenase-inhibiting lignans from Clematis mandshurica. J Asian Nat Prod Res 2016 (PMID 27802774, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27802774/",
+   "publisher": "Journal of Asian Natural Products Research",
+   "accessed": "2026-11-02",
+   "n": 20
+  },
+  {
+   "title": "Anti-inflammatory mechanism of α-viniferin regulates lipopolysaccharide-induced release of proinflammatory mediators in BV2 microglial cells. Cell Immunol 2014;290(1):21-9 (MeSH 'Plant Roots') (PMID 24859013, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24859013/",
+   "publisher": "Cellular Immunology (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 21
+  },
+  {
+   "title": "Downregulation of NO and PGE2 in LPS-stimulated BV2 microglial cells by trans-isoferulic acid via suppression of PI3K/Akt-dependent NF-κB and activation of Nrf2-mediated HO-1. Int Immunopharmacol 2014;18(1):203-11 (MeSH 'Plant Roots') (PMID 24291391, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24291391/",
+   "publisher": "International Immunopharmacology (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 22
+  },
+  {
+   "title": "Novel triterpene saponins isolated from Clematis mandshurica and their inhibitory activities on NO production. Chin J Nat Med 2018 (PMID 29455728, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29455728/",
+   "publisher": "Chinese Journal of Natural Medicines",
+   "accessed": "2026-11-02",
+   "n": 23
+  },
+  {
+   "title": "Saponins from Clematis mandshurica Rupr. regulates gut microbiota and its metabolites during alleviation of collagen-induced arthritis in rats. Pharmacol Res 2019;149:104459 (PMID 31541689, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31541689/",
+   "publisher": "Pharmacological Research (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 24
+  },
+  {
+   "title": "Preparative isolation and purification of triterpene saponins from Clematis mandshurica by high-speed counter-current chromatography coupled with evaporative light scattering detection. J Chromatogr B 2007;852(1-2):679-83 (PMID 17442637, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17442637/",
+   "publisher": "Journal of Chromatography B (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 25
+  },
+  {
+   "title": "Clematis terniflora var. mandshurica (Rupr.) Ohwi — Plants of the World Online 종 페이지(직접 열지 못함; 웹 검색 결과 요약으로만 확인: 승인명·원산지에 한국 포함)",
+   "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77250055-1",
+   "publisher": "Royal Botanic Gardens, Kew (POWO)",
+   "accessed": "2026-11-02",
+   "n": 26
+  },
+  {
+   "title": "Tunisian Clematis flammula essential oil enhances wound healing: GC-MS analysis, biochemical and histological assessment. J Oleo Sci 2018;67(11):1483-1499 (PMID 30404969, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30404969/",
+   "publisher": "Journal of Oleo Science",
+   "accessed": "2026-11-02",
+   "n": 27
+  },
+  {
+   "title": "Potential chemoprevention of LPS-stimulated nitric oxide and prostaglandin E2 production by α-L-rhamnopyranosyl-(1→6)-β-D-glucopyranosyl-3-indolecarbonate in BV2 microglial cells. Neurochem Int 2014;67:39-45 (PMID 24486459, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24486459/",
+   "publisher": "Neurochemistry International (Elsevier)",
+   "accessed": "2026-11-02",
+   "n": 28
+  },
+  {
+   "title": "Analgesic effect of SKI306X on chronic postischemic pain and spinal nerve ligation-induced neuropathic pain in mice. Biomedicines 2024;12(7):1379 (PMID 39061952, PMC11274297, 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39061952/",
+   "publisher": "Biomedicines (MDPI)",
+   "accessed": "2026-11-02",
+   "n": 29
+  }
+ ]
+}

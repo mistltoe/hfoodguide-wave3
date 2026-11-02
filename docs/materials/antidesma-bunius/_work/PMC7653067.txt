@@ -1,0 +1,177 @@
+1
+
+Introduction
+
+Over the past several decades, the prevalence of dyslipidemia is dramatically increasing as a result of excessive consumption of high fat diets together with low physical activity []. Dyslipidemia is one of the modifiable risk factors for development of insulin resistance, stroke and cardiovascular diseases []. Current data suggest that treating abnormal blood lipids by pharmacological agents are important therapeutic priorities for reducing risk of vascular events []. Nowadays, using lipid-lowering drugs in conjunction with dietary and behavior exercise has been shown to be an effective strategy for the management of dyslipidemia []. However, these drugs may cause adverse effects such as myopathy, hepatotoxicity, gastrointestinal disorders []. Therefore, there is now growing evidence that polyphenol-rich natural plants are an alternative source for treatment of dyslipidemia due to their health benefits with less side effects [].
+
+Anthocyanins, a subclass of polyphenol family, are responsible for red and purple pigment in fruits and vegetables. Previous studies demonstrated that anthocyanin-rich fruits improve lipid metabolism disorders in rats [,,]. Especially, berries, the excellent source of anthocyanins, were shown to have favorable effects on reduction of blood glucose and lipid profiles in the subjects [,]. Today, berries includingL. (Thai plum or Luknhai),(L.)(Mamao),(L.)(Lukwha), andA. Cunn. Ex DC (Makiang) are widely grown and distributed in many provinces of Thailand. The phytochemical compounds identified in the ripe pulp of Thai berries are mainly anthocyanins including cyanidin and its derivatives [,,,]. In food manufacturing, their pulps are usually used as a raw material for dried-fruit snack, jam, soft-drink, and wine. In addition, Thai berries have been found to possess pharmacological activities such as antioxidant [,,,] and anti-diabetic activity [,]. However, scientific evidence regarding the antihyperlipidemic activity of anthocyanin-rich Thai berries on the key steps of lipid digestion and absorption remains unknown. Hence, the aim of this study was to determine the effect of anthocyanin-rich fraction from Thai berry extracts includingL. (TPE),(L.)(MME),(L.)(LWE), andA. Cunn. Ex DC (MKE) on the inhibition of pancreatic lipase, cholesterol esterase, binding bile acids and the interfere of cholesterol micellization and cholesterol uptake into Caco-2 cells.
+
+2
+
+Material and methods
+
+2.1
+
+Chemicals
+
+-Nitrophenylbutylrate (-NPB), oleic acid, lipase from porcine pancreas type II, 4-methylumbelliferyl (4-MUO), phosphatidylcholine, taurocholic acid, glycodeoxycholic acid, taurodeoxycholic acid, and porcine cholesterol esterase were purchased from Sigma-Aldrich (St. Louis, MO, USA). Cholesterol test kit was purchased from HUMAN GmbH Co. (Wiesbaden, Germany). A total bile acid test kit was purchased from GenWay Biotech Inc. (San Diego, CA, USA). High and low-glucose Dulbecco's modified Eagle medium (DMEM), non-essential amino acids, and fetal bovine serum (FBS) were purchased from Hyclone Laboratories (South Logan, Utah, USA). 22-(N–N7-nitrobenz-2-oxa-1, 3-diazol-4-yl) amino)-23, 24-bisnor-5-cholen-3-ol (NBD-cholesterol) was obtained from Invitrogen (Eugene, OR, USA).
+
+2.2
+
+The preparation and extraction of Thai berries
+
+The ripe fruit of Thai berries (L.,(L.),(L.), andA. Cunn. Ex DC) were collected from Maehongsorn, Sakonnakhon, Lumpang, and Phrae provinces, respectively. They were authenticated by a taxonomist at Department of Botany, Faculty of Science, Chulalongkorn University, Thailand (Voucher specimen: BCU015912 (L.), BCU015866 ((L.)), BCU015910 ((L.) Skeels), and BCU015918 (A. Cunn)). The pulp of samples (100 g) was separately blended with 200 mL of distilled water twice and filtered through cheesecloth. Thereafter, the aqueous solution was centrifuged at 4000 rpm for 5 min at 4 °C to remove residues before re-filtered under vacuum through Whatman No.1 filter paper. The extract solution was frozen at -20 °C, and further lyophilized at -40 °C with 0.5 psi for 48 h. The isolation of anthocyanin fraction was prepared by using Csolid-phase extraction (Stratar C-E, 6 g capacity: Phenomenex Ltd., Macclesfield, UK) according to previous studies [,]. Briefly, the extract solution was dissolved in distilled water. Then, Ccartridges were preconditioned with 0.2% (v/v) formic acid in acetonitrile and 0.2% (v/v) formic acid in distilled water sequentially. The extract solution was eluted through the preconditioned Ccolumn and washed with 0.2% (v/v) formic acid in distilled water. Finally, the absorbed compounds were eluted by 80% acetonitrile in distilled water. The eluents were dried under the rotary evaporator at 50 °C, pressure gradient with 600 for 15 min. The dried extract was kept at -20 °C until use.
+
+2.3
+
+Determination of total phenolics content
+
+The content of total phenolic was determined using the Folin-Ciocalteu method as described in the previous report []. The anthocyanin-rich extracts (0.125–0.250 mg) were dissolved in distilled water (1 mL). The solution (50 μL) was mixed with 50 μL Folin-Ciocalteu reagent (1:10). After 5 min of incubation at room temperature, 10% (w/v) NaCO(50 μL) was added and then incubated for 30 min at room temperature. The absorbance was measured at 760 nm. Gallic acid (0–80 μg/mL) was used as a standard.
+
+2.4
+
+Determination of total flavonoids content
+
+The content of total flavonoid was performed by a colorimetric assay as a previously described method with minor modifications []. The anthocyanin-rich extracts (0.25–0.50 mg/mL) were dissolved in distilled water. Then, the extracts (50 μL) were mixed with 50 μL of 5% (w/v) NaNOand incubated for 5 min at room temperature before adding 30 μL of 2% (w/v) AlCl. The reaction was incubated for 5 min at room temperature. After addition with 20 μL of 1 M NaOH for 5 min, the absorbance was determined at 510 nm. Catechin (0–200 μg/mL) was used as a standard.
+
+2.5
+
+Determination of total anthocyanin content
+
+The content of total anthocyanins was determined by pH differential method following a previous study []. The aqueous extract (500 μL) was mixed with 500 μL of different buffers including 0.025 M potassium chloride (KCl, pH 1.0) buffer and 0.4 M sodium acetate (CHCOONa, pH 4.5) buffer. The mixture was kept in dark area for 20 min at room temperature. The absorbance was measured at 510 and 700 nm and calculated by following equation: A = (Abs– Abs)– (Abs– Abs). The content of TA was expressed as mg of cyanidin-3-glucoside per g of extract.
+
+2.6
+
+Determination of pancreatic lipase activity
+
+The assay of pancreatic lipase was performed following the method of Mäkynen et al. []. The porcine pancreatic lipase (7.5 mg/mL) and 0.2 mM 4-MUO were prepared in 0.1 M PBS, pH 7.0, whereas the extracts were dissolved in distilled water with various concentration. To determine the lipase activity, the solution of anthocyanin-rich extract (5 μL) was mixed with 50 μL of 4-MUO solution. Then, the enzyme solution (45 μL) was added to the mixture in order to initiate the reaction. The mixture was immediately incubated at 37 °C for 20 min before adding 100 μL of 0.1 M sodium citrate (pH 4.2) to stop the reaction. The absorbance of fluorescence was read at the excitation wavelength of 355 nm and the emission wavelength of 460 nm. Orlistat in 1% DMSO was used as a positive control.
+
+2.7
+
+Determination of cholesterol esterase activity
+
+Th assay of cholesterol esterase was performed according to the method of Mäkynen et al. []. The anthocyanin-rich extract dissolved in distilled water (5 μL) was mixed with 150 μL of 100 mM PBS (100 mM NaCl, pH 7.0) containing 0.2 mM-NPB and 5.16 mM taurocholic acid. After incubation with 45 μL of cholesterol esterase solution (0.125 μg/mL) for 20 min at room temperature, the absorbance of the mixture (200 μL) was immediately measured at 405 nm.
+
+2.8
+
+Determination of bile acid binding
+
+The assay of bile acid binding was done according to a previous report []. Taurocholic acid (TCA), glycodeoxycholic acid (GDA), and taurodeoxycholic acid (TDA) were used in this experiment. In brief, 20 μL of the anthocyanin-rich extract dissolved in distilled water (1 mg/mL) was incubated with 180 μL of 2 mM bile acid in 0.1 M PBS, pH 7.4 for 90 min at 37 °C. The mixture (200 μL) was centrifuged at 5000 rpm for 5 min. The supernatant was analyzed using a bile acid analysis kit. Cholestyramine (1 mg/mL) was used as a positive control. The absorbance was read at 540 nm using a microplate reader at 37 °C. The results were expressed as the percentage of bile acid binding.
+
+2.9
+
+Determination of cholesterol micellization
+
+The preparation of artificial micelle solution was performed according to a previously described method []. The solution containing 2 mM cholesterol, 1 mM oleic acid, and 2.4 mM phosphatidylcholine was completely dissolved in methanol and then dried under nitrogen gas. After adding 15 mM PBS (containing 6.6 mM taurocholate acid, pH 7.4), the suspension was sonicated twice using a sonicator for 20 min. The micelle solution was dropped in the incubator at 37 °C overnight. Thereafter, 20 μL of anthocyanin-rich extract was mixed with the micelle solution and incubated for 2 h at 37 °C. Finally, 200 μL of the mixture was then centrifuged at 10,000 rpm for 20 min. The supernatant was collected for determining free cholesterol using total cholesterol test kits. After incubation for 10 min at room temperature, the absorbance was measured at 500 nm. Gallic acid was used as a positive control.
+
+2.10
+
+Caco-2 cell culture
+
+Caco-2 cells were purchased from American Tissue Culture Collection (ATCC). Cells used in this study were at the passage number from 30 to 50. They were maintained in high glucose Dulbecco's Modified Eagle's Medium (DMEM) containing 10% fetal bovine serum, 1% penicillin/streptomycin, and 1% non-essential amino acids at 37 °C in a 90% humidified incubator with 5% CO. Cells at 80% confluence were seeded for the experiments.
+
+2.11
+
+Cell viability assay
+
+The viability of Caco-2 cells was assessed using (3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) or MTT assay []. Cells were seeded in 96-well plates at a density of 1 × 10cells/mL. They were grown for 48 h before cells were treated with various concentration of TPE (0.10, 0.25, 0.50, and 1.00 mg/mL) for 2 h at 37 °C in an incubator with 90% humidified atmosphere containing 5% CO. The culture medium was used as the control. After the incubation, the supernatant was replaced with 100 μL of fresh serum free medium containing 0.5 mg/mL of MTT and incubated for 2.5 h at 37 °C. Then, the solution was substituted with DMSO in order to dissolve the purple formazan crystals. The absorbance was read at 570 nm.
+
+2.12
+
+Cholesterol uptake
+
+The cholesterol uptake assay was performed in Caco-2 cells according to a previous study [] with slight modification. Caco-2 cells (2.5 × 10cells/well) were seeded in a 24-well plate and cultured for 6–7 days for the differentiated period. Then, cells were starved in low-glucose DMEM for 24 h. After further starvation with Hanks' balanced salt solution (HBSS; containing 140 mM NaCl, 5 mM KCl, 1.2 mM NaHPO, 2 mM CaCl, 1.2 mM MgSO, 20 mM HEPES, and 0.2% BSA, pH 7.4) for 1 h, cells were treated with TPE (0.1–0.5 mg/mL) or ezetimibe (0.05–0.10 mg/mL), or combination of TPE and ezetimibe (0.05 mg/mL). The cholesterol uptake was started by adding 0.025 mM NBD-cholesterol in HBSS containing 0.5 mM taurocholic acid. After incubation at 37 °C for 1 h, cells were washed twice with cold HBSS. The fluorescent intensity was determined at an excitation wavelength of 485 nm and an emission wavelength of 535 nm. Cells were lysed by cold lysis buffer (10 mM Tris-HCl, 1% Triton-X-100, 1 mM EDTA, 0.1% SDS, pH 7.4). The determination of protein was done by BCA colorimetric assay using bovine serum albumin (BSA) as a standard.
+
+2.13
+
+Statistical analysis
+
+The results are expressed as mean ± SEM. Data were analyzed using one-way analysis of variance (ANOVA) followed by Duncan's multiple-range test. Correlation analysis was obtained by Pearson correlation test. The statistical significance was considered at p-value < 0.05 using SPSS statistics 16.0 (SPSS Inc., Chicago, IL., USA).
+
+3
+
+Results
+
+3.1
+
+Phytochemical contents of aqueous Thai berry extracts
+
+The results indemonstrate that TPE and MKE had the highest and lowest content of total phenolics and total flavonoids, respectively. In addition, the highest content of total anthocyanins was observed in TPE and MME.
+
+3.2
+
+Inhibitory effects of Thai berry extracts against pancreatic lipase and cholesterol esterase
+
+The ICvalues of Thai berry extracts against pancreatic lipase and cholesterol esterase are shown in. It was found that TPE and MME exhibited the highest inhibitory activity against pancreatic lipase and cholesterol esterase, respectively. The order of inhibitory activity was TPE > MME > MKE > LWE against pancreatic lipase and MME > MKE > TPE > LWE against pancreatic cholesterol esterase. However, all anthocyanin-rich fractions of Thai berries were less potent than orlistat (ICvalue = 1.8 μg/mL).
+
+3.3
+
+Bile acids binding of Thai berry extracts
+
+The percentage of bile acid binding of Thai berry extracts is presented in. It was found that all extracts (1 mg/mL) had the ability to bind taurocholic acid (TCA, 20.1–36.6%), taurodeoxycholic acid (TDA, 16.4–36.2%) and glycodeoxycholic acid (GDA, 27.9–32.2%). Interestingly, TPE had the highest ability to bind bile acids among all Thai berry extracts. Additionally, TPE exhibited greater binding efficacy to TCA and TDA than cholestyramine at the same concentration (1 mg/mL).
+
+3.4
+
+Effects of Thai berry extracts on cholesterol micellization
+
+As shown in, Thai berry extracts reduced the solubility of cholesterol in mixed micelles. Interestingly, TPE (0.03–0.25 mg/mL) showed the most effective extract to reduce cholesterol solubility in mixed micelles among all Thai berry extracts. The order of cholesterol micelle inhibition was TPE > MME > MKE = LWE at the highest concentration (0.25 mg/mL).
+
+3.5
+
+Correlation between activities of lipid digestion and absorption and phytochemicals in Thai berry extracts
+
+The results from Pearson's correlation coefficients between the variables are presented in. It was found that the percentage of binding of taurocholic acid (TCA) had the strongest positive correlation with total phenolic content (TP,= 0.777) and total anthocyanin content (TA,= 0.683). In addition, TP, TA and total flavonoid content (TF) also had the strong negative associations with the ICvalues of pancreatic lipase (= -0.899, -0.959 and -0.667, respectively). Moreover, a strong positive correlation was also found between TF (= 0.948) and the percentage inhibition of cholesterol micellization. The moderate negative correlation was found between TP (= -0.574) and TA (= -0.530) and the ICvalues of cholesterol esterase.
+
+3.6
+
+Effect of TPE on cell viability in Caco-2 cells
+
+In this study, TPE was chosen to study the inhibitory effect on the cholesterol uptake in Caco-2 cells because it had the highest content of phytochemical compounds and demonstrated the most effective lipid-lowering activity. In this study, TPE (0.1–1 mg/mL) were tested for cell cytotoxicity. As shown in, TPE at the maximum concentration of 1 mg/mL caused a significant reduction of cell viability (90.8 ± 2.1%) when compared to the control (0.1% DMSO). Therefore, the concentration of TPE at 0.10–0.50 mg/mL were selected for the cholesterol uptake assay into Caco-2 cells.
+
+3.7
+
+Effect of TPE on the uptake of cholesterol into Caco-2 cells
+
+As shown in, TPE (0.10, 0.25, and 0.5 mg/mL) significantly reduced the uptake of cholesterol into Caco-2 cells in a concentration-dependent manner (14.9–34.1%). At the concentration of 0.1 mg/mL, TPE was less potent than ezetimibe, a positive control in this assay. Furthermore, the combination of TPE (0.1 mg/mL, 14.9 ± 1.3%) and ezetimibe (0.05 mg/mL, 21.7 ± 0.2%) demonstrated additive inhibition on uptake of cholesterol into Caco-2 cells (37.7 ± 2.7%). This additive effect was the similar percentage inhibition as ezetimibe at concentration of 0.1 mg/mL (44.1 ± 3.0%).
+
+4
+
+Discussion
+
+Strong evidence revealed the lipid-lowering activity of anthocyanins in animal and human studies [,,]. Especially, the interfering key step of lipid digestion and absorption is one of the therapeutic options to improve hyperlipidemia []. For example, inhibition of pancreatic lipase and cholesterol esterase causes a delay in triglyceride and dietary cholesterol digestion into free fatty acid and free cholesterol, respectively [,]. Moreover, the decreased binding ability of bile acid could disrupt the formation of cholesterol micelles, leading to reduction of the cholesterol absorption into the small intestine []. This is the first study to show the effect of anthocyanin-rich fraction from Thai berry extract including(TPE),(MME),(LWE), and(MKE) on the key steps of lipid digestion and absorption. Especially, the fraction ofwas the highest effective extract on inhibition of pancreatic lipase, reduction of bile acid binding, and disruption of cholesterol micelle formation. We also found that the fraction ofexhibited the highest inhibition against pancreatic cholesterol esterase.
+
+Several studies support that lipid-lowering activity may be attributed, in part, to the presence of phytochemical compounds [,]. Our findings showed that phytochemical compounds were detected from the remaining fraction after removing organic acids and sugars. Interestingly, the fraction of Thai berry extracts had higher content of anthocyanins than previous studies of[,],[,],[], and[,]. In the current study, the correlations between phytochemical compounds in the extract and the lipid-lowering activity were also found. This finding is consistent with previous studies indicating a significant relationship between total flavonoid content in traditional Thai medical herbs and pancreatic lipase inhibition [,]. A study of green, black, and dark tea polyphenols demonstrated a significant positive correlation between phenolic compounds and the bile acid-binding ability []. Therefore, the present findings suggest that the interference with lipid digestion and absorption may be attributed to the content of phytochemical compounds in Thai berries. To evaluate the clinical benefits, human studies are needed to investigate the efficacy of Thai-berries consumption on postprandial lipid profiles.
+
+The cholesterol uptake is mediated by NPC1L1 protein transporter at brush border of the small intestine []. This study presented thatextract had the ability to reduce the cholesterol uptake into Caco-2 cells. Many studies reported that natural pigments from plant extracts interrupted the cholesterol uptake into Caco-2 cells such as curcumin [], black rice anthocyanins [], and riceberry rice []. Yao et al. reported that cyanidin-3-glucoside (C3G) and peonidin-3-glucoside (P3G) reduced cholesterol uptake into Caco-2 cells []. In addition, C3G and P3G are identified in the pulp of[]. It is suggested that these compounds may contribute to inhibit cholesterol uptake into Caco-2 cells. Interestingly, the combination ofand ezetimibe produced the additive inhibition of cholesterol uptake into Caco-2 cells. This effect may help to increase the efficacy of ezetimibe on the management of postprandial cholesterol. Previous studies revealed that the inhibitory effect of plant polyphenols on the cholesterol uptake might be due to the downregulation of NPC1L1 in Caco-2 cells [,,,]. The further study is needed to investigate the effect ofon the mRNA and protein expression of NPC1L1 in long-term period.
+
+5
+
+Conclusions
+
+The current study presents the effect of anthocyanin-rich fraction from Thai berry extracts including,,, andon the interference of key step of lipid digestion and absorption. The anthocyanin-rich fraction ofdemonstrates the most effective extract on inhibition of pancreatic lipase, binding of bile acids, reduction of the cholesterol micelle formation among all Thai berry extracts. In addition, the anthocyanin-rich fraction ofreduces the cholesterol uptake into Caco-2 cells. It also produces additive effect on inhibition of cholesterol uptake when combination with ezetimibe. These findings suggest that the anthocyanin-rich fraction from Thai berries could be promising natural sources for interfering the key steps of lipid digestion and cholesterol absorption.
+
+Declarations
+
+Author contribution statement
+
+S. Ngamukote and S. Adisakwattana: Conceived and designed the experiments; Analyzed and interpreted the data; Wrote the paper.
+
+N. Chamnansilpa: Conceived and designed the experiments; Performed the experiments; Analyzed and interpreted the data.
+
+P. Aksornchu: Performed the experiments.
+
+T. Thilavech: Analyzed and interpreted the data; Wrote the paper.
+
+K. Mäkynen and W. Dahlan: Contributed reagents, materials, analysis tools or data; Wrote the paper.
+
+Funding statement
+
+This work was supported by Grant for International Research Integration: Chula Research Scholar, and Grant for Join Funding (CU-GRS-62-04-37-01) and 90Anniversary, Ratchadaphiseksomphot Endowment Fund,.
+
+Declaration of interests statement
+
+The authors declare no conflict of interest.
+
+Additional information
+
+No additional information is available for this paper.
