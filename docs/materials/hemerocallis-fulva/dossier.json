@@ -1,0 +1,556 @@
+{
+ "slug": "hemerocallis-fulva",
+ "name_ko": "원추리",
+ "name_en": "Orange daylily",
+ "scientific_name": "Hemerocallis fulva L.",
+ "aliases": [
+  "넘나물",
+  "들원추리",
+  "큰겹원추리",
+  "겹첩넘나물",
+  "홑왕원추리",
+  "Orange daylily",
+  "Tawny daylily",
+  "Day lily",
+  "원추리꽃봉오리",
+  "원추리어린잎",
+  "원추리추출물",
+  "홑왕원추리어린잎"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "원추리(Hemerocallis fulva L.)는 식약처 「식품원료 목록」에 원추리꽃봉오리·원추리어린잎·원추리추출물과 홑왕원추리어린잎 4개 원료명으로 올라 있는 식물성 식품원료다[1]. 원추리꽃봉오리·어린잎·추출물 행의 사용 조건은 '사용가능부위 : 어린잎, 꽃봉오리'이고, 변종 H. fulva var. longituba를 함께 적은 홑왕원추리어린잎 행은 '사용가능부위 : 어린잎'이며, 네 행 모두 '사용가능' 원료다[1]. 목록의 별명은 넘나물·들원추리이고, 홑왕원추리어린잎 행에는 큰겹원추리·겹첩넘나물도 적혀 있다[1]. 따라서 식품원료로 쓸 수 있는 부위는 어린잎과 꽃봉오리이며, 뿌리는 이 목록의 사용 가능 부위에 없다[1].\n\n꽃은 대만과 동아시아에서 오랫동안 채소이자 약초로 쓰였다고 소개된다[2]. 꽃에는 루틴·카페오일퀸산 유도체·플라보노이드가, 잎에는 퀘르세틴 배당체·리그난 등이 보고되었다[2, 7, 8]. 꽃 물 추출물을 마신 성인의 수면의 질이 좋아졌다는 사람 연구가 하나 있으나 초록으로만 확인했다[2]. 항산화·항염 등 나머지 효과는 대부분 세포·동물 실험 결과다[3, 4, 10]. 국내 재배 면적·생산량과 국가표준식품성분표의 영양 성분 값은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사와 이용",
+   "body": "원추리 꽃은 대만과 동아시아에서 수천 년 동안 채소이자 약초로 쓰여 왔다고 소개된다[2]. 동아시아에서는 원추리속 식물을 음식과 전통 의약으로 오래 써 왔고, 잎은 염증과 황달 치료에 쓰였다고 한다[7]. 중국 식이요법에서는 원추리 꽃을 '금침화(金針花, Jīn Zhēn Huā)'라 부르며 마음을 진정시키는 데 썼다고 적은 연구가 있다[10]. 한국에서 채집한 원추리를 다룬 유전체 논문은 이 식물이 한국에서 지혈·요통·위통에 쓰인 약용식물이라고 적었다[11]. 대만에서는 꽃을 주로 국에 넣어 끓이거나 볶아서 먹는다[3].\n\n동남아시아 시장에서는 원추리(H. fulva)와 근연종 H. citrina, 잇꽃이 사프란(Crocus sativus 암술머리) 이름으로 유통될 수 있어, 네 종의 5S rRNA 간격 서열 차이를 판별 표지로 쓰자는 연구가 있다[31]. 1949년 『사이언스』에는 원추리속과 콜히친 중독의 관계를 다룬 짧은 글이 실렸다[19]. 이 글은 초록이 없어 내용은 확인하지 못함. 한국에서 '넘나물'로 먹어 온 역사와 이용 방식을 기록한 1차 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "원추리는 낮에 피는 '데이릴리(daylily)'의 대표 종으로, 붉은빛 또는 주황색 꽃이 피며 주로 낮에 활동하는 호랑나비류가 꽃가루를 옮긴다[15]. 자연 집단에서 원추리 꽃은 오전 4시 30분에서 7시 30분 사이에 피었고, 밤에 피는 근연종 H. citrina는 오후 4시 30분에서 8시 30분 사이에 피었다[14]. 두 종의 F1 잡종은 대부분 낮에 꽃을 피웠다[14]. 실험 배치에서 호랑나비류는 붉거나 주황색 꽃을, 박각시나방류는 노란 꽃을 골라 찾았고 향 방출량에 대한 뚜렷한 선호는 없었다[15].\n\n원추리를 씨받이 쪽으로 한 교배에서 H. citrina 꽃가루를 받으면 같은 종끼리 교배보다 꽃당 결실 종자가 32%(같은 지역)·77%(다른 지역) 적었다[16]. 꽃은 하루만 피고 시드는데, 이 노화 과정에 관여하는 NAC 전사인자 두 개가 확인되었다[27]. 염색체 연구에서 H. fulva var. Europa 등은 체세포 염색체 33개인 3배체였다[13]. 한국 자생 개체의 계절별 생육 특성과 꽃봉오리 수확 시기 자료는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "학명과 근연 분류군·이름 혼동",
+   "body": "식약처 목록에서 원추리 행의 학명은 Hemerocallis fulva L.와 변종 H. fulva var. maculata Baroni이고, 홑왕원추리어린잎 행은 H. fulva L.와 변종 H. fulva var. longituba (Miq.) Maxim.로 적혀 있다[1]. 같은 목록에는 왕원추리(H. fulva var. kwanso / H. disticha var. kwanso, 어린잎)·각시원추리(H. dumortieri)·애기원추리(H. minor, 어린잎·꽃)·골잎원추리(H. coreana)·큰원추리(H. middendorffii)·아우란티아카원추리(H. aurantiaca)가 따로 올라 있으므로, 이 자료는 그 종들을 다루지 않는다[1]. 목록 원자료에서 H. citrina 행은 찾지 못했다[1].\n\n근연종 H. citrina는 밤에 피는 노란 꽃으로 원추리와 개화 시간·꽃가루 매개자가 다르다[14, 15]. 아시아에서 꽃봉오리를 채소로 널리 먹는 종으로 소개된 것은 H. citrina(중국명 황화채)이며, 콜히친 관련 유전체 연구도 이 종을 대상으로 했다[18]. 잎 플라보노이드를 비교한 연구에서는 품종 8개 가운데 왕원추리(H. fulva var. kwanso) 잎 추출물의 총플라보노이드가 추출물 1 g당 39.26 mg RE(루틴 당량)로 가장 많았으나(나머지 7개는 원예 교잡 품종), 이는 별도 원료인 왕원추리의 값이다[1, 28]. 'kwanso'로도 불리는 변종 H. fulva var. sempervirens의 성분·수면 연구는 왕원추리(var. kwanso)나 본종 자료와 구분해야 한다[29, 30, 34]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생육 환경",
+   "body": "중국 산시성 타이항산맥의 야생 원추리 25개 유전형을 가뭄 처리한 연구에서 키·잎 크기는 줄고 엽록소·카로티노이드 함량은 대체로 늘었으며, 6개 유전형이 가뭄 저항성이 높은 무리로 분류되었다[22]. 같은 연구에서 가뭄 저항성은 염색체 배수성이나 꽃잎 수와 유의한 상관이 없었다[22]. 원추리는 염분에 강해 해안 조경에 알맞은 식물로 소개되며, 품종 'Autumn Red' 뿌리에서 해수 스트레스에 반응하는 MYB 전사인자 33개가 확인되었다[23]. 저온 처리에서는 마이크로RNA 26개가 늘고 30개가 줄었다[25].\n\n부유식 인공습지 실험에서는 원추리를 미나리 등과 섞어 심은 조합이 질소 제거율이 높고 순 온실가스 배출이 낮았다[33]. 인도에서는 잎에 심한 모자이크 증상을 보인 원추리에서 오이모자이크바이러스(CMV) 분리주가 나왔다[32]. 꽃밥 배양으로는 MS 배지에 수크로스 70 g/L 등을 넣었을 때 캘러스 유도율이 45.57%로 가장 높았고, 얻은 식물체 55개는 모두 2배체였다[24]. 대만 연구에 쓴 꽃은 화롄현 농가에서 여름에 산 것이었다[3]. 국내 원추리 재배 면적·생산량 통계와 꽃봉오리·어린잎 재배 기술 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록에 오른 원추리 원료는 꽃봉오리·어린잎과 그 추출물이다[1]. 대만 연구에서 꽃을 끓는 물 2 L 위 찜기에서 25분 찐 뒤 물 추출물을 만들자 총페놀산 1408 mg/100 g(갈산 당량), 총플라보노이드 1830 mg/100 g(퀘르세틴 당량, 건물 기준)으로, 같은 연구진이 보고한 생꽃 물 추출물(각 1109·1306 mg/100 g)보다 많았다[3]. 찐 꽃 추출물에는 카로티노이드 1528, 안토시아닌 1019, 트라이테르페노이드 2045 mg/100 g(건물 기준)도 있었다[3]. 생꽃의 물·에탄올 추출물에서는 페놀산 7종과 플라보노이드 7종이 각각 29–205, 41–273 mg/100 g 범위로 검출되었다[4].\n\n꽃을 열풍 건조한 것과 동결 건조한 것을 비교하면 동결 건조가 항산화 활성을 더 잘 보존했고, 에탄올이 물보다 항산화 성분을 더 잘 추출했다[5]. 꽃 추출물별 루틴 함량은 물 추출물 7.27 ppm, 에탄올 추출물 23.30 ppm이었다[2]. 네덜란드에서 들여온 원예 품종·변종 잎을 쓴 연구에서 잎 플라보노이드의 초음파 추출은 에탄올 70.6%, 용매비 43.9:1 mL/g, 61.7 °C가 최적 조건이었다[28]. 국내에서 원추리를 원료로 한 제품 생산실적과 건나물 가공 기준은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전·육종",
+   "body": "한국 용인의 식물원에서 얻은 원추리 잎으로 해독한 엽록체 유전체는 155,855 bp였고, 유전자 112개(단백질 암호 79·tRNA 29·rRNA 4)와 단순반복서열 58개가 있었다[11]. 중국 후베이성 시료로 해독한 엽록체 유전체는 156,059 bp로, 단백질 암호 유전자 87개·tRNA 38개·rRNA 8개가 주석되어 두 보고의 유전자 수가 다르다[12]. 계통 분석에서 원추리는 아스포델루스과(Asphodelaceae)의 알로에속과 가까웠다[11].\n\n원추리속 52개 분류군의 핵형 연구에서 H. fulva var. Europa 등은 3배체(2n=33)였다[13]. 원예 품종 'Golden Doll'을 쓴 데이릴리 유전체 분석에서 SWEET 당 수송체 유전자 19개가 확인되어 18개가 11개 염색체에 고르지 않게 분포했고(1개는 스캐폴드),, HfSWEET17을 담배에 과발현하자 내한성이 높아졌다[26]. 꽃 노화를 앞당기는 HfNAP1과 늦추는 HfNAC090이 확인되었다[27]. 꽃밥 배양으로 육종 기간을 줄이려는 연구도 있다[24]. 한국에서 일어난 독초 오인 사고를 줄이려고, 원추리와 생김새가 비슷한 독초 Veratrum maackii를 구별하는 종 특이 실시간 PCR 프라이머가 개발되었다[17]. 원추리 본종의 전장 유전체 조립 논문과 국내 등록 품종은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "원추리는 식약처 목록에서 어린잎과 꽃봉오리(홑왕원추리는 어린잎만)를 쓸 수 있는 '사용가능' 원료다[1]. 국내에서는 2013–2017년 생김새가 비슷한 식용·독성 식물을 혼동해 42명이 독초를 먹었고, 원추리와 독초 Veratrum maackii는 이 연구가 다룬 혼동 쌍 세 개 중 하나였다[17]. 1949년 원추리속과 콜히친 중독을 다룬 글이 있으나 내용은 확인하지 못함[19]. 근연종 H. citrina의 유전체·대사체 연구는 콜히친과 그 전구체를 찾지 못했다고 보고했으나, 이는 원추리(H. fulva) 자료가 아니다[18]. 원추리 본종의 콜히친 함량을 직접 잰 자료와 식약처의 원추리 조리(데치기) 안내 원문은 확인하지 못함.\n\n이탈리아 식용 꽃 29종 조사에서 주황 원추리 꽃은 니켈 농도가 평균의 6배로 두드러졌으나, 저자들은 식용 꽃이 니켈 섭취에 기여하는 정도는 적다고 보았다[20]. 원추리속 식물은 고양이에게 신장 독성을 일으킬 수 있다[21]. 꽃 물 추출물의 사람 수면 연구에서 이상반응은 초록에 나오지 않았다[2]. 국내 공공기관의 원추리 알레르기·잔류농약 기준 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Rutin",
+   "name_ko": "루틴(퀘르세틴-3-루티노사이드)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "꽃",
+   "content_text": "꽃 추출물별 물 추출물 7.27 ppm, 에탄올 추출물 23.30 ppm, 에탄올 추출물의 에틸아세테이트 분획 14.71 ppm, 물 분획 57.43 ppm(HPLC)[2]",
+   "activity_ko": "꽃의 주요 플라보노이드로 소개되며 쥐 강제수영시험에서 항우울 유사 효과(동물 실험)[10]; 건조 꽃 추출물에서 HPLC로 확인되어 항산화 활성과 관련[5]",
+   "source": [
+    2,
+    5,
+    10
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "부위 불분명('밝은 주황' 원추리 시료; 논문은 '먹는 잎'으로 기재)",
+   "content_text": "1140.12 ± 86.86 μg/g(건물, 산가수분해 메탄올 추출물)[6]",
+   "activity_ko": "대만 토착 채소 27종 비교 연구의 정량 플라보놀; '녹색' 원추리 시료에서는 검출되지 않음[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Morin",
+   "name_ko": "모린",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "부위 불분명('밝은 주황' 원추리 시료; 논문은 '먹는 잎'으로 기재)",
+   "content_text": "3380.19 ± 337.42 μg/g(건물)[6]",
+   "activity_ko": "같은 시료에서 가장 많은 플라보놀; 27종 전체에서 모린은 DPPH IC50과 음의 상관[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Myricetin",
+   "name_ko": "미리세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "부위 불분명('밝은 주황' 원추리 시료; 논문은 '먹는 잎'으로 기재)",
+   "content_text": "1037.64 ± 49.69 μg/g(건물)[6]",
+   "activity_ko": "27종 중 상위권 함량(통계 그룹 ab)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "부위 불분명('밝은 주황' 원추리 시료; 논문은 '먹는 잎'으로 기재)",
+   "content_text": "142.89 ± 3.76 μg/g(건물)[6]",
+   "activity_ko": "27종 중 캠페롤이 검출된 8개 시료 중 하나[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Cyanidin",
+   "name_ko": "사이아니딘",
+   "class": "안토시아니딘",
+   "role": "bioactive",
+   "part": "부위 불분명('밝은 주황' 원추리 시료; 논문은 '먹는 잎'으로 기재)",
+   "content_text": "총안토시아니딘 60.97 ± 6.79 unit/g(건물); 사이아니딘 개별 값은 그림으로만 제시[6]",
+   "activity_ko": "사이아니딘·말비딘이 풍부한 6개 시료 중 하나[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "이소퀘르시트린(퀘르세틴-3-O-β-D-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎(생잎)",
+   "content_text": "",
+   "activity_ko": "50 μg/mL에서 지질 과산화 79.7% 억제(시험관)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Lariciresinol",
+   "name_ko": "라리시레시놀",
+   "class": "리그난",
+   "role": "bioactive",
+   "part": "잎(생잎)",
+   "content_text": "",
+   "activity_ko": "50 μg/mL에서 지질 과산화 90.1% 억제(시험관)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Roseoside",
+   "name_ko": "로세오사이드",
+   "class": "메가스티그만 배당체",
+   "role": "bioactive",
+   "part": "잎(생잎)",
+   "content_text": "",
+   "activity_ko": "50 μg/mL에서 지질 과산화 86.4% 억제(시험관); 잎에서 처음 분리[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Pinnatanine",
+   "name_ko": "피나타닌",
+   "class": "아미노산 아마이드(글루타민 유도체)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "",
+   "activity_ko": "잎 메탄올 추출물에서 분리[7]; 변종 var. sempervirens에서도 분리됨[29]",
+   "source": [
+    7,
+    29
+   ]
+  },
+  {
+   "name": "n-Butyl 4-trans-O-caffeoylquinate",
+   "name_ko": "n-뷰틸 4-trans-O-카페오일퀴네이트",
+   "class": "카페오일퀸산 유도체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "",
+   "activity_ko": "꽃에서 처음 분리된 새 천연물; 카페오일퀸산 유도체들이 HepG2 세포 ROS 억제의 주성분(세포 실험)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Stelladerol",
+   "name_ko": "스텔라데롤",
+   "class": "나프탈렌 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "",
+   "activity_ko": "꽃 수성 에탄올 추출물의 활성 분획에서 분리[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Jatropham",
+   "name_ko": "자트로팜((−)-5-하이드록시-3-메틸-3-피롤린-2-온)",
+   "class": "피롤 알칼로이드(락탐)",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "",
+   "activity_ko": "시험관 항보체 활성; 활성 화합물 3종의 CH50 0.61–1.42 mM[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Perlolyrine",
+   "name_ko": "펄롤리린",
+   "class": "β-카볼린 알칼로이드",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "",
+   "activity_ko": "시험관 항보체 활성을 보인 3종 중 하나[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "하이드록시벤조산",
+   "role": "bioactive",
+   "part": "꽃(건조)",
+   "content_text": "",
+   "activity_ko": "건조 꽃 추출물에서 루틴·(+)-카테킨과 함께 HPLC로 확인, 항산화 활성과 높은 관련[5]",
+   "source": [
+    5
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin",
+   "compound_ko": "퀘르세틴(미리세틴·모린·캠페롤 동시 정량)",
+   "part": "부위 불분명(타이베이 시장 구입 '밝은 주황' 원추리 시료, 동결건조 분말; 논문은 '먹는 잎'으로 기재)",
+   "content": "퀘르세틴 1140.12 ± 86.86, 미리세틴 1037.64 ± 49.69, 모린 3380.19 ± 337.42, 캠페롤 142.89 ± 3.76 μg/g(건물)[6]",
+   "method": "HPLC-PDA(산가수분해 후 플라보놀 아글리콘 정량)",
+   "conditions": {
+    "instrument": "Hitachi D-2000, 광다이오드배열 검출기 L-2455",
+    "column": "YMC ODS-A, 250 × 4.6 mm, 5 μm",
+    "mobile_phase": "아세토니트릴-물(30:70, v/v), 1% 인산 함유",
+    "gradient": "원문: 'The eluent was 100% in 30 min'(구체 기울기 미기재)",
+    "flow": "1.00 mL/min",
+    "temp": "",
+    "detection": "365 nm(플라보놀)",
+    "injection": "20 μL",
+    "sample_prep": "동결건조 분말 5 g을 BHT 0.4 g/L 함유 산성 메탄올(1.2 N HCl) 50 mL로 75 °C 5시간 환류 → Whatman No. 1 여과 → 감압 농축 → 산성 메탄올로 6 mL → 0.45 μm 여과",
+    "standard": "미리세틴·모린·퀘르세틴·캠페롤",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "토착 채소 27종의 항산화 성분을 같은 조건으로 비교한 연구에서 원추리 시료의 플라보놀을 정량했고, 플라보놀 총량은 ORAC 친수성 값과 강하게 상관했다(r = 0.87)[6]. 전문(PMC)에서 조건을 옮겼으며 칼럼 온도·직선성·검출한계·회수율은 전문에 없어 비워 둠. 논문은 시료를 '먹는 잎'으로 적었으나 '밝은 주황'으로 표기해 꽃일 가능성이 있어 부위는 확인하지 못함.",
+   "source": [
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042579/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴",
+   "part": "꽃",
+   "content": "물 추출물 7.27, 에탄올 추출물 23.30, 에틸아세테이트 분획 14.71, 물 분획 57.43 ppm[2]",
+   "method": "HPLC(정량)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "루틴은 원추리 꽃의 주요 플라보노이드로 소개되어 수면·항우울 연구에서 지표로 정량되었다[2, 10]. 초록만 확인해 분석 조건은 비워 둠(전문 확인 못함).",
+   "source": [
+    2,
+    10
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37929342/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 원추리꽃봉오리·원추리어린잎·원추리추출물(Hemerocallis fulva L. / H. fulva var. maculata Baroni)·홑왕원추리어린잎(H. fulva L. / H. fulva var. longituba (Miq.) Maxim.) 행 및 같은 속 각시원추리·애기원추리·골잎원추리·큰원추리·아우란티아카원추리·왕원추리 행(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "(2023) Daylily (Hemerocallis fulva Linn.) flowers improve sleep quality in human and reduce nitric oxide and interleukin-6 production in macrophages. Chin J Physiol 66(5):313-325. doi:10.4103/cjop.CJOP-D-23-00043. PMID 37929342",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37929342/",
+   "publisher": "Chinese Journal of Physiology (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "(2023) Steamed daylily flower (Hemerocallis fulva L.) protected cardiac and hepatic cells against ethanol induced apoptotic and oxidative damage. J Food Drug Anal 31(4):649-663. doi:10.38212/2224-6614.3485. PMID 38526821, PMC10962668",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962668/",
+   "publisher": "Journal of Food and Drug Analysis (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "(2018) Aqueous and Ethanol Extracts of Daylily Flower (Hemerocallis fulva L.) Protect HUVE Cells Against High Glucose. J Food Sci 83(5):1463-1469. doi:10.1111/1750-3841.14137. PMID 29693723",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29693723/",
+   "publisher": "Journal of Food Science (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "(2007) In vitro and vivo antioxidant activities of daylily flowers and the involvement of phenolic compounds. Asia Pac J Clin Nutr 16 Suppl 1:196-203. PMID 17392104",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17392104/",
+   "publisher": "Asia Pacific Journal of Clinical Nutrition (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "(2014) Antioxidant Activity in Extracts of 27 Indigenous Taiwanese Vegetables. Nutrients 6(5):2115-2130. doi:10.3390/nu6052115. PMID 24858497, PMC4042579",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042579/",
+   "publisher": "Nutrients (MDPI) (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "(2004) Lipid peroxidation inhibitory compounds from daylily (Hemerocallis fulva) leaves. Life Sci 75(6):753-763. doi:10.1016/j.lfs.2004.03.002. PMID 15172183",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15172183/",
+   "publisher": "Life Sciences (Elsevier) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "(2011) Antioxidative caffeoylquinic acids and flavonoids from Hemerocallis fulva flowers. J Agric Food Chem 59(16):8789-8795. doi:10.1021/jf201166b. PMID 21761841",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21761841/",
+   "publisher": "Journal of Agricultural and Food Chemistry (ACS) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "(2024) Fulvanines J-K, two rare lactam pyrrole alkaloids from Hemerocallis fulva. Chem Biodivers 21(2):e202301672. doi:10.1002/cbdv.202301672. PMID 38116924",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38116924/",
+   "publisher": "Chemistry & Biodiversity (Wiley) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "(2013) The Antidepressant-like Effect of Ethanol Extract of Daylily Flowers (Jīn Zhēn Huā) in Rats. J Tradit Complement Med 3(1):53-61. doi:10.4103/2225-4110.106548. PMID 24716156",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24716156/",
+   "publisher": "Journal of Traditional and Complementary Medicine (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "(2019) The complete chloroplast genome of Hemerocallis fulva (Asphodelaceae). Mitochondrial DNA B Resour 4(2). doi:10.1080/23802359.2019.1624214. PMID 33365473, PMC7687569",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7687569/",
+   "publisher": "Mitochondrial DNA Part B (Taylor & Francis) (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "(2020) The complete chloroplast genome sequence of Hemerocallis fulva L. Mitochondrial DNA B Resour 5(3). doi:10.1080/23802359.2020.1829126. PMID 33458234, PMC7782359",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7782359/",
+   "publisher": "Mitochondrial DNA Part B (Taylor & Francis) (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "(1976) Variation in karyotype in Hemerocallis. La Cellule 71(2):251-271. PMID 1052077",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1052077/",
+   "publisher": "La Cellule (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "(2005) Bimodal distribution of flowering time in a natural hybrid population of daylily (Hemerocallis fulva) and nightlily (Hemerocallis citrina). J Plant Res 119(1):63-68. doi:10.1007/s10265-005-0241-3. PMID 16365787",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16365787/",
+   "publisher": "Journal of Plant Research (Springer) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "(2012) Relative role of flower color and scent on pollinator attraction: experimental tests using F1 and F2 hybrids of daylily and nightlily. PLoS One 7(6):e39010. doi:10.1371/journal.pone.0039010. PMID 22720016",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22720016/",
+   "publisher": "PLoS ONE (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "(2006) Post-pollination reproductive isolation between diurnally and nocturnally flowering daylilies, Hemerocallis fulva and Hemerocallis citrina. J Plant Res. doi:10.1007/s10265-006-0028-1. PMID 16955375",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16955375/",
+   "publisher": "Journal of Plant Research (Springer) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "(2020) Development of molecular markers to distinguish between morphologically similar edible plants and poisonous plants using a real-time PCR assay. J Sci Food Agric 101(3):1030-1037. doi:10.1002/jsfa.10711. PMID 32767363",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32767363/",
+   "publisher": "Journal of the Science of Food and Agriculture (Wiley) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "(2021) The chromosome-level Hemerocallis citrina Borani genome provides new insights into the rutin biosynthesis and the lack of colchicine. Hortic Res 8:89. doi:10.1038/s41438-021-00539-6. PMID 33828071",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33828071/",
+   "publisher": "Horticulture Research (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "(1949) Colchicine poisoning in relation to Hemerocallis and some other plants. Science 110(2869):686. doi:10.1126/science.110.2869.686 (초록 없음, 제목만 확인). PMID 15396742",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15396742/",
+   "publisher": "Science (AAAS) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "(2020) Trace Elements in Edible Flowers from Italy: Further Insights into Health Benefits and Risks to Consumers. Molecules 25(12):2891. doi:10.3390/molecules25122891. PMID 32586028, PMC7355664",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7355664/",
+   "publisher": "Molecules (MDPI) (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "(2010) Lily toxicity in the cat. Top Companion Anim Med 25(4). doi:10.1053/j.tcam.2010.09.006. PMID 21147474",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21147474/",
+   "publisher": "Topics in Companion Animal Medicine (Elsevier) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "(2025) A comprehensive evaluation of drought resistance in Hemerocallis fulva L. using membership function and principal component analysis. Sci Rep. doi:10.1038/s41598-025-18700-9. PMID 41053355",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41053355/",
+   "publisher": "Scientific Reports (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "(2026) Identification and analysis of the MYB transcription factors against seawater tolerance in daylily (Hemerocallis fulva L.). Sci Rep. doi:10.1038/s41598-026-37856-6. PMID 41882024",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41882024/",
+   "publisher": "Scientific Reports (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "(2025) Effect of hormone concentration on callus induction and plant regeneration induced from daylily (Hemerocallis fulva) anther. Plant Methods. doi:10.1186/s13007-025-01469-3. PMID 41353339",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41353339/",
+   "publisher": "Plant Methods (BMC) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "(2014) Construction and significance analysis of the MicroRNA expression profile of Hemerocallis fulva at low temperature. Biosci Biotechnol Biochem. doi:10.1080/09168451.2014.878214. PMID 25036823",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25036823/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "(2022) Genome-wide identification and expression analysis of the SWEET gene family in daylily (Hemerocallis fulva) and functional analysis of HfSWEET17 in response to cold stress. BMC Plant Biol 22:211. doi:10.1186/s12870-022-03609-6. PMID 35468723",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35468723/",
+   "publisher": "BMC Plant Biology (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "(2023) Functional characterization of two NAC transcription factors HfNAP1 and HfNAC090 associated with flower programmed cell death in daylily (Hemerocallis fulva). Plant Sci. doi:10.1016/j.plantsci.2023.111872. PMID 37729968",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37729968/",
+   "publisher": "Plant Science (Elsevier) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "(2022) Study on Extraction and Antioxidant Activity of Flavonoids from Hemerocallis fulva (Daylily) Leaves. Molecules 27(9):2916. doi:10.3390/molecules27092916. PMID 35566266, PMC9104616",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9104616/",
+   "publisher": "Molecules (MDPI) (PMC 전문 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "(2009) N-glycosides of amino acid amides from Hemerocallis fulva var. sempervirens. Chem Pharm Bull 57(10):1110-1112. doi:10.1248/cpb.57.1110. PMID 19801868",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19801868/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "(1998) Effects of Hemerocallis on sleep in mice. Psychiatry Clin Neurosci 52(2):136-137. doi:10.1111/j.1440-1819.1998.tb00992.x. PMID 9628113",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9628113/",
+   "publisher": "Psychiatry and Clinical Neurosciences (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "(2001) Authentic identification of stigma Croci (stigma of Crocus sativus) from its adulterants by molecular genetic analysis. Planta Med. doi:10.1055/s-2001-11533. PMID 11301875",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11301875/",
+   "publisher": "Planta Medica (Thieme) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "(2015) Sequence analysis and genetic diversity of five new Indian isolates of cucumber mosaic virus. Acta Virol. doi:10.4149/av_2015_04_398. PMID 26666188",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26666188/",
+   "publisher": "Acta Virologica (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "(2024) Proper C/N ratio enhances the effect of plant diversity on nitrogen removal and greenhouse effect mitigation in floating constructed wetlands. Environ Sci Pollut Res. doi:10.1007/s11356-024-31985-z. PMID 38225493",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38225493/",
+   "publisher": "Environmental Science and Pollution Research (Springer) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "(2014) An evaluation of novel biological activity in a crude extract from Hemerocallis fulva L. var. sempervirens M. Hotta. Nat Prod Res. doi:10.1080/14786419.2014.919285. PMID 24854051",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24854051/",
+   "publisher": "Natural Product Research (Taylor & Francis) (PubMed 초록 확인(PubMed 도구))",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

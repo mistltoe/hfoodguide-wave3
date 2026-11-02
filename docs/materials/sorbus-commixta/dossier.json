@@ -1,0 +1,524 @@
+{
+ "slug": "sorbus-commixta",
+ "name_ko": "마가목",
+ "name_en": "Japanese rowan",
+ "scientific_name": "Sorbus commixta Hedl.",
+ "aliases": [
+  "은빛마가목",
+  "마가목열매",
+  "마가목나무껍질",
+  "Silvery mountain ash",
+  "Japanese rowan",
+  "Pyrus micrantha var. macrophylla Cardot",
+  "Sorbus aucuparia var. japonica Maxim."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "마가목(Sorbus commixta Hedl.)은 장미과(Rosaceae) 마가목속의 낙엽 활엽수로, 한국·일본·중국 등 동아시아에서 자라며 오래전부터 약용 식물로 쓰였다[5, 23]. 식품원료 목록에는 다른 이름 '은빛마가목', 영문명 'Silvery mountain ash'와 학명 이명 Pyrus micrantha var. macrophylla Cardot·Sorbus aucuparia var. japonica Maxim.이 함께 적혀 있다[1].\n\n식약처 「식품원료 목록」에서 마가목은 부위에 따라 지위가 다르다[1]. 마가목·마가목열매·마가목열매추출물은 '사용가능'이고 조건은 '사용가능부위 : 열매'이다[1]. 마가목나무껍질·마가목나무껍질분말·마가목나무껍질추출액은 '제한적사용'이고 조건은 '제한적사용가능부위 : 나무껍질'이다[1]. 복합원료 '마가목쇠무릅혼합추출액'도 마가목 나무껍질을 제한적사용 부위로 적은 '제한적사용' 원료다[2]. 잎·줄기(목재)·잔가지·씨앗만 따로 쓴 원료명은 이 목록의 마가목 행에서 확인하지 못함.\n\n성분 연구는 열매(카페산·클로로젠산·루틴·네오사쿠라닌)[5, 6, 7]와 줄기 껍질(루페올·루페논, 지방산, 페놀 배당체)[11, 14, 15]에서 주로 이루어졌다. 속껍질에는 시안배당체인 아미그달린·프루나신이 있어 조직이 상하면 시안화수소가 나온다는 보고가 있다[3, 4]. 보고된 효과는 대부분 세포·동물 실험 결과이며, 사람을 대상으로 한 임상시험은 확인하지 못함. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "마가목은 한국·중국·일본에서 전통적으로 쓰여 온 약용 식물로, 천식·기관지염·위염·부종 같은 염증성 증상에 처방되어 왔다고 논문들이 적고 있다[21]. 줄기 껍질(stem bark)도 천식·기관지염·위염·부종에 쓰였다고 소개된다[22]. 잔가지는 천식·기침 같은 기관지 질환에 수백 년 동안 귀하게 여겨졌다고 한다[23]. 열매는 기관지염과 위장 질환에 쓰였다고 보고된다[5].\n\n2005년에는 '마가목 피(Sorbus cortex)' 메탄올 추출물로 흰쥐 대동맥의 혈관 이완과 동맥경화 식이 흰쥐 실험이 보고되었다[18, 20]. 이후 줄기 껍질에서 루페올·루페논 같은 트리테르펜이 분리되었고[11], 2020년과 2024년에는 열매 추출물의 성분과 세포 활성이 보고되었다[5, 6]. 줄기 껍질(cortex) 메탄올 추출물의 에틸아세테이트 분획을 알코올 투여 30분 전에 150 mg/kg 투여한 흰쥐는 알코올 3.0 g/kg 투여 2시간 뒤 혈중 알코올 농도가 대조군보다 최대 46% 낮았다(동물)[17]. 줄기·잎 에탄올 추출물은 췌장 리파아제를 IC50 29.6 μg/mL로 억제했고(시험관)[24], 부위가 초록에 적혀 있지 않은 에탄올 추출물을 먹인 Aβ42 발현 초파리 알츠하이머 모델에서 생존·운동 저하가 줄었다(동물)[29]. 다만 이들 논문의 전통 이용 서술은 문헌 소개이며, 고전 의서 원문은 확인하지 못함. 마가목이라는 이름의 유래에 관한 공식 기관 자료도 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "마가목은 장미과 마가목속에 속하며, 아시아가 원산이고 유럽·북아메리카에서도 심어 기른다[9]. 자작나무·밤나무·뽕나무 등과 함께 한대 활엽수(boreal hardwood)의 하나로 연구되었고, 목부 유조직 세포가 깊은 과냉각으로 영하의 온도에 적응한다는 결과가 있다[26]. 이 논문은 영문명을 Japanese rowan으로 적었다[26].\n\n열매는 새가 먹어 씨앗을 퍼뜨린다[25]. 실험실에서 과육에 싸인 씨앗과 과즙을 묻힌 씨앗은 거의 싹트지 않았으나, 새가 먹고 배설한 씨앗과 손으로 과육을 벗긴 씨앗은 싹텄다[25]. 자연 상태에서는 과육이 남은 씨앗이 첫 여름에 활력을 잃어, 대부분 새가 먹지 않으면 발아하지 못한다고 결론지었다[25].\n\n나무껍질은 바깥 껍질과 속껍질로 나뉜다[4]. 같은 나무의 전체 껍질과 바깥 껍질 조각에서는 균주 41개(21개 분류군)가 분리되었으나 속껍질에서는 배양되는 균이 나오지 않았다[4]. 연구진은 속껍질의 시안배당체에서 나오는 시안화수소가 원인일 수 있다고 보면서도, 시료를 얼려 보관한 영향일 가능성도 함께 적었다[4]. 나무 높이·잎·꽃의 형태 수치는 공식 식물지 자료로 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 구별",
+   "body": "식품원료 목록에서 마가목(Sorbus commixta)의 학명 이명으로 Sorbus aucuparia var. japonica Maxim.이 함께 적혀 있다[1]. 그러나 대표명 'Mountain ash', 학명 'Pyrus Aucuparia [Sorbus Aucuparia]'인 원료는 같은 목록에서 '전체' 부위 '사용불가' 원료로 따로 올라 있다[2]. 또 Sorbus austriaca도 '사용불가'이다[2]. 따라서 S. aucuparia 열매나 그 성분 자료를 마가목 자료로 옮겨 쓰면 안 되며, 이 문서도 S. aucuparia 자료는 쓰지 않았다[1, 2].\n\n마가목속 12종의 잎을 비교한 연구에서 마가목 잎은 총항산화능 175.30 μmol TE/g DW로 가장 높았고, 네오클로로젠산과 클로로젠산이 주로 기여했다[10]. 이 연구는 종마다 성분·항산화 지문이 달라 원료 품질 평가에 쓸 수 있다고 보았다[10].\n\n울릉도에는 울릉마가목(Sorbus ulleungensis)이 새 고유종으로 기재되어 있다[28]. 이 종은 형태가 비슷해 원래 다른 종으로 다루어졌으나, 영양·생식 형질의 형태 계량 분석으로 구별되었다[28]. 원래 어느 종에 넣었는지는 전문 도구 출력에서 학명이 빠져 있어 1차 원문으로 확인하지 못함(마가목이었다는 서술은 검색 요약에만 있음). 울릉도에서 채집한 시료를 다룬 자료는 마가목과 울릉마가목 가운데 어느 종인지 확인할 필요가 있다[28]."
+  },
+  {
+   "key": "cultivation",
+   "title": "자생·재배와 원료 수급",
+   "body": "마가목은 약용·관상 가치가 높은 경제 수종으로 소개되며, 조직배양으로 묘를 늘리는 연구가 있다[27]. 이 연구에서 철을 FeSO4로 넣은 배지는 대조구보다 새순 수가 2.5배, 뿌리 수가 2배 많았고, 새순과 뿌리의 생체중·건물중은 Fe-EDTA와 pH 5.70 조합에서 가장 컸다[27]. 씨앗으로 기를 때는 과육이 발아를 막으므로 과육을 벗겨야 싹이 튼다[25].\n\n연구용 원료 출처를 보면 열매는 대학 연구림에서 수확하거나[5] 한약재 시장에서 구입했고[6], 줄기는 제약 업체에서 구입했다[8]. 국내 마가목 재배 면적·생산량 통계는 통계청·농식품부·산림청 자료로 확인하지 못함. 지리적 표시 등록도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "식품원료 목록에는 열매 원료로 마가목열매·마가목열매추출물이, 나무껍질 원료로 마가목나무껍질·마가목나무껍질분말·마가목나무껍질추출액이 올라 있다[1]. 마가목 나무껍질과 쇠무릎 뿌리를 섞은 '마가목쇠무릅혼합추출액'도 제한적사용 복합원료로 있다[2].\n\n연구에서 쓴 가공 방법을 보면, 열매 물 추출물은 2시간 끓여 거른 뒤 감압 농축·동결 건조했고, 에탄올 추출물은 70% 에탄올에 24시간씩 두 번 담가 얻었다[6]. 물 추출물의 카페산은 1.56 mg/g으로 70% 에탄올 추출물(0.55 mg/g)의 약 3배였다[6]. 다른 연구는 연구림에서 수확해 공기 건조한 열매 가루를 물, 물·에탄올 혼합액(25·50·75%) 또는 무수 에탄올에 24시간 담근 뒤 초음파로 추출하고, 에탄올 추출물을 헥산·에틸아세테이트·부탄올로 나누었다[5]. 말린 줄기는 30% 에탄올로 85 °C에서 3시간 환류 추출했고 수율은 4.97%였다[8]. 줄기는 식품원료 목록의 사용 부위(열매·나무껍질)로 적혀 있지 않다[1].\n\n식약처 「식품 등의 생산실적」에서 마가목 원료 제품의 생산 실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 분류",
+   "body": "마가목은 장미과 마가목속 식물이며, 식품원료 목록은 학명을 Sorbus commixta Hedl.로 적고 이명으로 Pyrus micrantha var. macrophylla Cardot와 Sorbus aucuparia var. japonica Maxim.을 함께 적었다[1]. 이명에 다른 종(S. aucuparia)의 변종 이름이 들어 있어 문헌 검색 때 유럽 마가목 자료가 섞이기 쉽다[1, 2].\n\n가까운 종인 울릉마가목의 엽록체 유전체는 159,632 bp, GC 함량 36.5%이며, 역반복 부위 26,402 bp 두 개와 큰 단일 부위 88,003 bp, 작은 단일 부위 18,824 bp로 이루어진다[28]. 이 연구의 계통수에서 마가목속은 단계통군으로 묶이지 않아 속의 계통 관계에 대한 추가 연구가 필요하다고 했다[28].\n\n마가목 자체의 엽록체·핵 유전체 해독 결과와 염색체 수는 PubMed에서 확인하지 못함. 마가목 잎이 마가목속 다른 종과 구별되는 성분 지문을 가진다는 보고는 있다[10]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 「식품원료 목록」에서 마가목 열매는 '사용가능'이고, 나무껍질은 '제한적사용'이다(조건 원문 '제한적사용가능부위 : 나무껍질')[1]. 목록 원자료의 나무껍질 세 행(마가목나무껍질·마가목나무껍질분말·마가목나무껍질추출액)은 모두 사용조건 '제한적사용', 부위 '나무껍질', 조건 원문 '제한적사용가능부위 : 나무껍질'뿐이고, 사용량·사용 형태 같은 구체적 제한 조건은 더 적혀 있지 않아 제한 내용의 세부는 확인하지 못함[1]. 복합원료 '마가목쇠무릅혼합추출액'의 조건 원문은 '마가목 제한적사용부위 : 나무껍질 / 쇠무릅 제한적사용부위 : 뿌리※(우슬)'이다[2]. 학명 'Pyrus Aucuparia [Sorbus Aucuparia]'(대표명 Mountain ash)는 같은 목록에서 '전체' 부위 '사용불가'이므로 마가목과 구별해야 한다[2].\n\n마가목 속껍질에는 시안배당체인 아미그달린과 프루나신이 들어 있다[3, 4]. 조직이 부서지면 β-글루코시데이스가 이들을 분해해 시안화수소(HCN)가 생기며, 동결 건조한 속껍질 조각과 살아 있는 나무 줄기에서 HCN이 검출되었다[3]. 속껍질의 아미그달린 함량은 정량되었다고 초록에 적혀 있으나 수치는 확인하지 못함[3]. 마가목 씨앗의 시안배당체 함량을 잰 논문은 확인하지 못함.\n\n동물 실험에서는 마가목 피(cortex) 메탄올 추출물을 흰쥐에 하루 100·200 mg/kg씩 7주간 투여했고[19], 식품원료 사용 부위가 아닌 줄기의 30% 에탄올 추출물을 100·300 mg/kg 용량으로 사료에 섞어 24일간 먹였으나[8], 이들 논문에서 동물 독성 평가 결과는 확인하지 못함([19]는 초록만 확인). 줄기 추출물은 RAW264.7 세포에서 300 μg/mL까지 세포독성이 관찰되지 않았다고만 적혀 있다(세포)[8]. 사람 대상 안전성 시험, 알레르기 보고, 공공기관의 독성 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Caffeic acid",
+   "name_ko": "카페산",
+   "class": "하이드록시신남산(페놀산)",
+   "role": "marker",
+   "part": "열매(물·70% 에탄올 추출물); 줄기(식품원료 사용 부위 아님)",
+   "content_text": "열매 물 추출물 1.56 mg/g, 70% 에탄올 추출물 0.55 mg/g(HPLC-UV, 추출물 기준)[6]; 줄기 30% 에탄올 추출물 4.3 μg/g(HPLC-UV)[8]",
+   "activity_ko": "BV-2 미세아교세포에서 12.5–100 μM로 LPS 유도 NO 생성과 iNOS·COX-2 발현 억제(세포)[6]; 연구진은 열매 물 추출물의 주요 활성 성분 가운데 하나로 봄[6]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로젠산",
+   "class": "카페오일퀸산(페놀산)",
+   "role": "marker",
+   "part": "열매; 잎(식품원료 사용 부위 아님)",
+   "content_text": "열매 에탄올 추출물의 부탄올 분획 912.72 ± 68.04 μg/g of extract(HPLC)[5]; 잎에서 항산화 기여 주성분[10]",
+   "activity_ko": "열매 부탄올 분획의 흑색종 세포 독성에 기여할 후보 성분으로 제시(세포)[5]",
+   "source": [
+    5,
+    10
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 에탄올 추출물 부탄올 분획 2.59 ± 0.17 μg/g of extract, 에틸아세테이트 분획 0.12 ± 0.03 μg/g, 물 분획 0.12 ± 0.02 μg/g(HPLC)[5]; 열매 물 추출물에서 검출(정량 수치 없음)[6]",
+   "activity_ko": "열매의 흑색종 억제 후보 성분으로 제시(세포)[5]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Protocatechuic acid",
+   "name_ko": "프로토카테큐산",
+   "class": "하이드록시벤조산(페놀산)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 추출물에서 HPLC로 정량된 7개 페놀 성분의 하나; 에탄올 추출물에서 다른 추출물보다 많음(수치는 그림·표에 있어 확인하지 못함)[5]",
+   "activity_ko": "이 종에서의 단독 활성 시험은 확인하지 못함[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Neochlorogenic acid",
+   "name_ko": "네오클로로젠산",
+   "class": "카페오일퀸산(페놀산)",
+   "role": "bioactive",
+   "part": "잎(식품원료 사용 부위 아님)",
+   "content_text": "마가목속 12종 잎 비교에서 클로로젠산과 함께 항산화능에 가장 크게 기여(마가목 잎 총항산화능 175.30 μmol TE/g DW)[10]",
+   "activity_ko": "칼럼 후 FRAP 분석에서 환원 활성 성분으로 확인(시험관)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Neosakuranin",
+   "name_ko": "네오사쿠라닌",
+   "class": "칼콘 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 에틸아세테이트 추출물에서 분리, 이 종에서 처음 보고(함량 확인하지 못함)[7]",
+   "activity_ko": "이 종에서의 활성 시험 결과는 확인하지 못함[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Sakuranetin",
+   "name_ko": "사쿠라네틴",
+   "class": "플라바논",
+   "role": "bioactive",
+   "part": "나무껍질(피층)",
+   "content_text": "마가목에서 분리[16]; 나무껍질 피층에서 검출되었다고 인용됨[4](함량 확인하지 못함)",
+   "activity_ko": "HeLa 세포에서 100 μg/mL로 사람 리노바이러스 3형 복제를 67% 넘게 억제(세포)[16]; 항진균 플라보노이드로 속껍질 방어에 관여할 가능성 제시[4]",
+   "source": [
+    4,
+    16
+   ]
+  },
+  {
+   "name": "Amygdalin",
+   "name_ko": "아미그달린",
+   "class": "시안배당체",
+   "role": "bioactive",
+   "part": "속껍질(나무껍질)",
+   "content_text": "속껍질에서 정량되었다고 초록에 적혀 있으나 수치는 확인하지 못함[3]; 속껍질의 시안배당체[4]",
+   "activity_ko": "β-글루코시데이스로 분해되면 시안화수소가 생겨 구름버섯(Trametes versicolor) 생장을 억제; 아미그달린 용액만으로는 유의한 억제 없음(시험관)[3]",
+   "source": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Prunasin",
+   "name_ko": "프루나신",
+   "class": "시안배당체",
+   "role": "bioactive",
+   "part": "속껍질(나무껍질)",
+   "content_text": "속껍질의 시안배당체로 보고(함량 확인하지 못함)[3, 4]",
+   "activity_ko": "아미그달린과 함께 시안화수소의 출처로 제시[3, 4]",
+   "source": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Lupeol",
+   "name_ko": "루페올",
+   "class": "루판형 트리테르펜",
+   "role": "bioactive",
+   "part": "줄기 껍질",
+   "content_text": "줄기 껍질 메탄올 추출물에서 활성 유도 분리로 얻음(함량 확인하지 못함)[11]; 마가목의 주요 활성 트리테르페노이드로 소개[12]",
+   "activity_ko": "PTP1B 억제 IC50 5.6 ± 0.9 μM, 비경쟁적 억제(시험관)[11]; 분리 루페올(추출 부위는 [12] 초록에 없음)이 파골세포 분화를 억제하고 고칼슘혈증 골 손실 동물 모델에서 효과를 보임(세포·동물)[12]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Lupenone",
+   "name_ko": "루페논",
+   "class": "루판형 트리테르펜",
+   "role": "bioactive",
+   "part": "줄기 껍질",
+   "content_text": "줄기 껍질 메탄올 추출물에서 분리(함량 확인하지 못함)[11]",
+   "activity_ko": "PTP1B 억제 IC50 13.7 ± 2.1 μM(시험관)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "beta-Sitosterol 3-O-beta-D-glucopyranoside",
+   "name_ko": "β-시토스테릴-3-O-β-글루코피라노사이드",
+   "class": "스테롤 배당체",
+   "role": "bioactive",
+   "part": "나무껍질",
+   "content_text": "나무껍질의 주요 성분으로 소개(함량 확인하지 못함)[13]",
+   "activity_ko": "LPS 자극 RAW 264.7 대식세포에서 NO·PGE2와 TNF-α·IL-1β·IL-6 생성 억제(세포)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Sorcomic acid",
+   "name_ko": "소르코믹산",
+   "class": "지방산(신규)",
+   "role": "bioactive",
+   "part": "줄기 껍질",
+   "content_text": "줄기 껍질에서 새로 분리된 지방산, 알려진 유사체 9종과 함께 분리(함량 확인하지 못함)[14]",
+   "activity_ko": "C6 신경교종 세포의 NGF 분비를 233.40 ± 12.82%로 높임(세포)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Sorcomiside A",
+   "name_ko": "소르코미사이드 A·B",
+   "class": "페놀 배당체(신규)",
+   "role": "bioactive",
+   "part": "줄기 껍질",
+   "content_text": "줄기 껍질에서 새로 분리된 페놀 배당체 2종(함량 확인하지 못함)[15]",
+   "activity_ko": "신경 보호·항염·세포독성 시험 대상(결과 수치는 초록에서 확인하지 못함)[15]",
+   "source": [
+    15
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Caffeic acid",
+   "compound_ko": "카페산",
+   "part": "열매(물 추출물)",
+   "content": "열매 물 추출물 1.56 mg/g, 70% 에탄올 추출물 0.55 mg/g[6]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Thermo UltiMate 3000 HPLC(진공 탈기기·4원 펌프·UV 검출기)",
+    "column": "Shimadzu Shim-pack 5 μm C18(250 × 4.6 mm)",
+    "mobile_phase": "A: 0.2% 인산 수용액, B: 메탄올",
+    "gradient": "0–5분 0→20% B; 5–15분 20→35% B; 15–20분 35→60% B; 20–30분 60→75% B; 30–35분 75→100% B",
+    "flow": "0.8 mL/min",
+    "temp": "30 °C",
+    "detection": "UV 320 nm",
+    "injection": "20 μL",
+    "sample_prep": "열매(한약재 시장 구입, 표본 확인)를 2시간 끓여 거른 뒤 감압 농축·동결 건조(물 추출물); 70% 에탄올에 실온 24시간씩 2회 침지(에탄올 추출물)",
+    "standard": "카페산(98%)·클로로젠산(95%)·갈산·p-쿠마르산(98%)·루틴 수화물(94%) 표준품",
+    "linearity": "카페산 검량선 r = 0.99",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매 물 추출물에서 70% 에탄올 추출물보다 봉우리가 크게 나오고 미세아교세포 항염 활성을 보여 연구진이 주요 활성 성분으로 정량함[6]. 식품원료 사용 부위(열매)와 같다[1].",
+   "source": [
+    1,
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643002/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로젠산",
+   "part": "열매(에탄올 추출물 분획)",
+   "content": "부탄올 분획 912.72 ± 68.04 μg/g of extract[5]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Shimadzu LC-10ADvp + SPD-10A 자외·가시 검출기",
+    "column": "PerkinElmer Brownlee SPP C18(2.7 μm, 2.1 × 150 mm)",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "0–1.6분 10% B; 1.6–11.3분 20% B; 11.3–17.8분 25% B; 17.8–22.7분 30% B; 22.7–25.9분 60% B; 25.9–28.2분 80% B 유지 후 초기 조건 복귀",
+    "flow": "0.3 mL/min",
+    "temp": "40 °C",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "연구림에서 수확해 공기 건조한 열매 가루를 물, 물·에탄올 혼합액(25·50·75%) 또는 무수 에탄올에 24시간 담근 뒤 초음파 추출(1시간 × 3회), 여과·감압 농축·동결 건조; 에탄올 추출물 150 g을 물 1 L에 풀어 헥산·에틸아세테이트·부탄올로 차례로 분획",
+    "standard": "표준 검량선과 봉우리 면적 비교(표준품 순도·검량 범위는 본문에 없음)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매 추출물에서 정량한 페놀 성분 7종 가운데 함량이 가장 높고, 흑색종 세포 활성과 관련된 후보 성분으로 제시됨[5]. 검출 파장은 본문에 적혀 있지 않음.",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570188/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amygdalin",
+   "compound_ko": "아미그달린",
+   "part": "속껍질(나무껍질)",
+   "content": "정량했다고 초록에 적혀 있으나 수치는 확인하지 못함[3]",
+   "method": "",
+   "conditions": {},
+   "rationale": "제한적사용 부위인 나무껍질의 시안배당체로, 시안화수소를 내는 안전성 관련 성분이다[1, 3]. 전문 확인 못함 — 분석 조건은 비워 둠.",
+   "source": [
+    1,
+    3
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39804664/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 마가목·마가목열매·마가목열매추출물(사용가능, '사용가능부위 : 열매'), 마가목나무껍질·마가목나무껍질분말·마가목나무껍질추출액(제한적사용, '제한적사용가능부위 : 나무껍질') 행. 학명 Sorbus commixta Hedl. / Pyrus micrantha var. macrophylla Cardot / Sorbus aucuparia var. japonica Maxim., 다른 이름 은빛마가목, 영문명 'Mountoin Ash, Silvery mountain ash'(원문 표기). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속·관련 원료 행: Mountain ash(Pyrus Aucuparia [Sorbus Aucuparia], 전체, 사용불가), Sorbus austriaca(전체, 사용불가), 복합원료 마가목쇠무릅혼합추출액(제한적사용, '마가목 제한적사용부위 : 나무껍질 / 쇠무릅 제한적사용부위 : 뿌리※(우슬)'). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Constitutive chemical defense mechanism of inner bark of Sorbus commixta against Trametes versicolor. Tree Physiol 2025;45(2) (PMID 39804664, doi:10.1093/treephys/tpaf006; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39804664/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Differential inhibition of bark endophytes and a wood-decay fungus by inner bark of Sorbus commixta. Sci Rep 2026 (PMID 42426028, PMC13350982, doi:10.1038/s41598-026-51474-2; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13350982/",
+   "publisher": "Springer Nature / PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Anti-Melanoma Activities and Phytochemical Compositions of Sorbus commixta Fruit Extracts. Plants (Basel) 2020;9(9):1076 (PMID 32825598, PMC7570188, doi:10.3390/plants9091076; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570188/",
+   "publisher": "MDPI / PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Sorbus commixta Fruit Extract Suppresses Lipopolysaccharide-Induced Neuroinflammation in BV-2 Microglia Cells via the MAPK and NF-κB Signaling Pathways. Molecules 2024;29(23):5592 (PMID 39683751, PMC11643002, doi:10.3390/molecules29235592; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11643002/",
+   "publisher": "MDPI / PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "A chalcone glycoside from the fruits of Sorbus commixta Hedl. Molecules 2009;14(12):5323-7 (PMID 20032895, PMC6255035, doi:10.3390/molecules14125323; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20032895/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Stem of Sorbus commixta Hedl. Extract Inhibits Cartilage Degradation and Arthritic Pain in Experimental Model via Anti-Inflammatory Activity. Nutrients 2023;15(17):3774 (PMID 37686806, PMC10490201, doi:10.3390/nu15173774; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490201/",
+   "publisher": "MDPI / PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Polyphenol profiling and multi-target antioxidant, anti-inflammatory and antidiabetic activity of Sorbus commixta Hedl. leaves. Sci Rep 2026 (PMID 42288646, PMC13530270, doi:10.1038/s41598-026-57556-5; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42288646/",
+   "publisher": "Springer Nature / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Phytochemical and antioxidant profiles of leaves from different Sorbus L. species. Nat Prod Res 2015;29(3):281-5 (PMID 25142632, doi:10.1080/14786419.2014.950577; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25142632/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Inhibition of protein tyrosine phosphatase 1B by lupeol and lupenone isolated from Sorbus commixta. J Enzyme Inhib Med Chem 2009;24(4):1056-9 (PMID 19548777, doi:10.1080/14756360802693312; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19548777/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Lupeol Isolated from Sorbus commixta Suppresses 1α,25-(OH)2D3-Mediated Osteoclast Differentiation and Bone Loss in Vitro and in Vivo. J Nat Prod 2016;79(2):412-20 (PMID 26878936, doi:10.1021/acs.jnatprod.5b01088; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26878936/",
+   "publisher": "American Chemical Society / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "β-sitosteryl-3-O-β-glucopyranoside isolated from the bark of Sorbus commixta ameliorates pro-inflammatory mediators in RAW 264.7 macrophages. Immunopharmacol Immunotoxicol 2014;36(1):70-7 (PMID 24328676, doi:10.3109/08923973.2013.866956; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24328676/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Neuroprotective Fatty Acids from the Stem Bark of Sorbus commixta. Lipids 2016;51(8):989-95 (PMID 27386872, doi:10.1007/s11745-016-4172-7; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27386872/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Two New Phenolic Glycosides from Sorbus commixta. Chem Pharm Bull (Tokyo) 2018;66(8):839-842 (PMID 30068805, doi:10.1248/cpb.c18-00280; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30068805/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Antiviral Activity of Sakuranetin against Human Rhinovirus 3. Osong Public Health Res Perspect 2017;8(6):415-420 (PMID 29354400, PMC5749483, doi:10.24171/j.phrp.2017.8.6.09; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29354400/",
+   "publisher": "Korea Disease Control and Prevention Agency / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "The pharmacological potential of Sorbus commixta cortex on blood alcohol concentration and hepatic lipid peroxidation in acute alcohol-treated rats. J Pharm Pharmacol 2006;58(5):685-93 (PMID 16640838, doi:10.1211/jpp.58.5.0014; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16640838/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Anti-atherogenic effects of the methanol extract of Sorbus cortex in atherogenic-diet rats. Biol Pharm Bull 2005;28(8):1444-9 (PMID 16079490, doi:10.1248/bpb.28.1444; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16079490/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Methanol extract of Sorbus commixta cortex prevents vascular inflammation in rats with a high fructose-induced metabolic syndrome. Am J Chin Med 2007;35(2):265-77 (PMID 17436367, doi:10.1142/S0192415X07004801; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17436367/",
+   "publisher": "World Scientific / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Vascular relaxation by the methanol extract of Sorbus cortex via NO-cGMP pathway. Biol Pharm Bull 2005;28(5):860-4 (PMID 15863894, doi:10.1248/bpb.28.860; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15863894/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Anti-inflammatory activity of Sorbus commixta water extract and its molecular inhibitory mechanism. J Ethnopharmacol 2011;134(2):493-500 (PMID 21195756, doi:10.1016/j.jep.2010.12.032; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21195756/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Sorbus commixta water extract induces apoptotic cell death via a ROS-dependent pathway. Oncol Lett 2018;16(4):4193-4200 (PMID 30197667, PMC6126344, doi:10.3892/ol.2018.9217; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30197667/",
+   "publisher": "Spandidos / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Suppression of Ultraviolet B-mediated Matrix Metalloproteinase Generation by Sorbus commixta Twig Extract in Human Dermal Fibroblasts. Photochem Photobiol 2018;94(2):370-377 (PMID 29164624, doi:10.1111/php.12868; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29164624/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Inhibitory activities of pancreatic lipase and phosphodiesterase from Korean medicinal plant extracts. Phytother Res 2012;26(5):778-82 (PMID 22069182, doi:10.1002/ptr.3644; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22069182/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Effects of bird ingestion on seed germination of Sorbus commixta. Oecologia 1998;114(2):209-212 (PMID 28307934, doi:10.1007/s004420050438; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28307934/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Anti-ice nucleation activity in xylem extracts from trees that contain deep supercooling xylem parenchyma cells. Cryobiology 2007;55(3):305-14 (PMID 17936742, doi:10.1016/j.cryobiol.2007.08.010; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17936742/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Effect of Iron Source and Medium pH on Growth and Development of Sorbus commixta In Vitro. Int J Mol Sci 2020;22(1):133 (PMID 33374479, PMC7796064, doi:10.3390/ijms22010133; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33374479/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "The plastome sequence of Ulleung Rowan, Sorbus ulleungensis (Rosaceae), a new endemic species on Ulleung Island, Korea. Mitochondrial DNA B Resour 2018;3(1):284-285 (PMID 33474144, PMC7800943, doi:10.1080/23802359.2018.1443042; 전문 확인 — 도구 출력에서 학명 일부가 빠져 있어 '원래 어느 종으로 다루어졌는지'는 확인하지 못함)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7800943/",
+   "publisher": "Taylor & Francis / PMC",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "In Vivo Screening of Traditional Medicinal Plants for Neuroprotective Activity against Aβ42 Cytotoxicity by Using Drosophila Models of Alzheimer's Disease. Biol Pharm Bull 2015;38(12):1891-901 (PMID 26458335, doi:10.1248/bpb.b15-00459; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26458335/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

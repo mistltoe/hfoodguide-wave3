@@ -1,0 +1,491 @@
+{
+ "slug": "wisteria-floribunda",
+ "name_ko": "등나무",
+ "name_en": "Japanese wisteria",
+ "scientific_name": "Wisteria floribunda (Willd.) DC.",
+ "aliases": [
+  "Japanese wisteria",
+  "Wisteria floribunda (Willd.) DC."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "등나무(Wisteria floribunda (Willd.) DC.)는 콩과(Fabaceae)의 갈잎 덩굴식물로, 영어로는 Japanese wisteria라 부른다[1][11][13]. 식품의약품안전처 「식품원료 목록」에는 원료명 '등나무'로 올라 있으며 상태는 '사용가능', 사용 가능 부위와 조건은 '꽃'이다[1]. 같은 목록에서 등나무속(Wisteria spp.) 열매는 별도 항목 'Wisteria열매'(이명 위스테리아, 등나무)로 '사용불가'이다[1]. 이 자료 묶음의 원자료에는 EFSA 식물성 원료 목록(Compendium of botanicals) 표시가 있으나, EFSA 원문에서 그 내용은 확인하지 못함. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n꽃에서는 퀘르세틴·캠페롤·루테올린·아피제닌 배당체 등 플라보노이드 10종이 분리되었고, 꽃잎의 보라색은 안토시아닌, 노란 반점은 카로티노이드 때문이다[2]. 한국 양봉인 사이에서 뛰어난 밀원식물로 알려져 있다[3]. 꽃 이외 부위는 목록상 식품원료로 쓸 수 없다[1]. 국내에서는 등나무 씨앗을 먹은 어린이 7명의 집단 중독 사례가 보고되었다[4]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "등나무는 일본에서 오래전부터 꽃을 감상해 온 덩굴식물로, 9–14세기 교토의 문헌·일기에 남은 등꽃 개화 기록이 벚꽃 개화일을 추정해 옛 봄철 기온을 복원하는 데 쓰였다[19]. 이 연구는 10–11세기 가운데 6개 연도의 벚꽃 만개일을 등꽃 개화 기록으로 보충했다[19]. 동양 전통 의학에서 등나무에 생긴 혹(충영)의 추출물을 항종양 목적으로 써 왔다는 보고가 있다[21]. 등나무를 마름·율무·영지 등과 섞은 생약 혼합물(WTMCGEP 계열)이 일본에서 암 환자 완화 돌봄에 경험적으로 쓰였다는 기록이 있다[29]. 이 혼합물을 대상포진 환자 5명에게 쓴 소규모 예비 임상이 있었으나 대조군이 없는 연구다[22]. 이들 용도에서 쓰인 부위는 혹이거나 명시되지 않았으며, 꽃을 식용한 전통에 관한 공공기관 자료는 확인하지 못함. 국내에서 꽃을 음식으로 먹어 온 역사 자료도 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "등나무는 다른 나무나 지지대를 감고 올라가는 온대 목본 덩굴(liana)이다[12][13]. 줄기 지름이 20 mm 이상이 되면 피층 유조직에서 여분의 형성층(이소 형성층)이 불규칙하게 생겨 2차 물관부·체관부 가닥을 더 만든다[13]. 형성층 세포가 일찍 층층이 배열되는 층계 구조(storeyed cambium)를 갖는다[14]. 일본 오가와 원시림 6 ha 조사에서 391개 줄기 가운데 클론(포복경에 의한 영양번식)이 개체 수의 71%, 흉고단면적의 62%를 차지했고, 가장 큰 클론은 0.47 ha·180 m에 걸쳐 있었다[11]. 같은 숲에서 6년 동안 관찰한 당년생 실생 908개 중 56%가 발아 1년 뒤까지 살아남았고, 빛이 밝을수록 생존율이 높았다[12]. 꽃잎은 안토시아닌으로 보라색을 띠고, 기판(旗瓣)의 노란 반점은 카로티노이드 때문이며 꽃이 질 무렵 흰색으로 바뀐다[2]. 꽃 하나의 수명은 약 이틀이었고, 수원의 조경수 조사에서 등나무는 철제 틀을 덮은 덩굴로 재배되었다[3]. 나무껍질에서는 아까시나무와 함께 새로운 렉틴이 검출되었다[27]. 뿌리혹 공생, 꽃차례 길이, 감는 방향에 관한 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 구별",
+   "body": "등나무속(Wisteria)은 콩과 Wisterieae 족에 속하며, 이 족은 13속으로 정리되었다[17][28]. 계통 연구에 따르면 등나무(W. floribunda)와 W. brachybotrys는 플라이스토세에 일본에 도달했다[17]. 중국등(W. sinensis)과 등나무는 엽록체 유전체 비교에서 가까운 근연종으로 확인되었다[15]. 미국 남동부에는 두 종의 잡종 무리가 야생화되어 있다[16]. 중국등 꽃의 지용성 추출물이 당뇨 생쥐에서 혈당을 낮췄다는 연구가 있으나, 이는 다른 종의 동물 실험이므로 등나무 꽃 자료로 옮겨 쓸 수 없다[26]. W. brachybotrys 덩굴에서는 올레아난계 트리테르펜 배당체(위스타리아사포닌)가 분리되었다[25]. 예전 Millettia japonica로 분류되던 종은 Wisteria japonica로 옮겨졌다가 이후 별도 속(Wisteriopsis)으로 다루어지며, 그 씨앗 렉틴은 등나무 렉틴과 결합 특이성이 다르다[17][18]. 식약처 목록에서 사용 가능한 것은 이 종(W. floribunda)의 꽃뿐이고, 속 전체의 열매는 사용불가다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 분포",
+   "body": "국내에서는 공원·가로의 조경용 덩굴로 흔히 심으며, 국립산림과학원 수원 시험지에서는 철제 틀(약 3 m × 11 m)을 덮은 덩굴로 관리되었다[3]. 이 조사지는 연평균 기온 12.5 °C, 연강수량 1320.3 mm인 대륙성 기후였다[3]. 이 연구는 조사 대상 가운데 5종을 2020년 제정된 양봉산업법의 지정 밀원식물로 소개하고, 등나무는 따로 '한국 양봉인들이 뛰어난 밀원식물로 인정하는 종'으로 소개했다[3]. 자연 숲에서는 그늘에서도 실생이 버티지만 밝은 곳에서 생존율이 높고, 조릿대가 덮인 곳에서는 발생과 생존이 모두 낮았다[12]. 번식의 상당 부분은 포복경을 통한 클론 생장이다[11]. 참나무 흰가루병균(Erysiphe alphitoides) 접종 시험에서 등나무 잎은 완전 저항성을 보였다[24]. 국내 재배 면적·생산량 통계와 꽃 수확 방법에 관한 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록상 식품에 쓸 수 있는 부위는 꽃뿐이므로, 식품 가공은 꽃을 원료로 할 때에 한정된다[1]. 꽃을 데치거나 튀기는 등 국내 조리·가공 방법에 관한 공공기관 자료는 확인하지 못함. 꽃에서 나오는 꿀은 양봉 밀원으로 이용되며, 수원 조사는 등나무를 꽃꿀 생산량 또는 아미노산 생산성이 높은 종 가운데 하나로 꼽았다[3]. 씨앗에서 정제한 렉틴(Wisteria floribunda agglutinin, WFA)은 식품이 아니라 실험·진단용 시약으로 쓰이며, 2017년에 그 유전자가 밝혀져 대장균에서 재조합 단백질로 만들어졌다[6]. WFA가 결합하는 Mac-2 결합단백질(WFA-M2BP)은 간 섬유화를 예측하는 혈액 지표로 쓰인다[23]. 등나무 혹(충영) 추출물은 생쥐 흑색종 세포의 이동을 억제했으나 이는 세포 실험이다[21]. 등나무를 원료로 한 건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 연구",
+   "body": "등나무 엽록체 유전체는 130,960 bp로, 역위반복(IR) 영역이 없는 콩과 IRLC 계통의 구조를 보이며 단백질 암호 유전자 77개, tRNA 유전자 30개, rRNA 유전자 4개를 담고 있다[15]. 중국등 엽록체 유전체(130,561 bp)와 단백질 암호·tRNA·rRNA 유전자 수가 같다[15]. 미국 남동부의 중국등×등나무 잡종 무리에서는 색소체가 양친 모두에게서 전해지는 현상이 핵·미토콘드리아·색소체 표지로 확인되었다[16]. 등나무에서는 알코올탈수소효소(Adh) 유전자 좌위가 새로 발견되어, 콩과 Adh 유전자 중복이 오래전에 일어났음이 제시되었다[20]. 이소 형성층 형성과 관련해 KNOX 유전자 16개 사본이 확인되었고, 그중 KNAT2/6 계열에서 양성 선택 신호가 검출되었다[13]. 씨앗 렉틴 WFA 유전자의 열린 해독틀은 861 뉴클레오타이드로, 신호 펩타이드·C말단 전구 펩타이드·이량체 형성용 시스테인 1개를 가진다[6]. 핵 유전체 전체 서열은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 등나무는 꽃만 식품원료로 쓸 수 있고, 등나무속 열매는 '사용불가'로 분류되어 있다[1]. 국내 한 유치원 현장학습에서 어린이 7명이 등나무 씨앗(6명은 반 개, 1명은 한 개)을 먹은 뒤 모두 4시간 이내에 구토했고, 5시간 무렵에는 모두 복통을 호소했으며 1명은 처졌다[4]. 7명 모두 백혈구가 늘었고 증상은 입원 2일 안에 가라앉았으며 평균 입원 기간은 3.1일이었다[4]. 미국 의료기관의 사례 보고에서 50세 여성이 등나무속(Wisteria) 꼬투리 씨앗 10개를 먹은 뒤 두통·위장염·토혈·어지럼·혼돈·발한·실신을 겪었다; 이 보고는 종을 밝히지 않아 등나무(W. floribunda) 자료로 단정할 수 없다[5]. 씨앗 독성의 원인 성분(위스테린 등)을 이 종에서 확인·정량한 1차 자료는 확인하지 못함. 씨앗 렉틴 WFA는 70 °C까지 당 결합 기능을 유지했고 80 °C 이상에서 빠르게 응집했다[8]. WFA는 유방암 세포(MCF-7)에서 증식을 억제했으나 이는 세포 실험 결과다[7]. 식용 꽃의 알레르기·잔류농약·독성 성분에 관한 국내외 공공기관 자료와 꽃 섭취로 생긴 이상 사례 보고는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin 3-O-sophoroside",
+   "name_ko": "퀘르세틴 3-소포로사이드",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃에서 분리된 플라보노이드 10종 가운데 하나; 노랑·크림·흰 반점 사이 플라보노이드 함량은 거의 같았음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴(퀘르세틴 3-루티노사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "이소퀘르시트린(퀘르세틴 3-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-sophoroside",
+   "name_ko": "캠페롤 3-소포로사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Astragalin",
+   "name_ko": "아스트라갈린(캠페롤 3-글루코사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Luteolin 5-O-glucoside",
+   "name_ko": "루테올린 5-글루코사이드",
+   "class": "플라본 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cynaroside",
+   "name_ko": "시나로사이드(루테올린 7-글루코사이드)",
+   "class": "플라본 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cosmosiin",
+   "name_ko": "코스모시인(아피제닌 7-글루코사이드)",
+   "class": "플라본 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리·동정; 함량 수치는 초록에서 확인하지 못함[2]",
+   "activity_ko": "꽃 플라보노이드 구성 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Wisteria floribunda agglutinin",
+   "name_ko": "등나무 씨앗 렉틴(WFA)",
+   "class": "콩과 렉틴(당단백질)",
+   "role": "bioactive",
+   "part": "씨앗(식품원료 사용 부위 아님)",
+   "content_text": "함량 수치는 확인하지 못함; 유전자 열린 해독틀 861 뉴클레오타이드[6]",
+   "activity_ko": "말단 N-아세틸갈락토사민·갈락토스 결합; 70 °C까지 기능 유지, 80 °C 이상 응집[6][8]; MCF-7 세포 증식 억제 329 μg/mL(2.8 μM)(세포)[7]",
+   "source": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Cysteine proteinase inhibitor WCPI-3",
+   "name_ko": "시스테인 단백질분해효소 억제제(시스타틴) WCPI-3",
+   "class": "단백질(시스타틴)",
+   "role": "bioactive",
+   "part": "씨앗(식품원료 사용 부위 아님)",
+   "content_text": "함량 수치는 확인하지 못함; 분자량 17,500(겔여과)·15,700(SDS-PAGE), 등전점 5.7[9]",
+   "activity_ko": "파파인과 1:1 복합체 형성, 해리상수 6.1 nM(시험관)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "(+)-Afzelechin 5-O-beta-D-glucopyranoside",
+   "name_ko": "(+)-아프젤레킨 5-글루코사이드",
+   "class": "플라반-3-올 배당체",
+   "role": "bioactive",
+   "part": "열매 껍질(식품원료 사용 부위 아님)",
+   "content_text": "함량 수치는 확인하지 못함; 열매 껍질에서 새로 분리된 성분[10]",
+   "activity_ko": "함께 분리된 플라보노이드 일부가 HepG2 세포에서 TNF-α 유도 NF-κB 활성화를 억제(IC50 11.9–16.5 μM, 세포)[10]",
+   "source": [
+    10
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin 3-O-sophoroside",
+   "compound_ko": "퀘르세틴 3-소포로사이드 등 꽃 플라보노이드 10종",
+   "part": "꽃(기판의 노랑·크림·흰 반점 부위)",
+   "content": "노랑·크림·흰 반점 사이 플라보노이드 함량이 거의 같았음(수치는 초록에서 확인하지 못함)[2]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "등나무 꽃에서 분리·동정한 플라보놀·플라본 배당체를 HPLC로 비교해 꽃 색 변화와 자외선 흡수 성분의 관계를 본 연구다[2]. 전문 확인 못함 — 분석 조건은 비워 둠.",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25924517/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Sucrose",
+   "compound_ko": "자당(포도당·과당 동시)",
+   "part": "꽃꿀",
+   "content": "초록은 등나무를 꽃꿀 생산량 또는 아미노산 생산성이 높은 종으로 꼽음; 받은 전문 텍스트에서 종 이름이 빠져 등나무 개별 수치는 확인하지 못함[3]",
+   "method": "HPLC-RI",
+   "conditions": {
+    "instrument": "Dionex Ultimate 3000 HPLC + Shodex RI-101 굴절률 검출기",
+    "column": "Aminex 87P, 300 × 7.8 mm(Bio-Rad)",
+    "mobile_phase": "탈이온수",
+    "gradient": "",
+    "flow": "0.5 mL/min",
+    "temp": "80 °C(칼럼 오븐)",
+    "detection": "굴절률(RI)",
+    "injection": "",
+    "sample_prep": "봉지 씌운 꽃에서 둘째 날 100송이 이상 채취 → 꽃잎·꽃자루 제거 → 나일론 망 50 mL 튜브에서 4000 rpm 4분 원심 → 80% 에탄올로 10배 희석 → 0.45 μm 원심 필터 → −20 °C 보관",
+    "standard": "자당·포도당·과당 고순도 표준품(99.5%)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃꿀 당 조성(자당/육탄당 비)은 밀원 가치를 비교하는 기본 지표로 쓰였다[3]. 직선성·검출한계·회수율은 원문에서 확인하지 못함.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252262/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Proline",
+   "compound_ko": "꽃꿀 유리 아미노산(프롤린 등 필수·비필수·비단백 아미노산)",
+   "part": "꽃꿀",
+   "content": "8종 꽃꿀에서 아미노산 16–22종 검출, GABA는 모든 종에서 검출; 등나무 개별 수치는 받은 전문 텍스트에서 확인하지 못함[3]",
+   "method": "HPLC-UV/FLD(OPA·FMOC 유도체화)",
+   "conditions": {
+    "instrument": "Agilent HPLC 1200 series",
+    "column": "INNO C-18, 150 mm × 4.6 mm, 5 μm(Youngjin Biochrom)",
+    "mobile_phase": "A: 10 mM Na2HPO4 + 10 mM Na2B4O7·10H2O(pH 8.2); B: 물:아세토니트릴:메탄올 10:45:45",
+    "gradient": "원문: 26–28분 A:B 100:0 → 28–30.5분 0:100 → 30.5분 이후 100:0",
+    "flow": "1.5 mL/min",
+    "temp": "40 °C",
+    "detection": "UV 338 nm; 형광 OPA Ex 340/Em 450 nm, FMOC Ex 266/Em 305 nm",
+    "injection": "0.5 μL",
+    "sample_prep": "붕산 완충액, OPA/메르캅토프로피온산, FMOC 시약과 차례로 혼합(자동 유도체화)",
+    "standard": "아미노산 표준품(필수 아미노산 포함), 1·5·10·50·100 μM 검량선",
+    "linearity": "각 아미노산 R² > 0.995(1–100 μM)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃꿀 아미노산 조성은 꽃꿀 품질과 방화곤충 선호에 영향을 주는 지표로 정량되었다[3]. 검출·정량한계와 회수율은 원문에서 확인하지 못함.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252262/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 등나무(Wisteria floribunda (Willd.) DC.) 항목 및 Wisteria열매(Wisteria spp.) 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Quantitative flavonoid variation accompanied by change of flower colors in Edgeworthia chrysantha, Pittosporum tobira and Wisteria floribunda. Nat Prod Commun 2015;10(3):413-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25924517/",
+   "publisher": "PubMed (PMID 25924517)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Assessment of Floral Nectar and Amino Acid Yield in Eight Landscape Trees for Enhanced Pollinator Food Resources in Urban Forests. Plants (Basel) 2025;14(13):1924 (doi:10.3390/plants14131924)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12252262/",
+   "publisher": "PubMed Central (PMC12252262; PMID 40647933)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Acute intoxication due to Wisteria floribunda seed in seven young children. Pediatr Int 2017 (doi:10.1111/ped.13218)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27973698/",
+   "publisher": "PubMed (PMID 27973698)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Wisteria toxicity. J Toxicol Clin Toxicol 1993;31(1):107-12 (doi:10.3109/15563659309000378)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8433406/",
+   "publisher": "PubMed (PMID 8433406)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Engineering of recombinant Wisteria floribunda agglutinin specifically binding to GalNAcβ1,4GlcNAc (LacdiNAc). Glycobiology 2017 (doi:10.1093/glycob/cwx038)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28549117/",
+   "publisher": "PubMed (PMID 28549117)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Anticancer Activity of Lectins from Bauhinia purpurea and Wisteria floribunda on Breast Cancer MCF-7 Cell Lines. Protein Pept Lett 2020 (doi:10.2174/0929866527666200408143614)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32268858/",
+   "publisher": "PubMed (PMID 32268858)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Investigation of structural and saccharide binding transitions of Bauhinia purpurea and Wisteria floribunda lectins. Arch Biochem Biophys 2018 (doi:10.1016/j.abb.2018.12.003)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30529570/",
+   "publisher": "PubMed (PMID 30529570)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Purification and complex formation analysis of a cysteine proteinase inhibitor (cystatin) from seeds of Wisteria floribunda. J Biochem 1990;108(4):604-8 (doi:10.1093/oxfordjournals.jbchem.a123250)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2292589/",
+   "publisher": "PubMed (PMID 2292589)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "A new flavan-3-ol and the anti-inflammatory effect of flavonoids from the fruit peels of Wisteria floribunda. J Asian Nat Prod Res 2011 (doi:10.1080/10286020.2011.603306)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21985227/",
+   "publisher": "PubMed (PMID 21985227)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Large contribution of clonal reproduction to the distribution of deciduous liana species (Wisteria floribunda) in an old-growth cool temperate forest: evidence from genetic analysis. Ann Bot 2018 (doi:10.1093/aob/mcx153)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5808794/",
+   "publisher": "PubMed Central (PMC5808794; PMID 29293888)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Survival rate and environmental response of current-year seedlings of the temperate liana Wisteria floribunda across a heterogeneous environment. J Plant Res 2020 (doi:10.1007/s10265-019-01163-1)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31897743/",
+   "publisher": "PubMed (PMID 31897743)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Ectopic cambia in wisteria vines are associated with the expression of conserved KNOX genes. Nat Commun 2026 (doi:10.1038/s41467-026-68669-w)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12960715/",
+   "publisher": "PubMed Central (PMC12960715; PMID 41617690)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Readjustments of cambial initials in Wisteria floribunda (Willd.) DC. for development of storeyed structure. New Phytol 2004;163(2):287-297 (doi:10.1111/j.1469-8137.2004.01120.x)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33873629/",
+   "publisher": "PubMed (PMID 33873629)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "The complete chloroplast genomes of two Wisteria species, W. floribunda and W. sinensis (Fabaceae). Mitochondrial DNA A 2015 (doi:10.3109/19401736.2015.1089497)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26465833/",
+   "publisher": "PubMed (PMID 26465833)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Bi-parental cytoplasmic DNA inheritance in Wisteria (Fabaceae): evidence from a natural experiment. Plant Cell Physiol 2007;48(4):662-5 (doi:10.1093/pcp/pcm036)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17379697/",
+   "publisher": "PubMed (PMID 17379697)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Phylogenomic framework of the IRLC legumes (Leguminosae subfamily Papilionoideae) and intercontinental biogeography of tribe Wisterieae. Mol Phylogenet Evol 2021 (doi:10.1016/j.ympev.2021.107235)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34146677/",
+   "publisher": "PubMed (PMID 34146677)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Terminal N-acetylgalactosamine-specific leguminous lectin from Wisteria japonica as a probe for human lung squamous cell carcinoma. PLoS One 2013 (doi:10.1371/journal.pone.0083886)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3862811/",
+   "publisher": "PubMed Central (PMC3862811; PMID 24349556)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Clarifying springtime temperature reconstructions of the medieval period by gap-filling the cherry blossom phenological data series at Kyoto, Japan. Int J Biometeorol 2010;54(2):211-9 (doi:10.1007/s00484-009-0272-x)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19851790/",
+   "publisher": "PubMed (PMID 19851790)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Molecular phylogeny and evolution of alcohol dehydrogenase (Adh) genes in legumes. BMC Plant Biol 2005;5:6 (doi:10.1186/1471-2229-5-6)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1112602/",
+   "publisher": "PubMed Central (PMC1112602; PMID 15836788)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Wisteria floribunda gall extract inhibits cell migration in mouse B16F1 melanoma cells by regulating CD44 expression and GTP-RhoA activity. J Ethnopharmacol 2005;102(1):10-4 (doi:10.1016/j.jep.2005.04.036)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16023319/",
+   "publisher": "PubMed (PMID 16023319)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Effect of an herbal formula containing Ganoderma lucidum on reduction of herpes zoster pain: a pilot clinical trial. Am J Chin Med 2005;33(4):517-23 (doi:10.1142/S0192415X05003120)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16173526/",
+   "publisher": "PubMed (PMID 16173526)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Clinical significance of serum Wisteria floribunda agglutinin-positive Mac-2 binding protein in pancreatic ductal adenocarcinoma. Pancreatology 2016 (doi:10.1016/j.pan.2016.09.003)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27665173/",
+   "publisher": "PubMed (PMID 27665173)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Pathology of oak-wisteria powdery mildew. Fungal Biol 2015 (doi:10.1016/j.funbio.2015.02.008)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26228557/",
+   "publisher": "PubMed (PMID 26228557)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Five new triterpene glycosides from Wisteria brachybotrys (Leguminosae). Chem Pharm Bull 1995;43(4):636-40 (doi:10.1248/cpb.43.636)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7600617/",
+   "publisher": "PubMed (PMID 7600617)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Antidiabetic effects of a lipophilic extract obtained from flowers of Wisteria sinensis by activating Akt/GLUT4 and Akt/GSK3β. Food Nutr Res 2020;64 (doi:10.29219/fnr.v64.3589)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7534953/",
+   "publisher": "PubMed Central (PMC7534953; PMID 33061888)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Screening for and purification of novel self-aggregatable lectins reveal a new functional lectin group in the bark of leguminous trees. Biochim Biophys Acta 2005 (doi:10.1016/j.bbagen.2005.08.011)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16216416/",
+   "publisher": "PubMed (PMID 16216416)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "The Wisteria Group redefined and Tribe Wisterieae (Fabaceae) emended based on morphology and data from nuclear and chloroplast DNA sequences. PhytoKeys 2019;125:1-112 (doi:10.3897/phytokeys.125.34877)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6610001/",
+   "publisher": "PubMed Central (PMC6610001; PMID 31303810)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "CD8+ T Cell-Mediated Therapeutic Antitumor Effect of an Herbal Mixture Containing Wisteria floribunda. Evid Based Complement Alternat Med 2023 (doi:10.1155/2023/9630816)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10162866/",
+   "publisher": "PubMed Central (PMC10162866; PMID 37152373)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

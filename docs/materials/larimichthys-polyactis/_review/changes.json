@@ -1,0 +1,80 @@
+[
+ {
+  "where": "sections.processing",
+  "before": "중국 연구에서 다진 조기 살을 진공 포장해 80 °C에서 180분 가열한 국물은 감칠맛 뉴클레오타이드인 이노신산이 50.64 mg/100 g으로 가장 많았고, 100 °C 20분 처리는 아미노산과 다가불포화지방산을 가장 잘 보존했다[5].",
+  "after": "중국 연구에서는 다진 조기 살을 진공 포장해 가열한 뒤 봉지 안에 흘러나온 액(물을 넣지 않음)을 '국물'로 정의해 분석했는데, 80 °C 180분 처리 국물은 감칠맛 뉴클레오타이드인 이노신산이 50.64 mg/100 g으로 다른 두 조건보다 많았고, 100 °C 20분 대조 처리는 아미노산과 다가불포화지방산 값이 수치상 가장 높았다(일부 비교는 유의하지 않음)[5].",
+  "why": "[5] Methods 2.2: 국물은 진공 포장 살에서 흘러나온 삼출액이고 100 °C 20분은 대조군; PUFA 차이는 일부 유의하지 않다고 본문이 씀"
+ },
+ {
+  "where": "sections.safety",
+  "before": "동중국해 시료 122마리 중 116마리(95.1%)에서 고래회충과 유충이 나왔고",
+  "after": "세 어종을 합친 동중국해 시료 122마리 중 116마리(95.1%)에서 고래회충과(Anisakidae) 유충이 나왔고",
+  "why": "[23] 95.1%는 조기만이 아니라 세 어종 합계(조기 표본은 20마리)"
+ },
+ {
+  "where": "sections.history",
+  "before": "Larimichthys 속과 Collichthys 속은 이 과에서 가장 젊은 계통으로",
+  "after": "Larimichthys 속과 Collichthys 속은 분석한 민어과 종 가운데 가장 젊은 계통으로",
+  "why": "[6] 초록은 'Within the studied species'로 범위를 한정"
+ },
+ {
+  "where": "compounds[DHA].part",
+  "before": "다진 조기 살을 진공 가열해 얻은 국물",
+  "after": "진공 포장한 다진 조기 살을 가열할 때 흘러나온 액(논문이 '국물'로 정의, 물 첨가 없음)",
+  "why": "[5] Methods 2.2"
+ },
+ {
+  "where": "compounds[DHA].content_text",
+  "before": "100 °C 20분 처리 1085.20 mg/100 g(논문 본문 표기)[5]",
+  "after": "100 °C 20분(대조) 처리 1085.20 mg/100 g(논문 본문 표기; 국물 무게·건물·지방 가운데 어느 기준인지 논문이 밝히지 않음 — 생선 살 함량으로 옮겨 쓰지 말 것)[5]",
+  "why": "값의 기준이 원문에 없고 삼출액 값이라 생선 살 DHA로 오인될 수 있음"
+ },
+ {
+  "where": "compounds[Oleic].content_text",
+  "before": "100 °C 20분 처리 1626.49 mg/100 g(C18:1n9c, 논문 본문 표기)[5]",
+  "after": "100 °C 20분(대조) 처리 1626.49 mg/100 g(C18:1n9c, 논문 본문 표기; 국물 무게·건물·지방 가운데 어느 기준인지 논문이 밝히지 않음 — 생선 살 함량으로 옮겨 쓰지 말 것)[5]",
+  "why": "DHA와 같은 기준 문제"
+ },
+ {
+  "where": "assays[DHA].part",
+  "before": "다진 조기 살 진공 가열 국물(저우산 시장 구입, 약 60 g 개체)",
+  "after": "진공 포장한 다진 조기 살을 가열할 때 흘러나온 액(물 첨가 없음, 저우산 시장 구입 약 60 g 개체)",
+  "why": "[5] Methods 2.1–2.2"
+ },
+ {
+  "where": "assays[DHA].content",
+  "before": "100 °C 20분 처리 1085.20 mg/100 g(논문 본문 표기); Σn-3 PUFA 1642.87 mg/100 g[5]",
+  "after": "100 °C 20분(대조) 처리 1085.20 mg/100 g; Σn-3 PUFA 1642.87 mg/100 g(논문 본문 표기, 기준 미표기)[5]",
+  "why": "기준 미표기를 값 옆에 밝힘"
+ },
+ {
+  "where": "assays[DHA].conditions.instrument",
+  "before": "Agilent 7890A GC, 불꽃이온화검출기(FID)",
+  "after": "GC-FID(Agilent 7890A)",
+  "why": "원문 표기와 같게 정리(상표명은 기기 모델 표기로 유지)"
+ },
+ {
+  "where": "sections.genetics",
+  "before": "여덟 조직의 전사체에서 93,990개 유전자와 12,539개 단순반복서열이",
+  "after": "여덟 조직의 전사체에서 비중복 전사체(unigene) 93,990개와 단순반복서열 12,539개가",
+  "why": "[12] 초록: 93,990은 유전자 수가 아니라 non-redundant transcripts(unigenes)"
+ },
+ {
+  "where": "sections.biology",
+  "before": "21쌍의 단부 염색체(기본수 54)",
+  "after": "21쌍의 단부 염색체(염색체 팔 수 FN=54)",
+  "why": "[8] 초록의 FN은 fundamental number(팔 수); 제주 시료"
+ },
+ {
+  "where": "sections.processing",
+  "before": "목포에서 산 조기를 10% 천일염 용액에",
+  "after": "목포의 수산식품 업체에서 산 냉동 조기(80–90 g)를 해동해 10% 천일염 용액에",
+  "why": "[4] Methods 2.1: 냉동품을 4 °C에서 해동, 개체 80–90 g"
+ },
+ {
+  "where": "sections.safety",
+  "before": "조기의 기생충 감염률이 30.28%였다[24]",
+  "after": "조기(초록 표기 little yellow croaker)의 기생충 유충 감염률이 30.28%였다[24]",
+  "why": "[24] 초록: 해산어 유충 감염 조사에서 little yellow croaker 30.28%"
+ }
+]

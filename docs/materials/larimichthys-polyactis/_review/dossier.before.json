@@ -1,0 +1,564 @@
+{
+ "slug": "larimichthys-polyactis",
+ "name_ko": "조기",
+ "name_en": "Small yellow croaker",
+ "scientific_name": "Larimichthys polyactis",
+ "aliases": [
+  "참조기",
+  "황조기",
+  "굴비(염건품)",
+  "Yellow croaker",
+  "Small yellow croaker",
+  "Pseudosciaena polyactis(옛 학명)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "조기(학명 Larimichthys polyactis)는 민어과(Sciaenidae)에 속하는 바닷물고기로, 영어로는 small yellow croaker라 부르고 식약처 식품원료 목록에는 이명 '황조기'로 함께 올라 있다[1]. 보하이·황해·동중국해의 온대 연안에 살며, 중국과 한국에서 상업적으로 중요한 어종이다[2, 13]. 한국 서해의 갯벌 해역에서 3월 중순부터 6월 사이 산란하고 주로 우리나라 황해에서 잡힌다는 국내 연구 서술이 있다[4].\n\n식약처 「식품원료 목록」에는 조기·참조기·굴비·굴비채·굴비포·조기구이·조기살·조기알·조기연육·조기단백질·조기추출물·참조기효소분해액 등 이 학명의 원료명 15개가 모두 수산물, '사용가능'으로 올라 있고 사용조건 칸은 비어 있다[1]. 원자료의 부위 칸은 조기알 행이 '균핵', 조기살·굴비살·조기연육·참조기살 행이 '죽순', 나머지 행이 '-'로 적혀 있으며, 이 글은 원자료 표기를 그대로 옮긴다[1]. 같은 속의 부세(Larimichthys crocea)는 목록에 따로 '부세'로 올라 있어 조기와 다른 원료다[1].\n\n국내에서 소비되는 조기의 90% 이상이 소금에 절여 말린 굴비 형태로 가공된다고 한 연구가 적었다[4]. 이 원료는 건강기능식품 고시형 원료의 원재료로 올라 있지 않아 고시 지표성분은 없다[1]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 분류의 역사",
+   "body": "조기는 Bleeker가 1877년에 기재한 종으로 학명 저자가 표기된다[3]. 2000–2010년대 중국 연구에서는 같은 종을 Pseudosciaena polyactis로 적은 사례가 많아, 동중국해 아니사키스 조사와 금속 오염 조사, PCB 분석법 연구가 이 옛 학명을 썼다[22, 23, 26]. 지금 식약처 식품원료 목록은 Larimichthys polyactis를 쓰고, 부세는 Larimichthys crocea로 따로 둔다[1].\n\n유전체 자료로 본 민어과 계통 연구에서 Larimichthys 속과 Collichthys 속은 이 과에서 가장 젊은 계통으로 나왔고, 연구진은 두 속을 하나로 합치지 않는 것이 좋다고 보았다[6]. 중국에서는 조기를 전통적인 4대 경제 해산어의 하나로 꼽는다[3]. 국내 식품원료 목록에는 '조기', '참조기', '굴비' 같은 이름이 함께 올라 있어, 시장에서 쓰는 이름과 가공품 이름이 원료명으로 그대로 쓰이고 있다[1].\n\n우리말 이름 '조기'와 '굴비'의 어원이나 옛 문헌 기록은 이번 조사에서 공공기관·학술 원문으로 확인하지 못함. 영광 등 특정 산지 굴비의 지리적 표시 등록 여부도 이 학명으로 연결된 공공 등록 자료에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "조기는 바닥 가까이에 사는 온대성 어종으로, 보하이·황해·동중국해에 널리 분포한다[2, 4]. 겨울에는 먼바다 월동장으로 갔다가 연안의 산란·섭이장으로 이동하며, 연안에서는 부세와 같은 섭이장·산란장을 함께 쓴다[3]. 황해 남부 계군의 월동장은 북위 32°10'–33°48', 동경 122°30'–125°00', 수심 40–65 m 해역으로 추정되었다[10].\n\n형태로는 등지느러미 시작점에서 옆줄까지 비늘이 5–6줄로 성기게 나 있어 8–9줄인 부세와 구별되며, 부레 곁가지 끝의 작은 가지 두 개 길이가 서로 다르다는 점도 동정 기준으로 쓰인다[3]. 염색체는 2n=48로, 3쌍의 차중부 염색체와 21쌍의 단부 염색체(기본수 54)로 이루어진다[8]. 소리를 내는 발음근을 가지고 있어 수중 소음에 노출된 개체의 발음근 전사체가 연구되었다[29].\n\n동중국해 연안에서 안정동위원소로 잰 영양 단계는 4.15 ± 0.03으로 부세(4.16 ± 0.05)와 차이가 없었고, 위 내용물의 주요 먹이 조성도 비슷했다[3]. 황해 남부·동중국해 6개 정점의 골격 형태 분석에서는 한국 서해안 무리를 포함한 네 집단으로 나뉘었다[9]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "가장 혼동되는 종은 같은 속의 부세(Larimichthys crocea)로, 식약처 목록에서도 별개 원료로 올라 있다[1]. 두 종은 어린 시기의 생김새와 빛깔이 비슷해 어민도 맨눈으로 가리기 어렵고, 중국 동중국해 연안 15개 항구 조사에서는 조기 어획물 속에 부세가 평균 21.44 ± 9.35% 섞여 있었다[3]. 따라서 부세의 영양·안전 자료를 조기 자료로 옮겨 쓰지 않는다[1, 3].\n\n중국에서는 두 종을 교배한 잡종이 육종 재료로 연구되며, 미세위성 분석에서 잡종은 각각 어미 쪽 종과 가깝게 묶였다[14]. 잡종의 성장 우세를 전사체·DNA 메틸화로 분석한 연구도 있다[15]. 국내 연구진은 미토콘드리아 DNA의 염기 하나 차이로 두 종을 구별하는 형광 융해곡선 분석법을 보고했고, 근육 삼출액의 질량분석 표지로 민어과 다섯 종을 가리는 방법도 나왔다[33, 34].\n\n식약처 목록에는 '조기'가 이름에 들어간 다른 종도 있어, 수조기(Nibea albiflora, 이명 반어), 보구치(Pennahia argentata, 이명 백조기), 흑조기(Atrobucca nibe), 긴가이석태(Pseudotolithus elongatus, 이명 민어조기·침조기), 대서양꼬마민어(Micropogonias undulatus, 이명 대서양조기)는 모두 조기와 다른 원료다[1]. 민어과 계통 분석에서 Larimichthys 속은 Collichthys 속과 함께 가장 젊은 계통으로 묶였다[6]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 양식",
+   "body": "조기는 한국과 중국이 함께 이용하는 월경성 자원으로, 한중 어업협정 아래 관리 방안이 논의된다[10]. 황해 남부 계군의 월동 적지는 2010–2014년보다 2015–2019년에 크게 줄고 동북쪽으로 옮겨 갔으며, 연구진은 어획 압력 증가와 황해 난류 강화를 원인으로 들었다[10]. 앙상블 서식지 모형에서는 염분과 수온이 월동 분포를 정하는 중요한 요인이었다[11].\n\n중국 어업통계연보를 인용한 연구에 따르면 2022년 중국의 조기 어획량은 26만 8천 톤으로 부세 3만 7천 톤의 약 7배였다[3]. 국내 연근해 조기 생산량 통계는 이번 조사에서 통계청·해양수산부 원문으로 확인하지 못함.\n\n양식은 2015년 인공 번식 기술이 개발된 뒤 중국 저장·장쑤 연안을 중심으로 늘었다[2]. 국내에서는 국립수산과학원이 양식 2세대 어미 600마리를 30톤 실내 수조에서 수온(11.5→22.0 °C)과 광주기(9L:15D)를 조절해 23일간 자연 산란시켰다[18]. 대형 수조 집단 산란에서는 어미 1,049마리 중 60.9%만 번식에 참여했지만 여러 번 나누어 알을 모으면 자손의 유전 다양성(기대 이형접합도 0.860)이 유지되었다[17]. 양식 암컷은 생식선 성숙 장애를 보이며 생식소자극호르몬이 낮은 것이 원인으로 지목되었고[19], 세균 Pseudomonas plecoglossicida가 일으키는 내장 백색결절병이 양식의 큰 문제다[20]. 자어에게 타우린을 강화한 로티퍼를 먹이면 성장과 생존이 나아졌다[31]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록에 오른 원료명만 보아도 조기는 생선(조기·참조기), 소금에 절여 말린 굴비와 그 가공품(굴비살·굴비채·굴비포), 구이, 살·연육, 알, 단백질·추출물·효소분해액 등 여러 형태로 쓰인다[1]. 국내 연구는 우리나라에서 소비되는 조기의 90% 이상이 염건품으로 가공된다고 적었다[4].\n\n목포에서 산 조기를 10% 천일염 용액에 17 °C에서 3시간 절인 뒤 말린 실험에서, 열풍건조(60 °C, 96시간)한 굴비의 휘발성 염기질소는 66.27 mg/100 g으로 저온 진공건조(34.38 mg/100 g)·동결건조(33.03 mg/100 g)보다 높았다[4]. 연구진은 건어물의 섭취 허용 기준으로 50 mg/100 g 이하를 인용하며 저온 진공건조가 품질이 좋다고 보았다[4]. 한국식품연구원 연구진은 단파 적외선 초분광 영상으로 저장 중 조기의 휘발성 염기질소를 예측하는 방법을 보고했다[32].\n\n중국 연구에서 다진 조기 살을 진공 포장해 80 °C에서 180분 가열한 국물은 감칠맛 뉴클레오타이드인 이노신산이 50.64 mg/100 g으로 가장 많았고, 100 °C 20분 처리는 아미노산과 다가불포화지방산을 가장 잘 보존했다[5]. 조기 단백질 가수분해물은 전처리와 효소 종류에 따라 용해도·항산화 성질이 달라졌고[28], 파파인 가수분해물에서 찾은 펩타이드 두 종은 시험관에서 잔틴산화효소를 억제했지만 사람에서 요산을 낮춘다는 근거는 아니다[27]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "2025년 발표된 염색체 수준 유전체는 저장성 양식장의 자성발생 동형접합 암컷에서 얻었고, 총길이 677.35 Mb 가운데 97.89%(663.13 Mb)가 24개 염색체에 배치되었다[2]. 단백질 암호화 유전자 28,640개가 주석되었고 반복서열은 34.55%였으며, BUSCO 완전도는 98.0%였다[2]. 앞서 발표된 두 유전체(706.15 Mb, 653.32 Mb)보다 연속성이 높고, 부세 유전체와 염색체가 1:1로 대응하는 높은 동형성을 보였다[2]. 그보다 앞서 여덟 조직의 전사체에서 93,990개 유전자와 12,539개 단순반복서열이 보고되었다[12].\n\n중국·한국 연안 8곳 117마리의 미토콘드리아 조절영역 분석에서 일배체형 다양도는 0.994 ± 0.002로 높았고, 한국 집단의 유전 다양성이 중국 집단보다 높았으며 두 나라 집단 사이에 유의한 분화가 있었다[7]. 국립수산과학원은 참조 유전체에서 고른 미세위성 표지로 다중 PCR 친자 판별 체계를 만들었다[16].\n\n중국에서는 100K SNP 칩이 개발되어 체중·체장·내병성의 유전력이 각각 0.47, 0.43, 0.33으로 추정되었다[13]. 같은 칩으로 내장 백색결절병 저항성 QTL 13곳을 찾았고[21], 고수온 내성 연구에서는 연관지도로 QTL 4곳을, 전장유전체 연관분석으로 후보 유전자 76개를 찾았다[30]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 조기와 그 가공 원료 15개는 모두 '사용가능'이며 별도 사용조건은 적혀 있지 않다[1]. 조기만을 대상으로 한 식품 알레르기 연구는 이번 조사에서 확인하지 못함. 조기 발음근에서 가장 많이 발현되는 유전자에 어류 알레르기의 주요 원인 단백질 계열인 파브알부민이 포함되어 있었다[29].\n\n중국 동부 연안 어류 조사에서 수은·납·니켈·아연 농도는 세 어종 가운데 부세가 가장 높았고, 전체 시료의 16%에서 카드뮴이 유럽연합 기준을 넘었지만 섭취 위해지수는 모두 1 미만이었다[22]. 익힌 조기 살의 메틸수은 소화 용출률은 25.8 ± 2.7%로 측정되었다[25]. 조기(Pseudosciaena polyactis로 표기) 시료로 지표 PCB 7종 분석법의 회수율(78–105%)이 검증되었다[26]. 국내 수산물 중금속 기준에 비춘 조기 모니터링 결과는 확인하지 못함.\n\n기생충으로는 조기·고등어·갈치를 조사한 연구에서 동중국해 시료 122마리 중 116마리(95.1%)에서 고래회충과 유충이 나왔고, 동중국해 유충의 84.8%가 Anisakis pegreffii였다[23]. 중국 전장시 시장 조사에서도 조기의 기생충 감염률이 30.28%였다[24]. 날것이나 덜 익힌 상태로 먹으면 감염 위험이 있다는 것이 연구진의 결론이다[24]. 굴비 같은 염건품의 나트륨 함량에 대한 공공기관 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Taurine",
+   "name_ko": "타우린",
+   "class": "아미노산 유도체",
+   "role": "nutrient",
+   "part": "염건 후 건조한 조기 살(목포산)",
+   "content_text": "저온 진공건조 88.82 mg/100 g(유리아미노산, 세 건조법 중 최고)[4]",
+   "activity_ko": "어육의 주요 유리아미노산으로 맛과 영양 평가 지표로 쓰인다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "L-Lysine",
+   "name_ko": "라이신",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "염건 후 건조한 조기 살",
+   "content_text": "저온 진공건조 96.82 mg/100 g(유리아미노산)[4]",
+   "activity_ko": "필수아미노산; 저온 건조 굴비에서 많은 아미노산으로 보고[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "다량영양소",
+   "role": "nutrient",
+   "part": "염건 후 건조한 조기 살",
+   "content_text": "건물 기준 41.48%(저온 진공건조), 33.54%(동결건조), 31.32%(열풍건조)[4]",
+   "activity_ko": "건조로 수분이 빠지면서 비율이 높아진다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "다진 조기 살을 진공 가열해 얻은 국물",
+   "content_text": "100 °C 20분 처리 1085.20 mg/100 g(논문 본문 표기)[5]",
+   "activity_ko": "조기에 많은 다가불포화지방산; 가열 중 산화되어 국물 향 성분(헥산알 등)의 원료가 된다[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "조기 국물",
+   "content_text": "수치는 본문에서 확인하지 못함 — DHA/EPA 비가 가열 조건 사이에 비교적 일정했다고 보고[5]",
+   "activity_ko": "DHA와 함께 조기 국물의 주요 오메가-3 지방산[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "조기 국물",
+   "content_text": "100 °C 20분 처리 1626.49 mg/100 g(C18:1n9c, 논문 본문 표기)[5]",
+   "activity_ko": "열에 안정해 가열 후에도 많이 남는 지방산[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Inosinic acid",
+   "name_ko": "이노신산(5′-IMP)",
+   "class": "뉴클레오타이드",
+   "role": "bioactive",
+   "part": "조기 국물",
+   "content_text": "80 °C 180분 처리 50.64 mg/100 g(총 뉴클레오타이드 160.67 mg/100 g)[5]",
+   "activity_ko": "감칠맛을 내는 정미성 뉴클레오타이드[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Adenosine monophosphate",
+   "name_ko": "아데닐산(5′-AMP)",
+   "class": "뉴클레오타이드",
+   "role": "bioactive",
+   "part": "조기 국물",
+   "content_text": "100 °C 20분 처리 102.1 mg/100 g[5]",
+   "activity_ko": "고온에서 ATP 분해로 늘어나며 글라이신과 함께 감칠맛에 관여한다고 서술[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Guanylic acid",
+   "name_ko": "구아닐산(5′-GMP)",
+   "class": "뉴클레오타이드",
+   "role": "bioactive",
+   "part": "조기 국물",
+   "content_text": "100 °C 20분 처리 12.0 mg/100 g[5]",
+   "activity_ko": "이노신산과 함께 감칠맛을 높이는 뉴클레오타이드[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Trp-Asp-Asp-Met-Glu-Lys-Ile-Trp",
+   "name_ko": "펩타이드 WDDMEKIW",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "조기 단백질 파파인 가수분해물(3 kDa 미만 분획)",
+   "content_text": "잔틴산화효소 억제 IC50 3.16 ± 0.03 mM(합성 펩타이드, 시험관)[27]",
+   "activity_ko": "시험관 효소 억제와 분자 도킹 결과일 뿐, 사람의 요산 저하 근거는 아니다[27]",
+   "source": [
+    27
+   ]
+  },
+  {
+   "name": "Ala-Pro-Pro-Glu-Arg-Lys-Tyr-Ser-Val-Trp",
+   "name_ko": "펩타이드 APPERKYSVW",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "조기 단백질 파파인 가수분해물",
+   "content_text": "잔틴산화효소 억제 IC50 5.86 ± 0.02 mM(시험관)[27]",
+   "activity_ko": "시험관 결과만 있음[27]",
+   "source": [
+    27
+   ]
+  },
+  {
+   "name": "Hepcidin",
+   "name_ko": "헵시딘(Lp_hepcidin)",
+   "class": "항균 펩타이드(유전자 발현)",
+   "role": "bioactive",
+   "part": "간 등 면역 기관",
+   "content_text": "감염 후 간에서 발현이 늘고 세균량과 음의 상관(함량 수치 없음)[20]",
+   "activity_ko": "내장 백색결절병 저항성의 표지 후보로 제안된 물고기 자체의 항균 펩타이드[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Parvalbumin",
+   "name_ko": "파브알부민",
+   "class": "칼슘 결합 단백질",
+   "role": "bioactive",
+   "part": "발음근",
+   "content_text": "발음근에서 가장 많이 발현되는 유전자 가운데 하나(전사체, 함량 수치 없음)[29]",
+   "activity_ko": "근육 에너지 대사·운동 기능 관련 유전자로 보고; 어류 알레르기 원인 단백질 계열[29]",
+   "source": [
+    29
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Taurine (free amino acids)",
+   "compound_ko": "타우린(유리아미노산)",
+   "part": "10% 천일염 염지 후 건조한 조기 살(목포 구입)",
+   "content": "저온 진공건조 88.82 mg/100 g; 총 유리아미노산 열풍 1141.49, 저온 진공 674.7, 동결 403.06 mg/100 g[4]",
+   "method": "양이온교환 크로마토그래피 아미노산 자동분석기(닌히드린 반응 후 분광 검출)",
+   "conditions": {
+    "instrument": "Hitachi L-8900 아미노산 자동분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "닌히드린 반응 후 분광광도 검출(파장은 논문에 없음)",
+    "injection": "",
+    "sample_prep": "희석 시료를 같은 부피의 5% 트라이클로로아세트산과 섞어 4 °C, 12,000×g에서 15분 원심분리해 단백질 제거 → 상등액 0.2 μm 시린지 필터 여과",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "건조법에 따라 달라지는 굴비 살의 유리아미노산 조성(타우린·라이신 등)을 품질 지표로 썼다[4]. 전문(Methods 2.5) 확인 — 칼럼 규격·완충액·검출한계·회수율은 논문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7073827/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Docosahexaenoic acid",
+   "compound_ko": "도코사헥사엔산(DHA)",
+   "part": "다진 조기 살 진공 가열 국물(저우산 시장 구입, 약 60 g 개체)",
+   "content": "100 °C 20분 처리 1085.20 mg/100 g(논문 본문 표기); Σn-3 PUFA 1642.87 mg/100 g[5]",
+   "method": "GC-FID(지방산 메틸에스터, 내부표준 C17:0)",
+   "conditions": {
+    "instrument": "Agilent 7890A GC, 불꽃이온화검출기(FID)",
+    "column": "TG-FAME(50 m × 0.25 mm × 0.20 μm)",
+    "mobile_phase": "운반 기체 질소 0.63 mL/min(정유량)",
+    "gradient": "140 °C 5분 → 4 °C/min로 200 °C(1분 유지) → 3 °C/min로 230 °C(15분 유지)",
+    "flow": "0.63 mL/min(질소); 수소 40 mL/min, 공기 400 mL/min",
+    "temp": "주입구 250 °C, 검출기 260 °C",
+    "detection": "FID",
+    "injection": "1 μL, 분할비 50:1",
+    "sample_prep": "시료 5 g + 피로갈산·부석·에탄올, HCl로 70–80 °C 40분 가수분해 → 다이에틸에터·석유에터로 3회 추출·건조 → C17:0 메틸에스터 내부표준(0.5 mg/mL) 첨가 → 2% NaOH-메탄올 85 °C 30분, 14% BF3-메탄올 30분 메틸화 → 헥산층 100 μL를 1 mL로 희석·여과",
+    "standard": "37종 FAME 혼합 표준품",
+    "linearity": "검량선 R² > 0.995(정량 지방산 전부)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "조기에 많은 오메가-3 지방산으로, 가열 조건에 따른 영양 보존 지표로 쓰였다[5]. 전문(Methods 2.11) 확인 — 검출·정량한계와 회수율은 논문에 없고, 함량의 기준(국물 무게인지 지방인지)은 본문에서 따로 밝히지 않았다[5].",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12857366/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Inosinic acid",
+   "compound_ko": "이노신산(5′-IMP)",
+   "part": "조기 국물(진공 저온 조리)",
+   "content": "80 °C 180분 처리 50.64 mg/100 g; 같은 조건 총 뉴클레오타이드 160.67 mg/100 g[5]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent 1260 HPLC",
+    "column": "",
+    "mobile_phase": "0.05 mol/L 인산칼륨 완충액(K2HPO4/KH2PO4, A) : 메탄올(B) = 95:5",
+    "gradient": "등용매(95:5)",
+    "flow": "1 mL/min",
+    "temp": "칼럼 28 °C",
+    "detection": "UV 254 nm",
+    "injection": "10 μL",
+    "sample_prep": "시료 5.00 g + 10% 과염소산 10 mL → 10,000 rpm 15분 원심분리, 잔사를 5% 과염소산으로 2회 세척 → 합친 상등액을 KOH로 pH 6.5 조정, 30분 정치 → 50 mL로 정용 → 0.45 μm 여과, 0–4 °C 보관",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "감칠맛을 내는 뉴클레오타이드로, 조리 조건별 국물 맛의 지표로 쓰였다[5]. 전문(Methods 2.10) 확인 — 칼럼 이름·규격과 검출한계·회수율은 논문에 없음[5].",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12857366/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [
+  {
+   "country": "중국",
+   "metric": "production_t",
+   "year": 2022,
+   "value": 268000,
+   "unit": "t",
+   "note": "논문이 「중국 어업통계연보(2023)」를 인용한 조기 어획량(부세는 3만 7천 톤); 같은 논문 서론은 동중국해 연안 생산량을 268,730톤으로 적음",
+   "source": [
+    3
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Larimichthys polyactis 행 15개(조기·조기단백질·굴비·굴비채·굴비포·조기구이·조기추출물·참조기·참조기포·참조기효소분해액: 부위 '-', 조기알: 부위 '균핵', 조기살·굴비살·조기연육·참조기살: 부위 '죽순', 모두 수산물·사용가능, 이명 '황조기', 영문 'Yellow croaker, Small yellow croaker', 사용조건 칸 비어 있음)과 같은 목록의 부세(Larimichthys crocea)·수조기(Nibea albiflora)·보구치(Pennahia argentata)·흑조기(Atrobucca nibe)·긴가이석태(Pseudotolithus elongatus)·대서양꼬마민어(Micropogonias undulatus) 행 (2026-10-13 수집본 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Chromosome-level genome assembly of the small yellow croaker, Larimichthys polyactis (Perciformes: Sciaenidae). Sci Data 2025. doi:10.1038/s41597-025-05072-y (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12044145/",
+   "publisher": "Scientific Data (Springer Nature)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Large and small yellow croakers feeding and living together make large yellow croaker population recovery difficult: A guild perspective. Biology (Basel) 2024;13:963. doi:10.3390/biology13120963 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11727176/",
+   "publisher": "Biology (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Effects of various drying methods on physicochemical characteristics and textural features of yellow croaker (Larimichthys polyactis — PubMed 색인 기준). Foods 2020;9:196. doi:10.3390/foods9020196 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7073827/",
+   "publisher": "Foods (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Effect of low-temperature vacuum cooking (sous vide) on the nutritional and flavor quality of small yellow croaker (Larimichthys polyactis) soup. Food Chem X 2026. doi:10.1016/j.fochx.2026.103488 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12857366/",
+   "publisher": "Food Chemistry: X (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "The phylogenetic relationships of the family Sciaenidae based on genome-wide data analysis. Animals (Basel) 2022;12:3386. doi:10.3390/ani12233386 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36496907/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Significant population genetic structure detected in the small yellow croaker Larimichthys polyactis inferred from mitochondrial control region. Mitochondrial DNA 2015;26(3):409-19. doi:10.3109/19401736.2013.843076 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24228686/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Karyotypic analysis of chicken grunt, small yellow croaker, and brown croaker. Dev Reprod 2019;23(1):73-78. doi:10.12717/DR.2019.23.1.073 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31049474/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Skeleton-based morphometric analysis of small yellow croaker (Larimichthys polyactis) in the Southern Yellow Sea and East China Sea. J Fish Biol 2026;109(2):1187-1197. doi:10.1111/jfb.70504 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42157634/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Changes in overwintering ground of small yellow croaker (Larimichthys polyactis) based on MaxEnt and GARP models: A case study of the southern Yellow Sea stock. J Fish Biol 2023;102(6):1358-1372. doi:10.1111/jfb.15383 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36928873/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "[Overwintering distribution and its environmental determinants of small yellow croaker based on ensemble habitat suitability modeling]. Ying Yong Sheng Tai Xue Bao 2020;31(6):2076-2086. doi:10.13287/j.1001-9332.202006.034 (중국어, PubMed 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34494762/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "In-depth transcriptome analysis of Larimichthys polyactis, de novo assembly, functional annotation. Mar Genomics 2017;33:27-29. doi:10.1016/j.margen.2017.02.002 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28258924/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "First development of a 100 K SNP array for small yellow croaker and its application in genomic selection for growth and disease resistance. BMC Genomics 2025;26:1139. doi:10.1186/s12864-025-12343-w (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41286602/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Comparative analysis of genetic structure and diversity in Larimichthys polyactis, L. crocea, and their reciprocal hybrids based on microsatellite loci. Animals (Basel) 2025;15:1360. doi:10.3390/ani15101360 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40427239/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Transcriptome and DNA methylation analyses provide insight into the heterosis of growth-related traits in hybrid yellow croaker. BMC Genomics 2025. doi:10.1186/s12864-025-11248-y (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39939943/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Developing a microsatellite polymerase chain reaction system for small yellow croaker and its application in parentage assignment. Biology (Basel) 2024;13:710. doi:10.3390/biology13090710 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39336137/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Genetic diversity and spawning patterns of small yellow croaker in a large-scale pooling system. Biology (Basel) 2026;15:734. doi:10.3390/biology15090734 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42117873/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Morphometric assessment of egg quality for second generation of cultured small yellow croaker broodstock. Dev Reprod 2025;29(1):13-18. doi:10.12717/DR.2025.29.1.13 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40256123/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Gonadotropins and sex steroid hormones in captive-reared small yellow croaker and their role in female reproductive dysfunction. Int J Mol Sci 2023;24:8919. doi:10.3390/ijms24108919 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37240265/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Rapid qPCR detection of Pseudomonas plecoglossicida and antimicrobial peptide dynamics in infected Larimichthys polyactis. Fish Shellfish Immunol 2025;166:110638. doi:10.1016/j.fsi.2025.110638 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40774547/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "QTL mapping-based identification of visceral white-nodules disease resistance genes in Larimichthys polyactis. Int J Mol Sci 2024;25:10872. doi:10.3390/ijms252010872 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39456653/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Methylmercury and trace elements in the marine fish from coasts of East China. J Environ Sci Health A 2013;48(12):1491-501. doi:10.1080/10934529.2013.796820 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23802158/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Molecular identification of Anisakis and Hysterothylacium larvae in marine fishes from the East China Sea and the Pacific coast of central Japan. Int J Food Microbiol 2015;199:1-7. doi:10.1016/j.ijfoodmicro.2015.01.007 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25617845/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "[Prevalence of parasitic infections in fish from markets in Zhenjiang City from 2017 to 2020]. Zhongguo Xue Xi Chong Bing Fang Zhi Za Zhi 2022;34(5):527-530. doi:10.16250/j.32.1374.2021178 (중국어, PubMed 영문 초록 확인 — 초록 표기 'little yellow croaker')",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36464250/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Mechanistic understanding of low methylmercury bioaccessibility from crayfish (Procambarus clarkii) muscle tissue. Sci Total Environ 2017. doi:10.1016/j.scitotenv.2017.06.066 (PubMed 초록 확인 — 비교 어종으로 Larimichthys polyactis 포함)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28641185/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Sample pretreatment method for determination of indicator polychlorinated biphenyls in seafood using ultrasonic extraction followed by dispersive solid-phase extraction and GC-ECD. J Chromatogr Sci 2018. doi:10.1093/chromsci/bmy022 (PubMed 초록 확인 — 시료 표기 Pseudosciaena polyactis)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29659742/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Xanthine oxidase inhibitory peptides from Larimichthys polyactis: Characterization and in vitro/in silico evidence. Foods 2023;12:982. doi:10.3390/foods12050982 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36900499/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Functional and bioactive properties of Larimichthys polyactis protein hydrolysates as influenced by plasma functionalized water-ultrasound hybrid treatments and enzyme types. Ultrason Sonochem 2022. doi:10.1016/j.ultsonch.2022.106023 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35561594/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Transcriptome analysis reveals dysfunction of the endoplasmic reticulum protein processing in the sonic muscle of small yellow croaker (Larimichthys polyactis) following noise exposure. Mar Environ Res 2024. doi:10.1016/j.marenvres.2023.106299 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38154196/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Meta-analysis of QTL mapping and GWAS reveal candidate genes for heat tolerance in small yellow croaker, Larimichthys polyactis. Int J Mol Sci 2025;26:1638. doi:10.3390/ijms26041638 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40004102/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "A preliminary study on the effects of taurine-enriched rotifers on the growth and survival of the small yellow croaker Larimichthys polyactis larvae. Animals (Basel) 2022;12:1403. doi:10.3390/ani12111403 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35681867/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Prediction and visualization of total volatile basic nitrogen in yellow croaker (Larimichthys polyactis — PubMed 색인 기준) using shortwave infrared hyperspectral imaging. Foods 2024;13:3228. doi:10.3390/foods13203228 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39456290/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "High specific genotyping method using short target probe and helper probe. Mol Cell Probes 2016;30(4):273-276. doi:10.1016/j.mcp.2016.05.002 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27223605/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Discovery of mass spectral peak markers and protein biomarkers in fish muscle exudates for rapid and precise recognition of fish species via magnetic beads and mass spectrometry. Food Chem X 2024. doi:10.1016/j.fochx.2024.101509 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38883916/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
