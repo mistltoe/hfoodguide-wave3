@@ -1,0 +1,605 @@
+{
+ "slug": "lindera-obtusiloba",
+ "name_ko": "생강나무",
+ "name_en": "Blunt-lobe spicebush",
+ "scientific_name": "Lindera obtusiloba Blume",
+ "aliases": [
+  "아귀나무",
+  "동백나무",
+  "개동백나무",
+  "생강나무잎",
+  "생강나무꽃",
+  "Blunt-lobe spicebush",
+  "Japanese spicebush",
+  "Benzoin cercidifolium (Hemsl.) Rehder"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "생강나무(Lindera obtusiloba Blume)는 녹나무과(Lauraceae) 생강나무속의 잎지는 떨기나무로, 동아시아의 아열대·온대에 널리 분포한다[1, 18]. 식약처 「식품원료 목록」에는 다른 이름 아귀나무·동백나무·개동백나무, 영문명 Blunt-lobe spicebush, 이명 Benzoin cercidifolium (Hemsl.) Rehder가 적혀 있다[1].\n\n식품원료로서의 지위는 부위에 따라 다르다[1]. '생강나무잎'은 '사용가능' 원료이고 사용 조건은 '사용가능부위 : 잎'이다[1]. '생강나무꽃'은 '제한적사용' 원료이고 사용 조건은 '제한적사용가능부위 : 꽃(다류의 원료로만 사용)'이다[1]. 따라서 잎은 식품원료로 쓸 수 있지만 꽃은 차(다류)의 원료로만 쓸 수 있고, 줄기·가지·나무껍질·열매·뿌리는 이 종의 목록 행에 사용 부위로 올라 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n잎의 대표 성분은 플라보노이드 배당체인 퀘르시트린과 아프젤린이다[4, 5, 6]. 줄기에서는 리그난·부타놀라이드·페놀 배당체가 분리되었지만 줄기는 식품원료 사용 부위가 아니다[1, 9, 10, 11, 12]. 보고된 효과는 대부분 세포·동물 실험 결과이며, 사람을 대상으로 한 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "한 총설은 생강나무가 중국·한국·일본의 전통 의학에서 수 세기 동안 쓰였고, 한국과 중국에서는 어혈(피가 뭉친 상태)과 염증성 질환에 쓰였다고 정리했다[3]. 잎은 전통적으로 차와 음식으로 먹어 왔다고 소개된다[3, 5]. 같은 총설에 따르면 한국 전통 의학에서는 잎이나 가지 추출물을 간 질환, 혈액순환 개선, 불면, 불안에 썼고, 어린잎은 기름에 지져 사찰 음식으로 썼다[3]. 생강나무에서 짠 기름은 일부 지역에서 머릿기름으로 쓰였고, 중국에서는 나무껍질을 데워 무릎에 대는 방식으로 류머티즘에 썼다고 한다[3].\n\n한 연구는 나무와 껍질의 물 추출물이 중의학·한의학에서 염증과 간세포암을 포함한 만성 간 질환에 쓰인다고 소개하며 이 추출물을 사람 간암 세포 실험에 썼다[24]. 같은 연구진의 앞선 간 성상세포 연구는 한국에서 생강나무 추출물이 염증·혈액순환·간 손상 예방에 수 세기 동안 쓰였다고 소개했으나, 초록에 원료 부위는 적혀 있지 않다[23]. 다만 나무·껍질·가지는 현재 식품원료 목록의 사용 부위가 아니다[1]. 식품원료 목록이 꽃을 '다류의 원료로만' 허용한 조건이 정해진 시기와 근거 자료는 확인하지 못함. 식약처 목록에는 다른 이름으로 '동백나무'·'개동백나무'가 적혀 있으나[1], 이 이름이 쓰인 지역과 유래는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "생강나무는 동아시아의 아열대·온대에 널리 분포하는 낙엽 떨기나무이며, 녹나무과에서 가장 북쪽까지 자라는 종으로 소개된다[18]. 잎 가장자리가 세 갈래 또는 다섯 갈래로 갈라지거나 때로는 갈라지지 않고, 잎맥이 세 갈래 또는 다섯 갈래로 나오는 점이 같은 속의 다른 식물과 다르다[18]. 동아시아의 개체군은 건조 지대를 사이에 두고 북부와 남부로 나뉘어 있다[18, 19].\n\n한국에 자라는 생강나무속 4종(생강나무 포함)의 서식지 모델 연구에서 생강나무는 분포 범위가 넓었지만, 기후 변화 시나리오에서 적합 서식지가 81% 줄어들 것으로 예측되었다[20]. 이 연구에서 서식지 적합도에 가장 큰 영향을 준 요인은 기온의 계절 변동과 생육기 강수량이었다[20].\n\n잎·열매 중과피·씨·나무껍질에는 정유가 들어 있으며, 잎 정유에서는 카리오필렌(7.37%)과 엘레몰(5.06%)이 주요 성분으로 보고되었다고 총설이 정리했다[3]. 국내 공식 기관의 형태 기재(키, 꽃차례, 암수 구분, 개화·결실 시기)는 이 환경에서 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 구별",
+   "body": "식약처 식품원료 목록에는 생강나무 외에도 같은 종의 품종으로 적힌 원료가 따로 올라 있다[2]. 고로쇠생강나무잎(Lindera obtusiloba f. quinquelobum, 잎), 둥근잎생강나무순(L. obtusiloba f. ovata, 순), 털생강나무순(L. obtusiloba f. villosum, 순)은 모두 '사용가능'이다[2]. 북미의 벤조인생강나무(Lindera benzoin)는 가지·잎이 '사용가능'이고, 오약(Lindera strichnifolia)은 '사용불가'다[2]. 이들은 학명·사용 부위·지위가 생강나무(잎 사용가능, 꽃 제한적사용)와 달라 자료를 섞으면 안 된다[1, 2].\n\n이름 혼동에도 주의해야 한다[1, 2]. 생강나무의 다른 이름 '동백나무'는 목록에서 동백나무(Camellia japonica, 잎·꽃잎·열매 사용가능)라는 다른 식물의 원료명이기도 하다[1, 2]. 이른 봄 노란 꽃이 비슷한 산수유(Cornus officinalis)는 목록에서 열매만 사용 부위로 올라 있다[2]. 두 꽃의 형태 구별법은 공식 원문을 열어 확인하지 못함.\n\n벤조인생강나무 열매에서 분리된 오브투실락톤류는 생강나무에서도 앞서 분리된 성분이어서, 이 성분만으로 종을 가릴 수는 없다[32]."
+  },
+  {
+   "key": "cultivation",
+   "title": "자생·재배와 원료 수급",
+   "body": "생강나무는 한국 산림에 자생하는 나무이며, 한국의 생강나무속 가운데 분포 범위가 넓은 종이다[20]. 기후 변화가 심해질수록 적합 서식지가 북쪽과 높은 곳으로 옮겨 가고 남부·중부에서 크게 줄어들 것으로 예측되어, 연구진은 기후적으로 안정된 피난처 보호와 서식지 밖 보전을 함께 제안했다[20].\n\n연구에 쓰인 잎 원료의 출처를 보면, 한 연구는 강원도 홍천 부근에서 채집한 말린 잎을 약초 판매처에서 샀고[5], 다른 연구는 국내산 말린 잎을 충북 충주의 약초 판매처에서 샀다[6]. 또 다른 연구는 제주에서 채집해 한국생명공학연구원 식물추출물은행에 보관된 잎 추출물을 썼다[4]. 재배 방법·수확 시기에 관한 공식 지침은 확인하지 못함.\n\n농작물생산조사·특용작물 생산실적 등 국내 생산 통계에서 생강나무 항목은 확인하지 못함. 지리적 표시 등록, 생산자 단체, 수출입 통계도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "식품원료 목록상 잎은 식품원료로, 꽃은 다류(차)의 원료로만 쓸 수 있어 꽃을 다른 식품의 원료로 쓰는 것은 허용되지 않는다[1]. 추출 방법은 목록에 정해져 있지 않다[1].\n\n연구에서 쓴 잎 추출 조건은 다음과 같다[4, 5, 6]. 말린 잎을 70% 에탄올로 70 °C에서 4시간 추출해 동결건조했을 때 수율은 21.8%였다[5]. 말린 잎 100 g을 30% 에탄올 2,000 mL로 70 °C에서 8시간 추출하고 당도(Brix) 20–25까지 농축해 동결건조하자 28 g이 얻어졌다[6]. 100% 메탄올 잎 추출물에서는 퀘르시트린 26.04 ± 0.05 mg/g, 아프젤린 15.82 ± 0.02 mg/g이 측정되었다[4].\n\n70% 에탄올 추출물에 퀘르시트린 62.9%와 아프젤린 22.0%가 들어 있었다는 보고도 있으나 초록에 원료 부위가 적혀 있지 않다[7]. 이 추출물을 다른 논문은 꽃(bloom) 추출물로 인용했다[4]. 잎 추출물(12 mg/mL)을 상추·양배추·굴 표면에 처리하자 쥐 노로바이러스 플라크가 각각 76.4%, 60.0%, 38.2% 줄어 식품 위생 소재로 연구되었다[17]. 목재를 수증기 증류한 정유에서는 27개 성분이 확인되었지만 목재는 식품원료 사용 부위가 아니다[1, 33]. 생강나무 원료 제품의 생산실적 통계는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 분류",
+   "body": "생강나무속은 약 100종으로 이루어진 녹나무과의 큰 속이며, 생강나무는 '핵심 월계수족(core Laureae)' 안에 놓인다[18]. 중국에서 새로 해독한 10개 엽록체 유전체의 길이는 152,343–154,175 bp였고(표 기준), 모두 113개 고유 유전자(단백질 암호 79, tRNA 30, rRNA 4)를 가졌으며 GC 함량은 39.12–39.22%였다[18]. 13개 엽록체 유전체 전체의 염기 다양도(π)는 0.00136이었고, 북부와 남부 개체군이 계통수에서 갈렸지만 두 변종(잎 가장자리 모양으로 구분) 사이의 경계는 드러나지 않았다[18].\n\n전사체에서 27개 저복제 핵 유전자 프라이머가 개발되어 24개 집단 90개체의 유전 다양성 조사에 쓰였다[21]. 이 핵 유전자들을 쓴 계통지리 연구에서는 저위도 집단의 유전 다양성과 유효 집단 크기가 고위도 집단의 약 2–3배였고, 두 지역 계통은 중기 플라이스토세에 갈라졌다[19]. 일본 낙엽활엽수림 구성종 34종의 엽록체 DNA 조사에서 생강나무의 염기 다양도는 0.00289로 종 안 변이가 비교적 큰 편이었다[22].\n\n다만 이 연구들은 대부분 중국·일본 개체를 분석했고, 한국 개체군만의 유전 구조는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 목록에서 생강나무꽃은 '제한적사용' 원료로, 사용 조건은 '제한적사용가능부위 : 꽃(다류의 원료로만 사용)'이다[1]. 꽃은 차 원료 외의 식품에 쓸 수 없고, 잎은 '사용가능' 원료다[1]. 이 종에 대한 공공기관의 알레르기·독성·잔류 정보는 확인하지 못함.\n\n잎 추출물은 쥐(랫드) 혈소판 실험에서 응집을 억제했고, 랫드에 100·200·400 mg/kg을 5일 먹인 뒤 채혈한 혈소판에서도 응집이 억제되었다[5]. 쥐 혈장에 추출물을 직접 넣은 시험에서 혈액 응고 시간(PT·aPTT)은 바뀌지 않았다[5]. 한 총설은 이 연구에서 aPTT가 바뀌었다고 적었으나 원 논문은 바뀌지 않았다고 보고했다[3, 5]. 생강나무 줄기에서 분리한 세코린코몰라이드 A는 동물 모델에서 출혈 시간을 늘렸다[14]. 사람에서 항혈소판제·항응고제와의 상호작용은 확인하지 못함.\n\n줄기에서 분리한 부타놀라이드와 리그난은 배양한 사람 암세포에 ED50 3.19–19.27 μg/mL 범위의 세포독성을 보였는데, 이는 세포 실험 결과일 뿐 사람에서의 독성이나 항암 효과를 뜻하지 않는다[11, 12]. 그 밖에 보고된 효과도 모두 세포 또는 동물 실험이며 사람 임상 근거는 확인하지 못함. 혈관 보호·혈압·당뇨 생쥐 연구[25, 26, 27]와 아토피 피부염 모델 연구[30]는 식품원료 사용 부위가 아닌 줄기(가지) 추출물을 썼고, 간 성상세포·간암 세포·지방세포 연구[23, 24, 34]는 나무·껍질 물 추출물이거나 초록에 부위가 없다. 잎 추출물을 쓴 연구로는 천식 생쥐 모델[4], 골관절염 생쥐 모델[6], 지방간 생쥐 모델[31]이 있고, 항우울 동물 실험[28]과 비만세포 알레르기 실험[29]은 원료 부위를 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercitrin",
+   "name_ko": "퀘르시트린(퀘르세틴-3-O-람노시드)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 100% 메탄올 추출물 26.04 ± 0.05 mg/g(2.60%)[4]; 부위 미기재 70% 에탄올 추출물 62.9%[7]",
+   "activity_ko": "잎 추출물의 주요 성분으로 여러 연구에서 확인[4, 5, 6]; 원료 부위가 초록에 없는 추출물에서 분리한 성분이 DPPH 소거(시험관)와 B16F10 세포 멜라닌 생성 억제(세포 실험)를 보임[8]",
+   "source": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Afzelin",
+   "name_ko": "아프젤린(캠페롤-3-O-람노시드)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎 100% 메탄올 추출물 15.82 ± 0.02 mg/g(1.58%)[4]; 부위 미기재 70% 에탄올 추출물 22.0%[7]",
+   "activity_ko": "퀘르시트린과 함께 잎 추출물의 주요 성분[4, 5]; 분리 성분이 DPPH·FRAP 항산화 시험(시험관)에서 활성[8]",
+   "source": [
+    4,
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Episesamin",
+   "name_ko": "(+)-에피세사민",
+   "class": "리그난",
+   "role": "bioactive",
+   "part": "잔가지(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "잔가지 70% 에탄올 추출물의 클로로폼 분획에서 결정으로 분리; 간 성상세포 증식·TGF-β 발현 억제(세포 실험)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Syringaresinol",
+   "name_ko": "(+)-시링가레시놀",
+   "class": "리그난",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기에서 분리된 알려진 리그난[9, 12]",
+   "source": [
+    9,
+    12
+   ]
+  },
+  {
+   "name": "Pluviatilol",
+   "name_ko": "플루비아틸롤",
+   "class": "리그난",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "비만세포 히스타민 분비 억제(세포 실험)[9]; 사람 암세포주 세포독성(세포 실험)[12]",
+   "source": [
+    9,
+    12
+   ]
+  },
+  {
+   "name": "Linderin A",
+   "name_ko": "린데린 A",
+   "class": "네오리그난",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기에서 새로 분리; 사람 비만세포에서 TNF-α·IL-6 유전자 발현 억제(세포 실험)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Koaburaside",
+   "name_ko": "코아부라사이드",
+   "class": "페놀 배당체",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기에서 분리한 8개 페놀 배당체 중 하나; 비만세포 히스타민 분비 억제(세포 실험)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Secolincomolide A",
+   "name_ko": "세코린코몰라이드 A",
+   "class": "세코부타놀라이드",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기 메탄올 추출물에서 분리; 토끼 혈소판의 콜라겐 유도 응집 억제(세포 밖 시험), 동물 모델에서 출혈 시간 연장[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Secosubamolide B",
+   "name_ko": "세코수바몰라이드 B",
+   "class": "세코부타놀라이드",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기 메탄올 추출물에서 새로 분리; 함께 분리된 성분들이 수지상세포의 IL-6·IL-12 p40 생성 억제(IC50 1.8–24.1 μM, 세포 실험)[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "(2Z,3S,4S)-2-(11-Dodecenylidene)-3-hydroxy-4-methylbutanolide",
+   "name_ko": "부타놀라이드(카드 후보 성분)",
+   "class": "부타놀라이드",
+   "role": "bioactive",
+   "part": "줄기(식품원료 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "줄기에서 새로 분리된 3개 부타놀라이드 중 하나; 사람 암세포주 ED50 3.19–14.63 μg/mL(세 성분 범위, 세포 실험)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Obtusilactone A",
+   "name_ko": "오브투실락톤 A",
+   "class": "γ-락톤",
+   "role": "bioactive",
+   "part": "부위 미기재",
+   "content_text": "",
+   "activity_ko": "생강나무에서 처음 분리된 C17·C19 오브투실락톤류의 하나로, 벤조인생강나무 열매에서도 분리됨[32]",
+   "source": [
+    32
+   ]
+  },
+  {
+   "name": "Cinnamtannin B1",
+   "name_ko": "신남탄닌 B1",
+   "class": "프로안토시아니딘",
+   "role": "bioactive",
+   "part": "부위 미기재(초록)",
+   "content_text": "",
+   "activity_ko": "에틸아세테이트 분획의 활성 성분; 예르시니아균의 III형 분비계 억제(세균·세포 실험)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "beta-Pinene",
+   "name_ko": "β-피넨",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "",
+   "activity_ko": "잎 추출물 성분 가운데 쥐 노로바이러스 감염력을 49.7% 낮춤(세포 실험)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Caryophyllene",
+   "name_ko": "카리오필렌",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "잎(정유)",
+   "content_text": "잎 정유 7.37%(총설 인용)[3]",
+   "activity_ko": "잎 정유의 주요 성분[3]",
+   "source": [
+    3
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercitrin",
+   "compound_ko": "퀘르시트린",
+   "part": "잎(메탄올 추출물)",
+   "content": "26.04 ± 0.05 mg/g(2.60%), 피크 1 [M−H]⁻ m/z 447 → 301[4]",
+   "method": "UPLC-Q-ToF/MS",
+   "conditions": {
+    "instrument": "ACQUITY UPLC + Vion IMS Q-ToF 질량분석기(Waters)",
+    "column": "BEH C18(2.1 × 100 mm, 1.7 μm)",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 100% 아세토니트릴",
+    "gradient": "0–1분 A 95% 유지; 이후 20분간 직선 기울기로 A 0%까지; 20–22.30분 A 95%로 복귀 후 재평형(총 25분)",
+    "flow": "0.4 mL/min",
+    "temp": "35 °C",
+    "detection": "ESI 음이온 모드, m/z 100–1500 데이터 의존 스캔(0.2 s), 모세관 2300 V, 콘 40 V, 탈용매 350 °C·질소 800 L/h, 이온원 110 °C, 잠금 질량 류신-엔케팔린 [M−H]⁻ 554.2615",
+    "injection": "2 μL",
+    "sample_prep": "제주 채집 잎(한국생명공학연구원 식물추출물은행 PB2899.2)의 100% 메탄올 추출물",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 추출물에서 가장 많은 성분으로 함량을 제시했다; 표준품·검량선·검출한계는 본문에 적혀 있지 않다[4]",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7402094/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Afzelin",
+   "compound_ko": "아프젤린(캠페롤 람노시드)",
+   "part": "잎(메탄올 추출물)",
+   "content": "15.82 ± 0.02 mg/g(1.58%), 피크 2 [M−H]⁻ m/z 431(잠정 동정)[4]",
+   "method": "UPLC-Q-ToF/MS",
+   "conditions": {
+    "instrument": "ACQUITY UPLC + Vion IMS Q-ToF 질량분석기(Waters)",
+    "column": "BEH C18(2.1 × 100 mm, 1.7 μm)",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 100% 아세토니트릴",
+    "gradient": "0–1분 A 95% 유지; 이후 20분간 직선 기울기로 A 0%까지; 20–22.30분 A 95%로 복귀 후 재평형(총 25분)",
+    "flow": "0.4 mL/min",
+    "temp": "35 °C",
+    "detection": "ESI 음이온 모드, m/z 100–1500 데이터 의존 스캔(0.2 s), 모세관 2300 V, 콘 40 V, 탈용매 350 °C·질소 800 L/h, 이온원 110 °C, 잠금 질량 류신-엔케팔린 [M−H]⁻ 554.2615",
+    "injection": "2 μL",
+    "sample_prep": "제주 채집 잎(한국생명공학연구원 식물추출물은행 PB2899.2)의 100% 메탄올 추출물",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "퀘르시트린과 함께 잎의 두 번째 주성분으로 함량을 제시했다; 질량 단편으로 잠정 동정했고 표준품 언급은 없다[4]",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7402094/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercitrin",
+   "compound_ko": "퀘르시트린·아프젤린",
+   "part": "잎(70% 에탄올 추출물)",
+   "content": "함량 수치 없음; 표준품과 비교해 두 성분을 확인하고 가장 많은 성분이라고 보고[5]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Alliance HPLC e2695(Waters)",
+    "column": "Capcell Pak UG120(4.6 × 250 mm, 5 μm)",
+    "mobile_phase": "0.08% 트리플루오로아세트산을 넣은 20% 아세토니트릴 수용액(등용매)",
+    "gradient": "",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "UV 254 nm",
+    "injection": "10 μL",
+    "sample_prep": "홍천 부근 채집 말린 잎을 70% 에탄올로 70 °C 4시간 추출, 여과·농축 후 동결건조(수율 21.8%)",
+    "standard": "퀘르시트린·아프젤린 시판 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 추출물의 지표 성분 확인용 크로마토그램이다; 정량값·검증 자료는 없다[5]",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098546/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercitrin",
+   "compound_ko": "퀘르시트린",
+   "part": "잎(30% 에탄올 추출물)",
+   "content": "함량 수치 없음; 머무름 시간과 UV 흡수로 존재만 확인[6]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent HPLC",
+    "column": "Hypersil GOLD(규격 원문 미기재)",
+    "mobile_phase": "A: 0.1% 트리플루오로아세트산 수용액, B: 아세토니트릴",
+    "gradient": "아세토니트릴 5·20·25·40% 단계와 5% 두 단계(시간 원문 미기재)",
+    "flow": "0.6 mL/min",
+    "temp": "25 °C",
+    "detection": "UV 280 nm",
+    "injection": "",
+    "sample_prep": "국내산 말린 잎 100 g을 30% 에탄올 2,000 mL로 70 °C 8시간 추출, Brix 20–25로 농축 후 동결건조(28 g)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "논문이 퀘르시트린을 생강나무의 주요 생리활성 지표로 보고 잎 추출물에서 확인했다[6]",
+   "source": [
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564646/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 생강나무잎(사용가능, '사용가능부위 : 잎')·생강나무꽃(제한적사용, '제한적사용가능부위 : 꽃(다류의 원료로만 사용)') 행. 학명 Lindera obtusiloba Blume / Benzoin cercidifolium (Hemsl.) Rehder, 다른 이름 아귀나무·동백나무·개동백나무, 영문명 Blunt-lobe spicebush. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속·이름이 비슷한 원료 행: 고로쇠생강나무잎(Lindera obtusiloba Blume f. quinquelobum Uyeki, 잎, 사용가능), 둥근잎생강나무순(Lindera obtusiloba f. ovata T.B.Lee, 순, 사용가능), 털생강나무순(Lindera obtusiloba f. villosum Nakai, 순, 사용가능), 벤조인생강나무잎·가지(Lindera benzoin Meisn., 가지·잎, 사용가능), 오약(Lindera strichnifolia Villars, 사용불가), 동백나무(Camellia japonica L., 잎·꽃잎·열매(씨앗포함), 사용가능), 산수유(Cornus officinalis Siebold & Zucc., 열매, 사용가능). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Therapeutic Potential of Lindera obtusiloba: Focus on Antioxidative and Pharmacological Properties. Plants (Basel) 2020;9(12):1765 (PMID 33322185, PMC7763160, doi:10.3390/plants9121765; 총설, 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7763160/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Lindera obtusiloba Attenuates Oxidative Stress and Airway Inflammation in a Murine Model of Ovalbumin-Challenged Asthma. Antioxidants (Basel) 2020;9(7):563 (PMID 32605045, PMC7402094, doi:10.3390/antiox9070563; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7402094/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Antiplatelet and Antithrombotic Effects of the Extract of Lindera obtusiloba Leaves. Biomol Ther (Seoul) 2016;24(6):659-664 (PMID 27302963, PMC5098546, doi:10.4062/biomolther.2016.021; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098546/",
+   "publisher": "Korean Society of Applied Pharmacology / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Protective Effects of Lindera obtusiloba Leaf Extract on Osteoarthritis in Mouse Primary Chondrocytes and a Medial Meniscus Destabilization Model. Int J Mol Sci 2025;26(20):9877 (PMID 41155170, PMC12564646, doi:10.3390/ijms26209877; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564646/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Protective effect of 70% ethanolic extract of Lindera obtusiloba Blume on tert-butyl hydroperoxide-induced oxidative hepatotoxicity in rats. Food Chem Toxicol 2013;53:214-20 (doi:10.1016/j.fct.2012.11.032) (PMID 23211441; 초록 확인, 원료 부위는 초록에 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23211441/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Separation of the antioxidant compound quercitrin from Lindera obtusiloba Blume and its antimelanogenic effect on B16F10 melanoma cells. Biosci Biotechnol Biochem 2013;77(1):58-64 (doi:10.1271/bbb.120562) (PMID 23291772; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23291772/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "A new neolignan and lignans from the stems of Lindera obtusiloba Blume and their anti-allergic inflammatory effects. Arch Pharm Res 2014;37(4):467-72 (doi:10.1007/s12272-013-0239-7) (PMID 24014307; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24014307/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Phenolic glycosides from Lindera obtusiloba and their anti-allergic inflammatory activities. Nat Prod Commun 2013;8(2):181-2 (PMID 23513723; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23513723/",
+   "publisher": "SAGE / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "New cytotoxic butanolides from Lindera obtusiloba BLUME. Chem Pharm Bull 2000;48(5):614-6 (doi:10.1248/cpb.48.614) (PMID 10823695; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10823695/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Two new lignans from Lindera obtusiloba blume. Arch Pharm Res 1999;22(4):417-22 (doi:10.1007/BF02979069) (PMID 10489885; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10489885/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Absolute configuration of antifibrotic (+)-episesamin isolated from Lindera obtusiloba BLUME. Z Naturforsch C 2011;66(9-10):460-4 (doi:10.1515/znc-2011-9-1004) (PMID 22191210; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22191210/",
+   "publisher": "De Gruyter / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Inhibition of Collagen-Induced Platelet Aggregation by the Secobutanolide Secolincomolide A from Lindera obtusiloba Blume. Front Pharmacol 2017;8:560 (PMC5572288, doi:10.3389/fphar.2017.00560) (PMID 28878675; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28878675/",
+   "publisher": "Frontiers / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Secobutanolides Isolated from Lindera obtusiloba Stem and Their Anti-Inflammatory Activity. Molecules 2024;29(18):4292 (PMC11434359, doi:10.3390/molecules29184292) (PMID 39339287; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39339287/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Selective Inhibition of Yersinia enterocolitica Type III Secretion by Lindera obtusiloba Extract and Cinnamtannin B1. Pharmaceutics 2025;17(9):1217 (PMC12473489, doi:10.3390/pharmaceutics17091217) (PMID 41012552; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41012552/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Antiviral Effects of Lindera obtusiloba Leaf Extract on Murine Norovirus-1 (MNV-1), a Human Norovirus Surrogate, and Potential Application to Model Foods. Antibiotics (Basel) 2020;9(10):697 (PMC7602249, doi:10.3390/antibiotics9100697) (PMID 33066532; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33066532/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Intraspecific differentiation of Lindera obtusiloba as revealed by comparative plastomic and evolutionary analyses. Ecol Evol 2024;14(3):e11119 (PMID 38469045, PMC10927362, doi:10.1002/ece3.11119; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927362/",
+   "publisher": "Wiley / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Complex evolution of East Asian Tertiary relict species revealed by the phylogeography of Lindera obtusiloba. BMC Plant Biol 2025;26(1):74 (PMC12801852, doi:10.1186/s12870-025-07827-6) (PMID 41366297; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41366297/",
+   "publisher": "BioMed Central / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Predicting habitat suitability of Korean Lindera as Tertiary relict plants under climate change scenarios. PLoS One 2026;21(6):e0350199 (PMC13232808, doi:10.1371/journal.pone.0350199) (PMID 42234675; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42234675/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Twenty-seven low-copy nuclear primers for Lindera obtusiloba (Lauraceae): A Tertiary relict species in East Asia. Appl Plant Sci 2017;5(12) (PMC5749822, doi:10.3732/apps.1700120) (PMID 29299398; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29299398/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Intraspecific sequence variation of chloroplast DNA among the component species of deciduous broad-leaved forests in Japan. J Plant Res 2006;119(5):539-52 (doi:10.1007/s10265-006-0010-y) (PMID 16941066; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16941066/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Extracts of Lindera obtusiloba induce antifibrotic effects in hepatic stellate cells via suppression of a TGF-beta-mediated profibrotic gene expression pattern. J Nutr Biochem 2009;20(8):597-606 (doi:10.1016/j.jnutbio.2008.06.003) (PMID 18824344; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18824344/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "A hepatoprotective Lindera obtusiloba extract suppresses growth and attenuates insulin like growth factor-1 receptor signaling and NF-kappaB activity in human liver cancer cell lines. BMC Complement Altern Med 2011;11:39 (PMC3117754, doi:10.1186/1472-6882-11-39) (PMID 21569410; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21569410/",
+   "publisher": "BioMed Central / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "An ethanolic extract of Lindera obtusiloba stems causes NO-mediated endothelium-dependent relaxations in rat aortic rings and prevents angiotensin II-induced hypertension and endothelial dysfunction in rats. Naunyn Schmiedebergs Arch Pharmacol 2011;383(6):635-45 (doi:10.1007/s00210-011-0643-9) (PMID 21533989; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21533989/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "An ethanolic extract of Lindera obtusiloba stems, YJP-14, improves endothelial dysfunction, metabolic parameters and physical performance in diabetic db/db mice. PLoS One 2013;8(6):e65227 (PMC3670856, doi:10.1371/journal.pone.0065227) (PMID 23755196; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23755196/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "A Standardized Lindera obtusiloba Extract Improves Endothelial Dysfunction and Attenuates Plaque Development in Hyperlipidemic ApoE-Knockout Mice. Plants (Basel) 2021;10(11):2493 (PMC8618780, doi:10.3390/plants10112493) (PMID 34834858; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34834858/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Antidepressant-Like Effects of Lindera obtusiloba Extracts on the Immobility Behavior of Rats in the Forced Swim Test. Molecules 2016;21(3):277 (PMC6273877, doi:10.3390/molecules21030277) (PMID 26927055; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26927055/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Suppression of mast-cell-mediated allergic inflammation by Lindera obtusiloba. Exp Biol Med 2011;236(2):240-6 (doi:10.1258/ebm.2010.010274) (PMID 21321322; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21321322/",
+   "publisher": "SAGE / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Lindera obtusiloba extract attenuates cytokine-mediated epidermal inflammation in keratinocytes and an MC903-induced AD-like mouse model. Sci Rep 2026;16(1) (PMC13482294, doi:10.1038/s41598-026-56618-y) (PMID 42249058; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42249058/",
+   "publisher": "Springer Nature / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Lindera obtusiloba Blume Alleviates Non-Alcoholic Fatty Liver Disease Promoted by N-(carboxymethyl)lysine. Nutrients 2024;16(14):2330 (PMC11280000, doi:10.3390/nu16142330) (PMID 39064772; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39064772/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Biologically active gamma-lactones and methylketoalkenes from Lindera benzoin. J Nat Prod 1992;55(1):71-83 (doi:10.1021/np50079a011) (PMID 1602301; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1602301/",
+   "publisher": "ACS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Anti-hyperpigmentation effects of Lindera obtusiloba Blume wood essential oil and its chemical composition. Nat Prod Res 2025:1-9 (doi:10.1080/14786419.2025.2602191) (PMID 41418298; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41418298/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "An active extract of Lindera obtusiloba inhibits adipogenesis via sustained Wnt signaling and exerts anti-inflammatory effects in the 3T3-L1 preadipocytes. J Nutr Biochem 2010;21(12):1170-7 (doi:10.1016/j.jnutbio.2009.09.013) (PMID 20092995; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20092995/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

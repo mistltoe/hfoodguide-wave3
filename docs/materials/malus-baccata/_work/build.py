@@ -1,0 +1,206 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(n, title, doi, pmid, note, pmc=None):
+    ids = f"PMID {pmid}" + (f", {pmc}" if pmc else "")
+    return {"n": n, "title": f"{title} ({ids}, {note})", "url": f"https://doi.org/{doi}",
+            "publisher": "PubMed", "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 야광나무열매(Malus baccata (L.) Borkhausen / Malus baccata var. leiostyla Rupr. & Maxim.; 이명 동배나무·아그배나무·들배나무·아가위나무; 영어명 'Siberian crap apple, Siberian crabapple'), 사용가능, 사용가능부위: 열매; 같은 속 사과·벚잎꽃사과·능금나무열매·크랩애플·Western crabapple열매 행과 이명 '아그배나무'가 붙은 산사나무·서양산사자 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Characterization of phenolics, amino acids, fatty acids and antioxidant activity in pulp and seeds of high altitude Himalayan crab apple fruits (Malus baccata) — J Food Sci Technol 2018;55:2194–2204", "10.1007/s13197-018-3133-y", "29892117", "초록 확인, PMC 전문 본문은 도구에서 비어 있어 확인 못함", "PMC5976601"),
+    pm(3, "Comparative metabolomics of Himalayan crab apple (Malus baccata) with commercially utilized apple (Malus domestica) using UHPLC-QTOF-IMS coupled with multivariate analysis — Food Chem 2022", "10.1016/j.foodchem.2022.134529", "36303373", "초록 확인"),
+    pm(4, "Evaluation of the Carbohydrate Composition of Crabapple Fruit Tissues Native to Northern Asia — Plants (Basel) 2023;12:3472", "10.3390/plants12193472", "37836212", "전문 확인, 단 도구 본문에서 종 이름이 빠져 종별 수치는 확인 못함", "PMC10575056"),
+    pm(5, "Sequencing of a Wild Apple (Malus baccata) Genome Unravels the Differences Between Cultivated and Wild Apple Species Regarding Disease Resistance and Cold Tolerance — G3 2019;9:2051–2060", "10.1534/g3.119.400245", "31126974", "전문 확인", "PMC6643876"),
+    pm(6, "High-quality haplotype-resolved genome assembly and annotation of Malus baccata 'Jackii' — Sci Data 2026", "10.1038/s41597-025-06504-5", "41507201", "전문 확인", "PMC12783112"),
+    pm(7, "Molecular Structure and Variation Characteristics of the Plastomes from Six Malus baccata (L.) Borkh. Individuals and Comparative Genomic Analysis with Other Malus Species — Biomolecules 2023;13:962", "10.3390/biom13060962", "37371542", "전문 확인", "PMC10296354"),
+    pm(8, "The East Asian wild apples, Malus baccata (L.) Borkh and Malus hupehensis (Pamp.) Rehder., are additional contributors to the genomes of cultivated European and Chinese varieties — Mol Ecol 2022", "10.1111/mec.16485", "35510734", "초록 확인"),
+    pm(9, "Dissecting the genetic basis of climatic adaptation in wild relatives (Malus baccata) for climate-resilient apple breeding — J Integr Plant Biol 2026;68:3705–3726", "10.1111/jipb.70194", "41742451", "초록 확인", "PMC13629269"),
+    pm(10, "Molecular markers linked to the apple scab resistance gene Vbj derived from Malus baccata jackii — Theor Appl Genet 2004", "10.1007/s00122-004-1803-9", "15365630", "초록 확인"),
+    pm(11, "The iron-regulated transporter, MbNRAMP1, isolated from Malus baccata is involved in Fe, Mn and Cd trafficking — Ann Bot 2008", "10.1093/aob/mcn178", "18819951", "초록 확인", "PMC2712396"),
+    pm(12, "Preparation and intestinal gastrointestinal delivery performance of Malus baccata (Linn.) polyphenols loaded nanoparticles based on yeast membranes — Food Res Int 2025", "10.1016/j.foodres.2025.116129", "40086951", "초록 확인"),
+    pm(13, "Whole body radioprotective effect of phenolic extracts from the fruits of Malus baccata (Linn.) Borkh. — Food Funct 2016", "10.1039/c5fo01377a", "26741951", "초록 확인"),
+    pm(14, "Phenolic extracts from Sorbus aucuparia (L.) and Malus baccata (L.) berries: antioxidant activity and performance in rapeseed oil during frying and storage — Food Chem 2014", "10.1016/j.foodchem.2014.02.139", "24767055", "초록 확인"),
+    pm(15, "Optimization of ultrasonic-assisted extraction of phenolic antioxidants from Malus baccata (Linn.) Borkh. using response surface methodology — J Sep Sci 2013", "10.1002/jssc.201300062", "23436450", "초록 확인"),
+    pm(16, "Malus baccata (Linn.) Borkh polyphenols-loaded nanoparticles ameliorate intestinal health by modulating intestinal function and gut microbiota — Int J Biol Macromol 2023", "10.1016/j.ijbiomac.2023.126233", "37573904", "초록 확인"),
+    pm(17, "Development of double emulsions loaded with Malus baccata (Linn.) polyphenols and their protective effect on dextran sulfate sodium-induced ulcerative colitis in mice — Food Chem 2026", "10.1016/j.foodchem.2026.149545", "42139944", "초록 확인"),
+    pm(18, "Anti-Inflammatory Functions of Methanol Extract from Malus baccata (L.) Borkh. Leaves and Shoots by Targeting the NF-κB Pathway — Plants (Basel) 2022;11:646", "10.3390/plants11050646", "35270116", "전문 확인", "PMC8912290"),
+    pm(19, "The leaf extract of Siberian Crabapple (Malus baccata (Linn.) Borkh) contains potential fatty acid synthase inhibitors — J Enzyme Inhib Med Chem 2009", "10.1080/14756360802051438", "18608781", "초록 확인"),
+    pm(20, "Determination of amygdalin in apple seeds, fresh apples and processed apple juices — Food Chem 2014;170:437–442 (재배 사과 Malus domestica 자료)", "10.1016/j.foodchem.2014.08.083", "25306368", "초록 확인"),
+    pm(21, "Amygdalin content of seeds, kernels and food products commercially-available in the UK — Food Chem 2014;152:133–139", "10.1016/j.foodchem.2013.11.002", "24444917", "초록 확인"),
+    pm(22, "Effects of Salt Stress on the Antioxidant Activity and Malondialdehyde, Solution Protein, Proline, and Chlorophyll Contents of Three Malus Species — Life (Basel) 2022;12:1929", "10.3390/life12111929", "36431064", "초록 확인", "PMC9696785"),
+    pm(23, "Identification of resistance gene analogs in Korean wild apple germplasm collections — Genet Mol Res 2013;12:483–493", "10.4238/2013.January.30.2", "23408446", "초록 확인"),
+]
+
+S = {}
+S["overview"] = (
+    "야광나무(Malus baccata (L.) Borkh.)는 장미과 사과속의 야생 사과나무로, 영어로는 시베리아 꽃사과(Siberian crabapple)라고 부르며 작고 먹을 수 있는 열매를 맺는다[1, 18]. "
+    "식약처 「식품원료 목록」에는 원료명 '야광나무열매', 학명 Malus baccata (L.) Borkhausen / Malus baccata var. leiostyla Rupr. & Maxim., 이명 동배나무·아그배나무·들배나무·아가위나무로 한 행이 올라 있다[1]. "
+    "이 행은 '사용가능' 원료이고 사용 조건은 '사용가능부위 : 열매'이므로, 잎·가지·씨앗만 따로 원료로 쓰는 근거는 이 행에 없다[1]. "
+    "목록의 영어명은 'Siberian crap apple'로 적혀 있는데, 이는 crabapple의 오기로 보인다[1]. "
+    "이명 '아그배나무'는 같은 목록에서 산사나무(Crataegus pinnatifida)·서양산사자(Crataegus oxyacantha) 행에도 붙어 있어, 이름만으로 원료를 찾으면 다른 속의 식물과 섞일 수 있다[1]. "
+    "이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+    "산업적으로는 열매보다 추위와 병에 강한 사과 대목(접목할 때 뿌리 쪽 나무)과 육종 재료로 더 많이 연구되었다[5, 11]. "
+    "열매에 대해서는 폴리페놀 추출물의 항산화·전달체 연구가 주로 중국에서 이루어졌고, 사람을 대상으로 한 임상시험은 확인하지 못함."
+)
+S["history"] = (
+    "첫 유전체 해독에 쓰인 중국 산시성 계통의 이름은 'Shandingzi'이다[5]. "
+    "잎 추출물을 다룬 연구는 이 식물을 중국에서 'Shan jingzi'라고 부른다고 적었다[19]. "
+    "작은 열매는 먹을 수 있고 전통적으로 약용 성질이 있다고 여겨져 왔다고 보고되었다[18]. "
+    "다만 한국에서 열매를 언제부터 어떻게 먹었는지에 관한 공식 문헌은 확인하지 못함.\n\n"
+    "한국과의 연결 고리로, 여러 병에 강한 관상용 계통 'Jackii'는 1905년 서울에서 채집된 개체에서 비롯되었다[6]. "
+    "이 계통은 사과 검은별무늬병(scab) 저항성 유전자 Vbj의 공급원으로 쓰였다[10]. "
+    "또 집단유전체 분석에서는 야광나무와 Malus hupehensis가 처음부터 재배 사과의 조상이었던 것이 아니라, 재배된 뒤 야생에서 재배종으로 유전자가 흘러드는(유전자 이입) 방식으로 유럽·중국 재배 사과의 유전체에 기여했다고 보았다[8]. "
+    "중국 북부에서는 사과 대목으로 널리 쓰인다[11]."
+)
+S["biology"] = (
+    "야광나무는 이배체(diploid) 나무로, 유전체는 재배 사과처럼 17개의 염색체 단위(연관군)로 정리된다[5, 6]. "
+    "스스로 꽃가루받이가 잘 되지 않는 자가불화합성이 있어 유전체의 이형접합도가 높다[5]. "
+    "재배 사과(Malus domestica)와 자유롭게 교잡할 수 있는 네 야생종 가운데 하나로 꼽힌다[5]. "
+    "중국이 원산이며 동북·화북·서남부에 넓게 분포하고, 잎이 넓은 형·가지가 늘어지는 형·일찍 꽃피는 형·열매가 큰 형 등 변이가 많다[7]. "
+    "주로 중국·러시아·한국에서 볼 수 있는 식물로 소개되었다[18]. "
+    "열매는 동시베리아·극동 원산 꽃사과류 가운데서도 가장 작은 편에 속한다고 보고되었다[4]. "
+    "꽃 색·열매 지름·익는 시기 같은 국내 형태 기재는 공공기관 원문에서 확인하지 못함.\n\n"
+    "추위에 강한 성질은 유전체 수준에서도 드러나, 추위 반응 유전자 3,978개 가운데 50.25%의 촉진 부위에 DREB 결합 모티프가 있어 재배 사과(42.84%)보다 비율이 높았다[5]. "
+    "중국 내 집단은 네 개의 유전 집단으로 나뉘며, 동북부 집단이 앞으로의 기후변화에 가장 취약할 것으로 예측되었다[9]."
+)
+S["related_species"] = (
+    "식약처 목록에는 같은 사과속 원료로 사과(Malus pumila / M. domestica), 벚잎꽃사과(M. prunifolia, 이명 애기사과), 능금나무열매(M. asiatica), 크랩애플(M. dorothea), Western crabapple열매(M. fusca)가 각각 별도 행으로 올라 있다[1]. "
+    "이들은 모두 열매만 사용 가능한 원료이지만 학명이 다르므로, 사과나 다른 꽃사과의 성분·생산 자료를 야광나무 자료로 옮겨 쓰면 안 된다[1]. "
+    "같은 목록의 야광나무 행은 변종 var. leiostyla도 학명에 함께 적어 두었다[1].\n\n"
+    "동아시아 야생 사과 가운데 M. hupehensis는 집단유전학적으로 야광나무와 하나의 교배 집단을 이룬다고 분석되었다[8]. "
+    "반면 중국 서남부의 var. xiaojinensis는 엽록체 유전체 계통에서 야광나무 본종과 거리가 있어 분류상 위치가 아직 정리되지 않았다[7]. "
+    "'히말라야 꽃사과(Himalayan crab apple)'라는 이름으로 M. baccata로 분석된 시료도 있는데[2, 3], 이 시료가 변종 수준에서 어느 분류군인지 확인하지 못함. "
+    "이명 '아그배나무'는 산사나무속(Crataegus) 원료 행에도 쓰이므로 반드시 학명으로 구분해야 한다[1]. "
+    "중국의 야광나무 대목·교잡 연구 다수는 재배 사과 품종을 접목한 실험이므로, 그 결과를 야광나무 열매의 성질로 읽으면 안 된다[11, 22]."
+)
+S["cultivation"] = (
+    "야광나무는 환경 적응력과 내한성이 뛰어나 고위도 사과 산지에서 대목으로 널리 쓰이며, 중국에서의 자생지는 사과 주산지와 겹친다[5]. "
+    "중국 북부에서는 사과 대목으로 널리 쓰이고 저온에 매우 강하지만, 석회질 토양에서 철 결핍 연구의 대상이 되었다[11]. "
+    "어린 묘목에 소금물(0.20–0.60% 염도)을 처리한 비교에서는 다른 두 사과속 대목종과 항산화 효소·삼투 조절 물질의 반응 양상이 종마다 달랐다고 보고되었다[22]. "
+    "여러 병에 강한 'Jackii' 계통은 검은별무늬병·흰가루병·갈색무늬병에 저항성을 보이고 화상병(fire blight) 저항성도 가진 것으로 보고되었다[6].\n\n"
+    "한국 야생 사과 유전자원 6점과 야광나무 1개체에서 병 저항성 유전자 유사 서열을 분리한 국내 연구도 있다[23]. "
+    "국내에서 열매 생산을 목적으로 재배하는 농가·면적·생산량 통계는 농림축산식품부 특용작물 생산실적과 통계청 농작물생산조사 파싱본에서 확인하지 못함. "
+)
+S["processing"] = (
+    "야광나무 열매는 주로 폴리페놀 추출물 형태로 연구되었다[12, 15]. "
+    "초음파 추출 조건을 반응표면법으로 최적화한 연구에서 총페놀 회수에 가장 좋은 조건은 에탄올 61.0%, 초음파 출력 308.6 W, 추출 온도 51.1 °C였다[15]. "
+    "열매 폴리페놀(MBP)은 HPLC-MS/MS 분석에서 쿼세틴과 그 유도체, 플로레틴, 카테킨류, 안토시아닌, 페놀산이 주를 이루었다[12]. "
+    "이 폴리페놀을 효모 막·단백질-다당 나노입자·이중 유화액에 싣는 전달체 연구가 이어졌으며, 효모 막 입자는 모의 위장관 소화에서 위 16.04%, 소장 79.39%의 최대 방출률을 보였다[12, 16, 17].\n\n"
+    "캐나다산 시료로 만든 꽃사과 페놀 추출물·분획 일부는 유채유에 넣었을 때 합성 산화방지제 BHT보다 높은 항산화 효과를 보였고, 7일 저장 끝의 과산화물가를 최대 42% 낮췄다[14]. "
+    "열매 추출물의 펙틴은 고메톡실(에스터화도 약 60–70%)이어서 겔화제·증점제로서의 가능성이 언급되었다[4]. "
+    "식약처 「식품 등의 생산실적」에서 야광나무를 원료로 한 품목은 확인하지 못함."
+)
+S["genetics"] = (
+    "첫 초안 유전체는 'Shandingzi' 계통으로 조립되었으며, 조립 길이 665 Mb, 단백질 암호 유전자 46,114개, 이 가운데 72%가 17개 연관군에 고정되었다[5]. "
+    "같은 연구는 k-mer 분석으로 유전체 크기를 약 779 Mb로 추정했고, 병 저항성 NBS 유전자 462개를 찾았다[5]. "
+    "이후 'Jackii' 계통에서 PacBio HiFi와 Hi-C를 이용한 반수체 분리 유전체가 나왔는데, 두 반수체의 길이는 654.6 Mb와 637.5 Mb였다[6]. "
+    "이 유전체에서 화상병 저항성 위치가 3번 염색체 끝부분에 있음이 다시 확인되었다[6]. "
+    "중국 집단을 대상으로 한 텔로미어-텔로미어 수준의 유전체와 집단유전체 분석에서는 DREB1A/D와 NAC6가 기온 계절성·연 강수량과 관련된 후보 유전자로 제시되었다[9].\n\n"
+    "엽록체 유전체는 중국 각지 6개체에서 160,083–160,295 bp로 조립되었고, 개체들은 세 계통 무리로 나뉘었다[7]. "
+    "검은별무늬병 저항성 유전자 Vbj에는 SCAR·SSR 분자표지가 개발되어 육종에 쓰일 수 있다[10]. "
+    "이런 유전체 자료는 주로 대목·육종 목적이며, 열매 성분 유전에 관한 자료는 확인하지 못함."
+)
+S["safety"] = (
+    "식약처 식품원료 목록에서 야광나무열매는 열매를 쓸 수 있는 '사용가능' 원료로, 별도의 제한적 사용 조건은 붙어 있지 않다[1]. "
+    "잎·새순 추출물로 진행된 항염증·지방산합성효소 억제 연구도 있지만, 잎은 이 원료 행의 사용가능 부위가 아니다[1, 18, 19]. "
+    "사과속을 포함한 장미과 식물의 씨앗에는 시안배당체인 아미그달린이 들어 있으며, 영국 시판 장미과 씨앗에서 0.1–17.5 mg/g으로 비장미과 씨앗(0.01–0.2 mg/g)보다 높았다[21]. "
+    "재배 사과 15개 품종의 씨앗 아미그달린은 1–4 mg/g이었고 시판 사과주스에서는 낮았다[20]. "
+    "야광나무 씨앗의 아미그달린 함량은 확인하지 못함.\n\n"
+    "동물 연구에서 열매 페놀 추출물은 감마선을 쬔 생쥐의 항산화 효소를 높였고(체중 1 kg당 150 mg 전처리)[13], 폴리페놀 나노입자는 생쥐의 장기 지수·혈액 지표에 독성을 보이지 않았다[16]. "
+    "이런 결과는 동물·세포 실험이므로 사람에게서의 효과로 볼 수 없다[13, 16, 17]. "
+    "열매 펙틴 분획에서 잠재적 독성 수준의 중금속은 검출되지 않았다[4]. "
+    "야광나무 열매에 대한 공공기관의 알레르기·잔류농약 정보는 확인하지 못함."
+)
+
+titles = {"overview": "개요", "history": "역사와 이용", "biology": "식물학적 특징", "related_species": "근연종과 혼동 주의",
+          "cultivation": "재배와 자원", "processing": "가공과 이용", "genetics": "유전체와 육종", "safety": "안전성"}
+
+compounds = [
+    {"name": "Phloretin", "name_ko": "플로레틴", "class": "다이하이드로칼콘", "role": "marker", "part": "열매(과육)",
+     "content_text": "히말라야 꽃사과(M. baccata) 과육 UPLC 정량 88.39 µg/mg(초록 표기 'µg mg−1', 기준 물질 확인 못함)[2]",
+     "activity_ko": "사과속 특유의 다이하이드로칼콘으로, 이 시료에서 정량한 페놀 가운데 가장 많았음[2]; 열매 폴리페놀 주성분으로도 보고됨[12]", "source": [2, 12]},
+    {"name": "Phlorizin", "name_ko": "플로리진", "class": "다이하이드로칼콘 배당체", "role": "marker", "part": "열매(과육)",
+     "content_text": "히말라야 꽃사과 과육 UPLC 정량 83.03 µg/mg(초록 표기, 기준 확인 못함)[2]",
+     "activity_ko": "플로레틴의 배당체로 사과속 열매의 특징 성분[2]", "source": [2]},
+    {"name": "Quercetin", "name_ko": "쿼세틴(및 유도체)", "class": "플라보놀", "role": "bioactive", "part": "열매(폴리페놀 추출물)",
+     "content_text": "HPLC-MS/MS로 열매 폴리페놀의 주성분으로 동정, 함량은 초록에서 확인하지 못함[12]",
+     "activity_ko": "열매 폴리페놀 항산화 활성의 주요 성분 후보[12]", "source": [12]},
+    {"name": "Catechin", "name_ko": "카테킨류", "class": "플라반-3-올", "role": "bioactive", "part": "열매(폴리페놀 추출물)",
+     "content_text": "열매 폴리페놀 구성 성분으로 동정, 함량 확인하지 못함[12]",
+     "activity_ko": "폴리페놀 추출물 구성 성분[12]", "source": [12]},
+    {"name": "Cyanidin", "name_ko": "안토시아닌류", "class": "안토시아닌", "role": "bioactive", "part": "열매(폴리페놀 추출물)",
+     "content_text": "열매 폴리페놀에서 안토시아닌류 동정, 개별 성분명·함량은 초록에서 확인하지 못함(Cyanidin은 PubChem 조회용 대표명)[12]",
+     "activity_ko": "열매 색소 성분[12]", "source": [12]},
+    {"name": "Fructose", "name_ko": "과당", "class": "당류", "role": "nutrient", "part": "열매(과육)",
+     "content_text": "히말라야 꽃사과 과육 21 mg/g, 씨 9.4 mg/g(HPAEC, 초록 표기 'mg g−1', 생·건 기준 확인 못함)[2]",
+     "activity_ko": "단맛 성분[2]", "source": [2]},
+    {"name": "Sucrose", "name_ko": "자당", "class": "당류", "role": "nutrient", "part": "열매(과육)",
+     "content_text": "히말라야 꽃사과 과육 17.3 mg/g, 씨 4.24 mg/g(HPAEC, 기준 확인 못함)[2]; 북아시아 꽃사과류에서 자당·소르비톨이 가용성 당의 대부분(종별 값 확인 못함)[4]",
+     "activity_ko": "수송당으로 열매에 축적[4]", "source": [2, 4]},
+    {"name": "Sorbitol", "name_ko": "소르비톨", "class": "당알코올", "role": "nutrient", "part": "열매(껍질+과육)",
+     "content_text": "북아시아 꽃사과 4종 열매에서 자당과 함께 주요 가용성 탄수화물(HPLC-NH2), 야광나무 단독 수치는 확인하지 못함[4]",
+     "activity_ko": "장미과 수송당; 재배 사과보다 야생 꽃사과에서 비중이 큼[4]", "source": [4]},
+    {"name": "Ascorbic acid", "name_ko": "아스코르브산(비타민 C)", "class": "비타민", "role": "nutrient", "part": "열매(껍질+과육)",
+     "content_text": "조사한 북아시아 꽃사과 4종 모두 함량이 높다고 보고, 야광나무 단독 수치는 확인하지 못함[4]",
+     "activity_ko": "항산화 비타민[4]", "source": [4]},
+    {"name": "Pectin", "name_ko": "펙틴", "class": "다당류", "role": "nutrient", "part": "열매(껍질+과육)",
+     "content_text": "4종 평균 건물중의 약 6%, 에스터화도 약 60–70%(종별 값 확인 못함)[4]",
+     "activity_ko": "고메톡실 펙틴으로 겔화·증점 소재 가능성[4]", "source": [4]},
+    {"name": "Cysteine", "name_ko": "시스테인(유리 아미노산)", "class": "아미노산", "role": "nutrient", "part": "열매(과육)",
+     "content_text": "히말라야 꽃사과 과육 76.86 µg/mg(HPLC, 초록 표기 그대로, 기준 확인 못함); 세린 9.06, 알라닌 8.03, 타이로신 10.33 µg/mg도 과육에서만 검출[2]",
+     "activity_ko": "과육 유리 아미노산[2]", "source": [2]},
+    {"name": "Palmitic acid", "name_ko": "팔미트산", "class": "지방산", "role": "nutrient", "part": "씨앗",
+     "content_text": "씨앗 GC-MS 조성 0.89%(에틸 팔미테이트 0.56%, 리놀레인 3.93%)[2]",
+     "activity_ko": "씨앗 지방산 성분; 씨앗은 사용가능부위가 아님[1, 2]", "source": [1, 2]},
+    {"name": "Amygdalin", "name_ko": "아미그달린", "class": "시안배당체", "role": "bioactive", "part": "씨앗",
+     "content_text": "야광나무 씨앗 함량은 확인하지 못함; 참고로 재배 사과 씨앗 1–4 mg/g[20], 장미과 씨앗 0.1–17.5 mg/g[21]",
+     "activity_ko": "효소로 분해되면 시안화수소를 내는 천연 독성 성분[20]", "source": [20, 21]},
+    {"name": "Hesperidin", "name_ko": "헤스페리딘", "class": "플라바논 배당체", "role": "bioactive", "part": "잎·새순(메탄올 추출물; 식품 사용가능부위 아님)",
+     "content_text": "잎·새순 메탄올 추출물 130.13 mg/g, 같은 추출물 쿼세틴 0.28 mg/g(HPLC-UV)[18]",
+     "activity_ko": "세포·생쥐 위염 모델 항염증 연구에서 추출물 구성 성분으로 제시; 열매 자료 아님[18]", "source": [18]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Phloretin", "compound_ko": "플로레틴·플로리진", "part": "열매(과육)",
+     "content": "플로레틴 88.39 µg/mg, 플로리진 83.03 µg/mg(초록 표기, 기준 확인 못함)[2]", "method": "UPLC",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "사과속에 특징적인 다이하이드로칼콘으로 이 종 열매에서 정량된 페놀 중 가장 많았음; 전문 확인 못함(PMC 본문이 비어 있음)[2].",
+     "source": [2], "url": "https://doi.org/10.1007/s13197-018-3133-y", "source_kind": "paper"},
+    {"role": "literature", "compound": "Sucrose", "compound_ko": "가용성 당(자당·과당·소르비톨·갈락토스·포도당)", "part": "열매(씨 제거, 껍질+과육)",
+     "content": "북아시아 꽃사과 4종 비교, 야광나무 단독 수치는 도구 본문에서 확인하지 못함[4]", "method": "HPLC-RI(아미노 칼럼, 등용매)",
+     "conditions": {"instrument": "Shimadzu LC-10 ATvp", "column": "SUPELCOSIL LC-NH2, 5 µm, 25 cm × 4.6 mm",
+                    "mobile_phase": "75% 아세토나이트릴 수용액", "gradient": "등용매", "flow": "1 mL/min", "temp": "25 °C",
+                    "detection": "", "injection": "",
+                    "sample_prep": "시료 0.2–0.3 g 액체질소 분쇄 → 80% 에탄올 10 mL, 15 °C 초음파 10분 → 8000 rpm 10분 원심 → 55 °C 감압 건조 → 물 1 mL → Diapak-AMINE 카트리지 고상추출 → 200 µL + 아세토나이트릴 600 µL",
+                    "standard": "자당·과당·소르비톨·갈락토스·포도당 표준품 머무름 시간 및 표준 첨가법", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "야생 꽃사과 열매 맛과 품질을 결정하는 수송당(자당·소르비톨) 비율이 재배 사과와 다름; 전문 확인, 검출기 종류는 본문에 명시되지 않음[4].",
+     "source": [4], "url": "https://doi.org/10.3390/plants12193472", "source_kind": "paper"},
+    {"role": "literature", "compound": "Ascorbic acid", "compound_ko": "아스코르브산", "part": "열매(씨 제거, 껍질+과육)",
+     "content": "4종 모두 높은 함량으로 보고, 야광나무 단독 수치는 확인하지 못함[4]", "method": "HPLC",
+     "conditions": {"instrument": "Milichrome A-02", "column": "C18, 2 × 75 mm, 5 µm", "mobile_phase": "0.1% 메타인산 중 25% 메탄올",
+                    "gradient": "", "flow": "", "temp": "35 °C", "detection": "", "injection": "",
+                    "sample_prep": "시료 0.3–0.5 g 액체질소 분쇄 → 0.1% 메타인산 10 mL, 4 °C 초음파 10분 → 4 °C 8000 rpm 10분 원심",
+                    "standard": "L-아스코르브산 표준품 검량선", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "연구진이 육종상 실용 형질로 강조한 성분; 전문 확인, 유속·검출 파장은 본문에 없음[4].",
+     "source": [4], "url": "https://doi.org/10.3390/plants12193472", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "malus-baccata", "name_ko": "야광나무", "name_en": "Siberian crabapple",
+    "scientific_name": "Malus baccata (L.) Borkh.",
+    "aliases": ["야광나무열매", "동배나무", "들배나무", "아가위나무", "아그배나무(산사나무 원료 이명과 겹침)", "Siberian crabapple", "Malus baccata var. leiostyla", "Shandingzi(중국 계통명)", "Shan jingzi(중국명)"],
+    "sections": [{"key": k, "title": titles[k], "body": S[k]} for k in titles],
+    "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+    "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for k in titles:
+    print(k, len(S[k]))

@@ -1,0 +1,433 @@
+1
+
+INTRODUCTION
+
+Intraspecific variation is defined as genotypic and phenotypic diversity observed within a given species. Despite its significance in the taxonomic division, ecological processes, food security, and medicinal usage (Des Roches et al.,; Wilting et al.,), intraspecific variation has barely been taken into account when assessing biodiversity in current days (Díaz et al.,; Mimura et al.,; Ruckelshaus et al.,). Most evolutionary studies focus on interspecific variations (Alix et al.,; Aschehoug et al.,; Martín‐Serra & Benson,) or genetic differentiation within a population (Halbritter et al.,; Taudt et al.,). Some efforts have been put into understanding the influence of biogeographic boundaries, environmental variables, and historical climatic instability on population genetics and phenotypic structure, especially intraspecific variations in species with a wide geographical distribution (Gray et al.,; Huang et al.,; Ye et al.,; Zhang et al.,). The demographic history of some species proves that subspecies living in separated subregions have experienced different selection pressures and have accumulated various mutations in their genomes (Tian et al.,). Intraspecific variation was recognized as a prerequisite for speciation (Bürger et al.,). Thus, a better description of the complexity of the genomic divergence among intraspecies, as well as the evolutionary processes, might help us identify species at risk of extinction and allow us to apply conservation strategies to protect them (Blomqvist et al.,; Leigh et al.,; Mimura et al.,).
+
+Thunb. (spicebush or spicewood), one of the largest genera in the family Lauraceae, comprises almost 100 species, which are widely distributed in East Asia and East America (Chanderbali et al.,).is key to studying the origin and maintenance of tropical and subtropical plant communities, which are of significant economic and scientific value (Cao et al.,; Ye et al.,). Based on morphological characteristics (leaf venation, brachyblasts, pedunculate, fruit cupules, and so on), the genushas been divided into eight sections, namely sect., sect., sect., sect., sect., sect., sect., and sect.(Tsui,). Due to the parallel evolution occurring betweenandLam., proper classification of the two species or sections from the two genera proves to be difficult (Li,). Previous studies have shown that nuclear loci (ITS,, etc.) and chloroplast regions (,,, etc.) could not provide enough information to resolve the relationship betweenandand that species from the eight section ofwere placed in(Fijridiyanto & Murakami,; Li, Conran, et al.,; Li, Li, & Li,; Rohwer,). Recently, some monophyletic clades, such as the sect., sect.and trinervedcomplex have been successfully detected and classified via whole plastomic analyses (Fijridiyanto & Murakami,; Li et al.,,; Liu, Chen, et al.,; Liu, Ma, et al.,; Tian et al.,; Xiao et al.,). Although these detected monophyletic clades align well with morphology, the generic delimitation betweenandremains to be solved. Moreover, most phylogenetic studies have only sampled a single individual for each species, which is not sufficient for providing a consistent and reliable conclusion about the taxonomic status of that species (Liu, Chen, et al.,; Liu, Ma, et al.,; Xiao et al.,). It is also unclear whether the factors, such as hybridization or gene flow among intraspecific species, would drive taxonomic confusion among various varieties.
+
+Blume is a deciduous shrub of the sectionin the genus, and it is widely distributed in the subtropical and temperate zones of East Asia. This species has diverged into var.and var., and this differentiation is based on the leaf margin morphology (Li, Conran, et al.,; Li, Li, & Li,). The geological distribution of var.is limited to the Southwest of East Asia while var.is widely distributed in East Asia. Despite of distributional difference, it is difficult to distinguish the two varieties based on morphology and molecular phylogeny in the Southern populations. It is of important economic value for it can be used as the raw material for the production of lubricants and fertilizers (Zekun & Haixia,). Moreover,has also been used as a traditional medicinal herb for the treatment of liver damage and inflammation (Freise et al.,; Hong et al.,).is the Northernmost species in Lauraceae, and it is of great significance in studying the adaptation of Lauraceae plants to cold environments (Tian et al.,; Zhang et al.,). In previous studies, the divergence ofinto the Northern and Southern populations has been observed in studies with both chloroplast DNA and nuclear microsatellite markers (Ye et al.,). The two populations are geographically separated by an arid belt, which is modulated to be drier and wider during the Palaeogene (Guo et al.,). The arid belt acts as a barrier, which impedes gene flow between individuals living in the two sub‐regions (Bai et al.,; Chen & Lou,; Ye et al.,), eventually leading to the formation of two separate populations (Tian et al.,; Xu et al.,). Previous studies have focused on population genetic diversity and the evolutionary history of this species. A divergence between the northern and southern populations ofin East Asia has been observed in phylogenetic studies using cp DNA and SSRs. However, this divergence still lacks support from evidence at the genomic level.
+
+The chloroplast is the organelle in which photosynthesis takes place, and it plays a vital role in energy conversion in plants (Ruhlman & Jansen,). Chloroplast is a semi‐autonomous organelle, which contains its genome called plastome. Plastomes have often been used to investigate genetic differentiation and evolution of plant lineages. Plastome is smaller than mitochondrial and nuclear genomes in plant cells, and it has a large number of copies. The evolutionary rate of the chloroplast genome is higher than that of the mitochondrial genome but lower than that of the nuclear genome (Maple & Møller,). The chloroplast genomes of land plants are relatively conserved in genomic structure, GC content, gene number, and gene arrangement (Xu et al.,). Structural variations have also been reported in diverse plant species, such as contraction and expansion in the IR regions, the loss of one IR, mixed presence of linear and circular genome, insertion or deletion, the loss of genes etc (Abdullah, Mehmood, et al.,; Abdullah, Shahzadi, et al.,; Alqahtani & Jansen,; Lee et al.,; Li, Luo, et al.,; Li, Yang, et al.,; Sibbald & Archibald,; Tonti‐Filippini et al.,). These characteristics of the chloroplast genome allow for its wide application in the research of evolutionary biology and molecular phylogeny, especially in the analysis of phylogenetic relationships at the intraspecific level.
+
+In the current work, a total number of 10 newly sequencedchloroplast genomes with three published chloroplast genome sequences were compiled, which were classified into two populations. Geographically, the 13 samples allowed us (1) to evaluate the potential intraspecific variations in; (2) to assess whether the selection of the two varieties ofis appropriate and sufficient for understanding the intraspecific relationship of this species, and (3) to reconstruct phylogeny between the Northern and Southern populations of. Based on the comparative chloroplast genome research, we expect to find considerable intraspecific divergence and extend our understanding of the complexity of the plastid divergence in widely distributed species.
+
+2
+
+MATERIALS AND METHODS
+
+2.1
+
+Sampling,extraction, and chloroplast genome sequencing
+
+Fresh leaves from 10 individual trees ofvar.representing local populations were collected and silica‐gel dried (Table). The 10 samples include two individuals collected from Northeast China (the Northern population) and eight from Southeast to Southwest China (the Southern population) (Figure). Voucher specimens were deposited in the herbarium of the School of Life Sciences, Henan Agricultural University, and the Herbarium of the Xishuangbanna Tropical Botanical Garden (HITBC), Chinese Academy of Sciences. Total genomic DNA was isolated from dry leaves using the Tiangen Plant Genomic DNA Kit (Tiangen Inc., China). DNA purity was examined using Qubit 2.0 (Invitrogen Inc., USA) and NanoDrop (Thermo Scientific Inc., USA). Purified total DNA was used to make DNA libraries using the Illumina Paired‐End DNA Library Kit and sequenced with the NovaSeq 6000 platform, a service provided by NovoGene Bio‐Tech (Beijing, China). Raw reads were obtained with an average length of 150 bp, yielding at least 4 GB of clean data for each sample. The sequence data of three formerly published chloroplast genomes ofwere retrieved from the NCBI database and included in this analysis, with two individuals belonging to the Northern population from Liaoning, China (GenBank No.) (Zhao et al.,) and Korea (GenBank No.) (Jo et al.,), respectively, and one individual of var.from Tibet (GenBank No.) (Li, Luo, et al.,; Li, Yang, et al.,) representing the Southern population.
+
+TABLE 1
+
+Features of the tennew sequenced plastomes in the present study.
+
+Distribution
+
+Specimen number
+
+GenBank no.
+
+Genome size (bp)
+
+Large single copy (LSC; bp)
+
+Inverted repeats (IR; bp)
+
+Small single copy (SSC; bp)
+
+GC content (LSC/IR/SSC)
+
+Number of genes (CDS/tRNA/rRNA)
+
+Northern population
+
+Yantai, Shandong
+
+txy18016
+
+ON520653
+
+154,175
+
+93,751
+
+20,762
+
+18,900
+
+39.14% (37.92%/44.29%/33.80%)
+
+113 (79/30/4)
+
+Dalian, Liaoning
+
+sy8679
+
+ON520651
+
+152,770
+
+93,700
+
+20,080
+
+18,910
+
+39.12% (37.91%/44.44%/33.80%)
+
+113 (79/30/4)
+
+Southern population
+
+Shangrao, Jiangxi
+
+txy18043
+
+ON520654
+
+152,683
+
+93,633
+
+20,072
+
+18,906
+
+39.17% (37.97%/44.44%/33.88%)
+
+113 (79/30/4)
+
+Longnan, Gansu
+
+sy9339
+
+ON520652
+
+152,343
+
+93,313
+
+20,066
+
+18,898
+
+39.22% (38.06%/44.46%/33.85%)
+
+113 (79/30/4)
+
+Diqing, Yunnan
+
+sy5749
+
+ON520645
+
+152,682
+
+93,630
+
+20,071
+
+18,910
+
+39.16% (37.97%/44.45%/33.84%)
+
+113 (79/30/4)
+
+Linzhi, Tibet
+
+sy6219
+
+ON520649
+
+152,708
+
+93,651
+
+20,071
+
+18,915
+
+39.14% (37.95%/44.45%/33.80%)
+
+113 (79/30/4)
+
+Linzhi, Tibet
+
+sy7768
+
+ON520650
+
+152,708
+
+93,651
+
+20,071
+
+18,915
+
+39.14% (37.95%/44.45%/33.80%)
+
+113 (79/30/4)
+
+Linzhi, Tibet
+
+sy5779
+
+ON520646
+
+152,708
+
+93,651
+
+20,071
+
+18,915
+
+39.14% (37.95%/44.45%/33.80%)
+
+113 (79/30/4)
+
+Chayu, Tibet
+
+sy5998
+
+ON520647
+
+152,708
+
+93,636
+
+20,075
+
+18,922
+
+39.15% (37.96%/44.44%/33.82%)
+
+113 (79/30/4)
+
+Chayu, Tibet
+
+sy6045
+
+ON520648
+
+152,708
+
+93,636
+
+20,075
+
+18,922
+
+39.15% (37.96%/44.44%/33.82%)
+
+113 (79/30/4)
+
+FIGURE 1
+
+Samples location of the(a) and their gene maps of the complete chloroplast genome (b).
+
+2.2
+
+Chloroplast genome assembly and annotation
+
+The 10 complete chloroplast genomes were de novo assembled using the GetOrganelle toolkit with a typical setting (Jin et al.,) with the published plastomic data offrom the NCBI database as a seed file. Annotation of the newly sequenced chloroplast genomes was performed with Plastid Genome Annotator (PGA) using the published(Accession no.) andvar.(Accession no.) plastome as a reference (Qu et al.,). To ensure the accuracy of the annotation, the same procedure was repeated with the GeSeq program (Tillich et al.,), which contains the HMMER profile and the tRNAscan‐SE server. The GB2sequin program was used to prepare the NCBI submission file (Lehwark & Greiner,). Both programs were implemented in the CHLOROBOX web toolbox (). The online program of Chloroplot was used to visualize the circular genome physical map of(Zheng et al.,).
+
+2.3
+
+Whole chloroplast genome comparison
+
+Comparative analyses across the 13 chloroplast genomes ofwere performed. The MISA software was used to identify simple sequence repeats (SSRs) with the following criteria: 10, 5, 4, 3, 3, and 3 repeat units are for mono‐, di‐, tri‐, tetra‐, penta‐, and hexa‐nucleotides, respectively (Beier et al.,). The REPuter web program was used to detect the forward, palindrome, reverse, and complement repeated elements with a minimal length of 30 bp, an identity value of more than 90%, and a Hamming distance of 3 (Kurtz et al.,). The intra‐genetic variations were analyzed and plotted using the mVISTA online tools with the Shuffle‐LAGAN mode (Frazer et al.,). To evaluate the significance of the analyses, three datasets representing the total population, the Northern population, and the Southern population were selected and analyzed. Nucleotide diversity (Pi) for each dataset was detected using the DnaSP software (Rozas et al.,). Furthermore, the sliding window analysis was conducted with a reference nucleotide diversity of 0.008 with a step size of 200 bp and a window length of 400 bp.
+
+2.4
+
+Phylogenomic analyses
+
+The phylogenetic relationship of individuals withinand to some related species from the “core” Laureae was interpreted using two separate datasets, the whole chloroplast genome and the protein‐coding genes (PCGs). A total of 65 chloroplast genomes representing 54 species or subspecies were included in this analysis, which covers the seven genera of the “core” Laureae. The species(L.) Presl belonging to the genusSchaeff was used as the outgroup (Appendix). A multiple sequence alignment was generated with MAFFT under a default setting (Katoh & Standley,) and then manually adjusted in BioEdit (Hall et al.,). Phylogenetic trees were constructed using both Maximum likelihood (ML) and Bayesian inference (BI) methods. The best‐fit nucleotide substitution model is GTR + F + R9 for the whole plastomic sequences and GTR + F + R3 for the coding regions determined with ModelFinder using the AIC values as criteria (Kalyaanamoorthy et al.,). In the ML analysis, IQ‐TREE (Nguyen et al.,) was implemented, and a bootstrap value of 50,000 was assigned with the SH‐aLRT branch test. In the BI analysis, MrBayes (Ronquist et al.,) was employed with two independent Markov Chain Monte Carlo chains for 2,000,000 generations. The first 25% of trees were discarded, and the split frequency is below 0.01.
+
+2.5
+
+Selective pressure analysis
+
+Forty‐five protein‐coding genes were used to search for signs of positive selection in thechloroplast genomes with EasyCodeML (Gao et al.,). The unrooted phylogenetic tree file ofspecies was generated using the ML approach. The ratio (ω) of the nonsynonymous substitution rate (dN) to the synonymous substitutions rate (dS) for each protein‐coding gene was determined using both the site model and the branch model. Signatures of adaptation were analyzed using the site model with four site‐specific models (M0 vs. M3, M1a vs. M2a, M7 vs. M8, and M8a vs. M8). The branch model was adopted under the one‐ratio model (M0) and the two‐ratio model with the Northern population ofas the foreground branch. In addition, a likelihood ratio test (LRT) was performed to assess the significance of these analyses (Yang,).
+
+3
+
+RESULTS
+
+3.1
+
+General characteristics ofchloroplast genomes
+
+The 13plastomes share a conserved quadripartite circular structure with an overall length ranging from 152,682 bp to 154,175 bp (Figure). The plastome size of the Northern population is comparably larger than that of the Southern population (Table). These chloroplast genomes all contain a large single‐copy region (LSC; length: 93,313 bp to 93,751 bp) and a small single‐copy region (SSC; length: 18,898 bp to 18,922 bp), which are separated by two inverted repeat regions (IRa and IRb; length: 20,066 bp to 20,762 bp) (Table). All individuals from the North possess a larger LSC region when compared to the Southern population. Species from Liaoning (a city in North China) share a similar IR size with individuals from the Southern population. The individuals from Gansu, which belongs to the Southern population, have the smallest SSC region. All individuals from Tibet share similar genome sizes, LSCs, IRs, and SSCs. In addition, the GC contents of all sampled plastomes vary slightly between 39.12% to 39.22%. Moreover, the GC content of IRs (44.29–44.45%) was higher than that of LSC (38.06–37.96%) and SSC (33.80–33.88%) regions. All the analyzed chloroplast genomes harbor 113 unique genes, including 79 PCGs, 30 tRNAs, and 4 rRNAs. Five PCGs and 6 tRNA genes are duplicated in the IR regions. Thegene was identified as a trans‐spliced gene with two duplicates in the IR regions and one in the LSC region.
+
+3.2
+
+Comparative phylogenomic analyses ofplastomes
+
+In this study, comparative analyses of the 13 plastomes were performed. A total of 371 longer dispersed repeats were detected and classified into 4 categories including forward, reverse, complement, and palindromic direct match repeats (Appendix). All individuals have a similar number of longer dispersed repeats, ranging from 20 to 27. The number of forward and palindromic repeats is 11–13 and 12–15, respectively. Among all the analyzed plastomes, the Northernindividuals do not have reverse repeats except for the sample from Shandong, which has one reverse repeat but no complement repeats (Figure). A total of 807 SSRs were identified among all species, which fall into 5 classes: mono‐, di‐, tri‐, tetra‐, and hexa‐nucleotide repeats (Appendix). All of the Northern individuals contain a larger number of mono‐nucleotide repeats than that of the Southern population (Figure). The number of mono‐, di‐, tri‐, and tetra‐nucleotides is 52, 8, 2, and 6, respectively, for the Northern population, while it is 49, 9, 1, and 6 for spices from Shandong (Appendix). Among the Southern population, individuals from Gansu contain all five classes of repeats, while the number of mono‐nucleotide repeats (18) is relatively low. It is notable that the individuals from Yunnan only have mono‐ and di‐nucleotide repeats. Among the SSRs, the mono‐nucleotide repeats are the most frequent type with a typical A/T repeat unit, followed by the di‐nucleotide repeats, which are composed of TA/AT and/or GA/TC. The most commonly observed tetra‐nucleotide repeat units are AAAT/TTTA, AACT, AATG/CATT, ATAC, CATA, TTAT, and TTTC. Tri‐ (AAT and TAT) and hexa‐nucleotide (TAGAAT and TTCTAT) repeats are relatively rare (Appendix).
+
+Nucleotide variations among intra‐ and inter‐populations ofwere also investigated in this work. The comparison suggests a high level of divergence among populations but a low level of divergence within a given population of(Table). A total of 329 singleton variable sites, 371 parsimony informative sites, and 340 InDels were identified across the whole chloroplast genomes with a nucleotide diversity value (π) of 0.00136. The coding regions are more conserved than the noncoding regions, with a π of 0.00118, which includes 141 singleton variable sites, 167 parsimony informative sites, and 71 InDels. Nucleotide diversity level was highly similar between the Northern (π = 0.00075 and 0.00066) and the Southern (π = 0.00076 and 0.00065) populations across the whole chloroplast genomes and the PCGs. However, the proportion of parsimony informative sites and InDels in the Southern population is higher than that of the Northern population (Table). Hypervariable regions of allwere identified by the slide window test (Figure). Four regions possessing a nucleotide diversity larger than 0.008 were found, which are‐,‐,‐, and‐. In the Northern individuals,‐and‐show higher nucleotide diversity, while variable regions were not observed in the Southern individuals. With the mVISTA program, the sequence divergence ofamong all examined individuals was detected and analyzed with theHook. f. sequence as reference (Figure), the whole chloroplast genomes are conserved in structure and gene order. The non‐coding regions are more likely to accumulate variations than the coding regions, and IR regions are more conserved than the LSC and SSC regions.
+
+FIGURE 2
+
+Number of repeats in the thirteenchloroplast genomes. (a) Total number of SSRs detected in each species. (b) Total number of the forward (F), palindrome (P), reverse (R), and complement (C) repeated elements detected in each species.
+
+FIGURE 3
+
+Sliding window analysis of the entire chloroplast genome of thirteenindividuals (window length: 600 bp; step size: 200 bp).‐axis: position of the midpoint of a window;‐axis: nucleotide diversity of each window.
+
+FIGURE 4
+
+Visualization of genome alignment of the thirteen complete chloroplast genomes from. The cp genome ofis used as the reference.‐axis indicates the sequence coordinates in the whole cp genome.‐axis represents the similarity of the aligned regions, indicating percent identity to the reference genome (50–100%).
+
+TABLE 2
+
+Comparison of the variable sites of the 13plastomes.
+
+Sequences
+
+Variables
+
+North population
+
+South population
+
+Total
+
+Whole genome sequence
+
+Singleton variable sites
+
+229
+
+238
+
+329
+
+Parsimony informative sites
+
+1
+
+142
+
+371
+
+Nucleotide diversity
+
+0.00075
+
+0.00076
+
+0.00136
+
+InDels events
+
+99
+
+215
+
+340
+
+Protein coding sequence
+
+Singleton variable sites
+
+102
+
+108
+
+141
+
+Parsimony informative sites
+
+1
+
+59
+
+167
+
+Nucleotide diversity
+
+0.00066
+
+0.00065
+
+0.00118
+
+InDels events
+
+24
+
+43
+
+71
+
+3.3
+
+Phylogenetic analysis ofwithin the “core Laureae”
+
+To gain more insights into the relationship among variousindividuals and other closely related species, a total of 65 chloroplast genomes including 13individuals and other 51 “core Laureae” species were used for further phylogenetic analysis, which was conducted with both ML and BI methods using both the complete chloroplast genomes and the shared protein‐coding genes.
+
+Independent of the data and the inference method used, the obtained trees share a similar topology except for theIV‐VI clades, which contain thesect., sect., sect., respectively (Figure). In the plastome‐based phylogeny, theIV clade represents a sister lineage of a larger group containing the genus, the North Americaspecies (III), genus‐(andcomplex) and the trinervedcomplex (II) (ML analysis; Figure). However, according to the BI analysis,IV is grouped withfirst and then shares a sister relationship with other clades (Appendix). When only protein‐coding genes are used, the BI tree is similar in topology to the plastome‐based ML tree (Appendix). However, the ML analysis with the coding genes predicts a sister relationship between the clade containingand other clades including theIV clade (Appendix). A sister relationship between cladeV and VI was strongly supported by all phylogenetic trees, while the phylogenetic location of these two clades was inconsistent according to analyses with the whole genome sequences and protein‐coding sequences. Based on the whole chloroplast genome analysis, they formed a larger clade withI,I to IV,, and the(Figure; Appendix), but are closer to the clade containing genus(II and III),(Siebold and Zucc.) Blume from sect.andGamble from sect.(VII), genusL. when using protein‐coding genes (Appendix).
+
+The results all support a close relationship between(I) and the genus(I), and that the individuals have diverged into the Northern and the Southern lineages (Figure). However, analyses with both datasets failed to produce a species boundary betweenvar.andvar.. Although the Northern population and the Southern population are separated in the phylogenetic trees, theindividuals in each region are still clustered in a mixed way on the obtained tees.
+
+FIGURE 5
+
+Phylogenetic tree reconstruction of ‘core’ Laureae using the maximum likelihood (ML) method based on complete chloroplast genome sequences. Only the ML tree is shown, because its topology is identical to that of the obtained BI tree.
+
+3.4
+
+Selection analyses
+
+Most protein‐coding genes are under purifying selection indicated by their low dN/dS ratios in the analyses with both the branch model and the site model. Five genes (,,,,) were found to have evolved under positive selection in theclade (Figure) according to Site model analysis. It was found that four sites were potentially under positive selection inandand that only a single site was detected for,, and(< .05) (Appendix). Seven amino acid differences were observed between the Northern and the Southern populations offor(Figure). The Branch model analysis supports strong selective pressure on,,, and, which put the Northern individuals into the foreground branch and the Southern individuals into the background branch (Appendix). However, the evolutionary significance of these sites cannot be accurately evaluated at this point due to the lack of 3D structures and functional analysis of these proteins.
+
+FIGURE 6
+
+Phylogenetic tree reconstruction and positive selection genes ofusing the maximum likelihood (ML) method based on 79 coding sequences. Genes were colored with blue background were identified by site model, Genes were colored with red background were identified by branch model with the Northern population ofas the foreground branch. Amino acid differences were observed between the Northern and the Southern populations offorgene. *means< 0.05 according selection analyses. **means<0.01 according selection analyses.
+
+4
+
+DISCUSSION
+
+In this study, intraspecific variations ofwere examined by analyzing 13 plastomes, covering the Northern and Southern geographic types. Despite their similarities in overall structure, gene order, and GC contents, the plastomes do vary in size, withShandong being the largest. The variations in size could be attributed to the expansion of the IR regions in this sample (Abdullah, Mehmood, et al.,; Abdullah, Shahzadi, et al.,; Zhang et al.,). The chloroplast genome offrom Shandong has a 678‐nucleotide insertion in its IR regions, which explains why it is bigger than other individuals (Table). A longer LSC with multiple InDels in the Northern population might also account for the size variation. These results reflect that both expansions in the IRs and InDel events can lead to variations in the plastomes at the intraspecific level (Jiang et al.,; Lei et al.,; Muraguri et al.,). Although the Northern samples contain larger chloroplast genomes, they have fewer parsimony informative sites and InDels when compared to the Southern individuals (Table), indicating a shorter evolutionary history and relatively homogeneous topography in North of East Asia (Tian et al.,). This is also supported by the fact that the Northern individuals possess less diversity in the SSR types and the number of repeats than the Southern population (Tian et al.,), which contradicts the results of a previous study by Ye et al. (). This difference may be related to the number of individuals and DNA target loci selected. Due to the presence of intraspecific variations, more representative populations need to be included when investigating genome diversity and intraspecific boundaries of species with a broad range of distribution.
+
+The mVISTA results suggest that the coding regions are highly conserved and that variations are more likely to appear in the LSC and SSC regions than in the IR regions. This is consistent with previous findings with other Lauraceae species and flowering plants (Li, Luo, et al.,; Li, Yang, et al.,; Liu, Chen, et al.,; Liu, Ma, et al.,; Song et al.,; Yang et al.,). A total of four intergenic variable regions were identified across all the analyzed chloroplast genomes. Among these, two highly variable regions were found in the Northern population, but no high variable regions were detected in individuals from the Southern populations (Figure). It is speculated that the difference in cpDNA divergence patterns between the Northern and the Southern populations might be shaped by their specific evolutionary history (Tian et al.,). For the Northern populations, most species have a recent population history, which was formed via postglacial migration, while Southern populations may have served as glacial refugia during Pleistocene climate fluctuations (Milne & Abbott,; Qiu et al.,; Ye et al.,). Additionally, the highly variable regions discovered in this study contain more variable sites when compared with one previous study (Ye et al.,). Based on their study, the–,–,–, andchloroplast DNA markers were designed. The variable regions detected in this study can also be used as potential DNA markers for studying the evolutionary history ofand resolving the taxonomic status ofwith global sampling.
+
+Phylogenetic trees were reconstructed using the chloroplast genomes offrom different geographic regions and 51 plastomes of the “core Laureae.” Our results support the monophyletic origin of the “core Laureae” and the monophyletic status of the cladeI,II,IV,V, andVI, which are consistent with some previous work (Jo et al.,; Liu, Chen, et al.,; Liu, Ma, et al.,; Song et al.,; Tian et al.,; Xiao et al.,). Phylogenetic results of the cladeIII,V, andVI in our studies are in agreement with a previous phylogenetic work by Zhao et al. (), who defined the relationships among the species located in sub‐clade I, and sub‐clade II containingsect.. However, the species,(L.) Blume distributed in North America showed a close relationship with thesect., genus, and(Figure), which is inconsistent with Zhao et al. (). This inconsistency can be explained by the difference in the samples used in phylogenetic reconstruction. In this study, the species ofwere placed in one of theclades (I; Figure), which agrees with the previous studies (Fijridiyanto & Murakami,; Li et al.,; Liu, Chen, et al.,; Liu, Ma, et al.,; Song et al.,).usually has trifid, pentafidentire, or sometimes entire leaf margins, and pentanerved or trinerved veins, which is significantly different from otherplants (Li, Conran, et al.,; Li, Li, & Li,; Tian et al.,; Ye et al.,). The differences in the shape, arrangement, and pubescence of leaves may have a prominent influence on the rates of photosynthesis and transpiration, which might have allowed some variety to become better adapted to its particular environment (Chitwood & Sinha,; Ding et al.,). In our study, five genes were identified with positively selected sites. These genes include the ATP subunit gene (), NAD(P)H dehydrogenase complex gene (), small subunits of ribosome gene (), cytochrome b/f complex subunit proteins (), and DNA‐dependent RNA polymerase gene (). Additionally,is one of the largest chloroplast genes, encoding the RNA polymerase β, which is essential for the transcription of several photosynthesis‐related genes (Cummings et al.,). This gene possesses four positively selected sites, and seven nonsynonymous substitutions were detected at seven other sites (Figure).is the northernmost species of the family Lauraceae, which is highly sensitive to aridity, and it has evolved adaptively to its surrounding environments, presumably through the regulation of photosynthesis‐related genes and the modification of the photosynthetic system. Based on the phylogeny,shares a close relationship with the genus. However, there is no obvious morphological evidence supporting their close relationship (Li, Conran, et al.,; Li, Li, & Li,). As a result, further study at both the molecular and morphological levels with more intensive sampling will be necessary.
+
+The species boundary ofbetween var.and var.is unresolved in the current work. As a result, we inferred that gene flow might still occur between these two varieties, which is supported by the presence of multiple refuges in the Hengduan Mountains (Ye et al.,). In the current work, four photosynthesis‐related genes that are positively selected were identified in the Southern population, which suggests that environmental heterogeneity might have led to more intraspecific variations in this particular population (Tian et al.,). Together, these make it extremely challenging to distinguish the two varieties in the Southwest region of East Asia. Consequently, further examination potentially involving nuclear genomic data will be critical to fully elucidate the possibility of having hybridization or gene flow occur in the individuals from the admixture regions.
+
+5
+
+CONCLUSIONS
+
+In this study, we investigated the intraspecific diversity ofby comparative plastomic and phylogenetic analyses. The structural characteristics, gene content, nucleotide variations, InDel events, and sequence repeats of the 13chloroplast genomes are highly conserved. Here, two groups congruent with the geographical distribution were found, and the aridity belt is responsible for this intraspecific divergence. Differences in nucleotide variable sites, simple sequence repeats, and variable hotspot regions support the discontinuous distribution ofin Northern and Southern East Asia.in different regions has experienced different evolutionary pressures posed by various geographical, environmental, historical, and climatic factors, which have evolved a few photosynthesis‐related genes adaptively under positive selection. The phylogenetic confirmed the position ofwithin the “core Laureae” and suggests that the relationship between, and genusshould be provided more evidence. However, considering its wide distribution, a larger number of chloroplast and nuclear genomes should be included in further analysis to fully understand the evolutionary history of.
+
+AUTHOR CONTRIBUTIONS
+
+Conceptualization (lead); data curation (lead); formal analysis (lead); investigation (lead); methodology (lead); resources (lead); software (lead); validation (lead); visualization (lead); writing – original draft (lead); writing – review and editing (lead).Data curation (equal); funding acquisition (equal); investigation (equal); validation (equal); writing – review and editing (equal).Conceptualization (equal); funding acquisition (equal); project administration (lead); resources (lead); supervision (equal); writing – review and editing (equal).Data curation (equal); formal analysis (equal); resources (equal).Data curation (equal); formal analysis (equal); methodology (equal); resources (equal); visualization (equal).Funding acquisition (equal); project administration (equal); visualization (equal); writing – review and editing (equal).Investigation (equal); resources (equal); validation (equal); writing – review and editing (equal).Methodology (equal); resources (equal); software (equal); validation (equal).Conceptualization (equal); funding acquisition (equal); project administration (equal); resources (equal); supervision (equal); writing – review and editing (equal).
+
+FUNDING INFORMATION
+
+This work was partially supported by grants from the Applied Basic Research Project of Yunnan (2019FB057), the National Natural Science Foundation of China (No. 32000158), and the Technologies Research and Development Program of Henan (No. 222102110009).
+
+CONFLICT OF INTEREST STATEMENT
+
+The authors declare that they have no conflict of interest for the publication of the manuscript.
+
+Supporting information
+
+Appendix S1.
+
+Appendix S2.
+
+Appendix S3.
+
+Appendix S4.

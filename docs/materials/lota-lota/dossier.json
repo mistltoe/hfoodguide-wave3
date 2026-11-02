@@ -1,0 +1,558 @@
+{
+ "slug": "lota-lota",
+ "name_ko": "모오캐",
+ "name_en": "Burbot",
+ "scientific_name": "Lota lota",
+ "aliases": [
+  "모캐",
+  "Burbot",
+  "Lota lota lota(유라시아 기준 아종)",
+  "Lota lota maculosa(북아메리카 아종)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "모오캐(Lota lota)는 대구목 물고기 가운데 유일하게 민물에서만 사는 종이다[3]. 식약처 「식품원료 목록」에는 대표 원료명 '모오캐', 별칭 '모캐', 영문명 Burbot으로 올라 있고, 분류는 수산물, 상태는 '사용가능'이다[1]. 사용 부위는 따로 정하지 않은 '-'로 적혀 있으며 별도의 사용 조건은 없다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 이번 조사에서 확인하지 못해 지표성분은 비워 두었다.\n\n주로 북위 40° 이북 유라시아와 북아메리카의 강·호수에 살며, 민물고기 가운데 경도 방향 분포가 가장 넓은 종으로 소개된다[4]. 북부 캐나다·알래스카 공동체에서는 중요한 식량 어종이고, 간은 비타민과 지방산이 풍부한 별미로 인용된다[2, 18]. 간과 수컷 정소가 맛있기로 유명하다는 소개도 있다[4]. 반면 오래 살고 물고기를 많이 먹어 근육에 수은이 쌓이기 쉬운 어종으로 설명된다[2]. 한반도에서는 1935년 4월 북한 압록강에서 채집되어 국립수산과학원에 보관된 표본 1개체를 다시 기재한 국내 논문이 있다(원문은 열지 못하고 서지·초록 요약으로만 확인)[8]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사·보호 지위",
+   "body": "캐나다 매켄지강의 모오캐는 북부 캐나다 공동체의 중요한 주식 어종으로 소개된다[18]. 미국 알래스카에서는 낚시·자급 어업으로 연평균 약 2,600마리가 잡히는 것으로 추정되며, 가장 큰 낚시 어업은 타나나강 유역에서 이루어진다[2]. 캐나다 온타리오주 북서부 원주민 공동체 연구는 모오캐의 에너지·영양가를 분석하고, 여러 조직 부위를 함께 먹던 전통 방식을 따를 때 건강상 이점이 살아난다고 보았다[32]. 동유럽과 스웨덴에서 처음 기술된 1,000건이 넘는 하프병(익힌 생선을 먹은 뒤 근육이 녹는 병) 사례에는 모오캐를 포함한 익힌 민물고기가 관련되었다[13].\n\n최근 수십 년 사이 남획·오염·서식지 파괴로 자원이 줄어, 북아메리카와 유라시아 일부 지역에서는 위협·멸종위기 상태이거나 사라졌다고 소개된다[4]. 미국 몬태나주–캐나다 브리티시컬럼비아주의 쿠카누사호–쿠트니강 수계에서는 셀레늄 오염이 개체군 붕괴의 원인으로 의심된다[21]. 북아메리카 아종(L. l. maculosa)의 감소에 대응해 보전용 양식 기법이 개발되었다[26]. 중국 헤이룽장강 상류 개체군도 크게 줄었다가 상당히 회복되었으나 자원 관리 우려가 제기되었다[9]. 국제자연보전연맹(IUCN) 적색목록 범주와 국내 법정 보호 지위는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생활사",
+   "body": "모오캐는 바다 대구류에서 갈라져 민물로 옮겨 온 뒤에도 찬물 선호, 저온 산란, 높은 산란력, 떠다니는 자어 시기 같은 바다 조상의 특징을 지닌다[4]. 겨울이나 이른 봄 4 °C 이하의 물에서 알을 낳으며, 수온이 5 °C를 넘으면 알의 생존에 해롭다[4]. 오대호 지역 자료에서 부화 때 몸길이는 3 mm이다[35]. 자라면서 점점 물고기를 많이 먹지만 평생 작은 무척추동물 등도 가리지 않고 먹는다[2]. 성숙한 수컷의 정소는 체중의 10–15%에 이를 만큼 커서, 수컷 어류 가운데 생식소 비중이 가장 큰 편이다[19].\n\n중국 헤이룽장강 상류 표본 638마리는 몸길이 107–529 mm, 무게 8.91–1474.17 g이었고, 이론적 최대 체장은 551.25 mm, 성장계수는 0.16으로 추정되었다[9]. 알래스카 타나나강 유역 표본은 길이 116–840 mm, 무게 9.0–3188.0 g이었다[2]. 중국 우수리강의 야생 성어를 96시간 동안 여러 수온에 둔 실험에서 7 °C는 열 스트레스, 17 °C는 개체 사망이 시작되는 전환점, 22 °C는 한계 온도로 제시되었다[11]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·종 판별",
+   "body": "국내 학술지 논문은 이 종이 속한 아과·속의 국명으로 '모오캐아과'·'모오캐속'을 제시했다고 검색 요약으로 확인했다(원문 미확인)[8]. 연구에 따라 대구과(Gadidae)의 유일한 담수종으로 다루기도 한다[4]. 식약처 「식품원료 목록」에는 별칭 '모캐'가 함께 적혀 있다[1].\n\n미토콘드리아 DNA 연구는 유라시아의 기준 아종(L. l. lota)과 북아메리카 아종(L. l. maculosa)이 유전적으로 나뉜다는 견해를 지지했고, 서시베리아 오비–이르티시·타즈강 개체는 유라시아–베링 계통군(기준 아종)에 속했다[6]. 볼가–카마강 유역 개체도 유라시아 하플로그룹에 들었다[7]. 유전체 계통 분석에서 가장 가까운 비교 종은 대서양대구(Gadus morhua)였고, 갈라진 시기는 약 4380만 년 전 또는 약 4921만 년 전으로 연구마다 달랐다[3, 4]. 대구간유처럼 바다 대구류 간에서 얻은 성분 자료는 다른 종의 것이어서 이 문서에 넣지 않았으며, 모오캐 간의 비타민 함량 수치는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "알래스카 타나나강 유역에서는 미끼를 단 주낙으로 물이 녹은 4–10월에는 수심 0.3–5.0 m에서, 11–3월에는 얼음을 뚫고 잡는다[2]. 중국 헤이룽장강 상류 연구는 현재 이용률을 24.39%, 총 자원량을 94.76 t, 최대지속생산량을 14.69 t으로 추정했다[9].\n\n모오캐는 경제적 가치가 높고 낮은 수온에서 빨리 자라 냉수성 양식 후보로 관심을 받는다[27]. 야생 자원이 줄면서 양식 모오캐로 시장 수요를 채울 수 있지만 고밀도 사육의 질병이 과제로 지적된다[33]. 순환여과식 양식 시설에서 무지개송어와 섞어 77일 기른 시험에서 모오캐 생존율은 평균 88%였고, 이 연구는 상업적 중요성이 제한적이라는 이유로 모오캐 단독 양식은 평가하지 않았다[28]. 순환여과식 시설에서 최대 2년 기른 개체에서는 피부 궤양과 필레의 육아종성 염증·석회화가 관찰되었으나 원인은 밝혀지지 않았다[25]. 미국 보전용 양식장의 치어 집단 폐사 때 분리한 Aeromonas 2개 분리주는 복강 주사 시험에서 병원성을 보였다[26]. 등온 사육 뒤 성 성숙을 유도할 때는 4.0 °C 저온 조건이 8.5 °C보다 효과적이었다[29]. 국내 어획·양식 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "이용·영양·조리",
+   "body": "모오캐 간은 북극권 주민이 귀하게 여기는 별미로, 지방산과 비타민 K·D의 공급원이라고 인용되었다[2]. 불포화지방산과 여러 아미노산이 많아 경제적 가치가 크다는 소개도 있다[4]. 그러나 캐나다 데초 지역 호수 물고기 비교에서 근육 오메가-3 지방산 평균은 모오캐가 100 g당 101 mg으로 조사 종 가운데 가장 낮았다[15]. 같은 지역 연구에서 모오캐는 수은이 높은 쪽에 속했고, 수은과 오메가-3 지방산이 음의 상관을 보였다[16].\n\n캐나다 북부 물고기의 시험관 소화 모델에서 모오캐 간의 총수은 생체접근률은 39%였다[20]. 같은 연구에서 물을 두르고 팬에 익힌 시료(여러 어종)는 생체접근 가능한 총수은이 평균 32% 낮았다[20]. 알래스카 연구에서 간의 수은 농도는 근육의 약 4분의 1이었지만, 간은 유기할로겐 등 다른 오염물질을 저장하므로 함께 따져야 한다고 했다[2]. 국가표준식품성분표의 모오캐 항목과 국내 가공 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "첫 염색체 수준 유전체(장문 서열·Hi-C)는 575.92 Mb, 유사염색체 22개, 단백질 암호 유전자 22,067개로 조립되었고, 담수 적응과 관련될 수 있는 양성 선택 유전자 377개가 제시되었다[3]. 나노포어 장문 서열과 Hi-C로 만든 다른 유전체는 583.78 Mb, 유사염색체 24개, contig N50 9.08 Mb, 단백질 암호 유전자 21,672개였고, 염색체 24개는 세포학적 핵형 관찰과 일치한다고 했다[4]. 이 유전체에서 반복 서열은 전체의 56.97%였다[4].\n\n중국 부르친강 개체의 미토콘드리아 유전체는 16,519 bp 원형으로, 단백질 암호 유전자 13개, rRNA 2개, tRNA 22개와 조절 영역을 가진다[5]. 서시베리아 개체 134마리의 조절 영역(407 bp) 분석에서 하플로타입 30개가 나왔고 그중 23개가 새로 확인되었다[6]. 선천면역 연구에서는 Toll 유사 수용체(TLR) 유전자 19개가 확인되었다[34]. 헤이룽장 집단과 신장 집단은 비슷한 고온 스트레스에 서로 다른 유전자 발현 반응을 보였다[10]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성·오염물질·기생충",
+   "body": "식약처 「식품원료 목록」에서 모오캐는 별도 조건 없는 '사용가능' 수산물 원료이다[1]. 고시형 원료의 섭취 시 주의사항과 국내 공공기관의 알레르기·잔류물질 정보는 확인하지 못함.\n\n알래스카 타나나강 유역 모오캐의 총수은은 초록 기준 근육 268.2 ng/g, 간 62.3 ng/g(습중량)이었고 몸길이가 길수록 높았으며, 모든 개체가 주 정부의 가임기 여성·어린이 섭취 권고 범주 안에 들었다[2]. 이리호·그레이트슬레이브호 성어는 전어체 총수은이 암컷에서 수컷보다 평균 22% 높았다[19]. 러시아 북극권 강에서는 1980–2001년 수은이 연 2.6%씩 줄었지만 매켄지강에서는 25년간 수은·PCB가 늘었다[17, 18]. 다뉴브강 개체는 최대 허용 농도를 넘은 원소가 없었으나 수은이 기준에 가까웠다[22]. 노르웨이 미에사호 개체 간의 PCB·DDT·PBDE는 대조 호수보다 각각 약 10·15·300배였다[14].\n\n이탈리아 이세오호·코모호 모오캐의 3.6–3.8%에서 광절열두조충(Diphyllobothrium latum) 유충이 나와, 날것·덜 익힌 섭취의 위험이 지적되었다[12]. 이 종에서 기록된 기생생물은 242종(분류군)이다[30]. 핀란드 개체 골격근에서는 미포자충 감염이 기술되었다[31]. 익힌 모오캐 등 민물고기와 관련된 하프병 사례도 있다[13]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Mercury",
+   "name_ko": "총수은(근육)",
+   "class": "중금속 오염물질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "평균 268.2 ng/g 습중량(초록), 본문 비교 절의 평균 325.5 ng/g 습중량(초록 평균과 산출 방식 차이는 원문에 명시 없음) — 미국 알래스카 타나나강 유역 50마리, 2018–2019년[2]",
+   "activity_ko": "몸길이 1 cm당 평균 2.7%씩 증가; 모든 개체가 알래스카주 가임기 여성·어린이 섭취 권고 범주 안[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Mercury",
+   "name_ko": "총수은(간)",
+   "class": "중금속 오염물질",
+   "role": "bioactive",
+   "part": "간",
+   "content_text": "평균 62.3 ng/g 습중량(초록); 간/근육 비 0.26 ± 0.11 — 알래스카 타나나강 유역[2]",
+   "activity_ko": "간 시료의 89%가 섭취 제한 없는 범주(200 ng/g 미만)에 들었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Mercury",
+   "name_ko": "총수은(러시아 북극권)",
+   "class": "중금속 오염물질",
+   "role": "bioactive",
+   "part": "근육(초록에 부위 표기 없음)",
+   "content_text": "0.171 μg/g 습중량(1980년) → 0.104 μg/g 습중량(2001년) — 러시아 북극권 8개 강[17]",
+   "activity_ko": "연평균 2.6% 감소, 서쪽에서 동쪽으로 경도 10°마다 1.8% 감소[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "미량원소",
+   "role": "nutrient",
+   "part": "난소·간·근육",
+   "content_text": "난소 4.55 ± 2.23, 간 2.69 ± 1.96, 근육 1.87 ± 1.14 μg/g 건중량 — 캐나다 온타리오주 북서부 기준 호수 암컷[21]",
+   "activity_ko": "몸 크기가 클수록 낮아짐; 조직 간 농도가 서로 양의 상관[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Omega-3 fatty acids",
+   "name_ko": "오메가-3 지방산",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "평균 101 mg/100 g — 캐나다 노스웨스트준주 데초 지역, 조사 어종 중 최저(호수송어 1,689 mg/100 g)[15]",
+   "activity_ko": "EPA·DHA 등 오메가-3 지방산은 신경 발달·심혈관 건강에 이롭다고 소개됨(이 종 섭취 시험 아님)[16]",
+   "source": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Vitamin D",
+   "name_ko": "비타민 D(간)",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "간",
+   "content_text": "간이 지방산과 비타민 K·D의 공급원이라고 인용됨; 함량 수치는 확인하지 못함[2]",
+   "activity_ko": "북극권 공동체의 별미로 여겨지는 이유로 소개됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Polybrominated diphenyl ethers",
+   "name_ko": "폴리브롬화디페닐에테르(PBDE)",
+   "class": "브롬계 난연제(잔류성 유기오염물질)",
+   "role": "bioactive",
+   "part": "간",
+   "content_text": "노르웨이 미에사호 개체가 대조 호수(로스나호)보다 약 300배 높음 — 2005–2008년 채집[14]",
+   "activity_ko": "오염 호수 개체에서 마이코박테리아 감염·육아종·기생충 감염이 더 많고 간 지질은 더 낮았다[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Polychlorinated biphenyls",
+   "name_ko": "폴리염화비페닐(PCB)",
+   "class": "잔류성 유기오염물질",
+   "role": "bioactive",
+   "part": "간(미에사호); 매켄지강은 초록에 부위 표기 없음",
+   "content_text": "미에사호 개체 간이 대조 호수보다 약 10배 높음[14]; 매켄지강 개체는 지난 25년간 유의하게 증가[18]",
+   "activity_ko": "기후 온난화에 따른 일차생산 증가와 함께 늘어난 것으로 해석됨[18]",
+   "source": [
+    14,
+    18
+   ]
+  },
+  {
+   "name": "Polycyclic aromatic hydrocarbons",
+   "name_ko": "다환방향족탄화수소(PAH)",
+   "class": "환경 오염물질",
+   "role": "bioactive",
+   "part": "등 근육",
+   "content_text": "포트매케이 부근 ΣPAH 계절 평균 최저 11 ng/g 습중량(모오캐, 여름); 같은 지점 최고 계절 평균도 모오캐(봄)였음(초록의 지수 표기가 깨져 수치 미확인); 이 지점 전 어종 평균 48 ng/g 습중량[23]",
+   "activity_ko": "어류 섭취로 인한 평생 추가 암 위험은 '허용 가능' 범위로 평가됨[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "Arsenic",
+   "name_ko": "비소",
+   "class": "준금속 원소",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "다뉴브강(세르비아) 4종 비교에서 근육 비소가 잡식성 종(모오캐·잉어)에서 더 높았음; 수치는 초록에 없어 확인하지 못함[22]",
+   "activity_ko": "조사 원소 모두 최대 허용 농도를 넘지 않았다[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "Microplastics",
+   "name_ko": "미세플라스틱",
+   "class": "입자상 오염물질",
+   "role": "bioactive",
+   "part": "아가미·소화관·간·근육",
+   "content_text": "개체당 24.6 ± 7.46개; 아가미 1.53, 소화관 1.54, 간 0.89, 근육 1.07개/g — 헝가리 티서강 상류 10마리[24]",
+   "activity_ko": "모오캐 섭취를 통한 노출 추정치는 유아 주 14.4개, 유럽 성인 주 320.54개[24]",
+   "source": [
+    24
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Total mercury",
+   "compound_ko": "총수은",
+   "part": "근육·간",
+   "content": "근육 평균 268.2 ng/g 습중량, 간 평균 62.3 ng/g 습중량(초록); 본문 근육 산술평균 325.5 ng/g 습중량 [2]",
+   "method": "직접 수은 분석(U.S. EPA Method 7473)",
+   "conditions": {
+    "instrument": "직접 수은 분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "U.S. EPA Method 7473(EPA30B)",
+    "injection": "",
+    "sample_prep": "근육(피부 제거, 몸 왼쪽 첫 등지느러미와 머리 사이 측선 위쪽 약 5 g)·간(약 5 g)을 48시간 이상 동결건조해 수분율 계산 → 극저온 볼밀로 2분 분쇄 → 0.010–0.025 g 분석, 모든 시료 2회 반복 후 평균, 결과는 습중량으로 환산",
+    "standard": "염화수은(HgCl2) 100 ng/g 액상 표준; 인증표준물질 DORM-4(어류 단백질, 0.354 ± 0.031 mg/kg)·DOLT-5(돔발상어 간, 0.44 ± 0.18 mg/kg)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "100 ng/g 표준 109.5 ± 3.1%, DORM-4 93.1 ± 3.7%, DOLT-5 105.5 ± 7.7%; 반복 간 변동계수 ≤ 15%"
+   },
+   "rationale": "어류 근육 총수은의 85% 이상이 메틸수은이어서 총수은 측정이 메틸수은 노출 평가의 대용 지표로 쓰인다고 설명한다. PMC 전문 Methods에서 조건을 확인했다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.1016/j.chemosphere.2022.134279",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Heavy metals and trace elements (18 elements incl. Hg, As, Cd, Pb, Se)",
+   "compound_ko": "중금속·미량원소 18종",
+   "part": "간·근육·아가미",
+   "content": "모든 원소가 최대 허용 농도 이하, 수은은 기준에 근접; 근육 비소는 모오캐·잉어에서 더 높음 [22]",
+   "method": "ICP-OES",
+   "conditions": {
+    "instrument": "유도결합플라스마 발광분광기(ICP-OES)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "ICP-OES(Al, As, B, Ba, Cd, Co, Cr, Cu, Fe, Hg, Li, Mn, Mo, Ni, Pb, Se, Sr, Zn 18원소)",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "식용 어종 4종의 조직별 축적 차이를 비교해 감시·위해 평가에 맞는 종과 조직을 고르기 위한 연구이다. 초록만 확인했고 전문 확인 못함(시료 전처리·검출한계는 비움)[22].",
+   "source": [
+    22
+   ],
+   "url": "https://doi.org/10.1016/j.ecoenv.2013.08.020",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Microplastics (polymer identification)",
+   "compound_ko": "미세플라스틱",
+   "part": "아가미·소화관·간·근육",
+   "content": "개체당 24.6 ± 7.46개, 섬유형 83.3%, 대부분 500 μm 미만 [24]",
+   "method": "조직별 입자 계수 + 라만 분광 고분자 동정",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "라만 분광으로 입자 68개의 고분자 종류(17종) 확인",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "저서성 최상위 포식자인 모오캐를 담수 미세플라스틱 오염의 생물 지표로 제안했다. 초록만 확인했고 전문 확인 못함(분해·여과 조건은 비움)[24].",
+   "source": [
+    24
+   ],
+   "url": "https://doi.org/10.1016/j.jhazmat.2026.141048",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [
+  {
+   "country": "중국(헤이룽장강 상류)",
+   "metric": "biomass_t",
+   "year": 2023,
+   "value": 94.76,
+   "unit": "t",
+   "note": "2022년 10월–2023년 10월 표본 638마리로 체장 기반 가상개체군분석한 총 자원량 추정치(생산량 아님)",
+   "source": [
+    9
+   ]
+  },
+  {
+   "country": "중국(헤이룽장강 상류)",
+   "metric": "msy_t",
+   "year": 2023,
+   "value": 14.69,
+   "unit": "t",
+   "note": "같은 연구의 최대지속생산량 추정치; 현재 이용률 24.39%",
+   "source": [
+    9
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 모오캐(Lota lota) 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Ecotoxicology of mercury in burbot (Lota lota) from interior Alaska and insights towards human health. Chemosphere 2022;298:134279",
+   "url": "https://doi.org/10.1016/j.chemosphere.2022.134279",
+   "publisher": "Chemosphere, PMC9081214, PubMed 35283142",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Chromosome-level genome assembly of burbot (Lota lota) provides insights into the evolutionary adaptations in freshwater. Mol Ecol Resour 2021;21(6):2022-2033",
+   "url": "https://doi.org/10.1111/1755-0998.13382",
+   "publisher": "Molecular Ecology Resources, PubMed 33730415",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Chromosome-Level Genome Assembly of the Burbot (Lota lota) Using Nanopore and Hi-C Technologies. Front Genet 2021;12:747552",
+   "url": "https://doi.org/10.3389/fgene.2021.747552",
+   "publisher": "Frontiers in Genetics, PMC8650494, PubMed 34887901",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "The complete mitochondrial genome of Lota lota (Gadiformes: Gadidae) from the Burqin River in China. Mitochondrial DNA A 2016;27(3):1662-1663",
+   "url": "https://doi.org/10.3109/19401736.2014.958718",
+   "publisher": "Mitochondrial DNA Part A, PubMed 25231720",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "[The genetic diversity of burbot (Lota lota L., 1758) of Western Siberia (the analysis of the mtDNA control region polymorphism)]. Genetika 2017;53(2):214-222",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29372969/",
+   "publisher": "Genetika, PubMed 29372969",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Phylogenetic Relationships of Burbot (Lota lota L., 1758) of the Volga-Kama River Basin Inferred from the Analysis of Mitochondrial DNA Markers. Dokl Biochem Biophys 2020;490(1):54-58",
+   "url": "https://doi.org/10.1134/S1607672920010159",
+   "publisher": "Doklady Biochemistry and Biophysics, PubMed 32342315",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "북한 압록강에서 채집된 대구과(Gadidae) 모오캐(Lota lota)의 재기재. 한국어류학회지 2023;35(3) (DOI 10.35399/ISK.35.3.9) — 원문 사이트가 이 환경에서 열리지 않아 서지·초록 검색 요약으로만 확인",
+   "url": "https://koreascience.or.kr/article/JAKO202332559545823.page",
+   "publisher": "한국어류학회(한국어류학회지) — 서지·검색 요약으로만 확인",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Assessment of Potential Yield and Sustainable Management of Burbot, Lota lota (L.1758), in the Upper Heilongjiang River, China, Based on Population Parameters. Biology (Basel) 2025;14(3):248",
+   "url": "https://doi.org/10.3390/biology14030248",
+   "publisher": "Biology (Basel), PMC11939695, PubMed 40136505",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Comparative transcriptome reveals the thermal stress response differences between Heilongjiang population and Xinjiang population of Lota lota. Comp Biochem Physiol Part D 2022;42:100960",
+   "url": "https://doi.org/10.1016/j.cbd.2022.100960",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PubMed 35042124",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Combined Impacts of Acute Heat Stress on the Histology, Antioxidant Activity, Immunity, and Intestinal Microbiota of Wild Female Burbot (Lota lota) in Winter. Antioxidants 2025;14(8):947",
+   "url": "https://doi.org/10.3390/antiox14080947",
+   "publisher": "Antioxidants, PMC12382668, PubMed 40867842",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Prevalence of Diphyllobothrium latum (Cestoda: Diphyllobothriidae) plerocercoids in fish species from four Italian lakes and risk for the consumers. Int J Food Microbiol 2016;235:109-112",
+   "url": "https://doi.org/10.1016/j.ijfoodmicro.2016.06.033",
+   "publisher": "International Journal of Food Microbiology, PubMed 27491055",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Global incidence of rhabdomyolysis after cooked seafood consumption (Haff disease). Clin Toxicol 2015;53(5):421-426",
+   "url": "https://doi.org/10.3109/15563650.2015.1016165",
+   "publisher": "Clinical Toxicology, PubMed 25789572",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "High prevalence of infections and pathological changes in burbot (Lota lota) from a polluted lake (Lake Mjøsa, Norway). Chemosphere 2013;90(5):1711-1718",
+   "url": "https://doi.org/10.1016/j.chemosphere.2012.10.017",
+   "publisher": "Chemosphere, PubMed 23149183",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Associations between omega-3 fatty acids, selenium content, and mercury levels in wild-harvested fish from the Dehcho Region, Northwest Territories, Canada. J Toxicol Environ Health A 2017;80(1):18-31",
+   "url": "https://doi.org/10.1080/15287394.2016.1230916",
+   "publisher": "Journal of Toxicology and Environmental Health Part A, PubMed 27905863",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Mercury and omega-3 fatty acid profiles in freshwater fish of the Dehcho Region, Northwest Territories: Informing risk benefit assessments. Sci Total Environ 2018;637-638:1508-1517",
+   "url": "https://doi.org/10.1016/j.scitotenv.2018.04.381",
+   "publisher": "Science of the Total Environment, PubMed 29801244",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Temporal and Longitudinal Mercury Trends in Burbot (Lota lota) in the Russian Arctic. Environ Sci Technol 2017;51(22):13436-13442",
+   "url": "https://doi.org/10.1021/acs.est.7b03929",
+   "publisher": "Environmental Science & Technology, PubMed 29083154",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Increasing contaminant burdens in an arctic fish, Burbot (Lota lota), in a warming climate. Environ Sci Technol 2010;44(1):316-322",
+   "url": "https://doi.org/10.1021/es902582y",
+   "publisher": "Environmental Science & Technology, PubMed 19957995",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Females exceed males in mercury concentrations of burbot Lota lota. Arch Environ Contam Toxicol 2015;68(4):678-688",
+   "url": "https://doi.org/10.1007/s00244-015-0131-1",
+   "publisher": "Archives of Environmental Contamination and Toxicology, PubMed 25628029",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Mercury bioaccessiblity in freshwater fish species from northern Canada. Sci Total Environ 2023;899:165624",
+   "url": "https://doi.org/10.1016/j.scitotenv.2023.165624",
+   "publisher": "Science of the Total Environment, PubMed 37478927",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Relationships among tissues, biofluids, and otolith selenium concentrations in wild female burbot (Lota lota). Integr Environ Assess Manag 2025;21(1):52-61",
+   "url": "https://doi.org/10.1002/ieam.4874",
+   "publisher": "Integrated Environmental Assessment and Management, PubMed 38041586",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Heavy metal and trace element bioaccumulation in target tissues of four edible fish species from the Danube River (Serbia). Ecotoxicol Environ Saf 2013;98:196-202",
+   "url": "https://doi.org/10.1016/j.ecoenv.2013.08.020",
+   "publisher": "Ecotoxicology and Environmental Safety, PubMed 24054751",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Potential health risks posed by polycyclic aromatic hydrocarbons in muscle tissues of fishes from the Athabasca and Slave Rivers, Canada. Environ Geochem Health 2017;39(1):139-160",
+   "url": "https://doi.org/10.1007/s10653-016-9815-3",
+   "publisher": "Environmental Geochemistry and Health, PubMed 26972698",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Burbot (Lota lota) as a bioindicator of microplastic pollution in the Tisza River: Multi-tissue contamination, polymer characterisation, and implications for ecological and human-health risks. J Hazard Mater 2026;503:141048",
+   "url": "https://doi.org/10.1016/j.jhazmat.2026.141048",
+   "publisher": "Journal of Hazardous Materials, PubMed 41520437",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Preliminary investigation of an idiopathic muscle disease in farmed burbot Lota lota. Dis Aquat Organ 2020;140:179-186",
+   "url": "https://doi.org/10.3354/dao03494",
+   "publisher": "Diseases of Aquatic Organisms, PubMed 32815526",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Identification of Two Pathogenic Aeromonas Species Isolated from Juvenile Burbot during Production-Related Epizootics. J Aquat Anim Health 2018;30(3):201-209",
+   "url": "https://doi.org/10.1002/aah.10023",
+   "publisher": "Journal of Aquatic Animal Health, PubMed 29799641",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Development of a monoclonal antibody specific to burbot (Lota lota) IgM and optimization of an ELISA to measure anti-Aeromonas sp. antibody titers following pathogen challenge. Fish Shellfish Immunol 2023;137:108775",
+   "url": "https://doi.org/10.1016/j.fsi.2023.108775",
+   "publisher": "Fish & Shellfish Immunology, PubMed 37105427",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Practical application of bicultural stocking and its effects on fish growth, blood biochemistry, and solid waste elimination in recirculating aquaculture system. Animal 2024;18(7):101193",
+   "url": "https://doi.org/10.1016/j.animal.2024.101193",
+   "publisher": "Animal, PubMed 38870589",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Induction of gonadal maturation at different temperatures in burbot Lota lota. J Fish Biol 2016;89(5):2268-2281",
+   "url": "https://doi.org/10.1111/jfb.13107",
+   "publisher": "Journal of Fish Biology, PubMed 27650588",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "[A checklist of protozoan and metazoan parasites of the burbot (Lota lota)]. Parazitologiia 2012;46(1):34-61",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22586925/",
+   "publisher": "Parazitologiia, PubMed 22586925",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Myosporidium ladogensis n. comb. in burbot Lota lota from Finland: fine structure and microsporidian taxonomy. Dis Aquat Organ 2020;139:15-23",
+   "url": "https://doi.org/10.3354/dao03466",
+   "publisher": "Diseases of Aquatic Organisms, PubMed 32297595",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "The relationship of the burbot (Lota lota L.) to the reintroduction of off-the-land foods in the Sandy Lake First Nation Community. Biodemography Soc Biol 2009;55(1):12-29",
+   "url": "https://doi.org/10.1080/19485560903054630",
+   "publisher": "Biodemography and Social Biology, PubMed 19835098",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Transcriptional responses of liver and spleen in Lota lota to polyriboinosinic polyribocytidylic acid. Front Immunol 2023;14:1272393",
+   "url": "https://doi.org/10.3389/fimmu.2023.1272393",
+   "publisher": "Frontiers in Immunology, PMC10611466, PubMed 37901224",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "TLR pathway signaling molecules in burbot (Lota lota): molecular characterization, basal expression, and their response to Poly(I:C). Fish Shellfish Immunol 2023;140:108939",
+   "url": "https://doi.org/10.1016/j.fsi.2023.108939",
+   "publisher": "Fish & Shellfish Immunology, PubMed 37451526",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Variability in early development and growth of Great Lakes burbot: developmental patterns in cultured and wild-caught larval burbot. J Fish Biol 2022;100(3):675-686",
+   "url": "https://doi.org/10.1111/jfb.14980",
+   "publisher": "Journal of Fish Biology, PubMed 34928507",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

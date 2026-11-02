@@ -1,0 +1,152 @@
+[
+ {
+  "where": "sections.overview",
+  "before": "유럽에서는 꽃을 설탕과 달걀흰자로",
+  "after": "꽃은 설탕과 달걀흰자로",
+  "why": "[4] 는 식용 방식을 소개하나 지역을 유럽으로 한정하지 않음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "따라서 물푸레나무과 꽃가루 알레르기가 있는 사람은 꽃을 먹을 때 주의하는 것이 좋다고 보이나, 꽃을 먹어서 생긴 알레르기 사례 보고는 확인하지 못함.",
+  "after": "다만 이는 꽃가루(흡입) 알레르겐 자료이며, 꽃을 먹었을 때 교차 반응이 생기는지와 섭취로 생긴 알레르기 사례 보고는 확인하지 못함.",
+  "why": "[23] 은 재조합 꽃가루 알레르겐의 면역학적 교차성만 다룸 — 섭취 시 주의 권고는 출처에 없는 추론"
+ },
+ {
+  "where": "sections.safety",
+  "before": "꽃·잎의 루틴·퀘르세틴 3-글루코사이드·액테오사이드가 생쥐 꼬리 혈류 감소를 막았다는 결과도 동물 실험이다[7].",
+  "after": "꽃과 잎의 메탄올 추출물(100 mg/kg, 경구)이 달걀흰자 라이소자임 감작 생쥐의 꼬리 혈류 감소를 줄였고, 잎 추출물에서 분리한 퀘르세틴 3-글루코사이드·루틴·액테오사이드(10 mg/kg)가 활성 성분으로 제시되었으나 이는 동물 실험이다[7].",
+  "why": "[7] 전문: 활성 성분은 잎 추출물(LSV)에서 분리됨 — 꽃에서 분리한 것이 아님"
+ },
+ {
+  "where": "sections.genetics",
+  "before": "RAPD 표지로 시험관 보존 품종 46점을 대조해 품종을 확인하는 방법이 제안되었다[20]",
+  "after": "시험관 보존 수집품 46점(미세클론과 기준 품종)의 RAPD 유형을 비교했으나 직접 대조로는 확인이 어려워, 기준 품종과의 상대 유전 거리로 확인하는 방법이 제안되었다[20]",
+  "why": "[20] 초록: 미세클론과 기준 품종의 RAPD 유형이 자주 달라 직접 비교가 불가능했다고 씀"
+ },
+ {
+  "where": "sections.genetics",
+  "before": "S. oblata 계통과의 교잡 육종이 시도되고 있다[18]",
+  "after": "S. oblata 아종을 모계로 한 교잡이 권고되었다[18]",
+  "why": "[18] 초록: S. oblata 아종을 모계로 두 종을 교잡하는 것이 바람직하다고 권고"
+ },
+ {
+  "where": "compounds.Acteoside.content_text",
+  "before": "메탄올 추출 꽃 2.48%(검증된 방법으로 정량)[2]; 70% 에탄올 꽃 추출물 9,408.78 μg/g[3]",
+  "after": "메탄올 추출 꽃 2.48%(검증된 방법으로 정량; 초록에 기준(건조 꽃/추출물) 표기 없음)[2]; 70% 에탄올 꽃 추출물 9,408.78 μg/g(클로로젠산 당량, 방법 절은 식물 재료 g당으로 표기)[3]",
+  "why": "[3] 방법: 페닐프로파노이드는 클로로젠산 검량선 당량, 식물 재료 g당 — 실제 단일 표준품 정량 아님"
+ },
+ {
+  "where": "compounds.Acteoside.activity_ko",
+  "before": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물)[7]",
+  "after": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물, 잎 추출물에서 분리)[7]",
+  "why": "[7] 분리 출처는 잎"
+ },
+ {
+  "where": "compounds.Rutin.activity_ko",
+  "before": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물)[7]",
+  "after": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물, 잎 추출물에서 분리)[7]",
+  "why": "[7] 분리 출처는 잎"
+ },
+ {
+  "where": "compounds.Rutin.content_text",
+  "before": "퀘르세틴 루티노사이드 7,642.07 μg/g[3]",
+  "after": "퀘르세틴 루티노사이드 7,642.07 μg/g(루틴 당량)[3]",
+  "why": "[3] 방법: 플라보노이드는 루틴 당량"
+ },
+ {
+  "where": "compounds.Quercetin 3-O-glucoside.part",
+  "before": "꽃·잎",
+  "after": "잎(활성 성분 분리 부위; 꽃 함량 미확인)",
+  "why": "[7] 에서 이 성분은 잎 추출물에서 분리됨"
+ },
+ {
+  "where": "compounds.Quercetin 3-O-glucoside.activity_ko",
+  "before": "(동물)[7]",
+  "after": "(동물, 잎 추출물에서 분리)[7]",
+  "why": "[7] 분리 출처는 잎"
+ },
+ {
+  "where": "compounds.Nuzhenide.content_text",
+  "before": "70% 에탄올 꽃 추출물 15,893.68 μg/g[3]",
+  "after": "70% 에탄올 꽃 추출물 15,893.68 μg/g(올레유로페인 검량선 당량)[3]",
+  "why": "[3] 방법: 계열 대표 표준품 검량선 당량값"
+ },
+ {
+  "where": "compounds.Syringin.content_text",
+  "before": "70% 에탄올 꽃 추출물 14,653.98 μg/g, 나무껍질 74,535.30 μg/g[3]",
+  "after": "70% 에탄올 꽃 추출물 14,653.98 μg/g, 나무껍질 74,535.30 μg/g(클로로젠산 당량)[3]",
+  "why": "[3] 방법: 계열 대표 표준품 검량선 당량값"
+ },
+ {
+  "where": "compounds.Demethyloleuropein.content_text",
+  "before": "70% 에탄올 꽃 추출물 35,729.89 μg/g[3]",
+  "after": "70% 에탄올 꽃 추출물 35,729.89 μg/g(올레유로페인 검량선 당량)[3]",
+  "why": "[3] 방법: 계열 대표 표준품 검량선 당량값"
+ },
+ {
+  "where": "compounds.Secologanoside.content_text",
+  "before": "70% 에탄올 꽃 추출물 27,663.00 μg/g[3]",
+  "after": "70% 에탄올 꽃 추출물 27,663.00 μg/g(올레유로페인 검량선 당량)[3]",
+  "why": "[3] 방법: 계열 대표 표준품 검량선 당량값"
+ },
+ {
+  "where": "assays[1].content",
+  "before": "(원문 단위 μg/g; 건조 꽃 기준인지 추출액 기준인지 원문이 분명하지 않음)",
+  "after": "(계열 표준품 당량, μg/g; 방법 절은 '식물 재료(공기 건조) g당'으로 표기하나 결과 본문은 '꽃 추출물' 값으로 제시해 기준이 완전히 분명하지는 않음)",
+  "why": "[3] 3.3절: expressed as equivalents/g plant material"
+ },
+ {
+  "where": "assays[1].conditions.standard",
+  "before": "검량선으로 당량 환산",
+  "after": "검량선으로 당량 환산(원문은 이리도이드 결과 단위를 '클로로젠산 당량'으로도 적어 표기가 엇갈림)",
+  "why": "[3] 3.3절 원문 표기"
+ },
+ {
+  "where": "assays[2].content",
+  "before": "누즈헤나이드 0.42%[2]",
+  "after": "누즈헤나이드 0.42%(초록 값; 건조 원료/추출물 기준 표기 없음)[2]",
+  "why": "[2] 초록에 기준 없음"
+ },
+ {
+  "where": "sources[8].title",
+  "before": "Extract from Syringa vulgaris L. Flowers — Evaluation of Antioxidant Properties and Modulation of Coagulation Process in Human Plasma In Vitro. Nutrients 2026;18(7):1022 (doi:10.3390/nu18071022)",
+  "after": "Extract from Syringa vulgaris L. Flowers—A Special Emphasis on Its Biological Activity: Evaluation of Antioxidant Properties and Modulation of Coagulation Process in Human Plasma In Vitro. Nutrients 2026;18(7):1022 (doi:10.3390/nu18071022)",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[15].title",
+  "before": "J Hist Biol 2021 (",
+  "after": "J Hist Biol 2021;54(2):311-340 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[18].title",
+  "before": "2021;25(5) (",
+  "after": "2021;25(5):534-542 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[19].title",
+  "before": "Mycologia 2017 (",
+  "after": "Mycologia 2017;109(3):485-494 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[21].title",
+  "before": "Genet Mol Biol 2026 (",
+  "after": "Genet Mol Biol 2026;49(3):e20260016 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[22].title",
+  "before": "Plant J 2022 (",
+  "after": "Plant J 2022;111(3):836-848 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ },
+ {
+  "where": "sources[27].title",
+  "before": "Nat Prod Res 2018 (",
+  "after": "Nat Prod Res 2019;33(11):1664-1669 (",
+  "why": "PubMed 서지 정보 보완/정정"
+ }
+]

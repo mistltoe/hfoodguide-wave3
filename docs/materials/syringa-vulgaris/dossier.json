@@ -1,0 +1,543 @@
+{
+ "slug": "syringa-vulgaris",
+ "name_ko": "서양수수꽃다리",
+ "name_en": "Common lilac",
+ "scientific_name": "Syringa vulgaris L.",
+ "aliases": [
+  "서양수수꽃다리꽃",
+  "라일락",
+  "Lilac",
+  "common lilac",
+  "Busbeckia lilac Hecart",
+  "Lilac coerulea Lunell"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "서양수수꽃다리(Syringa vulgaris L.)는 물푸레나무과(Oleaceae) 수수꽃다리속의 갈잎떨기나무로, 흔히 라일락(lilac, common lilac)이라 부르며 흰색·분홍·연파랑·자주색 꽃이 4–5월에 핀다[1][4]. 식품의약품안전처 「식품원료 목록」에는 원료명 '서양수수꽃다리꽃', 이명 '라일락', 영명 'Lilac'으로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 꽃'이다[1]. 같은 목록의 학명란에는 Busbeckia lilac Hecart, Lilac coerulea Lunell이 이명으로 함께 적혀 있다[1]. 이 자료 묶음의 원자료에는 EU 신규식품(Novel Food) 목록 표시가 있으나, EU 원문에서 그 지위와 조건은 확인하지 못함. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n꽃은 설탕과 달걀흰자로 굳혀 장식하거나 샐러드·우림차로 쓰고, 말려서 차처럼 우려 마시기도 한다[4]. 꽃에는 액테오사이드(베르바스코사이드)·에키나코사이드 같은 페닐프로파노이드 배당체와 올레유로페인·누즈헤나이드 같은 세코이리도이드, 루틴 등 플라보노이드가 많다[2][3]. 효능 연구는 대부분 시험관·동물 실험이며, 사람을 대상으로 한 임상 근거는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "서양수수꽃다리는 발칸반도가 원산이며 유럽 전역에서 관상용으로 널리 심는다[3][4]. 폴란드에서는 16세기부터 귀화해 재배지 밖 야생에서도 자란다고 정리되었다[5]. 유럽 민간에서는 꽃차례나 잎을 우린 물이나 술에 담근 추출물을 통풍·류머티즘·근육통에 쓰고, 꽃·잎·나무껍질·열매를 해열·감기·기침에 썼다는 기록이 있다[5]. 그리스에서는 꽃차례 우린 물을 복부 팽만 같은 위장 불편에 마시고, 불가리아에서는 꽃 달인 물을 해열·식욕 증진에 권했다고 한다[3]. 북아메리카의 생약학 교과서에도 잎·꽃·열매의 해열 용도가 실렸다[5].\n\n라일락은 생물계절(물후) 연구의 대표 지표 식물이기도 하다[15]. 미국에서는 1956–2014년에 자주색 서양수수꽃다리의 잎눈 트기와 꽃 피는 날을 대륙 규모로 기록한 자료가 공개되었다[14]. 20세기 후반 이 관측망은 꽃이 일찍 피는 현상을 기후 변화의 생물학적 신호로 보여 주는 도구가 되었다[15]. 북아메리카 자료에서는 봄 기온이 1 °C 오를 때 라일락 잎눈 트기가 평균 3일 빨라졌다[16]. 독일의 1961–2002년 자료 분석에서도 이 종은 숲의 생물계절 변화를 감지하는 지표종으로 알맞다고 평가되었다[17]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "서양수수꽃다리는 오래 사는 갈잎떨기나무이며, 온대 기후에서 4–5월에 흰색·연보라·분홍·자주색 꽃이 원뿔 모양 꽃차례로 핀다[4]. 향이 진한 서양수수꽃다리 'Li Fei'와 향이 옅은 S. oblata 'Zi Kui'를 비교한 연구에서 두 품종을 합쳐 43가지 휘발 성분이 확인되었고, 두 품종 모두 테르펜류가 가장 많았다[13]. 향의 특징 성분인 라일락 알데하이드와 라일락 알코올은 꽃잎에서 리날로올로부터 만들어지며, 주된 생합성 경로는 메발론산 비의존(MEP) 경로로 밝혀졌다[11][12]. 꽃 에탄올 추출물의 GC-MS 분석에서는 라일락 알코올 C·D 두 입체이성질체가 확인된 성분의 40% 넘게 차지했고 벤질 알코올도 많았다[3].\n\n꽃 색은 품종에 따라 다르며, 파랑·자주·흰 꽃 세 품종을 비교한 연구에서는 캠페롤 배당체·루틴 등 플라보노이드와 시아니딘·델피니딘 루티노사이드 같은 안토시아닌의 분배가 색 차이를 만든다고 보고되었다[10]. 부위별 성분은 크게 달라, 나무껍질에는 시린진, 잎에는 루틴이 주성분이고[27], 꽃 추출물은 페닐프로파노이드·플라보노이드·세코이리도이드가 가장 고르고 많았다[3]. 잎·나무껍질·열매 같은 다른 부위는 식품원료 목록의 사용 가능 부위가 아니다[1]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "수수꽃다리속(Syringa)은 유럽과 아시아에 걸쳐 40종 넘게 분포하며, 유럽에 자생하는 종은 서양수수꽃다리와 S. josikaea 두 종뿐이다[3][5]. 15종의 엽록체 유전체를 비교한 연구에서 이 속은 하나의 계통(단계통)으로 묶였고 세 갈래로 나뉘었다[21]. 동아시아의 S. oblata는 유전체가 따로 해독된 별개의 종이다[22]. 국내 자생 수수꽃다리(S. oblata var. dilatata) 등 국내 라일락의 성분 자료는 이 문서에 섞지 않았으며, 그 분류 관계는 이번 조사에서 공식 출처로 확인하지 못함. 중국의 'Zi Kui'(S. oblata, 향이 옅음)와 서양수수꽃다리 'Li Fei'(향이 진함)를 비교한 연구에서는 'Li Fei'에만 30가지 휘발 성분이 있었다[13].\n\n성분으로 보면 서양수수꽃다리에서는 페닐에타노이드와 몇몇 세코이리도이드가 주성분으로 나타나 이 종의 특징으로 볼 수 있고, 리그난은 다른 아시아 종의 특징에 가깝다고 정리되었다[5]. 같은 물푸레나무과의 올리브·쥐똥나무와는 꽃가루 알레르겐이 닮아, 라일락 꽃가루 주요 알레르겐 Syr v 1은 올리브 Ole e 1과 같은 계열이며 교차 반응을 보인다[23]. 수수꽃다리속에서 꽃이나 잎이 식품원료 목록에 따로 오른 다른 종은 이 자료에서 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "서양수수꽃다리는 주로 관상용으로 심으며, 폴란드 쿠르니크의 60년 된 수집원처럼 많은 품종을 모아 기르는 곳이 있다[4]. 성분 연구에 쓰인 품종으로는 흰 꽃 'Liliana', 연파랑 'Prof. Hoser', 연분홍 'Jules Simon', 자주 'Andenken an Ludwig Späth' 등이 있다[4]. 러시아 극동 남부처럼 습한 지역에서는 겨울을 잘 견디지 못하고 곰팡이병에 자주 걸려, 적응 형질을 들여오려고 S. oblata와 그 잡종의 유전자원을 바탕으로 육종 재료를 만드는 연구가 진행되었다[18]. 갈색 잎점무늬병(Pseudocercospora lilacis)에 대한 저항성과 잎의 해부 구조 사이의 관계도 조사되었다[18].\n\n북아메리카 서부의 서양수수꽃다리에서는 흰가루병균 Phyllactinia syringae가 새로 기재되었고, Erysiphe syringae는 주로 다른 라일락에, 가끔 서양수수꽃다리에 생긴다[19]. 꽃 피는 시기는 봄 기온에 민감해, 기온이 오르면 잎눈 트기와 개화가 앞당겨진다[16][17]. 국내 재배 면적·생산량 같은 공식 통계는 확인하지 못함. 세계 생산 통계도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품으로는 꽃을 그대로 샐러드에 넣거나 설탕에 절여 장식하고, 말린 꽃을 우려 차로 마신다[4]. 홍차를 만들 때처럼 꽃을 시들리고 비벼 밀폐 산화한 뒤 말리는 '산화 라일락차'도 연구되었는데, 산화하면 총페놀이 크게 줄어 산화하지 않은 꽃의 1/4–1/19 수준까지 개별 페놀 합계가 낮아졌다[4]. 같은 연구에서 건조 꽃 1 g에 95 °C 물을 붓고 10분 우린 우림물은 꽃 자체보다 페놀 조성이 단순했고, 흰 꽃(비산화) 우림물이 페놀 성분이 가장 풍부했다[4]. 우림물과 에탄올 추출물은 성분 종류가 비슷하고 양만 달랐다[5].\n\n꽃이 아닌 이용으로, 서양수수꽃다리 식물세포 배양으로 베르바스코사이드(액테오사이드)를 생산하는 기술이 개발되어 동물·세포 실험에 쓰였다[24][25]. 이런 배양 세포 유래 성분은 화장품의 '식물 줄기세포' 원료로도 소개된다[26]. 다만 세포 배양물은 식품원료 목록의 사용 가능 부위(꽃)와 다른 것이며, 국내 식품 사용 근거는 확인하지 못함. 서양수수꽃다리꽃을 쓴 국내 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "서양수수꽃다리 자체의 전체 유전체 해독 결과는 이번 조사에서 확인하지 못함. 같은 속의 S. oblata는 약 1.12 Gb 크기의 염색체 수준 유전체가 발표되었고, 이를 바탕으로 수수꽃다리속이 마이오세(약 1,473만 년 전) 동아시아 북부에서 기원했다고 추정되었다[22]. 이 값은 다른 종의 것이므로 서양수수꽃다리에 그대로 적용할 수 없다[22]. 수수꽃다리속 15종의 엽록체 유전체는 154,019–158,020 bp로 보존성이 높았고, ycf1·ndhH 등이 종 구분 표지 후보로 제시되었다[21].\n\n서양수수꽃다리 품종 연구로는 시험관 보존 수집품 46점(미세클론과 기준 품종)의 RAPD 유형을 비교했으나 직접 대조로는 확인이 어려워, 기준 품종과의 상대 유전 거리로 확인하는 방법이 제안되었다[20]. 파랑·자주·흰 꽃 품종의 전사체·대사체를 함께 분석한 연구에서는 일곱 유전자로 된 조절 모듈이 플라보노이드 네 가지와 안토시아닌 두 가지의 합성을 좌우했다[10]. 향이 진한 품종의 향기 차이에는 TPS·GGPPS·HMGS 유전자가 관여할 것으로 보고되었다[13]. 습한 기후에 견디는 품종을 만들기 위해 S. oblata 아종을 모계로 한 교잡이 권고되었다[18]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품의약품안전처 「식품원료 목록」에서 서양수수꽃다리는 꽃만 식품원료로 쓸 수 있으며, 잎·나무껍질·열매는 사용 가능 부위로 올라 있지 않다[1]. 식용꽃으로서의 알레르기·잔류농약·독성 성분에 관한 국내외 공공기관 정보는 확인하지 못함. 라일락 꽃가루의 주요 알레르겐 Syr v 1은 올리브 꽃가루 알레르겐 Ole e 1과 공통 항원 결정 부위를 가져 올리브·쥐똥나무 꽃가루 알레르기와 교차 반응할 수 있다[23]. 다만 이는 꽃가루(흡입) 알레르겐 자료이며, 꽃을 먹었을 때 교차 반응이 생기는지와 섭취로 생긴 알레르기 사례 보고는 확인하지 못함.\n\n꽃 추출물은 사람 혈장 시험관 실험에서 1–50 µg/mL 농도로 지질 과산화와 단백질 카르보닐화를 줄였고, 혈액 응고 시간에는 영향을 주지 않았다[8]. 꽃 에탄올 추출물은 HeLa·B16F10 암세포에 세포독성을 보였으나 이는 세포 실험 결과다[3]. 꽃과 잎의 메탄올 추출물(100 mg/kg, 경구)이 달걀흰자 라이소자임 감작 생쥐의 꼬리 혈류 감소를 줄였고, 잎 추출물에서 분리한 퀘르세틴 3-글루코사이드·루틴·액테오사이드(10 mg/kg)가 활성 성분으로 제시되었으나 이는 동물 실험이다[7]. 사람에서 효능이나 안전한 섭취량을 정한 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Acteoside",
+   "name_ko": "액테오사이드(베르바스코사이드)",
+   "class": "페닐에타노이드 배당체",
+   "role": "marker",
+   "part": "꽃",
+   "content_text": "메탄올 추출 꽃 2.48%(검증된 방법으로 정량; 초록에 기준(건조 꽃/추출물) 표기 없음)[2]; 70% 에탄올 꽃 추출물 9,408.78 μg/g(클로로젠산 당량, 방법 절은 식물 재료 g당으로 표기)[3]",
+   "activity_ko": "꽃의 주요 성분[5]; 생쥐 꼬리 혈류 감소를 막은 활성 성분(동물, 잎 추출물에서 분리)[7]; 꽃 추출물의 B16F10 세포독성과 높은 상관(세포)[3]",
+   "source": [
+    2,
+    3,
+    5,
+    7
+   ]
+  },
+  {
+   "name": "Echinacoside",
+   "name_ko": "에키나코사이드",
+   "class": "페닐에타노이드 배당체",
+   "role": "marker",
+   "part": "꽃",
+   "content_text": "메탄올 추출 꽃 0.75%[2]",
+   "activity_ko": "꽃 추출물의 B16F10 세포독성과 높은 상관(세포)[3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Oleuropein",
+   "name_ko": "올레유로페인",
+   "class": "세코이리도이드 배당체",
+   "role": "marker",
+   "part": "꽃",
+   "content_text": "메탄올 추출 꽃 0.95%, 열매 1.09%[2]",
+   "activity_ko": "꽃 추출물의 주요 성분[5]; 사람 호중구에서 NF-κB p65 핵 이동을 가장 뚜렷이 억제(세포, 잎에서 분리한 성분)[5]",
+   "source": [
+    2,
+    5
+   ]
+  },
+  {
+   "name": "Nuzhenide",
+   "name_ko": "누즈헤나이드",
+   "class": "세코이리도이드 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "70% 에탄올 꽃 추출물 15,893.68 μg/g(올레유로페인 검량선 당량)[3]; 열매 0.42%[2]",
+   "activity_ko": "강한 항산화 성분으로 소개됨[3]",
+   "source": [
+    3,
+    2
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴(퀘르세틴 3-루티노사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "70% 에탄올 꽃 추출물 퀘르세틴 루티노사이드 7,642.07 μg/g(루틴 당량)[3]; 꽃 시료에서 모두 정량됨[4]",
+   "activity_ko": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물, 잎 추출물에서 분리)[7]",
+   "source": [
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Syringin",
+   "name_ko": "시린진",
+   "class": "페닐프로파노이드 배당체",
+   "role": "bioactive",
+   "part": "꽃(다른 연구에서는 꽃에서 검출되지 않음)",
+   "content_text": "70% 에탄올 꽃 추출물 14,653.98 μg/g, 나무껍질 74,535.30 μg/g(클로로젠산 당량)[3]; 다른 연구의 HPLC-MS 표에서는 꽃 추출물·우림물에서 검출되지 않음[5]",
+   "activity_ko": "나무껍질의 주성분(2.52%)[27]",
+   "source": [
+    3,
+    5,
+    27
+   ]
+  },
+  {
+   "name": "Demethyloleuropein",
+   "name_ko": "데메틸올레유로페인",
+   "class": "세코이리도이드 배당체",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "70% 에탄올 꽃 추출물 35,729.89 μg/g(올레유로페인 검량선 당량)[3]",
+   "activity_ko": "꽃 추출물에서 가장 많이 정량된 성분[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Secologanoside",
+   "name_ko": "세콜로가노사이드",
+   "class": "세코이리도이드",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "70% 에탄올 꽃 추출물 27,663.00 μg/g(올레유로페인 검량선 당량)[3]",
+   "activity_ko": "잎 추출물의 주요 성분이기도 함[5]",
+   "source": [
+    3,
+    5
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로젠산",
+   "class": "하이드록시신남산",
+   "role": "bioactive",
+   "part": "꽃(건조)",
+   "content_text": "비산화 자주색 꽃 7,825.9 µg/g DW(가장 높은 단일 페놀)[4]",
+   "activity_ko": "분홍·파랑·자주 꽃의 주된 페놀; 산화 처리하면 크게 줄어듦[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "꽃(건조)",
+   "content_text": "비산화 꽃 620.1–3,019 µg/g DW[4]",
+   "activity_ko": "모든 비산화·산화 꽃에서 주된 페놀 가운데 하나[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Oleoacteoside",
+   "name_ko": "올레오액테오사이드",
+   "class": "올레오사이드 에스터 페닐에타노이드",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "함량 수치는 확인하지 못함; 꽃 추출물의 주요 성분[5]",
+   "activity_ko": "50 μM에서 LPS 자극 호중구의 IL-8·TNF-α 분비를 중간 정도 억제하고 IL-10 수용체 발현을 유도(세포)[6]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Oleonuezhenide",
+   "name_ko": "올레오누즈헤나이드",
+   "class": "이량체 세코이리도이드",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "함량 수치는 확인하지 못함; 잎보다 꽃 추출물에 더 많음[5]",
+   "activity_ko": "50 μM에서 IL-10 수용체 표면 발현 유도(세포)[6]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Caffeoylglucaric acid",
+   "name_ko": "카페오일글루카르산",
+   "class": "하이드록시신남산 에스터",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "함량 수치는 확인하지 못함; 꽃 추출물의 주요 성분[5]",
+   "activity_ko": "꽃에서 카페오일글루카르산 유도체가 새 화합물로 분리됨[6]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Lilac alcohol",
+   "name_ko": "라일락 알코올",
+   "class": "모노테르펜(휘발 성분)",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃 에탄올 추출물 GC-MS 확인 성분의 40% 초과(라일락 알코올 C·D, 면적 비율)[3]",
+   "activity_ko": "꽃 향의 특징 성분; 꽃잎에서 리날로올로부터 MEP 경로로 합성[11][12]",
+   "source": [
+    3,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Quercetin 3-O-glucoside",
+   "name_ko": "퀘르세틴 3-글루코사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎(활성 성분 분리 부위; 꽃 함량 미확인)",
+   "content_text": "함량 수치는 확인하지 못함[7]",
+   "activity_ko": "생쥐 꼬리 혈류 감소를 막은 활성 성분(동물, 잎 추출물에서 분리)[7]",
+   "source": [
+    7
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로젠산(카테킨·루틴·퀘르세틴 등 페놀 19종과 유기산 동시)",
+   "part": "꽃(4품종 건조 꽃, 비산화·산화)",
+   "content": "비산화 자주색 꽃 클로로젠산 7,825.9 µg/g DW, 카테킨 620.1–3,019 µg/g DW; 우림물 바닐산 최대 667.1 µg/100 mL[4]",
+   "method": "UPLC-PDA(외부표준법)",
+   "conditions": {
+    "instrument": "Waters ACQUITY UPLC H-Class(4중 펌프, 온라인 탈기, 자동주입) + Waters 광다이오드 배열 검출기, Empower 3",
+    "column": "Waters ACQUITY UPLC BEH C18, 2.1 × 150 mm, 1.7 µm",
+    "mobile_phase": "A: 0.1% 포름산 물, B: 0.1% 포름산 아세토니트릴(pH 2)",
+    "gradient": "5% B(2분) → 5–16% B(5분) → 16% B(3분) → 16–20% B(7분) → 20–28% B(11분) → 28% B(1분, 0.45 mL/min) → 28–60% B(3분) → 60–95% B(1분) → 65% B(1분) → 95–5% B(0.1분) → 5% B(1.9분)(원문 그대로; 한 구간 유속이 '5.0 mL/min'으로 적혀 있음)",
+    "flow": "0.4 mL/min(일부 구간 0.45 mL/min)",
+    "temp": "35 °C",
+    "detection": "PDA 280 nm(카테킨·갈산·4-HBA·프로토카테큐산·시링산·t-신남산·바닐산·유기산), 320 nm(클로로젠산·카페산·p-쿠마르산·페룰산·시나프산·루틴·퀘르세틴·캠페롤·루테올린·아피제닌)",
+    "injection": "",
+    "sample_prep": "꽃을 액체질소로 균질화 → 80% 에탄올, 30 °C 초음파 20분 → 실온 12시간 진탕 → 3600 rpm 15분 원심 → 건고 후 80% 에탄올에 재용해 → 0.22 µm 여과; 우림물은 꽃 1 g + 95 °C 물, 10분 → 여과·농축",
+    "standard": "시판 표준품(클로로젠산 ≥95%, 카테킨 ≥98%, 루틴 ≥94% 등), 머무름 시간 비교로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃과 우림물에서 클로로젠산과 카테킨이 주된 페놀로 나타나 꽃 원료의 품질(산화 여부·꽃 색)을 비교하는 지표로 쓰였다[4]. 직선성·검출한계·정량한계·회수율은 원문 본문에서 확인하지 못함.",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10343234/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Acteoside",
+   "compound_ko": "액테오사이드(시린진·에키나코사이드·누즈헤나이드·올레유로페인 등 14종 동시)",
+   "part": "꽃(건조, 70% 에탄올 추출물)",
+   "content": "꽃 추출물 액테오사이드 9,408.78 μg/g, 데메틸올레유로페인 35,729.89 μg/g, 누즈헤나이드 15,893.68 μg/g, 시린진 14,653.98 μg/g(계열 표준품 당량, μg/g; 방법 절은 '식물 재료(공기 건조) g당'으로 표기하나 결과 본문은 '꽃 추출물' 값으로 제시해 기준이 완전히 분명하지는 않음)[3]",
+   "method": "HPLC-DAD-ESI-MS(단일 사중극자, 양이온)",
+   "conditions": {
+    "instrument": "Agilent HP-1200 HPLC(4중 펌프, 자동주입, DAD) + MS-6110 단일 사중극자 ESI 검출기, ChemStation",
+    "column": "Agilent Eclipse XDB-C18, 4.5 × 150 mm, 5 µm(원문 표기)",
+    "mobile_phase": "A: 0.1% 아세트산 물, B: 0.1% 아세트산 아세토니트릴",
+    "gradient": "5% B 2분 → 20분 동안 5–90% B → 90% B 4분 유지 → 6분 동안 5% B로 복귀",
+    "flow": "0.5 mL/min",
+    "temp": "25 ± 0.5 °C",
+    "detection": "UV 280·340 nm; ESI 양이온 스캔 m/z 120–1200, 질소 7 L/min, 분무 35 psi, 모세관 3000 V, 프래그멘터 100 V(원문은 50–100 V 범위도 적음)",
+    "injection": "",
+    "sample_prep": "공기 건조 꽃 분쇄 → 70% 에탄올 1:10 냉침 후 침출(퍼컬레이션)·여과",
+    "standard": "플라보노이드는 루틴(10–80 μg/mL, R²=0.9973), 페닐프로파노이드는 클로로젠산(10–50 μg/mL, R²=0.9937), 이리도이드는 올레유로페인(10–100 μg/mL, R²=0.9966) 검량선으로 당량 환산(원문은 이리도이드 결과 단위를 '클로로젠산 당량'으로도 적어 표기가 엇갈림)",
+    "linearity": "루틴 10–80 μg/mL R²=0.9973; 클로로젠산 10–50 μg/mL R²=0.9937; 올레유로페인 10–100 μg/mL R²=0.9966",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃 추출물이 페닐프로파노이드·플라보노이드·세코이리도이드를 가장 고르고 많이 함유해, 이 계열 성분을 묶어 정량했다[3]. 개별 성분은 계열별 대표 표준품의 당량으로 환산한 값이다. 검출한계·정량한계·회수율은 원문에서 확인하지 못함.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8197011/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Acteoside",
+   "compound_ko": "액테오사이드·에키나코사이드·올레유로페인·누즈헤나이드·루틴(지표 5종)",
+   "part": "꽃·열매(메탄올 추출물)",
+   "content": "꽃 액테오사이드 2.48%, 에키나코사이드 0.75%, 올레유로페인 0.95%; 열매 올레유로페인 1.09%, 누즈헤나이드 0.42%(초록 값; 건조 원료/추출물 기준 표기 없음)[2]",
+   "method": "HPLC-DAD-ESI-MS(검증된 정량법; 동정은 ESI-TOF-MS·MS/MS)",
+   "conditions": {},
+   "rationale": "저자들이 세코이리도이드 2종(올레유로페인·누즈헤나이드), 페닐프로파노이드 2종(액테오사이드·에키나코사이드)과 루틴을 '지표 성분(marker compounds)'으로 정하고 검증된 방법으로 정량했다[2]. 전문 확인 못함(초록만 확인)이라 칼럼·이동상 등 조건은 비워 둔다.",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26433204/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "동결건조 꽃잎(흰 꽃)",
+   "basis": "건조 100 g당",
+   "items": [
+    {
+     "name": "수용성 식이섬유",
+     "value": 1.35,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    9
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 서양수수꽃다리꽃(Syringa vulgaris L.) 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Characterization of antioxidant phenolics in Syringa vulgaris L. flowers and fruits by HPLC-DAD-ESI-MS. Biomed Chromatogr 2016;30(6):923-32 (doi:10.1002/bmc.3630)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26433204/",
+   "publisher": "PubMed (PMID 26433204)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Chemical Profile, Cytotoxic Activity and Oxidative Stress Reduction of Different Syringa vulgaris L. Extracts. Molecules 2021;26(11):3104 (doi:10.3390/molecules26113104)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8197011/",
+   "publisher": "PubMed Central (PMC8197011)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Phenolic Compounds and Organic Acid Composition of Syringa vulgaris L. Flowers and Infusions. Molecules 2023;28(13):5159 (doi:10.3390/molecules28135159)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10343234/",
+   "publisher": "PubMed Central (PMC10343234)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Effects of Phytochemically Characterized Extracts From Syringa vulgaris and Isolated Secoiridoids on Mediators of Inflammation in a Human Neutrophil Model. Front Pharmacol 2018;9:349 (doi:10.3389/fphar.2018.00349)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904404/",
+   "publisher": "PubMed Central (PMC5904404)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Hydroxycinnamoyl derivatives and secoiridoid glycoside derivatives from Syringa vulgaris flowers and their effects on the pro-inflammatory responses of human neutrophils. Fitoterapia 2017;121:194-205 (doi:10.1016/j.fitote.2017.07.008)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28728914/",
+   "publisher": "PubMed (PMID 28728914)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Effect of polyphenols from Syringa vulgaris on blood stasis syndrome. J Clin Biochem Nutr 2020;67(1):84-88 (doi:10.3164/jcbn.20-55)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7417794/",
+   "publisher": "PubMed Central (PMC7417794)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Extract from Syringa vulgaris L. Flowers—A Special Emphasis on Its Biological Activity: Evaluation of Antioxidant Properties and Modulation of Coagulation Process in Human Plasma In Vitro. Nutrients 2026;18(7):1022 (doi:10.3390/nu18071022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41978076/",
+   "publisher": "PubMed (PMID 41978076)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Edible Flowers as a Source of Dietary Fibre (Total, Insoluble and Soluble) as a Potential Athlete's Dietary Supplement. Nutrients 2022;14(12):2470 (doi:10.3390/nu14122470)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9231144/",
+   "publisher": "PubMed Central (PMC9231144)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Integrative analysis of the metabolome and transcriptome reveals the mechanism of flower color and antioxidant capacity in three Syringa vulgaris cultivars. Front Plant Sci 2026;17:1840931 (doi:10.3389/fpls.2026.1840931)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42490936/",
+   "publisher": "PubMed (PMID 42490936)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Biogenetic studies in Syringa vulgaris L.: synthesis and bioconversion of deuterium-labeled precursors into lilac aldehydes and lilac alcohols. J Agric Food Chem 2003;51(2):463-9 (doi:10.1021/jf020845p)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12517111/",
+   "publisher": "PubMed (PMID 12517111)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Biogenetic studies in Syringa vulgaris L.: bioconversion of 18O(2H)-labeled precursors into lilac aldehydes and lilac alcohols. J Agric Food Chem 2003;51(25):7391-5 (doi:10.1021/jf0304674)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14640589/",
+   "publisher": "PubMed (PMID 14640589)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Volatile secondary metabolome and transcriptome analysis reveals distinct regulation mechanism of aroma biosynthesis in Syringa oblata and S. vulgaris. Plant Physiol Biochem 2023;196:965-973 (doi:10.1016/j.plaphy.2023.03.003)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36889235/",
+   "publisher": "PubMed (PMID 36889235)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Lilac and honeysuckle phenology data 1956-2014. Sci Data 2015;2:150038 (doi:10.1038/sdata.2015.38)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4520215/",
+   "publisher": "PubMed Central (PMC4520215)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Wild Laboratories of Climate Change: Plants, Phenology, and Global Warming, 1955-1980. J Hist Biol 2021;54(2):311-340 (doi:10.1007/s10739-021-09643-8)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34338923/",
+   "publisher": "PubMed (PMID 34338923)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "The influence of climate on the timing and rate of spring bird migration. Oecologia 2004;142(2):307-15 (doi:10.1007/s00442-004-1725-x)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15480801/",
+   "publisher": "PubMed (PMID 15480801)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Analysis of climate change affecting German forests by combination of meteorological and phenological data within a GIS environment. ScientificWorldJournal 2007;7 Suppl 1:84-9 (doi:10.1100/tsw.2007.15)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5901260/",
+   "publisher": "PubMed Central (PMC5901260)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "The implication of leaf anatomical structure for the selective breeding of lilacs. Vavilovskii Zhurnal Genet Selektsii 2021;25(5):534-542 (doi:10.18699/VJ21.060)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8546332/",
+   "publisher": "PubMed Central (PMC8546332)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Powdery mildews on lilac in western North America include Phyllactinia syringae, sp. nov. Mycologia 2017;109(3):485-494 (doi:10.1080/00275514.2017.1328220)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28641037/",
+   "publisher": "PubMed (PMID 28641037)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "[Molecular genetic marker-based approaches to the verification of lilac Syringa vulgaris L. in in vitro collections]. Genetika 2009;45(1):97-103",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19239103/",
+   "publisher": "PubMed (PMID 19239103)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Chloroplast genome comparative analysis and phylogenetic relationships of 15 Syringa species (Oleaceae). Genet Mol Biol 2026;49(3):e20260016 (doi:10.1590/1678-4685-GMB-2026-0016)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42714267/",
+   "publisher": "PubMed (PMID 42714267)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "A chromosome-level genome of Syringa oblata provides new insights into chromosome formation in Oleaceae and evolutionary history of lilacs. Plant J 2022;111(3):836-848 (doi:10.1111/tpj.15858)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35673966/",
+   "publisher": "PubMed (PMID 35673966)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Immunological and molecular characterization of the major allergens from lilac and privet pollens overproduced in Pichia pastoris. Clin Exp Allergy 2001;31(2):313-21 (doi:10.1046/j.1365-2222.2001.00980.x)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11251633/",
+   "publisher": "PubMed (PMID 11251633)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Effects of verbascoside biotechnologically produced by Syringa vulgaris plant cell cultures in a rodent model of colitis. Naunyn Schmiedebergs Arch Pharmacol 2009;380(1):79-94 (doi:10.1007/s00210-009-0400-5)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19242677/",
+   "publisher": "PubMed (PMID 19242677)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Molecular mechanisms underlying wound healing and anti-inflammatory properties of naturally occurring biotechnologically produced phenylpropanoid glycosides. Cell Mol Biol 2007;53(5):84-91",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17543237/",
+   "publisher": "PubMed (PMID 17543237)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Plant stem cells and their applications: special emphasis on their marketed products. 3 Biotech 2020;10(7):291 (doi:10.1007/s13205-020-02247-9)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275108/",
+   "publisher": "PubMed Central (PMC7275108)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Phenolic composition, antioxidant and antinociceptive activities of Syringa vulgaris L. bark and leaf extracts. Nat Prod Res 2019;33(11):1664-1669 (doi:10.1080/14786419.2018.1425855)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29336171/",
+   "publisher": "PubMed (PMID 29336171)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
