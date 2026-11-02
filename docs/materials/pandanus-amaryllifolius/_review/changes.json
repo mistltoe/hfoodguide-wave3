@@ -1,0 +1,74 @@
+[
+ {
+  "where": "sections.safety",
+  "before": "건강한 성인 30명에게 75 g 포도당 부하 15분 뒤 판다누스차 또는 뜨거운 물을 마시게 한 시험에서 평균 혈당은 대조군 5.55, 판다누스차군 6.16 mmol/L로 통계적으로 달랐다[17].",
+  "after": "건강한 성인 30명(18–25세)이 75 g 포도당을 마신 15분 뒤 뜨거운 물(대조)과 판다누스차(말린 잎 30 g을 90 °C 물 300 mL에 15분 우림)를 서로 다른 날 마신 전후 비교 시험에서, 식후 혈당 최고치 평균은 대조 6.94 mmol/L, 판다누스차 6.16 mmol/L로 판다누스차 쪽이 낮았다(본문 기준; 초록에는 대조군 값이 5.55 mmol/L로 달리 적혀 있다)[17].",
+  "why": "[17] 전문(PMC4329610) 결과는 같은 30명의 전후 비교이고 혈당 최고치 대조 6.94→차 6.16 mmol/L로 낮아짐; 초록의 5.55는 본문과 모순되어 초록 값만 옮기면 효과 방향이 거꾸로 읽힘"
+ },
+ {
+  "where": "sections.safety",
+  "before": "쥐 실험에서는 잎 추출물을 0.5–2 g/kg으로 14일간 먹였고[20]",
+  "after": "쥐 실험에서는 잎 95% 에탄올 추출물을 0.5–2 g/kg으로 14일간 먹였고[20]",
+  "why": "[20] 전문 Methods: 50 °C 건조 잎을 95% 에탄올로 추출"
+ },
+ {
+  "where": "sections.cultivation",
+  "before": "잎에 모자이크·황화 증상을 일으키는 새 바드나바이러스가 보고되었다[26].",
+  "after": "모자이크·황화 증상이 있는 잎에서 새 바드나바이러스(pandanus mosaic associated virus)가 보고되었으나, 같은 잎에서 난초반점바이러스도 함께 검출되어 증상의 원인은 가리지 못했다[26].",
+  "why": "[26] 초록: 증상을 PMaV 또는 OFV 어느 하나에 돌릴 수 없다고 씀 — '증상을 일으키는'은 과장"
+ },
+ {
+  "where": "sections.biology",
+  "before": "질산태 질소를 14일 만에 모두 제거한 실험도 있다[29].",
+  "after": "질산태 질소를 200 mg/L 농도까지 14일 만에 모두 제거한 실험도 있다[29].",
+  "why": "[29] 초록: 100% removal of NO3-N up to 200 mg/L in 14 days — 조건 보충"
+ },
+ {
+  "where": "sections.genetics",
+  "before": "향미 쌀과 다른 향 식물에서는 BADH2 유전자가 망가져야 2AP가 쌓이지만,",
+  "after": "향미 쌀과 다른 향 식물에서는 2AP 축적이 BADH2 유전자의 기능 상실과 연관되어 있지만,",
+  "why": "[6] 은 'correlated with the presence of a nonfunctional BADH2'라고 씀 — 필요조건처럼 단정한 표현을 원문 수준으로"
+ },
+ {
+  "where": "compounds.Neophytadiene.content_text",
+  "before": "15번째 잎에서 최고 613.53 µg/g[8]",
+  "after": "15번째 잎에서 최고 613.53 µg/g(스쿠알렌 검량선 기준 반정량)[8]",
+  "why": "[8] Methods: 스쿠알렌 외 성분은 스쿠알렌 검량선으로 반정량"
+ },
+ {
+  "where": "assays[Gallic acid].conditions.sample_prep",
+  "before": "잎 0.25 g을 인산 용액 20 mL로 추출, 6 M HCl 5 mL 넣어 50% 메탄올 중 1.2 M HCl로 만든 뒤 90 °C 2시간 환류, 0.45 µm 여과",
+  "after": "잎 0.25 g을 인산 용액(인산 1.2 mL를 물로 1 L로 맞춤) 20 mL로 추출, 6 M HCl 5 mL 넣어 50% 메탄올 중 1.2 M HCl로 만든 뒤 90 °C 2시간 환류, 0.45 µm 여과",
+  "why": "[4] Methods 에 추출용 인산 용액 조제(1.2 mL/1 L)가 적혀 있음"
+ },
+ {
+  "where": "assays[Gallic acid].rationale",
+  "before": "갈산이 가장 많은 페놀산이고 산지에 따라 함량 차이가 커 품질 비교에 쓰임. 전문 확인, 인산 농도는 원문에 적혀 있지 않음[4].",
+  "after": "갈산이 가장 많은 페놀산이고 산지에 따라 함량 차이가 커 품질 비교에 쓰임. 전문 확인, 이동상 A(인산 수용액)의 농도와 검출·정량한계·회수율은 원문에 없음[4].",
+  "why": "인산 농도가 '원문에 없다'는 말은 이동상에만 해당"
+ },
+ {
+  "where": "assays[Squalene].conditions.column",
+  "before": "ZORBAX Eclipse C18(원문 표기 'C'), 4.6 × 250 mm, 5 µm",
+  "after": "ZORBAX Eclipse C(원문 표기 그대로, 고정상 탄소수 미기재), 4.6 × 250 mm, 5 µm",
+  "why": "[5] 원문은 'ZORBAX Eclipse C'로만 적음 — C18은 추정"
+ },
+ {
+  "where": "assays[Squalene].conditions.sample_prep",
+  "before": "50 °C 열풍 건조 잎 분말(60메시)을 에탄올:n-헥산(1:1) 1:5 g/mL로 50 °C·300 W 초음파 60분 추출, 원심분리 후 여과",
+  "after": "50 °C 36시간 열풍 건조 잎 분말(60메시)을 에탄올:n-헥산(1:1, v/v) 1:5 g/mL로 초음파 추출(검증 조건 62분·51 °C·300 W), 원심분리 후 여과",
+  "why": "[5] 3.4.2: 실제 검증 실험은 62분·51 °C·300 W로 조정해 1229.98 µg/g을 얻음(초록은 60분·50 °C로 반올림)"
+ },
+ {
+  "where": "sources[17].title",
+  "before": "Antihyperglycemic effects of Pandanus amaryllifolius Roxb. leaf extract — Pharmacogn Mag 2015 (초록만 확인) (PMID 25709220, PMC4329610)",
+  "after": "Antihyperglycemic effects of Pandanus amaryllifolius Roxb. leaf extract — Pharmacogn Mag 2015 (PMID 25709220, PMC4329610)",
+  "why": "PMC 전문으로 대조함"
+ },
+ {
+  "where": "sources[20].title",
+  "before": "Uricosuric, antioxidant, and anti-inflammatory properties of Pandanus amaryllifolius Roxb. extract against potassium oxonate-induced hyperuricemia in rats — Sci Rep 2025 (초록만 확인) (PMID 41449191, PMC12753778)",
+  "after": "Uricosuric, antioxidant, and anti-inflammatory properties of Pandanus amaryllifolius Roxb. extract against potassium oxonate-induced hyperuricemia in rats — Sci Rep 2025 (PMID 41449191, PMC12753778)",
+  "why": "PMC 전문으로 대조함"
+ }
+]

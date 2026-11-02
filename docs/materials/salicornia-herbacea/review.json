@@ -1,0 +1,172 @@
+{
+ "slug": "salicornia-herbacea",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 87,
+ "checked_items": 68,
+ "verified": 128,
+ "fixed": 23,
+ "removed": 2,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "맛이 짜서 바닷가 주민들이 양념 채소로 먹어 왔고[35]",
+   "after": "맛이 짜서[7] 바닷가 주민들이 양념 채소로 먹어 왔고[35]",
+   "why": "[35]는 해안 주민의 양념 채소 이용만 적고 짠맛은 말하지 않음 — 짠맛은 [7]이 근거"
+  },
+  {
+   "where": "sections.overview",
+   "before": "이 문서는 한국에서 채취·재배한 '함초' 연구를 학명 표기와 함께 인용했고, 같은 속의 S. bigelovii 등 다른 식품원료 자료는 섞지 않았다[1, 2].",
+   "after": "이 문서는 주로 한국에서 채취·재배한 '함초' 연구를 논문의 학명 표기와 함께 인용했고, 중국 시료 연구(S. herbacea 또는 S. europaea로 표기)는 그 사실을 함께 적었으며, 같은 속의 S. bigelovii 등 다른 식품원료 자료는 섞지 않았다[1, 2].",
+   "why": "[15][16][20][22][31] 등 중국 시료 연구도 인용하고 있어 '한국 시료만'이라는 서술은 사실과 다름([2]가 [15]는 신장, [16]은 장쑤성 시료라고 밝힘)"
+  },
+  {
+   "where": "sections.history",
+   "before": "2005년 부산 해안 시료에서 새 클로로겐산 유도체가 분리되어 퉁퉁마디의 한국 이름을 딴 '퉁퉁마딕산(tungtungmadic acid)'으로 이름 붙었다[2].",
+   "after": "2005년 부산 해안 시료에서 새 클로로겐산 유도체 '퉁퉁마딕산(tungtungmadic acid, 3-카페오일-4-디하이드로카페오일퀸산)'이 분리되었다[2].",
+   "why": "[2]는 이름의 유래(한국 이름을 땄다는 점)를 말하지 않음 — 확인된 사실만 남김"
+  },
+  {
+   "where": "sections.biology",
+   "before": "같은 계열로 묶이는 S. europaea는 염화나트륨 1000 mM 이상을 견디는",
+   "after": "중국 연구진이 S. europaea로 실험한 결과, 이 식물은 염화나트륨 1000 mM 이상을 견디는",
+   "why": "[22]는 중국과학원 식물연구소 연구로, 한국 함초 시료가 아님을 밝힘"
+  },
+  {
+   "where": "sections.biology",
+   "before": "종자 껍질(종피)에서 다당류를 추출해 구성 당과 항산화 활성을 조사한 연구도 있다[31].",
+   "after": "중국 연구진이 종자 껍질(종피)에서 다당류를 추출해 구성 당과 항산화 활성을 조사한 연구도 있으나, 종자는 식품원료 목록의 사용 가능 부위(줄기·잎)가 아니다[1, 31].",
+   "why": "[31]은 중국(진저우) 연구이고, card.json 사용 조건은 줄기·잎뿐이라 부위 구분을 밝힘"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "국내 연구의 다수는 S. herbacea로 적고[9, 10, 11]",
+   "after": "여러 국내 연구가 S. herbacea로 적고[9, 10, 11]",
+   "why": "'다수'라는 비율 주장은 인용 출처가 말하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "퉁퉁마디는 서해안과 남해안의 염습지, 간척지, 염전 주변에서 자란다[2, 9].",
+   "after": "퉁퉁마디는 서해안과 남해안의 염습지와 진흙 해안에서 자라며, 버려진 염전에서 채취한 시료가 연구에 쓰이기도 했다[2, 9].",
+   "why": "[2][9] 어디에도 '간척지'는 없음; 염전은 [2]의 '버려진 염전(해남)'만 확인"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "퉁퉁마디를 먹는 나방 Scrobipalpa salinella는 갯벌 염습지에서 퉁퉁마디의 중요한 해충으로 소개되었고",
+   "after": "나방 Scrobipalpa salinella는 갯벌 염습지에서 퉁퉁마디(논문 표기 S. europaea)의 중요한 해충으로 소개되었고",
+   "why": "[33] 초록의 학명 표기를 밝힘"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "S. europaea는 염화나트륨 200–400 mM에서 생장과 광합성 속도가 가장 좋았으므로, 바닷물 수준의 염분이 생육을 돕는다[22].",
+   "after": "중국 연구에서 S. europaea는 염화나트륨 200–400 mM에서 생장과 광합성 속도가 가장 좋았다[22]. 이 결과가 국내 함초 재배의 적정 염분으로 그대로 이어지는지는 확인하지 못함.",
+   "why": "'바닷물 수준의 염분이 생육을 돕는다'는 [22]에 없는 추론(바닷물 NaCl은 200–400 mM보다 높음) — 삭제"
+  },
+  {
+   "where": "sections.processing",
+   "before": "퉁퉁마디는 생채·무침으로 먹고, 분말·환·김·추출물·식초로 가공된다[2, 28].",
+   "after": "퉁퉁마디 지상부는 샐러드·절임·발효식품·소금 대용으로 쓰이고, 분말·환·김·추출물·식초로도 가공된다[2, 28].",
+   "why": "[2]는 'salads, pickles, fermented food, salt substitutes'라고 씀 — '생채·무침'은 원문 표현이 아님"
+  },
+  {
+   "where": "sections.processing",
+   "before": "미분쇄 분말을 유동층 코팅기로 구형 과립으로 만든 함초 과립의 상대 짠맛은 소금 대비 0.39였다[7].",
+   "after": "미분쇄 분말에 함초 물추출액(고형분 10%)을 섞어 유동층 코팅기로 만든 구형 과립의 상대 짠맛은 소금 대비 0.39였다[7].",
+   "why": "[7]의 0.39는 물추출액 10%로 만든 과립(SGMPSAE)의 값"
+  },
+  {
+   "where": "sections.processing",
+   "before": "2025년 연구는 세 종류 소시지 모두에서 함초 분말을 소금 대용으로 쓸 수 있다고 보았다[25].",
+   "after": "2025년 연구는 소금 일부를 함초 분말(염화나트륨 631 mg/g)과 염화칼륨·셀룰로스 등으로 바꾼 배합으로, 세 종류 소시지 모두에서 함초 분말을 소금 대용으로 쓸 수 있다고 보았다[25].",
+   "why": "[25]의 배합은 함초 분말 단독이 아니라 KCl·트랜스글루타미네이스·난백분말·셀룰로스를 함께 넣음; 분말의 NaCl 631 mg/g 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "따라서 함초 분말을 소금 대신 쓰더라도 나트륨 섭취는 줄지 않을 수 있으며, 탈염 분말의 나트륨은 0.71%로 크게 낮았다[4].",
+   "after": "소시지 연구에 쓰인 함초 분말도 염화나트륨이 631 mg/g이었으므로, 탈염하지 않은 함초 분말·추출 분말은 그 자체가 나트륨 공급원이다[25]. 반면 탈염 분말은 나트륨(염화나트륨이 아닌 나트륨 기준)이 0.71%로 크게 낮았다[4].",
+   "why": "'나트륨 섭취는 줄지 않을 수 있다'는 출처에 없는 추론 — 출처 값으로 바꾸고, NaCl(25–35%)과 Na(0.71%) 기준이 다름을 밝힘"
+  },
+  {
+   "where": "sections.safety",
+   "before": "키토산으로 감싼 함초는 생쥐에서 나트륨 흡수를 19% 줄였다는 보고도 있다[26].",
+   "after": "키토산으로 감싼 생 함초를 48시간 먹인 생쥐에서 나트륨 흡수 억제율이 19.41%로, 감싸지 않은 생 함초(1.36%)보다 높았다는 보고도 있다[26].",
+   "why": "[26]의 19%는 '흡수 억제율'(대조 1.36%)이며 48시간 급이 결과"
+  },
+  {
+   "where": "sections.safety",
+   "before": "이상반응은 섭취군 12.5%, 위약군 12.9%로 차이가 없었고 모두 경미했다[5].",
+   "after": "이상반응은 섭취군 12.5%, 위약군 12.9%로 차이가 없었고 모두 경미했다[5]. 다만 이 시험의 1차 평가변수(인지 점수 변화)는 위약과 차이가 없었다[5].",
+   "why": "효능 과장 방지: [5]의 1차 결과는 음성"
+  },
+  {
+   "where": "compounds[Gypsogenin…].part",
+   "before": "지상부(n-부탄올 분획)",
+   "after": "부위 미기재(n-부탄올 분획)",
+   "why": "[14] 초록에 부위 언급 없음"
+  },
+  {
+   "where": "compounds[Salbige A].content_text",
+   "before": "신규 화합물로 분리, 함량 수치 확인하지 못함[15]",
+   "after": "신규 화합물로 분리(중국 신장 염호 시료), 함량 수치 확인하지 못함[2, 15]",
+   "why": "[2]가 [15]의 시료를 신장성 염호 채취로 밝힘 — 국내 함초 아님"
+  },
+  {
+   "where": "compounds[Pentadecyl ferulate].content_text",
+   "before": "신규 천연물로 분리, 함량 수치 확인하지 못함[16]",
+   "after": "신규 천연물로 분리(중국 장쑤성 시료), 함량 수치 확인하지 못함[2, 16]",
+   "why": "[16] 초록에 '전초' 언급 없음; [2]가 장쑤성 시료로 밝힘"
+  },
+  {
+   "where": "compounds[3,5-DCQA].content_text",
+   "before": "열수추출물에서 분리(순도 > 95%), 함량 수치 확인하지 못함[6]",
+   "after": "열수추출물에서 분리(순도 > 95%), 함량 수치 확인하지 못함[6]; 2011년 영광 시료에서도 분리 보고[2]; 같은 계열의 새 디카페오일퀸산 유도체 4종이 지상부에서 분리됨(시험관 항산화)[32]",
+   "why": "[32]는 3,5-DCQA 자체가 아니라 새 유도체 4종을 분리한 논문 — 인용 위치를 정확히 함"
+  },
+  {
+   "where": "compounds[Sodium chloride].content_text",
+   "before": "원물 나트륨 10 mg/g(기준 미기재)[7]",
+   "after": "원물 나트륨 10 mg/g(기준 미기재)[7]; 소시지 연구용 함초 분말 NaCl 631 mg/g[25]",
+   "why": "나트륨 함량 확인 — [25] 원문 값 추가"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "생 지상부 열수추출 → 활성탄 정제 → 분무건조 분말(논문 표기 Salicornia europaea, 서해안 채취)",
+   "after": "생 원물(부위 미기재) 열수추출 → 활성탄 정제 → 분무건조 분말(논문 표기 Salicornia europaea, 서해안 채취)",
+   "why": "[3] Methods는 'Fresh (plant) collected'라고만 쓰고 지상부라고 하지 않음"
+  },
+  {
+   "where": "sources[13].title",
+   "before": "3-Caffeoyl, 4-dihydrocaffeoylquinic acid from Salicornia herbacea attenuates high glucose-induced hepatic lipogenesis in human HepG2 cells through activation of the LKB1 and SIRT1/AMPK-dependent pathway. Mol Nutr Food Res. 2013",
+   "after": "3-Caffeoyl, 4-dihydrocaffeoylquinic acid from Salicornia herbacea attenuates high glucose-induced hepatic lipogenesis in human HepG2 cells through activation of the liver kinase B1 and silent information regulator T1/AMPK-dependent pathway. Mol Nutr Food Res. 2013;57(3):471-482",
+   "why": "PubMed 서지 대조(제목 축약 복원, 권호 추가)"
+  },
+  {
+   "where": "sources[26].title",
+   "before": "Effect of encapsulated edible halophyte Salicornia herbacea with different biopolymers on the inhibition of sodium absorption in mouse. Food Sci Nutr. 2021",
+   "after": "Effect of encapsulated edible halophyte Salicornia herbacea with different biopolymers on the inhibition of sodium absorption in mouse. Food Sci Nutr. 2021;9(4):1972-1979",
+   "why": "PubMed 서지 대조(권호 추가)"
+  },
+  {
+   "where": "sources[27].title",
+   "before": "Subacute feeding toxicity of low-sodium sausages manufactured with sodium substitutes and biopolymer-encapsulated saltwort (Salicornia herbacea) in a mouse model. J Sci Food Agric. 2020",
+   "after": "Subacute feeding toxicity of low-sodium sausages manufactured with sodium substitutes and biopolymer-encapsulated saltwort (Salicornia herbacea) in a mouse model. J Sci Food Agric. 2020;100(2):794-802",
+   "why": "PubMed 서지 대조(권호 추가)"
+  },
+  {
+   "where": "sources[34].title",
+   "before": "Inhibitory effect of 3-caffeoyl-4-dicaffeoylquinic acid from Salicornia herbacea against phorbol ester-induced cyclooxygenase-2 expression in macrophages. Chem Biol Interact. 2009",
+   "after": "Inhibitory effect of 3-caffeoyl-4-dicaffeoylquinic acid from Salicornia herbacea against phorbol ester-induced cyclooxygenase-2 expression in macrophages. Chem Biol Interact. 183(3):397-404 (온라인 2009)",
+   "why": "PubMed 서지 대조(권·호·쪽 추가)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[7]의 원물 무기질(Na 10 mg/g 등)은 [7] 서론이 다른 문헌을 인용한 값이라 생체·건물 기준을 확인하지 못함(본문에 이미 명시)",
+  "[22]는 초록만 확인 — 시료 산지는 초록에 없고 저자 소속(중국과학원 식물연구소)만 확인",
+  "[14][15][16][19][24][27][28][30][31][33][34][35]와 [8]~[13][17][20]은 PubMed 초록으로 대조; [2][3][4][5][6][7][18][23][25][26][29]는 PMC 전문으로 대조; [21][32]는 PubMed 초록·서지로 대조",
+  "학명 처리: 식품원료 목록(card.json)은 'Salicornia herbacea L. / Salicornia europaea var. herbacea L.'; [2](2021 리뷰)와 [6](2023)은 'S. europaea L.(S. herbacea L.로도 알려짐)'로 같은 식물로 다룸; [3][4][5][6][29]은 서해안·신안 시료를 S. europaea로 표기. 중국 시료 연구([15] 신장, [16] 장쑤, [20] 란저우, [22] 베이징, [31] 진저우)는 본문·성분에 산지를 밝힘",
+  "같은 속 다른 식품원료(S. bigelovii·S. rubra·S. quinqueflora·S. utahensis·S. virginica) 자료가 섞인 곳은 없음([21]의 속 수준 유전체 연구만 속 전체로 서술)",
+  "나트륨: 비탈염 분말 NaCl 25–35%[4], 열수추출 분말 NaCl 55.6%[3], 소시지용 분말 NaCl 631 mg/g[25], 탈염 분말 Na 0.71%[4] — 모두 원문 값과 일치 확인",
+  "국내 생산 통계(stats/*.csv)·지리적 표시(foodlist/gi.json)·고시형 원료 요건에서 퉁퉁마디·함초 항목 없음 확인; card.json 지위(사용가능, 줄기·잎)와 overview 일치"
+ ]
+}

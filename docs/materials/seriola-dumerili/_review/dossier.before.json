@@ -1,0 +1,647 @@
+{
+ "slug": "seriola-dumerili",
+ "name_ko": "잿방어",
+ "name_en": "Greater amberjack",
+ "scientific_name": "Seriola dumerili (Risso, 1810)",
+ "aliases": [
+  "잿방어",
+  "Greater amberjack",
+  "Amberjack",
+  "Allied kingfish",
+  "Mediterranean yellowtail",
+  "Kahala",
+  "Greater yellowtail"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "잿방어(Seriola dumerili)는 전갱이과(Carangidae) 방어속(Seriola)에 드는 바닷물고기로, 식약처 「식품원료 목록」에 '잿방어'(영문 Greater amberjack, Amberjack, Allied kingfish)라는 원료명으로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고, 사용 부위는 따로 정하지 않은 '-'로 적혀 있으며 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n잿방어는 아열대 바다에 널리 사는 중형 육식성 어종으로, 빨리 자라고 살에 불포화지방산이 많아 해산 양식 대상으로 연구되고 있다[4]. 양식은 주로 일본·스페인·이탈리아에서 이루어지며 최근 베트남·한국·중국에서도 시작되었고, 양식하면 2.5년 안에 6 kg에 이른다고 소개된다[6]. 유럽에서는 빠른 성장과 뛰어난 살 품질 덕분에 양식 어종 다변화의 유력 후보로 꼽힌다[34]. 한편 열대·아열대 바다에서 잡힌 개체가 시구아테라 독소를 지녀 식중독을 일으킨 사례와 독소 검사 연구가 여러 나라에서 보고되었다[16, 17, 19]. 국내 공공기관의 잿방어 식품성분표 값과 국내 생산 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "잿방어의 학명은 1810년 Risso가 기재한 Seriola dumerili (Risso, 1810)로 적힌다[6, 41]. 하와이에서는 낚시인이 잡은 잿방어를 먹기 전에 시구아테라 독소를 간이 면역검사(스틱 검사)로 거르는 연구가 1985·1990년에 보고되었고, 1985년 보고에서는 검사한 71마리 가운데 89%가 독성이 없어 문제없이 소비되었다[14, 42]. 1995년 2월 아이티에 주둔한 미군 6명이 현지에서 잡은 잿방어를 먹고 시구아테라 중독을 일으킨 사건은 카리브해 시구아톡신(C-CTX-1)이 원인임을 확인한 사례로 남았다[16].\n\n일본에서는 잿방어 양식에 중국에서 들여온 어린 고기를 쓰기도 했으며, 2008년 5월 가고시마현에서는 중국산 개체를 들여온 직후 미포자충 감염에 따른 뇌척수염이 발생했다[32]. 2016–2025년 일본 방어류 양식장의 연쇄구균증(락토코쿠스균) 분리주 연구는 수입·이동된 치어를 통해 새 계통이 퍼졌을 가능성을 지적했다[33]. 그리스 연구진은 2011년에 잡은 자연산 어미로 호르몬 산란 유도를 시험했고, 이후 지중해 가두리에서 5년간 기른 부화장 1세대(F1) 어미의 성숙 시기까지 연구가 이어졌다[29, 27].\n\n미국 멕시코만의 잿방어 자원은 30년 넘게 남획 상태로 평가되어 왔다[31]. 국내에서는 2023년 경남도 수산자원연구소가 자연산 잿방어를 확보해 양식기술 개발에 착수했다는 보도가 있으나, 기사 원문은 열지 못해 검색 결과 요약으로만 확인했다[38]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생태·번식",
+   "body": "잿방어는 열대와 온대 바다에 사는 대형 회유성 표층어로 소개된다[44]. 겉모습으로는 암수를 구별하기 어렵고 산란기에도 뚜렷한 2차 성징이 없어, 혈액이나 유전자로 성을 판별하는 방법이 연구되었다[4, 45]. 방어속 어류의 성은 스테로이드 합성 효소 Hsd17b1 유전자의 한 염기 차이(SNP)로 갈리는 ZZ/ZW 방식이며, 잿방어에서도 이 한 개의 SNP가 성을 결정한다고 정리되었다[2, 43].\n\n지중해 자연산 암컷은 5월 초에 난소가 발달 단계였다가 5월 말–7월에 산란 가능 단계가 되었고, 이때 생식소 중량지수는 3–4배 높았다[28]. 같은 해역의 연구는 4월 말–7월을 초기 배우자 형성기부터 산란기까지로 나누어 자연산과 양식 어미를 비교했다[41]. 부화장에서 키운 1세대 수컷은 1–2살에 이미 정자 형성이 보였고 3살 수컷은 모두 쓸 수 있는 정자를 냈지만, 암컷은 4살에야 후기 난황 형성 난모세포가 나타났다[27].\n\n순환여과식 수조에서 24·29·33 ℃로 기른 실험에서는 수온이 높을수록 피부·아가미·장의 세균 군집이 흐트러지고 성장이 줄었다[34]. 미국 남동부에서는 잿방어를 멕시코만과 대서양의 섞이지 않는 두 자원으로 관리해 왔으나, 미세위성 11개 좌위 분석에서 멕시코만 시료 사이와 두 산란장 성어 사이에 아주 약하지만 유의한 차이가 나와 구조가 더 복잡하다고 보고되었다[30]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」은 같은 방어속의 방어(Seriola quinqueradiata), 부시리(Seriola lalandi), 낫잿방어(Seriola rivoliana)를 잿방어와 별도의 원료로 올려 두었으며, 이 문서는 이들 종의 자료를 섞지 않았다[1]. 영어로는 greater amberjack 외에 amberjack, allied kingfish로도 불린다[1]. 유럽 논문은 Mediterranean yellowtail이라는 이름을 함께 쓰고, 하와이에서는 kahala로 불린다[6, 42]. 일본 연구에서는 greater yellowtail이라는 영어 이름이 쓰이기도 했다[22].\n\n방어속 근연종과의 비교 연구도 많다[12, 31]. 전갱이과 5종의 미오글로빈 서열을 비교한 연구에서 잿방어를 포함한 모든 종의 미오글로빈은 아미노산 147개였고, 종 사이 아미노산 일치도는 81–99%였다[12]. 미국 연구진은 바닷물 환경 DNA에서 잿방어를 근연종 세 종(S. fasciata, S. rivoliana, S. zonata)과 구별해 검출하는 디지털 PCR 검사법을 만들었다[31]. 2012년 지질 연구는 잿방어와 낫잿방어를 함께 분석했지만, 이 문서에서는 잿방어 결과만 옮겼다[8].\n\n멕시코 시장의 생선 살 134개 시료를 DNA 바코드로 확인한 연구에서 잿방어는 가장 흔히 확인된 종 가운데 하나였고, 전체 시료의 18%는 다른 종으로 바꿔 팔린 것이었다[36]. 한국어 이름 '잿방어'의 유래를 적은 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·어획",
+   "body": "번식 조절이 어려운 점은 잿방어 양식의 주요 걸림돌 가운데 하나로 꼽힌다[29]. 사육한 어미는 자연산보다 생식소 중량지수와 성스테로이드가 낮았고, 난소에서는 후기 난황 난모세포가 대거 퇴화했으며 수컷의 절반은 정자 형성이 멈추었다[41]. 생식소 자극 호르몬 유사체(GnRHa)를 서방형 이식체로 주면 주사보다 암컷 1 kg당 총 산란 수가 102,402개 대 26,517개로 훨씬 많았다[29].\n\n자어 사육에서는 먹이생물(아르테미아)에 EPA가 많은 기름을 강화해 먹이면 35일령까지 성장과 생존율이 좋아졌다[40]. 사료의 어유를 식물성 기름으로 모두 바꾸면 109일 동안 성장에는 차이가 없었지만 생존율이 80.3%로 어유 사료(89.7%)나 75% 대체 사료(92.7%)보다 낮았다[6]. 일본 연구에서는 참치 가공 부산물 분말로 어분 단백질의 14.5%를 대체하는 것이 최적이라고 했다[26].\n\n일본 방어류 양식에서는 락토코쿠스균 감염증이 주요 세균병이며, 2016–2025년 분리주에서 에리스로마이신 내성 계통(ST115)이 새로 확인되었다[33]. 마데이라 제도의 자연산 잿방어에서는 Tetrochetus coryphaenae, Hysterothylacium seriolae 등 기생충이 확인되었고, 잿방어에서도 나온 요각류 Caligus aesopus는 가두리 양식에 위협이 될 수 있는 종으로 꼽혔다[37]. 국내 잿방어의 양식·어획 생산 통계는 국가통계포털이 이 환경에서 막혀 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·저장·품질",
+   "body": "중국 광둥성 양식장의 평균 8.0 kg 잿방어를 이케지메로 처리한 뒤 등살을 진공 포장해 2 ℃ 소금물(3.5%)에서 숙성한 연구에서, 일반세균 수는 처음 2.11 log CFU/g에서 6일째 4.01 log CFU/g로 늘었지만 중국 날수산물 기준(5 log CFU/g)보다는 낮았다[9]. 같은 연구에서 숙성 6일째 트라이클로로아세트산 가용성 펩타이드는 78.91 mg/100 g으로 늘었고, 감칠맛 유리아미노산은 늘고 쓴맛 유리아미노산은 줄었으며 지질 산화 지표(TBARS)도 높아졌다[9]. 비표적 대사체 분석에서는 1,756개 대사물질이 주석되었다[9].\n\n도살 방법을 비교한 얼음 저장 연구에서는 화학 마취로 도살한 군이 스트레스 지표가 가장 낮고 18일 동안 품질과 풍미가 가장 잘 유지되었으며, 자연사 군은 18일 뒤 K값이 70%를 넘었다[10]. 셀레노네인을 넣은 사료를 9주 먹인 어린 잿방어는 혈액과 근육에 셀레노네인이 쌓이고 근육의 산화환원전위와 활성산소가 낮아졌다[11].\n\n스페인 연구에서 필레 무게 가운데 붉은 근육은 6.8–9.8%였다[7]. 하루 권장 n-3 고도불포화지방산(평균 1.6 g)을 채우는 데 필요한 살의 양은 식물성 기름 사료만 먹인 고기에서 90 g, 90일 동안 어유 사료로 마무리한 고기에서 70 g으로 계산되었다[7]. 새 양식 어종 5종의 관능 평가에서 잿방어는 신맛이 특징으로 묘사되었다[39]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2017년 첫 초안 유전체는 일루미나 서열로 45,909개 스캐폴드를 만들었고, 성장이 느린 개체의 근육에서는 산소·가스 운반 관련 전사체가 다르게 발현되었다[5]. 이 초기 유전체(GCA_002260705.1)는 콘티그 N50이 0.25 Mb로 조각나 있었다[4].\n\n2025년 중국 푸젠성 연안 자연산 개체로 만든 염색체 수준 유전체는 수컷 637 Mb, 암컷 639.4 Mb이고 모두 24개 염색체에 배치되었으며 BUSCO 완성도는 98.5%·98.7%였다[4]. k-mer 분석으로 추정한 수컷 유전체 크기는 636.21 Mb, 이형접합률은 0.375%였고, 반복 서열은 수컷 23.12%, 암컷 23.48%였다[4]. 기능이 주석된 유전자는 수컷 24,112개, 암컷 23,571개였고, 암수 유전체 사이에 큰 구조 차이가 없어 뚜렷한 이형 성염색체는 없었다[4]. 2026년에는 처음으로 끊김 없는 텔로미어-텔로미어(T2T) 유전체가 암컷 685 Mb, 수컷 683 Mb로 발표되었고, 단백질 암호 유전자는 22,352개·22,325개였다[3].\n\n성 결정에는 Hsd17b1 유전자의 미스센스 SNP가 관여하며, 이 유전자의 Z형 효소는 W형보다 스테로이드 전환 활성이 약하다[2]. 중국 연구는 전장 연관 분석으로 hsd17β1을 유의한 성 관련 유전자로 확인하고, 정확도 94.87%의 PCR과 100%의 KASP 성 판별 표지를 만들었다[35]. 혈청 엑소좀의 piRNA 4종으로 살아 있는 개체의 성을 판별하는 방법도 제안되었다[45]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "잿방어는 카리브해·하와이 등에서 시구아테라 중독 원인 어종으로 보고되었고, 하와이 보고는 그 증상 양상이 다른 어종과 달랐다고 했다[15, 16, 20]. 1995년 아이티 사례의 환자들은 먹은 지 5–8시간 뒤 구토·설사와 손발 저림 등을 보이다 1–3개월에 걸쳐 회복했고, 남은 생선에는 살 1 g당 약 20 ng의 카리브해 시구아톡신에 해당하는 독성이 있었다[16]. 마데이라 제도 셀바젠스 해역에서 잡힌 70 kg 잿방어에서는 CTX-1B, CTX-3C 등 시구아톡신이 확인되었고, 하와이산 잿방어에는 CTX1B형과 CTX3C형 독소가 함께 들어 있었다[17, 18]. 2026년에는 브라질 페르난두지노로냐 제도의 잿방어 등에서 카리브해 시구아톡신이 브라질 처음으로 확인되었다[19].\n\n일본에서 날 잿방어를 먹고 12시간 안에 설사·구토가 난 식중독 시료 29건 중 26건에서 점액포자충 Unicapsula seriolae의 DNA가 나왔고, 시판품에서는 포자가 나오지 않았다[21]. 이집트 지중해 연안에서는 잿방어를 포함한 4종 75마리 가운데 45마리의 살에서 조충류 유충이 나왔으나, 초록에 종별 감염 여부는 없다[24]. 유럽식품안전청은 양식 잿방어의 인수공통 기생충 연구를 찾지 못했다고 밝혔고, 냉동과 가열을 가장 효과적인 기생충 사멸법으로 꼽았다[23].\n\n지중해 자연산은 양식산보다 간에 원소·금속이 더 쌓였고 근육은 차이가 작았다[25]. 숙성 연구는 히스타민 농도 등을 더 조사해야 한다고 적었다[9]. 잿방어만의 히스타민 함량과 국내 공공기관의 알레르기·잔류물질 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "총 지방산의 11.6%(어유 사료) / 8.59%(어유 25%) / 6.38%(어유 0%)",
+   "activity_ko": "어유를 식물성 기름으로 바꿀수록 흰살의 DHA 비율이 줄었다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "총 지방산의 3.41%(어유 사료) / 2.87%(어유 25%) / 2.26%(어유 0%)",
+   "activity_ko": "90일 어유 마무리 사료로도 흰살 EPA는 완전히 회복되지 않았다[6, 7]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "알파-리놀렌산(ALA)",
+   "class": "n-3 다불포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "본문에 총 지방산의 3.76% / 9.44% / 12.0%(어유 100·25·0%)로 적힘(같은 글 내장지방 값과 숫자가 같음; 원문 그대로 옮김)",
+   "activity_ko": "식물성 기름 사료에서 크게 늘어 근육 지방산 조성이 사료를 반영함을 보였다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산(LA)",
+   "class": "n-6 다불포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "총 지방산의 14.2% / 15.6% / 16.5%(어유 100·25·0%)",
+   "activity_ko": "양식 잿방어는 자연산보다 근육·간 중성지방의 리놀레산이 뚜렷이 많았다[6, 8]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산(C18:1 n-9)",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "총 지방산의 27.6% / 29.0% / 31.7%(어유 100·25·0%)",
+   "activity_ko": "근육·간 중성지방의 주요 지방산 가운데 하나다[6, 8]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산(C16:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "어유 마무리 45일 뒤 평균 14.47%, 90일 뒤 평균 14.58%(총 지방산 대비)",
+   "activity_ko": "사료 처리와 관계없이 비율이 일정했다[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산(C18:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "흰살 근육",
+   "content_text": "어유 마무리 45일 뒤 평균 6.29%, 90일 뒤 평균 6.13%(총 지방산 대비)",
+   "activity_ko": "사료 처리의 영향을 받지 않았다[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산(ARA)",
+   "class": "n-6 고도불포화지방산",
+   "role": "nutrient",
+   "part": "근육·간 중성지방",
+   "content_text": "양식산은 미량, 자연산은 적은 양(초록에 수치 없음)",
+   "activity_ko": "리놀레산/아라키돈산 비율이 양식산에서 자연산보다 크게 높았다[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "bioactive",
+   "part": "등살(습식 숙성)",
+   "content_text": "숙성 중 증가(수치는 표에만 있어 본문에서 확인하지 못함)",
+   "activity_ko": "단백질 분해로 풀려나는 감칠맛 아미노산으로, 숙성 중 늘었다[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Selenoneine",
+   "name_ko": "셀레노네인",
+   "class": "셀레늄 함유 이미다졸 화합물",
+   "role": "bioactive",
+   "part": "혈액·근육",
+   "content_text": "셀레노네인 첨가 사료 9주 급여 시 혈액·근육 농도 증가(초록에 수치 없음)",
+   "activity_ko": "근육의 산화환원전위와 활성산소를 낮추었다[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Myoglobin",
+   "name_ko": "미오글로빈",
+   "class": "헴 단백질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "아미노산 147개(암호 영역 444 뉴클레오타이드)",
+   "activity_ko": "근육의 헴 단백질로, 전갱이과 5종 사이 아미노산 일치도는 81–99%였다[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Piscidin",
+   "name_ko": "피시딘(항균 펩타이드)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "비장·장·아가미",
+   "content_text": "활성 펩타이드 아미노산 25개",
+   "activity_ko": "합성 펩타이드가 그람양성·음성 어류 병원균에 정균 작용을 보였다[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Caribbean ciguatoxin-1",
+   "name_ko": "카리브해 시구아톡신-1(C-CTX-1)",
+   "class": "폴리에테르 해양 독소",
+   "role": "bioactive",
+   "part": "살(조리된 생선)",
+   "content_text": "약 20 ng 카리브해 시구아톡신 상당량/g 살(수용체 결합 분석, 1995 아이티 중독 사례)",
+   "activity_ko": "나트륨 통로에 결합하는 독소로, 시구아테라 중독의 원인으로 확인되었다[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Ciguatoxin 1B",
+   "name_ko": "시구아톡신-1B(CTX-1B)",
+   "class": "폴리에테르 해양 독소",
+   "role": "bioactive",
+   "part": "꼬리·배·몸통 근육, 머리, 간",
+   "content_text": "마데이라 70 kg 개체에서 m/z 1111.6으로 검출(초록에 함량 수치 없음)",
+   "activity_ko": "태평양형 시구아톡신으로, 하와이산 잿방어에서도 CTX3C형과 함께 확인되었다[17, 18]",
+   "source": [
+    17,
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (EPA, DHA etc.)",
+   "compound_ko": "지방산 조성(EPA·DHA 등)",
+   "part": "흰살·붉은살 근육",
+   "content": "흰살 EPA 3.41/2.87/2.26%, DHA 11.6/8.59/6.38%(총 지방산 대비, 어유 100·25·0% 사료)[6]; 흰살 총 n-3 평균 20.91%(마무리 90일)[7]",
+   "method": "GC-FID",
+   "conditions": {
+    "instrument": "Focus 가스크로마토그래프(Thermo), split/splitless 주입구, 불꽃이온화검출기",
+    "column": "SP-2560 용융 실리카 모세관 칼럼(Supelco), 100 m × 0.25 mm × 0.2 μm",
+    "mobile_phase": "운반 기체 헬륨",
+    "gradient": "140 °C 5분 유지 → 4 °C/분으로 240 °C → 30분 유지",
+    "flow": "20 cm/s(헬륨)",
+    "temp": "",
+    "detection": "FID",
+    "injection": "split 1:100",
+    "sample_prep": "흰살·붉은살을 따로 갈아 동결건조 후 다시 분쇄; 직접 메틸에스터화: 내부표준 C13:0 1 mL + 10 N KOH 0.7 mL + 메탄올 5.3 mL, 55 °C 1.5시간(20분마다 5초 세게 흔듦) → 식힌 뒤 헥세인 1.5 mL, 1006×g 5분 원심 → 헥세인층 분취, −80 °C 보관",
+    "standard": "Supelco 지방산 메틸에스터 표준품 머무름 시간 비교; 결과는 총 지방산 대비 %",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "EPA·DHA는 사료 지질원에 따라 크게 달라지는 살의 영양 품질 지표로, 어유 대체·마무리 사료 효과를 판정하는 데 쓰였다[6, 7]. 전문(Methods) 확인 — 검출·정량한계·회수율은 본문에 없음[7].",
+   "source": [
+    6,
+    7
+   ],
+   "url": "https://doi.org/10.3390/ijms21144871",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Free amino acids",
+   "compound_ko": "유리아미노산(글루탐산 등)",
+   "part": "등살(습식 숙성)",
+   "content": "숙성 중 감칠맛 유리아미노산 증가, 쓴맛·총 유리아미노산 감소; 개별 수치는 표에만 있어 본문에서 확인하지 못함[9]",
+   "method": "아미노산 자동분석기",
+   "conditions": {
+    "instrument": "아미노산 자동분석기 L-8800(Hitachi High-Tech)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "살 4 g을 3% 설포살리실산으로 추출, 7000 rpm 40초 균질 → 10,000 rpm 10분 4 °C 원심 → 상등액에 헥세인 2 mL 섞고 0.02 M HCl로 50 mL 정용 → 0.22 μm 막 여과",
+    "standard": "아미노산 표준품(Sigma-Aldrich), 내부표준법 정량; 측정 수분으로 환산해 건물 기준 mg/100 g",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "유리아미노산은 숙성 중 단맛·감칠맛·쓴맛 균형을 보여 주는 품질 지표로 쓰였다[9]. 전문(Methods) 확인 — 분석기 내부 조건(칼럼·완충액·검출)과 검출·정량한계·회수율은 본문에 없음[9].",
+   "source": [
+    9
+   ],
+   "url": "https://doi.org/10.3390/foods15183311",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ciguatoxins (CTX-1B, CTX-3C, C-CTX)",
+   "compound_ko": "시구아톡신류",
+   "part": "꼬리·배·몸통 근육, 머리, 간",
+   "content": "마데이라 70 kg 개체에서 CTX-1B(m/z 1111.6), CTX-3C(m/z 1023.5), CTX 유사체(m/z 1040.6), 카리브해/인도양형 CTX(m/z 1141.6) 검출[17]",
+   "method": "UPLC-MS(+ 소뇌 과립세포 나트륨 전류 기능 분석)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "MS, 초록에 적힌 m/z 1111.6·1023.5·1040.6·1141.6",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "시구아톡신은 잿방어 섭취로 생기는 시구아테라 중독의 원인 물질이어서 안전 관리의 핵심 분석 대상이다[16, 17]. 초록만 확인 — 전문 확인 못함[17].",
+   "source": [
+    17
+   ],
+   "url": "https://doi.org/10.1021/ac100516q",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Seriola dumerili 행(잿방어, Greater amberjack·Amberjack·Allied kingfish, 수산물, 부위 '-', 사용가능, 사용 조건 없음, 고시형 원료 원재료 목록 없음; 같은 속 방어 Seriola quinqueradiata·부시리 Seriola lalandi·낫잿방어 Seriola rivoliana는 별도 행; docs/materials/seriola-dumerili/card.json, foodlist/species.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "A SNP in a Steroidogenic Enzyme Is Associated with Phenotypic Sex in Seriola Fishes. Curr Biol 2019;29(11):1901-1909.e8 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.cub.2019.04.069",
+   "publisher": "Current Biology, PMID 31130458",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Telomere-to-telomere genome assemblies of male and female greater amberjack (Seriola dumerili). Sci Data 2026 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41597-026-07505-8",
+   "publisher": "Scientific Data, PMC13503899, PMID 42215503",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "High-quality Chromosome-level genome assembly of male and female greater amberjack (Seriola dumerili). Sci Data 2025 (PMC 전문 확인)",
+   "url": "https://doi.org/10.1038/s41597-025-06240-w",
+   "publisher": "Scientific Data, PMC12738666, PMID 41372224",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Full genome survey and dynamics of gene expression in the greater amberjack Seriola dumerili. GigaScience 2017;6(12):1-13 (초록 확인)",
+   "url": "https://doi.org/10.1093/gigascience/gix108",
+   "publisher": "GigaScience, PMC5751066, PMID 29126158",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Fatty Acid Signatures in Different Tissues of Mediterranean Yellowtail, Seriola dumerili (Risso, 1810), Fed Diets Containing Different Levels of Vegetable and Fish Oils. Animals 2020;10(2):198 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/ani10020198",
+   "publisher": "Animals (MDPI), PMC7070299, PMID 31991644",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Recovery of Fatty Acid Composition in Mediterranean Yellowtail (Seriola dumerili, Risso 1810) fed a Fish-Oil Finishing Diet. Int J Mol Sci 2020;21(14):4871 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/ijms21144871",
+   "publisher": "International Journal of Molecular Sciences (MDPI), PMC7402285, PMID 32660169",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Lipid characteristics of two subtropical Seriola fishes, Seriola dumerili and Seriola rivoliana, with differences between cultured and wild varieties. Food Chem 2012 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2012.05.122",
+   "publisher": "Food Chemistry, PMID 22953914",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Elucidating the Changes in Metabolites and Physicochemical Quality of Greater Amberjack (Seriola dumerili) During Wet Aging. Foods 2026;15(18):3311 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/foods15183311",
+   "publisher": "Foods (MDPI), PMC13606642, PMID 42794095",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Impact of Slaughter-Induced Stress on Biochemical Deterioration and Flavor Stability of Greater Amberjack (Seriola dumerili) Fillets During Iced Storage. J Food Sci 2026 (초록 확인)",
+   "url": "https://doi.org/10.1111/1750-3841.70986",
+   "publisher": "Journal of Food Science, PMID 41902561",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Dietary Intake of Selenoneine Enhances Antioxidant Activity in the Muscles of the Amberjack Seriola dumerili Grown in Aquaculture. Mar Biotechnol 2021;23(6):847-853 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10126-021-10067-y",
+   "publisher": "Marine Biotechnology, PMID 34595590",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Structural characterization of carangid fish myoglobins. Fish Physiol Biochem 2012;38(5):1311-22 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-012-9619-z",
+   "publisher": "Fish Physiology and Biochemistry, PMID 22361749",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "An insight into piscidins: The discovery, modulation and bioactivity of greater amberjack, Seriola dumerili, piscidin. Mol Immunol 2019;114:378-388 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.molimm.2019.08.005",
+   "publisher": "Molecular Immunology, PMID 31450183",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "A rapid, simplified enzyme immunoassay stick test for the detection of ciguatoxin and related polyethers from fish tissues. Toxicon 1985;23(6):939-46 (초록 확인)",
+   "url": "https://doi.org/10.1016/0041-0101(85)90386-1",
+   "publisher": "Toxicon, PMID 3913056",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Variations in symptomatology of ciguatera poisoning. Toxicon 1989;27(5):593-5 (초록 확인)",
+   "url": "https://doi.org/10.1016/0041-0101(89)90121-9",
+   "publisher": "Toxicon, PMID 2749758",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Identification of Caribbean ciguatoxins as the cause of an outbreak of fish poisoning among U.S. soldiers in Haiti. Toxicon 1997;35(5):733-41 (초록 확인)",
+   "url": "https://doi.org/10.1016/s0041-0101(96)00166-3",
+   "publisher": "Toxicon, PMID 9203298",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "First toxin profile of ciguateric fish in Madeira Arquipelago (Europe). Anal Chem 2010;82(14):6032-9 (초록 확인)",
+   "url": "https://doi.org/10.1021/ac100516q",
+   "publisher": "Analytical Chemistry, PMID 20557036",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Determination of toxins involved in ciguatera fish poisoning in the Pacific by LC/MS. J AOAC Int 2014;97(2):398-402 (초록 확인)",
+   "url": "https://doi.org/10.5740/jaoacint.sgeyogi",
+   "publisher": "Journal of AOAC International, PMID 24830151",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "First confirmation of Caribbean ciguatoxins in fish samples from the South Atlantic coast of Brazil. Food Res Int 2026;235:119242 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2026.119242",
+   "publisher": "Food Research International, PMID 42083245",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "[Evaluation of different-stage levels of ciguatera toxicity of the marine food fish chain found around Saint Barthélemy Island in French Antilles]. Bull Soc Pathol Exot Filiales 1986;79(2):275-83 (영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3731371/",
+   "publisher": "Bulletin de la Société de pathologie exotique, PMID 3731371",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "[Quantitative Analysis of Unicapsula seriolae in Greater Amberjack Associated with Unidentified Food-Borne Disease]. Shokuhin Eiseigaku Zasshi 2018;59(1):24-29 (영문 초록 확인)",
+   "url": "https://doi.org/10.3358/shokueishi.59.24",
+   "publisher": "Journal of the Food Hygienic Society of Japan, PMID 29743464",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Three Unicapsula species (Myxosporea: Trilosporidae) of Asian marine fishes, including the description of Unicapsula setoensis n. sp. Parasitol Res 2014;113(10):3807-16 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00436-014-4048-9",
+   "publisher": "Parasitology Research, PMID 25088472",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "EFSA BIOHAZ Panel. Re-evaluation of certain aspects of the EFSA Scientific Opinion of April 2010 on risk assessment of parasites in fishery products, based on new scientific data. Part 1: ToRs1-3. EFSA J 2024;22(4):e8719 (초록 확인)",
+   "url": "https://doi.org/10.2903/j.efsa.2024.8719",
+   "publisher": "European Food Safety Authority, PMC11033839, PMID 38650612",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Larval cestodes infecting commercial fish of Alexandria coast along the Mediterranean Sea: morphology and phylogeny. Rev Bras Parasitol Vet 2022 (초록 확인)",
+   "url": "https://doi.org/10.1590/S1984-29612022030",
+   "publisher": "Revista Brasileira de Parasitologia Veterinária, PMC12136381, PMID 35674532",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Differences in macroelements, trace elements and toxic metals between wild and captive-reared greater amberjack (Seriola dumerili) from the Mediterranean Sea. Mar Pollut Bull 2021;170:112637 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2021.112637",
+   "publisher": "Marine Pollution Bulletin, PMID 34153858",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Effects of Tuna By-Product Meal on Growth, Whole-Body Mercury, Phosphorus Load, and Plasma Chemistry in Juvenile Greater Amberjack. Animals 2024;14(24):3711 (초록 확인)",
+   "url": "https://doi.org/10.3390/ani14243711",
+   "publisher": "Animals (MDPI), PMC11672524, PMID 39765615",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Timing of puberty in F1-generation hatchery-produced greater amberjack (Seriola dumerili). Gen Comp Endocrinol 2023;347:114414 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ygcen.2023.114414",
+   "publisher": "General and Comparative Endocrinology, PMID 38008343",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Gonadotropin expression, pituitary and plasma levels in the reproductive cycle of wild and captive-reared greater amberjack (Seriola dumerili). Gen Comp Endocrinol 2024;350:114465 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ygcen.2024.114465",
+   "publisher": "General and Comparative Endocrinology, PMID 38336122",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Spawning kinetics and egg/larval quality of greater amberjack (Seriola dumerili) in response to multiple GnRHa injections or implants. Gen Comp Endocrinol 2019;279:78-87 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ygcen.2018.12.007",
+   "publisher": "General and Comparative Endocrinology, PMID 30571964",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Mixing rates in weakly differentiated stocks of greater amberjack (Seriola dumerili) in the Gulf of Mexico. Genetica 2018;146(4-5):393-402 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10709-018-0031-1",
+   "publisher": "Genetica, PMID 30046930",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "A novel ddPCR assay for eDNA detection and quantification of Greater Amberjack Seriola dumerili and three congeners in US waters. PeerJ 2025;13:e18778 (초록 확인)",
+   "url": "https://doi.org/10.7717/peerj.18778",
+   "publisher": "PeerJ, PMC11781265, PMID 39886022",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Encephalomyelitis associated with microsporidian infection in farmed greater amberjack, Seriola dumerili (Risso). J Fish Dis 2011;34(12):901-10 (초록 확인)",
+   "url": "https://doi.org/10.1111/j.1365-2761.2011.01312.x",
+   "publisher": "Journal of Fish Diseases, PMID 22074018",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Multilocus Sequence Typing-Based Molecular Epidemiology of Lactococcus garvieae and Lactococcus formosensis in Japanese Amberjack, Greater Amberjack and Striped Jack Aquaculture. J Fish Dis 2026:e70250 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfd.70250",
+   "publisher": "Journal of Fish Diseases, PMID 42461165",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Mediterranean Sea heatwaves jeopardize greater amberjack's (Seriola dumerili) aquaculture productivity through impacts on the fish microbiota. ISME Commun 2023;3(1):36 (초록 확인)",
+   "url": "https://doi.org/10.1038/s43705-023-00243-7",
+   "publisher": "ISME Communications, PMC10125963, PMID 37095196",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Multi-omics study of sex in greater amberjack (Seriola dumerili): Identifying related genes, analyzing sex-biased expression, and developing sex-specific markers. Comp Biochem Physiol Part D 2024;53:101364 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.cbd.2024.101364",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PMID 39612541",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "DNA barcode identification of commercial fish sold in Mexican markets. Genome 2018 (초록 확인)",
+   "url": "https://doi.org/10.1139/gen-2017-0222",
+   "publisher": "Genome, PMID 29687751",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Parasites of amberjacks from the archipelago of Madeira, Eastern Atlantic. Dis Aquat Organ 2018;131(2):133-142 (초록 확인)",
+   "url": "https://doi.org/10.3354/dao03294",
+   "publisher": "Diseases of Aquatic Organisms, PMID 30460919",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 38,
+   "title": "경남도 수산자원연구소 잿방어 양식기술 개발 착수 보도(2023-09-12) — WebSearch 결과 요약으로만 확인, 기사 원문은 이 환경의 네트워크 제한으로 열지 못함",
+   "url": "https://www.twig24.com/news/local_gs/kynam_gs/2023/09/12/20230912012010",
+   "publisher": "지역 언론 보도(원문 미확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 39,
+   "title": "Sensory characterization, physico-chemical properties and somatic yields of five emerging fish species. Food Res Int 2017;100(Pt 1):396-406 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2017.07.023",
+   "publisher": "Food Research International, PMID 28873702",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 40,
+   "title": "Optimizing Artemia Enrichment: A Low DHA/High EPA Protocol for Enhanced n-3 LC-HUFA Levels to Support Greater Amberjack (Seriola dumerili) Larval Rearing. Aquac Nutr 2023:5548991 (초록 확인)",
+   "url": "https://doi.org/10.1155/2023/5548991",
+   "publisher": "Aquaculture Nutrition, PMC10773596, PMID 38192736",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 41,
+   "title": "Comparative Study of Reproductive Development in Wild and Captive-Reared Greater Amberjack Seriola dumerili (Risso, 1810). PLoS One 2017;12(1):e0169645 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0169645",
+   "publisher": "PLOS ONE, PMC5215828, PMID 28056063",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 42,
+   "title": "Evaluation of the stick enzyme immunoassay in Caranx sp. and Seriola dumerili associated with ciguatera. J Clin Lab Anal 1990;4(5):363-6 (초록 확인)",
+   "url": "https://doi.org/10.1002/jcla.1860040509",
+   "publisher": "Journal of Clinical Laboratory Analysis, PMID 2231183",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 43,
+   "title": "Turnovers of Sex-Determining Mutation in the Golden Pompano and Related Species Provide Insights into Microevolution of Undifferentiated Sex Chromosome. Genome Biol Evol 2024;16(3):evae037 (초록 확인)",
+   "url": "https://doi.org/10.1093/gbe/evae037",
+   "publisher": "Genome Biology and Evolution, PMC10919887, PMID 38408866",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 44,
+   "title": "Vitellogenin receptor and fatty acid profiles of individual lipid classes of oocytes from wild and captive-reared greater amberjack (Seriola dumerili) during the reproductive cycle. Theriogenology 2019 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.theriogenology.2019.08.014",
+   "publisher": "Theriogenology, PMID 31465910",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 45,
+   "title": "Sex-Inclined Piwi-Interacting RNAs in Serum Exosomes for Sex Determination in the Greater Amberjack (Seriola dumerili). Int J Mol Sci 2023;24(4):3438 (초록 확인)",
+   "url": "https://doi.org/10.3390/ijms24043438",
+   "publisher": "International Journal of Molecular Sciences (MDPI), PMC9962539, PMID 36834847",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

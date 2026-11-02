@@ -1,0 +1,509 @@
+{
+ "slug": "quercus-mongolica",
+ "name_ko": "신갈나무",
+ "name_en": "Mongolian oak",
+ "scientific_name": "Quercus mongolica Fisch. ex Ledeb.",
+ "aliases": [
+  "돌참나무",
+  "물갈나무",
+  "신갈나무열매",
+  "Mongolian oak",
+  "Quercus crispula var. mandshurica Koidz."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "신갈나무(Quercus mongolica Fisch. ex Ledeb.)는 참나무과(Fagaceae) 참나무속의 갈잎 큰키나무로, 영어로는 Mongolian oak라 부른다[1][2]. 동아시아 온대에 널리 자라는 백참나무(white oak) 무리의 대표 종이며, 한국 숲에서 가장 많은 참나무로 소개된다[2][3].\n\n식품의약품안전처 「식품원료 목록」에서 신갈나무는 식품에 사용할 수 있는 원료(사용가능)이고, 사용 조건은 '사용가능부위 : 열매'이다[1]. 목록의 원료명은 '신갈나무열매' 하나이며, 다른 이름으로 돌참나무·물갈나무, 학명 표기로 'Quercus mongolica Fisch. ex Ledeb. / Quercus crispula var. mandshurica Koidz.'가 함께 적혀 있다[1]. 건강기능식품 고시형 원료의 원재료로 쓰인다는 기록은 확인하지 못함.\n\n열매(도토리)는 중국 설치류 연구에서 물개암나무(Corylus mandshurica) 씨앗보다 탄닌이 많은 고탄닌 종자로 분류되었다[9]. 신갈나무 도토리의 탄닌 함량 수치는 이 자료의 PubMed 문헌으로는 확인하지 못함. 성분 연구는 주로 잎에서 이루어져 페둔쿨라긴 같은 엘라기탄닌과 카테킨·엘라그산이 확인되었다[16][17]. 꽃가루의 주요 알레르겐 Que m 1이 밝혀져 있다[3]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통적 이용",
+   "body": "신갈나무는 한국·중국·몽골에서 구강·생식기·항문 점막의 염증과 피부 염증을 다스리는 전통 약재로 써 왔다고 소개된다[19]. 다른 연구진도 치질·열·장염을 덜어 주는 동양 전통 약으로 써 왔다고 적었다[18]. 이런 전통 용도를 근거로 잎 추출물과 분리 성분의 세포 실험이 이어졌다[17][18][19].\n\n도토리를 먹어 온 역사는 이 자료의 PubMed 문헌으로는 확인하지 못함. 한국에서 신갈나무 도토리만 따로 묵 등으로 가공해 먹었다는 공식 기록도 확인하지 못함. 「식품원료 목록」은 오늘날 열매만 식품 원료로 쓸 수 있게 정하고 있다[1].\n\n목재로서는 중국에서 건축·조경용 나무로 상업·생태적 가치가 크다고 소개된다[29]. 최근 중국에서는 신갈나무 목재로 만든 오크통에 위스키를 숙성해, 미국·유럽 오크통과 다른 폴리페놀과 리그닌 유래 향 성분이 들어간다는 분석이 나왔다[26]. 한국산 겨우살이 연구에서는 신갈나무에 붙어 자란 겨우살이에서 렉틴을 분리했다[28]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "신갈나무는 동아시아 온대에 자생하는 백참나무 무리의 종이며, 중국 동북부와 북부의 침엽수·활엽수 혼효림을 이루는 주요 수종이다[2][33]. 대싱안링 산맥 북부에서는 지난 100년 동안 기후 온난화에 맞춰 10년에 평균 12.0 ± 1.0 km 속도로 북방림 쪽으로 퍼져 나갔다[5]. 이 속도는 이주하는 온대 나무들의 평균(10년에 4.0 ± 1.0 km)보다 훨씬 빨랐다[5].\n\n도토리는 다람쥐·쥐 같은 설치류가 먹고 땅에 묻어 퍼뜨린다[10][13]. 샤오싱안링 산림에서 바닥에 떨어진 도토리 수는 2009년 1 m²당 6.2 ± 2.1개, 2010년 26.7 ± 10.2개로 해마다 크게 달랐다[13]. 백참나무류 가운데 신갈나무 도토리는 배(씨눈)가 떡잎 속 가장 깊이 있어, 끝을 4 mm 잘라 내도 발아율이 떨어지지 않았다[12]. 줄무늬다람쥐는 껍질(과피)을 벗겨 바구미가 든 도토리를 가려 먹고 성한 도토리를 저장했다[10][11]. 한 해 자란 어린 묘목은 떡잎이 붙어 있어야 줄기를 잘린 뒤에도 다시 싹을 틔웠다[15]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "유전체 비교에서 신갈나무는 유럽의 Q. robur와 가장 가깝고, 두 종은 약 1,180만 년 전 공통 조상에서 갈라졌다[2]. 중국에서는 가까운 종 Q. liaotungensis와 자연 잡종을 이루며, 중국 동북부의 Q. liaotungensis 집단은 신갈나무에서 비대칭 잡종화로 생겨났다고 추정되었다[6]. 두 종의 개화기는 겹치고, 오래된 접촉 지대에서는 씨가 익는 단계의 생식 격리가 더 강했다[7].\n\n일본의 변종 Q. mongolica var. crispula와 var. mongolicoides 사이에는 갈라진 뒤에도 유전자 흐름이 이어졌다[8]. 「식품원료 목록」은 'Quercus crispula var. mandshurica Koidz.'를 신갈나무와 같은 원료의 학명으로 함께 적는다[1]. 이 이명의 현재 분류학적 지위는 이 자료에서 확인하지 못함.\n\n일본의 변종(var. grosseserrata) 어린 묘목은 같은 참나무과의 밤나무(Castanea crenata) 묘목보다 축합형 탄닌과 총페놀 농도가 높아, 방어 물질에 탄소를 더 많이 썼다[27]. 신갈나무 꽃가루 알레르겐 Que m 1은 상수리나무의 Que ac 1처럼 수입 진단 시약의 알레르겐과 교차 반응이 강하다[4]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "신갈나무는 주로 자연림에서 자라며, 도토리 결실량은 해마다 크게 달라진다[13]. 10년 동안 모은 종자 결실량·설치류 개체 수 자료에서 신갈나무 종자 결실량은 줄무늬다람쥐 개체 수와 음의 상관을 보였다[9]. 중국의 공동 정원 시험에서 신갈나무 등 Quercus 절(백참나무류) 도토리는 북미에서 들여온 Q. rubra보다 곤충 피해율이 높았다[14].\n\n중국에서 높은 산에서 옮겨 심은 묘목이 평지에서 잘 자라지 못하고 잎이 누렇게 되는 문제가 있어, 가지치기·물주기·비료 처리를 비교한 연구가 있다[29]. 가지치기는 항산화 효소 체계를, 물주기와 비료는 가용성 당 축적을 더 잘 끌어올렸다[29]. 일본산 변종 연구에서는 큰 씨에서 나온 묘목이 키 생장과 생존에서 앞섰다[34].\n\n한국에서는 2004년부터 광릉긴나무좀(Platypus koryoensis)과 공생 곰팡이 Raffaelea quercus-mongolicae가 일으키는 참나무시들음병으로 신갈나무가 많이 죽었다[24][25]. 신갈나무 도토리만의 국내 채취량·생산량 통계는 확인하지 못함. 지리적 표시 등록과 세계 생산 통계도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "「식품원료 목록」에 오른 원료명은 '신갈나무열매' 하나이며, 추출물·분말 같은 가공 원료명은 올라 있지 않다[1]. 신갈나무 도토리의 떫은맛(탄닌)을 빼는 가공 방법이나 그 효과를 정량한 논문은 PubMed에서 확인하지 못함.\n\n신갈나무 씨앗은 물개암나무(Corylus mandshurica)보다 탄닌이 많은 먹이로 분류되었고, 고탄닌 먹이는 두 설치류의 체중을 줄였고 줄무늬다람쥐는 생존율도 낮아졌다[9]. 이는 동물 실험 결과이며 사람의 섭취량 기준은 확인하지 못함.\n\n잎은 에탄올로 추출해 100 g에서 플라보노이드 5.06 g을 얻은 연구가 있다[16]. 꿀벌이 모은 신갈나무 꽃가루(비폴렌)에서는 폴리아민 유도체가 분리되고 플라보노이드 배당체 69종이 주석되었으며, 신갈나무 꽃가루에서는 플라보노이드 18종이 분리되었다[22][23][30]. 식약처 건강기능식품 생산실적 품목에서 신갈나무 원료는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "신갈나무의 염색체 수준 유전체는 아시아 참나무로는 처음 조립되었으며, PacBio 초안 유전체 크기는 809.84 Mb였다[2]. Hi-C로 774.59 Mb(초안의 95.65%)를 12개 유사 염색체에 배치했고, contig N50은 2.64 Mb, scaffold N50은 66.74 Mb였다[2]. 단백질 암호 유전자 36,553개가 예측되었고, 반복 서열이 유전체의 53.75%(435.34 Mb)를 차지했다[2]. 병 저항성과 관련된 NBS 유전자족은 줄어든 반면, 표피 왁스 합성에 관여하는 CER1 상동 유전자는 늘어났다[2].\n\n이 유전체를 바탕으로 bHLH 전사인자 89개가 21개 하위군으로 분류되었고, 그 가운데 12개는 염·추위·약광·가뭄에 반응했다[32]. 스트레스 조건의 정량 PCR에는 CYP18·ACT97·RPS13이 가장 안정한 기준 유전자로 꼽혔다[33]. 마이크로새틀라이트 19개를 쓴 연구는 신갈나무가 마지막 빙하 최대기 뒤 개체 수가 알맞게 늘고 안정되었다고 추정했다[31]. 도토리 품질이나 탄닌 함량을 목표로 한 육종 품종은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 주의",
+   "body": "신갈나무는 「식품원료 목록」에서 열매에 한해 사용가능 원료이며, 잎·나무껍질 등 다른 부위는 식품 원료로 올라 있지 않다[1]. 「식품원료 목록」 자료에 건강기능식품 고시형 원료(KR_NOTICE) 표시가 없고, 고시 제2026-43호 원문에서도 신갈나무를 원재료로 하는 원료를 찾지 못해 고시된 섭취 시 주의사항은 확인하지 못함[1].\n\n신갈나무 꽃가루에서 PR-10 계열 주요 알레르겐 Que m 1이 클로닝되었고, 한국 수목 꽃가루 알레르기 환자 혈청 50개 가운데 92.0%가 재조합 Que m 1에 특이 IgE를 보였다[3]. Que m 1은 자작나무 Bet v 1과 교차 반응을 보였다[3]. 꽃가루-식품 알레르기 증후군을 일으키는 국내 과일·채소 알레르겐도 더 밝혀야 한다는 지적이 있다[4]. 도토리 자체의 식품 알레르기 증례는 확인하지 못함.\n\n신갈나무 씨앗 같은 고탄닌 먹이를 준 설치류 두 종은 체중이 줄었고 줄무늬다람쥐는 생존율도 낮아졌는데, 이는 동물 실험 결과다[9]. 사람에서 신갈나무 도토리 섭취의 독성·잔류농약·중금속에 관한 공공기관 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Tannins",
+   "name_ko": "탄닌(도토리 총 탄닌)",
+   "role": "marker",
+   "part": "열매(도토리)",
+   "content_text": "함량 수치는 확인하지 못함; 물개암나무 씨앗보다 탄닌이 많은 고탄닌 종자로 분류[9]",
+   "activity_ko": "고탄닌 먹이를 준 설치류 2종 체중 감소, 줄무늬다람쥐는 생존율 감소(동물)[9]",
+   "source": [
+    9
+   ],
+   "class": "폴리페놀(탄닌)"
+  },
+  {
+   "name": "Pedunculagin",
+   "name_ko": "페둔쿨라긴",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 잎 80% 아세톤 추출물에서 분리[17]",
+   "activity_ko": "UVB 섬유아세포 MMP-1 억제·제1형 프로콜라겐 증가(세포)[17]; IL-6·IL-13·MCP-1 mRNA 억제(세포)[18]; 5α-환원효소 1형 억제(세포)[19]",
+   "source": [
+    17,
+    18,
+    19
+   ],
+   "class": "엘라기탄닌"
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "role": "bioactive",
+   "part": "잎(에탄올 추출 플라보노이드 분획)",
+   "content_text": "분획의 34.9%[16]",
+   "activity_ko": "여러 암세포 증식 억제, 세포자멸사 외 기전 추정(세포)[16]",
+   "source": [
+    16
+   ],
+   "class": "페놀산"
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "에탄올 추출 플라보노이드 분획의 18.4%[16]; (+)-카테킨 분리[17]",
+   "activity_ko": "MCF-7 등 암세포 증식 억제·세포자멸사 유도(세포)[16]",
+   "source": [
+    16,
+    17
+   ],
+   "class": "플라반-3-올"
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "에탄올 추출 플라보노이드 분획의 20.6%[16]",
+   "activity_ko": "잎 추출 분획의 주성분으로 확인[16]",
+   "source": [
+    16
+   ],
+   "class": "플라보놀"
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "에탄올 추출 플라보노이드 분획의 6.3%[16]",
+   "activity_ko": "암세포 세포주기 정지·세포자멸사 유도(세포)[16]",
+   "source": [
+    16
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "에탄올 추출 플라보노이드 분획의 5.1%[16]",
+   "activity_ko": "암세포 세포주기 정지·세포자멸사 유도(세포)[16]",
+   "source": [
+    16
+   ],
+   "class": "플라보놀"
+  },
+  {
+   "name": "Epigallocatechin",
+   "name_ko": "(-)-에피갈로카테킨",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 잎에서 분리[17]",
+   "activity_ko": "잎 페놀 성분 6종의 하나로 MMP-1 실험에 쓰임(세포)[17]",
+   "source": [
+    17
+   ],
+   "class": "플라반-3-올"
+  },
+  {
+   "name": "Quercetin 3-O-(6''-O-galloyl)-beta-D-glucopyranoside",
+   "name_ko": "퀘르세틴-3-O-(6″-O-갈로일)-글루코사이드",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 잎에서 분리[17]",
+   "activity_ko": "잎 페놀 성분의 하나로 분리·동정[17]",
+   "source": [
+    17
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "role": "bioactive",
+   "part": "식물체(부위는 초록에 명시 없음)",
+   "content_text": "함량 수치는 확인하지 못함; 분리·동정[20]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    20
+   ],
+   "class": "페놀산"
+  },
+  {
+   "name": "Friedelin",
+   "name_ko": "프리델린",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 분리·동정[20][21]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    20,
+    21
+   ],
+   "class": "트리테르펜"
+  },
+  {
+   "name": "Lupeol",
+   "name_ko": "루페올",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 분리·동정[21]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    21
+   ],
+   "class": "트리테르펜"
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "β-시토스테롤",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "함량 수치는 확인하지 못함; 분리·동정[20][21]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    20,
+    21
+   ],
+   "class": "피토스테롤"
+  },
+  {
+   "name": "Isorhamnetin 3-O-neohesperidoside",
+   "name_ko": "이소람네틴-3-O-네오헤스페리도사이드",
+   "role": "bioactive",
+   "part": "꽃가루(비폴렌)",
+   "content_text": "표준품 대조로 확인한 2대 주성분의 하나; 꽃가루에서 플라보노이드 배당체 69종 주석(이소람네틴 유도체 46종)[30]",
+   "activity_ko": "이 성분 자체의 활성은 확인하지 못함; 같은 종 꽃가루에서 분리한 플라보노이드 18종은 티로시나아제 억제·DPPH 항산화 활성을 보임(시험관)[23]",
+   "source": [
+    23,
+    30
+   ],
+   "class": "플라보놀 배당체"
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Ellagic acid",
+   "compound_ko": "엘라그산",
+   "part": "잎",
+   "content": "잎 에탄올 추출 플라보노이드(잎 100 g당 5.06 g)의 34.9%[16]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종에서 정량 비율이 보고된 주성분이다(초록: 추출물의 주성분을 HPLC로 정제)[16]. 전문 확인 못함: 분석 조건은 비워 둠. 식품원료 사용 부위인 열매(도토리)의 성분을 정량한 PubMed 논문은 확인하지 못함.",
+   "source": [
+    16
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36351050/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 신갈나무(Quercus mongolica Fisch. ex Ledeb.)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "A chromosome-scale genome assembly of the Mongolian oak (Quercus mongolica). Mol Ecol Resour. 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35377556/",
+   "publisher": "Molecular Ecology Resources (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Characterization of a Major Allergen from Mongolian Oak, Quercus mongolica, a Dominant Species of Oak in Korea. Int Arch Allergy Immunol. 2017",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29065418/",
+   "publisher": "International Archives of Allergy and Immunology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Neglected but Clinically Relevant Allergens in Korea. Curr Allergy Asthma Rep. 2024",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38980649/",
+   "publisher": "Current Allergy and Asthma Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Rapid migration of Mongolian oak into the southern Asian boreal forest. Glob Chang Biol. 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37916481/",
+   "publisher": "Global Change Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Dispersal as a result of asymmetrical hybridization between two closely related oak species in China. Mol Phylogenet Evol. 2020",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32956798/",
+   "publisher": "Molecular Phylogenetics and Evolution (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "A comparison of reproductive isolation between two closely related oak species in zones of recent and ancient secondary contact. BMC Evol Biol. 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6404273/",
+   "publisher": "BMC Evolutionary Biology (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Different population size change and migration histories created genetic diversity of three oaks in Tokai region, central Japan. J Plant Res. 2021",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34155542/",
+   "publisher": "Journal of Plant Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Effects of tannins on population dynamics of sympatric seed-eating rodents: the potential role of gut tannin-degrading bacteria. Oecologia. 2018 (초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29736862/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Selective predation on acorn weevils by seed-caching Siberian chipmunk Tamias sibiricus in a tripartite interaction. Oecologia. 2018",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29777342/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Incorporating cache management behavior into seed dispersal: the effect of pericarp removal on acorn germination. PLoS One. 2014",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3960254/",
+   "publisher": "PLoS One (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Acorns containing deeper plumule survive better: how white oaks counter embryo excision by rodents. Ecol Evol. 2013",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3894888/",
+   "publisher": "Ecology and Evolution (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Effects of relative abundance of Quercus mongolica acorns on five tree species seed dispersal in Xiaoxing'an Mountains, Northeast China. Ying Yong Sheng Tai Xue Bao. 2013 (초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24066536/",
+   "publisher": "Ying Yong Sheng Tai Xue Bao (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "An intercontinental comparison of insect seed predation between introduced and native oaks. Integr Zool. 2021",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34796655/",
+   "publisher": "Integrative Zoology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Retention of cotyledons is crucial for resprouting of clipped oak seedlings. Sci Rep. 2014",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042119/",
+   "publisher": "Scientific Reports (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Catechin, rutin and quercetin in Quercus mongolica Fisch leaves exert inhibitory effects on multiple cancer cells. J Food Biochem. 2022 (초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36351050/",
+   "publisher": "Journal of Food Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Inhibition of matrix metalloproteinase-1 and type-I procollagen expression by phenolic compounds isolated from the leaves of Quercus mongolica in ultraviolet-irradiated human fibroblast cells. Arch Pharm Res. 2015",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24627338/",
+   "publisher": "Archives of Pharmacal Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Anti-Inflammatory Effects of Phenolic Compounds Isolated from Quercus mongolica Fisch. ex Ledeb. on UVB-Irradiated Human Skin Cells. Molecules. 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6749265/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Anti-Acne Vulgaris Effects of Pedunculagin from the Leaves of Quercus mongolica by Anti-Inflammatory Activity and 5α-Reductase Inhibition. Molecules. 2020",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7249114/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "[Studies on the chemical constituents of Quercus mongolica]. Zhong Yao Cai. 1998 (초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12567947/",
+   "publisher": "Zhong Yao Cai (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "[Chemical constituents of Quercus mongolica Fisch]. Zhongguo Zhong Yao Za Zhi. 1998 (초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11599387/",
+   "publisher": "Zhongguo Zhong Yao Za Zhi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Polyamine derivatives from the bee pollen of Quercus mongolica with tyrosinase inhibitory activity. Bioorg Chem. 2018",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30118984/",
+   "publisher": "Bioorganic Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Antioxidant and Tyrosinase-Inhibitory Activities and Biological Bioactivities of Flavonoid Derivatives from Quercus mongolica Pollen. Molecules. 2025",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11858624/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Yeast Associated with the Ambrosia Beetle, Platypus koryoensis, the Pest of Oak Trees in Korea. Mycobiology. 2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4731651/",
+   "publisher": "Mycobiology (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Male-produced aggregation pheromone blend in Platypus koryoensis. J Agric Food Chem. 2009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19170509/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Exploration and characterization of flavor compounds in Chinese whiskies: Qingke whisky and Mongolian oak barrel aging via GC × GC and multivariate analysis. Food Chem. 2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40318341/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Carbon allocation to defense, storage, and growth in seedlings of two temperate broad-leaved tree species. Oecologia. 2009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19763628/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Isolation and characterization of biologically active lectin from Korean mistletoe, Viscum album var. Coloratum. Cell Mol Life Sci. 1999",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11146893/",
+   "publisher": "Cellular and Molecular Life Sciences (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Integrated physiological and transcriptomic analyses reveal the molecular mechanism behind the response to cultivation in Quercus mongolica. Front Plant Sci. 2022",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9393570/",
+   "publisher": "Frontiers in Plant Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Molecular Networking-Guided Annotation of Flavonoid Glycosides from Quercus mongolica Bee Pollen. Int J Mol Sci. 2025",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12386960/",
+   "publisher": "International Journal of Molecular Sciences (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Recent demographic histories of temperate deciduous trees inferred from microsatellite markers. BMC Ecol Evol. 2021",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8130339/",
+   "publisher": "BMC Ecology and Evolution (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Genome-Wide Identification and Expression Analysis of the bHLH Transcription Factor Family and Its Response to Abiotic Stress in Mongolian Oak (Quercus mongolica). Curr Issues Mol Biol. 2023",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9955707/",
+   "publisher": "Current Issues in Molecular Biology (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Selection and validation of reference genes for quantitative real-time PCR of Quercus mongolica Fisch. ex Ledeb under abiotic stresses. PLoS One. 2022",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9049516/",
+   "publisher": "PLoS One (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Effects of seed size and emergence time on tree seedling establishment: importance of developmental constraints. Oecologia. 2000",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28308725/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

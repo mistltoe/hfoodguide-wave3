@@ -1,0 +1,599 @@
+{
+ "slug": "trichiurus-lepturus",
+ "name_ko": "대두갈치",
+ "name_en": "Largehead hairtail (Pacific cutlassfish)",
+ "scientific_name": "Trichiurus lepturus Linnaeus, 1758 (식약처 목록 병기: Trichiurus japonicus Temminck & Schlegel, 1844)",
+ "aliases": [
+  "대두갈치",
+  "갈치",
+  "Pacific cutlassfish",
+  "Largehead hairtail",
+  "Cutlassfish",
+  "Hairtail",
+  "Trichiurus japonicus"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "대두갈치(Trichiurus lepturus)는 몸이 은빛 띠처럼 길고 납작한 갈치과(Trichiuridae) 바닷물고기로, 식약처 「식품원료 목록」에는 학명이 'Trichiurus lepturus / Trichiurus japonicus', 이명이 '갈치, Pacific cutlassfish'로 함께 적혀 있다[1]. 목록에는 대두갈치·대두갈치포·대두갈치내장·대두갈치살 4행이 수산물로 올라 있고 모두 '사용가능'이며 따로 정한 사용 조건은 없다[1].\n\n부위 칸은 대두갈치·대두갈치포가 '-', 대두갈치내장이 '어린순', 대두갈치살이 '죽순'으로 원문에 적혀 있어, 식물 부위 이름이 생선 원료명(내장·살)과 맞지 않는다[1]. 이렇게 적힌 까닭은 이번 조사에서 확인하지 못함. 건강기능식품 고시형 원료의 원재료 목록에는 없어 고시 지표성분이나 1일 섭취량 기준도 없다[1].\n\n갈치과 어획량은 1994년 이후 해마다 100만 톤을 넘고 그 80% 이상이 동아시아 바다에서 나오지만, 통계에서는 T. japonicus 등 여러 종이 T. lepturus 이름 아래 합쳐지는 일이 많다[4]. 갈치는 한국에서 가장 즐겨 먹는 수산물 가운데 하나이며 어장은 동중국해, 서·남해안, 제주 연안이다[9]. 국내 연안 갈치가 유전자 분석으로 T. japonicus로 확인되었다는 보고가 있고[30], 두 종은 유전적으로 뚜렷이 다르므로 이 글은 두 학명의 자료를 나누어 적는다[2]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 분류의 역사",
+   "body": "갈치속에는 지금까지 31개의 이름이 기재되었지만, 유효종 수는 FishBase가 9종, Eschmeyer 어류 목록이 11종으로 서로 다르다[2]. 이 차이는 FishBase가 T. japonicus Temminck & Schlegel, 1844와 T. nitens Garman, 1899를 T. lepturus의 이명으로 보기 때문이다[2]. 2022년 미토콘드리아 유전체 비교 연구는 T. japonicus를 유효종으로 보았다[2]. 2025년 유전체 논문은 T. japonicus가 한때 T. lepturus의 아종으로 여겨져 세계 어획 통계에서 함께 묶여 왔다고 설명한다[4].\n\n국내 문헌의 학명도 엇갈려, 1998년 제주해협 갈치 연구는 Trichiurus lepturus를, 2020년 제주 주변 해역 갈치 어란 연구는 Trichiurus japonicus를 썼다[31, 30]. 2020년 연구는 우리나라 갈치를 T. lepturus로 동정해 왔으나 COI 유전자 분석으로는 T. japonicus로 확인되었다는 앞선 보고를 인용했다[30]. 식약처 목록이 두 학명을 함께 적은 것은 이런 혼동과 관련된 것으로 보이나, 목록 작성 근거와 국문명 '대두갈치'의 유래는 확인하지 못함.\n\n한국에서는 갈치를 젓갈로도 담가 먹으며, 갈치젓에서 새로운 세균 종이 분리되어 보고되기도 했다[27]. 중국 연안의 갈치류는 단일 어종 어획량 1위를 지켜 왔지만 공식 통계에는 여러 갈치과 종이 섞여 있다[7]."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "T. japonicus는 북서태평양 연안의 수심 100–200 m에 살며 낮과 밤에 따라 위아래로 오르내리는 수직 이동을 한다[4]. 대만의 여러 어항에서는 갈치과 어획의 40–100%를 이 종이 차지한다[4]. 갈치속의 'T. lepturus 복합군'은 머리가 크고 꼬리가 긴 무리로, 항문이 등지느러미 38–41번째 줄기 아래에 있어 34–35번째 줄기 아래에 있는 짧은꼬리 복합군과 구별된다[2]. 중국 해역 표본의 평균 전장은 T. japonicus 74.7 cm(75마리), T. lepturus 79.8 cm(27마리)였다[2].\n\n갈치류는 먹이그물 꼭대기의 포식자로, 중국 연안 표본은 대부분 1–2세여서 일찍 성숙하고 몸이 작아지는 경향이 지적되었다[7]. 동중국해 T. japonicus의 나이 구성은 1950년대 말 0–6세에서 2000년대 초 0–4세로 줄었고 0–1세가 대부분을 차지했다[19]. 브라질 연안의 T. lepturus는 같은 종의 어린 개체를 주로 잡아먹었으며, 먹이에서 포식자로 가며 수은 농도가 4.5–19.5배 높아졌다[14].\n\n한국 남해안의 2020–2022년 격자별 어획량은 염분이 높고 용존산소가 낮은 곳에서 많았고, 엽록소 a 농도와 수온도 양(+)의 영향을 보였다[22]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "중국 연안에서 모은 갈치속 1,311마리를 COI 유전자로 동정한 결과 T. japonicus, T. lepturus, T. nanhaiensis, T. brevis 4종이 확인되었다[2]. 같은 연구에서 T. japonicus와 T. lepturus 사이의 COI 유전 거리(p-거리)는 0.1078, 미토콘드리아 유전체 전체로는 0.0984로 서로 다른 종 수준이었다[2]. T. lepturus 계통 안의 거리도 0.0333으로 커서 서태평양, 북서대서양, 동태평양·남서대서양의 세 하위 계통이 별개의 종일 수 있다고 제안되었다[2].\n\n2026년 유전체 연구는 T. japonicus와 T. nanhaiensis가 별개 종임을 확인하고, 이전 연구에서 T. lepturus로 잘못 분류된 인도양 기원의 숨은 계통이 있다고 보고했다[3]. 시판 갈치를 COI로 확인한 연구에서도 T. japonicus와 T. lepturus가 함께 나왔다[34].\n\n같은 「식품원료 목록」에는 이름에 '갈치'가 들어간 다른 원료도 있는데, 기름갈치꼬치(Ruvettus pretiosus)와 흑갈치꼬치(Lepidocybium flavobrunneum)는 '사용불가'이고 동동갈치(Evoxymetopon taeniatus)와 동갈치(Strongylura anastomella)는 '사용가능'이다[1]. 동동갈치가 속한 Evoxymetopon속은 갈치과의 다른 속이다[2, 1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 자원 관리",
+   "body": "국내 갈치는 바다에서 잡아 공급되며, 한국 남해안 분석에서는 어획 노력량이 클수록 격자별 어획량이 많았다[22]. 통계청 2024년 어업생산동향조사(잠정) 요약에 따르면 갈치 생산량은 전년 61천 톤에서 45천 톤으로 26.6% 줄었고, 평년보다 2.5–4.0 ℃ 높은 수온으로 어군이 흩어진 것이 원인으로 꼽혔다[28]. 2023년에는 약 6만 톤으로 전년보다 12.2% 늘었다고 해양수산부가 발표했다[29]. 시도별 생산량은 이번 조사에서 확인하지 못함.\n\n동중국해 T. japonicus는 2000–2003년 이용률이 0.864로 적정값 0.51을 넘는 과잉 어획 상태로 평가되었다[19]. 2016–2020년 자료로는 성숙 항문장이 230.38 mm, 최소 어획 항문장이 219.23 mm로 계산되었고 여전히 과잉 어획 상태였다[20]. 개체 기반 모형은 1980년대 중반 자원 급감의 주된 원인을 높은 어획 압력으로 보았고, 1990년대 초 산란기 금어 도입 뒤 자원이 회복되었다고 재현했다[21]. 같은 모형은 2100년 자원량이 기후 시나리오(SSP1-1.9·SSP2-4.5·SSP5-8.5)에 따라 7.5%·16.6%·30.1% 줄 것으로 예측했다[21]. 황해 대해양생태계의 갈치 자원은 2017년 이후 건강한 수준으로 회복되었다고 평가되었다[35]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "갈치는 젓갈로도 담가 먹으며[27], 손질에서 나오는 머리·지느러미 같은 부산물을 식품·기능성 소재로 쓰려는 연구가 이어지고 있다[9]. 부산 시장에서 산 갈치의 머리와 지느러미의 총아미노산은 건물 기준 각각 145.19 mg/g, 94.67 mg/g이었고, 저자들은 글리신이 많은 점을 들어 콜라겐 원료 가능성을 제안했다[9]. 국내산 갈치 부산물은 일반성분의 약 절반이 조단백질이었고, 효소 가수분해물 수율은 건조 원료 기준 42.8%였다[23]. 이 가수분해물은 덱사메타손으로 위축시킨 근육세포(C2C12)에서 300 µg/mL일 때 세포 생존율을 120.58%로 높였으나 세포 실험 결과다[23].\n\n머리 근육으로 만든 펩톤은 총질소 12.22%, 아미노태질소 3.19%, 평균 분자량 609 Da였고, 대장균 배지로 쓸 때 재조합 단백질 발현량이 일반 배지보다 20%·32% 높았다[26]. 같은 머리 펩톤은 대식세포(RAW 264.7)에서 일산화질소 생성을 60% 줄였다[24]. 소화 모사 가수분해물에서 찾은 펩타이드 VVFEVFW는 시험관에서 MAO-A를 저해했다(IC50 0.405 mM)[25]. 대두갈치를 사람에게 먹여 효과를 본 임상시험과 국내 건강기능식품 생산실적은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "T. japonicus의 미토콘드리아 유전체는 16,796 bp이며, 다른 경골어류와 달리 tRNA-Pro 유전자가 없고 제어 부위 양 끝에 반복 서열이 있다[5]. 갈치속 5종의 미토콘드리아 유전체는 16,568–16,840 bp로, tRNA-Pro가 없는 특징을 함께 보였다[2]. 인도양 표본으로 공개된 'T. lepturus' 미토콘드리아 유전체(16,840 bp)는 실제로는 T. lepturus가 아닐 수 있다고 지적되었다[2].\n\n2025년 대만 가오슝 앞바다 암컷 한 마리로 만든 T. japonicus 염색체 수준 유전체는 24개 염색체, 총 1,138 Mb, 스캐폴드 N50 47.10 Mb였다[4]. 단백질 유전자 26,541개와 비암호 RNA 유전자 16,383개가 주석되었고, 반복 서열이 유전체의 61.10%, BUSCO 완전도는 99.4%였다[4]. 이보다 앞서 2024년 12월에 24개 염색체 931.81 Mb 조립본도 공개되었다[4].\n\n북서태평양 5개 어장(북위 22–39°) 150마리의 미세위성 분석은 T. japonicus가 하나로 잘 섞인 집단이며 장소별 유효 집단 크기가 약 20,000이라고 보고했다[6]. 시토크롬 b 분석은 빙하기 이후 동중국해 대륙붕의 1차 생산 변화에 따라 집단 크기가 바뀌었다고 해석했다[8]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "대두갈치는 고시형 원료가 아니어서 식약처 고시의 섭취 시 주의사항은 없다[1]. 국내 성인 134명 피부단자시험에서 갈치 감작률은 2.2%였다[17]. 갈치 파브알부민 Tric l 1(아미노산 109개, 11.478 kDa)은 생선 알레르기 환자 혈청 9개 모두와 IgE 반응을 보였고 다른 생선과 교차반응할 수 있었다[18].\n\n대만 시장 T. lepturus는 모두 아니사키스 유충에 감염되어 있었고(평균 49.0마리), 유충의 86.31%가 Anisakis pegreffii였다[15]. 동중국해 갈치 등 세 어종에서도 감염률이 95.1%였고, 인도양 갈치에서는 근육(먹는 부위)에서도 유충이 나왔다[16, 33]. 날것이나 덜 익힌 생선을 먹으면 아니사키스증이 생길 수 있다[15].\n\n브라질 연안 T. lepturus 근육의 총수은은 0.13–0.35 µg/g(습중량)이었고 몸이 클수록 높았다[11]. 브라질 하구 104마리 평균은 125.3 µg/kg(습중량)이었고, 베네수엘라에서는 근육 0.190 µg/g, 간 0.361 µg/g이었다[12, 13]. 국내 갈치는 2010년 모니터링에서 총수은 0.061 mg/kg, 메틸수은 0.016 mg/kg으로 보고되었다(검색 요약으로만 확인)[32]. 중국산 근육의 총비소는 1.57–2.64 mg/kg이었으나 화학 형태는 나누지 않았다[10]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "총지방산의 13.90%(저우산)·25.28%(하이난)·22.32%(칭다오)[10]",
+   "activity_ko": "EPA와 함께 생선 지방의 대표적 장쇄 오메가-3 지방산으로, 이 연구에서 하이난산의 EPA+DHA 비율이 가장 높았다(29.45%)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "총지방산의 5.48%(저우산)·4.17%(하이난)·3.80%(칭다오)[10]",
+   "activity_ko": "장쇄 오메가-3 지방산; EPA+DHA 합계 19.38–29.45%[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "총지방산의 26.38–28.86%[10]",
+   "activity_ko": "세 산지 모두에서 가장 많은 지방산이었고 트랜스지방산은 검출되지 않았다[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "총지방산의 22.66–25.41%[10]",
+   "activity_ko": "포화지방산 가운데 가장 많다(포화지방산 합계 33.16–36.23%)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "근육·머리",
+   "content_text": "근육 20.28–22.12 mg/g[10]; 머리(건물) 글루탐산/글루타민 20.08 mg/g[9]",
+   "activity_ko": "감칠맛 아미노산으로 근육과 머리에서 가장 많은 아미노산이었다[10, 9]",
+   "source": [
+    10,
+    9
+   ]
+  },
+  {
+   "name": "Lysine",
+   "name_ko": "라이신",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "근육·머리",
+   "content_text": "근육 12.40–13.90 mg/g[10]; 머리(건물) 10.86 mg/g[9]",
+   "activity_ko": "근육 단백질의 라이신(72.68–78.93 mg/g 단백질)은 FAO/WHO 기준(55)보다 높았다[10]",
+   "source": [
+    10,
+    9
+   ]
+  },
+  {
+   "name": "Leucine",
+   "name_ko": "류신",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "근육·머리",
+   "content_text": "근육 14.48–15.82 mg/g[10]; 머리 유리 류신 0.52 mg/g(유리아미노산 중 최다)[9]",
+   "activity_ko": "근육 단백질 합성 신호에 관여하는 분지사슬 아미노산이다[9]",
+   "source": [
+    10,
+    9
+   ]
+  },
+  {
+   "name": "Glycine",
+   "name_ko": "글리신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "지느러미·머리",
+   "content_text": "지느러미(건물) 17.29 mg/g, 머리 16.44 mg/g[9]",
+   "activity_ko": "콜라겐의 주요 아미노산으로, 저자들은 부산물의 콜라겐 원료 가능성을 제안했다[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "2,660.89–3,137.22 mg/kg(습중량)[10]",
+   "activity_ko": "근육에서 가장 많은 무기질이었다[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Phosphorus",
+   "name_ko": "인",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "1,269.69–1,633.34 mg/kg(습중량, 표 값; 본문은 나트륨과 바뀌어 적혀 있음)[10]",
+   "activity_ko": "주요 다량 무기질[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육(살)",
+   "content_text": "24.55–37.63 mg/kg(습중량)[10]",
+   "activity_ko": "측정한 미량 무기질 가운데 가장 많았다[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Parvalbumin (Tric l 1)",
+   "name_ko": "파브알부민(Tric l 1)",
+   "class": "칼슘결합 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "근육(살)",
+   "content_text": "아미노산 109개, 분자량 11.478 kDa, 등전점 4.608[18]",
+   "activity_ko": "생선 알레르기 환자 혈청 9/9와 IgE 반응; 다른 생선 추출물과의 IgE 결합을 억제해 교차반응 가능성을 보였다[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Val-Val-Phe-Glu-Val-Phe-Trp (VVFEVFW)",
+   "name_ko": "펩타이드 VVFEVFW",
+   "class": "생리활성 펩타이드",
+   "role": "bioactive",
+   "part": "근육 단백질 가수분해물",
+   "content_text": "IC50 0.405 mM(MAO-A 저해, 합성 펩타이드)[25]",
+   "activity_ko": "모의 소화 가수분해물에서 찾은 MAO-A 저해 펩타이드로, 시험관·컴퓨터 분석 결과다[25]",
+   "source": [
+    25
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Glutamic acid (total amino acids)",
+   "compound_ko": "글루탐산/글루타민(총아미노산 조성)",
+   "part": "머리·지느러미(부산물, 부산 시장 구입 국내산)",
+   "content": "머리(건물) 글루탐산/글루타민 20.08 mg/g, 총아미노산 145.19 mg/g; 지느러미 총아미노산 94.67 mg/g[9]",
+   "method": "산가수분해 후 아미노산 자동분석기(이온교환, 닌히드린 후유도체화)",
+   "conditions": {
+    "instrument": "Hitachi L-8900 아미노산 분석기",
+    "column": "이온교환 수지 칼럼(60 mm × 4.6 mm, Na형)",
+    "mobile_phase": "구연산리튬 완충액(반응 시약: 닌히드린 용액)",
+    "gradient": "",
+    "flow": "완충액 0.45 mL/min, 반응 시약 0.25 mL/min",
+    "temp": "칼럼 57 °C(총아미노산), 30–70 °C(유리아미노산); 반응기 135 °C; 분석 33분",
+    "detection": "UV/VIS 570 nm(총아미노산), 440 nm(유리아미노산)",
+    "injection": "10 µL",
+    "sample_prep": "시료 0.1 g + 6 N HCl(0.05% 2-머캅토에탄올) 10 mL, 밀봉 110 ± 1 °C 24시간 가수분해 → 감압으로 HCl 제거 → 0.2 N 구연산리튬 완충액(pH 2.2)에 녹여 0.22 µm 여과(AOAC법); 트립토판은 4.2 N NaOH 135 °C 22시간 알칼리 가수분해; 유리아미노산은 95% 에탄올 30 °C 1시간 추출 후 5-설포살리실산 제단백",
+    "standard": "아미노산 표준용액 H(상용 혼합 표준품), L-트립토판 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "갈치 부산물에서 가장 많은 아미노산이라 단백질 소재의 조성 지표로 쓸 수 있다[9]. 전문(Methods·표 1) 확인 — 검출·정량한계와 회수율은 논문에 없음[9].",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13331930/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cystine",
+   "compound_ko": "시스틴",
+   "part": "머리·지느러미(부산물, 국내산)",
+   "content": "머리 0.20 mg/g, 지느러미 0.17 mg/g(건물)[9]",
+   "method": "HPLC-형광(OPA/FMOC 칼럼 전 유도체화)",
+   "conditions": {
+    "instrument": "Agilent LC 시스템",
+    "column": "Capcell Pak UG120 C18(250 mm × 4.6 mm, 5 µm)",
+    "mobile_phase": "A: 40 mM 인산나트륨(pH 7.8); B: 아세토나이트릴:메탄올:물(45:45:10)",
+    "gradient": "",
+    "flow": "1.5 mL/min",
+    "temp": "40 °C; 분석 38분",
+    "detection": "형광(논문 표기 Ex 338 nm, Em 262 nm)",
+    "injection": "",
+    "sample_prep": "시료 0.1 g + 개미산 10 mL, 0 °C 25시간 산화 → 6 N HCl(0.05% 2-머캅토에탄올) 10 mL, 110 ± 1 °C 18시간 가수분해 → 0.22 µm 여과",
+    "standard": "L-시스테인 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "산가수분해 아미노산 분석에서 따로 정량해야 하는 함황 아미노산이다[9]. 전문(Methods·표 2) 확인 — 기울기 조건·주입량·검출한계는 논문에 없음[9].",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13331930/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Docosahexaenoic acid",
+   "compound_ko": "도코사헥사엔산(DHA)",
+   "part": "근육(측선 위 살, 중국 저우산·하이난·칭다오 시판품)",
+   "content": "총지방산의 13.90 ± 0.22%(저우산), 25.28 ± 0.45%(하이난), 22.32 ± 0.34%(칭다오)[10]",
+   "method": "GC-FID(지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Agilent 7890A 모세관 GC, 불꽃이온화검출기(FID)",
+    "column": "HP-88 모세관 칼럼(30 m × 0.25 mm, 막 두께 0.2 µm)",
+    "mobile_phase": "운반 기체: 고순도 질소",
+    "gradient": "오븐 25 °C 5분 → 15 °C/분으로 120 °C(1분) → 5 °C/분으로 175 °C(5분) → 5분 만에 220 °C, 5분 유지",
+    "flow": "0.65(논문 단위 표기 'mg·min⁻¹')",
+    "temp": "FID 250 °C",
+    "detection": "FID",
+    "injection": "1 µL",
+    "sample_prep": "다진 살 10 g + 클로로폼:메탄올(2:1) 30 mL + 증류수 10 mL, 초음파(53 Hz, 350 W) 20분 → 8,000 rpm 10분 원심 → 아래층 70 °C 회전증발(변형 Folch법); 지질 0.1 g + KOH-메탄올 5 mL 65 °C 20분 → BF3-메탄올(55–60%) 700 µL 65 °C 3분 → 헥산·포화 NaCl 추출, 무수 황산나트륨 탈수, 0.22 µm 여과",
+    "standard": "지방산 메틸에스터 37종 혼합 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "갈치 지방의 주요 장쇄 오메가-3 지방산이며 산지에 따라 비율이 달라 산지 판별 지표로도 쓰였다[10]. 전문(Methods) 확인 — 검출·정량한계·회수율은 논문에 없음; 표본 종은 유전자로 확인하지 않음[10].",
+   "source": [
+    10
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9664060/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 45000,
+   "unit": "t",
+   "note": "연근해어업 갈치, 잠정치; 천 톤 단위로 반올림된 값(45천 톤, 전년 대비 -26.6%); 검색 결과 요약으로만 확인",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 61000,
+   "unit": "t",
+   "note": "연근해어업 갈치; 2024년 보도자료의 전년 값(61천 톤, 천 톤 단위); 해양수산부 2023년 발표는 약 6만 톤(+12.2%); 검색 결과 요약으로만 확인",
+   "source": [
+    28,
+    29
+   ]
+  }
+ ],
+ "world": [
+  {
+   "country": "세계",
+   "metric": "production_t",
+   "year": 2016,
+   "value": 1280000,
+   "unit": "t",
+   "note": "논문이 FAO 자료를 인용한 갈치(largehead hairtail) 세계 어획량 약 128만 톤; 통계상 여러 갈치과 종이 합산될 수 있음",
+   "source": [
+    9
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Trichiurus lepturus / Trichiurus japonicus 행 4개(대두갈치·대두갈치포: 부위 '-', 대두갈치내장: 부위 '어린순', 대두갈치살: 부위 '죽순', 모두 수산물·사용가능, 이명 '갈치, Pacific cutlassfish'), 같은 목록의 기름갈치꼬치·흑갈치꼬치·동동갈치·동갈치 행 (2026-10-13 수집본 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Yi MR et al. Complete mitogenomes of four Trichiurus species: A taxonomic review of the T. lepturus species complex. ZooKeys 2022;1084:1-26. doi:10.3897/zookeys.1084.71576 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8810657/",
+   "publisher": "ZooKeys (Pensoft)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Chromosome-level genome assembly of Trichiurus japonicus resolves species boundaries and evolutionary history of cutlassfishes in Northwest Pacific. BMC Genomics 2026. doi:10.1186/s12864-026-13009-x (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42243658/",
+   "publisher": "BMC Genomics (Springer Nature)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Chromosome-level genome assembly and annotation of the Japanese cutlassfish (Trichiurus japonicus). Sci Data 2025. doi:10.1038/s41597-025-06112-3 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12639058/",
+   "publisher": "Scientific Data (Springer Nature)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Liu Y, Cui Z. The complete mitochondrial genome sequence of the cutlassfish Trichiurus japonicus (Perciformes: Trichiuridae). Mar Genomics 2009. doi:10.1016/j.margen.2009.07.003 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21798182/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "High migratory propensity constitutes a single stock of an exploited cutlassfish species in the Northwest Pacific: A microsatellite approach. PLoS One 2022;17:e0265548. doi:10.1371/journal.pone.0265548 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35298539/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Species composition, growth, and trophic traits of hairtail (Trichiuridae), the most productive fish in Chinese marine fishery. Animals (Basel) 2022;12:3078. doi:10.3390/ani12223078 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36428306/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Demographic response of cutlassfish (Trichiurus japonicus and T. nanhaiensis) to fluctuating palaeo-climate and regional oceanographic conditions in the China seas. Sci Rep 2014;4:6380. doi:10.1038/srep06380 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25223336/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Analysis of total and free amino acid compositions of fishery byproducts from three commonly consumed fish species in South Korea. Amino Acids 2026. doi:10.1007/s00726-026-03526-0 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13331930/",
+   "publisher": "Amino Acids (Springer Nature)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Study on the physicochemical indexes, nutritional quality, and flavor compounds of Trichiurus lepturus from three representative origins for geographical traceability. Front Nutr 2022;9:1034868. doi:10.3389/fnut.2022.1034868 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9664060/",
+   "publisher": "Frontiers in Nutrition",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Mercury and selenium in a top-predator fish, Trichiurus lepturus (Linnaeus, 1758), from the tropical Brazilian coast, Rio de Janeiro. Bull Environ Contam Toxicol 2012;89:434-8. doi:10.1007/s00128-012-0680-1 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22617947/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Seasonal differences in mercury accumulation in Trichiurus lepturus (Cutlassfish) in relation to length and weight in a Northeast Brazilian estuary. Environ Sci Pollut Res 2009;16:423-30. doi:10.1007/s11356-009-0120-x (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19290559/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Mercury content of some marine fish from the southern Caribbean Sea. Sci Total Environ 1988;73:181-7. doi:10.1016/0048-9697(88)90427-5 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3212454/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Mercury bioaccumulation and isotopic relation between Trichiurus lepturus (Teleostei) and its preferred prey in coastal waters of southeastern Brazil. An Acad Bras Cienc 2016;88:801-7. doi:10.1590/0001-3765201620150142 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27254456/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Multidisciplinary approach in study of the zoonotic Anisakis larval infection in the blue mackerel (Scomber australasicus) and the largehead hairtail (Trichiurus lepturus) in Northern Taiwan. J Microbiol Immunol Infect 2020;53:1021-9. doi:10.1016/j.jmii.2019.04.012 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31182381/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Molecular identification of Anisakis and Hysterothylacium larvae in marine fishes from the East China Sea and the Pacific coast of central Japan. Int J Food Microbiol 2015;199:1-7. doi:10.1016/j.ijfoodmicro.2015.01.007 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25617845/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "IgE sensitization patterns to commonly consumed foods determined by skin prick test in Korean adults. J Korean Med Sci 2016;31:1197-201. doi:10.3346/jkms.2016.31.8.1197 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27478328/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Allergenic characterization of parvalbumin, Tric l 1, from Atlantic cutlassfish, Trichiurus lepturus. Allergy Asthma Immunol Res 2026;18:464-6. doi:10.4168/aair.2026.18.3.464 (PMC 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13226861/",
+   "publisher": "Allergy, Asthma & Immunology Research",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "[Utilization and management of Trichiurus japonicus resources in East China Sea based on Beverton-Holt model]. Ying Yong Sheng Tai Xue Bao 2008 (중국어, PubMed 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18419092/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Optimum capture size of Trichiurus japonicus in the East China Sea. Ying Yong Sheng Tai Xue Bao 2023. doi:10.13287/j.1001-9332.202301.037 (중국어, PubMed 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36799400/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "DEB-IBM for predicting climate change and anthropogenic impacts on population dynamics of hairtail Trichiurus japonicus in the East China Sea. Conserv Physiol 2022;10:coac044. doi:10.1093/conphys/coac044 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35836961/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Ecological and anthropogenic drivers of hairtail catch distribution: A spatial analysis of the southern coastal waters of South Korea. Animals (Basel) 2025;15:2472. doi:10.3390/ani15172472 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40941267/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Antioxidant activity and effects of Protamex-assisted protein hydrolysates from Trichiurus by-products in a dexamethasone-induced C2C12 muscle atrophy model. Antioxidants (Basel) 2026;15:1320. doi:10.3390/antiox15101320 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42939894/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Antioxidant and anti-inflammatory activities of cutlassfish head peptone in RAW 264.7 macrophages. Antioxidants (Basel) 2025;14:286. doi:10.3390/antiox14030286 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40227241/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Discovery of monoamine oxidase A inhibitory peptides from hairtail (Trichiurus japonicus) using in vitro simulated gastrointestinal digestion and in silico studies. Bioorg Chem 2020;101:104032. doi:10.1016/j.bioorg.2020.104032 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32599370/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Circular bioeconomy in action: Upscaling cutlassfish waste for eco-friendly recombinant protein production. Sci Total Environ 2024;948:174780. doi:10.1016/j.scitotenv.2024.174780 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39009167/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Vagococcus sp. nov., isolated from cutlassfish jeotgal, a traditional Korean fermented seafood. Int J Syst Evol Microbiol 2024;74(8). doi:10.1099/ijsem.0.006489 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39136676/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "통계청 「2024년 어업생산동향조사 결과(잠정)」 보도자료(2025-02-21) — 갈치 연근해 생산량 전년 61천 톤 → 45천 톤(-26.6%) (WebSearch 검색 결과 요약으로만 확인, 원문·KOSIS 표는 이 환경에서 열지 못함)",
+   "url": "https://mods.go.kr/boardDownload.es?bid=225&list_no=435155&seq=1",
+   "publisher": "통계청(국가데이터처)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "해양수산부 보도자료 「2023년 우리나라 수산물생산량은 전년보다 1.8%, 연근해생산량은 7.6% 증가」 — 갈치 약 6만 톤(+12.2%) (WebSearch 검색 결과 요약으로만 확인, 원문은 이 환경에서 열지 못함)",
+   "url": "https://www.mof.go.kr/doc/ko/selectDoc.do?docSeq=55766&menuSeq=971&bbsSeq=10",
+   "publisher": "해양수산부",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "봄철 제주 주변해역 갈치, Trichiurus japonicus 어란 분포현황 (한국 학술지, 2020; WebSearch 검색 결과 요약으로만 확인, koreascience 원문은 이 환경에서 열지 못함)",
+   "url": "https://koreascience.kr/article/JAKO202014264111508.page?lang=ko",
+   "publisher": "KoreaScience(한국과학기술정보연구원) 게재 논문",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "The study on the fisheries biological feature of hairtail, Trichiurus lepturus from the Cheju Strait. 한국수산과학회지 1998 (WebSearch 검색 결과의 제목으로만 확인, 원문 미확인)",
+   "url": "https://koreascience.kr/article/JAKO199823607637093.page",
+   "publisher": "한국수산과학회",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "다소비 수산식품 중 총수은·메틸수은 모니터링(2010, 경인지방식품의약품안전청 연구진) — 갈치 총수은 평균 0.061 mg/kg, 메틸수은 평균 0.016 mg/kg (WebSearch 검색 결과 요약으로만 확인, 원문·정확한 서지 미확인)",
+   "url": "https://koreascience.kr/article/JAKO201025665646556.pdf",
+   "publisher": "KoreaScience(한국과학기술정보연구원) 게재 논문",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Anisakid nematodes in Trichiurus lepturus and Saurida undosquamis (Teleostea) from the South-West Indian Ocean: Genetic evidence for the existence of sister species within Anisakis typica (s.l.), and food-safety considerations. Food Waterborne Parasitol 2022;28:e00177. doi:10.1016/j.fawpar.2022.e00177 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36072478/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Utility of stable isotope and cytochrome oxidase I gene sequencing analyses in inferring origin and authentication of hairtail fish and shrimp. J Agric Food Chem 2015. doi:10.1021/acs.jafc.5b01469 (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25980806/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Coupling spatio-temporal distribution to provide more informative population status and management recommendations. Sci Rep 2025;15:24679. doi:10.1038/s41598-025-10673-z (PubMed 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40634483/",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

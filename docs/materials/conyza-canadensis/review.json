@@ -1,0 +1,25 @@
+{"slug": "conyza-canadensis", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 73, "checked_items": 55,
+ "verified": 109, "fixed": 14, "removed": 3, "unverifiable": 2,
+ "changes": [
+  {"where": "sections.history", "before": "한국 한의학 처방 도인승기탕을 다룬 연구는 구성 약재 하나를 Conyza canadensis로 표기했다[29]. 다만 이 처방의 '망초'가 식물 망초를 뜻하는지는 이번 조사에서 확인하지 못함.", "after": "(삭제, 출처 [29] 제거)", "why": "도인승기탕의 '망초'는 한자가 같은 다른 약재(芒硝)일 가능성이 커서, 국문명이 같아 식물 망초와 섞인 사례로 판단함. 논문 [29]의 학명 표기만으로는 식물 망초 자료로 쓸 수 없음"},
+  {"where": "sections.cultivation", "before": "망초는 … 경작지·길가·빈터에 저절로 나는 잡초 … 해마다 28–68%의 수량 손실을 일으키는 것으로 정리", "after": "농경지의 문제 잡초 … 망초와 C. bonariensis 두 종이 함께 28–68% 수량 손실", "why": "[14] 초록에서 28–68%는 두 Conyza 종을 함께 말한 값이고, 길가·빈터라는 말은 초록에 없음"},
+  {"where": "sections.processing", "before": "모로코에서는 잎과 꽃을 말려 차로 우려 마시며", "after": "모로코에서는 신선한 잎과 꽃을 차로 우려 마시며, 그늘에 말린 잎·꽃 가루 50 g을", "why": "[4] 본문에는 'fresh leaves and flowers … consumed as herbal teas'로 적혀 있고, 추출에는 그늘에 말린 가루를 씀"},
+  {"where": "sections.processing", "before": "사람 병원성 진균에 중간에서 강한 억제 작용", "after": "Aspergillus fumigatus를 뺀 사람 병원성 진균에 … (시험관)", "why": "[5]에 A. fumigatus는 예외로 적혀 있고, 결과는 시험관 실험임"},
+  {"where": "sections.safety", "before": "꽃 부분의 폴리페놀-다당 성분은 생체 내 항응고 작용과 혈소판 억제 작용을 보였다[9]", "after": "망초에서 분리한 폴리페놀-다당 제제는 쥐에서 항응고 작용을 보였고, 아라키돈산으로 유도한 혈소판 응집도 억제했다[9]", "why": "[9] 초록에는 사용 부위(꽃)가 나오지 않음. 혈소판 억제는 아라키돈산 경로에 한정됨"},
+  {"where": "sections.safety", "before": "오염된 땅이나 길가에서 자란 개체는", "after": "오염된 땅에서 자란 개체는 …(오염 토양·카드뮴 용액 처리 재배 실험)", "why": "[25][26]은 재배 실험이고 길가 시료는 다루지 않음"},
+  {"where": "sections.related_species", "before": "두 속을 따로 나누기 어렵다는 결과가 나왔다[22]", "after": "옛 망초속 종들은 개망초속 안에 묻혀 들어가는 결과가 나왔다[22]", "why": "[22] 초록에는 계통 안에 묻힌다는 내용만 있고, 나누기 어렵다는 판단은 없음"},
+  {"where": "sections.related_species", "before": "국내에 자라는 큰망초·실망초 등과의 식별 기준은 확인하지 못함", "after": "「식품원료 목록」은 '큰망초'를 망초의 다른 이름으로 적었으나[1], 이 이름이 국내에서 다른 망초속 종을 가리키는지와 식별 기준은 확인하지 못함", "why": "aliases의 '큰망초'(I1020 별명)와 본문의 '별개 종 큰망초'가 서로 맞지 않음. 어느 쪽인지 공식 출처를 열지 못해 사실만 적음"},
+  {"where": "sections.overview", "before": "잎·꽃의 추출물에서는 디카페오일퀸산 … 로즈마린산, 아피제닌 배당체", "after": "잎·꽃 추출물에서는 디카페오일퀸산이, 지상부 메탄올 추출물에서는 로즈마린산과 아피제닌 배당체", "why": "[2]의 로즈마린산은 지상부 전체 메탄올 추출물에서 정량됨"},
+  {"where": "compounds.Nerolidol.content_text", "before": "(E)-네롤리돌", "after": "네롤리돌(입체 표기 확인하지 못함)", "why": "[2] 본문(PMC)에서 입체 기호가 깨져 E/Z를 확인할 수 없음"},
+  {"where": "compounds.Epicatechin.activity_ko", "before": "물 추출물의 항산화·항불안 작용(쥐)과 관련된 성분으로 제시됨", "after": "100·200 mg/kg 복강 투여, 스코폴라민 유발 쥐 … 성분 후보", "why": "[3]은 복강 투여 동물 모델이라 조건을 밝힘"},
+  {"where": "compounds.3,5-Dicaffeoylquinic acid.activity_ko", "before": "쥐 대동맥", "after": "적출 쥐 대동맥, 적어도 일부 기여", "why": "[4]는 적출 조직(ex vivo) 실험이고 원문 표현은 'at least in part'임"},
+  {"where": "compounds.Arabinogalactan.activity_ko", "before": "다른 제제는 동물에서 항응고·혈소판 억제 작용[9]", "after": "다른 제제(다당 부분은 주로 헥수론산)는 쥐에서 항응고 작용[9]", "why": "[9]의 제제는 아라비노갈락탄이 아니라 헥수론산이 주성분인 다당이라 같은 성분처럼 읽히지 않게 함"},
+  {"where": "assays[Limonene].conditions.sample_prep", "before": "2시간 수증기 증류", "after": "2시간 수증류(hydrodistillation), 수율은 건조 중량 기준", "why": "[5] Methods: hydrodistillation, 'yields calculated on the basis of the dry weight'"},
+  {"where": "assays[Epicatechin].conditions.gradient", "before": "다음 4분 유지(linear)", "after": "이후 4분 linear(원문 표현)", "why": "[3] 원문은 'linear for the next 4 min'이라 '유지'로 단정할 수 없음"}
+ ],
+ "unverifiable_notes": [
+  "aliases '큰망초': I1020 원자료에 별명으로 있음. 이 이름이 다른 종을 가리키는지 확인할 공식 국문명 자료(국가생물종지식정보 등)는 네트워크 허용 목록 밖이라 열지 못함",
+  "[2] 네롤리돌의 E/Z 표기는 PMC 본문 기호가 깨져 확인하지 못함",
+  "[6][7][8][9][11][13][14][19][20][23][24][25][27]은 초록만으로 대조함. [2][3][4][5][10]은 PMC 전문으로 Methods까지 대조함. [1]은 로컬 I1020 원자료(data/raw/mfds_rawmtrl/I1020_20261013.json)로 대조함"
+ ]}

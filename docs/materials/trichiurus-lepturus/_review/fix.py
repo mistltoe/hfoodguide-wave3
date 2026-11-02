@@ -1,0 +1,106 @@
+import json, re, sys
+p = sys.argv[1]
+d = json.load(open(p, encoding="utf-8"))
+sec = {s["key"]: s for s in d["sections"]}
+changes = []
+def rep(key, old, new, why):
+    b = sec[key]["body"]
+    assert b.count(old) == 1, (key, old[:40])
+    sec[key]["body"] = b.replace(old, new)
+    changes.append({"where": f"sections.{key}", "before": old, "after": new, "why": why})
+
+rep("overview", "이명이 '갈치, Pacific cutlassfish'로 함께 적혀 있다[1]",
+    "이명이 '갈치, Pacific cutlassfish'(대두갈치내장 행은 '갈치'만)로 함께 적혀 있다[1]",
+    "I1020 원문: 대두갈치내장 행의 이명은 '갈치'뿐")
+rep("overview", "통계에서는 T. japonicus 등 여러 종이 T. lepturus 이름 아래 합쳐지는 일이 많다[4]",
+    "통계에서는 T. japonicus 어획이 T. lepturus 이름 아래 합쳐지는 일이 많다[4]",
+    "[4] 원문은 T. japonicus 를 T. lepturus 로 합산한다고만 씀")
+rep("overview", "국내 연안 갈치가 유전자 분석으로 T. japonicus로 확인되었다는 보고가 있고[30], 두 종은 유전적으로 뚜렷이 다르므로 이 글은 두 학명의 자료를 나누어 적는다[2].",
+    "국내 연구도 부산 시장 갈치를 T. japonicus로[9], 갈치 머리 펩톤 연구는 T. lepturus로[26] 적는 등 학명이 엇갈리고, 시판 갈치를 COI로 확인한 국내 연구에서는 두 종이 함께 나왔다[34]. 국내 연안 갈치의 종을 유전자로 확인한 원문 자료는 이번 조사에서 확인하지 못함. 두 종은 유전적으로 뚜렷이 다르므로 이 글은 두 학명의 자료를 나누어 적는다[2].",
+    "[30]은 WebSearch 요약뿐(koreascience 차단, 원문 미확인) → PubMed 로 확인한 [9]·[26]·[34]로 교체")
+rep("history", "국내 문헌의 학명도 엇갈려, 1998년 제주해협 갈치 연구는 Trichiurus lepturus를, 2020년 제주 주변 해역 갈치 어란 연구는 Trichiurus japonicus를 썼다[31, 30]. 2020년 연구는 우리나라 갈치를 T. lepturus로 동정해 왔으나 COI 유전자 분석으로는 T. japonicus로 확인되었다는 앞선 보고를 인용했다[30].",
+    "국내 문헌의 학명도 엇갈려, 2026년 국내 수산 부산물 연구는 부산 시장 갈치를 Trichiurus japonicus로 적었고[9], 2024년 국내 갈치 머리 펩톤 연구는 Trichiurus lepturus로 적었다[26]. 국내 연구진이 시판 갈치와 새우의 원산지를 가린 연구에서는 COI 유전자로 갈치 시료가 T. japonicus와 T. lepturus로 나뉘었다[34].",
+    "[30]·[31]은 WebSearch 요약·제목뿐이고 원문(koreascience)을 열 수 없어 삭제, PubMed 로 확인한 [9]·[26]·[34]로 교체")
+rep("biology", "중국 해역 표본의 평균 전장은", "남중국해 표본(225마리)의 평균 전장은",
+    "[2] 형태 측정은 남중국해 225마리(표 3: 75·27·27·96)")
+rep("genetics", "시토크롬 b 분석은 빙하기 이후 동중국해 대륙붕의 1차 생산 변화에 따라 집단 크기가 바뀌었다고 해석했다[8].",
+    "시토크롬 b 분석은 동중국해·남중국해 대륙붕 집단의 크기 변화가 제4기 빙하 주기 동안의 1차 생산과 강하게 연관되었다고 해석했다[8].",
+    "[8] 초록: 집단 크기와 1차 생산의 강한 상관(빙하 주기), '빙하기 이후'로 한정하지 않음")
+rep("cultivation", "통계청 2024년 어업생산동향조사(잠정) 요약에 따르면 갈치 생산량은 전년 61천 톤에서 45천 톤으로 26.6% 줄었고, 평년보다 2.5–4.0 ℃ 높은 수온으로 어군이 흩어진 것이 원인으로 꼽혔다[28]. 2023년에는 약 6만 톤으로 전년보다 12.2% 늘었다고 해양수산부가 발표했다[29]. 시도별 생산량은 이번 조사에서 확인하지 못함.",
+    "국내 갈치 연근해 생산량의 연도별·시도별 통계는 이번 조사에서 원문으로 확인하지 못함.",
+    "[28]·[29]는 WebSearch 요약뿐, 통계청·해수부·KOSIS 원문은 이 환경에서 차단되어 대조 불가 → 삭제")
+rep("cultivation", "황해 대해양생태계의 갈치 자원은 2017년 이후 건강한 수준으로 회복되었다고 평가되었다[35].",
+    "황해 대해양생태계의 갈치(T. lepturus로 표기) 자원은 2017년 이후 받아들일 만한 수준으로 회복되어 현재 건강한 상태(확률 98.2%)로 평가되었다[35].",
+    "[35] 초록 표현과 학명 표기 반영")
+rep("processing", "부산 시장에서 산 갈치의 머리와 지느러미의",
+    "부산 시장에서 산 갈치(논문 표기 T. japonicus)의 머리와 지느러미의", "[9] 표 3 학명 표기")
+rep("processing", "국내산 갈치 부산물은 일반성분의 약 절반이 조단백질이었고",
+    "국내 연구진이 분석한 갈치 부산물은 일반성분의 약 절반이 조단백질이었고",
+    "[23] 초록은 원료 산지를 밝히지 않음")
+rep("processing", "같은 머리 펩톤은 대식세포(RAW 264.7)에서 일산화질소 생성을 60% 줄였다[24].",
+    "갈치 머리 펩톤은 LPS로 자극한 대식세포(RAW 264.7)에서 일산화질소 생성을 60% 줄였으나 세포 실험 결과다[24].",
+    "[24] 초록: LPS 자극 모델; 세포 실험임을 명시")
+rep("safety", "브라질 연안 T. lepturus 근육의 총수은은 0.13–0.35 µg/g(습중량)이었고 몸이 클수록 높았다[11].",
+    "브라질 연안 세 해역 T. lepturus 근육의 수은은 해역별 평균 0.13–0.35 µg/g(초록에 습·건 기준 표기 없음)이었고 몸이 클수록 높았다[11].",
+    "[11] 초록은 해역별 평균값만 주고 습중량 기준을 밝히지 않음")
+rep("safety", "국내 갈치는 2010년 모니터링에서 총수은 0.061 mg/kg, 메틸수은 0.016 mg/kg으로 보고되었다(검색 요약으로만 확인)[32].",
+    "이 수은 자료는 모두 대서양 쪽 T. lepturus이며, 대서양·동태평양 T. lepturus는 서태평양 계통과 다른 하위 계통으로 제안되었다[2]. 국내 유통 갈치의 수은·메틸수은 원문 자료는 이번 조사에서 확인하지 못함.",
+    "[32]는 WebSearch 요약뿐·서지 미확인(koreascience 차단) → 삭제; 수은은 이 종 자료로만 두고 계통 차이를 밝힘")
+rep("safety", "중국산 근육의 총비소는 1.57–2.64 mg/kg이었으나 화학 형태는 나누지 않았다[10].",
+    "중국 시판품 근육의 총비소는 1.57–2.64 mg/kg(습중량)이었으나 화학 형태는 나누지 않았고 표본 종도 유전자로 확인하지 않았다[10].",
+    "[10] 표 5는 w/w(습중량); 종 미확인 명시")
+
+# production rows: WebSearch-only
+if d.get("production"):
+    changes.append({"where": "production", "before": json.dumps(d["production"], ensure_ascii=False), "after": "[]",
+                    "why": "2023·2024 행 모두 WebSearch 요약뿐, 통계청·해수부·KOSIS 원문 차단으로 대조 불가 → 삭제"})
+d["production"] = []
+
+for a in d["assays"]:
+    if "국내산" in a["part"]:
+        old = a["part"]; a["part"] = a["part"].replace(", 부산 시장 구입 국내산", ", 부산 시장 구입·논문 표기 T. japonicus").replace("(부산물, 국내산)", "(부산물, 부산 시장 구입)")
+        changes.append({"where": f"assays[{a['compound']}].part", "before": old, "after": a["part"], "why": "[9]는 부산 시장 구입만 밝히고 국내산 여부는 적지 않음"})
+    if a["compound"] == "Cystine":
+        old = a["method"]; a["method"] = "HPLC(OPA/FMOC 칼럼 전 유도체화)"
+        a["conditions"]["detection"] = "논문 표 2 표기 'Photometer (Ex 338 nm, Em 262 nm)'"
+        changes.append({"where": "assays[Cystine].method/detection", "before": old + " / 형광(논문 표기 Ex 338 nm, Em 262 nm)", "after": a["method"] + " / " + a["conditions"]["detection"], "why": "[9] 표 2는 검출기를 'Photometer'로 적음 — 형광이라고 단정하지 않음"})
+
+# sources: drop 28-32, renumber
+drop = {28, 29, 30, 31, 32}
+srcs = [s for s in d["sources"] if s["n"] not in drop]
+mp = {}
+for i, s in enumerate(srcs, 1):
+    mp[s["n"]] = i
+for s in srcs:
+    s["n"] = mp[s["n"]]
+for s in srcs:
+    if s["n"] == 1:
+        s["title"] = s["title"].replace("이명 '갈치, Pacific cutlassfish')", "이명 '갈치, Pacific cutlassfish'(대두갈치내장 행은 '갈치'))")
+    if "acs.jafc.5b01469" in s["title"]:
+        s["title"] = s["title"].replace("J Agric Food Chem 2015.", "J Agric Food Chem 2015;63(22):5548-56.")
+    if "jmii.2019.04.012" in s["title"]:
+        pass
+d["sources"] = srcs
+REF = re.compile(r"\[(\d+(?:\s*[,–-]\s*\d+)*)\]")
+def remap(m):
+    parts = re.split(r"\s*,\s*", m.group(1))
+    out = []
+    for x in parts:
+        assert x.isdigit(), x
+        out.append(str(mp[int(x)]))
+    return "[" + ", ".join(out) + "]"
+def walk(o):
+    if isinstance(o, str): return REF.sub(remap, o)
+    if isinstance(o, list): return [walk(x) for x in o]
+    if isinstance(o, dict):
+        r = {}
+        for k, v in o.items():
+            if k == "source" and isinstance(v, list): r[k] = [mp[int(x)] for x in v]
+            elif k in ("sources",): r[k] = v
+            else: r[k] = walk(v)
+        return r
+    return o
+d = walk(d)
+json.dump(d, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"map": mp, "changes": changes}, open(p.replace("dossier.json", "_review/changes.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(changes), mp)
