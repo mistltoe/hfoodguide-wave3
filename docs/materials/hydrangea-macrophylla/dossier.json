@@ -1,0 +1,593 @@
+{
+ "slug": "hydrangea-macrophylla",
+ "name_ko": "수국",
+ "name_en": "Hydrangea (Korean hydrangea, bigleaf hydrangea)",
+ "scientific_name": "Hydrangea macrophylla",
+ "aliases": [
+  "수국",
+  "수국잎",
+  "산수국",
+  "감차(甘茶, 단맛 수국 var. thunbergii)",
+  "아마차",
+  "Korean hydrangea",
+  "Tea-hortensia",
+  "Sweet hydrangea leaf",
+  "Hydrangeae Dulcis Folium",
+  "Hydrangea macrophylla subsp. serrata",
+  "Hydrangea serrata",
+  "Hydrangea macrophylla var. thunbergii",
+  "Hydrangea macrophylla f. otaksa",
+  "Hydrangea serrata var. amagiana"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "수국(Hydrangea macrophylla)은 수국과(Hydrangeaceae) 수국속에 드는 낙엽 관목으로, 식약처 「식품원료 목록」에 '수국잎'·'수국잎분말'·'수국잎침출액'·'수국잎농축액'·'수국추출분말'이라는 원료명과 영문명 Korean hydrangea로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 잎'이어서, 식품에 쓸 수 있는 부위는 잎뿐이다[1]. 목록의 학명 칸에는 산수국 계통인 subsp. serrata, f. otaksa, H. serrata var. amagiana가 함께 적혀 있어 관상용 수국과 산수국 계통 잎을 한 원료로 묶고 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처 고시 지표성분은 없다[1].\n\n잎에는 설탕보다 400–800배 단 필로둘신(phyllodulcin)과 그 짝 성분인 하이드랑게놀(hydrangenol) 같은 다이하이드로아이소쿠마린이 들어 있어, 단맛 차와 기능성 연구의 중심 성분이 된다[3, 5]. 국내 「식품 등의 생산실적」에는 개별인정형 건강기능식품 원료 '수국잎열수추출물'이 집계되나[25], 이 원료의 기원 종(수국·산수국 계통)과 인정 기능성은 식약처 인정 원문으로 확인하지 못함. 이와 별개로 산수국 잎 열수추출물은 12주 사람 시험에서 피부 지표가 연구되었다[8]. 반면 일본에서는 단맛 수국잎(아마차)을 달여 마신 뒤 구토하는 식중독이 보고되어 시안배당체가 의심되었으나, 원인은 아직 확정되지 않았다[2, 5]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "수국 잎은 한국·중국·일본 등 동아시아에서 차와 약으로 써 왔다고 소개된다[7, 29]. 연구진은 산수국(H. serrata)을 한국 산지에 자생하며 '산수국'·'하늘의 차(Tea of Heaven)'로 불리는 식물로 설명했다[7, 8]. 일본에서는 var. thunbergii의 말린 잎을 차나 차 감미료로 쓰며, 석가탄신일 꽃 축제(하나마쓰리)에 마시는 풍습이 있다[5]. 이 잎을 발효·건조한 생약(Hydrangeae Dulcis Folium, 단맛 수국잎)은 단맛 때문에 당뇨병 환자용 감미 생약과 구강 청량제로 쓰인다[17, 2]. 일본에서는 잎을 끓는 물에 우린 단맛 차가 흔히 마셔진다고 기술되었다[28].\n\n전통 가공은 잎을 손으로 비벼 말리는 방식이었고, 이 과정이 잎 속 필로둘신 축적을 크게 늘린다는 것이 실험으로 확인되었다[3]. 1994년 일본 연구는 HPLC로 필로둘신·하이드랑게놀과 그 배당체를 정량해 이 성분들이 잎에 가장 많고, 수확 적기가 10–11월이라고 제시했다[4]. 국내 수국차는 마산에서 딴 잎을 볕에 말리고 손으로 비빈 뒤 발효·건조하는 관행 공정으로 만든 예가 보고되었다[9]. 2003년에는 단맛 수국잎을 사료에 1% 섞어 15일 먹인 쥐에서 D-갈락토사민 간 손상이 85.2% 억제되었다는 동물 실험이 나왔다[22]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "산수국 계통(H. macrophylla subsp. serrata, 영어 tea-hortensia)은 일본과 한국이 원산인 낙엽 관목으로 소개된다[10]. 관상용 수국은 재배 조건에 따라 꽃받침 색이 붉은색에서 파란색으로 바뀌는데, 이는 알루미늄 이온(Al3+)이 델피니딘 3-글루코사이드와 보조색소(5-O-카페오일퀸산 등)와 결합해 생기는 현상이다[15, 32]. 파란 꽃받침 세포에는 안토시아닌 1당량당 5-O-아실퀸산 13당량과 Al3+ 1.2당량이 있었으나, 붉은 세포에는 각각 3.6당량과 0.03당량뿐이었다[14]. 질량분석에서는 이 '수국 청색 복합체'가 안토시아닌·Al3+·보조색소 1:1:1 조성으로 관찰되었다[13]. 다만 알루미늄과 보조색소가 충분해도 모든 품종이 파랗게 변하지는 않는다[15].\n\n하이드랑게놀은 페닐프로파노이드 한 분자와 아세트산 세 분자가 축합해 생긴다는 생합성 경로가 13C 표지 실험으로 제시되었다고 소개된다[8]. 잎 안에서는 하이드랑게놀-8-O-글루코사이드, 썬베르기놀 G-3′-O-글루코사이드, 필로둘신-8-O-글루코사이드 같은 배당체 형태가 양적으로 우세하다[5]. 필로둘신은 3R·3S 거울상 이성질체가 대략 5:1 비율로 존재하고, 하이드랑게놀은 약 1:1로 분리된다[5]. 하이드랑게놀은 중성·알칼리 조건에서 뜨거운 물에 우리면 하이드랑게산(hydrangeic acid)으로 빠르게 바뀐다[9]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 목록은 이 원료의 학명으로 H. macrophylla subsp. serrata(산수국 계통), H. macrophylla f. otaksa, H. serrata var. amagiana를 함께 적고 있다[1]. 학술 문헌에서도 산수국을 독립종 H. serrata로 쓰거나 H. macrophylla ssp. serrata로 다루는 등 표기가 엇갈린다[5, 7, 10]. 같은 수국속이라도 Hydrangea anomala(잎)와 바위수국(Schizophragma hydrangeoides, 이명 Hydrangea taquetii, 잎)은 식품원료 목록에서 별도 행으로 올라 있어 이 자료에서는 다루지 않는다[1].\n\n단맛 수국인 var. thunbergii(일본명 아마차, 甘茶 — 한국 한자음으로 감차)는 잎에 필로둘신을 쌓는 계통이며, 일본 야생 산수국 집단 중에도 단맛 필로둘신을 지닌 개체가 있다[5]. 182개 수국 계통을 조사한 연구는 잎의 필로둘신·하이드랑게놀 농도가 크게 다른 14개 계통을 골랐고, 필로둘신이 많은 계통은 페닐알라닌·움벨리페론·썬베르기놀 C 등이 많고 카페산·페룰산 유도체는 적은 다른 대사 양상을 보였다[16]. LC-MS 대사체 분석으로도 단맛 수국 재배품종들을 서로 구분할 수 있었다[6]. 반면 꽃을 보려고 기르는 일반 관상 수국은 겹꽃·꽃받침 색 같은 형질 위주로 육종되며[12, 15], 일반 관상 품종 잎의 필로둘신 함량을 비교한 국내 공공기관 자료는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배·원료 생산",
+   "body": "단맛 수국(var. thunbergii)을 pH 7.5–5.0의 다섯 가지 흙에서 기른 실험에서 pH 7.0–5.5 흙이 생육에 알맞았고 잎의 필로둘신과 필로둘신-8-O-글루코사이드 함량도 높였다[17]. 같은 연구진은 잎의 시안배당체 택시필린(taxiphyllin) 함량이 잎을 딴 시기에 따라 3배 넘게 달라진다고 보고했다[2]. 일본의 계절 조사에서는 잎의 다이하이드로아이소쿠마린 함량, 식물 키, 잎 건중량을 함께 따져 10–11월 수확을 권했다[4].\n\n국내 연구 원료로는 경북 영주에서 재배하고 국립산림과학원 전문가가 동정한 산수국 잎이 쓰였다[7]. 국내 수국차 연구에는 마산에서 수확한 잎이 쓰였다[9]. 산수국에 염화알루미늄을 처리해도 잎·뿌리의 다이하이드로아이소쿠마린 함량은 늘지 않았다[31]. 잎 대신 캘러스(배양 세포 덩어리)로 성분을 만드는 시도에서는 IAA 0.5 mg/L와 BA 1.0 mg/L로 유도한 캘러스가 마른 캘러스 대비 하이드랑게놀-8-O-글루코사이드를 2.03–3.46% 수율로 냈다[27].\n\n국내 수국 잎 원료의 재배 면적·생산량 통계(통계청·농식품부 특용작물 생산실적)는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·제품",
+   "body": "필로둘신은 잎 조직에서 최종 대사산물로 쌓이게 하는 전처리가 중요해서, 손으로 비빈 뒤 70 °C에서 말리면 함량이 크게 늘었고 기계 분쇄나 효소 전환을 거치면 더 많이 얻었다[3]. 메탄올을 쓴 가속 용매 추출·침지·초음파 추출의 최고 수율은 각각 21.28, 21.20, 19.33 mg/g이었고, 이온교환수지와 분취 HPLC로 정제한 고순도 분말 수율은 2.12%였다[3]. 차로 우릴 때는 물의 pH가 중요해, 말린 잎 0.35 g을 95 °C 물 350 mL에 3분 우리면 약산성 증류수(pH 5.39)에서 하이드랑게놀이 14.36 µg/mL, 중성 먹는샘물에서 1.32 µg/mL였다[9]. 칼라만시를 넣어 산성으로 우리면 21.38 µg/mL까지 올랐다[9].\n\n산수국 잎 열수추출물은 말린 잎을 98 °C 물로 5시간 추출해 분무 건조하며, 사람 시험용 배치는 수율 23%에 하이드랑게놀 7.7 mg/g이었다[8]. 식약처 「식품 등의 생산실적」에서 개별인정형 '수국잎열수추출물'의 생산액은 2022년 약 35.5억 원, 2023년 약 40.1억 원, 2024년 약 43.5억 원, 2025년 약 27.4억 원이었다[25]. 같은 품목의 판매액은 2022년 약 22.8억 원, 2023년 약 30.0억 원, 2024년 약 32.2억 원, 2025년 약 19.2억 원이고, 수출액은 2023년 137,225달러, 2024년 217,298달러였다[25]. 하이드랑게놀이 많은 수국차 추출물 건강기능식품이 체중 관리용으로 나왔다는 국내 논문 서술이 있으나[9], 이 제품 원료와 위 개별인정형 '수국잎열수추출물'의 관계, 그리고 그 원료의 기원 종(수국 또는 산수국 계통)과 식약처 인정 기능성 원문은 확인하지 못함. 산수국 잎 열수추출물 사람 시험[8]의 원료가 이 개별인정형 원료와 같은지도 공식 자료로 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "일본 연구진은 장분자(SMRT) 염기서열과 Hi-C 분석으로 이형접합성이 높은 수국 유전체를 두 반수체형으로 나눠 조립했으며, 크기는 각각 2.256 Gb(N50 1.5 Mb)와 2.227 Gb(N50 1.4 Mb)였다[12]. 예측 유전자는 모두 36,930개였고, 고밀도 SNP 연관지도에 맞춰 18쌍의 유사 염색체를 구성했다[12]. 이 정보로 겹꽃 형질 좌위 djo와 dsu에 연관된 DNA 표지를 만들었고, dsu의 원인 후보로 틀이동 변이가 있는 LEAFY 유전자를 지목했다[12].\n\n꽃받침 색과 관련해서는 'Bailmer' 품종의 전장 전사체에서 HmCHS1, HmCHI, HmF3H1, HmF3′H1, HmF3′5′H, HmDFR2, HmANS3 등 안토시아닌 생합성 핵심 구조 유전자 7개를 찾았고, 서열은 NCBI SRA(PRJNA849710)에 등록되었다[15]. 단맛 성분 쪽으로는 필로둘신이 많은 계통에서 고리화효소(cyclase)와 케토환원효소(ketoreductase) 유전자가 더 많이 발현되어, 이를 근거로 필로둘신 생합성 가설 경로가 제안되었다[16]. 산수국에 염화알루미늄을 처리한 전사체 비교에서는 차이 나게 발현된 폴리케타이드 합성효소 유전자를 찾지 못했다[31]. 단맛 수국과 관상 수국을 가르는 유전 표지는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "일본에서는 단맛 수국잎 생약(var. thunbergii)을 달여 마신 뒤 구토 등 식중독 사례가 최근 보고되었고, 원인으로 시안배당체가 의심되었다[2]. 연구진은 잎에서 시안배당체 택시필린을 확인했으나 가공 중 대부분 가수분해되므로 식중독 원인 성분은 아닐 것이라고 보았다[2]. 독일 연구진도 택시필린을 분리하며 시안배당체가 단맛 차 중독 원인으로 의심받아 왔다고 정리했다[5]. 중국 쓰촨산 수국 지상부에서는 새로운 시안배당체 2종이 분리되었다[11].\n\n이와 성격이 다른 사례로, 2008년 6월 일본 이바라키현 쓰쿠바시와 오사카시 음식점에서 요리 장식으로 곁들인 관상용 수국의 생잎을 먹은 사람들이 식후 30–40분에 구토·어지럼증 등을 보였다(통지 원문은 열지 못했고 WebSearch 요약으로만 확인, 환자 수는 확인하지 못함)[26]. 후생노동성은 2008년 7월 1일 통지에서 이를 청산 식중독으로 안내했다가, 8월 18일 통지에서 수국의 시안배당체 함유 지견이 충분하지 않다며 앞 통지를 폐지하고 수국 잎·꽃 같은 유독 식물을 요리 장식으로 제공·섭취하지 말라고 요청했으며, 유독 성분은 충분히 밝혀지지 않았다고 적었다(WebSearch 요약)[26]. 즉 단맛 수국잎 생약 달임액 사례[2]와 관상 수국 생잎 사례[26] 모두 원인 성분은 확정되지 않았다. 일본 식품안전위원회 시트(안)는 독성 성분으로 하이드라시아노사이드 A를, 2009–2010년 꽃 축제 단맛 차 중독을 든 것으로 요약되었다(원문 미확인)[33]. 일본 중독연구지 수국 해설은 초록이 없어 내용을 확인하지 못함[24].\n\n산수국 잎 열수추출물은 쥐 단회 투여 독성시험에서 5,000 mg/kg까지 독성이 없었고, 하루 300·600 mg을 12주 먹은 151명 시험에서 관련 이상반응이 보고되지 않았다[8]. 생쥐 800–2,500 mg/kg 경구 투여에서도 14일간 사망·독성 징후가 없었다[7]. 국내 공공기관의 수국 잎 알레르기·잔류 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Phyllodulcin",
+   "name_ko": "필로둘신",
+   "class": "다이하이드로아이소쿠마린",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "단맛 수국잎(var. thunbergii) 분말 메탄올 가속 용매 추출 최고 21.28 mg/g(기준 무게는 초록에 명시 없음)(침지 21.20, 초음파 19.33 mg/g)[3]",
+   "activity_ko": "설탕의 400–800배 단맛을 내는 핵심 감미 성분이며[3], 3% 설탕 대비 상대 감미도는 434.8로 측정되었고 쓴맛·청량감이 함께 느껴졌다[18]. 고지방식 비만 생쥐에서 20·40 mg/kg 보충이 피하지방과 혈중 지질을 줄였다[19]. 잎 추출물의 헥세인층에 많으며 예쁜꼬마선충에서 포도당 유도 지질 축적을 줄였다[23]",
+   "source": [
+    3,
+    18,
+    19,
+    23
+   ]
+  },
+  {
+   "name": "Hydrangenol",
+   "name_ko": "하이드랑게놀",
+   "class": "다이하이드로아이소쿠마린",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "산수국 잎 열수추출물(건조 추출물 기준) 0.63 ± 0.05%[7], 임상용 열수추출물 7.7 mg/g(추출물 기준)[8]; 수국차(잎 0.35 g/물 350 mL) 증류수 우림액 14.36 µg/mL[9]",
+   "activity_ko": "산수국 잎 열수추출물의 지표·활성 성분으로 쓰였고, 자외선 B를 쬔 털 없는 생쥐에서 주름 형성과 피부 수분 손실을 줄였다[21, 7]. 모유두세포·생쥐 실험에서는 모발 성장 촉진 효과도 보고되었다[30]",
+   "source": [
+    7,
+    8,
+    9,
+    21,
+    30
+   ]
+  },
+  {
+   "name": "Phyllodulcin 8-O-glucoside",
+   "name_ko": "필로둘신-8-O-글루코사이드",
+   "class": "다이하이드로아이소쿠마린 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "흙 pH 7.0–5.5에서 기른 잎에서 함량이 높았다(수치는 초록에 없음)[17]",
+   "activity_ko": "잎에서 양적으로 우세한 배당체 가운데 하나로, 가공 중 필로둘신으로 바뀌는 전구체 형태다[5, 3]",
+   "source": [
+    5,
+    17,
+    3
+   ]
+  },
+  {
+   "name": "Hydrangenol 8-O-glucoside",
+   "name_ko": "하이드랑게놀-8-O-글루코사이드",
+   "class": "다이하이드로아이소쿠마린 배당체",
+   "role": "bioactive",
+   "part": "잎·캘러스",
+   "content_text": "캘러스(IAA 0.5 mg/L + BA 1.0 mg/L) 마른 무게 대비 2.03–3.46% 수율[27]",
+   "activity_ko": "단맛 수국 잎에서 가장 많이 분리된 다이하이드로아이소쿠마린 배당체였다(1.2 kg 잎에서 62 mg 분리)[5]",
+   "source": [
+    5,
+    27
+   ]
+  },
+  {
+   "name": "Hydrangeic acid",
+   "name_ko": "하이드랑게산",
+   "class": "다이하이드로스틸베노이드",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "중성 pH 우림에서 하이드랑게놀이 바뀌어 늘어남(정량값 없음)[9]",
+   "activity_ko": "하이드랑게놀이 중성·알칼리 조건에서 바뀌어 생기며[9], 사과 폴리페놀산화효소를 경쟁적으로 억제했다(Kis 0.131 mM)[10]",
+   "source": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Thunberginol C",
+   "name_ko": "썬베르기놀 C",
+   "class": "다이하이드로아이소쿠마린",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "분리 수량 10 mg(1.2 kg 건조 잎 추출물에서)[5]",
+   "activity_ko": "산수국 잎 항광노화 후보 성분 10종 가운데 하나로 분리되었다[20]. 필로둘신이 많은 계통에서 더 많았다[16]",
+   "source": [
+    5,
+    20,
+    16
+   ]
+  },
+  {
+   "name": "Taxiphyllin",
+   "name_ko": "택시필린",
+   "class": "시안배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎을 딴 시기에 따라 3배 넘게 차이; 가공(발효·건조) 중 대부분 가수분해[2]",
+   "activity_ko": "단맛 수국잎 차 식중독 원인으로 의심되었으나, 가공 뒤 대부분 분해되어 원인 성분이 아닐 것으로 제시되었다[2, 5]",
+   "source": [
+    2,
+    5
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로젠산(5-O-카페오일퀸산)",
+   "class": "하이드록시신남산 유도체",
+   "role": "bioactive",
+   "part": "잎·꽃받침",
+   "content_text": "잎 추출물 4대 성분 가운데 하나(정량값 없음)[10]; 파란 꽃받침 세포에 5-O-아실퀸산이 안토시아닌의 13당량[14]",
+   "activity_ko": "잎 성분 중 항산화력(TPC·TEAC·ORAC)이 가장 컸고[10], 꽃받침에서는 알루미늄·델피니딘과 청색 복합체를 이루는 보조색소다[13, 32]",
+   "source": [
+    10,
+    14,
+    13,
+    32
+   ]
+  },
+  {
+   "name": "Delphinidin 3-glucoside",
+   "name_ko": "델피니딘 3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "꽃받침",
+   "content_text": "파란 세포: 안토시아닌 대비 Al3+ 1.2당량, 붉은 세포 0.03당량[14]",
+   "activity_ko": "꽃받침 색소로, Al3+·보조색소와 1:1:1 복합체를 이루면 파란색이 된다[13, 32]",
+   "source": [
+    13,
+    14,
+    32
+   ]
+  },
+  {
+   "name": "Hydrangenoside A",
+   "name_ko": "하이드랑게노사이드 A",
+   "class": "세코이리도이드 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "LC-MS로 소량 검출(분리 수량 없음)[5]",
+   "activity_ko": "산수국 잎에서 분리된 10종 성분 가운데 하나였다[20]",
+   "source": [
+    5,
+    20
+   ]
+  },
+  {
+   "name": "Quercetin 3-O-sophoroside",
+   "name_ko": "쿼세틴-3-O-소포로사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "분리 수량 12 mg(1.2 kg 건조 잎 추출물에서)[5]",
+   "activity_ko": "단맛 수국 잎의 플라보놀 배당체로 확인되었다[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Naringenin",
+   "name_ko": "나린제닌",
+   "class": "플라바논",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "정량값 확인하지 못함",
+   "activity_ko": "단맛 수국 잎에서 하이드랑게놀·필로둘신과 함께 ACE2–스파이크 단백질 결합 억제 성분으로 분리되었다(시험관 실험)[28]. 필로둘신이 많은 계통에서 더 많았다[16]",
+   "source": [
+    28,
+    16
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Hydrangenol",
+   "compound_ko": "하이드랑게놀",
+   "part": "잎(산수국 잎 열수추출물, WHS)",
+   "content": "WHS 중 0.63 ± 0.05%(머무름 시간 33.07분)[7]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Waters 2695 HPLC 펌프, Waters 2998 광다이오드 어레이 검출기",
+    "column": "Phenomenex Luna C18, 4.6 × 250 mm, 5 μm",
+    "mobile_phase": "A: 100% 아세토나이트릴, B: 물",
+    "gradient": "A 비율 0–15분 20→25%, 15–30분 25→50%, 30–40분 50→100%, 40–50분 100→20%",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "228 nm",
+    "injection": "",
+    "sample_prep": "경북 영주 재배 산수국 건조 잎 1,000 g을 증류수로 98 °C 5시간 추출 → 여과 → 분무 건조(WHS 261 g, 수율 26.1%)",
+    "standard": "하이드랑게놀 표준품과 머무름 시간 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "하이드랑게놀은 산수국 잎에서 분리한 10종 가운데 항광노화 활성이 가장 강해 추출물 표준화 지표로 쓰였다[20, 7]. 전문(Methods) 확인 — 주입량·직선성·검출·정량한계·회수율은 본문에 없음[7].",
+   "source": [
+    7,
+    20
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6470489/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Hydrangenol",
+   "compound_ko": "하이드랑게놀(필로둘신 동시 정량)",
+   "part": "잎(수국차 우림액)",
+   "content": "증류수(pH 5.39) 우림 14.36 ± 0.18 µg/mL, 정수기물 1.46 ± 0.12, 먹는샘물 1.32 ± 0.29 µg/mL; pH 4.0 물 20.25 ± 0.70, pH 7.0 물 2.91 ± 0.20 µg/mL[9]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Dionex UltiMate 3000 HPLC, 광다이오드 어레이 검출기(Dionex)",
+    "column": "C18, 4.6 × 250 mm, 5 µm (Phenomenex)",
+    "mobile_phase": "수상: 0.1% TFA 수용액, 유기상: 메탄올",
+    "gradient": "메탄올 10%→70%, 40분",
+    "flow": "",
+    "temp": "",
+    "detection": "314 nm",
+    "injection": "20 µL",
+    "sample_prep": "마산산 수국 잎을 볕 건조·손 비비기·발효·건조한 차 0.35 g + 95 °C 물 350 mL, 유리막대로 3분 저어 우림 → 거즈 여과 → 실온 냉각 → 7,700(원문 단위 기호 누락) 10분 원심 → 0.45 µm 주사기 필터",
+    "standard": "분취 HPLC로 정제하고 1H NMR로 동정한 하이드랑게놀·필로둘신 표준물질의 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "하이드랑게놀은 우림 pH에 따라 하이드랑게산으로 바뀌어 함량이 크게 달라지므로 수국차 품질 지표로 쓰였고, 필로둘신은 같은 조건에서 변화가 작았다[9]. 전문(Methods) 확인 — 유속·칼럼 온도·검출·정량한계·회수율은 본문에 없음[9].",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12567967/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Phyllodulcin",
+   "compound_ko": "필로둘신(하이드랑게놀·클로로젠산 동시 확인)",
+   "part": "잎(산수국 계통)",
+   "content": "표준품 머무름 시간 비교로 동정만 했고 잎 함량 수치는 보고하지 않음[10]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Merck-Hitachi L-7100 펌프, L-7450 UV 검출기",
+    "column": "Phenomenex Luna C18, 250 × 4.6 mm, 5 μm",
+    "mobile_phase": "A: 0.3% 폼산 수용액, B: 아세토나이트릴",
+    "gradient": "0–2분 90% A; 2–12분 80% A까지; 12–22분 65% A까지; 22–25분 65% A 유지; 25–27분 90% A까지; 27–37분 80% A까지 후 유지",
+    "flow": "0.5 mL/min",
+    "temp": "28 ± 1 °C",
+    "detection": "UV 254 nm",
+    "injection": "20 µL",
+    "sample_prep": "잎 분쇄(10,000 rpm 10초) → 1 g + HPLC용 물 10 mL, 30초 와류 → 진공 오븐 80 °C 18시간(하이드랑게놀·필로둘신 수율 증가 목적) → 메탄올 5 mL + 70% 에탄올 5 mL 초음파 30분",
+    "standard": "클로로젠산(ROTH), 하이드랑게놀(BOC Sciences), 필로둘신(Abcr) 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "필로둘신은 설탕의 400–800배 단맛을 내는 단맛 수국 잎(아마차)의 특징 성분이어서 동정 대상이 되었다[10]. 전문(Methods) 확인 — 정량값·직선성·검출·정량한계·회수율은 본문에 없음[10].",
+   "source": [
+    10
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13666256/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Taxiphyllin",
+   "compound_ko": "택시필린(시안배당체)",
+   "part": "잎(단맛 수국 var. thunbergii) 및 생약",
+   "content": "잎을 딴 시기에 따라 3배 넘게 차이; 생약 가공 중 대부분 가수분해[2]",
+   "method": "정량 분석(기기·조건은 초록에 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "단맛 수국잎 달임액 식중독의 원인 후보로 의심된 시안배당체여서 잎 크기·색·부위·생육 시기·흙 pH·가공 조건별로 정량되었다[2]. 전문 확인 못함(PMC 전문 없음, 초록만 확인)[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37517070/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Hydrangea macrophylla 행(수국; 원료명 수국잎·수국잎농축액·수국잎분말·수국잎침출액·수국추출분말; 영문 Korean hydrangea; 학명 칸 'H. macrophylla (Thunb.) Ser. subsp. serrata (Thunb.) Makino / H. macrophylla Seringe f. otaksa Wilson / H. serrata var. amagiana'; 사용가능, 사용가능부위 : 잎; 고시형 원료 원재료 목록 없음; 같은 속 Hydrangea anomala(잎)와 바위수국 Schizophragma hydrangeoides(이명 Hydrangea taquetii, 잎)는 별도 행; docs/materials/hydrangea-macrophylla/card.json·foodlist/cards.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Tsukioka J et al. (2023) Quantitative analysis of taxiphyllin, a cyanogenic glycoside, in the leaves of Hydrangea macrophylla var. thunbergii. J Nat Med 77(4):978-985. doi:10.1007/s11418-023-01733-7 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37517070/",
+   "publisher": "Journal of Natural Medicines (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Jung CH et al. (2016) The establishment of efficient bioconversion, extraction, and isolation processes for the production of phyllodulcin from sweet hydrangea leaves (Hydrangea macrophylla Thunbergii). Phytochem Anal 27(2):140-147. doi:10.1002/pca.2609 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26895991/",
+   "publisher": "Phytochemical Analysis (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Yoshikawa M et al. (1994) [Quantitative analysis of dihydroisocoumarin constituents of Hydrangeae Dulcis Folium by HPLC] Yakugaku Zasshi 114(3):176-181. doi:10.1248/yakushi1947.114.3_176 (일본어 논문, PubMed 영문 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8189355/",
+   "publisher": "Yakugaku Zasshi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Wellmann J et al. (2022) Separation of dihydro-isocoumarins and dihydro-stilbenoids from Hydrangea macrophylla ssp. serrata by use of counter-current chromatography. Molecules 27(11):3424. doi:10.3390/molecules27113424 (PMC 전문, PubMed 도구로 열람)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9182509/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Wellmann J et al. (2022) Comprehensive metabolite profiling of Hydrangea macrophylla ssp. serrata extracts using LC-ESI-IMS-QToF-MS. J Agric Food Chem 70(37):11823-11831. doi:10.1021/acs.jafc.2c04351 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36089735/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Han HS et al. (2019) Hydrangea serrata (Thunb.) Ser. extract attenuate UVB-induced photoaging through MAPK/AP-1 inactivation in human skin fibroblasts and hairless mice. Nutrients 11(3):533. doi:10.3390/nu11030533 (PMC 전문, PubMed 도구로 열람)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6470489/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Myung DB et al. (2020) Oral intake of Hydrangea serrata (Thunb.) Ser. leaves extract improves wrinkles, hydration, elasticity, texture, and roughness in human skin: a randomized, double-blind, placebo-controlled study. Nutrients 12(6):1588. doi:10.3390/nu12061588 (PMC 전문, PubMed 도구로 열람)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7352416/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Beak ES, Park HR, Kim MJ (2025) Effect of extraction pH on hydrangenol content in hydrangea tea. Prev Nutr Food Sci 30(5):474-479. doi:10.3746/pnf.2025.30.5.474 (PMC 전문, PubMed 도구로 열람)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12567967/",
+   "publisher": "Preventive Nutrition and Food Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Mei S, Heymann T, Böhm V (2026) Mechanistic insights into polyphenol oxidase inhibition by four bioactive constituents from Hydrangea macrophylla subsp. serrata. Molecules 31(19):3411. doi:10.3390/molecules31193411 (PMC 전문, PubMed 도구로 열람)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13666256/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Yang CJ et al. (2012) Two new cyanogenic glucosides from the leaves of Hydrangea macrophylla. Molecules 17(5):5396-5403. doi:10.3390/molecules17055396 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6268311/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Nashima K et al. (2021) Genome sequence of Hydrangea macrophylla and its application in analysis of the double flower phenotype. DNA Res 28(1):dsaa026. doi:10.1093/dnares/dsaa026 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7934569/",
+   "publisher": "DNA Research (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Ito T, Oyama KI, Yoshida K (2018) Direct observation of hydrangea blue-complex composed of 3-O-glucosyldelphinidin, Al3+ and 5-O-acylquinic acid by ESI-mass spectrometry. Molecules 23(6):1424. doi:10.3390/molecules23061424 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6100629/",
+   "publisher": "Molecules (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Ito D et al. (2009) Chemical studies on different color development in blue- and red-colored sepal cells of Hydrangea macrophylla. Biosci Biotechnol Biochem 73(5):1054-1059. doi:10.1271/bbb.80831 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19420726/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Qi H et al. (2022) Identification of seven key structural genes in the anthocyanin biosynthesis pathway in sepals of Hydrangea macrophylla. Curr Issues Mol Biol 44(9):4167-4180. doi:10.3390/cimb44090286 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9497972/",
+   "publisher": "Current Issues in Molecular Biology (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Padmakumar Sarala G et al. (2026) Elucidation and functional characterization of the biosynthetic pathway of the natural sweetener phyllodulcin in Hydrangea macrophylla. Sci Rep 16. doi:10.1038/s41598-026-47892-x (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068954/",
+   "publisher": "Scientific Reports (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Tsukioka J, Nakamura S (2023) Comparison of growth in Hydrangea macrophylla var. thunbergii grown in different soil pH and quantitative analysis of its sweetness-related constituents. Chem Pharm Bull 71(5):368-373. doi:10.1248/cpb.c23-00084 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37121687/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Kim MJ et al. (2016) Relative sweetness and sweetness quality of phyllodulcin. Food Sci Biotechnol 25(4):1065-1072. doi:10.1007/s10068-016-0172-x (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6049115/",
+   "publisher": "Food Science and Biotechnology (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Kim E et al. (2017) Phyllodulcin, a natural sweetener, regulates obesity-related metabolic changes and fat browning-related genes of subcutaneous white adipose tissue in high-fat diet-induced obese mice. Nutrients 9(10):1049. doi:10.3390/nu9101049 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5691666/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Shin JS et al. (2019) Chemical constituents from leaves of Hydrangea serrata and their anti-photoaging effects on UVB-irradiated human fibroblasts. Biol Pharm Bull 42(3):424-431. doi:10.1248/bpb.b18-00742 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30828074/",
+   "publisher": "Biological & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Myung DB et al. (2019) Hydrangenol isolated from the leaves of Hydrangea serrata attenuates wrinkle formation and repairs skin moisture in UVB-irradiated hairless mice. Nutrients 11(10):2354. doi:10.3390/nu11102354 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835603/",
+   "publisher": "Nutrients (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Nakagiri R et al. (2003) Suppression by Hydrangeae Dulcis Folium of D-galactosamine-induced liver injury in vitro and in vivo. Biosci Biotechnol Biochem 67(12):2641-2643. doi:10.1271/bbb.67.2641 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14730144/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Cho M et al. (2024) Phyllodulcin from the hexane fraction of Hydrangea macrophylla inhibits glucose-induced lipid accumulation and ROS generation in Caenorhabditis elegans. Biosci Biotechnol Biochem 88(7):789-797. doi:10.1093/bbb/zbae043 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38599627/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Funayama S (2014) [Hydrangea Hydrangea macrophylla]. Chudoku Kenkyu 27(1):26-27 (일본어 해설, PubMed에 초록 없음 — 서지·MeSH 색인만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24724356/",
+   "publisher": "中毒研究 (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 2022–2025년판 — 건강기능식품 개별인정형 '수국잎열수추출물' 행(앱 파싱본 docs/stats/hf_items.csv; 생산·판매 금액 천원 단위, 수출 달러)",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 26,
+   "title": "일본 후생노동성 식품안전부 감시안전과 통지 「アジサイの喫食による青酸食中毒について」(2008.7.1, 食安監発第0701001号)와 후속 통지(2008.8.18, 食安監発第0818006号) — 원문 PDF는 네트워크 허용 목록 밖이라 열지 못했고, WebSearch 요약(후생노동성 통지 사본·지자체 게시물 검색 결과)으로 날짜·번호·폐지 사유만 확인",
+   "url": "https://www.wam.go.jp/gyoseiShiryou-files/documents/2009/11720/20090318_2sankou_2.pdf",
+   "publisher": "厚生労働省(일본 후생노동성) — WebSearch 요약",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Tsukioka J et al. (2023) Production of dihydroisocoumarins by callus induction from Hydrangea macrophylla var. thunbergii leaves. Chem Pharm Bull 71(11):832-837. doi:10.1248/cpb.c23-00499 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37914259/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Yano A et al. (2023) Dihydroisocoumarins of Hydrangea macrophylla var. thunbergia inhibit binding of the SARS-CoV-2 spike protein to ACE2. Biosci Biotechnol Biochem 87(9):1045-1055. doi:10.1093/bbb/zbad078 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37296229/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Heo HS et al. (2025) In vitro and in vivo anti-inflammatory and chondroprotective effects of standardized hot water extract from Hydrangea serrata (Thunb.) Ser. J Ethnopharmacol 353:120321. doi:10.1016/j.jep.2025.120321 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40714059/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Park S et al. (2024) Hair growth-promoting effect of Hydrangea serrata (Thunb.) Ser. extract and its active component hydrangenol: in vitro and in vivo study. Int J Mol Sci 25(19):10370. doi:10.3390/ijms251910370 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11477035/",
+   "publisher": "International Journal of Molecular Sciences (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Scholpp AC et al. (2024) Differential gene expression in leaves and roots of Hydrangea serrata treated with aluminium chloride. Front Plant Sci 15:1412189. doi:10.3389/fpls.2024.1412189 (PubMed 초록 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11405211/",
+   "publisher": "Frontiers in Plant Science (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Oyama K et al. (2015) Metal complex pigment involved in the blue sepal color development of hydrangea. J Agric Food Chem 63(35):7630-7635. doi:10.1021/acs.jafc.5b02368 (PubMed 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26006163/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "일본 식품안전위원회 해저드 개요 시트(안) 「アジサイ」(2010년도 문헌조사 기반) — 원문은 열지 못했고(네트워크 허용 목록 밖) WebSearch 요약으로만 확인 — 검토자 재검색에서도 독성 성분 하이드라시아노사이드 A·2009–2010년 꽃 축제 단맛 차 구토 사례 기재가 같게 요약됨",
+   "url": "https://www.fsc.go.jp/sonota/hazard/kosyoku_10.pdf",
+   "publisher": "食品安全委員会(일본 식품안전위원회) — WebSearch 요약",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

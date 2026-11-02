@@ -1,0 +1,715 @@
+{
+ "slug": "ugni-molinae",
+ "name_ko": "우니몰리내",
+ "name_en": "Chilean guava (murta, murtilla)",
+ "scientific_name": "Ugni molinae Turcz.",
+ "aliases": [
+  "우니몰리내농축액",
+  "우니몰리내추출물",
+  "무르타",
+  "무르티야",
+  "murta",
+  "murtilla",
+  "uñi",
+  "Chilean guava",
+  "Strawberry myrtle",
+  "Uni",
+  "Myrtus ugni Molina"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "우니몰리내(Ugni molinae Turcz.)는 도금양과(Myrtaceae)의 늘푸른 떨기나무로, 칠레 중남부가 원산이다[2][3]. 칠레에서는 무르타(murta)·무르티야(murtilla)라 부르고, 원주민 마푸체어로는 우니(Uñi)라 하며, 영어로는 칠레구아바(Chilean guava)라고도 한다[2][3]. 이명 Myrtus ugni Molina로 쓴 문헌도 같은 종을 가리킨다[11].\n\n식품의약품안전처 「식품원료 목록」에서 우니몰리내는 식품원료로 '사용가능'이며, 사용 조건은 '사용가능부위 : 열매'이다[1]. 같은 목록에는 우니몰리내·우니몰리내농축액·우니몰리내추출물의 세 원료명이 올라 있고, 영어 이름으로 Chilean guava·Strawberry myrtle·Uni가 함께 적혀 있다[1]. 따라서 국내에서 식품으로 쓸 수 있는 부위는 열매이고, 아래에 나오는 잎 연구는 참고 정보이다[1].\n\n열매는 딸기의 단맛, 구아바의 톡 쏘는 맛, 말린 블루베리 같은 식감을 가진 것으로 묘사된다[2]. 칠레산 과일 27종을 비교한 자료에서 무르타 열매의 총페놀은 생과 100 g당 863 mg(갈산 당량)으로 블랙베리(671 mg)와 블루베리(529 mg)보다 많았다[2]. 남부 안데스 지역 과일 데이터베이스에서도 마키·칼라파테와 함께 총페놀과 ORAC 값이 다른 과일보다 크게 높았다[36]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통 이용",
+   "body": "마푸체 사람들은 무르타 열매로 식욕을 돋우는 달콤한 '위장 술'을 빚었고, 그 향은 가장 섬세한 머스캣 같다고 기록되었다[2]. 박물학자 클로드 게이(1800–1873)의 기록에는 시골 사람들이 열매를 즐겨 먹고 향긋한 과자를 만들었다고 적혀 있으며, 지금도 시골에서는 말린 과일과 잼으로 먹는다[2]. 칠레 최남단의 아오니켄크 사람들도 11월부터 3월까지 수확철에 무르티야를 생과로 먹었다[2].\n\n전통 의약으로는 잎 우린 물을 요로·목 감염에 썼고, 열매는 수렴 작용이 있는 것으로 알려졌다[2]. 칠레 원주민은 수백 년 동안 무르타 잎 우린 물로 장·요로 감염을 다스렸다고 소개된다[34]. 칠레 민간의학에서는 잎 추출물을 진통·소염제로 쓴다[10]. 마푸체 의료 체계에서는 우린 물, 발효 음료, 바르는 약으로 썼고, 볶은 씨앗은 커피 대용으로 쓰일 수 있다[6]. 칠레 보건부는 2008년부터 전통 약용식물 이용을 인정해 왔다[2].\n\n열매 맛이 좋아 예부터 귀하게 여겨졌으며, 관상용으로 영국과 오스트레일리아에 들어갔다[7]. 칠레 화장품 업계는 잎 추출물을 충혈 완화·재생·노화 방지 효과를 기대하고 써 왔다[9]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "무르티야는 잎이 무성한 다형성 떨기나무로 높이 약 2 m까지 자라고, 가지는 납작하며 털이 덮여 있다[3]. 잎은 길이 2–2.5 cm로 마주나고, 잎자루가 있으며 턱잎이 없고, 긴 달걀꼴에 끝이 뾰족하다[3]. 꽃은 잎겨드랑이에 하나씩 아래로 늘어져 피는 양성화로, 꽃받침 5장, 꽃잎 5장, 많은 수술을 가진다[3]. 꽃은 11–12월에 피고 열매는 2–4월에 맺힌다[3].\n\n열매는 지름 7–13 mm, 한 개 무게 0.45 g 정도의 작은 둥근 장과이다[3]. 과육은 흰색이고, 생태형에 따라 연두·노랑·자홍·밝은 빨강·짙은 빨강 등 여러 색을 띤다[3]. 열매의 가용성 고형분은 약 19 °Brix, pH는 약 4.3이다[2]. 향기 성분은 과일·단내·꽃 향으로 묘사되며, 헥산산에틸과 4-메톡시-2,5-디메틸퓨란-3-온이 가장 강한 향 성분이다[2].\n\n칠레에서는 탈카 남쪽(남위 35°)부터 팔레나강(남위 44°)까지 낙엽수림과 남부 상록수림에 자생한다[2]. 다른 문헌은 마울레–아이센 지역의 해안·안데스 산록과 후안페르난데스 제도, 아르헨티나 파타고니아에도 자란다고 적었다[3]. 칠로에섬 온대 우림의 식물–꽃가루 매개자 연결망 분석에서는 꽃가루 매개 연결망 구조 유지에 큰 몫을 하는 중요 떨기나무로 꼽혔다[20]."
+  },
+  {
+   "key": "related_species",
+   "title": "분류와 근연종",
+   "body": "우니몰리내는 도금양과에 속하며, 칠레에서 가장 잘 알려진 도금양과 자생 식물로 소개된다[5]. 같은 칠레 자생 식물을 다룬 문헌에서는 무르티야(Ugni molinae)가 아라얀(Luma apiculata (DC.) Burret)·마키·칼라파테 등과 함께 칠레 전역의 대표 자생 식물로 소개된다[24]. 비타민 C 면에서 같은 도금양과의 카무카무(397 mg/100 g)·흰 구아바(142 mg/100 g)와 비교되기도 한다[2].\n\n칠레에서 '무르타'라 불리는 식물은 우니속(Ugni)의 세 종으로, 우니몰리내(U. molinae, 붉은 무르타) 외에 흰 무르타(U. candollei)와 U. selkirkii가 있다[37]. 흰 무르타는 우니몰리내와 다른 근연종이며, 이름과 달리 안토시아닌 때문에 분홍빛을 띤다[23]. 흰 무르타 열매에서는 107가지 페놀 화합물이 잠정 동정되었고, 그 가운데 다수가 가까운 붉은 무르타에도 있었다[23]. 이 결과는 근연종의 자료이므로 우니몰리내 열매의 성분으로 옮겨 쓰지 않는다[23][37].\n\n이 종의 미세위성(마이크로새틀라이트) 표지를 실은 자료 논문에서는 Luma chequen, Myrceugenia 여러 종, 구아바(Psidium guayaba), 유칼립투스 여러 종 등 도금양과 식물도 교차 시험 대상에 들어 있으나, 초록만으로는 어느 종의 표지를 교차 시험했는지 구분되지 않는다[19]. 칠레의 다른 자생 베리인 칼라파테와 비교하면 무르타는 플라보놀·플라반-3-올이 조금 더 많고(생과 g당 0.29·0.27 µmol), 안토시아닌은 훨씬 적다(0.21 µmol 대 17.8 µmol)[2]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "칠레 농업연구원(INIA)은 1996년 순화(작물화) 프로그램을 시작해 'Red Pearl INIA'와 'South Pearl INIA' 같은 품종을 냈고, 이로써 열매 품질과 수량이 좋아졌다[4]. 무르타 순화 프로그램의 역사는 약 20년으로 정리된다[2]. INIA 카리양카의 무르타 유전자은행(푸에르토사아베드라, 남위 38°45′)에서는 점적관수로 키운 5.5년생 나무에서 열매를 땄다[7]. 칠레 농가가 이미 대규모로 순화 재배를 하고 있다는 서술도 있다[7].\n\n수확 뒤 0 °C 저장에서 'South Pearl INIA'의 저장 수명은 35일로 짧았고, 20일 저장 뒤에는 'Red Pearl INIA'가 더 나은 저장성을 보였다[3]. 마울레 지역 재배지별 열매의 가용성 고형분은 10–27 °Bx로 차이가 컸다[3]. 열매 폴리페놀은 품종과 해에 따라 건조중량 100 g당 283 mg('14-4' 계통, 2008년)부터 2,152 mg('South Pearl-INIA', 2007년)까지 달랐고, 강수와 서리가 주된 기후 요인으로 꼽혔다[2].\n\n순화한 나무는 야생 나무보다 잎의 방어성 플라보놀이 적었고(약 20%), 해충 수와 피해 지수가 더 높았다[2][17]. 칠레에서는 우니몰리내에서 'Candidatus Phytoplasma ulmi'가 검출되었고, 매미충이 이를 목초(라이그래스)로 옮길 수 있었다[25]. 통계청·농림축산식품부 생산 통계 파싱본에는 우니몰리내 항목이 없어 국내 재배 면적과 생산량은 확인하지 못함. 세계 생산량과 칠레의 공식 생산 통계도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "열매는 대부분 생과로 먹지만 주스·통조림·과자·잼·리큐어로도 가공된다[3][6]. 국내 「식품원료 목록」에는 우니몰리내농축액·우니몰리내추출물도 원료명으로 올라 있다[1].\n\n수확철이 짧아 건조 가공이 중요하며, 동결건조가 총플라보노이드·안토시아닌을 가장 잘 지키고 조직 손상이 적었다[2]. 햇볕 건조는 생과(건조중량 100 g당 총페놀 3,327 mg)보다 총페놀이 52% 줄었다[5]. 저온 진공건조(10 mbar, 20–40 °C)는 동결건조의 대안으로 제시되었다[6]. 유산균을 진공 함침해 말린 열매 간식도 연구되었다[33]. 천연 공융용매 추출에서는 염화콜린:1,2-프로판디올(1:2)이 총페놀(64.87 mg 갈산 당량/g)을 가장 많이 회수했다[8].\n\n주스를 유산균으로 발효하면 항산화능이 늘고 α-글루코시데이스 억제가 나타났으며[27], 발효 주스에서 추출성 폴리페놀 59종이 동정되었다[28]. 무르타 추출물은 탄수화물 분해 효소 억제 원료로도 검토되었다[31]. 주스 착즙박에서는 불용성 결합형 페놀 분획의 항산화능이 가장 높았고, 품질 지표로 퀘르세틴이 제안되었다[29]. 생과와 가공품의 식이섬유는 건조중량 100 g당 52.03–57.18 g으로 항산화 식이섬유로 분류되었다[26]. 칠레에서는 잎 가루를 소고기 패티의 천연 산화방지제로 시험했지만, 국내에서 잎은 식품원료 사용 부위가 아니다[1][30]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "무르티야의 유전체와 폴리페놀 생합성 핵심 유전자의 전사 정보는 아직 부족하다고 정리되어 있다[3]. 이 종의 미세위성 표지 좌위는 분자생태학 자원 데이터베이스(MER)에 등록되었다[19]. 염색체 수와 유전체 크기는 확인하지 못함.\n\n같은 토양·기후·관리 조건에서 키운 10개 유전형의 잎은 페놀 조성과 항산화능이 유의하게 달랐고, 엘라지탄닌·갈산 유도체·플라보놀이 그 차이를 만들었다[18]. 열매에서도 선발 계통 '14-4'의 총페놀(건조중량 g당 40.3 mg)이 야생형(19.4 mg)보다 많아, 순화로 열매 페놀이 줄지 않았다는 결과가 있다[2]. 반면 열매의 플라보놀을 비교한 다른 연구에서는 야생과 재배 사이에 차이가 없었다[2][16].\n\n잎의 플라보놀은 야생 나무(89.8 µg/g)가 재배 나무(75.2 µg/g)보다 많았고, 잎에서 이소플라보노이드 8종이 처음 확인되었다[17]. 헌팅턴병 세포 모델에서는 '19-1' 유전형 열매의 페놀이 풍부한 추출물이 단백질 응집을 줄였다[12]. 열매 색이 생태형마다 다른 것도 유전적 다양성을 보여 준다[3]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "국내에서는 열매만 식품원료로 쓸 수 있으므로, 잎 추출물 연구 결과를 열매 식품에 그대로 적용할 수 없다[1]. 우니몰리내의 알레르기, 잔류농약, 독성 성분에 관한 국내외 공공기관 안전 정보는 확인하지 못함.\n\n열매 추출물은 사람 혈관내피세포에 독성을 보이지 않았다[14]. 마키·무르타 플라보노이드 농축 혼합물은 Caco-2·HT29-MTX-E12 세포에서 0.1–50 mg/mL 범위에서 세포독성이 없었다[32]. 열매 추출물은 위암(AGS) 세포를 mg/mL 수준에서 죽였는데(IC50 2.569–4.563 mg/mL), 이는 암세포 실험 결과이다[6]. 생쥐 귀 부종 실험의 항염증 효과는 피부에 바르는 모델로만 평가했고 먹었을 때의 효과는 평가하지 않았다[6].\n\n잎 물 추출물은 시험관에서 사람 적혈구 모양을 원반형에서 극피형으로 바꾸고 막 지질 배열을 흐트러뜨렸다[21]. 반면 아주 낮은 농도(갈산 당량 10 µM)의 잎 물 추출물은 차아염소산에 의한 적혈구 손상을 막았다[22]. 건강한 자원자가 1% 잎 우린 물을 하루 두 번 3일 마신 연구에서 혈장 항산화능(ORAC)이 올랐다고 보고되었다[2]. 잎 아세트산에틸 추출물은 고지방식 알츠하이머 모델 생쥐에서 기억력 저하를 늦췄고, 잎 추출물과 마데카식산은 비만 생쥐의 인슐린 감수성을 개선했다[11][35]. 열매 추출물은 헌팅턴병 모델 생쥐(R6/2)에서 운동 장애와 장 염증을 줄였다[13]. 이들은 모두 세포·동물 수준의 결과이다[11][13][35]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "생과 건조중량 100 g당 172.7 mg(분석한 페놀 중 최다)[5]; 동결건조 열매 46.50 mg/100 g[6]",
+   "activity_ko": "항산화능과 유의하게 관련된 주요 페놀[5]; AA 귀 부종 억제와 양의 상관[6]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Pyrogallol",
+   "name_ko": "피로갈롤",
+   "class": "단순 페놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "생과 69.4 mg/100 g 건조중량, 열풍건조 506.9 mg/100 g[5]; 생과 식이섬유 결합형 631.07 mg/100 g 건조중량[26]",
+   "activity_ko": "건조 열매에서 가장 많은 페놀, ORAC 값과 관련[5]",
+   "source": [
+    5,
+    26
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "하이드록시벤조산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "생과 4.6 mg/100 g 건조중량[5]; 생과 식이섬유 결합형 34.03 mg/100 g 건조중량[26]",
+   "activity_ko": "착즙박 불용성 결합 분획의 주요 페놀산[29]",
+   "source": [
+    5,
+    26,
+    29
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "marker",
+   "part": "열매·착즙박",
+   "content_text": "에탄올 추출물 LC/MS 3대 주성분 가운데 하나[7]; 건조 열매 0.7–1.6 mg/100 g 건조중량(생과는 정량한계 미만)[5]",
+   "activity_ko": "착즙박 결합 페놀 제품의 품질 지표로 제안(Caco-2 세포 보호 농도가 갈산의 1/20)[29]; TPA 귀 부종 억제와 가장 강한 상관(ρ = 0.90)[6]",
+   "source": [
+    5,
+    6,
+    7,
+    29
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "퀘르세틴-3-글루코사이드(이소퀘르시트린)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매·잎",
+   "content_text": "열매 에탄올 추출물 LC/MS 3대 주성분 가운데 하나[7]; 잎·줄기·열매에서 루틴과 함께 가장 많은 플라보놀[16]",
+   "activity_ko": "열매 추출물의 혈관 이완·항산화 연구에서 확인된 성분[14]",
+   "source": [
+    7,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매·잎",
+   "content_text": "HPLC로 열매·잎 추출물에서 정량(잎 50% 에탄올 추출물에 가장 많음, 수치는 초록에 없음)[15]",
+   "activity_ko": "순화한 나무의 잎에서 야생보다 적은 방어성 플라보놀[16]",
+   "source": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Caffeic acid 3-glucoside",
+   "name_ko": "카페산-3-글루코사이드",
+   "class": "하이드록시신남산 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 85% 에탄올 추출물 LC/MS 3대 주성분 가운데 하나(상대 함량)[7]",
+   "activity_ko": "",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Delphinidin 3-glucoside",
+   "name_ko": "델피니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "산성 에탄올 조추출물 안토시아닌의 40.0%, 정제 분획의 73.0%[7]",
+   "activity_ko": "펠라르고니딘-3-아라비노사이드와 함께 열매 색을 주로 결정[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Pelargonidin 3-arabinoside",
+   "name_ko": "펠라르고니딘-3-아라비노사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "산성 에탄올 조추출물 안토시아닌의 49.0%[7]",
+   "activity_ko": "열매 특유의 색을 내는 주 색소[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Myricetin",
+   "name_ko": "미리세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매·잎",
+   "content_text": "",
+   "activity_ko": "열매 추출물에서 확인[7][14]; 잎 아세트산에틸 추출물 성분으로 비만 생쥐의 대동맥 인슐린 반응 개선[35]",
+   "source": [
+    7,
+    14,
+    35
+   ]
+  },
+  {
+   "name": "Corosolic acid",
+   "name_ko": "코로솔산",
+   "class": "오각고리 트리테르펜산",
+   "role": "bioactive",
+   "part": "잎(국내 식품 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "아라키돈산 유발 귀 부종에서 니메술리드와 비슷한 국소 항염 효과[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Alphitolic acid",
+   "name_ko": "알피톨산",
+   "class": "오각고리 트리테르펜산",
+   "role": "bioactive",
+   "part": "잎(국내 식품 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "TPA 유발 귀 부종을 인도메타신과 비슷한 효력으로 억제[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Asiatic acid",
+   "name_ko": "아시아트산",
+   "class": "오각고리 트리테르펜산",
+   "role": "bioactive",
+   "part": "잎(국내 식품 사용 부위 아님)",
+   "content_text": "",
+   "activity_ko": "TPA 유발 귀 부종을 인도메타신과 비슷한 효력으로 억제[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "열매(씨 포함 건조물)",
+   "content_text": "건조 열매 지방산의 69.00–83.26%; 건조 열매 총지질 4.00–4.27%(건조중량)[6]",
+   "activity_ko": "건조 열매의 주 지방산[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "아스코르브산(비타민 C)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "210 mg/100 g[2]; 다른 보고 4.53–12.55 mg/100 g 생과[3]",
+   "activity_ko": "출처끼리 값 차이가 매우 큼[2][3]",
+   "source": [
+    2,
+    3
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨·피로갈롤 등 페놀 9종(생과·건조 열매)",
+   "part": "열매(씨 포함, 생과와 5가지 방법 건조물)",
+   "content": "생과 건조중량 100 g당 카테킨 172.7 mg, 피로갈롤 69.4 mg, 티로솔 52.5 mg, 3-하이드록시티로솔 24.7 mg, 갈산 4.6 mg; 열풍건조 피로갈롤 506.9 mg[5]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200 series HPLC, 다이오드 어레이 검출기(DAD), ChemStation",
+    "column": "Kromasil 100-5C18(4.6 mm, Eka Chemical), 25 °C",
+    "mobile_phase": "A: 0.1% 포름산, B: 100% 아세토니트릴",
+    "gradient": "A 87%·B 13%에서 18분 동안 B 55%까지 직선 증가, 18–23분 60%, 23–25분 2분 안에 초기 조건으로 복귀(원문 표기 그대로)",
+    "flow": "0.7 mL/min",
+    "temp": "25 °C",
+    "detection": "280·310 nm",
+    "injection": "",
+    "sample_prep": "생과 또는 건조 열매 10 g을 40% 에탄올 300 mL(고액비 1:30)에 넣어 40 °C에서 24시간 교반, 원심분리(10분, 10 °C)·여과(Whatman #1) 후 40 °C 감압 농축하고 동결건조",
+    "standard": "갈산·피로갈롤·카테킨·티로솔·퀘르세틴 등 페놀 표준품(Sigma), 메탄올–포름산(99:1)에 녹임, 머무름 시간과 흡수 스펙트럼으로 동정",
+    "linearity": "표준 검량선 0.3–100 ppm",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "카테킨과 피로갈롤은 모든 시료에서 가장 많은 페놀이었고 항산화능과 유의하게 관련되었다[5]. 칼럼 길이·주입량·검출한계·회수율은 본문에 적혀 있지 않아 비워 둠.",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10234425/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨·피로갈롤·에피카테킨 등 페놀 9종(진공 계열 건조 열매)",
+   "part": "열매(펙티나아제 전처리 뒤 건조한 야생 열매)",
+   "content": "동결건조 열매 카테킨 46.50 mg/100 g, 피로갈롤 39.30 mg/100 g, 에피카테킨 25.41 mg/100 g(트랜스-신남산은 정량 불가)[6]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200 Series HPLC, 다이오드 어레이 검출기(DAD)",
+    "column": "Kromasil 100-5C18, 250 × 4.6 mm, 5 μm(Eka Chemical)",
+    "mobile_phase": "A: 0.1% 포름산(pH 2.6), B: 아세토니트릴",
+    "gradient": "0–16분 A 87%·B 13% → A 45%·B 55% 직선, 16–23분 A 60%·B 40%, 23–25분 A 87%·B 13%로 복귀 후 30분까지 유지",
+    "flow": "0.7 mL/min",
+    "temp": "25 °C",
+    "detection": "280·310·370 nm",
+    "injection": "10 μL",
+    "sample_prep": "건조 시료 2.5 g에 69% 아세톤 20 mL를 넣어 300 rpm에서 63분 진탕, 4193×g 5분 원심분리, 1회 반복 추출해 합친 뒤 40 °C 감압 증발·동결건조; 메탄올–포름산(99:1)으로 10 mL 재용해, 0.45 μm 여과",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "카테킨은 동결건조 열매에서 가장 많은 페놀이었고, 9종 페놀 함량이 건조법에 따라 유의하게 달라 가공 지표로 쓰였다[6]. 표준품 범위·검출한계·회수율은 본문에 적혀 있지 않아 비워 둠.",
+   "source": [
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12561544/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isoquercitrin",
+   "compound_ko": "퀘르세틴-3-글루코사이드 등 페놀 12종(LC/MS)",
+   "part": "생과(유전형 14-4)",
+   "content": "카페산-3-글루코사이드·퀘르세틴-3-글루코사이드·퀘르세틴이 주성분(상대 함량); 총페놀 210 ± 12, 총안토시아닌 26 ± 4(표 단위 mg·g⁻¹ 생중량, 원문 그대로)[7]",
+   "method": "LC-ESI-MS(단일 사중극자, MRM)",
+   "conditions": {
+    "instrument": "Agilent 1100 series LC/MSD(사중극자 질량분석기), Mass Hunter",
+    "column": "Nucleosil 120 C18, 250 × 4.6 mm, 5 μm, ODS RP18 보호 칼럼",
+    "mobile_phase": "A: 1% 포름산 수용액, B: 아세토니트릴",
+    "gradient": "B 10→20%(20분), 20→25%(10분), 25→30%(10분), 이후 10분 등용매",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "ESI 음이온 모드, 모세관 전압 3000 V, 건조 가스 300 °C, 스캔 m/z 100–1000 및 MRM",
+    "injection": "10 μL",
+    "sample_prep": "생과 10 g을 85% 에탄올 100 mL와 섞어 2시간 초음파 처리 후 Whatman No. 2 여과",
+    "standard": "갈산·퀘르세틴·루틴·미리세틴·캠퍼롤·이소퀘르시트린·루테올린 등 표준품(Sigma-Aldrich)과 MS 단편 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "퀘르세틴 배당체는 열매 에탄올 추출물의 주성분이며, 저자들은 이 LC/MS 방법이 표준화한 무르타 추출물의 품질 관리에 쓰일 수 있다고 했다[7]. 상대 함량만 보고되어 검량·검출한계·회수율은 없음.",
+   "source": [
+    7
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6272493/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴·이소퀘르시트린·퀘르시트린(열매·잎)",
+   "part": "열매·잎 추출물(물·에탄올·50% 에탄올)",
+   "content": "총페놀은 50% 에탄올 추출물에서 가장 높음(건조 열매 g당 28 ± 1 mg, 건조 잎 g당 128 ± 6 mg 갈산 당량); 개별 플라보노이드 수치는 초록에 없음[15]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "루틴·이소퀘르시트린·퀘르시트린 수화물을 HPLC로 동정·정량했다[15]. 전문 확인 못함 — 조건 칸은 비워 둠.",
+   "source": [
+    15
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29195930/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "무르타 열매 일반성분(Foods 2020 리뷰의 원문 인용값, 생중량)",
+   "basis": "100 g",
+   "items": [
+    {
+     "name": "수분",
+     "value": 76.9,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 1.2,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 0.9,
+     "unit": "g"
+    },
+    {
+     "name": "조섬유",
+     "value": 2.5,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 0.5,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물(차감법)",
+     "value": 18.5,
+     "unit": "g"
+    },
+    {
+     "name": "아스코르브산",
+     "value": 210,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    2
+   ]
+  },
+  {
+   "form": "무르타 익은 열매 무기질(Biomed Res Int 2021 리뷰의 재인용값)",
+   "basis": "원문 표 기준(단위 기준량은 리뷰 본문에 명시 없음)",
+   "items": [
+    {
+     "name": "칼슘",
+     "value": 90,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 20,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 116,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    3
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 우니몰리내(Ugni molinae) 행: 원료명 우니몰리내·우니몰리내농축액·우니몰리내추출물, 사용가능부위 열매, 상태 사용가능",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Phytochemicals and Traditional Use of Two Southernmost Chilean Berry Fruits: Murta and Calafate. Foods 2020;9(1):54 (PMID 31935880, doi:10.3390/foods9010054)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7023186/",
+   "publisher": "Foods (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Fruit as a Source of Bioactive Compounds with Good Quality Traits. Biomed Res Int 2021;2021:6683877 (PMID 33981771, doi:10.1155/2021/6683877)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8088357/",
+   "publisher": "BioMed Research International (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Integrative review on the domestication process and secondary metabolism of Ugni molinae: From ecological functions to food applications. J Sci Food Agric 2026 (doi:10.1002/jsfa.70691) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42057333/",
+   "publisher": "J Sci Food Agric (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Evaluation of the antioxidant, anti-inflammatory, and anti-tumoral properties of bioactive compounds extracted from murta berries dried by different methods. Front Plant Sci 2023;14:1095179 (PMID 37275254, doi:10.3389/fpls.2023.1095179)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10234425/",
+   "publisher": "Frontiers in Plant Science (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Exploring the Potential of Low-Temperature Vacuum Drying to Improve the Bioactive Compound Content and Health-Promoting Properties of Chilean Wild Murta. Antioxidants 2025;14(10):1201 (PMID 41154510, doi:10.3390/antiox14101201)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12561544/",
+   "publisher": "Antioxidants (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Isolation and characterization of phenolic compounds and anthocyanins from Murta (Ugni molinae Turcz.) fruits. Assessment of antioxidant and antibacterial activity. Molecules 2015;20(4):5698-713 (PMID 25838172, doi:10.3390/molecules20045698)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6272493/",
+   "publisher": "Molecules (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Natural Deep Eutectic Solvent (NaDES) Extraction, HPLC-DAD Analysis, and Antioxidant Activity of Chilean Turcz. Fruits (PubMed 표제에서 학명 표기 빠짐). Antioxidants 2025;14(10):1234 (PMID 41154543, doi:10.3390/antiox14101234)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12561733/",
+   "publisher": "Antioxidants (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Topical anti-inflammatory activity of 2alpha-hydroxy pentacyclic triterpene acids from the leaves of Ugni molinae. Bioorg Med Chem 2006;14(16):5673-7 (doi:10.1016/j.bmc.2006.04.021) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16697209/",
+   "publisher": "Bioorg Med Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Analgesic activity of Ugni molinae (murtilla) in mice models of acute pain. J Ethnopharmacol 2007;112(1):162-5 (doi:10.1016/j.jep.2007.02.018) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17403589/",
+   "publisher": "J Ethnopharmacol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The Ethyl Acetate Extract of Leaves of Ugni molinae Turcz. Improves Neuropathological Hallmarks of Alzheimer's Disease in Female APPswe/PS1dE9 Mice Fed with a High Fat Diet. J Alzheimers Dis 2018;66(3):1175-1191 (doi:10.3233/JAD-180174) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30400089/",
+   "publisher": "J Alzheimers Dis (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "A phenolic-rich extract from Ugni molinae berries reduces abnormal protein aggregation in a cellular model of Huntington's disease. PLoS One 2021;16(7):e0254834 (PMID 34324551, doi:10.1371/journal.pone.0254834) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8320977/",
+   "publisher": "PLoS One (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Neuroprotective and gut health benefits of Ugni molinae in preclinical Huntington's disease models. Exp Neurol 2025;393:115406 (doi:10.1016/j.expneurol.2025.115406; 정오표 PMID 40877050) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40752726/",
+   "publisher": "Exp Neurol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Antioxidant and Vasodilator Activity of Turcz. (Murtilla) and Its Modulatory Mechanism in Hypotensive Response. Oxid Med Cell Longev 2016;2016:6513416 (PMID 27688827, doi:10.1155/2016/6513416) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5027056/",
+   "publisher": "Oxid Med Cell Longev (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Chilean berry Ugni molinae Turcz. fruit and leaves extracts with interesting antioxidant, antimicrobial and tyrosinase inhibitory properties. Food Res Int 2017;102:119-128 (doi:10.1016/j.foodres.2017.09.073) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29195930/",
+   "publisher": "Food Res Int (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Domestication in Murtilla (Ugni molinae) Reduced Defensive Flavonol Levels but Increased Resistance Against a Native Herbivorous Insect. Environ Entomol 2015;44(3):627-37 (doi:10.1093/ee/nvv040) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26313969/",
+   "publisher": "Environ Entomol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Plant Flavonoid Content Modified by Domestication. Environ Entomol 2017;46(5):1080-1089 (doi:10.1093/ee/nvx126) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28981645/",
+   "publisher": "Environ Entomol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Phenolic composition and antioxidant capacity of Ugni molinae Turcz. leaves of different genotypes. Food Chem 2016;215:219-27 (doi:10.1016/j.foodchem.2016.07.159) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27542470/",
+   "publisher": "Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Permanent genetic resources added to Molecular Ecology Resources Database 1 August 2011-30 September 2011. Mol Ecol Resour 2012;12(1):185-9 (doi:10.1111/j.1755-0998.2011.03088.x) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22136175/",
+   "publisher": "Mol Ecol Resour (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "A network analysis of plant-pollinator interactions in temperate rain forests of Chiloé Island, Chile. Oecologia 2009;160(4):697-706 (doi:10.1007/s00442-009-1344-7) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19390866/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Human erythrocytes are affected in vitro by extracts of Ugni molinae leaves. Food Chem Toxicol 2006;44(8):1393-8 (doi:10.1016/j.fct.2006.03.003) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16716480/",
+   "publisher": "Food Chem Toxicol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Protective effect of Ugni molinae Turcz against oxidative damage of human erythrocytes. Food Chem Toxicol 2007;45(1):130-5 (doi:10.1016/j.fct.2006.08.010) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17030381/",
+   "publisher": "Food Chem Toxicol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Differential Extraction and Preliminary Identification of Polyphenols from Ugni candollei (White Murta) Berries. Antioxidants 2024;13(6):623 (PMID 38929063, doi:10.3390/antiox13060623) — 대상 종은 근연종 Ugni candollei(PubMed 색인으로 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200422/",
+   "publisher": "Antioxidants (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Ethnopharmacology, Phytochemistry and Biological Activities of Native Chilean Plants. Curr Pharm Des 2021;27(7):953-970 (doi:10.2174/1381612826666201124105623) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33234091/",
+   "publisher": "Curr Pharm Des (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "In vivo transmission of 'candidatus Phytoplasma ulmi' by Amplicephalus curtulus (Hemiptera: Cicadellidae) and its effect on ryegrass (Lolium multiflorum cv. tama). J Econ Entomol 2014;107(1):83-91 (doi:10.1603/ec13167) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24665688/",
+   "publisher": "J Econ Entomol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Dietary fibre in processed murta (Turcz) berries: bioactive components and antioxidant capacity. J Food Sci Technol 2022;59(8):3093-3101 (PMID 35872745, doi:10.1007/s13197-022-05416-1) — 초록(전문 본문은 도구로 받지 못함)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9304509/",
+   "publisher": "J Food Sci Technol (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Fermentation of Murta Juice: Effect on Antioxidant Activity and Control of Enzymes Associated with Glucose Assimilation. Int J Mol Sci 2023;24(20):15197 (PMID 37894878, doi:10.3390/ijms242015197) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10607212/",
+   "publisher": "Int J Mol Sci (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Modulation of phenolic compounds in murta (Ugni molinae Turcz) juice by lactic fermentation in monoculture and coculture: identification and quantification of extractable and non-extractable fractions by HPLC-QTOF-MS. Food Chem 2025;497:146954 (doi:10.1016/j.foodchem.2025.146954) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41207035/",
+   "publisher": "Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Antioxidant properties of phenolic extracts of murtilla pomace: First report on the importance of soluble and insoluble-bound compounds. Food Res Int 2024;196:115114 (doi:10.1016/j.foodres.2024.115114) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39614579/",
+   "publisher": "Food Res Int (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Evaluation of Antioxidant and Antimicrobial Properties of Murtilla Leaves in Beef Patties: Effects on Quality Parameters and Shelf Life. Foods 2024;13(24):4174 (PMID 39767116, doi:10.3390/foods13244174) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675848/",
+   "publisher": "Foods (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Extracts of Maqui (Aristotelia chilensis) and Murta (Ugni molinae Turcz.): sources of antioxidant compounds and α-Glucosidase/α-Amylase inhibitors. J Agric Food Chem 2011;59(5):1630-7 (doi:10.1021/jf103461k) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21294510/",
+   "publisher": "J Agric Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Obtainment of Flavonoid-Enriched Fractions from Maqui and Murta Extracts via Preparative HPLC and Evaluation of Their Anti-Inflammatory Effects in Cell-Based Assays. Antioxidants 2025;14(5):600 (PMID 40427482, doi:10.3390/antiox14050600) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12108407/",
+   "publisher": "Antioxidants (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Drying kinetics of probiotic-impregnated murta berries. J Food Sci Technol 2019;56(1):103-113 (PMID 30728551, doi:10.1007/s13197-018-3463-9) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6342811/",
+   "publisher": "J Food Sci Technol (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "In vitro activity on human gut bacteria of murta leaf extracts (Ugni molinae turcz.), a native plant from Southern Chile. J Food Sci 2012;77(6):M323-9 (doi:10.1111/j.1750-3841.2012.02692.x) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22583138/",
+   "publisher": "J Food Sci (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Beneficial effects of murtilla extract and madecassic acid on insulin sensitivity and endothelial function in a model of diet-induced obesity. Sci Rep 2019;9(1):599 (PMID 30679477, doi:10.1038/s41598-018-36555-1) — 초록",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6345770/",
+   "publisher": "Scientific Reports (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "First web-based database on total phenolics and oxygen radical absorbance capacity (ORAC) of fruits produced and consumed within the south Andes region of South America. J Agric Food Chem 2012;60(36):8851-9 (doi:10.1021/jf205167k) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22512599/",
+   "publisher": "J Agric Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Preservative prospect of Ugni candollei (Barnéoud) O.Berg, an underexploited edible berry tree from Chile. Phytochemistry 2026;250:114955 (PMID 42114730, doi:10.1016/j.phytochem.2026.114955) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42114730/",
+   "publisher": "Phytochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

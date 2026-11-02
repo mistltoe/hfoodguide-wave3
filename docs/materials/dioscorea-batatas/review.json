@@ -1,0 +1,75 @@
+{
+ "slug": "dioscorea-batatas",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 65,
+ "checked_items": 121,
+ "verified": 175,
+ "fixed": 9,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.safety",
+   "before": "마는 식품원료 목록에서 제한 없이 '사용가능' 원료이고",
+   "after": "마는 식품원료 목록에서 제한적 사용이 아닌 '사용가능' 원료이고",
+   "why": "[1] 은 사용 부위를 뿌리·뿌리줄기·주아로 한정하므로 '제한 없이'는 과장"
+  },
+  {
+   "where": "sections.processing",
+   "before": "껍질 추출물은 화장품 소재로 시험되었다[37].",
+   "after": "껍질 추출물은 피부 세포·효소 실험(시험관)에서 미백·광노화 억제 활성이 보고되어 화장품 소재 가능성이 제안되었다[37].",
+   "why": "[37] 은 화장품 제품 시험이 아니라 B16F10·HaCaT·HDF 세포와 효소 실험"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 절에 물마(D. alata)와 흰기니얌(D. rotundata)",
+   "after": "같은 절에 워터얌(water yam, D. alata)과 흰기니얌(white guinea yam, D. rotundata)",
+   "why": "[2] 의 영명 표기로 맞춤; D. alata 는 별도 식품원료(얌뿌리)라 국문 '물마'로 섞어 부르지 않음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "이름만 다른 동종 10묶음과 같은 이름의 이종 13묶음이 드러났다[27].",
+   "after": "이름만 다르고 같을 가능성이 있는 계통 10묶음과 이름은 같지만 다를 가능성이 있는 계통 13묶음이 예비로 확인되었다[27].",
+   "why": "[27] 초록은 'potential heterotypic synonyms/homonyms'를 'preliminarily identified'라고 씀"
+  },
+  {
+   "where": "assays[1].rationale",
+   "before": "중국 허난성 원양현 재배품",
+   "after": "중국 허난성 원셴(溫縣) 사질토·황토 재배품, 자오쭤 소재 업체에서 2021년 11월 구입",
+   "why": "[9] Methods·Introduction 은 Wenxian county(溫縣)·Bao He Tang(Jiaozuo); '원양현(原陽縣)'은 다른 현"
+  },
+  {
+   "where": "assays[0].rationale",
+   "before": "추출물의 활성 성분으로 알란토인을",
+   "after": "시료는 울산의 한약재 업체에서 산 말린 뿌리줄기(산약)이고 원문은 학명을 'D. batatas Decaisne (= … Thunberg)'로 병기해, 약전상 참마(D. japonica) 기원 산약과 구별되지 않을 수 있다[8]. 추출물의 활성 성분으로 알란토인을",
+   "why": "[8] 4.2절: 시판 건조 산약 사용, 학명 병기 — 종 섞임 가능성 명시"
+  },
+  {
+   "where": "compounds.Starch.content_text",
+   "before": "74.60 ± 1.34(황토) g/100 g 건조중량[9]",
+   "after": "74.60 ± 1.34(황토) g/100 g 건조중량(저자 선행연구 값 인용)[9]",
+   "why": "[9] 는 'according to our previous study'로 인용한 값"
+  },
+  {
+   "where": "sources[8].title",
+   "before": "Molecules 2018;23:2023",
+   "after": "Molecules 2018;23:2023 (시판 건조 산약 사용, 학명 'D. batatas Decaisne (= … Thunberg)' 병기)",
+   "why": "논문 학명 처리 명시"
+  },
+  {
+   "where": "sources[29].title",
+   "before": "Foods 2024;13:1426",
+   "after": "Foods 2024;13:1426 (본문 학명 Dioscorea opposita Thunb.)",
+   "why": "논문 학명 처리 명시"
+  }
+ ],
+ "unverifiable_notes": [
+  "[30] 대한민국약전 산약 항(KP_73.pdf)은 이 환경에서 원문을 열지 못해, '마(D. batatas Decaisne) 또는 참마(D. japonica Thunberg)의 뿌리줄기를 그대로 또는 쪄서 말린 것'이라는 정의를 WebSearch 요약으로만 다시 확인함(history·related_species 각 1문장, 본문에 이미 '검색 요약' 표시).",
+  "production 58행은 docs/stats/special_crops_annual.csv '산약(마)' 행(1996–2024 면적·생산량)과 special_crops_2024.csv(농가 986호)와 값이 모두 일치함; 경북 446 ha·6,061톤, 경남 123 ha·1,225톤은 regional_crops.csv 와 일치. 통계 품목 '산약(마)'은 종 구분이 없어 참마 섞임 여부는 확인 불가(본문에 이미 명시).",
+  "gi.json 에 Dioscorea batatas key 항목 없음, hf_items.csv 에 마 원료 품목 없음 — 본문 서술과 일치.",
+  "[2] Planta 총설 주장은 PMC7505826 전문(_work/planta.json, PubMed 도구 출력)으로 대조; [7][8][9][10][37] 은 PMC 전문, 나머지는 PubMed 초록으로 대조.",
+  "학명 처리: [7][8][10]-[22][31]-[33][36][37] 은 D. batatas, [3]-[6][26]-[28][34][35] 는 D. polystachya, [9][29] 는 D. opposita Thunb., [23] 은 키워드 'Dioscorea opposite'. [8] 은 시판 건조 산약이라 참마 기원 섞임 가능성을 rationale 과 출처 제목에 적음. [22] 는 'Sanyak (Dioscorea radix)'로 종 미표기. 다른 마속 식품원료(D. alata·bulbifera·pentaphylla·nipponica·tenuipes·esculenta)·참마(D. japonica)만 다룬 논문 자료는 섞여 있지 않음.",
+  "card.json nicknames 에 '참마'가 있으나 dossier aliases 에는 넣지 않았음(참마는 D. japonica 국명) — 유지."
+ ]
+}

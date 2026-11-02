@@ -1,0 +1,43 @@
+{
+ "slug": "ugni-molinae",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 83,
+ "checked_items": 77,
+ "verified": 155,
+ "fixed": 4,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "무르타에는 주로 세 가지 변종이 있다고 소개되며, 그중 흰 무르타(white murta)는 ... 흰 무르타의 정확한 학명은 받은 본문에서 확인하지 못함.",
+   "after": "칠레에서 '무르타'라 불리는 식물은 우니속 세 종(U. molinae 붉은 무르타, U. candollei 흰 무르타, U. selkirkii)이며, 흰 무르타는 다른 근연종이라 그 성분 결과를 우니몰리내에 옮겨 쓰지 않는다고 명시[23][37]",
+   "why": "[23]은 PubMed 색인상 Ugni candollei(근연종) 논문인데 이 종의 변종처럼 서술됨. Phytochemistry 2026(PMID 42114730) 초록이 세 종 구분을 명시해 새 출처 [37]로 추가"
+  },
+  {
+   "where": "sources[23].title",
+   "before": "... from (White Murta) Berries ... 학명이 빠져 있음",
+   "after": "... from Ugni candollei (White Murta) Berries ... 대상 종은 근연종 Ugni candollei",
+   "why": "PubMed 검색 'Ugni candollei'로 PMID 38929063 확인"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이 종에서 개발한 미세위성 표지는 Luma chequen, Myrceugenia 여러 종, 구아바, 유칼립투스 여러 종에도 교차 시험되었다[19].",
+   "after": "자료 논문의 교차 시험 대상에 이들 도금양과 식물이 들어 있으나 초록만으로는 어느 종의 표지를 교차 시험했는지 구분되지 않는다[19].",
+   "why": "[19] 초록은 21개 종 표지의 교차 시험 대상을 한데 나열할 뿐 우니몰리내 표지와 짝지어 말하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "총페놀(추출물 g당 64.87 mg 갈산 당량)",
+   "after": "총페놀(64.87 mg 갈산 당량/g)",
+   "why": "[8] 초록은 '64.87 mg GAE/g'로만 적어 '추출물 g당'이라는 기준을 확인할 수 없음"
+  }
+ ],
+ "unverifiable_notes": [
+  "[19] 전문이 PMC에 없어 미세위성 교차 시험 종과 우니몰리내 표지의 대응은 초록으로 확인 불가 — 문장을 약하게 고침",
+  "[2][3][5][6][7][23]은 PMC 전문으로 수치·분석 조건(칼럼·이동상·기울기·유속·검출·시료 전처리)을 한 칸씩 대조해 모두 원문과 일치함을 확인. 나머지 논문 출처는 PubMed 초록으로 대조(PMID·DOI·권호 일치).",
+  "세포·동물 결과는 safety·genetics 절에서 이미 '세포·동물 수준', '바르는 모델만', '암세포 실험'으로 한정되어 있어 과장 없음. 잎 자료는 '국내 사용 부위 아님'으로 구분되어 있음.",
+  "국문명·식품원료 지위(우니몰리내, 사용가능, 사용가능부위 열매, 원료명 3개)는 card.json과 일치. 통계청·특용작물 통계 파일에 이 종 항목 없음(production 빈 목록 타당)."
+ ]
+}

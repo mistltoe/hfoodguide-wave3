@@ -1,0 +1,448 @@
+{
+ "slug": "shorea-robusta",
+ "name_ko": "사라수오일",
+ "name_en": "Sal (sal seed fat)",
+ "scientific_name": "Shorea robusta Gaertner f.",
+ "aliases": [
+  "사라수",
+  "사라수나무열매",
+  "살",
+  "로부스타",
+  "Sal",
+  "sal fat",
+  "sal seed oil"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "사라수오일은 이엽시과(Dipterocarpaceae) 나무인 사라수(살, Shorea robusta)의 씨앗에서 얻는 지방으로, 영어로는 살(Sal)이라고 한다[1, 2]. 식품의약품안전처 「식품원료 목록」에서 사라수는 식품에 쓸 수 있는 원료(사용가능)이며, 원료명은 '사라수오일'과 '사라수나무열매', 사용 조건은 '사용가능부위 : 열매'다[1]. 같은 목록 자료에는 건강기능식품 고시형 원료의 원재료나 다른 나라 원료 목록에 올라 있다는 표시가 없다[1].\n\n씨앗 속살(인)에는 기름이 약 20% 들어 있고, 지방산은 스테아르산(45.06%)과 올레산(38.23%)이 대부분이다[2]. 이 조성 때문에 상온에서 굳는 지방이 되며, 초콜릿의 코코아버터를 대신하는 코코아버터 대체지(CBE)로 연구·사용돼 왔다[2, 3]. 건강한 남성 17명이 참여한 교차 시험에서 사라수 지방으로 만든 브라우니는 코코아버터로 만든 것과 식후 혈당·인슐린·중성지방 반응에 차이가 없었다[3]. 같은 Shorea 속의 다른 종에서 얻는 일리페 버터와는 다른 원료로, 「식품원료 목록」에도 일리페오일(Shorea spp., 사용가능부위 : 씨앗)이 따로 올라 있으며, 이 자료는 S. robusta만 다룬다[1, 22]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "사라수 숲 가까이 사는 주민들은 사라수 기름을 요리와 비누 만들기에 써 왔고, 상당량은 코코아버터 대체지로 유럽에 수출된다[2]. 사라수 지방은 예전에는 주로 식용유·가축 사료·의약품 산업·바이오디젤 원료로 쓰였으며, 1980년대 초부터 코코아버터 대체지 원료로 연구되었다[3]. 1967년 인도 수의학 학술지에는 껍질을 벗긴 사라수 씨앗을 닭 사료로 쓰는 예비 시험이 실렸다[25].\n\n씨앗 말고도 여러 부위가 전통적으로 쓰였다[15, 16]. 인도의 부족 공동체는 사라수 수지(나무진)를 감염된 상처와 화상 치료에 써 왔고, 랫드 실험에서 수지 메탄올 추출물의 분획과 수지 정유를 10% 넣은 연고가 절개·절제 상처 회복을 앞당겼다(동물 실험)[15]. 두 부족 공동체는 어린잎을 오래가는 열병에 썼다고 보고되었다[16]. 사라수는 남아시아의 질 좋은 목재로 이름났지만 지나친 벌채로 유전자원이 크게 줄었다는 지적이 있다[11]. 이런 전통 이용은 잎·수지에 대한 것이며 식품원료로 허용된 부위(열매)와는 다르다[1, 15, 16]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "사라수는 높이 50 m까지 자라는 낙엽성 큰키나무로, 인도·네팔·방글라데시·부탄의 아열대·열대림 약 1,400만 ha에 퍼져 있다[2]. 인도 습윤 낙엽수림의 우점종이며, 서식지 단편화·재생 부진·기후변화 때문에 IUCN 적색목록(2025)에서 '준위협(Near Threatened)'으로 분류되었다고 보고되었다[10]. 인도 동부(자르칸드·비하르·서벵골) 숲 870개 방형구 조사 자료로 만든 서식지 모형(MaxEnt)에서는 현재 기후에서 연구 지역의 약 12.13%가 사라수의 적합 서식지로, 조사한 6종 중 가장 넓었다[13].\n\n씨앗은 건조에 약한 '난저장성(recalcitrant)' 종자다[7, 8]. 갓 익은 씨앗은 수분 42.2%에서 발아율 100%였지만, 상온(26 °C 안팎)에서 마르면서 8일 안에 발아력을 잃었다[7, 8]. 마르는 동안 활성산소와 지질 과산화물이 늘고 지방 분해효소(리파아제·리폭시게나아제) 활성이 높아졌다[7]. 잎은 타사르누에(Antheraea mylitta)의 다른 먹이식물보다 탄닌과 산화환원 금속이 많았고, 이 잎으로 키우면 애벌레 성적이 나쁘며 애벌레 조직에 산화 스트레스가 커졌다(탄닌이 원인이라고 확정한 것은 아님)[21]. 네팔 파르사 야생동물보호구역·치트완 국립공원에서는 아시아코끼리 먹이의 6.3%를 차지했다[24]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동 주의",
+   "body": "사라수가 속한 Shorea 속에는 여러 종이 있고, 그중 일부 종의 씨앗 지방은 '일리페(보르네오 탤로우·텡카왕)'라는 다른 이름으로 거래된다[22]. 유럽연합 초콜릿 지침(2000/36/EC) 부속서 II는 코코아버터 대신 쓸 수 있는 식물성 지방으로 일리페(Shorea spp.)와 살(Shorea robusta)을 따로 적고, 팜유·시어·코쿰·망고 씨 지방도 함께 올려 두었다(원문 미확인, 검색 요약)[22]. 따라서 일리페 버터의 성분·생산 자료를 사라수오일 자료로 옮겨 쓰면 안 된다[22].\n\n코코아버터와 지방산·트라이아실글리세롤 조성이 얼마나 비슷한지 점수로 매긴 연구에서 사라수 지방은 84.7점으로, 망고 씨 지방(76.3), 코쿰(78.3), 팜 중간 분획(77.9), 시어버터(64.0)보다 높았고 일리페 버터(89.7)보다는 낮았다[4]. 인도 동부 숲에서는 Terminalia alata, Pterocarpus marsupium, Madhuca longifolia 등과 함께 자란다[13]. 마후아(Madhuca) 기름·망고 씨 기름과 함께 대칭형 트라이글리세라이드가 많아 코코아버터 대체지로 상업적 가치가 있다고 정리되었다[6]."
+  },
+  {
+   "key": "cultivation",
+   "title": "숲 관리와 채취",
+   "body": "사라수 씨앗은 천연 숲에서 모으며, 기름을 짜고 남은 깻묵도 숲에서 나는 산업 부산물(forest-based industrial by-product)로 소개된다[2, 19]. 인도 데라둔(우타라칸드) 연구에서는 5–6월에 숲에서 씨앗을 모아 햇볕에 말린 뒤 냉장 보관했다[2]. 씨앗이 며칠 만에 발아력을 잃는 난저장성이어서 채집 직후 다루는 방식이 중요하다[7].\n\n네팔 남부 평야의 불규칙 산벌작업(irregular shelterwood system) 관리 구역에서는 대조 구역보다 사라수 실생묘·어린나무 밀도가 유의하게 높았지만, 다른 나무 종의 다양성은 줄었다[12]. 인도 북서 히말라야 사라수 숲 7개 구획의 총 생물량은 123.89–487.35 Mg/ha, 생태계 탄소 밀도는 114.53–287.58 Mg C/ha로 입지에 따라 크게 달랐다[14]. 기후변화 시나리오에서는 2050년까지 인도 동부의 적합 서식지가 약 14–67% 줄고 북쪽으로 옮겨 갈 것으로 예측되었다[13]. 국내에는 사라수 재배나 생산 통계가 없어 국내 생산량은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "사라수 씨앗 기름은 압착이나 용매 추출로 얻는다[2]. 반응표면분석으로 n-헥산 속슬렛 추출 조건을 최적화한 연구에서는 씨앗 가루 20 g, 용매 399 mL, 4.16시간에서 수율 20.58%를 얻었다[2]. 얻은 기름은 녹갈색이고 유리지방산 0.30%, 과산화물가 1.23 meq O₂/kg, 산가 5.37 mg KOH/g, 비누화가 172.08 mg KOH/g이었다[2]. 기름 추출물의 총페놀은 3.17 mg GAE/g, 총플라보노이드는 2.01 mg QE/g이었다[2].\n\n코코아버터 대체지를 만들 때는 사라수 지방을 팜 올레인과 섞어 함께 분별(co-fractionation)하면 말레이시아산 코코아버터에 더 가까운 트라이글리세라이드 조성과 굳는 성질을 얻었다[5]. 사라수 지방과 코코아버터를 에틸셀룰로오스로 굳힌 올레오젤로 바꾸면 식후 인슐린·중성지방 상승 면적이 액상 지방보다 작았다[3]. 기름을 짜고 남은 깻묵은 단백질분해효소 생산 배지 첨가물로, 씨앗은 열분해 바이오연료 원료로도 연구되었다[19, 20]. 국내에서 사라수오일 제품의 생산실적 자료는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "사라수는 2009년 다른 Shorea 종의 마이크로새틀라이트 27개를 교차 증폭한 연구에서 처음 분자표지가 보고되었고, 24개가 증폭되고 5개가 다형성을 보였다[11]. 2023년 저심도 유전체 해독에서는 약 10 Gb 서열로 추정 유전체 크기 357.11 Mb(29배 깊이)를 얻었고, 반복서열 57,702개에서 SSR 프라이머 35,049쌍을 설계했다[9]. 잎에 폴리페놀·다당류가 많아 DNA 추출을 방해하므로, 잎 1 g에서 약 1,500 µg의 DNA를 얻는 전용 추출법이 따로 개발되었다[23].\n\n인도 18개 집단 507그루를 종 특이 SSR 10개로 분석한 2026년 연구에서 기대 이형접합도 0.761, 관찰 이형접합도 0.585로 유전 다양성이 높았고, 집단 간 분화(Fst 0.116)는 중간 수준이었다[10]. 집단은 크게 두 유전 군집으로 나뉘었고, 유전 구조는 환경 차이보다 지리적 거리로 더 잘 설명되었다[10]. 테라이 지역과 시왈리크 구릉은 마지막 최대 빙하기 이후 기후 적합성이 안정적이어서 피난처 역할을 했을 것으로 보았다[10]. 씨앗 지방 조성을 좌우하는 유전자 연구는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품의약품안전처 「식품원료 목록」에서 사라수는 열매를 쓸 수 있는 사용가능 원료이며, 제한적 사용 조건은 붙어 있지 않다[1]. 국내 공공기관의 사라수오일 알레르기·잔류·독성 정보는 확인하지 못함. 건강한 남성 17명의 무작위 교차 시험에서 사라수 지방 25 g이 든 브라우니는 코코아버터 브라우니와 혈당·인슐린·중성지방 반응에 유의한 차이가 없었고 선호도도 비슷했다[3]. 다만 단 한 끼, 소수 남성만 대상으로 한 결과여서 연구진도 해석에 주의가 필요하다고 밝혔다[3].\n\n사라수 기름은 포화지방산이 51.98%로 많고 그 대부분이 스테아르산이다[2]. 스테아르산은 팔미트산과 달리 콜레스테롤에 중립적이라고 보고되지만, 하루 에너지의 9%를 넘는 많은 섭취는 LDL 콜레스테롤 상승 등과 관련된다는 보고가 있어 지방 섭취 총량을 조절하라고 권했다[2]. 불검화물 분석에서는 강심배당체 계열 카르데놀라이드인 지톡시게닌이 상당량 검출되었다는 보고가 있으나, 함량과 정제유에 남는 양은 초록만으로 확인하지 못함[6]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산",
+   "class": "포화지방산",
+   "role": "marker",
+   "part": "씨앗 속살(인) 기름",
+   "content_text": "총지방산의 45.06%(n-헥산 속슬렛 추출유, GC)[2]; 선행 연구 인용값 49.38%, 45.11%[2]",
+   "activity_ko": "사라수 기름에서 가장 많은 지방산으로, 높은 녹는점(35–38 °C)과 산화 안정성, 코코아버터와 비슷한 질감을 주는 바탕이 됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산(오메가-9)",
+   "role": "nutrient",
+   "part": "씨앗 속살(인) 기름",
+   "content_text": "총지방산의 38.23%[2]; 선행 연구 인용값 34.69%, 36.2%[2]",
+   "activity_ko": "스테아르산과 함께 대칭형 트라이글리세라이드를 이루는 주요 불포화지방산[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "씨앗 속살(인) 기름",
+   "content_text": "선행 연구 인용값 7.35%, 5.91%(총지방산 중)[2]",
+   "activity_ko": "팔미트산이 많은 팜유와 달리 사라수 기름은 스테아르산이 주성분이라는 점이 대비됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Arachidic acid",
+   "name_ko": "아라키드산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "씨앗 속살(인) 기름",
+   "content_text": "선행 연구 인용값 8.56%(총지방산 중)[2]",
+   "activity_ko": "사라수 기름의 소수 포화지방산[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "gamma-Linolenic acid",
+   "name_ko": "감마-리놀렌산",
+   "class": "다가불포화지방산(오메가-6)",
+   "role": "bioactive",
+   "part": "씨앗 속살(인) 기름",
+   "content_text": "총지방산의 6.86%(한 연구, GC 머무름 시간 대조로 동정; 같은 논문이 ω-6 지방산 합계를 1.95%로 적어 수치가 서로 맞지 않음)[2]",
+   "activity_ko": "흔한 식용유에는 거의 없는 지방산으로 연구진이 주목했으나 다른 연구에서 확인한 값은 확인하지 못함[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "베타-시토스테롤",
+   "class": "식물스테롤",
+   "role": "bioactive",
+   "part": "씨앗 기름 불검화물",
+   "content_text": "불검화물 스테롤 중 가장 많음(HPTLC 정량, 수치는 초록에 없음)[6]",
+   "activity_ko": "사라수·마후아·망고 씨 기름 모두에서 가장 많은 스테롤[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Gitoxigenin",
+   "name_ko": "지톡시게닌",
+   "class": "카르데놀라이드(강심배당체 아글리콘)",
+   "role": "bioactive",
+   "part": "씨앗 기름 불검화물",
+   "content_text": "'상당량(appreciable amount)' 검출, 수치는 초록에 없음[6]",
+   "activity_ko": "다른 기름과 구별하는 지표가 될 수 있는 미량 성분으로 보고됨[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Squalene",
+   "name_ko": "스쿠알렌",
+   "class": "트라이테르펜 탄화수소",
+   "role": "bioactive",
+   "part": "씨앗 기름 불검화물",
+   "content_text": "검출(수치는 초록에 없음)[6]",
+   "activity_ko": "사라수·마후아·망고 씨 기름 모두에 있는 탄화수소 성분[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "아스코르브산(비타민 C)",
+   "class": "수용성 비타민",
+   "role": "nutrient",
+   "part": "씨앗(배축·떡잎)",
+   "content_text": "갓 익은 씨앗 배축 0.32 mg/g, 떡잎 0.21 mg/g(생중량); 발아력을 잃은 씨앗에서는 검출되지 않음[8]",
+   "activity_ko": "씨앗이 마르며 함량이 급감하고 발아력 상실과 강하게 상관됨[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Germacrene D",
+   "name_ko": "게르마크렌 D",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "심재·수지 정유(식품원료 부위 아님)",
+   "content_text": "심재·수지 정유 모두의 주성분(함량 수치는 초록에 없음; 확인된 9종·17종 성분이 각 정유의 80.35%·78.43%)[17]",
+   "activity_ko": "수지 정유의 주 휘발 성분[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "T-Cadinol",
+   "name_ko": "T-카디놀",
+   "class": "세스퀴테르펜 알코올",
+   "role": "bioactive",
+   "part": "인피(형성층+2차 체관부) 정유(식품원료 부위 아님)",
+   "content_text": "정유의 16.75%[18]",
+   "activity_ko": "심재 천공충의 기주 탐색에 관여할 수 있는 휘발 성분으로 제시됨[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "alpha-Cadinol",
+   "name_ko": "알파-카디놀",
+   "class": "세스퀴테르펜 알코올",
+   "role": "bioactive",
+   "part": "인피 정유(식품원료 부위 아님)",
+   "content_text": "정유의 16.45%[18]",
+   "activity_ko": "T-카디놀과 함께 인피 정유의 주성분[18]",
+   "source": [
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Stearic acid",
+   "compound_ko": "스테아르산(지방산 메틸에스터 GC 정량)",
+   "part": "씨앗 속살(인) 기름(인도 데라둔 숲에서 5–6월 채집)",
+   "content": "총지방산의 45.06%(올레산 38.23%, 감마-리놀렌산 6.86%; 포화 51.98%, 단일불포화 38.68%, 다가불포화 9.34%)[2]",
+   "method": "GC(FAME)",
+   "conditions": {
+    "instrument": "Agilent 8860 가스크로마토그래프",
+    "column": "HP-88, 100 m × 250 μm × 0.2 μm",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "오븐 100 °C 5분 → 1 °C/분으로 230 °C, 10분 유지(칼럼 사용 범위 0–260 °C)",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "",
+    "injection": "2 μL, 분할비 10:1",
+    "sample_prep": "기름 0.5 g을 n-헥산 2 mL에 녹이고 0.5 N 메탄올성 KOH 1 mL 넣어 2분 혼합 → 층 분리 후 위층(FAME) 여과",
+    "standard": "지방산 표준품과 머무름 시간 비교로 동정, 표준품 피크 면적 대비로 계산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "스테아르산이 사라수 지방에서 가장 많고 코코아버터 대체지로서의 성질(높은 녹는점·고형성)을 결정하므로 품질 지표로 적합하다[2]. 전문 Methods를 확인했으나 검출기 종류·주입구 온도·직선성·검출한계·회수율은 적혀 있지 않아 비워 둠[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12757558/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "beta-Sitosterol",
+   "compound_ko": "베타-시토스테롤 등 불검화물 성분(HPTLC 정량)",
+   "part": "씨앗 기름 불검화물",
+   "content": "스테롤 중 가장 많음, 지톡시게닌 상당량, 스쿠알렌 검출(수치는 초록에 없음)[6]",
+   "method": "TLC·GC·GC-MS 동정, HPTLC 정량",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "불검화물 성분 조성은 특정 기름이 배합물에 들어갔는지 판별하고 안정성·영양 품질을 평가하는 데 쓸 수 있다고 연구진이 제시했다[6]. 전문 확인 못함(초록만 확인)이라 분석 조건은 비워 둠[6].",
+   "source": [
+    6
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20299763/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 사라수(Shorea robusta Gaertner f.), 원료명 사라수오일·사라수나무열매",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Process optimization for the extraction of Shorea robusta (Sal) seed oil using response surface methodology and its characterization. Food Chem X 2025;32:103380 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12757558/",
+   "publisher": "Food Chemistry: X (Elsevier), doi:10.1016/j.fochx.2025.103380",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Effects of Cocoa Butter and Cocoa Butter Equivalent in a Chocolate Confectionery on Human Blood Triglycerides, Glucose and Insulin. Foods 2020;9(4):455 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231202/",
+   "publisher": "Foods (MDPI), doi:10.3390/foods9040455",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Evaluation model for cocoa butter equivalents based on fatty acid compositions and triacylglycerol patterns. Food Sci Biotechnol 2019;28(6):1649-1658 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31807337/",
+   "publisher": "Food Science and Biotechnology, doi:10.1007/s10068-019-00630-8",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Effect of co-fractionation technique in the preparation of palm oil and sal fat based cocoa butter equivalent. Int J Food Sci Nutr 1996;47(1):15-22 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8616668/",
+   "publisher": "International Journal of Food Sciences and Nutrition, doi:10.3109/09637489609028556",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Analysis of sterol and other components present in unsaponifiable matters of mahua, sal and mango kernel oil. J Oleo Sci 2010;59(4):169-176 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20299763/",
+   "publisher": "Journal of Oleo Science, doi:10.5650/jos.59.169",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "ROS production and lipid catabolism in desiccating Shorea robusta seeds during aging. Plant Physiol Biochem 2012;57:261-267 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22766395/",
+   "publisher": "Plant Physiology and Biochemistry, doi:10.1016/j.plaphy.2012.06.008",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Ascorbic acid metabolism in ageing recalcitrant sal (Shorea robusta Gaertn. f.) seeds. Indian J Exp Biol 2000;38(10):1031-1035 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11324156/",
+   "publisher": "Indian Journal of Experimental Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Genome-wide characterization leading to simple sequence repeat (SSR) markers development in Shorea robusta. Funct Integr Genomics 2023;23(1):51 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9883139/",
+   "publisher": "Functional & Integrative Genomics, doi:10.1007/s10142-023-00975-8",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Demographic history, spatiotemporal genetic structure and climate vulnerability of Shorea robusta: a keystone species of moist deciduous forest in India. Physiol Mol Biol Plants 2026;32(10):2337-2355 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13675446/",
+   "publisher": "Physiology and Molecular Biology of Plants, doi:10.1007/s12298-026-01822-3",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Successful cross-amplification of Shorea microsatellites reveals genetic variation in the tropical tree, Shorea robusta Gaertn. Hereditas 2009;146(1):29-32 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19348654/",
+   "publisher": "Hereditas, doi:10.1111/j.1601-5223.2009.02070.x",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Implications of irregular shelterwood system on regeneration and species diversity of Sal (Shorea robusta Gaertn. f.) forest in Nepal. Heliyon 2023;10(1):e23156 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10754901/",
+   "publisher": "Heliyon, doi:10.1016/j.heliyon.2023.e23156",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Conservation of forest genetic resources in eastern India amidst climate change and abiotic stress. Environ Monit Assess 2026;198(8) (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42501147/",
+   "publisher": "Environmental Monitoring and Assessment, doi:10.1007/s10661-026-15731-1",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Assessment of biomass and carbon stock in subtropical Sal (Shorea robusta Gaertn. f.) forests in the North Western Himalayas. Sci Rep 2025;15:37827 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12572214/",
+   "publisher": "Scientific Reports, doi:10.1038/s41598-025-21698-9",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Wound healing activity of extracts derived from Shorea robusta resin. Pharm Biol 2016;54(3):542-548 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26030465/",
+   "publisher": "Pharmaceutical Biology, doi:10.3109/13880209.2015.1052886",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Validation of a traditional preparation against multi-drug resistant Salmonella Typhi and its protective efficacy in S. Typhimurium infected mice. Biomed Pharmacother 2018;99:286-289 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29353202/",
+   "publisher": "Biomedicine & Pharmacotherapy, doi:10.1016/j.biopha.2018.01.057",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "GC-MS analysis of essential oils of heartwood and resin of Shorea robusta. Planta Med 2001;67(9):883-886 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11745034/",
+   "publisher": "Planta Medica, doi:10.1055/s-2001-18857",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "GC-MS analysis of essential oil of Shorea robusta bast. J Asian Nat Prod Res 2003;5(3):231-234 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12931858/",
+   "publisher": "Journal of Asian Natural Products Research, doi:10.1080/1028602031000105821",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Effectiveness of sal deoiled seed cake as an inducer for protease production from Aeromonas sp. S1 for its application in kitchen wastewater treatment. Appl Biochem Biotechnol 2013;170(8):1896-1908 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23780343/",
+   "publisher": "Applied Biochemistry and Biotechnology, doi:10.1007/s12010-013-0323-y",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Pyrolysis of sal seed to liquid product. Bioresour Technol 2013;151:432-435 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24268507/",
+   "publisher": "Bioresource Technology, doi:10.1016/j.biortech.2013.10.087",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Host plant-derived allelochemicals and metal components are associated with oxidative predominance and antioxidant plasticity in the larval tissues of silkworm, Antheraea mylitta. Comp Biochem Physiol B 2018 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29966773/",
+   "publisher": "Comparative Biochemistry and Physiology Part B, doi:10.1016/j.cbpb.2018.06.004",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Directive 2000/36/EC (cocoa and chocolate products) Annex II — vegetable fats other than cocoa butter (legislation.gov.uk 사본; 원문을 직접 열지 못하고 WebSearch 결과 요약으로만 확인)",
+   "url": "https://www.legislation.gov.uk/eudr/2000/36/annex/II",
+   "publisher": "European Parliament and Council (legislation.gov.uk 보관본)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "An improved Shorea robusta genomic DNA extraction protocol with high PCR fidelity. Biol Methods Protoc 2023;8(1):bpad039 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10728041/",
+   "publisher": "Biology Methods & Protocols, doi:10.1093/biomethods/bpad039",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Feeding preferences of the Asian elephant (Elephas maximus) in Nepal. BMC Ecol 2016;16:54 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5114758/",
+   "publisher": "BMC Ecology, doi:10.1186/s12898-016-0105-9",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Use of decorticated sal (Shorea robusta) seed as poultry feed — a preliminary trial. Indian Vet J 1967;44(8):706-711 (서지 정보만, 초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5625801/",
+   "publisher": "The Indian Veterinary Journal",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

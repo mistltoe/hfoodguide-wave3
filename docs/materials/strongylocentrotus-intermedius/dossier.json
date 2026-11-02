@@ -1,0 +1,578 @@
+{
+ "slug": "strongylocentrotus-intermedius",
+ "name_ko": "새치성게",
+ "name_en": "Intermedial sea urchin",
+ "scientific_name": "Strongylocentrotus intermedius",
+ "aliases": [
+  "새치성게",
+  "Intermedial sea urchin",
+  "gray sea urchin",
+  "short-spined sea urchin"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "새치성게(Strongylocentrotus intermedius)는 Strongylocentrotidae 과에 속하는 바다 성게로, 식약처 「식품원료 목록」에 '새치성게'라는 이름으로 실려 있다[1]. 목록에서 이 종은 '사용가능' 원료이고, 쓸 수 있는 부위 칸은 '-'로 비어 있으며 따로 붙은 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료로는 연결되어 있지 않다[1].\n\n먹는 부위는 흔히 '알'이라 부르는 생식소이며, 암컷과 수컷의 생식소를 모두 먹는다[24]. 연구자들은 생식소를 성게에서 먹을 수 있는 유일한 부분으로 설명한다[2, 22]. 이 종은 맛이 좋은 성게 가운데 하나로 꼽힌다[24].\n\n이 종은 일본·한국·중국 동북부의 태평양 연안 찬물에 사는 상업 종이다[2]. 한국에서는 동해 얕은 연안에 자연 분포한다고 보고되었다[7]. 생식소에는 EPA를 중심으로 한 다가불포화지방산(PUFA)이 많아 영양·양식 연구가 집중되어 있다[2, 10]. 껍데기에는 스피노크롬이라는 나프토퀴논 색소가 들어 있다[6]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "이 종은 일본 홋카이도 연안이 원산이며, 1989년 중국 다롄해양대학이 중국으로 들여왔다[2, 3, 4]. 이후 중국 북부의 주요 양식 품종이 되었고, 연간 경제 가치는 약 1억 위안으로 추정된다[4]. 2026년 유전체 논문은 이 종을 중국에서 상업적으로 양식되는 유일한 성게 종으로 소개했다[5].\n\n어업 자원으로서 이 종은 일본·북한·러시아·중국에서 경제적 중요성이 크다고 기술되었다[23]. 성게 생식소는 아시아·지중해·미주 일부 나라에서 독특한 식감과 맛, 높은 영양가로 귀하게 여겨진다[4]. 한국 연구진은 회색성게(gray sea urchin)가 아시아·태평양 지역에서 몸 상태를 좋게 하는 민간 요법으로 오래 쓰였다고 적었다[7].\n\n러시아에서는 성게 알을 동결건조한 식품 보충제와 성게 알을 넣은 보충제가 연구·판매되었다고 총설이 소개했다[6]. 다만 그 보충제의 원료 성게가 이 종인지는 원문에서 확인하지 못함. 국내의 전통 식용 기록이나 이용 역사를 다룬 공공기관 자료는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징·생태",
+   "body": "이 종은 영문으로 회색성게(gray sea urchin)라고도 불리며, 오호츠크해 남부와 동해(일본해)의 얕은 연안에 흔하다[6]. 주로 암반 바닥에 살지만 모래 바닥이나 해초 군락에서도 발견된다[6]. 성숙한 개체의 껍데기 지름은 3–8 cm이고 무게는 160–170 g까지 이르며, 가시와 껍데기 색은 붉은색·보라색·초록색·회색·갈색 등으로 다양하다[6].\n\n어릴 때는 미세조류 막을 먹고 성체가 되면 갈조류를 먹는다[6]. 산란기는 동해에서 5–6월과 9–10월, 오호츠크해에서는 6–10월이다[6]. 수정 뒤 48시간이면 플루테우스 유생이 되고, 1년이면 껍데기 지름이 평균 0.65 cm가 되며, 약 3년이면 성숙한다[6].\n\n중국 연구진의 1–7월 관찰에서 생식소 무게는 1월 0.70 ± 0.18 g(회복기)에서 7월 8.78 ± 2.89 g(생식기)로, 생식소지수(GSI)는 4.02 ± 0.88%에서 16.86 ± 2.79%로 늘었다[10]. 생식소의 영양 식세포는 배우자 형성이 시작될 때 영양분을 쌓았다가 자라는 배우자에게 넘겨 준다[31]. 소화관의 주요 단백질 분해효소인 서브틸라제는 위와 앞쪽 장에 주로 있었다[30]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "핵 유전자 2,301개로 만든 계통수에서 이 종은 Strongylocentrotus droebachiensis 와 가장 가까운 자매종으로 묶였다[8]. 같은 과의 Mesocentrotus nudus·M. franciscanus 와 Hemicentrotus pulcherrimus 는 다른 속으로 갈라져 있어 이 종과 구별해야 한다[8]. 미토콘드리아 유전자로는 믿을 만한 계통수를 얻지 못했다[8].\n\n전장 유전체 자료를 쓴 연구는 이 과의 아홉 종 가운데 여덟 종에서 다른 종과의 유전자 유입(introgression) 흔적을 찾았다[9]. 생식세포 사이의 불화합성이 잡종화를 완전히 막지 못했다는 뜻이다[9].\n\n근연종 nudus 는 문헌에 따라 Strongylocentrotus nudus[12, 14] 또는 Mesocentrotus nudus[8, 15]로 적혀 있으며, 생식소 카로티노이드·지질 연구는 이 종과 그 종의 자료를 나란히 보고했다[12, 14]. 생식소 단백질 연구도 M. nudus·Glyptocidaris crenularis 와 이 종을 따로 비교했다[15]. 이 문서의 성분 값은 이 종으로 명시된 자료만 옮겼다[14, 15].\n\n이름은 식품원료 목록에 영문 'Intermedial sea urchin'으로, 논문에는 gray sea urchin, short-spined sea urchin 으로도 적혔다[1, 6, 30]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·어획",
+   "body": "중국의 이 종 양식은 다시마 같은 대형 갈조류를 주 먹이로 하지만, 해조류 공급과 영양이 계절마다 달라 배합사료 연구가 많다[3, 4]. 배합사료를 먹인 성게는 GSI가 높았지만 생식소의 붉은빛·노란빛과 단단함이 다시마를 먹인 성게보다 떨어졌다[4]. 마지막 11주 동안 다시마를 먹이자 사료군 생식소의 노란빛과 EPA가 늘었다[4].\n\n사료 첨가물 연구에서 고춧가루 1.0% 첨가 사료는 성장률이 가장 높았고, 1.0%·2.0% 첨가는 생식소 색을 좋게 하고 생식소 조단백·조지방을 늘렸다[26]. 작잠 번데기 분말 1.0% 첨가 사료는 사료군 가운데 체중 증가율과 생식소 무게가 가장 높았다[3]. 사료의 인지질 종류는 생식소의 장쇄 PUFA 축적에 영향을 주었다[25].\n\n실험 사육 수온은 다시마 보충 실험에서 5–12.1 °C, 사료 첨가 실험에서 13–15 °C였다[3, 4]. 고수온 스트레스는 DNA 메틸화와 유전자 발현을 바꾸고 성장을 억제했다[28]. 겉모습으로 암수를 구별할 수 없어 성 판별 SNP가 개발되었고, 조사한 양식 집단의 성비는 1:1이 아니었다[22]. 국내 새치성게의 종별 어획·양식 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출 연구",
+   "body": "세 종의 성게 생식소에서 기름을 뺀 뒤 등전점 용해·침전으로 단백질을 분리한 연구에서, 이 종의 단백질 분리물은 필수아미노산 공급원이 될 수 있었다[15]. 이 종 분리물은 총 설프하이드릴과 이황화 결합이 세 종 가운데 가장 많았고, 빵·육가공품·유화제 재료로 쓸 가능성이 제시되었다[15].\n\n생식소 맛과 관련해, 다시마 보충 실험에서 글리신이 생식소에서 가장 많은 아미노산이었다[4]. 원문은 단백질이 많은 배합사료가 쓴맛 아미노산을 늘리는 경향이 있다고 적었다[4].\n\n국립해양생물자원관이 강원 고성에서 채집한 개체를 씻어 동결건조·분쇄한 뒤 70% 에탄올로 추출한 추출물은 3T3-L1 지방세포에서 지방 축적을 줄였다(세포 실험)[7]. 이 추출물의 총페놀은 17.78 ± 0.08 mg GAE/g, 총플라보노이드는 12.67 ± 0.1 mg RE/g이었다[7].\n\n껍데기 색소 추출물에는 스피노크롬 A–E와 이량체 나프토퀴논이 들어 있으며, 이 계열 색소는 항산화·항균 활성이 연구되었다[6]. 이 종을 원료로 한 국내 건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2026년 발표된 염색체 수준 유전체는 길이 704.9 Mb, 콘티그 N50 1.5 Mb, 스캐폴드 N50 30 Mb이며, 전체 길이의 97.77%가 21개 염색체에 배치되었다[5]. BUSCO 완전도는 91.72%, 단백질 암호 유전자는 23,127개, 반복서열은 42.18%였다[5]. 앞선 핵형 분석은 2n = 42 (20m + 20sm + 2st)로 보고했다[5].\n\n이 유전체에서는 지방산 사슬을 늘이는 Elovl 유전자 가족이 확장되어 있어, 성게가 스스로 지방산을 만드는 능력이 크다고 해석되었다[5]. 암컷은 생식소 발달 후기까지 불포화지방산 합성이 활발했고, 수컷은 초기에 더 활발했다[5].\n\n생식소 전사체·대사체 연구에서 Aldh7a1·Ecm3·Fads2·Hsd17b12 유전자의 발현 양상이 EPA 농도 변화와 비슷했다[2]. 생식소 전사체 원자료는 NCBI SRA(PRJNA532998)에 공개되었다[24]. 지방산 불포화효소 SiFad1 유전자는 장에서 가장 많이, 아리스토텔레스 등불(턱 기관)에서 가장 적게 발현되었다[29]. 성 연관 SNP는 수컷에서만 발현되는 유전자 안에 있었다[22]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료 목록에서 새치성게는 '사용가능'이며 사용 조건이 따로 없다[1]. 건강기능식품 고시형 원료가 아니어서 고시의 섭취 시 주의사항은 없다[1]. 성게가 국내 알레르기 유발물질 표시 대상에 들어 있는지는 공공기관 원문으로 확인하지 못함.\n\n성게 알을 먹은 뒤 생긴 아나필락시스가 2007년 처음 보고되었는데, 이 환자는 새우·게·조개 등에는 피부시험 음성이었고 신선한 성게 알 피부단자시험에만 강한 양성이었다[17]. 일본 연구는 성게 알의 주요 알레르겐을 주요 난황 단백질(약 152 kDa)로 확인했다[16]. 두 보고에서 쓴 성게의 종은 초록에서 확인하지 못함.\n\n이 종의 생식소는 환경 오염물질을 쌓을 수 있다[20, 27]. 중유 수용성 분획에 노출하면 암컷 생식소에 다환방향족탄화수소가 더 많이 쌓였고, 염화카드뮴 50–100 μg/L 에 130일 노출하면 난소에 카드뮴이 쌓였다[21, 27]. 동해 조사에서는 생식소 중금속 농도를 쟀지만 초록에 수치가 없다[20]. 적조 독소 오카다산 5 μg/L 노출은 어린 성게의 관족 기능을 떨어뜨렸고, 원문은 적조 때 독소 축적 위험을 지적했다[18]. PFOA·GenX 2 μg/L 노출도 생식소 발달을 억제했다[19]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "오메가-3 다가불포화지방산",
+   "role": "nutrient",
+   "part": "생식소",
+   "content_text": "원문은 EPA를 생식소 PUFA의 주성분으로 적음(수치는 본문·초록에 없음); 다시마군이 배합사료군보다 유의하게 높음",
+   "activity_ko": "생식소 영양가를 결정하는 핵심 지방산으로 다뤄졌고, 난소에서는 2단계 농도가 1단계의 3배였다[2]. 다시마 보충 급이로 사료군 생식소 EPA가 늘었다[4]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산(ARA)",
+   "class": "오메가-6 다가불포화지방산",
+   "role": "nutrient",
+   "part": "생식소",
+   "content_text": "수치 없음; 원문 설명: 생식소 LC-PUFA는 ARA·EPA가 많고 DHA는 미량",
+   "activity_ko": "대두 레시틴 급이 이력이 있는 성게에서 다시마 보충 후 유의하게 늘었다[4]. 생식소 대사체에서 PUFA 관련 차등 대사물로 검출되었다[2]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Echinenone",
+   "name_ko": "에키네논",
+   "class": "카로티노이드(케토카로티노이드)",
+   "role": "bioactive",
+   "part": "생식소",
+   "content_text": "초록에 수치 없음; 암수 모두 방란·방정 단계에서 함량 최고",
+   "activity_ko": "카로틴과 함께 생식소의 두 주요 카로티노이드 분획이다[14]. 성게 생식소의 주된 카로티노이드로 생식소 색과 양의 상관이 있다고 원문이 설명했다[4]",
+   "source": [
+    4,
+    14
+   ]
+  },
+  {
+   "name": "Carotene",
+   "name_ko": "카로틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "생식소",
+   "content_text": "초록에 수치 없음('carotenes' 분획); 방란·방정 단계에서 함량 최고",
+   "activity_ko": "생식소의 두 주요 카로티노이드 분획 가운데 하나다[14]. 다시마가 β-카로틴 공급원이어서 다시마 급이가 생식소 붉은·노란빛을 높인다고 원문이 설명했다[4]",
+   "source": [
+    4,
+    14
+   ]
+  },
+  {
+   "name": "Spinochrome D",
+   "name_ko": "스피노크롬 D",
+   "class": "폴리하이드록시 1,4-나프토퀴논 색소",
+   "role": "marker",
+   "part": "껍데기",
+   "content_text": "색소 합계의 16.5 ± 5.7% (총설 표 2, 원 논문 인용)",
+   "activity_ko": "이 종 껍데기 색소에서 비율이 가장 높게 제시된 스피노크롬이다[6]. 스피노크롬 계열은 시험관 항산화·항균 활성이 보고되었다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Spinochrome C",
+   "name_ko": "스피노크롬 C",
+   "class": "폴리하이드록시 1,4-나프토퀴논 색소",
+   "role": "marker",
+   "part": "껍데기",
+   "content_text": "색소 합계의 9.2 ± 1.5% (총설 표 2)",
+   "activity_ko": "껍데기 나프토퀴논 색소의 하나다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Spinochrome B",
+   "name_ko": "스피노크롬 B",
+   "class": "폴리하이드록시 1,4-나프토퀴논 색소",
+   "role": "marker",
+   "part": "껍데기",
+   "content_text": "색소 합계의 4.0 ± 1.3% (총설 표 2)",
+   "activity_ko": "껍데기 나프토퀴논 색소의 하나다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Spinochrome A",
+   "name_ko": "스피노크롬 A",
+   "class": "폴리하이드록시 1,4-나프토퀴논 색소",
+   "role": "marker",
+   "part": "껍데기",
+   "content_text": "색소 합계의 3.3 ± 0.3% (총설 표 2)",
+   "activity_ko": "껍데기 나프토퀴논 색소의 하나다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Spinochrome E",
+   "name_ko": "스피노크롬 E",
+   "class": "폴리하이드록시 1,4-나프토퀴논 색소",
+   "role": "marker",
+   "part": "껍데기",
+   "content_text": "색소 합계의 3.1 ± 1.6% (총설 표 2); 에키노크롬 A는 이 종 열에 '-'로 표시",
+   "activity_ko": "껍데기 나프토퀴논 색소의 하나다[6]. 같은 총설 표에서 다른 성게(Scaphechinus mirabilis)는 에키노크롬 A가 89.1 ± 8.7%였으나 이 종은 표시되지 않았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Cholesterol",
+   "name_ko": "콜레스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "개체 전체(원문에 부위 명시 없음; 씻어 동결건조·분쇄)",
+   "content_text": "70% 에탄올 추출물 GC-MS 피크 면적의 36.71% (cholest-5-en-3-ol)",
+   "activity_ko": "추출물의 최대 성분이었다[7]. 이 추출물은 3T3-L1 세포에서 지방 축적을 줄였으나 사람 근거는 확인하지 못함[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "개체 전체(원문에 부위 명시 없음)",
+   "content_text": "70% 에탄올 추출물 GC-MS 피크 면적의 17.76% (n-hexadecanoic acid)",
+   "activity_ko": "추출물의 두 번째 주성분이었다[7]. 성게 생식소에 팔미트산 같은 포화지방산이 많다고 다른 원문도 설명했다[4]",
+   "source": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Glycine",
+   "name_ko": "글리신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "생식소",
+   "content_text": "두 실험 단계 모두 생식소에서 가장 많은 아미노산(수치는 표에 있어 확인하지 못함)",
+   "activity_ko": "성게 생식소의 단맛에 기여한다고 원문이 설명했고, 다시마군에서 가장 높았다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Phosphatidylcholine",
+   "name_ko": "포스파티딜콜린",
+   "class": "글리세로인지질",
+   "role": "nutrient",
+   "part": "생식소",
+   "content_text": "세 종(이 종·S. nudus·G. crenularis) 혼합 범위로 생식소 지질의 인지질 39.45–50.30%, 인지질 중 PC 67.88–72.58 mol%(종별 값은 초록에 없음); 이 종 생식소 콜린 인지질의 1-O-alkyl 아형 46.1%",
+   "activity_ko": "주요 인지질 분자종 대부분이 EPA 같은 PUFA를 달고 있었다[12]. 암컷 생식소의 주된 지질 종류였고, PC(42:11)가 PUFA가 많은 개체의 표지로 제안되었다[11]. 콜린 인지질의 에테르 결합 아형 비율이 매우 높았다[13]",
+   "source": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Major yolk protein",
+   "name_ko": "주요 난황 단백질",
+   "class": "당단백질",
+   "role": "bioactive",
+   "part": "생식소(알)",
+   "content_text": "함량 수치 없음; 분자량 152 kDa, pI 6.9 (면역블롯에서는 160 kDa 띠)",
+   "activity_ko": "성게 알 알레르기 환자의 IgE가 결합한 주요 알레르겐으로 확인되었다(성게 종은 초록에 없음)[16]",
+   "source": [
+    16
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acids (EPA, ARA)",
+   "compound_ko": "지방산 조성(EPA·ARA)",
+   "part": "생식소",
+   "content": "본문에 수치 없음(지방산 값은 표에만 있고 도구 전문에 표 수치가 빠짐); 단위 g/100 g",
+   "method": "GC-MS (지방산 메틸에스터, 내부표준법)",
+   "conditions": {
+    "instrument": "Thermo Fisher Trace 1310 ISQ",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "주입구·검출기 209 °C; 오븐 80→200 °C(10 °C/min), 200→250 °C(5 °C/min), 250→270 °C(2 °C/min)",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "시료의 지방산을 모두 메틸에스터화(Zuo 등 방법 인용)",
+    "standard": "내부표준 methyl nonadecanoate(19:0)를 정해진 농도로 첨가, 피크 면적으로 정량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "EPA는 이 종 생식소 PUFA의 주성분이고 먹이에 따라 달라져 생식소 영양 품질 지표로 쓰였다[2, 4]. 칼럼·운반기체 조건은 원문에 없다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10667049/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids (glycine etc.)",
+   "compound_ko": "아미노산 조성(글리신 등)",
+   "part": "생식소",
+   "content": "본문에 수치 없음(표에만 있음); 결과 단위 g/100 g 건조시료",
+   "method": "산가수분해 후 아미노산 자동분석기(액체크로마토그래피)",
+   "conditions": {
+    "instrument": "Hitachi L8900",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "조단백 15 mg 상당 시료에 6 mol/L 염산 10 mL, 질소 15분 치환 후 밀봉, 110 ± 1 °C 22시간 가수분해, 0.45 μm 여과, 0.1 mL를 60 °C 질소로 15분 건조 후 0.02 N 염산 1 mL에 재용해",
+    "standard": "외부표준 크로마토그램과 머무름 시간·피크 면적 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "글리신 등 단맛·감칠맛·쓴맛 아미노산 구성이 생식소 맛 품질을 가르는 지표로 쓰였다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10667049/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cholesterol (cholest-5-en-3-ol)",
+   "compound_ko": "콜레스테롤",
+   "part": "개체 전체(원문에 부위 명시 없음; 씻어 동결건조·분쇄)",
+   "content": "GC-MS 피크 면적의 36.71% (팔미트산 17.76%, 테트라데칸산 4.99%)",
+   "method": "GC-MS (EI, NIST 라이브러리 동정, 피크 면적 백분율)",
+   "conditions": {
+    "instrument": "Shimadzu QP-2010 Ultra GC-MS",
+    "column": "Agilent DB-5MS UI (30 m × 0.25 mm × 0.25 μm)",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "",
+    "flow": "1.0 mL/min",
+    "temp": "주입구 280 °C; 오븐 60 °C 2분 → 200 °C(10 °C/min) → 320 °C(5 °C/min), 20분 유지; 이온원 200 °C, 인터페이스 250 °C",
+    "detection": "전자충격 이온화 70 eV, m/z 40–600 스캔",
+    "injection": "2 μL(메탄올 용해), 원문 표기 'splitless mode (split ratio of 50:1)'",
+    "sample_prep": "동결건조 분말을 70% 에탄올(1:10 w/v)로 1시간 초음파 추출 5회, 감압 농축",
+    "standard": "NIST V11 질량 스펙트럼 라이브러리 비교(정량 표준물질 없음)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "한국 동해(강원 고성) 개체 추출물의 최대 성분으로 보고되었다[7]. 피크 면적 비율이라 절대 함량은 아니다[7].",
+   "source": [
+    7
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380521/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Spinochromes A–E",
+   "compound_ko": "스피노크롬 A–E(나프토퀴논 색소)",
+   "part": "껍데기",
+   "content": "색소 합계 대비 A 3.3 ± 0.3%, B 4.0 ± 1.3%, C 9.2 ± 1.5%, D 16.5 ± 5.7%, E 3.1 ± 1.6%",
+   "method": "",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "성게류에 특이한 2차 대사 색소로 이 종 껍데기 색소 조성을 보여 준다[6]. 총설 표에서 옮긴 값이며 원 정량 논문의 분석 조건은 전문 확인 못함[6].",
+   "source": [
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605347/",
+   "source_kind": "paper"
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 새치성게(Strongylocentrotus intermedius) 1행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Wang H et al. Integrated metabolomic and transcriptomic analyses identify critical genes in eicosapentaenoic acid biosynthesis and metabolism in the sea urchin Strongylocentrotus intermedius. Sci Rep 2020;10(1):1697",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6997175/",
+   "publisher": "Scientific Reports (PubMed 도구로 PMC 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Li S et al. Effects of Dietary Tussah Immunoreactive Pupa Powder on Growth, Gonad Quality, Antioxidant Capacity, and Gut Microbiota of the Sea Urchin. Biology (Basel) 2025;14(7):874",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12292499/",
+   "publisher": "Biology (PubMed 도구로 PMC 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Di W et al. Effects of Supplementary Kelp Feeding on the Growth, Gonad Yield, and Nutritional and Organoleptic Quality of Subadult Sea Urchin with Soya Lecithin Intake History. Aquac Nutr 2023;2023:8894923",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10667049/",
+   "publisher": "Aquaculture Nutrition (PubMed 도구로 PMC 전문 확인, 표 수치는 미포함)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Han L et al. Chromosome-level genome provides new insights into the fatty acid biosynthesis and metabolism of the sea urchin Strongylocentrotus intermedius. BMC Genomics 2026;27(1)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13134332/",
+   "publisher": "BMC Genomics (PubMed 도구로 PMC 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Ageenko NV et al. Quinoid Pigments of Sea Urchins Scaphechinus mirabilis and Strongylocentrotus intermedius: Biological Activity and Potential Applications. Mar Drugs 2022;20(10):611",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605347/",
+   "publisher": "Marine Drugs (PubMed 도구로 PMC 전문 확인, 총설)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Dayarathne LA et al. Strongylocentrotus intermedius Extract Suppresses Adiposity by Inhibiting Adipogenesis and Promoting Adipocyte Browning via AMPK Activation in 3T3-L1 Cells. J Microbiol Biotechnol 2024;34(8):1688-1697",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11380521/",
+   "publisher": "Journal of Microbiology and Biotechnology (PubMed 도구로 PMC 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Kober KM, Bernardi G. Phylogenomics of strongylocentrotid sea urchins. BMC Evol Biol 2013;13:88",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23617542/",
+   "publisher": "BMC Evolutionary Biology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Glasenapp MR, Pogson GH. Extensive introgression among strongylocentrotid sea urchins revealed by phylogenomics. Ecol Evol 2023;13(8):e10446",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37636863/",
+   "publisher": "Ecology and Evolution (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Wang H et al. Metabolomic changes and polyunsaturated fatty acid biosynthesis during gonadal growth and development in the sea urchin Strongylocentrotus intermedius. Comp Biochem Physiol D 2019;32:100611",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31376663/",
+   "publisher": "Comparative Biochemistry and Physiology D (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Wang H et al. Comparative lipidomics profiling of the sea urchin, Strongylocentrotus intermedius. Comp Biochem Physiol D 2021;40:100900",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34418782/",
+   "publisher": "Comparative Biochemistry and Physiology D (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Zhou X et al. Characterization of lipids in three species of sea urchin. Food Chem 2017;241:97-103",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28958564/",
+   "publisher": "Food Chemistry (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Jeong BY et al. Hydrocarbon chain distribution of ether phospholipids of the ascidian Halocynthia roretzi and the sea urchin Strongylocentrotus intermedius. Lipids 1996;31(1):9-18",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8649240/",
+   "publisher": "Lipids (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Borisovets EE et al. Changes of major carotenoids in gonads of sea urchins (Strongylocentrotus intermedius and S. nudus) at maturation. Comp Biochem Physiol B 2002;132(4):779-790",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12128064/",
+   "publisher": "Comparative Biochemistry and Physiology B (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Shang WH et al. Functional properties of gonad protein isolates from three species of sea urchin: a comparative study. J Food Sci 2020;85(11):3679-3689",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32990386/",
+   "publisher": "Journal of Food Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Yamasaki A et al. Identification of a major yolk protein as an allergen in sea urchin roe. Acta Derm Venereol 2010;90(3):235-238",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20526538/",
+   "publisher": "Acta Dermato-Venereologica (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Hickey RW. Sea urchin roe (uni) anaphylaxis. Ann Allergy Asthma Immunol 2007;98(5):493-494",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17521036/",
+   "publisher": "Annals of Allergy, Asthma & Immunology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Song H et al. Short-term exposure to okadaic acid induces behavioral and physiological responses in sea urchin (Strongylocentrotus intermedius). Mar Environ Res 2024;202:106823",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39489021/",
+   "publisher": "Marine Environmental Research (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Song H et al. Sub-acute exposure of sea urchin (Strongylocentrotus intermedius) to environmentally relevant concentrations of PFOA and GenX influences gonadal development. Comp Biochem Physiol C 2024;289:110104",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39647644/",
+   "publisher": "Comparative Biochemistry and Physiology C (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Vaschenko MA et al. Lipofuscin-like pigment in gonads of sea urchin Strongylocentrotus intermedius as a potential biomarker of marine pollution: a field study. Arch Environ Contam Toxicol 2012;62(4):599-613",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22138826/",
+   "publisher": "Archives of Environmental Contamination and Toxicology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Lipina IG et al. [Morpho-functional changes in the ovaries of the sea urchin Strongylocentrotus intermedius after exposure to cadmium]. Ontogenez 1987;18(3):269-276",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3614818/",
+   "publisher": "Ontogenez (PubMed 영문 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Han YL et al. Application of SNP in Genetic Sex Identification and Effect of Estradiol on Gene Expression of Sex-Related Genes in Strongylocentrotus intermedius. Front Endocrinol 2021;12:756530",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34858332/",
+   "publisher": "Frontiers in Endocrinology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Zhan Y et al. Identification and characterization of microRNAs from the tube foot in the sea urchin Strongylocentrotus intermedius. Heliyon 2018;4(6):e00668",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30003162/",
+   "publisher": "Heliyon (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Wang H et al. Transcriptome analysis to characterize the genes related to gonad growth and fatty acid metabolism in the sea urchin Strongylocentrotus intermedius. Genes Genomics 2019;41(12):1397-1415",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31485990/",
+   "publisher": "Genes & Genomics (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Zuo H et al. Comprehensive analysis of metabolomic and transcriptomic provides insights on the phospholipid regulating LC-PUFAs accumulation in the gonads of sea urchin Strongylocentrotus intermedius. Comp Biochem Physiol D 2025;57:101657",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41192194/",
+   "publisher": "Comparative Biochemistry and Physiology D (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Guo J et al. Red Pepper Powder Enhances Antioxidant and Immune Functions in the Sea Urchin: Potential as a Functional Feed in Aquaculture. Antioxidants (Basel) 2025;14(10):1173",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41154482/",
+   "publisher": "Antioxidants (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Wang X et al. Sex-Specific Differences in the Toxic Effects of Heavy Fuel Oil on Sea Urchin (Strongylocentrotus intermedius). Int J Environ Res Public Health 2021;18(2):499",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33435413/",
+   "publisher": "IJERPH (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Liu A et al. High temperature influences DNA methylation and transcriptional profiles in sea urchins (Strongylocentrotus intermedius). BMC Genomics 2023;24(1):491",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37641027/",
+   "publisher": "BMC Genomics (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Han L et al. Molecular characterization and expression of SiFad1 in the sea urchin (Strongylocentrotus intermedius). Gene 2019;705:133-141",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31004713/",
+   "publisher": "Gene (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Ura K et al. Immunohistochemical analysis of the proteolytic enzyme subtilase in the digestive organs of the sea urchin Strongylocentrotus intermedius. Anat Rec 2012;295(1):73-77",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21965166/",
+   "publisher": "Anatomical Record (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Kalachev AV. Microautophagy in nutritive phagocytes of sea urchins. Protoplasma 2017;254(1):609-614",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27020676/",
+   "publisher": "Protoplasma (PubMed 초록)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

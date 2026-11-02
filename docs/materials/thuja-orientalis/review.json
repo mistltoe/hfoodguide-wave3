@@ -1,0 +1,97 @@
+{
+ "slug": "thuja-orientalis",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 73,
+ "checked_items": 54,
+ "verified": 108,
+ "fixed": 12,
+ "removed": 7,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "식품공전 ... 별도 조건이 없으면 가공 전 원료 중량의 50% 미만으로 쓴다는 기준 ... 검색 요약으로만 확인했다[2].",
+   "after": "같은 목록에서 측백나무씨앗과 측백나무가지는 '사용불가'로 분류되어 있다[1]. 제한적 사용 원료에 적용되는 식품공전의 구체적인 사용량 기준은 원문으로 확인하지 못함.",
+   "why": "50% 기준은 WebSearch 요약뿐이고 로컬 원자료(data/raw)·card.json 에 없음. data/raw/mfds_rawmtrl/I1020_20261013.json 에서 씨앗·가지 행이 '사용불가'임을 확인해 사용 조건을 분명히 함"
+  },
+  {
+   "where": "sections.history",
+   "before": "대구 도동 측백나무 숲은 1962년 천연기념물 제1호로 지정되었다고 보도되었으나 ... [35].",
+   "after": "(삭제)",
+   "why": "언론 보도·검색 요약뿐, 국가유산청 원문·로컬 자료로 확인되지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "측백나무 가지 정유에 α-투존이 50~60% 들어 있다는 보고와, 잎에서 투존을 살연체 활성 성분으로 확인했다는 보고가 있다[13, 14]. ... 세이지 연구 ... 30%만큼만 투존이 녹아 나왔다[16].",
+   "after": "잎 정유 직접 분석에서는 투존이 주성분이 아님[4,10,11,12]; [13] 의 'Thuja orientalis' 가지 정유(α·β-투존·펜콘·캠퍼)는 서양측백·T. plicata 정유 유형[새 출처 Molecules 2009, Plants 2026]과 같아 이 종에 적용하기 어렵다고 명시; [14] 는 함량 없음 명시; 세이지 문장 삭제",
+   "why": "투존 50~60% 자료가 Thuja속(서양측백 등) 정유 조성과 일치해 근연종 자료 섞임 의심. 세이지(다른 식물) 자료는 측백나무 안전성 근거가 아님"
+  },
+  {
+   "where": "sections.safety",
+   "before": "투존은 GABA-A 수용체를 억제해 ...",
+   "after": "투존은 동물 실험에서 GABA-A 수용체를 억제해 ...",
+   "why": "[15] 초록은 'In animal studies' 라고 씀"
+  },
+  {
+   "where": "sections.safety / overview",
+   "before": "제한적사용 ... 50% 미만[2]",
+   "after": "잎·잎 추출물만 '제한적사용', 씨앗·가지 '사용불가'[1]; 사용량 기준 원문 확인하지 못함",
+   "why": "로컬 I1020 원자료로 확인한 범위만 남김"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "서양측백(Thuja occidentalis) 등 Thuja속 다른 종과의 성분 비교 자료는 확인하지 못함.",
+   "after": "서양측백과 Thuja plicata 잎 정유는 α·β-투존, 펜콘, 사비넨이 주성분이고 케톤류 54.30~69.18%[Molecules 2009]로 α-피넨/δ-3-카렌형인 측백나무와 다르다[4].",
+   "why": "PubMed 로 비교 자료를 찾아 근연종 구별을 분명히 함"
+  },
+  {
+   "where": "sections.processing",
+   "before": "국내에서는 잎 물 추출물을 12주 동안 두피에 바른 시험에서 성모 밀도가 늘었다는 보고가 있다[26].",
+   "after": "국내 기업 연구소 시험에서 잎 물 추출물 1% 용액을 12주 두피에 바른 군(30명)은 성모 밀도가 cm²당 평균 4.01개 늘었으나, 먹었을 때의 효과를 본 시험은 아니다.",
+   "why": "PMC 전문 Methods·Results 대조(60명 무작위, 무처치 대조). 외용 결과의 섭취 효과 과장 방지"
+  },
+  {
+   "where": "sections.processing",
+   "before": "(없음)",
+   "after": "중국 약재 측백엽은 말린 어린 가지와 잎을 함께 이르지만[6], 국내 목록에서 측백나무가지는 '사용불가'다[1].",
+   "why": "[6]·[29] 의 Platycladi Cacumen 은 가지 포함 — 국내 허용 부위(잎)와의 차이 명시"
+  },
+  {
+   "where": "sections.processing",
+   "before": "... 기능성 식품 소재로 쓸 가능성이 제시되었다[33].",
+   "after": "... 세포 실험에서 항산화·항염 작용을 보였다.",
+   "why": "세포 실험 결과를 식품 소재 가능성으로 확대하지 않음(길이 조정 겸)"
+  },
+  {
+   "where": "compounds.Myricitrin.activity_ko",
+   "before": "α-글루코시다아제 억제 활성과 관련이 큰 성분으로 꼽힘(초록)[6]",
+   "after": "산지별 품질 평가용 7종 동시 정량 대상[6]",
+   "why": "[6] 초록에 α-글루코시다아제 내용 없음"
+  },
+  {
+   "where": "compounds.Thujone",
+   "before": "측백나무 가지 정유의 α-투존 50~60%라는 보고[13] ...",
+   "after": "잎 정유 직접 분석에서는 주성분 아님; [13] 은 Thuja속 정유 유형과 같아 적용 어려움; [14] 함량 없음",
+   "why": "근연종 자료 섞임"
+  },
+  {
+   "where": "compounds.Sandaracopimaric acid",
+   "before": "쥐 복강 투여",
+   "after": "생쥐 복강 투여(난모세포 실험 명시)",
+   "why": "[17] 초록은 mice·Xenopus oocyte"
+  },
+  {
+   "where": "sources",
+   "before": "[2] 식품공전 검색 요약, [16] 세이지 투존, [35] 아주경제 보도",
+   "after": "삭제; Tsiri 2009 Molecules(PMID 19935470), Park 2026 Plants(PMID 42357204) 추가; [1] 제목에 씨앗·가지 사용불가 행 추가; [31] 제목의 상표명 생략; 1~34 재번호",
+   "why": "확인 불가·다른 종 출처 제거, 근연종 비교 근거 추가"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품공전 제한적 사용 원료의 사용량 기준 원문은 이 환경에서 열지 못해 '확인하지 못함'으로 둠",
+  "PMC 전문 대조: [3] Sci Rep 2024, [4] RSC Adv 2021, [8] Molecules 2023, [24] CIMB 2024 — 수치·분석조건 일치. 나머지 논문은 PubMed 초록으로 대조",
+  "[12](Res Vet Sci 2004) 의 시료 종 동정은 초록으로 확인할 수 없음 — 조성이 Thuja속 유형이라는 점만 본문에 적음",
+  "WebSearch 0회 사용"
+ ]
+}
