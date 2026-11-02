@@ -1,0 +1,40 @@
+PubMed notes
+- 41009163 PMC12470904 Insects 2025 duplex PCR T.molitor vs Z.atratus; Z. atratus unapproved in EU
+- 39598836 PMC11597884 Molecules 2024 freeze-dried superworm; protein 36.38 g/100g dm untreated, BL 37.72, US 31.65-33.34; crustacean & mollusc allergens lower in US
+- 33573235 PMC7911787 Foods 2021 proteomic allergens (giant mealworm incl.)
+- 30215801 PMC6132929 J Insect Sci 2018 multiplex PCR 9 species incl Z. atratus (Fabricius, 1775)
+- 26593591 Food Chem 2016 van Broekhoven: T.molitor, Z.atratus, A.diaperinus IgE cross-reactivity crustacean/HDM tropomyosin, α-amylase; heat & digestion diminish not eliminate
+- 24341469 Contact Dermatitis 2014 protein contact dermatitis Z. morio
+- 8871741 Allergy Asthma Proc 1996 anaphylaxis ingestion/inhalation T. molitor & Z. morio
+- 42940958 PMC13705041 Insects 2026 feed substrates; FCR wheat bran 2.55; lipid up to 60.44% breadcrumbs; protein up to 59.79% sunflower meal
+- 42562519 Food Res Int 2026 protein 50.87 g/100g Z. morio (lowest among 5); lipid 19.01-37.97 range
+- 41683826 PMC12897815 IJMS 2026 ZML protein powder DSS colitis mice
+- 41282315 PMC12639328 Food Chem X 2025 Korea KFRI digestion bioaccessibility peptides
+- 40680954 IJBM 2025 Korea KNU DES protein extraction: ADES-DB 84.93%, ADES-MR 81.88%, AE-AP 79.79%
+- 40458202 PMC12127129 Aquac Nutr 2025 FF & DF Z. morio meal seabream
+- 39793808 IJBM 2025 hydrolysates
+- 41538641 lambari digestibility, chitin
+- 31787276 STOTEN 2020 Yang: PS 0.58 mg/d per larva, 4x mealworm, 36.7% C to CO2 16 days, gut microbiota
+- 37002914 PMC10234394 G3 2023 genome 462 Mb, 28,544 genes; Z. morio (=Z. atratus)
+- 33601659 Food Chem 2021 PS-fed superworm no change nutrient
+- 37159911 EST 2023 ROS ·OH 51.2 μmol/kg
+- 32374590 EST 2020 Korea DGIST Pseudomonas sp. DSM 50071 PS degradation
+- 32722267 PMC7466282 Foods 2020 RDA NAS: frpfdZAL subchronic 13wk SD rats 1250/2500/5000 mg/kg/d NOAEL 5000; IgE no increase; MFDS temporary food ingredient Jan 2020; composition crude protein 61.39%, fat 21.24%, fiber 7.04%, ash 4.54%; prep: 10-16th instar, fast 2d, wash, autoclave 115C 5-15min, freeze -70C >24h, freeze-dry ~65h, ground; larva powder 21.7% crude fat -> skimmed; grayish brown; pathogens/mycotoxins/heavy metals undetectable or below std; ALD >5000 mg/kg; caution kidney/liver failure (high protein); allergens arginine kinase, tropomyosin, myosin, larval cuticle proteins; "imported to Korea as protein source for arthropods, birds..."; dose formulation tryptophan recovery 100±20%
+- 39842604 IJBM 2025 KNU UAEH DH 25.03%
+- 39706115 Food Chem 2024 KNU extraction yield AE-UAE 40.68%; 200 μg/mL NO -65%, IL-6 -68%
+- 37812971 Waste Manag 2023 KRICT PBS
+- 37370468 PMC10295072 Animals 2023 Sejong lipid feed biodiesel
+- 37260687 PVC Citrobacter koseri DGIST
+- 30500507 IJBM 2019 chitin yield superworm 3.90%, chitosan 83.33%
+- 38401309 Food Chem 2024 ZM-BC/FR protein 42.8/43.7%, lipid 39.1/40.1%; SFA 45% MUFA 32% PUFA 22% (ZM), AI 0.75, TI 1.44, h/H 1.51
+- 28498340 PMC5451972 IJERPH 2017 Sumatra; giant mealworm fat 35%; protein 46-56% range; chitin 6-13%
+- 37457792 PMC10349680 defatted superworm meal shrimp
+- 36296556 PMC9610046 grape residue
+- PMC5451972 full: giant mealworm larvae Sumatra, last/penultimate instar, starve 48h, boiling 100C 2min, gas oven 100C; fat 35% (Soxhlet petroleum ether 150 mL, 70C 120 min, 5 g); chitin 6% dm (Liu method: 1M HCl 100C 30 min, 1M NaOH 80C 20h); Kjeldahl 420C 105 min, Kjeltec 2200, N x6.25; FA: ISO 12966-2:2011 0.25 N methanolic KOH; AOAC 996.06 modified; Agilent 7890 GC-FID 250C; Restek Rt-2560 100 m x 0.25 mm x 0.2 µm; hexane, 1 µL split 20:1, injector 225C; oven 70C(2min)->225C@5C/min (9 min)->240C @5C/min (15 min); He 1.2 mL/min; std Restek Food Industry FAME Mix cat 35077. Order: C18:1 cis-9 > C18:2 > C16:0 > C18:0. Literature cited: giant mealworm fat 32.8-43.5% by feed, 42.0%, 40.3%; protein 46.8%, 54.3%, 34.2-42.5%.
+- PMC11597884 full (39598836): larvae from Turkey supplier; intro: up to 49 g/100g dw protein, up to 42 g fat, SFA 44-47, MUFA 31-32, PUFA 22-24; EU 4 novel food insects (T. molitor, L. migratoria, A. domesticus, A. diaperinus); superworm not yet. Oil FA: oleic 35.99-36.87%, palmitic 29.74-31.21%, linoleic 17.85-19.15%; SFA >41%, MUFA >38%; n-6/n-3 higher than recommended. Allergen ELISA (Demeditec) crustacean/mollusc tropomyosin calib 0-400 ppb; 1 g + 20 mL extraction buffer, 15 min 40C, centrifuge 2000xg 10 min, filter; 100 µL/well; 450 nm (ref 620); BioTek 800TS. Results crustacean ppb: untreated 3263.87, BL 7036.23, US20 3924.51, US50 2869.09; mollusc: untreated 1424.80, BL 5340.90, US20 1690.24, US50 735.29. Protein N factor 4.76; Kjeldahl 420C 4h. FA GC: Shimadzu GC-2010 FID; RT2560 100 m x 0.25 mm x 0.20 µm; 140C 5 min, 48C/min to 240C, hold 30 min; inj 240C det 260C; He 1.0 mL/min; split 80:1; 1 µL; Supelco 37 FAME; Folch; ISO 12966-2:2017. Micro: TVC 3.2 log CFU/g; no Enterobacteriaceae. Minerals ICP-MS Agilent 7850. Lit: Zielińska 48.7 protein 31.3 fat; Kulma 47.0-48.1 / 31.3-36.0; Finke Ca 26.2 Mg 43.5 Fe 2.0 Zn 3.0 mg (per 100 g presumably).
+- PMC8033247 Rumbos&Athanassiou 2021 J Insect Sci review (full): Z. morio (F., 1776) conspecific with Z. atratus (F., 1775); formerly Z. rugipes (Kirsch 1866) etc; neotropical, Central & South America, introduced Europe/Asia; wheat flour pest negligible; fruit bat guano, organic litter; eggs 1.7x0.7 mm, up to 2,200 eggs/female; larvae up to 55 mm, hatch 8 d at 25C; isolated: pupate after 11-18 instars (mostly 16-17 molts); fail to pupate when crowded (mechanical contact); prepupa ~6 d after isolation, +7 d pupa; pupa 13-15 d at 25C; adults 38-57 mm, live up to 6 mo; rearing 25-28C RH 60-70%, wheat bran + moisture source; cannibalism. Mexico eaten by ethnic groups (Zophobas spp.), Brazil bred for feed. Nutrition table: DM 35.2-42.1% as fed; N 6.2-8.6% DM; defatted flour N 10.8%; fat 35.0-43.6% DM; ash 2.4-8.2; NDF 9.3-13.0; ADF 6.3-6.5; energy 559.2-575.5 kcal/100 g DM; chitin 3.9-6%; Kp 6.25 may overestimate; AA % DM: Glu 5.7-6.6, Leu 3.4-4.5, Lys 2.4-2.9, Met 0.5-1.0 (limiting), Trp 0.4-0.5; FA %total: palmitic 29.1-32.4, oleic 31.1-38.0, linoleic 15.6-23.4, stearic 6.4-8.8, SFA 38.8-44.6, MUFA 32.1-42.4, PUFA 15.7-24.0; minerals mg/100g DM larvae: Ca 31.9-70.8, P 562.9-564.9, Mg 39.2-118.3, Na 104.1-112.8, K 750.6-773.0, Fe 2.3-5.4, Zn 2.5-8.2, Cu 0.5-1.0; adults quinone secretions; not in EU 2017/893 aquafeed list; EU novel food not yet.
+- 25576652 van Broekhoven 2015 J Insect Physiol: Z. atratus on by-products; protein stable; fat changes
+- 35678705 PMC9455710 Microb Genom 2022 styrofoam microbiome
+- 38921150 PMC11203590 hemolymph antibacterial, fungal diet
+WebSearch (2 used): 1) news summary: 2026-05 article says 아메리카왕거저리 유충·수벌 번데기·풀무치 still 한시적 only; 2) domain-limited: RDA press release 2020-01-17 '아메리카왕거저리 유충' 새로운 식품원료 인정 (url rda.go.kr dataNo=100000760981); fat ~36% -> ~21%; RDA webzine 2022 says general ingredient June 2020 -- conflicting; WebFetch rda.go.kr & korea.kr ENOTFOUND (not allowed) -> not retried.
+I1020: '<제조 조건>' rows (11) incl 수벌 번데기; 풀무치 plain; 갈색거저리 탈지 rows have '한시적 기준·규격에서 전환된 원료'.

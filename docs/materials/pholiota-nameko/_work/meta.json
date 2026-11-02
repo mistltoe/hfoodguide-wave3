@@ -1,0 +1,722 @@
+[
+ {
+  "pmid": "42787206",
+  "pmc": "PMC13601258",
+  "doi": "10.3389/finsc.2026.1916272",
+  "title": "Effects ofbasal stipe powder on growth and development of.",
+  "journal": "Frontiers in insect science",
+  "year": "{'year': '2026', 'month': '09', 'day': '",
+  "abstract": "basal stipe powder is a major by-product of mushroom harvesting and is rich in nutrients and bioactive compounds, making it a potential alternative feed ingredient for insect production. However, its effects on the growth and development ofremain unclear.\n\nfive experimental diets were formulated by replacing wheat bran withbasal stipe powder at substitution levels of 0%, 25%,50%, 75%, and 100%. Growth and developmental parameters were assessed throughout the larval, pupal, and adult stages.\n\nLarval body length, width, and weight increased with instar in all groups, and body length was strongly correlated with body width (r=0.93-0.94). The control group generally exhibited the greatest larval body size and weight, whereas the 100% substitution group showed the lowest values. Differences among treatments were minimal during the 6th-8th instars. From the 9th to 15th instars, larval growth in the 25% substitution group was comparable to that in the control group but significantly greater than that in the 50%, 75%, and 100% substitution groups (<0.05). Larval duration increased significantly with substitution level (<0.05), with the 100% substitution group requiring 34 more days to complete larval development than the control group. No significant differences were observed among groups in larval mortality, pupation rate, pupal duration, sex ratio, and eclosion rate (>0.05). Pupal weight decreased as the substitution level increased. Although pupal weight in the 25% substitution group was significantly lower than that in the control group, it was significantly higher than that in the 50%, 75%, and 100% substitution groups (<0. 05). Adult body weight was significantly lower in all substitution groups than in the control group (<0.05).\n\nReplacing up to 25% of wheat bran withbasal stipe powder had minimal effects on T.molitor growth and development, whereas higher levels impaired larval growth and reduced pupal and adult weights. Therefore, a 25% substitution level appears to be the most suitable among the tested levels for incorporatingbasal stipe powder intodiets."
+ },
+ {
+  "pmid": "42506303",
+  "pmc": "PMC13412918",
+  "doi": "10.3390/jof12070542",
+  "title": "Transcriptomic Profiling of Developmental Stages and Screening of Candidate Genes in.",
+  "journal": "Journal of fungi (Basel, Switzerland)",
+  "year": "{'year': '2026', 'month': '07', 'day': '",
+  "abstract": "The developmental cycle ofcan be divided into four stages: the mycelial stage (JS), the primordium stage (FH), the growth stage (SZ), and the maturity stage (CS). In this study, transcriptome sequencing was performed onat these four stages, followed by the screening of differentially expressed genes and functional annotation via Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses. By integrating the annotation results of all differentially expressed genes (DEGs), we screened for candidate genes potentially correlated with the growth and development of. The expression levels of these candidate genes were then compared using real-time quantitative PCR (RT-qPCR) to identify those with the highest expression. The results showed that in the FH vs. CS and SZ vs. CS comparisons, DEGs were mainly enriched in pathways related to protein processing, fatty acid metabolism, and linoleic acid metabolism, suggesting that alterations in these specific metabolic pathways may be closely associated with the growth and development of. Through analysis based on upregulation and logfold change (logFC) values, further screening identified 13 candidate genes, and the genewith the highest expression level was preliminarily screened out through RT-qPCR analysis. This gene may be potentially involved in processes such as rapid cell expansion, cell wall synthesis, nutrient absorption, and active growth-stage metabolism."
+ },
+ {
+  "pmid": "41953616",
+  "pmc": "PMC13054809",
+  "doi": "10.1039/d5ra08228e",
+  "title": "Extraction, purification, structural characterization, bioactivities, and applications ofpolysaccharide: a review.",
+  "journal": "RSC advances",
+  "year": "{'year': '2026', 'month': '04', 'day': '",
+  "abstract": ", an edible mushroom, is recognized for its significant medicinal properties and broad application potential.polysaccharide (PNP), a major bioactive component derived from this fungus, exhibits diverse biological activities, including anti-inflammatory, antioxidant, antitumor, hypoglycemic, hypolipidemic, and immunomodulatory effects. As a natural polysaccharide, PNP also holds considerable value in the food industry, where it functions as a thickener, gelling agent, and more. This review comprehensively summarizes recent advances in the extraction, purification, structural characterization, biological activities, structure-activity relationships, and food applications of PNP. Furthermore, it provides a foundation for future research aimed at optimizing extraction and purification techniques, elucidating structure-activity relationships, exploring structural modification strategies, and developing functional food products based on PNP."
+ },
+ {
+  "pmid": "41903317",
+  "pmc": null,
+  "doi": "10.1016/j.chemosphere.2026.144919",
+  "title": "Removal of microplastics or nanoplastics using nameko (Pholiota nameko) mucilage as a flocculant.",
+  "journal": "Chemosphere",
+  "year": "{'year': '2026', 'month': '03', 'day': '",
+  "abstract": "Microplastics are widely distributed in aquatic environments, and there are concerns regarding their adverse effects on living organisms. Therefore, methods for their separation and removal from water are required. However, such technology has not yet been established. Pholiota nameko, commonly known as nameko, is an edible mushroom that secretes mucus composed mainly of pectin. In this study, it was demonstrated that a nameko mushroom mucilage solution (NMS) can act as a flocculant for microplastics and nanoplastics. For polystyrene microplastics (size: 1.0 μm), the suspension was mixed with NMS and Fe(III) for 20 s, resulting in the removal of 95.3% of the microplastics from the supernatant after 5 min. The separation of polystyrene microplastics from the water was achieved in a short time. Furthermore, when the washing wastewater of nameko was used as a flocculant for microplastic flocculation, the removal rate was 98.4%. Nanoplastics (polystyrene, size: 100 nm) were also sedimented by adding NMS and Fe(III). The removal rate (%) was 87.4%. Pectin in the NMS forms a gel with Fe(III). The zeta voltage of the microplastics is negative, and they interact with Fe(III) by Coulomb attraction. Consequently, flocs containing Fe(III), pectin, and plastic particles are formed. Microplastics and kaolin in the suspension were simultaneously flocculated and sedimented in the same manner. The rapid and highly efficient flocculation activity of NMS can be attributed to the large structure of pectin in the NMS. Based on these results, we concluded that NMS can be used as an efficient bio-flocculant for plastic particles."
+ },
+ {
+  "pmid": "41547951",
+  "pmc": "PMC12891698",
+  "doi": "10.1038/s41598-026-35650-y",
+  "title": "Chemical composition, metabolomics, and functional potential of Pholiota nameko pre-cooking liquid.",
+  "journal": "Scientific reports",
+  "year": "{'year': '2026', 'month': '01', 'day': '",
+  "abstract": "The liquid generated during the pre-cooking process of Pholiota nameko is frequently considered waste, and its large-scale disposal may pose environmental risks. This study undertook a comparative analysis of the liquid and the fruiting bodies, focusing on their chemical composition, physicochemical properties, and metabolomics. Standard chemical analysis methods were applied to determine the levels of key components (e.g., polysaccharides, proteins, amino acids) and their physicochemical properties. Meanwhile, untargeted metabolomics based on UHPLC-electrospray ionization mass spectrometry/mass spectrometry (UHPLC-ESI-MS/MS) was utilized for systematic metabolite identification and comparison. The results demonstrate that immersing the fruiting bodies in water at 95 °C for 10 min facilitates the transfer of substantial quantities of compounds into the liquid, with approximately 7.99% of polysaccharides, 41.04% of proteins, and 62.96% of polyphenols in the fruiting bodies being transferred. This liquid is abundant in minerals and functional components, exhibits distinctive physicochemical properties, and holds potential as a natural nutritional enhancer, flavor enhancer, and thickener, with pesticide residue levels remaining within safe limits. Metabolomic data revealed that the pre-cooking treatment significantly altered the metabolite profile. Specifically, several compounds were substantially upregulated in the pre-cooking liquid compared to the fruiting bodies: Ethyl isopropyl sulfide (7.96-fold), Vidarabine (7.41-fold), 5-oxoproline (3.92-fold), and Picolinic acid (2.48-fold). These changes are associated with alterations in the metabolism of vitamins, peptides, and nucleic acids. The research establishes a chemical and metabolic basis for the advanced development and application of P. nameko pre-cooking liquid across various sectors, including food, pharmaceuticals, health products, cosmetics, and agricultural fertilizers. This study presents an innovative approach to addressing the environmental discharge challenges associated with this substance."
+ },
+ {
+  "pmid": "41545164",
+  "pmc": null,
+  "doi": "10.1016/j.funbio.2025.101714",
+  "title": "Proteomic insights into Pholiota nameko mycelial response to wood-based substrates.",
+  "journal": "Fungal biology",
+  "year": "{'year': '2025', 'month': '12', 'day': '",
+  "abstract": "Pholiota microspora (Berk.) Sacc., commonly known as \"nameko,\" is an edible mushroom widely cultivated in East Asia for both culinary and medicinal purposes. This study aimed to investigate how substrate composition influences the expression of lignocellulolytic enzymes in Pholiota nameko using label-free quantitative proteomics. The fungus was cultivated on four substrates: (1) a standard commercial mix (S) of oak sawdust, millet, rye, and wheat bran (24:8:3:3 w/w); (2) a minimally supplemented willow-based substrate (S1) with the same ratio; (3) a mixture of willow chips and cottonseed hulls (W + C) in a 3:1 ratio; and (4) willow chips alone (W). All substrates were incubated at a suboptimal temperature of 15 °C to simulate low-energy cultivation conditions and assess enzymatic responses under thermal constraint. A total of 1783 proteins were identified, with 165 showing statistically significant differential expression across substrates. Functional annotation revealed diverse enzyme groups, including oxidoreductases (e.g., manganese peroxidases, peroxygenases, tyrosinases) and hydrolases (e.g., endoglucanases, exoglucanases), which exhibited substrate-dependent regulation. Notably, oxidative enzymes were predominantly upregulated in the standard substrate, S while cellulolytic enzymes showed enhanced expression in substrates W and W + C. Several uncharacterized proteins were also identified, highlighting the need for future functional studies. These results underscore P. nameko's adaptive enzymatic responses to lignocellulosic substrates under suboptimal, low-temperature conditions. This work advances understanding of its lignocellulolytic enzyme system, with implications for energy-efficient mushroom cultivation and industrial enzyme production."
+ },
+ {
+  "pmid": "41408451",
+  "pmc": null,
+  "doi": "10.1007/s00705-025-06462-8",
+  "title": "A novel narnavirus isolated from the edible fungus Pholiota nameko.",
+  "journal": "Archives of virology",
+  "year": "{'year': '2025', 'month': '12', 'day': '",
+  "abstract": "A novel positive single-stranded RNA virus, tentatively named “Pholiota nameko narnavirus 1” (PnNV1), has been identified in the edible fungus Pholiota nameko strain N1. The complete genome of PnNV1 is 2254 nucleotides in length, containing a single large open reading frame (ORF) that encodes an RNA-dependent RNA polymerase (RdRp) of 682 amino acids (aa) with a molecular mass of 77.81 kDa. BLASTp analysis indicated that PnNV1 exhibited the highest sequence similarity (30.80% identity) to Rhizoctonia solani narnavirus 18. Sequence alignments and phylogenetic analysis based on RdRp sequences indicated that PnNV1 can be classified as a new member of the family Narnaviridae. To our knowledge, this is the first mycovirus reported in Pholiota nameko."
+ },
+ {
+  "pmid": "41363254",
+  "pmc": null,
+  "doi": "10.1080/14786419.2025.2598059",
+  "title": "A novel polysaccharide from(T. Itô) S. Ito & S. Imai residue: chemical structure and hypoglycaemic activity.",
+  "journal": "Natural product research",
+  "year": "{'year': '2025', 'month': '12', 'day': '",
+  "abstract": "A novel polysaccharide (APNP) with a molecular weight of 3.56 × 10KDa and a total sugar content of 92.35 ± 0.07% was isolated from(T. Itô) S. Ito & S. Imai residue using alkaline extraction. Monosaccharide composition analysis revealed that APNP consisted of galactose, glucose, and mannose. FT-IR and NMR analysis results indicate that APNP form linkages between (1→3), (1→6), and (1→3,6)-β-D-glucose, (1→)-α-D-glucose, (1→)-α-D-galactose, and (1→3,6)-β-D-mannose. Thermogravimetric analysis revealed three distinct pyrolysis phases in APNP. Congo Red assay results indicated the absence of triple-helical conformation in APNP under weakly alkaline conditions.assays demonstrated α-glucosidase inhibitory activity of APNP, with an ICvalue of 0.165 mg/mL. HepG2-IR insulin resistance model and Western blot analyses demonstrated APNP's ability to ameliorate insulin resistance and enhance glucose metabolism."
+ },
+ {
+  "pmid": "41211565",
+  "pmc": "PMC12589757",
+  "doi": "10.1007/s10068-025-01866-3",
+  "title": "Extraction, structure and bioactivities of polysaccharides from: a review.",
+  "journal": "Food science and biotechnology",
+  "year": "{'year': '2025', 'month': '04', 'day': '",
+  "abstract": ", a famous edible mushroom, has broad application prospects in the field of health food development because of its high nutritional value, complex structure, and diverse biological activities.polysaccharides (PNPS), as the main biological active component, are mainly composed of glucose and mannose, as well as galactose, xylose, and arabinose, with different molar ratios and glycosidic bond types. PNPS have many biological activities, including antioxidant activity, hypolipidaemic activity, and immunoregulatory activity. In addition, different extraction and purification methods can also result in differences in the structure and biological activity of PNPS. In this paper, the research progress on the extraction, purification, structure, biological activities and food industry application of PNPS was reviewed, which provided a theoretical basis for further research and development of functional foods using PNPS."
+ },
+ {
+  "pmid": "41086618",
+  "pmc": null,
+  "doi": "10.1016/j.carres.2025.109698",
+  "title": "Autoclave extraction applied to residual mushroom biomass: An efficient method for high-yield polysaccharide recovery.",
+  "journal": "Carbohydrate research",
+  "year": "{'year': '2025', 'month': '10', 'day': '",
+  "abstract": "Mushroom-derived polysaccharides, particularly β-D-glucans, are valued for their biological activities and broad biotechnological applications. Although several conventional extraction methods have been established (cold-water, hot-water, and alkaline), the biomass that remains after exhaustive treatments is often discarded, despite its potential to retain valuable compounds. In this study, we evaluated whether residual laboratory materials from Pleurotus pulmonarius, Pholiota nameko, and Amanita muscaria still contain extractable polysaccharides by applying sequential autoclave extractions under aqueous, 5 % KOH, and 20 % KOH conditions. The extracts were precipitated with ethanol, quantified, and characterized by NMR, GC-MS, HPSEC-RI, and by total sugar and protein determinations. Significant yields were obtained, particularly with 5 % KOH, which produced up to 31.1 % in a single step, albeit with considerable protein content. Across extraction steps, a progressive decrease in molecular weight was observed, and monosaccharide analysis revealed that the extracts were composed predominantly of glucose. Structural characterization confirmed a predominance of β-D-glucans with (1→3)- and (1→6)-linkages, together with α-D-glucans with (1→3)- and (1→4)-linkages, as well as galactans and mannans. Overall, these findings demonstrate that autoclave extraction is a simple, efficient, and scalable approach to recover structurally diverse polysaccharides from mushroom residues, thereby enhancing resource utilization and opening new opportunities for fungal biomass valorization."
+ },
+ {
+  "pmid": "40941187",
+  "pmc": "PMC12427657",
+  "doi": "10.3390/foods14173071",
+  "title": "Impacts of Six Methods of Extraction on Physicochemical Properties, Structural Characteristics and Bioactivities of Polysaccharides fromResidue.",
+  "journal": "Foods (Basel, Switzerland)",
+  "year": "{'year': '2025', 'month': '08', 'day': '",
+  "abstract": "By integrating waste valorization with green extraction, in the current study, the impacts of distinct extraction methods on the extraction yield, structural characterization, in vitro antioxidant abilities and in vitro immunomodulatory activity of polysaccharides fromresidue (PNRP) were determined, providing assistance for the resource utilization ofSix PNRPs were obtained by hot water extraction, ultrasonic-assisted extraction, acid-assisted extraction, base-assisted extraction, acid-base extraction and hot water-alkaline-assisted extraction, named PNRP-HWE, PNRP-UAE, PNRP-AE, PNRP-BE, PNAP-ABE and PNRP-HAE, respectively. PNRPs were heteropolysaccharides with similar functional groups, abundant branched chains and a triple helix conformation, but varied monosaccharide molar ratios and molecular weights (382.6-601.7 kDa). PNRP-HAE exhibited the highest yield (3.92%) and superior antioxidant activities, including DPPH, ABTS and hydroxyl radical scavenging capacities, attributed to its low molecular weight and high xylose content. Additionally, PNRP-HAE and PNRP-UAE demonstrated potent immunomodulatory effects by enhancing macrophage phagocytosis and cytokine secretion (NO, IL-1β, IL-6, TNF-α). These findings highlight HAE as an optimal method for extracting high-quality PNRPs, offering a sustainable strategy for valorizing mushroom residue in functional foods and nutraceuticals."
+ },
+ {
+  "pmid": "39997406",
+  "pmc": "PMC11856836",
+  "doi": "10.3390/jof11020112",
+  "title": "Whole-Genome Sequencing and Fine Map Analysis of.",
+  "journal": "Journal of fungi (Basel, Switzerland)",
+  "year": "{'year': '2025', 'month': '02', 'day': '",
+  "abstract": "(T. Ito) S. Ito and S. Imai is an emerging wild mushroom species belonging to the genus. Its unique brown-yellow appearance and significant biological activity have garnered increasing attention in recent years. However, there is a relative lack of research on the biological characteristics and genetics of, which greatly limits the potential for an in-depth exploration of this mushroom in the research fields of molecular breeding and evolutionary biology. This study aimed to address that gap by employing Illumina and Nanopore sequencing technologies to perform whole-genome sequencing, de novo assembly, and annotation analysis of theZZ1 strain. Utilizing bioinformatics methods, we conducted a comprehensive analysis of the genomic characteristics of this strain and successfully identified candidate genes associated with its mating type, carbohydrate-active enzymes, virulence factors, pan-genome, and drug resistance functions. The genome ofZZ1 is 24.58 Mb in size and comprises 33 contigs, with a contig N50 of 2.11 Mb. A hylogenetic analysis further elucidated the genetic relationship betweenand other, revealing a high degree of collinearity betweenand ZZ1. In our enzyme analysis, we identified 246 enzymes in the ZZ1 genome, including 68 key carbohydrate-active enzymes (CAZymes), and predicted the presence of 11 laccases, highlighting the strain's strong potential for cellulose degradation. We conducted a pan-genomic analysis of five closely related strains of, yielding extensive genomic information. Among these, there were 2608 core genes, accounting for 21.35% of the total genes, and 135 dispensable genes, highlighting significant genetic diversity amongand further confirming the value of pan-genomic analysis in uncovering species diversity. Notably, while we successfully identified the-mating-type locus, composed of the homeodomain protein genes HD1 and HD2 in ZZ1, we were unable to obtain the-mating-type locus due to technical limitations, preventing us from acquiring the pheromone receptor of the-mating-type. We plan to supplement these data in future studies and explore the potential impact of the-mating-type locus on the current findings. In summary, the genome data of ZZ1 presented in this study are not only valuable resources for understanding the genetic basis of this species, but also serve as a crucial foundation for subsequent genome-assisted breeding, research into cultivation technology, and the exploration of its nutritional and potential medicinal value."
+ },
+ {
+  "pmid": "39549458",
+  "pmc": null,
+  "doi": "10.1016/j.jenvman.2024.123325",
+  "title": "Performance of co-composting Pholiota nameko spent mushroom substrate and pig manure at different proportions: Chemical properties and humification process.",
+  "journal": "Journal of environmental management",
+  "year": "{'year': '2024', 'month': '11', 'day': '",
+  "abstract": "Co-composting is the controlled aerobic degradation of organics, using more than one feedstock. By combining the spent mushroom substrate of Pholiota nameko (SMS) and pig manure (PM), the benefits of each could be used to optimize the composting process and the final product. This study introduced a comprehensive evaluation strategy aimed at identifying the optimal co-composting ratio for these two substrates. A 120-day composting trial was conducted, blending SMS and PM in various ratios to evaluate the benefits of co-composting SMS-PM. The results indicated that dissolved organic matter (DOM) in SMS-derived compost primarily originated from plants, whereas PM-derived compost predominantly consisted of microbial metabolic products, and co-composting combined both sources. An increase in aromaticity and humification degree of DOM occurred during the composting process itself rather than being derived from autochthonous origin. Carbohydrates like phenols and alcohols broke down during composting, and microbes utilized polysaccharides as an energy source for humus formation. As co-composting progressed, the treatments with varying mass ratios of SMS to PM, including 8:2, 7:3, 6:4, 5:5, 4:6, and 3:7 were observed to result in a decline in aliphatic hydroxylated chains alongside an enhancement in aromaticity within the compost. Additionally, there was a conversion from organic carbon (C) to carboxyl C within humic acid (HA) due to oxidation and dehydrogenation processes that facilitated the formation of stable nitrogen-containing compounds characterized by condensed aromatic structures. Following thorough evaluation, it was determined that optimal composting efficacy occurred at a mass ratio of SMS to PM equal to 6:4. Post-compost analysis revealed increases in nutrient content; specifically, germination index (GI) value reached 132.7%, while organic matter content attained 45.3%. Conversely, electrical conductivity (EC), C contents of water-soluble substances and humin (Cwss and C) decreased by approximately 11.8%, 73.4%, and 29.8% respectively; meanwhile, C contents of humic-extracted acid and HA (Cand C), along with degree of polymerization (DP), increased by 17.3%, 20.3% and 9.9% respectively. The proposed co-compost formula not only facilitated simultaneous recycling of both SMS and PM waste but also transformed them into high-quality organic fertilizers suitable for soil enrichment-effectively addressing challenges faced by both edible fungi cultivation and livestock industries while augmenting organic fertilizer sources for Black land protection."
+ },
+ {
+  "pmid": "39518940",
+  "pmc": "PMC11546519",
+  "doi": "10.3390/ijms252111388",
+  "title": "Exploring the Potential of Fungal Biomass for Bisphenol A Removal in Aquatic Environments.",
+  "journal": "International journal of molecular sciences",
+  "year": "{'year': '2024', 'month': '10', 'day': '",
+  "abstract": "Bisphenol A is a plastic component, which shows endocrine activity that is detrimental to humans and aquatic ecosystems. The elimination of BPA from the environment is one of the solutions for BPA contaminant management. Adsorption is a cost-effective, easy-to-use method generating low harmful byproducts; nevertheless, contaminant sorbent treatment is a challenge that still needs to be addressed. Fungal fruiting bodies biomass is rarely studied sorbent but is promising due to its high polysaccharide content and availability. Our preliminary studies showed BPA sorption (100 mg/L) by 50 cultivated and wild fungi. The cultivated species:(82%),(77%), and(74%), and wild fungi(75%) and(72%) were the most efficient. The biomass was able to sorb BPA over a broad range of temperature and pH levels, with an optimum at 20 °C and pH 7. Although saturation of sorbents was rapid, the regeneration process using ethanol was effective and allowed to recover up to 75% of sorbents' initial efficiency. A single use of 1 g of sorbent would allow the treatment of 8.86 to 10.1 mof wastewater effluent, 16.5 to 18.7 mof surface water, and 411 to 469 mof drinking water, assuming the concentrations of BPA reported in the literature."
+ },
+ {
+  "pmid": "38690362",
+  "pmc": "PMC11059008",
+  "doi": "10.3389/fmicb.2024.1319886",
+  "title": "Analysis of microbial community evolution, autolysis phenomena, and energy metabolism pathways inendophytes.",
+  "journal": "Frontiers in microbiology",
+  "year": "{'year': '2024', 'month': '04', 'day': '",
+  "abstract": "Pholiota nameko is a widely consumed edible fungus. This study focuses on two crucial developmental stages of Pholiota nameko, namely, mycelium and ascospores. The objectives of this research were to investigate changes in microbial diversity and community structure during the growth of Pholiota nameko and to analyze the adaptability of the dominant strains to their respective habitats through metabolic.\n\nSpecifically, we conducted second-generation sequencing of the 16S rRNA gene (Illumina) on samples obtained from these stages. In addition, we isolated and characterized endophytes present in Pholiota nameko, focusing on examining the impact of dominant endophyte genera on autolysis. We also conducted a metabolic pathway analysis.\n\nThe results unveiled 578,414 valid sequences of Pholiota nameko endophytic fungi. At the phylum level, the dominant taxa were Basidiomycota, Ascomycota, Zoopagomycota, and Mucoromycota. At the genus level, the dominant taxa observed were Pholiota, Inocybe, Fusarium, and Hortiboletus. For endophytic bacteria, we obtained 458,475 valid sequences. The dominant phyla were Proteobacteria, TM6, Firmicutes, and Bacteroidetes, while the dominant genera were Edaphobacter, Xanthomonas, Burkholderia, and Pseudomonas. Moreover, we identified the isolated strains in Pholiota nameko using 16S rDNA, and most of them were found to belong to the genus Pseudomonas, with Pseudomonas putida being the most prevalent strain. The findings revealed that the Pseudomonas putida strain has the ability to slow down the breakdown of soluble proteins and partially suppress the metabolic processes that generate superoxide anion radicals in Pholiota nameko, thereby reducing autolysis. Additionally, our results demonstrated that molybdenum enzyme-mediated anaerobic oxidative phosphorylation reactions were the primary energy metabolism pathway in the Pseudomonas putida strain. This suggests that the molybdenum cofactor synthesis pathway might be the main mechanism through which Pholiota nameko adapts to its complex and diverse habitats."
+ },
+ {
+  "pmid": "38587144",
+  "pmc": null,
+  "doi": "10.1080/14786419.2024.2338821",
+  "title": "A new illudane sesquiterpene from the edible fungus.",
+  "journal": "Natural product research",
+  "year": "{'year': '2024', 'month': '04', 'day': '",
+  "abstract": "Fungi have different genetic expression abilities and biosynthetic pathways under different cultivation conditions, which can produce various secondary metabolites. The \"one strain many compounds\" strategy is used to activate silent biosynthetic genes of fungi to produce various compounds, which is an effective method. In order to discover various new compounds in the edible fungus, a fermentation strategy involving precursor feeding and enzyme inhibitor addition has been employed. A new illudane sesquiterpene (), along with one known indole diterpenoid alkaloid, cladosporine A () were isolated from the extracts of liquid culture of. The new compound was identified by combination of 1D and 2D NMR, MS, optical rotation, and ECD calculations. We conducted experiments on the cytotoxicity of all isolated compounds on three cancer cell lines, but we did not observe any significant cytotoxicity (IC> 40 μM)."
+ },
+ {
+  "pmid": "38222903",
+  "pmc": "PMC10786768",
+  "doi": "10.1007/s10068-023-01342-w",
+  "title": "Effect of ultrahigh pressure processing (UHP) on physicochemical properties, antioxidant activity and anti-inflammatory activity of insoluble dietary fiber from.",
+  "journal": "Food science and biotechnology",
+  "year": "{'year': '2023', 'month': '06', 'day': '",
+  "abstract": "The aim of this study was to evaluate the effect of ultrahigh pressure processing (UHP) of 200, 300, 400, 500, 600 and 700 MPa for 20, 40 and 30 min on physicochemical and bioactive properties of the insoluble dietary fiber(PN-IDF). The results revealed that UHP were capable of decreasing the particle size of PN-IDF and binding phenolic content. Moreover, UHP technique had an improving effect on the bioaccessible phenolic content, the water-holding capacity, the oil-holding capacity and the nitrite ion adsorption capacity. Further, UHP technique presented a promoting effect on the antioxidant activity by scavenging ABTS or DPPH free radicals and increasing reducing power, and the anti-inflammatory activity by inhibiting carrageenan-induced paw edema on PN-IDF. Overall, this study well proved that UHP technology could improve the physicochemical and functional quality of PN-IDF, which could be used as a promising green technique for functional food ingredients processing."
+ },
+ {
+  "pmid": "38171663",
+  "pmc": null,
+  "doi": "10.1016/j.carbpol.2023.121678",
+  "title": "(1 → 3),(1 → 6) and (1 → 3)-β-D-glucan physico-chemical features drive their fermentation profile by the human gut microbiota.",
+  "journal": "Carbohydrate polymers",
+  "year": "{'year': '2023', 'month': '12', 'day': '",
+  "abstract": "Mushroom polysaccharides consist of a unique set of polymers that arrive intact in the human large intestine becoming available for fermentation by resident gut bacteria with potential benefits to the host. Here we have obtained four glucans from two mushrooms (Pholiota nameko and Pleurotus pulmonarius) under different extraction conditions and their fermentation profile by human gut bacteria in vitro was evaluated. These glucans were isolated and characterized as (1 → 3),(1 → 6)-β-D-glucans varying in branching pattern and water-solubility. An aliquot of each (1 → 3),(1 → 6)-β-D-glucan was subjected to controlled smith degradation process in order to obtain a linear (1 → 3)-β-D-glucan from each fraction. The four β-D-glucans demonstrated different water solubilities and molar mass ranging from 2.2 × 10 g.molto 1.9 × 10 g.mol. In vitro fermentation of the glucans by human gut microbiota showed they induced different short chain fatty acid production (52.0-97.0 mM/50 mg carbohydrates), but an overall consistent high propionate amount (28.5-30.3 % of total short chain fatty acids produced). All glucans promoted Bacteroides uniformis, whereas Anaerostipes sp. and Bacteroides ovatus promotion was strongly driven by the β-D-glucans solubility and/or branching pattern, highlighting the importance of β-D-glucan discrete structures to their fermentation by the human gut microbiota."
+ },
+ {
+  "pmid": "37526876",
+  "pmc": null,
+  "doi": "10.1007/s12011-023-03779-w",
+  "title": "Levels and Health Risk Assessment of Inorganic Arsenic, Methylmercury, and Heavy Metals in Edible Mushrooms Collected from Online Supermarket in China.",
+  "journal": "Biological trace element research",
+  "year": "{'year': '2023', 'month': '08', 'day': '",
+  "abstract": "Chromium (Cr), total arsenic (As), inorganic arsenic (iAs), cadmium (Cd), mercury (Hg), methylmercury (MeHg), and lead (Pb) were analyzed in in Agaricus blazei, Tricholoma matsutake, Pholiota nameko, agrocybe aegirit, Boletus edulis, Auricularia auricula, and Lentinus edodes collected from online supermarket in China from 2015 to 2017. The order of mean concentrations for the five heavy metals in edible mushrooms was As > Cd > Cr > Pb > Hg. No positive correlation was found between total As and iAs, nor between total Hg and MeHg. The contents of iAs were at a low level except for A. blazei samples. The contents of MeHg were at a low level in all test mushroom samples. And Cr, Cd, and Pb pollution were common problems in the test mushroom samples. The comprehensive factor pollution index was between 0.569 (A. auricula) and 3.056 (B. edulis). The THQ values for the five heavy metals from P. nameko, A. auricula, A. aegirit, and L. edodes samples were less than 1. The hazard index (HI) values of A. blazei, T. matsutake, and B. edulis samples for adults and children were greater than 1, indicating significant health hazard to the adults and children consumers. The cancer risk (CR) values for iAs ranged from 3.82 × 10(T. matsutake) to 8.61 × 10(A. blazei), indicating no potential carcinogenic risk to the consumers. The order for carcinogenic risk of each edible mushroom species was A. blazei > L. edodes > P. nameko > A. aegirit > A. auricula > B. edulis > T. matsutake."
+ },
+ {
+  "pmid": "37089630",
+  "pmc": "PMC10012341",
+  "doi": "10.47371/mycosci.2022.03.002",
+  "title": "Japanese \"nameko\" mushrooms () produced via sawdust-based cultivation exhibit severe genetic bottleneck associated with a single founder.",
+  "journal": "Mycoscience",
+  "year": "{'year': '2022', 'month': '05', 'day': '",
+  "abstract": "(\"nameko\" in Japanese) is one of the most common edible mushrooms, especially in Japan, where sawdust-based cultivation is the most dominant method accounting for 99% of the production. The current strains for sawdust cultivation in Japan are considered to have been derived from a single wild strain collected from Fukushima, Japan, implying that commercial nameko mushrooms are derived from a severe genetic bottleneck. We tested this single founder hypothesis by developing 14 microsatellite markers forto evaluate the genetic diversity of 50 cultivars and 73 wild strains isolated from across Japan. Microsatellite analysis demonstrated that sawdust-cultivated strains from Japan were significantly less genetically diverse than the wild strains, and the former displayed a significant bottleneck signature. Analyzing the genetic relationships among all genotypes also revealed that the sawdust-cultivated samples clustered into one monophyletic subgroup. Moreover, the sawdust-cultivated samples in Japan were more closely related than full-sibs. These results were consistent with the single founder hypothesis that suggests that all commercial nameko mushrooms produced in Japan are descendants of a single ancestor. Therefore, we conclude that cultivatedoriginated from a single domestication event that substantially reduced the diversity of commercial nameko mushrooms in Japan."
+ },
+ {
+  "pmid": "33157137",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2020.11.004",
+  "title": "Increased antioxidant activity and improved structural characterization of sulfuric acid-treated stepwise degraded polysaccharides from Pholiota nameko PN-01.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2020', 'month': '11', 'day': '",
+  "abstract": "The aim of this study was to investigate sulfuric acid degradation of the Pholiota nameko polysaccharide (AIPS-1). Three stepwise degraded polysaccharides (AIPS-2, AIPS-3, and AIPS-4) were obtained by sequentially increasing the strength of sulfuric acid treatment. Structural characterization showed that sulfuric acid treatment significantly decreased molecular weight, increased the content of uronic acid and changed the molar ratio of monosaccharide composition, while the major functional groups and the triple helical conformation of polysaccharides did not change significantly. In vitro experiments proved that the antioxidation ability of the stepwise degraded polysaccharides gradually increased (AIPS-1 < AIPS-2 < AIPS-3 < AIPS-4). An oxidative stress zebrafish model was established, which demonstrated that the ability of AIPS-3 and AIPS-4 to scavenge free radicals in zebrafish was significantly improved compared to AIPS-1. In conclusion, sulfuric acid treatment is an effective method for improving the antioxidant activity of polysaccharides, and increased antioxidant activity was closely related to the changes in their structural characteristics."
+ },
+ {
+  "pmid": "32858105",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2020.08.187",
+  "title": "A novel antitumor protein from the mushroom Pholiota nameko induces apoptosis of human breast adenocarcinoma MCF-7 cells in vivo and modulates cytokine secretion in mice bearing MCF-7 xenografts.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2020', 'month': '08', 'day': '",
+  "abstract": "Breast cancer is the most common malignant tumor in women and one of the three most common cancers worldwide. It is a life-threatening disease among women and the leading cause of death among women. New drugs or new drug translations and laboratory clinical studies are ongoing. A new antitumor protein (PNAP) purified from edible fungus Pholiota nameko has potential for treating breast cancer. We have previously found that PNAP exhibits anti-proliferative and apoptosis-inducing activities in a human breast cancer cell line (MCF-7). In this study, we constructed a BALB/c mouse model of MCF-7 tumor xenografts. In vivo experiments show that PNAP can effectively inhibit the malignant proliferation of MCF-7 solid tumors. This is because PNAP can successfully activate the death receptor pathway and mitochondrial apoptosis pathway of MCF-7 tumor cells in vivo, and induce tumor cells to wither. It is estimated that PNAP may also have an immunoregulatory ability to indirectly inhibit malignant proliferation of tumors. We also found that PNAP may also have the immunomodulatory ability to indirectly inhibit the malignant proliferation of tumors, which can shift the balance of Th1/Th2 to Th1 and eventually inhibit the growth of tumors. The study reveals a new therapeutic approach for breast cancer patient."
+ },
+ {
+  "pmid": "35516923",
+  "pmc": "PMC9055521",
+  "doi": "10.1039/d0ra03258a",
+  "title": "Co-culturedandpolysaccharide-iron(iii) chelates exhibit good antioxidant activity.",
+  "journal": "RSC advances",
+  "year": "{'year': '2020', 'month': '07', 'day': '",
+  "abstract": "In the present study, the structural characteristics and antioxidant activities of polysaccharide from the co-culturedandand its polysaccharide-iron(iii) chelates were determined. Two polysaccharide fractions named CP-1 and CP-3 were isolated previously from polysaccharide of the fermentation liquid of the co-culturedand. And their chemical structures were measured by FT-IR infrared spectroscopy, TG analysis, X-ray diffraction andH NMR spectroscopy. The results suggested that polysaccharides were chelated with iron(iii) by -OH and -COOH groups, forming a stable structure of β-FeOOH and improving crystallinity. Furthermore, the antioxidant activities of polysaccharide-iron(iii) chelates exhibited stronger hydroxyl radical and superoxide radical scavenging activity than the polysaccharides. Therefore, the polysaccharide-iron(iii) chelates could be used as a potential iron supplement."
+ },
+ {
+  "pmid": "31936888",
+  "pmc": "PMC7022505",
+  "doi": "10.3390/antiox9010065",
+  "title": "Polysaccharides Promotes Cell Proliferation and Migration and Reduces ROS Content in HO-Induced L929 Cells.",
+  "journal": "Antioxidants (Basel, Switzerland)",
+  "year": "{'year': '2020', 'month': '01', 'day': '",
+  "abstract": ", a type of edible and medicinal fungus, is currently grown extensively for food and traditional medicine in China and Japan. It possesses various biological activities, such as anti-inflammatory, anti-hyperlipidemia and antitumor activities. However,has rarely been discussed in the field of dermatology; identifying its biological activities could be beneficial in development of a new natural ingredient used in wound care. To evaluate its in vitro wound healing activities, the present study assessed the antioxidant and anti-collagenase activities ofpolysaccharides (PNPs) prepared through fractional precipitation (40%, 60% and 80% (/)); the assessments were conducted using reducing power, hydroxyl radical scavenging activity, dichloro-dihydro-fluorescein diacetate and collagenase activity assays. The ability of PNPs to facilitate L929 fibroblast cell proliferation and migration was assessed using 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) and scratch assays. The findings indicated that, among all fractions, PNP-80 showed the best antioxidant and anti-collagenase activity, as measured by their reducing power (ICof PNP-80 was 2.43 ± 0.17 mg/mL), the hydroxyl radical scavenging (ICof PNP-80 was 2.74 ± 0.11 mg/mL) and collagenase activity assay, and significantly reduced cellular ROS content, compared with that of HO-induced L929 cells. Moreover, PNP-80 significantly promoted L929 fibroblast proliferation and migration, compared with the control group. Overall, we suggested that PNP-80 could be a promising candidate for further evaluation of its potential application on wound healing."
+ },
+ {
+  "pmid": "31186185",
+  "pmc": null,
+  "doi": "10.1016/j.jbiosc.2019.04.021",
+  "title": "Anti-osteoporotic effects of syringic acid and vanilic acid in the extracts of waste beds after mushroom cultivation.",
+  "journal": "Journal of bioscience and bioengineering",
+  "year": "{'year': '2019', 'month': '06', 'day': '",
+  "abstract": "In recent years, the number of patients with osteoporosis has increased as population grows older. Therefore, the chemoprevention of osteoporosis by better nutrition is important. White-rot fungi degrades milled wood lignin for growth and development. This degradation results in the formation of phenolic compounds such as syringic acid (SA) and vanillic acid (VA). In the artificial culture of edible mushrooms using a mushroom bed, the disposal of waste beds after mushroom cultivation is an important issue. The present study investigated the presence and amount of both SA and VA in the discarded waste beds after mushroom cultivation. The extracts from waste beds after cultivation of shiitake mushrooms, Lentinula edodes; buna shimeji, Hypsizygus marmoreus; maitake, Grifola frondosa; king trumpet mushrooms, Pleurotus eryngii; and butterscotch mushrooms, Pholiota microspora were analyzed using high performance liquid chromatography. Although the content of SA and VA was considerably different among the mushrooms, SA and VA were present in extracts obtained from all the waste beds. We also demonstrated that SA and VA exert their anti-osteoporotic effect independently of the estrogen receptor-mediated pathway using murine monocytic RAW264.7 cells, ovariectomized mice, and human breast cancer MCF-7 cells. Thus, these results suggest that the extracts are effective sources of SA and VA, which are effective in preventing osteoporosis."
+ },
+ {
+  "pmid": "31152832",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2019.05.177",
+  "title": "Effect of ultrasound-assisted extraction on physicochemical properties and TLR2-affinity binding of the polysaccharides from Pholiota nameko.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2019', 'month': '05', 'day': '",
+  "abstract": "The effect of the ultrasonic treatment on the physicochemical properties, oil-holding capacities, foaming capacities, and TLR2-affinity of the polysaccharides from Pholiota nameko (PNPS), was evaluated. Compared with the protein content of PNPS before ultrasonic treatment, the protein content of PNPS all presented a decrease under different ultrasonic conditions. The viscosity of PNPS showed a decrease when the ultrasonic intensity was strong enough, as well as the molecular weight. The oil-holding capacity and the foaming capacity of PNPS showed a continuous increasing trend with the increase of the ultrasonic treatment time under a set ultrasonic power of 400 W. Further, the ultrasonic operation could induce the decrease of the affinity binding between PNPS and the receptor proteins TLR2. These data confirmed that applying the ultrasonic treatment could obtain PNPS with high carbohydrate contents, low viscosity and low TLR2-affinity under proper ultrasonic condition."
+ },
+ {
+  "pmid": "30910671",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2019.03.154",
+  "title": "Chemical analysis, moisture-preserving, and antioxidant activities of polysaccharides from Pholiota nameko by fractional precipitation.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2019', 'month': '03', 'day': '",
+  "abstract": "This study explored Pholiota nameko (P. nameko) polysaccharide fractions, PNP-40, PNP-60, and PNP-80, purified by gradient concentrations of ethanol (40%, 60%, and 80% (v/v)). The physicochemical properties, functional group composition, moisture-preserving, and antioxidant ability were determined. The results indicate that the polysaccharide contents of PNP-40, PNP-60, and PNP-80 are 45.12%, 78.04%, and 72.22%, respectively, while the β-glucan, protein, and uronic acid contents are 20.20%, 12.20%, and 10.15%, respectively; 11.24%, 14.53%, and 26.94%; and 5.99%, 7.73%, and 3.78%. Furthermore, PNP-60 has better moisture absorption, while PNP-80 has better antioxidant ability and HO-injury resistance activity. Monosaccharide composition analysis shows that P. nameko belongs to heteropolysaccharides, which consists of galactose, glucose, and mannose with different types and ratios, and the molecular weight are distributed at 4.40-333.49kDa. It was found that different polysaccharide fractions have the potential to be a moisturizer and an antioxidant, and their active ingredients could be used in the development of cosmetic ingredients."
+ },
+ {
+  "pmid": "30887855",
+  "pmc": null,
+  "doi": "10.1080/14786419.2019.1586694",
+  "title": "One new sterpurane sesquiterpene from cultures of the basidiomycete.",
+  "journal": "Natural product research",
+  "year": "{'year': '2019', 'month': '03', 'day': '",
+  "abstract": "One new sterpurane sesquiterpene (), named (3,6,7,8,10)-3,7,14-trihydroxy-1-sterpurene was isolated from cultures of the basidiomyceteThe structure of new compound was elucidated by extensive spectroscopic. Additionally, a single crystal X-ray diffraction not only confirmed the structure, but also determined the absolute configuration of the new compound. The compound was evaluated for cytotoxicity against five human cancer cell lines, but no significant cytotoxicity were found (ICvalues > 40 μM)."
+ },
+ {
+  "pmid": "35515944",
+  "pmc": "PMC9060681",
+  "doi": "10.1039/c8ra10627d",
+  "title": "Effects of corn stalk cultivation substrate on the growth of the slippery mushroom ().",
+  "journal": "RSC advances",
+  "year": "{'year': '2019', 'month': '02', 'day': '",
+  "abstract": "Corn stalks are a major source of agricultural waste in China that have the potential for more efficient utilisation. In this study, we designed substrate formulas with different proportions of corn stalks to cultivate. The substrate formula for.cultivation that could partially or completely replace sawdust with corn stalks was selected through the analysis of mycelial growth rates, fruiting body traits, yield, biological efficiency, nutrients, and mineral composition. Our results showed that the substrate formula T2 (38% wood chips and 38% corn stalks) resulted in the highest yield of 275.66 ± 2.87 g per bag, which was 6.60% higher than that of formula CK, and the highest biological efficiency of 90.75 ± 0.04%, which was 4.58% higher than that of CK, with no significant differences from CK in terms of fruiting body traits, nutrients, or mineral composition. The substrate formula T1 (19% corn stalks) led to mushroom yields with the highest mineral and amino acid contents and was thus more suitable for the cultivation of medicinal. Therefore, substrates comprising a mixture of corn stalks and sawdust can be used as a novel, inexpensive, and high-yield alternative for the cultivation of."
+ },
+ {
+  "pmid": "30218731",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2018.09.062",
+  "title": "Gelling functional property, anti-inflammatory and antinociceptive bioactivities of β-D-glucan from the edible mushroom Pholiota nameko.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2018', 'month': '09', 'day': '",
+  "abstract": "A β-D-glucan was obtained from the edible mushroom Pholiota nameko by hot aqueous extraction and purification. NMR and methylation analyses of the purified fraction (GHW-PN, 1.46% yield) indicated the presence of a (1 → 3)-linked β-D-glucan, highly substituted (~27%) at O-6 by single units of β-D-Glcp or by (1 → 6)-β-D-Glcp fragments. The β-glucan (at 0.5, 1, and 2%) showed shear thinning behavior and when the concentration of the solution increased, there was an increase in apparent viscosity. The β-D-glucan presented gel-like behavior and thermal stability under a simulated pasteurization process, suggesting its potential as a thickening and gelling agent in products submitted to temperature variations. The β-D-glucan at 0.3, 1.0 and 3.0 mg kgsignificantly inhibited the inflammatory pain in 24.8, 56.9 and 82.3%, respectively, in the formalin-induced nociception in mice. The results pointed out that the β-D-glucan (GHW-PN) isolated from P. nameko presents potential application for the food industry or for medical purposes."
+ },
+ {
+  "pmid": "29911899",
+  "pmc": null,
+  "doi": "10.1080/14786419.2018.1483921",
+  "title": "Two new sesquiterpenes from cultures of the higher fungus.",
+  "journal": "Natural product research",
+  "year": "{'year': '2018', 'month': '06', 'day': '",
+  "abstract": "Two new sesquiterpenes (), along with one known sesquiterpene (), were isolated from cultures of the higher fungusThe structures of new compounds were elucidated by extensive spectroscopic methods. The known compound was identified by comparing its spectroscopic data with those reported in the literature. All compounds were evaluated for their cytotoxicities against five human cancer cell lines."
+ },
+ {
+  "pmid": "29564562",
+  "pmc": null,
+  "doi": "10.1007/s10661-018-6614-6",
+  "title": "Trace element and toxic metal intake from the consumption of canned mushrooms marketed in Spain.",
+  "journal": "Environmental monitoring and assessment",
+  "year": "{'year': '2018', 'month': '03', 'day': '",
+  "abstract": "Mushrooms are a valuable foodstuff because they are an important source of fiber and essential amino acids, but they have a great capacity to capture metals from substrate. Due to this reason, the content of 14 metals (B, Ba, Cr, Cu, Fe, Li, Mo, Ni, Sr, V, Zn, Al, Cd, Pb) of 100 samples of canned mushrooms grown in Spain were analyzed by inductively coupled plasma atomic emission spectroscopy. Fe (9.55 mg/kg) was the most notable trace element, followed by Zn (2.39 mg/kg). The most abundant toxic metal was Al (17.80 mg/kg). Significant statistical differences between the absorption of metals have been observed when comparing species. Lentinula edodes and Lactarius deliciosus are the species which had the highest metal contents. Taking the average consumption 300 g per day for adults into account, the exposure to trace toxic metals from the consumption of the studied mushrooms does not pose a health risk. However, contribution percentages of Pb (87.6%) and Al (59.2%) found in Lentinula edodes and Pholiota nameko samples, respectively, are near the maximum intake."
+ },
+ {
+  "pmid": "29308664",
+  "pmc": null,
+  "doi": "10.1080/14786419.2017.1423308",
+  "title": "Structural properties and antioxidant activities of polysaccharide from fruit bodies of.",
+  "journal": "Natural product research",
+  "year": "{'year': '2018', 'month': '01', 'day': '",
+  "abstract": "A polysaccharide named PNP was extracted and purified fromThe total sugar content of PNP was 95.29% and the molecular weight was 1.89 × 10 kDa. The structural features of PNP were investigated by the combination of chemical and instrumental analysis such as UV spectrophotometer, specific rotation determination, FT-IR, methylisation analysis and Congo red. The results showed that the optical rotation of PNP was +120° and that it had a triple-helical structure. Besides, PNP was mainly composed of glucose and mannose at the molar ratio of 4.24:1.00. The backbone of PNP was composed of (1→3)-linked-Glc and (1→3)-linked-Man whereas the branches of (1→3,6)-linked- Glc, (1→3,6)-linked-Man and T- Glc. Consistenting with the results of UV-Vis spectra, FT-IR spectroscopy andH NMR, indicated that PNP was a complex of polysaccharides and polyphenols. In vitro antioxidant results suggested that PNP was processed with certain scavenging capacity."
+ },
+ {
+  "pmid": "28686838",
+  "pmc": null,
+  "doi": "10.1021/acs.jafc.7b01893",
+  "title": "Occurrence of the (2R,3S)-Isomer of 2-Amino-3,4-dihydroxybutanoic Acid in the Mushroom Hypsizygus marmoreus.",
+  "journal": "Journal of agricultural and food chemistry",
+  "year": "{'year': '2017', 'month': '07', 'day': '",
+  "abstract": "Here, we report the occurrence of the (2R,3S)-isomer of 2-amino-3,4-dihydroxybutanoic acid (d-ADHB) in the fruiting body of an edible mushroom, Hypsizygus marmoreus. This is an unusual example of the accumulation of a d-amino acid whose enantiomer is not a proteinogenic amino acid. We show that d-ADHB occurs specifically in the mushroom H. marmoreus. Other edible mushrooms examined, including Pholiota microspora, Pleurotus eryngii, Mycena chlorophos, Sparassis crispa, Grifola frondosa, Pleurotus ostreatus, and Flammulina velutipes, do not contain detectable levels of d-ADHB. The concentration of d-ADHB in the fruiting body of H. marmoreus is relatively high (approximately 1.3 mg/g of fruiting body) and is comparable to the concentration of some of the most abundant free proteinogenic amino acids. Quantitative analysis of d-ADHB during fruiting body development demonstrated that the amino acid is synthesized during the fruiting body formation period. The absence of the putative precursors of d-ADHB, the (2S,3S)-isomer of ADHB and 2-oxo-tetronate, and the enzyme activities of d-ADHB racemase (2-epimerase) and transaminase suggested that d-ADHB is synthesized by a unique mechanism in this organism. Our data also suggested that the lack of or low expression of a d-ADHB degradation enzyme is a key determinant of d-ADHB accumulation in H. marmoreus."
+ },
+ {
+  "pmid": "28504124",
+  "pmc": null,
+  "doi": "10.1016/j.carbpol.2017.03.093",
+  "title": "Structural characterization and rheological properties of a gel-like β-d-glucan from Pholiota nameko.",
+  "journal": "Carbohydrate polymers",
+  "year": "{'year': '2017', 'month': '03', 'day': '",
+  "abstract": "A crude fraction (SCW) was extracted with cold water from Pholiota nameko and showed mannose (24.1%), galactose (44.9%) and glucose (31%). Purification procedures resulted in a polysaccharide fraction (bG-PN), that showed only glucose. NMR and methylation analyses of bG-PN indicated a β-d-glucan-(1→3)-linked, substituted at O-6 by β-d-Glcp or (1→6)-linked β-d-Glcp side chains. Rheological studies of crude and purified fractions at the same concentration showed similar shear-thinning behavior and gel-like structure which indicates no need to isolate the polymer to achieve some desirable rheological properties. SCW (at 1% and 2%) and bG-PN (at 2%) presented thermal stability during heating and cooling, suggesting that the physical structure of gels (SCW and bG-PN at 2%) and viscoelastic fluid (SCW at 1%) formed were not altered in the tested temperature range. Our results suggest that P. nameko β-d-glucans can be applied in different food preparations as thickener or gelling agents modifying their rheological properties."
+ },
+ {
+  "pmid": "28008810",
+  "pmc": null,
+  "doi": "10.1615/IntJMedMushrooms.v18.i11.30",
+  "title": "A Polysaccharide from the Culinary-Medicinal Mushroom Pholiota nameko (Agaricomycetes) Inhibits the NF-κB Pathway in Dendritic Cells Through the TLR2 Receptor.",
+  "journal": "International journal of medicinal mushrooms",
+  "year": "{'year': '2016'}",
+  "abstract": "A polysaccharide purified from Pholiota nameko (PNPS-1) was found to have anticancer and anti-inflammatory activity. This study investigated the effect of PNPS-1 on the nuclear factor (NF)-κB signaling pathway of TLR2 small interfering RNA-silenced murine bone marrow-derived dendritic cells (BMDCs) and relevant mechanisms. The expression of messenger RNA of 4 NF-κB-related genes, including MyD88, IKBKB, RelA(p65), and CCL2, was determined by real-time polymerase chain reaction; the expression of the phenotype molecule intercellular adhesion molecule-1 (ICAM-1) by flow cytometry; the protein expression of IKKβ and p65 by Western blot; the production of p65 by enzyme-linked immunosorbent assay; and the expression of p65 by immunocytochemistry. The results showed that TLR2-specific small interfering RNA could effectively inhibit the decrease in the expression of MyD88, IKBKB, CCL2, p65, and ICAM-1 in BMDCs induced by PNPS-1, and thus the transcription inactivation of NF-κB, which obviously suggests that PNPS-1 could downregulate the NF-κB signaling pathway via the TLR2 receptor."
+ },
+ {
+  "pmid": "27910755",
+  "pmc": null,
+  "doi": "10.1615/intjmedmushrooms.v18.i10.30",
+  "title": "Comparison of the Composition and Antioxidant Activities of Phenolics from the Fruiting Bodies of Cultivated Asian Culinary-Medicinal Mushrooms.",
+  "journal": "International journal of medicinal mushrooms",
+  "year": "{'year': '2016'}",
+  "abstract": "The composition profile and the antioxidant properties of phenolics in water extracts obtained from the fresh fruiting bodies of 4 common cultivated Asian edible mushrooms-Agrocybe aegerita, Pleurotus ostreatus, P. eryngii, and Pholiota nameko were compared. The water extract from A. aegerita (AaE) had the highest total phenolic content (TPC) at 54.18 ± 0.27 gallic acid equivalents (μmol/L)/mg extract (P < 0.05), as measured by the Folin-Ciocalteu method, and consisted of the largest number (including gallic acid, protocatechuic acid, chlorogenic acid, ferulic acid, and sinapic acid) and total amounts of phenolic acids identified by Fourier transform-ion cyclotron resonance mass spectrometry. The water extract of Ph. nameko was found to have the second-highest TPC (43.55 ± 0.10 gallic acid equivalents [μmol/L]/mg extract), followed by the water extract of P. eryngii and the water extract of P. ostreatus (39.55 ± 0.25 and 39.02 ± 0.30 gallic acid equivalents/mg extract, respectively). The scavenging activities of the water extracts from these mushrooms were evaluated against 2,2-diphenyl-l-(2,4,6-trinitrophenyl) hydrazyl diphenylpicrylhydrazyl (DPPH), superoxide anion radicals, hydroxyl radicals, and hydrogen peroxide. Based on halfmaximal effective concentrations, AaE was more effective in scavenging hydrogen peroxide (<0.05), followed by DPPH (0.51 mg/mL), superoxide anion radicals (0.85 mg/mL) and hydroxyl radicals (5.94 mg/mL), then the other mushroom water extracts. The differences in the half-maximal effective concentrations of individual mushroom water extracts were probably the result of the different numbers and amounts of individual phenolic acids in the extracts. The antioxidant activities of the mushroom water extracts were correlated with their TPC. The strongest antioxidant properties of AaE were consistent with its highest TPC and with the largest number and amount of phenolics identified in the extract. These results indicated that cultivated edible mushrooms could be a potential source of natural antioxidants with free radical scavenging properties for application as a functional food ingredient."
+ },
+ {
+  "pmid": "27596407",
+  "pmc": null,
+  "doi": "10.1016/j.foodchem.2016.08.030",
+  "title": "Chemical and structural characterization of Pholiota nameko extracts with biological properties.",
+  "journal": "Food chemistry",
+  "year": "{'year': '2016', 'month': '08', 'day': '",
+  "abstract": "Edible mushrooms including Pholiota nameko are excellent sources of extractable bioactive compounds with much to explore. Enzymatic extractions with Cellulase and Viscozyme were responsible for highest extraction yields (67-77%). No strong antioxidant activity was observed although extracts were able to scavenge ABTS(+) and OH(+). Potential prebiotic activity was observed in all extracts, some increasing 1.4-2 Log cycles of Lactobacillus acidophilus La-5 and Bifidobacterium animalis BB12. 30-50% α-glucosidase inhibition was observed in ultrasound, Flavourzyme and Cellulase extracts. Flavourzyme and Cellulase extracts are richer in macro (Mg, K and P) and micro elements (Zn, Mn and Fe) in comparison to mushroom. Monosaccharides content and profile varied slightly among both extracts with predominance of glucose, galactose and mannose with no uronic acids detection; Flavourzyme extract reported higher free amino acids content. Presence of α and β-glycosidic structures such as glucans and glucan-protein complexes are among the polysaccharides found in both extracts."
+ },
+ {
+  "pmid": "27106661",
+  "pmc": null,
+  "doi": "10.1002/jobm.201500752",
+  "title": "Expression of α-glucosidase during morphological differentiation in the basidiomycetous fungus Pholiota microspora.",
+  "journal": "Journal of basic microbiology",
+  "year": "{'year': '2016', 'month': '04', 'day': '",
+  "abstract": "The α-glucosidase gene from Pholiota microspora, designated PnGcs, was amplified and characterized. The open reading frame region of PnGcs, from ATG to the stop codon, is 2937 bp and encodes a protein of 979 amino acids with a signal peptide of 20 amino acids at the N-terminus. The predicted amino acid sequence of PnGcs indicated that it is a glycoside hydrolase family 31 protein. Quantitative reverse transcription PCR was used to investigate PnGcs expression in mycelia cultured in minimal medium containing various carbon sources, as well as in tissue during different stages of development of fruiting bodies. When P. microspora was grown in minimal medium supplemented with different carbon sources, PnGcs expression was highest when induced by maltose. During cultivation on sawdust medium, PnGcs expression increased dramatically at the fruiting body formation stage compared with the mycelial growth stage, which implied that PnGcs is closely associated with fruiting body development."
+ },
+ {
+  "pmid": "26559701",
+  "pmc": null,
+  "doi": "10.1615/intjmedmushrooms.v17.i7.70",
+  "title": "In Vitro and In Vivo Antioxidant Effects of Polysaccharides from Nameko Medicinal Mushroom, Pholiota nameko SW-01 (Higher Basidiomycetes).",
+  "journal": "International journal of medicinal mushrooms",
+  "year": "{'year': '2015'}",
+  "abstract": "Extra- (EPS) and intracellular polysaccharides (IPS) from Pholiota nameko SW-01 were extracted, and in vitro and in vivo antioxidant effects were processed. Briefly, the in vitro antioxidant results indicated that the inhibition effects of IPS at a dose of 500 mg/L on superoxide anions, hydroxyl radicals, and 1,1-diphenyl-2-picrylhydrazyl (DPPH) radicals were 63.24 ± 1.12%, 53.11 ± 2.92%, and 59.33 ± 9.37%, which were 7.70%, 14.84%, and 11.40% higher than those of EPS, and 9.79%, 20.32%, and 4.59% higher than those of butylated hydroxytoluene (BHT), respectively. The reducing power of IPS reached 0.593 ± 0.21 (absorbance at 700 nm), which was 11.30% higher than that of EPS and 15.51% higher than that of BHT. In vivo antioxidant results proved that both IPS and EPS significantly upregulated the enzyme activities of superoxide dismutase (SOD), GSH peroxide (GSH-Px), catalase (CAT), and alanine transaminase (ALT). In addition, glycosidic bond types of EPS and IPS were primarily characterized. The findings indicate the potential antioxidant effects of polysaccharide extract from Ph. Nameko. Thus, this species has potential applicability as an antioxidant agent and should be studied further."
+ },
+ {
+  "pmid": "24216086",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2013.11.002",
+  "title": "Effects of polysaccharides from Pholiota nameko on maturation of murine bone marrow-derived dendritic cells.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2013', 'month': '11', 'day': '",
+  "abstract": "This paper studied some structure characters of the Pholiota nameko polysaccharides (PNPS-1), including morphology under SEM and AFM, also the effects of PNPS-1 on the maturation of bone marrow dendritic cells (BMDCs) via concrete changes both inside and outside BMDCs. These impacts on BMDCs were assessed with use of inverted phase contrast microscope for morphology, flow cytometry for key surface molecules, mixed lymphocyte reaction (MLR) for allogeneic T cells proliferation, and bio-assay and enzyme linked immunosorbent assay (ELISA) for cytokine production. We found that PNPS-1 could inhibit phenotypic maturation as evidenced by decreasing expression of CD11c, CD40, CD80, CD83, CD86, and I-A/I-E. Functional maturation inhibition was further confirmed by decreased naive T cell stimulatory activity of BMDCs. Finally, PNPS-1 also stimulated production of more cytokine IL-10 and less IL-12 and TNF-α. These data indicated that PNPS-1 could markedly inhibit the maturation of BMDCs and had potential significant down-regulation immunity."
+ },
+ {
+  "pmid": "24189312",
+  "pmc": null,
+  "doi": "10.1016/j.biochi.2013.10.016",
+  "title": "Purification and characterization of a novel antitumor protein with antioxidant and deoxyribonuclease activity from edible mushroom Pholiota nameko.",
+  "journal": "Biochimie",
+  "year": "{'year': '2013', 'month': '11', 'day': '",
+  "abstract": "A novel antitumor protein from the edible mushroom Pholiota nameko (PNAP) was purified through a two-step chromatographic procedure including SP cation exchange chromatogram and Superdex gel filtration. The approximate molecular weight was demonstrated to be 18.5 kDa by SDS-PAGE and ultracentrifugation analysis and N-terminal sequence was detected as AGRTFIGYNG by Edman degradation. Biochemical characterization showed that it exhibited significant antioxidant activity by effectively scavenging hydroxyl and 1,1-diphenyl-2-picrylhydrazyl radicals compared to standard antioxidant butylated hydroxy anisole. PNAP had deoxyribonuclease activity with the optimum pH and temperature were 5.0 and 60 °C respectively, as well as it can act on both double-stranded and single-stranded DNA, but preferentially on double-stranded DNA. PNAP displayed antitumor activity against cancer cell lines such as MCF7 and Hela cells. Human breast cancer MCF7 cells treated with PNAP produced typical apoptotic morphological changes including chromatin condensation, accumulation of sub-G1 cells and alternation of mitochondrial permeability. The PNAP induced apoptosis of MCF7 cells entailed loss of mitochondrial membrane potential resulting in release of cytochrome c into cytosol, activation of caspase-9 and caspase-3, which are responsible for the execution of apoptosis, implying intrinsic signal pathway is involved in PNAP induced apoptosis."
+ },
+ {
+  "pmid": "23134464",
+  "pmc": "PMC3523248",
+  "doi": "10.1089/jmf.2012.2239",
+  "title": "Induction of a T-Helper 1 (Th1) immune response in mice by an extract from the Pleurotus eryngii (Eringi) mushroom.",
+  "journal": "Journal of medicinal food",
+  "year": "{'year': '2012', 'month': '11', 'day': '",
+  "abstract": "To assess the effect of edible mushroom extracts on the induction of T-helper 1 (Th1) immunity, we examined differences in interferon-gamma (IFN-γ) and interleukin (IL)-4 production in mice induced by hot-water extracts of 15 species of edible mushroom. Extracts from Agaricus bisporus, Flammulina velutipes, Hypsizigus marmoreus, Lentinula edodes, and Lyophyllum decastes induced both IFN-γ and IL-4 production in mice, whereas extracts from Pleurotus ostreatus only induced IL-4. In contrast, extracts from Agaricus blazei, Grifola frondosa, Morchella esculenta, Pholiota nameko, Pleurotus citrinopileatus, and Pleurotus eryngii induced only IFN-γ production. In particular, the extract from P. eryngii induced high levels of IFN-γ and reduced levels of IL-4. We further investigated the use of a trial immunogen using the P. eryngii extract as a Th1 immunostimulator. An oil-in-water emulsion of the hot-water extract from P. eryngii (immunostimulator) and ovalbumin (OVA; antigen) was used as a trial immunogen. This immunogen induced strong OVA-specific IgG2a antibody production in mice compared with the negative controls. In addition, OVA-specific IgG1 antibody levels were lower than those for the negative controls. Marked increases in serum IFN-γ levels and high-level production of IFN-γ in the culture supernatant from the CD4(+) spleen cells in the trial immunogen group mice were observed. Our results suggested that the hot-water extract from P. eryngii induced Th1 immunity by acting as an immunostimulator."
+ },
+ {
+  "pmid": "22044749",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2011.10.015",
+  "title": "Effects of the polysaccharide from Pholiota nameko on human cytokine network in serum.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2011', 'month': '10', 'day': '",
+  "abstract": "Some physico-chemical characterizations of Pholiota nameko polysaccharides (PNPS-1) were studied, including sulfate content, UV/visible and infrared spectra, also the variation of cytokine communication network in serum to clarify the pharmacological effects of PNPS-1 by determination of 39 cytokines in serum of healthy volunteers. The result proved that PNPS-1 possessed significant anti-inflammatory activity. Further, we use Microsoft Visio 2007 software to map out the cell-cell communication network diagram. The analysis to the diagram suggested that PNPS-1 could take effect on the innate and adaptive immunity and hematopoiesis of volunteers."
+ },
+ {
+  "pmid": "25213921",
+  "pmc": null,
+  "doi": "10.1016/j.foodchem.2010.12.063",
+  "title": "Immunomodulatory effect of mushrooms on cytotoxic activity and cytokine production of intestinal lamina propria leukocytes does not necessarily depend on β-glucan contents.",
+  "journal": "Food chemistry",
+  "year": "{'year': '2010', 'month': '12', 'day': '",
+  "abstract": "We evaluated the effects of seven mushroom extracts (Grifola frondosa, Pholiota nameko, Panellus serotinus, Hypsizygus marmoreus, Pleurotus cornucopiae, Armillaria mellea, and Flammulina velutipes) on cytotoxic activity and cytokine production of lamina propria leukocytes (LPLs) isolated from rat small (S) and large (L) intestinal mucosa. Boiling water extracts from seven species of mushrooms showed no direct cytotoxicity against the YAC-1 target cells. However, prominent increases of cytotoxicity were observed in S- and L-LPLs co-cultured with P. serotinus extract. Cytokine production (TNFα, IFNγ, IL-12 p70, and IL-4) of S- and L-LPLs was stimulated in response to P. cornucopiae extract. Mushroom extracts contributed to target cell adhesion and/or cytokine production in the effector cells. The promotion of cytotoxic activity in S- and L-LPLs was not necessarily related to β-glucan content of the mushroom."
+ },
+ {
+  "pmid": "21388873",
+  "pmc": null,
+  "doi": "10.1016/j.jbiosc.2011.02.009",
+  "title": "Purification and characterization of a novel serine protease from the mushroom Pholiota nameko.",
+  "journal": "Journal of bioscience and bioengineering",
+  "year": "{'year': '2011', 'month': '03', 'day': '",
+  "abstract": "A novel serine protease, with a molecular mass of 19 kDa and the N-terminal sequence of ARTPEAPAEV, was isolated from dried fruiting bodies of the mushroom Pholiota nameko. The purification protocol comprised ion exchange chromatography on DEAE-cellulose, Q-Sepharose and SP-Sepharose, and gel filtration on Superdex 75. It was unadsorbed on DEAE-cellulose and Q-Sepharose but adsorbed on SP-Sepharose. It exhibited an optimum temperature at 50°C, an optimum pH at pH 8.8, a Km of 5.64 mg/mL and a Vmax of 0.98 μmol/min/mL against substrate casein. A number of metal ions inhibited the enzyme including Pb(2+), Mn(2+), Ca(2+), Hg(2+), Zn(2+), Cu(2+), Co(2+), Fe(3+) and Al(3+), with the inhibition of the last two cations being the most potent. K(+) and Mg(2+) slightly enhanced, while Li(+) moderately potentiated the activity of the protease. The protease was strongly inhibited by phenylmethylsulfonyl fluoride (PMSF), suggesting that it is a serine protease."
+ },
+ {
+  "pmid": "21181151",
+  "pmc": null,
+  "doi": "10.1007/s00253-010-3039-8",
+  "title": "C-terminal processing of tyrosinase is responsible for activation of Pholiota microspora proenzyme.",
+  "journal": "Applied microbiology and biotechnology",
+  "year": "{'year': '2010', 'month': '12', 'day': '",
+  "abstract": "Tyrosinase is expressed as a 67-kDa protein in Pholiota microspora (synonym Pholiota nameko), whereas the same enzyme purified from fruiting bodies of P. microspora is a 42-kDa protein that is cleaved with a C-terminal 25-kDa polypeptide from the 67-kDa protein. To confirm the role of C-terminal processing in enzyme activity, we expressed a recombinant 67-kDa tyrosinase in Escherichia coli cells. To obtain a soluble protein, the recombinant tyrosinase was expressed as a thioredoxin fusion protein with an enterokinase-cleavable site. Enterokinase digestion of the fusion protein produced a recombinant 67-kDa tyrosinase that did not have any catalytic activity. However, chymotrypsin digestion of the fusion protein produced a recombinant 44-kDa tyrosinase that was catalytically active and had a 25-kDa cleaved C-terminal. Kinetic parameters of the 44-kDa tyrosinase were similar to those of the 42-kDa tyrosinase purified from the fruiting bodies. These results suggest that tyrosinase is expressed in P. microspora as a latent 67-kDa proenzyme and is converted to the mature active 42-kDa enzyme by proteolytic processing of the C-terminal."
+ },
+ {
+  "pmid": "20453073",
+  "pmc": "PMC2901664",
+  "doi": "10.1128/EC.00374-09",
+  "title": "A-mating-type gene expression can drive clamp formation in the bipolar mushroom Pholiota microspora (Pholiota nameko).",
+  "journal": "Eukaryotic cell",
+  "year": "{'year': '2010', 'month': '05', 'day': '",
+  "abstract": "In the bipolar basidiomycete Pholiota microspora, a pair of homeodomain protein genes located at the A-mating-type locus regulates mating compatibility. In the present study, we used a DNA-mediated transformation system in P. microspora to investigate the homeodomain proteins that control the clamp formation. When a single homeodomain protein gene (A3-hox1 or A3-hox2) from the A3 monokaryon strain was transformed into the A4 monokaryon strain, the transformants produced many pseudoclamps but very few clamps. When two homeodomain protein genes (A3-hox1 and A3-hox2) were transformed either separately or together into the A4 monokaryon, the ratio of clamps to the clamplike cells in the transformants was significantly increased to ca. 50%. We therefore concluded that the gene dosage of homeodomain protein genes is important for clamp formation. When the sip promoter was connected to the coding region of A3-hox1 and A3-hox2 and the fused fragments were introduced into NGW19-6 (A4), the transformants achieved more than 85% clamp formation and exhibited two nuclei per cell, similar to the dikaryon (NGW12-163 x NGW19-6). The results of real-time reverse transcription-PCR confirmed that sip promoter activity is greater than that of the native promoter of homeodomain protein genes in P. microspora. Thus, we concluded that nearly 100% clamp formation requires high expression levels of homeodomain protein genes and that altered expression of the A-mating-type genes alone is sufficient to drive true clamp formation."
+ },
+ {
+  "pmid": "19815391",
+  "pmc": null,
+  "doi": "10.1016/j.nut.2009.06.009",
+  "title": "Hypolipidemic effect of the polysaccharide from Pholiota nameko.",
+  "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+  "year": "{'year': '2009', 'month': '10', 'day': '",
+  "abstract": "This study was conducted to investigate the hypolipidemic effect of the polysaccharide isolated from Pholiota nameko (PNPS-1).\n\nHyperlipidemic Wistar rats were treated with PNPS-1 (20, 40, and 60 mg/kg orally).\n\nTreatment of hyperlipidemic Wistar rats with PNPS-1 led not only to significant decreases in very low-density lipoprotein/low-density lipoprotein cholesterol (-48.98% and -21.54%, 40 and 60 mg/kg), triacylglycerol (-19.70%, -17.17%, -32.32%), phospholipids (-9.90%, -19.80%, -27.08%), and consequently the atherogenic index (23.61%, 70.42%, 82.85%) and a increase in high-density lipoprotein cholesterol (69.01% and 73.35%, 40 and 60 mg/kg) in serum, but also to significant decreases in total lipids (-10.24% and -33.16%, 40 and 60 mg/kg), total cholesterol (-24.22%, -34.26%, -55.02%), triacylglycerol (-22.53% and -38.50%, 40 and 60 mg/kg), and phospholipids (-27.41%, 60 mg/kg) in the liver. Further, PNPS-1 significantly suppressed lipid peroxidation by decreasing malondialdehyde and increasing antioxidant enzymes in serum (malondialdehyde, 9.94%, -22.22%, -32.75%; superoxide dismutase, 37.26%, 101%, 114%; catalase, 32.2%, 30.02%, 36.74%; glutathione peroxidase, 31.30%, 35.56%, 52.34%) of the 20-, 40-, and 60-mg/kg PNPS-1 groups and in the liver (malondialdehyde, -32.26%, -47.85%; catalase, 97%, 117%; glutathione peroxidase, 70.70%, 78.03%) in the 40- and 60-mg/kg PNPS-1 groups (superoxide dismutase, 24.35%, 67.49%, 234%). PNPS-1 was also effective in lowering body weight and some visceral weights (liver, heart, and kidney) in treated rats, except for the lung. PNPS-1 also ameliorated the pathologic changes in coronary arteries of hyperlipidemic rats.\n\nThese results suggested that PNPS-1 significantly suppresses the development of hyperlipidemia and might be used as a potential therapeutic agent for hyperlipidemia."
+ },
+ {
+  "pmid": "19049868",
+  "pmc": null,
+  "doi": "10.1016/j.mycres.2008.11.002",
+  "title": "Genomic structure of the A mating-type locus in a bipolar basidiomycete, Pholiota nameko.",
+  "journal": "Mycological research",
+  "year": "{'year': '2008', 'month': '11', 'day': '",
+  "abstract": "In the bipolar basidiomycete, Pholiota nameko, the homeodomain protein, A4-hox1, located at the A mating-type locus, is known to regulate mating compatibility. In the present study, we investigated the genomic structure of the P. nameko A mating-type locus and its flanking region. A second homeodomain gene (A4-hox2) was discovered upstream of A4-hox1; this together with the conserved gene order around the A mating-type locus and their similar transcription direction were found in P. nameko, another bipolar mushroom, Coprinellus disseminatus, and two tetrapolar mushrooms, Coprinopsis cinerea and Laccaria bicolor. Analysis of the deduced protein sequences of the homeodomain protein genes from two strains of P. nameko show that the putative functional domains differ from those of the homeodomain proteins of the tetrapolar mushrooms, C. cinerea and L. bicolor."
+ },
+ {
+  "pmid": "18620532",
+  "pmc": null,
+  "doi": "10.1134/s0006297908060060",
+  "title": "Anti-inflammatory activity of polysaccharide from Pholiota nameko.",
+  "journal": "Biochemistry. Biokhimiia",
+  "year": "{'year': '2008', 'month': 'Jun'}",
+  "abstract": "Pholiota nameko polysaccharide (PNPS-1) has been isolated and purified by enzymatic hydrolysis, hot water extraction, ethanol precipitation, and ion-exchange and gel-filtration chromatography. The anti-inflammatory activity of PNPS-1 was evaluated in rodents using xylene-induced ear edema, egg albumin-, carrageenin-, and formaldehyde-induced paw edema, cotton pellet granuloma test, adhesion of peritoneal leukocytes in vitro, and ulcerogenic activity. The results showed that PNPS-1 (5 mg/ear) inhibited topical edema in the mouse ear and at 100, 200, and 400 mg/kg (intraperitoneally) it significantly suppressed the development of egg albumin-, carrageenin-, and formaldehyde-induced paw edema in the animals. PNPS-1 (100, 200, and 400 mg/kg, per oral) significantly inhibited the growth of granuloma tissues induced by subcutaneously implanted cotton pellets in rats by 10.96, 18.07, and 43.75%, respectively. PNPS-1 also inhibited spontaneous and phorbol-12-myristate-13-acetate-activated adhesion of peritoneal leukocytes in vitro. Further, both acute as well as chronic administration of PNPS-1 (100, 200, and 400 mg/kg, per oral) did not produce any gastric lesion in rats. In conclusion, these data indicated that PNPS-1 possesses significant anti-inflammatory activity suggesting its potential as an anti-inflammatory agent for use in the treatment of various inflammatory-related diseases."
+ },
+ {
+  "pmid": "24015085",
+  "pmc": "PMC3763142",
+  "doi": "10.4489/MYCO.2007.35.3.145",
+  "title": "Anti-complementary Activities of Exo- and Endo-biopolymer Produced by Submerged Mycelial Culture of Eight Different Mushrooms.",
+  "journal": "Mycobiology",
+  "year": "{'year': '2007', 'month': '09', 'day': '",
+  "abstract": "The Elfvingia applanata (EA), Hericium erinaceum (HE),Grifola frondosa (GF), Pholiota nameko (PN), Pleurotus eryngii (PE), Trametes suaveolens (TS), Fomes fomentarius (FF), and Inonotus obliquus (IO) could produce the endo- (EN) and exo-biopolymer (EX) in submerged culture. The highest anti-complementary activity of the EN was exhibited by PN (49.1%), followed by HE (38.6%), TS (37.0%),and FF (33.0%),whereas the high activity of the EX was found with GF (59.8%),followed by HE (36.3%),TS (30.8%),and IO (28.8%). The EN of P. nameko (EN-PN) and EX of G. frondosa (EX-GF) were found to contain 78.6% and 41.2% carbohydrates, while 21.4% and 58.8% protein, respectively. The sugar and amino acid compositions of EN-PN and EX-GF were also analyzed in detail."
+ },
+ {
+  "pmid": "17617709",
+  "pmc": null,
+  "doi": "10.1271/bbb.70171",
+  "title": "Purification, characterization, and molecular cloning of tyrosinase from Pholiota nameko.",
+  "journal": "Bioscience, biotechnology, and biochemistry",
+  "year": "{'year': '2007', 'month': '07', 'day': '",
+  "abstract": "Tyrosinase (monophenol, 3,4-dihydroxy L-phenylalanine (L-DOPA):oxygen oxidoreductase, EC 1.14.18.1) was isolated from fruit bodies of Pholiota nameko and purified to homogeneity. The purified enzyme was a monomer with a molecular weight of 42,000 and contained 1.9 copper atoms per molecule. The N-terminal of the purified enzyme could not be detected by Edman degradation, probably due to blocking, while the C-terminal sequence of the enzyme was determined to be -Ala-Ser-Val-Phe-OH. The amino acid sequence deduced by cDNA cloning was made up of 625 amino acid residues and contained two putative copper-binding sites highly conserved in tyrosinases from various organisms. The C-terminal sequence of the purified enzyme did not correspond to that of the deduced sequence, but agreed with Ala384-Ser385-Val386-Phe387 in sequence. When the encoded protein was truncated at Phe387, the molecular weight of the residual protein was calculated to be approximately 42,000. These results suggest that P. nameko tyrosinase is expressed as a proenzyme followed by specific cleavage to produce a mature enzyme."
+ },
+ {
+  "pmid": "16890987",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2006.06.019",
+  "title": "Kinetics of inhibition of ribonuclease A by Pholiota Nameko polysaccharide.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2006', 'month': '06', 'day': '",
+  "abstract": "Pholiota nameko polysaccharide (PNPS-1) has been isolated and purified by enzyme hydrolysis, hot water extraction, ethanol precipitation, ion-exchange chromatography and gel-filtration column chromatography. The inhibition of bovine pancreas ribonuclease (RNase A) by PNPS-1 has been studied to elucidate the mechanism responsible for the decreased activity. PNPS-1 was effective in a linear mixed-type inhibition as suggested from the Lineweaver-Burk plot, Dixon plot and their replots. The values of K(i) and alphaK(i) were estimated as 299.92 and 545.71 microM, respectively. The alphaK(i) was greater than K(i) indicating that noncompetitive inhibition was predominant over competitive inhibition."
+ },
+ {
+  "pmid": "16453113",
+  "pmc": null,
+  "doi": "10.1007/s00294-006-0058-1",
+  "title": "Structure and expression of two genes encoding secreted acid phosphatases under phosphate-deficient conditions in Pholiota nameko strain N2.",
+  "journal": "Current genetics",
+  "year": "{'year': '2006', 'month': '02', 'day': '",
+  "abstract": "Twenty-three polypeptides secreted in response to a deficiency of inorganic phosphate (Pi) were previously found by two-dimensional polyacrylamide gel electrophoresis analysis in mycelia of Pholiota nameko strain N2. In this study, N-terminal sequencing revealed three of them to be identical to known acid phosphatases of P. nameko strain N114. Two cDNAs and the corresponding genomic DNAs of genes PNAP1 and PNAP2 which encode two of the three acid phosphatases were cloned. The deduced amino acid sequences of PNAP1 and PNAP2 showed high similarity to other fungal acid phosphatases and contained a putative catalytic active site of acid phosphatase. PNAP1 and PNAP2 are comprised of five and seven exons interrupted by four and six introns, respectively. Their promoter regions include two cis-acting elements found in Pi deficiency-inducible genes of Saccharomyces cerevisiae, together with several known functional elements such as a TATA box. Northern blot analysis showed that PNAP1 and PNAP2 are expressed in response to a deficiency of Pi."
+ },
+ {
+  "pmid": "16096791",
+  "pmc": null,
+  "doi": "10.1007/s00294-005-0012-7",
+  "title": "Identification and linkage mapping of the genes for the putative homeodomain protein (hox1) and the putative pheromone receptor protein homologue (rcb1) in a bipolar basidiomycete, Pholiota nameko.",
+  "journal": "Current genetics",
+  "year": "{'year': '2005', 'month': '10', 'day': '",
+  "abstract": "In the current studies, we sequenced and characterized the gene for the homeodomain protein (hox1) in a bipolar mushroom, Pholiota nameko, which is a putative homologue of A mating type genes in the tetrapolar basidiomycete, Coprinopsis cinerea. We also sequenced and characterized the gene for the pheromone receptor (rcb1) in P. nameko, which is a putative homologue of the B mating type genes in C. cinerea. Restriction fragment length polymorphism (RFLP) and linkage analyses indicated that the both genes are present as a single locus on the different chromosome. Moreover, in P. nameko, the hox1 gene was mapped to the A mating type locus in linkage group I. However, rcb1 was not linked to the A mating type locus and was mapped to the other linkage group. These results strongly suggest that hox1 regulates with incompatibility in the bipolar mushroom, and that rcb1 may not affect the mating function in P. nameko. This is the first report regarding the structure of the mating type genes in bipolar mushrooms."
+ },
+ {
+  "pmid": "14690789",
+  "pmc": null,
+  "doi": "10.1207/S15327914NC4602_06",
+  "title": "Cruciferous vegetables, mushrooms, and gastrointestinal cancer risks in a multicenter, hospital-based case-control study in Japan.",
+  "journal": "Nutrition and cancer",
+  "year": "{'year': '2003'}",
+  "abstract": "We assessed the possible association of gastrointestinal cancers with cruciferous vegetables and mushrooms in a multicenter, hospital-based case-control study in an agricultural area of Japan. One hundred forty-nine cases and 287 controls for stomach cancer and 115 cases and 230 controls for colorectal cancer were matched by age, sex, and residential area. In stomach cancer, the protective effect of vegetables (consumption of total vegetable) was obscure, but it became clearer when we examined specific kinds of vegetables. Marginal associations were observed in the group of the highest consumption of Chinese cabbage (odds ratio [OR] = 0.61; 95% confidence interval [CI] = 0.35-1.07), broccoli (OR = 0.60; 95% CI = 0.34-1.08), Hypsizigus marmoreus (Bunashimeji) (OR = 0.57; 95% CI = 0.31-1.04) and Pholita nameko (Nameko) (OR = 0.56; 95% CI = 0.30-1.06). In colorectal cancer, we observed decreased risks from the highest tertile of total vegetables (OR = 0.22; 95% CI = 0.08-0.66) and low-carotene-containing vegetables (OR = 0.28; 95% CI = 0.08-0.77), and inverse associations were observed in the group of the highest consumption of broccoli (OR = 0.18; 95% CI = 0.06-0.58). Although the sample size was limited, subgroup analyses showed that the associations differed with the histopathological subtype. These findings suggest that cruciferous vegetables decrease the risk of both stomach and colorectal cancer, and that mushrooms are associated with a decreased risk of stomach cancer."
+ },
+ {
+  "pmid": "14614572",
+  "pmc": null,
+  "doi": "10.1007/s00294-003-0463-7",
+  "title": "Structure and expression of a phosphate deficiency-inducible ribonuclease gene in Pholiota nameko.",
+  "journal": "Current genetics",
+  "year": "{'year': '2003', 'month': '11', 'day': '",
+  "abstract": "Thirty-one cDNAs corresponding to pdi genes [inorganic phosphate (Pi) deficiency-inducible genes] were previously isolated through the differential screening of a cDNA library constructed from the mycelium of Pholiota nameko. Among the cDNAs, pdi370 was analyzed here. The deduced amino acid sequence showed high similarity to fungal ribonucleases (RNases) and contained two signature sequences conserved in T2 family RNases: CAS1 and CAS2. Genomic DNA harboring the pdi370 gene was isolated from a genomic library of P. nameko. Sequence analysis showed that the pdi370 gene is interrupted by 16 introns and that the promoter region contains two cis-acting sequences found in Pi deficiency-induced genes from Saccharomyces cerevisiae, together with several known functional elements, such as a TATA box. RNase activity in the mycelium and culture filtrate increased 5.6-fold and 5.2-fold, respectively, under Pi-deficient conditions. Staining for RNase activity showed that at least four RNases are induced and secreted under the conditions. The N-terminal sequence of one of them agreed with that of the pdi370 gene product."
+ },
+ {
+  "pmid": "14608471",
+  "pmc": null,
+  "doi": "10.1007/s00294-003-0457-5",
+  "title": "Three genes specifically expressed during phosphate deficiency in Pholiota nameko strain N2 encode hydrophobins.",
+  "journal": "Current genetics",
+  "year": "{'year': '2003', 'month': '11', 'day': '",
+  "abstract": "We previously isolated 31 cDNAs corresponding to pdi [inorganic phosphate (Pi) deficiency- inducible] genes through the differential screening of a cDNA library constructed from the mycelium of Pholiota nameko strain N2 cultured in Pi-depleted medium. Among the cDNAs, pdi251, pdi263 and pdi315 were analyzed here. The deduced amino acid sequences of pdi251, pdi263 and pdi315 showed high similarity to fungal hydrophobins and genes corresponding to these cDNAs encoding P. nameko hydrophobins were designated pnh1, pnh2 and pnh3, respectively. PNH1, PNH2 and PNH3 had a conserved spacing of eight cysteine residues in hydrophobins and a hydropathy pattern characteristic of class I hydrophobins. Phylogenetic analysis showed that PNH1, PNH2 and PNH3 were phylogenetically similar and significantly related to the hydrophobin POH1 specifically expressed in fruiting bodies of Pleurotus ostreatus. Northern blot analysis indicated that, under conditions of Pi deficiency, pnh2 and pnh3 were also induced in strains N4 and N301."
+ },
+ {
+  "pmid": "12619680",
+  "pmc": null,
+  "doi": "10.1271/bbb.67.100",
+  "title": "Interactions of heterologous mycelia colonized in the substrate govern fruit body production in the cultivated homobasidiomycete Pholiota nameko.",
+  "journal": "Bioscience, biotechnology, and biochemistry",
+  "year": "{'year': '2003', 'month': 'Jan'}",
+  "abstract": "The spawn of cultivated mushrooms are generally produced, propagated, and distributed to growers as a mycelial culture without genetic purification, in which phenotypic variants frequently occur. We investigated how heterologous mycelia present in a spawn influence fruit body production in the cultivated basidiomycete Pholiota nameko. The 'di-mon' dual cultivation of protoplast clones produced mosaic fruit bodies, which could result from the 'di-mon' mating. In the 'di-di' dual cultivation of heterologous strains with different fruiting times, authentic fruit bodies of each dikaryon and chimera showing a feature combining characteristics of the two dikaryons emerged simultaneously. Mycelia isolated from the chimera produced all three types of fruit bodies, indicating unlikeliness of the occurrence of anastomosis. These results suggest that mycelia colonized in the substrate interact with each other and coordinately promote fruit body production in P. nameko. This phenomenon masks a clonal variability that may be surfaced through multiplication and distribution of the spawn, occasionally bringing about abnormal fruiting."
+ },
+ {
+  "pmid": "36118783",
+  "pmc": "PMC9471013",
+  "doi": "10.3389/fnut.2022.976552",
+  "title": "Structural characterization, antioxidant activity and anti-inflammatory of the phosphorylated polysaccharide from.",
+  "journal": "Frontiers in nutrition",
+  "year": "{'year': '2022', 'month': '08', 'day': '",
+  "abstract": "In this study, a novel polysaccharide (SPN) was extracted by high-temperature pressure method and purified by a DEAE-52 column and a Sephadx G-100 gel column. PPN was obtained after phosphorylation of SPN. The differences of structural features, antioxidant activity, and anti-inflammatory effect of the two polysaccharides were investigated by chemical methods and RAW 264.7 cell model. SPN (Mw = 15.8 kDa) and PPN (Mw = 27.7 kDa) are an acidic polysaccharide with β-pyranose configuration, mainly containing rhamnose, mannose, glucose, arabinose, and galacose. FI-IR, NMR, and SEM spectra showed phosphorylation of SPN changed its structure. In methylation analysis, the major chains of SPN and PPN were 1,4-linked Glc, 1,6-linked Gal, 1,2-linked Rha, and 1.6-linked Manwith terminals of t-linked Glc, t-linked Ara. The side chain of SPN was 1,4,6-linked Gal, 1,2,5-linked Ara, while the side chain of PPN was 1,4,6-linked Gal, 1,2,4-linked Glc. In antioxidant activity experiments, the free radical scavenging rate of PPN was stronger than that of SPN. Also, PPN always has better anti-inflammatory on RAW 264.7 cells induced by LPS than that of SPN in same concentration, and it plays an anti-inflammatory role by inhibiting PI3K/AKT/mTOR pathway. The results indicated polysaccharide could significantly improve its antioxidant and anti-inflammatory function after phosphorylation. This study provides a potentially antioxidant and anti-inflammatory health food and drug."
+ },
+ {
+  "pmid": "35765755",
+  "pmc": null,
+  "doi": "10.1111/1750-3841.16223",
+  "title": "Rheological properties of polysaccharides from Pholiota nameko with different temperature extraction: Concentration, pH, temperature, and saltion.",
+  "journal": "Journal of food science",
+  "year": "{'year': '2022', 'month': '06', 'day': '",
+  "abstract": "Cold and hot water extracted polysaccharides (CW-PNPs and HW-PNPs) were isolated from Pholiota nameko. The rheological properties of PNPs were investigated by steady shear and oscillatory rheological measurements. The PNPs exhibited typical non-Newtonian and shear-thinning behavior, which are affected by PNP concentration, temperature, pH value, salt ion, and concentration. Specifically, the apparent viscosity of the two PNPs solutions at concentration of 1% (w/w) was shown as HW-PNPs > CW-PNPs. The apparent viscosity of PNPs decreases under acidic and alkaline conditions and when the temperature rises; Kand Nacause the apparent viscosity of CW-PNPs to decrease, while Caand Alare opposite. The addition of four different salt ions all caused the apparent viscosity of the HW-PNPs to decrease. The results of dynamic rheological experiments show that G' and G″ showed slightly frequency dependency with G' exceeding G″ throughout the accessible range of frequency for CW-PNPs and HW-PNPs."
+ },
+ {
+  "pmid": "35461867",
+  "pmc": null,
+  "doi": "10.1016/j.ijbiomac.2022.04.135",
+  "title": "Structure and antioxidant activity of six mushroom-derived heterogalactans.",
+  "journal": "International journal of biological macromolecules",
+  "year": "{'year': '2022', 'month': '04', 'day': '",
+  "abstract": "Heterogalactans with weight-average molecular weights ~20 kDa were purified from several species of mushroom: Hypsizygus marmoreus, Pleurotus ostreatus, Pholiota nameko, Agrocybe cylindracea, Hygrophorus lucorum and Hericium erinaceus, and structurally characterized and assessed for antioxidant activity in vitro. Methylation analysis, combined with NMR spectral analysis, indicates that these glycans have a common backbone composed of (1 → 6)-linked-α-D-galactopyranosyl residues that are substituted at O-2. The (1 → 6)-α-D-galactans, branched primarily with β-D-mannopyranosyl (Manp) or α-L-fucopyranosyl (Fucp) residues, have been assigned to mannogalactans or fucogalactans, respectively, as well as to β-D-Manp and α-L-Fucp residues attached in tandem to the main chain as fucomannogalactans. In addition, 3-O-methylated-α-D-galactopyranosyl (3-O-Me-Galp) residues within the mannogalactan chains, exhibit strong reducing power and radical scavenging activity suggesting that this sugar moiety functions as an antioxidant. Our results provide important structural information on mushroom heterogalactans and prompt further investigations into their structure-activity relationships."
+ },
+ {
+  "pmid": "35453423",
+  "pmc": "PMC9029720",
+  "doi": "10.3390/antiox11040739",
+  "title": "Polysaccharides Protect against Ultraviolet A-Induced Photoaging by Regulating Matrix Metalloproteinases in Human Dermal Fibroblasts.",
+  "journal": "Antioxidants (Basel, Switzerland)",
+  "year": "{'year': '2022', 'month': '04', 'day': '",
+  "abstract": "Ultraviolet-A (UVA) exposure is a major cause of skin aging and can induce oxidative damage and accelerate skin wrinkling. Many natural polysaccharides exhibit a UV protective effect. In research onpolysaccharides (PNPs), a natural macromolecular polysaccharide (4.4-333.487 kDa), studies have shown that PNPs can significantly decrease elastase activity to protect against UVA-induced aging in Hs68 human dermal fibroblasts. Cellular experiments in the present study indicated that PNPs can protect against UVA-induced oxidative damage in Hs68 cells by inhibiting the production of reactive oxygen species. Furthermore, PNPs significantly attenuated UVA-induced cell aging by decreasing the protein expression of matrix metalloproteinase 1, 3, and 9. Pretreatment of Hs68 cells with PNP-40, PNP-60, and PNP-80 before UVA irradiation increased protein expression of tissue inhibitor metalloproteinase 1 by 41%, 42%, and 56% relative to untreated cells. In conclusion, this study demonstrates that PNPs are a natural resource with potentially beneficial effects in protecting against UVA-induced skin aging."
+ },
+ {
+  "pmid": "35408727",
+  "pmc": "PMC9000346",
+  "doi": "10.3390/molecules27072328",
+  "title": "Biofortification of Three Cultivated Mushroom Species with Three Iron Salts-Potential for a New Iron-Rich Superfood.",
+  "journal": "Molecules (Basel, Switzerland)",
+  "year": "{'year': '2022', 'month': '04', 'day': '",
+  "abstract": "Mushrooms fortified with iron (Fe) can offer a promising alternative to counter the worldwide deficiency problem. However, the factors that may influence the efficiency of fortification have not yet been fully investigated. The aim of this study was to compare the effects of three Fe forms (FeCl6HO, FeSO7HO, or FeHBED) in three concentrations (5, 10, or 50 mM) for three mushroom species (,or) on their chemical composition, phenolic compounds, and organic acid production. The most effective metal accumulation of all the investigated species was for the 50 mM addition. FeCl6HO was the most favorable additive forand(up to 145 and 185% Fe more than in the control, respectively) and FeHBED for(up to 108% Fe more than in control). Additionally,showed the highest Fe accumulation among studied species (89.2 ± 7.51 mg kgDW). The creation of phenolic acids was generally inhibited by Fe salt supplementation. However, an increasing effect on phenolic acid concentration was observed forcultivated at 5 mM FeCl6HO and forcultivated at 5 mM FeCl6HO and 5 mM FeSO7HO. In the case of organic acids, a similar situation was observed. For, FeSO7HO and FeHBED salts increased the formation of the determined organic acids in fruiting bodies.andwere characterized by a much lower content of organic acids in the systems supplemented with Fe. Based on the obtained results, we recommend starting fortification by preliminarily indicating which form of the element is preferred for the species of interest for supplementation. It also seems that using an additive concentration of 50 mM or higher is most effective."
+ },
+ {
+  "pmid": "35277878",
+  "pmc": null,
+  "doi": "10.1111/jfbc.14121",
+  "title": "Structure characterization and antioxidant activity of carboxymethylated polysaccharide from Pholiota nameko.",
+  "journal": "Journal of food biochemistry",
+  "year": "{'year': '2022', 'month': '03', 'day': '",
+  "abstract": "The objective of this paper was to prepare the carboxymethyl polysaccharide of Pholiota nameko (CPPN) and further evaluate its structural characteristics, water solubility, and antioxidant activities. The optimal carboxymethylation conditions were as follows: 20% NaOH concentration, 1.5 hr alkalization, 4 hr etherification time, and 60°C with 2 g chloroacetic acid. Under these conditions, a substitution degree of 0.72 and a yield of 88.3% were achieved. The results of NMR and FT-IR spectra showed that carboxymethylation modification was successful. The protein, total sugar, and total phenol content decreased, while the molecular weight increased, and the monosaccharide composition content and surface structure changed upon carboxymethylation. Compared with unmodified polysaccharides, CPPN had significant antioxidant activity and water solubility. Thus, this study could provide a potential antioxidant for functional foods and pharmaceuticals. PRACTICAL APPLICATIONS: Pholiota nameko is an edible and medicinal mushroom, rich in carbohydrates, cellulose, and minerals. Pharmacological studies have shown that P. nameko polysaccharides have many medicinal effects on the human body. In this study, CPPN was synthesized by carboxymethylation of P. nameko polysaccharides. Through structural characterization, antioxidant activity, and solubility studies, carboxymethylated polysaccharides shown significant antioxidant properties and increased solubility. Therefore, this research lays the foundation for the high-value application of P. nameko polysaccharides in functional food and pharmaceutical industry."
+ },
+ {
+  "pmid": "34834638",
+  "pmc": "PMC8623578",
+  "doi": "10.3390/plants10112275",
+  "title": "Influence of Iron Addition (Alone or with Calcium) to Elements Biofortification and Antioxidants in.",
+  "journal": "Plants (Basel, Switzerland)",
+  "year": "{'year': '2021', 'month': '10', 'day': '",
+  "abstract": "Mushrooms supplementation with iron (Fe) is usually limited, and therefore it would be beneficial to search for other vital elements able to improve the process. The aim of this study was to verify a possible interaction between Fe and calcium (Ca) to estimate the role of the addition of the latter metal to stimulate Fe accumulation in. Additionally, an analysis of phenolic compounds and low molecular weight organic acids (LMWOAs) was performed. The increase of Fe concentration in the substrate caused a significantly higher accumulation of this metal in. The addition of Ca (5 or 10 mM) stimulated Fe accumulation, just as Fe concentration in the substrate stimulated Ca accumulation, which pointed to a synergism between these metals. The obtained results show that the presence of Fe in the substrate may also promote K, Mg, Mn, Na, P, and S accumulation. In contrast, the addition of Ca stimulates and/or inhibits their content in fruit bodies. The phenolic and organic acids profile was poor. Only gallic, 4-hydroxybenzoic, sinapic and syringic acids (phenolics), as well as citric and succinic acids (LMWOAs), were quantified in some combinations infruiting bodies."
+ },
+ {
+  "pmid": "34821398",
+  "pmc": null,
+  "doi": "10.1111/jfbc.14015",
+  "title": "Chemical properties and anti-fatigue effect of polysaccharide from Pholiota nameko.",
+  "journal": "Journal of food biochemistry",
+  "year": "{'year': '2021', 'month': '11', 'day': '",
+  "abstract": "The aim of this study was to explore the primary chemical properties and anti-fatigue effect in vivo of Pholiota nameko polysaccharide (PNP). Through UV-visible spectrum, the absorption peaks of proteins, nucleic acids and pigments were not found. The organic functional groups of polysaccharides (3,289.97, 1,584.72, and 1,045.23 cmso on) were measured by IR spectroscopy. The PNP was a semi-crystalline or non-crystalline substance, possessed a three-dimensional lump structure with a smooth, dense surface and amorphous structure according to the scanning electron microscopy and XRD images. Moreover, the PNP was chain or bright-spot structures formed by the entanglement of multiple polysaccharide fibers on the basis of atomic force microscopy. The results of anti-fatigue suggested the PNP could significantly extend the forced swim time from 121.58 ± 18.48 and 101.91 ± 14.27 min to 154.95 ± 24.26 and 134.13 ± 25.71 min in male and female mice respectively. The LDH activity was up to 31.68 ± 4.60 U/ml in male mice and 29.49 ± 5.12 U/ml in female mice. Meanwhile, the Ca-Mg-ATPase activity was reached to 2.49 ± 0.41 μmol/(mg·h) in male mice and 2.44 ± 0.29 μmol/(mg·h) in female mice. The SOD activity was increased to 5.92 ± 1.19 U/ml in male mice and 5.89 ± 0.98 U/ml in female mice, while the MDA content was decreased to 2.24 ± 0.34 nmol/mg in male mice and 2.02 ± 0.41 nmol/mg in female mice. These results showed a theoretical basis for application of the PNP in food and pharmacy as a natural physical strengthening substance. PRACTICAL APPLICATIONS: Fatigue affects physical and mental health in vivo, which resulted in negative effects on everyday tasks, leisure activities, cognitive and behavioral performances and is very common in modern life. Therefore, this study was designed to explore the primary chemical properties and research the anti-fatigue effects of Pholiota nameko polysaccharide (PNP) in mice. And then, it would be a reference for the development and utilization of PNP as a kind of healthy food on sub-health."
+ },
+ {
+  "pmid": "34679724",
+  "pmc": "PMC8533542",
+  "doi": "10.3390/antiox10101589",
+  "title": "Effect ofPolysaccharides Inhibiting Methylglyoxal-Induced Glycation Damage In Vitro.",
+  "journal": "Antioxidants (Basel, Switzerland)",
+  "year": "{'year': '2021', 'month': '10', 'day': '",
+  "abstract": "Advanced glycation end products (AGEs) can induce oxidative stress and inflammation. AGEs are major risk factors for the development of many aging-related diseases, such as cancer and diabetes. In this study,polysaccharides (PNPs) were prepared from water extract ofvia graded alcohol precipitation (40%, 60%, and 80%/). We explored the in vitro antiglycation ability of the PNPs and inhibition of methylglyoxal (MG)-induced Hs68 cell damage. In a bovine serum albumin (BSA) glycation system, PNPs significantly inhibited the formation of Amadori products. Fluorescence spectrophotometry revealed that the PNPs trapped MG and reduced MG-induced changes in functional groups (carbonyl and ε-NH) in the BSA. Pretreating Hs68 cells with PNPs enhanced the cell survival rate and protected against MG-induced cell damage. This was due to decreased intracellular ROS content. PNPs thus mitigate skin cell damage and oxidative stress resulting from glycation stress, making them a potential raw material for antiaging-related skincare products."
+ },
+ {
+  "pmid": "33867273",
+  "pmc": null,
+  "doi": "10.1016/j.jbiosc.2021.03.003",
+  "title": "Suppression of Alternaria brassicicola infection by volatile compounds from spent mushroom substrates.",
+  "journal": "Journal of bioscience and bioengineering",
+  "year": "{'year': '2021', 'month': '04', 'day': '",
+  "abstract": "Most commercially circulating mushrooms are produced via cultivation using artificially produced mushroom substrates. However, after mushroom harvesting, the disposal of spent mushroom substrates (SMSs) is a serious problem for the mushroom industry owing to the need for a disposal site and the cost involved. Thus, in view of the possibility of recycling SMSs as a soil modifier, we examined the effect of soil mixed with SMSs on the infection of Arabidopsis leaves by Alternaria brassicicola, the causal agent of cabbage leaf spot. The mixing of SMSs used for Hypsizygus marmoreus, Pholiota microspora, Lyophyllum decastes, and Auricularia polytricha into culture soil suppressed the lesion formation caused by A. brassicicola. The defense responses of Arabidopsis were not induced by the culturing of these seedlings in soils containing SMSs. Suppressed lesion formation was observed after the seedlings were treated with volatiles emitted from SMSs that were incubated with soil for 7 days and used for H. marmoreus, P. microspora, L. decastes, A. polytricha, Lentinula edodes, and Cyclocybe cylindracea. The volatiles from the SMSs reduced the elongation of A. brassicicola hyphae. GC-MS analyses of extracts from the SMS containing soils led to the detection of various volatile compounds; among these, skatole, 2,4-di-tert-butylphenol, γ-dodecalactone, butyric acid, guaiacol, 6-amyl-2-pyrone, and 1-octen-3-ol were examined for inhibitory activity on A. brassicicola and found to suppress hyphae elongation. These findings indicate that the antifungal volatile compounds emitted by the SMSs suppress A. brassicicola infection."
+ },
+ {
+  "pmid": "12036052",
+  "pmc": null,
+  "doi": "10.1271/bbb.66.790",
+  "title": "Gene expression during Pi deficiency in Pholiota nameko: accumulation of mRNAs for two transporters.",
+  "journal": "Bioscience, biotechnology, and biochemistry",
+  "year": "{'year': '2002', 'month': 'Apr'}",
+  "abstract": "The effects of Pi deficiency on gene expression in Pholiota nameko were examined. A cDNA library was constructed from poly(A)+ RNA isolated from mycelia cultured in Pi-depleted (P-) media, and 150 clones corresponding to Pi deficiency-inducible (pdi) genes were selected by differential hybridization with probes prepared from poly(A)+ RNAs from the mycelia cultured in the Pi-supplied (P+) and P- media. These clones were considered to derive from 31 genes by cross-hybridization. Northern blot analysis showed that these pdi genes were expressed in various patterns during Pi deficiency. Among the clones, the DNA sequences of pdi85 and pdi343 were analyzed. The deduced amino acid sequences indicated that they have structural similarities to Pi and metabolite transporters."
+ },
+ {
+  "pmid": "11791735",
+  "pmc": null,
+  "doi": "10.1271/bbb.65.2561",
+  "title": "Induction and secretion of RNA-degrading enzymes by phosphate deficiency in Pholiota nameko.",
+  "journal": "Bioscience, biotechnology, and biochemistry",
+  "year": "{'year': '2001', 'month': 'Nov'}",
+  "abstract": "Changes in activity of RNA-degrading enzyme and amounts of phosphorus in mycelia and culture filtrate during Pi-sufficient and -deficient cultures of Pholiota nameko were investigated. The results showed that the intracellular and extracellular activities are controlled by the Pi concentration in the medium. Moreover, the induction and secretion of RNA-degrading enzymes under the Pi-deficient condition were analyzed by activity staining."
+ },
+ {
+  "pmid": "9972248",
+  "pmc": null,
+  "doi": "10.1271/bbb.62.2251",
+  "title": "Isolation and properties of glucose-1-phosphatase from mycelia of Pholiota nameko.",
+  "journal": "Bioscience, biotechnology, and biochemistry",
+  "year": "{'year': '1998', 'month': 'Nov'}",
+  "abstract": "An acid phosphatase with a very high substrate specificity for glucose-1-phosphate was isolated for the first time from mycelia of Pholiota nameko. The molecular weight of the enzyme was estimated to be 31,000 on gel filtration and 35,000 on SDS-PAGE. The activity was inhibited by Cu2+, Hg2+, molybdate, and tartaric acid. The sequence of N-terminal 20 amino acid residues was analyzed."
+ },
+ {
+  "pmid": "8739786",
+  "pmc": null,
+  "doi": "10.2169/internalmedicine.35.301",
+  "title": "Hypersensitivity pneumonitis induced by spores of Pholiota nameko.",
+  "journal": "Internal medicine (Tokyo, Japan)",
+  "year": "{'year': '1996', 'month': 'Apr'}",
+  "abstract": "A 42-year-old man experienced recurrent episodes of nonproductive cough, fever, and dyspnea on exertion. He had worked as a mushroom farmer for 10 years. The diagnosis of hypersensitivity pneumonitis was confirmed immunologically by detecting a precipitin to spores of Pholiota nameko but not to other antigens. After separation from the antigen along with an addition of corticosteroid therapy, the symptoms, inflammatory findings and a reduced level of PaO2 quickly subsided."
+ },
+ {
+  "pmid": "7849381",
+  "pmc": null,
+  "doi": "10.2169/internalmedicine.33.683",
+  "title": "Hypersensitivity pneumonitis induced by inhalation of mushroom (Pholiota nameko) spores.",
+  "journal": "Internal medicine (Tokyo, Japan)",
+  "year": "{'year': '1994', 'month': 'Nov'}",
+  "abstract": "We describe the hypersensitivity pneumonitis of a 49-year-old woman who had been cultivating the edible mushroom 'Pholiota nameko' for three years. Her clinical manifestations and laboratory findings including transbronchial lung biopsy (TBLB) and bronchoalveolar lavage fluid (BALF) were consistent with those of other forms of hypersensitivity pneumonitis. Counter-immunoelectrophoresis determined the causative antigen to be the spores of Pholiota nameko. The indoor cultivation method appeared to play a major role in the occurrence of the hypersensitivity pneumonitis."
+ },
+ {
+  "pmid": "7967239",
+  "pmc": null,
+  "doi": null,
+  "title": "[Three cases of hypersensitivity pneumonitis caused by inhalation of spores of Pholiota nameko and the background of the disease].",
+  "journal": "Nihon Kyobu Shikkan Gakkai zasshi",
+  "year": "{'year': '1994', 'month': 'Jul'}",
+  "abstract": "Here we report a new type of hypersensitivity pneumonitis caused by inhalation of spores of Pholiota nameko. P. nameko is a kind of mushroom which is of Japanese delicacy. Among people who are working in nameko cultivation, we found three patients suffering from hypersensitivity pneumonitis, and identified that it was caused by inhalation of spores of P. nameko. Every patient was engaged in indoor nameko cultivation inside a building equipped with a air and moisture conditioning system for two to ten years. In the indoor environment, it was thought that they were exposed to and inhaled a high density of nameko spores. Among 15 healthy indoor nameko growers, we found 6 who had precipitating antibody against extracts from nameko spores; however, there were no antibody positive people in 17 outdoor nameko growers. As seen in dairy farmers, it was clarified that there is a percentage of precipitin positive nameko growers who are asymptomatic. This is concrete evidence that changes of mushroom cultivation style can induce a new type of hypersensitivity pneumonitis. These findings were considered to be an important experience from the view points of environmental pulmonary diseases and industrial medicine."
+ },
+ {
+  "pmid": "7931730",
+  "pmc": null,
+  "doi": "10.3177/jnsv.40.81",
+  "title": "Distribution of ascorbic acid analogs and associated glycosides in mushrooms.",
+  "journal": "Journal of nutritional science and vitaminology",
+  "year": "{'year': '1994', 'month': 'Apr'}",
+  "abstract": "Mushrooms contain reducing substances with chemical properties similar to ascorbic acid (AsA). In this study, the four types of reducing substances contained in Flammulina velutipes (Enokitake), Hypsizigus mamoreus (Bunashimeji), Pholiota nameko (Nameko), and Grifola frondosa (Maitake) were respectively purified, and the structure of each was analyzed using nuclear magnetic resonance (NMR) and other methods. The results confirmed that those substances were AsA analogs and associated glycosides (6-deoxy-AsA, 6-deoxy-5-O-(alpha-D-xylopyranosyl)-AsA, 6-deoxy-5-O-(alpha-D-glucopyranosyl)-AsA, and 5-O-alpha-D-glucopyranosyl-erythro-AsA). These substances were characteristic in that saccharide was bonded with the C-5 of the AsA analogs. Osazones were formed from the reducing substances in 19 kinds of edible mushrooms. Using thin-layer chromatography (TLC), they were developed to examine the distribution of the above reducing substances and AsA. The results showed that at least one of the above compounds was certain to be present in any mushroom; that AsA was present in very small quantities if at all; and that several substances similar to the above compounds were present."
+ },
+ {
+  "pmid": "8515611",
+  "pmc": null,
+  "doi": null,
+  "title": "[A case of hypersensitivity pneumonitis in Pholiota nameko's manufacturer].",
+  "journal": "Nihon Kyobu Shikkan Gakkai zasshi",
+  "year": "{'year': '1993', 'month': 'Feb'}",
+  "abstract": "A 58-year-old female was admitted to our hospital because of fever and dyspnea on exertion. She has been working in the factory making Pholiota nameko for 8 years. Her chest X-ray revealed diffuse linear and fine nodular shadows in both lower lung fields. Hypoxemia was seen on blood gas analysis. Bronchoalveolar lavage (BAL) and transbronchial lung biopsy (TBLB) were performed. Differential cell count of the BAL fluid showed lymphocytosis and CD4/8 was decreased. TBLB specimens revealed bronchioloalveolitis. Precipitins against Trichosporon cutaneum were detected by Ouchterlony method. These findings are compatible with hypersensitivity pneumonitis, and Trichosporon cutaneum may have been causative antigen in this case. Trichosporon cutaneum is often detected in the Japanese summer-type hypersensitivity pneumonitis. This case suggests that Trichosporon cutaneum is one cause of hypersensitivity pneumonitis in workers at factories making Pholiota nameko."
+ },
+ {
+  "pmid": "1925522",
+  "pmc": null,
+  "doi": "10.1016/0048-9697(91)90327-b",
+  "title": "Concentrations of radiocesium and potassium in basidiomycetes collected in Japan.",
+  "journal": "The Science of the total environment",
+  "year": "{'year': '1991', 'month': 'Jun'}",
+  "abstract": "Concentrations of 137Cs, 134Cs and 40K in about 60 mushroom samples (fruit bodies of basidiomycetes) belonging to 25 species collected in Japan have been studied. The levels of 137Cs varied very widely, ranging from less than 3 to 1520 Bq kg-1 (dry wt), while those of 40K were relatively constant. Concentrations of 137Cs in common edible mushrooms of Japan such as Lentinus edodes, Flammulina velutipes, Pleurotus ostreatus and Pholiota nameko were low (normally less than 50 Bq kg-1, dry wt). Concentrations of 134Cs in many samples were below the limit of detection (usually less than 5 Bq kg-1, dry wt). The median concentrations of 137Cs and 40K were 41 (dry wt) and 1150 Bq kg-1 (dry wt), respectively. From the 137Cs/40K ratios it was found that cesium rather than potassium was selectively taken up from the soils by fungi such as Suillus granulatus and Lactarius hatsudake. The 134Cs/137Cs ratios in mushrooms are related to the depth of the mycelium in the soil. The effective dose equivalent due to the dietary intake of radiocesium through mushrooms was estimated to be only 1.6 x 10(-7) Sv."
+ },
+ {
+  "pmid": "2707072",
+  "pmc": null,
+  "doi": "10.1378/chest.95.5.1149",
+  "title": "Hypersensitivity pneumonitis due to mushroom (Pholiota nameko) spores.",
+  "journal": "Chest",
+  "year": "{'year': '1989', 'month': 'May'}",
+  "abstract": "Hypersensitivity pneumonitis due to the inhalation of spores from the edible mushroom Pholiota nameko was demonstrated. A 52-year-old mushroom worker noticed cough, exertional dyspnea, and high fever several hours after work in the mushroom-cultivating room. His examination revealed bilateral basilar crepitations, fine granular shadows in both lung fields of chest x-ray film, and slight decrease in diffusion capacity. Precipitin and macrophage migration inhibition factor were found against the mushroom spore extract and not other contaminants and molds. Histologic finding by transbronchial lung biopsy showed granulomatous alveolitis. Manifest increase of lymphocytes was found in his bronchoalveolar lavage fluid. Provocative inhalation test with the extract revealed similar symptoms and signs in his workplace eight hours after inhalation. It seems to be the first case of hypersensitivity pneumonitis to the Pholiota nameko mushroom spores."
+ }
+]

@@ -1,0 +1,580 @@
+{
+ "slug": "zophobas-atratus",
+ "name_ko": "아메리카 왕거저리 유충 탈지",
+ "name_en": "Superworm (giant mealworm) larva, defatted powder",
+ "scientific_name": "Zophobas atratus (Fabricius, 1775)",
+ "aliases": [
+  "아메리카 왕거저리 유충 탈지분말",
+  "아메리카왕거저리",
+  "Zophobas morio",
+  "superworm",
+  "giant mealworm",
+  "super mealworm",
+  "Zophobas rugipes"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "아메리카왕거저리(Zophobas atratus)는 거저리과(Tenebrionidae)에 속하는 중남미 열대 원산의 큰 딱정벌레이고, 그 유충은 영어로 superworm 또는 giant mealworm이라 불린다[3]. 오랫동안 Zophobas morio라는 학명으로 따로 다뤄졌으나 지금은 Z. atratus와 같은 종으로 보며, 두 이름의 논문을 함께 읽어야 한다[3, 4]. 식약처 「식품원료 목록」에는 '아메리카 왕거저리 유충 탈지분말' 한 행이 식품원료(A코드)·사용가능으로 실려 있고, 사용 조건 칸에 '<제조 조건> 동결건조, 탈지'가 적혀 있다[1]. 사용가능부위 칸은 '-'이고, 원료명과 제조 조건에 따라 유충을 동결건조하고 지방을 뺀 분말이 대상이다[1]. 같은 목록의 탈지갈색거저리유충분말 등에는 '한시적 기준·규격에서 전환된 원료'라는 표시가 있지만 이 행에는 그런 표시가 없다[1].\n\n농촌진흥청 연구진 논문은 식약처가 2020년 1월 제조 방법의 적합성과 식품 안전성 평가를 거쳐 이 유충을 한시적 식품원료로 인정했다고 적는다[2]. 그 뒤 식품공전의 일반 식품원료로 옮겨졌는지는 검색 요약끼리 엇갈려 공식 원문으로 확인하지 못함. 같은 연구진이 만든 동결건조 탈지분말은 조단백질 61.39%, 조지방 21.24%, 섬유 7.04%, 회분 4.54%였다[2]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "Zophobas 속 딱정벌레에 대한 첫 연구 기록은 1970–1980년대로 거슬러 올라간다[3]. 리뷰에 따르면 멕시코의 여러 민족이 Zophobas 속 곤충을 먹는다고 보고되었고, 브라질에서는 들귀뚜라미(field cricket)와 함께 사육되는 두 주요 곤충이지만 동물 먹이용이다[3]. 유충은 새·파충류·물고기의 먹이로 널리 길러졌고, 한국에도 절지동물·새·양서류·소형 포유류의 단백질 먹이로 수입되어 왔다[2]. 2010년대 들어 논문 수가 크게 늘었고, 연구는 주로 가축·양식 사료 원료로서의 가능성에 모였다[3]. 2020년에는 이 유충이 스티로폼(폴리스타이렌)을 먹고 분해한다는 보고가 나오며 환경 분야의 관심도 커졌다[11].\n\n국내에서는 농촌진흥청 국립농업과학원 산업곤충과가 유충을 길러 동결건조 탈지분말을 만들었고, 이 분말의 13주 반복투여 독성시험은 GLP 비임상시험기관에서 수행되었다[2]. 농촌진흥청은 2020년 1월 이 원료가 새로운 식품원료로 인정되었다고 알렸다는 검색 결과가 있으나 원문은 열지 못했다[28]. 유럽연합에서는 갈색거저리·풀무치·집귀뚜라미·외미거저리 4종이 신식품으로 허가된 반면 이 종은 아직 허가되지 않았다[6, 15]. 한국에서 이 종을 전통적으로 먹어 온 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "곤충학적 특징",
+   "body": "알은 흰색 타원형으로 길이 약 1.7 mm, 너비 0.7 mm이며, 암컷 한 마리가 평생 최대 2,200개를 낳는다[3]. 유충은 노란 몸에 앞뒤 끝이 짙은 갈색이고 단단한 외골격을 가지며 길이가 55 mm까지 자란다[3]. 25 °C에서 알은 8일 만에 깨고, 혼자 둔 유충은 11–18령(대개 16–17번 탈피) 뒤에 번데기가 된다[3]. 이 종의 독특한 점은 유충이 빽빽하게 모여 있으면 서로 몸이 닿는 자극 때문에 번데기가 되지 못하고 죽을 때까지 탈피만 거듭한다는 것이다[3]. 따로 떼어 놓으면 약 6일 뒤 C자 모양의 전번데기가 되고 다시 7일 뒤 번데기가 된다[3].\n\n번데기 기간은 25 °C에서 13–15일이고, 어른벌레는 몸길이 38–57 mm로 최대 6개월을 산다[3]. 어른벌레는 배의 분비샘에서 퀴논류 방어 물질을 내어 냄새와 맛이 좋지 않아 식재료로는 주로 유충이 쓰인다[3]. 유충 건물 기준 조지방은 35.0–43.6%, 총질소는 6.2–8.6%, 키틴은 3.9–6%(기준 미표기)로 정리된다[3]. 야생에서는 과일박쥐 배설물과 유기물 낙엽층에서 발견되며, 저장 곡물 해충으로는 밀가루에서 한 번 기록된 정도다[3]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종·혼동",
+   "body": "아메리카왕거저리는 갈색거저리(Tenebrio molitor)·외미거저리(Alphitobius diaperinus)와 같은 거저리과이며, 세 종 모두 식용 '밀웜'으로 연구된다[16]. 식약처 「식품원료 목록」에는 갈색거저리유충(별명 밀웜, 고소애)·쌍별귀뚜라미·흰점박이꽃무지유충·장수풍뎅이유충·누에·풀무치·수벌 번데기 등이 함께 실려 있다[1]. 갈색거저리 탈지분말 행은 '한시적 기준·규격에서 전환된 원료'로, 이 종의 행은 '<제조 조건> 동결건조, 탈지'로 적혀 있어 두 원료의 등재 표시가 다르다[1].\n\n학명은 오랫동안 혼란스러웠고, Z. morio (F.)는 지금 Z. atratus (F., 1775)와 같은 종으로 보며 Z. rugipes 등도 옛 이름으로 정리된다[3]. 2023년 유전체 연구도 'Zophobas morio (=Zophobas atratus)'로 표기했다[4]. 거저리과 다섯 종의 유전자군(orthogroup) 비교에서 이 종과 갈색거저리는 10,837개 유전자군을 공유했다[4]. 갈색거저리와 마찬가지로 이 유충도 폴리스타이렌을 먹고 분해하며, 1마리당 섭취 속도는 갈색거저리의 약 4배로 보고되었다[11]. 유럽연합 승인종인 갈색거저리와 미승인종인 이 종을 식품 속에서 구별해 부정 혼입을 가려내는 PCR 검출법이 개발되었다[15]."
+  },
+  {
+   "key": "cultivation",
+   "title": "사육",
+   "body": "상업 사육은 보통 25–28 °C, 상대습도 60–70%에서 밀기울을 주먹이로 하고 과일 껍질·당근 같은 수분원을 함께 준다[3]. 물이 부족하면 유충끼리 잡아먹는 행동이 심해지고, 번데기가 되려면 혼자 있어야 해서 대량 생산의 효율을 떨어뜨린다[3]. 국내 독성시험용 유충은 국립농업과학원에서 26 ± 2 °C, 상대습도 65%, 빛 12시간·어둠 12시간 조건으로 길렀다[2]. 먹이 9종을 비교한 2026년 연구에서 사료 전환율은 밀기울 2.55, 빵가루 17.50이었다[24]. 같은 연구에서 탄수화물이 많은 빵가루 먹이는 유충 지방을 60.44%까지, 해바라기박은 단백질을 59.79%까지 높여 먹이가 몸 조성을 크게 바꿨다[24].\n\n맥주박·빵 부스러기 같은 식품 부산물로도 잘 자라고, 먹이 단백질이 2–3배 달라도 유충 단백질은 비슷했지만 먹이 지방에 따라 유충 지방과 지방산 조성은 달라졌다[16]. 국내 연구는 발효시킨 음식물 쓰레기 먹이가 유충 지방을 늘린다고 보고했다[26]. 생분해성 플라스틱 PBS만 한 달 먹인 유충도 밀기울 먹인 유충과 생존율이 같았다[25]. 스티로폼을 30일 먹인 유충의 영양 조성은 일반 먹이와 유의한 차이가 없었다[27]. 국내 사육 농가 수·생산량 같은 공식 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·제품",
+   "body": "국립농업과학원의 탈지분말 제조 과정은 10–16령 유충을 2일 굶긴 뒤 씻고 115 °C에서 5–15분 고압 증기 살균, 영하 70 °C 냉동, 약 65시간 동결건조, 분쇄 순이다[2]. 논문은 메시밀로 분쇄한 조지방 21.7%의 유충 가루를 탈지분말 제조에 썼다고 적고, 완성품은 본래 향을 지닌 회갈색 가루였다[2]. 동결건조 전 데치기(98 °C 5분)는 단백질을 37.72 g/100 g 건물로 가장 높게 남겼고, 초음파 처리는 31.65–33.34 g/100 g으로 낮췄다[6]. 도살 방법(데치기·냉동)에 따라 유충 단백질 42.8–43.7%, 지방 39.1–40.1%로 큰 차이는 없었다[18].\n\n단백질 분리 연구에서 알칼리 추출에 초음파를 더하면 추출 수율이 40.68%로 단일·기존 방법(29.19–35.89%)보다 높았다[19]. 탄산칼륨·글리세롤 공융 용매로 추출한 뒤 투석으로 회수한 단백질은 순도 84.93%였다[21]. 알칼레이스 초음파 효소 가수분해의 최대 가수분해도는 25.03%였다[20]. 전지·탈지 유충 가루는 귀족도미(gilthead seabream, Sparus aurata) 치어 사료에서 어분 일부를 대신해도 생존·성장·사료 효율이 나빠지지 않았다[23]. 이 원료로 만든 건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체·종 판별",
+   "body": "2023년 나노포어·일루미나 자료로 조립한 이 종의 핵 유전체는 462 Mb(스캐폴드 N90 16.8 Mb)이고 유전자 28,544개가 예측되었다[4]. 곤충 공통 단일복제 유전자(BUSCO)의 91.5%가 온전하게 들어 있어 완성도가 높았다[4]. 리뷰는 미토콘드리아 유전체 전체도 해독되었다고 소개한다[3]. 거저리과 다섯 종을 비교한 결과 약 28,000개 유전자군 가운데 8,185개가 모든 종에 공통이었다[4].\n\n식품 표시와 알레르기 관리를 위해 아홉 종의 식용곤충을 한 번에 가려내는 다중 PCR이 개발되었고, 이 종은 세 번째 묶음(mPCR-III)에서 검출된다[14]. 16S rRNA·COI 유전자를 겨냥한 이중 PCR은 과자·초콜릿·죽 같은 식품 속에서 갈색거저리와 이 종을 구별하며 검출 한계는 DNA 10 pg이었다[15]. 장내 미생물 메타유전체 분석은 스티로폼을 먹은 유충의 장에서 미생물 다양성이 줄고 폴리스타이렌 분해 관련 효소 유전자를 가진 세균 유전체를 찾아냈다[13]. 국내 연구진은 이 유충의 장에서 폴리스타이렌을 분해하는 Pseudomonas 균주를 분리했다[12]. 품종이나 계통 등록 정보는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "동결건조 탈지분말을 쥐에게 하루 1,250·2,500·5,000 mg/kg씩 13주 먹인 GLP 시험에서 독성 변화가 없어 최대무독성용량은 5,000 mg/kg/일이었다[2]. 같은 시험에서 혈청 IgE는 늘지 않았고, 시험 물질에서 식중독균은 나오지 않았으며 중금속은 불검출이거나 식품 기준 아래였다[2]. 다만 연구진은 단백질이 많은 원료이므로 콩팥·간 기능이 떨어진 사람은 주의해야 한다고 썼다[2].\n\n알려진 주요 위험은 알레르기다[2, 5]. 갑각류 알레르기 환자의 IgE는 이 종을 포함한 세 밀웜 종의 트로포미오신과, 집먼지진드기 알레르기 환자의 IgE는 α-아밀레이스·헥사메린 1B 전구체·근육 미오신과 교차 반응했고, 가열과 소화로 줄었지만 없어지지 않았다[5]. 갑각류 트로포미오신 ELISA로 잰 동결건조 유충의 알레르겐은 처리하지 않은 시료 3,263.87 ppb, 데친 시료 7,036.23 ppb였고, 연체동물 트로포미오신 ELISA 값은 각각 1,424.80·5,340.90 ppb였다[6]. 연구진은 갑각류나 집먼지진드기에 알레르기가 있는 사람은 가열한 밀웜을 먹어도 위험할 수 있다고 결론지었다[5]. 1996년 미국 곤충 시식 행사 조사에서는 갈색거저리(밀웜)를 먹고 들이마신 뒤 과민반응을 보인 1명이 확인되었고(이 종은 피부시험 항원으로 함께 쓰임), 새 먹이용 곤충을 다루다 생긴 접촉 피부염 보고에도 이 종이 포함된다[8, 9]. 식약처의 이 원료 전용 알레르기 표시 기준은 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "단백질",
+   "role": "nutrient",
+   "part": "유충 동결건조 탈지분말",
+   "content_text": "탈지분말 61.39%[2]; 동결건조 유충(미처리) 36.38 g/100 g 건물(질소계수 4.76)[6]; 유충 가루 50.87 g/100 g[29]",
+   "activity_ko": "질소계수 6.25는 키틴 질소 때문에 단백질을 과대 추정할 수 있음[3]",
+   "source": [
+    2,
+    3,
+    6,
+    29
+   ]
+  },
+  {
+   "name": "Lipid",
+   "name_ko": "조지방",
+   "class": "지질",
+   "role": "nutrient",
+   "part": "유충·탈지분말",
+   "content_text": "유충 건물 35.0–43.6%[3]; 탈지분말 제조에 쓴 가루 21.7%, 완성 탈지분말 21.24%[2]; Sumatra 유충 35%[7]",
+   "activity_ko": "먹이에 따라 60.44%까지 증가[24]",
+   "source": [
+    2,
+    3,
+    7,
+    24
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "유충 기름",
+   "content_text": "총지방산의 35.99–36.87%[6]; 31.1–38.0%(문헌 범위)[3]",
+   "activity_ko": "유충 지방에서 가장 많은 지방산[6, 7]",
+   "source": [
+    3,
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "유충 기름",
+   "content_text": "총지방산의 29.74–31.21%[6]; 29.1–32.4%[3]",
+   "activity_ko": "포화지방산 비율이 갈색거저리보다 높음[6]",
+   "source": [
+    3,
+    6
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "오메가-6 다불포화지방산",
+   "role": "nutrient",
+   "part": "유충 기름",
+   "content_text": "총지방산의 17.85–19.15%[6]; 15.6–23.4%[3]",
+   "activity_ko": "n-6/n-3 비가 권장치(2:1–5:1)보다 높음[6]",
+   "source": [
+    3,
+    6
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "유충",
+   "content_text": "총지방산의 6.4–8.8%[3]",
+   "activity_ko": "Sumatra 시료에서 네 번째로 많은 지방산[7]",
+   "source": [
+    3,
+    7
+   ]
+  },
+  {
+   "name": "Chitin",
+   "name_ko": "키틴",
+   "class": "아미노다당류",
+   "role": "nutrient",
+   "part": "유충",
+   "content_text": "건물 6%[7]; 3.9–6%(문헌 범위)[3]; 슈퍼웜 키틴 수율 3.90%[17]",
+   "activity_ko": "소화되지 않는 섬유로 작용, 제거하면 단백질 소화율 향상[7]",
+   "source": [
+    3,
+    7,
+    17
+   ]
+  },
+  {
+   "name": "Chitosan",
+   "name_ko": "키토산",
+   "class": "아미노다당류(탈아세틸 키틴)",
+   "role": "bioactive",
+   "part": "유충 키틴",
+   "content_text": "키틴에서 키토산 수율 83.33%[17]",
+   "activity_ko": "같은 연구에서 'Mealworm Beetle'(이 종 포함 묶음) 키토산이 황색포도알균에 2 mm 억제대 형성, 이 종 단독 값은 초록에서 확인하지 못함[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "유충",
+   "content_text": "건물 5.7–6.6%(가장 많은 아미노산)[3]",
+   "activity_ko": "필수아미노산은 메싸이오닌을 빼고 비교적 많음[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Methionine",
+   "name_ko": "메싸이오닌",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "유충",
+   "content_text": "건물 0.5–1.0%[3]",
+   "activity_ko": "사료 원료로 쓸 때 부족해지기 쉬운 제한 아미노산[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "유충",
+   "content_text": "750.6–773.0 mg/100 g 건물[3]",
+   "activity_ko": "인 562.9–564.9 mg/100 g 건물과 함께 주요 무기질[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Tropomyosin",
+   "name_ko": "트로포미오신",
+   "class": "근육 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "동결건조 유충",
+   "content_text": "갑각류 트로포미오신 ELISA 2,869.09–7,036.23 ppb, 연체동물 735.29–5,340.90 ppb(처리별, 각 키트 검량선 환산값)[6]",
+   "activity_ko": "갑각류 알레르기 환자 IgE와 교차 반응(가열·소화 뒤에도 남음)[5]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Hexamerin",
+   "name_ko": "헥사메린",
+   "class": "저장 단백질(알레르겐 후보)",
+   "role": "bioactive",
+   "part": "유충",
+   "content_text": "정량값 없음(면역블롯·질량분석 동정)[5]",
+   "activity_ko": "식용곤충 특이 알레르겐 탐지 표지 후보[10]; 집먼지진드기 환자 IgE 교차 반응[5]",
+   "source": [
+    5,
+    10
+   ]
+  },
+  {
+   "name": "Protein hydrolysate",
+   "name_ko": "단백질 가수분해물",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "유충 단백질",
+   "content_text": "최적 조건 가수분해도 25.03%[20]",
+   "activity_ko": "RAW264.7 세포에서 과산화수소 산화 손상 완화(세포실험)[20]; 초음파 병용 추출 단백질 200 μg/mL에서 NO 약 65% 감소[19]; 유충 단백질 가루가 DSS 유발 생쥐 대장염 지표 완화(동물실험)[22]",
+   "source": [
+    19,
+    20,
+    22
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (oleic, palmitic, linoleic acid)",
+   "compound_ko": "지방산 조성(올레산·팔미트산·리놀레산)",
+   "part": "동결건조 유충에서 추출한 기름(터키산 유충)",
+   "content": "올레산 35.99–36.87%, 팔미트산 29.74–31.21%, 리놀레산 17.85–19.15%; SFA 41% 이상, MUFA 38% 이상[6]",
+   "method": "GC-FID",
+   "conditions": {
+    "instrument": "Shimadzu GC-2010, 불꽃이온화검출기(FID)",
+    "column": "Restek RT2560 실리카 칼럼 (100 m × 0.25 mm, 0.20 μm)",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "140 °C 5분 → 48 °C/min로 240 °C → 240 °C 30분",
+    "flow": "1.0 mL/min",
+    "temp": "주입구 240 °C, 검출기 260 °C",
+    "detection": "FID",
+    "injection": "1 μL, 분할비 80:1",
+    "sample_prep": "Folch법으로 기름 분리 후 ISO 12966-2:2017에 따라 메틸에스터화",
+    "standard": "Supelco 37 Component FAME mix(머무름 시간 비교), 면적 백분율",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 지방은 건물의 35–44%를 차지하고 올레산·팔미트산·리놀레산이 대부분이라, 지방산 조성이 원료 품질과 가공(탈지·전처리) 영향을 보여 주는 지표로 쓰인다(전문 확인)[3, 6]",
+   "source": [
+    6,
+    3
+   ],
+   "url": "https://doi.org/10.3390/molecules29225447",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (C18:1 cis-9, C18:2, C16:0, C18:0)",
+   "compound_ko": "지방산 조성(Sumatra 사육 유충)",
+   "part": "말령·직전령 유충(끓는 물 2분 처리 후 100 °C 건조)",
+   "content": "조지방 35%(Soxhlet); 많은 순서 C18:1(cis-9) > C18:2 > C16:0 > C18:0[7]",
+   "method": "GC-FID (AOAC 996.06 변법)",
+   "conditions": {
+    "instrument": "Agilent 7890 GC, FID(250 °C)",
+    "column": "Restek Rt-2560 (100 m × 0.25 mm, 0.2 μm)",
+    "mobile_phase": "운반기체 헬륨, 용매 헥산",
+    "gradient": "70 °C 2분 → 5 °C/min로 225 °C(9분 유지) → 5 °C/min로 240 °C(15분)",
+    "flow": "1.2 mL/min",
+    "temp": "주입구 225 °C, 검출기 250 °C",
+    "detection": "FID",
+    "injection": "1 μL, 분할비 20:1",
+    "sample_prep": "Soxhlet 추출 지질을 ISO 12966-2:2011에 따라 0.25 N 메탄올성 KOH로 에스터화",
+    "standard": "Restek Food Industry FAME Mix(cat. 35077)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "다른 지역·먹이로 기른 유충과 지방산 순서를 비교하는 데 쓰였고, 개별 함량 표는 받아온 전문에 빠져 본문 서술만 옮김(전문 확인)[7]",
+   "source": [
+    7
+   ],
+   "url": "https://doi.org/10.3390/ijerph14050521",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Tropomyosin (crustacean/mollusc ELISA)",
+   "compound_ko": "트로포미오신(갑각류·연체동물 알레르겐 ELISA)",
+   "part": "동결건조 유충 가루",
+   "content": "갑각류: 미처리 3,263.87, 데침 7,036.23, 초음파 20 °C 3,924.51, 초음파 50 °C 2,869.09 ppb; 연체동물: 1,424.80, 5,340.90, 1,690.24, 735.29 ppb[6]",
+   "method": "샌드위치 ELISA(시판 키트, Demeditec)",
+   "conditions": {
+    "instrument": "BioTek 800TS 마이크로플레이트 리더",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "추출 40 °C 15분",
+    "detection": "흡광도 450 nm(기준 620 nm)",
+    "injection": "웰당 여액 100 μL",
+    "sample_prep": "가루 약 1 g + 추출 완충액 20 mL, 40 °C 15분, 2000×g 10분 원심분리, 여과지 여과",
+    "standard": "갑각류·연체동물 트로포미오신 검량선 0–400 ppb",
+    "linearity": "검량 범위 0–400 ppb",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "트로포미오신은 갑각류·곤충 사이 교차 알레르기의 주원인이라 가공에 따른 알레르겐 잔존을 보는 지표로 쓰였다(전문 확인)[5, 6]",
+   "source": [
+    6,
+    5
+   ],
+   "url": "https://doi.org/10.3390/molecules29225447",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chitin",
+   "compound_ko": "키틴",
+   "part": "말령·직전령 유충(건조 분말)",
+   "content": "건물 6%[7]",
+   "method": "산·알칼리 가수분해 중량법(Liu 등) + 키틴 질소 Kjeldahl",
+   "conditions": {
+    "instrument": "Kjeltec 2200(FOSS) 증류",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "1 M HCl 100 °C 30분 → 1 M NaOH 80 °C 20시간",
+    "detection": "건조·회화 전후 무게 차; 잔사 질소는 Kjeldahl(420 °C 105분 분해)",
+    "injection": "",
+    "sample_prep": "시료 1.6 g × 4(2개는 키틴, 2개는 키틴 질소), 여과가 막히면 5% KOH 소량으로 지방 비누화 후 뜨거운 물 500 mL 세척",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "키틴 질소 때문에 질소계수 6.25로 계산한 단백질이 과대 추정되므로 키틴 함량을 따로 재는 것이 곤충 원료 품질 평가에 필요하다(전문 확인)[3, 7]",
+   "source": [
+    7,
+    3
+   ],
+   "url": "https://doi.org/10.3390/ijerph14050521",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 아메리카 왕거저리 유충 탈지분말(Zophobas atratus), 식품원료(A코드)·축,수산물 외 동물, 사용가능, '<제조 조건> 동결건조, 탈지'; 대조: 갈색거저리유충·탈지갈색거저리유충분말('한시적 기준·규격에서 전환된 원료')·쌍별귀뚜라미·흰점박이꽃무지유충·장수풍뎅이유충·누에·풀무치·수벌 번데기 행 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Evaluation of Subchronic Oral Dose Toxicity of Freeze-Dried Skimmed Powder of Zophobas atratus Larvae (frpfdZAL) in Rats — Foods 2020 (PMID 32722267, PMC7466282, 전문 확인; 농촌진흥청 국립농업과학원 산업곤충과 등)",
+   "url": "https://doi.org/10.3390/foods9080995",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "The Superworm, Zophobas morio (Coleoptera: Tenebrionidae): A 'Sleeping Giant' in Nutrient Sources — J Insect Sci 2021 (리뷰) (PMID 33834209, PMC8033247, 전문 확인)",
+   "url": "https://doi.org/10.1093/jisesa/ieab014",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Whole genome assemblies of Zophobas morio and Tenebrio molitor — G3 2023 (PMID 37002914, PMC10234394, 초록 확인)",
+   "url": "https://doi.org/10.1093/g3journal/jkad079",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Influence of processing and in vitro digestion on the allergic cross-reactivity of three mealworm species — Food Chem 2016 (PMID 26593591, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2015.10.033",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Chemical and Microbiological Characterization of Freeze-Dried Superworm (Zophobas morio F.) Larvae Pretreated by Blanching and Ultrasound Treatment — Molecules 2024 (PMID 39598836, PMC11597884, 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules29225447",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Nutritional Potential of Selected Insect Species Reared on the Island of Sumatra — Int J Environ Res Public Health 2017 (PMID 28498340, PMC5451972, 전문 확인(표 수치는 받아온 전문에 빠져 본문 서술값만 사용))",
+   "url": "https://doi.org/10.3390/ijerph14050521",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Anaphylaxis to the ingestion and inhalation of Tenebrio molitor (mealworm) and Zophobas morio (superworm) — Allergy Asthma Proc 1996 (PMID 8871741, 초록만 확인)",
+   "url": "https://doi.org/10.2500/108854196778996903",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Protein contact dermatitis caused by worms and insects used to feed exotic birds — Contact Dermatitis 2014 (PMID 24341469, 초록 없음, 제목·키워드만 확인)",
+   "url": "https://doi.org/10.1111/cod.12142",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "A Proteomic- and Bioinformatic-Based Identification of Specific Allergens from Edible Insects — Foods 2021 (PMID 33573235, PMC7911787, 초록 확인)",
+   "url": "https://doi.org/10.3390/foods10020280",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Biodegradation and mineralization of polystyrene by plastic-eating superworms Zophobas atratus — Sci Total Environ 2020 (PMID 31787276, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2019.135233",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Biodegradation of Polystyrene by Pseudomonas sp. Isolated from the Gut of Superworms (Larvae of Zophobas atratus) — Environ Sci Technol 2020 (PMID 32374590, 초록만 확인)",
+   "url": "https://doi.org/10.1021/acs.est.0c01495",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Insights into plastic biodegradation: community composition and functional capabilities of the superworm (Zophobas morio) microbiome in styrofoam feeding trials — Microb Genom 2022 (PMID 35678705, PMC9455710, 초록 확인)",
+   "url": "https://doi.org/10.1099/mgen.0.000842",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "A Set of Multiplex Polymerase Chain Reactions for Genomic Detection of Nine Edible Insect Species in Foods — J Insect Sci 2018 (PMID 30215801, PMC6132929, 초록 확인)",
+   "url": "https://doi.org/10.1093/jisesa/iey087",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Duplex PCR Detection and Differentiation of Insect DNA of Tenebrio molitor and Zophobas atratus in Various Types of Food — Insects 2025 (PMID 41009163, PMC12470904, 초록 확인)",
+   "url": "https://doi.org/10.3390/insects16090983",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Growth performance and feed conversion efficiency of three edible mealworm species (Coleoptera: Tenebrionidae) on diets composed of organic by-products — J Insect Physiol 2015 (PMID 25576652, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jinsphys.2014.12.005",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Characterization of chitosan extracted from Mealworm Beetle (Tenebrio molitor, Zophobas morio) and Rhinoceros Beetle (Allomyrina dichotoma) and their antibacterial activities — Int J Biol Macromol 2019 (PMID 30500507, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2018.11.242",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Proximate and fatty acid profile analysis of Tenebrio molitor and Zophobas morio using different killing methods — Food Chem 2024 (PMID 38401309, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2024.138719",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Physicochemical characteristics and anti-inflammatory properties of Zophobas morio (super mealworm) protein extracted by different methods — Food Chem 2025 (PMID 39706115, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2024.142519",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Optimization of ultrasound-assisted enzymatic hydrolysis Zophobas morio protein and its protective effects against H2O2-induced oxidative stress in RAW264.7 cells — Int J Biol Macromol 2025 (PMID 39842604, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2025.140111",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Comparative extraction and recovery of Zophobas morio protein using deep eutectic solvents and conventional alkaline methods — Int J Biol Macromol 2025 (PMID 40680954, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2025.146107",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Alleviating Effects of Zophobas morio and Tenebrio molitor Larvae Protein Powder on Dextran Sodium Sulfate-Induced Inflammatory Bowel Disease in Mice — Int J Mol Sci 2026 (PMID 41683826, PMC12897815, 초록 확인)",
+   "url": "https://doi.org/10.3390/ijms27031405",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "The Effects of Dietary Fishmeal Substitution by Full-Fat and Defatted Zophobas morio Larvae Meals on Juvenile Gilthead Seabream — Aquac Nutr 2025 (PMID 40458202, PMC12127129, 초록 확인)",
+   "url": "https://doi.org/10.1155/anu/8885509",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "The Effects of Different Feed Substrates on Production Performance, Digestibility, and Chemical Composition of Zophobas morio Larvae — Insects 2026 (PMID 42940958, PMC13705041, 초록 확인)",
+   "url": "https://doi.org/10.3390/insects17101049",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Circular waste management: Superworms as a sustainable solution for biodegradable plastic degradation and resource recovery — Waste Manag 2023 (PMID 37812971, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.wasman.2023.09.027",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Development of Optimized Feed for Lipid Gain in Zophobas morio (Coleoptera: Tenebrionidae) Larvae — Animals 2023 (PMID 37370468, PMC10295072, 초록 확인)",
+   "url": "https://doi.org/10.3390/ani13121958",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "The impact of polystyrene consumption by edible insects Tenebrio molitor and Zophobas morio on their nutritional value, cytotoxicity, and oxidative stress parameters — Food Chem 2021 (PMID 33601659, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2020.128846",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "농촌진흥청 보도자료 「'아메리카왕거저리 유충' 새로운 식품원료 인정」(2020-01-17) — WebSearch 검색 요약으로만 확인, 원문 페이지는 이 환경에서 열지 못함(네트워크 허용 목록 밖). 같은 검색에서 2020년 6월 일반 식품원료 전환을 적은 농진청 웹진(2022)과 2026년에도 한시적 인정 상태라는 언론 보도가 함께 나와 서로 엇갈림",
+   "url": "https://www.rda.go.kr/board/board.do?mode=view&prgId=day_farmprmninfoEntry&dataNo=100000760981",
+   "publisher": "농촌진흥청(WebSearch 요약)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Edible insects: chemical composition, protein digestibility, bioactive compounds, functional and thermal properties of different species — Food Res Int 2026 (PMID 42562519, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2026.119746",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

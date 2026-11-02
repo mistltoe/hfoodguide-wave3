@@ -1,0 +1,28 @@
+import json
+p='/home/user/hfoodguide-wave3/docs/materials/rubus-chamaemorus/dossier.json'
+d=json.load(open(p))
+ch=[]
+def rep(key,old,new,why):
+    for s in d['sections']:
+        if s['key']==key:
+            assert old in s['body'],(key,old)
+            s['body']=s['body'].replace(old,new); ch.append({"where":"sections."+key,"before":old,"after":new,"why":why})
+rep('biology',"주로 넓게 뻗는 뿌리줄기로 무성 번식하며, 열매 발달에는 뿌리줄기에 저장된 탄수화물이 필요해 뿌리줄기가 짧은 줄기는 열매가 작거나 떨어지기 쉽다[22, 23].",
+ "주로 넓게 뻗는 뿌리줄기로 무성 번식하며[4, 22], 열매 발달에 뿌리줄기에 저장된 탄수화물이 쓰이는 것으로 보여 뿌리줄기가 짧은 줄기는 열매가 작거나 떨어지기 쉽다[22, 23].",
+ "[23] 초록은 저장 탄수화물 의존을 가능성(might)으로 씀; 무성 번식 우세는 [4] 서론이 말함")
+rep('cultivation',"따뜻한 여름에 수확량이 많았다[26].","따뜻한 여름에 수확량이 많았다(개방지는 두 해가 비슷)[26].",
+ "[26] 초록: 따뜻한 여름에 수확량이 많았으나 개방지는 예외로 비슷했음")
+rep('processing',"착즙박을 발효하면 고분자 엘라지탄닌이 일부 엘라그산 유도체로 분해되고, 씨 부분을 건식 분획하면 탄닌은 고운 분획에, 플라보놀은 굵은 분획에 모였다[31].",
+ "발효 과정에서 고분자 엘라지탄닌이 일부 엘라그산 유도체로 분해되고, 착즙박의 씨 부분을 건식 분획하면 탄닌은 고운 분획에, 플라보놀은 굵은 분획에 모였다[31].",
+ "[31] 초록: 건식 분획 대상이 착즙박이며, 발효 대상이 착즙박이라고는 쓰지 않음")
+for a in d['assays']:
+    if a['source']==[8]:
+        old=dict(a['conditions']); oldr=a['rationale']
+        a['conditions']['linearity']="TLC: β-크립토잔틴 표준 40–1200 ng/spot(2반복)로 봉우리 면적–양 상관 작성(ICH Q2(R2)); 계수 값은 본문에 없음"
+        a['conditions']['lod']="TLC: 육안·S/N 3:1 기준(수치는 본문에 없음)"
+        a['conditions']['loq']="TLC: S/N 10:1 기준(수치는 본문에 없음)"
+        a['rationale']="조사한 산딸기속 열매 중 카로티노이드 함량이 가장 높아 노란색 열매의 특징 성분임; 전문 확인, 같은 논문의 HPLC-DAD-MS로는 진들딸기 카로티노이드가 검출되지 않아 β-카로틴은 TLC 표준품 비교로만 확인됨, 회수율은 확인 못함[8]."
+        ch.append({"where":"assays[beta-Carotene].conditions.linearity/lod/loq·rationale","before":oldr,"after":a['rationale'],"why":"[8] 전문 2.4.3절에 TLC 검량 범위·LOD/LOQ 기준이 있고, HPLC로는 진들딸기 카로티노이드가 검출되지 않았다고 씀"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(ch,open('/home/user/hfoodguide-wave3/docs/materials/rubus-chamaemorus/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(ch))

@@ -1,0 +1,24 @@
+{"slug": "solanum-muricatum", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 77, "checked_items": 54,
+ "verified": 116, "fixed": 12, "removed": 1, "unverifiable": 2,
+ "changes": [
+  {"where": "sections.history", "before": "칭하이대학 연구진이 'Qingcanxiang' 등 품종을 육성했다[8, 29]", "after": "칭하이 농림과학원이 'Qingcanxiang' 등 품종을 육성했다[8, 29]", "why": "[8] 전문 Methods: 'developed by the Qinghai Academy of Agricultural and Forestry Sciences'"},
+  {"where": "compounds Ascorbic acid·Sucrose·Fructose, assays[1].content", "before": "자근 'Qingcanxiang'", "after": "'Qingcanxiang' 자가접목", "why": "[8] 전문에서 비교 대조군은 self-grafted pepino(LOF)이며 자근(self-rooted)이 아님"},
+  {"where": "compounds Sucrose.content_text", "before": "자근 72.86 mg/g, 가지 대목 접목 114.23 mg/g", "after": "자가접목 72.86 mg/g, 가지 대목 접목 114.23 mg/g(…차이는 유의하지 않음 p = 0.090)", "why": "[8] 전문: 자당 차이는 통계적으로 유의하지 않음(p = 0.090)"},
+  {"where": "assays[1].part", "before": "열매(과육)", "after": "열매", "why": "[8] 전문에 과육만 분석했다는 기재 없음"},
+  {"where": "sections.cultivation", "before": "열매 비타민 C가 늘었지만", "after": "자가접목 대조보다 열매 비타민 C가 늘었지만", "why": "[8] 비교 기준 명시"},
+  {"where": "compounds Chlorogenic acid.content_text", "before": "현대 품종…의 주성분(하이드록시신남산 총량의 59–82%를 차지하는 주된 화합물)", "after": "…(각 계통의 주된 화합물이 하이드록시신남산 총량의 59–82%)…(껍질 벗긴 과육 동결건조 분말 분석)", "why": "[2] 전문: 59–82%는 5계통 전체의 각 주성분 비율로, 클로로겐산만의 값이 아님; 시료는 껍질 제거 과육 동결건조"},
+  {"where": "compounds Chlorogenic acid.activity_ko", "before": "과육 추출물은 LPS 자극 대식세포의 NO 생성을 36–67% 억제", "after": "과육 추출물 원액은 … 36–67% 억제(세포 시험)", "why": "[2] 1:10 희석액은 10% 미만 또는 유의하지 않음; 세포 결과임을 명시"},
+  {"where": "compounds Feruloyl glucose.name", "before": "Feruloyl glucose", "after": "Feruloyl hexoside", "why": "[2] 원문은 feruloyl-hexose로 당 종류(포도당)를 특정하지 않음"},
+  {"where": "sections.biology, compounds Hexyl acetate.activity_ko", "before": "박과실파리(Zeugodacus tau) 암컷", "after": "과실파리의 일종인 Zeugodacus tau의 산란기 암컷", "why": "국문명 '박과실파리'의 출처 없음(근연 과실파리 국문명과 혼동 우려); [27]은 gravid female"},
+  {"where": "assays[0].rationale", "before": "과육 품질·항산화 지표로 쓸 수 있음", "after": "과육 페놀 조성 비교의 지표로 쓸 수 있음(다만 함량 순위와 항산화·NO 억제 순위는 일치하지 않음)", "why": "[2] 결론: 하이드록시신남산 함량·항산화·생물활성이 강하게 연관되지 않음 — 과장 완화"},
+  {"where": "sections.safety", "before": "(없음)", "after": "페피노를 포함한 가지속 7종 어린 식물 잎·줄기·뿌리 글리코알칼로이드 HPLC-TOF-MS 분석 연구가 있으나 열매는 분석 대상이 아니었다[30]", "why": "글리코알칼로이드 근거 확인 요청; PubMed 검색으로 찾은 PMID 35161249(전문) 추가. 종별 수치는 전문 텍스트에서 종명이 빠져 귀속할 수 없어 넣지 않음"},
+  {"where": "sources", "before": "29개", "after": "[30] PMID 35161249 추가", "why": "위 문장 근거"},
+  {"where": "aliases", "before": "페피노멜론", "after": "(삭제)", "why": "국문 별명 출처 없음(식약처 목록은 '페피노열매'만, 별명 칸 비어 있음)"}
+ ],
+ "unverifiable_notes": [
+  "[4] 검토 논문의 β-카로틴 56–166 mg/100 g은 원문 그대로 확인했으나 단위 오기 가능성이 있어 기존 '단위 확인 못함' 표기를 유지",
+  "[30] 전문 텍스트에서 종명이 빠져 있어 페피노 개별 부위의 글리코알칼로이드 수치는 귀속하지 못함; 열매 글리코알칼로이드 정량 자료는 PubMed 검색(8건)에서 찾지 못함",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 페피노열매 사용가능(사용가능부위: 열매), 페피노잎·페피노줄기 사용불가; 감자(덩이줄기)·가지(열매) 사용가능, 까마중 잎·순·줄기 제한적사용(까마중열매 사용불가) — 본문·card.json과 일치",
+  "[1]–[29] 서지(PMID·DOI·권호)는 PubMed 메타데이터로 모두 일치 확인; [2][3][4][8]은 PMC 전문 대조"
+ ]}

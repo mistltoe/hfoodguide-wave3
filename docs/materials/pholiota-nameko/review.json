@@ -1,0 +1,38 @@
+{
+ "slug": "pholiota-nameko",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 70,
+ "checked_items": 35,
+ "verified": 102,
+ "fixed": 3,
+ "removed": 0,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.safety",
+   "before": "옥수숫대를 섞은 배지의 버섯은 비소·카드뮴·납이 대조보다 높았지만 모두 중국 식용균 기준 이내였다[5].",
+   "after": "옥수숫대를 섞은 배지의 버섯은 비소·카드뮴·납이 대조보다 높았다고 본문에 적혀 있으나, 같은 논문의 표에서는 비소가 일부 배지(옥수숫대 19%·57%)에서 대조보다 낮았고, 유해 원소는 모두 중국 식용균 기준 이내였다[5].",
+   "why": "[5] 전문 표 6: 비소 CK 1.12, T1 0.83, T3 0.52 mg/kg로 본문 서술('모두 높음')과 어긋남"
+  },
+  {
+   "where": "compounds[L-Glutamic acid].activity_ko",
+   "before": "16종 가운데 모든 배지에서 함량이 가장 높은 아미노산이며 다음은 메싸이오닌[5]",
+   "after": "본문은 16종 가운데 모든 배지에서 함량이 가장 높고 다음은 메싸이오닌이라고 했으나, 표에서는 옥수숫대 57% 배지(T3)에서 메싸이오닌(1.29%)이 글루탐산(1.25%)보다 약간 높음[5]",
+   "why": "[5] 전문 표 5 값과 본문 서술이 어긋나 둘 다 적음"
+  },
+  {
+   "where": "compounds[Mannogalactan]",
+   "before": "name Mannogalactan / 중량평균분자량 약 20 kDa, (1→6)-α-D-갈락토피라노실 주사슬이 O-2에서 만노스·푸코스로 치환된 구조(함량 수치는 초록에 없음)[14]",
+   "after": "name Heterogalactan / 6종 버섯의 헤테로갈락탄은 중량평균분자량 약 20 kDa, (1→6)-α-D-갈락토피라노실 주사슬이 O-2에서 만노스·푸코스로 치환된 공통 구조(나도팽나무버섯 것이 만노갈락탄·푸코갈락탄 중 어느 유형인지와 함량은 초록에서 확인하지 못함)[14]",
+   "why": "[14] 초록은 6종 공통 구조만 말하고 나도팽나무버섯 것이 만노갈락탄인지 밝히지 않음"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 의 '나도팽나무버섯자실체'(Pholiota nameko, 별명 맛버섯, 사용가능, 자실체) 행과 card.json·overview 일치. 같은 속 4종(노란갓·꽈리·검은·흰비늘버섯)과 팽이버섯(별명 팽나무버섯) 행도 related_species 서술과 일치",
+  "world 중국 70만 t·일본 2만 t(2012): [2] PMC10012341 전문 서론의 'in 2012, China and Japan produced over 700,000 and 20,000 tons' 문장과 일치. 원 통계(인용 문헌)는 전문 텍스트에서 참고문헌 표기가 빠져 확인하지 못함(note 에 이미 표기)",
+  "[2][4][5][6][7] 은 PMC 전문으로, 나머지 논문은 PubMed 초록으로 대조함. assays 3건의 분석 조건은 [4]·[6] 전문 Methods 와 한 칸씩 일치",
+  "[7] 은 논문 자체에 과 이름(Strophariaceae/Mycenaceae)·GC 함량(45.25/42.25%)·CAZyme 합계 불일치 오기가 있어 dossier 의 주의 문구를 유지",
+  "Pholiota microspora 이름 논문([2][3][8])은 같은 종으로 다룸. 다른 비늘버섯속 식품원료 자료 섞임 없음"
+ ]
+}

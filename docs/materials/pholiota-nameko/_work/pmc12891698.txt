@@ -1,0 +1,1265 @@
+Introduction
+
+Amidst the challenges of climate change and land degradation, edible mushrooms have emerged as a valuable alternative for food production, owing to their exceptional nutrient density and versatile potential. With over 14,000 documented species, mushrooms serve as a natural source of essential nutrients—including proteins, dietary fibers, vitamins, and minerals—and a diverse array of bioactive compounds (e.g., polysaccharides, phenols, terpenes, and ergosterol) with applications in health supplements, disease management, and pest control. These constituents confer upon mushrooms a variety of pharmacological activities, such as antioxidant, anti-inflammatory, immune-regulatory, and anti-tumor effects.
+
+andare rich in antioxidants and polysaccharides, aiding in treating reproductive diseases and enhancing immune function. Edible mushroom polysaccharides also have antibacterial properties and lower cholesterol. Additionally, polysaccharides from, such as β-1,3-D-glucan, can scavenge hydroxyl radicals and inhibit lipid peroxidation. andcompounds show similar antioxidant abilities. Various mushrooms likes,, andhave antibacterial properties. Studies indicate that fermenting mushroom mycelium with black rice bran or turmeric can inhibit, enhancing macrophage activity and triggering immune responses with type I interferons. Additionally, terpenoids, flavonoids, and tannins show antifungal activity. Phenolic compounds, even in small amounts, exhibit diverse biological activities. For instance, derivatives of hydrobenzoic acid, gallic acid, phenols, pyrogallol, flavonoids, and tocopherols identified inhave been demonstrated to possess reducing power, superoxide radical scavenging capabilities, and the ability to inhibit lipid peroxidation. Furthermore, phenolic compounds inhave been reported to prevent the bleaching of β-carotene. Additionally, natural products such as thelephoric acid, kynapcin-9, boletopsin-B, and physcione, which are derived from,, and, have shown potential in inhibiting epidermal growth factor receptor (EGFR) activation and suppressing tumor cell proliferation.
+
+The processing of edible mushrooms, particularly during stages such as pre-cooking and cleaning, results in the production of significant quantities of wastewater and residues rich in organic compounds, including proteins, carbohydrates, and minerals. During the processing of mushrooms, particularly during the pre-cooking and cleaning stages, both wastewater and solid residues are produced, constituting approximately 5% to 20% of the total mushroom weight. If inadequately managed, these by-products have the potential to contribute to environmental pollution and waste of resources. The waste generated from edible mushrooms may encompass discarded mushroom stalks, broken fruiting bodies, culture medium residues, and processing water.
+
+Present disposal strategies encompass composting, utilization as animal feed additives, biodegradation, adsorption, and chemical treatment. For instance, various studies have endeavored to isolate polysaccharides, triterpenoids, ergosterol, and other compounds from discarded mycelium. Furthermore, waste materials hold significant research potential in the domain of bioremediation. Empirical evidence suggests that the mycelium matrix ofpossesses the capability to remove organic micropollutants from wastewater. Additionally, research has investigated the application of mushroom waste as a biological flocculant for addressing wastewater turbidity. Nonetheless, the majority of research has predominantly concentrated on solid waste, such as bacterial residue, while comparatively less attention has been devoted to liquid by-products, such as pre-boiled liquid, or to the comprehensive exploration of all potential bioactive components within these materials.
+
+Recent advancements in untargeted metabolomics highlight its benefits in exploring plant resources. In a study by Zeng et al., untargeted metabolomics coupled with chemometric analyses was applied to the leaf and stem waste of, leading to the identification and annotation of 1,508 metabolites, including 463 differentially expressed metabolites. Notably, the stems and leaves were rich in polyacetylenes, flavonoids, and other compounds, with some like lobetyolin showing stronger antioxidant activity than in the roots. This abundance of bioactive components in the plant’s above-ground parts highlights their development potential. Bragagnolo et al.used untargeted metabolomics to find valuable compounds in underutilized soybean parts, promoting full use of agricultural by-products. Similarly, Zeng et al.grewmushrooms onstem and leaf (CSL) substrate, rich in cellulose and trace elements, resulting in mushrooms with higher fresh weight and nutritional value, including increased protein, 14 amino acids, and selenium. Untargeted metabolomics identified 710 metabolites, with significant changes in 259, including-specific polyynes and flavonoids. UPLC-MS/MS measured lobetyolin at 0.0058%. This method turnswaste into functional foods.
+
+Utilizing waste liquid fromis crucial due to its valuable active substances., a popular choice, is high in protein, low in fat, and contains beneficial amino acids and bioactive substances. Its polysaccharides enhance immunity, have antioxidant properties, and may fight cancer.’s complete amino acid profile meets human needs (e.g. Val, Thr, Met, Ile, Trp, Leu, Phe), and its vitamin C and selenium are crucial for health. The pre-cooking liquid derived from shiitake mushrooms is likely enriched with water-soluble small molecules, including nucleotides and free amino acids, which possess considerable potential for enhancing umami flavor.
+
+This study measures indicators such as polysaccharides, proteins, and elements, and employs untargeted metabolomics techniques to systematically analyze the chemical composition and constituents of the fruiting bodies ofand their waste liquid (Fig.). This work directly addresses the United Nations Sustainable Development Goals (SDGs), with a core focus on SDG 12 (Responsible Consumption and Production) by establishing a circular utilization model for industrial waste and reducing resource waste. It also aligns with SDG 3 (Good Health and Well-being) through the exploration of bioactive metabolites with potential nutritional or medicinal value, and supports SDG 13 (Climate Action) by minimizing environmental impacts of waste disposal. In doing so, this study promotes the green and sustainable development of theindustry.
+
+Materials and methods
+
+Materials and reagents
+
+This study examined the fruiting bodies and pre-cooking liquid freeze-dried powder offrom Yan’an Junjian Biotechnology Co., Ltd. The factory performs a pre-cooking treatment onfruiting bodies, primarily aimed at preserving their freshness before product sales. During this process, the pre-cooking solution is generated as a by-product of thefruiting body processing. The specific operational procedure is as follows: 2000 kg of freshfruiting bodies are boiled in water at 95 °C for 10 min. Subsequently, solid-liquid separation is performed, yielding approximately 1500 L of pre-cooking solution. The pre-cooked fruiting bodies are then pickled and packaged for sale. The pre-cooking solution, on the other hand, undergoes concentration and freeze-drying for dry preservation, to be used in subsequent experiments. The research aimed to analyze the chemical changes inafter hot water pre-cooking to understand the treatment’s impact on its chemical makeup.
+
+The reference standards of glucose, pyrogallol, and ergothioneine (EGT) were obtained from Shanghai yuanye Bio-Technology Co., Ltd (Shanghai, China). Methanol, acetonitrile, formic acid, and ammonium acetate were bought from Thermo Fisher Scientific (USA). Phenol, concentrated sulfuric acid, trifluoroacetic acid, copper sulfate, potassium sulfate, sodium hydroxide, hydrochloric acid and boric acid, and other analytical reagents can be purchased on the market.
+
+Fig. 1
+
+Methodology diagram.
+
+Determination of polysaccharide content
+
+The phenol-sulfuric acid methodwas used to quantify polysaccharides by hydrolyzing them into monosaccharides with concentrated sulfuric acid, which are then dehydrated and react with phenol to form an orange-yellow compound. A 2 mL sample was combined with 1 mL of 6% phenol and 5 mL of concentrated sulfuric acid, shaken, and left for 20 min at room temperature. Absorbance was measured at 490 nm, using distilled water as a blank and glucose as a standard, all in triplicate.
+
+Analysis of monosaccharide composition
+
+The monosaccharide composition ofpolysaccharides was analyzed and modified based on Hui et al. (2019). Analysis of monosaccharide composition by gas chromatography-mass spectrometry (GC-MS, Agilent 6890 N, Santa Clara, CA, USA). The polysaccharides were fully hydrolyzed into monosaccharides with trifluoroacetic acid, acetylated, and then detected using gas chromatography with monosaccharide standards. The GC-MS temperature program conditions were set as follows: the injection port temperature was maintained at 250 °C. The column temperature was initially held at 100 °C for 2 min, then increased at a rate of 3 °C/min to reach 220 °C, where it was held for 5 min. The carrier gas was nitrogen (N₂) with a flow rate of 2.0 mL/min. The injection volume was 1 µL, and the split ratio was 50:1. For the mass spectrometer, the conditions included Electron Ionization Mass Spectrometry (EI-MS), with the ion source temperature set at 180 °C and the interface temperature at 260 °C. The scan range was set to cover m/z 50–620. This process was repeated three times.
+
+Determination of protein content
+
+The crude protein is determined using the Kjeldahl method as per GB 5009.5-2016. The process involves digesting 1 g of the sample with copper sulfate, potassium sulfate, and sulfuric acid at 420 °C for 1 h. After cooling, water is added, and the sample is analyzed with a Kjeldahl nitrogen analyzer, using sodium hydroxide, hydrochloric acid, and a boric acid indicator. Each sample is tested three times, and protein content is calculated with a specific formula.
+
+In the equations:is the protein content in the sample, g/100g;andare the volumes of hydrochloric acid titration solution used by the test solution and reagent blank, respectively, mL;is the concentration of the hydrochloric acid standard titration solution, mol/L; 0.014 is the nitrogen mass equivalent to 1.0 mL of 1 mol/L hydrochloric acid [c (HCl) = 1 mol/L], g; m is the sample mass, g;denotes the nitrogen-to-protein conversion factor, which is 6.25.
+
+Determination of free amino acids
+
+Free amino acids are detected using chemical reactions in a borate buffer: primary amino acids react with o-phthalaldehyde (OPA) to produce UV-absorbing derivatives at 338 nm, while secondary amino acids like hydroxyproline, proline, and sarcosine react with 9-fluorenylmethyloxycarbonyl chloride (FMOC-Cl) to yield derivatives that absorb at 266 nm. The process includes pre-column derivatization. For sample preparation, crush and weigh 0.5 g into a 10 mL centrifuge tube, add 5 mL of 0.01 M hydrochloric acid, mix, and heat for 30 min. Centrifuge at 10,000 rpm for 10 min, collect the supernatant, and add 4 mL of 0.01 M hydrochloric acid to the precipitate. After 5 min of ultrasonic treatment, centrifuge again, combine the supernatants, dilute to 10 mL, filter through a 0.22 μm membrane, and store for analysis.
+
+Agilent’s automated online derivatization method is used for detection. Primary amino acids are derivatized with OPA and secondary ones with FMOC-Cl before column detection. The analysis utilizes an Agilent 1100 liquid chromatography system with a variable wavelength detector (VWD) detector and a ZORBAX Eclipse AAA column (4.6 × 150 mm, 3.5 μm). Detection wavelengths are 338 nm (0–19 min) and 266 nm (19.01–25 min). Mobile phase A is 40 mM sodium dihydrogen phosphate (pH 7.8), and phase B is acetonitrile/methanol/water (45/45/10, v/v/v). The flow rate is 1.0 mL/min, and the column temperature is 45 °C. The gradient elution program: phase B starts at 0% (0–1 min), rises to 57% (1–23 min), then to 100% (23–27 min), held at 100% (27–34 min), decreases to 0% (34–40 min), and remains at 0% (40–41 min). Samples were tested in triplicate.
+
+Determination of polyphenol content
+
+Polyphenol content was assessed using the Folin-Ciocalteu method, where polyphenols form a blue complex with the reagent, absorbing at 760 nm. The sample is ultrasonically extracted with ethanol, concentrated, and mixed with equal parts of Folin-Ciocalteu reagent. After 3 min, NaCOis added, and the mixture sits for 30 min before absorbance is measured. Distilled water is the blank, and a pyrogallol standard curve is used, with each sample tested in triplicate.
+
+Determination of nucleotides
+
+Extract ATP and its degradation compounds using perchloric acid, adjust the pH with potassium hydroxide to precipitate perchlorate, remove impurities, and analyze quantitatively via high-pressure liquid chromatography (HPLC). Chromatography conditions: C18 column (4.6 mm × 250 mm, 5 μm), 10 µL injection, 260 nm detection, 1.0 mL/min flow rate, 40℃ column temperature. Mobile phase: Solution A (50 mmol/L sodium phosphate buffer, pH 6.7) and Solution B (methanol). Gradient: 0–7 min 0% B, 7–15 min 0%-20% B, 15–19 min 20% B, 19–19.1 min 20%-0% B, 19.1–25 min 0% B. Calculate adenosine triphosphate (ATP), adenosine diphosphate (ADP), adenosine monophosphate (AMP), inosincacid (IMP), inosine, and hypoxanthine contents using the specified formula.
+
+In the formula:represents the content of each nucleotide within the sample, µmol/g;denotes the peak area corresponding to each nucleotide in the sample;is the concentration of each nucleotide in the standard solution, µmol/mL;is the constant volume, mL; As is the peak area of the standard solution;is the sample mass, g.
+
+Determination of ergothioneine (EGT)
+
+A high-performance liquid chromatograph (LC-20 A) with a ShimNex HE NHcolumn was used, employing an acetonitrile-20mM ammonium acetate (80:20, v/v) mobile phase at pH 6.0. The column was set at 35 °C, with detection at 254 nm, a 1 mL/min flow rate, and a 5 µL injection volume. EGT was prepared at 1 mg/mL in methanol, filtered, and analyzed by HPLC. A standard curve with the regression equation y = 19814x − 8616.3 (²= 0.9961) was used for EGT analysis, and the extraction rate calculation formula is provided.
+
+Where,is the EGT mass in the sample, mg;is the sample powder’s dry weight, g.
+
+Determination of fatty acid
+
+The fatty acid composition was analyzed using GC-MS. Fatty acids were converted to fatty acid methyl esters (FAMEs) using a modified method. The oven temperature started at 80 °C for 2 min, increased to 168 °C at 15 °C/min for 18 min, then to 185 °C at 5 °C/min for 30 min. Injector and detector temperatures were 250 °C and 280 °C. A 1 mL sample was injected with a 100:1 split ratio, using hydrogen at 1.2 mL/min as the carrier gas. Fatty acid content inwas assessed with a TRACE 1310 GC system and TR-FAME column, paired with a TSQ DUO mass spectrometer from Thermo Fisher Scientific.
+
+Essential elements analysis
+
+Elemental analysis aims to identify essential and trace elements in a sample. The process involves mixing 0.5 g of powdered sample with 10 mL of nitric acid, digesting it for 20 min, and heating to 190 °C over 25 min. The digested solution is then diluted to 25 mL with deionized water and filtered. For trace elements, the solution is used directly, while essential elements require further dilution with a 2% nitric acid solution before analysis. The concentrations of 20 elements, including arsenic (As), plumbum (Pb), cadmium (Cd), and others, in asphalt samples were analyzed using an Agilent 5800 ICP-OES. Each sample was tested three times for accuracy. A 20 ppm solution was made from a 1000 ppm stock, followed by standard solutions of 50, 100, 200, and 400 ppb. The ICP-OES procedure followed Rawat et al..
+
+Determination of physicochemical properties
+
+The pH was measured using a pH meter (Sartorius Basic pH Meter, Germany). The conductivity was measured using a conductivity meter (Leici-DDS-307 A, Shanghai, China). The surface tension was measured by an automatic surface tensiometer (Afes FST200B, Shanghai, China) with the platinum plate method at 25 °C. Viscosity measurements have done by employing viscometer (NDJ-8 S, Wuhan, China). Ash content was determined by high temperature combustion in muffle furnace. Thermogravimetric analysis (TG) of 10 mg samples was performed by thermogravimetric analyzer (STA 449 F5 Jupiter, Netzsch, Germany) under nitrogen atmosphere (50 mL/min) and 10 °C / min heating (30–800 °C).
+
+Determination of pesticide residue
+
+The pesticide residue detector (JC-SP08A, Qingdao, China) uses the GB/T5009.199-2003 enzyme inhibition-photoelectric colorimetric method to detect organophosphorus and carbamate pesticides. The process involves mixing 0.05 g of the sample with 10 mL of buffer, shaking for 2 min, and centrifuging after 5 min. A 2.5 mL supernatant is used as a blank control, with 100 µL cholinesterase and 100 µL dithiodinitrobenzoic acid added. After a 10 min incubation at 37 °C, 100 µL thioacetylcholine is added, and the absorbance change at 412 nm is measured. An inhibition rate of ≥ 50% indicates safety, while < 50% suggests excessive pesticide residues.
+
+Untargeted metabolomics
+
+Extraction of metabolites
+
+The metabolite differences between the fruiting body and pre-cooking liquid ofwere studied using untargeted metabolomics. Samples were ground with 100 mg liquid nitrogen, mixed with 500 µL of 80% methanol solution, vortexed, and chilled on ice for 5 min. After centrifuging at 15,000 g and 4 °C for 20 min, the supernatant was diluted to 53% methanol, centrifuged again, and analyzed by LC-MS. Quality control (QC) samples were prepared by combining equal volumes from each sample.
+
+UHPLC-electrospray ionization mass spectrometry/mass spectrometry (UHPLC-ESI-MS/MS) method
+
+Metabolite content was analyzed using a Vanquish UHPLC (Thermo Fisher, Germany) with the following parameters: Hypersil Gold column (100 × 2.1 mm, 1.9 μm) at 40℃, flow rate of 0.2 mL/min, mobile phase A (0.1% formic acid) and B (methanol), and a 2 µL injection. The gradient elution was as follows: 0–1.5 min at 2% B, 1.5–3 min ramping to 85% B, 3–10 min to 100% B, 10–10.1 min back to 2% B, and 10.1–12 min at 2% B. Metabolites were separated and analyzed using a high-resolution Q Exactive™ HF-X mass spectrometer (Thermo Fisher Scientific, Germany) equipped with an Orbitrap mass analyzer. The mass spectrometry conditions were as follows: the scan range was established at 100–1500 m/z. The electrospray ionization (ESI) source parameters included a spray voltage of 3.5 kV, a sheath gas flow rate of 35 psi, and an auxiliary gas flow rate of 10 L/min. The capillary temperature was maintained at 320 °C, with an S-lens RF level of 60 and an auxiliary gas heater temperature of 350 °C. Both positive and negative ionization modes were employed. MS/MS secondary scanning was conducted in a data-dependent acquisition mode.
+
+Data statistics and analysis
+
+The original data was processed on Linux (CentOS 6.6) using R and Python. Raw data files were converted to mzXML format with ProteoWizard (v3.0.8789)and then analyzed with the XCMS package in R (v3.1.3)for peak identification, filtration, and alignment to create a data matrix of mass-to-charge ratio, retention time, and peak intensity. Compounds with a relative peak area CV (coefficient of variation) > 30% in QC samples were excluded, resulting in the identification and quantification of metabolites. The untargeted metabolomics data underwent quality assurance (QA), QC, normalization, various statistical and machine learning analyses, and metabolic pathway mapping with MetaboAnalystR. Metabolites were annotated using the kyoto encyclopedia of genes and genomes (KEGG,), human metabolome database (HMDB,), and lipid metabolites and pathways strategy databases (LIPID MAPS,). Untargeted metabolomics analysis was completed using Wekemo Bioincloud ().
+
+Taste activity value (TAV)
+
+The Taste Activity Value (TAV) assesses a component’s impact on umami intensity by comparing its concentration () in a sample to its taste threshold (). A TAV greater than 1 indicates a significant contribution to taste, while a TAV less than 1 suggests minimal impact. This method identifies key taste-active amino acids using Eq. ().
+
+whereis the substance’s concentration (mg/g) andis its taste threshold (mg/g).
+
+Equivalent Umami concentration (EUC) assay
+
+Equivalent umami concentration (EUC) measures the total umami content as monosodium glutamate (MSG) per 100 g of dry matter (Eq. 5).
+
+whereis the equivalent umami concentration, g/100 g.represents the concentration of umami amino acids (glutamic acid, Glu; aspartic acid, Asp), anddenotes the concentration of umami 5’-nucleotides (5’-Guanylic acid, 5’-GMP = 2.3; 5’-IMP = 1; 5’-Xanthylic acid, 5’-XMP = 0.61; 5’-AMP = 0.18).is the value of umami amino acid relative to Glu (Glu = 1, Asp = 0.077),is the value of umami 5’-nucleotides relative to 5’-IMP (5’-GMP = 2.3, 5’-IMP = 1, 5’-XMP = 0.61, 5’-AMP = 0.18); 1218 is the synergistic constant.
+
+Statistical analysis
+
+The data were processed utilizing Microsoft Excel 2019 and subjected to statistical analysis with Origin 2021. Results are presented as mean ± standard deviation (SD). Group differences were evaluated using one-way analysis of variance (ANOVA), and pairwise comparisons were conducted using the t-test. A-value of less than 0.05 was considered indicative of statistical significance.
+
+Result and discussion
+
+Chemical composition analysis offruiting body and pre-cooking liquid
+
+We conducted a comprehensive analysis of the pre-cooking liquid derived from, assessing its chemical and physical properties, pesticide residue levels, and metabolomic profile.
+
+Chemical composition analysis is essential for assessing the nutritional value and potential uses of edible fungi and their by-products. This study quantified key components (polysaccharides, proteins, free amino acids, polyphenols, minerals, nucleotides, etc.) infruiting bodies and their pre-cooking liquid, a common by-product of processing. The findings enhance the understanding ofnutritional profile and support its diverse applications in functional foods, nutraceuticals, and food additives.
+
+Polysaccharide and monosaccharide composition
+
+Soaking the fruiting body in 95 °C water for 10 min transferred 7.99% of polysaccharides, 41.04% of proteins, and 62.96% of polyphenols into the water, creating a pre-cooking solution (Fig.A). This process minimally affected polysaccharide levels (7.84 mg/g to 0.63 mg/g) and main8tained D-glucose (Glc) as the main monosaccharide (Glc > mannose, Man > galactose, Gal > glucosamine, GlcN > xylose, Xyl) (Fig.B). The polysaccharides’ immunomodulatory and anti-tumor properties suggest medicinal uses for the pre-cooking liquid. Zhang et al.suggested that this is related to the extraction method of. They obtained six polysaccharides (PNRPs) using hot water extraction (PNRP-HWE), ultrasound-assisted extraction (PNRP-UAE), acid-assisted extraction (PNRP-AE), base-assisted extraction (PNRP-BE), acid-base extraction (PNAP-ABE), and hot water-base alkaline-assisted extraction (PNRP-HAE). They found that PNRP-HAE and PNRP-UAE exhibited potent immunomodulatory effects by enhancing macrophage phagocytosis and the secretion of cytokines (NO, IL-1β, IL-6, TNF-α). This might be attributed to their lower molecular weights and higher xylose contents.
+
+Protein and amino acids
+
+The protein and free amino acid contents ofwere 205 mg/g and 12.31 mg/g, respectively. Pre-cooking transferred 41.04% of the protein (84.42 mg/g) and 84.24% of the free amino acids (10.37 mg/g) to the liquid, which became the main functional component. The fruiting body ofcontains about 76% hydrophilic amino acids, such as glutamine (Gln), Glu, alanine (Ala), hydroxyproline (Hyp), arginine (Arg), and lysine (Lys), which easily diffuse into hot water (Table). This diffusion explains the similar free amino acid content in both the pre-cooking solution and the fruiting body. Notably, Asp, Glu, tyrosine (Tyr), leucine (Leu), and phenylalanine (Phe) concentrations were higher in the pre-cooking solution, likely due to protein denaturation during heating(Fig.C). The flavor of edible fungi is mainly due to amino acids, 5’-nucleotides, carbohydrates, and other compounds. Edible fungi with a wide range of essential amino acids are beneficial for creating functional products. As shown in Table, P.’s fruiting body and pre-cooking liquid contain eight essential and seventeen non-essential amino acids, with essential amino acids making up 20.24% and 20.94%, respectively. The amino acid profile is complete and nutritious, with higher levels of serine (Ser) and Glu, which aid in metabolism and brain function. Edible fungi contain umami, sweet, bitter, and sour amino acids, with umami and sweet amino acids significantly influencing their taste. Umami amino acids like Asp, Gln, and Glu, and sweet ones like threonine (Thr), Ser, and glycine (Gly), are predominant. This study found that’s pre-cooking liquid had a higher umami amino acid content (46.72%) compared to its fruiting bodies (34.24%), and the combined umami and sweet amino acids exceeded those in the fruiting bodies. The TAV value positively correlates with the taste effect of amino acids. A TAV greater than 1 indicates a contribution to overall taste. Tableshows that the fruiting body contains three amino acids with TAV > 1, with only Thr (1.44) being sweet. In the pre-cooking liquid, six amino acids significantly contribute to taste: Phe (4.19), valine (Val, 4.01), Ser (2.46), Glu (2.26), Thr (1.66), and Asp (1.01). Except for Phe, which is bitter but has an umami effect, the others are sweet and umami, highlighting their importance to the pre-cooking liquid’s taste.
+
+Fig. 2
+
+Processing workflow (A) and contents of polysaccharides (Ba), monosaccharide composition (Bb), proteins (Ca), free amino acids (Cb), nucleotides (D) in fruiting body and pre-cooking liquid of.
+
+The pre-cooking liquid ofcontains 84.42 mg/g of protein. For an average adult weighing 70 kg, the Estimated Average Requirement (EAR) for daily protein is 46.2 g. While the protein concentration in‘s liquid is lower than some solid high-protein foods, its high water solubility may enhance bioavailability and digestibility, which is important for populations like the elderly with low protein intake or digestive issues. Additionally, the liquid has a free amino acid content of 10.37 mg/g and provides a complete profile of essential amino acids, including valine, threonine, methionine, isoleucine, tryptophan, leucine, and phenylalanine, which are vital for immune function, neurotransmitter synthesis, and tissue repair.
+
+precooked liquid, rich in proteins and amino acids, offers diverse applications. It enhances food flavor and texture while providing essential nutrition. Potential bioactive compounds within it could be developed for pharmaceuticals, healthcare, and cosmetics, offering antioxidant, anti-inflammatory, immunomodulatory, or antitumor benefits.
+
+Nucleotides
+
+Nucleotides, particularly umami ones like IMP, GMP, and AMP, can synergize with amino acids, while hypoxanthine riboside‌ (HxR) and hypoxanthine (Hx) are bitter. FigureD shows the nucleotide content in the fruiting body and pre-cooking solution, with 7 nucleotides detected. Umami nucleotides comprised 13.68% and 52.84%, respectively, indicating boiling enhances their release. The TAV values for IMP and AMP in the pre-cooking liquid were 2 and 0.8, higher than in the fruiting body, highlighting IMP as the primary umami contributor.
+
+Yamaguchi et al.studied the interaction of flavor nucleotides and free amino acids, introducing the EUC model to quantify their synergistic effects. Tableshows that the EUC values for’s fruiting bodies and pre-cooking liquid are 0.097 g MSG/100 g and 2.453 g MSG/100 g, respectively, indicating that the umami intensity corresponds to these amounts of MSG in 100 g of freeze-dried powder. The pre-cooking liquid’s EUC is 25 times higher, greatly enhancing its umami flavor. The nucleoside-rich liquid fromhas significant potential in the food industry as a natural umami enhancer for soups, seasonings, and processed foods, reducing the need for artificial additives. In healthcare, they are explored for anti-cancer treatment. Thus, with further refinement, theliquid can be developed into valuable functional food ingredients.
+
+Table 1
+
+Content of amino acids, nucleotides and TAV infruiting bodies and pre-cooking liquid.
+
+Amino acid
+
+Free amino acid content (mg/g)
+
+Threshold (mg/g)
+
+TAV value
+
+HLAA/HOAA
+
+EAA/NEAA
+
+Flavor characteristics
+
+Fruiting body
+
+Pre-cooking liquid
+
+Fruiting body
+
+Pre-cooking liquid
+
+Asp
+
+0.24 ± 0.02
+
+0.24 ± 0.01
+
+1
+
+0.24
+
+1.01
+
+HLAA
+
+NEAA
+
+Umami (+)
+
+Gln
+
+0.53 ± 0.01
+
+0.45 ± 0.03
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Umami (+)
+
+Glu
+
+0.15 ± 0.01
+
+1.17 ± 0.06
+
+0.3
+
+0.52
+
+2.26
+
+HLAA
+
+NEAA
+
+Umami (+)
+
+Hyp
+
+0.58 ± 0.03
+
+0.45 ± 0.03
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Sweetness/Bitterness (+)
+
+Cit
+
+0.48 ± 0.02
+
+0.44 ± 0.02
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Sweetness/Bitterness (+)
+
+Nva
+
+1.01 ± 0.07
+
+0.49 ± 0.02
+
+–
+
+–
+
+–
+
+HOAA
+
+NEAA
+
+Sweetness/Bitterness (+)
+
+Val
+
+0.01 ± 0.001
+
+0.12 ± 0.01
+
+0.4
+
+0.03
+
+4.01
+
+HOAA
+
+EAA
+
+Sweetness/Bitterness (+)
+
+Pro
+
+0.71 ± 0.04
+
+0.46 ± 0.02
+
+3.0
+
+0.24
+
+0.15
+
+HOAA
+
+NEAA
+
+Sweetness/Bitterness (+)
+
+Lys
+
+0.78 ± 0.03
+
+0.48 ± 0.03
+
+0.5
+
+1.55
+
+0.31
+
+HLAA
+
+EAA
+
+Sweetness/Bitterness (-)
+
+Arg
+
+0.30 ± 0.01
+
+0.08 ± 0.003
+
+0.5
+
+0.60
+
+0.13
+
+HLAA
+
+NEAA
+
+Sweetness/Bitterness (-)
+
+Asn
+
+0.17 ± 0.01
+
+0.05 ± 0.002
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Sweetness (+)
+
+Thr
+
+2.96 ± 0.12
+
+1.89 ± 0.04
+
+2.6
+
+1.14
+
+1.66
+
+HLAA
+
+EAA
+
+Sweetness (+)
+
+Ser
+
+1.09 ± 0.08
+
+1.79 ± 0.03
+
+1.5
+
+0.73
+
+2.46
+
+HLAA
+
+NEAA
+
+Sweetness (+)
+
+Sar
+
+0.01 ± 0.002
+
+0.01 ± 0.001
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Sweetness (+)
+
+Gly
+
+0.26 ± 0.02
+
+0.03 ± 0.001
+
+1.3
+
+0.20
+
+0.13
+
+HOAA
+
+NEAA
+
+Sweetness (+)
+
+Ala
+
+0.18 ± 0.03
+
+0.02 ± 0.008
+
+0.6
+
+0.31
+
+0.06
+
+HOAA
+
+NEAA
+
+Sweetness (+)
+
+Met
+
+0.38 ± 0.02
+
+0.21 ± 0.02
+
+0.3
+
+1.27
+
+0.17
+
+HOAA
+
+EAA
+
+Sourness/Sweetness/Bitterness (-)
+
+Cys
+
+0.58 ± 0.02
+
+0.38 ± 0.03
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Sourness (+)
+
+His
+
+0.01 ± 0.001
+
+0.04 ± 0.006
+
+0.2
+
+0.06
+
+0.60
+
+HLAA
+
+NEAA
+
+Bitterness (-)
+
+Tyr
+
+0.28 ± 0.02
+
+0.20 ± 0.01
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Bitterness (-)
+
+Gaba
+
+0.03 ± 0.03
+
+0.32 ± 0.01
+
+–
+
+–
+
+–
+
+HLAA
+
+NEAA
+
+Bitterness (-)
+
+Ile
+
+0.28 ± 0.01
+
+0.29 ± 0.03
+
+0.9
+
+0.31
+
+0.94
+
+HOAA
+
+EAA
+
+Bitterness (-)
+
+Trp
+
+0.14 ± 0.01
+
+0.00
+
+–
+
+–
+
+0.00
+
+HOAA
+
+EAA
+
+Bitterness (-)
+
+Leu
+
+1.06 ± 0.05
+
+0.48 ± 0.02
+
+3.8
+
+0.28
+
+0.13
+
+HOAA
+
+EAA
+
+Bitterness (-)
+
+Phe
+
+0.07 ± 0.01
+
+0.31 ± 0.02
+
+0.9
+
+0.07
+
+4.19
+
+HOAA
+
+EAA
+
+Bitterness (-)
+
+5-CMP
+
+0.26 ± 0.01
+
+0.46 ± 0.02
+
+–
+
+IMP
+
+0
+
+0.53 ± 0.03
+
+0.25
+
+0
+
+2
+
+Umami (+)
+
+ATP
+
+0.36 ± 0.01
+
+0.25 ± 0.01
+
+–
+
+ADP
+
+0.20 ± 0.02
+
+0.11 ± 0.01
+
+–
+
+AMP
+
+0.13 ± 0.01
+
+0.40 ± 0.02
+
+0.5
+
+0.26
+
+0.8
+
+Umami (+)
+
+HX
+
+0
+
+0.0062 ± 0.0002
+
+Bitterness (-)
+
+HXR
+
+0.0027 ± 0.0005
+
+0.0033 ± 0.0007
+
+Bitterness (-)
+
+TAA (mg/g)
+
+12.31
+
+10.37
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+HLAA (%)
+
+75.59
+
+78.40
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+EAA (%)
+
+20.24
+
+20.94
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+UAA (%)
+
+34.24
+
+46.72
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+SAA (%)
+
+26.19
+
+21.07
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+TN (mg/g)
+
+0.95
+
+1.76
+
+UN (%)
+
+13.68
+
+52.84
+
+HLAA, Hydrophilic amino acid; HOAA, Hydrophobic amino acid. TAA, total amino acids; EAA, essential amino acids; NEAA, non-essential amino acids. UAA, Umami amino acids; SAA, Sweetness amino acids. TN, Total Nucleotides. UN, Umami nucleotides. Free amino acid content is measured on a dry matter basis; “—” means no threshold value is reported in the literature. (+) denotes the flavor-enhancing effect of amino acids and other substances, while (-) signifies the flavor-reducing effect of amino acids and other substances. This data corresponds to Fig.Cc and D.
+
+Table 2
+
+The values of,,,and EUC offruiting bodies and pre-cooking liquid.
+
+Samples
+
+Free amino acid
+
+a(g/100 g)
+
+b
+
+ab
+
+Nucleotide
+
+a(g/100 g)
+
+b
+
+ab
+
+EUC(g MSG/100 g)
+
+Fruiting body
+
+Glu
+
+0.024
+
+1
+
+0.024
+
+IMP
+
+0
+
+1
+
+0
+
+0.097
+
+Asp
+
+0.015
+
+0.077
+
+0.0012
+
+AMP
+
+0.013
+
+0.18
+
+0.002
+
+Pre-cooking liquid
+
+Glu
+
+0.024
+
+1
+
+0.024
+
+IMP
+
+0.053
+
+1
+
+0.053
+
+2.453
+
+Asp
+
+0.117
+
+0.077
+
+0.009
+
+AMP
+
+0.04
+
+0.18
+
+0.007
+
+Polyphenol
+
+The polyphenol content in the fruiting body and pre-cooking liquid was low, measuring 0.27 ± 0.02 mg/g and 0.17 ± 0.01 mg/g, respectively (Fig.A). Although this study quantified only the total phenolic content and did not identify specific types of phenolic compounds in, existing literature has widely confirmed the antioxidant activities of various polyphenols. Phenolic compounds like hydrobenzoic acid derivatives, gallic acid, pyrogallol, flavonoids, and tocopherols inexhibit various activities, including reducing power, superoxide radical scavenging, and lipid peroxidation inhibition. Also, phenolic compounds inexhibit antioxidant properties, which help neutralize free radicals and protect cells from oxidative stress. The antioxidant activity of these phenolic substances is closely related to their chemical structure, particularly the number and position of hydroxyl groups significantly influencing their antioxidant capacity.
+
+Fig. 3
+
+Polyphenols (), ergothioneine (), fatty acids (), mineral elements (), and ash () in the fruiting bodies and pre-cooking liquid of
+
+EGT
+
+EGT, a natural thiol derivative of histidine primarily found in mushrooms, is a potent antioxidant with potential benefits for oxidative stress-related diseases, including neuroprotection, anti-aging, and fatty liver disease. This study found that while the ergothioneine content in pre-cooking liquid (0.43 ± 0.04 mg/g) was lower than in fruiting bodies (0.82 ± 0.03 mg/g) (Fig.B), it could enhance the value of discarded resources in health and pharmaceutical applications.
+
+Fig. 4
+
+Physicochemical properties of the pre-cooking liquid of. () TDS; (EC; () TG; () pH; () Viscosity; () Surface tension; () Pesticide residue analysis.
+
+Fatty acids
+
+Fatty acids in nature include saturated (SFA), monounsaturated (MUFA), and polyunsaturated fatty acids (PUFA). Although mushrooms have low lipid content, they can contain significant fatty acids, predominantly unsaturated. The proportions of linoleic, oleic, and linolenic acids in mushrooms range from 0.0 to 81.1%, 1.0-60.3%, and 0.0–28.0%, respectively. In fruiting bodies, unsaturated fatty acids make up 76.52%, significantly higher than the 23.48% of saturated fatty acids, with linoleic acid at 57.31%. In contrast, the pre-cooking liquid has 25.28% unsaturated and 74.72% saturated fatty acids. Although high saturated fatty acid levels are harmful to health, the low fatty acid content in the pre-cooking liquid allows for its potential use (Fig.C).
+
+Fig. 5
+
+Total ion chromatogram of metabolites fromfruiting bodies and pre-cooking liquid.
+
+Essential elements
+
+Mineral elements, vital for human health, must be sourced externally as they cannot be produced by the body. We classify 14 mineral elements into macroelements, microelements, and heavy metals. FigureD illustrates thatfruiting bodies are rich in minerals. They contain essential macronutrients like Ca, Mg, K, P, S, and Na (99.18%) and trace elements such as Zn, Cu, Fe, and Mn (0.8%). The freeze-dried pre-cooking liquid from these fruiting bodies holds 98.64% essential elements and 1.22% trace elements, with minimal heavy metals. The consistent mineral composition highlights the safety and potential ofpre-cooking liquid as a natural mineral supplement. The freeze-dried pre-cooking solution sample’s high ash content (Fig.E), reflecting its mineral richness, supports its use in developing functional foods and feed additives.
+
+Physicochemical properties ofpre-cooking liquid
+
+We thoroughly analyzed the physicochemical properties ofpre-cooking liquid, measuring total dissolved solids (TDS), electrical conductivity (EC), pH, viscosity, surface tension, and pesticide residues (Fig.). The pre-cooking liquid had a TDS of 9252.57 ± 336.66 ppm (4A) and EC of 4674.14 ± 218.28 µs/cm (4B), both significantly lower than tap water (< 0.01), indicating high levels of polysaccharides, proteins, amino acids, and minerals like potassium, calcium, and magnesium. (4 C). This makes it ideal as a natural nutritional enhancer for soups, health products, or electrolyte supplements. The pre-cooking liquid, with a neutral pH of 7.63 ± 0.05 (4D) and medium viscosity of 63.59 ± 0.19 mPa·s (4E), is suitable as a natural thickener for food and pharmaceuticals. Its surface tension of 48.64 ± 0.12 N/m is significantly lower than tap water (4 F), enhancing its emulsification and dispersion properties for food processing and cosmetic applications. Pesticide residue analysis showed inhibition rates below 50% for both fruiting bodies and the liquid, confirming safety and supporting its development (4G). Hui et al.demonstrated thatpolysaccharides significantly improve the pasting, rheological, textural, and thermodynamic properties of corn starch, increasing its viscosity and gelatinization temperature. This improvement is potentially related to the polysaccharide’s structure. Another study indicated that β-D-glucan, due to its unique branched structure (e.g., substituted at O-6 by β-D-glucopyranose or (1→6)-linked β-D-glucopyranose side chains), can form complex network structures, thereby significantly increasing solution viscosity. These findings suggest thatpre-cooking liquid, rich in such polysaccharides, could be utilized as a natural thickener in various food products, including sauces, soups, baked goods, and dairy products, to enhance their mouthfeel and stability.
+
+Fig. 6
+
+Untargeted metabolomics offruiting bodies and pre-cooking liquid. () The PCA plot; () Data standardization; () Cluster analysis.
+
+Untargeted metabolomics analysis
+
+Data preprocessing
+
+Accurate identification of metabolite differences in non-targeted metabolomics relies on thorough data preprocessing and quality control, crucial for distinguishing metabolic variations between edible fungi and their by-products. The untargeted metabolomics data were analyzed using MetaboAnalystR in R. After preprocessing, Fig.shows the total ion chromatograms of metabolites fromfruiting bodies and the pre-cooking liquid. To correct for signal drift and contamination, we used the QC-RFSC algorithm from the stat Target package with QC samples inserted throughout data acquisition. Principal Component 1 accounted for 65.39% and Principal Component 2 for 23.3% of the variance, together preserving 88.69% of the total variance. Post-correction, QC samples clustered in the principal component analysis (PCA) plot, indicating effective correction (Fig.A). In the plot, A and B are clearly separated, likely due to pre-cooking treatment. Samples were standardized, making metabolite content medians and quartiles nearly equal (Fig.B). Compared to PCA, cluster analysis more intuitively shows expression level clustering in’s fruiting bodies and pre-cooking liquid. FigureC illustrates that these two groups cluster differently, highlighting significant differences in the composition and structure of 30 metabolites, warranting further metabolic analysis.
+
+Statistics of metabolite content
+
+Analyze the metabolite content offruiting bodies and pre-cooking liquid (= 3) to compare structural differences. FigureAa shows that the main metabolites in the fruiting bodies are 2-Methylbutyroylcarnitine, L-Malate, D-α-Hydroxyglutaric acid, and 2-Amino-1-phenylethanol, while in the pre-cooking liquid, they are Picolinic acid, L-Malate, D-α-Hydroxyglutaric acid, and 5-oxoproline. The differential metabolites are 2-Methylbutyroylcarnitine (2.81-fold), Maleic acid (2.39-fold), 1,3-Dimethyluracil (2.43-fold) and Nicotinic acid riboside (2.05-fold) (A > B) and Ethyl isopropyl sulfide (7.96-fold), Vidarabine (7.41-fold), 5-oxoproline (3.92-fold) and Picolinic acid (2.48-fold) in the liquid (B > A) (Table). Pre-cooking reduces 2-Methylbutyroylcarnitine in fruiting bodies but increases Ethyl isopropyl sulfide, Vidarabine in the liquid. All metabolites were annotated using the KEGG database br08001 to identify their biological roles (Fig.Ab). Research has demonstrated that the composition of the fruiting bodies ofand the pre-cooking liquid is analogous, with both predominantly comprising peptides, organic acids, and carbohydrates. An analysis of differential metabolite components indicates that pre-cooking treatment decreases the levels of vitamins and cofactors (A > B) while increasing the levels of peptides and nucleic acids (B > A), aligning with prior experimental findings (Fig.D and Cb). The boiling process not only promotes the transfer of original components but may also induce enzymatic or thermochemical reactions, producing new metabolic products or altering the content of existing metabolic products. This observation provides further insight into the underlying mechanism responsible for the enhanced umami substances in the pre-cooking liquid.
+
+The pre-cooking liquid in this study is a factory waste product, limiting extraction methods. Modern techniques like ultrasound-assisted extraction would yield different chemical compositions and metabolic profiles. Pre-cooking uses high-temperature water baths to soften cell walls and release intracellular contents. In contrast, ultrasound-assisted extraction employs cavitation from ultrasonic waves to create microbubbles that disrupt cell walls and release metabolites at lower temperatures, preserving heat-sensitive active ingredients. As a result, the content, structure, and function of chemical components like polysaccharides, proteins, and polyphenols vary, affecting metabolite content and composition. The pre-cooking liquid fromprocessing is shaped by the processing needs of the mushrooms, not by refining methods. Although ultrasound improves extraction efficiency, its high cost limits factory use.
+
+Fig. 7
+
+Untargeted metabolomics offruiting bodies and pre-cooking liquid. () Metabolite content (Table); () PCA analysis; () Volcano plot analysis.
+
+Table 3
+
+Untargeted metabolomics offruiting bodies and pre-cooking liquid.
+
+Metabolites
+
+Fruiting bodies (A)
+
+Pre-cooking liquid (B)
+
+Fold (B > A)
+
+Fold (A > B)
+
+Primitive metabolites (Top 20)
+
+L-Malate
+
+0.0657 ± 0.0007
+
+0.0658 ± 0.0014
+
+1
+
+1
+
+2-Methylbutyroylcarnitine
+
+0.0970 ± 0.0019
+
+0.0344 ± 0.0006
+
+–
+
+2.82
+
+Picolinic acid
+
+0.0299 ± 0.0006
+
+0.0742 ± 0.0159
+
+2.48
+
+–
+
+D-alpha-Hydroxyglutaric acid
+
+0.0498 ± 0.0009
+
+0.0446 ± 0.0025
+
+–
+
+1.12
+
+2-Amino-1-phenylethanol
+
+0.0481 ± 0.0011
+
+0.0413 ± 0.0009
+
+–
+
+1.17
+
+L-Phenylalanine
+
+0.0377 ± 0.0012
+
+0.0306 ± 0.0004
+
+–
+
+1.23
+
+5-oxoproline
+
+0.0106 ± 0.0001
+
+0.0414 ± 0.0004
+
+3.92
+
+–
+
+Citric Acid
+
+0.0223 ± 0.0003
+
+0.0272 ± 0.0004
+
+1.22
+
+–
+
+L-Carnitine
+
+0.0282 ± 0.0010
+
+0.0197 ± 0.0013
+
+–
+
+1.43
+
+Vidarabine
+
+0.0044 ± 0.0001
+
+0.0324 ± 0.0020
+
+7.41
+
+L-Leucine
+
+0.0208 ± 0.0009
+
+0.0173 ± 0.0049
+
+–
+
+1.20
+
+Ethyl isopropyl sulfide
+
+0.0038 ± 0.0001
+
+0.0300 ± 0.0008
+
+7.96
+
+–
+
+Acetylcarnitine
+
+0.0162 ± 0.0003
+
+0.0196 ± 0.0005
+
+1.21
+
+–
+
+L-Tyrosine
+
+0.0130 ± 0.0001
+
+0.0204 ± 0.0005
+
+1.56
+
+–
+
+isobutyrylcarnitine (C4)
+
+0.0194 ± 0.0009
+
+0.0115 ± 0.0004
+
+–
+
+1.69
+
+Maleic acid
+
+0.0197 ± 0.0003
+
+0.0083 ± 0.0002
+
+–
+
+2.39
+
+1,3-Dimethyluracil
+
+0.0194 ± 0.0003
+
+0.0080 ± 0.0002
+
+–
+
+2.43
+
+Nicotinic acid riboside
+
+0.0176 ± 0.0004
+
+0.0086 ± 0.0002
+
+–
+
+2.05
+
+Trehalose
+
+0.0140 ± 0.0004
+
+0.0082 ± 0.0005
+
+–
+
+1.69
+
+Tryptophol
+
+0.0063 ± 0.0002
+
+0.0123 ± 0.0003
+
+1.94
+
+–
+
+Other
+
+0.4561 ± 0.0059
+
+0.4441 ± 0.0090
+
+–
+
+1.03
+
+Metabolites (Classification)
+
+Vitamins and Cofactors
+
+0.0500 ± 0.0011
+
+0.0139 ± 0.0002
+
+–
+
+3.61
+
+Organic acids
+
+0.3699 ± 0.0039
+
+0.3382 ± 0.0047
+
+–
+
+1.09
+
+Carbohydrates
+
+0.1159 ± 0.0020
+
+0.0884 ± 0.0006
+
+–
+
+1.31
+
+Lipids
+
+0.0090 ± 0.0009
+
+0.0046 ± 0.0002
+
+–
+
+1.96
+
+Steroids
+
+0.0004 ± 0.0002
+
+0.0002 ± 0.0001
+
+—
+
+1.61
+
+Antibiotics
+
+0.0003 ± 0.0001
+
+0.0002 ± 0.0001
+
+–
+
+1.34
+
+Hormones and transmitters
+
+0.0002 ± 0.0001
+
+0.0002 ± 0.0005
+
+–
+
+1.05
+
+Nucleic acids
+
+0.0129 ± 0.0013
+
+0.0591 ± 0.0037
+
+4.56
+
+–
+
+Peptides
+
+0.4414 ± 0.0085
+
+0.4952 ± 0.0086
+
+1.12
+
+–
+
+Different lowercase letters indicate significant differences:< 0.05 (a);< 0.01 (b);< 0.001 (c).
+
+PCA and volcano plot analysis
+
+Unsupervised PCA analysis was used to assess differences in metabolite structures among samples. FigureB shows distinct separation between the two groups, highlighting significant differences in metabolite composition between’s fruiting bodies and pre-cooking liquid. A volcano plot analysis with criteria of FC > 1.511 or FC < 0.67 and< 0.05 (Fig.C) identified 940 upregulated and 895 downregulated metabolites, indicating notable differences in both quantity and types of metabolites.
+
+This study found that pre-cooking significantly altered the metabolite composition ofmushrooms. The level of 2-Methylbutyroylcarnitine decreased in the mushrooms, while Picolinic acid and 5-oxoproline increased in the cooking liquid, enhancing its umami taste. KEGG analysis showed that pre-cooking affected metabolic pathways related to vitamins, peptides, and nucleic acids, possibly due to high-temperature stress or physicochemical disruptions. These findings provide insights into optimizing processing techniques and developing value-added products. Further research can investigate enzymes and genes linked to different metabolites, alongside sensory and nutritional assessments, to inform industrial production.
+
+The pre-cooking liquid of, a by-product of its processing, is safe and rich in nutrients like polysaccharides, proteins, amino acids, polyphenols, nucleotides, and ergothioneine, making it valuable for development. In the food industry, its proteins, amino acids, and minerals meet energy needs, ideal for energy-boosting products like tablets, drinks, and powders. Its amino acids and nucleotides provide an umami taste, useful for seasonings and additives. In cosmetics, its polysaccharides, polyphenols, and ergothioneine offer antioxidant and moisturizing benefits, suitable for products like masks, creams, and lotions. In pharmaceuticals and health supplements,polysaccharides boost immunity, reduce inflammation, have anti-tumor effects, and regulate gut flora, supporting their development. In agriculture, the pre-cooking liquid of, rich in essential nutrients, can be used as a fertilizer. In short,’s pre-cooking liquid holds valuable potential in food, cosmetics, health products, and fertilizers. Yet, future production must address the cost of extracting active components like polysaccharides, proteins, and ergothioneine for profitability.
+
+Conclusion
+
+The pre-cooking liquid of, a processing by-product, poses environmental risks if mismanaged. This study analyzed its chemical composition and compared it with fruiting bodies using untargeted metabolomics. Soaking fruiting bodies in 95 °C water for 10 min transferred 7.99% polysaccharides, 41.04% proteins, 84.24% free amino acids, and 62.96% polyphenols to the liquid. Proteins and free amino acids dominated, enhancing umami. Polyphenol and fatty acid contents were low (0.77 ± 0.09 mg/g), with minimal impact on minerals. Physicochemical analysis showed the pre-cooking liquid had lower TDS (9252.57 ± 336.66 ppm) and conductivity (4674.14 ± 218.28 µs/cm) than tap water. With neutral pH (7.63 ± 0.05), it can serve as a natural nutritional fortifier, thickener (viscosity 63.59 ± 0.19 mPa・s), and emulsifier (surface tension 48.64 ± 0.12 N/m). Pesticide residue inhibition < 50% ensured safety. Metabolomics found decreased 2-Methylbutyroylcarnitine (2.82-fold) in fruiting bodies and increased Ethyl isopropyl sulfide (7.96-fold), Vidarabine (7.41-fold), 5-oxoproline (3.92-fold), and Picolinic acid (2.48-fold) in the liquid. KEGG annotation showed pre-cooking affected vitamin, peptide, and nucleic acid pathways, supporting high-value product development and sustainable resource use.

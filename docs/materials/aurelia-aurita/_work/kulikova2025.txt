@@ -1,0 +1,361 @@
+1. Introduction
+
+Burns and wounds are becoming more common due to changing lifestyles and the faster pace of life.Burns are serious injuries that often require intensive care, prolonged hospitalization, and rehabilitation. According to the World Health Organization, burns cause about 180,000 deaths each year.Extensive tissue damage from burns can lead to severe scarring, pain, weakened immunity, infections, hyperglycemia, muscle atrophy, and severe physical and mental impairments.Given the physiological, psychological, and social consequences of burn injuries, it is important to accelerate recovery and wound healing. Present treatments include dressings, systemic and topical medications, wound excision and skin grafting, biological and synthetic skin substitutes, dermal tissue engineering, and surgical techniques.Although recent advances have significantly improved burn care outcomes, challenges remain regarding effectiveness, and many treatment strategies are relatively expensive and inaccessible in some countries.
+
+Collagen is considered a promising biomaterial in bioengineering and tissue engineering due to its chemical composition and structure.It is a major component of specialized and non-specialized connective tissues in the human body, comprising about one-fourth of total body protein, three-fourths of the dry weight of skin, over 90% of tendons and corneal tissue, and nearly 80% of the organic content of bones.As a biomaterial, collagen offers key advantages by directly stimulating cell adhesion and growth through multiple attachment sites.Furthermore, it can self-organize into collagen fibrils, supporting cell survival and preserving the tissue’s mechanical flexibility.Collagen is widely used in pharmaceutical delivery systems, skin substitutes, and substrates for tissue engineering applications.At present, to address the challenges faced in the field of biomedicine, collagen and its derivatives are predominantly sourced from the processing waste of animal and avian carcasses. However, such sources frequently carry a high allergenic potential. In addition, bovine and porcine-derived collagens pose a risk of disease transmission to humans.and may face religious and dietary restrictions.Furthermore, studies suggest that collagen from traditional sources exhibits lower water solubility compared to marine-derived collagen.In light of these facts, processes for obtaining collagen from marine organisms such as fish and scallop waste, whole jellyfish carcasses, and sponges are becoming increasingly popular.Collagen scaffolds derived from marine animal biomass have high resorptive properties and low allergenic potential.
+
+Given that the collagen content of jellyfish exceeds 60% of their dry weight,they represent an attractive source of collagen for biomedical applications.In addition to their low immunogenicity and resorptive properties, collagens from marine animal biomass significantly promote the proliferation of human keratinocytes, suggesting their potential utility in addressing challenges in regenerative medicine.Marine organism-derived collagen has also been successfully used to produce dental composites and scaffolds for cardiovascular surgery, orthopedics, urology, neurology, and ophthalmology.
+
+Despite these advantages, several limitations have prevented the widespread use of marine organism-derived collagen as the main raw material for the production of medical devices in regenerative medicine and tissue engineering. In particular, Abedi.highlighted that the thermal stability and mechanical properties of terrestrial animal collagens are generally superior to those of fish-derived collagens. As the biological function of collagen is primarily determined by its mechanical properties,which are influenced by various factors, including habitat conditions, body temperature, and molecular composition,it is essential to thoroughly study its physicochemical and mechanical characteristics.
+
+In this study, we performed a comparative analysis of the properties of collagen extracted from the jellyfishand, which inhabit different temperature conditions. Our findings suggest that jellyfish collagen is a promising candidate for the development of wound and burn treatment products. In addition, the present study compared the physical, mechanical, and biological properties of jellyfish, animal, and avian collagens. These findings are important, as a thorough understanding of the basic physicochemical, mechanical, and biological properties of jellyfish collagens could support the development and standardization of collagen-based formulations for use in bioinks and products intended for tissue engineering and regenerative medicine.
+
+2. Methods
+
+2.1. Research specimen
+
+Adult specimens ofcaught in the Baltic Sea, Russia, in August 2024, and adult specimens ofcaught in the Black Sea in August – September 2024, were used as the samples in this study. Species identification was confirmed by a staff at the Immanuel Kant Baltic Federal University (protocol No. 16/24).
+
+2.2. Collagen extraction from A. aurita and R. hispidum
+
+Collagen was extracted following a previously described method.Briefly, jellyfish biomass was chopped and placed in a flask. Extraction was performed by adding 0.5 M acetic acid at a ratio of 1:10 (wt/volume) to the jellyfish and incubating for 3 days at 4°C. The mixture was then filtered, and the insoluble residue was subjected to a second extraction. The filtrates from both extractions were combined, and 52.6 g/L of sodium chloride (NaCl) was added to precipitate the collagen. The resulting precipitate was separated from the liquid phase by centrifugation at 3,600 g for 10 – 20 min. After draining the supernatant, the precipitate was dissolved in two volumes of 0.5 M acetic acid. The solution underwent dialysis at +40°C in two stages: initially, for 72 h against 0.1 M acetic acid solution, followed by 72 h against distilled water. The collagen clot obtained was then frozen and freeze-dried.
+
+2.3. Molecular weight analysis of collagen
+
+Sodium dodecyl sulfate (SDS) polyacrylamide gel electrophoresis was performed according to the Laemmli method.One milliliter of dialyzed collagen was dissolved in a 0.5 M Tris-hydrochloride buffer (pH 6.8) containing 1% SDS, 10% glycerol, and 0.01% bromphenol blue, and denatured at 70 – 80°C for 5 min. Then, 15 μL of the denatured sample and 7 μL of molecular weight marker (10 – 250 kDa, Protein Dual Color Standards, BioRad, USA) were loaded into the wells at the top of a polyacrylamide gel composed of a 4% concentrating gel and a 12.5% separating gel, with a thickness of 1 mm. A voltage of 15 mA was applied for 30 min; once the proteins entered the separating layer, the voltage was increased to 30 mA for one hour to allow protein separation based on size. After electrophoresis, the gels were stained overnight in a dye solution containing 0.25% Coomassie Brilliant Blue G-250 (JT Baker, USA), 10% acetic acid, 40% ethanol, and 50% deionized water. The gels were then washed in a solution with the same composition (without Coomassie Brilliant Blue) and incubated for at least 1 h.
+
+2.4. Isoelectric point of collagen
+
+The isoelectric point of collagen was determined by preparing acidic and alkaline solutions of varying pH, to which different amounts of protein were added. Two milliliters of ethyl alcohol were then added to each tube. The samples were then mixed and incubated at room temperature for 40 min.
+
+The zeta potential of collagen solutions was measured using a Photocor Compact-Z zeta potential analyzer (Photocor LLC, Russia). Aliquots of 2 mL were transferred into cuvettes with universal electrodes. The pH of the solutions was adjusted using 0.1 mol/L hydrochloric acid or 0.1 mol/L sodium hydroxide. Zeta potential measurements were performed in quintuplicate for each solution.
+
+2.5. Thermogravimetric analysis of collagen using differential scanning calorimetry (DSC)
+
+A Netzsch DSC 214 Polyma instrument (Netzsch GmbH, Germany) was used to study the denaturation and degradation temperatures of collagen. The measurements were performed at a very low heating rate of 10°C/min in a nitrogen atmosphere. Aluminum crucibles were used for the heating process.
+
+2.6. Solubility of collagen
+
+The solubility of collagen was evaluated using the method described by Montero.Solubility was tested in a range of commonly used solvents, including alcohols (ethanol, methanol), hexane, ethyl acetate, methylene chloride, distilled water, and an alkaline solution (pH = 12), and acidic solutions (hydrochloric acid and acetic acid). All solutions were subsequently subjected to ultrasound using an ultrasonic unit (Elamed, Russia).
+
+2.7. Water absorption capacity of collagen
+
+The water absorption capacity of collagen was studied using a gravimetric method.A 0.025 g sample was placed in a 15 mL centrifuge tube, followed by the addition of 10 mL of distilled water. The sample was suspended by shaking at 150 rpm for 40 min at room temperature (21°C). It was then centrifuged for 5 min. The supernatant was carefully removed from the tube using a pipette, and the sample tube was weighed. The experiment was performed in triplicate. Water absorption capacity was calculated using the formula in Equation I,
+
+Where, mis the weight of wet collagen, and mis the weight of dry collagen.
+
+2.8. Degradation of collagen
+
+Collagen degradation by collagenase was assessed using the colorimetric ninhydrin method.Four tubes were each filled with 25 mg of collagen and 5 mL each of N-[tris(hydroxymethyl)methyl]-2-aminoethanesulphonic acid (TES buffer) solution (CAS 70331-82-7, Sigma Aldrich, USA), and incubated at 37°C for 15 min. The incubation process was performed without stirring. Following incubation, 0.1 mL of collagenase solution (with an activity of 12 E/mg collagen) was added to two of the four tubes, and 0.1 mL of TES buffer solution was added to the remaining two control tubes. All tubes were incubated at 37°C for 30 min. To stop the enzyme reaction, the solutions were heated to 90°C and maintained at this temperature for 20 min. The samples were then cooled to 21 – 25°C, after which 5 mL of 50% n-propanol was added to each tube. Absorbance was measured at 600 nm using a spectrophotometer. A calibration curve was generated using L-glycine solutions of varying concentrations (0.2, 0.5, 1.0, 1.5, 2.0, and 4.0 mg/mL) prepared in TES buffer.
+
+2.9. Drying of collagen
+
+To study the hydration degree (hydrophilicity), oxygen permeability, microstructure, and mechanical properties of collagen, the samples were air-dried in a laminar flow cabinet (BAVnp-01-”Laminar-S”-1.5 LORICA, Laminarnye Sistemy, Russia) at 25°C. The thickness of the dried collagen was 0.4 – 0.5 mm, measured using an Inforce caliper (VseInstrumenty, Russia) with a measurement error of ±20 μm.
+
+2.10. Degree of hydration (hydrophilicity) of collagen
+
+The degree of collagen hydration was assessed by measuring the marginal wetting angles. Measurements were performed at room temperature using a Biuged BGD 190 optical device (Biuged, Germany). Each sample was tested in five replicates.
+
+2.11. Study of collagen microstructure
+
+The microstructure of the collagen was examined using scanning electron microscopy (SEM) after vacuum gilding. SEM was conducted at an accelerating voltage of 5 kV, with magnifications of ×100 and ×500.
+
+2.12. Study of oxygen permeability
+
+Oxygen permeability was measured using a coulometric detector (also known as the equal pressure method) in accordance with the ASTM D3985 and ISO 15105-2 standards. A Labthink C201B device (China) was used for this purpose. Films with a thickness of 0.4 – 0.5 mm were prepared, fixed, and tested in a dry state. Two samples of different thicknesses were examined to evaluate the effect of sample thickness on oxygen permeability.
+
+2.13. Assessment of mechanical properties
+
+For mechanical testing, collagen products were prepared in two types of membranes and tested under both dry and wet conditions (after soaking in a 0.9% sodium chloride solution). The tensile strength, elongation, and Young’s modulus of the collagen membranes were evaluated using a universal testing device (Instron 68SC-5) equipped with an AVE2 video extensometer and a 500 N force transducer. A tensile force was applied at a rate of 1 mm/min until sample failure. All tests were performed at room temperature. Young’s modulus was calculated as the slope of the linear elastic portion of the tensile curve. Ultimate tensile strength and elongation at break were calculated using the following equations in Equations II and III:
+
+Tensile strength (MPa) = Maximum breaking load (N)/Cross-sectional area (m) (II)
+
+Elongation (%) = (Breaking length - Initial length)/Initial length × 100 (III)
+
+2.14. Evaluation of human umbilical vein endothelial cell (HUVEC) proliferation and viability
+
+HUVECs were seeded at 20,000 cells per well in a 24-well plate. Cells were cultured for 24 and 72 h in the presence of collagen samples to assess the cytotoxic properties of collagen. After incubation, cells were detached from the surface using a trypsin solution, which was subsequently neutralized with serum. The cell suspension was carefully pipetted and mixed with a 4% trypan blue (BD) solution in a 1:1 ratio, incubated with the dye for 1 – 3 min; during this time, the dye stains non-viable cells with damaged membranes. The total number of cells, as well as the number of live and dead cells, was counted using a Luna-II counter (Logos Biosystems, South Korea).
+
+2.15. Evaluation of cytotoxicity using the resazurin test
+
+The HUVEC cells were seeded at a density of 3,000 cells per well in a 96-well plate. The medium was replaced with a medium containing collagen on the next day. The cells were cultured for 24 and 72 h in the presence of collagen samples. After incubation, the collagen and nutrient media were removed, and 100 μL of a 1× resazurin solution (Abisens LLC, Russia), diluted in phosphate-buffered saline, was added to each well. The cells were incubated at 37°C for 2 h. For colorimetric analysis, optical density was measured at 570 nm and 600 nm using a microplate reader (BioTek, USA). The results are presented as fluorescence intensity/absorption dependence graphs.
+
+2.16. Evaluation of collagen regenerative properties (scratch test)
+
+The HUVEC cells were cultured in a culture medium composed of M199 (PanEco, Russia) supplemented with 10% fetal bovine serum (Hyclon, USA), 1% Glutamax (Gibco, USA), 1% insulin-transferrin-selenium (ITS) (Gibco), 1% penicillin-streptomycin (Gibco), 0.25 ng/mL of isoproterenol, 0.5 μg/mL of hydrocortisone, 10 ng/mL of epidermal growth factor (EGF), 2.5 ng/mL of basic fibroblast growth factor (FGF), 15 units/mL of heparin, and 1% sodium pyruvate in a Galaxy CO170R COdry-air incubator (New Brunswick, Canada) at 37°C. The medium was changed every 2 – 3 days, and cultures were passaged by detaching cells from the surface of culture vials with a mixture of trypsin solution and Versen solution (1:2) (PanEko, Russia) when confluency was reached, usually every 2 – 3 days. Cells were seeded at a ratio of 1:3. Cultures of primary HUVECs at early passages (up to passage 5) were used in the experiments.
+
+The HUVEC cell line was seeded at 20,000 cells per well in a 24-well plate, with three replicates. After the cell culture reached 100% confluency (Day 3), vertical lines resembling dashes were drawn in the center of each well using a Pasteur pipette, disrupting the integrity of the endothelial layer to simulate a wound in this assay. The medium was then replaced with a medium containing a collagen suspension diluted at a ratio of 1:5. Medium without collagen was used as a control. The results are presented as the percentage of wound healing.
+
+2.17.experiments
+
+A total of 35 male Balb/C laboratory mice weighing 18 – 20 g were used as the animal model. All animals were divided into groups “1” and “2” (each 12 mice), a “control” group with surgery (eight mice), and a group of three healthy animals for control without surgery.
+
+All manipulations with animals were performed under gas and local anesthesia, in accordance with the International Guidelines for Biomedical Research Involving Animals. The ethical principles of the European Convention for the Protection of Vertebrates used for Experimental and Other Specific Purposes were strictly observed. Animals were housed with free access to food and water. The research was reviewed and approved by the Bioethics Commission at the I. Koltsov Institute of Biomedical Problems of the Russian Academy of Sciences (protocol no. 82, dated April 25, 2024).
+
+For subcutaneous administration, round fragments of 6 mm in diameter were cut from collagen sponge samples using a punch, corresponding to approximately 1 – 1.5% of the animal’s body area. Fur was removed from the back in the shoulder blade area, followed by an incision using surgical scissors, and the skin was lifted to create a pocket in the subcutaneous space corresponding to the size of the prepared fragments. The sample was then placed in the pocket, and the wound was sutured using Vicryl surgical thread. Necropsy material for analysis was removed on Days 3, 7, 14, and 21 in three biological replicates. Animals were euthanized with chloroform.
+
+Mouse skin fragments with subcutaneous connective tissue obtained from the area of sample implantation were fixed in 4% formalin for 24 h at room temperature, then washed in running water and dehydrated by successive immersion in 30%, 50%, 70%, and 100% alcohol for 30 min each. After dehydration, the tissue was cleared by successive immersion in xylene solutions mixed with alcohol in reverse order of alcohol concentration: 70%, 50%, and 30%, followed by 100% xylene. The tissue was then impregnated with paraffin, and histological blocks were prepared. Sections with a thickness of 20 microns were cut using a microtome and stained with hematoxylin and eosin. After staining, the samples were mounted using a Vitrogel embedding medium (Biovitrum, Sweden).
+
+2.18. Statistical analysis
+
+The data were subjected to analysis of variance using Statistica 10.0 (StatSoft Inc., 2007, USA).analysis (Duncan’s test) was performed to identify samples that differed significantly from each other.
+
+3. Results
+
+The molecular weight of collagen isolated from the jellyfishand, presented in, indicates that collagen isolated from jellyfish is a high molecular weight compound, about 240 kDa.
+
+It was also determined that collagen isolated fromconsists of α-chains and β-chains (with molecular masses of ~135 and ~240 kDa, respectively). In contrast, collagen fromhas only α-chains.
+
+The pH value at which the positive and negative charges on a protein molecule in an aqueous system are equal, resulting in a total charge of zero, is called the isoelectric point.The magnitude of the isoelectric point depends on the amino acid composition of the protein. Amino acids with different charged side chains contribute to different surface charges in proteins.According to the titration curve (), the surface charge of collagen isolated fromwas zero at pH 4.90, while the isoelectric point of collagen isolated from the Baltic Sea jellyfish was 5.19.
+
+The denaturation temperature of collagen is species-specific and is related to the content of amino acids (proline and hydroxyproline) in the molecule;therefore, this index was studied here. The results presented inindicate that the denaturation temperature of collagen isolated fromis 32.23°C, while that of collagen isolated fromis 33.15°C. It was also demonstrated that the studied collagen samples underwent degradation in the temperature range of 40.00 – 150.00°C.
+
+Given that solubility, water absorption capacity, degradation, oxygen permeability indices,and degree of hydration are important for collagen fibers (as medical agents for regenerative medicine), further studies were aimed at evaluating these indices. The solubility study revealed that the collagen samples did not completely dissolve in any of the solvents. Moreover, collagen solubility did not increase when exposed to ultrasound (duration 20 s, power 130 W, frequency 20 kHz). The results of the analysis of water absorption capacity, degradation indices, oxygen permeability, and degree of hydration of collagen isolated fromandare presented in.
+
+Based on the table data, the mean value of the water absorption capacity of collagen from jellyfishwas 7.03 ± 0.57 mmol/mL, while that of collagen fromwas 13.25 ± 1.1 mmol/mL. The surface of dried jellyfish collagen was found to be non-hydrophilic (). The degree of degradation of collagen isolated fromwas 0.057 mmol/mL, whereas, for, it was 0.015 mmol/mL.
+
+Jellyfish collagen films did not have significant gas barrier functions. As shown in, oxygen permeability ranges from 26 to 42 × 10cm/(m·s·Pa), compared to polyvinylidene chloride film, which has a permeability of 0.4 – 5.8 × 10cm/(m·s·Pa), and chitosan film, with a permeability of 4.9 × 10cm/(m·s·Pa).
+
+An ideal three-dimensional scaffold for tissue regeneration should closely resemble native tissue in both chemical composition and physical nanostructure.Therefore, it is essential that the material used to produce the fibers, as a medical device for regenerative medicine, possesses a well-defined structure. The results of the microstructure evaluation of collagen isolated from jellyfishandare presented inand.
+
+andpresent the results for tensile strength, Young’s modulus, and elongation at failure for all test types. As shown, the collagen membrane sample exhibited relatively weak mechanical properties, with a tensile strength of 0.54 ± 0.09 MPa. However, it was notably highly elastic. Soaking the membrane in a physiological solution led to a decrease in tensile strength, with a particularly significant reduction in Young’s modulus (). A similar trend was observed when membranes made fromcollagen were soaked in solution.
+
+Moreover, when comparing membranes derived from the two types of collagens, it is evident that collagen from the jellyfishexhibits better mechanical properties, which are significantly reduced in a wet state. For instance, the tensile strength of thecollagen membrane in the dry state was 1.17 MPa, which is 2.2 times higher than the breaking point of the membrane made from thecollagen. This difference may be associated with a higher degree of collagen cross-linking, as indicated by its lower solubility and higher molecular weight.
+
+The Young’s modulus of thecollagen membrane in the dry state was 3.92 MPa, while that of thecollagen membrane was 10.03 MPa. The elongation for these samples was 33.48 ± 1.23 and 30.76 ± 1.80%, respectively. For comparison, the tensile strength, elongation, and Young’s modulus of collagens isolated from bovine Achilles tendon were 59 ± 4 MPa, 48 ± 3%, and 87 ± 8 MPa, respectively, which are considerably higher than those of the jellyfish-derived collagen.Thus, for potential applications of jellyfish-derived collagen in regenerative medicine, additional research is needed to improve its mechanical properties.
+
+As biomaterials are used in wound dressing and artificial skin, they must meet certain requirements for biocompatibility and bioactivity,which were also investigated in this study. To assess cytotoxicity, collagen samples were ground and added to the culture medium in the wells of a 24-well plate containing HUVEC cells. Cytotoxicity was evaluated by detaching the cells from the surface using trypsin and Versen solutions, staining the resulting suspension with trypan blue, and counting the number of living cells. The results of this viability assessment using an automatic cell counter and the trypan blue exclusion method are presented in.
+
+It was shown that vascular endothelial cells proliferated similarly in the presence of collagen from both jellyfish during the first 24 h. Cell viability analysis after trypan blue staining revealed that in all conditions, more than 70% of the cells were viable. After three days, a decrease in cell viability was observed in the presence ofcollagen samples. This decline may be attributed to the lower solubility of jellyfish collagen, resulting in reduced availability to the cells during cultivation.
+
+In addition, to assess changes in the number of active living cells growing in the culture wells in the presence of collagen samples, a test was performed using resorufin, a water-soluble dye that easily penetrates cell membranes without damaging them. The test results showed that after 24 h of cell cultivation with collagen samples, the optical density of resorufin was significantly higher in both variants compared to the control, while no significant differences were observed after 72 h ().
+
+The results of evaluating the regenerative activity of collagen using the scratch test indicated that during the first 2 days, cell migration into the wound occurred in all collagen variants (and). After 5 days of the experiment, the cells formed a dense monolayer. Throughout the experiment, no cell death was observed, indirectly indicating the absence of toxic effects from collagen isolated fromandjellyfish.
+
+The mechanism by which collagen influences cell migration is not fully understood. According to several studies,the topological properties of collagen, such as fiber thickness and arrangement, provide directional signals for cell migration. Fu.demonstrated that cell pseudopodia plays a key role in this process, the formation of which is activated by actin polymerization.Cell migration is a multifactorial process that depends on the coordinated function of adhesion molecules and signaling pathways,and thus requires further detailed studies.
+
+The initialstudy of biocompatibility was conducted by introducing collagen sponge samples under the skin of laboratory animals. After the procedure, the animals were examined at least 3 times a week, with observations made on their behavior and the condition of the wounds, in comparison with the control groups. On Day 1 after the operation, mice from all groups behaved normally and did not refuse food or water. The wounds on their backs were dry and showed no signs of suppuration. Seven days after the operation, the wounds were completely closed in all groups, and no signs of swelling or suppuration were detected ().
+
+Morphological studies of tissues after implantation of the collagen sponge were performed on histological samples. A description of the biological responses is provided below, corresponding to the images presented.
+
+As shown in, after 3 days, tissue in the control experiment (without collagen sponge) displayed a defect area filled with fibrin (homogeneously pink) masses and moderate lymphohistiocytic infiltration, and dermal edema was observed in the intact area of skin. After 7 days, the proliferation of granulation tissue was observed, with newly formed, dilated, blood-filled vessels (, item #3) and moderate lymphohistiocytic infiltration. After 14 days, the proliferation of loose connective tissue was noted (), with no lymphohistiocytic infiltration. By Day 21 (), continued proliferation of loose connective tissue was observed in the control wounds, and lymphohistiocytic infiltration remained absent.
+
+On the 3day, when applying a collagen sponge from, cavities partially filled with collagen (yellow in color,) were identified. Around the areas of tissue defects, fibrinous (homogeneously pink) masses with moderate lymphohistiocytic infiltration were observed. By Day 7, wounds treated with this sponge showed signs of regenerative granulation. The collagen sponge samples appeared defragmented and located within clearly defined cavities, which were surrounded by newly formed fibers of loose connective tissue. On Day 14, cavities filled with mesh-like connective tissue structures were identified, along with surrounding loose fibrous connective tissue growth. The boundaries between the wound healing zones and the preserved tissue were clearly defined. On Day 21, a cavity containing individual fragments of connective tissue structures was observed, surrounded by loose fibrous connective tissue.
+
+On Day 3, tissue samples from wounds treated with collagen sponges from.also showed cavities partially filled with collagen (yellow). Fibrinous (homogeneously pink) masses with moderate lymphohistiocytic infiltration were noted around the tissue defect zones. By Day 7, cavities filled with reticular connective tissue structures, loosely arranged with individual cell clusters, were observed. The proliferation of loose fibrous connective tissue surrounded the cavities, although the boundaries between the wound healing zones and the preserved tissue were not clearly defined. On Day 14, the growth of loose fibrous connective tissue was seen at the edge of the transplant area, without clear boundaries from the preserved skin. By Day 21, giant multinucleated foreign body cells were detected in the experimental wounds, indicating a mild inflammatory response.
+
+Thus, by Day 21, the control wounds and those treated with collagen showed a proliferation of loose connective tissue. In the experimental wounds, signs of ongoing assimilation of the remaining collagen were evident. More complete assimilation was observed with collagen derived from the jellyfish. However, slight inflammation was noted when using this type of collagen.
+
+Figure 1
+
+Electrophoregram of the collagen extracts. Notes: 1 and 2:, 4 and 5:, ispidum: d 2: extracts.llagen extracts.em.2017.12.083.
+
+Figure 2
+
+Zeta potential of collagen isolated from (A)and (B)
+
+Figure 3
+
+Differential scanning calorimetry plot for collagen isolated from (A)and (B)
+
+Figure 4
+
+Scanning electron microscopy images of collagen fromat (A) ×100 magnification (scale bar = 500 μm) and (B) ×500 magnification (scale bar = 100 μm).
+
+Figure 5
+
+Scanning electron microscopy images of collagen fromat (A) ×100 magnification (scale bar = 500 μm) and (B) ×500 magnification (scale bar = 100 μm).
+
+Figure 6
+
+Stress–strain curves for collagen membranes. (A) Drycollagen, (B)collagen in sodium chloride solution, (C) drycollagen, and (D)collagen in sodium chloride solution.
+
+Figure 7
+
+Evaluation of cell activity after 24 and 72 h of cultivation in the presence of collagen sponge samples introduced into the culture medium as a suspension with dilution factors of 1:5, using the resazurin test method.
+
+Figure 8
+
+Dynamics of model wound closure in human umbilical vein endothelial cell culture over 5 days.
+
+Figure 9
+
+Phase contrast images of a scratch in a human umbilical vein endothelial cell layer at Days 0, 2, 1, and 5 after collagen addition (live imaging). Magnification = ×100; scale bar = 200 μm.
+
+Figure 10
+
+Appearance of wounds seven days after subcutaneous administration of collagen sponge samples.
+
+Figure 11
+
+Histological sections of control wounds on (A) Day 3 (×100 magnification), (B) Day 7 (×200 magnification), (C) Day 14 (×100 magnification), and (D) Day 21 (×100 magnification) after surgery. Notes: The border between the wound (1) and intact skin (2) is indicated by an arrow, 3 refers to the vessel. Scale bar: 300 μm (A, C, D); 200 μm (B).
+
+Figure 12
+
+Histological sections of experimental wounds on Days 3, 7, 14, and 21 after implantation of collagen samples.
+
+Notes: 1 = Transplantation area, 2 = Preserved skin, and 3 = Area of giant multinucleated cells accumulation. Scale bar: 300 μm, magnification: ×100.
+
+Table 1
+
+Parameters of water absorption capacity, degradation, and degree of hydration of collagen specimens
+
+Parameter
+
+Collagen
+
+Aurelia aurita
+
+Rhopilema hispidum
+
+Water absorption, mmol/mL
+
+7.03±0.57
+
+13.25±1.1
+
+Degradation rate, mmol/mL
+
+0.015±0.003
+
+0.057±0.005
+
+Wetting angle (outer surface), gradians
+
+58.51±1.75
+
+39.58±1.18
+
+Wetting angle (inner surface), gradians
+
+50.81±1.52
+
+40.43±1.21
+
+Oxygen permeability×10sm/(m·s·Pа)
+
+26.0±0.4
+
+42.0±0.9
+
+Table 2
+
+Results of mechanical tests of collagen membranes
+
+Sample
+
+Tensile strength (MPa)
+
+Young’s modulus (MPa)
+
+Elongation (%)
+
+collagen membrane (thickness~0.73 mm), in NaCl solution
+
+0.11±0.02
+
+0.60±0.03
+
+39.57±2.21
+
+collagen membrane (thickness~0.50 mm), in dry condition
+
+0.54±0.09
+
+3.92±0.25
+
+33.48±1.23
+
+collagen membrane (thickness 0.75 mm), in NaCl solution
+
+0.22±0.03
+
+0.46±0.03
+
+65.17±5.61
+
+collagen membrane (thickness 0.51 mm), in dry condition
+
+1.17±0.08
+
+10.03±0.10
+
+30.76±1.80
+
+Abbreviation: NaCl: Sodium chloride.
+
+Table 3
+
+Percentage of living cells after one and three days of growth in the presence of collagen
+
+Sample
+
+24 h
+
+72 h
+
+Collagen
+
+77.67±2.52
+
+82.11±1.65
+
+Collagen
+
+80.61±1.40
+
+76.83±1.04
+
+Control (from rat tails)
+
+80.44±0.58
+
+84.33±0.58
+
+4. Discussion
+
+In the present work, a comprehensive analysis of the properties of collagens obtained fromandwas performed, along with a comparative analysis of the physicochemical and mechanical properties of collagens from marine and mammalian species. Based on electrophoretic studies,it was demonstrated that the collagen ofconsists solely of α-chains, while the collagen ofis composed of α and β chains (). The molecular mass of the tested collagen ranged from 105 to 240 kDa. Specifically, the molecular mass of the α chain was 105 kDa forcollagen and 135 kDa forcollagen. The β chain ofcollagen exhibited a molecular mass of 240 kDa. According to the literature, the molecular mass of a collagen polypeptide chain is about 100 kDa.Thus, the empirical data of our study are consistent with the results of other authors.Electrophoretic analysis also confirmed that the collagen fromspp. (ribbon jellyfish) consists of α chains (α1) and dimeric β chains (with molecular masses of ~137 and ~241 kDa, respectively), resembling the pattern of type II collagen.Felician.demonstrated that collagen extracted fromconsisted of two α chains between 100 and 150 kDa, a β chain (dimer), and a γ chain (trimer) located in the high molecular weight region (above 150 kDa). The α chains were the main component of jellyfish collagen, with α1 and α2 chains exhibiting different electrophoretic mobilities, indicating distinct molecular masses.However, our data differ from studies reporting that collagen from the mesoglea of the jellyfishcontains both α1 and α2 chains,and that collagen from the jellyfishcontains three α chains.These differences are likely due to species-specific variations in collagen composition.
+
+Our study found that the molecular weight of jellyfish collagen is comparable to that of mammalian collagen. For example, collagen isolated from pork contains a β-chain (~205 kDa) and two α-chains: α1 (~115 kDa) and α2 (~97.4 kDa).Acid-soluble collagen isolated from bovine Achilles tendon consists of trimers with a molecular mass of 300 kDa.Mass spectroscopic analysis revealed that chicken bone collagen (type I) includes β and γ bands with molecular masses of 245 kDa, corresponding to dimers and trimers.Similar results were obtained when collagen was extracted from chicken feet using acetic acid.
+
+Analysis of the isoelectric point of collagen from the jellyfishand R. hispidum showed that this parameter is highly dependent on the collagen source (). It was found that the isoelectric point ofcollagen is 5.19, while the isoelectric point ofcollagen is significantly lower, at 4.90. Earlier studies reported that the isoelectric point ofspp. collagen is 6.64;for bamboo shark collagen, it is 6.56;for blacktip shark, 6.96; and for brownbanded bamboo shark, 7.26.The isoelectric points of collagen from pork, beef, and chicken were determined by measuring zeta potential across a pH range. Pork collagen typically shows an isoelectric point of 5.5,bovine collagen ranges from 5.0 to 6.9,and chicken collagen from 5.09 to 6.54.
+
+A comparative analysis of empirical data with these published data suggests that differences in isoelectric points of collagen from different sources correlate with their amino acid compositions. Variations in charged side chains affect the surface charge of proteins.Khong.also found that the isoelectric point can vary depending on the method of collagen extraction. For example,collagen had isoelectric points of 4.92 and 4.46 (acid and pepsin extraction from bells) and 5.40 and 4.93 (acid and pepsin extraction from tentacles). Acid extraction ofcollagen in one study yielded an isoelectric point of 4.46, slightly lower than our results.Jellyfish collagen holds advantages over animal- and avian-derived collagens due to its low isoelectric point, which is particularly beneficial for applications in regenerative medicine. A low isoelectric point at physiological ionic strength can improve the linear viscoelastic properties and transparency of biomaterials.Collagen with an isoelectric point between 4.0 and 5.5 has been shown to exhibit better biocompatibility at physiologic pH.A low isoelectric point may also indicate a strong negative surface charge, potentially affecting interactions with cell membranes. However, our previous studies on human keratinocyte adhesion did not support this hypothesis, as collagen fromsignificantly improved cell proliferation and adhesion.Similar results were obtained by Pugliano.when culturing human stem cells with jellyfish type II collagen.
+
+The difficulty in working with marine organism-derived collagens is their lower denaturation temperatures compared to mammalian collagens.For collagen derived from, we observed a denaturation temperature of 32.23°C, whilecollagen exhibited a slightly higher value of 33.15°C. Both collagen types degraded within the temperature range of 40 – 150°C. The low denaturation temperature ofcollagen is likely linked to the temperature of its natural habitat. Barzideh.showed that marine inhabitants from colder environments tend to have lower denaturation temperatures due to a lower number of cross-links. Sharks and other cold-water hydrobionts typically have lower glycine, proline, and hydroxyproline, contributing to reduced thermal stability.For comparison, collagen extracted from silver carp skin with acetic acid has a denaturation temperature of 30.37°C.Mammalian collagen typically denatures at significantly higher temperatures, ranging from 48.3°C to 79.31°C.For example, collagen extracted from pig skin through the acid-enzyme binding method (acetic acid and pepsin) showed a denaturation temperature of 67.75°C,while chicken leg tendon collagen extracted with 0.15 M citrate buffer (pH 3.8) had a denaturation temperature of 38°C.These findings indicate that jellyfish collagen requires additional cross-linking to improve its thermal stability. Before it can be effectively used as a wound-healing agent, such modifications may be necessary to raise its denaturation temperature to levels compatible with physiological conditions.
+
+It was found that the studied collagen samples were completely insoluble in acetic acid, methylene chloride, hexane, ethanol, methanol, ethyl acetate, 35% hydrochloric acid solution, sodium hydroxide, and distilled water. These results align with previously presented empirical data.According to the study, the spongy collagen did not dissolve in any of the tested solvents. A slight dispersion was observed in solutions with pH 8 – 10, and hydrolysis of collagen fragments occurred in acidic media.However, our results differ from solubility data reported for fish and mammalian collagens. For example, collagen isolated from bovine Achilles tendons exhibited poor solubility in the pH range of 4.0 – 5.0.Type I collagen from turkey tissues (supplied by Essentia Protein Solutions, Denmark) showed maximum solubility (80%) between pH 2.0 and 10.0, while its minimum solubility (around 20%) was observed between pH 5.0 and 7.0.Similarly, fish collagen demonstrated high solubility (75 – 95%) across the entire studied pH range (2.0 – 10.0).These differences in solubility can be attributed to variations in the degree of cross-linking and amino acid composition among collagen sources. The solubility of collagen has been found to decrease with an increasing number and degree of stable cross-links.Fish skin collagen, which has a relatively low content of stable cross-links, is easily soluble, even in mature fish.
+
+The low solubility of collagen fromandhas important implications for the production of medical devices. Prolonged acid pre-treatment during the extraction process can result in high collagen yield with minimal loss.
+
+Empirical data also indicated that the collagen samples studied were characterized by a moderate degree of hydrophilicity but high hydration capacity, which prevents them from being classified as super-wetting materials (). In a previous study,the water-holding capacity ofcollagen was measured at 4.194 g/g, consistent with our findings. This value exceeds that of medical gauze (2 g/g) but is lower than that of collagen sponges derived from.Collagen extracted from porcine skin, with water absorption ranging from 18.9% to 27.4%,and collagen from silver carp skin extracted using acetic acid (water absorption capacity of 31.13 g/g), also showed poor water absorption.In contrast, acid-soluble collagen isolated from the bovine Achilles tendon exhibited high water retention, with water absorption reaching 99% and a swelling factor of 95%.Type I collagen from turkey tissues (Essentia Protein Solutions, Denmark) had a swelling degree of 181%.Despite its modest water-holding capacity, jellyfish collagen fromandexhibited a hydrophilic nature and molecular structure that makes it suitable for use as an absorbent, especially to stop bleeding.A variety of commercially available hemostatic products utilize sponge-like structures that are highly absorbent and capable of retaining multiple times their weight in fluid. These collagen-based products can rapidly absorb blood and form an artificial clot-like matrix that effectively stops bleeding.
+
+Collagen is one of the most versatile biomaterials used in biomedical applications, mainly due to its biomimetic properties and structural role in the extracellular matrix.Tissue engineering provides promising developments in this area.Ideally, a new biomaterial should exhibit natural strength and anisotropy. However, the biomaterial and their derived scaffolds tend to degrade over time, potentially causing undesirable tissue remodeling in response to applied strain.In this regard, it is crucial to study the degradation profile of jellyfish-derived collagen, which is being considered as a basis for regenerative medicine products. As shown in, native jellyfish collagen undergoes near-complete degradation under the influence of collagenase, which is in agreement with the results reported by other researchers.For example, Terzi.demonstrated that unmodified collagen films were rapidly and completely digested by collagenase within 1 h, while cross-linked films (modified using double processing methods) remained relatively stable and were almost completely cleaved after 4 hours. Guan.observed partial degradation (up to 50%) of bovine hide collagen when exposed to collagenase, pepsin, and trypsin. Bovine and porcine collagens were more resistant to collagenase than chicken and fish collagens, likely due to a higher content of glycosaminoglycans.Therefore, native jellyfish collagen is unsuitable for direct application in regenerative medicine due to its rapid degradation in the presence of collagenase. To make it viable for medical use, collagen must be modified to improve its stability.
+
+For modification purposes, alkaline and/or heat treatment of proteins can be applied to induce inter- or intramolecular crosslinking.Chemical crosslinking agents are often used to increase thermal stability, gelling properties, and resistance to collagenase. These agents form covalent bonds within polymer chains, thereby improving their stability and essential mechanical properties. Examples of commonly used cross-linkers include genipine,glutaraldehyde,formaldehyde,methacrylic anhydride with a photoinitiator (phenyl-2,4,6-trimethylbenzoyl lithium phosphinate),1-ethyl-3-(3-dimethylaminopropyl) carbodiimide, and N-hydroxysuccinimide.However, such crosslinking methods can lead to cytotoxic effects.
+
+Enzymatic crosslinking, using enzymes such as transglutaminase, phosphopantetheine transferase, and lysyl oxidase, is considered a safer alternative. These enzymes facilitate crosslink formation in proteins without inducing toxicity in cells.It is important to prioritize non-toxic crosslinking agents that preserve the integrity and shape of three-dimensional-printed matrices containing cells. In the next phase of this study, we will conduct experiments to select and evaluate the effectiveness of different crosslinking agents and assess the safety of the resulting materials.
+
+Collagen is a well-studied biomaterial that has been researched since the beginning of the past century. The formation of collagen fibrils is also well-documented, especially in collagen-based porous scaffolds produced by freeze-drying.However, there are very few studies on the microstructure of fibrillated marine organism-derived collagens dried in open air. Therefore, in this study, the microstructure of collagens from the jellyfishandwas investigated. SEM analysis revealed that the studied collagen samples were characterized by a highly porous structure. The pores were predominantly channel-shaped. Incollagen, pore sizes ranged from 57.1 μm to 256.7 μm, and wall thicknesses ranged from 58.2 μm to 241.7 μm (). Collagen from, when dried in the open air, also exhibited a highly porous structure, with pore sizes ranging from 57.1 μm to 337.6 μm and wall thicknesses from 48.7 μm to 163.6 μm (). The pore shape incollagen was predominantly spherical. The pores were formed by filaments and collagen sheets, composed of multiple collagen fibrils and fibers bound together into a network of fibrils and a dense, folded, sheet-like structure. It was also revealed that the collagen samples fromandwere sufficiently homogeneous and free of extraneous inclusions or other structures. Their microstructure corresponds to that of fish collagen,differing from mammalian collagen.SEM images confirmed that collagen extracted from Jack mackerel and meager bone exhibits a porous structure with pore sizes ranging from 70 μm to 140 μm.In contrast, collagens derived from pig skin and bovine pericardium have less pronounced porosity.Bovine collagen, in particular, forms a coarse matrix with large pores.Electron microscopy revealed that collagen from bovine pericardium contains disorganized nanofibers in a spongy structure with unevenly distributed, interconnected pores.Similarly, collagen from chicken bone forms a coarse matrix with large pores.The difference in microstructure between mammalian and marine organism-derived collagens can be explained by the higher number of covalent bonds in mammalian skin and bone collagen compared to marine organism-derived collagen.
+
+A comparative evaluation of the mechanical properties of jellyfish collagen fromandrevealed that their ultimate tensile strength in the dry state was 0.54 MPa and 0.60 MPa, respectively, and 0.11 MPa and 0.22 MPa, respectively, when immersed in physiological NaCl solution. In contrast, the tensile strength of collagen from bovine Achilles tendon is 59 MPa,and that of collagen from bovine membrane waste is 58 N/mm.The compressive strength of type I collagen from chicken foot skin ranges from 30 MPa to 70 MPa.The strength values of animal and avian collagens are thus significantly higher than those of jellyfish collagen.The high strength of bovine and avian collagens makes them suitable for bone tissue engineering applications.This superior mechanical performance is attributed to the higher structural order found in mammalian and avian collagen fibrils compared to marine origin.
+
+A similar conclusion can be drawn from a comparative evaluation of the Young’s modulus of collagen. The Young’s modulus of jellyfish collagen was found to be 3.92 MPa for(dry state) and 10.03 MPa for(dry state), which is significantly lower than that of animal and avian collagens. According to Chowdhury,the Young’s modulus of collagen monomers isolated from bovine Achilles tendon is 6 – 7 GPa, while that of collagen from rat tail tendon is 11.0 GPa.
+
+The relative elongation of collagen extracted from cattle processing waste (membrane) is 7%.In comparison, our results showed that the elasticity index ofandcollagens was 4.5 – 4.7 times higher than that of bovine collagen. Specifically, the elasticity index ofcollagen in the dry state was 33.48%, and forcollagen, it was 30.76%.
+
+Thus, jellyfish collagen demonstrates superior elasticity compared to bovine collagen, though it is lower than that of porcine collagen.For instance, collagen obtained from pig skin using acetic acid and pepsin exhibited a tensile strength of 2.3 MPa and an elongation of 52.5%.However, native collagen used in medical devices is typically applied in solution form rather than in a dry state. Therefore, it is critical that the mechanical properties of collagen-based biomaterials are preserved or even enhanced under physiological conditions. Our results () indicate that collagen in physiological NaCl solution exhibits suboptimal mechanical performance in terms of Young’s modulus, tensile strength, and elongation. To improve these mechanical properties, collagen must be modified through advanced crosslinking techniques or by incorporating a second, stiffer phase. These modifications could improve the suitability of the biomaterial for applications in regenerative medicine.
+
+While crosslinking methods effectively stabilize collagen and increase its mechanical strength and stability, some methods may reduce the biocompatibility of the material and lead to potential cytotoxicity.Ahmed.showed that combined treatments enhance the mechanical stiffness of collagen-based materials.
+
+Collagen is known to play an important role in the wound healing process, as it promotes the proliferation and migration of keratinocytes and fibroblasts to the wound site, stimulates chemotactic factors, and enhances fibroblast production.Therefore, in the final stage of this study, the potential of collagen isolated from the jellyfishandin wound healing was investigated(and). It was found that in the presence of collagen, the migration of HUVEC cells was significantly enhanced on the 1day compared to cells without collagen. Similar results were obtained when evaluating the wound-healing activity of collagen peptides derived fromjellyfish.Marine organism-derived collagen peptide may shorten the inflammatory period by reducing inflammatory cell aggregation, which leads to the expression of FGF and vascular endothelial growth factor, promotes the production of basic FGF, and enhances collagen deposition and maturation.Bovine collagen peptides can also promote angiogenesis and epithelialization, effectively shortening the wound-healing cycle in mice, as shown in a skin perforation model.This may be due to the chemotactic effect of collagen peptides, which enhance cell migration to the artificial wound area.
+
+test on Balb/C laboratory mice showed that by Day 21, both the control wounds and those treated with collagen exhibited proliferation of loose connective tissue. In the experimental wounds, there were signs of ongoing assimilation of the remaining collagen. More complete assimilation was observed with the sample from the jellyfish; however, when using this collagen type, slight inflammation was noted. This may be due to suboptimal sterilization, as sponges were sterilized by ultraviolet irradiation, which did not provide a sufficient level of sterility due to equipment limitations.
+
+Thisstudy was preliminary. In the next stage, the biological activity of collagen samples will be re-evaluated using female Wistar rats. In addition to histological parameters, the study will assess blood markers of inflammation (interleukin-6, interleukin-10, and tumor necrosis factor-alpha), animal welfare (appearance, activity, facial signs of pain), wound healing dynamics, and conduct immunohistochemical analyses using the following markers: EGF, FGF, cluster of differentiation 31, and antitrypsin for tissue visualization.
+
+5. Conclusions
+
+A comparative analysis of the collagen properties of jellyfishand, which inhabit different temperature conditions, along with those of animals and birds, reveals the prospects of marine organism-derived collagen for use in medical products for treating wounds and burns. It was found that the molecular weight of jellyfish collagen is similar to that of animal and avian collagen, but it has a lower isoelectric point and denaturation temperature, which enhances its biocompatibility at physiological pH. Jellyfish collagen was also found to be less soluble than collagen isolated from fish, animals, and birds. However, due to its low solubility, jellyfish collagen provides high extraction yields with negligible losses. Although jellyfish collagen is inferior to animal and avian collagen in terms of hydrophilicity, hydration capacity, and mechanical strength, it remains a viable candidate for the production of biomaterials in tissue engineering. To improve its mechanical properties, additional modifications are necessary through improved cross-linking mechanisms or by incorporating a second, stiffer phase, allowing the biomaterial to meet specific application requirements. Our study demonstrated that collagen significantly enhanced HUVEC cell migration on the 1day, which may contribute to shortening the inflammatory period and accelerating the wound healing process.
+
+Thus,andrepresent promising marine sources of collagen for regenerative medicine. Jellyfish-derived collagen is characterized by high yield, low processing losses, improved biocompatibility at physiological pH, and a capacity to reduce the duration of inflammation and accelerate wound healing. In addition, jellyfish collagen does not carry the risk of transmitting infectious diseases. The results of the present study support the continued development of collagen-based biomaterials for use in regenerative medicine, particularly in wound and burn treatment. At present, the toxicity of collagen has been assessed indirectly through HUVEC migration experiments, indicating that the collagen is non-toxic. In future work, directtesting on immune cells andwound healing studies on rats should be performed to further validate its safety and efficacy.

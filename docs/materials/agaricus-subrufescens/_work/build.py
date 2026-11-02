@@ -1,0 +1,115 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+PM = lambda p: f"https://pubmed.ncbi.nlm.nih.gov/{p}/"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+S = [
+ (1, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 붉은갓주름버섯자실체(Agaricus subrufescens Peck)", I1020, "식품의약품안전처", "2026-10-13"),
+ (2, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속 항목: 신령주름버섯자실체(Agaricus blazei Murrill)·양송이버섯·주름버섯·흰주름버섯·여름양송이자실체·실비듬주름버섯·주름버섯아재비 (로컬 원자료 I1020_20261013.json 대조)", I1020, "식품의약품안전처", "2026-10-13"),
+ (3, "Agaricus subrufescens, a cultivated edible and medicinal mushroom, and its synonyms (초록) (Mycologia, 2005; PMID 16389952)", PM(16389952), "Mycologia (PubMed)", ACC),
+ (4, "Agaricus macrochlamys, a new species from the (sub)tropical cloud forests of North America and the Caribbean, and Agaricus fiardii, a new synonym of Agaricus subrufescens (PMC9319268 전문) (Journal of Fungi, 2022; PMID 35887421)", PM(35887421), "Journal of Fungi (PubMed)", ACC),
+ (5, "Analysis of the chemical constituents of Agaricus brasiliensis (PMC3755252 전문) (Mycobiology, 2008; PMID 23997608)", PM(23997608), "Mycobiology (PubMed)", ACC),
+ (6, "Biochemical approaches on commercial strains of Agaricus subrufescens growing under two environmental cultivation conditions (PMC9224743 전문) (Journal of Fungi, 2022; PMID 35736099)", PM(35736099), "Journal of Fungi (PubMed)", ACC),
+ (7, "Influence of strains and environmental cultivation conditions on the bioconversion of ergosterol and vitamin D2 in the sun mushroom (초록) (J Sci Food Agric, 2022; PMID 34455581)", PM(34455581), "Journal of the Science of Food and Agriculture (PubMed)", ACC),
+ (8, "Effect of cultivation practices on the β-glucan content of Agaricus subrufescens basidiocarps (초록) (J Agric Food Chem, 2014; PMID 24308309)", PM(24308309), "Journal of Agricultural and Food Chemistry (PubMed)", ACC),
+ (9, "Measurement of a genotoxic hydrazine, agaritine, and its derivatives by HPLC with fluorescence derivatization in the Agaricus mushroom and its products (초록) (Chem Pharm Bull, 2006; PMID 16755074)", PM(16755074), "Chemical & Pharmaceutical Bulletin (PubMed)", ACC),
+ (10, "Agaritine purified from Agaricus blazei Murrill exerts anti-tumor activity against leukemic cells (초록) (Biochim Biophys Acta, 2010; PMID 20347942)", PM(20347942), "Biochimica et Biophysica Acta (PubMed)", ACC),
+ (11, "The medicinal mushroom Agaricus blazei Murrill: review of literature and pharmaco-toxicological problems (초록) (Evid Based Complement Alternat Med, 2008; PMID 18317543)", PM(18317543), "eCAM (PubMed)", ACC),
+ (12, "Alternative medicine safety: Agaricus blazei and propolis (초록) (Comb Chem High Throughput Screen, 2011; PMID 21599627)", PM(21599627), "Combinatorial Chemistry & High Throughput Screening (PubMed)", ACC),
+ (13, "An alternative medicine, Agaricus blazei, may have induced severe hepatic dysfunction in cancer patients (초록) (Jpn J Clin Oncol, 2006; PMID 17105737)", PM(17105737), "Japanese Journal of Clinical Oncology (PubMed)", ACC),
+ (14, "Drug-induced liver injury associated with Agaricus blazei Murill which is very similar to autoimmune hepatitis (초록) (Clin J Gastroenterol, 2013; PMID 26181451)", PM(26181451), "Clinical Journal of Gastroenterology (PubMed)", ACC),
+ (15, "Phase I clinical study of the dietary supplement, Agaricus blazei Murill, in cancer patients in remission (초록) (Evid Based Complement Alternat Med, 2011; PMID 21584278)", PM(21584278), "eCAM (PubMed)", ACC),
+ (16, "Lack of subchronic toxicity of an aqueous extract of Agaricus blazei Murrill in F344 rats (초록) (Food Chem Toxicol, 2005; PMID 15833380)", PM(15833380), "Food and Chemical Toxicology (PubMed)", ACC),
+ (17, "Lack of carcinogenicity of lyophilized Agaricus blazei Murill in a F344 rat two year bioassay (초록) (Food Chem Toxicol, 2008; PMID 17707568)", PM(17707568), "Food and Chemical Toxicology (PubMed)", ACC),
+ (18, "Himematsutake (Iwade strain 101) extract (ABM-FD): genetic toxicology and a 3-month dietary toxicity study in rats (초록) (Food Chem Toxicol, 2008; PMID 18353517)", PM(18353517), "Food and Chemical Toxicology (PubMed)", ACC),
+ (19, "Rat medium-term multi-organ carcinogenesis bioassay of Agaricus blazei Murrill fruit-body extract (초록) (Food Chem Toxicol, 2010; PMID 19879310)", PM(19879310), "Food and Chemical Toxicology (PubMed)", ACC),
+ (20, "Safety assessment of the royal sun mushroom, Agaricus brasiliensis, intake during rat pregnancy (초록) (Int J Med Mushrooms, 2014; PMID 25404217)", PM(25404217), "International Journal of Medicinal Mushrooms (PubMed)", ACC),
+ (21, "Decoding the chromosome-scale genome of the nutrient-rich Agaricus subrufescens (초록) (Research in Microbiology, 2023; PMID 37573924)", PM(37573924), "Research in Microbiology (PubMed)", ACC),
+ (22, "The genetic linkage map of the medicinal mushroom Agaricus subrufescens reveals highly conserved macrosynteny with the congeneric species Agaricus bisporus (초록) (G3, 2016; PMID 26921302)", PM(26921302), "G3: Genes|Genomes|Genetics (PubMed)", ACC),
+ (23, "Genetic analyses of the internal transcribed spacer sequences suggest introgression and duplication in the medicinal mushroom Agaricus subrufescens (초록) (PLoS One, 2016; PMID 27228131)", PM(27228131), "PLoS One (PubMed)", ACC),
+ (24, "The first set of expressed sequence tags (EST) from the medicinal mushroom Agaricus subrufescens (초록) (Appl Microbiol Biotechnol, 2014; PMID 24917377)", PM(24917377), "Applied Microbiology and Biotechnology (PubMed)", ACC),
+ (25, "Outdoor versus indoor cultivation: effects on the metabolite profile of Agaricus subrufescens strains analyzed by untargeted metabolomics (초록) (Food Chem, 2022; PMID 34879324)", PM(34879324), "Food Chemistry (PubMed)", ACC),
+ (26, "Sulfated β-glucan from Agaricus subrufescens inhibits flavivirus infection and nonstructural protein 1-mediated pathogenesis (초록) (Antiviral Res, 2022; PMID 35533778)", PM(35533778), "Antiviral Research (PubMed)", ACC),
+ (27, "Gastroprotective effect of hydroalcoholic extract from Agaricus blazei Murill against ethanol-induced gastric ulcer in mice (초록) (J Ethnopharmacol, 2022; PMID 35292374)", PM(35292374), "Journal of Ethnopharmacology (PubMed)", ACC),
+ (28, "농림축산식품부 「2024 특용작물 생산실적」 — 버섯류 품목 '신령'(로컬 파싱본 docs/stats/special_crops_annual.csv·special_crops_2024.csv)", "https://www.mafra.go.kr", "농림축산식품부", ACC),
+ (29, "厚生労働省 「アガリクス（カワリハラタケ）を含む製品に関するQ&A」(2006-02-13) — 원문은 접속 차단으로 열지 못했고 WebSearch 검색 결과 요약으로만 확인", "https://www.mhlw.go.jp/topics/bukyoku/iyaku/syoku-anzen/qa/060213-1.html", "厚生労働省(일본 후생노동성)", ACC),
+ (30, "Microbial communities during the composting process of Agaricus subrufescens and their effects on mushroom agronomic and nutritional qualities (초록) (Front Microbiol, 2024; PMID 39619689)", PM(39619689), "Frontiers in Microbiology (PubMed)", ACC),
+ (31, "Chemical composition and chromatographic fingerprint of three strains of Agaricus subrufescens cultivated with handmade and commercial supplements (초록) (Food Chem, 2021; PMID 34120053)", PM(34120053), "Food Chemistry (PubMed)", ACC),
+ (32, "Low uptake of pharmaceuticals in edible mushrooms grown in polluted biogas digestate (초록) (Chemosphere, 2024; PMID 38211789)", PM(38211789), "Chemosphere (PubMed)", ACC),
+]
+sources = [dict(n=n, title=t, url=u, publisher=p, accessed=a) for n, t, u, p, a in S]
+
+sections = [
+ dict(key="overview", title="한눈에 보기", body=
+"붉은갓주름버섯(Agaricus subrufescens Peck)은 주름버섯과(Agaricaceae)에 속하는 담자균류 식용버섯으로, 19세기 말 북아메리카 동부에서 처음 재배되었고 지금은 브라질에서 들여온 계통이 브라질·일본 등지에서 재배된다[3]. 브라질에서는 'sun mushroom', 일본에서는 '히메마쓰타케(himematsutake)', 미국에서는 아몬드 향 때문에 'almond mushroom'이라 부른다[6]. 식품의약품안전처 「식품원료 목록」에는 원료명 '붉은갓주름버섯자실체', 학명 Agaricus subrufescens Peck로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. 따라서 일반 식품 원료로는 자실체(버섯 몸체)만 쓸 수 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 고시된 지표성분과 기준은 확인하지 못함. 이 자료 묶음의 원자료에는 EU 신규식품(Novel Food) 목록 표시가 있으나, EU 원문에서 그 지위와 조건은 확인하지 못함.\n\n"
+"같은 목록에는 별칭이 '신령버섯, 흰들버섯, 아가리쿠스'인 '신령주름버섯자실체(Agaricus blazei Murrill)'가 따로 올라 있다[2]. 분류학 논문은 시판·재배되는 '아가리쿠스'가 대부분 이 종이라고 보지만, 이 문서는 식약처 목록의 두 항목을 합치지 않고 학명 처리 근거만 아래 절에 정리한다[3, 4]. 연구는 β-글루칸 다당체, 만니톨·유기산 같은 맛 성분, 그리고 히드라진 화합물 아가리틴의 안전성에 모여 있다[5, 9, 11]."),
+ dict(key="history", title="이름의 역사", body=
+"A. subrufescens는 1893년 미국 뉴욕주 롱아일랜드 표본으로 기재되었으며, 기준표본 일부는 재배된 버섯이었다[3, 4]. 이 버섯은 한때 미국 시장에서 인기 있는 재배 버섯이었으나 20세기 초에 상업 재배에서 사라졌다[3]. 그 뒤 브라질에서 야생으로 자라던 버섯이 재배되어 일본 등으로 퍼졌고, 이 버섯은 흔히 A. blazei Murrill sensu Heinem.으로, 2002년부터는 A. brasiliensis Wasser 등으로도 불렸다[3]. 2005년 rDNA ITS 염기서열 분석과 교배·잡종 자손 유전 분석은 브라질 버섯이 A. subrufescens와 같은 종이라는 강한 근거를 냈다[3].\n\n"
+"2022년 분류 논문은 A. rufotegulis, A. fiardii 등을 이 종의 동의어로 정리하고, 'A. blazei Murrill sensu Heinem.'은 이 종에 잘못 붙인 이름, 'A. brasiliensis Wasser 등'은 이미 다른 종에 쓰인 이름과 겹치는 부당명(nom. illeg.)으로 표시했다[4]. 반면 식약처 목록은 'Agaricus blazei Murrill'을 학명으로 한 신령주름버섯자실체를 이 종과 별도 항목으로 유지한다[1, 2]. 이 문서는 식약처 원료 지위는 각 항목을 따로 적고, 'A. blazei Murrill'·'A. brasiliensis'·'히메마쓰타케' 이름으로 나온 재배 버섯 연구는 이름을 그대로 밝혀 인용한다[3, 4]. 국내 재배 균주 ASI 1174의 성분 분석도 'A. brasiliensis' 이름으로 보고되었다[5]."),
+ dict(key="biology", title="균학적 특징", body=
+"이 종은 주름버섯속 Arvenses 절(sect. Arvenses)에 속하며, 이 절은 중대형 자실체, 아래쪽에 비늘이나 톱니바퀴 무늬가 있는 두 겹 턱받이, 상처 나면 노랗게 변하는 살, 아니스나 아몬드 냄새가 특징이다[4]. 이 종의 갓은 지름 5.3–11 cm로, 흰 바탕에 개암색·적갈색·보랏빛 갈색 섬유가 덮여 가운데가 짙은 적갈색을 띠며, 주름은 처음 흰색에서 오래 연분홍을 거쳐 성숙하면 암갈색이 된다[4]. 포자는 (4.3–)4.6–6.2(–6.9) × 3–4.5(–4.9) μm의 타원형 갈색이고, 셰퍼 반응은 주황 붉은색, KOH 반응은 노란색 양성이다[4]. 아몬드 향은 벤즈알데하이드와 벤조산 함량 때문이라고 설명된다[6].\n\n"
+"생식 방식은 이형접합(heterothallic)과 위동형접합(pseudo-homothallic)을 함께 보이는 양태성(amphithallic)이다[3, 4]. 야생 분포는 온대와 (아)열대에 걸친 세계종으로, 멕시코·도미니카공화국에서는 형태로 구별되지 않는 근연 신종 A. macrochlamys와 같은 곳에서 자란다[4]. 신선한 자실체는 수분이 85–87%이고, 건조물은 단백질이 풍부하다는 선행 보고가 인용되어 있다[5]."),
+ dict(key="related_species", title="가까운 종과 혼동", body=
+"가장 큰 혼동은 이름이다: 식약처 「식품원료 목록」은 붉은갓주름버섯자실체(A. subrufescens Peck)와 신령주름버섯자실체(A. blazei Murrill, 별칭 신령버섯·흰들버섯·아가리쿠스)를 각각 '사용가능, 사용가능부위 : 자실체'로 따로 싣는다[1, 2]. 분류학에서는 재배되는 브라질 버섯에 붙인 'A. blazei Murrill sensu Heinem.'을 A. subrufescens의 오적용명으로 보므로, 제품 표시의 '아가리쿠스'가 어느 항목인지는 원료 기록으로 확인해야 한다[3, 4]. 같은 목록에서 양송이(A. bisporus)·주름버섯(A. campestris)·흰주름버섯(A. arvensis)·여름양송이(A. bitorquis)는 자실체 사용가능이지만, 실비듬주름버섯(A. augustus)과 주름버섯아재비(A. placomyces)는 '사용불가'로 올라 있다[2].\n\n"
+"야생에서는 2022년 기재된 A. macrochlamys가 형태로는 구별되지 않고 ITS 다섯 자리와 tef1-α 여섯 자리·4 bp 삽입으로만 구별된다[4]. 연관지도 연구에서 이 종의 주요 13개 연관군은 양송이의 13개 염색체와 대응(거시 공선성)해 두 종의 유전체 구조가 가깝다[22]. 따라서 야생 채취품은 전문가 동정 없이 먹지 않는 것이 안전하다는 것이 이런 형태적 은닉종 보고의 함의다[4]."),
+ dict(key="cultivation", title="재배와 생산", body=
+"이 버섯은 양송이처럼 발효시킨 퇴비(컴포스트) 배지에 균을 접종하고 복토를 덮어 재배한다[8, 30]. 중국·미국·브라질·대만·일본 등에서 상업 재배되며, 나라마다 재배 방식이 달라 수량과 성분이 달라진다[7]. 5개 균주·3종 배지·4종 복토·4개 재배 환경을 비교한 연구에서 β-글루칸 함량 변동은 균주(35.8%)와 복토(34.5%)의 기여가 가장 컸고, 수량 변동은 재배 환경(82.1%)과 균주(81.3%)의 영향이 컸다[8]. 브라질 상업 균주를 노지와 빛을 막은 재배실에서 비교한 연구에서 생물학적 효율은 재배실의 ABL 19/01 균주가 64%로 가장 높았다[7]. 실내 대량 재배는 일부 균주에서 건강 관련 대사물 농도를 낮출 수 있다는 대사체 분석 결과도 있다[25]. 터널식 퇴비화는 생물학적 효율을 높이고 오염률을 낮추는 방법으로 연구되고 있다[30]. 농산 부산물로 만든 보충제로 일본·브라질·벨기에 균주를 재배해도 상업 보충제와 비슷한 성분을 얻었다는 보고도 있다[31].\n\n"
+"국내 통계에서는 농림축산식품부 특용작물 생산실적의 버섯 품목 '신령'이 2024년 농가 3호, 면적 1 ha, 생산량 8톤으로 집계되었다[28]. 다만 이 품목은 학명 구분 없이 '신령버섯'으로 집계되어 이 종의 생산량으로 단정할 수 없으므로 생산 표에는 넣지 않았다[2, 28]."),
+ dict(key="processing", title="가공과 이용", body=
+"갓이 쉽게 갈변해 수확 뒤 저장 기간이 짧기 때문에 빨리 건조하는 경우가 많고, 이 때문에 소비자에게는 주로 캡슐 같은 건조 제품 형태로 공급된다는 지적이 있다[21]. 식품원료로 쓸 수 있는 부위는 자실체이며, 식약처 목록의 이 종 항목에는 추출물 같은 별도 원료명은 없다[1]. 일본에서는 열수 추출물 등이 암 환자의 보완대체요법으로 널리 쓰였다[13, 15].\n\n"
+"성분 면에서 국내 재배 건조 자실체의 당알코올은 만니톨이 21.8 g/100 g(건물)으로 가장 많았고, 지방산은 리놀레산이 76%를 차지했다[5]. 열수 추출 다당체는 β-(1→3) 주사슬에 (1→6) 곁사슬이 붙은 β-글루칸으로 확인되었고 생쥐 B 림프구의 항체 생산을 높였다[5]. 같은 β-글루칸을 황산화한 유도체는 세포·생쥐 실험에서 뎅기·지카 바이러스 감염과 NS1 단백질에 의한 혈관 투과성 증가를 억제했다[26]. 브라질 계통 6개 균주 분석에서 건조물의 탄수화물은 59–72.6 g/100 g, 단백질은 18.8–35.8 g/100 g, 지방은 1.42–1.96 g/100 g이었다[6]. 이런 결과는 대부분 세포·동물 실험이며 사람에서의 효과는 확인하지 못함."),
+ dict(key="genetics", title="유전체와 유전 다양성", body=
+"2023년 일루미나와 나노포어 시퀀싱을 결합해 염색체 수준 유전체가 처음 조립되었는데, 13개 염색체와 31개 미배치 스캐폴드로 모두 44.5 Mb, GC 함량 47.24%, 단백질 암호 유전자 14,332개였다[21]. 이 유전체에서 갈변에 관여하는 폴리페놀 산화효소(PPO) 유전자 4개와 교배형 유전자좌가 확인되었다[21]. 그 전에는 발현 서열 태그(EST) 약 1만 개와 EST-SSR 다형성 마커 40개가 개발되었고, EST의 약 87%가 양송이 예측 단백질과 유사했다[24].\n\n"
+"202개 마커로 만든 첫 연관지도는 16개 연관군, 1,701 cM이며 그중 13개 주요 연관군이 양송이 염색체와 대응했다[22]. 이 종은 ITS 영역 다형성이 커서 A·B·C 세 유형이 알려져 있고, A·B형은 아메리카·유럽, C형은 하와이·아시아 시료에서 주로 나타난다[4, 23]. 프랑스 야생 균주 CA487에서는 C형이 대립유전자가 아닌 별도 유전자좌에 있어 비교적 최근의 유입과 ITS 유전자좌 중복이 제안되었다[23]. 브라질·일본·대만 재배 계통과 유럽 야생 계통이 같은 종으로 묶이는 근거도 ITS와 교배 분석이었다[3]."),
+ dict(key="safety", title="안전성", body=
+"식약처 목록에서 이 종은 자실체에 한해 '사용가능'이며 별도 주의사항은 없다[1]. 이 종에 특정한 공공기관의 알레르기·잔류 기준 자료는 확인하지 못함. 아래 자료는 대부분 'A. blazei Murrill'·'히메마쓰타케' 이름으로 보고된 같은 재배 버섯의 연구다[3, 4].\n\n"
+"주름버섯속에는 유전독성 히드라진 화합물 아가리틴이 있으며, 아가리쿠스 식품의 아가리틴은 건물 1 g당 112–1836 μg이었다[9]. 장기 섭취용 추출물은 아가리틴을 줄여야 한다는 의견이 있다[11, 12]. 2006년 일본 후생노동성이 한 아가리쿠스 과립 제품의 쥐 발암 촉진 시험 결과로 판매 중지를 요청했다고 알려졌으나 원문은 확인하지 못함[29].\n\n"
+"히메마쓰타케 추출물을 먹던 진행암 환자 3명에게 중증 간손상이 생겨 2명이 전격성 간염으로 숨졌고, 1명은 재복용 뒤 다시 악화되었다[13]. 자가면역간염과 비슷한 약물 유발 간손상 2례도 보고되었다[14]. 암 관해 환자 78명이 하루 1.8–5.4 g을 6개월 먹은 1상 연구에서는 9명(12%)에게 주로 소화기 이상반응, 1명에게 간기능 이상을 동반한 알레르기가 있었다[15]. 쥐 90일·2년 시험과 중기 다장기 발암 시험에서는 뚜렷한 독성·발암 촉진이 없었고[16, 17, 19], 한 추출물의 무독성량은 1000 mg/kg/일이었다[18]. 임신 쥐 600 mg/kg/일에서는 흉골 형성 이상이 늘었다[20]. 오염 배지 재배에서 항생제는 자실체에 축적되지 않았다[32]."),
+]
+
+compounds = [
+ dict(name="Agaritine", name_ko="아가리틴", **{"class": "페닐히드라진 유도체"}, role="bioactive", part="자실체·아가리쿠스 가공식품(A. blazei Murrill 이름으로 보고)", content_text="아가리쿠스 식품 여러 종에서 112–1836 μg/g 건물[9]; 히메마쓰타케 열수추출물 가용성 분획에서 정제·동정[10]", activity_ko="유전독성·동물 발암성이 거론되는 성분[9, 11]; 시험관에서 백혈병 세포주 증식 억제(U937 IC50 2.7 μg/mL)[10]", source=[9, 10, 11]),
+ dict(name="beta-Glucan", name_ko="β-(1→3)(1→6)-글루칸", **{"class": "다당류"}, role="bioactive", part="자실체(열수 추출)", content_text="함량 수치는 확인하지 못함; 균주·복토·재배환경에 따라 β-글루칸 함량이 달라지며 변동 기여도는 균주 35.8%, 복토 34.5%[8]", activity_ko="생쥐 B 림프구 항체 생산 증가[5]; 황산화 유도체가 뎅기·지카 바이러스 감염 억제(세포·생쥐)[26]", source=[5, 8, 26]),
+ dict(name="Mannitol", name_ko="만니톨", **{"class": "당알코올"}, role="nutrient", part="자실체(국내 재배 ASI 1174, 건조 분말)", content_text="21.8 g/100 g(건물 기준)[5]", activity_ko="버섯의 주요 당알코올; 열수알코올 추출물의 주성분으로도 정량됨[5, 27]", source=[5, 27]),
+ dict(name="Trehalose", name_ko="트레할로스", **{"class": "이당류"}, role="nutrient", part="자실체(브라질 균주 AS 19/01, 건조물)", content_text="노지 2.06, 재배실 3.7 g/100 g dw[6]", activity_ko="버섯의 주요 저장 당[6]", source=[6]),
+ dict(name="D-Glucose", name_ko="포도당", **{"class": "단당류"}, role="nutrient", part="자실체(브라질 균주 AS 19/01, 건조물)", content_text="노지 29.6, 재배실 39.2 g/100 g dw; 총 유리당 28.8–43.1 g/100 g dw(재배실)[6]", activity_ko="재배실 재배에서 함량이 더 높았음[6]", source=[6]),
+ dict(name="Linoleic acid", name_ko="리놀레산", **{"class": "지방산"}, role="nutrient", part="자실체 총지질", content_text="총 지방산의 76%[5]; 6개 균주에서 PUFA 최대 73.6%(AS 98/11, 노지)[6]", activity_ko="필수지방산; 팔미트산과 합쳐 총 지방산의 85% 이상[5]", source=[5, 6]),
+ dict(name="Ergosterol", name_ko="에르고스테롤", **{"class": "스테롤"}, role="nutrient", part="자실체(ABL 04/49 균주, 노지 재배)", content_text="최대 990 mg kg(초록 표기, 위첨자 단위 확인 필요)[7]", activity_ko="빛을 받으면 비타민 D2로 전환되는 전구체[7]", source=[7]),
+ dict(name="Ergocalciferol", name_ko="비타민 D2", **{"class": "비타민"}, role="nutrient", part="자실체(ABL 04/49 균주, 노지 재배)", content_text="최대 36.8 mg kg(초록 표기, 위첨자 단위 확인 필요)[7]", activity_ko="햇빛을 받는 노지 재배에서 가장 높았음[7]", source=[7]),
+ dict(name="Tocopherol", name_ko="토코페롤(α·β·δ)", **{"class": "비타민 E"}, role="nutrient", part="자실체(브라질 균주 6종, 건조물)", content_text="합계 노지 107.0–198.6 μg/100 g dw, 재배실 84.4–166 μg/100 g dw; β·δ형이 주된 이성질체[6]", activity_ko="지질 과산화 억제 항산화 성분[6]", source=[6]),
+ dict(name="4-Hydroxybenzoic acid", name_ko="p-하이드록시벤조산", **{"class": "페놀산"}, role="bioactive", part="자실체(AS 98/11 균주, 건조물)", content_text="노지 235.5, 재배실 234 μg/g dw; 페놀 화합물 합계 최대 359.0 μg/g dw(AS 16/01, 노지)[6]", activity_ko="항산화·항균 활성과 관련된 페놀 화합물[6]", source=[6]),
+ dict(name="Malic acid", name_ko="말산(유기산)", **{"class": "유기산"}, role="nutrient", part="자실체(브라질 균주, 건조물)", content_text="총 유기산 노지 20.5–48.0 g/100 g dw(원문 표기), 말산·시트르산이 주성분[6]", activity_ko="맛과 풍미에 기여[6]", source=[6]),
+ dict(name="Fumaric acid", name_ko="푸마르산", **{"class": "유기산"}, role="nutrient", part="자실체(국내 재배 ASI 1174)", content_text="젖산과 함께 가장 많은 유기산(수치는 원문 표로, 전문 텍스트에서 확인하지 못함)[5]", activity_ko="버섯 맛 성분[5]", source=[5]),
+ dict(name="L-Arginine", name_ko="아르지닌", **{"class": "아미노산"}, role="nutrient", part="자실체(국내 재배 ASI 1174, 산 가수분해)", content_text="9.3 μmole/g으로 가장 많은 아미노산; 다음은 글리신·글루탐산·프롤린·알라닌[5]", activity_ko="필수아미노산 조성이 균형적이나 함황아미노산은 적음[5]", source=[5]),
+ dict(name="Benzaldehyde", name_ko="벤즈알데하이드", **{"class": "방향족 알데하이드"}, role="bioactive", part="자실체", content_text="함량 수치는 확인하지 못함; 벤조산과 함께 아몬드 향의 원인으로 서술[6]", activity_ko="특유의 아몬드 향[6]", source=[6]),
+]
+
+E = {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""}
+def C(**k):
+    d = dict(E); d.update(k); return d
+assays = [
+ dict(role="literature", compound="Mannitol (free sugars)", compound_ko="만니톨 등 유리당", part="자실체(농촌진흥청 보존 균주 ASI 1174, 국내 볏짚 발효배지 재배, 건조 분말)",
+      content="만니톨 21.8 g/100 g(건물 기준)[5]", method="HPLC-RI",
+      conditions=C(instrument="Waters Model 410 굴절률 검출기, Millennium 프로그램", column="Waters high-performance carbohydrate column, 4.6 × 250 mm", mobile_phase="75% 아세토나이트릴", flow="1.2 mL/min", temp="35 ℃", detection="굴절률(RI)", sample_prep="건물 1.0 g을 85% 에탄올 10 mL로 24시간 추출", standard="유리당 표준품과 비교"),
+      rationale="만니톨은 이 버섯에서 가장 많은 당알코올로, 국내 재배 계통의 성분 특성을 보여 준다[5]. 검출·정량한계와 회수율은 원문에 없다[5].", source=[5], url=PM(23997608), source_kind="paper"),
+ dict(role="literature", compound="Organic acids (fumaric, lactic, malic etc.)", compound_ko="유기산(푸마르산·젖산·말산 등)", part="자실체(ASI 1174, 건조 분말)",
+      content="푸마르산·젖산이 가장 많고 아세트산·말산·피로글루탐산·폼산·시트르산·옥살산 순(수치는 원문 표, 전문 텍스트에서 확인하지 못함)[5]", method="HPLC-UV",
+      conditions=C(instrument="Waters Model 486 UV 검출기", column="Supelcogel C-610H, 7.8 × 300 mm (Supelco)", mobile_phase="0.1% 인산", flow="0.5 mL/min", detection="UV 210 nm", sample_prep="시료 1.0 g을 80% 에탄올 10 mL로 추출 후 Amberlite IRC-50 칼럼으로 정제", standard="유기산 표준품(Supelco) 검량선"),
+      rationale="유기산은 버섯의 맛과 풍미를 좌우하는 성분이다[5]. 칼럼 온도·검출한계·회수율은 원문에 없다[5].", source=[5], url=PM(23997608), source_kind="paper"),
+ dict(role="literature", compound="Tocopherols", compound_ko="토코페롤(α·β·δ)", part="자실체(브라질 상업 균주 6종, 노지·재배실, 건조물)",
+      content="합계 노지 107.0–198.6 μg/100 g dw, 재배실 84.4–166 μg/100 g dw[6]", method="HPLC-FLD",
+      conditions=C(instrument="Knauer Smartline HPLC + Jasco FP-2020 형광검출기", detection="형광 여기 290 nm / 방출 330 nm", standard="토코페롤 표준품, 내부표준 토콜(tocol)"),
+      rationale="토코페롤은 이 버섯의 대표 지용성 항산화 성분으로 재배 조건에 따른 품질 비교에 쓰였다[6]. 칼럼·이동상은 저자의 이전 논문을 인용해 전문에 적혀 있지 않다[6].", source=[6], url=PM(35736099), source_kind="paper"),
+ dict(role="literature", compound="Agaritine", compound_ko="아가리틴(및 HMPH·CPH·MPH·PH 유도체)", part="아가리쿠스(A. blazei Murrill 이름) 자실체와 가공식품",
+      content="아가리쿠스 식품 여러 종에서 112–1836 μg/g 건물[9]", method="HPLC-형광(DMEQ-COCl 유도체화)",
+      conditions=C(injection="20 μL", sample_prep="부분 정제 없이 분석", standard="DMEQ-COCl로 형광 유도체화", lod="45.3 fmol(아가리틴, S/N=3); CPH 422, PH 16.5, MPH 138 fmol", recovery="92.8–102%(아가리쿠스 시료·제품 첨가 회수)"),
+      rationale="아가리틴은 유전독성이 의심되는 히드라진 화합물로, 아가리쿠스 제품의 안전성 평가를 위해 이 분석법이 개발되었다[9]. 초록만 확인해 칼럼·이동상 등 조건은 전문 확인 못함[9].", source=[9], url=PM(16755074), source_kind="paper"),
+]
+
+d = dict(slug="agaricus-subrufescens", name_ko="붉은갓주름버섯", name_en="Almond mushroom (sun mushroom)",
+         scientific_name="Agaricus subrufescens Peck",
+         aliases=["Agaricus blazei Murrill sensu Heinem.(오적용명)", "Agaricus brasiliensis Wasser et al.(부당명)", "Agaricus rufotegulis Nauta", "히메마쓰타케(himematsutake)", "sun mushroom", "almond mushroom"],
+         sections=sections, compounds=compounds, markers=[], assays=assays, nutrients=[], production=[], world=[], gi=[], orgs=[], sources=sources)
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

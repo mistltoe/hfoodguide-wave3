@@ -1,0 +1,652 @@
+{
+ "slug": "pholiota-nameko",
+ "name_ko": "나도팽나무버섯",
+ "name_en": "Nameko mushroom",
+ "scientific_name": "Pholiota nameko (T. Itô) S. Ito & S. Imai",
+ "aliases": [
+  "맛버섯",
+  "나메코",
+  "Pholiota microspora",
+  "Nameko"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "나도팽나무버섯(Pholiota nameko)은 죽거나 썩은 나무에서 자라는 백색부후균으로, 동아시아의 서늘한 온대 낙엽수림에 분포하며 일본에서는 '나메코(nameko)'라 부르는 대표적인 식용버섯이다[2]. 식품의약품안전처 「식품원료 목록」에는 원료명 '나도팽나무버섯자실체', 학명 Pholiota nameko, 이명 '맛버섯'으로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. 따라서 일반 식품의 원료로는 자실체(버섯 몸체)를 쓸 수 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어, 고시된 지표성분과 기준은 확인하지 못함.\n\n논문에서는 Pholiota microspora (Berk.) Sacc.라는 이름도 쓰이며, 이 문서는 두 이름으로 보고된 자료를 같은 종으로 다룬다[2, 3]. 갓 표면이 미끈한 점액으로 덮여 있어 중국 논문은 'slippery mushroom'이라고도 소개했고, 이 점액은 핵산·다당으로 이루어졌다는 설명과 주로 펙틴이라는 보고가 함께 있다[5, 18]. 연구는 자실체 다당체(β-글루칸 등), 맛 성분(유리아미노산·뉴클레오타이드), 재배 기질, 짝짓기형 유전자, 재배 균주의 유전 다양성에 모여 있다[2, 4, 5, 8, 31]."
+  },
+  {
+   "key": "history",
+   "title": "재배의 역사",
+   "body": "기록에 따르면 나메코는 1921년 일본 도호쿠 지방에서 처음 원목으로 인공 재배되었고, 이 지역은 예로부터 이 버섯을 먹어 온 곳이다[2]. 현대적인 톱밥 재배법은 1930년에 확립되었고, 1960–1970년대 나무상자(트레이) 재배가 발달하면서 선발 균주의 상업 생산이 늘었다[2]. 1980년대부터 냉난방 시설을 갖춘 톱밥 재배로 연중 생산이 가능해져, 이 방식이 일본 생산의 99.7%를 차지하게 되었다[2]. 처음 순화된 균주는 1929년 야마가타현의 야생 자실체에서 분리되었으나 제2차 세계대전 뒤 사라진 것으로 보이며, 지금의 톱밥 재배 균주는 1962년 10월 16일 후쿠시마현에서 채집한 야생 균주 F27에서 나왔다고 여겨진다[2]. 1970년대 중반에는 재배가 중국 랴오닝성 남부로 전해졌고, 이후 중국이 최대 생산국이 되었다[2, 5].\n\n재배가 실내 공조 방식으로 바뀐 뒤인 1989년, 버섯 재배 종사자에게서 이 버섯의 포자를 들이마셔 생긴 과민성 폐렴이 처음 보고되었다[19]. 1994년 일본 보고는 이를 재배 방식의 변화가 새로운 유형의 과민성 폐렴을 낳은 사례로 정리했다[21]. 국내 도입 시기와 재배 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "나도팽나무버섯은 독청버섯과(Strophariaceae) 비늘버섯속(Pholiota)의 담자균으로 소개된다[7]. 죽거나 썩은 나무에서 자라는 백색부후균이며, 히말라야와 중국에서 일본에 이르는 동아시아의 서늘한 온대 낙엽수림에 분포한다[2]. 짝짓기형은 하나의 짝짓기형 유전자좌로 정해지는 2극성(bipolar) 이체성이며, A 짝짓기형 유전자좌에는 호메오도메인 단백질 유전자 두 개(hox1·hox2)가 같은 방향으로 놓여 있다[8, 9]. 이 두 유전자를 강한 프로모터로 발현시킨 단핵 균주는 85% 넘는 세포에서 이핵 균사의 특징인 꺾쇠연결(clamp)을 만들었다[8].\n\n중국 재배 시험에서는 균사를 25 ℃ 어둠에서 키운 뒤 14–18 ℃, 습도 93–96%, 이산화탄소 2,000 ppm 미만으로 바꾸어 버섯 발생을 유도했다[5]. 폴란드 시험에서는 15 ± 1 ℃, 습도 95–100%, 이산화탄소 1,000 ppm 미만, 하루 12시간 500 lx 조명에서 7–10일 만에 원기가 나왔다[6]. 균사·원기·생장·성숙 네 단계의 전사체 비교에서는 원기·생장 단계와 성숙 단계 사이에 단백질 가공과 지방산·리놀레산 대사 경로의 발현 차이가 두드러졌다[30]. N1 균주에서는 이 종에서 처음 보고된 마이코바이러스(나르나바이러스 PnNV1, 유전체 2,254 nt)가 발견되었다[28]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "식약처 「식품원료 목록」에는 같은 비늘버섯속의 노란갓비늘버섯(Pholiota spumosa, 별명 천사비늘버섯), 꽈리비늘버섯(Pholiota lubrica), 검은비늘버섯(Pholiota adiposa), 흰비늘버섯(Pholiota lenta)이 각각 따로 올라 있고, 모두 자실체만 쓸 수 있다[1]. 이들은 나도팽나무버섯과 다른 원료이므로 이 문서의 성분·안전성 자료와 섞지 않는다[1]. 이름이 비슷한 팽이버섯(Flammulina velutipes)은 같은 목록에서 별명이 '팽나무버섯'이어서, '나도팽나무버섯'과 혼동하지 않도록 주의해야 한다[1].\n\n학명은 식약처 목록의 Pholiota nameko 외에 Pholiota nameko (T. Itô) S. Ito & S. Imai, Pholiota microspora (Berk.) Sacc.가 논문에 함께 쓰인다[1, 3, 7]. 2025년 중국 유전체 연구의 계통 분석에서 ZZ1 균주는 같은 속 다른 종들과 가깝게 묶였다[7]. 다만 이 논문은 본문에서 과 이름과 GC 함량을 서로 다르게 적는 등 오기가 있어 세부 내용은 조심해서 읽어야 한다[7]. 일본 전역에서 모은 야생 균주 73개는 지역에 따라 유전적으로 나뉘지 않았다[2]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "일본에서는 공조 시설을 갖춘 톱밥 재배가 생산의 99.7%를 차지하고, 원목 재배는 1% 미만이다[2]. 2012년 생산량은 중국 70만 톤 이상, 일본 2만 톤 이상으로 인용되었고, 재배는 동남아시아·북미·유럽으로도 퍼지고 있다[2]. 중국 연구의 대조 배지는 포플러 톱밥 76%, 밀기울 15%, 옥수수가루 5%, 콩가루 2%, 석회 1%, 석고 1%에 수분 58–60%였다[5]. 톱밥 절반을 옥수숫대로 바꾼 배지(톱밥 38% + 옥수숫대 38%)는 봉지당 수량 275.66 ± 2.87 g, 생물학적 효율 90.75 ± 0.04%로 대조보다 각각 6.60%, 4.58% 높았고, 옥수숫대만 쓴 배지는 수량이 가장 낮았다[5]. 옥수숫대 비율이 높을수록 갓 표면 점액이 줄었다[5].\n\n폴란드 연구는 오리나무·너도밤나무 톱밥(1:1)에 밀기울 20%와 옥수수가루 5%를 더한 배지를 25 ℃에서 30일 배양했다[6]. 참나무 톱밥 표준 배지와 버드나무 칩 배지를 15 ℃에서 비교한 단백질체 연구에서는 배지에 따라 산화 효소와 셀룰로스 분해 효소의 발현이 달라졌다[3]. 종균은 유전적으로 정제되지 않은 균사 배양으로 퍼지기 때문에, 서로 다른 균사가 섞이면 모자이크·키메라 자실체 같은 이상 발생이 생길 수 있다[29]. 국내 생산량·재배 면적 통계(통계청·농림축산식품부 특용작물 생산실적)에서 나도팽나무버섯 항목은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "중국의 한 가공 공장은 생자실체 2,000 kg을 95 ℃ 물에 10분 데쳐 신선도를 유지한 뒤 절임·포장해 팔며, 이때 데친 물 약 1,500 L가 부산물로 나온다[4]. 이 과정에서 자실체 다당의 7.99%, 단백질의 41.04%, 폴리페놀의 62.96%, 유리아미노산의 84.24%가 물로 옮겨졌다[4]. 데친 물의 감칠맛 등가 농도(EUC)는 동결건조 분말 100 g당 MSG 2.453 g으로 자실체(0.097 g)의 약 25배였고, 연구진은 천연 감칠맛 소재·증점제로 쓸 수 있다고 보았다[4].\n\n자실체 β-(1→3)-글루칸은 1–2% 용액에서 젤 같은 성질과 가열 안정성을 보여 증점·겔화제 후보로 연구되었다[10, 11]. 다당체 PNPS-1은 고지혈증 쥐에서 혈청·간 지질을 낮추고 설치류 염증 모델에서 부종을 줄였으며, β-글루칸은 생쥐의 염증성 통증을 줄였지만, 모두 동물 실험이다[10, 12, 13]. 자실체 단백질 PNAP(18.5 kDa)는 유방암 세포(MCF-7)에 세포사멸을 일으켰으나 세포 실험 결과이다[17]. 일본 농촌 지역 환자–대조군 연구에서 나메코를 가장 많이 먹는 군의 위암 오즈비는 0.56(95% 신뢰구간 0.30–1.06)으로 통계적으로 뚜렷하지 않은 경계 수준이었다[27]. 점액 용액은 철 이온과 함께 미세플라스틱을 95.3% 응집 제거해 생물 응집제로도 연구되었다[18]. 사람 대상 무작위 임상시험과 식약처 「식품 등의 생산실적」의 나도팽나무버섯 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "2025년 중국 연구는 ZZ1 균주의 유전체를 Illumina와 Nanopore로 해독해 24.58 Mb, 33개 콘티그, 콘티그 N50 2.11 Mb로 조립했다[7]. 탄수화물 활성 효소 246개와 락케이스 유전자 11개가 예측되어 목질 분해 능력이 큰 것으로 해석되었고, k-mer 분석의 이형접합도는 0.51%였다[7]. 다만 이 논문은 유전자 모델 수를 87,544개로, GC 함량을 45.25%와 42.25%로 서로 다르게 적어 세부 수치는 확인이 더 필요하다[7]. A 짝짓기형 유전자좌에서는 HD1·HD2 호메오도메인 유전자를 찾았으나, B 짝짓기형(페로몬 수용체) 유전자좌는 얻지 못했다[7].\n\n일본 연구는 14개 미세위성 표지로 재배 균주와 일본 전역의 야생 균주 73개를 비교했다[2]. 일본 톱밥 재배 균주의 기대 이형접합도는 0.159로 야생 균주(0.564)보다 훨씬 낮았고 병목 신호가 나타났으며, 재배 균주끼리의 유연관계(0.799)는 완전 형제 수준을 넘었다[2]. 이 결과는 일본의 상업 나메코가 하나의 야생 조상에서 나왔다는 '단일 시조 가설'을 뒷받침하며, 연구진은 야생 집단을 새 균주 육성의 유전자원으로 제안했다[2]. 일본 시판 버섯의 유전자형은 모두 톱밥 재배 종균과 일치했고, 중국산 동결건조 가공식품에서도 이 표지로 유전자형을 판별할 수 있었다[2]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 나도팽나무버섯 자실체는 '사용가능' 원료이다[1]. 식약처 등 국내 공공기관의 나도팽나무버섯 알레르기·잔류·독성 정보는 확인하지 못함.\n\n보고된 주요 건강 문제는 먹어서가 아니라 실내 재배 중 포자를 들이마셔 생기는 과민성 폐렴이다[19, 20, 22]. 일본의 재배 종사자들이 기침·발열·운동 시 호흡곤란을 겪었고, 포자 추출물에 대한 침강 항체로 원인이 확인되었다[19, 20, 22]. 실내 재배자 15명 중 6명은 증상 없이 포자 항체를 가졌으나 실외 재배자 17명에서는 한 명도 없었다[21]. 다른 가공 공장 노동자 사례에서는 원인 항원이 효모 Trichosporon cutaneum으로 추정되었다[23].\n\n중국 온라인 판매 버섯 조사에서 나도팽나무버섯의 중금속 5종 위해지수(THQ)는 1 미만이었다[24]. 스페인 시판 통조림 버섯 연구는 하루 300 g 섭취를 가정할 때 나도팽나무버섯의 알루미늄 기여율이 59.2%로 최대 섭취량에 가깝다고 보았다[25]. 1991년 일본 조사에서 이 버섯의 세슘-137은 보통 건조 무게 1 kg당 50 Bq 미만으로 낮았다[26]. 옥수숫대를 섞은 배지의 버섯은 비소·카드뮴·납이 대조보다 높았다고 본문에 적혀 있으나, 같은 논문의 표에서는 비소가 일부 배지(옥수숫대 19%·57%)에서 대조보다 낮았고, 유해 원소는 모두 중국 식용균 기준 이내였다[5]. 데친 물과 자실체의 효소 억제법 농약 검사는 연구진이 안전하다고 판단했으나, 방법 절과 결과 절의 판정 기준 서술이 서로 달라 해석에 주의가 필요하다[4]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Ergothioneine",
+   "name_ko": "에르고티오네인",
+   "class": "아미노산 유도체(황 함유)",
+   "role": "marker",
+   "part": "자실체(중국 가공 공장 원료, 분말)",
+   "content_text": "자실체 0.82 ± 0.03 mg/g, 데친 물 동결건조 분말 0.43 ± 0.04 mg/g(시료 분말 건조 무게 기준)[4]",
+   "activity_ko": "버섯에 주로 있는 항산화 물질로 소개됨(이 연구에서 활성 시험은 하지 않음)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "L-Threonine",
+   "name_ko": "유리아미노산(트레오닌 등)",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "자실체(건물 기준)",
+   "content_text": "총 유리아미노산 12.31 mg/g, 이 중 트레오닌 2.96 ± 0.12 mg/g으로 가장 많음; 데친 물 10.37 mg/g[4]",
+   "activity_ko": "자실체에서 맛 활성값(TAV)이 1을 넘는 단맛 아미노산(표 1의 TAV 1.14, 본문은 1.44로 적어 서로 다름)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Adenosine monophosphate",
+   "name_ko": "5′-뉴클레오타이드(5′-AMP·5′-IMP)",
+   "class": "뉴클레오타이드",
+   "role": "nutrient",
+   "part": "자실체·데친 물",
+   "content_text": "자실체 AMP 0.13 ± 0.01, IMP 불검출; 데친 물 AMP 0.40 ± 0.02, IMP 0.53 ± 0.03(표 1; 방법 절은 µmol/g, 표 제목은 mg/g으로 단위 표기가 엇갈림)[4]",
+   "activity_ko": "감칠맛 뉴클레오타이드로, 데친 물의 감칠맛 등가 농도는 MSG 2.453 g/100 g, 자실체는 0.097 g/100 g[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "L-Glutamic acid",
+   "name_ko": "글루탐산(구성 아미노산)",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "자실체(대조 톱밥 배지, 건조 분말)",
+   "content_text": "글루탐산 1.84 ± 0.15%, 총 아미노산 11.72 ± 0.14%, 필수아미노산 5.88 ± 0.08%(아미노산 분석기, 16종)[5]",
+   "activity_ko": "본문은 16종 가운데 모든 배지에서 함량이 가장 높고 다음은 메싸이오닌이라고 했으나, 표에서는 옥수숫대 57% 배지(T3)에서 메싸이오닌(1.29%)이 글루탐산(1.25%)보다 약간 높음[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "자실체",
+   "content_text": "지방산 조성 중 57.31%(불포화지방산 76.52%, 포화지방산 23.48%)[4]",
+   "activity_ko": "자실체 지질의 주된 불포화지방산[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "beta-1,3-Glucan",
+   "name_ko": "β-(1→3)-D-글루칸(GHW-PN·bG-PN)",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체(열수·냉수 추출)",
+   "content_text": "(1→3) 결합 주사슬의 O-6 위치가 약 27% 치환된 β-글루칸, 정제 분획 수율 1.46%[10]",
+   "activity_ko": "0.3·1.0·3.0 mg/kg에서 생쥐 포르말린 염증성 통증을 24.8·56.9·82.3% 억제(동물 실험); 1–2% 용액에서 젤 같은 성질과 가열 안정성[10, 11]",
+   "source": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Polysaccharide",
+   "name_ko": "나도팽나무버섯 다당체(PNPS-1)",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "효소 가수분해·열수 추출·에탄올 침전·크로마토그래피로 정제(함량 수치는 초록에 없음)[13]",
+   "activity_ko": "고지혈증 쥐(20·40·60 mg/kg 경구)에서 간 총콜레스테롤 −24.22·−34.26·−55.02%, 설치류 부종·육아종 억제(동물 실험)[12, 13]; 다당체 연구 전반은 항산화·지질 저하·면역 조절 활성을 보고[31]",
+   "source": [
+    12,
+    13,
+    31
+   ]
+  },
+  {
+   "name": "Heterogalactan",
+   "name_ko": "헤테로갈락탄",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "6종 버섯의 헤테로갈락탄은 중량평균분자량 약 20 kDa, (1→6)-α-D-갈락토피라노실 주사슬이 O-2에서 만노스·푸코스로 치환된 공통 구조(나도팽나무버섯 것이 만노갈락탄·푸코갈락탄 중 어느 유형인지와 함량은 초록에서 확인하지 못함)[14]",
+   "activity_ko": "만노갈락탄 사슬의 3-O-메틸 갈락토스 잔기가 환원력·라디칼 소거능과 관련(시험관 실험, 6종 버섯 비교; 나도팽나무버섯 시료에 해당하는지는 초록에서 확인하지 못함)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Syringic acid",
+   "name_ko": "시링산",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "자실체(80% 에탄올 추출)",
+   "content_text": "대조 배지 9.18 μg/g DW, 철·칼슘 첨가 배지 조합 중 최고 50.8 μg/g DW(UPLC-PDA)[6]",
+   "activity_ko": "이 종의 페놀 조성은 빈약해 몰식자산·4-하이드록시벤조산·시납산·시링산 4종만 정량되었고, 시링산이 거의 모든 조합에서 검출[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "몰식자산(갈산)",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "대조 배지 자실체에서는 몰식자산과 시링산 두 가지만 동정됨(몰식자산 수치는 표·그림에만 있어 확인하지 못함)[6]; 물 추출물 총페놀 43.55 ± 0.10 GAE(μmol/L)/mg 추출물[32]",
+   "activity_ko": "물 추출물의 항산화 활성은 총페놀 함량과 상관(4종 버섯 비교)[32]",
+   "source": [
+    6,
+    32
+   ]
+  },
+  {
+   "name": "6-Deoxy-L-ascorbic acid",
+   "name_ko": "6-데옥시아스코르브산 유사체·배당체",
+   "class": "아스코르브산 유사체",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "팽이·만가닥·나메코·잎새버섯의 환원 물질이 6-데옥시-AsA와 그 C-5 배당체 등으로 확인(어느 화합물이 나메코에서 나왔는지와 함량은 초록에서 확인하지 못함)[15]",
+   "activity_ko": "아스코르브산과 비슷한 환원성 물질; 버섯에는 아스코르브산 자체는 거의 없음[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "(3S,6S,7S,8R,10S)-3,7,14-trihydroxy-1-sterpurene",
+   "name_ko": "스테르퓨란 세스퀴테르펜",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "균사 배양물(식품원료 사용 부위 아님)",
+   "content_text": "배양물에서 분리된 새 화합물, X선 결정으로 절대배열 확인(함량 수치 없음)[16]",
+   "activity_ko": "사람 암세포 5종에서 뚜렷한 세포독성 없음(IC50 > 40 μM)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Illudane sesquiterpene",
+   "name_ko": "일루단 세스퀴테르펜",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "액체 배양물(식품원료 사용 부위 아님)",
+   "content_text": "전구체 첨가·효소 억제제 발효로 얻은 새 화합물(함량 수치 없음)[33]",
+   "activity_ko": "암세포 3종에서 뚜렷한 세포독성 없음(IC50 > 40 μM)[33]",
+   "source": [
+    33
+   ]
+  },
+  {
+   "name": "Pectin",
+   "name_ko": "펙틴(자실체 점액)",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체 표면 점액",
+   "content_text": "점액은 주로 펙틴으로 이루어짐(함량 수치는 초록에 없음)[18]",
+   "activity_ko": "Fe(III)과 젤을 만들어 폴리스타이렌 미세플라스틱 95.3%, 나노플라스틱 87.4% 응집 제거[18]",
+   "source": [
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Ergothioneine",
+   "compound_ko": "에르고티오네인",
+   "part": "자실체·데친 물(동결건조 분말)",
+   "content": "자실체 0.82 ± 0.03 mg/g, 데친 물 0.43 ± 0.04 mg/g[4]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "LC-20A 고성능 액체크로마토그래프",
+    "column": "ShimNex HE NH2(원문 표기 'NH' 뒤 숫자 손실, 규격은 원문에 없음)",
+    "mobile_phase": "아세토나이트릴–20 mM 아세트산암모늄(80:20, v/v), pH 6.0",
+    "gradient": "고정 비율(80:20)",
+    "flow": "1 mL/min",
+    "temp": "35 ℃",
+    "detection": "254 nm",
+    "injection": "5 μL",
+    "sample_prep": "",
+    "standard": "에르고티오네인 표준품 1 mg/mL(메탄올), 여과 후 분석",
+    "linearity": "y = 19814x − 8616.3 (R² = 0.9961)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "버섯에 특징적으로 많은 황 함유 항산화 물질로, 데친 물로 옮겨 가는 비율을 비교하는 지표로 정량되었다[4]. 시료 추출법·검출·정량한계·회수율은 원문에 없다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41547951/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Free amino acids (OPA/FMOC derivatives)",
+   "compound_ko": "유리아미노산(OPA·FMOC 유도체)",
+   "part": "자실체·데친 물(분말, 건물 기준)",
+   "content": "총 유리아미노산 자실체 12.31 mg/g, 데친 물 10.37 mg/g; 트레오닌 2.96 ± 0.12 mg/g(자실체)[4]",
+   "method": "HPLC-VWD(자동 온라인 사전 유도체화)",
+   "conditions": {
+    "instrument": "Agilent 1100, 가변파장검출기(VWD)",
+    "column": "ZORBAX Eclipse AAA, 4.6 × 150 mm, 3.5 μm",
+    "mobile_phase": "A: 40 mM 인산이수소나트륨(pH 7.8), B: 아세토나이트릴/메탄올/물(45/45/10, v/v/v)",
+    "gradient": "B 0% (0–1분) → 57% (1–23분) → 100% (23–27분), 100% 유지(27–34분), 0%로 감소(34–40분), 0% (40–41분)",
+    "flow": "1.0 mL/min",
+    "temp": "45 ℃",
+    "detection": "338 nm(0–19분, OPA 유도체), 266 nm(19.01–25분, FMOC 유도체)",
+    "injection": "",
+    "sample_prep": "분말 0.5 g + 0.01 M 염산 5 mL 혼합·30분 가열 → 10,000 rpm 10분 원심 → 침전에 0.01 M 염산 4 mL, 초음파 5분, 재원심 → 상등액 합쳐 10 mL 정용 → 0.22 μm 여과",
+    "standard": "1차 아미노산은 OPA, 2차 아미노산(하이드록시프롤린·프롤린·사르코신)은 FMOC-Cl로 유도체화",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "유리아미노산은 버섯 맛의 중심 성분이며, 이 연구는 맛 활성값(TAV)과 감칠맛 등가 농도 계산에 썼다[4]. 검출·정량한계와 회수율은 원문에 없다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41547951/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Phenolic acids (syringic, gallic, 4-hydroxybenzoic, sinapic acid)",
+   "compound_ko": "페놀산(시링산·몰식자산·4-하이드록시벤조산·시납산)",
+   "part": "자실체(폴란드 PN04 균주, 80% 에탄올 추출)",
+   "content": "시링산 대조 9.18 μg/g DW, 철·칼슘 첨가 조합 최고 50.8 μg/g DW[6]",
+   "method": "UPLC-PDA",
+   "conditions": {
+    "instrument": "Waters ACQUITY UPLC H-Class, 광다이오드배열검출기(PDA)",
+    "column": "Waters Acquity UPLC BEH C18, 2.1 × 150 mm, 1.7 μm",
+    "mobile_phase": "물과 아세토나이트릴(둘 다 0.1% 폼산, pH 2)",
+    "gradient": "5% B(2분), 5–16% B(5분), 16% B(3분), 16–20% B(7분), 20–28% B(11분), 0.45 mL/min에서 28%(1분), 28–60% B(3분), 60–95% B(1분), 65% B(1분), 95–5% B(0.1분), 0.4 mL/min에서 5% B(1.9분)(원문에 '5.0 mL/min' 표기가 있으나 오기로 보임)",
+    "flow": "0.4 mL/min(일부 구간 0.45 mL/min)",
+    "temp": "35 ℃",
+    "detection": "280 nm, 320 nm",
+    "injection": "5 μL",
+    "sample_prep": "균질화한 자실체 5 g + 80% 에탄올 25 g, 40 ℃ 초음파 20분 → 실온 12시간 진탕 → 2,700 g, 25 ℃ 15분 원심 → 증발 건고 → −20 ℃ 보관",
+    "standard": "표준품의 머무름 시간과 비교해 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종은 페놀 조성이 빈약해 4종의 페놀산만 정량되었고, 시링산이 거의 모든 처리에서 검출되어 배지 조건에 따른 변화를 보는 지표가 되었다[6]. 검출·정량한계와 회수율은 페놀산에 대해 원문에 없다(원소 분석에만 검출한계 0.01 mg/kg DW, 회수율 80–120% 기재)[6].",
+   "source": [
+    6
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34834638/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "자실체(중국 재배 CCMJ2806 균주, 대조 포플러 톱밥 배지 CK)",
+   "basis": "수분은 생자실체, 나머지는 60 ℃ 건조 분말 기준으로 보임(원문 %·mg/kg 그대로)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 92.06,
+     "unit": "%"
+    },
+    {
+     "name": "조단백질",
+     "value": 21.04,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 1.15,
+     "unit": "%"
+    },
+    {
+     "name": "총당",
+     "value": 30.5,
+     "unit": "%"
+    },
+    {
+     "name": "칼슘",
+     "value": 820.33,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 1220.12,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "나트륨",
+     "value": 140.33,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "철",
+     "value": 130.29,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "아연",
+     "value": 51.44,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "망가니즈",
+     "value": 18.34,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "구리",
+     "value": 12.78,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "셀레늄",
+     "value": 0.32,
+     "unit": "mg/kg"
+    }
+   ],
+   "source": [
+    5
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "중국",
+   "metric": "production_t",
+   "year": 2012,
+   "value": 700000,
+   "unit": "t",
+   "note": "논문이 인용한 값('over 700,000 tons'), 원 통계는 확인하지 못함[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "country": "일본",
+   "metric": "production_t",
+   "year": 2012,
+   "value": 20000,
+   "unit": "t",
+   "note": "논문이 인용한 값('over 20,000 tons'), 원 통계는 확인하지 못함[2]",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 나도팽나무버섯자실체(Pholiota nameko), 같은 속 비늘버섯류·팽이버섯 행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Japanese \"nameko\" mushrooms (Pholiota microspora) produced via sawdust-based cultivation exhibit severe genetic bottleneck associated with a single founder (PMC10012341 전문) (Mycoscience, 2022; PMID 37089630)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37089630/",
+   "publisher": "Mycoscience (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Proteomic insights into Pholiota nameko mycelial response to wood-based substrates (초록) (Fungal Biology, 2025; PMID 41545164)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41545164/",
+   "publisher": "Fungal Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Chemical composition, metabolomics, and functional potential of Pholiota nameko pre-cooking liquid (PMC12891698 전문) (Scientific Reports, 2026; PMID 41547951)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41547951/",
+   "publisher": "Scientific Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Effects of corn stalk cultivation substrate on the growth of the slippery mushroom (Pholiota nameko) (PMC9060681 전문) (RSC Advances, 2019; PMID 35515944)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35515944/",
+   "publisher": "RSC Advances (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Influence of Iron Addition (Alone or with Calcium) to Elements Biofortification and Antioxidants in Pholiota nameko (PMC8623578 전문) (Plants (Basel), 2021; PMID 34834638)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34834638/",
+   "publisher": "Plants (Basel) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Whole-Genome Sequencing and Fine Map Analysis of Pholiota nameko (PMC11856836 전문) (Journal of Fungi, 2025; PMID 39997406)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39997406/",
+   "publisher": "Journal of Fungi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "A-mating-type gene expression can drive clamp formation in the bipolar mushroom Pholiota microspora (Pholiota nameko) (초록) (Eukaryotic Cell, 2010; PMID 20453073)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20453073/",
+   "publisher": "Eukaryotic Cell (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Genomic structure of the A mating-type locus in a bipolar basidiomycete, Pholiota nameko (초록) (Mycological Research, 2008; PMID 19049868)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19049868/",
+   "publisher": "Mycological Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Gelling functional property, anti-inflammatory and antinociceptive bioactivities of β-D-glucan from the edible mushroom Pholiota nameko (초록) (International Journal of Biological Macromolecules, 2018; PMID 30218731)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30218731/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Structural characterization and rheological properties of a gel-like β-d-glucan from Pholiota nameko (초록) (Carbohydrate Polymers, 2017; PMID 28504124)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28504124/",
+   "publisher": "Carbohydrate Polymers (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Hypolipidemic effect of the polysaccharide from Pholiota nameko (초록) (Nutrition, 2009; PMID 19815391)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19815391/",
+   "publisher": "Nutrition (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Anti-inflammatory activity of polysaccharide from Pholiota nameko (초록) (Biochemistry (Moscow), 2008; PMID 18620532)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18620532/",
+   "publisher": "Biochemistry (Moscow) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Structure and antioxidant activity of six mushroom-derived heterogalactans (초록) (International Journal of Biological Macromolecules, 2022; PMID 35461867)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35461867/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Distribution of ascorbic acid analogs and associated glycosides in mushrooms (초록) (Journal of Nutritional Science and Vitaminology, 1994; PMID 7931730)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7931730/",
+   "publisher": "Journal of Nutritional Science and Vitaminology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "One new sterpurane sesquiterpene from cultures of the basidiomycete Pholiota nameko (초록) (Natural Product Research, 2019; PMID 30887855)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30887855/",
+   "publisher": "Natural Product Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Purification and characterization of a novel antitumor protein with antioxidant and deoxyribonuclease activity from edible mushroom Pholiota nameko (초록) (Biochimie, 2013; PMID 24189312)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24189312/",
+   "publisher": "Biochimie (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Removal of microplastics or nanoplastics using nameko (Pholiota nameko) mucilage as a flocculant (초록) (Chemosphere, 2026; PMID 41903317)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41903317/",
+   "publisher": "Chemosphere (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Hypersensitivity pneumonitis due to mushroom (Pholiota nameko) spores (초록) (Chest, 1989; PMID 2707072)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2707072/",
+   "publisher": "Chest (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Hypersensitivity pneumonitis induced by inhalation of mushroom (Pholiota nameko) spores (초록) (Internal Medicine, 1994; PMID 7849381)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7849381/",
+   "publisher": "Internal Medicine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Three cases of hypersensitivity pneumonitis caused by inhalation of spores of Pholiota nameko and the background of the disease (영문 초록) (Nihon Kyobu Shikkan Gakkai Zasshi, 1994; PMID 7967239)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7967239/",
+   "publisher": "Nihon Kyobu Shikkan Gakkai Zasshi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Hypersensitivity pneumonitis induced by spores of Pholiota nameko (초록) (Internal Medicine, 1996; PMID 8739786)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8739786/",
+   "publisher": "Internal Medicine (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "A case of hypersensitivity pneumonitis in Pholiota nameko's manufacturer (영문 초록) (Nihon Kyobu Shikkan Gakkai Zasshi, 1993; PMID 8515611)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8515611/",
+   "publisher": "Nihon Kyobu Shikkan Gakkai Zasshi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Levels and Health Risk Assessment of Inorganic Arsenic, Methylmercury, and Heavy Metals in Edible Mushrooms Collected from Online Supermarket in China (초록) (Biological Trace Element Research, 2023; PMID 37526876)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37526876/",
+   "publisher": "Biological Trace Element Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Trace element and toxic metal intake from the consumption of canned mushrooms marketed in Spain (초록) (Environmental Monitoring and Assessment, 2018; PMID 29564562)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29564562/",
+   "publisher": "Environmental Monitoring and Assessment (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Concentrations of radiocesium and potassium in basidiomycetes collected in Japan (초록) (Science of the Total Environment, 1991; PMID 1925522)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1925522/",
+   "publisher": "Science of the Total Environment (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Cruciferous vegetables, mushrooms, and gastrointestinal cancer risks in a multicenter, hospital-based case-control study in Japan (초록) (Nutrition and Cancer, 2003; PMID 14690789)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14690789/",
+   "publisher": "Nutrition and Cancer (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "A novel narnavirus isolated from the edible fungus Pholiota nameko (초록) (Archives of Virology, 2025; PMID 41408451)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41408451/",
+   "publisher": "Archives of Virology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Interactions of heterologous mycelia colonized in the substrate govern fruit body production in the cultivated homobasidiomycete Pholiota nameko (초록) (Bioscience, Biotechnology, and Biochemistry, 2003; PMID 12619680)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12619680/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Transcriptomic Profiling of Developmental Stages and Screening of Candidate Genes in Pholiota nameko (초록) (Journal of Fungi, 2026; PMID 42506303)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42506303/",
+   "publisher": "Journal of Fungi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Extraction, structure and bioactivities of polysaccharides from Pholiota nameko: a review (초록) (Food Science and Biotechnology, 2025; PMID 41211565)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41211565/",
+   "publisher": "Food Science and Biotechnology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Comparison of the Composition and Antioxidant Activities of Phenolics from the Fruiting Bodies of Cultivated Asian Culinary-Medicinal Mushrooms (초록) (International Journal of Medicinal Mushrooms, 2016; PMID 27910755)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27910755/",
+   "publisher": "International Journal of Medicinal Mushrooms (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "A new illudane sesquiterpene from the edible fungus Pholiota nameko (초록) (Natural Product Research, 2024; PMID 38587144)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38587144/",
+   "publisher": "Natural Product Research (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

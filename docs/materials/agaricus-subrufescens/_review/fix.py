@@ -1,0 +1,56 @@
+import json,re,sys
+P='/home/user/hfoodguide-wave3/docs/materials/agaricus-subrufescens/dossier.json'
+d=json.load(open(P,encoding='utf-8'))
+changes=[]
+def rep(where,obj,key,old,new,why):
+    s=obj[key]
+    assert old in s,(where,old)
+    obj[key]=s.replace(old,new,1)
+    changes.append({"where":where,"before":old,"after":new,"why":why})
+S={s['key']:s for s in d['sections']}
+C={c['name']:c for c in d['compounds']}
+rep('sections.overview',S['overview'],'body',"분류학 논문은 시판·재배되는 '아가리쿠스'가 대부분 이 종이라고 보지만","분류학 논문은 'A. blazei Murrill sensu Heinem.'·'A. brasiliensis'로 불려 온 브라질 재배 계통을 이 종으로 보지만","[3]·[4]는 브라질 재배 계통의 동종성을 말할 뿐 시판품 '대부분'이라는 비율은 말하지 않음")
+rep('sections.overview',S['overview'],'body',"만니톨·유기산 같은 맛 성분","만니톨·유기산 같은 성분","[5]는 유기산만 맛·풍미 기여로 서술, 만니톨은 맛 성분으로 서술하지 않음")
+rep('sections.history',S['history'],'body',"2002년부터는 A. brasiliensis Wasser 등으로도 불렸다[3]","2002년부터는 A. brasiliensis Wasser 등으로도 불렸다[3, 4]","[3] 초록에는 2002년이 없고 [4] 동의어 목록(Int. J. Med. Mush. 4: 274, 2002)에 있음")
+rep('sections.related_species',S['related_species'],'body',"따라서 야생 채취품은 전문가 동정 없이 먹지 않는 것이 안전하다는 것이 이런 형태적 은닉종 보고의 함의다[4].","A. macrochlamys가 식용·약용 가치를 지니는지는 아직 연구되지 않았다[4].","[4]는 야생 채취 섭취 권고를 하지 않음(작성자 추론). 원문 Discussion 의 미해결 질문으로 바꿈")
+rep('sections.cultivation',S['cultivation'],'body',"이 버섯은 양송이처럼 발효시킨","이 버섯은 발효시킨","[8]·[30] 초록에 양송이와 같은 방식이라는 서술 없음(근연종 정보 섞임 방지)")
+rep('sections.processing',S['processing'],'body',"(1→6) 곁사슬이 붙은 β-글루칸으로 확인되었고 생쥐 B 림프구의 항체 생산을 높였다[5]","(1→6) 곁사슬이 붙은 β-글루칸으로 확인되었고, 생쥐 비장세포 배양(시험관)에서 B 림프구의 항체 생산을 높였다[5]","[5] 전문: 비장세포 현탁액 시험관 배양 실험 — 생체 실험이 아님을 밝힘")
+rep('sections.processing',S['processing'],'body',"같은 β-글루칸을 황산화한 유도체는 세포·생쥐 실험에서 뎅기·지카 바이러스 감염과 NS1 단백질에 의한 혈관 투과성 증가를 억제했다[26]","다른 연구에서 자실체의 (1→6)(1→3)-β-글루칸을 황산화한 유도체는 사람 단핵구 세포에서 뎅기·지카 바이러스 증식을 억제했고, 생쥐에서 뎅기 NS1 단백질에 의한 피부 혈관 투과성 증가를 줄였다[26]","[26]은 [5]와 다른 시료의 β-글루칸('같은'이 아님). 바이러스 증식 억제는 세포, 생쥐는 NS1 투과성·뎅기 모델만")
+rep('sections.processing',S['processing'],'body',"건조물의 탄수화물은 59–72.6 g/100 g","건조물의 탄수화물은 59–72.6 g/100 g(재배실 AS 16/01만 53.4 g/100 g)","[6] 전문: AS 16/01 예외 53.4 g/100 g dw")
+rep('sections.safety',S['safety'],'body',"주름버섯속에는 유전독성 히드라진 화합물 아가리틴이 있으며","주름버섯속 일부 종(양송이 포함)에는 유전독성이 의심되는 히드라진 화합물 아가리틴이 있으며","[9] 'a part of Agaricus', [12] A. bisporus에도 있음 — 속 전체 단정 완화")
+rep('sections.safety',S['safety'],'body'," 2006년 일본 후생노동성이 한 아가리쿠스 과립 제품의 쥐 발암 촉진 시험 결과로 판매 중지를 요청했다고 알려졌으나 원문은 확인하지 못함[29].","","[29] 원문이 차단되어 열리지 않았고 검색 요약만으로 쓴 문장 — 우회 금지 규칙에 따라 문장과 출처 삭제")
+rep('sections.safety',S['safety'],'body',"1명은 재복용 뒤 다시 악화되었다[13].","1명은 재복용 뒤 다시 악화되었다[13]. 저자들은 다른 원인을 완전히 배제하지는 못했으나 강한 인과관계를 시사한다고 보았다[13].","[13] 초록의 인과성 단서 누락")
+rep('sections.safety',S['safety'],'body',"자가면역간염과 비슷한 약물 유발 간손상 2례도 보고되었다[14].","아가리쿠스 추출물을 영지 추출물 또는 푸코이단과 함께 먹던 암 환자 2명에게서 자가면역간염과 비슷한 약물 유발 간손상(RUCAM 평가)도 보고되었다[14].","[14] 두 증례 모두 다른 보충제 병용 — 단독 원인처럼 읽히지 않게 함")
+rep('sections.safety',S['safety'],'body',"쥐 90일·2년 시험과 중기 다장기 발암 시험에서는 뚜렷한 독성·발암 촉진이 없었고[16, 17, 19], 한 추출물의 무독성량은 1000 mg/kg/일이었다[18].","쥐 90일·2년 시험에서는 뚜렷한 독성·발암성이 없었고[16, 17], 중기 다장기 발암 시험에서는 최고용량군에서 2 mm 미만 대장 결절 수만 늘었을 뿐 병변 발생률 차이는 없었다[19]. 한 열수 추출물은 13주 시험 무독성량이 1000 mg/kg/일이었고, 세균 복귀돌연변이·소핵 시험은 음성, 마우스 림포마 시험은 약한 양성이었다[18].","[19] 고용량 대장 결절 수 증가, [18] 림포마 약양성 누락")
+rep('sections.safety',S['safety'],'body',"임신 쥐 600 mg/kg/일에서는 흉골 형성 이상이 늘었다[20].","임신 쥐 600 mg/kg/일에서는 흉골 무형성이 늘었고 300 mg/kg/일에서도 흉골 불완전 골화가 나타났다[20].","[20] 초록: 300 mg/kg/일에서도 불완전 골화")
+# compounds
+rep('compounds.Trehalose.activity_ko',C['Trehalose'],'activity_ko',"버섯의 주요 저장 당[6]","포도당과 함께 가장 많은 유리당[6]","[6]은 '저장 당'이라 하지 않음")
+rep('compounds.beta-Glucan.activity_ko',C['beta-Glucan'],'activity_ko',"생쥐 B 림프구 항체 생산 증가[5]; 황산화 유도체가 뎅기·지카 바이러스 감염 억제(세포·생쥐)[26]","생쥐 비장세포 배양(시험관)에서 B 림프구 항체 생산 증가[5]; 황산화 유도체가 뎅기·지카 바이러스 증식 억제(세포), 뎅기 NS1 혈관 투과성 감소(생쥐)[26]","세포·동물 구분 명확화")
+rep('compounds.Agaritine.activity_ko',C['Agaritine'],'activity_ko',"(U937 IC50 2.7 μg/mL)[10]","(U937 IC50 2.7 μg/mL), 같은 연구에서 umu 시험 음성[10]","[10] 초록 내용 보완")
+rep('compounds.Ergosterol.content_text',C['Ergosterol'],'content_text',"최대 990 mg kg(초록 표기, 위첨자 단위 확인 필요)[7]","최대 990 mg/kg(초록 표기 'mg kg', 위첨자 소실로 mg kg⁻¹로 읽음; 건물·생물 기준은 초록에 없음)[7]","단위 표기와 기준 미상을 명시")
+rep('compounds.Ergocalciferol.content_text',C['Ergocalciferol'],'content_text',"최대 36.8 mg kg(초록 표기, 위첨자 단위 확인 필요)[7]","최대 36.8 mg/kg(초록 표기 'mg kg', 위첨자 소실로 mg kg⁻¹로 읽음; 건물·생물 기준은 초록에 없음)[7]","단위 표기와 기준 미상을 명시")
+# assays
+A=d['assays'][3]
+changes.append({"where":"assays[Agaritine].conditions.standard","before":A['conditions']['standard'],"after":"","why":"DMEQ-COCl은 유도체화 시약이지 표준품이 아님(method 칸에 이미 있음)"})
+A['conditions']['standard']=""
+# drop source 29, renumber
+old=d['sources']; mp={}
+new=[]
+for s in old:
+    if s['n']==29: continue
+    mp[s['n']]=len(new)+1; s['n']=len(new)+1; new.append(s)
+d['sources']=new
+def renum(t):
+    def f(m):
+        parts=[p.strip() for p in m.group(1).split(',')]
+        return '['+', '.join(str(mp[int(p)]) for p in parts)+']'
+    return re.sub(r"\[(\d+(?:\s*,\s*\d+)*)\]",f,t)
+for s in d['sections']: s['body']=renum(s['body'])
+for arr in ('compounds','assays'):
+    for x in d[arr]:
+        x['source']=[mp[n] for n in x['source']]
+        for k,v in list(x.items()):
+            if isinstance(v,str): x[k]=renum(v)
+json.dump(d,open(P,'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+json.dump(changes,open(P.replace('dossier.json','_review/changes.json'),'w',encoding='utf-8'),ensure_ascii=False,indent=1)
+print(len(changes))
