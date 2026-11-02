@@ -1,0 +1,78 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/fallopia-japonica/dossier.json'
+d=json.load(open(p))
+changes=[]
+def sec(k): return next(s for s in d['sections'] if s['key']==k)
+def rep(where,obj,key,old,new,why):
+    v=obj[key]
+    assert old in v,(where,old)
+    obj[key]=v.replace(old,new,1)
+    changes.append({"where":where,"before":old,"after":new,"why":why})
+def comp(n): return next(c for c in d['compounds'] if c['name']==n)
+
+s=sec('processing')
+rep('sections.processing',s,'body',
+ "폴란드 연구에서 줄기의 폴리페놀은 평균 10.60 g/100 g(건물)로 잎(17.81 g)보다 적고 뿌리(9.02 g)와 비슷했으며, 줄기 폴리페놀의 대부분은 중합 프로안토시아니딘이었다[4].",
+ "폴란드 야생 호장근과 왕호장근(F. sachalinensis)을 함께 분석한 연구에서 줄기의 폴리페놀은 두 종 평균 10.60 g/100 g(건물)으로 잎(17.81 g)보다 적고 뿌리(9.02 g)와 비슷했으며, 줄기 폴리페놀의 대부분(85%)은 중합 프로시아니딘이었다(호장근 단독 수치가 아니라 두 종 평균)[4].",
+ "[4] 의 부위별 수치는 F. japonica 와 F. sachalinensis 두 종의 평균임(근연종 자료 섞임 명시)")
+rep('sections.processing',s,'body',
+ "중국에는 호장을 주원료로 한 캡슐·정제·팅크·외용제 같은 의약품이 허가되어 있으나 이는 뿌리 원료다[6].",
+ "중국에는 호장을 주원료로 한 캡슐·정제·팅크·외용제 같은 의약품이 허가되어 있으나, 이는 식품이 아닌 의약품이며 각 제품의 원료 부위는 이 검토에 적혀 있지 않다(제품명 'Huzhangye'는 잎을 뜻함)[6].",
+ "[6] 은 제품 원료 부위를 밝히지 않으며, Huzhangye(虎杖叶) 캡슐은 이름상 잎 원료라 '뿌리 원료'라는 단정은 근거 없음")
+
+s=sec('genetics')
+rep('sections.genetics',s,'body',
+ "그럼에도 지역에 따라 적외선 분광 지문이 달라, 유전적으로 같아도 환경에 따른 성분 차이가 생긴다[14].",
+ "그럼에도 영국 세 지역의 시료는 적외선 분광 지문으로 높은 정확도로 구별되었는데, 이 차이는 지역 간 환경 변수와 상관이 없어 연구진은 후성유전 변화가 관여할 가능성을 제기했다[14].",
+ "[14] 초록은 차이가 환경 변이와 상관하지 않는다고 씀(환경 탓이라는 서술은 원문과 반대)")
+
+s=sec('safety')
+rep('sections.safety',s,'body',
+ "사람에서는 만성 알코올 환자 20명에게 폴리다틴을 2주 준 소규모 예비 연구만 있다[22].",
+ "사람에서는 만성 알코올 환자 20명을 두 군으로 나눠 한 군에만 글루타티온·비타민 C에 폴리다틴을 더해 2주 준 소규모 예비 연구가 있으며, 이 폴리다틴은 줄기가 아니라 뿌리줄기 유래 성분으로 소개되었다[22].",
+ "[22] 초록: 20명은 두 군으로 나뉘었고 폴리다틴은 글루타티온·비타민 C와 병용, 뿌리줄기 유래로 기술")
+rep('sections.safety',s,'body',
+ "간세포에서 미토콘드리아 호흡사슬을 억제한다[20].",
+ "배양한 사람 간세포주(L02)에서 미토콘드리아 호흡사슬 복합체를 억제했다(세포 실험)[20].",
+ "[20] 은 L02 세포주 실험이므로 세포 수준임을 명시(과장 방지)")
+rep('sections.safety',s,'body',
+ "러시아 연구에서 줄기의 퀘스틴은 흔적량이었다[5].",
+ "러시아 연구에서 두 종 가운데 한 종의 줄기에서 퀘스틴이 흔적량 검출되었다(받은 전문에서 종명이 빠져 어느 종인지는 확인하지 못함)[5].",
+ "[5] 전문에서 종명이 빠져 있어 호장근 줄기라고 단정할 수 없음")
+rep('sections.safety',s,'body',
+ "루마니아 한 지점의 줄기에서는 칼슘 7,865.97 mg/kg, 마그네슘 520.90 mg/kg이 검출되었고",
+ "루마니아 한 지점(Valea Vinului)의 줄기(실온 건조 시료)에서는 칼슘 7,865.97 mg/kg, 마그네슘 520.90 mg/kg이 검출되었고",
+ "[17] 시료는 실온 건조 후 분쇄한 시료로 측정(기준 명시)")
+rep('sections.safety',s,'body',
+ "줄기의 옥살산 함량과 알레르기에 관한 공공기관 정보는 확인하지 못함.",
+ "같은 마디풀과 채소처럼 옥살산이 있을 수 있으나, 호장근 줄기의 옥살산 함량은 PubMed 검색에서 보고를 찾지 못했고 알레르기에 관한 공공기관 정보도 확인하지 못함.",
+ "PubMed 에서 oxalate/oxalic × 호장근 이명 검색 결과 0건 — 확인 범위를 명시")
+
+s=sec('related_species')
+rep('sections.related_species',s,'body',
+ "영문 'Knotweed'는 목록에서 마디풀(Polygonum aviculare)에도 붙어 있다[2].",
+ "영문 'Knotweed'는 목록에서 마디풀(Polygonum aviculare)과 마름(Trapa japonica)에도 붙어 있다[2].",
+ "I1020 원자료에서 마름열매·마름분말 행의 영문명에도 Knotweed 가 있음")
+d['sources'][1]['title']=d['sources'][1]['title'].replace("마디풀잎·순(Polygonum aviculare, 영문 Knotweed, 사용가능)","마디풀잎·순(Polygonum aviculare, 영문 Knotweed, 사용가능), 마름열매·분말(Trapa japonica, 영문에 Knotweed 포함, 사용가능)")
+
+c=comp('Polydatin')
+rep('compounds.Polydatin.activity_ko',c,'activity_ko',
+ "만성 알코올 환자 20명 예비연구에서 간효소 수치 감소(사람, 소규모)[22]",
+ "만성 알코올 환자 20명(두 군) 예비연구에서 글루타티온·비타민 C에 폴리다틴을 더한 군의 AST·ALT가 대조군보다 낮아짐(사람, 소규모, 병용 투여)[22]",
+ "[22] 은 병용 투여·2군 비교")
+c=comp('Resveratrol')
+rep('compounds.Resveratrol.part',c,'part',"뿌리줄기·뿌리(주), 싹·줄기·잎(소량)","눈(싹)·뿌리줄기·뿌리(주), 지상 줄기·잎(적음)",
+ "[9] 초록은 함량 순서를 싹(눈) > 뿌리줄기 > 지상 줄기 > 잎으로 씀 — 싹을 '소량'으로 둔 것은 원문과 반대")
+rep('compounds.Resveratrol.content_text',c,'content_text',"줄기 폴리페놀 중 스틸벤은 1%[4]","줄기 폴리페놀 중 스틸벤은 1%(호장근·왕호장근 두 종 자료)[4]","[4] 는 두 종 자료")
+c=comp('Betulinic acid')
+rep('compounds.Betulinic acid.content_text',c,'content_text',"줄기 트리테르페노이드 평균 0.70 g/100 g DW이며","줄기 트리테르페노이드 평균 0.70 g/100 g DW(호장근·왕호장근 두 종 평균)이며","[4] 는 두 종 평균")
+c=comp('Ursolic acid')
+rep('compounds.Ursolic acid.content_text',c,'content_text',"총 트리테르페노이드의 54–58%[4]","총 트리테르페노이드의 54–58%(호장근·왕호장근 두 종 자료)[4]","[4] 는 두 종 자료")
+c=comp('Chlorogenic acid')
+rep('compounds.Chlorogenic acid.content_text',c,'content_text',"(원문 32%·28%)[4]","(원문 32%·28%, 호장근·왕호장근 두 종 자료)[4]","[4] 는 두 종 자료")
+c=comp('Quercitrin')
+rep('compounds.Quercitrin.content_text',c,'content_text',"플라보놀은 줄기 총 폴리페놀의 5%[4]","플라보놀은 줄기 총 폴리페놀의 5%(호장근·왕호장근 두 종 자료)[4]","[4] 는 두 종 자료")
+
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/fallopia-japonica/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

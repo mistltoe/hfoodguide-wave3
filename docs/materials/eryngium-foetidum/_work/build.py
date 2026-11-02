@@ -1,0 +1,165 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pub, pmid=None):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n": n, "title": title, "url": url, "publisher": pub, "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 쿨란트로잎·쿨란트로줄기(Eryngium foetidum L.) 행, 같은 속(Eryngium campestre·maritimum·creticum·graecum·viride)과 고수(Coriandrum sativum) 행 대조", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Eryngium foetidum L.: a review (2011, 총설, PMID 21062639)", "10.1016/j.fitote.2010.11.010", "Fitoterapia"),
+ pm(3, "Eryngium foetidum L. (Apiaceae): A Literature Review of Traditional Uses, Chemical Composition, and Pharmacological Activities (2022, 총설, PMID 35321504, PMC8938054 전문 확인)", "10.1155/2022/2896895", "Evidence-Based Complementary and Alternative Medicine"),
+ pm(4, "Eryngium foetidum L. Essential Oils: Chemical Composition and Antioxidant Capacity (2017, PMID 28930239, PMC5590060 전문 확인)", "10.3390/medicines4020024", "Medicines (Basel)"),
+ pm(5, "Extracts of Eryngium foetidum Leaves from the Amazonia Were Efficient Scavengers of ROS and RNS (2023, PMID 37237978, PMC10215176 전문 확인)", "10.3390/antiox12051112", "Antioxidants (Basel)"),
+ pm(6, "Identification of character-impact odorants in coriander and wild coriander leaves using GCO and GC×GC-TOFMS (2005, PMID 16013833, 초록)", "10.1002/jssc.200500012", "Journal of Separation Science"),
+ pm(7, "Eryngial (trans-2-dodecenal), a bioactive compound from Eryngium foetidum: identification, isolation, characterization and comparison with ivermectin in vitro (2013, PMID 24139239, 초록)", "10.1017/S003118201300156X", "Parasitology"),
+ pm(8, "Topical antiinflammatory activity of phytosterols isolated from Eryngium foetidum on chronic and acute inflammation models (1999, PMID 10189959, 초록)", "10.1002/(SICI)1099-1573(199902)13:1<78::AID-PTR384>3.0.CO;2-F", "Phytotherapy Research"),
+ pm(9, "Eryngium foetidum suppresses inflammatory mediators produced by macrophages (2012, PMID 22524841, 초록)", "10.7314/apjcp.2012.13.2.653", "Asian Pacific Journal of Cancer Prevention"),
+ pm(10, "Anti-inflammatory activity of bioaccessible fraction from Eryngium foetidum leaves (2013, PMID 24151629, 초록)", "10.1155/2013/958567", "BioMed Research International"),
+ pm(11, "A 24-Weeks Toxicity Study of Eryngium foetidum Linn. Leaves in Mice (2016, PMID 27437090, 초록)", "10.5487/TR.2016.32.3.231", "Toxicological Research"),
+ pm(12, "Anticlastogenic effect of Eryngium foetidum L. assessed by erythrocyte micronucleus assay (2012, PMID 22994758, 초록)", "10.7314/apjcp.2012.13.7.3343", "Asian Pacific Journal of Cancer Prevention"),
+ pm(13, "The toxicological effects of Eryngium foetidum extracts on zebrafish embryos and larvae depend on the type of extract, dose, and exposure time (2022, PMID 36337237, 초록)", "10.1093/toxres/tfac067", "Toxicology Research (Cambridge)"),
+ pm(14, "Untargeted metabolic analysis using LC-Q-TOF-MS and toxicity assessment of Eryngium foetidum in zebrafish embryos (2025, PMID 40208784, 초록)", "10.2478/acph-2025-0008", "Acta Pharmaceutica"),
+ pm(15, "Assembly and Analysis of the Complete Mitochondrial Genome of Eryngium foetidum L. (Apiaceae) (2025, PMID 41007439, 초록)", "10.3390/biology14091296", "Biology (Basel)"),
+ pm(16, "Molecular Phylogeny, DNA Barcoding, and ITS2 Secondary Structure Predictions in the Medicinally Important Eryngium Genotypes of East Coast Region of India (2022, PMID 36140845, 초록)", "10.3390/genes13091678", "Genes (Basel)"),
+ pm(17, "Morphology and biogeography of Apiaceae subfamily Saniculoideae as inferred by phylogenetic analysis of molecular data (2008, PMID 21632345, 초록)", "10.3732/ajb.95.2.196", "American Journal of Botany"),
+ pm(18, "Water stress and exogenous carnitine on growth and essential oil profile of Eryngium foetidum L. (2023, PMID 37667775, 초록)", "10.1007/s13205-023-03757-y", "3 Biotech"),
+ pm(19, "Salicylic Acid and Water Stress: Effects on Morphophysiology and Essential Oil Profile of Eryngium foetidum (2024, PMID 38668369, 초록)", "10.3390/metabo14040241", "Metabolites"),
+ pm(20, "Physiological performance and chemical compositions of the Eryngium foetidum L. essential oil cultivated with different fertilizer sources (2020, PMID 32691619, 초록)", "10.1080/14786419.2020.1795653", "Natural Product Research"),
+ pm(21, "Leishmanicidal activity of a daucane sesquiterpene isolated from Eryngium foetidum (2013, PMID 24147866, 초록)", "10.3109/13880209.2013.837077", "Pharmaceutical Biology"),
+ pm(22, "Amazonian vegetables – Jambu (Acmella oleracea) and Amazon chicory (Eryngium foetidum), antinutritional compounds and bioactive properties in different cooking conditions (2026, PMID 42462305, 초록)", "10.1016/j.foodchem.2026.150343", "Food Chemistry"),
+ pm(23, "Structural analysis and pharmacological implications in inflammatory pain of an arabinogalactan rich fraction from Eryngium foetidum leaves (2026, PMID 41999679, 초록)", "10.1016/j.carres.2026.109921", "Carbohydrate Research"),
+ pm(24, "Characterization of Mexican coriander (Eryngium foetidum) essential oil and its inactivation of Listeria monocytogenes in vitro and during mild thermal pasteurization of pineapple juice (2014, PMID 24674435, 초록)", "10.4315/0362-028X.JFP-13-323", "Journal of Food Protection"),
+ pm(25, "Nutritional Composition and Bioactive Compounds of Quelites Consumed by Indigenous Communities in Juquila Vijanos, Oaxaca, Mexico (2023, PMID 36609832, 초록)", "10.1007/s11130-022-01039-1", "Plant Foods for Human Nutrition"),
+ pm(26, "Microbiological determinations of some vegetables from the Xochimilco zone in Mexico City, Mexico (2002, PMID 17061512, 초록)", None, "Revista Latinoamericana de Microbiología", pmid="17061512"),
+ pm(27, "The first complete genome sequence of Ammi majus latent virus from the new natural host culantro (2026, PMID 41569349, 초록)", "10.1007/s00705-025-06476-2", "Archives of Virology"),
+ pm(28, "Study on medicinal food plants in the Gaoligongshan Biosphere Reserve, China (2024, PMID 38225656, 초록)", "10.1186/s13002-023-00638-9", "Journal of Ethnobiology and Ethnomedicine"),
+ pm(29, "When local phytotherapies meet biomedicine: knowledge and intercultural practices against malaria in Eastern French Guiana (2021, PMID 34217796, 초록)", "10.1016/j.jep.2021.114384", "Journal of Ethnopharmacology"),
+ pm(30, "Eryngial: An α,β-Unsaturated Fatty Aldehyde as the Major Phytotoxin in Spiny Coriander (Eryngium foetidum L.) Essential Oil (2024, PMID 38837651, 초록)", "10.1002/cbdv.202400195", "Chemistry & Biodiversity"),
+ pm(31, "Oviposition Deterrents from Extracts of Eryngium foetidum Against Potato Tuber Moth Phthorimaea operculella (2025, PMID 40003788, 초록)", "10.3390/insects16020158", "Insects"),
+ pm(32, "Estimation of proximate composition, micronutrients and phytochemical compounds in traditional vegetables from Andaman and Nicobar Islands (2011, PMID 21615278, 초록)", "10.3109/09637486.2011.585961", "International Journal of Food Sciences and Nutrition"),
+ pm(33, "Root-knot nematode: A new threat to Eryngium foetidum in the state of Pará, Brazil (2025, PMID 40554424, 초록)", "10.1094/PDIS-03-25-0613-PDN", "Plant Disease"),
+ pm(34, "Morphophysiological and Anatomical Responses of Culantro (Eryngium foetidum) to In Vitro Salinity (2026, PMID 42654924, 초록)", "10.3390/plants15162522", "Plants (Basel)"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "쿨란트로(Eryngium foetidum L.)는 미나리과(Apiaceae) 에린기움속(Eryngium)의 향신 채소로, 영어로 culantro·stinkweed, 브라질에서는 chicória-do-Pará로 불린다[1, 3]. 열대 아메리카와 서인도제도가 원산지이며, 지금은 아시아·열대 아프리카·태평양 섬·남유럽 따뜻한 지역에도 퍼져 있다[2, 33]. 잎에서 고수와 비슷한 강한 냄새가 나서 고수 잎 대신 쓰이기도 하지만, 고수(Coriandrum sativum)와는 속이 다른 식물이다[4, 6].\n\n"
+  "식약처 「식품원료 목록」에는 '쿨란트로잎'과 '쿨란트로줄기' 두 행이 올라 있고, 사용가능부위는 줄기와 잎이며 두 행 모두 '사용가능' 원료다[1]. 이 종은 건강기능식품 고시형 원료의 원재료로는 올라 있지 않다[1]. 향의 주성분은 '에린지알(eryngial)'이라 부르는 (E)-2-도데세날로, 잎 정유에서 가장 많은 성분으로 자주 보고된다[2, 3]. 연구는 정유 성분, 세포·동물 실험의 항산화·항염증 작용, 독성 평가에 몰려 있으며, 사람을 대상으로 한 임상시험은 확인하지 못함."},
+ {"key": "history", "title": "이용의 역사", "body":
+  "브라질에서는 16–17세기 문헌에 이미 자주 재배하는 약용·식용 식물로 기록되어 있다[3]. 아마존 지역에서는 잎을 콩·고기·오리·생선 요리와 카사바 즙으로 만드는 투쿠피(tucupi) 요리의 향신료로 널리 쓰며, 파라주의 대형 노천 시장에서도 지역 요리를 상징하는 허브로 팔린다[3]. 아시아에서는 수프·국수·커리에 넣으며, 중국 윈난성 가오리궁산 지역 시장 조사에서는 문화적 중요도가 높은 약용 식용식물 18종 가운데 하나로 꼽혔다[3, 28].\n\n"
+  "민간에서는 화상·귀앓이·열·고혈압·변비·천식·복통·기생충·뱀물림·설사·말라리아 등에 쓰였다[2]. 페루·콜롬비아·에콰도르에서는 차로 우려 소화기 증상과 생리통 같은 여성 질환에 써 왔다[3]. 프랑스령 기아나 동부 조사에서는 크레올 주민이 말라리아에 많이 쓰는 식물로 꼽혔다[29]. 이런 전통 용도는 대부분 임상으로 확인되지 않아 추가 연구가 필요하다고 정리되어 있다[3]. 한국에서의 전통적 이용 기록은 확인하지 못함."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "쿨란트로는 높이 45 cm 안팎의 풀로, 뿌리는 연한 베이지색이고 갈라지며 줄기는 곧고 원통형이다[3]. 잎은 뿌리에서 모여 나는 주걱 모양이고 털이 없으며, 아래쪽은 홈이 진 잎자루처럼 생긴 잎집이 된다[3]. 작은 양성화가 원통형 또는 달걀 모양의 빽빽한 두상꽃차례로 모여 피고, 열매는 지름 1.5–2.5 mm의 둥근 열매로 겉에 작은 돌기가 많다[3]. 문헌에 따라 두해살이풀 또는 여러해살이풀로 기술된다[2, 18].\n\n"
+  "식물 전체의 분비관에 정유가 들어 있어 특유의 냄새를 낸다[3]. 나이지리아산 생체를 4시간 수증기 증류한 정유 수율은 잎 0.2%, 줄기 0.16%, 뿌리 0.17%였다[4]. 잎 정유의 (E)-2-도데세날 비율은 연구마다 14.3–50.62%로 차이가 커서 산지에 따른 변이가 크다[2, 3]. 인도 안다만·니코바르 제도의 전통 채소 10종 비교에서는 조섬유와 지방 함량이 가장 높았다[32]. 멕시코 오악사카 원주민이 먹는 개체에서는 마그네슘이 생체중 100 g당 1021.83±10.58 mg으로 보고되었다[25]."},
+ {"key": "related_species", "title": "근연종과 혼동 주의", "body":
+  "에린기움속은 약 250종으로 유라시아·북아프리카·아메리카·오스트레일리아에 분포한다[3]. 분자계통 연구에서 이 속은 미나리과 산니쿨라아과(Saniculoideae)에 속하며 참반디속(Sanicula)과 가까운 무리로 추정된다[17]. 식약처 「식품원료 목록」에는 쿨란트로 외에도 Field eryngo(E. campestre), Sea holly(E. maritimum), E. creticum, E. graecum, E. viride가 따로 올라 있고 사용가능부위도 종마다 다르므로, 쿨란트로의 '줄기·잎' 조건을 다른 종에 그대로 적용하면 안 된다[1]. 같은 속이라도 정유 조성이 달라, 다른 에린기움 종의 주성분(보르네올·리모넨 등)은 쿨란트로의 주성분으로 보고되지 않았다[3].\n\n"
+  "가장 흔한 혼동 대상은 고수로, 쿨란트로의 영어 별명(wild coriander, Mexican coriander, spiny coriander)에 coriander가 들어가고 잎 냄새도 비슷하다[6, 24, 30]. 피지에서 기른 두 식물의 잎 정유를 비교한 연구에서 쿨란트로는 (E)-2-도데세날이 63.5%로 가장 많고 냄새 기여도도 가장 컸지만, 고수는 가장 많은 성분이 달랐다[6]. 식약처 목록에서도 고수는 사용가능부위가 잎·씨앗·열매인 별도 원료로 분류되어 있다[1]."},
+ {"key": "cultivation", "title": "재배와 수확", "body":
+  "번식은 씨앗이나 포기 옮겨심기로 하며, 앞서 심은 포기 가운데 꽃대가 선 것에서 씨앗을 받는다[3]. 브라질에서는 묘상에 포기 사이 15 cm로 씨를 뿌리고 닭똥 퇴비 같은 유기질 비료를 주로 쓰며, 생육 초기에는 흙을 늘 촉촉하게 유지한다[3]. 꽃대가 일찍 올라오면 잎 생산이 줄어들기 때문에 꽃대를 잘라 잎 수확량을 늘리는 방법이 권장된다[3].\n\n"
+  "잎 정유 수율은 무비료 0.22%, 무기질 비료 0.18%로 비료 종류에 따라 달랐다[20]. 가뭄 뒤 다시 물을 주면 에린지알 생산이 늘었고, 카르니틴을 뿌린 재급수 식물에서 더 늘었다[18]. 살리실산은 가뭄 피해를 줄이지 못했지만 물이 충분할 때는 생체량·잎 수·잎 면적을 늘렸다[19]. 시험관 배양에서 염화나트륨 80 mM은 줄기·뿌리 길이와 광합성을 가장 크게 떨어뜨렸다[34]. 브라질 파라주 농장에서는 뿌리혹선충(Meloidogyne incognita) 피해가, 베트남에서 들여온 쿨란트로에서는 Ammi majus latent virus 감염이 보고되었다[27, 33]. 국내 재배 면적·생산량 통계는 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "잎은 주로 생으로 다지거나 익혀 국·찜·소스의 향신료로 쓰고, 아마존 지역에서는 잎을 우린 차를 통증과 염증에 마신다[3, 23]. 아마존 채소 조리 비교에서 쿨란트로는 중간 시간 전자레인지 조리 때 유리 폴리페놀이 조리수로 가장 많이 빠져나갔고, 질산염은 전자레인지 조리와 끓이기로 줄었다[22]. 끓이기는 카로티노이드와 엽록소를 가장 잘 보존했다[22].\n\n"
+  "잎을 물·에탄올·물-에탄올로 초음파 추출해 동결건조한 추출물은 여러 활성산소를 잘 제거해 천연 산화방지 식품 소재로 제안되었다[5]. 잎 정유는 파인애플 주스를 60 °C로 저온 살균할 때 15 ppm만 넣어도 리스테리아 4-log 감소에 드는 시간을 8.5분에서 2.1분으로 74.9% 줄였다[24]. 잎 열수 추출물에서 얻은 다당 분획은 주로 II형 아라비노갈락탄이었고, 생쥐 통증 모델에서 몸 비틀기 횟수를 줄였다[23]. 정유는 잡초 생장 억제와 해충 산란 기피 소재로도 연구되었다[30, 31]. 국내 건강기능식품 원료 생산실적에서 이 종을 원료로 한 품목은 확인하지 못함."},
+ {"key": "genetics", "title": "유전과 계통", "body":
+  "쿨란트로의 미토콘드리아 유전체는 241,660 bp 길이의 고리 구조이고 GC 함량은 45.35%이다[15]. 여기에는 단백질 암호 유전자 37개, tRNA 유전자 18개, rRNA 유전자 4개 등 59개 유전자가 있으며, RNA 편집 자리 479곳이 예측되었다[15]. 미토콘드리아와 엽록체 유전체 사이에는 상동 구간 16곳이 있었고 가장 긴 것은 992 bp였다[15]. 21종의 미토콘드리아 단백질 유전자로 그린 계통수에서 쿨란트로는 미나리과의 기저 쪽에 놓였다[15].\n\n"
+  "인도 동해안의 두 유전형을 비교한 DNA 바코드 연구에서 엽록체 유전자 하나는 두 유전형을 구분했지만 나머지는 모두 쿨란트로로 동정했고, 핵 ITS 구간은 종 안팎의 변이가 커서 유전 다양성 연구 지표로 제안되었다[16]. 엽록체 trnQ-trnK 염기서열 분석은 에린기움속과 참반디속을 가까운 무리로 묶었지만, 이 관계를 뒷받침하는 형태 형질은 찾지 못했다[17]. 핵 유전체 해독이나 국내 품종 등록 정보는 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "쿨란트로는 식약처 「식품원료 목록」에서 줄기와 잎을 식품에 쓸 수 있는 원료이며, 뿌리·씨앗은 사용가능부위에 들어 있지 않다[1]. 국내 공공기관의 알레르기·잔류농약·독성 정보는 확인하지 못함.\n\n"
+  "생쥐에게 동결건조 잎을 사료의 0.8%·1.6%·3.2%(사람 섭취량 97.5 백분위의 약 35·73·155배)로 24주 먹인 실험에서, 1.6%와 3.2% 군은 혈중 요소질소가 높아지고 세관신증과 만성 간질성 신염이 관찰되었다[11]. 연구진은 0.8%보다 높은 용량을 오래 먹으면 신장 기능에 나쁜 영향을 줄 수 있다고 보았다[11]. 같은 농도의 사료를 2주 먹인 생쥐 소핵시험에서는 염색체 손상이 나타나지 않았다[12]. 제브라피시 배아에서는 물·에탄올·메탄올 추출물이 0.625 mg/mL보다 높은 농도에서 발생 이상을 일으켰다[13]. 헥세인 추출물의 96시간 반수치사농도는 2.63 µg/mL였으나, 함께 검출된 환경 오염물질이 독성에 관여했을 수 있다고 제시되었다[14]. 멕시코시티 소치밀코에서 오수로 관개한 생식용 쿨란트로에서는 분변성 대장균군과 살모넬라가 검출되었다[26]. 사람에서의 부작용·약물 상호작용 자료는 확인하지 못함."},
+]
+
+def c(name, ko, cls, role, part, content, act, src):
+    return {"name": name, "name_ko": ko, "class": cls, "role": role, "part": part, "content_text": content, "activity_ko": act, "source": src}
+compounds = [
+ c("(E)-2-Dodecenal", "(E)-2-도데세날(에린지알, eryngial)", "불포화 지방족 알데하이드", "marker", "잎; 줄기",
+   "나이지리아산 잎 정유 28.43%, 줄기 정유 8.27%(상대 피크 면적)[4]; 피지산 잎 정유 63.5%(TIC)[6]; 연구별 잎 정유 14.3–50.62%[3]",
+   "특유 냄새의 주성분으로 잎 냄새 기여도 52.9%[6]; 분선충 유충 살충 주성분으로 분리(시험관)[7]; 밀 싹 생장 억제 IC50 20.8–36.2 μg/mL[30]; 감자뿔나방 산란 기피(10 mg/mL에서 -100%)[31]",
+   [3, 4, 6, 7, 30, 31]),
+ c("2,4,5-Trimethylbenzaldehyde", "2,4,5-트라이메틸벤즈알데하이드", "방향족 알데하이드", "bioactive", "잎; 줄기; 뿌리",
+   "나이지리아산 정유 잎 10.77%, 줄기 18.43%, 뿌리 56.08%[4]",
+   "뿌리 정유의 주성분, 잎·줄기에도 존재[4]; 트라이메틸벤즈알데하이드 이성질체가 정유의 부성분으로 보고[2]", [2, 4]),
+ c("Dodecanal", "도데칸알", "지방족 알데하이드", "bioactive", "잎; 줄기",
+   "나이지리아산 정유 잎 14.59%, 줄기 20.21%[4]", "잎 냄새에 기여하는 성분의 하나[6]", [4, 6]),
+ c("13-Tetradecenal", "13-테트라데세날", "불포화 지방족 알데하이드", "bioactive", "잎",
+   "나이지리아산 잎 정유 27.45%, 뿌리 정유 9.26%[4]", "나이지리아산 잎 정유의 두 번째 주성분[4]", [4]),
+ c("(E)-2-Tridecenal", "(E)-2-트라이데세날", "불포화 지방족 알데하이드", "bioactive", "잎",
+   "잎 추출물의 주성분((E)-2-도데세날과 함께, 함량 수치는 초록에 없음)[31]", "감자뿔나방 산란 기피(10 mg/mL에서 산란자극지수 -94.03%)[31]", [31]),
+ c("Chlorogenic acid", "클로로겐산", "페놀산", "marker", "잎(동결건조 추출물)",
+   "물-에탄올 추출물 2198, 물 추출물 1816, 에탄올 추출물 506 μg/g 추출물(건량)[5]; 모의 소화 후 수용성 분획으로 76–81% 이행(카페산과 합산)[10]",
+   "세 추출물 모두에서 가장 많은 페놀 성분(식별 페놀의 38–53%)[5]; 잎 에탄올 추출물의 항염증 관련 성분으로 제시[9]", [5, 9, 10]),
+ c("Caffeic acid", "카페산", "페놀산", "bioactive", "잎",
+   "잎 에탄올 추출물에서 확인(함량 미기재)[9]; 모의 소화 후 수용성 분획으로 76–81% 이행(클로로겐산과 합산)[10]",
+   "대식세포 염증 매개체 억제에 관여할 성분으로 제시[9]", [9, 10]),
+ c("Kaempferol", "캠페롤", "플라보놀", "bioactive", "잎",
+   "잎 에탄올 추출물에서 확인(함량 미기재)[9]; 모의 소화 후 수용성 분획으로 48% 이행[10]", "항염증 관련 성분으로 제시[9]", [9, 10]),
+ c("Lutein", "루테인", "카로티노이드(잔토필)", "nutrient", "잎",
+   "모의 소화 후 수용성 분획에 잎 함량의 약 35%가 존재[10]", "혼합 미셀에 실린 분획이 Caco-2 세포 염증 신호(IL-8·MCP-1)를 33% 낮춤[10]", [9, 10]),
+ c("beta-Carotene", "베타카로틴", "카로티노이드", "nutrient", "잎",
+   "모의 소화 후 수용성 분획에 잎 함량의 약 24%가 존재[10]", "잎 에탄올 추출물의 성분으로 확인[9]", [9, 10]),
+ c("Stigmasterol", "스티그마스테롤", "식물스테롤", "bioactive", "잎(헥세인 추출물)",
+   "헥세인 추출물 스테롤 분획의 주성분(95%)[8]", "생쥐 귀 부종 모델에서 국소 항염증 작용, 단 주된 활성 성분은 아닌 것으로 판단[8]", [8]),
+ c("Lasidiol p-methoxybenzoate", "라시디올 p-메톡시벤조에이트", "다우칸 세스퀴테르펜", "bioactive", "지상부",
+   "지상부 메탄올 추출물에서 분리(함량 미기재)[21]", "리슈마니아 원충 억제 IC50 14.33 μM(L. tarentolae), 7.84 μM(L. donovani), 세포독성 없음(IC50 > 50 μM)[21]", [21]),
+ c("Arabinogalactan", "아라비노갈락탄(II형)", "다당류", "bioactive", "잎(열수 추출물)",
+   "잎 열수 추출 다당 분획(EFS100R)의 주성분, 갈락토스·갈락투론산·아라비노스로 구성(함량 미기재)[23]", "생쥐 초산 유발 통증 모델에서 몸 비틀기·백혈구 이동·혈장 누출 감소[23]", [23]),
+ c("Carotol", "카로톨", "세스퀴테르펜 알코올", "bioactive", "씨앗 정유(식품원료 사용부위 아님)",
+   "쿠바산 씨앗 정유 19.3%(재인용)[4]", "씨앗 정유의 주성분으로 보고, 잎·줄기 정유의 주성분은 아님[4]", [4]),
+]
+
+assays = [
+ {"role": "literature", "compound": "Chlorogenic acid", "compound_ko": "클로로겐산(퀘르세틴·루테올린 유도체 등 페놀 6종 동시 정량)",
+  "part": "잎(동결건조 후 초음파 추출물)",
+  "content": "클로로겐산 2198(물-에탄올)·1816(물)·506(에탄올) μg/g 추출물(건량); 식별 페놀 합계는 물-에탄올 추출물 기준 초록 5781 μg/g, 본문 5581 μg/g으로 서로 다르게 적혀 있음[5]",
+  "method": "HPLC-DAD",
+  "conditions": {
+   "instrument": "Agilent 1260 Infinity(4원 펌프 G1311C, 자동주입기 G7129, 칼럼오븐 G1316A, DAD G1328C)",
+   "column": "Phenomenex Synergi Hydro C18 계열(전문 추출본에 'Hydro C'로 표기, 숫자 누락), 4 μm, 250 × 4.6 mm",
+   "mobile_phase": "물/포름산(99.5:0.5, v/v)과 아세토나이트릴/포름산(99.5:0.5, v/v)",
+   "gradient": "직선 기울기(구체적 프로그램은 인용 문헌에 있다고만 적혀 있어 확인 못함)",
+   "flow": "", "temp": "",
+   "detection": "DAD 200–600 nm 스펙트럼, 정량 270·320·360 nm(클로로겐산 320 nm)",
+   "injection": "",
+   "sample_prep": "잎 세척·실온 2시간 건조 → −18 °C 동결 → 동결건조(−60 °C, 24시간) → 분쇄; 잎:용매 1:10(w/v), 25 kHz 초음파 5분 → 원심분리 11,627.2×g 5분, 같은 조건으로 총 8회 추출해 합침 → 감압 농축(38 °C 미만) 후 동결건조; 분석 전 메탄올/물(80:20) 용해, 0.22·0.45 μm 나일론 막 여과",
+   "standard": "외부표준 클로로겐산·퀘르세틴·루테올린(Sigma-Aldrich); 머무름 순서·표준품·UV 스펙트럼과 이전 HPLC-DAD-ESI-MS 결과로 잠정 동정",
+   "linearity": "6점 검량선 3.12–100 μg/mL(2회 반복), R² = 0.99",
+   "lod": "0.15 μg/mL", "loq": "0.62 μg/mL", "recovery": ""},
+  "rationale": "잎 추출물의 모든 용매 조건에서 가장 많은 페놀 성분이고 활성산소 제거능의 주요 기여 성분으로 제시되어 잎 추출물의 지표로 쓸 만하다; 전문 확인, 유속·칼럼 온도·주입량·회수율은 원문에 없음[5].",
+  "source": [5], "url": "https://doi.org/10.3390/antiox12051112", "source_kind": "paper"},
+ {"role": "literature", "compound": "(E)-2-Dodecenal", "compound_ko": "(E)-2-도데세날(에린지알; 13-테트라데세날·도데칸알·2,4,5-트라이메틸벤즈알데하이드 등 34성분)",
+  "part": "잎·줄기·뿌리 정유(나이지리아산 생체)",
+  "content": "잎 정유 (E)-2-도데세날 28.43%, 13-테트라데세날 27.45%, 도데칸알 14.59%, 2,4,5-트라이메틸벤즈알데하이드 10.77%; 줄기 정유 도데칸알 20.21%, 2,4,5-트라이메틸벤즈알데하이드 18.43%, (E)-2-도데세날 8.27%(상대 피크 면적 %)[4]",
+  "method": "GC-MS",
+  "conditions": {
+   "instrument": "Agilent 7890N GC + Triple Quad 7000A 질량검출기, ChemStation",
+   "column": "HP-5ms 용융실리카 모세관((5% 페닐)-메틸폴리실록산), 30 m × 250 μm × 0.25 μm",
+   "mobile_phase": "운반기체 헬륨, 칼럼 헤드 압력 9.7853 psi",
+   "gradient": "오븐 50 °C 5분 → 6 °C/min → 190 °C 20분 → 7 °C/min → 290 °C 15분 → 7 °C/min → 300 °C 10분",
+   "flow": "1.2 mL/min",
+   "temp": "주입구 250 °C, MSD 250 °C",
+   "detection": "EI 70 eV, m/z 40–600",
+   "injection": "다이클로로메테인 용해, 2 µL, 분할비 10:1(분할 유량 12 mL/min)",
+   "sample_prep": "생 잎·줄기·뿌리를 Clevenger형 장치로 4시간 수증기 증류(영국약전) → 황산나트륨 탈수 → 4 °C 냉장",
+   "standard": "NIST 1998 라이브러리 질량스펙트럼 비교 + n-알케인 기준 머무름 지수(RI) 비교",
+   "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "(E)-2-도데세날은 쿨란트로 특유 냄새를 내는 주성분이며 잎 정유에서 가장 많이 보고되는 성분이라 잎·줄기 품질 지표로 쓰인다; 값은 상대 피크 면적(%)으로 절대 함량이 아니고, 표준품 정량·검출한계·회수율은 원문에 없음, 전문 확인[2, 4].",
+  "source": [2, 4], "url": "https://doi.org/10.3390/medicines4020024", "source_kind": "paper"},
+ {"role": "literature", "compound": "(E)-2-Dodecenal", "compound_ko": "(E)-2-도데세날(냄새 기여 성분 분석)",
+  "part": "잎 정유(피지산, 수증기 증류)",
+  "content": "잎 정유 총이온크로마토그램(TIC)의 63.5%, 냄새 활성 기여도 52.9%[6]",
+  "method": "GC-O(CharmAnalysis), GC×GC-TOFMS",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "후각 검출과 2차원 GC로 쿨란트로 잎의 핵심 냄새 성분이 (E)-2-도데세날임을 보인 연구; 전문 확인 못함(초록만 확인), 분석 조건은 비워 둠[6].",
+  "source": [6], "url": "https://doi.org/10.1002/jssc.200500012", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "eryngium-foetidum", "name_ko": "쿨란트로",
+ "name_en": "Culantro (stinkweed, spiny coriander, Mexican coriander)",
+ "scientific_name": "Eryngium foetidum L.",
+ "aliases": ["쿨란트로잎", "쿨란트로줄기", "스팅크위드", "Stinkweed", "Culantro", "Bhandhanya", "Chardon benit", "Spiny coriander", "Mexican coriander", "Wild coriander", "Spirit weed", "Chicória-do-Pará"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": S,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

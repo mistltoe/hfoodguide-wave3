@@ -1,0 +1,692 @@
+{
+ "slug": "cyphomandra-betacea",
+ "name_ko": "나무토마토",
+ "name_en": "Tree tomato (tamarillo)",
+ "scientific_name": "Cyphomandra betacea (Cav.) Sendt.",
+ "aliases": [
+  "나무토마토열매",
+  "나무토마토페이스트",
+  "타마릴로",
+  "Tree tomato",
+  "Tamarillo",
+  "Tomate de árbol",
+  "Chilto",
+  "Solanum betaceum Cav."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "나무토마토(타마릴로, tree tomato)는 가지과(Solanaceae)의 작은 나무로, 남아메리카 안데스가 원산이며 지금은 열대·아열대 여러 나라에서 과일로 기른다[6]. 식약처 「식품원료 목록」에는 학명 Cyphomandra betacea (Cav.) Sendt., 영어명 Tree tomato로 '나무토마토열매'와 '나무토마토페이스트' 두 행이 올라 있다[1]. 두 행 모두 식품에 쓸 수 있는 원료(사용가능)이고 사용 조건은 '사용가능부위 : 열매'이며, 잎·줄기 등 열매 외 부위는 이 목록에 올라 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함. 지금 학계에서는 대개 Solanum betaceum Cav.라는 이름을 쓰며, Cyphomandra betacea는 그 이명으로 함께 적는다[2, 26].\n\n열매는 길이 4–8 cm의 달걀꼴로 껍질 색은 자주·빨강·주황·노랑이고, 새콤달콤한 과육을 날로 먹거나 주스·잼으로 가공한다[2]. 껍질은 쓴맛이 있어 보통 버리고 과육만 먹는다[4]. 과육과 껍질에는 클로로겐산·로즈마린산 같은 하이드록시신남산 유도체, 델피니딘·시아니딘·펠라르고니딘 루티노사이드 같은 안토시아닌, 베타-크립토잔틴·베타-카로틴 같은 카로티노이드가 들어 있다[3, 7, 8]. 유기산은 시트르산이 가장 많고, 드물게 이타콘산이 두 번째로 많다는 정량 결과가 있다[4]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "나무토마토의 가장 유력한 기원지는 아르헨티나 북서부와 볼리비아 남부의 투쿠만-볼리비아 숲 지대이고, 작물화는 페루 북부와 에콰도르 남부에서 이루어진 것으로 본다[5]. 지금 주산국은 에콰도르와 콜롬비아이며, 에콰도르에서는 카르치·임바부라·피친차 등 안데스 고원 여러 주의 중소 농가가 주로 기른다[5]. 아르헨티나 북서부에서는 '칠토(chilto)'라고 불리며 주황·적주황·빨강 등 여러 품종을 먹는다[2].\n\n열매는 남미 밖으로도 퍼졌는데, 뉴질랜드에서는 농가가 품종을 거듭 골라 노랑(Amber)·빨강(Laird's Large)·자주빨강(Mulligan) 세 상업 품종을 만들었다[2]. 브라질에서는 아직 소규모로, 텃밭과 뒤뜰에서 주로 기르고 지역마다 부르는 이름이 다르다[2]. 인도 서벵골·마하라슈트라·북동부 산지와 타밀나두, 네팔 여러 산간 지역에서도 재배된다[2]. 학명은 처음 카바니예스(Cav.)가 기재한 뒤 젠트너(Sendt.)가 Cyphomandra 속으로 옮긴 이름이 식약처 목록에 쓰였고, 지금 논문은 대부분 Solanum betaceum Cav.로 적는다[1, 2]. 우리나라에 들어온 시기는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "나무토마토는 빨리 자라는 키 1–5 m의 나무로, 줄기 하나가 밑동에서 목질화되고 1.5–2 m 높이에서 가지를 친다[2]. 꽃은 분홍빛이 도는 흰 꽃부리에 향기가 있고 10–50송이가 모여 피며, 1–6개의 타원형 열매(길이 4–8 cm, 너비 3–5 cm)가 달린다[2]. 열매 안쪽은 단단한 바깥 과육과, 젤리 같은 물질에 둘러싸인 씨가 모인 가운데 태좌 부분으로 나뉘며 씨는 토마토 씨보다 크다[2].\n\n생과 무게로 과육 51.5%, 씨 39.4%, 껍질 9.1%라는 보고가 있다[2]. 빨강 계열은 주황 과육(50–80 g), 노랑 계열은 노란 과육(50–70 g), 자주 계열은 자주색 과육(60–100 g)을 가진다[2]. 자주·빨강 색은 안토시아닌, 빨강·주황·노랑 색은 카로티노이드 때문이다[2]. 익는 동안 과육이 물러지고 과당·포도당이 쌓이며, 다 익은 열매에서 에틸렌 생성이 빠르게 늘고 사과산·시트르산은 줄어든다[11]. 대만 재배 사례에서는 꽃이 핀 뒤 22–24주에 수확했다[3]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "나무토마토는 가지속(Solanum)에 속해 토마토·가지·감자와 같은 속이다[2]. 식약처 「식품원료 목록」에는 같은 속의 루로(Solanum quitoense)·페피노(Solanum muricatum)·Cocona(Solanum sessiliflorum, 잎·열매)도 쓸 수 있는 원료로 올라 있고, 까마중(Solanum nigrum)은 잎·순·줄기만 제한적으로 쓸 수 있는 원료로 따로 적혀 있다[1]. 이름에 '토마토'가 붙었지만 토마토(Solanum lycopersicum)와는 다른 종이다[1, 2].\n\n에콰도르에서는 나무토마토와 루로(현지명 나랑히야)가 함께 중요한 안데스 과수이며, 두 작물에 쓸 SSR 표지가 같이 개발되었다[5]. 같은 연구에서 나무토마토 품종 사이에는 SSR 변이가 거의 없었고, 야생 근연종을 함께 넣었을 때만 8개 표지가 다형성을 보였다[5]. 에콰도르 수집종 비교 연구는 나무토마토 5개 품종군과 함께 야생 근연종 Solanum cajanumense를 다루었다[9]. 루로에서 처음 분리된 티모바이러스(NarMMV)는 나무토마토에 더 심한 증상을 일으켰고, 뉴질랜드에서는 꽈리류 골든베리와 함께 새 리베리박터 세균이 검출되는 등 가까운 가지과 작물과 병원체를 나눈다[25, 32]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "에콰도르의 나무토마토 재배 면적은 2015년 4,500 ha에서 2017년 7,600 ha로 70% 늘었다[5]. 뉴질랜드는 주요 생산·수출국으로, 2019년 약 40개 농가가 약 100 ha에서 해마다 약 622 t을 생산했다는 정리가 있다[2]. 한 그루에서 해마다 열매를 최대 30 kg 얻을 수 있고, 인도에서는 심은 뒤 1.5–2년에 열매가 열려 10년 넘게 수확한다[2]. 에콰도르 해발 2,010–3,000 m의 여러 고도에서 기른 열매를 비교한 연구에서는 고도와 열매 부위가 품질에 가장 크게 영향을 주었다[12]. 대만 난터우에서는 해발 1,100–1,200 m에서 기른 열매가 연구에 쓰였다[3].\n\n선충에 약해 대목에 접붙여 기르기도 하며, 접목은 두 생태형 모두에서 가용성 고형분을 높였다[12]. 온실 재배는 수확을 늦추지만 노지 관행 재배보다 수량이 많았고, 덥고 건조한 조건에서는 유기질 비료 처리가 가장 생산적이었다[13]. 콜롬비아 산지에서는 여러 바이러스가 섞여 감염되는 '바이러스병'이 큰 손실을 주며, 감자Y바이러스 계통 PVY-Tam과 새 포티바이러스(TaLMV)가 보고되었다[23, 24]. 중국에서는 윈난성에서 널리 재배된다는 보고가 있고, 쓰촨의 대학 실험포장 나무가 전사체 분석에, 묘목이 셀레늄 흡수 연구에 쓰였다[6, 15, 30]. 국내 재배 면적·생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "익은 열매는 샐러드 등 날것으로 먹거나 냉동 과육·주스·젤리·시럽·케첩으로 가공한다[2]. 가공하면 줄기·껍질·씨가 섞인 찌꺼기가 열매 무게의 약 49% 나오는데, 이 부산물에도 식이섬유·단백질·카로티노이드·안토시아닌이 많아 천연 색소·항산화제·기능성 소재로 쓰려는 연구가 이어진다[2]. 식약처 목록에는 생열매 외에 '나무토마토페이스트'가 같은 사용 조건으로 올라 있다[1].\n\n열매에는 우유를 굳히는 단백질분해효소가 있어 치즈 응고제로 연구된다[2]. 약 70 kDa의 서브틸리신 유사 세린 단백질분해효소가 정제되어 '타마릴린'으로 명명되었고, 중국 윈난산 열매에서는 79.1 kDa의 다른 세린 단백질분해효소가 분리되었다[14, 15]. 과육 다당류에서는 메틸에스터화 호모갈락투로난과 제1형 아라비노갈락탄이 확인되었다[16]. 이 과육 다당류는 100 mg/kg에서 덱스트란황산나트륨으로 대장염을 일으킨 생쥐의 체중 감소와 질병활성지수를 줄였고, 열매 추출물은 고지방식 비만 쥐에서 150–300 mg/kg 경구 투여 시 총콜레스테롤을 낮추고 HDL-C를 높였다[17, 18]. 이는 동물 실험 결과이며 사람에서의 효과는 확인하지 못함. 분무건조 분말은 입구 온도 146.8 °C·유량 1.76 g/mL가 최적 조건으로 제시되었다[31]. 주스의 향에는 글리코시드 결합 향기 성분에서 풀려난 푸라네올(DMHF)과 노나디에날 등이 크게 기여한다[26, 27]. 국내 건강기능식품 원료 생산실적에서 나무토마토 항목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2022년 논문 시점에 나무토마토의 참조 유전체는 공개되지 않았고, 그해 중국 쓰촨농업대학 연구진이 단일분자 실시간(SMRT) 장독 서열분석으로 첫 전장 전사체 지도를 만들었다[6]. 뿌리 끝·잎·꽃·열매 등 여러 조직을 섞어 30만 8,699개의 전장 비키메라 서열(평균 2,099 bp)을 얻었고, 5,114개 전사인자 유전자와 SSR 반복 부위를 찾아 원자료를 NCBI(PRJNA883812)에 등록했다[6]. 그 전까지 품종 간 다양성 연구는 AFLP 표지에 의존했다[6].\n\n에콰도르 연구에서는 차세대 서열분석으로 나무토마토 SSR 프라이머 110쌍을 시험했으나 재배 품종 사이에서 다형성을 보인 표지가 없었다[5]. 연구진은 이를 자가수분 위주 번식과 작물화 과정의 선발로 유전 기반이 좁고 동형접합성이 높기 때문으로 해석했다[5]. 반면 성분 형질은 23개 수집종 사이에서 차이가 매우 커 육종 재료로 쓸 수 있다는 결과도 있다[9]. 1993년에는 잎 조각 재분화와 아그로박테리움 형질전환으로 형질전환 나무토마토가 만들어져 형질이 자손에 유전됨이 확인되었다[29]. 염색체 수와 유전체 크기는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 나무토마토는 열매만 쓸 수 있는 사용가능 원료이다[1]. 식품안전나라 고시형 원료나 개별 주의 문구에 해당하는 기준은 확인하지 못함.\n\n알레르기로는 처음 먹은 나무토마토 샐러드 뒤 두 번 아나필락시스를 겪은 목공 노동자 사례가 있으며, 오베체 나무 알레르기와 교차반응이 의심되는 28 kDa 단백질이 지목되었다[20]. 2025년에는 이전에 문제없이 먹던 사람이 나무토마토 주스를 마신 뒤 두 번 전신 아나필락시스를 겪은 사례가 보고되었고, 다른 토마토에는 반응하지 않아 나무토마토 자체에 대한 일차 감작으로 판단되었다[19]. 제브라피시 배아 독성 시험에서 잎 추출물은 기형유발 지수 17.65로 독성이 높았고 열매 추출물은 약 2.2로 낮았다[21]. 연구진은 잎이 민간에서 주로 바르는 용도로 쓰여 먹을 때보다 안전하게 쓸 수 있을 것이라고 보았다[21].\n\n콜롬비아 안티오키아산 나무토마토의 농약 잔류를 QuEChERS-GC-MS로 33개 성분에 대해 검증·조사한 결과, 토마토와 달리 나무토마토에서는 뚜렷한 위험이 나타나지 않았다[22]. 국내 공공기관의 잔류 농약·알레르기 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산(3-O-카페오일퀸산)",
+   "class": "하이드록시신남산 유도체",
+   "role": "marker",
+   "part": "열매(껍질·과육·점액질·씨)",
+   "content_text": "95% 에탄올 동결건조 추출물 기준 껍질 74.90, 전과 9.234, 과육 5.707, 점액질 1.696 mg/g; 씨(75% 에탄올) 1.868 mg/g[3]; 에콰도르 품종에서 주요 하이드록시신남산 유도체[7]",
+   "activity_ko": "항산화 페놀 성분으로 껍질 추출물의 강한 DPPH 소거능·효소 억제와 함께 보고됨[3]",
+   "source": [
+    3,
+    7
+   ]
+  },
+  {
+   "name": "Rosmarinic acid",
+   "name_ko": "로즈마린산",
+   "class": "하이드록시신남산 유도체",
+   "role": "marker",
+   "part": "열매(껍질·과육)",
+   "content_text": "95% 에탄올 동결건조 추출물 기준 껍질 66.69, 전과 6.697, 점액질 0.242 mg/g[3]; 에콰도르 4개 품종 모두에서 주요 페놀 화합물로 처음 보고[7]",
+   "activity_ko": "나무토마토의 특징적 페놀산으로 지표 정량 대상[3, 7]",
+   "source": [
+    3,
+    7
+   ]
+  },
+  {
+   "name": "Delphinidin 3-rutinoside",
+   "name_ko": "델피니딘-3-루티노사이드",
+   "class": "안토시아닌",
+   "role": "marker",
+   "part": "열매(점액질·씨·전과·껍질)",
+   "content_text": "동결건조 추출물 기준 점액질 6.606, 씨 4.179, 전과 2.186 mg/g[3]; 열매 총 안토시아닌 8.5 mg/100 g(생/건 기준 초록 미기재) 중 주요 안토시아닌[8]; 껍질 건물 기준 Amber 0.43, Laird's Large 32.41, Mulligan 49.11 mg/100 g(리뷰 인용)[2]",
+   "activity_ko": "자주·빨강 계열 열매 색을 내는 색소[2, 8]",
+   "source": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "name": "Cyanidin 3-rutinoside",
+   "name_ko": "시아니딘-3-루티노사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매 껍질",
+   "content_text": "껍질 95% 에탄올 동결건조 추출물 8.687 mg/g(껍질의 주 안토시아닌)[3]; 껍질 건물 기준 Amber 0.29, Laird's Large 68.72, Mulligan 114.47 mg/100 g(리뷰 인용)[2]",
+   "activity_ko": "껍질 색소, 천연 색소 원료 후보[2]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Pelargonidin 3-rutinoside",
+   "name_ko": "펠라르고니딘-3-루티노사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매 점액질·껍질",
+   "content_text": "점액질 동결건조 추출물 6.111 mg/g(점액질의 주 안토시아닌)[3]; 자주 품종의 주요 안토시아닌[7]",
+   "activity_ko": "자주 품종 색소[7]",
+   "source": [
+    3,
+    7
+   ]
+  },
+  {
+   "name": "beta-Cryptoxanthin",
+   "name_ko": "베타-크립토잔틴",
+   "class": "카로티노이드(잔토필, 프로비타민 A)",
+   "role": "marker",
+   "part": "열매(껍질·과육 등)",
+   "content_text": "동결건조 추출물 기준 껍질 0.928, 과육 0.240, 전과 0.238, 점액질 0.085, 씨 0.061 mg/g[3]; 열매 총 카로티노이드 4.4 mg/100 g(생/건 기준 초록 미기재) 중 주요 카로티노이드[8]",
+   "activity_ko": "프로비타민 A 카로티노이드, 주황·노랑 색소[2, 8]",
+   "source": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "name": "beta-Carotene",
+   "name_ko": "베타-카로틴",
+   "class": "카로티노이드(프로비타민 A)",
+   "role": "nutrient",
+   "part": "열매 껍질",
+   "content_text": "껍질 95% 에탄올 동결건조 추출물 0.942 mg/g; 라이코펜·알파-카로틴은 어느 추출물에서도 검출되지 않음[3]",
+   "activity_ko": "프로비타민 A[2]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Citric acid",
+   "name_ko": "시트르산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매 과육·껍질",
+   "content_text": "과육·껍질 평균 39.3(±10.7) mg/g 건물; 과육 68–81 mg/g 건물(뉴질랜드 3품종)[4]; 수집종 23점에서 가장 중요한 유기산[9]",
+   "activity_ko": "신맛의 주성분[4, 9]",
+   "source": [
+    4,
+    9
+   ]
+  },
+  {
+   "name": "Itaconic acid",
+   "name_ko": "이타콘산",
+   "class": "유기산",
+   "role": "bioactive",
+   "part": "열매 과육·껍질",
+   "content_text": "평균 19.6(±7.5) mg/g 건물, 시트르산 다음으로 많은 유기산[4]",
+   "activity_ko": "세균 이소시트르산 분해효소를 막는 살균성 유기산으로, 껍질·과육 추출물의 항균 활성에 일부 기여할 것으로 추정[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Malic acid",
+   "name_ko": "사과산(말산)",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매 과육·껍질",
+   "content_text": "평균 8.7(±3.5) mg/g 건물; 과육 6.4–13.8 mg/g 건물[4]; 익으면서 함량 감소[11]",
+   "activity_ko": "신맛, 항균성 유기산[4]",
+   "source": [
+    4,
+    11
+   ]
+  },
+  {
+   "name": "cis-Aconitic acid",
+   "name_ko": "시스-아코니트산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매 과육·껍질",
+   "content_text": "평균 10.0(±4.1) mg/g 건물[4]",
+   "activity_ko": "시트르산·이타콘산·사과산·4-톨루산과 함께 유기산의 97% 이상을 차지[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "비타민 C(아스코르브산)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "열매 과육(점액질·씨·태좌 포함)",
+   "content_text": "에콰도르 육종 집단 90개체에서 78.29–420.16 mg/100 g 생과육(반사광도법; 결과 본문에는 상한이 428.19로 적혀 있음)[10]",
+   "activity_ko": "항산화 비타민[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "gamma-Aminobutyric acid",
+   "name_ko": "감마-아미노뷰티르산(GABA)",
+   "class": "아미노산",
+   "role": "bioactive",
+   "part": "열매 과육",
+   "content_text": "비표적 분석에서 상위 풍부 대사체(내부표준 대비 상대량, 절대 함량 미보고)이며 과육에서 껍질보다 높음[4]",
+   "activity_ko": "억제성 신경전달물질; 혈압 강하·면역 증진 효과가 보고된 성분으로 언급[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Furaneol",
+   "name_ko": "푸라네올(4-하이드록시-2,5-다이메틸-3(2H)-퓨라논, DMHF)",
+   "class": "푸라논 향기 성분",
+   "role": "bioactive",
+   "part": "열매 주스(글리코시드 결합형)",
+   "content_text": "익은 열매 주스에서 아글리콘으로 높은 향기활성값(함량 수치 초록 미기재)[26]; 한 품종에서 글리코시드 결합 DMHF의 향 희석 계수 1024[27]",
+   "activity_ko": "카라멜·과일 향의 핵심 향기 성분[26, 27]",
+   "source": [
+    26,
+    27
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "익은 과육(베네수엘라 아라과주산)",
+   "basis": "과육 100 g당(초록 숫자 그대로, 생/건 기준 초록 미기재)",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 30,
+     "unit": "kcal"
+    },
+    {
+     "name": "식이섬유",
+     "value": 4.1,
+     "unit": "g"
+    },
+    {
+     "name": "인",
+     "value": 331.32,
+     "unit": "mg"
+    },
+    {
+     "name": "칼슘",
+     "value": 21.25,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 21.18,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 17.03,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 7.44,
+     "unit": "mg"
+    },
+    {
+     "name": "펙틴",
+     "value": 1.0,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    28
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산(로즈마린산 동시 정량)",
+   "part": "빨강 나무토마토 열매 부위별(껍질·과육·점액질·씨·전과) 동결건조 에탄올 추출물(대만 난터우산)",
+   "content": "클로로겐산 껍질 74.90, 전과 9.234, 과육 5.707 mg/g 추출물; 로즈마린산 껍질 66.69, 전과 6.697 mg/g 추출물; 수율 환산 총 하이드록시신남산 전과 5.365 mg/g 동결건조 시료[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Hitachi L-2130 펌프, L-2455 다이오드배열검출기, L-2200 자동주입기",
+    "column": "Phenomenex C18(2), 250 × 4.6 mm, 5 µm",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 아세토니트릴",
+    "gradient": "B 15%(0–5분) → 20%(10분) → 35%(20분) → 50%(30분) → 60%(35–40분) → 15%로 재평형(50분)",
+    "flow": "0.5 mL/min",
+    "temp": "35 °C",
+    "detection": "UV 330 nm",
+    "injection": "10 µL",
+    "sample_prep": "동결건조 추출물 0.1 g + 메탄올 2 mL, 15분 초음파 → 메탄올로 5 mL → 1400×g 10분 원심분리(25 °C) → 0.45 µm 여과",
+    "standard": "클로로겐산·로즈마린산 표준품, 머무름 시간·UV 스펙트럼으로 확인, 외부 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "에콰도르 품종 연구에서 3-O-카페오일퀸산과 로즈마린산이 주요 하이드록시신남산으로 보고되어 두 성분을 골라 정량함; 전문 확인, 직선성·검출한계·회수율은 원문에 없음[3, 7].",
+   "source": [
+    3,
+    7
+   ],
+   "url": "https://doi.org/10.3390/foods14071282",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Delphinidin 3-rutinoside",
+   "compound_ko": "델피니딘-3-루티노사이드(시아니딘·펠라르고니딘-3-루티노사이드 동시 정량)",
+   "part": "빨강 나무토마토 열매 부위별 동결건조 에탄올 추출물(대만 난터우산)",
+   "content": "델피니딘-3-루티노사이드 점액질 6.606, 씨 4.179, 전과 2.186 mg/g 추출물; 시아니딘-3-루티노사이드 껍질 8.687 mg/g; 펠라르고니딘-3-루티노사이드 점액질 6.111 mg/g[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Hitachi L-2130 펌프, L-2455 다이오드배열검출기",
+    "column": "Merck RP-18e, 250 × 4 mm, 5 µm",
+    "mobile_phase": "A: 10% 포름산, B: 메탄올",
+    "gradient": "B 5%(0분) → 60%(20분) → 100%(25–30분) → 5%(35–40분)",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "520 nm",
+    "injection": "",
+    "sample_prep": "동결건조 추출물 0.1 g + 메탄올:0.1% 포름산(75:25) 2 mL, 15분 초음파 → 같은 용매로 5 mL → 1400×g 10분 원심분리(25 °C) → 0.45 µm 여과",
+    "standard": "델피니딘-3-O-루티노사이드·시아니딘-3-O-루티노사이드·펠라르고니딘-3-O-루티노사이드 표준품, 외부 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "델피니딘-3-루티노사이드는 나무토마토 열매의 주된 안토시아닌으로 보고되어 색과 품종(자주·빨강 계열)을 가르는 지표가 됨; 전문 확인, 주입량·직선성·검출한계·회수율은 원문에 없음[3, 8].",
+   "source": [
+    3,
+    8
+   ],
+   "url": "https://doi.org/10.3390/foods14071282",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "beta-Cryptoxanthin",
+   "compound_ko": "베타-크립토잔틴(베타-카로틴·제아잔틴 동시 정량)",
+   "part": "빨강 나무토마토 열매 부위별 동결건조 에탄올 추출물(대만 난터우산)",
+   "content": "베타-크립토잔틴 껍질 0.928, 과육 0.240, 전과 0.238 mg/g 추출물; 베타-카로틴 껍질 0.942 mg/g; 총 카로티노이드 껍질 1.943 mg/g[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Hitachi L-2130 펌프, L-2455 다이오드배열검출기",
+    "column": "Merck RP-18e, 250 × 4 mm, 5 µm",
+    "mobile_phase": "아세토니트릴:메탄올:에틸아세테이트 75:15:10",
+    "gradient": "고정 비율(등용매)",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "450 nm",
+    "injection": "",
+    "sample_prep": "동결건조 추출물 0.6 g + 에틸아세테이트 2 mL, 15분 초음파 → 5 mL → 2600×g 10분 원심분리(25 °C) → 0.45 µm 여과, 냉장 보관",
+    "standard": "베타-크립토잔틴·베타-카로틴·제아잔틴·라이코펜·알파-카로틴 표준품, 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "베타-크립토잔틴은 나무토마토의 주된 카로티노이드로 보고되어 주황·노랑 색과 프로비타민 A 가치를 나타내는 지표가 됨; 전문 확인, 주입량·직선성·검출한계·회수율은 원문에 없음[3, 8].",
+   "source": [
+    3,
+    8
+   ],
+   "url": "https://doi.org/10.3390/foods14071282",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Itaconic acid",
+   "compound_ko": "이타콘산(시트르산 등 유기산 16종 동시 정량)",
+   "part": "열매 껍질·과육(뉴질랜드 Amber·Laird's Large·Mulligan 품종, 상업 수확기, 동결건조)",
+   "content": "평균 이타콘산 19.6(±7.5), 시트르산 39.3(±10.7), 시스-아코니트산 10.0(±4.1), 사과산 8.7(±3.5) mg/g 건물; 총 유기산 최고는 Mulligan 과육 110.8(±13.5) mg/g 건물(본문 값, 초록에는 219.7 mg/g 건물로 적혀 있음)[4]",
+   "method": "GC-MS(메틸클로로포메이트 유도체화)",
+   "conditions": {
+    "instrument": "Agilent 6890B GC + 5977B MSD, 자동 유도체화 시료처리기",
+    "column": "Phenomenex ZB-1701, 35 m × 250 µm × 0.15 µm(가드 5 m)",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "오븐 40 °C 5분 유지 → 10 °C/min으로 300 °C → 2분 유지(총 33분)",
+    "flow": "1.1 mL/min(정유량)",
+    "temp": "주입구 280 °C, 전송선 275 °C, 이온원 230 °C, 사중극자 150 °C",
+    "detection": "EI-MS 스캔 m/z 38–400, 초당 4스캔; 표적 성분별 기준 이온 면적을 내부표준으로 보정",
+    "injection": "1 µL, 펄스 스플릿리스(26.1 psi, 2분)",
+    "sample_prep": "동결건조 분말 2–2.5 mg + 1 M 수산화나트륨:메탄올:피리딘(5:4:1) 200 µL(D-알라닌 내부표준 포함), 30초 와류 → 4 °C 10분 → 1500×g 10분 원심분리 → 상등액 100 µL를 메틸클로로포메이트 2 × 10 µL, 1.5 M 아세트산나트륨 완충액(pH 5.3) 100 µL, 클로로포름 100 µL로 유도체화",
+    "standard": "유기산 16종 혼합 표준, 1.5625–800 mg/L 10단계 외부 검량선 + 내부표준",
+    "linearity": "상관계수 > 0.99(젖산·벤조산·아디프산은 고농도 점을 빼서 직선성 확보)",
+    "lod": "",
+    "loq": "",
+    "recovery": "대부분 70–120%(반복 RSD 평균 5.27%); 시트르산 169%, 이타콘산 175%, 젖산 52%였고 보고 값은 회수율로 보정"
+   },
+   "rationale": "유기산은 맛·품질과 진위의 지표이며, 나무토마토에서는 드물게 살균성 이타콘산이 시트르산 다음으로 많아 특징 성분이 됨; 전문 확인, 검출·정량한계 수치는 본문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.3390/molecules27041314",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "에콰도르",
+   "metric": "area_ha",
+   "year": 2015,
+   "value": 4500,
+   "unit": "ha",
+   "note": "재배 면적(논문 [5]가 카르치·임바부라 등 산지 주 기준으로 다른 문헌 2편을 인용한 2차 값, 원 통계 미확인)",
+   "source": [
+    5
+   ]
+  },
+  {
+   "country": "에콰도르",
+   "metric": "area_ha",
+   "year": 2017,
+   "value": 7600,
+   "unit": "ha",
+   "note": "재배 면적, 2015년 대비 70% 증가(논문 [5]가 카르치·임바부라 등 산지 주 기준으로 다른 문헌 2편을 인용한 2차 값, 원 통계 미확인)",
+   "source": [
+    5
+   ]
+  },
+  {
+   "country": "뉴질랜드",
+   "metric": "production_t",
+   "year": 2019,
+   "value": 622,
+   "unit": "t",
+   "note": "연간 약 622 t, 약 100 ha·약 40개 농가(리뷰 [2] 본문 서술, 원 통계 출처 미표기·미확인)",
+   "source": [
+    2
+   ]
+  },
+  {
+   "country": "뉴질랜드",
+   "metric": "area_ha",
+   "year": 2019,
+   "value": 100,
+   "unit": "ha",
+   "note": "약 100 ha(리뷰 [2] 본문 서술, 원 통계 출처 미표기·미확인)",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 나무토마토열매·나무토마토페이스트(Cyphomandra betacea (Cav.) Sendt.; Tree tomato), 사용가능, 사용가능부위: 열매; 같은 속(Solanum) 루로(S. quitoense)·페피노(S. muricatum)·Cocona(S. sessiliflorum)·토마토·가지·까마중 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Tamarillo (Solanum betaceum Cav.) wastes and by-products: Bioactive composition and health benefits — Heliyon 2024;10(18):e37600 (PMID 39309964, PMC11416485, 전문 확인)",
+   "url": "https://doi.org/10.1016/j.heliyon.2024.e37600",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Metabolic Syndrome Prevention Potential of Tamarillo: Phytochemical Composition, Antioxidant Activity, and Enzyme Inhibition Before and After Digestion — Foods 2025;14(7):1282 (PMID 40238593, PMC11988886, 전문 확인)",
+   "url": "https://doi.org/10.3390/foods14071282",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Simultaneous Quantification of Organic Acids in Tamarillo (Solanum betaceum) and Untargeted Chemotyping Using Methyl Chloroformate Derivatisation and GC-MS — Molecules 2022;27(4):1314 (PMID 35209098, PMC8875926, 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules27041314",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Genetic Assessment in the Andean Tropical Fruits Solanum quitoense Lam. and Solanum betaceum Cav.: Efforts Towards a Molecular Breeding Approach — Plants 2025;14(6):874 (PMID 40265758, PMC11944818, 전문 확인)",
+   "url": "https://doi.org/10.3390/plants14060874",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "A PacBio single molecule real-time sequencing-based full-length transcriptome atlas of tree tomato (Solanum betaceum Cav.) and mining of simple sequence repeat markers — Front Plant Sci 2022;13:1052817 (PMID 36407580, PMC9667052, 전문 확인)",
+   "url": "https://doi.org/10.3389/fpls.2022.1052817",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Phenolic composition and antioxidant capacity of yellow and purple-red Ecuadorian cultivars of tree tomato (Solanum betaceum Cav.) — Food Chem 2016;194:1073-1080 (PMID 26471655, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2015.07.131",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "HPLC-PDA-MS/MS of anthocyanins and carotenoids from dovyalis and tamarillo fruits — J Agric Food Chem 2007;55(22):9135-9141 (PMID 17927197, 초록 확인)",
+   "url": "https://doi.org/10.1021/jf071316u",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Diversity for chemical composition in a collection of different varietal types of tree tomato (Solanum betaceum Cav.), an Andean exotic fruit — Food Chem 2015;169:327-335 (PMID 25236234, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2014.07.152",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Phytochemical Characterization of a Tree Tomato (Solanum betaceum Cav.) Breeding Population Grown in the Inter-Andean Valley of Ecuador — Plants 2022;11(3):268 (PMID 35161251, PMC8838755, 전문 확인)",
+   "url": "https://doi.org/10.3390/plants11030268",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Physiological and Metabolic Changes in Tamarillo (Solanum betaceum) during Fruit Ripening — Molecules 2023;28(4):1800 (PMID 36838788, PMC9966127, 초록 확인)",
+   "url": "https://doi.org/10.3390/molecules28041800",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Functional and Antioxidant Evaluation of Two Ecotypes of Control and Grafted Tree Tomato (Solanum betaceum) at Different Altitudes — Foods 2023;12(18):3494 (PMID 37761202, PMC10530088, 초록 확인)",
+   "url": "https://doi.org/10.3390/foods12183494",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "The impact of an extreme climatic disturbance and different fertilization treatments on plant development, phenology, and yield of two cultivar groups of Solanum betaceum Cav. — PLoS One 2017;12(12):e0190316 (PMID 29287099, PMC5747456, 초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0190316",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Purification and characterisation of a protease (tamarillin) from tamarillo fruit — Food Chem 2018;256:228-234 (PMID 29606442, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2018.02.091",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Proteomics-guided isolation of a novel serine protease with milk-clotting activity from tamarillo (Solanum betaceum Cav.) — Food Chem 2025;465:141956 (PMID 39541676, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2024.141956",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Structure of an arabinogalactan from the edible tropical fruit tamarillo (Solanum betaceum) and its antinociceptive activity — Carbohydr Polym 2014;116:300-306 (PMID 25458304, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.carbpol.2014.03.032",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Type I Arabinogalactan and Methyl-Esterified Homogalacturonan Polysaccharides from Tamarillo (Solanum betaceum Cav.) Fruit Pulp Ameliorate DSS-Induced Ulcerative Colitis — Pharmaceuticals 2025;18(4):461 (PMID 40283898, PMC12030512, 초록 확인)",
+   "url": "https://doi.org/10.3390/ph18040461",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Protective Effects of Tamarillo (Cyphomandra betacea) Extract against High Fat Diet Induced Obesity in Sprague-Dawley Rats — J Obes 2015:846041 (PMID 26171246, PMC4480815, 초록 확인)",
+   "url": "https://doi.org/10.1155/2015/846041",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "[Anaphylaxis due to Solanum betaceum] — Rev Alerg Mex 2025;72(1):80-83 (PMID 40253638, 초록 확인)",
+   "url": "https://doi.org/10.29262/ram.v72i1.1422",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Anaphylaxis to Cyphomandra betacea Sendth (tamarillo) in an obeche wood (Triplochiton scleroxylon)-allergic patient — Ann Allergy Asthma Immunol 2006;96(6):870-873 (PMID 16802777, 초록 확인)",
+   "url": "https://doi.org/10.1016/S1081-1206(10)61352-X",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Leaf and fruit extracts of Solanum betaceum Cav.: Antioxidant potential and embryotoxicity using a zebrafish model — Toxicol Rep 2025;14:102016 (PMID 40235716, PMC11999375, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.toxrep.2025.102016",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "QuEChERS GC-MS validation and monitoring of pesticide residues in different foods in the tomato classification group — Food Chem 2014;158:153-161 (PMID 24731326, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2014.02.121",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Genome sequence of a virus isolate from tamarillo (Solanum betaceum) in Colombia: evidence for a new potyvirus — Arch Virol 2015;160(2):557-560 (PMID 25466572, 초록 확인)",
+   "url": "https://doi.org/10.1007/s00705-014-2296-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Nucleotide sequence analysis reveals the presence of PVY-Tam isolates affecting tamarillo in Colombia — Virol J 2026;23(1) (PMID 42010624, PMC13234967, 초록 확인)",
+   "url": "https://doi.org/10.1186/s12985-026-03166-6",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "A New 'Candidatus Liberibacter' Species in Solanum betaceum (Tamarillo) and Physalis peruviana (Cape Gooseberry) in New Zealand — Plant Dis 2008;92(11):1588 (PMID 30764458, 초록 확인)",
+   "url": "https://doi.org/10.1094/PDIS-92-11-1588B",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Free and Glycosidic Volatiles in Tamarillo (Solanum betaceum Cav. syn. Cyphomandra betacea Sendt.) Juices Prepared from Three Cultivars Grown in New Zealand — J Agric Food Chem 2021;69(15):4518-4532 (PMID 33843220, 초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jafc.1c00837",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Elucidation of Endogenous Aroma Compounds in Tamarillo (Solanum betaceum) Using a Molecular Sensory Approach — J Agric Food Chem 2021;69(32):9362-9375 (PMID 34342975, 초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jafc.1c03027",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "[Physical, chemical and bioactive compounds of tree tomato (Cyphomandra betacea)] — Arch Latinoam Nutr 2012;62(4):381-388 (PMID 24020259, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24020259/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Regeneration of transgenic tamarillo plants — Plant Cell Rep 1993;12(6):347-351 (PMID 24197262, 초록 확인)",
+   "url": "https://doi.org/10.1007/BF00237433",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Abscisic acid promotes selenium absorption, metabolism and toxicity via stress-related phytohormones regulation in Cyphomandra betacea Sendt. (Solanum betaceum Cav.) — J Hazard Mater 2023;461:132642 (PMID 37806260, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jhazmat.2023.132642",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Bioactive Components and Anticancer Activities of Spray-Dried New Zealand Tamarillo Powder — Molecules 2022;27(9):2687 (PMID 35566037, PMC9103875, 초록 확인)",
+   "url": "https://doi.org/10.3390/molecules27092687",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "A New Tymovirus Isolated From Solanum quitoense: Characterization and Prevalence in Two Solanaceous Crops in Ecuador — Plant Dis 2019;103(9):2246-2251 (PMID 31287777, 초록 확인)",
+   "url": "https://doi.org/10.1094/PDIS-01-19-0113-RE",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

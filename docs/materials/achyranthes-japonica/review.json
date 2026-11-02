@@ -1,0 +1,28 @@
+{"slug": "achyranthes-japonica", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 76, "checked_items": 46,
+ "verified": 108, "fixed": 10, "removed": 1, "unverifiable": 3,
+ "changes": [
+  {"where": "sections.overview", "before": "다른 이름은 쇠무릎풀·우슬", "after": "다른 이름은 쇠무릎풀(뿌리 원료 행에는 쇠무릎풀, 우슬)", "why": "I1020 원자료에서 '우슬' 별명은 뿌리 원료 9행에만 있고 줄기·잎 4행은 '쇠무릎풀'뿐"},
+  {"where": "sections.history", "before": "뿌리를 달여 무릎 골관절염의 통증을 다스리는 데 써 왔다", "after": "골관절염 환자의 통증 조절과 기능 개선에 전통적으로 쓰여 왔다고 기술", "why": "[19 구 번호] 초록은 '무릎'·'달여 쓰는 전통'을 말하지 않음(달인 것은 증례 환자의 복용 방식)"},
+  {"where": "sections.biology", "before": "질소를 더 주면 지상부와 지하부 무게가 늘었고 … 콩과의 경쟁력이 높게 평가", "after": "질소를 더 주면 지상부 무게가 늘었고 … 잘라 낸 개체는 콩에 대한 경쟁 효과가 Palmer amaranth와 같은 수준", "why": "[6] 전문: 질소로 늘어난 것은 지상부(지하부는 본문 서술이 엇갈림), 순위는 tall waterhemp ≥ Palmer amaranth = cut JCF ≥ uncut JCF"},
+  {"where": "sections.cultivation", "before": "질소 시비에 지상부·지하부 생장이 늘었다", "after": "질소 시비에 지상부 생장이 늘었다", "why": "[6] 위와 같음"},
+  {"where": "sections.safety", "before": "복합원료 행에는 쇠무릅 뿌리가 '식품공전상 … 등재'되어 있다고 적혀 있다", "after": "뿌리 9개·줄기잎 4개 조건 원문 명시 + 쇠무릅창출분말 행 조건 원문 그대로 인용", "why": "I1020 원자료: 해당 문구는 쇠무릅창출분말 1행의 조건 끝줄로, 뿌리만을 가리킨다고 단정할 수 없음; 제한적사용 조건을 출처와 함께 분명히 적음"},
+  {"where": "sections.safety", "before": "혈청 크레아티닌이 3.2 mg/dL까지 올랐고 … (인과성 '가능성 높음')", "after": "입원 당시 혈청 크레아티닌이 3.2 mg/dL였고 … (Naranjo·WHO-UMC 인과성 '가능성 높음')", "why": "[18 구] 전문: 3.2는 최고치가 아니라 입원 당시(initial) 값"},
+  {"where": "sections.safety", "before": "무작위 시험(48명)", "after": "무작위 위약대조 시험(96명, 군당 48명), 30% 에탄올 추출 3:1 복합물", "why": "[22 구] 전문: 총 96명(시험군 48·위약군 48)"},
+  {"where": "compounds[20-Hydroxyecdysone].content_text", "before": "쇠무릅 에탄올 추출물 307.59 ± 4.18 mg/100g", "after": "쇠무릅 99% 에탄올 건조 추출물 기준 307.59 ± 4.18 mg/100g", "why": "[12 구] 전문: 동결건조한 추출물 분말 기준 값(원료 건물·생물 기준 아님)"},
+  {"where": "assays[0].content", "before": "307.59 ± 4.18 mg/100g(n=3)", "after": "추출물 기준 307.59 ± 4.18 mg/100g(n=3)", "why": "기준(추출물) 명시"},
+  {"where": "assays[2].conditions", "before": "칸 모두 빈칸, 조건은 rationale 에만", "after": "column·mobile_phase·gradient(등용리)·flow·detection 을 초록 값으로 채움", "why": "[8] 초록에 YMC J'sphere ODS C18 250×4.6 mm 4 μm, 0.1% 포름산:아세토니트릴 85:15, 1.0 mL/min, UV 245 nm 명시"},
+  {"where": "sections.safety + sources[3]", "before": "식품공전은 … 가공 전 원료 중량 기준 50% 미만으로 쓰게 한다(검색 요약으로만 확인)[3]", "after": "제한적사용 원료의 배합 한도 등 식품공전상 구체적 사용 조건은 원문을 열지 못해 확인하지 못함. (출처 [3] 삭제, 4번 이후 한 칸씩 당김)", "why": "WebSearch 요약뿐이고 로컬 원자료(docs/refs·data/raw)에 식품공전 원문 없음"}
+ ],
+ "unverifiable_notes": [
+  "식품공전 '50% 미만' 규정: 로컬 원자료로 확인되지 않아 문장·출처 삭제",
+  "[8](PMID 22941488) 전문 없음: 엑디스테로이드 3종 함량 수치는 확인하지 못함(초록 분석 조건만 반영)",
+  "개별인정 연도 2018·2023은 I1020 인정번호(제2018-13호·제2023-40호)에서 읽은 값"
+ ],
+ "verified_notes": [
+  "production 33행(2009–2024 면적·생산량 32행 + 2024 농가 157호)은 docs/stats/special_crops_annual.csv·special_crops_2024.csv 와 모두 일치; 시도별(경북 121호·25 ha·42 t 등)·10a당 193 kg 은 regional_crops.csv 와 일치",
+  "hf_items.csv: 우슬 등 복합물 sales_k 2024판 4,888,546·2025판 2,968,803, 두충우슬추출복합물 2025판 657,865(천원) 일치",
+  "I1020 원자료: 쇠무릅 13행(줄기·잎 사용가능 4, 뿌리 제한적사용 9), 학명 'Achyranthes japonica Nakai / Achyranthes bidentata Blume', A. aspera 사용불가 — card.json 과 overview 일치",
+  "시료 종: [12]·[11]·[9]·[10]·[13]~[17]·[24]·[30] 은 A. japonica(‘Achyranthis Radix’로 쓴 [24]도 전문에서 A. japonica Nakai 확인); [5]·[20]·[25]·[26]·[32 구] 는 A. bidentata 로 본문에 구분 표기됨",
+  "PubMed 메타데이터·PMC 전문(PMC4719039, PMC9728298, PMC5551359, PMC8936126, PMC8028177, PMC13051131, PMC7707250, PMC7146119)으로 대조"
+ ]}

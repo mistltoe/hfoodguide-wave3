@@ -1,0 +1,68 @@
+{
+ "slug": "vaccinium-bracteatum",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 82,
+ "checked_items": 59,
+ "verified": 132,
+ "fixed": 8,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "같은 목록에서 블루베리(Vaccinium spp.)·덩굴월귤·월귤나무 행은 잎도 사용가능부위로 적혀 있지만",
+   "after": "같은 목록에서 블루베리(Vaccinium spp.)·하이부시블루베리(V. corymbosum)·덩굴월귤·미르틸루스산앵도(V. myrtillus) 행은 잎도 사용가능부위로 적혀 있지만(월귤나무·들쭉나무 행은 열매만)",
+   "why": "로컬 I1020 원자료에서 월귤나무(V. vitis-idaea) 행의 사용가능부위는 '열매'뿐이고, 잎이 들어 있는 행은 블루베리·High-bush blueberry·덩굴월귤·미르틸루스산앵도"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "국내 연구에서는 전남 고흥군의 식물원과 자생 개체에서 열매를 구했다[10, 11].",
+   "after": "국내 연구에서는 전남 고흥군의 한 식물원에서 열매를 사거나[10], 고흥군의 개체에서 열매를 채취했다[11].",
+   "why": "[10] 은 고흥의 식물원에서 구입, [11] 은 'collected from plants in the Goheung County' — 자생 개체라는 표현은 원문에 없음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "벌이 먹은 지역 식물 가운데 하나로 모새나무를 독소의 간접 원인 후보로 들었으나, 이는 가설이다[19].",
+   "after": "지역에 흔한 유독 식물(뇌공등속 2종과 모새나무)이 벌 번데기를 거쳐 간접적으로 독소의 원인이 되었을 수 있다고 추정했으나, 이는 가설이다[19].",
+   "why": "[19] 초록은 'prevalence of local poisonous plants, such as Tripterygium wilfordii, T. hypoglaucum and V. bracteatum' 이라고만 씀 — 벌이 먹었다는 내용은 없음"
+  },
+  {
+   "where": "compounds[p-Coumaric acid].content_text",
+   "before": "잎 추출물 에틸아세테이트 분획의 주된 활성 성분으로 동정(함량 없음)[25]; 잎 추출물의 주요 활성 성분[26]",
+   "after": "추출물(초록에 부위 기재 없음) 에틸아세테이트 분획의 주된 활성 성분으로 동정(함량 없음)[25]; 잎 추출물의 주요 활성 성분[26]",
+   "why": "[25] 초록은 V. bracteatum 추출물이라고만 하고 부위를 밝히지 않음"
+  },
+  {
+   "where": "compounds[Xanthotoxol].content_text",
+   "before": "잎 추출물 비표적 대사체 분석에서 핵심 활성 성분으로 선정(함량 없음)[31]",
+   "after": "잎 추출물을 먹인 생쥐 혈청의 비표적 대사체 분석에서 핵심 활성 후보로 선정, 추출물 안에서도 상관 대사체 중 가장 많았다고 함(함량 수치 없음)[31]",
+   "why": "[31] 전문: 대사체 분석은 생쥐 혈청 대상이었고 함량 수치는 없음"
+  },
+  {
+   "where": "compounds[Xanthotoxol].activity_ko",
+   "before": "세포 노화 모델에서 Nrf2 경로 활성화[31]",
+   "after": "H2O2로 노화를 유도한 HepG2 세포에서 Nrf2 경로 활성화(세포 실험)[31]",
+   "why": "[31] 전문: HepG2 세포 모델 — 세포 결과임을 밝힘"
+  },
+  {
+   "where": "sources[31].title",
+   "before": "초록만 확인",
+   "after": "전문 확인",
+   "why": "PMC13114447 전문을 열어 예쁜꼬마선충 생식 독성 없음(산란 수 차이 없음)·HepG2 모델을 확인"
+  },
+  {
+   "where": "sources[32].title",
+   "before": "— WebSearch 검색 결과 요약으로만 확인, 원문(koreascience)은 이 환경에서 열지 못함",
+   "after": "— 한국자원식물학회지 2013, WebSearch 검색 결과로 존재만 확인, 원문(koreascience)은 이 환경에서 열지 못함",
+   "why": "검토 중 WebSearch 1회로 논문 존재·학술지·연도 확인"
+  }
+ ],
+ "unverifiable_notes": [
+  "[32] 한라산 모새나무 자생지 식생 논문은 koreascience 가 이 환경의 허용 목록 밖이라 원문을 열지 못함. WebSearch 1회로 논문 존재(한국자원식물학회지 2013)만 확인했고, 본문 문장은 이미 '검색 요약으로만 확인'이라고 적혀 있어 그대로 둠",
+  "[4][5][6][7][8][9][12][16]~[30][33][34] 는 PubMed 초록으로 대조함(PMC 전문이 없거나 필요하지 않음). [22] 는 초록이 없어 제목('꽃의 성분, 새 이리도이드 배당체 vaccinoside의 구조')으로만 확인",
+  "[2][3][10][11][13][31] 은 PMC 전문으로, [14] 는 작성자가 받아 둔 PMC13491718 전문(_work/ft_13491718.json)으로 대조함. assays 2건(Plants 2013, Front Plant Sci 2021)의 칼럼·이동상·기울기·유속·온도·검출·시료 전처리는 Methods 원문과 한 칸씩 일치",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 모새나무열매 1행, 식품원료(A코드), 사용가능, '사용가능부위 : 열매', 영명 Sea bilberry, 학명 이명 Acosta spicata·Andromeda chinensis — overview·safety·card.json 과 일치",
+  "같은 속 다른 식품원료(블루베리·빌베리·덩굴월귤·월귤나무·들쭉나무·하이부시블루베리) 자료가 모새나무 성분·효능으로 섞인 곳은 찾지 못함. 잎(오반·잎 추출물) 자료는 본문에서 이미 열매와 구분되어 있음. production·gi·orgs·markers 는 비어 있음"
+ ]
+}

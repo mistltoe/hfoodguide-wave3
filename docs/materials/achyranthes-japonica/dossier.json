@@ -1,0 +1,893 @@
+{
+ "slug": "achyranthes-japonica",
+ "name_ko": "쇠무릅",
+ "name_en": "Oriental chaff flower (Japanese chaff flower)",
+ "scientific_name": "Achyranthes japonica (Miq.) Nakai",
+ "aliases": [
+  "쇠무릎",
+  "쇠무릎풀",
+  "우슬",
+  "우슬풀",
+  "牛膝",
+  "Achyranthis Radix",
+  "Japanese chaff flower",
+  "Oriental chaff flower",
+  "Achyranthes japonica Nakai"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "쇠무릅(쇠무릎, Achyranthes japonica (Miq.) Nakai)은 비름과(Amaranthaceae) 쇠무릎속의 여러해살이풀로 한국·중국·일본이 원산지다[5, 29]. 식약처 「식품원료 목록」에는 학명이 'Achyranthes japonica Nakai / Achyranthes bidentata Blume'로 함께 적혀 있고, 다른 이름은 쇠무릎풀(뿌리 원료 행에는 쇠무릎풀, 우슬), 영문명은 Oriental chaff flower다[1].\n\n식품원료로서 이 종은 부위에 따라 지위가 다르다[1]. 줄기와 잎은 '사용가능부위 : 줄기, 잎' 조건의 사용가능 원료이고, 뿌리는 '제한적사용가능부위 : 뿌리※(우슬)' 조건의 제한적사용 원료다[1]. 목록에는 쇠무릅잎·쇠무릅줄기 같은 지상부 원료 4개와 쇠무릅뿌리·건조쇠무릅·발효쇠무릅뿌리농축액 등 뿌리 원료 9개가 올라 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 없고, 우슬을 넣은 개별인정 원료 2건(우슬 등 복합물, 두충우슬추출복합물)이 목록에 있다[2].\n\n약재 우슬(Achyranthis Radix)은 A. bidentata와 A. japonica 두 종의 뿌리에서 얻는다[7, 9]. 연구의 핵심 성분은 20-하이드록시엑디손(엑디스테론)·이노코스테론 같은 식물성 엑디스테로이드와 트리테르펜 사포닌이다[7, 8, 12]. 효과 보고는 대부분 세포·동물 실험이고, 이 종만 단독으로 쓴 사람 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "한국에서 쇠무릅 뿌리는 부종과 관절염에 쓰는 전통 약재로 쓰여 왔다고 보고되었다[16]. 'Useul-puli(우슬풀)'라고 부르는 뿌리는 골관절염 환자의 통증 조절과 기능 개선에 전통적으로 쓰여 왔다고 기술되었다[18]. 한 증례 보고는 이 풀이 부종·관절염과 함께 월경을 늦추려는 민간 용도로도 쓰였다고 적었다[17].\n\n중국에서 우슬(牛膝, Niuxi)로 부르는 A. bidentata 뿌리는 혈액순환을 돕는 약으로 무월경·월경통·허리와 무릎 통증·부종 등에 널리 쓰였다[3, 4]. 같은 'Niuxi'라는 이름으로 쓰이는 비슷한 약재가 여러 종 있어 기원 종 비교 연구가 필요하다고 지적되었다[3, 27].\n\n2000년대 이후 국내에서는 쇠무릅을 발효시키거나 다른 약재와 섞은 추출물이 관절·뼈 건강 소재로 연구되었다[8, 23, 29]. 식약처는 2018년에 우슬 등 복합물을, 2023년에 두충우슬추출복합물을 개별인정 원료로 인정했다[2]. 두충·쇠무릅 3:1 추출 복합물은 노화 흰쥐에 6주 동안 40 mg/kg을 먹였을 때 테스토스테론을 높였다(동물)[22]. 식품원료 목록에는 뿌리 분말·추출액·농축액·발효 농축액이 원료명으로 따로 올라 있어 추출 형태 이용을 반영한다[1]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "쇠무릅은 암수한그루의 여러해살이 초본으로 한국·중국·일본이 원산지다[5]. 그늘이 조금 지고 축축한 흙을 좋아하지만 햇볕 드는 마른 땅이나 짙은 그늘에서도 자란다[5]. 강가 저지대 숲, 하천 둑, 밭 가장자리, 도랑에 큰 무리를 이루며, 줄기가 잘려도 잠자던 겨드랑이눈에서 새 줄기가 돋는다[5]. 미국 오하이오강 유역에서는 최근 들어와 퍼지는 외래 침입종으로 연구되었다[5].\n\n온실·포장 실험에서 쇠무릅 어린 식물은 질소를 더 주면 지상부 무게가 늘었고, 4마디 단계에서 땅 높이로 잘라 낸 개체는 다시 자라 콩에 대한 경쟁 효과가 Palmer amaranth와 같은 수준으로 평가되었다[5]. 한 개체의 20-하이드록시엑디손 총량은 첫 잎 쌍 단계 이후 크게 늘지만, 식물 무게당 농도는 영양생장이 진행되면서 빠르게 줄었다[6]. 방사성 메발론산을 넣은 실험에서 20-하이드록시엑디손 합성은 특정 기관이나 생육 단계에 한정되지 않았다[6].\n\n약재로는 뿌리를 쓰며, 식품원료 목록도 뿌리·줄기·잎을 부위로 나눠 적는다[1, 16]. 꽃·열매의 형태 등 세부 형태 기재는 공식 자료에서 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 시료 종 확인",
+   "body": "쇠무릎속에서 약용으로 이름난 종은 A. bidentata(우슬)와 A. aspera이며, 두 종 모두 아시아·아프리카 여러 나라에서 민간약으로 쓰였다[3]. 식약처 목록은 A. japonica와 A. bidentata를 같은 '쇠무릅' 원료로 묶고, A. aspera는 사용불가 원료로 따로 적는다[1, 2]. 중국에서는 다른 속의 천우슬(Cyathula officinalis) 등도 'Niuxi'로 불려 엽록체 유전체와 엑디스테로이드 조성으로 구별하는 연구가 이루어졌다[26, 27].\n\n시료 종 확인이 중요하다: 우슬 연구의 상당수는 중국산 A. bidentata 뿌리를 다루며, 그 성분·약리·독성 정리를 A. japonica에 그대로 옮길 수 없다[4]. 우슬 시료 18점(A. bidentata)과 10점(A. japonica)을 HPLC로 비교한 연구는 두 종을 나눠 분석했다[7]. 반면 국내 자생지에서 채집한 잎으로 엽록체 유전체를 해독한 연구는 그 시료를 A. bidentata로 기재해, 국내 자생 개체의 학명 표기가 연구마다 다르다[24]. 이 백과의 성분·분석 자료는 논문이 A. japonica로 밝힌 시료를 우선하고, A. bidentata 자료는 따로 표시했다[10, 11, 31].\n\n같은 비름과의 Palmer amaranth·tall waterhemp와 비교한 실험에서 쇠무릅의 경쟁력은 이들 잡초와 비슷한 수준으로 평가되었다[5]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "국내에서 우슬(쇠무릎)은 약용작물로 재배·집계된다[28]. 재배면적은 2009년 20 ha에서 2016–2019년 69–74 ha로 늘었다가 2020년 36 ha로 줄었고, 2024년에는 46 ha였다[28]. 생산량은 2016년 123톤으로 가장 많았고 2024년에는 88톤, 10a당 수량은 193 kg이었다[28].\n\n2024년 재배 농가는 전국 157호이며, 그 가운데 경북이 121호·25 ha·42톤으로 가장 컸다[34]. 그다음은 충북(10 ha, 21톤), 전남(5 ha, 9톤), 충남(4 ha, 9톤), 강원(1 ha, 3톤) 순이었다[34]. 이 통계는 품목명이 '우슬(쇠무릎)'이어서 A. japonica와 A. bidentata 재배분을 나눠 볼 수 없다[28].\n\n쇠무릅은 그늘지고 습한 곳을 좋아하지만 양지·건조지에도 적응하며, 질소 시비에 지상부 생장이 늘었다[5]. 지상부를 잘라도 다시 자라는 여러해살이 특성이 있다[5]. 20-하이드록시엑디손 농도는 생육이 진행될수록 낮아져, 수확 시기가 성분 함량에 영향을 줄 수 있다[6]. 국내 재배 기술 지침(파종기·수확기)은 공식 자료에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "식품원료 목록의 쇠무릅 원료는 말린 뿌리, 분말, 추출액, 농축액, 추출 분말, 발효 뿌리 농축액·추출 고형분 등으로 나뉜다[1]. 복합원료로는 두충쇠무릅추출액, 마가목쇠무릅혼합추출액, 쇠무릅창출분말이 올라 있다[2].\n\n발효는 지표성분을 늘리는 방법으로 연구되었다[8, 9]. 쇠무릅 전체 추출물을 미생물로 발효하자 20-하이드록시엑디손이 2.6배, 25S-이노코스테론이 2.3배(피크 면적) 늘었다[9]. 발효 쇠무릅은 발효하지 않은 것보다 20-하이드록시엑디손이 많았다[8]. 누룩으로 발효한 가시오갈피·쇠무릅·삽주 혼합 추출물도 연구되었다[29]. 6종 약재 혼합 탕제에서 30–240분 달이는 동안 20-하이드록시엑디손 농도는 10.52–12.98 μg/mL로 끓인 시간에 크게 좌우되지 않았다[10].\n\n개별인정 원료 '우슬 등 복합물'의 국내 판매액은 「식품 등의 생산실적」 2024년판 4,888,546천원(약 48.9억 원), 2025년판 2,968,803천원이었다[30]. 두충우슬추출복합물은 2025년판 판매액 657,865천원(약 6.6억 원)이었다[30]. 식품 이외에는 돼지고기 소시지에 추출물 0.05%를 넣어 산패를 늦춘 연구와 육계 사료첨가제(0.025–0.1%) 연구가 있다[32, 33]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 종 판별",
+   "body": "PubMed에서 A. japonica의 전체 엽록체 유전체 논문은 확인하지 못함. 가까운 종 A. bidentata의 엽록체 유전체는 151,441 bp로, 83,890 bp의 큰 단일 복제 영역·17,261 bp의 작은 단일 복제 영역·25,145 bp의 역반복 영역 두 개로 이루어지며 GC 함량은 36.47%다[24]. 이 시료는 한국 자생지(북위 35°)에서 채집한 잎이었고, 한국 약재 시장에서 우슬과 비슷한 종이 섞여 잘못 쓰이는 문제를 막기 위해 해독되었다[24]. 다른 A. bidentata 시료의 엽록체 유전체는 151,543 bp, 유전자 131개로 보고되었다[25].\n\n중국 연구진은 천우슬(Cyathula officinalis)과 A. bidentata·A. aspera 등의 엽록체 유전체를 비교해 위품을 가리는 DNA 바코드와 대립유전자 특이 PCR 프라이머를 설계했다[26]. 'Niuxi'로 불리는 4종의 식물성 엑디스테로이드 281종을 질량분석으로 비교해, 16개 표지로 종과 가공품을 구별했다[27]. 두 기원종 시료로는 A. bidentata 18점과 A. japonica 10점의 HPLC 패턴 인식 분석이 보고되었다[7].\n\n20-하이드록시엑디손은 메발론산 경로로 합성되며, 쇠무릅에서는 합성이 특정 기관에 한정되지 않았다[6]. 이 종의 핵 유전체 해독은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 목록에서 쇠무릅 뿌리(우슬)는 '제한적사용' 원료이고, 줄기와 잎은 '사용가능' 원료다[1]. 뿌리 원료 9개의 사용 조건은 모두 '제한적사용가능부위 : 뿌리※(우슬)'이고, 줄기·잎 원료 4개는 '사용가능부위 : 줄기, 잎'이다[1]. 복합원료 쇠무릅창출분말 행의 조건에는 '쇠무릅(우슬) 사용가능부위 : 잎, 줄기 / 제한적사용부위 : 뿌리'와 함께 '식품공전상 식품에 제한적으로 사용할 수 있는 원료로 등재'라는 문구가 적혀 있다[2]. 제한적사용 원료의 배합 한도 등 식품공전상 구체적 사용 조건은 원문을 열지 못해 확인하지 못함.\n\n쇠무릅 추출물을 4개월 먹은 56세 여성에서 급성 간질성 신염이 생겨 입원 당시 혈청 크레아티닌이 3.2 mg/dL였고, 중단 13개월 뒤 신기능이 거의 회복되었다(Naranjo·WHO-UMC 인과성 '가능성 높음')[17]. 뿌리 달인 물을 먹은 3명에서 간질성 폐질환이 생겨 복용 중단과 스테로이드 치료로 좋아진 증례도 있다[18].\n\n임신과 관련해 A. bidentata는 낙태를 일으키는 약초로 알려져 있다고 기술되었다[19]. A. bidentata 뿌리 추출물은 미성숙 생쥐의 자궁 무게를 늘리는 에스트로겐 유사 작용을 보였다[31]. A. aspera는 임신 중 피해야 할 약초 목록에 들었다[20]. A. japonica의 임신 중 안전성 자료는 확인하지 못함.\n\n두충·쇠무릅 3:1 30% 에탄올 추출 복합물 500 mg/일을 8주 먹은 무작위 위약대조 시험(96명, 군당 48명)에서 이상사례는 없었다[21]. 잔류농약·알레르기에 관한 공공기관 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "20-Hydroxyecdysone",
+   "name_ko": "20-하이드록시엑디손(엑디스테론, β-엑디스테론)",
+   "class": "식물성 엑디스테로이드",
+   "role": "marker",
+   "part": "뿌리(약재 우슬)·전초",
+   "content_text": "쇠무릅 99% 에탄올 건조 추출물 기준 307.59 ± 4.18 mg/100g(HPLC, n=3)[11]; 6종 혼합 탕제 10.52 ± 0.45–12.98 ± 0.58 μg/mL[10]; 발효 후 2.6배(피크 면적)[9]",
+   "activity_ko": "발효 쇠무릅의 지표성분으로 분리[8]; MRSA 단독 MIC 250–500 μg/mL, 앰피실린·겐타마이신과 상승작용(시험관)[15]",
+   "source": [
+    8,
+    9,
+    10,
+    11,
+    15
+   ]
+  },
+  {
+   "name": "25S-Inokosterone",
+   "name_ko": "25S-이노코스테론",
+   "class": "식물성 엑디스테로이드",
+   "role": "marker",
+   "part": "뿌리",
+   "content_text": "우슬 품질관리 HPLC 정량 대상 3성분의 하나(수치는 확인하지 못함)[7]; 발효 후 2.3배(피크 면적)[9]",
+   "activity_ko": "쇠무릅의 대표 생리활성 성분으로 소개[9]",
+   "source": [
+    7,
+    9
+   ]
+  },
+  {
+   "name": "25R-Inokosterone",
+   "name_ko": "25R-이노코스테론",
+   "class": "식물성 엑디스테로이드",
+   "role": "marker",
+   "part": "뿌리",
+   "content_text": "우슬(A. bidentata·A. japonica) HPLC 정량 대상 3성분의 하나(수치는 확인하지 못함)[7]",
+   "activity_ko": "이 종에서 단독 활성 시험은 확인하지 못함[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Chikusetsusaponin IVa",
+   "name_ko": "치쿠세츠사포닌 IVa",
+   "class": "올레아난형 트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "쇠무릅 뿌리에서 분리(함량 확인하지 못함)[12]; 소금 법제 A. bidentata에서 생것보다 많음[31]",
+   "activity_ko": "대식세포 NO·PGE2 생성 억제(메틸에스터보다 약함, 세포)[12]",
+   "source": [
+    12,
+    31
+   ]
+  },
+  {
+   "name": "Chikusetsusaponin IVa methyl ester",
+   "name_ko": "치쿠세츠사포닌 IVa 메틸에스터",
+   "class": "올레아난형 트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "쇠무릅 뿌리에서 분리(함량 확인하지 못함)[12, 13]",
+   "activity_ko": "LPS 자극 대식세포의 iNOS·COX-2·TNF-α·IL-6·IL-1β 억제(세포)[12]; 대장암 HCT116 세포 G0/G1 정지(세포)[13]",
+   "source": [
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Pimaric acid",
+   "name_ko": "피마르산",
+   "class": "디테르펜산",
+   "role": "bioactive",
+   "part": "뿌리(초임계 CO2 추출물)",
+   "content_text": "초임계 이산화탄소 뿌리 추출물의 주성분으로 확인(함량 확인하지 못함)[14]",
+   "activity_ko": "추출물이 골관절염·류마티스 관절염 생쥐 모델에서 IL-6 매개 MMP-3·MMP-13 억제(동물)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Kaurenoic acid",
+   "name_ko": "카우렌산",
+   "class": "디테르펜산",
+   "role": "bioactive",
+   "part": "뿌리(초임계 CO2 추출물)",
+   "content_text": "초임계 이산화탄소 뿌리 추출물의 주성분으로 확인(함량 확인하지 못함)[14]",
+   "activity_ko": "추출물 단위로 연골 침식·골극 감소(동물)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Ginsenoside Ro",
+   "name_ko": "진세노사이드 Ro",
+   "class": "올레아난형 트리테르펜 사포닌",
+   "role": "bioactive",
+   "part": "뿌리(A. bidentata)",
+   "content_text": "A. bidentata 뿌리에서 분리된 5성분의 하나[19]; 소금 법제품에서 증가[31]; A. japonica 함량은 확인하지 못함",
+   "activity_ko": "비세포독성 농도에서 배아 착상 억제가 가장 강함, 대장암 세포 폐 전이 억제(세포·동물, A. bidentata)[19]",
+   "source": [
+    19,
+    31
+   ]
+  },
+  {
+   "name": "Oleanolic acid",
+   "name_ko": "올레아놀산",
+   "class": "트리테르펜",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "쇠무릅의 주요 성분 가운데 하나로 소개(함량 확인하지 못함)[21]",
+   "activity_ko": "쇠무릎속의 주요 성분군인 트리테르펜 계열[3]; 이 종에서 단독 활성 시험은 확인하지 못함",
+   "source": [
+    3,
+    21
+   ]
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "β-시토스테롤",
+   "class": "식물스테롤",
+   "role": "bioactive",
+   "part": "전초 추출물",
+   "content_text": "발효 후 약간 증가(GC-TOF MS 반정량)[9]",
+   "activity_ko": "20-하이드록시엑디손 생합성의 전구체로 제시[9]",
+   "source": [
+    9
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "20-Hydroxyecdysone",
+   "compound_ko": "20-하이드록시엑디손(β-엑디스테론)",
+   "part": "쇠무릅(A. japonica Nakai, 강원 홍천 채취) 99% 에탄올 추출물(사용 부위 원문 미기재)",
+   "content": "추출물 기준 307.59 ± 4.18 mg/100g(n=3), 머무름 시간 28.36분[11]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Waters HPLC(W1525 binary pump, W717 plus 자동주입기, W996 PDA 검출기)",
+    "column": "Phenomenex Gemini NX C-18 110A(5 μm, 250 × 4.6 mm)",
+    "mobile_phase": "A: 0.1%(v/v) 트리플루오로아세트산 수용액, B: 아세토니트릴",
+    "gradient": "0–2분 10% B; 2–10분 15% B; 10–40분 25% B; 40–48분 100% B; 48–49분 5% B; 이후 6분 평형",
+    "flow": "0.7 mL/min",
+    "temp": "",
+    "detection": "260 nm",
+    "injection": "10.0 μL",
+    "sample_prep": "에탄올 추출물을 메탄올에 녹여 실온 1시간 초음파 처리, 0.2 μm PTFE 필터 여과(시료 농도는 방법 절 20 mg/2.0 mL, 표 25 mg/mL로 서로 다르게 적힘)",
+    "standard": "β-엑디스테론(Sigma-Aldrich) 0.5 mg/mL 메탄올 용액을 15.125·31.25·62.5·125·250 μg/mL로 희석",
+    "linearity": "y = 16421x + 36509(본문 일부 '− 36509'), R² 0.9993(n=5)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "논문이 엑디스테론을 쇠무릅의 생리활성 성분으로 보고 추출물 속 존재와 함량을 HPLC로 확인했다; 20-하이드록시엑디손은 발효 쇠무릅의 지표성분으로도 분리되었다[11, 8]",
+   "source": [
+    11,
+    8
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8936126/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "20-Hydroxyecdysone",
+   "compound_ko": "20-하이드록시엑디손",
+   "part": "6종 약재 혼합 열수 추출물(쇠무릅 3.0 g 포함, 사용 부위 원문 미기재)",
+   "content": "10.52 ± 0.45–12.98 ± 0.58 μg/mL(달인 시간 30–240분)[10]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Shimadzu HPLC",
+    "column": "Agilent C18(4.6 mm × 250 mm, 5 μm)",
+    "mobile_phase": "A: 물, B: 아세토니트릴",
+    "gradient": "시작 15% B; 8–15분 30% B; 15–30분 30% B; 30–35분 15% B",
+    "flow": "1 mL/min",
+    "temp": "35 °C",
+    "detection": "UV 254 nm",
+    "injection": "",
+    "sample_prep": "혼합 약재 14 g을 증류수 140 mL로 100 °C에서 30–240분 달여 3 μm 필터 여과 후 140 mL로 맞춤; 같은 부피 에탄올을 넣어 초음파 처리 후 0.2 μm 필터 여과",
+    "standard": "20-하이드록시엑디손(Sigma-Aldrich) 1 mg/mL 에탄올 용액을 2배 희석, 0.2 μm 여과; 표준곡선으로 정량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "혼합 탕제에서 쇠무릅(A. japonica Nakai) 몫의 지표성분(index compound)으로 20-하이드록시엑디손을 골라 정량했다; 단일 원료가 아닌 혼합물 값이다[10]",
+   "source": [
+    10
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5551359/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ecdysterone",
+   "compound_ko": "엑디스테론·25R-이노코스테론·25S-이노코스테론",
+   "part": "뿌리(우슬; A. bidentata 18점, A. japonica 10점)",
+   "content": "함량 수치는 전문을 보지 못해 확인하지 못함[7]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "",
+    "column": "YMC J'sphere ODS C18(250 × 4.6 mm, 4 μm)",
+    "mobile_phase": "0.1% 포름산 수용액 : 아세토니트릴 = 85:15(v/v)",
+    "gradient": "등용리(isocratic)",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "UV 245 nm",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "우슬의 품질관리와 기원 판별을 위해 엑디스테로이드 3종을 정량하고 두 기원종 시료로 패턴 인식 분석을 검증했다; 분석 조건은 초록 기재 값이며 시료 처리·검출한계는 전문을 보지 못해 확인하지 못함[7]",
+   "source": [
+    7
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22941488/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2009,
+   "value": 20,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2009,
+   "value": 98,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2010,
+   "value": 11,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2010,
+   "value": 48,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2011,
+   "value": 15,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2011,
+   "value": 54,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2012,
+   "value": 18,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2012,
+   "value": 78,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2013,
+   "value": 18,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2013,
+   "value": 79,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 25,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 78,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 28,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 105,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 73,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 123,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 74,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 107,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 69,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 97,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 70,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 88,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 36,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 63,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 36,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 65,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 47,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 93,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 46,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 89,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 46,
+   "unit": "ha",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 88,
+   "unit": "톤",
+   "note": "약용작물 '우슬(쇠무릎)' 전국 값(A. japonica·A. bidentata 구분 없음)",
+   "source": [
+    28
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 157,
+   "unit": "호",
+   "note": "약용작물 '우슬(쇠무릎)' 재배 농가 수",
+   "source": [
+    28
+   ]
+  }
+ ],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 쇠무릅 13개 원료명 행(Achyranthes japonica Nakai / Achyranthes bidentata Blume; 다른 이름 쇠무릎풀·우슬; Oriental chaff flower). 줄기·잎 원료(쇠무릅잎·쇠무릅줄기·쇠무릅추출물분말·쇠무릅추출물고형분)는 사용가능, 조건 '사용가능부위 : 줄기, 잎'; 뿌리 원료(쇠무릅뿌리·쇠무릅분말·건조쇠무릅·발효쇠무릅뿌리농축액·발효쇠무릅뿌리추출고형분·쇠무릅뿌리추출분말·쇠무릅추출액·쇠무릅추출농축분말·쇠무릅농축액)는 제한적사용, 조건 '제한적사용가능부위 : 뿌리※(우슬)'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 관련 행: 건강기능식품(C코드) 개별인정 '우슬 등 복합물(기능성원료인정제2018-13호)'(Extract complex of achyranthes, eucommiaceae and pomegranate)·'두충우슬추출복합물(제2023-40호)'(사용부위 두충 수피, 우슬 Achyranthes japonica Nakai·Achyranthes bidentata Blume 뿌리); 복합원료(U코드) 쇠무릅창출분말(제한적사용, '식품공전상 식품에 제한적으로 사용할 수 있는 원료로 등재')·두충쇠무릅추출액(사용가능)·마가목쇠무릅혼합추출액(제한적사용, '쇠무릅 제한적사용부위 : 뿌리※(우슬)'); 같은 속 Achyranthes aspera(Devils horsewhip) 사용불가. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "The genus Achyranthes: A review on traditional uses, phytochemistry, and pharmacological activities. J Ethnopharmacol 2017;203:260-278 (PMID 28347832, doi:10.1016/j.jep.2017.03.035; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28347832/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Achyranthis bidentatae radix: A comprehensive review of botany, processing methods, ethnopharmacology, phytochemistry, pharmacology, quality control, toxicity, and pharmacokinetics. J Ethnopharmacol 2026;371:122048 (PMID 42302952, doi:10.1016/j.jep.2026.122048; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42302952/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Do plant traits predict the competitive abilities of closely related species? AoB Plants 2015;8:plv147 (PMID 26722108, PMC4719039, doi:10.1093/aobpla/plv147; 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26722108/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Distribution and biosynthesis of 20-hydroxyecdysone in plants of Achyranthes japonica Nakai. Biosci Biotechnol Biochem 2010;74(11):2226-31 (PMID 21071854, doi:10.1271/bbb.100410; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21071854/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "High performance liquid chromatography used for quality control of Achyranthis Radix. Arch Pharm Res 2012;35(8):1449-55 (PMID 22941488, doi:10.1007/s12272-012-0815-2; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22941488/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Anti-inflammatory and anti-osteoarthritis effects of fermented Achyranthes japonica Nakai. J Ethnopharmacol 2012;142(3):634-41 (PMID 22668504, doi:10.1016/j.jep.2012.05.020; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22668504/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Metabolomic Investigation on Fermentation Products of Achyranthes japonica Nakai. J Microbiol Biotechnol 2020;30(3):378-381 (PMID 31838797, PMC9728298, doi:10.4014/jmb.1910.10057; 전문 확인(분석 조건 본문 미기재))",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31838797/",
+   "publisher": "KMB / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Influence of Boiling Duration of GCSB-5 on Index Compound Content and Antioxidative and Anti-inflammatory Activity. Pharmacogn Mag 2017;13(51):418-424 (PMID 28839366, PMC5551359, doi:10.4103/pm.pm_425_16; 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28839366/",
+   "publisher": "Wolters Kluwer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "BK002 Induces miR-192-5p-Mediated Apoptosis in Castration-Resistant Prostate Cancer Cells via Modulation of PI3K/CHOP. Front Oncol 2022;12:791365 (PMID 35321434, PMC8936126, doi:10.3389/fonc.2022.791365; 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35321434/",
+   "publisher": "Frontiers / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Chikusetsusaponin IVa Methyl Ester Isolated from the Roots of Achyranthes japonica Suppresses LPS-Induced iNOS, TNF-α, IL-6, and IL-1β Expression by NF-κB and AP-1 Inactivation. Biol Pharm Bull 2016 (PMID 27150139, doi:10.1248/bpb.b15-00572; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27150139/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Chikusetsusaponin IVa methyl ester induces cell cycle arrest by the inhibition of nuclear translocation of β-catenin in HCT116 cells. Biochem Biophys Res Commun 2015 (PMID 25749342, doi:10.1016/j.bbrc.2015.02.152; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25749342/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Inhibitory Effects of IL-6-Mediated Matrix Metalloproteinase-3 and -13 by Achyranthes japonica Nakai Root in Osteoarthritis and Rheumatoid Arthritis Mice Models. Pharmaceuticals (Basel) 2021;14(8):776 (PMID 34451873, PMC8402178, doi:10.3390/ph14080776; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34451873/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Synergistic effects of the combination of 20-hydroxyecdysone with ampicillin and gentamicin against methicillin-resistant Staphylococcus aureus. J Microbiol Biotechnol 2009;19(12):1576-81 (PMID 20075622, doi:10.4014/jmb.0903.03015; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20075622/",
+   "publisher": "KMB / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Achyranthes japonica exhibits anti-inflammatory effect via NF-κB suppression and HO-1 induction in macrophages. J Ethnopharmacol 2012 (PMID 22974544, doi:10.1016/j.jep.2012.08.037; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22974544/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Acute interstitial nephritis associated with ingestion of Achyranthes japonica extract: a case report. BMC Nephrol 2021;22(1):121 (PMID 33827472, PMC8028177, doi:10.1186/s12882-021-02326-w; 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33827472/",
+   "publisher": "BioMed Central / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Interstitial lung disease induced by the roots of Achyranthes japonica Nakai: Three case reports. World J Clin Cases 2021;9(8):2015-2021 (PMID 33748255, PMC7953409, doi:10.12998/wjcc.v9.i8.2015; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33748255/",
+   "publisher": "Baishideng / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "The traditional Chinese medicine Achyranthes bidentata and our de novo conception of its metastatic chemoprevention: from phytochemistry to pharmacology. Sci Rep 2017;7(1):3888 (PMID 28634392, PMC5478643, doi:10.1038/s41598-017-02054-y; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28634392/",
+   "publisher": "Springer Nature / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Is it safe to consume traditional medicinal plants during pregnancy? Phytother Res 2021;35(4):1908-1924 (PMID 33164294, doi:10.1002/ptr.6935; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33164294/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Efficacy and Safety of a Eucommia ulmoides–Achyranthes japonica extract mixture (KGC08EA) in Improving Symptoms of Andropause in Korean Men: An 8-Week, Single-Center, Randomized, Parallel-Group, Placebo-Controlled Trial. Am J Mens Health 2026;20(2) (PMID 41923399, PMC13051131, doi:10.1177/15579883261423878; 전문 확인; 제품명은 일반명으로 바꿔 적음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41923399/",
+   "publisher": "SAGE / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "The Effect of a Combination of Eucommia ulmoides and Achyranthes japonica on Alleviation of Testosterone Deficiency in Aged Rat Models. Nutrients 2022;14(16):3341 (PMID 36014851, PMC9414994, doi:10.3390/nu14163341; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36014851/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Anti-Osteoarthritic Effects of a Mixture of Dried Pomegranate Concentrate Powder, Eucommiae Cortex, and Achyranthis Radix 5:4:1 (g/g) in a Surgically Induced Osteoarthritic Rabbit Model. Nutrients 2020;12(3):852 (PMID 32235804, PMC7146119, doi:10.3390/nu12030852; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32235804/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Complete chloroplast genome of Achyranthes bidentata Blume. Mitochondrial DNA B Resour 2019;4(2):3456-3457 (PMID 33366037, PMC7707250, doi:10.1080/23802359.2019.1674219; 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33366037/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "The complete chloroplast genome of Achyranthes bidentata Blume. Mitochondrial DNA B Resour 2021;6(3):782-783 (PMID 33796647, PMC7971321, doi:10.1080/23802359.2021.1882895; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33796647/",
+   "publisher": "Taylor & Francis / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "The complete chloroplast genome sequence of Cyathula officinalis and comparative analysis with four related species. Gene 2022;839:146728 (PMID 35850203, doi:10.1016/j.gene.2022.146728; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35850203/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Comparative identification of phytoecdysteroids in Achyranthes bidentata Blume and its three analogous species and application in differentiation between processing products from different species. J Pharm Biomed Anal 2022;227:115187 (PMID 36796274, doi:10.1016/j.jpba.2022.115187; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36796274/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "농림축산식품부 「특용작물 생산실적」(1995–2024) — 약용작물 '우슬(쇠무릎)' 연도별 면적·단수·생산량(2009–2024) 및 2024 품목별 농가 수(로컬 파싱본 docs/stats/special_crops_annual.csv, special_crops_2024.csv)",
+   "url": "https://www.mafra.go.kr",
+   "publisher": "농림축산식품부",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 29,
+   "title": "Anti-Osteoporosis Effects of the Eleutherococcus senticosus, Achyranthes japonica, and Atractylodes japonica Mixed Extract Fermented with Nuruk. Nutrients 2021;13(11):3904 (PMID 34836159, PMC8625986, doi:10.3390/nu13113904; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34836159/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 2019–2025년판, 품목 유형별 현황(개별인정형) — 우슬 등 복합물·발효우슬등복합물·두충우슬추출복합물 행(로컬 파싱본 docs/stats/hf_items.csv, 금액 단위 천원)",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Raw and salt-processed Achyranthes bidentata attenuate LPS-induced acute kidney injury by inhibiting ROS and apoptosis via an estrogen-like pathway. Biomed Pharmacother 2020;129:110403 (PMID 32574970, doi:10.1016/j.biopha.2020.110403; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32574970/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Antioxidant Activities of Achyranthes japonica Nakai Extract and Its Application to the Pork Sausages. Asian-Australas J Anim Sci 2013 (PMID 25049789, PMC4093158, doi:10.5713/ajas.2012.12438; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25049789/",
+   "publisher": "AJAS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Dietary inclusion of Achyranthes japonica extract to corn-soybean meal-wheat-based diet on the growth performance, nutrient digestibility, cecal microflora, excreta noxious gas emission, and meat quality of broiler chickens. Poult Sci 2022;101(6):101852 (PMID 35405531, PMC9010795, doi:10.1016/j.psj.2022.101852; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35405531/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "농림축산식품부 「2024 특용작물 생산실적」 시도별·품목별 표 — 우슬(쇠무릎) 2024년 시도별 농가 수·면적·생산량·10a당 수량(로컬 파싱본 docs/stats/regional_crops.csv)",
+   "url": "https://www.mafra.go.kr",
+   "publisher": "농림축산식품부",
+   "accessed": "2026-10-13"
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent.parent
+PM = "PubMed"
+ACC = "2026-11-02"
+
+
+def pm(n, title, doi=None, pmid=None):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n": n, "title": title, "url": url, "publisher": PM, "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 모새나무열매(Vaccinium bracteatum Thunb. / Acosta spicata Lour / Andromeda chinensis (Lodd.); 영명 Sea bilberry), 대분류 식품원료(A코드), 사용가능, 사용가능부위: 열매(잎 행 없음); 같은 속 다른 행(블루베리 Vaccinium spp., 덩굴월귤, 월귤나무, 들쭉나무, 정금나무 V. oldhamii, 산앵도나무, 미르틸루스산앵도 등)과 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Antioxidant Activities and Anti-Cancer Cell Proliferation Properties of Natsuhaze (Vaccinium oldhamii Miq.), Shashanbo (V. bracteatum Thunb.) and Blueberry Cultivars — Plants 2013;2(1):57-71 (PMID 27137366, PMC4844293, 전문 확인)", "10.3390/plants2010057"),
+    pm(3, "Identification of a Strong Anthocyanin Activator, VbMYBA, From Berries of Vaccinium bracteatum Thunb. — Front Plant Sci 2021;12:697212 (PMID 34938303, PMC8685453, 전문 확인)", "10.3389/fpls.2021.697212"),
+    pm(4, "Correlation between species-specific metabolite profiles and bioactivities of blueberries (Vaccinium spp.) — J Agric Food Chem 2014;62(9):2126-33 (PMID 24483298, 초록만 확인)", "10.1021/jf405272b"),
+    pm(5, "In vitro anti-proliferative and anti-inflammatory activity of leaf and fruit extracts from Vaccinium bracteatum Thunb. — Pak J Pharm Sci 2014;27(1):103-6 (PMID 24374437, 초록만 확인)", pmid="24374437"),
+    pm(6, "Antidepressant-Like Effects of Vaccinium bracteatum in Chronic Restraint Stress Mice: Functional Actions and Mechanism Explorations — Am J Chin Med 2018;46(2):357-387 (PMID 29444592, 초록만 확인)", "10.1142/S0192415X18500180"),
+    pm(7, "Antidepressant Effects of Vaccinium bracteatum via Protection Against Hydrogen Peroxide-Induced Oxidative Stress and Apoptosis — Am J Chin Med 2018 (PMID 30284467, 초록만 확인)", "10.1142/S0192415X18500775"),
+    pm(8, "Sedative and hypnotic effects of Vaccinium bracteatum Thunb. through the regulation of serotonegic and GABA-ergic systems — Biomed Pharmacother 2018;109:2218-2227 (PMID 30551479, 초록만 확인)", "10.1016/j.biopha.2018.10.003"),
+    pm(9, "Vaccinium bracteatum Thunb. fruit extract reduces high-fat diet-induced obesity with modulation of the gut microbiota in obese mice — J Food Biochem 2021;45(7):e13808 (PMID 34075620, 초록만 확인)", "10.1111/jfbc.13808"),
+    pm(10, "Anti-Fatigue Activity of a Mixture of Stauntonia hexaphylla (Thunb.) Decaisne and Vaccinium bracteatum Thunb. Fruit Extract — Prev Nutr Food Sci 2020;25(4):380-388 (PMID 33505932, PMC7813597, 전문 확인)", "10.3746/pnf.2020.25.4.380"),
+    pm(11, "Antipostmenopausal effects of Stauntonia hexaphylla and Vaccinium bracteatum fruit combination in estrogen-deficient rats — Food Nutr Res 2020;64 (PMID 33240033, PMC7672482, 전문 확인)", "10.29219/fnr.v64.5233"),
+    pm(12, "Vaccinium bracteatum Thunb. as a promising resource of bioactive compounds with health benefits: An updated review — Food Chem 2021;356:129738 (PMID 33839532, 초록만 확인)", "10.1016/j.foodchem.2021.129738"),
+    pm(13, "Complete Mitogenome Assembly and Comparative Analysis of Vaccinium bracteatum (Ericaceae), a Rich Source of Health-Promoting Molecules — Int J Mol Sci 2024;25(22):12027 (PMID 39596097, PMC11593731, 전문 확인)", "10.3390/ijms252212027"),
+    pm(14, "Genome-wide analysis of MYB and F3'5'H gene families in Vaccinium bracteatum provides insights into anthocyanin biosynthesis — BMC Plant Biol 2026;26 (PMID 42288742, PMC13491718, 전문 확인)", "10.1186/s12870-026-09193-3"),
+    pm(15, "Validation of reference genes for gene expression analysis in fruit development of Vaccinium bracteatum Thunb. using quantitative real-time PCR — Sci Rep 2022;12:16946 (PMID 36210363, PMC9548497, 초록 확인)", "10.1038/s41598-022-20864-7"),
+    pm(16, "Enzymatic synthesis of Vaccinium blue using vaccinoside as a bifunctional precursor — Food Chem 2024;439:138049 (PMID 38134568, 초록만 확인)", "10.1016/j.foodchem.2023.138049"),
+    pm(17, "Tentative characterization of precursor compounds and co-factors of pigment formation in production of 'wu mi' from Vaccinium bracteatum Thunb. Leaves — Food Chem 2018;262:199-205 (PMID 29751909, 초록만 확인)", "10.1016/j.foodchem.2018.04.101"),
+    pm(18, "Characterization of promising natural blue pigment from Vaccinium bracteatum thunb. leaves: Insights of the stability and the inhibition of α-amylase — Food Chem 2020;326:126962 (PMID 32413753, 초록만 확인)", "10.1016/j.foodchem.2020.126962"),
+    pm(19, "Food poisoning associated with ingestion of wild wasp broods in the upstream region of the Lancang river valley, Yunnan province, China — Toxicon 2018;145:1-5 (PMID 29481812, 초록만 확인)", "10.1016/j.toxicon.2018.02.045"),
+    pm(20, "Evaluating global Vaccinium germplasm for resistance against invasive Drosophila suzukii — J Econ Entomol 2023;116(4):1398-1410 (PMID 37235729, 초록만 확인)", "10.1093/jee/toad081"),
+    pm(21, "[Chemical constituents from Vaccinium bracteatum] — Zhongguo Zhong Yao Za Zhi 2014;39(4):684-8 (PMID 25204147, 중국어 원문, 영문 초록만 확인)", pmid="25204147"),
+    pm(22, "[Studies on the constituents of Vaccinium bracteatum Thunb. II. On the constituents of the flowers, particularly on the structure of vaccinoside, a new iridoid glycoside] — Yakugaku Zasshi 1973;93(2):164-70 (PMID 4737785, 초록 없음, 제목만 확인)", "10.1248/yakushi1947.93.2_164"),
+    pm(23, "Comprehensive identification of Vitex trifolia fruit and its five adulterants by comparison of micromorphological, microscopic characteristics, and chemical profiles — Microsc Res Tech 2020;83(12):1530-1543 (PMID 32734676, 초록만 확인)", "10.1002/jemt.23547"),
+    pm(24, "Determination of isoorientin levels in rat plasma after oral administration of Vaccinum bracteatum Thunb. methanol extract by HPLC-tandem mass spectrometry — Biomed Chromatogr 2018;32(6):e4188 (PMID 29334125, 초록만 확인)", "10.1002/bmc.4188"),
+    pm(25, "Screening of plant extracts for human tyrosinase inhibiting effects — Int J Cosmet Sci 2012;34(2):202-8 (PMID 22220689, 초록만 확인)", "10.1111/j.1468-2494.2012.00704.x"),
+    pm(26, "Antidepressant effects of p-coumaric acid isolated from Vaccinium bracteatum leaves extract on chronic restraint stress mouse model and antagonism of serotonin 6 receptor in vitro — Phytomedicine 2023;116:154871 (PMID 37270968, 초록만 확인)", "10.1016/j.phymed.2023.154871"),
+    pm(27, "Vaccinium bracteatum Thunb Extract Inhibits HSV-1 Infection by Regulating ER Stress and Apoptosis — Antioxidants 2022;11(9):1773 (PMID 36139847, PMC9495922, 초록 확인)", "10.3390/antiox11091773"),
+    pm(28, "Effect of Vaccinium bracteatum Thunb. leaves extract on blood glucose and plasma lipid levels in streptozotocin-induced diabetic mice — J Ethnopharmacol 2010;130(3):465-9 (PMID 20553830, 초록만 확인)", "10.1016/j.jep.2010.05.031"),
+    pm(29, "[Chemical constituents of the roots of Vaccinium bracteatum] — Zhong Yao Cai 2012;35(6):917-9 (PMID 23236828, 중국어 원문, 영문 초록만 확인)", pmid="23236828"),
+    pm(30, "[Fat soluble constituents of the leaves of Vaccinium bracteatum Thunb] — Zhongguo Zhong Yao Za Zhi 1997;22(7):423-4 (PMID 11038902, 초록만 확인)", pmid="11038902"),
+    pm(31, "Anti-Aging Effects of Vaccinium bracteatum Thunb. Leaves Extracts via Activation of the Nrf2 Antioxidant Pathway — Foods 2026;15(8):1393 (PMID 42073279, PMC13114447, 초록만 확인)", "10.3390/foods15081393"),
+    {"n": 32, "title": "한라산 남사면 계곡 모새나무 자생지 일대의 식생구조(Vegetation Structure of Vaccinium bracteatum Thunb. Habitat Area at A Valley of Southern Slope in Mt. Halla, Jeju Island) — WebSearch 검색 결과 요약으로만 확인, 원문(koreascience)은 이 환경에서 열지 못함",
+     "url": "https://koreascience.kr/article/JAKO201333363224254.page", "publisher": "한국학술지인용색인(koreascience) — WebSearch 요약", "accessed": ACC},
+    pm(33, "Genome-Wide Identification, Expression, and Interaction Analysis of the Auxin Response Factor and AUX/IAA Gene Families in Vaccinium bracteatum — Int J Mol Sci 2024;25(15):8385 (PMID 39125955, PMC11312502, 초록 확인)", "10.3390/ijms25158385"),
+    pm(34, "Evaluation of antimicrobial activity of water-soluble flavonoids extract from Vaccinium bracteatum Thunb. leaves — Food Sci Biotechnol 2019;28(6):1853-1859 (PMID 31807359, PMC6859170, 초록 확인)", "10.1007/s10068-019-00634-4"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body": (
+        "모새나무(Vaccinium bracteatum Thunb.)는 진달래과 산앵도나무속(Vaccinium)의 상록 관목으로, 식약처 「식품원료 목록」에는 '모새나무열매' 한 행이 영명 Sea bilberry, 이명 Acosta spicata·Andromeda chinensis와 함께 올라 있다[1]. "
+        "이 행은 대분류 '식품원료(A코드)'의 사용가능 원료이고 사용 조건은 '사용가능부위 : 열매'여서, 식품에 쓸 수 있는 부위는 열매뿐이다[1]. "
+        "같은 목록에서 블루베리(Vaccinium spp.)·덩굴월귤·월귤나무 행은 잎도 사용가능부위로 적혀 있지만, 모새나무 행에는 잎이 없다[1]. "
+        "중국에서 잎즙으로 밥을 검푸르게 물들이는 전통 음식 '오반(烏飯, wu mi·wu fan)'은 잎을 쓰는 것이므로, 이 목록의 열매 원료와는 구분해야 한다[1, 13, 17].\n\n"
+        "익은 열매는 자흑색 장과로 블루베리보다 조금 작고, 과즙·잼·식초로 가공된다[14]. "
+        "완숙 열매의 총 안토시아닌은 생과 100 g당 516.97 mg으로 보고되었고, 델피니딘·시아니딘 배당체가 주를 이룬다[2, 3]. "
+        "한국에서는 이 열매를 '오리엔탈 블루베리(oriental blueberry)'라고도 부르며, 열매 추출물의 항우울·진정·항비만 효과가 생쥐 실험에서 보고되었다[6, 8, 9]. 열매의 헥산·디클로로메탄·에탄올 추출물은 시험관에서 COX-2의 프로스타글란딘 E2 합성을 억제했다(IC50 각각 2.0·5.4·12.7 μg/mL)[5]. "
+        "열매만으로 한 사람 대상 임상시험 결과는 PubMed에서 확인하지 못함.")},
+    {"key": "history", "title": "역사", "body": (
+        "모새나무는 중국 송나라 때 약물서 『개보본초(開寶本草)』에 약재로 처음 기록되었다고 전한다[14]. "
+        "중국에서는 염증·설사·피부 발진을 다스리는 전통 약재로 쓰였고, 잎 색소로 머리카락과 옷감을 물들이기도 했다[3]. "
+        "당나라 때부터 신선한 잎을 천연 색소로 써서 검은 밥을 지었다는 기록이 있으며, 장쑤·안후이 등 양쯔강 유역 주민은 지금도 봄마다 잎즙과 쌀로 '오반'을 지어 먹는다[13, 16]. "
+        "잎의 수용성 추출물은 중국에서 전통적으로 음식 보존에도 쓰였다[34].\n\n"
+        "이런 전통 이용은 대부분 잎에 관한 것이고, 열매는 따로 식품 원료로 먹어 왔다[9, 12]. "
+        "일본에서는 이 종을 샤샨보(Shashanbo)라 부르며, 야생 열매를 따서 지역 음식으로 가공한다[2]. "
+        "한국에서는 이 열매를 오리엔탈 블루베리라 부르며, 열매 물 추출물의 항우울·항산화·진정 효과를 다룬 동물·세포 연구가 이어졌다[6, 7, 8, 11]. "
+        "전남 고흥에서 딴 열매 추출물을 으름덩굴 열매 추출물과 1:1로 섞은 복합 추출물은 갱년기 증상 완화 소재로 개발되어 임상시험(IRB 번호 KUMC 2019-07-033-001)이 진행 중이라고 2020년 논문에 적혀 있다[10, 11]. "
+        "그 임상시험의 결과는 확인하지 못함.")},
+    {"key": "biology", "title": "식물학적 특징", "body": (
+        "모새나무는 상록 관목 또는 작은 교목으로, 중국 동부·남부의 산지와 구릉에 널리 자란다[3, 13, 15]. "
+        "한국과 중국에 널리 분포한다는 보고가 있고, 일본에서는 동쪽에서 서쪽까지 자생한다[2, 27]. "
+        "국내에서는 제주 한라산 남사면 계곡의 모새나무 자생지 식생을 다룬 연구가 있으며, 이 내용은 원문을 보지 못하고 검색 요약으로만 확인했다[32].\n\n"
+        "열매는 초록에서 붉은색을 거쳐 완전히 익으면 검게 되며, 중국 푸젠성 야생 개체에서는 6월에 초록 열매, 11월 중순에 붉은 열매와 검은 열매를 땄다[3]. "
+        "익은 열매는 자흑색 장과이고, 블루베리보다 지름이 조금 작고 물후(생물 계절)가 다르다[14]. "
+        "재배 블루베리는 과육이 희지만 샤샨보(모새나무) 열매는 과육이 붉은빛을 띤다[2]. "
+        "꽃에서는 이리도이드 배당체 박시노사이드(vaccinoside)가 처음 분리되었다[22]. "
+        "세계 여러 산앵도나무속 열매를 비교한 연구에서 모새나무는 야생 2배체 종으로 외래 해충 벚초파리(Drosophila suzukii)에 강한 저항성을 보였고, 연구진은 가장 작고 달고 단단한 2배체 열매에서는 이 파리가 알을 낳거나 자라지 못한다고 설명했다[20].")},
+    {"key": "related_species", "title": "이름과 가까운 종", "body": (
+        "식약처 목록의 영명은 Sea bilberry이지만, 논문에서는 오리엔탈 블루베리, 중국명 우판수(Wufanshu, wu fan shu), 일본명 샤샨보로 불린다[1, 2, 3, 6]. "
+        "같은 속의 블루베리(Vaccinium spp.)·하이부시블루베리(V. corymbosum)·덩굴월귤(V. macrocarpon)·월귤나무(V. vitis-idaea)·들쭉나무(V. uliginosum)·미르틸루스산앵도(빌베리, V. myrtillus)는 목록에서 각각 다른 행이다[1]. "
+        "따라서 이 종들의 성분·효능 자료를 모새나무 열매에 옮겨 쓰면 안 된다[1].\n\n"
+        "국내 자생 근연종으로 정금나무(V. oldhamii)·산앵도나무(V. koreanum)·산매자나무(V. japonicum)의 열매도 목록에 따로 올라 있다[1]. "
+        "모새나무·정금나무·하이부시블루베리 세 종의 대사체를 비교한 연구에서, 모새나무는 시아니딘 배당체가 많고 정금나무는 델피니딘·페튜니딘·말비딘 배당체가 많아 안토시아닌으로 두 종이 갈렸다[4]. "
+        "일본 시료에서는 정금나무(나츠하제)의 총 폴리페놀이 65.5 mg/g DW로 모새나무(38.8 mg/g DW)보다 높았다[2]. "
+        "중국에서는 모새나무 열매가 약재 만형자(Vitex trifolia 열매)의 위품으로 섞여 유통된 사례가 있어, 형태·현미경·성분으로 구별하는 방법이 보고되었다[23].")},
+    {"key": "cultivation", "title": "재배와 산지", "body": (
+        "모새나무를 경제 작물로 재배하기 시작한 것은 최근 10년 정도이고, 품종 개량은 아직 초기 단계라고 2024년 중국 연구진이 정리했다[13]. "
+        "개량 품종이 없고 생산량이 적어 오반 산업 발전이 제한되며, 수요 증가와 인간 활동으로 야생 개체군의 서식지도 줄고 있다[13]. "
+        "중국 연구진은 장쑤성 리양의 야생 성목, 푸젠성 롄장의 야생 개체에서 시료를 얻었다[3, 13].\n\n"
+        "일본 연구에서는 후쿠오카현의 민간 묘포에서 기른 야생종 열매를 써서 냉동 보관 후 분석했다[2]. "
+        "국내 연구에서는 전남 고흥군의 식물원과 자생 개체에서 열매를 구했다[10, 11]. "
+        "열매의 물 추출 수율은 약 12.5%였다(100 °C 물, 4시간)[11]. "
+        "통계청·농림축산식품부의 특용작물 통계와 시도별 농작물 통계(docs/stats)에는 모새나무 항목이 없어, 국내 재배 면적과 생산량은 확인하지 못함. "
+        "지리적 표시 등록이나 생산자 단체도 확인하지 못함.")},
+    {"key": "processing", "title": "가공과 이용", "body": (
+        "열매는 중국 식품 산업에서 과즙·잼·식초를 만드는 데 쓰인다[13, 14]. "
+        "국내 연구에서는 열매를 물(1:10–15, w/v)에 넣어 100±10 °C에서 8시간 환류 추출하고, 거른 뒤 25 °Brix까지 감압 농축해 분말로 만들었다[10]. "
+        "이 열매 추출물과 으름덩굴 열매 추출물을 1:1로 섞은 복합 추출물은 오리엔틴(orientin) 함량 약 0.143 mg/g으로 표준화되었다[11]. "
+        "다만 이 오리엔틴이 두 열매 중 어디에서 왔는지는 원문에서 확인하지 못함.\n\n"
+        "잎은 식약처 목록의 사용가능부위가 아니지만, 중국에서는 잎즙으로 쌀을 물들인 '오반'을 만든다[1, 17]. "
+        "잎의 이리도이드 배당체 박시노사이드가 잎 속 효소(폴리페놀 산화효소·β-글루코시다제)와 쌀 단백질의 아미노산과 반응해 푸른 색소(λmax 581–590 nm)를 만든다는 경로가 제안되었다[16]. "
+        "잎의 푸른 색소는 pH 4.0에서 12주 저장 후 35.85%가 남았고, 췌장 α-아밀라아제를 억제했다(IC50 2.915 mg/mL)[18]. "
+        "당뇨 생쥐에서 혈당을 낮춘 연구는 잎 추출물 결과다[28]. 잎 성분은 이 종의 식품원료(열매) 범위 밖이므로 열매 제품의 근거로 쓰지 않는다[1].")},
+    {"key": "genetics", "title": "유전 정보", "body": (
+        "모새나무는 2배체(2n = 2x = 24)이며, K-mer 분석으로 추정한 핵 게놈 크기는 579.42 Mb로 2022년에 공개되었다[14]. "
+        "미토콘드리아 게놈은 708,384 bp의 원형 서열로 GC 함량 45.28%이고, 단백질 암호 유전자 36개·tRNA 26개·rRNA 3개·위유전자 2개 등 67개 유전자가 주석되었다[13]. "
+        "같은 자료로 조립한 엽록체 게놈은 206,405 bp였다[13].\n\n"
+        "열매의 높은 안토시아닌 축적에는 R2R3-MYB 전사인자 VbMYBA가 관여하며, 담배 잎 일시 발현에서 블루베리의 VcMYBA보다 더 많은 안토시아닌을 만들었다[3]. "
+        "게놈 전체에서 VbMYB 156개와 F3'5'H 9개가 동정되었고, F3'5'H 유전자는 4·6·10번 염색체에만 있었다[14]. "
+        "VbF3'5'H7을 과발현한 형질전환 토마토는 안토시아닌이 늘었다[14]. "
+        "열매 발달 단계별 유전자 발현 분석에는 actin2·NADH·ADK가 안정한 기준 유전자로 제시되었다[15]. "
+        "옥신 반응 인자(ARF) 26개와 AUX/IAA 17개 유전자도 동정되어 열매 발달과의 관련이 분석되었다[33].")},
+    {"key": "safety", "title": "안전성", "body": (
+        "식약처 「식품원료 목록」에서 모새나무열매는 사용가능 원료이며, 사용가능부위는 열매로 한정된다[1]. "
+        "잎·꽃·뿌리는 이 행의 사용가능부위에 없으므로, 잎으로 만든 오반이나 잎 추출물은 이 목록 행으로 식품 사용이 허용된다고 볼 수 없다[1]. "
+        "이 종에 대한 식약처·농촌진흥청 등 공공기관의 알레르기·잔류농약·독성 성분 정보는 확인하지 못함.\n\n"
+        "동물·세포 연구에서는 열매 복합 추출물을 쥐에 100 mg/kg씩 4주 먹였을 때 간·비장·신장 무게에 유의한 변화가 없었고 자궁 비대도 없었다[11]. "
+        "같은 복합 추출물은 근육 세포에서 200 μg/mL까지 세포 독성을 보이지 않았다[10]. "
+        "잎 추출물은 예쁜꼬마선충에서 생식 독성을 보이지 않았다[31]. "
+        "중국 윈난성의 야생 벌 번데기 식중독 연구는 벌이 먹은 지역 식물 가운데 하나로 모새나무를 독소의 간접 원인 후보로 들었으나, 이는 가설이다[19]. "
+        "사람에서 열매 섭취의 이상반응이나 의약품 상호작용 보고는 확인하지 못함. "
+        "다른 산앵도나무속 원료(블루베리·빌베리 등)의 안전성 자료를 이 종에 그대로 옮겨 쓰지 않는다[1].")},
+]
+
+compounds = [
+    {"name": "Delphinidin 3-galactoside", "name_ko": "델피니딘-3-갈락토사이드", "class": "안토시아닌", "role": "marker", "part": "열매",
+     "content_text": "중국 푸젠성 완숙 열매에서 델피니딘 3-갈락토사이드와 3-글루코사이드가 안토시아닌 조성을 주도(UHPLC-MS/MS 동정, 개별 함량 수치는 본문에 없음)[3]",
+     "activity_ko": "열매의 자흑색을 내는 주요 색소[3]", "source": [3]},
+    {"name": "Delphinidin 3-glucoside", "name_ko": "델피니딘-3-글루코사이드", "class": "안토시아닌", "role": "marker", "part": "열매",
+     "content_text": "완숙 열매의 주요 안토시아닌(동정만, 함량 수치 없음)[3]; 일본 시료에서 델피니딘 계열이 총 안토시아닌의 32.9%[2]",
+     "activity_ko": "열매 안토시아닌의 주성분[2, 3]", "source": [2, 3]},
+    {"name": "Cyanidin 3-glucoside", "name_ko": "시아니딘-3-글루코사이드", "class": "안토시아닌", "role": "marker", "part": "열매",
+     "content_text": "일본 시료에서 시아니딘 계열이 총 안토시아닌의 31.5%(HPLC, 시아니딘-3-글루코사이드 당량)[2]; 국내 비교 연구에서 시아니딘 배당체가 정금나무보다 많음(초록)[4]",
+     "activity_ko": "모새나무를 정금나무와 구별하는 대사체[4]", "source": [2, 4]},
+    {"name": "Pelargonidin 3-galactoside", "name_ko": "펠라고니딘-3-갈락토사이드", "class": "안토시아닌", "role": "bioactive", "part": "열매",
+     "content_text": "완숙 열매에서 펠라고니딘 유도체 4종(3-갈락토사이드·3-글루코사이드·3-루티노사이드·3,5-디글루코사이드) 검출; 하이부시블루베리·빌베리에는 없다고 보고된 성분[3]",
+     "activity_ko": "이 종 열매의 특이한 안토시아닌 조성[3]", "source": [3]},
+    {"name": "Malvidin 3-glucoside", "name_ko": "말비딘-3-글루코사이드", "class": "안토시아닌", "role": "bioactive", "part": "열매",
+     "content_text": "완숙 열매에서 말비딘 유도체 동정(함량 수치 없음)[3]; HPLC 표준품으로 사용[2]",
+     "activity_ko": "열매 안토시아닌 구성 성분[2, 3]", "source": [2, 3]},
+    {"name": "Orientin", "name_ko": "오리엔틴", "class": "플라본 C-배당체", "role": "marker", "part": "열매(으름덩굴 열매 추출물과 1:1 혼합한 물 추출물)",
+     "content_text": "혼합 추출물 약 0.143 mg/g(HPLC-DAD, 340/350 nm); 모새나무 열매 단독 함량은 원문에 없음[11]",
+     "activity_ko": "갱년기 소재 개발용 혼합 추출물의 표준화 지표(모새나무 유래인지 확인 못함)[11]", "source": [11]},
+    {"name": "Isoorientin", "name_ko": "이소오리엔틴", "class": "플라본 C-배당체", "role": "bioactive", "part": "메탄올 추출물(초록에 부위 기재 없음)",
+     "content_text": "메탄올 추출물 경구 투여 후 쥐 혈장에서 LC-MS/MS로 측정(정량하한 1 ng/mL); 추출물 중 함량은 초록에 없음[24]",
+     "activity_ko": "추출물의 약동학 지표로 쓰임[24]", "source": [24]},
+    {"name": "p-Coumaric acid", "name_ko": "p-쿠마르산", "class": "페놀산", "role": "bioactive", "part": "잎(식품원료 사용부위 아님)",
+     "content_text": "잎 추출물 에틸아세테이트 분획의 주된 활성 성분으로 동정(함량 없음)[25]; 잎 추출물의 주요 활성 성분[26]",
+     "activity_ko": "사람 티로시나아제 억제[25]; 스트레스 생쥐에서 항우울 효과·세로토닌 6 수용체 길항[26]", "source": [25, 26]},
+    {"name": "Vaccinoside", "name_ko": "박시노사이드", "class": "이리도이드 배당체", "role": "bioactive", "part": "꽃·잎(식품원료 사용부위 아님)",
+     "content_text": "꽃에서 처음 분리·구조 결정[22]; 잎에서 오반 염색의 핵심 활성 성분으로 동정(함량 없음)[16]",
+     "activity_ko": "효소·아미노산과 반응해 푸른 색소를 만드는 전구체[16]", "source": [16, 22]},
+    {"name": "10-O-cis-p-coumaroyl monotropein", "name_ko": "10-O-cis-p-쿠마로일 모노트로페인", "class": "이리도이드 배당체", "role": "bioactive", "part": "부위 기재 없음(초록)",
+     "content_text": "이 종에서 분리한 11개 화합물 중 하나로, 산앵도나무속에서 처음 분리(함량 없음)[21]",
+     "activity_ko": "이 종의 특징적 이리도이드 계열[21]", "source": [21]},
+    {"name": "Hyperoside", "name_ko": "하이페로사이드(퀘르세틴-3-O-갈락토사이드)", "class": "플라보놀 배당체", "role": "bioactive", "part": "부위 기재 없음(초록)",
+     "content_text": "quercetin-3-O-β-D-galactopyranoside로 분리(함량 없음)[21]",
+     "activity_ko": "플라보놀 배당체 성분[21]", "source": [21]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로겐산", "class": "페놀산", "role": "bioactive", "part": "뿌리(식품원료 사용부위 아님)",
+     "content_text": "뿌리에서 분리한 10개 화합물 중 하나(함량 없음)[29]",
+     "activity_ko": "뿌리 페놀 성분[29]", "source": [29]},
+    {"name": "Ursolic acid", "name_ko": "우르솔산", "class": "트리테르페노이드", "role": "bioactive", "part": "잎(식품원료 사용부위 아님)",
+     "content_text": "잎 지용성 분획에서 프리델린·에피프리델리놀·β-시토스테롤과 함께 분리(함량 없음)[30]",
+     "activity_ko": "잎 지용성 성분[30]", "source": [30]},
+    {"name": "Xanthotoxol", "name_ko": "잔토톡솔", "class": "푸라노쿠마린", "role": "bioactive", "part": "잎(식품원료 사용부위 아님)",
+     "content_text": "잎 추출물 비표적 대사체 분석에서 핵심 활성 성분으로 선정(함량 없음)[31]",
+     "activity_ko": "세포 노화 모델에서 Nrf2 경로 활성화[31]", "source": [31]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Total anthocyanins (as cyanidin 3-glucoside)", "compound_ko": "총 안토시아닌(시아니딘-3-글루코사이드 당량)",
+     "part": "열매(일본 후쿠오카현 묘포산 야생종, 냉동 보관)",
+     "content": "샤샨보 수치는 그림에만 있어 본문에서 확인 못함; 조성은 델피니딘 계열 32.9%, 시아니딘 계열 31.5%[2]",
+     "method": "HPLC-VIS(역상)",
+     "conditions": {"instrument": "Shimadzu Prominence LC solution system", "column": "STR ODS 칼럼(Shimadzu; 규격 미기재)",
+                    "mobile_phase": "A: 1% 인산, B: 1% 인산·50% 메탄올·0.1% 트리플루오로아세트산",
+                    "gradient": "B 40–45%(0–20분), 45%(20–35분), 50%(35–45분), 50–80%(45–50분), 80%(50–72분), 40%(72–80분); 40% B로 평형",
+                    "flow": "1.4 mL/min", "temp": "40 °C", "detection": "520 nm", "injection": "",
+                    "sample_prep": "냉동 열매를 1% HCl 함유 100% 메탄올로 균질 추출 → 증발 건고 → 물로 10 mL 정용 → 0.22 μm 여과",
+                    "standard": "말비딘-3-갈락토사이드·페오니딘-3-글루코사이드·시아니딘-3-글루코사이드·말비딘-3-글루코사이드 표준품과 머무름 시간·스펙트럼 비교; 결과는 시아니딘-3-글루코사이드 당량 mg/g DW",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "열매 색과 항산화의 핵심 성분군이어서 산앵도나무속 열매 비교의 기본 지표로 쓰임; 전문 확인, 주입량·검량·검출한계·회수율은 원문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.3390/plants2010057", "source_kind": "paper"},
+    {"role": "literature", "compound": "Total anthocyanins", "compound_ko": "총 안토시아닌",
+     "part": "열매(중국 푸젠성 롄장 야생 개체, 2016년 11월 수확한 완숙 검은 열매)",
+     "content": "516.97 mg/100 g FW(완숙기)[3]",
+     "method": "pH 차이법(총량) + UHPLC-Q Exactive MS/MS(개별 성분 동정)",
+     "conditions": {"instrument": "정량: pH 차이법(분광광도); 동정: Thermo Vanquish UHPLC + Thermo Q Exactive(ESI 양이온)",
+                    "column": "Waters HSS T3, 2.1 × 100 mm, 1.8 μm(동정용)",
+                    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+                    "gradient": "0–4.0분 A 10%; 4.0–12.0분 A 10→60%; 12.0–18.0분 A 60%; 18.0–18.1분 A 60→10%; 18.1–26.0분 A 10%(원문 표기 그대로)",
+                    "flow": "300 μL/min", "temp": "40 °C",
+                    "detection": "full-scan/MS2, 분해능 70000, MS1 m/z 200–1500, MS/MS m/z 200–2000, 모세관 3000 V·320 °C",
+                    "injection": "2 μL",
+                    "sample_prep": "총량: 생과 약 1 g을 액체질소로 분쇄해 0.05% HCl 메탄올 10 mL로 4 °C 24시간 추출; 동정: 분말 0.2 g을 물:메탄올:포름산(66.5:28.5:5) 1 mL로 얼음 위 30분 추출 → 원심 → 동결건조 → 5% 포름산 0.2 mL에 재용해",
+                    "standard": "동정은 정밀 질량(±10 ppm)과 MS/MS(±20 ppm) 데이터베이스 대조",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "이 종 열매가 블루베리 최고 수준의 안토시아닌을 쌓는다는 근거 값으로 유전자 연구의 표현형 지표로 쓰임; 전문 확인, 총량은 pH 차이법이어서 칼럼 조건은 동정용이며 검출한계·회수율은 원문에 없음[3].",
+     "source": [3], "url": "https://doi.org/10.3389/fpls.2021.697212", "source_kind": "paper"},
+    {"role": "literature", "compound": "Total polyphenols (as gallic acid)", "compound_ko": "총 폴리페놀(갈산 당량)",
+     "part": "열매(일본 후쿠오카현 묘포산, 동결건조 분말)",
+     "content": "38.8 mg 갈산 당량/g DW[2]",
+     "method": "Folin–Ciocalteu 비색법",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "",
+                    "detection": "760 nm(30분 반응 후)", "injection": "",
+                    "sample_prep": "동결건조 분말 0.1 g을 80% 메탄올에 녹여 0.45 μm 여과; 물 3.2 mL + 시료 200 μL + Folin 시약 200 μL + 포화 탄산나트륨 400 μL",
+                    "standard": "80% 메탄올에 녹인 갈산", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "항산화능(DPPH)과 상관이 커서(R² = 0.9283, 17시료) 열매 품질 비교 지표로 쓰임; 전문 확인, 검량 범위·검출한계는 원문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.3390/plants2010057", "source_kind": "paper"},
+    {"role": "literature", "compound": "Cyanidin glycosides", "compound_ko": "시아니딘 배당체",
+     "part": "열매(국내 연구, 모새나무·정금나무·하이부시블루베리 비교)",
+     "content": "정금나무보다 높음(상대 비교, 수치는 초록에 없음)[4]",
+     "method": "UPLC-Q-TOF-MS 대사체 분석 + 다변량 분석(GC-TOF-MS 병행)",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "안토시아닌 조성이 모새나무와 정금나무를 가르는 주된 대사체로 보고되어 종 구별 지표가 될 수 있음; 전문 확인 못함(초록만)[4].",
+     "source": [4], "url": "https://doi.org/10.1021/jf405272b", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "vaccinium-bracteatum",
+    "name_ko": "모새나무",
+    "name_en": "Sea bilberry (oriental blueberry)",
+    "scientific_name": "Vaccinium bracteatum Thunb.",
+    "aliases": ["모새나무열매", "Sea bilberry", "Oriental blueberry", "Wufanshu", "Shashanbo", "Acosta spicata", "Andromeda chinensis"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "nutrients": [],
+    "assays": assays,
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+(HERE / "dossier.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

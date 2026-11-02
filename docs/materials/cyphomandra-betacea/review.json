@@ -1,0 +1,85 @@
+{
+ "slug": "cyphomandra-betacea",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 69,
+ "checked_items": 70,
+ "verified": 126,
+ "fixed": 11,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "사용 조건은 '사용가능부위 : 열매'라서 잎·줄기·뿌리는 이 목록으로 쓸 수 없다[1]",
+   "after": "사용 조건은 '사용가능부위 : 열매'이며, 잎·줄기 등 열매 외 부위는 이 목록에 올라 있지 않다[1]",
+   "why": "I1020 원자료에는 열매(및 페이스트) 두 행만 있고 잎·줄기·뿌리 '사용불가' 행은 없음 — 목록에 없음으로 정확히 씀"
+  },
+  {
+   "where": "sections.biology",
+   "before": "한 꽃송이에서 1–6개의 타원형 열매",
+   "after": "1–6개의 타원형 열매",
+   "why": "[2] 원문은 'It produces between 1 and 6 elliptical fruits'로 꽃송이당이라고 하지 않음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "Cocona(Solanum sessiliflorum)도 열매를 쓸 수 있는 원료로",
+   "after": "Cocona(Solanum sessiliflorum, 잎·열매)도 쓸 수 있는 원료로",
+   "why": "I1020 원자료에서 Cocona 사용가능부위는 '잎, 열매'"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "나무토마토의 참조 유전체는 아직 공개되지 않았고, 2022년 중국 쓰촨농업대학 연구진이 PacBio 장독 서열분석으로",
+   "after": "2022년 논문 시점에 나무토마토의 참조 유전체는 공개되지 않았고, 그해 중국 쓰촨농업대학 연구진이 단일분자 실시간(SMRT) 장독 서열분석으로",
+   "why": "[6]은 2022년 시점 서술 — 시점을 밝힘; 상표명(PacBio) 대신 일반명"
+  },
+  {
+   "where": "compounds.Delphinidin 3-rutinoside",
+   "before": "열매 총 안토시아닌 8.5 mg/100 g 중 주요 안토시아닌[8]; 껍질(동결건조) Amber",
+   "after": "열매 총 안토시아닌 8.5 mg/100 g(생/건 기준 초록 미기재) 중 주요 안토시아닌[8]; 껍질 건물 기준 Amber",
+   "why": "[2] 원문은 'mg/100 g dry weight'(동결건조라고 하지 않음); [8] 초록은 기준을 밝히지 않음"
+  },
+  {
+   "where": "compounds.Cyanidin 3-rutinoside",
+   "before": "껍질(동결건조) Amber",
+   "after": "껍질 건물 기준 Amber",
+   "why": "[2] 원문은 'mg/100 g dry weight'"
+  },
+  {
+   "where": "compounds.beta-Cryptoxanthin",
+   "before": "열매 총 카로티노이드 4.4 mg/100 g 중",
+   "after": "열매 총 카로티노이드 4.4 mg/100 g(생/건 기준 초록 미기재) 중",
+   "why": "[8] 초록은 생/건 기준을 밝히지 않음"
+  },
+  {
+   "where": "compounds.Ascorbic acid",
+   "before": "에콰도르 육종 집단 90개체에서 78.29–420.16 mg/100 g(반사광도법, 시료 상태는 초록에 명확하지 않음)[10]",
+   "after": "에콰도르 육종 집단 90개체에서 78.29–420.16 mg/100 g 생과육(반사광도법; 결과 본문에는 상한이 428.19로 적혀 있음)[10]",
+   "why": "[10] 전문 Methods: 비타민 C는 생과육(FW) 100 g당으로 표시; 초록 420.16과 본문 428.19 불일치 병기"
+  },
+  {
+   "where": "nutrients[0].basis",
+   "before": "과육 100 g당(초록 숫자 그대로)",
+   "after": "과육 100 g당(초록 숫자 그대로, 생/건 기준 초록 미기재)",
+   "why": "[28] 초록은 생/건 기준을 밝히지 않음(스페인어 원문 전문 확인 불가)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "열매 추출물은 고지방식 비만 쥐에서",
+   "after": "열매 추출물은 고지방식 비만 쥐에서 150–300 mg/kg 경구 투여 시",
+   "why": "[18] 초록의 용량 조건을 밝혀 동물 결과 일반화 방지"
+  },
+  {
+   "where": "world[0-3].note",
+   "before": "(논문/리뷰가 인용한 값)",
+   "after": "2차 인용임과 원 통계 미확인을 명시",
+   "why": "[5] 전문은 4,500→7,600 ha(2015→2017, 70%)를 다른 문헌 인용으로, [2] 전문은 2019년 약 622 t·약 100 ha·40 농가를 출처 표기 없이 서술 — 값은 일치, 원 통계는 열 수 없음"
+  }
+ ],
+ "unverifiable_notes": [
+  "world 4행은 모두 2차 인용: 에콰도르 2015년 4,500 ha → 2017년 7,600 ha(70%)는 [5] 전문(PMC11944818) 서론에서 다른 문헌 2편을 인용한 값이고, 뉴질랜드 2019년 약 622 t·약 100 ha·40 농가는 [2] 전문(PMC11416485) 3절에 출처 표기 없이 적힌 값. 두 논문 값과는 일치하나 원 통계(에콰도르 농업 통계, 뉴질랜드 생산자 단체 자료)는 이 환경에서 열 수 없어 확인하지 못함(note에 명시).",
+  "[28](Arch Latinoam Nutr 2012, 스페인어)은 PMC 전문이 없어 초록 숫자로만 대조; 영양성분의 생/건 기준은 초록에 없어 basis에 '미기재'로 적음.",
+  "[7][8][9][11]–[27][29]–[32]는 PubMed 초록으로 대조(전문 없음 또는 불필요). [2][3][4][5][6][10]은 PMC 전문으로 대조.",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 의 나무토마토열매·나무토마토페이스트 행(Cyphomandra betacea (Cav.) Sendt., 사용가능, 사용가능부위: 열매)과 card.json 이 일치함을 확인. 고시형 원료(KR_NOTICE) 아님, markers 빈 목록 맞음."
+ ]
+}
