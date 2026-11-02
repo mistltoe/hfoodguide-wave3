@@ -1,0 +1,144 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pmc(x): return f"https://pmc.ncbi.nlm.nih.gov/articles/{x}/"
+def pm(x): return f"https://pubmed.ncbi.nlm.nih.gov/{x}/"
+sources = [
+ (1, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 해삼(Stichopus japonicus) 15행(2026-10-13 받은 원자료)", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ (2, "Zhang X et al. The sea cucumber genome provides insights into morphological evolution and visceral regeneration. PLoS Biol 2017;15(10):e2003790", pmc("PMC5638244"), "PLoS Biology (PMC)", A),
+ (3, "Li Y et al. Sea cucumber genome provides insights into saponin biosynthesis and aestivation regulation. Cell Discov 2018;4:29", pmc("PMC6018497"), "Cell Discovery (PMC)", A),
+ (4, "Jo J et al. Draft genome of the sea cucumber Apostichopus japonicus and genetic polymorphism among color variants. GigaScience 2017;6(1):1-6", pmc("PMC5437941"), "GigaScience (PMC)", A),
+ (5, "Kang JH et al. Genetic differentiation among populations and color variants of sea cucumbers (Stichopus japonicus) from Korea and China. Int J Biol Sci 2011;7(3):323-332", pmc("PMC3076502"), "International Journal of Biological Sciences (PMC)", A),
+ (6, "Kang JH et al. Allele-specific PCR genotyping of the HSP70 gene polymorphism discriminating the green and red color variants sea cucumber (Apostichopus japonicus). J Genet Genomics 2011;38(8):351-355", pm("21867961"), "Journal of Genetics and Genomics (PubMed)", A),
+ (7, "Jo J et al. Comparative transcriptome analysis of three color variants of the sea cucumber Apostichopus japonicus. Mar Genomics 2016;28:21-24", pm("27105969"), "Marine Genomics (PubMed)", A),
+ (8, "Zhang W et al. Phage Therapy for Sustainable Sea Cucumber Aquaculture. Life (Basel) 2026;16(6):989", pmc("PMC13301823"), "Life (PMC)", A),
+ (9, "Yu J et al. The Sea Cucumber Holobiont and Probiotics: Recent Progress on Apostichopus japonicus. Curr Microbiol 2026;83(8)", pm("42400618"), "Current Microbiology (PubMed)", A),
+ (10, "Dai YL et al. Characterization and anti-tumor activity of saponin-rich fractions of South Korean sea cucumbers (Apostichopus japonicus). J Food Sci Technol 2020;57(6):2283-2292", pmc("PMC7230107"), "Journal of Food Science and Technology (PubMed/PMC, 초록)", A),
+ (11, "Zhu Z et al. Development and application of a HPLC-MS/MS method for quantitation of fucosylated chondroitin sulfate and fucoidan in sea cucumbers. Carbohydr Res 2018;466:11-17", pm("29990587"), "Carbohydrate Research (PubMed)", A),
+ (12, "Mou J et al. Comparison of chain conformation properties of bio-active fucosylated chondroitin sulfates from two different sea cucumbers. Int J Biol Macromol 2019;133:44-50", pm("30986461"), "International Journal of Biological Macromolecules (PubMed)", A),
+ (13, "Shu Z et al. Enhancement of Apostichopus japonicus peptide flavor through bacterial and enzyme co-fermentation (BECF) and the identification of novel antioxidant peptides in the fermented product. Food Chem X 2025;27:102323", pmc("PMC11999528"), "Food Chemistry: X (PMC)", A),
+ (14, "Chen D et al. Dietary Glycine and Methyl Donors Remodel Gut Microbiota to Enhance Collagen Synthesis in Sea Cucumber (Apostichopus japonicus). Biology (Basel) 2025;14(9):1246", pmc("PMC12467734"), "Biology (PMC)", A),
+ (15, "Yin P et al. Hot water pretreatment-induced significant metabolite changes in the sea cucumber Apostichopus japonicus. Food Chem 2020;314:126211", pm("31982856"), "Food Chemistry (PubMed)", A),
+ (16, "Lee DI et al. Sea Cucumber Lipid-Soluble Extra Fraction Prevents Ovalbumin-Induced Allergic Airway Inflammation. J Med Food 2018;21(1):21-29", pm("29161525"), "Journal of Medicinal Food (PubMed)", A),
+ (17, "Lee DI et al. Preventive Intra Oral Treatment of Sea Cucumber Ameliorate OVA-Induced Allergic Airway Inflammation. Am J Chin Med 2016;44(8):1663-1674", pm("27852121"), "American Journal of Chinese Medicine (PubMed)", A),
+ (18, "Jiang S et al. Comparison of biochemical composition of commercial sea cucumbers, Apostichopus japonicus and Parastichopus californicus, under the same culture conditions. J Sci Food Agric 2022;102(12):5452-5459", pm("35352353"), "Journal of the Science of Food and Agriculture (PubMed)", A),
+ (19, "Zhang C et al. Single and combined effects of microplastics and cadmium on the sea cucumber Apostichopus japonicus. Mar Environ Res 2023;186:105927", pm("36842394"), "Marine Environmental Research (PubMed)", A),
+ (20, "Liu C et al. tRNA copy number and codon usage in the sea cucumber genome provide insights into adaptive translation for saponin biosynthesis. Open Biol 2021;11(11):210190", pmc("PMC8580430"), "Open Biology (PMC)", A),
+ (21, "Jiang P et al. Cloning and characterization of a phosphomevalonate kinase gene that is involved in saponin biosynthesis in the sea cucumber Apostichopus japonicus. Fish Shellfish Immunol 2022;128:67-73", pm("35921931"), "Fish & Shellfish Immunology (PubMed)", A),
+ (22, "Farooqui NA et al. Sea cucumber protein hydrolysate restores the Th1/Th2 paradigm in cyclophosphamide-induced immunosuppressed mice. Front Nutr 2026;13:1758733", pmc("PMC12886032"), "Frontiers in Nutrition (PMC)", A),
+ (23, "Segaran TC et al. A scientometric analysis of global sea cucumber original research articles from 1970 to 2023. Mar Environ Res 2026;220:108220", pm("42348960"), "Marine Environmental Research (PubMed)", A),
+ (24, "Wang L et al. Chemical Profiling and Mechanistic Insights into Stichopodidae Viscus Extract for Ulcerative Colitis via UPLC-IMS-Q-TOF-HDMSE and Network Pharmacology. Pharmaceuticals (Basel) 2026;19(3):470", pmc("PMC13029050"), "Pharmaceuticals (PMC)", A),
+ (25, "Liu H et al. Evolutionary conservation and adaptability of cholecystokinin neuropeptide signaling in the sea cucumber Apostichopus japonicus. BMC Biol 2026;24(1)", pmc("PMC13548532"), "BMC Biology (PMC)", A),
+ (26, "Chan Q et al. Effects of chronic dietary hexavalent chromium on bioaccumulation and immune responses in the sea cucumber Apostichopus japonicus. Comp Biochem Physiol C 2021;252:109218", pm("34715349"), "Comparative Biochemistry and Physiology C (PubMed)", A),
+]
+S = [dict(n=n, title=t, url=u, publisher=p, accessed=a) for n, t, u, p, a in sources]
+
+sections = [
+ ("overview", "한눈에 보기",
+  "해삼(돌기해삼)은 극피동물문에 속하는 바다 동물로, 논문에서는 주로 Apostichopus japonicus (Selenka 1867)라는 학명으로 불린다[3][25]. 식품원료 목록은 학명을 Stichopus japonicus 로 적고, 한 행에는 'Stichopus japonicus / Apostichopus japonicus'로 두 이름을 함께 적었다[1]. 중국·일본·한국·러시아 연안의 서태평양에서 가장 우세하고 경제적으로 중요한 해삼 가운데 하나로, 먹거리와 약용 가치가 크다고 소개된다[3].\n\n"
+  "식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에는 해삼·돌기해삼·건조해삼·해삼분말·해삼추출물·해삼창자·돌기해삼알 등 15개 원료명이 올라 있고 모두 '사용가능'이며 사용 조건 칸은 비어 있다[1]. 사용 부위 칸은 대부분 '-'이지만, 건조·냉동·염장 돌기해삼알 3행은 '균핵', 해삼창자 1행은 '열매'로 적혀 있다[1]. 동물 원료에 버섯·식물 부위 이름이 붙은 것은 원문 그대로 둔 것이며, 실제로는 원료명(알·창자)이 가리키는 부위로 읽는 것이 맞아 보인다[1]. 건강기능식품 고시형 원료의 원재료로는 연결되어 있지 않다[1].\n\n"
+  "성분 연구는 체벽의 콜라겐·단백질, 푸코실화 콘드로이틴 황산, 사포닌(Holotoxin 등)에 모여 있다[10][11][14]."),
+ ("history", "이용 역사",
+  "해삼(Stichopus japonicus)은 한국·일본·중국을 포함한 동아시아에서 즐겨 먹는 식품이다[5]. 한 유전체 연구는 이 종을 수산 식품이자 전통 약재 재료로 경제적으로 중요한 종이라고 소개했다[4]. 해삼은 여러 문화에서 전통 식품·약용 자원으로 쓰여 왔다고 정리되었다[8]. 돌기해삼이 속한 Stichopodidae과 해삼의 내장은 전통적으로 위장 질환 관리에 쓰였다고 소개되었다[24].\n\n"
+  "자연산 자원이 줄어들면서 양식 생산이 늘었고, 정부가 운영하는 종자 방류 사업도 이어지고 있다[5]. 최근에는 남획과 질병 때문에 보전에 대한 우려가 커졌다[4]. 1970–2023년 해삼 원저 논문 5,407편을 분석한 연구에서 약 절반이 중국에서 나왔고 'Apostichopus japonicus'가 대표 핵심어였다[23].\n\n"
+  "한국에서 해삼을 먹기 시작한 시기와 식품원료 목록에 올린 경위는 확인하지 못함[1]. 해삼을 말리거나 소금에 절이는 가공 형태는 목록의 원료명(건조해삼·염장돌기해삼알 등)으로 확인된다[1]."),
+ ("biology", "생물학적 특징·생태",
+  "해삼은 극피동물문(Echinodermata)에 속하며, 인간과 같은 후구동물 갈래에 있는 무척추동물이다[9][25]. 수온이 높아지면 최대 4개월까지 이어지는 여름잠(하면) 상태에 들어가 움직임과 먹이 섭취를 멈추고 장이 퇴화하며 대사율을 낮춘다[3]. 스트레스를 받으면 장·호흡수 같은 내장을 몸 밖으로 내보내고, 잃은 기관을 7일 안에 다시 만들 수 있다[3].\n\n"
+  "중국 해삼 종 목록에서 이 종은 암수딴몸이며 산란기는 6–8월, 난모세포 지름은 120 µm로 정리되었다[8]. 바닥 퇴적물을 먹는(sediment-grazing) 습성이 있다고 설명되었다[8]. 성장이 느리고 체강액에 미생물이 있는 등 생리적으로 독특한 동물로 소개된다[9].\n\n"
+  "체색에 따라 녹색·적색·흑색의 세 무리로 나뉘며, 이 색은 맛과 시장 가격에 영향을 준다[6]. 드문 적색형이 가장 값이 높고, 녹색형과 생식적으로 격리되었을 가능성이 제기되었다[5]. 체벽은 단백질이 많고 산성 뮤코다당이 다양하다고 소개되었다[8]. 먹이 섭취는 콜레시스토키닌 계열 신경펩타이드가 뒤쪽 장을 수축시키는 방식으로 억제된다고 보고되었다[25]."),
+ ("related_species", "관련 종·이름",
+  "식품원료 목록의 학명은 Stichopus japonicus 이고, 영문 원료명 Japanese sea cucumber와 영문명 Sea cucumber가 함께 적혀 있다[1]. 최근 논문은 같은 종을 Apostichopus japonicus 로 적으며, 2011년 한국 연구는 Stichopus japonicus 로 적었다[4][5]. 같은 속 이름을 쓰는 Stichopus herrmanni 는 목록에 'Curryfish herrmanni'라는 원료명으로 따로 올라 있는 별개의 종이다[1].\n\n"
+  "녹색·적색·흑색 체색형의 분류학적 관계는 아직 분명하지 않다고 보고되었다[7]. 미세위성 표지 9개로 분석한 결과 한국과 중국의 녹색형 사이에는 유의한 차이가 없었고, 녹색형과 적색형 사이는 유의하게 달랐다[5]. HSP70 유전자의 한 SNP(443번 자리)를 이용한 PCR은 녹색형에서 100%, 적색형에서 4.2% 증폭되어 두 형을 가를 수 있었다[6].\n\n"
+  "북태평양 연안의 상업 해삼인 Parastichopus californicus 와 같은 양식 조건에서 비교한 연구에서, 체벽의 조지방·회분과 아미노산 18종 가운데 15종 함량이 유의하게 달랐다[18]. 중국에서 기록된 식용 해삼은 20종이 넘으며, 이 가운데 이 종이 영양가가 높은 종으로 꼽힌다[8]."),
+ ("cultivation", "양식·어획",
+  "중국에서는 산둥 자오둥반도와 랴오닝 연안에 주로 분포하며, 다롄·옌타이 산이 품질이 좋다고 알려져 있다[8]. 지난 10년 동안 중국 양식이 빠르게 늘어 국가 양식업에서 단일 품종 생산액이 가장 큰 해산물이 되었다[8]. 중국의 해삼 생산량은 2024년 약 32만 6천 톤으로 2023년보다 3만 4천 톤 늘었으며, 이 수치는 종을 나누지 않은 해삼 전체 값이다[8]. 종자 생산으로 한 해 약 60억 마리의 어린 해삼을 만들 수 있다는 보고도 있다[8].\n\n"
+  "양식은 조방식에서 집약·대규모 방식으로 바뀌었고, 그에 따라 세균성 질병, 특히 '피부 궤양 증후군'이 가장 큰 피해를 준다[8]. Vibrio splendidus 가 산둥·랴오닝·푸젠에서 주요 원인균으로 꼽혔다[8]. 항생제 남용이 문제가 되어 중국은 시프로플록사신·엔로플록사신·푸라졸리돈 등 여러 약제의 사용을 금지했다[8].\n\n"
+  "중국 연구는 연못 양성과 바닥 뿌림 양식 해삼을 비교했는데 다당 총량은 차이가 없었고 연못 양성 쪽의 FCS:푸코이단 비가 더 높았다[11]. 한국에서는 자연산 감소로 양식이 늘었고 정부 종자 방류 사업이 진행 중이다[5]. 국내 해삼 양식 면적·생산량 통계는 확인하지 못함[1]."),
+ ("processing", "가공·추출 연구",
+  "식품원료 목록에는 건조해삼, 동결건조해삼, 냉동자숙해삼, 불린돌기해삼, 해삼분말, 해삼추출물, 해삼창자, 건조·냉동·염장 돌기해삼알, 냉동돌기해삼생식선 등이 원료명으로 올라 있다[1]. 살아 있는 해삼은 물이 많고, 말린 제품은 단백질이 많고 총지방은 비교적 적다고 정리되었다[8].\n\n"
+  "체벽을 뜨거운 물로 전처리하면 무기질 25–50%(w/w), 단백질 약 11%, 탄수화물 33%, 사포닌 약 41%, 스페르미딘 100%가 줄었다[15]. 연구진은 영양을 지키려면 새로운 가공 기술이 필요하다고 결론지었다[15]. 염장 해삼 체벽을 세균 발효(30 °C, 31시간)와 복합 단백질분해효소(463 U/g, 50 °C, 4시간)로 함께 처리하자 비린 알데하이드가 줄고 펩타이드 808개가 확인되었다[13]. 이 가운데 펩타이드 LFW는 1 mg/mL에서 DPPH 라디칼을 57.36 ± 1.00% 없앴다[13].\n\n"
+  "콜라게나아제로 만든 해삼 단백질 가수분해물은 면역이 억제된 쥐에서 Th1/Th2 균형을 일부 되돌렸으나, 동물 실험이다[22]. 해삼 추출물의 지용성(헥세인) 분획은 쥐 천식 모델에서 기도 염증을 줄였다[16][17]. 국내 해삼 가공품 생산실적은 확인하지 못함[1]."),
+ ("genetics", "유전 정보",
+  "2017년 중국 연구진은 Illumina와 PacBio 자료로 약 805 Mb 크기의 유전체를 조립했고, 단백질 암호 유전자 30,350개를 찾았다[2]. 같은 연구는 바이오미네랄화 유전자의 수축이 해삼의 독특한 몸 형태와 약한 골격을 일부 설명한다고 보았다[2]. 장기를 다시 만드는 과정에는 PSP94 유사 유전자 가족과 확장된 FREP 유전자 가족이 관여했다[2].\n\n"
+  "2018년 다른 연구진은 952 Mb(contig N50 45 kb, scaffold N50 196 kb) 조립을 내고 단백질 암호 유전자 29,451개를 보고했으며, 스캐폴드 1,949개를 22개 연관군에 배치했다[3]. 유전체 크기는 k-mer 분석으로 약 1.0 Gb, 유세포 분석으로 약 0.9 Gb로 추정되었다[3]. 산화스쿠알렌 고리화효소(LAS1)가 라노스테롤 대신 사포닌 전구체인 파케올(parkeol)을 만든다는 점이 확인되었다[3].\n\n"
+  "한국 연구진의 초안 유전체는 0.66 Gb로 추정 크기(0.82 Gb)의 약 80.5%였고, 이형접합도는 0.986%, 예측 유전자는 21,771개였다[4]. 출처마다 유전체 크기 추정값이 0.82–1.0 Gb로 다르다[3][4]. 사포닌 합성 효소 유전자는 코돈 사용이 특히 최적화되어 있었다[20]. 메발론산 경로의 포스포메발론산 키나아제 유전자(AjPMK)도 사포닌 합성에 관여할 것으로 보고되었다[21]."),
+ ("safety", "안전성",
+  "식품원료 목록에서 해삼 관련 15개 원료는 모두 '사용가능'이며 사용 조건이 따로 없다[1]. 건강기능식품 고시형 원료의 원재료로 연결되어 있지 않아 고시의 섭취 시 주의사항은 없다[1]. 해삼의 알레르기 표시 대상 여부나 잔류 기준 같은 공공기관 안전 정보는 확인하지 못함[1].\n\n"
+  "카드뮴을 많이 넣은 먹이를 준 실험에서 호흡수·소화관·체벽의 카드뮴 함량이 올라갔고, 미세플라스틱이 함께 있으면 독성이 커졌다[19]. 6가 크롬을 먹인 실험에서는 축적량이 호흡수 > 장 > 체벽 순이었다[26]. 중국 양식장에서는 항생제 남용과 수산물 잔류가 문제로 지적되어 여러 약제가 금지되었다[8].\n\n"
+  "사포닌은 포식자와 기생충을 막는 화학 방어 물질이다[3]. 사포닌이 많은 분획은 시험관에서 암세포 증식을 억제했지만, 사람 대상 근거는 확인하지 못함[10]. 면역·항염 효과 연구도 쥐 실험 수준이다[16][22]."),
+]
+sections = [dict(key=k, title=t, body=b) for k, t, b in sections]
+
+compounds = [
+ dict(name="Holotoxin A1", name_ko="홀로톡신 A1", class_="트리테르펜 배당체(사포닌)", role="marker", part="원문 초록에 부위 명시 없음",
+      content_text="사포닌 풍부 분획(SSC) 총함량: 서해 산 15.5 mg/g(최고), 남해 산 8 mg/g(최저)", activity_ko="SSC의 주 사포닌으로 확인되었고 항종양 성분으로 추정되었다(세포 실험)[10]", source=[10]),
+ dict(name="Fucosylated chondroitin sulfate", name_ko="푸코실화 콘드로이틴 황산", class_="황산화 다당", role="marker", part="체벽",
+      content_text="초록에 함량 수치 없음; 연못 양성 해삼이 바닥 뿌림 양식보다 FCS:푸코이단 비가 높음", activity_ko="해삼의 두 주요 생리활성 다당 가운데 하나다[11]. A. japonicus 의 FCS는 PBS에서 무작위 코일 형태였다[12]", source=[11, 12]),
+ dict(name="Fucoidan", name_ko="푸코이단(해삼 푸칸)", class_="황산화 다당", role="bioactive", part="체벽",
+      content_text="초록에 함량 수치 없음", activity_ko="FCS와 함께 해삼의 주요 생리활성 다당으로 꼽힌다[11]", source=[11]),
+ dict(name="Collagen type I", name_ko="제I형 콜라겐", class_="단백질", role="marker", part="체벽",
+      content_text="11.09% ± 0.42% (대조군, 동결건조 체벽 ELISA 측정; 글리신 2.75% 먹이군 13.48% ± 0.47%)", activity_ko="수산 동물 품질 형질의 주요 지표로 쓰인다[14]", source=[14]),
+ dict(name="Amino acids", name_ko="아미노산(17종 합계)", class_="아미노산", role="nutrient", part="체벽(염장 해삼 탈염)",
+      content_text="총 61.09 g/100 g, 필수아미노산 19.25 g/100 g (건조중량, 미발효 체벽 균질물)", activity_ko="글루탐산·아스파르트산(감칠맛)과 글리신(단맛)이 맛과 관련된다[13]", source=[13]),
+ dict(name="Protein", name_ko="단백질", class_="단백질", role="nutrient", part="체벽(염장 해삼 탈염)",
+      content_text="4.54 ± 0.24 g/100 g 균질물(습중량, 해삼:물 = 1:1 균질물, Lowry법)", activity_ko="펩타이드 원료가 되는 주성분이다[13]", source=[13]),
+ dict(name="Eicosapentaenoic acid", name_ko="에이코사펜타엔산(EPA)", class_="오메가-3 지방산", role="bioactive", part="체벽 추출물(헥세인 분획)",
+      content_text="헥세인 분획 총지방산의 5% 이상을 차지하는 지방산 가운데 하나(정확한 값은 초록에 없음)", activity_ko="이 분획은 쥐 천식 모델에서 기도 염증을 줄였다[16]", source=[16]),
+ dict(name="Arachidonic acid", name_ko="아라키돈산", class_="오메가-6 지방산", role="nutrient", part="체벽 추출물(헥세인 분획)",
+      content_text="헥세인 분획 총지방산의 5% 이상(20:4n-6, 정확한 값은 초록에 없음)", activity_ko="헥세인 분획에서 확인된 47종 지방산 가운데 주요 지방산이다[16]", source=[16]),
+ dict(name="Palmitoleic acid", name_ko="팔미톨레산", class_="단일불포화 지방산", role="nutrient", part="체벽 추출물(헥세인 분획)",
+      content_text="헥세인 분획 총지방산의 5% 이상(16:1n-7, 정확한 값은 초록에 없음)", activity_ko="헥세인 분획의 주요 지방산이다[16]", source=[16]),
+ dict(name="Docosahexaenoic acid", name_ko="도코사헥사엔산(DHA)", class_="오메가-3 지방산", role="nutrient", part="체벽",
+      content_text="초록에 함량 수치 없음; 뜨거운 물 처리 체벽에서 DHA·EPA가 낮아짐", activity_ko="뜨거운 물 추출액으로 빠져나가는 성분으로 보고되었다[15]", source=[15]),
+ dict(name="Spermidine", name_ko="스페르미딘", class_="폴리아민", role="bioactive", part="체벽",
+      content_text="뜨거운 물 전처리로 100% 손실(초록)", activity_ko="연구진은 잠재적 항정신병 성분이라 적었으나 근거 수준은 확인하지 못함[15]", source=[15]),
+ dict(name="Parkeol", name_ko="파케올", class_="트리테르펜", role="bioactive", part="유전자 발현 산물(효모 발현 실험)",
+      content_text="함량 보고 없음(LAS1 효소의 주 생성물로 확인)", activity_ko="해삼 사포닌의 트리테르펜 전구체로 제시되었다[3]", source=[3]),
+ dict(name="LFW peptide", name_ko="LFW 펩타이드", class_="펩타이드", role="bioactive", part="체벽 발효·효소 분해물",
+      content_text="1 mg/mL에서 DPPH 57.36 ± 1.00%, ABTS 70.61 ± 2.18%; 5 mg/mL에서 하이드록실 라디칼 70.68 ± 0.51% 소거", activity_ko="시험관 항산화 활성이 10개 후보 가운데 가장 강했다[13]", source=[13]),
+]
+for c in compounds:
+    c["class"] = c.pop("class_")
+
+assays = [
+ {"role": "literature", "compound": "Amino acids (17 kinds)", "compound_ko": "아미노산 조성", "part": "체벽(염장 해삼을 탈염한 균질물)",
+  "content": "총 61.09 g/100 g, 필수아미노산 19.25 g/100 g (건조중량, 미발효 AJBW); 발효물 AJM 58.10·19.05 g/100 g",
+  "method": "아미노산 자동분석기(중국 국가표준 GB 5009.124–2016)",
+  "conditions": {"instrument": "Hitachi L-8900 아미노산 자동분석기", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+   "sample_prep": "염장 해삼을 씻어 탈이온수에 담가 소금을 빼고 모래입을 떼어 낸 뒤 잘라, 같은 양의 탈이온수와 150 mesh 콜로이드 밀(3000 r/min, 5분)로 균질화(AJBW)",
+   "standard": "", "linearity": "원문: 직선성·회수율·상대표준편차가 규정 기준을 충족(수치 없음)", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "체벽 단백질의 영양·맛 성분 구성을 보이는 조성 분석이다. 원문은 GB 5009.124–2016 방법을 따랐다고만 적어 칼럼·이동상 조건은 없다[13].",
+  "source": [13], "url": pmc("PMC11999528"), "source_kind": "paper"},
+ {"role": "literature", "compound": "Collagen type I", "compound_ko": "제I형 콜라겐", "part": "체벽",
+  "content": "대조군 11.09% ± 0.42%; 콜린 12.11% ± 0.51%, 베타인 13.38% ± 0.49%, 글리신 13.48% ± 0.47% (원문 단위 %)",
+  "method": "샌드위치 ELISA",
+  "conditions": {"instrument": "상용 제I형 콜라겐 샌드위치 ELISA 키트(중국 우한 제조)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "",
+   "detection": "흡광도 450 nm", "injection": "",
+   "sample_prep": "동결건조 체벽을 0.1 M 아세트산(1:10 w/v)에 균질화, 키트 완충액으로 알맞게 희석",
+   "standard": "키트 제공 정제 제I형 콜라겐(검량선 0–100 ng/mL)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "콜라겐 함량은 수산 동물 품질 형질의 주요 지표로 쓰인다고 원문이 밝혔다. 먹이 실험(49일)의 결과값이다[14].",
+  "source": [14], "url": pmc("PMC12467734"), "source_kind": "paper"},
+ {"role": "literature", "compound": "Holotoxin A1 (saponin-rich fraction)", "compound_ko": "홀로톡신 A1·사포닌 풍부 분획", "part": "원문 초록에 부위 명시 없음",
+  "content": "SSC 총함량 서해 15.5 mg/g(최고), 남해 8 mg/g(최저)",
+  "method": "UHPLC-Q-Orbitrap MS",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "한국 해역별 사포닌 함량 비교에 쓰였고 주 사포닌이 Holotoxin A로 확인되었다. 전문 확인 못함(도구에서 본문이 비어 초록만 확인)[10].",
+  "source": [10], "url": pmc("PMC7230107"), "source_kind": "paper"},
+ {"role": "literature", "compound": "Fucosylated chondroitin sulfate and fucoidan", "compound_ko": "푸코실화 콘드로이틴 황산·푸코이단", "part": "원문 초록에 부위 명시 없음",
+  "content": "초록에 수치 없음(연못 양성 해삼의 FCS:FUC 비가 더 높음)",
+  "method": "산 가수분해 후 HPLC-MS/MS(콘드로이틴 이당·푸코스 검출)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "두 주요 생리활성 다당을 나누어 정량하는 품질 평가 방법으로 제안되었다. 전문 확인 못함(PMC 전문 없음)[11].",
+  "source": [11], "url": pm("29990587"), "source_kind": "paper"},
+]
+
+world = [dict(country="중국", metric="production_t", year=2024, value=326000, unit="톤",
+              note="해삼 전체(종 구분 없음), 리뷰 논문이 China Fishery Statistics Yearbook을 인용한 값; 2023년보다 3만 4천 톤 증가", source=[8])]
+
+d = dict(slug="stichopus-japonicus", name_ko="해삼", name_en="Japanese sea cucumber", scientific_name="Stichopus japonicus",
+         aliases=["돌기해삼", "Apostichopus japonicus", "Japanese sea cucumber", "Sea cucumber"],
+         sections=sections, compounds=compounds, markers=[], nutrients=[], production=[], world=world,
+         assays=assays, gi=[], orgs=[], sources=S)
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

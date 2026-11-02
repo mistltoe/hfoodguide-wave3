@@ -1,0 +1,240 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(n, title, journal, doi, pmc=None):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://doi.org/{doi}"
+    return {"n": n, "title": title, "url": url, "publisher": journal + (" (PMC)" if pmc else " (PubMed 초록)"), "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 검은서양송로(Tuber melanosporum)·송로버섯(Tuber aestivum / Tuber melanosporum) 항목",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Périgord black truffle genome uncovers evolutionary origins and mechanisms of symbiosis. Nature 2010;464:1033-8 (PMID 20348908)", "Nature", "10.1038/nature08867"),
+    pm(3, "Pezizomycetes genomes reveal the molecular basis of ectomycorrhizal truffle lifestyle. Nat Ecol Evol 2018;2:1956-65 (PMID 30420746)", "Nature Ecology & Evolution", "10.1038/s41559-018-0710-4"),
+    pm(4, "Reconstructing the evolutionary history of gypsy retrotransposons in the Périgord black truffle (Tuber melanosporum Vittad.). Mycorrhiza 2016;26:553-63 (PMID 27025914)", "Mycorrhiza", "10.1007/s00572-016-0692-5"),
+    pm(5, "Five years investigation of female and male genotypes in Périgord black truffle (Tuber melanosporum Vittad.) revealed contrasted reproduction strategies. Environ Microbiol 2017;19:2604-15 (PMID 28371112)", "Environmental Microbiology", "10.1111/1462-2920.13735"),
+    pm(6, "Frequency of the two mating types in the soil under productive and non-productive trees in five French orchards of the Périgord black truffle. Mycorrhiza 2021;31:361-9 (PMID 33512580)", "Mycorrhiza", "10.1007/s00572-020-01011-4"),
+    pm(7, "Genetic diversity and mating type distribution of Tuber melanosporum and their significance to truffle cultivation in artificially planted truffières in Australia. Appl Environ Microbiol 2012;78:6534-9 (PMID 22773652)", "Applied and Environmental Microbiology", "10.1128/AEM.01558-12", "PMC3426713"),
+    pm(8, "Potential aromatic compounds as markers to differentiate between Tuber melanosporum and Tuber indicum truffles. Food Chem 2013;141:105-10 (PMID 23768334)", "Food Chemistry", "10.1016/j.foodchem.2013.03.027"),
+    pm(9, "Food Authentication: Identification and Quantitation of Different Tuber Species via Capillary Gel Electrophoresis and Real-Time PCR. Foods 2020;9:501 (PMID 32316117)", "Foods (MDPI)", "10.3390/foods9040501", "PMC7230311"),
+    pm(10, "Differentiation of European and Chinese Truffle (Tuber sp.) Species by Means of Sterol Fingerprints. J Agric Food Chem 2020;68:14393-401 (PMID 33138362)", "Journal of Agricultural and Food Chemistry", "10.1021/acs.jafc.0c06011"),
+    pm(11, "Impact of different processing techniques on the key volatile profile, sensory, and consumer acceptance of black truffle (Tuber melanosporum Vittadini). J Food Sci 2022;87:4174-87 (PMID 35975798)", "Journal of Food Science", "10.1111/1750-3841.16275", "PMC9804947"),
+    pm(12, "Comparative evaluation of encapsulation using β-cyclodextrin versus freeze-drying for better retention and stabilizing of black Périgord truffle (Tuber melanosporum) aroma. J Food Sci 2022;87:3482-95 (PMID 35788997)", "Journal of Food Science", "10.1111/1750-3841.16241"),
+    pm(13, "Changes in Black Truffle (Tuber melanosporum) Aroma during Storage under Different Conditions. J Fungi 2024;10:354 (PMID 38786709)", "Journal of Fungi (MDPI)", "10.3390/jof10050354", "PMC11121890"),
+    pm(14, "Volatilome changes during black truffle (Tuber melanosporum) ontogeny. Food Res Int 2024;194:114938 (PMID 39232548)", "Food Research International", "10.1016/j.foodres.2024.114938"),
+    pm(15, "Multi-platform metabolomic approach to discriminate ripening markers of black truffles (Tuber melanosporum). Food Chem 2020;319:126573 (PMID 32169760)", "Food Chemistry", "10.1016/j.foodchem.2020.126573"),
+    pm(16, "Chemical and sensory effects of the freezing process on the aroma profile of black truffles (Tuber melanosporum). Food Chem 2013;136:518-25 (PMID 23122092)", "Food Chemistry", "10.1016/j.foodchem.2012.08.030"),
+    pm(17, "Shelf-life extension of fresh Tuber aestivum and Tuber melanosporum truffles by modified atmosphere packaging with microperforated films. J Food Sci 2010;75:E225-33 (PMID 20546403)", "Journal of Food Science", "10.1111/j.1750-3841.2010.01602.x"),
+    pm(18, "Hypobaric Packaging Prolongs the Shelf Life of Refrigerated Black Truffles (Tuber melanosporum). Molecules 2020;25:3837 (PMID 32846927)", "Molecules (MDPI)", "10.3390/molecules25173837", "PMC7504210"),
+    pm(19, "Truffles contain endocannabinoid metabolic enzymes and anandamide. Phytochemistry 2015;110:104-10 (PMID 25433633)", "Phytochemistry", "10.1016/j.phytochem.2014.11.012"),
+    pm(20, "Screening of bioactive compounds in truffles and evaluation of pressurized liquid extractions (PLE) to obtain fractions with biological activities. Food Res Int 2020;132:109054 (PMID 32331654)", "Food Research International", "10.1016/j.foodres.2020.109054"),
+    pm(21, "Chemical composition and evaluation of antioxidant, antimicrobial and antiproliferative activities of Tuber and Terfezia truffles. Food Res Int 2021;140:110071 (PMID 33648293)", "Food Research International", "10.1016/j.foodres.2020.110071"),
+    pm(22, "Comparison of structural and antioxidant activity of polysaccharide extracted from truffles. J Food Sci 2022;87:2999-3012 (PMID 35674229)", "Journal of Food Science", "10.1111/1750-3841.16207"),
+    pm(23, "Carbon transfer from the host to Tuber melanosporum mycorrhizas and ascocarps followed using a 13C pulse-labeling technique. PLoS One 2013;8:e64626 (PMID 23741356)", "PLoS ONE", "10.1371/journal.pone.0064626", "PMC3669392"),
+    pm(24, "Whose truffle is this? Distribution patterns of ectomycorrhizal fungal diversity in Tuber melanosporum brûlés developed in multi-host Mediterranean plant communities. Environ Microbiol 2015;17:2747-61 (PMID 25522815)", "Environmental Microbiology", "10.1111/1462-2920.12741"),
+    pm(25, "Edaphic and temporal patterns of Tuber melanosporum fruitbody traits and effect of localised peat-based amendment. Sci Rep 2020;10:4422 (PMID 32157123)", "Scientific Reports", "10.1038/s41598-020-61274-x", "PMC7064507"),
+    pm(26, "Successes and challenges in the sustainable cultivation of edible mycorrhizal fungi – furthering the dream. Mycoscience 2021;62:10-28 (PMID 37090021)", "Mycoscience", "10.47371/mycosci.2020.11.007", "PMC9157773"),
+    pm(27, "Mycorrhizal competition release and microbial dynamics in native and non-native Tuber melanosporum habitats. Appl Environ Microbiol 2026;92:e0022526 (PMID 41930957)", "Applied and Environmental Microbiology", "10.1128/aem.00225-26", "PMC13101524"),
+    pm(28, "Black truffle-associated bacterial communities during the development and maturation of Tuber melanosporum ascocarps and putative functional roles. Environ Microbiol 2014;16:2831-47 (PMID 24118660)", "Environmental Microbiology", "10.1111/1462-2920.12294"),
+    pm(29, "Quantification of extraradical mycelium of Tuber melanosporum in soils from truffle orchards in northern Spain. Mycorrhiza 2013;23:99-106 (PMID 22772310)", "Mycorrhiza", "10.1007/s00572-012-0454-y"),
+    pm(30, "Tyrosinase expression during black truffle development: from free living mycelium to ripe fruit body. Phytochemistry 2011;72:2317-24 (PMID 21945278)", "Phytochemistry", "10.1016/j.phytochem.2011.08.025"),
+    pm(31, "Metabolism of L-methionine linked to the biosynthesis of volatile organic sulfur-containing compounds during the submerged fermentation of Tuber melanosporum. Appl Microbiol Biotechnol 2013;97:9981-92 (PMID 24092005)", "Applied Microbiology and Biotechnology", "10.1007/s00253-013-5224-z"),
+    pm(32, "Chemical characterization and safety assessment of black truffle (Tuber melanosporum) leftovers extracts obtained through non-conventional extraction techniques. Food Chem 2025;495:146367 (PMID 40961528)", "Food Chemistry", "10.1016/j.foodchem.2025.146367"),
+    pm(33, "High resolution mass approach to characterize refrigerated black truffles stored under different storage atmospheres. Food Res Int 2017;102:526-35 (PMID 29195982)", "Food Research International", "10.1016/j.foodres.2017.09.025"),
+    pm(34, "Unlocking the puzzling biology of the black Périgord truffle Tuber melanosporum. J Proteome Res 2013;12:5349-56 (PMID 24147936)", "Journal of Proteome Research", "10.1021/pr400650c"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "검은서양송로(Tuber melanosporum)는 땅속에서 자실체를 맺는 자낭균류로, '페리고르 검은 트러플(Périgord black truffle)'이라고도 불린다[2]. "
+     "남유럽 석회질 토양에 자생하며 나무뿌리와 외생균근을 이루는 공생균이고, 이탈리아 피에몬테 흰 트러플과 함께 세계 트러플 시장을 이끈다[2]. "
+     "식품의약품안전처 「식품원료 목록」에는 원료명 '검은서양송로자실체'로 올라 있으며, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. "
+     "같은 목록의 '송로버섯' 항목(건조송로버섯·송로버섯오일·송로버섯자실체·송로버섯주스·송로버섯추출물)에는 학명 칸에 Tuber aestivum과 Tuber melanosporum이 함께 적혀 있다[1]. "
+     "건강기능식품 고시형 원료의 원재료 목록에는 없어 고시된 지표성분과 기준은 확인하지 못함.\n\n"
+     "값어치는 대부분 향에서 나오며, 다이메틸설파이드(DMS) 같은 휘발성 황화합물이 향의 핵심으로 꼽힌다[11, 13]. "
+     "이탈리아에서는 kg당 최대 600유로에 거래된다는 자료가 있고, 북반구 수확기는 1월부터 3월 중순까지로 짧다[18]. "
+     "실온에서는 5–7일이면 품질이 떨어질 만큼 저장성이 낮아 포장·건조 연구가 많다[18]. "
+     "열 가지 트러플을 비교한 연구에서 탄수화물이 주 영양소였고 그다음이 단백질이었으며, 검은서양송로 추출물은 일부 세균의 생장을 약하게 억제했다[21]. 모양이 비슷한 값싼 아시아산 검은 트러플(Tuber indicum 등)이 섞이거나 바뀌어 팔리는 일이 있어 판별법도 연구되었다[9]."},
+    {"key": "history", "title": "이름과 이용의 역사", "body":
+     "영어권에서는 이 종을 Périgord black truffle(페리고르 검은 트러플)이라 부르며, 남유럽 석회질 토양에 자생한다[2]. "
+     "트러플은 처음에는 우연히 재배되었는데, 남프랑스 농민이 트러플 포자가 많은 땅에 참나무 도토리를 뿌리자 어린 나무가 몇 해 뒤 트러플을 맺었다[26]. "
+     "오늘날 균근 묘목을 얻는 '모수(mother plant) 기법'은 19세기 초 프랑스에서 트러플 재배를 개척할 때 쓴 방법을 고친 것이다[26]. "
+     "20세기 중반에는 유럽 연구자들이 트러플 포자로 묘목에 균근을 인위적으로 맺게 하는 기술을 익혀 '균근 묘목' 개념이 생겼다[26]. "
+     "이후 재배는 원산지 밖으로 퍼져 호주·뉴질랜드·칠레·남아프리카공화국의 트러플은 모두 재배원에서 나온다[26]. "
+     "호주는 최근 이 유럽 원산 검은 트러플의 주요 생산국 가운데 하나가 되었다[27]. "
+     "국내에서는 식품원료 목록에 '검은서양송로'라는 이름으로 올라 있으나, 도입 시기와 국내 유통 역사는 확인하지 못함."},
+    {"key": "biology", "title": "균학적 특징", "body":
+     "검은서양송로는 땅속에서 자실체(자낭과)를 맺는 자낭균으로, 자실체는 검은색이고 속에 흰 맥이 있으며 껍질(피층)과 속살(글레바)로 나뉜다[15, 28]. "
+     "이 균은 이형접합성(heterothallic)이라 짝짓기형(MAT1-1, MAT1-2)이 서로 다른 두 개체가 만나야 자실체를 맺는다[6]. "
+     "프랑스 재배원 조사에서는 모체(암) 유전형과 부체(수) 유전형이 대부분 따로 나타났고, 양쪽으로 모두 확인된 유전형은 1.5%뿐이었다[5]. "
+     "자실체의 탄소는 거의 모두 숙주 나무에서 오며, 13C 표지 실험에서 균근이 자실체에 하루 1.7 mg의 13C를 공급했다[23]. "
+     "스페인 조사에서 자실체의 월평균 무게는 7–9월 2–20 g, 10–12월 28–43 g이었고, 12–3월에 익으며 그 뒤로는 무게가 크게 늘지 않았다[14]. "
+     "흑색 색소(멜라닌)를 만드는 티로시나제는 균사부터 자실체 발달 단계까지 발현되다가 완전히 익으면 매우 낮아진다[30]. "
+     "자실체 안에는 흙과 다른 세균 군집이 살며, 익어 가면서 군집이 바뀌고 질소·황 순환 유전자가 많아진다[28]."},
+    {"key": "related_species", "title": "가까운 종과 혼동", "body":
+     "식품원료 목록에는 같은 속의 송로버섯(Tuber aestivum), 대리석덩이버섯(Tuber borchii), 흰서양송로(Tuber magnatum), Tuber brumale가 따로 올라 있으며, 이 문서는 검은서양송로 자료만 쓴다[1]. "
+     "중국산 아시아 검은 트러플(Tuber indicum 복합종)은 생김새가 매우 비슷하지만 값이 싸서 검은서양송로 대신 팔리거나 제품에 섞이는 일이 보고되었다[9]. "
+     "두 종은 향이 크게 다르며, HS-SPME-GC-MS 분석에서 1-옥텐-3-올은 T. indicum이 약 100배 많았고 1-옥텐-3-온은 T. indicum에서만 검출되었다[8]. "
+     "ITS1/ITS4 증폭 산물 길이는 두 종이 약 630 bp로 같아 길이만으로는 구별되지 않으며, 제한효소 절단(RFLP)이나 종 특이 실시간 PCR을 쓴다[9]. "
+     "실시간 PCR법은 검은서양송로 안에 섞인 아시아 검은 트러플을 0.5%까지 검출·정량했다[9]. "
+     "스테롤 조성도 판별에 쓰이며, 주 스테롤(에르고스테롤·브라시카스테롤) 비율과 미량 스테롤 8종이 유럽산과 중국산을 가르는 지표로 제안되었다[10]. "
+     "호주 재배원에서는 접종 과정에서 Tuber brumale에 오염된 나무가 일부 확인되기도 했다[7]."},
+    {"key": "cultivation", "title": "재배와 채취", "body":
+     "검은서양송로는 대부분 사람이 만든 재배원에서 생산되며, 트러플 포자를 접종한 참나무·개암나무 등의 묘목을 심어 기른다[6, 13]. "
+     "지중해 자생지에서는 홀름오크(Quercus ilex) 등 여러 숙주가 섞인 관목 군락에서 나며, 한 조사에서 이 균의 균근은 홀름오크 뿌리에서만 확인되었다[24]. "
+     "생산하는 나무 주변에는 풀이 자라지 않는 '브륄레(brûlé)'가 생기는데, 이는 트러플이 식물 생장을 억제하는 물질을 내기 때문으로 설명된다[27]. "
+     "토양 속 균사량은 실시간 PCR로 잴 수 있으며, 스페인 북부 조사에서 자연 산지 흙의 균사량이 재배원보다 최대 10배 많았다[29]. "
+     "프랑스 재배원에서는 생산 나무 밑 흙에서 두 짝짓기형이 함께 나오는 경우가 더 많아, 짝짓기형 검출이 재배원 관리 도구로 제안되었다[6]. "
+     "스페인 연구에서 포자를 넣은 이탄 기반 '트러플 둥지'는 자실체를 더 깊게 맺게 하고 모양을 좋게 했으며 트러플 딱정벌레 피해를 줄였다[25]. "
+     "호주 재배원은 유럽보다 경쟁 균근균이 적어 '경쟁 해방' 가설에 맞는 결과가 보고되었다[27]."},
+    {"key": "processing", "title": "가공과 저장", "body":
+     "신선 트러플은 수확 뒤 향을 빨리 잃어, 냉장 저장이 가장 흔하지만 기간이 짧다[11, 13]. "
+     "미세천공 필름 MAP(4 °C에서 내부 CO2 15%·O2 7%)는 검은서양송로의 저장 기간을 28일 넘게 늘렸다[17]. "
+     "30 kPa 감압 포장은 4 °C에서 14일 뒤에도 품질을 유지한 유일한 조건이었다[18]. "
+     "동결은 향을 크게 바꿔 신선한 향과 달라지며, 1-옥텐-3-온이 동결 공정의 표지로 나타났다[16]. "
+     "동결건조와 β-사이클로덱스트린 포접은 향을 보존하는 가공법으로 비교되었고, 소비자 패널은 동결건조품과 냉동 원료를 구별하지 못했다[11, 12]. "
+     "12일 저장 실험에서는 소금 접촉과 데치기가 향을 가장 크게 바꿨고, 저장 기간·동결·소금·가열 이력을 알려 주는 휘발성 표지 성분이 제안되었다[13]. "
+     "균사체 액체배양으로 향 성분을 얻는 연구도 있으며, L-메티오닌을 넣으면 메탄싸이올·DMS 등 황화합물 6종이 처음 검출되었다[31]. "
+     "상품 등급에 못 미치는 자투리 트러플을 초임계·가압 용매로 추출해 식품 소재로 쓰려는 연구도 있다[32]."},
+    {"key": "genetics", "title": "유전체와 유전 다양성", "body":
+     "2010년 해독된 검은서양송로의 반수체 유전체는 약 125 Mb로, 당시까지 해독된 곰팡이 유전체 가운데 가장 크고 복잡했다[2]. "
+     "유전체의 약 58%가 전이인자이고, 단백질 암호 유전자는 약 7,500개로 다유전자족이 드물다[2]. "
+     "같은 유전체에서 비중복 추정 단백질 12,771개를 기능 주석한 연구도 있어, 유전자 수는 기준에 따라 다르게 보고된다[34]. "
+     "전이인자의 대부분은 gypsy 계열 레트로트랜스포존이며, Tmt1과 Tmt6이 각각 유전체의 14%·13%를 차지한다[4]. "
+     "식물 세포벽 분해 효소 유전자가 적지만 일부는 공생 조직에서 발현이 늘어난다[2]. "
+     "다른 트러플(T. magnatum, T. aestivum)과의 비교 유전체 연구는 트러플 향 성분이 새 유전자가 아니라 기존 유전자의 발현 차이에서 나온다고 보았다[3]. "
+     "호주 재배원 자실체 210개를 미세위성 6좌위로 분석한 결과 유럽 연구보다 대립유전자 다양성이 높았고, 정착한 나무에서는 MAT1-1-1이 MAT1-2-1보다 자주 검출되었다[7]."},
+    {"key": "safety", "title": "안전성", "body":
+     "검은서양송로 자실체는 식품의약품안전처 「식품원료 목록」에서 사용가능 원료이며 별도의 제한 조건은 '사용가능부위 : 자실체'뿐이다[1]. "
+     "건강기능식품 고시 원료가 아니어서 고시된 섭취 시 주의사항은 없고, 국내 공공기관의 알레르기·독성 정보는 확인하지 못함. "
+     "신선 트러플은 호흡률이 높고 저장 중 미생물 수가 늘면서 품질이 떨어지며, MAP 포장은 슈도모나스·장내세균 수를 줄였다[17, 18]. "
+     "동결건조품과 포접 가공품에서도 미생물이 검출되어, 가공 전 살균 단계를 검토할 필요가 제기되었다[12]. "
+     "미국·유럽·호주·뉴질랜드에서는 트러플에 방사선 조사 처리가 법적으로 금지되어 있다는 보고가 있다[11]. "
+     "자투리 자실체 추출물은 중금속 함량이 낮고 Caco-2 세포에서 세포독성이 없었다[32]. "
+     "자실체에서 내인성 카나비노이드인 아난다마이드가 LC-MS로 측정되었다[19]. 이 성분의 사람 섭취 관련 의미는 확인하지 못함. "
+     "값싼 아시아산 트러플이 섞이는 위품 문제가 있어 DNA·향·스테롤 판별법이 품질 관리에 쓰인다[8, 9, 10]."},
+]
+
+compounds = [
+    {"name": "Dimethyl sulfide", "name_ko": "다이메틸설파이드(DMS)", "class": "휘발성 황화합물", "role": "marker", "part": "자실체",
+     "content_text": "냉동 원료(호주 서부산) 상대 피크 면적 0.1439 ± 0.0217%[11]; 익은 자실체(12–3월) 휘발 성분의 16%[14]",
+     "activity_ko": "'트러플·황' 향의 핵심 성분, 익은 자실체와 연관[11, 14]; 저장 중 감소해 신선도 표지[13]", "source": [11, 14, 13]},
+    {"name": "Dimethyl disulfide", "name_ko": "다이메틸다이설파이드(DMDS)", "class": "휘발성 황화합물", "role": "marker", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 0.0064 ± 0.0004%[11]",
+     "activity_ko": "'트러플·황' 향; 12–1월 채취 시료를 특징짓는 성분[11, 15]; GC-O 수정빈도 70% 초과로 T. indicum(30–40%)보다 높음[8]", "source": [11, 15, 8]},
+    {"name": "Methanethiol", "name_ko": "메탄싸이올", "class": "휘발성 황화합물", "role": "bioactive", "part": "자실체(미숙)",
+     "content_text": "7–9월 미숙 자실체 휘발 성분의 19%, 10–12월 20%[14]; 냉동 원료 상대 피크 면적 0.0016 ± 0.0004%[11]",
+     "activity_ko": "미숙 자실체와 연관된 성분[14]", "source": [14, 11]},
+    {"name": "4-Penten-2-ol", "name_ko": "4-펜텐-2-올", "class": "알코올", "role": "bioactive", "part": "자실체",
+     "content_text": "익은 자실체(12–3월) 휘발 성분의 17%, 10–12월 미숙 자실체 21%[14]",
+     "activity_ko": "익은 자실체와 연관된 성분[14]", "source": [14]},
+    {"name": "1-Octen-3-ol", "name_ko": "1-옥텐-3-올", "class": "C8 알코올", "role": "marker", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 3.4789 ± 0.3246%[11]; T. indicum이 약 100배 많음[8]",
+     "activity_ko": "버섯·흙 향, 소비자 수용도와 양의 상관[11]; 2–3월 시료를 특징짓는 성분[15]; 저장 중 감소[18]", "source": [11, 8, 15, 18]},
+    {"name": "1-Octen-3-one", "name_ko": "1-옥텐-3-온", "class": "C8 케톤", "role": "marker", "part": "자실체",
+     "content_text": "검은서양송로에서 크로마토그램 신호 없음(T. indicum에서만 검출)[8]; 냉동 원료에서 불검출[11]",
+     "activity_ko": "T. indicum 판별 표지[8]; 동결 공정의 일반 표지[16]", "source": [8, 11, 16]},
+    {"name": "3-Methyl-1-butanol", "name_ko": "아이소아밀알코올(3-메틸-1-뷰탄올)", "class": "알코올", "role": "bioactive", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 22.3337 ± 0.0704%[11]",
+     "activity_ko": "치즈 향, 향 강도 점수와 양의 상관[11]", "source": [11]},
+    {"name": "Methional", "name_ko": "메티오날", "class": "휘발성 황화합물(알데하이드)", "role": "bioactive", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 0.0632 ± 0.0028%[11]",
+     "activity_ko": "삶은 감자 향, 소비자 수용도와 양의 상관[11]; 동결 기간 표지[16]", "source": [11, 16]},
+    {"name": "Dimethyl trisulfide", "name_ko": "다이메틸트라이설파이드(DMTS)", "class": "휘발성 황화합물", "role": "bioactive", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 0.0047 ± 0.0005%, 동결건조 후 0.0094 ± 0.0004%[11]",
+     "activity_ko": "자극적 향, 선호도와 음의 상관[11]", "source": [11]},
+    {"name": "p-Cresol", "name_ko": "p-크레솔", "class": "페놀류", "role": "bioactive", "part": "자실체",
+     "content_text": "냉동 원료 상대 피크 면적 0.2690 ± 0.0126%[11]",
+     "activity_ko": "페놀·가죽 향, 소비자 수용도와 음의 상관[11]", "source": [11]},
+    {"name": "Ergosterol", "name_ko": "에르고스테롤", "class": "스테롤", "role": "marker", "part": "자실체",
+     "content_text": "Tuber 속의 주 스테롤(브라시카스테롤과 함께)[10]; 트러플 분말의 최적 가압 에탄올 추출 분획에 4.5%(시료 종은 초록에 명시되지 않음)[20]",
+     "activity_ko": "스테롤 비율이 유럽·중국 트러플 판별에 쓰임[10]; 추출 분획이 THP-1 세포에서 IL-1β 40%·IL-6 60% 분비 감소[20]", "source": [10, 20]},
+    {"name": "Brassicasterol", "name_ko": "브라시카스테롤", "class": "스테롤", "role": "marker", "part": "자실체",
+     "content_text": "Tuber 속의 주 스테롤 가운데 하나(함량 수치는 초록에 없음)[10]",
+     "activity_ko": "에르고스테롤과의 비율이 종 판별 기준으로 제안됨[10]", "source": [10]},
+    {"name": "beta-Glucan", "name_ko": "β-글루칸((1→3)-β-글루칸)", "class": "다당체", "role": "bioactive", "part": "자실체 분말",
+     "content_text": "트러플 분말의 최적 가압 물 추출 분획에 9.1%(시료 종은 초록에 명시되지 않음)[20]",
+     "activity_ko": "NMR로 (1→3)-β-글루칸 구조 확인[20]", "source": [20]},
+    {"name": "Anandamide", "name_ko": "아난다마이드", "class": "지방산 아마이드(내인성 카나비노이드)", "role": "bioactive", "part": "자실체(성숙 단계 III–VI)",
+     "content_text": "LC-MS로 성숙 단계별 측정(수치는 초록에 없음), 2-아라키도노일글리세롤은 검출한계 미만[19]",
+     "activity_ko": "카나비노이드 대사 효소는 있으나 결합 수용체는 발현되지 않음[19]", "source": [19]},
+    {"name": "Polysaccharide", "name_ko": "자실체 다당체(TMP)", "class": "다당체", "role": "bioactive", "part": "자실체",
+     "content_text": "만노스:포도당 몰비 5.43:10.94(분자량 지수는 초록 추출본에서 확인하지 못함)[22]",
+     "activity_ko": "IPEC-J2 세포를 과산화수소 산화 손상에서 보호, T. aestivum 다당보다 약함[22]", "source": [22]},
+    {"name": "Glutathione", "name_ko": "글루타티온(유도체)", "class": "펩타이드", "role": "bioactive", "part": "자실체",
+     "content_text": "산화 리놀레산과의 글루타티온·아데닌 부가물이 처음 관찰됨(수치는 초록에 없음)[33]",
+     "activity_ko": "신선도 표지로 제안[33]", "source": [33]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Dimethyl sulfide", "compound_ko": "다이메틸설파이드(외 핵심 휘발 성분 10종)",
+     "part": "자실체(호주 서부 맨지멉 지역 7월 수확, 균질화 후 -80 °C 냉동 보관)",
+     "content": "냉동 원료 상대 피크 면적 DMS 0.1439 ± 0.0217%, DMDS 0.0064 ± 0.0004%, 1-옥텐-3-올 3.4789 ± 0.3246%, 아이소아밀알코올 22.3337 ± 0.0704%[11]",
+     "method": "HS-SPME-GC-MS(상대 피크 면적, 황화합물은 단일 이온 크로마토그램)",
+     "conditions": {"instrument": "Agilent 6890 GC + 5973 MS, GERSTEL MPS 자동 시료 주입기", "column": "HP-INNOWax 30 m × 250 µm × 0.25 µm",
+                    "mobile_phase": "헬륨(6.74 psi)", "gradient": "35 °C(5분) → 5 °C/min → 240 °C(3분)", "flow": "1 mL/min(정유량)",
+                    "temp": "주입구 200 °C", "detection": "EI, m/z 40–250 스캔(0.46 s/scan); 정량 이온 메탄싸이올 47, DMS 62, DMDS 94, DMTS 126",
+                    "injection": "SPME 섬유 200 °C에서 2분 탈착, 스플릿리스",
+                    "sample_prep": "냉동 시료 약 1 g(건물 약 0.25 g)을 20 mL 헤드스페이스 바이알에 넣고 53 °C 5분 평형 후 DVB/CAR/PDMS 50/30 µm 섬유(1 cm)를 13.6분 노출; 건조 시료는 같은 수분으로 재수화",
+                    "standard": "NIST 라이브러리(일치도 700 이상)·n-알케인 머무름 지수로 동정; 내부표준 1,2-다이클로로벤젠(10 ppm, 10 µL)은 기기 성능 확인용으로만 사용",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "DMS·DMDS 등 황화합물과 1-옥텐-3-올 등 10종은 검은서양송로의 향을 실제로 이루는 성분으로 알려져 가공품 향 평가의 지표로 쓰였다[11]. 절대 정량이 아닌 상대 백분율이며 검출·정량한계와 회수율은 원문에 없다[11].",
+     "source": [11], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9804947/", "source_kind": "paper"},
+    {"role": "literature", "compound": "1-Octen-3-ol", "compound_ko": "1-옥텐-3-올(외 주요 휘발 성분 12종)",
+     "part": "자실체(이탈리아 중부 마르케 구릉지 채취, 4 °C 포장 저장)",
+     "content": "주요 휘발 성분 12종을 상대 백분율로 보고, 1-옥텐-3-올은 저장 중 감소(표의 수치는 전문 추출본에서 확인하지 못함)[18]",
+     "method": "HS-SPME-GC-MS(이온트랩, 상대 피크 면적)",
+     "conditions": {"instrument": "Varian 3900 GC + Saturn 2100T 이온트랩 MS", "column": "TG-5MS 30 m × 0.25 mm I.D., 0.25 µm",
+                    "mobile_phase": "", "gradient": "40 °C(10분) → 3 °C/min → 180 °C → 15 °C/min → 250 °C", "flow": "",
+                    "temp": "주입구 220 °C, 전달선·이온화실 200 °C", "detection": "풀스캔 m/z 31–250, 1 scan/s",
+                    "injection": "스플릿리스(0.3분), 220 °C에서 15분 열탈착",
+                    "sample_prep": "신선 시료 1.5 g을 분쇄해 10 mL 바이알에 넣고 40 °C 10분 가온 후 DVB/CAR/PDMS 50/30 µm 섬유를 헤드스페이스에 15분 노출",
+                    "standard": "NIST/EPA/NIH 라이브러리와 n-알케인 머무름 지수로 동정, 일부 성분은 순수 표준품으로 확인; 내부표준은 절대 농도 계산에 쓰지 않음",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "1-옥텐-3-올과 5-메틸-3-헵타논은 트러플 고유 성분으로 저장 중 줄고, 에틸 메틸뷰타노에이트는 저장(부패)에 따라 늘어 냉장 저장의 화학 표지로 쓰였다[18]. 검출·정량한계와 회수율은 원문에 없다[18].",
+     "source": [18], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7504210/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Formic acid, 1-methylpropyl ester", "compound_ko": "폼산 sec-뷰틸 에스터(저장 기간 표지)",
+     "part": "자실체(온라인 구입 시료를 육안·관능으로 확인, 잘라서 0.5 g씩 분주)",
+     "content": "보정 없이 상대 피크 세기만 비교(절대 함량 없음); 12일 저장 중 감소, 실온에서 가장 빠름[13]",
+     "method": "HS-SPME-GC-MS(비표적 대사체 분석)",
+     "conditions": {"instrument": "Agilent 7890B GC + 5977A MS, Gerstel MPS 자동 시료 주입기", "column": "VF-624 ms 60 m × 0.32 mm ID, 1.8 µm",
+                    "mobile_phase": "헬륨 5.0", "gradient": "40 °C(15분) → 5 °C/min → 180 °C → 25 °C/min → 220 °C(15분), 총 59.6분",
+                    "flow": "2.22 mL/min(정유량)", "temp": "교반기 40 °C 15분, 섬유 탈착 200 °C",
+                    "detection": "EI 70 eV, m/z 30–300 스캔(6 scans/s)", "injection": "스플릿리스, 200 °C에서 45초 탈착",
+                    "sample_prep": "10 mL 헤드스페이스 바이알에 시료 0.5 g 밀봉, 50/30 µm DVB/CAR/PDMS 섬유를 40 °C에서 5분 흡착",
+                    "standard": "MS-DIAL 디컨볼루션 후 NIST v17 라이브러리·코바츠 머무름 지수로 동정(695종 주석)",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "이 성분은 저장 시간에 따라 꾸준히 줄어 시료의 '나이'를 추정하는 표지로 제안되었고, 2-메틸-1-프로판알·1-(메틸싸이오)프로판은 신선도, 테트라하이드로퓨란은 동결 이력의 표지로 제안되었다[13]. 보정을 하지 않아 검출·정량한계와 회수율은 없다[13].",
+     "source": [13], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11121890/", "source_kind": "paper"},
+    {"role": "literature", "compound": "1-Octen-3-one", "compound_ko": "1-옥텐-3-온·1-옥텐-3-올(T. indicum 판별)",
+     "part": "자실체",
+     "content": "1-옥텐-3-올은 T. indicum이 약 100배 높고, 1-옥텐-3-온은 검은서양송로에서 신호 없음[8]",
+     "method": "HS-SPME-GC-MS 및 GC-O(후각 분석)",
+     "conditions": {},
+     "rationale": "향이 강한 C8 화합물 차이가 커서 아시아산 T. indicum이 섞인 위품을 가려내는 선별 지표로 제안되었다[8]. 전문 확인 못함(초록만 확인)[8].",
+     "source": [8], "url": "https://doi.org/10.1016/j.foodchem.2013.03.027", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "tuber-melanosporum",
+    "name_ko": "검은서양송로",
+    "name_en": "Périgord black truffle",
+    "scientific_name": "Tuber melanosporum Vittad.",
+    "aliases": ["검은서양송로자실체", "Black Truffles", "Périgord black truffle", "페리고르 검은 트러플"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("ok", len(sources), len(compounds), len(assays))

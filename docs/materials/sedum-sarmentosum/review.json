@@ -1,0 +1,106 @@
+{
+ "slug": "sedum-sarmentosum",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 80,
+ "checked_items": 67,
+ "verified": 133,
+ "fixed": 13,
+ "removed": 1,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": " 이 자료는 같은 속 다른 종과 구별하는 방법만 다루며, 다른 종의 성분·용도 자료는 이 문서에 섞지 않았다[14].",
+   "after": "",
+   "why": "[14] 는 이 문장(문서 편집 방침)을 말하지 않음 — 출처 없는 문장 삭제"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "한국 식물 잎을 열분해",
+   "after": "식물 잎을 열분해",
+   "why": "[14520500] 초록은 시료 산지를 밝히지 않음(연구기관만 한국)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "에탄올 추출물을 생쥐 복강에 주사하면 항원 특이 항체와 비장세포 증식이 용량에 따라 억제되었다[37].",
+   "after": "에탄올 추출물을 생쥐 복강에 주사하면 비장세포 증식이 용량에 따라 억제되고 항원 특이 혈청 항체(IgG 등)도 크게 줄었다[37].",
+   "why": "[37] 초록: 용량 의존성은 비장세포 증식에 대해서만 기술, 항체는 markedly reduced"
+  },
+  {
+   "where": "compounds[Taraxerone].part",
+   "before": "전초",
+   "after": "부위 원문 미기재",
+   "why": "출처 초록에 '전초' 등 부위 표기 없음"
+  },
+  {
+   "where": "compounds[Tricin 7-glucoside].part",
+   "before": "전초",
+   "after": "부위 원문 미기재",
+   "why": "출처 초록에 '전초' 등 부위 표기 없음"
+  },
+  {
+   "where": "compounds[Sarmentol H].part",
+   "before": "전초",
+   "after": "부위 원문 미기재",
+   "why": "출처 초록에 '전초' 등 부위 표기 없음"
+  },
+  {
+   "where": "compounds[delta-Amyrone].part",
+   "before": "전초",
+   "after": "부위 원문 미기재",
+   "why": "출처 초록에 '전초' 등 부위 표기 없음"
+  },
+  {
+   "where": "compounds[Total flavonoids].part",
+   "before": "전초(건조 약재)",
+   "after": "건조 약재(부위 원문 미기재)",
+   "why": "[9] 전문은 'dried plant drug'라고만 씀"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "전초(건조 약재, 20메시 분말)",
+   "after": "건조 약재(부위 원문 미기재, 20메시 분말)",
+   "why": "원문(전문/초록)에 '전초' 표기 없음"
+  },
+  {
+   "where": "assays[1].part",
+   "before": "전초(약재 Sedi Herba)",
+   "after": "약재 Sedi Herba(부위 초록 미기재)",
+   "why": "원문(전문/초록)에 '전초' 표기 없음"
+  },
+  {
+   "where": "assays[2].part",
+   "before": "전초(중국 11개 지역 33개 배치)",
+   "after": "약재(부위 초록 미기재; 중국 11개 지역 33개 배치)",
+   "why": "원문(전문/초록)에 '전초' 표기 없음"
+  },
+  {
+   "where": "assays[3].part",
+   "before": "전초",
+   "after": "약재(부위 초록 미기재)",
+   "why": "원문(전문/초록)에 '전초' 표기 없음"
+  },
+  {
+   "where": "assays[0].rationale",
+   "before": "식용 부위(순)가 아니라 건조 약재 전체를 분석한 값이다.",
+   "after": "식용 부위(순)가 아니라 건조 약재를 분석한 값이다.",
+   "why": "원문에 약재 부위(전체) 표기 없음"
+  },
+  {
+   "where": "assays[1].rationale",
+   "before": "돌나물 등 돌나물속 약재 3종의",
+   "after": "돌나물·S. lineare·S. emarginatum 약재 3종의",
+   "why": "[15] 초록의 3종 명시(다른 종 자료와 구분)"
+  }
+ ],
+ "unverifiable_notes": [
+  "PubMed 메타데이터(초록)로 38개 PMID 전부 대조: 제목·연도·PMID·PMC·DOI 일치",
+  "PMC 전문 직접 대조: [5] PMC3866748(식이섬유 23.11 g/100 g 건조중량, 10%/20% 관능), [9] PMC2992136(총플라보노이드 0.64–2.52%, 분석 조건·회수율 93.8%·RSD, 중국약전 2010)",
+  "[2] PMC12920544 의 형태·분포·PacBio HiFi·'first complete organellar references' 문장은 작성자가 PubMed 도구로 받아 둔 _work/mito.json 전문으로 확인(수치는 초록으로 독립 확인)",
+  "[21][22] agris.fao.org 는 네트워크 허용 목록 밖(ENOTFOUND)이라 열지 못함 — WebSearch 2회 결과(서지·초록 요지)로 완주·금산 계통, 상자당 40·60·80개체, 40개체·완주 계통 권고, 줄기 끝쪽 삽수 우수를 확인",
+  "[15][25][26] 은 전문 없이 초록만 확인 — assays 조건 칸은 초록 값만 있음([26] 칼럼 'C18'은 초록 표기 'Zobax SB C'의 아래첨자 누락으로 판단)",
+  "통계(docs/stats)·gi.json 에 돌나물 항목 없음 — production·gi 빈 목록과 '확인하지 못함' 서술 유지",
+  "card.json(돌나물순, 사용가능부위: 순, 돈나물·돋나물, Stonecrop)과 overview 지위 서술 일치. 같은 속 다른 식품원료(S. aizoon·S. kamtschaticum 등)는 감별 연구 맥락에서만 언급되고 성분·수치 혼입 없음"
+ ]
+}

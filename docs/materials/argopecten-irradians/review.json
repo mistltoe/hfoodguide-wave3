@@ -1,0 +1,146 @@
+{
+ "slug": "argopecten-irradians",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 60,
+ "checked_items": 54,
+ "verified": 90,
+ "fixed": 21,
+ "removed": 0,
+ "unverifiable": 3,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "가리비과(Pectinidae) 해만가리비속에 드는",
+   "after": "가리비과(Pectinidae) Argopecten속에 드는",
+   "why": "'해만가리비속'이라는 국문 속명은 [1] 카드에 없음(속은 Argopecten만 기재)"
+  },
+  {
+   "where": "sections.overview",
+   "before": "주로 먹는 부위는 관자(폐각근)로, 단백질이 많고 지방이 적으며 타우린·베타인·유리아미노산 같은 맛 성분이 풍부하다고 보고되었다[2].",
+   "after": "가리비에서 주로 먹는 부위는 관자(폐각근)이며[12], 이 종의 연체부는 단백질이 많고 지방이 적으며 타우린·EPA·DHA 등을 지니고, 유리아미노산·베타인·숙신산 등이 맛을 낸다고 보고되었다[2].",
+   "why": "[2]는 관자가 주 섭취 부위라고 쓰지 않음(연체부 분석). 관자가 주 식용 부위라는 말은 [12] 본문에 있음; 베타인은 맛 성분, 타우린 등은 생리활성 성분으로 원문 구분에 맞춤"
+  },
+  {
+   "where": "sections.biology",
+   "before": "연체동물문 이매패강 가리비과에 속하는 해산 이매패류다[1].",
+   "after": "가리비과(Pectinidae)에 속하는 바다 이매패류다[1, 3].",
+   "why": "[1] 카드에는 문·강 정보가 없고 과(Pectinidae)만 있음; 이매패류·가리비과 소속은 [3]이 기술"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 속에는 페루가리비(A. purpuratus) 등이 있으며, 중국에서는 이 종과 페루가리비의 종간 잡종에서 관자가 주황색인 'QN Orange' 계통을 골라 길렀다[24].",
+   "after": "중국에서는 이 종의 북방 아종과 같은 속의 Argopecten purpuratus(영문 Peruvian scallop)의 종간 잡종에서 관자가 주황색인 'QN Orange' 계통을 골라 길렀다[24].",
+   "why": "'페루가리비'라는 국문명은 출처 없음; [24] 초록대로 잡종 부모가 북방 아종(A. i. irradians)임을 명시"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "지방산 조성과 탄소 동위원소 지문으로 세 종과 산지를 구별할 수 있었다[23].",
+   "after": "세 종 300개 시료의 산지를 지방산 조성과 지방산 δ13C 지문을 함께 써서 100% 정확도로 판별했다[23].",
+   "why": "[23] 초록은 종 구별이 아니라 산지 판별(정확도 92%·85.3%, 병용 100%)을 보고"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "국내에서는 이 종을 흔히 '해만가리비'라 부르며, 국립수산과학원 연구 논문도 이 이름을 썼다[11].",
+   "after": "국내 국립수산과학원 연구 논문은 이 종을 '해만가리비'라고 불렀다[11].",
+   "why": "'흔히 부른다'는 [11]이 뒷받침하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "12월까지 각장 약 56 mm, 전중량 약 26 g으로 자라",
+   "after": "12월에 각장 약 59.7 mm(각고 약 55.8 mm), 전중량 약 26.1 g으로 자라",
+   "why": "[11] 초록: 12월 각장 59.67 mm, 각고 55.80 mm, 전중량 26.06 g (56 mm는 각고 값과 혼동)"
+  },
+  {
+   "where": "sections.history",
+   "before": "그 논문 초록은 이 종이 그때까지 국내에서 남해에서만 양식되어 왔다고 적었다[11].",
+   "after": "이 논문은 이 종을 국내 남해 해역에서 양식되어 온 품종으로 소개했다[11].",
+   "why": "'남해에서만'은 확인되지 않음(같은 연구진의 2015년 동해 남부 시험양식 논문도 있음)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "날것·냉장품 외에 말린 관자로도 많이 가공되며",
+   "after": "말린 관자로도 가공되며",
+   "why": "'많이'·'날것·냉장품'은 [19]가 말하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "관자 근원섬유 단백질로 어묵 같은 겔 제품을 만들기 위해 초음파와 트랜스글루타미네이스를 함께 쓰면",
+   "after": "관자 살로 가리비 수리미 같은 겔 제품을 만들 때 초음파(360 W)와 트랜스글루타미네이스(0.8 g/100 g)를 함께 쓰면",
+   "why": "[21] 초록은 관자 근원섬유 단백질이 아닌 관자 겔(수리미)을 다룸; 조건 수치 보충"
+  },
+  {
+   "where": "sections.processing",
+   "before": "함께 처리해 관자의 품질 유지 효과를 살폈다[22].",
+   "after": "함께 처리하자 4 ℃ 냉장 관자의 저장 수명이 대나무잎 항산화제 단독 처리보다 2일 늘었다[22].",
+   "why": "[22] 초록의 결과값으로 구체화"
+  },
+  {
+   "where": "sections.safety",
+   "before": "관자에 독소가 최대 30%까지 쌓였고",
+   "after": "실험 종료 시 전체 마비성 패독의 최대 30%가 관자에 있었고",
+   "why": "[14] 원문: 'up to 30% of the PSTs were accumulated in the adductor muscle at the end of the experiment'"
+  },
+  {
+   "where": "sections.safety",
+   "before": "마비성·설사성 패독에 더 잘 오염되는 것으로 나타났다[15].",
+   "after": "마비성·설사성 패독에 더 잘 오염되는 것으로 나타났고, 오염 시료는 5–7월에 나왔다[15].",
+   "why": "[15] 초록의 시기 정보 보충"
+  },
+  {
+   "where": "sections.safety",
+   "before": "오카다산에 노출하면 이 종의 면역 기능과 산화 스트레스 지표가 나빠졌다[18].",
+   "after": "오카다산(50–500 nM)에 실험적으로 노출한 이 종에서는 혈림프 면역 지표가 떨어지고 산화 스트레스 지표가 높아졌다[18].",
+   "why": "[18]은 가리비 노출 실험이며 사람 건강 영향이 아님을 분명히 함"
+  },
+  {
+   "where": "compounds[맛 성분 9종]",
+   "before": "생·건 기준 명시 없음",
+   "after": "생시료로 분석했다고 적혀 있으나 단위의 생·건 기준 명시 없음",
+   "why": "[2] 2.3절: 맛 성분은 동결건조하지 않은 시료로 분석"
+  },
+  {
+   "where": "compounds[AMP]",
+   "before": "5.70–18.17 mg/100 g",
+   "after": "+ 보라색 계통 하한 5.60 원문 불일치 주석",
+   "why": "[2] 원문 내부 불일치"
+  },
+  {
+   "where": "compounds[Carotenoids]·assays[1].content",
+   "before": "주황색 관자 개체군이 흰색 개체군보다",
+   "after": "자가수정 가계의 주황색 관자 자손이 흰색 관자 자손보다",
+   "why": "[12] 비교 대상은 자가수정 가계 자손(46 대 146)"
+  },
+  {
+   "where": "sources[14].title",
+   "before": "Potential roles of hydroxybenzoate paralytic shellfish toxins in modulating toxin biokinetics in scallops. J Hazard Mater 2024;468:133896",
+   "after": "Potential roles of hydroxybenzoate paralytic shellfish toxins in modulating toxin biokinetics in scallops. J Hazard Mater 2024;469:133896",
+   "why": "PubMed 38428300: 권 469"
+  },
+  {
+   "where": "sources[15].title",
+   "before": "Contamination of shellfish from Shanghai seafood markets with paralytic shellfish poisoning and diarrhetic shellfish poisoning toxins determined by mouse bioassay and HPLC. Food Addit Contam 2005;22(7)",
+   "after": "Contamination of shellfish from Shanghai seafood markets with paralytic shellfish poisoning and diarrhetic shellfish poisoning toxins determined by mouse bioassay and HPLC. Food Addit Contam 2005;22(7):647–651",
+   "why": "PubMed 16019840 쪽수 보충"
+  },
+  {
+   "where": "sources[21].title",
+   "before": "Independent and combined effects of ultrasound and transglutaminase on the gel properties and in vitro digestion characteristics of bay scallop (Argopecten irradians) adductor muscle. Curr Res Food Sci 2022;5:1254",
+   "after": "Independent and combined effects of ultrasound and transglutaminase on the gel properties and in vitro digestion characteristics of bay scallop (Argopecten irradians) adductor muscle. Curr Res Food Sci 2022;5:1185–1194",
+   "why": "PubMed 35965656: 5권 1185–1194쪽"
+  },
+  {
+   "where": "sources[17].title",
+   "before": "Distribution of As, Cd, and Pb in seafood in Southern China and their oral bioavailability in mice. Environ Sci Pollut Res 2017",
+   "after": "Distribution of As, Cd, and Pb in seafood in Southern China and their oral bioavailability in mice. Environ Sci Pollut Res 2017;24(4):3572–3581",
+   "why": "PubMed 27882492 권호 보충"
+  }
+ ],
+ "unverifiable_notes": [
+  "[11] 한국패류학회지 원문(doi.org·accesson.kr·koreascience)은 이 환경 네트워크 밖이라 열지 못함. WebSearch 결과에 실린 초록 문구(2015년 6월 양양 동산리 시험어장, 12월 각장 59.67 mm·각고 55.80 mm·전중량 26.06 g)로만 대조함 — 문장 3개",
+  "[1] 식품원료 목록은 로컬 card.json으로 대조(이름 2개, status allowed, parts '-', 조건 없음, 학명 2개 아종). 문·강 분류와 국문 속명은 card에 없어 수정",
+  "[2] 맛 성분 분석 조건(칼럼·이동상·검출)은 부록에 있다고만 적혀 있어 assays[0] 조건 칸은 비운 채 유지",
+  "[14]·[15]·[16]·[17]·[19]·[20]·[23]·[25]·[26]·[27]·[28]은 PubMed 초록으로, [2]·[3]·[4]·[5]·[6]·[7]·[12]·[13]은 PMC 전문으로, [8]·[9]·[10]·[18]·[21]·[22]·[24]는 초록으로 대조",
+  "패독·카드뮴 내용은 모두 A. irradians 시료 자료임을 확인; A. purpuratus·A. nucleus 성분·안전 자료는 섞여 있지 않음(QN Orange 잡종 언급은 related_species 에만, 성분 자료 미사용)"
+ ]
+}
