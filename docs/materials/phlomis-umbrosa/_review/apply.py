@@ -1,0 +1,86 @@
+import json, sys
+p = sys.argv[1]
+d = json.load(open(p))
+changes = []
+def sec(k):
+    return next(s for s in d['sections'] if s['key']==k)
+def rep(where, obj, key, old, new, why):
+    assert old in obj[key], (where, old[:40])
+    obj[key] = obj[key].replace(old, new)
+    changes.append({"where": where, "before": old, "after": new, "why": why})
+
+g = sec('genetics')
+rep('sections.genetics', g, 'body',
+ "한속단의 ITS2 서열은 다른 두 종보다 5 bp 짧았다[1].",
+ "한속단과 두 Dipsacus 종 사이에는 서열 길이 차이(ITS2 5 bp, 다른 바코드 구역 6 bp)도 있었으나, 전문 추출본에서 학명이 빠져 있어 어느 쪽이 더 짧은지는 확인하지 못함[1].",
+ "[1] 전문의 해당 문장은 학명이 빠져 '…sequences of ( ) and ( ) being 5 bp and 6 bp shorter' 로만 남아 길이 차이의 방향을 알 수 없음. 작성자는 순서로 한속단이 짧다고 추정함")
+rep('sections.genetics', g, 'body',
+ "2018년 연구는 속단·한속단 판별을 위해 DNA 바코드를 분석하고, 엽록체 유전체 두 개(160,530 bp, 160,371 bp)를 해독했으며, 세 종을 가르는 SCAR 표지를 개발했다[12]. 해독된 두 엽록체 유전체는 계통 분석에서 인동과 안의 단계통군에 들어가 Dipsacus 쪽 자료로 보인다[12].",
+ "2018년 연구는 속단·한속단 판별을 위해 세 종의 DNA 바코드를 분석하고, D. asper와 D. japonicus 두 종의 엽록체 유전체(160,530 bp, 160,371 bp)를 해독했으며, 세 종을 가르는 SCAR 표지(한속단용 PU-M 표지는 256 bp 산물)를 개발했다[12]. 해독된 엽록체 유전체는 두 Dipsacus 종의 것으로, 계통 분석에서 인동과 안의 단계통군을 이루었다[12].",
+ "[12] PMC 전문의 소제목 '2.2. CP Genome Organisation of D. asper and D. japonicus'와 'two Dipsacus CP genomes' 표기로 두 엽록체 유전체가 Dipsacus 종의 것임을 확인함. 추정('보인다')을 확인된 사실로 바꾸고 SCAR 산물 크기를 원문대로 더함")
+
+r = sec('related_species')
+rep('sections.related_species', r, 'body',
+ "한 논문은 Dipsacus의 지표성분으로 로가닌·스웨로사이드·아케비아 사포닌 D를, 한속단의 지표성분으로 산지사이드 메틸에스터를 들었다[20]. 반면 다른 논문은 스웨로사이드를 한속단의 지표성분이라고 적어 출처끼리 다르다[11].",
+ "한 논문은 두 종의 지표성분이 다르다며 로가닌·스웨로사이드·아케비아 사포닌 D와 산지사이드 메틸에스터를 나누어 들었는데, 전문 추출본에서 학명이 빠져 있어 앞의 세 성분을 Dipsacus, 산지사이드 메틸에스터를 한속단에 대응시키는 것은 문장 순서에 따른 해석이다[20]. 같은 논문은 실험에 쓴 한속단 추출물의 산지사이드 메틸에스터 함량을 따로 적었고, 2026년 천식 연구도 이 성분을 한속단의 지표성분으로 정량했다[20, 7]. 다른 논문은 스웨로사이드를 한속단의 지표성분이라고 적어, 스웨로사이드의 귀속은 출처끼리 다르다[11].",
+ "[20] 전문의 지표성분 문장은 '(: loganin, sweroside, and akebia saponin D;: shanzhiside methyl ester)'로 학명이 빠져 있어 종 대응은 순서 추정임. 산지사이드 메틸에스터=한속단은 같은 논문의 'shazhiside methyl ester in the extract of P. umbrosa'와 [7]로 뒷받침되므로 그 부분만 단정함")
+
+b = sec('biology')
+rep('sections.biology', b, 'body',
+ "약재로는 뿌리와 뿌리줄기를 쓰고, 잎에서도 성분 연구가 이루어졌다[17, 18, 19].",
+ "약재로는 말린 뿌리를 쓰고[1], 성분 연구는 뿌리줄기와 잎에서도 이루어졌다[17, 18, 19].",
+ "[17]은 뿌리줄기, [18][19]는 잎의 성분 연구로 약재 사용 부위를 말하지 않음. 약재 부위(뿌리)는 [1]에 있음")
+rep('sections.biology', b, 'body',
+ "한국 식물지에 실린 변종·품종의 세부 형태(키·꽃 색 등)는 1차 자료를 열지 못해 확인하지 못함.",
+ "2018년 연구는 한속단을 키 0.5–1 m, 돌려나기 꽃차례와 통 모양 꽃받침, 흰색·분홍색 꽃을 가진 식물로 기술했다[12]. 한국 식물지에 실린 변종·품종의 세부 형태는 1차 자료를 열지 못해 확인하지 못함.",
+ "[12] PMC 전문에 P. umbrosa 의 키·꽃차례·꽃받침·꽃 색 기술이 있어 '확인하지 못함' 일부를 채움(종명은 '(Lamiaceae)' 표기와 문맥으로 확인)")
+
+c = sec('cultivation')
+rep('sections.cultivation', c, 'body',
+ "연구용 원료의 출처를 보면 국내 생산 뿌리가 쓰인다[7, 14, 20].",
+ "연구용 원료는 국내 업체를 통해 구한 뿌리가 많고, 산지까지 밝힌 경우는 일부다[7, 14, 20].",
+ "[14][20]은 포천·안동 업체가 공급했다고만 적고 산지를 밝히지 않음. 국내 채취가 명시된 것은 [7](제천)뿐")
+
+o = sec('overview')
+rep('sections.overview', o, 'body',
+ "페닐에타노이드 배당체, 노르트리테르페노이드다[2, 6, 7].",
+ "페닐에타노이드 배당체, 노르트리테르페노이드다[2, 6, 7, 17].",
+ "노르트리테르페노이드는 [2][6][7]에 없고 [17]에 있음 — 출처 보강")
+
+s = sec('safety')
+rep('sections.safety', s, 'body',
+ "원인 성분으로 산지사이드 메틸에스터가 지목되었다[28]. 따라서 CYP2B6으로 대사되는 약을 먹는 사람은 주의가 필요할 수 있다[28].",
+ "분석한 성분 4종 가운데 산지사이드 메틸에스터만 억제 작용을 보여 원인 성분으로 지목되었다[28]. 시험관 결과여서 사람에서의 상호작용은 확인되지 않았지만, 논문은 약과 함께 먹을 때의 안전성 판단에 이 결과가 필요하다고 보았다[28].",
+ "[28] 초록은 4개 성분만 시험했고 시험관(재구성 효소계) 결과임. 사람 주의 권고로 읽힐 수 있는 문장을 원문 수준으로 낮춤")
+
+# compounds
+for cpd in d['compounds']:
+    if cpd['name']=="Shanzhiside methyl ester":
+        old=cpd['activity_ko']; new=old.replace("HT042 구성 성분 중 유일","HT042에서 분석한 성분 4종 중 유일")
+        assert new!=old; cpd['activity_ko']=new
+        changes.append({"where":"compounds[Shanzhiside methyl ester].activity_ko","before":old,"after":new,"why":"[28]은 성분 4종만 시험함"})
+        old=cpd['content_text']; new=old.replace("5.82 ± 0.10 μg/mg(건조 중량, HPLC-PDA)","5.82 ± 0.10 μg/mg(추출물 건조 중량 기준, HPLC-PDA)")
+        assert new!=old; cpd['content_text']=new
+        changes.append({"where":"compounds[Shanzhiside methyl ester].content_text","before":"5.82 ± 0.10 μg/mg(건조 중량, HPLC-PDA)","after":"5.82 ± 0.10 μg/mg(추출물 건조 중량 기준, HPLC-PDA)","why":"[7]의 'μg/mg of dry weight'는 EPT(추출물) 기준 — 원료 뿌리 기준으로 오해되지 않게 기준 명시"})
+
+a = d['assays'][0]
+old=a['content']; a['content']="5.82 ± 0.10 μg/mg(추출물 건조 중량 기준)[7]"
+changes.append({"where":"assays[0].content","before":old,"after":a['content'],"why":"[7] 원문은 EPT(추출물) 건조 중량 기준"})
+old=a['conditions']['column']; a['conditions']['column']="YMC-Triart BEH C 계열 칼럼(4.6 mm × 150 mm, 5 μm; 탄소수 아래첨자는 추출본에서 빠짐)"
+changes.append({"where":"assays[0].conditions.column","before":old,"after":a['conditions']['column'],"why":"[7] 원문 표기는 'YMC-Triart BEH C[ ]column' — 'BEH' 누락, 'C18'은 추출본에서 확인 불가"})
+old=a['conditions']['standard']; a['conditions']['standard']="산지사이드 메틸에스터 표준품(Biofron), 1·2·5·10·20·50 μg/mL(원문은 '5개 농도'라 적고 6개를 나열)"
+changes.append({"where":"assays[0].conditions.standard","before":old,"after":a['conditions']['standard'],"why":"원문 자체 불일치를 표시"})
+old=a['rationale']
+a['rationale']="논문이 산지사이드 메틸에스터를 한속단의 지표성분(marker compound)으로 보고 AOAC 지침에 따라 정량법을 검증했다[7]; 다른 논문도 이 성분을 한속단 추출물의 주 이리도이드 배당체로 정량했다(Dipsacus 지표성분과의 종 대응은 추출본에서 학명이 빠져 순서로만 읽힘)[20]"
+changes.append({"where":"assays[0].rationale","before":old,"after":a['rationale'],"why":"[20]의 지표성분 종 대응은 학명이 빠진 문장의 순서 추정 — 약하게 고침. [7]에는 Dipsacus 언급 없음"})
+
+# sources
+src = d['sources']
+s12 = src[11]; assert '30018232' in s12['title']
+old=s12['title']
+s12['title']="Authentication of Herbal Medicines Dipsacus asper and Phlomoides umbrosa Using DNA Barcodes, Chloroplast Genome, and Sequence Characterized Amplified Region (SCAR) Marker. Molecules 2018;23(7):1748, doi:10.3390/molecules23071748 (PMID 30018232, PMC6099718; PMC 전문 확인 — 추출본 제목·본문에서 학명이 빠져 있어 종은 본문 소제목 'D. asper, D. japonicus, and P. umbrosa'로 확인)"
+changes.append({"where":"sources[12].title","before":old,"after":s12['title'],"why":"PMC 전문을 열어 확인함. 제목의 두 종은 초록의 'Sok-Dan and Han-Sok-Dan' 및 본문 소제목으로 확인(정확한 제목 표기의 학명 형태는 추출본에서 확인 불가)"})
+
+json.dump(d, open(p,'w'), ensure_ascii=False, indent=1)
+json.dump(changes, open(p.replace('dossier.json','_review/changes.json'),'w'), ensure_ascii=False, indent=1)
+print(len(changes))

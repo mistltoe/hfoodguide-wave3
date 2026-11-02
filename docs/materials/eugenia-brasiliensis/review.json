@@ -1,0 +1,99 @@
+{
+ "slug": "eugenia-brasiliensis",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 72,
+ "checked_items": 69,
+ "verified": 127,
+ "fixed": 12,
+ "removed": 1,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "그루미샤마(grumixama)라고 부른다[12, 29].",
+   "after": "그루미샤마(grumixama)라고 부른다[12, 13].",
+   "why": "[29] 초록에는 grumixama 명칭이 없음; [13] 초록이 'grumixama' 명칭을 씀"
+  },
+  {
+   "where": "sections.biology",
+   "before": "에우게니아속 식물은 마주나는 홑잎에 투명한 기름샘이 있고 장과 모양의 살진 열매를 맺는다[29].",
+   "after": "에우게니아속을 포함한 브라질 도금양과 식물은 대체로 마주나는 홑잎에 투명한 기름샘이 있고 장과 모양의 살진 열매를 맺는다[29].",
+   "why": "[29] 초록은 이 형질을 도금양과 브라질 종 전반의 특징으로 씀(속 고유 형질 아님)"
+  },
+  {
+   "where": "sections.biology",
+   "before": "과육 향기 성분은 세스퀴테르펜이 85.7%를 차지했다[8].",
+   "after": "과육에서 확인된 휘발성 성분 14종 가운데 85.7%(성분 수 기준, DVB/CAR/PDMS 섬유)가 세스퀴테르펜이었다[8].",
+   "why": "[8] 전문: 85.7%는 확인된 성분 수(14종 중 12종)의 비율이지 함량 비율이 아님"
+  },
+  {
+   "where": "sections.processing",
+   "before": "연구진은 50 °C 이하로 다루고 자외선을 피하라고 권했다[2].",
+   "after": "연구진은 50 °C 미만에서 다루고 자외선을 피하라고 권했다[2].",
+   "why": "[2] 결론 원문 'lower than 50 °C'"
+  },
+  {
+   "where": "sections.processing",
+   "before": "4 °C에서 48시간 두면 안토시아닌이 40.8% 줄었다[31].",
+   "after": "세 과일 우림물을 4 °C에서 48시간 두자 안토시아닌 손실이 40.8%에 이르렀다(이 종만의 값은 초록에서 구분되지 않음)[31].",
+   "why": "[31] 초록의 40.8%는 그루미샤마·cereja-do-Rio-Grande·araçaúna 우림물 전체에 대한 값으로, 이 종 단독 값으로 쓸 수 없음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "14일째 지질 산화 지표(TBARS)가 약 0.3으로 대조군(0.5 초과)보다 낮았다[21].",
+   "after": "14일째 지질 산화 지표(TBARS)가 약 0.3 mg MDA/kg으로 대조군(0.5 mg MDA/kg 초과)보다 낮았다[21].",
+   "why": "[21] 초록 단위(mg MDA/kg) 누락 보완"
+  },
+  {
+   "where": "sections.processing",
+   "before": "요구르트에 과육을 넣으면 소화 모사 뒤 유산균 생존율이 높았다[32].",
+   "after": "요구르트에 과육을 넣으면 소화 모사 뒤 프로바이오틱 균(L. acidophilus·B. animalis) 생존율이 더 높았다[32].",
+   "why": "[32] 초록은 L. acidophilus·B. animalis 두 균주를 말함(비피도박테리움은 유산균으로 묶기 부정확)"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "상파울루·미나스제라이스주 세 수집원의 73개체를 분석한 연구는",
+   "after": "상파울루주 세 수집원(나티비다지다세하·피라시카바·파라이부나)의 73개체를 분석한 연구는",
+   "why": "[6] 전문: 이 종의 수집원 3곳은 모두 상파울루주; 미나스제라이스주는 다른 두 종(uvaia·Rio Grande cherry) 수집지"
+  },
+  {
+   "where": "sections.safety",
+   "before": "잎 추출물은 생쥐에서 항우울제와 함께 줄 때 효과가 더해졌으므로, 잎 제품을 약과 함께 먹는 것은 신중해야 하나 사람 자료는 확인하지 못함[35].",
+   "after": "수알코올 추출물(초록에 부위 명시 없음)은 생쥐 꼬리 매달기 시험에서 효과 없는 낮은 용량의 항우울제(플루옥세틴·이미프라민·부프로피온)와 함께 줄 때 항우울 유사 효과를 냈다[35]. 사람에서의 약물 상호작용 자료는 확인하지 못함.",
+   "why": "[35] 초록은 추출 부위를 밝히지 않음; 동물 결과에서 사람 복용 권고를 끌어낸 과장 제거"
+  },
+  {
+   "where": "compounds.Pelargonidin 3-glucoside.content_text",
+   "before": "38.89 ± 3.01 µg/g(생중량), 상대 함량 0.21%[5]",
+   "after": "38.89 ± 3.01 µg/g(생중량)[5]",
+   "why": "[5] 표 1의 펠라르고니딘 행은 네 과일 중 세 값만 있어 0.21%가 이 종의 값인지 확정할 수 없음(피탕가 등 다른 과일 값 섞임 위험)"
+  },
+  {
+   "where": "compounds.Catechin.activity_ko",
+   "before": "잎에서 분리되어 생쥐 귀 부종·흉막염 모델에서 항염 효과[26]",
+   "after": "잎에서 분리되어 생쥐 귀 부종 모델(국소 적용)에서 항염 효과[26]",
+   "why": "[26] 초록은 크로톤유·아라키돈산 귀 부종 모델만 다룸(흉막염 모델 없음)"
+  },
+  {
+   "where": "aliases",
+   "before": "[\"브라질리언체리열매\", \"그루미샤마\", \"Grumixama\", \"Brazilian cherry\", \"Eugenia dombeyi\", \"grumixameira\", \"cereja-brasileira\"]",
+   "after": "[\"브라질리언체리열매\", \"그루미샤마\", \"Grumixama\", \"Eugenia dombeyi\", \"grumixameira\", \"cereja-brasileira\"]",
+   "why": "식약처 목록에서 'Brazilian cherry'는 Surinam-cherry열매(Eugenia uniflora)의 영어명이므로 별명 검색에서 피탕가와 섞일 위험; 이 종의 영어 통용명 설명은 related_species 본문에 유지"
+  },
+  {
+   "where": "name_en",
+   "before": "Grumixama (Brazilian cherry)",
+   "after": "Grumixama",
+   "why": "같은 이유('Brazilian cherry'는 목록상 E. uniflora 영어명)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[4] 전문 추출본에서 화합물 번호가 빠져 12.2%·76.5% 피크가 어느 안토시아닌인지 확정 못함(assays[3] 에 그대로 '확인 못함' 표기 유지). [2] 는 이를 델피니딘-3-글루코사이드·시아니딘-3-갈락토사이드로 인용함.",
+  "[9]~[35] 중 PMC 전문이 없는 논문은 PubMed 초록으로만 대조함.",
+  "[35] 추출 부위(잎 여부)는 초록에 없어 '부위 명시 없음'으로 바꿈.",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 에서 확인: 브라질리언체리열매(Eugenia brasiliensis / Eugenia dombeyi), 사용가능, '사용가능부위 : 열매' — card.json·overview·safety 와 일치. Surinam-cherry열매(E. uniflora, 영어명 Brazilian cherry, Cayenne cherry)·아라자열매(E. stipitata)·Jaboticabas·까무까무 행도 본문 서술과 일치.",
+  "고시 제2026-43호 원문·요건 파일에 Eugenia 원재료 없음 확인(markers·official assay 빈 상태가 맞음).",
+  "[5] 는 블랙 피탕가(E. uniflora var. rubra)와 함께 분석한 논문이라 표의 열을 하나씩 대조함: 시아니딘-3-글루코사이드 251.10, 델피니딘-3-글루코사이드 52.83, 펠라르고니딘-3-글루코사이드 38.89 µg/g, 상대 함량 97.29%, 일반성분 표(수분 88.11 등) 모두 그루미샤마 열 값임."
+ ]
+}

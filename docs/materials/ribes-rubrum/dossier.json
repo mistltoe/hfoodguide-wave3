@@ -1,0 +1,566 @@
+{
+ "slug": "ribes-rubrum",
+ "name_ko": "루브룸까치밥",
+ "name_en": "Red currant",
+ "scientific_name": "Ribes rubrum L.",
+ "aliases": [
+  "레드커런트",
+  "붉은커런트",
+  "커런트열매",
+  "루브룸까치밥열매",
+  "냉동루브룸까치밥열매",
+  "루브룸까치밥농축",
+  "루브룸까치밥추출액",
+  "Red currant",
+  "Redcurrant",
+  "Ribes sativum Syme."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "루브룸까치밥(Ribes rubrum L.)은 까치밥나무과(Grossulariaceae) 까치밥나무속의 낙엽 관목으로, 영어로 레드커런트(red currant)라 부르며 식약처 목록에는 학명 이명으로 Ribes sativum Syme.와 Ribes triste Pall.도 함께 적혀 있다[1, 6]. 다만 Ribes triste Pall.은 같은 목록에 '눈까치밥나무열매'라는 별도 원료로도 올라 있어, 이 이름의 자료를 루브룸까치밥 자료로 옮겨 쓰면 안 된다[1]. 식약처 「식품원료 목록」에는 루브룸까치밥열매·냉동루브룸까치밥열매·루브룸까치밥농축·루브룸까치밥추출액·커런트열매 다섯 행이 올라 있고, 모두 '식품원료(A코드)'이며 사용 조건은 '사용가능'이다[1]. 다섯 행 모두 사용 조건 기준이 '사용가능부위 : 열매'여서 식품에는 열매만 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매는 신맛이 강한 붉은 장과로, 생과로 먹기도 하지만 대부분 잼·젤리·주스·시럽·퓌레 같은 가공품으로 소비된다[2, 22]. 붉은 색은 시아니딘 배당체 안토시아닌에서 오며, 흰 열매 품종은 안토시아닌이 거의 없다[9, 10]. 열매에는 비타민 C(생과 100 g당 수십 mg), 퀘르세틴 등 플라보놀, 독특한 떫은맛 성분(인돌 배당체·니트릴 배당체)이 들어 있다[8, 11]. 효능 근거는 시험관·쥐 실험 수준이며 사람 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "루브룸까치밥은 온대 과수 가운데 재배 역사가 짧은 편으로, 재배된 지 400–500년쯤 된 작물로 정리된다[5]. 서유럽 문헌에 처음 나타난 것은 15세기 초이고, 16세기에는 이탈리아·프랑스·영국에서 정원 작물로 널리 길렀다[5]. 유럽에서 커런트의 대량 재배가 시작된 때는 20세기 초로 기록된다[22].\n\n오늘날의 붉은커런트 품종은 유럽산 R. rubrum 한 종에서만 나온 것이 아니라, 정원커런트·바위붉은커런트·다화커런트와 극동 지역 종 등 여러 종의 교잡으로 만들어졌다[5]. 러시아의 육종 기관들은 겨울 추위와 가뭄을 견디는 품종을 만들기 위해 'Jonkheer van Tets', 'Chulkovskaya' 같은 품종과 야생종을 교배해 왔다[7]. 흰 열매 품종(화이트커런트)은 따로 다루어지기도 하지만, 엽록체 유전체가 붉은 품종과 100% 같아 색 변이로 보는 견해를 일부 뒷받침한다[6]. 국내 도입·재배 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "루브룸까치밥이 속한 까치밥나무속은 까치밥나무과의 유일한 속으로 약 150–200종이 있으며, 유라시아·북미·북서아프리카·안데스의 온대 지역에 자라는 낙엽성 다년생 관목이다[6]. 붉은커런트는 이 속의 Ribesia 절(section)에 속하며, 같은 절에는 유럽의 정원커런트·바위붉은커런트·다화커런트 등과 동시베리아·극동의 여러 종이 들어 있다[5]. 꽃은 송이(총상꽃차례)로 달리며, 남·남동유럽 산지에 자라는 다화커런트는 한 송이에 꽃이 50개까지 달린다[5].\n\n열매 색은 품종에 따라 빨강·분홍·흰색으로 나뉘며, 분홍 품종은 열매 껍질에만 약간 색이 있고 빨강 품종은 껍질과 과육 모두 진하게 착색된다[5]. 흰 품종 'Zitavia'는 안토시아닌 합성 효소(ANS) 발현이 매우 낮고 FHT·DFR 활성이 검출되지 않아 안토시아닌이 없으며, 당/산 비율은 가장 높다[9]. 익은 붉은 열매의 안토시아닌은 시아니딘-3-O-루티노사이드, 시아니딘-3-O-삼부비오사이드, 시아니딘-3-O-글루코사이드, 시아니딘-3-O-(2″-O-자일로실)루티노사이드가 중심이다[10]. 붉은 품종 'Jonkheer van Tets'의 안토시아닌은 수확 전 마지막 3주 동안 조금씩 늘어 최대 890 mg/kg 생중량에 이르렀다[9]. 붉은커런트와 블랙커런트를 함께 분석한 마케도니아 연구에서는 커런트류에서 안토시아닌이 총페놀의 85% 넘게 차지했고 하이드록시신남산 유도체는 1–6%였다[12]. 'Red Lake' 품종도 안토시아닌과 프로안토시아니딘이 HPLC-ESI-MS/MS로 분석되었다[13]. 열매에는 포도당·과당이 주된 당이고 사과산·구연산 등 유기산이 들어 있다[4]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 구별",
+   "body": "같은 까치밥나무속에서 열매를 먹는 대표 작물은 블랙커런트(R. nigrum), 붉은·흰커런트(R. rubrum), 구스베리(R. uva-crispa)이다[6]. 식약처 「식품원료 목록」에서도 이들은 서로 다른 원료로 따로 올라 있으므로, 루브룸까치밥 원료에 블랙커런트 자료를 섞어 쓰면 안 된다[1]. 엽록체 유전체 분석에서 붉은커런트와 흰커런트는 100% 같은 서열을 보였고, 구스베리 아속이 커런트 아속 안에 들어가 형태에 따른 두 아속 구분과 맞지 않는 결과가 나왔다[6].\n\n성분으로 보면 블랙커런트의 핵심 안토시아닌에는 델피니딘-3-O-루티노사이드 등 델피니딘·펠라르고니딘·페투니딘 배당체가 함께 들어 있지만, 붉은커런트의 핵심 안토시아닌은 시아니딘 배당체이다[10]. 중국 동북부 야생 장과 비교에서도 붉은 장과(R. rubrum 포함)는 검은 장과보다 총안토시아닌과 항산화능이 훨씬 낮았다[14]. 붉은커런트 육종에는 바위붉은커런트·다화커런트·극동산 종 등 Ribesia 절의 여러 종이 쓰였고, 현대 분류 데이터베이스(POWO·WFO)는 정원커런트를 R. rubrum 의 이명으로 보는 등 이 가운데 일부를 다른 종의 이명이나 아종으로 처리한다[5]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배",
+   "body": "붉은커런트는 폴란드·독일·네덜란드·벨기에·프랑스·헝가리가 주요 생산국으로 꼽히고, 흰커런트는 독일과 슬로바키아에서 많이 생산된다[5]. 커런트류는 유럽·아시아·남미·호주·뉴질랜드의 온대 지역 30여 개국에서 재배된다[21]. 폴란드 연구는 붉은커런트가 동유럽(러시아·우크라이나)과 중부유럽(폴란드·독일·프랑스)에서 상업 농원과 텃밭 모두에 널리 심기며, 기계 수확이 가능하다고 정리했다[4].\n\n러시아 중부(북위 약 53°)의 육종 시험에서 우수 계통의 수량은 해마다 달라 2016년 22.38 t/ha, 2018년 19.60 t/ha까지 기록되었고, 붉은커런트의 씨방(어린 열매) 떨어짐은 잠재 수량의 30–40%에 이를 수 있다고 정리되었다[7]. 커런트류는 20종 넘는 바이러스와 4종의 파이토플라스마에 감염될 수 있어, 건전한 번식 재료를 쓰는 것이 방제의 기본이다[21]. 폴란드 남동부 유기농장 연구에서는 7월 상순(적정 수확 7일 전)과 7월 중순(적정 수확기)에 수확했으며, 수확 7일 전 열매는 적정 수확기보다 비타민 C가 적었다[4]. 국내 재배 면적·생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "작은 장과라 저장 기간이 짧아 대부분 잼·젤리·주스·시럽·퓌레·음료 등 가공품으로 소비되며, 기능성 식품과 식이보충제 원료로도 쓰일 수 있다[22]. 착즙 뒤 남는 박(pomace)은 원료의 최대 80%에 이르는 부산물로, 붉은커런트 박에서도 펙틴을 추출하는 연구가 있다[25]. 사과주스에 붉은커런트 박을 넣은 스무디는 기본 주스보다 폴리페놀이 많았고, 블랙커런트 박 제품보다 페놀산·플라반-3-올이 더 많았다[23].\n\n건조 방법으로는 진공 건조가 연구되었고, 70.2 °C·39 mbar·8시간이 최적 조건으로 제시되었으며 동결건조품과 비슷한 품질을 보였다[28]. 세르비아의 11개 품종을 –18 °C에 장기 저장했을 때 열매의 비타민 C는 최대 49% 줄었고, 총안토시아닌은 열매와 주스에서 각각 최대 85%·50% 늘었다[8]. 10 ppm 오존 가스로 15–30분 처리한 열매는 저장 중 세균·곰팡이 수가 줄었다[4]. 식약처 목록의 농축·추출액·냉동 열매 원료도 모두 열매를 원료로 한다[1]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 육종",
+   "body": "붉은커런트와 흰커런트의 엽록체 유전체(약 157 kb)가 처음 완전 해독되었고, 블랙커런트·구스베리를 포함한 네 분류군의 엽록체 유전체는 157,450–157,802 bp 길이에 131개 유전자를 공유했다[6]. 붉은커런트 75개 유전자형을 GBS(genotyping-by-sequencing)로 7.5천 개 넘는 위치에서 분석한 연구는 집단 구조를 여섯 무리(K = 6)로 나누었고, 흰·분홍 품종이 한데 모여 공통 기원을 시사했다[5].\n\n열매 색은 안토시아닌 합성 유전자 발현과 연결된다[9, 10, 24]. 붉은 품종에서는 CHS·F3'H 유전자 발현 증가가 붉은 색을 짙게 했고[10], dfr 유전자는 착색 75% 무렵까지 발현이 늘다가 급히 줄었다[24]. 흰 품종의 착색 결여는 ANS 유전자 발현이 낮은 것과 관련된다[9]. 러시아에서는 'Jonkheer van Tets'와 'Chulkovskaya'를 바탕으로 가뭄·고온·겨울 추위에 강한 계통을 골랐고, 그 가운데 'Chulkovskaya' 계열 44-5-2 계통이 'Podarok Pobediteliam' 품종으로 러시아 국가 품종시험·보호위원회에 넘겨졌다[7]. 핵 유전체 전장 해독 정보는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "루브룸까치밥 열매는 식약처 「식품원료 목록」에서 열매에 한해 '사용가능' 원료이다[1]. 고시 제2026-43호에서 이 종을 원재료로 하는 건강기능식품 고시형 원료는 찾지 못했으므로(블랙커런트 종자만 감마리놀렌산 함유 유지 원재료로 올라 있음) 고시 섭취 시 주의사항은 확인하지 못함. 국내 공공기관의 알레르기·잔류농약·독성 경고 정보는 확인하지 못함.\n\n드물지만 붉은커런트 알레르기가 보고되어 있다[17, 18, 19]. 목초 꽃가루 알레르기가 있는 환자에서 붉은커런트 특이 IgE 5.7 kU/L와 37·26 kDa 단백 띠가 확인되었고, 복숭아·라즈베리와 교차반응이 있었다[17]. 지질전달단백질(Pru p 3)에 대한 IgE 매개 과민 사례와 아나필락시스 사례 보고도 있다[18, 19]. 2013년 이탈리아 A형 간염 유행과 관련해 폴란드산 비포장 냉동 붉은커런트에서 유행주와 계통적으로 매우 가까운 바이러스가 검출되어, 냉동 붉은커런트가 이 유행의 주요 전파 매개체였다는 근거가 더해졌다[20]. 동물 실험에서는 당뇨 쥐에 열매 에탄올 추출물을 14일간 100·500 mg/kg 투여했을 때 염증·혈소판 지표가 개선되었으나, 사람에서의 효과와 안전 용량은 확인하지 못함[15]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Cyanidin 3-glucoside",
+   "name_ko": "시아니딘-3-글루코사이드",
+   "role": "marker",
+   "part": "열매(착즙 주스·박 추출물 동결건조품)",
+   "content_text": "'Redpoll' 품종 동결건조 주스 155.38 ± 7.34 mg/100 g, 박 추출물 34.3 ± 4.55 mg/100 g(HPLC-DAD)[2]",
+   "activity_ko": "이 연구에서 주 안토시아닌으로 확인; 적출한 쥐 회장(시험관 조건)의 자발 수축을 농도 의존적으로 억제(EC50 7.17 mg/mL)[2]",
+   "source": [
+    2
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Cyanidin 3-rutinoside",
+   "name_ko": "시아니딘-3-루티노사이드(케라시아닌)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "동결건조 주스 28.34 ± 3.51 mg/100 g, 박 추출물 8.4 ± 0.78 mg/100 g[2]; 붉은커런트 핵심 안토시아닌의 하나[10]",
+   "activity_ko": "붉은 열매 색소 성분[10]",
+   "source": [
+    2,
+    10
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Cyanidin 3-sambubioside",
+   "name_ko": "시아니딘-3-삼부비오사이드",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "붉은커런트의 핵심 안토시아닌으로 동정(함량은 초록에 없음)[10]",
+   "activity_ko": "붉은 열매 색소 성분[10]",
+   "source": [
+    10
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Cyanidin 3-xylosylrutinoside",
+   "name_ko": "시아니딘-3-O-(2″-O-자일로실)루티노사이드",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "붉은커런트의 핵심 안토시아닌으로 동정(함량은 초록에 없음)[10]",
+   "activity_ko": "붉은 열매 색소 성분[10]",
+   "source": [
+    10
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "role": "marker",
+   "part": "열매(건조 분말; 산 가수분해 뒤 아글리콘)",
+   "content_text": "루마니아·러시아산 건조 열매에서 HPLC-UV로 정량한 9개 성분 가운데 가장 많은 성분(수치는 표, 본문 확인 못함)[3]; 'Redpoll' 박 추출물이 주스보다 많음[2]; 터키산 6.30 µg/g d.w.(다른 연구 인용)[3]",
+   "activity_ko": "평활근 이완 작용이 알려진 플라보놀; 열매 추출물의 진경 작용에 기여할 것으로 추정[2]",
+   "source": [
+    3,
+    2
+   ],
+   "class": "플라보놀"
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "role": "bioactive",
+   "part": "열매(산 가수분해 뒤 아글리콘)",
+   "content_text": "'Redpoll' 박 추출물에서 주스보다 많음(수치는 표, 본문 확인 못함)[2]",
+   "activity_ko": "항염 작용이 알려진 플라보놀[2]",
+   "source": [
+    2
+   ],
+   "class": "플라보놀"
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "터키산 붉은커런트 99.30 µg/g d.w.(다른 연구 인용)[3]",
+   "activity_ko": "퀘르세틴 배당체; 항산화[3]",
+   "source": [
+    3
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "(+)-카테킨",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "터키산 붉은커런트 132.75 µg/g d.w.(다른 연구 인용)[3]",
+   "activity_ko": "플라반-3-올 단량체; 박 스무디에서 플라반-3-올이 블랙커런트 박 제품보다 많음[23]",
+   "source": [
+    3,
+    23
+   ],
+   "class": "플라반-3-올"
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "비타민 C(아스코르브산)",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "세르비아 11개 품종 생과 50.5–71.6 mg/100 g[8]; 폴란드 유기재배 3품종(적정 수확 7일 전) 31.2–44.1 mg·100 g⁻¹[4]; 'Redpoll' 동결건조 주스 230 mg/100 g[2]",
+   "activity_ko": "항산화 비타민; 러시아 과일 비교에서 블랙커런트·비타민나무·하스캅·딸기 다음 순위[27]",
+   "source": [
+    8,
+    4,
+    2,
+    27
+   ],
+   "class": "비타민"
+  },
+  {
+   "name": "N-beta-D-glucopyranosyl indole-3-acetic acid",
+   "name_ko": "3-카복시메틸-인돌-1-N-β-D-글루코피라노사이드",
+   "role": "bioactive",
+   "part": "열매 주스",
+   "content_text": "주스의 핵심 떫은맛 성분; 떫은맛 역치 0.3 nmol/L(함량은 초록에 없음)[11]",
+   "activity_ko": "폴리페놀이 아닌 질소 함유 떫은맛 성분[11]; 붉은·흰커런트 씨에도 카복시메틸인돌 배당체가 주로 있음[26]",
+   "source": [
+    11,
+    26
+   ],
+   "class": "인돌 배당체"
+  },
+  {
+   "name": "2-(4-Hydroxybenzoyloxymethyl)-4-beta-D-glucopyranosyloxy-2(E)-butenenitrile",
+   "name_ko": "4-하이드록시벤조일옥시메틸 뷰텐나이트릴 글루코사이드",
+   "role": "bioactive",
+   "part": "열매 주스",
+   "content_text": "주스에서 새로 구조가 밝혀진 떫은맛 성분(함량은 초록에 없음)[11]",
+   "activity_ko": "붉은커런트 주스의 떫은맛에 기여[11]",
+   "source": [
+    11
+   ],
+   "class": "니트릴 배당체"
+  },
+  {
+   "name": "Rubrumin",
+   "name_ko": "루브루민",
+   "role": "bioactive",
+   "part": "열매 주스",
+   "content_text": "(3E,5E)-6-[3-하이드록시-4-(O-β-D-글루코피라노실)페닐]-3,5-헥사디엔-2-온으로 처음 명명(함량은 초록에 없음)[11]",
+   "activity_ko": "주스의 떫은맛 성분[11]",
+   "source": [
+    11
+   ],
+   "class": "페닐헥사디에논 배당체"
+  },
+  {
+   "name": "Fructose",
+   "name_ko": "과당",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "세르비아 11개 품종 생과 전화당(포도당+과당 합계) 6.0–9.0%[8]; 주된 당은 포도당·과당[4]",
+   "activity_ko": "단맛 성분; 흰 품종은 당/산 비율이 가장 높음[9]",
+   "source": [
+    8,
+    4,
+    9
+   ],
+   "class": "당류"
+  },
+  {
+   "name": "gamma-Linolenic acid",
+   "name_ko": "감마리놀렌산",
+   "role": "bioactive",
+   "part": "'ribes rubrum oil'(추출 부위는 초록에 명시 없음)",
+   "content_text": "기름 성분의 23.10%(α-피넨 25.9%, 리날룰 옥사이드 10.5%와 함께 주성분)[16]",
+   "activity_ko": "인도메타신 위궤양 쥐에서 기름 10·15 mL/kg 투여가 염증 지표를 낮춤(동물 실험; 기름의 원료 부위·조성 근거는 초록에 없음)[16]",
+   "source": [
+    16
+   ],
+   "class": "지방산"
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "시아니딘-3-글루코사이드(시아니딘-3-루티노사이드 동시 정량)",
+   "part": "열매('Redpoll' 품종, 세르비아 2020년 수확; 착즙 주스와 박 추출물의 동결건조품)",
+   "content": "동결건조 주스 155.38 ± 7.34 mg/100 g, 박 추출물 34.3 ± 4.55 mg/100 g; 시아니딘-3-루티노사이드 28.34 ± 3.51·8.4 ± 0.78 mg/100 g[2]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200(DAD, 자동시료주입기)",
+    "column": "Merck Purospher STAR RP-18e, 150 × 4.6 mm, 5 μm",
+    "mobile_phase": "A: 0.1% 트라이플루오로아세트산, B: 아세토니트릴",
+    "gradient": "등용매(isocratic; A:B 비율은 본문에 없음)",
+    "flow": "1 mL/min",
+    "temp": "25 °C",
+    "detection": "520 nm",
+    "injection": "20 µL",
+    "sample_prep": "동결건조품 10 mg을 황산으로 pH 2.5로 맞춘 탈이온수 1 mL에 녹여 초음파 10분, 4000 rpm 원심분리, 0.45 µm 막 여과",
+    "standard": "시아니딘-3-글루코사이드·시아니딘-3-루티노사이드",
+    "linearity": "표준용액 5농도(0.2·1·5·20·50 µg/mL) 각 3회 주입으로 검량선 작성",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 품종 주스의 주 안토시아닌이며 진경 작용 시험에 표준물질로도 쓰임; 전문 확인, 검출·정량한계와 회수율은 본문에 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.3390/plants14020234",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercetin",
+   "compound_ko": "퀘르세틴(캠페롤 동시 정량, 산 가수분해 뒤 아글리콘)",
+   "part": "열매('Redpoll' 동결건조 주스·박 추출물)",
+   "content": "박 추출물이 주스보다 퀘르세틴·캠페롤이 많음(개별 수치는 표, 본문 확인 못함)[2]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200(DAD)",
+    "column": "안토시아닌 분석과 같은 크로마토그래피 시스템(칼럼을 따로 적지 않음)",
+    "mobile_phase": "A: 0.1% 트라이플루오로아세트산, B: 아세토니트릴",
+    "gradient": "A 85%(0–20분) → 65%(20–24분) → 50%(24–29분) → 10%(31분까지) → 15%(다음 2분)",
+    "flow": "0.7 mL/min",
+    "temp": "30 °C",
+    "detection": "360 nm",
+    "injection": "10 µL",
+    "sample_prep": "추출물 10 mg을 메탄올–염산(1:1) 1 mL에 초음파 10분 용해 뒤 90 °C 수욕 15분 가수분해, 4 °C·10,000 rpm 20분 원심분리 후 여과",
+    "standard": "퀘르세틴·캠페롤",
+    "linearity": "표준물질 검량선(농도 범위는 본문에 없음)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "진경 작용 물질로 알려진 플라보놀이어서 주스·박 추출물 비교의 지표로 쓰임; 전문 확인, 검출한계·회수율은 본문에 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.3390/plants14020234",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ascorbic acid",
+   "compound_ko": "아스코르브산(환원 뒤 데하이드로아스코르브산 포함 총량)",
+   "part": "열매('Redpoll' 동결건조 주스·박 추출물)",
+   "content": "동결건조 주스 230 mg/100 g(박 추출물보다 많음)[2]",
+   "method": "HPLC-DAD(UV 244 nm)",
+   "conditions": {
+    "instrument": "Agilent 1200(DAD) — 안토시아닌 분석과 같은 시스템",
+    "column": "",
+    "mobile_phase": "40 mM 인산 완충액–메탄올(92:8)",
+    "gradient": "등용매",
+    "flow": "0.8 mL/min",
+    "temp": "실온",
+    "detection": "244 nm",
+    "injection": "20 µL",
+    "sample_prep": "동결건조품 10 mg을 4.5% 메타인산 1 mL에 초음파 10분 용해, 10,000 rpm 15분 원심분리; 데하이드로아스코르브산은 50 μM 1,4-다이싸이오트레이톨 1 mL로 10분 환원 후 여과",
+    "standard": "아스코르브산",
+    "linearity": "1·10·50·100·150·200 μg/mL 각 3회 주입으로 검량선",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "커런트류의 대표 영양 성분이며 저장·가공에 따라 크게 변해 품질 지표로 쓰임; 전문 확인, 칼럼 규격·검출한계·회수율은 본문에 없음[2, 8].",
+   "source": [
+    2,
+    8
+   ],
+   "url": "https://doi.org/10.3390/plants14020234",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercetin",
+   "compound_ko": "퀘르세틴(갈산·카테킨·시링산·신남산·레스베라트롤·카페산·페룰산·루틴 동시 정량)",
+   "part": "열매(루마니아 시비우·러시아 상트페테르부르크 지역 2019년 수확, 40 °C 통풍 건조 분말)",
+   "content": "붉은커런트에서 가장 많은 성분이 퀘르세틴(두 지역 모두; 개별 수치는 표, 본문 확인 못함)[3]",
+   "method": "HPLC-UV(PDA)",
+   "conditions": {
+    "instrument": "Shimadzu SCL-40 HPLC(탈기기, 4원 펌프, 광다이오드 배열 검출기, 칼럼 오븐, 자동시료주입기)",
+    "column": "Nucleosil C18, 250 × 4.6 mm, 5 µm",
+    "mobile_phase": "A: 정제수, B: 메탄올, C: 정제수–아세트산(96:4, V/V)",
+    "gradient": "0분 B 15%·C 85% → 15분 A 75%·B 25% → 20분 A 15%·B 85% → 40분 A 40%·B 60%, 이후 칼럼 평형",
+    "flow": "0–15분 0.5 mL/min, 15–40분 0.8 mL/min",
+    "temp": "25 °C",
+    "detection": "360 nm(루틴·퀘르세틴); 280 nm(갈산·카테킨·시링산·신남산), 306 nm(레스베라트롤), 330 nm(카페산·페룰산)",
+    "injection": "5 µL",
+    "sample_prep": "건조 분말 0.5 g + 에탄올:물:0.12 M 염산(70:29:1) 10 mL, 40 °C 초음파 30분, 냉각·여과 후 10 mL로 정용",
+    "standard": "퀘르세틴(순도 > 95%)·루틴(순도 > 94%) 등 Sigma-Aldrich 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "붉은커런트에서 정량된 페놀 성분 가운데 가장 많아 산지 비교의 지표로 쓰임; 전문 확인, 검량·검출한계·회수율은 본문에 없음[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.3390/molecules27154986",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 루브룸까치밥열매·냉동루브룸까치밥열매·루브룸까치밥농축·루브룸까치밥추출액·커런트열매",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Red Currant (Ribes rubrum L.) Fruit Waste Extract and Juice as Potential Spasmolytic Agents. Plants 2025;14(2):234. doi:10.3390/plants14020234",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11768213/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Geographic Variability of Berry Phytochemicals with Antioxidant and Antimicrobial Properties. Molecules 2022;27(15):4986. doi:10.3390/molecules27154986",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9370609/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Effect of Ozonation on the Mechanical, Chemical, and Microbiological Properties of Organically Grown Red Currant (Ribes rubrum L.) Fruit. Molecules 2022;27(23):8231. doi:10.3390/molecules27238231",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9738812/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Genetic Diversity and Pedigree Analysis of Red Currant Germplasm. Plants 2022;11(13):1623. doi:10.3390/plants11131623",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9269202/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Complete chloroplast genome assembly and phylogenetic analysis of blackcurrant, red and white currant, and gooseberry provide new insights into the phylogeny of Grossulariaceae. PeerJ 2023;11:e16272. doi:10.7717/peerj.16272",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10573389/",
+   "publisher": "PeerJ (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Creation and Use of Highly Adaptive Productive and Technological Red Currant Genotypes to Improve the Assortment and Introduction into Different Ecological and Geographical Zones. Plants 2022;11(6):802. doi:10.3390/plants11060802",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8954894/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Biochemical properties of red currant varieties in relation to storage. Plant Foods Hum Nutr 2010. doi:10.1007/s11130-010-0195-z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21046468/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Polyphenol metabolism in differently colored cultivars of red currant (Ribes rubrum L.) through fruit ripening. Planta 2017. doi:10.1007/s00425-017-2670-3",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28315000/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Transcriptomic and metabolomic analyses reveal molecular and metabolic regulation of anthocyanin biosynthesis in three varieties of currant. Food Res Int 2024;196:115056. doi:10.1016/j.foodres.2024.115056",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39614491/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Sensory-guided decomposition of red currant juice (Ribes rubrum) and structure determination of key astringent compounds. J Agric Food Chem 2007. doi:10.1021/jf0629078",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17261016/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Separation, characterization and quantification of phenolic compounds in blueberries and red and black currants by HPLC-DAD-ESI-MSn. J Agric Food Chem 2011. doi:10.1021/jf104565y",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21401099/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Characterization of anthocyanins and proanthocyanidins in some cultivars of Ribes, Aronia, and Sambucus and their antioxidant capacity. J Agric Food Chem 2004;52(26):7846-56. doi:10.1021/jf0486850",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15612766/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Antioxidant capacities and anthocyanin characteristics of the black-red wild berries obtained in Northeast China. Food Chem 2016. doi:10.1016/j.foodchem.2016.02.122",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26988488/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "The antioxidant, anti-inflammatory, and antiplatelet effects of Ribes rubrum L. fruit extract in the diabetic rats. J Food Biochem 2022. doi:10.1111/jfbc.14124",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35293002/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Ameliorative effects of ribes rubrum oil against gastric ulcers caused by indomethacin in experimental models. Saudi J Biol Sci 2021;29(1):30-34. doi:10.1016/j.sjbs.2021.10.029",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8716960/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Currant allergy and the Rosaceae-grass pollen allergy syndrome: a case report. Ann Allergy Asthma Immunol 2007. doi:10.1016/s1081-1206(10)60763-6",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17521033/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Allergy to red currant: immunoglobulin E-mediated hypersensitivity to lipid transport proteins (Pru p 3). J Investig Allergol Clin Immunol 2012;22(2):140-1",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22533240/",
+   "publisher": "PubMed (서지정보; 초록 없음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Anaphylaxis to red currants. Allergy 2000;55(5):511. doi:10.1034/j.1398-9995.2000.00631.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10843436/",
+   "publisher": "PubMed (서지정보; 초록 없음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Outbreak of Hepatitis A in Italy Associated with Frozen Redcurrants Imported from Poland: A Case Study. Food Environ Virol 2015;7(3):305-8. doi:10.1007/s12560-015-9199-z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26001535/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Graft-Transmissible Diseases of Ribes - Pathogens, Impact, and Control. Plant Dis 2021;105(2):242-250. doi:10.1094/PDIS-04-20-0759-FE",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32870112/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Sustainable Extractions for Maximizing Content of Antioxidant Phytochemicals from Black and Red Currants. Foods 2022;11(3):325. doi:10.3390/foods11030325",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8833918/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Black and Red Currant Pomaces as Raw Materials to Create Smoothies with In Vitro Health-Promoting Potential. Foods 2024;13(17):2715. doi:10.3390/foods13172715",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11395094/",
+   "publisher": "MDPI (PubMed/PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "[Cloning and expression of dfr in Ribes L. during fruit maturation]. Sheng Wu Gong Cheng Xue Bao 2020. doi:10.13345/j.cjb.190561",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32924360/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Pectin from Fruit- and Berry-Juice Production by-Products: Determination of Physicochemical, Antioxidant and Rheological Properties. Foods 2023;12(8):1615. doi:10.3390/foods12081615",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137805/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Chemical composition of currant seed extracts and their protective effect on human lymphocytes DNA. J Food Sci 2012;77(7):C779-83. doi:10.1111/j.1750-3841.2012.02756.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22670588/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "[Biological value of fruits and berries of Russian production]. Vopr Pitan 2020;89(4):220-232. doi:10.24411/0042-8833-2020-10055",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32986335/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Modeling and optimization of red currants vacuum drying process by response surface methodology (RSM). Food Chem 2016. doi:10.1016/j.foodchem.2016.02.109",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26948639/",
+   "publisher": "PubMed (초록)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

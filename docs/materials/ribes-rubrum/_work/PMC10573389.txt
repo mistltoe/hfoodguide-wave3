@@ -1,0 +1,447 @@
+Introduction
+
+is the sole genus in the Grossulariaceae family and comprises approximately 150 to 200 known species.species are deciduous perennial shrubs that are native to temperate areas of Eurasia, North America, the northwestern part of Africa, and the Andes (). Cultivatedspecies, commonly referred to as “currant” and “gooseberry”, are popular and old small berry crops in Europe and Asia (;). Blackcurrant (), red currant (), white currant (), and gooseberry () () are dominant cultivated taxa due to their high yield, fruit quality, and ecological adaptability (). In 2021, the global cultivation area of currants and gooseberries was 148,275 hectares, with a fruit production of 0.82 million tons, reaching a gross value of 1,503 million USD (FAOSTAT,). Currants and gooseberries are commonly processed into juice, wine, candy, and jam owing to their high concentrations of functional metabolites and distinctive flavors (). In recent years, they have been reported to contain multi-functional bioactive metabolites, such as anthocyanins, polyphenols, phenolic acids, and flavonoids, and are characterized by potential antioxidant, anti-inflammatory, and antibacterial bioactivities that are involved in antidiabetic, antineoplastic, anti-tumor, anti-cardiovascular, and anti-neurodegenerative functions (;). Despite their great economic importance and health potential, there has been little research on thespecies to date, which not only lags far behind that on major fresh fruits such as apple, citrus, and grape, but also falls behind that on emerging fruit crops that are mainly supplied for the processing market, such as sea-buckthorn (;), blue honeysuckle berry (), and wolfberry (). In particular, the phylogeny of Grossulariaceae and the infrageneric relationships of thegenus remain highly controversial ().
+
+Based on morphology,was once included in the polyphyletic family Saxifragaceae () but is now more accepted as the sole genus in the Grossulariaceae family (). However, because some literature still places Grossulariaceae under Saxifragaceae, the delineation of the Grossulariaceae family remains blurry (), and its monophyletic origin has been rarely discussed in previous studies because only a limited number ofspecies were used (). In addition, the infrageneric classification ofremains unclear due to its wide geographical distribution, unknown interspecific hybridization, and high phenotypic diversity (;). From the first monograph of Janczewski on(), the infrageneric classification ofhas been constantly proposed and revised (;;;;;), resulting in a highly confusing taxonomy. In the work of Janczewski, thegenus was divided into six subgenera with eleven sections (,(and),(and),(,,,and),, and(and)) (). Moreover, Berger divided Grossulariaceae into thegenus (currants, including eight subgenera) and thegenus (gooseberries, including four subgenera). This classification was later demoted to two corresponding subgenera with 12 sections, which is the most consensus and widely accepted classification ofso far (;;;;). Namely, thesubgenus includes eight sections:(alpine currant),(red-flowering currant),(blackcurrant),(spiny currant),(skunk currant),(Andine currant),(red currant),(golden currant), and thesubgenus includes four sections:(true gooseberry),(Sierra gooseberry),(ornamental gooseberry), and(desert gooseberry). Although internal transcribed spacer, nontranscribed spacer, and chloroplast markers have been recently applied to resolve the infrageneric phylogeny of(;;), inconsistent results have been reported regarding the monophyly of gooseberries (subgenus) and the phylogenetic relationship among the above-mentioned 12 sections. Additionally, the genomic data ofhave been exclusively used in studies of the evolution of Saxifragales (;) and the genetic diversity of endemicpopulations ().
+
+Plastids are semi-autonomous organelles in the plant cell, carrying out photosynthesis, and various metabolic and signaling functions (;). Due to the haploidy, uniparental inheritance, no genetic recombination, conserved genomic structure, and relatively small genome size of plastids, the polymorphic loci of plastids have been increasingly applied to plant phylogenetics, taxonomy, population genetics, and marker development for molecular breeding and DNA barcoding (;;;). Meanwhile, the possibility that a lack of variation in the modest number of plastid genes may hamper species discrimination, suggesting improved resolutions based on complete plastome sequences (;). Through comparative analysis based on the complete chloroplast (cp) sequences, the phylogeny of some plants, such as,, Orchidaceae, and Myrtales, has been delineated from the species level to the order level (;;;). However, only fivecp genomes have been released in NCBI to date (Jan. 2023). Among them,andvar.() are wild species indigenous to East Asia; and Sierra currant (), Sierra gooseberry () (), and clove currant () () are endemic species of America. There has been no report about the cp genomes of cultivatedspecies and their phylogenies, which has severely limited the germplasm exploration, genetic conservation, cross-breeding, and genetic improvement of.
+
+Herein, complete cp genomes of blackcurrant (), red currant and white currant (), and gooseberry () were assembled and characterized, laying a molecular foundation for the research ontaxa. The study also identified the highly polymorphic sites across all the nine releasedcp genomes, providing practical tools for molecular breeding and DNA barcoding. Moreover, phylogenetic trees of Saxifragales were constructed by using 31 complete cp genomes, which can shed new light on the phylogeny of the Grossulariaceae family andspecies.
+
+10.7717/peerj.16272/fig-1
+
+Figure 1
+
+Morphology of the fourtaxa.
+
+(A) Blackcurrant (). (B) Red currant (). (C) White currant (). (D) Gooseberry (). Photo credit: by Xinyu Sun.
+
+Materials and Methods
+
+Plant materials and DNA extraction
+
+The fresh leaves of blackcurrant ‘Liangye houpi’ (), red currant ‘Red Cross’ (), white currant ‘Witte Parel’ (), and gooseberry ‘Pixwell’ () were collected at the Horticultural Station of Northeast Agricultural University (126.73°E, 45.74°N), Harbin, China. Samples were frozen immediately in liquid nitrogen and kept at an ultra-low temperature freezer (–80 °C) until DNA extraction. Total genomic DNA was isolated using the Hi-Fast Plant Genomic DNA Kit (GeneBetter BioTech Co. Ltd., Beijing, China) following the manufacturer’s instructions ().
+
+Sequencing, assembly, and annotation
+
+The DNA library preparation and next-generation sequencing were accomplished atCo., Ltd. (Wuhan, China) following the manufacturer’s instructions (MGI Tech Co., Ltd., Shenzhen, China) of the DNBSEQ-T7 platform. The adaptors of the raw reads were removed using Trimmomatic v0.93 () and then the reads were filtered using SOAPnuke v2.X () with parameters of “–lowQual=20, –nRate=0.005, –qualRate=0.5”. The four cp genomes were assembled using GetOrganelle v1.7.6.1 () with parameters of “-R 15 -k 21,45,65,85,105” and with the reference ofvar.(). Genomic annotation was performed using CPGAVAS2 () and further examined manually according to() and() (). The cp feature map was constructed using OGDRAW v1.3.1 () with default parameters.
+
+Comparative genomic analysis
+
+The five previously reportedcp genomes were re-annotated using CPGAVS2 with the reference ofvar.(). The ninecp genomes were aligned using MAFFT v7.471 (). The pairwise genetic divergence was calculated using BioEdit v7.2.6 (). The IR boundary comparison of the ninewas performed using IRSCOPE (). mVISTA program () was used to visualize the alignments of the ninecp genomes with the reference ofvar..
+
+Repeat, SNP, and indel identification
+
+Tandem Repeats Finder () was used to determine tandem repeats with default parameters. REPuter () was used to determine forward (F), palindromic (P), reverse (R), and complement (C) repeats with the parameters of “Hamming Distance: 3; Maximum Computed Repeats: 5,000 bp; Minimum Repeat Size: 30 bp”. SSR loci were identified using Misa-web () () with default parameters. SNPs and Indels among the nine cp genomes were identified using DnaSP v6.12 () and thevalues were calculated with a window length of 600 bp and a step size of 200 bp.
+
+Phylogenetic analysis
+
+The complete cp genomes of 20 representative species in Saxifragales, four focal taxa in the present study, five previously releasedspecies, and two outgroup species (Rosales) were selected for phylogenetic analysis and their Genbank accession numbers are shown in. The multi-sequence alignment was formalized using trimAL (). The maximum-likelihood (ML) phylogenetic tree was constructed using MEGA v11.0.13 in the multithread mode with 1,000 bootstrap (BS) replications () and further annotated using iTOL v6 online () (). The Bayesian tree was constructed using BEAST 2.7.5 () following the standard workflow () and referenced the literature reported by. The confidences of the clades were evaluated by using posterior probabilities (PP).
+
+Results
+
+Organizations and gene features of chloroplast genomes of four
+
+The cp genomes of the fourtaxa ranged from 157,450 bp () to 157,802 bp () in length (). The large single copy (LSC), small single copy (SSC), and inverted repeat regions (IRa/IRb) of the four cp genomes ranged from 87,086 bp () to 87,369 bp (and), 18,288 bp () to 18,423 bp (), and 26,001 bp () to 26,007 bp (), respectively (). The coding sequence (CDS) length of the four cp genomes was from 80,253 bp () to 80,439 bp (). The overall GC content of the four cp genomes ranged from 38.21% () to 38.08% (). Moreover, the GC content of LSC, SSC, and IRs ranged from 36.14% () to 36.30% (), 33.15% () to 33.41% (), and 43.08% () to 43.13% (), respectively. Notably, red currant and white currant exhibited an identical cp structure, including total length, length of the quadruplicate parts, and the GC content. A total of 131 genes were commonly annotated in the four cp genomes, including 86 protein-coding genes, 37 tRNA genes, and eight rRNA genes (). Among them, seven protein-coding genes, seven tRNA genes, and four rRNA genes were duplicated in the IRs. A total of 19 genes (,,,, two, two, two,,,, two,, two,,, and) harbored one intron (); two genes (and) harbored two introns; andunderwent trans-splicing ().
+
+10.7717/peerj.16272/fig-2
+
+Figure 2
+
+Consensus feature map of cp genomes for blackcurrant (), red and white currant (), and gooseberry ().
+
+Genes outside and inside the circle are transcribed clockwise and counterclockwise, respectively. Gray bars in the inner ring show the GC content percentage. The inverted repeat regions (IRa and IRb) are denoted with thick lines, which are separated by the large single copy (LSC) region and the small single copy (SSC) region. Genes belonging to different functional groups are color-coded accordingly at the bottom left.
+
+10.7717/peerj.16272/table-1
+
+Table 1
+
+Summary of cp genome subunits in the fourtaxa.
+
+Species
+
+Blackcurrant ()
+
+Red currant ()
+
+White currant ()
+
+Gooseberry ()
+
+Total size
+
+157,450 bp
+
+157,802 bp
+
+157,802 bp
+
+157,659 bp
+
+LSC length
+
+87,086 bp
+
+87,369 bp
+
+87,369 bp
+
+87,369 bp
+
+SSC length
+
+18,350 bp
+
+18,423 bp
+
+18,423 bp
+
+18,288 bp
+
+IR length
+
+26,007 bp
+
+26,005 bp
+
+26,005 bp
+
+26,001 bp
+
+CDS length
+
+80,253 bp
+
+80,439 bp
+
+80,439 bp
+
+80,340 bp
+
+LSC GC content
+
+36.19%
+
+36.14%
+
+36.14%
+
+36.30%
+
+SSC GC content
+
+33.15%
+
+33.19%
+
+33.19%
+
+33.41%
+
+IR GC content
+
+43.12%
+
+43.08%
+
+43.08%
+
+43.13%
+
+Total GC content
+
+38.13%
+
+38.08%
+
+38.08%
+
+38.21%
+
+10.7717/peerj.16272/table-2
+
+Table 2
+
+Gene annotation of the fourcp genomes.
+
+Function
+
+Gene names
+
+Number
+
+Photosystem I
+
+;;;;
+
+5
+
+Photosystem II
+
+;;;;;;;;;;;;;;
+
+15
+
+Cytochrome b/f complex
+
+;*;*;;;
+
+6
+
+ATP synthase
+
+;;;*;;
+
+6
+
+NADH-dehydrogenase
+
+*;* (×2);;;;;;;;;
+
+12
+
+Large subunit of ribosome
+
+* (×2);;*;;;(×2);;;
+
+11
+
+DNA-dependent RNA polymerase
+
+;;*;
+
+4
+
+Small subunit of ribosome
+
+;;;(×2);;;*(×2);;;*;;
+
+14
+
+Transfer RNAs
+
+* (×2);;;;;;;;;(×2);* (×2);*;(×2);*;;;(×2);;;(×2);;;;;;;(×2);*;;
+
+37
+
+Ribosomal RNAs
+
+(×2);(×2);(×2);(×2)
+
+8
+
+Conserved open reading frames
+
+(×2);(×2);**;
+
+6
+
+Subunit of acetyl-CoA-carboxylase
+
+accD
+
+1
+
+C-type cytochrome synthesis gene
+
+ccsA
+
+1
+
+Envelop membrane protein
+
+cemA
+
+1
+
+Protease
+
+**
+
+1
+
+Translational initiation factor
+
+infA
+
+1
+
+Maturase
+
+matK
+
+1
+
+Rubisco
+
+rbcL
+
+1
+
+Note:
+
+* indicates one intron; ** indicates two introns; (×2) indicates that the gene contains two copies in IRs;indicates trans-spliced genes.
+
+Identification of repeat elements among the fourcp genomes
+
+Aiming to provide useful information for marker development, the repeat elements in the four cp genomes were annotated. A total of 219 long repeats were identified (), including tandem, forward, and palindromic repeats but not reverse and complement repeats. Tandem repeats accounted for the largest proportion (44.7%), followed by palindromic repeats (30.1%) and then forward repeats (25.1%) (and). For blackcurrant (), red/white currant (), and gooseberry (), 53, 51, and 64 long repeats were identified, respectively. A total of 176 SSR loci were identified in the four cp genomes, including mononucleotides (97.2%) and dinucleotides (2.8%). In addition, 54, 40, and 42 SSRs were identified in blackcurrant (), red/white currant (), and gooseberry (), respectively (and). SSRs showed the highest distribution frequency in the LSC (32–40), followed by the SSC (4–7), and then the IRs (2–4) (). Moreover, SSRs had the highest distribution frequency in the intergenic region (28–33), followed by the intron region (6–9), and the CDS (3–17) ().
+
+10.7717/peerj.16272/fig-3
+
+Figure 3
+
+Characterization of repeats in the fourcp genomes.
+
+(A) Summary of long repeats in the fourcp genomes. (B) Types and repetitions of SSRs identified in the four cp genomes. Mono: mononucleotide-repeat; Di: dinucleotide-repeat. The numbers above the bars are the counts of the SSRs and those below the bars are the repetitions. (C) Counts of SSRs in the LSC, SSC, and IR regions. (D) Counts of SSRs in intergenic, intron, and protein-coding regions.
+
+Genomic comparison of the ninecp genomes
+
+We performed a genomic comparison of ninecp genomes, including the four assembled in the present study and five cp genomes released previously (,var.,,, and). The ninecp genomes showed identical genomic features, gene orders, and gene numbers (). As expected, the coding regions exhibited lower levels of divergence than non-coding regions. The pairwise genetic divergence between any two of the nine cp genomes was lower than 2.90% (). The highest sequence divergence was detected betweenvar.and. Notably, the cp genomes of red currant and white currant showed 100% sequence identity (). The IR/SC boundary shifts among the nine cp genomes were investigated (). Generally, 16 types of IR/SC shift were identified among the ninecp genomes. The19 gene spanned the LSC-IRb boundary (JLB) with five types of shifts, including “219 bp + 60 bp” (,,, and), “212 bp + 70 bp” (), “209 bp + 70 bp” (), “207 bp + 72 bp” (), and “202 bp + 77 bp” (var.). The pseudogene gene(Ψ) spanned the IRb-SSC boundary (JSB) with four types of shifts, including “1,131 bp + 11 bp” (and), “1,141 bp + 16 bp” (,, and), “1,131 bp + 98 bp” (andvar.), and “1,141 bp + 94 bp” (). Thegene spanned the SSC-IRa boundary (JSA) with four types of shifts, including “4,530 bp + 1,131 bp” (and), “4,406 bp + 1,141bp” (), “4,257 bp + 1,131 bp” (andvar.), “4,517 bp + 1,141 bp” (and), and “4,523 bp + 1,141 bp” (). Thegene spanned the IRa-LSC boundary (JLA) with three types of IRa residue, including “1 bp” (var.), “2 bp” (,,, and), and “4 bp” (and).
+
+10.7717/peerj.16272/fig-4
+
+Figure 4
+
+Global alignment of the ninecp genomes.
+
+The x-axis represents aligned base sequences, and the y-axis represents percent pairwise identity within 50–100%. (Coding regions are shown in blue, and non-coding regions are indicated by pink. The location and direction of each gene are indicated by gray arrows above the alignment. CNS, conserved noncoding sequences; UTR, untranslated region).
+
+10.7717/peerj.16272/fig-5
+
+Figure 5
+
+Comparison of LSC, SSC, and IR region boundaries in the ninecp genomes.
+
+Distance in the figure is not to scale. The gene names are indicated in the colored box, and the length of the corresponding region is shown next to the box. Ψ represents the pseudogene. JLB, LSC-IRb boundary; JSB, IRb-SSC; JSA, SSC/IRa; JLA, IRa-LSC. LSC, large single copy; IRa, IRb, two IR regions that are identical but in opposite orientations; SSC, small single copy.
+
+Identification of SNPs and Indels in thecp genomes
+
+A total of 3,322 SNPs and 485 Indels were identified in the ninecp genomes (). The LSC region comprised the largest number of SNPs (2,337) and Indels (361), followed by the SSC region (701 SNPs and 65 Indels). Generally, the CDS is more conserved than non-coding regions. Here, a total of 1,594 SNPs and 377 Indels were detected in the intergenic spacer (IGS); 424 SNPs and 80 Indels were found in the intron; and 1,304 SNPs and 28 Indels were detected in the CDS (). The most polymorphic intergenic region was-, which contains 86 mutation sites, followed by-(76) and-(71). The most variable gene, whose coding-sequence harbors 248 mutation sites, followed by(104),(56), and(56). In terms of introns, the introns ofandcontained the most variable mutation sites (57), followed by introns of(38) and(57) (and). In the pairwise comparison, the most variation sites were found betweenandvar.(1,863), and the fewest variation sites (507) were detected between blackcurrant () and(). The nucleotide diversity () of the ninecp genomes was visualized using a window length of 600 bp and a step size of 200 bp (). The averageof whole sequences, SSC, LSC, and IR regions was 0.0060, 0.011, 0.0077, and 0.0015 respectively. Five IGS (-,-,-,-, and-), and one gene () exhibited relatively high genetic diversities (≥ 0.018).-was the most polymorphic region with aof 0.021.
+
+10.7717/peerj.16272/table-3
+
+Table 3
+
+Summary of SNPs and Indels identified in the ninecp genomes.
+
+Genomic region
+
+SNPs
+
+Indels
+
+IRa
+
+141
+
+36
+
+IRb
+
+142
+
+35
+
+LSC
+
+2,337
+
+348
+
+SSC
+
+701
+
+65
+
+LSC-IRb
+
+1
+
+0
+
+IRb-SSC
+
+0
+
+1
+
+Total
+
+3,322
+
+485
+
+Intergenic regions
+
+1,594
+
+377
+
+Intron
+
+424
+
+80
+
+CDS
+
+1,304
+
+28
+
+10.7717/peerj.16272/fig-6
+
+Figure 6
+
+Nucleotide diversities () of the ninechloroplast genomes presented in a sliding window approach.
+
+X-axis represents the position of the window midpoint; Y-axis represents the nucleotide diversity within each window (window size: 600 bp; step size: 200 bp). Six regions with relatively highvalues were marked based on the alignment and annotation.
+
+Phylogenomic analysis of Grossulariaceae
+
+To determine the phylogenetic position of Grossulariaceae in Saxifragales, ML and Bayesian phylogenetic trees were constructed based on 31 complete cp genomes, including the above-mentioned nine, 20 representative species from Saxifragales and two outgroup species from Rosales (). The ML and Bayesian tree topology consensually revealed seven well-supported main clades in Saxifragales (BS ≥ 93% and PP = 100%), including clade I, Grossulariaceae; clade II, Saxifragaceae; clade III, Iteaceae; clade IV, Cercidiphyllaceae and Altingiaceae; clade V, Paeoniaceae; clade VI, Crassulaceae, Haloragaceae, and Penthoraceae; and clade VII, Hamamelidaceae (and). Notably, the ninetaxa were clustered independently to form clade I with maximum BS and PP values instead of nesting within Saxifragaceae (clade II), indicating the monophyly of Grossulariaceae. In terms of thegenus (),(subgenus, section) was first differentiated from other species, followed by(subgenus, section). However, the ancestral clade of the remaining seven species was not well-resolved (BS = 52%). In addition, paraphyletic relationships were found between theandsections, between theandsections, and between theandsections. Notably, thesubgenus was nested within thesubgenus instead of being parallel to it at the basal of the tree as expected.
+
+10.7717/peerj.16272/fig-7
+
+Figure 7
+
+Chloroplast phylogeny of Saxifragales and.
+
+(A) Maximum likelihood tree constructed using 29 complete cp genomes from Saxifragales and two outgroup species from Rosales with 1,000 bootstrap replications. (B) Maximum likelihood tree inferred from nine complete cp genomes ofwith 1,000 bootstrap replications. Vertical bars at the right label the section classification of these nine taxa according to the consensus revision of,,, and.
+
+Discussion
+
+The present study for the first time assembled and characterized the complete cp genomes of four cultivatedtaxa, including blackcurrant (), red currant and white currant (), and gooseberry (), which enriches the genomic foundation for. The Grossulariaceae showed relatively high chloroplast conservativeness in terms of sequence length, structural organization, gene content, order, and arrangement than other plant families such as Gentianaceae, Asteraceae, Caprifoliaceae, and the genetic close family, Saxifragaceae (;;;). Intriguingly, the results showed that the IR/SC shift types of the ninecp genomes are in accordance with the phylogenetic groups (,and), suggesting the shrinkage and expansion of the IR/SC boundaries might serve as an additional confirmation for phylogenetic results that calculated from the algorithms based on sequences. Notably, the cp genomes of red currant () and white currant () are 100% identical, which supports the hypothesis: white currant is an albino cultivar of red currant (;;) and calls for further verification based on nuclear data. Repeat elements play an important role in sequence divergence and are involved in plastome rearrangement (;). Herein, 51/40, 64/42, and 53/54 long-repeats/SSR-loci was respectively identified in,, andcp genomes, whereas that of the wildis 49/56 (). These differences not merely display the characteristic evolutionary trace of these plastomes but also provide effective information for species discrimination and population genetics. Moreover, a total of 3,322 SNPs and 485 Indels were identified in the nine releasedcp genomes. In particular, the intergeneric spacer of, the CDS of, and the introns ofandshowed high-resolution potentials. The molecular markers developed from these loci may contribute to genetic evaluations for germplasm collections, conservation genetic research for endangered species or enigmatic taxa, DNA barcoding for endemic species or important cultivars, and hybrid identification in cross-breeding ofin the future.
+
+In terms of the phylogeny of Grossulariaceae, we for the first time used the genomic data ofspecies to clarify the monophyly of Grossulariaceae and the paraphyletic relationship between Grossulariaceae and Saxifragaceae, which are consistent with the results of previous studies about the phylogeny of Saxifragales (,). Moreover, in both ML and Bayesian trees, the highly supported co-ancestral clade of Saxifragaceae and Grossulariaceae and the relatively later divergence between them were revealed, suggesting their close phylogenetic relationship, which is in accordance with the previous studies based on various data types (;;). In terms of the infrageneric relationships, our results generally support the consensus classification ofproposed byand revised by, that is, thegenus includes 12 sections of,,,,,,,,,,and, which is also supported by recent studies based on molecular markers (;;;). Although our results revealed a well-supported clade of the subgenus, only two species (and) in this subgenus were used. Therefore, the monophyletic origin ofcannot be asserted here. However, in any case, the clade of thesubgenus is nested within thesubgenus and shows a paraphyletic relationship with the co-ancestor of theandsections either in the present study or in previous studies (;), which is incongruent to that of the generally accepted subclassification based on morphological characteristics of thegenus, regardless of whether gooseberry () is monophyletic. However, according to the limited samples and only cp genomic data used in the present study, the thorough clarification of intrageneric phylogeny and infrageneric resolution, evolutional scenario, and diversification history ofstill call for comprehensive studies based on large-scale sample collection, nuclear genomic data, biogeographic information, and fossil evidence.
+
+Conclusions
+
+The complete cp genomes of blackcurrant (), red currant and white currant (), and gooseberry () have lengths of 157,450–157,802 bp and share a total of 131 genes (86 protein-coding genes, 37 tRNA genes, and eight rRNA genes). Notably, a 100% sequence identity was observed between red currant and white currant, supporting the inference that the latter is an albino cultivar of the former. A total of 485 Indels and 3,322 SNPs were identified in the nine releasedcp genomes.(= 0.020) and(= 0.021) are the most polymorphic genic and intergenic regions, respectively. The ML and Bayesian phylogenetic trees provide strong support for the monophyly of Grossulariaceae in Saxifragales and the paraphyletic relationship between Saxifragaceae and Grossulariaceae. The tree topology of the ninetaxa shows that thesubgenus is nested within thesubgenus, and has a paraphyletic relationship with the co-ancestor of theandsections. Our findings lay a foundation for the phylogenetic research and molecular breeding ofspecies.
+
+Supplemental Information
+
+10.7717/peerj.16272/supp-1
+
+Supplemental Information 1
+
+Supplementary tables and figures.
+
+Click here for additional data file.
+
+10.7717/peerj.16272/supp-2
+
+Supplemental Information 2
+
+Supplemental tables.
+
+Click here for additional data file.
+
+10.7717/peerj.16272/supp-3
+
+Supplemental Information 3
+
+Multi-sequence alignment of the 9cp genomes.
+
+Click here for additional data file.

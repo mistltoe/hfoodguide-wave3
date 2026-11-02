@@ -1,0 +1,640 @@
+{
+ "slug": "eugenia-brasiliensis",
+ "name_ko": "브라질리언체리",
+ "name_en": "Grumixama",
+ "scientific_name": "Eugenia brasiliensis Lam.",
+ "aliases": [
+  "브라질리언체리열매",
+  "그루미샤마",
+  "Grumixama",
+  "Eugenia dombeyi",
+  "grumixameira",
+  "cereja-brasileira"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "브라질리언체리(Eugenia brasiliensis Lam.)는 도금양과(Myrtaceae) 에우게니아속 나무로, 브라질 대서양림에 자라며 현지에서는 그루미샤마(grumixama)라고 부른다[12, 13]. 식약처 「식품원료 목록」에는 원료명 '브라질리언체리열매'(학명 표기 Eugenia brasiliensis / Eugenia dombeyi)로 한 행이 올라 있고, 사용 조건이 '사용가능부위 : 열매'인 사용가능 원료다[1]. 따라서 이 목록 기준으로 식품에 쓸 수 있는 부위는 열매뿐이며, 잎이나 나무껍질은 이 행에 포함되지 않는다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매는 지름 약 2 cm로 작고 껍질이 매끈하며 윤이 나고, 보라색 계통과 노란색 계통이 있다[3, 8, 9]. 보라색 열매는 시아니딘-3-글루코사이드가 주된 안토시아닌이고, 과육과 씨에는 엘라지타닌이 많다[5, 9]. 열매가 쉽게 물러 널리 유통되지 못하고, 현지에서도 냉동 과육·젤리처럼 소규모로 가공해 판다[3, 19, 20]. 고지방 사료를 먹인 생쥐에서 보라색 열매 추출물이 체중 증가와 인슐린 저항성을 줄였다는 보고가 있으나, 사람 대상 연구는 주스 섭취 시험 정도로 아직 적다[15, 17, 18, 22]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 이용",
+   "body": "학명의 명명자는 라마르크(Lam.)이며, 브라질에서는 grumixaba, grumixameira, cumbixaba, ibaporoiti, cereja-brasileira 등으로 불린다[12]. 민간에서는 나무껍질과 잎을 수렴제·이뇨제·강장제로, 류머티즘과 염증에 써 왔다[4, 12]. 열매는 브라질 남부·남동부에서 젤리, 파이, 리큐어를 만드는 데 쓰이고 11월부터 2월 사이에 거둔다[8]. 가정에서는 냉동 과일, 냉동 과육, 젤리로 만들어 먹는다[2].\n\n과학적 연구는 잎에서 시작되어, 2008년 잎 추출물과 분리 성분(퀘르세틴·카테킨·갈로카테킨)의 국소 항염 효과가 보고되었다[26]. 2012년 미국 플로리다의 한 과일·향신료 공원에서 거둔 열매로 안토시아닌 9종이 확인되었고 그중 7종은 이 과일에서 처음 보고되었다[4]. 2015년에는 보라색·노란색 두 품종의 엘라지타닌 구성이 처음 밝혀졌다[9]. 2017년 이후 건강한 사람에게 주스를 한 번 마시게 하고 소변·혈장 대사물을 살핀 연구가 나왔다[15, 16]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "브라질리언체리는 대서양 우림에 분포하며, 문헌은 바이아주에서 산타카타리나주까지 퍼져 있다고 적는다[12]. 에우게니아속을 포함한 브라질 도금양과 식물은 대체로 마주나는 홑잎에 투명한 기름샘이 있고 장과 모양의 살진 열매를 맺는다[29]. 잎 표피는 한 층이고 분비 공동이 있으며, 조직화학 시험에서 지질·리그닌·페놀·전분이 검출되었다[34]. 열매에는 씨가 1–3개 들어 있고 과육은 즙이 많고 단단하며 새콤달콤하다[3].\n\n파라주산 열매는 수분 75.15%, pH 3.83, 당도 15.16 °Brix였고, 당산비 48.90으로 단맛이 우세했다[2]. 상파울루주 과수원산 과육·껍질은 수분 88.11 g/100 g이었다[5]. 산타카타리나주 두 곳의 열매를 세 성숙 단계로 비교한 연구에서는 익을수록 안토시아닌이 늘어 최대 518.64 mg/100 g(생중량, 시아니딘-3-글루코사이드 당량)에 이르렀고, 재배지와 성숙도가 함께 성분을 바꿨다[10]. 보라색 품종 과육의 안토시아닌은 32–180 mg/100 g, 노란색 품종의 플라보놀은 13–41 mg/100 g(생중량)이었다[9]. 반숙 열매의 씨에는 플라보노이드가, 완숙 과육·껍질에는 수용성 식이섬유와 안토시아닌이 더 많았다[23]. 과육에서 확인된 휘발성 성분 14종 가운데 85.7%(성분 수 기준, DVB/CAR/PDMS 섬유)가 세스퀴테르펜이었다[8]. 씨는 건조에 약해 종자 보관이 어렵다[6]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "에우게니아속(Eugenia)은 약 350종을 포함하는 도금양과의 큰 속이다[2, 4]. 영어 'Brazilian cherry'는 이 종을 가리키는 이름으로 쓰이지만[9, 13], 식약처 목록에서는 피탕가(Eugenia uniflora)의 원료 행 'Surinam-cherry열매'의 영어명에도 'Brazilian cherry'가 적혀 있다[1]. 두 원료는 목록에서 별개의 행이므로 이름만으로 고르지 말고 학명을 확인해야 한다[1]. 같은 속의 아라자(Eugenia stipitata)도 '아라자열매'라는 별도 행으로 올라 있다[1].\n\n같은 과의 자보티카바(목록 학명 Myrciaria cauliflora, Eugenia cauliflora)와 까무까무(Myrciaria dubia)도 열매가 사용가능 원료다[1]. 브라질 연구에서는 이 종을 우바이아(Eugenia pyriformis), 리오그란데체리(Eugenia involucrata)와 함께 새 과수 후보로 묶어 다룬다[6]. 엽록체 유전체 비교에서는 Eugenia nitida, E. pyriformis, Myrcianthes pungens, Plinia edulis, Psidium cattleianum과 나란히 분석되었다[7]. 고시 제2026-43호 원문 줄에서 에우게니아속 원재료를 찾지 못해, 이 속의 건강기능식품 고시형 원료는 확인하지 못함. 짙은 색 브라질 과일 7종을 정리한 리뷰에서는 같은 과의 Eugenia involucrata, Myrciaria cauliflora, Myrciaria jaboticaba와 함께 다뤄졌다[30]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "브라질에서 이 종은 대규모 상업 재배보다는 연구기관, 도시 녹화 사업, 소농의 정원에 살아 있는 나무로 보존된다[6]. 공원 조경과 생태 복원 사업에도 심는다[8]. 연구용 열매는 산타카타리나주(플로리아노폴리스·상루드제루), 리우그란지두술주, 상파울루주(히베이랑프레투·캄피나스), 파라주 마라조섬 등에서 거두었다[2, 3, 5, 10]. 미국 플로리다의 과일·향신료 공원에서도 열매가 수확되었다[4].\n\n같은 종이라도 재배지와 성숙 단계에 따라 당·무기질·페놀 함량이 통계적으로 유의하게 달랐다[10]. 상파울루주 세 수집원(나티비다지다세하·피라시카바·파라이부나)의 73개체를 분석한 연구는 23개체만으로 전체 대립유전자 4,598개의 99%를 담는 핵심 수집군을 제안해 육종의 출발점으로 삼자고 했다[6]. 현지에서는 소농이 냉동 과육으로 팔고 있다[19]. 국내 재배 면적·생산량과 세계 생산 통계(FAOSTAT 등)는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "안토시아닌 추출물은 열에 약해 60 °C에서 10시간, 80 °C에서 1.9시간, 100 °C에서 0.96시간이면 절반이 분해되었다[2]. 형광등·백열등 아래에서는 비교적 안정했지만 자외선에서는 반감기가 0.18시간에 불과해, 연구진은 50 °C 미만에서 다루고 자외선을 피하라고 권했다[2]. 90 °C에서 7분 우린 물 추출이 22 °C에서 120분 우린 것보다 페놀과 안토시아닌을 더 많이 뽑았고, 세 과일 우림물을 4 °C에서 48시간 두자 안토시아닌 손실이 40.8%에 이르렀다(이 종만의 값은 초록에서 구분되지 않음)[31].\n\n거품 건조법으로 만든 분말은 50 °C 건조 시 안토시아닌이 2594.22 mg/100 g(건조물)로 가장 많았다[20]. 냉동 과육을 만들고 남는 껍질과 씨도 연구되어, 껍질에는 유기산·토코페롤·안토시아닌이, 씨에는 단일불포화지방산과 가수분해형 타닌이 많았다[19]. 발효 소시지에 추출물을 500–1500 mg/kg 넣자 14일째 지질 산화 지표(TBARS)가 약 0.3 mg MDA/kg으로 대조군(0.5 mg MDA/kg 초과)보다 낮았다[21]. 요구르트에 과육을 넣으면 소화 모사 뒤 프로바이오틱 균(L. acidophilus·B. animalis) 생존율이 더 높았다[32]. 블랙베리·블루베리와 함께 잔여물 추출법을 비교한 연구에서 총페놀은 초음파+가압 추출이, 안토시아닌은 속슬렛·초음파 추출이 더 잘 회수했다[33]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 품종",
+   "body": "엽록체 유전체는 158,251 bp로, 대단일복사부위 87,201 bp, 소단일복사부위 18,290 bp, 역반복부위 26,380 bp로 이루어졌다[7]. GC 함량은 36.95%, 유전자는 129개이며 단순반복서열(SSR)은 315개가 확인되었고 GenBank 번호는 MN095407이다[7]. 연구진은 일부 유전자 간 부위의 변이가 커서 집단 연구 표지로 쓸 수 있다고 보았다[7].\n\n핵 유전체 참조 서열은 아직 없어, 연구진은 GBS(염기서열 분석 기반 유전형 분석)로 73개체에서 SNP 2,299개를 찾았다[6]. 평균 유전 다양도(He)는 0.22, 근교계수는 -0.06으로 타가수분이 우세한 것과 맞았고, 수집원 사이 분화(FST)는 0.29로 높아 변이의 29%가 수집원 사이에 있었다[6]. 보라색·노란색 품종 차이는 성분 수준에서 보고되었지만 이를 가르는 유전자는 확인하지 못함. 염색체 수와 핵 유전체 크기도 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 이 원료는 열매만 쓸 수 있는 사용가능 원료이며, 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없다[1]. 국내 공공기관의 알레르기·잔류농약·독성 성분 정보는 확인하지 못함. 사람 연구는 건강한 성인에게 주스를 한 번 마시게 한 시험과 무작위 교차 시험 정도이며, 초록에서 부작용 보고는 확인하지 못함[15, 16, 17]. 리뷰도 세포·동물·사람 연구가 아직 부족하다고 정리했다[22].\n\n잎 수알코올 추출물은 생쥐 급성(OECD 425)·아급성(OECD 407) 독성 시험에서 중요한 이상을 보이지 않았다[13]. 과육 추출물은 꿀벌부채명나방 애벌레와 대식세포에서 독성이 거의 없었고, 같은 애벌레 모델의 반수치사량은 씨 추출물 2500 mg/kg, 잎 추출물 1250 mg/kg이었다[14, 28]. 반면 껍질·씨 잔여물 추출물은 정상 세포에도 145–268 µg/mL에서 성장 억제를 보였다[19]. 수알코올 추출물(초록에 부위 명시 없음)은 생쥐 꼬리 매달기 시험에서 효과 없는 낮은 용량의 항우울제(플루옥세틴·이미프라민·부프로피온)와 함께 줄 때 항우울 유사 효과를 냈다[35]. 사람에서의 약물 상호작용 자료는 확인하지 못함. 잎은 이 목록의 식품원료 부위가 아니다[1]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Cyanidin 3-glucoside",
+   "name_ko": "시아니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "marker",
+   "part": "열매(과육+껍질)",
+   "content_text": "251.10 ± 21.7 µg/g(생중량), 안토시아닌 상대 함량 97.29%[5]",
+   "activity_ko": "보라색의 주성분으로 품질 지표; 주스 섭취 연구에서 대사되어 페놀산으로 배설[5, 9, 15]",
+   "source": [
+    5,
+    9,
+    15
+   ]
+  },
+  {
+   "name": "Delphinidin 3-glucoside",
+   "name_ko": "델피니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매(과육+껍질)",
+   "content_text": "52.83 ± 4.31 µg/g(생중량)[5]",
+   "activity_ko": "흡연 추출물 처리 기도 상피세포에서 IL-8 생성 억제(배당체가 아닌 델피니딘으로 시험)[4]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Pelargonidin 3-glucoside",
+   "name_ko": "펠라르고니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매(과육+껍질)",
+   "content_text": "38.89 ± 3.01 µg/g(생중량)[5]",
+   "activity_ko": "미량 안토시아닌[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Pedunculagin",
+   "name_ko": "페둔쿨라긴(엘라지타닌)",
+   "class": "가수분해형 타닌",
+   "role": "bioactive",
+   "part": "과육·씨",
+   "content_text": "엘라지타닌 총량: 보라색 과육 82–243, 노란색 과육 92, 씨 2220–2905 mg 엘라그산 당량/100 g(생중량); 페둔쿨라긴·스트릭티닌 이성질체가 주성분[9]",
+   "activity_ko": "장내 미생물이 유로리틴으로 바꿔 소변으로 배설[15]",
+   "source": [
+    9,
+    15
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "32.31 mg/100 g(산성수 추출), 58.58 mg/100 g(산성 메탄올 추출), 생과 기준[3]",
+   "activity_ko": "엘라지타닌의 가수분해 산물; 브라질 소비 과일 가운데 총 엘라그산이 높은 축[27]",
+   "source": [
+    3,
+    27
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "82.51 mg/100 g(산성수), 90.84 mg/100 g(산성 메탄올), 생과 기준[3]",
+   "activity_ko": "항산화 성분[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매·잎",
+   "content_text": "열매 292.23 mg/100 g(산성수), 572.32 mg/100 g(산성 메탄올), 생과 기준[3]",
+   "activity_ko": "잎에서 분리되어 생쥐 귀 부종 모델(국소 적용)에서 항염 효과[26]",
+   "source": [
+    3,
+    26
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매·잎",
+   "content_text": "열매 0.55–0.91 mg/100 g(생과)[3]; 노란색 품종의 주된 플라보노이드[9]",
+   "activity_ko": "잎에서 분리되어 국소 항염 효과[26]",
+   "source": [
+    3,
+    9,
+    26
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "이소퀘르시트린",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "갈산·엘라그산·퀘르세틴과 함께 주요 페놀 4종, 이들 최대 69.08 mg/100 g(생중량)[10]",
+   "activity_ko": "확인하지 못함(개별 활성 자료 없음)",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "beta-Cryptoxanthin",
+   "name_ko": "베타-크립토잔틴",
+   "class": "카로티노이드",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "all-trans-β-크립토잔틴 286.7 µg/100 g(생과)[11]",
+   "activity_ko": "프로비타민 A 카로티노이드[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Lutein",
+   "name_ko": "루테인",
+   "class": "카로티노이드",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "all-trans-루테인 55.5 µg/100 g(생과)[11]",
+   "activity_ko": "카로티노이드 색소[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Fructose",
+   "name_ko": "과당",
+   "class": "당류",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "최대 5.28 g/100 g(생중량), 주된 당[10]",
+   "activity_ko": "단맛의 주성분[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "최대 589.30 mg/100 g(생중량), 가장 많은 무기질[10]",
+   "activity_ko": "필수 무기질[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Spathulenol",
+   "name_ko": "스파툴레놀",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "잎(정유)",
+   "content_text": "잎 정유 12.6%[24]; 봄 16.02%, 여름 18.17%[25]",
+   "activity_ko": "정유가 황색포도상구균 억제(MIC 156.2 µg/mL)[24]",
+   "source": [
+    24,
+    25
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "생과(과육+껍질, 씨 제거; 상파울루주 과수원산)",
+   "basis": "100 g 당(생중량)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 88.11,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 0.52,
+     "unit": "g"
+    },
+    {
+     "name": "총탄수화물",
+     "value": 9.58,
+     "unit": "g"
+    },
+    {
+     "name": "총당",
+     "value": 6.63,
+     "unit": "g"
+    },
+    {
+     "name": "총식이섬유",
+     "value": 2.95,
+     "unit": "g"
+    },
+    {
+     "name": "수용성 식이섬유",
+     "value": 0.87,
+     "unit": "g"
+    },
+    {
+     "name": "불용성 식이섬유",
+     "value": 2.08,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 0.74,
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": 0.39,
+     "unit": "g"
+    },
+    {
+     "name": "에너지",
+     "value": 44.77,
+     "unit": "kcal"
+    }
+   ],
+   "source": [
+    5
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "시아니딘-3-글루코사이드",
+   "part": "열매(과육+껍질, 생과)",
+   "content": "251.10 ± 21.7 µg/g(생중량), 안토시아닌 중 상대 함량 97.29%[5]",
+   "method": "UHPLC-ESI-MS/MS(MRM)",
+   "conditions": {
+    "instrument": "Waters UHPLC + Xevo TQS 삼중사중극자 질량분석기(ESI)",
+    "column": "ACQUITY UPLC BEH C18, 1.7 µm(길이·내경 원문에 없음)",
+    "mobile_phase": "A: 1% 포름산 수용액, B: 1% 포름산 함유 아세토니트릴",
+    "gradient": "1분부터 A:B 90:10 → 4분에 걸쳐 50:50, 총 분석 9분",
+    "flow": "0.35 mL/min",
+    "temp": "",
+    "detection": "ESI 양이온 모드, MRM(15성분 동시 탐색); 시아니딘-3-글루코사이드 m/z 449 → 287/162; 이온원 150 °C, 탈용매 300 °C; 원문 표기 '콘과 캐필러리 전압 각각 3.1 kV, 49 V'",
+    "injection": "",
+    "sample_prep": "균질화한 과육+껍질 2 g에 80% 메탄올(1% 포름산) 15 mL로 3회 침지(초음파 10분), 5000 rpm 5분 원심, 최종 50 mL, 0.22 µm 여과",
+    "standard": "시아니딘-3-글루코사이드·델피니딘-3-글루코사이드·펠라르고니딘-3-글루코사이드·말비딘-3,5-디글루코사이드 염화물 표준품",
+    "linearity": "보충자료에 있다고 적힘(확인 못함)",
+    "lod": "",
+    "loq": "",
+    "recovery": "소화 후 시료 SPE(C18) 정제 시 상대 회수율 85% 초과(예비시험)"
+   },
+   "rationale": "보라색 열매 안토시아닌의 대부분을 차지해 색·항산화 품질의 지표로 정량됨; 전문 확인, 칼럼 길이·온도·주입량·검출한계는 원문 본문에 없음[5].",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.1002/jsfa.70436",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨(갈산·엘라그산 등 11종 동시 정량)",
+   "part": "열매(동결건조 생과)",
+   "content": "카테킨 572.32 ± 9.15, 갈산 90.84 ± 1.75, 엘라그산 58.58 ± 3.27 mg/100 g 생과(산성 메탄올 추출)[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200 HPLC(자동시료주입기 G1329A, 4원 펌프 G1311A, DAD G1315D, 탈기기 G1322A, 칼럼 항온기 G1316A)",
+    "column": "Zorbax Eclipse C-18, 4.6 × 150 mm, 5.0 µm",
+    "mobile_phase": "A: 4% 포름산 수용액, B: 아세토니트릴",
+    "gradient": "0–20분 12–20% B; 20–40분 20–50% B; 40–50분 50% B; 50–52분 50–12% B; 52–55분 12% B",
+    "flow": "1 mL/min",
+    "temp": "35 °C",
+    "detection": "DAD 280 nm(카테킨·갈산 등), 340 nm",
+    "injection": "20 µL",
+    "sample_prep": "동결건조 열매 분쇄(30 mesh) 20 g을 산성 메탄올 또는 산성수(0.1% HCl) 200 mL로 암소 16시간 교반, 8000 × g 20분(4 °C) 원심 후 동결건조; 추출물 100 mg/mL 물에 녹여 초음파 15분·볼텍스 60분, 20,000 × g 60분 원심, 0.45 µm PVDF 여과",
+    "standard": "갈산·카테킨·바닐산·쿠마르산·엘라그산·나린게닌·카페산·페룰산·시납산·퀘르세틴·루테올린 등 15종, 아세토니트릴 0–100 µg/mL",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매에서 가장 많이 정량된 개별 페놀로 항산화·항염 활성 시료의 성분 지표가 됨; 전문 확인, 검출·정량한계와 회수율은 원문에 없음[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0285625",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "안토시아닌 9종 프로파일(시아니딘-3-글루코사이드 등)",
+   "part": "열매 과육(미국 플로리다 수확)",
+   "content": "주요 두 성분이 520 nm 피크 면적의 12.2%·76.5%, 그다음 6.1%·3.4%, 나머지는 각 1.5% 미만(성분 번호와 이름 대응은 전문 추출본에서 확인 못함)[4]",
+   "method": "HPLC-PDA, LC-TOF-MS",
+   "conditions": {
+    "instrument": "Waters 2695 분리 모듈 + 2996 PDA; 확인용 LCT Premier XE TOF-MS(ESI)",
+    "column": "Synergi Hydro-RP 80A, 250 × 4.6 mm, 4 µm",
+    "mobile_phase": "A: 1% 포름산 수용액, B: 아세토니트릴",
+    "gradient": "원문 표기 그대로: 95% B 등용매 10분, 6분간 95–90%, 10분간 90–85%, 15분간 85–75%, 5분간 초기 조건 복귀 후 10분 유지",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "520 nm; MS m/z 100–1000, 양·음이온 모드(캐필러리 3000/2800 V, 콘 20 V, 탈용매 400 °C, 이온원 120 °C)",
+    "injection": "",
+    "sample_prep": "과육을 에탄올:물:포름산(70:25:5) 으로 3회 블렌더 추출(각 5분), 건조 후 물에 현탁해 에틸아세테이트·n-부탄올로 분배, 부탄올층을 Sephadex LH-20(메탄올·0.1% 포름산)으로 분획",
+    "standard": "델피니딘-3-글루코사이드·시아니딘-3-글루코사이드·시아니딘-3-아라비노사이드·말비딘-3-글루코사이드·델피니딘·시아니딘 표준품(공주입으로 확인)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 과일의 안토시아닌 구성을 처음 체계적으로 밝힌 분석으로 9종 중 7종을 처음 보고; 피크 면적비만 제시하고 정량 검증값(직선성·LOD·회수율)은 없음; 전문 확인[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1016/j.foodchem.2012.01.086",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 브라질리언체리열매(Eugenia brasiliensis / Eugenia dombeyi), 사용가능, 사용가능부위: 열매; 같은 과 Surinam-cherry열매(Eugenia uniflora, 영어명 Brazilian cherry)·아라자열매(Eugenia stipitata)·Jaboticabas열매·까무까무열매 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Stability Kinetics of Anthocyanins of Grumixama Berries (Eugenia brasiliensis Lam.) during Thermal and Light Treatments — Foods 2023;12(3):565 (PMID 36766098, PMC9914202, 전문 확인)",
+   "url": "https://doi.org/10.3390/foods12030565",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Bioactive compounds, antioxidant capacity and anti-inflammatory activity of native fruits from Brazil — PLoS One 2023;18(5):e0285625 (PMID 37163497, PMC10171607, 전문 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0285625",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Anthocyanins from Eugenia brasiliensis edible fruits as potential therapeutics for COPD treatment — Food Chem 2012;134(3):1256-1262 (PMID 25005941, PMC4096213, 전문 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2012.01.086",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Bioaccessibility of anthocyanins and bioactive compounds from Brazilian berries and their food matrix interaction: an in vitro gastrointestinal digestion study coupled to UHPLC-ESI-TQD-MS/MS analysis — J Sci Food Agric 2026 (PMID 41612125, PMC12988717, 전문 확인)",
+   "url": "https://doi.org/10.1002/jsfa.70436",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Population genomics of Brazilian native fruit species of Eugenia spp. (Myrtaceae) for conservation and improvement — Front Plant Sci 2026 (PMID 41608608, PMC12836885, 전문 확인)",
+   "url": "https://doi.org/10.3389/fpls.2025.1670349",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Comparative analysis of the complete chloroplast genomes from six Neotropical species of Myrteae (Myrtaceae) — Genet Mol Biol 2020;43(2):e20190302 (PMID 32384134, PMC7212760, 전문 확인)",
+   "url": "https://doi.org/10.1590/1678-4685-GMB-2019-0302",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Chemical Approach to the Optimization of Conditions Using HS-SPME/GC-MS for Characterization of Volatile Compounds in Eugenia brasiliensis Fruit — Molecules 2022;27(15):4955 (PMID 35956905, PMC9370820, 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules27154955",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Identification of Ellagitannins and Flavonoids from Eugenia brasilienses Lam. (Grumixama) by HPLC-ESI-MS/MS — J Agric Food Chem 2015;63(22):5417-5427 (PMID 25990484, 초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jafc.5b01195",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Grumixama (Eugenia brasiliensis Lamarck) functional phytochemicals: Effect of environmental conditions and ripening process — Food Res Int 2022;157:111460 (PMID 35761695, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2022.111460",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Phenolic compounds and carotenoids from four fruits native from the Brazilian Atlantic Forest — J Agric Food Chem 2014;62(22):5072-5084 (PMID 24780053, 초록 확인)",
+   "url": "https://doi.org/10.1021/jf501211p",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Eugenia brasiliensis leaves extract attenuates visceral and somatic inflammatory pain in mice — J Ethnopharmacol 2018;217:178-186 (PMID 29462700, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2018.02.026",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Toxicological and pharmacological effects of Eugenia brasiliensis Lam. (Myrtaceae) leaves in mice — J Ethnopharmacol 2023 (PMID 36841377, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2023.116309",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Bioprospection of Eugenia brasiliensis, a Brazilian native fruit, as a source of anti-inflammatory and antibiofilm compounds — Biomed Pharmacother 2018;102:132-139 (PMID 29550636, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.biopha.2018.03.034",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Potential antiproliferative activity of polyphenol metabolites against human breast cancer cells and their urine excretion pattern in healthy subjects following acute intake of a polyphenol-rich juice of grumixama — Food Funct 2017;8(6):2266-2274 (PMID 28541359, 초록 확인)",
+   "url": "https://doi.org/10.1039/c7fo00076f",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Human urine metabolomic signature after ingestion of polyphenol-rich juice of purple grumixama (Eugenia brasiliensis Lam.) — Food Res Int 2019;120:544-552 (PMID 31000270, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2018.11.004",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Native Brazilian fruits: postprandial glycemic control and carbohydrate-enzyme inhibition - insights from a randomized crossover clinical trial — Food Funct 2025 (PMID 40145937, 초록 확인)",
+   "url": "https://doi.org/10.1039/d4fo03749a",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Purple grumixama anthocyanins (Eugenia brasiliensis Lam.) attenuate obesity and insulin resistance in high-fat diet mice — Food Funct 2021;12(8):3680-3691 (PMID 33900317, 초록 확인)",
+   "url": "https://doi.org/10.1039/d0fo03245j",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Brazilian berry waste as a source of bioactive compounds: grumixama (Eugenia brasiliensis Lam.) as a case study — Food Funct 2023 (PMID 37051824, 초록 확인)",
+   "url": "https://doi.org/10.1039/d2fo04107c",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "New insights into the utilization of grumixama (Eugenia brasiliensis Lamarck): Valorization of perishable native fruits through the production of powders by the foam-mat drying technique — Food Res Int 2025 (PMID 41703814, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2025.118312",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Grumixama extract as natural additive on fermented sausage to control lipid oxidation — Meat Sci 2025 (PMID 41317662, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.meatsci.2025.109999",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Update on the Technological Potential and Biological Properties of Anthocyanins from Grumixama Fruits (Eugenia brasiliensis) — Plant Foods Hum Nutr 2025 (PMID 40580218, 초록 확인)",
+   "url": "https://doi.org/10.1007/s11130-025-01384-x",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Ripening stage impacts nutritional components, antiglycemic potential, digestibility and antioxidant properties of grumixama (Eugenia brasiliensis Lam.) fruit — Food Res Int 2024 (PMID 38309876, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2024.113956",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Chemical composition and antibacterial activity of essential oils of Eugenia species — J Nat Med 2009;63(3):345-350 (PMID 19308653, 초록 확인)",
+   "url": "https://doi.org/10.1007/s11418-009-0329-5",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Evaluation of seasonal chemical composition, antibacterial, antioxidant and anticholinesterase activity of essential oil from Eugenia brasiliensis Lam. — Nat Prod Res 2015;29(3):289-292 (PMID 25219800, 초록 확인)",
+   "url": "https://doi.org/10.1080/14786419.2014.958736",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Topical anti-inflammatory activity of Eugenia brasiliensis Lam. (Myrtaceae) leaves — J Pharm Pharmacol 2008;60(4):479-487 (PMID 18380921, 초록 확인)",
+   "url": "https://doi.org/10.1211/jpp.60.4.0011",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Potential dietary sources of ellagic acid and other antioxidants among fruits consumed in Brazil: jabuticaba (Myrciaria jaboticaba (Vell.) Berg) — J Sci Food Agric 2012;92(8):1679-1687 (PMID 22173652, 초록 확인)",
+   "url": "https://doi.org/10.1002/jsfa.5531",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Unexplored endemic fruit species from Brazil: Antibiofilm properties, insights into mode of action, and systemic toxicity of four Eugenia spp. — Microb Pathog 2017;105:280-287 (PMID 28259673, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.micpath.2017.02.044",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Wild Brazilian species of Eugenia genera (Myrtaceae) as an innovation hotspot for food and pharmacological purposes — Food Res Int 2019;121:57-72 (PMID 31108783, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2019.03.018",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Composition and potential health effects of dark-colored underutilized Brazilian fruits - A review — Food Res Int 2020;137:109744 (PMID 33233309, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2020.109744",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Hot and cold infusions of Brazilian berries: bioactive potential and storage stability — Nat Prod Res 2025 (PMID 40153703, 초록 확인)",
+   "url": "https://doi.org/10.1080/14786419.2025.2481469",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Enhancing the functionality of yogurt: Impact of exotic fruit pulps addition on probiotic viability and metabolites during processing and storage — Food Res Int 2024 (PMID 39614492, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2024.115057",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Recovery of anthocyanins from residues of Rubus fruticosus, Vaccinium myrtillus and Eugenia brasiliensis by ultrasound assisted extraction, pressurized liquid extraction and their combination — Food Chem 2017;231:1-10 (PMID 28449984, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2017.03.060",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Integrating Morpho-Anatomy and Histochemistry to Characterize Native Brazilian Eugenia Species — Microsc Microanal 2026;32(4) (PMID 42396606, 초록 확인)",
+   "url": "https://doi.org/10.1093/mam/ozag052",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Involvement of monoaminergic systems in the antidepressant-like effect of Eugenia brasiliensis Lam. (Myrtaceae) in the tail suspension test in mice — J Ethnopharmacol 2012;143(2):720-731 (PMID 22884868, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2012.07.038",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

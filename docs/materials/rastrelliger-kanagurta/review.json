@@ -1,0 +1,134 @@
+{
+ "slug": "rastrelliger-kanagurta",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 62,
+ "checked_items": 57,
+ "verified": 100,
+ "fixed": 14,
+ "removed": 4,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.biology",
+   "before": "벵골만 비사카파트남 개체에서는 기생충 15종이 나왔고, 대부분 이 종에만 붙는 전문 기생충이어서 플랑크톤 식성을 반영한다고 해석되었다[9].",
+   "after": "벵골만 비사카파트남 개체에서는 기생충 15종이 나왔고 2종을 뺀 나머지는 이 종에만 붙는 전문 기생충이었으며, 기생충상 전체는 플랑크톤 식성을 반영한다고 해석되었다[9].",
+   "why": "[9] 초록: 숙주 특이성과 플랑크톤 식성 반영은 별개 서술(인과 연결 아님), 예외 2종 명시"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "줄무늬고등어속에는 줄무늬고등어(R. kanagurta), 짧은고등어(R. brachysoma), 섬고등어(R. faughni) 세 종이 있다[2].",
+   "after": "줄무늬고등어속에는 줄무늬고등어(R. kanagurta)와 R. brachysoma(영명 short mackerel), R. faughni(영명 island mackerel) 세 종이 있다[2].",
+   "why": "'짧은고등어'·'섬고등어' 국문명은 식약처 목록·출처 어디에도 없음 — 출처 [2]의 영명으로 바꿈"
+  },
+  {
+   "where": "sections.related_species",
+   "before": " 베트남 히스타민 연구처럼 'sp.'로만 적힌 자료는 속 수준 자료로만 다루었다[23].",
+   "after": " 'sp.'로만 적혀 종을 확정할 수 없는 자료(예: 베트남 히스타민 연구)는 이 문서에 넣지 않았다.",
+   "why": "지시: 히스타민은 이 종 자료로만 — 종 미확정(Rastrelliger sp.) 출처 [23] 제외"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "짧은고등어와 줄무늬고등어가",
+   "after": "R. brachysoma와 줄무늬고등어가",
+   "why": "출처 없는 국문명 '짧은고등어' 제거"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "짧은고등어와 줄무늬고등어의 유전체 크기",
+   "after": "R. brachysoma와 줄무늬고등어의 유전체 크기",
+   "why": "출처 없는 국문명 제거"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "짧은고등어(8.30%)",
+   "after": "R. brachysoma(8.30%)",
+   "why": "출처 없는 국문명 제거"
+  },
+  {
+   "where": "sections.safety",
+   "before": " 베트남에서 2024년 고등어과 생선으로 인한 히스타민 식중독 4건(입원 400명 이상)이 있었고, 시장의 구운 줄무늬고등어속 생선은 최고 319 mg/kg으로 1만 회 섭취당 3–6건의 위험이 추정되었다[23].",
+   "after": " 인도 연안 조사에서는 바실루스(Bacillus)균이 이 생선에서 히스타민을 더 많이 만들었고[25], −18 °C 냉동 저장에서는 송풍 냉동 시료가 판냉동 시료보다 히스타민이 유의하게 더 생겼다[24].",
+   "why": "[23]은 학명이 'sp.'로만 남아 종 미확정 — 지시(히스타민은 이 종 자료로만)에 따라 삭제. 또한 319 mg/kg 은 '시장'이 아닌 슈퍼마켓 구운 제품 값이었음. 같은 문단을 이 종 자료([25]·[24])로 채움"
+  },
+  {
+   "where": "sections.safety",
+   "before": " 인도 연안 조사에서는 바실루스(Bacillus)균이 이 생선에서 히스타민을 더 많이 만들었다[25]. 태국",
+   "after": " 태국",
+   "why": "[25] 문장을 히스타민 문단으로 옮김(중복 제거)"
+  },
+  {
+   "where": "compounds.Histamine",
+   "before": "갓 잡은 살에서 검출되지 않음[17]; 베트남 시장 구운 줄무늬고등어속(Rastrelliger sp.) 최고 319 mg/kg, 생물 최고 109 mg/kg[23]",
+   "after": "갓 잡은 살에서 검출되지 않음, 0–23 °C 저장 중 모두 유의하게 증가(23 °C에서 가장 두드러짐)[17]",
+   "why": "[23] 종 미확정(sp.) 자료 제거; 319 mg/kg 은 슈퍼마켓 구운 제품이었음"
+  },
+  {
+   "where": "compounds.Calcium.activity_ko",
+   "before": "뼈가 시료 무게에 크게 기여했다고 설명되었다[14]",
+   "after": "필수 무기질로 함께 정량되었고, 연구진은 시료 무게의 상당 부분이 뼈라고 설명했다(칼륨-40 값 해석에서)[14]",
+   "why": "[14] 원문의 '뼈가 시료 무게에 기여' 설명은 칼륨(K-40) 해석이며 칼슘 설명이 아님"
+  },
+  {
+   "where": "compounds.Selenium.content_text",
+   "before": "말라카 해협 지점 평균 0.035–0.0938 mg/kg(건중량)[14]; 인도 하이데라바드 시판품 0.01 mg/kg[32]",
+   "after": "말라카 해협 지점 평균 0.035–0.0938 mg/kg(어체 건조 분말, 건중량)[14]; 인도 하이데라바드 시판품 0.01 mg/kg(초록, 생/건 기준 미기재)[32]",
+   "why": "[32] 값은 다른 시료·기준(초록에 생/건 미기재) — 건조 분말 값과 기준 구분"
+  },
+  {
+   "where": "compounds.Parvalbumin.content_text",
+   "before": "2차원 전기영동으로 이성질체 7종 확인; 주 이성질체 서열은 다른 고등어류 파브알부민과 90% 넘게 일치[19]",
+   "after": "2차원 전기영동으로 이성질체 7종 확인; 주 이성질체 서열은 다른 고등어류 2종의 파브알부민과 90% 넘게 일치[19]",
+   "why": "[19] 초록: '2 other mackerel species'"
+  },
+  {
+   "where": "assays[0].conditions.detection",
+   "before": "ICP-MS 원소별 질량 측정(조건 세부는 본문에 없음)",
+   "after": "",
+   "why": "원문에 없는 칸은 지움(V2 규칙)"
+  },
+  {
+   "where": "assays[2].conditions.gradient",
+   "before": "기울기 시간표는 본문에 없음",
+   "after": "",
+   "why": "원문에 없는 칸은 지움"
+  },
+  {
+   "where": "assays[2].conditions.detection",
+   "before": "다이오드 배열 검출(파장은 본문에 없음)",
+   "after": "다이오드 배열 검출기(DAD)",
+   "why": "원문에 있는 것만 남김"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "짧은고등어가 한 무리로",
+   "after": "R. brachysoma가 한 무리로",
+   "why": "출처 없는 국문명 제거"
+  },
+  {
+   "where": "sections.related_species",
+   "before": " 'sp.'로만 적혀 종을 확정할 수 없는 자료(예: 베트남 히스타민 연구)는 이 문서에 넣지 않았다.",
+   "after": "",
+   "why": "출처 없는 메타 문장 제거(종 미확정 자료 [23]은 삭제됨)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "고등어과 생선이라 상온에 두면 히스타민이 생긴다: 갓 잡은 살에서는 히스타민이 검출되지 않았으나 0–23 °C 저장 중 모두 늘었고 23 °C에서 가장 빨랐다[17].",
+   "after": "고등어과 생선이라 저장 중 히스타민이 생긴다: 갓 잡은 살에서는 히스타민이 검출되지 않았으나 0–23 °C 저장 중 모두 유의하게 늘었고 특히 23 °C에서 두드러졌다[17].",
+   "why": "[17] 초록: 0·3·10·23 °C 모두 증가, 'especially at 23°C' — '상온에서만'·'가장 빨랐다'로 좁히지 않음"
+  },
+  {
+   "where": "sources[23]",
+   "before": "Histamine risk assessment in Scombridae fish ... Nghe An Province, Vietnam (PubMed 42348769)",
+   "after": "(삭제, 이후 번호 1씩 당김: 24→23 … 32→31)",
+   "why": "초록에서 종이 'Indian mackerel (sp.)'로만 나와 종 미확정 — 지시상 히스타민은 이 종 자료로만"
+  }
+ ],
+ "unverifiable_notes": [
+  "[12] Enzymologia 1960 은 PubMed 에 초록이 없어 서지(연도·주제)만 확인",
+  "[16] 사일리지 HPLC 조건은 PubMed 초록(41.2·31.3 mg/g)과 작성자 전문 메모로 대조, 이번에 전문은 다시 열지 않음",
+  "[10]·[18]·[22] 초록은 영명 'Indian mackerel'만 씀(FAO 영명상 R. kanagurta) — 그대로 두되 출처 제목에 표시돼 있음",
+  "[2]·[7]·[14]·[15] 는 PMC 전문으로 수치 대조 완료; 식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 2행(줄무늬고등어·훈연줄무늬고등어, 부위 '-', 사용가능)과 card.json 일치 확인",
+  "국문명 '줄무늬고등어'는 식약처 목록 원료명 근거; 근연종 국문명(짧은고등어·섬고등어)은 근거가 없어 영명으로 바꿈"
+ ]
+}

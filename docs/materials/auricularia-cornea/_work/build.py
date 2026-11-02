@@ -1,0 +1,222 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pmc(p): return f"https://pmc.ncbi.nlm.nih.gov/articles/{p}/"
+def pm(p): return f"https://pubmed.ncbi.nlm.nih.gov/{p}/"
+S = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 뿔목이(Auricularia cornea Ehrenb.) 및 같은 목록의 털목이버섯 항목", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Global Diversity and Updated Phylogeny of Auricularia (Auriculariales, Basidiomycota). J Fungi 2021;7(11):933", pmc("PMC8625027"), "MDPI (PMC)", A),
+ ("Validation of reference genes for quantitative gene expression analysis in Auricularia cornea. J Microbiol Methods 2019;163:105658 (PubMed 초록)", pm("31251967"), "Elsevier (PubMed)", A),
+ ("Multilayer perceptron-genetic algorithm as a promising tool for modeling cultivation substrate of Auricularia cornea Native to Iran. PLoS One 2023;18(2):e0281982 (PubMed 초록)", pmc("PMC9942997"), "PLOS (PMC)", A),
+ ("Medicinal Value, Genetic Diversity, and Genetic Relationship Analysis of Auricularia cornea (Agaricomycetes) Based on ITS, ISSR, and SRAP Markers. Int J Med Mushrooms 2024;26(5):43-57 (PubMed 초록)", pm("38780422"), "Begell House (PubMed)", A),
+ ("Map-based cloning of genes encoding key enzymes for pigment synthesis in Auricularia cornea. Fungal Biol 2019;123(11):843-853 (PubMed 초록)", pm("31627860"), "Elsevier (PubMed)", A),
+ ("Characterization, antioxidant activity, and mineral profiling of Auricularia cornea mushroom strains. Front Nutr 2023;10:1167805", pmc("PMC10315456"), "Frontiers (PMC)", A),
+ ("Genomic Analyses Provide Insights Into the Evolutionary History and Genetic Diversity of Auricularia Species. Front Microbiol 2019;10:2255", pmc("PMC6786273"), "Frontiers (PMC)", A),
+ ("High-quality genome assembly and multi-omics analysis of pigment synthesis pathway in Auricularia cornea. Front Microbiol 2023;14:1211795", pmc("PMC10308021"), "Frontiers (PMC)", A),
+ ("De novo genome assembly and functional insights of the first commercial pink Auricularia cornea. Genomics 2024;116(5):110902 (PubMed 초록)", pm("39053612"), "Elsevier (PubMed)", A),
+ ("Velvet Family Members Regulate Pigment Synthesis of the Fruiting Bodies of Auricularia cornea. J Fungi 2023;9(4):412 (PubMed 초록)", pmc("PMC10140996"), "MDPI (PMC)", A),
+ ("Anti-Diabetic Activity of Polysaccharides from Auricularia cornea var. Li. Foods 2022;11(10):1464", pmc("PMC9140784"), "MDPI (PMC)", A),
+ ("The Protective Effect of Auricularia cornea var. Li. Polysaccharide on Alcoholic Liver Disease and Its Effect on Intestinal Microbiota. Molecules 2023;28(24):8003", pmc("PMC10745760"), "MDPI (PMC)", A),
+ ("Purification and structural characterization of polysaccharides isolated from Auricularia cornea var. Li. Carbohydr Polym 2020;230:115680 (PubMed 초록)", pm("31887951"), "Elsevier (PubMed)", A),
+ ("Structural characterization and antioxidant activity evaluation of a polysaccharide from pink Auricularia cornea. Int J Biol Macromol 2025;284:138149 (PubMed 초록)", pm("39613087"), "Elsevier (PubMed)", A),
+ ("Structural characterization of Auricularia cornea 'Yumuer' polysaccharides and their alleviation of allergic asthma in mice via gut microbiota modulation. Bioorg Chem 2026;168:109331 (PubMed 초록)", pm("41352215"), "Elsevier (PubMed)", A),
+ ("Multiple fingerprint and pattern recognition analysis on polysaccharides of four edible mushrooms. Int J Biol Macromol 2024;259:129236 (PubMed 초록)", pm("38184032"), "Elsevier (PubMed)", A),
+ ("Cultivation of a Wild Strain of Wood Ear Auricularia cornea from Brazil. Curr Microbiol 2024;81(11):390 (PubMed 초록)", pm("39367930"), "Springer (PubMed)", A),
+ ("Effect of different drying temperatures on the rehydration of the fruiting bodies of Yu Muer (Auricularia cornea) and screening of browning inhibitors. Food Sci Nutr 2020;8(11):6037-6046 (PubMed 초록)", pmc("PMC7684618"), "Wiley (PMC)", A),
+ ("Bactericidal Effects of Pulsed-Light Treatment Against Burkholderia gladioli pv. cocovenenans in Auricularia: Mechanisms and Influences. Foods 2025;14(13):2246", pmc("PMC12248668"), "MDPI (PMC)", A),
+ ("Metal Content in Caps and Stalks of Edible Mushrooms: Health Benefits and Risk Evaluation. Biol Trace Elem Res 2024;202(5):2347-2356 (PubMed 초록)", pm("37542593"), "Springer (PubMed)", A),
+ ("Taxonomy, biological characterization and fungicide sensitivity assays of Hypomyces cornea sp. nov. causing cobweb disease on Auricularia cornea. Fungal Biol 2024;128(1):1616-1625 (PubMed 초록)", pm("38341267"), "Elsevier (PubMed)", A),
+ ("Browning in pure white Auricularia cornea 'Yumuer': identification and control management of conditional bacterial disease induced by Pseudomonas canadensis. Pest Manag Sci 2026;82(4):3360-3373 (PubMed 초록)", pm("41399274"), "Wiley (PubMed)", A),
+ ("LC-MS/MS-based targeted carotenoid and anthocyanidin metabolic profile of Auricularia cornea under blue and red LED light exposure. J Photochem Photobiol B 2024;259:113005 (PubMed 초록)", pm("39126797"), "Elsevier (PubMed)", A),
+ ("LC-MS/MS-based targeted amino acid metabolic profile of Auricularia cornea grown on pinecone substrate. Food Chem 2024;432:137247 (PubMed 초록)", pm("37647707"), "Elsevier (PubMed)", A),
+ ("Aragezolone, a Novel Purple-Pink Pigment with a Unique Structure and Healthy Benefits from the Edible Mushroom Auricularia cornea. J Agric Food Chem 2025;73(28):17663-17671 (PubMed 초록)", pm("40586432"), "American Chemical Society (PubMed)", A),
+ ("Effects of Ultrasound Treatment on Extraction and Rheological Properties of Polysaccharides from Auricularia cornea var. Li. Molecules 2019;24(5):939 (PubMed 초록)", pmc("PMC6429225"), "MDPI (PMC)", A),
+ ("Uses and importance of wild fungi: traditional knowledge from the Tshopo province in the Democratic Republic of the Congo. J Ethnobiol Ethnomed 2018;14:13 (PubMed 초록)", pmc("PMC5809825"), "BioMed Central (PMC)", A),
+ ("Genome-Wide Association Study Reveals Genetic Loci, Candidate Genes and Favorable Haplotypes for Important Agronomic Traits in Auricularia cornea. J Fungi 2026;12(3):186 (PubMed 초록)", pmc("PMC13027524"), "MDPI (PMC)", A),
+ ("산림청 국립수목원 보도자료 「우리가 자주 먹는 '목이버섯'은 알고 보니 다른 목이버섯」(2021) — WebSearch 요약으로만 확인, 원문은 네트워크 차단으로 열지 못함", "https://kna.forest.go.kr/kfsweb/cop/bbs/selectBoardArticle.do?nttId=3158352&bbsId=BBSMSTR_1036&mn=UKNA_05_02&ctgryLrcls=CTGRY146", "산림청 국립수목원", A),
+ ("흰색 뿔목이 신품종 '새얀'의 특성. 한국버섯학회지 2024;22(4):226-230 — WebSearch 요약으로만 확인, KCI 원문은 네트워크 차단으로 열지 못함", "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003156023", "한국버섯학회 (KCI)", A),
+ ("E-sensing coupled metabolomics unravels flavor-texture synergy in citric acid-thermally processed pink Auricularia cornea. Food Chem 2026;496:146789 (PubMed 초록)", pm("41332024"), "Elsevier (PubMed)", A),
+ ("The Antidiabetic and Antinephritic Activities of Auricularia cornea (An Albino Mutant Strain) via Modulation of Oxidative Stress in the db/db Mice. Front Immunol 2019;10:1039 (PubMed 초록)", pmc("PMC6517500"), "Frontiers (PMC)", A),
+ ("Transcriptome sequencing reveals iron acquisition-related genes and iron acquisition systems in Auricularia cornea. BMC Genomics 2026;27:(1) (PubMed 초록)", pmc("PMC13041173"), "BioMed Central (PMC)", A),
+]
+sources = [{"n": i+1, "title": t, "url": u, "publisher": p, "accessed": a} for i,(t,u,p,a) in enumerate(S)]
+
+sections = [
+ {"key":"overview","title":"한눈에 보기","body":
+  "뿔목이는 목이속(Auricularia)에 속하는 젤라틴질 담자균류이며, 목이속 버섯은 대개 활엽수의 죽은 나무·그루터기·쓰러진 줄기에서 자라며 숲의 목재 분해에 중요한 역할을 한다[2]. "
+  "식품의약품안전처 「식품원료 목록」에는 원료명 '뿔목이', 학명 Auricularia cornea Ehrenb.로 올라 있고, 상태는 '사용가능', 사용 조건과 부위는 '자실체'이다[1]. "
+  "건강기능식품 고시형 원료의 원재료 목록에는 없어 고시된 지표성분·기준은 확인하지 못함[1].\n\n"
+  "학명은 주의해서 읽어야 한다[2]. 2021년 목이속 분류 연구는 중국 남부에서 '마오무얼(Maomuer)'로 재배되며 100년 넘게 A. polytricha로 불린 버섯이 실제로는 A. cornea이고, A. polytricha라는 이름은 아메리카에 분포하는 A. nigricans의 이명이라고 보았다[2]. "
+  "중국 논문 일부도 A. cornea를 '예전 이름 A. polytricha'로 적는다[3, 4]. "
+  "반면 식약처 목록에는 학명 칸이 'Auricularia polytricha Sacc. / Auricularia nigricans (Sw.) Birkebak'인 털목이버섯이 뿔목이와 별도 항목으로 올라 있다[1]. "
+  "그래서 이 문서는 'A. cornea' 이름으로 보고된 자료만 쓰고, 'A. polytricha' 이름의 자료와 털목이버섯 항목은 섞지 않는다[1, 2]. "
+  "연구는 흰 자실체 계통(위무얼, A. cornea var. Li.)과 분홍 계통의 다당체·색소·유전체에 많이 모여 있다[9, 12, 15]."},
+ {"key":"history","title":"이름과 이용의 역사","body":
+  "2021년 분류 연구는 이 종의 학명 아래에 1822년 「Systema mycologicum」에 실린 다른 속의 조합과 1942년·1985년·1991년에 발표된 이름들을 이명으로 모았다[2]. "
+  "중국 재배 버섯 '마오무얼'은 처음 A. polytricha로 보고된 뒤 2015년 무렵까지 중국과 다른 아시아·태평양 지역의 거의 모든 보고가 그 이름을 썼다[2]. "
+  "1991년 흰 자실체를 근거로 기재된 A. polytricha var. argentea도 이 연구에서 A. cornea의 이명으로 정리되었다[2].\n\n"
+  "흰 자실체 계통은 중국에서 '위무얼(Yumuer)'로 재배되며, 지린농업대학 연구진이 안정된 자연 돌연변이 순백색 계통을 골라 길들인 것이 'A. cornea var. Li.'로 소개된다[2, 12]. "
+  "2019년 논문은 2016년 중국의 A. cornea 생산량을 183.4만 t으로 적고 목이속에서 가장 널리 재배되는 버섯이라고 했다[6]. "
+  "분홍색 품종은 2022년에 처음 상업 재배되었다고 보고되었다[10]. "
+  "일본에서는 '아라게키쿠라게(Aragekikurage)'라는 이름으로 불린다[26]. "
+  "콩고민주공화국 초포 지역 주민 조사에서는 식용으로 높이 평가되는 야생 버섯 다섯 종 가운데 하나였다[28].\n\n"
+  "국내에서는 2021년 국립수목원이 목이속 분류 결과를 발표하며 '털목이'로 알려진 종 가운데 뿔목이가 있다고 알렸다는 검색 요약이 있으나, 원문은 열어 보지 못했다[30]."},
+ {"key":"biology","title":"균학적 특징","body":
+  "2021년 분류 연구의 기재에 따르면 자실체는 물을 머금으면 젤라틴질이고, 황갈색~적갈색 또는 담황색~흰색이며, 홀로 또는 뭉쳐 나고 자루가 없거나 짧다[2]. "
+  "갓은 원반 또는 귀 모양으로 최대 9 cm 정도 돋아나고 두께는 1–2 mm(마르면 0.2–0.48 mm)이다[2]. "
+  "윗면은 털이 빽빽하며, 아랫면(자실층)은 대개 주름 없이 매끈하다[2].\n\n"
+  "단면에는 뚜렷한 수층(medulla)이 있고 자실층에 결정이 흩어져 있다[2]. "
+  "털은 무색·두꺼운 벽으로 180–425 × 6–9 µm이고, 담자기는 곤봉 모양에 가로 격벽이 3개로 60–75 × 4–6 µm, 포자는 소시지 모양으로 13.8–16.5 × 4.5–6 µm이다[2]. "
+  "같은 연구는 분포를 아프리카·남북아메리카·아시아·유럽으로 적고, 아열대·열대의 자연림과 관리림에서 매우 흔하다고 했다[2].\n\n"
+  "자실체 색은 빛에 따라 달라져, 붉은빛을 쬔 자실체는 밝은 흰색, 푸른빛을 쬔 자실체는 더 짙은 붉은색을 띠었다[24]. "
+  "철이 많은 배지에서는 시데로포어를 만들고, 균사와 원기의 철 함량이 크게 늘었다[34]."},
+ {"key":"related_species","title":"가까운 종과 혼동","body":
+  "2021년 분류 연구는 A. cornea를 털이 빽빽하고 수층이 있는 종들의 복합군에 넣었다[2]. "
+  "검색표에서 A. cornea는 자실체가 대개 적갈색(때로 흰색)이고 결정과 단순 격벽이 있으며, 자실체가 크림색~꿀색이고 결정이 없으며 포자가 15.6–18 × 5.5–7.5 µm인 A. eburnea와 구별된다[2]. "
+  "털목이 학명으로 쓰이는 A. nigricans는 윗면 털이 300–600 × 7–9 µm로 A. cornea(180–425 µm)보다 길다[2].\n\n"
+  "중국에서 재배되는 갈색 '마오무얼'과 흰 '위무얼'은 같은 종으로 정리되었고, 다당체 지문 분석 연구도 둘을 같은 종으로 보았다[2, 17]. "
+  "같은 연구는 자일로스·푸코스·아라비노스·포도당 등을 표지로 골라 흑목이·흰목이 다당체와 구별했다[17]. "
+  "A. cornea 유전체는 같은 속의 공개 유전체(ASM228711, 49.76 Mbp)보다 크고, 이 유전체와 공유하는 상동 동조 구간은 14%에 그쳤다[8].\n\n"
+  "식약처 목록에는 목이버섯·털목이버섯·흑목이·전나무목이·작은목이·짧은털목이가 뿔목이와 별도 항목으로 올라 있으므로 원료명과 학명을 함께 확인해야 한다[1]."},
+ {"key":"cultivation","title":"재배와 병해","body":
+  "중국 연구의 50개 균주 재배 시험은 톱밥 78%·밀기울 20%·탄산칼슘 1%·황산칼슘 1% 배지(수분 55–60%)를 0.5 kg씩 봉지에 담아 121 °C에서 120분 살균하고, 25 ± 1 °C 어두운 곳에서 배양한 뒤 20 ± 2 °C·상대습도 90% 넘는 곳에서 버섯을 냈다[7]. "
+  "접종부터 수확까지 80–166일이 걸렸고, 생물학적 효율은 균주에 따라 0.986–94.84%로 크게 달랐다[7].\n\n"
+  "이란 자생 균주는 너도밤나무 톱밥 70%·밀기울 30% 배지에서 배양 기간 19.7일, 봉지당 생버섯 131.7 g, 생물학적 효율 53.1%로 가장 좋았다[4]. "
+  "브라질 대서양림에서 채집해 길들인 야생 균주는 30 °C에서 균사가 가장 잘 자랐고, 유칼립투스 톱밥에서 생물학적 효율 106.90 ± 13.28%를 보였다[18].\n\n"
+  "중국에서는 새 종 Hypomyces cornea가 일으키는 거미줄병이 전국 평균 16.65%로 발생했다[22]. "
+  "흰 품종 위무얼에서는 Pseudomonas canadensis에 의한 갈변병이 28 °C 넘는 고온과 90% 넘는 습도에서 번졌다[23]. "
+  "국내 흰색 뿔목이 품종 '새얀'이 2024년 보고되었다는 검색 요약이 있으나 원문은 확인하지 못했고, 국내 생산 면적·생산량 공식 통계도 확인하지 못함[31]."},
+ {"key":"processing","title":"가공과 이용","body":
+  "흰 품종 위무얼을 말린 연구에서는 65 °C 열풍 건조가 가장 빨랐고 색도 좋았으며, 건조 전후 무게비와 복원율도 떨어지지 않았다[19]. "
+  "불릴 때는 끓인 뒤 담그는 방법이 폴리페놀산화효소 활성을 가장 낮췄고(39.87 ± 1.35 U/g), 상온 물에 불릴 때는 시트르산 6 g/L가 갈변을 가장 잘 막았다[19]. "
+  "분홍 계통은 시트르산 1.5 g/L를 넣고 100 °C에서 8분 가열하면 색 변화(ΔE*)가 21.8% 줄었다[32].\n\n"
+  "자실체 다당체 추출에서 초음파 추출(70 °C, 40분)은 수율 30.99 ± 1.93%로 열수 추출(90 °C, 3시간, 30.35 ± 1.67%)과 차이가 없었으나 순도는 88.62%로 더 높았다[27]. "
+  "브라질 야생 균주 자실체는 건조중량 기준 탄수화물 71.02%, 조섬유 19.63%, 조단백질 11.59%, 조지방 10.19%, 회분 4.24%였고 무기질은 칼륨과 인이 가장 많았다[18].\n\n"
+  "위무얼 자실체에서 분리한 다당체는 총당 약 91.74%, 분자량 478.604 kDa로 만노스·포도당·자일로스가 주성분이었다[16]. "
+  "생쥐 실험에서는 다당체가 혈당·간 손상 지표를 낮췄다는 보고가 있지만 사람 대상 근거는 확인하지 못함[12, 13]."},
+ {"key":"genetics","title":"유전체와 유전 다양성","body":
+  "2019년 연구는 A. cornea 균주 AC1을 PacBio로 해독해 24개 콘티그(N50 4.35 Mbp), 추정 크기 73.48 Mbp, GC 59.58%의 유전체를 얻었고, 반복 서열이 21.73%였다[8]. "
+  "이 유전체에는 셀룰로스·리그닌 등을 분해하는 글리코시드 가수분해효소 유전자 240개와 보조활성 효소 유전자 83개가 있었다[8]. "
+  "2023년 흰 균주 유전체는 Hi-C로 13개 염색체 수준 묶음(N50 6.03 Mb)에 단백질 암호화 유전자 18,574개를 얻었고, 흰 균주와 자주색 균주가 약 4만 년 전에 갈라졌다고 추정했다[9]. "
+  "2024년에는 분홍 품종 Fen-A1의 유전체(73.17 Mb, 스캐폴드 86개, N50 약 5.49 Mb, GC 59.09%, 유전자 19,120개, BUSCO 92.60%)가 보고되었다[10].\n\n"
+  "자실체 색은 두 쌍의 대립유전자가 정하며, 둘 다 우성일 때만 자주색이 되고 Velvet 계열 AcVeA 단백질이 어둠에서 색소 합성을 억제한다[11]. "
+  "앞선 연구는 12개 연관군(1,315.2 cM) 지도로 색 유전자 자리를 찾고 글루타밀 아미노전이효소 유전자 두 개를 후보로 제시했다[6]. "
+  "야생 균주 22개의 ISSR·SRAP 유사도는 0.73–0.97로 지역 분포와 어느 정도 관련이 있었고, 140개 유전자원 GWAS는 핵심 SNP 10개와 후보 유전자 42개를 찾았다[5, 29]. "
+  "실시간 PCR 기준 유전자로는 UBQ와 PP2A가 제안되었다[3]."},
+ {"key":"safety","title":"안전성","body":
+  "식품원료로는 자실체만 쓸 수 있다[1]. "
+  "식약처 등 공공기관의 뿔목이 알레르기·잔류·독성 정보는 확인하지 못함[1].\n\n"
+  "목이류는 말린 제품을 물에 불리는 동안 봉크렉산(bongkrekic acid)과 톡소플라빈을 만드는 Burkholderia gladioli pv. cocovenenans가 크게 늘 수 있어, 아시아·아프리카의 심각한 식중독 원인으로 지목된다[20]. "
+  "봉크렉산은 무색·무미하고 열에 안정하며 보통 식품에서 검출되지 않는다[20]. "
+  "이 세균을 A. cornea var. Li. 조각에 접종한 실험에서 펄스광(35.4 J/cm²)은 약 4 로그를 줄였다[20].\n\n"
+  "루마니아 시장의 수입산 A. cornea 등 5종 버섯의 금속 함량 조사는 독성 금속 수준이 낮아 건강 위험이 없다고 평가했다[21]. "
+  "당뇨 생쥐에 다당체를 100·400 mg/kg씩 30일 먹인 실험에서 장기 지수와 간·신장 조직에 뚜렷한 이상이 없었다[12]. 흰 돌연변이 균주 자실체를 당뇨 생쥐(db/db)에 0.1·0.4 g/kg씩 8주 먹인 실험은 혈당·지질 개선과 신장 보호를 보고했으나, 사람 대상 안전성·효과 근거는 확인하지 못함[33]. "
+  "재배 중 병해 방제로 프로클로라즈 망간 착화합물이나 스트렙토마이신이 제안된 연구가 있으나, 자실체 잔류 평가는 확인하지 못함[22, 23]."},
+]
+
+compounds = [
+ {"name":"Polysaccharide","name_ko":"자실체 다당체(총·조다당)","class":"다당체","role":"marker","part":"자실체(중국·일본 50개 균주)",
+  "content_text":"총다당(페놀-황산법) 37.63 ± 4.3–215.88 ± 2.4 mg/g, 조다당 0.63–15.64%[7]; var. Li. 초음파 추출 수율 30.99 ± 1.93%, 순도 88.62 ± 2.80%[27]",
+  "activity_ko":"조다당 1.50 mg/mL에서 DPPH 소거 최대 46.2%, ABTS 소거 최대 76.3%(시험관)[7]","source":[7,27]},
+ {"name":"beta-1,3-Glucan","name_ko":"β-(1→3)-글루칸(중성 다당 ACPN-1a)","class":"다당체","role":"bioactive","part":"자실체(var. Li.)",
+  "content_text":"중성 다당 분획 ACPN-1a가 (1→6) 결합 β-Glcp 곁사슬을 가진 β-(1→3)-글루칸으로 동정(함량 확인하지 못함)[14]",
+  "activity_ko":"구조-활성 관계 연구의 기초 자료로 제시[14]","source":[14]},
+ {"name":"D-Glucose","name_ko":"포도당(다당 구성당)","class":"단당(다당 구성 단위)","role":"marker","part":"자실체 다당체(var. Li., 분홍 계통)",
+  "content_text":"var. Li. 다당체(ACP) 42.35%(GC-MS)[12]; 분홍 계통 산성 다당 YL-D2N2 몰비 4.44[15]",
+  "activity_ko":"var. Li. 다당체의 최대 구성당[12]","source":[12,15]},
+ {"name":"D-Mannose","name_ko":"만노스(다당 구성당)","class":"단당(다당 구성 단위)","role":"marker","part":"자실체 다당체",
+  "content_text":"분홍 계통 YL-D2N2 몰비 46.56(최대 구성당)[15]; var. Li. ACP 32.41%(결과·초록은 'mannitol', 고찰·결론은 'mannose'로 표기)[12]",
+  "activity_ko":"YL-D2N2 주사슬이 만노스 잔기로 이루어짐, 3.2 mg/mL에서 과산화음이온 소거 50.82 ± 0.64%[15]","source":[15,12]},
+ {"name":"D-Xylose","name_ko":"자일로스(다당 구성당)","class":"단당(다당 구성 단위)","role":"marker","part":"자실체 다당체",
+  "content_text":"var. Li. ACP 16.83%[12]; 분홍 계통 YL-D2N2 몰비 27.52[15]",
+  "activity_ko":"목이속 버섯 다당체를 종별로 구별하는 표지 구성당의 하나[17]","source":[12,15,17]},
+ {"name":"D-Glucuronic acid","name_ko":"글루쿠론산(다당 구성당)","class":"우론산","role":"bioactive","part":"자실체 다당체",
+  "content_text":"var. Li. ACP 6.96%[12]; 분홍 계통 YL-D2N2 몰비 19.13[15]",
+  "activity_ko":"산성 다당의 곁사슬 잔기(α-D-GlcpA)[15]","source":[12,15]},
+ {"name":"D-Galacturonic acid","name_ko":"갈락투론산(다당 구성당)","class":"우론산","role":"bioactive","part":"자실체(var. Li., 효소 추출 정제 다당 AYP)",
+  "content_text":"AYP 구성 몰비 39.5(갈락토스 32.9, 포도당 23.6, 아라비노스 18.3 등과 함께)[13]",
+  "activity_ko":"AYP 50–200 mg/kg/일이 생쥐 알코올성 간 손상 지표를 낮춤(동물)[13]","source":[13]},
+ {"name":"Carotenoids","name_ko":"카로티노이드(총량)","class":"테르페노이드 색소","role":"bioactive","part":"자실체(빛 처리 40일)",
+  "content_text":"붉은빛 처리 1.1652 μg/g, 푸른빛 처리 1.1576 μg/g(LC-MS/MS, 18종 검출)[24]",
+  "activity_ko":"자실체 색과 관련된 대사물로 분석[24]","source":[24]},
+ {"name":"Anthocyanins","name_ko":"안토시아닌(총량)","class":"플라보노이드 색소","role":"bioactive","part":"자실체(빛 처리 40일)",
+  "content_text":"붉은빛 처리 0.0799 μg/g, 푸른빛 처리 0.1286 μg/g(LC-MS/MS, 11종 검출)[24]",
+  "activity_ko":"푸른빛에서 자실체가 더 붉게 된 것과 관련된 후보 대사물[24]","source":[24]},
+ {"name":"Aragezolone","name_ko":"아라게졸론(자주-분홍 색소)","class":"아이소인돌·아이속사졸론 색소","role":"bioactive","part":"자실체",
+  "content_text":"자실체에서 새로 동정(함량 확인하지 못함)[26]",
+  "activity_ko":"pH에 따라 분홍(pH 3.0)~청자색(pH 12.0), 루틴보다 강한 항산화·항당화·α-글루코시데이스 억제(시험관)[26]","source":[26]},
+ {"name":"gamma-Glutaminyl-3,4-dihydroxybenzoate","name_ko":"GDHB 색소(γ-글루타미닐-3,4-다이하이드록시벤조산)","class":"페놀계 색소","role":"bioactive","part":"자주색 균주 자실체",
+  "content_text":"자주색 균주 자실체 색소로 제시(함량 확인하지 못함)[9]",
+  "activity_ko":"시킴산 경로로 합성되며 폴리페놀산화효소 등 20개 효소 유전자가 관여한다고 해석[9]","source":[9]},
+ {"name":"gamma-Aminobutyric acid","name_ko":"감마아미노뷰티르산(GABA)","class":"아미노산","role":"bioactive","part":"자실체(솔방울 배지 재배)",
+  "content_text":"표적 아미노산 대사물 94종 중 79종 검출, 숙신산과 함께 함량이 높음(수치 확인하지 못함)[25]",
+  "activity_ko":"배지 조성에 따라 아미노산 대사물 33종이 유의하게 달라짐[25]","source":[25]},
+ {"name":"Zinc","name_ko":"아연","class":"무기질","role":"nutrient","part":"자실체(50개 균주)",
+  "content_text":"169.3 ± 14(Ac28)–486.33 ± 40 mg/kg(Ac46)(원자흡광)[7]",
+  "activity_ko":"균주 간 차이가 커 육종 지표로 제시[7]","source":[7]},
+ {"name":"Iron","name_ko":"철","class":"무기질","role":"nutrient","part":"자실체(50개 균주)",
+  "content_text":"27 ± 4.3(Ac36)–350 ± 27.5 mg/kg(Ac28)(원자흡광, 본문 표 기준; 초록의 'Ac3 788 mg/kg'은 표에서 망가니즈 값)[7]",
+  "activity_ko":"철이 많은 배지에서 균사·원기의 철 함량이 크게 늘어 철 강화 가능성이 제시됨[34]","source":[7,34]},
+ {"name":"Protein","name_ko":"조단백질","class":"영양 성분","role":"nutrient","part":"자실체(브라질 야생 균주 재배, 건조중량)",
+  "content_text":"11.59%(건조중량)[18]",
+  "activity_ko":"확인하지 못함[18]","source":[18]},
+]
+
+assays = [
+ {"role":"literature","compound":"Total polysaccharides","compound_ko":"총다당(페놀-황산법)","part":"자실체(중국·일본 50개 균주, 톱밥 봉지 재배)",
+  "content":"37.63 ± 4.3 mg/g(Ac6)–215.88 ± 2.4 mg/g(Ac1)[7]",
+  "method":"페놀-황산법 분광광도 정량(490 nm)",
+  "conditions":{"instrument":"분광광도계(기종 원문에 없음)","column":"","mobile_phase":"","gradient":"","flow":"","temp":"25 °C 암소 진탕 30분 반응",
+   "detection":"흡광도 490 nm","injection":"",
+   "sample_prep":"건조 분말 5 g을 80 °C 물 200 mL로 3시간씩 3회 추출 → 50 mL로 맞춤 → 96% 냉에탄올 150 mL, 4 °C 하룻밤 침전 → 15,000 rpm 6분 원심 → 45 °C 건조(조다당). 조다당 1 mg을 물 10 mL에 녹여 1 mL + 5% 페놀 1 mL + 진한 황산 5 mL",
+   "standard":"포도당(1 mg/mL 원액 20–180 μL, 9점, 2 mL로 맞춤)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"자실체 다당체가 이 버섯 연구의 중심 생리활성 성분이며, 이 연구는 균주 육종 평가 지표로 조다당·총다당 함량을 비교했다[7]. 검출·정량한계와 회수율은 원문에 없다[7].",
+  "source":[7],"url":pmc("PMC10315456"),"source_kind":"paper"},
+ {"role":"literature","compound":"Minerals (Zn, Fe, Mn, Cu)","compound_ko":"무기질(아연·철·망가니즈·구리)","part":"자실체(50개 균주)",
+  "content":"아연 169.3–486.33 mg/kg, 철 27–350 mg/kg, 망가니즈 213–788 mg/kg, 구리 0.133–8.40 mg/kg[7]",
+  "method":"습식 분해 후 원자흡광분광법(AAS)",
+  "conditions":{"instrument":"원자흡광분광기(기종 원문에 없음)","column":"","mobile_phase":"","gradient":"","flow":"","temp":"",
+   "detection":"원자흡광","injection":"",
+   "sample_prep":"자실체를 35 °C에서 24시간 건조 → 1 mm 체 통과 분말 → 1 g을 질산:과염소산(3:1) 혼합액으로 습식 분해",
+   "standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"균주 간 무기질 차이가 커서 영양 품질 육종 지표로 비교했다[7]. 초록의 '철 788 mg/kg(Ac3)'은 본문 표에서 망가니즈 값이므로 표 값을 따랐고, 검출·정량한계와 회수율은 원문에 없다[7].",
+  "source":[7],"url":pmc("PMC10315456"),"source_kind":"paper"},
+ {"role":"literature","compound":"Polysaccharide monosaccharide composition","compound_ko":"자실체 다당체 구성당(포도당·만노스·자일로스·글루쿠론산 등)","part":"자실체(var. Li., 지린농업대학 제공)",
+  "content":"포도당 42.35%, 만노스(원문 일부 'mannitol') 32.41%, 자일로스 16.83%, 글루쿠론산 6.96%, 갈락토스 0.77%, 푸코스 0.36%, 람노스 0.32%; 추출률 28.18 ± 1.41%, 순도 86.92 ± 2.80%[12]",
+  "method":"GC-MS",
+  "conditions":{"instrument":"6890-5975 가스크로마토그래프-질량분석기(원문 표기)","column":"","mobile_phase":"","gradient":"","flow":"","temp":"",
+   "detection":"질량분석","injection":"","sample_prep":"선행 방법으로 열수 추출 후 Sevag법으로 제단백(세부 조건은 인용 문헌에 미룸)",
+   "standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"var. Li. 다당체가 이 품종의 주요 활성 물질로 다뤄져 구성당 조성을 먼저 측정했다[12]. 전문은 확인했으나 칼럼·온도 조건은 원문에 없다[12].",
+  "source":[12],"url":pmc("PMC9140784"),"source_kind":"paper"},
+ {"role":"literature","compound":"Purified polysaccharide AYP (molecular weight, monosaccharides)","compound_ko":"정제 다당 AYP(분자량·구성당)","part":"자실체(var. Li., 효소 추출)",
+  "content":"총다당 86.51 ± 0.15%, 환원당 0.657 ± 0.48%, 단백질 3.164 ± 0.05%; 구성 몰비 갈락투론산 39.5 : 갈락토스 32.9 : 포도당 23.6 : 아라비노스 18.3 : 만노스 6.5 : 자일로스 5.8 : 람노스 5.8 : 리보스 3.3 : 글루쿠론산 2 : 푸코스 1.1[13]",
+  "method":"HPGPC-ELSD(분자량), 이온교환 크로마토그래피(구성당)",
+  "conditions":{"instrument":"마이크로플레이트 리더 SPARK 10M(성분 흡광 측정)","column":"","mobile_phase":"","gradient":"","flow":"","temp":"",
+   "detection":"증발광산란검출기(ELSD, 분자량)","injection":"",
+   "sample_prep":"0.4% 펙티네이스(고액비 1:80 g/mL, pH 5, 50 °C, 3시간) 추출 → 85 °C 물 1시간 → 에탄올 침전 → Sevag 제단백·투석 → DEAE-52(0.2 mol/L NaCl 분획) → Sephacryl S-400 → 동결건조",
+   "standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"단일 대칭 피크로 균일 다당임을 확인하고, 갈락투론산 비율이 높은 점을 기존 다당(EAPS)과 구별되는 특징으로 보았다[13]. 칼럼·이동상 조건과 분자량 수치의 지수는 전문 텍스트에서 확인하지 못했다[13].",
+  "source":[13],"url":pmc("PMC10745760"),"source_kind":"paper"},
+]
+
+nutrients = [
+ {"form":"자실체(브라질 대서양림 야생 균주를 길들여 재배)","basis":"건조중량 기준(원문 값 그대로, 합계가 100%를 넘음)",
+  "items":[{"name":"탄수화물","value":71.02,"unit":"%"},{"name":"조섬유","value":19.63,"unit":"%"},{"name":"조단백질","value":11.59,"unit":"%"},{"name":"조지방","value":10.19,"unit":"%"},{"name":"회분","value":4.24,"unit":"%"}],
+  "source":[18]}
+]
+
+world = [
+ {"country":"중국","metric":"production_t","year":2016,"value":1834000,"unit":"t","note":"논문 초록 값(183.4만 t). 원 통계 출처는 확인하지 못함[6]","source":[6]}
+]
+
+d = {
+ "slug":"auricularia-cornea","name_ko":"뿔목이","name_en":"Wood ear (Auricularia cornea)",
+ "scientific_name":"Auricularia cornea Ehrenb.",
+ "aliases":["Auricularia polytricha var. argentea","마오무얼(Maomuer, 중국 재배명)","위무얼(Yumuer, 흰 계통 재배명)","Auricularia cornea var. Li.","아라게키쿠라게(Aragekikurage, 일본명)"],
+ "sections":sections,"compounds":compounds,"markers":[],"assays":assays,"nutrients":nutrients,
+ "production":[],"world":world,"gi":[],"orgs":[],"sources":sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

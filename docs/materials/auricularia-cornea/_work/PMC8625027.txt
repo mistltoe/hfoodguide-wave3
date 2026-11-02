@@ -1,0 +1,997 @@
+1. Introduction
+
+Members ofBull. (Auriculariaceae, Auriculariales), typified by(Dicks.) Pers. [], are widely distributed and are recognized for their ecological and economic values and medicinal properties. Most species play an important role in degradation in forest ecosystems, especially in tropical forests, usually inhabiting angiosperm wood, such as dead trees, stumps, fallen trunks and branches, and rotten wood, with a few growing on gymnosperm wood [,]. Several species are widely used as important edible and medicinal mushrooms in China and other East Asian countries, e.g.,F. Wu & al., andEhrenb. [,].was considered as a delicacy of the emperor in the Eastern Zhou Dynasty 2000 years ago [], and it has been cultivated for over 1400 years []. In China in 2019, 7.1 billion kg (fresh weight) of, valued at more than ¥36.5 billion RMB (≈$5.6 billion USD). The species is widely cultivated and is the second most important edible species, after(Berk.) Pegler, in China. Besides being a food,has properties of lowering blood sugar and fat levels, antitumor, antioxidant, and immunity enhancement [,].
+
+Morphologically,is characterized by gelatinous, resupinate to substipitate basidiomata with hairs on the upper surface, cylindrical to clavate and transversely three-septate basidia with oil guttules and hyaline, thin-walled and allantoid basidiospores [,,,,]. Species identification, for a long time, has been based on macro-morphological characters, such as colour and size of basidiomata and length of hairs as introduced by Barrett and Kobayasi [,]. Lowy introduced the hyphal structure of internal stratification of basidiomata as a species differentiating character [], and subsequently, this method of identification was accepted by Kobayasi [], Lowy [], and Li []. However, the macro-morphological characters ofspecies present plasticity, resulting in inaccurate identification of similar species.
+
+The introduction of molecular methods revealed several misidentifications. Scientific names of some important species were revised, and some new species were described. A Chinesespecies named as “Maomuer”, widely cultivated in southern China, was identified as(Mont.) Sacc. for over 100 years [,]. However, “Maomuer” is actually, and, originally described from Jamaica, is a synonymy of(Sw.) Birkebak et al. []. Another Chinese species named as “Heimuer”, the most important cultivated species ofin China, has been mistakenly named(Bull.) Quél., a species originally described from Europe [], but it is a new species,[]. An additional ten new species, includingLooney et al.,Looney et al.,Y.C. Dai et al.,Y.C. Dai et al.,Y. C. Dai & F. Wu,Malysheva,Y.C. Dai & F. Wu,Y.C. Dai & F. Wu,Bandara & K.D. Hyde, andBandara & K.D. Hyde were described after molecular analyses [,,,,]. In addition, the phylogenetic analysis based on nLSU sequences showed thatwas polyphyletic [,,], but the genus was shown to be monophyletic in recent multi-gene phylogenetic analyses based on ITS and nLSU sequences [,].
+
+Although afore-mentioned studies on phylogeny and taxonomy ofwere carried out [,,,,,], they are either based on limited samples or focus on one species complex. Thus, the aim of this study is to improve the current knowledge of the phylogeny and species diversity ofworldwide by analyzing 277 samples (including 27 type specimens) from 35 countries in Asia, Europe, North and South America, Africa and Oceania. According to morphological examinations and phylogenetic analyses, 37 species ofare recognized, and morphological differences and phylogenetic relations of species in fivecomplexes, viz.,,,,, and, are elaborated.
+
+2. Materials and Methods
+
+2.1. Morphological Studies
+
+180 specimens were deposited at the herbarium of the Beijing Forestry University (BJFC) and 97 specimens were borrowed from other herbaria, including Beijing Museum of Natural History (BJM), Institute of Microbiology, Chinese Academy of Sciences (HMAS), Royal Botanic Gardens (K), U.S. Forest Service, NRS, Center for Forest Mycology Research (CFMR), Komarov Botanical Institute of RAS (LE), University of Helsinki (H), Mae Fah Laung University (MFLU), Swedish Museum of Natural History (S), New Zealand Fungal and Plant Disease Collection (PDD), Royal Botanic Gardens Victoria (MEL), Universidade Federal de Pernambuco,, Departamento de Micologia (URM), National Museum of Nature and Science (TNS), Farlow Herbarium of Harvard University (FH) and the personal collection of J. Vlasák (JV). Descriptions of species are according to Wu et al. [] and Lowy [,]. Colour terms follow Petersen []. Macro-morphological description of thirteen species based on 31 herbarium specimens are described after their whole basidiomata were rehydrated. Cross-sections of dried basidiomata were mounted in 5% potassium hydroxide (KOH) and 1% Congo Red and examined at 1000× magnification using a Nikon Eclipse 80i microscope. Microscopic structures were photographed using a Nikon Digital Sight DS-Fi1 camera. Basidiospores were measured in Cotton Blue (CB) and to test for cyanophily. Melzer’s reagent (IKI) was used to note any chemical reaction of spores. When presenting spore size variation, 5% of measurements from each end of the range were excluded and indicated in parentheses. The following abbreviations were used: IKI + = amyloid or dextrinoid reaction, IKI– = neither amyloid or dextrinoid, CB– = acyanophilous, L = mean spore length (arithmetic average of all spores), W = mean spore width (arithmetic average of all spores), Q = L/W ratio for each specimen studied, n (a/b) = number of spores (a) measured from given number of specimens (b).
+
+2.2. DNA Extraction, PCR and Sequencing
+
+CTAB rapid plant genome extraction kit-DN14 (Aidlab Biotechnologies Co., Ltd., Beijing, China) was used to obtain DNA from 277 dried specimens, according to the manufacturer’s instructions with some modifications. 2× EasyTaq PCR SuperMix (TransGen biotech, Beijing, China) was used for reaction to obtain PCR products. ITS region was amplified with primer pairs ITS5 (GGA AGT AAA AGT CGT AAC AAG G) and ITS4 (TCC TCC GCT TAT TGA TAT GC) []. Nuclear LSU region was amplified with primer pair LR0R (ACC CGC TGA ACT TAA GC) and LR7 (TAC TAC CAC CAA GAT CT) (, accessed on 3 September 2021), the rpb1 with primers Af (GAR TGY CCD GGD CAY TTY GG) and Cr (CCN GCD ATN TCR TTR TCC ATR TA) [], and the rpb2 with primers b6F (TGG GGK WTG GTY TGY CCT GC) and b7.1R (CCC ATR GCT TGY TTR CCC AT) []. PCR conditions were as follows: for ITS and rpb2, initial denaturation at 95 °C for 3 min, followed by 34 cycles at 94 °C for 40 s, 54 °C for 45 s, 72 °C for 1 min; for nLSU, initial denaturation at 94 °C for 1 min, followed by 34 cycles at 94 °C for 30 s, 50 °C for 1 min, 72 °C for 1.5 min, for rpb1 initial denaturation at 95 °C for 3 min, followed by 9 cycles at 94 °C for 40 s, 60 °C for 40 s and 72°C for 2 min, then followed by 37 cycles at 94 °C for 45 s, 55 °C for 1.5 min and 72 °C for 2 min, and a final extension of 72 °C for 10 min. DNA sequencing was performed at Beijing Genomics Institute, China, with the same primers. Sequences of nLSU, rpb1 and rpb2 were generated in both directions.
+
+2.3. Phylogenetic Analyses
+
+All newly generated sequences and additional related sequences downloaded from GenBank are listed inand were aligned using MAFFT 7.0 online service with the Q-INS-i strategy using the default parameters []. Multiple sequences were concatenated in Mesquite v. 3.10 []. Sequence alignments were deposited in TreeBase (submission ID 28649).
+
+To define the high-rank phylogenetic relations within the Auriculariales, we used a dataset composed of concatenated ITS+nLSU sequences resulting in a final alignment comprising 156 different specimens.(Berk. & Broome) Spirin & Malysheva was used as the outgroup. The concatenated ITS+nLSU dataset has an aligned length of 1953 characters, of which 600 characters are from locus ITS, and 1353 characters are from locus nLSU. We used another dataset composed of concatenated ITS+nLSU+rpb1+rpb2 sequences resulting in a final alignment comprising 106 different specimens to define phylogenetic relations within, especially within closely relatedspecies.(Y.C. Dai & Y.L. Wei) Y.C. Dai & L.W. Zhou was used as the outgroup to root trees becauseBres. is closer tothan other genera of Auriculariales in phylogeny []. The concatenated ITS+nLSU+rpb1+rpb2 dataset has an aligned length of 3817 characters, of which 594 characters are from locus ITS, 1353 characters are from locus nLSU, 1336 characters are from locus rpb1, and 534 characters are from locus rpb2. All characters were equally weighted and gaps were treated as missing data.
+
+Maximum Likelihood (ML) and Bayesian Inference (BI) methods were used for each dataset to enhance the reliability of phylogenetic analyses. The optimal substitution models suitable for both datasets were determined using the Akaike information criterion (AIC) implemented in MrModeltest 2.3 []. The ML tree was constructed using raxmlGUI 1.2 [,], and the BI tree was calculated with MrBayes3.2.5 []. The SYM+I+G and GTR+I+G models were selected as the best models for the ITS alignment and the nLSU alignment of the concatenated ITS+nLSU dataset respectively. The GTR+I+G model was selected as the best model for each alignment of the concatenated ITS+nLSU+rpb1+rpb2 dataset. Therefore, the ML analysis based on each dataset was calculated under the model GTRGAMMA. The BI analysis based on the concatenated ITS+nLSU dataset was calculated under the SYM+I+G model and the GTR+I+G model in two alignments, and based on the concatenated ITS+nLSU+rpb1+rpb2 dataset under the GTR+I+G model in four alignments. Four Markov chains were run for two runs from random starting trees for 1 million generations for the concatenated ITS+nLSU dataset, 1 million generations for the concatenated ITS+nLSU+ rpb1+rpb2 dataset, and trees were sampled every 100 generations. BI analysis stopped after effective sample sizes (ESSs) reached more than 200 and the potential scale reduction factors (PSRFs) were close to 1.000 for all parameters. The first one-fourth generations were discarded as burn-in. A majority rule consensus tree of all remaining trees was calculated. Branches that received bootstrap support for Maximum Likelihood (BS) and Bayesian Posterior Probabilities (BPP) greater than or equal to 50% (BS) and 0.90 (BPP) were considered as significantly supported, respectively.
+
+3. Results
+
+3.1. Phylogenetic Analyses
+
+The ML analysis based on the concatenated ITS+nLSU dataset resulted in a similar topology as Bayesian Inference analysis, so only the ML tree is presented (). The phylogeny demonstrated that 149specimens formed one large clade with high support, which confirmed the monophyletism of. Most of the 31species formed monophyletic lineages with high support, and several species includinganddidn’t form monophyletic lineages, however, these two species formed two distinct lineages with high support in the phylogeny based on the concatenated ITS+nLSU+rpb1+rpb2 dataset (). The 31species formed three major clades, Clade A–C. Clade A includes 16 species in the,andcomplexes. Clade B includes seven species belonging to thecomplex, and Clade C includes eight species belonging to thecomplex. Although species in thecomplex and thecomplex clustered into two monophyletic clades, Clade B and Clade C respectively, species in the other three morphological complexes were scattered in small different clades in Clade A. The analyses showed that the morphological complexes do not fully correspond to the phylogenetic clades.
+
+ML analysis based on the concatenated ITS+nLSU+rpb1+rpb2 dataset resulted in a similar topology as Bayesian analysis, so only the ML tree was presented (). The phylogeny demonstrated a similar topology inas the phylogeny based on the concatenated ITS+nLSU dataset (), and also showed three major clades, Clade A–C. In Clade A, species of,andcomplexes did not form their own subclades. Species ofandcomplexes formed their own two clades, Clade B and Clade C.
+
+3.2. Taxonomy
+
+(1)Y.C. Dai & F. Wu, sp. nov.a and.
+
+MycoBank number: MB 825096.
+
+Type—Uganda. Western Region, Kibale National Park, Kabarole District, Makere University, N 0°30′, E 30°24′, on dead wood, 20 April 2002, L. Ryvarden,(K 133591, holotype).
+
+Etymology—(Lat.): refers to the distribution of the species in Africa.
+
+Basidiomata—Gelatinous when rehydrated, greyish brown to fuscous, caespitose, resupinate to effused-reflexed; pileus sometimes observed, free lobed, margin undulate, projecting up to 1 cm, 1.5–2 mm thick, 0.2–0.4 mm thick when dry; upper surface tomentose, concentrically zoned with canescent zones and dark bands, becoming yellowish brown to orange-brown upon drying; hymenophore surface venose with folds, becoming greyish brown to fuscous upon drying.
+
+Internal features—Medulla absent; crystals present, usually scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 300–500 × 1–2 µm; hyphae with clamp connections and simple septa, slightly inflated with a lumen in KOH, up to 4.5 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 50–80 × 4.5–6 µm, sterigmata sometimes observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (11.5–)12–14(–14.2) × (4.8–)4.9–5.4(–5.5) µm, L = 12.54 µm, W = 5.12 µm, Q = 2.45 (n = 30/1).
+
+Distribution—Kenya and Uganda.
+
+Notes—belongs to thecomplex and is characterized by resupinate to effused-reflexed basidiomata with concentric zones on the upper surface. It is macro-morphologically similar toBerk. (g), but differs from the later by shorter abhymenial hairs (300–500 µm vs. 400–800 µm), slightly narrower basidia and basidiospores (4.5–6 µm vs. 5–7.5 µm and 4.9–5.4 µm vs. 5–6 µm). In the phylogeny,is distantly related toand forms a single lineage with high support (and).
+
+Additional specimen (paratype) examined—Kenya. Central Province, Nairobi, Karura Forest, on angiosperm tree, May 1992, A. Osano,(K 34551).
+
+(2)Parmasto & I. Parmasto ex Audet, Boulet & Sirard
+
+a and.
+
+≡Parmasto & I. Parmasto, Biblthca Mycol. 115: 137, 1987.
+
+Basidiomata—Gelatinous when fresh, orange-brown to reddish brown, solitary, sometimes caespitose, sessile or substipitate; pileus cupulate or auriculate, sometimes with lobed margin, projecting up to 8.5 cm, 1–3 mm thick, 0.2–0.3 mm thick when dry; upper surface pilose, becoming greyish brown upon drying; hymenophore surface usually smooth, without folds, becoming fuscous to mouse-grey upon drying.
+
+Internal features—Medulla present or absent, usually in the middle of the cross-section if present; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 67–125(–150) × 4.5–6 µm; hyphae with clamp connections, 0.5–3.5 µm in diam. in KOH; basidia clavate, transversely 3-septate, with oil guttules, 55–71 × 4–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, 14–16.5(–16.8) × (4.2–)4.5–5.4 µm, L = 15.38 µm, W = 4.92 µm, Q = 2.9–3.39 (n = 60/2).
+
+Distribution—North America and north Asia.
+
+Notes—is one of two species that grows on gymnosperm wood. It differs from the other gymnosperm-inhabiting species,Y.C. Dai & F. Wu, by smaller basidia (55–71 × 4–5 µm vs. 70–103 × 4–7 µm) and smaller basidiospores (14–16.5 × 4.5–5.4 µm vs. 15–18.5 × 5.8–6.2 µm).was originally described from Canada [], and recently reported from China []. Samples from North America and north Asia have a few differences in molecular data and show intraspecific genetic variations in our phylogenies ().
+
+Specimens examined—China. Heilongjiang Province, Dailing, Liangshui, on dead tree of, 26 August 2014, B.K. Cui,(BJFC 016841); Ningan County, Jingbohu Underground Forest Park, on fallen trunk of, 5 September 2013, Y.C. Dai,(BJFC 014922),(BJFC 014924); Tangyuan County, Daliangzihe National Park, on fallen trunk of, 25 August 2014, B.K. Cui,(BJFC 016751); Yichun, Fenglin Nature Reserve, on fallen trunk of, 2 August 2011, B.K. Cui,(BJFC 010780). Inner Mongolia Autonomous Region, Hulun Buir, on fallen trunk of, 12 August 2013, Y.C. Dai,(BJFC 015102). Jilin Province, Antu County, Changbaishan Nature Reserve, on fallen trunk of, 7 September 2013, Y.C. Dai,(BJFC 014937),(BJFC 014942),(BJFC 014949). Russia. Amur Region, Khingansky Reserve, 10 October 1991,(VLA M-11352); Primorye Territory, Sikhote-Alin Nature Reserve, on fallen branch of, 16 August 2012,(LE 296428). USA. Minnesota, Bohall Trail, Itasca State Park, on, 6 August 1981,,(CFMR),(CFMR); Wisconsin, Treehaven, Tomahawk, on fallen trunk of, 7 September 1991,,(CFMR).
+
+(3)Y.C. Dai, F. Wu & D.W. Li, sp. nov.b and.
+
+MycoBank number: MB 840864.
+
+=Y.C. Dai, F. Wu & D.W. Li, in Wu et al., Mycol. Prog. 14(95): 8, 2015,, Art. F.5.6 (San Juan).
+
+Type—USA. Connecticut, Windsor, N 41°51′, W 72°38′, on fallen trunk of, 4 December 2014, B.K. Cui,(BJFC 017274, holotype).
+
+Basidiomata—Gelatinous when fresh, fawn to vinaceous brown, solitary, sometimes caespitose, sessile or substipitate; pileus cupulate or auriculate, sometimes with lobed margin, projecting up to 8 cm, 1–3 mm thick, 0.2–0.36 mm thick when dry; upper surface pilose, sometimes with a few folds, becoming greyish brown upon drying; hymenophore surface usually smooth, without folds, becoming vinaceous grey to fuscous upon drying.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, sometimes separated, apical tips acute or obtuse, single or tufted, 80–140 × 5–6 µm; hyphae with clamp connections, 0.5–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 47–63 × 3.5–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three large guttules, IKI–, CB–, (12.5–)13–15 × (4.5–)4.8–5.5(–6) µm, L = 13.72 µm, W = 4.97 µm, Q = 2.75–2.86 (n = 40/2).
+
+Distribution—USA.
+
+Notes—was described as a new species by Wu et al. [], but the name was invalid because the registration identifier cited in the protologue, ‘MycoBank no.: MB 812851′, was not issued for the name published. Therefore, the name is validated here.
+
+The species was segregated from. Morphologically, there is no distinct differences between the two species and they were considered as a single species by Looney et al. []. However, these two species are clustered in two distinct lineages with strong support in the phylogenies (and), andgrows on angiosperm rather than on gymnosperm wood.has so far been reported in North America only, whileoccurs both in North America and north Asia. The description taken from Wu et al. [].
+
+Specimens examined—USA. Arizona, Sycamore Canyon, on, 7 July 1980,,(CFMR). Illinois, Pomona Natural Bridge, Shawnee National Forest, on angiosperm wood, 29 May 1986,(CFMR). Wisconsin, Wyalusing State Park, on living tree of, 31 May 1993,(CFMR).
+
+(4)Bandara & K.D. Hydeb,c and.
+
+Basidiomata—Gelatinous when fresh, fawn to greyish brown or buff to cream, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 5 cm, 1–3 mm thick, 0.12–0.16 mm thick when dry; upper surface villose, distinctly and concentrically zoned with wide whitish zones and thin black bands in the central pileal surface, becoming clay pink upon drying; hymenophore surface venose with folds, becoming dark greyish blue upon drying.
+
+Internal features—Medulla absent; crystals present, usually scattered in hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 800–1200 × 1.5–3 µm; hyphae with clamp connections, obviously inflated with a lumen in KOH, up to 11 µm in diam; basidia clavate, transversely 3-septate, with some small oil guttules, 40–52 × 3–6 µm, sterigmata usually observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (11–)11.2–12.3(–12.6) × (4.1–)4.5–5.2(–5.5) µm, L = 11.83 µm, W = 4.93 µm, Q = 2.4 (n = 30/1).
+
+Distribution—Asia.
+
+Notes—was recently described from Asia by Bandara et al. []. It belongs to thecomplex and is very similar toY.C. Dai & F. Wu by sharing resupinate to effused-reflexed, basidiomata with a free lobed pileus and similar-sized basidiospores, but the latter is distinctly and concentrically zoned with wide whitish zones and thin black bands throughout the pileal surface []. Phylogenetically, the species is distant fromand closely related to a new species,(and). Differences betweenandare discussed in the notes on.
+
+Specimens examined—China. Hainan Province, Changjiang County, Bawangling Nature Reserve, on dead angiosperm tree, 2 July 2015, Y.C. Dai,(BJFC 019396); Wuzhishan, Wuzhishan Nature Reserve, on fallen angiosperm trunk, 14 November 2015, Y.C. Dai,(BJFC 020246), 15 November 2015, Y.C. Dai,(BJFC 020310). Indonesia. Sumatera Barat, Padang, Limau Manis, 29 July 2009, O. Miettinen,(H).
+
+(5)(Bull.) Quél.c and.
+
+≡Bull., Herb. Fr. (Paris) 9: Table 427, Figure 2, 1789.
+
+=Berk., J. Linn. Soc., Bot. 13: 170, 1872.
+
+=(L.) Underw., Mem. Torrey bot. Club12: 15, 1902.
+
+=Pers., Mycol. eur. (Erlanga) 1: 97, 1822.
+
+=(Gray) G.W. Martin, Am. Midl. Nat. 30: 81, 1943.
+
+=(Quél.) Bigeard & H. Guill., Fl. Champ. Supér. France (Chalon-sur-Saône) 2: 491, 1913.
+
+Basidiomata—Gelatinous when fresh, reddish brown to fuscous or white, solitary, sometimes caespitose, sessile or substipitate; pileus cupulate or auriculate, sometimes with lobed margin, projecting up to 9 cm, 1–3 mm thick, 0.3–0.48 mm thick when dry; upper surface pilose, becoming yellowish brown or pinkish buff upon drying; hymenophore surface usually smooth, without folds, becoming fuscous to black or cinnamon buff upon drying.
+
+Internal features—Medulla present or absent, usually near hymenium if present; crystals present, usually scattered in hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 100–150(–250) × 5–7.5 µm; hyphae with clamp connections, 1–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 65–85 × 4–5.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (14–)15–22(–23) × (4–)5–7(–8) µm, L = 19.03 µm, W = 6.16 µm, Q = 2.81–3.33 (n = 150/5).
+
+Distribution—Europe.
+
+Notes—is characterized by thick basidiomata, dense and tufted hairs, and large basidia and basidiospores. The species was reported to have a wide distribution worldwide []. However, the so-called “previously reported in the USA and Asia is confirmed asand, respectively, based on morphological characters and molecular analyses [,].can be distinguished fromandby its larger basidia (55–71 × 4–5 µm in, 40–67 × 3–6.5 µm in) and basidiospores (14–16.5 × 4.5–5.4 µm in, 11–13 × 4–5 µm in). Phylogenetically, the species is distantly related toandand forms a single lineage with high support (and).
+
+Specimens examined—Czech Republic. Brno, on fallen trunk of, 26 March 2014, M. Tomšovský,(duplicate, BJFC 018550). Rousinov, on dead branch of, 11 April 2014, M. Tomšovský,(duplicate, BJFC 018561). Denmark. Nordjylland, Tranum, 16 September 1998, K. Jaederfeldt,(S). France. Lyon, Botanical Garden, on living tree of, 26 November 2012, Y.C. Dai,(BJFC 014074), on fallen trunk of, 3 November 2015, Y.C. Dai,(BJFC 020440). Orliénas, on fallen trunk of, 5 October 2013, B. Rivoire, Dai 13549 (duplicate, BJFC 015011); on angiosperm wood, 11 May 2014, B. Rivoire,(duplicate, BJFC 018555). Germany. Munich, Botanical Garden, on, November 1963, E. Albertshofer,(PDD 62991). Russia. Western Caucasus, Karachaevo-Cherkesia, Teberda State Biosphere Reserve, on fallen branch of, 22 August 2009, V. Malysheva, (LE 254030); on fallen trunk of, 10 August 2009, V. Malysheva, (LE 254071). UK. Scotland, Fife, Kilconquhar Castle, 16 January 2014,(MFLU); Fife, Balbuthie Wood, on, 5 Jan 2014,(MFLU); Humbie, Church Wood, on fallen branch of, 5 October 2013,(MFLU).
+
+(6)Y.C. Dai & F. Wu, sp. nov.a and.
+
+MycoBank number: MB 840810.
+
+Type—Australia. New South Wales, Gulaga, Dromedary Mountain, S 36°18′, E 150°02′, on dead wood, 10 April 2012, H. T. Van der,(MEL 2385783, holotype).
+
+Etymology—(Lat.): refers to the species distributed in Australia.
+
+Basidiomata—Gelatinous when rehydrated, fawn to reddish brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, margin entire, projecting up to 4 cm, 0.5–2 mm thick, 0.12–0.3 mm thick and dark grey when dry; upper surface pilose, sometimes with a few folds; hymenophore surface conspicuously porose-reticulate.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base or center, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, single, 60–100 × 7–11 µm; hyphae with clamp connections and rare simple septa, 1–4 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 45–55 × 4.5–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to two large guttules, IKI–, CB–, (10.5–)11–12.8(–13) × (4–)4.4–5(–5.4) µm, L = 11.57 µm, W = 4.8 µm, Q = 2.37–2.46 (n = 60/2).
+
+Distribution—Australia.
+
+Notes—forms a distinct lineage and is closely related to(Mont. ex Fr.) Henn.,Y.C. Dai & F. Wu,Y.C. Dai & F. Wu andY.C. Dai & F. Wu in our phylogenies (and), but it differs fromandby its wider hairs (5–8 µm in diam inand 6–9 µm in diam in), and fromby shorter hairs (95–250 µm long in). The species is easily confused withalso described from Australia, buthas dense and thick folds on the hymenophore surface and wider hairs (45–95 × 8–15 µm in) usually with a wide and regular septate lumen.
+
+Additional specimen (paratype) examined—Australia. Queensland, Cook, west of Mossman, Mt Lewis State Park, on wood, 10 April 2012, R. Vilgalys,(MEL 2238923).
+
+(7)Y.C. Dai & F. Wud and.
+
+Basidiomata—Gelatinous when fresh, greyish brown to vinaceous brown or pinkish buff, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 9 cm, 1.5–3 mm thick, 0.2–0.4 mm thick when dry; upper surface tomentose, distinctly and concentrically zoned with wide whitish zones and thin black bands throughout pileal surface, becoming clay pink upon drying; hymenophore surface venose with folds, becoming dark greyish blue to blackish blue upon drying.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 1000–1500 × 2–3.5 µm; hyphae rarely with clamp connections, obviously inflated with a lumen in KOH, up to 13 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 30–47 × 3–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, 11.5–12 × 4.5 µm, L = 11.8 µm, W = 4.5 µm, Q = 2.62 (n = 2/1).
+
+Distribution—Brazil.
+
+Notes—was described from Brazil [], and is macro-morphologically similar to, which, however, lacks whitish zones and thin black bands at margin of pileal surface []. These two species form two distinct lineages with strong support in our phylogenies (and). The morphological description oftaken from Wu et al. [].
+
+Specimens examined—Brazil. Alagoas, RPPN São Pedro, 12 November 2016, R.L. M. Alvarenga,(URM 93413). Bahia, Santa Teresinha, Serra da Jibóia, 24 January 2011, T. B. Gibertoni,(URM 83482). Ceará, Crato, Floresta Nacional do Araripe, 16 May 2012, C.R.S. Lira,(URM 84563). Maranhão, Cidelândia, Reserva Extrativista do Ciriaco, Povoado do Ciriaco, 30 July 2013, L. Araujo-Neta,(URM 85567, holotype). Mato Grosso, Terra Indígena Sete de Setembro—Aldeia Apoena Meirelles, Rondolândia, 31 May 2009,et al.(URM 80967). Pernambuco, Jaqueira, RPPN Frei Caneca, Mata do Quengo, 2012, R.S. Chikowski,(URM),(URM). Piauí, Caracol, Parque Nacional da Serra das Confusões, 1 January 2011, A.C. Gomes-Silva,(URM 83468). Rondônia, Terra Indígena Sete de Setembro, Aldeia Lapetanha, Cacoal, 04 June 2009,et al.(URM 80933).
+
+(8)Y.C. Dai & F. Wu, sp. nov..
+
+MycoBank number: MB 825097.
+
+Type—Brazil. Paré, Maracanã, Ilha de Maiandeua, near the village of Algodoal, S 0°59′, W 47°58′, on, July 1998, E.L. de Campos; A. Luz s.n. (URM 76905, holotype; BJFC018567, isotype).
+
+Etymology—(Lat.): refers to the late Ezequias Lopes de Campos, mycologist and collector of the samples of the new species.
+
+Basidiomata—Gelatinous when rehydrated, orange-brown to reddish brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, margin entire, projecting up to 5 cm, 1–3 mm thick, 0.2–0.45 mm thick when dry; upper surface densely tomentose, becoming greyish brown upon drying; hymenophore surface usually smooth, without folds, becoming bluish grey to greyish blue upon drying.
+
+Internal features—Medulla present in the middle of the cross-section; crystals present, usually scattered throughout the cross-section; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow lumen, apical tips acute or obtuse, tufted, 120–250 × 6–7 µm; hyphae with clamp connections and simple septa, 0.5–4 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 60–75 × 4–5.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores reniform, hyaline, thin-walled, 12.5–15 × 5–6 µm.
+
+Distribution—Brazil.
+
+Notes—is characterized by a densely tomentose upper surface, with an obvious medulla in the middle of the cross-section. It is similar toin macro-morphology, but has slightly shorter abhymenial hairs (120–250 µm vs. 180–425 µm). In the phylogeny,is very distantly related toand samples of these two species form two lineages (and).is relatively related to(and) which, however, has distinctly longer abhymenial hairs (300–600 × 7–9 µm vs. 120–250 × 6–7 µm). The type and paratype are good enough and ITS and nLSU sequences are available from them. Therefore, we venture to publish a description foreven though we know it is inadvisable to do so based on a few basidiospores.
+
+Additional specimen (paratype) examined—Brazil. Paraíba, Areia, Parque Estadual Mata do Pau Ferro, 2010, C.R.S. Lira,(URM 83464; duplicate, BJFC 018581).
+
+(9)Y.C. Dai & F. Wu, sp. nov.b and.
+
+MycoBank number: MB 840811.
+
+Type—Australia. Queensland, Cairns, Crater Lakes National Park, S 17°14′, E 145°37′, 17 May 2018, Y.C. Dai,(BJFC 027293, holotype).
+
+Etymology—(Lat.): refers to the species having dense folds on the hymenophore surface.
+
+Basidiomata—Gelatinous when fresh, fawn to reddish brown, solitary or caespitose, sessile; pileus auriculate, margin entire, projecting up to 6 cm, 1–3 mm thick, 0.3–0.5 mm thick and reddish brown to fuscous when dry; upper surface pilose, usually with a few folds; hymenophore surface conspicuously and densely porose-reticulate.
+
+Internal features—Medulla present indistinctly near the hymenium; crystals absent; abhymenial hairs with a slightly swollen base or center, hyaline, thick-walled, usually with a wide and regular septate lumen, apical tips acute or obtuse, single, 45–95 × 8–15 µm; hyphae with clamp connections, rarely simple septa, 1–4.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 44–58 × 4.5–6.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to two large guttules, IKI–, CB–, (10.8–)11–13(–13.5) × (4–)4.5–5.2(–5.5) µm, L = 11.91 µm, W = 4.9 µm, Q = 2.43 (n = 30/1).
+
+Distribution—Australia.
+
+Notes—is macro-morphologically similar tobecausesometimes also has dense and thick folds on the hymenophore surface. However,has larger basidia (44–58 × 4.5–6.5 µm vs. 30–45 × 4–5.5 µm inand mean basidiospores length (L = 11.91 µm vs. L = 10.87 µm in).
+
+Additional specimen (paratype) examined—Australia. Queensland, Cairns, Crater Lakes National Park, 17 May 2018, Y.C. Dai,(BJFC 027294).
+
+(10)Ehrenb.a–h and.
+
+≡(Ehrenb.) Fr., Syst. mycol. (Lundae) 2(1): 222, 1822.
+
+=var.D.Z. Zhao & Chao J. Wang, Acta Mycol. Sin., 10(2): 108, 1991.
+
+=L.J. Li, Acta Mycol. Sin. 4(3): 151, 1985.
+
+=Kobayasi, Bull. cent. nat. Mus. Manchoukuo 4: 26, 1942.
+
+Basidiomata—Gelatinous when fresh, fawn to reddish brown or buff to white, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 9 cm, 1–2 mm thick, 0.2–0.48 mm thick when dry; upper surface densely pilose, becoming light vinaceous grey or cream upon drying; hymenophore surface usually smooth, without folds, becoming mouse-grey to black or buff-yellow upon drying.
+
+Internal features—Medulla present in the middle of the cross-section or near the abhymenium; crystals present, usually scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow lumen, apical tips acute or obtuse, tufted, 180–425 × 6–9 µm; hyphae with clamp connections and simple septa, 0.5–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 60–75 × 4–6 µm, sterigmata sometimes observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three large guttules, IKI–, CB–, (13–)13.8–16.5(–17.6) × (4.2–)4.5–6(–6.4) µm, L = 14.89 µm, W = 5.39 µm, Q = 2.42–3.06 (n = 270/9).
+
+Distribution—Africa, North and South America, Asia and Europe.
+
+Notes—is characterized macroscopically by the variability in color of fresh basidiomata, dense hairs on the upper surface, and microscopically by the presence of an obvious medulla. It has a wide distribution, being recorded almost all over the world, and is very common in both natural and managed forests of subtropical and tropical areas. It is cultivated in China as “Maomuer” and was first reported asby Patouillard and Olivier [], a name used in almost all Chinese reports until 2015 and in other Asian and Pacific areas [,,,,,,,,,,,]. However,is a synonym of, which is distributed throughout America. Zhao & Wang describedvar.D.Z. Zhao & Chao J. Wang based on its white basidiomata []. According to our study,var.[basidia measuring 50–65 × 4–5.5 µm; basidiospores measuring (12.7–)13–15(–15.2) × (4.7–)4.9–5.4(–5.6) µm, L = 13.91 µm, W = 5.02 µm, Q = 2.77 (n = 30/1), from type material] is a synonym ofIn fact, we found thatproduced both brown and white basidiomata in nature (h). In our phylogenies (and), all samples ofwildvar.(Dai 14876) and cultivatedvar.(Wu 07) form a lineage although with some variations. The white basidiomata ofis called “Yumuer” and is now cultivated in China (g).
+
+In addition,L.J. Li was reported as a new species from China due to its reticulate sterile surface []. However,sometimes has a reticulate sterile surface, too, e.g., Cui 7517 (f). We examined the type of, and found it has an obvious medulla and the abhymenial hairs are almost the same as those of. We did not find basidiospores from the type, but the spores were reported as 14.5 × 5–6 µm in the original description [], which fit the dimensions of those ofFor these reasons, we treatas a synonym of. Another species,was also described from Asia [], and treated as a synonym of[]. We rejected this opinion because we examined the type material ofand treated it as a synonym of. Because of the variation of morphologya–h) and of the molecular data (and), in the present study all these samples with variable morphology are treated asfor the time being.
+
+Specimens examined—Benin. On fallen angiosperm trunk, 2 July 2015, Y.C. Dai,(BJFC 019552),(BJFC 019553). Brazil. Acre, Sena Madureira, Floresta Nacional de São Francisco, 28 January 2016, A Meiras-Ottoni,(URM 93416). Maranhão, Reserva Extrativista do Ciriaco, Cidelândia, 26 July 2013, L. Araujo-Neta, (URM 85561), L. Araujo-Neta, (URM 85563); Ceará, Tianguá, Trilha do Riacho, 2012, C.R.S. Lira,(URM 83696); Pernambuco, Tamandaré, Reserva Biológica de Saltinho, 11 March 2016, R.L.M. Alvarenga,(URM 93419). Paraíba, Areia, Parque Estadual Mata do Pau Ferro, 16 April 2012, C.R.S. Lira,663 (URM 83696). São Paulo, São Paulo, on dead angiosperm tree, 18 June 2015, S.s.n. Visnadi,(BJFC 020594), 7 June 2015, A.M. Gugliotta, Y. Gafforov,(BJFC 020595), A.M. Gugliotta, Y. Gafforov,(BJFC 020596); 7 August 2015, A.M. Gugliotta, Y. Gafforov,(BJFC 020601), A.M. Gugliotta, Y. Gafforov,(BJFC 020601); 16 July 2015, A.M. Gugliotta, Y. Gafforov,(BJFC 020600); Jardim Botânico de São Paulo, April 2017, R.L.M. Alvarenga,(URM 93423),(URM 93422). China. Fujian Province, Nanjing County, Huboliao Nature Reserve, on fallen angiosperm trunk, 26 October 2013, B.K. Cui,(BJFC 015449), Xiamen, Botanical Garden, on rotten angiosperm wood, 27 October 2013, B.K. Cui,(BJFC 015462). Guangdong Province, Shixing County, Chebaling Nature Reserve, on rotten wood of, 17 September 2009, B.K. Cui,(BJFC 006005). Guangxi Autonomous Region, Nanning, Campus of Guangxi University, on fallen angiosperm trunk, 9 December 2013, Y.C. Dai,(BJFC 015103),(BJFC 015104), Qingxiu Mountain, on fallen angiosperm branch, 7 June 2015, Y.C. Dai,(BJFC 019479); Shangsi County, Shiwandashan Nature Reserve, on fallen angiosperm trunk, 6 June 2015, Y.C. Dai,(BJFC 019447), on fallen angiosperm branch, 6 June 2015, Y.C. Dai,(BJFC 019449),(BJFC 019457). Guizhou Province, Suiyang County, Kuankuoshui Nature Reserve, on rotten wood of, 25 November 2014, Y.C. Dai,(BJFC 018129), 26 November 2014, Y.C. Dai,(BJFC 018182). Hainan Province, Changjiang County, Bawangling National Forest Park, on rotten angiosperm wood, 16 June 2014, Y.C. Dai,(BJFC 017419); Danzhou County, Botanical Garden, on fallen angiosperm trunk, 19 October 2013, Y.C. Dai,(BJFC 015009),(BJFC 015010), 15 June 2014, Y.C. Dai,(BJFC 017398); Ledong County, Jianfengling Nature Reserve, on rotten angiosperm wood, 11 May 2009, Y.C. Dai,(BJFC 005087). Hebei Province, Laishui County, Yesanpo Grand Canyon, on dead, 18 November 2014, Y.C. Dai,(BJFC 017989). Henan Province, Neixiang County, Baotianman Nature Reserve, on fallen angiosperm trunk, 21 June 2015, Y.C. Dai,(BJFC 019490). Jiangxi Province, Fuzhou, on rotten wood of, 1 July 2013, Y.C. Dai,(BJFC 014910). Jiangsu Province, Taizhou, on rotten wood of, 30 October 2013, Y.C. Dai,(BJFC 015084). Jilin Province, Antu County, Changbaishan Nature Reserve, Cultivated, 9 August 2017, F. Wu,(BJFC 026013). Shanxi Province, Mei County, Taibai Mounty, Honghegu Forest Park, on fallen angiosperm trunk, 9 September 2013, B.K. Cui,(BJFC 015277). Yunnan Province, Jinghong, Xishuangbanna Tropical Botanical Garden, on fallen angiosperm trunk, 21 July 2014, Y.C. Dai,(BJFC 017481),(BJFC 017484),(BJFC 017485); Puer, Taiyanghe National Forest Park, on fallen angiosperm trunk, 8 July 2013, B.K. Cui,(BJFC 015142); Yingjiang County, Tongbiguan Reserve, on fallen trunk of, 30 October 2012, Y.C. Dai,(BJFC 013341); Yongde County, Daxueshan Nature Reserve, on rotten angiosperm stump, 27 August 2015, Y.C. Dai,(BJFC 019772). Germany. On fallen angiosperm wood, 7 August 2015, Y. Gofforov,(duplicate, BJFC 020603). Ghana. Bunso Arboretum Garden, 8 November 2016, Y.C. Dai,(BJFC 024110). Indonesia. Papua, on fallen angiosperm trunk, 2 March 2007, O. Miettinen,(H). Japan. Bonin Islands, 1936, Okabe, (F193009, type of). Singapore. Bukit Timah Nature Reserve, on fallen angiosperm trunk, 20 July 2017, Y.C. Dai,(BJFC 025397). South Africa. Durban, on fallen angiosperm trunk, 1 October 2011, Y.C. Dai,(BJFC 012167),(BJFC 012169),(BJFC 012178); on fallen trunk of, 1 October 2011,(BJFC 012173). Sri Lanka. Mitirigala Nissarana Vanaga Forest, on fallen angiosperm trunk, 4 March 2019, Y.C. Dai,(BJFC 031327). Tanzania. Southern Highland Province, on fallen angiosperm trunk, 16 December 1990,(H),(H). USA. Puerto Rico, on fallen angiosperm trunk, 24 January 2014, O. Miettinen,(H). Vietnam. Ho Chi Minh City, Saigon Zoo & Botanical Garden, on dead angiosperm tree, 13 October 2017, Y.C. Dai,(BJFC 025838).
+
+(11)(Mont. ex Fr.) Henn.c and.
+
+≡Mont. ex Fr., Linnaea 5: 533, 1830.
+
+Epitype (designated here):—Cameroon. Nsimalen Airport, near Yaounde, on fallen angiosperm trunk, 27 July 1996, D. Mossebo,(K 43873, epitype).
+
+Basidiomata—Gelatinous when rehydrated, dark brownish to vinaceous brown, solitary or caespitose, sessile or substipitate; pileus orbricular, sometimes with lobed margin, projecting up to 8 cm, 1.5–2.5 mm thick, 0.18–0.28 mm thick and dark reddish brown to fuscous when dry; upper surface pilose, sometimes with several folds; hymenophore surface conspicuously porose-reticulate.
+
+Internal features—Medulla absent or indistinctly present near the hymenium; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, single, 60–100 × 5–8 µm; hyphae with clamp connections, 0.5–6 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 48–65 × 4–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one large guttule, IKI–, CB–, (9.5–)10–11.5(–11.8) × (4.3–)4.5–5(–5.5) µm, L = 10.83 µm, W = 4.93 µm, Q = 2.08 (n = 30/1).
+
+Distribution—Western Africa.
+
+Notes—was originally described from Equatorial Guinea in West Africa and it was reported throughout tropical America, Africa, Asia, Australia and South Pacific [,].was found to be a species complex, and two new species belonging to the complex,and, were described because they have schizomedulla, which is distinctly different from the original description of the medulla ofby Looney et al. []. In addition, samples from Australia and Mexico form two other lineages in the phylogeny, which were treated, respectively, asclade I andclade II by Looney et al. [], because of the shortage of samples from the type locality of.
+
+In the present study, one collection from Cameroon (K 43873) was morphologically examined and phylogenetically analyzed, and its morphology fits the description ofIn addition, Cameroon is very close to Equatorial Guinea, so we consider the specimen (K 43873) represents the real, and K 43873 is treated as epitype of. Theclade I andclade II are, respectively, treated asand(Fr.) Pat. in our study ().was originally described from Mexico [], and more samples were morphological and phylogenetically studied. These samples form a distinct lineage (and) and their morphology fits the description of.
+
+is characterized by a conspicuously porose-reticulate hymenophore, short hairs and relatively small basidiospores. It is closely related toY.C. Dai & F. Wu, buthas smaller basidia (30–45 µm × 4–5.5 µm), slightly shorter hairs (30–80 µm × 6–9 µm) and a distribution in Asia.
+
+(12)L.J. Li & B. Liui and.
+
+Basidiomata—Gelatinous when rehydrated, cream to honey-yellow, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 4.8 cm, 0.6–0.8 mm thick, 0.2–0.26 mm thick when dry; upper surface densely pilose, becoming cinnamon-buff upon drying; hymenophore surface usually with several folds, becoming honey-yellow upon drying.
+
+Internal features—Medulla present in the middle of the cross-section or near the abhymenium; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, tufted, 280–380 × 5–6.5 µm; hyphae with clamp connections, 0.5–2.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 50–65 × 4–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores not observed in the type, but reported as (14.5–)15.6–18 × 5.5–7.5 µm by Li and Liu [].
+
+Distribution—China.
+
+Notes—is characterized by cream to honey-yellow fresh basidiomata. According to our observations of the type, the species is macro-morphologically similar to, buthas obviously larger basidiospores than those in(15.6–18 × 5.5–7.5 µm vs 13.8–16.5 × 4.5–6 µm). We failed to extract DNA, because the type material is in poor condition. For the time being we acceptas an independent species based on its original description.
+
+Specimen examined—China. Hainan Province, Sansha, East of Xisha Islands, on rotten angiosperm wood, July 1983, L.J. Li, B. Liu, HPNHW 1449 (BJM, holotype).
+
+(13)Henn.j and.
+
+=Pat. & Har., Bull. Soc. mycol. Fr. 9: 210, 1893.
+
+Basidiomata—Gelatinous when rehydrated, reddish brown to vinaceous brown, solitary or caespitose, sessile; pileus discoid or auriculate, margin entire, projecting up to 12 cm, 0.6–0.9 mm thick, 0.2–0.4 mm thick when dry; upper surface densely pilose, becoming vinaceous grey upon drying; hymenophore surface usually smooth, without folds, becoming fuscous upon drying.
+
+Internal features—Medulla present in the middle of the cross-section or near the abhymenium; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with narrow lumen, apical tips acute or obtuse, tufted, up to 1 cm long and 4–6 µm broad; hyphae with clamp connections and simple septa, 0.5–4.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 40–60 × 4–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores not observed in the studied specimens, but reported as 12–14 × 4–5 µm by Lowy [].
+
+Distribution—Africa.
+
+Notes—is characterized by the longest hairs on the upper surface in the genus and is distributed in Africa only. Lowy indicated thatwas a synonym of[]. In the present study, we confirm this synonym because the morphological differences between the two type specimens are too small to justify the segregation of these two species.
+
+Specimens examined—Congo. 1893, F 19526 (type of, S), 1893, FH (type of). Ethiopia. Bonga, 1984, D. Abate, (K 27093). Tanzania. Flora, 1966, R.F. Cain, (K 89904).
+
+(14)Kobayasia and.
+
+Basidiomata—Soft gelatinous when fresh, fawn to reddish brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, margin entire, projecting up to 6 cm, 0.35–0.5 mm thick, 0.04–0.2 mm thick and fawn to fuscous when dry; upper surface scantly pilose; hymenophore surface usually with folds.
+
+Internal features—Medulla indistinctly present in the middle of the cross-section; crystals present, very small, scattered throughout the cross-section; abhymenial hairs with an obviously swollen base, hyaline, thick-walled, with a wide septate lumen, apical tips acute or obtuse, single, 60–100 × 10–20 µm; hyphae with clamp connections, 1–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 41–57 × 4–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (10.7–)11–14(–14.5) × 4–5(–5.6) µm, L = 12.39 µm, W = 4.47 µm, Q = 2.45–3.03 (n = 150/5).
+
+Distribution—Africa, Asia and Oceania.
+
+Notes—was originally described from Papua New Guinea [], and the type specimen (F 234519) was studied.Bandara & K.D. Hyde was recently described from Thailand by Bandara et al. [], and it is very close toboth in morphology and phylogeny. Both species occur in Southeast Asia and it is very difficult to distinguish them by morphology, especially the dry basidiomata. However, these two species clustered into two distinct lineages in our phylogeny based on the concatenated ITS+nLSU dataset (); furthermore, the fresh basidiomata ofare softer than those of. Therefore, we treatandas two independent species in the present study.
+
+Specimens examined—China. Guizhou Province, Anshun County, Huangguoshu Nature Reserve, on fallen angiosperm trunk, 17 July 2014, Y.C. Dai,(BJFC 017475). Hainan Province, Changjiang County, Bawangling National Forest Park, on fallen angiosperm trunk, 9 May 2009, B.K. Cui,(BJFC 004174),(BJFC 004354),(BJFC 004357); Qiongzhong County, Diaoluoshan Forest Park, on fallen angiosperm trunk, 13 June 2014, Y.C. Dai,(BJFC 017335),(BJFC 017336),(BJFC 017337); Wanning County, on fallen angiosperm trunk, 15 May 2009, B.K. Cui,(BJFC 004558). Papua New Guinea. 28 December 1969,(TNS, holotype). Zambia. Livingstone, on rotten angiosperm wood, 1 January 2018, Y.C. Dai,(BJFC 026006).
+
+(15)(Mont.) Henn.b and.
+
+≡Mont. [as ‘’] Annls Sci. Nat., Bot., sér. 2 17: 125, 1842.
+
+Basidiomata—Gelatinous when fresh, fawn to cinnamon brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, margin entire, projecting up to 6.5 cm, 1–3 mm thick, 0.15–0.3 mm thick and cinnamon brown to vinaceous brown when dry; upper surface pilose, sometimes with folds; hymenophore surface smooth, sometimes with folds.
+
+Internal features—Medulla present near the abhymenium; crystals present, scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow lumen, sometimes with a septate lumen in acute or obtuse apical tips, single or tufted, 75–165 × 5–8 µm; hyphae with clamp connections and simple septa, 1–6 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 42–66 × 4–7 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (11.8–)12–14(–14.5) × (4–)4.3–5.2(–5.5) µm, L = 13 µm, W = 4.92 µm, Q = 2.62–2.66 (n = 60/2).
+
+Distribution—Tropical and subtropical America.
+
+Notes—is characterized by macroscopically cinnamon brown basidiomata when dry and microscopically by a medulla distinctly present near the abhymenium. It is similar toandbut differs by having slightly thicker basidiomata and hyphae with simple septa. In the phylogeny,is distantly related toand(and). The species was previously reported in China []. Vouchers of Chinese materials were studied, and they are actuallyorBecause the three species share similar morphology,is temporarily considered as a species complex even if the phylogenetic relations are distant (and).
+
+Specimens examined—Brazil. Acre, Sena Madureira, Floresta Nacional de São Francisco, on dead angiosperm tree, 28 January 2016, A. Meiras-Ottoni,(URM 93429), Floresta Nacional do Macauã, 29 January 2016, A. Meiras-Ottoni,(URM 93435), Reserva Extrativista do Cazumbá-Iracema, 30 January 2016, A. Meiras-Ottoni,(URM 93430). Goiás, Floresta Nacional de Silvânia, 12 January 2016, R.L.M. Alvarenga,(URM 93434); Paraíba, Areia, Parque Estadual Mata do Pau Ferro, 2013, C.R.S. Lira,563 (URM 84766, duplicate, BJFC 018583); Pernambuco, Gravatá, RPPN Serra do Contente, on dead angiosperm tree, 18 May 2017, Y.C. Dai,(BJFC 024982). São Paulo, São Paulo, on dead angiosperm tree, 7 June 2015, A.M. Gugliotta, Y. Gafforov,(BJFC 020597), A.M. Gugliotta, Y. Gafforov,(BJFC 020598), A.M. Gugliotta, Y. Gafforov,(BJFC020599), 2013, 12 May 2017, Y.C. Dai,(BJFC 024940),(BJFC 024953); Paraíba, Areia, Parque Estadual Mata do Pau Ferro, 2013, C.R.S. Lira,563 (URM 84766, duplicate, BJFC 018583); Rondônia, Itapuã do Oeste, Floresta Nacional do Jamari, 06 February 2016, A. Meiras-Ottoni,(URM 93431).. Florida, on rotten angiosperm wood, 24 November 2013, O. Miettinen,(H). Louisiana, on fallen angiosperm trunk, 1990, T.J. Volk,(CFMR). Puerto Rico, on fallen angiosperm trunk, 1993, D.J. Lodge, H.H. Burdsall, Jr., & M. Boyd,(CFMR).
+
+(16)L.J. Lid and.
+
+Basidiomata—Gelatinous when rehydrated, fuscous to vinaceous brown, solitary, sessile or substipitate; pileus auriculate, margin entire, projecting up to 3.5 cm, 2–3.1 mm thick, 0.6–0.7 mm thick and mouse-grey to black when dry; upper surface scantly pilose, sometimes with folds; hymenophore surface with obvious folds.
+
+Internal features—Medulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, sometimes septate, apical tips acute or obtuse, single, 30–80 × 4–5 µm; hyphae with clamp connections, 0.5–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 70–80 × 3–4 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores not observed in the type, but reported as 7.5–8.5 × 3–4 µm by Li [].
+
+Distribution—China.
+
+Notes—is characterized by very thick basidiomata when dried and very small basidiospores. According to the original description and our observation of the type, the species is morphologically similar toKobayasi, but that species has thinner basidiomata (0.1–0.2 mm vs. 0.6–0.7 mm) and hymenophore surface without distinct folds. Because the type materials of bothandare in poor condition, and DNA extraction from the types failed, their phylogenetic relations remain uncertain.
+
+Specimen examined—China. Hainan Province, Qiongzhong County, Limu Mountain, on fallen angiosperm trunk, 12 April 1977, L.J. Li,(BJM, holotype).
+
+(17)F. Wu, B.K. Cui, Y.C. Daie,f and.
+
+Basidiomata—Gelatinous when fresh, fawn to reddish brown, solitary or caespitose, sessile or substipitate; pileus auriculate or petaloid, margin entire, projecting up to 12 cm, 0.8–1.5 mm thick, 0.04–0.24 mm thick and greyish brown to vinaceous brown when dry; upper surface pilose, sometimes with folds; hymenophore surface smooth, sometimes with shallow folds.
+
+Internal features—Medulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, single or tufted, 50–150 × 4–6.5 µm; hyphae with clamp connections, 0.5–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 40–67 × 3–6.5 µm, sterigmata frequently observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, 11–13(–13.1) × 4–5(–5.1) µm, L = 12 µm, W = 4.71 µm, Q = 2.43–2.74 (n = 120/4).
+
+Distribution—Temperate Asia.
+
+Notes—Morphologicallyis similar toMalysheva, but the latter has larger basidiospores (13–15.5 × 5–6.1 µm).has a wide distribution in temperate Asia and grows mostly onbut basidiomata from the wild are uncommon. Previously the Asianwas considered the same species as the European[,]. The cultivated and the wild(e,f) were different from.in both morphology (refer to the notes on) and phylogeny, in which they clustered into two different lineages, each one with high support (). The morphological description oftaken fromWu et al. [].
+
+Specimens examined—China. Heilongjiang Province, Donglin County, on fallen trunk of, 4 August 2014, Y.C. Dai,(BJFC 017516),(BJFC 017519); Hailin County, on fallen trunk of, 2 August 2014, Y.C. Dai,(BJFC 017496, holotype); Mudanjiang, Wenchun County, on fallen trunk of, 12 August 2009, B.K. Cui,(BJFC 005592); Yabuli County, Hongxing Farm, on fallen trunk of, 12 September 2013, Y.C. Dai,(BJFC 014965). Jilin Province, Dunhua County, Huangnihe, cultivation, 8 August 1997, Y.C. Dai,(BJFC 019121); Hunchun, Hadamen Village, on fallen trunk of, 7 August 2009, B.K. Cui,(BJFC 005588); Taiyang Mountain, on fallen trunk of, 25 July 2013, Y.C. Dai,(BJFC 015110). Shanxi Province, Lingchuan County, on fallen angiosperm trunk, 9 November 2009, B.K. Cui,(BJFC 007133). Tianjin, Ji County, on fallen trunk of, 1 August 2009, B.K. Cui,(BJFC 005538). Ningxia Autonomous Region, Liupan Mountain, on fallen angiosperm trunk, 11 July 2010, Y.C. Dai,(BJFC 009040). Russia. Khankaisky District, Novo-Kachalinsk, on fallen trunk of, 26 July1996, Leley,(LE). Primorsky Territory, Sikhote-Alin Nature Reserve, vicinities of Ust’-Serebryany, on fallen trunk, 4 September 1996, Morozova, (LE). Republic of Buryatia, Kabansky District, on fallen trunk of, 9 August 1998, Morozova,(LE).
+
+(18)Y.C. Dai & F. Wu, sp. nov.d and.
+
+MycoBank number: MB 825098.
+
+Type—China. Yunnan Province, Yongde County, Daxueshan Nature Reserve, E 99°38′, N 24°9′, on rotten angiosperm wood, 27 August 2015,(BJFC 019774, holotype).
+
+Etymology—(Lat.): refers to the wide abhymenial hairs with slightly swollen center.
+
+Basidiomata—Gelatinous when fresh, reddish brown to fawn, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 5 cm, 1–3 mm thick, 0.2–0.3 mm thick and fawn to fuscous when dry; upper surface distinctly pilose, sometimes with a few folds; hymenophore surface porose-reticulate.
+
+Internal features—Medulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen center, hyaline, thick-walled, with a wide septate lumen, apical tips acute or obtuse, single or tufted, 95–250 × 9–14 µm; hyphae with clamp connections and simple septa, 1–6 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 50–70 × 5–6.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (12.3–)12.9–14.2(–15) × (5–)5.2–6(–6.2) µm, L = 13.56 µm, W = 5.73 µm, Q = 2.37 (n = 30/1).
+
+Distribution—China.
+
+Notes—is characterized macroscopically by a conspicuously porose-reticulate hymenophore, and microscopically by wide abhymenial hairs with slightly swollen center. The species belongs to thecomplex and it is morphologically close toY.C. Dai & F. Wu sharing abhymenial hairs > 100 μm long, buthas shorter basidia (35–45 × 4–5.5 µm) and is distributed in Africa. Phylogenetically, the species is distantly related toand forms a distinct lineage with high support (and).
+
+Additional specimens (paratypes) examined—China. Yunnan Province, Yongde County, Daxueshan Nature Reserve, on rotten angiosperm wood, 27 August 2015, Y.C. Dai,(BJFC 019773); 5 August 2014, Y.C. Dai,(BJFC 022535),(BJFC 022536),(BJFC 022537),(BJFC 022538),(BJFC 022539).
+
+(19)(Dicks.) Pers.e and.
+
+≡Dicks., Fasc. pl. crypt. brit. (London) 1: 20, 1785.
+
+=Bull., Herb. Fr. (Paris) 7: Table 290, 1787.
+
+=Sommerf. Mag. Naturvididensk. 6: 295, 1826.
+
+Basidiomata—Gelatinous when fresh, greyish brown to fuscous or buff to white, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 7 cm, 1.5–3 mm thick, 0.2–0.3 mm thick when dry; upper surface hispid, distinctly and concentrically zoned with canescent zones and dark bands, becoming olivaceous buff upon drying; hymenophore surface venose with obvious folds, becoming fawn to reddish brown upon drying.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 1000–2000 × 2–4 µm; hyphae with clamp connections, obviously inflated with a lumen in KOH, up to 14 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 48–68 × 4–6.5 µm, sterigmata rarely observed; cystidioles present, 5–9 × 2.5–5 µm.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (13.8–)14–17(–17.6) × (4.5–)4.7–5.2(–5.3) µm, L = 15.45 µm, W = 5.01 µm, Q = 3.08–3.09 (n = 60/2).
+
+Distribution—Europe and Uzbekistan.
+
+Notes—is a common species in Europe and grows on species of different angiosperm wood usually in summer to autumn. The species was originally described from Europe, but is also reported from the Americas and Asia [,,]. However,was reported as a species complex with three species (,andY.C. Dai & F. Wu) [,]. In the present study, the other two new species,andY.C. Dai & F. Wu, are described. In addition,, originally described from Australia [], is re-studied and phylogenetically analyzed. We confirmed that it belongs to thecomplex and is an independent species.
+
+Morphologically, thecomplex is distinct from other species in the genus by its resupinate to effused-reflexed basidiomata, the upper surface usually with distinct and concentric zones and a venose hymenophore surface with obvious folds.has the largest basidiospores among the species in the complex. Phylogenetically,forms a single lineage with strong support and is closely related toand(and).
+
+Specimens examined—Czech Republic. Bukovinka, Rakovecký les forest, on fallen angiosperm trunk, 15 September 2007, A. Vágner, (BRNM 706955, duplicate, BJFC 018552); Vranovice upon Svratka, Plačkův les Nature Reserve, on the trunk of, 19 November 1999, A. Vágner, (BRNM 648573, duplicate, BJFC 018554). Estonia. Viljandi District, on fallen angiosperm wood, 26 August 1989, I. Kytovuori,(H). France. Péage de Roussillon, on the trunk of, 15 April 2014, B. Rivoire,5353 (BJFC 018549). Italy. Parma, La Cittadella Park, on rotten angiosperm stump, 27 February 1987, V. Härkönen,(H). Sweden. Närke, Almby, Hjälmarsberg, on rotten wood of, 28 September 1998,,(S). Switzerland. Sparse, on fallen trunk of, 1 June 2008, O. Miettinen,(H). UK. Wales, Gwent, Abergavenny Riverside, on rotten angiosperm trunk, 5 March 1990, V. Härkönen,(H). Uzbekistan. Profenicel garden, Taslvencf, on angiosperm trunk, 2 September 2011, Y. Gofforov,(BJFC 020591); Xumson village, Suglens forest, on fallen trunk of, 26 September 2011, Y. Gofforov,(BJFC 020592).
+
+(20)Kobayasig and.
+
+Basidiomata—Gelatinous when rehydrated, greyish brown to fawn, solitary, sessile; pileus discoid or auriculate, margin entire, projecting up to 6.5 cm, 0.65–0.8 mm thick, 0.1–0.2 mm thick when dry; upper surface scantly pilose, becoming mouse-grey upon drying; hymenophore surface smooth, sometimes with indistinct folds, becoming black upon drying.
+
+Internal features—Medulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline or clay buff, thick-walled, with a narrow lumen, sometimes septate, apical tips acute or obtuse, single or tufted, 90–120 × 6–10 µm; hyphae with clamp connections, 1–2 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 35–43 × 2–4 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Only one possible true basidiospore was observed in the type, and was reported as measuring 7–8 × 3–4 µm by Kobayasi [].
+
+Distribution—Asia.
+
+Notes—was originally described from tropical Asia [], and is characterized by its solitary and very small basidiomata. We failed to extract DNA because the type material and other samples are in poor condition, so its phylogenetic relations with other species are uncertain. Morphologically,is very similar todescribed from tropical Asia, but the abhymenial hairs in(90–120 × 6–10 µm) are longer than those in(30–80 × 4–5 µm).
+
+Specimens examined—New Guinea. 1981,(TNS, type). Japan. 4 October 1981,(TNS).
+
+(21)Y.C. Dai, F. Wu & Malyshevah,i and.
+
+Basidiomata—Gelatinous when fresh, vinaceous grey to fuscous or clay buff to pinkish buff, solitary or caespitose, sessile; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 4 cm, 0.5–2 mm thick, 0.04–0.2 mm thick when dry; upper surface pilose, sometimes with folds, becoming vinaceous grey upon drying; hymenophore surface smooth or with obvious folds, becoming fuscous or black upon drying.
+
+Internal features—Medulla present in the middle of the cross-section; crystals present, usually scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, sometimes septate, apical tips acute or obtuse, single or tufted, 50–85(–105) × 5–6 µm; hyphae with clamp connections, 1–3.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 46–67 × 5–8 µm, sterigmata occasionally observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (11.8–)13–15(–16.2) × 5–6(–7) µm, L = 14.28 µm, W = 5.83 µm, Q = 2.44–2.46 (n = 80/3).
+
+Distribution—China and Russia.
+
+Notes—belongs to thecomplex and is characterized by its small basidiomata. The species is similar toandbut the latter two species have smaller basidiospores (11–13 × 4–5 µm inand 7–8 × 3–4 µm in).has two kinds of basidiomata (h,i) that are different in macro-morphology, but have the similar basidia, basidiospores and DNA data. In the phylogeny,is closely related to, but it forms a single lineage with strong support (and). The morphological description oftaken from Wu et al. [].
+
+Specimens examined—China. Gansu Province, Pingliang, Kongtongshan, on rotten branch of, 3 August 2015, Y.C. Dai,(BJFC 019557),(BJFC 019558),(BJFC 019559),(BJFC 019560),(BJFC 019561). Hebei Province, Laishui County, Yesanpo Nature Reserve, on fallen branch of, 18 November 2014, Y.C. Dai,(BJFC 017993),(BJFC 017994, holotype). Russia. Primorye Territory, Kedrovaya Pad’Reserve, 10 October 1994, Govorova, (LE 296424).
+
+(22)(Sw.) Birkebak, Looney & Sánchez-García
+
+k and.
+
+≡Sw., Fl. Ind. Occid.3: 1938, 1806.
+
+=Mont., Voy. Indes Or., Bot. 2: 154, 1834.
+
+Basidiomata—Gelatinous when rehydrated, reddish brown to orange-brown, solitary or caespitose, sessile or substipitate; pileus cupulate or auriculate, sometimes with lobed margin, projecting up to 6 cm, 1–3 mm thick, 0.36–0.4 mm thick when dry; upper surface usually densely hispid, becoming vinaceous grey upon drying; hymenophore surface usually smooth, without folds, becoming dark-grey upon drying.
+
+Internal features—Medulla obviously present near the abhymenium; crystals present, usually scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 300–600 × 7–9 µm; hyphae with clamp connections and simple septa, 0.5–4 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 50–60 × 4–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores not observed in the studied samples, but reported as measuring 14.5–17 × 5–7 µm by Looney et al. [].
+
+Distribution—North America.
+
+Notes—is a name that has been applied to this species for a long time [,,], but Looney et al. recently found thatMont. andrepresent the same species []. Sincewas an earlier name and thus had the priority, they proposed the combination(Sw.) Birkebak & al., andis treated as a synonym of.
+
+is characterized by the densely hispid upper surface and obvious medulla near the abhymenium. It is easily confused withbecause of the variable morphology of, butusually has a more hispid upper surface and is distributed in North America only. Phylogenetically, both species are distantly related (and).
+
+Specimens examined—Costa Rica. On fallen angiosperm trunk, 4 January 1979,(H). Mexico. On fallen angiosperm trunk, 18 October 1997, T. Ahti,(H). USA. Louisiana, on fallen trunk of, 1993, T.J. Volk,(CFMR).
+
+(23)Y.C. Dai & F. Wu, sp. nov.l and.
+
+Mycobank number: MB 825099.
+
+Type—New Zealand. Auckland, S 36°50′, E 174°44′, on stump, 12 May 2005, B. Dee, (PDD 83897, holotype).
+
+Etymology—(Lat.): refers to the species from New Zealand.
+
+Basidiomata—Gelatinous when rehydrated, reddish brown to fuscous, solitary or caespitose, sessile or substipitate; pileus cupulate or auriculate, sometimes with lobed margin, projecting up to 15 cm, 0.8–1.5 mm thick, 0.3–0.4 mm thick when dry; upper surface densely pilose, becoming greyish brown to clay buff upon drying; hymenophore surface usually smooth, without folds, becoming vinaceous grey upon drying.
+
+Internal features—Medulla obviously present in the middle of the cross-section or near the abhymenium; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow lumen, apical tips with several septate lumens, obtuse, tufted, 100–320 × 7–9 µm; hyphae with clamp connections and simple septa, 0.5–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 70–86 × 5–6 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (15–)16–19(–19.5) × (5.1–)5.3–6.1(–6.5) µm, L = 17.47 µm, W = 5.83 µm, Q = 2.94–3.05 (n = 90/3).
+
+Distribution—New Zealand.
+
+Notes—belongs to thecomplex and is characterized by dense hairs on the upper surface, obvious medulla in the middle of the cross-section or near the abhymenium and very big basidiospores. It is morphologically and phylogenetically related to, buthas smaller basidia (60–75 × 4–6 µm) and smaller basidiospores (13.8–16.5 × 4.5–6 µm).
+
+Additional specimens (paratypes) examined—New Zealand. Auckland, 29 January 1998, R. Leschen, (PDD 70405); 14 March 2001, S.R. Whitton, C. Delleey, R. Fuller, (PDD 75110); 29 May 1999, C. Shirley, (PDD 81195); on dead wood, 8 May 2006, P. Catcheside, D. Catcheside, (PDD 88998). Nelson, 11 May 2004, D. Catcheside, (PDD 94628). Wellington, 25 March 1997, A. Freeston, R. Freeston, (PDD 94817).
+
+(24)Y.C. Dai & F. Wuf and.
+
+Basidiomata—Gelatinous when fresh, greyish brown to fuscous, solitary or caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 2 cm, 2–3 mm thick, 0.2–0.3 mm thick when dry; upper surface densely villose, sometimes concentrically zoned with canescent zones and dark bands, becoming white to olivaceous buff upon drying; hymenophore surface venose with folds, becoming greyish blue to dark greyish blue upon drying.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 900–1500(–1800) × 1.5–2.5 µm; hyphae with clamp connections, obviously inflated with a lumen in KOH, up to 7 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 50–72 × 3.5–6 µm, sterigmata rarely observed; cystidioles present, 6–8 × 3–3.5 µm.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three large guttules, IKI–, CB–, (12–)12.5–14.2(–15) × 5–6 µm, L = 13.44 µm, W = 5.48 µm, Q = 2.45 (n = 30/1).
+
+Distribution—China.
+
+Notes—was described as a new species in thecomplex []. Compared to other species in this complex, onlyandhave cystidioles, buthas smaller basidiospores than those of(12.5–14.2 × 5–6 µm vs. 14–17 × 4.7–5.2 µm). Phylogenetically, samples ofclustered in a single lineage with robust support (and). The morphological description oftaken from Wu et al. [].
+
+Specimens examined—China. Beijing, Baihuashan Nature Reserve, on fallen angiosperm trunk, 2 November 1993, Y.C. Dai,(BJFC 019131). Hebei Province, Laishui County, Yesanpo National Park, on rotten stump of, 17 November 2014, Y.C. Dai,(BJFC 017988, holotype). Inner Mongolia Autonomous Region, Daqinggou Nature Reserve, on rotten angiosperm wood, 25 August 2015, Y.C. Dai,(BJFC 019916).
+
+(25)Yasudac and.
+
+Basidiomata—Gelatinous when rehydrated, reddish brown to cinnamon, caespitose, sessile; pileus discoid, margin entire, projecting up to 2 cm, 0.65–1 mm thick, 0.02–0.04 mm thick and yellowish brown when dry; upper surface scantly pilose, distinctly and concentrically zoned; hymenophore surface smooth, sometimes with folds.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline or clay buff, thick-walled, with a narrow lumen, apical tips acute, single, 20 × 7 µm; hyphae with clamp connections, 2.8–4 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 60–70 × 8–10 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three small guttules, IKI–, CB–, 16–18(–18.2) × (4–)4.2–5.3(–5.5) µm, L = 17.17 µm, W = 4.86 µm, Q = 3.53 (n = 30/1).
+
+Distribution—Japan.
+
+Notes—is characterized by the extremely thin and papery basidiomata when dry. It is easy to distinguish from other species in the genus by the concentric white zones on the upper surface. No fresh samples were available, and DNA extraction from the type and another sample failed. Its relation within the genus are uncertain.
+
+Specimens examined—Japan. 17 December 1911,(TNS, type); 7 December 1917,(TNS).
+
+(26)Y.C. Dai, L.W. Zhou & F. Wu, sp. nov..
+
+MycoBank number: MB 840812.
+
+Type—Ethiopia. Jimma, Shebe, N 7°34′, E 36°25′, on angiosperm trunk, 21 April 2019, L.W. Zhou, LWZ20190421-7 (HMAS, holotype).
+
+Etymology—(Lat.): refers to the distinctly pilose abhymenial surface.
+
+Basidiomata—Gelatinous when fresh, reddish brown to vinaceous brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 4 cm, 1–2 mm thick, 0.1–0.2 mm thick and reddish brown to fuscous when dry; upper surface distinctly pilose; hymenophore surface porose-reticulate.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide septate lumen, apical tips acute or obtuse, single or tufted, 90–207 × 8–16 µm; hyphae with clamp connections and simple septa, 1–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 35–45 × 4–5.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (10.5–)11–13.8(–14.8) × (3.8–)4.2–5.8(–6.1) µm, L = 12.46 µm, W = 4.95 µm, Q = 2.52 (n = 60/1).
+
+Distribution—Ethiopia and Tanzania.
+
+Notes—is characterized by the pilose upper surface, porose-reticulate hymenophore, and wide abhymenial hairs with slightly swollen center. The species belongs to thecomplex and is easily confused withbecause of the distinctly pilose abhymenial surface, but it differs by the slightly shorter hairs and basidia (in95–250 µm long and 50–70 µm long, respectively) and is distributed in Africa. Phylogenetically,forms a single lineage distant from other species in thecomplex (and).
+
+(27)Berk.g and.
+
+Basidiomata—Gelatinous when rehydrated, fawn to greyish brown, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 3 cm, 1.5–2 mm thick, 0.2–0.4 mm thick when dry; upper surface tomentose, sometimes concentrically zoned with canescent zones and dark bands, becoming clay pink upon drying; hymenophore surface venose with folds, becoming dark greyish blue upon drying.
+
+Internal features—Medulla absent; crystals present, usually scattered in the hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 400–800 × 1.5–2 µm; hyphae with clamp connections and simple septa, slightly inflated with a lumen in KOH, up to 6 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 50–72 × 5–7.5 µm, sterigmata frequently observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, 12–14(–14.2) × (4.8–)5–6 µm, L = 12.97 µm, W = 5.43 µm, Q = 2.39 (n = 30/1).
+
+Distribution—Australia and Zambia.
+
+Notes—was originally described from Queensland (Australia) and was considered a synonym ofin the light of morphological characters (, accessed on 3 September 2021), butis a species complex []. Basidiospores ofare distinctly shorter and wider than those in(14–17 × 4.7–5.2 µm). Additionally, our phylogenies show that the two species form two distinct and distantly related lineages (and). Therefore, we acceptas an independent species in thecomplex.
+
+Specimens examined—Australia. Western Australia, Kimberley District, Kaugaroo Pool, on dead log, 30 August 1999, B.M. Spooner,(K 26101); Napier Range, Secret Valley, on dead standing shrub, 13 April 1988, B.M. Spooner,(K 26100). Zambia. Mpika, North Luangwa, on 20 September 1994, D.S. Smith,(K 28316).
+
+(28)Looney, Birkebak & Matheny.
+
+Basidiomata—Gelatinous when rehydrated, greyish brown to reddish brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, with lobed margin, projecting up to 7 cm, 1–3 mm thick, 0.1–0.2 mm thick and yellowish brown when dry; upper surface pilose; hymenophore surface conspicuously porose-reticulate.
+
+Internal features—Schizomedulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, single or tufted, 40–100 × 5–10 µm; hyphae with clamp connections, 0.5–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 40–60 × 4–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to a few large guttules, IKI–, CB–, (8–)9–12 × 4–6(–6.5) µm, L = 10.73 µm, W = 5.43 µm, Q = 1.97 (n = 30/1).
+
+Distribution—Dominican Republic and USA.
+
+Notes—was recently described from the Dominican Republic by Looney et al. [], and is characterized macroscopically by conspicuously porose-reticulate hymenophores and microscopically by the presence of schizomedulla. It is likeas both have porose-reticulate hymenophores and a schizomedulla, but the latter species has an almost smooth abhymenium and very short hairs (up to 45 µm). Phylogenetically,forms a single lineage with high support (and) and is not closely related to.
+
+Specimens examined—Dominican Republic. 31 December 1990, T. Ahti,(H); 1998, O.P. Perdomo,(CFMR).
+
+(29)Y.C. Dai & F. Wu, sp. nov.e–j and.
+
+MycoBank number: MB 825100.
+
+Type—China. Chongqing, Jiangjin District, Simianshan Nature Reserve, E 104°4′, N 28°6′, on fallen angiosperm trunk, 22 July 2014, Y.C. Dai,(BJFC 017656, holotype).
+
+Etymology—(Lat.): refers to the species being likeand with the distribution in China.
+
+Basidiomata—Gelatinous when fresh, fawn to reddish brown or cinnamon to yellowish brown, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, sometimes with lobed margin, projecting up to 8 cm, 1–2.5 mm thick, 0.16–0.25 mm thick and reddish brown to black when dry; upper surface scantly pilose, sometimes with a few folds; hymenophore surface conspicuously porose-reticulate.
+
+Internal features—Medulla indistinctly present near the hymenium; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, single, 30–80 × 6–9 µm; hyphae with clamp connections, 1–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 30–45 × 4–5.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three large guttules, IKI–, CB–, (9.8–)10–12(–12.2) × (4–)4.3–5.1(–5.5) µm, L = 10.87 µm, W = 4.84 µm, Q = 2.2–2.27 (n = 120/4).
+
+Distribution—China.
+
+Notes—Previously, Chinese samples ofwere identified asbecause of the porose-reticulate hymenophore [,]). However,was originally described from West Africa [,], and phylogeneticallyandcluster in two different lineages (). Besides,has longer basidia than those of(48–65 × 4–6 µm vs. 30–45 × 4–5.5 µm).
+
+is described as a new species in the present study and also has a porose-reticulate hymenophore.andhave an overlapping distribution in southern China, but the basidiospores are distinctly larger in(12.9–14.2 × 5.2–6 µm) than in(10–12 × 4.3–5.1 µm).has variable macro-morphological characters (e–j) and is extremely similar toin some specimens (e.g., Cui 12236,e), butusually has more or less radial folds on the hymenophore, whileusually has poroid hymenophore. More importantly,andare distantly related in phylogenies (and), and they are distributed in Asia and the Americas, respectively.
+
+Additional specimens (paratypes) examined—China. Chongqing, Jiangjin District, Simianshan Nature Reserve, on fallen angiosperm trunk, 22 July 2014, Y.C. Dai,(BJFC 017657). Guizhou Province, Guiyang, Qianlingshan Park, on rotten angiosperm wood, 17 July 2014, Y.C. Dai,(BJFC 017649),(BJFC017650). Hainan Province, Lingshui County, Diaoluoshan Forest Park, on fallen angiosperm trunk, 13 June 2014, Y.C. Dai,(BJFC 017332). Xizang Autonomous Region (Tibet), Motuo County, on fallen angiosperm trunk, 20 September 2014, B.K. Cui,(BJFC 017150); 9 September 2014, Y.C. Dai,(BJFC 018195). Yunnan Province, Jinghong, Wangtianshu Nature Reserve, on fallen angiosperm trunk, 2 November 2009, B.K. Cui,(BJFC 007083),(BJFC 007085), 19 July 2014, Y.C. Dai,(BJFC 017477),(BJFC 017479); Puer, Taiyanghe Forest Park, on fallen angiosperm trunk, 6 June 2011, Y.C. Dai,(BJFC 010525), 24 July 2014, Y.C. Dai,(BJFC 017489); Tengchong County, Yinghua Valley, on fallen angiosperm trunk, 28 October 2009, B.K. Cui,(BJFC 006804),(BJFC 006805);Yingjiang County, Tongbiguan Nature Reserve, on rotten angiosperm wood, 29 October 2010, Y.C. Dai,(BJFC 013332).
+
+(30)Y.C. Dai & F. Wu, sp. nov.h and.
+
+Mycobank number: MB 840813.
+
+Type—Sri Lanka. Wadduwa, South Bolgoda Lake, N 6°46′, E 79°54′, on dead angiosperm tree, 28 February 2019, Y.C. Dai,(BJFC031201, holotype).
+
+Etymology—(Lat.): refers to the species distribution in Sri Lanka.
+
+Basidiomata—Gelatinous when fresh, greyish blue to vinaceous grey, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 1 cm, 1–2 mm thick, 0.08–0.16 mm thick when dry; upper surface villose, sometimes concentrically zoned with canescent zones and dark bands, becoming white to greyish violet upon drying; hymenophore surface venose with folds, becoming dark greyish blue upon drying.
+
+Internal features—Medulla absent; crystals present; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 400–800 × 1.5–3 µm; hyphae with clamp connections, obviously inflated with a lumen in KOH, up to 7 µm in diam; basidia clavate, transversely 3-septate, with some small oil guttules, 50–70 × 5–7 µm, sterigmata usually observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (11–)12–14.7(–15) × (4.2–)4.5–6 µm, L = 13.18 µm, W = 5.26 µm, Q = 2.31–2.82 (n = 90/3).
+
+Distribution—Sri Lanka.
+
+Notes—is phylogenetically closely related to, but it forms one single lineage with strong support (and) and differs fromby larger basidia (40–52 × 3–6 µm in) and slightly longer basidiospores (11.2–12.3 µm long in). Morphologically, the species is easily confused withfrom China, buthas cystidioles and longer hairs (900–1500 µm).
+
+Specimens examined—Sri Lanka. Wadduwa, South Bolgoda Lake, on dead angiosperm tree, 28 February 2019, Y.C. Dai,(BJFC031198),(BJFC031199); Kandy, Udawatta Kele Royal Forest Park, on fallen angiosperm trunk, 2 March 2019, Y.C. Dai,(BJFC031254).
+
+(31)Looney, Birkebak & Mathenyk and.
+
+Basidiomata—Gelatinous when fresh, greyish violet to fawn, solitary or caespitose, sessile or substipitate; pileus discoid or auriculate, margin entire, projecting up to 6.5 cm, 1–2 mm thick, 0.24–0.4 mm thick and cinnamon buff to vinaceous grey when dry; upper surface scantly pilose, sometimes with a few folds; hymenophore surface slightly porose-reticulate.
+
+Internal features—Schizomedulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, single, 20–45 × 5–6 µm; hyphae with clamp connections and simple septa, 1–5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 30–45 × 3.5–4.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (8.5–)9–10.8(–11) × (3–)3.5–4.5 µm, L = 9.72 µm, W = 3.79 µm, Q = 2.56 (n = 30/1).
+
+Distribution—Tropical North and South America.
+
+Notes—was described from Costa Rica by Looney et al. [], and is characterized by slightly porose-reticulate hymenophores and the presence of schizomedulla. The species is similar to, which, however, has a pilose upper surface and longer abhymenial hairs (40–100 µm). Phylogenetically, both species nest in two distinct lineages with high support (and).
+
+Specimens examined—Brazil. Amazonas, Manaus, on rotten angiosperm wood, 12 May 2017, Y.C. Dai,(BJFC 026424),(BJFC 026425),(BJFC 026427), F. Wu,(BJFC 026014),(BJFC 026014). French Guiana. Coralie, on rotten angiosperm trunk, 29 August 2018, J. Vlasák,(JV).
+
+(32)Y.C. Dai & F. Wu, sp. nov.i and.
+
+MycoBank number: MB 825101.
+
+Type—China. Jilin Province, Antu County, Changbaishan Nature Reserve, E 127°45′, N 41°38′, on fallen angiosperm trunk, 16 July 2015,(BJFC 019555, holotype).
+
+Etymology—(Lat.): refers to the species being similar to.
+
+Basidiomata—Gelatinous when fresh, greyish brown to fuscous, caespitose, resupinate to effused-reflexed; pileus free lobed, margin undulate, projecting up to 7 cm, 1–2 mm thick, 0.12–0.2 mm thick when dry; upper surface hispid, distinctly and concentrically zoned with canescent zones and dark bands, becoming greyish brown to deep olive upon drying; hymenophore surface venose with obvious folds, becoming dark bluish grey to dark grey upon drying.
+
+Internal features—Medulla absent; crystals present, usually scattered in hymenium; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, tufted, 600–1000 × 2–2.5 µm; hyphae with clamp connections, obviously inflated in KOH with a wide lumen, up to 7.5 µm in diam; basidia clavate, transversely 3-septate, with oil guttules, 37–50 × 4–6.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, 12.5–14.8 × 5.5–6 µm, L = 13.75 µm, W = 5.72 µm, Q = 2.4 (n = 4/1).
+
+Distribution—China.
+
+Notes—is characterized by caespitose, resupinate to effused-reflexed basidiomata with a lobed pileus, distinctly and concentrically zoned with canescent zones and dark bands on the upper surface, absence of medulla and cystidioles, and small basidia and basidiospores.definitely belongs to thecomplex, butdiffers fromby longer abhymenial hairs (1000–2000 µm), presence of cystidioles and larger basidiospores (14–17 × 4.7–5.2 µm).is another member in thecomplex and was recently described from China []; it resemblesby sharing similar abhymenial hairs and basidiospores, butusually has resupinate basidiomata and cystidioles in the hymenium. In addition,,andform three different lineages in our phylogenies (and).
+
+Additional specimens (paratypes) examined—China. Jilin Province, Antu County, Huangsongpu, on fallen angiosperm trunk, 28 September 1993, Y.C. Dai,(BJFC 019132); Changbaishan Nature Reserve, on fallen angiosperm trunk, 16 July 2015, Y.C. Dai,(BJFC 019554),(BJFC 019556); on fallen trunk of, 11 September 2014, Y.C. Dai,(BJFC 017885). Liaoning Province, Qingyuan County, Qingyuan Ecological Station, on fallen angiosperm trunk, 26 August 2015, Y.C. Dai,(BJFC 019923).
+
+(33)Bandara & K.D. Hyded,e and.
+
+Basidiomata—Gelatinous when fresh, vinaceous to clay pink, solitary or caespitose, sessile or substipitate; pileus more or less circular, margin entire, projecting up to 6 cm, 0.4–0.7 mm thick when fresh, 0.04–0.24 mm thick and fawn to fuscous when dry; upper surface scantly pilose; hymenophore surface usually smooth, without folds, and usually with obvious white spots.
+
+Internal features—Medulla present near the abhymenium; crystals present, very small, scattered throughout the cross-section; abhymenial hairs with a distinctly swollen base, irregular, hyaline, thick-walled with a wide septate lumen, apically acute or obtuse, single, 50–80(–100) × 6–14 µm; hyphae with clamp connections, 1–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 40–60 × 3–6 µm, sterigmata sometimes observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (9–)9.5–13(–14) × 4–5.6(–6) µm, L = 11.03 µm, W = 4.69 µm, Q = 1.83–2.68 (n = 210/7).
+
+Distribution—China and Thailand.
+
+Notes—is characterized by very thin and fuscous basidiomata when dry. It is closely related toin the phylogenies (and). For the differences between these two species, refer to the notes on
+
+Specimens examined—China. Guangxi Autonomous Region, Jinxiu County, Shengtang Mountain, on rotten angiosperm wood, 17 June 2014, Y.C. Dai,(BJFC 018192),(BJFC 018193). Hainan Province, Baoting County, on fallen angiosperm trunk, 1 July 2010, Y.L. Wei,(BJFC 009236); Changjiang County, Bawangling National Forest Park, on fallen angiosperm trunk, 16 June 2014, Y.C. Dai,(BJFC 017427); Danzhou County, Danzhou Tropical Botanical Garden, on fallen angiosperm trunk, 15 June 2014, Y.C. Dai,(BJFC 017401); Ledong County, Jianfengling Nature Reserve, on fallen angiosperm trunk, 17 June 2014, Y.C. Dai,(BJFC 017443); Qiongzhong County, Limu Mountain, on fallen angiosperm trunk, 15 June 2014, Y.C. Dai,(BJFC 017368),(BJFC 017374),(BJFC 017393),(BJFC 017394); Tunchang County, on fallen angiosperm trunk, 23 November 2010, Y.C. Dai,(BJFC 009265). Yunnan Province, Cangyuan County, on fallen angiosperm trunk, 11 July 2013, B.K. Cui,(BJFC 015178); Lancang County, on fallen angiosperm trunk, 9 July 2013, B.K. Cui,(BJFC 015147); Menhai County, Mangao Nature Reserve, on fallen trunk of, 8 June 2011, Y.C. Dai,(BJFC 010612); Puer County, Taiyanghe National Forest Park, on fallen angiosperm trunk, 24 July 2014, Y.C. Dai,(BJFC 017490).
+
+(34)Y.C. Dai & F. Wuj and.
+
+Basidiomata—Gelatinous when fresh, orange-brown to reddish brown, usually solitary, sometimes caespitose, sessile or substipitate; pileus discoid or auriculate, usually with lobed margin, projecting up to 8.5 cm, 1–5 mm thick, 0.4–0.7 mm thick when dry; upper surface pilose, usually without folds, becoming mouse grey to greyish brown upon drying; hymenophore surface smooth, sometimes with several folds, becoming almost black upon drying.
+
+Internal features—Medulla present in the middle of the cross-section; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, sometimes septate, apical tips acute or obtuse, single or tufted, 75–135(–150) × 5–8 µm; hyphae with clamp connections, 0.5–4.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 70–103 × 4–7 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one to three large guttules, IKI–, CB–, (14–)15–18.5(–20) × 5.8–6.2(–6.5) µm, L = 16.22 µm, W = 6.0 µm, Q = 2.57–2.96 (n = 90/3).
+
+Distribution—China.
+
+Notes—is characterized morphologically by the thick basidiomata with obvious lobed margin and ecologically by the growth on gymnosperm wood.is another species in the genus growing on gymnosperm species, and it can be distinguished by shorter basidia (55–71 × 4–5 µm vs. 70–103 × 4–7 µm) and thinner basidiospores (14–16.5 × 4.5–5.4 µm vs. 15–18.5 × 5.8–6.2 µm). Phylogenetically,forms a single lineage with strong support and intraspecific genetic variations exist among samples of the species (and). The morphological description oftaken from Wu et al. [].
+
+Specimens examined—China. Shanxi Province, Ningwu County, Qiutiangou Forest Farm, on dead tree of, 7 August 2013, Y.C. Dai,(BJFC 014799). Sichuan Province, Daocheng County, Sandui Village, 18 July 2015, Y.C. Dai,(BJFC 019708). Xizang Autonomous Region (Tibet), Linzhi County, Kadinggou Park, on fallen gymnosperm trunk, 23 September 2014, B.K. Cui,(BJFC 017251); Sejilashan, on fallen trunk of, 23 September 2014, B.K. Cui,(BJFC 17180),(BJFC 017181, holotype),(BJFC 017181). Yunnan Province, Yulong County, Laojunshan National Park, on dead tree of, 31 August 2015, Y.C. Dai,(BJFC 019838); 1 September 2015, Y.C. Dai,(BJFC 019856).
+
+(35)(Fr.) Pat.l and.
+
+≡Fr., Summa vegetabilium Scandinaviae 2: 325, 1849.
+
+Basidiomata—Gelatinous when fresh, clay pink to clay buff, solitary or caespitose, sessile or substipitate; pileus auriculate with slightly lobed margin, projecting up to 6 cm, 0.5–1.5 mm thick, 0.08–0.2 mm thick and cinnamon to clay buff when dry; upper surface pilose, sometimes with a few folds; hymenophore surface conspicuously porose-reticulate to almost poroid especially when dry.
+
+Internal features—Medulla present or absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a wide or narrow septate lumen, apical tips acute or obtuse, single, 39–80 × 5–7 µm; hyphae with clamp connections and simple septa, 1–6.5 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 36–42 × 5–5.5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (10–)10.2–12(–12.5) × 4–5 µm, L = 11.17 µm, W = 4.39 µm, Q = 2.5–2.59 (n = 60/2).
+
+Distribution—Mexico and tropical South America.
+
+Notes—was originally described from Mexico and then considered as synonym ofbased on morphology by Lowy and Kobayasi [,]. However, in the present study, we acceptas an independent species because it is different fromnot only in morphology but also in the phylogenies (and). Six Brazilian specimens were studied and their morphological characters fit the description ofdiffers fromby its poroid hymenophore, smaller basidia (36–42 × 5–5.5 µm vs. 48–65 × 4–6 µm) and distribution in Mexico and tropical South America. In the phylogeny,is very distantly related to(and).
+
+Specimens examined—Brazil. Acre, Sena Madureira, Floresta Nacional de São Francisco, on angiosperm wood, 16 January 2016, A. Meiras-Ottoni,(URM 93424), Floresta Nacional do Macauã, on angiosperm wood, 29 January 2016, A. Meiras-Ottoni,(URM 93425), Reserva Extrativista do Cazumbá-Iracema 30 January 2016, A. Meiras-Ottoni,(URM 93426); Amazonas, Manaus, on rotten angiosperm wood, 12 May 2017, Y.C. Dai,(BJFC 026426),(BJFC 026428). Goiás, Pirenópolis, RPPN Vagafogo, on rotten angiosperm wood, 31 December 2016, R.L.M. Alvarenga,(URM 93427).
+
+(36)Malyshevak–l and.
+
+Basidiomata—Gelatinous when fresh, fawn to fuscous or buff yellow to orange yellow, solitary or caespitose, sessile or substipitate; pileus auriculate or petaloid, sometimes with lobed margin, projecting up to 5 cm, 1–2 mm thick, 0.08–0.3 mm thick and greyish brown to vinaceous brown when dry; upper surface pilose, sometimes with folds; hymenophore surface with obvious folds.
+
+Internal features—Medulla absent; crystals absent; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, sometimes septate, apical tips acute or obtuse, single, 40–90 × 4.5–6 µm; hyphae with clamp connections, 1–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 40–61 × 4–5 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores allantoid, hyaline, thin-walled, smooth, usually with one or two large guttules, IKI–, CB–, (12.6–)13–15.5(–16) × 5–6.1(–6.3) µm, L = 14.38 µm, W = 5.57 µm, Q = 2.39–2.53 (n = 90/3).
+
+Distribution—Asia.
+
+Notes—is characterized by its fawn and usually thin basidiomata when dry, and obvious folds on the hymenophore. It is easily confused within the field, but it has larger basidiospores (13–15.5 × 5–6.1 µm vs. 11–13 × 4–5 µm) and is only distantly related toin the phylogenies (and).has a wide distribution and is cultivated in China [], but it was considered asin commercial markets.
+
+Specimens examined—China. Anhui Province, Chuzhou, Shahe, on fallen trunk of, 15 May 2009, B.K. Cui,(BJFC 004614). Hunan Province, Changsha, Yuelushan, on fallen angiosperm trunk, 10 August 2015, Y.C. Dai,(BJFC 020094). Inner Mongolia Autonomous Region, Chifeng, on fallen trunk of, 12 May 2014, T.Z. Liu,(CFSZ). Jiangxi Province, Fuzhou, on living tree of, 5 August 2013, Y.C. Dai,(BJFC 014914); on living tree of, 21 July 2013, Y.C. Dai,(BJFC 014911). Sichuan Province, Bazhong County, Bazhong Park, on dead tree of, 31 May 2010, Y.C. Dai,(BJFC 009254); Yajiang County, on angiosperm trunk, 23 July 2015, Y.C. Dai,(BJFC 019709). Russia. Primorye Territory, 20 June 1991, Mikulin, (LE 296422); Ussuriyskiy Nature Reserve, on fallen angiosperm trunk, 3 July 1990, Govorova, (VLA M-11348), 30 July 1992, Govorova, (VLA M-11291), 15 August 2011, V. Malysheva, (LE 262989).
+
+(37)L.J. Lif and.
+
+Basidiomata—Gelatinous when fresh, cinnamon to reddish brown, solitary or caespitose, sessile; pileus discoid or auriculate, margin entire, projecting up to 3 cm, 0.2–0.5 mm thick, 0.14–0.16 mm thick when dry; upper surface pilose, sometimes with small folds, becoming vinaceous grey to mouse grey upon drying; hymenophore surface with obvious folds, becoming light vinaceous grey to ash-grey upon drying.
+
+Internal features—Medulla present; crystals present, abundantly scattered throughout the cross-section; abhymenial hairs with a slightly swollen base, hyaline, thick-walled, with a narrow lumen, apical tips acute or obtuse, single, sometimes tufted, 80–120 × 4–5 µm; hyphae with clamp connections, 1–3 µm in diam in KOH; basidia clavate, transversely 3-septate, with oil guttules, 50–72 × 5–7 µm, sterigmata rarely observed; cystidioles absent.
+
+Spores—Basidiospores not observed in the type but were reported as measuring 15–16 × 6–7 µm by Li (1984).
+
+Distribution—China.
+
+Notes—has very thin basidiomata when fresh like, but it has distinctly larger basidiospores than those of(11–14 × 4–5 µm). In addition,is easily identified by obvious folds and white particles on the hymenophore surface and plenty of crystals scattered throughout the cross-section. We failed to extract DNA because the type is in poor condition, so the placement ofinremain uncertain.
+
+Specimen examined—China. Hainan Province, Sansha, East of Xisha Islands, on rotten branch of, 11 April 1982, L.J. Li,(BJM, holotype).
+
+4. Discussion
+
+Currently 37species belonging to five species complexes (,,,and) are recognized based on morphological and/or molecular data. DNA sequences of 31species were obtained, while the samples of another six species (,,,,and) were poorly dried or contaminated during sampling and DNA extraction failed. The molecular data of these six species will tentatively be accessed when new samples from their type locality are collected in the future.
+
+was considered a polyphyletic group based on nLSU sequences [,], but it is shown to be monophyletic in our phylogeny based on the concatenated ITS+nLSU dataset (), which confirms the results of recent phylogenetic analyses [,]. The phylogenetic analyses inferred from both datasets result in similar topology ofwith three clades (Clade A, Clade B and Clade C). Clade A is somewhat complicated and includes the, theand thecomplexes, while theand thecomplexes are nested in Clade B and Clade C, respectively (and). Clade A includes 16 species in both phylogenies. Those taxa cluster in three groups unrelated to the species complexes in the phylogeny based on the concatenated ITS+nLSU dataset. Group I and Group III form two distinct clades with strong support in the phylogenies (and). For the convenience of discussion, species in Group II in the phylogeny based on the concatenated ITS+nLSU dataset () are still regarded as one group, although these species do not cluster in one clade in the phylogeny based on the concatenated ITS+nLSU+rpb1+rpb2 dataset ().
+
+Group I is divided into two small clades which include two species respectively (and) in thecomplex and five species (,,,, and) in thecomplex.was originally collected in the Marianna Islands [], and it has been widely reported from Asian and Pacific areas [,,,,]. Although the lineage ofis not strongly supported and includes some small lineages in both phylogenies, those small lineages are not stable in both phylogenies (and). In addition, samples with mostly similar macro-morphology are distantly related, e.g., Wu 07 (g) and Dai 14876 (h), and samples with slightly different morphology are closely related, e.g., Dai 15336 (e) and Cui 7517 (f). However, all these samples have similar micro-morphology and share the characteristics of[,], so they are treated asin the present study. These variations in macro-morphology and molecular data may be due to a wide distribution in Africa, North and South America, Asia, and Europe. The new speciesis closely related toin our phylogenies (and) and macro-morphologically similar to a few specimens of, but it has distinctly larger basidiospores () and distribution restricted to New Zealand so far. The lineage offrom Australia was defined asclade I in Looney et al. [], and it is not supported in our phylogeny based on the concatenated ITS+nLSU dataset (), but it is strongly supported in our phylogeny based on the concatenated ITS+nLSU+rpb1+rpb2 dataset ().also from Australia has dense thick folds on the hymenophore surface and wider hairs than() with a wide and regular septate lumen.andform two distinct lineages separated fromin the phylogenies (and), and they are different fromin morphology. Therefore, the four species are considered as new species in thecomplex in the present study.
+
+Group II includes seven species:,,,,, and. The lineages of the species in this group are strongly supported, but their morphologies are not corresponding to their phylogenetic relations., originally collected in Cuba [], resemblesandbecause of the red-brown fresh basidiomata and all three species belong to thecomplex ().,, andhave more or less fleshy basidiomata, pilose pileal surface and porose-reticulate hymenophore, and they belong to thecomplex ().andhave more or less leathery basidiomata, tomentose to hispid pileal surface and smooth hymenophore and they belong to thecomplex (). The new species,, from Ethiopia is described here based on only one small specimen (LWZ20190421-7), but the specimen together with JMH 45 from Tanzania form one lineage with high support in the phylogeny (). So, these two specimens are recognized as the new species.is morphologically similar to, but it has tomentose upper surface and forms one lineage distantly fromin the phylogenies (and). The lineage ofwas defined as the “clade II” in Looney et al. [], and it is recognized as the known speciesoriginally described from Mexico [].
+
+Group III includes two species:and. Both species have thin basidiomata when fresh becoming fragile when dry and are distributed in subtropical to tropical areas of Africa and Asia. The Chinese samples were previously considered as “because of the similar morphology [,]. In the present study, we still listandas members of thecomplex althoughis only distantly related toandin the phylogenies (and).
+
+The species from thecomplex differ from other species in the genus by the smooth hymenophore surface, densely pilose, tomentose or hispid upper surface, long abhymenium hairs (>150 µm) and the presence of a medulla. Another two species,andalso have the afore-mentioned characteristics, and we think they belong to the same complex even if the molecular data is lacking. The main characteristics of the seven species in thecomplex are summarized in.
+
+Thecomplex is characterized by its porose-reticulate hymenophore surface, the absence of crystals, usually short abhymenium hairs (<100 µm) and small basidiospores. A synoptic table of a comparison of species in the complex is provided in.
+
+The species from thecomplex are different from other species in the genus by the thin and fragile basidiomata when dry, pilose upper surface and short abhymenium hairs (<150 µm). The main characteristics of members in the complex are summarized in.andhave very thin dry basidiomata and are similar to. We temporarily treat them as members of thecomplex although the phylogenetic relations among the three species are unknown.
+
+Clade B includes seven species belonging to thecomplex (and). Samples of these seven species in the complex are nested in seven lineages with high support in our phylogenies, Intraspecific genetic variations are obviously present among samples of these taxa which is probably the reason whyhas considerable variability in the size of the basidiospores.was originally described from Europe and was recognized as a species complex by Looney et al. []. They also confirmed that the so-called “in the USA was actuallybut two sublineages, represented by samples, on angiosperm and gymnosperm, respectively, clustered in their phylogeny based on sequences of ITS and rpb2. Later, based on a comprehensive phylogeny, Wu et al. considered that samples on gymnosperm representedbecausewas originally described from gymnosperm [], and samples on angiosperm were described as. Subsequently,andwere described based on phylogenetic analyses [,,].
+
+The species from thecomplex are characterized by usually reddish brown basidiomata, a pilose upper surface with short abhymenium hairs (<150 µm), and mainly smooth hymenophores (). Although we do not know the phylogenetic relations ofandwith other members in thecomplex, we list them in this complex because they share these afore-mentioned morphological features. A synoptic table of a comparison on species in the complex is provided in.
+
+Clade C includes eight species belonging to thecomplex (and). All species in this complex have similar macro-morphology, and were consideredpreviously [,]. Among them,andwere recently described [,], while.,andare described as new species in the present study. These eight species form eight independent lineages with high support in the phylogeny based on the concatenated ITS+nLSU dataset except for(), but six samples ofform a single lineage with high support in the phylogeny based on the concatenated ITS+nLSU+rpb1+rpb2 dataset (). The lineage offrom Africa is strongly supported and distant from other species of the complex in both phylogenies. The lineage ofis closely related to, butmorphologically differs fromby the usually resupinate basidiomata (h), larger basidia and longer basidiospores ().
+
+The species from thecomplex are distinctly different from other species of the genus by resupinate to effused-reflexed basidiomata, a usually concentrically zoned upper surface (), the absence of medulla and usually inflated hyphae in KOH. Characteristics of these seven species in the complex are summarized in.
+
+The morphological characters of the members of theand thecomplexes totally correspond to molecular data, but not so in the members of the, theandcomplexes. Species in these three complexes may be at a stage of speciation. So far, the most important morphological characters to delimit a species in the genus are the presence or absence of the medulla, the texture, length and diameter of hairs, and the lengths and widths of basidia and basidiospores, which is more or less the same as observed in previous studies [,,]. Morphological features displaying evidence for evolution and phenotypic plasticity are worthy of being studied in the future.
+
+In addition to the molecular data, the present study provides data about host and geographical distribution of 277 samples from 35 countries in Asia, Europe, North and South America, Africa, and Oceania. The two species growing on gymnosperm wood,and, cluster in thecomplex in the phylogeny, and they form two independent lineages separated from other species growing on angiosperms. Thus, host may also be important in the taxonomy ofas with some other wood-inhabiting genera [,]. Regarding the geographical distribution, most species are distributed in the same continent, while a few species are widely distributed in different continents, e.g.,(), which, however, remains as an unresolved lineage. The species in Group II are mostly distributed in the Americas, while other species are mainly distributed in Asia (). Therefore, the host and geographical distribution probably have an influence on speciation of.
+
+A key to species accepted in
+
+1. Basidiomata resupinate to effused-reflexed, upper surface usually concentrically zoned with canescent zones and dark bands or wide whitish zones and thin black bands; hyphae with a distinct lumen in KOH
+
+2
+
+1. Basidiomata sessile or substipitate, upper surface usually without concentric zones or concentrically zoned; hyphae without a lumen in KOH
+
+9
+
+2. Basidia usually <50 µm long
+
+3
+
+2. Basidia usually >50 µm long
+
+5
+
+3. Upper surface hispid, distinctly and concentrically zoned with canescent zones and dark bands; hyphae <7.5 µm in diam in KOH
+
+A. submesenterica
+
+3. Upper surface villose or tomentose, distinctly and concentrically zoned with wide whitish zones and thin black bands; hyphae usually > 7.5 µm in diam in KOH
+
+4
+
+4. Upper surface villose, distinctly and concentrically zoned with wide whitish zones and thin black bands in the central pileal surface; crystals present; distribution: Asia
+
+A. asiatica
+
+4. Upper surface tomentose, distinctly and concentrically zoned with wide whitish zones and thin black bands throughout pileal surface; crystals absent; distribution: Brazil
+
+A. brasiliana
+
+5. Distributed in Africa or Oceania
+
+6
+
+5. Distributed in Europe or Asia
+
+7
+
+6. Abhymenial hairs 300–500 µm long, basida 50–80 × 4.5–6 µm, basidiospores 4.9–5.4 µm wide; distribution: Kenya and Uganda
+
+A. africana
+
+6. Abhymenial hairs 400–800 µm long, basida 50–72 × 5–7.5 µm, basidiospores 5–6 µm wide; distribution: Australia and Zambia
+
+A. pusio
+
+7. Hyphae up to 14 µm in diam in KOH, basidiospores 14–17 × 4.7–5.2 µm; distribution: Europe and Uzbekistan
+
+A. mesenterica
+
+7. Hyphae up to 7 µm in diam in KOH, basidiospores 12–14.7 × 4.5–6 µm; distribution: Asia
+
+8
+
+8. Abhymenial hairs usually <900 µm long, cystidioles absent; distribution: Sri Lanka
+
+A. srilankensis
+
+8. Abhymenial hairs usually >900 µm long, cystidioles present; distribution: China
+
+A. orientalis
+
+9. Upper surface concentrically zoned; abhymenial hairs up to 20 µm long
+
+A. papyracea
+
+9. Upper surface without concentric zones; abhymenial hairs usually >20 µm long
+
+10
+
+10. Hymenophore surface porose-reticulate
+
+11
+
+10. Hymenophore surface smooth or with several folds
+
+19
+
+11. Schizomedulla present
+
+12
+
+11. Schizomedulla absent
+
+13
+
+12. Upper surface pilose; abhymenial hairs 40–80 × 5–10 µm, basidia 40–60 × 4–5 µm
+
+A. scissa
+
+12. Upper surface scantly pilose; abhymenial hairs 20–45 × 5–6 µm, basidia 30–45 × 3.5–4.5 µm
+
+A. subglabra
+
+13. Upper surface distinctly pilose, abhymenial hairs usually >100 µm long
+
+14
+
+13. Upper surface pilose or scantly pilose, abhymenial hairs usually <100 µm long
+
+15
+
+14. Abhymenial hairs with a slightly swollen center, basidia 50–70 × 5–6.5 µm
+
+A. lateralis
+
+14. Abhymenial hairs with a slightly swollen base, basidia 35–45 × 4–5.5 µm
+
+A. pilosa
+
+15. Basidia usually >45 µm long; distribution: Western Africa or Australia
+
+16
+
+15. Basidia usually <45 µm long; distribution: Mexico and tropical South America or China
+
+18
+
+16. Distributed in Western Africa
+
+A. delicata
+
+16. Distributed in Australia
+
+17
+
+17. Hymenophore surface with dense and thick folds, abhymenial hairs 8–15 µm wide
+
+A. conferta
+
+17. Hymenophore surface without dense and thick folds, abhymenial hairs 7–11 µm wide
+
+A. australiana
+
+18. Hymenophore surface conspicuously porose-reticulate to almost poroid especially when dry, with more or less poroid folds; distribution: Mexico and tropical South America
+
+A. tremellosa
+
+18. Hymenophore surface conspicuously porose-reticulate especially when dry, with more or less radial folds; distribution: China
+
+A. sinodelicata
+
+19. Basidiomata more or less leathery, upper surface densely pilose, tomentose or hispid; abhymenial hairs usually >150 µm long
+
+20
+
+19. Basidiomata never leathery, upper surface pilose or scantly pilose; abhymenial hairs usually <150 µm long
+
+25
+
+20. Abhymenial hairs usually >1 cm long
+
+A. eminii
+
+20. Abhymenial hairs usually <1 cm long
+
+21
+
+21. Upper surface densely pilose
+
+22
+
+21. Upper surface densely tomentose or hispid
+
+24
+
+22. Basidia usually >70 µm long; distribution: New Zealand
+
+A. novozealandica
+
+22. Basidia usually <70 µm long; distribution: Africa, North and South America, Asia or Europe
+
+23
+
+23. Basidiomata usually reddish brown, sometimes white; cystal present, hyphae with simple septa, basidia 60–75 × 4–6 µm, basidiospores 13.8–16.5 × 4.5–6 µm
+
+A. cornea
+
+23. Basidiomata usually cream to honey-yellow; cystal absent, hyphae without simple septa, basidia 50–65 × 4–5 µm, basidiospores 15.6–18 × 5.5–7.5 µm
+
+A. eburnea
+
+24. Upper surface densely tomentose to hispid; abhymenial hairs 300–600 × 7–9 µm, basidia 50–60 long
+
+A. nigricans
+
+24. Upper surface densely tomentose; abhymenial hairs 120–250 × 6–7 µm, basidia 60–75 long
+
+A. camposii
+
+25. Upper surface scantly pilose
+
+26
+
+25. Upper surface pilose
+
+29
+
+26. Basidiomata fawn to fuscous when dry; basidiospores >9 µm long
+
+27
+
+26. Basidiomata mouse-grey to black when dry; basidiospores <9 µm long
+
+28
+
+27. Basidiomata soft gelatinous when fresh, hymenophore surface usually with folds; medulla indistinctly present, abhymenial hairs 60–100 × 10–20 µm
+
+A. fibrillifera
+
+27. Basidiomata gelatinous when fresh, hymenophore surface usually smooth; medulla present, abhymenial hairs 50–80 × 6–14 µm
+
+A. thailandica
+
+28. Basidiomata 0.6–0.7 mm thick when dry; abhymenial hairs 30–80 × 4–5 µm, basidia 70–80 long
+
+A. hainanensis
+
+28. Basidiomata 0.1–0.2 mm thick when dry; abhymenial hairs 90–120 × 6–10 µm, basidia 35–43 long
+
+A. minor
+
+29. Hymenophore surface with obvious white particles when dry; abundant crystals scattered throughout the cross-section
+
+A. xishaensis
+
+29. Hymenophore surface without obvious white particles when dry; crystals absent or a few scattered in the hymenium
+
+30
+
+30. Crystals present, scattered in the hymenium
+
+31
+
+30. Crystals absent
+
+33
+
+31. Basidia usually >65 µm long, basidiospores usually >15 µm long
+
+A. auricula-judae
+
+31. Basidia usually <65 µm long, basidiospores usually <15 µm long
+
+32
+
+32. Basidiomata fawn to cinnamon brown when fresh; abhymenium hairs 75–165 × 5–8 µm, basidiospores 4.3–5.2 µm wide; distribution: Tropical and subtropical America
+
+A. fuscosuccinea
+
+32. Basidiomata vinaceous grey to fuscous when fresh; abhymenium hairs 50–85 × 5–6 µm, basidiospores 5–6 µm wide; distribution: China and Russia
+
+A. minutissima
+
+33. Basidia usually >70 µm long, basidiospores usually >5.5 µm wide
+
+A. tibetica
+
+33. Basidia usually <70 µm long, basidiospores usually <5.5 µm wide
+
+34
+
+34. Basidiospores usually <13 µm long
+
+A. heimuer
+
+34. Basidiospores usually >13 µm long
+
+35
+
+35. Basidiomata fawn to fuscous when fresh, hymenophore surface with obvious folds
+
+A. villosula
+
+35. Basidiomata orange-brown to reddish brown or vinaceous brown when fresh, hymenophore surface smooth without folds
+
+36
+
+36. Basidiomata orange-brown to reddish brown when fresh, medulla present or absent, basidia 55–71 µm long, basidiospores 14–16.5 µm long; growth on gymnosperms
+
+A. americana
+
+36. Basidiomata vinaceous brown when fresh; medulla absent, basidia 46–63 µm long, basidiospores 13–15 µm long; growth on angiosperms
+
+A. angiospermarum

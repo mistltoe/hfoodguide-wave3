@@ -1,0 +1,125 @@
+import json, pathlib
+OUT = pathlib.Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pub, note):
+    return {"n": n, "title": title + " — " + note, "url": "https://doi.org/" + doi, "publisher": pub, "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Hippocampus abdominalis 3행(식용양식해마·식용양식해마분말·해마추출액, 영문 Big-belly Sea horse, 수산물, 부위 '-'·'-'·'전체', 상태 '제한적사용', 사용조건(USE_CND_STDR_CN) 칸 비어 있음), 같은 원자료의 복합원료 '해마혼합분말'(U코드, 학명 없음, 사용가능) 및 다른 제한적사용 수산물 행 대조(docs/materials/hippocampus-abdominalis/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Brassicasterol from Edible Aquacultural Hippocampus abdominalis Exerts an Anti-Cancer Effect by Dual-Targeting AKT and AR Signaling in Prostate Cancer. Biomedicines 2020;8(9):370", "10.3390/biomedicines8090370", "Biomedicines, PMC7555010", "PMC 전문 확인(서론의 '2015년 한국에서 식품으로 승인' 기재, 2.1–2.2 시료·GC-MS 조건, 3.2 함량)"),
+ pm(3, "Effects of Sun Drying Versus Vacuum Freeze-Drying on the Protein Quality of Hippocampus abdominalis: Nutritional Composition, Physicochemical Properties, and Proteomic Profiles. Foods 2026;15(18):3236", "10.3390/foods15183236", "Foods, PMC13606909", "PMC 전문 확인(서론의 2004–2018 국제 거래 기록, 2.1–2.3 시료·분석법, 3.1 결과)"),
+ pm(4, "Comprehensive biochemical analysis and nutritional evaluation of fatty acid and amino acid profiles in eight seahorse species (Hippocampus spp.). Heliyon 2024;10(12):e33220", "10.1016/j.heliyon.2024.e33220", "Heliyon, PMC11252734", "PMC 전문 확인(2.2–2.7 GC-MS·HPLC 조건과 검증값; 종별 수치 표는 본문 텍스트에 없어 이 종 단독 값은 확인하지 못함)"),
+ pm(5, "Antihypertensive Effects of IGTGIPGIW Peptide Purified from Hippocampus abdominalis: p-eNOS and p-AKT Stimulation in EA.hy926 Cells and Lowering of Blood Pressure in SHR Model. Mar Drugs 2022;20(6):354", "10.3390/md20060354", "Marine Drugs, PMC9227393", "PMC 전문 확인(4.1 제주 시료, 4.2 가수분해·정제, 2.4 혈압 결과)"),
+ pm(6, "Therapeutic Potential of Big-Belly Seahorse Derived Peptide in Blood Pressure Regulation and Protection Against Aortic, Renal, and Cardiac Injuries on Spontaneously Hypertensive Rats. Pharmaceutics 2025;17(11):1449", "10.3390/pharmaceutics17111449", "Pharmaceutics, PMC12654982", "초록 확인"),
+ pm(7, "Free radical scavenging activity of the peptide from the Alcalase hydrolysate of the edible aquacultural seahorse (Hippocampus abdominalis). J Food Biochem 2019;43(7):e12833", "10.1111/jfbc.12833", "Journal of Food Biochemistry (PMID 31353700)", "초록 확인"),
+ pm(8, "Cytoprotective Role of Edible Seahorse-Derived Peptides in H2O2-Induced Oxidative Stress in Human Umbilical Vein Endothelial Cells. Mar Drugs 2021;19(2):86", "10.3390/md19020086", "Marine Drugs, PMC7913330", "PMC 전문 확인(4.1 시료: 제주에서 산 양식 '식용 해마', 뉴질랜드 유래; PubMed·PMC 텍스트에서 괄호 속 학명이 빠져 있어 종명은 직접 확인하지 못함, 같은 연구진의 선행 H. abdominalis 가수분해물 연구[12]의 후속)"),
+ pm(9, "Preparation of Antioxidant Peptides from Hippocampus abdominalis via High Hydrostatic Pressure-Assisted Enzymolysis: Evaluation of Their Protective Effects Against Male Reproductive Dysfunction in Mice. Antioxidants 2026;15(10):1338", "10.3390/antiox15101338", "Antioxidants, PMC13701427", "초록 확인"),
+ pm(10, "Antioxidant potential of hydrolysate-derived seahorse (Hippocampus abdominalis) peptide: Protective effects against AAPH-induced oxidative damage in vitro and in vivo. Food Chem 2023;407:135130", "10.1016/j.foodchem.2022.135130", "Food Chemistry (PMID 36527945)", "초록 확인"),
+ pm(11, "Anti-Photoaging Effects of Antioxidant Peptide from Seahorse (Hippocampus abdominalis) in In Vivo and In Vitro Models. Mar Drugs 2024;22(10):471", "10.3390/md22100471", "Marine Drugs, PMC11509181", "초록 확인(키워드에 Hippocampus abdominalis)"),
+ pm(12, "Protective effect of enzymatic hydrolysates from seahorse (Hippocampus abdominalis) against H2O2-mediated human umbilical vein endothelial cell injury. Biomed Pharmacother 2018;108:103-110", "10.1016/j.biopha.2018.08.143", "Biomedicine & Pharmacotherapy (PMID 30218854)", "초록 확인"),
+ pm(13, "Genome and gene evolution of seahorse species revealed by the chromosome-level genome of Hippocampus abdominalis. Mol Ecol Resour 2022;22(4):1465-1477", "10.1111/1755-0998.13541", "Molecular Ecology Resources, PMC9298228", "PMC 전문 확인(2.1 푸젠 양식 개체·사육 조건, 3.1–3.3 결과)"),
+ pm(14, "The complete mitochondrial genome of the big-belly seahorse, Hippocampus abdominalis (Lesson 1827). Mitochondrial DNA A 2016;27(6):4605-4606", "10.3109/19401736.2015.1101578", "Mitochondrial DNA Part A (PMID 26707598)", "초록 확인"),
+ pm(15, "The United States dried seahorse trade: A comparison of traditional Chinese medicine and ecommerce-curio markets using molecular identification. PLoS One 2023;18(10):e0291874", "10.1371/journal.pone.0291874", "PLoS One, PMC10547177", "초록 확인(모든 해마 종 CITES 부속서 II, 10 cm 크기 권고)"),
+ pm(16, "Review of threats to the Pacific seahorse Hippocampus ingens (Girard 1858) in Peru. J Fish Biol 2022;100(6):1327-1334", "10.1111/jfb.15058", "Journal of Fish Biology (PMID 35420161)", "초록 확인(해마속 2004년 CITES 부속서 II 등재; 다른 종 논문으로 등재 연도만 인용)"),
+ pm(17, "Histological studies on the ontogeny of the big-belly seahorse (Hippocampus abdominalis). Fish Physiol Biochem 2025;51(6):182", "10.1007/s10695-025-01583-y", "Fish Physiology and Biochemistry (PMID 41143944)", "초록 확인"),
+ pm(18, "Androgens and androgen receptor directly induce the thickening, folding, and vascularization of the seahorse abdominal dermal layer into a placenta-like structure responsible for male pregnancy via multiple signaling pathways. Int J Biol Macromol 2024;279:135039", "10.1016/j.ijbiomac.2024.135039", "International Journal of Biological Macromolecules (PMID 39197609)", "초록 확인"),
+ pm(19, "Genetic monogamy despite social promiscuity in the pot-bellied seahorse (Hippocampus abdominalis). Mol Ecol 2007;16(11):2345-2352", "10.1111/j.1365-294X.2007.03243.x", "Molecular Ecology (PMID 17561895)", "초록 확인(MeSH: Tasmania)"),
+ pm(20, "Body size preferences in the pot-bellied seahorse Hippocampus abdominalis: choosy males and indiscriminate females. Behav Ecol Sociobiol 2009;63(10):1403-1410", "10.1007/s00265-009-0804-8", "Behavioral Ecology and Sociobiology, PMC2714888", "초록 확인"),
+ pm(21, "Paternal nutrient provisioning during male pregnancy in the seahorse Hippocampus abdominalis. J Comp Physiol B 2020;190(5):547-556", "10.1007/s00360-020-01289-y", "Journal of Comparative Physiology B (PMID 32617716)", "초록 확인"),
+ pm(22, "Paternal protein provisioning to embryos during male seahorse pregnancy. Reproduction 2024;167(4)", "10.1530/REP-23-0420", "Reproduction (PMID 38377683)", "초록 확인"),
+ pm(23, "Seahorse Brood Pouch Transcriptome Reveals Common Genes Associated with Vertebrate Pregnancy. Mol Biol Evol 2015;32(12):3114-3131", "10.1093/molbev/msv177", "Molecular Biology and Evolution (PMID 26330546)", "초록 확인"),
+ pm(24, "The impact of sex-role reversal on the diversity of the major histocompatibility complex: insights from the seahorse (Hippocampus abdominalis). BMC Evol Biol 2011;11:121", "10.1186/1471-2148-11-121", "BMC Evolutionary Biology, PMC3117728", "초록 확인"),
+ pm(25, "Isolation and identification of a new strain of nervous necrosis virus from the big-belly seahorse Hippocampus abdominalis. Virol J 2022;19(1):109", "10.1186/s12985-022-01837-8", "Virology Journal, PMC9235245", "초록 확인"),
+ pm(26, "Viral Nervous Necrosis due to Betanodavirus: A Case Study in Pot-Bellied Seahorses (Hippocampus abdominalis). J Fish Dis 2025;48(10):e14131", "10.1111/jfd.14131", "Journal of Fish Diseases, PMC12421790", "초록 확인"),
+ pm(27, "Sex-Stratified Gut Microbiota Dysbiosis in Cultured Big-Belly Seahorses During a Mass Mortality Outbreak. Curr Issues Mol Biol 2026;48(9):936", "10.3390/cimb48090936", "Current Issues in Molecular Biology, PMC13605202", "초록 확인"),
+ pm(28, "Effects of Dietary Nano-Selenium on Growth, Selenoprotein Gene Expression, and Antioxidant Adaptation in Pot-Bellied Seahorse (Hippocampus abdominalis). Biol Trace Elem Res 2026", "10.1007/s12011-026-05323-y", "Biological Trace Element Research (PMID 42823598)", "초록 확인"),
+ pm(29, "Diseases of captive yellow seahorse Hippocampus kuda Bleeker, pot-bellied seahorse Hippocampus abdominalis Lesson and weedy seadragon Phyllopteryx taeniolatus (Lacépède). J Fish Dis 2015;38(5):439-450", "10.1111/jfd.12254", "Journal of Fish Diseases (PMID 24820967)", "초록 확인(세 종을 묶은 결과)"),
+ {"n": 30, "title": "식품의약품안전처 「식품 등의 생산실적」 2018–2025년판 품목 유형별 현황(고시형·개별인정형) — 로컬 파싱본 docs/stats/hf_items.csv 에서 '해마' 품목 검색(해당 행 없음)", "url": "https://www.mfds.go.kr", "publisher": "식품의약품안전처", "accessed": "2026-11-02"},
+ pm(31, "Morphology of brood pouch formation in the pot-bellied seahorse. Zoological Lett 2017;3:19", "10.1186/s40851-017-0080-9", "Zoological Letters, PMC5646163", "초록 확인"),
+]
+
+sec = {}
+sec["overview"] = ("한눈에 보기", """식용양식해마(Hippocampus abdominalis)는 실고기과(Syngnathidae) 해마속의 바닷물고기로, 식약처 「식품원료 목록」에 '식용양식해마', '식용양식해마분말', '해마추출액' 세 이름의 수산물 원료로 올라 있다[1]. 세 줄 모두 상태가 '제한적사용'이며, 사용 부위는 앞의 두 줄이 '-', 해마추출액이 '전체'로 적혀 있다[1]. 같은 목록의 다른 제한적사용 수산물(불가사리껍질의 '칼슘보충용 원료에 한함' 등)과 달리 이 세 줄은 사용조건 칸이 비어 있다[1]. 그래서 어떤 식품에 얼마까지 쓸 수 있는지 같은 구체적 제한 조건은 이 원자료로는 확인하지 못함.
+
+원료 이름 자체가 '양식' 해마로 한정되어 있고, 이 목록에서 학명이 Hippocampus로 적힌 원료는 이 종의 세 줄뿐이다[1]. 해마속 전체는 2004년부터 멸종위기 야생동식물 국제거래 협약(CITES) 부속서 II에 올라 있어 국제 거래가 관리된다[15, 16]. 한 논문은 이 종이 2015년 한국에서 식품으로 승인되었다고 적고 있다[2]. 건강기능식품 고시형 원료의 원재료 목록에는 들어 있지 않아 식약처가 정한 지표성분은 없다[1]. 말린 개체의 조단백질은 61.86–68.57%로 보고되었고, 효소 가수분해물에서 혈압·산화 관련 펩타이드를 찾는 연구가 이어지고 있으나 모두 세포·동물 단계다[3, 5, 7].""")
+
+sec["history"] = ("이용과 국제 거래 관리의 역사", """해마는 중국 전통 의약에서 오래 쓰여 왔고, 『본초강목』에서는 신장을 보하고 남성 건강에 좋은 약재로 여겨졌다고 소개된다[2]. 말린 해마는 해마다 수천만 마리가 거래되며, 이 거래 압력과 느린 생활사 때문에 모든 해마 종이 CITES 부속서 II에 올랐다[15]. 해마속이 부속서 II에 등재된 해는 2004년이다[16]. CITES 당사국들은 번식할 수 있을 만큼 자란 개체만 잡도록 몸길이 10 cm 이상이라는 크기 기준을 권고했다[15].
+
+이 종의 국제 거래 기록을 보면 2004–2018년에 수입 7,147마리, 수출 27,785마리가 기록되었고, 그중 인공 번식 개체가 수입의 약 94.4%, 수출의 96.2%를 차지했다[3]. 즉 이 종의 국제 유통은 주로 양식 개체로 이루어진다[3]. 한국에서는 2015년 이 종이 식품으로 승인되어 양식이 자리 잡았다고 한 논문이 적고 있으나, 승인 고시 원문은 이 환경에서 열지 못해 확인하지 못함. 제주의 상업 양식장에서 기른 개체가 국내 연구에 쓰였다[7]. 중국에서도 이 종은 대표적인 양식 해마로 꼽힌다[17, 18].""")
+
+sec["biology"] = ("어종·형태·생태", """식용양식해마는 해마 가운데 몸집이 가장 큰 종으로 소개되며, 영어로는 big-belly seahorse 또는 pot-bellied seahorse라고 부른다[13, 18, 19]. 온대 바다에 사는 종으로, 야생 개체군 연구는 오스트레일리아 태즈메이니아에서 이루어졌다[19]. 양식장에서 12개월 자란 개체는 한 마리 약 15 g, 몸길이 약 15 cm였다[3].
+
+해마류는 수컷이 배의 육아낭(brood pouch)에서 알을 품는 '수컷 임신'을 한다[23]. 이 종의 육아낭은 수정란에서 갓 태어난 새끼까지 지질 양을 유지시키며 영양을 보태고, 단백질도 아비에서 배아로 옮겨지는 것이 확인되었다[21, 22]. 육아낭은 배 쪽 피부 양옆이 길게 자라 가운데에서 맞붙으며 만들어진다[31].
+
+짝짓기 행동은 사회적으로 여러 상대와 구애하지만, 유전자 분석에서는 한 번의 새끼 무리를 한 쌍이 만드는 일부일처로 나타났다[19]. 밀도가 높고 암컷이 많은 야생 개체군에서는 성 역할이 뒤바뀌기도 하고, 수컷은 큰 암컷을 뚜렷이 선호했다[19, 20]. 양식 개체의 발생을 보면 태어난 첫날 입과 항문이 열리고, 15일째 육아낭이 처음 보이며, 30일 무렵 떠다니는 시기에서 바닥 생활로 넘어간다[17].""")
+
+sec["related_species"] = ("관련 종·이름", """식약처 「식품원료 목록」에서 학명이 해마속으로 적힌 원료는 Hippocampus abdominalis의 세 줄뿐이며, 다른 해마 종은 원료로 올라 있지 않다[1]. 같은 목록에는 '해마혼합분말'이라는 복합원료(U코드, 사용가능)가 있지만 학명이 적혀 있지 않아 어떤 해마가 들어가는지는 원자료로 확인하지 못함. 따라서 식용양식해마의 지위를 다른 해마 종에 넓혀 적용할 수 없다[1].
+
+미국의 말린 해마 시장을 유전자로 조사한 결과 한약 시장에는 주로 H. trimaculatus, H. spinosissimus, H. ingens가, 기념품·온라인 시장에는 H. kuda 어린 개체와 H. zosterae가 많았다[15]. 이 종들은 모두 CITES 부속서 II 대상이고 이 식품원료 목록에는 없다[1, 15]. 해마 8종을 비교한 연구에서도 종과 성별에 따라 지방산 조성이 크게 달랐으므로, 다른 종의 성분 자료를 이 종에 옮겨 쓰면 안 된다[4].
+
+계통으로 보면 이 종은 해마속에서 가장 먼저 갈라져 나온 종으로, tiger-tail seahorse·lined seahorse 무리와 자매군을 이룬다[13]. 미토콘드리아 유전체는 tiger-tail seahorse(H. comes)와 87%가 같았다[14]. 같은 과에는 실고기(pipefish)와 해룡(seadragon)이 있으며, 이들도 수컷이 알을 품는다[13].""")
+
+sec["cultivation"] = ("양식·사육", """식약처 목록의 원료 이름이 '식용양식해마'이므로 식품원료로 쓰는 것은 양식한 개체다[1]. 국내 연구에 쓰인 개체는 제주의 상업 양식장이나 제주의 관상어·산호·수족관 연구 시설에서 얻었다[5, 7]. 제주에서 산 양식 '식용 해마'가 뉴질랜드에서 들여온 계통이라는 기록도 있으나, 이 논문의 학명은 텍스트에서 직접 확인하지 못함.
+
+중국 푸젠의 양식 개체군은 150 L 실내 수조에서 염분 31‰, 수온 16–18 °C로 기르며 하루 세 번 아르테미아를 먹였다[13]. 어미에게는 냉동 곤쟁이(mysis)를 주는데, 이 먹이에 셀레늄이 습중량 0.97 mg/kg 들어 있었다[28]. 나노셀레늄을 사료에 10–40 mg/kg 섞은 70일 시험에서 성장은 20·40 mg/kg에서 좋아졌지만, 최적량과 안전 상한은 정하지 못했다[28].
+
+양식의 큰 걸림돌은 질병이다[25]. 중국 샤먼의 양식 개체에서 신경괴사바이러스(betanodavirus)가 분리되었고 감염 시험에서 대량 폐사를 일으켰다[25]. 오스트레일리아에서도 같은 바이러스 유전형에 의한 신경괴사증이 보고되었다[26]. 대량 폐사 때는 장내 세균이 바뀌어 병든 암컷에서 비브리오과(Vibrionaceae) 세균이 지표로 나타났다[27]. 국내 양식 마릿수·생산량 공식 통계는 확인하지 못함.""")
+
+sec["processing"] = ("가공·이용·영양", """식약처 목록에는 해마 자체, 분말, 추출액의 세 형태가 원료로 올라 있다[1]. 식약처 「식품 등의 생산실적」의 건강기능식품 품목에는 해마를 원료명으로 한 품목이 없다[30]. 생 해마의 수분은 72.52 ± 0.31%였다[3]. 같은 양식 개체를 햇볕에 말리면 조단백질 68.57 ± 0.53%, 진공동결건조하면 61.86 ± 1.84%였다[3]. 총아미노산은 반대로 동결건조 쪽이 58.79%로 햇볕 건조(48.87%)보다 높았고, 차이는 주로 콜라겐에 많은 글리신·프롤린에서 생겼다[3].
+
+연구에서는 효소로 단백질을 잘게 자른 가수분해물을 많이 만든다[5, 8, 9]. 한 연구는 말린 해마 5 g을 물 100 mL와 알칼라아제 10 mg으로 pH 4.5, 37 °C에서 24시간 분해한 뒤 한외여과와 겔 여과로 펩타이드를 분리했다[5]. 다른 연구는 동결건조 분말 10 g에 알칼라아제를 넣어 50 °C, pH 8.0에서 8시간 분해했다[8]. 펩신 분해 전에 200 MPa의 초고압을 9분 가하면 펩타이드 수율과 항산화 활성이 높아졌다[9].
+
+지질 추출물에서는 GC-MS로 식물성 스테롤인 브라시카스테롤이 확인되었다[2]. 알칼라아제 가수분해물은 혈관내피세포의 산화 손상과 LDL 산화를 줄였고, 여기서 정제한 펩타이드는 자외선B 광노화 세포·제브라피시 모델에서 화장품 소재 가능성이 제시되었다[11, 12]. 이런 성분 연구는 기능성 식품 소재화를 목표로 하지만 사람에게서 효과를 확인한 자료는 아니다[2, 5].""")
+
+sec["genetics"] = ("유전 정보", """이 종의 미토콘드리아 유전체는 16,521 bp이고 단백질 유전자 13개, 전달 RNA 22개, 리보솜 RNA 2개로 이루어진다[14]. 염기 조성은 A 31.1%, C 23.6%, G 16.0%, T 29.3%였다[14].
+
+2021년에는 긴 염기서열 분석과 Hi-C로 해마류 최초의 공개 염색체 수준 유전체가 이 종에서 만들어졌다[13]. 전체 444.7 Mb 가운데 99% 이상이 21개 연관군에 배치되었고, 단백질 유전자 22,903개가 주석되었다[13]. 전이인자는 유전체의 35.63%로 다른 실고기과 유전체보다 많았고, 최근 이 종에서만 늘어난 흔적이 있었다[13]. 실고기과 조상에서는 면역 관련 유전자 무리가 줄고 이온 수송 유전자 무리가 늘었으며, 이 중 다수가 임신 단계에 따라 육아낭에서 발현이 바뀐다[13, 23].
+
+주조직적합복합체(MHC) II형 β 유전자는 한 벌뿐이지만 대립유전자 다양성은 여러 벌을 가진 종보다 높았고, 육아낭에서도 발현되었다[24]. 육아낭 전사체 분석에서는 포유류·파충류의 임신에 관여하는 유전자와 닮은 유전자들이 확인되었다[23]. 마이크로새틀라이트 부모 판정으로 야생·실험실 개체군 모두 유전적 일부일처임이 밝혀졌다[19].""")
+
+sec["safety"] = ("안전성과 사용 조건", """식용양식해마의 식품원료 상태는 '제한적사용'이다[1]. 그러나 식약처 원자료의 사용조건 칸이 세 줄 모두 비어 있어, 사용할 수 있는 식품 유형이나 섭취량 같은 제한 내용은 확인하지 못함. 원료 이름이 '양식' 해마로 정해져 있으므로 야생에서 잡은 해마나 다른 해마 종은 이 지위에 해당하지 않는다[1]. 해마속은 CITES 부속서 II 대상이라 국제 거래에는 협약에 따른 관리가 따른다[15, 16].
+
+건강기능식품 고시형 원료가 아니어서 고시의 섭취 시 주의사항도 없다[1]. PubMed에서 이 종을 다룬 논문을 살펴본 범위에서 사람을 대상으로 한 섭취·안전성 시험은 확인하지 못함. 효능 연구는 세포·제브라피시·쥐 실험이다[5, 6, 10, 11, 12]. 펩타이드 IGTGIPGIW는 내피세포에서 50–400 μg/mL 범위에서 세포독성을 보이지 않았다[5]. 같은 펩타이드를 고혈압 쥐에 50 mg/kg씩 8주 먹였을 때 혈압이 내려갔다[6].
+
+중금속·잔류물질·알레르기에 관한 공공기관 자료는 확인하지 못함. 사료에 셀레늄을 더하면 조직 셀레늄이 늘고 간에 가장 많이 쌓였으므로, 양식 사료 관리가 원료 성분에 영향을 줄 수 있다[28]. 수족관에서 기른 개체의 사인으로는 세균성 피부염·근육병증·마이코박테리아증이 많았다[29].""")
+
+sections = [{"key": k, "title": sec[k][0], "body": sec[k][1].strip()} for k in ["overview","history","biology","related_species","cultivation","processing","genetics","safety"]]
+
+compounds = [
+ {"name": "Brassicasterol", "name_ko": "브라시카스테롤", "class": "스테롤", "role": "bioactive", "part": "전체(지질 추출물)", "content_text": "지질 추출물(SHL)에 35.5 mg/100 g[2]", "activity_ko": "전립선암 세포(LNCaP·PC-3)에서 안드로겐 수용체·AKT 신호를 억제했다(세포 실험)[2]", "source": [2]},
+ {"name": "IGTGIPGIW", "name_ko": "IGTGIPGIW 펩타이드", "class": "펩타이드(9잔기, 914.52 Da)", "role": "bioactive", "part": "전체(알칼라아제 가수분해물 <5 kDa 분획)", "content_text": "함량 확인하지 못함(정제·동정만 보고)[5]", "activity_ko": "내피세포 NO 생성·eNOS/AKT 인산화를 늘리고, 고혈압 쥐에서 수축기 혈압을 낮췄다[5, 6]", "source": [5, 6]},
+ {"name": "Ala-Gly-Asp", "name_ko": "알라닌-글리신-아스파르트산 트라이펩타이드", "class": "펩타이드", "role": "bioactive", "part": "전체(알칼라아제 가수분해물)", "content_text": "가수분해물(HPH) 과산화 라디칼 소거 IC50 0.58 mg/mL; 펩타이드 함량 확인하지 못함[7]", "activity_ko": "AAPH로 유도한 산화 손상에서 세포·제브라피시 배아를 보호한 항산화 펩타이드로 동정되었다[7]", "source": [7]},
+ {"name": "HGSH", "name_ko": "HGSH 펩타이드", "class": "펩타이드(436.43 Da)", "role": "bioactive", "part": "전체(알칼라아제 가수분해물)", "content_text": "최종 HPLC 분획에서 KGPSW와 함께 약 1.1%(MS 세기 기준)[8]", "activity_ko": "H2O2로 손상시킨 혈관내피세포에서 HO-1/Nrf2 경로를 통해 세포를 보호했다(종명 직접 확인 못함)[8]", "source": [8]},
+ {"name": "KGPSW", "name_ko": "KGPSW 펩타이드", "class": "펩타이드(573.65 Da)", "role": "bioactive", "part": "전체(알칼라아제 가수분해물)", "content_text": "최종 HPLC 분획에서 HGSH와 함께 약 1.1%(MS 세기 기준)[8]", "activity_ko": "혈관내피세포의 활성산소를 약 40% 줄이고 세포자멸 경로를 억제했다(종명 직접 확인 못함)[8]", "source": [8]},
+ {"name": "GPAPWGF", "name_ko": "GPAPWGF 펩타이드", "class": "펩타이드", "role": "bioactive", "part": "전체(초고압 보조 펩신 가수분해물 <3 kDa)", "content_text": "함량 확인하지 못함(LC-MS/MS 동정)[9]", "activity_ko": "FPALLF·LPLPLF와 함께 높은 항산화 활성 펩타이드로 선별되었다[9]", "source": [9]},
+ {"name": "FPALLF", "name_ko": "FPALLF 펩타이드", "class": "펩타이드", "role": "bioactive", "part": "전체(초고압 보조 펩신 가수분해물 <3 kDa)", "content_text": "함량 확인하지 못함(LC-MS/MS 동정)[9]", "activity_ko": "분자 도킹과 시험관 활성 검증으로 선별된 항산화 펩타이드다[9]", "source": [9]},
+ {"name": "LPLPLF", "name_ko": "LPLPLF 펩타이드", "class": "펩타이드", "role": "bioactive", "part": "전체(초고압 보조 펩신 가수분해물 <3 kDa)", "content_text": "함량 확인하지 못함(LC-MS/MS 동정)[9]", "activity_ko": "분자 도킹과 시험관 활성 검증으로 선별된 항산화 펩타이드다[9]", "source": [9]},
+ {"name": "Protein", "name_ko": "조단백질", "class": "단백질", "role": "nutrient", "part": "전체(건조물)", "content_text": "햇볕 건조 68.57 ± 0.53%, 진공동결건조 61.86 ± 1.84%(켈달법, 질소×6.25)[3]", "activity_ko": "건조 해마의 주성분으로 가수분해물·펩타이드 소재의 원료가 된다[3, 5]", "source": [3, 5]},
+ {"name": "Glycine", "name_ko": "글리신", "class": "아미노산", "role": "nutrient", "part": "전체(건조물)", "content_text": "개별 수치 확인하지 못함; 총아미노산 동결건조 58.79 ± 0.08%, 햇볕 건조 48.87 ± 0.04%, 필수아미노산 20.29%·19.12%[3]", "activity_ko": "프롤린과 함께 콜라겐에 많은 아미노산으로, 햇볕 건조에서 크게 줄었다[3]", "source": [3]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Brassicasterol", "compound_ko": "브라시카스테롤", "part": "전체(냉동 양식 개체 지질 추출물)", "content": "지질 추출물(SHL) 35.5 mg/100 g[2]", "method": "GC-MS(EI, 단일 사중극자)",
+  "conditions": {"instrument": "Thermo Scientific ISQ LT 가스크로마토그래프-단일 사중극자 질량분석기", "column": "DB-5MS (60 m × 0.25 mm i.d., 막 두께 원문 '0.25 mm', Agilent)", "mobile_phase": "", "gradient": "오븐: 325 °C 3분 → 320 °C(10 °C/분) → 330 °C(2 °C/분, 8분 유지) → 380 °C(30 °C/분, 3분 유지), 총 43분(원문 그대로)", "flow": "", "temp": "주입구 280 °C", "detection": "전자충격 이온화 70 eV; 브라시카스테롤 머무름 시간 약 39분, m/z 69.1", "injection": "1 µL", "sample_prep": "냉동 해마 100 g을 클로로폼/메탄올(2:1) 300 mL로 균질화·여과 → 잔사 클로로폼 100 mL 재추출 → 0.88% KCl 100 mL 넣고 4 °C 암소 24시간 → 무수 황산나트륨 → 클로로폼층 40 °C 감압 농축; 메톡시아민(피리딘) 50 µL + BSTFA(1% TMCS) 50 µL로 65 °C 60분 유도체화", "standard": "브라시카스테롤(Sigma-Aldrich), 검량용 1·5·10·20·50·100 mg/L", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 종 지질 추출물에서 확인·정량된 스테롤로, 추출물의 항안드로겐 활성을 설명하는 성분으로 제시되었다(시료는 오스트레일리아 태즈메이니아 양식 개체, 운반기체 표기는 원문에서 기호 일부가 빠져 확인 못함)[2]", "source": [2], "url": "https://doi.org/10.3390/biomedicines8090370", "source_kind": "paper"},
+ {"role": "literature", "compound": "Amino acids (acid-hydrolyzed)", "compound_ko": "가수분해 아미노산(총아미노산)", "part": "전체(햇볕 건조·진공동결건조 분말)", "content": "총아미노산 동결건조 58.79 ± 0.08%, 햇볕 건조 48.87 ± 0.04%; 필수아미노산 20.29%·19.12%; 조단백질 61.86 ± 1.84%·68.57 ± 0.53%[3]", "method": "자동 아미노산 분석기(GB 5009.124-2016), 조단백질은 켈달법",
+  "conditions": {"instrument": "Hitachi L-8900 자동 아미노산 분석기; 켈달 분석기 FOSS Kjeltec 8400", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "12개월령 양식 개체(약 15 g, 15 cm) 10마리씩 햇볕 건조(항량까지) 또는 −40 °C 4시간 예비동결 후 −60 °C·10 Pa 약 24시간 동결건조 → 분쇄; 6 mol/L 염산 5 mL로 110 °C 24시간 가수분해 → 질소로 증발 건고 → pH 2.2 구연산나트륨 완충액 1 mL에 재용해. 조단백질: 시료 0.2 g 황산 분해(K2SO4/CuSO4 15:1 촉매), 질소×6.25", "standard": "아미노산 표준품 16종(Asp, Thr, Ser, Glu, Gly, Ala, Val, Met, Ile, Leu, Tyr, Phe, Lys, His, Arg, Pro; Shanghai Yuanye)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "단백질이 건조 해마의 주성분이고 아미노산 조성이 영양 품질의 핵심 지표라서, 건조 방법에 따른 품질 차이를 이 값으로 비교했다[3]", "source": [3], "url": "https://doi.org/10.3390/foods15183236", "source_kind": "paper"},
+ {"role": "literature", "compound": "Fatty acid methyl esters (34 FAMEs)", "compound_ko": "지방산(메틸에스터 34종)", "part": "전체(해마 분말, 8종 비교 중 이 종 암·수 포함)", "content": "이 종 단독 수치는 본문 텍스트에서 확인하지 못함; 8종 전체 총지질 수율 3.2491–12.3175%(건물), ∑PUFAn-3/∑PUFAn-6 2.3491–4.2374[4]", "method": "GC-MS(SCAN/SIM)",
+  "conditions": {"instrument": "GC-MS(EI 이온원)", "column": "Agilent HP-5MS (30 m × 0.25 mm, 0.25 μm)", "mobile_phase": "운반기체 헬륨", "gradient": "80 °C 0.5분 → 165 °C(20 °C/분, 2분 유지) → 180 °C(20 °C/분) → 280 °C(20 °C/분, 10분 유지)", "flow": "1.0 mL/분", "temp": "주입구·검출부 250 °C, 이온원 230 °C", "detection": "EI 70 eV, m/z 50–550 SCAN(용매 지연 4분), 정량은 SIM", "injection": "1 μL", "sample_prep": "트라이클로로메테인-메탄올법으로 총지질 추출 → 수산화나트륨-황산법으로 메틸에스터화", "standard": "지방산 메틸에스터 34종 혼합 표준", "linearity": "원문 보충표에 있음(텍스트에서 수치 확인 못함)", "lod": "원문 보충표에 있음(텍스트에서 수치 확인 못함)", "loq": "", "recovery": "주요 지방산 98.73–109.12%"},
+  "rationale": "해마의 영양 가치 평가에서 오메가-3(EPA·DHA) 등 지방산 조성이 핵심이어서 정량법을 세우고 검증했다(여러 종을 함께 분석한 논문이라 이 종 값은 표에서만 확인 가능)[4]", "source": [4], "url": "https://doi.org/10.1016/j.heliyon.2024.e33220", "source_kind": "paper"},
+]
+
+nutrients = [
+ {"form": "생 해마(전체, 양식 12개월령)", "basis": "100 g당, 건조 전 생물 측정값[3]", "items": [{"name": "수분", "value": 72.52, "unit": "g"}], "source": [3]},
+ {"form": "햇볕 건조 해마 분말(전체)", "basis": "건조물 100 g당[3]", "items": [{"name": "조단백질", "value": 68.57, "unit": "g"}, {"name": "총아미노산", "value": 48.87, "unit": "g"}, {"name": "필수아미노산", "value": 19.12, "unit": "g"}], "source": [3]},
+ {"form": "진공동결건조 해마 분말(전체)", "basis": "건조물 100 g당[3]", "items": [{"name": "조단백질", "value": 61.86, "unit": "g"}, {"name": "총아미노산", "value": 58.79, "unit": "g"}, {"name": "필수아미노산", "value": 20.29, "unit": "g"}], "source": [3]},
+]
+
+d = {
+ "slug": "hippocampus-abdominalis", "name_ko": "식용양식해마", "name_en": "Big-belly seahorse", "scientific_name": "Hippocampus abdominalis",
+ "aliases": ["식용양식해마", "식용양식해마분말", "해마추출액", "Big-belly Sea horse", "Pot-bellied seahorse", "Big-belly seahorse"],
+ "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": nutrients,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": S,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

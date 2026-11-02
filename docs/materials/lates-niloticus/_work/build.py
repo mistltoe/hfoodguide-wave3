@@ -1,0 +1,288 @@
+"""lates-niloticus dossier.json 생성 스크립트 (W2). 실행: python3 -I build.py"""
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(pmid, title, journal, cite, doi, note):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"title": f"{title} {cite} ({note})", "url": url,
+            "publisher": f"{journal}, PMID {pmid}", "accessed": ACC}
+
+
+S = [
+    {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Lates niloticus 1행: 원료명 '나일선농어', "
+              "학명 표기 'Lates niloticus / Lates nilotus rudolfianus', 영문 Nile perch, 별명 '나일농어, Nile perch', 분류 수산물, "
+              "대분류 식품원료(A코드), 부위 '-', 사용조건 기준 없음, 상태 사용가능; 같은 속 큰입선농어(Lates calcarifer, Barramundi)는 별도 행; "
+              "고시형 원료 원재료 목록(KR_NOTICE) 없음 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, "
+              "docs/materials/lates-niloticus/card.json",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+     "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm("39055768", "Chemical properties indices for nutritional quality evaluation of Nasser Lake fish, Aswan, Egypt.",
+       "Open Veterinary Journal", "2024;14(6):1403-1416", "10.5455/OVJ.2024.v14.i6.8", "PMC11268908 전문 확인"),
+    pm("34262735", "Effect of frozen storage on the biochemical composition of five commercial freshwater fish species from River Nile, Sudan.",
+       "Food Science & Nutrition", "2021;9(7):3758-3767", "10.1002/fsn3.2340", "PMC8269608 전문 확인"),
+    pm("25610654", "Fatty Acid composition and levels of selected polyunsaturated Fatty acids in four commercial important freshwater fish species from lake victoria, Tanzania.",
+       "Journal of Lipids", "2014;2014:712134", "10.1155/2014/712134", "PMC4290058 전문 확인"),
+    pm("38242476", "Increasing mercury bioaccumulation and biomagnification rates of Nile perch (Lates niloticus L.) in Winam Gulf, Lake Victoria, Kenya.",
+       "Science of the Total Environment", "2024;916:170059", "10.1016/j.scitotenv.2024.170059", "PMC11603132 전문 확인"),
+    pm("24204684", "Was Lates late? A null model for the Nile perch boom in Lake Victoria.",
+       "PLoS ONE", "2013;8(10):e76847", "10.1371/journal.pone.0076847", "초록 확인"),
+    pm("26612951", "A pharyngeal jaw evolutionary innovation facilitated extinction in Lake Victoria cichlids.",
+       "Science", "2015;350(6264):1077-9", "10.1126/science.aab0800", "초록 확인"),
+    pm("38503343", "Testing alternative hypotheses for the decline of cichlid fish in Lake Victoria using fish tooth time series from sediment cores.",
+       "Biology Letters", "2024;20(3):20230604", "10.1098/rsbl.2023.0604", "초록 확인"),
+    pm("33711447", "African lates perches (Teleostei, Latidae, Lates): Paraphyly of Nile perch and recent colonization of Lake Tanganyika.",
+       "Molecular Phylogenetics and Evolution", "2021;160:107141", "10.1016/j.ympev.2021.107141", "초록 확인"),
+    pm("29995906", "Gene flow and genetic structure in Nile perch, Lates niloticus, from African freshwater rivers and lakes.",
+       "PLoS ONE", "2018;13(7):e0200001", "10.1371/journal.pone.0200001", "초록 확인"),
+    pm("33473721", "Mitochondrial genomes and phylogenetic relationships of Psammoperca waigiensis, Lates japonicus, Lates calcarifer and Lates niloticus (Perciformes: Latidae).",
+       "Mitochondrial DNA Part B: Resources", "2017;2(1):73-75", "10.1080/23802359.2017.1285206", "PMC7800192 전문 확인"),
+    pm("35395227", "Cloning of gonadotropin Gph-alpha, FSH-beta and LH-beta subunits and seasonal profiles of steroid hormones in wild-caught Nile perch, Lates niloticus.",
+       "General and Comparative Endocrinology", "2022;323-324:114035", "10.1016/j.ygcen.2022.114035", "초록 확인"),
+    pm("27990290", "Tropical fish in a warming world: thermal tolerance of Nile perch Lates niloticus (L.) in Lake Nabugabo, Uganda.",
+       "Conservation Physiology", "2016;4(1):cow062", "10.1093/conphys/cow062", "초록 확인"),
+    pm("40567130", "Commercial fishing influences the life histories of fish in the world's largest desert lake.",
+       "Journal of Fish Biology", "2025;107(4):1266-1280", "10.1111/jfb.70103", "초록 확인"),
+    pm("12775518", "A review of mercury in Lake Victoria, East Africa: implications for human and ecosystem health.",
+       "Journal of Toxicology and Environmental Health Part B", "2003;6(4):325-56", "10.1080/10937400306474", "초록 확인"),
+    pm("16134370", "Metals in Nile perch (Lates niloticus) and suspended particulate matter from Lake Victoria, Tanzania.",
+       "Journal of Environmental Science and Health Part A", "2005;40(9):1809-22", "10.1081/ese-200068063", "초록 확인"),
+    pm("26520435", "Effects of habitat on mercury concentrations in fish: a case study of Nile perch (Lates niloticus) in Lake Nabugabo, Uganda.",
+       "Ecotoxicology", "2016;25(1):178-91", "10.1007/s10646-015-1578-6", "초록 확인"),
+    pm("32683018", "Spatial profiles of perfluoroalkyl substances and mercury in fish from northern Lake Victoria, East Africa.",
+       "Chemosphere", "2020;260:127536", "10.1016/j.chemosphere.2020.127536", "초록 확인"),
+    pm("27774497", "Mercury concentration in muscle, bellyfat and liver from Oreochromis niloticus and Lates niloticus consumed in Lake Albert fishing communities in Uganda.",
+       "Cogent Food & Agriculture", "2016;2(1):1214996", "10.1080/23311932.2016.1214996", "초록 확인"),
+    pm("23967754", "Identification of new potential allergens from Nile perch (Lates niloticus) and cod (Gadus morhua).",
+       "Journal of Investigational Allergology and Clinical Immunology", "2013;23(3):159-67", None, "초록 확인"),
+    pm("2397157", "The bacteriology of fresh and spoiling Lake Victorian Nile perch (Lates niloticus).",
+       "International Journal of Food Microbiology", "1990;10(3-4):303-16", "10.1016/0168-1605(90)90077-i", "초록 확인"),
+    pm("33628772", "Development and Sensory Evaluation of Omega-3-Rich Nile Perch Fish Oil-Fortified Yogurt.",
+       "International Journal of Food Science", "2021;2021:8838043", "10.1155/2021/8838043", "초록 확인"),
+    pm("19262972", "Pesticide residues and heavy metals in Lake Victoria Nile perch, Lates niloticus, belly flap oil.",
+       "Bulletin of Environmental Contamination and Toxicology", "2009;82(5):529-33", "10.1007/s00128-009-9668-x", "초록 확인"),
+    pm("10983800", "Identification of Nile perch (Lates niloticus), grouper (Epinephelus guaza), and wreck fish (Polyprion americanus) by polymerase chain reaction-restriction fragment length polymorphism of a 12S rRNA gene fragment.",
+       "Journal of Food Protection", "2000;63(9):1248-52", "10.4315/0362-028x-63.9.1248", "초록 확인"),
+    pm("15769133", "Multiplex PCR method for use in real-time PCR for identification of fish fillets from grouper (Epinephelus and Mycteroperca species) and common substitute species.",
+       "Journal of Agricultural and Food Chemistry", "2005;53(6):2039-45", "10.1021/jf048542d", "초록 확인"),
+    pm("35681319", "COIBar-RFLP Molecular Strategy Discriminates Species and Unveils Commercial Frauds in Fishery Products.",
+       "Foods", "2022;11(11):1569", "10.3390/foods11111569", "초록 확인"),
+    pm("38769629", "Awareness of fish-borne zoonoses and prevalence of Contracaecum in Oreochromis niloticus and Lates niloticus collected from Lake Chamo, Arba Minch, Ethiopia.",
+       "Zoonoses and Public Health", "2024;71(7):790-798", "10.1111/zph.13145", "초록 확인"),
+    pm("23648330", "PCDD/Fs and dioxin-like PCBs in fish species from Lake Victoria, East Africa.",
+       "Chemosphere", "2013;92(3):317-21", "10.1016/j.chemosphere.2013.03.033", "초록 확인"),
+    pm("16199118", "Pesticide residues in Nile tilapia (Oreochromis niloticus) and Nile perch (Lates niloticus) from Southern Lake Victoria, Tanzania.",
+       "Environmental Pollution", "2005;140(2):348-54", "10.1016/j.envpol.2005.06.029", "초록 확인"),
+    pm("32298913", "Recovery of antioxidant and antimicrobial peptides through the reutilization of Nile perch wastewater by biodegradation using two Bacillus species.",
+       "Chemosphere", "2020;253:126728", "10.1016/j.chemosphere.2020.126728", "초록 확인"),
+    pm("39852515", "Enzymatic Hydrolysis Systems Enhance the Efficiency and Biological Properties of Hydrolysates from Frozen Fish Processing Co-Products.",
+       "Marine Drugs", "2024;23(1):14", "10.3390/md23010014", "초록 확인"),
+    pm("33602952", "Isolation and characterization of chitosan from Ugandan edible mushrooms, Nile perch scales and banana weevils for biomedical applications.",
+       "Scientific Reports", "2021;11(1):4116", "10.1038/s41598-021-81880-7", "초록 확인"),
+    pm("38826725", "Knowledge, attitudes and practices of fresh Nile perch value chain handlers towards food safety requirements in Uganda.",
+       "Heliyon", "2024;10(10):e31432", "10.1016/j.heliyon.2024.e31432", "초록 확인"),
+    pm("12443904", "Physiological refugia: swamps, hypoxia tolerance and maintenance of fish diversity in the Lake Victoria region.",
+       "Comparative Biochemistry and Physiology Part A", "2002;133(3):421-37", "10.1016/s1095-6433(02)00195-2", "초록 확인"),
+    pm("38721648", "Mercury levels in Nile perch fillets in processing industries in Uganda.",
+       "Food Additives & Contaminants Part B", "2024;17(3):193-197", "10.1080/19393210.2024.2345327", "초록 확인"),
+    pm("33666757", "Parasite diversity of introduced fish Lates niloticus, Oreochromis niloticus and endemic Haplochromis spp. of Lake Victoria, Kenya.",
+       "Parasitology Research", "2021;120(5):1583-1592", "10.1007/s00436-021-07095-x", "초록 확인"),
+]
+SOURCES = [dict(n=i + 1, **s) for i, s in enumerate(S)]
+
+SECTIONS = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "나일선농어(Lates niloticus)는 식약처 「식품원료 목록」에 '나일선농어'(영문 Nile perch)라는 원료명으로 올라 있는 수산물이다[1]. "
+     "목록의 학명 칸에는 'Lates niloticus / Lates nilotus rudolfianus'가 함께 적혀 있고, 별명으로 '나일농어'와 'Nile perch'가 붙어 있다[1]. "
+     "상태는 '사용가능'이며 부위 칸은 '-'이고 따로 정한 사용 조건은 없어 일반 식품원료로 쓸 수 있다[1]. "
+     "건강기능식품 고시형 원료의 원재료 목록에는 없으므로 식약처가 정한 지표성분도 없다[1].\n\n"
+     "나일선농어는 나일-수단 수계와 중앙아프리카 민물에 널리 사는 대형 육식어로, 1950년대 빅토리아호에 들여온 뒤 호수 전체로 퍼졌다[9, 5]. "
+     "지금은 빅토리아호 어업의 주요 수출 품목이지만, 토착 시클리드 물고기의 대량 소멸과 관련된 도입종으로도 알려져 있다[6, 7]. "
+     "이집트 나세르호 개체의 살은 단백질 22.89%, 지방 3.47%로 단백질이 많은 편이었다[2]. "
+     "큰 개체일수록 수은이 많이 쌓이는 경향이 있어, 연구자들은 몸길이별로 섭취 횟수를 조절하라고 권고했다[5, 15]. "
+     "국가표준식품성분표의 나일선농어 성분값과 국내 수입·유통 통계는 이번 조사에서 확인하지 못함."},
+    {"key": "history", "title": "이용·연구 역사", "body":
+     "나일선농어는 1950년대에 빅토리아호에 들여왔고, 1980년대에 호수 전체로 크게 늘었다[5]. "
+     "1979–1987년 사이의 급증은 우간다 쪽에 처음 풀어 놓은 지 약 25년 뒤의 일이었으며, 단순한 로지스틱 성장 모형만으로도 이 시점을 설명할 수 있다는 분석이 나왔다[6]. "
+     "급증 뒤 나일선농어는 토착 어류 다양성을 대신하며 호수 생태계를 되돌릴 수 없게 바꾸었고, 동시에 수백만 명의 생계를 떠받치는 수출 품목이 되었다[6].\n\n"
+     "빅토리아호 고유 시클리드는 1980년대까지 약 40%의 종이 사라졌다[8]. "
+     "한 연구는 시클리드의 변형된 인두턱이 먹이 경쟁에서 불리하게 작용해 나일선농어 침입 뒤 대량 멸종에 중요한 역할을 했다고 보았다[7]. "
+     "반면 퇴적층 속 물고기 이빨을 200년 가까이 거슬러 분석한 연구는 시클리드 감소가 나일선농어 도착보다 훨씬 앞서 시작되었다고 보고해, 부영양화·어획 같은 다른 요인의 몫도 따져야 한다고 했다[8]. "
+     "이웃 나부가보호에서도 나일선농어 정착 뒤 토착 어종의 약 50%가 호수 개방수역에서 사라지고 일부만 습지 피난처에 남았다[34].\n\n"
+     "유럽 시장에서는 나일선농어 필레가 농어류·그루퍼 같은 비싼 생선과 혼동되거나 대체될 수 있어, 2000년대 초부터 종 판별 PCR 방법이 잇따라 개발되었다[24, 25]."},
+    {"key": "biology", "title": "어종·생태·번식", "body":
+     "나일선농어는 선농어과(Latidae) 선농어속의 민물고기로, 나일-수단 지역과 중앙아프리카에 널리 분포한다[9]. "
+     "같은 과의 다른 종이 바다·기수에도 사는 것과 달리, 나일선농어는 순수한 민물종이다[11]. "
+     "빅토리아호에서 가장 큰 물고기이자 최상위 포식자로, 몸길이 2 m, 몸무게 200 kg까지 자라고 16년까지 산다[5].\n\n"
+     "5 cm보다 작은 어린 개체는 동물플랑크톤을 먹다가 곧 큰 무척추동물로 옮겨 가고, 19 cm를 넘으면 물고기를 많이 먹는다[5]. "
+     "60–100 cm 개체는 주로 어린 나일선농어와 다른 물고기를 먹으며, 시클리드가 줄어든 뒤로는 동족 포식이 흔해졌다[5]. "
+     "나부가보호 어린 개체는 25.5–31.5 °C에 순응시켜도 유산소 범위가 줄지 않아, 자연 서식 수온의 상한 근처에서도 큰 대사 여유를 유지했다[13].\n\n"
+     "야생 어미의 생식소 지수와 혈중 에스트라디올은 9–11월에 가장 높았고, 수컷의 11-케토테스토스테론은 10–11월에 정점을 보였다[12]. "
+     "호르몬 수준으로 볼 때 암컷은 몸길이 40–59 cm, 수컷은 60–70 cm에서 성숙하는 것으로 추정되었다[12]. "
+     "빅토리아호 케냐 수역 개체 103마리에서는 아가미 점액포자충(Henneguya ghaffari)이 79%로 가장 흔한 기생충이었다[36]."},
+    {"key": "related_species", "title": "관련 종·이름", "body":
+     "선농어과는 3개 속 13종의 현생 어류로 이루어지며, 아시아·아프리카와 서태평양·인도양의 민물·기수·바다에 산다[11]. "
+     "이 과에서 상업적으로 중요한 종으로 큰입선농어(바라문디)와 나일선농어가 꼽힌다[11]. "
+     "식약처 「식품원료 목록」에서도 큰입선농어(Lates calcarifer)는 나일선농어와 별개의 행으로 올라 있으므로 두 종의 자료를 섞어 쓰면 안 된다[1].\n\n"
+     "여러 유전자 좌위로 만든 계통수에서 아프리카의 선농어속 어류는 하나의 무리(단계통)로 묶였다[9]. "
+     "그러나 나일선농어 안에는 뚜렷한 세 계통이 있고, 탕가니카호 고유종 4종이 그 사이에 끼어 있어 나일선농어는 측계통군으로 나타났다[9]. "
+     "아프리카 선농어류의 분화는 플라이오세에, 탕가니카호 안의 분화는 플라이스토세에 시작된 비교적 최근의 일이다[9].\n\n"
+     "목록의 학명 칸에 함께 적힌 'Lates nilotus rudolfianus'는 표기 그대로 옮긴 것이며, 이 이름의 분류학적 지위는 공식 분류 DB에서 확인하지 못함. "
+     "이탈리아 수산물 진위 조사에서 나일선농어는 COI 바코드와 제한효소 절편 분석(COIBar-RFLP)으로 다른 어종과 동시에 구별되었다[26]."},
+    {"key": "cultivation", "title": "어획·양식", "body":
+     "빅토리아호의 나일선농어 상업 어업은 동아프리카의 중요한 수입원이자 일자리의 원천이다[5]. "
+     "케냐 수역에서는 몸길이 50–85 cm 개체만 잡을 수 있는 법정 크기 범위(slot size)가 있다[5]. "
+     "케냐 위남만의 어획 대상은 토착 소형 어류 오메나와 도입종 나일선농어가 중심이며, 나일 틸라피아의 비중은 줄고 있다[5].\n\n"
+     "투르카나호에서는 1930–1953년, 1972–1975년, 2010–2022년을 비교했을 때 나일선농어의 최대 몸길이가 56.1% 줄었다[14]. "
+     "연구진은 현재의 어획 길이 분포로 볼 때 이 호수의 나일선농어가 남획 상태이고 큰 산란 개체가 고갈되는 징후가 있다고 판단했다[14]. "
+     "빅토리아호·쿄가호로 옮겨 심은 집단은 원산지인 앨버트호·투르카나호 집단보다 유전 다양성(대립유전자 풍부도 3.52–3.61 대 4.12–4.43)이 낮았다[10].\n\n"
+     "나일선농어는 민물 양식 대상으로 기대되지만, 야생에서 잡은 어미가 사육 환경에서 스스로 산란하지 않는 문제가 계속되고 있다[12]. "
+     "그래서 계절별 생식 호르몬 변화를 밝혀 양식 어미의 성숙을 조절하는 데 쓰려는 연구가 진행되었다[12]. "
+     "우리나라에서 나일선농어를 기르거나 잡는 생산 통계와 FAO 세계 어획·양식 통계는 이번 조사에서 확인하지 못함."},
+    {"key": "processing", "title": "가공·저장·품질", "body":
+     "빅토리아호 연안에는 수출용 필레를 만드는 가공 공장이 있으며, 우간다 조사에는 공식 양륙장 30곳과 허가받은 수출 공장 15곳이 포함되었다[33]. "
+     "이 조사에서 수출 공장과 수출 유통망은 식품안전 관행이 대체로 지켜졌지만, 지역 시장 판매자의 81.3%는 식품안전 요건 지식이 부족했다[33].\n\n"
+     "갓 잡은 나일선농어의 세균은 모락셀라·아시네토박터·슈도모나스·에어로모나스 등이었다[21]. "
+     "상온에서 상한 생선의 부패 냄새는 에어로모나스가, 얼음에 저장해 상한 생선에서는 분리균의 90%를 차지한 슈도모나스가 주된 원인 세균으로 지목되었다[21]. "
+     "수단산 필레를 −18 °C에 45일 냉동 저장하자 단백질은 23.03%에서 22.20%로 줄고, 지방은 0.98%에서 3.32%로, 산가는 0.12에서 0.34 mg KOH/g으로 늘었다[3].\n\n"
+     "필레를 떼고 남은 부산물의 활용 연구도 많다[22, 30, 31, 32]. "
+     "지방 덩어리(fat pad)에서 효소 없이 원심분리로 얻은 오메가-3 기름의 수율은 60.7%(습중량)로, 알칼레이스를 쓴 경우(48.3%)보다 높았고 이 기름을 넣은 요구르트도 만들어졌다[22]. "
+     "자투리 살(trimming)로 만든 단백질 가수분해물과 가공 폐수를 바실루스로 분해한 펩타이드는 시험관에서 항산화 활성을 보였다[31, 30]. "
+     "비늘에서는 탈아세틸화도 77.8–79.1% 범위의 키토산이 분리되었다[32]."},
+    {"key": "genetics", "title": "유전 정보", "body":
+     "빅토리아호산 수입 필레에서 나일선농어의 전체 미토콘드리아 유전체가 해독되었고, 13개 단백질 유전자·22개 tRNA·2개 rRNA와 조절 영역을 가진 전형적인 어류 구조였다[11]. "
+     "이 연구에서 해독한 선농어과 4종의 미토콘드리아 유전체 길이는 16,510–16,684 bp, AT 비율은 53.19–55.27%였다[11]. "
+     "시장에서 산 필레의 유전자 일부는 원산지인 이집트 개체 서열과 99% 일치해 표시가 맞는 것으로 확인되었다[11].\n\n"
+     "서아프리카 2곳과 동아프리카 4개 호수 집단을 19개 미세위성 좌위로 분석한 결과, 지역 간 분화가 뚜렷했다(FCT = 0.26)[10]. "
+     "서아프리카 개체와 동아프리카 개체는 서로 다른 두 유전 무리로 나뉘었고, 동아프리카 안에서도 최대 3개 무리가 보였다[10]. "
+     "연구진은 두 지역 사이의 이식 방류를 신중히 해야 한다고 권고했다[10]. "
+     "생식 호르몬 유전자로는 공통 α 소단위와 FSH-β, LH-β 소단위의 cDNA가 각각 664, 580, 675 뉴클레오타이드 길이로 클로닝되었다[12].\n\n"
+     "식품 진위 판별용으로는 미토콘드리아 12S rRNA 유전자 436 bp 절편을 증폭해 RsaI·Sau96I로 자르는 PCR-RFLP 법이 나일선농어와 그루퍼·난파선고기를 구별했다[24]. "
+     "16S rRNA 기반 다중 PCR과 실시간 PCR도 시판 어종 41종과 교차 반응 없이 그루퍼와 대체 어종을 가렸다[25]."},
+    {"key": "safety", "title": "안전성", "body":
+     "나일선농어는 먹이사슬 꼭대기의 대형 포식어여서 몸이 클수록 수은이 많이 쌓인다[15, 5]. "
+     "빅토리아호 리뷰에서 3–10 kg 개체와 10 kg 넘는 개체 대부분은 취약군 기준(200 ng/g)을 넘었다[15]. "
+     "탄자니아 가공 공장 시료는 31.0–684.2 ng/g(습중량)이었다[16]. "
+     "케냐 위남만 2022년 법정 크기 개체의 수은은 1998년보다 24.2–42.4% 높아, 55–75 cm 개체의 취약군 권장 섭취를 월 16회에서 8회로 줄이라고 권고했다[5]. "
+     "우간다 수출 공장 필레 10건은 FAO/WHO 기준 0.5 mg/kg보다 훨씬 낮았다[35]. "
+     "앨버트호에서는 뱃살 지방에 수은이 더 많이 쌓였고 취약군 위해지수가 2.05였다[19].\n\n"
+     "빅토리아호 개체의 다이옥신류는 EU 허용 수준 안이었다[28]. "
+     "탄자니아 필레의 DDT·엔도설판 잔류는 계산된 1일섭취허용량 안이었다[29]. 뱃살 기름의 농약 잔류는 개체가 클수록 많았으나 독일 식품법 허용 범위 안이었다[23].\n\n"
+     "알레르기 연구에서 파브알부민 외 IgE 결합 단백질 8개가 확인되었고, 생선 알레르기 환자 12명 중 7명이 에놀레이스 3에 감작되어 있었다[20]. "
+     "에티오피아 차모호 개체의 34.3%에서 인수공통 선충(Contracaecum) 유충이 나와 날로 먹는 위험이 지적되었다[27]. "
+     "식약처 등 국내 공공기관의 나일선농어 알레르기·잔류 기준 정보는 확인하지 못함."},
+]
+
+C = [
+    ("Protein", "단백질(조단백)", "다량영양소", "nutrient", "살(필레)",
+     "나세르호 22.89 ± 0.23%[2]; 수단 나일강 신선 23.03%, −18 °C 45일 22.20%[3]",
+     "조사한 다섯 어종 가운데 단백질이 가장 많았다(나세르호)[2]", [2, 3]),
+    ("Leucine", "류신", "필수아미노산", "nutrient", "살", "20.91 ± 1.12 mg/g 건물[2]",
+     "필수아미노산 합계 86.06 mg/g 건물로 비교 어종 중 가장 높았다[2]", [2]),
+    ("Lysine", "라이신", "필수아미노산", "nutrient", "살", "10.20 ± 2.45 mg/g 건물[2]",
+     "곡류에 부족한 필수아미노산으로, 비교 어종 중 가장 높았다[2]", [2]),
+    ("Eicosapentaenoic acid", "에이코사펜타엔산(EPA)", "n-3 고도불포화지방산", "nutrient", "살",
+     "3.63 ± 0.26 mg/g(나세르호, 원문 표 3)[2]; 빅토리아호 므완자만 4종 비교에서 EPA는 은멸치류(R. argentea) 다음으로 높음(수치는 그림에만 있어 확인 못함)[4]",
+     "심혈관 건강과 관련된 n-3 지방산[4]", [2, 4]),
+    ("Docosahexaenoic acid", "도코사헥사엔산(DHA)", "n-3 고도불포화지방산", "nutrient", "살",
+     "6.65 ± 0.99 mg/g(나세르호)[2]", "EPA·DPA와 함께 이 종의 주요 n-3 지방산으로 검출되었다[4, 2]", [2, 4]),
+    ("alpha-Linolenic acid", "알파-리놀렌산", "n-3 다중불포화지방산", "nutrient", "살",
+     "4.42 ± 0.82 mg/g(나세르호)[2]", "식물성 기원의 n-3 지방산으로 EPA·DHA의 전구체다[4]", [2, 4]),
+    ("Linoleic acid", "리놀레산", "n-6 다중불포화지방산", "nutrient", "살",
+     "C18:2ω6c 6.23 ± 0.84, C18:2ω6t 2.11 ± 0.25 mg/g(나세르호)[2]", "필수지방산(n-6)[4]", [2, 4]),
+    ("Oleic acid", "올레산", "단일불포화지방산(ω-9)", "nutrient", "살",
+     "C18:1ω9c 7.93 ± 0.98, C18:1ω9t 7.33 ± 1.23 mg/g(나세르호)[2]",
+     "단일불포화지방산 합계 34.91 ± 1.93 mg/g의 주요 성분[2]", [2]),
+    ("Palmitic acid", "팔미트산", "포화지방산", "nutrient", "살", "12.65 ± 3.20 mg/g(나세르호)[2]",
+     "포화지방산 합계 22.79 ± 1.42 mg/g 가운데 가장 많다[2]", [2]),
+    ("Cholesterol", "콜레스테롤", "스테롤", "nutrient", "살", "72.6 ± 1.7 mg/100 g(나세르호, 비교 5종 중 최고)[2]",
+     "식이 콜레스테롤 섭취량 판단에 쓰이는 값이다[2]", [2]),
+    ("Potassium", "칼륨", "다량 무기질", "nutrient", "살(필레)", "신선 428.30 mg/100 g, −18 °C 45일 548.30 mg/100 g(수단)[3]",
+     "이 연구에서 가장 많은 다량 무기질이었다[3]", [3]),
+    ("Sodium", "나트륨", "다량 무기질", "nutrient", "살(필레)", "신선 206.60 mg/100 g(수단, 비교 5종 중 최고)[3]",
+     "저장 45일 동안 유의한 변화가 없었다[3]", [3]),
+    ("Histamine", "히스타민", "생체아민(신선도·식중독 지표)", "marker", "살",
+     "23.6 ± 1.8 ppm(나세르호, 이집트 기준 200 ppm 미만)[2]",
+     "히스티딘이 세균에 의해 탈탄산되어 생기며 생선 신선도 지표이자 식중독 원인 물질이다[2]", [2]),
+    ("Mercury", "수은(총수은·메틸수은)", "유해 중금속", "bioactive", "근육(등살)·뱃살",
+     "탄자니아 31.0–684.2 ng/g 습중량[16]; 나부가보호 평균 13.6 ± 0.4 ng/g 습중량[17]; 빅토리아호 북부 근육 메틸수은 22–124 ng/g 습중량[18]; 위남만 139 cm 개체 822 ng/g 습중량[5]; 나세르호 0.016 ± 0.001 μg/g[2]",
+     "몸길이·영양단계가 높을수록 쌓이며, 큰 개체는 취약군 기준을 넘을 수 있다[15, 5]", [2, 5, 15, 16, 17, 18]),
+    ("Enolase 3", "에놀레이스 3(β-에놀레이스)", "알레르기 유발 후보 단백질", "bioactive", "근육",
+     "생선 알레르기 환자 12명 중 7명(58%)이 나일선농어 에놀레이스 3에 감작[20]",
+     "파브알부민 외의 새로운 생선 알레르겐 후보로 제시되었다(아토피 대조군에서도 감작이 관찰됨)[20]", [20]),
+]
+COMPOUNDS = [dict(name=a, name_ko=b, **{"class": c}, role=d, part=e, content_text=f, activity_ko=g, source=h)
+             for a, b, c, d, e, f, g, h in C]
+
+
+def cond(**kw):
+    keys = ["instrument", "column", "mobile_phase", "gradient", "flow", "temp", "detection", "injection",
+            "sample_prep", "standard", "linearity", "lod", "loq", "recovery"]
+    return {k: kw.get(k, "") for k in keys}
+
+
+ASSAYS = [
+    {"role": "literature", "compound": "Histamine", "compound_ko": "히스타민", "part": "살(필레, 머리·내장 제거 후 다짐)",
+     "content": "23.6 ± 1.8 ppm(나세르호 50마리 평균)[2]", "method": "HPLC-DAD",
+     "conditions": cond(instrument="HPLC, 다이오드 검출기(Varian ProStar 330)", column="C18 칼럼(Agela Technologies)",
+                        detection="215 nm", sample_prep="트라이클로로아세트산으로 추출 → Strata-X-AW 이온교환 SPE 카트리지로 정제",
+                        linearity="정량 범위 3.3–420 mg/kg", lod="2.1 mg/kg", loq="3.3 mg/kg"),
+     "rationale": "히스타민은 생선 신선도의 표지이자 사람에게 해로운 생체아민이어서 품질·안전 판정 지표로 쓰였다[2]. 전문(Methods) 확인 — 이동상·유속·회수율은 본문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.5455/OVJ.2024.v14.i6.8", "source_kind": "paper"},
+    {"role": "literature", "compound": "Cholesterol", "compound_ko": "콜레스테롤", "part": "살(필레)",
+     "content": "72.6 ± 1.7 mg/100 g(습중량)[2]", "method": "HPLC-DAD",
+     "conditions": cond(instrument="Agilent 1100 HPLC, 다이오드 배열 검출기", column="C18, 25 cm × 0.4 cm i.d., 입자 5 μm(Agilent)",
+                        mobile_phase="메탄올:아세토나이트릴:물 = 68:28:4(v/v/v)", gradient="등용매", flow="1.4 mL/min",
+                        temp="칼럼 36 °C", detection="208 nm", injection="20 μL",
+                        sample_prep="시료 0.40 g + 파이로카테콜(항산화제) → 0.5 M KOH 메탄올 5 mL, 80 °C 15분 비누화 → 물 1 mL·헥세인 5 mL 추출, 425 × g 원심 → 상층 3 mL 질소 건조 → 이동상 3 mL에 녹여 0.50 μm 막 여과",
+                        standard="표준품 머무름 시간 비교와 첨가(spiking) 시험으로 확인, 표준 검량선으로 정량"),
+     "rationale": "식이 콜레스테롤은 혈중 LDL 콜레스테롤에 영향을 주는 요인이어서 생선 영양 품질 평가 항목으로 정량되었다[2]. 전문(Methods) 확인 — 검출·정량한계와 회수율은 본문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.5455/OVJ.2024.v14.i6.8", "source_kind": "paper"},
+    {"role": "literature", "compound": "Total mercury", "compound_ko": "총수은", "part": "등쪽 근육",
+     "content": "2022년 위남만 139 cm 개체 822 ng/g 습중량; 법정 크기(50–85 cm) 개체는 모두 EU 기준 500 ng/g 미만, 1998년보다 24.2–42.4% 높음[5]",
+     "method": "열분해-아말감 직접수은분석(DMA-80, EPA Method 7473)",
+     "conditions": cond(instrument="Direct Mercury Analyzer DMA-80", sample_prep="60 °C 하룻밤 건조(수분 측정) → 건조 시료 0.02–0.10 g 직접 분석",
+                        standard="인증 액체 수은 표준용액으로 만든 10점 검량선; 시료 10개마다 인증표준물질(DORM-3, DOLT-4)과 중복 시료 분석",
+                        lod="13.0 ng/g 건중량(평균 시료량 보정)", recovery="인증표준물질 회수율 92.3 ± 0.04%; 중복 시료 편차 4.1 ± 3.6%"),
+     "rationale": "나일선농어는 최상위 포식어로 몸길이에 따라 수은이 생물농축되어 섭취 권고(월 섭취 횟수) 산정의 기준 성분으로 쓰였다[5]. 전문(Methods) 확인 — 1998년 시료는 원자형광분광법(AFS)으로 분석되었다[5].",
+     "source": [5], "url": "https://doi.org/10.1016/j.scitotenv.2024.170059", "source_kind": "paper"},
+    {"role": "literature", "compound": "Fatty acid methyl esters (EPA, DPA, DHA etc.)", "compound_ko": "지방산 조성(n-3 고도불포화지방산)",
+     "part": "등지느러미 아래–복부 근육", "content": "나일선농어에서 지방산 27종 검출; EPA 수준은 4종 중 두 번째(그림에만 수치가 있어 확인 못함)[4]",
+     "method": "GC(FAME)",
+     "conditions": cond(instrument="GC-MS-QP2010 Ultra(원문에 불꽃이온화검출기 장착으로 기재)", mobile_phase="운반 기체 헬륨",
+                        gradient="오븐 90 °C 2분 유지 → 260 °C까지 승온 후 5분 유지, 총 41분", flow="2 mL/min(헬륨)",
+                        temp="주입구 250 °C", detection="FID(원문 기재)", injection="1 μL, split ratio '−1.0'(원문 표기)",
+                        sample_prep="근육 10–20 g 분쇄 → 메탄올:클로로포름(2:1) 추출, 이틀 냉장 → 여과·분액, 황산나트륨 탈수 → 지질 5 mg을 톨루엔 1 mL에 녹여 1% 황산-메탄올 2 mL로 50 °C 16시간 메틸화 → 2% 탄산수소나트륨 중화, 헥세인/다이에틸에테르(1:1) 추출",
+                        standard="시판 표준품과 머무름 시간 비교로 ALA·EPA·DPA 동정"),
+     "rationale": "EPA·DPA·DHA 같은 n-3 고도불포화지방산이 사람 건강에 중요해 빅토리아호 상업 어종의 영양 지표로 비교되었다[4]. 전문(Methods) 확인 — 원문에 칼럼 규격·검출한계·회수율이 적혀 있지 않음[4].",
+     "source": [4], "url": "https://doi.org/10.1155/2014/712134", "source_kind": "paper"},
+]
+
+NUTRIENTS = [
+    {"form": "살(필레, 이집트 나세르호, 2023년 1–3월 채집 50마리)", "basis": "습중량 100 g당, 논문 표 1의 평균값[2]",
+     "items": [{"name": "수분", "value": 68.63, "unit": "g"}, {"name": "단백질", "value": 22.89, "unit": "g"},
+               {"name": "지방", "value": 3.47, "unit": "g"}, {"name": "회분", "value": 1.14, "unit": "g"},
+               {"name": "탄수화물", "value": 0.39, "unit": "g"}, {"name": "열량", "value": 124.35, "unit": "kcal"},
+               {"name": "콜레스테롤", "value": 72.6, "unit": "mg"}],
+     "source": [2]},
+    {"form": "살(필레, 수단 나일강, 신선·냉동 전 0일)", "basis": "습중량 100 g당, 논문 표 2·표 3의 0일 값[3]",
+     "items": [{"name": "수분", "value": 74.20, "unit": "g"}, {"name": "단백질", "value": 23.03, "unit": "g"},
+               {"name": "지방", "value": 0.98, "unit": "g"}, {"name": "회분", "value": 1.38, "unit": "g"},
+               {"name": "칼륨", "value": 428.30, "unit": "mg"}, {"name": "나트륨", "value": 206.60, "unit": "mg"},
+               {"name": "칼슘", "value": 13.46, "unit": "mg"}, {"name": "철", "value": 0.59, "unit": "mg"},
+               {"name": "아연", "value": 1.31, "unit": "mg"}, {"name": "구리", "value": 0.63, "unit": "mg"}],
+     "source": [3]},
+]
+
+D = {
+    "slug": "lates-niloticus", "name_ko": "나일선농어", "name_en": "Nile perch",
+    "scientific_name": "Lates niloticus (Linnaeus, 1758)",
+    "aliases": ["나일선농어", "나일농어", "Nile perch", "Lates nilotus rudolfianus(목록 표기)"],
+    "sections": SECTIONS, "compounds": COMPOUNDS, "markers": [], "assays": ASSAYS, "nutrients": NUTRIENTS,
+    "production": [], "world": [], "gi": [], "orgs": [], "sources": SOURCES,
+}
+OUT.write_text(json.dumps(D, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+print("written", OUT, "sources", len(SOURCES))

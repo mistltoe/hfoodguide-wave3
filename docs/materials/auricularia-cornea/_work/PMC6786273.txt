@@ -1,0 +1,217 @@
+Introduction
+
+fungi naturally grow on wood, logs, branch and twigs of trees and generally distribute in China, Africa, America, and Australia, etc (,). Among this genus,andhave been domesticated and cultivated for more than 1,400 years, and given the commercial name Wood Ear (). Currently, Wood Ear is widely commercialized, particularly in China, with an annual production over the last 5 years of approximately eight million tons. A variety of agro-industrial wastes can be used to cultivate Wood Ear, such as sawdusts, crop straw, and cottonseed hulls (;;). As one of the edible and medicinal mushrooms, Wood Ear exhibits beneficial health effects such as anti-hypercholesterolemic (), antioxidant, and antimicrobial properties (;). Therefore, it is important to develop the genetic-based resources of Wood Ear to better understand its evolutionary history, domestication and medicinal benefits, as well as improve its utilization.
+
+Among Wood Ear species, the genomes ofandhave been sequenced (;). Based on the genomic and comparative transcriptomic analysis of,identified some genes that were putatively associated with wood degradation, the biosynthesis of bioactive proteins and polysaccharides. In addition, some genes putatively related to fruiting body development were identified withtranscriptome assembly of, along with additional detection of expressed sequence tag-simple sequence repeat (EST-SSR) loci (). Some other kinds of molecular markers also have been developed for Wood Ear, such as random amplified polymorphic DNA (RAPD) (), sequence-related amplified polymorphisms (SRAPs) (;), inter-simple sequence repeats (ISSR) (;), and SSR (). The two single-nucleotide polymorphism (SNPs) have been identified that could be associated with regulation of the fruiting body colors of(). However, the genome-wide variation maps for Wood Ear are not constructed using the whole genome re-sequencing technology. Moreover, the lack of a high-quality reference genome forlimits its genetic research and our understanding of the evolutionary history of.
+
+In this study,genome sequencing ofwas conducted on the single-molecule real-time (SMRT) sequencing platform followed by whole genome resequencing of 24 strains using the Illumina Hiseq X Ten sequencing platform. The specific objectives of this study were to: (1) explore the genomic evolution and genome features ofand; (2) identify the genomic polymorphisms inandpopulations and estimate their demographic history; and (3) develop novel SSR and InDel markers for.
+
+Materials and Methods
+
+Strains
+
+genome sequencing was conducted on the monokaryonstrain AC1 (hereafter, AC1) that was derived from the cultivated strain CCMJ2567 using protoplast monokaryogenesis technique (), but with a lywallzyme incubation time of 5 h. A total of 24 Wood Ear strains were used for resequenced the whole genome, including 12strains (seven cultivated strains from China and five wild individuals from Africa) and 12strains from China (six cultivated strains and six wild individuals) (). These strains were cultured on Malt Yeast Extract Glucose (MYG) medium (10 g/L maltose, 5 g/L yeast extract powder, and 5 g/L glucose) with cellophane sheets and then incubated at 24°C for 9 days. The mycelia were then harvested and quickly frozen in liquid nitrogen. Genomic DNA of each strain was extracted using the NuClean Plant Genomic DNA Kit (CWBIO, Beijing, China) according to the manufacturer’s protocols. DNA quality, purity, and concentration were then evaluated using agarose gel electrophoresis, NanoDrop spectrophotometry (Thermo Fisher Scientific, Waltham, MA, United States), and Qubit fluorometry (Life Technologies, CA, United States), respectively. These Wood Ear strains were maintained at the Engineering Research Center of Chinese Ministry of Education for Edible and Medicinal Fungi (ERCCMEEMF) at the Jilin Agricultural University (Changchun, China).
+
+Genome Sequencing, Assembly, and Annotation
+
+genome sequencing of AC1 was conducted on the Pacific Biosciences (PacBio) Sequel platform at ERCCMEEMF. The sequencing library was prepared by mechanically shearing 8 μg of gDNA with g-TUBE devices (Covaris, MA, United States). The 20 Kbp SMRTbell DNA library was generated using the BluePippin DNA size selection protocol (Sage Science, MA, United States). SMRT sequencing of longer reads was conducted with four SMRT cells following the manufacturer’s protocols. Subreads were assembled using the open source SMARTassembly pipeline. Mapping of the conserved genes was conducted to estimate genome completeness using the Core Eukaryotic Genes Mapping Approach (CEGMA) () and Benchmarking Universal Single-Copy Orthologs (BUSCO) pipelines (;). The final assembledstrain AC1 genome was deposited in GenBank (). Repeat element, coding and non-coding gene prediction, along with functional annotation of the AC1 genome assembly, were all conducted as described previously (). The assembly contigs were firstly masked using RepeatMasker. The unmasked sequences were then used to search for repeat elements using RepeatModeler. Meanwhile, the repeat-masked AC1 genome was used for gene predictions, which combined theand protein homology-based prediction methods. Among them, SNAP (), Augustus (), Genescan (), and GlimmerHMM () were used forgene predictions. For homologous protein mapping, protein sequences of(),(),() and() were downloded from the National Center for Biotechnology Information (NCBI) database and aligned using tBLASTn and Genewise (). For non-coding genes, transfer RNA (tRNA), ribosomal RNA (rRNA), microRNA (miRNA) were predicted using tRNAscan-SE (), RNAmmer () and Rfam (), respectively. Moreover, the MIcroSAtellite (MISA) tool was used to identify microsatellite loci.
+
+Gene function predictions were according to the best alignment attained using BLASTP to NCBI non-redundant database (Nr), Eukaryotic Clusters of Orthologous Groups (KOG) (), and UniProt database (including SwissProt and TrEMBL databases) () with-value <1e-5. The gene models were also annotated by their protein domains using InterPro database (). On the basis of Nr and InterPro databases, Blast2go was used to classify all genes by Gene Ontology (GO) (). Additionally, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway annotation of genes was performed using the BLASTX algorithm with-values <1e-5 (). Furthermore, the published genome sequence ofASM228711 () was re-annotated (hereafter, ASM) using the same methods as described above. Then, all the predicted protein sequences in AC1 and ASM genomes were subjected to the carbohydrate-active enzyme (CAZyme) database to search against sequence libraries with the families of glycoside hydrolases (GHs), auxiliary activities (AAs), carbohydrate-binding modules (CBMs), glycosyltransferases (GTs), polysaccharide lyases (PLs), and carbohydrate esterases (CEs). The gene clusters associated with secondary metabolic biosynthesis was searched using Antibiotics & Secondary Metabolite Analysis Shell (antiSMASH).
+
+Evolutionary Analysis of
+
+The construction of a phylogenetic tree for,, and other 19 published fungal species were conducted as previously described () including(AS) TFB-10046 SS5,DSM 1558,RWD-64-598 SS2,FP-101664 SS1,DJM 731 (),S238N-H28 (),S7.9 (),okayama7#130 (),H4-8 (),ZZ0214-1 (),,HHB12029,HHB9708 (),,(),(),ALCF2SS1-7 (),(),(). The common, unique, and single-copy gene families of these 21 species were identified with OrthoMCL () and OrthoVenn (). Then, the single-copy gene families were used to construct the phylogenetic tree for these species. The fossil calibration points were selected using previously described methods (). The expansion and contraction of gene families were identified using Computational Analysis of gene Family Evolution (CAFE) (), which were set to-value cutoff of 0.05, number of random samples = 1000, and search for the λ value. The positive selection was detected using PAML. Then, the selected genes were functional annotated with GO and KEGG databases. Furthermore, whole-genome collinearity analysis ofandwas conducted using the MCscan program.
+
+Resequenced Whole Genomes ofandStrains
+
+The whole genome resequencing of 24 Wood Ear strains were conducted on the Illumina HiSeq X Ten platform at Novogene Co., Ltd. (Beijing, China). For each strain, 1.0 μg of genomic DNA was used to generate 350 bp sequencing library. Low-quality reads with adapter sequences and duplicate reads were firstly filtered using SAMtools. The obtained high-quality clean reads were then mapped to the AC1 and ASM genomes using the Burrows-Wheeler Aligner (BWA) tool (Version: 0.7.8) (). The mapped reads were used to identify SNP and InDel polymorphisms with the Genome Analysis Toolkit (GATK) (Version: 3.8.0) program using default parameters (). All variants were annotated using the ANNOVAR program (). The effective population sizes of AC1 and ASM were also estimated using the Pairwise Sequentially Markovian Coalescent (PSMC) method (). In these analyses, the generation time (g) was set as 1 year, and the mutation rate (μ) was set to 3.4 × 10. Furthermore, the genome-wide selection test of the Asia and Africa populations ofwas conducted. The fixation index (F) of these two population was estimated by PoPoolation2 software () and Sliding Window Algorithm (step size 500 bp, window size 5,000 bp). Selected regions were measured based on Z transformation of F(ZF, threshold values more than four). The selection regions were then functional annotated using GO and KEGG database.
+
+Design and Validation of Novel SSR and InDel Markers for
+
+SSR and InDel primer pairs forwere designed using Primer3. A total of 50 SSR and 50 InDel primer pairs were selected to determine polymorphism levels withinstrains. The primers were synthesized by Beijing Dingguochangsheng Biotech Co., Ltd. (Beijing, China). PCRs were then conducted in reaction conditions and thermal cycling protocols as described previously (), but with an annealing temperature of 59°C. PCR products were confirmed using silver staining ().
+
+Results
+
+Sequencing and Assembly of theGenome
+
+To obtain a high-quality reference genome for, we performedgenome sequencing of the monokaryon strain AC1 using PacBio Sequel platform (). A total of 22.37 Gbp (304 × genome coverage) of single-molecule long reads were generated andassembled. The assembled AC1 genome comprised 24 contigs (contig N50 = 4.35 Mbp) with an estimated genome size of 73.48 Mbp and a GC content of 59.58% (). Moreover, 91.13% coverage of core eukaryotic genes and 96.20% coverage of single-copy orthologs were exhibited in the AC1 genome, as estimated by the CEGMA and BUSCO programs, respectively. Taken together, these results indicate the generation of a high-qualityAC1 genome assembly.
+
+TABLE 1
+
+Summary of assembly and annotation statistics for the genomes ofand.
+
+Assembly feature
+
+(AC1)
+
+(ASM)
+
+Sequencing method
+
+PacBio Sequel
+
+PacBio RSII
+
+Genome size (Mbp)
+
+73.48
+
+49.76
+
+Coverage (X)
+
+304
+
+56.97
+
+Number of contigs
+
+24
+
+103
+
+N50 (Mbp) of contigs
+
+4.35
+
+1.35
+
+GC content (%)
+
+60
+
+57
+
+Repeat abundance (%)
+
+21.73
+
+18.58
+
+LTR abundance (%)
+
+10.33
+
+8.99
+
+Gene number
+
+17,591
+
+16,402
+
+Average gene length (bp)
+
+2,541
+
+2,176
+
+Average exon length (bp)
+
+308
+
+284
+
+Average intron length (bp)
+
+217
+
+291
+
+Average number of exons per genes
+
+5.26
+
+4.29
+
+FIGURE 1
+
+Genome map and gene family analysis of thegenome.Genome map ofa. Outside to inside of concentric circles show assembly contig number, gene density, all repeat content, non-coding RNA (ncRNA), LINE content, LTR content, and DNA repeat content of AC1 genome.Unique and share gene families in the genomes ofAC1 andASM. The number of unique and shared gene families is shown in each of the diagram components.Comparison of orthologous genes among the genomes of 21 fungal species.
+
+Gene Prediction and Annotation for the AC1 and ASM Genomes
+
+To avoid systematic biases from different methodologies, we annotated the AC1 and ASM genomes using the same methods based on the uniform reference gene sets. According to the combination of homology-based andprediction methods, a total of 15.96 Mbp (21.73%) and 9.24 Mbp (18.58%) sequence regions in the AC1 and ASM genomes were comprised repeat elements, respectively. Most types of transposable elements (TEs) were identified in these two genomes, including long terminal repeat (LTRs) retrotransposons that were most abundant type, LINE retrotransposons, and DNA transposons. The Non-coding RNAs in the two genomes were with similar copy numbers. For example, the AC1 genome contained 14 micro RNA (miRNAs), 143 transfer RNAs (tRNAs), 25 ribosomal RNAs (rRNAs) and 21 small nuclear RNAs (snRNAs). Likewise, the ASM genome contained 38 miRNAs, 138 tRNAs, 33 rRNAs and 19 snRNAs.
+
+According to theand homology-based prediction methods, a total of 17,591 and 16,402 protein-coding genes were predicted for the AC1 and ASM genomes, respectively (). The average length of the coding sequences in the AC1 genome was 1,618 bp, which contained five exons with an average length of 308 bp, while those of in the ASM genome exhibited an average length of 1,218 bp containing an average of four exons with an average length of 284 bp. A total of 16,569 (94%) and 10,930 (67%) genes in the AC1 and ASM genomes were homologous to known proteins in the eight databases ().
+
+We then identified a total of 4,168 and 2,663 SSR loci in the AC1 and ASM genomes, respectively. The density of SSR loci was similar among these two genomes, after accounting for differing genome sizes. Trinucleotide repeats (TNR) were the most common type accounted for 40% of the total loci in the two genomes (), followed by dinucleotide repeats (DNR, 29–40%). The other types were only individually accounted for 2–4% of the total genome sizes. Tandem repeats with five repeats were the most common TNR repeat types in the two genomes, followed by tandem repeats with six repeats of DNR and TNR. Among SSR types, CG, CCG, TACC, GGTTA, ACGGCG, and CTCTTC were the most prevalent forms for corresponding repeat types in the AC1 genome, while GC, CAG, GGTA, CCTAA and CCGCAG were most prevalent in the ASM genome.
+
+Comparative Genomic and Evolutionary Analysis forand
+
+The assembled size of AC1 genome was 73.48 Mbp larger than ASM (49.76 Mbp). A total of 4,163 single copy genes () and 5,486 homologous gene families were shared by AC1 and ASM, while 990 and 460 unique gene families were specific to each genome, respectively (). Analysis of collinear genomic regions between AC1 and ASM revealed very few conserved syntenic blocks (10.60 Mbp) between the two genomes, which was accounting for 14 and 21% in AC1 and ASM, respectively ().
+
+To further understand the genomic evolution ofand, we selected 19 reported fungal genomes presenting three class, eight orders, 12 families to conduct the phylogenetic analysis. A total of 56 single-copy orthologous genes were shared among these 21 genomes, which were consequently used to construct a phylogenetic tree with the maximum likelihood (ML) method. The phylogenetic analysis indicated that four species in Auriculariales were clustered in one branch. Among them, three species in genuswere clustered as a subgroup, whichwas most closely related toand then clustered with. The divergence time of Tremellomycetes and Agaricomycetes was estimated as ∼298.8 (275.4–323.4) Mya. Auriculariales was estimated to have a divergence time with other five orders (Trechisporales, Hymenochaetales, Polyporales, Boletales, and Agaricales) at ∼246.7 (233.1–257.3) Mya. In Auriculariales, the estimated divergence time between Exidiaceae and Auriculariaceae was ∼136.7 (113.7–171.5) Mya.was placed basal to the rest ofand was estimated to have a divergence time of ∼79.1 (67.4–97.1) Mya, and the estimated divergence time betweenandwas ∼54.8 (42.3–71.4) Mya (). Further, a total of 738 gene families were significantly expanded in thegenome (< 0.05), while only two gene families were significantly contracted. The expanded genes ofwere mostly related to catalytic activity, metabolic processing, and proteins with binding functions, while the contracted genes were glucose repression regulatory protein TUP1 and WD40 repeat protein. With positive selection analysis, a total of 73 and 99 candidate genes were identified inand, respectively (< 0.01). Compared with, more genes inwere related to temperature adaptability, such as cellular response to oxidative stress, fungal-type cell wall organization, signal transduction, oxidation-reduction process, DNA repair/transcription protein, phosphatase activator activity, HSP70-domain-containing protein. These genes might play a crucial role in the regulation ofin adapting more higher temperature than.
+
+FIGURE 2
+
+Whole-genome collinearity analysis ofand.
+
+FIGURE 3
+
+Phylogenomic analysis of 21 fungal genomes. The estimated divergence times are shown at the nodes, and the overall timeline is shown below the phylogenetic tree.
+
+Implications for Biomass Decomposition by CAZyme Families
+
+To evaluate the composition of CAZymes used in biomass degradation by AC1 and ASM, we identified the predicted protein sequences of the two genomes to the CAZyme database. AC1 possessed 460 CAZyme genes higher than ASM (316), which both contained GH, AA, PL, GT, CE, and CBM families (and). Among these, GHs and AAs were most abundant in the AC1 and ASM genomes and are primarily involved in the degradation of cellulose, hemicellulose, lignin, chitin, pectin, and starch in agro-industrial wastes. A total of 240 and 83 genes encoded GHs and AAs in the AC1 genome, respectively, while 169 and 42 were present in that of ASM, respectively. Twenty-seven expanded GH gene subgroups were identified in the AC1 genome compared to that for ASM, which included cellulose-degrading GHs (GH5, GH6, GH7, and GH12), hemicellulose-degrading GHs (GH10 and GH43), pectin-degrading GHs (GH28 and 105), chitin-degrading GHs (GH18) and starch-degrading GHs (GH31 and GH133). All AA subgroups were belonged to expanded gene families in AC1 compared to ASM. In particular, more than twice the number of AA genes encoding AA3, AA6, and AA9 were present in the AC1 genome compared to that of ASM. The numbers and types of gene encoding GTs, PLs, and CEs were similar in both AC1 and ASM genomes. Most of the CBMs observed in the two genomes were present in the N-terminal or C-terminal regions of the GH, AA, and CE family proteins. For example, genes encoding CEs and AAs contained an additional CBM1 region including CE5, CE1, CE15, AA9, and AA8 (AA12). In addition, genes encoding GHs exhibited more diversity of additional CBMs including CBM1 in GH7 and GH6, CBM5 in GH18, and CBM35 in GH43. Moreover, many CAZyme genes identified as belonging to the same subgroup were clustered in the AC1 genome. For example, two, five, and five genes encoding CE5, AA3, and GH16 genes were clustered on contigs 16, 19, and 18 of the AC1 genome, respectively.
+
+Genes Involved in Secondary Metabolite Biosynthesis
+
+Terpenoids are one of the primary types of secondary metabolite (SM), which are pharmacologically active in. To identify genes involved in terpenoid biosynthesis, we blasted the protein coding genes against the antiSMASH database. A total of 21 and four terpene gene clusters were identified in the AC1 and ASM genomes, respectively. Of these, one gene encoding lanosterol synthase associated with the biosynthesis of the triterpenoid ganoderic acid was shared between the AC1 and ASM genomes. Further, KEGG annotation of all predicted-proteins in the AC1 genome was yielded 26 genes encoding 18 enzymes involved in terpenoid backbone biosynthesis (ko00900) through the mevalonate pathway. Three genes encoding farnesyltransferase, squalene monooxygenase, and a squalene-hopene/tetraprenyl-β-curcumene cyclase involved in triterpenoid biosynthesis were also identified in the AC1 genome. In addition, we identified three genes encoding a trichodiene synthase participated in sesquiterpenoid biosynthesis.
+
+We also identified Cytochrome P450 (CYP) genes associated with terpenoid biosynthesis and other fungal SMs in the AC1 genome. A total of 187 putative CYP sequences comprising 62 families were identified in the AC1 genome by querying the Fungal Cytochrome P450 Database. Among these, five genes in the CYP5144 family were predicted to be involved in triterpenoid biosynthesis. Furthermore, a number of genes were identified from CYP families that may have potential roles in fungal secondary metabolism including CYP51 (sterol 14α-demethylase) and CYP53 (benzoate 4-hydroxylase). Overall, the CYP505 family was the most abundant within the AC1 genome, comprising 17 genes that are associated with the degradation of plant cuticles in plant-associated fungi.
+
+Genomic Variation AmongandPopulations
+
+To investigate genomic variation among and withinandpopulations, we performed whole genome resequencing of 24 Wood Ear strains including 12and 12strains. A total of 59.19 Gbp high-quality clean data were generated on the Illumina HiSeq platform, with average depth for each strain of 23×. We firstly performed the estimation of genomic variation amongandpopulations. Using the AC1 genome as a reference, after quality filtering, the overage rates of all 12strains were ranged from 79–99%, while that for the 12strains were only 23–27% (and). Using the ASM genome as a reference, the coverage rates of all 12strains were 87–94%, while that for the 12strains were only 19–21% (and). Thus, these results indicated the significant genomic differentiation amongandpopulations. Therefore, we further separately analyzed the genomic variations for theandpopulations using their corresponding genomes as references.
+
+A total of 2,403,095 high-quality SNPs were observed in the 12strains aligning the reads against the AC1 reference genome (). Among these, 369,663 (15%) non-synonymous SNPs were identified within 15,409 genes. In total, 843,805 (35%) synonymous SNPs were also located within exons, yielding a non-synonymous/synonymous ratio of 0.44. In addition, 137 (0.04%) large (>100 bp) and 342,009 (99.8%) small (<50 bp) InDel polymorphisms were identified within the 12strains. Overall, 89% and 11% of the InDels were present in coding regions and non-coding regions, respectively.
+
+A total of 1,232,179 high-quality SNPs were observed in the 12strains aligning the reads against the ASM reference genome (). Among these, 185,037 (15%) non-synonymous SNPs were identified in 12,861 genes. A total of 306,099 (25%) synonymous SNPs were located within exons, yielding a non-synonymous/synonymous ratio of 0.60. A total of 163 (0.09%) large (>100 bp) and 174,557 (99.8%) small (<50 bp) InDel polymorphisms were observed within the 12strains. Overall, 61% and 39% of the InDels were present in coding and non-coding regions, respectively.
+
+Demographic History ofandPopulations
+
+To infer the demographic histories of the ancestors ofand, we estimated their effective population sizes using a PSMC model. The effective population sizes ofandwere fluctuated over time with climatic changes. The population of the ancestor of these two species were gradually expanded ∼100 kiloyears ago (Kya), with the largest effective population size ofandoccurring ∼30–18 Kya () and ∼22–13 Kya (), respectively. The effective population sizes of the two species both declined following these periods.
+
+FIGURE 4
+
+The estimated demographic histories of the twopopulations. Diagrams show effective population sizes over time for, and. Number at each noder epresents the time of divergence in thousands of years.
+
+The Genetic Differentiation in the Asia and Africa Populations of
+
+To investigate the genetic differentiation in the Asia and Africa populations of, we conducted a genome-wide scan for selective sweeps for these two population and identified 249 genes. GO and KEGG annotation showed that these genes were related to temperature adaptability, such as heat shock protein 90 and 98, DNA repair protein, transcription factor SFP1, serine/threonine-protein kinase, transferase activity, and catalytic activity, indicating these genes might contribute tosurvive in tropical and temperate regions.
+
+Development of Novel SSR and InDel Markers for
+
+To develop novel SSR and InDel markers for, we successfully designed 5,154 SSR primer pairs forusing the Primer 3 software. Among them, 50 primer pairs were selected to evaluate their polymorphism instains, including DNR, TNR, tetranucleotide repeats (TTNR), pentanucleotide repeats (PNR) and hexanucleotide repeats (HINR) types of SSR loci with a number of ten for each type (). The results showed that 42 primer pairs yielded clear amplifications, and 29 primers (AcSSR1, 3–6, 8–11, 15, 17, 18, 21–27, 30, 31, 35–37, 42–44, 48, and 49) revealed polymorphic variation within the 8strains. Therefore, the overall amplification rate was 84.00% and the polymorphism rate was 58.00% (). We also designed 50 InDel primer pairs for, which were located in exonic (i.e., frameshift insertion, non-frameshift, deletion, or stopgain) and splicing regions (). Among them, 47 (94.00%) InDels (excluding AcInDel30, 35, and 40) successfully amplified the predicted products from all ten strains. Moreover, 35 InDel loci (70.00%, AcInDel1–10, 12–17, 21, 23, 25, 27, 29, 31–33, 36, 37, 39, 41, and 44–50) revealed polymorphisms via alleles of different sizes (). These newly developed primers can be further used for QTL mapping of important agronomic traits for.
+
+FIGURE 5
+
+The amplification products of SSR and InDel primers developed from thegenome.Polymorphic bands between eightstrains using SSR1 and SSR26.Polymorphic bands between eightstrains using InDel15 and InDel46.
+
+Discussion
+
+Wood Ear fungi have abundant nutritional and medicinal value and are important for the degradation of cellulose and lignin. However, the speciation, evolution, and genetic differentiation of Wood Ear are largely unknown. Only two genomes forspecies have been previously reported includingand(;). The sequenced genome ofwas exhibited low continuity (e.g., a scaffold N50 < 0.05 Mbp) and highly fragmented (scaffold number >1,500) ().was exhibited much higher sequencing quality with 103 contigs and the contig N50 of 1.35 Mbp (). Here, we report a high-quality genome sequence forcomprising 24 contigs with the contig N50 of 4.35 Mbp. Thegenome provides an important resource for future comparative genomic and evolutionary phylogenomic studies of.
+
+Variation in genome size is one of the most striking features of eukaryotic organisms (). The genome sequencing has yielded new insights into the evolutionary factors underlying genome size differences. The genomes of the genusexhibited remarkable size variation. The genomes of(73.48 Mbp) and(74.92 Mbp) were exhibited similar sizes that were far larger than(49.76 Mbp). In addition, the genome ofis considerably larger than many macrofungi including(30.39–31.00 Mbp) (;),(43.30 Mbp) () and(38.50 Mbp) (). To more accurately compare the genomes ofand, we re-annotated theASM genome using the same platform and methods. We found the primary factors correlated to genome size differences ofandwere included gene numbers, repetitive elements, and gene lengths. Repeat sequences in theAC1 genome were comprised 15.97 Mbp, which is nearly two times higher than in thegenome (8.75 Mbp) and many other fungi (;). Specifically, the LTR-RT superfamilies Gypsy and Copia were substantially more diverse and abundant in the genome of(8,910 vs. 5,015; 2,181 vs. 1,604), suggesting that repeat sequences, and especially transposons, contributed the most to genome size expansion. Previous investigations of plants also indicated that differences in genome sizes between species primarily depends on the amplification of repetitive sequences such as transposons (). In particular, the expansion of LTRs is a prominent factor leading to increased genome sizes (). In addition, the number of genes (17,591) and total gene length (44.70 Mbp) of thegenome were higher than in the genome of(16,402 and 35.68 Mb), thereby contributing to the observed difference in genome sizes.
+
+Phylogenetic analysis indicated that the ancestor ofdiverged from otherwas ∼79.1 (67.4–97.1) Mya during the Cretaceous Period anddiverged fromduring the Paleogene (). Consequently, the large-scale expansion of angiosperms coinciding with climate changes over this time also corresponds to the divergence ofspecies (;;). Consistent with this supposition, climate change correlated with changes in the effective population size of the ancestor ofandvia PSMC analysis. The ancestral populations of these two species expanded ∼100 Kya during Marine Isotope Stage 5 (MIS5, 80–130 Kya), which was the last major interglacial period (;). During this time period, global temperatures were elevated, which could have contributed to a population expansion for these two species. After MIS5, the effective population size ofgradually expanded during MIS4–3 and peaked ∼30 Kya at the beginning of MIS2. The global climate gradually changed to cold and arid full-glacial conditions following MIS2, which may have limited the expansion of the two species (). However, ancestralpopulation sizes peaked ∼22 Kya during the Last Glacial Maximum (LGM, ∼26.5–19 Kya) (), which was later than that of. This difference could be related to the lower temperature tolerance of the former species, consistent with the facts that the mycelia ofwould grow slowly below 15°C and stop grow and die below 4–5°C, whilewould grow slowly below 5°C. The population sizes of the two species gradually decreased following this period, which was most likely associated with the contraction of plant species populations and reduced suitable habitat during this time (;).
+
+andwere normally cultivated using sawdust and other kinds of agro-industrial wastes. CAZymes are enzymes involved in the decomposition of lignin, cellulose, and hemicellulose (;). We identified higher numbers of CAZymes in theAC1 genome (460) than theASM genome (316), highlighting the potential role of the former in the processing of more diverse agro-industrial wastes. In addition, we found our newly predicted CAZymes were significantly differed from the previously reported in the ASM genome (). In particular, AAs (83), CEs (16), GTs (41), PLs (13), and CBMs (56) were less abundant than in the original investigation (62, 21, 29, 14, 103), but GHs (169) were significantly more abundant than previously reported (106). Therefore, different annotation methods and parameter thresholds will significantly influence results for annotation analyses. Consequently, the same annotation methodologies are necessary when performing comparative genomic analysis between species to avoid systematic biases.
+
+As jelly fungi,andprossess the similar external morphologies without differentiated stipe and cap (). However, the two species exhibit strikingly different genomic properties. For example, the homologous syntenic blocks and coverage rates between AC1 and ASM were remarkably lower than those observed for other species within the same genus (;;). Further, the across-taxa transferability rates of SSR and InDel markers were also much lower than the rate observed inspecies (;). Thus, our comparative genomic study provides a new perspective on the evolution and genetic differentiation of.
+
+Conclusion
+
+In this study, we present thesequenced genome AC1 for, and then performed the comparative genome analysis: (1) we demonstrate the abundances and lengths of repetitive element sequences and protein-coding genes were mainly related to the remarkable variation in genome size of the genus; (2) the estimated divergence time betweenandwas ∼54.8 (42.3–71.4) Mya, which divergence withat ∼79.1 (67.4–97.1) Mya during the Cretaceous Period; (3) reveal the role of past global climate change in the long-term population dynamics ofand; (4) we identified a higher number of CAZyme encoding genes in theAC1 genome compared to that ofASM genome, which may contribute to a potential role in the processing of more diverse agro-industrial wastes; (5) we developed novel polymorphic SSR and InDel markers for future germplasm evaluation and QTL mapping for. Overall, our genomic data could provide new perspectives on the evolution and genetic differentiation of Wood Ear fungi and facilitates future breeding.
+
+Data Availability Statement
+
+The datasets generated for this study can be found in GenBank.
+
+Author Contributions
+
+YF and YL contributed to the conceptualization of the study and the funding. YD and YF contributed to the writing and data analysis. CY and LS contributed to the genome annotation. XL and YW contributed to the sample collection and the genome extraction. BS and XZ contributed to the SSRs and InDels primers design and the screening. ZZ contributed to the reviewing and editing of the manuscript. All authors have read and approved the manuscript.
+
+Conflict of Interest
+
+CY was employed by company BGI-Shenzhen. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
