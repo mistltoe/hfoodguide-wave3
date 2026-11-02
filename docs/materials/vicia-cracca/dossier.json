@@ -1,0 +1,470 @@
+{
+  "slug": "vicia-cracca",
+  "name_ko": "등갈퀴나물",
+  "name_en": "Tufted vetch",
+  "scientific_name": "Vicia cracca L.",
+  "aliases": [
+    "등갈키나물",
+    "등말굴레",
+    "등말굴레풀",
+    "등갈퀴나물순",
+    "등갈퀴나물씨앗",
+    "Turfed vetch(식약처 목록 표기)"
+  ],
+  "sections": [
+    {
+      "key": "overview",
+      "title": "한눈에 보기",
+      "body": "등갈퀴나물(Vicia cracca L.)은 콩과의 여러해살이풀로, 북반구에 널리 퍼져 있고 덩굴손으로 다른 식물을 타고 오르며 보라색 꽃을 피운다[12]. 식품의약품안전처 「식품원료 목록」에는 '등갈퀴나물순'과 '등갈퀴나물씨앗' 두 원료가 '사용가능'으로 올라 있고, 사용 조건은 '사용가능부위 : 순, 씨앗'이다[1]. 같은 목록에 적힌 이명은 등갈키나물·등말굴레·등말굴레풀이고, 영명 칸에는 'Turfed vetch'로 적혀 있으나 논문에서는 tufted vetch로 쓴다[1, 14]. 따라서 식품으로 쓸 수 있는 부위는 순과 씨앗뿐이며, 꽃·뿌리·다 자란 잎줄기는 목록의 사용 부위에 들어 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n이 종에서 성분을 정량한 논문은 많지 않으며, 튀르키예 연구진이 V. cracca subsp. cracca를 분석한 자료가 대표적이다(채집지·사용 부위는 초록에 없음)[3]. 이 아종 정유의 주성분은 2-에틸퓨란(27.3%)이었고, 메탄올 추출물의 주요 페놀 성분은 시나프산(0.31 mg/g, 건물·추출물 기준은 초록에 없음)이었다[3]. 이 종은 자연계에서 드물게 시안아마이드를 만드는 식물로 확인되었으나, 측정 부위와 함량은 초록에서 확인하지 못함[2]. 씨앗에는 혈액형 A형 적혈구를 응집시키는 렉틴과 만노스·포도당 결합 렉틴이 들어 있고[4–6], 이 종에서 트립신 저해제도 분리되었다(부위는 서지 정보에 없음)[7]. 사람을 대상으로 한 효능·임상 연구는 확인하지 못함."
+    },
+    {
+      "key": "history",
+      "title": "이용의 역사",
+      "body": "등갈퀴나물 씨앗이 학계의 관심을 받은 것은 혈액형 연구 때문이다[8, 9]. 1950–60년대 핀란드 학술지에는 이 종 씨앗의 항A1 응집소와 염색체 수의 관계를 다룬 보고(1952년)와 씨앗 응집소·저해 물질에 관한 보고(1961년)가 실렸다[8, 33]. 1955년에는 이 종을 포함한 식물 응집소를 임상 혈액형 판정 시험액으로 쓰는 방안이 독일어 논문으로 발표되었다[29]. 1970년대에는 친화 크로마토그래피로 씨앗의 A형 특이 렉틴을 정제하는 방법이 보고되었고[4, 5], 이 렉틴은 사람 적혈구막의 A형 활성 당단백질을 분리하는 도구로 쓰였다[5]. 혈액형 판정용 렉틴을 정리한 총설은 이 종의 렉틴을 좋은 항A 시약으로 소개했다[9].\n\n식품으로서의 이용 역사, 곧 순을 나물로 먹거나 씨앗을 곡물처럼 먹은 기록은 공식 자료나 논문에서 확인하지 못함. 캐나다 온타리오주와 캐나다 대부분 지역에서는 외래·침입·귀화종으로 분류되며, 캐나다 온타리오주 농식품부는 이 종을 방제가 필요한 잡초로 다룬다[14]. 한편 같은 연구에서는 개체수가 줄고 있는 뒤영벌 종들이 이 종의 꽃을 즐겨 찾는 것으로 나타나, 보전과 방제 사이의 고민거리로 소개되었다[14]."
+    },
+    {
+      "key": "biology",
+      "title": "식물학적 특징",
+      "body": "등갈퀴나물은 여러 해 동안 꽃과 열매를 맺는 여러해살이풀로, 풀밭·길가·강둑·숲 가장자리에서 흔히 자란다[12]. 꽃차례는 꽃자루가 긴 총상꽃차례이고 보라색 꽃이 10–30송이 빽빽하게 달리며, 잎 끝의 덩굴손으로 주변 식물을 감고 올라간다[12]. 캐나다 온타리오주 조사 논문은 이 종이 5–7월에 꽃을 피운다고 인용했고, 개체수가 줄고 있는 뒤영벌 3종의 채식이 이 종과 뚜렷이 연관되었으며 이 꽃에서는 주로 꽃가루를 모으는 모습이 기록되었다[14].\n\n뿌리혹에는 Rhizobium leguminosarum biovar viciae가 공생하며, 벨기에·프랑스 개체군에서 분리한 약 350개 균주를 분석한 연구가 있다[23]. 러시아 북극권 개체의 뿌리혹에서도 공생 세균이 분리되어 유전체가 해독되었다[28]. 캐나다 노바스코샤의 야생 개체에서는 수소 흡수 효소(Hup) 양성 뿌리혹과 음성 뿌리혹이 함께 관찰되었다[26]. 초식동물 연구에서는 이 종이 단백질이 많고 총페놀·리그닌성 섬유가 적어 들쥐(meadow vole)가 즐겨 먹는 '고품질' 먹이로 분류되었다[17]. 잎·뿌리 물 추출물은 실험실에서 잡초 4종의 발아와 어린뿌리 생장을 억제했다(시험관)[21]."
+    },
+    {
+      "key": "related_species",
+      "title": "근연종과 구별",
+      "body": "등갈퀴나물은 갈퀴나물속(Vicia) 가운데 Cracca 아속에 속한다[22]. 27종을 비교한 동위효소 연구에서 Cracca절은 하나의 계통군으로 묶였고, 등갈퀴나물은 이형접합 유전자형이 많아 타가수분을 하는 종으로 분류되었다[22]. 한국 자생 갈퀴나물속 19분류군(59곳에서 채집)을 DNA 바코드로 비교한 연구에서는 10분류군만 바코드 조합으로 구별되었고, 나머지 9분류군은 16개 형태 형질을 함께 써야 구별되었다[13].\n\n식품의약품안전처 목록에는 같은 속의 잠두(V. faba), 가는등갈퀴(V. tenuifolia), 넓은잎갈퀴(V. japonica), 나비나물(V. unijuga), 벳지(V. villosa), 살갈퀴(V. angustifolia)가 따로 올라 있으므로, 이들의 성분·안전성 자료를 등갈퀴나물 자료로 옮겨 쓰면 안 된다[1]. 특히 시안아마이드는 V. villosa subsp. varia와 등갈퀴나물에서 모두 확인되었지만 축적량은 등갈퀴나물이 더 많았고, V. amoena에서는 실험 조건에서 만들어지지 않아 같은 속이라도 종마다 다르다[2]. 씨앗 렉틴도 만노스·포도당 결합 렉틴은 V. sativa·V. faba·완두·렌즈콩 렉틴과 아주 비슷하지만, A형 특이 렉틴은 이들과 닮은 정도가 낮다[6]. 시나프산·정유 성분도 함께 분석된 V. bithynica와 값이 달랐다[3]."
+    },
+    {
+      "key": "cultivation",
+      "title": "재배와 생육 환경",
+      "body": "국내에서 등갈퀴나물을 작물로 재배하거나 생산한 통계는 확인하지 못함. 통계청 농작물생산조사·농림축산식품부 특용작물 생산실적 자료에서도 이 종의 항목은 확인하지 못함. 이 종은 풀밭·길가·강둑·숲 가장자리에서 자라는 야생 식물로 기록되어 있고[12], 캐나다 온타리오주에서는 귀화한 외래 침입종으로 콩·옥수수·겨울밀 밭에서 농약으로 방제된다[14].\n\n중부 유럽에서는 이배체와 동질사배체가 지역을 나누어 분포하는데, 사배체는 서부·북부에, 이배체는 더 건조한 남동부에 산다[15]. 공동 정원 실험에서 사배체가 이배체보다 언제나 생육이 나은 것은 아니었고, 가뭄을 겪은 사배체는 쭉정이 씨앗 비율이 높아져 가뭄에 더 민감했다[15]. 사배체는 제꽃가루받이 뒤에도 씨앗 결실 감소가 이배체보다 적었다[16]. 핀란드 목초지 모형 실험에서는 오존 농도를 높이자 이 종의 생장이 줄거나 눈에 보이는 피해가 나타났다[27]. 콩과 식물답게 뿌리혹 세균과 공생해 질소를 고정한다[23, 26]."
+    },
+    {
+      "key": "processing",
+      "title": "가공과 이용",
+      "body": "식품원료 목록이 허용한 형태는 순과 씨앗이며, 이를 어떻게 손질·조리·가공하는지에 대한 공식 기준이나 조리법 자료는 확인하지 못함. 식약처 「식품 등의 생산실적」에서 이 종을 원료로 한 건강기능식품 품목은 확인하지 못함.\n\n실험실 수준에서는 씨앗에서 렉틴을 뽑아 정제하는 방법이 자세히 연구되었다[4–6]. A형 특이 렉틴은 N-아실-D-갈락토사민을 붙인 흡착제로 친화 크로마토그래피하여 정제했고, pH 기울기로 두 분획으로 나뉘었다[4]. 다른 연구는 돼지 혈액형 A/H 물질을 고정한 담체로 같은 렉틴을 분리했다[5]. 만노스·포도당 결합 렉틴은 Sephadex G-100 친화 크로마토그래피로 정제했다[6]. 트립신 저해제와 항A 응집소를 한 번에 흡착 분리한 방법도 보고되었다[7]. 이렇게 얻은 렉틴은 혈액형 판정 시약과 적혈구막 당단백질 분석 도구로 쓰였다[5, 9, 29]. 정유는 기체크로마토그래피-질량분석으로, 페놀 성분은 고성능 액체크로마토그래피로 분석되었다[3]."
+    },
+    {
+      "key": "genetics",
+      "title": "유전체와 유전 다양성",
+      "body": "중국 칭하이성 치롄산 개체의 엽록체 유전체는 126,272 bp의 원형이며 GC 함량 34.8%로, 콩과 나비아과에 흔한 역위반복(IR) 영역 소실이 나타났다[12]. 이 엽록체 유전체에서는 단백질 유전자 75개, rRNA 3개, tRNA 30개 등 108개 유전자가 예측되었다[12]. 한국 개체의 DNA 바코드 길이는 ITS2 339 bp, matK 705 bp, rbcL 542 bp였고, 세 구간 모두 종내 변이가 0이었다[13].\n\n이 종은 이배체와 동질사배체가 함께 있는 배수성 연구의 모델로 쓰인다[15, 16]. 중부 유럽 접촉지대의 25개 개체군을 동위효소로 분석한 결과, 사배체는 이배체보다 대립유전자가 많았고 여러 곳에서 따로 생겨났다는 가설이 지지되었다[16]. 두 배수체 모두 타가수분이 우세한 혼합 교배를 한다[16]. 체르노빌 출입금지구역 개체의 다중 오믹스 분석에서는 만성 방사선 노출에 따라 탄소 대사·질소 재분배·광합성 관련 유전자 발현과 대사가 크게 바뀌었다[32]. 러시아 코미공화국 방사성 폐기물 오염지 개체군에서는 흡수선량이 늘수록 어린뿌리 끝 세포의 염색체 이상이 늘었다[19]."
+    },
+    {
+      "key": "safety",
+      "title": "안전성과 주의",
+      "body": "식품의약품안전처는 등갈퀴나물의 순과 씨앗을 '사용가능' 원료로 두고 있으며, 그 밖의 섭취량 제한이나 주의 문구는 목록에서 확인하지 못함[1]. 이 종에 대한 공공기관의 알레르기·잔류농약·독성 정보는 확인하지 못함.\n\n이 종은 자연 시안아마이드를 만들며, 연구진이 지금까지 조사한 553종의 식물 가운데 이 능력이 확인된 것은 V. villosa subsp. varia, 등갈퀴나물, 아까시나무 3종뿐이었다[2]. 측정 부위·함량 수치와 섭취 시 영향은 초록에서 확인하지 못함. 씨앗에는 적혈구를 응집시키는 렉틴이 들어 있고[4–6], 이 종에서 트립신 저해제도 분리되었다(부위는 서지 정보에 없음)[7]. 이 종 씨앗을 먹었을 때의 영향을 조사한 연구는 확인하지 못함. 이 종의 씨앗 응집소는 2-머캅토에탄올로 환원한 뒤 토끼 망상적혈구 추출액의 단백질 합성을 억제했다(시험관)[11]. 정제 렉틴 11종을 비교한 연구에서 이 종의 렉틴은 IgE 항혈청에 의한 히스타민 방출과 더 잘 상관되었다(시험관)[10]. 갈퀴나물속 47종 씨앗의 아미노산 조사에서 17종에 카나바닌이 많았으나, 원문 표를 열지 못해 등갈퀴나물 씨앗의 카나바닌 함량은 확인하지 못함[30].\n\n오염 토양 정화(식물 추출) 가능성을 본 캐나다 연구에서, PCB 오염 토양(31·4.7 µg/g)에서 자란 이 종의 지상부 평균 PCB 농도는 35 µg/g(건조 중량)으로 조사한 잡초 27종 가운데 가장 높았다[18]. 러시아 라듐 생산 폐기물 보관지 연구에서는 이 종 지상부에 주로 라듐-226이 쌓였으나(초록 표기 '22Ra'), 우라늄·토륨 계열 핵종의 식물 농축계수는 모두 1보다 낮았다[20]. 폴란드 고속도로변 조사에서는 이 종의 아연 함량이 비교 식물 가운데 가장 낮았다[31]. 이 연구들은 오염지 식물을 다룬 환경 연구로 식용 순의 섭취 위험을 평가한 것은 아니지만, 이 종이 토양의 PCB를 지상부에 쌓을 수 있음을 보여 주므로 오염이 의심되는 곳에서 채취한 순은 피하는 편이 낫다[18]."
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Cyanamide",
+      "name_ko": "시안아마이드",
+      "class": "질소 화합물(천연 시안아마이드)",
+      "role": "bioactive",
+      "part": "부위는 초록에서 확인하지 못함(개화 전·개화기에 측정)",
+      "content_text": "함량 수치는 초록에서 확인하지 못함; V. villosa subsp. varia보다 축적량이 많음[2]",
+      "activity_ko": "553종 조사에서 이 성분을 만드는 식물은 3종뿐이었고 등갈퀴나물이 그 하나[2]",
+      "source": [
+        2
+      ]
+    },
+    {
+      "name": "Sinapic acid",
+      "name_ko": "시나프산",
+      "class": "페놀산(하이드록시신남산)",
+      "role": "marker",
+      "part": "메탄올 추출물(부위는 초록에서 확인하지 못함), V. cracca subsp. cracca",
+      "content_text": "0.31 mg/g(메탄올 추출물의 주요 페놀 성분, HPLC; 건물·추출물 기준은 초록에서 확인하지 못함)[3]",
+      "activity_ko": "함께 분석된 V. bithynica(1.69 mg/g)보다 적음[3]",
+      "source": [
+        3
+      ]
+    },
+    {
+      "name": "2-Ethylfuran",
+      "name_ko": "2-에틸퓨란",
+      "class": "퓨란류 휘발 성분",
+      "role": "marker",
+      "part": "정유(V. cracca subsp. cracca, 부위는 초록에서 확인하지 못함)",
+      "content_text": "정유의 27.3%(GC-MS, 주성분)[3]",
+      "activity_ko": "정유의 대표 성분; 정유·용매 추출물의 항균 시험이 함께 수행됨(가장 강한 활성은 V. bithynica 추출물)[3]",
+      "source": [
+        3
+      ]
+    },
+    {
+      "name": "Kaempferol 3-O-alpha-L-rhamnoside",
+      "name_ko": "캠페롤-3-O-α-L-람노사이드",
+      "class": "플라보놀 배당체",
+      "role": "bioactive",
+      "part": "확인하지 못함",
+      "content_text": "함량 수치는 확인하지 못함; LOTUS DB에 이 종에서 1건 보고[25]",
+      "activity_ko": "꽃의 플라보노이드 연구가 있으나(1968) 원문을 확인하지 못함[24]",
+      "source": [
+        25,
+        24
+      ]
+    },
+    {
+      "name": "2-methoxy-6-[(E)-2-phenylethenyl]pyran-4-one",
+      "name_ko": "2-메톡시-6-스티릴-4-피론(스티릴피론)",
+      "class": "스티릴피론",
+      "role": "bioactive",
+      "part": "확인하지 못함",
+      "content_text": "함량 수치는 확인하지 못함; LOTUS DB에 이 종에서 1건 보고, 보고된 생물이 1개 속뿐[25]",
+      "activity_ko": "생리활성은 확인하지 못함[25]",
+      "source": [
+        25
+      ]
+    },
+    {
+      "name": "2-methoxy-6-[(E)-2-(4-methoxyphenyl)ethenyl]pyran-4-one",
+      "name_ko": "4'-메톡시 스티릴피론",
+      "class": "스티릴피론",
+      "role": "bioactive",
+      "part": "확인하지 못함",
+      "content_text": "함량 수치는 확인하지 못함; LOTUS DB에 이 종에서 1건 보고, 보고된 생물이 1개 속뿐[25]",
+      "activity_ko": "생리활성은 확인하지 못함[25]",
+      "source": [
+        25
+      ]
+    },
+    {
+      "name": "Vicia cracca blood group A-specific lectin (N-acetylgalactosamine-binding)",
+      "name_ko": "A형 특이 렉틴(N-아세틸갈락토사민 결합)",
+      "class": "당단백질 렉틴(응집소)",
+      "role": "bioactive",
+      "part": "씨앗",
+      "content_text": "분자량 125,000, 소단위 33,000, pH 8에서 N-아세틸-D-갈락토사민 결합상수 약 6 × 10^3 M^-1[4]; 다른 연구에서는 분자량 100,000, 소단위 29,000[5]",
+      "activity_ko": "사람 A형(A1) 적혈구를 특이하게 응집[4]; 혈액형 판정 시약으로 쓰임[9]",
+      "source": [
+        4,
+        5,
+        9
+      ]
+    },
+    {
+      "name": "Vicia cracca mannose/glucose-specific lectin",
+      "name_ko": "만노스·포도당 결합 렉틴",
+      "class": "렉틴(2소단위형)",
+      "role": "bioactive",
+      "part": "씨앗",
+      "content_text": "분자량 44,000(소단위 5,700 × 2, 17,500 × 2), 포도당 결합상수 1.38 × 10^3 l/mol(평형투석)[6]",
+      "activity_ko": "혈액형 비특이 응집소; V. sativa·V. faba·완두·렌즈콩 렉틴과 높은 상동성[6]",
+      "source": [
+        6
+      ]
+    },
+    {
+      "name": "Trypsin inhibitor",
+      "name_ko": "트립신 저해제",
+      "class": "단백질 분해효소 저해 단백질",
+      "role": "bioactive",
+      "part": "확인하지 못함(초록 없음, 제목에 부위 없음)",
+      "content_text": "함량 수치는 확인하지 못함[7]",
+      "activity_ko": "항A 응집소와 함께 흡착 분리됨[7]; 항영양 성분으로 알려진 종류이나 이 종에서 섭취 영향은 확인하지 못함",
+      "source": [
+        7
+      ]
+    }
+  ],
+  "markers": [],
+  "assays": [
+    {
+      "role": "literature",
+      "compound": "Sinapic acid",
+      "compound_ko": "시나프산",
+      "part": "메탄올 추출물(V. cracca subsp. cracca, 부위는 초록에서 확인하지 못함)",
+      "content": "0.31 mg/g(건물·추출물 기준은 초록에서 확인하지 못함)[3]",
+      "method": "HPLC",
+      "conditions": {
+        "instrument": "",
+        "column": "",
+        "mobile_phase": "",
+        "gradient": "",
+        "flow": "",
+        "temp": "",
+        "detection": "",
+        "injection": "",
+        "sample_prep": "메탄올 추출",
+        "standard": "",
+        "linearity": "",
+        "lod": "",
+        "loq": "",
+        "recovery": ""
+      },
+      "rationale": "이 종의 메탄올 추출물에서 가장 많은 페놀 성분으로 보고되었다[3]. 전문 확인 못함 — 칼럼·이동상·검출 조건은 비워 둠.",
+      "source": [
+        3
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40446134/",
+      "source_kind": "paper"
+    },
+    {
+      "role": "literature",
+      "compound": "Cyanamide",
+      "compound_ko": "시안아마이드",
+      "part": "부위는 초록에서 확인하지 못함(개화 전·개화기에 측정)",
+      "content": "함량 수치는 초록에서 확인하지 못함[2]",
+      "method": "GC-MS(MeSH 기준)",
+      "conditions": {
+        "instrument": "",
+        "column": "",
+        "mobile_phase": "",
+        "gradient": "",
+        "flow": "",
+        "temp": "",
+        "detection": "",
+        "injection": "",
+        "sample_prep": "",
+        "standard": "",
+        "linearity": "",
+        "lod": "",
+        "loq": "",
+        "recovery": ""
+      },
+      "rationale": "자연계에서 이 성분을 만드는 식물이 극히 드물어(553종 중 3종) 이 종을 가르는 특징 성분이자 안전성 지표가 된다[2]. 전문 확인 못함.",
+      "source": [
+        2
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18160082/",
+      "source_kind": "paper"
+    }
+  ],
+  "nutrients": [],
+  "production": [],
+  "world": [],
+  "gi": [],
+  "orgs": [],
+  "sources": [
+    {
+      "n": 1,
+      "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 등갈퀴나물순·등갈퀴나물씨앗(Vicia cracca L.), 사용가능, 사용가능부위 : 순, 씨앗",
+      "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+      "publisher": "식품의약품안전처",
+      "accessed": "2026-10-13"
+    },
+    {
+      "n": 2,
+      "title": "Limited distribution of natural cyanamide in higher plants: occurrence in Vicia villosa subsp. varia, V. cracca, and Robinia pseudo-acacia (Phytochemistry 2008;69(5):1166-72, doi:10.1016/j.phytochem.2007.11.004; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18160082/",
+      "publisher": "Phytochemistry (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 3,
+      "title": "Essential Oils, Phenolic Contents, and Antimicrobial Activities of Vicia bithynica L. and Vicia cracca L. subsp. cracca (Chem Biodivers 2025;22(10):e00813, doi:10.1002/cbdv.202500813; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40446134/",
+      "publisher": "Chemistry & Biodiversity (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 4,
+      "title": "Purification and properties of blood-group-specific lectins from Vicia cracca (Eur J Biochem 1977;72(2):317-22, doi:10.1111/j.1432-1033.1977.tb11255.x; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14000/",
+      "publisher": "European Journal of Biochemistry (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 5,
+      "title": "Isolation and characterization of the blood group A-specific lectin from Vicia cracca (Biochim Biophys Acta 1980;622(2):337-43, doi:10.1016/0005-2795(80)90045-8; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7378459/",
+      "publisher": "Biochimica et Biophysica Acta (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 6,
+      "title": "Purification and characterization of a mannose/glucose-specific lectin from Vicia cracca (Eur J Biochem 1982;122(1):105-10, doi:10.1111/j.1432-1033.1982.tb05854.x; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7060560/",
+      "publisher": "European Journal of Biochemistry (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 7,
+      "title": "Simultaneous isolation of trypsin inhibitor and anti-A phytohemagglutinin from Vicia cracca by means of biospecific adsorption (Biochim Biophys Acta 1970;221(2):394-5, doi:10.1016/0005-2795(70)90285-0; 서지 정보만 확인, 초록 없음)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5490242/",
+      "publisher": "Biochimica et Biophysica Acta (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 8,
+      "title": "Chromosome number and anti-A1-agglutinins in seeds of Vicia cracca (Ann Med Exp Biol Fenn 1952;30(3-4):327-8; 서지 정보만 확인, 초록 없음)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13040891/",
+      "publisher": "Annales medicinae experimentalis et biologiae Fenniae (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 9,
+      "title": "Lectins as markers for blood grouping (Med Sci Monit 2002;8(12):RA293-300; 총설, 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12503049/",
+      "publisher": "Medical Science Monitor (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 10,
+      "title": "Lectin-binding ability of immunoglobulin E and its participation in triggering of mast cells (Folia Microbiol 1985;30(3):237-46, doi:10.1007/BF02923516; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2408980/",
+      "publisher": "Folia Microbiologica (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 11,
+      "title": "Inhibition of protein synthesis in vitro by a lectin from Momordica charantia and by other haemagglutinins (Biochem J 1979;182(2):633-5, doi:10.1042/bj1820633; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/508306/",
+      "publisher": "The Biochemical Journal (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 12,
+      "title": "The complete chloroplast genome of Vicia cracca L. (Mitochondrial DNA B Resour 2021;6(7):1793-1795, doi:10.1080/23802359.2021.1926355; 전문 확인)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8205000/",
+      "publisher": "Mitochondrial DNA Part B (PubMed Central)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 13,
+      "title": "Identification of Vicia Species Native to South Korea Using Molecular and Morphological Characteristics (Front Plant Sci 2021;12:608559, doi:10.3389/fpls.2021.608559; 전문 일부 확인)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7900155/",
+      "publisher": "Frontiers in Plant Science (PubMed Central)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 14,
+      "title": "Conservation Conundrum: At-risk Bumble Bees (Bombus spp.) Show Preference for Invasive Tufted Vetch (Vicia cracca) While Foraging in Protected Areas (J Insect Sci 2019;19(2), doi:10.1093/jisesa/iez017; 전문 확인)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6397019/",
+      "publisher": "Journal of Insect Science (PubMed Central)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 15,
+      "title": "Factors influencing distribution and local coexistence of diploids and tetraploids of Vicia cracca: inferences from a common garden experiment (J Plant Res 2017;130(4):677-687, doi:10.1007/s10265-017-0925-5; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28290078/",
+      "publisher": "Journal of Plant Research (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 16,
+      "title": "Autotetraploids of Vicia cracca show a higher allelic richness in natural populations and a higher seed set after artificial selfing than diploids (Ann Bot 2014;113(1):159-70, doi:10.1093/aob/mct252; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24232383/",
+      "publisher": "Annals of Botany (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 17,
+      "title": "Defining \"high quality\" food resources of herbivores: the case for meadow voles (Microtus pennsylvanicus) (Oecologia 1987;71(4):510-517, doi:10.1007/BF00379289; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28312219/",
+      "publisher": "Oecologia (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 18,
+      "title": "Potential for phytoextraction of PCBs from contaminated soils using weeds (Sci Total Environ 2010;408(16):3469-76, doi:10.1016/j.scitotenv.2010.04.036; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20483449/",
+      "publisher": "Science of the Total Environment (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 19,
+      "title": "Estimation of ionizing radiation impact on natural Vicia cracca populations inhabiting areas contaminated with uranium mill tailings and radium production wastes (Sci Total Environ 2009;407(20):5335-43, doi:10.1016/j.scitotenv.2009.06.037; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19640568/",
+      "publisher": "Science of the Total Environment (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 20,
+      "title": "[Radiation risk assessment for plant reference species (Pinus sylvestris and Vicia cracca) from the area of radium production waste storage] (Radiats Biol Radioecol 2012;52(2):187-97; 러시아어 논문의 영문 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22690582/",
+      "publisher": "Radiatsionnaia biologiia, radioecologiia (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 21,
+      "title": "Allelopathic effects of Medicago sativa L. and Vicia cracca L. leaf and root extracts on weeds (Pak J Biol Sci 2007;10(10):1639-42, doi:10.3923/pjbs.2007.1639.1642; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19086510/",
+      "publisher": "Pakistan Journal of Biological Sciences (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 22,
+      "title": "Isozyme variation and phylogenetic relationships in Vicia subgenus Cracca (Fabaceae) (Ann Bot 2005;96(6):1085-96, doi:10.1093/aob/mci260; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16186165/",
+      "publisher": "Annals of Botany (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 23,
+      "title": "Population structure of root nodulating Rhizobium leguminosarum in Vicia cracca populations at local to regional geographic scales (Syst Appl Microbiol 2014;37(8), doi:10.1016/j.syapm.2014.08.002; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25199986/",
+      "publisher": "Systematic and Applied Microbiology (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 24,
+      "title": "[Flavonoids of leguminous plants: research on the flowers of Vicia cracca] (C R Acad Hebd Seances Acad Sci D 1968;266(8):839-41; 서지 정보만 확인, 초록 없음)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4967105/",
+      "publisher": "Comptes rendus de l'Académie des sciences (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 25,
+      "title": "LOTUS 천연물 발생 데이터베이스 — card.json 의 성분 후보(스티릴피론 4종·kaempferol-3-O-α-L-rhamnoside; 이 종에서 각 1건 보고)를 고른 근거 DB. 개별 레코드·부위·원 문헌은 직접 확인하지 못함",
+      "url": "https://lotus.naturalproducts.net/",
+      "publisher": "LOTUS (Natural Products Online)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 26,
+      "title": "Choice of hydrogen uptake (Hup) status in legume-rhizobia symbioses (Ecol Evol 2012;2(9):2285-90, doi:10.1002/ece3.325; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23139886/",
+      "publisher": "Ecology and Evolution (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 27,
+      "title": "Influences of elevated ozone and carbon dioxide in growth responses of lowland hay meadow mesocosms (Environ Pollut 2006;144(1):101-11, doi:10.1016/j.envpol.2006.01.009; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16513235/",
+      "publisher": "Environmental Pollution (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 28,
+      "title": "Draft Genome Sequence of Rhizobium sp. Strain 32-5/1, Isolated from Vicia cracca L. Root Nodules in the Russian Arctic (Microbiol Resour Announc 2023, doi:10.1128/mra.00287-23; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37166320/",
+      "publisher": "Microbiology Resource Announcements (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 29,
+      "title": "[Application of plant hemaglutinins from Laburnum alpinum, Phaseolus limensis, Vicia cracca and Sophora japonica as test liquids for clinical blood typing] (Arzneimittelforschung 1955;5(1):34-5; 서지 정보만 확인, 초록 없음)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14351073/",
+      "publisher": "Arzneimittel-Forschung (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 30,
+      "title": "Associations of amino acids and related compounds in the seeds of forty-seven species of Vicia: their taxonomic and nutritional significance (Biochem J 1965;97(1):104-11, doi:10.1042/bj0970104; 초록만 확인, 종별 표는 열지 못함)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16749090/",
+      "publisher": "The Biochemical Journal (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 31,
+      "title": "Content of Zinc and Copper in Selected Plants Growing Along a Motorway (Bull Environ Contam Toxicol 2015;95(5):638-43, doi:10.1007/s00128-015-1648-8; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26364030/",
+      "publisher": "Bulletin of Environmental Contamination and Toxicology (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 32,
+      "title": "Multi-Omics Analysis of Vicia cracca Responses to Chronic Radiation Exposure in the Chernobyl Exclusion Zone (Plants 2023;12(12):2318, doi:10.3390/plants12122318; 초록만 확인)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37375943/",
+      "publisher": "Plants (PubMed)",
+      "accessed": "2026-11-02"
+    },
+    {
+      "n": 33,
+      "title": "The hemagglutinins and their inhibitors in the seeds of Vicia cracca (Ann Med Exp Biol Fenn 1961;39:313-5; 서지 정보만 확인, 초록 없음)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14491478/",
+      "publisher": "Annales medicinae experimentalis et biologiae Fenniae (PubMed)",
+      "accessed": "2026-11-02"
+    }
+  ]
+}

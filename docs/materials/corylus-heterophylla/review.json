@@ -1,0 +1,17 @@
+{"slug": "corylus-heterophylla", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 101, "checked_items": 61,
+ "verified": 158, "fixed": 4, "removed": 0, "unverifiable": 0,
+ "changes": [
+  {"where": "sections.history", "before": "교잡 개암(핑어우, C. heterophylla × C. avellana)", "after": "교잡 개암(C. heterophylla × C. avellana)", "why": "출처 [3] 전문에 '핑어우' 표기가 없음(전문은 C. heterophylla 의 중국명을 'Ping hazelnut'으로만 적음). 출처 없는 별칭 삭제"},
+  {"where": "sections.cultivation", "before": "가지마름·궤양병을 일으키는 곰팡이 51균주가 분리되었다[28]", "after": "가지 궤양·가지마름과 관련된 곰팡이(Diaporthe·Diplodia 속) 51균주가 분리되었다[28]", "why": "[28] 초록은 분리한 51균주가 궤양·가지마름과 '관련된(associated)' Diaporthe·Diplodia 종이라고만 씀. 병원성 단정을 출처 표현에 맞춤"},
+  {"where": "sections.safety", "before": "Cor h 1 ... IgE와 잘 결합했다고 보고되었다[21]. 개암 유전체에서도 ... 상동 유전자가 모두 확인되었다[22].", "after": "(중국어 논문, 초록으로만 확인; 조각 실험·혈청 정보 없음)[21] ... 유전체 서열 비교로 예측한 결과이며 개암 단백질의 IgE 반응을 직접 확인한 것은 아니다[22].", "why": "[21] 은 81개 아미노산 조각만 발현한 중국어 논문(초록만 열람), [22] 는 유전체 상동성 예측 연구(PMC12087118 전문 확인). '이 종 근거'의 수준을 분명히 함"},
+  {"where": "sections.safety", "before": "네 종 사이 알레르겐 상동 단백질의 아미노산 일치도는 평균 90% 이상이어서 교차 반응 가능성을 생각해야 한다[22].", "after": "이 연구가 비교한 네 종(유럽개암·C. americana·개암·C. mandshurica) 사이 ... 저자들은 이들을 모두 잠재적 알레르겐으로 보아야 한다고 했다[22].", "why": "[22] 전문에서 네 종을 확인해 명시하고, 결론 표현('should be considered as potential allergens')에 맞춤"}
+ ],
+ "unverifiable_notes": [
+  "[3] PMC8261296 전문(_work/pmc8261296.txt)과 표 2·3·4 열 순서(C. kweichowensis, C. mandshurica, C. heterophylla, C. yunnanensis, 'Dawei')를 대조해 개암 값(기름 50.23 g/100 g DW, 올레산 71.32%, 리놀레산 24.36%, 비타민 C 11.50 mg/100 g DW, 총페놀 141.23 mg GAE/100 g DW, 총플라보노이드 252.82 mg/100 g DW, 토코페롤 mg/100 g 기름 등)이 모두 맞음을 확인. 초록의 기름 범위 52.97–60.88 은 본문·표(50.23–60.88)와 어긋나며, dossier 는 표 값을 쓰고 이 불일치를 nutrients.form 에 밝혀 둠 — 적절",
+  "생/건 기준: [3] 값은 모두 건물(DW, 80 °C 항량 건조) 또는 기름 100 g 기준이며 dossier 표기와 일치",
+  "교잡종 '다웨이'·유럽개암 자료는 related_species·processing([24] 볶음 조건)에 교잡종임을 밝혀 따로 적혀 있고 개암 값으로 옮겨 쓰이지 않음. 참개암나무(C. sieboldiana / C. heterophylla var. sieboldiana) 행은 별도 원료로 구분됨",
+  "수꽃 자료 [19]·[20] 은 compounds·processing 에 '식품원료 목록의 사용 부위(열매) 아님'으로 표시돼 있어 유지",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 에서 학명 'Corylus heterophylla Fisch. ex Trautv.' 11행(개암·개암가루·개암나무열매·개암농축·개암분태·개암주스·개암추출물·개암페이스트·볶은개암·볶은개암분말·통헤이즐넛), 이명 '헤이즐넛, 진자', '사용가능부위 : 열매', 사용가능 — card.json 과 일치. 개암나무속 다른 행([2])도 원자료와 일치",
+  "[6]·[7]·[9]–[18]·[20]·[21]·[23]–[28] 은 PubMed 초록, [4]·[5]·[22] 는 PMC 전문으로 대조. WebSearch 는 쓰지 않음"
+ ]}

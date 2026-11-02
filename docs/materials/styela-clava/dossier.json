@@ -1,0 +1,612 @@
+{
+ "slug": "styela-clava",
+ "name_ko": "미더덕",
+ "name_en": "Warty sea squirt (leathery sea squirt, Asian clubbed tunicate)",
+ "scientific_name": "Styela clava",
+ "aliases": [
+  "미두둑",
+  "Warty sea squirt",
+  "leathery sea squirt",
+  "Asian clubbed tunicate",
+  "Styela clava Herdman, 1882"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "개요",
+   "body": "미더덕(학명 Styela clava)은 미더덕과(Styelidae)에 속하는 단독성 멍게류로, 식품의약품안전처 「식품원료 목록」에는 '미더덕'과 '미더덕엑기스분말' 두 원료명이 같은 학명, 이명 '미두둑', 영명 Warty sea squirt로 올라 있다[1]. 두 행 모두 분류는 수산물, 부위 칸은 '-'이며 별도 사용 조건 없이 '사용가능' 원료로 되어 있다[1]. 같은 목록의 주름미더덕(Styela plicata, 이명 오만둥이)은 따로 등재된 다른 종이므로 이 문서의 자료와 섞지 않았다[1]. 이 종은 일본·한국·중국 북부·러시아에 이르는 북서태평양 연안이 원산지로 여겨진다[21]. 한국에서는 양식되어 별미로 먹히고 유럽·북미로 수출된다고 소개되며, 다른 바다에서는 생태·양식업에 피해를 주는 침입종으로 다뤄진다[4]. 경상남도 창원시의 '진동미더덕'은 지리적표시 수산물 제16호로 등록되어 있다[2]. 연구는 주로 속살 효소 가수분해물의 혈압 관련 작용, 혈구의 항균 펩타이드, 겉껍질(피낭)의 셀룰로스 이용에 몰려 있다[5][10][4]."
+  },
+  {
+   "key": "history",
+   "title": "역사·확산",
+   "body": "이 종은 1882년 Herdman이 기재한 종으로, 원래 북서태평양 연안에 살았다[21]. 원산지 밖 첫 기록은 1920년대 무렵 미국 캘리포니아이고, 대서양에서는 1953년 영국 플리머스 일대에서 처음 관찰되었다[21]. 이후 유럽 대서양 연안(포르투갈에서 덴마크 북부까지)과 북미 동부로 퍼졌다[29]. 남반구에서는 오스트레일리아와 뉴질랜드 항구에 정착했고, 뉴질랜드에서는 2005년에 처음 확인되었다[21][30]. 2016년 보고에서는 튀르키예 마르마라해 이즈미트만 수심 10 m 암반에서 생식소가 성숙한 개체가 채집되어 정착이 보고되었다[31]. 유전 분석 연구들은 선박 선체 부착과 레저 선박 이동이 확산의 주된 통로라고 해석했다[29][30]. 국내에서는 2013년 9월 26일 '진동미더덕'이 지리적표시 수산물로 등록되었다[2]. 국내 양식이 언제 시작되었는지, 국내 식용 역사가 얼마나 되었는지는 공식 자료로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징",
+   "body": "미더덕은 바위나 인공 구조물에 붙어 사는 단독성 피낭동물로, 몸은 셀룰로스로 된 질긴 겉껍질(피낭) 안에 먹는 속살이 들어 있는 구조다[4]. 스페인 갈리시아 연안 침입 개체 14마리(봄 채집 224 g을 −20 °C 냉동 보관 후 해동, 겉면 부착물 정리 후 183.7 g)에서 피낭은 118.9 g, 속살(내장)은 64.8 g으로 피낭이 몸무게의 65%를 차지했다[4]. 이 종은 자웅동체이다[20]. 원산지와 도입지 모두에서 부두 구조물, 선체, 홍합 양식 밧줄, 굴 양식 선반 같은 인공 구조물과 조간대 암반·조하대 갯벌에 큰 무리를 이룬다[21]. 중국 북부 개체로 12–28 °C에서 에너지 수지를 잰 연구에서는 16–20 °C가 성장에 알맞았고 28 °C에서는 성장 여력(scope for growth)이 음(-)이 되었다[22]. 공기 노출 실험에서는 기온이 낮을수록, 몸이 클수록 물 밖에서 더 오래 살아남았다[23]. 피낭 속 다당류는 셀룰로스 외에 N-아세틸화 당을 가진 글리코사미노글리칸 유사 다당이 확인되었고, 일부 잔기는 황산화 갈락탄일 가능성이 제시되었다(구조는 완전히 밝히지 못함)[4]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종",
+   "body": "국내 식품원료 목록에서 같은 속의 주름미더덕(Styela plicata, 오만둥이)은 미더덕과 별도의 원료로 등재되어 있다[1]. 두 종의 안테나페디아 유사 호메오박스 유전자(미더덕 AHox2, 주름미더덕 AHox3)는 호메오박스 영역의 염기 서열이 87% 같고 아미노산 서열은 같았다[28]. RAPD 방식 PCR로 미더덕(SC)·우렁쉥이(멍게, Halocynthia roretzi, HR)·주름미더덕(SP)을 비교한 연구에서 7개 프라이머가 만든 띠 수는 SC 401개, HR 390개, SP 434개였다[27]. 같은 연구에서 개체 간 평균 띠 공유값은 미더덕 0.661±0.081로 우렁쉥이 0.555±0.074보다 높았다[27]. 스핑고미엘린 구조를 미더덕·우렁쉥이·붉은멍게(H. aurantium)·Ciona intestinalis에서 비교했을 때 세라마이드의 주요 지방산 조성은 비슷하고 미량 성분만 달랐다[18]. Ciona intestinalis·우렁쉥이·미더덕 세 종의 지질체 분석 초록은 세 종을 합친 범위만 제시해, 이 종만의 값으로 옮기지 않았다[19]. 유전체 비교에서는 갈락탄 합성 경로의 핵심 유전자가 빠져 있어 Ciona 속과 피낭 구조·단단함이 다른 이유로 제시되었다[20]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·채취",
+   "body": "미더덕은 한국에서 양식되는 식용 멍게류로 소개된다[4]. 지리적표시 수산물 제16호 '진동미더덕'은 경상남도 창원시를 대상 지역으로 하고, 등록 단체는 미더덕영어조합법인이며, 2013년 9월 26일에 등록되었다[2]. 국내 임상시험에 쓰인 미더덕 속살도 창원의 미더덕 생산자 단체에서 공급받았다[5]. 중국 연구는 성장에 알맞은 사육 수온을 16–20 °C로 제시했다[22]. 해외 도입지에서는 양식 대상이 아니라 해적생물로 다뤄지며, 캐나다 동부에서는 양식업에 심각한 피해를 줄 만큼 밀도가 높아진다[21]. 홍합·굴의 먹이 섭취를 방해하고 수확 비용을 높여, 10 °C에서 2주간 공기에 노출해 장비에서 없애는 관리법이 제안되었다[23]. 국내 미더덕 양식 생산량·양식 면적의 공식 통계(해양수산부·통계청)는 이번 조사에서 원문을 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용",
+   "body": "식품원료 목록에는 미더덕 자체와 함께 '미더덕엑기스분말'이 별도 원료명으로 올라 있다[1]. 연구용 가공은 주로 속살 효소 가수분해물이며, 임상시험에서는 속살 가루를 Protamex 효소로 24시간 분해하고 100 ℃에서 10분 효소를 불활성화한 뒤 원심분리 상등액을 동결건조해 썼다[5]. 속살 가수분해물의 10 kDa 이상 분획은 대식세포와 제브라피시에서 염증 매개물질을 줄였다(세포·동물 실험)[6]. 속살에서 분리한 펩타이드 Ala-His-Ile-Ile-Ile는 ACE를 억제하고 고혈압 쥐의 수축기 혈압을 낮췄으며(동물 실험)[7], 다른 펩타이드 LWHTH는 ACE IC50 16.42 µM을 보였다[8]. LWHTH를 바탕으로 합성한 CWHTH는 이 종에서 나온 성분이 아닌 합성 유도체다[9]. 피낭은 대개 버려지지만 나노결정 셀룰로스 원료로 연구되어 왔고[4][24], 스페인 침입 개체 피낭에서는 나노결정 셀룰로스가 건조 피낭 기준 17% 수율, 결정화도 88.6%로 얻어졌다[4]. 피낭 셀룰로스 필름은 쥐 피부밑 이식 시험에서, 피낭 에탄올 추출물은 털 없는 생쥐 자외선 피부 노화 모형에서 바르는 방식으로 시험되었다(동물 실험)[32][33]. 식약처 건강기능식품 생산실적에는 미더덕 품목이 없다[3]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체·유전학",
+   "body": "중국 웨이하이 개체 1마리로 만든 염색체 수준 유전체는 조립 길이 340.42 Mb, 스캐폴드 N50 20.77 Mb이며 16개 염색체 군으로 묶였다[20]. k-mer로 추정한 유전체 크기는 406.87 Mb, 이형접합도는 약 1.72%, 반복 서열은 조립의 46.69%였다[20]. 단백질 암호 유전자는 결과 절에서 17,428개(서론 요약에서는 17,480개)로 적혀 있다[20]. Ciona robusta보다 유전체가 약 2배 크지만 유전자 수는 비슷했고, 열충격단백질 70 계열과 보체계 유전자가 늘어났으며 냉충격단백질 유전자는 세균에서 수평 전달된 것으로 분석되었다[20]. 전 세계 20개 집단 554마리의 미토콘드리아 COI 602 bp에서는 45개 일배체형이 나왔고 일배체형 사이 차이는 0.2–1.3%였다[21]. 영국 남서부 8개 지점 303마리의 미세위성 5좌위 분석과 뉴질랜드 10개 집단 318마리의 COI·미세위성 11좌위 분석이 있다[29][30]. 2026년에는 이 종에서 갑상샘호르몬 합성 전구 단백질(티로글로불린 유사 단백질)이 확인되었다[26]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "미더덕과 미더덕엑기스분말은 식품원료 목록에서 사용 조건 없는 '사용가능' 원료이고, card.json 의 고시·외국 목록(lists) 칸은 비어 있다[1]. 식약처·해양수산부 등 공공기관의 미더덕 고유 알레르기·중금속·패류독소 정보는 이번 조사에서 확인하지 못함. 제2형 당뇨·고혈압 환자 57명을 무작위 배정(분석 56명)한 이중맹검 위약 대조 시험에서 속살 가수분해물 500 mg을 하루 1회 4주 먹은 군에 심각한 이상 반응은 없었다[5]. 이 시험에서 가수분해물 군의 혈압은 섭취 전보다 수축기 9.9 mmHg, 이완기 7.8 mmHg 내려갔지만, 4주 뒤 위약군과의 차이는 유의하지 않았고 시작 시점 혈압도 두 군이 달랐다[5]. 피낭 에탄올 추출물을 생쥐에 50·100 mg/kg 체중으로 14일 먹인 시험에서는 간·신장 독성 소견이 없었다(동물 실험)[16]. 혈구의 항균 펩타이드 클라바스피린·스티엘린 D는 시험관에서 적혈구를 깨뜨리는 용혈성을 보였으나, 이는 분리 펩타이드 실험이며 식품 섭취와의 관련은 확인하지 못함[13][14]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Clavanin A",
+   "name_ko": "클라바닌 A",
+   "class": "α-나선 항균 펩타이드(23잔기, C-말단 아마이드)",
+   "role": "bioactive",
+   "part": "혈구",
+   "content_text": "혈구에서 클라바닌 A–D 4종을 정제·서열 결정, 함량 수치 없음[10]",
+   "activity_ko": "합성 클라바닌 A가 마가이닌·세크로핀과 비슷한 항균 활성(시험관)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Clavanin D",
+   "name_ko": "클라바닌 D",
+   "class": "α-나선 항균 펩타이드",
+   "role": "bioactive",
+   "part": "혈구",
+   "content_text": "클라바닌 계열 4종 중 하나로 동정, 함량 수치 없음[10]",
+   "activity_ko": "항균 펩타이드 계열로 보고(시험관)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Styelin A",
+   "name_ko": "스티엘린 A",
+   "class": "페닐알라닌이 많은 항균 펩타이드",
+   "role": "bioactive",
+   "part": "혈구",
+   "content_text": "혈구에서 정제, 질량 3685.8(스티엘린 B 3700.6), 함량 수치 없음[11]",
+   "activity_ko": "사람 병원 세균에 MIC <1.5 µg/mL, 100 mM NaCl 에서도 활성(시험관)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Styelin C",
+   "name_ko": "스티엘린 C",
+   "class": "세크로핀 유사 항균 펩타이드 전구체(cDNA)",
+   "role": "bioactive",
+   "part": "인두 조직",
+   "content_text": "인두 cDNA 라이브러리에서 스티엘린 C·D·E 전구체 클로닝, 함량 해당 없음[12]",
+   "activity_ko": "돼지 세크로핀 P1 과 닮은 성숙 영역(서열 분석)[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Styelin D",
+   "name_ko": "스티엘린 D",
+   "class": "번역 후 변형이 많은 32잔기 항균 펩타이드",
+   "role": "bioactive",
+   "part": "혈구",
+   "content_text": "혈구에 비교적 많다고 기술, 정량 수치 없음; 6-브로모트립토판·DOPA·디하이드록시아르기닌 등 포함[13]",
+   "activity_ko": "그람음성·양성균 항균(200 mM NaCl 에서도 유지), 용혈성·세포독성도 있음(시험관)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Clavaspirin",
+   "name_ko": "클라바스피린",
+   "class": "히스티딘이 많은 23잔기 펩타이드",
+   "role": "bioactive",
+   "part": "인두 조직(cDNA)",
+   "content_text": "cDNA 서열에서 예측, 합성 펩타이드로 시험, 함량 해당 없음[14]",
+   "activity_ko": "항균·막 투과, 사람·소 적혈구에 강한 용혈성(산성 pH 에서 더 강함, 시험관)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Ala-His-Ile-Ile-Ile",
+   "name_ko": "ACE 억제 펩타이드 AHIII",
+   "class": "펜타펩타이드(분자량 565.3 Da)",
+   "role": "bioactive",
+   "part": "속살 효소 가수분해물",
+   "content_text": "가수분해물에서 정제, 함량 수치 없음[7]",
+   "activity_ko": "ACE 억제, NO 매개 혈관 이완, 고혈압 쥐 수축기 혈압 감소(동물 실험)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Leu-Trp-His-Thr-His",
+   "name_ko": "LWHTH 펩타이드",
+   "class": "항산화 펜타펩타이드",
+   "role": "bioactive",
+   "part": "펩신 가수분해물",
+   "content_text": "가수분해물에서 정제, 함량 수치 없음[8]",
+   "activity_ko": "ACE 억제 IC50 16.42 ± 0.45 µM, 모사 위장관 조건에서 안정, 고혈압 쥐 혈압 감소(동물 실험)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Glycogen",
+   "name_ko": "글리코겐",
+   "class": "저장 다당",
+   "role": "nutrient",
+   "part": "속살(내장)",
+   "content_text": "분리 수율 3 mg/g 생 속살, 분자량 약 7 MDa(스페인 침입 개체)[4]",
+   "activity_ko": "에너지 저장 다당; 홍합(10.3–66.4 mg/g)보다 적다고 비교[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Cellulose",
+   "name_ko": "셀룰로스",
+   "class": "구조 다당(셀룰로스 I)",
+   "role": "nutrient",
+   "part": "피낭(겉껍질)",
+   "content_text": "나노결정 셀룰로스 수율 건조 피낭 기준 17%, 결정화도 88.6%[4]",
+   "activity_ko": "먹지 않는 피낭의 소재 이용 연구(나노셀룰로스·필름)[4][32]",
+   "source": [
+    4,
+    32
+   ]
+  },
+  {
+   "name": "Chondroitin sulfate",
+   "name_ko": "콘드로이틴 황산",
+   "class": "글리코사미노글리칸",
+   "role": "bioactive",
+   "part": "피낭",
+   "content_text": "피낭에서 추출, 함량 수치 초록에 없음[17]",
+   "activity_ko": "JB6 세포에서 TNF-α 유도 NF-κB 활성화·VCAM-1·iNOS 발현 억제(세포 실험)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Sphingomyelin",
+   "name_ko": "스핑고미엘린",
+   "class": "스핑고인지질",
+   "role": "nutrient",
+   "part": "조직(부위 초록에 없음)",
+   "content_text": "분리·구조 분석, 함량 수치 초록에 없음; 세라마이드 주요 지방산 조성은 다른 멍게류와 비슷[18]",
+   "activity_ko": "하등동물에서 드문 스핑고인지질로 보고(구조 연구)[18]",
+   "source": [
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Glycogen",
+   "compound_ko": "글리코겐",
+   "part": "속살(내장)",
+   "content": "3 mg/g 생 속살(분리 수율), Mw 약 7.0 MDa, 다분산지수 1.879[4]",
+   "method": "알칼리 함수 에탄올 침전 후 GPC(굴절률·이각 정적 광산란 검출), 1H NMR·α-아밀레이스 분해로 확인",
+   "conditions": {
+    "instrument": "Agilent 1260 HPLC(4원 펌프, 주입기, 칼럼 오븐, 굴절률 검출기, 이각 정적 광산란 검출기)",
+    "column": "PSS Suprema 프리칼럼(5 μm, 8 × 50 mm) + Suprema 30 Å(5 μm, 8 × 300 mm) + Suprema 100 Å(5 μm, 8 × 300 mm) + Suprema ultrahigh(10 μm, 8 × 300 mm)",
+    "mobile_phase": "원문 '0.1 M NaN…:0.01 M NaH…PO…, pH 6.6'(전문 추출본에서 화학식 아래 첨자가 빠져 정확한 염 이름은 확인 못함)",
+    "gradient": "등용매",
+    "flow": "1 mL/min",
+    "temp": "칼럼 오븐·광산란 검출기 30 °C, 굴절률 검출기 40 °C",
+    "detection": "굴절률 + 이각 정적 광산란; dn/dc 0.135",
+    "injection": "100 μL",
+    "sample_prep": "속살 파파인 분해(60 °C, pH 5.5) → 원심분리 상등액에 0.6 M NaOH 함유 에탄올 0.8 부피로 4 °C 하룻밤 침전 2회 → 47 kDa 막 투석 → 동결건조",
+    "standard": "폴리에틸렌옥사이드 표준(Mp 106 kDa, PDI 1.05)으로 검출기 보정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 속살에서 확인된 주된 다당이다; 정량 시험법이 아니라 분리 수율이다[4]",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.3390/polym14010016",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cellulose",
+   "compound_ko": "셀룰로스(나노결정)",
+   "part": "피낭(겉껍질)",
+   "content": "건조 피낭 기준 수율 17%(2.5 g), 결정화도 88.6%, 결정 길이 1.2 ± 0.6 µm·폭 19 ± 5 nm[4]",
+   "method": "탈지·효소 탈단백·알칼리·표백 후 황산 가수분해, XRD·FTIR·SEM·AFM",
+   "conditions": {
+    "instrument": "XRD: XPert Pro 회절분석기; FTIR: Nicolet 6700(KBr 빔스플리터); SEM: Auriga Compact(5 kV); AFM: Multimode 8",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "황산 가수분해 45 °C 2시간",
+    "detection": "XRD 결정화도 = (200)면 22.7° 피크와 18° 비정질 강도로 계산; FTIR 400–4000 cm⁻¹, 분해능 4 cm⁻¹, 34회 주사",
+    "injection": "",
+    "sample_prep": "동결건조 피낭 14.5 g → 파파인 탈단백 3회 → 5% KOH 80 °C 24 h ×3 → 아세트산·차아염소산나트륨 60 °C 표백 → 액체질소 분쇄 → 물 150 mL + 황산 150 mL → 한외여과·투석·초음파 분산; 농도는 건조 중량법",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "멍게류만 만드는 동물성 셀룰로스로, 먹지 않는 피낭의 이용 가치를 보여 주는 성분이다[4]",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.3390/polym14010016",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total phenolics (gallic acid equivalent)",
+   "compound_ko": "총 페놀 함량",
+   "part": "피낭 에탄올 추출물",
+   "content": "총 페놀 37.5 mg/g, 총 플라보노이드 15.6 mg/g(추출물 기준)[15]",
+   "method": "Folin–Ciocalteu 비색법(765 nm), 플라보노이드는 NaNO2–AlCl3 비색법(510 nm)",
+   "conditions": {
+    "instrument": "VersaMax 마이크로플레이트 리더",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "플라보노이드 반응 25 °C 5분",
+    "detection": "총 페놀 765 nm, 플라보노이드 510 nm",
+    "injection": "",
+    "sample_prep": "경남 고성군 남해안 채취 피낭을 10% NaOH·5% 아세트산으로 끓이고 과산화수소로 표백·건조·분쇄 → 가루 100 g 에 100% 에탄올 1,000 mL, 80 °C 3시간 순환 추출 3회 → 여과·감압 농축",
+    "standard": "총 페놀: 갈산 검량선; 플라보노이드: 카테킨 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "피낭 추출물 연구에서 항산화 활성을 설명하는 지표로 쓰였다; 강한 알칼리·산 전처리를 거친 가루의 추출물 값이라 생 미더덕 함량이 아니다[15]",
+   "source": [
+    15
+   ],
+   "url": "https://doi.org/10.1293/tox.2017-0021",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "HPLC specific chromatogram components",
+   "compound_ko": "HPLC 특징 크로마토그램 성분(10종)",
+   "part": "전체(부위 초록에 없음)",
+   "content": "HPLC-ESI-TOF/MS 로 10개 성분을 잠정 동정, 함량 수치는 초록에 없음[25]",
+   "method": "초음파 추출 + HPLC-ESI-TOF/MS, HPLC 특징 크로마토그램 유사도 평가",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "초음파 보조 추출(조건 최적화, 세부 수치 초록에 없음)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "중국에서 이 종 원료의 품질 관리용 특징 크로마토그램을 만든 연구로, 시료 간 품질이 일정하지 않았다; 전문 확인 못함(중국어 논문, 영문 초록만 열람)[25]",
+   "source": [
+    25
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21348307/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "미더덕 속살(원문 internal organs·flesh) — 일반 성분(스페인 갈리시아 연안 침입 개체 14마리, 봄 채집, −20 °C 냉동 후 해동·손질, n=3, 평균값만 옮김)",
+   "basis": "생것(습중량) 100 g 기준(원문 % of wet weight)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 84.4,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 3.2,
+     "unit": "g"
+    },
+    {
+     "name": "유기물",
+     "value": 12.5,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    4
+   ]
+  },
+  {
+   "form": "미더덕 피낭(겉껍질, 먹지 않는 부위) — 일반 성분(같은 시료; 원문 방법 순서상 아세톤 탈지·탈색 뒤 측정으로 읽힘, n=3, 평균값만 옮김)",
+   "basis": "생것(습중량) 100 g 기준(원문 % of wet weight)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 80.4,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 4.0,
+     "unit": "g"
+    },
+    {
+     "name": "유기물",
+     "value": 15.9,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    4
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Styela clava 2행(원료명 '미더덕'·'미더덕엑기스분말', 식품원료(A코드), 수산물, 부위(REGN_CD_NM) '-', 사용조건 없음, 상태 '사용가능', 이명 '미두둑', 영명 Warty sea squirt). 같은 원자료의 주름미더덕(Styela plicata, 이명 오만둥이·오만디) 행 대조. card.json 의 lists 칸 비어 있음(docs/materials/styela-clava/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "국립수산물품질관리원 「지리적표시 수산물 현황」(20261013) — 제16호 진동미더덕(앱 공공데이터 docs/materials/foodlist/gi.json)",
+   "url": "https://www.nfqs.go.kr",
+   "publisher": "국립수산물품질관리원",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 건강기능식품 품목 유형별 현황 — 로컬 파싱본 docs/stats/hf_items.csv 에서 '미더덕' 품목 검색(해당 행 없음)",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Isolation and Characterization of Polysaccharides from the Ascidian Styela clava. Polymers (Basel) 2021;14(1):16 — PMC 전문 확인(PMC8747265; 스페인 갈리시아 연안 침입 개체 14마리)",
+   "url": "https://doi.org/10.3390/polym14010016",
+   "publisher": "Polymers (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Antihypertensive effect of an enzymatic hydrolysate from Styela clava flesh tissue in type 2 diabetic patients with hypertension. Nutr Res Pract 2017;11(5):396-401 — PMC 전문 확인(PMC5621362)",
+   "url": "https://doi.org/10.4162/nrp.2017.11.5.396",
+   "publisher": "Nutrition Research and Practice",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Anti-inflammatory effect of enzymatic hydrolysates from Styela clava flesh tissue in lipopolysaccharide-stimulated RAW 264.7 macrophages and in vivo zebrafish model. Nutr Res Pract 2015;9(3):219-226 — PubMed 초록 확인(PMID 26060532)",
+   "url": "https://doi.org/10.4162/nrp.2015.9.3.219",
+   "publisher": "Nutrition Research and Practice",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Nitric oxide-mediated vasorelaxation effects of anti-angiotensin I-converting enzyme (ACE) peptide from Styela clava flesh tissue and its anti-hypertensive effect in spontaneously hypertensive rats. Food Chem 2012;134(2):1141-1145 — PubMed 초록 확인(PMID 23107740)",
+   "url": "https://doi.org/10.1016/j.foodchem.2012.02.210",
+   "publisher": "Food Chemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Structural Evidence for Antihypertensive Effect of an Antioxidant Peptide Purified from the Edible Marine Animal Styela clava. J Med Food 2020;23(2):132-138 — PubMed 초록 확인(PMID 32017648)",
+   "url": "https://doi.org/10.1089/jmf.2019.4415",
+   "publisher": "Journal of Medicinal Food",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Synthesis and pharmacological evaluation of a novel synthetic peptide CWHTH based on the Styela clava-derived natural peptide LWHTH. Int J Pharm 2021;605:120852 — PubMed 초록 확인(PMID 34224842)",
+   "url": "https://doi.org/10.1016/j.ijpharm.2021.120852",
+   "publisher": "International Journal of Pharmaceutics",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Clavanins, alpha-helical antimicrobial peptides from tunicate hemocytes. FEBS Lett 1997;400(2):158-162 — PubMed 초록 확인(PMID 9001389)",
+   "url": "https://doi.org/10.1016/s0014-5793(96)01374-9",
+   "publisher": "FEBS Letters",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Styelins, broad-spectrum antimicrobial peptides from the solitary tunicate, Styela clava. Comp Biochem Physiol B 1997;118(3):515-521 — PubMed 초록 확인(PMID 9467865)",
+   "url": "https://doi.org/10.1016/s0305-0491(97)00109-0",
+   "publisher": "Comparative Biochemistry and Physiology B",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "cDNA cloning of three cecropin-like antimicrobial peptides (Styelins) from the tunicate, Styela clava. FEBS Lett 1997;412(1):144-148 — PubMed 초록 확인(PMID 9257708)",
+   "url": "https://doi.org/10.1016/s0014-5793(97)00769-2",
+   "publisher": "FEBS Letters",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Styelin D, an extensively modified antimicrobial peptide from ascidian hemocytes. J Biol Chem 2000;275(49):38417-38426 — PubMed 초록 확인(PMID 10978343)",
+   "url": "https://doi.org/10.1074/jbc.M006762200",
+   "publisher": "Journal of Biological Chemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Clavaspirin, an antibacterial and haemolytic peptide from Styela clava. J Pept Res 2001;58(6):445-456 — PubMed 초록 확인(PMID 12005415)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12005415/",
+   "publisher": "Journal of Peptide Research",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Ethanol extracts collected from the Styela clava tunic alleviate hepatic injury induced by carbon tetrachloride (CCl4) through inhibition of hepatic apoptosis, inflammation, and fibrosis. J Toxicol Pathol 2017;30(4):291-306 — PMC 전문 확인(PMC5660951)",
+   "url": "https://doi.org/10.1293/tox.2017-0021",
+   "publisher": "Journal of Toxicologic Pathology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Toxicity of antioxidative extract collected from Styela clava tunics in ICR mice. Lab Anim Res 2015;31(3):125-133 — PubMed 초록 확인(PMID 26472965)",
+   "url": "https://doi.org/10.5625/lar.2015.31.3.125",
+   "publisher": "Laboratory Animal Research",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Chondroitin sulfate extracted from the Styela clava tunic suppresses TNF-alpha-induced expression of inflammatory factors, VCAM-1 and iNOS by blocking Akt/NF-kappaB signal in JB6 cells. Cancer Lett 2008;264(1):93-100 — PubMed 초록 확인(PMID 18295395)",
+   "url": "https://doi.org/10.1016/j.canlet.2008.01.022",
+   "publisher": "Cancer Letters",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Sphingomyelins in four ascidians, Ciona intestinalis, Halocynthia roretzi, Halocynthia aurantium, and Styela clava. J Oleo Sci 2009;58(9):473-480 — PubMed 초록 확인(PMID 19654457)",
+   "url": "https://doi.org/10.5650/jos.58.473",
+   "publisher": "Journal of Oleo Science",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Evaluation of lipid profiles in three species of ascidians using UPLC-ESI-Q-TOF-MS-based lipidomic study. Food Res Int 2021;146:110454 — PubMed 초록 확인(PMID 34119246; 세 종 합산 범위만 초록에 있음)",
+   "url": "https://doi.org/10.1016/j.foodres.2021.110454",
+   "publisher": "Food Research International",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Genomic basis of environmental adaptation in the leathery sea squirt (Styela clava). Mol Ecol Resour 2020;20(5):1414-1431 — PMC 전문 확인(PMC7540406)",
+   "url": "https://doi.org/10.1111/1755-0998.13209",
+   "publisher": "Molecular Ecology Resources",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Global phylogeography of the widely introduced North West Pacific ascidian Styela clava. PLoS One 2011;6(2):e16755 — PMC 전문 확인(PMC3043059)",
+   "url": "https://doi.org/10.1371/journal.pone.0016755",
+   "publisher": "PLoS ONE",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Physiological energetics of the ascidian Styela clava in relation to body size and temperature. Comp Biochem Physiol A 2008;149(2):129-136 — PubMed 초록 확인(PMID 18158266)",
+   "url": "https://doi.org/10.1016/j.cbpa.2006.08.047",
+   "publisher": "Comparative Biochemistry and Physiology A",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Tolerance of the invasive tunicate Styela clava to air exposure. Biofouling 2013;29(10):1181-1187 — PubMed 초록 확인(PMID 24063637)",
+   "url": "https://doi.org/10.1080/08927014.2013.832221",
+   "publisher": "Biofouling",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Towards the scalable isolation of cellulose nanocrystals from tunicates. Sci Rep 2020;10(1):19090 — PubMed 초록 확인(PMID 33154467)",
+   "url": "https://doi.org/10.1038/s41598-020-76144-9",
+   "publisher": "Scientific Reports",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "[Identification of active components in Styela clava by HPLC-ESI-TOF/MS and the study on their HPLC specific chromatograms]. Yao Xue Xue Bao 2010;45(10):1285-1289 — 중국어 논문, PubMed 영문 초록만 확인(PMID 21348307)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21348307/",
+   "publisher": "Acta Pharmaceutica Sinica",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Identification of protein precursor for thyroid hormone synthesis in basal chordate ascidian Styela clava. Nat Commun 2026;17(1) — PubMed 초록 확인(PMID 41654703)",
+   "url": "https://doi.org/10.1038/s41467-026-69290-7",
+   "publisher": "Nature Communications",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Genetic Distances in Three Ascidian Species determined by PCR Technique. Dev Reprod 2016;20(4):379-385 — PubMed 초록 확인(PMID 28144642; SC=Styela clava, HR=Halocynthia roretzi, SP=Styela plicata)",
+   "url": "https://doi.org/10.12717/DR.2016.20.4.379",
+   "publisher": "Development & Reproduction",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Identification of an antennapedia-like homeobox gene in the ascidians Styela clava and S. plicata. Gene 1994;147(2):219-222 — PubMed 초록 확인(PMID 7926803)",
+   "url": "https://doi.org/10.1016/0378-1119(94)90069-8",
+   "publisher": "Gene",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Fine- and regional-scale genetic structure of the exotic ascidian Styela clava (Tunicata) in southwest England, 50 years after its introduction. Mol Ecol 2009;18(3):442-453 — PubMed 초록 확인(PMID 19161467)",
+   "url": "https://doi.org/10.1111/j.1365-294X.2008.04045.x",
+   "publisher": "Molecular Ecology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Regional connectivity and coastal expansion: differentiating pre-border and post-border vectors for the invasive tunicate Styela clava. Mol Ecol 2010;19(5):874-885 — PubMed 초록 확인(PMID 20149095)",
+   "url": "https://doi.org/10.1111/j.1365-294X.2010.04527.x",
+   "publisher": "Molecular Ecology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "The alien ascidian Styela clava now invading the Sea of Marmara (Tunicata: Ascidiacea). ZooKeys 2016;(563):1-10 — PubMed 초록 확인(PMID 27047235)",
+   "url": "https://doi.org/10.3897/zookeys.563.6836",
+   "publisher": "ZooKeys",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Cellulose film regenerated from Styela clava tunics have biodegradability, toxicity and biocompatibility in the skin of SD rats. J Mater Sci Mater Med 2014;25(6):1519-1530 — PubMed 초록 확인(PMID 24577945)",
+   "url": "https://doi.org/10.1007/s10856-014-5182-8",
+   "publisher": "Journal of Materials Science: Materials in Medicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Protective effects of the antioxidant extract collected from Styela clava tunics on UV radiation-induced skin aging in hairless mice. Int J Mol Med 2016;38(5):1565-1577 — PubMed 초록 확인(PMID 27665714)",
+   "url": "https://doi.org/10.3892/ijmm.2016.2740",
+   "publisher": "International Journal of Molecular Medicine",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

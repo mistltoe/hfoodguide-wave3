@@ -1,0 +1,202 @@
+{
+ "slug": "lactuca-indica",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 90,
+ "checked_items": 58,
+ "verified": 112,
+ "fixed": 27,
+ "removed": 3,
+ "unverifiable": 6,
+ "changes": [
+  {
+   "where": "aliases",
+   "before": "Lactuca laciniata (Houtt.) Makino, Pterocypsela laciniata (Houtt.) C.Shih",
+   "after": "(삭제)",
+   "why": "이명 근거 [24] 가 WebSearch 요약뿐이라 원문 확인 불가 — 별명 목록에서 뺌"
+  },
+  {
+   "where": "sections.history",
+   "before": "베트남 전통 이용에서는 지상부를 피부 염증을 가라앉히거나 복통을 덜기 위해 썼다는 기록도 있다[12].",
+   "after": "베트남 연구진은 왕고들빼기 지상부가 피부 염증을 가라앉히거나 복통을 덜기 위해 전통적으로 쓰여 왔다고 적었다[12].",
+   "why": "[12] 초록은 지상부의 전통 용도를 말할 뿐 '베트남 전통'이라고 명시하지 않음(저자 소속만 베트남)"
+  },
+  {
+   "where": "sections.history",
+   "before": " 내몽골에서는 생산량 대부분을 가축과 초식성 물고기의 풋먹이로 쓰고, 약용 이용은 시작 단계라고 한다[3].",
+   "after": "",
+   "why": "[3] 서론은 대상 식물을 Ixeris 속(Ixeris polycephala)으로 설명하는 문단과 섞여 있어 이 서술이 왕고들빼기에 대한 것인지 확인할 수 없음 — 다른 속 자료 섞임 방지로 삭제"
+  },
+  {
+   "where": "sections.history",
+   "before": "1990–1995년 충남 지역 하우스 시험으로 고채(왕고들빼기)의 생육 특성과 먹는 방법을 다룬 국내 보고가 있으나, 원문은 열지 못하고 검색 요약으로만 확인했다[26].",
+   "after": "고채(왕고들빼기)의 생육 특성과 먹는 방법을 다룬 1990년대 국내 보고가 검색 요약에 보이나, 원문을 확인하지 못해 내용은 옮기지 않는다[26].",
+   "why": "[26] 은 WebSearch 요약뿐 — 시험 연도·지역 세부를 덜어내고 근거 수준을 낮춤"
+  },
+  {
+   "where": "sections.biology",
+   "before": "영양생장기·꽃봉오리기·개화기·결실기가 약 10일 간격으로 이어졌다[2]",
+   "after": "영양생장기에서 결실기까지 생육 단계 관찰을 바탕으로 시료 채취 간격을 10일로 잡았다[2]",
+   "why": "[2] Methods: 생육 단계 관찰에 따라 채취 간격을 10일로 설정했다는 뜻이며, 각 단계가 10일 간격이라고 단정하지 않음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "잎 모양은 개체마다 차이가 커서, 좁은 잎 개체는",
+   "after": "잎 모양은 개체마다 차이가 커서, 중국 해양 유전자원은행의 야생 변종 개체(변종명은 전문 추출본에서 빠짐) 가운데 좁은 잎 개체는",
+   "why": "[21] 은 특정 변종(var.) 두 개체 측정값 — 시료 범위를 밝힘"
+  },
+  {
+   "where": "sections.biology",
+   "before": "노균병균(Bremia lactucae)의 기주이기도 하며, 왕고들빼기(var. laciniata)에서 분리한 균은",
+   "after": "노균병균(Bremia lactucae)의 기주이기도 하며, 국내 연구에서 L. indica var. laciniata 에서 분리한 균은",
+   "why": "[30] 초록 표기 그대로(변종명 명시)"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "학명 이명으로 Lactuca laciniata (Houtt.) Makino와 Pterocypsela laciniata가 쓰이는 것은 검색 요약으로만 확인했다[24].",
+   "after": "국내 연구에는 L. indica var. laciniata 라는 변종명이 쓰인다[30]. Lactuca laciniata (Houtt.) Makino·Pterocypsela laciniata 를 왕고들빼기의 이명으로 보는 분류 목록이 있다는 내용은 검색 요약으로만 보았고 원문은 확인하지 못했다[24].",
+   "why": "[24] 근거 수준 낮춤, 확인된 1차 문헌 [30] 의 변종명 표기 추가"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "Pterocypsela 속의 다른 종(P. formosana, P. elata 등)은 별개 분류군으로 연구되므로, 그 종에서 분리한 성분 연구를 왕고들빼기 자료로 옮기면 안 된다[31].",
+   "after": "Pterocypsela 속에는 P. formosana, P. elata 같은 다른 종도 있어 따로 연구되며[31], 이 자료에서는 그 종들의 성분 연구를 왕고들빼기 자료로 옮기지 않았다.",
+   "why": "[31] 은 핵형 연구일 뿐 '옮기면 안 된다'는 주장을 하지 않음 — 편집 방침과 출처 내용을 분리"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "중국의 멍짜오 품종 논문은 서론에서 이 식물을 Ixeris 속으로 설명하는 등 분류 서술이 섞여 있어, 이 자료에서는 시료 표기(L. indica cv. Mengzao) 그대로만 인용했다[3].",
+   "after": "중국의 멍짜오 품종 논문 하나는 서론·결론에서 이 식물을 Ixeris 속(Ixeris polycephala)으로 설명하는 등 분류 서술이 섞여 있어, 이 자료에서는 그 논문의 서론 내용은 쓰지 않고 시료 표기(L. indica cv. Mengzao)로 잰 결과만 인용했다[3].",
+   "why": "[3] 전문 확인: 서론 첫 문단과 결론 끝 문장이 Ixeris polycephala 를 가리킴"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "한국 연구의 SSR 마커는 L. serriola와 상추에도 증폭되었다[19].",
+   "after": "한국 연구는 SSR 마커 23쌍을 L. serriola 와 상추에 옮겨 쓸 수 있는지(전이성)도 시험했다[19].",
+   "why": "[19] 초록은 전이성을 '시험했다'고만 쓰고 증폭 결과를 명시하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "국내에서는 왕고들빼기 '선향' 품종을 128공 플러그 트레이에서 기르고, 어린잎은 초장 10 cm 이하, 다 자란 잎은 20±5 cm일 때 수확한 연구가 있으나 원문은 검색 요약으로만 확인했다[25]. 같은 품종으로 DFT 수경재배에서 광도·양액 농도를 달리한 시험과 비닐하우스·양액 재배 효과를 본 연구도 검색 요약에서 확인했다[25]. 야생 개체와 재배 개체를 비교한 국내 연구는 재배 개체의 환원당이 더 높았다고 보고했다(검색 요약으로만 확인)[32].",
+   "after": "국내에서는 왕고들빼기 품종('선향')의 육묘·수확·수경재배를 다룬 연구가 검색 요약에 보이나, 원문을 확인하지 못해 재배 수치는 옮기지 않는다[25]. 야생 개체와 재배 개체의 이화학 특성을 비교한 국내 연구(2012)도 검색 요약으로만 보았고 결과는 확인하지 못했다[32].",
+   "why": "[25]·[32] 는 WebSearch 요약뿐(koreascience 접근 불가) — 세부 수치·결과를 덜어내고 근거 수준을 낮춤"
+  },
+  {
+   "where": "sections.processing",
+   "before": "베트남에서는 전초 달임액이 전통적으로 쓰였다[11].",
+   "after": "베트남에서는 왕고들빼기 달임액이 전통적으로 쓰였다[11].",
+   "why": "[11] 초록에 '전초'라는 부위 표기 없음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "한국 전역의 왕고들빼기 73개를 포함한 77개 집단을 분석한 결과",
+   "after": "한국 전역에서 모은 왕고들빼기 73개 계통에 L. serriola 2개·상추 2개를 더한 77개 수집 계통(accession)을 분석한 결과",
+   "why": "[19] 은 'accessions' — 집단이 아니라 수집 계통이며 상추 등 4개가 포함됨"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "변이 대부분은 도(道) 사이가 아니라 개체 사이에서 나왔고",
+   "after": "변이 대부분은 도(道) 사이가 아니라 수집 계통 사이에서 나왔고",
+   "why": "[19] 'among accessions'"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "바닷물 관수 스트레스를 받은 야생 개체 두 종류의",
+   "after": "중국 연구에서 1/6로 묽힌 바닷물로 수경 재배한 야생 변종(변종명은 전문 추출본에서 빠짐) 개체 두 종류 유묘의",
+   "why": "[21] 전문: 1:6 희석 바닷물 수경, 유묘, 특정 var."
+  },
+  {
+   "where": "sections.overview",
+   "before": "한국 전역에서 자라는 야생 식물이며 아직 작물로 길들여지지 않았지만 경제적 가능성이 큰 식물로 평가된다[19].",
+   "after": "한국 연구진은 아직 작물로 길들여지지 않았지만 경제적 가능성이 큰 야생 식물로 평가했고, 한국 전역에서 수집 계통을 모아 분석했다[19].",
+   "why": "[19] 초록 표현에 맞춤"
+  },
+  {
+   "where": "sections.safety",
+   "before": "Pterocypsela indica(왕고들빼기의 중국식 학명) 화분 시험에서 뿌리에 카드뮴 31.40 mg/kg, 지상부에 69.68 mg/kg이 쌓였다[22].",
+   "after": "중국 문헌의 Pterocypsela indica(왕고들빼기를 Pterocypsela 속으로 둔 이름) 시험에서 뿌리에 카드뮴 31.40 mg/kg, 지상부에 69.68 mg/kg이 쌓였다(처리 토양 농도는 초록에 없음)[22].",
+   "why": "[22] 초록에 '화분' 표기 없고 이 수치의 토양 농도 미기재"
+  },
+  {
+   "where": "sections.safety",
+   "before": "이명으로 쓰이는 Pterocypsela laciniata는 흙의 카드뮴이 50 mg/kg일 때 지상부에 116 mg/kg을 쌓아 카드뮴 초집적 기준(100 mg/kg)을 넘었다[23][24].",
+   "after": "중국에서 별도 종으로 다룬 Pterocypsela laciniata(국내에서는 L. indica var. laciniata 로 쓰기도 함[30])는 흙의 카드뮴이 50 mg/kg일 때 지상부에 116 mg/kg을 쌓아 카드뮴 초집적 기준(100 mg/kg)을 넘었다[23]. 다만 이 종을 왕고들빼기의 이명으로 보는 근거는 검색 요약으로만 확인해[24], 이 수치를 왕고들빼기 값으로 그대로 옮겨서는 안 된다.",
+   "why": "P. laciniata 결과를 P. indica(=L. indica) 결과와 구분 — 이명 근거 [24] 미확인이라 참고 수준으로 낮춤"
+  },
+  {
+   "where": "sections.safety",
+   "before": "이 결과는 오염된 땅에서 자란 야생 개체의 잎을 먹을 때 중금속을 조심해야 함을 시사한다[22][23].",
+   "after": "두 연구는 식용 안전성이 아니라 토양 정화(식물 정화) 가능성을 본 것이지만, 오염된 땅에서 자란 야생 개체의 잎을 먹을 때 중금속을 조심할 필요가 있음을 보여 준다[22][23].",
+   "why": "연구 목적(식물 정화)을 밝혀 해석 수준을 맞춤"
+  },
+  {
+   "where": "compounds.Rutin.content_text",
+   "before": "전초에서 분리[7]",
+   "after": "분리(부위 표기는 초록에 없음)[7]",
+   "why": "[7] 초록에 부위 없음"
+  },
+  {
+   "where": "compounds.Rutin.activity_ko",
+   "before": "꽃 추출물에서 항산화 지표와 유의한 상관[27]",
+   "after": "멍짜오 부위별 추출물에서 루테올린-7-O-글루코사이드와 함께 모든 항산화 지표와 유의한 상관(시험관)[27]",
+   "why": "[27] 초록은 꽃 추출물에 한정하지 않음"
+  },
+  {
+   "where": "compounds.Chlorogenic acid.content_text",
+   "before": "전초에서 분리[7]",
+   "after": "분리(부위 표기는 초록에 없음)[7]",
+   "why": "[7] 초록에 부위 없음"
+  },
+  {
+   "where": "compounds.Cynaroside.content_text",
+   "before": "지상부 에틸아세테이트 분획에서 분리[12]",
+   "after": "지상부 에탄올 추출물의 n-헥산·클로로폼·에틸아세테이트 분획에서 분리한 12성분 중 하나(분획별 귀속은 초록에 없음)[12]",
+   "why": "[12] 초록은 어느 분획에서 나왔는지 밝히지 않음"
+  },
+  {
+   "where": "compounds.Luteolin 7-O-glucuronide.part",
+   "before": "전초(부위 표기 확인하지 못함)",
+   "after": "부위 표기 확인하지 못함",
+   "why": "[7] 초록에 '전초' 표기 없음"
+  },
+  {
+   "where": "compounds.3,5-Dicaffeoylquinic acid.activity_ko",
+   "before": "퀸산 유도체들이 HBV 감염 간세포주에서 세포 밖 HBV DNA를 줄임(세포)[9]",
+   "after": "지상부에서 분리한 퀸산 유도체들이 HBV 형질전환 간세포주(HepG2.2.15)에서 세포 밖 HBV DNA를 줄임(세포; 이 성분이 그중 하나인지는 초록에서 확인하지 못함)[9]",
+   "why": "[9] 초록에 개별 화합물명 없음 — 귀속 과장 방지"
+  },
+  {
+   "where": "compounds.11beta,13-Dihydrolactucin.content_text",
+   "before": "전초에서도 분리[7]",
+   "after": "[7]에서도 분리(부위 표기는 초록에 없음)",
+   "why": "[7] 초록에 부위 없음"
+  },
+  {
+   "where": "compounds.Lactucaside.part",
+   "before": "전초(부위 표기 확인하지 못함)",
+   "after": "부위 표기 확인하지 못함",
+   "why": "[7] 초록에 '전초' 표기 없음"
+  },
+  {
+   "where": "compounds.Lupeol.content_text",
+   "before": "n-헥산 분획에서 분리(함량 미보고)[12]",
+   "after": "지상부 분획에서 분리한 12성분 중 하나(분획별 귀속·함량은 초록에 없음)[12]",
+   "why": "[12] 초록은 어느 분획에서 나왔는지 밝히지 않음"
+  },
+  {
+   "where": "compounds.Lupeol.activity_ko",
+   "before": "종양 성장 억제(동물, 주사)[17]",
+   "after": "종양 성장 억제(동물, 피하·종양 내 1회 주사; 먹는 섭취 근거 아님)[17]",
+   "why": "동물 주사 결과의 과장 방지"
+  }
+ ],
+ "unverifiable_notes": [
+  "[24] POWO·WFO 이명 처리: 원문 접근 불가(허용 목록 밖), WebSearch 요약뿐 — 별명에서 laciniata 2개 삭제, 본문은 '검색 요약으로만 확인'으로 낮춤",
+  "[25] '선향' 품종 재배 연구: koreascience 접근 불가 — 재배 수치 삭제, 존재만 낮은 수준으로 언급",
+  "[26] 고채 생육특성(1990년대): 원문 미확인 — 연도·지역 세부 삭제",
+  "[32] 야생·재배 왕고들빼기 이화학 비교(2012): 원문 미확인 — '재배 개체 환원당 높음' 결과 삭제",
+  "[5] 2026 Nat Prod Res: PMC 전문 없음, 초록만 대조(수치 일치)",
+  "[6]~[20]·[22]·[23]·[27]~[31]: PubMed 초록(메타데이터)으로 대조; [2][3][4][21] 은 PMC 전문으로 수치·Methods 대조(일치)",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 왕고들빼기잎(A코드, 사용가능, '사용가능부위 : 잎', 이명 고채, Lactuca indica L. / Chondrilla squarrosa Poir) 확인 — card.json 과 일치; 상추·산씀바귀·적로메인상추·고들빼기류 행도 본문과 일치"
+ ]
+}

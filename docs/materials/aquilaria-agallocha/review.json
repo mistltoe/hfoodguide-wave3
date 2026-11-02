@@ -1,0 +1,121 @@
+{
+ "slug": "aquilaria-agallocha",
+ "reviewer": "V",
+ "date": "2026-11-02",
+ "checked_sentences": 75,
+ "checked_items": 67,
+ "verified": 120,
+ "fixed": 16,
+ "removed": 5,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "국제 분류 데이터베이스의 현재 정명 처리는 확인하지 못함.",
+   "after": "WFO·EPPO가 A. agallocha Roxb.를 A. malaccensis의 이명으로 처리한다고 검색 요약에서 확인(원 페이지 미열람)[34]",
+   "why": "이명 근거 수준을 밝힘; 식약처 목록 병기[1]와 2026년 논문 1건[4]만으로는 근거가 약함"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "중국에서 주로 쓰는 백목향(A. sinensis)은 다른 종이며…",
+   "after": "중국 약용 침향의 법정 기원은 A. sinensis와 A. agallocha 두 종이라고 소개된다[5]…",
+   "why": "'중국에서 주로 쓰는'은 출처 없음; [5] 초록 문구로 바꿈"
+  },
+  {
+   "where": "sections.history",
+   "before": "(없음)",
+   "after": "한 중국 연구는 기원을 A. agallocha로 적으면서 부위를 '마른 뿌리줄기'로 적는 등 기원 기재가 엄밀하지 않다[20]",
+   "why": "[20] 초록이 ALR을 'dry rhizome of A. agallocha'로 적음 — 중국산 ALR의 기원 종(A. sinensis 가능성) 혼동 주의"
+  },
+  {
+   "where": "sections.history",
+   "before": "튀르키예 메시르 페이스트 문장[32]",
+   "after": "삭제",
+   "why": "출처가 뿌리 항균 연구로 수지 목재와 무관하고 약한 출처; 출처 상한 정리"
+  },
+  {
+   "where": "sections.biology",
+   "before": "같은 나무라도 수지가 없는 줄기와 수지가 쌓인 부위의 정유 성분은 뚜렷이 다르다[10].",
+   "after": "인위 유도 침향은 자연 침향과 향이 다르다고 하며… 정유 성분 자료가 공개되었다[10].",
+   "why": "[10]은 자료 공개 논문(Data in Brief)으로 '뚜렷이 다르다'는 결론이 없고, 같은 나무가 아니라 건강한 나무와 침향 나무 비교"
+  },
+  {
+   "where": "sections.biology",
+   "before": "자연 형성의 계기가 된다[9, 10]",
+   "after": "[9]",
+   "why": "[9] 전문에 벼락·강풍·곤충 문구 확인; [10]은 시료 설명일 뿐"
+  },
+  {
+   "where": "sections.biology",
+   "before": "잎에서는 지금까지 185개 성분이 기록되었으나…[28]",
+   "after": "Aquilaria속 잎(주로 A. sinensis·A. crassna·A. malaccensis)에서 185개 성분…",
+   "why": "[28]은 속 수준 잎 리뷰로 A. sinensis 자료가 중심 — 종 섞임 명시"
+  },
+  {
+   "where": "sections.biology",
+   "before": "생존율을 82.14%로 유지했다",
+   "after": "생존율이 82.14%였다",
+   "why": "원문은 손상 세포 생존율 수치; '유지' 과장 표현 조정"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "부속서 II 등재는 침향 원목·조각·오일의 국제 거래를 통제하기 위한 것이다[7, 8].",
+   "after": "높은 국제 거래와 야생 채취가 등재 이유로 꼽히며, 거래되는 주요 파생물은 목재 조각과 오일이다[7].",
+   "why": "CITES 서술을 [7] 초록 범위로 좁힘('원목' 언급 없음)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "잎 추출물이 쥐의 간 손상을 줄였다는 연구…[29]",
+   "after": "이 잎 자료는 주로 A. sinensis 등 여러 종을 묶은 속 수준 리뷰여서 수지 목재 결과로 볼 수 없다[27].",
+   "why": "잎 연구 문장·출처 삭제(사용 부위 아님, 출처 정리), 잎 리뷰의 종 범위 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "(70.82%, 대조 91.40%)…낮아졌다[20]",
+   "after": "(70.82%, 네오스티그민군 91.40%)…낮아졌다(장 운동 억제, 동물 실험)[20]",
+   "why": "비교군은 네오스티그민 처리군; 동물 실험임을 명시"
+  },
+  {
+   "where": "sections.biology",
+   "before": "포볼 에스터…[26, 27]",
+   "after": "[26]",
+   "why": "씨앗 포볼 에스터 출처 중복 정리"
+  },
+  {
+   "where": "compounds[*].content_text",
+   "before": "침향 오일 12.5%/11.8%/8.9%, 정유 32.1%/6.5%/5.8%",
+   "after": "'오일(정유) 내 상대 조성' 명시; 아가로스피롤은 '상대 피크 비율(표준품 정량 아님)'",
+   "why": "GC 상대 피크 면적을 절대 함량처럼 읽히지 않게 함([9],[11],[12])"
+  },
+  {
+   "where": "compounds.Octahydrocurcumin.activity_ko",
+   "before": "세포 모델에서…",
+   "after": "HEK293 타우-BiFC 세포 모델에서…",
+   "why": "[3] 전문 Methods 2.7–2.8 확인"
+  },
+  {
+   "where": "assays[0]",
+   "before": "part '미생물 접종 3개월 뒤 수지 침착 목재 가루', mobile_phase '정유량'",
+   "after": "part '인위 접종 3개월 뒤 접종 구멍 주변 목재 가루(4~5년생, 침향 형성 초기)', mobile_phase '일정 유량'",
+   "why": "[9] 전문: 4–5년생 나무, 3개월 뒤 접종 구멍 주변 목재 가루; constant flow 오역"
+  },
+  {
+   "where": "assays[2],assays[3].content",
+   "before": "지표 띠 함량 / 정유 성분 %",
+   "after": "상대 비율·상대 조성으로 명시",
+   "why": "상대 함량을 절대 함량처럼 쓰지 않게"
+  },
+  {
+   "where": "sources",
+   "before": "36개",
+   "after": "34개(뿌리 항균[32]·씨앗 중복[27]·잎 간보호[29] 삭제, WFO/EPPO 이명 근거 추가, 1부터 재번호)",
+   "why": "출처 상한(15–35) 초과 정리"
+  }
+ ],
+ "unverifiable_notes": [
+  "[34] WFO·EPPO 이명 처리는 WebSearch 요약으로만 확인(원 페이지 미열람); POWO는 허용 목록 밖",
+  "[3],[9],[10] 은 PMC 전문, 나머지 논문은 PubMed 초록으로 대조",
+  "식약처 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 에서 침향 5행(식품원료 4·식품유형 1) 학명·부위·조건 원문 일치 확인, Aquilaria속 다른 종(A. sinensis) 행 없음 확인",
+  "제한적사용 원료의 식품공전 구체 기준 원문은 확인하지 못함(원자료에 사용량 없음)"
+ ]
+}

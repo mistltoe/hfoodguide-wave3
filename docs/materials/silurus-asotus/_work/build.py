@@ -1,0 +1,121 @@
+import json
+A="2026-11-02"
+def pm(n,title,doi,pub,note):
+    return {"n":n,"title":f"{title} ({note})","url":f"https://doi.org/{doi}","publisher":pub,"accessed":A}
+S=[
+ {"n":1,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Silurus asotus 행 2개: 원료명 '메기'·'메기분말'(영문 Amur catfish, Far eastern catfish, 분류 수산물, 부위 칸 '-', 상태 '사용가능', 사용 조건 없음; 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/silurus-asotus/card.json)","url":"https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020","publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ {"n":2,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 이름에 '메기'·'catfish'가 들어가는 다른 종의 행: 'Wels catfish'(Silurus glanis), '붕메기'(Ictalurus punctatus, 이명 차넬메기·찬넬동자개), '메콩강큰메기'(Pangasius hypophthalmus), '물메기'(Liparis tessellatus) 등 (로컬 원자료 I1020_20261013.json)","url":"https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020","publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ pm(3,"Change of Various Characteristics between Spawning and Non-spawning Season in Diploid and Induced Triploid Far Eastern Catfish, Silurus asotus. Dev Reprod 2017;21(3):275-286","10.12717/DR.2017.21.3.275","Development & Reproduction, PMC5651694","PMC 전문 확인"),
+ pm(4,"Dietary and seasonal effects on the dorsal meat lipid composition of Japanese (Silurus asotus) and Thai catfish (Clarias macrocephalus and hybrid). Comp Biochem Physiol A 2002;132(3):609-19","10.1016/s1095-6433(02)00081-8","Comparative Biochemistry and Physiology Part A","초록만 확인"),
+ pm(5,"Spawning and season affect lipid content and fatty acid composition of ovary and liver in Japanese catfish (Silurus asotus). Comp Biochem Physiol B 2001;129(1):185-95","10.1016/s1096-4959(01)00378-5","Comparative Biochemistry and Physiology Part B","초록만 확인"),
+ pm(6,"Nationwide monitoring of mercury in wild and farmed fish from fresh and coastal waters of Korea. Chemosphere 2012;89(11):1360-8","10.1016/j.chemosphere.2012.05.093","Chemosphere","초록만 확인"),
+ pm(7,"Heavy metal (Cd, Cr, Cu, Hg, Pb, Zn) concentrations in seven fish species in relation to fish size and location along the Yangtze River. Environ Sci Pollut Res Int 2012;19(9):3989-96","10.1007/s11356-012-0840-1","Environmental Science and Pollution Research","초록만 확인"),
+ pm(8,"Comparative Study of Metal Accumulation in Three Fish Species (Silurus asotus, Cyprinus carpio, and Carassius auratus auratus) from the Jinsha and Tuo Rivers, China. Bull Environ Contam Toxicol 2018","10.1007/s00128-018-2375-8","Bulletin of Environmental Contamination and Toxicology","초록만 확인"),
+ pm(9,"Trace elements in four freshwater fish from a mine-impacted river: spatial distribution, species-specific accumulation, and risk assessment. Environ Sci Pollut Res Int 2018","10.1007/s11356-018-1207-z","Environmental Science and Pollution Research","초록만 확인"),
+ pm(10,"Characterization of known and unknown AhR-active substances in freshwater fish from the Gapcheon River, South Korea. Ecotoxicol Environ Saf 2025;118579","10.1016/j.ecoenv.2025.118579","Ecotoxicology and Environmental Safety","초록만 확인"),
+ pm(11,"Uptake, retention and organ/tissue distribution of 137Cs by Japanese catfish (Silurus asotus Linnaeus). J Environ Radioact 2004;77(2):191-204","10.1016/j.jenvrad.2004.03.006","Journal of Environmental Radioactivity","초록만 확인"),
+ {"n":12,"title":"[Prevalence of metacercariae of Clonorchis sinensis in wild freshwater fishes from Nenjiang River around Qiqihaer City]. Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi 2014;32(4):292-4 (중국어 논문, 영문 초록만 확인, PMID 25518594)","url":"https://pubmed.ncbi.nlm.nih.gov/25518594/","publisher":"Chinese Journal of Parasitology and Parasitic Diseases","accessed":A},
+ {"n":13,"title":"A survey of Gnathostoma larvae in fresh water fish in the valley of the Yangtze River and morphological characteristics of the recovered larvae. Southeast Asian J Trop Med Public Health 1996;27(3):542-7 (초록만 확인, PMID 9185266)","url":"https://pubmed.ncbi.nlm.nih.gov/9185266/","publisher":"Southeast Asian Journal of Tropical Medicine and Public Health","accessed":A},
+ pm(14,"Three species of Exorchis Kobayashi, 1921 (Digenea: Cryptogonimidae) in the East-Asian region: morphological and molecular data. Parasitology 2021;148(13):1578-1587","10.1017/S0031182021001232","Parasitology, PMC11010173","초록만 확인"),
+ pm(15,"Supplemental description and molecular characterization of Myxobolus miyairii Kudo, 1919 infecting intestine of Amur catfish (Silurus asotus). Parasitol Res 2016","10.1007/s00436-015-4889-x","Parasitology Research","초록만 확인"),
+ pm(16,"Mitochondrial genome of Silurus asotus (Teleostei: Siluriformes). Mitochondrial DNA 2011;22(5-6):162-4","10.3109/19401736.2011.636435","Mitochondrial DNA","초록만 확인"),
+ pm(17,"Characterization of the male-specific region containing the candidate sex-determining gene in Amur catfish (Silurus asotus) using third-generation- and pool-sequencing data. Int J Biol Macromol 2023;248:125908","10.1016/j.ijbiomac.2023.125908","International Journal of Biological Macromolecules","초록만 확인"),
+ pm(18,"Sequencing an F1 hybrid of Silurus asotus and S. meridionalis enabled the assembly of high-quality parental genomes. Sci Rep 2021;11(1):13797","10.1038/s41598-021-93257-x","Scientific Reports, PMC8257616","초록만 확인"),
+ pm(19,"De novo transcriptome assembly and sex-biased gene expression in the gonads of Amur catfish (Silurus asotus). Genomics 2020","10.1016/j.ygeno.2020.01.026","Genomics","초록만 확인"),
+ pm(20,"Randomly amplified polymorphic DNA-polymerase chain reaction analysis of two different populations of cultured Korean catfish Silurus asotus. J Biosci 2001","10.1007/BF02704762","Journal of Biosciences","초록만 확인"),
+ pm(21,"Characteristics of the Vasa Gene in Silurus asotus and Its Expression Response to Letrozole Treatment. Genes (Basel) 2024;15(6):756","10.3390/genes15060756","Genes (MDPI), PMC11202796","초록만 확인"),
+ pm(22,"Genomic Anatomy of Homozygous XX Females and YY Males Reveals Early Evolutionary Trajectory of Sex-determining Gene and Sex Chromosomes in Silurus Fishes. Mol Biol Evol 2024;41(8):msae169","10.1093/molbev/msae169","Molecular Biology and Evolution, PMC11350385","초록만 확인"),
+ pm(23,"Effects of Dietary Protein and Lipid Levels on Growth and Body Composition of Juvenile Far Eastern Catfish Silurus asotus. Asian-Australas J Anim Sci 2012;25(3):369-74","10.5713/ajas.2011.11089","Asian-Australasian Journal of Animal Sciences, PMC4092954","초록만 확인"),
+ pm(24,"Evaluation of the Efficacy of Fermented By-product of Mushroom, Pleurotus ostreatus, as a Fish Meal Replacer in Juvenile Amur Catfish, Silurus asotus. Asian-Australas J Anim Sci 2014;27(10):1478-86","10.5713/ajas.2014.14038","Asian-Australasian Journal of Animal Sciences, PMC4150181","초록만 확인"),
+ pm(25,"FGF- and SHH-based molecular signals regulate barbel and craniofacial development in catfish. Zoological Lett 2019;5:19","10.1186/s40851-019-0135-1","Zoological Letters, PMC6570838","초록만 확인"),
+ pm(26,"Tandem repeat structure of rhamnose-binding lectin from catfish (Silurus asotus) eggs. Biochim Biophys Acta 1999","10.1016/s0304-4165(99)00185-3","Biochimica et Biophysica Acta","초록만 확인"),
+ pm(27,"Effects of Catfish Egg Lectin on Cancer Cells Differ According to the Globotriaosylceramide Species They Express. Int J Mol Sci 2025;26(19):9278","10.3390/ijms26199278","International Journal of Molecular Sciences, PMC12525471","초록만 확인"),
+ pm(28,"Identification and characterization of SaRpAMP, a 60S ribosomal protein L27-derived antimicrobial peptide from amur catfish, Silurus asotus. Fish Shellfish Immunol 2020","10.1016/j.fsi.2020.06.038","Fish & Shellfish Immunology","초록만 확인"),
+ pm(29,"A unique epidermal mucus lectin identified from catfish (Silurus asotus): first evidence of intelectin in fish skin slime. J Biochem 2011;150(5):501-14","10.1093/jb/mvr085","Journal of Biochemistry","초록만 확인"),
+ pm(30,"Rice bran oil-in-water emulsion stabilized by Amur catfish myofibrillar protein: Characteristics and its application in surimi gels. Int J Biol Macromol 2024;283:137417","10.1016/j.ijbiomac.2024.137417","International Journal of Biological Macromolecules","초록만 확인"),
+ pm(31,"Electrical stimulation-induced mucus secretion and skin transcriptome responses in Amur catfish (Silurus asotus). Comp Biochem Physiol Part D 2026;101850","10.1016/j.cbd.2026.101850","Comparative Biochemistry and Physiology Part D","초록만 확인"),
+ pm(32,"Mitogenomic phylogeny, biogeography, and cryptic divergence of the genus Silurus (Siluriformes: Siluridae). Zool Res 2024;45(4):711-723","10.24272/j.issn.2095-8137.2023.311","Zoological Research, PMC11298680","PMC 전문 확인; 받은 전문에서 종 학명이 지워져 있어 속 수준 내용만 인용"),
+ pm(33,"Complete mitochondrial DNA sequence of the Eastern Asian catfish Silurus asotus (Siluriformes: Siluridae) from Lake Biwa in Japan. Mitochondrial DNA B Resour 2022;7(2):356-357","10.1080/23802359.2022.2034546","Mitochondrial DNA Part B, PMC8843203","초록만 확인"),
+]
+
+sec=[]
+def add(k,t,b): sec.append({"key":k,"title":t,"body":b})
+
+add("overview","개요",
+"메기(Silurus asotus)는 메기목 메기과(Siluridae)에 속하는 민물고기로, 영문으로는 Amur catfish 또는 Far eastern catfish라 부른다[1]. 한국의 모든 하천과 일본·중국·대만에 분포하며, 국내에서는 찬넬동자개(channel catfish)와 함께 양식되는 어종이다[3].\n\n"
+"식약처 「식품원료 목록」에는 원료명 '메기'와 '메기분말' 두 행이 이 학명으로 올라 있고, 분류는 수산물, 상태는 '사용가능', 사용 조건은 없다[1]. 목록의 부위 칸은 두 행 모두 '-'로 적혀 있다[1]. 같은 속의 유럽메기(Silurus glanis)는 'Wels catfish'라는 별도 원료로, 찬넬동자개(Ictalurus punctatus)는 '붕메기'라는 별도 원료로 올라 있으므로 이 문서의 내용과 섞어 읽으면 안 된다[2].\n\n"
+"식품으로서 주로 먹는 부위는 살(근육)이며, 국내 연구에서는 양식 메기 살의 지방산 조성이 산란기·비산란기와 2배체·3배체에 따라 달라진다고 보고되었다[3]. 일본 연구에서는 메기 등살 지질에 DHA 비율이 높고 이 비율이 먹이의 DHA에 영향을 받는다고 하였다[4]. 국가표준식품성분표의 메기 영양성분 값은 이 작업 환경에서 확인하지 못함.")
+
+add("history","이용의 역사·양식 연구",
+"메기는 국내 하천에 널리 사는 토착 어종으로, 찬넬동자개보다 맛이 좋다는 평가와 함께 소비자 관심이 커지고 있다고 국내 논문이 소개하였다[3]. 같은 논문은 2015년 국내 메기 양식 생산량을 4,267톤으로 인용하였으나, 이 값은 통계 원표에서 직접 확인하지 못함.\n\n"
+"국내 양식 메기에 대한 학술 연구는 2000년대 초부터 이어졌다[20]. 2001년에는 서해안 지역 두 곳(군산·예산)의 양식 메기 집단을 RAPD 표지로 비교하여 집단 간 유전적 분화가 있음을 보고하였다[20]. 2012년에는 국립수산과학원 내수면양식연구센터 연구진이 치어의 사료 단백질·지질 요구량을 시험하였다[23]. 2014년에는 버섯(느타리) 발효 부산물로 어분을 일부 대체하는 사료 연구가 국내 대학에서 수행되었다[24].\n\n"
+"일본에서도 메기(Japanese catfish)는 양식과 야생 개체를 대상으로 지질 조성이 연구되었고, 등살과 난소의 DHA 비율이 산란·계절·먹이에 따라 변한다고 보고되었다[4, 5]. 중국 연구는 메기를 아시아 여러 나라에서 널리 분포하고 양식되는 경제 어종으로 소개한다[19].")
+
+add("biology","어종의 특징",
+"메기는 아래턱과 위턱에 수염(barbel)이 있는 메기목 어류로, 수정 후 2일까지 세 쌍의 수염 원기가 생기고 4일째까지 입에서 몸통까지 맛봉오리가 형성된다고 관찰되었다[25]. 염색체는 2배체 기준 29쌍으로, 암수 유전체 조립에서 모두 29개의 염색체 크기 스캐폴드가 얻어졌다[17].\n\n"
+"성 결정은 XX/XY 방식이며, 5번 염색체에 약 400 kb 크기의 수컷 특이 영역이 있다[17]. 중국 연구에서는 암컷이 수컷보다 빨리 자라는 뚜렷한 성적 이형성이 있다고 하였다[21]. 국내 사육 실험에서 2배체 메기의 산란기는 5월이었고, 산란기 수온은 25±1.0℃, 비산란기(1월) 수온은 13.5±4.64℃였다[3].\n\n"
+"메기는 육식성 어종으로, 한국 갑천 조사에서 아미노산 질소 동위원소로 추정한 영양 단계가 3.0으로 붕어·잉어(2.2)보다 높았다[10]. 국내 전국 조사에서도 하천·호수의 육식성 어종일수록 수은을 더 많이 축적하는 경향이 보고되었다[6]. 피부 점액에는 만노스 결합 렉틴인 인텔렉틴이 있어 세균 응집 작용을 보였다[29].")
+
+add("related_species","근연종·혼동 주의",
+"메기속(Silurus)은 유라시아 민물에 분포하며 지금까지 16종이 기재되었고, 이 가운데 13종이 동아시아에 산다[32]. 미토콘드리아 유전체 분석은 이 속의 공통 조상이 중국과 한반도 지역에서 기원하여 유럽·중앙아시아와 일본으로 퍼졌다고 추정하였고, 일부 종 안에 여러 숨은 계통이 있어 종 다양성이 과소평가되었다고 하였다[32].\n\n"
+"메기의 미토콘드리아 유전체는 S. meridionalis(southern catfish)와 93.6%, 유럽메기(S. glanis)와 90.6%의 서열 일치도를 보였다[16]. 유럽메기는 식약처 목록에 'Wels catfish'라는 별도 원료로 올라 있으므로, 유럽메기의 성분·생산 자료를 메기 값으로 옮겨 쓰지 않는다[2]. 메기와 S. meridionalis는 교잡이 가능하여, 그 F1 잡종으로 두 부모 종의 유전체를 함께 조립한 연구가 있다[18].\n\n"
+"이름이 비슷한 다른 원료도 많다[2]. 찬넬동자개(Ictalurus punctatus)는 '붕메기'(이명 차넬메기·찬넬동자개), 동남아 양식 어종 Pangasius hypophthalmus는 '메콩강큰메기', 꼼치류 Liparis tessellatus는 '물메기'라는 별도 원료이며 모두 메기와 다른 종이다[2]. 학명 없이 'catfish'로만 적힌 자료는 이 종의 근거로 쓰지 않았다[2].")
+
+add("cultivation","양식·어획",
+"메기는 국내 내수면에서 양식되며, 국내 논문은 2015년 양식 생산량을 4,267톤으로 인용하고 이후 늘고 있다고 하였다[3]. 공식 어업생산통계의 메기 품목별 값은 이 작업에서 직접 확인하지 못함.\n\n"
+"치어(초기 7.6 g)를 66일 기른 시험에서 사료 단백질 20·30·40%, 지질 9·17% 가운데 40/17(단백질/지질, %) 사료에서 최종 체중이 가장 컸고, 최대 성장을 위한 단백질 요구량은 40%보다 높을 수 있다고 하였다[23]. 사료 지질을 9%에서 17%로 높이면 성장과 사료 이용이 좋아졌다[23]. 느타리 발효 부산물로 어분을 대체한 8주 시험에서는 성장을 해치지 않는 최대 대체 수준이 6.3%로 추정되었다[24].\n\n"
+"수정란에 4℃ 저온 충격을 주어 불임 3배체를 만드는 연구도 있다[3]. 이 연구의 표에서 산란기 체중은 2배체 324.1 g, 3배체 904.2 g이었고, 피하지방 무게 비율은 각각 4.7%와 16.5%였다(같은 논문 방법 절의 평균 체중 368 g과는 차이가 있어 원문 값 그대로 옮김)[3]. 생식소 지수(GSI)는 산란기 2배체 11.4%, 3배체 0.1%로 3배체는 생식소가 거의 발달하지 않았다[3].")
+
+add("processing","가공·이용",
+"식약처 목록에는 메기 자체 외에 '메기분말'이 별도 원료명으로 올라 있어, 분말 형태로도 식품원료로 쓸 수 있다[1]. 분말의 제조 기준이나 부위는 목록에 따로 적혀 있지 않다[1].\n\n"
+"식품 가공 연구로는 중국에서 메기 근원섬유 단백질을 분리해 미강유 수중유적형 유화액을 안정화하고, 이를 백련어 어묵(수리미) 겔에 넣은 시험이 있다[30]. 근원섬유 단백질 3%로 안정화한 유화액을 5% 넣었을 때 겔의 조직감과 흰 정도가 좋아졌고, 15%까지 많이 넣으면 단백질 망 형성과 보수력이 떨어졌다[30].\n\n"
+"부산물 이용으로는 알과 피부 점액에서 기능성 단백질이 연구되었다[26, 31]. 메기 알에는 람노스 결합 렉틴(SAL)이 있으며, 285개 아미노산의 성숙 단백질이 95개 아미노산짜리 반복 영역 세 개로 이루어진다[26]. 피부 점액은 전기 자극(10 V, 15회)으로 점액 관련 단백질 분비량을 3.59배 늘려 채취하는 방법이 시험되었다[31]. 이들은 모두 실험실 단계 연구이며 식품 제품화 사례는 확인하지 못함.")
+
+add("genetics","유전체·유전 정보",
+"메기의 미토콘드리아 유전체는 16,528 bp로, 단백질 암호 유전자 13개, rRNA 2개, tRNA 22개와 조절 영역 1개를 가지며 AT 함량은 56.3%다[16]. 일본 비와호 개체의 미토콘드리아 유전체는 16,515 bp였고 중국 개체와 유전적으로 가까웠다[33].\n\n"
+"핵 유전체는 나노포어와 Hi-C로 염색체 수준까지 조립되었으며 크기는 암컷 757.15 Mb, 수컷 755.44 Mb이고 스캐폴드 N50은 각각 28.87 Mb와 27.29 Mb다[17]. 수컷 특이 영역에는 항뮐러관 호르몬 2형 수용체 유전자의 수컷 특이 사본(amhr2y)이 있어 성 결정 후보 유전자로 제시되었다[17]. 같은 속 S. lanzhouensis 연구는 amhr2y가 메기에서는 5번, S. meridionalis에서는 24번 염색체에 있어 속 안에서 위치가 바뀌었다고 정리하였다[22].\n\n"
+"생식소 전사체는 74,840개 전사체로 조립되었고 난소 편향 유전자 5,401개, 정소 편향 유전자 5,618개가 확인되었다[19]. 생식세포 표지인 vasa 유전자는 1,989 bp 열린 해독틀에 662개 아미노산을 암호화한다[21]. 국내 양식 집단(군산·예산)의 RAPD 분석에서는 두 집단의 다형 밴드 비율이 56.4–59.6%였다[20].")
+
+add("safety","안전성",
+"식약처 목록에서 메기와 메기분말은 사용 조건이 없는 '사용가능' 원료다[1]. 국가 공공기관의 메기 알레르기 정보나 메기에 특정한 섭취 주의 자료는 이 작업에서 확인하지 못함.\n\n"
+"중금속은 서식지와 영양 단계의 영향을 받는다[6, 7]. 2006–2008년 국내 전국 조사(5,043마리, 78종)에서 개별 시료 최고 수은 농도 1,720 μg/kg이 메기 한 마리에서 측정되었고, WHO 섭취 기준을 넘은 것은 야생 민물고기뿐이었다[6]. 중국 양쯔강 7종 조사에서는 메기 근육의 카드뮴(0.115 mg/kg)과 수은(0.0304 mg/kg, 습중량)이 7종 가운데 가장 높았다[7]. 반면 중국 진사강·퉈강 조사에서는 메기 근육의 납·크롬·카드뮴·비소·수은이 허용 기준 아래였고[8], 광산 영향 하천(샹강) 조사에서도 근육 섭취로 인한 건강 위해는 뚜렷하지 않다고 평가되었다[9]. 국내 갑천 조사에서는 메기 필레의 중간 극성 분획에서 다환방향족탄화수소 등 AhR 활성 물질의 작용이 높게 나타났다[10].\n\n"
+"기생충은 지역별 조사 결과만 있다[12–15]. 중국 넌장강 조사(2013년, 9종 1,175마리)에서는 간흡충 피낭유충이 메기를 뺀 나머지 8종에서만 발견되었으나, 한 지역 조사 결과다[12]. 양쯔강 유역 악구충 유충 조사에는 메기(1989년 2마리)도 포함되었으나, 초록에서 유충이 나온 어종으로 명시된 것은 가물치와 드렁허리뿐이었다[13]. 다만 메기는 흡충 Exorchis oviformis와 점액포자충 Myxobolus miyairii의 숙주로 기록되어 있다[14, 15]. 실험실에서 세슘-137은 근육에 몸 전체 축적량의 약 75%가 쌓였고 유효 반감기는 약 142일이었다[11].")
+
+comp=[
+ ("Docosahexaenoic acid","DHA(C22:6n-3)","n-3 고도불포화지방산","nutrient","살(flesh)","2배체 산란기 9.0±0.62%, 비산란기 16.6±1.43%; 3배체 13.3±0.47%, 12.8±0.64% (총 지방산 중 비율로 표시, 양식 2년생)","메기 살의 주된 n-3 지방산이며 산란기·배수성에 따라 비율이 크게 달랐다[3]",[3]),
+ ("Docosapentaenoic acid","DPA(C22:5n-3)","n-3 고도불포화지방산","nutrient","살(flesh)","2배체 산란기 2.1±0.11%, 비산란기 1.8±1.02%; 3배체 3.1±0.01%, 2.4±0.13%","3배체에서 2배체보다 비율이 높았다[3]",[3]),
+ ("Eicosapentaenoic acid","EPA(C20:5n-3)","n-3 고도불포화지방산","nutrient","살(flesh)","2배체 산란기 0.4±0.01%, 비산란기 0.2±0.15%; 3배체 0.9±0.02%, 0.6±0.01%","메기 살에서는 DHA보다 훨씬 적었다[3]",[3]),
+ ("alpha-Linolenic acid","알파-리놀렌산(C18:3n-3)","n-3 지방산","nutrient","살(flesh)","2배체 산란기 1.2±0.04%, 비산란기 1.0±0.52%; 3배체 1.2±0.04%, 1.5±0.10%","식물성 n-3 지방산으로 소량 들어 있다[3]",[3]),
+ ("Linoleic acid","리놀레산(C18:2n-6)","n-6 지방산","nutrient","살(flesh)","2배체 산란기 11.6±0.28%, 비산란기 10.5±1.13%; 3배체 8.4±0.07%, 10.3±0.50%","주된 n-6 지방산이며, 일본 연구에서는 양식 메기 등살의 비율이 태국 메기류보다 높았다[3, 4]",[3,4]),
+ ("Arachidonic acid","아라키돈산(C20:4n-6)","n-6 지방산","nutrient","살(flesh)","2배체 산란기 0.8±0.22%, 비산란기 0.2±0.21%; 3배체 0.4±0.02%, 0.4±0.01%","일본 양식 메기 등살에서는 겨울에 여름보다 비율이 낮았다[3, 4]",[3,4]),
+ ("Oleic acid","올레산(C18:1n-9)","단일불포화지방산","nutrient","살(flesh)","2배체 산란기 23.7±1.37%, 비산란기 15.2±4.34%; 3배체 15.0±1.23%, 19.6±0.87%","메기 살의 주된 단일불포화지방산이다[3]",[3]),
+ ("Palmitoleic acid","팔미톨레산(C16:1n-7)","단일불포화지방산","nutrient","살(flesh)","2배체 산란기 7.9±0.38%, 비산란기 8.2±0.42%; 3배체 12.1±3.37%, 8.3±0.27%","산란기 3배체에서 비율이 높았다[3]",[3]),
+ ("Palmitic acid","팔미트산(C16:0)","포화지방산","nutrient","살(flesh)","2배체 산란기 18.4±0.49%, 비산란기 24.2±0.97%; 3배체 16.2±0.79%, 21.3±0.77%","메기 살의 주된 포화지방산이다[3]",[3]),
+ ("Stearic acid","스테아르산(C18:0)","포화지방산","nutrient","살(flesh)","2배체 산란기 8.8±2.15%, 비산란기 7.9±0.58%; 3배체 11.7±0.07%, 6.3±0.18%","팔미트산 다음으로 많은 포화지방산이다[3]",[3]),
+ ("Docosahexaenoic acid","DHA(난소 지질)","n-3 고도불포화지방산","nutrient","난소(알)","야생 메기 산란기 난소 지질 7.3±1.6 g/100 g(습중량), 그중 DHA 12.3±0.5% (총 지방산 중)","산란기 난소의 인지질(PC·PE)에서 DHA 비율이 산란 후보다 높았다[5]",[5]),
+ ("Rhamnose-binding lectin (SAL)","메기 알 렉틴(SAL)","당단백질(람노스 결합 렉틴)","bioactive","알","함량 확인하지 못함(285개 아미노산 성숙 단백질, 95개 아미노산 반복 영역 3개)","배양 암세포 표면의 Gb3 당지질에 결합하며, 세포 실험에서 그 효과는 세포가 가진 Gb3 분자종에 따라 달랐다(사람 근거 없음)[26, 27]",[26,27]),
+ ("SaRpAMP","SaRpAMP(피부 항균 펩타이드)","펩타이드","bioactive","피부","함량 확인하지 못함(분자량 4,185.36 Da, 33개 아미노산)","60S 리보솜 단백질 L27의 C말단 조각으로, 시험관에서 세균에 대한 항균 활성을 보였다[28]",[28]),
+ ("Intelectin","인텔렉틴(피부 점액 렉틴)","단백질(칼슘 의존 만노스 결합 렉틴)","bioactive","피부 점액·아가미","함량 확인하지 못함(35 kDa, 308개 아미노산 전구체)","시험관에서 어류 병원균 Aeromonas salmonicida를 응집시켰다[29]",[29]),
+]
+compounds=[{"name":a,"name_ko":b,"class":c,"role":d,"part":e,"content_text":f,"activity_ko":g,"source":h} for a,b,c,d,e,f,g,h in comp]
+
+E={k:"" for k in ["instrument","column","mobile_phase","gradient","flow","temp","detection","injection","sample_prep","standard","linearity","lod","loq","recovery"]}
+c1=dict(E); c1.update({
+ "instrument":"가스크로마토그래프 Varian CP-3380, 불꽃이온화검출기(FID)",
+ "column":"CP-SIL 5 CB 용융 실리카 모세관 칼럼, 60 m × 0.32 mm i.d., 막 두께 0.01 μm(원문 표기 그대로)",
+ "detection":"FID",
+ "sample_prep":"국내 대학 연구실 순환여과 수조에서 기른 2년생 어미(평균 체장 45.2±3.28 cm, 체중 368±31.4 g) 2배체·유도 3배체 각 30마리, 산란기(5월)·비산란기(1월) 살; 지방산을 정제한 뒤 14% BF(원문 아래첨자 소실, 삼플루오린화붕소로 보임)/메탄올로 지방산 메틸에스터화",
+ "standard":"지방산 표준품 GLC-462(Nu-Chek-Prep) 머무름 시간 비교, 피크 면적 백분율(Galaxie 소프트웨어)"})
+c2=dict(E)
+assays=[
+ {"role":"literature","compound":"Fatty acid methyl esters (DHA etc.)","compound_ko":"지방산 조성(DHA 등)","part":"살(flesh)","content":"2배체 DHA 산란기 9.0±0.62%, 비산란기 16.6±1.43%; n-3 합계 13.5±0.81%, 19.8±3.08% (총 지방산 중)[3]","method":"GC-FID (지방산 메틸에스터)","conditions":c1,
+  "rationale":"DHA 등 n-3 지방산 비율은 생선 살의 영양 품질 지표로 쓰이며, 메기에서는 산란기·배수성에 따라 크게 달랐다[3]. 전문(Methods) 확인 — 운반 기체·유속·오븐 온도·주입량·검출·정량한계·회수율은 본문에 없음[3].","source":[3],"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5651694/","source_kind":"paper"},
+ {"role":"literature","compound":"Docosahexaenoic acid","compound_ko":"DHA(등살 지질)","part":"등살(dorsal meat)","content":"초록에는 수치 없음 — 일본 메기 등살의 DHA 비율이 태국 메기류보다 뚜렷이 높다고만 적힘[4]","method":"지방산 조성 분석(초록에 기기 표기 없음)","conditions":c2,
+  "rationale":"등살 지질의 DHA 비율은 먹이 지방산을 반영하는 품질 지표로 제시되었다[4]. 전문 확인 못함 — 분석 조건은 비워 둠[4].","source":[4],"url":"https://doi.org/10.1016/s1095-6433(02)00081-8","source_kind":"paper"},
+]
+
+d={"slug":"silurus-asotus","name_ko":"메기","name_en":"Amur catfish (Far eastern catfish)","scientific_name":"Silurus asotus",
+ "aliases":["메기분말","Amur catfish","Far eastern catfish","Japanese catfish"],
+ "sections":sec,"compounds":compounds,"markers":[],"assays":assays,"nutrients":[],"production":[],"world":[],"gi":[],"orgs":[],"sources":S}
+json.dump(d,open('/home/user/hfoodguide-wave3/docs/materials/silurus-asotus/dossier.json','w'),ensure_ascii=False,indent=1)
+for s in sec: print(s['key'],len(s['body']))

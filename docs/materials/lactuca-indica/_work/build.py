@@ -1,0 +1,261 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+
+
+def pm(n, title, pmid, doi, pmc=None, pub=None, note=""):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    t = f"{title} (PMID {pmid}, doi:{doi})" + (f" {note}" if note else "")
+    return {"n": n, "title": t, "url": url, "publisher": pub, "accessed": A}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 왕고들빼기잎(Lactuca indica L. / Chondrilla squarrosa Poir, 식품원료 A코드, 사용가능, '사용가능부위 : 잎', 이명 고채) 행과 같은 속(상추·양상추·적로메인상추·산씀바귀)·이름이 비슷한 고들빼기류(Crepidiastrum) 행(로컬 원자료 I1020_20261013)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Chemical profile and quantitative comparison of constituents in different medicinal parts of Lactuca indica L. cv. Mengzao during varied harvest periods using UPLC-MS/MS method. Food Chem X 2023;20:101031", "38144840", "10.1016/j.fochx.2023.101031", "PMC10740015", "Food Chemistry: X (PMC 전문)"),
+    pm(3, "Comparative Analysis of Major Flavonoids among Parts of Lactuca indica L. cv. Mengzao during Different Growth Periods. Molecules 2021;26(24):7445", "34946527", "10.3390/molecules26247445", "PMC8705863", "Molecules (MDPI, PMC 전문)", "※ 서론에서 이 식물을 Ixeris 속으로 설명하는 등 분류 서술이 혼재"),
+    pm(4, "Antioxidant activity in extracts of 27 indigenous Taiwanese vegetables. Nutrients 2014;6(5):2115-30 — 시료 'Li' = Lactuca indica var.(변종명은 전문 추출본에서 빠짐), 타이베이 시장 구입 잎", "24858497", "10.3390/nu6052115", "PMC4042579", "Nutrients (MDPI, PMC 전문)"),
+    pm(5, "Integrated HPLC-DAD and multivariate analysis for exploratory prioritisation of candidate marker compounds in Lactuca indica. Nat Prod Res 2026:1-8", "42544561", "10.1080/14786419.2026.2708284", None, "Natural Product Research (PubMed 초록만 확인)"),
+    pm(6, "Antioxidant properties and phytochemical characteristics of extracts from Lactuca indica. J Agric Food Chem 2003;51(5):1506-12", "12590506", "10.1021/jf0259415", None, "Journal of Agricultural and Food Chemistry (PubMed 초록만 확인)"),
+    pm(7, "Antidiabetic dimeric guianolides and a lignan glycoside from Lactuca indica. J Nat Prod 2003;66(5):625-9", "12762795", "10.1021/np0205349", None, "Journal of Natural Products (PubMed 초록만 확인)"),
+    pm(8, "Terpene and phenolic constituents of Lactuca indica L. Arch Pharm Res 2008;31(8):983-8", "18787785", "10.1007/s12272-001-1256-8", None, "Archives of Pharmacal Research (PubMed 초록만 확인)"),
+    pm(9, "Isolation of quinic acid derivatives and flavonoids from the aerial parts of Lactuca indica L. and their hepatoprotective activity in vitro. Bioorg Med Chem Lett 2007;17(24):6739-43", "18029179", "10.1016/j.bmcl.2007.10.046", None, "Bioorganic & Medicinal Chemistry Letters (PubMed 초록만 확인)"),
+    pm(10, "Induction of apoptosis by the Lactuca indica L. in human leukemia cell line and its active components. J Agric Food Chem 2007;55(5):1743-9", "17295517", "10.1021/jf063118t", None, "Journal of Agricultural and Food Chemistry (PubMed 초록만 확인)"),
+    pm(11, "Lactuca indica extract interferes with uroepithelial infection by Escherichia coli. J Ethnopharmacol 2011;135(3):672-7", "21497191", "10.1016/j.jep.2011.03.069", None, "Journal of Ethnopharmacology (PubMed 초록만 확인)"),
+    pm(12, "Discovery of anti-inflammatory phytoconstituents from Lactuca indica L. based on its traditional uses. Fitoterapia 2025:106902", "41022258", "10.1016/j.fitote.2025.106902", None, "Fitoterapia (PubMed 초록만 확인)"),
+    pm(13, "Four New Compounds From Lactuca indica That Inhibit Nitric Oxide Production. Chem Biodivers 2025:e202502438", "41071723", "10.1002/cbdv.202502438", None, "Chemistry & Biodiversity (PubMed 초록만 확인)"),
+    pm(14, "Lactucaindicas A-C: three newly identified compounds from Lactuca indica L. that inhibit NO production. Nat Prod Res 2025:1-8", "41258940", "10.1080/14786419.2025.2591177", None, "Natural Product Research (PubMed 초록만 확인)"),
+    pm(15, "Lactuca indica L. polysaccharide ameliorates type 1 diabetes via gut microbiota-SCFAs-IRS-1/PI3K/GLUT4-MYD88/NF-κB axis. Int Immunopharmacol 2025;165:115536", "40945033", "10.1016/j.intimp.2025.115536", None, "International Immunopharmacology (PubMed 초록만 확인)"),
+    pm(16, "Composite constituent: lactucenyl acetate, a novel migrated lupane triterpenoid from Lactuca indica. Chem Pharm Bull 2011;59(6):767-9", "21628916", "10.1248/cpb.59.767", None, "Chemical & Pharmaceutical Bulletin (PubMed 초록·MeSH만 확인)"),
+    pm(17, "Systemic and local injections of lupeol inhibit tumor growth in a melanoma-bearing mouse model. Biomed Rep 2013;1(4):641-645", "24649001", "10.3892/br.2013.116", None, "Biomedical Reports (PubMed 초록만 확인)"),
+    pm(18, "Nutrients value and antioxidant content of indigenous vegetables from Southern Thailand. Food Chem 2015;173:838-46", "25466097", "10.1016/j.foodchem.2014.10.123", None, "Food Chemistry (PubMed 초록만 확인)"),
+    pm(19, "Development of genic-SSR markers and genetic diversity of Indian lettuce (Lactuca indica L.) in South Korea. Genes Genomics 2018;40(6):615-623", "29892941", "10.1007/s13258-018-0660-x", None, "Genes & Genomics (PubMed 초록만 확인)"),
+    pm(20, "High Genetic Diversity of 16 Indian lettuce (Lactuca indica L.) Accessions from Vietnam. Pak J Biol Sci 2022;25(3):201-209", "35234010", "10.3923/pjbs.2022.201.209", None, "Pakistan Journal of Biological Sciences (PubMed 초록만 확인)", "※ 초록 방법 부분에 Lactuca sativa 로도 적혀 종 표기가 혼재"),
+    pm(21, "Transcriptomic profiling reveals response mechanisms of wild Lactuca indica seedlings to seawater irrigation stress. Front Plant Sci 2025;16:1599564", "40567413", "10.3389/fpls.2025.1599564", "PMC12188455", "Frontiers in Plant Science (PMC 전문)", "※ PubMed 'Lactuca indica' 검색으로 찾은 논문이며, 전문 추출본에서 학명·변종명 글자가 빠져 있어 변종명은 확인하지 못함"),
+    pm(22, "Identification of a New Potential Cd-Accumulator Pterocypsela indica (L.) Shih. Bull Environ Contam Toxicol 2021;106(5):859-865", "33683386", "10.1007/s00128-021-03165-z", None, "Bulletin of Environmental Contamination and Toxicology (PubMed 초록만 확인)"),
+    pm(23, "Phytoremediation potential of Pterocypsela laciniata as a cadmium hyperaccumulator. Environ Sci Pollut Res Int 2019;26(13):13311-13319", "30900123", "10.1007/s11356-019-04702-4", None, "Environmental Science and Pollution Research (PubMed 초록만 확인)"),
+    {"n": 24, "title": "Kew Plants of the World Online — Lactuca laciniata (Houtt.) Makino 를 Lactuca indica 의 이명으로 처리(2021년 극동아시아 목록 인용); World Flora Online 2023년 6월 스냅숏에서 Pterocypsela laciniata 를 Lactuca indica 아래 이명으로 둠. ※ 원문 페이지는 이 작업 환경에서 열지 못했고 WebSearch 검색 요약으로만 확인함",
+     "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:3271533-4", "publisher": "Royal Botanic Gardens, Kew(WebSearch 요약으로만 확인)", "accessed": A},
+    {"n": 25, "title": "왕고들빼기 '선향' 품종의 육묘·수확(어린잎 초장 10 cm 이하, 성체 20±5 cm)과 저장 온도(2·8·20 ℃)별 품질 변화를 다룬 국내 논문 및 같은 품종의 DFT 수경재배·비닐하우스·양액 재배 연구. ※ 원문은 이 작업 환경에서 열지 못했고(koreascience 허용 목록 밖) WebSearch 검색 요약으로만 확인함",
+     "url": "https://koreascience.or.kr/article/JAKO201914439302211.page", "publisher": "KoreaScience(WebSearch 요약으로만 확인)", "accessed": A},
+    {"n": 26, "title": "고채(왕고들빼기) 생육특성과 식용방법 — 1990~1995년 충남 농촌진흥원 하우스 파종 시기별 생육 시험. ※ 원문은 열지 못했고 WebSearch 검색 요약(제목·초록 일부)으로만 확인함",
+     "url": "https://koreascience.kr/article/JAKO199611920278239.page?lang=ko", "publisher": "KoreaScience(WebSearch 요약으로만 확인)", "accessed": A},
+    pm(27, "Optimization of ultrasonic-assisted extraction of flavonoids from Lactuca indica L. cv. Mengzao and their antioxidant properties. Front Nutr 2023;10:1065662", "37396124", "10.3389/fnut.2023.1065662", None, "Frontiers in Nutrition (PubMed 초록만 확인)"),
+    pm(28, "Optimization of Extraction Process and Dynamic Changes in Triterpenoids of Lactuca indica from Different Medicinal Parts and Growth Periods. Molecules 2023;28(8):3345", "37110579", "10.3390/molecules28083345", None, "Molecules (PubMed 초록만 확인)"),
+    pm(29, "Metabolic profiling provides insights into the accumulation patterns of flavonoids and phenolic acids in different parts of Lactuca indica L. Food Chem X 2023;20:101012", "38144821", "10.1016/j.fochx.2023.101012", None, "Food Chemistry: X (PubMed 초록만 확인)"),
+    pm(30, "Extreme size and sequence variation in the ITS rDNA of Bremia lactucae. Mycopathologia 2007;163(2):91-5", "17286165", "10.1007/s11046-007-0092-7", None, "Mycopathologia (PubMed 초록만 확인)"),
+    pm(31, "[Karyotype analysis and its systematic implications of Pterocypsela formosana and P. elata]. Zhongguo Zhong Yao Za Zhi 2012;37(11):1527-31", "22993974", "(없음)", None, "China Journal of Chinese Materia Medica (PubMed 초록만 확인)"),
+    {"n": 32, "title": "야생 및 재배 왕고들빼기(Lactuca indica)의 이화학적 특성 비교(한국식품영양과학회지, 2012) — 야생·재배 모두 탄수화물이 많고 주요 유기산은 타르타르산, 주요 무기질은 칼륨, 재배 개체의 환원당이 더 높음. ※ 원문은 열지 못했고 WebSearch 검색 요약으로만 확인함(URL 대응은 검색 결과 기준)",
+     "url": "https://koreascience.kr/article/JAKO201215239622039.pdf", "publisher": "KoreaScience(WebSearch 요약으로만 확인)", "accessed": A},
+]
+
+S = {}
+S["overview"] = ("왕고들빼기(Lactuca indica L.)는 국화과(Asteraceae) 상추속(Lactuca)에 속하는 풀로, 아시아에서 먹을 수 있는 야생 채소이자 민간약으로 쓰여 왔다[6][10]. "
+ "한국 전역에서 자라는 야생 식물이며 아직 작물로 길들여지지 않았지만 경제적 가능성이 큰 식물로 평가된다[19].\n\n"
+ "식품의약품안전처 「식품원료 목록」에는 '왕고들빼기잎' 한 행이 식품원료(A코드)로 올라 있고, 사용 여부는 '사용가능', 사용 조건은 '사용가능부위 : 잎'이다[1]. "
+ "같은 목록에는 이명 '고채', 영문명 'Slender-leaf Indian lettuce', 학명 'Lactuca indica L. / Chondrilla squarrosa Poir'가 적혀 있다[1]. "
+ "따라서 국내에서 식품으로 쓸 수 있는 부위는 잎이며, 연구에 쓰인 뿌리·줄기·꽃·씨앗은 목록상 사용 부위가 아니다[1][2]. "
+ "이 목록에서 왕고들빼기를 원재료로 한 건강기능식품 고시형·개별인정형 원료 행은 찾지 못했다[1].\n\n"
+ "잎에는 치코릭산·클로로젠산 같은 카페오일 유도체와 루틴·퀘르세틴·루테올린 배당체 같은 플라보노이드가 들어 있다고 보고되었다[2][3][4][6]. "
+ "효능 연구는 대부분 세포·동물 실험이며, 사람을 대상으로 한 임상시험은 확인하지 못했다.")
+
+S["history"] = ("대만 연구진은 왕고들빼기를 먹을 수 있는 야생 채소로 소개하면서, 아시아에서 항염·항균 등의 민간약으로 써 왔다고 적었다[6][10]. "
+ "베트남에서는 'Vietnamese dandelion'이라 불리는 왕고들빼기 달임액을 전통적으로 써 왔고, 이뇨 작용이 알려져 있다고 보고되었다[11]. "
+ "베트남 전통 이용에서는 지상부를 피부 염증을 가라앉히거나 복통을 덜기 위해 썼다는 기록도 있다[12].\n\n"
+ "중국 논문은 왕고들빼기를 음식과 약으로 함께 쓰는 소재로 소개하며, 멍짜오(Mengzao)·룽무(Longmu)·궁눙(Gongnong) 등 여러 재배 품종이 헤이룽장·쓰촨·내몽골 등에서 재배된다고 적었다[2]. "
+ "내몽골에서는 생산량 대부분을 가축과 초식성 물고기의 풋먹이로 쓰고, 약용 이용은 시작 단계라고 한다[3].\n\n"
+ "한국에서는 식약처 목록에 '고채'라는 이명이 함께 올라 있다[1]. "
+ "1990–1995년 충남 지역 하우스 시험으로 고채(왕고들빼기)의 생육 특성과 먹는 방법을 다룬 국내 보고가 있으나, 원문은 열지 못하고 검색 요약으로만 확인했다[26]. "
+ "한국에서의 옛 이용 기록을 담은 공식 문헌은 확인하지 못했다.")
+
+S["biology"] = ("왕고들빼기는 국화과 상추속 식물로, 중국 문헌에서는 Pterocypsela indica (L.) Shih라는 이름으로도 다룬다[22]. "
+ "한국 전역에서 모은 73개 집단을 분석한 연구는 이 종을 길들여지지 않은 야생 식물로 설명했다[19].\n\n"
+ "중국 재배 품종 멍짜오를 관찰한 연구에서는 영양생장기·꽃봉오리기·개화기·결실기가 약 10일 간격으로 이어졌다[2]. "
+ "같은 연구는 개화기로 넘어가면 잎이 넓은 잎에서 갈라진 잎으로 바뀌고 작아지며, 잎이 노랗게 늙어 간다고 적었다[2]. "
+ "잎 모양은 개체마다 차이가 커서, 좁은 잎 개체는 잎 길이 15.52 cm·폭 1.80 cm, 넓은 잎 개체는 길이 20.47 cm·폭 4.53 cm로 측정되었다[21].\n\n"
+ "플라보노이드 총량의 부위별 순서는 초록에서는 꽃 > 잎 > 줄기 > 뿌리로, 본문에서는 꽃 > 줄기 > 잎 > 뿌리로 적혀 있어 같은 논문 안에서도 서술이 다르다[3]. "
+ "다른 연구에서는 잎과 씨앗이 줄기·꽃보다 총플라보노이드와 총페놀 함량이 높았다[29]. "
+ "토양 카드뮴 50 mg/kg에서도 생물량이 줄지 않을 만큼 카드뮴에 잘 견디는 것으로 보고되었다[22]. "
+ "노균병균(Bremia lactucae)의 기주이기도 하며, 왕고들빼기(var. laciniata)에서 분리한 균은 상추에서 분리한 균과 ITS 염기서열이 달랐다[30].")
+
+S["related_species"] = ("식약처 「식품원료 목록」의 같은 상추속 원료로는 상추(Lactuca sativa, 사용 부위 잎(줄기 포함)), 적로메인상추(L. sativa var. longifolia, 잎), 산씀바귀(L. raddeana, 뿌리·순, 이명 산고들빼기)가 있다[1]. "
+ "개별인정형 원료 '상추추출물(제2025-21호)'은 상추(L. sativa) 원료로 왕고들빼기와 관계가 없다[1].\n\n"
+ "이름이 비슷한 고들빼기(Crepidiastrum sonchifolium)·이고들빼기(C. denticulatum)·까치고들빼기는 상추속이 아닌 다른 속 식물이며, 고들빼기·이고들빼기는 뿌리와 잎을 모두 쓸 수 있어 사용 부위도 다르다[1]. "
+ "왕고들빼기는 잎만 쓸 수 있으므로 이들 자료와 섞지 않아야 한다[1].\n\n"
+ "학명 이명으로 Lactuca laciniata (Houtt.) Makino와 Pterocypsela laciniata가 쓰이는 것은 검색 요약으로만 확인했다[24]. "
+ "Pterocypsela 속의 다른 종(P. formosana, P. elata 등)은 별개 분류군으로 연구되므로, 그 종에서 분리한 성분 연구를 왕고들빼기 자료로 옮기면 안 된다[31]. "
+ "중국의 멍짜오 품종 논문은 서론에서 이 식물을 Ixeris 속으로 설명하는 등 분류 서술이 섞여 있어, 이 자료에서는 시료 표기(L. indica cv. Mengzao) 그대로만 인용했다[3]. "
+ "베트남 유전 다양성 논문도 초록에 L. indica와 L. sativa가 함께 적혀 있다[20]. "
+ "한국 연구의 SSR 마커는 L. serriola와 상추에도 증폭되었다[19].")
+
+S["cultivation"] = ("국내에서는 왕고들빼기 '선향' 품종을 128공 플러그 트레이에서 기르고, 어린잎은 초장 10 cm 이하, 다 자란 잎은 20±5 cm일 때 수확한 연구가 있으나 원문은 검색 요약으로만 확인했다[25]. "
+ "같은 품종으로 DFT 수경재배에서 광도·양액 농도를 달리한 시험과 비닐하우스·양액 재배 효과를 본 연구도 검색 요약에서 확인했다[25]. "
+ "야생 개체와 재배 개체를 비교한 국내 연구는 재배 개체의 환원당이 더 높았다고 보고했다(검색 요약으로만 확인)[32].\n\n"
+ "중국에서는 여러 재배 품종이 헤이룽장·쓰촨·내몽골 등에서 재배되며, 연간 생산이 667 m²당 5000 kg을 넘는다고 적혀 있다[2]. "
+ "멍짜오는 국가 승인 품종으로, 내몽골에서 5월 10일에 심고 7–9월에 시료를 거둔 시험이 있다[3].\n\n"
+ "수확 시기는 목표 성분에 따라 다르다[2][3]. "
+ "잎의 치코릭산은 꽃봉오리기에, 잎의 6종 플라보노이드 합계는 만개기에 가장 높았다[2][3]. "
+ "잎의 총트리테르페노이드도 개화기에 가장 높았다[28]. "
+ "국내 재배 면적·생산량 통계는 확인하지 못했다.")
+
+S["processing"] = ("국내에서 식품원료로 쓸 수 있는 부위는 잎뿐이다[1]. "
+ "대만 연구에서는 시장에서 산 잎을 동결건조해 분말로 만든 뒤 산성 메탄올로 추출해 분석했다[4].\n\n"
+ "잎 플라보노이드를 초음파로 뽑는 최적 조건은 용매 대 시료 비 24.76 mL/g, 출력 411.43 W, 에탄올 58.86%, 30분이었고 이때 총플라보노이드는 48.01 mg/g이었다[27]. "
+ "잎 트리테르페노이드를 마이크로파로 뽑는 최적 조건은 1:20 g/mL, 400 W, 60분이었고 총트리테르페노이드는 29.17 mg/g이었다[28]. "
+ "같은 연구에서는 생잎보다 동결건조한 잎에서 총트리테르페노이드가 늘었다[28]. "
+ "성분 정량 연구에서는 시료 1.0 g을 60% 에탄올 25 mL로 30분 초음파 추출했다[2].\n\n"
+ "베트남에서는 전초 달임액이 전통적으로 쓰였다[11]. "
+ "조다당을 정제해 얻은 산성 다당류는 8가지 단당류로 이루어져 있었다[15]. "
+ "식약처 「식품 등의 생산실적」 자료에서 왕고들빼기 품목은 확인하지 못했다.")
+
+S["genetics"] = ("한국 연구진은 왕고들빼기 전사체 서열에서 유전자 기반 SSR 프라이머 100쌍을 만들었고, 이 가운데 90쌍이 다형성을 보였다[19]. "
+ "한국 전역의 왕고들빼기 73개를 포함한 77개 집단을 분석한 결과, 다형성 정보량은 평균 0.61, 좌위당 대립유전자는 평균 10.83개, 기대 이형접합도는 0.76이었다[19]. "
+ "분자 분산 분석에서 변이 대부분은 도(道) 사이가 아니라 개체 사이에서 나왔고, 북부와 중남부 집단이 서로 다른 무리로 나뉘었다[19].\n\n"
+ "베트남에서 모은 16개 집단은 RAPD 113개 좌위 중 45.96%, ISSR 60개 좌위 중 36.32%가 다형성을 보여 유전적으로 다양했다[20]. "
+ "바닷물 관수 스트레스를 받은 야생 개체 두 종류의 뿌리·줄기·잎 전사체에서는 전사체 130,366개, 유전자 66,621개가 조립되었고 N50은 2,073 bp였다[21]. "
+ "이 연구는 잎의 광수확 복합체 유전자, 줄기의 왁스 합성 유전자, 뿌리의 질소 대사 유전자를 내염성 후보로 제시했다[21]. "
+ "중국의 멍짜오는 옛 내몽골 농목업 연구기관에서 육성한 국가 승인 품종이다[3]. "
+ "왕고들빼기 엽록체 유전체 해독과 염색체 수는 확인하지 못했다.")
+
+S["safety"] = ("식약처 「식품원료 목록」에서 왕고들빼기잎은 '사용가능' 원료이며, 붙은 조건은 사용 부위를 잎으로 한정한 것뿐이다[1]. "
+ "건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없다[1].\n\n"
+ "중금속 흡수가 가장 눈여겨볼 점이다[22][23]. "
+ "Pterocypsela indica(왕고들빼기의 중국식 학명) 화분 시험에서 뿌리에 카드뮴 31.40 mg/kg, 지상부에 69.68 mg/kg이 쌓였다[22]. "
+ "카드뮴 2.29 mg/kg·아연 526.83 mg/kg·납 595.38 mg/kg으로 오염된 흙에서는 지상부에 카드뮴 61.63 mg/kg, 아연 4261.00 mg/kg, 납 75.27 mg/kg이 쌓였다[22]. "
+ "이명으로 쓰이는 Pterocypsela laciniata는 흙의 카드뮴이 50 mg/kg일 때 지상부에 116 mg/kg을 쌓아 카드뮴 초집적 기준(100 mg/kg)을 넘었다[23][24]. "
+ "이 결과는 오염된 땅에서 자란 야생 개체의 잎을 먹을 때 중금속을 조심해야 함을 시사한다[22][23].\n\n"
+ "에탄올 추출물은 사람 백혈병 세포(HL-60)에서 IC50 313 μg/mL의 세포독성을 보였지만, 다른 연구의 분획들은 HL-60·간암·위암 세포에 독성을 보이지 않았다[10][12]. "
+ "지상부에서는 세스퀴테르펜 락톤인 11β,13-디하이드로락투신이 분리되었다[8]. "
+ "알레르기·잔류농약에 관한 공공기관 정보와 사람 대상 안전성 시험은 확인하지 못했다.")
+
+TITLES = {"overview": "한눈에 보기", "history": "이용의 역사", "biology": "식물학적 특징", "related_species": "근연종과 혼동 주의",
+          "cultivation": "재배와 생산", "processing": "가공과 이용", "genetics": "유전체와 육종", "safety": "안전성"}
+
+compounds = [
+    {"name": "Chicoric acid", "name_ko": "치코릭산", "class": "페놀산(카페오일타르타르산)", "role": "marker",
+     "part": "잎(멍짜오 품종, 꽃봉오리기)", "content_text": "잎 11695.72 μg/g(=11.70 mg/g, UPLC-QqQ-MS/MS, 시료의 건조 여부는 원문에 명시 없음)[2]; 씨앗 4.53 mg/g(식품 사용 부위 아님)[2]",
+     "activity_ko": "11개 성분 중 가장 많고, 루틴과 함께 부위를 가르는 지표로 제시됨[2]; 이 종 시료로 한 활성 시험은 확인하지 못함", "source": [2]},
+    {"name": "Rutin", "name_ko": "루틴", "class": "플라보노이드(플라보놀 배당체)", "role": "marker",
+     "part": "잎(멍짜오 품종, 그늘 건조)", "content_text": "잎 최대 782.66 µg/g(만개기, UPLC-QqQ-MS/MS)[3]; 꽃 최대 1487.90 µg/g(식품 사용 부위 아님)[3]; 전초에서 분리[7]",
+     "activity_ko": "잎 플라보노이드 6종 합계 981 µg/g 중 대부분을 차지[3]; 꽃 추출물에서 항산화 지표와 유의한 상관[27]", "source": [3, 7, 27]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로젠산", "class": "페놀산(카페오일퀸산)", "role": "marker",
+     "part": "부위 표기 확인하지 못함(베트남 북부 12개 배치)", "content_text": "HPLC-DAD 로 정량(배치별 값은 초록에 없음)[5]; 전초에서 분리[7]",
+     "activity_ko": "루테올린-7-O-글루쿠로나이드와 함께 DPPH 소거능과 가장 관련이 큰 지표 후보로 제시(시험관)[5]", "source": [5, 7]},
+    {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보노이드(플라보놀)", "role": "bioactive",
+     "part": "잎(대만 시장 구입, 동결건조)", "content_text": "산가수분해 추출물 기준 9397.28 ± 56.78 μg/g DW(HPLC-PDA 365 nm)[4]",
+     "activity_ko": "추출물 속 4가지 페놀 성분 가운데 HL-60 세포 생존 억제·미토콘드리아 기능 변화가 가장 큼(세포)[10]", "source": [4, 10]},
+    {"name": "Morin", "name_ko": "모린", "class": "플라보노이드(플라보놀)", "role": "bioactive",
+     "part": "잎(대만 시장 구입, 동결건조)", "content_text": "산가수분해 추출물 기준 16811.42 ± 727.43 μg/g DW(HPLC-PDA, 표준품 머무름 시간 비교)[4]",
+     "activity_ko": "이 종에서의 활성 시험은 확인하지 못함", "source": [4]},
+    {"name": "Cynaroside", "name_ko": "루테올린-7-O-글루코사이드(시나로사이드)", "class": "플라보노이드(플라본 배당체)", "role": "bioactive",
+     "part": "잎·지상부", "content_text": "잎 최대 56.55 µg/g(결실기)[3]; 지상부 에틸아세테이트 분획에서 분리[12]",
+     "activity_ko": "추출물의 주요 항산화 성분 6종 중 하나(시험관)[6]", "source": [3, 6, 12]},
+    {"name": "Luteolin 7-O-glucuronide", "name_ko": "루테올린-7-O-글루쿠로나이드", "class": "플라보노이드(플라본 배당체)", "role": "bioactive",
+     "part": "전초(부위 표기 확인하지 못함)", "content_text": "분리(함량 미보고)[7]; HPLC-DAD 정량 대상 4성분 중 하나[5]",
+     "activity_ko": "DPPH 소거능과 관련이 큰 지표 후보(시험관)[5]", "source": [5, 7]},
+    {"name": "3,5-Dicaffeoylquinic acid", "name_ko": "3,5-디카페오일퀸산", "class": "페놀산(디카페오일퀸산)", "role": "bioactive",
+     "part": "지상부", "content_text": "주요 항산화 성분으로 분리(함량 미보고)[6]; 지상부에서 퀸산 유도체 7종 분리[9]",
+     "activity_ko": "퀸산 유도체들이 HBV 감염 간세포주에서 세포 밖 HBV DNA를 줄임(세포)[9]", "source": [6, 9]},
+    {"name": "11beta,13-Dihydrolactucin", "name_ko": "11β,13-디하이드로락투신", "class": "세스퀴테르펜 락톤(구아이아놀라이드)", "role": "bioactive",
+     "part": "지상부", "content_text": "지상부 메탄올 추출물에서 분리(함량 미보고)[8]; 전초에서도 분리[7]",
+     "activity_ko": "사람 암세포주 4종 세포독성 시험 대상(개별 결과는 초록에서 확인하지 못함)[8]", "source": [7, 8]},
+    {"name": "Lactucaside", "name_ko": "락투카사이드(푸로푸란 리그난 배당체)", "class": "리그난 배당체", "role": "bioactive",
+     "part": "전초(부위 표기 확인하지 못함)", "content_text": "새 화합물로 분리(함량 미보고), 이량체 구아이아놀라이드 락투카인 A–C 와 함께 보고[7]",
+     "activity_ko": "락투카인 C 와 함께 유의한 항당뇨 활성 보고(동물, MeSH 에 쥐)[7]", "source": [7]},
+    {"name": "Lupeol", "name_ko": "루페올", "class": "트리테르펜", "role": "bioactive",
+     "part": "지상부", "content_text": "n-헥산 분획에서 분리(함량 미보고)[12]",
+     "activity_ko": "왕고들빼기에서 얻은 루페올을 흑색종 생쥐에 피하·종양 내 주사 시 종양 성장 억제(동물, 주사)[17]", "source": [12, 17]},
+    {"name": "Lactucenyl acetate", "name_ko": "락투세닐 아세테이트", "class": "트리테르펜(전위 루판형)", "role": "bioactive",
+     "part": "뿌리(식품 사용 부위 아님, MeSH 기준)", "content_text": "새 화합물로 분리(함량 미보고)[16]",
+     "activity_ko": "확인하지 못함", "source": [16]},
+    {"name": "beta-Carotene", "name_ko": "β-카로틴", "class": "카로티노이드", "role": "nutrient",
+     "part": "먹는 부위(태국 남부 채소, 부위 표기는 초록에 없음)", "content_text": "3575.54 μg/100 g(조사한 15종 가운데 최고; 생/건 기준은 초록에 명시 없음)[18]",
+     "activity_ko": "확인하지 못함", "source": [18]},
+    {"name": "Lactuca indica polysaccharide", "name_ko": "왕고들빼기 산성 다당류(LIP)", "class": "다당류", "role": "bioactive",
+     "part": "부위 표기 확인하지 못함", "content_text": "조다당에서 균일 다당류로 정제, 8가지 단당류로 구성(함량 미보고)[15]",
+     "activity_ko": "STZ 유발 1형 당뇨 생쥐에서 혈당 대사·염증·장내 미생물 지표 개선(동물)[15]", "source": [15]},
+    {"name": "2,3-Dihydro-2-ethyl-3-methylmaleimide N-beta-D-glucopyranoside", "name_ko": "말레이미드 N-글루코사이드(새 화합물)", "class": "질소 함유 배당체", "role": "bioactive",
+     "part": "부위 표기 확인하지 못함", "content_text": "새 화합물로 분리(함량 미보고)[13]",
+     "activity_ko": "LPS 자극 대식세포 NO 생성 억제 IC50 25.3 µM(세포)[13]", "source": [13]},
+    {"name": "Lactucaindica A", "name_ko": "락투카인디카 A–C(리그난 2종·앱시스산 알코올 배당체 1종, 새 화합물)", "class": "리그난·앱시스산 알코올 배당체", "role": "bioactive",
+     "part": "잎", "content_text": "잎에서 새 화합물 3종과 알려진 네오리그난 6종 분리(함량 미보고; 초록 본문에는 'indicalatucas A-C'로도 표기)[14]",
+     "activity_ko": "그중 한 화합물이 LPS 자극 RAW 264.7 세포 NO 생성 억제 IC50 15.8 µM(세포)[14]", "source": [14]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Chicoric acid", "compound_ko": "치코릭산(동시 정량 11성분 중 하나)",
+     "part": "잎(멍짜오 품종, 2020년 내몽골 재배, 꽃봉오리기)", "content": "잎 11695.72 μg/g(=11.70 mg/g); 씨앗 4.53 mg/g[2]",
+     "method": "UPLC-QqQ-MS/MS(MRM)",
+     "conditions": {"instrument": "UltiMate 3000 + TSQ Quantum Access Max 삼중사중극자 질량분석기",
+                    "column": "Thermo C18(100 × 2.1 mm, 1.8 µm)",
+                    "mobile_phase": "A 0.1% 포름산 수용액, B 아세토나이트릴",
+                    "gradient": "0–2분 95% A; 2–4분 95→70% A; 4–7분 70→60% A; 7–10분 60→20% A; 10–13분 20→5% A; 13–15분 5% A; 15–17분 5→50% A; 17–20분 50→95% A",
+                    "flow": "0.3 mL/min", "temp": "25 °C",
+                    "detection": "ESI 양·음이온, MRM; 기화기 350 °C, 모세관 300 °C, 분무 전압 3000/2500 V, 시스가스 35 Arb, 보조가스 10 Arb(MRM 전이는 보충표, 확인하지 못함)",
+                    "injection": "5 µL",
+                    "sample_prep": "시료 1.0 g + 60% 에탄올 25 mL, 초음파(400 W) 30분, 3000 rpm 10분 원심, 0.22 µm 여과",
+                    "standard": "표준품 순도 > 98%(11종)",
+                    "linearity": "검량선은 원문 표에 있어 확인하지 못함",
+                    "lod": "S/N 3 기준(값은 보충표, 확인하지 못함)", "loq": "S/N 10 기준(값은 보충표, 확인하지 못함)",
+                    "recovery": "평균 93.34–101.85%(11성분); 정밀성 RSD < 4.08%, 반복성 < 4.55%, 안정성 < 4.56%"},
+     "rationale": "11성분 가운데 함량이 가장 높고, 루틴과 함께 잎·전초를 다른 부위와 가르는 지표로 제시되었다[2]. PMC 전문 Methods 확인.",
+     "source": [2], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740015/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Rutin", "compound_ko": "루틴(동시 정량 플라보노이드 6종 중 하나)",
+     "part": "잎(멍짜오 품종, 그늘 건조 후 분쇄)", "content": "잎 최대 782.66 µg/g(만개기); 잎 6종 합계 최대 981 µg/g[3]",
+     "method": "UPLC-QqQ-MS/MS(MRM)",
+     "conditions": {"instrument": "UltiMate 3000 + TSQ Quantum Access Max 삼중사중극자 질량분석기",
+                    "column": "Thermo C18(100 × 2.1 mm, 1.8 μm)",
+                    "mobile_phase": "A 0.1% 포름산 수용액, B 아세토나이트릴",
+                    "gradient": "0~2분 95% A; 2~4분 95~70% A; 4~7분 70~60% A; 7~10분 60~20% A; 10~13분 20~5% A; 13~15분 5% A; 15~17분 5~50% A; 17~20분 50~95% A",
+                    "flow": "0.3 mL/min", "temp": "25 °C",
+                    "detection": "ESI MRM(루틴·퀘르세틴·캠페롤은 음이온, 루테올린·루테올린-7-O-글루코사이드·아피제닌은 양이온 감도 높음); 기화기 350 °C, 모세관 300 °C",
+                    "injection": "5 µL",
+                    "sample_prep": "시료 1.0 g + 60% 에탄올 25 mL, 실온 초음파(400 W) 30분, 3000 rpm 10분 원심, 0.22 µm 여과",
+                    "standard": "표준품 순도 > 98%",
+                    "linearity": "R² ≥ 0.9990(6개 농도)",
+                    "lod": "S/N 3 기준(값은 원문 표, 확인하지 못함)", "loq": "S/N 10 기준(값은 원문 표, 확인하지 못함)",
+                    "recovery": "80·100·120% 첨가 회수 시험 실시(값은 원문 표, 확인하지 못함); 정밀성 RSD < 4.08%, 안정성·반복성 < 4.56%"},
+     "rationale": "잎 플라보노이드 합계의 대부분을 차지하는 주성분이다[3]. PMC 전문 확인. 다만 이 논문은 서론에서 식물을 Ixeris 속으로 설명하는 등 분류 서술이 혼재한다[3].",
+     "source": [3], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8705863/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Quercetin", "compound_ko": "퀘르세틴(플라보놀 4종 동시 분석 중 하나)",
+     "part": "잎(대만 시장 구입, 동결건조 분말, 산성 메탄올 가수분해 추출물)", "content": "9397.28 ± 56.78 μg/g DW[4]",
+     "method": "HPLC-PDA",
+     "conditions": {"instrument": "Hitachi D-2000 + 광다이오드 배열 검출기(L-2455)",
+                    "column": "YMC ODS-A(250 × 4.6 mm, 5 μm)",
+                    "mobile_phase": "아세토나이트릴–물(30:70, v/v), 인산 1% 함유",
+                    "flow": "1.00 mL/min", "detection": "365 nm(플라보놀)", "injection": "20 μL",
+                    "sample_prep": "동결건조 분말 5 g + 산성 메탄올(1.2 N HCl, BHT 0.4 g/L) 50 mL, 75 °C 5시간 환류, 농축 후 6 mL 로 재용해, 0.45 μm 여과",
+                    "standard": "미리세틴·모린·퀘르세틴·캠페롤 표준품"},
+     "rationale": "대만 토착 채소 27종 가운데 퀘르세틴이 많은 3종 중 하나로 보고되었다[4]. PMC 전문 확인. 산가수분해 후 아글리콘으로 잰 값이라 배당체 함량과 직접 비교하기 어렵다[4].",
+     "source": [4], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042579/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Chlorogenic acid", "compound_ko": "클로로젠산(카페산·루테올린-7-O-글루쿠로나이드·루테올린과 동시 정량)",
+     "part": "부위 표기 확인하지 못함(베트남 북부 12개 배치)", "content": "배치별 함량은 초록에 없어 확인하지 못함[5]",
+     "method": "HPLC-DAD",
+     "conditions": {},
+     "rationale": "PLS 회귀에서 루테올린-7-O-글루쿠로나이드와 함께 DPPH 소거능과 가장 관련이 커(VIP > 1) 품질 평가 지표 후보로 제시되었다[5]. 초록에 따르면 직선성 ≥ 0.9999, 회수율 97.8–102.7%, 검출·정량한계 0.02–0.84/0.07–2.79 µg/mL(4성분 범위)이다[5]. 전문 확인 못함.",
+     "source": [5], "url": "https://pubmed.ncbi.nlm.nih.gov/42544561/", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "lactuca-indica",
+    "name_ko": "왕고들빼기",
+    "name_en": "Indian lettuce",
+    "scientific_name": "Lactuca indica L.",
+    "aliases": ["왕고들빼기잎", "고채", "Slender-leaf Indian lettuce", "Indian lettuce", "Chondrilla squarrosa Poir.",
+                "Pterocypsela indica (L.) C.Shih", "Lactuca laciniata (Houtt.) Makino", "Pterocypsela laciniata (Houtt.) C.Shih"],
+    "sections": [{"key": k, "title": TITLES[k], "body": S[k]} for k in TITLES],
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for k in TITLES:
+    print(k, len(S[k]))

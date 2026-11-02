@@ -1,0 +1,111 @@
+{
+ "slug": "phoca-groenlandica",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 84,
+ "checked_items": 60,
+ "verified": 130,
+ "fixed": 14,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "예전 논문에는 Phoca groenlandica라는 이름도 함께 쓰였다[6, 19, 24]",
+   "after": "예전 논문에는 Phoca groenlandica라는 이름도 함께 쓰였다[6, 19, 21]",
+   "why": "[24] 제목은 'Phagophilus groenlandicus'(오기)로 Phoca groenlandica 사용 근거가 아님 → Phoca groenlandica를 제목에 쓴 [21]로 교체"
+  },
+  {
+   "where": "sections.history",
+   "before": "캐나다 북부와 그린란드의 이누이트에게 물범 고기와 내장은 중요한 전통 식품이며, 캐나다 원주민은 수천 년 동안 물범의 근육·지방층·심장·간 등을 날것이나 덜 익힌 상태로도 먹어 왔다[8].",
+   "after": "캐나다 북부와 그린란드의 이누이트에게 물범 고기와 내장은 중요한 전통 식품이며, 캐나다 원주민은 수천 년 동안 물범의 근육·지방층·심장·간 등을 날것이나 덜 익힌 상태로도 먹어 왔다[8]. 이 서술은 하프물범만이 아니라 고리무늬물범 등 여러 물범을 묶은 일반 서술이다[8].",
+   "why": "[8] 원문은 종 구분 없는 'seal meat and organ tissues' 서술(캐나다 사냥 대상 7종) — 하프물범 고유 근거처럼 읽히지 않게 명시"
+  },
+  {
+   "where": "sections.history",
+   "before": "물범 고기가 오랫동안 기름 추출과 모피·가죽 생산의 부산물로 여겨져 비료·사료로 많이 쓰였고",
+   "after": "물범 고기가 여전히 주로 물범유 추출과 모피·가죽 생산의 부산물로 여겨져 상당량이 비료·사료로 쓰이며",
+   "why": "[9] 원문: 'is still predominantly considered a byproduct or waste ... bulk ... ending up as fertilizer, animal feed' — '오랫동안'(과거)이 아니라 현재 서술"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "하프물범은 육지에 붙은 '정착빙' 위에서 새끼를 낳으며, 번식지는 백해, 그린란드해, 래브라도 앞바다(Front), 세인트로렌스만 남부 네 곳이다[6].",
+   "after": "하프물범의 번식지는 백해, 그린란드해, 래브라도 앞바다(Front), 세인트로렌스만 남부 네 곳이다[6]. 번식 얼음을 [6]은 육지에 붙은 '정착빙(fast ice)'으로, [7]은 2~3월의 떠다니는 1년생 유빙(pack ice)으로 적어 서술이 다르다[6, 7].",
+   "why": "[7] 원문 'whelps on drifting, first-year pack ice during February–March' 와 [6] 'fast ice' 가 상충 — 한쪽만 단정하지 않게 두 출처 병기"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 바다에 잔점박이물범(Phoca vitulina)·회색물범(Halichoerus grypus)·두건물범(Cystophora cristata)·고리무늬물범(Phoca hispida)이 함께 산다[6, 26, 27].",
+   "after": "캐나다 동부 바다와 북극에는 잔점박이물범(Phoca vitulina)·회색물범(Halichoerus grypus)·두건물범(Cystophora cristata)·고리무늬물범(Phoca hispida)도 산다[26, 27].",
+   "why": "[6]은 근연종 분포를 다루지 않음; [26]의 고리무늬물범 시료는 세인트로렌스가 아니라 캐나다 동부 북극 해역 — '같은 바다'를 고침"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "세인트로렌스만에서 태어난 새끼 가운데 PBDE는 하프물범이 가장 낮았다[27].",
+   "after": "세인트로렌스만에서 태어난 잔점박이물범·회색물범·하프물범 새끼 가운데 PBDE는 하프물범이 가장 낮았다[27]. 이 비교값들은 모두 지방층·혈청 같은 조직 시료이며 정제유 값이 아니다[26, 27].",
+   "why": "비교 대상 종 명시, 조직 값(정제유 아님) 명시"
+  },
+  {
+   "where": "sections.processing",
+   "before": "국내 연구에 쓰인 캐나다산 하프물범유 제품은 공급처 자료 기준으로 총 오메가-3 23%",
+   "after": "국내 연구에 쓰인 캐나다 뉴펀들랜드 업체의 하프물범유 제품은 논문에 적힌 제품 조성 기준으로 총 오메가-3 23%",
+   "why": "[10] 원문은 제3의 기관이 제공한 배합(formula) 값을 적었을 뿐 공급처 분석값이라고 하지 않음; 연구진이 직접 분석한 값도 아님"
+  },
+  {
+   "where": "sections.processing",
+   "before": "이 종의 기름이라고 밝힌 사람 시험은 확인하지 못함.",
+   "after": "이 종의 기름이라고 밝힌 사람 시험은 확인하지 못함. 'seal oil'을 쓴 사람 시험(염증성 장질환 관절통, 1형 당뇨 신경병증)은 원문(전문·초록)에 물범 종이 밝혀져 있지 않아 하프물범유 효능 근거로 쓰지 않았다[33, 34]. 고시의 기능성은 'EPA 및 DHA 함유 유지' 원료 전체에 대한 것이다[3].",
+   "why": "종 미기재 seal oil 사람 시험[33·34]을 본문에서도 근거 아님으로 명시(V2 지시); 고시 기능성이 하프물범유 단독 사람 근거가 아님을 명시"
+  },
+  {
+   "where": "compounds.Eicosapentaenoic acid.content_text",
+   "before": "6.7%(캐나다산 하프물범유 제품, 공급처 제시값)[10]; 고시: 바닷물범 유래 원료는 EPA+DHA 합 120 mg/g 이상[3]",
+   "after": "6.7%(캐나다산 하프물범유 제품, 논문에 적힌 제품 조성값)[10]; 고시: 바닷물범 유래 원료는 EPA+DHA 합 120 mg/g 이상[3]",
+   "why": "[10] 원문은 제공된 배합 값(as per the formula provided by) — 공급처 분석값으로 단정하지 않음"
+  },
+  {
+   "where": "compounds.Docosahexaenoic acid.content_text",
+   "before": "10.3%(캐나다산 하프물범유 제품, 공급처 제시값)[10]",
+   "after": "10.3%(캐나다산 하프물범유 제품, 논문에 적힌 제품 조성값)[10]",
+   "why": "[10] 원문은 제공된 배합 값(as per the formula provided by) — 공급처 분석값으로 단정하지 않음"
+  },
+  {
+   "where": "compounds.Docosapentaenoic acid.content_text",
+   "before": "4.7%(캐나다산 하프물범유 제품, 공급처 제시값)[10]",
+   "after": "4.7%(캐나다산 하프물범유 제품, 논문에 적힌 제품 조성값)[10]",
+   "why": "[10] 원문은 제공된 배합 값(as per the formula provided by) — 공급처 분석값으로 단정하지 않음"
+  },
+  {
+   "where": "compounds.Omega-3 fatty acids.content_text",
+   "before": "23%(캐나다산 하프물범유 제품, 공급처 제시값)[10]",
+   "after": "23%(캐나다산 하프물범유 제품, 논문에 적힌 제품 조성값)[10]",
+   "why": "[10] 원문은 제공된 배합 값(as per the formula provided by) — 공급처 분석값으로 단정하지 않음"
+  },
+  {
+   "where": "assays[0].conditions",
+   "before": "{\"instrument\": \"\", \"column\": \"\", \"mobile_phase\": \"\", \"gradient\": \"\", \"flow\": \"\", \"temp\": \"\", \"detection\": \"\", \"injection\": \"\", \"sample_prep\": \"\", \"standard\": \"\", \"linearity\": \"\", \"lod\": \"\", \"loq\": \"\", \"recovery\": \"\"}",
+   "after": "{\"instrument\": \"가스크로마토그래프(제1~3법 공통)\", \"column\": \"\", \"mobile_phase\": \"\", \"gradient\": \"\", \"flow\": \"\", \"temp\": \"\", \"detection\": \"불꽃이온화검출기(FID)\", \"injection\": \"\", \"sample_prep\": \"제1·2법: 0.5 N 메탄올성 수산화나트륨·14% 트리플루오르보란메탄올로 메틸에스테르화; 제3법: EPA·DHA 에틸에스테르를 메틸에스테르화 없이 직접 분석\", \"standard\": \"내부표준물질 면적과 비교해 정량(제3법 표준물질: EPA·DHA 에틸에스테르)\", \"linearity\": \"\", \"lod\": \"\", \"loq\": \"\", \"recovery\": \"\"}",
+   "why": "고시 제4. 3-32-1~3 원문(hf_methods.json)에 있는 기기·검출기·전처리·정량 방식을 채움(칼럼·온도는 법마다 달라 비움)"
+  },
+  {
+   "where": "markers[0].note",
+   "before": "식약처 고시 제2026-43호 2-16. 섭취 시 주의: 의약품(항응고제, 항혈소판제, 혈압강하제 등) 복용 시 전문가 상담, 피부 관련 이상반응 가능, 이상사례 시 섭취 중단·상담[3]. card.json 의 lists 에는 KR_NOTICE 가 없으나 고시 원재료 칸에 이 종의 현 학명(Pagophilus groenlandicus)이 적혀 있어 넣었다[2, 3].",
+   "after": "식약처 고시 제2026-43호 2-16. 섭취 시 주의: 의약품(항응고제, 항혈소판제, 혈압강하제 등) 복용 시 전문가 상담, 피부 관련 이상반응 가능, 이상사례 시 섭취 중단·상담[3]. card.json 의 lists 에는 KR_NOTICE 가 없다(card lists 누락 — 학명 차이: 식품원료 목록 A코드는 Phoca groenlandica, 고시·C코드 '바닷물범(고시형)'은 Pagophilus groenlandicus). 고시 원재료 칸 원문 '바닷물범(Pagophilus groenlandicus)'과 C코드 행으로 대조해 넣었다[2, 3].",
+   "why": "KR_NOTICE 근거 대조 결과를 'card lists 누락(학명 차이)'로 기록"
+  }
+ ],
+ "notice_check": {
+  "result": "근거 맞음 — card lists 누락(학명 차이)",
+  "detail": "card.json lists 에 KR_NOTICE 없음. docs/refs/MFDS/MFDS_2026-43_고시형원료_요건.json 2-16 'EPA 및 DHA 함유 유지' manufacture[0] 원문 '(1)원재료 : 식용 가능한 어류 및 조류(藻類), 바닷물범(Pagophilus groenlandicus)', manufacture[2] '바닷물범 유래 원료는 120 mg/g 이상'. I1020_20261013.json C코드 행 '바닷물범(고시형)'(ENG_NM Pagophilus groenlandicus, 이명 파고필루스 그로엔란디쿠스, 기능성원료·사용가능). A코드 4행(하프물범(단, 하프물범신제외)·…유·…오일농축·…추출액)은 학명 Phoca groenlandica, 부위 '-', 조건 '단, 하프물범신제외', 사용가능 — dossier 그대로임. markers 의 지표성분(EPA와 DHA의 합)·제조기준·규격·기능성 4개·1일 섭취량 3구간(0.5~2 / 0.9~2 / 0.6~2.24 g)·섭취 시 주의 (가)~(다)를 고시 원문(제1~제3.txt 1630~1670행)과 한 줄씩 대조해 모두 일치 확인. 학명 동일 종 근거: Carr 2015(Pagophilus groenlandicus Erxleben, 1777)와 옛 논문들의 Phoca groenlandica 표기."
+ },
+ "checks": {
+  "seal_oil_human_trials": "[33](Bjørkkjær 2006, PMC 전문)·[34](Lewis 2017, 초록) 모두 물범 종 미기재 확인 — 효능 근거로 쓰이지 않았고 본문에 그 사실을 명시함. 하프물범유 효과는 세포·동물(생쥐 대식세포[10], 유방암 세포주[29], 쥐 신독성[28], 기니피그[30,31])로만 서술됨을 확인. [28]·[29] 초록은 'harp seal oil'을 명시.",
+  "two_species_combined": "Brunborg 2006[24](하프물범·두건물범 근육, '식용을 막을 수준 아님' 결론과 셀레늄 몰 과잉)은 두 종 합산 서술로 표시돼 있음 확인. Julshamn 2000[35]은 종별 차이로 서술 확인.",
+  "contaminants_tissue": "PCB(Zitko 1998 지방층 945/890·근육 3.8/8.2 ng/g 습중량), Kleivane 2000(지방층 ΣPCB 11,133 ng/g 지방, 2,093–20,382), Gouteux 2005 톡사펜(평균±SE, ng/g 지방), Chan 2021 전통식품 — 모두 조직 값으로 적혀 있고 정제유 값은 확인하지 못함으로 명시됨.",
+  "other_marine_mammals": "물개(Callorhinus ursinus)는 I1020에서 사용불가 대조로만 쓰였고 자료 혼입 없음. 고래 기름 자료 없음. 근연 물범 4종 값은 비교 문단에만 종명과 함께 있음."
+ },
+ "unverifiable_notes": [
+  "[3] url(mfds.go.kr 게시판 seq)·[4]·[5] 웹 url 은 열지 않고 로컬 원문(고시 txt·hf_methods.json·hf_items.csv 2025 행: 생산 2,541 t, 판매 238,467,658천원)으로만 확인",
+  "[34] 전문은 열지 않고 PubMed 초록만 확인(종 미기재 판단은 초록 기준)"
+ ]
+}

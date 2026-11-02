@@ -1,0 +1,50 @@
+# notes (PubMed, A. agallocha)
+- 41462870 PMC12730916 10.3390/biomedicines13122855 Biomedicines 2025: agarwood of A. agallocha (chim-hyuang Korea); EtOAc fr: N-feruloyltyramine, (3S,5S)-octahydrocurcumin, 1,7-bis(4-hydroxyphenyl)heptane, N-caffeoyltyramine; compd 43.7% tau aggregation reduction 20 uM (cell-free/cell)
+- 40306531 10.1016/j.phytochem.2025.114527 agalleremonols A-L eremophilane from agarwood A. agallocha; PC12 CORT survival 82.14/72.63/74.36%
+- 35302005 10.1016/j.fitote.2022.105177 seven new 2-(2-phenylethyl)chromones from agarwood A. agallocha; NO IC50 3.71-32.04 uM RAW264.7
+- 34487980 10.1016/j.phytochem.2021.112920 eudesmane (agalleudesmanol A-I) agarospirane; IC50 5.46-14.07 uM
+- 36812976 10.1016/j.ijbiomac.2023.123758 136 CYP genes A. agallocha genome, 8 clans 38 families
+- 25005802 PMC4108785 10.1186/1471-2164-15-578 draft genome A. agallocha; cucurbitacin E, I from in vitro agarwood; CITES App II mention
+- 38114145 10.19540/j.cnki.cjcmm.20230617.101 Qinan cp genome 174,909 bp GC 36.7% 136 genes; clusters with A. agallocha
+- 39145191 PMC11322813 10.3389/fpls.2024.1405168 ~22 spp all produce agarwood; ChP legal: A. sinensis & A. agallocha (Lour.)Roxb ; Japan 5 species
+- 31070538 PMC6292371 10.1080/13880209.2018.1492000 ALR methanol extract GI motility mice 200-800 mg/kg; ACh EC50 0.35, KCl 0.32 mg/mL
+- 30396718 10.1016/j.phymed.2018.07.006 AEE 5-FU mucositis mice; 11 comps in plasma
+- 21409681 10.1080/10286020.2010.550881 buagafuran (4-butyl-alpha-agarofuran) from gharu-wood A agallocha, rat PK, F<9.5%
+- 23566359 10.2174/1573409911309030012 agarwood oil: agarospirol 12.5%, jinkoh-eremol 11.8%, hinesol 8.9%; TPA ear mice (topical)
+- 16052722 PMC1389870 10.1631/jzus.2005.B0849 in vitro propagation
+- 28053882 PMC5198823 leaves(!) hepatoprotective rats — leaf, not resin
+- 9324002 stems aqueous extract hypersensitivity rats (stems, unclear resin)
+- 28487909 PMC5416638 roots antimicrobial; Mesir paste Turkey
+- 39756995 roots; 40283205 roots — not resin
+- 37951375 10.1016/j.jep.2023.117385 India 75% subsidy list includes A. agallocha
+- 28569322 agalloside neural stem cell differentiation (part? check)
+- 26899592 Kyung-Ok-Ko composition incl A. agallocha
+- 42250326 10.1016/j.micres.2026.128576 fungal induction A. malaccensis (syn. A. agallocha Roxb.) — synonym evidence; resin in 21 d; 90 d sesquiterpenoids > wild
+- 41997393 10.1016/j.phytochem.2026.114930 chromone dimers A. malaccensis agarwood; NO IC50 6.86-25.72 uM
+- 36580576 10.1080/14786419.2022.2162516 HPTLC agarwood oil NE India; marker band anisylacetone+oxygenated sesquiterpene; >50% superior, <20% poor
+- 34894947 PMC8676596 leaf extract (not resin) nanocapsules
+- 30672698 10.1021/acs.jnatprod.8b00635 A. malaccensis agarwood chromones; 6-methoxy-, 7-methoxy-2-(2-phenylethyl)chromone PPARγ partial agonists, adiponectin hBM-MSC
+- 39734496/38021480 leaf — skip
+- 29575899 10.1021/acs.analchem.8b00142 3D GC agarwood (A. malaccensis) oleoresin oxygenated sesquiterpenes — method only
+- 29083898 10.1021/acs.jnatprod.7b00462 aquilanols A,B humulene-type from agarwood A. malaccensis (Laos)
+- 28946701 PMC6151416 10.3390/molecules22101612 gaharu grades 1H-NMR: high grade kusunol, jinkohol, 10-epi-γ-eudesmol; intermediate fatty acid+vanillic acid; low aquilarone derivatives & phenylethyl chromones
+- 28505589 10.1016/j.jpba.2017.04.047 authentication A. crassna vs A. malaccensis chips NMR, GC-MS, DNA
+- 28445049 10.1021/acs.jnatprod.6b01096 seeds A. malaccensis phorbol esters (4 new) elastase IC50 2.7,0.8,2.1 uM; enhance superoxide
+- 27007372 PMC4813253 10.3390/ijms17030398 seeds phorbol ester aquimavitalin, antiallergic IC50 1.7, 11 nM
+- 28290512 PMC5349546 10.1038/srep44406 Assam fungal interaction Fusarium; agarospirol, γ-eudesmol
+- 25704770 10.1016/j.chroma.2015.01.096 GCxGC essential oils A. malaccensis ~550 peaks 155 identified 20.1-53.0% TIC; 4 grades
+- 42887829 10.1016/j.jep.2026.122510 Aquilaria leaves review: 185 cpds; leaves as herbal tea S China/SE Asia; low acute toxicity tested ranges; long-term limited
+- 32128000 leaf tea skin sensitization rabbit (leaf) skip
+- 30914892 leaf extract rats CP — leaf skip
+- 21299133 Nat Prod Commun 2010 5(12):1965-8 (no doi) A. malaccensis volatile oils Malaysia: 4-phenyl-2-butanone 32.1%, jinkoh-eremol 6.5%, α-guaiene 5.8%; commercial oil α-guaiene 10.3%, caryophyllene oxide 8.6%, eudesmol 3.2%; 31 vs 29 compounds
+- 32226799 PMC7093814 10.1016/j.dib.2019.104987 data brief A. malaccensis EO natural vs induced agarwood, healthy trunk, HD GC-MS
+- 28747900 PMC5507295 10.3389/fmicb.2017.01286 Assam 21 sites; agarospirol after 3 months; 31% bacterial and 23% fungal isolates induced
+- 36088520 10.1007/s00284-022-02999-y Hojai Assam fermentation then distillation, A. malaccensis oil (attar)
+- 35520206 PMC9060603 10.1039/c8ra09409h review 367 compounds agarwood 4 species, 11 types
+- 33467706 QiNan — species names stripped, skip
+- 28747900 full text: GC-MS Agilent 7890A/5975C, DB-WAX 30 m x 0.25 mm 0.25 um, He 1.0 mL/min, 1 uL, inj 230C, oven 80C 1min ->150 @10/min ->250 @5/min; EI 70 eV, m/z 50-500; sample 1 g wood dust EtOAc reflux, conc, in 1 mL DCM; markers agarospirol, benzyl acetone, anisyl acetone; agarospirol 3.77% (bacterium AQGWDB1), 3.33% Penicillium polonicum, ... 0.03%; wood control 0.00; 4-5 yr trees Dergaon Assam; holes 5 mm, depth 1.5 cm; natural formation 25-30 yrs; "Eight species of Aquilaria listed CITES App II, IUCN vulnerable"
+- 32226799 full text: Hulu Langat Selangor; HD 200 g in 1 L overnight, 1.5 L, Clevenger 5 h, hexane, rotavap 45C; IS nonadecanoic acid; PerkinElmer Clarus 600, Elite-5MS 30 m x 0.25 mm x 0.25 um; He 1 mL/min; split 20:1, 3 uL; inj 200C, det 300C; 60C 3min, 10/min to 150 hold 5, 10/min to 285 hold 8; total 38.5 min; m/z 30-300; RI C8-C40; NIST08 >70%; induced agarwood: holes with nails + inoculum containing honey, 5 years
+- 33474439 PMC7799667 10.1080/23802359.2018.1519382 A. malaccensis cp genome 174,832 bp, IR 42,091 x2, LSC 87,302, SSC 3,348; 139 genes (92 PCG, 39 tRNA, 8 rRNA); CITES II; IUCN VU; Indo-malesian endemic
+- 31555997 10.1007/s11418-019-01362-z: added to CITES App II in 2005; Indonesian agarwood; Gyrinops not in Non-JPS 2018
+- 40594782 PMC12214818 10.1038/s41598-025-08606-x: both Aquilaria and Gyrinops genera listed App II; Gyrinops paraphyletic
+- WebSearch(1): KHP335 mfds PDF (blocked ENOTFOUND) — summary says KHP defines 침향 = A. agallocha Roxburgh 수지 침착 수간목; koreascience papers not accessible. cites.org blocked.
