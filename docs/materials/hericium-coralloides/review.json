@@ -1,0 +1,123 @@
+{
+ "slug": "hericium-coralloides",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 64,
+ "checked_items": 54,
+ "verified": 99,
+ "fixed": 17,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "효능 연구는 대부분 세포·동물 수준이며, 사람을 대상으로 한 임상시험은 2026년 종설에서도 찾지 못했다고 보고되었다[8].",
+   "after": "효능 연구는 대부분 세포·동물 수준이며, 2026년 종설은 이 버섯 대사물의 비알코올성 지방간(NAFLD) 효과를 확인하거나 반박한 임상 연구를 찾지 못했다고 적었다[8].",
+   "why": "[8] 원문은 'NAFLD에 대한' 임상 연구가 없다고 썼을 뿐, 사람 임상시험 전반이 없다고 하지 않음 — 범위를 원문대로 좁힘"
+  },
+  {
+   "where": "sections.history",
+   "before": "같은 종설은 이 종을 다룬 첫 논문이 1983년에 나왔다고 정리했다[8].",
+   "after": "같은 종설은 자신들이 검색한 데이터베이스에서 이 종을 다룬 첫 논문이 1983년에 나왔다고 정리했다[8].",
+   "why": "[8] 의 1983년은 eLIBRARY.RU·NCBI·Scopus 검색 결과 기준 — 조건을 밝힘"
+  },
+  {
+   "where": "sections.biology",
+   "before": "티베트 보미현에서 채집한 야생 균주(SH001)는",
+   "after": "티베트 야생 균주(SH001; 채집지는 원문 방법 절에 보미현, 결과 절에 미린현으로 다르게 적힘)는",
+   "why": "[2] 전문: 방법 절은 Bomi County, 결과 절은 Mainling County(Nyingchi)로 서로 다름"
+  },
+  {
+   "where": "sections.biology",
+   "before": "배양 균사는 선충을 쫓고 죽이는 지방산 혼합물(리놀레산·올레산·팔미트산이 주성분)을 만든다[23].",
+   "after": "배양물은 선충 기피·살선충 활성을 보였고, 여기서 리놀레산·올레산·팔미트산이 주성분인 살선충성 지방산 혼합물이 얻어졌다[23].",
+   "why": "[23] 초록: 기피·살선충 효과는 배양물의 것이고, 지방산 혼합물은 살선충 활성으로만 보고됨"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "식약처 「식품원료 목록」에서 같은 속의 노루궁뎅이버섯(Hericium erinacium / H. erinaceus)은 자실체·균사체 원료(균사체추출물·균사체발효추출물 등)로 따로 올라 있고,",
+   "after": "식약처 「식품원료 목록」에서 같은 속의 노루궁뎅이버섯(Hericium erinacium / H. erinaceus)은 자실체·균사체 이름의 원료(균사체추출물·균사체발효추출물 등) 여러 개로 따로 올라 있으나 사용 조건은 모두 '사용가능부위 : 자실체'이고,",
+   "why": "로컬 I1020 원자료: 노루궁뎅이버섯균사체·균사체추출물·균사체발효추출물 행도 USE_CND_STDR_CN 이 '사용가능부위 : 자실체'임"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "ITS 서열 비교에서 북미의 H. americanum과 H. coralloides는 H. erinaceus와 가까운 종으로 묶인다[9].",
+   "after": "H. americanum과 H. coralloides는 ITS 서열 비교에서 H. erinaceus와 가까운 종으로 보고되었다고 정리되어 있다[9].",
+   "why": "[9] 서론은 두 종이 북미·유럽에 분포하며 ITS 상 H. erinaceus와 가깝다고 인용함 — '북미의' 한정은 원문과 다름"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "노루궁뎅이버섯 균사체의 에리나신 연구 결과를 산호침버섯 자실체 효능으로 옮겨 적어서는 안 된다[9].",
+   "after": "노루궁뎅이버섯에서도 에리나신 생합성 유전자는 주로 균사에서 발현되고 자실체에서는 발현되지 않는다고 정리되어 있으므로[9], 균사체의 에리나신 결과를 산호침버섯 자실체 효능으로 옮겨 적어서는 안 된다[9].",
+   "why": "[9] 가 직접 말하지 않는 편집 문장에 [9] 를 붙였음 — [9] 본문의 근거(에리나신 유전자는 균사 발현·자실체 미발현)를 함께 적음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "건조 분말 성분 분석에서 총당 33.40%",
+   "after": "재배 자실체 건조 분말 성분 분석에서 총당(페놀-황산법) 33.40%",
+   "why": "[3] 전문: 재배 자실체를 건조·분쇄한 시료, 총당은 페놀-황산법(다당 포함) — [2] 의 유리당 1.6 g/100 g 과 방법이 다름을 밝힘"
+  },
+  {
+   "where": "sections.safety",
+   "before": "생쥐에 자실체 분말 500 mg/kg을 7주 먹인 실험에서",
+   "after": "알츠하이머 모델(APP/PS1) 생쥐에 자실체 분말 500 mg/kg을 49일(7주) 동안 매일 위내 투여한 실험에서",
+   "why": "[3] 전문: APP/PS1 형질전환 생쥐, 0.2% CMC-Na 에 녹여 49일 위내 투여 — 모델·투여 경로를 밝힘"
+  },
+  {
+   "where": "compounds.Corallocin A.activity_ko",
+   "before": "사람 성상세포(1321N1)에서 NGF·BDNF 발현 유도(세포 실험)[10]",
+   "after": "사람 성상세포종 세포(1321N1)에서 NGF 생산 증가, PC12 세포 신경돌기 생장 촉진(세포 실험)[8, 10]",
+   "why": "[10] 초록은 '모두 NGF 및/또는 BDNF 유도'라고만 함; [8] 전문은 A·C 가 NGF, B·C 가 BDNF 를 늘렸다고 정리 — A 의 BDNF 는 근거 없음. 1321N1 은 성상세포종 세포주"
+  },
+  {
+   "where": "compounds.Corallocin B.activity_ko",
+   "before": "NGF·BDNF 발현 유도, HUVEC·MCF-7·KB-3-1 세포 증식 억제(세포 실험)[10]",
+   "after": "BDNF 발현 증가, HUVEC·MCF-7·KB-3-1 세포 증식 억제(세포 실험)[8, 10]",
+   "why": "[8] 은 B 를 BDNF 증가로만 정리 — NGF 는 근거 없음"
+  },
+  {
+   "where": "compounds.Corallocin C.activity_ko",
+   "before": "NGF·BDNF 발현 유도(세포 실험)[10]",
+   "after": "NGF·BDNF 발현 증가(세포 실험)[8, 10]",
+   "why": "[8] 전문으로 C 의 NGF·BDNF 증가 확인, 출처 보강"
+  },
+  {
+   "where": "compounds.beta-(1,6)-Glucan.part",
+   "before": "자실체(3상 분배 추출)",
+   "after": "3상 분배 추출 다당(원료 부위는 초록에 명시되지 않아 확인하지 못함)",
+   "why": "[14] 초록에 자실체·균사체 구분이 없음"
+  },
+  {
+   "where": "compounds.Amylose.part",
+   "before": "자실체",
+   "after": "부위 확인하지 못함(초록은 '균류에서 분리한 녹말'이라고만 씀)",
+   "why": "[18] 초록에 부위 언급 없음"
+  },
+  {
+   "where": "compounds.trans-Zeatin.content_text",
+   "before": "조사한 7종 가운데 H. coralloides 균사에서 트랜스-제아틴이 가장 많은 축(수치 확인하지 못함)[26]",
+   "after": "H. coralloides 균사 생물량의 사이토키닌 가운데 트랜스-제아틴이 가장 많았다(초록 기준, 수치 확인하지 못함)[26]",
+   "why": "[26] 초록 'trans-zeatin was the most abundant in H. coralloides and M. esculenta' 는 종 내 사이토키닌 구성 비교로 읽히며, 7종 간 최대라고 단정할 근거가 없음"
+  },
+  {
+   "where": "compounds.trans-Zeatin.activity_ko",
+   "before": "균사체 조추출물 IC50 0.17 μg/mL로 Colo 205 대장암 세포 증식 억제(세포 실험)[26]",
+   "after": "균사체 조추출물 IC50 0.17 μg/mL, 사이토키닌 분획 IC50 0.21 μg/mL로 Colo 205 대장암 세포 증식 억제(세포 실험)[26]",
+   "why": "[26] 초록의 분획 값 보충"
+  },
+  {
+   "where": "assays[1].rationale",
+   "before": "산 가수분해 조건이라 시스테인·메싸이오닌·트립토판은 검출되지 않았다[2].",
+   "after": "시스테인·메싸이오닌·트립토판은 검출되지 않았으며, 원문은 함량이 없거나 기기 검출 수준보다 낮기 때문일 수 있다고 적었다[2].",
+   "why": "[2] 전문은 불검출 원인을 산 가수분해로 돌리지 않음 — 원문 해석으로 바꿈"
+  }
+ ],
+ "unverifiable_notes": [
+  "[14]·[18] 은 초록만 볼 수 있었고, 다당의 원료 부위(자실체/균사체)가 적혀 있지 않아 compounds 의 part 를 '확인하지 못함'으로 둠",
+  "[27] 추출물의 원료 부위(자실체/균사체)는 초록에 없어 확인하지 못함 — 본문은 '추출물'로만 써서 그대로 둠",
+  "PMC 전문으로 대조: [2] PMC12653868, [3] PMC10489620, [4] PMC11508549, [7] PMC11668087, [8] PMC12899011, [9] PMC12251483. 나머지 논문은 PubMed 초록으로 대조",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 대조: 산호침버섯(자실체, 사용가능, 별칭 수실노루궁뎅이), 산호침버섯아재비(H. laciniatum, 사용불가), 노루궁뎅이버섯 10개 행(모두 사용가능부위 : 자실체)",
+  "[9] 의 에리나신 A·C·P 종별 정량값은 PubMed 전문에서 이탤릭 종명이 빠져 균주-종 대응을 확인하지 못함(본문은 이미 '확인하지 못함'으로 처리)",
+  "WebSearch 는 쓰지 않음"
+ ]
+}

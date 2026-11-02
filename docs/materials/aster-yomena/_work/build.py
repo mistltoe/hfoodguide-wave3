@@ -1,0 +1,237 @@
+"""aster-yomena dossier.json 생성 (W2)."""
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+PM = "https://pubmed.ncbi.nlm.nih.gov/{}/"
+PMC = "https://pmc.ncbi.nlm.nih.gov/articles/{}/"
+
+sources = [
+    (1, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 쑥부쟁이잎·쑥부쟁이가루(Aster yomena (Kitam.) Honda / Aster incisa var. yomena Kitam., 식품원료 A코드, 사용가능, '사용가능부위 : 잎') 행, 건강기능식품(C코드) 개별인정 '쑥부쟁이추출분말(기능성원료인정제2019-13호)'·'(기능성원료인정제2021-13호)' 행(영문명 Aster yomena Extract Powder, 학명 칸 비어 있음), 가새쑥부쟁이잎(Kalimeris incisa)·Kalimeris pinnatifida잎 등 같은 속·근연 원료 행(로컬 원자료 I1020_20261013)",
+     "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+    (2, "식품의약품안전처 「식품 등의 생산실적」 2021·2022·2024·2025년판 품목 유형별 현황(개별인정형) — '쑥부쟁이추출분말' 행(생산능력·생산량·국내판매량 톤, 생산액·국내판매액 천원). 로컬 파싱본 docs/stats/hf_items.csv",
+     "https://www.mfds.go.kr", "식품의약품안전처", A),
+    (3, "Oral Administration of Aster yomena Butanol Fraction Attenuates DNCB-Induced Atopic Dermatitis-like Skin Inflammation in Mice: Implications as a Dietary Supplement Candidate for Companion Animals. Animals (Basel) 2026;16(13):2003 (PMID 42450710, doi:10.3390/ani16132003)",
+     PMC.format("PMC13360054"), "Animals (PMC 전문)", A),
+    (4, "Associations of Bioactive Constituents of Aster yomena with Environmental Variables. Chem Pharm Bull (Tokyo) 2026;74(6):503-512 (PMID 42366054, doi:10.1248/cpb.c25-00649)",
+     PM.format("42366054"), "Chemical & Pharmaceutical Bulletin (PubMed 초록)", A),
+    (5, "Aster yomena Alleviates Chronic Unpredictable Mild Stress (CUMS)-Induced Depressive Cognitive Dysfunction by Regulating the HPA Axis and TLR4/NF-κB Pathway. J Microbiol Biotechnol 2026;36:e2510048 (PMID 41668506, doi:10.4014/jmb.2510.10048)",
+     PMC.format("PMC12935508"), "Journal of Microbiology and Biotechnology (PMC 전문)", A),
+    (6, "Sustainable bioactive food packaging based on electrospun zein-polycaprolactone nanofibers integrated with Aster yomena extract loaded halloysite nanotubes. Int J Biol Macromol 2024;267(Pt 2):131375 (PMID 38604424, doi:10.1016/j.ijbiomac.2024.131375)",
+     PM.format("38604424"), "International Journal of Biological Macromolecules (PubMed 초록)", A),
+    (7, "Analysis of Floral Scent and Volatile Profiles of Different Aster Species by E-nose and HS-SPME-GC-MS. Metabolites 2023;13(4):503 (PMID 37110161, doi:10.3390/metabo13040503)",
+     PMC.format("PMC10141722"), "Metabolites (PMC 전문)", A),
+    (8, "Immunological Effects of Aster yomena Callus-Derived Extracellular Vesicles as Potential Therapeutic Agents against Allergic Asthma. Cells 2022;11(18):2805 (PMID 36139376, doi:10.3390/cells11182805)",
+     PM.format("36139376"), "Cells (PubMed 초록)", A),
+    (9, "Protective effects of Aster yomena (Kitam.) Honda from cognitive dysfunction induced by high-fat diet. J Food Biochem 2022;46(7):e14138 (PMID 35322445, doi:10.1111/jfbc.14138)",
+     PM.format("35322445"), "Journal of Food Biochemistry (PubMed 초록)", A),
+    (10, "The protective effects of Aster yomena (Kitam.) Honda on high-fat diet-induced obese C57BL/6J mice. Nutr Res Pract 2022;16(1):46-59 (PMID 35116127, doi:10.4162/nrp.2022.16.1.46)",
+     PMC.format("PMC8784267"), "Nutrition Research and Practice (PMC 전문)", A),
+    (11, "Inhibition of melanogenesis by Aster yomena callus pellet extract in melanoma cells and patients with skin pigmentation. Int J Med Sci 2021;18(14):3299-3308 (PMID 34400899, doi:10.7150/ijms.62530)",
+     PM.format("34400899"), "International Journal of Medical Sciences (PubMed 초록)", A),
+    (12, "The Metabolite Profile in Culture Supernatant of Aster yomena Callus and Its Anti-Photoaging Effect in Skin Cells Exposed to UVB. Plants (Basel) 2021;10(4):659 (PMID 33808279, doi:10.3390/plants10040659)",
+     PM.format("33808279"), "Plants (PubMed 초록)", A),
+    (13, "Apigenin promotes antibacterial activity via regulation of nitric oxide and superoxide anion production. J Basic Microbiol 2020;60(10):862-872 (PMID 32845547, doi:10.1002/jobm.202000432)",
+     PM.format("32845547"), "Journal of Basic Microbiology (PubMed 초록)", A),
+    (14, "Synergistic Antifungal Activity of Isoquercitrin: Apoptosis and Membrane Permeabilization Related to Reactive Oxygen Species in Candida albicans. IUBMB Life 2019;71(2):283-292 (PMID 30481395, doi:10.1002/iub.1973)",
+     PM.format("30481395"), "IUBMB Life (PubMed 초록)", A),
+    (15, "Effect of apigenin isolated from Aster yomena against Candida albicans: apigenin-triggered apoptotic pathway regulated by mitochondrial calcium signaling. J Ethnopharmacol 2019;231:19-28 (PMID 30408533, doi:10.1016/j.jep.2018.11.005)",
+     PM.format("30408533"), "Journal of Ethnopharmacology (PubMed 초록)", A),
+    (16, "Aster yomena extract ameliorates pro-inflammatory immune response by suppressing NF-κB activation in RAW 264.7 cells. J Chin Med Assoc 2018;81(2):102-110 (PMID 29054343, doi:10.1016/j.jcma.2017.06.017)",
+     PM.format("29054343"), "Journal of the Chinese Medical Association (PubMed 초록)", A),
+    (17, "Ethanol extracts of Aster yomena (Kitam.) Honda inhibit adipogenesis through the activation of the AMPK signaling pathway in 3T3-L1 preadipocytes. Drug Discov Ther 2017;11(5):281-287 (PMID 29021504, doi:10.5582/ddt.2017.01046)",
+     PM.format("29021504"), "Drug Discoveries & Therapeutics (PubMed 초록)", A),
+    (18, "An ethanol extract of Aster yomena (Kitam.) Honda inhibits lipopolysaccharide-induced inflammatory responses in murine RAW 264.7 macrophages. Biosci Trends 2017;11(1):85-94 (PMID 28179600, doi:10.5582/bst.2016.01217)",
+     PM.format("28179600"), "BioScience Trends (PubMed 초록)", A),
+    (19, "Phytol has antibacterial property by inducing oxidative stress response in Pseudomonas aeruginosa. Free Radic Res 2016;50(12):1309-1318 (PMID 27667264, doi:10.1080/10715762.2016.1241395)",
+     PM.format("27667264"), "Free Radical Research (PubMed 초록)", A),
+    (20, "Fungicidal effect of isoquercitrin via inducing membrane disturbance. Biochim Biophys Acta 2015;1848(2):695-701 (PMID 25445674, doi:10.1016/j.bbamem.2014.11.019)",
+     PM.format("25445674"), "Biochimica et Biophysica Acta (PubMed 초록)", A),
+    (21, "Novel thrombolytic protease from edible and medicinal plant Aster yomena (Kitam.) Honda with anticoagulant activity: purification and partial characterization. J Biosci Bioeng 2014;118(4):372-7 (PMID 24746735, doi:10.1016/j.jbiosc.2014.03.004)",
+     PM.format("24746735"), "Journal of Bioscience and Bioengineering (PubMed 초록)", A),
+    (22, "Anti-asthmatic activities of an ethanol extract of Aster yomena in an ovalbumin-induced murine asthma model. J Med Food 2014;17(5):606-11 (PMID 24738663, doi:10.1089/jmf.2013.2939)",
+     PM.format("24738663"), "Journal of Medicinal Food (PubMed 초록; PMC 전문 본문 없음)", A),
+    (23, "Phenolic compounds with IL-6 inhibitory activity from Aster yomena. Arch Pharm Res 2014;37(7):845-51 (PMID 24014305, doi:10.1007/s12272-013-0236-x)",
+     PM.format("24014305"), "Archives of Pharmacal Research (PubMed 초록)", A),
+    (24, "Qualitative and quantitative determination of the caffeoylquinic acids on the Korean mountainous vegetables used for chwinamul and their peroxynitrite-scavenging effect. Arch Pharm Res 2009;32(10):1361-7 (PMID 19898797, doi:10.1007/s12272-009-2003-6)",
+     PM.format("19898797"), "Archives of Pharmacal Research (PubMed 초록)", A),
+    (25, "Antioxidant activity and cytotoxicity of methanol extracts from aerial parts of Korean salad plants. Biofactors 2007;30(2):79-89 (PMID 18356580, doi:10.1002/biof.5520300202)",
+     PM.format("18356580"), "BioFactors (PubMed 초록)", A),
+    (26, "Effects of mycorrhizal and endophytic fungi on plant community: a microcosm study. Mycobiology 2007;35(4):186-90 (PMID 24015095, doi:10.4489/MYCO.2007.35.4.186)",
+     PM.format("24015095"), "Mycobiology (PubMed 초록)", A),
+    (27, "농촌진흥청 웹진 「코 건강을 지키다 쑥부쟁이 알레르기 개선 효과」(2023년 10월) — ※ 원문 페이지(rda.go.kr)는 이 작업 환경에서 열 수 없어(접속 불가) WebSearch 검색 요약으로만 확인함. 기능성 내용·섭취량·인체적용시험 수치는 원문 대조 전 참고값",
+     "https://rda.go.kr/webzine/2023/10/sub3-4.html", "농촌진흥청(WebSearch 요약으로만 확인)", A),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body": (
+        "쑥부쟁이(Aster yomena (Kitam.) Honda)는 국화과(Asteraceae)의 여러해살이풀로, 식용 채소로 소개되며 국내 식품원료 목록에서는 잎을 쓸 수 있다[1][4][16]. "
+        "식품의약품안전처 「식품원료 목록」에는 '쑥부쟁이잎'과 '쑥부쟁이가루' 두 행이 식품원료(A코드)로 올라 있고, 둘 다 사용 여부는 '사용가능', 사용 조건은 '사용가능부위 : 잎'이다[1]. "
+        "같은 행의 학명은 Aster yomena (Kitam.) Honda와 Aster incisa var. yomena Kitam.이고, 이명은 왜쑥부쟁이·가새쑥부쟁이·쑥부장이, 영문명은 Field aster다[1]. "
+        "따라서 일반 식품으로 쓸 수 있는 부위는 잎이며, 논문에 쓰인 지상부 전체·꽃·캘러스(배양 세포) 추출물이 곧 식품원료 지위를 뜻하지는 않는다[1][3][7][12].\n\n"
+        "같은 목록의 건강기능식품(C코드)에는 개별인정형 '쑥부쟁이추출분말(기능성원료인정제2019-13호)'과 '쑥부쟁이추출분말(기능성원료인정제2021-13호)' 두 행이 따로 있다[1]. "
+        "두 행의 영문명은 Aster yomena Extract Powder이고 학명 칸은 비어 있으며, 사용 여부는 '사용가능'이다[1]. "
+        "인정된 기능성 내용은 로컬 목록 원자료에 적혀 있지 않아 원문으로 확인하지 못함. "
+        "주요 성분은 디카페오일퀸산류·클로로젠산 같은 카페오일퀸산류와 루틴·이소퀘르시트린 같은 플라보노이드다[3][4][23]. "
+        "효능 연구는 대부분 세포·동물 실험이다[3][10][22].")},
+    {"key": "history", "title": "이용의 역사", "body": (
+        "쑥부쟁이 잎은 기침·천식·벌레 물림을 다스리는 민간약으로 써 왔다고 여러 논문이 소개한다[16][17][22]. "
+        "한국의 사찰 음식에서 항균 효능을 기대해 썼다는 설명[15]과, 인후통·발열에 썼다는 설명도 있다[5]. "
+        "일본에서는 전통 요리와 민간약에 널리 쓰인다고 소개되었다[4]. 이러한 전통 이용을 기록한 1차 문헌(고문헌·공공기관 자료) 원문은 확인하지 못함.\n\n"
+        "연구는 2007년 한국 샐러드용 식물 11종의 총페놀 비교[25], 2009년 취나물용 산채의 카페오일퀸산 정량[24]에서 시작해, "
+        "2014년에는 지상부에서 새 바이플라보노이드 아스테르요메닌(asteryomenin)과 페놀 화합물 6종이 분리되었다[23]. "
+        "같은 해 천식 생쥐 모델 연구[22]와 혈전 용해 단백질분해효소(kitamase) 연구[21]가 나왔다. "
+        "2017–2018년에는 대식세포 염증·지방세포 분화 연구[16][17][18]가, 2021–2022년에는 캘러스 배양 연구[11][12][8]와 고지방식 생쥐 연구[9][10]가 이어졌다. "
+        "식약처 목록의 개별인정 '쑥부쟁이추출분말'은 인정번호로 보아 2019년과 2021년에 인정되었다[1]. "
+        "2026년에는 일본 규슈 자생 집단의 성분·환경 요인 연구[4], 스트레스 생쥐 연구[5], 부탄올 분획의 아토피 피부염 생쥐 연구[3]가 발표되었다.")},
+    {"key": "biology", "title": "식물학적 특징", "body": (
+        "쑥부쟁이는 국화과에 속하는 여러해살이풀이다[4]. 한국·중국·일본·시베리아에 분포한다고 소개되며[16], 주로 한국에서 자란다는 설명도 있다[15]. "
+        "식물 부위별로 비교한 일본 연구에서는 잎의 페놀·플라보노이드·사포닌 함량과 항산화·항증식 활성이 가장 높았다[4]. "
+        "같은 연구에서 해안 지역 잎은 내륙 집단보다 플라보노이드·사포닌이 유의하게 많았다[4]. "
+        "한국 샐러드용 식물 11종을 비교한 연구에서 쑥부쟁이 지상부 메탄올 추출물의 총페놀은 생체중 100 g당 12.0 mg으로, 참취(17.1 mg)·씀바귀류(Ixeris dentate, 16.4 mg) 다음이었다[25].\n\n"
+        "꽃은 국립원예특작과학원 시험 포장에서 8–9월에 채취되었다[7]. 전자코로 꽃 단계별 향을 분석했을 때 개화가 진행될수록 상대 향 강도가 커져 활짝 핀 단계에서 0.48로 가장 높았다[7]. "
+        "아홉 Aster 종의 꽃 향기는 종마다 패턴이 달라 구분할 수 있었고, 대부분 종에서 모노테르펜이 주성분이었다[7]. "
+        "잎에는 분자량 50 kDa의 단백질분해효소(kitamase)가 있어 시험관에서 피브린을 직접 분해했다[21]. "
+        "잎 모양·꽃 색·개화기 등 공공기관의 공식 형태 기재는 확인하지 못함.")},
+    {"key": "related_species", "title": "근연종과 혼동 주의", "body": (
+        "국내 식품원료 목록에는 같은 Aster 속의 참취(A. scaber)·벌개미취(A. koraiensis)·까실쑥부쟁이(A. ageratoides)·섬쑥부쟁이(A. glehni)·개미취(A. tataricus)·옹굿나물(A. fastigiatus)과 가는쑥부쟁이·갯쑥부쟁이·눈개쑥부쟁이가 각각 따로 올라 있다[1]. "
+        "특히 섬쑥부쟁이(울릉도 '부지깽이')는 사용 부위가 '순'인 다른 원료여서, 이름이 비슷해도 쑥부쟁이(잎) 자료와 섞으면 안 된다[1].\n\n"
+        "목록은 '가새쑥부쟁이'를 쑥부쟁이의 이명으로 적으면서도, '가새쑥부쟁이잎'을 Kalimeris incisa Fisch.(이명 Aster incisus Fisch. 등)라는 별도 원료로도 올려 두었다[1]. "
+        "또 Kalimeris pinnatifida잎과 Kalimeris laureana잎도 별도 원료로 있다[1]. 이름만으로는 종을 가를 수 없으므로 학명으로 구분해야 한다[1]. "
+        "2009년 취나물 성분 논문은 같은 식물을 Kalimeris yomena라는 이름으로 다루었다[24]. "
+        "그러나 식약처 목록은 Kalimeris yomena를 학명 칸에 적지 않았고, 국제 식물 분류 데이터베이스의 현재 처리(Aster와 Kalimeris 가운데 어느 속으로 보는지)도 원문으로 확인하지 못함. "
+        "2026년 동물 연구는 쑥부쟁이를 영어로 'Korean starwort'라고 불렀으나[3], 식약처 목록에서 'Korean starwort'는 벌개미취의 영문명이다[1].")},
+    {"key": "cultivation", "title": "재배와 채취", "body": (
+        "연구용 시료는 대부분 전남 구례산이었다[3][5]. 2026년 부탄올 분획 연구는 구례에서 채취한 지상부를 그늘에서 말려 썼고[3], 스트레스 생쥐 연구는 2023년 5월 구례 로컬푸드 매장에서 산 쑥부쟁이를 썼다[5]. "
+        "2017년 지방세포 연구에는 구례 야생화 연구 기관과 구례군 농업기술센터 소속 연구진이 참여했다[17]. "
+        "국립원예특작과학원(전북 완주)은 국내 여러 곳에서 모은 Aster 9종을 노지에서 길러 시험했다[7].\n\n"
+        "일본 규슈 여러 지점에서 채집한 시료를 비교한 연구에서는 토양의 유효 인산·치환성 마그네슘과 기온 교차 같은 기후 요인이 잎의 대사물 함량·활성과 양의 상관을 보였다[4]. "
+        "온실 축소 생태계 실험에서는 쑥부쟁이를 포함한 식물 5종 군집에 수지상균근균을 접종하자 식물 생산성과 군집 구조가 유의하게 달라졌다[26]. "
+        "잎 생산을 위한 재배 기술(번식·시비·수확 시기)과 국내 재배 면적·생산량 공식 통계는 확인하지 못함. "
+        "로컬 통계 파일(특용작물 생산실적·농작물생산통계)에도 쑥부쟁이 품목은 확인하지 못함. "
+        "농약 등록 현황과 잔류 기준도 확인하지 못함.")},
+    {"key": "processing", "title": "가공과 제품", "body": (
+        "식약처 목록에 오른 일반 식품원료 형태는 '쑥부쟁이잎'과 잎을 갈아 만든 '쑥부쟁이가루'다[1]. "
+        "연구에서 쓰인 추출 방법은 다양하다[3][5][10]. 2026년 연구는 말린 지상부 가루 100 g을 증류수 2 L로 95 °C에서 30분 추출하고, 물로 포화한 n-부탄올로 세 번 분배해 동결건조했으며, 수율은 5.3%(건조 원료 기준)였다[3]. "
+        "스트레스 생쥐 연구는 가루를 60% 에탄올과 1:50(w/v)으로 섞어 40 °C에서 2시간 환류 추출한 뒤 농축·동결건조했다[5]. "
+        "고지방식 생쥐 연구는 에탄올 추출물의 에틸아세테이트 분획을 썼는데, 여러 분획 가운데 라디칼 소거 활성이 가장 강했기 때문이라고 밝혔다[10].\n\n"
+        "개별인정형 '쑥부쟁이추출분말'의 식약처 생산실적은 2022년 생산량 2톤·생산액 368,307천원(약 3.68억 원), 2024년 생산량 6톤·생산액 231,437천원·국내판매액 15,874천원, 2025년 생산량 7톤·생산액 95,117천원·국내판매액 133,637천원(약 1.34억 원)이었다[2]. "
+        "2021년판에는 생산능력 2톤만 있고 생산량은 비어 있으며, 2023년 값은 파싱본에서 확인하지 못함[2]. "
+        "식품 외 용도로는 캘러스를 생물반응기에서 배양해 화장품 원료로 쓰려는 연구[12]와, 추출물을 실은 나노섬유 식품 포장재 연구[6]가 있다.")},
+    {"key": "genetics", "title": "유전과 품종", "body": (
+        "쑥부쟁이의 등록 품종과 육종 현황은 공공 자료에서 확인하지 못함. "
+        "엽록체·핵 유전체 해독 논문도 PubMed 검색에서 확인하지 못함.\n\n"
+        "대신 조직배양 기술이 개발되어 있다[11][12]. 연구진은 쑥부쟁이 캘러스를 생물반응기에서 배양해 빠르게 규모를 키울 수 있는 생산 체계를 만들었고, 배양 상층액 추출물에서 UPLC-QTOF-MS로 주요 대사물 17종을 처음으로 잠정 동정했다[12]. "
+        "캘러스에서 얻은 세포외소포(약 225 nm)에서도 주요 대사물 17종이 확인되었다[8]. "
+        "캘러스 배양은 재배 조건에 따라 성분이 달라지는 문제를 줄이려는 목적이라고 설명되었다[8][12].\n\n"
+        "화학적 구분 측면에서는, 국내 Aster 9종의 꽃 향기를 전자코와 HS-SPME-GC-MS로 분석했을 때 52종의 휘발성 성분이 검출되었고 주성분분석·군집분석으로 종이 서로 구분되었다[7]. "
+        "일본 규슈 집단 비교에서는 같은 종이라도 해안·내륙 집단 사이에 잎의 플라보노이드·사포닌 함량이 달랐다[4]. "
+        "이 차이가 유전적인지 환경 때문인지는 확인하지 못함.")},
+    {"key": "safety", "title": "안전성", "body": (
+        "쑥부쟁이는 건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없다[1]. "
+        "개별인정형 '쑥부쟁이추출분말'의 인정 조건과 섭취 시 주의사항은 로컬 목록 원자료에 없어 확인하지 못함. "
+        "식약처·농촌진흥청 등 공공기관의 쑥부쟁이 알레르기·잔류 농약·독성 성분 안내는 확인하지 못함.\n\n"
+        "동물 자료로는, 생쥐에 부탄올 분획을 5주 동안 매일 2.5–640 mg/kg 먹였을 때 640 mg/kg 군에서 체중이 계속 줄고 혈청 ALT·AST가 유의하게 올랐다[3]. "
+        "BUN·크레아티닌과 혈구 수치는 뚜렷한 이상이 없었으나, 장기 무게·부검·조직검사는 하지 않아 예비 안전성 선별일 뿐이라고 저자들이 밝혔다[3]. "
+        "고지방식 생쥐 연구에서는 에틸아세테이트 분획 200 mg/kg 군의 AST·ALT가 100 mg/kg 군보다 높아 추가 독성 시험이 필요하다고 했다[10]. "
+        "잎의 단백질분해효소는 생쥐에서 응고 시간을 늦추고 폐 혈전색전증을 줄였다[21]. 이 결과를 사람의 항응고제 복용과 연결한 자료는 확인하지 못함.\n\n"
+        "사람 자료로는 캘러스 추출물 크림을 피부에 8주 바른 시험이 있으나, 먹는 식품 섭취 자료가 아니다[11]. "
+        "농촌진흥청 웹진은 알레르기 비염 환자 48명이 6주간 섭취한 인체적용시험을 소개했다고 검색 요약에 나오지만, 원문을 열지 못해 수치는 확인하지 못함[27].")},
+]
+
+compounds = [
+    {"name": "3,5-Dicaffeoylquinic acid", "name_ko": "3,5-디카페오일퀸산", "class": "페놀산(디카페오일퀸산)", "role": "marker",
+     "part": "지상부 열수 추출물의 부탄올 분획",
+     "content_text": "부탄올 분획 137.56 ± 6.32 mg/g(UPLC-ESI-TQ-MS/MS, 4개 정량 성분 가운데 가장 많음)[3]; 취나물 산채 카페오일퀸산 정량 대상 성분(종별 함량은 초록에 없음)[24]",
+     "activity_ko": "분획 단위의 아토피 피부염 생쥐 효과만 있고 단일 성분 효과는 이 종 자료로 확인하지 못함[3]", "source": [3, 24]},
+    {"name": "4,5-Dicaffeoylquinic acid", "name_ko": "4,5-디카페오일퀸산", "class": "페놀산(디카페오일퀸산)", "role": "marker",
+     "part": "지상부 열수 추출물의 부탄올 분획",
+     "content_text": "부탄올 분획 121.02 ± 3.88 mg/g[3]", "activity_ko": "확인하지 못함", "source": [3]},
+    {"name": "Rutin", "name_ko": "루틴", "class": "플라보놀 배당체", "role": "marker",
+     "part": "지상부 부탄올 분획; 잎",
+     "content_text": "부탄올 분획 116.58 ± 6.25 mg/g[3]; 60% 에탄올 추출물에서 건조중량 기준 3.60 μg/mg이라는 이전 HPLC 값을 인용(원 논문은 확인하지 못함)[3]; 규슈산 잎의 주요 성분으로 동정(함량은 초록에 없음)[4]",
+     "activity_ko": "확인하지 못함", "source": [3, 4]},
+    {"name": "3,4-Dicaffeoylquinic acid", "name_ko": "3,4-디카페오일퀸산", "class": "페놀산(디카페오일퀸산)", "role": "marker",
+     "part": "지상부 열수 추출물의 부탄올 분획",
+     "content_text": "부탄올 분획 108.33 ± 2.98 mg/g[3]", "activity_ko": "확인하지 못함", "source": [3]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로젠산(5-O-카페오일퀸산)", "class": "페놀산(카페오일퀸산)", "role": "bioactive",
+     "part": "잎; 60% 에탄올 추출물; 부탄올 분획",
+     "content_text": "규슈산 잎의 주요 성분으로 동정(함량은 초록에 없음)[4]; 60% 에탄올 추출물에서 UPLC-QTOF/MS로 동정[5]; 부탄올 분획에서 검출[3]",
+     "activity_ko": "확인하지 못함", "source": [3, 4, 5]},
+    {"name": "Caffeic acid", "name_ko": "카페산", "class": "페놀산(하이드록시신남산)", "role": "bioactive",
+     "part": "지상부",
+     "content_text": "지상부에서 분리(함량 미보고)[23]; 60% 에탄올 추출물에서 동정[5]",
+     "activity_ko": "TNF-α로 자극한 MG-63 세포에서 IL-6 생성을 강하게 억제(세포)[23]", "source": [5, 23]},
+    {"name": "Isoquercitrin", "name_ko": "이소퀘르시트린", "class": "플라보놀 배당체", "role": "bioactive",
+     "part": "지상부",
+     "content_text": "지상부에서 분리(함량 미보고)[23]; 규슈산 잎의 주요 성분 isoquercetin으로 동정[4]",
+     "activity_ko": "칸디다균 세포막을 교란하는 항진균 활성(시험관)[20]; 암포테리신 B·플루코나졸과 상승 작용(시험관)[14]", "source": [4, 14, 20, 23]},
+    {"name": "Apigenin", "name_ko": "아피제닌", "class": "플라본", "role": "bioactive",
+     "part": "지상부",
+     "content_text": "지상부에서 분리(함량 미보고)[23][15]",
+     "activity_ko": "MG-63 세포 IL-6 생성 억제(세포)[23]; 칸디다균 미토콘드리아 경로 세포사멸 유도(시험관, 조추출물은 효과 없음)[15]; 대장균 항균(시험관)[13]", "source": [13, 15, 23]},
+    {"name": "Asteryomenin", "name_ko": "아스테르요메닌", "class": "바이플라보노이드", "role": "bioactive",
+     "part": "지상부",
+     "content_text": "지상부에서 처음 분리된 새 화합물(함량 미보고)[23]",
+     "activity_ko": "MG-63 세포 IL-6 생성 억제는 중간 정도(세포)[23]", "source": [23]},
+    {"name": "Esculetin", "name_ko": "에스쿨레틴", "class": "쿠마린", "role": "bioactive",
+     "part": "지상부", "content_text": "지상부에서 분리(함량 미보고)[23]",
+     "activity_ko": "MG-63 세포 IL-6 생성 억제는 중간 정도(세포)[23]", "source": [23]},
+    {"name": "Isorhamnetin 3-O-glucoside", "name_ko": "이소람네틴-3-O-글루코사이드", "class": "플라보놀 배당체", "role": "bioactive",
+     "part": "지상부", "content_text": "지상부에서 분리(함량 미보고)[23]",
+     "activity_ko": "MG-63 세포 IL-6 생성 억제는 중간 정도(세포)[23]", "source": [23]},
+    {"name": "Kaempferol 3-O-rutinoside", "name_ko": "캠페롤-3-O-루티노사이드(니코티플로린)", "class": "플라보놀 배당체", "role": "bioactive",
+     "part": "잎; 60% 에탄올 추출물",
+     "content_text": "60% 에탄올 추출물에서 동정[5]; 규슈산 잎의 주요 성분 nicotiflorin으로 동정(함량은 초록에 없음)[4]",
+     "activity_ko": "확인하지 못함", "source": [4, 5]},
+    {"name": "Phytol", "name_ko": "피톨", "class": "디테르펜 알코올", "role": "bioactive",
+     "part": "확인하지 못함(초록에 부위 없음)", "content_text": "쑥부쟁이에서 분리(함량 미보고)[19]",
+     "activity_ko": "녹농균에서 활성산소 축적을 통한 항균 활성(시험관)[19]", "source": [19]},
+]
+
+assays = [
+    {"role": "literature", "compound": "3,5-Dicaffeoylquinic acid", "compound_ko": "3,5-디카페오일퀸산·4,5-디카페오일퀸산·루틴·3,4-디카페오일퀸산(4성분 동시 정량)",
+     "part": "지상부 열수 추출물의 부탄올 분획",
+     "content": "3,5-DCQA 137.56 ± 6.32, 4,5-DCQA 121.02 ± 3.88, 루틴 116.58 ± 6.25, 3,4-DCQA 108.33 ± 2.98 mg/g 분획[3]",
+     "method": "UPLC-ESI-TQ-MS/MS(MRM 모드)",
+     "conditions": {"instrument": "UPLC-ESI-TQ-MS/MS(삼중사중극자, MRM 모드) — 기종·MRM 전이는 표에 있어 전문 변환본에서 확인하지 못함",
+                    "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "MRM(다중 반응 모니터링)",
+                    "injection": "",
+                    "sample_prep": "말린 지상부 가루 100 g → 증류수 2 L, 95 °C 30분 추출 → 여과(No. 2 여과지) → 물 포화 n-부탄올 2 L로 3회 분배 → 38 °C 감압 농축 → 동결건조(수율 5.3%)",
+                    "standard": "루틴·3,4-/3,5-/4,5-디카페오일퀸산 표준품",
+                    "linearity": "R² 0.9982–0.9999", "lod": "0.01–0.03 μg/mL", "loq": "0.04–0.09 μg/mL", "recovery": ""},
+     "rationale": "부탄올 분획의 정성 분석(UPLC-ESI-QToF-MS/MS)에서 18개 성분이 검출되었고, 분획 뒤에도 주성분으로 남은 루틴과 디카페오일퀸산 3종을 제품 표준화·품질관리용 지표성분으로 정량했다[3]. "
+                  "정성 분석 조건은 Acquity UPLC HSS T3(1.8 μm, 2.1 × 100 mm, 40 °C), 0.1% 포름산 물/아세토니트릴 기울기, 0.35 mL/min, 음이온 ESI였으나, 정량(TQ) 조건이 같은지는 원문에서 확인하지 못함[3]. 회수율은 원문에 없었다[3].",
+     "source": [3], "url": PMC.format("PMC13360054"), "source_kind": "paper"},
+    {"role": "literature", "compound": "Chlorogenic acid", "compound_ko": "클로로젠산·루틴·이소퀘르시트린·니코티플로린",
+     "part": "잎(일본 규슈 여러 지점 채집)",
+     "content": "주요 생리활성 성분으로 동정(함량 수치는 초록에 없음)[4]",
+     "method": "HPLC 및 LC/MS",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "부위별 비교에서 잎의 성분·활성이 가장 높았고, HPLC·LC/MS로 클로로젠산·루틴·이소퀘르시트린·니코티플로린과 트리테르페노이드 사포닌을 주요 성분으로 확인했다[4]. 전문 확인 못함(초록만 확인)[4].",
+     "source": [4], "url": PM.format("42366054"), "source_kind": "paper"},
+]
+
+d = {
+    "slug": "aster-yomena",
+    "name_ko": "쑥부쟁이",
+    "name_en": "Field aster",
+    "scientific_name": "Aster yomena (Kitam.) Honda",
+    "aliases": ["쑥부쟁이잎", "쑥부쟁이가루", "쑥부장이", "왜쑥부쟁이", "가새쑥부쟁이(식약처 이명; 별도 원료 가새쑥부쟁이와 혼동 주의)",
+                "Field aster", "Aster incisa var. yomena Kitam.", "Kalimeris yomena"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": [{"n": n, "title": t, "url": u, "publisher": p, "accessed": a} for n, t, u, p, a in sources],
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

@@ -1,0 +1,478 @@
+{
+ "slug": "tsuga-canadensis",
+ "name_ko": "캐나다솔송내피",
+ "name_en": "Eastern hemlock (inner bark)",
+ "scientific_name": "Tsuga canadensis (L.) Carrière",
+ "aliases": [
+  "캐나다솔송",
+  "Eastern hemlock",
+  "Canadian hemlock",
+  "Tsuga canadensis Carriere"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "캐나다솔송(Tsuga canadensis, 영문 Eastern hemlock·Canadian hemlock)은 소나무과(Pinaceae) 솔송나무속의 늘푸른 바늘잎나무다[1]. 식약처 「식품원료 목록」에는 '캐나다솔송내피'라는 원료명으로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 내피'(부위 표기 '속껍질')다[1]. 따라서 식품에 쓸 수 있는 부위는 나무줄기의 속껍질뿐이며, 같은 목록에서 이 종(또는 이엽솔송)의 바늘잎·잔가지는 '북미산솔송나무(독당근)'라는 별도 행으로 '사용불가'다[2]. 바늘잎·잔가지는 식품첨가물 쪽에서 '천연향료(Hemlock needles 및 twigs)'로 따로 올라 있어, 원료로서의 속껍질과 향료로서의 잎·가지는 구별해야 한다[2]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n영어 이름 hemlock 때문에 미나리과의 맹독 식물 독당근(Conium maculatum, 영명 poison hemlock)과 자주 혼동되지만, 둘은 과부터 다른 전혀 별개의 식물이다[2, 3]. 속껍질의 성분·안전성을 직접 분석한 논문은 PubMed에서 찾지 못했고, 발표된 화학 연구는 대부분 바늘잎의 테르펜·플라바놀이나 해충 방제 약제 잔류에 관한 것이다[9, 11, 14, 19]. 속껍질을 먹었다는 기록과 나무껍질 탄닌 8–14%라는 값은 식물 데이터베이스의 검색 요약으로만 확인했다[6]. 국내 재배·생산 통계와 사람 대상 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "캐나다솔송은 북아메리카 동부의 오래된 숲을 이루는 나무로, 뉴햄프셔의 원시림 조사에서는 1938년 허리케인 이후 70여 년 동안 이 종이 숲 윗층의 주된 나무가 되었다고 보고되었다[22]. 나무껍질은 탄닌이 많아 예부터 가죽 무두질용 탄닌 원료로 쓰였다는 기록이 있으나, 이는 검색 요약으로만 확인했다[6]. 속껍질을 봄에 벗겨 날로 또는 익혀 먹거나 말려 가루를 내 빵·걸쭉하게 만드는 데 썼다는 식용 기록도 검색 요약으로만 확인했고, 원 민족식물학 문헌은 확인하지 못함[6]. 목재·껍질 플라보노이드 연구는 화학분류와 껍질 탄닌을 목재 접착제로 쓰는 산업 연구로 이어졌으며, 총설은 서부·동부 솔송의 껍질 플라보노이드를 함께 다룬다[25]. 이런 껍질 탄닌 산업 자료는 겉껍질을 포함한 나무껍질 전체에 관한 것이어서, 식품원료로 허용된 속껍질의 값으로 그대로 옮기면 안 된다[1, 25].\n\n미국에서는 이 종(또는 서부 이엽솔송)의 바늘잎과 잔가지가 천연 향미 물질 목록(21 CFR 172.510)에 'Hemlock needles and twigs'로 실려 있다는 점을 검색 요약으로 확인했다[5]. 우리나라 식약처 목록도 같은 바늘잎·잔가지를 식품첨가물 천연향료로는 사용가능, 식품원료로는 사용불가로 따로 두고 있다[2]. 국내에서 이 원료를 실제로 유통·섭취한 역사 자료는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "캐나다솔송은 소나무과에서 전나무속·개잎갈나무속 등과 함께 '전나무 무리(abietoid)'에 속하며, 솔송나무속(Tsuga)은 Nothotsuga와 자매군을 이룬다[8]. 솔송나무속은 북아메리카에서 생겨나 마이오세 중기에 베링 육교를 거쳐 동아시아로 퍼졌다고 추정되며, 북아메리카 동부·서부와 동아시아에 떨어져 분포한다[7]. 북아메리카 동부에는 이 종과 캐롤라이나솔송(T. caroliniana)이 자라고, 두 종은 바늘잎 테르펜 조성도 서로 비슷한 무리로 묶인다[9, 18]. 바늘잎에서 저장 테르펜을 담는 수지구는 바늘잎에만 있고, 바늘잎과 잎자리(leaf cushion)에서 0.1%를 넘는 테르페노이드 23종이 계절과 부위에 따라 달라진다[11]. 나무껍질은 산성으로, 미국 남동부 조사에서 이 종의 껍질 pH는 4.1이었다[24]. 이 종 속껍질(체관부)의 해부·조성 자료는 확인하지 못함.\n\n이 종은 수년 간격으로 씨앗을 한꺼번에 많이 맺는 해(풍작)가 있어, 미국 북동부에서 12년 동안 너도밤나무와 함께 6번의 풍작이 기록되었다[23]. 늘푸른 바늘잎은 새로 나는 잎과 지난해 잎의 화학 조성이 10–11월이 되어서야 비슷해진다[11]."
+  },
+  {
+   "key": "related_species",
+   "title": "같은 속의 다른 종",
+   "body": "식약처 목록에는 이 종 외에도 이엽솔송내피(Tsuga heterophylla), 중국솔송내피(T. chinensis), Carolina hemlock내피(T. caroliniana), Mountain hemlock내피(T. mertensiana)가 모두 '사용가능부위 : 내피'로 따로 올라 있다[1]. 이들은 서로 다른 종이므로 성분·안전성 자료를 섞어 쓰면 안 되며, 이 문서의 수치는 학명이 T. canadensis로 밝혀진 자료만 옮겼다[1]. 7종의 바늘잎 테르펜을 비교한 연구에서 캐나다솔송·캐롤라이나솔송이 한 무리, 중국솔송·T. diversifolia·이엽솔송·T. sieboldii가 또 한 무리, T. mertensiana가 따로 떨어진 무리로 나뉘었다[9]. 동아시아 솔송나무류는 잡종화가 얽힌 복잡한 진화사를 지녀, 일본의 T. sieboldii는 중국솔송·T. forrestii 계통과 T. diversifolia·울릉도의 T. ulleungensis 계통의 잡종에서 생겼을 가능성이 제시되었다[7].\n\n이름이 비슷한 독당근(Conium maculatum)은 미나리과 풀로, 식약처 목록에서 '독당근, 독미나리'라는 원료명으로 '사용불가'다[2]. 독당근은 코니인 등 피페리딘 알칼로이드를 잎·꽃·열매 등 모든 기관에 지니며, 사람과 가축 중독 사례가 보고된 대표적 유독 식물이다[3]. 식약처 목록의 솔송 바늘잎·잔가지 행 원료명에 '(독당근)'이 붙어 있는 것은 영명 hemlock을 옮긴 것으로 보이나, 그 표기 경위는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 채취",
+   "body": "캐나다솔송은 원산지 북아메리카 동부에서 자연림으로 자라며, 서부 태평양 연안 도시·공원에도 심겨 있다[27]. 원예용 재배품종이 여럿 있어, 13개 재배품종의 바늘잎 테르펜을 분석한 연구가 있다[10]. 국내 재배 면적·생산량·수입량 통계와 지리적 표시 등록은 확인하지 못함.\n\n이 종의 재배·유지에서 가장 큰 문제는 일본에서 들어온 침입 해충 솔송솜벌레(hemlock woolly adelgid, Adelges tsugae)로, 미국 동부에서 캐나다솔송과 캐롤라이나솔송을 대량으로 죽게 했다[18]. 북아메리카 동부로 들어온 개체군은 일본 남부에서 온 거의 두 가지 클론뿐인 극심한 유전적 병목을 거쳤다[17]. 서부 원산지에 심은 캐나다솔송에서는 이 해충이 이엽솔송보다 덜 쉽게 자리 잡았고, 포식 천적이 밀도를 크게 낮춰 동부 생물적 방제의 근거가 되었다[27]. 방제에는 이미다클로프리드·디노테퓨란 같은 침투성 살충제를 줄기 주사·토양 처리로 넣는 방법이 쓰인다[19, 20]. 이 종이 사라진 계곡 숲은 활엽수로 바뀌어 가고 있으며, 그 전환기에 하천 환경이 크게 흔들릴 수 있다는 평가가 있다[28]. 속껍질의 채취 시기·방법에 관한 공식 지침은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록이 허용한 부위는 속껍질(내피)뿐이므로, 겉껍질·목재·바늘잎·잔가지를 섞은 가공품은 이 원료의 범위를 벗어난다[1, 2]. 속껍질을 봄에 채취해 말리고 가루로 만들어 쓴다는 이용법은 검색 요약으로만 확인했다[6]. 속껍질을 원료로 한 국내 제품 생산실적이나 건강기능식품 원료 인정 사례는 확인하지 못함.\n\n나무껍질 탄닌은 축합형 탄닌(프로안토시아니딘) 계열로, 침엽수 껍질 탄닌을 목재 접착제 원료로 쓰는 연구에서 서부·동부 솔송 껍질이 다뤄졌다[25]. 가지에는 L-알파-피넨·L-보르닐아세테이트·L-보르네올 같은 향기 성분이, 목재에는 갈락토글루코만난이 기록되어 있으나 함량은 없다[26]. 바늘잎·잔가지는 향료로 쓰이므로, 정유·향료 자료를 속껍질 식품원료의 성분으로 옮겨 적지 않도록 주의해야 한다[2, 5]. 속껍질의 영양성분(국가표준식품성분표 수록 여부)은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 육종",
+   "body": "솔송나무속의 계통은 핵 유전자 881개, 엽록체 유전자 60개, 미토콘드리아 유전자 23개로 다시 짜였고, 동아시아 종들 사이에 잡종 기원과 미토콘드리아 유전자 이입이 확인되었다[7]. 소나무과 전체 전사체 계통 분석에서 솔송나무속은 Nothotsuga와 함께 Pseudolarix의 자매군으로 놓였다[8]. 캐롤라이나솔송에서 개발한 마이크로새틀라이트 표지 31개 가운데 16개가 캐나다솔송을 포함한 다른 솔송 6종에서도 증폭되어, 개체군 유전 연구와 보전에 쓰일 수 있다[16].\n\n솔송솜벌레 저항성 육종이 주요 관심사로, 재배품종 가운데 일부는 저항성이 있는 비동부 북아메리카 종과 비슷한 테르펜 조성을 보여 선발 후보로 제안되었다[10]. 해충 쪽에서는 솔송솜벌레의 염색체 수준 유전체(220.75 Mb, 단백질 암호화 유전자 11,424개)가 해독되어 선택적 살충제 개발에 쓰이고 있다[18]. 캐나다솔송 자체의 전체 유전체 해독과 속껍질 성분 관련 유전 연구는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록은 캐나다솔송의 속껍질만 '사용가능'으로 두고, 바늘잎·잔가지는 식품원료로 '사용불가'로 따로 두고 있다[1, 2]. 속껍질을 먹었을 때의 독성·알레르기·섭취량에 관한 공공기관 평가나 사람 연구는 확인하지 못함. 나무껍질에 탄닌이 많다는 자료는 검색 요약으로만 확인했고, 속껍질만의 탄닌 함량은 아니다[6].\n\n가장 중요한 혼동은 이름이다: 독당근(Conium maculatum)은 코니인 등 알칼로이드로 신경 자극 뒤 마비, 구토, 경련, 혼수, 사망까지 일으킬 수 있는 맹독 식물이다[3]. 독당근의 독성 물질을 먹은 메추라기 고기로도 중독(근육 융해·급성 신장 손상)이 생길 수 있고, 코니인은 150 mg으로도 치명적일 수 있다는 총설이 있다[4]. 식약처 목록에서 독당근은 '사용불가'이며, 캐나다솔송과는 다른 과의 풀이므로 채취·구매 때 학명을 반드시 확인해야 한다[2, 3].\n\n북아메리카에서는 솔송솜벌레 방제를 위해 이 나무에 침투성 살충제를 넣는 일이 흔하다[19]. 이미다클로프리드와 대사물은 처리 후 36개월까지 수액·조직에서 검출되었고, 디노테퓨란도 처리 2년 이상 뒤 바늘잎과 잔가지에서 검출되었다[19, 20]. 조직 내 이미다클로프리드 농도가 413 ppb를 넘은 나무에서는 해충이 관찰되지 않았다는 보고도 있다[21]. 줄기 주사한 나무의 물관 수액에서도 이미다클로프리드가 측정되었다[29]. 따라서 조경수나 약제 처리림에서 속껍질을 채취하면 살충제 잔류가 있을 수 있으며, 속껍질 자체의 잔류값은 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Proanthocyanidins",
+   "name_ko": "프로안토시아니딘(축합형 탄닌)",
+   "class": "폴리페놀(탄닌)",
+   "role": "bioactive",
+   "part": "나무껍질(겉·속껍질 구분 없음)·새 바늘잎",
+   "content_text": "나무껍질 탄닌 8–14%(검색 요약으로만 확인, 속껍질 값 아님)[6]; 새로 돋는 바늘잎(2–8 mm)의 이량체·소중합체 프로안토시아니딘 최대 0.9 mg/g 건물(프로시아니딘 B2 환산)[14]",
+   "activity_ko": "떫은맛을 내는 탄닌; 껍질 탄닌은 목재 접착제 원료로 연구됨[25]; 이 종 속껍질의 생리 활성은 확인하지 못함",
+   "source": [
+    6,
+    14,
+    25
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "수꽃 꽃밥·새 바늘잎·씨날개(속껍질 아님)",
+   "content_text": "감수분열기 꽃밥 8.6 mg/g 건물, 새 바늘잎은 카테킨·에피카테킨 위주로 단량체 플라바놀 합계 2.5 mg/g 건물[14]; 씨날개 세포핵은 주로 카테킨을 함유[15]",
+   "activity_ko": "세포핵 염색질에 결합하는 플라바놀로 연구됨(식물 세포 수준)[14, 15]",
+   "source": [
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "에피카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "수꽃 꽃밥·새 바늘잎(속껍질 아님)",
+   "content_text": "감수분열기 꽃밥 7.1 mg/g 건물[14]",
+   "activity_ko": "카테킨과 함께 이 종 플라바놀의 기본 단위[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Epigallocatechin",
+   "name_ko": "에피갈로카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "수꽃 꽃밥·새 바늘잎(속껍질 아님)",
+   "content_text": "꽃밥 0.6 mg/g 건물, 바늘잎에서도 낮은 수준[14]",
+   "activity_ko": "이 종에서의 생리 활성은 확인하지 못함[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "히드록시신남산류(클로로겐산 환산)",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "새 바늘잎(속껍질 아님)",
+   "content_text": "새로 돋는 바늘잎의 히드록시신남산류 161 mg/g 건물(클로로겐산 환산, 원문 수치 그대로)[14]",
+   "activity_ko": "개별 화합물은 동정되지 않았고 클로로겐산 환산값임; 생리 활성은 확인하지 못함[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "alpha-Pinene",
+   "name_ko": "알파-피넨",
+   "class": "모노테르펜",
+   "role": "marker",
+   "part": "가지(DB 기록)·바늘잎 휘발 성분",
+   "content_text": "가지에서 L-알파-피넨 기록(함량 없음)[26]; 바늘잎 테르페노이드 분석에서 모노테르펜류가 정량됨(개별 값은 초록에서 확인하지 못함)[9, 11]",
+   "activity_ko": "침엽수 향기 성분; 이 종 속껍질 함량은 확인하지 못함[26]",
+   "source": [
+    9,
+    11,
+    26
+   ]
+  },
+  {
+   "name": "Bornyl acetate",
+   "name_ko": "보르닐아세테이트",
+   "class": "모노테르펜 에스터",
+   "role": "marker",
+   "part": "가지(DB 기록)",
+   "content_text": "가지에서 L-보르닐아세테이트 기록(함량 없음)[26]",
+   "activity_ko": "침엽수 특유의 향을 내는 성분; 속껍질 함량은 확인하지 못함[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Borneol",
+   "name_ko": "보르네올",
+   "class": "모노테르펜 알코올",
+   "role": "marker",
+   "part": "가지(DB 기록)",
+   "content_text": "가지에서 L-보르네올 기록(함량 없음)[26]",
+   "activity_ko": "속껍질 함량·활성은 확인하지 못함[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Galactoglucomannan",
+   "name_ko": "갈락토글루코만난",
+   "class": "헤미셀룰로스(다당)",
+   "role": "nutrient",
+   "part": "목재(속껍질 아님)",
+   "content_text": "목재에서 기록(함량 없음)[26]",
+   "activity_ko": "침엽수 목재의 주요 헤미셀룰로스; 속껍질 함량은 확인하지 못함[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Methyl salicylate",
+   "name_ko": "살리실산메틸",
+   "class": "페놀성 휘발 성분",
+   "role": "bioactive",
+   "part": "바늘잎·잔가지 수지 휘발 성분",
+   "content_text": "솔송솜벌레가 3년간 붙은 어린 나무에서만 증가(GC-MS, 개별 함량은 초록에서 확인하지 못함)[12]",
+   "activity_ko": "식물의 전신 획득 저항성 신호 물질[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Benzyl alcohol",
+   "name_ko": "벤질알코올",
+   "class": "방향족 알코올",
+   "role": "bioactive",
+   "part": "바늘잎·잔가지 수지 휘발 성분",
+   "content_text": "솔송솜벌레 섭식 나무에서 증가(개별 함량 확인하지 못함)[12]",
+   "activity_ko": "항균·진딧물 기피 작용이 알려진 성분[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Salicylic acid",
+   "name_ko": "살리실산",
+   "class": "식물 호르몬(페놀산)",
+   "role": "bioactive",
+   "part": "바늘잎",
+   "content_text": "솔송솜벌레만 붙은 바늘잎에서 지베렐린과 함께 축적[13]",
+   "activity_ko": "해충 섭식에 반응하는 방어 신호 호르몬[13]",
+   "source": [
+    13
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨(플라바놀류: 카테킨·에피카테킨·에피갈로카테킨·프로안토시아니딘)",
+   "part": "새 바늘잎·수꽃 꽃밥(속껍질 아님)",
+   "content": "꽃밥 카테킨 8.6, 에피카테킨 7.1, 에피갈로카테킨 0.6 mg/g 건물; 새 바늘잎 단량체 플라바놀 합계 2.5 mg/g 건물, 프로안토시아니딘 최대 0.9 mg/g 건물[14]",
+   "method": "HPLC-DAD + DMACA 컬럼후 유도체화(VIS 640 nm)",
+   "conditions": {
+    "instrument": "자동시료주입기(Gilson-Abimed 231), 펌프 2대(Kontron 422), 다이오드어레이 검출기(Bio Tek Kontron 540); 컬럼후 유도체화용 펌프(Gynkotek 300 C)와 VIS 검출기 432",
+    "column": "Hypersil ODS 3 μm, 250 × 4 mm I.D.",
+    "mobile_phase": "A: 포름산 수용액(농도 원문 미기재), B: 메탄올",
+    "gradient": "0–5분 5% B; 5–15분 5–10%; 15–30분 10%; 30–50분 10–5%(원문 표기); 50–70분 15%; 70–85분 15–20%; 85–95분 20%; 95–110분 20–25%; 110–140분 25–30%; 140–160분 30–40%; 160–175분 40–50%; 175–190분 50–95% B",
+    "flow": "0.5 mL/min",
+    "temp": "",
+    "detection": "플라바놀·플라본 280 nm; 플라바놀은 1% DMACA(1.5 N 황산-메탄올) 컬럼후 반응으로 640 nm 검출",
+    "injection": "",
+    "sample_prep": "새로 돋는 바늘잎(2–8 mm)과 감수분열기 꽃밥 채취(추출 조건은 원문에 자세히 기재되지 않음)",
+    "standard": "카테킨·에피카테킨·에피갈로카테킨 표준품; 프로안토시아니딘은 실험실 분리 프로시아니딘 B2로 환산, 히드록시신남산류는 클로로겐산, 플라보놀은 루틴으로 환산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 플라바놀을 HPLC로 정량한 유일하게 확인된 전문 자료다; 다만 바늘잎·꽃밥 시료로, 식품원료인 속껍질은 분석하지 않았다[14]",
+   "source": [
+    14
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3211013/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "alpha-Pinene",
+   "compound_ko": "알파-피넨 등 바늘잎 휘발 테르페노이드(51종 동정)",
+   "part": "바늘잎(속껍질 아님)",
+   "content": "솔송나무속 7종 바늘잎 헤드스페이스에서 테르페노이드 51종 동정, 전체 피크 대비 백분율로 반정량[9]",
+   "method": "헤드스페이스 SPME / GC-이온트랩 MS",
+   "conditions": {
+    "instrument": "GC-이온트랩 질량분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "이온트랩 MS",
+    "injection": "",
+    "sample_prep": "바늘잎 한 장씩 자른 뒤 헤드스페이스 고체상 미세추출(보관·절단·채취 시간 조건 검토)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "솔송나무속 종 구별(화학분류)에 쓰인 지표 성분군이다; 전문 확인 못함, 바늘잎 자료로 속껍질과 무관하다[9]",
+   "source": [
+    9
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12670144/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 캐나다솔송내피 행(Tsuga canadensis Carriere; Eastern hemlock, Canadian hemlock; 식물; 사용가능, 사용 조건 '사용가능부위 : 내피', 부위 '속껍질') 및 같은 목록의 다른 Tsuga 속 내피 원료 행(로컬 원자료 I1020_20261013.json으로 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '북미산솔송나무(독당근)' 행(학명 'TSUGA. CANADENSIS(L.)CARR. OR T. HETEROPHYLLA (RAF.)', 영명 'HEMLOCK NEEDLES OR TWIGS', 사용불가), 식품첨가물(B코드) '천연향료(Hemlock needles 및 twigs)' 행(사용가능), '독당근, 독미나리' 행(Conium maculatum L., 사용불가) — 로컬 원자료 I1020_20261013.json으로 대조",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Poison hemlock (Conium maculatum L.) — Food Chem Toxicol 2004;42(9):1373-82 (PMID 15234067, doi:10.1016/j.fct.2004.04.009) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15234067/",
+   "publisher": "Food and Chemical Toxicology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "[Rhabdomyolysis: have you considered food poisoning from quails?] — G Ital Nefrol 2020;37(2) (PMID 32281758, 이탈리아어 총설) — 영문 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32281758/",
+   "publisher": "Giornale Italiano di Nefrologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "미국 연방규정 21 CFR 172.510 Natural flavoring substances and natural substances used in conjunction with flavors — 'Hemlock needles and twigs (Tsuga canadensis (L.) Carr. or T. heterophylla (Raf.) Sarg.)' 항목 — WebSearch 검색 결과 요약으로만 확인, 원문(eCFR·LII)은 이 환경에서 열지 못함, 제한 조건 칸 확인하지 못함",
+   "url": "https://www.law.cornell.edu/cfr/text/21/172.510",
+   "publisher": "미국 FDA(연방규정집)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Plants For A Future 식물 데이터베이스 — Tsuga canadensis 항목(속껍질 식용, 나무껍질 탄닌 8–14%) — WebSearch 검색 결과 요약으로만 확인, 원 페이지는 이 환경에서 열지 못함, 원 문헌 출처 확인하지 못함",
+   "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tsuga+canadensis",
+   "publisher": "Plants For A Future",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Phylotranscriptomics reveals the complex evolutionary and biogeographic history of the genus Tsuga with an East Asian-North American disjunct distribution — Mol Phylogenet Evol 2021;157:107066 (PMID 33387645, doi:10.1016/j.ympev.2020.107066) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33387645/",
+   "publisher": "Molecular Phylogenetics and Evolution (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Phylogeny and evolutionary history of Pinaceae updated by transcriptomic analysis — Mol Phylogenet Evol 2018;129:106-116 (PMID 30153503, doi:10.1016/j.ympev.2018.08.011) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30153503/",
+   "publisher": "Molecular Phylogenetics and Evolution (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Analysis of terpenoids from hemlock (Tsuga) species by solid-phase microextraction/gas chromatography/ion-trap mass spectrometry — J Agric Food Chem 2003;51(8):2115-20 (PMID 12670144, doi:10.1021/jf021028s) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12670144/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Characterization of terpenoid volatiles from cultivars of eastern hemlock (Tsuga canadensis) — J Agric Food Chem 2007;55(26):10850-6 (PMID 18052093, doi:10.1021/jf071947o) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18052093/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Temporal and spatial variation of terpenoids in eastern hemlock (Tsuga canadensis) in relation to feeding by Adelges tsugae — J Chem Ecol 2006;32(11):2389-403 (PMID 17078000, doi:10.1007/s10886-006-9166-0) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17078000/",
+   "publisher": "Journal of Chemical Ecology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Hemlock woolly adelgid and elongate hemlock scale induce changes in foliar and twig volatiles of eastern hemlock — J Chem Ecol 2013;39(8):1090-100 (PMID 23900803, doi:10.1007/s10886-013-0300-5) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23900803/",
+   "publisher": "Journal of Chemical Ecology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Impact of chronic stylet-feeder infestation on folivore-induced signaling and defenses in a conifer — Tree Physiol 2021;41(3):416-427 (PMID 33094330, doi:10.1093/treephys/tpaa136) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33094330/",
+   "publisher": "Tree Physiology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Nuclei of Tsuga canadensis: role of flavanols in chromatin organization — Int J Mol Sci 2011;12(10):6834-55 (PMID 22072922, PMC3211013, doi:10.3390/ijms12106834) — PMC 전문 확인",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3211013/",
+   "publisher": "International Journal of Molecular Sciences (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Flavanol binding of nuclei from tree species — Plant Cell Rep 2004;22(6):430-6 (PMID 14595514, doi:10.1007/s00299-003-0705-7) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14595514/",
+   "publisher": "Plant Cell Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Isolation and characterization of microsatellite markers for Carolina hemlock (Tsuga caroliniana) — Mol Ecol Resour 2008;8(6):1371-4 (PMID 21586049, doi:10.1111/j.1755-0998.2008.02294.x) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21586049/",
+   "publisher": "Molecular Ecology Resources (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Ancient and modern colonization of North America by hemlock woolly adelgid, Adelges tsugae (Hemiptera: Adelgidae), an invasive insect from East Asia — Mol Ecol 2016;25(9):2065-80 (PMID 26880353, doi:10.1111/mec.13589) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26880353/",
+   "publisher": "Molecular Ecology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Chromosome scale genomes of two invasive Adelges species enable virtual screening for selective adelgicides — G3 2026;16(1) (PMID 41042102, PMC12774606, doi:10.1093/g3journal/jkaf232) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41042102/",
+   "publisher": "G3: Genes|Genomes|Genetics (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Spatial and temporal distribution of residues of imidacloprid and its insecticidal 5-hydroxy and olefin metabolites in eastern hemlock in the southern Appalachians — J Econ Entomol 2013;106(6):2399-406 (PMID 24498740, doi:10.1603/ec13142) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24498740/",
+   "publisher": "Journal of Economic Entomology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Persistence and recovery of dinotefuran in eastern hemlock (Tsuga canadensis) foliage and twigs by UPLC-MS/MS and ELISA — Pest Manag Sci 2024;80(4):1885-1894 (PMID 38086734, doi:10.1002/ps.7926) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38086734/",
+   "publisher": "Pest Management Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Impacts of trunk and soil injections of low rates of imidacloprid on hemlock woolly adelgid and eastern hemlock health — J Econ Entomol 2014;107(1):250-8 (PMID 24665708, doi:10.1603/ec13343) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24665708/",
+   "publisher": "Journal of Economic Entomology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Long-term structural and biomass dynamics of virgin Tsuga canadensis-Pinus strobus forests after hurricane disturbance — Ecology 2017;98(3):721-733 (PMID 27984662, doi:10.1002/ecy.1684) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27984662/",
+   "publisher": "Ecology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Resource availability alters breeding strategies in a small mammal community — J Anim Ecol 2024;93(9):1303-1315 (PMID 39073110, doi:10.1111/1365-2656.14148) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39073110/",
+   "publisher": "Journal of Animal Ecology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Influence of bark pH on the occurrence and distribution of tree canopy myxomycete species — Mycologia 2008;100(2):191-204 (PMID 18592896, doi:10.3852/mycologia.100.2.191) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18592896/",
+   "publisher": "Mycologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Wood colors and their coloring matters: a review — Nat Prod Commun 2015;10(3):505-12 (PMID 25924540) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25924540/",
+   "publisher": "Natural Product Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "USDA ARS Dr. Duke's Phytochemical and Ethnobotanical Databases — Tsuga canadensis 성분 기록(card.json candidates 경유: L-alpha-pinene·L-bornyl acetate·L-borneol은 가지, galactoglucomannan은 목재; 함량 없음) — 원 페이지는 확인하지 못함",
+   "url": "https://phytochem.nal.usda.gov/",
+   "publisher": "USDA Agricultural Research Service",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Top-down regulation of hemlock woolly adelgid (Adelges tsugae) in its native range in the Pacific Northwest of North America — Oecologia 2022;199(3):599-609 (PMID 35796819, doi:10.1007/s00442-022-05214-8) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35796819/",
+   "publisher": "Oecologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Assessing the potential impacts to riparian ecosystems resulting from hemlock mortality in Great Smoky Mountains National Park — Environ Manage 2009;44(2):335-45 (PMID 19495859, PMC2717373, doi:10.1007/s00267-009-9317-5) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19495859/",
+   "publisher": "Environmental Management (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Spatial and Temporal Distribution of Imidacloprid Within the Crown of Eastern Hemlock — J Insect Sci 2017;17(1) (PMID 28130463, PMC5270400, doi:10.1093/jisesa/iew120) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28130463/",
+   "publisher": "Journal of Insect Science (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

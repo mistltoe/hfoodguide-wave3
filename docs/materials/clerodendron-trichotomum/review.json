@@ -1,0 +1,30 @@
+{"slug": "clerodendron-trichotomum", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 59, "checked_items": 62,
+ "verified": 92, "fixed": 19, "removed": 6, "unverifiable": 4,
+ "changes": [
+  {"where": "sections.overview, sections.safety", "before": "열매 색소에서 온 식품첨가물 '누리장나무색소'", "after": "식품첨가물(B코드) '누리장나무색소'", "why": "로컬 I1020 원자료 행에는 원료 부위가 '-'이고 열매 유래라는 말이 없음"},
+  {"where": "sections.history", "before": "1960년대 … 복합 처방 '진통(鎮痛)'의 소염 작용 연구도 발표되었다[33][34]", "after": "1962년 '취오동'(지상부) 독성·혈압 강하 논문(초록 없음, 제목으로만 확인)", "why": "[34]는 Bidens bipinnata와 섞은 복합 처방이고 초록이 없어 누리장나무 단독 근거가 아님 — 출처 정리 대상"},
+  {"where": "sections.history", "before": "일본에서는 1964년 쓴맛 성분 연구를 시작으로 … [38][26]", "after": "1970년에는 잎에서 새 아카세틴 배당체 … [26]", "why": "[38]은 초록 없는 서지 항목뿐이라 약한 출처로 정리"},
+  {"where": "sections.history", "before": "추출물을 먹인 자연발생 고혈압 쥐", "after": "추출물(초록에 사용 부위 명시 없음)을 한 번 먹인 자연발생 고혈압 쥐", "why": "[15] 초록은 'acute oral administration'이며 부위를 적지 않음"},
+  {"where": "sections.biology", "before": "열매와 잎에는 N-아세틸갈락토사민·갈락토스에 붙는 렉틴(분자량 56,000 …)", "after": "열매와 잎에서 렉틴이 분리되었고, 열매 렉틴은 … 56,000의 당단백질 동종이량체", "why": "당 특이성·분자량은 열매 렉틴[27] 값이며 잎 렉틴[28]에는 해당 수치가 없음"},
+  {"where": "sections.related_species", "before": "이 변종 잎에서 새 배당체가 보고된 바 있다[1][32][37]", "after": "배양 연구에 쓰인 종자도 이 변종이었다[1][32]", "why": "[37](1977, 초록 없음) 제거; var. fargesii (Dode) Rehder 종자 사용은 [32] 전문 Methods로 확인"},
+  {"where": "sections.processing", "before": "잎과 꽃으로 우린 차를 쥐에게 먹인 실험", "after": "자연발생 고혈압 쥐에게 8주 먹인 실험", "why": "[2] 전문 6.6절 대조"},
+  {"where": "sections.safety", "before": "세포 실험에서 시장 구입 원료(부위 미상) 열수 추출물의 50% 세포독성 농도", "after": "사람 HEp2 세포 … 열수 추출물(105 °C, 2.5시간) CC50 764.17 μg/mL", "why": "[18] 전문 2.1·3.4절 대조, 세포주·추출 조건 보충"},
+  {"where": "sections.safety", "before": "사람 적혈구를 응집", "after": "적혈구를 응집", "why": "[27][28] 초록에 사람 적혈구라는 말이 없음"},
+  {"where": "sections.safety", "before": "질병 치료 목적으로 먹는 것은 권하지 않는다[2]", "after": "총설은 사람에게 쓰기 전에 안전성·효능·용량 연구가 더 필요하다고 결론지었다[2]", "why": "[2]는 권고 문구가 아니라 추가 연구 필요를 결론으로 적음"},
+  {"where": "compounds.Acteoside.activity_ko", "before": "기니피그 천식 모델 25 mg/kg 기도저항 감소[7]", "after": "… (동물; 누리장나무 잎과 Rumex 가운데 어느 쪽 분리물인지 초록으로 가리지 못함)", "why": "[7] 초록은 두 식물 EtOAc 분획에서 'respectively'로 분리했다고 써 출처 식물이 모호함"},
+  {"where": "compounds.Isoacteoside.activity_ko", "before": "B16F10 GI50 8 μM(세포)", "after": "… (C. bungei 잎과 누리장나무 잎·껍질을 함께 조사한 연구)", "why": "[14]는 C. bungei 자료와 섞여 있음"},
+  {"where": "compounds.Jionoside D·Trichotomoside.part", "before": "초록에 부위 명시 없음", "after": "줄기(PubMed 색인어 기준, 초록에는 부위 명시 없음)", "why": "[10][12] MeSH 'Plant Stems' — 잎 결과로 읽히지 않게 함"},
+  {"where": "compounds.Apigenin 7-glucuronide.activity_ko", "before": "PPAR-γ 작용 활성(세포)[24]", "after": "PPAR-γ 작용 활성(시험관 검정, 시료 부위는 초록에 없음)[24]", "why": "[24] 초록에 시료 부위·세포 여부가 없음"},
+  {"where": "compounds.Uncinatone", "before": "source [22,23,36]", "after": "source [22,36], 초록 표기 'uncintone' 메모", "why": "[23](2018 뿌리 NO 억제) 초록에 운시나톤이 없음 — 출처 정리 대상"},
+  {"where": "assays[1].content", "before": "종별 수치는 확인하지 못함(학명 표기가 빠져 …)", "after": "배양 신초 아크테오사이드 24.4–28.3 mg/g DW(최고 SH 28.3), 정량 폴리페놀 합 최고 36.6 mg/g DW(SH); 본문 맥락으로 종을 가려 읽음", "why": "[32] 전문에서 var. fargesii 종자·캄네오사이드 I·SH 최적 단서로 누리장나무 값을 식별; 야외 순·잎 값이 아님을 rationale에 명시"},
+  {"where": "sources", "before": "39개", "after": "35개([23][34][37][38] 제거 후 1–35로 재번호)", "why": "출처 상한 35; 초록 없는 서지 항목·복합 처방·뿌리 중복 출처 정리"}
+ ],
+ "unverifiable_notes": [
+  "[32](1962 중국 약리)·[25](1970 아카세틴 배당체)는 PubMed 초록이 없어 제목·서지만 확인",
+  "[16]의 HPLC 분석 조건은 보충 그림에만 있어 확인하지 못함(160.3 ± 2.4 mg/g 추출물 기준 값과 채집·추출 조건은 PMC 전문으로 확인)",
+  "총설[2]이 소개한 잎·꽃 차 동물 실험의 원문은 확인하지 못함",
+  "[31] 배양 연구의 종별 수치는 PMC 추출본에 학명이 빠져 본문 맥락으로 가려 읽음(검토자 판단)",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 대조(누리장나무잎·순 A코드 사용가능, '사용가능부위 : 순, 잎', C. cyrtophyllum 잎·C. japonicum 꽃 별도 행, 누리장나무색소 사용불가) — card.json과 일치",
+  "WebSearch는 쓰지 않음; 논문은 PubMed 메타데이터·PMC 전문(PMC11279216, PMC8765252, PMC7375980, PMC6669655, PMC11677968)으로 대조"
+ ]}
