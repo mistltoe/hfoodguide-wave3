@@ -1,0 +1,712 @@
+{
+ "slug": "chionoecetes-opilio",
+ "name_ko": "대게",
+ "name_en": "Snow crab",
+ "scientific_name": "Chionoecetes opilio",
+ "aliases": [
+  "Snow crab",
+  "Queen crab",
+  "대게살",
+  "대게알",
+  "대게내장",
+  "대게껍질",
+  "대게분말",
+  "대게페이스트"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "대게(Chionoecetes opilio, 영어 snow crab·queen crab)는 Oregoniidae과에 드는 단미류 게로, 식약처 「식품원료 목록」에는 수산물로 분류되어 '대게', '대게분말', '대게페이스트', '대게알', '대게내장', '대게살', '대게껍질' 7개 원료명이 모두 '사용가능' 상태로 올라 있다[1]. 이 가운데 '대게껍질'에만 '대게살을 모두 발라낸 대게 껍질'이라는 사용 조건이 붙어 있고, 나머지 행에는 사용 조건이 없다[1]. 목록의 부위 칸은 원자료 표기 그대로 '-'(대게·대게분말·대게페이스트), '균핵'(대게알), '어린순'(대게내장), '죽순'(대게살), '어린자실체'(대게껍질)로 적혀 있는데, 게에 맞지 않는 식물·버섯 부위 용어여서 원자료 입력상의 오류로 보이며 의도한 부위는 확인하지 못함.\n\n대게는 북서대서양과 북태평양에 주로 살며, 한반도 동해의 대게 개체군은 근연종 홍게(C. japonicus)와 함께 동해안 어업에서 가장 중요한 갑각류 자원으로 꼽힌다[16]. 캐나다 대서양 연안에서는 상업 어업에서 가장 중요한 종으로, 2021년 수출액이 약 13억 캐나다달러였다[12]. 식품으로는 주로 다리살을 먹으며, 익힌 다리살은 수분 78.9%, 단백질 17.8%, 지방 1.2%로 단백질이 많고 지방이 적다[10]. 건강기능식품 고시형 원료의 원재료는 아니며, 국내 어획·생산 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "대게는 1788년 Fabricius가 기재한 종으로, 학명 뒤에 '(O. Fabricius, 1788)'로 표기된다[32]. 대게 다리살은 값이 비싸, 1975년 일본에서 이를 대신하려고 연육으로 만든 게맛살(imitation crab stick)이 개발되었고 1980년대 초부터 서양에도 퍼졌다[10].\n\n북동대서양 바렌츠해에서는 1996년 러시아 어선이 혼획을 처음 보고했고, 2004년 조사로 정착이 확인되었으며, 2013년 상업 조업이 시작되었다[9]. 노르웨이의 바렌츠해 대게 양륙량은 2017년 3,048톤, 2019년 4,173톤으로 늘었고, 2017년 총허용어획량이 정해지면서 여름철 조업이 닫혔다[9]. 연구진은 대게가 한국과 미국에 시장이 형성되어 있어 가치가 높은 자원이라고 설명한다[9]. 북극 카라해에서도 외래종으로 들어온 대게 개체군이 늘고 있다는 조사가 있다[23].\n\n베링해에서는 겨울 해빙 면적이 상업 대게 어획량 변동의 57%를 설명할 만큼 기후 영향을 크게 받는다[21]. 2026년 발표된 연구는 베링해 해양열파 뒤 대게 자원이 붕괴했고, 그 여파로 대게와 Tanner crab(C. bairdi)의 잡종이 역사적 평균보다 13.4배 늘었다고 보고했다[22]."
+  },
+  {
+   "key": "biology",
+   "title": "종의 특징",
+   "body": "대게는 몸이 거의 둥글고 다섯 쌍의 다리가 긴 거미 모양의 게로, 대서양 쪽에서는 그린란드 서안부터 메인만까지 분포한다고 소개된다[11]. 깊은 바다에 사는 대형 단미류로, 평생 계속 탈피하는 다른 십각류와 달리 탈피 횟수가 정해져 있다[19]. 수컷은 마지막 탈피(종말 탈피) 때 집게발이 몸에 비해 크게 자라고 행동도 바뀌며, 그 뒤 혈중 메틸 파네소에이트 농도가 올라간다[19]. 암컷은 성숙한 뒤 종말 탈피를 하며, 큰 집게발을 가진 수컷은 눈자루를 잘라도 탈피 호르몬(엑디스테로이드)이 늘지 않아 수컷 종말 탈피의 생리적 근거로 제시되었다[20].\n\n바렌츠해에서는 수심 200–400 m의 진흙·모래 바닥에 주로 살고, 수컷 성체는 온도 기울기에서 1.0–1.6 °C의 가장 찬 곳을 고른다[9]. 같은 해역에서 탈피는 7–8월에 일어나고, 간췌장 지수(간췌장 무게/생체중)는 계절에 따라 5.5–6.4%로 차이가 작았다[9]. 간췌장은 지질 저장 기관으로, 지질 함량이 습중량 기준 21–26%였다[9].\n\n동해(일본 쪽 해역)에서는 대게 알덩이에서 알을 먹는 끈벌레(Ovicides paralithodis)가 처음 기록되었다[32]. 북서태평양 대게에는 유백색 혈림프병을 일으키는 바이러스(CoBV)가 알려져 있으며, 그 유전체는 약 240 kb의 원형 DNA다[24]. 베링해 대게에서는 수온·낮은 pH·개체 밀도와 관련된 흑안 증후군이 새로 나타나고 있다[31]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동",
+   "body": "같은 Chionoecetes속에서 식약처 「식품원료 목록」에 함께 오른 원료는 홍게(C. japonicus, 이명 붉은대게)·베어다이대게(C. bairdi, Tanner crab)·C. angulatus(Triangle tanner crab)이며, 이들은 대게와 다른 원료로 따로 적혀 있다[1]. 이 자료의 수치와 설명은 대게(C. opilio)만 다룬 것이고 홍게·베어다이대게 자료는 섞지 않았다[1].\n\n대게와 홍게는 동해에서 함께 잡히고[16], 두 종의 갑각류 고혈당 호르몬(CHH) 유전자는 5′ 비번역 부위와 단백질 암호 부위가 100% 같을 만큼 가깝다[18]. 동해산 두 종을 비교한 연구에서 근육과 간췌장의 비소·구리·수은 평균 농도는 홍게가 대게보다 상대적으로 높았다[7]. 국내 시판 게맛살 가운데 '게살 함유' 제품에 들어간 게살은 대게가 아니라 홍게 다리살(6%)이었다[10].\n\n식품의약품안전평가원 연구진은 대게·홍게·왕게(Paralithodes camtschaticus)를 30분 안에 가려내는 실시간 PCR 법을 개발해 시판품 24건에 적용했다[28]. 왕게에는 대게 등 참게류에는 없는 왕게 특이 알레르기 항원(말산 탈수소효소, Para c 11)이 있어 두 무리의 알레르기 양상이 다를 수 있다[4]. 베링해에서는 대게와 C. bairdi의 잡종이 생기므로 어획물의 종 구분에 주의가 필요하다[22]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 자원 관리",
+   "body": "대게는 양식이 아니라 자연산을 어획하며, 노르웨이 바렌츠해에서는 통발로 갑폭 10 cm가 넘는 수컷만 잡는다[9]. 같은 해역에서 다리살 충실도(살이 껍데기 속을 채운 비율)는 2–4월에 가장 높고 6월에 가장 낮아, 연구진은 겨울–봄 조업을 권했다[9]. 캐나다 대서양 연안의 연간 양륙량은 76,828톤으로 보고되었다[12].\n\n한반도 주변 대게 개체군은 남획과 기후변화로 자원이 줄고 있으며, 한국 개체군 5곳은 서로 유전적으로 다르지 않았지만 러시아 개체군과는 뚜렷이 달라 따로 관리해야 한다는 제안이 있다[16]. 국내 법령은 「수산자원관리법 시행령」 별표 2에서 대게의 포획·채취 금지 체장을 9 cm 이하로 정하고 있다고 검색 요약에서 확인했으나, 원문은 열지 못했다[30]. 금어기·암컷 포획 금지 등 세부 규정의 원문과 국내 연도별 어획량은 확인하지 못함.\n\n살아 있는 대게를 공기 중에 두는 운송 조건을 흉내 낸 실험에서는 간췌장에서 CHH·열충격단백질 유전자가 늘고 TCA 회로 중간대사물과 젖산이 쌓여, 저산소가 주요 스트레스 요인으로 지목되었다[29]. 베링해에서는 해빙 감소 등 수온 변화가 어획량과 분포를 크게 바꾼다[21, 22]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 부산물 이용",
+   "body": "캐나다 대서양 연안의 대게는 주로 익혀서 개별 급속 냉동(IQF)한 다리 묶음으로 가공되며, 이 과정에서 무게의 25–30%(연 약 2만 톤)가 등딱지·내장·간췌장·혈림프·남은 살·아가미로 버려진다[12]. 살을 발라낸 뒤의 껍질 부위(등딱지·어깨·집게·끝마디·다리)는 원료의 최대 80%를 차지한다고 보고된다[11]. 효소 가수분해 연구에서 대게 부산물은 건량 기준 단백질 42.9%, 지질 14.8%, 무기질 25.7%, 키틴 16.2%로 구성되었다[13].\n\n식물성 기름으로 부산물의 아스타잔틴을 뽑으면 회수율이 옥수수유 37.93%, 카놀라유 31.23%, 해바라기유 24.85%였고, 구연산 탈회와 단백질 분해효소 처리로 얻은 키틴 수율은 건량 기준 17–20%로 기존 염산·수산화나트륨법(16–18%)과 비슷했다[12]. 같은 연구진은 이전 연구에서 대게 분말과 단백질 가수분해물의 비소가 사료·식품 기준을 넘었다고 밝혀, 부산물 이용 때 중금속 검사가 핵심 품질 항목이라고 했다[12].\n\n대게를 삶은 물을 막으로 농축해 식품 소재로 쓰려는 연구도 있다[25]. 간췌장 가수분해물의 펩타이드 분획은 시험관에서 리스테리아 등 세균 증식을 억제했지만[26], 이는 실험실 결과로 사람에게서 확인된 효과가 아니다[26, 27]. 대게 원료를 쓴 건강기능식품 생산실적은 식약처 자료에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "대게의 미토콘드리아 유전체는 16,067 bp의 원형 분자로 단백질 암호 유전자 13개, tRNA 유전자 22개, rRNA 유전자 2개를 가지며, 1,216 bp의 D-loop 추정 부위와 일부 tRNA의 특이한 2차 구조가 보고되었다[17]. 이 유전체로 만든 계통수는 Majoidea 등 단미류 분기군의 단계통성을 지지했다[17].\n\n연구진은 차세대 염기서열 분석으로 만든 마이크로새틀라이트 9개로 한국 5개·러시아 1개 개체군을 분석해, 대립유전자 수가 좌위당 4–18개(평균 12개)였고 한국산과 러시아산을 93% 정확도로 구분했다[16]. 이는 국제 거래에서 대게 원산지 판별에 쓸 수 있다고 제안되었다[16].\n\n수컷의 종말 탈피 전후를 비교한 눈자루 전사체 분석은 메틸 파네소에이트를 분해하는 효소 유전자의 억제가 탈피 후 이 호르몬 농도 상승의 원인일 수 있다고 보았다[19]. 대게와 홍게의 CHH 전구체(138개 아미노산)는 서열이 같아, 서로 다른 두 십각류 종에서 같은 CHH 서열이 보고된 첫 사례였다[18]. 식품 표시 검증을 위해 미토콘드리아 COI와 ITS1을 표적으로 한 대게 종 특이 PCR 프라이머가 개발되었다[28]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "갑각류인 대게의 다리·집게 살에서는 주요 알레르기 항원인 트로포미오신이 정제·확인되었다[3]. 대게 알레르기 환자 16명의 혈청 가운데 7명(43%)이 40 kDa 단백질에 강하게 반응했고, 이 단백질은 두 번째 대게 알레르기 항원인 아르기닌 인산화효소(Chi o 3)로 명명되었다[2]. 게 알레르기 환자 29명의 혈청으로 대게 근육 단백질을 본 연구에서는 트로포미오신과 아르기닌 인산화효소가 함께 있는 40 kDa 띠에 65.5%, 헤모시아닌 띠에 24.1%가 반응했다[4]. 대게 가공 공장에서는 직업성 알레르기·천식도 문제로, 그린란드 노동자 20명 가운데 40%가 대게 피부단자시험에 양성이었다[5].\n\n중금속은 내장에 몰린다. 국내 수산시장의 두족류·갑각류 연구에서 blue crab을 뺀 모든 종의 내장 카드뮴 평균이 한국·EU 기준을 넘었고, 대게는 전체 조직(살+내장) 기준으로도 EU 카드뮴 기준을 넘어, 연구진은 내장을 빼고 살만 먹기를 권했다[6]. 동해산 대게의 카드뮴·코발트·구리·철·납은 간췌장이 근육보다 10–100배 높았으나, 근육 섭취 기준 추정 일일섭취량은 모두 잠정 허용 섭취량의 0.1% 미만이었고, 대게의 하루 최대 허용 섭취량은 약 410 g으로 추산되었다[7].\n\n1996–2007년 일본 주변 대게의 세슘-137 등 인공 방사성 핵종은 증가 추세가 없었고 과거 핵실험 낙진에서 온 것으로 해석되었다[8]. 식약처 「식품원료 목록」의 '대게내장'은 사용 조건 없이 '사용가능'으로 올라 있으나[1], 국내 공공기관의 대게 내장 카드뮴 기준·섭취 안내 원문은 이번 조사에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Astaxanthin",
+   "name_ko": "아스타잔틴",
+   "class": "카로티노이드",
+   "role": "marker",
+   "part": "껍질(등딱지 등)",
+   "content_text": "등딱지 총 카로티노이드 125.9 ± 2 μg/g, 아스타잔틴 다이에스터 67.66 ± 2.65 μg/g, 유리 아스타잔틴 25.3 ± 1.95 μg/g(어깨 15.69, 집게 7.21, 끝마디 11.18, 다리 15.34 μg/g)[11]; 껍질 아스타잔틴 9.49 mg/100 g(건량)[14]; 혼합 부산물 21.094 μg/g(습량)[12]",
+   "activity_ko": "게 껍질의 붉은 색을 내는 주 색소로, 주로 다이에스터·모노에스터 형태로 있다[11]. 항산화 성분으로 알려져 부산물 회수 대상이 된다[11, 12].",
+   "source": [
+    11,
+    12,
+    14
+   ]
+  },
+  {
+   "name": "Chitin",
+   "name_ko": "키틴",
+   "class": "다당류",
+   "role": "marker",
+   "part": "껍질",
+   "content_text": "건량 기준 등딱지 75%, 어깨 69%, 집게 77%, 끝마디 75%, 다리 82%[11]; 부산물 전체 건량 기준 16.2%[13]; 녹색 추출 수율 17–20%(건량)[12]",
+   "activity_ko": "갑각을 이루는 구조 다당류로 키토산·글루코사민의 원료가 된다[12, 15].",
+   "source": [
+    11,
+    12,
+    13,
+    15
+   ]
+  },
+  {
+   "name": "alpha-Tocopherol",
+   "name_ko": "비타민 E(토코페롤)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "껍질",
+   "content_text": "비타민 E 23.3 mg/100 g(건량, 평균)[14]",
+   "activity_ko": "지용성 항산화 비타민으로 껍질에서 형광 검출 HPLC로 정량되었다[14].",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "beta-Carotene",
+   "name_ko": "베타카로틴",
+   "class": "카로티노이드",
+   "role": "nutrient",
+   "part": "껍질",
+   "content_text": "0.2 mg/100 g(건량, 평균)[14]",
+   "activity_ko": "아스타잔틴의 전구 카로티노이드로 껍질에 소량 있다[14, 11].",
+   "source": [
+    14,
+    11
+   ]
+  },
+  {
+   "name": "Arginine",
+   "name_ko": "아르기닌",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "다리살(삶은 것)·어깨 껍질",
+   "content_text": "삶은 다리살 유리 아르기닌 498 mg/100 g[10]; 어깨 껍질 단백질의 아르기닌 12.92 g/100 g, 어깨 껍질 유리 아르기닌 17.13 mg/100 g 껍질[11]",
+   "activity_ko": "대게 살의 가장 많은 유리아미노산 가운데 하나로 쓴맛·단맛을 내며 게 맛의 호감에 기여한다[10].",
+   "source": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Glycine",
+   "name_ko": "글리신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "다리살(삶은 것)",
+   "content_text": "삶은 다리살의 주요 유리아미노산(글리신·알라닌·프롤린·아르기닌) 가운데 하나; 글리신 개별 수치는 본문 텍스트에서 확인하지 못함[10]",
+   "activity_ko": "단맛을 내는 유리아미노산이다[10].",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "다리살(삶은 것)",
+   "content_text": "24.2 mg/100 g(게맛살 189–257 mg/100 g보다 낮음)[10]",
+   "activity_ko": "감칠맛 관련 아미노산이지만 대게 살에는 적게 들어 있다[10].",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Adenosine monophosphate",
+   "name_ko": "아데노신 일인산(AMP)",
+   "class": "뉴클레오타이드",
+   "role": "bioactive",
+   "part": "다리살",
+   "content_text": "대게는 AMP가 많고 IMP·GMP는 적다는 선행 보고 인용; 삶은 다리살에서 IMP·GMP는 검출되지 않음; AMP 수치는 본문 텍스트에서 확인하지 못함[10]",
+   "activity_ko": "삶는 동안 늘어나는 정미 성분으로 게 맛에 관여한다[10].",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Trimethylamine",
+   "name_ko": "트라이메틸아민",
+   "class": "아민(휘발성 성분)",
+   "role": "bioactive",
+   "part": "다리살",
+   "content_text": "실제 대게 살에서만 검출된 비린내 성분(정량값 확인하지 못함)[10]",
+   "activity_ko": "역치가 낮은 비린내 성분으로, 게맛살과 실제 게살을 구분하는 냄새 지표로 제안되었다[10].",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA(에이코사펜타엔산)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "간췌장",
+   "content_text": "간췌장 지방산 가운데 EPA+DHA 18–19%(단일불포화 35–39%, 다중불포화 27–28%, 포화 13–15%)[9]; 부산물 n-3/n-6 비 약 10[13]",
+   "activity_ko": "해양성 오메가-3 지방산으로, 부산물 기름의 영양 가치를 높이는 성분으로 평가된다[9, 13].",
+   "source": [
+    9,
+    13
+   ]
+  },
+  {
+   "name": "Triolein",
+   "name_ko": "중성지방(트라이아실글리세롤)",
+   "class": "지질",
+   "role": "nutrient",
+   "part": "간췌장",
+   "content_text": "간췌장 지질 21–26%(습량) 가운데 트라이아실글리세롤 81–94%, 유리지방산 2–11%, 극성지질 0–5%[9]",
+   "activity_ko": "간췌장의 주 저장 지질이다(대표 화합물명으로 Triolein을 적었으며 실제로는 여러 트라이아실글리세롤의 혼합)[9].",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Calcium",
+   "name_ko": "칼슘",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "껍질(집게)",
+   "content_text": "집게 껍질 19.39 g/100 g; 껍질 다량 무기질의 60% 이상이 칼슘[11]",
+   "activity_ko": "갑각을 단단하게 하는 주 무기질로 껍질 회분의 대부분을 차지한다[11].",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "껍질(등딱지)",
+   "content_text": "새우·게 껍질 시료 전체 2.6–14.1 mg/100 g, 대게 등딱지가 가장 높음(부위별 개별 수치는 본문 텍스트에서 확인하지 못함)[11]",
+   "activity_ko": "껍질에 가장 많은 미량 무기질이다[11].",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Tropomyosin",
+   "name_ko": "트로포미오신",
+   "class": "근육 단백질(알레르기 항원)",
+   "role": "bioactive",
+   "part": "다리·집게 살",
+   "content_text": "천연 분자량 32,733 Da[3]; 게 알레르기 환자 혈청 29명 중 65.5%가 트로포미오신·아르기닌 인산화효소 40 kDa 띠에 반응[4]",
+   "activity_ko": "갑각류 알레르기의 주 원인 단백질이며, 가공장 공기 중 직업성 항원이기도 하다[3, 4].",
+   "source": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Arginine kinase",
+   "name_ko": "아르기닌 인산화효소(Chi o 3)",
+   "class": "효소 단백질(알레르기 항원)",
+   "role": "bioactive",
+   "part": "다리살",
+   "content_text": "40 kDa; 대게 알레르기 환자 16명 중 7명(43%) 강한 반응[2]",
+   "activity_ko": "대게의 두 번째 알레르기 항원으로 명명되었다[2].",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Astaxanthin",
+   "compound_ko": "아스타잔틴(유리형·모노에스터·다이에스터)",
+   "part": "껍질(등딱지·어깨·집게·끝마디·다리)",
+   "content": "등딱지 총 카로티노이드 125.9 ± 2 μg/g, 다이에스터 67.66 ± 2.65 μg/g, 유리 아스타잔틴 25.3 ± 1.95 μg/g(습량/건량 기준은 원문에 명시되지 않음) [11]",
+   "method": "TLC 분획 + 분광광도법(468 nm)",
+   "conditions": {
+    "instrument": "분광광도계",
+    "column": "실리카겔 TLC 판",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "흡광도 468 nm",
+    "injection": "",
+    "sample_prep": "카로티노이드 추출물(클로로폼)을 실리카겔 TLC 판에 점적·전개; 각 띠를 클로로폼 3 mL로 3회 추출, 원심분리 후 클로로폼 10 mL로 희석",
+    "standard": "카로티노이드 표준품(클로로폼 용액)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "게 껍질 색을 내는 주 카로티노이드로, 부위별 함량 차이가 커서 부산물 회수 부위 선택의 지표로 쓰였다(전문 확인)[11].",
+   "source": [
+    11
+   ],
+   "url": "https://doi.org/10.3390/foods13172700",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Astaxanthin",
+   "compound_ko": "아스타잔틴",
+   "part": "껍질",
+   "content": "9.49 mg/100 g(건량, 평균) [14]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "온라인 HPLC(UV-vis 다이오드 어레이·형광 검출기 연결)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "다이오드 어레이 450 nm",
+    "injection": "",
+    "sample_prep": "아세톤 단순 추출(비누화 후 추출법과 비교해 모든 성분을 정량할 수 있어 선택)",
+    "standard": "",
+    "linearity": "초록에 '만족스러움'으로만 기재",
+    "lod": "",
+    "loq": "",
+    "recovery": "초록에 '만족스러움'으로만 기재"
+   },
+   "rationale": "대게 껍질의 카로티노이드와 비타민 E를 한 번에 정량하도록 최적화한 방법이다; 초록만 확인했고 전문 확인 못함[14].",
+   "source": [
+    14
+   ],
+   "url": "https://doi.org/10.1016/j.aca.2008.03.001",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "alpha-Tocopherol",
+   "compound_ko": "비타민 E",
+   "part": "껍질",
+   "content": "23.3 mg/100 g(건량, 평균) [14]",
+   "method": "HPLC-형광검출",
+   "conditions": {
+    "instrument": "온라인 HPLC(형광 검출기)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "형광 λex 288 nm, λem 331 nm",
+    "injection": "",
+    "sample_prep": "아세톤 단순 추출",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "카로티노이드와 함께 같은 추출물에서 정량된 껍질의 항산화 비타민이다; 초록만 확인했고 전문 확인 못함[14].",
+   "source": [
+    14
+   ],
+   "url": "https://doi.org/10.1016/j.aca.2008.03.001",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Glucosamine",
+   "compound_ko": "글루코사민(키틴 환산)",
+   "part": "껍질",
+   "content": "함량 수치는 초록에서 확인하지 못함 [15]",
+   "method": "산 가수분해 후 HPLC-RI(HPLC-MS로 확인)",
+   "conditions": {
+    "instrument": "HPLC(굴절률 검출기), 확인용 HPLC-MS",
+    "column": "ODS-2",
+    "mobile_phase": "메탄올 10%, 헥산설폰산염 90%, pH 2.1",
+    "gradient": "등용매",
+    "flow": "",
+    "temp": "",
+    "detection": "굴절률(RI); 머무름 시간과 질량 스펙트럼으로 동정",
+    "injection": "",
+    "sample_prep": "6 M HCl, 100 °C, 13시간 가수분해로 글루코사민 유리",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "키틴 가수분해로 나오는 글루코사민 양으로 키틴 함량을 추정하는 방법이다; 초록만 확인했고 전문 확인 못함[15].",
+   "source": [
+    15
+   ],
+   "url": "https://doi.org/10.1016/j.chroma.2006.03.068",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "익힌 다리살(냉동 수입품을 10분 삶음, 러시아 마가단산; 논문 분석값)",
+   "basis": "가식부 100 g",
+   "items": [
+    {
+     "name": "수분",
+     "value": 78.9,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 17.8,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 1.2,
+     "unit": "%"
+    },
+    {
+     "name": "탄수화물",
+     "value": 0.5,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 1.6,
+     "unit": "%"
+    }
+   ],
+   "source": [
+    10
+   ]
+  },
+  {
+   "form": "익힌 살(바렌츠해산 수컷; 계절 차이 없음, 대표값; 논문 분석값)",
+   "basis": "가식부 100 g",
+   "items": [
+    {
+     "name": "수분",
+     "value": 78.5,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 19.3,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 0.6,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 1.5,
+     "unit": "%"
+    }
+   ],
+   "source": [
+    9
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "노르웨이(바렌츠해)",
+   "metric": "production_t",
+   "year": 2017,
+   "value": 3048,
+   "unit": "톤",
+   "note": "양륙량; 원문 표기 '3.048 metric tonnes'(천 단위 구분 마침표)",
+   "source": [
+    9
+   ]
+  },
+  {
+   "country": "노르웨이(바렌츠해)",
+   "metric": "production_t",
+   "year": 2019,
+   "value": 4173,
+   "unit": "톤",
+   "note": "양륙량; 원문 표기 '4.173'",
+   "source": [
+    9
+   ]
+  },
+  {
+   "country": "캐나다(대서양 연안)",
+   "metric": "production_t",
+   "year": "연간(논문 서론, 기준 연도 미표기; 같은 문장의 수출액은 2021년)",
+   "value": 76828,
+   "unit": "톤",
+   "note": "연간 양륙량",
+   "source": [
+    12
+   ]
+  },
+  {
+   "country": "캐나다(대서양 연안)",
+   "metric": "export_value",
+   "year": 2021,
+   "value": 1.3,
+   "unit": "십억 캐나다달러",
+   "note": "수출액 약 13억 캐나다달러",
+   "source": [
+    12
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 대게(Chionoecetes opilio) 7행(대게·대게분말·대게페이스트·대게알·대게내장·대게살·대게껍질; 수산물, 모두 '사용가능', 대게껍질만 사용 조건 '대게살을 모두 발라낸 대게 껍질') 및 같은 속 홍게(C. japonicus)·베어다이대게(C. bairdi)·Triangle tanner crab(C. angulatus) 행 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Biomolecular characterization of allergenic proteins in snow crab (Chionoecetes opilio) and de novo sequencing of the second allergen arginine kinase using tandem mass spectrometry. J Proteomics 2010;74(2):231-41",
+   "url": "https://doi.org/10.1016/j.jprot.2010.10.010",
+   "publisher": "Journal of Proteomics (PubMed 21059421, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Characterization and de novo sequencing of snow crab tropomyosin enzymatic peptides by both electrospray ionization and matrix-assisted laser desorption ionization QqToF tandem mass spectrometry. J Mass Spectrom 2010;45(4):372-81",
+   "url": "https://doi.org/10.1002/jms.1721",
+   "publisher": "Journal of Mass Spectrometry (PubMed 20198602, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Revealing the Diverse Allergenic Protein Repertoire of Six Widely Consumed Crab Species: A Species-Specific Allergen in King Crab. Allergy 2025",
+   "url": "https://doi.org/10.1111/all.16674",
+   "publisher": "Allergy (PubMed 40736448, PMC13139819, 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Snow crab allergy and asthma among Greenlandic workers — a pilot study. Int J Circumpolar Health 2012;71:19126",
+   "url": "https://doi.org/10.3402/ijch.v71i0.19126",
+   "publisher": "International Journal of Circumpolar Health (PubMed 22901288, PMC4981752, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Distribution of heavy metals in muscles and internal organs of Korean cephalopods and crustaceans: risk assessment for human health. J Food Prot 2014;77(12):2168-75",
+   "url": "https://doi.org/10.4315/0362-028X.JFP-14-317",
+   "publisher": "Journal of Food Protection (PubMed 25474068, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Concentrations of trace metals in tissues of Chionoecetes crabs (Chionoecetes japonicus and Chionoecetes opilio) caught from the East/Japan Sea waters and potential risk assessment. Environ Sci Pollut Res Int 2017;24(12):11309-18",
+   "url": "https://doi.org/10.1007/s11356-017-8769-z",
+   "publisher": "Environmental Science and Pollution Research (PubMed 28303537, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Concentrations of 137Cs, 90Sr, 108mAg, 239+240Pu and atom ratio of 240Pu/239Pu in tanner crabs, Chionoecetes japonicus and Chionoecetes opilio collected around Japan. Mar Pollut Bull 2010;60(12):2311-22",
+   "url": "https://doi.org/10.1016/j.marpolbul.2010.09.022",
+   "publisher": "Marine Pollution Bulletin (PubMed 20950831, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "First observation of seasonal variations in the meat and co-products of the snow crab (Chionoecetes opilio) in the Barents Sea. Sci Rep 2021;11:6758",
+   "url": "https://doi.org/10.1038/s41598-021-85101-z",
+   "publisher": "Scientific Reports (PubMed 33762582, PMC7991642, 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Comparison of Imitation Crab Sticks with Real Snow Crab (Chionoecetes opilio) Leg Meat Based on Physicochemical and Sensory Characteristics. Foods 2022;11(10):1381",
+   "url": "https://doi.org/10.3390/foods11101381",
+   "publisher": "Foods (PubMed 35626951, PMC9141829, 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Upcycling Shellfish Waste: Distribution of Amino Acids, Minerals, and Carotenoids in Body Parts of North Atlantic Crab and Shrimp. Foods 2024;13(17):2700",
+   "url": "https://doi.org/10.3390/foods13172700",
+   "publisher": "Foods (PubMed 39272466, PMC11395550, 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Sequential Extraction of Valuable Bio-Products from Snow Crab (Chionoecetes opilio) Processing Discards Using Eco-Friendly Methods. Mar Drugs 2023;21(6):366",
+   "url": "https://doi.org/10.3390/md21060366",
+   "publisher": "Marine Drugs (PubMed 37367691, PMC10303718, 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Characterization of enzymatic hydrolyzed snow crab (Chionoecetes opilio) by-product fractions: a source of high-valued biomolecules. Bioresour Technol 2009;100(13):3332-42",
+   "url": "https://doi.org/10.1016/j.biortech.2009.01.073",
+   "publisher": "Bioresource Technology (PubMed 19286372, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Determination of vitamin E and carotenoid pigments by high performance liquid chromatography in shell of Chionoecetes opilio. Anal Chim Acta 2008;617(1-2):225-9",
+   "url": "https://doi.org/10.1016/j.aca.2008.03.001",
+   "publisher": "Analytica Chimica Acta (PubMed 18486662, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "High-performance liquid chromatographic determination of chitin in the snow crab, Chionoecetes opilio. J Chromatogr A 2006;1116(1-2):189-92",
+   "url": "https://doi.org/10.1016/j.chroma.2006.03.068",
+   "publisher": "Journal of Chromatography A (PubMed 16597445, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Population genetic analysis and origin discrimination of snow crab (Chionoecetes opilio) using microsatellite markers. Mol Biol Rep 2013;40(10):5563-71",
+   "url": "https://doi.org/10.1007/s11033-013-2658-4",
+   "publisher": "Molecular Biology Reports (PubMed 24022521, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "The complete mitogenome of the Chionoecetes opilio (Crustacea: Decapoda: Oregoniidae) and its unique characteristics. Mitochondrial DNA B Resour 2020;5(3):2596-7",
+   "url": "https://doi.org/10.1080/23802359.2020.1780974",
+   "publisher": "Mitochondrial DNA Part B (PubMed 33457859, PMC7782958, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Crustacean hyperglycemic hormones of two cold water crab species, Chionoecetes opilio and C. japonicus: isolation of cDNA sequences and localization of CHH neuropeptide in eyestalk ganglia. Gen Comp Endocrinol 2014;214:177-85",
+   "url": "https://doi.org/10.1016/j.ygcen.2014.08.017",
+   "publisher": "General and Comparative Endocrinology (PubMed 25224573, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Eyestalk transcriptome and methyl farnesoate titers provide insight into the physiological changes in the male snow crab, Chionoecetes opilio, after its terminal molt. Sci Rep 2023;13:7197",
+   "url": "https://doi.org/10.1038/s41598-023-34159-y",
+   "publisher": "Scientific Reports (PubMed 37137964, PMC10156855, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Effect of Eyestalk-Ablation on Circulating Ecdysteroids in Hemolymph of Snow Crabs, Chionoecetes opilio: Physiological Evidence for a Terminal Molt. Integr Comp Biol 2005;45(1):166-71",
+   "url": "https://doi.org/10.1093/icb/45.1.166",
+   "publisher": "Integrative and Comparative Biology (PubMed 21676758, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Sea ice retreat alters the biogeography of the Bering Sea continental shelf. Ecol Appl 2008;18(2):309-20",
+   "url": "https://doi.org/10.1890/07-0564.1",
+   "publisher": "Ecological Applications (PubMed 18488598, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "A Bering Sea marine heatwave triggers unprecedented crab hybridization, challenging fisheries management. Proc Natl Acad Sci U S A 2026;123(43):e2625670123",
+   "url": "https://doi.org/10.1073/pnas.2625670123",
+   "publisher": "PNAS (PubMed 42896061, PMC13715829, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Combining data from different sampling methods to study the development of an alien crab Chionoecetes opilio invasion in the remote and pristine Arctic Kara Sea. PeerJ 2019;7:e7952",
+   "url": "https://doi.org/10.7717/peerj.7952",
+   "publisher": "PeerJ (PubMed 31720105, PMC6842564, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Genome sequence of Chionoecetes opilio bacilliform virus, a nimavirus infecting the snow crab Chionoecetes opilio. Arch Virol 2023;168(3):101",
+   "url": "https://doi.org/10.1007/s00705-023-05731-8",
+   "publisher": "Archives of Virology (PubMed 36871238, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Valorization of snow crab (Chionoecetes opilio) cooking effluents for food applications. J Sci Food Agric 2019",
+   "url": "https://doi.org/10.1002/jsfa.10066",
+   "publisher": "Journal of the Science of Food and Agriculture (PubMed 31595518, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Identification of Peptides Implicated in Antibacterial Activity of Snow Crab Hepatopancreas Hydrolysates by a Bioassay-Guided Fractionation Approach Combined with Mass Spectrometry. Probiotics Antimicrob Proteins 2019",
+   "url": "https://doi.org/10.1007/s12602-018-9484-x",
+   "publisher": "Probiotics and Antimicrobial Proteins (PubMed 30443874, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Evidence of Antibacterial Activities in Peptide Fractions Originating from Snow Crab (Chionoecetes opilio) By-Products. Probiotics Antimicrob Proteins 2010;2(3):197-209",
+   "url": "https://doi.org/10.1007/s12602-010-9043-6",
+   "publisher": "Probiotics and Antimicrobial Proteins (PubMed 26781242, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Ultrafast PCR assay for identification of three king crabs — Chionoecetes japonicus, Chionoecetes opilio and Paralithodes camtschaticus. Food Sci Biotechnol 2025;34(4):1055-62",
+   "url": "https://doi.org/10.1007/s10068-024-01708-8",
+   "publisher": "Food Science and Biotechnology (PubMed 39974857, PMC11832978, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Transcriptional and metabolomic investigation of the stress response in snow crab during simulated transport condition (Chionoecetes opilio). Comp Biochem Physiol Part D 2023;46:101079",
+   "url": "https://doi.org/10.1016/j.cbd.2023.101079",
+   "publisher": "Comparative Biochemistry and Physiology Part D (PubMed 37146452, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "수산자원관리법 시행령 [별표 2] 수산자원의 포획·채취금지 체장 또는 체중(제6조제2항 관련) — 대게 9센티미터 이하 (WebSearch 검색 요약으로만 확인, 원문 미열람: 이 환경에서 law.go.kr 접속 불가)",
+   "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=139909247",
+   "publisher": "법제처 국가법령정보센터",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Fishery-dependent data and oceanographic model hindcasts inform potential drivers of an emerging syndrome in snow crab. Philos Trans R Soc Lond B Biol Sci 2026;381(1945)",
+   "url": "https://doi.org/10.1098/rstb.2025.0100",
+   "publisher": "Philosophical Transactions of the Royal Society B (PubMed 41791746, 초록 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "First record of the decapod-egg predator Ovicides paralithodis (Nemertea, Carcinonemertidae) from the snow crab Chionoecetes opilio (Decapoda, Brachyura). Parasitol Int 2022;89:102567",
+   "url": "https://doi.org/10.1016/j.parint.2022.102567",
+   "publisher": "Parasitology International (PubMed 35247587, 초록 확인)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

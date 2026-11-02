@@ -1,0 +1,698 @@
+{
+ "slug": "hibiscus-esculentus",
+ "name_ko": "오크라",
+ "name_en": "Okra",
+ "scientific_name": "Hibiscus esculentus L. (현재 학명 Abelmoschus esculentus (L.) Moench)",
+ "aliases": [
+  "Abelmoschus esculentus",
+  "Hibiscus esculentus",
+  "lady's fingers",
+  "건조오크라",
+  "오크라꽃",
+  "오크라분말",
+  "오크라뿌리",
+  "오크라씨앗",
+  "오크라열매",
+  "오크라잎"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "오크라는 아욱과(Malvaceae)의 한해살이풀로, 덜 익은 꼬투리(열매)를 채소로 먹는다[4]. 열대·아열대 지역에서 널리 재배되며 영어로는 레이디스 핑거(lady's fingers)라고도 부른다[5]. 꼬투리는 열량이 낮고 끈적한 점액(뮤실리지)과 식이섬유가 많으며, 쿼세틴 배당체 같은 플라보놀이 주요 페놀 성분이다[4, 2].\n\n식품의약품안전처 「식품원료 목록」에서 오크라는 식품에 사용할 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 뿌리, 잎, 꽃, 열매, 씨앗'이다[1]. 목록의 원료명은 건조오크라·오크라꽃·오크라분말·오크라뿌리·오크라씨앗·오크라열매·오크라잎 7개이고, 학명은 'Hibiscus esculentus L. / Abelmoschus esculentus (L.) Moench.', 영문명은 'Okra, Abelmoschus esculentus'로 함께 적혀 있다[1]. 이 목록 자료에서 건강기능식품 고시형 원료의 원재료로 표시된 기록은 없다[1].\n\n식약처 목록은 린네의 이름 Hibiscus esculentus 를 대표 학명으로 쓰지만, 현재 식물 분류 목록과 대부분의 연구는 이 종을 무스크아욱속(Abelmoschus)으로 옮긴 Abelmoschus esculentus (L.) Moench 로 부른다[9, 5]. 이 자료는 앱의 키(Hibiscus esculentus)를 따르되, 같은 히비스커스속의 히비스커스(H. sabdariffa)·무궁화(H. syriacus) 자료와는 섞지 않는다[1]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "오크라는 아프리카 원산의 작물로 소개되며, 에티오피아 부근에서 기원했다고 보는 견해가 있다[4, 2]. 지금은 남유럽·중동·아시아·아메리카에서 널리 재배된다[4]. 꼬투리는 생으로, 말려서, 삶거나 튀겨서 수프·샐러드·스튜에 넣어 먹어 왔다[4].\n\n민간에서는 꼬투리를 우리거나 달여 이뇨, 설사, 급성 염증, 위장 자극, 기관지염 등에 썼다는 기록이 있다[4]. 만성 이질·설사·배뇨 장애 등에 쓰인다고 소개되며, 중국에서는 강장 전통 약재로도 알려져 있다[5, 31]. 아프리카·아메리카·아시아·유럽의 여러 집단이 당뇨 관리에 전통적으로 써 왔다는 보고도 있다[30].\n\n꼬투리 점액은 혈장 대체제(혈액량 확장제)나 정제 결합제로 연구되었다[32, 4]. 근래에는 씨앗·꽃·잎까지 성분과 활성이 조사되고 있으며, 식약처 목록에도 뿌리·잎·꽃·열매·씨앗이 모두 사용가능부위로 올라 있다[3, 17, 1]. 우리나라에 언제 어떻게 들어왔는지는 공식 자료로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "오크라는 아욱과의 한해살이 초본으로, 꽃이 진 뒤 길쭉한 꼬투리 모양의 열매가 달린다[4]. 열매는 수분이 81.9%로 많고 지방이 적으며, 식이섬유가 가장 많은 다량영양소였다(튀니지 재래종 'Marsaouia' 생꼬투리 기준)[4]. 꼬투리 무게의 약 17%를 차지하는 씨앗은 껍질보다 페놀 성분이 훨씬 많다[23].\n\n꼬투리의 끈적한 점액은 주로 D-갈락토스·L-람노스·갈락투론산으로 이루어진 점성 다당류이며 단백질과 무기질도 들어 있다[10]. 꼬투리의 주요 플라보노이드는 쿼세틴-3-젠티오비오사이드와 이소쿼시트린이다[2, 21]. 꽃은 다른 꽃 대부분보다 총 플라보노이드가 많다고 보고되었다[17]. 잎의 탈지 에탄올 추출물은 총 페놀이 16.38 mg 갈산당량/g 추출물이었다[33].\n\n오크라의 염색체 수는 핵형 분석에 따라 2n = 72에서 130까지 엇갈렸으나, 염색체 수준 유전체 연구는 FISH 핵형과 Hi-C 자료로 2n = 130을 확인했다[5]. 다른 유전체 연구도 반수체 계통에서 65개 염색체와 약 1.45 Gb의 유전체 크기를 보고했다[6]. 두 연구 모두 염색체가 30개와 35개인 두 하위 유전체로 나뉘는 이질배수체로 해석했다[5, 6]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "무스크아욱속(Abelmoschus)에는 오크라 외에 A. moschatus, A. manihot, A. sagittifolius, A. caillei, A. tuberculatus, A. ficulneus 등이 있다[7, 19]. 엽록체 유전체 분석에서 무스크아욱속은 히비스커스속(Hibiscus) 안에 들어가는 잘 지지된 무리로 나타났다[7]. 반면 2026년 아욱과 엽록체 비교 연구는 히비스커스속이 오크라와 별개의 계통일 수 있다고 보아, 두 속의 경계는 아직 정리되지 않았다[8].\n\n식약처 「식품원료 목록」에는 같은 히비스커스속 이름으로 무궁화(H. syriacus, 꽃잎·잎·줄기), 히비스커스(H. sabdariffa, 꽃받침·꽃잎, 제한적사용), 닥풀(H. manihot, 잎), False roselle(H. acetosella, 뿌리·잎)이 따로 올라 있다[1]. 무스크아욱속 이름으로는 '아벨모스쿠스 사카텐시스'(A. moschatus var. tuberosus, 잎)가 별도 원료다[1]. 닥풀의 학명란에는 Abelmoschus manihot 이 함께 적혀 있어, 닥풀 꽃(황촉규) 연구를 오크라 꽃 자료로 옮기지 않도록 주의해야 한다[1, 7].\n\n씨앗 기름 함량은 A. esculentus 12.36–21.56%, A. manihot 16.1–22.0%, A. caillei 2.51–13.61%로 종마다 달랐다[19]. 팔미트산 비율은 A. esculentus 가 다른 종보다 유의하게 높았다[19]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "오크라는 열대·아열대에서 널리 재배되는 원예작물이다[5]. 씨앗 발아율이 일반 조건에서도, 염 스트레스에서도 낮아 발아 관련 유전자를 찾는 전장 연관 분석이 이루어졌다[26]. 즙을 빨아 먹는 매미충류(jassid)는 심하면 수량을 30–100% 줄이는 해충으로 꼽힌다[27].\n\n수확 시기에 따라 꼬투리의 크기·단단함과 페놀 함량이 달라져, 페놀이 비교적 많은 최적 수확 시기를 정하려는 연구가 있다[22]. 수확 후 저온 저장 중에는 꼬투리가 질겨지는 목질화가 품질을 떨어뜨리는 주요 요인이다[28]. 재배 조건(온실·노지 소구획)에 따라 꼬투리와 잎의 유리 아미노산과 페놀 대사체 조성도 달라졌다[34].\n\n품종 간 차이도 커서, 중국의 다섯 품종에서 총 플라보노이드가 1.75–3.39 mg 루틴당량/g 건물로 달랐다[21]. 우리나라의 오크라 재배 면적·생산량 공식 통계는 확인하지 못함. 세계 생산량(FAOSTAT)도 이번 조사에서 원자료를 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "오크라 꼬투리는 생으로 또는 말리거나 삶거나 튀겨 수프·샐러드·스튜에 쓴다[4]. 식약처 목록에는 건조오크라·오크라분말처럼 말리거나 가루로 만든 원료명도 올라 있다[1]. 임상시험에서는 말린 꼬투리 가루·캡슐, 말린 열매 차 20 g, 생꼬투리를 우린 물 등 하루 3–20 g 범위의 다양한 형태가 쓰였다[11].\n\n꼬투리 점액은 추출 방법에 따라 물리화학적 성질과 활성이 달라지며, 점성 덕분에 식품·의약품 소재로 연구된다[10]. 식품·제약 산업에서는 유화제, 혈액량 확장제, 정제 제형 소재로 활용이 검토되었다[4]. 오크라 다당류는 다양한 추출·정제 기술이 개발되고 있지만 구조와 활성의 관계는 아직 충분히 밝혀지지 않았다[31].\n\n씨앗 기름은 12종의 지방산 가운데 불포화지방산이 65.22%이고 리놀레산(43%)과 올레산(20.16%)이 많았다[20]. 꽃에서는 플라보노이드가 풍부한 추출물과 다당류 추출물이 따로 연구되었다[18]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "2023년에 PacBio HiFi·Hi-C·일루미나 자료로 오크라 품종 'Wufu'의 염색체 수준 유전체(1.19 Gb, 65개 유사염색체)가 조립되었다[5]. 이 연구에서 예측한 단백질 암호화 유전자는 113,364개(A 하위 유전체 57,374개, B 55,879개)였다[5]. 오크라는 이배체 목화에 비해 전체 유전체 중복을 세 번 더 겪어 2n = 130이 되었고, 시납산·S-리그닌 생합성 관련 유전자족이 크게 늘어났다[5].\n\n다른 연구는 반수체 계통으로 1.45 Gb 규모의 유전체를 조립하고 13만 개가 넘는 추정 유전자를 보고했다[6]. 이 연구에서 유전적 다양성은 2.1 kbp당 단일염기다형성 하나 정도로 낮았다[6]. 두 연구의 유전체 크기 추정값(1.19 Gb·1.45 Gb)은 서로 다르다[5, 6].\n\n품종 'Gan Kui No. 1'의 엽록체 유전체는 163,121 bp, 132개 유전자로 보고되었다[24]. 미토콘드리아 유전체는 주로 두 개의 독립된 분자로 존재하며 엽록체에서 옮겨 온 유전자들이 확인되었다[25]. 180개 유전자원에 대한 전장 연관 분석으로 발아율 관련 단일염기다형성과 후보 유전자가 찾아졌다[26]. 매미충 저항성 품종 육성도 형태·생화학 형질에서 분자 육종으로 옮겨 가고 있다[27]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "오크라는 식약처 「식품원료 목록」에서 뿌리·잎·꽃·열매·씨앗을 쓸 수 있는 사용가능 원료이며, 따로 붙은 사용 제한 조건은 없다[1]. 열매와 씨앗은 사람과 동물에서 잘 견딘다고 정리되었으나, 동물에서의 유전독성 연구는 더 필요하다고 지적되었다[29].\n\n제2형 당뇨병 환자 대상 무작위 대조시험 6건을 묶은 메타분석에서 공복혈당과 당화혈색소가 낮아졌고, 포함된 일부 시험은 부작용이 없었다고 보고했다[11]. 임상 연구 8건(9개 군)을 묶은 메타분석에서는 총콜레스테롤·중성지방·LDL이 낮아지고 HDL이 높아졌다[13]. 다만 14건을 묶은 다른 메타분석은 대부분의 결과에서 근거 확실성이 '매우 낮음'이라고 평가했다[12]. 오크라에는 프럭탄이 있어 장 질환이 있는 사람에게 설사·복부팽만을 일으킬 수 있다는 지적이 있다[11]. 쥐 실험에서 꼬투리 수용성 분획을 메트포르민과 함께 먹이면 메트포르민의 혈당 강하 효과가 떨어져, 같이 먹지 말 것을 권했다[14].\n\n오크라를 매일 먹던 유아에게 음식단백질 유발 장염 증후군(FPIES)이 생긴 증례와, 서양모과(medlar)와 교차반응을 보인 오크라 알레르기 보고가 있다[15, 16]. 꼬투리 유기산 가운데 옥살산은 시트르산 다음으로 많았다[4]. 세포·동물에서 본 항종양 효과는 사람에서 확인된 것이 아니다[2, 17]. 국내 공공기관의 오크라 알레르기·잔류농약 안내 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin 3-O-gentiobioside",
+   "name_ko": "쿼세틴-3-O-젠티오비오사이드",
+   "role": "marker",
+   "part": "열매(꼬투리)·씨앗",
+   "content_text": "꼬투리 총 플라보노이드(4126.64–4873.55 μg/g 건물)의 52%로 가장 많음[2]; 씨앗(성숙 단계) 12,396.48 ± 77.54 mg/kg(70% 메탄올 추출물 기준)[3]",
+   "activity_ko": "꼬투리의 가장 많은 개별 플라보노이드로, 세포 실험에서 종양세포 증식 억제를 보임(25–100 μmol/L)[2]; 성숙 단계별 함량 변화가 커 수확 시기 지표로 쓰임[22]",
+   "source": [
+    2,
+    3,
+    22
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "이소쿼시트린(쿼세틴-3-O-글루코사이드)",
+   "role": "marker",
+   "part": "열매(꼬투리)·씨앗",
+   "content_text": "꼬투리 총 플라보노이드의 27%[2]; 튀니지 꼬투리 추출물 1.50 ± 0.01 mg/g 추출물(페놀의 약 32%)[4]; 씨앗(가장 어린 단계) 5205.02 ± 48.54 mg/kg[3]",
+   "activity_ko": "꼬투리 두 번째 주요 플라보노이드; 품종 비교에서도 쿼세틴-3-O-젠티오비오사이드와 함께 주요 페놀로 확인됨[21]",
+   "source": [
+    2,
+    3,
+    4,
+    21
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Quercetin 3-O-sambubioside",
+   "name_ko": "쿼세틴-3-O-삼부비오사이드",
+   "role": "bioactive",
+   "part": "열매(꼬투리)",
+   "content_text": "꼬투리 총 플라보노이드의 11%[2]",
+   "activity_ko": "세포 실험에서 위암세포(NCI-N87) 증식을 25 μmol/L에서 45.20% 억제[2]",
+   "source": [
+    2
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Quercetin 3-O-malonylglucoside",
+   "name_ko": "쿼세틴-3-O-말로닐글루코사이드",
+   "role": "bioactive",
+   "part": "열매(꼬투리)",
+   "content_text": "꼬투리 총 플라보노이드의 7%[2]",
+   "activity_ko": "꼬투리 4대 플라보노이드의 하나로 세포 실험에서 증식 억제를 보임[2]",
+   "source": [
+    2
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "role": "bioactive",
+   "part": "열매(꼬투리)",
+   "content_text": "꼬투리 총 플라보노이드의 2%[2]",
+   "activity_ko": "꼬투리에서 확인된 부성분 플라보노이드[2, 22]",
+   "source": [
+    2,
+    22
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "쿼세틴",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "씨앗(완숙 단계) 148.14 mg/kg(본문 ± 6.20, 초록 ± 11.01로 표준편차 표기가 다름)[3]",
+   "activity_ko": "씨앗에서는 완숙 단계에 가장 많고, 꼬투리의 쿼세틴은 대부분 배당체 형태로 존재[3, 2]",
+   "source": [
+    2,
+    3
+   ],
+   "class": "플라보놀"
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨(올리고머 카테킨)",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "씨앗의 올리고머 카테킨 2.5 mg/g, 플라보놀 유도체 3.4 mg/g; 껍질은 하이드록시신남산 유도체 0.2 mg/g, 쿼세틴 유도체 0.3 mg/g[23]",
+   "activity_ko": "씨앗 페놀의 주성분으로 씨앗이 껍질보다 페놀이 많은 이유가 됨[23]",
+   "source": [
+    23
+   ],
+   "class": "플라반-3-올"
+  },
+  {
+   "name": "Sinapic acid",
+   "name_ko": "시납산",
+   "role": "bioactive",
+   "part": "열매(꼬투리)",
+   "content_text": "성숙 꼬투리에서 가장 높고 발달 단계에 따라 변화가 가장 큼(상대 함량, 절대값 확인하지 못함)[5]",
+   "activity_ko": "오크라 유전체에서 시납산·S-리그닌 생합성 유전자족이 크게 늘어남[5]",
+   "source": [
+    5
+   ],
+   "class": "하이드록시신남산"
+  },
+  {
+   "name": "Pectin",
+   "name_ko": "펙틴성 점액 다당류(뮤실리지)",
+   "role": "bioactive",
+   "part": "열매(꼬투리)",
+   "content_text": "D-갈락토스·L-람노스·갈락투론산이 주 구성당인 점성 다당류(함량 수치 확인하지 못함)[10]",
+   "activity_ko": "점도·유화 성질로 식품·의약 소재로 연구됨; 동물 실험에서 혈당 저하 효과가 보고됨[10, 31]",
+   "source": [
+    10,
+    31
+   ],
+   "class": "다당류"
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "role": "nutrient",
+   "part": "씨앗(기름)",
+   "content_text": "씨앗 기름 지방산의 43%[20]; A. esculentus 유전자원 23.6–50.65%[19]",
+   "activity_ko": "씨앗 기름의 주된 불포화지방산[20]",
+   "source": [
+    19,
+    20
+   ],
+   "class": "다가불포화지방산"
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "role": "nutrient",
+   "part": "씨앗(기름)",
+   "content_text": "A. esculentus 씨앗 기름 10.3–36.35%[19]",
+   "activity_ko": "근연종보다 A. esculentus 에서 유의하게 높음[19]",
+   "source": [
+    19
+   ],
+   "class": "포화지방산"
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "role": "nutrient",
+   "part": "씨앗(기름)",
+   "content_text": "씨앗 기름 지방산의 20.16%[20]",
+   "activity_ko": "리놀레산 다음으로 많은 불포화지방산[20]",
+   "source": [
+    20
+   ],
+   "class": "단일불포화지방산"
+  },
+  {
+   "name": "gamma-Tocopherol",
+   "name_ko": "감마-토코페롤",
+   "role": "nutrient",
+   "part": "열매(꼬투리)·씨앗(기름)",
+   "content_text": "꼬투리 토코페롤 중 가장 많음(수치 확인하지 못함)[4]; 씨앗 기름 총 토코페롤 742.71 μg/mL[20]",
+   "activity_ko": "씨앗 기름의 라디칼 소거능과 유의한 상관[20]",
+   "source": [
+    4,
+    20
+   ],
+   "class": "토코페롤(비타민 E)"
+  },
+  {
+   "name": "Oxalic acid",
+   "name_ko": "옥살산",
+   "role": "nutrient",
+   "part": "열매(꼬투리)",
+   "content_text": "총 유기산 중 시트르산(54.64) 다음으로 많은 23.24(원문 표기 'g/100 g fw of total organic acid'로 단위가 모호함)[4]",
+   "activity_ko": "꼬투리 유기산 조성의 하나로 보고됨(시트르산·말산과 함께)[4]",
+   "source": [
+    4
+   ],
+   "class": "유기산"
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin 3-O-gentiobioside",
+   "compound_ko": "쿼세틴-3-O-젠티오비오사이드(6종 동시: Q3G·Q3S·루틴·Q7G·이소쿼시트린·Q3M)",
+   "part": "열매(꼬투리) 동결건조 분말",
+   "content": "총 플라보노이드 4126.64−4873.55 μg/g DW; Q3G 52%, 이소쿼시트린 27%, Q3S 11%, Q3M 7%, 루틴 2%, Q7G 1%[2]",
+   "method": "HPLC-DAD(동정은 HPLC-ESI-MS/MS)",
+   "conditions": {
+    "instrument": "Agilent 1200 Series HPLC/DAD (동정: Finnigan LCQ Deca XP Max, ESI)",
+    "column": "Inertsil ODS-SP, 5 μm, 4.6 mm × 250 mm (GL Sciences)",
+    "mobile_phase": "A: 1% 빙초산, B: 아세토니트릴",
+    "gradient": "0–1 min 10% B; 1–40 min 10–30% B",
+    "flow": "0.8 mL/min",
+    "temp": "30 °C",
+    "detection": "DAD 256 nm",
+    "injection": "10 μL",
+    "sample_prep": "동결건조 분말 + 70% 에탄올(1:20 g/mL), 45 °C 초음파 20분 → 여과 → 45 °C 감압 건조 → 70% 에탄올 2 mL 재용해 → 0.22 μm 여과",
+    "standard": "외부표준법, 7종 표준품(Q3G·Q3D·Q3S·루틴·Q7G·ISO·Q3M) 5점 검량",
+    "linearity": "r > 0.9995, 상한 100–1000 μg/mL",
+    "lod": "0.045–0.760 μg/mL",
+    "loq": "0.152–2.535 μg/mL",
+    "recovery": "96.53–102.54%"
+   },
+   "rationale": "쿼세틴-3-O-젠티오비오사이드와 이소쿼시트린이 꼬투리 플라보노이드의 대부분을 차지해 품종·성숙도 비교의 지표로 쓰인다[2, 21]. 일내·일간 정밀도 RSD 0.72−2.26%·0.95−3.72%; 시료는 중국 저장성 시장 구입품 1건이다.",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9228595/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercetin 3-O-gentiobioside",
+   "compound_ko": "쿼세틴-3-O-젠티오비오스",
+   "part": "씨앗(발달 5단계, 수확 5–20일 꼬투리)",
+   "content": "성숙(11일) 12,396.48 ± 77.54 mg/kg, 중간 11,086.93 ± 49.54, 어린 9538.85 ± 57.47, 가장 어린 2768.06 ± 10.31, 완숙(20일) 15.30 ± 14.80 mg/kg[3]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Agilent 1100 series HPLC",
+    "column": "YMC-Triart C18, 250 × 4.6 mm, 5 µm",
+    "mobile_phase": "A: 아세토니트릴, B: 0.1% 아세트산 수용액",
+    "gradient": "0–10 min 0–90% B; 11–20 min 80% B; 21–30 min 70% B; 31–40 min 60% B; 41–50 min 10% B; 51–65 min 90% B (원문 그대로)",
+    "flow": "1 mL/min",
+    "temp": "25 °C",
+    "detection": "354 nm",
+    "injection": "5 µL",
+    "sample_prep": "씨앗 300 mg 액체질소 동결 분쇄 → 70% 메탄올 3 mL, 초음파 5분·진탕 15분 → 10,000 rpm 10분 원심 → 0.45 µm 여과 → 동결건조 후 70% 메탄올로 재희석",
+    "standard": "쿼세틴-3-O-젠티오비오스 표준 검량선",
+    "linearity": "r = 0.997",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "씨앗 성숙 단계별로 크게 달라지는 주요 플라보노이드다[3]. 함량 기준(mg/kg)이 씨앗인지 추출물인지 본문에 분명하지 않고, 검출·정량한계와 회수율은 본문에 없어 비워 둠.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466827/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isoquercitrin",
+   "compound_ko": "이소쿼시트린(쿼세틴과 동시)",
+   "part": "씨앗(발달 5단계)",
+   "content": "이소쿼시트린: 가장 어린 5205.02 ± 48.54, 어린 4976.11 ± 181.85, 중간 3956.93 ± 59.36, 성숙 3953.37 ± 308.26, 완숙 34.64 ± 2.29 mg/kg; 쿼세틴: 완숙 148.14 mg/kg[3]",
+   "method": "HPLC-UV(VWD)",
+   "conditions": {
+    "instrument": "Agilent 1260 VWD HPLC",
+    "column": "Capcell Pak C18 UG120, 4.6 × 250 mm, 5 μm",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 100% 메탄올",
+    "gradient": "0–18 min 0–60% B; 19–20 min 60–100% B; 21–22 min 60% B; 23–29 min 20% B",
+    "flow": "0.8 mL/min",
+    "temp": "40 °C",
+    "detection": "360 nm",
+    "injection": "10 µL",
+    "sample_prep": "쿼세틴-3-O-젠티오비오스 시험과 같은 70% 메탄올 추출물",
+    "standard": "쿼세틴-3,4′-디글루코사이드·이소쿼시트린·쿼세틴-4′-글루코사이드·쿼세틴·캠페롤 200 mg/kg 원액을 0.5–100 mg/kg로 희석",
+    "linearity": "r = 0.999(쿼세틴), 1(이소쿼시트린)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이소쿼시트린은 어린 씨앗에, 쿼세틴 아글리콘은 완숙 씨앗에 많아 성숙도 지표가 된다[3]. 쿼세틴 표준편차가 본문(± 6.20)과 초록(± 11.01)에서 다르다.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466827/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isoquercitrin",
+   "compound_ko": "쿼세틴-3-O-글루코사이드(플라보놀 8종 동시)",
+   "part": "열매(꼬투리) 동결건조물 수에탄올 추출물",
+   "content": "쿼세틴-3-O-글루코사이드 1.50 ± 0.01 mg/g 추출물, 쿼세틴-O-펜토실-헥소사이드 0.90 ± 0.02, 쿼세틴-디헥소사이드 0.79 ± 0.01 mg/g 추출물; 총 페놀 4.75 mg/g 추출물[4]",
+   "method": "UPLC-DAD-ESI/MSn",
+   "conditions": {
+    "instrument": "Dionex Ultimate 3000 UPLC-DAD + LTQ XL 선형 이온트랩 질량분석기(ESI 음이온)",
+    "column": "Waters Spherisorb S3 ODS-2 C18, 3 µm, 4.6 mm × 150 mm",
+    "mobile_phase": "0.1% 포름산 수용액 / 아세토니트릴",
+    "gradient": "",
+    "flow": "",
+    "temp": "35 °C",
+    "detection": "DAD 280·370 nm; MS 음이온 모드(분무 전압 5 kV, 325 °C)",
+    "injection": "",
+    "sample_prep": "동결건조 꼬투리 1 g을 에탄올:물(80:20) 40 mL로 25 °C 2회 침지 → 감압 농축 → 동결건조",
+    "standard": "상용 표준품 7점 검량(UV 신호)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "튀니지 재래종 꼬투리에서 가장 많은 페놀 성분이다[4]. 기울기·유속·주입량은 본문에 없어 비워 둠.",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7587556/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "오크라 꼬투리·생(튀니지 재래종 'Marsaouia', 논문 분석값)",
+   "basis": "생것 100 g",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 50.57,
+     "unit": "kcal"
+    },
+    {
+     "name": "수분",
+     "value": 81.9,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 3.55,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 0.066,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 4.86,
+     "unit": "g"
+    },
+    {
+     "name": "총 식이섬유",
+     "value": 8.16,
+     "unit": "g"
+    },
+    {
+     "name": "불용성 식이섬유",
+     "value": 4.73,
+     "unit": "g"
+    },
+    {
+     "name": "수용성 식이섬유",
+     "value": 3.43,
+     "unit": "g"
+    },
+    {
+     "name": "칼륨",
+     "value": 337.67,
+     "unit": "mg"
+    },
+    {
+     "name": "칼슘",
+     "value": 266.62,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 2.0,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 1.6,
+     "unit": "mg"
+    },
+    {
+     "name": "구리",
+     "value": 0.49,
+     "unit": "mg"
+    },
+    {
+     "name": "망간",
+     "value": 0.13,
+     "unit": "mg"
+    },
+    {
+     "name": "엽록소 a",
+     "value": 3.53,
+     "unit": "mg"
+    },
+    {
+     "name": "엽록소 b",
+     "value": 2.43,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    4
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 오크라(Hibiscus esculentus L. / Abelmoschus esculentus (L.) Moench.)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Identification and Quantification of Flavonoids in Okra (Abelmoschus esculentus L. Moench) and Antiproliferative Activity In Vitro of Four Main Components Identified. Metabolites. 2022;12(6):483",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9228595/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Evaluation of Secondary Metabolites in Various Stages of Okra Seed Development and Their Anti-Inflammatory Potential Against IL-1ß. Int J Mol Sci. 2026;27(15):7002",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466827/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Chemical Composition, Nutritional Value, and Biological Evaluation of Tunisian Okra Pods (Abelmoschus esculentus L. Moench). Molecules. 2020;25(20):4739",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7587556/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "The genome of okra (Abelmoschus esculentus) provides insights into its genome evolution and high nutrient content. Hortic Res. 2023;10(8):uhad120",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10405168/",
+   "publisher": "Oxford University Press (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Genome architecture and genetic diversity of allopolyploid okra (Abelmoschus esculentus). Plant J. 2024;118(1):225-241",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38133904/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Complete chloroplast genomes of three important species, Abelmoschus moschatus, A. manihot and A. sagittifolius: Genome structures, mutational hotspots, comparative and phylogenetic analysis in Malvaceae. PLoS One. 2020;15(11):e0242591",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7688171/",
+   "publisher": "PLOS (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Comparative genomics and phylogenetic analysis of three Malvaceae species on the basis of chloroplast genomes. Front Plant Sci. 2026;17:1860109",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13572635/",
+   "publisher": "Frontiers (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "World Flora Online Plant List — Abelmoschus esculentus (WFO 2024-12 판; WebSearch 결과 요약으로만 확인, 원문 페이지는 열지 못함)",
+   "url": "https://wfoplantlist.org/taxon/wfo-0000510862-2024-12",
+   "publisher": "World Flora Online",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Okra (Abelmoschus esculentus L.) as a Potential Functional Food Source of Mucilage and Bioactive Compounds with Technological Applications and Health Benefits. Plants (Basel). 2021;10(8):1683",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399980/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The Impact of Okra (Abelmoschus esculentus) Supplementation on Diabetes and Obesity Biomarkers in Type 2 Diabetes Patients: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Phytother Res. 2025",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504793/",
+   "publisher": "Wiley (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Therapeutic potential of okra (Abelmoschus esculentus) in dysglycaemia and metabolic dysfunction: A systematic review and meta-analysis across the diabetes spectrum. Exp Physiol. 2026",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41823653/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Effect of Abelmoschus esculentus L. (Okra) on Dyslipidemia: Systematic Review and Meta-Analysis of Clinical Studies. Int J Mol Sci. 2024;25(20):10922",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39456704/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Water-soluble Fraction of Abelmoschus esculentus L Interacts with Glucose and Metformin Hydrochloride and Alters Their Absorption Kinetics after Coadministration in Rats. ISRN Pharm. 2011:260537",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22389848/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Delayed presentation of food protein-induced enterocolitis syndrome (FPIES) to okra in a toddler. Allergy Asthma Clin Immunol. 2024;20(1):9",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38310247/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Allergy to okra with cross-reactivity to medlar. Ann Allergy Asthma Immunol. 2025;134(6):734-736 (초록 없음, 제목만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40139436/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Flavonoid-rich extracts from okra flowers exert antitumor activity in colorectal cancer through induction of mitochondrial dysfunction-associated apoptosis, senescence and autophagy. Food Funct. 2020;11(12):10448-10466",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33241810/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Chemopreventive Effects of Polysaccharides and Flavonoids from Okra Flowers in Azomethane/Dextran Sulfate Sodium-Induced Murine Colitis-Associated Cancer. Nutrients. 2023;15(22):4820",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38004214/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Seed oil and fatty acid content in okra (Abelmoschus esculentus) and related species. J Agric Food Chem. 2011;59(8):4019-24",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21413797/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Characteristics and antioxidant activities of seed oil from okra (Abelmoschus esculentus L.). Food Sci Nutr. 2024;12(4):2393-2407",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38628218/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Phenolic Compounds, Antioxidant Activities, and Inhibitory Effects on Digestive Enzymes of Different Cultivars of Okra (Abelmoschus esculentus). Molecules. 2020;25(6):1276",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32168896/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Physicochemical properties, phenolic profiles, antioxidant capacities, and inhibitory effects on digestive enzymes of okra (Abelmoschus esculentus) fruit at different maturation stages. J Food Sci Technol. 2019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30956307/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Identification and quantification of polyphenolic compounds from okra seeds and skins. Food Chem. 2008",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26047300/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Characteristics and Phylogenetic Analysis of the Complete Chloroplast Genome of Abelmoschus esculentus. Int J Mol Sci. 2025;27(1):118",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41515996/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "The complete mitochondrial genome of okra (Abelmoschus esculentus): using nanopore long reads to investigate gene transfer from chloroplast genomes and rearrangements of mitochondrial DNA molecules. BMC Genomics. 2022;23(1):481",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35768783/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Identification of Single Nucleotide Polymorphic Loci and Candidate Genes for Seed Germination Percentage in Okra under Salt and No-Salt Stresses by Genome-Wide Association Study. Plants (Basel). 2024;13(5):588",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38475435/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Breeding jassid-resistant okra (Abelmoschus esculentus): from morpho-biochemical traits to precision breeding. Front Plant Sci. 2026",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42662284/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Metabolomics and LC-MS/MS analysis revealed the inhibitory effect of carboxymethyl chitosan on lignification of postharvest okra during cold storage. Plant Physiol Biochem. 2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39938161/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Phytochemical information and pharmacological activities of Okra (Abelmoschus esculentus): A literature-based review. Phytother Res. 2018",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30346086/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Effects of okra (Abelmoschus esculentus (L.) Moench) on glycemic markers in animal models of diabetes: A systematic review. J Ethnopharmacol. 2022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35963420/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Progress in the isolation, purification, structural characteristics and biological functions of polysaccharides from okra (Abelmoschus esculentus (L.) Moench): A review. Int J Biol Macromol. 2025",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40373904/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Okra (Abelmoschus esculentus) as a Potential Dietary Medicine with Nutraceutical Importance for Sustainable Health Applications. Molecules. 2021;26(3):696",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33525745/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Chemical Profile and Potential Application of Agri-food Waste Products for Counteracting Diabetes Induced Neuropathy in Rats. Chem Biodivers. 2024;21(12):e202400843",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39140441/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Amino acids, UPLC-MS phenolic metabolites and multivariate approach for elucidating the effect of two growing conditions on growth and yield attributes in okra pods and leaves. Food Chem. 2024",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39644653/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

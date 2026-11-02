@@ -1,0 +1,104 @@
+[
+ {
+  "where": "sections.history",
+  "before": "학명은 1788년 출판된 『Melethemata inauguralia』에서 처음 기재되었고, 명명자 표기는 'Pico'와 'Picco'가 함께 쓰인다는 정리가 있으나 원문은 열지 못해 검색 요약으로만 확인했다[37]. 식약처 목록은 'Pico'로 적는다[1].",
+  "after": "명명자 표기는 문헌에 따라 'Pico'[1, 4, 12]와 'Picco'[7, 25, 38]가 함께 쓰이며, 식약처 목록은 'Pico'로 적는다[1]. 원기재 문헌과 연도는 원문을 열지 못해 확인하지 못함.",
+  "why": "[37]은 WebSearch 요약뿐이고 원문(AGRIS·Plazi)을 열 수 없음 — 두 표기가 쓰인다는 사실은 열람한 논문 표기로 대체, 1788년 원기재는 확인하지 못함으로 바꿈"
+ },
+ {
+  "where": "sections.history",
+  "before": "이탈리아 송로 기본법(1985년 법률 제752호)은 흰서양송로 채취 기간을 10월 1일부터 12월 31일까지로 정하고 주(州)가 달력을 조정할 수 있게 한 것으로 알려져 있으나, 원문은 열지 못해 검색 요약으로만 확인했다[36].",
+  "after": "이탈리아의 송로 채취·거래 법령(채취 기간 등)은 원문을 열지 못해 확인하지 못함.",
+  "why": "[36]은 WebSearch 요약뿐이고 법령 원문(FAOLEX)은 이 환경에서 열 수 없음 — 조항 수치를 근거 없이 남기지 않음"
+ },
+ {
+  "where": "sections.overview",
+  "before": "이명 '송로버섯'은 다른 송로 원료명과 겹치므로,",
+  "after": "덩이버섯속이 아닌 알버섯(Rhizopogon rubescens)도 목록 이명이 '송로(松露)'다[2]. 이명 '송로버섯'은 다른 송로 원료명과 겹치므로,",
+  "why": "로컬 I1020 원자료에 알버섯 이명 '송로(松露)'가 있어 이름 혼동 정보를 보탬"
+ },
+ {
+  "where": "sections.processing",
+  "before": "흰서양송로 균사를 콩·율무 배지에 고체 발효한 제품이 비싼 자실체를 대신할 재료로 연구되었다[18].",
+  "after": "흰서양송로 자실체에서 분리했다는 균주(분자 동정은 논문에 없음)의 균사를 콩·율무 배지에 고체 발효한 제품이 비싼 자실체를 대신할 재료로 연구되었으나[18], 이는 균사와 배지의 혼합물이며 국내 목록의 사용가능부위는 자실체뿐이다[1].",
+  "why": "[18] 전문: 균주는 구입한 분리주이고 종 동정 방법이 적혀 있지 않음; 균사 발효물을 자실체 원료와 구분"
+ },
+ {
+  "where": "sections.safety",
+  "before": "고체 발효 균사 제품을 쥐에게 90일 먹인 시험에서는 3000 mg/kg 체중/일 한 용량에서 이상이 없어 NOAEL로 보고되었지만, 자실체가 아니라 균사와 배지(콩·율무)의 혼합물 결과다[18].",
+  "after": "고체 발효 균사 제품을 쥐(암수 각 6마리)에게 90일 먹인 시험에서는 대조군 외에 3000 mg/kg 체중/일 한 용량만 시험해 이상이 없었고 이를 NOAEL로 보고했지만, 용량 반응을 볼 수 없는 설계이고 자실체가 아니라 균사와 배지(콩·율무)의 혼합물 결과다[18].",
+  "why": "[18] 전문 Methods: 군당 암수 각 6마리, 0·3000 mg/kg 두 군뿐"
+ },
+ {
+  "where": "compounds[Bis(methylthio)methane].content_text",
+  "before": "237 ± 27 – 4360 ± 260 μg/kg(대리석덩이버섯 진품 6점은 불검출, 이론상 최대 56 μg/kg 미만)[3]",
+  "after": "237 ± 27 – 4360 ± 260 μg/kg(진품 13점)[3]",
+  "why": "이 종 함량 칸에서 대리석덩이버섯 값을 빼 판별 설명(activity)으로 옮김"
+ },
+ {
+  "where": "compounds[Bis(methylthio)methane].activity_ko",
+  "before": "대리석덩이버섯과 구별하는 지표[3, 5]",
+  "after": "대리석덩이버섯(진품 6점 불검출)과 구별하는 지표[3, 5]",
+  "why": "판별 근거를 설명 칸에 둠"
+ },
+ {
+  "where": "compounds[2(5H)-Furanone].content_text",
+  "before": "137 ± 23 – 487 ± 25 μg/kg(대리석덩이버섯 1490 ± 80 – 5010 ± 160 μg/kg)[3]",
+  "after": "137 ± 23 – 487 ± 25 μg/kg(진품 13점)[3]",
+  "why": "근연종(T. borchii) 수치를 이 종 함량 칸에서 뺌 — 섞임 방지"
+ },
+ {
+  "where": "compounds[2(5H)-Furanone].activity_ko",
+  "before": "이 종에서 일관되게 낮아",
+  "after": "대리석덩이버섯보다 이 종에서 일관되게 낮아",
+  "why": "비교 대상 명시"
+ },
+ {
+  "where": "compounds[total phenolics].content_text",
+  "before": "290 mg GAE/100 g[20]",
+  "after": "290 mg GAE/100 g(생·건 기준은 초록에 없음)[20]",
+  "why": "[20] 초록은 '100 g truffle'로만 적어 기준 불명"
+ },
+ {
+  "where": "compounds[Riboflavin].activity_ko",
+  "before": "진위 판별용 생체지표 후보로 제시[21]",
+  "after": "송로에서 처음 검출된 4개 분자 중 하나; 저자들은 이 결과를 진위 판별 생체지표 탐색의 출발점으로 봄[21]",
+  "why": "[21] 초록은 리보플래빈을 생체지표 후보로 특정하지 않음 — 과장 완화"
+ },
+ {
+  "where": "compounds[1-Pyrroline].activity_ko",
+  "before": "이 연구에서 처음 확인됨[5]",
+  "after": "이 연구에서 송로의 핵심 향 성분으로 처음 확인됨[5]",
+  "why": "[5] 초록: 'identified for the first time as a key odorant'"
+ },
+ {
+  "where": "assays[Glutathione].method",
+  "before": "효소법(아스코르브산)·분광법(분석 세부는 보충자료)",
+  "after": "효소법(아스코르브산); 나머지 분석 세부는 보충자료(확인하지 못함)",
+  "why": "본문에 '분광법' 언급 없음"
+ },
+ {
+  "where": "assays[Ergosterol].rationale",
+  "before": "자실체 성분 지표가 아니라 균사 제품의 품질 지표다[18].",
+  "after": "자실체 성분 지표가 아니라 균사 제품의 품질 지표다(값은 건조 발효물 기준)[18].",
+  "why": "기준 명시"
+ },
+ {
+  "where": "sources[2].title",
+  "before": "검은덩이버섯(T. indicum, 사용불가) (로컬 원자료 대조)",
+  "after": "검은덩이버섯(T. indicum, 사용불가), 알버섯(Rhizopogon rubescens, 이명 송로(松露)) (로컬 원자료 I1020_20261013.json 대조)",
+  "why": "알버섯 행 추가"
+ },
+ {
+  "where": "sources[3].title",
+  "before": "J Agric Food Chem 2024 (",
+  "after": "J Agric Food Chem 2024;72:10023-30 (",
+  "why": "권·쪽 보충(PubMed)"
+ },
+ {
+  "where": "sources[14].title",
+  "before": "137Cs content in the fruit bodies of various Tuber species (T. magnatum, T. borchii, T. aestivum, T. excavatum).",
+  "after": "137Cs content in the fruit bodies of various Tuber species.",
+  "why": "원 제목에 없는 괄호 내용 삭제(PubMed 제목과 일치)"
+ }
+]

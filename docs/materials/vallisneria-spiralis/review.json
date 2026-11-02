@@ -1,0 +1,79 @@
+{
+ "slug": "vallisneria-spiralis",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 102,
+ "checked_items": 54,
+ "verified": 145,
+ "fixed": 10,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.history",
+   "before": "네덜란드 연구진은 같은 나라에서 이 종을 외래(비토착) 수생식물로 분류했다[18].",
+   "after": "네덜란드 연구진은 이 종을 북서유럽의 비토착(외래) 침수식물로 분류해 실험에 썼다[18].",
+   "why": "[18] 전문(PMC4401678)은 'three non-native Northwestern European submerged plant species'라고 씀 — 네덜란드 한정 분류가 아님"
+  },
+  {
+   "where": "sections.history",
+   "before": "…V. spiralis의 덩이(괴경)를 주로 먹는다고 보고되었다[17].",
+   "after": "…V. spiralis로 기록된 식물의 덩이(괴경)를 주로 먹는다고 보고되었다[17]. 다만 이 중국 문헌 속 'V. spiralis'가 엄밀히 이 종인지는 확인하지 못함.",
+   "why": "동아시아 문헌의 'V. spiralis'는 V. natans 등 다른 종일 수 있음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "포양호 개체군은 겨울에 덩이를 만들어 물새의 먹이가 된다[17].",
+   "after": "포양호에서는 이 종으로 기록된 식물의 덩이가 겨울철 두루미의 먹이가 된다[17].",
+   "why": "[17]은 겨울에 덩이를 먹는다고만 씀 — '겨울에 덩이를 만든다'는 출처에 없음, 종 동정 유보"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "동아시아 논문 속 'V. spiralis'가 엄밀히 어느 종인지는 이 자료로 확인하지 못함.",
+   "after": "국내에 이미 알려진 나사말은 V. natans로 다뤄지므로[6], 중국 등 동아시아 연구에서 'V. spiralis'로 적힌 재료(…[2, 10, 13, 15–17, 19–22, 27, 33, 35])는 V. natans 등 다른 종일 가능성을 배제할 수 없다. …확인하지 못함.",
+   "why": "PubMed 소속 기관으로 중국 연구 13편을 확인해 이종 혼동 위험이 있는 근거를 명시"
+  },
+  {
+   "where": "sections.related_species / sources[5]·[6]",
+   "before": "정리된다(원문 미열람)·웹 검색 요약으로만 확인",
+   "after": "초록 요약으로만 확인; [6]에 낙동강 수계 표본·나사말 V. natans 구별 명시",
+   "why": "WebSearch 2회로 두 문헌의 존재·초록 내용(12종, V. australis·V. erecta 신종, 텍사스 첫 기록; 낙동나사말 2008 미기록 보고) 확인, 원문은 허용 목록 밖"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "…투명도가 평균 3.4–3.7 m에 이르렀다[21].",
+   "after": "…[21]. 이는 물벼룩 도입과 5종 이식을 함께 한 수질 개선 결과로, 이 종 단독의 효과나 식품으로서의 효능을 뜻하지 않는다[21].",
+   "why": "수질 정화 결과가 이 종 단독·식품 근거로 읽히지 않게 함"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "우렁이(Bellamya)와 함께 기르면 이 종의 생장과 질소 제거가 촉진되었다[20].",
+   "after": "…이 종의 생장이 촉진되고, 계 전체의 질소 제거도 간접적으로 늘었다[20].",
+   "why": "[20] 초록: 우렁이가 생장을 돕고 질산화·탈질을 강화해 계의 질소 제거를 '간접적으로' 촉진"
+  },
+  {
+   "where": "sections.processing",
+   "before": "잎·줄기에 62 µg/g 건물",
+   "after": "지상부(shoot)에 62 µg/g 건물",
+   "why": "[34] 초록은 shoot라고만 씀"
+  },
+  {
+   "where": "sections.biology",
+   "before": "네덜란드 실험에서 세 종 수생식물을",
+   "after": "네덜란드 실험에서 세 종 수생식물(E. nuttallii·P. lucens·V. spiralis)을",
+   "why": "[3] 전문 표 1로 비교 종 확인, 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "따라서 정화용으로…",
+   "after": "이 축적 수치는 대부분 인위적으로 금속을 넣은 실험실 노출 결과로, 자연 개체군의 평소 함량을 뜻하지 않는다[8–11, 14]. 따라서…",
+   "why": "[8]–[11]·[14]는 실험실 처리 농도 노출 — 수치가 식용 잎의 일반 함량으로 과장되지 않게 함"
+  }
+ ],
+ "unverifiable_notes": [
+  "[5] Systematic Botany 2008, [6] 낙동나사말 2008 보고는 원문이 네트워크 허용 목록 밖이라 WebSearch 초록 요약으로만 확인",
+  "[2]·[4]·[8]–[17]·[19]–[23]·[25]–[35]는 PubMed 초록으로, [3]·[18]은 PMC 전문으로 대조; [1]은 로컬 I1020_20261013.json 원 행(밸리스네리아잎, Vallisneria spiralis, 사용가능, 사용가능부위: 잎; Water celery잎, V. americana)과 일치",
+  "[24]는 초록에 학명이 빠져 있고 나노입자 세포 실험이어서 종 동정·식품 근거 모두 약함 — 본문에 이미 그렇게 적혀 있어 유지",
+  "[3] 질소·인 수치와 총페놀 값은 그림에만 있어 수치 대조 불가(서열 비교는 표 1에서 확인: N E. nuttallii > P. lucens > V. spiralis, P V. spiralis > E. nuttallii > P. lucens)"
+ ]
+}

@@ -1,0 +1,47 @@
+import json
+p='/home/user/hfoodguide-wave3/docs/materials/maranta-arundinacea/dossier.json'
+d=json.load(open(p))
+changes=[]
+def rep(where,old,new,why):
+    for s in d['sections']:
+        if s['key']==where:
+            assert old in s['body'],(where,old)
+            s['body']=s['body'].replace(old,new); changes.append({"where":"sections."+where,"before":old,"after":new,"why":why}); return
+    raise Exception(where)
+rep('overview','건강 효과 연구는 대부분 세포·동물 실험이고, 사람 연구는 작은 비무작위 시험에 그친다[12].',
+ '건강 효과 연구는 대부분 세포·동물 실험이고, 사람 연구는 대체로 소규모·비무작위 준실험에 그친다는 평가가 있다[12]. 인도의 아유르베다 임상은 두 식물의 전분을 서로 비교했을 뿐 위약 대조군이 없었다[10].',
+ '[10](PMID 22048544)은 무작위 배정 2군 비교 임상이라 "비무작위 시험에 그친다"는 단정이 맞지 않음; [12] 서론의 평가로 약화하고 [10]의 설계를 밝힘')
+rep('biology','생 뿌리줄기의 관능 평가에서는 섬유질 질감 때문에 선호도가 낮았다[17].',
+ '데친 뿌리줄기(날것·조리)의 관능 평가에서는 섬유질 질감 때문에 선호도가 낮았다[17].',
+ '[17] 초록: 관능 평가는 데친 시료의 날것·조리 형태로 수행')
+rep('related_species','칸나속 식용 칸나(Canna edulis) 전분은 애로루트 전분과 성분·호화 특성이 달라 비교 연구가 따로 있다[31].',
+ '칸나속 식용 칸나(Canna edulis) 전분은 애로루트 전분과 성분·호화 특성이 달라 비교 연구가 따로 있다[31]. 다만 이 베네수엘라 연구의 애로루트는 Maranta spp.로만 적혀 있어 종이 특정되지 않았다[31].',
+ '[31] 제목·초록의 애로루트는 "Maranta spp."로 종 미특정')
+rep('processing','다른 시료에서는 호화 온도가 71.8 ± 0.2 °C였다[2, 5].',
+ '중국 광둥성 시료에서는 호화 시작 57.9 ± 0.1 °C, 정점 71.8 ± 0.2 °C였다[2, 5].',
+ '[5] 전문: 71.8 °C는 DSC 정점 온도(Tp), 시작 온도는 57.9 °C')
+rep('processing','습열 처리(80 °C, 16시간)와 구연산 처리(0.6 M)는 저항전분을 늘리고 빨리 소화되는 전분을 줄였다[16].',
+ '습열 처리(80 °C, 16시간)와 구연산 처리(0.6 M)는 저항전분을 늘리고 빨리 소화되는 전분을 줄였다(초록에 원료 학명은 적혀 있지 않음)[16].',
+ '[16] 초록에 학명 미기재 — 다른 "애로루트" 전분일 가능성을 배제할 수 없어 표시')
+rep('genetics','엽록체·핵 유전자 계통 분석에서 마란타과는 칸나과와 자매군을 이룬다[19].',
+ '저복제 핵 유전자 378개를 쓴 계통 분석을 포함해 앞선 연구들에서 마란타과는 칸나과와 자매군을 이룬다[19].',
+ '[19]는 핵 유전자(최대 378개) 표적 농축 자료이며 엽록체 분석은 초록에 없음')
+rep('genetics','마란타과에서 염색체 수준에 가까운 유전체가 처음 보고된 종은 습지 식물 탈리아(Thalia dealbata)로,',
+ '마란타과 습지 식물 탈리아(Thalia dealbata)의 염색체 수준 유전체가 보고되었는데,',
+ '[20] 초록에 "마란타과 최초"라는 말이 없음')
+rep('safety','쥐 실험에서 뿌리줄기 섬유를 먹이의 10%로 더하면 고지방식 쥐의',
+ '생쥐 실험에서 전분을 뽑고 남은 뿌리줄기 섬유를 먹이의 10%로 더하면 고지방식 생쥐의',
+ '[13] 전문: 수컷 ddY 생쥐, 전분 추출 부산물에서 얻은 섬유')
+rep('safety','인도의 임상 연구에서는 애로루트 전분 4 g을 하루 세 번 30일 동안 먹은 환자에게서 부작용이 보고되지 않았다[10].',
+ '인도의 임상 연구에서는 위산 과다 증상(암라피타) 환자 33명이 애로루트 전분 4 g을 하루 세 번 30일 동안 먹었고 부작용이 보고되지 않았다[10].',
+ '[10] 초록: 애로루트 군 33명 완료, 암라피타 환자')
+for c in d['compounds']:
+    if c['name'] in ('Rutin','Quercetin','Kaempferol'):
+        old=c['part']; c['part']='지상부·뿌리줄기 추출물(어느 부위에서 주로 검출됐는지 초록에 구분 없음)'
+        changes.append({"where":"compounds."+c['name']+".part","before":old,"after":c['part'],"why":"[15] 초록은 지상부·뿌리줄기를 함께 분석했고 플라보노이드의 검출 부위를 구분하지 않음 — 잎(지상부) 결과가 식품원료 부위(뿌리줄기) 결과로 읽히지 않게 함"})
+    if c['name']=='Amylose':
+        old=c['activity_ko']; c['activity_ko']='아밀로스가 많아 필름의 기계적 강도·차단성에 유리하다고 제시[2]'
+        changes.append({"where":"compounds.Amylose.activity_ko","before":old,"after":c['activity_ko'],"why":"[2]는 필름의 기계적 강도·차단성을 말하며 겔 강도라고 하지 않음"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/maranta-arundinacea/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

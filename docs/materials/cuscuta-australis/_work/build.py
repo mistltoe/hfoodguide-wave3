@@ -1,0 +1,174 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+MFDS_URL = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+
+
+def pm(n, title, pmid, publisher, note="초록 확인"):
+    return {"n": n, "title": f"{title} (PMID {pmid}; {note})",
+            "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": publisher, "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 실새삼 2개 원료명 행(실새삼씨앗·실새삼씨앗분말; 학명 Cuscuta australis R. Br.; 영문명 Australian dodder; 대분류 식품원료(A코드); 부위 씨앗; 사용조건 '제한적사용'; 사용조건 기준 '제한적사용가능부위 : 씨앗'; 이명 칸 비어 있음). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+     "url": MFDS_URL, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 2, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속 관련 행: 갯실새삼(Cuscuta chinensis Lamark, Chinese dodder) 갯실새삼씨앗·갯실새삼씨앗분말·갯실새삼씨앗농축액·갯실새삼씨앗추출물 4행, 이명 '토사자', 사용조건 '제한적사용가능부위 : 씨앗※(토사자)'; 새삼(Cuscuta japonica Choisy, Japanese dodder) 새삼씨앗·새삼씨앗가루 2행, '제한적사용가능부위 : 씨앗'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+     "url": MFDS_URL, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 3, "title": "An Integrated Approach for Efficient and Accurate Medicinal Cuscutae Semen Identification. Plants (Basel) 2020;9(11):1410 (PMID 33105814, PMC7690581, doi:10.3390/plants9111410; PMC 전문 확인 — 전문 본문에서 학명 기울임이 빠져 명명자(Lam.·R.Br.·Choisy)로 종을 판별함)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7690581/", "publisher": "MDPI / PubMed Central", "accessed": ACC},
+    pm(4, "Differentiation of Cuscuta chinensis and Cuscuta australis by HPLC-DAD-MS analysis and HPLC-UV quantitation. Planta Med 2011;77(17):1950-7 (doi:10.1055/s-0030-1271186)", "21674437", "Thieme / PubMed"),
+    pm(5, "Determination of flavonoids in Semen Cuscutae by RP-HPLC. J Pharm Biomed Anal 2002;28(3-4):621-8 (doi:10.1016/s0731-7085(01)00672-0)", "12008141", "Elsevier / PubMed"),
+    pm(6, "[Identification of seeds of Cuscuta australis and C. chinensis by TLC and HPLC]. Zhong Yao Cai 2001;24(2):97-9 (중국어, 영문 초록)", "11402739", "PubMed"),
+    pm(7, "Characterization of phenolic compounds in the Chinese herbal drug Tu-Si-Zi by liquid chromatography coupled to electrospray ionization mass spectrometry. Rapid Commun Mass Spectrom 2005;19(11):1469-84 (doi:10.1002/rcm.1944)", "15880618", "Wiley / PubMed"),
+    pm(8, "[Flavonoids of Cuscuta australis R. Br.]. Zhongguo Zhong Yao Za Zhi 1997;22(1):38-9, 62 (중국어, 영문 초록)", "10683910", "PubMed"),
+    pm(9, "Components of the ether-insoluble resin glycoside fraction from the seed of Cuscuta australis. J Nat Prod 1999;62(5):722-5 (doi:10.1021/np980506j)", "10346954", "ACS / PubMed"),
+    pm(10, "[Chemical constituents of Cuscuta austrolis R.Br]. Zhongguo Zhong Yao Za Zhi 1997;22(9):548-50, 576 (중국어, 영문 초록; 사용 부위 초록에 미기재)", "11038946", "PubMed"),
+    pm(11, "A kaempferol-3-O-β-d-glucoside, intervention effect of astragalin on estradiol metabolism. Steroids 2019;149:108413 (doi:10.1016/j.steroids.2019.05.005)", "31152828", "Elsevier / PubMed"),
+    pm(12, "Comparative Hepatoprotective Activity of Ethanolic Extracts of Cuscuta australis against Acetaminophen Intoxication in Wistar Rats. Int Sch Res Notices 2014;2014:730516 (PMC4897053, doi:10.1155/2014/730516)", "27433518", "Hindawi / PubMed"),
+    pm(13, "Comparative evaluation of the sperm characteristics and morphology of adult Wistar rats fed either low or normal protein-energy diets and orally dosed with aqueous Cuscuta australis extracts. Niger J Physiol Sci 2014;29(1):55-61", "26196567", "PubMed"),
+    pm(14, "Comparative morphophysiological evaluation of the testis of adult Wistar rats fed low protein-energy diet and dosed with aqueous extracts of Cuscuta australis. Niger J Physiol Sci 2012;27(2):149-55", "23652229", "PubMed"),
+    pm(15, "[Effects of alcohol extract from Polygonatum odoratum (Mill.) Druce and Cuscuta australis R. Br. on immunological function of mice injured by burns]. Zhongguo Zhong Yao Za Zhi 1990;15(9):557-9, 578 (중국어, 영문 초록)", "2092718", "PubMed"),
+    pm(16, "[Comparative study on immune enhancement effects of four kinds of dodder seeds in Shandong Province]. Zhong Xi Yi Jie He Xue Bao 2003;1(1):51-3 (doi:10.3736/jcim20030121; 중국어, 영문 초록)", "15339618", "PubMed"),
+    {"n": 17, "title": "Protective Effects of Cuscuta australis Against CCl4-Induced Hepatic Injury in Rats: Antioxidant, Anti-Inflammatory, and In Silico Insights. Pharmaceuticals (Basel) 2025;18(10):1524 (PMID 41155639, PMC12566785, doi:10.3390/ph18101524; PMC 전문 확인 — 튀니지산 전초 시료)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12566785/", "publisher": "MDPI / PubMed Central", "accessed": ACC},
+    pm(18, "Large-scale gene losses underlie the genome evolution of parasitic plant Cuscuta australis. Nat Commun 2018;9(1):2683 (PMC6041341, doi:10.1038/s41467-018-04721-8)", "29992948", "Springer Nature / PubMed"),
+    pm(19, "The complete chloroplast genome of Cuscuta australis R. Br. (Convolvulaceae) and its phylogenetic implication. Mitochondrial DNA B Resour 2020;5(1):766-767 (PMC7748759, doi:10.1080/23802359.2020.1715865)", "33366741", "Taylor & Francis / PubMed"),
+    pm(20, "A chromosome-scale Gastrodia elata genome and large-scale comparative genomic analysis indicate convergent evolution by gene loss in mycoheterotrophic and parasitic plants. Plant J 2021;108(6):1609-1623 (doi:10.1111/tpj.15528)", "34647389", "Wiley / PubMed"),
+    pm(21, "Cuscuta australis (dodder) parasite eavesdrops on the host plants' FT signals to flower. Proc Natl Acad Sci U S A 2020;117(37):23125-23130 (PMC7502711, doi:10.1073/pnas.2009445117)", "32868415", "PNAS / PubMed"),
+    pm(22, "Physical dormancy in seeds of the holoparasitic angiosperm Cuscuta australis (Convolvulaceae, Cuscuteae): dormancy-breaking requirements, anatomy of the water gap and sensitivity cycling. Ann Bot 2008;102(1):39-48 (PMC2712423, doi:10.1093/aob/mcn064)", "18453546", "Oxford University Press / PubMed"),
+    pm(23, "The parasitic plant Cuscuta australis is highly insensitive to abscisic acid-induced suppression of hypocotyl elongation and seed germination. PLoS One 2015;10(8):e0135197 (PMC4530876, doi:10.1371/journal.pone.0135197)", "26258814", "PLOS / PubMed"),
+    pm(24, "Stem parasitic plant Cuscuta australis (dodder) transfers herbivory-induced signals among plants. Proc Natl Acad Sci U S A 2017;114(32):E6703-E6709 (PMC5559024, doi:10.1073/pnas.1704536114)", "28739895", "PNAS / PubMed"),
+    pm(25, "Large-scale interplant exchange of macromolecules between soybean and dodder under nutrient stresses. Plant Divers 2024;46(1):116-125 (PMC10851303, doi:10.1016/j.pld.2023.11.005)", "38343599", "Elsevier / PubMed"),
+    pm(26, "The factors affecting a native obligate parasite, Cuscuta australis, in selecting an exotic weed, Humulus scandens, as its host. Sci Rep 2019;9(1):511 (PMC6345906, doi:10.1038/s41598-018-36997-7)", "30679591", "Springer Nature / PubMed"),
+    pm(27, "Resource availability and parasitism intensity influence the response of soybean to the parasitic plant Cuscuta australis. Front Plant Sci 2023;14:1177154 (PMC10203557, doi:10.3389/fpls.2023.1177154)", "37229133", "Frontiers / PubMed"),
+    pm(28, "Exploring therapeutic potential and toxicological profiles of Cuscuta species: insights from pharmacological studies and an anti-cholinergic toxicity report. Toxicol Res (Camb) 2024;13(5):tfae160 (PMC11447373, doi:10.1093/toxres/tfae160)", "39371679", "Oxford University Press / PubMed"),
+    pm(29, "ITS2 barcoding DNA region combined with high resolution melting (HRM) analysis of Hyoscyami Semen, the mature seed of Hyoscyamus niger. Chin J Nat Med 2016;14(12):898-903 (doi:10.1016/S1875-5364(17)30014-6)", "28262116", "Elsevier / PubMed"),
+    pm(30, "A comprehensive analysis of 201 pesticides for different herbal species-ready application using gas chromatography-tandem mass spectrometry coupled with QuEChERs. J Chromatogr B 2019;1125:121730 (doi:10.1016/j.jchromb.2019.121730)", "31374421", "Elsevier / PubMed"),
+    pm(31, "Determination of fifteen illegal colorants in traditional Chinese medicines by two hydrophobic DES-based microextraction methods coupled with an HPLC-DAD. Talanta 2024;277:126236 (doi:10.1016/j.talanta.2024.126236)", "38795590", "Elsevier / PubMed"),
+    pm(32, "Root parasitic plant Orobanche aegyptiaca and shoot parasitic plant Cuscuta australis obtained Brassicaceae-specific strictosidine synthase-like genes by horizontal gene transfer. BMC Plant Biol 2014;14:19 (PMC3893544, doi:10.1186/1471-2229-14-19)", "24411025", "BMC / PubMed"),
+    pm(33, "[Identification of semen Cuscutae by HPCE]. Yao Xue Xue Bao 1997;32(7):549-52 (중국어, 영문 초록)", "11596283", "PubMed"),
+    pm(34, "Do Faster-Growing Holoparasitic Plant Species Exhibit Broader Niches and Wider Global Distributions? Plants (Basel) 2025;14(6):831 (PMC11946478, doi:10.3390/plants14060831)", "40338263", "MDPI / PubMed"),
+    pm(35, "Wine- and stir-frying processing of Cuscutae Semen enhance its ability to alleviate oxidative stress and apoptosis via the Keap 1-Nrf2/HO-1 and PI3K/AKT pathways in H2O2-challenged KGN human granulosa cell line. BMC Complement Med Ther 2024;24(1):189 (PMC11094956, doi:10.1186/s12906-024-04491-5; 기원 종은 초록에 미기재)", "38750475", "BMC / PubMed"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "실새삼(Cuscuta australis R. Br.)은 메꽃과(Convolvulaceae) 새삼속의 한해살이 기생식물로, 뿌리와 잎이 거의 없이 실 같은 줄기로 다른 식물을 감아 양분을 빼앗아 산다[17, 18]. 식약처 「식품원료 목록」에는 실새삼씨앗과 실새삼씨앗분말 두 원료명이 올라 있고, 영문명은 Australian dodder다[1].\n\n"
+     "식품원료로서 실새삼은 '제한적사용' 원료이며, 사용 조건은 원자료 그대로 '제한적사용가능부위 : 씨앗'이다[1]. 즉 씨앗만 제한적으로 쓸 수 있고, 줄기 등 다른 부위는 목록에 없다[1]. 같은 목록에서 갯실새삼(C. chinensis) 씨앗 원료에는 '※(토사자)' 표시와 이명 '토사자'가 붙어 있지만, 실새삼 행에는 이 표시가 없다[1, 2].\n\n"
+     "익은 씨앗은 한약재 토사자(菟絲子, Cuscutae Semen)의 기원으로 쓰이는데, 중국 약전은 실새삼과 갯실새삼을 함께 기원으로 인정하는 반면 한국 공정서(Korean Herbal Pharmacopoeia)는 갯실새삼만을 기원으로 적고 있다[3]. 실새삼 씨앗은 갯실새삼보다 캠페롤·아스트라갈린 같은 플라보노이드가 많고 퀸산 유도체·리그난은 적다고 보고되었다[4, 7]. 효능 보고는 대부분 동물·세포 실험이며, 이 종만 쓴 사람 임상시험은 확인하지 못함."},
+    {"key": "history", "title": "이용의 역사", "body":
+     "토사자는 동북아시아에서 널리 쓰이는 씨앗 약재이며, 실새삼과 갯실새삼의 익은 마른 씨앗이 이 이름으로 소비된다고 정리되었다[3]. 중국 약전은 2010년부터 토사자의 기원에 두 종을 모두 넣었다[3]. 반면 한국의 공정서는 갯실새삼만, 북한 약전은 실새삼과 새삼(C. japonica)을 기원으로 적어 나라마다 정의가 다르다[3].\n\n"
+     "이렇게 정의가 달라 시장에서 다른 종이나 위품이 섞여 유통되는 문제가 생겼다고 지적되었다[3]. 중국에서는 실새삼 씨앗이 갯실새삼 씨앗과 함께 같은 약재 이름으로 시장에 나온다고 보고되었다[7]. 1990년대 후반과 2000년대 초 중국 연구들은 실새삼 씨앗의 플라보노이드와 단백질 전기영동 양상으로 두 종을 가리는 방법을 내놓았다[6, 8, 33].\n\n"
+     "나이지리아에서는 실새삼의 씨앗과 줄기를 옥수수죽 'Ogi'에 넣어 남녀 생식 기능 문제에 먹는 민간 이용이 있다고 기술되었다[13, 14]. 1990년 중국 연구는 실새삼 알코올 추출물이 화상 입은 생쥐의 대식세포 탐식 기능을 정상 수준으로 회복시켰다고 보고했다(동물)[15]. 중국 산둥성의 새삼속 씨앗 4종을 비교한 생쥐 실험에서는 갯실새삼과 실새삼 씨앗 추출물의 면역 증강·항피로 효과가 다른 두 종보다 좋았고, 물 추출물이 알코올 추출물보다 나았다(동물)[16]."},
+    {"key": "biology", "title": "식물학적 특징", "body":
+     "실새삼은 뿌리와 잎이 없고 노란빛 실 모양 줄기로 숙주를 감는 전기생(holoparasitic) 식물이며, 흡기(haustorium)로 숙주의 관다발에 들어가 물과 양분을 얻는다[17]. 열대·아열대와 따뜻한 온대에 널리 퍼져 지중해 지역에서도 자란다[17]. 새삼속 Grammica 아속에 속하며, 같은 아속의 다른 두 종과 비교한 실험에서 생장 속도가 빠를수록 생태적 지위 폭과 전 세계 분포 면적이 넓었다[34].\n\n"
+     "씨앗은 단단한 종피가 물을 막는 물리적 휴면을 가지며, 휴면이 깨지면 꼭 닫혀 있던 배꼽 틈(hilar fissure)이 열려 물이 들어간다[22]. 마른 상태로 저장하면 휴면 타파 처리에 민감해지고 젖은 상태로 두면 둔해지는 주기를 보였다[22]. 씨앗 발아와 하배축 생장은 아브시스산(ABA)에 거의 반응하지 않아, 건조 저항 경로가 퇴화했을 것이라는 가설이 제시되었다[23].\n\n"
+     "실새삼은 자기 개화 유전자 대신 숙주가 만든 FT 단백질 신호를 받아 숙주와 같은 때에 꽃을 피운다[21]. 실새삼 줄기로 이어진 여러 숙주 사이에서는 초식 곤충 피해 신호가 전달되어 100 cm 넘게 떨어진 숙주의 방어가 높아졌다[24]. 콩과 실새삼 사이에서는 mRNA와 단백질이 대량으로 오가며, 이동 단백질은 전체 단백질의 최대 6.8%에 이르렀다[25]."},
+    {"key": "related_species", "title": "근연종과 기원 혼동", "body":
+     "식약처 목록에는 새삼속 원료가 세 종 있다: 실새삼(C. australis), 갯실새삼(C. chinensis Lamark), 새삼(C. japonica Choisy)이며 모두 씨앗만 '제한적사용' 원료다[1, 2]. 이 가운데 이명 '토사자'와 조건의 '※(토사자)' 표시는 갯실새삼 행에만 있어, 국내 식품원료 목록상 토사자는 갯실새삼으로 정리되어 있다[2]. 따라서 실새삼 씨앗, 갯실새삼 씨앗(토사자), 새삼 씨앗은 서로 다른 원료로 표시해야 하며, 이 문서는 실새삼 자료만 다룬다[1, 2].\n\n"
+     "실새삼과 갯실새삼은 씨앗 모양이 비슷해 눈으로 가리기 어렵지만 성분은 크게 다르다[3, 7]. 실새삼은 캠페롤·아스트라갈린이 주성분이고 갯실새삼은 하이페로사이드가 주성분이라는 LC-MS 결과가 있다[7]. 27배치 토사자를 정량한 연구에서도 실새삼이 플라보노이드는 더 많고 퀸산 유도체와 리그난은 더 적었다[4]. 다만 1997년 분리 연구는 실새삼의 주된 플라보노이드를 퀘르세틴과 그 배당체로 보고해 결과가 엇갈린다[8]. 새삼(C. japonica) 씨앗에서는 플라보노이드가 거의 검출되지 않았다[5].\n\n"
+     "한국 연구는 형태·미세형태 관찰과 엽록체 rbcL 유전자에서 설계한 속 특이 프라이머로 새삼속 네 종과 들깨속 위품 씨앗을 완전히 구별했다[3]. 중국 시장에서는 사리풀 씨앗(낭탕자)에 실새삼·갯실새삼 씨앗 등 생김새나 이름이 비슷한 씨앗이 섞인다고 보고되었다[29]."},
+    {"key": "cultivation", "title": "자생·숙주와 생산", "body":
+     "실새삼은 재배 작물이라기보다 콩 등 작물에 붙는 기생 잡초로 연구되어 왔다[27]. 콩에 대한 화분 실험에서 기생 강도가 낮으면 콩 생물량이 약 6%, 높으면 약 26% 줄었다[27]. 물과 인이 부족할수록 실새삼 생물량은 커지고 콩의 피해는 커져, 물·인 관리로 피해를 줄일 수 있다고 제안되었다[27].\n\n"
+     "실새삼은 이 연구에서 외래 잡초로 다룬 환삼덩굴(Humulus scandens)를 숙주로 즐겨 골라 야외에서 그 생물량을 눈에 띄게 줄였지만, 숙주 선택은 수분·영양보다 빛의 세기에 더 좌우되었다[26]. 연구진은 외래 잡초가 단일 군락을 이룰 때에만 방제 수단으로 쓸 수 있고 도입은 매우 신중해야 한다고 결론지었다[26]. 씨앗은 물리적 휴면이 있어 휴면 타파 조건과 저장 상태에 따라 발아 반응이 달라진다[22].\n\n"
+     "국내 재배 면적·생산량은 통계청 농작물생산조사와 농림축산식품부 특용작물 생산실적 파일에서 실새삼이나 토사자 품목으로 확인하지 못함. 토사자 약재의 국내 유통량과 원산지별 수입량도 공식 통계로 확인하지 못함. 세계 생산 통계(FAOSTAT 등)도 확인하지 못함."},
+    {"key": "processing", "title": "가공과 제품", "body":
+     "식약처 목록에 오른 실새삼 원료명은 실새삼씨앗과 실새삼씨앗분말 두 가지로, 씨앗 자체와 씨앗을 간 가루 형태다[1]. 갯실새삼은 씨앗·분말에 더해 농축액·추출물까지 4개 원료명이 있지만, 실새삼에는 농축액·추출물 원료명이 없다[1, 2]. 식약처 「식품 등의 생산실적」 건강기능식품 품목 파일에서 실새삼 원료 행은 확인하지 못함.\n\n"
+     "한약재 토사자는 생것 외에 술에 볶은 것, 그냥 볶은 것 등으로 가공해 쓰며, 이런 가공품은 과산화수소로 손상시킨 사람 과립막세포에서 산화 스트레스를 줄였다(세포 실험, 기원 종 미기재)[35]. 연구용 추출물은 대개 씨앗을 에탄올이나 물로 우려 만들었고, 실새삼 씨앗 에탄올 추출물을 쥐에 125·250 mg/kg 먹인 간 보호 실험이 있다[12]. 튀니지 연구는 실새삼 전초를 80% 에탄올로 초음파 추출해 쓰고 LC-MS/MS로 51개 성분을 확인했다[17].\n\n"
+     "품질 관리를 위해 실새삼과 갯실새삼 씨앗을 TLC와 HPLC로 구별하는 방법, 40개 시료의 플라보노이드 5종을 동시에 정량하는 RP-HPLC법이 보고되었다[5, 6]. 단백질을 산·염기로 추출해 모세관 전기영동하는 방법도 갯실새삼·실새삼·새삼 세 종 씨앗을 구별했다[33]."},
+    {"key": "genetics", "title": "유전체와 종 판별", "body":
+     "실새삼은 고품질 표준 유전체가 해독된 기생식물로, 단백질 암호화 유전자 19,671개를 가진다[18]. 독립영양 식물에서 보존된 오솔로그 유전자의 11.7%가 사라졌고, 이는 기생 생활과 몸 구조의 큰 변화 때문으로 해석되었다[18]. 새삼속과 나팔꽃속(Ipomoea)은 갈라지기 전에 전체 유전체 3배화를 함께 겪었다[18].\n\n"
+     "천마(Gastrodia elata)와 실새삼은 모두 보존 유전자군의 약 10%를 잃었고, 광합성·개화 시기·면역·뿌리와 잎 발달 관련 유전자가 두 종에서 수렴적으로 사라졌다[20]. 실새삼은 배추과 식물에서 유래한 스트릭토시딘 합성효소 유사 유전자를 수평 전달로 얻었고, 이 유전자는 줄기 상처 뒤 발현이 늘었다[32].\n\n"
+     "엽록체 유전체는 85,263 bp로, 유전자 98개(단백질 암호화 61개, tRNA 29개, rRNA 4개)를 담고 GC 함량은 37.8%다[19]. 새삼속은 보편 DNA 바코드로 종을 가리기 어려워, 한국 연구진이 rbcL 변이 구간 676 bp를 증폭하는 속 특이 프라이머를 만들어 네 종을 완전히 구별했다[3]. 이 연구에서 ITS는 종 안 변이가 0–3.4%로 커서 rbcL보다 종 판별에 덜 알맞았다[3]."},
+    {"key": "safety", "title": "안전성과 사용 조건", "body":
+     "식약처 「식품원료 목록」에서 실새삼은 '제한적사용' 원료이고, 사용 조건은 '제한적사용가능부위 : 씨앗'이다[1]. 씨앗 외 부위는 식품원료로 쓸 근거가 목록에 없으며, 제한적사용 원료의 구체적 사용량·대상 식품 기준은 목록 원자료에 적혀 있지 않아 확인하지 못함. 건강기능식품 고시형 원료나 개별인정형 원료로 실새삼을 쓴 사례는 목록에서 확인하지 못함.\n\n"
+     "사람 대상 안전성·임상 자료는 확인하지 못함. 튀니지산 실새삼 전초 추출물은 쥐에 10–60 mg/kg을 먹이고 3주 관찰했을 때 독성 징후가 없었다(동물, 전초)[17]. 새삼속 전반에 대해서는 사람의 항콜린성 중독 보고와 말 중독 관찰이 정리된 바 있어, 섭취 위험에 대한 주의가 필요하다고 제시되었다(속 수준 자료)[28].\n\n"
+     "품질 측면에서 실새삼 씨앗은 사리풀의 씨앗(낭탕자)과 시장에서 섞일 수 있다고 보고되어 종 확인이 중요하다[29]. 한국 시장에서도 들깨속 씨앗이 토사자 위품으로 발견되었다[3]. 토사자 시료에서는 살충제 클로르피리포스가 자주 검출되었고(기원 종 미기재), 불법 황색 색소 검사법의 적용 대상이 되기도 했다[30, 31]. 알레르기 정보와 국가 잔류 기준 개별 항목은 확인하지 못함."},
+]
+
+compounds = [
+    {"name": "Kaempferol", "name_ko": "캠페롤", "class": "플라보놀", "role": "marker", "part": "씨앗",
+     "content_text": "실새삼 씨앗의 주성분(LC-MS)[7]; 갯실새삼보다 함량이 '훨씬 높음'(RP-HPLC, 40개 시료)[5]; 27배치 정량에서 '현저히 높음'[4] — 구체 수치는 초록에 없어 확인하지 못함",
+     "activity_ko": "CYP1B1의 에스트라디올 4-수산화 반응 억제 IC50 0.45 ± 0.11 μM(효소 실험)[11]", "source": [4, 5, 7, 11]},
+    {"name": "Astragalin", "name_ko": "아스트라갈린(캠페롤-3-O-글루코사이드)", "class": "플라보놀 배당체", "role": "marker", "part": "씨앗",
+     "content_text": "캠페롤과 함께 실새삼의 주성분(LC-MS)[7]; 갯실새삼보다 '현저히 높음'(HPLC-UV)[4]; 씨앗에서 분리[8] — 수치는 확인하지 못함",
+     "activity_ko": "CYP1B1 억제 IC50 5.36 ± 1.13 μM, 혼합형 억제(효소 실험)[11]", "source": [4, 7, 8, 11]},
+    {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보놀", "role": "bioactive", "part": "씨앗(전초에서도 검출)",
+     "content_text": "씨앗에서 분리, 1997년 연구는 퀘르세틴과 그 배당체를 주된 플라보노이드로 보고[8]; RP-HPLC 정량 대상 5종의 하나[5]; 전초 LC-MS/MS에서 검출[17] — 수치는 확인하지 못함",
+     "activity_ko": "전초 추출물 분자 도킹에서 IL-6 결합 에너지 −13.25 kcal/mol(컴퓨터 예측)[17]", "source": [5, 8, 17]},
+    {"name": "Hyperoside", "name_ko": "하이페로사이드(퀘르세틴-3-O-갈락토사이드)", "class": "플라보놀 배당체", "role": "bioactive", "part": "씨앗",
+     "content_text": "실새삼 씨앗에서 처음 분리[8]; RP-HPLC 정량 대상[5]; 갯실새삼의 주성분으로, 실새삼에서는 주성분이 아님[7] — 수치는 확인하지 못함",
+     "activity_ko": "실새삼 단독 활성 자료는 확인하지 못함", "source": [5, 7, 8]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로젠산", "class": "퀸산 유도체(카페오일퀸산)", "role": "bioactive", "part": "씨앗",
+     "content_text": "토사자 27배치 HPLC-UV 정량 7성분의 하나; 실새삼은 갯실새삼보다 퀸산 유도체가 적음[4] — 수치는 확인하지 못함",
+     "activity_ko": "실새삼 단독 활성 자료는 확인하지 못함", "source": [4]},
+    {"name": "Cuscutic acid A1", "name_ko": "쿠스쿠트산 A1–A3(수지 배당체 구성 배당체산)", "class": "수지 배당체(resin glycoside)", "role": "marker", "part": "씨앗",
+     "content_text": "씨앗의 에테르 불용성 수지 배당체 분획을 알칼리 가수분해해 새 배당체산 3종을 확인; (11S)-잘라피놀산 또는 (11S)-콘볼불리놀산을 아글리콘으로 한 3당 배당체[9] — 함량은 확인하지 못함",
+     "activity_ko": "활성 자료는 확인하지 못함; 수지 배당체는 최대 7량체의 에스터형 올리고머 혼합물로 추정[9]", "source": [9]},
+    {"name": "Australiside A", "name_ko": "오스트랄리사이드 A", "class": "카우렌형 다이테르페노이드 배당체", "role": "bioactive", "part": "부위 미기재(초록)",
+     "content_text": "실새삼에서 새로 분리된 다이테르페노이드 배당체(4-oic acid-7-oxo-kaurene-6α-O-β-D-glucoside)[10] — 함량은 확인하지 못함",
+     "activity_ko": "활성 자료는 확인하지 못함", "source": [10]},
+    {"name": "Caffeic acid", "name_ko": "카페산", "class": "하이드록시신남산", "role": "bioactive", "part": "부위 미기재(초록)·전초",
+     "content_text": "실새삼에서 분리(새삼속 첫 보고)[10]; 전초 LC-MS/MS에서 검출[17] — 수치는 확인하지 못함",
+     "activity_ko": "전초 추출물 도킹에서 IL-2 결합 에너지 −11.03 kcal/mol(컴퓨터 예측)[17]", "source": [10, 17]},
+    {"name": "p-Coumaric acid", "name_ko": "p-쿠마르산", "class": "하이드록시신남산", "role": "bioactive", "part": "부위 미기재(초록)",
+     "content_text": "실새삼에서 분리(새삼속 첫 보고)[10] — 함량은 확인하지 못함",
+     "activity_ko": "실새삼 단독 활성 자료는 확인하지 못함", "source": [10]},
+    {"name": "Isorhamnetin", "name_ko": "이소람네틴", "class": "플라보놀", "role": "bioactive", "part": "전초",
+     "content_text": "튀니지산 전초 80% 에탄올 추출물 LC-MS/MS 동정 51성분의 하나[17] — 정량값 없음",
+     "activity_ko": "이소람네틴 배당체가 TNF-α 도킹 −10.69 kcal/mol(컴퓨터 예측)[17]", "source": [17]},
+    {"name": "Diosmetin", "name_ko": "디오스메틴", "class": "플라본", "role": "bioactive", "part": "전초",
+     "content_text": "튀니지산 전초 LC-MS/MS에서 검출[17] — 정량값 없음",
+     "activity_ko": "디오스메틴 배당체가 CYP450 도킹 −17.85 kcal/mol(컴퓨터 예측)[17]", "source": [17]},
+    {"name": "Quinic acid", "name_ko": "퀸산", "class": "유기산", "role": "nutrient", "part": "전초",
+     "content_text": "전초 추출물에서 말산·시트르산·글루쿠론산과 함께 검출된 유기산[17] — 정량값 없음",
+     "activity_ko": "활성 자료는 확인하지 못함", "source": [17]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Kaempferol", "compound_ko": "캠페롤(플라보노이드 5종 동시 정량의 하나)", "part": "씨앗(Semen Cuscutae 40개 시료, 실새삼 포함)",
+     "content": "실새삼이 갯실새삼보다 캠페롤 함량이 훨씬 높음, 새삼에서는 플라보노이드가 거의 검출되지 않음 — 수치는 초록에 없음[5]",
+     "method": "RP-HPLC",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "0.025 M 인산–메탄올", "gradient": "", "flow": "", "temp": "", "detection": "",
+                    "injection": "", "sample_prep": "", "standard": "퀘르세틴 3-O-β-D-갈락토사이드-7-O-β-D-글루코사이드, 퀘르세틴 3-O-β-D-아피오푸라노실-(1→2)-β-D-갈락토사이드, 하이페로사이드, 퀘르세틴, 캠페롤",
+                    "linearity": "r ≥ 0.9990", "lod": "", "loq": "", "recovery": "97.0–102.9%"},
+     "rationale": "실새삼 씨앗은 캠페롤이 갯실새삼보다 많아 종 구별과 품질 평가의 지표로 쓸 수 있다고 제안되었다; 전문 확인 못함(초록 기준)[5]",
+     "source": [5], "url": "https://pubmed.ncbi.nlm.nih.gov/12008141/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Astragalin", "compound_ko": "아스트라갈린(주요 7성분 정량의 하나)", "part": "씨앗(토사자 27배치)",
+     "content": "실새삼에서 캠페롤·아스트라갈린이 갯실새삼보다 현저히 높음 — 수치는 초록에 없음[4]",
+     "method": "HPLC-UV(성분 확인은 HPLC-DAD-MS)",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "", "standard": "플라보노이드 6종과 클로로젠산(7성분)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "두 기원 종의 성분 차이가 커 아스트라갈린·캠페롤 함량이 토사자 기원 판별과 품질 관리에 쓸모 있다고 결론지었다; 전문 확인 못함(초록 기준)[4]",
+     "source": [4], "url": "https://pubmed.ncbi.nlm.nih.gov/21674437/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Kaempferol", "compound_ko": "캠페롤 등 플라보노이드(실새삼·갯실새삼 씨앗 판별 HPLC)", "part": "씨앗",
+     "content": "정량값 아님 — 두 종 씨앗의 HPLC 판별 패턴[6]",
+     "method": "HPLC(및 폴리아마이드 막 TLC)",
+     "conditions": {"instrument": "", "column": "Hypersil-ODS", "mobile_phase": "메탄올–0.025 M H3PO4", "gradient": "", "flow": "1.0 mL/min", "temp": "40 °C",
+                    "detection": "360 nm", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "실새삼과 갯실새삼 씨앗을 가리는 판별 시험으로 제시되었고 MeSH에 플라보노이드·캠페롤이 색인되어 있다; 전문 확인 못함(영문 초록 기준)[6]",
+     "source": [6], "url": "https://pubmed.ncbi.nlm.nih.gov/11402739/", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "cuscuta-australis",
+    "name_ko": "실새삼",
+    "name_en": "Australian dodder",
+    "scientific_name": "Cuscuta australis R. Br.",
+    "aliases": ["실새삼씨앗", "실새삼씨앗분말", "Australian dodder", "菟絲子(토사자, 중국 약전 기원 종의 하나)", "Cuscutae Semen", "Tu-Si-Zi"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))
