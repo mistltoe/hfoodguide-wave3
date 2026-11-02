@@ -1,0 +1,7 @@
+PMC2680688 Chou G et al 2009 JAFC 10.1021/jf8029397
+HPLC: Waters 600 pump, 717 autosampler, 2996 PDA. Column Alltech Prevail C(18) 250x4.6mm 5um + YMC C(18) guard 7.5x4.6 5um; 25C.
+MP A 0.17% H3PO4 in ACN, B 0.17% H3PO4 in water. Grad 0-65 5->30%A; 65-85 30->60; 85-90 60->70; 90-100 70 iso. 1.0 mL/min, 10 uL. PDA 200-400; 205nm (RUB,SM) 254 (GA,RUT,EGA) combined.
+Std stock in MeOH: GA 0.05, RUT 0.024, EGA 0.206, RUB 1.404, SM 0.120 mg/mL; RUB SM isolated >98%.
+Sample: dried 60C 12h, 100 mesh; 1 g + 100 mL water reflux 2h; centrifuge 10000g 10 min; 25 mL evaporated; MeOH to 10 mL; 0.2um filter.
+r>0.999 5 points. LOD 1.24,1.15,0.29,11.36,3.85; LOQ 3.45,2.78,2.41,37.86,11.09 ug/mL (GA,RUT,EGA,RUB,SM). intra 3.14% inter 3.01%; recovery 93.08-97.50% RSD 2.35-4.90%.
+14 samples Guizhou cultivation farm; 5 markers avg 5.9% w/w: GA 2.2%, RUT 1.9%, EGA 12.0%, RUB 82.5%, SM 1.4% of sum. RUB ~5% leaf, GA 0.13% w/w, SM 0.71% w/w. RT 11.2,53.9,57.3,80.6,86.3.

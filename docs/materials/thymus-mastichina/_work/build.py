@@ -1,0 +1,137 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(title, doi, pmid, pmc=None, note="초록 확인"):
+    ids = f"PMID {pmid}" + (f", {pmc}" if pmc else "")
+    return {"title": f"{title} ({ids}, {note})", "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": "PubMed", "accessed": A}
+S = [
+ {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 마스티키나백리향잎(Thymus mastichina L.; Mastic thyme), 식품원료(A코드), 사용가능, 사용가능부위: 잎; 같은 속 다른 행(타임·백리향·세르필룸백리향 등) 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm("Thymus mastichina L. essential oils from Murcia (Spain): Composition and antioxidant, antienzymatic and antimicrobial bioactivities — PLoS One 2018;13(1):e0190790", "10.1371/journal.pone.0190790", 29304179, "PMC5755899", "전문 확인"),
+ pm("Chemical Characterization and Bioactivity of Extracts from Thymus mastichina: A Thymus with a Distinct Salvianolic Acid Composition — Antioxidants (Basel) 2019;9(1):34", "10.3390/antiox9010034", 31906063, "PMC7022745", "전문 확인(표 수치는 본문에 없음)"),
+ pm("Characterization of Bioactive Phenolic Compounds Extracted from Hydro-Distillation By-Products of Spanish Lamiaceae Plants — Molecules 2024;29(22):5285", "10.3390/molecules29225285", 39598674, "PMC11596117", "전문 확인(표 수치는 본문에 없음)"),
+ pm("Obtaining Aromatic Extracts from Portuguese Thymus mastichina L. by Hydrodistillation and Supercritical Fluid Extraction with CO2 as Potential Flavouring Additives for Food Applications — Molecules 2022;27(3):694", "10.3390/molecules27030694", 35163959, "PMC8838556", "전문 확인"),
+ pm("Toxicological and pharmacological properties of essential oils of Calamintha nepeta, Origanum virens and Thymus mastichina of Alentejo (Portugal) — Food Chem Toxicol 2019;133:110747", "10.1016/j.fct.2019.110747", 31377137),
+ pm("Thymus mastichina: chemical constituents and their anti-cancer activity — Nat Prod Commun 2012;7(11):1491-4", None, 23285814),
+ pm("Polyphenol composition and biological activity of Thymus citriodorus and Thymus vulgaris: Comparison with endemic Iberian Thymus species — Food Chem 2020;331:127362", "10.1016/j.foodchem.2020.127362", 32590268),
+ pm("Patterns of Interploidy Admixture in Polyploid Complexes: Insights From Thymus Sect. Mastichina (Lamiaceae) — Mol Ecol 2026;35(3):e70259", "10.1111/mec.70259", 41657268, "PMC12884452"),
+ pm("Genomic structure, introgression, niche overlap and morphological variation challenge species delimitation in Thymus sect. Mastichina — Ann Bot 2026;138(4):1194-1209", "10.1093/aob/mcag151", 42216699, "PMC13595239"),
+ pm("Essential oil composition and variability of Thymus lotocephalus and Thymus × mourae — Biochem Syst Ecol 2000;28(5):457-470", "10.1016/s0305-1978(99)00088-5", 10725602),
+ pm("Effect of the volatile constituents isolated from Thymus albicans, Th. mastichina, Th. carnosus and Thymbra capitata in sunflower oil — Nahrung 2003;47(6):397-402", "10.1002/food.200390089", 14727767),
+ pm("Thymus mastichina (L.) L. and Cistus ladanifer L. for skin application: chemical characterization and in vitro bioactivity assessment — J Ethnopharmacol 2022;302(Pt A):115830", "10.1016/j.jep.2022.115830", 36243295),
+ pm("Ethnopharmacology in the Upper Guadiana River area (Castile-La Mancha, Spain) — J Ethnopharmacol 2019;241:111968", "10.1016/j.jep.2019.111968", 31129307),
+ pm("Solvent-Free Microwave Extraction of Thymus mastichina Essential Oil: Influence on Their Chemical Composition and on the Antioxidant and Antimicrobial Activities — Pharmaceuticals (Basel) 2021;14(8):709", "10.3390/ph14080709", 34451806, "PMC8400032"),
+ pm("Co-Processed Olive Oils with Thymus mastichina L. — New Product Optimization — Life (Basel) 2021;11(10):1048", "10.3390/life11101048", 34685419, "PMC8537660"),
+ pm("Ultrasound Assisted Coextraction of Cornicabra Olives and Thyme to Obtain Flavored Olive Oils — Molecules 2023;28(19):6898", "10.3390/molecules28196898", 37836741, "PMC10574346"),
+ pm("LED Light Treatments Induce Activation of the Antioxidant Defense System in Thymus mastichina L. — Plants (Basel) 2025;14(18):2930", "10.3390/plants14182930", 41012082, "PMC12473170"),
+ pm("Influence of plant cover on the long-term dynamics of an arbuscular mycorrhizal fungal SynCom in a semi-arid Mediterranean environment — Mycorrhiza 2026;36(5)", "10.1007/s00572-026-01304-0", 42661004),
+ pm("A phytogeochemical study of the Trás-os-Montes region (NE Portugal): possible species for plant-based soil remediation technologies — Sci Total Environ 2006;354(2-3):265-77", "10.1016/j.scitotenv.2005.01.001", 16399000),
+ pm("Antioxidant, Anti-inflammatory and Anti-hyperglycaemic Activities of Essential Oils from Thymbra capitata, Thymus albicans, Thymus caespititius, Thymus carnosus, Thymus lotocephalus and Thymus mastichina from Portugal — Nat Prod Commun 2016;11(7):1029-1038", None, 30452188),
+ pm("Antifungal activity of Thymus oils and their major compounds — J Eur Acad Dermatol Venereol 2004;18(1):73-8", "10.1111/j.1468-3083.2004.00886.x", 14678536),
+ pm("Antimicrobial activity of five essential oils against origin strains of the Enterobacteriaceae family — APMIS 2005", "10.1111/j.1600-0463.2005.apm1130101.x", 15676008),
+ pm("Chemical composition, antioxidant, and antimicrobial activities of six commercial essential oils — Lett Appl Microbiol 2023;76(1)", "10.1093/lambio/ovac042", 36688786),
+ pm("Antioxidant activity and cholinesterase inhibition studies of four flavouring herbs from Alentejo — Nat Prod Res 2017", "10.1080/14786419.2017.1278598", 28076987),
+]
+for i, s in enumerate(S, 1):
+    s["n"] = i
+    S[i-1] = {"n": i, **{k: s[k] for k in ("title", "url", "publisher", "accessed")}}
+
+sec = []
+def add(k, t, b): sec.append({"key": k, "title": t, "body": b})
+
+add("overview", "한눈에 보기",
+"마스티키나백리향(Thymus mastichina L.)은 꿀풀과(Lamiaceae) 백리향속의 향기 나는 작은 관목으로, 영어로는 마스틱 타임(mastic thyme)이라 부른다[1]. 식약처 「식품원료 목록」에는 '마스티키나백리향잎' 한 행이 식품원료(A코드) '사용가능' 원료로 올라 있고, 사용 조건은 '사용가능부위 : 잎'이다[1]. 따라서 이 목록에서 식품원료로 쓸 수 있는 부위는 잎이며, 꽃·줄기·뿌리나 정유(오일)·추출물 행은 이 종에 대해 따로 확인하지 못함. 이 종은 건강기능식품 고시형 원료의 원재료로 올라 있지 않으며, 같은 목록의 타임(Thymus vulgaris)·백리향(Thymus quinquecostatus) 등은 별개 행으로 관리된다[1].\n\n"
+"이베리아반도(스페인·포르투갈) 고유종으로, 현지에서는 스페인 마저럼(Spanish marjoram)·화이트 타임이라고도 부르며 올리브 절임 양념과 허브차로 쓴다[3]. 잎과 꽃을 증류한 정유는 1,8-시네올과 리날로올이 주성분인 경우가 많고[2], 추출물에서는 로즈마린산과 살비아놀산 유도체가 두드러진다[3]. 산지와 개체군에 따라 티몰이 주성분인 정유도 보고되어, 성분 조성의 폭이 넓다[5].")
+
+add("history", "역사와 전통적 이용",
+"마스티키나백리향은 이베리아반도 민간요법에서 소화기·호흡기·류머티즘 증상에 쓰였고, 올리브를 절이거나 올리브유에 향을 입히는 양념, 허브 우림차로 쓰였다[3]. 정유는 화장품과 향료 산업의 원료로도 쓰여 왔다[3]. 스페인 카스티야라만차 과디아나강 상류 지역의 1998–2018년 면담 조사에서 마스티키나백리향은 가장 자주 쓰인 약용 식물 가운데 하나로 기록되었다[14].\n\n"
+"포르투갈에서는 상처 소독·상처 치유, 외용 소염제, 민간 화장품과 위생용품, 여드름에 쓴 기록이 있다[13]. 포르투갈 알렌테주 지역에서는 향신 허브(flavouring herb)로 분류되어 정유와 물 추출물이 연구되었다[6, 25]. 포르투갈산 정유 연구는 1997년의 광범위한 조사를 비롯해 2000년대 전후에 많이 이루어졌고[5], 2012년에야 추출물의 비휘발성 성분 구조가 분광 분석으로 처음 확정되었다[7]. 한국에서의 전통적 이용 기록은 확인하지 못함.")
+
+add("biology", "식물학적 특징",
+"마스티키나백리향은 이베리아반도 고유의 반관목(undershrub)으로 키가 50 cm 넘게 자라며 4–6월에 꽃이 핀다[5]. 잎은 줄기에 두 장씩 마주나고, 꽃은 작고 좌우대칭인 입술 모양(이순형)이다[2]. 잎과 꽃에 있는 분비 구조에서 휘발성 테르펜이 만들어지며, 정유의 조성은 재배지·환경 조건에 따라 달라진다[2].\n\n"
+"분류학적으로는 백리향속 Mastichina 절(section)에 속하며, 이 절은 T. mastichina subsp. mastichina, T. mastichina subsp. donyanae, 멸종위기종 T. albicans 세 분류군으로 이루어진다[9]. 유전체 분석에서 이 절은 이배체 무리와 사배체 무리 두 자매군으로 나뉘었고, 사배체 무리는 개체군 사이 분화가 낮아 다양한 환경으로 빠르게 퍼진 것으로 해석되었다[9]. 꽃 형태와 생태 지위(niche) 분석에서는 배수성에 따른 차이가 일부 있었지만 계통 사이에 겹침이 커서 형태만으로 종을 가르기 어렵다고 보고되었다[10]. 한국 자생 기록은 확인하지 못함.")
+
+add("related_species", "이름과 가까운 종",
+"같은 Mastichina 절의 T. albicans와 T. mastichina subsp. donyanae는 가까운 친척이며, 이배체 계통은 알가르브·카디스·도냐나·헤르시니아 네 하위 무리로 나뉜다[9]. 헤르시니아 계통은 사배체 T. mastichina와 겉모습으로 구별하기 어려운 숨은(cryptic) 이배체 계통으로 기재되었다[10]. 포르투갈 고유의 T. × mourae는 T. lotocephalus와 T. mastichina subsp. donyanae 사이의 자연 잡종으로, 정유에 두 부모의 성분이 함께 나타난다[11].\n\n"
+"영어 이름 '스페인 마저럼'은 마저럼(Origanum 속)과 이름이 겹치지만 이 종은 백리향속 식물이며, 문헌에 'Spanish Origanum majorana'로 적힌 예도 있다[3, 23]. 식약처 목록에는 타임(T. vulgaris)·백리향(T. quinquecostatus)·세르필룸백리향(T. serpyllum)·플레기오이데스백리향(T. pulegioides)·Thymus zygis 등 같은 속의 여러 종이 각각 다른 행으로 올라 있으므로, 원료 표시는 학명으로 구별해야 한다[1]. 같은 조건에서 키운 백리향속 여러 종의 폴리페놀을 비교한 연구에서도 종마다 조성이 달랐다[8].")
+
+add("cultivation", "재배와 산지",
+"원산지인 이베리아반도에서는 야생 채취와 함께 재배도 이루어진다[3, 4]. 스페인 무르시아의 농장에서 재배해 개화기(2014년 7월)에 수확한 지상부의 정유 수율은 1.8–2.6%(v/w)였고, 생물기후대가 다른 세 산지의 정유 조성이 서로 달랐다[2]. 스페인 바야돌리드의 시험 농장에서는 이베리아반도 각지에서 모은 8–15개 야생 개체군을 증식해 2013–2021년 재배 시험을 했다[4]. 포르투갈에서는 유기농 재배 식물[3]과 한 모본에서 조직배양으로 늘린 묘[5]가 연구에 쓰였다.\n\n"
+"리날로올형과 유칼립톨(1,8-시네올)형 두 생태형에 LED 광질을 달리 비춘 실험에서는 화학형마다 항산화 반응이 가장 커지는 빛 조건이 달랐다[18]. 스페인 남부 반건조 지중해 환경을 흉내 낸 3년 실험에서는 수지상 균근균 군집의 정착에 식물 종 구성의 영향이 제한적이었다[19]. 국내 재배 면적·생산량 통계와 지리적 표시 등록은 확인하지 못함.")
+
+add("processing", "가공과 이용",
+"정유는 주로 수증기 증류나 물 증류(클레벤저 장치 3시간)로 얻는다[2, 5]. 무용매 마이크로파 추출(SFME)로 30분 증류한 정유는 120분 물 증류 정유와 수율·향 조성이 비슷했고 주성분은 1,8-시네올이었다[15]. 초임계 이산화탄소 추출(80 bar, 50 °C)로 얻은 추출물은 티몰 비율이 높고 세포독성이 정유보다 낮아 식품 향료 원료로 제안되었다[5]. 증류 뒤 남는 고형 잔사에도 폴리페놀이 남아 있어, 잔사 1 g당 총 페놀이 10,002 ± 3193 µg으로 측정되었다[4].\n\n"
+"올리브를 분쇄할 때 마스티키나백리향을 함께 넣는 공동가공으로 향 올리브유를 만드는 연구에서는 백리향 3.5–4.0% 초과·가수량 14–18% 조건에서 페놀 함량이 높은 기름을 얻었다[16]. 코르니카브라 올리브와 공동 추출할 때도 새로운 페놀 성분이 기름으로 옮겨졌다[17]. 정유는 식품 부패균·병원균에 대한 항균 소재로도 검토되어, 상업 정유 6종 비교에서 항균 활성이 가장 강한 편에 속했다[24]. 다만 칸디다균에 대한 항진균 활성은 같은 연구의 다른 백리향속 정유보다 약했고[22], 가금·돼지 유래 살모넬라·대장균은 최고 시험 농도인 4%(v/v)에서야 모두 억제되었다[23]. 전통 방식인 물 달임(decoction)은 80% 에탄올 반복 추출의 약 51%에 해당하는 총 페놀을 뽑아냈다[3]. 국내에서 이 원료로 만든 건강기능식품 생산실적은 확인하지 못함.")
+
+add("genetics", "유전 정보",
+"Hyb-Seq(핵 유전자 표적 서열) 계통유전체 분석에서 Mastichina 절은 이배체 무리와 사배체 무리로 나뉘었고, 이배체 무리 안에는 그물 모양(reticulate) 진화를 보이는 네 하위 무리가 있었다[9]. 배수성이 다른 계통 사이에서도 유전자 흐름(교잡 흔적)이 검출되었고, 연구진은 이배체 하위 무리 보전을 위해 유세포 분석으로 배수성을 확인할 것을 권했다[9]. 이후 연구는 헤르시니아 이배체 계통과 도냐나 무리 사이 혼합이 형태 겹침을 키운다고 보고했다[10].\n\n"
+"정유 화학형도 유전·환경 변이를 반영한다[2]. 포르투갈 알가르브산 정유는 1,8-시네올(45%)이, 에스트레마두라산은 리날로올(52%)이 주성분이었다[12]. 무르시아산 정유의 키랄 분석에서 (−)-리날로올 비율은 산지에 따라 약 90%와 약 50%로 갈렸다[2]. 포르투갈 북부의 조직배양 재배 개체는 티몰형이었다[5]. 염색체 수·유전체 크기의 구체적 수치와 공개 참조 유전체는 확인하지 못함.")
+
+add("safety", "안전성",
+"식약처 목록에서 마스티키나백리향잎은 '사용가능' 원료이며 사용 부위는 잎으로 한정된다[1]. 이 종에 대한 식약처·EFSA·EMA 등 공공기관의 별도 안전성 평가, 알레르기 정보, 사람 대상 임상시험은 확인하지 못함. 같은 속의 타임(T. vulgaris) 안전성 자료는 종이 달라 여기에 옮기지 않았다[1].\n\n"
+"동물·세포 자료로는, 포르투갈 알렌테주산 정유가 생쥐에서 독성이 매우 낮았고(LD50 1500 mg/kg 이상) 브라인슈림프에는 활성이 컸다[6]. 원숭이 신장 Vero 세포에서 정유의 GI50은 65–122 µg/mL, 초임계 추출물은 235–271 µg/mL였고 하이드로레이트(증류수층)는 400 µg/mL까지 독성이 없었다[5]. 피부 세포 실험에서는 정유와 하이드로레이트의 생체적합성이 비교적 좋았다[13]. 정유는 1,8-시네올이 최대 74.0%(피크 면적)에 이르므로 원액 정유와 잎을 같은 것으로 보면 안 된다[2].\n\n"
+"포르투갈 트라스우스몬트스 지역 조사에서 마스티키나백리향은 중금속(Cr·Mn·Zn 등)을 잎에 비교적 많이 축적하는 종으로 분류되었으므로 채취지 토양 오염에 주의가 필요하다[20]. 국내 잔류농약·중금속 기준의 이 종 개별 항목은 확인하지 못함.")
+
+C = [
+ ("1,8-Cineole", "1,8-시네올(유칼립톨)", "모노테르펜 산화물", "marker", "지상부 정유", "스페인 무르시아 재배 정유 4종 38.8–74.0%(피크 면적), 1631.1–2742.8 mmol/L[2]; 포르투갈 알가르브산 45%[12]; ISO 4728 범위 30.0–68.0%(논문 인용)[2]", "정유 성분 중 가장 강한 아세틸콜린에스테라아제 억제(IC50 35.2 ± 1.5 µg/mL)[2]; 포르투갈산 정유는 비교한 6종 가운데 NO 라디칼 소거가 큰 편[21]", [2, 12, 21]),
+ ("Linalool", "리날로올", "모노테르펜 알코올", "marker", "지상부 정유", "무르시아 정유 2.2–42.7%, 137.5–2357.9 mmol/L[2]; 포르투갈 에스트레마두라산 52%[12]", "ORAC 536.7 mg TE/g, 황색포도상구균 MIC 0.6 mg/mL[2]", [2, 12]),
+ ("alpha-Pinene", "알파-피넨", "모노테르펜", "bioactive", "지상부 정유", "무르시아 정유 1.4–2.9%(65.6–128.0 mmol/L), (+)-형 83.7–87.1%[2]", "대장균 MIC 0.5 mg/mL, AChE IC50 446.1 µg/mL[2]", [2]),
+ ("beta-Pinene", "베타-피넨", "모노테르펜", "bioactive", "지상부 정유", "무르시아 정유 1.7–3.6%(104.2–205.6 mmol/L)[2]", "ORAC 50.9 mg TE/g[2]", [2]),
+ ("alpha-Terpineol", "알파-테르피네올", "모노테르펜 알코올", "bioactive", "지상부 정유", "무르시아 정유 2.8–3.1%(155.1–182.9 mmol/L)[2]", "ORAC 523.8 mg TE/g, 황색포도상구균 MIC 0.6 mg/mL[2]", [2]),
+ ("Limonene", "리모넨", "모노테르펜", "bioactive", "지상부 정유", "무르시아 정유 0.9–2.2%(47.7–228.7 mmol/L), (+)-형 95% 초과[2]", "리폭시게나아제 억제 IC50 116.1 µg/mL[2]", [2]),
+ ("Linalyl acetate", "리날릴 아세테이트", "모노테르펜 에스터", "bioactive", "지상부 정유", "무르시아 정유 0.7–1.7%(43.4–104.0 mmol/L)[2]", "정유 항산화능(ORAC)을 설명하는 성분 중 하나[2]", [2]),
+ ("Thymol", "티몰", "페놀성 모노테르펜", "marker", "지상부(조직배양 재배, 포르투갈)", "초임계 CO2 추출물의 휘발 성분 중 72.4%(생시료)·52.7%(건조), 1511.3 ± 602.3 µg/g·282.1 µg/g; 건조 시료 정유 2565.5 ± 208.7 µg/g[5]; 무르시아 정유에서는 검출되지 않음[2]", "이 개체의 향(녹색·신선·꽃 향) 주성분으로 제시[5]", [2, 5]),
+ ("gamma-Terpinene", "감마-테르피넨", "모노테르펜", "bioactive", "지상부 정유", "포르투갈 티몰형 정유 30.6%(생)·35.5%(건조), 건조 정유 609.4 ± 28.3 µg/g[5]; 무르시아 정유 0.2–0.5%[2]", "DPPH 607.0 mg TE/kg, ABTS 4.6 mg TE/g로 단일 성분 중 높은 항산화능[2]", [2, 5]),
+ ("Rosmarinic acid", "로즈마린산", "카페산 에스터(페놀산)", "marker", "지상부 추출물", "총 페놀 화합물의 34%(80% 에탄올 추출)·40%(물 달임)[3]; 증류 잔사에서 로즈메리와 함께 가장 많은 편[4]", "추출물 항산화능에 기여하는 주 페놀로 제시[3]", [3, 4]),
+ ("Salvianolic acid A", "살비아놀산 A(이성질체)", "카페산 유도체(페놀산)", "marker", "지상부 추출물", "살비아놀산 유도체가 총 페놀의 38%(에탄올)·32%(물 달임), 그중 살비아놀산 A 이성질체 69%[3]", "Caco-2 세포 증식 억제 활성과 연관된 성분군으로 제시(에탄올 추출물 24시간 IC50 71.18 ± 1.05 µg/mL)[3]", [3]),
+ ("Luteolin", "루테올린(헥소사이드)", "플라본", "bioactive", "지상부 추출물·증류 잔사", "정량된 플라보노이드가 총 페놀의 28%(에탄올)·26%(물 달임), 그중 루테올린 헥소사이드가 약 50%[3]; 잔사 페놀의 78%가 플라보노이드, 66%가 플라본[4]", "항산화 페놀 성분(개별 활성 미측정)[3]", [3, 4]),
+ ("Sakuranetin", "사쿠라네틴", "플라바논", "bioactive", "지상부 추출물·증류 잔사", "디클로로메탄·에탄올 추출물에서 분리[7]; 증류 잔사에서 이 종에서만 검출(나린게닌·에리오딕티올과 함께)[4]", "대장암 HCT 세포 독성 유도 분획에서 분리[7]", [4, 7]),
+ ("Ursolic acid", "우르솔산", "트리테르펜산", "bioactive", "지상부 추출물", "디클로로메탄·에탄올 추출물에서 분리[7]; 다른 연구의 80% 에탄올 추출물에서는 검출되지 않음[3]", "HCT 대장암 세포 GI50 6.8 µg/mL, 올레아놀산과 1:1 혼합 시 2.8 µg/mL[7]", [3, 7]),
+ ("Kaempferol", "캠페롤", "플라보놀", "bioactive", "증류 잔사(잎·꽃)", "비교한 꿀풀과 6종 잔사 가운데 이 종에서만 검출된 유일한 플라보놀[4]", "잔사 화학분류(PCA)에서 이 종을 구별하는 성분[4]", [4]),
+]
+compounds = [dict(name=a, name_ko=b, **{"class": c}, role=d, part=e, content_text=f, activity_ko=g, source=h) for a, b, c, d, e, f, g, h in C]
+
+assays = [
+ {"role": "literature", "compound": "1,8-Cineole", "compound_ko": "1,8-시네올(리날로올 등 44개 휘발 성분 동시 정량)", "part": "지상부(개화기 재배 식물) 물 증류 정유, 스페인 무르시아 4개 산지",
+  "content": "1,8-시네올 38.8–74.0%(피크 면적), 1631.1–2742.8 mmol/L; 리날로올 2.2–42.7%[2]", "method": "Fast GC-MS(EI, 단일 사중극자), 표준품 검량선 절대정량",
+  "conditions": {"instrument": "Agilent GC7890 + MS5975, Gerstel MPS-2XT 자동주입기(샌드위치 주입)", "column": "SLB-5ms (Supelco), 15 m × 0.1 mm × 0.1 µm",
+   "mobile_phase": "운반기체 수소 0.8 mL/min(헤드압 46.345 psi)", "gradient": "60 °C → 15 °C/min 92 °C → 1 °C/min 96 °C → 20 °C/min 108 °C(0.5분) → 5 °C/min 120 °C → 20 °C/min 160 °C → 5 °C/min 170 °C → 30 °C/min 300 °C(0.5분)",
+   "flow": "0.8 mL/min", "temp": "주입구 300 °C, 이송관 280 °C, 이온원 230 °C, 사중극자 150 °C", "detection": "EI 70 eV, m/z 30–300, 21.035 scans/s, 정량 이온(1,8-시네올 m/z 43·81·108 등)",
+   "injection": "시료 0.3 µL(공기·이소옥탄 샌드위치), 분할비 100:1", "sample_prep": "지상부 분말 300 g 클레벤저 물 증류 3시간, 무수 황산나트륨 건조, 4 °C 보관",
+   "standard": "시판 순수 표준품(순도 95% 초과) 검량선; 동정은 LRI(C7–C30 n-알케인)·NIST 08·Wiley 7 대조", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "정유의 최대 성분이자 아세틸콜린에스테라아제 억제의 주 기여 성분이며, 논문은 조성을 ISO 4728(스페인 야생 마저럼 오일) 범위(1,8-시네올 30.0–68.0%, 리날로올 3.0–48.0%)와 대조해 품질 판정에 썼다; 전문 확인, 검량선 변수는 보충자료(S1 Table)에 있어 확인하지 못함[2]",
+  "source": [2], "url": "https://doi.org/10.1371/journal.pone.0190790", "source_kind": "paper"},
+ {"role": "literature", "compound": "Rosmarinic acid", "compound_ko": "로즈마린산(페놀 47종 동시 정량)", "part": "잎·꽃을 물 증류한 뒤의 고형 잔사(스페인 재배 시험 야생 개체군)",
+  "content": "이 종 잔사의 총 페놀 10,002 ± 3193 µg/g(건조 잔사), 플라보노이드 78%; 로즈마린산 개별 함량은 표에 있어 본문에서 확인하지 못함[4]", "method": "HPLC-DAD(내부표준법), 동정은 LC-DAD-ESI-MS",
+  "conditions": {"instrument": "Agilent LC 1200(4원 펌프, DAD); 동정용 Agilent 6410 Triple Quad", "column": "ACE C18, 250 × 4.6 mm, 5 µm", "mobile_phase": "A 20 mM 포름산 완충액(pH 2.8), B 메탄올",
+   "gradient": "0분 10% B, 5분 20%, 8분 38%, 18분 38%, 20분 70%, 37분 90%, 38분 100% 후 7분 유지", "flow": "0.8 mL/min(MS 동정 시 0.6 mL/min)", "temp": "25 °C",
+   "detection": "DAD 200–400 nm 스펙트럼, 254·280·320·350 nm 기록, 성분별 파장으로 정량; ESI ±, m/z 100–1000", "injection": "100 µL(A 용매 80 µL + 시료 20 µL 혼합 주입 프로그램)",
+   "sample_prep": "건조 잔사 0.25 g을 메탄올 10 mL로 4회(150 rpm, 30분) 추출, 내부표준 p-쿠마르산 첨가, 감압 농축 후 5 mL 정용, 0.45 µm PVDF 여과",
+   "standard": "시판 표준품 29종(로즈마린산 포함), 내부표준 p-쿠마르산", "linearity": "12농도 내부표준 검량선, 상관계수 0.9952–0.9999",
+   "lod": "LOD = 3.3 × Sy/S(성분별 수치는 표에 있어 확인하지 못함)", "loq": "LOQ = 10 × Sy/S(성분별 수치는 표에 있어 확인하지 못함)", "recovery": "대부분 80–120%(캠페롤 약 65%); 반복성 0.8–7.3%, 재현성 2.3–9.4%"},
+  "rationale": "로즈마린산은 비교한 꿀풀과 잔사 전부에서 검출된 주요 페놀산으로, 이 종과 로즈메리 잔사에서 가장 많았다; 검증된 동시 정량법이라 이 종 잔사의 지표 정량에 쓸 수 있다; 전문 확인[4]",
+  "source": [4], "url": "https://doi.org/10.3390/molecules29225285", "source_kind": "paper"},
+ {"role": "literature", "compound": "Salvianolic acid A", "compound_ko": "살비아놀산 A 이성질체(로즈마린산·플라보노이드 헥소사이드와 함께 정량)", "part": "지상부(포르투갈 유기농 재배, 동결건조) 80% 에탄올 반복 추출물·물 달임 추출물",
+  "content": "살비아놀산 유도체가 총 페놀의 38%(에탄올)·32%(물 달임), 그중 살비아놀산 A 이성질체 69%; 로즈마린산은 총 페놀의 34–40%[3]", "method": "RP-HPLC-DAD(정량), HPLC-ESI-MS/MS(동정)",
+  "conditions": {"instrument": "Dionex Ultimate 3000 HPLC, PDA-100 DAD; 동정용 Thermo LXQ 선형 이온트랩", "column": "ACE 5 C18, 250 × 4.6 mm, 5 µm(동정용 Luna C18(2) 250 × 4.6 mm, 5 µm, 40 °C)",
+   "mobile_phase": "선행 논문 조건 인용(본문에 기재 없음)", "gradient": "", "flow": "", "temp": "35 °C", "detection": "UV-Vis 200–600 nm; ESI 음이온, m/z 100–1000",
+   "injection": "", "sample_prep": "동결건조 분말 0.5 g을 80% 에탄올 50 mL로 3회 추출(150 rpm, 1시간) 또는 물 150 mL로 20분 달임, 여과·농축·동결건조",
+   "standard": "로즈마린산·살비아놀산 A·B·카페산·루테올린 등; 살비아놀산 A 이성질체는 살비아놀산 A로, K·I는 로즈마린산으로 환산", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "다른 백리향속 종과 달리 살비아놀산 유도체가 많고 그중 A 이성질체가 주성분이라 이 종을 구별하는 특징 성분으로 제시되었다; 전문 확인했으나 이동상·기울기는 선행 논문 인용이라 확인하지 못함[3]",
+  "source": [3], "url": "https://doi.org/10.3390/antiox9010034", "source_kind": "paper"},
+ {"role": "literature", "compound": "Thymol", "compound_ko": "티몰(γ-테르피넨·p-시멘 함께 정량)", "part": "지상부(포르투갈 조직배양 재배, 2020년 5월 수확) 정유·초임계 CO2 추출물",
+  "content": "초임계 추출물 휘발 성분 중 72.4%(생)·52.7%(건조), 1511.3 ± 602.3 µg/g·282.1 µg/g; 건조 시료 정유 2565.5 ± 208.7 µg/g[5]", "method": "GC-MS(표준품 검량선)",
+  "conditions": {"instrument": "Shimadzu GCMS-TQ8040 NX, AOC-20s+i 자동주입기", "column": "Rxi-5Sil MS (Restek), 30 m × 0.25 mm × 0.25 µm", "mobile_phase": "운반기체 He 1 mL/min",
+   "gradient": "40 °C(1분) → 7 °C/min 200 °C(2분) → 15 °C/min 250 °C(2분) → 20 °C/min 280 °C(1분)", "flow": "1 mL/min", "temp": "주입구 290 °C, 이온원 250 °C, 인터페이스 260 °C",
+   "detection": "MS 스캔 m/z 40–500, NIST 라이브러리·LRI(C8–C40 알케인) 대조", "injection": "1 µL, 비분할(splitless)", "sample_prep": "정유·추출물을 n-헥산에 희석",
+   "standard": "티몰·유칼립톨·캠퍼·α-피넨·베르베논 표준품 검량선", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 재배 개체는 티몰 화학형으로 티몰과 그 전구체가 향의 주성분이었다; 스페인 무르시아 정유처럼 1,8-시네올·리날로올형인 개체에서는 티몰이 검출되지 않으므로 화학형 판정용 지표가 된다; 전문 확인[2, 5]",
+  "source": [2, 5], "url": "https://doi.org/10.3390/molecules27030694", "source_kind": "paper"},
+]
+
+d = {"slug": "thymus-mastichina", "name_ko": "마스티키나백리향", "name_en": "Mastic thyme", "scientific_name": "Thymus mastichina (L.) L.",
+     "aliases": ["마스티키나백리향잎", "Mastic thyme", "Spanish marjoram", "스페인 마저럼", "White thyme", "Thymus mastichina L."],
+     "sections": sec, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+     "production": [], "world": [], "gi": [], "orgs": [], "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sec: print(s["key"], len(s["body"]))

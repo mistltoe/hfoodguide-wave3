@@ -1,0 +1,180 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pub, pmc=None, pmid=None, note=""):
+    ids = (pmc + ", " if pmc else "") + (f"PubMed {pmid}" if pmid else "")
+    return {"n": n, "title": title + (f" ({note})" if note else ""), "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+            "publisher": f"{pub} ({ids})", "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Thunnus alalunga 1행: 원료명 '날개다랑어', 영문 'Albacore, Binnaga', 대분류 식품원료(A코드), 분류 수산물, 부위 '-', 사용조건 기준 없음, 상태 사용가능, 별명 없음; 고시형 원료 원재료 목록(KR_NOTICE) 없음; 같은 속 다른 종은 별도 행(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/thunnus-alalunga/card.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Lipid and fatty acid dynamics in mature female albacore tuna (Thunnus alalunga) in the western Indian Ocean. PLoS One 2018;13(4):e0194558 (PMC 전문 확인)", "10.1371/journal.pone.0194558", "PLoS One", "PMC5880344", "29608623"),
+ pm(3, "Bioaccumulation Levels and Potential Health Risks of Mercury, Cadmium, and Lead in Albacore (Thunnus alalunga, Bonnaterre, 1788) from The Aegean Sea, Greece. Int J Environ Res Public Health 2019;16(5):821 (PMC 전문 확인)", "10.3390/ijerph16050821", "International Journal of Environmental Research and Public Health", "PMC6427763", "30845745"),
+ pm(4, "Assessment of Tail-Cutting in Frozen Albacore (Thunnus alalunga) Through Ultrasound Inspection and Chemical Analysis. Foods 2024;13(23):3860 (PMC 전문 확인)", "10.3390/foods13233860", "Foods (MDPI)", "PMC11639862", "39682932"),
+ pm(5, "Effects of Ultrasonic Power on the Structure and Rheological Properties of Skin Collagen from Albacore (Thunnus alalunga). Mar Drugs 2024;22(2):84 (PMC 전문 확인)", "10.3390/md22020084", "Marine Drugs (MDPI)", "PMC10890499", "38393055"),
+ pm(6, "Searching for shared epigenetic clocks: evaluating ultra-conserved markers in a de novo genome assembly of the albacore tuna. GeroScience 2026;48(3):3831-3845 (PMC 전문 확인)", "10.1007/s11357-026-02192-0", "GeroScience", "PMC13356160", "41874768"),
+ pm(7, "The complete mitochondrial genome sequence of Thunnus alalunga (Bonnaterre, 1788). Mitochondrial DNA A 2016;27(6):4189-4190", "10.3109/19401736.2014.1003907", "Mitochondrial DNA Part A", None, "25600736"),
+ pm(8, "Discovery of Genome-Wide Microsatellite Markers in Scombridae: A Pilot Study on Albacore Tuna. PLoS One 2015;10(11):e0141830", "10.1371/journal.pone.0141830", "PLoS One", "PMC4636268", "26544051"),
+ pm(9, "New Nuclear SNP Markers Unravel the Genetic Structure and Effective Population Size of Albacore Tuna (Thunnus alalunga). PLoS One 2015;10(6):e0128247", "10.1371/journal.pone.0128247", "PLoS One", "PMC4474438", "26090851"),
+ pm(10, "Adaptive markers distinguish North and South Pacific Albacore amid low population differentiation. Evol Appl 2021;14(5):1343-1364", "10.1111/eva.13202", "Evolutionary Applications", "PMC8127716", "34025772"),
+ pm(11, "Reproductive Biology of Albacore Tuna (Thunnus alalunga) in the Western Indian Ocean. PLoS One 2016;11(12):e0168605", "10.1371/journal.pone.0168605", "PLoS One", "PMC5176184", "28002431"),
+ pm(12, "Age and growth of albacore Thunnus alalunga in the North Pacific Ocean. J Fish Biol 2012;80(6):2328-2344", "10.1111/j.1095-8649.2012.03292.x", "Journal of Fish Biology", None, "22551185"),
+ pm(13, "An individual-based model of North Pacific albacore tuna seasonal migratory behaviour and climate sensitivity. Sci Rep 2026;16", "10.1038/s41598-026-46968-y", "Scientific Reports", "PMC13061994", "41942622"),
+ pm(14, "Ocean conditions drive interannual variability in juvenile albacore tuna (Thunnus alalunga) muscle energy content in the California Current System. PLoS One 2025;20(9):e0331436", "10.1371/journal.pone.0331436", "PLoS One", "PMC12425301", "40934161"),
+ pm(15, "CPUE standardization for southern bluefin tuna (Thunnus maccoyii) in the Korean tuna longline fishery, accounting for spatiotemporal variation in targeting through data exploration and clustering. PeerJ 2022;10:e13951", "10.7717/peerj.13951", "PeerJ", "PMC9441138", "36068868"),
+ pm(16, "Total and organic mercury concentrations in the muscles of Pacific albacore (Thunnus alalunga) and bigeye tuna (Thunnus obesus). Mar Pollut Bull 2014;85(2):606-612 (날개다랑어 값만 인용)", "10.1016/j.marpolbul.2014.01.039", "Marine Pollution Bulletin", None, "24559740"),
+ pm(17, "Total and methylmercury residues in tuna-fish from the Mediterranean sea. Food Addit Contam 2002;19(8):715-720 (날개다랑어 값만 인용)", "10.1080/02652030210153569", "Food Additives and Contaminants", None, "12227935"),
+ pm(18, "Content of mercury and cadmium in fish (Thunnus alalunga) and cephalopods (Eledone moschata) from the south-eastern Mediterranean Sea. Food Addit Contam 2004;21(11):1051-1056", "10.1080/02652030400023127", "Food Additives and Contaminants", None, "15764333"),
+ pm(19, "Species-specific heavy metal concentrations of tuna species: the case of Thunnus alalunga and Katsuwonus pelamis in the Western Mediterranean. Environ Sci Pollut Res 2022;29(1):1278-1288 (날개다랑어 값만 인용)", "10.1007/s11356-021-15700-w", "Environmental Science and Pollution Research", None, "34355312"),
+ pm(20, "Chemical contaminants (trace metals, persistent organic pollutants) in albacore tuna from western Indian and south-eastern Atlantic Oceans: Trophic influence and potential as tracers of populations. Sci Total Environ 2017;596-597:481-495", "10.1016/j.scitotenv.2017.04.048", "Science of the Total Environment", None, "28458223"),
+ pm(21, "Changes in histamine and microbiological analyses in fresh and frozen tuna muscle during temperature abuse. Food Addit Contam 2007;24(8):820-832", "10.1080/02652030701278321", "Food Additives and Contaminants", None, "17613069"),
+ pm(22, "Changes in biogenic amines and microbiological analysis in albacore (Thunnus alalunga) muscle during frozen storage. J Food Prot 1998;61(5):608-615 (초록만 확인)", "10.4315/0362-028x-61.5.608", "Journal of Food Protection", None, "9709235"),
+ pm(23, "Draft Genome Sequences of Histamine-Producing Photobacterium kishitanii and Photobacterium angustum, Isolated from Albacore (Thunnus alalunga) and Yellowfin (Thunnus albacares) Tuna. Genome Announc 2015;3(2):e00400-15", "10.1128/genomeA.00400-15", "Genome Announcements", "PMC4417705", "25931609"),
+ pm(24, "Precooking as a Control for Histamine Formation during the Processing of Tuna: An Industrial Process Validation. J Food Prot 2018;81(3):444-455", "10.4315/0362-028X.JFP-17-276", "Journal of Food Protection", None, "29474147"),
+ pm(25, "High-pressure pretreatment in albacore (Thunnus alalunga) for reducing freeze-driven weight losses with minimal quality changes. J Sci Food Agric 2021;101(7):2704-2711", "10.1002/jsfa.10895", "Journal of the Science of Food and Agriculture", None, "33073386"),
+ pm(26, "Changes in free amino acids content in albacore (Thunnus alalunga) muscle during thermal processing. Z Lebensm Unters Forsch 1988;187(5):432-435", "10.1007/BF01122644", "Zeitschrift für Lebensmittel-Untersuchung und -Forschung", None, "3206942"),
+ pm(27, "Anionic trypsin from the spleen of albacore tuna (Thunnus alalunga): Purification, biochemical properties and its application for proteolytic degradation of fish muscle. Int J Biol Macromol 2019;133:971-979", "10.1016/j.ijbiomac.2019.04.122", "International Journal of Biological Macromolecules", None, "31028808"),
+ pm(28, "Methodology and application of PCR-RFLP for species identification in tuna sashimi. Food Sci Nutr 2020;8(7):3138-3146", "10.1002/fsn3.1552", "Food Science & Nutrition", "PMC7382206", "32724578"),
+ pm(29, "Multiplex PCR Assay for Simultaneous Identification of Five Types of Tuna (Katsuwonus pelamis, Thunnus alalonga, T. albacares, T. obesus and T. thynnus). Foods 2022;11(3):280", "10.3390/foods11030280", "Foods (MDPI)", "PMC8834044", "35159432"),
+ pm(30, "First records of parasitic copepods (Crustacea, Siphonostomatoida) from marine fishes in Korea. Trop Biomed 2015;32(2):352-364", None, "Tropical Biomedicine", None, "26691264"),
+ pm(31, "Kudoa iwatai and two novel Kudoa spp., K. trachuri n. sp. and K. thunni n. sp. (Myxosporea: Multivalvulida), from daily consumed marine fish in western Japan. Parasitol Res 2011;108(4):913-926", "10.1007/s00436-010-2133-2", "Parasitology Research", None, "21053015"),
+ pm(32, "Possible Allergenic Role of Tropomyosin in Patients with Adverse Reactions after Fish Intake. Immunol Invest 2018;47(4):416-429", "10.1080/08820139.2018.1451882", "Immunological Investigations", None, "29578823"),
+ pm(33, "Identification and characterization of allergens in two species of tuna fish. Ann Allergy Asthma Immunol 1999;82(4):395-400", "10.1016/S1081-1206(10)63290-5", "Annals of Allergy, Asthma & Immunology", None, "10227339"),
+ pm(34, "Trace levels of Fukushima disaster radionuclides in East Pacific albacore. Environ Sci Technol 2014;48(9):4739-4743", "10.1021/es500129b", "Environmental Science & Technology", None, "24717105"),
+ pm(35, "Histamine (Scombroid) Fish Poisoning: a Comprehensive Review. Clin Rev Allergy Immunol 2016;50(1):64-69", "10.1007/s12016-015-8467-x", "Clinical Reviews in Allergy & Immunology", None, "25876709"),
+ {"n": 36, "title": "식품의약품안전처 참고자료(최근 임신부의 참치 섭취로 인한 수은의 위해성 논란 관련) — 다랑어류·새치류·심해성 어류는 메틸수은 1.0 ppm으로 관리 — WebSearch 검색 결과 요약으로만 확인, 원문은 이 환경에서 열지 못함", "url": "https://www.mfds.go.kr/brd/m_100/view.do?seq=24909", "publisher": "식품의약품안전처 (WebSearch 요약)", "accessed": A},
+ {"n": 37, "title": "식약청 보도(어류 기준 개정) — 메틸수은 1.0 mg/kg 이하·히스타민 200 mg/kg 이하 기준 신설, 고등어·참치 등 등푸른생선의 통조림·냉동·염장·건조·절단품에 히스타민 200 mg/kg 이하 — WebSearch 검색 결과 요약으로만 확인(검색 결과 문서 중 어느 것의 문장인지와 현행 식품공전 원문은 확인하지 못함; korea.kr 은 이 환경에서 접속 불가)", "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148747697", "publisher": "정책브리핑·식품의약품안전청 (WebSearch 요약)", "accessed": A},
+]
+for s in S:
+    if s["url"].startswith("https://pubmed") and "26691264" in s["url"]:
+        pass
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "날개다랑어(Thunnus alalunga)는 고등어과 다랑어속의 바닷물고기로, 영어로는 albacore라 부른다[1, 2]. "
+  "식약처 「식품원료 목록」에는 원료명 '날개다랑어', 영문명 'Albacore, Binnaga'의 수산물 한 줄로 올라 있고, 부위는 '-'(특정 부위 지정 없음), 사용 조건 없이 '사용가능' 원료이다[1]. "
+  "같은 목록에서 이 종은 건강기능식품 고시형 원료의 원재료로 적혀 있지 않으며, 같은 속의 다른 다랑어는 각기 별도 행으로 관리된다[1]. "
+  "세계 모든 대양에서 잡히는 상업 어종으로, 주로 통조림과 생식용 회(사시미) 원료로 쓰인다[4, 6]. "
+  "냉동 날개다랑어는 살의 지방 함량이 품질과 값을 정하는 주된 기준이어서, 꼬리를 잘라 단면을 보는 전통 방식과 화학 분석·초음파 검사가 비교되었다[4]. "
+  "근육 지방산에서는 DHA가 가장 많은 축에 들고, 큰 포식 어류인 만큼 수은 축적과 히스타민 생성이 대표적인 안전 관리 대상이다[2, 3, 21]. "
+  "국내 어획량·생산 통계와 국가표준식품성분표의 이 종 값은 이 조사에서 확인하지 못함."},
+ {"key": "history", "title": "이용·어업의 역사", "body":
+  "날개다랑어 근육은 수십 년 전부터 통조림 가공 연구의 재료였고, 1988년 스페인 연구는 살균 온도와 시간에 따라 유리아미노산이 줄어드는 정도를 가공 강도의 지표로 제안했다[26]. "
+  "그리스 에게해에서는 8–11월에 끌낚시와 주낙으로 잡으며, 어획량이 2006년 401톤에서 2016년 1,332톤으로 늘어 수출 품목이 되었다[3]. "
+  "같은 글은 지중해 자원을 대서양참치보존위원회(ICCAT)가 관리하지만 자원 상태가 매우 불확실하다고 적었다[3]. "
+  "한국 다랑어 주낙(연승) 선단의 1996–2018년 조업 자료에서는 남방참다랑어를 노리는 해역과 날개다랑어를 노리는 해역이 따로 구분되었다[15]. "
+  "2011년 후쿠시마 원전 사고 뒤에는 미국 북서부 연안에서 잡힌 날개다랑어에서 세슘-134가 미량 검출되어 회유 경로 연구에도 쓰였다[34]. "
+  "일본 냉동 다랑어 거래에서는 숙련자가 꼬리 단면으로 지방을 판정하는 관행이 이어져 왔다[4]."},
+ {"key": "biology", "title": "어종·형태·생태", "body":
+  "북태평양 날개다랑어의 이석 분석에서 가장 나이 많은 개체는 암컷 10세, 수컷 14세였고, 폰 베르탈란피 최대 가랑이체장은 암컷 103.5 cm, 수컷 114.0 cm로 추정되었다[12]. "
+  "성숙 뒤에는 수컷이 암컷보다 커지는 성적 크기 차이가 나타났다[12]. "
+  "서인도양에서는 10–30°S, 주로 마다가스카르 동쪽에서 10–1월에 산란하며, 암컷 50% 성숙 체장은 85.3 ± 0.7 cm였다[11]. "
+  "산란기에는 평균 2.2일마다 산란하고 한 번에 0.26–2.09백만 개의 난모세포를 낸다[11]. "
+  "어린 북태평양 개체는 먼바다와 캘리포니아 해류 사이를 해마다 오가며, 혼합층 깊이 30 m 무렵이 이동 시점의 신호로 보였다[13]. "
+  "캘리포니아 해류에서 잡은 어린 개체의 근육 에너지는 해수면 온도가 높을수록 낮았고, 해에 따라 멸치·정어리를 많이 먹었다[14]. "
+  "최대 수명은 약 20년으로 추정된다[6]."},
+ {"key": "related_species", "title": "관련 종·이름·종 판별", "body":
+  "날개다랑어는 longfin tuna라고도 불리며, 국내 첫 기록 기생 요각류 논문에서도 'longfin tuna or albacore'로 적혔다[30]. "
+  "식약처 목록의 영문명은 'Albacore, Binnaga'이고, 같은 다랑어속 다른 종과 가공품은 학명별로 따로 등재되어 있어 이 종의 지위와 섞어 읽으면 안 된다[1]. "
+  "회로 팔리는 다랑어는 겉모양으로 종을 가리기 어려워, 한 연구는 시토크롬 b 유전자 PCR-RFLP로 날개다랑어를 고급 다랑어 회에 섞이기 쉬운 종으로 함께 판별했다[28]. "
+  "국내 연구진은 다섯 종을 한 번에 가리는 다중 PCR을 만들었고, 날개다랑어 증폭 산물은 178 bp였으며 검출 한계는 1 pg이었다[29]. "
+  "이 방법은 시판 다랑어 제품 32종에 적용되었다[29]. "
+  "한편 황다랑어 추출물에서 보인 약 46 kD 알레르기 단백질은 날개다랑어에는 없어, 종마다 알레르기 항원이 다를 수 있다[33]."},
+ {"key": "cultivation", "title": "어획·자원", "body":
+  "날개다랑어는 양식이 아니라 주낙·끌낚시 등 원양·연근해 어업으로 잡히며, 이 종의 양식 생산 자료는 확인하지 못함. "
+  "한국 다랑어 주낙 선단은 남방참다랑어 조업 해역과 별도로 날개다랑어를 노리는 해역에서 조업해 왔다[15]. "
+  "유전자 분석으로는 지중해·대서양·인도양·태평양의 네 집단이 구분되었고, 현재 자원 단위는 한 단위에 두 유전 집단을 섞지 않아 관리에 맞는다고 평가되었다[9]. "
+  "북대서양 집단은 남획에도 유효 집단 크기가 역사적으로 줄지 않은 것으로 추정되었다[9]. "
+  "기후 전망에서는 2070–2099년 수온 상승으로 북태평양 분포가 극 쪽으로 옮겨가고 연안 체류가 길어질 수 있다고 했다[13]. "
+  "인도양 연구는 성숙·산란 자료가 자원 평가 모델의 불확실성을 줄인다고 보았다[11]. "
+  "국내 어획량 통계는 해양수산부·통계청 원자료를 이 환경에서 열지 못해 확인하지 못함."},
+ {"key": "processing", "title": "가공·저장·부산물", "body":
+  "날개다랑어는 통조림과 회로 주로 쓰이며, 냉동품은 지방 함량에 따라 값이 매겨진다[4]. "
+  "냉동 날개다랑어 57마리를 속슬렛법으로 분석하자 꼬리 단면 판정의 정확도는 업체별 70.0%와 51.9%였고, 초음파와 기계학습을 합친 방법은 84.2%였다[4]. "
+  "통조림 공정에서는 중심 온도 60 °C 예비 가열 뒤 12–18시간 동안 히스타민이 더 생기지 않음이 공장 규모로 검증되었다[24]. "
+  "냉동 전 200 MPa로 2분 고압 처리하면 해동·조리 손실이 줄고 색 변화는 작았다[25]. "
+  "살균을 길게 하면 유리아미노산이 원료 대비 약 12–34% 줄었다[26]. "
+  "부산물인 껍질은 몸의 약 10%를 차지하며, 펩신 추출 콜라겐 수율은 69.26%(건조 중량)였고 600 W 초음파 보조 시 75.18%까지 올랐다[5]. "
+  "지라에서는 단백질 분해력이 있는 음이온성 트립신이 정제되었다[27]."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "날개다랑어 미토콘드리아 유전체는 16,527 bp의 고리형 DNA로 유전자 37개를 담고 있다[7]. "
+  "2026년 처음 보고된 염색체 수준 핵 유전체는 785.3 Mb이며, 24개 염색체 규모 스캐폴드에 99.88%가 고정되었고 단백질 암호 유전자 24,013개가 주석되었다[6]. "
+  "같은 연구는 초보존 영역의 DNA 메틸화로 나이를 맞히는 후성유전 시계를 만들었으며, 교차 검증 오차 중앙값은 본문에서 0.834년, 초록에서 0.88년으로 적혀 있다[6]. "
+  "차세대 염기서열 분석으로 다형성 미세부수체 표지 43개가 개발되었다[8]. "
+  "핵 SNP 75개로 26개 지점 1,331마리를 분석해 네 대양 집단 구조를 밝혔다[9]. "
+  "태평양 308마리 분석에서는 적응 관련 유전자좌 84개로 남북 태평양 개체를 가를 수 있었으나 중립 표지 12,788개로는 가를 수 없었다[10]."},
+ {"key": "safety", "title": "안전성", "body":
+  "국내에서는 다랑어류에 메틸수은 1.0 ppm 기준을 적용한다고 알려져 있으나, 이 조사에서는 검색 결과 요약으로만 확인했다[36, 37]. "
+  "북태평양 날개다랑어 115마리 중 유기수은이 1 μg/g(습중량)을 넘은 개체는 없었고, 60 kg 성인 기준 주당 340 g 섭취가 제안되었다[16]. "
+  "지중해 개체는 총수은이 평균 1.17 mg/kg이고 그 약 91.3%가 메틸수은이었다[17]. "
+  "에게해 82마리는 수은이 모두 EU 기준 아래였으나 카드뮴은 34.2%가 EU 기준을 넘었다[3]. "
+  "히스타민은 냉장 보관 중 30 °C에 하루 2시간씩 노출하면 67–382 mg/kg까지 생겼다[21]. "
+  "등푸른생선 히스타민 200 mg/kg 기준도 검색 요약으로만 확인했다[37]. "
+  "−18 °C에서 9개월 냉동 저장한 근육의 히스타민은 5 ppm 아래였다[22]. "
+  "날개다랑어에서 분리된 히스타민 생성균 Photobacterium kishitanii의 유전체 초안도 보고되었다[23]. "
+  "후쿠시마 유래 세슘이 검출된 개체도 사람이 먹었을 때 연간 선량에 의미 있는 변화를 주지 않는 수준이었다[34]. "
+  "어류 알레르기 환자 혈청 일부는 날개다랑어 트로포미오신과 반응했다[32]. "
+  "근육에서 Kudoa thunni 포자낭이 보고되었다[31]."},
+]
+
+compounds = [
+ {"name": "Docosahexaenoic acid", "name_ko": "도코사헥사엔산(DHA)", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 32.7±7.4%(산란 가능기), 33.5±8.6%(초기 퇴행기), 32.4±5.9%(기타 산란 후) [2]", "activity_ko": "근육·간·생식소 모두에서 가장 많은 지방산 중 하나였다[2]", "source": [2]},
+ {"name": "Eicosapentaenoic acid", "name_ko": "에이코사펜타엔산(EPA)", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 3.7±0.9%, 3.8±1.0%, 4.7±1.1%(산란 가능기·초기 퇴행기·기타 산란 후) [2]", "activity_ko": "산란 가능기 암컷 근육에서 산란 후 개체보다 유의하게 낮았다[2]", "source": [2]},
+ {"name": "Palmitic acid", "name_ko": "팔미트산(16:0)", "class": "포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 21.2±1.7%, 21.9±1.2%, 21.4±0.9% [2]", "activity_ko": "근육 포화지방산의 대부분을 차지했다[2]", "source": [2]},
+ {"name": "Stearic acid", "name_ko": "스테아르산(18:0)", "class": "포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 8.0±1.2%, 7.6±0.9%, 8.7±1.0% [2]", "activity_ko": "17:0과 함께 산란 단계별 포화지방산 차이를 만들었다[2]", "source": [2]},
+ {"name": "Oleic acid", "name_ko": "올레산(18:1ω9)", "class": "단일불포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 7.8–11%(본문), 표: 11.0±4.0%, 9.8±3.9%, 7.8±2.2% [2]", "activity_ko": "근육의 주된 단일불포화지방산이었다[2]", "source": [2]},
+ {"name": "Arachidonic acid", "name_ko": "아라키돈산(20:4ω6)", "class": "n-6 고도불포화지방산", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 총지방산의 3.2±0.7%, 3.3±0.6%, 4.1±0.8% [2]", "activity_ko": "산란 가능기 암컷 근육에서 n-6 계열이 낮았다[2]", "source": [2]},
+ {"name": "Triglyceride", "name_ko": "트라이아실글리세롤(중성지방)", "class": "지질 분류", "role": "nutrient", "part": "등쪽 흰살(암컷 성어)", "content_text": "근육 지질의 약 20%(인지질 약 65%); 산란 가능기 최고 14.3 μg/mg; 근육 총지질 약 8 μg/mg [2]", "activity_ko": "생식소 지수와 양의 상관을 보였다[2]", "source": [2]},
+ {"name": "Mercury", "name_ko": "수은(총수은)", "class": "중금속(오염물질)", "role": "bioactive", "part": "가식 근육", "content_text": "에게해 북부 0.249–0.938(평균 0.480±0.152), 남동부 0.141–0.753(평균 0.401±0.154) mg/kg 습중량 [3]; 서지중해 0.1996±0.0602 mg/kg 습중량 [19]; 남동 지중해 살 평균 1.56 μg/g 습중량 [18]", "activity_ko": "몸이 클수록 높아지는 경향이 있으며 해역 차이가 크다[3, 16, 20]", "source": [3, 16, 18, 19, 20]},
+ {"name": "Methylmercury", "name_ko": "메틸수은", "class": "유기수은(오염물질)", "role": "bioactive", "part": "근육", "content_text": "지중해 개체 총수은의 77–100%(평균 91.3%) [17]; 북태평양 115마리 중 유기수은 1 μg/g 초과 없음 [16]", "activity_ko": "어류 섭취로 사람이 노출되는 주된 수은 형태이다[16, 17]", "source": [16, 17]},
+ {"name": "Cadmium", "name_ko": "카드뮴", "class": "중금속(오염물질)", "role": "bioactive", "part": "가식 근육·간", "content_text": "에게해 근육 0.021–0.669 mg/kg 습중량, 82마리 중 28마리 EU 기준(0.1) 초과 [3]; 남동 지중해 간 평균 9.22 μg/g [18]", "activity_ko": "간에 근육보다 훨씬 많이 쌓였다[18]", "source": [3, 18]},
+ {"name": "Histamine", "name_ko": "히스타민", "class": "생체아민(부패 지표·식중독 원인)", "role": "marker", "part": "근육(로인)", "content_text": "0–2 °C 보관 중 30 °C 하루 2시간 노출 시 67–382 mg/kg, 6–7 °C 보관 시 544.5–4156.6 mg/kg [21]; −18·−25 °C 9개월 냉동 저장 시 5 ppm 미만 [22]", "activity_ko": "고등어과 어류 히스타민 식중독(스콤브로이드)의 원인 물질이다[35]", "source": [21, 22, 35]},
+ {"name": "Putrescine", "name_ko": "푸트레신", "class": "생체아민", "role": "marker", "part": "흰살", "content_text": "9개월 냉동 후 59.04 ppm(−18 °C, 초기의 815%), 68.26 ppm(−25 °C, 942%) [22]", "activity_ko": "냉동 저장 중 가장 크게 늘어난 생체아민이었다[22]", "source": [22]},
+ {"name": "Hydroxyproline", "name_ko": "하이드록시프롤린(껍질 콜라겐)", "class": "아미노산(콜라겐 특이)", "role": "bioactive", "part": "껍질 콜라겐", "content_text": "126–138/1000 잔기; 이미노산(Hyp+Pro) 최대 248/1000 잔기(300 W) [5]", "activity_ko": "콜라겐 삼중나선의 열 안정성과 관련된다[5]", "source": [5]},
+ {"name": "Glycine", "name_ko": "글리신(껍질 콜라겐)", "class": "아미노산", "role": "nutrient", "part": "껍질 콜라겐", "content_text": "207–226/1000 잔기 [5]", "activity_ko": "콜라겐 아미노산 중 가장 많았다[5]", "source": [5]},
+ {"name": "Collagen type I", "name_ko": "I형 콜라겐", "class": "구조 단백질", "role": "bioactive", "part": "껍질", "content_text": "펩신 추출 수율 69.26%(건조 중량), 초음파 600 W 보조 시 75.18% [5]", "activity_ko": "α1:α2 사슬 비가 약 2:1인 I형 콜라겐으로 확인되었다[5]", "source": [5]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Docosahexaenoic acid (fatty acid methyl esters)", "compound_ko": "DHA 등 지방산(지방산 메틸에스터)", "part": "등쪽 흰살(앞쪽), 간, 생식소",
+  "content": "근육 DHA 32.4–33.5%(총지방산 대비, 단계별 평균), 16:0 21.2–21.9% [2]", "method": "GC-FID (GC-MS로 피크 확인)",
+  "conditions": {"instrument": "Agilent Technologies 6890N GC, FID, splitless 주입구, Agilent 7683 자동시료주입기; 피크 확인 Finnigan Thermoquest GC-MS(on-column 주입구)",
+   "column": "HP-5 cross-linked methyl silicone fused silica capillary, 원문 표기 '50 x 0.32 mm i.d.'", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "FID",
+   "injection": "splitless", "sample_prep": "시료 약 2 g(근육 0.62–2.18 g) −80 °C 보관 → Bligh & Dyer 추출(dichloromethane:methanol:water 10:20:7.5 mL, 하룻밤) → dichloromethane 10 mL·식염수로 상 분리 → 회전증발·질소 건조; 총지질 일부를 methanol:conc. HCl:dichloromethane(10:1:1) 100 °C 2시간 메틸화 → hexane:dichloromethane(4:1)로 3회 추출",
+   "standard": "피크 면적을 동정된 화합물 합에 대한 비율(%)로 표시; 65개 동정 중 0.8% 넘는 22개 통계 분석", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "DHA는 날개다랑어 근육·간·생식소에서 가장 많은 지방산 중 하나로 영양 가치와 산란 에너지 배분을 보여 주는 지표로 쓰였다[2]. 전문(Methods) 확인 — 승온 조건·운반가스 유속·검출·정량한계·회수율은 본문에 없음[2].",
+  "source": [2], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880344/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Mercury", "compound_ko": "수은(총수은; 카드뮴·납 동시 분석)", "part": "가식 근육(왼쪽 등, 옆줄 위·제1등지느러미 앞)",
+  "content": "북부 0.249–0.938(평균 0.480±0.152), 남동부 0.141–0.753(평균 0.401±0.154) mg/kg 습중량 [3]", "method": "GF-AAS(흑연로 원자흡광, 지만 배경 보정)",
+  "conditions": {"instrument": "PerkinElmer 원자흡광광도계(원문 'Analyst 800'), 횡가열 흑연로(THGA), 종방향 지만 효과 배경 보정, AS-800 자동시료주입기, WinLab32",
+   "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "원자흡광(흑연로)", "injection": "",
+   "sample_prep": "근육 −28 °C 보관 → 약 2 g 균질(IKA T-25) → HNO3-HClO4 혼합산 마이크로파 분해(Questron Q-6000) → 이차 증류 탈이온수로 25 mL 정용; 3반복",
+   "standard": "인증표준물질 DORM-2(Dogfish Muscle, NRC Canada)로 품질관리", "linearity": "", "lod": "Hg 0.6, Cd 0.002, Pb 0.05 µg/kg", "loq": "",
+   "recovery": "DORM-2 회수율 Hg 98.15%, Cd 97.61%, Pb 96.32%; 반복 정밀도 SD 2.5%·3.1%"},
+  "rationale": "날개다랑어는 먹이사슬 꼭대기의 대사율 높은 포식자라 수은이 쌓이기 쉬워, 근육 수은이 소비자 위해 평가와 감시의 핵심 지표로 쓰였다[3]. 전문(Methods) 확인 — 메틸수은 분리 정량은 하지 않았고 검량 범위는 본문에 없음[3].",
+  "source": [3], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6427763/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Crude fat", "compound_ko": "조지방(지방 함량)", "part": "꼬리 쪽 약 10 cm 부위 살(냉동)",
+  "content": "꼬리 단면 1등급 평균 지방: A사 0.11, B사 4.02 g/100 g; 등급 기준 0.7 g 미만·0.7–5.0 g·5.0 g 초과(가식부 100 g당) [4]", "method": "속슬렛 추출(중량법)",
+  "conditions": {"instrument": "속슬렛 추출 장치, 전기 항온 건조기·항온 수조", "column": "", "mobile_phase": "다이에틸 에테르 약 100 mL", "gradient": "", "flow": "", "temp": "", "detection": "중량 측정",
+   "injection": "", "sample_prep": "꼬리 쪽 약 10 cm 부위를 분쇄·균질해 냉동 보관 → 시료에 무수 황산나트륨 2.5 g을 넣어 탈수 → 원통 여과지에 옮김 → 8–16시간 추출 → 플라스크 건조 1시간·데시케이터 1시간 냉각 후 칭량; 반복 수 2",
+   "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "냉동 날개다랑어는 지방 함량이 품질과 값을 정하는 유일한 주 기준이어서, 화학 분석 지방값이 꼬리 단면 판정과 초음파 검사의 정답 기준으로 쓰였다[4]. 전문(Methods) 확인 — 시료 무게·건조·추출 온도는 PMC 본문 추출본에서 숫자가 빠져 있어 확인하지 못함[4].",
+  "source": [4], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11639862/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Histamine", "compound_ko": "히스타민(푸트레신·카다베린·스페르미딘·스페르민 동시 분석)", "part": "흰살",
+  "content": "−18·−25 °C 9개월 냉동 후 히스타민 5 ppm 미만, 푸트레신 59.04·68.26 ppm [22]", "method": "HPLC(선형 기울기 용리)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "선형 기울기 용리(세부 조건 확인 못함)", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "히스타민은 고등어과 어류 식중독의 원인 물질이고 생체아민은 신선도 지표여서, 이 종의 냉동 저장 품질 평가에 HPLC 정량법이 최적화되었다[22, 35]. 초록만 확인 — 전문 확인 못함[22].",
+  "source": [22, 35], "url": "https://doi.org/10.4315/0362-028x-61.5.608", "source_kind": "paper"},
+]
+
+world = [
+ {"country": "그리스(에게해)", "metric": "production_t", "year": 2006, "value": 401, "unit": "톤", "note": "날개다랑어 어획량(논문 서론 인용값)", "source": [3]},
+ {"country": "그리스(에게해)", "metric": "production_t", "year": 2016, "value": 1332, "unit": "톤", "note": "날개다랑어 어획량(논문 서론 인용값)", "source": [3]},
+]
+
+d = {"slug": "thunnus-alalunga", "name_ko": "날개다랑어", "name_en": "Albacore", "scientific_name": "Thunnus alalunga",
+     "aliases": ["Albacore", "Binnaga", "longfin tuna", "albacore tuna"],
+     "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [],
+     "production": [], "world": world, "gi": [], "orgs": [], "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

@@ -1,0 +1,49 @@
+{
+ "slug": "rubus-suavissimus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 63,
+ "checked_items": 58,
+ "verified": 115,
+ "fixed": 5,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "복분자·산딸기·라즈베리·블랙베리 같은 다른 산딸기속 원료는 주로 열매를 쓰는 원료이므로 첨차 잎의 성분·효능 자료와 섞지 않아야 한다[1].",
+   "after": "복분자·라즈베리는 열매, 산딸기·블랙베리는 잎·열매를 사용가능부위로 하는 별개 종의 원료이므로, 첨차 잎의 성분·효능 자료와 섞지 않아야 한다[1].",
+   "why": "I1020 원자료: 산딸기(Rubus crataegifolius)·블랙베리(Rubus fruticosus 등)는 '사용가능부위 : 잎, 열매'로 올라 있어 '주로 열매'는 부정확"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "예를 들어 디하이드로칼콘 감미 성분 트릴로바틴을 내는 '중국 전통 단차' 식물은 루부소사이드를 내는 첨차와 다른 감미 원료로 연구된다[33].",
+   "after": "예를 들어 디하이드로칼콘 감미 성분 트릴로바틴은 'Chinese sweet tea'로도 불리는 Lithocarpus polystachyus의 잎에서 나오는 성분으로, 루부소사이드를 내는 첨차와는 다른 식물이다[33].",
+   "why": "기존 [33](PMID 38338387) 초록은 식물 학명이 빠져 있어 '다른 식물'임을 직접 보이지 못함 — 트릴로바틴의 기원 식물을 Lithocarpus polystachyus 로 명시한 PMID 36150533 로 출처 교체"
+  },
+  {
+   "where": "compounds[Steviolmonoside].content_text",
+   "before": "잎 평균 0.71% w/w, 시료 간 변동 29%(HPLC-PDA)[2]",
+   "after": "잎 평균 0.71% w/w, 시료 간 변동 29%(HPLC-PDA, 논문 본문 수치; 같은 논문의 조성비 '다섯 지표성분 합계 5.9%의 1.4%'로 환산하면 약 0.08%여서 원문 안에서 값이 맞지 않음)[2]",
+   "why": "[2] 전문: 본문은 평균 0.71% w/w 라 쓰지만 같은 논문 조성비(5.9% 중 1.4%)로는 약 0.08% — 원문 내부 불일치를 밝힘"
+  },
+  {
+   "where": "assays[Steviolmonoside].content",
+   "before": "잎 평균 0.71% w/w, 변동 29%[2]",
+   "after": "잎 평균 0.71% w/w(논문 본문 수치; 조성비 5.9%의 1.4%로 환산하면 약 0.08%로 원문 안에서 불일치), 변동 29%[2]",
+   "why": "위와 같음"
+  },
+  {
+   "where": "sources[33]",
+   "before": "Optimizing trilobatin production via screening and modification of glycosyltransferases. Molecules 2024;29(3):643 (PMID 38338387, PMC10856287, doi:10.3390/molecules29030643)",
+   "after": "Trilobatin alleviates non-alcoholic fatty liver disease in high-fat diet plus streptozotocin-induced diabetic mice by suppressing NLRP3 inflammasome activation. Eur J Pharmacol 2022;933:175291 (PMID 36150533, doi:10.1016/j.ejphar.2022.175291)",
+   "why": "트릴로바틴 기원 식물(Lithocarpus polystachyus)을 초록에 명시한 출처로 교체"
+  }
+ ],
+ "unverifiable_notes": [
+  "[8] PMID 29885474 은 Letter 로 초록이 없어 제목 수준(첨차·신선초 UGT 로 루부소사이드 생합성 완성)만 확인",
+  "[2]·[3]·[5] 는 PubMed 도구로 PMC 전문을 열어 HPLC 조건(칼럼·이동상·기울기·유속·온도·주입량·파장·LOD/LOQ·회수율)과 14점 시료·유사도 0.98·6–7월·3월 23%·미토콘드리아 유전체 수치를 대조함",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 첨차잎·첨차추출물·첨차추출분말 3행, 학명 Rubus suavissimus S. Lee, 이명 텐차, '사용가능부위 : 잎', 사용가능 — card.json 과 일치. 장엽복분자열매(Rubus chingii Hu, 열매)도 확인",
+  "[9]·[10]·[12] 등 전문 없는 논문은 초록으로만 대조(시험 이상반응·분석 조건 세부는 확인 불가로 원문에 이미 표기됨)"
+ ]
+}

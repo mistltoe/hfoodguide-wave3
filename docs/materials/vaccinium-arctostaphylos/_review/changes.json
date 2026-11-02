@@ -1,0 +1,110 @@
+[
+ {
+  "where": "sections.overview",
+  "before": "산앵도나무속의 낙엽 관목으로",
+  "after": "산앵도나무속의 관목으로",
+  "why": "'낙엽' 은 [1]·[4] 어디에도 없고, [3] 의 해당 문단은 북극 분포·'Arctic raspberry' 등 다른 식물 설명이 섞여 있어 근거로 쓸 수 없음"
+ },
+ {
+  "where": "sections.history",
+  "before": "이란 전통의학에서는 열매를 향신료이자 약으로 써 왔고[3]",
+  "after": "이란 전통의학에서는 이 식물을 향신료이자 약으로 써 왔다고 하며[3]",
+  "why": "[3] 결론은 부위를 밝히지 않고 'has been used both as a spice and a remedy' 라고만 씀"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "식약처 목록에는 같은 속의 다른 원료(빌베리·덩굴월귤·블루베리·월귤나무·하이부시 블루베리·들쭉나무 등)가 따로 올라 있으므로",
+  "after": "식약처 목록에는 같은 속의 다른 원료(미르틸루스산앵도(V. myrtillus)·덩굴월귤·블루베리·월귤나무열매·High-bush blueberry열매·들쭉나무열매·산앵도나무열매 등)가 따로 올라 있으므로",
+  "why": "I1020 원자료의 실제 대표원료명으로 맞춤(V. myrtillus 는 목록에서 '빌베리'가 아니라 '미르틸루스산앵도')"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "'캅카스 블루베리'라는 이름은 빌베리(V. myrtillus)에도 함께 쓰이므로",
+  "after": "'캅카스 블루베리'라는 이름은 빌베리(V. myrtillus, 목록명 미르틸루스산앵도)에도 함께 쓰이므로",
+  "why": "목록명 병기"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "엽록체 matK·핵 ITS 자료와 위성 반복서열 비교에서 이 종을 포함한 산앵도나무속 4종을 구별할 수 있는 종 특이적 변이가 보고되었다[20].",
+  "after": "이 종을 포함한 산앵도나무속 4종의 위성 반복서열 비교에서 종 특이적 변이가 보고되었다(엽록체 matK·핵 ITS 공개 서열은 계통 관계를 다시 그리는 데만 쓰였다)[20].",
+  "why": "[20] 에서 matK·ITS 는 기존 공개 서열로 계통수를 재계산한 것이고, 종 구별 변이는 위성 반복서열(VaccSat1·5·6)에서 나옴"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "잎 성분을 빌베리 잎과 나란히",
+  "after": "잎 성분을 빌베리(V. myrtillus) 잎과 나란히",
+  "why": "종 명시"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "(없음)",
+  "after": "리뷰[3]의 다른 종(Arctic raspberry, 빌베리 주스 등) 섞임 경고 문단 추가",
+  "why": "[3] 전문 대조 결과 서론·표 2에 다른 종 자료가 섞여 있고, [11] 고찰은 330 mL 주스 시험을 빌베리(V. myrtillus) 시험으로 밝힘"
+ },
+ {
+  "where": "sections.processing",
+  "before": "이란·튀르키예에서는 열매를 생으로 먹거나 말려 쓰고, 말린 잎은 차 대용·절임·수프에 넣는다고 리뷰는 정리한다[3].",
+  "after": "흑해·카스피해 연안(이란 북서부·튀르키예 동부)에서는 말린 잎을 차 대용으로 쓰거나 지역 요리·절임·수프에 넣고, 약용으로는 주로 말린 열매 추출물을 쓴다고 리뷰는 정리한다[3].",
+  "why": "[3] 은 '열매를 생으로 먹는다'고 쓰지 않음; '말린 열매 추출물'을 약용으로 쓴다고 함"
+ },
+ {
+  "where": "sections.processing",
+  "before": "열매 에탄올 추출물의 총페놀은",
+  "after": "에탄올 추출물(초록·제공 전문에 사용 부위 명시 없음)의 총페놀은",
+  "why": "[21] 초록에 부위가 적혀 있지 않음(PMC 전문 본문 미제공)"
+ },
+ {
+  "where": "sections.processing",
+  "before": "초음파로 열매 다당류를 추출하는 조건",
+  "after": "초음파로 이 식물 분말의 다당류를 추출하는 조건",
+  "why": "[22] 초록은 'powdered Vaccinium arctostaphylos' 라고만 하고 부위를 밝히지 않음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "하루 1 g을 90일 먹은 시험, 잎 추출물 350 mg을 하루 3번 2개월 먹은 시험, 다른 약초와 섞은 복합 제제 3개월 시험에서도 간·신장 이상은 보고되지 않았다[14, 15, 28].",
+  "after": "잎 추출물 350 mg을 하루 3번 2개월 먹은 시험과 다른 약초와 섞은 복합 제제 3개월 시험에서도 간·신장 이상은 보고되지 않았다[14, 28]. 하루 1 g을 90일 먹은 시험은 초록에 이상반응·간·신장 결과를 적지 않았다[15].",
+  "why": "[15] 초록에는 안전성(간·신장·이상반응) 결과가 없음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "잎 추출물을 넣은 복합 제제의 4주 시험도 있으나",
+  "after": "잎 추출물이 든 제제의 4주 시험도 있으나",
+  "why": "[27] 은 잎 추출물 제제(복합 여부는 초록상 불분명)"
+ },
+ {
+  "where": "sections.safety",
+  "before": "한 리뷰는 열매 추출물의 쥐 반수치사량(LD50)을 1.732 g/kg으로 인용하며 독성 자료가 부족하다고 지적했다[3].",
+  "after": "한 리뷰는 열매 수알코올 추출물의 반수치사량(LD50)을 1.732 g/kg으로 인용하며(실험동물 종은 적혀 있지 않음) 독성 자료가 부족하다고 지적했다[3].",
+  "why": "[3] 원문은 동물 종을 밝히지 않음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "기존 혈당강하제와 함께 먹은 시험에서 혈당이 더 내려갔으므로",
+  "after": "기존 혈당강하제와 함께 먹은 시험에서 혈당이 더 내려갔으므로[9]",
+  "why": "근거 시험 번호 보강"
+ },
+ {
+  "where": "compounds.Cyanidin.activity_ko",
+  "before": "삼부비오사이드형 이당 배당체가 이 열매의 특징",
+  "after": "삼부비오사이드로 잠정 동정된 이당 배당체가 이 열매의 특징",
+  "why": "[4] 는 'tentatively identified' 라고 씀"
+ },
+ {
+  "where": "compounds.Chlorogenic acid.activity_ko",
+  "before": "쥐 뇌허혈 모델",
+  "after": "동물 뇌허혈(중대뇌동맥 폐색) 모델",
+  "why": "[19] 초록은 동물 종을 밝히지 않음"
+ },
+ {
+  "where": "compounds.Gallic acid.activity_ko",
+  "before": "항산화 페놀산[5]",
+  "after": "열매 하이드록시벤조산 계열 페놀산[5]",
+  "why": "[5] 는 항산화 활성을 시험하지 않음"
+ },
+ {
+  "where": "compounds.Protocatechuic acid.content_text",
+  "before": "열매·잎 LC-MS/MS 분석에서도 검출[23]",
+  "after": "열매·잎 LC-MS/MS 분석 뒤 도킹 대상 성분으로 나열됨[23]",
+  "why": "[23] 초록은 함량 없이 도킹 대상 목록에만 올림"
+ }
+]

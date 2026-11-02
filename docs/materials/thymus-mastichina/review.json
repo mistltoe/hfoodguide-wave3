@@ -1,0 +1,85 @@
+{
+ "slug": "thymus-mastichina",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 58,
+ "checked_items": 50,
+ "verified": 95,
+ "fixed": 11,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "이 종은 건강기능식품 고시형 원료의 원재료로 올라 있지 않으며 ...[1]",
+   "after": "이 목록은 일반 식품원료 목록이므로 건강기능식품 원료 지위의 근거는 아니며, 고시형 원료 기록은 확인하지 못함",
+   "why": "[1](I1020 식품원료 목록)은 건강기능식품 지위를 말하지 않음; 로컬 hf_items.csv 에도 백리향속 품목 없음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "잎과 꽃을 증류한 정유는",
+   "after": "지상부를 증류한 정유는",
+   "why": "[2]는 개화기 지상부를 물 증류함"
+  },
+  {
+   "where": "sections.history",
+   "before": "포르투갈산 정유 연구는 1997년의 광범위한 조사를 비롯해 2000년대 전후에 많이 이루어졌고[5]",
+   "after": "연구는 많지 않아 1997년 가장 포괄적 조사와 2000년대 초 몇 편 탐색 연구가 있는 정도[5]",
+   "why": "[5] 서론은 'a few explorative works'라고 씀"
+  },
+  {
+   "where": "sections.biology",
+   "before": "잎과 꽃에 있는 분비 구조에서 휘발성 테르펜이 만들어지며",
+   "after": "정유는 휘발성 테르펜의 복잡한 혼합물이며",
+   "why": "[2]에 분비 구조 언급 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 조건에서 키운 백리향속 여러 종의 폴리페놀을 비교한 연구에서도 종마다 조성이 달랐다[8]",
+   "after": "같은 조건에서 함께 비교한 연구가 있으며 레몬타임과 타임의 조성이 비슷했다[8]",
+   "why": "[8] 초록은 종별 차이가 아니라 T. citriodorus·T. vulgaris 유사성을 보고"
+  },
+  {
+   "where": "sections.processing",
+   "before": "식품 부패균·병원균에 대한 항균 소재로도 검토되어 ... 가장 강한 편[24]",
+   "after": "시판 정유 6종 비교에서 페니로열민트 정유와 함께 항균 활성이 가장 강했고 식품·의약 소재 후보로 제시[24]",
+   "why": "[24] 초록에 '식품 부패균·병원균' 표현 없음"
+  },
+  {
+   "where": "compounds[1,8-Cineole].activity_ko",
+   "before": "... 포르투갈산 정유는 비교한 6종 가운데 NO 라디칼 소거가 큰 편[21]",
+   "after": "AChE 억제만 남기고 [21] 내용은 processing 본문의 정유 수준 문장으로 옮김",
+   "why": "[21]은 정유 전체 결과이지 1,8-시네올 단일 성분 결과가 아님"
+  },
+  {
+   "where": "sections.safety",
+   "before": "포르투갈 알렌테주산 정유가 생쥐에서 독성이 매우 낮았고(LD50 1500 mg/kg 이상)",
+   "after": "세 종 정유를 함께 평가한 결과(LD50 1500 mg/kg 이상, 세 정유 묶음 결과)임을 명시",
+   "why": "[6] 초록은 칼라민타·오레가노 근연종과 묶은 수치"
+  },
+  {
+   "where": "sections.safety",
+   "before": "중금속(Cr·Mn·Zn 등)을 잎에 비교적 많이 축적하는 종",
+   "after": "9종 중 금속 축적·이행·생물농축이 가장 큰 네 종에 들고 Cr·Mn·Zn 오염 토양 정화 후보로 제시",
+   "why": "[20] 초록 표현에 맞춤"
+  },
+  {
+   "where": "assays[1,8-Cineole].part",
+   "before": "스페인 무르시아 4개 산지",
+   "after": "3개 산지(생물기후대 3곳)의 정유 4종",
+   "why": "[2] TmEO-1·3 은 같은 산지(Caravaca)"
+  },
+  {
+   "where": "assays[1,8-Cineole].conditions.detection",
+   "before": "정량 이온(1,8-시네올 m/z 43·81·108 등)",
+   "after": "확인·정량 이온(정량 이온은 본문 추출에서 확인 못함)",
+   "why": "[2] 표 1 의 43·81·108 은 확인 이온이고 정량 이온은 굵은 글씨로만 표시"
+  }
+ ],
+ "unverifiable_notes": [
+  "[9]·[10]은 초록만으로 대조(전문 미확인)",
+  "[2] 검량선 변수(S1 Table)와 [3]·[4] 성분별 표 수치는 본문 추출에 없어 확인하지 못함",
+  "식품원료 지위는 로컬 I1020_20261013.json 의 '마스티키나백리향잎(Thymus mastichina L.)' 행(식품원료 A코드, 사용가능, 사용가능부위: 잎)과 일치 확인; 타임·백리향 등 같은 속 행은 별개로 섞이지 않음",
+  "[2]·[3]·[4]·[5] 는 PMC 전문, 나머지는 PubMed 초록으로 대조"
+ ]
+}

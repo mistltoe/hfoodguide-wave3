@@ -1,0 +1,574 @@
+{
+ "slug": "amaranthus-palmeri",
+ "name_ko": "긴이삭비름",
+ "name_en": "Palmer amaranth (careless weed)",
+ "scientific_name": "Amaranthus palmeri S.Watson",
+ "aliases": [
+  "긴이삭비름잎",
+  "긴이삭비름씨앗",
+  "Palmer amaranth",
+  "Palmers amaranth",
+  "Careless weed",
+  "Amaranthus palmeri"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "긴이삭비름(Amaranthus palmeri S.Watson)은 비름과 비름속의 한해살이풀로, 영어로는 Palmer amaranth 또는 careless weed라고 부른다[1, 3]. 미국 남서부 소노라 사막의 여름 한해살이 C4 식물로 연구되었고, 원래 미국 남서부에 자생하다가 미국 전역으로 퍼졌다[3, 24].\n\n식약처 「식품원료 목록」에는 긴이삭비름씨앗과 긴이삭비름잎 두 원료명이 식품원료(A코드)로 올라 있다[1]. 두 행 모두 사용 조건은 '사용가능'이고 조건 내용은 '사용가능부위 : 잎, 씨앗'이므로, 잎과 씨앗을 일반 식품 원료로 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료나 개별인정 원료는 목록에서 찾지 못했다[1].\n\n한편 이 종은 미국·유럽·중국 농경지에서 여러 제초제에 저항성을 보이는 대표 잡초로 연구가 집중되어 있다[4, 20, 21]. 그래서 공개 논문 대부분은 식품 성분이 아니라 제초제 저항성·유전체·생리 연구이며, 식품 영양 성분을 정량한 자료는 확인하지 못함. 같은 속의 아마란스 곡물(A. hypochondriacus 등)이나 비름나물(A. mangostanus)은 식약처 목록에서 다른 원료로 따로 올라 있어 이 문서의 자료와 섞지 않았다[2]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "미국 뉴멕시코 주립대 협동지도국 안내서에 아메리카 원주민 여러 부족이 긴이삭비름 잎을 굽거나 삶아 먹고, 씨앗을 갈아 가루로 먹었다는 기술이 있다고 검색 요약에 나오지만 원문을 열지 못해 세부는 확인하지 못함[29]. 이 내용은 WebSearch 요약으로만 본 것이어서 부족 이름이나 조리법은 이 문서에 옮기지 않았다[29].\n\n현대에 와서 이 종은 식용보다 미국에서 가장 흔하고 골칫거리인 잡초의 하나로 더 알려졌다[25]. 글리포세이트 저항성 개체군은 2004년에 확인되었다는 기술과 2006년 첫 보고 이후 28개 주로 퍼졌다는 기술이 있어 출처마다 연도가 다르다[24, 23]. 미국 조지아주 저항성 개체군에서는 2010년 EPSPS 유전자 증폭이 저항성의 원인으로 밝혀졌다[4].\n\n스페인에서는 2007년 카탈루냐 레리다 지방에서 처음 정착이 확인된 뒤 다른 지역 옥수수밭으로 퍼졌다[21]. 중국에서도 침입 잡초로 다루어지며, 글리포세이트 저항성 판별법이 개발되었다[20]. 씨앗 수용성 추출물을 유지 효모의 배양 원료로 써서 바이오디젤 원료 지질을 얻는 시험이 있었으나 식품 용도는 아니다[27]. 국내 식품 이용 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "긴이삭비름은 암그루와 수그루가 따로 있는 자웅이주 식물이다[15, 17]. 암꽃은 암술대 2–3개, 씨방 1개(밑씨 1개), 끝이 둔한 화피 5장을 갖고, 수꽃은 수술 5개와 끝이 뾰족한 화피 5장을 갖는다[17]. 꽃 발달은 10단계로 나뉘며, 수꽃은 초기에 암수 기관을 함께 만들다가 암술 원기가 자라지 않는다[17].\n\n국내 비름속 검색표에서는 꽃차례 길이 20–50 cm, 작은포엽이 화피보다 2–3배 긴 점으로 구별한다고 검색 요약에 나오지만 원문은 확인하지 못함[33].\n\n소노라 사막 연구에서 물이 충분할 때 광합성 능력은 70 μmol CO2 m⁻² s⁻¹를 넘었고, 잎 온도 최적점은 42 °C였다[3]. 잎은 해를 따라 움직이며, 가뭄 동안 잎 수분퍼텐셜 약 −2.9 MPa까지 삼투 조절로 기체 교환을 유지했다[3]. 빠른 생장, 많은 씨앗 생산, 높은 적응력이 잡초성의 바탕으로 꼽힌다[21, 22].\n\n수그루가 먼저 꽃눈을 만들지만 꽃가루받이 시기(개화)는 암그루가 앞섰고, 물 부족은 수그루 개화를 더 늦춰 암수 개화 차이를 7일 늘렸다[18]. 질소·인·칼륨 결핍에서는 암그루 줄기(꽃차례 포함)의 무기질 함량이 수그루보다 높았다[9]."
+  },
+  {
+   "key": "related_species",
+   "title": "같은 속의 다른 종",
+   "body": "식약처 목록에는 비름속 여러 종이 각각 다른 원료명으로 올라 있다[2]. 아마란스(A. hypochondriacus·A. cruentus·A. caudatus 등)는 잎·씨앗, 비름(A. mangostanus)은 순, 긴털비름(A. hybridus)·가시비름(A. spinosus)·청비름(A. viridis)·A. dubius는 잎·씨앗이 사용가능 부위다[2]. 긴이삭비름은 이들과 별개의 원료로 등재되어 있다[1, 2].\n\n유전체 비교에서 Acnida 아속에 속하는 자웅이주 비름류는 따로 계통군을 이루었다[28]. 긴이삭비름 유전체는 A. hypochondriacus와 비교해 중복·전좌 같은 재배열 부위가 확인되었다[14].\n\n긴이삭비름은 같은 자웅이주 잡초인 워터헴프(A. tuberculatus)와 잡종을 만든다[16]. F1 잡종(A. tuberculatus 2n=32 × A. palmeri 2n=34)의 뿌리끝에서는 2n=33과 2n=66 세포가 함께 보였다[16]. 종간 잡종을 통해 eccDNA에 실린 제초제 저항성이 퍼지는 현상도 보고되었다[35]. 다른 비름속 종의 영양·성분 자료는 이 문서에 넣지 않았다[2]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생태",
+   "body": "긴이삭비름을 식용 작물로 재배한 국내외 통계나 재배 기술 자료는 확인하지 못함. 연구는 대부분 농경지 잡초로서의 생태와 방제에 관한 것이다[19, 22].\n\n미시시피주 시험에서 가을·겨울 3, 4, 5개월 담수는 지표의 씨앗 발아를 각각 10, 10, 14%포인트 줄였고, 15 cm 깊이에 묻힌 씨앗은 36, 40, 41%포인트 줄였다[19]. 사양토에서는 미사양토보다 씨앗 손상이 컸다[19]. 이처럼 토양 씨앗은행을 줄이는 경종적 방법이 제초제 저항성 개체군 관리에 쓰인다[19].\n\n중국 북부(징진지 지역)에서는 침입한 긴이삭비름 군락 22곳과 자생 식물 22곳의 뿌리권 미생물을 비교했더니 세균 군집 구성이 크게 달랐다[31]. 미세플라스틱을 넣은 침입 식물 군락 실험에서는 높은 농도에서 긴이삭비름의 생태적 지위 폭이 줄었다[30].\n\n스페인 아라곤의 5개 개체군 중 한 곳은 EPSPS 증폭으로 글리포세이트에 중간 저항성을 보였고, 세 곳에서는 ALS 유전자 Trp574Leu 변이가 개체의 약 절반에서 나왔다[21]. 유럽에서는 스페인이 제초제 저항성 잡초 피해가 가장 큰 나라로 소개되었다[34]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록상 긴이삭비름은 잎과 씨앗 그대로의 원료명(긴이삭비름잎·긴이삭비름씨앗)만 있고, 분말·추출물 같은 가공 원료명은 없다[1]. 식약처 「식품 등의 생산실적」 품목 표에서 긴이삭비름을 원료로 한 건강기능식품 생산 기록은 찾지 못했고, 국내 가공 제품 현황도 확인하지 못함.\n\n식품 외 이용으로는 씨앗 수용성 추출물(AAE)을 효모 Cryptococcus vishniaccii의 배양 배지로 쓴 연구가 있다[27]. 탄소·질소 비를 134에서 147로 높였을 때 바이오매스 생산성 104 mg/L/h, 지질 생산성 54 mg/L/h, 지질 함량 52.31%를 얻었다[27]. 이 지질의 지방산 조성(단일불포화 68.17%)은 효모가 만든 지질의 값이라 씨앗 자체의 지방산 조성으로 볼 수 없다[27].\n\n잎 성분 분석은 대부분 제초제 반응 연구에서 나왔다[6, 8]. 잎 0.1 g을 80% 메탄올로 추출해 GC–MS와 LC–MS로 대사체를 보았고, 아미노산은 1 M 염산 추출 후 모세관 전기영동으로 측정했다[6, 8]. 조리·건조 등 식품 가공에 따른 성분 변화 자료는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 제초제 저항성",
+   "body": "긴이삭비름은 2배체로 염색체 수는 2n=34다[16]. 장독 서열과 염색질 접촉 지도로 만든 초안 유전체는 스캐폴드 N50이 20.1 Mb로 거의 염색체 수준이다[14]. 수컷과 암컷 풀(pool)을 비교해 수컷 특이 서열 약 2 Mb를 모았고, XY형 성 결정과 젊은 Y 염색체를 제안했다[15].\n\n글리포세이트 저항성 개체는 감수성 개체보다 EPSPS 유전자를 5배에서 160배 넘게 더 가졌고, 복제 수에 비례해 발현과 단백질이 늘었다[4]. 증폭된 EPSPS는 약 400 kb 크기의 염색체 밖 원형 DNA(eccDNA)에 실려 있으며, 이 원형 DNA에는 EPSPS 외 유전자 58개가 함께 있다[5]. 이 eccDNA는 체세포 분열과 감수 분열 때 염색체에 붙어 자손으로 전해진다[32]. 미국 여러 주의 저항성 개체군은 이 복제체 서열이 거의 같아 한 곳에서 생겨 퍼졌을 가능성이 크다[23].\n\n최근에는 EPSPS와 글루포시네이트 표적인 GS2 유전자를 함께 실은 재배열 eccDNA가 두 제초제 저항성을 함께 준다고 보고되었다[26]. ALS 저해제 저항성은 Trp574Leu 변이가 주된 원인이었다[25]. 글리포세이트 저항성 개체군의 EPSPS 복제 수 증가는 비처리 상태의 방향족 아미노산 합성 경로 유전자 발현에 큰 영향을 주지 않았다[8]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 목록에서 긴이삭비름 잎과 씨앗은 '사용가능' 원료이며 조건은 '사용가능부위 : 잎, 씨앗'이다[1]. 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 국내 공공기관의 잔류농약·알레르기 경고 자료는 확인하지 못함.\n\n[질산염·옥살산] 휴대용 라만 분광 분석에서 잎의 질산염 신호가 보였고, 수그루가 암그루보다 질산염·지질·카로티노이드·테르페노이드 신호가 높았다[10]. 이 종 잎의 질산염·옥살산 함량을 정량한 자료는 확인하지 못함. 질소가 많은 땅에서 잘 자란다는 기술이 있다[9]. 가축 질산염 중독·옥살산 경고는 WebSearch 요약에서만 보았고 원문을 열지 못해 확인하지 못함.\n\n[알레르기] 꽃가루의 14 kDa 프로필린은 알레르기 환자 혈청의 약 60%가 IgE로 인식했다[11]. 꽃가루 칼모듈린은 긴이삭비름 꽃가루 알레르기 환자의 56%가 피부단자시험에 반응했다[12]. 멕시코 서부 노인 환자에서는 집먼지진드기·물푸레나무속과 함께 가장 흔한 감작원이었다[13].\n\n[제초제 저항성] 저항성 개체는 권장 약량의 글리포세이트를 맞아도 살아남는다[4, 8]. 이런 밭에서 채취한 잎의 제초제 잔류량 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴(및 유도체)",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "LC–MS 상대 강도만 보고(절대 함량 없음); 글리포세이트 처리 시 저항성 개체군에서만 용량 의존적으로 감소[6]",
+   "activity_ko": "활성산소 소거에 효과적인 성분으로 소개; 제초제 스트레스 반응과 관련 가능성[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Ferulic acid",
+   "name_ko": "페룰산(및 유도체)",
+   "class": "페닐프로파노이드(히드록시신남산)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "LC–MS 상대 강도만 보고; 글리포세이트 처리 시 감수성·저항성 개체군 모두에서 용량 의존적으로 증가[6]; 저항성 생물형에서 페룰산 유도체가 우선 축적[7]",
+   "activity_ko": "가뭄 스트레스 저항성 지표로 제안된 성분[6]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Cinnamic acid",
+   "name_ko": "신남산",
+   "class": "페닐프로파노이드",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "LC–MS 상대 강도만 보고; 글리포세이트 처리 후 증가[6]",
+   "activity_ko": "페닐알라닌에서 PAL 효소로 만들어지는 페닐프로파노이드 전구체[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Shikimic acid",
+   "name_ko": "시킴산",
+   "class": "유기산(시킴산 경로 중간체)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "비처리 식물에서는 거의 무시할 수준; 글리포세이트 처리 후 감수성 개체군에서 저항성보다 유의하게 많이 축적(분광광도법)[8]; 치사 약량에서 GC–MS 상대 강도 크게 증가[6]",
+   "activity_ko": "글리포세이트 감수성 판정 지표(제초제 저항성 연구용, 식품 기능성 아님)[6, 8]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "Chlorophyll a",
+   "name_ko": "엽록소 a",
+   "class": "테트라피롤 색소",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "비처리 수그루 31.7, 암그루 32.5(SPAD-502 값을 식으로 환산; 전문 추출본의 단위 표기는 'mg cm'로 보이나 지수 부분 확인 못함)[9]",
+   "activity_ko": "광합성 색소; 질소 결핍·강광에서 감소[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Chlorophyll b",
+   "name_ko": "엽록소 b",
+   "class": "테트라피롤 색소",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "비처리 수그루 9.97, 암그루 10.25(SPAD 환산값, 단위 표기는 엽록소 a와 같음)[9]",
+   "activity_ko": "광합성 색소; 암수 간 차이는 강광·성숙기에만 작게 나타남[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "L-Phenylalanine",
+   "name_ko": "페닐알라닌",
+   "class": "방향족 아미노산",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "수치는 그림으로만 제시(확인 못함); 비처리 상태에서 감수성·저항성 개체군이 비슷하고 글리포세이트 처리 후 증가[8, 6]",
+   "activity_ko": "필수 아미노산, 페닐프로파노이드·플라보노이드의 전구체[8]",
+   "source": [
+    8,
+    6
+   ]
+  },
+  {
+   "name": "L-Tyrosine",
+   "name_ko": "티로신",
+   "class": "방향족 아미노산",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "수치는 그림으로만 제시(확인 못함); 글리포세이트 처리 후 감수성 개체군에서 유의하게 증가[8]",
+   "activity_ko": "단백질 구성 아미노산[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "L-Tryptophan",
+   "name_ko": "트립토판",
+   "class": "방향족 아미노산",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "수치는 그림으로만 제시(확인 못함); 저항성 개체군에서 3배 약량 처리 시 가장 크게 증가[8]",
+   "activity_ko": "필수 아미노산[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Nitrate",
+   "name_ko": "질산염",
+   "class": "무기 음이온",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "라만 분광 신호로 검출(정량값 없음); 수그루가 암그루보다 높음[10]; 정량 함량은 확인하지 못함",
+   "activity_ko": "잎에 축적될 수 있는 무기질소 형태로, 식품·사료 안전에서 관리 대상(이 종의 정량 자료는 확인하지 못함)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Carotenoids",
+   "name_ko": "카로티노이드",
+   "class": "테트라테르페노이드 색소",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "라만 분광 신호로 검출(정량값 없음); 수그루가 암그루보다 높음[10]",
+   "activity_ko": "광합성 보조 색소, 항산화 성분군[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Abscisic acid",
+   "name_ko": "앱시스산",
+   "class": "식물호르몬(세스퀴테르페노이드)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "LC–MS 상대 강도만 보고; 글리포세이트 처리 후 두 개체군 모두 증가[6]",
+   "activity_ko": "비생물 스트레스·휴면·씨앗 발달 조절 호르몬[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Profilin",
+   "name_ko": "프로필린(꽃가루 알레르겐)",
+   "class": "단백질(범알레르겐)",
+   "role": "bioactive",
+   "part": "꽃가루",
+   "content_text": "분자량 14 kDa(SDS-PAGE); 알레르기 환자 혈청 약 60%가 IgE로 인식[11]",
+   "activity_ko": "꽃가루 주요 알레르겐, 다른 식물 꽃가루·식물성 식품과 교차반응 가능성이 있는 범알레르겐[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Calmodulin",
+   "name_ko": "칼모듈린(꽃가루 알레르겐)",
+   "class": "칼슘 결합 단백질",
+   "role": "bioactive",
+   "part": "꽃가루",
+   "content_text": "분리 칼모듈린에 꽃가루 알레르기 환자 56%가 피부단자시험 양성[12]",
+   "activity_ko": "임상적으로 의미 있는 꽃가루 알레르겐 후보[12]",
+   "source": [
+    12
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin",
+   "compound_ko": "퀘르세틴 및 유도체(페놀성 대사체 일괄 프로파일링)",
+   "part": "잎(수경 재배 3주 묘, 처리 3일 뒤 채취)",
+   "content": "절대 함량 없음 — 상대 강도 비교만 보고(글리포세이트 처리 저항성 개체군에서 감소)[6]",
+   "method": "UPLC/ESI-QToF-MS(비표적 대사체 분석)",
+   "conditions": {
+    "instrument": "Waters Acquity UPLC + Bruker MicrOTOF-QII 하이브리드 사중극자-비행시간 질량분석기",
+    "column": "HSS T3(100 mm × 1.0 mm)",
+    "mobile_phase": "용매 A: 0.1% 포름산 수용액(용매 B와 기울기는 원문에 없음)",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "ESI 양이온 모드; 네뷸라이저 질소 1.6 bar, 건조가스 질소 6 L/min·190 °C, 캐필러리 4000 V, end plate offset 500 V, 충돌가스 아르곤, 충돌 에너지 5 eV, 스펙트럼 3 Hz, centroid 모드",
+    "injection": "",
+    "sample_prep": "동결 분쇄 잎 0.1 g에 80% 메탄올(리비톨 100 µM, 키네틴·바이오카닌 A·IAA-발린 각 5 µM 내부표준 포함) 500 µL로 비드 균질화·진탕·초음파 추출, 2회 추출 상등액 합침; 추출액 80%에 용매 A 20%를 섞어 −20 °C 하룻밤 둔 뒤 원심분리",
+    "standard": "분석 표준품의 머무름 시간과 정밀 질량으로 동정(MetaboScape 4.0 처리)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 잎의 플라보노이드·페닐프로파노이드 반응을 본 연구로, 퀘르세틴 유도체와 페룰산 유도체가 처리에 따라 달라진 대표 2차 대사체였다; 식품 지표성분으로 공인된 것은 아니며 절대 정량이 아니다[6]",
+   "source": [
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10058430/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "L-Phenylalanine",
+   "compound_ko": "방향족 아미노산(페닐알라닌·티로신·트립토판)",
+   "part": "잎(수경 재배 3주 묘, BBCH 14, 처리 3일 뒤 채취)",
+   "content": "수치는 그림(평균 ± SE, n=4)으로만 제시되어 확인 못함[8]",
+   "method": "모세관 전기영동–레이저 유도 형광(CE-LIF)",
+   "conditions": {
+    "instrument": "모세관 전기영동–레이저 유도 형광 검출기(기종은 원문 인용 문헌에 있음)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "20 °C",
+    "detection": "레이저 유도 형광(FITC 유도체); 전압 +30 kV, 트립토판은 분리를 위해 +20 kV",
+    "injection": "",
+    "sample_prep": "분쇄 잎 0.1 g을 1 M HCl로 균질화해 아미노산 추출, 얼음 위 방치·원심분리로 단백질 침전 후 플루오레세인 이소티오시아네이트(FITC)로 유도체화",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "EPSPS 증폭·글리포세이트가 시킴산 경로 최종 산물에 주는 영향을 보려고 잎의 유리 방향족 아미노산을 정량했다(영양 지표 목적은 아님)[8]",
+   "source": [
+    8
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5696356/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Nitrogen",
+   "compound_ko": "무기질(질소·인·칼륨·칼슘·마그네슘·황·철·구리·아연·망간·붕소)",
+   "part": "잎과 줄기(꽃차례 포함), 수확기(휴면 전) 암수 각 5개체",
+   "content": "개별 수치는 본문 표에 있어 추출 텍스트에서 확인 못함; 비처리 암수 간 차이 없음(P = 0.451), 결핍 조건 암그루 줄기가 잎보다 8.4·3.3·5.7배(N·P·K 결핍)[9]",
+   "method": "ICP 발광분광법(무기질) + 연소법(질소)",
+   "conditions": {
+    "instrument": "유도결합 아르곤 플라스마(ICP) 발광분광기; 질소는 연소 분석",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "ICP 발광",
+    "injection": "",
+    "sample_prep": "잎·줄기를 70 °C 송풍 건조기에서 48시간 건조·분쇄 후 HNO3/과산화수소 hot block 분해",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "암수 그루의 무기질 축적 차이를 보려고 잎·줄기 무기질을 정량했다; 결과는 건물 µg/g으로 표기되었다[9]",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423251/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 긴이삭비름 2개 원료명 행: 긴이삭비름씨앗(부위 씨앗)·긴이삭비름잎(부위 잎). 대분류 식품원료(A코드), 중분류 식물, 학명 Amaranthus palmeri S.Watson, 영문명 'Careless weed, Palmers amaranth', 다른 이름 없음, 사용 조건 '사용가능', 조건 내용 '사용가능부위 : 잎, 씨앗'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속(Amaranthus) 다른 원료 행: 아마란스(A. hypochondriacus / A. cruentus / A. caudatus / A. edulis / A. hybridus L.; 사용가능부위 : 잎, 씨앗)·비름(A. mangostanus L.; 사용가능부위 : 순)·긴털비름(A. hybridus L.)·가시비름(A. spinosus L.)·청비름(A. viridis)·미국비름(A. albus)·개비름(A. lividus L.; 잎)·눈비름(A. deflexus L.; 순)·A. dubius·Powells amaranth(A. powellii) 등, 모두 사용가능. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Ehleringer J. Ecophysiology of Amaranthus palmeri, a Sonoran desert summer annual. Oecologia 1983;57(1-2):107-112 (PMID 28310163, doi:10.1007/BF00379568; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28310163/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Gene amplification confers glyphosate resistance in Amaranthus palmeri. Proc Natl Acad Sci U S A 2010;107(3):1029-34 (PMID 20018685, PMC2824275, doi:10.1073/pnas.0906649107; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20018685/",
+   "publisher": "National Academy of Sciences / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "The EccDNA Replicon: A Heritable, Extranuclear Vehicle That Enables Gene Amplification and Glyphosate Resistance in Amaranthus palmeri. Plant Cell 2020;32(7):2132-2140 (PMID 32327538, PMC7346551, doi:10.1105/tpc.20.00099; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32327538/",
+   "publisher": "American Society of Plant Biologists / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Unravelling the Phytotoxic Effects of Glyphosate on Sensitive and Resistant Amaranthus palmeri Populations by GC–MS and LC–MS Metabolic Profiling. Plants (Basel) 2023;12(6):1345 (PMID 36987034, PMC10058430, doi:10.3390/plants12061345; PMC 전문 확인 — PubMed 도구)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10058430/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Global Metabolome of Palmer Amaranth (Amaranthus palmeri) Populations Highlights the Specificity and Inducibility of Phytochemical Responses to Abiotic Stress. J Agric Food Chem 2023 (PMID 36780332, doi:10.1021/acs.jafc.2c07162; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36780332/",
+   "publisher": "American Chemical Society / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Effects of EPSPS Copy Number Variation (CNV) and Glyphosate Application on the Aromatic and Branched Chain Amino Acid Synthesis Pathways in Amaranthus palmeri. Front Plant Sci 2017;8:1970 (PMID 29201035, PMC5696356, doi:10.3389/fpls.2017.01970; PMC 전문 확인 — PubMed 도구)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5696356/",
+   "publisher": "Frontiers / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Evaluation of secondary sexual dimorphism of the dioecious Amaranthus palmeri under abiotic stress. Sci Rep 2023;13:13156 (PMID 37573387, PMC10423251, doi:10.1038/s41598-023-40453-6; PMC 전문 확인 — PubMed 도구)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10423251/",
+   "publisher": "Springer Nature / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Elucidation of sex from mature Palmer amaranth (Amaranthus palmeri) leaves using a portable Raman spectrometer. RSC Adv 2024;14(3):1833-1837 (PMID 38192310, PMC10772952, doi:10.1039/d3ra06368b; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38192310/",
+   "publisher": "Royal Society of Chemistry / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Major allergen from Amaranthus palmeri pollen is a profilin: Isolation, partial characterisation and IgE recognition. Allergol Immunopathol 2016;44(2):160-6 (PMID 26316420, doi:10.1016/j.aller.2015.05.002; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26316420/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Identification of an allergenic calmodulin from Amaranthus palmeri pollen. Mol Immunol 2021;132:150-156 (PMID 33592570, doi:10.1016/j.molimm.2021.01.031; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33592570/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "[Prevalence of Sensitization to the Most Common allergens in Elderly Patients from the Western of Mexico]. Rev Alerg Mex 2012;59(3):131-8 (PMID 24007989; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24007989/",
+   "publisher": "Colegio Mexicano de Inmunología Clínica y Alergia / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Draft Genomes of Amaranthus tuberculatus, Amaranthus hybridus, and Amaranthus palmeri. Genome Biol Evol 2020;12(11):1988-1993 (PMID 32835372, PMC7643611, doi:10.1093/gbe/evaa177; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32835372/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Male Linked Genomic Region Determines Sex in Dioecious Amaranthus palmeri. J Hered 2020;111(7):606-612 (PMID 33340320, PMC7846199, doi:10.1093/jhered/esaa047; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33340320/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Aneusomaty in glyphosate-resistant Amaranthus palmeri and its hybrid with Amaranthus tuberculatus. Genes Genomics 2025;47(9):953-960 (PMID 40707770, doi:10.1007/s13258-025-01662-7; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40707770/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Comparative floral development in male and female plants of Palmer amaranth (Amaranthus palmeri). Am J Bot 2023;110(8):e16212 (PMID 37459554, doi:10.1002/ajb2.16212; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37459554/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Sex dimorphism in dioecious Palmer amaranth (Amaranthus palmeri) in response to water stress. Planta 2021;254(1):17 (PMID 34185182, PMC8241796, doi:10.1007/s00425-021-03664-7; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34185182/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Influence of flooding period and seed burial depth on Palmer amaranth (Amaranthus palmeri) seed germination. Pest Manag Sci 2020;76(11):3832-3837 (PMID 32472730, doi:10.1002/ps.5934; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32472730/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Reliable and rapid identification of glyphosate-resistance in the invasive weed Amaranthus palmeri in China. Pest Manag Sci 2022;78(6):2173-2182 (PMID 35191163, doi:10.1002/ps.6843; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35191163/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Resistance to Amino Acid Biosynthesis Inhibiting-Herbicides in Amaranthus palmeri Populations from Aragon (Spain). Plants (Basel) 2025;14(10):1505 (PMID 40431070, PMC12115111, doi:10.3390/plants14101505; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40431070/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Herbicide resistance evolution, fitness cost, and the fear of the superweeds. Plant Sci 2023;339:111934 (PMID 38036222, doi:10.1016/j.plantsci.2023.111934; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38036222/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Homogeneity among glyphosate-resistant Amaranthus palmeri in geographically distant locations. PLoS One 2020;15(9):e0233813 (PMID 32903277, PMC7480871, doi:10.1371/journal.pone.0233813; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32903277/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Population Genetic Structure in Glyphosate-Resistant and -Susceptible Palmer Amaranth (Amaranthus palmeri) Populations Using Genotyping-by-sequencing (GBS). Front Plant Sci 2018;9:29 (PMID 29422910, PMC5788914, doi:10.3389/fpls.2018.00029; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29422910/",
+   "publisher": "Frontiers / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Target-site mutation accumulation among ALS inhibitor-resistant Palmer amaranth. Pest Manag Sci 2019;75(4):1131-1139 (PMID 30298618, doi:10.1002/ps.5232; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30298618/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "A rearranged Amaranthus palmeri extrachromosomal circular DNA confers resistance to glyphosate and glufosinate. Plant Cell 2025;37(4) (PMID 40152451, PMC11985328, doi:10.1093/plcell/koaf069; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40152451/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Amaranth seeds (Amaranthus palmeri L.) as novel feedstock for biodiesel production by oleaginous yeast. Environ Sci Pollut Res Int 2018;25(1):353-362 (PMID 29039037, doi:10.1007/s11356-017-0444-x; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29039037/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Genome-Wide Comparative Analysis of Five Amaranthaceae Species Reveals a Large Amount of Repeat Content. Plants (Basel) 2024;13(6):824 (PMID 38592842, PMC10975975, doi:10.3390/plants13060824; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38592842/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "New Mexico State University Cooperative Extension Service, Guide A-617 'Palmer Amaranth Biology and Management' — 원문을 열지 못함(네트워크 허용 목록 밖). 아메리카 원주민의 잎·씨앗 식용 기술은 WebSearch 요약으로만 확인",
+   "url": "https://pubs.nmsu.edu/_a/A617/",
+   "publisher": "New Mexico State University",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Microplastics could alter invasive plant community performance and the dominance of Amaranthus palmeri. Sci Total Environ 2024;912:169275 (PMID 38086482, doi:10.1016/j.scitotenv.2023.169275; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38086482/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Changes in the structure and function of rhizosphere soil microbial communities induced by Amaranthus palmeri invasion. Front Microbiol 2023;14:1114388 (PMID 37056750, PMC10089265, doi:10.3389/fmicb.2023.1114388; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37056750/",
+   "publisher": "Frontiers / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Extrachromosomal circular DNA-based amplification and transmission of herbicide resistance in crop weed Amaranthus palmeri. Proc Natl Acad Sci U S A 2018;115(13):3332-3337 (PMID 29531028, PMC5879691, doi:10.1073/pnas.1719354115; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29531028/",
+   "publisher": "National Academy of Sciences / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "한국식물분류학회지 게재 비름속 귀화식물 보고 논문(JAKO201419640882141)의 국내 비름속 검색표 — 긴이삭비름(A. palmeri) 구별 형질. 원문을 열지 못함(koreascience 네트워크 허용 목록 밖), WebSearch 요약으로만 확인",
+   "url": "https://koreascience.kr/article/JAKO201419640882141.pdf",
+   "publisher": "한국식물분류학회 / KoreaScience",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Herbicide Resistance Is Increasing in Spain: Concomitant Management and Prevention. Plants (Basel) 2023;12(3):469 (PMID 36771549, PMC9920091, doi:10.3390/plants12030469; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36771549/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Extrachromosomal circular DNA-mediated spread of herbicide resistance in interspecific hybrids of pigweed. Plant Physiol 2023 (PMID 37186777, PMC10469533, doi:10.1093/plphys/kiad281; 제목·서지 확인, 초록 미확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37186777/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
