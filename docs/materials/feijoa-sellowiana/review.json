@@ -1,0 +1,116 @@
+{
+ "slug": "feijoa-sellowiana",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 68,
+ "checked_items": 68,
+ "verified": 118,
+ "fixed": 16,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "체중과 공복혈당에서는 위약과 차이가 없었다[4].",
+   "after": "체중과 공복혈당은 위약과 차이가 없었고 수축기 혈압만 4·6개월째 더 낮았다[4].",
+   "why": "[4] 초록·전문: 일차 결과(체중·공복혈당) 차이 없음, 이차 결과 SBP는 M4·M6에 Fx가 낮음(p<0.05) — 결과 일부만 적혀 있어 보완"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "잎과 꽃 조직 11개 시료로 만든 첫 전사체는 221,649개 전사체를 담고 있고",
+   "after": "잎과 세 개화 단계의 꽃 조직에서 얻은 12개 cDNA 라이브러리로 11가지 de novo 조립본을 만들어 비교한 뒤 고른 첫 기준 전사체는 221,649개 전사체를 담고 있고",
+   "why": "[7] 전문 Methods: 시료는 4개 조직×3반복=12개 라이브러리이고, 11은 비교한 조립본 수"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "브라질과 우루과이 집단 사이에 꽃눈 발달 방식이 달라 초기 종분화 신호일 수 있다는 해석도 있다[25].",
+   "after": "열대(콜롬비아)와 아열대(브라질) 재배지의 꽃눈 발달 방식이 서로 달랐으며, 저자들은 이런 차이가 브라질·우루과이 집단 사이 초기 종분화의 신호일 수도 있다고 해석했다[25].",
+   "why": "[25] 초록: 실제 비교는 콜롬비아(열대)와 브라질(아열대) 재배지이며, 브라질·우루과이 집단을 직접 비교한 것이 아님"
+  },
+  {
+   "where": "sections.biology",
+   "before": "꽃 전체 추출물에는 안토시아닌이 115.3 mg/L 들어 있어 붉은색을 띤다[27].",
+   "after": "꽃 전체 추출물에는 안토시아닌이 115.3 mg/L, 플라보놀이 42.9 mg/L 들어 있었다[27].",
+   "why": "[27] 초록은 함량만 보고하고 색과의 인과는 말하지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "페이조아 퓌레(pH 3.2)는 600 MPa 고압 처리에 이산화탄소를 더하면 미생물을 더 잘 줄이면서 단맛을 더한 제품의 관능 품질을 지킬 수 있었다[34].",
+   "after": "고압 처리(200–400 MPa)에 이산화탄소를 더하면 대장균·고초균·효모의 불활성화가 커졌고, 600 MPa로 처리한 페이조아 퓌레(pH 3.2)는 설탕을 넣은 경우 신선 제품과 관능 차이가 없었다[34].",
+   "why": "[34] 초록: 미생물 시험은 200–400 MPa, 퓌레 관능 시험은 600 MPa로 따로 수행됨 — 두 조건이 섞여 있었음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "이 가루의 알려진 폴리페놀의 약 60%가 카테킨류였다[4].",
+   "after": "제조사가 연구진에 제공한 정보로는 이 가루의 알려진 폴리페놀의 약 60%가 카테킨류였다[4].",
+   "why": "[4] 전문: 60% 값은 제조사 개인 교신(personal communication) 자료"
+  },
+  {
+   "where": "sections.safety",
+   "before": "생쥐 실험에서 열매·잎 폴리페놀 추출물은 1 g/kg까지 해로운 증상을 보이지 않았다[20].",
+   "after": "설치류 실험에서 열매·잎 폴리페놀 추출물은 1 g/kg까지 해로운 증상을 보이지 않았다[20].",
+   "why": "[20] 초록은 쥐·생쥐를 함께 썼고 1 g/kg 안전성 시험의 동물 종을 밝히지 않음"
+  },
+  {
+   "where": "compounds[Flavone].content_text",
+   "before": "꽃 초임계 CO2(300 bar) 추출물 12.69 mg/g dm, 초음파 추출 114.02–183.69 μg/g dm[8]",
+   "after": "꽃 초임계 CO2(300 bar) 추출물 12.69 mg/g, 초음파 추출물 114.02–183.69 μg/g(모두 추출물 건조질량 기준)[8]",
+   "why": "[8] 전문: dm 은 꽃이 아니라 추출물 건조질량(extract dry mass) 기준"
+  },
+  {
+   "where": "compounds[Flavone].activity_ko",
+   "before": "사람 골수성 백혈병 세포에서 HDAC 억제와 함께 세포자멸사 유도[30]",
+   "after": "사람 골수성 백혈병 세포주와 환자 유래 백혈병 세포(시험관)에서 HDAC 억제와 함께 세포자멸사 유도, 사람 대상 근거는 없음[30]",
+   "why": "세포 실험 결과임을 분명히 함"
+  },
+  {
+   "where": "compounds[Cyanidin 3-glucoside].content_text",
+   "before": "꽃 DES 추출물 90.81 µg/g dm[8]",
+   "after": "꽃 DES 추출물 90.81 µg/g(추출물 건조질량 기준)[8]",
+   "why": "[8] 전문: 추출물 건조질량 기준"
+  },
+  {
+   "where": "compounds[Cyanidin 3-glucoside].activity_ko",
+   "before": "꽃잎의 붉은 색소이자 주요 안토시아닌[8]",
+   "after": "식용 꽃잎의 주요 안토시아닌으로 소개됨[8]",
+   "why": "[8] 은 \"main anthocyanin present in edible flower petals\"라고만 씀"
+  },
+  {
+   "where": "compounds[Pedunculagin].part",
+   "before": "과육(수용성 알코올 추출물)",
+   "after": "과육(물-알코올 추출물)",
+   "why": "[31] hydroalcoholic extract"
+  },
+  {
+   "where": "compounds[Pedunculagin].activity_ko",
+   "before": "장 상피세포(HT29)에서 160 µg/mL까지 세포독성 없이 사이토카인 손상을 줄임[31]",
+   "after": "장 상피세포주(HT29) 시험관 실험에서 160 µg/mL까지 세포독성 없이 사이토카인에 의한 생존율 감소를 줄임(추출물 전체의 결과)[31]",
+   "why": "세포 실험·추출물 단위 결과임을 분명히 함"
+  },
+  {
+   "where": "assays[0].conditions.instrument",
+   "before": "UHPLC(DAD 부착)–삼중사중극자 질량분석기, ESI",
+   "after": "LC(Agilent 1290 Infinity, DAD 부착)–삼중사중극자 질량분석기(Agilent 6460), ESI",
+   "why": "[3] 전문 2.6절: 'liquid chromatography (LC) system'으로 기재, UHPLC 표기 없음"
+  },
+  {
+   "where": "assays[2].content",
+   "before": "플라본 초임계 CO2 300 bar 12.69 mg/g dm; 초음파 추출 114.02–183.69 µg/g dm; 크리산테민 최고 90.81 µg/g dm[8]",
+   "after": "플라본 초임계 CO2 300 bar 12.69 mg/g; 초음파 추출 114.02–183.69 µg/g; 크리산테민 최고 90.81 µg/g(모두 추출물 건조질량 기준)[8]",
+   "why": "[8] 전문: 함량 기준은 추출물 건조질량"
+  },
+  {
+   "where": "assays[2].part",
+   "before": "꽃(이탈리아 사르데냐 재배, 동결건조 분말)",
+   "after": "꽃(이탈리아 사르데냐 Uta 실험 재배지, 2021년 6월 채취, 동결건조 분말)",
+   "why": "[8] 4.2절 시료 정보 보완"
+  }
+ ],
+ "unverifiable_notes": [
+  "[18] (PMID 14316128, 1964, 러시아어)은 초록이 없어 제목·MeSH(Azerbaijan, Iodides, Iodine)까지만 확인; 문장도 그 범위로만 씀",
+  "[26] 은 PMC 전문을 열지 않고 초록으로 확인('F2 단계 수확 최적'); F2=꽃잎이 완전히 펴진 단계라는 설명은 [8] 전문이 같은 연구를 인용한 서술로 보강 확인",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 파인애플구아바열매·주스(Feijoa sellowiana Berg, 사용가능부위: 열매), Feijoa열매·Feijoa꽃(Acca sellowiana (O.Berg) Burret, 사용가능부위: 꽃, 열매), 구아바·구아바잎 추출물(고시형) 등 모두 본문과 일치",
+  "논문 36건 중 [2][3][4][5][6][7][8] 은 PMC 전문, 나머지는 PubMed 초록·서지로 대조; 서지(권·호·쪽·DOI·PMID) 모두 PubMed 와 일치([14] 권 '11013'은 PubMed 표기 그대로)",
+  "다른 종 섞임 없음: Psidium 속(구아바 등)은 related_species 에서 비교 대상으로만 쓰였고, Acca sellowiana 논문은 같은 종으로 처리"
+ ]
+}

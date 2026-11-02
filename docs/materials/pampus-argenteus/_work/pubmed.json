@@ -1,0 +1,1338 @@
+[
+{
+"pmid": "42736296",
+"pmc": "PMC13575194",
+"doi": "10.1038/s41598-025-20420-z",
+"title": "Assessment of trace element distribution, bioaccumulation, and health risks in silver pomfret from major fishing grounds of the Bay of Bengal.",
+"journal": "Sci Rep",
+"year": "2026",
+"cit": {
+"volume": "16",
+"issue": "1"
+},
+"abstract": "Trace elements, both essential and toxic, are widespread in marine ecosystems and can pose health risks through bioaccumulation in seafood. This study assessed trace element concentrations in silver pomfret (Pampus argenteus) from three fishing zones in the Bay of Bengal-south patches, middle ground, and swatch of no ground-within Bangladesh's maritime area. Using EDXRF spectrometry, we analyzed elements including Ca, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Rb, Sr, Hg, and Pb. Most elements showed significant spatial variation (p < 0.05), except Hg and Pb. Levels of Cr, Ni, As, Hg, and Pb were below permissible limits, whereas Mn, Fe, Co, Cu, Zn, and Se exceeded FAO/WHO guidelines. The Se/Hg molar ratio indicated reduced mercury toxicity. Pollution indices revealed high contamination by Cr, Mn, Se, and Co, though overall metal pollution remained low. IMBI values near 1 suggest substantial bioaccumulation, but THQ, HI, CR, and TCR levels were below risk thresholds, implying minimal health risk from consumption. Multivariate analyses, e.g., Pearson's correlation, PCA, and HCA identified anthropogenic sources as key contributors. These findings highlight the significance of continuous monitoring to safeguard seafood quality and public health in coastal communities dependent on fish-based diets."
+},
+{
+"pmid": "42593172",
+"pmc": null,
+"doi": "10.1111/jfb.70576",
+"title": "The characteristics and expression profile of follicle-stimulating hormone and luteinizing hormone during gonadal development in silver pomfret.",
+"journal": "J Fish Biol",
+"year": "2026",
+"cit": {
+"volume": "109",
+"issue": "4",
+"pages": "2357-2370"
+},
+"abstract": "The hypothalamic-pituitary-gonadal (HPG) axis, particularly follicle-stimulating hormone (Fsh) and luteinizing hormone (Lh), is essential for the regulation of teleost reproduction. However, their expression dynamics and receptor distribution during gonadal development in silver pomfret remain poorly understood. This study aimed to characterize the expression profiles and cellular localization of Fshβ, Lhβ and their receptors (Fshr and Lhr) in the pituitary and gonads and to evaluate their potential roles in reproductive regulation. The different staining method and transmission electron microscopy (TEM) were used to analyse the structural changes of the pituitary gland during the reproductive season. Quantitative PCR (qPCR) and immunohistochemical (IHC) were used to detect the expression pattern of Fshβ and Lhβ. The results showed that the number of endocrine granules significantly increased before the reproductive season, and their electron density intensified. During the spawning season, the secretory granules gradually depleted, leading to the appearance of vacuolization. In the pituitary gland, the expression of fshβ in Stage IV was significantly higher in the female pituitary, but significantly higher in Stage V in the male. Fshβ and Lhβ signals were mainly located in the proximal pars distalis (PPD) and pars intermedia (PI) regions of the pituitary. In the gonad, Fshr signals were observed in the spermatogonia type A cells and Sertoli cells in testes, whereas Lhr signals were observed in spermatogonia and secondary spermatocytes in the testes. Fshr and Lhr signals were both observed in the follicle cells surrounding the oogonia and vitellogenic oocytes in the ovary of silver pomfret. The expression patterns of fshβ and fshr were essentially similar after different hormone treatments in the gonad and methyltestosterone (MT) could influence the expression of fshβ, lhβ and fshr in the testis. Taken together, our data suggest that Fshβ and Lhβ promote the development and maturation in the gonad, and Fshr and Lhr may be involved in ovary maturation and spawning."
+},
+{
+"pmid": "42545556",
+"pmc": null,
+"doi": "10.1007/s10126-026-10681-8",
+"title": "Cellular Responses to Cold Stress in Pampus argenteus: Involvement of Dusp5 in MAPK Signaling, Apoptosis Suppression, and Organelle Protection.",
+"journal": "Mar Biotechnol (NY)",
+"year": "2026",
+"cit": {
+"volume": "28",
+"issue": "4"
+},
+"abstract": "The silver pomfret (Pampus argenteus) represents a commercially vital marine fish species. However, its aquaculture potential, especially in temperate northern regions, is critically constrained by pronounced cold sensitivity. Building upon preliminary investigations which demonstrated a significant inverse correlation between dusp5 expression levels and ambient water temperature, this study aimed to elucidate the functional mechanism of dusp5-a cold-inducible dual-specificity phosphatase affecting the MAPK pathway-in mediating cold stress adaptation. Utilizing cellular models subjected to dusp5 knockdown (KO) and overexpression (OE), we systematically evaluated its impact on cold stress responses. Functional analysis revealed that dusp5 OE conferred significant cytoprotection: it effectively suppressed cold-induced DNA fragmentation indicative of apoptosis (quantified by TUNEL assay), ameliorated mitochondrial dysfunction (assessed via JC-1 staining and TEM ultrastructural examination), and diminished oxidative stress (indicated by reduced malondialdehyde/MDA levels). Subsequent qPCR profiling demonstrated that dusp5 OE modulated the expression of selected genes associated with MAPK signaling cascades, apoptotic pathways, endoplasmic reticulum (ER) stress response, and mitochondrial functional integrity under cold duress. Furthermore, employing dual-luciferase reporter assays, we identified atf2, atf4, jund, and stat1 as putative regulators of dusp5 promoter activity. Complementary histidine affinity chromatography facilitated the identification of candidate dusp5-associated proteins predominantly localized to the ER and mitochondrial compartments, with functional annotations implicating roles in ER homeostasis, autophagic processes, and peroxisome metabolism. Collectively, this work provides the preliminary mechanistic insights of dusp5 in promoting cold tolerance within P. argenteus, yielding novel and fundamental insights into the molecular regulators underpinning low-temperature adaptation mechanisms in marine teleosts."
+},
+{
+"pmid": "42480248",
+"pmc": null,
+"doi": "10.1016/j.cbd.2026.101940",
+"title": "Integrative analysis of transcriptome and DNA methylome dynamics during caudal fin regeneration in silver pomfret (Pampus argenteus).",
+"journal": "Comp Biochem Physiol Part D Genomics Proteomics",
+"year": "2026",
+"cit": {
+"volume": "60",
+"pages": "101940"
+},
+"abstract": "Caudal fin regeneration in teleost fish is a complex, multi-stage process involving coordinated molecular and cellular changes. While the role of epigenetic regulation particularly DNA methylation has been studied in model freshwater species such as zebrafish, its contribution to regeneration in marine teleosts remains largely unexplored. In this study, we integrated transcriptomic and DNA methylomic data to characterize the temporal dynamics of gene expression and methylation during caudal fin regeneration in the silver pomfret (Pampus argenteus). Using RNA-sequencing and reduced representation bisulfite sequencing (RRBS) at three biologically critical time points 1, 3, and 7 days post-amputation (dpa), we characterized the spatiotemporal molecular landscape of caudal fin regeneration. These time points capture the key transitional phases of wound healing and inflammation (1 dpa), blastema formation and progenitor proliferation (3 dpa), and regenerative outgrowth with tissue remodeling (7 dpa), enabling robust detection of the major molecular programs underlying epimorphic regeneration. Concurrently, CG-methylome analysis identified thousands of dynamically changing differentially methylated regions (DMRs). A strong global inverse correlation was observed between promoter methylation and gene expression. Integrative analysis pinpointed key regeneration genes (fgf20a, msxb, sox9b) whose expression was associated with dynamic methylation changes in their promoters or gene bodies. We conclude that DNA methylation is a dynamic and key regulatory layer that acts in concert with transcriptional reprogramming to coordinate tissue regeneration, providing new insights into the epigenetic mechanisms underlying complex regenerative processes in teleosts."
+},
+{
+"pmid": "42476330",
+"pmc": null,
+"doi": "10.1016/j.fsi.2026.111601",
+"title": "Genome-wide identification of the collectin family in silver pomfret (Pampus argenteus) and innate immune functions of a novel truncated member PaCL-11b against Vibrio parahaemolyticus.",
+"journal": "Fish Shellfish Immunol",
+"year": "2026",
+"cit": {
+"volume": "177",
+"pages": "111601"
+},
+"abstract": "The Collectin family, an important member of the C-type lectin superfamily, participates in innate immune defense through Ca-dependent recognition of glycan ligands on pathogen surfaces. In this study, five Collectin family members were identified in the silver pomfret (Pampus argenteus) genome, and their gene structures, conserved motifs, and chromosomal localizations were systematically characterized. Notably, a novel member, collectin-11b (PaCL-11b) was found to encode a truncated isoform containing only the neck region and the carbohydrate recognition domain (CRD). It exhibited the highest expression level in the liver of healthy silver pomfret and was significantly downregulated in the liver, kidney, and gills following Vibrio parahaemolyticus challenge. Functional characterization of the recombinant protein rPaCL-11b demonstrated Ca-dependent binding, agglutination, direct antimicrobial, and antibiofilm activities against both Gram-negative (V. parahaemolyticus and Escherichia coli) and Gram-positive (Staphylococcus aureus) bacteria, with the most potent inhibitory effects observed against V. parahaemolyticus. This study presents a systematic identification of the Collectin family in silver pomfret and reveals the multifunctional immune roles of PaCL-11b in defense against V. parahaemolyticus infection, providing a theoretical basis for the prevention and control of bacterial diseases in silver pomfret aquaculture."
+},
+{
+"pmid": "42456358",
+"pmc": null,
+"doi": "10.1016/j.marpolbul.2026.120127",
+"title": "Drivers, latent signatures and parsimonious screening of organophosphate triester mixtures in silver pomfret from Vietnamese coastal waters (2021-2023).",
+"journal": "Mar Pollut Bull",
+"year": "2026",
+"cit": {
+"volume": "233",
+"issue": "Pt 1",
+"pages": "120127"
+},
+"abstract": "Organophosphate triesters (tri-OPEs) are widespread coastal contaminants, but routine biomonitoring often relies on concentration summaries that do not explicitly address mixture structure or analyte-panel efficiency. A previously published dataset of silver pomfret (Pampus argenteus) collected from Vietnamese coastal regions during 2021-2023 across spring and fall (n = 172) was reanalyzed as a decision-oriented secondary analysis. Pooled tri-OPE burdens were evaluated using covariate-adjusted Gamma generalized linear models with a log link, with effects reported as multiplicative ratios. Latent mixture profiles were extracted using non-negative matrix factorization (NMF), an unsupervised method for compressing correlated chemical profiles into interpretable co-occurrence signatures. North versus non-North discrimination was assessed as a monitoring-oriented triage task using elastic-net regularization, a sparse classification approach, and compared with ridge regression. Robustness was evaluated using alternative non-detect handling, chemical-scope expansion with di-OPE metabolites, nested thresholding, and temporal holdout validation. Under the primary MDL/2 workflow, pooled tri-OPE levels were lower in Central and South than in North, higher in 2023 than in 2021, and lower in fall than in spring; these patterns were stable under conventional substitution rules, while ROS-based diagnostics highlighted uncertainty from model-based censored-data imputation. NMF identified three profiles dominated by TBOEP, TEHP, and TDCIPP with TCEP as a secondary contributor, with the TEHP-dominant profile showing the clearest North enrichment. Elastic-net and ridge achieved similar discrimination, but elastic-net provided a stable TEHP-based triage marker. This framework supports efficient monitoring by identifying adjusted drivers, trackable mixture signatures, and compact marker options for confirmatory analysis."
+},
+{
+"pmid": "42450511",
+"pmc": "PMC13361336",
+"doi": "10.3390/foods15132391",
+"title": "Dietary Inulin Modulates Intestinal Health and Muscle Nutritional Composition in Juvenile Silver Pomfret ().",
+"journal": "Foods",
+"year": "2026",
+"cit": {
+"volume": "15",
+"issue": "13"
+},
+"abstract": "The silver pomfret () is a high-value marine food fish, but its aquaculture is limited by juvenile intestinal immaturity, characterized by impaired digestion, barrier dysfunction, and microbial dysbiosis. This study evaluated whether early-life dietary inulin could improve intestinal health and muscle nutritional composition. After an 8-week feeding trial, fish fed a 5 g/kg inulin-supplemented diet showed improved growth performance, as reflected by higher final body weight (+17.2%), WGR (+18.5%), and SGR (+6.4%) than the control group. These benefits were associated with enhanced intestinal morphology, increased α-amylase and lipase activities, upregulated expression of tight junction genes, and a remodeled gut microbiota. These gut-associated changes were accompanied by improved selected muscle compositional traits. Specifically, inulin supplementation enriched essential amino acids, including methionine and threonine, as well as flavor-related amino acids, such as glutamate, glycine, and serine. Meanwhile, the muscle lipid profile was also modified, as reflected by reduced levels of selected saturated fatty acids and increased levels of monounsaturated fatty acids, particularly oleic acid. Collectively, our findings suggest that early-life dietary supplementation with 5 g/kg inulin may support intestinal homeostasis-related indicators and improve selected muscle nutritional traits in farmed silver pomfret."
+},
+{
+"pmid": "42379435",
+"pmc": null,
+"doi": "10.1016/j.ijbiomac.2026.153250",
+"title": "A Kazal-type serine protease inhibitor PaSpink1 from silver pomfret (Pampus argenteus): antibacterial activity and protection against Vibrio parahaemolyticus-induced hepatocyte apoptosis.",
+"journal": "Int J Biol Macromol",
+"year": "2026",
+"cit": {
+"volume": "373",
+"pages": "153250"
+},
+"abstract": "Serine protease inhibitors of the Kazal type (Spinks) play important roles in protease regulation, blood coagulation, and immune responses. In this study, the spink1 gene from Pampus argenteus (Paspink1) was identified and characterized. The open reading frame (ORF) was 369 bp in length, encoding a polypeptide of 123 amino acids containing a typical Kazal domain. Recombinant protein PaSpink1 (rPaSpink1) was successfully expressed, and rPaSpink1 exhibited dose-dependent inhibitory activity against Trypsin and Proteinase K, as well as antibacterial activity against Staphylococcus aureus and Vibrio parahaemolyticus. Notably, although Paspink1 was predominantly expressed in the intestine, gill, and liver, its expression in the liver was significantly downregulated following V. parahaemolyticus infection, an alteration that correlated with increased hepatocyte apoptosis. Furthermore, this correlation was mechanistically validated in both in vivo and in vitro models. TUNEL-positive signals and upregulation of apoptosis-related genes were observed in vivo. In an in vitro Pampus argenteus liver (PAL) cell model, V. parahaemolyticus stimulation induced ROS accumulation and activated related signaling pathways of apoptosis. Importantly, overexpression of Paspink1 was associated with reduced ROS levels, as well as decreased apoptosis and inflammatory responses. These findings revealed that Paspink1 might play a protective role against bacterial infection by mitigating ROS-mediated apoptosis, providing new insights into the molecular mechanisms of disease resistance in aquatic organisms."
+},
+{
+"pmid": "42353428",
+"pmc": "PMC13295404",
+"doi": "10.3390/ani16121818",
+"title": "Transcriptome and 16S rRNA Amplicon Sequencing Analysis of Nutrition Metabolism in Silver Pomfret at Varying Flow Rates.",
+"journal": "Animals (Basel)",
+"year": "2026",
+"cit": {
+"volume": "16",
+"issue": "12"
+},
+"abstract": "Silver pomfret (), a highly valued marine fish, faces challenges in aquaculture due to its sensitivity to environmental conditions. Recirculating aquaculture system (RAS) is likely to become a primary indoor cultivation method for silver pomfret in the future, so studying hydrodynamic characteristics at varying flow rates in silver pomfret RAS is crucial and has far-reaching implications for both aquaculture practices and economic returns. This study investigated the effects of water flow rates (low: 400 L/h, moderate: 600 L/h, high: 800 L/h) on the growth performance, nutritional metabolism, and gut microbiota of silver pomfret over an 8-week period. Transcriptome and 16S rRNA sequencing revealed that the moderate-flow-rate group exhibited superior growth performance, with enhanced expression of genes related to protein synthesis (HYOU1, PDIA6, ITGA11) and redox regulation (GLUL, DUSP1, GST). Additionally, the moderate flow rate promoted gut microbial diversity and stability, with higher abundances of fermentation- and chemoheterotrophy-related functions, suggesting improved nutrient metabolism. In contrast, high flow rates induced anaerobic metabolism, leading to lactate accumulation and reduced growth. These findings demonstrate that a moderate flow rate of 600 L/h optimizes silver pomfret aquaculture by enhancing growth, metabolic efficiency, and microbial health, providing a foundation for sustainable large-scale farming practices."
+},
+{
+"pmid": "42302890",
+"pmc": null,
+"doi": "10.1016/j.mce.2026.112846",
+"title": "Molecular and functional analysis of GnRH2 in hypothalamic-pituitary-gonadal axis activation in Pampus argenteus.",
+"journal": "Mol Cell Endocrinol",
+"year": "2026",
+"cit": {
+"volume": "620",
+"pages": "112846"
+},
+"abstract": "This study aimed to identify and characterize the gnrh2 gene in Pampus argenteus, and to systematically investigate the regulatory effects of synthetic GnRH2 decapeptide on the hypothalamic-pituitary-gonadal (HPG) axis through analyses of tissue distribution, expression patterns during gonadal development, and in vitro and in vivo functional experiments. In this study, the gnrh2 gene of the P. argenteus was successfully identified and characterized. Sequence analysis revealed that the gene possesses conserved structural features of the GnRH family, with a highly conserved decapeptide region (QHWSHGWYPG). Phylogenetic analysis indicated that P. argenteus GnRH2 clustered closely with teleost GnRH2 sequences. Tissue distribution analysis demonstrated that gnrh2 was most abundantly expressed in the pituitary, suggesting its critical role in the neuroendocrine regulation of reproduction. During gonadal development, gnrh2 expression exhibited dynamic, stage-dependent variations, with a significant increase at the maturation stage in both males and females. In vitro pituitary culture experiments showed that exogenous synthetic GnRH2 decapeptide altered the expression of lhβ and fshβ. In vivo intraperitoneal injection further revealed that synthetic GnRH2 decapeptide significantly upregulated the expression of gnrh2, lhr, lhβ, fshr, and fshβ in the hypothalamus and gonads, indicating that GnRH2 is associated with the transcriptional regulation of HPG axis-related genes and may be involved in reproductive processes. In summary, these findings suggest that GnRH2 may play a role in reproductive regulation in P. argenteus and provide a molecular basis for the artificial breeding and endocrine control of this species."
+},
+{
+"pmid": "42226394",
+"pmc": null,
+"doi": "10.1021/acs.jafc.6c02806",
+"title": "Cold and Rewarming Alter Polyunsaturated Fatty Acid Profiles in Silver Pomfret via Regulation of Elongation of Very Long-Chain Fatty Acids (Elovl).",
+"journal": "J Agric Food Chem",
+"year": "2026",
+"cit": {
+"volume": "74",
+"issue": "22",
+"pages": "17365-17378"
+},
+"abstract": "Silver pomfret () is an economically important and widely consumed food fish, prized for its high nutritional value─particularly its rich unsaturated fatty acid content. Environmental temperature strongly influences lipid metabolism in aquaculture, and elongation of very long-chain fatty acids (Elovl) plays a key role in fatty acid elongation. To explore the Elovl regulation under the cold and rewarming conditions, we identified tengenes in silver pomfret, all containing the conserved ELO catalytic domain. Among them,responded strongly to temperature change, showing marked upregulation during cooling and a recovery-related shift during rewarming. Molecular docking suggested its preference for C18-C20 acyl-CoA substrates. Lipidomics revealed that cold exposure followed by rewarming increased PUFA levels by >8% in fish muscle, especially EPA and DHA. Collectively, these findings suggest that cold-rewarming induces beneficial PUFA remodeling associated with Elovl regulation and may provide a practical strategy for improving the nutritional quality of aquaculture fish."
+},
+{
+"pmid": "42193801",
+"pmc": "PMC13203390",
+"doi": "10.3390/ani16101510",
+"title": "Transcriptomic Analysis and Machine Learning Identify Cross-Pathogen Biomarkers for Bacterial and Parasitic Infections in Silver Pomfret ().",
+"journal": "Animals (Basel)",
+"year": "2026",
+"cit": {
+"volume": "16",
+"issue": "10"
+},
+"abstract": "Silver Pomfret is increasingly threatened by many diseases under intensive artificial culturing conditions, yet conserved host biomarkers across different infections remain poorly defined. In this study, we integrated transcriptomic datasets from independent infections with,, andsubsp.to identify shared host-response genes. By combining differential expression analysis with weighted gene co-expression network analysis, we prioritized six candidate genes associated with cross-pathogen infection responses. Random Forest and support vector machine analysis further supported their classification potential across the three infection models. Phylogenetic and structural analyses provided additional evidence for the conserved annotation of these proteins. GSVA-based signature analysis supported the cross-pathogen discriminatory capacity of the six-gene panel and suggested context-dependent contributions of individual genes across infection models. Immune signature analysis indicated distinct host immune response patterns under different pathogenic challenges, and candidate genes showed positive associations with inferred T cell-related signatures. Upstream regulatory prediction identified CTCF and the miR-17/20/93 family as potential regulators of these genes. Quantitative real-time PCR of the kidney further highlighted,, andas the most robust infection-responsive candidates, with consistent temporal expression patterns observed from 0 to 24 h post-infection. These findings suggest a potential cross-pathogen host-response pattern in Silver Pomfret and provide preliminary support for future exploration of molecular markers for disease monitoring in aquaculture."
+},
+{
+"pmid": "42071963",
+"pmc": "PMC13113318",
+"doi": "10.3390/ani16081196",
+"title": "Cold Stress Induces Tissue-Specific Lipid Metabolic Responses and Scd1-Mediated Hepatic Apoptosis in Silver Pomfret.",
+"journal": "Animals (Basel)",
+"year": "2026",
+"cit": {
+"volume": "16",
+"issue": "8"
+},
+"abstract": "This study investigated the adaptive mechanisms of silver pomfret in response to chronic low-temperature stress, focusing on the tissue-specific expression patterns of the key lipid metabolism geneand its central role in regulating hepatic apoptosis. A gradual cooling experiment (from 18 °C to 6 °C) was conducted to analyze the spatiotemporal expression profiles of ten lipid metabolism-related genes across six tissues. The results revealed that the most pronounced changes were observed in the heart, liver, and gills. The liver and heart rapidly activated genes involved in lipid breakdown and utilization from 16 to 12 °C for immediate energy supply, while gill tissue upregulated the///pathway at 10 °C to remodel membrane lipids against sustained stress. Further in vitro hepatocyte experiments demonstrated thatexpression directly regulated cell survival and apoptosis under low temperatures. Knockdown ofsignificantly promoted apoptosis, whereas its overexpression effectively suppressed it. Moreover,expression was intricately modulated by its upstream regulators(positive regulation) and(showing potential negative feedback at specific temperatures). This study systematically elucidates the pivotal role of-mediated lipid metabolic reprogramming in the cold adaptation of silver pomfret, providing a crucial theoretical foundation for deciphering the molecular mechanisms of cold tolerance and for breeding cold-resistant strains."
+},
+{
+"pmid": "42070548",
+"pmc": null,
+"doi": "10.1016/j.marpolbul.2026.119788",
+"title": "Beyond passive ingestion: Selectivity, trait preference, and seasonal contrasts in microplastic ingestion by estuarine fish.",
+"journal": "Mar Pollut Bull",
+"year": "2026",
+"cit": {
+"volume": "230",
+"pages": "119788"
+},
+"abstract": "Microplastics are ubiquitous in estuarine ecosystems, but evidence on ingestion mechanisms, particularly trait and behavior based drivers, remains limited, hindering a comprehensive understanding of factors and seasonal contrasts governing fish ingestion. We conducted field surveys in May and August at the Changjiang River Estuary in the East China Sea, targeting three representative estuarine coastal fish species: Larimichthys polyactis, Trichiurus japonicus, and Pampus argenteus, with incidental records of other species like Japanese jack mackerel and blue backed mackerel. Using Ivlev's selectivity index, chi-square tests, and multiple correspondence analysis (MCA), we characterized and visualized microplastic trait composition, while random forest (RF) models quantified ingestion selectivity and seasonal variations from May to August across shape, color, polymer type, and particle size. Fibers dominated environmental samples and fish ingestion (71.8% of ingested items), yet MCA revealed stronger structural organization in ingested microplastics, with the first two dimensions explaining 32% of variance (p < 0.001, Chi-squared test) and showing distinct trait bundling. In the upper right MCA quadrant, a clear cluster of green, polyethylene (PE), and linear microplastics emerged, suggesting frequent co-occurrence in fish. Conversely, microplastic traits in the water column were more heterogeneously distributed and lacked a distinct structure, as indicated by the lower variance explanation (13%). This suggests a more scattered and less organized availability of microplastic characteristics in the surrounding environment compared to the selective patterns observed in fish. This study provides a foundation for understanding behavioural selectivity in microplastic ingestion by estuarine fish. By utilizing the Random Forest (RF) model as a detection framework, this research identifies vulnerable seasonal hotspots in the Changjiang River Estuary and provides early warning indicators for specific recurring trait combinations, such as green, PE, and linear microplastics, which are key for targeted long-term monitoring."
+},
+{
+"pmid": "41905289",
+"pmc": null,
+"doi": "10.1016/j.cbd.2026.101822",
+"title": "Integrated analysis of transcriptome and metabolome reveals the muscle cold adaptation strategy in silver pomfret (Pampus argenteus).",
+"journal": "Comp Biochem Physiol Part D Genomics Proteomics",
+"year": "2026",
+"cit": {
+"volume": "59",
+"pages": "101822"
+},
+"abstract": "Low temperature represents a critical environmental stressor for teleost fish, disrupting metabolic homeostasis, enhancing oxidative damage, and ultimately compromising physiological performance. As a warm-water-adapted marine species, silver pomfret (Pampus argenteus) exhibits pronounced sensitivity to cold stress, which constrains its survival and aquaculture potential. In the present study, silver pomfret were subjected to a control temperature (25 °C) and two cold stress temperatures (18 °C and 13 °C) for 96 h. Muscle responses were assessed through histological examination, antioxidant enzyme activity assays, transcriptomic sequencing, and metabolomic profiling. Cold stress induced marked pathological alterations in muscle tissue, including myofibrillar disorganization, cytoplasmic degradation, and cellular vacuolization. Antioxidant defenses were rapidly activated during the early phase of cold stress and subsequently reached a relatively stable state with prolonged exposure. The omics data suggested that the enhanced polyunsaturated fatty acid synthesis and elongation appeared to support membrane fluidity, accompanied by the upregulation of fatty acid β-oxidation and lipid catabolic pathways to satisfy elevated energy demands at 18 °C. In contrast, exposure to 13 °C resulted in pronounced disruption of cytoskeletal integrity and functional impairment, together with the activation of apoptosis-related pathways in muscle cells. Collectively, these results elucidate temperature-dependent regulatory strategies underlying cold stress responses in silver pomfret muscle and provide a mechanistic basis for improving cold tolerance in aquaculture practices."
+},
+{
+"pmid": "41843593",
+"pmc": "PMC12994795",
+"doi": "10.1371/journal.pone.0344676",
+"title": "The potential roles of androgen and estrogen receptors during reproductive cycle in Pampus argenteus.",
+"journal": "PLoS One",
+"year": "2026",
+"cit": {
+"volume": "21",
+"issue": "3",
+"pages": "e0344676"
+},
+"abstract": "Steroid hormones are indispensable for regulating the typical reproductive processes during the development of gonads. This study aimed to clarify the expression patterns of androgen receptors (Ars) and estrogen receptors (Ers) in Pampus argenteus to better understand gonadal development and improve artificial breeding. In this study, the androgen receptors (arα and arβ) and estrogen receptors (esr1, esr2a, and esr2β) of P. argenteus were cloned and the expression profiles were detected by qPCR. The results showed that the highest expression of arα was found in hypothalamus, while arβ was mainly found in midbrain of male fish. The esr1, esr2β and esr2α showed the highest expression level in pituitary, ovary, and liver of female fish, respectively. During the gonadal development, arα and arβ reached their highest expression in stage IV, while esr1, esr2a, and esr2β showed the strongest expression in stage V in the ovary. In the testis, arα and esr2β showed the highest expression in stage I, arβ peaked in stage II, and esr1 and esr2a reached their highest levels in stage IV. In the pituitary, arα peaked during stage IV of ovarian development, while esr1, esr2a, and esr2β all exhibited sex- and stage-specific expression partterns. Hormone treatment results showed that in ovarian tissue, E2 significantly upregulated arα, arβ, and all ers. In testicular tissue, MT markedly promoted the expression of arα, arβ, and all ers, and the combined E2 + MT treatment also synergistically enhanced arβ expression. Taken together, Ars and Ers exhibit distinct tissue- and stage-specific roles in gonadal development, with Ars primarily involved in early gametogenesis and Ers in later maturation. Their complementary, hormone-responsive functions provide a molecular basis for asynchronous gonadal development and offer guidance for improving artificial breeding of P. argenteus."
+},
+{
+"pmid": "41821649",
+"pmc": "PMC12976148",
+"doi": "10.1155/anu/4095616",
+"title": "Effects of Replacing Fishmeal With Antarctic Krill Meal on Nutrient Deposition, Metabolism, and Immunity in Silver Pomfret ().",
+"journal": "Aquac Nutr",
+"year": "2026",
+"cit": {
+"volume": "2026",
+"pages": "4095616"
+},
+"abstract": "Although silver pomfret () is a highly valued marine fish in China, its aquaculture development is limited by the lack of species-specific formulated feed. This study investigated the effects of replacing fishmeal with Antarctic krill () meal (AKM) on the nutritional deposition, metabolism, and immune response of silver pomfret. Juvenile fish with an initial body weight of 12.93 ± 0.48 g were randomly allocated into four dietary treatments with three replicates per treatment (50 fish per tank; 600 fish in total), and fed one of four experimental diets containing 0% (FM), 10% (KM10), 20% (KM20), or 40% (KM40) AKM for a 60-day feeding trial. The results showed that moderate AKM inclusion, particularly at the 20% replacement genes (,) and the downregulation of lipid level significantly enhanced intestinal trypsin and lipase activities, as well as glucose and amino acid metabolic capacity. In addition, lipid utilization efficiency was improved through the upregulation of fatty acid oxidation-related genes (). Consequently, the KM20 group exhibited significantly higher muscle essential amino acids and polyunsaturated fatty acids, particularly eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), compared to the FM group (< 0.05). Furthermore, serum immunoglobulin M (IgM), complement C3, and C4 levels increased in AKM-fed groups, with KM20 showing the most pronounced enhancement. However, excessive substitution (KM40) led to a decline in certain nutritional and immune parameters, suggesting potential metabolic imbalances. These findings indicate that moderate replacement of fishmeal with AKM (~20%) optimizes nutrient deposition, enhances metabolic efficiency, and boosts immune capacity in silver pomfret. This study provides a theoretical basis for the development of functional aquafeeds aimed at promoting the sustainable and efficient industrial cultivation of silver pomfret."
+},
+{
+"pmid": "41741493",
+"pmc": "PMC13046862",
+"doi": "10.1038/s41597-026-06739-w",
+"title": "Chromosome-level genome assembly and annotation of Pampus argenteus and Pampus punctatissimus.",
+"journal": "Sci Data",
+"year": "2026",
+"cit": {
+"volume": "13",
+"issue": "1"
+},
+"abstract": "Pampus punctatissimus and Pampus argenteus are species within the genus Pampus and are renowned for their fast growth and thick, flavorful meat. As highly valued commercial marine fishes of the order Perciformes, they are widely distributed across extensive shallow-water regions, including the Northwest Pacific (off China, Japan, and Korea) and the northern Indian Ocean. In this study, to facilitate further molecular evolutionary research on Pampus species, we constructed chromosome-level genome assemblies for both P. punctatissimus and P. argenteus. Our assembly was 38.11 Mb longer than the reference genome (P. argenteus) in terms of total length, with greater scaffold N50 values. The BUSCO scores of 99.1 and 98.1 for the P. punctatissimus and P. argenteus genomes revealed the high completeness and accuracy, respectively, of our assembly. The P. punctatissimus and P. argenteus genomes contained 25,552 and 22,284 predicted protein-coding genes, respectively, and 24.34% and 24.88% of the assemblies were annotated as repetitive sequences, respectively. This study substantially advances the available genomic resources for P. punctatissimus and facilitates future research on the adaptation and evolution of this species."
+},
+{
+"pmid": "41534738",
+"pmc": null,
+"doi": "10.1016/j.fsi.2026.111124",
+"title": "Combined histopathological, immunoenzymatic and transcriptomic analyses reveal the immune response mechanisms of silver pomfret infected by Vibrio parahaemolyticus.",
+"journal": "Fish Shellfish Immunol",
+"year": "2026",
+"cit": {
+"volume": "170",
+"pages": "111124"
+},
+"abstract": "The silver pomfret (Pampus argenteus), a vital aquaculture species, is highly susceptible to Vibrio parahaemolyticus infections, yet the molecular mechanisms underlying its immune response remain poorly understood. This study investigated gill responses to V. parahaemolyticus infection via intraperitoneal injection, analyzing histopathological, transcriptomic, and enzymatic changes at 3, 6, 12, 24 and 48 h post-infection (hpi). Histological analysis revealed progressive gill damage, with significant architectural disruption from 6 hpi and severe lesions by 48 hpi. Transcriptome profiling of 18 cDNA libraries generated 40-67 million clean reads, yielding 4492-5231 differentially expressed genes (DEGs) across time points, with 1094-2174 unique DEGs per time point. Inflammatory cytokines (tnf-α, il-1β, il-8, il-12) showed robust upregulation, peaking at 6-24 hpi, indicative of an active immune response. Gene Ontology (GO) and KEGG analyses identified enriched pathways, including \"oxidative phosphorylation\" (3-48 hpi) and \"tight junction\" (24 hpi), with \"oxidoreductase activity\" and \"aerobic respiration\" as the dominant functional categories. Oxidative stress markers (MDA, SOD, CAT, POD) exhibited time-dependent increases, reflecting enhanced antioxidant defenses. Weighted Gene Co-expression Network Analysis (WGCNA) revealed the turquoise module as being strongly correlated with infection, identifying hub genes (gapdh, gapdhs, pgam2, g6pd, taldo1, pgam1a) critical to immune regulation. This study is the first to systematically investigate the temporal crosstalk between inflammatory responses, oxidative stress, and metabolic reprogramming in silver pomfret gills during V. parahaemolyticus infection, providing novel molecular targets for the control of vibriosis."
+},
+{
+"pmid": "41525905",
+"pmc": null,
+"doi": "10.1016/j.ygcen.2026.114874",
+"title": "Expression profiles of the sirtuin genes family during ovarian development and hormonal regulation in Pampus argenteus.",
+"journal": "Gen Comp Endocrinol",
+"year": "2026",
+"cit": {
+"volume": "377",
+"pages": "114874"
+},
+"abstract": "Sirtuins (Sirt) are a class of NAD + -dependent type III histone deacetylases that play significant roles in energy metabolism and reproductive regulation. To explore the role of the sirt genes family in the ovarian development of Pampus argenteus and its significance in artificial breeding, this study conducted a systematic investigation using phylogenetic tree analysis and real-time fluorescence quantitative PCR. Phylogenetic analysis indicated that the sirt gene of the P. argenteus was most closely related to those of Thunnus maccoyii and Thunnus. albacares. Specific expression analysis revealed that the expression levels of sirt1, sirt2, sirt5, sirt6, and sirt7 in the ovary were significantly higher than those in other tissues (P < 0.05). In the analysis of ovarian development during stage I-VI, sirt1, sirt3, and sirt5 reached their peak expression during the pre-maturation stage, while sirt6 had the highest expression in stage VI. The in vitro steroid hormone immature egg culture experiment showed that estradiol significantly inhibited the expression of sirt1, sirt2, sirt4, sirt5, sirt6 genes. Luteinizing hormone inhibited the expression of sirt1, sirt2 and sirt4, but promoted the expression of sirt3 and sirt5. Human chorionic gonadotropin slightly upregulated the expression of sirt1. Intraperitoneal injection of HCG and LH shows differential regulation on the expression of sirt genes in different brain regions, indicating that they were involved in the neuroendocrine regulatory pathway. In conclusion, the sirt genes family, especially sirt1, which showed peak expression during the critical period of early egg growth and before maturation, may promote ovarian maturation by regulating meiotic recovery and energy metabolism pathways. This study provides a theoretical basis for researching the reproductive regulation of P. argenteus and optimizing artificial breeding techniques."
+},
+{
+"pmid": "41463885",
+"pmc": "PMC12729387",
+"doi": "10.3390/ani15243602",
+"title": "High-Efficiency Cryopreservation of Silver Pomfret Sperm: Protocol Development and Cryodamage Assessment.",
+"journal": "Animals (Basel)",
+"year": "2025",
+"cit": {
+"volume": "15",
+"issue": "24"
+},
+"abstract": "The silver pomfret (), widely distributed across the Indo-West Pacific and prevalent in China's coastal waters, has experienced significant resource decline due to anthropogenic impacts such as habitat alteration and overfishing, which disrupt its natural reproduction and growth. Cryopreservation technology overcomes spatiotemporal constraints by enabling the long-term storage of high-quality sperm for future use. This study optimized cryopreservation protocols for silver pomfret sperm, evaluation key parameters including extenders, cryoprotectants, dilution ratios, cooling heights, and thawing temperatures. Sperm quality was assessed post thaw via enzyme activity assays and electron microscopy. Results demonstrated that modified plaice Ringer solution (MPRS) extender yielded the highest post-thaw motility (95.98 ± 1.59)%. The optimal cryopreservation conditions for silver pomfret sperm were established as follows: MPRS diluent, 20% EG, a 1:6 dilution ratio, a 7 cm cooling height, and a 28 °C thawing temperature. This protocol yielded post-thaw sperm with motility and motion parameters most closely resembling those of fresh sperm. Ultrastructural observations and enzyme activity assays, however, confirmed that cryopreservation induced sublethal damage, including significant reduction in ATPase activity, as well as structural anomalies such as head deformation, membrane damage, and organelle disarray. This work establishes a foundational cryopreservation protocol, providing critical tools for conserving the genetic resources of this declining species and supporting sustainable aquaculture and wild population restoration efforts."
+},
+{
+"pmid": "41418418",
+"pmc": null,
+"doi": "10.1016/j.molimm.2025.12.004",
+"title": "The genetic characteristics of Pahepcidin1 and Pahepcidin2 in silver pomfret (Pampus argenteus) and their antibacterial functions in innate immunity.",
+"journal": "Mol Immunol",
+"year": "2025",
+"cit": {
+"volume": "189",
+"pages": "163-173"
+},
+"abstract": "Hepcidins are a class of cysteine-rich antimicrobial peptides that exert significant impacts in response to a variety of pathogens. In this study, two hepcidins were identified from silver pomfret (Pampus argenteus), namely Pahepcidin1 and Pahepcidin2. Our findings revealed that Pahepcidin1 consists of a 267 open reading frame (ORF) encoding 91 amino acids, while Pahepcidin2 consists of 246 bp ORF encoding 81 amino acids. Sequence comparison between Pahepcidins and other homologous genes demonstrated the presence of eight conserved cysteines in the C-terminus region of Pahepcidin1 and six cysteine residues in the C-terminus region of Pahepcidin2. Phylogenetic analysis indicated that both Pahepcidin1 and Pahepcidin2 clustered with other fish homologues, respectively. The results of tissue-specific expression analysis showed that Pahepcidins exhibited the highest expression level in the liver; moreover, the expression level of Pahepcidin1 in silver pomfret liver cells (PaL cells) was also significantly increased after stimulation with lipopolysaccharide (LPS), polyinosinic-polycytidylic acid (poly I:C), and Staphylococcus aureus (S. aureus). Meanwhile, this study verified the antibacterial function of recombinant Pahepcidin1, and the results indicated that it possessed broad antibacterial activity against both Gram-positive bacteria (S. aureus) and Gram-negative bacteria (Edwardsiella tarda). In addition, the overexpression of Pahepcidin1 could significantly alter the transcriptional levels of key genes in the NF-κB pathway and downstream immune-related genes. In vivo validation via Vibrio parahaemolyticus challenge showed that Pahepcidin1 expression in silver pomfret liver was significantly upregulated at 3 h and peaked at 6 h, then downregulated to below the baseline from 12 h to 48 h. These results suggested that Pahepcidin1 might play an essential role in the innate immune system modulation of silver pomfret, providing valuable insights into understanding the antimicrobial immune mechanism of this species."
+},
+{
+"pmid": "41321169",
+"pmc": null,
+"doi": "10.1111/jfb.70270",
+"title": "Comparative analysis of muscle structure and weighted gene co-expression network analysis reveals growth mechanisms in fast-growing and slow-growing silver pomfret (Pampus argenteus).",
+"journal": "J Fish Biol",
+"year": "2025",
+"cit": {
+"volume": "108",
+"issue": "4",
+"pages": "1014-1028"
+},
+"abstract": "Silver pomfret is an important economic fish, and the difference in growth rate is closely related to muscle development. The mechanism of muscle development in fast-growing and slow-growing groups was analysed by skeletal muscle morphology, texture characteristics and gene co-expression network. The results showed that hypertrophy was dominant in the fast-growing group (contribution rate 92.18%), and the muscle fibre diameter and area increased by 3.39 times and 19.94 times, respectively, compared to slow-growing group, whereas hyperplasia was dominant in the slow-growing group (contribution rate 82.11%). The muscle texture properties (elasticity 1.12 ± 0.04, hardness 377.5 ± 2.77, cohesion 0.78 ± 0.01) of the fast-growing group were significantly better than those of the slow-growing group (r = 0.05). Based on Weighted Gene Co-Expression Network Analysis (WGCNA), a total of eight modules were identified to be significantly correlated with growth phenotypes. Among them, the green module (muscle of fast-growing group, R = 0.99) enriched key genes taf1 and med7 and regulated autophagy, p53 signalling pathway and fatty acid metabolism. The key genes of the blue-green module (muscle of slow-growing group, R = 0.89), such as utp6, are involved in MAPK, mTOR pathway and cell cycle regulation. In liver tissues, the pink module (fast-growing muscle liver, R = 0.92) gene was associated with Polycomb inhibition complex, whereas the yellow module (slow-growing muscle liver, R = 0.94) gene was enriched in immune and glucose metabolism pathways. The results showed that the fast-growing group achieved efficient growth through muscle fibre hypertrophy and metabolism-signalling pathway synergism, whereas the slow-growing group relied on hypertrophic and conserved cellular regulatory mechanisms."
+},
+{
+"pmid": "41302057",
+"pmc": "PMC12649313",
+"doi": "10.3390/ani15223347",
+"title": "Silver Pomfret () Aquaculture: Advances, Bottlenecks, and Future Strategies.",
+"journal": "Animals (Basel)",
+"year": "2025",
+"cit": {
+"volume": "15",
+"issue": "22"
+},
+"abstract": "Silver pomfret () is an economically valuable marine species with growing potential for large-scale aquaculture in China. In recent years, significant progress has been achieved in artificial breeding, nutritional research, and disease management; however, the industry's development remains constrained by technological and operational challenges. This review provides an overview of the biological characteristics ofand systematically summarizes the research progress and technological applications in artificial breeding, nutritional physiology, disease management, and aquaculture systems. It also analyzes the key constraints hindering the development of its aquaculture industry. Based on current research progress and industry needs, five strategic measures are proposed to accelerate industry development: (1) establishing a comprehensive germplasm repository; (2) breeding high-performance new varieties; (3) developing species-specific compound feeds; (4) enhancing disease prevention and biosecurity systems; and (5) standardizing operational protocols for different aquaculture systems. The implementation of these measures will provide a theoretical reference and technical support for the high-quality development of theaquaculture industry in China."
+},
+{
+"pmid": "41296394",
+"pmc": "PMC12651869",
+"doi": "10.3390/cimb47110890",
+"title": "Intestinal Microbial Profiles of Wild Zobaidy () Fish Characterized by 16S rRNA Next Generation Sequencing.",
+"journal": "Curr Issues Mol Biol",
+"year": "2025",
+"cit": {
+"volume": "47",
+"issue": "11"
+},
+"abstract": "(Zobaidy) is an important fish in Kuwait and the Gulf region due to its economic value in the fish industry. Analyzing the gut microbiome of Zobaidy can help determine the health status of the fish and its responses to environmental changes. In this study, we investigated the microbiome composition of the intestinal tract among seven wild-caught silver pomfret specimens sampled in the Arabian gulf. The 16S rRNA was sequenced using the Illumina platform; then, sequences were analyzed using several bioinformatics tools to identify the microbial diversity, taxonomical status, and functional aspects. The results were 5933 operational taxonomic units (OTUs) categorized into 35 phyla.,,, andwere most abundant in the Zobaidy and water samples. At the genus level, we found high relative abundances of Acinetobacter. The results indicated that,,,, andare the most commonly present species in the analyzed Zobaidy samples. A heatmap analysis indicated notable differences in the functional categories of intestinal microflora within the Zobaidy2 sample compared to other Zobaidy samples. It should be noted that microbiome studies can provide novel ways to enhance the overall welfare of fish, strengthen disease prevention, and increase sustainability in aquaculture production."
+},
+{
+"pmid": "41192674",
+"pmc": null,
+"doi": "10.1016/j.fsi.2025.110980",
+"title": "Akirin2 regulates IL-6 expression and contributes to immune defense in silver pomfret (Pampus argenteus).",
+"journal": "Fish Shellfish Immunol",
+"year": "2025",
+"cit": {
+"volume": "168",
+"pages": "110980"
+},
+"abstract": "Akirin2 is a highly conserved nuclear factor that regulates immune factor expression and has been associated with NF-κB activity in innate immune responses. The silver pomfret (Pampus argenteus), a commercial important marine fish, is susceptible to pathogens such as Cryptocaryon irritans, which causes white spot disease and immune-related tissue damage. In the present study, P. argenteus Akirin2 (PaAkirin2) was cloned from the head kidney and its function was characterized by RNA interference (RNAi) and overexpression in P. argenteus liver (PaL) cells. PaAkirin2 contained conserved nuclear localization signals and exhibited high homology with Akirin2 from related species. To assess its potential immune role, we analyzed its functional relationship with NF-κB-associated immune components including PaIL-6 and PaMyD88. LPS stimulation induced an early response of PaAkirin2 and PaIL-6 in immune tissues, with delayed induction of PaMyD88 observed in the liver. Functional studies in PaL cells demonstrated that PaAkirin2 overexpression activated NF-κB signaling, whereas its knockdown suppressed both NF-κB and PaIL-6 expression. Dual-luciferase assays confirmed that overexpression of either PaAkirin2 or PaMyD88 enhanced NF-κB-driven transcription and promoted IL-6 expression. Mutagenesis analysis identified AP-1 and NF-κB binding sites as essential for LPS-induced PaIL-6 transcription. Collectively, PaAkirin2 functions as a nuclear immunoregulator influencing NF-κB activity, directing immune defenses via transcriptional control of PaIL-6 and synergistic coordination with PaMyD88. This work provides the first mechanistic framework for Akirin2-mediated immunoregulation in teleosts, offering valuable insights for aquaculture disease management."
+},
+{
+"pmid": "41136617",
+"pmc": null,
+"doi": "10.1007/s10661-025-14696-x",
+"title": "Microplastics in two commercial marine fish species: A pilot study from the Arabian Sea.",
+"journal": "Environ Monit Assess",
+"year": "2025",
+"cit": {
+"volume": "197",
+"issue": "11",
+"pages": "1247"
+},
+"abstract": "Humans are exposed to microplastics (MP) via ingesting contaminated fish, with a potential to cause adverse health effects such as oxidative stress, cytotoxicity, immunotoxicity, genotoxicity, and reproductive toxicity. To our knowledge, this is the first report of microplastics in edible muscles of commercially traded marine fish in Pakistan. Pampus argenteus and Otolithes ruber were purchased from the fish market, and the entire gastrointestinal tract (GIT) and a small portion of muscle of P. argenteus and O. ruber were digested, filtered, dried and observed under a stereomicroscope to detect MPs in the laboratory. Fourier Transform Infrared analysis was performed to determine chemical composition. All GIT samples and 50% of the muscle samples had MPs; a total of 46 MPs were isolated. The predominant shape of MPs detected was fibers (76%), the predominant color was black (48%), and polymer types included polyamide (33.4%), polyethylene (11.1%), and polyethylene terephthalate (22.2%), which can be sourced back to the textile and packaging industry. This pilot study reports the microplastic contamination in the GIT and muscles of P. argenteus and O. ruber, thereby raising a food safety concern. Future studies are needed to assess the risk associated with MP exposure via ingesting contaminated fish and associated adverse health effects, which will set the ground for risk communication and risk mitigation."
+},
+{
+"pmid": "41015975",
+"pmc": null,
+"doi": "10.1007/s00128-025-04117-7",
+"title": "Microplastic Ingestion, Polymer Characteristics, and Ecological Risk in Commercial Pomfret Fishes Pampus chinensis and Pampus argenteus from the Bay of Bengal.",
+"journal": "Bull Environ Contam Toxicol",
+"year": "2025",
+"cit": {
+"volume": "115",
+"issue": "4",
+"pages": "47"
+},
+"abstract": "Microplastic (MP) contamination is a growing environmental challenge, affecting marine biodiversity and fisheries on a global scale. This study quantified the abundance, physical characteristics, and polymer types of MPs in the gastrointestinal tracts of two key fish species, Chinese silver pomfret (Pampus chinensis) and white pomfret (Pampus argenteus), collected from the offshore fishing grounds of Bangladesh during March 2024. A total of 25 adult specimens per species were analyzed via oxidative digestion, density separation, and filtration. The polymers of the isolated MPs were identified using Fourier Transform Infrared Spectroscopy (FTIR). MPs were detected in 100% of specimens, with mean abundances of 20.0 items/fish in P. chinensis and 6.6 items/fish in P. argenteus. Fiber-shaped (59-64%) and transparent (53-65%) MPs, predominantly < 500 µm, were most common. Polyamide (PA) and polyethylene terephthalate (PET) were the main polymers. Ecological risk assessment using the Polymer Hazard Index (PHI) indicated the presence of high-risk polymers, but the Pollution Load Index (PLI) suggested overall minor MP contamination relative to the reference baseline. These findings highlight the widespread occurrence of MPs and the predominance of fishing-related polymers in offshore pomfrets of the Bay of Bengal. Notwithstanding the limitations of our sample size and spatial scope, these initial results provide first evidence on the need for regionally coordinated monitoring, improved plastic waste management, and further research on biological effects and food web transfer in tropical marine systems."
+},
+{
+"pmid": "41007409",
+"pmc": "PMC12467872",
+"doi": "10.3390/biology14091265",
+"title": "Integrated miRNA-mRNA Atlas Reveals Temperature-Graded Brain Neuroendocrine Adaptation to Cold Stress in Silvery Pomfret ().",
+"journal": "Biology (Basel)",
+"year": "2025",
+"cit": {
+"volume": "14",
+"issue": "9"
+},
+"abstract": "Temperature stress is a major cause of mortality in aquaculture, yet the molecular mechanisms underlying cold adaptation in commercially important fish such as the silver pomfret () remain poorly understood. In this study, we used integrated miRNA and mRNA transcriptomics to analyze brain tissue responses of silver pomfret under gradient cold exposure conditions (28 °C control, 18 °C moderate, 13 °C extreme). We identified 85 differentially expressed miRNAs (DEmiRs), with 22 altered under moderate cold and 68 altered in extreme cold, demonstrating that miRNA regulatory activity intensifies with decreasing temperature. Combined miRNA target prediction and expression correlation analysis revealed 8 and 247 differentially expressed target genes (DETGs), which formed cold-adaptive regulatory networks with corresponding DEmiRs. Functional analysis showed enrichment of pathways related to circadian rhythm (e.g., PER targeted by miR-429-y and miR-181-z), immunity (e.g., JUN-miR-10545-x cluster), and endocrine function (e.g., NHERF1-miR-181-z). Notably, miR-181-z was identified as a central regulatory hub, interacting with 13.2% nodes in BE network. Our study provides the first comprehensive miRNA-mRNA network resource for cold stress response in silver pomfret, offering valuable molecular biomarkers for breeding cold-resilient strains and enhancing sustainable aquaculture practices."
+},
+{
+"pmid": "40919467",
+"pmc": "PMC12413356",
+"doi": "10.1007/s42995-025-00312-x",
+"title": "Latitudinal-environmental variations driving the local adaptation ofstocks along the Chinese coast.",
+"journal": "Mar Life Sci Technol",
+"year": "2025",
+"cit": {
+"volume": "7",
+"issue": "3",
+"pages": "606-618"
+},
+"abstract": "The distribution of(Euphrasen, 1788) spans a pronounced latitudinal-environmental gradient from the subtropical to the subpolar zones. The species is reported to have multiple stocks along coastal China, exhibiting different spawning behaviors and habitat preferences. Such ecological variations might imply potential genetic divergence and local adaptation. We resequenced 117 genomes from six coastal stocks of.in China. Although no hierarchical genetic structure was identified, over 50% of the single-nucleotide polymorphisms (SNPs) indicated moderate to strong divergence in at least two stocks. The Mantel test identified 21 100-kb sliding windows with significant isolation by distance and environment, while a majority did not. Given the lack of genome-wide isolation by distance, the 21 windows may be under selection pressure from the latitudinal-environmental variations. Among the 21 windows, certain genes were linked to circadian clock regulation and thermal stress response, suggesting sea surface temperature and sunshine duration as selective forces. A total of 17 genes regulated neuron activity; variations near these genes might subsequently shape the different spawning and migratory behaviors among the stocks. Additionally, 1204 SNPs were mapped to non-coding regions; 14 transcriptional and translational factors were identified in the 21 windows. These findings imply that alterations in gene expression might contribute to the local adaptation of thestocks.\n\nThe online version contains supplementary material available at 10.1007/s42995-025-00312-x."
+},
+{
+"pmid": "40807636",
+"pmc": "PMC12346270",
+"doi": "10.3390/foods14152700",
+"title": "Influence of Various Cooking Methods on Selenium Concentrations in Commonly Consumed Seafood Species in Thailand.",
+"journal": "Foods",
+"year": "2025",
+"cit": {
+"volume": "14",
+"issue": "15"
+},
+"abstract": "Selenium (Se) is an important trace element in our body; however, food composition data remain limited due to analytical challenges and interferences. Seafood, abundant in Thailand, is recognized as a rich source of Se. This study aimed to expand knowledge on Se content in seafood prepared using traditional Thai cooking methods. Twenty seafood species were selected and prepared by boiling, frying, and grilling. Inductively Coupled Plasma-Triple Quadrupole-Mass Spectrometry (ICP-MS/MS) was used to analyze total Se contents in selected seafood species. Results revealed significant variation in Se content across species and cooking methods. The Indo-Pacific horseshoe crab showed the highest Se concentration, with fried samples reaching 193.9 μg/100 g. Se concentrations were in the range of 8.6-155.5 μg/100 g (fresh), 14.3-106.6 μg/100 g (boiled), 17.3-193.9 μg/100 g (fried), and 7.3-160.1 μg/100 g (grilled). Results found significant effects of species and cooking method on Se content (< 0.05). Fried seafood exhibited the highest estimated marginal mean Se concentration (a 78.8 μg/100 g edible portion), significantly higher than other methods. True retention (%TR) of Se ranged from 40.4% to 100%, depending on species and method. Bigfin reef squid, wedge shell, and silver pomfret showed the highest %TR (100%), while splendid squid exhibited the lowest (52.5%). Significant interaction effects on %TR were also observed (< 0.05). Fried seafood had the highest mean %TR (88.8%), followed by grilled (82.1%) and boiled (79.7%). These findings highlight the effects of both species and cooking method on Se retention, emphasizing the nutritional value of selected seafood in preserving bioavailable Se after cooking."
+},
+{
+"pmid": "40782581",
+"pmc": null,
+"doi": "10.1016/j.cbd.2025.101598",
+"title": "Effects of low temperature on intestinal microbiota composition of silver pomfret (Pampus argenteus).",
+"journal": "Comp Biochem Physiol Part D Genomics Proteomics",
+"year": "2025",
+"cit": {
+"volume": "56",
+"pages": "101598"
+},
+"abstract": "Fish are poikilothermic organisms with species-specific optimal temperature ranges for survival. As an economically important marine fish in China, silver pomfret (Pampus argenteus) has overcome artificial breeding bottlenecks. To meet aquaculture requirements in northern regions, we simulated gradual winter cooling from 18 °C to 6 °C using recirculating aquaculture systems with precision temperature control. Through histological sectioning, 16S rRNA gene sequencing, and ecological community assembly modeling, we found that feeding activity in silver pomfret is positively correlated with water temperature, exhibiting a significant decrease with declining thermal conditions. Concurrently, intestinal structural alterations were observed, including diminished collagen staining, enlarged intercellular spaces, and reduced fold height. The microbial diversity initially decreased and subsequently increased during the cooling process. The microbial community was influenced by variable selection and dispersal limitation. At the onset of the cooling period, Vibrio emerged as the dominant genus; however, after prolonged exposure to low-temperature stress, Pseudoalteromonas, Pseudomonas, and Shewanella became predominant genera. Under low temperature conditions, metabolism-related pathways are activated. This study provides new insights into mechanisms underlying low-temperature adaptation and supports silver pomfret breeding at reduced temperatures."
+},
+{
+"pmid": "40660379",
+"pmc": "PMC12261592",
+"doi": "10.1186/s13293-025-00736-1",
+"title": "Transcriptome analysis reveals the sex-switching mechanism of juvenile hermaphroditism in silver pomfret (Pampus argenteus).",
+"journal": "Biol Sex Differ",
+"year": "2025",
+"cit": {
+"volume": "16",
+"issue": "1",
+"pages": "51"
+},
+"abstract": "Our previous study on silver pomfret (Pampus argenteus) demonstrated that all gonads initially develop into ovaries by 60 days post-hatch (dph). Between 80 and 120 dph, some oocytes undergo apoptosis, resulting in the development of testes and a transient hermaphroditic stage. This observation indicates a complex molecular mechanism underlying sex differentiation in this species.\n\nGonadal samples were collected at 90 dph, 120 dph, and 150 dph, with sex identification performed by HE staining and transcriptome sequencing. Morphological traits, including body length and weight, were measured to evaluate sexual size dimorphism. Candidate genes related to with sex differentiation were identified through differential gene expression analysis and feature selection methods, followed by gene set enrichment analysis to identify potential molecular pathways. Heatmaps were generated to visualize gene expression patterns across developmental stages and samples. Sex hormones concentrations were measured using commercial assay kits to assess their role in gonadal differentiation. RT-qPCR validated the sequencing results, while immunofluorescence (IF) examined the expression of related genes in testes and ovaries.\n\nHistological and transcriptomic analyses identified the period between 90 and 120 dph as critical for sex differentiation in silver pomfret. At 90 dph, apoptotic signals trigger the apoptosis of early-stage oocytes. During this period, both testis-preferential and ovary-preferential genes exhibit high expression, leading to spermatogonia differentiation and the emergence of a juvenile hermaphroditic stage. The study established that androgens 11-KT and estrogen E2 regulate sex differentiation through modulation of related gene expression, with 11-KT serving a crucial role. This process involved significant enrichment of the steroid hormone biosynthesis pathway and the metabolism of xenobiotics by cytochrome P450 in the testes. Ovarian development is characterized by fatty acid metabolism and PPAR signaling pathway activation, along with energy metabolism pathways including the citrate cycle (TCA cycle) and cell degradation processes, such as lysosome activity and ubiquitin-mediated proteolysis, suggesting that ovarian development encompasses lipid accumulation and follicular selection.\n\nThis investigation illuminates the molecular processes underlying this distinctive pattern of gonadal differentiation, providing novel insights into sex differentiation in fish exhibiting a juvenile hermaphroditic stage."
+},
+{
+"pmid": "40509091",
+"pmc": "PMC12153585",
+"doi": "10.3390/ani15111625",
+"title": "Growth Performance and Realized Heritability in a Mass-Selected Strain of Silver Pomfret ().",
+"journal": "Animals (Basel)",
+"year": "2025",
+"cit": {
+"volume": "15",
+"issue": "11"
+},
+"abstract": "In China, the silver pomfret () is one of the most popular marine edible fish. To analyze the genetic characteristics ofacross three generations and evaluate whether continued progress can be made in body weight and growth traits, growth traits of the third-generationbreeding and control groups were measured at 60, 90, and 120 days post-hatch. Using Pearson correlation and path analysis, we found a strong correlation between the growth characteristics of the third-generationand its body weight, with fork length and body length showing the strongest associations. Body weight, body length, and fork length all showed high levels of realized heritability at 120 days, with respective values of 0.55, 0.57, and 0.56. The genetic gain for body weight in the breeding groups over the three periods was 29.70 ± 0.58% (2.43 ± 1.17 g), which was significantly higher than the genetic gain for body length (8.90 ± 3.91%, 0.56 ± 0.29 cm) and fork length (8.08 ± 3.69%, 0.57 ± 0.33 cm). At harvest on day 120, the breeding group was 33.93% greater than the control group in terms of body weight. These results indicated that through mass selection, improvements were made to body weight of, leading to an enhancement in its growth performance. In the meantime, there was roughly equal genetic gain for body length, body weight, and fork length. These experiments showed that mass selection can effectively increasebody weight, which will improve the species' growth performance. These findings suggest that substantial genetic improvements can be achieved through mass selection for body weight, providing strong support for the ongoingselective breeding program."
+},
+{
+"pmid": "40447203",
+"pmc": null,
+"doi": "10.1016/j.fsi.2025.110465",
+"title": "Molecular cloning, expression, and functional analysis of cystatin B from silver pomfret (Pampus argenteus) under Vibrio parahaemolyticus challenge.",
+"journal": "Fish Shellfish Immunol",
+"year": "2025",
+"cit": {
+"volume": "165",
+"pages": "110465"
+},
+"abstract": "Cystatin B is an intracellular inhibitor that regulates the activity of cysteine proteases. In this study, the coding sequence of silver pomfret cystatin B was successfully cloned and identified, which was 297 bp in length, predicted to encode 98 amino acids with a molecular weight of approximately 11.12 kDa. Sequence analysis revealed that PaCystatin B (Pampus argenteus Cystatin B) exhibited a high degree of conservation with Cystatin B orthologs from other fish species, maintaining characteristic motifs essential for cysteine protease inhibition, such as the conserved QXVXG motif. Tissue distribution analysis indicated that Pacystatin B was highly expressed in the gills and head kidney, with relatively lower expression levels observed in the liver. Additionally, following Vibrio parahaemolyticus challenge, the expression levels of Pacystatin B were significantly upregulated in the trunk kidney and liver, contrasted with marked downregulation in the gills, reflecting the distinct response strategies of different tissues in silver pomfret against pathogenic infection. Functional characterization demonstrated that the recombinant PaCystatin B (rPaCystatin B) not only exhibited pronounced inhibitory activity against cysteine proteases but also showed significant antibacterial effects against several pathogenic bacteria, including Staphylococcus aureus, Escherichia coli, Vibrio parahaemolyticus, and Edwardsiella tarda. Notably, the antibacterial efficacy of PaCystatin B remained stable even after short-term exposure to high temperatures. In conclusion, these findings suggested that Pacystatin B might play a critical role in the immune response of silver pomfret against pathogen invasion, thereby providing new insights into the immunological mechanisms of cystatins in teleosts."
+},
+{
+"pmid": "40427723",
+"pmc": "PMC12108807",
+"doi": "10.3390/biology14050534",
+"title": "Genetic Structure and Optimal Population Size of Wild and Mass-Selected Silver Pomfret () in China: The Implications for Conservation and Selection Breeding Programs.",
+"journal": "Biology (Basel)",
+"year": "2025",
+"cit": {
+"volume": "14",
+"issue": "5"
+},
+"abstract": ", a commercially significant marine species, faces genetic diversity challenges in selective breeding programs. This study implemented a comprehensive molecular strategy to evaluate genetic parameters in wild populations along China's coast and three successive selected generations. The analysis utilized 19 highly polymorphic microsatellite loci, mt, and mtsequences to assess genetic structure. Compared with the wild populations, the average number of alleles (: 11.158-12.947), effective alleles (: 5.592-6.502), observed heterozygosity (: 0.626-0.665), expected heterozygosity (: 0.777-0.796), and allele richness (: 10.900-12.510) of the selected populations did not significantly decrease. In the mass selection of the three consecutive generations, the high genetic diversity of the selected population was successfully maintained. The effective population sizes of the first to third generations were estimated to be 83.7, 66.6, and 59.6, respectively. Population differentiation analysis showed minimal genetic divergence (FST = 0.0159-0.0326) with substantial gene flow, supported by clustering patterns indicating panmixia among wild populations from different geographical locations and among the selected populations. Notably, marginal decreases in diversity indices across generations suggest incipient genetic diversity decline, underscoring the imperative for systematic genetic monitoring. These findings validate the current breeding program's efficacy in maintaining genetic variability while providing a framework for optimizing long-term selection strategies to prevent inbreeding depression."
+},
+{
+"pmid": "40351264",
+"pmc": null,
+"doi": "10.1111/jfb.70053",
+"title": "Hormonal regulation and expression dynamics of Bmp4 in the reproductive cycle of Pampus argenteus.",
+"journal": "J Fish Biol",
+"year": "2025",
+"cit": {
+"volume": "107",
+"issue": "3",
+"pages": "728-742"
+},
+"abstract": "As a member of the bone morphogenetic protein (BMP) family, Bmp4 plays a crucial role in bone formation, early developmental stage and the regulation of gonadal development. This study aims to investigate the expression patterns and potential functions of the Bmp4 in Pampus argenteus during its reproductive cycle. A systematic evolutionary analysis of the Bmp4 was performed, and its expression was quantified and localized using real-time polymerase chain reaction (PCR), Western blotting and immunohistochemistry. Additionally, the effects of various hormones on hormone-related genes were analysed in vitro using cultured testes, ovaries and oocytes. The results revealed that Bmp4 is evolutionarily conserved and broadly expressed across tissues. Notably, its expression significantly increased at 4 and 13 days post-hatching (dph), with no significant differences observed at other developmental stages. Western blotting identified a specific Bmp4 target band in Stage III ovaries, and immunohistochemistry localized Bmp4 expression in oogonia, oocytes and spermatogonia. In vitro hormonal treatments demonstrated that oestradiol (E2) significantly upregulated bmp4 expression in both testes and ovaries, with expression levels being notably higher in ovaries. In immature vitellogenic oocytes cultured in vitro, sex hormone treatments did not significantly affect the expression of bmp4, lhr, fshr and lhβ. However, under LH + hCG treatment (50 ng/mL and 5 IU/mL), the expression of fshβ was upregulated. In summary, our findings reveal that Bmp4 serves as a pivotal factor in the early development of the gonads and germ cells in P. argenteus. The expression of Bmp4 within the ovary is likely regulated by E2. During the early-stage development of the ovary, E2 and Bmp4 may jointly promote the early-stage development and differentiation of germ cells. This study offers a valuable theoretical foundation for addressing challenges in the breeding process."
+},
+{
+"pmid": "40240669",
+"pmc": "PMC12602630",
+"doi": "10.1007/s12011-025-04596-z",
+"title": "Marketing of Freshwater and Marine Fish Species in Alexandria City, Egypt: Human Health Risk of Specific Metals.",
+"journal": "Biol Trace Elem Res",
+"year": "2025",
+"cit": {
+"volume": "203",
+"issue": "11",
+"pages": "5693-5709"
+},
+"abstract": "Fish intake may constitute a significant route by which humans are exposed to metals, especially people who depend on fish as a source of protein as Alexandrians. Therefore, this study aimed to investigate the metal contents in muscles in eight commonly consumed freshwater (Tilapia, Catfish, and Common Carp) and marine fish species (Emperors, Groupers, Mackerels, Silver Pomfret, and Roving Groupers) collected from the local markets located in Alexandria City for a 1-year calendar year, 2022. Seasonal variations in the levels of the tested metals in the fish species, with significant differences between the species, were recorded. Also, the levels of Cu, Zn, Fe, Co, and Cd in all the tested fish species collected during the experiment did not exceed the guideline limits, while Ni, Cr, and Pb in fish collected during October-May, June-September, and February-May 2022, respectively, exceeded the permissible limits settled by FAO and WHO. Additionally, Mackerels and Roving Groupers had high-level contents of Mn that exceeded the permissible limits settled by European Commission. The accumulation of these metals in muscles of different fish species had relative variation in the accumulation, and Cu was the most predominant element in Tilapia, Zn in Catfish, Roving Groupers, and Mackerels, Fe in Common Carp, Groupers, Emperors, and Silver Pomfret, and Co in Tilapia. Consumption of fish with a high Metal Pollution Index (MPI) value may pose a potential public health risk. On the meantime, the calculated values of estimated daily intakes (EDI), hazard index (HI), and target health quotient (THQ) indicated no potential health risk for Alexandrians via the consumption of these fish species because they did not exceed the World Health Organization's acceptable daily intake."
+},
+{
+"pmid": "40195168",
+"pmc": null,
+"doi": "10.1007/s10695-025-01492-0",
+"title": "Transcriptome analysis unveils adaptation strategies in silver pomfret (Pampus argenteus) gills under hypoxic conditions.",
+"journal": "Fish Physiol Biochem",
+"year": "2025",
+"cit": {
+"volume": "51",
+"issue": "2",
+"pages": "79"
+},
+"abstract": "The silver pomfret (Pampus argenteus) is an economically valuable and highly sought-after table fish in China. In recent years, commercial farming of silver pomfret has been successfully developed in the country. However, silver pomfret is highly sensitive to environmental stress, and hypoxia-induced stress can lead to significant economic losses in aquaculture. This study investigated the transcriptomic response of silver pomfret gills under normal oxygen conditions (G0) and after hypoxic exposure for 6 h (G6) and 24 h (G24). Hypoxia exposure induced gill remodeling, characterized by increased gill lamellar height and a reduction in interlamellar cell mass (ILCM). Oxidative stress and antioxidant responses were significantly upregulated after 24 h of hypoxia exposure. Additionally, many downregulated genes were significantly enriched in pathways related to cardiac muscle contraction and calcium signaling, leading to impaired gill musculature contraction and reduced oxygen uptake under hypoxic conditions. Key signal transduction pathways, including HIF- 1, Apelin, and MAPK signaling, were identified as critical pathways in response to hypoxia. Furthermore, hypoxia tended to suppress the immune system and disrupted endoplasmic reticulum homeostasis and protein processing in the gills of silver pomfret. In summary, this study demonstrates that hypoxia disrupts gill function in silver pomfret and provides insights into hypoxia adaptation mechanisms in teleosts."
+},
+{
+"pmid": "40164020",
+"pmc": null,
+"doi": "10.1016/j.cbd.2025.101496",
+"title": "The effects of different MT treatment methods on the ovarian transcriptome of Pampus argenteus.",
+"journal": "Comp Biochem Physiol Part D Genomics Proteomics",
+"year": "2025",
+"cit": {
+"volume": "55",
+"pages": "101496"
+},
+"abstract": "17α-methyltestosterone (MT) is a synthetic androgen that is commonly used to induce sex reversal in teleost fish. In this study, MT treatment of Pampus argenteus was carried out by different methods to find the best treatment method and potential mechanism. The results showed that compared with the control group, low concentration of MT (50 mg/kg) could improve the growth performance of P. argenteus in 30 days. Gonadal histology showed that different treatments of MT had different inhibition on the ovarian development, and the number of oocytes decreased in the ovaries. The ovaries of the immersing treatment groups (10 μg/l) showed ovotestis state, but the male germ cells were in the spermatogonia stage. The E2 levels of the mixed feeding and immersing treatment groups was significantly higher than that of the control group (P < 0.05). The 11-KT levels in the 100 mg/kg group was significantly higher than that in the control group (P < 0.05). For the gonadal transcriptome analysis after MT treatment, 460, 568 and 381 DEGs were screened in the 50MT group, 100MT group and MT immersing group, respectively. The DEGs in 50 MT group were enriched in calcium signaling pathway and MAPK signaling pathway affecting gonadal development and differentiation. In 100 MT group, DEGs were mainly enriched in neuroactive ligand-receptor interaction, purine metabolism, vascular smooth muscle contraction and other pathways. The differential gene enrichment p53 signaling pathway and PPAR signaling pathway in the immersing group had an effect on the gonads. In this study, genes showing significant changes in expression after MT treatment were identified. The possible regulatory mechanism of 17α-methyltestosterone on gonadal development of Pampus argenteus was speculated. It provides a theoretical basis for exploring effective ways to improve the fertilization rate of P. argenteus."
+},
+{
+"pmid": "38954725",
+"pmc": "PMC11218981",
+"doi": "10.1371/journal.pone.0300643",
+"title": "Dietary effects of vitamin C on antioxidant capacity, intestinal microbiota and the resistance of pathogenic bacteria in cultured Silver pomfret (Pampus argenteus).",
+"journal": "PLoS One",
+"year": "2024",
+"cit": {
+"volume": "19",
+"issue": "7",
+"pages": "e0300643"
+},
+"abstract": "As most teleosts are unable to synthesize vitamin C, supplemental diets containing vitamin C diets play a crucial role in fish health. The aim of this study was to investigate the effect of dietary vitamin C on the intestinal enzyme activity and intestinal microbiota of silver pomfre (Pampus argenteus). Four experimental diets were supplemented with basic diets containing 300 mg of vitamin C/kg (group tjl3), 600 mg of vitamin C/kg (group tjl6), and 1200 mg of vitamin C/kg (group tjl12), as well as vitamin C-free supplemental basic diet (group tjl0), respectively. The four diets were fed to juvenile P. argenteus (average initial weight: 4.68 ± 0.93 g) for 6 weeks. The results showed that the activity of SOD (superoxide dismutase) and CAT (catalase) increased significantly while that of MDA (malondialdehyde) decreased significantly in group tjl3 compared to vitamin group tjl0. At the genus level, groups tjl0, tjl6, and tjl12 contained the same dominant microbial community, Stenotrophomonas, Photobacterium, and Vibrio, whereas group tjl3 was dominated by Stenotrophomonas, Delftia, and Bacteroides. Among the fish fed with a basic diet containing 300 mg of vitamin C/kg, the intestines exhibited a notable abundance of probiotic bacteria, including lactic acid bacteria (Lactobacillus) and Bacillus. The abundance of Aeromonas in groups tjl3 and tjl6 was lower than that of the vitamin C-free supplemental basic diet group, whereas Aeromonas was not detected in group tjl12. In addition, a causative agent of the disease outbreak in cultured P. argenteus, Photobacterium damselae subsp. Damselae (PDD) was the dominant microbiota community in groups tjl0, tjl6 and tjl12, whereas the abundance of PDD in group tjl3 was the lowest among the diets. Taken together, the diets supplied with vitamin C could influence the composition microbial community of P. argenteus. The low level of vitamin C (300 mg of vitamin C/kg per basic diet) supplementation could not only improve the antioxidant capacity but also resist the invasion of pathogenic bacteria."
+},
+{
+"pmid": "38950748",
+"pmc": null,
+"doi": "10.1016/j.chemosphere.2024.142724",
+"title": "Organophosphate esters and their metabolites in silver pomfret (Pampus argenteus) of the Vietnamese coastal areas: Spatial-temporal distribution and exposure risk.",
+"journal": "Chemosphere",
+"year": "2024",
+"cit": {
+"volume": "362",
+"pages": "142724"
+},
+"abstract": "A large number of studies on organophosphate esters (tri-OPEs) in marine organisms have not assessed the simultaneous occurrence of tri-OPEs and their metabolites (di-OPEs) in these species. This research investigated the concentration and geographical distribution of 15 tri-OPEs and 7 di-OPEs in 172 samples of Pampus argenteus that were collected annually from 2021 to 2023 at three distinct locations along the Vietnamese coast. As a result, tri-OPEs and di-OPEs were detected in numerous fish samples, indicating their widespread spatial and temporal occurrence in marine fish and pointing out the importance of monitoring their levels. The tri-OPEs and di-OPEs ranged within 2.1-38.9 ng gdry weight (dw) and 3.2-263.4 ng gdw, respectively. The mean concentrations of tri-OPEs ranged from 0.4 (TIPrP) to 5.4 ng gdw (TBOEP), with TBOEP and TEHP having the highest mean values. In addition, the profiles of tri-OPEs in fish exhibited a descending order: Σalkyl OPEs > ΣCl-alkyl OPEs > Σaryl OPEs. The di-OPEs, namely BEHP and DMP, had the highest mean levels, measuring 33.4 ng gdw and 23.8 ng gdw, respectively. Furthermore, there have been significant findings of strong positive correlations between di-OPEs and tri-OPE pairs (p < 0.05). It is worth noting that there is a noticeable difference in the composition of tri-OPEs between the North and other regions. Despite these findings, the presence of OPE-contaminated fish did not pose any health risks to Vietnam's coastal population."
+},
+{
+"pmid": "38685444",
+"pmc": null,
+"doi": "10.1016/j.fsi.2024.109589",
+"title": "Identification and characterization of STAT family in silver pomfret (Pampus argenteus) involved in different exogenous stresses.",
+"journal": "Fish Shellfish Immunol",
+"year": "2024",
+"cit": {
+"volume": "149",
+"pages": "109589"
+},
+"abstract": "Members of the Signal Transducer and Activator of Transcription (STAT) family function pivotally as transcriptional activators integral to the modulation of inflammatory responses. The aquaculture of silver pomfret is frequently compromised by the imposition of exogenous stressors, which include thermal fluctuations, notably low-temperatures, diminished oxygen levels, and the onslaught of bacterial pathogens. Notwithstanding the critical impact of these stressors, the scientific literature presents a notable gap in our understanding of the STAT pathway's role in the silver pomfret's adaptive response mechanisms. To address this lacuna, we identified stat genes in the silver pomfret-denominated as Pastat1, Pastat2, Pastat3, Pastat4, and Pastat5-through a thorough and systematic bioinformatics analysis. Further scrutiny of the gene configurations and constituent motifs has elucidated that STAT proteins possess analogous structural frameworks and exhibit significant evolutionary preservation. Subsequently, the expression patterns of five stat genes were verified by RT-qPCR in twelve different tissues and four growth periods in healthy fish, showing that the expression of Pastat genes was temporally and spatially specific, with most of the stat genes expressed at higher levels in the spleen, following muscle, gill, and liver. Transcriptomic analysis of exposure to exogenous stressors, specifically formaldehyde and low-temperature conditions, elucidated that Pastat1 and Pastat2 genes exhibited a heightened sensitivity to these environmental challenges. RT-qPCR assays demonstrated a marked alteration in the expression profiles of jak1 and Pastat gene suites in PaS upon prolonged bacterial infection subsequent to these exogenous insults. Moreover, the gene expression of the downstream effectors involved in innate immunity and apoptosis displayed marked deviations. This study additionally elucidated the Pastat gene family's role in modulating the innate immune response and apoptotic regulation within the silver pomfret during exogenous stressors and subsequent pathogenic incursions."
+},
+{
+"pmid": "38670188",
+"pmc": null,
+"doi": "10.1016/j.ijbiomac.2024.131863",
+"title": "Complement C1q is involved in the activation of membrane attack complexes, regulation of bacterial infectious inflammation, and apoptosis through overexpression in primary cells of silver pomfret (Pampus argenteus) in vitro.",
+"journal": "Int J Biol Macromol",
+"year": "2024",
+"cit": {
+"volume": "268",
+"issue": "Pt 1",
+"pages": "131863"
+},
+"abstract": "The complement system is pivotal in innate immune defense, with Complement 1qb (C1qb) playing a key role in recognizing immune complexes and initiating the classical pathway. In this research, we cloned the full-length cDNA of silver pomfret (Pampus argenteus) c1qb and demonstrated its role in mediating defense responses against Nocardia seriolae (N. seriolae) infection, which notably causes significant economic losses in the aquaculture industry. Our investigation revealed that N. seriolae infection led to tissue damage in fish bodies, as observed in tissue sections. Subsequent analysis of differential genes (DEGs) in the transcriptome highlighted genes linked to apoptosis and inflammation. Through experiments involving overexpression and interference of c1qb in vitro, we confirmed that c1qb could suppress N. seriolae-induced apoptosis and inflammation. Moreover, overexpression of c1qb hindered N. seriolae invasion, and the purified and replicated C1qb protein displayed antimicrobial properties. Additionally, our study unveiled that overexpression of c1qb might stimulate the expression of membrane attack complexes (MAC), potentially enhancing opsonization and antibacterial effects. In conclusion, our findings offer valuable insights into the immune antibacterial mechanisms of c1qb and contribute to the development of strategies for controlling N. seriolae."
+},
+{
+"pmid": "38395996",
+"pmc": "PMC10891316",
+"doi": "10.1038/s41597-024-03070-0",
+"title": "Chromosome-level genome assembly of the silver pomfret Pampus argenteus.",
+"journal": "Sci Data",
+"year": "2024",
+"cit": {
+"volume": "11",
+"issue": "1",
+"pages": "234"
+},
+"abstract": "Pampus argenteus (Euphrasen, 1788) is one of the major fishery species in coastal China. Pampus argenteus has a highly specialized morphology, and its declining fishery resources have encouraged massive research efforts on its aquacultural biology. In this study, we reported the first high-quality chromosome-level genome of P. argenteus obtained by integrating Illumina, PacBio HiFi, and Hi-C sequencing techniques. The final size of the genome was 518.06 Mb, with contig and scaffold N50 values of 20.47 and 22.86 Mb, respectively. The sequences were anchored and oriented onto 24 pseudochromosomes based on Hi-C data corresponding to the 24-chromatid karyotype of P. argenteus. A colinear relationship was observed between the P. argenteus genome and that of a closely related species (Scomber japonicus). A total of 24,696 protein-coding genes were identified from the genome, 98.9% of which were complete BUSCOs. This report represents the first case of high-quality chromosome-level genome assembly for P. argenteus and can provide valuable information for future evolutionary, conservation, and aquacultural research."
+},
+{
+"pmid": "38338860",
+"pmc": "PMC10855460",
+"doi": "10.3390/ijms25031583",
+"title": "Cyp19a1a Promotes Ovarian Maturation through Regulating E2 Synthesis within(Euphrasen, 1788).",
+"journal": "Int J Mol Sci",
+"year": "2024",
+"cit": {
+"volume": "25",
+"issue": "3"
+},
+"abstract": "In the artificial breeding of(Euphrasen, 1788), female fish spawn before male release sperm, which indicates rapid ovarian development. In fish, aromatase is responsible for converting androgens into estrogens and estrogen plays a crucial role in ovarian development. In this study, we aimed to investigate the potential role of brain-type and ovarian-type aromatase to study the rapid ovarian development mechanism. The results showed thatwas mainly expressed in the ovary and could be classified as the ovarian type, whereascould be considered as the brain type for its expression was mainly in the brain. During ovarian development, the expression ofin the ovary significantly increased from stage IV to stage V and Cyp19a1a signals were present in the follicle cells, whileexpression in the pituitary gland decreased from stage IV to stage V. To further investigate the function of Cyp19a1a, recombinant Cyp19a1a (rCyp19a1a) was produced and specific anti-Cyp19a1a antiserum was obtained. The expressions of,(), and() were significantly upregulated in the presence of rCyp19a1a. Meanwhile,was expressed significantly after E2 treatment in both ovarian and testicular tissue culture. Taken together, we found two forms of aromatase in silver pomfret. The ovarian-type aromatase might play an important role in ovarian differentiation and maturation, and participate in E2 synthesis through co-regulation withThe brain-type aromatasemight be involved in the regulation of both brain and gonadal development."
+},
+{
+"pmid": "38218285",
+"pmc": null,
+"doi": "10.1016/j.ijbiomac.2024.129395",
+"title": "Construction of the flagellin F mutant of Vibrio parahaemolyticus and its toxic effects on silver pomfret (Pampus argenteus) cells.",
+"journal": "Int J Biol Macromol",
+"year": "2024",
+"cit": {
+"volume": "259",
+"issue": "Pt 2",
+"pages": "129395"
+},
+"abstract": "Vibrio parahaemolyticus causes diseases in aquatic organisms, leading to substantial financial losses to the aquaculture industry; its flagellin F (flaF) protein triggers severe inflammation in host cells. To enhance the understanding of the function of flaF in V. parahaemolyticus infection, in this study, a flaF-deficient mutant was constructed by employing two-step homologous recombination. The flaF-deficient mutant induced a significantly lower toll-like receptor 5 (TLR5) expression and apoptosis in fish intestinal epithelial cells than the wild-type V. parahaemolyticus. Furthermore, fluorescence labelling and microscopy analysis of TLR5 showed that V. parahaemolyticus and its mutant strain significantly enhanced TLR5 expression. Additionally, the findings suggest that flaF deletion did not significantly affect the expression of myeloid differentiation factor 88 (MyD88) and interleukin-8 (IL-8) induced by V.parahaemolyticus. In summary, V. parahaemolyticus induced a TLR5-dependent inflammatory response and apoptosis through MyD88, which was observed to be influenced by flaF deletion. In this study, we obtained stable mutants of V. parahaemolyticus via target gene deletion-which is a rapid and effective approach-and compared the induction of inflammatory response and apoptosis by V. parahaemolyticus and its mutant strain, providing novel perspectives for functional gene research in V. parahaemolyticus."
+},
+{
+"pmid": "38211439",
+"pmc": null,
+"doi": "10.1016/j.anireprosci.2023.107373",
+"title": "Determination of the timing of early gonadal differentiation in silver pomfret, Pampus argenteus.",
+"journal": "Anim Reprod Sci",
+"year": "2023",
+"cit": {
+"volume": "261",
+"pages": "107373"
+},
+"abstract": "Silver pomfret is a species of global significance due to its high nutritional in fisheries sector. To accurately ascertain the timing of sex differentiation mechanism and mRNA level in this species, this study examined gonad morphology and patterns of gene expression related to sex differentiation in males and females from 51 to 180 days post hatch (dph), the temperature of water was maintained at 26 ± 1 ℃. Distinct morphological differentiation of the silver pomfret ovaries, marked by the emergence of primary oocytes, became apparent from 68 dph. By 108 dph, the testes began to differentiate, as evidenced by the appearance of the efferent duct. Early oocytes exhibited a diameter ranged from 0.077 mm to 0.682 mm, with an average diameter of 0.343 ± 0.051 mm. The proportions of various types of germ cells within the testes were subjected to analysis. The localization of Vasa during the early stages of sexual differentiation was a subject to analysis as well. Vasa was predominantly localized within the cytoplasm of gonocyte, peri-nucleolus stage oocytes, primary oocytes and type A spermatogonocytes, indicating that Vasa is involved in the early gonadal differentiation of silver pomfret. The study investigated the expression patterns of dmrt1, gsdf, amh, foxl2, cyp19a1a, cyp11a, sox3 and vasa, all of which are involved in the sex differentiation of teleosts. Among these genes, amh, gsdf, sox3, foxl2, vasa were indentified as crucial contributors to the early gonadal development of silver pomfret. Significant sex-related differences were observed in the expression patterns of amh, dmrt1, gsdf, cyp11a, sox3, cyp19a1a, vasa. This study provides novel insights into the timing of physiological changes associated with the sexual differentiation of silver pomfret. Collectively, the present data indicates that the differentiation of ovaries and testes take place approximately at 68 dph in females and 108 dph in males."
+},
+{
+"pmid": "38183610",
+"pmc": null,
+"doi": "10.1007/s11686-023-00769-9",
+"title": "First Molecular Identification and Subtyping of Blastocystis sp. in the Most Consumed Edible Marine Fish of Iran: A Foodborne Concern.",
+"journal": "Acta Parasitol",
+"year": "2024",
+"cit": {
+"volume": "69",
+"issue": "1",
+"pages": "446-452"
+},
+"abstract": "The presence of Blastocystis sp. is commonly observed in humans and different animals, displaying a wide range of genetic variations with the discovery of multiple subtypes (STs). However, the prevalence and distribution of these STs in edible marine fish and marine mammals remain uncertain. This study marks the first survey conducted in Iran and the second global molecular investigation to examine the occurrence and STs distribution of Blastocystis in various species of edible marine fish.\n\nThis study screened 200 fresh intestinal contents from 10 well-known fish species (Narrow-barred mackerel, Indo-pacific king mackerel, Tigertooth croaker, Silver pomfret, Black pomfret, Longtail tuna, John's snapper, Blackspotted croaker, Four-finger threadfin, and Javelin grunter) in southern Iran, caught in the Persian Gulf. All collected samples were evaluated by microscopy and SSU-PCR methods.\n\nBased on both microscopy and PCR, the overall prevalence of Blastocystis sp. in evaluated fish species was 2% (4/200). In brief, Blastocystis sp. was reported from Narrow-barred mackerel [10% (2/20)], Silver pomfret [5% (1/20)], and Tigertooth croaker [5% (1/20)]. Interestingly, among infected fish species three zoonotic STs (ST1, ST2, and ST7) were identified. ST2 was the most predominant ST [50% (2/4)], followed by ST1 and ST7, one sample each [5% (1/20)].\n\nOverall, the prevalence and STs distribution of Blastocystis in edible marine fish along with the possibility of its zoonotic transmission are still open to question and require extensive and more detailed studies."
+},
+{
+"pmid": "38036286",
+"pmc": null,
+"doi": "10.1016/j.cbpb.2023.110926",
+"title": "Fatty acid translocase (FAT/CD36) in silver pomfret (Pampus argenteus): Molecular cloning and functional characterization.",
+"journal": "Comp Biochem Physiol B Biochem Mol Biol",
+"year": "2023",
+"cit": {
+"volume": "270",
+"pages": "110926"
+},
+"abstract": "Understanding the mechanisms of lipid transport and metabolism in fish is crucial to enhance dietary lipid utilization. Here, fatty acid translocase (CD36) gene was characterized in silver pomfret (Pampus argenteus). The open reading frame of silver pomfret cd36 gene was 1395 bp, encoding 464 amino acids. The silver pomfret CD36 protein contained typical transmembrane regions and N-glycosylation modification sites, and was localized to the cytomembrane. The cd36 gene was ubiquitously expressed in all tested tissues, with the highest expression observed in brain tissue. In vivo, both fasting and short-term high-fat feeding could increase cd36 expression in intestinal tissue. In vitro, cd36 expression was induced by palmitic acid, oleic acid, linolenic acid, eicosapentaenoic acid (EPA), and docosahexaenoic acid treatment in intestinal tissue. Furthermore, dual-luciferase reporter assay results indicated that peroxisome proliferator-activated receptor gamma (PPARγ) could enhance cd36 promoter activity, and the co-expression of cd36 and pparγ was observed in EPA-incubated intestine, suggesting that EPA may regulate the expression of cd36 via PPARγ to maintain the homeostasis of intestinal lipid metabolism in silver pomfret. These results highlighted the crucial role of CD36 in silver pomfret, and suggested that the cd36 expression may be regulated by PPARγ. This study could contribute to a greater understanding of lipid metabolism and the development of effective strategies for nutrient requirements in fish."
+},
+{
+"pmid": "37944682",
+"pmc": null,
+"doi": "10.1016/j.fsi.2023.109209",
+"title": "Molecular characterization and functional analysis of galectin-1 from silver pomfret (Pampus argenteus).",
+"journal": "Fish Shellfish Immunol",
+"year": "2023",
+"cit": {
+"volume": "143",
+"pages": "109209"
+},
+"abstract": "Galectins, as members of lectin families, exhibit a high affinity for β-galactosides and play diverse roles in biological processes. They function as pattern recognition receptors (PRRs) with important roles in immune defense. In this study, galectin-1, designated as SpGal-1, was identified and characterized from silver pomfret (Pampus argenteus). The SpGal-1 comprises an open reading frame (ORF) spanning 396 base pairs (bp) and encodes a deduced amino acid (aa) sequence containing a single carbohydrate recognition domain (CRD). Sublocalization analysis revealed that SpGal-1 was mainly expressed in the cytoplasm. The mRNA transcripts of SpGal-1 were ubiquitously detected in various tissues, with a higher expression level in the intestine. In addition, when exposed to Photobacterium damselae subsp. damselae (PDD) infection, both the liver and head kidney exhibited significantly increased SpGal-1 mRNA expression. The recombinant protein of SpGal-1 (named as rSpGal-1) demonstrated hemagglutination against red blood cells (RBCs) from Larimichthys crocea and P. argenteus in a Caor β-Mercaptoethanol (β-ME)-independent manner. Notably, rSpGal-1 could bind with various pathogen-associated molecular patterns (PAMPs) including D-galactose, D-mannose, lipopolysaccharide (LPS), and peptidoglycan (PGN), with highest affinity to PGN. Moreover, rSpGal-1 effectively interacted with an array of bacterial types encompassing Gram-positive bacteria (Staphylococcus aureus and Nocardia seriolae) and Gram-negative bacteria (PDD and Escherichia coli, among others), with the most robust binding affinity towards PDD. Collectively, these findings highlight that SpGal-1 is a crucial PRR with involvement in the host immune defense of silver pomfret."
+},
+{
+"pmid": "37864114",
+"pmc": null,
+"doi": "10.1007/s10126-023-10261-0",
+"title": "Change and Regulation of Nutritional Metabolism in Silver Pomfret During Compensatory Growth.",
+"journal": "Mar Biotechnol (NY)",
+"year": "2023",
+"cit": {
+"volume": "25",
+"issue": "6",
+"pages": "1085-1098"
+},
+"abstract": "Compensatory growth (CG) in fish is heavily influenced by nutrient metabolism. However, there are limited studies examining how nutrient metabolism is regulated during this process. For silver pomfret, an important commercial marine fish, it's crucial to establish effective starvation and re-feeding strategies to ensure good water quality and fast growth. To identify the complete compensatory growth model of silver pomfret, we conducted an experiment with a control group (normal feeding) and three starvation/re-feeding groups. We observed that the recovery of weight and condition factor in the 14-day starvation and 14-day re-feeding groups was significantly faster than other groups, indicating full compensatory growth. Thus, we selected this group for the next experiment. We performed untargeted metabolomics and transcriptome analysis of muscle tissue on Day 14, 21 and 28 (CG process), and examined the key regulatory genes of nutrient metabolism on Day 0, 7, 14, 21 and 28 (starvation and re-feeding process). Our data revealed that during starvation, silver pomfret first utilized carbohydrates and short-chain lipids, followed by proteins and long-chain lipids. After re-feeding, lipids accumulated first, resulting in rapid growth, followed by the recovery of protein content in muscle. During starvation, the expression of anabolic-related genes such as TER and CALR decreased, and catabolic-related genes such as TSC2 and MLYCD increased, promoting the AMPK pathway. During re-feeding, anabolic-related gene expression increased without AMPK inhibition. Our findings provide insights into the energy utilization strategies of fish and molecular regulation during compensatory growth in fish."
+},
+{
+"pmid": "37703936",
+"pmc": null,
+"doi": "10.1016/j.fsi.2023.109071",
+"title": "Identification and characterization of toll-like receptor genes in silver pomfret (Pampus argenteus) and their involvement in the host immune response to Photobacterium damselae subsp. Damselae and Nocardia seriolae infection.",
+"journal": "Fish Shellfish Immunol",
+"year": "2023",
+"cit": {
+"volume": "141",
+"pages": "109071"
+},
+"abstract": "Toll-like receptors (TLRs) are vital pattern recognition receptors that play a critical role in the innate immune response against pathogenic attack. Among the bacteria commonly found in the culture process of silver pomfret, Photobacterium damselae subsp. Damselae (PDD, gram-negative) and Nocardia seriolae (NS, gram-positive), can cause large-scale mortality in this fish species. However, there is currently no research on the role of TLRs in mediating the immune response of silver pomfret to these two bacterial infections. Therefore, in this study, we identified nine PaTLRs family members, including several fish-specific TLRs (TLR14 and TLR21). Phylogenetic analysis revealed that these PaTLRs genes could be classified into five subfamilies, namely TLR1, TLR3, TLR5, TLR7, and TLR11, indicating their evolutionary conservation. To further explore the interactions of TLR genes with immune-related mediators, protein and protein interaction network (PPI) results were generated to explain the association of TLR genes with TNF receptor-associated factor 6 (TRAF6) and other relevant genes in the MyD88-dependent pathway and NF-κb signaling pathway. Subsequently, RT-qPCR was conducted to verify the expression patterns of the nine TLR genes in the gills, skin, kidney, liver, and spleen of healthy fish, with most of the TLRs showing high expression levels in the spleen. Following infection with PDD and NS, these PaTLRs exhibited different expression patterns in the spleen, with PaTLR2, PaTLR3, PaTLR5, PaTLR7, PaTLR9, and PaTLR14 being significantly up-regulated. Furthermore, when spleen cells were treated with bacterial compositions, the majority of PaTLRs expression was up-regulated in response to Lipopolysaccharide (LPS) and lipophosphorylcholic acid (LTA) treatment, except for PaTLR21. Finally, changes in the expression levels of TLR-interacting genes were also observed under the stimulation of bacteria and bacterial compositions. The results of this study provide a preliminary reference for further understanding the mechanism of the innate immune response of the TLR gene family in silver pomfret and offer theoretical support for addressing the disease problems encountered during large-scale fish breeding."
+},
+{
+"pmid": "37658990",
+"pmc": null,
+"doi": "10.1007/s10126-023-10245-0",
+"title": "Cold Stress Induces Apoptosis in Silver Pomfret via DUSP-JNK Pathway.",
+"journal": "Mar Biotechnol (NY)",
+"year": "2023",
+"cit": {
+"volume": "25",
+"issue": "6",
+"pages": "846-857"
+},
+"abstract": "We cultured silver pomfret for 20 days, decreasing water temperature from 18 to 8 ℃, and sampled muscle every 5 days. Muscle fiber degeneration and apoptosis began to increase at 13 ℃ detected by HE and TUNEL staining. Further analysis of transcriptome revealed that several apoptosis-related pathways were highly enriched by differentially expressed genes (DEGs). We analyzed 10 DEGs from these pathways by RT-qPCR during the temperature-decreasing process. JNK1, PIDD, CytC, Casp 3, and GADD45 were up-regulated after 15 and 20 days, while DUSP3, JNK2, and PARP genes were down-regulated after 15 and 20 days. DUSP5 was up-regulated from 10 to 20 days, and C-JUN was up-regulated after 20 days. We analyzed apoptosis in PaM cells under different temperatures (26 ℃, 23 ℃, 20 ℃, 17 ℃, and 14 ℃). The cell viability significantly declined from 14 to 20 ℃; the TUNEL and IHC results showed that the apoptosis signal increased with the temperature dropping, especially in 17 ℃ and 14 ℃; DUSP5, JNK1, CytC, C-JUN, Casp 3, and GADD45 were up-regulated at 17 ℃ and 14 ℃, and PIDD was up-regulated at 20 ℃, 17 ℃, and 14 ℃. DUSP3 was up-regulated at 20 ℃ but down-regulated at 17 ℃ and 14 ℃, and PARP was down-regulated at 17 ℃ and 14 ℃. JNK2 was up-regulated at 20 ℃ but down-regulated at 17 ℃ and 14 ℃. Our results suggest that DUSP could help inhibit apoptosis in the initial stage of cold stress, but low temperature could down-regulate it and up-regulate JNK-C-JUN, inducing apoptosis in a later stage. These data provide a basis for the study of the response mechanism of fish to cold."
+},
+{
+"pmid": "37511526",
+"pmc": "PMC10380636",
+"doi": "10.3390/ijms241411769",
+"title": "Developmental Genetic Basis ofHomeobox Domain Deletion inPelvic Fin Deficiency.",
+"journal": "Int J Mol Sci",
+"year": "2023",
+"cit": {
+"volume": "24",
+"issue": "14"
+},
+"abstract": "is important for commercial fishery catch species and is an emerging target for aquaculture production. Notably,has a bizarre morphology and lacks pelvic fins. However, the reason for the lack of pelvic fins remains unclear, ultimately leading to frequent upside-down floating ofduring breeding and marked consumption of physical energy. Some lineages, including whales, fugu, snakes, and seahorse, independently lost the pelvic appendages over evolutionary time. Do different taxa employ the same molecular genetic pathways when they independently evolve similar developmental morphologies? Through analysis of the gene responsible for appendage localization, Hoxd9, it was discovered that the Hox domain was absent in thegene of, and thegene lacked the Hox9 activation region, a feature not observed in thegene of other fish species. Interestingly, those distinctive characteristics are not observed in thegene of other fish species. To determine the association between thegene characteristics and the pelvic fin deletion in, the full-length cDNA of thegene was cloned, and morphological observations of the species' juveniles were performed using stereomicroscopy and scanning electron microscopy. Thereafter, the tissue localization of Hoxd9a in the species was analyzed at the gene and protein levels. Based on the results, deletion of the Hoxd9a structural domain possibly leads to disruptions in the protein translation and the pelvic fin localization induring its early ontogenetic developmental stage, resulting in the absence of pelvic fins."
+},
+{
+"pmid": "37496293",
+"pmc": null,
+"doi": "10.1111/jfd.13839",
+"title": "Establishment and characterization of a liver cell line from silver pomfret (Pampus argenteus) for studying fish health.",
+"journal": "J Fish Dis",
+"year": "2023",
+"cit": {
+"volume": "46",
+"issue": "11",
+"pages": "1193-1205"
+},
+"abstract": "Fish cell lines have become a useful tool to study in resource conservation, genetic breeding, diseases control, and environmental pollutants detection. The silver pomfret (Pampus argenteus) is a high-valued marine fish species in aquaculture, which is seriously threatened by various fish diseases. In this study, a new cell line derived from P. argenteus liver (PaL) was established and characterized. PaL cells mainly consisted of fibroblast-like morphology and multiplied well in Leibovitz's L-15 medium supplemented with 15% foetal bovine serum and 3 ng/mL basic fibroblast growth factor at 22°C. Amplification of the Cyt b gene confirmed that the origin of PaL cells as P. argenteus. Chromosome analysis revealed that PaL cells had a diploid Karyotyp. The PaL cells were efficiently transfected with pEGFP-N3 plasmids, indicating its potential application in foreign gene manipulation studies. The PaL cells were found to be susceptible to red sea bream iridovirus (RSIV) and the expression of immune-related gene (TLR5) and apoptosis-related genes (Bax, Cyt c3, CASP9) were upregulated. Furthermore, lipopolysaccharide and palmitic acid (PA) treatments decreased cell viability and up-regulated the expression of inflammation related genes (IL-8, IL-1β). Meanwhile, PA incubation induced cell apoptosis by Bcl-2-regulated caspase activation. In conclusion, the newly established PaL cell line will be an appropriate in vitro tool for viral propagation and immune response."
+},
+{
+"pmid": "37318385",
+"pmc": null,
+"doi": "10.3354/dao03728",
+"title": "Outbreak of Cryptocaryon irritans infection in silver pomfret Pampus argenteus cultured in China.",
+"journal": "Dis Aquat Organ",
+"year": "2022",
+"cit": {
+"volume": "154",
+"pages": "59-68"
+},
+"abstract": "Silver pomfret Pampus argenteus is a major cultivated marine fish species with a high market value. In summer 2021, Cryptocaryon irritans, a ciliate parasite, infected the cultured silver pomfret in aquaculture ponds in Ningbo, Zhejiang Province, China. The symptoms of infected fish include white spots on the skin and fins, increased body surface mucus, loss of appetite, irritability, and shedding of scales. After collecting white spots from moribund fish, the 18S ribosomal RNA sequence of the pathogen on the fish skin was amplified by PCR; phylogenetic analysis showed that it was closely related to C. irritans strains from Ningde, Fujian, China. Four groups of silver pomfret were tested in an artificial infection experiment over the course of 72 h, consisting of 3 infected groups (1600, 4000, and 8000 theronts fish-1) and 1 healthy group. White spots were observed on the skin and fins of the infected fish, but not on their gills. Samples were taken from the gills, liver, kidney, and spleen of both infected and healthy fish and were compared to evaluate any significant histopathological differences. As the dose of infection increased, symptoms became more pronounced. At 72 h, mortality rates were 8.3, 50, and 66.7% for the 3 different concentrations, respectively. The median lethal concentration was calculated to be 366 theronts g-1 at 72 h, 298 theronts g-1 at 84 h, and 219 theronts g-1 at 96 h. This study emphasizes the importance of developing early diagnosis methods and appropriate prevention strategies to decrease the impact of C. irritans infection in the silver pomfret aquaculture industry."
+},
+{
+"pmid": "37228017",
+"pmc": null,
+"doi": "10.1093/biolre/ioad058",
+"title": "Insulin-like growth factor 1 promotes the gonadal development of Pampus argenteus by regulating energy metabolism†.",
+"journal": "Biol Reprod",
+"year": "2023",
+"cit": {
+"volume": "109",
+"issue": "2",
+"pages": "227-237"
+},
+"abstract": "Insulin-like growth factor 1 (Igf1) is known to promote ovarian maturation by interacting with other hormones. However, the limited research on the role of Igf1 in the energy metabolism supply of gonads has hindered further exploration. To explore the role of Igf1 in gonadal development of silver pomfret, we analyzed the expression levels and the localization of igf1 mRNA and protein during testicular and ovarian development of silver pomfret. The results of the study showed upregulation of Igf1 in the critical period of vitellogenesis and sperm meiosis, which was found to be mainly expressed in the somatic cells of the gonads. Upon adding E2 and Igf1 to cultured gonadal tissues, the expression of energy-related genes was significantly increased, along with the E2-enhanced effect of Igf1 in the testis. Importantly, stimulation of both ovaries and testes with E2 and Igf1 led to a remarkable increase in the expression of vitellogenesis and meiosis-related genes. Therefore, we conclude that Igf1 promotes vitellogenesis and sperm meiosis by regulating gonadal energy production. Moreover, the expression of Igf1 in gonads is significantly regulated by E2. These findings provide new insights for the research of Igf1 in fish breeding, thus allowing the regulation of energy metabolism between growth and reproduction for successful reproductive outcomes."
+},
+{
+"pmid": "37163792",
+"pmc": null,
+"doi": "10.1016/j.marpolbul.2023.114986",
+"title": "Occurrence, distribution, and risk assessment of halogenated organic pollutants (HOPs) in marine fish muscle: The case study of Vietnam.",
+"journal": "Mar Pollut Bull",
+"year": "2023",
+"cit": {
+"volume": "192",
+"pages": "114986"
+},
+"abstract": "Halogenated organic pollutants (HOPs), including polychlorinated biphenyls (PCBs), organochlorine pesticides (OCPs), and chlorophenols (CPs), were identified in three marine fish species in Vietnam. Total PCBs, OCPs, and CPs concentrations ranged from 4.5 to 711.6 ng glipid weight (lw), 69.9-2360 ng glw, and 208.1-3941.2 ng glw, respectively. CPs were the most frequently detected pollutants in the marine environment of Vietnam of the three HOPs studied, followed by OCPs and PCBs. There are significant differences in HOPs between three types of seafood in Vietnam, including yellowstripe scad, Indian mackerel, and silver pomfret in this study. Notably, the types and amounts of HOPs found in the fish were differently influenced by the economic and industrial activities of the sampled areas. Despite these findings, the consumption of HOP-contaminated fish from the study areas was found not to pose any significant health risks to Vietnam's coastal population."
+},
+{
+"pmid": "37080919",
+"pmc": null,
+"doi": "10.1111/jfb.15413",
+"title": "Effects of different photoperiods on growth and ovarian development and maturation of silver pomfret Pampus argenteus.",
+"journal": "J Fish Biol",
+"year": "2023",
+"cit": {
+"volume": "103",
+"issue": "1",
+"pages": "59-72"
+},
+"abstract": "Photoperiod has a great influence on the growth and ovarian development and maturation of fishes. To analyse the effects of photoperiod on growth and ovarian development of an important marine economic fish, silver pomfret Pampus argenteus, short photoperiod group (L:D = 8:16), control group (L:D = 12:12) and long photoperiod group (L:D = 18:6) were set up for 60 days. The growth performance, ovarian development, changes in hormones and key enzyme activities in the hypothalamic-pituitary-gonadal (HPG) axis and expressions of key regulatory genes in the HPG axis were studied under different photoperiod conditions. The results showed that the final weight gain, body weight index, specific growth rate for weight, specific growth rate for length and average daily growth were the highest in the long photoperiod group, and the feed conversion rate was the lowest. Under long photoperiod condition, gonado-somatic index and hepato-somatic index were higher, ovarian maturity was better and expressions of HPG axis-related regulatory genes foxl2a, foxl2b, cyp19a1a, cyp19a1b, kiss, gpr54-2, gnrh2, fsh and lh were higher. When compared with the other two groups, in the long photoperiod group, the change trend of estradiol (E2) was consistent with those of luteinizing hormone, melatonin (MT) and kisspeptin, and the levels were higher on the 20th and 50th days. These results indicate that prolongation of the photoperiod can improve the growth performance of P. argenteus and promote ovary development and maturation. The authors speculate that photoperiod may regulate the ovarian activity of P. argenteus through MT and kisspeptin/gpr54 signalling pathways. The results show that photoperiod can regulate the ovarian development of P. argenteus, which would help in breaking the seasonal restrictions of animals and regulating an animal's reproductive cycle."
+},
+{
+"pmid": "35716499",
+"pmc": null,
+"doi": "10.1016/j.foodchem.2022.133457",
+"title": "Determination of the geographical origin of Trachinotus ovatus and Pampus argenteus in China by multi-element and stable isotope analysis.",
+"journal": "Food Chem",
+"year": "2022",
+"cit": {
+"volume": "394",
+"pages": "133457"
+},
+"abstract": "This study aimed to determine whether Trachinotus ovatus and Pampus argenteus could be differentiated by multi-element composition or stable isotope ratio analysis of δC and δN. The multi-element analysis values of a total of 60 Pampus argenteus samples from three sites and 60 Trachinotus ovatus samples from four sites around China were determined, and the other 60 samples of Pampus argenteus and 51 samples of Trachinotus ovatus were tested by principal component analysis (PCA) to estimate the accuracy of origin identification. The results showed that the cross-validation accuracy rate is 92.2% for the Pampus argenteus and 98.3% for the Trachinotus ovatus. Stable isotope analysis of δC and δN also can distinguish Trachinotus ovatus from different geographical origins. These results showed that the usefulness of multi-element and stable isotope analysis as indicators for authenticating the geographical origin of two pomfrets in China."
+},
+{
+"pmid": "35662181",
+"pmc": null,
+"doi": "10.1111/ahe.12825",
+"title": "Morphological analysis of Prochilodus argenteus ovaries in successful and unsuccessful hypophysation-induced reproduction.",
+"journal": "Anat Histol Embryol",
+"year": "2022",
+"cit": {
+"volume": "51",
+"issue": "4",
+"pages": "509-513"
+},
+"abstract": "Pampus argenteus is a species of economic importance for professional fishing and aquaculture. To analyse the quality of oocytes of P. argenteus, 10 females were kept in tanks of 200 mwith an average depth of 1 m in the Integrated Center of Fishing Resources and Aquaculture of Três Marias - CODEVASF. Specimens were submitted to hypophysation-induced reproduction with crude extract of common carp pituitary (EBHC). Females received two doses (0.8-1.0 and 5.0-6.6 mg of EBHC/kg body weight, respectively), with a 12-h interval between doses. For males, a single dose (2.7 mg/kg body weight) was applied at the same time as the females' second dose. Oocytes were extruded manually 8 h after the second hormonal dose at 26°C. It was observed that seven females responded positively to the procedure while the other three released bloody and lumpy oocytes. For histological analysis, ovarian fragments were fixed in Bouin's liquid for 8-12 h and submitted to routine histological techniques. The protocol was considered successful for 70% of females and 100% of males. The fertilization rate of the females from the unsuccessful group was very low, and histological analyses showed that most of their oocytes were in follicular atresia, suggesting a delay in hormonal administration or extrusion could have occurred. Despite the hypophysation protocol being considered adequate for the induced reproduction of P. argenteus, complementary studies are necessary to evaluate the possible causes of this degenerative process."
+},
+{
+"pmid": "35653987",
+"pmc": null,
+"doi": "10.1016/j.foodchem.2022.133266",
+"title": "Improvements in chitosan-based slurry ice production and its application in precooling and storage of Pampus argenteus.",
+"journal": "Food Chem",
+"year": "2022",
+"cit": {
+"volume": "393",
+"pages": "133266"
+},
+"abstract": "The effects of microbubbles in chitosan-based slurry ice production were investigated, and the efficiency of chitosan-based slurry ice was evaluated for silver pomfret (Pampus argenteus) precooling and storage at 0 °C. Microbubbles generated though agitation accelerated slurry ice production by promoting ice nucleation and eliminating supercooling. Higher bubble counts improved freezing, but overly large bubbles reduced the performance. The rheological properties of chitosan solutions were also investigaed, and solutions with higher viscosity formed more bubbles. Experiments investigating precooling rates, microbial concentrations, pH, thiobarbituric-acid-reactive substances, and total volatile basic nitrogen all confirmed that chitosan-based slurry ice had higher performance than flake ice or conventional slurry ice. Chitosan-based slurry ice can be used for precooling in the fish industry to reduce energy consumption, accelerate precooling, reduce microbial growth, and improve shelf life."
+},
+{
+"pmid": "35640333",
+"pmc": null,
+"doi": "10.1016/j.foodchem.2022.133237",
+"title": "Evaluation of storage quality of vacuum-packaged silver Pomfret (Pampus argenteus) treated with combined ultrasound and plasma functionalized liquids hurdle technology.",
+"journal": "Food Chem",
+"year": "2022",
+"cit": {
+"volume": "391",
+"pages": "133237"
+},
+"abstract": "The effects of the treatment (UPFL) combining ultrasound (US) with plasma functionalized liquids (PFL) were evaluated on the quality of vacuum-packaged silver Pomfret stored at 4 ℃ for 15 days. Conformational modifications in myofibrillar proteins, improvements in nutritional value and biomedical index of fatty acids and lipids, reduced pH of 5.70, increased K-value, TBARS, and TVB-N at values of 12.05%, 0.576 mg MDA/kg, and 9.15 mg N/100 g, respectively, and 1.99 log reductions in spoilage microorganisms were evident immediately after treatments. UPFL presented better quality preservative effects when compared with individual applications of US or PFL, and vacuum packaging ensured optimal quality enhancement effects such as stability of myofibril fragmentation, inhibition of physicochemical quality degradation, and microbial growth control. The results also revealed the predominant cultivable spoilage microbiota of vacuum-packaged silver Pomfret treated with UPFL, providing valuable information towards developing broad-spectrum sanitisers and hurdle technology for the seafood industry."
+},
+{
+"pmid": "35421576",
+"pmc": null,
+"doi": "10.1016/j.fsi.2022.04.011",
+"title": "Eicosapentaenoic acid mitigates palmitic acid-induced heat shock response, inflammation and repair processes in fish intestine.",
+"journal": "Fish Shellfish Immunol",
+"year": "2022",
+"cit": {
+"volume": "124",
+"pages": "362-371"
+},
+"abstract": "Understanding the metabolic effects of fatty acids on fish intestine is critical to the substitution of fish oil with vegetable oils in aquaculture. In this study, the effects of eicosapentaenoic acid (EPA) and palmitic acid (PA) on fish intestine were evaluated in vitro and in vivo. As the first step for in vitro study, an intestinal cell line (SPIF) was established from silver pomfret (Pampus argenteus). Thereafter, the effects of EPA and PA on cell viability, prostaglandin E2 (PGE2) production, and the expression of genes related to heat shock response, inflammation, extracellular matrix (ECM) formation and degradation were examined in SPIF cells. Finally, these metabolic effects of EPA and PA on the intestine were examined in zebrafish (Danio rerio) larvae. Results showed that all tested fatty acids (PA, oleic acid, linoleic acid, α-linolenic acid, arachidonic acid, and docosahexaenoic acid) except EPA reduced SPIF viability to distinct degrees at the same concentrations. PA decreased SPIF viability accompanied by an increase in PGE2 level. Meanwhile, PA increased the expression of genes related to heat shock response (grp78, grp94, hsp70, and hsp90) and inflammation (nf-κb, il-1β, and cox2). Furthermore, PA reduced the expression of collagen type I (col1a1a and col1a1b) and extracellular matrix (ECM) degradation-related gene mmp2, while up-regulating timp2 mRNA expression. In vivo, PA also increased hsp70, il-1β, and cox2 mRNA levels and limited the expression of collagen type I in the larval zebrafish intestine. Interestingly, the combination of EPA and PA partially recovered the PA-induced changes in cell viability, PGE2 production, and mRNA expression in vitro and in vivo. These results suggest that PA may result in heat shock and inflammatory responses, as well as alter ECM formation and degradation in fish intestine, while EPA could at least partially mitigate these negative effects caused by PA."
+},
+{
+"pmid": "35033668",
+"pmc": null,
+"doi": "10.1016/j.fsi.2022.01.017",
+"title": "Transcriptome, antioxidant enzymes and histological analysis reveal molecular mechanisms responsive to long-term cold stress in silver pomfret (Pampus argenteus).",
+"journal": "Fish Shellfish Immunol",
+"year": "2022",
+"cit": {
+"volume": "121",
+"pages": "351-361"
+},
+"abstract": "Temperature is a major environmental factor influence fish growth, development, metabolism and physiological performance. Silver pomfret (Pampus argenteus) is an economically important fishery species, however, the molecular mechanisms responsive to long-term cold stress are still unclear. Hence, we altered water temperature from 13 °C to 8 °C, a logistic fit curve for the survival rate of P. argenteus under a gradient cold stress were thus achieved, 50% survival rate at a measured temperature of 7 °C-7.5 °C. After stimulation, the gill, liver and muscle tissues were investigated through transcriptome, antioxidant enzymes and histological observation. The results showed that antioxidant enzyme and Na-kATPase activity in gill tissue was significantly increased, tissue damage and apoptosis were observed in multi-tissues. By high-throughput sequencing, a total of 618,097,404 reads of raw data and 598,855,490 reads of clean data were obtained, containing 12,489 differently expressed genes (DEGs). KEGG pathway enrichment analysis showed that DNA replication, protein digestion and absorption, cardiac muscle contraction, adrenergic signaling in cardiomyocytes, and metabolic pathways were significantly enriched in multi-tissues. Fifteen DEGs were selected for real-time PCR (RT-qPCR) analysis, and the results were consistent with transcriptome profiling. Based on the results, we inferred that P. argenteus survived at low temperatures may be achieved by improving the ability to scavenge oxyradical substance and enhancing cell fluidity. This present study indicated that the effects of long-term cold stress on P. argenteus, which is valuable for breeding cold-tolerant P. argenteus stocks for cultivation."
+},
+{
+"pmid": "34655102",
+"pmc": null,
+"doi": "10.1111/ahe.12747",
+"title": "The ultrastructure of spermatogenic cells and morphological evaluation of testicular development in the silver pomfret (Pampus argenteus).",
+"journal": "Anat Histol Embryol",
+"year": "2021",
+"cit": {
+"volume": "50",
+"issue": "6",
+"pages": "1034-1042"
+},
+"abstract": "The silver pomfret (Pampus argenteus) is a widely distributed and economically important marine fish in the Indo-Pacific. In this study, we acquired the second generation of wild P. argenteus by artificial breeding and further studied the testicular development and ultrastructure of spermatogenesis. The results of gonadosomatic index (GSI) showed the spawning period of this marine fish was from April to June. Besides, through morphological analysis, we found that P. argenteus had an anastomosing tubular testis surrounded by a layer of tunica albuginea, in which spermatogenesis occurred in cysts where the synchronous germ cells were completely surrounded by the cytoplasmic projection of Sertoli cells. Meanwhile, based on submicroscopic characteristics, the germ cells are classified into nine different types. During the ontogenesis of testis, both the early stage of spermatogenesis and sperm were observed in P. argenteus. At sperm maturation stage, different types of spermatozoa and activation of sperms occurred non-synchronously in the tubules. Cytoplasmic bridges also were observed among synchronous germ cells within the cysts, suggesting an interrelated and differentiated relationship among these germ cells."
+},
+{
+"pmid": "34634570",
+"pmc": null,
+"doi": "10.1016/j.cbd.2021.100923",
+"title": "Dietary jellyfish affect digestive enzyme activities and gut microbiota of Pampus argenteus.",
+"journal": "Comp Biochem Physiol Part D Genomics Proteomics",
+"year": "2021",
+"cit": {
+"volume": "40",
+"pages": "100923"
+},
+"abstract": "For many years, jellyfish were described as 'dead ends' in marine food webs, due to their high-water content and low nutritional value. However, it has been confirmed that silver pomfret (Pampus argenteus) has a particular preference for preying on jellyfish. In this study, we determined the effect of consuming jellyfish on the intestinal microbes of silver pomfret. Analysis of bacterial 16S rRNA gene amplicons showed that jellyfish had a dramatic impact on the composition of the gut microbiota. The content of Proteobacteria was reduced from 99% to 51%, while Firmicutes, Bacteroidetes and Actinobacteria increased, accounting for 35%, 9% and 2% of the total flora, respectively. At the genus level, the content of Photobacterium decreased sharply to <1% of the total flora. By contrast, Lactobacillus, Burkholderia and Sphingomonas increased to 12%, 9% and 7% of the total flora, respectively. After feeding jellyfish, the functions of intestinal microbes and the activity of digestive enzymes also changed, resulting in better digestion and absorption of jellyfish. The results provide insights into the specific bacterial taxa within the silver pomfret intestinal microbiome that are impacted by jellyfish. Silver pomfret can better digest and absorb jellyfish by adjusting the intestinal microbial composition. The findings provide a theoretical basis for the digestive mechanism by which silver pomfret consume jellyfish."
+},
+{
+"pmid": "34588895",
+"pmc": "PMC8459042",
+"doi": "10.1016/j.sjbs.2021.06.026",
+"title": "Recent advances in artificial breeding and larval rearing of silver pomfret(Euphrasen 1788in Kuwait.",
+"journal": "Saudi J Biol Sci",
+"year": "2021",
+"cit": {
+"volume": "28",
+"issue": "10",
+"pages": "5808-5815"
+},
+"abstract": "During last several years, Kuwait Institute for Scientific Research (KISR), Kuwait has been trying to develop a sustainable culture technique for silver pomfret (). This paper reports the recent research advances in the breeding and rearing of silver pomfret fry at KISR. The eggs collected from wild silver pomfret during spawning seasons of 2012 to 2015 were artificially fertilized under laboratory condition. The average hatching rates of artificially fertilized eggs collected from wild silver pomfrets were 25.6%, 44.8%, 76.7%, and 53.5.0% and average survival rates of metamorphosed fry produced from these eggs were 3.7%, 5.7%, 4.4% and 3.8% for the spawning seasons 2012, 2013, 2014, and 2015, respectively. For captive brood stocks, observation on the spawning time at hourly interval by collecting eggs from the nets set at out-flow of brood tanks showed that the spawning time for captive silver pomfret starts at the time of sunset. In 2012, two groups of captive silver pomfret broods spawned a total of 62x10and 66x10eggs, but the eggs were unfertilized. No captive spawning occurred during 2013 and 2014 spawning season. In 2015, captive silver pomfret broods in three tanks spawned about 653x10, 673x10and 270x10eggs, and in 2016, the broods in four tanks spawned about 669x10, 22x10, 3x10and 366x10eggs. However, from these eggs only 1,400 and 1,000 fertilized eggs were collected which produced 300 and 123 hatched larvae in July 2015 and June 2016, respectively. The larvae produced from the 2015 broods did not survive beyond 56 days of metamorphosed stage while larvae produced from 2016 captive broods survived for 9 days only. The mortality of the larvae from captive brood could be related to the poor egg or milt quality. However, efforts are continued to improve the eggs and sperm quality through proper brood management."
+},
+{
+"pmid": "34585397",
+"pmc": null,
+"doi": "10.1111/jfd.13524",
+"title": "Immune response of silver pomfret (Pampus argenteus) to Amyloodinium ocellatum infection.",
+"journal": "J Fish Dis",
+"year": "2021",
+"cit": {
+"volume": "44",
+"issue": "12",
+"pages": "2111-2123"
+},
+"abstract": "Amyloodinium ocellatum (AO) infection in silver pomfret (Pampus argenteus) causes extensive mortality. Insufficient information exists on the molecular immune response of silver pomfret to AO infestation, so herein we simulated the process of silver pomfret being infected by AO. Translucent trophosomes were observed on the gills of AO-infected fish. Transcriptome profiling was performed to investigate the effects of AO infection on the gill, kidney complex and spleen. Overall, 404,412,298 clean reads were obtained, assembling into 96,341 unigenes, which were annotated against public databases. In total, 2730 differentially expressed genes were detected, and few energy- and immune-related genes were further assessed using RT-qPCR. Moreover, activities of three immune-related (SOD, AKP and ACP) and three energy-related (PKM, LDH and GCK) enzymes were determined. AO infection activated the immune system and increased interleukin-1 beta and immunoglobulin M heavy chain levels. Besides, the PPAR signalling pathway was highly enriched, which played a role in improving immunity and maintaining homeostasis. AO infection also caused dyspnoea, leading to extensive lactic acid accumulation, potentially contributing towards a strong immune response in the host. Our data improved our understanding regarding the immune response mechanisms through which fish coped with parasitic infections and may help prevent high fish mortality in aquaculture."
+},
+{
+"pmid": "34129166",
+"pmc": null,
+"doi": "10.1007/s11356-021-14701-z",
+"title": "Risk assessment of heavy metals in marine fish and seafood from Kedah and Selangor coastal regions of Malaysia: a high-risk health concern for consumers.",
+"journal": "Environ Sci Pollut Res Int",
+"year": "2021",
+"cit": {
+"volume": "28",
+"issue": "39",
+"pages": "55166-55175"
+},
+"abstract": "The heavy metals namely Fe, As, Cu, Cd, and Pb were investigated in two marine fishes silver pomfret (Pampus argentus) and torpedo scad (Megalaspis cordyla), and three seafoods sibogae squid (Loligo sibogae), Indian white prawn (Fenneropenaeus indicus), and mud crab (Scylla serrata) by using inductively coupled plasma spectrophotometer (ICP-MS) from two renowned fish harvesting coastal area of Malaysia named as Kedah and Selangor. Among the target heavy metals, highest mean concentration of As and Fe were found in Scylla serrata (72.14±7.77 μg/g) in Kedah and Megalaspis cordyla (149.40±2.15 μg/g) in Selangor. Pearson's correlation results showed As-Fe-Cd-Cu originated from the same source. Maximum estimated daily intake (EDI) values of Scylla serrata were found 175.25 μg/g/day and 100.81 μg/g/day for child in both Kedah and Selangor areas respectively. Hazard quotient (HQ) and hazard index (HI) results revealed that local consumers of Kedah and Selangor will face high chronic risk if they consume Scylla serrata, Fenneropenaeus indicus, and Megalaspis cordyla on regular basis in their diet. Carcinogenic risk results suggested that all the studied species pose very high risk of cancer occurrences to the consumers in both areas. Therefore, it could be recommended that consumers should be aware when they are consuming these marine species since they can pose serious health risk associated with prolonged consumption."
+},
+{
+"pmid": "34044232",
+"pmc": null,
+"doi": "10.1016/j.tice.2021.101558",
+"title": "Dynamic changes in mitochondrial DNA, morphology, and fission during oogenesis of a seasonal-breeding teleost, Pampus argenteus.",
+"journal": "Tissue Cell",
+"year": "2021",
+"cit": {
+"volume": "72",
+"pages": "101558"
+},
+"abstract": "Mitochondria play crucial roles during oocyte development. In this study, we have investigated mitochondrial morphology, mtDNA, Ca-ATP enzyme activity, and mitochondrial fission factor (mff) expression levels during oogenesis of the silver pomfret Pampus argenteus. The mtDNA increased with oocyte development, and mitochondrial morphology and distribution were stage-specific. In the perinucleolar oocytes, oval mitochondria were dispersed in the cytoplasm. In previtellogenic oocytes, mitochondria massively increased and aggregated, forming mitochondrial clouds. At the same time, two morphologically different types of mitochondria had been distinguished, one of which was elongated with well-developed cristae, and the other was round with distorted and fused cristae. During vitellogenesis, the increases in mitochondria with well-developed cristae and in Ca-ATPase enzymatic activity were accompanied by an accumulation of yolk substance, suggesting the possible participation of mitochondria in the formation of vitellogenesis. Furthermore, we examined the cDNA of mff its transcript levels in relation to oocyte development. The transcript levels of mff were high in the perinucleolar stage, increasing to the highest level at the previtellogenic stage. Immunocytochemistry showed that MFF was detected in the cytoplasm of previtellogenic and midvitellogenic oocytes. We speculated that the mff-mediated mitochondrial fission may play a crucial role in oocyte development, especially in vitellogenesis."
+},
+{
+"pmid": "33927983",
+"pmc": "PMC7994455",
+"doi": "10.1007/s13205-021-02702-1",
+"title": "Alternations in the liver metabolome, skin and serum antioxidant function of silver pomfret () is induced by jellyfish feeding.",
+"journal": "3 Biotech",
+"year": "2021",
+"cit": {
+"volume": "11",
+"issue": "4",
+"pages": "192"
+},
+"abstract": "Many fish species are known to feed on jellyfish. Herein, we observed the effects of jellyfish feeding on silver pomfret using gas chromatography tandem time-of-flight mass spectrometry (GC-TOF-MS) based on metabolomics. We studied the effects of feeding on jellyfish on skin and serum immune of silver pomfret. Healthy silver pomfret (initial weight, 13.40 ± 1.565 g) was divided into two groups: control and feeding. The pomfrets were fed jellyfish at 2, 6, 12, 24, and 72 h, and samples were obtained. Statistical analysis revealed that after jellyfish feeding, most serum immune indicators did not show a significant change; however, skin immune indicators indicated that silver pomfret elicit a stress response on encountering jellyfish, gradually adapting to their presence. We therefore conducted further experiments involving two groups: group A, which was not fed any extra jellyfish, and group B, which was fed extra jellyfish (approximately 10% weight of silver pomfret) every day for 60 days. Orthogonal partial least squares discriminant analysis led to the identification of stronger biomarkers, with the liver metabolome showing obvious variations between the groups (group B vs. A). After feeding jellyfish by silver pomfret, some amino acids, amines, and unsaturated fatty acids in the liver tissue showed a significant increase. Our results, thus, not only reveal changes in physiological indices of silver pomfret after feeding on jellyfish but also provide a new idea for further optimizing the feed formula for silver pomfret culture."
+},
+{
+"pmid": "33895355",
+"pmc": null,
+"doi": "10.1016/j.etap.2021.103666",
+"title": "Health risk estimation of metals bioaccumulated in commercial fish from coastal areas and rivers in Bangladesh.",
+"journal": "Environ Toxicol Pharmacol",
+"year": "2021",
+"cit": {
+"volume": "86",
+"pages": "103666"
+},
+"abstract": "Metal contaminations in commercial fish have become a great public health concern worldwide including Bangladesh. The current study was conducted to provide preliminary evidence of nine metals in three commercially significant fish namely Pampus argenteus, Sardinella longiceps and Tenualosa ilisha collected from four coastal stations- Kuakata, Pathorghata, Cox's Bazar, and Pirojpur, and eight stations of five rivers- Padma, Meghna, Jamuna, Katcha, and Nobogonga in Bangladesh. High magnitudes of Pb (0.74-4.59 mg/kg ww), Cd (0.07-0.24 mg/kg ww), and Mn (0.45-2.03 mg/kg ww) were recorded in the sampling stations that exceeded the maximum permissible limits (MPL) proposed by different recognized organizations. Significant mean differences of metal concentrations were observed (p < 0.05) between species and stations. In fish samples, excessive metals accumulations were recorded from Kuakata (St.1) at the coastal area, and Nobogonga (St. 12) among the rivers. The health risk assessment (HRA) was carried out comprehensively via the estimated daily intake (EDI), target hazard quotient (THQ), hazard index (HI), and target cancer risk (TR) calculations. The outcomes of EDI, THQ, and HI suggest that chronic exposure to towering Pb content might pose potential health threats to inhabitants particularly living in highly polluted stations of the coastal area. In addition, the massive TR values of Cd intake through fish consumption from the coastal area might create cancer risks. Accordingly, the ingestion of metals contaminated fish portends chronic as well as acute health risks to Bangladeshi people living both at home and abroad."
+},
+{
+"pmid": "33621901",
+"pmc": null,
+"doi": "10.1016/j.marpolbul.2021.112170",
+"title": "Organochlorine pesticides and heavy metals in the zooplankton, fishes, and shrimps of tropical shallow tidal creeks and the associated human health risk.",
+"journal": "Mar Pollut Bull",
+"year": "2021",
+"cit": {
+"volume": "165",
+"pages": "112170"
+},
+"abstract": "Studies on organochlorine pesticides (OCPs) and heavy metals (HMs) from tidal creeks are scarce. Sixteen OCPs and seven HMs were measured in the surface water, zooplankton, two fishes (Harpadon nehereus and Pampus argenteus), and one shrimp (Penaeus indicus) collected from three tidal creeks of the Indian Sundarban. The surface water was polluted by hexachlorocyclohexane isomers (ΣHCH: 525-1581 ng l), dichlorodiphenyltrichloroethane congeners (ΣDDT: 188-377 ng l), endosulfan congeners (ΣEND: 687-1474 ng l), and other OCPs (512-1334 ng l). However, the mean HM concentrations in the surface water were <1 μg l. The zooplankton community exhibited bioaccumulation of both OCPs and HMs. Aldrin, Heptachlor, and α-HCH levels in the edible biotas could lead to cancer. Co and Cd levels could lead to non-cancerous risks, and Pb levels could pose a cancerous risk. This study showed that creeks could be potential sites of both OCP and HM pollution."
+},
+{
+"pmid": "33430591",
+"pmc": null,
+"doi": "10.1021/acs.jafc.0c06277",
+"title": "Biosynthesis of LC-PUFAs and VLC-PUFAs in: Characterization of Elovl4 Elongases and Regulation under Acute Salinity.",
+"journal": "J Agric Food Chem",
+"year": "2021",
+"cit": {
+"volume": "69",
+"issue": "3",
+"pages": "932-944"
+},
+"abstract": "Salinity has been demonstrated to influence the biosynthesis of long-chain (C) polyunsaturated fatty acids (LC-PUFAs) in teleost fish. Since LC-PUFAs are essential nutrients for vertebrates, it is central to understand how fish cope with an acute change in salinity associated with natural events. We herein report on the cloning and functional characterization of two elongation of very-long-chain fatty acid (Elovl)4 proteins, namely, Elovl4a and Elovl4b, and study the roles that these enzymes play in the biosynthesis of LC-PUFAs and very-long-chain (>C) polyunsaturated fatty acids (VLC-PUFAs) in marine teleost. TheElovl4 displayed all of the typical features of Elovl-like enzymes and have eyes and brain as major sites through which they exert their functions. Moreover, functional studies showed that theElovl4 can effectively elongate Csubstrates to CVLC-PUFA. Because bothElovl4 are able to produce 24:5- 3 from shorter precursors, we tested whether the previously reported Δ6 Fads2 fromwas able to desaturate 24:5- 3 to 24:6- 3, a key step for docosahexaenoic acid (DHA) synthesis. Our results showed thatcan indeed bioconvert 24:5- 3 into 24:6- 3, suggesting thathas the enzymatic capacity required for DHA biosynthesis through the coordinated action of both Elovl4 and Fads2. Furthermore, an acute salinity test indicated that low-salinity stress (12 ppt) upregulated genes involved in LC-PUFA biosynthesis, with 12 ppt salinity treatment showing the highest hepatic LC-PUFA content. Overall, our results unveiled that the newly characterized Elovl4 enzymes have indispensable functions in LC- and VLC-PUFA biosynthesis. Moreover, acute salinity change influenced the biosynthesis of LC-PUFA in. This study provided new insight into the biosynthesis of LC- and VLC-PUFAs in vertebrates and the physiological responses that teleosts have under acute salinity stress."
+},
+{
+"pmid": "33424966",
+"pmc": "PMC7774032",
+"doi": "10.1155/2020/4329071",
+"title": "Corrigendum to \"Analysis and Determination of Trace Metals (Nickel, Cadmium, Chromium, and Lead) in Tissues ofandin the Hara Reserve, Iran\".",
+"journal": "J Toxicol",
+"year": "2020",
+"cit": {
+"volume": "2020",
+"pages": "4329071"
+},
+"abstract": "[This corrects the article DOI: 10.1155/2014/576496.]."
+},
+{
+"pmid": "33309862",
+"pmc": null,
+"doi": "10.1016/j.gep.2020.119161",
+"title": "Cloning and expression of Hoxc6 gene from Pampus argenteus and its relationship with pelvic fin absence.",
+"journal": "Gene Expr Patterns",
+"year": "2020",
+"cit": {
+"volume": "39",
+"pages": "119161"
+},
+"abstract": "Hoxc6 gene can be described as having roles in axial patterning in early embryogenesis, and in at least some species, having a contribution to limb positioning. In this study, we cloned and characterised Pampus argenteus Hoxc6. The highly conserved HOXC6 protein sequence contains a homeodomain and a low-complexity region. Expression of Hoxc6 mRNA was measured at different developmental stages and in different tissues by real-time PCR (p < 0.05), and was high during eye capsule and brain differentiation stages, but low in 7 and 13-day-old larvae. Hoxc6 mRNA was more abundant in fin tissue than brain and eye tissues. Western blotting showed that HOXC6 protein levels were high at embryonic stages, but decreased significantly in 7, 13, 16 and 19-day-old larvae, and levels were essentially consistent with those of mRNA measured by real-time PCR in different tissues. In situ hybridisation showed that the Hoxc6 transcript was strongly expressed in the whole brain and anterior part of the body axis in 1-day-old larvae, but in the hindbrain, pectoral fin, mandible and hypothetical pelvic fin region in 7, 13, 16 and 19-day-old organisms. These results clarify the expression and localisation characteristics of Hoxc6 gene in P. argenteus, and provide a theoretical basis for the molecular mechanism of pelvic fin loss in silver pomfret."
+},
+{
+"pmid": "33279029",
+"pmc": null,
+"doi": "10.1016/j.jes.2020.07.014",
+"title": "The concentration and probabilistic risk assessment of potentially toxic elements in fillets of silver pomfret (Pampus argenteus): A global systematic review and meta-analysis.",
+"journal": "J Environ Sci (China)",
+"year": "2020",
+"cit": {
+"volume": "100",
+"pages": "167-180"
+},
+"abstract": "The contamination of fish type products such as silver pomfret fish fillets by potentially toxic elements (PTEs) has raised global health concerns. Related studies regarding the concentration of PTEs in fillets of silver pomfret fish were retrieved among some international databases such as Scopus, PubMed and Embase between 1 January 1983 and 10 March 2020. The pooled (mean) concentration of PTEs in fillets of silver pomfret fish was meta-analyzed with the aid of a random-effect model (REM). Also, the non-carcinogenic risk was estimated via calculating the 95th percentile of the total target hazard quotient (TTHQ). The meta-analysis of 21 articles (containing 25 studies or data reports) indicated that the ranking of PTEs in fillets of silver pomfret fish was Fe (11,414.81 µg/kg wet weight, ww) > Zn (6055.72 µg/kg ww) > Cr (1825.79 µg/kg ww) > Pb (1486.44 µg/kg ww) > Se (1053.47 µg/kg ww) > Cd (992.50 µg/kg ww) > Ni (745.23 µg/kg ww) > Cu (669.71 µg/kg ww) > total As (408.24 µg/kg ww) > Co (87.03 µg/kg ww) > methyl Hg (46.58 µg/kg ww). The rank order of health risk assessment by country based on the TTHQ for adult consumers was Malaysia (2.500) > Bangladesh (0.886) > Iran (0.144) > China (0.045) > Pakistan (0.020) > India (0.015), while the corresponding values for child consumers was Malaysia (11.790) > Bangladesh (4.146) > Iran (0.675) > China (0.206) > Pakistan (0.096) > India (0.077). The adult consumers in Malaysia and children in Malaysia and Bangladesh were at considerable non-carcinogenic risk. Therefore, following the recommended control plans in order to reduce the health risk associated with the ingestion of PTEs via consumption of silver pomfret fish fillets is crucial."
+},
+{
+"pmid": "33110380",
+"pmc": "PMC7557527",
+"doi": "10.3897/zookeys.974.55934",
+"title": "A non-exhaustive survey revealed possible genetic similarity in mitochondrial adaptive evolution of marine fish species in the northwestern Pacific.",
+"journal": "Zookeys",
+"year": "2020",
+"cit": {
+"volume": "974",
+"pages": "121-130"
+},
+"abstract": "Mitochondrial coding genes involved in the oxidative phosphorylation pathway play vitally important roles in energy production and thermal adaptation. Investigating the underlying molecular mechanism of mitochondrial adaptive evolution is crucial for understanding biodiversity and ecological radiation. In this study, we collated population genetic studies of marine fish species in the northwestern Pacific based on mitochondrial cytochromegene sequences, to investigate whether similar patterns could be detected in mitochondrial adaptive evolution. After filtering, nine studies containing eight marine fish species (,,,,,sp.1,, and) belonging to eight different families were retained. Multiple codon-based approaches were used to identify potential sites under selection in each species. By comparison, our results showed that the posterior part of the mitochondrial cytochromegene (particularly codon 372 and its neighboring sites) seemed to be involved in the adaptive evolution process, suggesting potential genetic similarity among distantly related species. We also summarized four types of adaptive patterns in the reviewed species, and suggest that the level of genetic differentiation and mitochondrial adaptive evolution might be correlated. Further studies are needed to confirm such relationship by detecting RNA-level evidence and investigating more species and samples."
+},
+{
+"pmid": "33058908",
+"pmc": null,
+"doi": "10.1016/j.ygcen.2020.113645",
+"title": "Identification and characteristics of insulin-like growth factor system in the brain, liver, and gonad during development of a seasonal breeding teleost, Pampus argenteus.",
+"journal": "Gen Comp Endocrinol",
+"year": "2020",
+"cit": {
+"volume": "300",
+"pages": "113645"
+},
+"abstract": "Reproductive activity is closely related to the development and function of the brain and liver in teleosts, particularly in seasonal breeding teleosts. This study measured the involvement of the insulin-like growth factor (IGF) system in controlling the reproduction of the silver pomfret Pampus argenteus, a seasonal breeding tropical to temperate commercial fish. We cloned and characterized the cDNAs of igfs (igf2 and igf3) and igfrs (igf1ra, igf1rb, and igf2r) and examined their transcript levels in relation to seasonal reproduction. Phylogenetic analyses revealed that two types of IGFs (IGF-1 and IGF-2) and three types of IGFRs (IGF1RA, IGF1RB, and IGF2R) of the silver pomfret were clustered with those of teleosts; however, IGF-3 was a transmembrane protein different with the IGF-3 of other teleosts. The expression of IGF-3 was gonad-specific in the silver pomfret. The transcript levels of igf1 in the female brain were the highest, and the levels of igfrs in both sexes' brains increased during gametogenesis. Meanwhile, igfs and igfrs maintained high transcript levels in both sexes' liver and gonad during vitellogenesis and spermatogonia proliferation. We concluded that the development and activities of brain, liver, and gonad were related to the IGF system (IGFs and IGFRs). And the IGFs were mainly expressed in the liver. Nevertheless, gonadal development, especially vitellogenesis and spermatogonia proliferation, were related with IGFs in this species."
+},
+{
+"pmid": "33013170",
+"pmc": "PMC7515929",
+"doi": "10.3897/zookeys.969.52069",
+"title": "Pleistocene isolation caused by sea-level fluctuations shaped genetic characterization ofover a large-scale geographical distribution.",
+"journal": "Zookeys",
+"year": "2020",
+"cit": {
+"volume": "969",
+"pages": "137-154"
+},
+"abstract": "The southern lesser pomfret () is an economically important fish, and its numbers are declining because of overfishing and environmental pollution. In addition, owing to the similarities of its external morphological characteristics to other species in the genus, it is often mistaken for grey pomfret () or silver pomfret () juveniles. In this study, the genetic diversity and structure of 264individuals from 11 populations in China and Malaysia coastal waters were evaluated for the first time, to the best of our knowledge, using mitochondrial cytochrome b fragments. The results showed thathad moderate haplotype diversity and low nucleotide diversity. Furthermore, two divergent lineages were detected within the populations, but the phylogenetic structure corresponded imperfectly with geographical location; thus, the populations may have diverged in different glacial refugia during the Pleistocene low sea levels. Analysis of molecular variation (AMOVA) showed that genetic variation originated primarily from individuals within the population. Pairwiseresults showed significant differentiation between the Chinese and Malaysian populations. Except for the Xiamen population, which was classified as a marginal population, the genetic differentiation among the other Chinese populations was not significant. During the Late Pleistocene,experienced a population expansion event starting from the South China Sea refugium that expanded outward, and derivative populations quickly occupied and adapted to the new habitat. The results of this study will provide genetic information for the scientific conservation and management ofresources."
+},
+{
+"pmid": "32741428",
+"pmc": null,
+"doi": "10.1071/RD19381",
+"title": "Characterisation, expression and possible functions of prohibitin during spermatogenesis in the silver pomfret Pampus argenteus.",
+"journal": "Reprod Fertil Dev",
+"year": "2020",
+"cit": {
+"volume": "32",
+"issue": "12",
+"pages": "1084-1098"
+},
+"abstract": "Mitochondria play an important role in spermatogenesis, and some mitochondrial proteins are specifically related to this process. In this study we investigated the cytological characteristics of spermatogenic cells, including mitochondrial dynamics, during spermatogenesis in Pampus argenteus. In addition, we characterised the mitochondria-related protein prohibitin (PHB), which has been reported to play roles in mitochondrial dynamics and animal fertility. The full-length cDNA of the P. argenteus phb gene (Pa-phb) is 1687bp, including a 102-bp 5'-untranslated region (UTR), a 772-bp 3'-UTR and an 813-bp open reading frame encoding 271 amino acids. The predicted P. argenteus PHB protein (Pa-PHB) contains three functional domains (a transmembrane domain, an SPFH domain (the conserved region of stomatins, prohibitins, flotillins and HflK/C) and a coiled-coil domain) and exhibits high similarity with its homologue in other animals. The Pa-phb gene was widely expressed in all tissues examined, especially the liver and heart. We primarily focused on Pa-phb expression during spermatogenesis after observing the cytological features of male germ cells, and found that Pa-phb transcripts were detected throughout the course of development of male germ cells. Notably, we observed colocalised signals of Pa-PHB and mitochondria, which were distributed in the cytoplasm around the nucleus in spermatogonia, spermatocytes and early spermatids, tended to move to one side of the cell in middle spermatids and, finally, were colocalised in the sperm midpiece. These observations indicate that Pa-PHB is primarily localised in mitochondria during spermatogenesis, indicating that it has a role in mitochondria. Based on the results of this and previous studies regarding the essential roles of PHB in mitochondria and spermatogenesis in animals, we propose a functional model for PHB during spermatogenesis, including possible roles in the proliferation of spermatogonia and in the regulation of mitochondrial morphology and function in spermatogenic cells."
+},
+{
+"pmid": "32243931",
+"pmc": null,
+"doi": "10.1016/j.ijbiomac.2020.03.246",
+"title": "Molecular characterization of TLR3 and TRIL in silvery pomfret (Pampus argenteus) and their expression profiles in response to bacterial components.",
+"journal": "Int J Biol Macromol",
+"year": "2020",
+"cit": {
+"volume": "155",
+"pages": "805-813"
+},
+"abstract": "Toll-like receptors (TLRs) play important roles in the innate system by recognizing pathogen-associated molecular patterns derived from various microbes. In this study, we reported the cloning and identification of paTLR3 and paTLR4 interactor with leucine rich repeats (TRIL) cDNA from silvery pomfret (Pampus argenteus). The full-length paTLR3 and paTRIL cDNA were 2996 and 3163 bp long, respectively. Both of the two proteins contained many LRR domains, one LRR-C terminal domain and one transmembrane region, which fits with the characteristic TLR and its analogue domain architecture. Phylogenetic analyses revealed that paTLR3 and paTRIL shared the closest relationship with Lateolabrax japonicas and Notothenia coriiceps, respectively. The expression levels of paTLR3 and paTRIL varied greatly among the examined tissues with the highest expression both in liver. Following exposure to V. anguillarum flagellin, A. hydrophila lipopolysaccharide (LPS) and L. plantarum lipoteichoic acid (LTA), paTLR3 and paTRIL were all up-regulated. V. anguillarum flagellin induced the highest expression levels of paTLR3 and paTRIL. A. hydrophila flagellin and A. hydrophila LPS induced the highest expression levels of IL-1β and IL-8, respectively. The present results will provide the valuable information for understanding the structure, function and the immune defense process of paTLR3 and paTRIL in silvery pomfret."
+},
+{
+"pmid": "32203785",
+"pmc": null,
+"doi": "10.1016/j.chemosphere.2020.126519",
+"title": "Assessment of the annual committed effective dose due to thePo ingestion from selected sea-food species in Vietnam.",
+"journal": "Chemosphere",
+"year": "2020",
+"cit": {
+"volume": "252",
+"pages": "126519"
+},
+"abstract": "Activity concentration ofPo in the edible muscle tissues of twelve sea-food species (the most common marine food consumed of population in Vietnam) were analyzed using the PIPS detectors ORTEC Alpha-Ensemble spectrometer. ThePo activity concentration in studied samples was found to vary from 0.82 ± 0.47 to 70.3 ± 8.5 Bq/kg fresh weight. The highest activity concentration was recorded for the Blood cockle (Anadara granosa) and the lowest for Silver pomfret (Pampus argenteus). The annual committed effective dose (CED) ofPo to humans (the local residents) due to ingestion of each studied species was calculated from 18.5 to 1586 μSv/y. The average annual committed effective dose value was reported 394 μSv/y, which is marginally higher than the average CED contributed from ingestion of food and water total in global background (290 μSv/y)."
+},
+{
+"pmid": "32162151",
+"pmc": null,
+"doi": "10.1007/s10695-020-00786-9",
+"title": "Gill transcriptomes reveal expression changes of genes related with immune and ion transport under salinity stress in silvery pomfret (Pampus argenteus).",
+"journal": "Fish Physiol Biochem",
+"year": "2020",
+"cit": {
+"volume": "46",
+"issue": "4",
+"pages": "1255-1277"
+},
+"abstract": "Salinity is a major ecological factor in the marine environment, and extremely important for the survival, development, and growth of fish. In this study, gill transcriptomes were examined by high-throughput sequencing at three different salinities (12 ppt as low salinity, 22 ppt as control salinity, and 32 ppt as high salinity) in an importantly economical fish silvery pomfret. A total of 187 genes were differentially expressed, including 111 up-regulated and 76 down-regulated transcripts in low-salinity treatment group and 107 genes differentially expressed, including 74 up-regulated and 33 down-regulated transcripts in high-salinity treatment group compared with the control group, respectively. Some pathways including NOD-like receptor signaling pathway, cytokine-cytokine receptor interaction, Toll-like receptor pathway, cardiac muscle contraction, and vascular smooth muscle contraction were significantly enriched. qPCR analysis further confirmed that mRNA expression levels of immune (HSP90A, IL-1β, TNFα, TLR2, IP-10, MIG, CCL19, and IL-11) and ion transport-related genes (WNK2, NPY2R, CFTR, and SLC4A2) significantly changed under salinity stress. Low salinity stress caused more intensive expression changes of immune-related genes than high salinity. These results imply that salinity stress may affect immune function in addition to regulating osmotic pressure in silvery pomfret."
+},
+{
+"pmid": "31966308",
+"pmc": "PMC6763701",
+"doi": "10.6620/ZS.2019.58-07",
+"title": "Resurrection and Re-description of(Cuvier), Silver Pomfret from the Northern Indian Ocean.",
+"journal": "Zool Stud",
+"year": "2019",
+"cit": {
+"volume": "58",
+"pages": "e7"
+},
+"abstract": "Pomfrets (Genus) are commercially important fish in the Indo-Pacific region. The systematics of this genus is complicated because of morphological similarities between species. The silver pomfret from Indian waters has long been considered to be. Morphological and molecular examination of specimens from the Arabian Sea and Bay of Bengal regions suggested the silver pomfret from the region represents two species that are distinct both from each other and fromfrom the South China Sea. Based on detailed morphological, meristic and molecular examinations, the most common species from the Indian Ocean was found to correspond with the descriptions of(Cuvier), which is resurrected from the synonymy ofand redescribed here as(new combination). The second species, which has restricted distribution in Indian waters needs further studies to arrive at taxonomic conclusions and is hence not described in the current study. Lectotypes are also designated for."
+},
+{
+"pmid": "31738477",
+"pmc": null,
+"doi": "10.1002/tox.22877",
+"title": "Cadmium transcriptionally regulates Scd1 expression in silver pomfret.",
+"journal": "Environ Toxicol",
+"year": "2019",
+"cit": {
+"volume": "35",
+"issue": "3",
+"pages": "404-413"
+},
+"abstract": "Cadmium (Cd) is one of the major contaminants in aquatic ecosystem. Stearoyl-coenzyme A desaturase 1 (Scd1) has been implicated in adaptive responses to environmental stressors. The objectives of this study are (a) to characterize scd1 mRNA from silver pomfret (Pampus argenteus); (b) to investigate the expression and activity of Scd1 in silver pomfret exposed to Cd; and (c) to investigate how Cd modifies scd1 gene transcription in silver pomfret. Results indicated that Scd1 was generally conserved across fish species and scd1 mRNA level was higher by far in the brain and liver, followed by the kidney and intestine. Exposure to Cd led to significant changes of the expression and activity of Scd1 in in the liver and intestine. The liver mRNA abundance of scd1 was significantly lower in the Cd-treated groups than in the control group. The 10 days treatment with 1 mg/L Cd significantly upregulated the intestinal scd1 mRNA level, an approximately 9-fold higher in the 1 mg/L Cd-treated group as compared with the control group. Accordingly, Scd1 activity indices (18:1n-9/18:0) in the liver were significantly decreased in the 0.5 mg/L group compared with the control group, while Scd1 activity indices in the intestine were significantly increased in the 1 mg/L group compared with the control group. Moreover, overexpression of sterol regulatory element binding transcription factor 1 (Srebp1) and peroxisome proliferator-activated receptor γ (Pparγ )in HEK 293T cells produced a 2-fold increment in the activity of the scd1 promoter. Furthermore, srebp1 had a similar expression pattern to scd1 in the liver and intestine of silver pomfret exposed to Cd. These results indicated that Cd could regulate scd1 expression, possibly through the transcriptional factor Srebp1."
+},
+{
+"pmid": "31421244",
+"pmc": null,
+"doi": "10.1016/j.ympev.2019.106595",
+"title": "Molecular systematics of Pampus (Perciformes: Stromateidae) based on thousands of nuclear loci using target-gene enrichment.",
+"journal": "Mol Phylogenet Evol",
+"year": "2019",
+"cit": {
+"volume": "140",
+"pages": "106595"
+},
+"abstract": "Pomfret fishes of the genus Pampus are commercially important in the Indo-Pacific region, yet the phylogenetic relationships and taxonomy of Pampus remain contentious. Here, we sampled 151 specimens, representing all known species of the genus, as well as two outgroup species (two families). We collected sequences from 17,292 single-copy nuclear coding loci using target-gene enrichment and Illumina sequencing for a subset samples of P. echinogaster, P. argenteus, P. cinereus, P. liuorum, P. chinensis, P. minor, and P. punctatissimus, which were carefully examined according to their species descriptions. Concatenated gene tree and species tree analyses resulted in identical and highly supported phylogenies, in which P. argenteus was sister to P. minor in one clade and P. cinereus sister to P. chinensis and P. punctatissimus in the other clade. Phylogenetic reconstruction using sequences of cytochrome c oxidase subunit I (COI) collected by us and those retrieved from NCBI suggests extensive misidentification of Pampus species in the NCBI database. We also measured morphological characters of each species as well as observed their osteological structure using micro-CT. Both molecular and morphological results suggest that P. echinogaster is a synonym of P. argenteus, and P. liuorum is a synonym of P. cinereus. Pampus cinereus from China, Bangladesh and an uncertain origin were grouped into three clades according to their sampling localities, but we could not find decisive morphological characters to describe the \"cryptic species\" of P. cinereus. Finally, based on the results of the molecular analyses and morphological reexamination, we created an identification key for the genus of Pampus."
+},
+{
+"pmid": "31404867",
+"pmc": null,
+"doi": "10.1016/j.foodchem.2019.125331",
+"title": "Species identification and quantification of silver pomfret using the droplet digital PCR assay.",
+"journal": "Food Chem",
+"year": "2019",
+"cit": {
+"volume": "302",
+"pages": "125331"
+},
+"abstract": "Adulteration of the high-value silver pomfret (Pampus argenteus) is a serious problem worldwide, necessitating accurate identification and quantification of the species. In this study, optimisation of the digital droplet PCR (ddPCR) assay for the identification and quantification of the silver pomfret was carried out. The primer and probe concentrations, melting temperature, and PCR cycle number were optimised by combining single-factor experiments with an orthogonal experimental design. The absolute limits of detection and quantification of the ddPCR were 2copies/μl and 21 copies/μl, respectively. Its sensitivity was 0.1% for meat mixtures and 0.5% for DNA mixtures. The ddPCR was 156 times more sensitive than the real-time PCR, although both methods had similar specificities. However, the overall time needed to complete the ddPCR method was twice that of the real-time PCR. Notwithstanding, the ddPCR methodology established in this study can be a valuable tool for addressing species adulteration issues."
+},
+{
+"pmid": "31381181",
+"pmc": null,
+"doi": "10.1111/jfd.13059",
+"title": "Establishment and characterization of a fin tissue cell line derived from silver pomfret, Pampus argenteus.",
+"journal": "J Fish Dis",
+"year": "2019",
+"cit": {
+"volume": "42",
+"issue": "10",
+"pages": "1391-1399"
+},
+"abstract": "A cell line (PaF) derived from the fin tissue of silver pomfret (Pampus argenteus) was established and characterized in this study. The cell line has been subcultured for more than 50 times in Dulbecco's modified Eagle's medium (DMEM) containing 15% foetal bovine serum (FBS) since the initial primary culture. PaF cells grew well at temperatures from 24°C to 28°C in DMEM supplemented with 15% FBS. Partial amplification and sequence analysis of the cytochrome B gene indicated that PaF originated from silver pomfret. Cytogenetic analysis demonstrated that the modal chromosome number was 48. A significant cytopathic effect was observed in PaF cells during viral haemorrhagic septicaemia virus (VHSV) infection, and the VHSV replication was confirmed by qRT-PCR and viral titre assays. In contrast, PaF cells were resistant to red-spotted grouper nervous necrosis virus infection. Moreover, PaF cells could respond to VHSV and lipopolysaccharide treatments, as indicated by the expression of immune-related genes, TLR5 and TLR9. In conclusion, the establishment of PaF cell line will provide an appropriate in vitro tool for the study of mechanisms of pathogen-silver pomfret interaction."
+},
+{
+"pmid": "31139370",
+"pmc": "PMC6526670",
+"doi": "10.1002/fsn3.966",
+"title": "Effects of high hydrostatic pressure-assisted thawing on the physicohemical characteristics of silver pomfret ().",
+"journal": "Food Sci Nutr",
+"year": "2019",
+"cit": {
+"volume": "7",
+"issue": "5",
+"pages": "1573-1583"
+},
+"abstract": "Effects of high hydrostatic pressure-assisted thawing (HPAT, 100, 150, and 200 MPa) on the physicochemical characteristics of silver pomfret were evaluated in comparison with conventional (water immersion thawing, WIT) thawed samples. HPAT significantly decreased the thawing time, as well as the cooking and total losses. The maximum water holding capacity was observed at 100 MPa. Color changed obviously at ≥150 MPa, resulting in a cooked appearance. Samples thawed with HPAT showed better texture quality and lower lipid oxidation. The levels of myofibrillar protein oxidation and surface hydrophobicity increased, while Ca-ATPase activities decreased as the pressure increased. The oxidation of myofibrillar protein was significantly decreased at 100 MPa; total sulfhydryl content was 30.85% higher than that of WIT. Overall, 100 MPa is the optimum treatment condition for silver pomfret thawing without negative effects on quality of the product. HPAT can be a potential alternative to produce high-quality thawed fish."
+},
+{
+"pmid": "30893734",
+"pmc": null,
+"doi": "10.1016/j.scitotenv.2019.02.165",
+"title": "Occurrence and health risk of perfluoroalkyl acids (PFAAs) in seafood from Yellow Sea, China.",
+"journal": "Sci Total Environ",
+"year": "2019",
+"cit": {
+"volume": "665",
+"pages": "1026-1034"
+},
+"abstract": "PFAAs have emerged as persistent organic pollutants (POPs) in a variety of environmental matrixes and biota, posing potential hazards for wildlife and humans. Diet has been considered as an important source for human exposure to PFAAs and seafood accounts for a relatively large proportion in human diets, especially for coastal residents. In an effort to clarify the impact of PFAAs in seafood on human health, 17 PFAAs were determined in 42 pooled seafood samples (14 species) from the Yellow Sea areas, China. The concentrations of total PFAAs (sum of 17 PFAAs, ∑PFAAs) were in the range of 1.10-1067 ng/g dry weight (dw), with the highest concentration found in swimming crab (Portunus trituberculatus) and the lowest in silvery pomfret (Pampus argenteus). Concentrations and composition profiles of PFAAs varied significantly among different species, suggesting that bioaccumulation potential of PFAAs differed from species to species. The distinct spatial distribution of PFAAs in four categories of seafood could be mainly attributed to the contamination patterns of PFAAs in three nearby cities. PFBA was presented as the most abundant PFAA in this study, which was different from the findings in many other studies where PFOS was the predominant compound. Furthermore, the human health risk assessment suggested that a comprehensive action plan is needed to protect people from high exposure to PFAAs through seafood consumption."
+},
+{
+"pmid": "30877061",
+"pmc": null,
+"doi": "10.1016/j.fsi.2019.03.019",
+"title": "Effects of formaldehyde on detoxification and immune responses in silver pomfret (Pampus argenteus).",
+"journal": "Fish Shellfish Immunol",
+"year": "2019",
+"cit": {
+"volume": "88",
+"pages": "449-457"
+},
+"abstract": "Formaldehyde can effectively control ectoparasites in silver pomfret (Pampus argenteus). However, there is limited information on the effects of formaldehyde treatment at a molecular level in fishes. In the present study, transcriptome profiling was conducted to investigate the effects of formaldehyde treatment (80 mg/L, bath for 1 h every day for three consecutive days) on the liver and kidney tissues of silver pomfret. A total of 617959982 clean reads were obtained and assembled into 265760 unigenes with an N50 length of 1507 bp, and the assembled unigenes were all annotated by alignment with public databases. A total of 2204 differentially expressed genes (DEGs) were detected in the liver and kidney tissues, and they included 7 detoxification- related genes and 9 immune-related genes, such as CYP450, GST, MHC I & II, and CCR. In addition, 1440 DEGs were mapped to terms in the GO database, and 1064 DEGs were mapped to the KEGG database. The expression of 4 detoxification-related genes and 6 immune-related genes in three days formaldehyde treatment were analyzed using RT-qPCR, and the antioxidant enzyme levels were also determined. The results indicate differential expression of detoxification- and immune-related genes during the three days formaldehyde treatment. Our data could provide a reference for the treatment of parasites to avoid high mortality and help in understanding the molecular activity in fishes after formaldehyde exposure."
+},
+{
+"pmid": "30613177",
+"pmc": "PMC6308227",
+"doi": "10.3897/zookeys.810.25602",
+"title": "Genetic signatures of polymorphic microsatellite loci in the Ambiguous silver pomfret,(Teleostei, Stromateidae).",
+"journal": "Zookeys",
+"year": "2018",
+"cit": {
+"issue": "810",
+"pages": "139-151"
+},
+"abstract": "is a broadly exploited pelagic fish species, commonly misidentified as. Genetic variation and population structure inwas studied based on seven microsatellite loci. The observed high average allele number, heterozygosity values, and polymorphism information content ofsuggested high genetic diversity. No population genetic differentiation was detected based on the results of pairwise, three-dimensional factorial correspondence analysis (3D-FCA) and STRUCTURE analysis, which implied continuous gene flow. Wilcoxon signed rank tests did not indicate significant heterozygosity excess, and recent genetic bottleneck events were not detected. Coupled with previous mitochondrial DNA results, the findings presented here indicate that high gene flow characterizes the current phylogeographic pattern of the species."
+},
+{
+"pmid": "30453168",
+"pmc": null,
+"doi": "10.1016/j.aquatox.2018.11.002",
+"title": "Long-chain polyunsaturated fatty acid biosynthesis and its response to cadmium exposure in silver pomfret.",
+"journal": "Aquat Toxicol",
+"year": "2018",
+"cit": {
+"volume": "206",
+"pages": "61-71"
+},
+"abstract": "Despite a close interaction between cadmium (Cd) and long-chain polyunsaturated fatty acid (LC-PUFA) metabolism, the influence of Cd exposure on the endogenous synthesis of LC-PUFA has received little attention. In the present study, we hypothesized that Cd exposure would affect the synthesis of LC-PUFA in the marine fish silver pomfret (Pampus argenteus). Therefore, the molecular basis of LC-PUFA biosynthesis and regulation was investigated as the first step to understanding the mechanisms underpinning the effects of Cd exposure. Thereafter, transcriptional regulation of the genes that participate in LC-PUFA biosynthesis and regulation by Cd exposure were also explored. Our results showed that fatty acyl desaturase 2 (Fads2) and elongases of very long-chain fatty acids 5 (Elovl5), two key enzymes involved in LC-PUFA biosynthesis, enabled silver pomfret to biosynthesize 20:3n-6 and 20:4n-3 from 18:2n-6 and 18:3n-3. The results also raise the possibility that silver pomfret may have the ability to produce docosahexaenoic acid (DHA, 22:6n-3) from endogenous eicosapentaenoic acid (EPA, 20:5n-3). The expression of silver pomfret fads2 and elovl5 was transcriptionally regulated by the peroxisome proliferator activated receptor α (Pparα). The expression of fads2, elovl5 and pparα in the brain was significantly increased in response to Cd exposure. In addition, Cd exposure significantly reduced the DHA concentration and significantly increased the malondialdehyde concentration in the brain of silver pomfret. Cd exposure likely increases brain-specific DHA synthesis from EPA by transcriptionally activating fads2 and elovl5 via Pparα in silver pomfret. This regulation may be a coping mechanism for the reduction of DHA caused by Cd-oxidative stress in the brains of silver pomfret."
+},
+{
+"pmid": "30411586",
+"pmc": null,
+"doi": "10.13287/j.1001-9332.201809.037",
+"title": "[The breadth and overlap of ecological niche of major fish species in the Minjiang River Estuary, China.].",
+"journal": "Ying Yong Sheng Tai Xue Bao",
+"year": "2018",
+"cit": {
+"volume": "29",
+"issue": "9",
+"pages": "3085-3092"
+},
+"abstract": "Based on the seasonal bottom trawl surveys in the Minjiang River Estuary in 2015, the breadth and overlap of ecological niche of major fish species were analyzed. Those fish species were identified based on the index of relative importance (IRI). A total of 137 species belonging to 37 families and 16 orders were collected. Fifteen major fish species were determined by the IRI, including six dominant species Polydactylus sextarius, Harpadon nehereus, Pennahia argentata, Secutor ruconius, Cynoglossus abbreviates, Coilia mystus, and nine important species Collichthys lucidus, Amblychaeturichthys hexanema, Upeneus japonicas, Lagocephalus spadiceus, Pampus argenteus, Larimichthys crocea, Thryssa kammalensis, Takifugu oblongus, Lepturacanthus savala. Seven species whose spatio-temporal niche breadth was higher than 1 in a declining order were C. abbreviates, C. lucidus, S. ruconius, A. hexanema, T. kammalensis, C. mystus, H. nehereus. The ecological niche of major fish species in the Minjiang River Estuary showed obvious seasonal dynamics. The percentage of species pairs with spatio-temporal niche overlap at the meaningful level was as high as 81.9%. Six species pairs reached significant ecological niche overlap, indicating that major fish species had similar distribution at the spatial and temporal scales and the existence of resource utilization competition. The species pairs of U. japonicus-L. savalawas had the highest spatio-temporal niche overlap value, whereas U. japonicus-C. lucidus had the lowest niche overlap value. The spatio-temporal niche overlap of major fish species in the Minjiang River Estuary had substantial seasonal variation."
+},
+{
+"pmid": "29890218",
+"pmc": null,
+"doi": "10.1016/j.fsi.2018.06.014",
+"title": "Characterization of TLR5 and TLR9 from silver pomfret (Pampus argenteus) and expression profiling in response to bacterial components.",
+"journal": "Fish Shellfish Immunol",
+"year": "2018",
+"cit": {
+"volume": "80",
+"pages": "241-249"
+},
+"abstract": "Toll like receptor (TLR) 5 and 9 are important members of the TLR family that play key roles in innate immunity in all vertebrates. In this study, paTLR5 and paTLR9 were identified in silver pomfret (Pampus argenteus), a marine teleost of great economic value. Open reading frames (ORFs) of paTLR5 and paTLR9 are 2646 and 3225 bp, encoding polypeptides of 881 and 1074 amino acids, respectively. Sequence analysis revealed several conserved characteristic features, including signal peptides, leucine-rich repeat (LRR) motifs, and a Toll/interleukin-I receptor (TIR) domain. Sequence, phylogenetic and synteny analysis revealed high sequence identity with counterparts in other teleosts, confirming their correct nomenclature and conservation during evolution. Quantitative real-time PCR revealed that the that both TLRs were ubiquitously expressed in all investigated tissues, most abundantly in liver, kidney, spleen, intestine and gill, but lower in muscle and skin. In vitro immunostimulation experiments revealed that Aeromonas hydrophila lipopolysaccharide (LPS) and Vibrio anguillarum flagellin induced higher levels of paTLR9 and paTLR5 mRNA expression in isolated fish intestinal epithelial cells (FIECs) than Lactobacillus plantarum lipoteichoic acid (LTA), but all increased the secretion of IL-6 and TNF-α and induced cell apoptosis and necrosis. Together, these results indicate that paTLR5 and paTLR9 may function in the response to bacterial pathogens. Our findings enhance our understanding of the function of TLRs in the innate immune system of silver pomfret and other teleosts."
+},
+{
+"pmid": "29290722",
+"pmc": "PMC5740407",
+"doi": "10.3897/zookeys.719.19914",
+"title": "New genetic perspectives of the ambiguous pomfret as revealed by CR sequences.",
+"journal": "Zookeys",
+"year": "2017",
+"cit": {
+"issue": "719",
+"pages": "59-73"
+},
+"abstract": "is an economically important fish that is often erroneously identified as. No population genetic analyses have been performed on the truespecies. Here, the mitochondrial control region (CR) was used to evaluate the population genetics and elaborate the historical demography of the Silver pomfret collected from six geographical locations in China, Pakistan, and Kuwait. A high level of genetic diversity was demonstrated in this species. Analysis of molecular variance (AMOVA) revealed that the genetic divergence was mainly derived from within the populations (< 0.05). A historical demographic analysis indicated that the Silver pomfret experienced a recent population expansion during the late Pleistocene. The phylogeographical structure revealed two obvious lineages that diverged in the late Pleistocene, during which the Silver pomfret populations historically experienced exotic divergence and mixed again with differentiated populations. Currently, Silver pomfret populations have insufficient time to attain migration-drift equilibrium. Population genetic data of the Silver pomfret can provide preliminary genetic knowledge for its fishery management."
+},
+{
+"pmid": "33473943",
+"pmc": "PMC7799484",
+"doi": "10.1080/23802359.2017.1357434",
+"title": "Different on the abundance ofin Persian Gulf exceeding in variety comparing to Gulf of Oman.",
+"journal": "Mitochondrial DNA B Resour",
+"year": "2017",
+"cit": {
+"volume": "2",
+"issue": "2",
+"pages": "676-678"
+},
+"abstract": "Silver pomfret fish (Stromateidae) is a family of Perciformes order. One species of this family isknown as silver pomfret and lives in different parts of the Persian Gulf and Gulf of Oman. Therefore, the genetic relationship between its populations is so important. In this study, eight samples ofwere collected from four locations involved: Emam Khomeyni, Bushehr and Bandar Abbas in Persian Gulf and Chabahar in Gulf of Oman. Cytochrome b gene and D-loop region of mitochondrial DNA on these samples are analyzed. These genes are carried out using PCR with specific mtDNA primers and sequenced. Then, the evolutionary history was inferred by using the maximum-likelihood method. Evolutionary analyses were conducted in MEGA7. According to the phylogenetic trees, with translocations in Persian Gulf to Gulf of Oman, similarity decreases slowly. Chabahar1 sample in phylogenetic tree of cytochrome b is phylogenetically near China Sea samples. The reason may be migration from ocean to gulf throughout the centuries and Chabahar is in Gulf of Oman and locationally near the Arabian Sea and Indian Ocean. In D-loop region, results are similar to cytochrome b excepting one sample (Emam Khomeyni1). D-Loop in samples shows modification more than cytochrome b for the reason absence of protein product."
+}
+]

@@ -1,0 +1,119 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pub, pmid, note):
+    return {"n": n, "title": f"{title} ({note})", "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": f"{pub}, PMID {pmid}", "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Plectropomus leopardus 1행: 원료명 '무늬바리', 영문 Leopard coralgrouper, 분류 수산물, 대분류 식품원료(A코드), 부위 '-', 사용조건 기준 없음, 상태 사용가능, 별명 없음; 같은 속 Plectropomus oligacanthus 는 별도 행(원료명 'Highfin coralgrouper'); 고시형 원료 원재료 목록(KR_NOTICE) 없음 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/plectropomus-leopardus/card.json", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Study of an outbreak of ciguatera fish poisoning in Hong Kong. Toxicon 2005;46(5):563-71", "10.1016/j.toxicon.2005.06.023", "Toxicon", "16085209", "초록 확인"),
+ pm(3, "Model of the Origin of a Ciguatoxic Grouper (Plectropomus leopardus). Toxins 2023;15(3):230", "10.3390/toxins15030230", "Toxins (Basel)", "36977121", "초록 확인, PMC10055633"),
+ pm(4, "Critical Review and Conceptual and Quantitative Models for the Transfer and Depuration of Ciguatoxins in Fishes. Toxins 2021;13(8):515", "10.3390/toxins13080515", "Toxins (Basel)", "34437386", "초록 확인, PMC8402393"),
+ pm(5, "Reviewing Evidence for Disturbance to Coral Reefs Increasing the Risk of Ciguatera. Toxins 2025;17(4):195", "10.3390/toxins17040195", "Toxins (Basel)", "40278692", "초록 확인, PMC12030847"),
+ pm(6, "[Identification of Fish Species Involved with Ciguatera Food Poisoning in Okinawan Waters by Using PCR-RFLP analysis]. Shokuhin Eiseigaku Zasshi 2024;65(4):79-83", "10.3358/shokueishi.65.79", "Journal of the Food Hygienic Society of Japan", "39443100", "영문 초록 확인"),
+ pm(7, "Multiple ciguatoxins in the flesh of fish. Toxicon 1992;30(8):915-9", "10.1016/0041-0101(92)90390-q", "Toxicon", "1523683", "초록 확인 — 시료는 'Plectropomus spp.'로 종 미표기"),
+ pm(8, "A Queensland family with ciguatera after eating coral trout. Med J Aust 1997;166(9):473-5", "10.5694/j.1326-5377.1997.tb123219.x", "The Medical Journal of Australia", "9152341", "초록 확인 — 원인 생선은 일반명 'coral trout'로만 적혀 학명 미확인"),
+ pm(9, "Trace element accumulation in the muscles of reef fish collected from southern New Caledonian lagoon: Risk assessment for consumers and grouper Plectropomus leopardus as a possible bioindicator of mining contamination. Mar Pollut Bull 2022;185:114210", "10.1016/j.marpolbul.2022.114210", "Marine Pollution Bulletin", "36302308", "초록 확인"),
+ pm(10, "Trace element bioaccumulation in reef fish from New Caledonia: influence of trophic groups and risk assessment for consumers. Mar Environ Res 2013;87-88:26-36", "10.1016/j.marenvres.2013.03.001", "Marine Environmental Research", "23623270", "초록 확인"),
+ pm(11, "Trans-omics approaches used to characterise fish nutritional biorhythms in leopard coral grouper (Plectropomus leopardus). Sci Rep 2017;7:9372", "10.1038/s41598-017-09531-4", "Scientific Reports", "28839183", "PMC5570933 전문 확인"),
+ pm(12, "Optimal Dietary Lipid Requirement for Juvenile Leopard Coral Grouper (Plectropomus leopardus). Aquac Nutr 2026;2026:9438737", "10.1155/anu/9438737", "Aquaculture Nutrition", "42089080", "PMC13137126 전문 확인"),
+ pm(13, "Effects of Dietary Lysine Level on Growth Performance and Protein Metabolism in Juvenile Leopard Coral Grouper (Plectropomus leopardus). Aquac Nutr 2023;2023:1017222", "10.1155/2023/1017222", "Aquaculture Nutrition", "37324657", "PMC10264133 전문 확인"),
+ pm(14, "Optimal dietary phospholipid requirement for juvenile leopard coral grouper (Plectropomus leopardus). J Anim Sci 2025;103:skaf096", "10.1093/jas/skaf096", "Journal of Animal Science", "40153530", "초록 확인"),
+ pm(15, "De novo sequencing and chromosomal-scale genome assembly of leopard coral grouper, Plectropomus leopardus. Mol Ecol Resour 2020;20(5):1403-1413", "10.1111/1755-0998.13207", "Molecular Ecology Resources", "32521104", "초록 확인"),
+ pm(16, "Whole-genome sequencing of leopard coral grouper (Plectropomus leopardus) and exploration of regulation mechanism of skin color and adaptive evolution. Zool Res 2020;41(3):328-340", "10.24272/j.issn.2095-8137.2020.038", "Zoological Research", "32212431", "초록 확인"),
+ pm(17, "Improved chromosomal-level genome assembly and re-annotation of leopard coral grouper. Sci Data 2023;10:156", "10.1038/s41597-023-02051-z", "Scientific Data", "36949049", "초록 확인"),
+ pm(18, "A Complete Telomere-To-Telomere Assembly of Plectropomus leopardus and Phylogenomic Insights Into Perciformes. Evol Appl 2026;19(7):e70296", "10.1111/eva.70296", "Evolutionary Applications", "42434435", "초록 확인"),
+ pm(19, "Ion Torrent next-generation sequencing reveals the complete mitochondrial genome of black and reddish morphs of the Coral Trout Plectropomus leopardus. Mitochondrial DNA A 2016;27(1):609-12", "10.3109/19401736.2014.908369", "Mitochondrial DNA Part A", "24739006", "초록 확인"),
+ pm(20, "Complete mitochondrial genome of squaretail coralgrouper Plectropomus areolatus (Perciformes, Epinephelidae). Mitochondrial DNA 2013;24(4):365-7", "10.3109/19401736.2012.762579", "Mitochondrial DNA", "23387393", "초록 확인"),
+ pm(21, "Comparative demography of commercially important species of coral grouper, Plectropomus leopardus and P. laevis, from Australia's Great Barrier Reef and Coral Sea marine parks. J Fish Biol 2020;97(4):1165-1176", "10.1111/jfb.14491", "Journal of Fish Biology", "32785930", "초록 확인"),
+ pm(22, "Demographic histories shape population genomics of the common coral grouper (Plectropomus leopardus). Evol Appl 2022;15(8):1221-1235", "10.1111/eva.13450", "Evolutionary Applications", "36051464", "초록 확인"),
+ pm(23, "Contrasting population genetic structure in three aggregating groupers (Percoidei: Epinephelidae) in the Indo-West Pacific: the importance of reproductive mode. BMC Evol Biol 2018;18:180", "10.1186/s12862-018-1284-0", "BMC Evolutionary Biology", "30514203", "초록 확인"),
+ pm(24, "Large-scale, multidirectional larval connectivity among coral reef fish populations in the Great Barrier Reef Marine Park. Mol Ecol 2016;25(24):6039-6054", "10.1111/mec.13908", "Molecular Ecology", "27862567", "초록 확인"),
+ pm(25, "Reproductive benefits of no-take marine reserves vary with region for an exploited coral reef fish. Sci Rep 2017;7:9693", "10.1038/s41598-017-10180-w", "Scientific Reports", "28852089", "초록 확인"),
+ pm(26, "A large predatory reef fish species moderates feeding and activity patterns in response to seasonal and latitudinal temperature variation. Sci Rep 2017;7:12966", "10.1038/s41598-017-13277-4", "Scientific Reports", "29021605", "초록 확인"),
+ pm(27, "From local knowledge and science to policy: Lessons learned from Fiji's valuable grouper fisheries. J Fish Biol 2025;107(1):34-51", "10.1111/jfb.16041", "Journal of Fish Biology", "39777649", "초록 확인"),
+ pm(28, "Synchronously sexual maturity in hermaphrodite fish as revealed by transcriptome analysis in Plectropomus leopardus. Gene 2024;901:148166", "10.1016/j.gene.2024.148166", "Gene", "38242379", "초록 확인"),
+ pm(29, "Preferences and perceptions of the recreational spearfishery of the Great Barrier Reef. PLoS One 2019;14(9):e0221855", "10.1371/journal.pone.0221855", "PLoS One", "31490994", "초록 확인"),
+ pm(30, "Integrated multi-sensor tracking and metabolomics uncover transport environmental stress and metabolic mechanisms in leopard coral grouper (Plectropomus leopardus). Food Chem 2026;530:151111", "10.1016/j.foodchem.2026.151111", "Food Chemistry", "42800108", "초록 확인"),
+ pm(31, "Identification of Vibrio ponticus as a bacterial pathogen of coral trout (Plectropomus leopardus). Front Cell Infect Microbiol 2022;12:1089247", "10.3389/fcimb.2022.1089247", "Frontiers in Cellular and Infection Microbiology", "36619748", "초록 확인"),
+ pm(32, "Dietary astaxanthin improves the antioxidant capacity, immunity and disease resistance of coral trout (Plectropomus leopardus). Fish Shellfish Immunol 2022;122:38-47", "10.1016/j.fsi.2022.01.037", "Fish & Shellfish Immunology", "35085737", "초록 확인"),
+ pm(33, "In Silico Comparative Transcriptome Analysis of Two Color Morphs of the Common Coral Trout (Plectropomus leopardus). PLoS One 2015;10(12):e0145868", "10.1371/journal.pone.0145868", "PLoS One", "26713756", "초록 확인"),
+ pm(34, "Comparative Analysis of Embryonic Development and Mitochondrial Genome of a New Intergeneric Hybrid Grouper (Epinephelus fasciatus ♀ × Plectropomus leopardus ♂). Animals 2025;15(23):3445", "10.3390/ani15233445", "Animals (Basel)", "41375503", "초록 확인"),
+ pm(35, "Identification of Body Color-Related QTLs in Leopard Coral Grouper (Plectropomus leopardus) Based on GWAS and the HSV Color System. Animals 2026;16(11):1627", "10.3390/ani16111627", "Animals (Basel)", "42278061", "초록 확인"),
+ pm(36, "Classic approach revitalizes genomics: Complete characterization of a candidate gene for thermal adaptation in two coral reef fishes. Mar Genomics 2009;2(3-4):215-22", "10.1016/j.margen.2009.11.001", "Marine Genomics", "21798190", "초록 확인"),
+ pm(37, "Ciguatera incidence and fish toxicity in Okinawa, Japan. Toxicon 2009;56(5):656-61", "10.1016/j.toxicon.2009.05.036", "Toxicon", "19520098", "초록 확인"),
+ pm(38, "The dynamic immune response of the liver and spleen in leopard coral grouper (Plectropomus leopardus) to Vibrio harveyi infection based on transcriptome analysis. Front Immunol 2024;15:1457745", "10.3389/fimmu.2024.1457745", "Frontiers in Immunology", "39450165", "초록 확인"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "무늬바리(Plectropomus leopardus)는 식약처 「식품원료 목록」에 '무늬바리'(영문 Leopard coralgrouper)라는 원료명으로 올라 있는 수산물이다[1]. 이 목록에서 무늬바리는 학명 1행뿐이며 상태는 '사용가능', 부위 칸은 '-'이고 따로 정한 사용 조건이나 별명은 없다[1]. 같은 속의 Plectropomus oligacanthus 는 목록에 별도 행으로 올라 있으며, 이 글은 무늬바리 한 종의 자료만 다룬다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없으므로 식약처가 정한 지표성분도 없다[1].\n\n"
+  "무늬바리는 인도·태평양의 열대·아열대 바다에 널리 사는 육식성 산호초 어류로, 몸 빛깔과 맛이 좋아 여러 나라에서 양식 대상이 되었다[15]. 아시아 시장에서 고급 생선으로 거래되며 활어로 유통된다[11, 30]. 양식 치어의 등 근육은 수분 77.85–78.56%, 조단백질 20.41–20.90%, 조지방 0.64–1.04%(습중량)로 지방이 적은 흰살이었다[12]. 한편 무늬바리는 시구아테라(산호초 어류의 시구아톡신 중독) 원인 어종으로 확인된 적이 있어 식품 안전에서 주의할 생선이다[2, 3]. 국가표준식품성분표의 무늬바리 성분값과 국내 어획·수입 통계는 이번 조사에서 확인하지 못함."},
+ {"key": "history", "title": "이용·연구 역사", "body":
+  "무늬바리를 포함한 산호송어류(coral trout, Plectropomus 속)는 오스트레일리아에서 오래전부터 시구아테라와 관련해 연구되었다[7, 8]. 1992년 연구는 Plectropomus 속 생선 살에서 여러 시구아톡신을 함께 검출했다(종은 초록에 표기되지 않음)[7]. 1997년에는 퀸즐랜드의 한 가족 4명이 'coral trout'를 먹고 시구아테라에 걸렸다가 모두 회복한 사례가 보고되었다(초록에 학명은 없음)[8]. 2004년 홍콩에서는 수입 활 산호어 수요가 늘면서 시구아테라 집단 발생이 이어졌고, 원인 어종에 무늬바리가 포함되었다[2].\n\n"
+  "연구는 2010년대 들어 양식과 유전체 쪽으로 넓어졌다[19, 33, 11]. 2014년에는 검은형과 붉은형 무늬바리의 미토콘드리아 전장 유전체가, 2015년에는 첫 전사체 자료가 발표되었다[19, 33]. 2017년 일본 연구진은 인공 종묘 무늬바리의 근육 대사를 전사체·대사체로 함께 분석했다[11]. 2020년에는 염색체 수준 유전체가 잇달아 발표되었고, 2023년 개선판과 2026년 끝에서 끝까지 이어진(T2T) 유전체가 뒤따랐다[15, 16, 17, 18]. 같은 시기 사료의 지방·인지질·라이신 요구량 연구가 이어졌다[12, 13, 14]."},
+ {"key": "biology", "title": "어종·생태·번식", "body":
+  "무늬바리는 바리과(Epinephelidae) Plectropomus 속의 대형 포식성 산호초 어류다[18, 26]. 그레이트배리어리프에서 계절별 섭식을 관찰한 연구에서는 여름에 먹이 활동이 잦았으나 수온이 30 °C를 넘으면 크게 줄었고, 저위도 집단은 여름에 시간의 최대 62%를 쉬며 보냈다(고위도 43%)[26]. 나이별 길이 자료로 본 평생 성장은 그레이트배리어리프와 산호해 사이에 거의 차이가 없었고, 어획이 이뤄지는 암초의 개체는 금어 구역보다 평균적으로 작았다[21].\n\n"
+  "번식기에는 대륙붕 위의 여러 곳에 작은 산란 집단을 만든다[23]. 양식 개체의 생식소 조직 관찰에서는 생후 15개월에 성 분화가 끝나고 3년에 암수가 함께 성숙했으며, 연구진은 자웅동체 어종으로 보았다[28]. 유생 부모 판별 연구에서 무늬바리 치어 17마리(표본의 9%)가 부모와 연결되었고 추정 중앙 분산 거리는 약 190 km였다[24]. 2004–2013년 단위면적당 산란량은 금어 구역이 어획 구역보다 중부에서 152%, 남부에서 21% 많았지만 북부에서는 56% 적었다[25]."},
+ {"key": "related_species", "title": "관련 종·이름", "body":
+  "영어로는 leopard coral grouper, common coral grouper, common coral trout 또는 coral trout라 부르며, 식약처 목록의 영문명은 Leopard coralgrouper다[1, 22, 33, 31]. 같은 속에는 P. laevis, P. maculatus, P. areolatus 등이 있으며, 그레이트배리어리프에서는 P. laevis·P. maculatus 와 함께 연구되었다[21, 24, 20]. 무늬바리와 P. laevis 의 ldh-b 유전자는 암호화 부위 염기서열이 98.1% 같았다[36]. P. areolatus 의 미토콘드리아 전장 유전체는 무늬바리와 90.7%의 서열을 공유했다[20]. 식약처 목록에는 같은 속의 P. oligacanthus 가 별도로 올라 있으나 그 자료는 이 글에 섞지 않았다[1].\n\n"
+  "근연종은 겉모양이 비슷해 혼동되기 쉽다[6]. 오키나와 연구진은 시구아테라 원인 어종을 무늬바리 등 생김새가 비슷한 종과 가리기 위해 16S rRNA 유전자의 PCR-RFLP 표지를 개발했다[6]. 오키나와 1997–2006년 시구아테라 원인 어종에는 근연종 P. areolatus 가 포함되었다[37]. 양식 품종 개발을 위해 홍바리(Epinephelus fasciatus) 암컷과 무늬바리 수컷의 속간 잡종도 만들어졌으며, 수정률은 85.87%, 부화율은 70.37%였다[34]."},
+ {"key": "cultivation", "title": "어획·양식", "body":
+  "무늬바리는 그레이트배리어리프의 주요 상업·유어 대상 어종이다[3, 25]. 그레이트배리어리프 작살 낚시인 141명 설문에서 무늬바리는 가장 선호하는 대상으로 보고된 어획물의 34%를 차지했다[29]. 피지에서는 산란 집단을 이루는 바리류(무늬바리 포함)가 특히 위험한 상태로 평가되었고, 미성숙 개체의 거래 비율이 높아 산란 집단 보호와 최소 체장 상향이 권고되었다[27].\n\n"
+  "자연 자원이 줄고 값이 오르면서 중국 등에서 양식이 늘었다[13, 15]. 치어 사료 실험에서 성장은 지방 약 10%(2차 회귀 최적 약 9.3%)에서 가장 좋았고, 14% 이상에서는 간에 지방이 쌓였다[12]. 대두 레시틴 인지질은 성장 기준 3%가 권장되었고, 라이신 요구량은 사료의 2.60–2.97%로 추정되었다[14, 13]. 아스타잔틴이 풍부한 헤마토코쿠스 분말 1.0 g/kg 첨가는 항산화 능력과 비브리오 감염 뒤 생존율을 높였다[32]. 양식에서는 Vibrio harveyi 가 피부 궤양과 높은 폐사를 일으키고, V. ponticus 도 간 괴사를 일으키는 병원균으로 보고되었다[38, 31]. 국내 양식·어획 통계는 확인하지 못함."},
+ {"key": "processing", "title": "유통·가공·품질", "body":
+  "무늬바리는 붉은 몸빛이 시장 가격을 정하는 중요한 형질로 꼽힌다[35]. 붉은형과 검은형의 피부 빛깔 차이는 카로티노이드 대사 관련 유전자 발현과 연관되어 있었다[16]. 고가 활어로 유통되므로 수송 중 품질 관리가 연구되었는데, 수송 시간이 길어지면 물이 점점 산성화되고 산화 지표 MDA가 늘었으며 16 °C 수송은 산화 스트레스와 간 손상을 줄였다[30]. 오래 수송하면 혈청 대사체에서 크레아틴, 히스타민, 팔미트산이 바뀌었다[30].\n\n"
+  "인공 종묘 근육의 수용성 추출물을 핵자기공명(NMR)으로 분석했을 때 젖산, 크레아틴, 트리메틸아민옥사이드, 타우린, 글리신 신호가 특히 강했다[11]. 절식하면 근육의 류신·이소류신이 늘었고, 이노신은 근육 분해와 함께 늘어나는 물질로 해석되었다[11]. 등 근육의 지방산 조성은 먹인 사료의 지방산 조성을 크게 따랐으며, 사료 지방이 늘수록 n-3/n-6 비가 1.01에서 0.58로 낮아졌다[12]. 연구진은 사료 지방 수준과 지방원을 함께 조절해야 필레의 n-3 특성을 지킬 수 있다고 보았다[12]. 국내 가공 제품과 생산실적은 확인하지 못함."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "2020년 발표된 첫 염색체 수준 유전체 가운데 하나는 787.06 Mb로 99.7%가 24개 염색체에 배치되었고 단백질 암호 유전자 22,317개가 예측되었다[16]. 다른 조립은 881.55 Mb, 스캐폴드 N50 34.15 Mb, 유전자 25,248개였으며 54마리 재염기서열로 SNP 5,178,453개를 찾았다[15]. 2023년 개선판은 849.74 Mb, 콘티그 45개(N50 35.59 Mb), 유전자 25,965개, BUSCO 완성도 99.5%였다[17]. 2026년 T2T 유전체는 887.20 Mb(콘티그 N50 39.03 Mb, QV 67)였고, 110마리 하플로타입 참조 패널에서 기능 상실 변이 1,068개가 주석되었다[18].\n\n"
+  "그레이트배리어리프와 산호해 11곳을 SNP 4,548개로 비교한 연구에서는 두 지역 사이 유전적 연결이 낮았고, 산호해 집단은 약 19만 년 전 소수의 그레이트배리어리프 개체에서 갈라진 것으로 추정되었다[22]. 검은형과 붉은형의 미토콘드리아 전장 유전체는 변이 자리 74곳과 삽입·결실 1곳이 달랐다[19]. 몸빛 전장 연관 분석에서는 SNP 18개와 후보 유전자 ASAP2, NLRC3, ALDH18A1, E2F4가 찾아졌다[35]."},
+ {"key": "safety", "title": "안전성", "body":
+  "무늬바리는 이 종 시료와 먹이사슬 연구로 시구아톡신 오염이 확인된 바리류로, 시구아테라 위험이 있는 생선이다[2, 3]. 2004년 홍콩에서 신고된 식중독 823건 가운데 65건(7.9%)이 시구아테라였고, 감시 시료 7건(13%)이 생쥐 생물검정에서 시구아톡신 양성이었으며 원인 어종에 무늬바리가 포함되었다[2]. 양성 시료 대부분은 미량이었다[2]. 그레이트배리어리프 먹이사슬 모형은 일시적인 독성 와편모조류 대발생만으로도 무늬바리가 약한 독성을 띨 수 있다고 보았다[3]. 성장에 따른 희석은 어린 고속 성장 개체나 저농도 오염이 아니면 살의 독성을 크게 낮추지 못하는 것으로 모형화되었다[4]. 산호초 교란이 바리류의 시구아톡신 축적 위험을 높일 수 있다는 가설도 제시되었다[5]. 국내의 시구아톡신 기준·검사 정보는 원문으로 확인하지 못함.\n\n"
+  "뉴칼레도니아 산호초 어류 141마리 조사에서 무늬바리 근육의 수은은 몸 크기에 따라 늘었고, 이 연구의 위해 평가는 수은·메틸수은이 생선을 많이 먹는 사람에게 우려될 수 있다고 보았다[9]. 같은 해역의 앞선 연구는 무늬바리를 금속 오염 감시용 지표 어종으로 썼다[10]. 식약처 등 국내 공공기관의 무늬바리 알레르기 정보는 확인하지 못함."},
+]
+
+compounds = [
+ {"name": "Docosahexaenoic acid", "name_ko": "DHA(도코사헥사엔산)", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "등 근육(양식 치어)", "content_text": "총 지방산의 7.54±0.18–10.01±0.28%(사료 지방 16%–6% 처리, 원문 표 8)[12]", "activity_ko": "근육에서 EPA보다 일관되게 많았고(DHA/EPA 1.41–2.01) 사료 지방이 늘수록 비율이 줄었다[12]", "source": [12]},
+ {"name": "Eicosapentaenoic acid", "name_ko": "EPA(에이코사펜타엔산)", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "등 근육(양식 치어)", "content_text": "총 지방산의 4.90±0.07–5.34±0.06%(원문 표 8)[12]", "activity_ko": "사료 지방(어유·대두유 1:1) 수준이 높을수록 직선적으로 늘었다[12]", "source": [12]},
+ {"name": "Palmitic acid", "name_ko": "팔미트산", "class": "포화지방산", "role": "nutrient", "part": "등 근육(양식 치어)", "content_text": "총 지방산의 17.41±0.38–24.86±0.20%(원문 표 8)[12]", "activity_ko": "근육 포화지방산의 주성분이며, 장시간 활어 수송 때 혈청 대사체에서 변화한 물질로도 보고되었다[12, 30]", "source": [12, 30]},
+ {"name": "Oleic acid", "name_ko": "올레산(C18:1)", "class": "단일불포화지방산", "role": "nutrient", "part": "등 근육(양식 치어)", "content_text": "C18:1 총 지방산의 20.13±0.18–24.67±0.07%(원문 표 8)[12]", "activity_ko": "사료 지방이 늘수록 늘어나 근육 단일불포화지방산 증가를 이끌었다[12]", "source": [12]},
+ {"name": "Linoleic acid", "name_ko": "리놀레산", "class": "n-6 고도불포화지방산", "role": "nutrient", "part": "등 근육(양식 치어)", "content_text": "C18:2n-6 총 지방산의 14.75±0.12–25.62±0.39%(원문 표 8)[12]", "activity_ko": "대두유 유래로 근육에 쌓여 n-3/n-6 비를 1.01에서 0.58로 낮췄다[12]", "source": [12]},
+ {"name": "Creatine", "name_ko": "크레아틴", "class": "근육 에너지 대사물", "role": "bioactive", "part": "근육(수용성 추출물)", "content_text": "1H NMR 강한 신호(3.02·3.92 ppm), 절대 함량은 보고되지 않음[11]", "activity_ko": "근육 수용성 대사체의 주요 신호이며, 장시간 수송 때 혈청에서 변화했다[11, 30]", "source": [11, 30]},
+ {"name": "Taurine", "name_ko": "타우린", "class": "아미노산 유도체", "role": "nutrient", "part": "근육(수용성 추출물)", "content_text": "1H NMR 강한 신호(3.41 ppm), 절대 함량은 보고되지 않음[11]", "activity_ko": "근육 NMR 스펙트럼에서 특히 강한 6개 신호 가운데 하나로 관찰되었다[11]", "source": [11]},
+ {"name": "Trimethylamine N-oxide", "name_ko": "트리메틸아민옥사이드(TMAO)", "class": "삼투 조절 물질", "role": "marker", "part": "근육(수용성 추출물)", "content_text": "1H NMR 강한 신호(3.25 ppm), 절대 함량은 보고되지 않음[11]", "activity_ko": "해산어 근육에 많은 물질로, 이 종 근육 NMR에서 주요 신호로 나타났다[11]", "source": [11]},
+ {"name": "Glycine", "name_ko": "글리신", "class": "아미노산", "role": "nutrient", "part": "근육(수용성 추출물)", "content_text": "1H NMR 강한 신호(3.53 ppm), 절대 함량은 보고되지 않음[11]", "activity_ko": "근육 수용성 대사체의 주요 유리 아미노산 신호로 관찰되었다[11]", "source": [11]},
+ {"name": "Leucine", "name_ko": "류신", "class": "분지사슬 아미노산", "role": "nutrient", "part": "근육(수용성 추출물)", "content_text": "절식 2일째 증가(상대 신호 강도), 절대 함량은 보고되지 않음[11]", "activity_ko": "절식 때 근육 에너지원으로 쓰이는 것으로 해석되었다[11]", "source": [11]},
+ {"name": "Inosine", "name_ko": "이노신", "class": "핵산 관련 물질(ATP 분해물)", "role": "marker", "part": "근육(수용성 추출물)", "content_text": "야간에 높은 일주기 변동(상대 신호 강도)[11]", "activity_ko": "근육 세포 분해와 함께 늘어나는 물질로 해석되었고 급식·절식 판별에 기여했다[11]", "source": [11]},
+ {"name": "Ciguatoxin CTX1B", "name_ko": "시구아톡신(P-CTX-1, CTX1B)", "class": "해양 생물독소(폴리에테르)", "role": "marker", "part": "살", "content_text": "홍콩 감시 시료 7건(13%) 생물검정 양성, 대부분 미량[2]; 먹이사슬 모형상 약한 독성 개체 살 0.1 µg/kg[3]", "activity_ko": "시구아테라 식중독의 원인 독소로, 먹이사슬을 따라 무늬바리에 축적된다[2, 3, 4]", "source": [2, 3, 4]},
+ {"name": "Mercury", "name_ko": "수은", "class": "중금속", "role": "marker", "part": "근육", "content_text": "뉴칼레도니아 개체에서 몸 크기에 따라 증가(초록에 수치 없음)[9]", "activity_ko": "수은·메틸수은이 생선을 많이 먹는 사람에게 우려될 수 있다고 평가되었다[9]", "source": [9, 10]},
+ {"name": "Parvalbumin", "name_ko": "파브알부민", "class": "칼슘 결합 단백질", "role": "marker", "part": "근육", "content_text": "근육 전사체에서 미오신 다음으로 높은 발현(미오신·파브알부민·액틴이 전사물의 약 80%)[11]", "activity_ko": "근육에 많은 단백질로, 급식기가 절식기보다 발현이 높았다[11]", "source": [11]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Fatty acid methyl esters (C16:0, C18:1, C18:2n-6, EPA, DHA etc.)", "compound_ko": "지방산 조성", "part": "등 근육(양식 치어, 9주 사육)",
+  "content": "DHA 7.54–10.01%, EPA 4.90–5.34%, C16:0 17.41–24.86%, C18:1 20.13–24.67%, C18:2n-6 14.75–25.62%(총 지방산 대비, 사료 지방 6–16% 처리, 원문 표 8)[12]",
+  "method": "GC-FID",
+  "conditions": {"instrument": "가스크로마토그래프 Hitachi 263-30, 불꽃이온화검출기", "column": "CP-Sil 88 모세관 칼럼(규격 원문에 없음)", "mobile_phase": "", "gradient": "120 °C(2분 유지) → 10 °C/분 175 °C(10분 유지) → 5 °C/분 220 °C(15분 유지)", "flow": "", "temp": "", "detection": "FID", "injection": "", "sample_prep": "동결건조(48시간)·분쇄 → 클로로포름–메탄올(2:1, v/v) Folch 추출 → 0.5 M 메탄올성 KOH 60 °C 15분 비누화 → 3 M 메탄올-HCl 60 °C 60분 메틸화 → n-헥산 추출, 무수 황산나트륨 탈수", "standard": "37종 FAME 표준 혼합물(Supelco)과 머무름 시간 비교, 총 동정 지방산 대비 % 표시", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 종의 식용 부위인 등 근육 지방산(특히 DHA·EPA·n-3/n-6 비)을 사료 조건별로 정량해 필레 영양 품질 지표로 삼았다[12]. 전문(Methods) 확인 — 검출·정량한계·회수율은 본문에 없음[12].",
+  "source": [12], "url": "https://doi.org/10.1155/anu/9438737", "source_kind": "paper"},
+ {"role": "literature", "compound": "Water-soluble muscle metabolites (lactate, creatine, TMAO, taurine, glycine)", "compound_ko": "근육 수용성 대사체", "part": "근육(인공 종묘, 약 60 g)",
+  "content": "407개 신호 영역 정량(상대 강도); 젖산 1.34 ppm, 크레아틴 3.02·3.92 ppm, TMAO 3.25 ppm, 타우린 3.41 ppm, 글리신 3.53 ppm 신호가 특히 강함[11]",
+  "method": "1H NMR(2D J-resolved) 대사체 분석",
+  "conditions": {"instrument": "Bruker AVANCE II-700 분광기(1H 700.03 MHz), 역삼중공명 극저온 프로브(Z축 기울기, 5 mm)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "측정 298 K", "detection": "1D-1H, 2D-Jres, 1H-13C HSQC, HSQC-TOCSY", "injection": "", "sample_prep": "−80 °C 보관 → 액체질소·동결건조 → 분쇄 근육 18 mg에 D2O/KPi(100 mM, pH 7.0) 600 μL, 338 K에서 15분 흔들어 추출", "standard": "DSS 메틸기 0.00 ppm 기준; SpinAssign·SpinCouple·HMDB로 동정", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "급식·절식과 일주기에 따른 근육 에너지 대사(분지사슬 아미노산·이노신·IMP 등) 변화를 보는 데 쓰였다[11]. 전문(Methods) 확인 — 절대 함량·검출한계·회수율은 보고되지 않음[11].",
+  "source": [11], "url": "https://doi.org/10.1038/s41598-017-09531-4", "source_kind": "paper"},
+ {"role": "literature", "compound": "Ciguatoxins", "compound_ko": "시구아톡신", "part": "살(감시 시료)",
+  "content": "감시 시료 7건(13%) 생물검정 양성, 대부분 미량; 양성 어류 7마리 살 20점 중 50%가 Cigua-Check 양성[2]",
+  "method": "생쥐 생물검정(검증법) 및 Cigua-Check 면역 키트",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "생쥐 증상 관찰", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "무늬바리를 포함한 원인 어종의 시구아테라 위해를 확인하는 데 쓰였다[2]. 전문 확인 못함 — 조건은 초록 범위만 적음[2].",
+  "source": [2], "url": "https://doi.org/10.1016/j.toxicon.2005.06.023", "source_kind": "paper"},
+]
+
+d = {"slug": "plectropomus-leopardus", "name_ko": "무늬바리", "name_en": "Leopard coralgrouper",
+     "scientific_name": "Plectropomus leopardus (Lacepède, 1802)",
+     "aliases": ["무늬바리", "Leopard coralgrouper", "leopard coral grouper", "common coral trout", "coral trout"],
+     "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [],
+     "production": [], "world": [], "gi": [], "orgs": [], "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

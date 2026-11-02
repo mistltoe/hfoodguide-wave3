@@ -1,0 +1,293 @@
+Abbreviations
+
+3‐GT
+
+anthocyanidin 3‐glucosyltransferase
+
+ANS
+
+anthocyanidin synthase
+
+bHLH
+
+basic helix‐loop‐helix
+
+C4H
+
+cinnamate 4‐hydroxylase
+
+CHI
+
+chalcone isomerase
+
+CHS
+
+chalcone synthase
+
+DET
+
+differentially expressed transcript
+
+DFR
+
+dihydroflavonol 4‐reductase
+
+F3′5′H
+
+flavonoid 3′,5′‐hydroxylase
+
+F3′H
+
+flavonoid 3′‐hydroxylase
+
+F3H
+
+flavanone 3‐hydroxylase
+
+FDR
+
+false discovery rate
+
+FLS
+
+flavonol synthase
+
+GO
+
+gene ontology
+
+KEGG
+
+Kyoto Encyclopedia of Genes and Genomes
+
+TF
+
+transcription factor
+
+1
+
+INTRODUCTION
+
+Feijoa or Guayabo del país ([Berg] Burret), synonym) is a diploid (Costa et al.,; Vázquez Medina,), evergreen small fruit tree belonging to the tribe Myrteae of the Myrtaceae family (Wilson et al.,). While its center of origin and distribution is found in southern Brazil and northern Uruguay (dos Santos et al.,; Weston,), it has been introduced in many other countries since the early 20th century. Currently, it is commercially grown in the United States, Italy, Colombia, New Zealand, and Australia, mostly for fruits but also as ornamental (Zhu,). Apart from its highly aromatic fruits, the fleshy, sweet, and edible petals are highly appreciated as an ingredient for salads and infusions (do Amarante et al.,; dos Santos et al.,; Magri et al.,).
+
+Flavonoids are involved in flower and fruit color, fragrance, and flavor. They also play important roles in plant immune responses, cell growth regulation, attracting pollinator insects, and protecting against biotic and abiotic stresses (Dias et al.,). If consumed by humans, they have a broad spectrum of health‐promoting effects like anti‐inflammatory and antimicrobial properties (Panche et al.,). Anthocyanins are water‐soluble flavonoids that contribute to red, pink, blue, and purple colors (Ng & Smith,). Their protective roles include alleviating photo‐inhibitory stress (Gould,), preventing reactive oxygen species formation (Hatier & Gould,, 2008), and delaying leaf senescence (Landi et al.,; Peng et al.,).
+
+Pharmaceutical and food industries, but also consumers, are constantly searching for natural sources of antioxidants as they have been linked to many health benefits. Among them are the ability to fight against metabolic, chronic, and cardiovascular diseases, Alzheimer's disease, cancer, and premature aging (Grzeszczuk et al.,; Magri et al.,). The fruits, leaves, and edible flowers ofare rich in valued secondary metabolites with antioxidant and nutraceutical properties (Basile et al.,; Magri et al.,; Montoro et al.,; Pasquariello et al.,; Phan et al.,; Zhu,). Some of the most recognized are pedunculagin, gallic acid, hyperoside, gossypetin, arabinofuranoside, ellagitannin, ellagic acid, ascorbic acid, polyphenols, and flavonoids including anthocyanins (Aoyama et al.,; do Amarante et al.,; Magri et al.,; Montoro et al.,). However, despite their importance, the biosynthesis and regulation of flavonoids inremain poorly investigated. Understanding the genes involved in the synthesis and accumulation of flavonoids and other antioxidant and nutraceutical molecules inis the first step toward breeding for high‐content health‐promoting compounds.
+
+The synthesis of flavonoids can be traced back to the phenylpropanoid pathway, a principal secondary metabolite route that diversifies into branches towards nine distinctive compounds: chalcones, aurones, isoflavonoids, flavones, flavonols, flavandiols, anthocyanins, condensed tannins, and phlobaphene (Falcone Ferreyra et al.,). Advancements in RNA sequencing (RNA‐seq) have provided valuable insights into plant metabolic pathways and have made comparisons across species affordable (F. Li et al.,; Yonekura‐Sakakibara et al.,). For instance, RNA‐seq has been applied to dissect several members of the tribe Myrteae of the Myrtaceae family at the transcriptome level. Some of the latest are(Vetö et al.,),(Thole et al.,), and(Zhang et al.,). However, up to date no transcriptome or expression profiling has been conducted infocused on the flavonoid pathway.
+
+Genes in the flavonoid pathway can be broken up into structural enzyme‐coding genes and regulatory transcription factors (TFs) that control the expression of those structural genes (Yue et al.,). Major structural genes in the pathway are well conserved across species and include cinnamate 4‐hydroxylase (C4H), chalcone synthase (CHS), chalcone isomerase (CHI), flavanone 3‐hydroxylase (F3H), flavonoid 3′‐hydroxylase (F3′H), flavonoid 3′,5′‐hydroxylase (F3′5′H), flavonol synthase (FLS), dihydroflavonol 4‐reductase (DFR), and anthocyanidin synthase (ANS) (Dixon et al.,; Vogt,). Downstream in the anthocyanin pathway, the anthocyanidin 3‐‐glucosyltransferase (3GT) is a key enzyme responsible for producing colored and stable anthocyanins (Vogt,).
+
+Transcriptional control plays a central role in the modulation of flavonoid biosynthesis. The TF families MYB, basic helix‐loop‐helix (bHLH), and WD40 are the most reported regulators of the flavonoid pathway. These families may act singly or as complexes like MYB‐bHLH or MYB‐bHLH‐WD40 (BMW complex) that bind to the promoter region of genes, controlling their expression in a network context (Hichri et al.,; J. Liu et al.,; Xu et al.,). The R2R3‐MYB TFs, a particular type of MYB, play key regulatory roles in the phenylpropanoid pathway, including the flavonoid/anthocyanin branches. In Arabidopsis, MYB11, MYB12, and MYB111 TFs activated the major flavonol genes() and() (Stracke et al.,). Conversely, the interaction between MYB‐bHLH and BMW complexes resulted in downregulation of proanthocyanidin and anthocyanin synthesis (Wang et al.,).
+
+Herein, we have built and functionally annotated the first de novo transcriptome ofusing RNA‐seq libraries from leaves and tissues sampled at three floral developmental stages. Bioinformatics analysis of the data provided transcript sequences and their expression profiling. We used this reference transcriptome to shed some light on major physiological and regulatory processes throughout flower development, particularly within the flavonoid pathway. In addition, because we benchmarked several de novo assemblies, results will assist in selecting the best combination of assembler and parameters forand other related non‐model species.
+
+Core Ideas
+
+transcriptome assembly identified 221,649 nonredundant expressed transcripts.
+
+Co‐expression clusters provided insights into floral development dynamics.
+
+Key candidate genes involved in flavonoid and anthocyanin synthesis were identified.
+
+Transcript sequences will assist in dissecting themetabolome.
+
+2
+
+MATERIALS AND METHODS
+
+2.1
+
+RNA isolation, construction of cDNA libraries, and Illumina sequencing
+
+Fresh leaves and flowers corresponding to three diploid accessions (Vázquez Medina,; Pritsch, unpublished results), outbred adult plants ofwere sampled, cleaned, flash‐frozen with liquid nitrogen, and stored at −80°C until RNA extraction. Leaves were sampled at stages 17–18 based on theBBCH scale (Biologische Bundesantalt, Bundessortenamt und Chemische Industrie) described by Ramírez and Kallarackal (). Flowers were sampled at stages F1, F2, and F3, corresponding to highly contrasting developmental stages: 55 (F1), 64–65 (F2), and 69 (F3) (Figure). Leaves and F1‐, F2‐, and F3‐flowers from the three individuals (biological averaging method) (Sharma et al.,) were pooled and used for RNA extraction using the Plant RNeasy kit (Qiagen). For each of the four bulked tissues, three biological replicates were processed, obtaining a total of 12 RNA samples. RNA quality and quantity were assessed with an Agilent 2100 Bioanalyzer (Agilent Technologies). Only samples with quality RIN number over 8 were selected. Preparation of the 12 cDNA libraries was carried out with a TrueSeq stranded mRNA library preparation kit (Illumina) and sequenced with an Illumina NovaSeq6000 platform with paired‐end (PE, 2 × 100 bp) reads.
+
+FIGURE 1
+
+floral development stages F1, F2, and F3. Bud begins to open; white‐pink petals slightly visible (F1). Petals fully open; filaments and carpel with dark reddish color, anthers cream colored (F2). End of flowering; all petals, filament, and anthers fell, carpel remained (F3).
+
+2.2
+
+Raw read filtering and de novo assembly
+
+Raw reads were filtered according to their base qualities using FastQC v0.11.2 (). Remnant adapters and poor‐quality bases were trimmed using Trimmomatic v0.33 (Bolger et al.,) with the following parameters: ILLUMINACLIP: 2: 25: 10, LEADING: 3, TRAILING: 3, SLIDING WINDOW: 4:15, and MINLEN: 75. Presence of rRNA contamination was examined by searching for homology against SILVA rRNA databases (Quast et al.,) using Bowtie2 v2.2.5 (Langmead & Salzberg,) and reads with homology were removed to obtain the working filtered reads.
+
+To capture the highest number and complexity of transcripts, filtered reads from the 12 cDNA libraries were pooled and used to generate the best (reference) de novo transcriptome assembly. For this, a total of 11 assemblies were first obtained using different approaches and benchmarked. The first 10 assemblies were completed using four assemblers: Trinity v2.12.0 (Grabherr et al.,), SOAPdenovo‐Trans v1.03 (Xie et al.,), transABySS v2.0.1 (Robertson et al.,), and rnaSpades v3.14.1 (Bushmanova et al.,). Assemblies were generated using default parameters for transABySS (= 32) and rnaSpades (= “auto”). For Trinity, two assemblies were constructed with twosizes (25 and 31), while sixsizes were used (21, 23, 25, 27, 29, and 31) for SOAPdenovo‐Trans. The EvidentialGene tr2aacds pipeline () was applied to merge all the previous assemblies to obtain the 11th assembly.
+
+2.3
+
+Benchmarking of de novo assemblies
+
+To assess the quality of the 11 de novo assemblies, a total of 10 metrics were computed (Grabherr et al.,; Haas et al.,). First, several statistics of the assemblies were determined using TransRate v1.0.3 (Smith‐Unna et al.,). In addition, the accuracy of each assembly was evaluated by the percentage of reads that mapped back to the assembled transcripts using Bowtie2 v2.2.5. The BUSCO v4.1.1 (Simão et al.,) with the “Viridiplantae_odb10” reference database was used to gauge the completeness of the assemblies. Full‐length transcripts were identified by performing(Altschul et al.,) against the Swiss‐Prot from UniProtKB () database with the “analyze_blastPlus_topHit_coverage.pl” script provided in the Trinity package. Subsequently, the metrics for each assembly were normalized according to Hölzer and Marz () and combined to generate an assembly index score. For each assembly{a, …, a} and a metric{m, …, m10}, we defined a vectorof raw scoresas:= (…….). Then, we normalized the values of each vectorto the interval (0,1) using normalize () = [− min()]/max() − min() =. The matrix score (MS) for each assembly () was calculated as the sum of all (0,1)‐normalizedscores over the 10 pre‐selected metricsover a maximum MS of 10. The best assembly was selected as the assembly with the highest MS. Then, contigs with over 95% identity within the assembly were clustered using CD‐HIT‐EST v4.8 (W. Li & Godzik,) to reduce redundancy. The normalized metrics were then reassessed to ensure that no significant changes occurred in the quality metrics due to clustering.
+
+In addition, an analysis of the completeness of the final assembly was performed based on direct comparisons with two related species:(Feng et al.,) and(Myburg et al.,), both from the Myrtaceae family. Asearch was carried out using the longest protein per gene (25,061 and 35,674, respectively).
+
+To further evaluate the quality of thetranscriptome assembly and its annotation, OrthoFinder v2.5.5 (Emms & Kelly,) was used to identify orthologous groups for the protein‐coding transcripts (ORF signature‐containing transcripts) and a set of five annotated genomes of Myrtaceae, representing tribes Myrteae, Syzygeae, and Eucalypteae (Vasconcelos et al.,). These five genomes were as follows:(Feng et al.,) and(NCBI acc. GCA_900635045.2) of the tribe Myrteae;(NCBI acc. GCF_021117445.2) of the tribe Syzygeae; and lastly,(Healey et al.,) and(Myburg et al.,) of the tribe Eucalypteae. The annotated genomes of(Jaillon et al.,) and(Lamesch et al.,) were chosen as outgroups. Orthologous pairs were identified based on amino acid sequence similarity, with a coverage cutoff of 50% of the total length in the shorter sequence. Sequence similarity was established withwith a threshold‐value 1e‐5. For phylogenetic analyses, single‐copy core orthogroups were aligned using MAFFT (Katoh & Standley,), with the parameter‐maxiterate 1000. Phylogenetic trees for each orthogroup were computed using RaxML‐NG (Kozlov et al.,) with the GTRGAMMA model and maximum likelihood (ML) method (Felsenstein,) with 1000 bootstraps. The final rooted tree was inferred by the STAG method implemented in OrthoFinder (Emms & Kelly,).
+
+2.3.1
+
+Functional annotation of thetranscriptome
+
+Putative functions of the full set of nonredundanttranscripts were predicted using thev2.11 algorithm with a threshold‐value 1e‐5 and public databases: NCBI‐nr (nonredundant protein database maintained by the National Center for Biotechnology Information, download: April 2021) and SwissProt (download: April 2021). The InterProScan suite (Jones et al.,) (accessed April 2021) was run with default parameters for the functional analysis of proteins, and eggNOG (Huerta‐Cepas et al.,) (accessed April 2021) was used for Kyoto Encyclopedia of Genes and Genomes (KEGG) and clusters of orthologous genes (COG) assignments. All results were combined in Blast2GO v1.4 (Conesa et al.,) for the final assignment of functional annotation and gene ontology (GO) terms, using default parameters.
+
+Identification of candidate protein coding regions was performed with TransDecoder v2.0 (). based on the following criteria: (i) a minimum length of 100 amino acids; (ii) if a shorter ORF is fully encapsulated by a longer ORF, only the longer one is reported; and (iii) any ORF that does not meet the above criteria but has homology to protein family (Pfam) databases was also retained. Additionally, functional annotation for TFs was implemented using the plant TFs predictor tools of plant transcriptional factor database (), which annotate transcripts with the best hits to theTFs.
+
+2.4
+
+Transcript abundance estimation, differential gene expression analysis and functional enrichment test
+
+The filtered reads were aligned to thetranscriptome using Bowtie2 v2.2.5, and read counts were estimated using the RSEM package v1.1.14 (B. Li & Dewey,). Low expression transcripts, with less than one count per million (CPM) in three out of the nine floral tissues replicated samples, were filtered out. Differential expression analysis was conducted with EdgeR v3.28.0 (Robinson et al.,), with a statistical significance threshold of 0.001 false discovery rate (FDR) and fold change of |2| under the “glm” model using normalized RSEM expected counts based on the trimmed mean of‐values method. Enrichment analyses for GO and KEGG pathways were carried out using OmicBox v1.4 () with a 10FDR cutoff based on Fisher's exact test. The Trinity v2.12.0 accompanying scripts: run_DE_analysis.pl, analyze_diff_expr.pl, and PtR scripts were used for sample and expression analysis.
+
+3
+
+RESULTS
+
+3.1
+
+Transcriptome sequencing and de novo assemblies
+
+Having high‐quality comprehensive transcriptomes is crucial to advancing research in orphan crops. We de novo assembled several transcriptomes ofusing four different tissues from leaves and flowers at three developmental stages, with three replicates. The 12 libraries were sequenced to obtain 357,521,131 PE raw reads, which were quality filtered to lend 301,116,463 (84.2% of raw reads), pooled and de novo assembled with four assemblers and varioussizes (Table). Additionally, a merging assembly pipeline (EvidentialGene) was used to combine all these assemblies into a merged assembly. Overall, 11 transcriptome assemblies were produced.
+
+To identify the best assembly, a normalized score index based on 10 quality metrics was computed for each assembly. Trinity withsize of 25 achieved the highest score (5.79), followed by TransABySS with a score of 5.71, andTrinity with 5.40. The CD‐HIT‐EST tool was then used to cluster sequences based on similarity and thus reduce transcript redundancy, after which theTrinity assembly maintained the highest score and, therefore, was selected as the reference transcriptome. This reference assembly comprised 232,874 nonredundant sequences (Table).
+
+Asearch against the NCBI‐Nr database was conducted to filter out contaminants that might be present in the reference transcriptome. Sequences whose top hit retrieved a taxonomic category of arthropods, virus, bacteria, or fungi were considered potential contaminations, and removed from the nonredundant assembly. This contaminant‐freetranscriptome consisted of 221,649 nonredundant transcripts, for a total transcriptome size of 309,016,232 nt and an N50 value of 2644 nt. These transcripts represented 132,871 distinct Trinity genes, which cluster together similar transcript isoforms. Total transcriptome length was 111,957,064 nt with an N50 of 1780 nt, considering the longest isoform per Trinity gene. Given thatis an orphan species, and to maximize the number of novel sequences, all predicted transcript isoforms within a gene were retained for all downstream analyses. Also, to reinforce the accuracy of our transcriptome, comparisons with theandproteomes were done using. A total of 13,627 (37.7%) and 17,844 (49.0%)proteins were covered by our transcriptome based on a 100% and 70% homology, respectively. Likewise, for, a total of 11,876 (46.4%) and 16,050 (62.7%) proteins were recovered based on 100% and 70% of homology, respectively.
+
+3.2
+
+Functional annotation of thetranscriptome
+
+Thereference transcriptome was functionally annotated according to homology comparisons. A total of 146,102; 64,545; 68,218; and 15,780 transcripts were assigned to the Nr, Swiss‐Prot, COG, and KEGG databases, respectively. Based on these annotations, 149,685 out of 221,649 nonredundant transcripts (67.53%) had homologous sequences in at least one of the databases, and 6802 had hits to all databases (Figure). In addition, 118,052 transcripts (53.26% of total) contained ORF signatures, while 77,631 transcripts (35.02% of total) might represent complete ORFs as they include both start and stop codons. All detected ORFs were translated to proteins and used to conduct an orthology analysis together with five Myrtaceae species (,,,, and) and two outgroups (and). Results showed that 55,004 (46.59%) of the 118,052transcripts with an ORF showed orthology with at least one of the other seven tested species (Table), and 43,817 (37.11%) showed orthology with the five Myrtaceae species. Moreover, all six Myrtaceae species, including, showed similar pairwise overlaps, ranging from 14,302 to 16,191 orthogroups (Table). A phylogenetic tree was constructed using 1326 single‐copy orthologous genes (Figure). Tree topology clearly recapitulated the expected relationships in Myrtaceae (Balbinott et al.,). Overall, these results reinforced the accuracy of thetranscriptome.
+
+Interestingly, the top hit of each reference transcript against the NCBI‐Nr database retrieved the following species, ordered from the most to the least frequent:(84,032),(15,922), and(12,265) (Table), all of them members of Myrtaceae, and accounting 50.62% of assembled transcripts. Likewise, the largest number ofhits corresponded to these same three species (Table). Nevertheless, only 61 transcripts had homology toprotein records, and in just 21 of them,was the top hit. In addition, 2302 of the 77,631 predicted complete CDS had no alignment to any database, likely representing protein‐coding genes that have not yet been described in. Overall, the lack of hits to knownentries highlights the almost complete absence of sequences in this species and soundly reinforces the utility of our reference transcriptome.
+
+Sequence homology and protein‐domain family searches found 107,612 transcripts (48.5%) assigned to at least one GO domain. The 20 top categories of each GO domain are described in Table. The main GO terms for biological process, cellular component, and molecular function (MF) were oxidation–reduction process, integral component of membrane, and ATP binding, respectively. KEGG classification for understanding high‐level functions assigned 56,720 transcripts (25.6% of total) to 339 different metabolic pathways. The major 20 pathways are summarized in Table. We found evidence of expression of enzyme‐encoding genes for pathways involved in the synthesis of secondary metabolites (Table). This included the phenylpropanoid (ko00940), flavonoid (ko00941), anthocyanin (ko00942), and flavone and flavonol (ko00944) pathways, all of which produce high‐valued nutraceuticals. Lastly, 4068 transcripts were predicted to encode TFs of 56 families. The five most represented TF families were bHLH (406), C2H2 (272), NAC (271), MYB (216), and MYB‐related (215) (Table).
+
+3.3
+
+Differentially expressed transcripts withinflowering stages
+
+To better understand the metabolic processes that occur during floral development in, we quantified and compared transcript expressions of three stages (F1, F2, and F3). Three replicates per stage showed high reproducibility, whereas distinct expression patterns between F1, F2, and F3 were clearly observed (Figure). To capture the most differences between the expression of the isoforms in each flowering stage, we identified a set of differentially expressed transcripts (DETs) by pairwise comparisons of F1, F2, and F3 (Tables). Thus, a total of 10,345 DETs were detected in all three (F1/F2, F1/F3, and F3/F2) pairwise comparisons. The F2/F3 comparison showed the largest number of DET (5895), with 3307 upregulated and 2589 downregulated transcripts (Figure). Taken all comparisons together, most of the genes were specific to a particular pairwise comparison, and only 262 DETs were present in all three pairwise comparisons (Figure). These shared transcripts could be important for flower development, and interestingly, one of them (TRINITY_DN264_c1_g1_i1) predicted a protein homologous to anthocyanidin 3‐glucosyltransferase (), an anthocyanin pathway enzyme that will be discussed below.
+
+To highlight patterns within DETs, we performed a cluster analysis at F1, F2, and F3 floral developmental stages using normalized expressions from each individual replicate. A hierarchical agglomerative clustering diagram showed that the most closely related patterns were those from F1 and F3. In contrast, F2 had the most distinct patterns (Figure). In addition, DETs highlighted in the heatmap were partitioned into gene clusters with similar expression patterns. This co‐expression clustering identified a total of five main clusters (Figure). Interestingly, mirror‐like patterns were observed between clusters 1 and 2 and between clusters 3 and 4. Most DETs were assigned in co‐expression clusters 1 and 2, in which F1 and F3 showed similar expression values. Also, co‐expression clusters 4 and 5 had the lowest number of transcripts and a pronounced peak of expression at the F3 and F1 stages, respectively.
+
+To further explore the biological meaning of DETs, we implemented both KEGG and GO enrichment analyses. A total of 165 KEGG categories were enriched (value < 0.01) for the three pairwise comparisons, with 71 KEGG categories shared between all comparisons. Fifteen secondary metabolite pathways (anthocyanin, brassinosteroid, carotenoid, diterpenoid, flavonoid, flavone and flavonol, indole alkaloid, isoflavonoid, isoquinoline alkaloid, monoterpenoid, phenylpropanoid, purine, sesquiterpenoid and triterpenoid, steroid, and zeatin biosynthesis pathways) were found to be significantly enriched in at least one pairwise comparison (Table).
+
+Next, we focused on the top 20 enriched KEGG categories for each pairwise comparison (Figure). The F1/F2 and F1/F3 pairs showed many similarities. Importantly, 10 out of those 20 categories were related to the synthesis of secondary metabolites. Among them, in the top five, were the pathways of flavonoids and anthocyanins. The third pairwise comparison (F2/F3) revealed a shift toward principal pathways, primarily associated with amino acid and sugar metabolisms, such as tyrosine as well as starch and sucrose metabolism.
+
+Similarly, a total of 127 GO terms were enriched (value < 0.01) for the three pairwise comparisons, and 113 of them were shared between all comparisons (Table). Three GO terms related to secondary metabolite synthesis were significantly enriched in all comparisons: GO:0009058 (biosynthetic process), GO:0006725 (cellular aromatic compound metabolic process), and GO:0019748 (secondary metabolic process). Particularly, “secondary metabolic process” is among the top 20 enriched in all three pairwise comparisons (Figure). On the other hand, terms related to reproduction (five out of 20), such as reproductive system development or reproductive structure development, are highly represented in the F1/F2 pairwise comparison. In F1/F3 and F2/F3 pairwise comparisons, we found the term “pollination” among the most enriched, but overall, there was less representation of reproduction‐related terms and more representation of signal perception and transduction, such as response to radiation, light stimulus, endogenous stimulus, and tropism.
+
+FIGURE 2
+
+Differential expression analysis fromflowers at F1, F2, and F3 developmental stages. (A) Number of differentially expressed transcripts (DETs) in each pairwise comparison. Upregulated (Up) and downregulated (Down) transcripts within each comparison are relative to the first component of each pair, taken as control. (B) Venn diagram of DETs. Each circle represents a pairwise comparison between F1, F2, and F3 floral stages as described in Figure.
+
+FIGURE 3
+
+Hierarchical clustering of differentially expressed transcripts in F1, F2, and F3 floral developmental stages. Heatmap shows differentially expressed transcripts (DETs) of three replicates per sample (log2 trimmed mean of‐values [TMM]). Color code indicates expression levels according to legend. Similarity between stages and between individual DETs are shown above and on the left of the heatmap, respectively (A). Expression values in fragments per kilobase of transcript per million mapped reads (FPKM) of five co‐expression clusters identified based on 60% of the tree height (B). F1, F2, and F3 are thefloral developmental stages described in Figure.
+
+FIGURE 4
+
+Overrepresented top 20 Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways (A) and gene ontology (GO) terms (B) according to the gene ratio in each flowering developmental stage pairwise comparison (F1 vs. F2, F1 vs. F3, and F2 vs. F3). "Gene ratio" is the fraction of differentially expressed transcript (DET) of a given enriched KEGG or GO term; "padjust" is the Benjamini‐Hochberg adjusted‐value; NrTest indicates the number of DETs in each KEGG or GO term.
+
+3.4
+
+Identification of functional genes involved in flavonoid and anthocyanin synthesis in floral tissues
+
+To get insights into the flavonoid and anthocyanin synthesis and regulation in, we first searched our reference transcriptome for genes within these pathways. We found 195 transcripts representing 17 enzymes (66% of total) within the flavonoid pathway (ko00941) and 28 transcripts (three enzymes, 19% of total) within the anthocyanin pathway (ko0942) (Table). In addition, to assess up to what extent they are conserved, the flavonoid (egr00941) and anthocyanin (egr00942) pathways ofandwere compared via their KEGG terms. We found that most of the enzymes were shared between both species. Only two enzymes in the flavonoid pathway (EC 1.14.19.76 and EC 2.4.1.357) were identified inbut not in. Conversely, three enzymes, two of flavonoid (EC 2.1.1.232 and EC 2.4.1.236), and one from anthocyanin pathways (EC 2.4.1.‐) were found exclusively in(Figure; Table).
+
+Gene expression in the flavonoid and anthocyanin pathways was examined in floral tissues. A total of 71 transcripts (14 predicted enzymes) and 12 transcripts (two predicted enzymes) from the flavonoid and anthocyanin pathways, respectively, were differentially expressed throughout floral development. The highest numbers of flavonoid and anthocyanin DETs were observed in the F2/F3 pairwise comparison where 58 flavonoid‐related and seven anthocyanin‐related transcripts were differentially expressed (Table).
+
+We also examined the expression profiles of nine major structural genes of the flavonoid pathway:,,,′,′,,, and(Figure). As many as 42 reference transcript isoforms were homologous to these structural genes; 16 of 42 (representing eight structural genes) were differentially expressed in at least one pairwise comparison (Table). Thewas the only major structural gene that did not show any change of expression in any comparison. The number of isoforms per enzyme varied. There were 1–2 isoforms per gene for the first two (and) and the last () enzymes in the pathway. For the remaining seven enzymes, the isoform number ranged between three and 11. At least one transcript isoform for each structural enzyme was highly expressed at both F1 and F3 stages, except for, with isoforms poorly expressed across all three stages. Interestingly, 15 transcripts of,,,,,, andwere present in co‐expression cluster 1, and one transcript ofwas present in cluster 2 (Figure). Also, high expression levels for two transcripts, corresponding toand(mean log CPM > 4), were noticed at all three floral stages (Figure). These genes are part of the first steps in the flavonoid pathway (Figure). Also, a‐homologue transcript (Figure) was differentially expressed in all pairwise comparisons (Figure), with the highest expression at F1, followed by F3 (Table). Altogether, these results suggest that the three enzymes play an important role in the biosynthesis of flavonoids and anthocyanins across various flower developmental stages in.
+
+Regarding TFs, thereference transcriptome identified 667 DET with homology to families of TFs. The bHLH and MYB, with 84 and 79 transcripts, respectively, were the most abundant families (Tables). Most of them were present in the co‐expression clusters 1 (49 bHLH and 56 MYB) and 2 (31 bHLH and 23 MYB). Notably, these two families of TFs play crucial roles in regulating flavonoid and anthocyanin biosynthesis pathways (Deng & Lu,).
+
+FIGURE 5
+
+Flavonoid and anthocyanin pathways. (A) Diagram of the flavonoid (blue rectangle) and anthocyanin (orange rectangle) pathways based on Falcone Ferreyra et al. (), with some modifications. (B) Expression level of the 42 transcript isoforms for nine structural enzymes of the flavonoid pathway in. Blue and red colors are used to represent low and high expression levels according to the legend (mean centered log count per million [CPM] values). F1, F2, and F3 indicate floral developmental stages. ANS, anthocyanidin synthase; CHI, chalcone isomerase; CHS, chalcone synthase; DFR, dihydroflavonol 4‐reductase; F3H, flavonol 3‐hydroxylase; F3′H, flavonoid 3′‐hydroxylase; F3′5′H, flavonoid 3′,5′‐hydroxylase; FLS, flavonol synthase.
+
+4
+
+DISCUSSION
+
+is an orphan fruit tree that has garnered increasing commercial and academic interest due to the presence of highly valued secondary metabolites in leaves, flowers, and fruits. Consumers value not only the excellent organoleptic properties of fruits (Vatrano et al.,), but also their nutraceutical properties. In fact,floral tissues are an excellent source of antioxidants such as polyphenols, flavonoids, and anthocyanins (Aoyama et al.,; do Amarante et al.,; Magri et al.,; Montoro et al.,). Despite a high‐density genetic map of feijoa has been recently reported (Quezada et al.,), genomic and transcriptomic resources are still limited. This fact hampers a better understanding of the molecular mechanisms governing the synthesis of flavonoids and other important compounds, and limits initiatives for breeding feijoa for improved nutraceutical content.
+
+RNA‐seq and de novo transcriptome assemblies have been effective at identifying and characterizing genes of secondary metabolite pathways in several Myrtaceae species. For instance, terpenes and anthocyanins in(Vetö et al.,), phenylpropanoids and flavonoids in(Thole et al.,), flavonoids in(Zhang et al.,), and terpenoids in(Guzman et al.,) and(Tobias et al.,). We assembled for the first time antranscriptome with mRNA from leaves and flowers of three developmental stages and used it to study structural genes in the flavonoid and anthocyanin pathways. We also quantified the expression of those transcripts and carried out an expression profiling in the flowers.
+
+Selecting a suitable species‐specific pipeline, including an optimum assembler, is key to undertake de novo transcriptome assemblies. We constructed 11 assemblies and used them to conduct a comprehensive benchmarking analysis to identify the optimal combination of assembler/parameters for. The metrics examined suggested that theTrinity assembly outperformed others, making it the best choice for our dataset. We termed it thereference transcriptome. The Trinity assembler has been broadly used and benchmarked in orphan plants with excellent results (Gutierrez‐Gonzalez et al.,,; Hu et al.,). Its performance in the assembly of transcriptomes from short reads has also been demonstrated for the Myrtaceae family (Vetö et al.,; Zhang et al.,), which together with the results of our benchmark test, paves the path for implementing Trinity‐based pipelines in this and related species.
+
+Our reference transcriptome had a depth of sequencing of 190× and exhibited high completeness according to BUSCO metrics. The percentage of reads that mapped back to the transcriptome was 98.6% and complete BUSCO genes was above 94.5%, while missing orthologues were only 0.4%. Other transcriptomes have produced a number of protein‐coding genes in the range of 36,376 (; Myburg et al.,) and 33,382 (; F. Li et al.,), both from the Myrtaceae family. Based on this, our total of 221,649 nonredundant transcripts and 132,871 distinct Trinity genes seems to be high and may not accurately reflect the reality of thetranscriptome. These differences could be due to the sensibility of the Trinity assembler (Chen et al.,; Grabherr et al.,; Payá‐Milans et al.,), the fact that we used three outbred diploid plants, and a non‐reference assembly (Madritsch et al.,). Nevertheless, 65.91% of these nonredundant transcripts had homologous sequences in the NR database, similar to other de novo transcriptome assemblies of non‐model Myrtaceae species, such as(42%) (Hsieh et al.,),(59.6%) (He et al.,),(60.0%) (Guzman et al.,),(65.4%) (Y. Liu et al.,),(71.8%) (Sun et al.,), and(78%) (Mittal et al.,). In addition, 48.5% of the transcripts were functionally annotated, which represents an improvement compared to transcriptomes of related species. For instance, a functional annotation for around 30% of transcripts was found in(Vetö et al.,). Higher percentages, similar to ours, were obtained in(Mittal et al.,),(Zhang et al.,),(Guzman et al.,), and(Sun et al.,), with 41,7%, 47.5%, 52.6%, and 53.4%, respectively. Thus, a combination of factors, including appropriate sequencing depth, high quality reads, high transcript coverage, and high completeness and percentage of functional annotation, support our reference transcriptome, whose parameters are in concordance with other de novo transcriptome assemblies of non‐model fruit trees.
+
+The functional annotation identified transcripts involved in the synthesis of numerous secondary metabolites, including flavonoids and anthocyanins. This was very much anticipated, as members of Myrtaceae are long known for their rich and diverse repertoire of secondary metabolites (Reynertson et al.,). However, previous studies inembarked upon metabolite detection of, for example, flavonoids, flavones, flavonols, and isoflavones, carotenoids, galactolipids, and terpenes (Aoyama et al.,; Baena‐Pedroza et al.,; Bontempo et al.,; de Oliveira Schmidt et al.,; Lapčík et al.,; Magri et al.,; Montoro et al.,) without examining gene or transcript sequences. Therefore, this firstreference transcriptome holds significant value as a resource not only to study the sequence of predicted genes in the flavonoid and anthocyanin pathways, but also to delve into genes associated with the synthesis of other secondary metabolites, plant reproduction, development, or breeding.
+
+Genes within the flavonoid pathway are conserved among a wide range of plant families (Mouradov & Spangenberg,; Yonekura‐Sakakibara et al.,), which suggests that flavonoids were important for plant evolution since the first stages of land colonization. We identified 66% of the enzymes of the flavonoid metabolic pathway, but only 19% of the enzymes involved in the synthesis of anthocyanins. This lower presence of anthocyanin genes is in agreement with other studies on Myrteae species, like(Castro et al.,). Interestingly, each predicted enzyme within theflavonoid pathway appears to be associated with multiple transcripts in our transcriptome. In fact, in other flavonoid‐rich species such as, flavonoid‐related genes are organized in multigene families (Wei et al.,). Gene duplication in flavonoid‐related genes was also reported inand(F. Li et al.,), as well as for, for which 90 genes for just 27 enzymes were found (KEGG database). Unfortunately, based on the transcriptome data alone, it is not possible to assess whether multiple transcripts per gene represented different alleles of the same gene or different paralogs.
+
+Supporting our findings, the flavonoids quercetin and kaempferol and anthocyanins cyanidin glucoside and delphinidin glucoside have been previously detected inflowers (Magri et al.,; Montoro et al.,). We also found evidence of the presence ofandtranscripts, that relate to the main connecting enzymes between flavonoids and anthocyanin biosynthesis. Thus, major flavonoids like naringenin, quercetin, myricetin, kaempferol, pelargonidin, delphinidin, cyanidin, and their glucosides could also be found in. Future metabolomic analysis should shed light into all flavonoid/anthocyanin compounds present in.
+
+Even though(tribe Eucalypteae) and(tribe Myrteae) belong to distantly related tribes separated 65–70 millions of years ago (Thornhill et al.,), our transcriptome suggests that flavonoid and anthocyanin pathways are highly conserved between them. Indeed, we found only four enzymes in the flavonoid and one in the anthocyanin pathways that were not shared between these two species. One of these enzymes,(EC1.14.19.76), is only present inand is responsible for the synthesis of the flavones apigenin and luteolin. Yet, apigenin has been found inflowers (Montoro et al.,) and leaves (Poodi et al.,). A possible explanation is that apigenin could be synthesized from an unknown branch or, most likely, thatwas lowly expressed in the sample tissues we collected. Further research is needed as there is an increasing interest in the anticancer properties of apigenin and otherflavones (Bontempo et al.,; Cimmino et al.,; Scafuri et al.,). Another flavonoid enzyme not shared betweenandis the flavonoid naringenin 7‐‐methyltransferase (EC2.1.1.232), which is probably present inbut absent in. This enzyme is involved in the synthesis of sakuranetin, a well‐characterized flavonoid (Stompor,) that has not been studied or found inuntil now. Lastly, the GT1 enzyme (EC 2.4.1.‐), responsible for the synthesis of cyanidin 5,3‐‐diglucoside in(Ogata et al.,) and located at the beginning of the anthocyanin pathway, could be present intranscriptome but not in. Altogether, our reference transcriptome suggested that the flavonoid and anthocyanin pathways are well conserved, with little divergent evolution or specific adaptations in Myrtaceae. A more comprehensive analysis will have to be done to support this conclusion in a greater number of Myrtaceae species.
+
+As important as structural enzymes are the TFs that regulate them. However, few reports have addressed the presence of TFs as regulators of the flavonoid pathway in the fleshy‐fruit species of the tribe Myrteae (Myrtaceae). Moreover, most of them focused on roots, leaves, and fruits, but not flowers (Ahmad et al.,; F. Li et al.,; Thole et al.,). We identified 79 MYB and 84 bHLH transcripts differentially expressed during the three flower developmental stages as the most represented TF families. Most of them followed the same expression pattern as the flavonoid structural genes (cluster 1), suggesting an activation role within the flavonoid pathway. Conversely, other MYB and bHLH members in cluster 2 may act as repressors, possibly explaining the strong down‐regulation of most flavonoid structural genes observed at F2. Further research has to be done to identify members of these TF families as bona fide regulators of the flavonoid pathway.
+
+Accumulation of flavonoids and anthocyanins during flower development has gained attention and must be addressed using a combination of genomics, transcriptomics, and metabolomics (F. Li et al.,). To fill in the absence of transcript profiling data in, we performed a differential expression analysis of three floral development stages. Thegene displayed a steady expression across all three stages. In contrast, genes corresponding to eight out of the nine structural enzymes involved in the synthesis of the main flavonoids (,,,′,′,,, and) were upregulated in F1 and F3 compared to F2. This agrees with the co‐expression cluster 1 (Figure), which includes the flavonoid structural genes,,,′′,, and, and grouped together transcripts with high expression at both F1 and F3 stages. The fact that the peak of flavonoid and anthocyanin concentration has been estimated to occur shortly before the F2 stage (Magri et al.,) appears to support the higher expression of key genes found at F1. Similar trend was seen in the close relative, where upregulation of,,, andin an early fruit developmental stage caused a sharp shift and an increase in fruit color and anthocyanin content in the following stages (F. Li et al.,). Also, high expression ofandduring the three flower developmental stages suggested that they are key genes in theflavonoid pathway and could potentially lead to a high concentration of naringenin and dihydrokaempferol, which should be further addressed through metabolomics.
+
+The low expression of flavonoid structural genes at F2 compared to F1 and F3 was associated with a higher representation of pathways related to primary metabolism at that stage, which suggests a metabolic redirection at F2, in agreement with previous reports on biochemical changes during early stages offlower development (Lin et al.,). These studies revealed a steady accumulation of starch, sucrose, and nitrate nitrogen that peaked at full‐bloom stage. Similarly, a decrease in flavonoid genes expressions at F2 is compatible with the reduction of these compounds seen after this stage (Magri et al.,).
+
+We observed an increased expression of structural genes for both flavonoids and anthocyanins at F3 (Figure, and co‐expression cluster 1 of Figure). At this stage, petals and stamens are absent while dark red style and sepals remain. Although there are no studies on metabolites in the F3 stage, we hypothesize that upregulation of genes of the flavonoid pathway may be beneficial as antioxidant protection during tissue senescence, as previously suggested for rose flowers (Schmitzer et al.,). Further investigation is needed to address the regulatory network of the flavonoid and anthocyanin pathways, including the role of TFs, transcript isoforms, and noncoding RNAs. Without any doubt, a comprehensive metabolite profiling of floral tissues at different stages will add valuable information toward dissecting the full picture of these important pathways in.
+
+In summary, in this work, we have assembled for the first time antranscriptome from leaf and several floral tissues and provided a comprehensive analysis of the flavonoid and anthocyanin pathways. Despite limitations of de novo assemblies, this reference transcriptome will serve as a foundational step for future research in this orphan species. Our gene expression profiling at floral developmental stages F1, F2, and F3 revealed five co‐expression clusters, providing insights into the dynamics of floral development in. Transcripts related to flavonoid and anthocyanin biosynthesis in floral tissues are essential to understand biochemical processes of secondary metabolites and may be used, for instance, to predict metabolite abundance in different genotypes. While further functional and metabolic studies are needed to explore ecological and physiological roles of secondary metabolites, the identified transcripts and their expression patterns offer promising avenues for further investigation.
+
+AUTHOR CONTRIBUTIONS
+
+: Formal analysis; investigation; visualization; writing—original draft; writing—review and editing.: Writing—review and editing.: Conceptualization; investigation; supervision; writing—review and editing.
+
+CONFLICT OF INTEREST STATEMENT
+
+The authors declare no conflicts of interest.
+
+Supporting information
+
+Supplemental Figure S1‐S4 File (.docx)
+
+. Venn diagram of the functional annotation. Numbers of transcripts from the de novo transcriptome ofaligned against public databases including Nr, Swiss‐Prot, KEGG, and COG are indicated.
+
+. Phylogenetic analysis ofand other myrtle species. (A) A phylogenetic tree diagram of Myrtaceae tribes based on Balbinott et al. (). (B) Phylogenetic relationship betweenand five Myrtaceae (,,,, and) and two outgroups (and) based on 1365 single core proteins. Cluster colors describe tribes within the Myrtaceae: Syzygieae (violet), Eucalypteae (green), and Myrteae (red).
+
+. PCA analysis of flower samples used in this study based on expression analysis.
+
+. Flavonoid (left; ko00942) and anthocyanin (right; ko00940) reference biosynthetic pathways according to KEGG. Boxes represent functional ortholog enzymes named based on EC number (KO identifiers for each enzyme are described in Table S15). Color code is as follows: gray, enzymes with homology in thereference transcriptome and shared with; light blue, only present in; yellow only in; red not detected in any of the two species.
+
+Supplemental Table S1‐S18 File (.xlsx):
+
+. Stats from 12 RNA‐Seq libraries derived from leaf and floral tissues of.
+
+. Comparative evaluation of 11 de novo transcriptome assemblies ofbased on 10 quality assembly metrics and their correspondent normalized scores.
+
+. OrthoFinder resume based onand other seven species.
+
+. BLASTx top hits distributed by species (NR taxid:Viridiplantae).
+
+. BLASTx hits distributed by species (NR taxid:Viridiplantae).
+
+. Name and number of contigs for the top 20 largest items within GO categories BP, CC y MF inde novo transcriptome.
+
+. Name, number of contigs and number of enzymes in the top 20 largest KEGG pathways intranscriptome.
+
+. KEGG reference pathways related to biosynthesis of plant secondary metabolites (map01060) and number of transcripts (contigs) detected intranscriptome. KO ID refers to the identifier numbers assigned to metabolic pathways included in the KEGG Orthology (KO) database.
+
+. Summary of transcription factor (TF) families identified intranscriptome based on best hit alignment of predicted ORF toTF domains from PlantTFDB.
+
+. Differential expression results of F1/F2 comparison.
+
+. Differential expression results of F1/F3 comparison.
+
+. Differential expression results of F2/F3 comparison
+
+. Summary of KEGG enrichment analysis based on a Fisher's exact test in all comparisons.
+
+. GO enrichment resume based on a Fisher's exact test in all comparisons.
+
+. List of flavonoid and anthocyanin synthesizing enzymes, predicted fortranscritpome andgenome that were represented in Figure S3. KEGG ID refers to the identifier number assigned to functional orthologs of experimentally characterized genes/proteins in KO database from KEGG.
+
+. List of DET in flavonoid (k00941) and anthocyanin (k00942) KEGG biosynthesis pathways detected in pairwise comparisons of F1, F2, and F3 flowering stages of. FSG, flavonoid structural gene.
+
+. Transcription factors (TFs) that are differentially expressed in at least one flower‐stage pairwise comparison.
+
+. Summary of transcription factor (TF) families that were differentially expressed in floral tissues.

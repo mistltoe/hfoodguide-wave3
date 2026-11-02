@@ -1,0 +1,276 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(n, title, doi, note):
+    return {"n": n, "title": f"{title} ({note})", "url": f"https://doi.org/{doi}", "publisher": "PubMed", "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 보리수나무열매·보리수나무열매농축액·보리수나무열매추출액·보리수나무잎(Elaeagnus umbellata Thunberg / E. argyi H.Lev. / E. coreanus H.Lev.; 이명 보리장나무·산보리수나무; Autumn olive), 사용가능, 사용가능부위: 잎, 열매; 건강기능식품(C코드) 개별인정 행 '보리수나무열매추출물(제2025-59호)' 사용부위 열매; 같은 속 다른 행(긴보리수열매 var. longicarpa, 민보리수나무열매 var. parvifolia, 보리장나무열매 E. glabra 등)과 이름이 비슷한 다른 속 행(보리자나무, 인도보리수, 갈매보리수나무) 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm(2, "Optimization of the method of ultrasonic extraction of lycopene with a green extract from the fruit of Elaeagnus umbellata, common in Western Georgia — Food Sci Nutr 2024", "10.1002/fsn3.4030", "PMID 38726431, PMC11077213, 전문 확인"),
+    pm(3, "Autumn Olive (Elaeagnus umbellata Thunb.) Berries Improve Lipid Metabolism and Delay Aging in Middle-Aged Caenorhabditis elegans — Int J Mol Sci 2024;25(6):3418", "10.3390/ijms25063418", "PMID 38542392, PMC10970442, 전문 확인; HPLC 조건표는 본문 텍스트에 없음"),
+    pm(4, "Elaeagnus umbellata Fruit Extract Protects Skin from Ultraviolet-Mediated Photoaging in Hairless Mice — Antioxidants 2024;13(2):195", "10.3390/antiox13020195", "PMID 38397793, PMC10885948, 전문 확인"),
+    pm(5, "Effect of Elaeagnus umbellata (Thunb.) fruit extract on H2O2-induced oxidative and inflammatory responses in normal fibroblast cells — PeerJ 2021;9:e10760", "10.7717/peerj.10760", "PMID 33552740, PMC7821754, 전문 확인"),
+    pm(6, "Elaeagnus umbellata: A miraculous shrub with potent health-promoting benefits from Northwest Himalaya — Saudi J Biol Sci 2023 (리뷰)", "10.1016/j.sjbs.2023.103662", "PMID 37213692, PMC10196990, 전문 확인; 2차 문헌이며 일부 수치는 원문 확인 못함"),
+    pm(7, "Optimization of Osmotic Dehydration of Autumn Olive Berries Using Response Surface Methodology — Foods 2021;10(5):1075", "10.3390/foods10051075", "PMID 34067938, PMC8152059, 전문 확인"),
+    pm(8, "Autumn olive (Elaeagnus umbellata Thunb.) berry reduces fasting and postprandial glucose levels in mice — Nutr Res Pract 2019;13(1):11-16", "10.4162/nrp.2019.13.1.11", "PMID 30788051, PMC6369113, 전문 확인"),
+    pm(9, "Cloning and expression analysis of carotenogenic genes during ripening of autumn olive fruit (Elaeagnus umbellata) — J Agric Food Chem 2009;57(12):5334-9", "10.1021/jf900547e", "PMID 19459638, 초록만 확인"),
+    pm(10, "Functional Validation of Phytoene Synthase and Lycopene ε-Cyclase Genes for High Lycopene Content in Autumn Olive Fruit (Elaeagnus umbellata) — J Agric Food Chem 2020;68(41):11503-11511", "10.1021/acs.jafc.0c03092", "PMID 32936623, 초록만 확인"),
+    pm(11, "Proteomic analysis of up-accumulated proteins associated with fruit quality during autumn olive (Elaeagnus umbellata) fruit ripening — J Agric Food Chem 2011;59(2):577-83", "10.1021/jf103957k", "PMID 21175188, 초록만 확인"),
+    pm(12, "Variations in free radical scavenging capacity and antiproliferative activity among different genotypes of autumn olive (Elaeagnus umbellata) — Planta Med 2007;73(5):468-77", "10.1055/s-2007-967175", "PMID 17566149, 초록만 확인"),
+    pm(13, "Changes in the phenolic compositions of Elaeagnus umbellata and Sambucus lanceolata after in vitro gastrointestinal digestion and evaluation of their potential anti-diabetic properties — Food Res Int 2019;122:283-294", "10.1016/j.foodres.2019.04.030", "PMID 31229082, 초록만 확인"),
+    pm(14, "Constituents of the leaves and twigs of Elaeagnus umbellata and their proliferative effects on human keratinocyte HaCaT cells — Fitoterapia 2019;139:104374", "10.1016/j.fitote.2019.104374", "PMID 31629867, 초록만 확인"),
+    pm(15, "Antioxidant Activity of Compounds Isolated from Elaeagnus umbellata Promotes Human Gingival Fibroblast Well-Being — J Nat Prod 2020;83(3):626-637", "10.1021/acs.jnatprod.9b01030", "PMID 32031808, PMC7997630, 초록만 확인"),
+    pm(16, "Phytochemical Constituents, ChEs and Urease Inhibitions, Antiproliferative and Antioxidant Properties of Elaeagnus umbellata Thunb. — Comb Chem High Throughput Screen 2017;20(6):559-578", "10.2174/1386207320666170127161837", "PMID 28137214, 초록만 확인"),
+    pm(17, "[철회됨] Curative Effect of Catechin Isolated from Elaeagnus umbellata Thunb. Berries for Diabetes and Related Complications in Streptozotocin-Induced Diabetic Rats Model — Molecules 2021;26(1):137", "10.3390/molecules26010137", "PMID 33396845, PMC7794731; PubMed 표제에 RETRACTED 표시"),
+    pm(18, "RETRACTED: Curative Effect of Catechin Isolated from Elaeagnus umbellata Thunb. Berries ... (철회 공지) — Molecules 2026;31(7):1183", "10.3390/molecules31071183", "PMID 41944746, PMC13055052; 철회 사유 원문은 확인 못함"),
+    pm(19, "Evaluation of neuroprotective and anti-amnesic effects of Elaeagnus umbellata Thunb. on scopolamine-induced memory impairment in mice — BMC Complement Med Ther 2020;20(1):143", "10.1186/s12906-020-02942-3", "PMID 32397979, PMC7216467, 초록만 확인; 철회 논문[17]과 같은 연구진"),
+    pm(20, "Complete chloroplast genomes of four Elaeagnus species (Thunb.) (Elaeagnaceae) — Mitochondrial DNA B Resour 2020;5(3):2490-2492", "10.1080/23802359.2020.1779142", "PMID 33457839, PMC7782260, 전문 확인; PMC 본문에서 종명이 빠져 종별 수치 대응은 확인 못함"),
+    pm(21, "Soil and groundwater nitrogen response to invasion by an exotic nitrogen-fixing shrub — J Environ Qual 2010;39(3):1077-84", "10.2134/jeq2009.0155", "PMID 20400603, 초록만 확인"),
+    pm(22, "Watershed Vulnerability to Invasive N2-Fixing Autumn Olive and Consequences for Stream Nitrogen Concentrations — J Environ Qual 2019;48(3):614-623", "10.2134/jeq2018.09.0343", "PMID 31180438, 초록만 확인"),
+    pm(23, "Differential expression patterns of an acidic chitinase and a basic chitinase in the root nodule of Elaeagnus umbellata — Mol Plant Microbe Interact 2002;15(3):209-15", "10.1094/MPMI.2002.15.3.209", "PMID 11952123, 초록만 확인"),
+    pm(24, "Frankia inefficax sp. nov., an actinobacterial endophyte inducing ineffective, non nitrogen-fixing, root nodules on its actinorhizal host plants — Antonie van Leeuwenhoek 2017;110(3):313-320", "10.1007/s10482-016-0801-7", "PMID 27830471, 초록만 확인"),
+    pm(25, "Peltate trichomes on biogenic silvery leaves of Elaeagnus umbellata — Microsc Res Tech 2018;81(7):789-795", "10.1002/jemt.23037", "PMID 29675911, 초록만 확인"),
+    pm(26, "Vacuum-Assisted Osmotic Dehydration of Autumn Olive Berries: Modeling of Mass Transfer Kinetics and Quality Assessment — Foods 2021;10(10):2286", "10.3390/foods10102286", "PMID 34681335, PMC8534464, 초록만 확인"),
+    pm(27, "Inhibitory Effect of Elaeagnus umbellata Fractions on Melanogenesis in α-MSH-Stimulated B16-F10 Melanoma Cells — Molecules 2021;26(5):1308", "10.3390/molecules26051308", "PMID 33804361, PMC7957808, 초록만 확인"),
+    pm(28, "Chemical composition, in vitro antioxidant, anticholinesterase, and antidiabetic potential of essential oil of Elaeagnus umbellata Thunb. — BMC Complement Med Ther 2021;21(1):73", "10.1186/s12906-021-03228-y", "PMID 33618705, PMC7898454, 초록만 확인; 철회 논문[17]과 같은 연구진"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "보리수나무(Elaeagnus umbellata Thunb.)는 보리수나무과 보리수나무속의 가시 있는 낙엽 관목으로, 영어로는 autumn olive라 부른다[1, 6]. "
+     "식약처 「식품원료 목록」에는 보리수나무열매·보리수나무열매농축액·보리수나무열매추출액·보리수나무잎 네 행이 올라 있고, 학명은 Elaeagnus umbellata Thunberg(이명 E. argyi, E. coreanus), 이명은 보리장나무·산보리수나무로 적혀 있다[1]. "
+     "네 행 모두 대분류 '식품원료(A코드)'의 사용가능 원료이며, 사용 조건은 '사용가능부위 : 잎, 열매'로 잎과 열매를 식품에 쓸 수 있다[1]. "
+     "같은 목록에는 건강기능식품(C코드) 개별인정 원료 '보리수나무열매추출물(제2025-59호)'(사용부위 열매)도 있으나, 그 기능성 문구와 1일 섭취량은 확인하지 못함.\n\n"
+     "가을에 붉게 익는 지름 7 mm 안팎의 작은 열매는 새콤달콤하며 날로 먹거나 잼·주스·건과로 만든다[6, 7]. "
+     "열매의 대표 성분은 붉은 색소 라이코펜으로, 조지아산 열매에서 35.25–60.21 mg/100 g(원문 단위 그대로)이 보고되었고 토마토의 5–20배라는 보고도 있다[2, 10]. "
+     "그 밖에 카테킨·엘라그산 같은 폴리페놀, 비타민 C·E, 플라보놀이 들어 있다[3, 4, 5, 13]. "
+     "혈당 저하·피부 광노화 억제·지질 축적 억제·멜라닌 생성 억제 효과는 생쥐·선충·세포 실험에서 보고되었다[3, 4, 8, 27]. "
+     "사람 대상 임상시험은 PubMed에서 확인하지 못함."},
+    {"key": "history", "title": "역사", "body":
+     "보리수나무는 동아시아가 원산으로, 작은 붉은 열매를 한국·중국·일본에서 먹어 왔다[8]. "
+     "리뷰 문헌은 이 열매가 중국 서부·한국·일본의 식단에서 암·간염·간 질환·골절·설사에 좋은 식품으로 여겨졌고, 중국과 일본에서는 잎을 장 질환에 썼다고 정리한다[6]. "
+     "파키스탄 히말라야 지역에서도 민간 약용 식물로 쓰이며, 이 지역 연구진이 열매 추출물과 정유의 효능 연구를 많이 냈다[6, 28]. "
+     "다만 조지아 연구진은 원산지를 남유럽·서아시아·중앙아시아로 적어 동아시아 원산이라는 다른 문헌과 서술이 다르다[2, 8].\n\n"
+     "미국에는 도입된 뒤 동부 지역에 귀화해 질소를 고정하는 외래 침입 관목이 되었다[21, 22]. "
+     "미국 농무부 연구진은 'Brilliant Rose'·'Delightful'·'Jewel'·'Sweet Tart' 같은 유전자형 열매의 항산화 능력을 비교했다[12]. "
+     "국내에서는 경남 합천에서 기른 열매가 시장에서 거래되어 연구용 시료로 쓰였다[3, 8]. "
+     "열매를 물로 추출해 분무건조한 추출물은 피부 광노화 동물 연구에 쓰였고, 같은 열매 추출물이 2025년 건강기능식품 개별인정 원료 목록(제2025-59호)에 올랐다[1, 4]."},
+    {"key": "biology", "title": "식물학적 특징", "body":
+     "보리수나무는 높이 2–5 m의 가시가 있는 낙엽 관목이다[6]. "
+     "잎은 어긋나며 타원형 또는 긴 타원형으로 길이 4–8 cm, 너비 1–2.5 cm이고, 뒷면이 은백색 비늘털로 덮인다[6]. "
+     "잎 양면에는 지름 200–300 μm의 방패 모양 비늘털(peltate trichome)이 있으며 뒷면에 더 빽빽하다[25]. "
+     "봄에 크림색에서 흰색의 네 갈래 꽃이 피고 향이 난다[6].\n\n"
+     "열매는 둥근 위핵과로 지름이 7 mm 안팎이며, 어릴 때 은백색이다가 익으면 진홍색이 된다[6]. "
+     "터키 시료는 길이 6.19 mm, 너비 6.40 mm, 50 g에 259개였고 수분 77.24%, 당도 14.80 °Brix, pH 3.07이었다[7]. "
+     "열매는 9–11월에 진한 붉은색으로 익는다[3]. "
+     "완숙 열매에서는 포도당과 과당이 주된 당이고 사과산이 가장 많은 유기산이며 라이코펜 농도가 매우 높다[11]. "
+     "뿌리에는 방선균 Frankia와 공생하는 뿌리혹이 생겨 공기 중 질소를 고정한다[21, 23]. "
+     "이 종의 뿌리혹에서는 질소를 고정하지 못하는 Frankia 균주도 분리되어 새 종으로 기재되었다[24]."},
+    {"key": "related_species", "title": "이름과 가까운 종", "body":
+     "식약처 「식품원료 목록」에서 보리수나무의 변종인 긴보리수(E. umbellata var. longicarpa)와 민보리수나무(var. parvifolia)는 따로 행이 있고, 둘 다 열매만 쓸 수 있다[1]. "
+     "보리수나무 행은 잎과 열매를 모두 허용하므로 변종 행과 사용 부위가 다르다[1]. "
+     "같은 속의 뜰보리수나무(E. multiflora)·보리장나무(E. glabra)·보리밥나무(E. macrophylla)·통영볼레나무(E. pungens)·실버베리(E. commutata) 등도 각자 열매 행으로 올라 있으며, 이 문서의 성분·연구 자료에는 넣지 않았다[1].\n\n"
+     "이름 혼동에 주의해야 한다[1]. "
+     "보리수나무의 이명에 '보리장나무'가 있지만 목록의 '보리장나무열매' 행은 다른 종인 E. glabra이다[1]. "
+     "'보리밥나무열매'(E. macrophylla) 행은 이명으로 '보리수나무'를 적고 있고, 피나무속 '보리자나무'(Tilia miqueliana) 행도 이명에 '보리수나무'를 적는다[1]. "
+     "'인도보리수열매'는 뽕나무과 Ficus religiosa이고, '갈매보리수나무'는 비타민나무로 불리는 Hippophae rhamnoides이다[1]. "
+     "따라서 제품의 '보리수' 표기만으로는 종을 알 수 없고 학명을 확인해야 한다[1]."},
+    {"key": "cultivation", "title": "재배와 산지", "body":
+     "히말라야에서는 해발 1200–2100 m에 자라며, pH 5.5–9.5의 토양과 건조·염분에 견뎌 산비탈 복원이나 방풍 울타리로 심는다고 리뷰 문헌은 정리한다[6]. "
+     "뿌리혹의 질소 고정 덕분에 척박한 땅에서도 잘 자란다[6, 21]. "
+     "미국 일리노이 남부에서는 보리수나무가 우거진 곳의 토양 질소 무기화·질산화 속도가 초지보다 높았다[21]. "
+     "침입 밀도가 높은 유역의 하천 질산태 질소 농도는 1.39 mg/L로 내부 유역(0.27 mg/L)보다 높았다[22].\n\n"
+     "재배 환경은 열매 성분에 영향을 준다[2]. "
+     "조지아에서는 해발 200 m 이하 해안 지대 열매의 라이코펜이 33.15–37.58 mg/100 g, 그보다 높은 산지 열매가 46.08–60.21 mg/100 g이었다(원문 표 값)[2]. "
+     "미국 농무부의 유전자형 비교에서도 'Brilliant Rose'와 'Jewel'의 항산화 능력이 가장 높아 품종 간 차이가 컸다[12]. "
+     "국내 연구 시료는 경남 합천산 열매였다[3, 8]. "
+     "국내 재배 면적·생산량 통계는 통계청·농림축산식품부 자료에서 확인하지 못함."},
+    {"key": "processing", "title": "가공과 이용", "body":
+     "식약처 목록에는 열매 자체 외에 열매농축액·열매추출액과 잎이 식품원료로 올라 있다[1]. "
+     "개별인정 원료와 같은 이름의 열매 추출물(동물 연구 시료)은 통열매를 물로 두 번 끓여 50 μm 체로 거르고, 약 26 brix로 농축한 뒤 덱스트린 50%를 넣어 분무건조해 만들었다[4]. "
+     "이 물 추출물에서 라이코펜은 검출한계 미만이었는데, 저자들은 지용성 성분이 물로는 잘 추출되지 않기 때문으로 보았다[4].\n\n"
+     "건조 방법에 따라 성분이 크게 달라진다[3]. "
+     "합천산 열매를 동결건조한 시료의 카테킨은 154.02 mg/100 g으로 분무건조 시료(27.53 mg/100 g)의 5.95배였다[3]. "
+     "설탕 시럽 삼투 탈수는 시럽 농도 70%, 70 °C, 열매:시럽 1.8:10이 최적 조건이었다[7]. "
+     "진공 삼투 탈수 10시간 뒤에도 라이코펜이 잘 보존되었다[26]. "
+     "해바라기유를 용매로 한 초음파 추출(고액비 1:50, 30 °C, 85 W, 10분)은 라이코펜 전체 함량의 약 85%를 기름으로 옮겼다[2]. "
+     "식약처 「식품 등의 생산실적」 자료에서 보리수나무 원료 제품의 생산실적은 확인하지 못함."},
+    {"key": "genetics", "title": "유전 정보", "body":
+     "전남 나주에서 채집한 보리수나무속 4종(보리수나무 포함)의 엽록체 유전체가 해독되었다[20]. "
+     "네 유전체의 길이는 152,224–152,267 bp이고, 큰 단일복사 영역·작은 단일복사 영역·한 쌍의 역위반복 영역으로 이루어졌으며 GC 함량은 37.1%였다[20]. "
+     "유전자는 136–137개로 단백질 암호 유전자 88개, tRNA 유전자 40–41개, rRNA 유전자 8개였다[20]. "
+     "PMC 본문에서 종명이 빠져 있어 보리수나무 하나의 정확한 길이는 확인하지 못함.\n\n"
+     "라이코펜이 많이 쌓이는 까닭은 카로티노이드 합성 유전자에서 찾았다[9]. "
+     "익는 동안 라이코펜 앞 단계 유전자(EutGgps·EutPsy·EutPds·EutZds)는 발현이 늘고, 뒤 단계 유전자(EutLcy-b·EutBch)는 줄며, EutLcy-e는 내내 발현되지 않았다[9]. "
+     "EutPSY를 토마토 열매에 과발현하자 라이코펜과 베타카로틴이 늘었다[10]. "
+     "익는 열매에서 늘어난 단백질 43개가 질량분석으로 동정되었다[11]. "
+     "뿌리혹에서는 키티나아제 유전자 두 개(EuNOD-CHT1·CHT2)가 서로 다른 부위에서 발현된다[23]. "
+     "핵 유전체 해독이나 염색체 수는 이번 조사에서 확인하지 못함."},
+    {"key": "safety", "title": "안전성", "body":
+     "보리수나무 잎과 열매는 식약처 「식품원료 목록」에서 제한 없는 사용가능 원료이다[1]. "
+     "알레르기·잔류농약·독성 성분에 관한 공공기관 안전 정보는 확인하지 못함. "
+     "개별인정 원료 '보리수나무열매추출물(제2025-59호)'의 섭취 시 주의사항 원문도 확인하지 못함.\n\n"
+     "동물 연구에서는 열매 물 추출물 50–200 mg/kg을 15주 동안 매일 먹인 털 없는 생쥐의 체중에 군 간 차이가 없었다[4]. "
+     "선충 급성 독성 시험에서는 동결건조 열매 추출물 500·1000 μg/mL에서 생존율이 2%·4% 낮아졌으나 통계적 차이는 없었다[3]. "
+     "사람 섬유모세포에서는 열매 추출물 100–500 μg/mL에서 독성이 나타나지 않았다[5]. "
+     "광노화 연구의 저자들은 사람 상당량 하루 500–1000 mg을 제시하면서도 무작위 임상시험으로 효과와 안전성을 확인해야 한다고 밝혔다[4].\n\n"
+     "근거의 질에도 주의가 필요하다[17, 18]. "
+     "열매에서 분리한 카테킨의 항당뇨 효과를 보고한 2021년 논문은 학술지에서 철회되었다[17, 18]. "
+     "같은 연구진이 낸 다른 논문들(정유·클로로겐산 연구 등)도 결과를 그대로 받아들이기 전에 재현 여부를 살펴야 한다[19, 28]."},
+]
+
+compounds = [
+    {"name": "Lycopene", "name_ko": "라이코펜", "class": "카로티노이드", "role": "marker", "part": "열매",
+     "content_text": "조지아산 열매 35.25–60.21 mg/100 g(초록; 표에는 해안 지대 33.15–37.58, 산지 46.08–60.21 mg/100 g, 동결건조 시료, 헥산:아세톤:메탄올 추출 후 분광광도법)[2]; 터키산 생과 20.47 ± 3.18 mg/100 g FW[7]; 메탄올-아세톤 추출물 50 mg/100 g d.m.[5]; 완숙 야생 열매가 토마토의 12배[9], 토마토의 5–20배[10]",
+     "activity_ko": "열매의 붉은 색소이자 대표 성분; 라이코펜을 녹인 해바라기유는 저장 중 산화가 늦어짐[2]", "source": [2, 5, 7, 9, 10]},
+    {"name": "Catechin", "name_ko": "카테킨", "class": "플라반-3-올", "role": "marker", "part": "열매",
+     "content_text": "합천산 열매 물 추출물: 동결건조 154.02 ± 5.29 mg/100 g, 분무건조 27.53 ± 3.05 mg/100 g(HPLC)[3]",
+     "activity_ko": "열매 물 추출물의 주된 페놀 성분; 선충에서 지방 축적 억제(daf-16·atgl-1 의존)[3]; 분리 카테킨의 항당뇨 논문은 철회됨[17, 18]", "source": [3, 17, 18]},
+    {"name": "Ellagic acid", "name_ko": "엘라그산", "class": "페놀산(엘라지탄닌 유래)", "role": "marker", "part": "열매",
+     "content_text": "열매 물 추출 분무건조물 83.93 ± 0.32 μg/g(HPLC-PDA 254 nm)[4]",
+     "activity_ko": "광노화 생쥐 연구에 쓴 열매 추출물의 정량 지표; 같은 추출물이 주름·표피 두께 증가를 억제[4]", "source": [4]},
+    {"name": "Ascorbic acid", "name_ko": "비타민 C(아스코르브산)", "class": "비타민", "role": "nutrient", "part": "열매",
+     "content_text": "메탄올-아세톤 추출물 64 (± 1.8) mg/100 g d.m.(HPLC)[5]; 터키산 생과 7.17 ± 2.27 mg AA eq/100 g[7]; 리뷰 인용값 12.04 mg/100 g[6]",
+     "activity_ko": "수용성 항산화 비타민[5]", "source": [5, 6, 7]},
+    {"name": "alpha-Tocopherol", "name_ko": "알파-토코페롤(비타민 E)", "class": "비타민", "role": "nutrient", "part": "열매",
+     "content_text": "메탄올-아세톤 추출물 1124 (± 3.2) mg/100 g d.m.(HPLC 230 nm; 추출물 기준 값)[5]",
+     "activity_ko": "추출물의 주된 지용성 성분으로 보고; 지질 과산화 연쇄를 끊는 항산화제[5]", "source": [5]},
+    {"name": "beta-Carotene", "name_ko": "베타카로틴", "class": "카로티노이드", "role": "nutrient", "part": "열매",
+     "content_text": "메탄올-아세톤 추출물 73 (± 0.2) mg/100 g d.m.(HPLC 265 nm)[5]",
+     "activity_ko": "프로비타민 A 카로티노이드; 익는 동안 라이코펜 증가와 함께 다른 카로티노이드는 줄어듦[9]", "source": [5, 9]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로겐산", "class": "페놀산", "role": "bioactive", "part": "열매",
+     "content_text": "열매 클로로포름 분획에서 분리; 함량은 확인하지 못함[19]",
+     "activity_ko": "스코폴라민 기억 손상 생쥐에서 콜린에스테라아제 억제·기억 개선(초록)[19]", "source": [19]},
+    {"name": "Rutin", "name_ko": "루틴", "class": "플라보놀 배당체", "role": "bioactive", "part": "열매·잎",
+     "content_text": "여러 용매 추출물에서 푸마르산·4-하이드록시벤조산·퀘르세틴-3-글루코사이드·네오헤스페리딘·헤스페리딘과 함께 함량이 높게 검출(수치는 초록에 없음)[16]",
+     "activity_ko": "열매·잎 추출물의 항산화·콜린에스테라아제 억제 활성과 관련[16]", "source": [16]},
+    {"name": "Kaempferol 3-rutinoside", "name_ko": "캠페롤-3-O-루티노사이드", "class": "플라보놀 배당체", "role": "bioactive", "part": "잎·잔가지",
+     "content_text": "잎과 잔가지에서 캠페롤 배당체 6종 중 하나로 분리(함량 미기재)[14]",
+     "activity_ko": "사람 각질세포(HaCaT) 증식 실험에 쓰인 잎 성분[14]", "source": [14]},
+    {"name": "Quercetin", "name_ko": "퀘르세틴 계열 플라보놀", "class": "플라보놀", "role": "bioactive", "part": "열매·잎",
+     "content_text": "열매는 플라보놀이 풍부하고, 잎은 플라보놀과 엘라지탄닌이 풍부함(LC-MS 프로파일, 수치는 초록에 없음)[13]; 플라보놀이 열매 페놀의 79%라는 인용값[7]",
+     "activity_ko": "모의 소화 후에도 알도스 환원효소·단백질 당화 억제 활성 유지(시험관)[13]", "source": [7, 13]},
+    {"name": "Malic acid", "name_ko": "사과산", "class": "유기산", "role": "nutrient", "part": "열매",
+     "content_text": "완숙 열매에서 가장 많은 유기산[11]; 생과 적정산도 1.20%(사과산 기준)[7]",
+     "activity_ko": "열매의 신맛 성분[11]", "source": [7, 11]},
+    {"name": "Triterpenoid saponins", "name_ko": "트라이테르페노이드 이당 사포닌", "class": "사포닌", "role": "bioactive", "part": "열매",
+     "content_text": "열매에서 새 이당(bidesmosidic) 사포닌 4종과 세스퀴테르페노이드 배당체 1종, 알려진 페놀 9종 분리(함량 미기재)[15]",
+     "activity_ko": "사람 잇몸 섬유모세포에서 활성산소 감소·증식 촉진(세포 실험)[15]", "source": [15]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Ellagic acid", "compound_ko": "엘라그산",
+     "part": "열매(국산 통열매 열수 추출·농축 후 덱스트린 50% 첨가 분무건조물)",
+     "content": "83.93 ± 0.32 μg/g[4]",
+     "method": "HPLC-PDA",
+     "conditions": {
+         "instrument": "Waters Alliance e2695 / 2998 광다이오드 배열 검출기",
+         "column": "CAPCELL PAK C18 UG120, 4.6 × 250 mm, 5 μm (Osaka Soda)",
+         "mobile_phase": "A: 0.05% 트리플루오로아세트산, B: 100% 아세토니트릴",
+         "gradient": "B 16%(0분) → 19%(30분) → 95%(31분) → 95%(40분)",
+         "flow": "", "temp": "", "detection": "254 nm",
+         "injection": "",
+         "sample_prep": "추출 분말을 80% 메탄올에 0.04 g/mL로 녹여 주입",
+         "standard": "엘라그산 표준품과 머무름 시간 비교로 정량",
+         "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "개별인정 원료와 같은 방식의 열매 물 추출물을 엘라그산 함량으로 규격화해 동물 시험에 썼음(개별인정 원료의 공식 지표성분인지는 확인 못함); 전문 확인, 유속·온도·주입량·검량·검출한계·회수율은 원문에 없음[4].",
+     "source": [4], "url": "https://doi.org/10.3390/antiox13020195", "source_kind": "paper"},
+    {"role": "literature", "compound": "Lycopene", "compound_ko": "라이코펜",
+     "part": "열매(조지아 서부 해안·산지 6곳, 2015–2019년 10–11월 수확, 동결건조 후 250 μm 이하 분쇄)",
+     "content": "35.25–60.21 mg/100 g(초록; 표: 해안 33.15 ± 0.94–37.58 ± 0.95, 산지 46.08 ± 0.88–60.21 ± 0.98 mg/100 g)[2]",
+     "method": "분광광도법 정량(UV/Vis) + UHPLC-PDA-MS 확인",
+     "conditions": {
+         "instrument": "정량: Mettler Toledo UV5 UV/Vis 분광광도계(1 cm 셀); 확인: UHPLC-PDA-MS",
+         "column": "확인용 Acquity UPLC BEH C18, 1.7 μm(길이·내경 미기재)",
+         "mobile_phase": "확인용 A: 아세토니트릴:메탄올 7:3, B: 물 100%",
+         "gradient": "",
+         "flow": "",
+         "temp": "25–32 °C(확인용)",
+         "detection": "정량 350–600 nm 스캔(445·472·502 nm); 확인 λmax 472.4 nm, [M]+ m/z 536.48, 머무름 시간 4.251분",
+         "injection": "5 μL(확인용)",
+         "sample_prep": "헥산:메탄올:아세톤(2:1:1, v/v) 혼합 용매로 전량 추출",
+         "standard": "",
+         "linearity": "", "lod": "", "loq": "", "recovery": "해바라기유 초음파 추출 수율은 용매 추출 대비 85.76%·86.36%"},
+     "rationale": "열매의 붉은 색소이자 함량이 가장 두드러진 성분이어서 품질·추출 공정 지표로 쓰임; 전문 확인, 정량은 흡광도법이며 검량·검출한계 값은 원문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.1002/fsn3.4030", "source_kind": "paper"},
+    {"role": "literature", "compound": "Catechin", "compound_ko": "카테킨",
+     "part": "열매(경남 합천산, 동결건조 또는 분무건조 후 80 °C 열수 환류 추출 분말)",
+     "content": "동결건조 154.02 ± 5.29 mg/100 g, 분무건조 27.53 ± 3.05 mg/100 g[3]",
+     "method": "HPLC",
+     "conditions": {
+         "instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "",
+         "injection": "",
+         "sample_prep": "열매:증류수 1:10 환류 추출(80 °C) 후 농축·분말화",
+         "standard": "D-카테킨(CAS 154-23-4), 증류수에 녹여 사용",
+         "linearity": "검량선 5–50 μg/mL",
+         "lod": "", "loq": "", "recovery": ""},
+     "rationale": "카테킨·카페산·클로로겐산·갈산·퀘르세틴·루테인을 기준물질로 분석했을 때 카테킨만 주성분으로 검출되어 건조 방법 비교 지표로 쓰임; 전문 확인, 장비·칼럼·이동상은 별도 표에 있어 본문 텍스트에서 확인 못함[3].",
+     "source": [3], "url": "https://doi.org/10.3390/ijms25063418", "source_kind": "paper"},
+    {"role": "literature", "compound": "Ascorbic acid", "compound_ko": "L-아스코르브산(비타민 C)",
+     "part": "열매(폴란드 우치 지방 농장산, 동결건조 후 메탄올-아세톤 초음파 추출물)",
+     "content": "64 (± 1.8) mg/100 g d.m.(추출물 기준)[5]",
+     "method": "HPLC-UV",
+     "conditions": {
+         "instrument": "UV-Vis 검출기(Shimadzu)",
+         "column": "Onyx Monolithic C18, 100 × 4.6 mm, 5 µm (Phenomenex)",
+         "mobile_phase": "0.1% 메타인산 수용액",
+         "gradient": "등용매",
+         "flow": "1 mL/min",
+         "temp": "25 °C",
+         "detection": "254 nm",
+         "injection": "20 µL",
+         "sample_prep": "추출물 0.1 g을 순수 에탄올로 10 mL 정용, 0.45 µm PTFE 필터 여과",
+         "standard": "L-아스코르브산 외부표준 검량선(n = 3)",
+         "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "열매의 대표 수용성 항산화 비타민으로 추출물 특성 평가에 쓰임; 전문 확인, 검량 범위·검출한계·회수율은 원문에 없음[5].",
+     "source": [5], "url": "https://doi.org/10.7717/peerj.10760", "source_kind": "paper"},
+]
+
+nutrients = [
+    {"form": "생과(터키 삼순 대학 시험포산 완숙 열매)", "basis": "논문 측정값, 생과 100 g 또는 % 기준[7]",
+     "items": [
+         {"name": "수분", "value": 77.24, "unit": "%"},
+         {"name": "가용성 고형분", "value": 14.80, "unit": "°Brix"},
+         {"name": "pH", "value": 3.07, "unit": ""},
+         {"name": "적정산도(사과산)", "value": 1.20, "unit": "%"},
+         {"name": "라이코펜", "value": 20.47, "unit": "mg/100 g"},
+         {"name": "비타민 C(아스코르브산 당량)", "value": 7.17, "unit": "mg/100 g"},
+         {"name": "총페놀(갈산 당량)", "value": 287, "unit": "mg/100 g"},
+         {"name": "플라보노이드(에피카테킨 당량)", "value": 25.26, "unit": "mg/100 g"}],
+     "source": [7]},
+    {"form": "열매 100 g(리뷰 인용값, 원 측정 논문 확인 못함)", "basis": "2차 문헌 인용[6]",
+     "items": [
+         {"name": "수분", "value": 64.9, "unit": "g"},
+         {"name": "가용성 고형분", "value": 14.5, "unit": "g"},
+         {"name": "산", "value": 1.51, "unit": "g"},
+         {"name": "총당", "value": 8.34, "unit": "g"},
+         {"name": "비타민 C", "value": 12.04, "unit": "mg"}],
+     "source": [6]},
+]
+
+d = {
+    "slug": "elaeagnus-umbellata",
+    "name_ko": "보리수나무",
+    "name_en": "Autumn olive",
+    "scientific_name": "Elaeagnus umbellata Thunb.",
+    "aliases": ["보리수나무열매", "보리수나무열매농축액", "보리수나무열매추출액", "보리수나무잎", "보리장나무(이명)", "산보리수나무", "Autumn olive", "Elaeagnus argyi", "Elaeagnus coreanus"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "nutrients": nutrients,
+    "assays": assays,
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

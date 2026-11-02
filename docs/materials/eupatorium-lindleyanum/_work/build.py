@@ -1,0 +1,100 @@
+import json
+from pathlib import Path
+OUT = Path("/home/user/hfoodguide-wave3/docs/materials/eupatorium-lindleyanum/dossier.json")
+A = "2026-11-02"
+def pm(n, title, cite, pmid, doi, pmc=None):
+    t = f"{title} — {cite}" + (f" (전문 {pmc})" if pmc else "") + f" (PMID {pmid})"
+    return {"n": n, "title": t, "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": "PubMed", "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 골등골나물잎(Eupatorium lindleyanum DC. / Eupatorium kirilowii Turcz., Lindley eupatorium, 이명 벌등골나물), 사용가능부위: 잎, 사용가능; 같은 목록의 등골나물잎(E. japonicum / E. fortunei / E. chinense var. simplicifolium)·향등골나물잎(E. tripartitum)·Eupatorium chinense var. simplicifolium잎 행 포함", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Comprehensive Comparison of Three Different Medicinal Parts of Eupatorium lindleyanum DC. Using the RRLC-Q-TOF-MS-Based Metabolic Profile and In Vitro Anti-Inflammatory Activity", "Molecules 2024;29(15):3551", "39124956", "10.3390/molecules29153551", "PMC11313985"),
+ pm(3, "Traditional Applications, Phytochemistry, and Pharmacological Activities of Eupatorium lindleyanum DC.: A Comprehensive Review", "Front Pharmacol 2020;11:577124", "33519495", "10.3389/fphar.2020.577124", "PMC7845744"),
+ pm(4, "Simultaneous determination of eight pyrrolizidine alkaloids in various parts of Eupatorium lindleyanum by UHPLC-MS/MS and risk assessments based on a real-life exposure scenario", "J Sep Sci 2021;44(17):3237-3247 (초록만 확인)", "34240803", "10.1002/jssc.202100286"),
+ pm(5, "Structural characterization of the plastid genome and comparative mitochondrial genomics of Eupatorium lindleyanum (Asteraceae)", "BMC Plant Biol 2026;26", "41618150", "10.1186/s12870-026-08251-0", "PMC12930753"),
+ pm(6, "Multi-omics integration reveals tissue-specific biosynthesis of sesquiterpenoids in the medicinal plant Eupatorium lindleyanum", "PLoS One 2026;21(10):e0359566 (초록 확인)", "42821537", "10.1371/journal.pone.0359566", "PMC13630220"),
+ pm(7, "Integrative metabolomic and transcriptomic analyses reveal flavonoid biosynthesis pathway in Eupatorium lindleyanum", "Sci Rep 2025;15:43151 (초록 확인)", "41345166", "10.1038/s41598-025-27287-0", "PMC12678412"),
+ pm(8, "Qualitative and quantitative analysis of chemical components in Eupatorium lindleyanum DC. by UPLC-MS integrated with anti-inflammatory activity research", "J Sep Sci 2021;44(17):3174-3187 (초록만 확인)", "34184412", "10.1002/jssc.202100208"),
+ pm(9, "[Research on Q-markers of Eupatorium lindleyanum based on analytic hierarchy process-entropy weight method and network pharmacology]", "Zhongguo Zhong Yao Za Zhi 2021;46(21):5545-5554 (초록만 확인)", "34951205", "10.19540/j.cnki.cjcmm.20210813.201"),
+ pm(10, "[Chemical constituents of Eupatorium lindleyanum]", "Zhongguo Zhong Yao Za Zhi 2012;37(7):937-40 (초록만 확인)", "22792793", None),
+ pm(11, "[Study on the flavonoids of Eupatorium lindleyanum]", "Zhongguo Zhong Yao Za Zhi 2004;29(1):50-2 (초록만 확인)", "15709382", None),
+ pm(12, "Cytotoxic sesquiterpene lactones from Eupatorium lindleyanum", "J Nat Prod 2004;67(9):1470-5", "15387644", "10.1021/np040023h"),
+ pm(13, "Cytotoxic sesquiterpene lactones from Eupatorium lindleyanum", "J Asian Nat Prod Res 2007;9(3-5):339-45", "17613619", "10.1080/10286020600727673"),
+ pm(14, "Rapid screening and isolation of antioxidants from Eupatorium lindleyanum DC. using CCC target-guided by on-line HPLC-DPPH assay", "Prep Biochem Biotechnol 2021;51(6):530-535", "33135958", "10.1080/10826068.2020.1836653"),
+ pm(15, "Total sesquiterpenoids from Eupatorium lindleyanum DC. attenuate bleomycin-induced lung fibrosis by suppressing myofibroblast transition", "Fitoterapia 2023;169:105567", "37315715", "10.1016/j.fitote.2023.105567"),
+ pm(16, "Extraction and purification of total flavonoids from Eupatorium lindleyanum DC. and evaluation of their antioxidant and enzyme inhibitory activities", "Food Sci Nutr 2021;9(5):2349-2363", "34026054", "10.1002/fsn3.1999", "PMC8116873"),
+ pm(17, "Eupatorium lindleyanum DC. sesquiterpenes fraction attenuates lipopolysaccharide-induced acute lung injury in mice", "J Ethnopharmacol 2016;185:263-71", "26972504", "10.1016/j.jep.2016.03.022"),
+ pm(18, "Eupatorium lindleyanum DC. flavonoids fraction attenuates lipopolysaccharide-induced acute lung injury in mice", "Int Immunopharmacol 2016;39:23-33", "27398612", "10.1016/j.intimp.2016.06.032"),
+ pm(19, "Metabolic Profiling and Detoxification of Eupalinolide A and B in Human Liver Microsomal Systems", "Toxics 2026;14(3):235", "41893503", "10.3390/toxics14030235", "PMC13030334"),
+ pm(20, "Pharmacokinetics of eupalinolide A, eupalinolide B and hyperoside from Eupatorium lindleyanum in rats by LC/MS/MS", "J Chromatogr B 2015;995-996:1-7", "26011510", "10.1016/j.jchromb.2015.04.038"),
+ pm(21, "Chemical Constituents of Plants from the Genus Eupatorium (1904-2014)", "Chem Biodivers 2015;12(10):1481-515", "26460556", "10.1002/cbdv.201400227"),
+ pm(22, "Pyrrolizidine alkaloids and beehive products: A review", "Food Chem 2021;342:128384", "33214040", "10.1016/j.foodchem.2020.128384"),
+ pm(23, "The effect of phosphorus, irradiance and competitor identity on the relative performance of invasive Chromolaena odorata", "BMC Plant Biol 2024;24:953", "39394569", "10.1186/s12870-024-05684-3", "PMC11470702"),
+ pm(24, "Preparative isolation and purification of three sesquiterpenoid lactones from Eupatorium lindleyanum DC. by high-speed counter-current chromatography", "Molecules 2012;17(8):9002-9", "22842644", "10.3390/molecules17089002", "PMC6268613"),
+ pm(25, "Ultrasound-Assisted Deep Eutectic Solvent Extraction of Total Alkaloids from Eupatorium lindleyanum: Process Optimization and Preservation Application in Postharvest Grapes", "Molecules 2026;31(18):3352 (초록 확인)", "42796635", "10.3390/molecules31183352", "PMC13610118"),
+ pm(26, "Antioxidant activities of extracts and fractions from Eupatorium lindleyanum DC.", "Molecules 2011;16(7):5998-6009", "21772232", "10.3390/molecules16075998", "PMC6264173"),
+ pm(27, "Potential Anti-inflammatory Sesquiterpene Lactones from Eupatorium lindleyanum", "Planta Med 2018;84(2):123-128", "28793356", "10.1055/s-0043-117742"),
+ pm(28, "Pyrrolizidine alkaloids in honey: occurrence and profile analysis in Japan", "Food Chem 2025;496(Pt 2):146790", "41166812", "10.1016/j.foodchem.2025.146790"),
+ pm(29, "Eupalinolide J Inhibits Cancer Metastasis by Promoting STAT3 Ubiquitin-Dependent Degradation", "Molecules 2023;28(7):3143", "37049904", "10.3390/molecules28073143", "PMC10096386"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "골등골나물(Eupatorium lindleyanum DC.)은 국화과 등골나물속의 여러해살이풀로, 식약처 「식품원료 목록」에는 학명 Eupatorium lindleyanum DC. / Eupatorium kirilowii Turcz., 영어 이름 Lindley eupatorium, 이명 벌등골나물로 '골등골나물잎'이 올라 있다[1]. 사용 조건은 '사용가능부위 : 잎'이고 상태는 사용가능이어서, 식품에는 잎만 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함. 같은 목록의 등골나물잎(E. japonicum 등), 향등골나물잎(E. tripartitum), E. chinense var. simplicifolium잎은 별개 원료이며 이 자료에는 그 값을 섞지 않았다[1].\n\n중국에서는 지상부를 '야마추이(野马追, Yemazhui)'라는 약재로 써 왔고, 식품으로 오래 이용되었다는 서술도 있다[3, 15]. 대표 성분은 유팔리놀라이드 A·B 같은 세스퀴테르펜 락톤과 하이퍼로사이드 등의 플라보노이드다[2, 3]. 한편 이 종에서는 간독성이 알려진 피롤리지딘 알칼로이드(PA)가 검출되었으며, 함량은 뿌리 > 꽃 > 줄기 > 잎 순이었다[4]."},
+ {"key": "history", "title": "역사와 이용", "body":
+  "중국에서는 이 풀을 기침, 만성 기관지염, 고혈압 치료에 써 왔고, 전국시대에 말의 호흡기 병에 썼다는 전승도 있으나 이는 일화 수준의 기록이다[3]. 오랫동안 민간 약초로 쓰이다가 1977년 중국약전에 처음 실렸고, 1988년 장쑤성 지방 약재 표준에도 수록되었다[3]. 2020년판 중국약전이 정한 약용 부위는 뿌리를 뺀 지상부다[2].\n\n약재로는 시럽·정제·캡슐 등의 제제가 만들어져 호흡기 질환에 쓰였다[2, 3]. 리뷰에 정리된 중국 임상 보고에는 어린이 만성 기관지염 400명 시험과 급성·만성 기관지염 성인 52명 시험이 있으나, 리뷰는 연구 대부분이 전임상 단계여서 임상 연구가 더 필요하다고 지적했다[3]. 중국에서 기능성 식품으로 오래 쓰였다는 언급이 있다[15]. 근대 성분 연구에서는 전초에서 구아이안형 세스퀴테르펜 락톤인 유팔리닐라이드 A–J 10종이, 이어 게르마크란형 유팔리놀라이드 C–E가 새로 분리되었다[12, 13]. 동물 실험으로는 세스퀴테르펜 분획(15·30·60 mg/kg, 7일 경구)과 플라보노이드 분획이 생쥐의 LPS 급성 폐손상 지표를 줄였고, 유팔리놀라이드 L·M 등은 대식세포의 TNF-α·IL-6 분비를 낮췄다[17, 18, 27]. 우리나라에서 이 풀을 나물·차로 먹어 온 전통 기록은 확인하지 못함."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "골등골나물은 키 1–2 m까지 자라는 여러해살이풀로, 짧은 뿌리줄기에 수염뿌리가 나고 줄기는 곧게 서며 윗부분에서 가지를 친다[3]. 잎은 대개 마주나고 잎자루가 없으며, 세 갈래로 갈라지거나 갈라지지 않는 선상 피침형으로 가장자리에 성긴 톱니가 있고 아랫면에 샘점이 있다[3]. 머리모양꽃차례마다 보랏빛 대롱꽃이 5개씩 달리고, 꽃은 7–9월, 열매는 8–10월에 맺는다[3].\n\n분포는 러시아, 한국, 일본, 중국에 걸치며 자원이 풍부하다고 소개되었다[5]. 중국에서는 장쑤·간쑤·산둥·후난성에 주로 나고, 장쑤성 산을 도지(道地) 약재로 친다[3]. 경쟁 실험에서는 침입종 Chromolaena odorata와 함께 키운 토착 경쟁종으로 쓰였다[23]. 국내 자생지와 개체군 현황은 공공기관 자료로 확인하지 못함."},
+ {"key": "related_species", "title": "이름과 가까운 종", "body":
+  "식약처 목록에서 골등골나물잎의 학명 칸에는 Eupatorium kirilowii Turcz.가 이명으로 함께 적혀 있다[1]. 같은 목록의 향등골나물잎(E. tripartitum) 행에는 별칭으로 '골등골나물'이 올라 있어, 국문 이름만으로는 두 원료가 혼동될 수 있다[1]. 등골나물잎 행은 E. japonicum, E. fortunei, E. chinense var. simplicifolium을 함께 묶고 있으며, 이 자료의 성분·안전성 값은 모두 E. lindleyanum 시료에서 나온 것만 썼다[1].\n\n등골나물속은 약 1200종으로 열대 아메리카, 유럽, 아프리카, 아시아에 퍼져 있고, 이 속에서 보고된 성분에는 플라보노이드·테르페노이드와 함께 피롤리지딘 알칼로이드가 들어 있다[21]. PA는 주로 Senecio, Echium, Crotalaria, Eupatorium 속에서 발견되어 식품 규제 당국의 관심 대상이 된다[22]. 일본 시판 꿀의 PA 조성 분석에서도 지치과와 등골나물속 유래로 보이는 무리가 시료의 절반 이상을 차지했다[28]. 미토콘드리아 유전체 비교에서 골등골나물은 같은 속의 E. chinense와 길이는 비슷하지만 구조 차이가 컸다[5]."},
+ {"key": "cultivation", "title": "재배와 산지", "body":
+  "중국에서는 장쑤성 쉬이(盱眙)현이 주산지로 꼽히며, 이 지역 표준화 약재 재배 사업의 핵심 품목으로 소개되었다[2]. 한 성분 비교 연구는 난징중의약대학 약용식물원과 쉬이현 재배지에서 거둔 지상부 6개 배치를 꽃·잎·줄기로 나눠 60 °C에서 말린 뒤 분석했다[2]. 재배자는 대개 8–10월에 수확하며, 꽃이 막 피기 시작할 때 총 플라보노이드와 단위면적 생물량이 가장 많았다는 보고와 4월의 어린 줄기·잎에 무기질이 많았다는 보고가 함께 인용되었다[2].\n\n19개 배치의 성분을 정량한 연구에서는 배치 사이 차이가 나타났고, 저자들은 생육 환경과 기후 차이를 원인으로 추정했다[8]. 꽃·잎·줄기 가운데 줄기에는 유효 성분이 거의 없었다[2]. 국내 재배 면적·생산량 통계(통계청·농식품부 특용작물 생산실적)에서 골등골나물 품목은 확인하지 못함. 지리적 표시 등록과 생산자 단체도 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "식약처 목록상 국내에서는 잎만 식품원료로 쓸 수 있다[1]. 중국에서 약재로 쓰는 부위는 뿌리를 뺀 지상부이며 시럽·정제·복합 캡슐 원료로 가공된다[2]. 성분 추출 연구로는 71.5% 에탄올을 쓴 초음파·마이크로파 병용 추출로 총 플라보노이드를 뽑고 AB-8 수지로 정제해 함량을 208.18에서 511.19 mg RE/g으로 높인 예가 있다[16]. 물 추출물과 잔사 물 추출물이 여러 항산화 시험에서 가장 높은 활성을 보였다[26].\n\n고속 역류 크로마토그래피로 부탄올 분획 540 mg에서 유팔리놀라이드 A 17.9 mg, B 19.3 mg을 얻은 분리 연구도 있다[24]. 염화콜린–시트르산 공융용매로 총 알칼로이드를 추출해 포도 저장 보존제로 시험한 연구도 보고되었다[25]. 국내 건강기능식품 생산실적에서 이 원료 품목은 확인하지 못함."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "골등골나물의 미토콘드리아·엽록체 전체 유전체가 2026년에 처음 해독되었으며, 시료는 중국 신양시에서 채집한 잎이었다[5]. 미토콘드리아 유전체는 299,285 bp의 원형 DNA로 GC 45.06%이고, 고유 단백질 유전자 32개, tRNA 17개, rRNA 3개를 가진다[5]. 엽록체 유전체는 151,377 bp, GC 37.60%이며 고유 단백질 유전자 80개와 rRNA 4개를 가지는데, tRNA 수는 초록에 30개, 본문 결과에 28개로 달리 적혀 있다[5]. 두 유전체 사이에는 11,245 bp의 상동 서열이 있었다[5].\n\n뿌리·줄기·잎·꽃의 대사체와 전사체를 함께 분석한 연구에서는 세스퀴테르페노이드 321종이 확인되었고 꽃에 가장 많고 잎이 그다음이었다[6]. 같은 연구에서 99.43 Gb의 염기서열로 147,743개 유전자 조각을 얻었다[6]. 플라보노이드 연구에서는 부위별로 차이 나는 플라보노이드 330종과 생합성 핵심 구조 유전자 27개, 전사인자 69개가 제시되었다[7]. 핵 유전체 크기와 염색체 수는 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "식약처 「식품원료 목록」에서 골등골나물은 잎만 쓸 수 있는 사용가능 원료이며, 꽃·뿌리·줄기는 사용 부위로 올라 있지 않다[1]. 이 종에는 간독성과 발암성이 알려진 피롤리지딘 알칼로이드(PA)가 들어 있어, 인터메딘·라이콥사민·린데린·에키나틴과 각각의 N-옥사이드 8종이 정량되었다[4]. 총 PA 함량은 뿌리 > 꽃 > 줄기 > 잎 순으로, 식품원료로 허용된 잎이 가장 적었다[4]. 다른 연구에서도 에키나틴은 꽃에 가장 많고 잎에서 가장 적었으며, 저자들은 PA를 품질관리의 핵심 지표로 삼을 것을 제안했다[2]. 노출 평가 논문은 평생 노출 기간이 잎 200일, 줄기 37일, 꽃 12일보다 짧을 때 건강 영향이 나타날 가능성이 낮다고 결론지었다[4].\n\n중국 동물 시험에서는 생약 45 g/kg에서 뚜렷한 영향이 없었고 만성 독성 시험에서도 독성 반응이 보고되지 않았으나, 리뷰는 독성·약동학 연구가 적어 임상 안전성 자료가 부족하다고 지적했다[3]. 유팔리놀라이드 A·B는 사람 간 마이크로솜에서 주로 가수분해로 해독되었고 간세포 독성이 낮았다[19]. 국내 공공기관의 PA 기준, 알레르기 정보, 임신·수유 중 안전성은 확인하지 못함."},
+]
+
+compounds = [
+ {"name": "Eupalinolide A", "name_ko": "유팔리놀라이드 A", "class": "세스퀴테르펜 락톤(게르마크라놀라이드)", "role": "marker", "part": "잎·꽃·줄기", "content_text": "잎 5.390 ± 1.465 mg/g, 꽃 14.494 ± 1.674 mg/g, 줄기 0.088 ± 0.040 mg/g(HPLC-PDA)[2]", "activity_ko": "급성 폐손상·상기도 감염 모델의 주요 활성 성분으로 꼽힘; 함량이 높고 항염 활성이 강해 품질 지표 후보[2, 8, 9]", "source": [2, 8, 9]},
+ {"name": "Eupalinolide B", "name_ko": "유팔리놀라이드 B", "class": "세스퀴테르펜 락톤(게르마크라놀라이드)", "role": "marker", "part": "잎·꽃·줄기", "content_text": "잎 5.469 ± 0.710 mg/g, 꽃 12.681 ± 1.688 mg/g, 줄기 0.295 ± 0.082 mg/g(HPLC-PDA)[2]", "activity_ko": "쥐에 추출물 625 mg/kg 투여 시 혈장 최고농도 371.25 ± 63.91 ng/mL(리뷰 인용)[3]; 사람 간 마이크로솜에서 가수분해로 해독[19]", "source": [2, 3, 19, 20]},
+ {"name": "Hyperoside", "name_ko": "하이퍼로사이드", "class": "플라보놀 배당체", "role": "marker", "part": "잎·꽃·줄기", "content_text": "잎 2.617 ± 1.466 mg/g, 꽃 1.283 ± 0.684 mg/g, 줄기 0.131 ± 0.037 mg/g(HPLC-PDA)[2]", "activity_ko": "잎에 꽃보다 2–3배 많은 성분; 혈압·혈지질 저하 관련 성분으로 소개됨[2]", "source": [2, 11]},
+ {"name": "Chlorogenic acid", "name_ko": "클로로겐산", "class": "하이드록시신남산 에스터", "role": "bioactive", "part": "잎·꽃·줄기", "content_text": "잎 1.929 ± 0.710 mg/g, 꽃 3.436 ± 2.311 mg/g, 줄기 0.279 ± 0.034 mg/g(HPLC-PDA)[2]", "activity_ko": "꽃·잎의 주요 페놀산[2]", "source": [2]},
+ {"name": "Isoquercitrin", "name_ko": "이소퀘르시트린", "class": "플라보놀 배당체", "role": "bioactive", "part": "잎·꽃", "content_text": "잎에서 꽃보다 높은 상대 피크 면적(정량 수치 없음)[2]", "activity_ko": "품질 지표 후보 13종 가운데 하나[9]", "source": [2, 9, 10]},
+ {"name": "Jaceosidin", "name_ko": "자세오시딘", "class": "플라본", "role": "bioactive", "part": "잎·꽃; 전초", "content_text": "잎에서 꽃보다 높은 상대 피크 면적(정량 수치 없음)[2]; 부탄올 분획에서 분리[14]", "activity_ko": "DPPH 라디칼 소거 활성[14]", "source": [2, 10, 14]},
+ {"name": "Nepetin", "name_ko": "네페틴", "class": "플라본", "role": "bioactive", "part": "전초", "content_text": "부탄올 분획에서 분리(함량 수치 없음)[14]", "activity_ko": "DPPH 라디칼 소거 활성; 품질 지표 후보[9, 14]", "source": [9, 10, 14]},
+ {"name": "Cirsiliol", "name_ko": "시르실리올", "class": "플라본", "role": "bioactive", "part": "전초", "content_text": "부탄올 분획에서 분리(함량 수치 없음)[14]", "activity_ko": "DPPH 라디칼 소거 활성; 품질 지표 후보[9, 14]", "source": [9, 10, 14]},
+ {"name": "Rutin", "name_ko": "루틴", "class": "플라보놀 배당체", "role": "bioactive", "part": "지상부", "content_text": "에틸아세테이트 분획에서 분리(함량 수치 없음)[10]", "activity_ko": "품질 지표 후보 13종 가운데 하나[9]", "source": [9, 10]},
+ {"name": "Kaempferol", "name_ko": "켐페롤", "class": "플라보놀", "role": "bioactive", "part": "지상부", "content_text": "지상부에서 분리(함량 수치 없음)[11]", "activity_ko": "고지혈 동물 모델 시험이 리뷰에 정리됨[3]", "source": [3, 10, 11]},
+ {"name": "Eupalinolide J", "name_ko": "유팔리놀라이드 J", "class": "세스퀴테르펜 락톤", "role": "bioactive", "part": "꽃(꽃에서만 검출)", "content_text": "꽃에만 있는 성분으로 검출(정량 안 함)[2]", "activity_ko": "세포·동물 실험에서 STAT3 분해를 통한 암 전이 억제 보고[29]", "source": [2, 29]},
+ {"name": "Echinatine", "name_ko": "에키나틴", "class": "피롤리지딘 알칼로이드(1,2-불포화)", "role": "bioactive", "part": "잎·꽃·줄기", "content_text": "잎 0.390 ± 0.096 ng/g, 줄기 0.951 ± 0.204 ng/g, 꽃 12.318 ± 1.817 ng/g(UPLC-MS/MS, 원문 단위 그대로)[2]", "activity_ko": "간독성 우려 성분; 저자들이 품질관리 지표로 제안[2, 4]", "source": [2, 4]},
+ {"name": "Intermedine", "name_ko": "인터메딘", "class": "피롤리지딘 알칼로이드", "role": "bioactive", "part": "뿌리·꽃·줄기·잎", "content_text": "부위별 함량 차이 있음(수치는 초록에 없음), 총 PA는 뿌리 > 꽃 > 줄기 > 잎[4]", "activity_ko": "간독성·발암성이 알려진 PA 계열[4]", "source": [4]},
+ {"name": "Lycopsamine", "name_ko": "라이콥사민", "class": "피롤리지딘 알칼로이드", "role": "bioactive", "part": "뿌리·꽃·줄기·잎", "content_text": "N-옥사이드와 함께 정량(수치는 초록에 없음)[4]", "activity_ko": "간독성·발암성이 알려진 PA 계열[4]", "source": [4]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Hyperoside; Eupalinolide A; Eupalinolide B; Chlorogenic acid", "compound_ko": "하이퍼로사이드·유팔리놀라이드 A·B·클로로겐산", "part": "잎(꽃·줄기와 비교; 난징·쉬이 산 지상부 6배치를 부위별로 분리해 60 °C 건조)",
+  "content": "잎: 하이퍼로사이드 2.617 ± 1.466, 유팔리놀라이드 A 5.390 ± 1.465, B 5.469 ± 0.710, 클로로겐산 1.929 ± 0.710 mg/g", "method": "HPLC-PDA",
+  "conditions": {"instrument": "", "column": "Hedera C18, 250 mm × 4.6 mm, 5 µm", "mobile_phase": "A: 아세토니트릴, B: 0.1% 포름산 물", "gradient": "0–15분 A 5→20%; 15–30분 20→25%; 30–40분 25→40%; 40–60분 40→60%", "flow": "1 mL/min", "temp": "30 °C", "detection": "361 nm·210 nm", "injection": "10 µL", "sample_prep": "분말 약 0.5 g + 50% 메탄올 25 mL, 초음파 30분, 무게 보정 후 10,000 rpm 5분 원심분리, 상등액 사용", "standard": "하이퍼로사이드(98.45%), 유팔리놀라이드 A·B(실험실 합성 >98%), 클로로겐산(99.58%); 혼합 표준액 0.22·0.53·0.51·0.48 mg/mL를 단계 희석", "linearity": "", "lod": "", "loq": "", "recovery": "98.77–107.90% (RSD < 2.33%)"},
+  "rationale": "유팔리놀라이드 A·B는 호흡기 효능 관련 주성분, 하이퍼로사이드는 잎에 꽃보다 많은 플라보노이드여서 부위 차이를 확인하는 지표로 쓰였다. 전문(Methods)에서 조건을 옮겼고, 직선성·검출·정량한계 수치는 표에 있어 본문에서 확인하지 못함[2].", "source": [2], "url": "https://doi.org/10.3390/molecules29153551", "source_kind": "paper"},
+ {"role": "literature", "compound": "Echinatine", "compound_ko": "에키나틴(피롤리지딘 알칼로이드)", "part": "잎(꽃·줄기와 비교)",
+  "content": "잎 0.390 ± 0.096 ng/g, 줄기 0.951 ± 0.204 ng/g, 꽃 12.318 ± 1.817 ng/g(원문 단위 그대로)", "method": "UPLC-MS/MS(MRM)",
+  "conditions": {"instrument": "Shimadzu LC-20CE XR + QTRAP 5500(AB SCIEX)", "column": "Waters ACQUITY UHPLC HSS T3, 2.1 × 150 mm, 1.8 µm", "mobile_phase": "A: 아세토니트릴, B: 0.1% 포름산 물", "gradient": "아세토니트릴 10% 등용매", "flow": "0.3 mL/min", "temp": "30 °C", "detection": "MRM(200 ng/mL 표준액으로 조건 최적화)", "injection": "1 µL", "sample_prep": "HPLC용 50% 메탄올 추출액을 꽃 100:1, 잎 10:1, 줄기 20:1로 50% 메탄올에 희석", "standard": "에키나틴(≥98%), 작업 표준액 170 ng/mL를 단계 희석", "linearity": "", "lod": "", "loq": "", "recovery": "102.18% (RSD 7.90%)"},
+  "rationale": "간독성이 알려진 1,2-불포화 PA의 대표 성분으로, 저자들은 PA를 품질관리 핵심 지표로 삼자고 제안했다. 전문에서 조건을 옮겼고 검출·정량한계 수치는 본문에서 확인하지 못함[2].", "source": [2], "url": "https://doi.org/10.3390/molecules29153551", "source_kind": "paper"},
+ {"role": "literature", "compound": "Intermedine; Lycopsamine; Rinderine; Echinatine (+ N-oxides)", "compound_ko": "피롤리지딘 알칼로이드 8종(인터메딘·라이콥사민·린데린·에키나틴과 각 N-옥사이드)", "part": "뿌리·꽃·줄기·잎",
+  "content": "총 PA 뿌리 > 꽃 > 줄기 > 잎(수치는 초록에 없음)", "method": "UHPLC-MS/MS",
+  "conditions": {},
+  "rationale": "이 종의 부위별 PA를 처음 동시 정량하고 노출 평가를 한 연구다. 전문 확인 못함(초록만 확인)[4].", "source": [4], "url": "https://doi.org/10.1002/jssc.202100286", "source_kind": "paper"},
+ {"role": "literature", "compound": "Eupalinolide A; Eupalinolide B; Eupalinolide C; Eupalinolide K (27 constituents)", "compound_ko": "유팔리놀라이드 A·B·C·K 등 27성분", "part": "지상부(19배치)",
+  "content": "", "method": "UHPLC-QQQ-MS/MS(MRM, 양·음이온)",
+  "conditions": {},
+  "rationale": "19배치 정량과 판별분석·항염 시험에서 유팔리놀라이드 A·B·C·K가 함량이 높고 활성이 강해 품질 지표 후보로 제시되었다. 전문 확인 못함(초록만 확인)[8].", "source": [8], "url": "https://doi.org/10.1002/jssc.202100208", "source_kind": "paper"},
+]
+
+d = {"slug": "eupatorium-lindleyanum", "name_ko": "골등골나물", "name_en": "Lindley eupatorium", "scientific_name": "Eupatorium lindleyanum DC.",
+     "aliases": ["골등골나물잎", "벌등골나물", "Eupatorium kirilowii Turcz.", "Lindley eupatorium", "Yemazhui", "野马追"],
+     "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [], "production": [], "world": [], "gi": [], "orgs": [],
+     "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

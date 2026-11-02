@@ -1,0 +1,158 @@
+{
+ "slug": "panulirus-argus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 84,
+ "checked_items": 52,
+ "verified": 112,
+ "fixed": 23,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.biology",
+   "before": "마지막 유생은 먹이를 먹지 않는 후기유생(퓨에룰루스)으로 변태해 연안으로 헤엄쳐 와 정착하고, 첫 탈피 뒤 어린 개체가 되어서야 다시 먹이를 먹는다[29].",
+   "after": "닭새우류의 마지막 유생은 먹이를 먹지 않는 후기유생(퓨에룰루스)으로 변태해 연안으로 헤엄쳐 와 정착하고 첫 탈피 뒤 어린 개체가 되어서야 다시 먹이를 먹으며, 이 종에서는 퓨에룰루스와 첫 어린 개체의 몸 크기·무게·영양 상태를 계절별로 비교한 연구가 있다[29].",
+   "why": "[29] 초록의 퓨에룰루스 설명은 닭새우류(spiny lobsters) 일반에 대한 서술이므로 속 일반임을 밝히고 이 종 연구 내용을 덧붙임"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "이 종에만 감염하는 PaV1 바이러스의 유전체는 70–74 kb 크기의 새 바이러스과(Mininucleoviridae)로 분류가 제안되었다[31].",
+   "after": "이 종을 감염하는 유일한 알려진 바이러스인 PaV1은 다른 두 갑각류 바이러스와 함께 전장 유전체가 해독되었고(세 바이러스 유전체 70–74 kb), 새 바이러스과 'Mininucleoviridae'로 분류가 제안되었다[31].",
+   "why": "[31] 은 PaV1을 'P. argus를 감염하는 유일한 알려진 바이러스'로 쓰며, 70–74 kb는 PaV1·CmV1·DhV1 세 바이러스를 합친 범위"
+  },
+  {
+   "where": "sections.safety",
+   "before": "소포자충(Ameson속) 감염 개체는",
+   "after": "소포자충(Ameson속으로 보이는 종) 감염 개체는",
+   "why": "[14] 은 포자 형태가 Ameson속과 '일치한다(consistent with)'고만 씀"
+  },
+  {
+   "where": "sections.safety",
+   "before": "근육의 금속결합단백질은 카드뮴에 노출되어도 근육에서는 늘지 않았고 간췌장에서 주로 해독 역할을 하는 것으로 보였다[22].",
+   "after": "조직 절편을 카드뮴에 노출한 실험에서 금속결합단백질(MTPA) mRNA는 근육을 뺀 조직에서 늘었고, 연구진은 간췌장의 MTPA가 카드뮴 해독에 중요한 역할을 할 것으로 보았다[22].",
+   "why": "[22] 은 조직 절편(explant)의 mRNA 실험이며 '해독 역할'은 추정(likely)으로 씀"
+  },
+  {
+   "where": "compounds.Glycogen.part",
+   "before": "근육(복부)",
+   "after": "근육",
+   "why": "[19] 전문은 'muscle'로만 적고 복부 근육이라고 특정하지 않음"
+  },
+  {
+   "where": "compounds.Glycogen.content_text",
+   "before": "근육 1.22 ± 0.18 mg/g 건물(생선살 먹인 대조군, 24시간 뒤); 탄수화물 35% 사료군 4.12 ± 1.04 mg/g 건물 [19]",
+   "after": "근육 1.22 ± 0.18 mg/g 건물 기준(생선살 먹인 대조군, 24시간 뒤); 탄수화물 35% 사료군 4.12 ± 1.04 mg/g 건물 기준 (평균±SEM, n=6) [19]",
+   "why": "[19] 표 3: 건물 기준, 평균±SEM(n=6)"
+  },
+  {
+   "where": "compounds.Glycogen.activity_ko",
+   "before": "사료 탄수화물이 많을수록 근육 글리코겐이 늘었으나, 탈피 사이 개체의 글리코겐 저장·이용 능력은 낮았다[19, 30]",
+   "after": "근육 글리코겐은 탄수화물 35% 사료군에서 가장 높았고, 탈피 사이 개체의 글리코겐 저장·이용 능력은 낮다고 보고되었다[19, 30]",
+   "why": "[19] 표 3에서 6% 사료군(0.60)은 생선살 대조군(1.22)보다 낮아 '많을수록 늘었다'는 단조 증가가 아님"
+  },
+  {
+   "where": "compounds.Glucose.part",
+   "before": "근육(복부)",
+   "after": "근육",
+   "why": "[19] 전문은 'muscle'로만 적고 복부 근육이라고 특정하지 않음"
+  },
+  {
+   "where": "compounds.Glucose.content_text",
+   "before": "근육 18.48 ± 4.84 mg/g 건물(생선살 대조군) [19]",
+   "after": "근육 18.48 ± 4.84 mg/g 건물 기준(생선살 대조군) (평균±SEM, n=6) [19]",
+   "why": "[19] 표 3: 건물 기준, 평균±SEM(n=6)"
+  },
+  {
+   "where": "compounds.Amino acids.part",
+   "before": "근육(복부)",
+   "after": "근육",
+   "why": "[19] 전문은 'muscle'로만 적고 복부 근육이라고 특정하지 않음"
+  },
+  {
+   "where": "compounds.Amino acids.content_text",
+   "before": "근육 23.04 ± 4.72 mg/g 건물(생선살 대조군, L-알라닌 환산) [19]",
+   "after": "근육 23.04 ± 4.72 mg/g 건물 기준(생선살 대조군, L-알라닌 환산) (평균±SEM, n=6) [19]",
+   "why": "[19] 표 3: 건물 기준, 평균±SEM(n=6)"
+  },
+  {
+   "where": "compounds.Triglyceride.part",
+   "before": "근육(복부)·간췌장",
+   "after": "근육·간췌장",
+   "why": "[19] 전문은 'muscle'로만 적고 복부 근육이라고 특정하지 않음"
+  },
+  {
+   "where": "compounds.Triglyceride.content_text",
+   "before": "근육 3.14 ± 0.31 mg/g 건물, 간췌장(소화샘) 73.70 ± 9.53 mg/g 건물(생선살 대조군) [19]",
+   "after": "근육 3.14 ± 0.31 mg/g 건물 기준, 간췌장(소화샘) 73.70 ± 9.53 mg/g 건물 기준(생선살 대조군) (평균±SEM, n=6) [19]",
+   "why": "[19] 표 3: 건물 기준, 평균±SEM(n=6)"
+  },
+  {
+   "where": "compounds.Lactic acid.part",
+   "before": "근육(복부)",
+   "after": "근육",
+   "why": "[19] 전문은 'muscle'로만 적고 복부 근육이라고 특정하지 않음"
+  },
+  {
+   "where": "compounds.Lactic acid.content_text",
+   "before": "근육 5.18 ± 0.89 mg/g 건물(생선살 대조군) [19]",
+   "after": "근육 5.18 ± 0.89 mg/g 건물 기준(생선살 대조군) (평균±SEM, n=6) [19]",
+   "why": "[19] 표 3: 건물 기준, 평균±SEM(n=6)"
+  },
+  {
+   "where": "compounds.Lactic acid.activity_ko",
+   "before": "꼬리 근육은 무산소 순간 수축에 쓰여 해당 대사산물이 쌓인다[19, 20]",
+   "after": "근육 젖산은 사료군 사이에 유의한 차이가 없었다[19]; 복부 근육은 무산소 순간 수축에 쓰인다[20]",
+   "why": "'해당 대사산물이 쌓인다'는 [19]·[20] 어디에도 없는 추론"
+  },
+  {
+   "where": "assays.Glycogen.part",
+   "before": "근육(복부)·소화샘, 동결건조 시료",
+   "after": "근육·소화샘, 동결건조 시료",
+   "why": "[19] 전문은 근육 부위를 특정하지 않음"
+  },
+  {
+   "where": "assays.Glycogen.content",
+   "before": "근육 1.22 ± 0.18 mg/g 건물(생선살 대조군), 0.60–4.12 mg/g 건물(탄수화물 6–35% 사료군) [19]",
+   "after": "근육 1.22 ± 0.18 mg/g 건물(생선살 대조군), 0.60–4.12 mg/g 건물(탄수화물 6–35% 사료군), 평균±SEM, n=6 [19]",
+   "why": "[19] 표 3: 평균±SEM, 사료군당 6마리"
+  },
+  {
+   "where": "assays.Amino acids (free).part",
+   "before": "근육(복부)·소화샘·혈림프",
+   "after": "근육·소화샘·혈림프",
+   "why": "[19] 전문은 근육 부위를 특정하지 않음"
+  },
+  {
+   "where": "assays.Amino acids (free).content",
+   "before": "근육 23.04 ± 4.72 mg/g 건물(생선살 대조군) [19]",
+   "after": "근육 23.04 ± 4.72 mg/g 건물(생선살 대조군), 평균±SEM, n=6 [19]",
+   "why": "[19] 표 3: 평균±SEM, 사료군당 6마리"
+  },
+  {
+   "where": "assays.Triglyceride.part",
+   "before": "근육(복부)·소화샘·혈림프",
+   "after": "근육·소화샘·혈림프",
+   "why": "[19] 전문은 근육 부위를 특정하지 않음"
+  },
+  {
+   "where": "assays.Triglyceride.content",
+   "before": "근육 3.14 ± 0.31 mg/g 건물, 소화샘 73.70 ± 9.53 mg/g 건물(생선살 대조군) [19]",
+   "after": "근육 3.14 ± 0.31 mg/g 건물, 소화샘 73.70 ± 9.53 mg/g 건물(생선살 대조군), 평균±SEM, n=6 [19]",
+   "why": "[19] 표 3: 평균±SEM, 사료군당 6마리"
+  },
+  {
+   "where": "sources[18].title",
+   "before": "Detection of Panulirus argus Virus 1 (PaV1) in exported frozen tails of subadult-adult Caribbean spiny lobsters Panulirus argus. Dis Aquat Organ 2009",
+   "after": "Detection of Panulirus argus Virus 1 (PaV1) in exported frozen tails of subadult-adult Caribbean spiny lobsters Panulirus argus. Dis Aquat Organ 2009;86(2):159-62",
+   "why": "PubMed 19902844 서지에 권·호·쪽 보완"
+  }
+ ],
+ "unverifiable_notes": [
+  "[24] PubMed 도구가 반환한 PMC 전문에서 학명이 지워져 'lobster () chitin'으로만 보임. MeSH(Palinuridae)와 선행 연구 [23](P. argus 키틴)를 인용한 점으로 같은 기원으로 보고 유지함",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 원자료 행(카리브닭새우, Panulirus argus, 수산물, 사용가능, 부위 '-', 사용조건 없음, 별칭·영문명 Caribbean spiny lobster)과 대조해 card.json·overview와 일치함. 같은 목록의 P. cygnus·P. gracilis는 영문 원료명(Australian/Green spiny lobster)으로 올라 있어 related_species 서술과 맞음",
+  "PubMed 재검색: 'Panulirus argus' AND (tropomyosin OR allergen OR allergy) 0건, AND (ciguatera OR ciguatoxin) 0건 — safety 절의 '확인하지 못함' 유지, 근연종 자료는 섞지 않음",
+  "[19] PMC 전문 표 3과 compounds·assays 수치(건물 기준 mg/g) 모두 일치 확인, 바타바노만·약 250 g·20% 한계 확인",
+  "NCBI eutils·doi.org 등은 네트워크 허용 목록 밖이라 열지 않음. 33개 출처 모두 PubMed 메타데이터(PMID·DOI·권호)로 대조"
+ ]
+}

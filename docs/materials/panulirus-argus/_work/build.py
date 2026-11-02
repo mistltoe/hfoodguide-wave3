@@ -1,0 +1,136 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, journal, pmid, pmc=None):
+    pub = f"{journal} (PubMed {pmid}" + (f", {pmc})" if pmc else ")")
+    return {"n": n, "title": title, "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": pub, "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 카리브닭새우(Panulirus argus) 항목(원자료 I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "The complete mitochondrial genome of the Caribbean spiny lobster Panulirus argus. Sci Rep 2018;8:17690", "10.1038/s41598-018-36132-6", "Scientific Reports", "30523272", "PMC6283867"),
+ pm(3, "Genome survey sequencing of the Caribbean spiny lobster: Genome size, nuclear rRNA operon, repetitive elements, and microsatellite discovery. PeerJ 2020;8:e10554", "10.7717/peerj.10554", "PeerJ", "33362980", "PMC7750000"),
+ pm(4, "Yes, we can use it: a formal test on the accuracy of low-pass nanopore long-read sequencing for mitophylogenomics and barcoding research using the Caribbean spiny lobster Panulirus argus. BMC Genomics 2020;21:882", "10.1186/s12864-020-07292-5", "BMC Genomics", "33297960", "PMC7726883"),
+ pm(5, "Caribbean Spiny Lobster Fishery Is Underpinned by Trophic Subsidies from Chemosynthetic Primary Production. Curr Biol 2016;26(24):3393-3398", "10.1016/j.cub.2016.10.034", "Current Biology", "27939312"),
+ pm(6, "Conserving spawning stocks through harvest slot limits and no-take protected areas. Conserv Biol 2020;34(6):1492-1502", "10.1111/cobi.13535", "Conservation Biology", "32390269"),
+ pm(7, "Panulirus argus virus 1 (PaV1) infection prevalence and risk factors in a Mexican lobster fishery employing casitas. Dis Aquat Organ 2013;107(2):87-97", "10.3354/dao02676", "Diseases of Aquatic Organisms", "24334351"),
+ pm(8, "The cost of decompression illness: the case of lobster and sea cucumber fishery in Yucatan, Mexico. Undersea Hyperb Med 2018;45:531-539", None, "Undersea & Hyperbaric Medicine", "30428242"),
+ pm(9, "Do ecological characteristics drive the prevalence of Panulirus argus virus 1 (PaV1) in juvenile Caribbean spiny lobsters in a tropical reef lagoon? PLoS One 2020;15(2):e0229827", "10.1371/journal.pone.0229827", "PLoS One", "32109265", "PMC7048287"),
+ pm(10, "Reconstruction of larval origins based on genetic relatedness and biophysical modeling. Sci Rep 2019;9:7100", "10.1038/s41598-019-43435-9", "Scientific Reports", "31068625", "PMC6506592"),
+ pm(11, "Recognizing Panulirus meripurpuratus sp. nov. (Decapoda: Palinuridae) in Brazil — Systematic and biogeographic overview of Panulirus species in the Atlantic Ocean. Zootaxa 2016;4107(3):353-66", "10.11646/zootaxa.4107.3.4", "Zootaxa", "27394825"),
+ pm(12, "Neurolipofuscin is a measure of age in Panulirus argus, the Caribbean spiny lobster, in Florida. Biol Bull 2007;213(1):55-66", "10.2307/25066618", "The Biological Bulletin", "17679720"),
+ pm(13, "Proximate control of diel vertical migration in Phyllosoma larvae of the Caribbean spiny lobster Panulirus argus. Biol Bull 2010;219(3):207-19", "10.1086/BBLv219n3p207", "The Biological Bulletin", "21183442"),
+ pm(14, "Microsporidiosis in the Caribbean spiny lobster Panulirus argus from southeast Florida, USA. Dis Aquat Organ 2009;84(3):237-42", "10.3354/dao02046", "Diseases of Aquatic Organisms", "19565701"),
+ pm(15, "Post-mortem examination of the Caribbean spiny lobster (Panulirus argus, Latreille 1804) and pathology in a fishery of the Lesser Antilles. J Invertebr Pathol 2020;175:107453", "10.1016/j.jip.2020.107453", "Journal of Invertebrate Pathology", "32798534"),
+ pm(16, "The effect of the egg-predator Carcinonemertes conanobrieni on the reproductive performance of the Caribbean spiny lobster Panulirus argus. BMC Zool 2023;8:6", "10.1186/s40850-023-00165-w", "BMC Zoology", "37357313", "PMC10291781"),
+ pm(17, "Social attraction to a predatory black hole: A natural ecological trap for lobsters. Proc Natl Acad Sci U S A 2026;123(1):e2527644123", "10.1073/pnas.2527644123", "PNAS", "41481433", "PMC12773703"),
+ pm(18, "Detection of Panulirus argus Virus 1 (PaV1) in exported frozen tails of subadult-adult Caribbean spiny lobsters Panulirus argus. Dis Aquat Organ 2009", "10.3354/dao02117", "Diseases of Aquatic Organisms", "19902844"),
+ pm(19, "Carbohydrates digestion and metabolism in the spiny lobster (Panulirus argus): biochemical indication for limited carbohydrate utilization. PeerJ 2017;5:e3975 (전문 확인)", "10.7717/peerj.3975", "PeerJ", "29114440", "PMC5672836"),
+ pm(20, "Metabolite diffusion in giant muscle fibers of the spiny lobster Panulirus argus. J Exp Biol 2002;205(Pt 21):3377-86", "10.1242/jeb.205.21.3377", "Journal of Experimental Biology", "12324547"),
+ pm(21, "Hemocyanin-derived phenoloxidase activity in the spiny lobster Panulirus argus (Latreille, 1804). Biochim Biophys Acta 2008;1780(4):652-8", "10.1016/j.bbagen.2008.01.001", "Biochimica et Biophysica Acta", "18241679"),
+ pm(22, "Cloning, tissue expression and metal inducibility of an ubiquitous metallothionein from Panulirus argus. Gene 2005;361:140-8", "10.1016/j.gene.2005.07.026", "Gene", "16185828"),
+ pm(23, "Effects of spray drying on physicochemical properties of chitosan acid salts. AAPS PharmSciTech 2011;12(2):637-49", "10.1208/s12249-011-9620-3", "AAPS PharmSciTech", "21560022", "PMC3134675"),
+ pm(24, "Spray Drying of Chitosan Acid Salts: Process Development, Scaling Up and Physicochemical Material Characterization. Mar Drugs 2021;19(6):329", "10.3390/md19060329", "Marine Drugs", "34204083", "PMC8227199"),
+ pm(25, "Isolation, ultrastructure, and partial characterization of collagen from the perineurium of the Florida lobster, Panulirus argus. Biochem Cell Biol 1991;69(8):531-6", "10.1139/o91-078", "Biochemistry and Cell Biology", "1760157"),
+ pm(26, "The trypsin inhibitor panulirin regulates the prophenoloxidase-activating system in the spiny lobster Panulirus argus. J Biol Chem 2013;288(44):31867-79", "10.1074/jbc.M113.464297", "Journal of Biological Chemistry", "24047891", "PMC3814779"),
+ pm(27, "Defensin like peptide from Panulirus argus relates structurally with beta defensin from vertebrates. Fish Shellfish Immunol 2012;33(4):872-9", "10.1016/j.fsi.2012.07.013", "Fish & Shellfish Immunology", "22885029"),
+ pm(28, "Trypsin isozymes in the lobster Panulirus argus (Latreille, 1804): from molecules to physiology. J Comp Physiol B 2015;185(1):17-35", "10.1007/s00360-014-0851-y", "Journal of Comparative Physiology B", "25192870"),
+ pm(29, "Morphometric relationships and seasonal variation in size, weight, and a condition index of post-settlement stages of the Caribbean spiny lobster. PeerJ 2018;6:e5297", "10.7717/peerj.5297", "PeerJ", "30065884", "PMC6063251"),
+ pm(30, "A holistic view of dietary carbohydrate utilization in lobster: digestion, postprandial nutrient flux, and metabolism. PLoS One 2014;9(9):e108875", "10.1371/journal.pone.0108875", "PLoS One", "25268641", "PMC4182579"),
+ pm(31, "A New Family of DNA Viruses Causing Disease in Crustaceans from Diverse Aquatic Biomes. mBio 2020;11(1):e02938-19", "10.1128/mBio.02938-19", "mBio", "31937645", "PMC6960288"),
+ pm(32, "Competition with stone crabs drives juvenile spiny lobster abundance and distribution. Oecologia 2017;184(1):205-218", "10.1007/s00442-017-3844-1", "Oecologia", "28247130"),
+ pm(33, "[Phenotypic variation of Panulirus argus (Decapoda: Palinuridae) in Southwest Caribbean]. Rev Biol Trop 2016;64(3):975-90", None, "Revista de Biología Tropical", "29461764"),
+]
+
+secs = [
+("overview", "한눈에 보기", """카리브닭새우(Panulirus argus, 영문 Caribbean spiny lobster)는 닭새우과(Palinuridae)에 드는 바다 갑각류다[1, 2]. 식약처 「식품원료 목록」에는 대표 원료명 '카리브닭새우'로 한 줄만 올라 있고, 분류는 수산물, 상태는 '사용가능'이다[1]. 사용 부위는 '-'(따로 정하지 않음)로 적혀 있고 별도의 사용 조건 문구는 없다[1]. 목록의 별칭과 영문명은 모두 'Caribbean spiny lobster'이다[1].
+
+이 종은 대카리브 지역에서 가장 수익성이 큰 어업의 대상이며, 생태계에서 핵심종으로 평가된다[2, 3]. 중미 지역에서는 약 5만 명을 직접 고용하고 해마다 4억 5천만 달러가 넘는 가치를 만드는 수산물로 소개되었다[5]. 남획이 우려되는 자원이어서 자원 관리와 유통 단계의 종 판별 연구가 활발하다[2, 4, 6].
+
+건강기능식품 고시형 원료의 원재료가 아니어서 식약처가 정한 지표성분과 기능성은 없다[1]. 국내 생산 통계와 국가표준식품성분표의 이 종 성분값은 확인하지 못함."""),
+("history", "이용 역사", """카리브닭새우는 1804년 Latreille가 기재한 종으로, 옛 문헌에서는 'Florida lobster'라는 이름으로도 불렸다[15, 25]. 이 종을 먹어 온 지역의 구체적 식문화 역사를 정리한 공공기관 자료는 확인하지 못함.
+
+현대에는 카리브 연안국의 대표 수출 수산물로, 바하마는 이 지역에서 랍스터를 가장 많이 수출하는 나라로 소개된다[5]. 바하마의 넓은 얕은 바다 해초밭에서는 어민들이 부족한 암초 은신처를 보충하려고 인공 은신처를 놓고 랍스터를 모은다[5]. 멕시코 바이아 데 라 아센시온의 어업도 '카시타(casita)'라는 인공 은신처를 널리 쓰는 방식에 기반한다[7].
+
+냉동 꼬리(tail) 형태의 국제 거래는 중요한 산업으로 언급되며, 벨리즈에서 멕시코로 수출된 냉동 꼬리를 조사한 연구도 있다[18]. 멕시코 유카탄에서는 잠수 어업으로 이 종을 잡아 왔으며, 2013–2016년 사이 해삼과 랍스터 잠수 어업에서 감압병 치료를 받은 어민이 282명이었고 그중 116명이 랍스터 어기에 발생했다[8]."""),
+("biology", "종·형태·생태", """카리브닭새우는 대카리브와 멕시코만에 분포하며, 얕은 바다의 단단한 바닥과 산호초 환경에서 생태적으로 중요한 종이다[3, 16]. 유생기는 바다에서 오래 떠다니는 필로소마(phyllosoma) 단계로, 낮에는 깊은 곳에, 밤에는 표층 가까이 머무는 일주 수직 이동을 한다[13]. 마지막 유생은 먹이를 먹지 않는 후기유생(퓨에룰루스)으로 변태해 연안으로 헤엄쳐 와 정착하고, 첫 탈피 뒤 어린 개체가 되어서야 다시 먹이를 먹는다[29].
+
+어린 개체는 무리 짓는 습성이 있어 큰 동종 개체의 냄새에 끌려 은신처를 고르는데, 이 냄새 때문에 포식어 레드그루퍼(red grouper)가 숨어 있는 바위 구멍으로 유인되어 작은 개체의 사망률이 30% 높아지는 '생태적 함정'이 보고되었다[17]. 플로리다키스에서는 돌게(Menippe mercenaria)와 은신처를 두고 경쟁해 지는 쪽이며, 돌게가 늘면 랍스터 수가 곧바로 줄었다[32].
+
+바하마 개체의 먹이를 안정동위원소로 분석한 결과 평균 약 20%가 해초 뿌리 사이에 사는 루시나과 조개(화학합성 세균 공생)에서 왔다[5]. 실험실에서 나이를 아는 개체로 측정한 신경 리포푸신 축적 결과는 최대 수명을 약 20년으로 보았고, 성장은 3년 뒤부터 점근선에 가까워졌다[12]. 콜롬비아 산안드레스 제도 집단에서는 흉판 형태가 성별과 해양 조건에 따라 달랐다[33]."""),
+("related_species", "관련 종·이름", """식약처 「식품원료 목록」에는 닭새우속(Panulirus)의 여러 종이 각각 별도 원료로 올라 있으며, 카리브닭새우는 그중 학명 Panulirus argus 한 종만 가리킨다[1]. 같은 목록에는 닭새우(P. japonicus), 가지뿔닭새우(P. penicillatus), 왕닭새우(P. regius), 흰줄닭새우(P. versicolor) 같은 국명 원료와 P. cygnus, P. gracilis처럼 영문명으로만 오른 원료가 따로 있다[1]. 이름이 비슷해도 종마다 따로 등재되어 있으므로 원료를 확인할 때는 학명을 함께 보아야 한다[1].
+
+예전에 브라질 바다의 개체도 P. argus로 불렸으나, 유전 분석으로 아마존·오리노코강 유출수를 경계로 두 종으로 나뉜다는 결과가 나와 브라질 집단은 2016년 새 종 P. meripurpuratus로 기재되었다[11]. 따라서 좁은 의미의 P. argus는 이 경계 북쪽(카리브해·북미 연안)에 사는 집단을 가리킨다[11].
+
+미토콘드리아 단백질 암호 유전자 13개로 만든 계통수는 이 종이 속한 아켈라타(Achelata) 하목의 단계통성을 지지했다[2]. 나노포어 장독 서열로 조립한 미토콘드리아 유전체와 cox1 조각만으로도 같은 속·과의 근연종과 구별할 수 있었다[4]."""),
+("cultivation", "어획·자원", """카리브닭새우는 카리브 지역에서 가장 중요한 상업 종이며, 세계에서 가장 큰 닭새우 어업을 이룬다[10, 15]. 어업에는 인공 은신처(카시타)를 쓰는 방식과 잠수 어업 등이 있으며, 멕시코 유카탄의 소규모 어업처럼 잠수 어업에서는 감압병 같은 직업적 위해가 함께 나타난다[7, 8]. 유카탄의 2013–2016년 감압병 직접 의료비는 해삼 어업을 합쳐 120,269달러로 추산되었다[8].
+
+자원은 카리브 전역에서 집중적으로 잡혀 많은 곳에서 크고 성숙한 개체가 사라졌다고 보고되었다[6]. 30% 금어 보호구역과 75–105 mm 포획 크기 구간(최소·최대 크기 제한)을 함께 적용한 모델에서는 30년 뒤 산란 개체가 현 상태보다 크게 늘었다[6]. 플로리다키스로 정착하는 유생은 도미니카공화국, 벨리즈, 니카라과 등 다른 나라 수역에서도 올 수 있어 국경을 넘는 관리가 필요하다고 지적되었다[10].
+
+인공 은신처는 개체를 모아 전염을 키울 수 있다는 우려가 있었으나, 멕시코 연구에서 PaV1 바이러스 감염률은 은신처 밀집보다 해역 환경에 따라 달랐다[7]. 쿠바 바타바노만에서 잡은 약 250 g 개체를 사료로 키우는 실험에서는 사료 탄수화물을 20%보다 늘려도 이용 효율이 더 좋아지지 않았다[19]. 국내 어획·양식 통계와 세계 어획량(FAO) 값은 확인하지 못함."""),
+("processing", "가공·이용", """이 종의 냉동 꼬리(복부 근육) 거래는 중요한 산업으로 소개된다[18]. 벨리즈에서 멕시코로 수출된 냉동 꼬리 22개 가운데 11개의 복부 근육에서 PaV1 바이러스 유전자가 검출되었는데, 이는 수산물 거래에서 이 바이러스를 처음 확인한 사례였다[18]. 유통 단계에서 다른 종을 섞거나 이름을 바꿔 파는 문제를 막으려고, 휴대형 나노포어 장비로 현장에서 종을 판별하는 방법도 제안되었다[4].
+
+껍데기의 키틴은 탈아세틸화해 키토산을 만드는 원료로 쓰였고, 이 키토산을 아세트산·젖산·시트르산에 녹여 분무건조하면 무정형의 키토산 산염 분말이 되었다[23]. 후속 연구에서는 같은 기원의 고분자량 키토산으로 의약품 첨가제용 수용성 산염을 만들었으며, 입구·출구 공기 온도 160/100 ℃가 최적이었고 수율은 50–99%였다[24].
+
+먹는 살(복부 근육)은 탈출할 때 순간적으로 꼬리를 치는 무산소 운동에 쓰이는 근육이며, 지름이 수백 μm를 넘는 거대 근섬유로 이루어진다[20]. 이 근육에는 아르기닌인산과 베타인이 있어 핵자기공명으로 관측되었다[20]. 사료를 먹인 개체 근육의 글리코겐·유리아미노산·중성지방 함량을 잰 연구가 있으나 식품으로서의 영양성분표 값은 확인하지 못함."""),
+("genetics", "유전 정보", """카리브닭새우의 미토콘드리아 유전체는 15,739 bp로 단백질 암호 유전자 13개, rRNA 유전자 2개, tRNA 유전자 22개를 지니며, 801 bp의 유전자 사이 구간이 D-루프로 추정되었다[2]. 유전자 배열은 범갑각류의 기본형과 같았고 모든 단백질 암호 유전자가 정화 선택을 받고 있었다[2].
+
+k-mer 분석으로 추정한 반수체 핵 유전체 크기는 2.17 Gbp이고, 반복 서열이 69.02%를 차지했다[3]. 핵 리보솜 오페론은 18S(1,875 bp), ITS1(736 bp), 5.8S(162 bp), ITS2(1,314 bp), 28S(5,387 bp) 순으로 이루어졌고 미세부수체(SSR) 1,281개가 확인되었다[3]. 저심도 나노포어 서열만으로도 정확도가 높은 미토콘드리아 유전체를 조립할 수 있었다[4].
+
+플로리다키스 정착 유생과 카리브 성체의 유전형 분석은 도미니카공화국·벨리즈·니카라과·플로리다 사이의 강한 유생 연결성을 보였다[10]. 소화효소 트립신은 다형성 효소로, 동형효소들이 먹이 단백질에 따라 다르게 조절되고 일부는 적응 진화를 겪은 것으로 해석되었다[28]. 금속결합단백질(MTPA) 유전자는 59개 아미노산(시스테인 19개)을 암호화한다[22]. 이 종에만 감염하는 PaV1 바이러스의 유전체는 70–74 kb 크기의 새 바이러스과(Mininucleoviridae)로 분류가 제안되었다[31]."""),
+("safety", "안전성", """식약처 「식품원료 목록」에서 카리브닭새우는 별도 조건 없는 '사용가능' 수산물 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 이 종을 따로 다룬 국내 공공기관의 알레르기·잔류물질·독성 안전 정보는 확인하지 못함.
+
+갑각류 알레르기의 주요 원인 단백질인 트로포미오신에 대해, 이 종(P. argus)의 알레르겐을 다룬 논문은 PubMed에서 확인하지 못함(검색어 'Panulirus argus' AND tropomyosin/allergen 0건). 시구아테라(산호초 어류 독) 관련 이 종의 검출·중독 자료도 PubMed에서 확인하지 못함(검색어 'Panulirus argus' AND ciguatera 0건). 따라서 일반 갑각류 알레르기 정보를 이 종 자료로 대신 적지 않았으며, 갑각류 알레르기가 있는 사람은 다른 갑각류와 마찬가지로 주의가 필요한지 공공기관 안내로 따로 확인해야 한다는 점만 남긴다(이 종 근거는 확인하지 못함).
+
+이 종의 질병 연구로는 PaV1 바이러스가 있는데, 이 바이러스는 카리브닭새우에만 감염하는 것으로 알려져 있다[9, 31]. 소포자충(Ameson속) 감염 개체는 꼬리 근육이 익은 것처럼 하얗게 보이며, 소앤틸리스 어업 개체 313마리 조사에서 그 비율은 0.6%였다[14, 15]. 근육의 금속결합단백질은 카드뮴에 노출되어도 근육에서는 늘지 않았고 간췌장에서 주로 해독 역할을 하는 것으로 보였다[22]. 이 종 가식부의 중금속 함량 자료는 확인하지 못함."""),
+]
+
+compounds = [
+ {"name": "Glycogen", "name_ko": "글리코겐", "class": "다당류(저장 탄수화물)", "role": "nutrient", "part": "근육(복부)", "content_text": "근육 1.22 ± 0.18 mg/g 건물(생선살 먹인 대조군, 24시간 뒤); 탄수화물 35% 사료군 4.12 ± 1.04 mg/g 건물 [19]", "activity_ko": "사료 탄수화물이 많을수록 근육 글리코겐이 늘었으나, 탈피 사이 개체의 글리코겐 저장·이용 능력은 낮았다[19, 30]", "source": [19, 30]},
+ {"name": "Glucose", "name_ko": "유리 포도당", "class": "단당류", "role": "nutrient", "part": "근육(복부)", "content_text": "근육 18.48 ± 4.84 mg/g 건물(생선살 대조군) [19]", "activity_ko": "근육의 유리 포도당은 사료 탄수화물 수준에 따라 유의하게 달라지지 않았다[19]", "source": [19]},
+ {"name": "Amino acids", "name_ko": "유리아미노산", "class": "아미노산(총량, 닌히드린법)", "role": "nutrient", "part": "근육(복부)", "content_text": "근육 23.04 ± 4.72 mg/g 건물(생선살 대조군, L-알라닌 환산) [19]", "activity_ko": "근육 유리아미노산 총량은 사료군 사이에 차이가 없었다[19]", "source": [19]},
+ {"name": "Triglyceride", "name_ko": "중성지방", "class": "지질", "role": "nutrient", "part": "근육(복부)·간췌장", "content_text": "근육 3.14 ± 0.31 mg/g 건물, 간췌장(소화샘) 73.70 ± 9.53 mg/g 건물(생선살 대조군) [19]", "activity_ko": "지방은 주로 소화샘에 저장되며 근육 함량은 낮았다[19]", "source": [19]},
+ {"name": "Lactic acid", "name_ko": "젖산", "class": "유기산(해당 대사산물)", "role": "bioactive", "part": "근육(복부)", "content_text": "근육 5.18 ± 0.89 mg/g 건물(생선살 대조군) [19]", "activity_ko": "꼬리 근육은 무산소 순간 수축에 쓰여 해당 대사산물이 쌓인다[19, 20]", "source": [19, 20]},
+ {"name": "Phosphoarginine", "name_ko": "아르기닌인산", "class": "포스파젠(고에너지 인산 화합물)", "role": "bioactive", "part": "근육(복부 거대 근섬유)", "content_text": "31P-NMR로 관측(함량 값은 초록에 없음) [20]", "activity_ko": "갑각류 근육의 에너지 완충 물질로, 근섬유 안에서의 확산 속도가 수축 뒤 회복을 제한할 수 있다[20]", "source": [20]},
+ {"name": "Betaine", "name_ko": "베타인", "class": "4급 암모늄 삼투조절물질", "role": "bioactive", "part": "근육(복부)", "content_text": "1H-NMR로 관측(함량 값은 초록에 없음) [20]", "activity_ko": "근육 속 저분자 대사물로 확산 계수 측정에 쓰였다[20]", "source": [20]},
+ {"name": "Hemocyanin", "name_ko": "헤모시아닌", "class": "구리 함유 산소운반 단백질", "role": "bioactive", "part": "혈림프", "content_text": "정제 헤모시아닌 450 kDa(6량체), 단량체 77·80·89 kDa [21]", "activity_ko": "SDS나 트립신 처리 뒤 카테콜산화효소(페놀산화효소) 활성을 보였다[21]", "source": [21]},
+ {"name": "Chitin", "name_ko": "키틴(키토산 원료)", "class": "아미노다당류", "role": "bioactive", "part": "껍데기(외골격)", "content_text": "함량은 확인하지 못함; 탈아세틸화한 키토산 산염 분무건조 수율 50–99% [24]", "activity_ko": "키토산으로 바꿔 의약품 첨가제용 수용성 산염 원료로 연구되었다[23, 24]", "source": [23, 24]},
+ {"name": "Collagen", "name_ko": "콜라겐(신경초막)", "class": "구조 단백질", "role": "bioactive", "part": "신경 둘레막", "content_text": "단백질 약 84%, 탄수화물 약 15%; 글리신 279 잔기/1000 [25]", "activity_ko": "척추동물 I형 콜라겐과 비슷한 전기영동 띠를 보였다[25]", "source": [25]},
+ {"name": "Metallothionein", "name_ko": "금속결합단백질(MTPA)", "class": "시스테인 풍부 단백질", "role": "bioactive", "part": "간췌장·장·신경·근육", "content_text": "59개 아미노산 중 시스테인 19개; mRNA는 간췌장에서 가장 많고 근육·신경에서 가장 적음 [22]", "activity_ko": "카드뮴 해독과 아연 항상성에 관여하는 것으로 보였다[22]", "source": [22]},
+ {"name": "Panulirin", "name_ko": "파눌리린(트립신 억제 펩타이드)", "class": "양이온성 펩타이드(48 잔기, 5.3 kDa)", "role": "bioactive", "part": "혈구", "content_text": "트립신 억제 상수 Ki = 8.6 nM [26]", "activity_ko": "멜라닌화 연쇄반응의 페놀산화효소 활성화를 조절한다[26]", "source": [26]},
+ {"name": "Defensin", "name_ko": "디펜신 유사 펩타이드", "class": "항균 펩타이드(44 잔기)", "role": "bioactive", "part": "혈구", "content_text": "성숙 펩타이드 44개 아미노산, 동형 2종 [27]", "activity_ko": "척추동물 β-디펜신과 구조가 비슷한 선천면역 펩타이드다[27]", "source": [27]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Glycogen", "compound_ko": "글리코겐", "part": "근육(복부)·소화샘, 동결건조 시료",
+  "content": "근육 1.22 ± 0.18 mg/g 건물(생선살 대조군), 0.60–4.12 mg/g 건물(탄수화물 6–35% 사료군) [19]",
+  "method": "효소법(아밀로글루코시다아제 분해 후 포도당 정량, 상용 키트)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "아밀로글루코시다아제로 분해해 생긴 포도당을 상용 키트(Spinreact)로 측정", "injection": "",
+   "sample_prep": "급식 24시간 뒤 얼음물에서 도살, 근육·소화샘을 액체질소로 얼려 동결건조; 약 20 mg을 물 1 mL에 균질화 후 10,000×g, 4 ℃, 30분 원심분리한 상층액 사용", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 종 근육(가식부)의 저장 탄수화물로, 사료 탄수화물 수준에 따른 대사 변화를 비교하는 지표로 쓰였다. 원문은 키트 이름까지만 적고 검출 파장·검출한계·회수율은 적지 않았다[19].",
+  "source": [19], "url": "https://doi.org/10.7717/peerj.3975", "source_kind": "paper"},
+ {"role": "literature", "compound": "Amino acids (free)", "compound_ko": "유리아미노산(총량)", "part": "근육(복부)·소화샘·혈림프",
+  "content": "근육 23.04 ± 4.72 mg/g 건물(생선살 대조군) [19]",
+  "method": "닌히드린 비색법",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "닌히드린 발색(비색)", "injection": "",
+   "sample_prep": "동결건조 조직 약 20 mg을 물 1 mL에 균질화, 10,000×g, 4 ℃, 30분 원심분리한 상층액", "standard": "L-알라닌", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "단백질 이화 정도를 보는 대사 지표로 쓰였다(개별 아미노산 분석이 아니라 총량)[19].",
+  "source": [19], "url": "https://doi.org/10.7717/peerj.3975", "source_kind": "paper"},
+ {"role": "literature", "compound": "Triglyceride", "compound_ko": "중성지방", "part": "근육(복부)·소화샘·혈림프",
+  "content": "근육 3.14 ± 0.31 mg/g 건물, 소화샘 73.70 ± 9.53 mg/g 건물(생선살 대조군) [19]",
+  "method": "효소 비색 키트(TAG, Spinreact)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "상용 키트 TAG(Spinreact)", "injection": "",
+   "sample_prep": "동결건조 조직 약 20 mg을 물 1 mL에 균질화하고 원심분리 전에 일부를 덜어 측정", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "지방 저장 부위(소화샘)와 근육의 지질 상태를 비교하는 지표로 쓰였다[19].",
+  "source": [19], "url": "https://doi.org/10.7717/peerj.3975", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "panulirus-argus", "name_ko": "카리브닭새우", "name_en": "Caribbean spiny lobster", "scientific_name": "Panulirus argus",
+ "aliases": ["Caribbean spiny lobster", "Florida lobster", "Panulirus argus (Latreille, 1804)"],
+ "sections": [{"key": k, "title": t, "body": b} for k, t, b in secs],
+ "compounds": compounds, "markers": [], "assays": assays, "nutrients": [], "production": [], "world": [], "gi": [], "orgs": [],
+ "sources": S,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in d["sections"]:
+    print(s["key"], len(s["body"]))

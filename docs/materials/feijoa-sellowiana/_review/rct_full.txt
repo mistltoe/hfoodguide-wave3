@@ -1,0 +1,1223 @@
+1
+
+Introduction
+
+Type 2 diabetes (T2D), which comprises 90%–95% of all diabetes cases [], has become an ever‐burgeoning strain on global health. An estimated 589 million adults worldwide currently have diabetes, with a 45% increase in cases projected by 2050 []. In the last two decades, there has been a three‐fold increase in T2D‐related global health expenditure, which now exceeds USD 1 trillion []. The number of individuals with prediabetes is even greater. Prediabetes is a state of dysglycaemia, whereby blood glucose levels are elevated above normal cut‐offs, but below the threshold for diabetes diagnosis. Over 1 billion adults worldwide have prediabetes, with cases expected to approach 1.5 billion by 2050 []. Therefore, implementing targeted T2D prevention, especially during prediabetes, is critical in alleviating the global health burden.
+
+Extensive evidence points to excess adiposity being the biggest risk factor for T2D [,,,,,,,]. This coupled with the increasing prevalence of obesity, makes body weight (BW) loss key in T2D prevention. Bariatric surgery and pharmaceutical agents are widely used for BW loss. However, these tools come with several drawbacks, such as limited availability and prohibitive costs. A less invasive method for achieving BW loss is through commercial low or very low energy diets (LED or VLED), implemented using nutritionally complete meal replacement products [,,]. LEDs encompass a daily energy intake between 3347 and 5021 kJ, while energy intake ≤ 3347 kJ characterises VLEDs [,]. A large body of evidence shows that LEDs and VLEDs, combined with behavioural support, are effective for BW loss and improving T2D biomarkers [,,,,,,,,].
+
+Dietary composition plays an important role in T2D, with risk reduction associated with lowered refined grain intake and increased intake of whole grains, fruits, vegetables, legumes, and nuts [,,]. Consequently, identifying foods which may enhance proven strategies, such as LEDs, is of great importance. Feijoa (), also known as pineapple guava, is a fruit originating in South America and widely grown in New Zealand [,], with biochemical properties of promise in lowering T2D risk. Specifically, it is abundant in polyphenols and abscisic acid (ABA, a plant compound named for its role in abscission), particularly in the skin [,]. Evidence of polyphenols eliciting T2D risk reduction has been well established [,,,,,,,,,,,], with evidence for ABA emerging recently [,,,]. Mechanistically, ABA exhibits binding to pertussis toxin‐sensitive G protein‐coupled receptor (GPCR) [], peroxisome proliferator‐activated receptor gamma (PPAR‐γ) [], and lanthionine synthetase C‐like protein 2 (LANCL2) [,]. Activation of these targets promotes intracellular signalling cascades involving cyclic adenosine monophosphate, cyclic adenosine diphosphate ribose, and protein kinase B phosphorylation, which enhance insulin secretion, glucose uptake, and translocation of glucose transporter type 4 (GLUT4) to the plasma membrane [,,,,,].
+
+To date, only 2 studies (1 pre‐clinical, 1 clinical) have investigated the effect of feijoa on BW and T2D biomarkers. In leptin‐deficient ob/ob mice, intake of feijoa extract (300 mg/kg BW/day) significantly decreased BW gain, liver organ weight, and circulating total cholesterol []. In a small‐sample randomised controlled trial (RCT) of 34 adults with T2D, conducted in Iran, 150 mg/day of feijoa extract for 12 weeks significantly lowered fasting plasma glucose (FPG), glycated haemoglobin (HbA), and triglycerides (TAG), compared to placebo []. We hypothesised that whole fruit feijoa powder, when combined with meal replacement LED, would produce greater benefits than LED alone on acute and/or longer‐term weight loss or weight loss maintenance, along with associated glycaemic and other metabolic outcomes. Therefore, the 6‐month FERDINAND (evaluatingijoa foabetes prevention in a multi‐ethnicew Zelacohort) study investigated daily consumption of 1150 mg/day whole fruit feijoa powder during 2 months of LED‐driven weight loss followed by 4 months of weight maintenance, in a multi‐ethnic New Zealand cohort with overweight or obesity and prediabetes.
+
+2
+
+Methods
+
+2.1
+
+Study Design
+
+The FERDINAND study was a two‐arm, parallel design, double‐blind community RCT of 6 months' duration (Figure). Participants underwent 2 months of LED‐driven weight loss (i.e., LED phase) followed by 4‐months of weight loss maintenance (i.e., maintenance phase). Participants consumed either whole fruit feijoa powder or Placebo powder every day for the entire study period. The whole fruit feijoa powder consisted of 1150 mg of microcrystalline cellulose and 1150 mg of freeze‐dried powder with skin included (Feiolix, Anagenix Ltd., Auckland, New Zealand; Fx). The Placebo powder sachet contained 2300 mg of microcrystalline cellulose. The study received ethical approval from the New Zealand Health and Disability Ethics Committee (Reference: 2022 EXP 12032) and was also prospectively registered with the Australian New Zealand Clinical Trials Registry (Registration number: ACTRN12622000210774,). The study was conducted at the Human Nutrition Unit (HNU), University of Auckland, New Zealand, from September 2022 to March 2024.
+
+FIGURE 1
+
+FERDINAND study design.
+
+2.2
+
+Participants
+
+Prospective participants living in the wider Auckland area were pre‐screened via an online questionnaire and telephone interview, then invited to the HNU for an on‐site screening visit. Prior to any data collection, individuals provided written informed consent. Prediabetes status was determined by FPG, using American Diabetes Association guidelines (ADA, 5.6–6.9 mmol/L) []. Hypertension was defined as SBP ≥ 140 mmHg and/or DBP ≥ 90 mmHg (uncontrolled hypertension) and/or use of antihypertensive medications (controlled hypertension) [,]. The other inclusion criteria were body mass index (BMI) ≥ 26 kg/m, BW ≤ 150 kg, Finnish Diabetes Risk Score ≥ 12, being otherwise healthy per self‐report, and being able to attend clinical investigation day (CID) visits. Potential participants were excluded if they had current or history of significant disease, including type 1 or type 2 diabetes mellitus, cardiovascular disease, pancreatic disease, digestive diseases (e.g., inflammatory bowel syndrome/disease, ulcerative colitis, Crohn's disease) and cancer, recent BW loss/gain > 10% within previous 3 months or were taking part in an active diet programme, previous bariatric surgery, current medication controlling glycaemia and weight loss, steroid medications (except topical steroids) or atypical antipsychotics within previous 3 months, were intending to alter physical activity during the following 12 months, smoked, vaped or used recreational drugs within previous 6 months, or were pregnant or breastfeeding within previous 6 months. Additional exclusions included unwillingness to consume LED meal replacement products or adhere to the food avoidance requirements during the weight maintenance phase or hypersensitivities/allergies to these foods, not prepared to comply with the study protocol, or participation in other clinical intervention studies in the previous 6 months.
+
+2.3
+
+Randomisation and Blinding
+
+Participants were randomly allocated in a 1:1 ratio to consume either Fx or Placebo powder following a computer‐generated randomisation sequence, with the powders distinguished using anonymised codes and blinding conducted by an independent researcher who maintained confidentiality of the codes until the completion of the study. Participants and the study team remained blinded throughout the study period and were unblinded upon completion of data collection. Participants were randomised to treatment and commenced the study in multiple cohorts, each consisting of 10–25 eligible participants.
+
+2.4
+
+Procedures
+
+During the LED phase, participants consumed commercial, complete meal replacement products (Cambridge Weight Plan, Corby, UK), whereby 4 energy‐controlled sachets, each containing approximately 840 kJ, were consumed every day. Each meal replacement sachet was reconstituted using 250 mL of water only. Furthermore, participants consumed the intervention powder every day with their first LED product of the day. Participants were prohibited from consuming any other foods or beverages (including coffee, tea, and non‐caloric beverages apart from water) during the LED phase, to ensure that any observed effects were from Fx, rather than other foods which may contain the same, or additional, bioactive compounds. Participants were also instructed to drink at least 2.25 L of water daily. During the LED phase, Benefiber (GlaxoSmithKline, London, UK) was provided upon request to participants who self‐reported constipation and/or bowel discomfort.
+
+Upon completion of the LED phase, weight loss maintenance was monitored for 4 months. Restrictions on food and beverage intake were mostly removed during this maintenance phase, with feijoa and feijoa‐containing products being the only prohibited items. Participants continued consuming their assigned intervention powder every day with their breakfast meal. Group diet advice sessions were conducted by registered dietitians at baseline and throughout the study (Figure). These sessions focused on behavioural strategies to enhance adherence to the study protocol and long‐term considerations for weight maintenance (e.g., meal planning, dealing with food cravings, and navigating social gatherings). The advice adhered to the New Zealand Ministry of Health healthy eating guidelines for improving metabolic health []. For both intervention powders and meal replacement products, participants were instructed to keep all opened and unopened sachets and return them at their following CID visit.
+
+It was assumed that opened sachets equated to consumed sachets. Participants were instructed to contact the study team if sachets were opened but not consumed. Furthermore, participants were contacted regularly throughout the study by a trained researcher to discuss meal replacement and intervention powder compliance. The following calculations were used to assess compliance:
+
+2.5
+
+Outcomes
+
+BW and FPG were joint co‐primary outcomes, while secondary outcomes comprised body composition, blood pressure, and blood biochemistry. All outcomes were assessed at M0/CID1 (baseline), M2/CID2 (post‐LED), M4/CID3, and M6/CID4 (study end). Furthermore, participants were asked about adverse events at each CID and dietary advice session. Prior to BW, height, and body composition measurements, participants were asked to remove shoes, heavy clothing, headwear (if applicable), jewellery, and all items from their pockets. BW and height were measured in duplicate using a calibrated digital scale (Mettler Toledo Spider 2, Greifensee, Switzerland) and a wall‐mounted stadiometer (Seca Model 222, Hamburg, Germany), respectively, and averaged for data analyses. BMI was then calculated using the average of the BW and height measurements. Waist circumference (WC) was measured using a non‐stretchable measuring tape (Abbott Laboratories, Illinois, USA), placed horizontally around the abdomen at the level of the umbilicus. Participants inhaled and exhaled once, with the measurement recorded at the end of expiration in duplicate and averaged for data analysis. Body composition was measured at the University of Auckland Body Composition Laboratory by dual‐energy X‐ray absorptiometry (DXA) using an iDXA scanner (GE Healthcare, Wisconsin, USA) and analysed using enCORE software (version 18, GE Healthcare, Wisconsin, USA). The following measures were calculated by proprietary algorithms in the enCORE software: total body fat mass (TBFm), total body fat‐free mass (TBFFm), abdominal adipose tissue mass (AATm), subcutaneous adipose tissue mass (SATm), and visceral adipose tissue mass (VATm). Additional measures were also obtained using the following calculations:
+
+Systolic blood pressure (SBP) and diastolic blood pressure (DBP) were measured in duplicate using an automated sphygmomanometer (Welch Allyn ProBP 2400, Welch Allyn, New York, USA) and averaged for data analyses. Fasting venous blood samples were collected into BD Vacutainer tubes (Becton, Dickinson and Company, New Jersey, USA). Plasma samples were collected for analysis of FPG and glucoregulatory peptides in fluoride oxalate and P800 tubes, respectively. Whole blood was collected in a tripotassium ethylenediaminetetraacetic acid (K‐EDTA) tube for HbAanalysis. Serum samples were collected for lipid biomarkers and liver function enzymes using a serum separator (SST ll Advance) tube. The following clinical blood markers were analysed on the cobas c311 (Roche Diagnostics Ltd., Mannheim, Germany): FPG, HbA, total cholesterol, TAG, high‐density lipoprotein cholesterol (HDL‐C), low‐density lipoprotein cholesterol (LDL‐C), alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), and gamma‐glutamyl transferase (GGT). Insulin and C‐peptide were analysed on the cobas e601 (Roche Diagnostics Ltd., Mannheim, Germany). The online Homeostatic Model Assessment (HOMA) Calculator (The University of Oxford, version 2.2.3) was used to calculate insulin resistance (HOMA2‐IR), β‐cell function (HOMA2‐B), and insulin sensitivity (HOMA2‐S), determined based on FPG and fasting insulin.
+
+2.6
+
+Statistical Analysis
+
+Power calculations were conducted based on FPG, using data obtained from the New Zealand arm of the PREVIEW diabetes prevention study [] conducted in our laboratory in a cohort of adults with overweight or obesity and prediabetes, and of mixed ethnicity. The sample size calculations assumed that any FPG improvements achieved during the LED phase would be maintained between the treatments during the maintenance phase. In a two‐arm, parallel‐design longitudinal study with baseline FPG of 5.8 mmol/L [standard deviation (SD): 0.6 mmol/L], effect size of 0.5, type I error= 0.05, 80% power, and two‐tailedvalue, a clinically significant difference in FPG between treatments of 0.3 mmol/L was expected to be detected as statistically significant in a cohort of 160 participants (80 per treatment), including 20% drop out. Conduct of the trial during the COVID‐19 pandemic slowed recruitment; however, re‐assessment of sample size showed that a group of= 90 participants (45 per treatment) would still be expected to detect a between‐group difference in FPG of 0.3 mmol/L, with SD of baseline FPG of 0.5 mmol/L, effect size of 0.6, type I error= 0.05, and power of 80% as significant. Baseline characteristics were summarised using mean and SD for continuous outcomes. Comparisons of continuous outcomes, by treatment, were made using Welch's two‐sample‐test. Pearson's chi‐squared test with Yates' continuity correction was used for comparing categorical outcomes. Attrition rates between the treatments were compared using the likelihood ratio test. In participants who successfully completed the LED phase, compliance to the meal replacements was compared between treatments using Welch's two‐sample‐test. In participants who successfully completed the 6‐month intervention, compliance to Fx and Placebo powders was also compared using Welch's two‐sample‐test.
+
+Analyses of all outcomes were conducted as repeated measures linear mixed models (LMM). Participants were included as the random effect. Treatment group (Fx, Placebo), time (M0/CID1, M2/CID2, M4/CID3, M6/CID4), treatment×time interaction, and gender were included as fixed effects, while baseline measurement (M0/CID1) was included as a covariate. When the main effect of time was significant,multiple comparisons between the following timepoints were conducted using Tukey's analyses: M0‐M2, M0‐M4, M0‐M6, M2‐M4, and M2‐M6. To improve normality, the following variables were natural log‐transformed prior to conducting LMMs: insulin, HOMA2‐IR, TAG, ALT, AST, and GGT. For interpretability, estimated marginal means and SEMs from models involving log‐transformed variables were back‐transformed by raising them to the power of. All LMM analyses were conducted using the intention‐to‐treat (ITT) approach, for all participants randomised into the trial at M0/CID1, with imputation for missing‐not‐at‐random (MNAR) data points using the last value carried forward (LVCF) method. Given that 80% of withdrawals occurred during the LED phase (M0‐M2), during which metabolic improvements are typically expected even with partial adherence, the ITT strategy provided a conservative estimate of treatment effects. This method is well established in trials of similar design, including the DROPLET [], DiRECT [], and DIADEM‐I [] studies.
+
+Noting that Restricted Maximum Likelihood (REML) for LMMs may not adequately handle MNAR data, we also investigated outcomes from the raw data set (no imputation). One extreme FPG outlier (= 1, Placebo; single data point M6/CID4: 9.6 mmol/L, > 3 IQR above the upper quartile) was identified; therefore, a sensitivity analysis was undertaken where FPG was analysed both with and without this data point. All analyses were conducted using R version 4.3.3 []. The level of significance was set at≤ 0.05.
+
+3
+
+Results
+
+3.1
+
+Baseline Characteristics, Attrition, and Compliance
+
+The baseline characteristics of the ITT cohort (= 97) are shown in Table. 81.4% of the cohort were female and 18.6% were male. Participants were ethnically diverse, with representation of European Caucasian (45.4%), Māori (17.5%), Pacific Peoples (18.6%), Asian Chinese (12.4%), Asian Indian (9.3%), and Other (16.5%) ethnicities. BW (mean ± SD) was 103.1 ± 21.0 kg and FPG was 6.2 ± 0.6 mmol/L. The percentage of participants who completed the 6‐month study in the Fx and Placebo groups was 66.7% and 61.2% respectively. Attrition rates were not different between the groups (= 0.73). Three quarters of withdrawals occurred during the LED weight loss phase (Figure). There was 1 adverse event (AE) reported in the Fx group during the LED, whereby the participant experienced intolerance to the meal replacement products. There was also 1 AE reported in the Placebo group during the LED phase, in which the participant experienced intolerance to the placebo powder. These participants were withdrawn from the study upon review by the independent medical monitor. Of those who completed the LED phase, > 80% compliance to the meal replacements was achieved in both treatments. Furthermore, the mean ± SD BW loss (M0–M2) in these LED completers was 10.2 ± 4.4 kg, or 10.0% ± 3.5% (raw data, no imputation). Compliance to Fx and Placebo powders throughout the 6 month study was also > 80%, with higher compliance in Placebo (92% ± 11%) vs. Fx (82% ± 22%;= 0.03).
+
+TABLE 1
+
+Baseline characteristics of ITT cohort at M0/CID1, in all participants and by treatment.
+
+All participants (= 97)
+
+Fx (= 48)
+
+Placebo (= 49)
+
+Demographics
+
+Age (yrs)
+
+46.4 ± 10.1
+
+46.5 ± 9.8
+
+46.3 ± 10.4
+
+Gender (Women:Men)
+
+79:18
+
+42:6
+
+37:12
+
+Primary outcomes
+
+BW (kg)
+
+103.1 ± 21.0
+
+101.4 ± 21.6
+
+104.7 ± 20.5
+
+FPG (mmol/L)
+
+6.2 ± 0.6
+
+6.3 ± 0.7
+
+6.2 ± 0.6
+
+Secondary outcomes
+
+Anthropometry
+
+Height (m)
+
+1.67 ± 0.08
+
+1.65 ± 0.08
+
+1.68 ± 0.08
+
+BMI (kg/m)
+
+37.1 ± 6.9
+
+37.2 ± 7.4
+
+37.0 ± 6.6
+
+Blood pressure
+
+SBP (mmHg)
+
+133 ± 15
+
+134 ± 17
+
+132 ± 13
+
+DBP (mmHg)
+
+81 ± 8
+
+80 ± 9
+
+82 ± 8
+
+Body composition
+
+TBFm (kg)
+
+47.2 ± 14.9
+
+47.1 ± 15.0
+
+47.3 ± 14.9
+
+TBFp (%)
+
+45.3 ± 7.1
+
+45.9 ± 7.0
+
+44.7 ± 7.3
+
+TBFFm (kg)
+
+55.3 ± 10.1
+
+53.7 ± 9.9
+
+57.0 ± 10.1
+
+AATm (kg)
+
+4.9 ± 1.9
+
+4.8 ± 1.9
+
+5.0 ± 1.9
+
+AATp (%)
+
+54.6 ± 8.0
+
+54.4 ± 8.2
+
+54.7 ± 7.9
+
+VATm (kg)
+
+1.9 ± 0.9
+
+1.8 ± 0.8
+
+2.0 ± 1.1
+
+VATp (%)
+
+40.5 ± 12.3
+
+39.3 ± 11.5
+
+41.8 ± 13.1
+
+SATm (kg)
+
+3.3 ± 1.4
+
+3.3 ± 1.5
+
+3.4 ± 1.4
+
+SATp (%)
+
+70.0 ± 11.9
+
+70.7 ± 11.5
+
+69.4 ± 12.4
+
+Blood biochemistry
+
+HbA(mmol/mol)
+
+40.7 ± 4.9
+
+41.2 ± 5.0
+
+40.2 ± 4.7
+
+Insulin (μIU/mL)
+
+24.5 ± 14.9
+
+23.7 ± 15.9
+
+25.3 ± 13.9
+
+C‐peptide (ng/mL)
+
+3.7 ± 1.2
+
+3.7 ± 1.3
+
+3.7 ± 1.1
+
+HOMA2‐IR
+
+3.2 ± 1.6
+
+3.0 ± 1.6
+
+3.3 ± 1.6
+
+HOMA2‐B
+
+132.9 ± 45.4
+
+126.7 ± 43.3
+
+138.9 ± 46.9
+
+HOMA2‐S
+
+42.2 ± 26.6
+
+43.7 ± 25.9
+
+40.7 ± 27.4
+
+TC (mmol/L)
+
+5.1 ± 1.1
+
+5.0 ± 1.1
+
+5.1 ± 1.1
+
+TAG (mmol/L)
+
+1.5 ± 0.6
+
+1.5 ± 0.7
+
+1.4 ± 0.5
+
+HDL‐C (mmol/L)
+
+1.2 ± 0.2
+
+1.3 ± 0.3
+
+1.2 ± 0.2
+
+LDL‐C (mmol/L)
+
+3.2 ± 0.9
+
+3.2 ± 0.9
+
+3.3 ± 1.0
+
+ALT (IU/L)
+
+24.6 ± 15.6
+
+26.0 ± 19.7
+
+23.3 ± 10.1
+
+AST (IU/L)
+
+24.3 ± 10.8
+
+25.0 ± 13.5
+
+23.6 ± 7.4
+
+ALP (IU/L)
+
+80.2 ± 21.7
+
+77.6 ± 19.8
+
+82.7 ± 23.3
+
+GGT (IU/L)
+
+30.9 ± 21.4
+
+27.5 ± 12.1
+
+34.3 ± 27.4
+
+Except gender, data are presented as mean ± SD.
+
+Abbreviations: AATm: abdominal adipose tissue mass; AATp: abdominal adipose tissue percentage; ALP: alkaline phosphatase; ALT: alanine aminotransferase; AST: aspartate aminotransferase; BMI: body mass index; BW: body weight; CID: clinical investigation day; DBP: diastolic blood pressure; FPG: fasting plasma glucose; Fx: whole fruit feijoa powder; GGT: gamma‐glutamyl transferase; HbA: haemoglobin A; HDL‐C: high‐density lipoprotein cholesterol; HOMA2‐B: homeostatic model of β‐cell function 2; HOMA2‐IR: homeostatic model of insulin resistance 2; HOMA2‐S: homeostatic model of insulin sensitivity 2; ITT: intention‐to‐treat; LDL‐C: low‐density lipoprotein cholesterol; M: month; SATm: subcutaneous adipose tissue mass; SATp: subcutaneous adipose tissue percentage; SBP: systolic blood pressure; TAG: triglycerides; TBFFm: total body fat‐free mass; TBFm: total body fat mass; TBFp: total body fat percentage; TC: total cholesterol; VATm: visceral adipose tissue mass; VATp: visceral adipose tissue percentage; WC: waist circumference.
+
+a
+
+= 92 participants at M0/CID1 (Fx:= 46, Placebo:= 46).
+
+FIGURE 2
+
+CONSORT flowchart describing progress of participants through the study. Abbreviations: CID: clinical investigation day; CONSORT: Consolidated Standards of Reporting Trials; LED: low energy diet; M: month.
+
+3.2
+
+Primary Outcomes
+
+3.2.1
+
+Body Weight
+
+BW was closely matched between treatment groups at baseline M0/CID1, with mean BMI above the cut point for obesity in both groups (Fx: 37.2 kg/m; Placebo: 37.1 kg/m). In the ITT cohort, no between‐treatment difference in trajectory from baseline was observed (treatment×time:= 0.74). Fx treatment did not result in a greater decrease in BW vs. Placebo over 6 months. There was a significant change in BW over the study period, independent of treatment group (time:< 0.001), with a mean decrease of 7.2 kg during the 2‐month LED phase in all participants (< 0.001). Whilst an increase was observed in all participants during the weight maintenance phase (ΔBW: 2.1 kg;< 0.001), BW remained lower than baseline at study end (ΔBW: −5.1 kg;< 0.001). BMI followed the same trajectory from baseline and between treatment groups.
+
+3.2.2
+
+Fasting Plasma Glucose
+
+In the full ITT cohort (= 97), there was a significant difference in trajectory from baseline between the two treatment groups (treatment×time:= 0.05). However, Fx was not lower than Placebo at any timepoint. In addition, and importantly, sensitivity analysis showed that removal of the single extreme FPG outlier from the Placebo group at the end‐of‐intervention timepoint (M6/CID4, FPG: 9.6 mmol/L) resulted in loss of significance (Figure, treatment×time:= 0.09). There was a significant change in FPG between baseline and M6/CID4, independent of treatment group (time:< 0.001). In line with BW,analysis revealed that FPG in all participants decreased during the LED weight loss phase (ΔFPG: −0.5 mmol/L;< 0.001). Despite an increase during the weight maintenance phase (ΔFPG: 0.3 mmol/L;< 0.001), FPG in all participants remained lower than baseline at all timepoints (< 0.001, all).
+
+FIGURE 3
+
+Linear mixed‐effects model for FPG, SBP, and DBP in the ITT cohort (A, C & E), and sub‐cohorts with prediabetes (B) and normotension (D & F) confirmed at CID1/baseline. Data is presented as estimated marginal mean ± SEM.Extreme outlier removed prior to analysis (= 1, Placebo, M6/CID4, FPG: 9.6 mmol/L).differences shown as follows:≤ 0.05 compared to M0/CID1 in Fx group,≤ 0.05 between treatments at same timepoint. Abbreviations: BW: body weight; CID: clinical investigation day; DBP: diastolic blood pressure; FPG: fasting plasma glucose; Fx: whole fruit feijoa powder; ITT: intention‐to‐treat; M: month; SBP: systolic blood pressure; SEM: standard error of the mean.
+
+3.2.3
+
+Fasting Plasma Glucose, Sub‐Cohort (Prediabetes Only),= 69
+
+The mean ± SD delay between in‐clinic screening/enrolment and baseline assessment was 33 ± 8 days, during which FPG in 16 participants lowered to normoglycaemia (FPG ≤ 5.5 mmol/L, Fx:= 8, Placebo:= 8) and 12 participants worsened to T2D (FPG ≥ 7.0 mmol/L, Fx:= 9, Placebo:= 3). Analyses of the sub‐cohort with confirmed prediabetes at baseline (= 69, extreme outlier removed) showed that no difference in change in FPG over time was apparent between the treatment groups (treatment×time:= 0.10). Sensitivity analysis showed that inclusion of the single extreme outlier datapoint at the M6/CID4 timepoint in this sub‐cohort (= 69) did not change this outcome. The significant main effect of time on FPG independent of treatment group persisted (Figure, time:< 0.001).analyses showed a decrease in FPG during the LED weight loss phase in all participants, with FPG remaining lower than baseline at all timepoints (< 0.001, all).
+
+3.3
+
+Secondary Outcomes
+
+There was a significant change between baseline and M6/CID4, independent of treatment group, in all other anthropometry, body composition, and blood biochemistry outcomes (Table, time:< 0.01, all), except SATp and the liver enzyme ALP, with consistent improvements during the LED weight loss phase. There were no effects of Fx versus Placebo treatment over the 6‐month intervention for any of these secondary variables (Table, treatment×time:> 0.05, all).
+
+TABLE 2
+
+Primary and secondary outcomes in the ITT cohort (= 97).
+
+Fx (= 48)
+
+Placebo (= 49)
+
+p
+
+M0/CID1
+
+M2/CID2
+
+M4/CID3
+
+M6/CID4
+
+M0/CID1
+
+M2/CID2
+
+M4/CID3
+
+M6/CID4
+
+Treat
+
+Time
+
+Treat×Time
+
+Primary outcomes
+
+BW (kg)
+
+103.1 (0.9)
+
+96.0 (0.9)
+
+97.2 (0.9)
+
+98.5 (0.9)
+
+103.2 (0.8)
+
+95.9 (0.8)
+
+96.7 (0.8)
+
+97.6 (0.8)
+
+0.68
+
+< 0.001
+
+0.74
+
+FPG (mmol/L)
+
+6.2 (0.1)
+
+5.6 (0.1)
+
+5.9 (0.1)
+
+5.9 (0.1)
+
+6.2 (0.1)
+
+5.7 (0.1)
+
+5.9 (0.1)
+
+6.1 (0.1)
+
+0.18
+
+< 0.001
+
+0.09
+
+Secondary outcomes
+
+Anthropometry
+
+BMI (kg/m)
+
+37.2 (0.3)
+
+34.5 (0.3)
+
+34.9 (0.3)
+
+35.4 (0.3)
+
+37.1 (0.3)
+
+34.5 (0.3)
+
+34.8 (0.3)
+
+35.1 (0.3)
+
+0.72
+
+< 0.001
+
+0.84
+
+WC (cm)
+
+114.1 (0.9)
+
+107.9 (0.9)
+
+108.5 (0.9)
+
+110.4 (0.9)
+
+114.0 (0.8)
+
+106.9 (0.8)
+
+107.9 (0.8)
+
+109.3 (0.8)
+
+0.42
+
+< 0.001
+
+0.74
+
+Blood pressure
+
+SBP (mmHg)
+
+133 (2)
+
+124 (2)
+
+125 (2)
+
+126 (2)
+
+133 (2)
+
+129 (2)
+
+132 (2)
+
+133 (2)
+
+0.003
+
+< 0.001
+
+0.01
+
+DBP (mmHg)
+
+81 (1)
+
+75 (1)
+
+76 (1)
+
+78 (1)
+
+81 (1)
+
+77 (1)
+
+79 (1)
+
+81 (1)
+
+0.02
+
+< 0.001
+
+0.12
+
+Body composition
+
+TBFm (kg)
+
+47.0 (0.7)
+
+42.0 (0.7)
+
+42.3 (0.7)
+
+43.3 (0.7)
+
+47.1 (0.6)
+
+41.9 (0.6)
+
+41.7 (0.6)
+
+42.4 (0.6)
+
+0.60
+
+< 0.001
+
+0.54
+
+TBFp (%)
+
+45.1 (0.4)
+
+43.0 (0.4)
+
+42.9 (0.4)
+
+43.5 (0.4)
+
+45.2 (0.3)
+
+43.2 (0.3)
+
+42.6 (0.3)
+
+42.9 (0.3)
+
+0.67
+
+< 0.001
+
+0.35
+
+TBFFm (kg)
+
+55.5 (0.3)
+
+53.6 (0.3)
+
+54.3 (0.3)
+
+54.6 (0.3)
+
+55.5 (0.3)
+
+53.3 (0.3)
+
+54.2 (0.3)
+
+54.6 (0.3)
+
+0.69
+
+< 0.001
+
+0.82
+
+AATm (kg)
+
+4.9 (0.1)
+
+4.2 (0.1)
+
+4.2 (0.1)
+
+4.4 (0.1)
+
+4.9 (0.1)
+
+4.1 (0.1)
+
+4.1 (0.1)
+
+4.2 (0.1)
+
+0.48
+
+< 0.001
+
+0.55
+
+AATp (%)
+
+54.2 (0.5)
+
+51.4 (0.5)
+
+51.6 (0.5)
+
+51.9 (0.5)
+
+54.3 (0.5)
+
+51.2 (0.5)
+
+50.7 (0.5)
+
+51.0 (0.5)
+
+0.40
+
+< 0.001
+
+0.33
+
+VATm (kg)
+
+1.9 (0.1)
+
+1.6 (0.1)
+
+1.6 (0.1)
+
+1.6 (0.1)
+
+1.9 (0.0)
+
+1.5 (0.0)
+
+1.5 (0.0)
+
+1.6 (0.0)
+
+0.45
+
+< 0.001
+
+0.35
+
+VATp (%)
+
+40.4 (0.7)
+
+39.5 (0.7)
+
+39.3 (0.7)
+
+39.0 (0.7)
+
+40.6 (0.7)
+
+38.2 (0.7)
+
+38.8 (0.7)
+
+38.6 (0.7)
+
+0.43
+
+0.003
+
+0.64
+
+SATm (kg)
+
+3.3 (0.1)
+
+2.9 (0.1)
+
+2.9 (0.1)
+
+3.0 (0.1)
+
+3.3 (0.1)
+
+2.8 (0.1)
+
+2.8 (0.1)
+
+2.9 (0.1)
+
+0.53
+
+< 0.001
+
+0.82
+
+SATp (%)
+
+70.2 (0.7)
+
+69.3 (0.7)
+
+69.9 (0.7)
+
+70.7 (0.7)
+
+70.1 (0.7)
+
+70.5 (0.7)
+
+69.9 (0.7)
+
+70.4 (0.7)
+
+0.70
+
+0.73
+
+0.61
+
+Blood biochemistry
+
+HbA(mmol/mol)
+
+40.8 (0.5)
+
+38.2 (0.5)
+
+39.1 (0.5)
+
+39.6 (0.5)
+
+40.5 (0.4)
+
+38.2 (0.4)
+
+39.0 (0.4)
+
+39.5 (0.4)
+
+0.79
+
+< 0.001
+
+0.95
+
+Insulin (μIU/mL)
+
+20.3 (1.1)
+
+12.6 (1.1)
+
+15.6 (1.1)
+
+16.3 (1.1)
+
+20.7 (1.1)
+
+13.8 (1.1)
+
+15.9 (1.1)
+
+17.4 (1.1)
+
+0.39
+
+< 0.001
+
+0.79
+
+C‐peptide (ng/mL)
+
+3.6 (0.1)
+
+2.9 (0.1)
+
+3.0 (0.1)
+
+3.1 (0.1)
+
+3.7 (0.1)
+
+3.1 (0.1)
+
+3.1 (0.1)
+
+3.3 (0.1)
+
+0.20
+
+< 0.001
+
+0.57
+
+HOMA2‐IR
+
+3.1 (0.1)
+
+2.1 (0.1)
+
+2.4 (0.1)
+
+2.5 (0.1)
+
+3.1 (0.1)
+
+2.2 (0.1)
+
+2.4 (0.1)
+
+2.7 (0.1)
+
+0.42
+
+< 0.001
+
+0.85
+
+HOMA2‐B
+
+130.6 (3.7)
+
+119.2 (3.7)
+
+123.4 (3.7)
+
+128.2 (3.7)
+
+132.3 (3.5)
+
+116.3 (3.5)
+
+119.3 (3.5)
+
+121.9 (3.5)
+
+0.42
+
+< 0.001
+
+0.45
+
+HOMA2‐S
+
+37.6 (1.1)
+
+59.7 (1.1)
+
+48.5 (1.1)
+
+46.5 (1.1)
+
+36.8 (1.1)
+
+55.4 (1.1)
+
+47.8 (1.1)
+
+43.4 (1.1)
+
+0.42
+
+< 0.001
+
+0.81
+
+TC (mmol/L)
+
+5.1 (0.1)
+
+4.5 (0.1)
+
+5.2 (0.1)
+
+5.1 (0.1)
+
+5.1 (0.1)
+
+4.4 (0.1)
+
+5.1 (0.1)
+
+5.2 (0.1)
+
+0.63
+
+< 0.001
+
+0.43
+
+TAG (mmol/L)
+
+1.3 (1.0)
+
+1.2 (1.0)
+
+1.3 (1.0)
+
+1.3 (1.0)
+
+1.4 (1.0)
+
+1.2 (1.0)
+
+1.3 (1.0)
+
+1.4 (1.0)
+
+0.75
+
+< 0.001
+
+0.34
+
+HDL‐C (mmol/L)
+
+1.3 (0.0)
+
+1.2 (0.0)
+
+1.3 (0.0)
+
+1.4 (0.0)
+
+1.3 (0.0)
+
+1.2 (0.0)
+
+1.3 (0.0)
+
+1.3 (0.0)
+
+0.63
+
+< 0.001
+
+0.33
+
+LDL‐C (mmol/L)
+
+3.2 (0.1)
+
+2.7 (0.1)
+
+3.3 (0.1)
+
+3.2 (0.1)
+
+3.2 (0.1)
+
+2.6 (0.1)
+
+3.2 (0.1)
+
+3.2 (0.1)
+
+0.70
+
+< 0.001
+
+0.22
+
+ALT (IU/L)
+
+21.9 (1.1)
+
+23.9 (1.1)
+
+18.5 (1.1)
+
+17.8 (1.1)
+
+21.8 (1.0)
+
+23.8 (1.0)
+
+18.7 (1.0)
+
+18.5 (1.0)
+
+0.83
+
+< 0.001
+
+0.93
+
+AST (IU/L)
+
+23.1 (1.0)
+
+24.1 (1.0)
+
+20.2 (1.0)
+
+20.7 (1.0)
+
+23.0 (1.0)
+
+25.9 (1.0)
+
+21.4 (1.0)
+
+21.9 (1.0)
+
+0.16
+
+< 0.001
+
+0.52
+
+ALP (IU/L)
+
+80.5 (1.4)
+
+78.8 (1.4)
+
+80.5 (1.4)
+
+78.6 (1.4)
+
+80.7 (1.3)
+
+77.4 (1.3)
+
+79.6 (1.3)
+
+79.9 (1.3)
+
+0.90
+
+0.07
+
+0.53
+
+GGT (IU/L)
+
+26.5 (1.0)
+
+22.8 (1.0)
+
+23.8 (1.0)
+
+23.5 (1.0)
+
+26.7 (1.0)
+
+22.6 (1.0)
+
+23.7 (1.0)
+
+23.4 (1.0)
+
+0.95
+
+< 0.001
+
+0.99
+
+Data presented as estimated marginal mean (SEM).
+
+Abbreviations: AATm: abdominal adipose tissue mass; AATp: abdominal adipose tissue percentage; ALP: alkaline phosphatase; ALT: alanine aminotransferase; AST: aspartate aminotransferase; BMI: body mass index; BW: body weight; CID: clinical investigation day; DBP: diastolic blood pressure; FPG: fasting plasma glucose; Fx: whole fruit feijoa powder; GGT: gamma‐glutamyl transferase; HbA: haemoglobin A; HDL‐C: high‐density lipoprotein cholesterol; HOMA2‐B: homeostatic model of β‐cell function 2; HOMA2‐IR: homeostatic model of insulin resistance 2; HOMA2‐S: homeostatic model of insulin sensitivity 2; ITT: intention‐to‐treat; LDL‐C: low‐density lipoprotein cholesterol; M: month; SATm: subcutaneous adipose tissue mass; SATp: subcutaneous adipose tissue percentage; SBP: systolic blood pressure; SEM: standard error of the mean; TAG: triglycerides; TBFFm: total body fat‐free mass; TBFm: total body fat mass; TBFp: total body fat percentage; TC: total cholesterol; VATm: visceral adipose tissue mass; VATp: visceral adipose tissue percentage; WC: waist circumference.
+
+a
+
+Extreme outlier removed prior to analysis (= 1, Placebo, M6/CID4, FPG: 9.6 mmol/L).
+
+b
+
+= 92 participants at M0/CID1 (Fx:= 46, Placebo:= 46) and= 94 participants at M2/CID2, M4/CID3 & M6/CID4 (Fx:= 47, Placebo:= 47).
+
+differences shown as follows:
+
+c
+
+≤ 0.05 compared to M0/CID1 in Fx group.
+
+d
+
+≤ 0.05 between treatments at same timepoint.
+
+3.3.1
+
+Blood Pressure
+
+SBP, DBP: Notably, however, there was a significant treatment×time interaction for SBP (Figure, treatment×time:= 0.01), reflecting the difference in trajectory from baseline of SBP between treatment groups over 6 months.analyses showed SBP to be lower in Fx treatment compared to Placebo at M4/CID3 and M6/CID4 (≤ 0.05, both). Fx treatment resulted in greater improvement in SBP vs. Placebo over 6 months. There was no significant interaction for DBP over the 6‐month intervention (Figure, treatment×time:= 0.12).
+
+3.3.2
+
+Blood Pressure, Sub‐Cohort (Normotension Only),= 51
+
+47% of participants (Fx,= 24; Placebo,= 22) had hypertension at baseline. In the sub‐cohort of 51 normotensive participants, there was no significant interaction and hence no difference in the change in trajectory of SBP or DBP between treatment groups over 6 months (treatment×time, SBP:= 0.20, DBP:= 0.38). Contrary to the ITT cohort, Fx did not result in a greater decrease in SBP over 6 months in this normotensive sub‐cohort. A significant change in SBP and DBP over 6 months, independent of treatment group, persisted (Figure, time:< 0.001, both).
+
+3.4
+
+Raw Data (No Imputation)
+
+Analyses from all observed data (i.e., without imputation) were consistent with ITT analyses across all primary and secondary outcomes (Tableand Figure).
+
+4
+
+Discussion
+
+The FERDINAND RCT investigated the effects of Fx supplementation on BW and T2D biomarkers in a multi‐ethnic cohort of adults living predominantly with obesity, during and following 8 weeks of LED‐induced weight loss. Participants were enrolled into the intervention with overweight or obesity and dysglycaemia, and with a desire to achieve and maintain weight loss of ~8%–10%. The study comprised an acute 2‐month phase of LED meal replacement‐driven weight loss, followed by a 4‐month phase of healthy eating lifestyle advice aiming to maintain the weight lost. Compliance to the meal replacements and intervention powder demonstrated the successful completion of the treatments over the study period. Although intervention powder compliance differed significantly between treatments, both groups exceeded the ~80% threshold commonly used to define adequate adherence in pharmacotherapy trials [,], suggesting compliance was sufficiently high in both groups.
+
+Regarding the co‐primary outcomes, when analysed independent of treatment group, BW changed over the 6 months as expected, with a post‐LED decrease over 2 months followed by rebound during the weight maintenance phase. BW was not different between the treatments throughout the study, with no evidence of greater weight loss in the Fx treatment group.
+
+The hypothesised enhancement of Fx on weight loss was grounded on proposed anti‐obesity mechanisms attributed to polyphenols. Experimental evidence suggests that polyphenols may inhibit adipocyte differentiation [], increase fatty acid oxidation [], and modulate gut microbiota composition in ways that favour improved metabolic regulation [,]. However, translation of these mechanistic insights into clinically meaningful weight loss in humans has been inconsistent. A recent meta‐analysis of 40 RCTs administering polyphenol supplementation (31–3000 mg/day for 1–12 months) reported BW loss of 0.36 kg (95% CI: −0.68 to −0.05;= 0.02) []. Although statistically significant, the magnitude of weight loss due to supplementation alone is unlikely to be clinically meaningful, particularly when contrasted with the ≥ 5% BW loss commonly used to define clinical relevance []. Furthermore, the substantial energy deficit imposed during the LED phase of FERDINAND likely exerted a dominant physiological effect on BW. It is therefore plausible that any incremental influence of polyphenols on adiposity was comparatively small and effectively masked by the magnitude of LED‐induced weight loss. This interpretation is consistent with previous trials that have combined polyphenol supplementation with an LED, which similarly reported no additional effects on BW or body composition [,,,].
+
+FPG followed the weight loss trajectory and decreased and then rebounded post‐LED in both treatment groups. Whilst borderline improvement in FPG was observed in the Fx vs. Placebo group, this effect was lost when sensitivity analysis was undertaken. This highlights that the effect of Fx on FPG was statistically weak and influenced by a single outlier point in the Placebo group at the end‐of‐study assessment. Furthermore, these observations included 28 participants in whom FPG either reverted to normoglycaemia or progressed to T2D between the screening visit and the start of the intervention, that is, participants who no longer had prediabetes. Removal of these participants from the analysis eliminated the borderline difference between the two treatments, irrespective of the single extreme outlier, but notably also decreased power to detect any change as statistically significant.
+
+Mechanistically, the bioactive profile of the whole fruit feijoa powder offers several plausible pathways through which FPG lowering could occur. Approximately 60% of the powder's known polyphenolic content consisted of catechins (Anagenix Ltd., personal communication, March 19, 2026). A recent meta‐analysis by Wan and colleagues, encompassing 28 RCTs administering catechin supplementation (63–1344 mg/day for 1–12 months), reported a mean FPG lowering of 0.10 mmol/L (95% CI: −0.18 to −0.03;< 0.001) []. Trials within this meta‐analysis administered catechin doses substantially exceeding the 0.60 mg/day delivered in FERDINAND, with only two incorporating an LED component [,]. Notably, despite administering catechin doses orders of magnitude higher than FERDINAND (1125 mg/day and 300 mg/day, respectively), the magnitude of FPG change reported in these two trials was comparable both to FERDINAND and to each other, raising the possibility that the LED itself was the dominant determinant of FPG improvement rather than catechin dose. The powder also provided 54 μg/day ABA, with comparable ABA doses and fruit‐derived ABA sources previously associated with improved fasting glycaemia in healthy adults (= 10) [] and adults with prediabetes (= 65) [], neither of which incorporated a concurrent energy‐restricted or weight‐loss intervention. Taken together, these observations are consistent with the LED exerting a dominant effect on FPG that could mask any smaller, independent contribution of catechins or ABA in FERDINAND, regardless of the specific dose administered.
+
+Amongst the secondary outcomes, only SBP in the Fx group improved compared to Placebo over the 6‐month intervention. However, this finding should be interpreted cautiously. Since there were no BP exclusion criteria for the trial, a large number of participants with overweight (predominantly obesity) and associated biomarkers of poor metabolic health were enrolled with previously undiagnosed hypertension at baseline. When these participants were removed from the data analyses, the effect of Fx vs. Placebo over 6 months was lost. Whilst this may be in part due to the decrease in sample size, it is possible that the observed differences in SBP between the treatments may be driven by the sub‐cohort of participants with uncontrolled and/or controlled hypertension.
+
+From a mechanistic perspective, flavonoids such as catechins, the most abundant polyphenolic class in whole fruit feijoa powder, have established vasoprotective properties. Flavonoids have been shown to enhance endothelial nitric oxide bioavailability, inhibit angiotensin‐converting enzyme activity, and attenuate oxidative stress []. Consistent with these mechanisms, a recent meta‐analysis of 31 RCTs implementing catechin supplementation (20–1344 mg/day for 2–24 weeks) reported a mean SBP lowering of 1.56 mmHg (95% CI: −2.75 to −0.37;< 0.001) []. Notably, the model‐estimated mean SBP lowering observed in FERDINAND (−5.93 mmHg, 95% CI: −15.42 to 3.56) was numerically greater than that reported in 28 of the 31 trials included in this meta‐analysis [], despite the substantially lower catechin dose administered. Furthermore, when compared to the only trial within the meta‐analysis that incorporated an LED [], the magnitude of SBP lowering in FERDINAND was comparable.
+
+One potential explanation for these findings is the combined influence of LED‐induced metabolic improvements and the polyphenolic profile of whole fruit feijoa. Experimental evidence suggests that polyphenolic compounds may exert synergistic vascular effects. For example, Zhang and colleagues demonstrated that combined curcumin and luteolin exposure produced greater inhibition of TNF‐α‐induced vascular inflammation than either compound alone in both human and murine models []. It is therefore plausible that the polyphenolic matrix of whole fruit feijoa contributed to vascular benefits beyond what might be expected from catechin content alone.
+
+Regarding attrition, a 20% dropout rate is typically expected in LED and VLED interventions []. In contrast, the dropout rate in FERDINAND was 36%. It must be considered that FERDINAND implemented a strict total meal replacement strategy, including restrictions on non‐caloric beverage consumption, which may have contributed to the higher‐than‐expected dropout rate. Given this strict implementation, data were not missing at random, as 80% of all withdrawals occurred during the 2‐month LED. Therefore, the use of LVCF imputation for missing data may have biased statistical outputs towards no between‐treatment differences appearing. Nevertheless, results that were generated from observed data (see) were consistent with ITT analyses, further supporting the use of LVCF for imputing missing data.
+
+As noted previously, the intervention conducted by Taghavi and colleagues in Iran remains the only prior clinical trial to investigate feijoa supplementation in humans []. Whilst the FERDINAND study is the first to investigate supplementation with a whole fruit feijoa powder for T2D prevention, it was not without some limitations. Owing to a number of challenges in recruiting participants into this study during the COVID‐19 pandemic, underpinned by many individuals with prediabetes being unaware of their adverse glycaemic status [], and in the absence of validated predictive tools to pinpoint individuals with prediabetes amongst many with overweight or obesity yet normoglycaemia [], the sample size was below the a priori target. Additionally, a sub‐cohort of participants reverted to normoglycaemia or progressed to T2D between enrolment and baseline assessment, with the average time between these visits being 33 days. Hence, the cohort with confirmed prediabetes at baseline was smaller than planned. Participants outside the prediabetes threshold at baseline did not seem to meaningfully influence FPG outcomes, as statistical outputs remained consistent when FPG was analysed in all participants and in the sub‐cohort with prediabetes at baseline. However, the final sample size of 97 participants was below the planned target of 160 participants because of recruitment limitations and attrition. Holding the observed baseline FPG SD (0.6 mmol/L) and the originally targeted between‐treatment difference (0.3 mmol/L) constant, the achieved sample size provided approximately 68% power to detect this difference, compared with the 80% originally planned, suggesting that small yet clinically important differences in FPG between treatments may have gone undetected.
+
+A further limitation is that participants with impaired glucose tolerance (IGT) were not actively recruited. This is a notable consideration given that the proposed mechanistic premise for whole fruit feijoa powder is largely derived from ABA's role in stimulating insulin secretion and GLUT4‐mediated glucose uptake [,,,,,]. Therefore, such benefits may be more readily detected using post‐prandial measures rather than fasting measures alone. Future studies assessing whole fruit feijoa powder supplementation in individuals with IGT, tested in the insulin‐stimulated state, may therefore be better positioned to detect these effects.
+
+Finally, results independent of treatment group demonstrated wide‐scale improvements in primary and secondary outcomes. Whilst this was expected, these results are noteworthy given they were observed in a multi‐ethnic cohort. Much of the prior evidence for LEDs improving T2D biomarkers originates from studies conducted predominantly in Caucasian populations. For instance, the proportion of Caucasian participants in the DROPLET [], PREVIEW [], and DiRECT [] trials was 86.5%, 87.6%, and 98.3%, respectively. In contrast, less than half of the FERDINAND study cohort identified as Caucasian. It should be noted that the proportion of females in FERDINAND (81.4%) was noticeably higher than in these previous trials (DROPLET: 60.6%, PREVIEW: 67.6%, DiRECT: 40.9%). Therefore, while the multi‐ethnic population was a considerable strength of FERDINAND, future studies in multi‐ethnic cohorts with greater male representation would further improve the generalisability of LEDs.
+
+In conclusion, despite no effect on BW or FPG beyond that achieved through a commercial LED alone, the FERDINAND study provides preliminary evidence to support Fx supplementation during weight loss for improvement in SBP in adults predominantly with obesity plus current/recent history of prediabetes. Further studies in larger cohorts are warranted to fully evaluate the contribution that whole fruit feijoa powder may make to improved blood pressure.
+
+Author Contributions
+
+investigation, project administration, statistical analysis, writing – original draft.conceptualisation, methodology, supervision, statistical analysis, writing – review and editing.investigation, writing – review and editing.conceptualisation, Methodology, supervision, writing – review and editing.conceptualisation, supervision, writing – review and editing.conceptualisation, funding acquisition, methodology, supervision, writing – review and editing.conceptualisation, funding acquisition, methodology, supervision, writing – review and editing.
+
+Funding
+
+This work was supported by New Zealand National Science Challenge High Value Nutrition (NSC‐HVN) Program, Ministry for Business, Innovation and Employment (MBIE, grant no. 3710040). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Ethics Statement
+
+Ethics approval was received from the New Zealand Health and Disability Ethics Committee (2022 EXP 12032) and prospectively registered with the Australian New Zealand Clinical Trials Registry on February 7, 2022 (Registration number: ACTRN12622000210774,). Study participants were provided with all study details, explained to them in writing and in person, before providing written informed consent.
+
+Conflicts of Interest
+
+Anagenix Ltd. supplied the whole fruit feijoa powder (Feiolix) and matched placebo. Anagenix Ltd. had no involvement in the study design, data collection, statistical analysis, interpretation of findings, or manuscript preparation. The authors declare no other commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Supporting information
+
+Primary and secondary outcomes in raw data.
+
+Linear mixed‐effects model for FPG, SBP, and DBP in raw data (A, C & E), and sub‐cohorts with prediabetes (B) and normotension (D & F) confirmed at CID1/baseline.

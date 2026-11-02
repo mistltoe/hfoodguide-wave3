@@ -1,0 +1,171 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+
+
+def pm(pmid):
+    return f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+
+
+S = [
+    (1, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 오리나무·오리나무농축액·오리나무추출액·오리나무잎·오리나무수피 행(Alnus japonica (Thunberg) Steudel; 다른 이름 오리목; Japanese alder; 제한적사용, 사용 조건 '제한적사용가능부위 : 수피, 잎'). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", I1020, "식품의약품안전처", "2026-10-13"),
+    (2, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 오리나무속·자작나무과 및 이름이 비슷한 원료 행: 덤불오리나무열매(Alnus mandshurica, 열매, 사용가능), 마리티마오리나무껍질(Alnus maritima, 나무껍질, 사용가능), American green alder꽃(Alnus viridis crispa, 꽃, 사용가능), 오리나무더부살이(Boschniakia rossica, 전체, 사용불가), 자작나무수액(Betula platyphylla var. japonica, 수액, 사용가능)", I1020, "식품의약품안전처", "2026-10-13"),
+    (3, "식품의약품안전처 「식품의 기준 및 규격」 제2. 식품일반에 대한 공통기준 및 규격 1. 식품원료 기준 2) 식품원료 판단기준 — 원문 페이지는 이 환경에서 열지 못했고 WebSearch 검색 요약으로만 확인함(핵심 근거 아님)", "https://www.foodsafetykorea.go.kr/popup/safefoodlife/food/foodRvlv/foodRvlvDetail.do?rvlv_no=9", "식품의약품안전처(WebSearch 요약)", ACC),
+    (4, "Exploring the medicinal potential of Alnus japonica: a comprehensive review of phytochemicals and therapeutic applications. Naunyn Schmiedebergs Arch Pharmacol 2025;399(2):1815-1849 (PMID 40905982, doi:10.1007/s00210-025-04531-y; 초록 확인)", pm(40905982), "Springer / PubMed", ACC),
+    (5, "Hepatoprotective and antioxidant effects of Alnus japonica extracts on acetaminophen-induced hepatotoxicity in rats. Phytother Res 2004;18(12):971-5 (PMID 15742342, doi:10.1002/ptr.1540; 초록 확인)", pm(15742342), "Wiley / PubMed", ACC),
+    (6, "Hirsutenone in Alnus extract inhibits akt activity and suppresses prostate cancer cell proliferation. Mol Carcinog 2015;54(11):1354-62 (PMID 25213146, doi:10.1002/mc.22211; 초록 확인)", pm(25213146), "Wiley / PubMed", ACC),
+    (7, "Antiproliferative and Pro-Apoptotic Activity of Diarylheptanoids Isolated from the Bark of Alnus japonica in Human Leukemia Cell Lines. Am J Chin Med 2015;43(4):757-67 (PMID 26119959, doi:10.1142/S0192415X15500470; 초록 확인)", pm(26119959), "World Scientific / PubMed", ACC),
+    (8, "Triterpenoids Isolated from Alnus japonica Inhibited LPS-Induced Inflammatory Mediators in HT-29 Cells and RAW264.7 Cells. Biol Pharm Bull 2017;40(9):1544-1550 (PMID 28867736, doi:10.1248/bpb.b16-00895; 초록 확인)", pm(28867736), "Pharmaceutical Society of Japan / PubMed", ACC),
+    (9, "Spatial assessment of the alder tree in Kushiro Mire, Japan using remotely sensed imagery. Environ Monit Assess 2005;109(1-3):243-53 (PMID 16240201, doi:10.1007/s10661-005-6284-z; 초록 확인)", pm(16240201), "Springer / PubMed", ACC),
+    (10, "Insights into the mechanism of diurnal variations in methane emission from the stem surfaces of Alnus japonica. New Phytol 2022;235(5):1757-1766 (PMID 35835139, doi:10.1111/nph.18283; 초록 확인)", pm(35835139), "Wiley / PubMed", ACC),
+    (11, "Geometrical similarity analysis of photosynthetic light response curves, light saturation and light use efficiency. Oecologia 2010;164(1):53-63 (PMID 20425123, doi:10.1007/s00442-010-1638-9; 초록 확인)", pm(20425123), "Springer / PubMed", ACC),
+    (12, "Frankia populations in soil and root nodules of sympatrically grown Alnus taxa. Microb Ecol 2011;61(1):92-100 (PMID 20838787, doi:10.1007/s00248-010-9726-2; 초록 확인)", pm(20838787), "Springer / PubMed", ACC),
+    (13, "Species identification of Alnus (Betulaceae) using nrDNA and cpDNA genetic markers. Mol Ecol Resour 2010;10(4):594-605 (PMID 21565064, doi:10.1111/j.1755-0998.2009.02815.x; 초록 확인)", pm(21565064), "Wiley / PubMed", ACC),
+    (14, "Plastome phylogenomics provide new perspective into the phylogeny and evolution of Betulaceae (Fagales). BMC Plant Biol 2022;22:611 (PMID 36566190, PMC9789603, doi:10.1186/s12870-022-03991-1; 초록 확인)", pm(36566190), "BMC / PubMed", ACC),
+    (15, "Effects of Alnus japonica Hot Water Extract and Oregonin on Muscle Loss and Muscle Atrophy in C2C12 Murine Skeletal Muscle Cells. Pharmaceuticals (Basel) 2024;17(12):1661 (PMID 39770504, PMC11676106, doi:10.3390/ph17121661; 전문 확인)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11676106/", "MDPI / PubMed Central", ACC),
+    (16, "Effects of Alnus japonica Pilot Scale Hot Water Extracts on a Model of Dexamethasone-Induced Muscle Loss and Muscle Atrophy in C57BL/6 Mice. Int J Mol Sci 2025;26(8):3656 (PMID 40332160, PMC12027306, doi:10.3390/ijms26083656; 전문 확인)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12027306/", "MDPI / PubMed Central", ACC),
+    (17, "Antioxidative and hepatoprotective diarylheptanoids from the bark of Alnus japonica. Planta Med 2010;76(6):626-9 (PMID 19918716, doi:10.1055/s-0029-1240595; 초록 확인)", pm(19918716), "Thieme / PubMed", ACC),
+    (18, "Cytotoxic activities of diarylheptanoids from Alnus japonica. Arch Pharm Res 2008;31(10):1287-9 (PMID 18958419, doi:10.1007/s12272-001-2108-z; 초록 확인)", pm(18958419), "Springer / PubMed", ACC),
+    (19, "Anti-trypanosomal activity of diarylheptanoids isolated from the bark of Alnus japonica. Am J Chin Med 2014;42(5):1245-60 (PMID 25178281, doi:10.1142/S0192415X14500785; 초록 확인)", pm(25178281), "World Scientific / PubMed", ACC),
+    (20, "An anti-influenza component of the bark of Alnus japonica. Arch Pharm Res 2010;33(3):363-7 (PMID 20361299, doi:10.1007/s12272-010-0303-5; 초록 확인)", pm(20361299), "Springer / PubMed", ACC),
+    (21, "Alnuheptanoid A: a new diarylheptanoid derivative from Alnus japonica. Nat Prod Res 2014;28(20):1765-71 (PMID 25116915, doi:10.1080/14786419.2014.947489; 초록 확인)", pm(25116915), "Taylor & Francis / PubMed", ACC),
+    (22, "Antioxidant effects of diarylheptanoid derivatives from Alnus japonica on human LDL oxidation. Planta Med 2005;71(4):295-9 (PMID 15856403, doi:10.1055/s-2005-864093; 초록 확인)", pm(15856403), "Thieme / PubMed", ACC),
+    (23, "Effects of diarylheptanoids on the tumor necrosis factor-alpha-induced expression of adhesion molecules in human umbilical vein endothelial cells. J Agric Food Chem 2007;55(23):9457-64 (PMID 17929893, doi:10.1021/jf072157h; 초록 확인)", pm(17929893), "ACS / PubMed", ACC),
+    (24, "Effect of 5-O-Methylhirsutanonol on nuclear factor-kappaB-dependent production of NO and expression of iNOS in lipopolysaccharide-induced RAW264.7 cells. J Agric Food Chem 2008;56(1):92-8 (PMID 18069795, doi:10.1021/jf0721085; 초록 확인)", pm(18069795), "ACS / PubMed", ACC),
+    (25, "New diarylheptanoids from Alnus japonica and their antioxidative activity. Chem Pharm Bull (Tokyo) 2005;53(12):1519-23 (PMID 16327181, doi:10.1248/cpb.53.1519; 초록 확인)", pm(16327181), "Pharmaceutical Society of Japan / PubMed", ACC),
+    (26, "Cyclic diarylheptanoids inhibit cell-mediated low-density lipoprotein oxidation. Nat Prod Res 2006;20(2):139-43 (PMID 16319007, doi:10.1080/14786410500045895; 초록 확인. 같은 내용의 PMID 16286306 은 철회 표시가 있어 쓰지 않음)", pm(16319007), "Taylor & Francis / PubMed", ACC),
+    (27, "A Lignan from Alnus japonica Activates Myogenesis and Alleviates Dexamethasone-induced Myotube Atrophy. Planta Med 2023;89(5):484-492 (PMID 35789994, doi:10.1055/a-1891-3366; 초록 확인)", pm(35789994), "Thieme / PubMed", ACC),
+    (28, "Ameliorative effect of Alnus japonica ethanol extract on colitis through the inhibition of inflammatory responses and attenuation of intestinal barrier disruption in vivo and in vitro. Biomed Pharmacother 2018;108:1767-1774 (PMID 30372880, doi:10.1016/j.biopha.2018.10.050; 초록 확인)", pm(30372880), "Elsevier / PubMed", ACC),
+    (29, "Effect of topical application and intraperitoneal injection of oregonin on atopic dermatitis in NC/Nga mice. Exp Dermatol 2010;19(8):e37-43 (PMID 19849716, doi:10.1111/j.1600-0625.2009.00961.x; 초록 확인)", pm(19849716), "Wiley / PubMed", ACC),
+    (30, "Diarylheptanoids from Alnus japonica inhibit papain-like protease of severe acute respiratory syndrome coronavirus. Biol Pharm Bull 2012;35(11):2036-42 (PMID 22971649, doi:10.1248/bpb.b12-00623; 초록 확인)", pm(22971649), "Pharmaceutical Society of Japan / PubMed", ACC),
+    (31, "Natural Extracts of Alnus japonica Induce BAK-Dependent Autophagy to Inhibit Liver Cancer Stem Cell Tumorigenesis. Antioxidants (Basel) 2026;15(6):685 (PMID 42351991, PMC13296072, doi:10.3390/antiox15060685; 전문 확인)", "https://pmc.ncbi.nlm.nih.gov/articles/PMC13296072/", "MDPI / PubMed Central", ACC),
+    (32, "[Changes in cedar pollen specific IgE antibodies titer by cedar sublingual immunotherapy are synchronized with other pollen antigens, but not with perennial antigens]. Arerugi 2025;74(3):139-148 (PMID 40500190, doi:10.15036/arerugi.74.139; 초록 확인)", pm(40500190), "Japanese Society of Allergology / PubMed", ACC),
+    (33, "Herbal composition Gambigyeongsinhwan (4) from Curcuma longa, Alnus japonica, and Massa Medicata Fermentata inhibits lipid accumulation in 3T3-L1 cells and regulates obesity in Otsuka Long-Evans Tokushima Fatty rats. J Ethnopharmacol 2015;171:287-94 (PMID 26068433, doi:10.1016/j.jep.2015.05.056; 초록 확인)", pm(26068433), "Elsevier / PubMed", ACC),
+    (34, "Anti-influenza diarylheptanoids from the bark of Alnus japonica. Bioorg Med Chem Lett 2010;20(3):1000-3 (PMID 20045319, doi:10.1016/j.bmcl.2009.12.057; 초록 확인)", pm(20045319), "Elsevier / PubMed", ACC),
+    (35, "Effect of Alnus japonica extract on a model of atopic dermatitis in NC/Nga mice. J Ethnopharmacol 2011;136(3):406-13 (PMID 21184819, doi:10.1016/j.jep.2010.12.024; 초록 확인)", pm(21184819), "Elsevier / PubMed", ACC),
+    (36, "Feeding and attraction of Agelastica coerulea (Coleoptera: Chrysomelidae) to Betulaceae plants. J Econ Entomol 2004;97(6):1978-82 (PMID 15666753, doi:10.1093/jee/97.6.1978; 초록 확인)", pm(15666753), "Entomological Society of America / PubMed", ACC),
+]
+sources = [{"n": n, "title": t, "url": u, "publisher": p, "accessed": a} for n, t, u, p, a in S]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "오리나무(Alnus japonica (Thunberg) Steudel)는 자작나무과(Betulaceae) 오리나무속의 잎지는 넓은잎나무로 동아시아에 자생한다[1, 4]. 식품원료 목록에는 다른 이름 '오리목'과 영문명 Japanese alder가 적혀 있다[1].\n\n"
+     "식약처 「식품원료 목록」에서 오리나무는 '제한적사용' 원료이고, 사용 조건은 '제한적사용가능부위 : 수피, 잎'이다[1]. 목록에는 오리나무·오리나무수피·오리나무잎·오리나무농축액·오리나무추출액 5개 원료명이 같은 조건으로 올라 있다[1]. 따라서 식품에 쓸 수 있는 부위는 나무껍질(수피)과 잎뿐이며, 열매·씨앗·줄기 목재·가지는 이 목록의 사용 부위에 들어 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+     "성분 연구는 주로 나무껍질에서 이루어졌고, 오레가닌(oregonin)·히르수테논·히르수타노놀 같은 디아릴헵타노이드가 대표 성분이다[15, 16, 18, 19]. 잎에서도 오레가닌과 5-O-메틸히르수타노놀이 분리되었다[22, 23, 25]. 보고된 효과는 대부분 세포·동물 실험 결과이며, 사람을 대상으로 한 임상시험은 확인하지 못함."},
+    {"key": "history", "title": "이용의 역사", "body":
+     "한국에 자생하는 오리나무의 줄기 껍질은 간염과 암에 쓰는 민간약으로 알려져 왔다고 보고되었다[5]. 오리나무속 나무껍질은 동아시아에서 출혈·알코올 중독·발열·설사·피부병·염증 등에 오랫동안 쓰였다고 정리되어 있다[6]. 오리나무는 아시아 전통 의약에서 쓰여 온 나무로 소개된다[7, 28].\n\n"
+     "2000년대 이후 국내 연구진은 나무껍질 성분을 의약 효과가 있는 기능성 식품 소재로 보고 디아릴헵타노이드를 분리해 항산화·간 보호 효과를 시험했다[17]. 강황·오리나무·신곡(발효 한약재)을 섞은 복합 처방 GGH(4)는 비만 흰쥐 모델에서 연구되었다[33]. 식품원료 사용 부위인 잎과 나무껍질의 추출물은 피부에 바르는 방식으로 아토피 피부염 생쥐 모델에서 시험되었다[35]. 오리나무 조각을 발효한 추출물은 발효 추출물과 영양 음료 용도로 특허가 출원되었다고 한 논문이 소개했다[31].\n\n"
+     "식약처 목록에는 오리나무 농축액·추출액이 원료명으로 따로 올라 있어 추출 형태로 식품에 쓰는 경우를 반영한다[1]. 한국에서 오리나무를 식품으로 먹어 온 구체적인 기록과 시기는 확인하지 못함."},
+    {"key": "biology", "title": "식물학적 특징", "body":
+     "오리나무는 자작나무과에 속하는 동아시아 원산의 낙엽 활엽수로, 질소 고정과 토양 개량으로 숲의 안정에 기여한다[4]. 한국과 일본 산지의 습한 곳에서 쉽게 볼 수 있고, 산골짜기의 축축한 땅에서 자란다[7, 8]. 뿌리에는 방선균 Frankia가 공생하는 뿌리혹이 생기며, 미국 수목원의 오리나무 뿌리혹에서는 다른 오리나무속 8개 분류군과 같은 Frankia 유형이 검출되었다[12].\n\n"
+     "오리나무는 개척 수종으로 분류되며, 일본 연구에서는 수관 위쪽 잎도 한낮 직사광선에서 광포화에 완전히 이르지 않았다[11]. 일본 구시로 습원에서는 상류 농경지에서 흘러든 토사가 쌓이면서 오리나무 분포가 넓어졌다[9]. 강가 습지의 오리나무 줄기 표면에서는 메탄이 방출되며, 잎이 있는 시기에는 수액 흐름과 같은 주기로 하루 중 변동했다[10].\n\n"
+     "잎은 잎벌레 Agelastica coerulea 애벌레가 가장 즐겨 먹는 자작나무과 식물 가운데 하나였다[36]. 꽃가루는 일본 화분증 환자의 특이 IgE 검사 항원으로 쓰인다[32]. 국내 공식 기관의 형태 기재(잎·꽃·열매 모양, 개화기)는 이 환경에서 열지 못해 확인하지 못함."},
+    {"key": "related_species", "title": "가까운 종과 구별", "body":
+     "오리나무속(Alnus)은 자작나무속(Betula)과 함께 자작나무아과를 이루며, 엽록체 유전체 분석에서 두 속은 서로 단계통으로 갈렸다[14]. 세계 오리나무속 26종 중 23종을 DNA로 구별한 연구에서, 형태가 헷갈리는 Alnus formosana·Alnus japonica·Alnus maritima도 각자 고유한 분자 형질을 보였다[13].\n\n"
+     "식약처 식품원료 목록에는 오리나무 외에도 덤불오리나무열매(Alnus mandshurica, 열매)·마리티마오리나무껍질(Alnus maritima, 나무껍질)·American green alder꽃(Alnus viridis crispa, 꽃)이 '사용가능' 원료로 따로 올라 있다[2]. 이들은 종과 쓰는 부위, 사용 조건이 모두 달라 오리나무(제한적사용, 수피·잎) 자료와 섞어 쓰면 안 된다[1, 2]. 이름이 비슷한 '오리나무더부살이'는 오리나무가 아니라 Boschniakia rossica라는 다른 식물이며 목록에서 '사용불가'다[2].\n\n"
+     "같은 자작나무과의 자작나무(Betula platyphylla var. japonica)는 수액이 사용가능 원료로 올라 있다[2]. 오레가닌은 다른 오리나무속 식물에도 들어 있어 오레가닌만으로 종을 가리기는 어렵다[16]."},
+    {"key": "cultivation", "title": "자생·재배와 원료 수급", "body":
+     "오리나무는 습지와 강가, 산골짜기의 축축한 땅에서 자라는 나무다[7, 9, 10]. 뿌리혹의 공생균으로 질소를 고정해 토양을 개량하는 나무로 소개된다[4, 12]. 농산물처럼 재배 면적이나 생산량을 집계한 국내 통계(농작물생산조사·특용작물 생산실적)에서 오리나무 항목은 확인하지 못함.\n\n"
+     "국내 연구에서 쓴 원료는 서울 약령시장에서 산 나무껍질이었고[15], 다른 연구는 약령시장 원료와 강원도 산림과학연구원 시험 재배지의 원료(껍질을 포함한 줄기)를 섞어 썼다[16]. 이 연구는 국내 산림자원으로 원료 표준화를 하려는 목적이었다고 밝혔다[16].\n\n"
+     "잎은 잎벌레 애벌레가 즐겨 먹어 잎을 원료로 쓸 때 해충 피해 관리가 필요할 수 있다[36]. 지리적 표시 등록, 생산자 단체, 수출입 통계는 확인하지 못함."},
+    {"key": "processing", "title": "가공과 제품", "body":
+     "식품원료 목록에 오리나무농축액·오리나무추출액이 원료명으로 올라 있어, 수피와 잎을 물이나 주정으로 우린 추출물 형태로 주로 쓴다[1]. 한 국내 연구는 나무껍질 300 kg을 정제수 3,000 L로 100 ± 5 °C에서 4시간 열수 추출해 농축물 136.55 kg(수율 45.52%)을 얻고 덱스트린 10%를 섞어 동결건조했다[15]. 비교용 주정 추출물은 껍질 500 g을 50% 에탄올 5 L로 80 ± 5 °C에서 7시간 추출해 말토덱스트린과 1:1로 섞어 분무건조했고 수율은 20%였다[15].\n\n"
+     "HPLC로 비교하면 열수 추출물의 오레가닌 함량이 50% 에탄올 추출물보다 38.6% 높았고, 추출 시간은 3시간 짧았다[15]. 같은 연구진의 후속 연구에서도 열수 추출물이 오레가닌의 비배당체인 히르수타노놀과 히르수테논을 에탄올 추출물보다 많이 담고 있었다[16]. 오레가닌에서 자일로스가 떨어지면 히르수타노놀이, 히르수타노놀에서 물이 빠지면 히르수테논이 생긴다고 설명되어 있어 추출 온도와 방법이 성분 조성을 바꿀 수 있다[16].\n\n"
+     "오리나무 조각을 미생물로 발효한 추출물도 연구되었다[31]. 식약처 「식품 등의 생산실적」의 오리나무 원료 제품 생산 통계는 확인하지 못함."},
+    {"key": "genetics", "title": "유전과 분류", "body":
+     "오리나무속을 DNA로 구별할 때는 핵 ITS 구간과 엽록체 trnH-psbA 구간을 함께 쓰는 것이 가장 좋다고 제안되었다[13]. 이 연구에서 종 수준 구별력은 rbcL 10%, matK 31.25%, trnH-psbA 63.6%, ITS 76.9%였다[13]. 자작나무과 109개 엽록체 유전체를 비교한 연구는 유전체 크기·유전자 순서·구조가 매우 보존되어 있고, 종 구분용 바코드 후보로 변이가 큰 10개 구간을 제시했다[14].\n\n"
+     "자작나무과의 조상은 백악기 후기 동아시아에서 기원한 것으로 추정되었다[14]. 오리나무 뿌리혹의 Frankia 유형은 흙의 조건과 숙주 식물의 유전형이 함께 정한다고 해석되었다[12].\n\n"
+     "오리나무(Alnus japonica)의 전체 유전체 해독 결과와 국내 품종 등록 기록은 확인하지 못함."},
+    {"key": "safety", "title": "안전성과 사용 조건", "body":
+     "오리나무는 식약처 「식품원료 목록」에서 '제한적사용' 원료이며 사용 조건은 '제한적사용가능부위 : 수피, 잎'이므로, 수피와 잎 외의 부위(열매·씨앗·줄기 목재·가지)는 식품원료로 쓸 근거가 없다[1]. 목록 원자료의 사용 조건 칸에는 부위 외의 사용량이나 배합 비율 조건이 적혀 있지 않다[1]. 식품공전은 따로 사용 조건이 없는 제한적 사용 원료를 가공 전 원료 중량 기준 50% 미만으로 쓰도록 정한다고 검색 요약에 나오나, 원문은 열지 못해 확인하지 못함[3].\n\n"
+     "사람에게 먹였을 때의 안전성·독성 자료는 확인하지 못함. 생쥐에게 껍질을 포함한 줄기 열수 추출물을 하루 20·50·100·200 mg/kg씩 4주간 먹인 시험에서는 모든 군의 체중이 정상적으로 늘었으나, 연구진은 장기 독성을 평가하지 않았다고 밝혔다[16]. 근육세포 실험에서 열수 추출물은 100 μg/mL보다 높은 농도에서, 오레가닌은 50 μg/mL 이상에서 세포 생존율을 낮췄다[15]. 오레가닌과 히르수타논은 시험 농도에서 사람 정상 피부섬유아세포에 독성을 보이지 않았다[19].\n\n"
+     "일본 화분증 환자 110명에서 오리나무 꽃가루 특이 IgE가 추적 측정되어, 꽃가루는 알레르기 항원으로 다뤄진다[32]. 국내 공공기관의 알레르기·잔류물질·독성 정보와 임신·수유 중 안전성은 확인하지 못함."},
+]
+
+compounds = [
+    {"name": "Oregonin", "name_ko": "오레가닌(오레고닌)", "class": "디아릴헵타노이드 배당체(자일로사이드)", "role": "marker", "part": "나무껍질(주성분)·잎",
+     "content_text": "나무껍질 열수 추출물 시험액 53.52 ± 0.21 μg/mL, 50% 에탄올 추출물 38.62 ± 0.3 μg/mL(HPLC, n=3)[15]; 나무껍질의 주성분[19]; 잎 메탄올 추출물의 주성분[25]",
+     "activity_ko": "LDL 산화 억제 TBARS IC50 3.2 μM(시험관)[22]; 트리파노소마 생장 억제 IC50 1.14 μM(시험관)[19]; 아토피 피부염 생쥐에 바르거나 복강 주사 시 증상 완화(동물)[29]", "source": [15, 19, 22, 25, 29]},
+    {"name": "Hirsutenone", "name_ko": "히르수테논(논문에 따라 hirsutanone 표기)", "class": "디아릴헵타노이드", "role": "marker", "part": "나무껍질·잎",
+     "content_text": "껍질 포함 줄기 열수 추출물 73.02 ± 0.26, 50% 에탄올 추출물 41.24 ± 1.09(HPLC, n=3; 본문에 단위 미기재, 검량선은 ppm)[16]",
+     "activity_ko": "SARS-CoV 파파인 유사 단백분해효소 억제 IC50 4.1 μM(시험관)[30]; Jurkat 백혈병 세포 IC50 11.37 μM(세포)[7]; 잎 유래 hirsutanone의 LDL 산화 억제 TBARS IC50 1.5 μM[22]", "source": [7, 16, 22, 30]},
+    {"name": "Hirsutanonol", "name_ko": "히르수타노놀", "class": "디아릴헵타노이드", "role": "marker", "part": "나무껍질",
+     "content_text": "껍질 포함 줄기 열수 추출물 11.62 ± 0.15, 50% 에탄올 추출물 3.96 ± 0.02(HPLC, n=3; 본문에 단위 미기재)[16]; 나무껍질에서 분리[18]",
+     "activity_ko": "오레가닌에서 자일로스가 떨어져 생기는 비배당체[16]; 암세포주 세포독성 시험 대상 10종의 하나(세포)[18]", "source": [16, 18]},
+    {"name": "5-O-Methylhirsutanonol", "name_ko": "5-O-메틸히르수타노놀", "class": "디아릴헵타노이드", "role": "bioactive", "part": "잎",
+     "content_text": "잎 메탄올 추출물에서 분리(함량 확인하지 못함)[23, 24]",
+     "activity_ko": "대식세포 NO 생성 억제 IC50 14.5 μM(세포)[24]; 혈관내피세포 VCAM-1·ICAM-1 발현 억제(세포)[23]", "source": [23, 24]},
+    {"name": "Platyphylloside", "name_ko": "플라티필로사이드", "class": "디아릴헵타노이드 배당체", "role": "bioactive", "part": "나무껍질",
+     "content_text": "나무껍질에서 분리된 디아릴헵타노이드 10종의 하나(함량 확인하지 못함)[18]",
+     "activity_ko": "생쥐 B16 흑색종 등 암세포주 세포독성 시험(세포)[18]", "source": [18]},
+    {"name": "Platyphyllone", "name_ko": "플라티필론", "class": "디아릴헵타노이드", "role": "bioactive", "part": "나무껍질",
+     "content_text": "나무껍질에서 분리된 11개 화합물의 하나(함량 확인하지 못함)[34]",
+     "activity_ko": "조류 인플루엔자 H9N2 바이러스에 강한 억제 활성(시험관)[34]", "source": [34]},
+    {"name": "Alusenone", "name_ko": "알루세논", "class": "디아릴헵타노이드", "role": "bioactive", "part": "나무껍질",
+     "content_text": "나무껍질에서 새로 분리된 디아릴헵타노이드(함량 확인하지 못함)[17]",
+     "activity_ko": "다른 디아릴헵타노이드와 함께 항산화(TOSC)·간 보호 효과 평가(시험관·흰쥐)[17]", "source": [17]},
+    {"name": "Betulinaldehyde", "name_ko": "베툴린알데하이드", "class": "루판형 트리테르펜", "role": "bioactive", "part": "나무껍질",
+     "content_text": "나무껍질 루판형 트리테르펜 4종의 하나[20]; 줄기 껍질에서도 분리[21]",
+     "activity_ko": "인플루엔자 KBNP-0028에 양성 대조물질보다 강한 억제 효과(시험관)[20]", "source": [20, 21]},
+    {"name": "Betulinic acid", "name_ko": "베툴린산", "class": "루판형 트리테르펜", "role": "bioactive", "part": "줄기 껍질",
+     "content_text": "줄기 껍질 에탄올 추출물에서 분리(함량 확인하지 못함)[21]",
+     "activity_ko": "이 종에서의 활성 시험 결과는 확인하지 못함[21]", "source": [21]},
+    {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보놀", "role": "bioactive", "part": "나무껍질",
+     "content_text": "나무껍질 주요 플라보노이드로 RP-HPLC 정량(수치는 확인하지 못함)[31]",
+     "activity_ko": "나무껍질 추출물의 자가포식 유도에 기여하는 성분으로 제시(세포)[31]", "source": [31]},
+    {"name": "1,4-O-Diferuloylsecoisolariciresinol", "name_ko": "1,4-O-디페룰로일세코이소라리시레시놀(DFS, 리그난)", "class": "리그난", "role": "bioactive", "part": "줄기(식품원료 사용 부위 아님)",
+     "content_text": "줄기에서 분리(함량 확인하지 못함)[27]",
+     "activity_ko": "10 nM에서 근육모세포 분화 촉진, 덱사메타손 근위축 완화(세포)[27]", "source": [27]},
+    {"name": "Acerogenin L", "name_ko": "아세로게닌 L", "class": "고리형 디아릴헵타노이드", "role": "bioactive", "part": "열매(식품원료 사용 부위 아님)",
+     "content_text": "열매 메탄올 추출물에서 분리(함량 확인하지 못함)[26]",
+     "activity_ko": "LDL 산화 억제 TBARS IC50 1.7 μM(시험관); 같은 열매의 garugamblin-3은 2.9 μM[26]", "source": [26]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Oregonin", "compound_ko": "오레가닌", "part": "나무껍질(열수 추출물·50% 에탄올 추출물)",
+     "content": "열수 추출물 53.52 ± 0.21 μg/mL, 50% 에탄올 추출물 38.62 ± 0.3 μg/mL(n=3), 머무름 시간 15.47 ± 0.01분[15]",
+     "method": "HPLC-UV",
+     "conditions": {"instrument": "Waters 2695 + 2487 이중파장 흡광 검출기", "column": "Hector C18(5 μm) + Phenomenex KJ0-4282 가드 칼럼(길이·내경 원문 미기재)",
+                    "mobile_phase": "A: 0.9% 아세트산 수용액, B: 아세토니트릴", "gradient": "0–0분 10% B; 0–12분 25% B; 12–24분 40% B; 24–25분 10% B; 25–40분 10% B",
+                    "flow": "1 mL/min(40분)", "temp": "", "detection": "UV 280 nm", "injection": "20 μL",
+                    "sample_prep": "나무껍질 300 kg을 정제수 3,000 L로 100 ± 5 °C 4시간 열수 추출·농축 후 덱스트린 10% 첨가 동결건조(비교: 50% 에탄올 80 ± 5 °C 7시간 추출 후 분무건조)",
+                    "standard": "추출물에서 분리한 오레가닌 1 mg/mL(메탄올)을 100·50·25·10·5·1 μg/mL로 희석",
+                    "linearity": "Y = 8139.8x − 7014.6, 상관계수 0.9997(6농도)", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "논문이 오레가닌을 오리나무속의 알려진 지표물질로 보고 열수·주정 추출물의 품질 비교 지표로 정량했다; 나무껍질의 주성분이기도 하다[15, 19]",
+     "source": [15, 19], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11676106/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Hirsutenone", "compound_ko": "히르수테논·히르수타노놀(오레가닌의 비배당체)", "part": "껍질을 포함한 줄기(열수 추출물·50% 에탄올 추출물)",
+     "content": "열수 추출물 히르수타노놀 11.62 ± 0.15, 히르수테논 73.02 ± 0.26; 50% 에탄올 추출물 3.96 ± 0.02, 41.24 ± 1.09(n=3, 본문에 단위 미기재)[16]",
+     "method": "HPLC-UV",
+     "conditions": {"instrument": "Waters 2695 HPLC + Waters 2487 UV/Vis 검출기", "column": "", "mobile_phase": "A: 1% 아세트산 수용액, B: 아세토니트릴",
+                    "gradient": "0–0분 10% B; 0–12분 25% B; 12–24분 40% B; 24–25분 10% B; 25–40분 10% B", "flow": "1 mL/min(40분)", "temp": "",
+                    "detection": "HPLC 파장은 이 절에 미기재(같은 논문 LC-MS/MS 절은 280 nm, HECTOR C18 5 μm 칼럼)", "injection": "",
+                    "sample_prep": "약령시장 원료와 시험 재배지 원료(껍질 포함 줄기)를 섞어 300 kg을 정제수 3,000 L로 100 ± 5 °C 4시간 열수 추출",
+                    "standard": "오리나무에서 분리한 히르수타노놀·히르수테논 1 mg/mL(메탄올)을 100·50·25·10·5·1 ppm으로 희석",
+                    "linearity": "히르수타노놀 Y = 13,167X − 385.69, 히르수테논 Y = 15,625X + 2161.2(상관계수 각 0.9999)", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "오레가닌에서 생기는 비배당체 두 성분을 열수 추출물의 활성 기여 성분으로 보고 함께 정량했다; 원료에 식품원료 사용 부위(수피)가 아닌 줄기가 섞여 있다는 점에 유의[16, 1]",
+     "source": [16, 1], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12027306/", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "alnus-japonica",
+    "name_ko": "오리나무",
+    "name_en": "Japanese alder",
+    "scientific_name": "Alnus japonica (Thunb.) Steud.",
+    "aliases": ["오리목", "오리나무수피", "오리나무잎", "오리나무농축액", "오리나무추출액", "Japanese alder", "Alnus japonica (Thunberg) Steudel"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))
