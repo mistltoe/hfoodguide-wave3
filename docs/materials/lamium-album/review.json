@@ -1,0 +1,21 @@
+{"slug": "lamium-album", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 77, "checked_items": 59,
+ "verified": 126, "fixed": 8, "removed": 0, "unverifiable": 2,
+ "changes": [
+  {"where": "compounds.Potassium", "before": "잎가루 칼륨 278.0, 마그네슘 42.3, 인 44.07 mg/g(초록 표기 그대로, 전문 확인 못함)", "after": "잎가루 마그네슘 42.3, 칼륨 278.0, 인 44.07 mg/g(초록 표기 그대로) + 칼륨 278.0 mg/g은 무게의 27.8%여서 단위 오기 가능성, 수치를 그대로 쓰지 말라는 주의", "why": "[5] 초록 값·순서는 맞으나 건조 잎가루 1 g당 칼륨 278 mg은 비현실적이라 단위 오류 가능성을 밝힘(전문 열람 불가)"},
+  {"where": "sections.safety", "before": "당뇨 쥐에 수알코올 추출물(부위는 초록에 없음) 100 mg/kg을 투여하자", "after": "당뇨 쥐에 지상부 수알코올 추출물 100 mg/kg을 28일 투여하자", "why": "[20] PMC 전문 Methods 에 지상부(aerial parts), 100 mg/kg/28일로 적혀 있음"},
+  {"where": "sections.safety", "before": "사람 각막 상피세포에서는 125 µg/mL까지 생존율이 80%로 유지되었으나, 꽃 추출물은 ... [24, 34]", "after": "사람 각막 상피세포에서는 추출물(초록에 부위 표기 없음) 125 µg/mL에서 생존율 80% ... 꽃의 메탄올·에틸아세테이트 추출물은 ... [34, 24]", "why": "[34] 초록은 '125 µg/mL에서 80%'이며 부위 표기 없음; [24] 독성은 메탄올·에틸아세테이트 추출물에 한정(헵탄 추출물은 오히려 증식 자극); 인용 순서를 문장 순서에 맞춤"},
+  {"where": "sections.processing", "before": "곡물 보호제 후보로 시험되고 있다[33]", "after": "곡물 보호용 제제로 쓸 수 있는지 추가 시험을 계획했다[33]", "why": "[33]은 배지(in vitro) 결과이고 곡물·포장 시험은 계획 단계라고만 씀(과장 완화)"},
+  {"where": "compounds.Sinapic acid", "before": "다른 연구진의 지상부 분석에서는 검출되지 않았다고 함[2]", "after": "[2]의 저자들은 이전 분석에서 검출하지 못했다고 밝힘[2]", "why": "[2] 전문: 'we detected neither rosmarinic acid nor sinapic acid in our previous report' — 저자들 자신의 이전 연구"},
+  {"where": "compounds.Rosmarinic acid", "before": "다른 연구진의 지상부 분석에서는 검출되지 않았다고 함[2]", "after": "[2]의 저자들은 이전 분석에서 검출하지 못했다고 밝힘[2]", "why": "위와 같음"},
+  {"where": "assays[2].rationale", "before": "다른 연구진은 지상부에서 로즈마린산·시납산을 검출하지 못했다고 보고해", "after": "[2]의 저자들은 이전 분석에서 로즈마린산·시납산을 검출하지 못했다고 밝혀", "why": "위와 같음"},
+  {"where": "compounds.Oleanolic acid", "before": "꽃 메탄올 추출물 76.0 ± 2.7 µg/g(UHPLC-ELSD)[14]", "after": "꽃 메탄올 추출물을 산가수분해한 뒤 사포게닌으로 76.0 ± 2.7 µg/g(UHPLC-ELSD)[14]", "why": "[14] 전문: 시료는 Lamii albi flos(꽃), 염산 가수분해 후 사포게닌으로 정량"}
+ ],
+ "unverifiable_notes": [
+  "[5] 잎가루 빵 논문은 PMC 전문이 없어 무기질(Mg 42.3·K 278.0·P 44.07 mg/g) 단위를 초록 표기로만 확인했다. 칼륨 값은 단위 오류 가능성이 커서 수치를 쓰지 말라고 적어 둠.",
+  "[11] 꽃부리 아우쿠빈 함량은 초록의 지수 표기가 깨져 있어 확인하지 못함(원문 그대로 '확인 못함' 유지).",
+  "[2] 라말비드 39.09·26.66 '(m/g dry weight)'는 초록 표기이고 표(Table)는 전문 텍스트에 없어 단위 기준(추출물/원료)을 확정하지 못함 — dossier 에 그대로 밝혀 둠.",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 에서 화이트데드네틀잎(Lamium album L., 사용가능부위: 잎, 이명 왜광대수염·말광대수염, 사용가능)과 광대수염순·잎(L. album var. barbatum / var. petiolatum, 이명 꽃수염풀·산광대), 광대나물순·잎(L. amplexicaule, 이명 긴잎광대수염)을 확인 — card.json·overview·related_species 와 일치.",
+  "광대수염(L. album var. barbatum / L. barbatum) 자료[27–30]는 related_species·genetics 에서만 구분해 쓰였고 compounds·assays 에 섞이지 않음을 확인. 광대나물(L. amplexicaule) 자료는 인용되지 않음. 자주광대나물(L. purpureum)은 [19] 비교군으로만 언급.",
+  "꽃·지상부·전초 결과는 compounds.part·assays.part 에 부위가 적혀 있고 잎 결과로 쓰인 곳은 없음. 잎 단독 자료는 [5](잎가루)·[6](약국용 잎 우림액, PMC 전문 Table 3 에서 L. album CYP3A4 +1·글루타티온 −3·GGT 0·P-gp 0 확인)·[17](자생 잎 물 추출물 MIC 10 mg/mL)·[18](완전히 자란 잎)뿐."
+ ]}

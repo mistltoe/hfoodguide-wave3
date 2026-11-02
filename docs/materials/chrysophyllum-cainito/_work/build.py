@@ -1,0 +1,109 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pmid, note=""):
+    return {"n": n, "title": f"{title} (PMID {pmid}{', ' + note if note else ''})", "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": "PubMed", "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 스타애플열매(Chrysophyllum cainito L.; Star apple, Canito, Camito, bubby water), 식품원료(A코드), 사용가능, 사용가능부위: 열매; 같은 속의 아프리칸스타애플열매(Chrysophyllum africanum A. DC., African star apple) 행 대조", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ {"n": 2, "title": "USDA ARS Dr. Duke's Phytochemical and Ethnobotanical Databases — Chrysophyllum cainito 성분 기록(이 저장소 card.json 의 지표성분 후보로 옮겨진 값; 원 페이지는 이 환경에서 열지 않음)", "url": "https://phytochem.nal.usda.gov/", "publisher": "USDA Agricultural Research Service", "accessed": "2026-10-13"},
+ pm(3, "Chrysophyllum cainito: A Tropical Fruit with Multiple Health Benefits — Evid Based Complement Alternat Med 2020 (리뷰, PMC 전문 확인)", "10.1155/2020/7259267", "32148550"),
+ pm(4, "Polyphenolic antioxidants from the fruits of Chrysophyllum cainito L. (Star Apple) — J Agric Food Chem 2002", "10.1021/jf011178n", "11879006", "초록만 확인"),
+ pm(5, "Domestication Syndrome in Caimito (Chrysophyllum cainito L.): Fruit and Seed Characteristics — Econ Bot 2010 (PMC 전문 확인)", "10.1007/s12231-010-9121-4", "20543881"),
+ pm(6, "Origins and close relatives of a semi-domesticated neotropical fruit tree: Chrysophyllum cainito (Sapotaceae) — Am J Bot 2012", "10.3732/ajb.1100326", "22396333", "초록만 확인"),
+ pm(7, "Domestication of the neotropical tree Chrysophyllum cainito from a geographically limited yet genetically diverse gene pool in Panama — Ecol Evol 2014", "10.1002/ece3.948", "25035796", "초록 확인"),
+ pm(8, "Ten polymorphic microsatellite primers in the tropical tree caimito, Chrysophyllum cainito (Sapotaceae) — Appl Plant Sci 2014", "10.3732/apps.1300079", "25202603", "초록 확인"),
+ pm(9, "The complete chloroplast genome sequence of Chrysophyllum cainito, a semidomesticated species — Mitochondrial DNA B Resour 2020", "10.1080/23802359.2020.1768964", "33366970", "초록 확인"),
+ pm(10, "Phytoconstituents, antioxidant and antiglycation activity of Chrysophyllum cainito L., Hancornia speciosa Gomes and Plinia glomerata Berg. fruits — An Acad Bras Cienc 2023", "10.1590/0001-3765202320201853", "37556705", "초록만 확인"),
+ pm(11, "Antioxidant compounds, antioxidant activity and phenolic content in peel from three tropical fruits from Yucatan, Mexico — Food Chem 2014", "10.1016/j.foodchem.2014.05.127", "25053022", "초록만 확인"),
+ pm(12, "Phytochemical Profile, Toxicity, and Pharmacological Potential of Peels from Four Species of Tropical Fruits — J Med Food 2018", "10.1089/jmf.2017.0124", "29481311", "초록만 확인"),
+ pm(13, "Chrysophyllum cainito (apple-star): a fruit with gastroprotective activity in experimental ulcer models — Inflammopharmacology 2018", "10.1007/s10787-017-0427-z", "29222687", "초록만 확인"),
+ pm(14, "Anti-inflammatory effects of Chrysophyllum cainito fruit extract in lipopolysaccharide-stimulated mouse peritoneal macrophages — Inflammopharmacology 2021", "10.1007/s10787-021-00795-x", "33725283", "초록만 확인"),
+ pm(15, "Lupeol acetate isolated from Chrysophyllum cainito L. fruit as a template for the synthesis of N-alkyl-arylsulfonamide derivatives — Nat Prod Res", "10.1080/14786419.2021.2018429", "34930096", "초록만 확인"),
+ {"n": 16, "title": "In vitro, ex vivo and in vivo anti-hypertensive activity of Chrysophyllum cainito L. extract — Int J Clin Exp Med 2015 (PMID 26770385, PMC4694285; 전문 본문은 받지 못해 초록만 확인)", "url": "https://pubmed.ncbi.nlm.nih.gov/26770385/", "publisher": "PubMed", "accessed": A},
+ pm(17, "Antidiabetic activity, glucose uptake stimulation and α-glucosidase inhibitory effect of Chrysophyllum cainito L. stem bark extract — BMC Complement Altern Med 2018", "10.1186/s12906-018-2328-0", "30285723", "초록 확인"),
+ pm(18, "Chrysophyllum cainito stem bark extract induces apoptosis in human hepatocarcinoma HepG2 cells through ROS-mediated mitochondrial pathway — PeerJ 2020", "10.7717/peerj.10168", "33088629", "초록 확인"),
+ pm(19, "Anti-inflammatory and anti-hypersensitive effects of the crude extract, fractions and triterpenes obtained from Chrysophyllum cainito leaves in mice — J Ethnopharmacol 2014", "10.1016/j.jep.2013.12.014", "24342779", "초록만 확인"),
+ pm(20, "Modulatory effects of Chrysophyllum cainito L. extract on gamma radiation induced oxidative stress in rats — Biomed Pharmacother 2019", "10.1016/j.biopha.2018.12.137", "30611985", "초록만 확인"),
+ pm(21, "Gut microbiome-mediated glucose and lipid metabolism mechanism of star apple leaf polyphenol-enriched fraction on metabolic syndrome in diabetic mice — Phytomedicine 2023", "10.1016/j.phymed.2023.154820", "37094426", "초록만 확인"),
+ pm(22, "Comparative chemical composition and antimicrobial activity of essential oils from leaves and seeds of star apple (Chrysophyllum cainito L.) — BMC Complement Med Ther 2025", "10.1186/s12906-025-05026-2", "40855293", "초록 확인"),
+ pm(23, "Exploring the nutritional, phytochemical, and functional potential of African star apple (Chrysophyllum albidum) and its byproducts — Food Res Int 2026 (다른 종 구분용)", "10.1016/j.foodres.2026.118804", "41895927", "초록만 확인"),
+ pm(24, "Abiu-do-Mato (Pouteria caimito, Sapotaceae): A promising Amazonian fruit — Food Res Int 2025 (이름이 비슷한 다른 속 과일 구분용)", "10.1016/j.foodres.2025.115984", "40032475", "초록만 확인"),
+ pm(25, "Superiority of Chrysophyllum oliviforme in the green synthesis of highly stable ZnO nanoparticles: metabolomic profiling ... — Discov Nano 2026 (같은 속 다른 종 비교)", "10.1186/s11671-026-04459-z", "41801526", "초록만 확인"),
+ pm(26, "Immunosuppressive effects of the methanolic extract of Chrysophyllum cainito leaves on macrophage functions — Afr J Tradit Complement Altern Med 2017", "10.21010/ajtcam.v14i1.20", "28480396", "초록 확인"),
+ pm(27, "Antinociceptive and antihyperalgesic activity of a traditional Maya herbal preparation composed of Pouteria campechiana, Chrysophyllum cainito, Citrus limonum, and Annona muricata — Drug Dev Res 2017", "10.1002/ddr.21378", "28176363", "초록만 확인"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "스타애플(Chrysophyllum cainito L.)은 사포타과(Sapotaceae)의 열대 상록 교목으로, 열매를 가로로 자르면 씨 자리가 별 모양으로 보여 'star apple'이라는 이름이 붙었다[3]. 식약처 「식품원료 목록」에는 원료명 '스타애플열매', 학명 'Chrysophyllum cainito L.', 영어 이름 Star apple·Canito·Camito·bubby water로 올라 있다[1]. 이 목록에서 스타애플은 식품에 쓸 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 열매'로 열매만 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 목록에서 확인되지 않는다[1].\n\n"
+  "열매는 지름 5–10 cm의 둥근 장과로 껍질은 자주색 또는 연녹색이고, 과육은 희고 우유 같으며 단맛이 강하다[3]. 파나마 재배 열매의 과육 당도는 평균 14.9 °Brix로, 흔한 과일 가운데 매우 단 편에 속한다[5]. 열매에는 카테킨·에피카테킨·퀘르세틴·미리시트린 같은 폴리페놀과 갈산이 보고되었다[4]. 항산화·항염·혈당 관련 작용은 주로 잎·줄기껍질 추출물의 시험관·동물 연구에서 나왔고, 사람 대상 임상시험은 확인하지 못함[3]."},
+ {"key": "history", "title": "역사", "body":
+  "스타애플은 신대륙 열대에서 오래전부터 열매를 먹어 온 과일나무로, 16–17세기 탐험 기록에 이미 앤틸리스 제도와 파나마만 일대에서 자란다고 적혀 있다[5]. 16세기 중반 파나마에서 이미 재배되었다는 기록을 근거로, 연구자들은 적어도 450년 넘게 과일 작물로 이용되었다고 추정했다[5]. 원산지는 오랫동안 서인도 제도(앤틸리스)로 여겨졌으나, 핵 ITS·엽록체 염기서열과 미세위성 분석은 중앙아메리카 남부, 특히 파나마 지협을 재배화의 중심지로 지목했다[6, 7].\n\n"
+  "파나마에서 퍼져 북쪽과 동쪽으로 옮겨 가면서 유전형·표현형 다양성이 크게 줄었다고 보고되었다[7]. 현재는 카리브해·중앙아메리카·남아메리카 일부와 동남아시아에서 널리 심으며, 베트남·인도·중국·말레이시아 등지에도 퍼졌다[3, 5]. 중국에서는 동남아시아에서 들여와 윈난·광둥·푸젠성에서 식용 열대과일로 심는다[9]. 마야 전통 의학에서는 스타애플을 다른 세 식물과 섞어 당뇨와 통증에 쓰는 처방이 전해진다[27]."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "스타애플은 높이 8–30 m, 줄기 지름이 평균 1 m에 이르는 곧게 자라는 나무이며, 갈색 털이 난 어린 가지 속에 끈적한 흰 유액(라텍스)이 있다[3]. 잎은 긴 타원형으로 약간 가죽질이고 윗면은 짙은 녹색으로 윤이 나며, 뒷면은 금빛 갈색 비단털로 덮여 있다[3]. 꽃은 작고 눈에 잘 띄지 않으며 모여 피고, 녹황색에서 자줏빛 흰색까지 있고 화관은 통 모양으로 5갈래다[3].\n\n"
+  "열매는 둥글거나 납작한 타원형으로 지름 5–10 cm이고, 껍질 색은 적자색·짙은 자주색·연녹색이며, 과육 속에 납작하고 단단한 씨가 최대 10개 들어 있다[3]. 파나마의 재배형 열매는 야생형보다 생중량이 평균 3배 넘게 무겁고, 껍질(외과피)이 열매 지름에서 차지하는 비율이 약 11%에서 6%로 줄었으며, 씨는 40% 더 많고 50% 더 무거웠다[5]. 야생 나무는 숲 상층에 닿아야 열매를 맺고 익은 열매가 짧은 기간에만 달린다[5]. 꽃은 작은 벌이 가루받이하며, 주로 타가수분하는 것으로 추정된다[5]."},
+ {"key": "related_species", "title": "이름과 가까운 종", "body":
+  "핵 ITS 염기서열 분석에서 스타애플과 가장 가까운 종은 중남미의 Chrysophyllum argenteum(아종 panamense 포함)으로 나타났다[6]. 엽록체 유전체 계통 분석도 스타애플의 근연 관계를 제시했다[9]. 같은 속의 Chrysophyllum oliviforme(새틴리프)는 잎 대사체가 스타애플과 다르다고 비교된 바 있어, 두 종 자료를 섞으면 안 된다[25].\n\n"
+  "식약처 목록에는 같은 속의 '아프리칸스타애플열매(Chrysophyllum africanum A. DC., African star apple)'가 별도 원료로 올라 있다[1]. 서·중앙아프리카에서 흔히 'African star apple'로 부르는 열매는 Chrysophyllum albidum(최근 Gambeya 속으로 다루기도 함)으로, 영양·생리활성 연구가 많지만 스타애플과는 다른 종이다[23]. 또 아마존의 아비우(Pouteria caimito)는 종소명이 'caimito'라 혼동되기 쉬우나 같은 사포타과의 다른 속 과일이다[24]. 따라서 이 자료는 Chrysophyllum cainito 열매·잎·줄기껍질 연구만 모았다[3]."},
+ {"key": "cultivation", "title": "재배와 산지", "body":
+  "스타애플은 멕시코 남부에서 아르헨티나 북부·페루까지 해발이 낮거나 중간인 지역에 분포하며, 과테말라 태평양 쪽에 많이 심는다[3]. 코스타리카·쿠바·아이티·자메이카·파나마 등에서는 자생종으로, 미국·브라질·중국·필리핀·태국과 아프리카 여러 나라에는 도입된 과일로 정리된다[3]. 파나마 중부에서는 열대 습윤림에 야생으로 자라며 가정 텃밭에 한두 그루씩 심는데, 열매를 상업적 규모로 팔지는 않는다[5].\n\n"
+  "파나마에서는 주로 씨로 번식하며, 친지에게 받은 열매에서 고른 씨를 심는 경우가 많다[5]. 파나마 조사에서는 1–3월에 익은 열매를 나무에서 따거나 막 떨어진 것을 모았으며, 나무가 열매를 맺기까지 약 15년이 걸릴 수 있다고 적혀 있다[5]. 파나마에서는 자생 나무로서 숲 복원 조림에도 권장된다[5]. 국내 재배·생산 통계와 국내 지리적 표시 등록은 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "스타애플은 주로 생과로 먹으며, 과육은 부드럽고 희며 우유처럼 보이고 단맛이 강하다[3]. 껍질과 씨는 보통 먹지 않으며, 열대과일 껍질을 버려지는 부산물로 보고 메탄올 추출물의 성분과 활성을 조사한 연구가 있다[12]. 멕시코 유카탄산 자주색 스타애플 껍질은 동결건조 분말로 만들었을 때 항산화 성분 공급원이 될 수 있다고 보고되었다[11]. 생쥐 실험에서는 열매 가루를 사료에 10% 섞어 7일 먹인 경우 위 보호 효과가 있었으나 주스는 효과가 없었다[13].\n\n"
+  "잎·줄기껍질은 열대 지역 민간에서 당뇨와 염증 질환에 달여 쓰였다고 하지만, 식약처 목록이 허용한 부위는 열매뿐이다[1, 3, 19]. 잎 추출물은 항산화·혈당·염증 연구에 쓰였고[3, 21], 줄기껍질 물 추출물은 당뇨 생쥐 혈당 감소와 간암 세포(HepG2) 사멸 연구에 쓰였다[17, 18]. 국내 「식품 등의 생산실적」에서 스타애플을 원료로 한 건강기능식품 품목은 확인하지 못함."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "스타애플의 엽록체 유전체는 158,841 bp이며, 대형 단일복사 영역 88,256 bp, 두 개의 역위반복 영역 각 25,958 bp, 소형 단일복사 영역 18,669 bp로 이루어진다[9]. GC 함량은 36.8%이고, 유전자 129개(단백질 암호 84개, tRNA 37개, rRNA 8개)가 주석되었다[9]. 개체군 연구를 위해 다형성 미세위성 표지 10개가 개발되었으며, 대립유전자 수는 자메이카 집단에서 2–10개, 파나마 집단에서 3–12개였다[8].\n\n"
+  "이 표지를 쓴 분석에서 파나마의 재배형과 야생형은 중립 유전 변이 차이가 작았지만 열매·씨 형질은 뚜렷이 달랐다[7]. 북부 중앙아메리카와 앤틸리스 집단은 남부 중앙아메리카 유전 다양성의 일부만 가지고 있었다[6]. 연구자들은 스타애플을 사람이 선택했지만 사람 없이도 살아남는 '반재배화(semi-domesticated)' 작물로 분류했다[5]."},
+ {"key": "safety", "title": "안전성", "body":
+  "식약처 「식품원료 목록」에서 스타애플은 열매에 한해 식품원료로 쓸 수 있으며, 잎·줄기껍질·씨는 허용 부위가 아니다[1]. 식약처·농촌진흥청 등 국내 공공기관의 스타애플 알레르기·잔류·독성 정보는 확인하지 못함. 씨에는 쓴맛을 내는 시안 생성 배당체 루쿠민(lucumin)이 1.2% 들어 있다고 정리되어 있다[3]. 미국 농무부 성분 데이터베이스에서 옮긴 후보 자료에도 씨의 같은 계열 배당체가 최대 12,000 ppm으로 기록되어 있다[2].\n\n"
+  "토끼 실험에서 잎 우린 물은 10 g/L 넘는 농도에서 혈당을 낮췄지만 30 g/L에서는 독성이 나타났다고 보고되었다[3]. 껍질 메탄올 추출물은 대장암 세포(HCT-116)에 중간 정도의 독성을 보였다[12]. 잎 추출물을 먹인 생쥐에서 운동 능력·체온 변화는 관찰되지 않았다[19]. 이런 결과는 잎·껍질 추출물의 실험 결과로, 열매 과육을 식품으로 먹을 때의 위험을 직접 보여 주지는 않는다[3, 12]."},
+]
+
+compounds = [
+ {"name": "Epicatechin", "name_ko": "(−)-에피카테킨", "class": "플라반-3-올", "role": "marker", "part": "열매(생과)", "content_text": "생과 메탄올 추출물에서 동정한 폴리페놀 9종 가운데 가장 많음, 7.3 mg/kg(생중량)[4]", "activity_ko": "DPPH 라디칼 소거 항산화 활성 성분(시험관)[4]", "source": [4]},
+ {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보놀", "role": "bioactive", "part": "열매(잎에서도 분리)", "content_text": "열매 에틸아세테이트 분획에서 동정(함량 초록에 없음)[4]; 잎에서도 분리[20]", "activity_ko": "열매 성분 9종 가운데 DPPH 소거 활성이 가장 높음, IC50 40 μM(시험관)[4]", "source": [4, 20]},
+ {"name": "Catechin", "name_ko": "(+)-카테킨", "class": "플라반-3-올", "role": "bioactive", "part": "열매", "content_text": "열매에서 동정(함량 초록에 없음)[4]", "activity_ko": "열매 항산화 분획의 구성 성분[4]", "source": [4]},
+ {"name": "Epigallocatechin", "name_ko": "(−)-에피갈로카테킨", "class": "플라반-3-올", "role": "bioactive", "part": "열매", "content_text": "열매에서 (+)-갈로카테킨과 함께 동정(함량 초록에 없음)[4]", "activity_ko": "열매 항산화 분획의 구성 성분[4]", "source": [4]},
+ {"name": "Myricitrin", "name_ko": "미리시트린", "class": "플라보놀 배당체", "role": "bioactive", "part": "열매·잎", "content_text": "열매에서 동정(함량 초록에 없음)[4]; 잎 폴리페놀 농축 분획의 주요 활성 성분으로 제시[21]", "activity_ko": "잎 분획: α-글루코시다아제 억제 IC50 24.427 μg/mL(시험관), 당뇨 생쥐 혈당 감소(200 mg/kg·일)[21]", "source": [4, 21]},
+ {"name": "Isoquercitrin", "name_ko": "이소퀘르시트린(퀘르시트린 포함)", "class": "플라보놀 배당체", "role": "bioactive", "part": "열매", "content_text": "열매에서 퀘르시트린·이소퀘르시트린 동정(함량 초록에 없음)[4]", "activity_ko": "열매 항산화 분획의 구성 성분[4]", "source": [4]},
+ {"name": "Gallic acid", "name_ko": "갈산", "class": "페놀산", "role": "bioactive", "part": "열매·껍질·잎", "content_text": "열매에서 동정[4]; 유카탄산 자주색 스타애플 동결건조 껍질에서 페룰산·카페산·시납산·엘라그산·미리세틴과 함께 확인[11]", "activity_ko": "항산화 성분[4, 11]", "source": [4, 11]},
+ {"name": "Cyanidin 3-glucoside", "name_ko": "시아니딘-3-글루코사이드", "class": "안토시아닌", "role": "bioactive", "part": "열매", "content_text": "열매 물:메탄올 반정제 분획에서 분리·동정(함량 보고 없음)[3]", "activity_ko": "반정제 분획 DPPH IC50 7.9 ± 0.3 μg/mL(시험관)[3]", "source": [3]},
+ {"name": "Lupeol acetate", "name_ko": "루페올 아세테이트", "class": "트라이테르페노이드", "role": "bioactive", "part": "열매(잎에도 많음)", "content_text": "열매 헥산-에틸아세테이트 분획에서 분리(함량 초록에 없음)[14, 15]; 잎 메탄올 추출물 GC-MS 주성분[26]", "activity_ko": "대식세포 NO·IL-1β·IL-6·TNF-α 억제, 생쥐 발·귀 부종 감소(시험관·동물)[14]", "source": [14, 15, 26]},
+ {"name": "Lucumin", "name_ko": "루쿠민(시안 생성 배당체)", "class": "시안 생성 배당체", "role": "bioactive", "part": "씨", "content_text": "씨 1.2%[3]; 씨의 (αR)-α-[(6-O-β-D-자일로피라노실-β-D-글루코피라노실)옥시]벤젠아세토나이트릴 최대 12,000 ppm[2]", "activity_ko": "쓴맛을 내는 시안 생성 성분(씨는 허용 부위 아님)[1, 3]", "source": [1, 2, 3]},
+ {"name": "Lysine", "name_ko": "라이신", "class": "아미노산", "role": "nutrient", "part": "열매", "content_text": "열매 최대 670 ppm(데이터베이스 기록)[2]", "activity_ko": "필수 아미노산; 열매에 여러 아미노산이 있다고 정리됨[3]", "source": [2, 3]},
+ {"name": "Glucose", "name_ko": "포도당 등 당류", "class": "당류", "role": "nutrient", "part": "열매 과육", "content_text": "과육 단맛은 주로 포도당 때문이며 총당 8.45–10.39 g/100 g[3]; 과육 추출물 총당 858.67 mg/g[10]; 파나마 과육 평균 14.9 °Brix(최대 28)[5]", "activity_ko": "열매의 강한 단맛을 냄; 재배형이 야생형보다 22% 더 달다[5]", "source": [3, 5, 10]},
+ {"name": "(E)-2-Hexenal", "name_ko": "(E)-2-헥세날 등 향기 성분", "class": "휘발성 알데하이드", "role": "bioactive", "part": "열매", "content_text": "쿠바산 열매 휘발 성분 120종 분리, 104종 동정; 주성분 (E)-2-헥세날·1-헥산올·리모넨·리날로올·α-코파엔·헥사데칸산[3]", "activity_ko": "열매 향을 이루는 성분[3]", "source": [3]},
+ {"name": "Citral", "name_ko": "시트랄(게라니알)", "class": "모노테르펜 알데하이드", "role": "bioactive", "part": "씨(정유)", "content_text": "씨 정유 주성분 시트랄 36.60%, 게라니알 28.50%; 잎 정유는 β-오시멘 12.37%(GC-MS 면적비)[22]", "activity_ko": "잎 정유 최소억제농도 황색포도상구균 0.781251 mg/mL(시험관)[22]", "source": [22]},
+]
+
+nutrients = [
+ {"form": "생과(열매 가식부)", "basis": "리뷰 논문이 정리한 100 g당 범위(원 출처별 차이); 국가표준식품성분표 수록 여부는 확인하지 못함", "items": [
+   {"name": "수분", "value": "78.4–85.7", "unit": "%"},
+   {"name": "단백질", "value": "0.72–2.33", "unit": "g"},
+   {"name": "탄수화물", "value": 14.65, "unit": "g"},
+   {"name": "총당", "value": "8.45–10.39", "unit": "g"}], "source": [3]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Epicatechin", "compound_ko": "(−)-에피카테킨(열매 폴리페놀 9종)", "part": "열매(생과)", "content": "7.3 mg/kg(생중량), 동정된 9종 가운데 최고 함량[4]", "method": "활성 유도 분획 후 분광학적 동정(정량 기기 조건은 초록에 없음)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "생과를 메탄올로 추출해 헥산·에틸아세테이트로 차례로 분배; 에틸아세테이트 분획(DPPH IC50 22 μg/mL)을 활성 유도 분획", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "열매 항산화 분획에서 가장 많은 폴리페놀이어서 열매 지표 후보로 삼음; 전문 확인 못함(초록만)[4].", "source": [4], "url": "https://doi.org/10.1021/jf011178n", "source_kind": "paper"},
+ {"role": "literature", "compound": "Total phenolics (gallic acid equivalents)", "compound_ko": "총페놀(갈산 당량)·당도", "part": "열매 과육(파나마 중부 재배형 11그루·야생형 7그루, 2006년)", "content": "과육 총페놀은 재배형이 야생형보다 유의하게 낮음(수치는 원문 표에 있어 확인하지 못함); 과육 당도 2008년 평균 14.9 °Brix, 야생 13.6 → 재배 16.6 °Brix[5]", "method": "Folin–Ciocalteu 분광광도법(총페놀), 휴대용 굴절당도계(°Brix)",
+  "conditions": {"instrument": "Spectronic 20 분광광도계(시료당 2회 측정)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "흡광도 725 nm", "injection": "추출액 10 μL(건조 씨는 30 μL 사용 후 환산)", "sample_prep": "과육을 껍질·씨와 분리해 균질화 후 즉시 냉동(−15 °C 1개월 → −80 °C 보관); 0.1 g을 메탄올 1 mL로 추출; 당도는 과육 즙을 고운 거름망으로 걸러 측정(2회 평균)", "standard": "갈산(결과를 GAE로 표시)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "재배화에 따라 과육의 쓴맛 관련 페놀은 줄고 당은 늘어, 총페놀과 당도가 열매 품질을 가르는 지표로 쓰임; 검량·검출한계·회수율은 원문에 없음[5].", "source": [5], "url": "https://doi.org/10.1007/s12231-010-9121-4", "source_kind": "paper"},
+ {"role": "literature", "compound": "Total phenolics (gallic acid equivalents)", "compound_ko": "총페놀(갈산 당량)", "part": "열매 과육 알코올 추출물", "content": "알코올 추출물 3.75 ± 0.15 mg GAE/g(과육 건조 분말 기준), 그 에틸아세테이트 분획 2.32 ± 0.21 mg GAE/g[16]", "method": "갈산 당량 총페놀 정량(세부 조건은 초록에 없음)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "과육 건조 분말을 알코올·물로 추출(수율 14.8%·9.2%) 후 에틸아세테이트·부탄올로 분획", "standard": "갈산", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "ACE 억제·혈관 이완 활성을 페놀 농도(GAE)로 맞춰 비교하는 기준으로 씀; 전문 확인 못함(초록만)[16].", "source": [16], "url": "https://pubmed.ncbi.nlm.nih.gov/26770385/", "source_kind": "paper"},
+]
+
+# 추가 인용(본문에 쓰이도록) 확인용
+d = {
+ "slug": "chrysophyllum-cainito", "name_ko": "스타애플", "name_en": "Star apple (caimito)", "scientific_name": "Chrysophyllum cainito L.",
+ "aliases": ["스타애플열매", "Star apple", "Caimito", "Cainito", "Canito", "Camito", "bubby water", "West Indian star apple", "golden leaf"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": nutrients, "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

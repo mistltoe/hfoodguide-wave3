@@ -1,0 +1,86 @@
+{
+ "slug": "chrysophyllum-cainito",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 57,
+ "checked_items": 56,
+ "verified": 100,
+ "fixed": 9,
+ "removed": 2,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "파나마 재배 열매의 과육 당도는 평균 14.9 °Brix로",
+   "after": "파나마에서 2008년에 잰 열매(야생·재배 포함) 과육 당도는 평균 14.9 °Brix로",
+   "why": "[5] 전문: 14.9 °Brix는 2008년 전체 표본 평균이며 재배형만의 값이 아님(야생 13.6, 재배 16.6)"
+  },
+  {
+   "where": "sections.overview",
+   "before": "이 종을 원재료로 하는 건강기능식품 고시형 원료는 목록에서 확인되지 않는다[1].",
+   "after": "이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.",
+   "why": "[1]은 식품원료 목록(I1020)이라 건강기능식품 고시형 원료 여부를 뒷받침하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "나무가 열매를 맺기까지 약 15년이 걸릴 수 있다고 적혀 있다[5]",
+   "after": "나무는 약 15년 안에 열매를 맺기 시작한다고 적혀 있다[5]",
+   "why": "[5] 전문: 'may come into bearing within about 15 years'(15년 '안에')"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "Chrysophyllum albidum(최근 Gambeya 속으로 다루기도 함)으로",
+   "after": "Chrysophyllum albidum으로",
+   "why": "[23] 초록에 Gambeya 속 이동 언급 없음 — 출처 없는 분류 주장 삭제"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 사포타과의 다른 속 과일이다[24].",
+   "after": "같은 사포타과의 다른 속 과일이다[24]. 식약처 목록에도 아비우는 'Abiu열매(Pouteria caimito; Yellow star apple, Caimito)'라는 별도 원료로 올라 있어, 영어 이름 'Caimito'만으로는 두 원료를 구분할 수 없다[1].",
+   "why": "I1020 원자료에서 Abiu열매 행의 영문명에 Yellow star apple·Caimito가 있어 이명 혼동 위험을 보탬"
+  },
+  {
+   "where": "sections.safety",
+   "before": " 미국 농무부 성분 데이터베이스에서 옮긴 후보 자료에도 씨의 같은 계열 배당체가 최대 12,000 ppm으로 기록되어 있다[2].",
+   "after": "",
+   "why": "[2] USDA Duke DB 원 페이지를 이 환경에서 열 수 없어(호스트 접근 불가) 대조 불가 — 삭제(값 12,000 ppm=1.2%는 [3]의 루쿠민 1.2%와 같으므로 [3]으로 충분)"
+  },
+  {
+   "where": "compounds.Gallic acid.content_text",
+   "before": "열매에서 동정[4]; 유카탄산 자주색 스타애플 동결건조 껍질에서 페룰산·카페산·시납산·엘라그산·미리세틴과 함께 확인[11]",
+   "after": "열매에서 동정[4]; 유카탄산 열대과일 세 가지(자주색 스타애플·캐슈 2종)의 동결건조 껍질에서 페룰산·카페산·시납산·엘라그산·미리세틴과 함께 확인(과일별 구분은 초록에 없음)[11]",
+   "why": "[11] 초록은 세 과일 껍질 전체에서 6종을 확인했다고만 씀 — 스타애플 단독 결과처럼 쓰지 않음"
+  },
+  {
+   "where": "compounds.Lucumin.content_text",
+   "before": "씨 1.2%[3]; 씨의 (αR)-α-[(6-O-β-D-자일로피라노실-β-D-글루코피라노실)옥시]벤젠아세토나이트릴 최대 12,000 ppm[2]",
+   "after": "씨 1.2%[3]",
+   "why": "[2] 원문 미확인 — 데이터베이스 값 삭제"
+  },
+  {
+   "where": "compounds.Citral.activity_ko",
+   "before": "잎 정유 최소억제농도 황색포도상구균 0.781251 mg/mL(시험관)[22]",
+   "after": "씨 정유 최소억제농도 12.5 mg/mL(황색포도상구균·대장균·폐렴막대균), 잎 정유(황색포도상구균 0.781251 mg/mL)보다 약함(시험관); 씨는 허용 부위 아님[22]",
+   "why": "시트랄은 씨 정유 성분인데 잎 정유의 MIC를 활성으로 붙였음 — [22] 초록의 씨 정유 값으로 바꿈"
+  },
+  {
+   "where": "compounds.Lysine",
+   "before": "{\"name\": \"Lysine\", \"name_ko\": \"라이신\", \"class\": \"아미노산\", \"role\": \"nutrient\", \"part\": \"열매\", \"content_text\": \"열매 최대 670 ppm(데이터베이스 기록)[2]\", \"activity_ko\": \"필수 아미노산; 열매에 여러 아미노산이 있다고 정리됨[3]\", \"source\": [2, 3]}",
+   "after": "(삭제)",
+   "why": "함량 670 ppm은 열지 못한 [2]에만 기대고, [3]은 라이신을 따로 말하지 않음"
+  },
+  {
+   "where": "sources[13→12].title",
+   "before": "Chrysophyllum cainito (apple-star): a fruit with gastroprotective activity in experimental ulcer models — Inflammopharmacology 2018 (PMID 29222687, 초록만 확인)",
+   "after": "Chrysophyllum cainito (apple-star): a fruit with gastroprotective activity in experimental ulcer models — Inflammopharmacology 2019(온라인 2017) (PMID 29222687, 초록만 확인)",
+   "why": "PubMed: 27권 5호(2019), 온라인 2017-12"
+  }
+ ],
+ "unverifiable_notes": [
+  "[2](구 [3]) 리뷰·[4](구 [5]) 파나마 연구는 PMC 전문으로 대조함. 나머지 논문은 PubMed 초록으로 대조(전문 미확인).",
+  "USDA Duke DB(구 [2])는 이 환경에서 호스트 접근이 막혀 열지 못함 — 이 출처에만 기댄 씨 배당체 12,000 ppm 문장과 라이신 670 ppm 항목을 지우고 출처 목록에서 뺌(12,000 ppm=1.2%는 리뷰의 루쿠민 1.2%와 같은 값).",
+  "[4] 파나마 연구의 과육 총페놀 수치는 원문 표(이미지)에 있어 확인하지 못함 — assays 에 이미 그렇게 적혀 있어 유지.",
+  "[15] 항고혈압 연구는 초록만 확인(PMC 전문 미수신).",
+  "식품원료 지위는 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 원자료로 대조: 스타애플열매(Chrysophyllum cainito L.) 사용가능·사용가능부위 열매, card.json 과 일치. 같은 속 아프리칸스타애플열매(C. africanum A. DC.) 별도 행, 아비우(Pouteria caimito) 별도 행 확인."
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "slug": "chrysobalanus-icaco",
+ "name_ko": "코코플럼",
+ "name_en": "Cocoplum (icaco)",
+ "scientific_name": "Chrysobalanus icaco L.",
+ "aliases": [
+  "코코플럼열매",
+  "Cocoplum",
+  "Icaco",
+  "Guajiru(과지루)",
+  "Abajeru(아바제루)",
+  "Caco(카코)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "코코플럼(Chrysobalanus icaco)은 크리소발라누스과(Chrysobalanaceae)의 키 작은 나무 또는 관목으로, 미국 플로리다 남부에서 카리브해, 중남미, 열대 서아프리카까지 자란다[3]. 식약처 「식품원료 목록」에는 원료명 '코코플럼열매'로 한 행이 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 열매'다[1]. 따라서 이 목록으로 식품에 쓸 수 있는 부위는 열매뿐이며, 잎·나무껍질·뿌리는 해당하지 않는다[1]. 같은 목록의 서양자두·자두 행은 '열매(씨앗 제외)'라고 적었지만 코코플럼 행은 '열매'라고만 적었다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매는 지름 약 2.5 cm 안팎의 핵과로[2, 4], 익으면 짙은 붉은색에서 보라색을 띠며 품종(형태형)에 따라 흰색 열매도 있다[3, 4]. 브라질 해안에서는 '과지루(guajiru)'라 부르며 어민 공동체가 생으로 먹거나 잼·젤리로 가공한다[4]. 열매에는 델피니딘·시아니딘 계열 안토시아닌과 칼륨·구리 같은 무기질이 보고되었다[4, 5, 7]. 건강 효과 연구는 쥐 실험과 세포 실험에 머물러 있고, 사람 대상 연구는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "코코플럼은 아메리카와 아프리카 열대 해안에서 먹는 야생 과일이다[4, 10]. 브라질에서는 열매를 과지루(guajiru)라 하고, 아바제루(abajeru)·아리우(ariu)·아주루(ajuro)·마사지냐다프라이아(maçãzinha-da-praia, '해변의 작은 사과')라는 이름도 쓴다[4]. 약용 식물로서는 브라질에서 '그라제루(Grageru)'·'아바제루(Abageru)'라고도 부른다[22]. 멕시코에서는 '카코(Caco)'라 부르며 치아파스·유카탄·오악사카·킨타나로오·게레로·타바스코주에 자란다[18].\n\n멕시코에서는 익은 열매를 설탕 조림·젤리·음료로 쓰고, 잎·뿌리·나무껍질·씨앗은 말라리아·출혈·소화기 질환·염증 등에 민간약으로 써 왔다[18]. 아프리카와 아메리카에서는 이 식물을 당뇨병 등 여러 질환에 약용 식품으로 써 왔다고 보고되었다[22]. 다만 이런 민간 용도는 대부분 잎·씨앗에 관한 것이고, 식약처 목록이 허용한 부위인 열매와는 다르다[1, 18]. 미국 플로리다 남부에서는 관상용 조경 식물로 흔히 심는다[3, 13]. 한글 이름 '코코플럼'은 영어 이름 cocoplum을 옮긴 것으로 보이며, 국내 표준 국명이나 도입 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "코코플럼은 모래땅에서 덤불을 이루거나 바위 노출지에 홀로 자라는 관목이다[3]. 브라질에서는 해안 사구 식생(헤스칭가)과 아마존 북부 숲에 분포한다[4]. 열매는 부드럽고 약간 단 과육이 단단한 내과피(씨껍질)를 둘러싼 핵과이고, 씨는 세로 골이 진 눈물방울 모양의 핵 속에 흰색으로 들어 있다[3]. 열매 색은 짙은 보라에서 흰색까지 품종에 따라 다르다[3]. 익은 열매는 저절로 떨어지며, 물에 떠서 먼 거리를 이동할 수 있다[3].\n\n카리브해 14종 비교 연구에서 이 종 열매는 평균 지름 25.9 mm, 길이 28.2 mm, 무게 9.5 g이었고, 바닷물에 띄운 열매의 6%가 90일 뒤에도 떠 있으면서 씨앗이 살아 있었다[2]. 이는 비교한 14종 가운데 가장 긴 기록이었으며, 이 종은 조사한 44개 섬 중 33개 섬에 분포해 가장 널리 퍼져 있었다[2]. 연구진은 씨앗 속이 비어 있어 과육이 없어진 뒤에도 뜬다고 적었다[2]. 플로리다에서는 고퍼거북이 열매를 통째로 삼켜 씨앗을 퍼뜨리며, 배설된 씨앗은 손으로 과육을 벗긴 씨앗보다 일찍 싹텄다[3]. 브라질 열매 연구에서는 익은 열매를 비호흡급등형(non-climacteric) 과실로 다루었다[4]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "크리소발라누스과는 531종이 알려진 범열대 나무·관목 과이며, 그 가운데 75%가 아메리카 열대에 산다[11]. 엽록체 유전체 계통 연구에서 이 과는 구열대에서 기원했고, 아메리카 열대의 큰 갈래는 약 2800만 년 전 아프리카에서 한 번 건너온 뒤 빠르게 분화한 것으로 추정되었다[11]. 같은 연구는 리카니아(Licania)속과 히르텔라(Hirtella)속이 각각 하나의 무리가 아님(다계통)을 보였다[11]. 크리소발라누스속은 문헌에 4종이 보고되었으나 자세히 연구된 것은 C. icaco 하나뿐이라는 종설이 있다[10]. 브라질 연구는 이 속에 다른 2종이 있고 C. icaco만 아메리카 전역과 아프리카에 퍼져 있다고 적었다[4].\n\n이름에 '플럼'이 들어가지만 자두(Prunus)와는 다른 과이다[1, 11]. 식약처 목록에는 자바플럼열매(Syzygium cumini), 카카두플럼열매(Terminalia ferdinandiana), 나탈플럼열매(Carissa grandiflora), 서양자두(Prunus domestica) 같은 '플럼' 이름 원료가 따로 있으며 모두 다른 종이다[1]. 한편 이 종의 열매는 형태에 따라 흰색·붉은색·검은색 세 가지로 나뉘며, 성분 지문으로는 붉은 형과 흰·검은 형이 서로 다른 두 화학형으로 구분되었다[9]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "코코플럼은 미국 플로리다 남부의 자생 식물로, 그 지역에서 가장 흔한 조경 식물 중 하나이며 묘포장에서 화분으로 길러 낸다[13]. 1년생 묘목 30그루를 화분에서 6개월 기른 시비 연구에서는 10월에 완효성 비료(8N-3P-9K) 30 g을 준 뒤 11월과 3월에 15 g씩 더 준 처리가, 더 많은 비료를 준 처리보다 유출 오염이 적으면서도 생육에 충분한 양분을 공급했다고 결론지었다[13]. 플로리다 주택가 자연보호지에 2004년 봄 조경용으로 심은 높이 약 1 m의 묘목 4그루는 2006년 말부터 열매를 맺었다[3].\n\n브라질에서는 주로 해안 사구의 야생 나무에서 열매를 손으로 따며, 바이아주 연구에서는 2월에 완숙(짙은 붉은색~보라색) 열매를 수확했다[4]. 두 산지 열매는 무기질 함량과 맛 평가가 달랐고, 연구진은 토양·기후 조건 차이를 원인으로 추정했다[4]. 연구진은 이 열매가 거의 상업적으로 유통되지 않는다고 적었다[4]. 세계 재배 면적·생산량 통계는 확인하지 못함. 국내 재배·생산 통계도 로컬 통계 자료(농작물생산조사·특용작물 생산실적)에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "익은 열매는 생으로 먹거나 잼·젤리·설탕 조림으로 가공한다[4]. 멕시코에서는 음료로도 쓴다[18]. 브라질 두 지역 열매의 과육 수율(씨를 뺀 무게 비율)은 평균 71.3%와 73.4%였고, 리우그란데두노르치주 열매의 당도는 13.33 °Brix였다[4]. 과육의 pH는 4.6보다 높아 미국 식품의약국 기준의 저산성 식품에 해당했고, 수분활성도가 높아 쉽게 상한다[4]. 이 논문이 인용한 콜롬비아 연구에서는 평균 28 °C에서 저장 수명이 3일이었다[4]. 소비자 평가에서는 '그냥 단맛'이라는 평과 함께 과육이 얇다는 불만이 나왔고, 바이아주 열매에서는 약한 떫은맛이 지적되었다[4].\n\n열매와 열매 추출물의 기능 연구는 동물·세포 단계다[6, 7, 8]. 쥐(위스타 수컷)에게 열매를 하루 100–400 mg/kg씩 14일 투여한 뒤 항암제 독소루비신 15 mg/kg을 주사한 실험에서 독소루비신이 일으킨 DNA 손상과 염증 유전자 발현이 줄었다[6, 8]. 열매 안토시아닌 추출물은 대장암 세포 증식을 억제하고 정상 대장 섬유모세포의 염증 표지를 낮췄다[7]. 세포 실험 농도(갈산 당량 10–20 μg/mL)와 쥐 투여량은 사람의 열매 섭취와 직접 비교할 수 없으며, 이 결과를 사람에게 그대로 적용할 수는 없다[6, 7]. 이 원료로 만든 국내 건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "크리소발라누스과에서는 51종의 엽록체 유전체 전체를 조립하고 88종을 추가로 해독해 139종의 시간 보정 계통수를 만든 연구가 있다[11]. 그보다 앞서 이 과의 8종을 얕게 전장 해독(genome skimming)해 핵 리보솜 DNA, 엽록체 유전체 전체, 미토콘드리아 유전체 상당 부분을 조립했다[12]. 이 연구에서 엽록체 유전체 계통수는 내부 마디 7개 중 5개를 풀었지만 미토콘드리아·핵 리보솜 DNA 계통수는 대부분 풀지 못했다[12]. 두 연구의 표본에 C. icaco가 들어갔는지는 초록으로 확인하지 못함.\n\n종 안의 다양성으로는 열매 색에 따른 흰색·붉은색·검은색 형태형이 있으며, 초고성능 액체크로마토그래피 지문과 다변량 분석으로 붉은 형과 나머지 두 형이 다른 화학형으로 나뉘었다[9]. 연구진은 세 형태형을 성분상 서로 같다고 볼 수 없다고 결론지었다[9]. 카리브해 섬 사이 개체군의 유전적 연결성은 아직 연구되지 않아 후속 연구가 필요하다고 제안되었다[2]. 이 종의 핵 유전체 해독과 염색체 수는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 코코플럼열매는 '사용가능' 원료이며 사용 부위는 열매로 한정된다[1]. 열매 자체의 알레르기·잔류농약·독성 성분에 관한 국내외 공공기관 안전 정보는 확인하지 못함. 열매를 하루 최대 400 mg/kg씩 14일 투여한 쥐 실험 초록에는 독성 소견이 따로 적혀 있지 않았지만, 이는 독성 시험으로 설계된 연구가 아니다[6].\n\n독성 연구는 대부분 식품 사용 부위가 아닌 잎과 씨앗을 대상으로 했다[14, 15, 16, 17]. 잎 물 추출물은 생쥐에 2000 mg/kg 한 번 먹였을 때 사망이나 이상 증상이 없었으나, 100–400 mg/kg을 28일 반복 투여하자 체중이 줄고 간 효소(ALT·AST)가 오르며 간 조직 변화가 나타났다[14]. 연구진은 이 식물을 오래 쓸 때 주의하라고 권고했다[14]. 임신 쥐에게 잎 추출물 100–400 mg/kg을 준 연구에서는 생식 독성이 없었으나 일부 골격 변화와 낮은 수준의 전신 독성이 관찰되었다[15]. 잎 추출물은 시험관에서 플라스미드 DNA 단일가닥 절단을 일으켜 유전독성 가능성이 제기되었다[16]. 씨앗 물 추출물의 생쥐 경구 반수치사량은 2 g/kg보다 컸다[17]. 씨앗 기름에는 리칸산·파리나르산 같은 특이 공액 지방산이 들어 있으나 그 안전성 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Delphinidin",
+   "name_ko": "델피니딘(배당체)",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "열매 안토시아닌 추출물의 주요 성분(델피니딘 유도체); 함량은 초록에 없음[7]",
+   "activity_ko": "열매 안토시아닌 추출물로 대장암 세포 증식 억제·정상 대장 세포 염증 표지 감소(세포 실험)[7]",
+   "source": [
+    7,
+    5
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Cyanidin",
+   "name_ko": "시아니딘(배당체)",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "열매 추출물의 주요 안토시아닌 중 하나(시아니딘 유도체)[7]; 과지루 열매에서 아실화 안토시아닌 여러 개 확인[5]",
+   "activity_ko": "열매 색소[5]; 열매 안토시아닌 혼합물로서 세포 실험 항염 활성[7]",
+   "source": [
+    7,
+    5
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Petunidin",
+   "name_ko": "페투니딘(배당체)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 추출물의 주요 안토시아닌 중 하나(페투니딘 유도체, 함량 미기재)[7]",
+   "activity_ko": "열매 안토시아닌 혼합물로서 세포 실험 항염 활성[7]",
+   "source": [
+    7
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Peonidin",
+   "name_ko": "페오니딘(배당체)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 추출물의 주요 안토시아닌 중 하나(페오니딘 유도체, 함량 미기재)[7]",
+   "activity_ko": "열매 안토시아닌 혼합물로서 세포 실험 항염 활성[7]",
+   "source": [
+    7
+   ],
+   "class": "안토시아닌"
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨",
+   "role": "nutrient",
+   "part": "열매(씨 뺀 과육+껍질)",
+   "content_text": "측정 원소 중 최고 206 mg/100 g(초록 기재, 생·건 기준 초록에 미기재); 100 g 섭취 시 권장량의 약 4%[4]",
+   "activity_ko": "필수 무기질[4]",
+   "source": [
+    4
+   ],
+   "class": "무기질"
+  },
+  {
+   "name": "Copper",
+   "name_ko": "구리",
+   "role": "nutrient",
+   "part": "열매(씨 뺀 과육+껍질)",
+   "content_text": "100 g 섭취 시 권장량의 12%(바이아주)·16%(리우그란데두노르치주)[4]",
+   "activity_ko": "연구진이 이 열매를 '특히 구리의 좋은 공급원'으로 결론[4]",
+   "source": [
+    4
+   ],
+   "class": "무기질"
+  },
+  {
+   "name": "Magnesium",
+   "name_ko": "마그네슘",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "100 g 섭취 시 권장량의 6%·7%[4]; 쥐 실험 논문에서 '상당량' 검출(ICP-MS, 수치는 초록에 없음)[6]",
+   "activity_ko": "필수 무기질[4, 6]",
+   "source": [
+    4,
+    6
+   ],
+   "class": "무기질"
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "ICP-MS 분석에서 '상당량' 검출[6]; 브라질 두 지역 시료는 흑연로 원자흡광법 검출한계(0.004 μg/g) 미만[4]",
+   "activity_ko": "항산화 효소 구성 원소; 산지·분석법에 따라 결과가 다름[4, 6]",
+   "source": [
+    6,
+    4
+   ],
+   "class": "무기질"
+  },
+  {
+   "name": "Chromium",
+   "name_ko": "크롬",
+   "role": "nutrient",
+   "part": "열매(씨 뺀 과육+껍질)",
+   "content_text": "측정 원소 중 최저 0.87 μg/100 g(초록 기재)[4]",
+   "activity_ko": "미량 원소; 바이아주 열매에서만 더 높았음[4]",
+   "source": [
+    4
+   ],
+   "class": "무기질"
+  },
+  {
+   "name": "Myricitrin",
+   "name_ko": "미리시트린",
+   "role": "bioactive",
+   "part": "잎(식품 사용 부위 아님)",
+   "content_text": "잎 물 추출물의 주성분 중 하나(HPLC, 함량 미기재)[20]",
+   "activity_ko": "잎 추출물 생쥐(고지방식) 실험의 항산화 성분 후보; 열매 결과 아님[20]",
+   "source": [
+    20
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "role": "bioactive",
+   "part": "잎(식품 사용 부위 아님)",
+   "content_text": "잎 물 추출물의 주성분 중 하나(함량 미기재)[20]",
+   "activity_ko": "잎 추출물 성분; 열매 결과 아님[20]",
+   "source": [
+    20
+   ],
+   "class": "플라보놀 배당체"
+  },
+  {
+   "name": "Pomolic acid",
+   "name_ko": "포몰산",
+   "role": "bioactive",
+   "part": "잎(식품 사용 부위 아님)",
+   "content_text": "C. icaco 잎과 근연종 Licania tomentosa 잎·열매에서 베툴린산·올레아놀산과 함께 분리됨 — 어느 성분이 어느 종에서 나왔는지 초록에 구분 없음[21]",
+   "activity_ko": "분리 트리테르펜들이 백혈병 세포주(K562·다제내성 Lucena 1) 증식 억제·세포자멸 유도(세포 실험)[21]",
+   "source": [
+    21
+   ],
+   "class": "오환성 트리테르펜"
+  },
+  {
+   "name": "Licanic acid",
+   "name_ko": "리칸산",
+   "role": "bioactive",
+   "part": "씨앗 기름(식품 사용 부위 아님)",
+   "content_text": "씨앗 기름 가스크로마토그래피에서 특이 신호 4개 중 2개가 리칸산 기하이성질체[19]",
+   "activity_ko": "이 과 식물 씨 기름의 특징 지방산; 열매 과육 성분 아님[19]",
+   "source": [
+    19
+   ],
+   "class": "공액 케토 지방산"
+  },
+  {
+   "name": "Parinaric acid",
+   "name_ko": "파리나르산",
+   "role": "bioactive",
+   "part": "씨앗 기름(식품 사용 부위 아님)",
+   "content_text": "씨앗 기름의 특이 신호 나머지 한 쌍을 파리나르산 구조로 판정[19]",
+   "activity_ko": "생물자원 DB 후보 성분(옥타데카테트라엔산 메틸에스터)과 같은 계열; 열매 과육 성분 아님[19]",
+   "source": [
+    19
+   ],
+   "class": "공액 테트라엔 지방산"
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Copper",
+   "compound_ko": "구리(K·Na·Mg·Ca·Fe·Zn·Mn·Cr·Ni 등 12원소 동시 정량)",
+   "part": "열매(씨 뺀 과육+껍질)",
+   "content": "100 g 섭취 시 Cu 권장량의 12%(바이아주)·16%(리우그란데두노르치주); 원소 범위 K 206 mg/100 g ~ Cr 0.87 μg/100 g[4]",
+   "method": "FAAS·GFAAS(원자흡광분광법), Na·K 는 원자방출분광법",
+   "conditions": {
+    "instrument": "Varian Spectra AA 55B(Na·K 원자방출, Mg·Ca·Fe·Zn·Cu 불꽃 원자흡광); Mn·Cr·Se·Mo·Ni 은 흑연로 원자흡광분광기 Varian Spectra AA 240FGZ",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "Cu 324.8 nm(공기-아세틸렌 연료 과잉 불꽃)",
+    "injection": "",
+    "sample_prep": "씨를 뺀 과육(껍질 포함) 탈수물 약 0.25 g + 진한 질산 4 mL, 15분 방치 후 마이크로파 분해(MARS-6, 1030–1800 W, 200 °C 40분, 15분 냉각) → 초순수로 10 mL",
+    "standard": "외부 검량선(Se 만 표준물첨가법); 인증표준물질 NIST 1468a(쌀가루)·NIST 1515(사과잎) 동시 분석",
+    "linearity": "",
+    "lod": "Cu 0.13 μg/g(바탕시험 표준편차×3, n=6)",
+    "loq": "",
+    "recovery": "전 원소 정확도 75–115.1%, 정밀도 2.8–28.7%"
+   },
+   "rationale": "연구진이 이 열매를 특히 구리의 좋은 공급원으로 결론지었고, 무기질 함량이 산지 차이와 맛 평가를 가르는 지표로 쓰임; 전문 확인, 원소별 함량 표는 받지 못함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1016/j.heliyon.2023.e20291",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cyanidin",
+   "compound_ko": "안토시아닌(시아니딘·델피니딘·페오니딘·페투니딘 등 배당체, 아실화형 포함)",
+   "part": "열매",
+   "content": "초록에 함량 미기재[5]",
+   "method": "HPLC-MS/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매 색을 내는 안토시아닌을 동정·정량한 연구로, 과지루에서 아실화 배당체가 여러 개 확인됨; 전문 확인 못함[5].",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.1021/jf0715020",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Delphinidin",
+   "compound_ko": "폴리페놀·19개 원소",
+   "part": "열매",
+   "content": "폴리페놀·마그네슘·셀레늄 '상당량'(수치는 초록에 없음)[6]",
+   "method": "HPLC-DAD-MS/MS(폴리페놀), ICP-MS(원소)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "쥐 실험에 쓴 열매의 폴리페놀을 정량·동정하고 원소를 측정해 효과와 성분을 연결함; 전문 확인 못함[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.1080/15287394.2016.1193454",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 코코플럼열매(Chrysobalanus icaco), 사용가능, 사용가능부위: 열매; 자바플럼·카카두플럼·나탈플럼·서양자두 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Testing the oceanic dispersal potential of Caribbean fleshy-fruited plants — PLoS One 2026;21(5):e0348628 (PMID 42201930, PMC13215481, 전문 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0348628",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Endozoochory of Chrysobalanus icaco (Cocoplum) by Gopherus polyphemus (Gopher Tortoise) facilitates rapid germination and colonization in a suburban nature preserve — AoB Plants 2020;12(4):plaa024 (PMID 32695302, PMC7363059, 전문 확인)",
+   "url": "https://doi.org/10.1093/aobpla/plaa024",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Macro and trace element compositions and physicochemical parameters of guajiru fruits (Chrysobalanus icaco L.) from two Brazilian states — Heliyon 2023;9(10):e20291 (PMID 37767506, PMC10520804, 전문 확인, 표 수치는 받지 못함)",
+   "url": "https://doi.org/10.1016/j.heliyon.2023.e20291",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Anthocyanins present in selected tropical fruits: acerola, jambolão, jussara, and guajiru — J Agric Food Chem 2007;55(23):9389-94 (PMID 17929888, 초록 확인)",
+   "url": "https://doi.org/10.1021/jf0715020",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Chrysobalanus icaco L. fruits inhibit NADPH oxidase complex and protect DNA against doxorubicin-induced damage in Wistar male rats — J Toxicol Environ Health A 2016;79(20):885-93 (PMID 27494754, 초록 확인)",
+   "url": "https://doi.org/10.1080/15287394.2016.1193454",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Cocoplum (Chrysobalanus icaco L.) anthocyanins exert anti-inflammatory activity in human colon cancer and non-malignant colon cells — Food Funct 2017;8(1):307-314 (PMID 28009871, 초록 확인)",
+   "url": "https://doi.org/10.1039/c6fo01498d",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Cocoplum (Chrysobalanus icaco L.) decreases doxorubicin-induced DNA damage and downregulates Gadd45a, Il-1β, and Tnf-α in vivo — Food Res Int 2018;105:996-1002 (PMID 29433299, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2017.12.009",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Chemotaxonomic study of Chrysobalanus icaco Linnaeus (Chrysobalanaceae) using UHPLC-DAD fingerprint in combination with multivariate analysis — J Sep Sci 2017;40(10):2161-2169 (PMID 28371452, 초록 확인)",
+   "url": "https://doi.org/10.1002/jssc.201601444",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Chrysobalanus icaco: A review of its phytochemistry and pharmacology — J Integr Med 2021;19(1):13-19 (PMID 33097429, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.joim.2020.10.001",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Unraveling the biogeographical history of Chrysobalanaceae from plastid genomes — Am J Bot 2016;103(6):1089-102 (PMID 27329943, 초록 확인)",
+   "url": "https://doi.org/10.3732/ajb.1500463",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Genome skimming by shotgun sequencing helps resolve the phylogeny of a pantropical tree family — Mol Ecol Resour 2014;14(5):966-75 (PMID 24606032, 초록 확인)",
+   "url": "https://doi.org/10.1111/1755-0998.12246",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Precision Horticulture: Application of Optical Sensor Technology for Nitrogen Monitoring Status in Cocoplum, a Native Landscaping Plant — Plants (Basel) 2023;12(4):760 (PMID 36840108, PMC9959769, 전문 확인)",
+   "url": "https://doi.org/10.3390/plants12040760",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Acute and repeated dose 28-day oral toxicity of Chrysobalanus icaco L. leaf aqueous extract — Regul Toxicol Pharmacol 2020;113:104643 (PMID 32199870, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.yrtph.2020.104643",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Effect of the Aqueous Extract of Chrysobalanus icaco Leaves on Maternal Reproductive Outcomes and Fetal Development in Wistar Rats — Curr Issues Mol Biol 2023;45(9):7617-7629 (PMID 37754263, PMC10529352, 초록 확인)",
+   "url": "https://doi.org/10.3390/cimb45090479",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Genotoxic potentiality of aqueous extract prepared from Chrysobalanus icaco L. leaves — Toxicol Lett 2004;151(3):481-7 (PMID 15261992, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.toxlet.2004.03.014",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Evaluation of the Antioxidant and Anti-Inflammatory Activities and Acute Toxicity of Caco Seed (Chrysobalanus icaco L.) in Murine Models — Molecules 2024;29(14):3243 (PMID 39064822, PMC11279230, 초록 확인)",
+   "url": "https://doi.org/10.3390/molecules29143243",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "In vivo evaluation of hypolipidaemic and antioxidant effects of aqueous extract from Caco seeds (Chrysobalanus icaco L.) and action mechanisms by in silico prediction in a model of hypertriglyceridaemia — Br J Nutr 2026;135(12):1283-1294 (PMID 41744101, PMC13423526, 서론 전문 확인)",
+   "url": "https://doi.org/10.1017/S0007114526106667",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "[Oil seeds from the American tropics] (스페인어, 영문 초록) — Arch Latinoam Nutr 1981;31(2):350-70 (PMID 7337522, 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7337522/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Aqueous extract of Chrysobalanus icaco leaves, in lower doses, prevent fat gain in obese high-fat fed mice — J Ethnopharmacol 2016;179:92-100 (PMID 26723470, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2015.12.047",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Pentacyclic triterpenes from Chrysobalanaceae species: cytotoxicity on multidrug resistant and sensitive leukemia cell lines — Cancer Lett 2003;190(2):165-9 (PMID 12565171, 초록 확인)",
+   "url": "https://doi.org/10.1016/s0304-3835(02)00593-1",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Antidiabetic effect of the Chrysobalanus icaco L. aqueous extract in rats — J Med Food 2013;16(6):538-43 (PMID 23734998, 초록 확인)",
+   "url": "https://doi.org/10.1089/jmf.2012.0084",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

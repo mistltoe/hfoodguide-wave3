@@ -1,0 +1,883 @@
+Introduction
+
+Plants, being sessile organisms, had to diversify greatly during the course of evolution to colonize the highly heterogeneous abiotic conditions found across the entire globe, such as extremes of temperature, high and low irradiance levels, high salinity, and drought []. Salinity is the most important of the abiotic stresses from the point of view of agriculture because it severely affects the yield of all crops [], and approximately 6.0% of the land worldwide, more than 800 million ha, is affected by salt []. The effects of salt on crops, as shown by the available data, are in contrast to the need to increase food production at a rate of 1.8% per year to feed the increasing world population, which is projected to be 9.5 billion by the year 2050 []. Salinity is also unique among the abiotic stresses in that it has two effector components, ionic effects and dehydration, which lead to multiple effects via osmotic stress, induced water deficits, ion toxicity, ionic imbalance, etc. []. Because salt affects plants in multiple ways, salinity tolerance is controlled by many genes involved in different processes, such as ion compartmentalization, extrusion and selectivity, the synthesis of compatible solutes, and reactive oxygen species (ROS) scavenging [–]. However, these processes are not universal, and depending upon the metabolic background of the species, the relative importance of each individual biochemical pathway in salt tolerance may vary. The quantitative nature of salt tolerance makes it one of the more complex physiological processes yet to be fully understood.
+
+Despite the complexities involved in the processes related to salt tolerance, halophytes are well adapted to high salinity and can produce biomasses varying from 5.2 to 24.6 t/ha, depending on the species, under full seawater irrigation, which is comparable to the range of yields from conventional forage grasses []. However, salt tolerance levels in halophytes also vary greatly, ranging from the low salinity levels of coastal lagoons [] to salinity tolerance levels as high as 1.3 M NaCl (twice the salinity of seawater), as observed in[–]. In contrast, the salt tolerance of glycophytes reaches a maximum of 5 g/L of total dissolved solids (TDSs), which is observed in crop plants such as sugar beets () and barley (), while crops such as rice, which is harmed by 20 to 50 mM NaCl, are among the least salt-tolerance plants [,]. Such a gradient and diversity in salt tolerance among plant species not only suggests the functioning of more than one mechanism [,] but also indicates varying degrees of interaction among the mechanisms involved in salt tolerance []. The mechanisms underlying salt tolerance may include the accumulation of osmolytes, osmotic adjustments [], the sequestration and compartmentalization of Na[], the extrusion and secretion of Na[], ROS scavenging [], and the synthesis of phytohormones []. Because salt tolerance is a quantitative trait characteristic of halophytes, it is unlikely that an understanding to the underlying mechanism is going to be successfully addressed through the breeding of crop plants, although quantitative trait loci (QTLs) for the trait have been identified in rice []. The use of breeding techniques in understanding the mechanisms of salt tolerance in halophytes is handicapped by the unavailability of parental contrasts for salt tolerance for the use in breeding. Hence, breeding for salt tolerance has remained restricted to crop plants, which are not halophytes, although some do show significant salt tolerance. However, it is believed that a detailed understanding of the mechanisms underlying salt tolerance in plants is likely to be developed only by extending the investigation to halophytes []. It has been proposed that any trait that is universally present in halophytes could represent an example of convergent evolution and represent a trait essential for salt tolerance, and such a trait would be a promising candidate for the eventual transfer from halophytes to glycophytes [,].
+
+Although salinity tolerance is accomplished via several organized biological processes operating at the cellular level, as stated above, salt tolerance may be far more complex than is currently thought. This is because studies of the response of various plant species to salt have also revealed significant influences of salinity on several physiological and biochemical processes not directly involved in ion relation or osmotic adjustments, such as the activation of signal perception and transduction [], increases in photosynthesis and energy metabolism [], changes in protein biosynthesis, folding and decay [], enhancements in MAPK (mitogen-activated protein kinase) activities [] and the activation of antioxidative machinery []. In addition, the accumulation of heat-shock proteins (HSPs), jasmonic acid-induced proteins (JAIPs) and late embryogenesis abundant (LEA) proteins has also been reported in plants upon exposure to salinity [–]. Moreover, salt tolerance is also associated with the enhanced expression of multiple transcription factor families, such as basic leucine zipper (bZIP) [] and NAC, an abbreviation for NAM (No apical meristem), ATAF (transcription activation factor) and CUC (Cup-shaped cotyledon) [], which individually regulate the expression of several genes.
+
+The adaptations of plants to abiotic stresses take several forms and are observable from the molecular to cellular and biochemical to physiological levels [,,,]. However, any adaptive process is preceded by a response to the changing environment, and one such early-stage adaptive response includes dynamic transcriptome changes, the products of which are responsible for enabling the organism to achieve cellular and organismal homeostasis through the co-ordination of various molecular events. The study of changes in transcriptomes in response to an abiotic stress may allow for the identification of the genes related to the stress. With regard to salinity, several such studies have been carried out, but most have focused only on glycophytes [,]. Model plant species are primarily used because their genomes are known, making the interpretation of findings simple and convenient; however, the fact that these are non-halophyte species means that these studies may not be suitable for the exploration of salt resistance mechanisms and the related genes.
+
+With regard to studies on the responses and tolerance to salt, halophytes are ideal plants as they survive, grow normally and complete their life cycle in saline environments, some of which have salt concentrations equivalent to that of seawater. There are approximately 500 species of halophytes, constituting approximately 0.14% of known plant species []. However, the lack of whole-genome sequence data presents difficulties in considering these non-model plant species for use in understanding their response to salt stress at the molecular level. Nevertheless, high-throughput transcriptome sequencing, which is a powerful approach for discovering the molecular basis behind various biological events, is increasingly being used to understand the response to abiotic stresses at the genetic level. With regard to salinity, comparative transcriptome analyses have recently been reported for a few halophytes, such as[],[],[],[],[],[],[] and[], exposed and unexposed to salt.
+
+The current work examines the response of(L.) to salt using high-throughput Illumina sequencing. This species is an herbaceous plant with succulent leaves that grows up to 30 cm in height and plays important roles in environmental protection, such as sand dune fixation. This species is a self-pollinated bisexual dicot of the family Chenopodiaceae that produces 1- to 2-mm reddish brown seeds, with= 36 chromosomes []. The optimal NaCl concentration for its growth is ~350 mM, but it grows well at a range of 500 mM to 50 mM NaCl, which makes it well-suited for studies on the response to salt [] and for the physiological and molecular characterization of salt tolerance in plants []. Previously, Sahu and Shaw [] reported it to be a glycinebetaine accumulator. The present work not only supports this finding but also reports numerous changes in gene expression in this plant in response to NaCl. This study identified many genes involved in biochemical and physiological processes, such as ion transport, osmolyte accumulation, cell wall remodeling, protein modification and degradation, antioxidative defense, and, more importantly, those involved in G protein and phosphoinositide signaling, which could be important for salt tolerance in plants.
+
+Results
+
+Transcriptome sequencing and assembly
+
+After library construction using a Total RNA TruSeq kit (Illumina USA), RNA sequencing was performed on a HiSeq 2000 system using 100 * 2 paired-end sequencing chemistry technique. Output was generated as bcl files that were subjected de-multiplexing to convert them into fastq files. Samples were separated based on the barcodes/index values used in the library construction. The reads having ≥70% of the bases with a quality score ≥Q20 were chosen for downstream application. A quality distribution graph for the control and treated samples for both paired-end reads R1 and R2 depicting the maximum reads with Phred scores above 20 is shown in the. Deep sequencing to a coverage depth of 120x and 80x for control and treatment samples, respectively, using the Illumina platform yielded a total of 180,443,374 and 123,067,034 reads of 100 bases from the cDNA libraries prepared for the transcriptome sequencing of control and 2.0% NaCl-treated (9 h)., respectively (). Low-quality reads were removed using the NGS (next generation sequencing) QC Toolkit, which finally yielded 178,620,034 (98.99%) and 121,809,974 (98.98%) high-quality (HQ) reads from the libraries of the control and treated plants, respectively (). The primary assembly provided 238,306 transcripts with an NP50 of 1,371 bp (). The NP50 value improved to 1,386 after running CD-HIT EST, and the total number of transcripts was reduced by 31% to 72,588 (). The authenticity of the transcript assembly was validated by aligning the reads from both the control and treated samples to all 72,588 transcripts using Bowtie 2. The total length of the de-novo assembled transcripts, which is a rough representation of total transcriptome size, indicates an approximate transcriptome size of 150 MB for the plant ().
+
+10.1371/journal.pone.0163485.t001
+
+Table 1
+
+Details of the raw data and the quality control used for the assembly of the control and 2.0% NaCl-treated (9 h).libraries.
+
+Sample
+
+Total paired raw reads
+
+Total paired HQ reads
+
+Low quality reads
+
+Total data generated (GB)
+
+Approximate transcriptome size (MB)
+
+Expected sequencing depth
+
+Control
+
+180443374
+
+178620034 (98.99%)
+
+1823340
+
+18.04
+
+150
+
+~120x
+
+Treated
+
+123067034
+
+121809974 (98.98%)
+
+1257060
+
+12.31
+
+150
+
+~80x
+
+10.1371/journal.pone.0163485.t002
+
+Table 2
+
+Primary assembly statistics of the control and 2.0% NaCl-treated (9 h).libraries generated using Trinity assembler.
+
+Parameters
+
+Value
+
+Total number of transcripts
+
+238306
+
+Transcriptome length (bp)
+
+154678888
+
+Minimum transcript length (bp)
+
+201
+
+Maximum transcript length (bp)
+
+16589
+
+Average transcript length (bp)
+
+649.08
+
+NP50 contig size (bp)
+
+1371
+
+(G+C)%
+
+40.76
+
+10.1371/journal.pone.0163485.t003
+
+Table 3
+
+Secondary assembly statistics of the control and 2.0% NaCl-treated (9 h).libraries following CD-HIT EST analysis.
+
+Parameters
+
+Value
+
+Number of clustered transcripts
+
+72588
+
+Clustered transcriptome length (bp)
+
+64382019
+
+Minimum transcript length (bp)
+
+301
+
+Maximum transcript length (bp)
+
+16589
+
+Average transcript length (bp)
+
+886.95
+
+NP50
+
+1386
+
+(G+C)%
+
+40.34
+
+Functional annotation
+
+The transcripts assembled were annotated by mapping the non-redundant sequences to the protein sequences available in PlantGDB () and the NCBI () nr protein database using BLASTX searches. In the analysis, 27,434 (38%) transcripts out of 72,588 were annotated according to BLASTX scores using an e value cutoff of 1e-3 and with a minimum query coverage of 50% (). Several of the 27,434 ESTs identified hit the same protein in the BLASTX search, and hence, these were ultimately mapped to 19,850 unique genes (). These identified ESTs were found to match to 249 plant species (). Among these, the top ten plant species shared 87% similarity, while 13% similarity was shared by the remaining 239 plant species. The maximum similarity was shared with(35.76%), followed by that with(20.48%) and Zea mays (11.22%) ().
+
+Differential gene expression in response to salt application
+
+Calculations of ΔΔCt values for the individual genes based on the ΔCt values of the control and treated samples obtained based on their RPKM (reads per kilo base per million) values revealed that 647 genes were upregulated and 735 genes were downregulated by at least 2-fold in response to NaCl application (). Moreover, there were 1,336 genes and 67 genes that were only expressed in either the control or the NaCl treated plants, respectively (). The top 20 upregulated genes and the top 20 downregulated genes are shown in the. The greatest upregulation noted was 7.52-fold for the gene encoding the serpin-Z12-like protein, and the greatest downregulation noted was 2.52-fold for the gene encoding cysteine-rich receptor-like protein kinase 6. The important genes among the top 20 that were upregulated that related to growth, development and salt tolerance were brassinosteroid hydroxylase, the sec14p-like phosphatidylinositol transfer family protein, protein phosphatase 2c, a cell surface glycoprotein, beta expansin and ABC transporter G family member 7. Moreover, there was an upregulation of the enzyme laccase 5, which is involved in cell wall lignification, and of a structural protein, extensin, which is also associated with cell wall maintenance. The top 20 genes that were downregulated included those that encoded proteins such as cysteine-rich receptor-like protein kinase 6, the ankyrin repeat-containing protein, NAC domain transcription factor superfamily proteins, a protein kinase, a serine protease (SBT2 protein), calmodulin binding protein, a leucine-rich repeat-containing protein, three receptor kinases and the hop-interacting protein THI116, which regulates important biochemical and molecular processes (). Heat maps generated to show the differential expression of the genes from various categories involved in important biochemical regulatory roles, including the genes encoding transcription factors (), proteins involved in ubiquitin-mediated modifications of proteins and their degradation (), enzymes and proteins facilitating the synthesis of hormones and osmolytes (), molecular chaperons facilitating protein folding and stabilization of the secondary structure of proteins () and proteins involved in post-transcriptional modifications of mRNAs (), mostly showed that they were upregulated in response to NaCl treatment of..
+
+Gene Ontology (GO) categorization of the total and differentially expressed genes (DEGs)
+
+GO categorization for all genes was performed based on the number of reads of the individual genes in the three main GO categories, i.e., biological process, molecular function and cellular component. There was no change in the percentage of reads in the GO enrichment for molecular function in response to salt application to.(). The number of reads for the total genes in the biological process category increased by 1% and that in the cellular component category decreased by 1% in response to salt application.
+
+Only minimal differences were observed between the reads from the control and treated groups in terms of the percentage of the total reads for the genes categorized in the top 20 biological processes (). However, the expression of the genes related to translation, protein folding, GTP catabolic processes and translational elongation was decreased and that of genes related to protein phosphorylation, methylation and one-carbon metabolic processes was increased noticeably in response to salt application. The genes showing maximum upregulation or downregulation, however, did not belong to the GO categories of the constitutively highly expressed genes. This is reflected in, which represent the GO enriched categories of the top 20 upregulated and top 20 downregulated genes, respectively, in the biological process category. Those showing more than a 5-fold upregulation upon NaCl treatment belonged to categories such as response to copper ions, fatty acid omega oxidation, cellular catabolic processes, fatty acid alpha-oxidation, regulation of intracellular pH and mitochondrial electron transport (). Among the other genes, the upregulation of nine was 3-fold to less than 5-fold, and the remaining genes showed upregulations of less than 3-fold to more than 2.5-fold. The downregulation of genes upon NaCl application was more prominent than their upregulation (). The maximum downregulation observed was 1125.16-fold for a gene enriched in the GO category Golgi to plasma membrane transport. A second gene, belonging to the GO category mitochondrial pyruvate transport, was downregulated by as much as 34.86-fold. Moreover, two genes, one belonging to the GO category regulation of cellular respiration and the other to photosystem II oxygen complex assembly were downregulated by more than 5-fold. Among the remaining genes, 6 showed downregulation by more than 3-fold and the others by more than 2.5-fold.
+
+Similar to the findings for the biological process category, the genes categorized in the top 20 molecular function GO categories did not show marked differences between the control and NaCl-treated plants (). However, there was a noticeable increase in the expression of genes in the metal ion binding and transferase activity GO categories. In contrast, the genes in the protein folding, structural constituent of ribosomes and RNA binding GO categories showed noticeable decreases upon salt application. Two genes individually enriched to the structural constituent of cuticles and lysophosphatidic acid phosphatase activity GO categories showed more than 70-fold increases in expression in response to the salt application (). Eight of the remaining top 20 genes that were upregulated showed increases in expression from 3.2-fold to 6.08-fold in response to NaCl treatment. The upregulation of the rest of the genes was more than 2-fold. Similar to the patterns of upregulation, the downregulation of at least three genes individually enriched in the DNA secondary structure binding, AT DNA binding and pyruvate secondary active transmembrane transporter activity GO categories was highly significant; the genes of the first two categories were downregulated by more than 100-fold, and the gene belonging to the third category was downregulated by more than 35-fold in response to the salt treatment (). The genes in the remaining GO categories showed downregulations from 2.0-fold to 4.73-fold in response to NaCl treatment.
+
+Most of the highly expressed genes in the cellular component category enriched to the chloroplast, membrane, cytoplasm, plastid, integral to membrane and nucleus GO categories, representing more than 40% of the total reads (). Unlike the results in the biological process and molecular function categories, the differential expression of the genes under the individual cellular component GO categories was more noticeable, particularly for the genes enriched under the membrane, cytoplasm, integral to membrane and nucleus GO categories, where expression increased in response to NaCl application (). A noticeable downregulation in expression was observed for the genes enriched in the chloroplast, plastid and chloroplast stroma GO categories (). The top 20 upregulated genes showed variable responses, ranging from 2.02-fold to 17.64-fold, following NaCl application (). However, only four genes, enriching individually to the external side of cell wall, fungal-type cell wall, integral to organelle membrane, primary cell wall and cellular bud neck contractile ring GO categories, showed increases in expression of more than 3-fold (). In contrast to the changes in the upregulated genes, the downregulation of the genes enriched in the cellular component categories was not as pronounced (). The maximum gene downregulation, 8.59-fold, was observed for a gene enriched in the pollen tube tip GO category. The downregulation of three other genes that enriched individually to the extracellular matrix, caveola and cyclin dependent protein GO categories varied from 2.03-fold to 5.23-fold. The downregulation of the remaining genes in response to NaCl application was less than 2.0-fold.
+
+10.1371/journal.pone.0163485.g001
+
+Fig 1
+
+Pie chart showing the influence of NaCl on the distribution of reads among the three GO components, i.e., biological process, molecular function and cellular component.
+
+10.1371/journal.pone.0163485.g002
+
+Fig 2
+
+Top 20 Biological processes as revealed by the GO enrichment of the transcripts.
+
+A) The individual bars represent the percent contribution of the reads to the individual GO terms in decreasing order in the control and NaCl-treated plants. The individual bars in B) and C) represent increases and decreases, respectively, in the expression of the individual genes in the biological process categories presented as changes in the read values (fold changes) in decreasing order in the plants following NaCl application.
+
+10.1371/journal.pone.0163485.g003
+
+Fig 3
+
+Top 20 Molecular function categories as revealed by the GO enrichment of the transcripts.
+
+A) The individual bars represent the percent contribution of the reads to the individual GO terms in decreasing order in the control and NaCl-treated plants. The individual bars in B) and C) represent increases and decreases, respectively, in the expression of the individual genes in the molecular function categories presented as changes in the read values (fold changes) in decreasing order in the plants following NaCl application.
+
+10.1371/journal.pone.0163485.g004
+
+Fig 4
+
+Top 20 Cellular component categories as revealed by the GO enrichment of the transcripts.
+
+A) The individual bars represent the percent contribution of the reads to the individual GO terms in decreasing order in the control and NaCl-treated plants. The individual bars in B) and C) represent increases and decreases, respectively, in the expression of the individual genes in the cellular components categories presented as changes in the read values (fold changes) in decreasing order in the plants following NaCl application.
+
+COGs and MapMan functional categorization of the DEGs
+
+Out of the more than 1500 genes showing a 2-fold change in expression following salt treatment, 391 proteins were found to be homologous to proteins in the COGs (cluster of orthologous groups) database and could be assigned to 21 functional categories (). Most of the proteins were assigned to the following functional categories: energy production and conversion, amino acid transport and metabolism, carbohydrate transport and metabolism, lipid transport and metabolism, transcription, replication, recombination and repair, posttranslational modification, protein turnover and chaperons, secondary metabolite biosynthesis, transport and catabolism, general function prediction only, signal transduction mechanisms and proteins of unknown function. Among these, the majority of the proteins were grouped into the general function prediction only category, which is poorly characterized. In most of the categories, gene upregulation was more likely than downregulation in response to the salt treatment. The majority of the genes encoding proteins belonging to the amino acid transport and metabolism, carbohydrate transport and metabolism, lipid transport and metabolism, and secondary metabolite biosynthesis, transport and catabolism categories showed salt-induced upregulation. For the genes encoding proteins in the general function prediction only category, 55 out of 75 showed an upregulation in response to the salt treatment. A high number of genes encoding proteins categorized to the posttranslational modification, protein turnover and chaperones, and signal transduction mechanisms functional categories also showed upregulation. Moreover, in at least in two functional categories, RNA processing and modification, and co-enzyme transport and metabolism, additional genes were expressed.
+
+To further explore the influence of salinity on the metabolic processes of this species, all the genes were mapped using the MapMan tool ().presents the comparative details of the TAIR (The Arabidopsis Information Resource) genes assigned to various BINs, or functional categories, and their homologs present in.. Approximately 50% of the genes assigned to MapMan pathways showed homology to.(). The majority of the genes represent transcription factors (). The next highest association was for genes involved in protein degradation, development and signaling. A large number of genes were also associated with lipid metabolism, cell wall synthesis and modification, and secondary metabolite synthesis, including that of flavonoids, phenolics and the osmoticum betaine. Moreover, the genes identified also contribute to both anabolic and catabolic carbohydrate metabolism, abiotic stress and redox responses, and G protein, phosphoinositide and hormone signaling.
+
+The color codes indicate that the genes assigned to most of the metabolic pathways showed upregulation in.upon the NaCl treatment (). The most significant influence was observed on the genes encoding transcription factors and those involved in protein degradation, development and protein modification. Most of the genes concerned with lipid metabolism and cell wall synthesis and modifications also showed upregulation in response to the salt treatment. The next most significant influence of the salt treatment was the increase in the expression of the genes associated with hormone signaling and the synthesis of the secondary metabolites, including flavonoids, phenolics and the osmoticum betaine. The genes involved in one-carbon compound metabolism and the metabolism of amino acids and nucleotides also showed enhanced expression in response to the salt treatment. Another important effect of the salt treatment relevant to plant life was the increase in the expression of the genes involved in the synthesis of tetrapyrroles, precursors of chlorophyll biosynthesis. However, in contrast, most of the genes encoding proteins involved in the light reactions were downregulated in response to the salt application. Concomitantly, many genes encoding proteins/enzymes of the Calvin cycle showed a downregulation in response to the salt application. The expression of most of the genes of the anabolic pathways, such as sucrose and starch synthesis, was enhanced upon the treatment of plants with NaCl. The genes involved in the synthesis of amino acids also showed increased expression in response to NaCl treatment. Most of the DEGs of catabolic pathways, such as the tricarboxylic acid cycle, glycolysis and the oxidative pentose phosphate pathway, also showed increased expression in response to the salt treatment, similar to the patterns observed for the genes of the anabolic pathways.
+
+However, among the genes found to be homologous to the MapMan pathway, a much smaller fraction showed a significant upregulation or downregulation in response to the salt treatment (,andFiles); only 612 genes assigned to the MapMan metabolic pathways showed 2-fold or greater changes in expression and/or significant differential expression at≤ 0.05. These were grouped into 34 BINs/categories (). Many of the BINs showed a strong response to salt. For the genes associated with signaling, including hormone signaling and protein modification and degradation, the number showing a significant downregulation was much higher than the number showing a significant upregulation (,). In contrast, the genes associated with development were much more likely to be significantly upregulated than they were to be significantly downregulated in response to the salt treatment. The genes associated with most of the other metabolic pathways, including those associated with cell walls, lipid metabolism, secondary metabolism, stress responses and RNA processing, showed more or less similar levels of significant down- and up-regulation.
+
+10.1371/journal.pone.0163485.g005
+
+Fig 5
+
+Functional categorization of unigenes based on the COGs database.
+
+The individual bars represent the number of unigenes that were downregulated or upregulated in each functional category in response to NaCl application.
+
+10.1371/journal.pone.0163485.g006
+
+Fig 6
+
+MapMan depiction of the unigenes expressed in control and NaCl-treated.plants related to different pathways.
+
+Each square represents individual genes of a pathway or functional category. The red and green squares represent decreases and increases, respectively, in the expression of a gene in response to NaCl application, presented as the fold change compared with expression in the control.
+
+10.1371/journal.pone.0163485.t004
+
+Table 4
+
+BINs/functional categories of the MapMan pathways representing the TAIR genes assigned to each BIN, the homologs found in.and their up- and down-regulation in response to NaCl application.
+
+Upregulation and downregulation represent 2-fold or greater change in expression of the gene and/or a change in expression significant at≤ 0.05.
+
+BIN ID
+
+BIN Name
+
+Assigned Genes (TAIR)
+
+Homologs in.
+
+Up
+
+Down
+
+1
+
+Photosynthesis
+
+657
+
+391
+
+3
+
+30
+
+2
+
+Major carbohydrates
+
+379
+
+238
+
+4
+
+5
+
+3
+
+Minor carbohydrates
+
+320
+
+173
+
+5
+
+4
+
+4
+
+Glycolysis
+
+138
+
+71
+
+0
+
+4
+
+5
+
+Fermentation
+
+40
+
+26
+
+0
+
+1
+
+6
+
+Gluconeogenesis/glyoxylate cycle
+
+17
+
+11
+
+0
+
+1
+
+7
+
+OPP cycle
+
+56
+
+30
+
+1
+
+0
+
+8
+
+TCA/organic acid transformations
+
+143
+
+96
+
+1
+
+2
+
+9
+
+Mitochondrial electron transport / ATP synthesis
+
+319
+
+165
+
+4
+
+3
+
+10
+
+Cell wall
+
+1185
+
+538
+
+12
+
+12
+
+11
+
+Lipid metabolism
+
+1105
+
+549
+
+14
+
+14
+
+12
+
+Nitrogen metabolism
+
+89
+
+49
+
+4
+
+3
+
+13
+
+Amino acid metabolism
+
+684
+
+417
+
+6
+
+11
+
+14
+
+Sulphur assimilation
+
+16
+
+10
+
+0
+
+1
+
+15
+
+Metal handling
+
+178
+
+85
+
+2
+
+1
+
+16
+
+Secondary metabolism
+
+1235
+
+563
+
+22
+
+28
+
+17
+
+Hormones
+
+1922
+
+903
+
+22
+
+38
+
+18
+
+Co-factor and vitamin metabolism
+
+172
+
+117
+
+1
+
+3
+
+19
+
+Tetrapyrrole synthesis
+
+249
+
+154
+
+2
+
+5
+
+20
+
+Stress: biotic and abiotic response
+
+2648
+
+1078
+
+40
+
+52
+
+21
+
+Redox
+
+635
+
+298
+
+4
+
+9
+
+22
+
+Polyamine
+
+43
+
+23
+
+1
+
+2
+
+23
+
+Nucleotide metabolism
+
+302
+
+180
+
+1
+
+7
+
+24
+
+Biodegradation of Xenobiotics
+
+49
+
+27
+
+1
+
+2
+
+25
+
+C1-metabolism
+
+55
+
+35
+
+0
+
+2
+
+26
+
+Miscellaneous enzyme families
+
+3681
+
+1626
+
+32
+
+60
+
+27
+
+RNA: processing, transcription, regulation of transcription and binding
+
+7109
+
+3402
+
+39
+
+41
+
+28
+
+DNA: synthesis/chromatin structure, repair and unspecified
+
+3943
+
+692
+
+7
+
+13
+
+29
+
+Protein: amino acid activation, synthesis, targeting, post-translational modification degradation, folding, glycosylation and assembly
+
+9039
+
+4229
+
+47
+
+98
+
+30
+
+Signaling
+
+3304
+
+1627
+
+23
+
+99
+
+31
+
+Cell: organization, division, cycle and vesicle transport
+
+1487
+
+836
+
+11
+
+15
+
+33
+
+Development: Storage proteins, inhibitors and unspecified
+
+1937
+
+812
+
+25
+
+11
+
+34
+
+Transporters
+
+2274
+
+1206
+
+18
+
+25
+
+35
+
+No ontology, Hypothetical or unknown proteins
+
+7476
+
+1830
+
+32
+
+23
+
+Response of ion transport components to NaCl application
+
+NaCl application resulted in both the upregulation and downregulation of the genes encoding proteins and enzymes involved in ion transport (). The response was isoform specific for(plasma membrane HATPase),(vacuolar HATPase),(inward rectifying Kchannel),(outward rectifying Kchannel) and(cyclic nucleotide-gated channel). Four of the seven isoforms ofwere upregulated and three were downregulated, while eight of the ten isoforms ofwere upregulated in response to NaCl application and two were downregulated. Among the ion channels, bothandshowed a greater number of the isoforms becoming upregulated than those that were downregulated in response to NaCl application. Only CNGC showed a greater number of its isoforms being downregulated than being upregulated. Among the(vacuolar Hpyrophosphatase), K/Hexchanger, Kefflux antiporter, Na/Hexchanger, Na/Hantiporter and Na/metabolite cotransporter, only the K/Hexchanger was upregulated, while the others were downregulated.
+
+10.1371/journal.pone.0163485.g007
+
+Fig 7
+
+Proteins/enzymes involved in ion transportation in..
+
+Each stacked column represents the number of isoforms of the proteins/enzymes downregulated (grey) and upregulated (black) in the plants in response to NaCl treatment.
+
+Validation of the result of deep sequencing by qPCR
+
+The expression results of the deep sequencing of a few groups of genes involved in various biochemical pathways and physiological functions related to the abiotic stress response were considered for validation by real-time PCR (qPCR). Several transcription factors were also selected for the validation of their expression, mainly those that showed significant changes in expression in the deep sequencing results in response to NaCl application (). qPCR results showed changes in expression that were similar to the NGS results for most transcription factors (). Only the qPCR validations of(MYB, myeloblastosis),andshowed results opposite to those from the deep sequencing. The changes in expression of most of the transcription factors studied by qPCR were significant, except for those of,and(ATBH,homeobox). The maximum upregulation in response to salt application observed by qPCR was for.
+
+All the genes involved in hormone biosynthesis and hormonal responses that showed increases in expression in the deep sequencing results following salt treatment also showed enhanced expression in the qPCR analysis (). Moreover, the qPCR results showed an increase in the expression of 1-aminocyclopropane-1-carboxylate synthase () and indole-3-acetic acid-amido () synthase in response to NaCl application, which is in contrast to the downregulation of these genes found in the NGS results. The qPCR analysis also revealed significant increases in the expression of most of the genes involved in G protein and phosphoinositide signaling (), similar to the patterns shown for hormone synthesis and hormonal responses. Genes for two proteins, phospholipase D () delta and diacylglycerol kinase (), involved in phosphoinositide signaling were found to be downregulated in the qPCR analysis, which is in contrast to the results obtained with deep sequencing (). However, the downregulation was only significant for.
+
+All three genes involved in ionic adjustments that were selected for expression validation by qPCR showed a significant upregulation in response to the salt treatment (). Among these, the gene encoding a sodium hydrogen exchanger, showed a downregulation in the deep sequencing results. Both the genes involved in glycinebetaine synthesis, namely, betaine aldehyde dehydrogenase () and choline monooxygenase (), exhibited significant increases in expression in the plants in response to the salt treatment. NGS data also revealed an increase in the expression of. However, thesequence was not available in the secondary assembly NGS data used for the statistical analysis, and hence, its sequencing expression results are not presented.
+
+Among the other genes selected for the validation of their expression by qPCR, genes for the manganese and iron superoxide dismutase (SOD) family protein showed the greatest response, with a more than 40-fold increase in expression in response to the salt treatment, although the increase in expression in the deep sequencing results was only 7.04-fold (). The expression of the other genes, including those for monodehydroascorbate reductase (), the xyloglucan endotransglucosylase/hydrolase protein and cellulose synthase 5, were also found to be significantly increased in response to the salt treatment, in agreement with the increase in their expression observed in the deep sequencing results.
+
+10.1371/journal.pone.0163485.g008
+
+Fig 8
+
+Changes in the expression of transcription factors in.in response to NaCl application.
+
+The grey bars represent the transcription factors that showed significant changes (2-fold or greater and/or changes significant at≤ 0.05), either upregulation or downregulation, based on the sequencing results in response to NaCl application. The corresponding black bars show expression levels as determined by qPCR, expressed as fold-changes relative to expression in the controls, in response to the NaCl application. The individual black bars, representing the qPCR data, are the means ± SD of six measurements (three technical replicates each for two biological samples). *, ** and *** next to a column indicate significant changes in expression at≤ 0.05,≤ 0.01 and≤ 0.001, respectively. Ns = not significant.
+
+10.1371/journal.pone.0163485.g009
+
+Fig 9
+
+Relative expression of the proteins/enzymes involved in plant hormone synthesis.
+
+The grey bars represent the sequencing results, while the corresponding black bars represent the results that were obtained by qPCR. The individual black bars, representing the qPCR data, are the means ± SD of six measurements (three technical replicates each for two biological samples). *, ** and *** next to a column indicate significant changes in expression at≤ 0.05, p ≤ 0.01 and≤ 0.001, respectively. Ns = not significant.
+
+10.1371/journal.pone.0163485.g010
+
+Fig 10
+
+Relative expression of the proteins/enzymes involved in G protein and phosphoinositide signaling.
+
+The grey bars represent the sequencing results, while the corresponding black bars represent the results that were obtained by qPCR. The individual black bars, representing the qPCR data, are the means ± SD of six determinations (three technical replicates each for two biological samples). * and ** next to a column indicate significant changes in expression at≤ 0.05 and≤ 0.01, respectively. Ns = not significant.
+
+10.1371/journal.pone.0163485.g011
+
+Fig 11
+
+Relative expression of the proteins/enzymes involved in Natransport and sequestration and glycinebetaine accumulation.
+
+The grey bars represent the sequencing results, while the corresponding black bars represent the results that were obtained by qPCR. Sequencing expression data were not available for. Thesequence of.was retrieved from the primary assembly sequence data via a similarity search of the forward primer used for the PCR amplification of thegene from[]. The individual black bars, representing the qPCR data, are the means ± SD of six measurements (three technical replicates each for two biological samples). * and ** next to a column indicate significant changes in expression at≤ 0.05 and≤ 0.01 levels, respectively.
+
+10.1371/journal.pone.0163485.g012
+
+Fig 12
+
+Relative expression of the proteins/enzymes involved in antioxidative defense and cell wall metabolism.
+
+The grey bars represent the sequencing results, while the corresponding black bars represent the results that were obtained by qPCR. The individual black bars, representing the qPCR data, are the means ± SD of six measurements (three technical replicates each for two biological samples). *, ** and *** next to a column indicate significant changes in expression at≤ 0.05,≤ 0.01 and≤ 0.001, respectively.
+
+Discussion
+
+High-throughput sequencing is widely being used for the transcriptome profiling of plant species with unknown genomes to obtain information about the metabolism of the organisms that is specific to certain ecological conditions [] or to understand the genetic relatedness between two or more species [–,–]. The technology is especially important in understanding the response of an organism to an environmental condition at the genetic level and in identifying the genes and/or the metabolic processes enabling the organism to tolerate extreme environments by comparative functional genomics between normal and extreme conditions [,,,–,,,–]. The depth of sequencing required to obtain most of the information for a genome of a species depends on the size of the genome, and for an unknown genome, 10 GB of data for 50 million 100-base paired-end reads is considered to be sufficient. The high quality 100-base reads of ~178 and ~121 million obtained for the control and NaCl treated samples, respectively (), is therefore likely to represent most of the genome of.. The primary assembly with a total transcript number of 238,306 and the secondary assembly with a total clustered transcript number of 72,588 supports this conclusion as the data on the number of reads and the unigenes assembled are comparable with data from previous reports [,–,,,–]. The NP50 value of the transcripts, i.e., the value represented by 50% of the transcripts, of both primary and secondary assemblies was greater than 1300 bp (Tablesand), suggesting that the sequencing results are reliable [,–,,,–]. However, only 38% of the genes assembled were able to be matched to the database (), suggesting that much of the genome of.is unknown and differs greatly from that of the model plants, such as, maize and rice, that are generally used in experiments (). Functional characterizations of novel genes without a homologous match in existing databases are needed to obtain a true picture of the processes involved in salt tolerance in.. An analysis of the DEGs in response to salt application revealed that the response of most of the genes might be a consequence of salt exposure rather than having any direct role in salt tolerance as none of the top twenty upregulated or downregulated genes () have been reported to have any direct relation with salt tolerance.
+
+The GO enrichment of individual genes to GO terms is widely used to characterize the influence of an abiotic stress on an organism [–]. However, the top twenty GO terms in the main GO categories showed little influence of the salt treatment on the expression of the genes enriched to these GO terms (Figs,and), suggesting that genes constitutively expressed at high levels are not relevant to the environmental change and, hence, may not be of importance for salt stress tolerance. This is supported by the fact that the GO terms enriched by the genes expressed at low levels (based on the number of reads) in all the main GO categories revealed a significant up- or down-regulation of the read numbers in response to the salt treatment (Figs,,). This observation suggests that it is the genes expressed at low levels that let.adapt to the changing environmental condition. In this context, it also makes sense that only a significant difference in the product of a gene is going to cause a significant change in plant metabolism that is important for tolerating changes in the environment. The GO terms reportedly influenced by salinity inand[–] were, however, not identified in the current study, which is likely because these species are glycophytes, while.is a halophyte. Such GO analyses are scant in halophytes. The GO enrichment of the DEGs in this study revealed that salt tolerance must be an energy consuming process as one or more GO terms showing a salt-induced upregulation of the reads in all three main categories were linked to ATP generation, such as the mitochondrial electron transport cytochrome C to oxygen (), cytochrome C oxidase activity (), and the mitochondrial oxoglutarate dehydrogenase complex and mitochondrial proton transporting ATP synthase catalytic core ().
+
+The homology of only 391 genes to the COGs database out of the ~1500 DEGs indicates that the genome of.is very different from those of the proteins represented in the COGs database, which has protein sequences from 66 genomes []. Reports on the alignment of differentially expressed proteins to the COGs database are not available, although the alignment of total proteins to the COGs database has been performed for a few halophytes, including[] and[]. Moreover, the alignment of even the total protein of these halophytes to the COGs database is only ~16% [,], in contrast to the ~40% alignment shown by glycophytes []. The alignment of only 26% of the salt-induced differentially expressed proteins in.suggests that much of the information of salt tolerance is still hidden or unexplored. Among the identified proteins, those involved in 1) amino acid transport and metabolism, 2) lipid transport and metabolism, 3) post translational modification, protein turnover and chaperones, 4) secondary metabolite synthesis, transport and catabolism, and 5) signal transduction mechanisms might play important roles in salt tolerance as most of them were significantly upregulated in response to the salt treatment (). Moreover, the salt-induced upregulation of many of the poorly characterized proteins (in the general function prediction only and function unknown categories) also indicates the possibility of their important roles in the salt tolerance process.
+
+Compared with the 391 genes with identified COG homologies, 612 DEGs (downregulated/upregulated by 2-fold or more or significant changes in expression at p ≤ 0.05) were found to have homologies in the MapMan pathways, indicating MapMan to be an advanced bioinformatics tool for the comprehensive interpretation of transcriptome data and the visualization of the functions of the associated genes (). This is further reflected by the fact that nearly 50% of the TAIR-assigned genes shared homologies with the genes expressed in.(). The usefulness of MapMan in the study of cellular responses to external stimuli or abiotic stress has been shown in a few studies [,]. The major impact of salt treatment in.seems to be on cell wall metabolism because the cell wall BIN showed significant changes in 24 genes (), and there were significant changes in the expression of 50 genes related to the products of secondary metabolism (), many of which are the components of cell walls. The responsiveness of cell wall metabolism genes to salt stress is in agreement with a report that the cell wall undergoes considerable restructuring in response to changes in salinity, both in salt-tolerant and non-tolerant genotypes [], suggesting it to be highly dynamic component of plant cells []. Significant increases in the expression of cellulose synthase, extensin 1 and xyloglucan endotransglucosylase () especially indicate an increase in cell wall synthesis activity. While cellulose synthase synthesizes the cellulose component of the cell wall, xyloglucan endotransglucosylase, which has been shown to have high activity at sites of cell elongation in both roots and shoots [], modifies the xyloglucan-cellulose framework that facilitates the expansion of cell walls [], and extensin provides the platform over which the self-assembly of carbohydrate components occur in the cell wall []. A qPCR analysis validated the salt-induced upregulation of cellulose synthase and xyloglucan endotransglucosylase (). The salt-induced increase in cell wall synthesis activity shown here in.is in agreement with demonstrations of improved growth of this plant in the presence of salt relative to its growth without salt []. The salt-induced upregulation of the genes involved in phenylpropanoid and phenolic biosynthesis () indicates that the presence of salt also promotes the lignification of the cell walls that is essential for preventing pathogen invasion and reinforcing the cellulose wall structure for increased mechanical strength []. Moreover, the upregulation of the genes encoding enzymes, such as of laccase () that is involved in the delignification of lignocellulosics [] and of O-methyltransferases (), which play key roles in lignin biosynthesis [], suggest the dynamic nature of cell wall restructuring for promoting and facilitating the growth of halophytes in presence of salt.
+
+The genes involved in lipid metabolism showed the second most significant differential expression in response to salt application after those involved in cell wall and secondary metabolisms (). The essential role of lipids at the cellular and molecular level in living organism is well established and is reflected in the fact that these molecules enable the formation of boundaries between cells and organelles, serve as rich sources of energy and act as signaling molecules. At least three genes shown to be upregulated in response to salt application, encoding fatty acid desaturase, alpha/beta hydrolase and lipid transfer proteins (), have been shown in transgenic experiments or mutation studies to provide salinity tolerance to plants [–], indicating the important role of these genes in salt tolerance in.. This plant also shows a salt-induced upregulation of serine decarboxylase, an enzyme unique to plants that is involved in the synthesis of ethanolamine []. Ethanolamine is utilized in the synthesis of phosphatidylethanolamine, phosphatidylcholine and choline. While the former two compounds form the major phospholipid constituent of eukaryotic membranes, choline forms the precursor for glycinebetaine synthesis [], an osmoticum demonstrated to be accumulated in plants in response to drought and high salinity [].
+
+One of the noticeable impacts of salt application was the decrease in the expression of genes related to photosynthesis, particularly the light reaction (,,). In contrast, the expression of the genes involved in the metabolism of tetrapyrrole, the active core of chlorophylls, increased in response to salt application, indicating increases in chlorophyll biosynthesis. This is in agreement with the greater photosynthetic efficiency observed in plants grown in the presence of salt compared with that of plants grown without salt []. An upregulation of the genes involved in the developmental process () also supports the idea of improved growth performance by.in the presence of salt. The downregulation of the expression of genes related to the light reactions observed in the present study might therefore be a short-term response.
+
+The regulation of the turnover and modification of proteins seems to be an important aspects of salt tolerance in halophytes, as reflected by the upregulation of the genes involved in protein degradation and modification (). Genes involved in ubiquitination-mediated degradation of proteins have been reported to be associated with responses to salt in halophytes []. In fact, the ubiquitin/26S proteasome system has been reported to be a positive regulator of stress tolerance in plants []. The role of phosphorylation in the modification of proteins for improving, regulating or determining their function is well established []. Moreover, proteomic studies have indicated possible important roles of the carbonylation and S-nitrosylation of proteins in salt tolerance in plants [].
+
+The upregulation of genes linked to metabolic responses to abiotic stress and the maintenance of redox status in response to salt application (,) is an indication of a shift in the balance of the production of reactive oxygen intermediates (ROIs), such as superoxide radicals (O2) and HO, which have been reported to increase as a result of disturbances in metabolic activities in plants experiencing a change in their external environment []. Environmental factors such as drought, salinity, and heat have been reported to shift the balance towards an increase in the generation of ROIs, resulting in their accumulation in cells and tissues and, subsequently, oxidative damage [,]. The highly significant upregulation of manganese and iron superoxide dismutase proteins concomitant with a significant increase in the expression of() and a more than 2-fold change in Cu/Zn-SOD expression () in response to the salt application are all indicative of the activation of the antioxidant system of.for the effective removal of ROIs. These results thus suggest that the antioxidant system is also an important component of salt tolerance in plants [,].
+
+Although the MapMan analysis identified a large number of transcription factors, both those that were up- and down-regulated in.in response to NaCl application (), only a few showed significant changes in their expression (). The qPCR analysis largely validated the expression of the selected transcription factors (), except of,and, indicating that the libraries prepared for deep sequencing were reliable. The significant upregulation of most of the members of the NAC transcription factor family in response to the salt application (,) indicates their possible involvement in salt tolerance in halophytes. NAC constitutes a large family of transcription factors specific to plants []. The genome-wide identification of NAC proteins has been carried out in several plants [–], but not in halophytes. Moreover, several members of NAC transcription factors have been reported to be responsive to salt and other abiotic stresses in plants such as.,.and.[,–]. Many of the NAC transcription factors overexpressed in plants such asand rice have also been reported to confer tolerance to salt and other abiotic stresses [,,], indicating their great potential for improving salt tolerance in crop plants via biotechnological approaches. Hence, the NAC proteins identified to be upregulated in response to the salt application in this study could be of significance, particularly considering that the plant studied was a halophyte.
+
+Similar to NAC, the MYB families of transcription factors show an early response to environmental stimuli [], but unlike the NAC proteins, they are not plant-specific. A genome wide analysis has revealed the presence of 155 and 197genes in rice and, respectively []. Genome wide expression profiling of these genes under abiotic stresses, including salinity, has also been carried out in rice and, but the results are highly variable depending upon the test species and the cultivars used []. Nevertheless, the overexpression of certaingenes, such asand, in rice and tobacco, respectively, has been shown to increase the salt tolerance of transgenic plants [–]. Tolerance to other abiotic stresses, however, was also increased simultaneously, suggesting thatgenes might not be specifically involved in salt tolerance. The significant salt-induced upregulation of thegenes in the current study (,) also suggests their possible regulatory role in abiotic stress tolerance in plants, particularly as the results are similar to those reported forcloned from the halophyte.[].
+
+Homeodomain-leucine zipper (HD-Zip) transcription factors, including homeobox 12 (ATHB12), ATHB6 and HD-Zip I, are unique to plants, as are the NAC transcription factors. These transcription factors have been reported to be involved in a wide range of physiological functions, including mediation of growth responses to water deficits [], the regulation of floral development [] and cell cycle regulation []. The upregulation of members of thetranscription factor group in the present study in response to salt application also indicates their important role in abiotic stress tolerance. In fact,has been reported to increase salt tolerance in yeast by regulating sodium exclusion [], and the expression ofis upregulated inunder water deficit conditions [].
+
+The significant differential expression of other transcription factors in response to NaCl application was limited to the downregulation of(,), suggesting the relative unimportance of these other groups in the processes related to salt tolerance in plants, especially when compared to importance of,and.has also been reported to be downregulated in the halophyteupon NaCl application []. Nevertheless, WRKY proteins have been reported to be responsive to drought and salinity []. Moreover, the overexpression ofandhas been shown to lead to enhanced salt tolerance in transgenic[]. These examples clearly indicate that WRKY transcriptional factors are associated with transcriptional reprogramming in plants challenged with abiotic stresses and, hence, are important in abiotic stress tolerance.
+
+Although no significant upregulation of the genes related to Natransport was observed in the sequencing results (), several genes related to ion transport were upregulated in response to NaCl application (), indicating their importance in salt tolerance. Moreover, the qPCR analyses of the, sodium hydrogen exchanger and Na/Hantiporter showed that they were significantly upregulated in response to NaCl application (), suggesting that they might be important for salt tolerance in plants. These proteins have previously been reported to be upregulated in plants upon salt treatment [,,].
+
+The significant increases in the expression of S-adenosylmethionine () synthase,,and ethylene responsive factor in response to NaCl application () indicate the important role of ethylene in salt tolerance in.in addition to the roles of transcription factors and the genes involved in ion transportation. The increase in the expression ofsynthase in the current study is in agreement with that reported by Sahu and Shaw [], who also related it to the biosynthesis and accumulation of glycinebetaine, an osmoticum, in.via ethanolamine synthesis in addition to the requirement of SAM in ethylene synthesis. A significant upregulation ofandin response to the salt treatment () supports the findings of Sahu and Shaw [] and Gharat and Shaw [] that.is a betaine accumulator. Moreover, Sahu and Shaw [] also reported an increase in the expression of ethylene responsive element binding protein () in.in response to salt treatment, which is similar to the findings of this study, further suggesting the possible involvement of ethylene and ethylene responsive factors (ERFs) in salt tolerance in halophytes. In contrast, the response ofto salt is contradictory in glycophytes; while salt treatment leads to an increase in the expression ofin rice [], it downregulates their expression in[]. Similar to that of ethylene, the salt-induced expression of ABA responsive element-binding factor () (), auxin responsive protein andsynthetase is suggestive of the possible involvement of auxin (indole-3-acetic acid, IAA) and ABA in salt tolerance in.. This view is further strengthened by the fact that in response to salinity, the concentration of ABA has been shown to be significantly increased and that of IAA to be maintained in the salt-resistant maize but not in the salt-sensitive maize []. Moreover, the expression of the ABA responsive genes and the genes involved in ABA signaling are upregulated in the halophytes.in response to salt application [].
+
+An analysis of the transcriptome data revealed that both G protein and phosphoinositide signaling, two important membrane-associated signaling pathways, were operative in., and the significant change in the expression of the individual components in response to the salt application () suggests that these play an important role in salt tolerance in this plant. A knock-out mutation of(G protein coupled receptor) has been reported to improve salt tolerance in[], which is in contrast to the significant upregulation of theobserved in the present study (), suggesting that G protein signaling with regard to salt tolerance may be different in halophytes and glycophytes. However, it has been reported that the expression of the Gand Ggenes of the heterotrimeric G proteins is increased by NaCl treatment in rice [–], and their overexpression confers tolerance to salt in transgenic tobacco [], which is in contrast to the report of a mutation ofand(G proteinsubunit) improving salt tolerance in[]. A mutation in Gprotein has also been reported to reduce leaf senescence and chlorophyll degradation in maize under salt stress []. Mutation and transgenic studies have thus shown contrasting results with regard to the role of G protein signaling in salt tolerance in plants. However, with regard to small G protein signaling, salt tolerance seems to be improved by its inhibition, as demonstrated by the significant salt-induced upregulation of the GTPase activating protein () in the present study (), which is in agreement with the findings of a report showing enhanced salt tolerance inandmutants because an increase in GAP would result in the accumulation of its inactive GDP-bound form. However, information on the response of small G protein signaling to salt application is scant.
+
+Signaling mediated by both phospholipase C, including PI (phosphoinositide)-phospholipase (PI-PLC) and non-specific phospholipase (NPC), and phospholipase D (PLD) were operative in.as shown by the expression of these enzymes (). The signaling product of the reaction catalyzed by phospholipase D and NPC is phosphatidic acid (PA) [], and it seems to be generated in.mainly by NPC in the presence of salt as the expression of both, which converts diacylgylcerol (DAG) to PA, andwere downregulated in response to the salt treatment (). In contrast, the expression ofhas been reported to be enhanced inupon exposure to high salinity together with an increase in its activity and the tissue accumulation of PA []. Similarly,expression is upregulated in tomato cell suspension cultures treated with salt, andknock-outmutants exhibit enhanced sensitivity to high salinity [], indicating an important role of the enzyme in salt tolerance in plants, at least in glycophytes. Unlike the decrease inexpression, the increased expression ofobserved in.in response to NaCl application is in agreement with its reported enhancement following salt treatment in[], and hence, it could be important for salt tolerance, although the downregulation ofin response to salt treatment in the present study () does not support this. Rather, it seems that in.,may be playing an important role in salt tolerance. This is not only evident from its significant upregulation in response to NaCl application but also from the significant upregulation of protein kinase C (), which targets DAG.has, however, not been reported to be present in any higher plant genomes sequenced so far []. This is the first report of the presence and expression ofin the plant kingdom.
+
+Conclusion
+
+This study thus revealed that salt tolerance in.is the result of biochemical and molecular responses at multiple levels (). It is difficult to say which are the first response and which are the most important among them, but it is likely that the response at each level contributes to salt tolerance in some way. It may be that one or more of these responses are the results of adaptations of.to high salinity rather than the cause of these adaptations. The increase in chlorophyll biosynthesis and photosynthetic efficiency might be among these. However, delignification and lignification of the cell wall and cell wall synthesis per se, as well as cell membrane lipid modifications, must be adaptive responses to high salinity. The importance of processes related to cell wall metabolism, which facilitate cell wall expansion through its remodeling [], in salt tolerance is reflected by the fact that under salt stress the salt-tolerant variety of maize develops more extensible cell walls than salt-sensitive maize, which develops stiffer cell walls under salt stress compared with those of the control plants []. Similarly, the plasma membrane fatty acid unsaturation index increases upon the exposure of plants to salinity [], and the unsaturation of fatty acids in the membrane lipids, in which fatty acid desaturase may play an important role (), significantly enhances the tolerance of the photosynthetic machinery insp. to increased salinity []. Glycinebetaine accumulation and increases in the antioxidant capacity are well-studied strategies for protection against salt and osmotic stresses in plants [,], and hence, these might be of importance for the salt tolerance in.discussed in the present study. In addition, because salt has ionic components, particularly Na, its sequestration in the cell and/or exclusion have been suggested to be of prime importance for salt tolerance [], which in the present study is reflected as an enhancement in the expression ofand the Na/Hantiporter in response to salt application. The salt-induced upregulation of genes encoding the protein degradation and modification machinery, however, show that salt tolerance might be even far more complex, requiring the maintenance of specific proteins at the required levels and in their required form to drive necessary biochemical reactions. The complexity of the processes leading to salt tolerance is also reflected by the enhanced expression of transcription factors, such asand, and by the enhanced expression of the various hormone responsive factors, which might regulate a wide range of chemical reactions and molecular events leading to salt tolerance. The initial response to salt application or the initial stage of the salt tolerance process, however, might be driven or regulated by G protein and phosphoinositide signaling, as is indicated by the upregulation of the genes encoding proteins contributing to these signaling events.
+
+10.1371/journal.pone.0163485.g013
+
+Fig 13
+
+Schematic representation of the mechanisms possibly leading to salt-adaptation in plants based on sequencing and experimental data.
+
+Materials and Methods
+
+Test plant and NaCl application
+
+Seeds of.L. were collected during the seed-setting season from an adult plant growing along the seashore of the mangrove coastal belt, Bhadrak in Odisha (21.13°N, 86.76°E), India..species is not an endangered or a protected species. No specific permissions were required for collecting.seeds from the study location, as it is not a protected area of land or sea and because the field studies did not involve endangered or protected species. The seeds were spread on autoclaved soil in plastic pots with holes at the bottom and watered every day alternatively with 1/10th Hoagland’s solution or Milli-Q water. The seedlings were grown in a growth chamber, which was maintained at 24 ± 3°C with 70–75% relative humidity and a 14 h light (200 μmol ms)/10 h dark cycle. After 3–4 weeks the seedlings were approximately 2 cm in height. These were transferred to soil in plastic pots with holes at the bottom. The seedlings were allowed to acclimatize and grow for ~3 months under natural day/night cycles in a greenhouse, which was maintained at 24 ± 3°C and 70–75% relative humidity. The individual pots were watered every day alternatively with 1/10th Hoagland’s solution or Milli-Q water except on the penultimate day of NaCl application. For the NaCl application, initially 500 mL of 0.5% NaCl, which was prepared in 1/10th strength Hoagland’s solution, was poured into each pot early in the morning. The control pots received only 1/10th Hoagland’s solution. After 30 minutes, when all of 0.5% NaCl solution drained away, 100 mL of 2.0% NaCl prepared in 1/10th strength Hoagland’s solution was poured into the treated pots in 30-minute intervals to maintain the concentration of the NaCl treatment at 2.0%. An initial treatment of 0.5% NaCl was applied for a brief period to prevent the plants from experiencing a sudden salinity shock. After 9 h of exposure to 2.0% NaCl, the shoots of the test plants were excised and deep-frozen in liquid nitrogen. These were stored at -80°C until analysis.
+
+RNA extraction, cDNA synthesis, library preparation and sequencing
+
+Total RNA was extracted from the preserved shoot samples of the control and 2.0% NaCl-treated (9 h).using an Illumina HiSeq 2000 and a TruSeq Library kit following the protocol in the manual. The quality and quantity of the extracted RNA was analyzed using an Agilent 2100 Bioanalyzer (Agilent Technologies). The extracted RNA with an RNA integrity number (RIN) of 8.0 was used for mRNA purification. mRNA was purified using oligo-dT beads (TruSeq RNA Sample Preparation Kit, Illumina) taking 1 μg of intact total RNA. The purified mRNA was fragmented at 90°C in the presence of divalent cations. The fragments were reverse transcribed using random hexamers and Superscript II Reverse Transcriptase (Life Technologies). Second strand cDNA was synthesized on the first strand template using RNaseH and DNA polymerase I. The cDNAs so obtained were cleaned using Beckman Coulter Agencourt Ampure XP SPRI beads. The cDNA molecules were ligated with Illumina adapters after end-repair and the addition of an ‘A’ base followed by SPRI cleanup. The prepared cDNA library was amplified using PCR for the enrichment of the adapter-ligated fragments. The individual libraries were quantified using a NanoDrop spectrophotometer (Thermo Scientific) and validated for quality with a Bioanalyzer (Agilent Technologies). These were then sequenced using the Illumina HiSeq 2000 platform. Paired-end FASTq files were subjected to standard quality control based on Phred scores >20 using the NGSQC Tool Kit to obtain high quality (HQ) filtered reads.
+
+De novo transcriptome assembly and analysis
+
+All the HQ filtered paired-end libraries were subjected to pooled de-novo transcriptome assembly using a De bruijn graph-based Trinity Assembler that was optimized for Illumina paired-end data and configurable for all computing capacities based on the criteria of a) a default K-mer value, b) less memory foot print, and c) reproducibility []. The assembled transcripts with sequence lengths longer than 200 bp were then clustered using the CD-HIT-EST tool to obtain the set of non-redundant transcripts. Clustered transcripts >200 bp were considered as secondary assemblies and were analyzed further for annotation and expression profiling. The secondary assembly transcripts sequences have been deposited at the NCBI as SRA file (SRA accession: SRP071624).
+
+Transcriptome annotation and quantification
+
+Annotation for all the unique transcripts (>200 bp) was performed using a BLASTX homology search against the Plant Genome Database (PlantGDB,) and the NCBI non-redundant (nr) protein Database (). BLAST hits with e-value scores ≤ 0.001 and query coverages above 50% were considered as annotated homologous proteins, and the AWK script was used for filtering the reciprocal best hits. The BLAST hits were processed, and the associated Gene Ontology (GO) terms describing the biological process, molecular function and cellular component categories were retrieved. GO annotations were incorporated following specific gene identifiers and accession numbers. The expression levels of the transcripts in the individual libraries (control and treated) were assessed by mapping the HQ filtered reads using Bowtie 2 []. Mapped reads were further normalized using the reads per kilo base per million (RPKM) method.
+
+Differential gene expression analysis and biological analysis of differentially expressed genes (DEGs)
+
+The differential expression of the expressed transcripts was assessed using DESeq software [] based on the R programming environment. DESeq takes into consideration total number of reads in a library vs. total number of reads mapped to a particular transcript of the library in both control and treated to compute-value using Student t-test. Transcripts that showed changes 2-fold or greater or that showed an up- or down-regulation with avalue (derived via student t-tests) of ≤ 0.05 were considered to be significantly differentially expressed. The unsupervised hierarchical clustering of up- and down-regulated genes was performed using Cluster 3.0 software () by applying the Pearson Uncentered Algorithm with Average Linkage Rule. Furthermore, transcript clusters were visualized using Java Tree View software () to identify the patterns of up- and down-regulated transcripts. Biological analyses of the DEGs were performed 1) based on GO annotations obtained from the EBI-GOA database (), 2) by comparing the protein sequences to functional classifications against the Cluster of Orthologous Groups (COGs) database (), and 3) by using the MapMan tool (). For the MapMan analysis, BIN level information with the gene identifier (TAIR ID) was obtained from their database. All the.expressed transcripts were annotated withhomologs (from the TAIR database) and imported into the MapMan tool along with their fold change for the visualization of various pathway BINs. The MapMan analysis was performed to identify the functionally enriched BINs along with the genes involved in them and their fold change in expression.
+
+Real-time PCR analysis
+
+Real-time PCR (qPCR) assays were carried out to determine the changes in the expression of selected genes in response to the 2.0% NaCl treatment (9 h). Total RNA isolated from the preserved shoot samples of control and 2.0% NaCl-treated (9 h).as described above was used to prepare cDNA using the SuperScriptIII First-Strand Synthesis kit from Invitrogen according to the manufacturer’s instructions. To make the cDNA, 1 μg of DNase-treated total RNA, 1 μL dNTP mix (10 mM each), and 1 μL oligo(dT)20 (50 μM) were added into 0.2 mL PCR tubes and incubated at 65°C for 5 min, followed by an incubation on ice for ~5 minutes. In the same tube, 4 μL of 5X First Strand Buffer, 1 μL 0.1 M DTT, 1 μL RNaseOUT (40 units/μL) and 1 μL (200 units) of SuperScript III Reverse Transcriptase were added in a final volume of 20 μL. Next, the contents of the PCR tube were incubated at 50°C for 1 h, followed by an incubation at 70°C for 15 min and finally at 4°C for 5 min. The prepared first strand cDNA was used as a template for qPCR using a QuantiTect SYBR Green PCR Kit according to the manufacturer’s instructions. Primers for the individual ESTs/genes (S13 Table) were designed using the online software Primer3web (). PCR amplification was carried out on LightCycler480II (Roche) with the reaction cycles set as follows: 95°C for 5 min, followed by 40 cycles of 95°C for 30 s, 60°C for 30 s and 72°C for 30 s. PCR reactions for each selected gene in a biological sample (cDNA preparation) were performed in triplicate, and cDNA prepared from two biological samples were used for each gene. Each PCR set-up included a template- free well. The expression of the actin gene in each sample was used for normalization. The expression of a selected gene in the NaCl-treated plants relative to that in the control plant was calculated using the 2-ΔΔCT method []. Paired t-tests were performed to determine significant differences (≤ 0.05) in transcript abundance of selected genes between the control and NaCl-treated plants.
+
+Supporting Information
+
+S1 File
+
+Quality distribution graph for control and treated samples for both paired-end reads R1 and R2 depicting maximum reads to lie above a Phred score of 20.
+
+(TIF)
+
+Click here for additional data file.
+
+S2 File
+
+Annotation of the secondary assembly transcripts based on a BLASTX search and their homology to the protein database of other species.
+
+(XLSX)
+
+Click here for additional data file.
+
+S3 File
+
+Top ten plant species showing maximum homology to the.genome based on a BLASTX search of the secondary assembly transcripts.
+
+(TIF)
+
+Click here for additional data file.
+
+S4 File
+
+Differential expression of genes in.in response to NaCl application.
+
+(XLSX)
+
+Click here for additional data file.
+
+S5 File
+
+Top 20 genes that were upregulated (A) and downregulated (B) in.in response to NaCl application.
+
+(TIF)
+
+Click here for additional data file.
+
+S6 File
+
+Heat map showing differential expression of the genes encoding transcription factors identified in the study under the control and NaCl treatment conditions.
+
+(PNG)
+
+Click here for additional data file.
+
+S7 File
+
+Heat map showing differential expression of the genes encoding proteins involved in the ubiquitin mediated degradation of proteins under the control and NaCl treatment conditions.
+
+(PNG)
+
+Click here for additional data file.
+
+S8 File
+
+Heat map showing differential expression of the genes encoding enzymes involved in osmolytes and hormone biosynthesis under the control and NaCl treatment conditions.
+
+(PNG)
+
+Click here for additional data file.
+
+S9 File
+
+Heat map showing differential expression of the genes encoding chaperons under the control and NaCl treatment conditions.
+
+(PNG)
+
+Click here for additional data file.
+
+S10 File
+
+Heat map showing differential expression of the genes encoding enzymes and proteins involved in post-transcriptional modification under the control and NaCl treatment conditions.
+
+(PNG)
+
+Click here for additional data file.
+
+S11 File
+
+Genes showing 2-fold or greater changes and/or showing significant differential expression at≤ 0.05 that were assigned to different BINs of the MapMan metabolic pathways.
+
+(XLSX)
+
+Click here for additional data file.
+
+S12 File
+
+EST sequences of the genes showing 2-fold or greater changes and/or showing significant differential expression at≤ 0.05 that were assigned to different BINs of the MapMan metabolic pathways.
+
+(XLSX)
+
+Click here for additional data file.
+
+S13 File
+
+Primer sequences used in the study.
+
+(XLSX)
+
+Click here for additional data file.

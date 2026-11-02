@@ -1,0 +1,596 @@
+{
+ "slug": "lamium-album",
+ "name_ko": "화이트데드네틀",
+ "name_en": "White dead nettle",
+ "scientific_name": "Lamium album L.",
+ "aliases": [
+  "화이트데드네틀잎",
+  "왜광대수염",
+  "말광대수염",
+  "white dead-nettle",
+  "white deadnettle",
+  "Lamii albi flos(꽃 약재명)",
+  "Lamii albi herba(지상부 약재명)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "화이트데드네틀(Lamium album L.)은 꿀풀과(Lamiaceae) 광대수염속의 여러해살이풀로, 잎이 쐐기풀과 닮았지만 찌르는 털이 없어 영어로 white dead nettle(쐐기풀처럼 생겼으나 쏘지 않는 풀)이라 부른다[3]. 식약처 「식품원료 목록」에는 학명 Lamium album L., 영어 이름 White dead nettle로 '화이트데드네틀잎'이 올라 있고, 사용 조건이 '사용가능부위 : 잎'인 사용가능 원료다[1]. 따라서 식품에는 잎만 쓸 수 있고, 목록에 적힌 이명은 왜광대수염·말광대수염이다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n같은 목록에는 광대수염(L. album var. barbatum, 순·잎)과 광대나물(L. amplexicaule, 순·잎)이 별도 원료로 올라 있으며, 이 자료에는 두 원료의 값을 섞지 않았다[1]. 이 종의 대표 성분은 이리도이드(라말비드 등), 페닐프로파노이드(버바스코사이드·라말보사이드), 플라보노이드, 페놀산이다[2, 3, 9]. 다만 성분 연구의 대부분은 약재로 쓰여 온 꽃(Lamii albi flos)이나 꽃 핀 지상부·전초를 시료로 썼다[2–4, 7]. 잎만 따로 다룬 연구는 잎가루 빵, 잎 우림액의 약물대사 세포시험, 잎 추출물 항균시험, 잎 구조 연구 정도다[5, 6, 17, 18]. 그래서 이 자료에서는 시료 부위를 문장마다 밝혀 두었다[2–6]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 이용",
+   "body": "화이트데드네틀의 꽃은 19세기부터 공식 약재로 쓰였고, 말려 껍질을 벗긴 꽃부리(화관)가 프랑스 약전 10판에 실렸다[2]. 전통적으로는 신장·방광 질환에 소변 배출을 돕는 용도로 쓰였고, 민간에서는 냉(대하)과 자궁 출혈, 월경 과다를 다스리는 데 써 왔다[2]. 독일 커미션 E 모노그래프는 이 풀의 제제를 상기도 카타르에 먹는 용도와 목·입·피부의 가벼운 염증에 바르는 용도로 올렸다고 소개되었다[2]. 꽃과 지상부는 항염·소독·거담 작용이 있다고 여겨져 만성 기관지염·인두염과 피부·질·자궁경부 염증에 쓰였다[7]. 류머티즘 통증을 덜어 주는 민간 용도도 기록되었다[8].\n\n식품으로는 지중해 주변에서 날것이나 익혀 먹고, 차로 우리거나 식품보충제의 주원료로 쓴다고 소개되었다[3]. 유럽 일부 지역에서는 지상부를 향신료나 샐러드로 먹는다[2]. 우크라이나 연구진은 이 풀의 잎가루를 밀빵에 넣는 방법을 시험했다[5]. 유럽 의약품청(EMA) 약초위원회 모노그래프는 확인하지 못함. 우리나라에서 이 종을 먹어 온 전통 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "화이트데드네틀은 높이 50–75 cm까지 자라는 여러해살이풀로, 잎은 길쭉한 삼각형에 밑이 둥글고 가장자리에 톱니가 있으며 부드러운 털로 덮여 있다[3]. 흰 입술 모양 꽃이 줄기 윗부분에 6–12송이씩 돌려 달린다[3]. 물가와 숲 근처에서 자라지만 저지대에서도 볼 수 있다[3]. 유라시아에 자생하는 흔한 풀로, 약용·화장품 원료이자 양봉에서 높이 평가되는 밀원식물이다[25].\n\n꽃의 꿀샘은 씨방 밑에 고리가 끊긴 모양으로 붙고, 꽃 향기는 꽃잎 표피세포와 샘털, 꿀샘 조직에 든 정유 성분에서 나온다[25]. 꽃부리에는 여섯 종류의 샘털이 있으며 플라보노이드·페놀산·탄닌이 들어 있다[12]. 꽃(L. album subsp. album)의 정유 수율은 평균 0.04 mL/kg이었고 알데하이드·세스퀴테르펜·알케인이 주를 이뤘다[11]. 영국 노퍽 지역 조사에서 나무뒤영벌(Bombus hypnorum)은 다른 뒤영벌 종보다 이 풀의 꽃을 덜 찾았다[26]. 국내 자생 여부는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "식약처 목록은 화이트데드네틀(L. album, 잎)과 광대수염(L. album var. barbatum, 이명 var. petiolatum, 순·잎), 광대나물(L. amplexicaule, 순·잎)을 각각 별개 원료로 올렸다[1]. 화이트데드네틀의 목록 이명은 왜광대수염·말광대수염이고, 광대수염의 이명은 꽃수염풀·산광대, 광대나물의 이명은 긴잎광대수염이어서 '광대수염'이 들어간 이름끼리 혼동하기 쉽다[1]. 일본 알프스의 광대수염(L. album var. barbatum) 12개 개체군에서는 꽃 크기가 그 지역 뒤영벌 크기에 맞춰 산마다 따로 커졌다[27]. 중국 지린성에서 잎을 채집한 광대수염(L. album subsp. barbatum으로 표기)의 엽록체 유전체가 해독되었다[28].\n\n중국 연구에서 L. barbatum의 라말비드는 MEP 경로로 만들어졌고, 꽃차례당 꽃은 4–14송이, 개화기는 4–6월이었다[29, 30]. 이 광대수염 자료는 화이트데드네틀(기본 변종) 성분 값에 넣지 않았다[1, 28]. 울릉도 고유종 섬광대수염(L. takesimense)도 같은 속이다[31]. 루마니아 연구에서 쐐기풀(Urtica dioica)은 생김새가 비슷하지만 총이리도이드가 0.152 µg/µL로 화이트데드네틀 평균(0.445 µg/µL)보다 훨씬 적었다[3]. 같은 속의 자주광대나물(L. purpureum) 지상부와 비교한 쥐 시험에서는 지혈 작용 양상이 달랐다[19]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "국내 재배 면적·생산량 통계(통계청·농식품부 특용작물 생산실적)에서 화이트데드네틀 품목은 확인하지 못함. 지리적 표시 등록과 생산자 단체도 확인하지 못함. 논문 시료는 대부분 유럽의 야생 채취품이거나 약초 판매품이었다[2–4]. 루마니아 북서부의 야생 시료(4–6월 채집)와 재배 생산자의 차 제품을 비교하자 재배품의 이리도이드 조성과 폴리페놀 지문이 야생품과 달랐다[3]. 개화기에 채집한 시료에서 총이리도이드가 가장 많았고, 연구진은 개체가 더 성숙하고 꽃이 많았기 때문으로 추정했다[3].\n\n불가리아 연구진은 과도한 채취로 자연 개체군이 위협받는다며 시험관 증식을 대안으로 시험했다[4]. 시험관에서 기른 잎은 더 얇아지고 울타리조직 층이 줄었으며 광합성 능력과 정유·페놀 함량이 낮아졌다[18]. 시험관 밖으로 옮겨 기르자 페놀 함량이 회복되었지만 정유는 낮은 채로 남았다[18]. 시험관 배양 개체의 지상부 추출물은 자생 개체보다 성분 수가 적었고 주된 페놀산이 살리실산이었다[4]. 꽃 성분은 수확 시기에 따라 달라질 수 있어 표준화에 수확 시기를 함께 따져야 한다는 지적이 있다[2]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록상 이 종은 잎만 식품원료로 쓸 수 있다[1]. 우크라이나 연구에서 잎가루는 밀가루보다 총페놀이 7.3배, 페놀산이 35.2배, 플라보노이드가 17.7배 많았고 총항산화능은 94.6배 높았다[5]. 잎가루를 밀가루 무게의 1–2% 넣으면 반죽의 가스 발생이 3.7–9.7% 늘었지만 빵 부피는 9.4–17.9% 줄었다[5]. 빵 껍질은 초록빛을 띠고 속은 풀 맛이 났으며, 관능 점수는 1% 첨가 빵이 96.32로 가장 좋았다[5]. 브라질 약국용 잎 원료는 1:10 비율로 20분 우린 우림액으로 시험되었다[6].\n\n꽃 추출에서는 끓는 물 추출물이 60% 에탄올 추출물보다 라말비드·버바스코사이드 등을 더 많이 담았다[2]. 전초에서 이리도이드를 뽑는 초음파·효소(셀룰레이스) 추출의 최적 조건은 효소 3.3%, 55 °C, 40분이었다[3]. 자생 개체의 잎 물 추출물은 칸디다균 두 종에 항진균 작용을 보였다(최소억제농도 10 mg/mL)[17]. 초임계 이산화탄소로 뽑은 꽃 추출물은 배지에서 푸사리움균의 성장과 곰팡이독소 합성을 줄였고, 연구진은 곡물 보호용 제제로 쓸 수 있는지 추가 시험을 계획했다[33]. 국내 건강기능식품 생산실적에서 이 원료 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "화이트데드네틀 기본 변종 자체의 엽록체·핵 유전체와 염색체 수는 확인하지 못함. 가장 가까운 자료는 중국 지린성 광대수염(L. album subsp. barbatum으로 표기)의 엽록체 유전체로, 길이 150,887 bp, GC 함량 38.5%였다[28]. 이 유전체는 큰 단일복사 부위 82,610 bp, 작은 단일복사 부위 17,301 bp, 역반복 부위 25,488 bp의 전형적인 4분 구조였다[28]. 울릉도 고유종 섬광대수염의 엽록체 유전체는 150,626 bp였다[31].\n\n광대수염속 안의 계통 관계는 엽록체 RNA 중합효소(rpo) 유전자로 재구성되었으며, rpoA가 가장 유용한 계통 표지였다[32]. 일본 광대수염 12개 개체군을 미세위성 표지 10개로 분석하자 유전적 유사도는 지리적 거리를 따랐다[27]. 시험관 증식 과정에서 화이트데드네틀의 유전적 동일성은 유지되었다[18]. 꽃에서 나온 플라보노이드 p-쿠마로일글루코사이드는 광대수염속을 광대수염아과(Lamioideae)의 다른 식물과 묶는 화학분류 근거로 제시되었다[9]. 라말비드는 속 안에서 종을 가르는 화학분류 표지로 여겨진다[2]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 화이트데드네틀은 잎만 쓸 수 있는 사용가능 원료이며 꽃 등 다른 부위는 사용 부위로 올라 있지 않다[1]. 국내 공공기관의 알레르기·잔류물질·독성 성분 정보는 확인하지 못함. 지상부 부탄올 추출물의 급성독성 시험에서는 독성이 나타나지 않았다[19]. 같은 추출물은 쥐에서 출혈 시간을 줄였고, 항응고제(아세노쿠마롤) 모델에서 비타민 K와 비슷한 지혈 작용을 보였다[19]. 사람에서 항응고제와의 상호작용은 확인하지 못함.\n\n잎 우림액은 간암세포(HepG2)에서 CYP3A4 유전자 발현을 약하게 높이고 세포 내 글루타티온을 크게 낮췄으며, P-당단백질 활성에는 영향이 없었다[6]. 이는 세포 실험이어서 사람에서의 약물 상호작용으로 바로 이어지지는 않는다[6]. 당뇨 쥐에 지상부 수알코올 추출물 100 mg/kg을 28일 투여하자 혈당이 내려갔고, 쥐 기관 조직에서는 지상부 추출물 5 mg/mL가 수축을 줄였다[20, 21]. 사람 각막 상피세포에서는 추출물(초록에 부위 표기 없음) 125 µg/mL에서 생존율이 80%로 유지되었으나, 꽃의 메탄올·에틸아세테이트 추출물은 밀도가 낮은 피부 섬유모세포에서 125 µg/mL를 넘으면 독성을 보였다[34, 24].\n\n사람 연구로는 가시오갈피·서양톱풀·화이트데드네틀 3종 혼합 제제를 아토피 피부염 환자 49명에게 2주 쓴 무작위 시험이 있으며 위약과 차이가 없었다[22]. 쐐기풀 잎 바르기 시험에서는 이 풀의 잎이 위약으로 쓰였다[23]. 먹는 형태의 단독 임상시험, 임신·수유 중 안전성은 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Lamalbid",
+   "name_ko": "라말비드",
+   "class": "이리도이드 배당체",
+   "role": "marker",
+   "part": "꽃(식품원료 부위 아님)·전초",
+   "content_text": "꽃 물 추출물 39.09 ± 1.02, 60% 에탄올 추출물 26.66 ± 0.64(초록 표기 'm/g dry weight', 추출물 기준인지 원료 기준인지 표는 확인 못함)(HPLC-DAD)[2]; 전초 UPLC에서 머무름시간 1.84분으로 확인(정량 안 함)[3]",
+   "activity_ko": "이 속의 화학분류 표지; 사람 호중구에서 IL-8 분비 억제(세포 실험)[8]",
+   "source": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "name": "Caryoptoside",
+   "name_ko": "카리옵토사이드",
+   "class": "이리도이드 배당체",
+   "role": "marker",
+   "part": "꽃·전초",
+   "content_text": "꽃 추출물에서 검출(표준품 부족으로 정량 검증 안 함)[2]; 전초 UPLC 3.34분[3]",
+   "activity_ko": "라말비드와 함께 이 속의 특징 성분",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Verbascoside",
+   "name_ko": "버바스코사이드(악테오사이드)",
+   "class": "페닐에타노이드 배당체",
+   "role": "marker",
+   "part": "꽃·지상부",
+   "content_text": "꽃 물·에탄올 추출물에서 정량(개별 수치는 표에 있어 확인 못함), 물 추출물이 더 많음[2]; 꽃에서 분리[9]",
+   "activity_ko": "꽃 표준화 기준 물질 후보로 제안됨[2]; 호중구 IL-8 분비 억제(세포 실험)[8]",
+   "source": [
+    2,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Lamalboside",
+   "name_ko": "라말보사이드(라미우사이드 A)",
+   "class": "페닐에타노이드 배당체",
+   "role": "bioactive",
+   "part": "꽃·지상부",
+   "content_text": "꽃에서 새 성분으로 분리(2R-galactosylacteoside)[9]; 전초 UPLC 10.97분[3]; 지상부에서 라미우사이드 A·B·C 분리[7]",
+   "activity_ko": "라미우사이드 B 처리 호중구의 IL-8 생성은 대조군의 64.67 ± 5.25%(세포 실험)[7]",
+   "source": [
+    3,
+    7,
+    9
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산(뎁사이드)",
+   "role": "marker",
+   "part": "지상부·꽃",
+   "content_text": "자생 지상부 메탄올 추출물 39.3 mg/g 건조중량(HPLC-UV)[4]; 꽃 추출물에서 정량, 에탄올 추출물이 더 많음[2]",
+   "activity_ko": "꽃 표준화 기준 물질 후보로 제안됨[2]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Sinapic acid",
+   "name_ko": "시납산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "자생 지상부 메탄올 추출물 61.8 mg/g 건조중량(HPLC-UV)[4]; [2]의 저자들은 이전 분석에서 검출하지 못했다고 밝힘[2]",
+   "activity_ko": "클로로포름 추출물의 암세포 독성과 관련이 있다고 추정(세포 실험)[4]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Rosmarinic acid",
+   "name_ko": "로즈마린산",
+   "class": "페놀산(뎁사이드)",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "자생 지상부 메탄올 추출물 40.8 mg/g 건조중량(HPLC-UV)[4]; [2]의 저자들은 이전 분석에서 검출하지 못했다고 밝힘[2]",
+   "activity_ko": "항산화 페놀산; 연구마다 검출 여부가 다름",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Tiliroside",
+   "name_ko": "틸리로사이드",
+   "class": "플라보놀 배당체(p-쿠마로일글루코사이드)",
+   "role": "bioactive",
+   "part": "꽃·지상부",
+   "content_text": "꽃에서 분리[9]; 꽃 추출물에서 정량(개별 수치는 표에 있어 확인 못함)[2]; 지상부·꽃 HPTLC 효소억제 띠에서 잠정 동정[16]",
+   "activity_ko": "HPTLC 효과지향 분석에서 효소 억제 띠의 후보 성분(시험관)[16]",
+   "source": [
+    2,
+    9,
+    16
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "꽃·전초",
+   "content_text": "꽃에서 분리[9]; 꽃 추출물에서 정량[2]; 전초 TLC에서 모든 화이트데드네틀 시료에 확인[3]",
+   "activity_ko": "항산화 플라보노이드",
+   "source": [
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "name": "Hesperidin",
+   "name_ko": "헤스페리딘",
+   "class": "플라바논 배당체",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "자생 지상부 메탄올 추출물의 주된 플라보노이드(HPLC-UV, 수치는 그림에 있어 확인 못함)[4]",
+   "activity_ko": "감귤류에 흔한 플라보노이드",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Oleanolic acid",
+   "name_ko": "올레아놀산",
+   "class": "트리테르펜",
+   "role": "bioactive",
+   "part": "꽃(식품원료 부위 아님)",
+   "content_text": "마른 꽃 아세톤 추출 1458 µg/g(흡광, 0.147%)·1516 µg/g(형광, 0.149%)(HPTLC-덴시토메트리)[13]; 꽃 메탄올 추출물을 산가수분해한 뒤 사포게닌으로 76.0 ± 2.7 µg/g(UHPLC-ELSD)[14]; 꽃부리에서 β-아미린·β-아미린 아세테이트와 함께 검출[11]",
+   "activity_ko": "꽃의 대표 트리테르펜",
+   "source": [
+    11,
+    13,
+    14
+   ]
+  },
+  {
+   "name": "Shanzhiside methyl ester",
+   "name_ko": "산지사이드 메틸에스터",
+   "class": "이리도이드 배당체",
+   "role": "bioactive",
+   "part": "꽃 핀 끝순·지상부",
+   "content_text": "지상부에서 분리[8]; 꽃 핀 끝순 물 추출물에서 이리도이드 이성질체 라미리도신 A·B 동정[10]",
+   "activity_ko": "아글리콘이 시험관에서 C형 간염바이러스 진입 억제; 라미리도신 IC50 2.31 µM(시험관)[10]",
+   "source": [
+    8,
+    10
+   ]
+  },
+  {
+   "name": "Polypodine B",
+   "name_ko": "폴리포딘 B",
+   "class": "식물 엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 아부타스테론·이노코스테론·프테로스테론과 함께 분리(함량 수치는 초록에 없음)[15]",
+   "activity_ko": "곤충 탈피호르몬과 같은 계열의 식물 성분",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Aucubin",
+   "name_ko": "아우쿠빈",
+   "class": "이리도이드 배당체",
+   "role": "bioactive",
+   "part": "꽃부리",
+   "content_text": "꽃부리 추출물에서 처음 검출(초록의 수치 표기가 깨져 확인 못함)[11]; 루마니아 전초 시료 TLC에서는 검출되지 않음[3]",
+   "activity_ko": "시료(부위·산지)에 따라 검출 여부가 다름",
+   "source": [
+    3,
+    11
+   ]
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨(잎가루 무기질)",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "잎(가루)",
+   "content_text": "잎가루 마그네슘 42.3, 칼륨 278.0, 인 44.07 mg/g(초록 표기 그대로, 전문 확인 못함). 칼륨 278.0 mg/g은 잎가루 무게의 27.8%에 해당하는 값이어서 단위 표기(예: mg/100 g) 오류 가능성이 있으므로 수치를 그대로 쓰지 말 것[5]",
+   "activity_ko": "잎가루의 무기질로 보고됨(단위 확인 필요)",
+   "source": [
+    5
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Lamalbid; Chlorogenic acid; Verbascoside; Rutin; Quercetin malonylhexoside; Tiliroside",
+   "compound_ko": "라말비드·클로로겐산·버바스코사이드·루틴·퀘르세틴 말로닐헥소사이드·틸리로사이드",
+   "part": "꽃(폴란드 바르샤바 2017년 5월 채집; 식품원료 사용 부위인 잎이 아님)",
+   "content": "라말비드 물 추출물 39.09 ± 1.02, 60% 에탄올 추출물 26.66 ± 0.64(초록 표기 'm/g dry weight')",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Shimadzu LC-10AT 펌프, SIL-20A 시료주입기, CTO-10AS 오븐, SPD-M20A 다이오드어레이 검출기",
+    "column": "Kinetex XB-C18, 150 × 2.1 mm, 2.6 µm(Phenomenex)",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "0–17분 B 10→19%; 17–37분 19→21%; 37–50분 21→40%; 주입 사이 B 10%로 10분 평형",
+    "flow": "0.2 mL/min",
+    "temp": "25 °C",
+    "detection": "DAD 200–450 nm, 정량 240 nm(이리도이드)·320 nm(페닐프로파노이드·뎁사이드)·350 nm(플라보노이드)",
+    "injection": "2 µL",
+    "sample_prep": "분말 19.5 g을 끓는 물 200 mL로 15분씩 3회 추출 또는 60% 에탄올 300 mL로 24시간씩 3회 침지 → 감압 농축·동결건조; 추출물 40 mg을 0.1% 포름산 수용액 1 mL에 녹여 0.45 µm 여과",
+    "standard": "같은 연구실이 지상부에서 분리한 표준품(순도 >95%, HPLC-DAD-MS 확인); 라말비드 700–1700 µg/mL 등 5–6농도 외부검량",
+    "linearity": "5농도 3반복, 잔차제곱합 F검정(수치는 표에 있어 확인 못함)",
+    "lod": "3.3σ/S로 계산(수치는 표에 있어 확인 못함)",
+    "loq": "10σ/S로 계산(수치는 표에 있어 확인 못함)",
+    "recovery": "60·100·140% 첨가 3수준 9시료로 평가(수치는 표에 있어 확인 못함)"
+   },
+   "rationale": "라말비드는 이 속의 화학분류 표지이고, 약전 요건과 표준품 구입 가능성을 고려해 클로로겐산과 버바스코사이드가 꽃의 정량 기준 물질로 제안되었다. 전문(Methods)에서 조건을 옮겼으며 검증 수치 표는 본문 텍스트에 없어 확인하지 못했다. 시료가 꽃이므로 잎 원료 값으로 쓰면 안 된다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.3390/molecules25071721",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total iridoids (as aucubin); Lamalbid; Caryoptoside; Lamiuside A; Tiliroside",
+   "compound_ko": "총이리도이드(아우쿠빈 환산)·라말비드·카리옵토사이드·라미우사이드 A·틸리로사이드",
+   "part": "전초(루마니아 북서부 야생 개체 2022년 4–6월 채집 및 재배 생산자 차 제품; 잎만 따로 분석하지 않음)",
+   "content": "총이리도이드 평균 0.445 µg 아우쿠빈/µL 추출액(쐐기풀 0.152); 최적 추출 검증값 0.532 µg/µL(예측 0.563)",
+   "method": "분광광도법(Trim–Hill 시약, 609 nm) + UPLC-UV 지문 분석",
+   "conditions": {
+    "instrument": "Waters ACQUITY Arc(Arc Quaternary 펌프, Arc Sample Manager FTN), TUV 2498 UV/VIS 검출기; 총이리도이드는 T80+ UV–Vis 분광광도계",
+    "column": "XBridge C18, 50 × 4.6 mm, 3.5 µm",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "0–7.6분 B 10→19%; 7.6–16.6분 19→21%; 16.6–22.5분 21→40%; 22.5–27분 40→10%",
+    "flow": "0.7 mL/min",
+    "temp": "25 °C",
+    "detection": "UV 210 nm(이리도이드); 총이리도이드는 609 nm 흡광",
+    "injection": "10 µL(추출액을 아세토니트릴과 1:1 희석)",
+    "sample_prep": "그늘(22–24 °C) 건조 분말 0.5 g + 55% 에탄올 5 mL, 셀룰레이스 3.3%, 55 °C, 40분 초음파 효소 추출 → 6000 rpm 5분 원심분리; Trim–Hill 반응은 추출액 100 µL + 시약 1 mL, 100 °C 5분",
+    "standard": "아우쿠빈(≥98.0%) 검량선(총이리도이드); UPLC 피크는 문헌 머무름시간과 비교해 동정(라말비드 1.84분, 카리옵토사이드 3.34분, 라미우사이드 A 10.97분, 틸리로사이드 22.55분)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이리도이드는 이 종의 주요 2차대사산물 계열이어서 추출 효율과 쐐기풀과의 구별 지표로 쓰였다. 전문(Methods)에서 조건을 옮겼으며 개별 이리도이드는 정량하지 않았고 검출·정량한계와 회수율은 원문에 없다[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.3390/plants12183233",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid; Sinapic acid; Rosmarinic acid",
+   "compound_ko": "클로로겐산·시납산·로즈마린산",
+   "part": "지상부(불가리아 로젠산 자생 성숙 개체, 그늘 건조; 잎만 따로 분석하지 않음)",
+   "content": "메탄올 추출물 클로로겐산 39.3, 시납산 61.8, 로즈마린산 40.8 mg/g 건조중량(원문 표기)",
+   "method": "HPLC-UV(등용매, 성분군별 이동상)",
+   "conditions": {
+    "instrument": "Waters 1525 Binary Pump, Waters 2487 Dual UV-vis 검출기",
+    "column": "Discovery HS C18, 25 cm × 4.6 mm, 5 µm",
+    "mobile_phase": "페놀산: 2% 아세트산 / 0.5% 아세트산–아세토니트릴(95:5); 플라보노이드: 2% 아세트산–메탄올(70:30); 퀘르세틴 배당체: 2% 아세트산–아세토니트릴(80:20); 로즈마린산: 메탄올–황산–물(50:0.3:49.7)",
+    "gradient": "",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "페놀산 280·320 nm, 플라보노이드 380·308 nm, 퀘르세틴 배당체 370 nm, 로즈마린산 327 nm",
+    "injection": "20 µL",
+    "sample_prep": "분말 3 g을 클로로포름 30 mL로 8시간 속슬렛 추출한 뒤 같은 시료를 메탄올로 다시 추출 → 건조 후 메탄올 1 mL에 녹임",
+    "standard": "외부표준법, 표준품 1 mg/mL 메탄올 저장액을 0.005·0.010·0.020·0.050·0.100 mg/mL로 희석해 검량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "클로로겐산 등 페놀산은 이 종 지상부의 주요 항산화 성분으로 자생·시험관 증식 개체의 성분 차이를 비교하는 데 쓰였다. 전문(Methods)에서 조건을 옮겼으며 검출·정량한계와 회수율은 원문에 없다. [2]의 저자들은 이전 분석에서 로즈마린산·시납산을 검출하지 못했다고 밝혀 결과가 엇갈린다[2, 4].",
+   "source": [
+    2,
+    4
+   ],
+   "url": "https://doi.org/10.1080/13102818.2014.989094",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 화이트데드네틀잎(Lamium album L., White dead nettle, 이명 왜광대수염·말광대수염), 사용가능부위: 잎, 사용가능; 같은 목록의 광대수염순·잎(Lamium album var. barbatum / var. petiolatum, 이명 꽃수염풀·산광대)·광대나물순·잎(Lamium amplexicaule, 이명 긴잎광대수염) 행 포함",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Lamalbid, Chlorogenic Acid, and Verbascoside as Tools for Standardization of Lamium album Flowers — Development and Validation of HPLC–DAD Method — Molecules 2020;25(7):1721 (전문 PMC7180761) (PMID 32283643)",
+   "url": "https://doi.org/10.3390/molecules25071721",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Use of Secondary Metabolites Profiling and Antioxidant Activity to Unravel the Differences between Two Species of Nettle — Plants 2023;12(18):3233 (전문 PMC10535656) (PMID 37765397)",
+   "url": "https://doi.org/10.3390/plants12183233",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Changes in the functional characteristics of tumor and normal cells after treatment with extracts of white dead-nettle — Biotechnol Biotechnol Equip 2015;29(1):181-188 (전문 PMC4433899) (PMID 26019631)",
+   "url": "https://doi.org/10.1080/13102818.2014.989094",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Application of Lamium album Leaves Powder in Wheat Bread Technology — Plant Foods Hum Nutr 2025;80(2):106 (PMID 40192867)",
+   "url": "https://doi.org/10.1007/s11130-025-01328-5",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "In vitro effects of European and Latin-American medicinal plants in CYP3A4 gene expression, glutathione levels, and P-glycoprotein activity — Front Pharmacol 2022;13:826395 (전문 PMC9579425) (PMID 36278236)",
+   "url": "https://doi.org/10.3389/fphar.2022.826395",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Bioassay-Guided Isolation of Iridoids and Phenylpropanoids from Aerial Parts of Lamium album and Their Anti-inflammatory Activity in Human Neutrophils — Planta Med 2017;83(12-13):1011-1019 (PMID 28371943)",
+   "url": "https://doi.org/10.1055/s-0043-107031",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Bioactive Constituents of Lamium album L. as Inhibitors of Cytokine Secretion in Human Neutrophils — Molecules 2018;23(11):2770 (전문 PMC6278331) (PMID 30366450)",
+   "url": "https://doi.org/10.3390/molecules23112770",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Phenylpropanoid esters from Lamium album flowers — Phytochemistry 1995;38(4):997-1001 (PMID 7766391)",
+   "url": "https://doi.org/10.1016/0031-9422(94)00727-b",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Lamiridosins, hepatitis C virus entry inhibitors from Lamium album — J Nat Prod 2009;72(12):2158-2162 (PMID 19904996)",
+   "url": "https://doi.org/10.1021/np900549e",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Histochemical and Phytochemical Analysis of Lamium album subsp. album L. Corolla: Essential Oil, Triterpenes, and Iridoids — Molecules 2021;26(14):4166 (전문 PMC8306815) (PMID 34299441)",
+   "url": "https://doi.org/10.3390/molecules26144166",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Phenolic Constituents of Lamium album L. subsp. album Flowers: Anatomical, Histochemical, and Phytochemical Study — Molecules 2020;25(24):6025 (전문 PMC7766379) (PMID 33352709)",
+   "url": "https://doi.org/10.3390/molecules25246025",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "HPTLC-densitometric method of determination of oleanolic acid in the Lamii albi flos — J Sep Sci 2005;28(16):2139-2143 (PMID 16318210)",
+   "url": "https://doi.org/10.1002/jssc.200500106",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Separation and Quantification of Selected Sapogenins Extracted from Nettle, White Dead-Nettle, Common Soapwort and Washnut — Molecules 2021;26(24):7705 (전문 PMC8708431) (PMID 34946786)",
+   "url": "https://doi.org/10.3390/molecules26247705",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Phytoecdysteroids from Lamium spp: identification and distribution within plants — Biochem Syst Ecol 2001;29(9):891-900 (PMID 11445290)",
+   "url": "https://doi.org/10.1016/s0305-1978(01)00035-7",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Bioactivity profiling of Lamium album by HPTLC combined with effect-directed analysis and high-resolution tandem mass spectrometry — J Chromatogr B 2026;1275:124994 (PMID 41785535)",
+   "url": "https://doi.org/10.1016/j.jchromb.2026.124994",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Antimicrobial activity of extracts from in vivo and in vitro propagated Lamium album L. plants — Afr J Tradit Complement Altern Med 2013;10(6):559-562 (전문 PMC3847403) (PMID 24311888)",
+   "url": "https://doi.org/10.4314/ajtcam.v10i6.30",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Adaptive changes in photosynthetic performance and secondary metabolites during white dead nettle micropropagation — J Plant Physiol 2014;171(15):1344-1353 (PMID 25046755)",
+   "url": "https://doi.org/10.1016/j.jplph.2014.05.010",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Haemostatic activity of butanolic extracts of Lamium album and Lamium purpureum aerial parts — Acta Pharm 2019;69(3):443-449 (PMID 31259737)",
+   "url": "https://doi.org/10.2478/acph-2019-0026",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Urtica Dioica and Lamium Album Decrease Glycogen Synthase Kinase-3 beta and Increase K-Ras in Diabetic Rats — J Pharmacopuncture 2019;22(4):248-252 (전문 PMC6970568) (PMID 31970022)",
+   "url": "https://doi.org/10.3831/KPI.2019.22.033",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Effects of standardized extracts of Lamium album and Urtica dioica on rat tracheal smooth muscle contraction — J Pharmacopuncture 2018;21(2):70-75 (전문 PMC6054093) (PMID 30151306)",
+   "url": "https://doi.org/10.3831/KPI.2018.21.008",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Treatment of atopic dermatitis with herbal combination of Eleutherococcus, Achillea millefolium, and Lamium album has no advantage over placebo: a double blind, placebo-controlled, randomized trial — J Am Acad Dermatol 2005;52(4):691-693 (PMID 15793525)",
+   "url": "https://doi.org/10.1016/j.jaad.2003.05.008",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Randomized controlled trial of nettle sting for treatment of base-of-thumb pain — J R Soc Med 2000;93(6):305-309 (전문 PMC1298033) (PMID 10911825)",
+   "url": "https://doi.org/10.1177/014107680009300607",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Investigation of biological activity of Lamii albi flos extracts — J Ethnopharmacol 2007;110(1):69-75 (PMID 17081715)",
+   "url": "https://doi.org/10.1016/j.jep.2006.09.004",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Nectar guides and floral nectary in Lamium album L. subsp. album: structure and histochemistry in light, fluorescence, and electron microscopy — Micron 2023;171:103474 (PMID 37156083)",
+   "url": "https://doi.org/10.1016/j.micron.2023.103474",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Habitat and forage associations of a naturally colonising insect pollinator, the tree bumblebee Bombus hypnorum — PLoS One 2014;9(9):e107568 (전문 PMC4178030) (PMID 25259579)",
+   "url": "https://doi.org/10.1371/journal.pone.0107568",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Intraspecific convergence of floral size correlates with pollinator size on different mountains: a case study of a bumblebee-pollinated Lamium (Lamiaceae) flowers in Japan — BMC Ecol Evol 2021;21(1):64 (전문 PMC8067403) (PMID 33894742)",
+   "url": "https://doi.org/10.1186/s12862-021-01796-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Complete chloroplast genomes analysis of Lamium barbatum and Leucas ciliata (Lamiaceae) — Mitochondrial DNA B Resour 2025;10(12):1138-1142 (전문 PMC12604122) (PMID 41230035)",
+   "url": "https://doi.org/10.1080/23802359.2025.2582528",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Biosynthesis of the iridoid glucoside, lamalbid, in Lamium barbatum — Phytochemistry 2010;71(14-15):1690-1694 (PMID 20656306)",
+   "url": "https://doi.org/10.1016/j.phytochem.2010.06.019",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "[Studies of floral biology, breeding characters of Lamium barbatum] — Zhongguo Zhong Yao Za Zhi 2011;36(16):2166-2169 (중국어, 영문 초록) (PMID 22097322)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22097322/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Complete chloroplast genome of Lamium takesimense Nakai (Lamiaceae): an endemic species in South Korea — Mitochondrial DNA B Resour 2019;4(2):3216-3217 (전문 PMC7706697) (PMID 33365926)",
+   "url": "https://doi.org/10.1080/23802359.2019.1667899",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "The uneven rate of the molecular evolution of gene sequences of DNA-Dependent RNA polymerase I of the Genus Lamium L. — Int J Mol Sci 2013;14(6):11376-11391 (전문 PMC3709737) (PMID 23759988)",
+   "url": "https://doi.org/10.3390/ijms140611376",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Lamium album Flower Extracts: A Novel Approach for Controlling Fusarium Growth and Mycotoxin Biosynthesis — Toxins 2023;15(11):651 (전문 PMC10675686) (PMID 37999514)",
+   "url": "https://doi.org/10.3390/toxins15110651",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "The Effect of Lamium album Extract on Cultivated Human Corneal Epithelial Cells (10.014 pRSV-T) — J Ophthalmic Vis Res 2015;10(3):229-237 (전문 PMC4687254) (PMID 26730306)",
+   "url": "https://doi.org/10.4103/2008-322X.170349",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

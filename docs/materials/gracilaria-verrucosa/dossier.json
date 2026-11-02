@@ -1,0 +1,612 @@
+{
+ "slug": "gracilaria-verrucosa",
+ "name_ko": "꼬시래기",
+ "name_en": "Gracilaria verrucosa (sea string, sewing thread)",
+ "scientific_name": "Gracilaria verrucosa (Hudson) Papenfuss",
+ "aliases": [
+  "꼬시락",
+  "Sea string",
+  "Sewing thread"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "꼬시래기(Gracilaria verrucosa)는 여러 나라 바닷가에 널리 자라는 먹는 홍조류로 소개된다[10]. 식약처 「식품원료 목록」에는 원료명 '꼬시래기', 별칭 '꼬시락', 영명 'Sewing thread, Sea string'으로 한 행이 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 전체'다[1]. 같은 행의 분류는 '수산물'이고 부위 칸은 '-'로 적혀 있으며, 같은 속의 각시꼬시래기·꼬불꼬시래기·잎꼬시래기 행은 분류가 '식물'로 되어 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함. 원료 카드에는 EU 신규식품(Novel Food) 목록 표시가 있으나, EU 원문에서 그 지위와 조건은 확인하지 못함.\n\n꼬시래기는 한천(agar)의 원료가 되는 홍조류로, 인도 시료에서는 한천이 약 27–33% 추출되었다[21]. 한국 완도산 건조 시료는 탄수화물이 66.9%였고, 당은 주로 갈락토스와 포도당이었다[20]. 이 종에서는 프로스타글란딘과 산화 지방산이 여럿 분리되었다[3, 4]. 일본에서는 G. verrucosa라는 학명으로 적힌 '오고노리'를 먹은 뒤 사망을 포함한 중독 사례가 보고되었으나, 최근 문헌은 오고노리를 G. vermiculophylla로 다룬다[2, 24]. 효능 연구는 대부분 세포·동물 실험이며, 사람을 대상으로 한 시험으로는 요오드 흡수율 연구가 확인되었다[9, 10, 11, 14]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "식약처 목록에는 꼬시래기의 별칭으로 '꼬시락'이 적혀 있다[1]. 국내 연구에서 쓴 꼬시래기 시료는 전남 완도의 지역 특산물 판매처에서 사거나 완도·장흥 일대에서 얻은 것이었다[9, 20, 23]. 국내 연구진은 이 종을 '먹는 홍조류(edible red alga)'로 소개했다[10]. 우리나라에서 꼬시래기를 먹어 온 시기와 조리법을 다룬 공공기관 문헌은 확인하지 못함.\n\n일본의 먹는 홍조류 '오고노리(ogonori)'는 1980–90년대 일본 문헌에서 Gracilaria verrucosa라는 학명으로 적혔고, 1985년 일본 국립위생시험소 보고에는 '구토를 일으킨 오고노리(Gracilaria verrucosa Papenf.)'의 성분을 인공 위액으로 처리해 본 연구가 실렸다[2, 31]. 최근 문헌은 오고노리를 동아시아 원산 G. vermiculophylla로 다룬다[24]. 1993년 10월 말에는 요코하마 노지마 해안에서 오고노리를 먹은 2명이 중독되어 1명이 숨진 사례가 보고되었다[2]. 1990년대 일본 기업 연구진은 이 종의 수용성 다당류를 생리 기능성 식품 소재로 연구했다[12, 38]. 인도에서는 이 종을 한천과 바이오에탄올을 함께 얻는 원료로 시험했고, 한국에서도 2010년대 이후 바이오에탄올·바이오당 원료 연구가 이어졌다[20, 21, 36]."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징·생태",
+   "body": "꼬시래기는 한천을 만드는 홍조류(agarophyte)로, 세포벽 다당류는 부분적으로 황산화된 아가로스다[38]. 일본 연구진은 이 종에서 탄수화물이 92%인 황산화 프로테오글리칸을 분리했고, 이 물질은 토끼 적혈구를 가장 잘 엉기게 하는 응집소였다[13]. 러시아 연구진은 바닥에 붙지 않고 떠서 자라는 형태(unattached form)의 꼬시래기를 대상으로 프로스타글란딘 함량의 계절 변화를 조사했다[3]. 이 연구에서 6–9월의 PGE2+PGF2 함량은 건조 중량 1 g당 약 420 μg으로 비교적 일정했고, 수온이 5–10 °C로 낮아진 11월에 2500 μg/g으로 가장 높았다[3].\n\n지중해 연안 석호에서는 꼬시래기가 Chaetomorpha linum·Ulva sp.와 함께 떠다니는 해조 군락을 이루었다[28]. 이 연구에서 꼬시래기는 낮은 CO2 농도에서 다른 두 종보다 광합성 효율이 높았고, 여름에는 봄보다 높은 pH에 적응했다[28]. 동해 표트르대제만에서는 엽상체가 썩는 병에 걸린 꼬시래기 조직에서 한천을 분해하는 비브리오(Vibrio)류 세균만 분리되었다[37]. 일본 연구진은 이 종의 조직 1 g(생중량)에서 원형질체 1.03 × 10^8개를 얻는 효소 처리 조건을 정리했다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "학명 Gracilaria verrucosa (Hudson) Papenfuss는 1990년 18S rRNA 서열 보고에 이 저자명으로 쓰였다[16]. 그러나 PubMed는 'Gracilaria verrucosa' 검색어를 NLM 보충 개념 'Gracilariopsis longissima'에 연결해 검색한다[27]. 이 이름은 (S.G. Gmelin) Steentoft, L.M. Irvine & Farnham을 저자명으로 쓴다[26]. 원료 카드의 국립생물자원관 연결 자료도 속 이름을 Gracilariopsis로 적었다[1]. 다만 Gracilaria verrucosa가 Gracilariopsis longissima로 옮겨진 명명 처리의 원문(학명 기각 제안 등)은 이번 조사에서 확인하지 못함.\n\n여러 지역의 'G. verrucosa' 집단을 비교한 Rubisco 스페이서 서열 연구는 유럽·아르헨티나 시료가 한 무리를 이루고, 나머지 무리는 원산 지역에 따라 갈린다고 보고했다[15]. 따라서 같은 이름의 인도·유럽·러시아 시료 결과를 한국 꼬시래기에 그대로 옮기면 안 된다[15, 21, 28]. 일본의 오고노리는 최근 문헌에서 Gracilaria vermiculophylla라는 학명으로 다뤄지며, 이 종의 원산지는 동아시아로 정리되어 있다[24, 25]. G. vermiculophylla 집단 유전 연구는 중국·한국·일본 연안을 자생 범위로 표본 조사했고, 한국 동해안과 러시아 연안에서도 같은 미토콘드리아 유형이 보고되었다[25]. 따라서 한국·일본·러시아 극동 연구에서 'G. verrucosa'로 적힌 시료가 실제로 어느 종인지는 각 원문만으로 확인하지 못함[3, 25]. 식약처 목록에는 각시꼬시래기(G. bursa-pastoris)·꼬불꼬시래기(G. incurvata)·잎꼬시래기(G. textorii)·개꼬시래기(Gracilariopsis chorda)가 별도 원료로 있고, 문절망둑(물고기)의 별칭에도 '꼬시래기'가 있다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·채취",
+   "body": "해양수산부·통계청 어업생산통계에서 꼬시래기 양식·채취 생산량은 이번 조사에서 확인하지 못함. 국내 연구 시료는 전남 완도와 장흥 지역에서 얻었고, 모두 말린 시료를 갈거나 추출해 썼다[9, 20, 23]. 장흥산 시료는 실온 건조와 흐르는 수돗물 세척으로 소금기를 뺐고, 완도산 시료는 24시간 물에 불려 소금기를 뺀 뒤 35 °C에서 48시간 말렸다[9, 23].\n\n러시아 연구에서는 꼬시래기를 자연광의 50%와 5% 조건에서 다섯 달 동안 키운 결과, 50% 조건의 PGE2·PGF2 함량이 자연 조건의 절반이었고 5% 조건에서는 PGA2가 최대 4배로 늘었다[3]. 이처럼 키우는 빛 조건과 계절에 따라 프로스타글란딘 함량이 크게 달라진다[3]. 동해 러시아 연안 시료에서는 엽상체가 썩는 병든 개체에서 비브리오류 세균이 분리되어 병과의 관련이 제기되었다[37]. 일본 동북부 태평양 연안은 굴 양식과 꼬시래기속 해조의 한천 추출이 이뤄지는 지역으로 소개되었다[25]."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용 연구",
+   "body": "인도 시료로 한 연구에서는 수확 시기에 따라 한천이 약 27–33% 추출되었고, 한천을 뺀 찌꺼기에는 홀로셀룰로스가 약 62–68% 남았다[21]. 같은 찌꺼기를 효소로 분해해 셀룰로스 1 g당 당 0.87 g을 얻었고, 효모 발효로 당 1 g당 에탄올 0.43 g을 얻었다[21]. 인도 오리사·타밀나두 연안의 꼬시래기속 여러 종 가운데 이 종의 총 탄수화물이 56.65%로 가장 높았다[22]. 한국 완도산 건조 시료는 탄수화물이 66.9%였고, 12%(w/v) 슬러리를 질산 500 mM로 121 °C에서 90분 처리한 뒤 효소 당화해 단당 61.0 g/L를 얻었다[20]. 8%(w/v) 슬러리의 총탄수화물 53.5 g/L 가운데 74.0%가 단당으로 바뀐 보고도 있다[36].\n\n식품 쪽에서는 완도산 꼬시래기를 아주 곱게 간 가루를 흑염소 육포에 3% 넣은 연구가 있으며, 맛·식감·전체 기호도는 대조군과 유의한 차이가 없었다[23]. 일본 기업 연구진은 꼬시래기 다당류(부분 황산화 아가로스)를 세균 효소로 분해해 새로운 황산화 올리고당을 얻었고, 효소 분해한 수용성 다당류 분획을 생쥐에게 먹였을 때 대식세포 활성이 높아졌다[12, 38]. 이 결과는 동물 실험이며, 사람에게서 같은 효과는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "꼬시래기는 1990년대 여러 홍조류 분자생물학 연구에 쓰였고, 18S rRNA 유전자 서열이 1990년에 보고되었다[16]. 1998년에는 대단위 rRNA 전체 서열이 밝혀져, 홍조류와 은편모조류 핵형체(nucleomorph)가 공통 조상을 가진다는 계통 분석에 쓰였다[19]. 캐나다 연구진은 이 종에서 6개 단위가 이어진 폴리유비퀴틴 유전자(UBI6R)를 클로닝했다[17]. 같은 연구진은 색소체형 GAPDH 유전자(GapA)를 클로닝하고, 홍조류와 고등식물의 색소체가 한 번의 내공생에서 비롯되었을 가능성을 제시했다[18].\n\n여러 지역 집단의 Rubisco 대·소단위 유전자 사이 스페이서(131 bp 미만) 서열은 지역에 따라 네 무리로 나뉘었다[15]. 이 연구는 이 스페이서 서열로 가까운 종이나 집단을 가를 수 있는지 보려는 것이었고, 시료에는 G. verrucosa와 비슷한 종도 포함되었다[15]. 동아시아 꼬시래기속 해조(G. vermiculophylla)는 미토콘드리아 유전자 1개와 핵 미세위성 10개 좌위로 2,500개가 넘는 엽상체를 분석한 연구에서 일본 동북부가 북미·유럽 침입 집단의 주된 기원으로 나타났다[25]. 한국 꼬시래기 시료의 유전체 해독 결과는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 꼬시래기는 '사용가능' 원료이며, 사용 조건은 '사용가능부위 : 전체'로 따로 붙은 제한은 없다[1]. 1993년 10월 말 일본 요코하마에서 '오고노리'(원문 학명 G. verrucosa)를 먹은 2명이 중독되어 1명(여성)이 숨졌고, 증상은 메스꺼움·구토·저혈압이었다[2]. 해양 독소 생물검정에서는 원인 물질이 나오지 않았고, 해조를 자르거나 민물에 담그면 PGE2를 비롯한 프로스타글란딘이 많이 생기는 것으로 나타났다[2]. 연구진은 해조와 사람 몸의 효소가 함께 먹은 해산물 기름 등의 고도불포화지방산에 작용해 30 mg이 넘는 PGE2가 짧은 시간에 생겼다고 추정했다[2]. 이후 문헌은 오고노리를 동아시아 원산 G. vermiculophylla로 다루며, 이 해조의 PGE2 생성이 때때로 식중독을 일으킨다고 적었다[24]. 따라서 이 사례가 식약처 목록의 꼬시래기(G. verrucosa)와 같은 종에서 일어난 것인지는 확인하지 못함. 러시아 연구진(블라디보스토크)이 조사한 'G. verrucosa' 시료에서는 PGE2+PGF2 함량이 계절에 따라 건조 중량 1 g당 420–2500 μg으로 달라졌다[3].\n\n요오드 생체이용률 연구에서 이 종은 중금속이 적고 요오드가 많아 선택되었으며, 마르세유 지역 건강한 성인에서 소변 배설로 잰 요오드 생체이용률이 101%였다[14]. 꼬시래기의 요오드 함량 값은 확인하지 못함. 인도 만나르만 시료에서는 HCH·엔도설판이 유럽연합 기준을 넘었고, 에게해 시료에서는 세슘-137이 검출되었다[29, 30]. 이런 오염 값은 채취 해역에 따른 것이며, 국내산 꼬시래기의 중금속·잔류농약·알레르기 정보는 공공기관 자료로 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Agarose",
+   "name_ko": "아가로스(한천)",
+   "class": "황산화 갈락탄 다당류",
+   "role": "bioactive",
+   "part": "엽상체 전체",
+   "content_text": "한천 추출 수율 약 27–33%(인도 시료, 수확 시기별)[21]; 부분 황산화 아가로스[38]",
+   "activity_ko": "한천 원료; 효소 분해 황산화 올리고당 생성[38]; 효소 분해 수용성 다당류 분획 경구 투여 시 생쥐 대식세포 활성 증가[12]",
+   "source": [
+    12,
+    21,
+    38
+   ]
+  },
+  {
+   "name": "Galactose",
+   "name_ko": "갈락토스",
+   "class": "단당(다당류 구성당)",
+   "role": "nutrient",
+   "part": "엽상체 건조 분말(가수분해물)",
+   "content_text": "완도산 건조 시료 탄수화물 66.9%, 12%(w/v) 슬러리 120 g dw/L에서 단당(갈락토스+포도당) 61.0 g/L[20]; 인도 시료 총탄수화물 56.65%[22]",
+   "activity_ko": "바이오에탄올·바이오당 원료 연구의 주 당[20, 36]",
+   "source": [
+    20,
+    22,
+    36
+   ]
+  },
+  {
+   "name": "Prostaglandin E2",
+   "name_ko": "프로스타글란딘 E2",
+   "class": "에이코사노이드(프로스타글란딘)",
+   "role": "marker",
+   "part": "엽상체(러시아 연구진 시료, 떠서 자라는 형태)",
+   "content_text": "PGE2+PGF2 6–9월 약 420 μg/g 건조중량, 11월 2500 μg/g 건조중량[3]; 중독 사례에서 30 mg 넘게 생성된 것으로 추정[2]",
+   "activity_ko": "자르거나 민물에 담그면 생성 증가; 1993년 일본 '오고노리'(원문 학명 G. verrucosa) 중독 사례의 원인 물질로 추정(메스꺼움·구토·저혈압)[2]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Prostaglandin F2alpha",
+   "name_ko": "프로스타글란딘 F2",
+   "class": "에이코사노이드(프로스타글란딘)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "PGE2와 합한 값으로 420–2500 μg/g 건조중량(계절별)[3]",
+   "activity_ko": "HPLC로 정량, 1H NMR로 구조 확인[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Prostaglandin A2",
+   "name_ko": "프로스타글란딘 A2",
+   "class": "에이코사노이드(프로스타글란딘)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "6–9월 약 40 μg/g, 11월 74 μg/g 건조중량; 자연광 5%에서 키우면 최대 4배[3]",
+   "activity_ko": "빛이 약할 때 증가[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "15-Keto-prostaglandin E2",
+   "name_ko": "15-케토-프로스타글란딘 E2",
+   "class": "에이코사노이드",
+   "role": "bioactive",
+   "part": "엽상체 메탄올 추출물",
+   "content_text": "분리 보고(함량 값은 초록에 없음)[3, 6]",
+   "activity_ko": "새 15-케토-PG 4종(PGB 계열 3종, PGE 계열 1종) 분리, 대식세포 NO 생성 억제는 약함(세포 실험)[6]",
+   "source": [
+    3,
+    6
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산",
+   "class": "다불포화지방산(ω-6)",
+   "role": "nutrient",
+   "part": "엽상체 총지질",
+   "content_text": "6–11월 총지질 중 48.9–56.7%(원문 표기)[3]",
+   "activity_ko": "프로스타글란딘 생성의 전구체; 첨가 시 PGE2 생성 증가[2]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "(E)-9-Oxooctadec-10-enoic acid",
+   "name_ko": "(E)-9-옥소옥타데크-10-엔산",
+   "class": "엔온 지방산(옥시리핀)",
+   "role": "bioactive",
+   "part": "엽상체 추출물",
+   "content_text": "분리 보고(함량 값 확인하지 못함)[4, 7]",
+   "activity_ko": "LPS 자극 대식세포의 NO·TNF-α·IL-6 억제(세포 실험)[5]; 혈관내피세포 증식·이동 IC50 2–3 μg/mL, 생쥐 각막 신생혈관 억제[7]; 폐암세포 A549 세포사멸 IC50 약 140 μM[8]",
+   "source": [
+    4,
+    5,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "(E)-10-Oxooctadec-8-enoic acid",
+   "name_ko": "(E)-10-옥소옥타데크-8-엔산",
+   "class": "엔온 지방산(옥시리핀)",
+   "role": "bioactive",
+   "part": "엽상체 추출물",
+   "content_text": "분리 보고(함량 값 확인하지 못함)[8]",
+   "activity_ko": "폐암세포 A549 세포사멸 IC50 약 170 μM, DNA 복제 억제(세포 실험)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "11-Deoxyprostaglandin",
+   "name_ko": "11-데옥시프로스타글란딘류",
+   "class": "에이코사노이드",
+   "role": "bioactive",
+   "part": "엽상체 추출물",
+   "content_text": "새 화합물 4종 분리(함량 값 확인하지 못함)[4]",
+   "activity_ko": "세라마이드·C16 케토 지방산 등과 함께 분리, 항염 활성 평가(세포 실험)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Iodine",
+   "name_ko": "요오드",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "함량 값 확인하지 못함; 요오드가 많고 중금속이 적어 시험 해조로 선택됨[14]",
+   "activity_ko": "건강한 성인 요오드 생체이용률(소변 배설 기준) 101%(마르세유), 85%(브뤼셀)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Inositol phosphoceramide",
+   "name_ko": "이노시톨포스포세라마이드",
+   "class": "스핑고지질",
+   "role": "bioactive",
+   "part": "엽상체 극성 지질",
+   "content_text": "분리 보고(함량 값 없음)[34]",
+   "activity_ko": "균류·일부 원생생물에서만 알려졌던 지질 형태로 보고[34]",
+   "source": [
+    34
+   ]
+  },
+  {
+   "name": "2-Chlorododec-2-en-1-ol",
+   "name_ko": "2-클로로도데크-2-엔-1-올",
+   "class": "염소화 C12 지방산 대사물",
+   "role": "bioactive",
+   "part": "엽상체 추출물",
+   "content_text": "분리 보고(함량 값 없음)[33]",
+   "activity_ko": "자연계에 드문 구조로 보고[33]",
+   "source": [
+    33
+   ]
+  },
+  {
+   "name": "Sulfated proteoglycan hemagglutinin",
+   "name_ko": "황산화 프로테오글리칸 응집소",
+   "class": "당단백질(렉틴 유사)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "탄수화물 92%, 분자량 49,000(27,000·23,000 이량체), 등전점 3.8(일본 연구, 함량 값 없음)[13]",
+   "activity_ko": "토끼 > 말 > 기니피그 > 거위 적혈구 응집, 열에 약함(시험관)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Cholesterol",
+   "name_ko": "콜레스테롤",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "엽상체 디클로로메탄-아세톤 추출물",
+   "content_text": "분리 보고(터키 연구, 함량 값 없음); 같은 해조의 메탄올 추출물에서는 새 스테롤 배당체 (24R)-5α-stigmast-9(11)-en-3β-D-glucopyranoside 분리[35]",
+   "activity_ko": "구조 규명 연구[35]",
+   "source": [
+    35
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Prostaglandin E2, F2, A2",
+   "compound_ko": "프로스타글란딘 E2·F2·A2",
+   "part": "엽상체(떠서 자라는 형태, 건조 중량 기준)",
+   "content": "PGE2+PGF2 6–9월 약 420 μg/g, 11월 2500 μg/g; PGA2 40 → 74 μg/g 건조중량[3]",
+   "method": "HPLC(4-메틸-7-메톡시쿠마린 에스터 유도체)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "PGA2·PGE2·PGF2·15-keto-PGE2 분리 후 4-methyl-7-methoxycoumarin 에스터로 유도체화; 구조는 1H NMR로 확인",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "프로스타글란딘은 이 종에서 중독과 관련해 보고된 성분이고, 이 연구는 이 종의 함량을 계절·빛 조건별로 정량했다; 러시아 연구진(블라디보스토크) 시료로 종 정체는 원문만으로 확인하지 못함; 전문 확인 못함(초록 기준) [2, 3].",
+   "source": [
+    2,
+    3
+   ],
+   "url": "https://doi.org/10.1016/s0031-9422(01)00321-1",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Galactose, glucose",
+   "compound_ko": "갈락토스·포도당(가수분해 단당)",
+   "part": "엽상체 건조 분말(완도산, 150 mesh)",
+   "content": "탄수화물 66.9%; 12%(w/v) 슬러리(120.0 g dw/L)에서 단당 61.0 g/L[20]",
+   "method": "HPLC-RI",
+   "conditions": {
+    "instrument": "Agilent 1100 Series, 굴절률(RI) 검출기",
+    "column": "Aminex HPX-87H (Bio-Rad) 300 × 7.8 mm",
+    "mobile_phase": "여과·탈기한 5 mM 황산",
+    "gradient": "등용매",
+    "flow": "0.6 mL/min",
+    "temp": "",
+    "detection": "굴절률(RI)",
+    "injection": "",
+    "sample_prep": "질산 500 mM, 121 °C, 90분 열산가수분해 후 효소 당화; 8,000 × g 12분 원심분리, 0.2 μm 주사기 필터 여과",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꼬시래기 탄수화물은 주로 갈락토스(한천)와 포도당(셀룰로스)으로 이루어져 가공 원료로서의 지표가 된다; 전문(Methods) 확인 [20].",
+   "source": [
+    20
+   ],
+   "url": "https://doi.org/10.4014/jmb.2002.02014",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Agar",
+   "compound_ko": "한천",
+   "part": "엽상체(인도 시료)",
+   "content": "한천 추출 수율 약 27–33%(수확 시기별)[21]",
+   "method": "한천 추출 수율(중량)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꼬시래기는 한천 원료 홍조류이므로 한천 수율이 원료 품질의 기본 지표로 쓰인다; 인도 시료이며 전문 확인 못함(초록 기준) [21].",
+   "source": [
+    21
+   ],
+   "url": "https://doi.org/10.1016/j.biortech.2012.10.120",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '꼬시래기'(Gracilaria verrucosa) 1행(분류 수산물, 부위 칸 '-', 사용 조건 '사용가능부위 : 전체', 별칭 '꼬시락', 영명 'Sewing thread, Sea string')과 같은 목록의 각시꼬시래기(G. bursa-pastoris)·꼬불꼬시래기(G. incurvata)·잎꼬시래기(G. textorii)·개꼬시래기(Gracilariopsis chorda) 행, 별칭에 '꼬시래기'가 있는 문절망둑(Acanthogobius flavimanus) 행; 국립생물자원관 연결 자료(card.json: bioresource_id 14788552, 연결 속명 Gracilariopsis)(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Poisoning by the red alga 'ogonori' (Gracilaria verrucosa) on the Nojima Coast, Yokohama, Kanagawa Prefecture, Japan. Toxicon 1994;32(12):1533-8 (초록)",
+   "url": "https://doi.org/10.1016/0041-0101(94)90311-5",
+   "publisher": "Toxicon (PubMed 7725321)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Response of prostaglandin content in the red alga Gracilaria verrucosa to season and solar irradiance. Phytochemistry 2001;58(7):1067-72 (초록)",
+   "url": "https://doi.org/10.1016/s0031-9422(01)00321-1",
+   "publisher": "Phytochemistry (PubMed 11730870)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Anti-inflammatory constituents of the red alga Gracilaria verrucosa and their synthetic analogues. J Nat Prod 2008;71(2):232-40 (초록)",
+   "url": "https://doi.org/10.1021/np070452q",
+   "publisher": "Journal of Natural Products (PubMed 18220352)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Two enone fatty acids isolated from Gracilaria verrucosa suppress the production of inflammatory mediators by down-regulating NF-kappaB and STAT1 activity in lipopolysaccharide-stimulated RAW 264.7 cells. Arch Pharm Res 2009;32(3):453-62 (초록)",
+   "url": "https://doi.org/10.1007/s12272-009-1320-0",
+   "publisher": "Archives of Pharmacal Research (PubMed 19387591)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "The occurrence of 15-keto-prostaglandins in the red alga Gracilaria verrucosa. Arch Pharm Res 2010;33(9):1325-9 (초록)",
+   "url": "https://doi.org/10.1007/s12272-010-0905-y",
+   "publisher": "Archives of Pharmacal Research (PubMed 20945130)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "A natural anti-inflammatory enone fatty acid inhibits angiogenesis by attenuating nuclear factor-κB signaling in vascular endothelial cells. Int J Oncol 2011;38(2):493-501 (초록)",
+   "url": "https://doi.org/10.3892/ijo.2010.856",
+   "publisher": "International Journal of Oncology (PubMed 21132269)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Apoptotic activity of fatty acid derivatives may correlate with their inhibition of DNA replication. Int J Oncol 2008;33(6):1291-8 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19020763/",
+   "publisher": "International Journal of Oncology (PubMed 19020763)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "In Vitro and In Vivo Effects of Gracilaria verrucosa Extracts on Osteoclast Differentiation. J Clin Med 2017;6(3):32 (전문)",
+   "url": "https://doi.org/10.3390/jcm6030032",
+   "publisher": "Journal of Clinical Medicine (PubMed 28335442, PMC5373001)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "The edible red alga, Gracilaria verrucosa, inhibits lipid accumulation and ROS production, but improves glucose uptake in 3T3-L1 cells. Phytother Res 2013;27(7):1102-5 (초록)",
+   "url": "https://doi.org/10.1002/ptr.4813",
+   "publisher": "Phytotherapy Research (PubMed 22991308)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Seaweed extracts as a potential tool for the attenuation of oxidative damage in obesity-related pathologies. J Phycol 2011;47(3):548-556 (초록)",
+   "url": "https://doi.org/10.1111/j.1529-8817.2011.00974.x",
+   "publisher": "Journal of Phycology (PubMed 27021984)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "In vivo macrophage-stimulation activity of the enzyme-degraded water-soluble polysaccharide fraction from a marine alga (Gracilaria verrucosa). Biosci Biotechnol Biochem 1996;60(10):1667-71 (초록)",
+   "url": "https://doi.org/10.1271/bbb.60.1667",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed 8987666)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "A sulfated proteoglycan from the red alga Gracilaria verrucosa is a hemagglutinin. Comp Biochem Physiol B 1992;102(3):445-9 (초록)",
+   "url": "https://doi.org/10.1016/0305-0491(92)90034-o",
+   "publisher": "Comparative Biochemistry and Physiology B (PubMed 1499284)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Bioavailability of seaweed iodine in human beings. Cell Mol Biol 2002;48(5):563-9 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12146713/",
+   "publisher": "Cellular and Molecular Biology (PubMed 12146713)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Rubisco spacer sequence divergence in the rhodophyte alga Gracilaria verrucosa and closely related species. Curr Genet 1991;19(5):395-8 (초록)",
+   "url": "https://doi.org/10.1007/BF00309601",
+   "publisher": "Current Genetics (PubMed 1680570)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Nucleotide sequences of 18S ribosomal RNA genes from the red algae Gracilaria tikvahiae McLachlan, Gracilaria verrucosa (Hudson) Papenfuss and Gracilariopsis sp. Nucleic Acids Res 1990;18(13):4023-4 (서지 정보)",
+   "url": "https://doi.org/10.1093/nar/18.13.4023",
+   "publisher": "Nucleic Acids Research (PubMed 2374738, PMC331139)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Characterization of the polyubiquitin gene in the marine red alga Gracilaria verrucosa. Biochim Biophys Acta 1995;1261(2):215-22 (초록)",
+   "url": "https://doi.org/10.1016/0167-4781(95)00006-3",
+   "publisher": "Biochimica et Biophysica Acta (PubMed 7711065)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Cloning and characterization of the nuclear gene encoding plastid glyceraldehyde-3-phosphate dehydrogenase from the marine red alga Gracilaria verrucosa. Curr Genet 1994;26(1):79-86 (초록)",
+   "url": "https://doi.org/10.1007/BF00326308",
+   "publisher": "Current Genetics (PubMed 7954900)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "The origin of red algae and cryptomonad nucleomorphs: A comparative phylogeny based on small and large subunit rRNA sequences of Palmaria palmata, Gracilaria verrucosa, and the Guillardia theta nucleomorph. Mol Phylogenet Evol 1998;10(3):333-42 (초록)",
+   "url": "https://doi.org/10.1006/mpev.1998.0544",
+   "publisher": "Molecular Phylogenetics and Evolution (PubMed 10051386)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Comparison of Ethanol Yield Coefficients Using Saccharomyces cerevisiae, Candida lusitaniae, and Kluyveromyces marxianus Adapted to High Concentrations of Galactose with Gracilaria verrucosa as Substrate. J Microbiol Biotechnol 2020;30(6):930-936 (전문)",
+   "url": "https://doi.org/10.4014/jmb.2002.02014",
+   "publisher": "Journal of Microbiology and Biotechnology (PubMed 32238769, PMC9728270)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Bioethanol production from Gracilaria verrucosa, a red alga, in a biorefinery approach. Bioresour Technol 2013;135:150-6 (초록)",
+   "url": "https://doi.org/10.1016/j.biortech.2012.10.120",
+   "publisher": "Bioresource Technology (PubMed 23312437)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Process development for the production of bioethanol from waste algal biomass of Gracilaria verrucosa. Bioresour Technol 2016;220:584-589 (초록)",
+   "url": "https://doi.org/10.1016/j.biortech.2016.08.096",
+   "publisher": "Bioresource Technology (PubMed 27619709)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Physicochemical Properties of Restructured Black Goat Jerky with Various Types of Ultra-Ground Seaweed Powders. Food Sci Anim Resour 2024;44(2):483-497 (전문)",
+   "url": "https://doi.org/10.5851/kosfa.2023.e80",
+   "publisher": "Food Science of Animal Resources (PubMed 42060195, PMC11097035)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Increased potential for wound activated production of Prostaglandin E2 and related toxic compounds in non-native populations of Gracilaria vermiculophylla. Harmful Algae 2016;51:81-88 (초록)",
+   "url": "https://doi.org/10.1016/j.hal.2015.11.009",
+   "publisher": "Harmful Algae (PubMed 28003063)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Genetic identification of source and likely vector of a widespread marine invader. Ecol Evol 2017;7(12):4432-4447 (전문)",
+   "url": "https://doi.org/10.1002/ece3.3001",
+   "publisher": "Ecology and Evolution (PubMed 28649353, PMC5478068)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Physiological responses of Gracilariopsis longissima (S.G. Gmelin) Steentoft, L.M. Irvine and Farnham (Rhodophyceae) to sub-lethal copper concentrations. Aquat Toxicol 2003;64(2):201-13 (초록)",
+   "url": "https://doi.org/10.1016/s0166-445x(03)00054-7",
+   "publisher": "Aquatic Toxicology (PubMed 12799112)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "PubMed 검색 'Gracilaria verrucosa'의 검색어 변환(query translation): \"gracilariopsis longissima\"[Supplementary Concept] OR \"gracilaria verrucosa\"[All Fields] — NLM MeSH 보충 개념 연결",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Gracilaria+verrucosa",
+   "publisher": "미국 국립의학도서관(NLM) PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "A comparative study of the effect of pH and inorganic carbon resources on the photosynthesis of three floating macroalgae species of a Mediterranean coastal lagoon. J Exp Mar Biol Ecol 2001;256(1):123-136 (초록)",
+   "url": "https://doi.org/10.1016/s0022-0981(00)00313-0",
+   "publisher": "Journal of Experimental Marine Biology and Ecology (PubMed 11137509)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Risk assessment of organochlorine pesticides in seaweeds along the Gulf of Mannar, Southeast India. Mar Pollut Bull 2020;161(Pt B):111709 (초록)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2020.111709",
+   "publisher": "Marine Pollution Bulletin (PubMed 33038713)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Cesium-137 concentrations in marine macroalgae from different biotopes in the Aegean Sea (Greece). Ecotoxicol Environ Saf 2003;54(3):249-54 (초록)",
+   "url": "https://doi.org/10.1016/s0147-6513(02)00021-0",
+   "publisher": "Ecotoxicology and Environmental Safety (PubMed 12651181)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "[HPLC-pattern change of emetic ogonori (Gracilaria verrucosa Papenf.) components treated by an artificial gastric juice]. Eisei Shikenjo Hokoku 1985;(103):97-101 (서지 정보, 일본어)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3830320/",
+   "publisher": "Bulletin of National Institute of Hygienic Sciences (PubMed 3830320)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Optimization of parameters for isolation of protoplasts from Gracilaria verrucosa (Rhodophyta). J Mar Biotechnol 1998;6(3):193-7 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9701645/",
+   "publisher": "Journal of Marine Biotechnology (PubMed 9701645)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Chlorinated C12 fatty acid metabolites from the red alga Gracilaria verrucosa. J Nat Prod 2003;66(11):1509-11 (초록)",
+   "url": "https://doi.org/10.1021/np0302246",
+   "publisher": "Journal of Natural Products (PubMed 14640530)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "[Inositol-containing sphingolipid from red algae Gracilaria verrucosa]. Bioorg Khim 2004;30(2):190-4 (초록)",
+   "url": "https://doi.org/10.1023/b:rubi.0000023103.14189.27",
+   "publisher": "Bioorganicheskaia Khimiia (PubMed 15143675)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Studies on chemical constituents of Gracilaria verrucosa. Nat Prod Res 2008;22(18):1589-96 (초록)",
+   "url": "https://doi.org/10.1080/14786410701838130",
+   "publisher": "Natural Product Research (PubMed 19085413)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Effects of galactose adaptation in yeast for ethanol fermentation from red seaweed, Gracilaria verrucosa. Bioprocess Biosyst Eng 2015;38(9):1715-22 (초록)",
+   "url": "https://doi.org/10.1007/s00449-015-1411-x",
+   "publisher": "Bioprocess and Biosystems Engineering (PubMed 25964182)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "[Bacterial communities of brown and red algae from Peter the Great Bay, the Sea of Japan]. Mikrobiologiia 2006;75(3):410-9 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16871810/",
+   "publisher": "Mikrobiologiia (PubMed 16871810)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 38,
+   "title": "New Sulfated Oligosaccharides Produced by Pseudomonas β-Agarase from Gracilaria verrucosa Polysaccharide. Biosci Biotechnol Biochem 1998;62(6):1190-5 (초록)",
+   "url": "https://doi.org/10.1271/bbb.62.1190",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed 27388645)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

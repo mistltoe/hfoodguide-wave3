@@ -1,0 +1,1498 @@
+1
+
+Introduction
+
+Cancer and diabetes mellitus,
+recognized as formidable and life-threatening
+health challenges in the modern era, significantly influence the global
+public health domain, resulting in 9.6 million and 1.6 million annual
+deaths worldwide, respectively.Lung cancer
+stands as the most commonly diagnosed cancer in both men and women,
+and is also the leading cause of cancer-related deaths. Nevertheless,
+there exists significant disparity in the occurrence and fatality
+rates of lung cancer globally, which can be attributed to diverse
+trends in tobacco consumption, exposures to environmental risks, and
+hereditary factors.Besides, diabetes
+mellitus, a chronic metabolic disorder characterized by elevated blood
+sugar levels, is associated with various disease complications, including
+cardiovascular disease, atherosclerosis, arterial disease, kidney
+failure, retinopathy, and neurological disorders.Clinicians have been reporting the prevalence of patients
+with diabetes and cancer for over 50 years. Epidemiologic data indicate
+that type 2 diabetes and cancer share several risk factors and that
+people with diabetes have a significantly increased risk of several
+types of cancer. Additionally, observational studies witness that
+several drugs used to treat hyperglycemia may be associated with a
+risk of liver and pancreatic cancer.
+
+Although numerous modern treatment methods have been developed,
+cancer is frequently futile due to medication resistance and distant
+metastases.Further, chemically produced
+medications are used to mitigate the effects of diabetes, causing
+unwanted side effects such as obesity, gastrointestinal difficulties,
+and heart diseases. Consequently, contemporary synthetic and chemical
+medicines are cautiously approached due to their propensity to manifest
+adverse effects.
+
+Active pharmaceutical
+compounds derived from natural products and
+their synthetic derivatives significantly involved in treating human
+ailments are well-known. Nature bestows enormous bioactive compounds,
+and plants are a prodigious source of these bioactive compounds utilized
+for food and herbal medicine. For instance, nearly 25% of commercial
+drugs originate directly or indirectly from plants.Dietary phytochemicals are secondary metabolites predominantly
+found in plant-derived raw foods, such as green leaves and vegetables.
+These compounds demonstrate a variety of biological and medicinal
+properties, such as antioxidant, antidiabetic, and anticancer properties.Also, minor nutritional constituents such as
+phytosterols, tocopherols, polyphenols, and small squalane ingredients
+conferred remarkable physiological actions on plants. α-Tocopherol
+is a natural antioxidant found in plants that prevents the formation
+of free radicals and inhibits the formation of singlet oxygen.Phytosterols, specifically stigmasterol, β-sitosterol,
+and campesterol, are plant membrane ingredients that successfully
+lower serum low-density lipoproteins (LDLs) and atherosclerosis risk.
+
+Alternative therapeutic compounds generated
+from plants are currently
+of great interest due to their eco-friendly nature, accessibility,
+high bioavailability, affordability, and lack of side effects.andinvestigations have
+revealed that anticancer actions of tannins are primarily directed
+through negative regulation of transcription factors, growth factors,
+receptor kinases, and several tumorigenic entities.Natural products and conventional herbal medicines possess
+significant antidiabetic efficiency. Some of the phytochemicals can
+inhibit α-amylase and are utilized to regulate blood glucose
+levels in type 2 diabetes mellitus with lesser side effects compared
+to synthetic drugs.Every plant includes
+unique phytoconstituents from its different parts that have the potential
+to assist in mitigating difficulties linked to different diseases.
+A vast reservoir of biologically active secondary metabolites is present
+in many plant species; however, only a limited fraction of these compounds
+have been thoroughly investigated and confirmed as valuable sources
+of therapeutic agents.
+
+Mangroves
+are an example of a diverse ecosystem with climatically
+sensitive range limitations. They are halophytic intertidal vegetation
+found globally on tropical and subtropical coasts and are represented
+mainly by shrubs and trees along the sea–land interface.(L.)
+Dumort () (Ramanathapuram
+district, Tamil Nadu), a grassy mangrove-associated plant is widely
+dispersed on the landward borders. Apart from being a feasible source
+of food, fodder, and conventional medicine in certain regions, the
+plant also has potential uses in phytoremediation. This plant can
+withstand high levels of NaCl in its native environment and typically
+accumulates significant concentrations of ions in shoots.It is reported to exhibit antioxidant, antiviral,
+antimicrobial, and hepatoprotective activities.Recently, gold and silver nanoparticles designed using
+galangin (a flavonoid) derived fromhave been analyzed for antimicrobial and anticancer activities.Despite the increasing interest in natural compounds
+for drug development, there remains a critical gap toward the exploration
+of the pharmacologically active constituents present in traditional
+edible Indian mangrove-related plants like. In addition, only minimal reports are available on the identification,
+isolation of phytocompounds, characterization,molecular docking, and evaluation ofbiological
+activities, including antioxidant, antidiabetic, and anticancer properties.
+Therefore, the primary aim of our investigation is to identify, characterize,
+and evaluate the pharmacological properties of phytochemical constituents
+in. In order to analyze
+the biological potential of any plant species, the preparation of
+different extracts from the plant is essential. According to previous
+research, organic extracts prepared employing methanol, ethanol, and
+ethyl acetate have more significant concentrations of phytochemical
+components with strong antibacterial and antidiarrheal activitiesand.Following that, spectrometric and chromatographic screening
+of the extracts from medicinal plants offers fundamental details of
+their biochemical and pharmacological activity. However, several drugs
+did not enter the market due to inadequate pharmacological attributes,
+resulting in substantial losses for the pharmaceutical industries.
+Computational prediction tools play a crucial role in selecting protocols
+directing pharmaceutical research and are employed in theassessment of a drug’s pharmacokinetics
+and pharmacodynamic characteristics. Molecular docking is currently
+a successful and low-cost method for engineering and evaluating pharmaceuticals,
+which also offers insights into drug–receptor interactions,
+aiding in the prediction of the binding mode and mechanism of the
+bioactive compound with the target protein receptors. In light of
+this, the current study emphasizes the identification of bioactive
+compounds from various extracts ofand analysis by GC-MS and HPLC techniques. We have also evaluated
+the efficacy of the extracts for their antiproliferative, antioxidant
+(DPPH, ABTS, and reducing power
+assays), and antidiabetic (α-glucosidase and α-amylase
+assays) activities. Besides,molecular
+docking was performed for the identified phytocompounds with C-terminal
+binding protein (CtBP) and SOX2 bound to importin-α3 target
+proteins. This report aims to forecast the structure and biological
+activities of phytochemical components present in the halophyte plantand underscores its potential as a source
+of naturally derived molecules for drug development and delivery systems.
+
+2
+
+Results and Discussion
+
+Samples ofwere procured
+from Karankaadu, Chitruvadi, Ramanathapuram district, Tamil Nadu (). Phytochemical
+profiling andantioxidant, antidiabetic,
+and anticancer activities have been evaluated for three different
+solvent extracts of: hexane,
+acetone, and methanol. The quantitative existence of phenolics and
+flavonoids was investigated using the GC-MS technique. Further,and ADME analyses have been performed for the
+phytochemicals identified from SMAE by the GC-MS technique.
+
+Figure 1
+
+Study area
+ofplants
+from Karankaadu, Chitruvadi, and Ramnad district (Lat 9.646196°,
+Long 78.957495°) using QGIS Software (version 3.26).
+
+2.1
+
+Yield of Extract
+
+The amount of desirable
+components that can be extracted from a specific amount of plant material
+is termed the plant extract yield, typically indicated as a percentage.
+Soxhlet extractor, a standard leaching method for over a century,
+was used to execute successive solid–liquid extractions to
+get high yields of chemicals from insoluble fractions.We obtained the extracts with different constituents
+based on polarity. The methanol extract (7.3%) had the highest yield,
+whereas the acetone and hexane extracts had comparatively lower yields
+(). In, the ability of polar solvents to draw
+out the most phytochemicals may be influenced by solvent efficiency
+and environmental factors like temperature.
+
+Table 1
+
+Extract
+Yield ofExtracts
+
+s. no
+
+extraction technique
+
+solvent
+
+total extract
+
+total
+extract yield %
+
+1
+
+Soxhlet
+
+hexane
+
+1.75 g
+
+2.3
+
+2
+
+Soxhlet
+
+acetone
+
+4.53 g
+
+5.6
+
+3
+
+Soxhlet
+
+methanol
+
+5.72 g
+
+7.3
+
+2.2
+
+Evaluation of Phytochemical Profiling
+
+2.2.1
+
+Qualitative Assessment ofExtracts
+
+The three solvent extracts
+were analyzed for the existence of saponins, anthraquinones, flavonoids,
+alkaloids, phenols, steroids, and glycosides. The qualitative evaluation
+focused on precipitation processes, foamy appearance, and color change,
+all of which are features of the chemical components of theplant, which are the presence and absence
+of secondary metabolites shown in. The acetone extract recorded the presence
+of most of the phytochemicals, except glycosides. The presence of
+saponins was noticed in all of the extracts, and phenols and steroids
+were present in hexane and acetone extracts.
+
+Table 2
+
+Presence
+and Absence of Phytochemical
+Test ofExtracts
+
+s. no
+
+test
+
+hexane
+extract
+
+acetone
+extract
+
+methanol
+extract
+
+1
+
+saponins
+
++
+
++
+
++
+
+2
+
+flavonoids
+
+–
+
++
+
+–
+
+3
+
+glycosides
+
+–
+
+–
+
+–
+
+4
+
+quinones
+
+–
+
++
+
++
+
+5
+
+phenols
+
++
+
++
+
+–
+
+6
+
+anthraquinones
+
+–
+
++
+
++
+
+7
+
+steroids
+
++
+
++
+
+–
+
+a
+
+(+ represents a presence and –
+represents an absence).
+
+2.3
+
+Quantitative Assessment ofExtracts
+
+Allextracts underwent quantitative determination
+of nonenzymatic antioxidant components (phenolics and flavonoids),and the findings are displayed in. The amount of nonenzymatic
+antioxidants found in the SMAE was the highest, which revealed the
+increased efficacy of midpolar solvents for extracting polyphenolic
+substances from the plant sample.
+
+Figure 2
+
+Quantitative assessment of phenolics and
+flavonoids (positive control:
+GAE (gallic acid for phenols and quercetin for flavonoids)).
+
+2.4
+
+Thin-Layer Chromatography
+(TLC) and Column
+Chromatography
+
+TLC was done for thesample, and the new spot was observed by an UV transilluminator
+at 365 nm in acetone with an Rf value of 0.54 (SI,).Compounds were collected
+from the wholeplant sample
+by column chromatography using hexane, chloroform, ethyl acetate,
+and methanol eluents (SI,).
+
+2.5
+
+HPLC Analysis
+
+Twenty-five μL
+of theacetone extract
+in 20 ppm concentration was injected into reversed-phase high-performance
+liquid chromatography (RP-HPLC) for analytical purpose, with β-sitosterol
+as the reference standard, and peak was observed under 256 nm (mobile
+phase ratio methanol (75%) and HPLC gradient water (25%)) (). The spectrum confirmed
+the presence of trace amounts of stigmasterol derivatives in the SMAE
+at the retention times of 0.684, 1.052, 1.405, 3.830, and 9.736 min.
+
+Figure 3
+
+HPLC of theacetone
+extract. (a) Reference standard β-sitosterol and (b) SMAE-identified
+compound stigmasterol.
+
+2.6
+
+Spectroscopic
+Study
+
+The FT-IR spectral
+technique is typically employed to detect the different functional
+groups in the plant extract and is confirmed by comparing it with
+the standard IR.The FT-IR spectrum of
+SMAE () displayed
+a broad band around 3400 cm, demonstrating the
+presence of several hydroxyl (–OH) and amino (–NH) groups.
+The peaks at 1258 and 1060 cmrevealed the skeletal
+C–C stretching, and the former peak includes the mixed νvibrations, and the latter peak designated
+the existence of both aliphatic νand νstretching. The spectrum also confirmed the presence
+of active methylene and olefinyl aromatic C=C functional motifs,
+attributed to the stretching peaks around 2920 and 1640 cm, respectively. The symmetric stretching of the COOH emerged around
+1420 cm. The less intense peaks around 622 cmrevealed the alkynyl C–H and aliphatic C–Br
+moieties in the SMAE. The prevalence of these chemical stretches and
+linkages for various functional groups raises the possibility that
+the extract components may bind to the target proteins that trigger
+the apoptotic signaling cascade in antitumor activity. A comparable
+FT-IR investigation on the acetone extract ofwas related to the molecular docking of volatile chemicals based
+on GC-MS.
+
+Figure 4
+
+FT-IR spectrum ofacetone
+extract.
+
+2.7
+
+GC-MS
+Analysis
+
+The GC-MS chromatogram
+() of SMAE
+displayed the potential phytochemicals present in that extract (), and its mass spectrum
+and relative retention times (Rt) were compared with those of the
+standard NIST library. The phytocompounds, stigmasterol and γ-sitosterol,
+were observed at retention times of 16.21 and 17.09, with retention
+index values of 2970 and 2950, respectively, possessing the high peak
+area %. The existence of octadecanoic acid, octacosane, and vitamin
+E has been confirmed by the retention times of 17.985, 22.262, and
+14.123, along with retention index values of 1823, 2987, and 2987,
+respectively.
+
+The occurrence of tritetracontane and 17-pentatriacontene
+has been
+determined by analyzing their respective retention times, measured
+as 21.029 and 21.751. Additionally, the maximum retention index values
+of these compounds were 4381 and 3598, respectively. The phytochemicals
+shown in the GC-MS chromatogram have significant biological and therapeutic
+effects. For instance, stigmasterol is shown to have antidiabetic
+properties by enhancing GLUT4 translocation, insulin resistance, and
+anticancer activities by cell cycle arrest and cell growth inhibition.γ-Sitosterol derived fromhas been reported to induce cell
+cycle arrest at the G2/M phase and apoptosis in A549 and MCF-7 cells.Octacosane exhibited antibacterial and wound-healing
+properties.17-Pentatriacontene has shown
+anti-inflammatory, anticancer, antiatherogenic, and antiarthritic
+activities.However, mechanisms by which
+many of these phytochemicals exhibit biological activities have not
+yet been fully understood. Hence, we focused on evaluating themolecular docking; ADME properties; andantioxidant, antidiabetic, and anticancer activities
+for phytochemicals identified from SMAE.
+
+Figure 5
+
+GC-MS chromatogram of theacetone extract.
+
+Table 3
+
+GC-MS Analysis
+ofAcetone Extract
+
+s.no
+
+retention time
+
+peak name
+
+height
+
+molecular formula/weight
+
+retention index
+
+biological activity
+
+1
+
+16.210
+
+stigmasterol
+
+200422019466-47-8 99
+
+CHO/416.7 g/mol
+
+2970
+
+anticancer, antidiabetic, anti-inflammatory
+
+2
+
+17.090
+
+γ-sitosterol
+
+199879000083-47-6 99
+
+CHO/432.7 g/mol
+
+2950
+
+anticancer, anti-inflammatory
+
+3
+
+22.262
+
+octacosane
+
+193569000630-02-4 91
+
+CH/394.8 g/mol
+
+2798
+
+antibacterial, wound healing
+
+4
+
+21.751
+
+17-pentatriacontene
+
+212522006971-40-0 91
+
+CH/490.9 g/mol
+
+3598
+
+antiatherogenic
+
+5
+
+21.029
+
+tritetracontane
+
+217983007098-21-7 91
+
+CH/605.2 g/mol
+
+4381
+
+antioxidant
+
+6
+
+14.123
+
+vitamin E
+
+203745000059-02-9 89
+
+CHO/430.7 g/mol
+
+2987
+
+antioxidant, α-tocopherol, important to vision, reproduction,
+and health of your brain, blood,
+and skin
+
+7
+
+17.985
+
+octadecanoic acid
+
+124556000057-11-4 99
+
+CHO/284.5 g/mol
+
+1823
+
+anti-inflammatory, antiandrogenic,
+anticancer, antileukotriene-D4
+
+2.8
+
+LC-MS
+Analysis
+
+LC-MS analysis was
+carried out for SMAE to determine the phytochemical composition. The
+SMAE displayed a base peak at/412.3757 and a less abundant peak at/605.2368 (SI,). The
+mass values of the two peaks coincide well with the formula weights
+of stigmasterol (412.69 g/mol) and tritetracontane (605.20 g/mol),
+respectively.
+
+2.9
+
+Antioxidant Activity
+
+2.9.1
+
+DPPH
+Assay
+
+Free radicals are reactive
+and unstable intermediates that can cause DNA damage in humans. DNA
+damage is believed to contribute to aging and numerous diseases, such
+as carcinoma and chronic inflammation. Scavenging free radicals may
+help to prevent such diseases. DPPH radical is extensively utilized
+to evaluate the antioxidant activity of substances as scavengers of
+harmful free radicals or proton donors.The odd electron of DPPH free radical produces a bright purple color
+in methanol with a maximum absorption at 517 nm. The color changes
+to yellow with a decrease in molar absorptivity of the DPPH radical
+when it pairs with hydrogen to generate the reduced DPPH-H species.
+The number of collected electrons and the consequent decolorization
+are stoichiometric. Hence, the free-radical scavenging property ofextracts has been tested employing the
+DPPH radical in methanol solution in a dose-dependent manner, with
+ascorbic acid as a standard to compare the antioxidant activity of
+the extracts. The different concentrations of the extracts used for
+the antioxidant activity are 25, 50, 75, and 100 μg/mL. The
+ICvalue of the positive control ascorbic acid is 31.3
+μg/mL, whereas that of the acetone extract was 95.58 μg/mL.
+Among the extracts, the hexane extract has lower activity (). The greater antioxidant
+property of the SMAE depicts its capacity to supply hydrogen atoms
+and scavenge the free radicals, which can be endorsed to the existence
+of polyphenolic and flavonoid contents as indicated by the qualitative
+phytochemical analysis and FT-IR spectroscopy.
+
+Figure 6
+
+DPPH radical scavenging ability ofextracts.
+
+2.9.2
+
+ABTS Assay
+
+When ABTS interacts
+with potassium persulfate, a blue chromophore (ABTSradical) is created. With the inclusion of a component possessing
+antioxidative potential, the concentration of ABTSradical falls and gets decolourized.For the various solvent extracts examined in this investigation,
+a dose-dependent suppression of the ABTSradical
+was observed. The ICvalue of the SMAE was 69.2 μg/mL,
+and the standard ascorbic acid has an ICvalue of 33.24
+μg/mL. Contrary to the DPPH assay, the methanol extract displayed
+the least scavenging ability. The maximum concentrations (100 μg/mL)
+of all of the extracts and ascorbic acid (the positive control) showed
+a modest (statistically nonsignificant) variation in percent inhibition
+().
+
+Figure 7
+
+ABTSradical scavenging ability ofextracts
+
+2.9.3
+
+Reducing
+Power Ability
+
+A key mechanism
+for putative free-radical scavenging activity is the reducing power
+of the plant’s extract, which can serve as a valuable indicator
+of its antioxidant potential. Reducing power ability in antioxidant
+activity refers to the capacity of a substance to donate electrons
+and reduce oxidative species, particularly free radicals (electron
+transfer from the antioxidant to the free radicals), within a biological
+or chemical system. The antioxidant effect of SMAE is manifested through
+the reduction of ferric ions (Fe(III)) within the ferricyanide complex,
+converting them to their ferrous (Fe(II)) form. The reducing power
+of the extracts exhibited varying degrees of activity, ranging from
+high to moderate, when compared to rutin, as shown in. SMAE established a high reducing
+power ability, with an ICof 163.78 μg/mL at an
+absorbance of 700 nm. The results from DPPH, ABTS, and reducing power radical scavenging assays of the SMAE indicated
+a positive correlation between the observed antioxidant activity and
+the presence of phenols and flavonoids in the acetone extract, which
+were not present in others. A similar observation was noticed in the
+antioxidant studies of the related genus.
+
+Figure 8
+
+Reducing power ability ofextracts.
+
+2.10
+
+Antidiabetic Activity
+
+2.10.1
+
+α-Amylase Inhibition Assay
+
+α-Amylase is
+an enzyme that digests carbohydrates (mainly polysaccharides)
+by hydrolyzing their α-linkages and converting them into oligosaccharides.
+It is responsible for the increase in the level of postprandial glucose
+in diabetic patients, and hence, inhibiting its activity may control
+hyperglycemia and reduce diabetic development.Evaluation of the α-amylase inhibitory activity of
+the extracts in a dose-dependent trend indicated better inhibition
+by the acetone extract, among others, and the activity of acarbose
+was also studied as a comparative standard (). The concentrations of the tested samples
+were expressed in terms of μg/mL, and the acetone extract exhibited
+the lowest ICvalue of 32.6 μg/mL. Overall, the
+α-amylase inhibition activity of the extracts followed the order
+acarbose > acetone > hexane > methanol. In addition, the
+acetone extract
+matched the inhibition activity of acarbose under 25 and 75 μg/mL
+concentrations. The antidiabetic activity via the α-amylase
+inhibition mechanism of the various extracts ofis consistent with previous reports.
+
+Figure 9
+
+Anti-α-amylase activity of theextracts compared with acarbose.
+
+2.10.2
+
+α-Glucosidase Inhibition Assay
+
+α-Glucosidase is a crucial catabolic enzyme that controls
+plasma glucose levels, enabling essential energy sources for the body’s
+healthy functioning. Its primary role lies in carbohydrate digestion
+and the disintegration of complex sugars into simpler forms such as
+glucose. Inhibiting α-glucosidase can result in delayed or diminished
+carbohydrate absorption, offering significant benefits in controlling
+postmeal blood glucose levels, and α-glucosidase-inhibiting
+drugs lower the blood glucose levels to treat type 2 diabetes.The acetone, hexane, and methanol extracts ofrevealed a potent inhibitory capability
+of α-glucosidase with ICvalues of 86.53 ±
+0.06, 55.50 ± 0.07, and 54.40 ± 0.08 μg/mL, respectively,
+compared to the standard acarbose with IC= 27.09 ±
+0.09 μg/mL (). In contrast to the α-amylase inhibition activity,
+SMAE demonstrated ICvalues higher than those of the
+other extracts and the acarbose. It is well-known that some phytochemicals,
+including polyphenols, alkaloids, terpenoids, saponins, lignans, phenolic
+acids etc., have been identified as responsible for α-amylase
+inhibition, contributing to their antidiabetic activity. Since α-amylase
+and α-glucosidase require metal ions like calcium for their
+proper functioning, certain phytochemicals can bind to these metal
+ions, preventing them from interacting with the enzyme and inhibiting
+its activity. Further, they exert antidiabetic activity also via competitive
+inhibition, allosteric inhibition, and binding and modifying the enzyme
+conformation via hydrogen bonding.In
+our investigation, the SMAE was also found to have maximum phytochemicals,
+specifically saponins, anthraquinones, flavonoids, alkaloids, phenols,
+and steroids and showed almost equipotent antidiabetic activity when
+compared to the standard acarbose.
+
+Figure 10
+
+Anti-α-glucosidase
+activity of theextracts
+compared with acarbose.
+
+2.11
+
+Anticancer Activity
+
+2.11.1
+
+MTT
+Assay
+
+Many plant extracts
+have been reported to exhibit cancer cell growth inhibition,and hence, we have analyzed the anticancer potential of SMAE in
+lung cancer cell proliferation. In order to monitor the development
+and morphological modifications in lung cancer (A549) cells, it is
+more common to utilize 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyl tetrazolium
+bromide (MTT) as a formazan test. Since the acetone extract dominated
+the other extracts in phytochemical analyses and antioxidant studies,
+its anticancer potential was analyzed against lung cancer cells using
+the MTT assay and compared with doxorubicin (positive control). A
+plot of concentration vs percentage of cell death shown inindicated the
+increase in cell death upon increasing the concentration of the sample
+from 100 to 400 μg.
+
+The ICvalues of doxorubicin (SI,) and SMAE against the proliferation
+of lung cancer
+cells are 12.64 ± 0.86 and 78.19 ± 1.46 μg/mL, respectively.
+Also, the degree to which various doses of SMAE inhibit cancer growth
+is displayed in the SI,. With
+an increase in the concentration of SMAE, the cell debris increased
+due to increased cell death (SI,). Selectivity toward cancerous cells is the major challenge in advancing
+new antitumor drugs. Ideally, an effective anticancer agent should
+exclusively target cancer cells without harming healthy cells. In
+light of this, cytotoxic selectivity has been analyzed using noncancerous
+HUVEC cells (SI,). Advantageously,
+the SMAE showed specific antiproliferative activity only toward the
+proliferation of cancer cells, which has been witnessed by its higher
+ICvalue, 300 ± 1.12 μg/mL, on noncancerous
+HUVEC cells. Contrary to the previous report, the extracts ofunveiled significantcancer cell growth inhibition activity against lung cancer cells.
+
+Figure 11
+
+Effect of different concentrations of acetone
+extract on the death
+of A549 cells calculated using MTT assay.
+
+2.11.2
+
+DAPI Staining
+
+Apoptosis is the
+preferred pathway for therapeutic drugs to trigger cancer cell death.
+Hence, the apoptosis induction capacity of SMAE in lung cancer cells
+has been examined through nuclear morphological alterations by DAPI
+staining analysis. For this experiment, lung cancer cells were treated
+with different concentrations of SMAE (1, 2, 4, and 6 μM) for
+48 h and compared with the standard anticancer drug doxorubicin. In
+the course of apoptosis, cells undergo a myriad of transformations.
+One notable change involves the shift from genetically active chromatin
+to a more condensed state. Subsequently, during the ensuing stages,
+chromatin within the internucleosomal DNA linker regions experiences
+fragmentation orchestrated by DNA endonucleases.
+
+As a result,
+compacted nodes show heightened luminosity and reveal fragmented nuclei,
+a phenomenon readily discernible through fluorescence microscopy,
+especially in DNA regions marked with chromatin-specific dyes, such
+as DAPI. The nuclear morphological changes mentioned above were discerned
+in lung cancer cells when exposed to SMAE and doxorubicin, as visually
+depicted in. These observations signify that apoptosis induced by SMAE predominantly
+constitutes the mechanism underlying cancer cell death.
+
+Figure 12
+
+Identification
+of the A549 cells treated with SMAE and the standard
+drug doxorubicin using DAPI staining.
+
+2.11.3
+
+ROS Analysis
+
+Intracellular reactive
+oxygen species (ROS) are oxygen-encompassing reactive species that
+play pivotal roles in regulating fundamental cellular processes. These
+molecules are biologically indispensable with a profound impact on
+cell functions. The oxidation reactions stemming from aerobic metabolism
+lead to the generation of ROS. External stimuli trigger the oxidation
+of DNA and lipids, organelle degradation, and expedited apoptosis.
+Dysregulated ROS production profoundly influences the cellular architecture,
+potentially resulting in various disorders. Notably, a prevalent mechanism
+of action for anticancer therapeutics involves the augmentation of
+the ROS levels. Thus, we have undertaken an assessment of the capacity
+of SMAE to induce ROS production in lung cancer cells, employing the
+dichlorodihydrofluorescein diacetate (DCFH-DA) methodology, and compared
+with doxorubicin. The cellular enzyme esterase can convert the compound
+DCFH-DA into DCFH (2′,7′-dichlorodihydrofluorescein),
+a nonfluorescent molecule.
+
+In the presence of intracellular
+reactive oxygen species (ROS), the nonfluorescent DCFH initially undergoes
+rapid conversion into a highly luminous 2′,7′-dichlorofluorescein
+(DCF). The intensity of the fluorescence of DCF is likely to be correlated
+with the quantity of ROS found within cells. Consequently, an evaluation
+was conducted on the intracellular levels of reactive oxygen species
+(ROS) in lung cancer cells following treatment with SMAE (1, 2, 4,
+6 μM) for 48 h. The treatment of SMAE with lung cancer cells
+resulted in a noticeable rise in intracellular levels of reactive
+oxygen species (ROS) compared to those of the negative control group.
+Upon cellular uptake, the nonfluorescent compound DCFH-DA is rapidly
+hydrolyzed by intracellular esterases, resulting in the formation
+of the fluorescent compound DCFH. In addition, it is worth noting
+that nonfluorescent DCFH has the ability to undergo oxidation in the
+presence of intracellular reactive oxygen species (ROS), resulting
+in the formation of fluorescent DCF. According to the findings depicted
+in, the
+application of SMAE and doxorubicin resulted in a visible augmentation
+of green fluorescence. The outcomes suggest that SMAE, similar to
+doxorubicin, can potentially facilitate the production of reactive
+oxygen species (ROS) within cells.
+
+Figure 13
+
+Fluorescence images of ROS levels in
+A549 cells treated with SMAE
+and the standard drug doxorubicin using DCFH-DA staining.
+
+2.12
+
+Pharmacological Evaluation
+
+Finally,
+we delve into a comprehensive analysis of the pharmacological properties
+of the compounds identified from the GC-MS analysis of SMAE, employing
+ADME (absorption, distribution, metabolism, and excretion) analysis.
+Understanding the ADME characteristics is pivotal in predicting the
+potential efficacy and safety of phytochemicals found inas drug candidates. Additionally, we
+explore the molecular interactions of these compounds with C-terminal
+binding protein, CtBP1 (PDB), and SOX2 bound to importin-α3 (PDB) target proteins
+using molecular docking techniques. Theapproach allows us to elucidate the binding affinities and binding
+orientations of the identified compounds, shedding light on their
+potential as therapeutic agents. Together, these analyses provide
+valuable insights into the pharmacokinetic and pharmacodynamic profiles
+of the investigated compounds, paving the way for drug development.
+
+2.12.1
+
+ADME Analysis
+
+The ADME characteristics
+were examined to assess the possible clinical potential of the seven
+phytocomponents detected by GC-MS in the acetone extract of, and the results are given in. A quantitative multiple
+linear regression model was used to predict the proportion of human
+oral absorption (over 80% indicates high absorption and below 25%
+indicates poor absorption). The ADME assessment employs a set of knowledge-based
+guidelines that include determining appropriate values for % human
+oral absorption, number of metabolites, number of rotatable bonds,
+partition coefficient, solubility, molecular weight, and cell penetration.Solubility (log) of
+a drug determines its ability to dissolve in biological fluids and
+profoundly influences its pharmacological behavior. Optimal solubility
+ensures effective absorption and distribution of the compounds within
+the body. Generally, a logvalue close to
+0 or slightly negative is desirable for favorable drug formulation.
+In our case, the solubility of the phytocompounds ranges from −4.621
+to −9.168, indicating their suboptimal dissolution characteristics
+in water.
+
+However, efficient intracellular drug delivery
+relies on the transport
+of therapeutic molecules across the lipophilic cell membrane. In addition,
+permeation is a key factor impacting crucial pharmacological aspects
+of drugs including absorption, distribution, metabolism, and elimination.
+The outstanding logPo/w (lipophilicity in terms of partition coefficient
+between octanol and water system) and PMDCK (predicted apparent MDCK
+cell permeability in nm/s) of the identified compounds have been evidenced
+from the derived log Po/w (4.473–7.455) and PMDCK values
+(129.663–2630.822), respectively. Ideally, drug candidates
+should have high human oral absorption (HOA) %, indicating good oral
+bioavailability.A value of 80% or higher
+is often considered favorable for oral drugs, and all the examined
+phytocompounds showed >80% HOA, which dictated their remarkable
+HOA
+and, consequently, their bioavailability. Overall, the physicochemical
+and druglikeness factors were best met (100% human oral absorption;
+MW 250–500, often known as the Rule of 5) by almost all of
+the phytocompounds identified from the SMAE.
+
+Table 4
+
+ADME Characteristics of Phytochemicals
+Identified by GC-MS from the Acetone Extract of
+
+s. no.
+
+molecule
+
+MW
+
+log Po/w
+
+log
+
+PMDCK
+
+HOA%
+
+1
+
+stigmasterol
+
+416.729
+
+7.455
+
+–5.640
+
+1881.395
+
+100
+
+2
+
+γ-sitosterol
+
+414.713
+
+4.473
+
+–8.353
+
+1880.763
+
+100
+
+3
+
+octacosane
+
+394.8
+
+5.540
+
+–8.305
+
+1881.395
+
+83.26
+
+4
+
+17-pentatriacontene
+
+490.9
+
+4.473
+
+–8.353
+
+1654.210
+
+78.56
+
+5
+
+tritetracontane
+
+605.2
+
+6.320
+
+–7.023
+
+123.650
+
+81.56
+
+6
+
+vitamin E
+
+430.713
+
+6.983
+
+–8.334
+
+2630.822
+
+100
+
+7
+
+octadecanoic acid
+
+284.5
+
+5.370
+
+–4.621
+
+144.366
+
+88.54
+
+2.12.2
+
+Molecular Docking
+
+Molecular docking
+is crucial in modern drug discovery and the rational design of bioactive
+compounds. It allows for investigating binding interactions between
+possible drug candidates and specific target proteins, providing crucial
+insights into their binding affinities and therapeutic applications.Cancer is marked by intricate and multifaceted
+molecular processes, frequently entailing a cascade of genetic changes
+and the heightened expression of particular proteins. Targeted chemotherapeutic
+strategies aim to address this complexity by precisely identifying
+and targeting the overexpressed proteins, thereby enhancing the selectivity
+and efficacy of therapeutic drugs. In this study, we used molecular
+docking to investigate the interactions of the important compounds
+identified through GC-MS analysis of the SMAE and two significant
+target proteins related to cancer, CtBP1 (PDB Code:)and SOX2 bound to importin-α3 (PDB Code:).CtBP1 (C-terminal binding protein 1) stands as an evolutionarily
+conserved transcriptional corepressor with a multifaceted role in
+gene regulation. Its impact extends to the transcription of genes
+that are critical in cancer progression. Notably, CtBP1 exerts a negative
+regulatory influence on several tumor suppressor genes, including
+BRCA1, p16INK4a, and E-cadherin, thus promoting cell migration, invasion,
+and imparting antiapoptotic traits to tumor cells. Moreover, CtBP1
+significantly contributes to processes such as epithelial–mesenchymal
+transition, tumor metastasis, glucose metabolism, and the self-renewal
+of cancer stem cells. Its overexpression in various tumor tissues
+underscores its close association with tumorigenesis, progression,
+and prognosis.
+
+On the other hand,
+SOX2, an oncogenic transcription factor, exhibits overexpression in
+nearly half of basal-like triple-negative breast cancers and is also
+associated with copy number amplification and promoter overactivity
+in various malignancies, including lung cancer subtypes like squamous
+cell carcinoma and adenocarcinoma. The clinical relevance of targeting
+and inhibiting SOX2 is underscored by the positive correlation between
+high SOX2 mRNA levels and reduced overall survival and progression-free
+survival in cancer patients. Hence, CtBP1 and SOX2 have been chosen
+as the focal points of our docking investigations, seeking to unravel
+their potential as therapeutic targets for targeted cancer therapy.
+The docking was performed to bind the protein and ligand in the standard
+precision (SP).A total of 15 GC-MS compounds
+were docked into theandproteins;
+however, only 7 compounds were bound to the target proteins. Based
+on the Glide score (kcal/mol) and Glide energy (kcal/mol), the best
+binding poses were selected, and analysis was carried out using Schrodinger
+software.andrepresent the docking score and energy as well
+as interacting residues of the protein and ligand. Based on the results,
+hydrogen-bonding interactions were analyzed, and the best compounds
+were selected. The interactions of the stigmasterol, γ-sitosterol,
+octadecadienoic acid, stigmastanol, and vitamin E with the target
+proteins are provided inand. Stigmasterol, γ-sitosterol,
+and octadecadienoic acid demonstrated the best Glide scores of 3.852,
+−3.487, and −3.404 kcal/mol, respectively, with their
+interaction with the CtBP1 protein target.
+
+Stigmasterol, γ-sitosterol, and vitamin E unfolded
+excellent
+interactions with SOX2 bound to importin-α3 protein with the
+Glide scores of −2.845, −2.987, and −4.018 kcal/mol,
+respectively. Threonine (THR), arginine (ARG), and valine (VAL) are
+the prevalent amino acid residues that demonstrated good affinity
+with the phytocompounds via hydrogen-bonding interactions. In addition,
+the compounds revealed multiple hydrophobic, polar electrostatic,
+and pi–pi stacking interactions with various amino acid residues
+in the target proteins. Hydrogen-bond interactions are essential for
+ensuring the stability and specificity of ligand–receptor interactions,
+significantly influencing their overall binding affinity. Additionally,
+hydrophobic and pi–pi stacking interactions contribute to the
+stability of the ligand–receptor complexes. In our study, γ-sitosterol
+and stigmasterol displayed hydrogen bonding between the sterol hydroxyl
+group and the THR264 amino acid residue in the CtBP1 protein. In addition,
+with the same protein, octadecadienoic acid formed a couple of hydrogen
+bonds with VAL185 and ARG184 via the carbonyl oxygen and hydroxyl
+moieties of the carboxylic acid functional group. For SOX2 bound to
+importin-α3, stigmasterol interacted with SER144 via hydrogen
+bonding. Vitamin E displayed hydrogen bonding between the hydroxyl
+group of the phenolic–chromanol ring with ASP261 and pi–pi
+stacking interaction among the arene ring and TRP222. Overall, the
+outcomes of the docking simulations emphasize the crucial involvement
+of these specific complexes in facilitating molecular recognition
+and binding with the chosen protein receptors, attesting to their
+potential to disrupt critical tumor-related pathways. To validate
+their therapeutic effectiveness and safety, furtherstudies are imperative.
+
+Figure 14
+
+Three- and two-dimensional
+4U6Q docking interaction images with
+stigmastanol, stigmasterol, γ-sitosterol, and octadecadienoic
+acid.
+
+Figure 15
+
+Three- and two-dimensional 6WX8 docking
+interaction images with
+vitamin E and stigmasterol.
+
+Table 5
+
+Molecular Docking Results forTarget
+
+s. no
+
+ID
+
+compound name
+
+Glide
+score (kcal/mol)
+
+Glide energy (kcal/mol)
+
+no. of H-bonds
+
+interacting
+residues
+
+1
+
+241572
+
+stigmasterol
+
+–3.852
+
+–32.706
+
+1
+
+THR264, ARG266
+
+2
+
+457801
+
+γ-sitosterol
+
+–3.487
+
+–27.894
+
+1
+
+THR264
+
+3
+
+12408
+
+octacosane
+
+–3.022
+
+–34.876
+
+no interactions
+
+4
+
+5365022
+
+17-pentatriacontene
+
+–2.842
+
+–27.907
+
+GLY101, ARG97(SB)
+
+5
+
+522398
+
+tritetracontane
+
+–2.788
+
+–33.019
+
+ARG184, ASN119
+
+6
+
+14985
+
+vitamin E
+
+–0.449
+
+–41.335
+
+THR128
+
+7
+
+5281
+
+octadecadienoic acid
+
+–3.404
+
+–38.635
+
+2
+
+VAL185
+
+Table 6
+
+Molecular Docking
+Results forTarget
+
+s. no
+
+ID
+
+compound name
+
+Glide
+score (kcal/mol)
+
+Glide energy (kcal/mol)
+
+no. of H-bonds
+
+interacting residues
+
+1
+
+5280794
+
+stigmasterol
+
+–2.845
+
+–26.594-
+
+1
+
+SER144R
+
+2
+
+457801
+
+γ-sitosterol
+
+–2.987
+
+–30.437
+
+ARG103
+
+3
+
+12408
+
+octacosane
+
+–1.665
+
+–37.035
+
+no interactions
+
+4
+
+5365022
+
+17-pentatriacontene
+
+–2.185
+
+–37.618
+
+no interactions
+
+5
+
+522398
+
+tritetracontane
+
+–2.451
+
+–28.23
+
+no interactions
+
+6
+
+14985
+
+vitamin E
+
+–4.018
+
+–38.051
+
+1
+
+ASP261, TRP22 (pi–pi)
+
+7
+
+5281
+
+octadecanoic
+acid
+
+–0.591
+
+–26.113
+
+ARG103
+
+3
+
+Materials
+and Methods
+
+3.1
+
+Glasswares and Chemicals
+
+All analytical
+grade chemicals used in this investigation were purchased from HiMedia,
+Mumbai. The borosil grade glass was used for all objects.
+
+3.2
+
+Sample Collection
+
+was gathered in its entirety from the
+Karankaadu, Chitruvadi, Ramnad district). The taxonomic identity of
+the plant was confirmed by the Southern Regional Center of the Botanical
+Survey of India (BSI), Coimbatore. The whole plant was shade-dried,
+chopped, and utilized for further analysis.
+
+3.3
+
+Extraction
+of
+
+To prepare
+the extract, Soxhlet equipment was used. With
+increasing order of polarity, hexane, acetone, and methanol solvents
+were used to derive extracts from the driedpowder (30 g). The solvent extraction was performed several times
+with hexane, acetone, and methanol individually. Then, the solvent
+extracts were condensed using a rotary vacuum evaporator and air-dried.
+After air drying, the sample was macerated in boiling water for 2
+h. Finally, an estimate of the extract’s yield % was made.
+
+3.4
+
+Assessment of Phytochemical
+Profiling
+
+Belazougui et al. described the protocol for phytochemical
+screening
+and prospection. It was investigated whether saponins, anthraquinones,
+flavonoids, alkaloids, phenols, steroids, and glycosides were present.
+The qualitative examination was based on precipitation processes,
+foamy appearance, and color change, which are characteristics of the
+chemical components that make up theplant.
+
+3.5
+
+Quantitative
+Assessment ofExtracts
+
+3.5.1
+
+Total Phenol Content (TPC)
+
+TPC
+of SMAE was determined employing the Folin–Ciocalteu reagent
+and gallic acid (GA) standard from Sigma-Aldrich, with minor modifications
+to the methods reported. One mL of the sample extract, 0.3 mL of a
+saturated solution of NaCO, and 0.1 mL of
+Folin–Ciocalteu reagent were added to a volumetric flask. Finally,
+double-distilled water was utilized to complete the volume. The solution
+was incubated at room temperature in the dark for 1 h. A UV–visible
+spectrophotometer set to 765 nm was used to determine TPC. Using GA
+as a reference, a calibration curve was fashioned, and the outcomes
+were given in milligrams of GA equivalents (GAE) per gram.
+
+3.5.2
+
+Total Flavonoid Content
+
+The total
+flavonoid content (TFC) in the extract was determined using the colorimetric
+technique with minor modifications. Aliquots (50 L) of each extract’s
+accessions were deposited in a 96-well plate containing 10% aluminum
+chloride, 96% ethanol, and 10% sodium acetate. The mixes were incubated
+at room temperature in the dark for 40 min. A UV–visible spectrophotometer
+(JASCO UV) was used to detect the absorbance at 415 nm. TFC was reported
+as mg of quercetin equivalents per gram of dry weight (mg QE/g DW)
+using a quercetin calibration curve.
+
+3.6
+
+Biological Studies
+
+3.6.1
+
+Antioxidant
+Assays
+
+Antioxidant
+activities of theextracts
+in hexane, methanol, and acetone have been evaluated using different
+assays such as DPPH, ABTSradical, and reducing
+power assay (FRAP)using the reported
+methods with different concentrations of stock solutions of extracts
+(20, 40, 60, 80, and 100 μg/mL).In the DPPHand ABTSradical assays, ascorbic
+acid acts as the positive control, whereas in the FRAP assay, rutin
+was used as the positive control. In all of the above assays, methanol
+was used as a negative control.
+
+3.6.2
+
+Antidiabetic Activity
+
+Antidiabetic activity
+of theextracts in hexane,
+methanol, and acetone was examined by α-amylase
+inhibition assay and α-glucosidase inhibition assay according
+to the literature methodswith different
+concentrations ofextracts
+(20, 40, 60, 80, and 100 μg/mL) and positive control acarbose
+(20, 40, 60, 80, and 100 μg/mL). The sample-free reaction system
+was employed as a negative control, and the enzyme-free system as
+a blank to rectify background absorbance.
+
+3.6.3
+
+Anticancer
+Activity (MTT Assay)
+
+Evaluation of anticancer potency of
+the acetone extract of(SMAE)
+has been examined by MTT assay
+with the most common cancer cells, A549 (lung carcinoma), and one
+normal HUVEC cells according to the reported methodwith various concentrations (10, 100, 200, 300, and 400
+μg/mL) of the SMAE and positive control doxorubicin (12.5, 25,
+50, 100, and 200 μg/mL) for 48 h. In addition, the apoptosis
+induction capacity of the SMAE was examined with A549 cells by DAPI
+staining and ROS analysis with doxorubicin as the positive control.
+In both assays, the medium without the extract acted as the negative
+control.
+
+4
+
+Conclusions
+
+In the
+present investigation, the medicinal potential of(L.) Dumort (Amaranthaceae) and its pharmacologically
+active compounds have been explored. GC-MS, LC-MS, and HPLC analyses
+revealed the presence of various phytochemicals, including saponins,
+anthraquinones, flavonoids, alkaloids, phenols, and steroids from
+the extracts of. These
+phytochemicals underlie diverse therapeutic and pharmacological properties,
+as evidenced by theirantioxidant, antidiabetic,
+and anticancer activities. The electron- and proton-transfer abilities
+of the plant extract facilitate the excellent radical scavenging activity
+to neutralize the DPPHand ABTSradicals and reduction of oxidative species. Further, the equipotent
+antidiabetic activity of the extracts with the standard acarbose was
+alluded to by the various interactions of phytochemicals and the α-amylase
+and α-glucosidase enzymes. Theanticancer
+activity of theagainst
+lung cancer cells was demonstrated by MTT, DAPI, and ROS assays. Finally,
+the molecular docking exemplified the binding propensity of the key
+phytochemicals with CtBP1 and SOX2 bound to importin-α target
+proteins via hydrogen bonding, various hydrophobic interactions, and
+good Glide scores of −2.845–4.018 kcal/mol. Our research
+underscores the potential of plant-based drug development for future
+medical treatments beyond cancer and diabetes, emphasizing the importance
+of phytochemical identification and comprehensive pharmacological
+assessments.
