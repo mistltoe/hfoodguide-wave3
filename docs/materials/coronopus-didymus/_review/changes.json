@@ -1,0 +1,77 @@
+[
+ {
+  "where": "compounds.Chrysoeriol 4'-O-(6''-acetyl)-glucoside.content_text",
+  "before": "전초 유래로 보고[15]",
+  "after": "냄새냉이에서 추출한 성분으로 보고(부위는 초록에 없음, 원문 표기 chrysoeriol-6-O-acetyl-4'-β-D-glucoside)[15]"
+ },
+ {
+  "where": "compounds.Quercetin.content_text",
+  "before": "(원문 표기 그대로; 단위·기준이 비현실적이어서 검증 필요)",
+  "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)"
+ },
+ {
+  "where": "compounds.Quercetin.activity_ko",
+  "before": "냄새냉이·님 추출물·쿼세틴 병용이 당뇨 생쥐에서 혈당과 간 효소(ALT·AST)를 낮춤(동물 시험, 개별 성분 효과 아님)[28]",
+  "after": "당뇨 유발 생쥐에서 냄새냉이 추출물·님 추출물·쿼세틴을 각각 주어도 혈당이 낮아졌고, 셋을 함께 준 군에서 간 효소(ALT·AST) 감소가 더 컸다는 보고(동물 시험; 냄새냉이 추출물 속 쿼세틴의 기여는 따로 확인되지 않음)[28]"
+ },
+ {
+  "where": "compounds.Chlorogenic acid.content_text",
+  "before": "(원문 표기 그대로, 검증 필요)",
+  "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)"
+ },
+ {
+  "where": "compounds.Ferulic acid.content_text",
+  "before": "메탄올 추출물 23.33 mg/g 건조중량[9]",
+  "after": "메탄올 추출물 23.33 mg/g 건조중량(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)[9]"
+ },
+ {
+  "where": "compounds.Kaempferol.content_text",
+  "before": "메탄올 추출물 11.5 mg/g 건조중량[9]",
+  "after": "메탄올 추출물 11.5 mg/g 건조중량(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)[9]"
+ },
+ {
+  "where": "compounds.Benzoic acid",
+  "before": "벤조산 — 메탄올 추출물 428 mg/g 건조중량(원문 표기 그대로, 검증 필요)[9]",
+  "after": "(삭제)"
+ },
+ {
+  "where": "assays.Chrysoeriol.conditions.sample_prep",
+  "before": "→ 메탄올:물 7:3에 녹여 Sephadex LH-20",
+  "after": "→ 메탄올:물 7:3에 녹인 페놀 추출물(0.67 g)을 Sephadex LH-20"
+ },
+ {
+  "where": "assays.Quercetin.content",
+  "before": "(원문 표기 그대로)",
+  "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)"
+ },
+ {
+  "where": "sections.processing",
+  "before": "브라질에서는 잎을 우리거나 달이거나 음식에 넣어 먹는다고 보고되었다[4].",
+  "after": "브라질에서는 이 풀을 우리거나 달이거나 음식으로 먹는다고 보고되었다(부위는 초록에 없음)[4]."
+ },
+ {
+  "where": "sections.history",
+  "before": "남아시아 쪽 연구는 해열·거담",
+  "after": "지상부 플라보노이드 연구는 해열·거담"
+ },
+ {
+  "where": "sections.overview",
+  "before": "메톡시 플라본인 크리소에리올(chrysoeriol)과 그 배당체가 분리·정량되었다[6, 7, 15].",
+  "after": "메톡시 플라본인 크리소에리올(chrysoeriol)과 그 배당체가 분리되었고, 크리소에리올은 말린 지상부 10 g당 약 1.60 mg으로 정량되었다[6, 7, 15]. 한 논문은 전초 메탄올 추출물의 폴리페놀 함량을 보고했지만 수치 합이 1,000 mg/g을 넘어 신뢰하기 어렵다[9]."
+ },
+ {
+  "where": "sources[19].title",
+  "before": "2018;20(5) (PMID",
+  "after": "2018;20(5):483-489 (PMID"
+ },
+ {
+  "where": "sources[27].title",
+  "before": "Microsc Res Tech 2019 (PMID",
+  "after": "Microsc Res Tech 2019;82(10):1779-1786 (PMID"
+ },
+ {
+  "where": "sources[29].title",
+  "before": "Chemosphere 2022 (PMID",
+  "after": "Chemosphere 2022;303(Pt 2):135138 (PMID"
+ }
+]

@@ -1,0 +1,555 @@
+{
+ "slug": "seriola-rivoliana",
+ "name_ko": "낫잿방어",
+ "name_en": "Longfin yellowtail",
+ "scientific_name": "Seriola rivoliana Valenciennes, 1833",
+ "aliases": [
+  "낫잿방어",
+  "Longfin yellowtail",
+  "Almaco jack"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "낫잿방어(Seriola rivoliana)는 전갱이과(Carangidae) 방어속(Seriola)의 바닷물고기로, 식약처 「식품원료 목록」에 '낫잿방어'(영문·별명 Longfin yellowtail)라는 원료명의 수산물로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고, 부위 칸은 원자료 표기 그대로 '-'이며 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n영어로는 longfin yellowtail 외에 almaco jack으로도 불리며, 열대 바다 전역에 사는 표층성 어류로서 어업과 양식 양쪽에서 중요하다고 소개된다[9]. 양식 어종 다변화의 새 후보로 꼽히며, 생산은 사육 어미에서 얻은 수정란에 의존한다[15]. 미국 하와이 코나의 양식장에서는 'Kampachi'라는 이름으로 길러 사료 시험이 이루어졌다[3]. 한편 스페인 카나리아 제도에서는 2008–2009년 이 종을 먹고 시구아테라 식중독이 일어난 사례가 보고되었다[4]. 국내 공공기관의 낫잿방어 식품성분표 값과 국내 어획·양식 통계는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "국내 첫 기록은 1997년 한국어류학회지 보고로 알려져 있으나, 웹 검색 요약으로만 보았고 원문·초록은 확인하지 못함[29]. 프랑스령 앤틸리스(과들루프·생바르텔레미)에서 1993–1999년에 잡은 물고기 178마리를 조사한 연구는 낫잿방어의 간에서 의미 있는 수준의 시구아톡신을 찾았다[6]. 카나리아 제도에서는 2004년 첫 시구아테라 집단 발생 뒤 2008–2009년에 두 차례 더 발생했고, 이 2008–2009년 환자들이 근처 바다에서 잡은 이 종을 먹었다[4].\n\n하와이에서는 2008년에 낫잿방어와 잿방어를 포함한 물고기의 시구아톡신 검사법을 비교한 연구가 나왔다[5]. 멕시코 바하칼리포르니아수르주 라파스의 연구진은 2017년 무렵부터 자어의 소화관 발달, 소화효소, 기생충 등을 잇달아 보고했다[16, 17, 19]. 에콰도르 하라미호 연안에서는 이 종을 가두리로 기를 계획이 있다고 소개되었다[25]. 2019년에는 대서양 세인트헬레나섬에서 이 종이 처음 기록되었다[13]. 미국 플로리다 앞 멕시코만에서는 낚시로 잡은 성어를 순환여과식 시설에서 어미로 길들인 연구가 2021년에 보고되었다[14]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "낫잿방어는 열대 전역에 분포하는 표층성 어류로 소개된다[9]. 미국 연구진은 대서양·멕시코만에 사는 방어속 네 종 가운데 하나로 이 종(almaco jack)을 들었다[12]. 플로리다 마데이라비치(Madeira Beach)에서 약 120마일 떨어진 멕시코만 동부에서 낚은 성어 30마리를 16주 동안 수조에서 기르자 체중이 19% 늘었다[14].\n\n부화장에서 갓 부화한 자어의 전장은 2.62 mm였고, 큰 난황과 기름방울 하나를 지녔다[18]. 24 ℃ 사육에서 입과 항문은 부화 2일째 열리고, 3일째 먹이를 먹기 시작했으며, 20일째 위샘이 생기고 30일째(13.6 mm) 유문수가 관찰되었다[16]. 아밀레이스 활성은 부화 5일째부터, 펩신 활성은 약 15일째부터 나타났고, 소화 생리로 보면 20일령부터 치어로 볼 수 있다고 했다[17]. 부화 후 30일 동안 전장은 지수적으로 자랐고 하루 성장률은 8.3%였다[18]. 20–30 ℃ 여러 수온에서 배아의 생화학 조성은 크게 달라지지 않아 수온 적응력이 높다고 보았으며, 부화 시점이 가장 중요한 고비였다[15]. 머리뼈는 표준체장 3.43 mm 무렵 부설골·상악골부터 굳기 시작했다[31]. 하루 22.8–25.2 ℃로 오르내리는 수온에서는 24 ℃ 고정보다 기름방울 소진기까지 생존율이 높았다[30]. 부화 후 30일 넘은 치어의 장내 세균은 프로테오박테리아·후벽균·의간균 등이 주를 이뤘다[24]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」은 같은 방어속의 방어(Seriola quinqueradiata), 잿방어(Seriola dumerili), 부시리(Seriola lalandi)를 낫잿방어와 별도의 원료로 올려 두었으며, 이 문서는 이들 종의 자료를 섞지 않았다[1].\n\n영어 이름은 자료마다 다르다[1, 3, 9]. 식약처 목록은 longfin yellowtail, 집단유전 연구는 almaco jack, 하와이 양식 연구는 Kampachi라고 썼다[1, 3, 9]. 카나리아 제도 보고는 이 종(학명 Seriola rivoliana 병기)을 lesser amberjack이라고 불렀지만[4], 미국 연구는 lesser amberjack을 almaco jack(이 종)과 다른 별개 종으로 다루었다[12]. 따라서 학명 없이 'amberjack'·'yellowtail'로만 적힌 자료는 이 종으로 볼 수 없다[4, 12]. 미국 연구진은 바닷물 환경 DNA에서 이 종을 잿방어 등 근연종 셋과 구별해 검출하는 디지털 PCR 검사법을 만들었다[12]. 2012년 지질 연구는 잿방어와 낫잿방어를 함께 분석했으며, 이 문서는 초록에서 두 종 공통으로 적힌 내용만 옮겼다[2]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·어획",
+   "body": "멕시코 라파스만 양식 개체에는 단생흡충 Neobenedenia sp.가 붙어 피부 궤양과 세균 2차 감염으로 폐사를 일으킬 수 있다[19]. 이 기생충의 유생은 24–30 ℃에서 4–5일, 18–20 ℃에서 7–11일 만에 발달했고, 연구진은 수온이 24 ℃보다 높으면 더 자주 처치하라고 권했다[19]. 에콰도르의 양식 수조 조사에서는 수온이 1 ℃만 올라도 기생충 수가 눈에 띄게 늘어나는 것과 관련되었다[20]. 알 부화 단계에서는 Photobacterium damselae를 죽이는 박테리오파지가 부화율을 높였다[21].\n\n하와이 코나 시험에서 해양 원료 없이 대두 단백 농축물만 쓴 사료는 30일 시험 중 폐사와 야윔을 일으켰다[3]. 대두 단백 40%에 타우린 4.6%를 더한 사료로 238일 기른 결과 평균 체중이 46.6 g에서 1,710.2 g으로 늘어 시판 사료군(42.1 g → 1,175.8 g)보다 컸고, 사료요구율(FCR)은 1.4 대 1.3으로 유의한 차이가 없었다[3]. 멕시코 연구에서 타우린 1–2%를 60일 먹이면 간·혈장의 항산화 효소 활성이 높아졌다[22]. 모링가 씨앗 분무건조물 0.5%를 넣은 사료는 4주 동안 체중 증가를 높였다[32]. 실험 감염에서 Vibrio diabolicus는 치어를 죽이지는 않았지만 출혈과 근육 괴사를 일으켰다[23]. 실험실에서 물에 녹인 설사성 패독(오카다산·DTX-1, 오카다산 당량 120·175 μg/L)에 노출한 알은 대량 폐사했고[27], 삭시톡신(100 μg/L)에 노출한 배아의 부화율(수정 후 44시간)은 5% 미만으로 대조군 71%보다 크게 낮았다[28]. 국내 양식·어획 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "살의 지방산·품질",
+   "body": "2012년 연구에서 낫잿방어와 잿방어 모두 근육과 간 지질의 주성분은 트라이아실글리세롤과 인지질이었다[2]. 두 종 모두 트라이아실글리세롤의 주요 지방산은 16:0, 18:0, 16:1n-7, 18:1n-7, 18:1n-9, 20:5n-3(EPA), 22:6n-3(DHA)였고, 양식산에서는 14:0과 리놀레산(18:2n-6)도 주요 지방산이었다[2]. 양식산은 리놀레산이 훨씬 많고 아라키돈산과 22:5n-6은 미량이었던 반면, 자연산은 리놀레산이 매우 적고 아라키돈산과 22:5n-6이 조금 있었다[2]. 개별 함량 수치는 초록에서 확인하지 못함.\n\n하와이 양식 시험에서 시판 사료를 먹은 개체의 살은 총 지방산 가운데 올레산(18:1) 27.1%, 팔미트산 17.0%, 리놀레산 12.1%, DHA 7.6%, EPA 6.4%였다[3]. 콩기름과 어유를 반씩 섞어 입힌 사료군에서는 리놀레산이 27.3%로 높아졌다[3]. 스테아리돈산(SDA) 콩기름을 먹이자 SDA는 에이코사테트라엔산(ETA)까지만 바뀌고 EPA·DHA로는 거의 바뀌지 않았지만, SDA 콩기름과 어유를 반씩 섞은 사료군의 살에는 n-3 지방산 총량이 더 많았다[3]. 이처럼 살의 지방산 조성은 사료에 따라 크게 달라진다[2, 3]. 국내 가공품·제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체·집단 유전",
+   "body": "낫잿방어의 미토콘드리아 유전체는 16,530 bp이고, rRNA 유전자 2개, 단백질 암호 유전자 13개, tRNA 유전자 22개와 비암호 조절 영역 하나로 이루어졌다[11]. ND6와 tRNA 8개를 뺀 대부분의 유전자는 중쇄(heavy strand)에 암호화되어 있었다[11]. 핵 유전체 조립본은 이번 조사에서 확인하지 못함.\n\n태평양·대서양 개체의 시토크롬 c 산화효소 1 서열(변이 자리 25개)과 SNP 3,678개를 분석한 결과, 중부 태평양·동태평양·서대서양의 세 유전 집단이 나뉘었다[9]. SNP로는 멕시코 바하칼리포르니아수르 태평양 연안의 네 번째 집단이 더 드러났다[9]. 서대서양에는 미토콘드리아 일배체군이 둘 있어, 연구진은 이 종이 인도양을 거쳐 대서양에 들어왔다고 추정했다[9]. 대양 사이 유전자 흐름은 m < 0.2로 낮았고, 동태평양에서는 남에서 북으로 더 많았다(m > 0.79)[9]. 2023년 유전체 연구는 카보산루카스·동태평양·하와이의 세 집단을 확인했고, 기후변화 시나리오 대부분에서 2050·2100년에 서식 적지가 줄며 어획 압력은 집단 간 연결성을 낮춘다고 예측했다[10]. 굶긴 자어의 전사체 분석에서는 3일째 자가포식과 AMPK 경로가 켜졌다[26]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "카나리아 제도에서 2008–2009년에 일어난 두 차례 시구아테라 집단 발생은 근처 바다에서 잡은 낫잿방어를 먹은 것과 관련되었고, 생선 시료에서 카리브해 시구아톡신-1(C-CTX-1)이 LC-MS/MS로 확인되었다(시료 부위·농도는 초록에 없음)[4]. 하와이에서 잡은 낫잿방어·잿방어 합계 164마리와 다른 한 어종(Cephalopholis argus) 175마리의 근육을 검사한 연구에서는 ELISA로 전체 시료의 9.4%, 신경모세포 시험으로 6.8%에서 독성이 나타났으며, 종별 비율은 초록에서 확인하지 못함[5]. 앤틸리스 조사(26종 178마리, 쥐·병아리 생물검정)에서는 이 종의 간에 시구아톡신이 의미 있는 수준으로 있었지만 살은 먹어도 되는 수준이었다고 했다[6]. 조사한 이 종 개체 수와 독소 농도는 초록에 없다[6].\n\n브라질 사우바도르의 하프병(횡문근융해증) 집단 발생 조사에서 2016년 환자 관련 생선 시료 세 건 가운데 두 건이 유전자 검사로 'olho de boi'로 판정되었고(학명은 변환본에서 빠져 있어 PubMed 색인으로 간접 확인), 세 건 모두 시구아톡신이 검출되지 않았다[7]. 2020년 'olho de boi' 시료 여섯 건 가운데 조리된 두 건에서 팔리톡신 유사 물질의 흔적이 나왔으나, 이 시료들의 종을 유전자로 확인했다는 서술은 없다[7]. 마데이라 제도 개체에서는 아니사키스(Anisakis sp.) 유충이 검출되었다[8]. 이 종의 히스타민 생성·식중독 자료와 국내 공공기관의 알레르기·잔류물질 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산(18:1)",
+   "class": "단일불포화 지방산",
+   "role": "nutrient",
+   "part": "살(양식, 시판 사료군)",
+   "content_text": "총 지방산의 27.1 ± 0.6%",
+   "activity_ko": "시판 사료군 살에서 가장 많은 지방산이었다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산(16:0)",
+   "class": "포화 지방산",
+   "role": "nutrient",
+   "part": "살(양식, 시판 사료군)",
+   "content_text": "총 지방산의 17.0 ± 0.3%",
+   "activity_ko": "두 방어속 종의 트라이아실글리세롤 주요 지방산으로 보고되었다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산(18:2n-6)",
+   "class": "n-6 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 12.1 ± 0.4%, 콩기름·어유 50:50 사료군 27.3 ± 0.8% (총 지방산 중)",
+   "activity_ko": "양식산에 많고 자연산에는 매우 적어 양식·자연산을 가르는 지방산으로 쓰였다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "DHA(22:6n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 7.6 ± 0.7%, SDA 콩기름·어유 50:50 사료군 6.4 ± 0.3% (총 지방산 중)",
+   "activity_ko": "살의 주요 장쇄 n-3 지방산이다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA(20:5n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 6.4 ± 0.2%, 콩기름·어유 50:50 사료군 5.0 ± 0.2% (총 지방산 중)",
+   "activity_ko": "살의 주요 장쇄 n-3 지방산이다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산(18:0)",
+   "class": "포화 지방산",
+   "role": "nutrient",
+   "part": "살(양식, 시판 사료군)",
+   "content_text": "총 지방산의 6.0 ± 0.2%",
+   "activity_ko": "트라이아실글리세롤의 주요 지방산 가운데 하나다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Palmitoleic acid",
+   "name_ko": "팔미톨레산(16:1)",
+   "class": "단일불포화 지방산",
+   "role": "nutrient",
+   "part": "살(양식, 시판 사료군)",
+   "content_text": "총 지방산의 5.4 ± 0.2%",
+   "activity_ko": "16:1n-7은 트라이아실글리세롤의 주요 지방산으로 보고되었다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Myristic acid",
+   "name_ko": "미리스트산(14:0)",
+   "class": "포화 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 1.7 ± 0.1%, 콩기름 혼합 사료군 2.5 ± 0.1% (총 지방산 중)",
+   "activity_ko": "양식산 트라이아실글리세롤의 주요 지방산으로 보고되었다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "α-리놀렌산(18:3n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 1.4 ± 0.2%, SDA 콩기름·어유 50:50 사료군 10.4 ± 0.2% (총 지방산 중)",
+   "activity_ko": "식물성 n-3 지방산으로 사료 기름에 따라 살의 비율이 크게 달라졌다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Stearidonic acid",
+   "name_ko": "스테아리돈산(SDA, 18:4n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 0.8 ± 0.3%, SDA 콩기름·어유 50:50 사료군 8.5 ± 0.2% (총 지방산 중)",
+   "activity_ko": "이 종은 SDA를 ETA까지만 바꾸어 EPA·DHA로의 전환이 제한적이었다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Eicosatetraenoic acid",
+   "name_ko": "에이코사테트라엔산(ETA, 20:4n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "살(양식)",
+   "content_text": "시판 사료군 0.5%, SDA 콩기름·어유 50:50 사료군 1.7 ± 0.1% (총 지방산 중)",
+   "activity_ko": "SDA가 EPA로 가는 중간 산물로, SDA 사료군에서 늘었다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산(20:4n-6)",
+   "class": "n-6 지방산",
+   "role": "nutrient",
+   "part": "근육·간 트라이아실글리세롤",
+   "content_text": "양식산 미량, 자연산 소량(초록에 수치 없음)",
+   "activity_ko": "리놀레산/아라키돈산 비율이 양식산에서 훨씬 높았다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "cis-Vaccenic acid",
+   "name_ko": "시스-박센산(18:1n-7)",
+   "class": "단일불포화 지방산",
+   "role": "nutrient",
+   "part": "근육·간 트라이아실글리세롤",
+   "content_text": "주요 지방산으로만 기술(초록에 수치 없음)",
+   "activity_ko": "두 방어속 종 공통의 주요 지방산이다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ciguatoxin",
+   "name_ko": "시구아톡신(C-CTX-1)",
+   "class": "폴리에터 해양 독소",
+   "role": "bioactive",
+   "part": "생선 시료(카나리아 제도 중독 관련, 부위는 초록에 없음)·간(앤틸리스, 생물검정)",
+   "content_text": "카나리아 제도 시료에서 C-CTX-1 확인(초록에 농도 없음); 앤틸리스 개체 간에서 쥐·병아리 생물검정으로 의미 있는 독성(농도 없음)",
+   "activity_ko": "물고기가 만드는 성분이 아니라 먹이사슬로 쌓이는 독소로, 시구아테라 식중독의 원인이다[4, 6]",
+   "source": [
+    4,
+    6
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (EPA, DHA and others)",
+   "compound_ko": "지방산 조성(EPA·DHA 등)",
+   "part": "살(하와이 코나 양식 개체, 사료 시험)",
+   "content": "시판 사료군 살 총 지방산 중 18:1 27.1%, 16:0 17.0%, 18:2 12.1%, DHA 7.6%, EPA 6.4% (최소 9마리 평균)[3]",
+   "method": "GC-FID (지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Agilent 6890N 가스크로마토그래프–불꽃이온화검출기(FID)",
+    "column": "HP-INNOWax, 30 m × 250 μm (Agilent 19091N-133)",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "FID",
+    "injection": "",
+    "sample_prep": "살 시료를 인용 문헌(Butte 또는 Cahoon 등)의 방법으로 지방산 메틸에스터화",
+    "standard": "총 지방산 중 백분율로 보고",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "장쇄 n-3 지방산(EPA·DHA) 비율은 사료 기름을 바꿀 때 살의 영양 품질을 보는 지표로 쓰였다[3]. 전문(Experimental procedures) 확인 — 오븐 온도 조건·운반 기체·검출·정량한계·회수율은 본문에 없음[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.1111/pbi.12608",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Caribbean ciguatoxin-1",
+   "compound_ko": "카리브해 시구아톡신-1(C-CTX-1)",
+   "part": "생선 시료(카나리아 제도 중독 관련, 부위는 초록에 없음)",
+   "content": "C-CTX-1 확인(초록에 농도 없음)[4]",
+   "method": "LC-MS/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "시구아테라 중독을 일으킨 이 종의 시료에서 원인 독소를 확인한 연구다[4]. 초록만 확인 — 전문 확인 못함, 분석 조건은 비워 둠[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1016/j.toxicon.2010.07.021",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ciguatoxin",
+   "compound_ko": "시구아톡신(반정량 선별)",
+   "part": "근육(하와이 어획 개체)",
+   "content": "낫잿방어·잿방어 합계 164마리와 Cephalopholis argus 175마리를 합친 전체 시료에서 ELISA 양성 9.4%, 신경모세포 시험 독성 6.8%(종별 값은 초록에 없음)[5]",
+   "method": "샌드위치 ELISA(반정량) 및 신경모세포(neuroblastoma) 세포 시험",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "시구아테라 원인 어종을 먹기 전에 근육의 독소를 선별하는 방법으로 평가되었다[5]. 초록만 확인 — 전문 확인 못함, 분석 조건은 비워 둠[5].",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.1002/jcla.20250",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Seriola rivoliana 행(낫잿방어, 영문·별명 Longfin yellowtail, 수산물, 식품원료(A코드), 부위 '-'(원자료 표기 그대로), 사용가능, 사용 조건 없음; 같은 속 방어 Seriola quinqueradiata·잿방어 Seriola dumerili·부시리 Seriola lalandi는 별도 행; data/raw/mfds_rawmtrl/I1020_20261013.json·docs/materials/seriola-rivoliana/card.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Lipid characteristics of two subtropical Seriola fishes, Seriola dumerili and Seriola rivoliana, with differences between cultured and wild varieties. Food Chem 2012;135(3):1718-29 (초록 확인, 수치는 초록에 없음)",
+   "url": "https://doi.org/10.1016/j.foodchem.2012.05.122",
+   "publisher": "Food Chemistry (PubMed 22953914)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Towards the development of a sustainable soya bean-based feedstock for aquaculture. Plant Biotechnol J 2017;15(2):227-236 (PMC 전문 확인; 변환본에서 학명이 빠져 있어 'Kampachi'=Seriola rivoliana는 PubMed 검색 색인으로 간접 확인)",
+   "url": "https://doi.org/10.1111/pbi.12608",
+   "publisher": "Plant Biotechnology Journal, PMC5258864 (PubMed 27496594)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Ciguatera fish poisoning on the West Africa Coast: An emerging risk in the Canary Islands (Spain). Toxicon 2010;56(8):1516-9 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.toxicon.2010.07.021",
+   "publisher": "Toxicon (PubMed 20692274)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Detection of ciguatoxin in fish tissue using sandwich ELISA and neuroblastoma cell bioassay. J Clin Lab Anal 2008;22(4):246-53 (초록 확인, PMC 본문 비어 있음)",
+   "url": "https://doi.org/10.1002/jcla.20250",
+   "publisher": "Journal of Clinical Laboratory Analysis, PMC6648948 (PubMed 18623118)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "[Evaluation of Antilles fish ciguatoxicity by mouse and chick bioassays]. Bull Soc Pathol Exot 2003;96(1):24-8 (영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12784589/",
+   "publisher": "Bulletin de la Société de pathologie exotique (PubMed 12784589)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Haff Disease in Salvador, Brazil, 2016-2021: Attack rate and detection of toxin in fish samples collected during outbreaks and disease surveillance. Lancet Reg Health Am 2021;5:100092 (PMC 전문 확인; 본문·초록 변환본 모두 이탤릭 학명이 빠져 있음 — 'olho de boi' 시료의 학명 Seriola rivoliana는 PubMed 검색 색인이 이 기록을 'rivoliana'로 찾는 것으로 간접 확인, 2020년 시료는 종 유전자 판정 서술 없음)",
+   "url": "https://doi.org/10.1016/j.lana.2021.100092",
+   "publisher": "The Lancet Regional Health – Americas, PMC9904022 (PubMed 36776458)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Parasites of amberjacks from the archipelago of Madeira, Eastern Atlantic. Dis Aquat Organ 2018;131(2):133-142 (초록 확인)",
+   "url": "https://doi.org/10.3354/dao03294",
+   "publisher": "Diseases of Aquatic Organisms (PubMed 30460919)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Genetic diversity and structure of circumtropical almaco jack, Seriola rivoliana: tool for conservation and management. J Fish Biol 2020;97(3):882-894 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.14450",
+   "publisher": "Journal of Fish Biology (PubMed 32598029)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Responses of population structure and genomic diversity to climate change and fishing pressure in a pelagic fish. Glob Change Biol 2023;29(14):4107-4125 (초록 확인)",
+   "url": "https://doi.org/10.1111/gcb.16732",
+   "publisher": "Global Change Biology (PubMed 37078996)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The complete mitochondrial genome of longfin yellowtail S. rivoliana (Perciformes: Carangidae). Mitochondrial DNA A 2016;27(5):3385-6 (초록 확인)",
+   "url": "https://doi.org/10.3109/19401736.2015.1018232",
+   "publisher": "Mitochondrial DNA Part A (PubMed 25714153)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "A novel ddPCR assay for eDNA detection and quantification of Greater Amberjack Seriola dumerili and three congeners in US waters. PeerJ 2025;13:e18778 (PMC 전문 확인)",
+   "url": "https://doi.org/10.7717/peerj.18778",
+   "publisher": "PeerJ, PMC11781265 (PubMed 39886022)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "The fishes of St Helena Island, central Atlantic Ocean—new records and an annotated check-list. Zootaxa 2019;4543(2):151-194 (초록 확인)",
+   "url": "https://doi.org/10.11646/zootaxa.4543.2.1",
+   "publisher": "Zootaxa (PubMed 30647301)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Blood Analyte Changes of Wild-Caught Adult Almaco Jack in Response to Acclimation to Recirculating Aquaculture Systems and Hyposalinity Treatment. J Aquat Anim Health 2021;33(2):77-83 (초록 확인)",
+   "url": "https://doi.org/10.1002/aah.10121",
+   "publisher": "Journal of Aquatic Animal Health (PubMed 33783879)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Biochemical composition and adenylate energy charge shifts in longfin yellowtail (Seriola rivoliana) embryos during development under different temperatures. J Therm Biol 2023;112:103470 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.jtherbio.2023.103470",
+   "publisher": "Journal of Thermal Biology (PubMed 36796915)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Histological study of the gastrointestinal tract in longfin yellowtail (Seriola rivoliana) larvae. Fish Physiol Biochem 2017;43(6):1613-1628 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-017-0397-5",
+   "publisher": "Fish Physiology and Biochemistry (PubMed 28664291)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Changes in digestive enzyme activities during early ontogeny of Seriola rivoliana. Fish Physiol Biochem 2019;45(2):733-742 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-018-0598-6",
+   "publisher": "Fish Physiology and Biochemistry (PubMed 30536138)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Allometric growth patterns in longfin yellowtail Seriola rivoliana (Valenciennes 1833) larvae and juvenile under hatchery conditions. J Fish Biol 2025;107(4):1256-1265 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.70127",
+   "publisher": "Journal of Fish Biology (PubMed 40552513)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Effects of temperature on the life cycle of Neobenedenia sp. (Monogenea: Capsalidae) from Seriola rivoliana (Almaco jack) in Bahía de La Paz, BCS Mexico. Parasitol Res 2019;118(12):3267-3277 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00436-019-06460-1",
+   "publisher": "Parasitology Research (PubMed 31673832)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Dynamics of Reinfection by Neobenedenia sp. (Monogenea, Capsalidae) in Almaco Jack, Seriola rivoliana, Kept in a Cultivation System. J Fish Dis 2025;48(6):e14104 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfd.14104",
+   "publisher": "Journal of Fish Diseases (PubMed 39982372)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Use of bacteriophage vB_Pd_PDCC-1 as biological control agent of Photobacterium damselae subsp. damselae during hatching of longfin yellowtail (Seriola rivoliana) eggs. J Appl Microbiol 2020;129(6):1497-1510 (초록 확인)",
+   "url": "https://doi.org/10.1111/jam.14744",
+   "publisher": "Journal of Applied Microbiology (PubMed 32538525)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Dietary taurine improves antioxidant and lysozyme activity, carbohydrate-related metabolism, and digestive genes expression of longfin yellowtail (Seriola rivoliana). Fish Physiol Biochem 2025;51(5):149 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-025-01566-z",
+   "publisher": "Fish Physiology and Biochemistry (PubMed 40833463)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Genomic characterization and pathological effects of Vibrio diabolicus in experimentally infected juvenile Seriola rivoliana. Microb Pathog 2025;211:108247 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.micpath.2025.108247",
+   "publisher": "Microbial Pathogenesis (PubMed 41407271)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Structure and predictive metabolic contribution of intestinal microbiota of Longfin yellowtail (Seriola rivoliana) juveniles in aquaculture systems. Mol Biol Rep 2020;47(12):9627-9636 (초록 확인)",
+   "url": "https://doi.org/10.1007/s11033-020-05970-x",
+   "publisher": "Molecular Biology Reports (PubMed 33159677)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "New records of sea lice (Copepoda: Caligidae) from marine fishes in Jaramijó, an area with potential for sea-cage aquaculture in Ecuador. Zootaxa 2015;3920(2):366-80 (초록 확인)",
+   "url": "https://doi.org/10.11646/zootaxa.3920.2.8",
+   "publisher": "Zootaxa (PubMed 25781254)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "A Transcriptome Insight During Early Fish Larval Development Followed by Starvation in Seriola rivoliana. Mar Biotechnol 2021;23(5):749-765 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10126-021-10061-4",
+   "publisher": "Marine Biotechnology (PubMed 34647196)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Embryotoxic effects of dissolved okadaic acid on the development of Longfin yellowtail Seriola rivoliana. Aquat Toxicol 2017;190:210-216 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.aquatox.2017.07.012",
+   "publisher": "Aquatic Toxicology (PubMed 28755633)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Toxicogenomic Effects of Dissolved Saxitoxin on the Early Life Stages of the Longfin Yellowtail (Seriola rivoliana). Mar Drugs 2023;21(11):597 (초록 확인)",
+   "url": "https://doi.org/10.3390/md21110597",
+   "publisher": "Marine Drugs, PMC10671919 (PubMed 37999421)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "한국어류학회지 1997년 낫잿방어(Seriola rivoliana) 한국 첫 기록 보고 — 웹 검색 결과 요약으로만 확인(원문·초록 페이지는 접속 제한으로 열지 못함, 세부 내용은 옮기지 않음)",
+   "url": "https://koreascience.or.kr/article/JAKO199727236818351.pub?lang=ko",
+   "publisher": "한국어류학회(Korean Journal of Ichthyology)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Transition from endogenous to exogenous feeding in longfin yellowtail Seriola rivoliana larvae under simultaneous effects of daily temperature fluctuation and rotifer Brachionus rotundiformis enrichment. Fish Physiol Biochem 2024;50(6):2637-2649 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-024-01408-4",
+   "publisher": "Fish Physiology and Biochemistry (PubMed 39412708)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Bone development of the skull, pectoral and pelvic fins in Seriola rivoliana (Valenciennes, 1833) larvae. Fish Physiol Biochem 2016;42(6):1777-1789 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10695-016-0257-8",
+   "publisher": "Fish Physiology and Biochemistry (PubMed 27589982)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Microencapsulates of Moringa oleifera seed extracts enhance immunological parameters of Almaco jack (Seriola rivoliana) upon Aeromonas hydrophila challenge. Fish Shellfish Immunol 2025;161:110239 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.fsi.2025.110239",
+   "publisher": "Fish & Shellfish Immunology (PubMed 40023463)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

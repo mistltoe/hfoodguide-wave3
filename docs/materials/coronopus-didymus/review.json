@@ -1,0 +1,110 @@
+{
+ "slug": "coronopus-didymus",
+ "reviewer": "V",
+ "date": "2026-11-02",
+ "checked_sentences": 66,
+ "checked_items": 54,
+ "verified": 105,
+ "fixed": 14,
+ "removed": 1,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "compounds.Chrysoeriol 4'-O-(6''-acetyl)-glucoside.content_text",
+   "before": "전초 유래로 보고[15]",
+   "after": "냄새냉이에서 추출한 성분으로 보고(부위는 초록에 없음, 원문 표기 chrysoeriol-6-O-acetyl-4'-β-D-glucoside)[15]",
+   "why": "[15] 초록은 'tropical plant Coronopus didymus'에서 추출했다고만 쓰고 전초라는 말이 없음"
+  },
+  {
+   "where": "compounds.Quercetin.content_text",
+   "before": "(원문 표기 그대로; 단위·기준이 비현실적이어서 검증 필요)",
+   "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)",
+   "why": "[9] 초록 6개 성분 값 합 1,756 mg/g(>1,000)이라 물리적으로 불가능 — 원문 값은 두되 이유를 밝힌 검증 필요 표기로 통일"
+  },
+  {
+   "where": "compounds.Quercetin.activity_ko",
+   "before": "냄새냉이·님 추출물·쿼세틴 병용이 당뇨 생쥐에서 혈당과 간 효소(ALT·AST)를 낮춤(동물 시험, 개별 성분 효과 아님)[28]",
+   "after": "당뇨 유발 생쥐에서 냄새냉이 추출물·님 추출물·쿼세틴을 각각 주어도 혈당이 낮아졌고, 셋을 함께 준 군에서 간 효소(ALT·AST) 감소가 더 컸다는 보고(동물 시험; 냄새냉이 추출물 속 쿼세틴의 기여는 따로 확인되지 않음)[28]",
+   "why": "[28] 초록: 개별 처리(냄새냉이·님·쿼세틴 각각)도 혈당을 낮췄고 병용은 간 보호가 더 컸다 — '개별 성분 효과 아님'은 원문과 다름"
+  },
+  {
+   "where": "compounds.Chlorogenic acid.content_text",
+   "before": "(원문 표기 그대로, 검증 필요)",
+   "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)",
+   "why": "[9] 수치 합 >1,000 mg/g — 표기 통일"
+  },
+  {
+   "where": "compounds.Ferulic acid.content_text",
+   "before": "메탄올 추출물 23.33 mg/g 건조중량[9]",
+   "after": "메탄올 추출물 23.33 mg/g 건조중량(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)[9]",
+   "why": "같은 [9] 표의 값인데 검증 필요 표기가 빠져 있었음"
+  },
+  {
+   "where": "compounds.Kaempferol.content_text",
+   "before": "메탄올 추출물 11.5 mg/g 건조중량[9]",
+   "after": "메탄올 추출물 11.5 mg/g 건조중량(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)[9]",
+   "why": "같은 [9] 표의 값인데 검증 필요 표기가 빠져 있었음"
+  },
+  {
+   "where": "compounds.Benzoic acid",
+   "before": "벤조산 — 메탄올 추출물 428 mg/g 건조중량(원문 표기 그대로, 검증 필요)[9]",
+   "after": "(삭제)",
+   "why": "근거가 수치 신뢰가 어려운 [9] 하나뿐이고 활성 자료도 없어 덜어냄"
+  },
+  {
+   "where": "assays.Chrysoeriol.conditions.sample_prep",
+   "before": "→ 메탄올:물 7:3에 녹여 Sephadex LH-20",
+   "after": "→ 메탄올:물 7:3에 녹인 페놀 추출물(0.67 g)을 Sephadex LH-20",
+   "why": "[7] 전문 2.2절: 에탄올 추출물 2.0 g을 MeOH:H2O 7:3에 녹여 0.67 g 페놀 추출물을 얻은 뒤 LH-20에 올림"
+  },
+  {
+   "where": "assays.Quercetin.content",
+   "before": "(원문 표기 그대로)",
+   "after": "(원문 수치 그대로; 같은 표의 6개 성분 합이 1,756 mg/g으로 1,000을 넘어 단위·기준 오류가 의심되므로 검증 필요)",
+   "why": "[9] 수치 합 >1,000 mg/g — 이유 명시"
+  },
+  {
+   "where": "sections.processing",
+   "before": "브라질에서는 잎을 우리거나 달이거나 음식에 넣어 먹는다고 보고되었다[4].",
+   "after": "브라질에서는 이 풀을 우리거나 달이거나 음식으로 먹는다고 보고되었다(부위는 초록에 없음)[4].",
+   "why": "[4] 초록은 'Treatment with the plant can be done by infusion, decoction, or through food' — 잎으로 한정하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "남아시아 쪽 연구는 해열·거담",
+   "after": "지상부 플라보노이드 연구는 해열·거담",
+   "why": "[6] 초록에 남아시아 등 지역이 적혀 있지 않음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "메톡시 플라본인 크리소에리올(chrysoeriol)과 그 배당체가 분리·정량되었다[6, 7, 15].",
+   "after": "메톡시 플라본인 크리소에리올(chrysoeriol)과 그 배당체가 분리되었고, 크리소에리올은 말린 지상부 10 g당 약 1.60 mg으로 정량되었다[6, 7, 15]. 한 논문은 전초 메탄올 추출물의 폴리페놀 함량을 보고했지만 수치 합이 1,000 mg/g을 넘어 신뢰하기 어렵다[9].",
+   "why": "정량값은 [7](지상부) 하나뿐이고 [6]·[15]는 분리만 — '분리·정량'을 구분하고 [9] 수치 신뢰 문제를 개요에 밝힘"
+  },
+  {
+   "where": "sources[19].title",
+   "before": "2018;20(5) (PMID",
+   "after": "2018;20(5):483-489 (PMID",
+   "why": "PubMed 서지(권·호·쪽) 보완"
+  },
+  {
+   "where": "sources[27].title",
+   "before": "Microsc Res Tech 2019 (PMID",
+   "after": "Microsc Res Tech 2019;82(10):1779-1786 (PMID",
+   "why": "PubMed 서지(권·호·쪽) 보완"
+  },
+  {
+   "where": "sources[29].title",
+   "before": "Chemosphere 2022 (PMID",
+   "after": "Chemosphere 2022;303(Pt 2):135138 (PMID",
+   "why": "PubMed 서지(권·호·쪽) 보완"
+  }
+ ],
+ "unverifiable_notes": [
+  "[3] Nature 1965 은 초록이 없어 제목으로만 확인(문서에도 그렇게 표기됨)",
+  "[2]·[7]·[9] 는 PMC 전문, 나머지 논문은 PubMed 초록으로 대조. [10]·[11] 전문은 보지 못해 HPLC-DAD 조건 칸은 비워 둔 그대로 둠",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 냄새냉이잎 Coronopus didymus (L.) Sm., 사용가능, '사용가능부위 : 잎' — card.json·overview 와 일치. Crowfoot(Coronopus squamatus) 잎·뿌리, 다닥냉이순·마카·들다닥냉이·콩다닥냉이 행은 별도이며 문서에 그 자료는 섞이지 않음",
+  "철회 확인: PubMed 에서 Coronopus didymus/Lepidium didymum 관련 철회 논문은 PMID 35622843(PLoS One 2022 잡초 군락) 1건뿐이며 dossier 에는 인용되지 않음",
+  "부위: [7]·[6]·[8] 지상부, [9]·[10]·[12]·[13] 전초, [4] 잎, [11] 부위 미기재 — 문서의 부위 표기가 원문과 맞음을 확인. 잎만 분석한 성분 정량 자료는 없음"
+ ]
+}

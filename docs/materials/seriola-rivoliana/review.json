@@ -1,0 +1,164 @@
+{
+ "slug": "seriola-rivoliana",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 78,
+ "checked_items": 53,
+ "verified": 105,
+ "fixed": 21,
+ "removed": 3,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "열대 바다를 중심으로 전 세계에 퍼져 사는 표층 회유어로서",
+   "after": "열대 바다 전역에 사는 표층성 어류로서",
+   "why": "[9] 초록은 circumtropical pelagic fish 라고만 씀(회유어 표현 없음)"
+  },
+  {
+   "where": "sections.overview",
+   "before": "한편 스페인 카나리아 제도 등에서는 이 종을 먹고 시구아테라 식중독이 일어난 사례가 보고되었다[4].",
+   "after": "한편 스페인 카나리아 제도에서는 2008–2009년 이 종을 먹고 시구아테라 식중독이 일어난 사례가 보고되었다[4].",
+   "why": "[4] 는 카나리아 제도만 다룸 — '등' 삭제, 연도 명시"
+  },
+  {
+   "where": "sections.history",
+   "before": "국내에서는 1995년 10월 제주도 남동쪽 해역에서 선망으로 잡혀 부산공동어시장에서 채집된 개체가 1997년 한국어류학회지에 처음 보고되었다고 검색 요약에서 확인되었으나, 원문은 열어 보지 못했다[29].",
+   "after": "국내 첫 기록은 1997년 한국어류학회지 보고로 알려져 있으나, 웹 검색 요약으로만 보았고 원문·초록은 확인하지 못함[29].",
+   "why": "[29] 원문 확인 불가 — 채집 연월·해역·어법·장소 같은 세부는 덜어내고 근거 수준을 낮춤"
+  },
+  {
+   "where": "sections.history",
+   "before": "카나리아 제도에서는 2004년 첫 시구아테라 집단 발생 뒤 2008–2009년에 두 차례 더 발생했고, 환자들은 근처 바다에서 잡은 이 종을 먹었다[4].",
+   "after": "카나리아 제도에서는 2004년 첫 시구아테라 집단 발생 뒤 2008–2009년에 두 차례 더 발생했고, 이 2008–2009년 환자들이 근처 바다에서 잡은 이 종을 먹었다[4].",
+   "why": "[4] 초록에서 이 종과 연결된 것은 2008–2009년 두 건뿐 — 2004년 건까지 이 종으로 읽히지 않게 함"
+  },
+  {
+   "where": "sections.history",
+   "before": "소화관 발달, 소화효소, 기생충, 면역 등을 잇달아 보고했다[16, 17, 19].",
+   "after": "소화관 발달, 소화효소, 기생충 등을 잇달아 보고했다[16, 17, 19].",
+   "why": "[16][17][19] 에 면역 연구 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": " 국명 '낫잿방어'는 잿방어와 닮았지만 둘째 등지느러미와 뒷지느러미 끝이 낫 모양이라 붙었다고 검색 요약에서 확인되었으나, 원문은 열어 보지 못했다[29].",
+   "after": "",
+   "why": "[29] 는 웹 검색 요약뿐이고 원문 확인 불가 — 국명 유래 문장 삭제"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "카나리아 제도 보고는 이 종을 lesser amberjack이라고 불렀지만[4], 미국 연구에서 lesser amberjack은 다른 종(S. fasciata)을 가리켰다[12].",
+   "after": "카나리아 제도 보고는 이 종(학명 Seriola rivoliana 병기)을 lesser amberjack이라고 불렀지만[4], 미국 연구는 lesser amberjack을 almaco jack(이 종)과 다른 별개 종으로 다루었다[12].",
+   "why": "[12] 변환본에서 학명 이탤릭이 빠져 S. fasciata 대응은 본문으로 확인 못함 — 원문에서 확인되는 '별개 종'까지만 씀"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "수온이 1 ℃만 올라도 기생충 수가 눈에 띄게 늘었다[20].",
+   "after": "에콰도르의 양식 수조 조사에서는 수온이 1 ℃만 올라도 기생충 수가 눈에 띄게 늘어나는 것과 관련되었다[20].",
+   "why": "[20] 은 멕시코가 아니라 에콰도르(하라미호) 연구진이고, 초록은 'associated with' 로 씀"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "하와이 코나 시험에서 어분을 모두 대두 단백 농축물로 바꾼 사료는 30일 동안 폐사와 야윔을 일으켰다[3].",
+   "after": "하와이 코나 시험에서 해양 원료 없이 대두 단백 농축물만 쓴 사료는 30일 시험 중 폐사와 야윔을 일으켰다[3].",
+   "why": "[3] 전문: 100% SPC, devoid of marine ingredients, during 30-day trial"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "시판 사료군(1,175.8 g)보다 컸고, 사료 효율은 1.4 대 1.3이었다[3].",
+   "after": "시판 사료군(42.1 g → 1,175.8 g)보다 컸고, 사료요구율(FCR)은 1.4 대 1.3으로 유의한 차이가 없었다[3].",
+   "why": "[3] Table 3: FCR(사료요구율)이며 사료 효율이 아님, 두 군 차이 유의하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "바닷물에 녹은 설사성 패독(오카다산 등)은 알의 대량 폐사를 일으켰고[27], 삭시톡신(100 μg/L)에 노출된 알의 부화율은 5% 미만으로 대조군 71%보다 크게 낮았다[28].",
+   "after": "실험실에서 물에 녹인 설사성 패독(오카다산·DTX-1, 오카다산 당량 120·175 μg/L)에 노출한 알은 대량 폐사했고[27], 삭시톡신(100 μg/L)에 노출한 배아의 부화율(수정 후 44시간)은 5% 미만으로 대조군 71%보다 크게 낮았다[28].",
+   "why": "[27][28] 은 실험실 노출 시험 — 농도·조건을 초록대로 적음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "하와이에서 잡은 낫잿방어·잿방어 164마리와 다른 어종 175마리의 근육을 검사한 연구에서는",
+   "after": "하와이에서 잡은 낫잿방어·잿방어 합계 164마리와 다른 한 어종(Cephalopholis argus) 175마리의 근육을 검사한 연구에서는",
+   "why": "[5] 초록: 175마리는 한 종(blue-spotted grouper)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "앤틸리스 조사에서는 이 종의 간에 시구아톡신이 의미 있는 수준으로 있었지만 살은 안전했다[6].",
+   "after": "앤틸리스 조사(26종 178마리, 쥐·병아리 생물검정)에서는 이 종의 간에 시구아톡신이 의미 있는 수준으로 있었지만 살은 먹어도 되는 수준이었다고 했다[6]. 조사한 이 종 개체 수와 독소 농도는 초록에 없다[6].",
+   "why": "[6] 은 생물검정으로 독성을 추정한 것 — 방법과 한계를 밝힘"
+  },
+  {
+   "where": "sections.safety",
+   "before": "생선 시료에서 카리브해 시구아톡신-1(C-CTX-1)이 LC-MS/MS로 확인되었다[4].",
+   "after": "생선 시료에서 카리브해 시구아톡신-1(C-CTX-1)이 LC-MS/MS로 확인되었다(시료 부위·농도는 초록에 없음)[4].",
+   "why": "[4] 초록은 fish samples 라고만 씀"
+  },
+  {
+   "where": "sections.safety",
+   "before": "2016년 환자 관련 생선 두 건이 이 종('olho de boi')으로 판정되었고, 2016년 시료에서는 시구아톡신이 검출되지 않았다[7].",
+   "after": "2016년 환자 관련 생선 시료 세 건 가운데 두 건이 유전자 검사로 'olho de boi'로 판정되었고(학명은 변환본에서 빠져 있어 PubMed 색인으로 간접 확인), 세 건 모두 시구아톡신이 검출되지 않았다[7].",
+   "why": "[7] 전문: 3건 종 판정 중 2건, 3건 모두 시구아톡신 음성; 학명 이탤릭 누락 — 판정 근거 수준 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "2020년 'olho de boi' 조리 시료 두 건에서는 팔리톡신 유사 물질의 흔적이 나왔으나,",
+   "after": "2020년 'olho de boi' 시료 여섯 건 가운데 조리된 두 건에서 팔리톡신 유사 물질의 흔적이 나왔으나,",
+   "why": "[7] 전문: 6건 검사, 조리 시료 2건에서만 흔적"
+  },
+  {
+   "where": "compounds.Ciguatoxin.part",
+   "before": "살(카나리아 제도 중독 관련 시료)·간(앤틸리스)",
+   "after": "생선 시료(카나리아 제도 중독 관련, 부위는 초록에 없음)·간(앤틸리스, 생물검정)",
+   "why": "[4] 초록은 부위를 밝히지 않음, [6] 은 생물검정"
+  },
+  {
+   "where": "compounds.Ciguatoxin.content_text",
+   "before": "카나리아 제도 시료에서 C-CTX-1 확인(초록에 농도 없음); 앤틸리스 개체 간에서 의미 있는 수준 검출",
+   "after": "카나리아 제도 시료에서 C-CTX-1 확인(초록에 농도 없음); 앤틸리스 개체 간에서 쥐·병아리 생물검정으로 의미 있는 독성(농도 없음)",
+   "why": "[6] 정량 아님"
+  },
+  {
+   "where": "assays[C-CTX-1].part",
+   "before": "살(카나리아 제도 중독 관련 시료)",
+   "after": "생선 시료(카나리아 제도 중독 관련, 부위는 초록에 없음)",
+   "why": "[4] 초록은 fish samples 라고만 씀"
+  },
+  {
+   "where": "assays[Ciguatoxin].content",
+   "before": "낫잿방어·잿방어와 다른 어종을 합친 전체 시료에서 ELISA 양성 9.4%, 신경모세포 시험 독성 6.8%(종별 값은 초록에 없음)[5]",
+   "after": "낫잿방어·잿방어 합계 164마리와 Cephalopholis argus 175마리를 합친 전체 시료에서 ELISA 양성 9.4%, 신경모세포 시험 독성 6.8%(종별 값은 초록에 없음)[5]",
+   "why": "[5] 초록대로 어종 구성 명시"
+  },
+  {
+   "where": "sources[7].title",
+   "before": "Haff Disease in Salvador, Brazil, 2016-2021: Attack rate and detection of toxin in fish samples collected during outbreaks and disease surveillance. Lancet Reg Health Am 2021;5:100092 (PMC 전문 확인; 본문 변환본에서 이탤릭 학명이 빠져 있어 'olho de boi' 시료의 학명 Seriola rivoliana는 PubMed 초록 색인으로 확인)",
+   "after": "Haff Disease in Salvador, Brazil, 2016-2021: Attack rate and detection of toxin in fish samples collected during outbreaks and disease surveillance. Lancet Reg Health Am 2021;5:100092 (PMC 전문 확인; 본문·초록 변환본 모두 이탤릭 학명이 빠져 있음 — 'olho de boi' 시료의 학명 Seriola rivoliana는 PubMed 검색 색인이 이 기록을 'rivoliana'로 찾는 것으로 간접 확인, 2020년 시료는 종 유전자 판정 서술 없음)",
+   "why": "학명 누락 논문의 종 판정 근거 수준을 정확히 적음"
+  },
+  {
+   "where": "sources[3].title",
+   "before": "Towards the development of a sustainable soya bean-based feedstock for aquaculture. Plant Biotechnol J 2017;15(2):227-236 (PMC 전문 확인; 'Kampachi'는 초록에서 Seriola rivoliana로 명시)",
+   "after": "Towards the development of a sustainable soya bean-based feedstock for aquaculture. Plant Biotechnol J 2017;15(2):227-236 (PMC 전문 확인; 변환본에서 학명이 빠져 있어 'Kampachi'=Seriola rivoliana는 PubMed 검색 색인으로 간접 확인)",
+   "why": "PMC 전문·초록 변환본 모두 학명 이탤릭 누락"
+  },
+  {
+   "where": "sources[29].title",
+   "before": "한국어류학회지 1997년 9권 2호 낫잿방어(Seriola rivoliana) 한국 첫 기록 보고 — 웹 검색 결과 요약으로만 확인(원문·초록 페이지는 접속 제한으로 열지 못함)",
+   "after": "한국어류학회지 1997년 낫잿방어(Seriola rivoliana) 한국 첫 기록 보고 — 웹 검색 결과 요약으로만 확인(원문·초록 페이지는 접속 제한으로 열지 못함, 세부 내용은 옮기지 않음)",
+   "why": "원문 미확인 — 권호·세부 내용 의존도를 낮춤"
+  },
+  {
+   "where": "aliases",
+   "before": "Kampachi 포함",
+   "after": "Kampachi 제외",
+   "why": "[3] 의 양식장 시험명이자 상업 명칭 성격이고, 다른 방어속 어종(잿방어)의 일본어 이름과 겹칠 수 있어 별명으로 두지 않음(본문 서술은 유지)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[29] 한국 첫 기록(한국어류학회지 1997)은 접속 제한으로 원문·초록을 열지 못해 웹 검색 요약 수준으로만 남김 — 채집 연월·해역·어법·장소 세부와 국명 유래 문장은 삭제",
+  "[3]·[7]·[12] 는 PMC 전문 변환본에서 이탤릭 학명이 빠져 있음 — [3] Kampachi·[7] 2016년 'olho de boi' 시료의 S. rivoliana 판정은 PubMed 검색 색인이 'rivoliana'로 이 기록을 찾는 것으로 간접 확인, [12] 의 lesser amberjack 학명은 본문에서 확인 못해 '별개 종'까지만 씀",
+  "[2][4][5][6][8]~[11][13]~[28][30]~[32] 는 PubMed 초록으로, [3][7] 은 PMC 전문으로, [12] 는 작성자가 저장한 PMC 전문(_work/ddpcr.json)으로 대조",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 낫잿방어 행(수산물, 부위 '-', 사용가능, 별명 Longfin yellowtail)과 card.json 이 일치함을 확인; 방어·잿방어·부시리는 별도 행",
+  "방어·잿방어·부시리 자료 섞임 없음: [2]는 잿방어와 공동 분석이라 두 종 공통 서술만, [5]는 종별 비율 없음을 명시; 히스타민 자료는 이 종 근거가 없어 '확인하지 못함' 유지"
+ ]
+}

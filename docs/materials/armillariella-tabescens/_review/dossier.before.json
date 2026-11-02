@@ -1,0 +1,473 @@
+{
+ "slug": "armillariella-tabescens",
+ "name_ko": "뽕나무버섯부치",
+ "name_en": "Ringless honey mushroom",
+ "scientific_name": "Armillariella tabescens (Scop.) Sing.",
+ "aliases": [
+  "Armillaria tabescens",
+  "Desarmillaria tabescens",
+  "Armillariella tabescens sing."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "뽕나무버섯부치는 나무에 무더기로 돋는 담자균류 버섯으로, 식품의약품안전처 「식품원료 목록」에는 원료명 '뽕나무버섯부치', 학명 Armillariella tabescens sing.으로 올라 있다[1]. 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 자실체'여서, 일반 식품의 원료로는 자실체(버섯 몸체)를 쓸 수 있다[1]. 건강기능식품 고시형 원료의 원재료로 쓰인 기록은 확인하지 못함. 2017년 계통 연구는 턱받이(고리)가 없는 버섯 무리를 뽕나무버섯속(Armillaria)에서 떼어 Desarmillaria 속으로 올리고, 이 종을 Desarmillaria tabescens로 옮겼다[2]. 논문에는 Armillariella tabescens, Armillaria tabescens, Desarmillaria tabescens가 함께 쓰이므로, 이 문서는 세 이름으로 보고된 자료를 같은 종으로 다룬다[2, 3, 5].\n\n연구는 자실체와 배양 균사체의 다당체, 자실체의 스테로이드·지방산, 배양 균에서 얻은 아플라톡신 분해 효소와 이차대사산물에 모여 있다[6, 8, 12, 20]. 다당체의 장 보호·혈당·신경 염증 관련 효과는 대부분 동물·세포 실험이며, 사람 대상 임상 연구는 확인하지 못함. 같은 목록의 뽕나무버섯(Armillariella mellea)은 별개의 원료이므로 이 문서는 그 자료를 섞지 않는다[1]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "종소명 tabescens는 1772년 『Flora Carniolica』에 처음 실린 이름에 바탕을 두며, 2017년 연구는 이를 기초명으로 삼아 새 조합 Desarmillaria tabescens를 발표했다[2]. 이 연구는 뽕나무버섯속의 아속이던 Desarmillaria를 속으로 올렸는데, 턱받이의 유무가 두 속을 가르는 믿을 만한 형질이고 분자시계 분석에서 서로 다른 진화 경로를 걸어온 것으로 나왔기 때문이다[2]. 그 뒤 한국 연구진도 미토콘드리아 유전체를 보고하며 이 종이 Desarmillaria 속으로 옮겨졌음을 적었다[3]. 그러나 식약처 목록과 여러 약리 연구는 지금도 Armillariella tabescens라는 옛 이름을 주로 쓴다[1, 8, 9].\n\n2021년 한국 연구진은 이 버섯이 중국에서 '빛나는 버섯(Luminous Fungus)'으로 불리며 전통 의학에서 담낭염 치료, 담즙 분비 개선, 담관 압력 조절에 쓰였다고 소개했다[9]. 1974년 중국 학술지에 아밀라리신(armillarisin)류의 분리·구조 결정 보고가 실렸으나 초록이 없어 세부 내용은 확인하지 못함[11]. 2001년에는 이 버섯 균주(E-20)에서 아플라톡신 B1을 해독하는 세포 내 효소가 정제되어 '아플라톡신 해독 효소'로 보고되었다[20]. 뒤의 연구들은 이 효소를 아플라톡신 산화효소(AFO)라 불렀고, 2017년 결정 구조 분석에서 다이펩티딜 펩티데이스 III(DPP III) 활성도 함께 가진 효소로 밝혀졌다[21]."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "Desarmillaria 속 버섯은 대가 있고 보통 나무 위에 다발로 돋으며, 갓은 대개 갈색 계열이고 턱받이가 없다[2]. 포자는 타원형에서 구형으로 매끈하고 투명하며 아밀로이드 반응이 없고, 꺾쇠연결(clamp connection)은 없다[2]. 이 속은 자연에서 뿌리꼴균사다발(rhizomorph)을 만드는 모습이 관찰되지 않았고, 배양에서는 멜라닌화되지 않은 뿌리꼴균사다발을 만들며, 부생에서 기생까지의 생활을 하고 북반구에서만 알려져 있다[2].\n\n이 종은 나무뿌리썩음병을 일으키는 병원균이기도 하여, 미국 남동부에서는 복숭아나무 뿌리썩음병의 주된 원인균으로 보고되었다[24]. 뽕나무버섯 무리의 균사는 늘 빛을 내지만, 이 종의 균사는 처음 발광량이 낮고 버섯이 자라는 동안 거의 사라질 만큼 줄었다[5]. 발사나무 토막에 이 균을 1–4개월 배양한 실험에서는 리그닌과 헤미셀룰로스가 먼저 분해되어, 적외선 분광으로 상대 정량한 리그닌 비율이 12.25%에서 5.48–5.89%로 줄었고 셀룰로스 결정 구조는 바뀌지 않았다[4]. 국내에서는 2014년 9월 경기도 화성에서 자실체가 채집되었고, 충북 청주에서 채집한 자실체로부터 분리한 균주가 국립농업과학원 농업미생물은행(KACC 54704)에 기탁되었다[3, 9]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "식약처 「식품원료 목록」에는 같은 Armillariella 속의 뽕나무버섯(원료명 '뽕나무버섯자실체', Armillariella mellea)이 따로 올라 있으며, 이 역시 자실체만 쓸 수 있다[1]. 이름이 비슷하지만 다른 원료이므로, 뽕나무버섯의 성분·약리·안전성 자료와 천마와의 공생 연구는 이 문서에 넣지 않는다[1].\n\n2017년 6유전자 계통 분석에서 뽕나무버섯 무리는 턱받이가 있는 뽕나무버섯속(Armillaria), 턱받이가 없는 Desarmillaria, 땅속에 닫힌 자실체를 만드는 Guyanagaster의 세 속으로 나뉘었다[2]. Desarmillaria에는 두 종이 알려져 있는데, 다른 한 종은 이탄 습지에만 사는 반면 이 종은 그루터기를 분해하는 부생균이면서 일부 수목의 병원균이기도 하다[2]. 턱받이가 없는 계통의 공통 조상은 약 4,100만 년 전(95% 신뢰구간 2,400만–5,900만 년)으로 추정되었다[2].\n\n중국 15개 성에서 모은 자실체 282점을 교배 시험으로 나눈 연구에서는 이 종이 뽕나무버섯(A. mellea s.str.)을 포함한 14개 교배 불화합군 가운데 하나로 확인되었다[23]. 북미 연구도 같은 지역에 사는 A. gallica·A. mellea와 이 종을 나란히 비교했으므로, 야생 채집 시료는 형태만이 아니라 교배·유전자 분석으로 종을 확인해야 섞임을 막을 수 있다[5, 23]."
+  },
+  {
+   "key": "cultivation",
+   "title": "채취와 배양",
+   "body": "국내 생산량·재배 면적 통계(통계청·농림축산식품부 특용작물 생산실적)에서 뽕나무버섯부치 항목은 확인하지 못함. 상업 재배 방법과 국내 재배 사례도 확인하지 못함. 연구용 자실체는 야생에서 채집되었으며, 한국 연구에서는 2014년 9월 경기도 화성에서 채집한 신선한 자실체를 그늘에서 말려 썼다[9].\n\n약리 연구의 상당수는 자실체가 아니라 액체 배양한 균사체를 쓴다[26, 27]. 청주 균주(A014)는 맥아 추출 액체 배지에서 어둠 속 10일 배양한 균사로 유전체를 분석했고, 스위스 연구는 4% 맥아 추출 한천 배지에서 순수 배양한 뒤 22 ℃, 상대습도 75%에서 나무 토막과 함께 1–4개월 배양했다[3, 4]. 실험실에서는 단포자 분리주끼리 짝지은 49개 조합의 이배체 균주 가운데 24개가 자실체를 맺었다[25]. 한편 이 종은 과수원에서 복숭아나무 뿌리썩음병을 일으키므로, 미국 남동부에서는 재배 대상이 아니라 방제 대상으로 연구된다[24]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "한국 연구에서는 그늘에 말려 썬 자실체 310 g을 80% 메탄올로 세 번 추출해 추출물 28.7 g을 얻었다[9]. 자실체를 뜨거운 물로 추출하면 펩타이드가 붙은 다당 AT-HW가, 알칼리로 추출하면 α-(1→3)-글루칸 위주의 다당 AT-AL이 얻어진다[6]. 배양 균사체에서는 폴리아마이드법으로 다당(PAT)을 만들었는데 당 함량 93.41%, 우론산 함량 12.24%였다[19]. 균사체에서 얻은 다른 다당(ATP)은 α-글루코스·갈락토스가 이어진 주사슬에 글루코스·만노스 말단을 가진 구조로 분석되었다[18].\n\n식품·사료 쪽 이용으로는, 액체 발효로 얻은 말린 균사체 가루를 젖뗀 새끼돼지 사료에 0.1%와 0.3% 넣었을 때 성장 성적이 좋아졌다는 보고가 있다[27]. 아플라톡신 산화효소는 곰팡이독소 아플라톡신 B1을 해독하는 효소로 연구되었고, 이 버섯 균주(EJLY2098)의 β-만난 분해효소(MAN47)는 효모(Pichia pastoris)에서 배양액 1 L당 440 mg 생산되었다[20, 22]. 이 종의 균사가 발사나무를 분해하며 빛을 내게 하는 '발광 목재' 소재 연구도 있다[4]. 식약처 「식품 등의 생산실적」의 건강기능식품 원료 품목에서 이 버섯은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전",
+   "body": "청주 균주(A014)의 미토콘드리아 유전체는 93,439 bp의 원형 분자로 GC 함량이 29.28%이며, 단백질 암호 유전자 15개, tRNA 유전자 24개, rRNA 유전자 2개를 가진다[3]. 중국 균주 CPCC 401429의 핵 유전체에는 단백질 암호 유전자 15,145개가 있고, 다좌위 서열형(MLST) 계통 분석과 비교 유전체 분석으로 이 균주가 Desarmillaria 속에 든다는 재분류가 제시되었다[14]. 이 유전체에서 찾은 세스퀴테르펜 합성효소 후보 12개 가운데 6개는 새로운 소집단(Clade IV)에 속했다[14]. 같은 균주는 멜레올라이드(melleolide) 생합성 유전자 무리를 가지며, 배지를 바꾸는 방식으로 새 멜레올라이드 2종이 분리되었다[13].\n\n뽕나무버섯 무리의 영양 균사는 핵이 하나인 이배체 세포로 이루어지는데, 이 종의 자실체 원기에서는 이핵 균사가 나타나 자실체 발달 중 체세포 반수화가 일어난다는 유전적 증거가 나왔다[25]. 미국 남동부 분리주(SC.MF-1.01)는 rDNA의 IGS1·ITS2 부위가 이형접합이었고, 단포자 자손에서 두 유형이 1:1로 분리되어 두 핵이 서로 다른 반수체형을 가진 것으로 해석되었다[24]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 이 버섯은 '사용가능' 원료이며 쓸 수 있는 부위는 자실체로 정해져 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에서 이 종을 확인하지 못해, 고시된 섭취 시 주의사항도 확인하지 못함. 식약처·농촌진흥청 등 공공기관의 알레르기·독성 성분 정보와 날것 또는 많이 먹었을 때의 위장 증상에 관한 이 종 고유의 근거는 확인하지 못함.\n\n2020년 식용버섯 266개 시료의 비소 종 분석에서 뽕나무버섯부치의 무기비소 함량은 3.63 mg/kg으로 비교적 높아 소비자 건강에 잠재적 위험이 될 수 있다고 보고되었다[15]. 초록에는 이 값이 생중량 기준인지 건조중량 기준인지, 시료 산지가 어디인지 적혀 있지 않다[15]. 이 종의 포자 추출물은 다른 담자균류 포자와 공통된 알레르기 항원 결정기를 가졌고, 이 종을 포함한 담자균 11종의 포자는 냉동 보존한 사람 전혈에서 염증성 사이토카인(IL-1β) 분비를 농도에 따라 늘렸다[28, 29]. 이 결과들은 먹는 것이 아니라 공기 중 포자를 들이마시는 노출에 관한 것이다[28, 29].\n\n자실체에서 분리한 스테롤 하나는 유방암 세포(MCF-7)에서 에스트로겐과 비슷한 증식 촉진 작용을 보였으나, 세포 실험 결과일 뿐이다[9]. 균사체 다당의 혈당·신경 염증 개선 효과 등도 생쥐 실험 결과이며, 사람에서의 효과와 안전성은 확인하지 못함[30, 31]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산((Z,Z)-9,12-옥타데카다이엔산)",
+   "class": "지방산",
+   "role": "bioactive",
+   "part": "자실체(메탄올 추출물)",
+   "content_text": "자실체 메탄올 추출물에서 분리(함량 수치는 확인하지 못함)[8, 9]",
+   "activity_ko": "LPS 자극 대식세포(RAW264.7)에서 NO 생성과 iNOS·COX-2·NF-κB 경로 억제(세포 실험); 추출물은 쥐의 에탄올 위 손상을 줄임(동물 실험)[8, 9]",
+   "source": [
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Ergost-22-en-3-ol",
+   "name_ko": "(3β,5α,22E)-에르고스트-22-엔-3-올",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체(헥세인·다이클로로메테인 분획)",
+   "content_text": "그늘에 말린 자실체 310 g의 활성 분획에서 분리한 스테로이드 4종 중 하나(함량 수치는 확인하지 못함)[9]",
+   "activity_ko": "MCF-7 세포 증식을 25–100 μM에서 163.23–429.33%로 높였고 에스트로겐 수용체 길항제로 상쇄됨(세포 실험)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Ergosterol peroxide",
+   "name_ko": "에르고스테롤 퍼옥사이드",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "자실체 메탄올 추출물의 활성 분획에서 분리(함량 수치는 확인하지 못함)[9]",
+   "activity_ko": "같은 시험(E-screen)에서 MCF-7 세포 증식 촉진 작용 없음[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "9,11-Dehydroergosterol peroxide",
+   "name_ko": "9,11-디하이드로에르고스테롤 퍼옥사이드",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "자실체 메탄올 추출물의 활성 분획에서 분리(함량 수치는 확인하지 못함)[9]",
+   "activity_ko": "E-screen 시험에서 에스트로겐 유사 작용 없음[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Armillarisin B",
+   "name_ko": "아밀라리신 B(2-하이드록시-2-페닐프로페인다이아마이드)",
+   "class": "아마이드",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "자실체 메탄올 추출물에서 활성 추적 분획으로 분리(함량 수치는 확인하지 못함)[10]",
+   "activity_ko": "식물병원균 Gibberella zeae에 대한 항진균 활성(시험관 실험)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Armillarisin A",
+   "name_ko": "아밀라리신 A",
+   "class": "쿠마린",
+   "role": "bioactive",
+   "part": "부위 확인하지 못함(배양 여부 미확인)",
+   "content_text": "1974년 분리·구조 결정 보고가 있으나 초록이 없어 함량·부위는 확인하지 못함[9, 11]",
+   "activity_ko": "아밀라리신류가 항진균·위염·간염 관련 항감염 작용을 보였다고 인용됨(원 논문은 확인하지 못함)[9]",
+   "source": [
+    9,
+    11
+   ]
+  },
+  {
+   "name": "AT-HW heteroglycan",
+   "name_ko": "헤테로글리칸 다당 AT-HW",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체(열수 추출)",
+   "content_text": "분자량 105,000, β-(1→6) 결합 글루코스·갈락토스 주체에 β-(1→3) 글루코스 포함, 펩타이드 결합[6]",
+   "activity_ko": "생쥐 육종 180 종양 억제와 대식세포 활성화(복강 투여 동물 실험)[7]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "alpha-1,3-Glucan",
+   "name_ko": "α-(1→3)-글루칸 다당 AT-AL",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "자실체(알칼리 추출)",
+   "content_text": "분자량 93,000, 주로 α-(1→3) 결합 D-글루코스[6]",
+   "activity_ko": "생쥐 육종 180 종양 억제, AT-HW와 다른 기전 시사(복강 투여 동물 실험)[7]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "alpha-1,6-Glucan",
+   "name_ko": "α-(1→6)-D-글루칸 IPS-B2",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "배양 균사체(세포 내 다당)",
+   "content_text": "분자량 49.5 kDa의 α-(1→6)-D-글루칸[16]",
+   "activity_ko": "생쥐 복강 대식세포의 NO·TNF-α·IL-1β·IL-6 생성 증가(세포 실험)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Mannogalactan",
+   "name_ko": "만노갈락탄 AT-W",
+   "class": "다당체",
+   "role": "bioactive",
+   "part": "배양 균사체",
+   "content_text": "평균 분자량 25.6 kDa, 만노스:갈락토스:아라비노스:푸코스 몰 비율 11.46:70.9:4.96:12.67, 일부 3-O-메틸화 →6)-α-Galp-(1→ 주사슬[17]",
+   "activity_ko": "고요산혈증 생쥐에서 혈청 요산 감소와 크산틴 산화효소 활성 억제(동물 실험)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Emestrin",
+   "name_ko": "에메스트린(에메스트린-F·G 포함)",
+   "class": "에피폴리싸이오다이옥소피페라진",
+   "role": "bioactive",
+   "part": "배양 균주(JNB-OZ344) 에틸아세테이트 추출물",
+   "content_text": "배양 추출물에서 새 화합물 4종(에메스트린-F·G 등)과 알려진 화합물 5종 분리(함량 수치는 확인하지 못함)[12]",
+   "activity_ko": "에메스트린-F와 에메스트린이 칸디다·크립토코쿠스·대장균 등 병원균 생장 억제(시험관 실험)[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Ergosterol",
+   "name_ko": "에르고스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "배양 균주 추출물",
+   "content_text": "배양 추출물에서 브라시카스테롤과 함께 분리(함량 수치는 확인하지 못함)[12]",
+   "activity_ko": "균류 세포막 스테롤로, 이 연구에서 항균 활성의 주성분은 아니었음[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Melleolide",
+   "name_ko": "멜레올라이드류",
+   "class": "세스퀴테르펜 아릴 에스터",
+   "role": "bioactive",
+   "part": "배양 균주(CPCC 401429) 발효물",
+   "content_text": "새 멜레올라이드 2종과 오르셀린산 유래 락탐 5종 분리(함량 수치는 확인하지 못함)[13]",
+   "activity_ko": "일부 멜레올라이드가 폐암 세포(A549·NCI-H520·H1299)에 IC50 4.0–48.8 μM의 중간 정도 억제(세포 실험)[13]",
+   "source": [
+    13,
+    14
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Inorganic arsenic (arsenite + arsenate) and organic arsenic species",
+   "compound_ko": "비소 화학종 6종(아비산·비산·MMA·DMA·아르세노콜린·아르세노베타인)",
+   "part": "버섯(식용버섯 8종 266개 시료 중 뽕나무버섯부치; 부위는 초록에 명시 없음)",
+   "content": "뽕나무버섯부치 무기비소 3.63 mg/kg (생·건 기준과 시료 산지는 초록에 명시되지 않음)[15]",
+   "method": "HPLC-ICP-MS/MS(음이온 교환 분리, 삼중 사중극자 ICP-MS 산소 반응 모드)",
+   "conditions": {
+    "instrument": "HPLC–유도결합플라즈마 삼중 사중극자 질량분석기(ICP-MS/MS)",
+    "column": "PRP-X100 음이온 교환 칼럼, 4.1 × 250 mm, 10 µm",
+    "mobile_phase": "20 mmol/L 탄산수소암모늄과 50 mmol/L 탄산암모늄",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "ICP-MS/MS 산소 반응 모드",
+    "injection": "",
+    "sample_prep": "초순수로 60 ℃에서 초음파 추출",
+    "standard": "",
+    "linearity": "0.5–100 µg/L",
+    "lod": "2.5–10 µg/kg (S/N = 3)",
+    "loq": "8–33 µg/kg (S/N = 10)",
+    "recovery": ""
+   },
+   "rationale": "버섯은 비소를 축적할 수 있고 독성이 큰 무기비소를 유기비소와 나누어 재야 하므로, 이 방법으로 이 종의 무기비소 함량이 비교적 높게 나왔다[15]. 초록만 보았고 전문 확인 못함 — 기울기·유속·회수율은 비워 둠[15].",
+   "source": [
+    15
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32464459/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 뽕나무버섯부치(Armillariella tabescens sing.)·뽕나무버섯자실체(Armillariella mellea)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Resolved phylogeny and biogeography of the root pathogen Armillaria and its gasteroid relative, Guyanagaster (PMC5264464 전문 BMC Evolutionary Biology, 2017; PMID 28122504)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28122504/",
+   "publisher": "BMC Evolutionary Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "The complete mitochondrial genome of the edible and phytopathogenic fungus Desarmillaria tabescens (PMC7510627 전문 Mitochondrial DNA Part B, 2018; PMID 33365409)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33365409/",
+   "publisher": "Mitochondrial DNA Part B (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Taming the Production of Bioluminescent Wood Using the White Rot Fungus Desarmillaria tabescens (PMC11600283 전문 Advanced Science, 2024; PMID 39263934)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39263934/",
+   "publisher": "Advanced Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Bioluminescence expression during the transition from mycelium to mushroom in three North American Armillaria and Desarmillaria species (초록 Fungal Biology, 2018; PMID 30342622)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30342622/",
+   "publisher": "Fungal Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Polysaccharides in fungi. XXIX. Structural features of two antitumor polysaccharides from the fruiting bodies of Armillariella tabescens (초록 Chemical & Pharmaceutical Bulletin, 1992; PMID 1423784)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1423784/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Polysaccharides in fungi. XXX. Antitumor and immunomodulating activities of two polysaccharides from the fruiting bodies of Armillariella tabescens (초록 Chemical & Pharmaceutical Bulletin, 1992; PMID 1423764)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1423764/",
+   "publisher": "Chemical & Pharmaceutical Bulletin (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Antigastritis effects of Armillariella tabescens (Scop.) Sing. and the identification of its anti-inflammatory metabolites (초록 Journal of Pharmacy and Pharmacology, 2018; PMID 29355943)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29355943/",
+   "publisher": "Journal of Pharmacy and Pharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Estrogenic Activity of Mycoestrogen (3β,5α,22E)-Ergost-22-en-3-ol via Estrogen Receptor α-Dependent Signaling Pathways in MCF-7 Cells (PMC8746416 전문 Molecules, 2021; PMID 35011267)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35011267/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Activity of armillarisin B in vitro against plant pathogenic fungi (초록 Zeitschrift für Naturforschung C, 2009; PMID 20158147)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20158147/",
+   "publisher": "Zeitschrift für Naturforschung C (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Studies on Armillariella tabescens. II. Isolation and structural determination of armillarisins (서지만, 초록 없음 Scientia Sinica, 1974; PMID 4477407)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4477407/",
+   "publisher": "Scientia Sinica (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "New secondary metabolites from bioactive extracts of the fungus Armillaria tabescens (초록 Natural Product Research, 2012; PMID 23140424)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23140424/",
+   "publisher": "Natural Product Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "A Combination of Genome Mining with an OSMAC Approach Facilitates the Discovery of and Contributions to the Biosynthesis of Melleolides from the Basidiomycete Armillaria tabescens (초록 Journal of Agricultural and Food Chemistry, 2022; PMID 36134616)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36134616/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Genomic and Transcriptomic Approaches Provide a Predictive Framework for Sesquiterpenes Biosynthesis in Desarmillaria tabescens CPCC 401429 (초록 Journal of Fungi, 2023; PMID 37108935)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37108935/",
+   "publisher": "Journal of Fungi (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Speciation analysis of arsenic in edible mushrooms by high-performance liquid chromatography hyphenated to inductively coupled plasma mass spectrometry (초록 Food Chemistry, 2020; PMID 32464459)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32464459/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Characterisation and immunostimulatory activity of an α-(1→6)-D-glucan from the cultured Armillariella tabescens mycelia (초록 Food Chemistry, 2008; PMID 26047435)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26047435/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Structural characterization and anti-hyperuricemic effect of a mannogalactan from Armillariella tabescens mycelium (초록 International Journal of Biological Macromolecules, 2024; PMID 39489252)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39489252/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Structural characteristics of a polysaccharide from Armillariella tabescens and its protective effect on colitis mice via regulating gut microbiota and intestinal barrier function (초록 International Journal of Biological Macromolecules, 2024; PMID 38992544)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38992544/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Antibacterial effect and mechanism against Escherichia coli of polysaccharides from Armillariella tabescens mycelia (초록 International Journal of Biological Macromolecules, 2022; PMID 35318079)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35318079/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Production, purification, and characterization of an intracellular aflatoxin-detoxifizyme from Armillariella tabescens (E-20) (초록 Food and Chemical Toxicology, 2001; PMID 11313112)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11313112/",
+   "publisher": "Food and Chemical Toxicology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Crystal structures of Aflatoxin-oxidase from Armillariella tabescens reveal a dual activity enzyme (초록 Biochemical and Biophysical Research Communications, 2017; PMID 29050944)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29050944/",
+   "publisher": "Biochemical and Biophysical Research Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Cloning, expression and characterization of mannanase from Armillariella tabescens EJLY2098 in Pichia pastoris (영문 초록 Chinese Journal of Biotechnology, 2009; PMID 19777823)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19777823/",
+   "publisher": "Chinese Journal of Biotechnology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "A study on intersterility groups of Armillaria in China (초록 Mycologia, 2007; PMID 17883035)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17883035/",
+   "publisher": "Mycologia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Identification and characterization of Armillaria tabescens from the southeastern United States (초록 Mycological Research, 2005; PMID 16279414)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16279414/",
+   "publisher": "Mycological Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Genetic evidence for somatic haploidization in developing fruit bodies of Armillaria tabescens (초록 Fungal Genetics and Biology, 2000; PMID 11017769)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11017769/",
+   "publisher": "Fungal Genetics and Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Protective effects of mycelia of Antrodia camphorata and Armillariella tabescens in submerged culture against ethanol-induced hepatic toxicity in rats (초록 Journal of Ethnopharmacology, 2006; PMID 17092673)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17092673/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Effects of Armillariella tabescens mycelia on the growth performance and intestinal immune response and microflora of early-weaned pigs (초록 Animal Science Journal, 2017; PMID 28183153)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28183153/",
+   "publisher": "Animal Science Journal (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Basidiospore extracts: evidence for common antigenic/allergenic determinants (초록 International Archives of Allergy and Applied Immunology, 1988; PMID 2448249)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2448249/",
+   "publisher": "International Archives of Allergy and Applied Immunology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Comparison of the interleukin-1β-inducing potency of allergenic spores from higher fungi (basidiomycetes) in a cryopreserved human whole blood system (초록 International Archives of Allergy and Immunology, 2013; PMID 24356469)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24356469/",
+   "publisher": "International Archives of Allergy and Immunology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Polysaccharides from Armillariella tabescens mycelia ameliorate insulin resistance in type 2 diabetic mice (초록 Food & Function, 2020; PMID 33057558)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33057558/",
+   "publisher": "Food & Function (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Armillariella tabescens-derived polysaccharides alleviated D-Gal-induced neuroinflammation and cognitive injury through enterocerebral axis and activation of keap-1/Nrf2 pathway (초록 International Journal of Biological Macromolecules, 2024; PMID 38866276)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38866276/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "serratula-coronata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 67,
+ "checked_items": 54,
+ "verified": 107,
+ "fixed": 11,
+ "removed": 0,
+ "unverifiable": 3,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "아래 함량은 지상부·즙·추출물 기준이다[2, 3, 5]",
+   "after": "아래 함량은 지상부·즙·추출물 기준이거나 부위가 밝혀지지 않은 값이다[2, 3, 5]",
+   "why": "[5] 초록은 2.3% 값의 부위를 밝히지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "가금 사육용 생장 촉진제, 농업 곤충학용 제제, 식품 보충용 제제를 만들었다고",
+   "after": "가금 사육용·농업 곤충학용·식품 보충용 생물자극 제제(biostimulator)를 만들었다고",
+   "why": "[6] 원문 표현은 preparations-biostimulators; 생장 촉진제로 단정하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "산비장이로 만든 표준화 제제를 쥐 심부전 모델에 준 연구도 있다[27]",
+   "after": "산비장이에서 얻은 엑디스테론 제제를 쥐 만성 심부전 모델에 준 연구도 있다(동물 실험)[27]",
+   "why": "[27] 초록에 '표준화' 표현 없음; 만성 심부전 모델"
+  },
+  {
+   "where": "sections.biology",
+   "before": "헝가리 연구에서 산비장이 지상부의 20-하이드록시엑디손은 4월에 2.3%로 높았고",
+   "after": "헝가리 연구에서 산비장이의 20-하이드록시엑디손은 4월에 2.3%로 높았고(부위·건조 기준은 초록에 없음)",
+   "why": "[5] 초록은 부위·기준을 적지 않음 — 지상부 값으로 단정하지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "혈장 노르아드레날린이 낮아졌고 다른 생화학 지표는 대조군과 유의한 차이가 없었다[11]",
+   "after": "혈장 노르아드레날린이 낮아졌고 고용량군에서 코르티코스테론/노르아드레날린 비가 달랐으며, 그 밖의 생화학 지표와 흉선·심장·뇌 세포의 DNA 손상·아폽토시스 지표는 대조군과 유의한 차이가 없었다[11]",
+   "why": "[11] 초록: 고용량군 코르티코스테론/노르에피네프린 비 유의 차이, 아폽토시스 차이 없음"
+  },
+  {
+   "where": "compounds[20-Hydroxyecdysone].content_text",
+   "before": "지상부 4월 2.3%(TLC, 건조 여부는 초록에 없음)[5]; 우크라이나산 약 2%[6]",
+   "after": "4월 2.3%(TLC, 부위·건조 기준은 초록에 없음)[5]; 우크라이나산 약 2%(부위·기준은 초록에 없음)[6]",
+   "why": "[5]·[6] 초록은 부위를 밝히지 않음"
+  },
+  {
+   "where": "compounds[20-Hydroxyecdysone].part",
+   "before": "지상부(herb)·즙·추출물",
+   "after": "지상부(herb)·즙·추출물(일부 값은 부위 미상)",
+   "why": "[5]·[6] 부위 미상"
+  },
+  {
+   "where": "compounds[Quercetin 3-methyl ether].activity_ko",
+   "before": "감염 생쥐 폐 바이러스 RNA 감소(동물 실험)",
+   "after": "감염 생쥐에 복강 투여 시 폐 바이러스 RNA·염증 사이토카인 감소(동물 실험)",
+   "why": "[9] 전문: 생쥐 투여는 복강 주사(먹인 것 아님)"
+  },
+  {
+   "where": "compounds[Lignin].part",
+   "before": "지상부(부위는 초록에 명시 없음)",
+   "after": "부위는 초록에 명시 없음",
+   "why": "[17] 초록에 부위 없음 — 지상부로 단정하지 않음"
+  },
+  {
+   "where": "compounds[Calcium].part",
+   "before": "지상부",
+   "after": "부위는 초록에 없음",
+   "why": "[5] 초록에 부위 없음"
+  },
+  {
+   "where": "assays[3].part",
+   "before": "지상부(계절별)",
+   "after": "부위는 초록에 없음(계절별)",
+   "why": "[5] 초록에 부위 없음"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품원료 목록은 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 의 산비장이잎·한라산비장이잎(f. alpina)·Saw-wort잎(S. tinctoria)·국화수리취잎 행과 대조해 일치(사용가능, 사용가능부위: 잎, 별명·영문명 일치)",
+  "[2]·[3]·[4]·[9] 은 PubMed PMC 전문으로 분석 조건·수치(22.89%, LOD/LOQ, 18,928 μg/g dw, 퀘르세틴·루틴 mg/g, 200 g→16.6 g→81.3 mg, IC50 4.45 µg/mL)를 대조해 일치",
+  "[3] PMC 전문에서 학명이 빠져 'Seratula herb' 로만 보임 — 같은 연구진 [20] 초록이 Serratula coronata 로 적어 원 서술 유지",
+  "[5] 헝가리어 논문으로 영문 초록만 확인 — 2.3% 값의 부위·건조 기준은 확인 불가로 표시",
+  "[17] 러시아어 논문, 초록만 확인(부위·함량 없음)",
+  "아주가스테론 C 개별 함량은 [2] 표가 전문 텍스트에 없어 확인 불가(원 서술도 그렇게 적음)",
+  "S. tinctoria·S. wolffii·S. strangulata 자료는 related_species 절에만 있고 산비장이 성분·함량으로 쓰이지 않음을 확인; 크림 연구 [2]·[15] 는 바르는 자료로만 서술되어 먹는 근거로 쓰이지 않음",
+  "WebSearch 사용 0회"
+ ]
+}

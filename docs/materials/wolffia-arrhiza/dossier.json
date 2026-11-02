@@ -1,0 +1,685 @@
+{
+ "slug": "wolffia-arrhiza",
+ "name_ko": "분개구리밥",
+ "name_en": "Least duckweed",
+ "scientific_name": "Wolffia arrhiza (L.) Horkel ex Wimm.",
+ "aliases": [
+  "분개구리밥잎",
+  "Least duckweed",
+  "Wolffia arrhiza"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "개요",
+   "body": "분개구리밥(Wolffia arrhiza)은 뿌리와 줄기가 없는 지름 1 mm 안팎의 둥근 엽상체로 물 위에 떠서 사는 개구리밥아과(Lemnoideae) 식물이며, 계통상 천남성과(Araceae)에 속한다[4]. 식약처 「식품원료 목록」에는 원료명 '분개구리밥잎', 영명 Least duckweed, 사용 조건 '사용가능부위 : 잎', 상태 '사용가능'으로 올라 있다[1]. 이 식물에는 진짜 잎이 따로 없으므로 목록의 '잎'은 실제로는 물에 뜬 엽상체(몸 전체)를 가리키는 것으로 읽어야 하며, 목록 자체에는 이에 대한 설명이 없다[1, 4]. 영양 엽상체는 건물 기준 단백질이 약 40%로 보고되었고[5], 독일 연구진은 분개구리밥 3개 계통을 포함한 분개구리밥속 11종의 아미노산·지방산·무기질·카로티노이드를 같은 조건에서 비교했다[2]. 태국산 시료를 건조한 분말에서는 단백질 41.81%, 지방 1.99%, 회분 22.06%가 보고되었다[3]. 유럽연합은 2021년 분개구리밥과 W. globosa의 생엽상체를 제3국 전통식품으로 허가했다고 알려져 있으나, 규정 원문은 열어 보지 못했다[7]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "분개구리밥을 값싼 단백질원으로 보자는 제안은 1971년 태국 자료를 바탕으로 한 Nature 단신에서 이미 나왔다[6]. 분개구리밥속 식물은 태국 채소 시장에서 팔리며, 신선한 엽상체로 샐러드·오믈렛·채소 커리 등을 만든다고 소개되었다[2]. 유럽연합의 전통식품 허가 과정에서는 라오스·미얀마·태국에서 안전하게 먹어 온 이력이 근거로 제시되었다고 하나, 이는 웹 검색 요약으로만 확인했다[7]. 2001년 우주용 생물재생 생명유지장치(C.E.B.A.S.) 연구는 분개구리밥을 동남아시아에서 채소로 기르는 수생식물로 소개하고, 이를 바탕으로 한 개방·폐쇄 수생 식량 생산 모듈과 국제우주정거장용 소형 모듈 최적화에 썼다[18]. 2010년대 이후에는 가금 사료[11]·폐수 정화[12]·재조합 단백질 생산[16] 연구가 이어졌고, 2020년대에는 건조 분말과 발효 음료 같은 식품 가공 연구가 늘었다[3, 13, 15]. 국내에서 이 종을 전통적으로 먹었다는 기록은 확인하지 못했다."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "분개구리밥속은 속씨식물 가운데 가장 작은 식물로, 줄기·뿌리 없이 둥근 엽상체만 있고 윗면에 기공이 나란히 있다[4]. 꽃은 드물게 엽상체 윗면 구멍에서 수술 1개·암술 1개로 피며, 주로 어미 엽상체의 주머니에서 새 엽상체가 돋아 떨어져 나가는 영양번식으로 늘어난다[4]. 속 수준에서 20–30 °C, pH 5.0–7.0의 좋은 조건이면 2–3일 만에 개체 수가 두 배가 된다고 정리되어 있다[4]. 같은 배지에서 기른 분개구리밥 계통의 배가 시간은 케냐 계통 1.6 ± 0.1일, 브라질 계통 2.3 ± 0.0일, 독일 계통 1.8 ± 0.0일이었다[2]. 생엽상체는 수분이 약 95%(습량 기준)로 쉽게 상한다[13]. 영양이 부족하고 밀도가 높으면 휴면형인 겨울눈(turion)을 만들며, 이 겨울눈은 건물 기준 전분 함량이 영양 엽상체의 단백질 함량(약 40%)과 비슷하다고 보고되었다[5]. 분리한 엽록체에는 질산환원효소가 없었고, 아질산만 빛 의존적 전자전달의 전자수용체로 써서 질소 동화 연구 재료로도 쓰였다[27]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동",
+   "body": "엽록체 전장 유전체로 그린 계통수에서 분개구리밥은 W. globosa와 자매종으로 묶였다[4]. 분개구리밥속은 11종으로 이루어지며 형태만으로 종을 가리기 매우 어려워, 영양 비교 연구에서는 모든 계통을 엽록체 바코드로 다시 동정했다[2]. 유럽연합 전통식품 허가도 분개구리밥과 W. globosa 생엽상체를 함께 다루며, 표시명은 쓰인 종에 따라 둘 다 또는 한 종 이름으로 적게 했다고 요약되어 있다[7]. 따라서 W. globosa로 동정된 시료의 성분·안전성 값을 분개구리밥 값으로 옮겨 쓰면 안 되며, 이 문서의 수치는 분개구리밥으로 적힌 시료에서 나온 것만 골랐다[2, 3]. 다만 태국 식품 연구 시료가 분자 바코드로 동정되었는지는 본문에서 확인하지 못했다[3]. 같은 개구리밥 무리인 부평초(Spirodela polyrhiza)는 식약처 「식품원료 목록」에서 '사용불가'로 분류되어 분개구리밥잎과 지위가 다르다[1]. 좀개구리밥(Lemna minor)과 함께 시험한 연구에서 분개구리밥은 구리 나노입자에 가장 민감했고[10], 신종 오염물질 제거율은 7일에 88–98%로 좀개구리밥(87–97%)과 비슷했다[20]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배·채취",
+   "body": "독일 연구에서는 무균 상태로 유지한 계통을 철·EDTA를 늘린 변형 Steinberg 배지(pH 5.5)로 15 L 플라스틱 판에서 2–3주 길러 분석했다[2]. 태국 연구는 수직 판·교반 원통·옥외 시멘트 수조 등 14가지 조건을 비교해, 전기전도도 0.5 mS/cm 수경 양액을 쓴 옥외 시멘트 수조에서 단백질이 가장 높았다고 보고했다[3]. 일본 연구에서 영양 엽상체는 건물 기준 질소 6–7%, 인 1–2%를 담았고, 연속 흐름 조건의 제거 속도는 질소 126 mg/m²/일, 인 38 mg/m²/일로 추정되었다[5]. 메추라기 농장 폐수 처리에서는 폐수 1 L당 분개구리밥 12.0 g, 30일 처리가 생육과 수질 개선에 가장 좋았다[12]. 빛 노출 시간·pH·식물량을 최적화하면 벤조트리아졸류 같은 오염물질도 14일에 92–100% 줄었다(4-메틸 벤조트리아졸 제외)[25]. 남아프리카 연구는 분개구리밥 잔사를 흙에 넣으면 무기태 질소가 빨리 늘고 추출 인은 줄었다고 보고했다[26]. 이처럼 물속 물질을 잘 빨아들이므로 식용 재배에서는 물 환경 관리가 안전성과 직결되며, 유럽연합 허가의 근거가 된 유럽식품안전청 기술 보고서도 실내 수직 재배 조건에서 기른 생엽상체를 대상으로 했다고 요약된다(웹 검색 요약)[7]. 국내 재배 면적·생산량 통계는 확인하지 못했다."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용",
+   "body": "생엽상체는 수분이 많아 저장성이 짧기 때문에 건조가 기본 가공이다[13]. 태국 연구는 열풍 건조 조건을 비교해 6시간 건조(50·60·70 °C)에서 수분활성도가 0.374–0.382로 가장 낮았고, 그 가운데 50 °C·6시간이 총페놀·플라보노이드·엽록소 보존에 가장 알맞다고 보고했다[3]. 전자레인지 건조에서는 720·900 W 처리가 450 W보다 동결건조 시료에 더 가까운 품질을 보였고, 900 W가 에너지 효율이 가장 좋았다[13]. 건조 분말의 수분 흡착 등온선은 Peleg 모델에 가장 잘 맞았고 단분자층 수분은 건량 기준 7.43–8.86%였다[14]. 건조 분개구리밥으로 21일 발효한 콤부차는 거르지 않은 쪽이 아세트산 2.35%, 알코올 1.31%, 총페놀 818.88 mg/L로 거른 쪽보다 높았다[15]. 사료로는 메추라기 사료의 대두박을 16.0%까지 분개구리밥 가루로 바꿔도 산란 성적이 유지되었으나 20.0%에서는 떨어졌다[11]. 폐수 정화에 쓴 분개구리밥을 메기 사료로 그대로 쓰면 영양이 부족해 배합 조정이 필요했다[23]. 국내 건강기능식품 원료 생산실적에서 이 원료 품목은 확인하지 못했다."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체·육종",
+   "body": "우간다에서 채집된 분개구리밥 계통(미국 개구리밥 보존 기관 보존 번호 7193)의 엽록체 유전체는 169,602 bp, GC 35.78%의 전형적 4분 구조였다[4]. 큰 단일 복사 구역 92,172 bp, 작은 단일 복사 구역 13,686 bp, 역위 반복 구역 31,872 bp 2개로 이루어지며 단백질 암호 유전자 86개, tRNA 37개, rRNA 8개 등 131개 유전자가 있었다[4]. 개구리밥아과 7종 가운데 엽록체 유전체가 가장 길었는데, 일부 유전자 인트론이 두 배 이상 길어진 것이 주된 원인으로 해석되었다[4]. 엽록체 rpS16 인트론 분석에서도 분개구리밥은 삽입·결실 변이가 가장 많은 종 가운데 하나였다[24]. 형질전환 연구에서는 사람 과립구 집락자극인자를 생체중 1 kg당 최대 35.5 mg(총 가용성 단백질의 0.194%)[16], 히루딘을 생체중 1 g당 775.5 ± 111.9 ng[17] 만들어 재조합 단백질 생산 숙주로 검토되었다. 핵 유전체 크기·염색체 수는 이 종에 대해 확인하지 못했다."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」상 분개구리밥잎은 잎(엽상체)에 한해 '사용가능'이며, 이 종에 대한 별도 알레르기·잔류 기준 정보는 확인하지 못했다[1]. 분개구리밥속은 다른 개구리밥 무리와 달리 옥살산이 칼슘 옥살산 결정 형태로 들어 있지 않다는 점이 식용상의 장점으로 꼽힌다[2]. 가장 큰 걱정은 재배 물에서 오는 오염으로, 분개구리밥은 납·카드뮴을 농도와 노출 시간에 따라 몸에 쌓았고 카드뮴이 납보다 더 해로웠다[8]. 카드뮴 1–100 µM 노출 실험에서도 생장과 색소·단백질이 줄었다[21]. 비소는 pH 7 아래에서 많은 아비산 형태가 더 해로웠고, 0.1 mol/m³ 아래 농도에서도 24시간 노출로 광합성이 90% 넘게 억제되었다[9]. 남조류 독소 마이크로시스틴-LR 15 µg/mL에서는 5일 만에 엽상체 수 증가가 줄었다[22]. 같은 논문 초록의 축적량(생체중 1 mg당 0.288 ng)은 좀개구리밥 값이며, 분개구리밥 축적량은 초록에 제시되지 않아 이 종 값으로 쓰지 않았다[22]. 무균 배양한 분개구리밥 3개 계통의 카드뮴은 8.7–13, 납은 52–100, 수은은 13–17, 비소는 26–85(표 8 머리말에 단위가 없으나, 본문의 카드뮴 범위 0.009–0.59 mg/kg 동결건조중량과 맞추면 표 값은 µg/kg 동결건조중량으로 읽힌다)였다[2]. 유럽연합 규정은 중금속·마이크로시스틴·일부 미량원소의 최대 기준을 사양에 넣었다고 요약되어 있으나 수치는 원문으로 확인하지 못했다[7]. 사람 대상 임상시험은 이 종에서 확인하지 못했다."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Protein",
+   "name_ko": "단백질",
+   "class": "단백질",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "영양 엽상체 건물 기준 약 40%[5]; 태국산 건조 분말(수분 3.29%) 41.81 ± 3.40%(뷰렛법; 같은 시료 켈달법 54.08%)[3]",
+   "activity_ko": "분개구리밥 독일 계통(9528)은 라이신이 WHO 학령전 아동 기준 대비 0.84로 약간 제한 아미노산; 루신 7.1–8.3 g/100 g 단백질(3개 계통)[2]",
+   "source": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "name": "Starch",
+   "name_ko": "전분",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "겨울눈(휴면 엽상체)",
+   "content_text": "겨울눈 건물 기준 약 40%(영양 엽상체 단백질과 비슷)[5]; 분개구리밥속 11종 동결건조물 10–15%(종별 수치는 그림으로만 제시)[2]",
+   "activity_ko": "영양 부족·고밀도 조건에서 겨울눈 형성으로 전분 생산 6 g/m²/일 추정[5]",
+   "source": [
+    2,
+    5
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "α-리놀렌산(n-3)",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "엽상체(지질)",
+   "content_text": "총 지방산 메틸에스터 중 케냐 계통 37.8%, 브라질 계통 32.5%, 독일 계통 42.9%[2]",
+   "activity_ko": "세 계통 모두 n-6/n-3 비가 0.58–0.89로 1 미만[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산(n-6)",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "엽상체(지질)",
+   "content_text": "총 지방산 메틸에스터 중 25.9%(케냐)·28.7%(브라질)·24.6%(독일)[2]",
+   "activity_ko": "다가불포화지방산 합계 61.4–67.8%[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "엽상체(지질)",
+   "content_text": "총 지방산 메틸에스터 중 27.7%(케냐)·30.8%(브라질)·24.6%(독일)[2]",
+   "activity_ko": "포화지방산 합계 29.4–35.4%의 대부분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Lutein",
+   "name_ko": "루테인",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "70.2(케냐)·62.0(브라질)·51.8(독일) mg/100 g 동결건조중량[2]",
+   "activity_ko": "분개구리밥속 시료에서 가장 많은 카로티노이드[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "beta-Carotene",
+   "name_ko": "β-카로틴",
+   "class": "카로티노이드",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "표의 첫 β-카로틴 이성질체 열 23.8·27.3·17.2 mg/100 g 동결건조중량(이성질체 표기는 추출본에서 깨져 확인 못함)[2]",
+   "activity_ko": "루테인 다음으로 많은 카로티노이드[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "alpha-Tocopherol",
+   "name_ko": "α-토코페롤",
+   "class": "비타민 E",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "12.8(케냐)·3.3(브라질)·7.3(독일) mg/100 g 동결건조중량[2]",
+   "activity_ko": "케냐 계통 값은 조사한 16개 계통 중 가장 높은 축(대부분 5 mg/100 g 미만)[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "beta-Sitosterol",
+   "name_ko": "β-시토스테롤",
+   "class": "피토스테롤",
+   "role": "bioactive",
+   "part": "엽상체(지질)",
+   "content_text": "총 스테롤의 84%(케냐)·73%(브라질)·77%(독일); 총 스테롤은 총 지방의 5.2·4.3·4.6%[2]",
+   "activity_ko": "주 스테롤; 캄페스테롤 8–11%, 스티그마스테롤은 케냐 계통에서 검출 안 됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "p-Coumaric acid",
+   "name_ko": "p-쿠마르산",
+   "class": "하이드록시신남산",
+   "role": "bioactive",
+   "part": "엽상체(건조 분말)",
+   "content_text": "시료 6·10·12·14(14는 시판품) 11.95·76.72·54.77·78.59 mg/g 원료로 보고되었으나, 같은 논문의 총페놀이 51.7–58.3 µg GAE/g 건조중량이어서 단위·자릿수가 서로 맞지 않는 이상값이다(원문 값 그대로 옮기되 함량 근거로 쓰지 않음)[3]",
+   "activity_ko": "원문은 정량한 페놀산 가운데 가장 많다고 했으나 수치 단위 신뢰성이 낮음[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Protocatechuic acid",
+   "name_ko": "프로토카테큐산",
+   "class": "하이드록시벤조산",
+   "role": "bioactive",
+   "part": "엽상체(건조 분말)",
+   "content_text": "시료 4종 1.94·0.41·1.38·1.20 mg/g 원료[3]",
+   "activity_ko": "p-쿠마르산과 함께 주요 페놀산으로 보고[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Chlorophyll",
+   "name_ko": "엽록소(총)",
+   "class": "광합성 색소",
+   "role": "bioactive",
+   "part": "엽상체(건조 분말)",
+   "content_text": "50 °C·6시간 건조 분말 22.91 ± 0.15 mg/g 건조중량(건조 조건별 22.325–23.975 mg/g)[3]",
+   "activity_ko": "70 °C 건조에서 줄어드는 경향[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Apiose",
+   "name_ko": "아피오스",
+   "class": "분지 오탄당",
+   "role": "bioactive",
+   "part": "엽상체(세포벽)",
+   "content_text": "분개구리밥은 좀개구리밥과 함께 아피오스가 특히 많은 재료로 보고(정량값은 좀개구리밥 홀로셀룰로스 약 4%만 제시)[19]",
+   "activity_ko": "세포벽(홀로셀룰로스)을 이루는 가지 달린 오탄당[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Potassium",
+   "name_ko": "칼륨",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "88.1(케냐)·62.9(브라질)·93.7(독일) g/kg 동결건조중량[2]",
+   "activity_ko": "분개구리밥속은 칼륨이 많고 나트륨(0.18–0.38 g/kg)이 적음[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "엽상체",
+   "content_text": "0.16(케냐)·0.29(브라질)·0.20(독일)(표 7 머리말은 mg/kg 동결건조중량이나 본문은 철을 g/kg 동결건조중량 0.11–0.4로 기술)[2]",
+   "activity_ko": "배지가 같아도 계통에 따라 함량이 달라 유전적 영향이 있다고 해석[2]",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "분개구리밥 건조 분말 — 태국 옥외 시멘트 수조(수경 양액 EC 0.5 mS/cm) 재배 시료 12, 60 °C 6시간 열풍 건조",
+   "basis": "건조 분말 100 g(원문 %)",
+   "items": [
+    {
+     "name": "단백질(뷰렛법)",
+     "value": 41.81,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 1.99,
+     "unit": "g"
+    },
+    {
+     "name": "조섬유",
+     "value": 4.46,
+     "unit": "g"
+    },
+    {
+     "name": "수분",
+     "value": 3.29,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 22.06,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 14.12,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    3
+   ]
+  },
+  {
+   "form": "분개구리밥 독일 계통(9528) 동결건조물 — 무균 실험실 배양(변형 Steinberg 배지)",
+   "basis": "동결건조중량 1 kg",
+   "items": [
+    {
+     "name": "칼슘",
+     "value": 19.8,
+     "unit": "g"
+    },
+    {
+     "name": "칼륨",
+     "value": 93.7,
+     "unit": "g"
+    },
+    {
+     "name": "마그네슘",
+     "value": 2.66,
+     "unit": "g"
+    },
+    {
+     "name": "나트륨",
+     "value": 0.34,
+     "unit": "g"
+    },
+    {
+     "name": "인",
+     "value": 16.7,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 224,
+     "unit": "g"
+    },
+    {
+     "name": "망간",
+     "value": 144,
+     "unit": "mg"
+    },
+    {
+     "name": "구리",
+     "value": 2.89,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 40.7,
+     "unit": "mg"
+    },
+    {
+     "name": "요오드",
+     "value": 0.25,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    2
+   ]
+  },
+  {
+   "form": "분개구리밥 케냐 계통(8618) 동결건조물 — 무균 실험실 배양(변형 Steinberg 배지)",
+   "basis": "동결건조중량 1 kg",
+   "items": [
+    {
+     "name": "칼슘",
+     "value": 25.7,
+     "unit": "g"
+    },
+    {
+     "name": "칼륨",
+     "value": 88.1,
+     "unit": "g"
+    },
+    {
+     "name": "마그네슘",
+     "value": 2.39,
+     "unit": "g"
+    },
+    {
+     "name": "나트륨",
+     "value": 0.18,
+     "unit": "g"
+    },
+    {
+     "name": "인",
+     "value": 18.8,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 229,
+     "unit": "g"
+    },
+    {
+     "name": "망간",
+     "value": 78.4,
+     "unit": "mg"
+    },
+    {
+     "name": "구리",
+     "value": 3.31,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 50.0,
+     "unit": "mg"
+    },
+    {
+     "name": "요오드",
+     "value": 0.31,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    2
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "p-Coumaric acid",
+   "compound_ko": "p-쿠마르산(페놀산 7종 동시 정량)",
+   "part": "엽상체(건조 분말)",
+   "content": "시료 4종 11.95–78.59 mg/g 원료(원문 단위 그대로; 같은 논문 총페놀 µg GAE/g 값과 맞지 않는 이상값)[3]",
+   "method": "HPLC-PDA(역상)",
+   "conditions": {
+    "instrument": "",
+    "column": "역상 C18, 4.6 mm I.D. × 250 mm, 가드 칼럼 사용(제조사·입자 크기는 전문 추출본에서 깨져 확인 못함)",
+    "mobile_phase": "A: 물:아세트산 98:2(v/v), B: 아세토니트릴",
+    "gradient": "A/B 99:1 → 70:30(20분); 이후 단계 시간은 추출본에서 확인 못함",
+    "flow": "",
+    "temp": "35 °C",
+    "detection": "광다이오드배열 검출기 200–500 nm",
+    "injection": "",
+    "sample_prep": "60 °C 열풍 6시간 건조 → 분쇄 → 100 mesh(149 µm) 체; 추출 용매는 확인 못함",
+    "standard": "카페산·p-쿠마르산·페룰산·갈산·프로토카테큐산·로즈마린산·시나프산; 검량 1–500 µg/mL",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "분개구리밥 건조 분말에서 정량한 페놀산 가운데 가장 많다고 보고된 성분이다[3]. 다만 mg/g 값은 같은 논문의 총페놀(51.7–58.3 µg GAE/g)보다 약 1000배 커서 단위 오류 가능성이 높으므로 함량 근거로 쓰지 말고 분석 조건 참고용으로만 본다[3]. 유속·검출한계·회수율은 전문에서 확인하지 못했다[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10558979/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "beta-Sitosterol",
+   "compound_ko": "β-시토스테롤(스테롤·피톨 동시 분석)",
+   "part": "엽상체(동결건조물)",
+   "content": "총 스테롤의 73–84%(분개구리밥 3개 계통)[2]",
+   "method": "GC-MS",
+   "conditions": {
+    "instrument": "Thermo Scientific Trace GC/Trace DSQ MS, CTC PAL 자동시료주입기",
+    "column": "HP5-MS UI, 30 m × 0.25 mm, 0.25 µm (Agilent Technologies)",
+    "mobile_phase": "운반기체 유속 프로그램: 1 mL/min → 0.1분 뒤 500 mL/min/min로 10 mL/min(1분 유지) → 5 mL/min/min로 4 mL/min(2분) → 1 mL/min/min로 1 mL/min",
+    "gradient": "오븐 55 °C 1분 → 25 °C/min로 255 °C → 1.5 °C/min로 283 °C → 15 °C/min로 300 °C(8분 유지)",
+    "flow": "",
+    "temp": "주입구 250 °C, 전송관 280 °C",
+    "detection": "MS 주사 m/z 50–650, 용매 지연 7분",
+    "injection": "1 µL, 비분할",
+    "sample_prep": "동결건조·분쇄 → 비비누화물 추출 → 실릴화",
+    "standard": "내부표준 5α-콜레스탄(총 스테롤); 피톨류는 외부 검량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "분개구리밥 지질의 주 스테롤이며, 같은 배지에서 길러도 계통에 따라 스테롤 조성이 달랐다[2]. 검출·정량한계와 회수율은 전문에 없다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6215809/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "alpha-Linolenic acid",
+   "compound_ko": "α-리놀렌산(지방산 메틸에스터 분석)",
+   "part": "엽상체(동결건조물)",
+   "content": "총 지방산 메틸에스터의 32.5–42.9%(분개구리밥 3개 계통)[2]",
+   "method": "GC-MS(SIM)",
+   "conditions": {
+    "instrument": "Shimadzu 2010 GC/MS",
+    "column": "BPX70, 10 m × 0.10 mm, 0.20 µm (SGE)",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "오븐 50 °C → 40 °C/min로 155 °C → 6 °C/min로 210 °C → 15 °C/min로 250 °C",
+    "flow": "",
+    "temp": "",
+    "detection": "주사 모드로 동정, 선택이온(포화 m/z 74, 단일불포화 55, 이중불포화 67, 다가불포화 79)으로 정량",
+    "injection": "",
+    "sample_prep": "동결건조물 → 아세틸클로라이드·메탄올로 메틸에스터화 → 헥산 추출",
+    "standard": "내부표준 C21:0(천연에 없는 지방산)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "분개구리밥 지방의 최대 성분인 n-3 지방산으로, n-6/n-3 비가 1 미만인 근거가 된다[2]. 검출·정량한계와 회수율은 전문에 없다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6215809/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 분개구리밥잎(Wolffia arrhiza)·부평초(Spirodela polyrhiza) 행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Nutritional Value of the Duckweed Species of the Genus Wolffia (Lemnaceae) as Human Food (2018) — 전문(PMC) 표 1–10 확인",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6215809/",
+   "publisher": "Frontiers in Chemistry 6:483",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Optimum aquaculture and drying conditions for Wolffia arrhiza (L.) Wimm. (2023) — 전문(PMC) 확인",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10558979/",
+   "publisher": "Heliyon 9:e19730",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Characterization of the complete chloroplast genome of Wolffia arrhiza and comparative genomic analysis with relative Wolffia species (2024) — 전문(PMC) 확인",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10928178/",
+   "publisher": "Scientific Reports 14",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Nutrient removal and starch production through cultivation of Wolffia arrhiza (1999) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16232450/",
+   "publisher": "Journal of Bioscience and Bioengineering 87(2):194-198",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Wolffia arrhiza as a possible source of inexpensive protein (1971) — PubMed 서지·MeSH만 확인(초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/4937216/",
+   "publisher": "Nature 232:495",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Commission Implementing Regulation (EU) 2021/2191 — fresh plants of Wolffia arrhiza and/or Wolffia globosa as a traditional food from a third country (원문 열람 못함; 웹 검색 요약으로만 허가·규격 항목(중금속·마이크로시스틴·구리·몰리브덴·아연·붕소·망간 최대치, 총균수) 확인, 수치는 미확인)",
+   "url": "https://eur-lex.europa.eu/eli/reg_impl/2021/2191/oj/eng",
+   "publisher": "European Commission (EUR-Lex)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Changes in growth, biochemical components, and antioxidant activity in aquatic plant Wolffia arrhiza (Lemnaceae) exposed to cadmium and lead (2009) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19834638/",
+   "publisher": "Archives of Environmental Contamination and Toxicology 58(3):594-604",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Arsenic toxicity in the water weed Wolffia arrhiza measured using Pulse Amplitude Modulation Fluorometry (PAM) measurements of photosynthesis (2016) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27318559/",
+   "publisher": "Ecotoxicology and Environmental Safety 132:178-185",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Comparative toxicity of copper nanoparticles across three Lemnaceae species (2015) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25765374/",
+   "publisher": "Science of the Total Environment 518-519:217-224",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Dietary Wolffia arrhiza meal as a substitute for soybean meal: its effects on the productive performance and egg quality of laying Japanese quails (2012) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22297423/",
+   "publisher": "Tropical Animal Health and Production 44(7):1479-1486",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Nutrient removal of effluent from quail farm through cultivation of Wolffia arrhiza (2011) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21669519/",
+   "publisher": "Bioresource Technology 102(16):7388-7392",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Structural change kinetics, drying characteristics, antioxidant properties ... of dried duckweed (Wolffia arrhiza (L.) Wimm) affected by different levels of microwave power (2023) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36788441/",
+   "publisher": "Journal of the Science of Food and Agriculture",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "New insights into moisture sorption characteristics, nutritional composition, and antioxidant and morphological properties of dried duckweed [Wolffia arrhiza (L.) Wimm] (2021) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34601730/",
+   "publisher": "Journal of the Science of Food and Agriculture",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Comparison of Chemical Properties, Antioxidant Activity and Microbial Count in Filtered and Non-Filtered Dry Wolffia arrhiza Kombucha (2025) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40329752/",
+   "publisher": "Pakistan Journal of Biological Sciences 28:229-235",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Development of Wolffia arrhiza as a Producer for Recombinant Human Granulocyte Colony-Stimulating Factor (2018) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30140670/",
+   "publisher": "Frontiers in Chemistry 6:304",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Wolffia arrhiza as a promising producer of recombinant hirudin (2021) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33927997/",
+   "publisher": "3 Biotech 11(5):209",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Aquatic modules for bioregenerative life support systems based on the C.E.B.A.S. biotechnology (2001) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11858270/",
+   "publisher": "Acta Astronautica 48(5-12):287-297",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "The occurrence of apiose in Lemna (duckweed) and other angiosperms (1965) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14340070/",
+   "publisher": "Biochemical Journal 94(3):768-772",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Removal of contaminants of emerging concern by Wolffia arrhiza and Lemna minor depending on the process conditions, pollutants concentration, and matrix type (2024) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38987638/",
+   "publisher": "Scientific Reports 14",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Melatonin Involved in Protective Effects against Cadmium Stress in Wolffia arrhiza (2023) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36674694/",
+   "publisher": "International Journal of Molecular Sciences 24(2):1178",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Bioaccumulation and harmful effects of microcystin-LR in the aquatic plants Lemna minor and Wolffia arrhiza and the filamentous alga Chladophora fracta (2005) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15922800/",
+   "publisher": "Ecotoxicology and Environmental Safety 61(3):345-352",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Reclaiming Wolffia arrhiza as fish feed for the phytoremediation of aquaculture effluent (2025) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40253998/",
+   "publisher": "Journal of Environmental Management",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "[Analysis of chloroplast rpS16 intron sequences in Lemnaceae] (2009) — 영문 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19334524/",
+   "publisher": "Molekuliarnaia Biologiia 43(1):36-43",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Mechanisms, toxicity and optimal conditions - research on the removal of benzotriazoles from water using Wolffia arrhiza (2022) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35882328/",
+   "publisher": "Science of the Total Environment",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Decomposition of Wolffia arrhiza residues rapidly increases mineral nitrogen and decreases extractable phosphorus in acidic soils (2018) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30097725/",
+   "publisher": "Environmental Monitoring and Assessment 190(9):510",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Nitrate and Nitrite Reduction by Wolffia arrhiza (1971) — 초록",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16657592/",
+   "publisher": "Plant Physiology 47(2):189-191",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

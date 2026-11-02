@@ -1,0 +1,582 @@
+{
+ "slug": "serratula-coronata",
+ "name_ko": "산비장이",
+ "name_en": "Mountain coronate sawwort",
+ "scientific_name": "Serratula coronata L. (식품원료 목록 학명: S. coronata subsp. insularis Kitamura)",
+ "aliases": [
+  "산비장이잎",
+  "산비쟁이",
+  "조선마화두",
+  "큰산나물",
+  "Serratula coronata subsp. insularis",
+  "Masturicum insulare"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "산비장이는 국화과(Asteraceae) 산비장이속(Serratula)의 여러해살이풀로, 식품의약품안전처 「식품원료 목록」에는 원료명 '산비장이잎', 학명 Serratula coronata L. subsp. insularis Kitamura(이명 Masturicum insulare)로 올라 있다[1]. 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 잎'이므로, 일반 식품 원료로 쓸 수 있는 부위는 잎뿐이다[1]. 목록에 적힌 다른 이름은 조선마화두·큰산나물·산비쟁이이고, 영문명은 Mountain coronate sawwort이다[1]. 한라산비장이잎(Serratula coronata f. alpina)은 같은 목록에 별도 행으로 올라 있어 이 문서와 구분한다[1]. 건강기능식품 고시형 원료로 쓰인 기록은 확인하지 못함.\n\n연구는 대부분 지상부(잎·줄기)와 그 추출물의 엑디스테로이드(곤충 탈피호르몬과 구조가 비슷한 식물 스테로이드), 특히 20-하이드록시엑디손과 플라보노이드에 모여 있다[2, 4, 7, 8]. 잎만 따로 정량한 논문은 찾지 못했고, 아래 함량은 지상부·즙·추출물 기준이거나 부위가 밝혀지지 않은 값이다[2, 3, 5]. 먹는 것과 관련된 효과 자료는 동물·세포 실험뿐이며, 사람 자료는 추출물을 넣은 피부 크림 연구에 그친다[2, 11, 15]. 연구 시료는 대부분 폴란드·헝가리·러시아·카자흐스탄산이며, 국내 아종(subsp. insularis) 잎의 성분이 같은지는 확인하지 못함. 국내에서 산나물로 먹는 양·조리법에 관한 공공 자료는 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "산비장이는 우크라이나·러시아 연구진이 엑디스테로이드 원료 식물로 오래 다뤄 왔다[6, 7]. 우크라이나 연구진은 자국 식물 가운데 산비장이와 S. inermis를 가장 유망한 엑디스테로이드 원료로 골랐고, 두 종 모두 엑디스테론(20-하이드록시엑디손)이 약 2%로 주성분이라고 보고했다[6]. 같은 보고는 이 속 식물의 엑디스테로이드로 가금 사육용·농업 곤충학용·식품 보충용 생물자극 제제(biostimulator)를 만들었다고 적고 있다[6]. 러시아에서는 산비장이 즙에서 얻은 엑디스테로이드 혼합물을 오리 사육 음수에 넣은 시험이 보고되었고[18], 산비장이에서 얻은 엑디스테론 제제를 쥐 만성 심부전 모델에 준 연구도 있다(동물 실험)[27].\n\n2010년대 이후 폴란드에서는 지상부 에탄올 추출물을 넣은 크림을 지루피부염·건선 환자에게 바르는 연구가 이어졌다[2, 15]. 불가리아 연구진은 산비장이 지상부 건조추출물을 다른 약용식물과 섞은 배합으로 쥐 스트레스 모델을 시험했다[3, 20]. 국내에서는 한국생명공학연구원 식물추출물은행의 지상부 추출물로 항바이러스 성분을 찾은 연구가 있다[9]. 국내에서 산나물로 먹어 온 내력에 관한 공공 문헌은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "산비장이는 국화과 엉겅퀴족(Cardueae) 수레국화아족(Centaureinae)의 'Serratula 무리'에 드는 식물이다[24]. 카자흐스탄 연구는 이 종을 동유럽·서시베리아·카자흐스탄 중부와 북부에 널리 퍼진 숲-초원 식물로 소개한다[4]. 국내 분포와 형태(잎 모양·꽃 색·키)는 공공 도감을 열지 못해 확인하지 못함.\n\n엑디스테로이드는 식물이 곤충을 막는 방어 물질로 만드는 것으로 설명된다[2]. 헝가리 연구에서 산비장이의 20-하이드록시엑디손은 4월에 2.3%로 높았고(부위·건조 기준은 초록에 없음), 조사한 산비장이속 식물들은 6월에 가장 낮았다[5]. 같은 연구는 S. tinctoria·S. wolffii·산비장이의 칼슘이 2.2–3.8%로 다른 약용식물보다 높고, 산비장이는 철·망간·마그네슘도 많다고 보고했다[5]. 카자흐스탄 중부에서 5월 중순부터 7월 중순까지 채집한 지상부에서는 생장 초기 시료의 플라보노이드가 가장 많았다[4]. 카자흐스탄에서는 산비장이를 먹이식물로 삼는 진딧물 신종이 기재되었다[26]."
+  },
+  {
+   "key": "related_species",
+   "title": "닮은 종과 구분",
+   "body": "「식품원료 목록」에는 산비장이잎 외에 한라산비장이잎(Serratula coronata f. alpina)과 Saw-wort잎(Serratula tinctoria)이 각각 따로 올라 있다[1]. 세 원료는 사용 부위가 모두 잎이지만 목록상 다른 원료이므로, 이 문서의 성분·실험 자료를 다른 두 원료에 그대로 옮겨 쓰면 안 된다[1]. 국화수리취잎(Synurus palmatopinnatifidus)은 옛 학명이 Serratula deltoides var. palmatopinnatifida로 적혀 있지만 수리취속 식물이다[1].\n\nS. tinctoria에서도 20-하이드록시엑디손과 그 아세트산 에스터, 폴리포딘 B 등 여러 엑디스테로이드가 분리되었다[21, 29]. S. wolffii의 뿌리에서는 새 엑디스테로이드가 보고되었고, 한 비교 연구는 산비장이·S. wolffii·S. tinctoria 지상부 추출물의 항산화 활성을 따로 쟀다[8, 22]. 중국의 S. strangulata는 열매·잎·뿌리의 20-하이드록시엑디손을 정량한 연구가 있다[25]. 우크라이나 보고에서 산비장이와 함께 다룬 S. inermis는 부성분 구성이 달랐다[6]. 같은 속이라도 성분 조성이 다르므로 함량은 종별로 따로 봐야 한다[6, 25]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 채취",
+   "body": "폴란드 연구진은 대학 식물원에서 기른 산비장이 지상부를 2013–2016년 해마다 5월에 거두어 썼고, 씨앗은 헝가리 자생지에서 모은 것을 받았다[2]. 카자흐스탄 연구는 카라간다주 자생지에서 5월 중순–7월 중순에 지상부(꽃봉오리·잎·줄기)를 채집했고, 플라보노이드를 기준으로 5월 하순–6월 전반을 알맞은 채집기로 제시했다[4]. 헝가리 연구는 20-하이드록시엑디손 함량의 계절 변화를 근거로 꽃이 피는 7–8월을 수확 적기로 제안했다[5]. 이처럼 채집 시기 권고는 어떤 성분을 기준으로 삼느냐에 따라 다르다[4, 5].\n\n세포배양은 밭에서 자란 식물의 잎보다 엑디스테로이드 함량이 훨씬 낮았다는 보고가 있다[16]. 국내 재배 면적·생산량은 통계청·농림축산식품부 특용작물 통계 파일에서 찾지 못했고, 지리적 표시 등록도 확인하지 못함. 국내 산나물 채취 시기·재배법에 관한 농촌진흥청 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품 원료로 허용된 부위는 잎이므로, 일반 식품에는 잎만 쓸 수 있다[1]. 연구에서 쓴 가공물은 대부분 말린 지상부 추출물이다[2, 3, 9]. 폴란드 연구는 말린 지상부 620 g을 에탄올에 담가 잔사 14 g을 얻었고, 이 추출물의 엑디스테로이드 3종 합이 22.89%였다[2]. 불가리아 연구의 지상부 건조추출물은 40% 에탄올로 추출한 뒤 분무건조해 만들었다[3]. 카자흐스탄 연구에서는 70% 에탄올이 추출물 무게가 가장 많이 나왔고, 0.1 M 탄산수소나트륨 수용액은 가장 적었다[4].\n\n러시아 연구는 생 지상부를 짠 즙을 에틸아세테이트로 추출해 엑디스테로이드를 분리했다[7]. 국내 연구는 말린 지상부 200 g을 메탄올로 추출해 잔사 16.6 g을 얻은 뒤 분획해 퀘르세틴-3-메틸에테르 81.3 mg을 분리했다[9]. 러시아 영양학 연구에서는 잎 추출물을 쥐의 마시는 물에 섞어 주었다[11, 12]. 산비장이를 원료로 한 국내 건강기능식품이나 식품 생산실적은 식약처 생산실적 파일에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 계통",
+   "body": "산비장이속은 엉겅퀴족 수레국화아족에 속하며, 이 아족의 속들은 분자 연구로 확인된 일곱 비공식 무리로 나뉘고 그중 하나가 'Serratula 무리'다[24]. 터키산 Klasea·Serratula·Jurinea·Centaurea 종을 ISSR 표지로 비교한 연구에서 네 속은 계통수에서 서로 갈라졌다[28]. 엉겅퀴족 72종의 엽록체 유전체를 비교한 2026년 연구에서 유전체 크기는 151,098–153,475 bp였고, Serratula tinctoria만 trnL-UAA 역위를 보였지만 조립 오류일 가능성도 배제하지 못했다[23]. 이 연구에 산비장이(S. coronata)가 포함되었는지는 초록에서 확인하지 못함.\n\n세포배양과 밭 식물의 잎을 비교한 연구는 합성되는 단백질의 구성과 양이 다르고, 그 차이가 엑디스테로이드 같은 이차대사산물 합성의 세기와 관련된다고 보았다[16]. 국내 아종(subsp. insularis)의 염색체 수·유전체 정보, 한라산비장이와의 유전적 차이는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」은 산비장이잎을 '사용가능'으로 분류하고 사용 부위를 잎으로 한정할 뿐, 별도 섭취 제한은 적지 않았다[1]. 사람이 먹었을 때의 안전성 시험이나 알레르기·잔류 농약에 관한 공공기관 정보는 확인하지 못함. 사람 자료는 추출물 크림을 바른 연구뿐이며, 지루피부염 환자 36명이 6주 동안 바른 연구에서 부작용 보고는 없었다[2]. 건선 병변 72곳에 6주 동안 바른 연구도 있으나, 이는 먹는 식품의 안전성 근거가 아니다[15].\n\n쥐에게 잎 추출물을 15일 동안 엑디스테로이드 5·15 mg/kg 체중으로 준 연구에서는 혈장 노르아드레날린이 낮아졌고 고용량군에서 코르티코스테론/노르아드레날린 비가 달랐으며, 그 밖의 생화학 지표와 흉선·심장·뇌 세포의 DNA 손상·아폽토시스 지표는 대조군과 유의한 차이가 없었다[11]. 산비장이 추출물의 골격근 대사물 관련 보고는 비타민 D 결핍 쥐 실험이고[13], 20-하이드록시엑디손의 유방암 세포 결과도 세포 수준에 그친다[10]. 이 종을 먹은 사람에서 효과나 부작용을 본 연구는 확인하지 못함. 시험관에서 산비장이 추출물은 대장균에 대한 시프로플록사신의 최소억제농도를 4배 이상 높였는데, 사람에서의 의미는 확인하지 못함[14]. 사람 세포주 시험에서 모화합물 20-하이드록시엑디손은 독성을 보이지 않았다[19]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "20-Hydroxyecdysone",
+   "name_ko": "20-하이드록시엑디손(엑디스테론)",
+   "class": "엑디스테로이드",
+   "role": "marker",
+   "part": "지상부(herb)·즙·추출물(일부 값은 부위 미상)",
+   "content_text": "4월 2.3%(TLC, 부위·건조 기준은 초록에 없음)[5]; 우크라이나산 약 2%(부위·기준은 초록에 없음)[6]; 40% 에탄올 지상부 건조추출물 18,928 μg/g dw[3]",
+   "activity_ko": "산비장이 엑디스테로이드의 주성분; 효과 보고는 동물·세포 실험뿐[10, 13]",
+   "source": [
+    3,
+    5,
+    6,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "Ajugasterone C",
+   "name_ko": "아주가스테론 C",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 에탄올 추출물·즙",
+   "content_text": "에탄올 추출물에서 20-하이드록시엑디손·폴리포딘 B와 합해 22.89%(개별 값은 표에 있어 확인하지 못함)[2]",
+   "activity_ko": "초파리 BII 세포 검정에서 엑디스테로이드 작용 EC50 6.2 × 10⁻⁸ M(곤충 세포 실험)[7]",
+   "source": [
+    2,
+    7
+   ]
+  },
+  {
+   "name": "Polypodine B",
+   "name_ko": "폴리포딘 B",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 에탄올 추출물·즙",
+   "content_text": "에탄올 추출물 엑디스테로이드 3종 합 22.89%의 구성 성분[2]; 즙에서 분리[7]",
+   "activity_ko": "유방암 세포의 생존·세포주기에 영향 없음(세포 실험)[10]",
+   "source": [
+    2,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "Ecdysone",
+   "name_ko": "엑디손(α-엑디손)",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 즙",
+   "content_text": "즙에서 분리(함량 수치는 확인하지 못함)[7]; 우크라이나산 부성분[6]",
+   "activity_ko": "곤충 탈피호르몬과 같은 화합물[7]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "3-epi-20-Hydroxyecdysone",
+   "name_ko": "3-에피-20-하이드록시엑디손",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 즙",
+   "content_text": "즙에서 새 화합물로 분리(함량 수치는 확인하지 못함)[7]",
+   "activity_ko": "초파리 BII 세포 검정 EC50 1.6 × 10⁻⁷ M(곤충 세포 실험)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Taxisterone",
+   "name_ko": "탁시스테론",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 즙",
+   "content_text": "이 종에서 처음 분리(함량 수치는 확인하지 못함)[7]",
+   "activity_ko": "초파리 BII 세포 검정 EC50 9.5 × 10⁻⁸ M(곤충 세포 실험)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "20-Hydroxyecdysone 22-acetate",
+   "name_ko": "20-하이드록시엑디손 22-아세테이트",
+   "class": "엑디스테로이드",
+   "role": "bioactive",
+   "part": "지상부 즙",
+   "content_text": "이 종에서 처음 분리(함량 수치는 확인하지 못함)[7]",
+   "activity_ko": "생리 활성 자료는 확인하지 못함[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "지상부(꽃봉오리·잎·줄기, 생장 초기)",
+   "content_text": "생장 초기 시료 에탄올 추출 2.77 mg/g, 70% 에탄올 추출 2.59 mg/g(원문 표 단위 mg/g, 원료·추출물 기준 구분이 모호)[4]; 지상부에서 분리[8]",
+   "activity_ko": "지상부 플라보노이드 분획이 엑디스테로이드 분획보다 지질과산화 억제가 강함(시험관)[8]",
+   "source": [
+    4,
+    8
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "지상부(꽃봉오리·잎·줄기, 생장 초기)",
+   "content_text": "생장 초기 시료 에탄올 추출 0.60 mg/g, 70% 에탄올 추출 0.89 mg/g(기준 모호)[4]",
+   "activity_ko": "항산화 성분으로 정량됨[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Quercetin 3-methyl ether",
+   "name_ko": "퀘르세틴-3-메틸에테르",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "말린 지상부 200 g 메탄올 추출물의 분획에서 81.3 mg 분리[9]",
+   "activity_ko": "사람 리노바이러스 1B 복제 억제(HeLa 세포, IC50 4.45 µg/mL)와 감염 생쥐에 복강 투여 시 폐 바이러스 RNA·염증 사이토카인 감소(동물 실험)[9]",
+   "source": [
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Apigenin",
+   "name_ko": "아피제닌",
+   "class": "플라본",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 분리(함량 수치는 확인하지 못함)[8]",
+   "activity_ko": "생리 활성 자료는 이 종에서 확인하지 못함[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Luteolin",
+   "name_ko": "루테올린",
+   "class": "플라본",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 분리; 루테올린 4'-글루코사이드도 함께 분리(함량 수치는 확인하지 못함)[8]",
+   "activity_ko": "생리 활성 자료는 이 종에서 확인하지 못함[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Quercetin 4'-glucoside",
+   "name_ko": "퀘르세틴 4'-글루코사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 분리(함량 수치는 확인하지 못함)[8]",
+   "activity_ko": "생리 활성 자료는 이 종에서 확인하지 못함[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Lignin",
+   "name_ko": "리그닌",
+   "class": "페놀성 고분자",
+   "role": "bioactive",
+   "part": "부위는 초록에 명시 없음",
+   "content_text": "구조 분석만 보고(함량 수치는 확인하지 못함)[17]",
+   "activity_ko": "높은 항산화 활성(시험관)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Calcium",
+   "name_ko": "칼슘",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "부위는 초록에 없음",
+   "content_text": "2.2–3.8%(S. tinctoria·S. wolffii·산비장이를 함께 적은 범위, 기준은 초록에 없음)[5]",
+   "activity_ko": "철·망간·마그네슘도 높다고 보고[5]",
+   "source": [
+    5
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "20-Hydroxyecdysone, ajugasterone C, polypodine B",
+   "compound_ko": "20-하이드록시엑디손·아주가스테론 C·폴리포딘 B",
+   "part": "지상부(herb) 에탄올 건조추출물",
+   "content": "엑디스테로이드 3종 합 22.89%(말린 지상부 620 g → 에탄올 추출 잔사 14 g 기준)[2]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Agilent 1200 SL",
+    "column": "LiChrospher 60 RP-select B(C8), 125 × 4 mm, 5 µm + 같은 충전 보호칼럼 4 × 4 mm",
+    "mobile_phase": "물–메탄올",
+    "gradient": "5% 메탄올 → 30% 메탄올 → 30% → 5%(시점은 전문에서 빠져 확인하지 못함), 후처리 5분",
+    "flow": "1 mL/min",
+    "temp": "상온(약 23 ℃)",
+    "detection": "UV 242 nm",
+    "injection": "15 µL(3회)",
+    "sample_prep": "건조 에탄올 추출물을 메탄올에 20 g/L로 녹임",
+    "standard": "20-하이드록시엑디손 인증표준물질(1 mg/mL 메탄올); 아주가스테론 C·폴리포딘 B는 자체 분리·NMR 동정",
+    "linearity": "300–1000 µg/mL(R² 0.9995–0.9997)",
+    "lod": "아주가스테론 C 18, 폴리포딘 B 4.5, 20-하이드록시엑디손 15 µg/mL",
+    "loq": "60, 15, 50 µg/mL(같은 순서)",
+    "recovery": "정확도 96–106%(일내·일간), RSD 0.51–1.34%"
+   },
+   "rationale": "산비장이 지상부의 주요 엑디스테로이드 3종을 같은 조건에서 정량한 유효성 검증 방법이다(잎만 따로 잰 것은 아님)[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32899750/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "20-Hydroxyecdysone",
+   "compound_ko": "20-하이드록시엑디손",
+   "part": "지상부(herb) 40% 에탄올 분무건조 추출물",
+   "content": "18,928 μg/g dw(건조추출물 기준)[3]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "ProStar 230 용매 공급 장치 + 광다이오드배열 검출기 335",
+    "column": "Microsorb-MV C18, 150 × 4.6 mm, 5 µm",
+    "mobile_phase": "A: 물(인산으로 pH 3.7), B: 아세토나이트릴:메탄올 1:1",
+    "gradient": "A:B 80:20 → 10:90",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "245 nm",
+    "injection": "",
+    "sample_prep": "40% 에탄올 추출 후 분무건조한 건조추출물",
+    "standard": "표준물질과 머무름 시간·흡수 스펙트럼 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "산비장이 지상부 건조추출물의 주성분으로 20-하이드록시엑디손을 지표로 썼다; PMC 전문에서는 학명 이탤릭이 빠져 있으나 같은 연구진의 2018년 논문이 원료를 Serratula coronata로 적고 있다[3, 20].",
+   "source": [
+    3,
+    20
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37687297/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercetin, rutin",
+   "compound_ko": "퀘르세틴·루틴",
+   "part": "지상부(꽃봉오리·잎·줄기) 추출물, 카자흐스탄 중부 자생",
+   "content": "생장 초기 시료: 에탄올 추출 퀘르세틴 2.77·루틴 0.60 mg/g, 70% 에탄올 추출 2.59·0.89 mg/g(원문 표 단위 mg/g, 원료·추출물 기준이 모호)[4]",
+   "method": "HPLC-UV(등용매)",
+   "conditions": {
+    "instrument": "Shimadzu LC-20AD Prominence",
+    "column": "Promosil C18, 4.6 × 150 mm, 5 µm, 100 Å",
+    "mobile_phase": "0.1% 인산 수용액:아세토나이트릴 50:50(v/v)",
+    "gradient": "등용매",
+    "flow": "0.5 mL/min",
+    "temp": "40 ℃",
+    "detection": "",
+    "injection": "10 µL",
+    "sample_prep": "추출물을 아세토나이트릴:물(50:50) 200 µL에 녹여 30 ℃ 초음파 후 같은 용매 1.6 mL로 희석",
+    "standard": "루틴·퀘르세틴 표준품(절대검량)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "채집 시기·추출 용매에 따른 플라보노이드 차이를 본 연구로, 검출 파장과 검출·정량한계는 본문에 없어 확인하지 못했다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37692348/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "20-Hydroxyecdysone",
+   "compound_ko": "20-하이드록시엑디손",
+   "part": "부위는 초록에 없음(계절별)",
+   "content": "4월 2.3%(최고), 6월 최저[5]",
+   "method": "TLC(고체상추출 정제 후)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "고체상추출(SPE) 정제",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "계절에 따른 20-하이드록시엑디손 변화를 본 연구다; 헝가리어 논문으로 초록만 보았고 전문 확인 못함[5].",
+   "source": [
+    5
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10389301/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 산비장이잎(Serratula coronata L. subsp. insularis Kitamura)·한라산비장이잎·Saw-wort잎·국화수리취잎 행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Separation and HPLC Characterization of Active Natural Steroids in a Standardized Extract from the Serratula coronata Herb with Antiseborrheic Dermatitis Activity. Int J Environ Res Public Health 2020. PMID 32899750, PMC7557367, doi:10.3390/ijerph17186453",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32899750/",
+   "publisher": "Int J Environ Res Public Health (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Effect of Plant Extracts Combinations on TNF-α, IL-6 and IL-10 Levels in Serum of Rats Exposed to Acute and Chronic Stress. Plants (Basel) 2023. PMID 37687297, PMC10490550, doi:10.3390/plants12173049",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37687297/",
+   "publisher": "Plants (Basel) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Adsorption isotherms and kinetics for Pb(II) ion removal from aqueous solutions with biogenic metal oxide nanoparticles (Serratula coronata 추출물 이용). RSC Adv 2023. PMID 37692348, PMC10483273, doi:10.1039/d3ra05347d",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37692348/",
+   "publisher": "RSC Adv (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "[Components of Serratula species; screening for ecdysteroid and inorganic constituents of some Serratula plants] (헝가리어, 영문 초록). Acta Pharm Hung 1999. PMID 10389301",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10389301/",
+   "publisher": "Acta Pharm Hung (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Phytoecdysteroids: biological effects, application in agriculture and complementary medicine. Ukr Biokhim Zh 2001. PMID 12035548",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12035548/",
+   "publisher": "Ukr Biokhim Zh (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Phytoecdysteroids from the juice of Serratula coronata L. (Asteraceae). Insect Biochem Mol Biol 2002. PMID 11755058, doi:10.1016/s0965-1748(01)00106-0",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11755058/",
+   "publisher": "Insect Biochem Mol Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Monitoring the antioxidant activity of extracts originated from various Serratula species and isolation of flavonoids from Serratula coronata. Fitoterapia 2004. PMID 15030920, doi:10.1016/j.fitote.2003.12.009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15030920/",
+   "publisher": "Fitoterapia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Quercetin-3-Methyl Ether Induces Early Apoptosis to Overcome HRV1B Immune Evasion, Suppress Viral Replication, and Mitigate Inflammatory Pathogenesis. Biomol Ther (Seoul) 2025. PMID 39979015, PMC11893485, doi:10.4062/biomolther.2024.204",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39979015/",
+   "publisher": "Biomol Ther (Seoul) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Proapoptotic and proautophagic activity of 20-hydroxyecdysone in breast cancer cells in vitro. Chem Biol Interact 2021. PMID 33878320, doi:10.1016/j.cbi.2021.109479",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33878320/",
+   "publisher": "Chem Biol Interact (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "[Phytoecdysteroids influence on the hormonal status and apoptosis in growing rats] (러시아어, 영문 초록). Vopr Pitan 2014. PMID 25059064",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25059064/",
+   "publisher": "Vopr Pitan (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "[Condition of protective intestinal microbiota populations under stress exposure in rats received different diets with bioactive food components] (러시아어, 영문 초록). Vopr Pitan 2015. PMID 26402944",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26402944/",
+   "publisher": "Vopr Pitan (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "[Effect of vitamin D3 and 20-hydroxyecdysone on the content of ATP, creatine phosphate, carnosine and Ca2+ in skeletal muscles] (러시아어, 영문 초록). Ukr Biokhim Zh 1997. PMID 9505354",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9505354/",
+   "publisher": "Ukr Biokhim Zh (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Influence of plant polyphenols and medicinal plant extracts on antibiotic susceptibility of Escherichia coli. J Appl Microbiol 2012. PMID 22533708, doi:10.1111/j.1365-2672.2012.05322.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22533708/",
+   "publisher": "J Appl Microbiol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Phytoecdysteroids from Serratula coronata L. for Psoriatic Skincare. Molecules 2022. PMID 35684408, PMC9181847, doi:10.3390/molecules27113471",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35684408/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "[A comparative analysis of the proteins from a cell culture and from field plants of the ecdysteroid producer Serratula coronata L.] (러시아어, 영문 초록). Ukr Biokhim Zh 1992. PMID 1488818",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1488818/",
+   "publisher": "Ukr Biokhim Zh (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "[Lignins of Rhodiola rosea and Serratula coronata: peculiarities of chemical structure and antioxidant properties] (러시아어, 영문 초록). Adv Gerontol 2010. PMID 21033376",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21033376/",
+   "publisher": "Adv Gerontol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Phytoecdisteroids from Serratula coronata when growing ducklings. Res Vet Sci 2019. PMID 31811978, doi:10.1016/j.rvsc.2019.11.012",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31811978/",
+   "publisher": "Res Vet Sci (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Synthesis and cytotoxic activity of triphenylphosphonium salts of ecdysteroids, lithocholic acid and cholesterol. Nat Prod Res 2025. PMID 41305960, doi:10.1080/14786419.2025.2592114",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41305960/",
+   "publisher": "Nat Prod Res (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Antidepressant Effect and Recognition Memory Improvement of Two Novel Plant Extract Combinations - Antistress I and Anti-stress II on Rats Subjected to a Model of Mild Chronic Stress. Folia Med (Plovdiv) 2018. PMID 29668446, doi:10.1515/folmed-2017-0073",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29668446/",
+   "publisher": "Folia Med (Plovdiv) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "New Ecdysteroids from Serratula tinctoria. Planta Med 1992. PMID 17226485, doi:10.1055/s-2006-961485",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17226485/",
+   "publisher": "Planta Med (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Novel ecdysteroids from Serratula wolffii. ScientificWorldJournal 2012. PMID 22645442, PMC3354479, doi:10.1100/2012/651275",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22645442/",
+   "publisher": "ScientificWorldJournal (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Comparative chloroplast genomics of Cardueae (Carduoideae, Asteraceae): the first tribe-wide analysis. BMC Plant Biol 2026. PMID 41588341, PMC12918578, doi:10.1186/s12870-026-08217-2",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41588341/",
+   "publisher": "BMC Plant Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Sesquiterpenoids in subtribe Centaureinae (Cass.) Dumort (tribe Cardueae, Asteraceae): distribution, 13C NMR spectral data and biological properties. Phytochemistry 2013. PMID 23948259, doi:10.1016/j.phytochem.2013.07.002",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23948259/",
+   "publisher": "Phytochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Identification and determination of ecdysones and flavonoids in Serratula strangulata by micellar electrokinetic capillary chromatography. Planta Med 2002. PMID 12451496, doi:10.1055/s-2002-35658",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12451496/",
+   "publisher": "Planta Med (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "A new species of Acaudinum Börner (Hemiptera; Aphididae; Aphidinae) from Kazakhstan. Zootaxa 2022. PMID 36095459, doi:10.11646/zootaxa.5183.1.7",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36095459/",
+   "publisher": "Zootaxa (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "[Influence of ecdysteron-80 on the hormonal-mediator balance and lipid metabolism in rats with chronic cardiac failure] (러시아어, 영문 초록). Patol Fiziol Eksp Ter 2009. PMID 19537334",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19537334/",
+   "publisher": "Patol Fiziol Eksp Ter (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Study of phylogenetic relationship of Turkish species of Klasea (Asteraceae) based on ISSR amplification. PhytoKeys 2015. PMID 26491384, PMC4611746, doi:10.3897/phytokeys.56.5608",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26491384/",
+   "publisher": "PhytoKeys (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Isolation and Structural Elucidation of Two Plant Ecdysteroids, Gerardiasterone and 22-Epi-20-hydroxyecdysone (Serratula tinctoria). J Nat Prod 1998. PMID 9548888, doi:10.1021/np970124y",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9548888/",
+   "publisher": "J Nat Prod (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

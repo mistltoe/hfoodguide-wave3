@@ -1,0 +1,96 @@
+{
+ "slug": "eucheuma-cottonii",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 104,
+ "checked_items": 55,
+ "verified": 143,
+ "fixed": 11,
+ "removed": 1,
+ "unverifiable": 4,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "동남아시아 열대 바다에서 기르는 κ-카라기난 원료 홍조류다[2, 5]",
+   "after": "열대 바다에서 카라기난을 얻으려고 기르는 κ-카라기난 원료 홍조류다[2, 7]",
+   "why": "[5](1985 미국 혐기소화 연구)는 재배 지역을 말하지 않음; [7] 초록이 \"열대 바다에서 카라기난 생산용으로 상업 재배\"라고 씀"
+  },
+  {
+   "where": "sections.overview",
+   "before": "카라기난은 같은 목록에 식품첨가물(B코드)로 따로 올라 있고, 건강기능식품 고시형 원료 표시는 없다[1].",
+   "after": "카라기난은 같은 목록에 식품첨가물(B코드)로 따로 올라 있다[1]. 건강기능식품 기능성 원료로 고시된 근거는 확인하지 못함.",
+   "why": "I1020 식품원료 목록에는 건강기능식품 고시 여부 항목이 없어 [1]이 뒷받침하지 못함"
+  },
+  {
+   "where": "sections.history",
+   "before": "E. spinosum과 E. cottonii의 다당류를 비교했고",
+   "after": "E. spinosum과 E. cottonii의 다당류를 다루었고",
+   "why": "[4]는 초록이 없어 서지(제목)만 확인됨 — 제목은 두 종의 다당류와 ι-카라기난 구조를 다룬다고만 함"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "학명의 명명 이력은 공식 분류 데이터베이스에서 확인하지 못함.",
+   "after": "명명상으로는 Eucheuma cottonii Weber-van Bosse(1913)가 Kappaphycus cottonii의 기초이명이고, 상업명 'cottonii'는 대개 K. alvarezii를 가리킨다는 정리가 있으나, 공식 분류 데이터베이스 원문은 열지 못하고 웹 검색 요약으로만 확인했다[35]. 따라서 K. alvarezii로 표기된 자료를 학명 E. cottonii 원료와 같은 생물의 자료로 단정할 수는 없다[16, 35].",
+   "why": "학명 E. cottonii 와 K. alvarezii 관계의 근거 보강(웹 검색 요약 출처 명시), K. alvarezii 표기 자료를 동일종으로 과장하지 않도록 함"
+  },
+  {
+   "where": "sections.safety",
+   "before": "JECFA는 2015년 영아용 조제식에 카라기난을 1,000 mg/L까지 쓰는 것은 우려가 없다고 결론지었다[2].",
+   "after": "JECFA는 2015년 영아용 조제식이나 특수의료용 조제식에 카라기난을 1,000 mg/L까지 쓰는 것은 우려가 없다고 결론지었다고 EFSA 보고서가 인용했다[2].",
+   "why": "[2] 원문은 \"infant formula or formula for special medical purposes\"이며 JECFA 결론을 인용한 것"
+  },
+  {
+   "where": "sections.safety",
+   "before": "EFSA는 노출 추정이 일부 집단의 95백분위에서 잠정 허용량을 최대 약 10배 넘어 안전 우려가 될 수 있다고 보았다[2].",
+   "after": "EFSA는 정제된 상표 충성(brand-loyal) 노출 시나리오에서 모든 연령군의 95백분위 노출과 영아·노인을 뺀 연령군의 평균 노출이 잠정 허용량을 넘고, 일부는 최대 약 10배에 이른다고 보았다[2].",
+   "why": "[2] 원문: 95백분위는 모든 집단, 평균은 영아·노인 제외 모든 집단에서 초과, 일부 경우 최대 약 10배 — \"일부 집단의 95백분위\"는 원문과 다름"
+  },
+  {
+   "where": "sections.safety",
+   "before": "인도 연안의 K. alvarezii 등 식용 해조 3종의 중금속은",
+   "after": "인도 연구진이 분석한 K. alvarezii 등 식용 해조 3종(K. alvarezii로 표기)의 중금속은",
+   "why": "[23] 초록은 채집 지역을 적지 않음(소속 기관만 인도); 이 종이 아닌 K. alvarezii 표기 자료임을 명시"
+  },
+  {
+   "where": "aliases",
+   "before": "카파피쿠스 알바레지아이",
+   "after": "카파피쿠스 알바레지아이(식약처 K. alvarezii 행의 별칭)",
+   "why": "[1] 로컬 원자료에서 이 별칭은 학명 E. cottonii 행이 아니라 K. alvarezii 행(수산물)에만 있음"
+  },
+  {
+   "where": "sources[10]",
+   "before": "Food Funct 2019 (초록)",
+   "after": "Food Funct 2019;10(9):5697-706 (초록)",
+   "why": "PubMed 서지와 대조해 권·쪽 보충"
+  },
+  {
+   "where": "sources[29]",
+   "before": "J Cosmet Dermatol 2020 (초록)",
+   "after": "J Cosmet Dermatol 2021;20(3):993-1001 (초록)",
+   "why": "PubMed 서지와 대조해 권·쪽 보충"
+  },
+  {
+   "where": "sources[31]",
+   "before": "Int J Biol Macromol 2022 (초록)",
+   "after": "Int J Biol Macromol 2022;210:752-8 (초록)",
+   "why": "PubMed 서지와 대조해 권·쪽 보충"
+  },
+  {
+   "where": "sources[32]",
+   "before": "Bioresour Technol 2022 (초록)",
+   "after": "Bioresour Technol 2022;364:128136 (초록)",
+   "why": "PubMed 서지와 대조해 권·쪽 보충"
+  }
+ ],
+ "unverifiable_notes": [
+  "[3]·[4] 1973 J Chem Soc Perkin 1 논문은 PubMed에 초록이 없어 제목·서지로만 확인",
+  "[35] 학명 E. cottonii(Weber-van Bosse 1913)=K. cottonii 기초이명, 상업명 cottonii=K. alvarezii 정리는 WebSearch 요약으로만 확인(AlgaeBase 등 분류 DB 원문은 허용 목록 밖이라 열지 않음)",
+  "[23] 시료 채집 지역은 초록에 없어 저자 소속(인도)으로만 판단; [26]·[17]·[18]·[9]·[13]은 추출본에서 학명 이탤릭이 빠져 'cottonii' 상업 품종이 어느 학명인지 원문 문자로 확인 불가",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 의 '코토니' 두 행(E. cottonii 식물/전체 사용가능, K. alvarezii 수산물/별칭 카파피쿠스 알바레지아이/영명 Cottonii/전체 사용가능)과 일치 확인; 스피노숨·유큐마(E. denticulatum) 행 자료는 본문에 섞이지 않음"
+ ],
+ "checks": {
+  "verified_against": "PubMed 메타데이터(초록) [5,6,8,10,11,15,16,19,21-34], PMC 전문 [7,9,12,13,18,20], W2 저장 전문 [2](EFSA)·[14]·[17], 로컬 I1020 [1]",
+  "check_dossier": 0,
+  "check_units": 0
+ }
+}
