@@ -1,0 +1,68 @@
+{
+ "slug": "caragana-sinica",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 59,
+ "checked_items": 56,
+ "verified": 107,
+ "fixed": 8,
+ "removed": 0,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.history",
+   "before": "뿌리 추출물·분획은 쥐 골관절염·관절염 모델[16, 17]과 신경세포 ADAM10 유전자 발현 선별 연구[27]에 쓰였고",
+   "after": "뿌리 추출물·분획은 쥐 골관절염·관절염 모델[16, 17]에 쓰였고, 골담초 추출물(부위는 초록에 없음)은 사람 신경모세포종 세포의 ADAM10 유전자 발현 선별과 생쥐 투여 시험[27]에 쓰였으며",
+   "why": "[27] 초록은 'extract of Caragana sinica'라고만 하고 부위를 밝히지 않음 — 뿌리 연구로 단정할 근거 없음, 생쥐 시험도 포함"
+  },
+  {
+   "where": "sections.biology",
+   "before": "줄기는 목질 바이오매스로서 리그닌 구조가 분석되었는데",
+   "after": "목질 바이오매스(탈랍한 골담초 목질부, 세부 부위는 초록에 없음)로서 리그닌 구조가 분석되었는데",
+   "why": "[28] 초록은 'dewaxed Caragana sinica'·woody biomass라고만 하고 '줄기'라고 하지 않음"
+  },
+  {
+   "where": "compounds[Ethyl linolenate].activity_ko",
+   "before": "저자는 문헌을 들어 피부 상처 회복 관련 성분일 수 있다고 추정[3]",
+   "after": "저자는 피톨·리놀렌산·리놀레산 에틸을 상처 회복 관련 문헌 성분으로 들었으나 리놀렌산 에틸 자체는 언급하지 않음(단일 성분 시험 없음)[3]",
+   "why": "[3] 전문 2.7절은 phytol, linolenic acid, ethyl linoleate 만 언급"
+  },
+  {
+   "where": "compounds[alpha-Viniferin].activity_ko",
+   "before": "단백질 키나아제 C 억제[26]",
+   "after": "단백질 키나아제 C 억제(시험관, 부위는 초록에 없음)[26]",
+   "why": "[26] 초록은 시험관 결과이고 부위 미기재"
+  },
+  {
+   "where": "assays[0].content",
+   "before": "총플라보노이드 47.90 ± 0.37, 총폴리페놀 195.13 ± 0.64(표 단위",
+   "after": "총플라보노이드 47.90 ± 0.37, 총폴리페놀 195.13 ± 0.64(추출물 건조중량 기준 — 꽃 원물 기준 아님; 표 단위",
+   "why": "[4] 방법 절은 'per gram dry weight of extracts' — 원물이 아니라 추출물 기준임을 밝힘"
+  },
+  {
+   "where": "assays[1].conditions.mobile_phase",
+   "before": "운반 기체(종류는 원문에 없음)",
+   "after": "",
+   "why": "원문에 운반 기체 기재 없음 — 원문에 없는 칸은 비움"
+  },
+  {
+   "where": "sources[24].title",
+   "before": "phenolic acids from Caragana species (C. korshinskii).",
+   "after": "phenolic acids from Caragana species using response surface methodology (대상 종 C. korshinskii).",
+   "why": "원 제목과 다르게 적혀 있었음"
+  },
+  {
+   "where": "sources[2].title",
+   "before": "골담초뿌리 행(부위 '뿌리', 이명 '금작근(金雀根), 골담초꽃', 사용불가;",
+   "after": "골담초뿌리 행(식품원료 A코드, 부위 '뿌리', 이명 '금작근(金雀根), 골담초꽃', 학명 'Caragana sinica (Buchoz) Rehder , Caragana chamlagu Lam.', 사용 조건 칸 '사용가능부위 : 꽃', 상태 사용불가;",
+   "why": "로컬 I1020_20261013.json 원 행 그대로 칸을 보충"
+  }
+ ],
+ "unverifiable_notes": [
+  "[3]·[4]는 PubMed 도구로 PMC 전문 대조, 나머지 논문 [5]–[31]은 PubMed 초록·서지로 대조(전문 미확인)",
+  "[1]·[2] 식품원료 지위는 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 의 골담초 4행(꽃·분말·추출물 '사용가능', 뿌리 '사용불가')과 대조 — Caragana 학명 행은 이 4행뿐",
+  "[4] 총플라보노이드·총폴리페놀 단위: 표 1은 mg RE(GAE)/100 g DW, 방법 절은 mg/g DW(추출물 기준)로 원문 자체가 엇갈림 — 원 dossier 처리가 원문과 맞아 유지하고 추출물 기준만 보충",
+  "뿌리 연구가 꽃 결과로 쓰인 곳은 없었음; [27](부위 미기재)을 뿌리 연구로 묶은 문장만 고침. C. korshinskii[24] 결과는 다른 종임을 밝혀 썼고 골담초 값으로 옮긴 곳 없음",
+  "WebSearch 사용 0회"
+ ]
+}

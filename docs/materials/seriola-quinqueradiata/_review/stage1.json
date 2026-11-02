@@ -1,0 +1,805 @@
+{
+ "d": {
+  "slug": "seriola-quinqueradiata",
+  "name_ko": "방어",
+  "name_en": "Japanese amberjack",
+  "scientific_name": "Seriola quinqueradiata Temminck & Schlegel",
+  "aliases": [
+   "방어",
+   "방어살",
+   "방어포",
+   "Japanese amberjack",
+   "Yellowtail"
+  ],
+  "sections": [
+   {
+    "key": "overview",
+    "title": "한눈에 보기",
+    "body": "방어(Seriola quinqueradiata)는 전갱이과(Carangidae) 방어속 바닷물고기로, 잿방어·부시리 등과 함께 전갱이과 어류로 분류된다[32]. 식약처 「식품원료 목록」에는 '방어'·'방어살'·'방어포' 세 원료명(영문 Japanese amberjack, Yellowtail)으로 올라 있는 수산물이다[1]. 세 행 모두 상태는 '사용가능'이고 따로 정한 사용 조건이나 별명은 없으며, 부위 칸은 '방어'·'방어포'가 '-', '방어살'이 '죽순'으로 적혀 있다(원자료 표기 그대로 옮김)[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1]. 같은 목록에서 잿방어(S. dumerili)·부시리(S. lalandi)·낫잿방어(S. rivoliana)는 별도 원료이므로 이 문서는 방어 자료만 다룬다[1].\n\n방어는 일본에서 가장 널리 양식되는 경제적으로 중요한 양식어로 소개되며[5], 한국에서도 많이 먹는 생선으로 꼽힌다[29]. 일본 연안 가두리에서 1년 기른 방어의 보통근(흰살 부분)은 100 g당 지질 16.5 g, 단백질 22.4 g, 에너지 238.2 kcal였고 EPA 0.883 g, DHA 1.467 g이 들어 있었다[2]. 살에는 유리 히스티딘이 많아 상온에 두면 히스타민 식중독 위험이 있으므로 냉장 유통이 중요하다[2, 4]."
+   },
+   {
+    "key": "history",
+    "title": "이용·연구 역사",
+    "body": "일본의 그물 가두리 양식은 사실상 방어 양식에서 시작되었고, 이후 소규모 가두리를 중심으로 같은 방식이 이어져 왔다[2]. 서일본의 양식 방어에서는 1980년대부터 세균성 용혈성 황달이 폐사 원인이 되었다[15]. 그 원인균은 1991년 병든 방어에서 분리한 균주를 바탕으로 새 속·새 종 Ichthyobacterium seriolicida로 기재되었다[16]. 일본 양식 방어에는 퀴놀론 계열 항생제에 내성인 Photobacterium damselae subsp. piscicida(유결절증 원인균)가 널리 퍼져 있다고 보고되었다[17]. 방어 근육에 하얀 낭포를 만들어 필레의 상품성을 떨어뜨리는 점액포자충 Kudoa amamiensis는 1980년에 처음 기재되었다[28].\n\n한국에서는 1989–1992년 제주도에서 진단된 위 아니사키스증 107례의 감염원 생선 가운데 학명 없이 'yellowtail'로 적힌 어종이 들어 있었다(영문 초록 기준, 방어로 단정할 수 없음)[30]. 2016년 11월 서울의 한 초등학교 급식에서 'yellowtail' 스테이크(학명 미기재)를 먹은 1,017명 중 55명이 히스타민 식중독을 일으켰고, 논문은 이를 국내 첫 보고로 적었다(원문은 학명 없이 yellowtail로만 표기)[4]. 2018년에는 반수체 자어의 DNA로 해독한 방어 유전체 초안이 발표되었다[5]. 2023년에는 방어 혈청의 세포외소포가 사람 혈관내피세포 증식을 높였다는 세포 실험이 나왔으나, 먹었을 때의 효과는 확인되지 않았다[38]."
+   },
+   {
+    "key": "biology",
+    "title": "어종·생태",
+    "body": "방어 치어는 늦겨울부터 이른 봄까지 동중국해에 떠다니는 모자반류 더미에 모이며, 이 시기에 양식용 치어로 잡힌다[11]. 동중국해 조사에서 떠다니는 해조 더미는 쿠로시오 서쪽 대륙붕, 특히 북위 26–30° 사이에 많았고, 모두 한 종의 모자반으로 이루어져 중국 연안에서 떠내려온 것으로 추정되었다[11]. 일본 고치현 정치망 해역에서는 쿠로시오 대사행 시기에 방어 어획이 평상시보다 훨씬 많았다[12]. 일본 가고시마 시장의 자연산 방어 223마리 중 24.2%에서 기생성 요각류 Caligus coryphaenae가 확인되었고, 자연산 방어에서의 첫 기록이었다[31].\n\n방어 살은 흰 보통근과 붉은 혈합육(검붉은 살)으로 나뉘며, 혈합육의 붉은색은 미오글로빈에서 나온다[2]. 방어 미오글로빈은 아미노산 147개로 이루어지며, 방어를 포함해 조사한 전갱이과 5종 미오글로빈 사이의 서열 일치도는 81–99%였다[32]. 뇌·심장·간 등의 인지질에서 주된 고도불포화지방산은 DHA였지만 포스파티딜이노시톨에서는 아라키돈산이 17.6–33.5%를 차지했다[36]. 소화관 전사체 분석은 위·장·직장에서 단백질 분해효소 유전자가 중요함을 보여 주었다[5]. 제주 연안 방어의 장 내용물에서는 새로운 세균 종 Granulicatella seriolae가 분리되었다[34]. 중국 저우산 시장 시료 31종 조사에서는 방어(학명 표기)의 가식부 100 g당 포화지방산(89.7±5.8 mg)과 n-6 고도불포화지방산(2.1±1.9 mg)이 가장 낮았다고 보고되었으나[35], 일본 양식 방어 보통근 값(포화지방산 2.83–3.57 g/100 g)[2]보다 수십 배 낮아 시료·동정·분석 조건은 초록만으로 확인하지 못함."
+   },
+   {
+    "key": "related_species",
+    "title": "관련 종·이름",
+    "body": "식약처 「식품원료 목록」에는 방어속에서 방어 외에 잿방어(Seriola dumerili, Greater amberjack)·부시리(S. lalandi, Yellowtail amberjack)·낫잿방어(S. rivoliana, Longfin yellowtail)가 따로 올라 있다[1]. 이름에 '방어'가 들어간 매지방어(Seriolina nigrofasciata)와 참치방어(Elagatis bipinnulata)는 다른 속의 원료다[1]. 방어·잿방어·부시리를 포함한 전갱이과 5종의 미오글로빈 서열 계통은 기존 형태 분류와 맞았다[32].\n\n영문 'yellowtail'은 방어뿐 아니라 다른 방어속 어종에도 쓰여 자료를 볼 때 학명 확인이 필요하다[1]. 실제로 한 논문은 방어(S. quinqueradiata)를 'yellowtail kingfish'로 적었는데[28], 다른 논문은 이 이름을 부시리(S. lalandi)에 썼다[32]. 서울 식중독 보고와 제주 아니사키스증 보고처럼 학명 없이 yellowtail로만 적은 국내 자료도 있어 종을 단정하기 어렵다[4, 30]."
+   },
+   {
+    "key": "cultivation",
+    "title": "어획·양식",
+    "body": "2014년 논문은 방어의 인공 번식·초기 사육 기술이 아직 없어 상업 양식이 자연산 어린 고기 포획에 의존한다고 적었다[6]. 일본에서는 이후 방어 선발 육종이 늘어나, 가두리에서 빠져나간 개체가 야생 집단에 주는 유전적 위험을 줄이는 번식 억제 연구도 진행되고 있다[13]. 크기가 작고 세대가 짧은 전갱이를 대리모로 써서 방어 정자를 만드는 시험에서는 부화한 8마리 중 2마리가 방어 정자에서 왔다[14]. 연안 가두리와 외해 부침식 가두리에서 1년 기른 생존율은 각각 98.18%와 94.46%였다[2].\n\n방어는 육식성이라 사료에 어분 비중이 높다[20]. 상어 부산물 혼합물로 어분 단백질을 35%까지 바꿔도 어린 방어의 성장은 줄지 않았다[19]. 남극 크릴 분말로 어분을 모두 바꾸면 성장이 크게 떨어지고 척추뼈 불소가 2,150 mg/kg까지 올랐지만, 저불소 크릴 분말은 어분을 모두 대체해도 뚜렷한 해가 없었다[18]. 양식에서는 피부 기생충 Benedenia seriolae 감염이 큰 문제여서 저항성 유전자 연구가 이어졌다[9, 10]. 국내 방어 어획·양식 생산량 통계는 이번 조사에서 확인하지 못함."
+   },
+   {
+    "key": "processing",
+    "title": "가공·저장·품질",
+    "body": "방어 살의 신선도 지표인 K값은 보통근이 처음 6.4%였고 0 °C 저장 중 날마다 일정하게 올랐지만, 혈합육은 처음부터 31.3%였고 0 °C 3일 만에 90%를 넘어 K값만으로는 혈합육 신선도를 판단하기 어려웠다[3]. 같은 연구는 GC-MS 대사체 분석으로 저장 일수를 예측하는 모형을 만들었고, 이노신·하이포잔틴과 아미노산·당류가 중요한 대사물이었다[3]. 피를 빼지 않고 질식사시킨 방어는 아래쪽 면에 피가 고여 카텝신 활성이 높고 살이 더 물러졌다[21]. 냉장 저장에서 혈합육은 10일 넘게, 등쪽 보통근은 14일째에 냄새가 받아들일 수 없는 수준이 되었고, 10일 넘게 저장하면 두 부위 모두 슈도모나스속(Pseudomonas) 세균이 90% 넘게 우세해졌다[22].\n\n90 °C에서 6분 찐 방어는 63 °C에서 30분 찐 것보다 트리메틸아민이 많고 냄새가 강했다[23]. 연제품 겔이 약해지는 현상(모도리)을 일으키는 금속단백분해효소의 내인성 억제물질로 TIMP-2b가 확인되었다[24]. 전자혀와 대사체를 함께 본 연구에서 감칠맛은 크레아티닌·히스티딘과 관련이 깊었다[25]. 혈합육의 붉은색은 미오글로빈이 산화되며 갈색으로 변하는데, 외해 가두리 방어는 냉장 2일째에도 붉은색이 더 오래 유지되었다[2]."
+   },
+   {
+    "key": "genetics",
+    "title": "유전 정보",
+    "body": "2018년 방어 유전체 초안은 반수체 자어 DNA로 조립되어 전체 길이 627.3 Mb, 2 kb 넘는 스캐폴드 1,394개(N50 1.43 Mb)였다[5]. 단백질 암호화 유전자는 27,693개로 예측되었고 그중 93.3%에 기능 주석이 붙었다[5]. 2014년에는 93개 세포주로 이루어진 방사선 잡종 패널과 표지 580개의 첫 물리 지도가 만들어졌다[6]. 같은 해 유전체의 약 16배인 11 Gb 규모 BAC 라이브러리와 SSR 표지 837개로 24개 연관군의 암·수 연관 지도가 발표되었다[7]. 2018년에는 표지 1,713개의 고밀도 물리 지도에 발현 서열 13,977개를 얹어 모델 어류와 염색체 재배열을 비교했고, 진화 과정의 염색체 전좌 빈도가 송사리·복어·큰가시고기보다 1.5–2배 높았다[8].\n\n피부 기생충 Benedenia seriolae 저항성에는 연관군 Squ2와 Squ20의 두 주요 양적형질좌위가 표현형 분산의 32.9–35.5%를 설명했다[9]. Squ2 좌위 안에서는 새로운 C형 렉틴 유전자가 발견되었고, 그 유전자의 SNP가 감염 정도와 유의하게 관련되었다[10]. 성장 관련 양적형질좌위는 다른 연관군(Squ7)에 있었다[9]."
+   },
+   {
+    "key": "safety",
+    "title": "안전성",
+    "body": "방어 살은 유리 히스티딘이 100 g당 약 1,087–1,122 mg으로 많아, 세균이 이를 히스타민으로 바꾸면 히스타민(스콤브로이드) 식중독이 생길 수 있다[2, 4]. 2016년 서울 급식 사고(원문은 학명 없이 'yellowtail')에서 남은 스테이크의 히스타민은 293 mg/kg으로 식약처 기준 200 mg/kg을 넘었고, 환자는 모두 얼굴 홍조(100%)를 보였으며 두통이 72.7%, 잠복기 중앙값은 40분이었다[4]. 환자들은 몇 시간 안에 회복했다[4]. 히스타민은 열에 안정해 익혀도 없어지지 않으므로 냉장 유통이 필수라고 논문은 강조했고, 당시 'yellowtail'이 히스타민 검사 대상 품목에 없었다고 지적했다(논문의 yellowtail이 방어인지와 현재 식품공전 적용 여부는 확인하지 못함)[4].\n\n일본 시판 생선 19종 210시료 조사에서 'yellowtail'(초록에 학명 없음)의 총수은·메틸수은은 양식이 자연산보다 낮았으나, 수치는 초록에서 확인하지 못함[26]. 일본 연안 방어 혈액에서는 수산화 PCB·수산화 PBDE 같은 유기할로젠 대사물이 검출되었다[27]. 크릴 사료를 먹인 방어의 등살 불소는 검출한계(1 mg/kg) 미만이었다[18]. 기생충으로는 제주 위 아니사키스증 감염원 생선 목록에 학명 없이 'yellowtail'이 들어 있었으나 그 생선에서 유충을 직접 찾은 것은 아니었고[30], 동해 고성 앞바다 방어 2마리에서 선충 Philometroides seriolae 6개체가 확인되었다[29]. 생선 알레르기 아이 1명의 경구유발시험에서 방어는 증상 없이 먹을 수 있었지만 한 사례일 뿐이다[37]. 국내 공공기관의 방어 알레르기·잔류물질 정보는 확인하지 못함."
+   }
+  ],
+  "compounds": [
+   {
+    "name": "Histamine",
+    "name_ko": "히스타민",
+    "class": "생체아민(부패 지표·식중독 원인)",
+    "role": "marker",
+    "part": "살(조리한 스테이크)",
+    "content_text": "서울 급식 사고 잔여 스테이크(원문은 학명 없이 'yellowtail') 293 mg/kg(기준 200 mg/kg)[4]",
+    "activity_ko": "히스타민 식중독의 원인 물질이며 열에 안정해 조리로 없어지지 않는다[4]",
+    "source": [
+     4
+    ]
+   },
+   {
+    "name": "Histidine",
+    "name_ko": "히스티딘(유리)",
+    "class": "아미노산(히스타민 전구체)",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 1,086.67±21.55, 외해 양식 1,121.67±30.49 mg/100 g[2]",
+    "activity_ko": "세균의 탈탄산으로 히스타민이 되는 전구체이며 감칠맛과도 관련된다[4, 25]",
+    "source": [
+     2,
+     4,
+     25
+    ]
+   },
+   {
+    "name": "Eicosapentaenoic acid",
+    "name_ko": "에이코사펜타엔산(EPA)",
+    "class": "n-3 고도불포화지방산",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 0.883±0.048, 외해 양식 0.717±0.031 g/100 g[2]",
+    "activity_ko": "사람이 합성하지 못하는 n-3 지방산으로 식품 품질의 주요 지표로 쓰였다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Docosahexaenoic acid",
+    "name_ko": "도코사헥사엔산(DHA)",
+    "class": "n-3 고도불포화지방산",
+    "role": "nutrient",
+    "part": "보통근·여러 장기 인지질",
+    "content_text": "보통근 연안 양식 1.467±0.071, 외해 양식 1.217±0.031 g/100 g[2]",
+    "activity_ko": "여러 장기 인지질(PC·PE·PS)의 주된 고도불포화지방산이었다[36]",
+    "source": [
+     2,
+     36
+    ]
+   },
+   {
+    "name": "Oleic acid",
+    "name_ko": "올레산",
+    "class": "단일불포화지방산(n-9)",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 3.617±0.206, 외해 양식 2.650±0.062 g/100 g[2]",
+    "activity_ko": "보통근 지방산 중 가장 많았다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Palmitic acid",
+    "name_ko": "팔미트산",
+    "class": "포화지방산",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 2.450±0.126, 외해 양식 1.933±0.049 g/100 g[2]",
+    "activity_ko": "주요 포화지방산이다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Linoleic acid",
+    "name_ko": "리놀레산",
+    "class": "n-6 고도불포화지방산",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 1.400±0.086, 외해 양식 1.050±0.022 g/100 g[2]",
+    "activity_ko": "외해 양식이 연안 양식보다 유의하게 낮아 사료 섭취량에 따라 달라졌다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Arachidonic acid",
+    "name_ko": "아라키돈산",
+    "class": "n-6 고도불포화지방산",
+    "role": "nutrient",
+    "part": "보통근·장기 인지질",
+    "content_text": "보통근 연안 양식 0.100±0.000 g/100 g, 외해 양식 불검출[2]; 장기별 포스파티딜이노시톨 지방산의 17.6–33.5%[36]",
+    "activity_ko": "포스파티딜이노시톨에 선택적으로 쌓인다[36]",
+    "source": [
+     2,
+     36
+    ]
+   },
+   {
+    "name": "Hypoxanthine",
+    "name_ko": "하이포잔틴(K값 구성)",
+    "class": "핵산 관련 물질(ATP 분해산물)",
+    "role": "marker",
+    "part": "보통근·혈합육",
+    "content_text": "K값 보통근 처음 6.4%, 혈합육 처음 31.3%·0 °C 3일 90% 초과[3]; 연안 양식 보통근 K값 5.0±0.6%(냉장 1일)[2]",
+    "activity_ko": "이노신과 함께 K값 계산에 쓰이며 저장 일수 예측 모형에서 중요 대사물이었다[3]",
+    "source": [
+     2,
+     3
+    ]
+   },
+   {
+    "name": "alpha-Tocopherol",
+    "name_ko": "α-토코페롤(비타민 E)",
+    "class": "지용성 비타민",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 4.37±0.25, 외해 양식 3.93±0.22 mg/100 g[2]",
+    "activity_ko": "지질 산화와 혈합육 변색에 관여하는 성분으로 논의되었다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Ascorbic acid",
+    "name_ko": "아스코르브산(비타민 C)",
+    "class": "수용성 비타민",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 13.5±1.4, 외해 양식 10.8±1.0 mg/100 g[2]",
+    "activity_ko": "두 양식 방식 사이에 유의한 차이가 없었다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Iron",
+    "name_ko": "철",
+    "class": "무기질",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 0.28±0.01, 외해 양식 0.25±0.01 mg/100 g[2]",
+    "activity_ko": "철 이온은 미오글로빈 산화(변색)를 촉진할 수 있다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Glutamic acid",
+    "name_ko": "글루탐산(유리)",
+    "class": "아미노산(감칠맛)",
+    "role": "nutrient",
+    "part": "보통근",
+    "content_text": "연안 양식 8.67±1.96, 외해 양식 20.67±2.09 mg/100 g[2]",
+    "activity_ko": "대표적인 감칠맛 성분이다[2]",
+    "source": [
+     2
+    ]
+   },
+   {
+    "name": "Trimethylamine",
+    "name_ko": "트리메틸아민",
+    "class": "휘발성 아민(비린내)",
+    "role": "marker",
+    "part": "보통근·혈합육(가열)",
+    "content_text": "수치는 초록에서 확인하지 못함; 90 °C 6분 가열이 63 °C 30분보다 유의하게 높음[23]",
+    "activity_ko": "찐 방어의 비린 냄새와 관련되며, 고온 단시간 가열 때 혈합육의 TMA 냄새 강도가 더 높았다[23]",
+    "source": [
+     23
+    ]
+   },
+   {
+    "name": "Mercury",
+    "name_ko": "수은(총수은·메틸수은)",
+    "class": "유해 중금속",
+    "role": "contaminant",
+    "part": "살",
+    "content_text": "수치는 초록에서 확인하지 못함; 'yellowtail'(초록에 학명 없음)은 양식이 자연산보다 낮음[26]",
+    "activity_ko": "메틸수은 노출을 줄이려면 어종 선택과 섭취량 조절이 중요하다고 논문은 적었다[26]",
+    "source": [
+     26
+    ]
+   }
+  ],
+  "markers": [],
+  "assays": [
+   {
+    "role": "literature",
+    "compound": "Fatty acid methyl esters (EPA, DHA, C18:1n-9 etc.)",
+    "compound_ko": "지방산 조성(EPA·DHA 등)",
+    "part": "보통근(일본 연안·외해 가두리 양식, 각 6마리)",
+    "content": "연안 양식 총지방산 13.33±0.74, EPA 0.883±0.048, DHA 1.467±0.071 g/100 g; 외해 양식 총지방산 10.32±0.27, EPA 0.717±0.031, DHA 1.217±0.031 g/100 g[2]",
+    "method": "GC-FID",
+    "conditions": {
+     "instrument": "가스크로마토그래프 Agilent 7890B, FID 장착",
+     "column": "DB-23 모세관 칼럼(Agilent Technologies), 규격은 원문에 없음",
+     "mobile_phase": "",
+     "gradient": "",
+     "flow": "",
+     "temp": "",
+     "detection": "FID",
+     "injection": "",
+     "sample_prep": "시료 50–100 g에서 클로로폼/메탄올로 지질 추출 → 0.5 M NaOH-메탄올로 비누화 → 삼불화붕소-메탄올로 메틸에스터화 → 헥세인·포화식염수로 추출한 헥세인층 주입",
+     "standard": "",
+     "linearity": "",
+     "lod": "",
+     "loq": "",
+     "recovery": ""
+    },
+    "rationale": "EPA·DHA 같은 n-3 지방산은 방어 살의 영양 품질을 판단하는 주요 지표로 쓰였다[2]. 전문(Methods) 확인 — 칼럼 규격·온도 프로그램·운반 기체·검출한계·회수율은 원문에 없음[2].",
+    "source": [
+     2
+    ],
+    "url": "https://doi.org/10.1002/fsn3.2898",
+    "source_kind": "paper"
+   },
+   {
+    "role": "literature",
+    "compound": "Nucleotides (ATP, ADP, AMP, IMP, inosine, hypoxanthine; K value)",
+    "compound_ko": "핵산 관련 물질(K값)",
+    "part": "등쪽 보통근·혈합육(일본 히로시마 시판 양식 방어 6마리)",
+    "content": "K값 보통근 대조 6.4%, 0 °C 저장 회귀식 y = 5.45x + 8.34(R² = 0.98); 혈합육 대조 31.3%, 0 °C 3일·5 °C 1일에 90% 초과[3]",
+    "method": "UPLC-UV",
+    "conditions": {
+     "instrument": "UPLC(ACQUITY, Waters) 가변 자외선 검출기",
+     "column": "Kinetex Evo C18, 1.7 μm, 50 mm × 2.1 mm, 100 Å",
+     "mobile_phase": "100 mmol/L 인산·150 mmol/L 트리에틸아민/증류수 = 100/1",
+     "gradient": "",
+     "flow": "0.9 mL/min",
+     "temp": "칼럼 40 °C",
+     "detection": "UV 260 nm",
+     "injection": "1 μL",
+     "sample_prep": "살 2.0 g + 10% 과염소산 4 mL 균질화·원심 → 침전에 5% 과염소산 4 mL로 재추출 → 상등액 합쳐 수산화칼륨 중화·원심 → 25 mL 정용 → 10배 희석·0.45 μm 여과",
+     "standard": "ATP·ADP·AMP·IMP·이노신·하이포잔틴 표준물질과 머무름 시간 비교, 피크 면적으로 정량",
+     "linearity": "",
+     "lod": "",
+     "loq": "",
+     "recovery": ""
+    },
+    "rationale": "ATP 분해산물 비율인 K값은 생선 살의 대표적인 화학적 신선도 지표다[3]. 전문(Methods) 확인 — 직선성·검출한계·정량한계·회수율은 원문에 없음[3].",
+    "source": [
+     3
+    ],
+    "url": "https://doi.org/10.3390/foods8100511",
+    "source_kind": "paper"
+   },
+   {
+    "role": "literature",
+    "compound": "alpha-Tocopherol",
+    "compound_ko": "α-토코페롤",
+    "part": "보통근(일본 연안·외해 가두리 양식)",
+    "content": "연안 양식 4.37±0.25, 외해 양식 3.93±0.22 mg/100 g[2]",
+    "method": "HPLC-FLD(순상)",
+    "conditions": {
+     "instrument": "HPLC(형광 검출기)",
+     "column": "YMC-PAK SIL-06 S-5, 4.6 mm × 25 cm",
+     "mobile_phase": "n-헥세인:2-프로판올:아세트산 = 1000:6:5(v/v/v)",
+     "gradient": "",
+     "flow": "1.5 mL/min",
+     "temp": "칼럼 40 °C",
+     "detection": "형광, 여기 298 nm·측정 325 nm",
+     "injection": "",
+     "sample_prep": "시료 0.5–3 g + 1% NaCl·피로갈롤·에탄올·60% KOH, 70 °C 30분 비누화 → 헥세인-2-프로판올-아세트산에틸(9:1.5:1)로 추출·원심 → 유기층 증발 후 헥세인에 녹임",
+     "standard": "",
+     "linearity": "",
+     "lod": "",
+     "loq": "",
+     "recovery": ""
+    },
+    "rationale": "비타민 E는 지질·미오글로빈 산화로 생기는 혈합육 변색과 관련된 항산화 성분이라 함께 측정되었다[2]. 전문(Methods) 확인 — 표준물질·검출한계·회수율은 원문에 없음[2].",
+    "source": [
+     2
+    ],
+    "url": "https://doi.org/10.1002/fsn3.2898",
+    "source_kind": "paper"
+   },
+   {
+    "role": "literature",
+    "compound": "Histamine",
+    "compound_ko": "히스타민",
+    "part": "조리한 살(급식 스테이크 잔여분, 학명 미기재 yellowtail)",
+    "content": "293 mg/kg(식약처 기준 200 mg/kg 초과)[4]",
+    "method": "HPLC-FLD",
+    "conditions": {
+     "instrument": "HPLC",
+     "column": "",
+     "mobile_phase": "",
+     "gradient": "",
+     "flow": "",
+     "temp": "",
+     "detection": "형광 검출",
+     "injection": "",
+     "sample_prep": "",
+     "standard": "",
+     "linearity": "",
+     "lod": "",
+     "loq": "",
+     "recovery": ""
+    },
+    "rationale": "히스타민은 히스타민 식중독의 원인 물질이자 수산물 위생 기준 항목이다[4]. 전문 확인 — 원문은 'HPLC 형광검출법'으로 식약처 지방청이 분석했다고만 적어 칼럼·이동상 등 조건은 비워 둠[4].",
+    "source": [
+     4
+    ],
+    "url": "https://doi.org/10.3346/jkms.2018.33.e235",
+    "source_kind": "paper"
+   }
+  ],
+  "nutrients": [
+   {
+    "form": "양식 방어 보통근(일본 연안 가두리 1년 사육, 6마리 평균; 국가표준식품성분표 값 아님)",
+    "basis": "가식부 100 g(생것)",
+    "items": [
+     {
+      "name": "수분",
+      "value": 60.2,
+      "unit": "g"
+     },
+     {
+      "name": "단백질",
+      "value": 22.4,
+      "unit": "g"
+     },
+     {
+      "name": "지질",
+      "value": 16.5,
+      "unit": "g"
+     },
+     {
+      "name": "회분",
+      "value": 1.07,
+      "unit": "g"
+     },
+     {
+      "name": "탄수화물",
+      "value": 0.07,
+      "unit": "g"
+     },
+     {
+      "name": "에너지",
+      "value": 238.2,
+      "unit": "kcal"
+     },
+     {
+      "name": "철",
+      "value": 0.28,
+      "unit": "mg"
+     },
+     {
+      "name": "비타민 C",
+      "value": 13.5,
+      "unit": "mg"
+     },
+     {
+      "name": "α-토코페롤",
+      "value": 4.37,
+      "unit": "mg"
+     }
+    ],
+    "source": [
+     2
+    ]
+   }
+  ],
+  "production": [],
+  "world": [],
+  "gi": [],
+  "orgs": [],
+  "sources": [
+   {
+    "n": 1,
+    "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Seriola quinqueradiata 3행: 원료명 '방어'(부위 '-')·'방어포'(부위 '-')·'방어살'(부위 '죽순', 원자료 표기 그대로), 영문 Japanese amberjack, Yellowtail, 수산물, 식품원료(A코드), 사용가능, 사용 조건·별명 없음; 같은 속 잿방어(S. dumerili)·부시리(S. lalandi)·낫잿방어(S. rivoliana)는 별도 행; 고시형 원료 원재료 목록 없음(로컬 원자료 I1020_20261013.json 확인)",
+    "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+    "publisher": "식품의약품안전처",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 2,
+    "title": "Quality assessment of yellowtail (Seriola quinqueradiata) meat cultured in an offshore floating flexible facility. Food Sci Nutr 2022;10(9):3024-3033 (PMC 전문 확인)",
+    "url": "https://doi.org/10.1002/fsn3.2898",
+    "publisher": "Wiley (PubMed PMID 36171766)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 3,
+    "title": "Changes in Metabolic Profiles of Yellowtail (Seriola quinqueradiata) Muscle during Cold Storage as a Freshness Evaluation Tool Based on GC-MS Metabolomics. Foods 2019;8(10):511 (PMC 전문 확인)",
+    "url": "https://doi.org/10.3390/foods8100511",
+    "publisher": "MDPI (PubMed PMID 31635314)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 4,
+    "title": "An Outbreak of Scombroid Fish Poisoning Associated with Consumption of Yellowtail Fish in Seoul, Korea. J Korean Med Sci 2018;33(38):e235 (PMC 전문 확인; 원문은 학명 없이 'yellowtail'로 표기)",
+    "url": "https://doi.org/10.3346/jkms.2018.33.e235",
+    "publisher": "대한의학회 (PubMed PMID 30224906)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 5,
+    "title": "The yellowtail (Seriola quinqueradiata) genome and transcriptome atlas of the digestive tract. DNA Res 2018;25(5):547-560 (초록 확인)",
+    "url": "https://doi.org/10.1093/dnares/dsy024",
+    "publisher": "Oxford University Press (PubMed PMID 30329019)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 6,
+    "title": "Construction of a radiation hybrid panel and the first yellowtail (Seriola quinqueradiata) radiation hybrid map using a nanofluidic dynamic array. BMC Genomics 2014;15:165 (초록 확인)",
+    "url": "https://doi.org/10.1186/1471-2164-15-165",
+    "publisher": "BioMed Central (PubMed PMID 24571093)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 7,
+    "title": "Construction of a high-coverage bacterial artificial chromosome library and comprehensive genetic linkage map of yellowtail Seriola quinqueradiata. BMC Res Notes 2014;7:200 (초록 확인)",
+    "url": "https://doi.org/10.1186/1756-0500-7-200",
+    "publisher": "BioMed Central (PubMed PMID 24684753)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 8,
+    "title": "Constructing a 'Chromonome' of Yellowtail (Seriola quinqueradiata) for Comparative Analysis of Chromosomal Rearrangements. J Genomics 2018;6:9-19 (초록 확인)",
+    "url": "https://doi.org/10.7150/jgen.23222",
+    "publisher": "Ivyspring (PubMed PMID 29290830)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 9,
+    "title": "Quantitative trait loci (QTL) associated with resistance to a monogenean parasite (Benedenia seriolae) in yellowtail (Seriola quinqueradiata) through genome wide analysis. PLoS One 2013;8(6):e64987 (초록 확인)",
+    "url": "https://doi.org/10.1371/journal.pone.0064987",
+    "publisher": "PLOS (PubMed PMID 23750223)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 10,
+    "title": "A novel C-type lectin gene is a strong candidate gene for Benedenia disease resistance in Japanese yellowtail, Seriola quinqueradiata. Dev Comp Immunol 2017;76:361-369 (초록 확인)",
+    "url": "https://doi.org/10.1016/j.dci.2017.07.010",
+    "publisher": "Elsevier (PubMed PMID 28705457)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 11,
+    "title": "Spatial distributions of floating seaweeds in the East China Sea from late winter to early spring. J Appl Phycol 2013;26(2):1159-1167 (초록 확인)",
+    "url": "https://doi.org/10.1007/s10811-013-0139-8",
+    "publisher": "Springer (PubMed PMID 24771973)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 12,
+    "title": "Seasonal variation in fish school spatial distribution and abundance under the Kuroshio regular pattern and the large meander in Suzu coastal waters. PLoS One 2021;16(11):e0260629 (초록 확인)",
+    "url": "https://doi.org/10.1371/journal.pone.0260629",
+    "publisher": "PLOS (PubMed PMID 34847206)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 13,
+    "title": "Continuous darkness is associated with improved growth performance during a high-temperature period and sex-specific modulation of early gonadal development in juvenile yellowtail (Seriola quinqueradiata). J Fish Biol 2026;109(4):2371-2382 (초록 확인)",
+    "url": "https://doi.org/10.1111/jfb.70617",
+    "publisher": "Wiley (PubMed PMID 42601346)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 14,
+    "title": "Functional Sperm of the Yellowtail (Seriola quinqueradiata) Were Produced in the Small-Bodied Surrogate, Jack Mackerel (Trachurus japonicus). Mar Biotechnol 2015;17(5):644-54 (초록 확인)",
+    "url": "https://doi.org/10.1007/s10126-015-9657-5",
+    "publisher": "Springer (PubMed PMID 26239188)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 15,
+    "title": "Clonal structure in Ichthyobacterium seriolicida, the causative agent of bacterial haemolytic jaundice in yellowtail, Seriola quinqueradiata, inferred from molecular epidemiological analysis. J Fish Dis 2016;40(8):1065-1075 (초록 확인)",
+    "url": "https://doi.org/10.1111/jfd.12586",
+    "publisher": "Wiley (PubMed PMID 28000932)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 16,
+    "title": "Ichthyobacterium seriolicida gen. nov., sp. nov., a member of the phylum 'Bacteroidetes', isolated from yellowtail fish (Seriola quinqueradiata) affected by bacterial haemolytic jaundice, and proposal of a new family, Ichthyobacteriaceae fam. nov. Int J Syst Evol Microbiol 2016;66(2):580-586 (초록 확인)",
+    "url": "https://doi.org/10.1099/ijsem.0.000757",
+    "publisher": "Microbiology Society (PubMed PMID 26554606)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 17,
+    "title": "Detection of quinolone-resistance genes in Photobacterium damselae subsp. piscicida strains by targeting-induced local lesions in genomes. J Fish Dis 2005;28(8):463-71 (초록 확인)",
+    "url": "https://doi.org/10.1111/j.1365-2761.2005.00652.x",
+    "publisher": "Wiley (PubMed PMID 16159364)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 18,
+    "title": "Effect of dietary fluoride derived from Antarctic krill (Euphausia superba) meal on growth of yellowtail (Seriola quinqueradiata). Chemosphere 2011;86(9):891-7 (초록 확인)",
+    "url": "https://doi.org/10.1016/j.chemosphere.2011.10.042",
+    "publisher": "Elsevier (PubMed PMID 22113059)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 19,
+    "title": "Reducing Fish Meal Dependency in Juvenile Yellowtail Diets Using Composite By-Product Protein Mixtures. Animals 2026;16(7):1029 (초록 확인)",
+    "url": "https://doi.org/10.3390/ani16071029",
+    "publisher": "MDPI (PubMed PMID 41976008)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 20,
+    "title": "Growth of Yellowtail (Seriola quinqueradiata) Fed on a Diet Including Partially or Completely Defatted Black Soldier Fly (Hermetia illucens) Larvae Meal. Insects 2021;12(8):722 (초록 확인)",
+    "url": "https://doi.org/10.3390/insects12080722",
+    "publisher": "MDPI (PubMed PMID 34442288)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 21,
+    "title": "Effect of blood deposition phenomenon on flesh quality of yellowtail (Seriola quinqueradiata) during storage. J Texture Stud 2019;50(4):325-331 (초록 확인)",
+    "url": "https://doi.org/10.1111/jtxs.12397",
+    "publisher": "Wiley (PubMed PMID 30838657)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 22,
+    "title": "Changes in the Quality and Microflora of Yellowtail (Seriola quinqueradiata) Muscles during Cold Storage. Foods 2024;13(7):1086 (초록 확인)",
+    "url": "https://doi.org/10.3390/foods13071086",
+    "publisher": "MDPI (PubMed PMID 38611390)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 23,
+    "title": "Effect of different heating conditions on odor of yellowtail Seriola quinqueradiata muscles. Biosci Biotechnol Biochem 2021;85(9):2030-2041 (초록 확인)",
+    "url": "https://doi.org/10.1093/bbb/zbab110",
+    "publisher": "Oxford University Press (PubMed PMID 34143181)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 24,
+    "title": "Identification of a Tissue Inhibitor of Metalloproteinase-2: An Endogenous Inhibitor of Modori-Inducing Insoluble Metalloproteinase from Yellowtail Muscle. J Agric Food Chem 2023 (초록 확인)",
+    "url": "https://doi.org/10.1021/acs.jafc.2c07803",
+    "publisher": "American Chemical Society (PubMed PMID 36753295)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 25,
+    "title": "Taste Evaluation of Yellowtail (Seriola Quinqueradiata) Ordinary and Dark Muscle by Metabolic Profiling. Molecules 2019;24(14):2574 (초록 확인)",
+    "url": "https://doi.org/10.3390/molecules24142574",
+    "publisher": "MDPI (PubMed PMID 31311195)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 26,
+    "title": "[Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish]. Shokuhin Eiseigaku Zasshi 2017;58(2):80-85 (일본어 논문, 영문 초록 확인; 초록은 학명 없이 'yellowtail'로 표기)",
+    "url": "https://doi.org/10.3358/shokueishi.58.80",
+    "publisher": "Food Hygienic Society of Japan (PubMed PMID 28484136)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 27,
+    "title": "Organohalogen compounds and their metabolites in the blood of Japanese amberjack (Seriola quinqueradiata) and scalloped hammerhead shark (Sphyrna lewini) from Japanese coastal waters. Chemosphere 2011;85(3):315-21 (초록 확인)",
+    "url": "https://doi.org/10.1016/j.chemosphere.2011.06.092",
+    "publisher": "Elsevier (PubMed PMID 21782210)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 28,
+    "title": "Wildlife as reservoirs for parasites infecting commercial species: host specificity and a redescription of Kudoa amamiensis from teleost fish in Australia. J Fish Dis 2008;31(11):835-44 (초록 확인)",
+    "url": "https://doi.org/10.1111/j.1365-2761.2008.00958.x",
+    "publisher": "Wiley (PubMed PMID 19238745)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 29,
+    "title": "Morphological and Molecular Characterization of Philometroides seriolae from Japanese Amberjack Seriola quinqueradiata caught in East Sea, Republic of Korea. Korean J Parasitol 2022;60(1):45-49 (초록 확인)",
+    "url": "https://doi.org/10.3347/kjp.2022.60.1.45",
+    "publisher": "대한기생충학·열대의학회 (PubMed PMID 35247954)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 30,
+    "title": "[Gastric anisakiasis cases in Cheju-do, Korea]. Korean J Parasitol 1995;33(3):179-86 (한국어 논문, 영문 초록 확인; 학명 표기 없음)",
+    "url": "https://doi.org/10.3347/kjp.1995.33.3.179",
+    "publisher": "대한기생충학회 (PubMed PMID 8528624)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 31,
+    "title": "Caligus coryphaenae infection from the Osumi strait, Southern Japan: A new record on wild yellowtail (Seriola quinqueradiata). Vet Parasitol Reg Stud Reports 2021;24:100576 (초록 확인)",
+    "url": "https://doi.org/10.1016/j.vprsr.2021.100576",
+    "publisher": "Elsevier (PubMed PMID 34024392)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 32,
+    "title": "Structural characterization of carangid fish myoglobins. Fish Physiol Biochem 2012;38(5):1311-22 (초록 확인)",
+    "url": "https://doi.org/10.1007/s10695-012-9619-z",
+    "publisher": "Springer (PubMed PMID 22361749)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 33,
+    "title": "Identification of Sex-associated SNPs of Greater Amberjack (Seriola dumerili). J Genomics 2018;6:53-62 (초록 확인)",
+    "url": "https://doi.org/10.7150/jgen.24788",
+    "publisher": "Ivyspring (PubMed PMID 29861788)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 34,
+    "title": "Granulicatella seriolae sp. nov., a Novel Facultative Anaerobe Isolated from Yellowtail Marine Fish. Curr Microbiol 2023;81(1):13 (초록 확인)",
+    "url": "https://doi.org/10.1007/s00284-023-03523-6",
+    "publisher": "Springer (PubMed PMID 38001383)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 35,
+    "title": "[Fatty acid composition of edible marine fish in Zhoushan, Zhejiang province]. Zhonghua Yu Fang Yi Xue Za Zhi 2013;47(6):552-5 (중국어 논문, 영문 초록 확인; 값이 다른 자료보다 수십 배 낮아 해석 주의)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24113107/",
+    "publisher": "중화의학회 (PubMed PMID 24113107)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 36,
+    "title": "Mechanisms of accumulation of arachidonate in phosphatidylinositol in yellowtail. A comparative study of acylation systems of phospholipids in rat and the fish species Seriola quinqueradiata. Eur J Biochem 2003;270(7):1466-73 (초록 확인)",
+    "url": "https://doi.org/10.1046/j.1432-1033.2003.03512.x",
+    "publisher": "Wiley (PubMed PMID 12654002)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 37,
+    "title": "Fish allergy tolerance 16 months after diagnosis. Allergol Immunopathol 2021;49(5):25-27 (초록 확인)",
+    "url": "https://doi.org/10.15586/aei.v49i5.313",
+    "publisher": "Codon Publications (PubMed PMID 34476918)",
+    "accessed": "2026-11-02"
+   },
+   {
+    "n": 38,
+    "title": "Extracellular Vesicles Derived from the Serum of Seriola quinqueradiata Induce Human Umbilical Vein Endothelial Cell Proliferation through Angiogenic Signaling. Biol Pharm Bull 2023;46(11):1643-1646 (초록 확인)",
+    "url": "https://doi.org/10.1248/bpb.b23-00546",
+    "publisher": "일본약학회 (PubMed PMID 37914369)",
+    "accessed": "2026-11-02"
+   }
+  ]
+ },
+ "changes": [
+  {
+   "where": "sections.history",
+   "before": "yellowtail(방어로 추정되나 원문에 학명 없음)이 들어 있었다[30]",
+   "after": "학명 없이 'yellowtail'로 적힌 어종이 들어 있었다(영문 초록 기준, 방어로 단정할 수 없음)[30]",
+   "why": "[30] 영문 초록은 학명 없이 yellowtail 로만 적어 '방어로 추정'은 근거 없는 추정"
+  },
+  {
+   "where": "sections.history",
+   "before": "2016년 11월 서울의 한 초등학교 급식에서 yellowtail 스테이크를 먹은",
+   "after": "2016년 11월 서울의 한 초등학교 급식에서 'yellowtail' 스테이크(학명 미기재)를 먹은",
+   "why": "[4] 전문에 학명·국문명이 없어 종 미확정임을 문장 안에서 분명히 함"
+  },
+  {
+   "where": "sections.biology",
+   "before": "일본 가고시마 시장의 자연산 방어 223마리는 전장 50 cm 미만부터 70 cm 넘는 개체까지 있었다[31].",
+   "after": "일본 가고시마 시장의 자연산 방어 223마리 중 24.2%에서 기생성 요각류 Caligus coryphaenae가 확인되었고, 자연산 방어에서의 첫 기록이었다[31].",
+   "why": "[31] 의 요지는 체장 분포가 아니라 Caligus coryphaenae 감염(유병률 24.2%) 첫 기록"
+  },
+  {
+   "where": "sections.biology",
+   "before": "방어 미오글로빈은 아미노산 147개로 이루어지고 다른 전갱이과 어류와 81–99%가 같다[32].",
+   "after": "방어 미오글로빈은 아미노산 147개로 이루어지며, 방어를 포함해 조사한 전갱이과 5종 미오글로빈 사이의 서열 일치도는 81–99%였다[32].",
+   "why": "[32] 의 81–99% 는 전갱이과 5종 간 일치도 범위로, 방어 대 다른 종 값이 아님"
+  },
+  {
+   "where": "sections.biology",
+   "before": "중국 저우산 시장 시료에서는 31종 가운데 방어의 포화지방산(89.7±5.8 mg/100 g)과 n-6 고도불포화지방산(2.1±1.9 mg/100 g)이 가장 낮아, 산지·개체에 따라 지방 함량 차이가 큼을 보여 준다[35, 2].",
+   "after": "중국 저우산 시장 시료 31종 조사에서는 방어(학명 표기)의 가식부 100 g당 포화지방산(89.7±5.8 mg)과 n-6 고도불포화지방산(2.1±1.9 mg)이 가장 낮았다고 보고되었으나[35], 일본 양식 방어 보통근 값(포화지방산 2.83–3.57 g/100 g)[2]보다 수십 배 낮아 시료·동정·분석 조건은 초록만으로 확인하지 못함.",
+   "why": "[35] 값이 [2] 보다 수십 배 낮은데 '산지·개체 차이'로 해석한 것은 원문에 없는 추론 — 초록 값만 옮기고 확인 한계를 밝힘"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "방어·잿방어·부시리의 미오글로빈 아미노산 서열은 분류와 맞는 계통을 보였다[32]. 잿방어 연구는 성 결정 관련 SNP를 염색체 12번에서 찾았고, 방어와의 유전체 비교에서 방어속의 성 결정 체계가 보존되어 있을 것이라고 보았다[33].",
+   "after": "방어·잿방어·부시리를 포함한 전갱이과 5종의 미오글로빈 서열 계통은 기존 형태 분류와 맞았다[32].",
+   "why": "[33] 은 잿방어(S. dumerili) 성 결정 연구라 근연종 자료 섞임을 피하려 삭제; [32] 문장은 5종 분석임을 명확히"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "실제로 한 논문은 방어(S. quinqueradiata)를 부시리의 영문명인 'yellowtail kingfish'로 적었다[28].",
+   "after": "실제로 한 논문은 방어(S. quinqueradiata)를 'yellowtail kingfish'로 적었는데[28], 다른 논문은 이 이름을 부시리(S. lalandi)에 썼다[32].",
+   "why": "부시리=yellowtail kingfish 근거를 [32] 원문으로 붙임(식약처 목록의 부시리 영문명은 Yellowtail amberjack)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "냉장 저장에서 혈합육은 10일 넘게, 등쪽 보통근은 14일째에 냄새가 받아들일 수 없는 수준이 되었고, 한 세균 속이 90% 넘게 우세해졌다[22].",
+   "after": "냉장 저장에서 혈합육은 10일 넘게, 등쪽 보통근은 14일째에 냄새가 받아들일 수 없는 수준이 되었고, 10일 넘게 저장하면 두 부위 모두 슈도모나스속(Pseudomonas) 세균이 90% 넘게 우세해졌다[22].",
+   "why": "[22] 초록·키워드로 우세 세균 속(Pseudomonas)과 시점(10일 이후)을 구체화"
+  },
+  {
+   "where": "sections.safety",
+   "before": "히스타민은 열에 안정해 익혀도 없어지지 않으므로 냉장 유통이 필수라고 논문은 강조했고, 당시 방어가 히스타민 검사 대상 품목에 없었다고 지적했다(현재 식품공전 적용 여부는 확인하지 못함)[4].",
+   "after": "히스타민은 열에 안정해 익혀도 없어지지 않으므로 냉장 유통이 필수라고 논문은 강조했고, 당시 'yellowtail'이 히스타민 검사 대상 품목에 없었다고 지적했다(논문의 yellowtail이 방어인지와 현재 식품공전 적용 여부는 확인하지 못함)[4].",
+   "why": "[4] 원문은 'yellowtail fish' 로만 적어 '방어'로 단정한 표현을 고침"
+  },
+  {
+   "where": "sections.safety",
+   "before": "2016년 서울 급식 사고에서 남은 yellowtail 스테이크의 히스타민은",
+   "after": "2016년 서울 급식 사고(원문은 학명 없이 'yellowtail')에서 남은 스테이크의 히스타민은",
+   "why": "종 미확정 사례임을 안전성 절에서도 밝힘"
+  },
+  {
+   "where": "sections.safety",
+   "before": "일본 시판 생선 조사에서 yellowtail의 총수은·메틸수은은 양식이 자연산보다 낮았으나, 수치는 초록에서 확인하지 못함[26].",
+   "after": "일본 시판 생선 19종 210시료 조사에서 'yellowtail'(초록에 학명 없음)의 총수은·메틸수은은 양식이 자연산보다 낮았으나, 수치는 초록에서 확인하지 못함[26].",
+   "why": "[26] 초록에 학명이 없음을 본문에 밝히고 조사 규모를 원문대로 보충"
+  },
+  {
+   "where": "sections.safety",
+   "before": "기생충으로는 제주 위 아니사키스증 감염원 생선에 yellowtail이 포함되었고[30], 동해 고성 앞바다 방어에서 선충 Philometroides seriolae가 확인되었다[29].",
+   "after": "기생충으로는 제주 위 아니사키스증 감염원 생선 목록에 학명 없이 'yellowtail'이 들어 있었으나 그 생선에서 유충을 직접 찾은 것은 아니었고[30], 동해 고성 앞바다 방어 2마리에서 선충 Philometroides seriolae 6개체가 확인되었다[29].",
+   "why": "[30] 은 환자 섭취력 기반 목록이고 유충 확인은 고등어·볼락류(rock cod)에서만 했음; [29] 수치 보충"
+  },
+  {
+   "where": "compounds.Histamine.content_text",
+   "before": "서울 급식 사고 잔여 스테이크 293 mg/kg(기준 200 mg/kg)[4]",
+   "after": "서울 급식 사고 잔여 스테이크(원문은 학명 없이 'yellowtail') 293 mg/kg(기준 200 mg/kg)[4]",
+   "why": "종 미확정 표기"
+  },
+  {
+   "where": "compounds.Linoleic acid.content_text",
+   "before": "연안 양식 1.400±0.086, 외해 양식 1.050±0.022 g/100 g[2]; 저우산 시장 시료 n-6 PUFA 합계 2.1±1.9 mg/100 g[35]",
+   "after": "연안 양식 1.400±0.086, 외해 양식 1.050±0.022 g/100 g[2]",
+   "why": "[35] 값은 n-6 PUFA 합계라 리놀레산 값이 아니고 [2] 와 수십 배 어긋남"
+  },
+  {
+   "where": "compounds.Linoleic acid.activity_ko",
+   "before": "사료·산지에 따라 함량 차이가 크다[2, 35]",
+   "after": "외해 양식이 연안 양식보다 유의하게 낮아 사료 섭취량에 따라 달라졌다[2]",
+   "why": "[35] 제거에 맞춤"
+  },
+  {
+   "where": "compounds.Trimethylamine.activity_ko",
+   "before": "찐 방어의 비린 냄새와 관련되며 혈합육에서 냄새 강도가 높았다[23]",
+   "after": "찐 방어의 비린 냄새와 관련되며, 고온 단시간 가열 때 혈합육의 TMA 냄새 강도가 더 높았다[23]",
+   "why": "[23] 은 가열 조건 간 비교였음"
+  },
+  {
+   "where": "compounds.Mercury",
+   "before": "role bioactive; 수치는 초록에서 확인하지 못함; 양식이 자연산보다 낮음[26]",
+   "after": "role contaminant; 수치는 초록에서 확인하지 못함; 'yellowtail'(초록에 학명 없음)은 양식이 자연산보다 낮음[26]",
+   "why": "유해 중금속을 bioactive 로 둔 것 정정, 종 미확정 표기"
+  },
+  {
+   "where": "sources[16].title",
+   "before": "제목 일부 누락",
+   "after": "PubMed 제목 전체",
+   "why": "PubMed 서지와 맞춤"
+  }
+ ]
+}

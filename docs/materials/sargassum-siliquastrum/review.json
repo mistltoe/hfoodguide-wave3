@@ -1,0 +1,74 @@
+{
+ "slug": "sargassum-siliquastrum",
+ "reviewer": "V",
+ "date": "2026-11-02",
+ "checked_sentences": 76,
+ "checked_items": 57,
+ "verified": 124,
+ "fixed": 9,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "한국 고유의 모자반과(Sargassaceae) 갈조류로 소개된다[28]",
+   "after": "한국 자생(원문 'Korean indigenous') 모자반과(Sargassaceae) 갈조류로 소개된다[28]",
+   "why": "[28] 원문은 indigenous(자생)이며 고유종(endemic)이라는 뜻이 아님. 이 종은 일본·중국·홍콩·홍해에서도 채집됨"
+  },
+  {
+   "where": "sections.history",
+   "before": "빵에 6% 넣는 방식을 제안했다[35]",
+   "after": "모자반속 알긴산 제제를 빵에 6% 넣는 방식을 제안했다[35]",
+   "why": "[35] 초록은 빵 6% 첨가를 'Sargassum species 유래 알긴산 제제'로 적음 — 꽈배기모자반 한 종으로 한정되지 않음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "중국 하이난섬 맹그로브 연구에서는",
+   "after": "중국 하이난 소재 연구진의 맹그로브 먹이그물 연구(초록에 조사지 세부 없음)에서는",
+   "why": "[36] 초록에 하이난섬이라는 조사지가 없고 저자 소속만 하이난임"
+  },
+  {
+   "where": "sections.biology",
+   "before": "홍콩 해역의 갈조 3종(꽈배기모자반 포함) 조사에서 건조중량 기준 총 브로모페놀 함량은 계절에 따라 40.9–7030 ng/g으로 크게 달랐고, 겨울에 높고 여름에 낮았다[33].",
+   "after": "홍콩 해역의 갈조 3종(Padina arborescens·꽈배기모자반·Lobophora variegata) 조사에서 건조중량 기준 총 브로모페놀 함량은 3종을 합쳐 계절에 따라 40.9–7030 ng/g으로 크게 달랐고, 겨울에 높고 여름에 낮았다[33]. 이 범위는 3종을 합친 값이며 대체로 Lobophora variegata가 가장 높았으므로 꽈배기모자반만의 값이 아니다(초록에 종별 값 없음)[33].",
+   "why": "여러 종을 합친 범위가 이 종 값처럼 읽히지 않게 함. [33] 초록: L. variegata 의 TBC 가 대체로 가장 높음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "1991년 연구에서 꽈배기모자반 알긴산나트륨은 쥐의 스트론튬 체내 부담을 3.3–4.2배 줄였고, 사람 자원자에서 위장 기능 이상이나 칼슘·철·구리·아연 대사 변화는 관찰되지 않았다[35].",
+   "after": "1991년 연구에서 꽈배기모자반 알긴산나트륨은 쥐의 스트론튬 체내 부담을 3.3–4.2배 줄였고, 동물과 사람 자원자 시험에서 위장 기능 이상이나 칼슘·철·구리·아연 대사 변화는 관찰되지 않았다[35]. 다만 이는 정제한 알긴산나트륨 제제의 결과로, 꽈배기모자반 엽체 자체를 먹은 안전성 자료가 아니며 사람 시험에 쓴 제제의 원료 종은 초록에 명시되지 않았다[35].",
+   "why": "정제 알긴산 결과를 해조 섭취 안전성으로 과대 해석하지 않게 함; 초록상 사람 시험 제제의 종 불명"
+  },
+  {
+   "where": "compounds.Sodium alginate",
+   "before": "사람 자원자에서 안정 스트론튬 흡수를 78%(±8.9) 줄였다[35]",
+   "after": "사람 자원자에서 안정 스트론튬 흡수를 78%(±8.9) 줄였다(사람 시험에 쓴 제제의 원료 종은 초록에 명시 없음)[35]",
+   "why": "[35] 초록 범위로 한정"
+  },
+  {
+   "where": "compounds.2,4,6-Tribromophenol",
+   "before": "{\"name\": \"2,4,6-Tribromophenol\", \"name_ko\": \"2,4,6-트라이브로모페놀(브로모페놀류)\", \"content_text\": \"갈조 3종 합계 범위 40.9–7030 ng/g(건조중량, 계절별); 꽈배기모자반만의 값은 초록에 없음\"}",
+   "after": "{\"name\": \"Bromophenols (total)\", \"name_ko\": \"브로모페놀류(총량; 2,4,6-트라이브로모페놀 등 5종)\", \"content_text\": \"갈조 3종(Padina arborescens·꽈배기모자반·Lobophora variegata)을 합친 계절별 범위 40.9–7030 ng/g(건조중량)이며 Lobophora가 대체로 가장 높음; 꽈배기모자반만의 값은 초록에 없음\"}",
+   "why": "[33] 은 5종 브로모페놀의 총량(TBC)을 3종 합친 범위로 보고 — 단일 성분 2,4,6-TBP 값처럼 보이던 이름·함량을 총량·3종 합산으로 바로잡음"
+  },
+  {
+   "where": "assays.Bromophenols",
+   "before": "갈조 3종(꽈배기모자반 포함) 총 브로모페놀 40.9–7030 ng/g(건조중량, 계절별 범위; 겨울 높고 여름 낮음); 30% 꽈배기모자반 사료 340 ng/g",
+   "after": "갈조 3종(Padina arborescens·꽈배기모자반·Lobophora variegata)을 합친 총 브로모페놀 40.9–7030 ng/g(건조중량, 계절별 범위; 겨울 높고 여름 낮음; Lobophora가 대체로 가장 높음 — 꽈배기모자반만의 값 아님); 꽈배기모자반 30% 첨가 사료 자체의 함량 340 ng/g(사료 기준, 대조 사료 8.9 ng/g)",
+   "why": "3종 합산 범위와 사료 기준 값을 명시"
+  },
+  {
+   "where": "sources[26].title",
+   "before": "Sun et al. Gastroprotective effect of fucoidan from Sargassum siliquastrum against ethanol-induced gastric mucosal injury. Food Res Int 201:115566 (초록)",
+   "after": "Sun et al. Gastroprotective effect of fucoidan from Sargassum siliquastrum against ethanol-induced gastric mucosal injury. Food Res Int 2025;201:115566 (초록)",
+   "why": "PubMed 서지: 2025;201:115566(2024-12 온라인)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[33] 꽈배기모자반만의 브로모페놀 함량은 초록에 없고 전문은 열지 못함 — 3종 합산 범위로만 적음",
+  "[19][22][23][32][37] 등은 초록만으로 확인(전문 없음/본문 없음). [30] 전문에서 종명이 빠져 꽈배기모자반만의 엽록체 길이는 확인하지 못함(본문도 그렇게 적음)",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 대조: 꽈배기모자반 Sargassum siliquastrum, 식품원료(A코드), 사용가능, 사용가능부위 : 전체 — card.json 과 일치. 같은 속 원료 목록(모자반·톳·괭생이모자반·지충이·톱니모자반·비틀대모자반·알쏭이모자반)도 일치",
+  "꽈배기모자반의 비소·중금속·요오드 자료는 PubMed 검색(1건, 무관)으로도 찾지 못함 — 본문 '확인하지 못함' 유지, 다른 종 비소 자료 섞임 없음",
+  "PubMed 메타데이터·전문(PMC9205721·PMC10303138·PMC9722929·PMC8868545·PMC11204710)으로 [2]–[18],[20],[21],[24]–[31],[33]–[36],[38],[39] 대조. WebSearch 사용 안 함"
+ ]
+}

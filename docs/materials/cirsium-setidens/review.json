@@ -1,0 +1,91 @@
+{
+ "slug": "cirsium-setidens",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 64,
+ "checked_items": 54,
+ "verified": 96,
+ "fixed": 12,
+ "removed": 7,
+ "unverifiable": 3,
+ "changes": [
+  {
+   "where": "sections.cultivation",
+   "before": "파종 9월 하순~10월 상순·5월 중순 정식, 2년차 10a당 3,000~4,000 kg, 연 2~4회/5~7회 수확[25]; 2018년 전국 약 393 ha·강원 약 315 ha[26]",
+   "after": "수치 모두 삭제, '원문을 열지 못해 확인하지 못함'으로 바꾸고 [5]·[6]으로 확인되는 재배·수확(주로 5월) 내용만 남김",
+   "why": "[25]·[26]은 WebSearch 요약뿐이고 원문(농사로·산림청·KoreaScience)이 접속 차단으로 확인 불가"
+  },
+  {
+   "where": "sources",
+   "before": "[24] C. nipponicum 엽록체 유전체, [25] 농사로·산림청 검색 요약, [26] KoreaScience 검색 요약",
+   "after": "세 출처 삭제(마지막 번호라 재번호 불필요)",
+   "why": "[24]는 물엉겅퀴(식약처 목록 학명 Cirsium tanakae / Cirsium nipponicum) 자료로 종 섞임 위험; [25]·[26]은 원문 미확인"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "울릉도 특산 물엉겅퀴류(C. nipponicum) 엽록체 유전체 152,586 bp, 133개 유전자[24]…",
+   "after": "같은 속 다른 식품원료(물엉겅퀴 등)의 유전체 수치는 고려엉겅퀴에 적용할 수 없어 싣지 않았다[1]",
+   "why": "C. nipponicum은 I1020에서 물엉겅퀴의 학명 — 다른 원료 자료"
+  },
+  {
+   "where": "sections.overview",
+   "before": "간 손상 … 효과[2, 7, 13, 14, 19, 20]",
+   "after": "[14]의 CCl4 간 보호 효과는 사용 부위가 아닌 뿌리 부탄올 분획(500 mg/kg)이었다는 문장 추가",
+   "why": "PMID 18306454 초록: 유의한 간 보호는 뿌리 n-BuOH 분획 500 mg/kg; 식약처 사용 부위는 순·잎"
+  },
+  {
+   "where": "assays[Chlorogenic acid].content/rationale",
+   "before": "(−)-에피갈로카테킨 2376.00 mg/100 g 추출물 …",
+   "after": "값은 표 7과 일치함을 확인, '동결건조 추출물 무게 기준, 생물·건조 원료 기준 아님' 명시; EGC·갈로카테킨이 논문의 18종 표준품 목록에 없어 동정 근거가 불분명하다는 주의 추가",
+   "why": "PMC6271068 표 7·Methods 대조: 2376.00 mg/100 g extract, 표준품은 카테킨·EGCG 등 18종이고 EGC 없음"
+  },
+  {
+   "where": "compounds[Chlorogenic acid, Caffeic acid].content_text",
+   "before": "53.04 / 36.30 mg/100 g 추출물",
+   "after": "동결건조 열수추출물 기준, 원료 기준 아님 명시",
+   "why": "생/건 기준 혼동 방지(PMC6271068)"
+  },
+  {
+   "where": "compounds[Pectolinarigenin]·assays[0]",
+   "before": "열수추출 동결건조물 3.70 mg/g",
+   "after": "동결건조 후 99.9% 에탄올 재추출물 기준, 추출물 무게 기준임과 표의 'Fermented S9' 오기 명시; sample_prep에 에탄올 추출 단계 추가",
+   "why": "PMC6593477 2.5절: 모든 시료를 동결건조 후 99.9% 에탄올로 추출; 표 1의 S8 설명이 'Fermented S9'"
+  },
+  {
+   "where": "compounds[2-Pentylfuran]·assays[2-Pentylfuran]·processing",
+   "before": "가장 높은 농도/58종 중 최다 성분",
+   "after": "CWR/PDMS Arrow에서 특히 많이 검출; 결과상 대부분 Arrow에서 가장 많은 것은 2,2,4,6,6-펜타메틸헵탄이라고 보완",
+   "why": "PMC7353593 3.2절 결과 서술과 서론 요약이 다름"
+  },
+  {
+   "where": "sections.biology",
+   "before": "식용 부위인 잎 조직에는 페놀 화합물이 총 클로로필보다 약 4배…",
+   "after": "데쳐 말린 가공 시료를 분석한 연구에서 …",
+   "why": "PMC10535967의 측정 시료는 건조 가공 시료(DWV)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "곤드레는 … 대부분 데친 뒤 말린 건나물 형태로 저장·유통",
+   "after": "산나물은 … 대부분 수확 직후 말려 저장·유통",
+   "why": "PMC10535967 서론은 산나물 일반을 말하며 '데친 뒤'는 곤드레 유통 관행으로 쓰지 않음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "건강기능식품 고시형 원료는 없고, 개별인정형 원료 여부는 확인하지 못함",
+   "after": "I1020 C코드 항목 중 이름에 고려엉겅퀴·곤드레가 든 고시형·개별인정형 원료는 없다[1]",
+   "why": "로컬 I1020_20261013.json 대조(C코드는 밀크씨슬(고시형)·MS-10 엉겅퀴등복합추출물뿐)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "열수 추출물을 쥐에…",
+   "after": "건조 원료 열수 추출물(동결건조물)을 쥐에…",
+   "why": "시험물질 기준 명시(PMC6271068 3.2절)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[12] PMID 21547678 은 초록만 확인 — 고려엉겅퀴 함량값은 없음",
+  "[25]·[26] 원문(농사로·산림청·KoreaScience) 접속 차단으로 재배·재배면적 수치 삭제",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로컬 원자료로 대조: 8개 원료명 모두 '사용가능', 조건 '사용가능부위 : 순, 잎', 부위 칸 고려엉겅퀴순=순·고려엉겅퀴잎=잎·나머지 '-'; 이명 '곤드레, 도깨비엉겅퀴'; 도깨비엉겅퀴잎(C. schantarense)·흰잎고려엉겅퀴잎(var. niveoaraneum, 잎)·엉겅퀴(C. japonicum var. ussuriense, 순·잎·전초)·밀크씨슬(Silybum marianum, 잎·씨앗) 별도 확인 — 섞임 없음",
+  "논문 [2]~[6]은 PMC 전문, [7]~[23]은 PubMed 초록으로 대조"
+ ]
+}

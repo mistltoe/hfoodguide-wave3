@@ -1,0 +1,187 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+P = "2026-11-02"
+MF = "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)"
+MFU = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+
+def pm(n, title, pmid, journal, note="초록 확인", pmc=None):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    ids = f"PMID {pmid}" + (f", {pmc}" if pmc else "")
+    return {"n": n, "title": f"{title} ({ids}, {note})", "url": url, "publisher": journal, "accessed": P}
+
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 골담초꽃·골담초분말·골담초추출물 행(식품원료 A코드, 학명 'Caragana sinica (Buchoz) Rehder / Caragana chamlagu Lam.', 영문 'Chinese pea tree, Chinese peashrub', 사용가능, 사용가능부위 : 꽃; 2026-10-13 받은 원자료 대조)", "url": MFU, "publisher": MF, "accessed": "2026-10-13"},
+ {"n": 2, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 골담초뿌리 행(부위 '뿌리', 이명 '금작근(金雀根), 골담초꽃', 사용불가; 2026-10-13 받은 원자료 대조)", "url": MFU, "publisher": MF, "accessed": "2026-10-13"},
+ pm(3, "Skin wound healing and anti-wrinkle-promoting in vitro biological activities of Caragana sinica flower absolute and its chemical composition. Pharmaceuticals (Basel) 2023;16(2):235", "37017451", "Pharmaceuticals (MDPI)", "전문 확인", "PMC9964200"),
+ pm(4, "Flower extract of Caragana sinica ameliorates DSS-induced ulcerative colitis by affecting TLR4/NF-κB and TLR4/MAPK signaling pathway in a mouse model. Iran J Basic Med Sci 2021", "34249260", "Iranian Journal of Basic Medical Sciences", "전문 확인", "PMC8244599"),
+ pm(5, "Simultaneous determination of the contents of three stilbene oligomers in Caragana sinica collected in different seasons using an improved HPLC method. Biol Pharm Bull 2006;29(4):608-12", "16595888", "Biological & Pharmaceutical Bulletin"),
+ pm(6, "Ethnobotany, phytochemistry and pharmacology of the genus Caragana used in traditional Chinese medicine. J Ethnopharmacol 2009;124(3):350-68", "19422901", "Journal of Ethnopharmacology (Elsevier)"),
+ pm(7, "(+)-Alpha-viniferin, an anti-inflammatory compound from Caragana chamlagu root. Chem Pharm Bull 1990;38(2):432-5", "2337958", "Chemical & Pharmaceutical Bulletin"),
+ pm(8, "Antioxidative oligostilbenes from Caragana sinica. Bioorg Med Chem Lett 2011", "22209460", "Bioorganic & Medicinal Chemistry Letters (Elsevier)"),
+ pm(9, "Determination of hypaphorine and oligomeric stilbenes in the root of Caragana sinica by capillary electrophoresis with electrochemical detection. Talanta 2001;54(6):1067-76", "18968328", "Talanta (Elsevier)"),
+ pm(10, "Identification and determination of oligomeric stilbenes in the roots of Caragana species by capillary electrophoresis. Planta Med 2001;67(7):665-8", "11582547", "Planta Medica (Thieme)"),
+ pm(11, "Metabolites and the pharmacokinetics of kobophenol A from Caragana sinica in rats. J Ethnopharmacol 2005;101(1-3):324-9", "16099120", "Journal of Ethnopharmacology (Elsevier)"),
+ pm(12, "Potent inhibitory effect of alpha-viniferin on human cytochrome P450. Food Chem Toxicol 2014", "24769006", "Food and Chemical Toxicology (Elsevier)"),
+ pm(13, "Amelioration effects of α-viniferin on hyperuricemia and hyperuricemia-induced kidney injury in mice. Phytomedicine 2023", "37209608", "Phytomedicine (Elsevier)"),
+ pm(14, "The resveratrol trimer caraphenol A from Caragana sinica alleviates hyperuricemia and hyperuricemia-induced renal injury in mice. J Ethnopharmacol 2026", "42167660", "Journal of Ethnopharmacology (Elsevier)"),
+ pm(15, "Core constituents of Caragana sinica root for rheumatoid arthritis treatment and the potential mechanism. ACS Omega 2023", "36687056", "ACS Omega (American Chemical Society)", "초록 확인", "PMC9851025"),
+ pm(16, "Inhibition effect of Caragana sinica root extracts on osteoarthritis through MAPKs, NF-κB signaling pathway. Int J Med Sci 2021;18:861", "33456343", "International Journal of Medical Sciences (Ivyspring)", "초록 확인", "PMC7807197"),
+ pm(17, "Caragana sinica root bioactive fraction ameliorates experimental arthritis by inhibiting synovial inflammatory lesions through targeting HSP90α. Phytomedicine 2026", "42822338", "Phytomedicine (Elsevier)"),
+ pm(18, "Caragana sinica (Buc'hoz) Rehd. (jin ji er) polysaccharide regulates the immune function and intestinal microbiota of cyclophosphamide induced immunosuppressed mice. J Ethnopharmacol 2023", "38081398", "Journal of Ethnopharmacology (Elsevier)"),
+ pm(19, "Hypoglycemic oligostilbenes from the stems of Caragana sinica. Bioorg Chem 2023", "36933336", "Bioorganic Chemistry (Elsevier)"),
+ pm(20, "Two new oligostilbenes from Caragana sinica. J Asian Nat Prod Res 2004;6(4):241-8", "15621582", "Journal of Asian Natural Products Research (Taylor & Francis)"),
+ pm(21, "Chloroplast genomes evolution and phylogenetic relationships of Caragana species. Int J Mol Sci 2024;25(12):6786", "38928490", "International Journal of Molecular Sciences (MDPI)", "초록 확인", "PMC11203854"),
+ pm(22, "Ancient hybridization drives arid adaptation and species diversification in Caragana (Fabaceae). New Phytol 2025", "40629856", "New Phytologist (Wiley)"),
+ pm(23, "Pan-genome analysis of Caragana reveals genomic mechanisms of drought adaptation of leguminous shrubs to arid environments. Genome Biol 2026", "42958427", "Genome Biology (BMC)", "초록 확인", "PMC13721669"),
+ pm(24, "Synchronous determination with double-wavelength by RP-HPLC-UV and optimization of ultrasound-assisted extraction of phenolic acids from Caragana species (C. korshinskii). J Pharm Biomed Anal 2017;140:182-9", "28359966", "Journal of Pharmaceutical and Biomedical Analysis (Elsevier)"),
+ pm(25, "Acid-catalyzed epimerization of kobophenol A to carasinol B. Molecules 2008;13(4):938-42", "18463595", "Molecules (MDPI)", "초록 확인", "PMC6245474"),
+ pm(26, "Naturally occurring protein kinase C inhibitors; II. Isolation of oligomeric stilbenes from Caragana sinica. Planta Med 1995;61(1):41-4", "7700990", "Planta Medica (Thieme)"),
+ pm(27, "Extract of Caragana sinica as a potential therapeutic option for increasing alpha-secretase gene expression. Phytomedicine 2015", "26407945", "Phytomedicine (Elsevier)"),
+ pm(28, "Structural characterization of lignins isolated from Caragana sinica using FT-IR and NMR spectroscopy. Guang Pu Xue Yu Guang Pu Fen Xi 2011;31(9):2369-76", "22097829", "Spectroscopy and Spectral Analysis"),
+ pm(29, "[Studies on chemical constituents from roots of Caragana sinica]. Zhongguo Zhong Yao Za Zhi 2008;33(5):517-21", "18536372", "China Journal of Chinese Materia Medica"),
+ pm(30, "Biological screening of 100 plant extracts for cosmetic use (I): inhibitory activities of tyrosinase and DOPA auto-oxidation. Int J Cosmet Sci 1997;19(6):291-8", "18505483", "International Journal of Cosmetic Science (Wiley)"),
+ pm(31, "Alpha-viniferin: a prostaglandin H2 synthase inhibitor from root of Carex humilis. Planta Med 1998;64(3):204-7", "9581514", "Planta Medica (Thieme)"),
+]
+
+sections = [
+ {"key": "overview", "title": "개요", "body":
+  "골담초(Caragana sinica)는 콩과(Leguminosae, Fabaceae)의 낙엽 관목으로, 한국·중국·일본에 자생하는 식물로 소개된다[3, 4]. "
+  "식약처 「식품원료 목록」에는 '골담초꽃', '골담초분말', '골담초추출물' 세 행이 식품원료(A코드)로 실려 있고, 상태는 모두 '사용가능', 사용 조건은 '사용가능부위 : 꽃'이다[1]. "
+  "같은 목록의 '골담초뿌리' 행은 이명 '금작근(金雀根), 골담초꽃'과 함께 '사용불가'로 되어 있어, 뿌리는 식품원료로 쓸 수 없다[2]. "
+  "목록의 학명 칸은 'Caragana sinica (Buchoz) Rehder / Caragana chamlagu Lam.'으로 두 이름을 함께 적고, 옛 논문은 Caragana chamlagu라는 이름을 쓰기도 했다[1, 7, 12].\n\n"
+  "연구는 대부분 뿌리에 몰려 있고, 뿌리에서는 α-비니페린·코보페놀 A 같은 레스베라트롤 올리고머(올리고스틸벤)가 주성분으로 보고되었다[5, 8, 13]. "
+  "반면 같은 HPLC 방법으로 꽃을 분석했을 때 이 스틸벤 3종은 검출 범위에서 나오지 않았고[5], 꽃 추출물에서는 루테올린·아피제닌 같은 플라보노이드가 분리되었다[4]. "
+  "그래서 이 자료는 꽃(식품원료)과 뿌리(사용불가 약재)의 결과를 나누어 적는다[1, 2]. "
+  "꽃 연구는 사람 피부세포 실험과 생쥐 대장염 모델에 그친다[3, 4]. 사람을 대상으로 한 꽃 연구는 확인하지 못함."},
+ {"key": "history", "title": "역사·이용", "body":
+  "뿌리는 한국 민간에서 신경통·류머티즘·관절염에 써 왔다고 보고되었고, 1990년 연구는 이 뿌리의 에테르 추출물에서 항염증 성분으로 (+)-α-비니페린을 밝혔다[7]. "
+  "중국에서도 뿌리를 'Jin Quegen'이라 부르며 류머티즘 관절염 민간약으로 써 왔다[15]. "
+  "식약처 목록이 뿌리 행의 이명으로 적은 '금작근(金雀根)'은 이 이름의 한국 한자음으로 보인다[2, 15]. "
+  "꽃은 중국 장쑤·산둥·허베이 등에서 달걀·고기·국에 넣어 요리하는 채소로 먹고, 윈난성의 바이족·이족·먀오족에게도 꽃을 먹는 풍습이 있다고 소개되었다[4]. "
+  "윈난 추슝 지역 민간에서는 전초를 허약성 감기·피로·발열·기침·고혈압 등에 썼다는 기록이 인용되었다[18]. "
+  "골담초속 전체로는 10종 넘게 중국·몽골·티베트 전통 의약에 쓰였고, 열·염증·어지럼증·고혈압·부인과 질환·관절염 등에 쓰였다는 종설이 있다[6]. "
+  "같은 종설은 유효 성분과 약리 작용을 더 확인할 연구가 필요하다고 정리했으므로, 전통 용도를 효능 근거로 읽지 않는다[6]."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "골담초는 콩과 골담초속(Caragana)의 낙엽 관목이다[3, 4]. "
+  "골담초속은 아시아와 동유럽의 온대 건조·반건조 지역이 원산이며, 여러 종이 모래언덕 고정·가축 사료·연료·섬유 자원으로 쓰인다[6]. "
+  "골담초의 꽃은 노란색으로 소개되며[4], 한국 연구에서는 전남 해남의 들에서 4월 25일에 꽃을 채취해 썼다[3]. "
+  "줄기는 목질 바이오매스로서 리그닌 구조가 분석되었는데, 70% 에탄올로 얻은 리그닌 분획은 β-O-4′ 아릴 에테르 결합이 곁사슬의 61%를 차지했다[28]. "
+  "부위별 성분 차이가 커서, 스틸벤 올리고머는 뿌리에 덩이뿌리(tuber)보다 훨씬 많고 꽃에서는 검출되지 않았다[5]. "
+  "뿌리의 스틸벤 4량체는 겨울에, 3량체는 여름에 가장 많아 채취 계절에 따라서도 함량이 달랐다[5]. "
+  "잎 모양·꽃 크기·개화기 같은 형태 세부 기재는 공식 식물지 원문을 열지 못해 확인하지 못함."},
+ {"key": "related_species", "title": "관련 종·혼동 주의", "body":
+  "골담초속은 넓게 보아 약 100종이며 주로 건조·반건조 지역에 분포한다[21]. "
+  "같은 속의 Caragana korshinskii에서는 꽃의 총페놀이 잎·껍질보다 많고 총플라보노이드는 잎이 가장 많다는 보고가 있으나, 다른 종의 결과이므로 골담초 꽃 값으로 옮기지 않는다[24]. "
+  "뿌리에서 정량한 5성분(히파포린·팔리돌·코보페놀 A·미야베놀 C·α-비니페린)은 다른 골담초속 식물 뿌리에서도 검출되지만 함량은 종마다 크게 달랐다[10]. "
+  "(+)-α-비니페린은 사초과 식물(Carex humilis) 뿌리에서도 분리되었으므로, 이 성분 하나로 골담초를 가려낼 수는 없다[31]. "
+  "식약처 「식품원료 목록」(2026-10-13 원자료)에서 학명이 Caragana로 시작하는 행은 골담초의 4행(꽃·분말·추출물·뿌리)뿐이었다[1, 2]. "
+  "목록의 뿌리 행은 이명 칸에 '골담초꽃'까지 적어 두었으나, 그 행의 부위는 '뿌리'이고 상태는 '사용불가'이므로 꽃 행과 혼동하지 않아야 한다[2]. "
+  "줄기[19]와 지상부[20]에서도 새 올리고스틸벤이 분리되었는데, 이 역시 꽃 원료의 성분으로 옮기지 않는다[19, 20]."},
+ {"key": "cultivation", "title": "재배·생태", "body":
+  "골담초의 국내 재배 면적·생산량은 이 저장소의 농식품부 「특용작물 생산실적」·통계청 표에서 찾지 못해 확인하지 못함. "
+  "한국 연구의 꽃은 전남 해남의 농장 근처 들에서 채취했고, 종 동정은 국립수목원 산림생물다양성 연구 부서에서 확인했다[3]. "
+  "중국 대장염 연구는 꽃을 의약 업체에서 구입해 표본을 보관한 뒤 썼다[4]. "
+  "윈난성에서는 약용과 식용으로 널리 기른다고 소개되었다[18]. "
+  "뿌리 스틸벤은 덩이뿌리보다 뿌리에 많고 계절에 따라 달라, 채취 부위와 시기에 따라 원료 성분이 달라진다[5]. "
+  "골담초속은 건조지에 적응한 관목으로, 14종 유전체 비교 연구가 가뭄 반응 유전자를 찾는 데 쓰였다[23]. "
+  "꽃 수확 시기와 재배 방법에 관한 국내 공공기관 자료는 확인하지 못함."},
+ {"key": "processing", "title": "가공·추출", "body":
+  "식약처 목록에는 꽃 자체와 함께 '골담초분말'·'골담초추출물'이 따로 올라 있으며, 세 원료 모두 꽃만 쓸 수 있다[1]. "
+  "중국 연구의 꽃 추출물은 꽃을 95% 에탄올로 속슬렛 추출기에서 세 번 추출해 65 °C에서 농축하고 동결건조해 만들었다[4]. "
+  "이 꽃 에탄올 추출물의 총플라보노이드는 47.90 ± 0.37, 총폴리페놀은 195.13 ± 0.64로, 표의 단위는 각각 mg RE/100 g DW와 mg GAE/100 g DW였다[4]. "
+  "같은 논문의 방법 절은 단위를 mg RE/g DW, mg GAE/g DW로 적어 단위 표기가 엇갈린다[4]. "
+  "한국 연구는 꽃 5.27 kg을 헥산에 1시간 담가 얻은 콘크리트를 에탄올로 다시 처리해 앱솔루트(향 추출물) 1.50 g, 수율 0.028%를 얻었다[3]. "
+  "골담초 꽃 원료나 제품의 국내 생산실적은 식약처 「식품 등의 생산실적」 파일에서 확인하지 못함."},
+ {"key": "genetics", "title": "유전·분자", "body":
+  "골담초속 식물의 엽록체 유전체는 역반복(IR) 부위를 잃은 IRLC 계통에 속하며, 대표 8종의 엽록체 유전체는 128,458–135,401 bp, 고유 유전자 110개였다[21]. "
+  "이 8종에 골담초가 들어 있는지는 초록에서 확인하지 못함. "
+  "73종 98개체의 유전체를 다시 읽은 연구는 골담초속에서 오래전의 잡종화가 건조 적응과 종 분화를 이끌었다고 보고했다[22]. "
+  "14종의 염색체 수준 유전체로 만든 범유전체(pan-genome)에서는 구조 변이 801,351개가 확인되었고, NIN·DMI1·DMI2·NSP1 같은 뿌리혹 공생 유전자는 모든 종에서 보존되어 있었다[23]. "
+  "골담초 단일 종의 유전체 해독 여부와 염색체 수는 이번 조사에서 확인하지 못함. "
+  "뿌리 성분 코보페놀 A는 산 조건에서 카라시놀 B로 이성질화되어, 두 성분의 식물 안 전환과 쥐 체내 대사를 해석하는 데 참고가 된다[25]."},
+ {"key": "safety", "title": "안전성", "body":
+  "꽃은 식약처 목록에서 '사용가능' 원료이지만 뿌리(금작근)는 '사용불가'이므로, 뿌리를 원료로 한 식품은 만들 수 없다[1, 2]. "
+  "골담초 꽃의 알레르기·잔류농약·독성 성분에 관한 국내 공공기관 정보는 확인하지 못함. "
+  "꽃 에탄올 추출물은 생쥐에 250·500 mg/kg을 10일 먹인 대장염 실험에 쓰였으나, 독성 평가를 목적으로 한 시험은 아니었다[4]. "
+  "꽃 앱솔루트는 사람 각질형성세포에서 0.1–100 μg/mL 범위로 시험되었고 10–75 μg/mL에서 세포 생존율이 오히려 높아졌다[3]. "
+  "뿌리 성분 α-비니페린은 사람 간 마이크로솜에서 CYP2C19·CYP3A4를 IC50 0.93·1.2 μM로 억제해 약물 상호작용 가능성이 제기되었다[12]. "
+  "이는 뿌리 성분의 시험관 결과이며, 꽃에서는 이 성분이 검출되지 않았다는 보고가 있다[5, 12]. "
+  "생쥐 고요산혈증 연구는 α-비니페린(뿌리 주성분)과 카라페놀 A(골담초에서 분리, 부위는 초록에 없음)에서 뚜렷한 독성이 없었다고 했지만, 모두 단일 성분 동물 결과다[13, 14]. "
+  "코보페놀 A는 쥐 경구 생체이용률이 2.0%로 낮았다[11]."},
+]
+
+def c(name, ko, cls, role, part, content, act, src):
+    return {"name": name, "name_ko": ko, "class": cls, "role": role, "part": part, "content_text": content, "activity_ko": act, "source": src}
+
+compounds = [
+ c("Luteolin", "루테올린", "플라본", "bioactive", "꽃", "꽃 95% 에탄올 추출물의 에틸아세테이트 분획에서 분리(함량 보고 없음)[4]", "꽃 추출물 대장염 개선(생쥐)의 후보 성분으로 저자가 추정 — 단일 성분 시험은 하지 않음[4]", [4]),
+ c("Astragalin", "아스트라갈린(켐페롤-3-O-β-D-글루코사이드)", "플라보놀 배당체", "bioactive", "꽃", "꽃 추출물에서 분리(함량 보고 없음)[4]", "꽃 추출물 항염증 작용의 후보 성분으로 문헌 인용[4]", [4]),
+ c("Acacetin", "아카세틴", "플라본", "bioactive", "꽃", "꽃 추출물에서 분리(함량 보고 없음)[4]", "꽃 추출물 항염증 작용의 후보 성분으로 문헌 인용[4]", [4]),
+ c("Apigenin", "아피제닌", "플라본", "bioactive", "꽃", "꽃 추출물에서 분리(함량 보고 없음)[4]", "꽃 추출물 항염증 작용의 후보 성분으로 문헌 인용[4]", [4]),
+ c("Kaempferide 3-O-beta-D-glucopyranoside", "켐페라이드-3-O-β-D-글루코사이드", "플라보놀 배당체", "bioactive", "꽃", "꽃 추출물에서 분리(함량 보고 없음)[4]", "활성 시험 확인하지 못함[4]", [4]),
+ c("beta-Sitosterol", "β-시토스테롤", "식물 스테롤", "nutrient", "꽃", "꽃 추출물에서 분리(함량 보고 없음)[4]", "꽃에서 분리된 스테롤 2종 가운데 하나(다른 하나는 다우코스테롤)[4]", [4]),
+ c("Nonacosane", "노나코산", "알케인(왁스 성분)", "bioactive", "꽃(헥산 앱솔루트)", "앱솔루트 GC/MS 피크 면적 19.12%; 헥사트리아콘탄 18.73%, 운데칸산 메틸 12.88%, 15-노나코산올 11.77%[3]", "앱솔루트의 주성분 — 앱솔루트는 각질형성세포 이동·증식 증가(세포 실험)[3]", [3]),
+ c("Neophytadiene", "네오파이타디엔", "디테르펜 탄화수소", "bioactive", "꽃(헥산 앱솔루트)", "앱솔루트 GC/MS 피크 면적 3.33%[3]", "앱솔루트 46성분 가운데 상위 성분(단일 성분 활성 시험 없음)[3]", [3]),
+ c("Ethyl linolenate", "리놀렌산 에틸", "지방산 에스터", "bioactive", "꽃(헥산 앱솔루트)", "앱솔루트 GC/MS 피크 면적 2.64%; 리놀레산 에틸 1.53%[3]", "저자는 문헌을 들어 피부 상처 회복 관련 성분일 수 있다고 추정[3]", [3]),
+ c("alpha-Viniferin", "α-비니페린", "레스베라트롤 3량체(올리고스틸벤)", "bioactive", "뿌리(식품 사용불가)", "뿌리 주성분[13]; 여름에 함량 최대, 꽃에서는 검출되지 않음(HPLC)[5]", "뿌리 항염증 활성 성분(초록·MeSH상 생쥐 카라기난 부종 모델)[7], 단백질 키나아제 C 억제[26], 생쥐 고요산혈증 개선[13], CYP2C19·3A4 억제(시험관)[12] — 뿌리 성분 결과", [5, 7, 12, 13, 26]),
+ c("Kobophenol A", "코보페놀 A", "레스베라트롤 4량체(올리고스틸벤)", "bioactive", "뿌리(식품 사용불가)", "뿌리에 덩이뿌리보다 많고 겨울에 최대, 꽃에서는 검출되지 않음[5]", "쥐 경구 생체이용률 2.0%, 반감기 경구 5.78시간[11]; 산 조건에서 카라시놀 B로 이성질화[25]", [5, 11, 25]),
+ c("Carasinol B", "카라시놀 B", "레스베라트롤 4량체(올리고스틸벤)", "bioactive", "뿌리(식품 사용불가)", "뿌리·덩이뿌리·잎에서 정량, 꽃에서는 검출되지 않음[5]", "코보페놀 A의 이성질체[25]", [5, 25]),
+ c("Miyabenol C", "미야베놀 C", "레스베라트롤 3량체(올리고스틸벤)", "bioactive", "뿌리(식품 사용불가)", "뿌리에서 분리·CE-ED 정량 대상(함량 수치는 초록에 없음)[8, 9]", "단백질 키나아제 C 억제(시험관)[26]", [8, 9, 26]),
+ c("Hypaphorine", "히파포린", "인돌 알칼로이드", "bioactive", "뿌리(식품 사용불가)", "뿌리 CE-ED 정량 대상(함량 수치는 초록에 없음)[9, 10]", "활성 확인하지 못함[9]", [9, 10]),
+ c("Resveratrol", "레스베라트롤", "스틸벤", "bioactive", "뿌리(식품 사용불가)", "뿌리에서 분리(함량 보고 없음)[29]", "뿌리 올리고스틸벤의 단위체[29]", [29]),
+]
+
+assays = [
+ {"role": "literature", "compound": "Total flavonoids (as rutin equivalents) and total phenolics (as gallic acid equivalents)", "compound_ko": "총플라보노이드(루틴 당량)·총폴리페놀(갈산 당량)",
+  "part": "꽃 95% 에탄올 추출물(FEC)",
+  "content": "총플라보노이드 47.90 ± 0.37, 총폴리페놀 195.13 ± 0.64(표 단위 mg RE/100 g DW, mg GAE/100 g DW; 방법 절은 mg/g DW로 적어 엇갈림)[4]",
+  "method": "비색법(NaNO2–Al(NO3)3–NaOH; Folin–Ciocalteu)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "흡광도(파장은 원문에 없음)", "injection": "",
+   "sample_prep": "꽃을 95% 에탄올 1 L로 속슬렛 추출 3회, 65 °C 감압 농축, 진공 동결건조",
+   "standard": "루틴(총플라보노이드), 갈산(총폴리페놀)",
+   "linearity": "루틴 Y = 13.156X + 0.0082 (R 표기 0.9996); 갈산 Y = 3.3057X + 0.0184 (R 표기 0.9918) — 원문의 R/R² 위첨자 확인 못함",
+   "lod": "", "loq": "", "recovery": ""},
+  "rationale": "꽃 원료의 플라보노이드 계열 성분 수준을 보여 주는 유일한 꽃 정량값(전문 확인; 개별 성분 HPLC 정량은 아님)[4]",
+  "source": [4], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8244599/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Nonacosane (GC/MS composition profile of flower absolute)", "compound_ko": "노나코산(꽃 앱솔루트 GC/MS 조성)",
+  "part": "꽃 헥산 앱솔루트(한국 해남산)",
+  "content": "46성분 확인; 노나코산 19.12%, 헥사트리아콘탄 18.73%, 운데칸산 메틸 12.88%, 15-노나코산올 11.77%(피크 면적 %)[3]",
+  "method": "GC-MS(유도체화 후)",
+  "conditions": {"instrument": "TRACE 1310 GC + ISQ LT 단일 사중극자 질량분석기", "column": "DB-5MS (60 m × 0.25 mm, 0.25 μm)", "mobile_phase": "운반 기체(종류는 원문에 없음)",
+   "gradient": "50 °C 5분; 10 °C/min로 65 °C; 5 °C/min로 210 °C; 20 °C/min로 310 °C, 10분 유지", "flow": "1 mL/min", "temp": "전달관 300 °C, 이온원 270 °C",
+   "detection": "MS 주사 범위 m/z 35–550, 0.2 scans/s; NIST 11 라이브러리·머무름 지수(n-알케인 혼합물) 대조 후 시판 표준품으로 최종 확인", "injection": "",
+   "sample_prep": "꽃 5.27 kg을 헥산에 실온 1시간 침지 → 25 °C 감압 농축(콘크리트) → 에탄올과 섞어 −20 °C 하룻밤 → 여과 후 35 °C 증발(앱솔루트 1.50 g, 수율 0.028%)",
+   "standard": "시판 표준품(머무름 시간·스펙트럼 비교)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "꽃 원료의 지용성(왁스·향) 성분 지문으로 쓸 수 있는 유일한 꽃 GC/MS 조성(면적 백분율이며 절대 함량 아님, 전문 확인)[3]",
+  "source": [3], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9964200/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Carasinol B, kobophenol A, (+)-alpha-viniferin", "compound_ko": "카라시놀 B·코보페놀 A·(+)-α-비니페린",
+  "part": "뿌리·덩이뿌리·잎(계절별); 꽃은 불검출",
+  "content": "뿌리 함량이 덩이뿌리보다 훨씬 높고, 4량체는 겨울·3량체는 여름에 최대; 꽃에서는 검출 범위 안에서 검출되지 않음(수치는 초록에 없음)[5]",
+  "method": "HPLC",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "뿌리 약재의 지표로 쓰이는 스틸벤 올리고머가 꽃에는 없다는 근거라서, 뿌리 지표를 꽃 원료에 쓰지 않아야 함을 보여 준다(전문 확인 못함)[5]",
+  "source": [5], "url": "https://pubmed.ncbi.nlm.nih.gov/16595888/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Hypaphorine, pallidol, kobophenol A, miyabenol C, (+)-alpha-viniferin", "compound_ko": "히파포린·팔리돌·코보페놀 A·미야베놀 C·(+)-α-비니페린",
+  "part": "뿌리(Radix seu Cortex Caraganae Sinicae; 식품 사용불가)",
+  "content": "5성분을 12분 안에 분리, 검출한계(S/N=3) 0.0385–0.111 mg/L, 직선 범위 약 3자릿수(함량 수치는 초록에 없음)[9]",
+  "method": "CE-ED(모세관 전기영동–전기화학 검출)",
+  "conditions": {"instrument": "", "column": "모세관 길이 40 cm", "mobile_phase": "100 mmol/L 붕산염 완충액(pH 10.0)", "gradient": "", "flow": "", "temp": "",
+   "detection": "직경 300 μm 탄소 원판 전극(모세관 출구 맞은편)", "injection": "", "sample_prep": "", "standard": "",
+   "linearity": "약 3자릿수 범위에서 직선", "lod": "0.0385–0.111 mg/L (S/N = 3)", "loq": "", "recovery": ""},
+  "rationale": "뿌리 약재(금작근) 품질 평가용으로 개발된 방법이며 다른 골담초속 뿌리에도 적용되었다 — 식품원료(꽃) 지표는 아님(초록만 확인, 분리 전압 12 kV)[9, 10]",
+  "source": [9, 10], "url": "https://pubmed.ncbi.nlm.nih.gov/18968328/", "source_kind": "paper"},
+]
+
+# 세포·선별 연구 인용(본문에 없는 번호 보완)
+sections[1]["body"] += " 뿌리 추출물·분획은 쥐 골관절염·관절염 모델[16, 17]과 신경세포 ADAM10 유전자 발현 선별 연구[27]에 쓰였고, 100종 식물 추출물 선별에서는 골담초 추출물이 DOPA 자동산화를 억제했다(부위는 초록에 없음)[30]. 모두 세포·동물 결과다[16, 17, 27, 30]."
+
+d = {
+ "slug": "caragana-sinica", "name_ko": "골담초", "name_en": "Chinese pea tree (Chinese peashrub)",
+ "scientific_name": "Caragana sinica (Buc'hoz) Rehder (식약처 목록 표기 'Caragana sinica (Buchoz) Rehder / Caragana chamlagu Lam.')",
+ "aliases": ["골담초꽃", "골담초분말", "골담초추출물", "Caragana chamlagu", "Chinese peashrub", "Chinese pea tree"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))
