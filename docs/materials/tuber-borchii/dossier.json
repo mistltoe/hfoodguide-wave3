@@ -1,0 +1,566 @@
+{
+ "slug": "tuber-borchii",
+ "name_ko": "대리석덩이버섯",
+ "name_en": "Bianchetto truffle (whitish truffle)",
+ "scientific_name": "Tuber borchii Vittad.",
+ "aliases": [
+  "대리석덩이버섯자실체",
+  "Tuber albidum",
+  "Bianchetto Truffles",
+  "비안케토 송로",
+  "whitish truffle"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "대리석덩이버섯(Tuber borchii)은 땅속에 자실체를 만드는 덩이버섯속(Tuber)의 자낭균으로, 이탈리아에서는 비안케토(bianchetto) 송로라 부르는 흰 계열 송로다[3, 21]. 예전에는 Tuber albidum이라는 학명으로도 불렸다[3]. 식품의약품안전처 「식품원료 목록」에는 원료명 '대리석덩이버섯자실체', 학명 'Tuber borchii Vitt.(=Tuber albidum Picco.)', 영문명 'Bianchetto Truffles'로 올라 있다[1]. 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 자실체'여서 일반 식품 원료로는 자실체만 쓸 수 있다[1]. 목록상 분류는 '식품원료(A코드)'로, 건강기능식품 기능성 원료 고시에 오른 원료가 아니어서 고시 지표성분은 없다[1].\n\n같은 목록에는 송로버섯(T. aestivum·T. melanosporum), 검은서양송로(T. melanosporum), 흰서양송로(T. magnatum), Winter truffle(T. brumale)가 따로 올라 있고, 검은덩이버섯(T. indicum)은 '사용불가'다[2]. 이 문서는 그 종들의 자료를 섞지 않는다[2]. 대리석덩이버섯은 값비싼 흰서양송로와 겉모습이 비슷하지만 값이 훨씬 싸서, 흰서양송로로 속여 파는 위품 문제가 연구되어 왔다[3, 28]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "종소명 borchii는 18~19세기 무렵 송로 재배법을 찾던 폴란드의 보르흐(Borch) 백작의 이름에서 왔다[6]. 폴란드 문헌 조사에 따르면 송로는 적어도 1661년부터 그 지역 기록에 나오고, 18세기에는 숲에서 얻는 비목재 산물로 여겨졌다[6]. 영어권 논문은 이 종을 'whitish truffle' 또는 'Bianchetto truffle'이라 부른다[5, 8].\n\n이탈리아의 송로 기본법(1985년 법률 제752호)은 Tuber albidum 또는 borchii를 '비안케토 또는 마르추올로'로 적고 채취 기간을 1월 15일부터 4월 30일까지로 정한 것으로 알려져 있으나, 원문은 열지 못해 검색 요약으로만 확인했다[35]. 실제로 최근 이탈리아 연구는 마르케주에서 1월에 채취한 자실체를 썼다[22]. 국문명 '대리석덩이버섯'의 유래와 국내 이용 역사는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "대리석덩이버섯은 나무뿌리와 외생균근(뿌리를 감싸는 공생 구조)을 맺고 사는 자낭균으로, 유럽 전역에 널리 퍼져 있으며 유럽 밖에서도 재배된다[5]. 참나무·개암나무·소나무류와 공생하며, 구주소나무(Pinus sylvestris)와 맺은 균근은 붉은 갈색에서 짙은 갈색을 띤다[11]. 자연 발생지 조사에서는 균근 70개 분류군 가운데 이 종이 약 20%를 차지했고 참나무와 소나무 양쪽에서 발견되었다[10].\n\n자실체는 보통 2–3 cm로 흰서양송로(보통 2–6 cm)보다 작고, 겉은 매끈한 연한 황토색이며 붉은 반점이 흔하다[3]. 짝짓기형 유전자좌가 두 형태로 나뉘어 서로 다른 균주가 지니는 이형접합(heterothallic) 종이다[7]. 자실체 속에는 알파·베타 프로테오박테리아 등 세균이 많이 살며, 자실체에서 가장 많은 수용성 단백질인 TBF-1은 이 세균의 다당류에 붙는 렉틴으로 밝혀졌다[15, 32, 33]. 균사는 옥신(IAA)과 에틸렌을 만들어 식물 뿌리 모양을 바꾼다[34]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "ITS 염기서열 계통 분석에서 '흰 송로'는 한 갈래가 아니었다: 대리석덩이버섯은 T. maculatum·T. dryophilum·T. puberulum과 묶였지만 흰서양송로(T. magnatum)는 갈색 송로 쪽에 묶였다[14]. 중국에서 대리석덩이버섯과 닮은 흰 송로 표본은 유전자상 일곱 무리로 나뉘었고 유럽 T. borchii와 일치하는 것은 없어, 새 종 T. hubeiense와 T. wumengense가 기재되었다[13].\n\n흰서양송로와 대리석덩이버섯은 겉모습만으로 가르기 어려워, 휘발성분·지질 대사체·근적외선 분광 등 여러 판별법이 나왔다[3, 27]. 근적외선(FT-NIR) 분광과 통계 모형은 흰 송로 두 종을 100% 정확도로 구분했다[27]. 휘발성분 정량 연구는 흰서양송로에는 비스(메틸설파닐)메탄이, 대리석덩이버섯에는 푸란-2(5H)-온이 많다는 점을 판별 지표로 제시했다[3]. 비안케토 자실체는 흰서양송로와 비슷하지만 경제적 가치가 낮다는 점이 위품 검출법 개발의 배경으로 적혀 있다[28]. 흰서양송로 산지 토양의 40%에서 이 종의 균사가 함께 검출되기도 했다[30]."
+  },
+  {
+   "key": "cultivation",
+   "title": "채취와 재배",
+   "body": "송로 재배는 보통 포자를 접종한 묘목을 키워 심는 방식이다[9]. 대리석덩이버섯은 순수 배양한 균사로 접종한 묘목으로 송로 밭을 만들어 실제 자실체를 얻은 첫 사례로 보고되었다[9]. 그 밭에서는 접종한 균사가 심은 지 9년 뒤에도 남아 자실체의 모계 유전형이 되었다[8]. 온실 실험에서 구주소나무 묘목의 균근 형성률은 36.5–48.1%였고, 석회 함량은 형성률에 유의한 영향을 주지 않았다[11]. 피칸 묘목에서도 평균 약 62%의 뿌리 집락률을 보였다[12].\n\n자생지가 아닌 집약 농업 지대의 한 재배지에서는 2016–2021년 생산이 급감하고 2017년부터 다른 Tuber 종의 자실체가 나와, 토착종과의 경쟁이 원인으로 해석되었다[29]. 국내에서는 청주의 석회 처리 밭(pH 약 8)에서 국내 종 2종·유럽 종 2종의 접종묘를 2022년 3월 심어 흰 멀칭이 균사 생장을 높인다고 보고했으며, 유럽 종으로 대리석덩이버섯이 포함되었다[31]. 국내 생산 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "흰 송로는 보통 익히지 않고 얇게 썰어 완성된 요리 위에 얹어 먹는다[3]. 대리석덩이버섯의 향은 황 화합물이 좌우하며, 가스크로마토그래피-후각 분석에서 티오펜 유도체, 특히 3-메틸-4,5-디하이드로티오펜이 사람이 느끼는 향에 가장 크게 기여했다[16]. 이 티오펜 성분은 송로 자체가 아니라 자실체 속 세균이 비휘발성 전구체를 바꿔 만든다는 실험 결과가 있다[15]. 냉동해도 티오펜 성분의 상대 농도는 달라지지 않았으나 이탈리아산과 뉴질랜드산은 달랐다[16].\n\n저장 실험에서는 4 °C 보관이 신선 송로의 생화학·미생물 특성을 가장 잘 지켰고, 흰 송로는 검은 송로보다 생화학적 변질에 약했다[19]. 균사를 액체 배양해 β-(1→3)-글루칸 다당류를 얻거나, 율무 고체 발효로 균사와 트리테르페노이드를 생산하는 연구가 있다[24, 26]. 균주에 따라 에를리히 경로(아미노산 분해)에서 나오는 향 성분이 달라 균주 선발로 향을 개선할 수 있다는 보고도 있다[17]. 국내 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "균주 Tbo3840의 초안 유전체는 97.18 Mb(스캐폴드 969개)이며 단백질 암호 유전자 12,346개가 예측되었다[5]. 짝짓기형(MAT) 유전자좌 전체를 염기서열로 밝힌 결과, 두 가지 이디오모프가 서로 다른 균주에 있어 이형접합 생활사를 가진다[7]. 자실체와 균근에서 분리한 균사는 핵이 한 종류인 단핵 균사였다[7].\n\n균사 접종 송로 밭의 자실체 18개를 SSR로 분석했더니 모계는 대부분 접종 균주와 같았고, 부계는 접종 균주끼리 재조합된 새 유전형이 많았다[8]. 9개 균주의 무균 배양에서 향 차이는 주로 아미노산 분해 경로와 연결되었고, 메티오닌에서 나온 황 휘발성분이 향 특성에 가장 큰 영향을 주었다[17]. 종 특이 프라이머(TboI/TboII)로 397 bp 띠를 증폭하는 PCR이 자실체 동정에 쓰인다[22]. 자실체의 향기 성분은 알코올과 황 화합물이 주를 이루지만, 배양 균사에서는 황 화합물이 전혀 검출되지 않아 생활 단계에 따라 대사가 크게 다르다[18]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 자실체는 '사용가능' 원료다[1]. 이 종에 대한 공공기관(식약처·EFSA 등)의 별도 독성·알레르기 평가는 확인하지 못함. 이탈리아 세 지역에서 채취한 송로 네 종(이 종 포함)의 세슘-137은 생체중 기준 2.5–33.3 Bq/kg으로(네 종을 합친 범위이며 이 종만의 값은 초록에 없음), 저자들은 방사선상 우려가 없다고 보았다[20].\n\n이 종의 균사는 배지의 납 4000 mg/L 이상에서도 자랄 만큼 납 내성이 강하고, 균근을 맺은 참나무의 납 흡수를 늘렸다[21]. 다만 자실체의 납 함량을 잰 자료는 확인하지 못함. 자실체 속에는 세균이 많이 산다[32]. 저장 실험에서는 4 °C 냉장 보관이 신선 송로의 생화학·미생물 특성을 가장 잘 지켰고, 흰 송로는 검은 송로보다 생화학적 변질에 약했다(미생물 변질에는 흰서양송로가 가장 강했다)[19]. 에탄올 추출물이 대장암 세포의 세포자멸사를 유도하거나 근육 세포의 위축 표지를 줄였다는 결과는 모두 세포 실험이며 사람 효과는 확인되지 않았다[22, 23]. 액체 배양 균사 추출물은 효모 시험에서 독성·돌연변이 유발성이 나타나지 않았다[25]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "2(5H)-Furanone",
+   "name_ko": "푸란-2(5H)-온",
+   "class": "락톤(휘발성)",
+   "role": "marker",
+   "part": "자실체(신선 시료를 냉동, 진품 확인 6점)",
+   "content_text": "1490 ± 80 – 5010 ± 160 μg/kg (흰서양송로 137 ± 23 – 487 ± 25 μg/kg)[3]",
+   "activity_ko": "흰서양송로와 구별하는 판별 지표 화합물로 제시됨[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Bis(methylthio)methane",
+   "name_ko": "비스(메틸설파닐)메탄",
+   "class": "황 휘발성분",
+   "role": "marker",
+   "part": "자실체",
+   "content_text": "검출되지 않음(이론상 최대 56 μg/kg 미만); 흰서양송로 237 ± 27 – 4360 ± 260 μg/kg[3]",
+   "activity_ko": "흰서양송로의 지표로, 이 종에서 없다는 점이 판별에 쓰임[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "3-Methyl-4,5-dihydrothiophene",
+   "name_ko": "3-메틸-4,5-디하이드로티오펜",
+   "class": "티오펜 유도체(황 휘발성분)",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "GC-O에서 향 기여도가 가장 큰 티오펜 유도체(정량값은 초록에 없음)[16]",
+   "activity_ko": "이 종 특유 향의 핵심 성분; 자실체 속 세균이 생성[15, 16]",
+   "source": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "3-Methylthiophene",
+   "name_ko": "3-메틸티오펜",
+   "class": "티오펜(황 휘발성분)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 0.2–0.5%(HS-SPME-GC-MS, 정규화 상대값)[4]",
+   "activity_ko": "황 휘발성분으로 검출됨(같은 연구의 T. aestivum은 불검출–0.7%)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "2-Methylbutanoic acid",
+   "name_ko": "2-메틸부탄산",
+   "class": "단쇄 지방산(휘발성)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 33–53%(가장 많은 휘발성분; 같은 연구의 T. aestivum에서는 검출 안 됨)[4]",
+   "activity_ko": "치즈·땀 같은 냄새를 내며 종 판별 변수로 쓰임[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "2-Methyl-1-propanol",
+   "name_ko": "2-메틸-1-프로판올(이소부탄올)",
+   "class": "알코올(휘발성)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 불검출–22%[4]",
+   "activity_ko": "단맛·곰팡이 냄새; 종 판별 변수[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "2-Methyl-2-butenal",
+   "name_ko": "2-메틸-2-부텐알",
+   "class": "알데하이드(휘발성)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 불검출–22%[4]",
+   "activity_ko": "풋내·과일 냄새[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "3-Octanone",
+   "name_ko": "3-옥타논",
+   "class": "케톤(C8 휘발성)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 불검출–29.7%[4]",
+   "activity_ko": "버섯·풀 냄새; 종 판별 변수[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "1-Octen-3-ol",
+   "name_ko": "1-옥텐-3-올",
+   "class": "알코올(C8 휘발성)",
+   "role": "bioactive",
+   "part": "자실체(그리스산)",
+   "content_text": "피크 면적 0.4–1.3%(같은 연구의 T. aestivum 4.6–22%보다 낮음)[4]",
+   "activity_ko": "버섯 냄새 성분[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "1,3-Pentadiene",
+   "name_ko": "1,3-펜타디엔(원문 표기 1-methyl-1,3-butadiene)",
+   "class": "탄화수소(휘발성)",
+   "role": "bioactive",
+   "part": "자실체(이탈리아 바실리카타산)",
+   "content_text": "주성분으로 보고(수치는 초록에 없음)[36]",
+   "activity_ko": "T. asa-foetida와 공통 주성분; 톨루엔은 이 종에서 검출 안 됨[36]",
+   "source": [
+    36
+   ]
+  },
+  {
+   "name": "beta-1,3-Glucan",
+   "name_ko": "β-(1→3)-글루칸(세포외 다당류)",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "균사체(액체 배양 배지)",
+   "content_text": "세포외 다당 0.70 ± 0.02 g/L, 세포내 다당 1.76 ± 0.01 g/L(자당 80 g/L·효모추출물 20 g/L, 28일)[24]",
+   "activity_ko": "FTIR로 β-(1→3)-글루칸 구조 확인; 생리활성은 이 연구에서 시험하지 않음[24]",
+   "source": [
+    24
+   ]
+  },
+  {
+   "name": "Triterpenoids",
+   "name_ko": "트리테르페노이드(총량)",
+   "class": "테르페노이드",
+   "role": "bioactive",
+   "part": "균사체(곡물 고체 발효)",
+   "content_text": "2.39 ± 0.14 mg/g 기질(율무 기질, 종가시나무(Quercus glauca) 체세포배 1 g 공배양)[26]",
+   "activity_ko": "배양 생산 조건 연구이며 효능 시험은 없음[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Indole-3-acetic acid",
+   "name_ko": "인돌-3-아세트산(옥신)",
+   "class": "식물 호르몬",
+   "role": "bioactive",
+   "part": "균사체",
+   "content_text": "균사가 생성(정량값은 초록에 없음)[34]",
+   "activity_ko": "에틸렌과 함께 식물 뿌리의 형태 변화를 유도[34]",
+   "source": [
+    34
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "2(5H)-Furanone",
+   "compound_ko": "푸란-2(5H)-온",
+   "part": "자실체(신선 시료 액체질소 급랭, -24 ℃ 보관)",
+   "content": "진품 6점 1490 ± 80 – 5010 ± 160 μg/kg[3]",
+   "method": "안정동위원소 희석 GC-MS(이온트랩)",
+   "conditions": {
+    "instrument": "7890B 가스크로마토그래프 + Saturn 220 이온트랩 질량분석기, 멀티모드 주입구(스플릿리스)",
+    "column": "DB-FFAP, 30 m × 0.25 mm i.d., 0.25 μm",
+    "mobile_phase": "헬륨 운반기체",
+    "gradient": "오븐 40 ℃(2분) → 6 ℃/분 166 ℃ → 40 ℃/분 230 ℃(5분); 주입구 40 ℃ → 900 ℃/분 250 ℃(5분) → 900 ℃/분 280 ℃",
+    "flow": "1.2 mL/min(정유량)",
+    "temp": "",
+    "detection": "EI 70 eV, m/z 35–250 스캔, 정량 이온의 추출 이온 크로마토그램(정량 이온은 보충자료)",
+    "injection": "2 μL",
+    "sample_prep": "냉동 분쇄 시료 0.5 g + 디클로로메탄 20 mL + 내부표준 + 무수 황산나트륨 1.5 g, 균질화(13500 rpm, 20초) 후 밤새 교반·여과, 자동 SAFE(40 ℃)로 휘발성분 분리, Vigreux 칼럼으로 약 1 mL 농축(저농도 성분은 약 100 μL까지 추가 농축), 시료당 3회 반복 처리",
+    "standard": "(5,5-²H₂)푸란-2(5H)-온 내부표준 0.138–2.76 μg(합성), 비표지 표준품",
+    "linearity": "분석물/내부표준 혼합물의 검량선(식은 보충자료, 확인하지 못함)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "흰서양송로와 겉모습이 비슷한 이 종을 가려내기 위해 비표적 GC×GC-TOFMS 선별 뒤 정량으로 확인한 판별 지표다[3]. 이 종의 값이 흰서양송로보다 일관되게 높았다(두 범위 사이 빈 구간 898 μg/kg)[3]. 전문(Methods) 확인함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11066859/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Bis(methylthio)methane",
+   "compound_ko": "비스(메틸설파닐)메탄",
+   "part": "자실체",
+   "content": "이 종 6점에서 검출되지 않음(배경 잡음으로 본 이론상 최대 56 μg/kg 미만)[3]",
+   "method": "안정동위원소 희석 GC-MS(이온트랩)",
+   "conditions": {
+    "instrument": "7890B 가스크로마토그래프 + Saturn 220 이온트랩 질량분석기",
+    "column": "DB-FFAP, 30 m × 0.25 mm i.d., 0.25 μm",
+    "mobile_phase": "헬륨 운반기체",
+    "gradient": "오븐 40 ℃(2분) → 6 ℃/분 118 ℃ → 40 ℃/분 230 ℃(5분); 주입구도 40 ℃(2분) → 6 ℃/분 118 ℃ → 40 ℃/분 230 ℃ → 900 ℃/분 250 ℃(열분해 방지를 위해 오븐과 나란한 완만한 주입구 온도)",
+    "flow": "1.2 mL/min",
+    "temp": "",
+    "detection": "EI 70 eV, m/z 35–250",
+    "injection": "2 μL, 스플릿리스",
+    "sample_prep": "푸란-2(5H)-온과 같은 추출·자동 SAFE·농축",
+    "standard": "²H 표지 비스(메틸설파닐)메탄 내부표준 0.0743–14.9 μg",
+    "linearity": "",
+    "lod": "이 종 시료의 이론상 최대 56 μg/kg 미만",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "흰서양송로(237 ± 27 – 4360 ± 260 μg/kg)의 지표로, 이 종에서 없다는 점이 대리석덩이버섯을 흰서양송로로 속인 위품을 가리는 근거가 된다[3]. 전문 확인함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11066859/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "2-Methylbutanoic acid",
+   "compound_ko": "2-메틸부탄산(휘발성분 프로필)",
+   "part": "자실체(그리스 자연 산지 채취, -20 ℃ 보관)",
+   "content": "피크 면적 33–53%(정규화 상대값, 절대 함량 아님)[4]",
+   "method": "HS-SPME-GC-MS",
+   "conditions": {
+    "instrument": "Agilent 6890N GC + 5973 사중극자 질량검출기",
+    "column": "DB-WAX, 60 m × 0.32 mm, 0.25 μm",
+    "mobile_phase": "헬륨(99.999%)",
+    "gradient": "40 ℃(5분) → 5 ℃/분 240 ℃(5분)",
+    "flow": "1.2 mL/min",
+    "temp": "주입구 270 ℃, 이온원 250 ℃, 사중극자 130 ℃",
+    "detection": "스캔 m/z 35–350, NIST 라이브러리·머무름지수로 동정",
+    "injection": "스플릿리스, 섬유 탈착 5분",
+    "sample_prep": "균질화 시료 100 mg을 15 mL 유리병에, 85 μm CAR/PDMS 섬유로 50 ℃ 45분 헤드스페이스 추출, 3회 반복",
+    "standard": "외부·내부표준 없음(전체 피크 면적 합으로 정규화)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종에서 가장 많은 휘발성분이며 PLS-DA에서 T. aestivum과 구별하는 주요 변수였다[4]. 상대 비율 자료라 함량 비교에는 한계가 있다[4]. 전문 확인함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085510/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 대리석덩이버섯자실체(Tuber borchii Vitt.(=Tuber albidum Picco.)) (로컬 원자료 I1020_20261013.json 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속 항목: 송로버섯자실체·건조송로버섯 등(T. aestivum / T. melanosporum), 검은서양송로자실체(T. melanosporum), 흰서양송로자실체(T. magnatum), Winter truffle자실체(T. brumale), 검은덩이버섯(T. indicum, 사용불가), 알버섯(Rhizopogon rubescens, 이명 '송로') (로컬 원자료 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Identification of bis(methylsulfanyl)methane and furan-2(5H)-one as volatile marker compounds for the differentiation of the white truffle species Tuber magnatum and Tuber borchii. J Agric Food Chem 2024;72:10023-30 (PMID 38630649, PMC11066859)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11066859/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Headspace solid-phase microextraction followed by gas chromatography-mass spectrometry as a powerful analytical tool for the discrimination of truffle species according to their volatiles (Greek T. aestivum and T. borchii). Front Nutr 2022;9:856250 (PMID 35558753, PMC9085510)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085510/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Draft genome sequence of Tuber borchii Vittad., a whitish edible truffle. Genome Announc 2018;6:e00537-18 (PMID 29930051, PMC6013607)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6013607/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Truffle renaissance in Poland — history, present and prospects. J Ethnobiol Ethnomed 2017;13:36 (PMID 28619090, PMC5473005)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5473005/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Characterization of the reproductive mode and life cycle of the whitish truffle T. borchii. Mycorrhiza 2016;26:515-27 (PMID 26968742)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26968742/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Ascoma genotyping and mating type analyses of mycorrhizas and soil mycelia of Tuber borchii in a truffle orchard established by mycelial inoculated plants. Environ Microbiol 2020;22:964-75 (PMID 31393668)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31393668/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "First evidence for truffle production from plants inoculated with mycelial pure cultures (Tuber borchii). Mycorrhiza 2016;26:793-8 (PMID 27103310)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27103310/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "The ectomycorrhizal community in natural Tuber borchii grounds. FEMS Microbiol Ecol 2010;72:250-60 (PMID 20199569)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20199569/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Description, identification, and growth of Tuber borchii Vittad. mycorrhized Pinus sylvestris L. seedlings on different lime contents. Mycorrhiza 2024;34:85-94 (PMID 38236414, PMC10998771)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10998771/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Mycorrhization of pecan trees (Carya illinoinensis) with commercial truffle species: Tuber aestivum Vittad. and Tuber borchii Vittad. Mycorrhiza 2012;22:383-92 (PMID 21986799)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21986799/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Phylogenetic analyses of Chinese Tuber species that resemble T. borchii reveal the existence of the new species T. hubeiense and T. wumengense. Mycologia 2016;108:354-62 (PMID 26740546)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26740546/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Phylogenetic relationships between European and Chinese truffles based on parsimony and distance analysis of ITS sequences. FEMS Microbiol Lett 1999;180:147-55 (PMID 10556705)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10556705/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Bacteria associated with truffle-fruiting bodies contribute to truffle aroma (Tuber borchii). Environ Microbiol 2015;17:2647-60 (PMID 24903279)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24903279/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Sulfur volatiles of microbial origin are key contributors to human-sensed truffle aroma (Tuber borchii). Appl Microbiol Biotechnol 2015;99:2583-92 (PMID 25573471)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25573471/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Improving truffle mycelium flavour through strain selection targeting volatiles of the Ehrlich pathway (Tuber borchii). Sci Rep 2018;8:9304 (PMID 29915180, PMC6006436)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6006436/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Discrimination of truffle fruiting body versus mycelial aromas by stir bar sorptive extraction. Phytochemistry 2007;68:2584-98 (PMID 17574637)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17574637/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Effect of storage on biochemical and microbiological parameters of edible truffle species. Food Chem 2008;109:8-16 (PMID 26054259)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26054259/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "137Cs content in the fruit bodies of various Tuber species. Health Phys 1996;71:956-9 (PMID 8919081)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8919081/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "The bianchetto truffle (Tuber borchii) a lead-resistant ectomycorrhizal fungus increases Quercus cerris phytoremediation potential. Environ Microbiol 2022;24:6439-52 (PMID 36325818)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36325818/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Antiproliferative and pro-apoptotic effects of Tuber borchii extracts on human colorectal cancer cells via p53-dependent pathway activation. Metabolites 2025;15:796 (PMID 41441038, PMC12735153)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12735153/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Tuber borchii extracts buffer galactose-induced skeletal muscle sarcopenia in C2C12 myotubes. Nutrients 2026;18:2427 (PMID 42588050, PMC13468531)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13468531/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "High-molecular-weight exopolysaccharides production from Tuber borchii cultivated by submerged fermentation. Int J Mol Sci 2023;24:4875 (PMID 36902305, PMC10002917)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10002917/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "An investigation of the antioxidant potential and bioaccumulated minerals in Tuber borchii and Tuber maculatum mycelia obtained by submerged fermentation. Arch Microbiol 2021;204:64 (PMID 34940905)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34940905/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Overcoming cultivation challenges in Tuber borchii via grain-based solid-state fermentation with plant somatic embryo co-culture for mycelial growth and triterpenoid production. J Biotechnol 2026;418:87-97 (PMID 42468799)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42468799/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Food authentication: truffle (Tuber spp.) species differentiation by FT-NIR and chemometrics. Foods 2020;9:922 (PMID 32668805, PMC7405009)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7405009/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Food authentication: identification and quantitation of different Tuber species via capillary gel electrophoresis and real-time PCR. Foods 2020;9:501 (PMID 32316117, PMC7230311)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7230311/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Ectomycorrhizal fungal community and ascoma production in a declining Tuber borchii plantation. J Fungi 2023;9:678 (PMID 37367614, PMC10301055)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301055/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Co-occurrence of true truffle mycelia in Tuber magnatum fruiting sites. Mycorrhiza 2021;31:389-94 (PMID 33835237)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33835237/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Effects of black and white mulch on mycelial growth of Tuber species in Korean field environment. Mycobiology 2024;52:172-82 (PMID 38948453, PMC11210416)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11210416/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "New evidence for bacterial diversity in the ascoma of the ectomycorrhizal fungus Tuber borchii Vittad. FEMS Microbiol Lett 2005;247:23-35 (PMID 15927744)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15927744/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "The Tuber borchii fruiting body-specific protein TBF-1, a novel lectin which interacts with associated Rhizobium species. FEMS Microbiol Lett 2008;284:197-203 (PMID 18505412)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18505412/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Truffles regulate plant root morphogenesis via the production of auxin and ethylene (T. borchii, T. melanosporum). Plant Physiol 2009;150:2018-29 (PMID 19535471, PMC2719122)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2719122/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "이탈리아 「Legge 16 dicembre 1985, n. 752」(신선·저장 송로의 채취·재배·거래 기본법) — 채취 기간 조항. 원문 PDF(FAO 법령 DB·주정부 사본)는 이 환경의 네트워크 허용 목록 밖이라 열지 못했고, 작성·검토 단계 모두 WebSearch 요약으로만 확인함",
+   "url": "https://faolex.fao.org/docs/pdf/ita32041.pdf",
+   "publisher": "이탈리아 정부(관보 1985년 제300호); WebSearch 요약",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Studies on volatile organic compounds of Tuber borchii and T. asa-foetida. J Chromatogr Sci 2012;50:775-8 (PMID 22685100)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22685100/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

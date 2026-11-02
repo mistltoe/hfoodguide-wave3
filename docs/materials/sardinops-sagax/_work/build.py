@@ -1,0 +1,140 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+
+
+def pm(n, title, doi, journal, pmid, pmc=None):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    if not title.startswith("EFSA"):
+        title = title.split(". ", 1)[1]
+    t = f"{title} {journal} (PMID {pmid}" + (f", {pmc}" if pmc else "") + ")"
+    return {"n": n, "title": t, "url": url, "publisher": "PubMed", "accessed": A}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 정어리 관련 수산물 행 16개(대표 원료명 정어리·정어리분말·정어리오일·정어리살 등, 이명 '눈치', 학명 칸 'Sardinops sagax / Sardinops melanostictus / Sardina pilchardus', 'South American pilchard' 행은 Sardinops sagax 단독, 모두 '사용가능', 정어리살 행의 부위 칸 '죽순'; docs/materials/sardinops-sagax/card.json·data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 2, "title": "식품의약품안전처 「식품원료 목록」(I1020) — 건강기능식품(C코드) 행: 'EPA 및 DHA 함유 유지(고시형)'(이명 칸에 '정어리정제어유(기능성 원료 인정 New 제2007-3호)' 포함), 개별인정 '정어리펩타이드(기능성원료인정제2004-1호)', 그리고 다른 생물인 '정어리고래(Balaenoptera spp.)' 사용불가 행 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 3, "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 2-16 EPA 및 DHA 함유 유지 — 원재료·기능성분 함량·기능성·1일 섭취량·주의사항(로컬 원문 docs/refs/MFDS/MFDS_2026-43_고시형원료_요건.json; 정어리를 종으로 지정한 고시형 원료는 없음)", "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973", "publisher": "식품의약품안전처", "accessed": A},
+    {"n": 4, "title": "식품의약품안전처 「식품 등의 생산실적」 2018–2025년판 — 건강기능식품 개별인정형 '정어리펩타이드' 행(생산능력·생산량 톤, 생산액·국내판매액 천원; 앱 파싱본 docs/stats/hf_items.csv)", "url": "https://www.mfds.go.kr", "publisher": "식품의약품안전처", "accessed": A},
+    pm(5, "Bowen BW, Grant WS. Phylogeography of the sardines (Sardinops spp.): assessing biogeographic models and population histories in temperate upwelling zones. Evolution 1997;51(5):1601-1610.", "10.1111/j.1558-5646.1997.tb01483.x", "", "28568639"),
+    pm(6, "Lecomte F et al. Living with uncertainty: genetic imprints of climate shifts in East Pacific anchovy (Engraulis mordax) and sardine (Sardinops sagax). Mol Ecol 2004;13(8):2169-82.", "10.1111/j.1365-294X.2004.02229.x", "", "15245392"),
+    pm(7, "Longo GC et al. Crossing the Pacific: genomics reveals the presence of Japanese sardine (Sardinops melanosticta) in the California Current Large Marine Ecosystem. Mol Ecol 2024;33(22):e17561.", "10.1111/mec.17561", "", "39440436"),
+    pm(8, "Longo GC et al. Genomics detects Japanese and Pacific sardine (Sardinops spp.) hybrids in the Northeast Pacific Ocean. Ecol Evol 2026;16(9):e74198.", "10.1002/ece3.74198", "", "42741477", "PMC13574211"),
+    pm(9, "Longo GC et al. Population genomics reveals panmixia in Pacific sardine (Sardinops sagax) of the North Pacific. Evol Appl 2025;18(9):e70154.", "10.1111/eva.70154", "", "40917341", "PMC12409727"),
+    pm(10, "Tang F, Chen W. The complete mitochondrial genome of Sardinops sagax (Jenyns, 1842) (Clupeiformes: Clupeidae) and phylogenetic analyses of sardines. Mitochondrial DNA B Resour 2021;6(3):1080-1081.", "10.1080/23802359.2021.1899867", "", "33796746", "PMC7995841"),
+    pm(11, "Gomes TL et al. Anisakis spp. in fishery products from Japanese waters: updated insights on host prevalence and human infection risk factors. Parasitol Int 2020;78:102137.", "10.1016/j.parint.2020.102137", "", "32439483"),
+    pm(12, "Gámez-Meza N et al. Seasonal variation in the fatty acid composition and quality of sardine oil from Sardinops sagax caeruleus of the Gulf of California. Lipids 1999;34(6):639-42.", "10.1007/s11745-999-0409-1", "", "10405979"),
+    pm(13, "Shirai N, Terayama M, Takeda H. Effect of season on the fatty acid composition and free amino acid content of the sardine Sardinops melanostictus. Comp Biochem Physiol B 2002;131(3):387-93.", "10.1016/s1096-4959(01)00507-3", "", "11959020"),
+    pm(14, "Ahmad TB et al. Correlation between fatty acid profile and anti-inflammatory activity in common Australian seafood by-products. Mar Drugs 2019;17(3):155.", "10.3390/md17030155", "", "30845724", "PMC6471488"),
+    pm(15, "Kawasaki T et al. Antihypertensive effect of valyl-tyrosine, a short chain peptide derived from sardine muscle hydrolyzate, on mild hypertensive subjects. J Hum Hypertens 2000;14(8):519-23.", "10.1038/sj.jhh.1001065", "", "10962520"),
+    pm(16, "Kawasaki T et al. [Antihypertensive effect and safety evaluation of vegetable drink with peptides derived from sardine protein hydrolysates on mild hypertensive, high-normal and normal blood pressure subjects]. Fukuoka Igaku Zasshi 2002;93(10):208-18.", None, "", "12471719"),
+    pm(17, "EFSA NDA Panel. Scientific opinion on the safety of 'sardine peptide product'. EFSA J 2010;8(7):1684 (초록만 확인).", "10.2903/j.efsa.2010.1684", "", "42005754", "PMC13085105"),
+    pm(18, "Hiruma S et al. Bioshell calcium oxide-containing liquids as a sanitizer for the reduction of histamine production in raw Japanese pilchard, Japanese horse mackerel, and chub mackerel. Foods 2020;9(7):964.", "10.3390/foods9070964", "", "32708249", "PMC7404465"),
+    pm(19, "Zhang R et al. [Mercury concentration of fish in Tokyo Bay and the surrounding sea area]. Nihon Eiseigaku Zasshi 2001;56(2):492-9 (영문 초록).", "10.1265/jjh.56.492", "", "11519183"),
+    pm(20, "Finger A et al. Metals and metalloids in Little Penguin (Eudyptula minor) prey, blood and faeces. Environ Pollut 2017;223:567-574.", "10.1016/j.envpol.2017.01.059", "", "28159398"),
+    pm(21, "Beale JE, Jeebhay MF, Lopata AL. Characterisation of purified parvalbumin from five fish species and nucleotide sequencing of this major allergen from Pacific pilchard, Sardinops sagax. Mol Immunol 2009;46(15):2985-93.", "10.1016/j.molimm.2009.06.018", "", "19616851"),
+    pm(22, "Koyama H et al. Grades of 43 fish species in Japan based on IgE-binding activity. Allergol Int 2006;55(3):311-6.", "10.2332/allergolint.55.311", "", "17075273"),
+    pm(23, "Suzuki N et al. Amino acid sequence of sardine calcitonin and its hypocalcemic activity in rats. Zoolog Sci 1994;11(5):713-6.", None, "", "7765857"),
+    pm(24, "Ganeko N et al. Analysis of volatile flavor compounds of sardine (Sardinops melanostica) by solid phase microextraction. J Food Sci 2008;73(1):S83-8.", "10.1111/j.1750-3841.2007.00608.x", "", "18211375"),
+    pm(25, "Wu Q et al. Polyhalogenated compounds (halogenated natural products and POPs) in sardine (Sardinops sagax) from the South Atlantic and Indian Oceans. J Agric Food Chem 2020;68(22):6084-6091.", "10.1021/acs.jafc.0c01530", "", "32378893"),
+    pm(26, "Shi Y et al. Seasonal spatio-temporal model improves refined stock assessment and management of Japanese sardine (Sardinops melanostictus) in the Northwest Pacific Ocean. Animals 2024;14(23):3434.", "10.3390/ani14233434", "", "39682399", "PMC11640506"),
+    pm(27, "Kawashima S et al. Stomach chitinase from Japanese sardine Sardinops melanostictus: purification, characterization, and molecular cloning of chitinase isozymes with a long linker. Mar Drugs 2016;14(1):22.", "10.3390/md14010022", "", "26805857", "PMC4728518"),
+    pm(28, "Nyuji M et al. Transcriptome characterization of BPG axis and expression profiles of ovarian steroidogenesis-related genes in the Japanese sardine. BMC Genomics 2020;21(1):668.", "10.1186/s12864-020-07080-1", "", "32993516", "PMC7526130"),
+    pm(29, "Emami-Khoyi A et al. Transcriptomic diversity in the livers of South African sardines participating in the annual sardine run. Genes 2021;12(3):368.", "10.3390/genes12030368", "", "33806647", "PMC8001748"),
+    pm(30, "Baldwin RE et al. Population structure of three species of Anisakis nematodes recovered from Pacific sardines (Sardinops sagax) distributed throughout the California Current system. J Parasitol 2011;97(4):545-54.", "10.1645/GE-2690.1", "", "21506810"),
+    {"n": 31, "title": "식품의약품안전처 「식품의 기준 및 규격」 개정 관련 정책브리핑 기사 — 고등어·참치·연어·꽁치·청어·멸치·삼치·정어리 등 등푸른생선을 통조림·냉동·염장·건조·절단한 경우 히스타민 200 mg/kg 이하 (WebSearch 검색 결과 요약으로만 확인, 이 환경에서 원문 페이지는 열지 못함)", "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148747697", "publisher": "대한민국 정책브리핑(문화체육관광부)", "accessed": A},
+    pm(32, "van der Lingen CD et al. Incorporating parasite data in population structure studies of South African sardine Sardinops sagax. Parasitology 2014;142(1):156-67.", "10.1017/S0031182014000018", "", "24598048"),
+    pm(33, "Fitzgibbon QP, Seymour RS. Postprandial metabolic increment of southern bluefin tuna Thunnus maccoyii ingesting high or low-lipid sardines Sardinops sagax. J Fish Biol 2009;75(7):1586-600.", "10.1111/j.1095-8649.2009.02385.x", "", "20738635"),
+    pm(34, "Miyasaki T, Hamaguchi M, Yokoyama S. Change of volatile compounds in fresh fish meat during ice storage. J Food Sci 2011;76(9):C1319-25.", "10.1111/j.1750-3841.2011.02388.x", "", "22416694"),
+    pm(36, "Miyazaki T, Kobayashi M. Morphological characteristics of eyes and retinas of two sardines (Sardinops melanostictus and Etrumeus sadina, Clupeidae) and an anchovy (Engraulis japonicus, Engraulididae). J Morphol 2015;276(4):415-24.", "10.1002/jmor.20350", "", "25488724"),
+    pm(35, "Massie GN et al. Uptake and transmission of Toxoplasma gondii oocysts by migratory, filter-feeding fish. Vet Parasitol 2010;169(3-4):296-303.", "10.1016/j.vetpar.2010.01.002", "", "20097009"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "정어리는 청어목(Clupeiformes)에 속하는 등푸른 바닷물고기로, 식약처 「식품원료 목록」은 이 원료의 학명 칸에 Sardinops sagax, Sardinops melanostictus, Sardina pilchardus 세 이름을 함께 적고 이명으로 '눈치'를 올려 두었다[1, 10]. 이 백과 항목은 대표 학명 Sardinops sagax를 기준으로 하며, 북서태평양 정어리는 문헌에 따라 S. melanostictus(별개 종) 또는 S. sagax melanostictus(아종)로 적힌다[1, 7, 11].\n\n"
+     "식품원료로서 정어리·정어리분말·정어리오일·정어리살·건조정어리·정어리가수분해단백질 등 16개 원료명이 수산물로 올라 있고 모두 '사용가능'이며 따로 정한 사용 조건은 없다[1]. 부위 칸은 대부분 '-'이고, 정어리살 행만 원자료에 '죽순'으로 적혀 있다[1]. 건강기능식품 고시형 원료의 원재료로 종이 지정되어 있지는 않지만, 정어리 근육 가수분해물에서 얻은 정어리펩타이드가 개별인정 원료로 목록에 있다[1, 2].\n\n"
+     "기름이 많아 EPA·DHA 공급원으로 쓰이고, 상하기 쉬워 히스타민 관리가 중요한 어종이다[12, 14, 18]."},
+    {"key": "history", "title": "이름과 이용의 역사", "body":
+     "Sardinops 정어리는 일본·캘리포니아·칠레·오스트레일리아·남아프리카의 온대 용승 해역에 따로 떨어진 지역 무리로 살며, 이들은 오랫동안 여러 분류학자가 서로 다른 분류군으로 다뤄 왔다[5]. 북동태평양에서는 따뜻한 시기에 정어리가, 차가운 시기에 멸치류가 우세해 개체수가 몇 자릿수씩 오르내리는 현상이 알려져 있다[6].\n\n"
+     "식품 소재로는 정어리 근육 가수분해물에서 온 다이펩타이드 발린-티로신(Val-Tyr)에 대해 2000년 경도 고혈압 성인 대상 위약 대조 시험 결과가 발표되었다[15]. 국내에서는 이 계열 원료가 '정어리펩타이드'로 기능성원료인정 제2004-1호를 받았고, 정어리정제어유는 기능성 원료 인정 New 제2007-3호를 거쳐 현재 'EPA 및 DHA 함유 유지(고시형)' 행의 이명 칸에 함께 적혀 있다[2]. 정어리펩타이드 제품은 일본에서도 보충제로 판매된다고 유럽식품안전청 의견서가 적었다[17]. 같은 목록에는 이름이 비슷한 '정어리고래(Balaenoptera spp.)'가 사용불가로 따로 있어, 물고기 정어리와 혼동하지 않아야 한다[2]."},
+    {"key": "biology", "title": "어종과 생태", "body":
+     "정어리는 표층에 살며 플랑크톤을 먹는 어류로, 일본정어리 위에서는 갑각류 껍질의 키틴을 분해하는 키티나아제 두 종류(45 kDa, 56 kDa)가 정제되었다[27]. 눈은 약간 위쪽 옆을 향해 시야가 비스듬히 위로 열려 있고, 망막 신경절세포 밀도는 배쪽 뒤 사분면에서 가장 높았다[36].\n\n"
+     "몸의 지방 함량은 계절에 따라 크게 달라서, 일본 휴가나다 정어리는 2월 1.8%에서 7월–9월 7.2%로 올랐고 이때 지방산 조성은 같은 시기 플랑크톤과 비슷했다[13]. 오스트레일리아 정어리도 저지방 개체 2.2%, 고지방 개체 12.9%로 차이가 컸다[33]. 남아프리카에서는 겨울마다 수억 마리가 북동쪽으로 이동하는 '정어리 런(sardine run)'이 일어난다[29]. 남아프리카 정어리는 기생충 표지 등으로 서부·남부·동부 하위 무리가 나뉜다는 근거가 제시되었다[32]. 걸러 먹는 습성 때문에 태평양정어리는 실험에서 바닷물 속 톡소포자충(Toxoplasma gondii) 난포낭을 걸러 들였고, 노출 개체의 66%(40/61)가 PCR 양성이었다[35]. 국내 연근해 정어리의 체장·산란기 같은 공공기관 생태 자료는 확인하지 못함."},
+    {"key": "related_species", "title": "가까운 종과 혼동", "body":
+     "식약처 목록이 정어리 학명 칸에 함께 적은 Sardina pilchardus는 속(Sardina)이 다른 물고기여서, 이 항목의 성분·안전 자료에는 섞지 않았다[1]. Sardinops 안에서는 다섯 지역 무리를 한 종 S. sagax의 아종으로 보는 처리와 별개의 종으로 보는 처리가 함께 쓰이며, 미토콘드리아 조절영역 비교에서 지역 무리는 50만 년 안쪽에 갈라진 얕은 분화를 보였다[5]. 일본 쪽 연구는 같은 무리를 S. sagax melanostictus라고도 적는다[11].\n\n"
+     "그러나 최근 유전체 연구는 북서태평양의 일본정어리(S. melanosticta)와 북동태평양의 태평양정어리(S. sagax)를 별개 종으로 다루며, 2022년 캘리포니아 해류 해역 표본 가운데 50개체가 일본정어리로 판별되었다[7]. 두 종은 겉모습으로 구별되지 않아 88개 SNP 패널을 만들었고, 1,821개체 중 35개체에서 첫 잡종이 확인되었다[8]. 같은 바다의 멸치류(Engraulis)와는 개체수가 엇갈려 오르내린다[6]."},
+    {"key": "cultivation", "title": "어획과 자원 관리", "body":
+     "국내 연도별 정어리 어획량은 이번 조사에서 공식 통계로 확인하지 못함. 북서태평양 일본정어리 자원은 2014–2022년 어업 자료로 본 계절별 풍도가 점차 늘었고, 자원 중심이 북동쪽으로 옮겨 갔으며 회복 확률이 94.8–99%로 평가되었다[26]. 다만 저자들은 자원 감소를 막기 위해 신중한 관리를 권했다[26].\n\n"
+     "북동태평양 태평양정어리는 멕시코 캘리포니아만에서 미국 오리건까지 약 4,000 km 범위의 317개체 유전체 분석에서 하나의 섞인 집단(panmixia)으로 나타나, 관리 단위 설정에 참고가 된다[9]. 이 해역의 정어리 미토콘드리아 계보는 후기 플라이스토세의 창시자 사건 뒤 급격히 늘어난 흔적을 보였다[6]. 남아프리카에서는 하위 무리 구분이 어업 관리 방식을 바꾸는 근거가 되었다[32]."},
+    {"key": "processing", "title": "가공과 이용", "body":
+     "식약처 목록에는 건조정어리·볶은정어리·유탕정어리·정어리포·정어리추출액·정어리효소분해농축액·정어리가수분해단백질처럼 말리거나 튀기거나 효소로 분해한 형태가 식품원료로 올라 있다[1]. 기름은 'EPA 및 DHA 함유 유지' 고시형 원료의 원재료인 '식용 가능한 어류'에 해당할 수 있으며, 이 원료는 어류 유래일 때 EPA와 DHA의 합이 180 mg/g 이상이어야 한다[3]. 멕시코 캘리포니아만 정어리 기름은 EPA 20.4%, DHA 12.2%로 오메가-3 비율이 높았다[12].\n\n"
+     "정어리펩타이드는 정어리 근육을 알칼리성 단백질분해효소로 분해한 뒤 크로마토그래피로 원하는 분획을 얻는다[17]. 식약처 생산실적에서 개별인정형 '정어리펩타이드' 생산액은 2020년 287,101천원(약 2.87억 원)이었고 2025년에는 86,823천원(약 0.87억 원), 국내판매액 95,410천원(약 0.95억 원)이었다[4]. 생선 껍질의 불포화지방은 쉽게 산화되어, 신선한 정어리 냄새는 트라이메틸아민보다 헥산알 같은 지방 산화물의 영향이 크다[24]."},
+    {"key": "genetics", "title": "유전체와 유전 다양성", "body":
+     "태평양정어리(S. sagax)의 미토콘드리아 유전체는 16,883 bp로 단백질 암호화 유전자 13개, tRNA 유전자 22개, rRNA 유전자 2개와 조절영역 하나로 이루어진다[10]. 이 연구의 계통 분석에서 정어리류는 세 계통군으로 나뉘었다[10]. 2024년에는 태평양정어리의 염색체 수준 기준 유전체가 조립되었고, 이를 바탕으로 한 저심도 전장 유전체 자료에서 일본정어리와 뚜렷한 분화가 확인되었다[7].\n\n"
+     "북미 태평양 연안 집단의 분화는 약 21 Mb에서 0.89 Mb 크기의 추정 염색체 역위 여러 개가 이끌었지만, 역위에도 지역 차이는 없었다[9]. 시토크롬 b 서열(107개체)로 본 정어리 계보는 약 24만 1천 년 전으로 거슬러 올라간다[6]. 일본정어리에서는 뇌·뇌하수체·생식소 전사체가 분석되어 290,119개 콘티그가 얻어졌다[28]. 남아프리카 정어리 간 전사체도 1,310,530개 전사체로 조립되었다[29]."},
+    {"key": "safety", "title": "안전성과 주의", "body":
+     "정어리는 고시형 원료가 아니어서 식약처가 종 단위로 정한 섭취 주의사항은 없다[1, 3]. 검색 요약으로만 확인한 정책브리핑 기사에 따르면 정어리 같은 등푸른생선을 냉동·염장·건조 등으로 처리한 경우 히스타민 기준은 200 mg/kg 이하이다[31]. 일본산 정어리(Japanese pilchard) 생살을 10 °C에 두면 4일째 히스타민이 880 ± 180 ppm까지 올라 같은 조건의 전갱이·고등어보다 높았다[18]. 히스타민은 열에 안정해 익혀도 줄지 않는다[18].\n\n"
+     "도쿄만 등에서 잡힌 정어리 근육의 총수은은 습중량 0.001–0.045 μg/g으로 일본 기준 0.4 μg/g보다 훨씬 낮았다[19]. 오스트레일리아 조사에서도 정어리는 멸치류보다 수은이 낮았다[20]. 남아프리카 정어리의 PCB 수준은 사람에게 위험하지 않은 수준이었다[25]. 정어리 파르브알부민은 어류 알레르기 환자 혈청과 강하게 반응했고[21], 일본정어리도 IgE 결합이 높은 어종이었다[22]. 고래회충 감염률은 일본정어리 2%로 낮았으나 캘리포니아 정어리에서도 세 종이 나왔다[11, 30]. 국내 공공기관의 정어리 수은 실측 자료는 확인하지 못함."},
+]
+
+compounds = [
+    {"name": "Eicosapentaenoic acid", "name_ko": "에이코사펜타엔산(EPA)", "role": "nutrient", "part": "어유(정어리 기름)·살", "content_text": "캘리포니아만 정어리 기름 지방산의 20.4%[12]; 오스트레일리아 정어리 살과 내장 각각 1,000 mg/100 g 조직 이상[14]", "activity_ko": "오메가-3 장쇄 지방산; EPA 및 DHA 함유 유지 고시형 원료의 기능성분[3]", "source": [3, 12, 14], "class": "다불포화지방산(ω-3)"},
+    {"name": "Docosahexaenoic acid", "name_ko": "도코사헥사엔산(DHA)", "role": "nutrient", "part": "어유·살", "content_text": "캘리포니아만 정어리 기름 지방산의 12.2%[12]; 오스트레일리아 정어리 살과 내장 각각 1,000 mg/100 g 조직 이상[14]", "activity_ko": "오메가-3 장쇄 지방산; 정어리 지방산 조성은 계절·먹이 플랑크톤에 따라 달라짐[13]", "source": [12, 13, 14], "class": "다불포화지방산(ω-3)"},
+    {"name": "Palmitic acid", "name_ko": "팔미트산", "role": "nutrient", "part": "어유", "content_text": "캘리포니아만 정어리 기름 지방산의 19.3%[12]", "activity_ko": "가장 많은 포화지방산[12, 13]", "source": [12, 13], "class": "포화지방산"},
+    {"name": "Oleic acid", "name_ko": "올레산", "role": "nutrient", "part": "어유", "content_text": "캘리포니아만 정어리 기름 지방산의 14.3%[12]", "activity_ko": "주요 단일불포화지방산[12, 13]", "source": [12, 13], "class": "단일불포화지방산"},
+    {"name": "Valyl-tyrosine", "name_ko": "발린-티로신(Val-Tyr) 다이펩타이드", "role": "marker", "part": "근육 가수분해물(정어리펩타이드)", "content_text": "음료 100 mL당 3 mg[15]; 정어리 펩타이드 0.5 g당 0.4 mg[16] (두 초록 모두 정어리 학명은 적지 않음)", "activity_ko": "경도 고혈압 성인 4주 섭취 시 수축기·이완기 혈압 9.3·5.2 mmHg 감소, 안지오텐신 II·알도스테론 감소(ACE 저해로 추정)[15]; 정상 혈압군에서는 변화 없음[16]", "source": [15, 16], "class": "펩타이드"},
+    {"name": "Sardine peptide (protein hydrolysate)", "name_ko": "정어리 펩타이드(근육 단백질 가수분해물)", "role": "marker", "part": "근육", "content_text": "제안 최대 1회 0.6 g, 보수적 추정 1일 섭취량 평균 0.89 g/인·97.5백분위 2.4 g/인[17]", "activity_ko": "EFSA가 제안 조건에서 식품 원료로 안전하다고 결론[17]; 국내 개별인정 원료 목록에 있음[2]", "source": [2, 17], "class": "단백질 가수분해물"},
+    {"name": "Histidine", "name_ko": "유리 히스티딘", "role": "nutrient", "part": "보통육(살)", "content_text": "지방 함량이 높은 계절에 유리 히스티딘도 높음(수치는 초록에 없음)[13]", "activity_ko": "세균의 히스티딘 탈탄산효소로 히스타민이 되는 기질[18]", "source": [13, 18], "class": "아미노산"},
+    {"name": "Histamine", "name_ko": "히스타민", "role": "other", "part": "생살(부패 시)", "content_text": "10 °C 4일 보관 대조군 880 ± 180 ppm, 3일 보관 240 ± 42 ppm[18]; 국내 기준 200 mg/kg 이하(검색 요약)[31]", "activity_ko": "알레르기 유사 식중독 원인; 가열로 파괴되지 않음[18]", "source": [18, 31], "class": "생체아민"},
+    {"name": "Parvalbumin", "name_ko": "파르브알부민(Sar sa 1)", "role": "other", "part": "근육", "content_text": "동형 단백질 약 10–13 kDa; 베타형 cDNA를 Sar sa 1.0101로 등록[21]", "activity_ko": "어류 알레르기 환자 10명 혈청에서 다섯 어종 중 가장 강한 IgE 반응[21]", "source": [21], "class": "단백질(알레르겐)"},
+    {"name": "Calcitonin", "name_ko": "정어리 칼시토닌", "role": "other", "part": "체내 분비 호르몬", "content_text": "아미노산 32개, 저칼슘 활성 4,156 IU/mg(쥐 생물검정)[23]", "activity_ko": "연어 칼시토닌과 4자리 아미노산이 다르고 쥐에서 작용 지속이 더 김(동물 결과)[23]", "source": [23], "class": "펩타이드 호르몬"},
+    {"name": "Mercury", "name_ko": "총수은", "role": "other", "part": "근육", "content_text": "습중량 0.001–0.045 μg/g(일본 해역 정어리)[19]", "activity_ko": "플랑크톤을 먹는 정어리는 함께 조사한 어종 중 가장 낮음[19, 20]", "source": [19, 20], "class": "중금속(오염물질)"},
+    {"name": "Hexanal", "name_ko": "헥산알", "role": "other", "part": "살·껍질", "content_text": "신선한 정어리 휘발 성분 33종 가운데 2,3-펜탄다이온·1-펜텐-3-올과 함께 주성분[24]", "activity_ko": "지방 산화로 생기는 비린내·풋내 성분; 얼음 저장 중 정어리에서 휘발 성분이 빠르게 늘어남[24, 34]", "source": [24, 34], "class": "알데하이드(휘발 성분)"},
+    {"name": "Q1 (heptachloro-1'-methyl-1,2'-bipyrrole)", "name_ko": "할로겐 천연물 Q1", "role": "other", "part": "통째(지질 기준)", "content_text": "남아프리카 정어리 지질 기준 최대 52 ng/g; MHC-1은 최대 49 ng/g[25]", "activity_ko": "인공 POPs(약 3 ng/g 지질)보다 한 자릿수 높으나 독성 자료가 없어 위해 평가 못함[25]", "source": [25], "class": "유기할로겐 화합물"},
+]
+
+assays = [
+    {"role": "literature", "compound": "EPA, DHA (fatty acid methyl esters)", "compound_ko": "EPA·DHA(지방산 메틸에스터)", "part": "살(필레)·내장(머리 포함) 지질 추출물, 오스트레일리아 정어리 4마리",
+     "content": "EPA+DPA+DHA 합 살 3,500 mg/100 g 조직 이상, 내장 6,000 mg/100 g 이상; EPA·DHA 각각 1,000 mg/100 g 이상; ω-6/ω-3 비 0.1까지 낮음[14]",
+     "method": "GC-FID(동정 확인은 GC-MS)",
+     "conditions": {"instrument": "Agilent 6890N GC + 6890 FID; 확인용 GC-MS 5973 MSD", "column": "BPX 70(70% cyanopropyl polysilphenylene-siloxane), 50 m × 0.22 mm, 0.25 µm", "mobile_phase": "헬륨 운반기체", "gradient": "오븐 100 °C 5분 → 5 °C/min로 240 °C", "flow": "1 mL/min", "temp": "주입구 230 °C(split), FID 260 °C", "detection": "FID; GC-MS 70 eV, m/z 35–550(DPA는 40 eV 연성 이온화)", "injection": "1 µL, split 200:1", "sample_prep": "클로로폼·메탄올 추출(조직 1 g당 용매 19 mL) → 포화 NaCl로 8:4:3 분배 → 지질 200 µL에 0.5 M 메탄올 용액 1.5 mL, 100 °C 10분 → 14% BF3-메탄올 2 mL, 100 °C 30분 → BHT 1 µg 넣은 헥산 1 mL로 추출", "standard": "37성분 FAME 표준 혼합물, 해양 PUFA No.1 표준; BHT 내부표준", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "정어리 기름의 가치는 EPA·DHA 함량에 있고, 국내 EPA 및 DHA 함유 유지 고시형 원료도 두 성분의 합으로 관리한다[3, 14]. 전문(Methods) 확인 — 검량·검출한계·회수율은 본문에 없음[14].",
+     "source": [3, 14], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6471488/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Histamine", "compound_ko": "히스타민", "part": "생살 조각(약 50 g), 일본산 정어리(Japanese pilchard)",
+     "content": "10 °C 4일 보관 식염수 세척 대조군 880 ± 180 ppm; 10 °C 3일 사전 보관 240 ± 42 ppm[18]",
+     "method": "효소법 히스타민 검사 키트(흡광도)",
+     "conditions": {"instrument": "상용 효소법 히스타민 검사 키트(흡광도 측정)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "흡광도(키트 설명서 조건)", "injection": "", "sample_prep": "시료를 100 °C에서 10분 끓여 식힌 뒤 1,000 rpm(190×g) 5분 원심, 상등액 측정(n = 3)", "standard": "", "linearity": "", "lod": "측정 범위 0.4–6.0 ppm(생선살 25배 희석 시 10–150 ppm)", "loq": "", "recovery": ""},
+     "rationale": "히스타민은 정어리 같은 등푸른생선 식중독의 원인 물질이자 신선도 지표다[18, 31]. 전문 확인 — 키트 제조사 조건 외의 검량·회수율은 본문에 없고, 원문 학명은 도구 출력에서 빠져 영명으로만 확인함[18].",
+     "source": [18, 31], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7404465/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Valyl-tyrosine", "compound_ko": "발린-티로신(Val-Tyr)", "part": "근육 가수분해물 음료",
+     "content": "시험 음료 100 mL당 3 mg[15]; 정어리 펩타이드 0.5 g당 0.4 mg[16]",
+     "method": "", "conditions": {},
+     "rationale": "정어리펩타이드의 혈압 작용을 설명하는 활성 다이펩타이드로 시험 제품의 함량 기준이 되었다[15, 16]. 전문 확인 못함 — 초록만 보았고 분석 조건과 정어리 학명은 확인하지 못함[15].",
+     "source": [15, 16], "url": "https://doi.org/10.1038/sj.jhh.1001065", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "sardinops-sagax",
+    "name_ko": "정어리",
+    "name_en": "Pacific sardine (South American pilchard)",
+    "scientific_name": "Sardinops sagax (Jenyns, 1842)",
+    "aliases": ["정어리", "눈치", "South American pilchard", "Pacific sardine", "Japanese sardine", "Japanese pilchard", "Sardinops melanostictus"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+d["sources"].sort(key=lambda x: x["n"])
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

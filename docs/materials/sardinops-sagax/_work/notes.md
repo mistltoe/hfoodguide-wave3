@@ -1,0 +1,37 @@
+# notes (PubMed)
+- 10962520 Kawasaki 2000 J Hum Hypertens 10.1038/sj.jhh.1001065: VY from sardine muscle hydrolyzate; 29 subj; 100 mL drink 3 mg VY bid 4 wk; SBP -9.7/-5.3 at 1wk, -9.3/-5.2 at 4wk; AngII, aldosterone down; no adverse. Species not stated in abstract.
+- 12471719 Kawasaki 2002 Fukuoka Igaku Zasshi (no doi): 63 subj, 195 g veg drink 0.5 g sardine peptides with 0.4 mg VY daily 13 wk; mild HTN/high-normal (n=40 test) SBP 142.0->134.4 at wk1; DBP 88.0->83.5 at 13 wk; normals no change; 3x excess 585 g 14 d no adverse.
+- 11959020 Shirai 2002 CBP-B 10.1016/s1096-4959(01)00507-3: S. melanostictus Hyuga-Nada lipid 1.8% Feb, 7.2% Jul-Sep; major FA 14:0,16:0,18:0,16:1n7,18:1n9,EPA,DHA; free histidine high when lipid high.
+- 7765857 Suzuki 1994 Zool Sci: sardine calcitonin from S. melanostictus 32 aa; 4156 IU/mg; differs from salmon CT at 4 positions (8,21,27,29).
+- 33796746 Tang 2021 Mitochondrial DNA B 10.1080/23802359.2021.1899867 PMC7995841: S. sagax mitogenome 16,883 bp, 13 PCG, 22 tRNA, 2 rRNA, D-loop; sardines 3 clades.
+- 22416694 Miyasaki 2011 J Food Sci 10.1111/j.1750-3841.2011.02388.x: volatiles increase rapidly in sardine (S. melanostictus) during ice storage.
+- 32993516 Nyuji 2020 BMC Genomics 10.1186/s12864-020-07080-1: transcriptome BPG axis; 290,119 contigs, 115,173 ORFs.
+- 39682399 Shi 2024 Animals 10.3390/ani14233434: NW Pacific Japanese sardine stock 2014-2022 increasing, sustainable state 94.8-99% probability of recovery.
+- 28159398 Finger 2017 Environ Pollut 10.1016/j.envpol.2017.01.059: Port Phillip Bay; anchovy & sandy sprat higher Hg than pilchard S. sagax; sprat & pilchard more Se.
+- 36125549 Furuichi 2022 Naturwiss: schooling density.
+- 26805857 Kawashima 2016 Mar Drugs PMC4728518 10.3390/md14010022: stomach chitinase SmeChiA 45 kDa, SmeChiB 56 kDa; plankton feeder surface fish.
+- 11519183 Zhang 2001 Nihon Eiseigaku Zasshi 10.1265/jjh.56.492: total Hg sardine (S. melanosticta) 0.001-0.045 ug/g wet; Japan limit 0.4 ug/g total Hg; plankton feeding sardine lowest; 412 fish Nov1998-Apr1999 Tokyo Bay, Sagami Bay, Choshi.
+- 10405979 Gamez-Meza 1999 Lipids 10.1007/s11745-999-0409-1: S. sagax caeruleus Gulf of California oil: palmitic 19.3%, oleic 14.3%, EPA 20.4%, DHA 12.2%; 6 reduction plants no diff; one season EPA/DHA differed.
+- 9161466 Romero 1996 Arch Latinoam Nutr: canned in brine Chile 4 species incl S. sagax; EPA 5-11%, DHA 12-22% ranges across species; cholesterol 41-86 mg/100 g (range across species).
+- 30845724 Ahmad 2019 Mar Drugs PMC6471488 10.3390/md17030155: Australian sardine lipid GC-MS FAME; NO/TNFa inhibition RAW264.7.
+- 32378893 Wu 2020 JAFC 10.1021/acs.jafc.0c01530: South African sardines; HNP 1 order higher than POPs (~3 ng/g lipids); MHC-1 & Q1 up to 49 and 52 ng/g lipids; PCB no risk.
+- 20738635 Fitzgibbon 2009: S. sagax low lipid 2.2% 5.5 MJ/kg vs high 12.9% 9.2 MJ/kg (tuna feed).
+- 18211375 Ganeko 2008 J Food Sci 10.1111/j.1750-3841.2007.00608.x: sardine (S. melanostica) volatile; TMA not detected at pH 6.2; 33 compounds; main 2,3-pentanedione, hexanal, 1-penten-3-ol.
+- 8084128 Pyzh 1993 Kardiologiia: S. sagax melanosticta oil 400 mg/kg/d dogs 4 wk; occlusion 1/5 vs 5/5.
+- 10624563 Rybin 1999: oxidation products S. melanosticta oil -> 4-HNE ~20% of antimicrobial activity.
+- 32708249 Hiruma 2020 Foods PMC7404465 10.3390/foods9070964: Japanese pilchard (sci name stripped in tool) raw slices 10C saline control day4 histamine 880±180 ppm (horse mackerel 460±68, chub 235±36); preincubated 3 d at 10C 240±42 ppm; EU 200 ppm fresh fish, 400 ppm enzyme-matured; properly stored <1 ppm; kit range 0.4-6.0 ppm (10-150 ppm at 25-fold dilution); boiled 10 min 100C, centrifuge 1000 rpm 5 min. Fish from supermarket Tokorozawa.
+- 28568639 Bowen & Grant 1997 Evolution 10.1111/j.1558-5646.1997.tb01483.x: 500 bp control region; five regional forms (Japan, California, Chile, Australia, South Africa) considered separate taxa by most authorities diverged within 500,000 yr; stepping-stone Pleistocene dispersal.
+- 15245392 Lecomte 2004 Mol Ecol 10.1111/j.1365-294X.2004.02229.x: sardine cyt b N=107 425 bp; coalesce ~241,000 yr; sardine dominates warm, anchovy cool.
+- 39440436 Longo 2024 Mol Ecol 10.1111/mec.17561: chromosome-scale reference genome Pacific sardine; 345 lcWGS 2021-2022 CCLME; 50 of 2022 identified as Japanese sardine (S. melanosticta) strong differentiation; one mito introgression.
+- 42741477 Longo 2026 Ecol Evol PMC13574211 10.1002/ece3.74198: GT-seq 88 SNP; 1821 samples; 35 hybrids 2023-2025; 33 F1; morphologically indistinguishable.
+- 40917341 Longo 2025 Evol Appl PMC12409727 10.1111/eva.70154: 317 indiv Gulf of California - Oregon; panmixia ~4000 km; inversions ~21 MB to 0.89 MB.
+- 33806647 Emami-Khoyi 2021 Genes PMC8001748 10.3390/genes12030368: South African sardine run; liver transcriptome 1,310,530 transcripts N50 1578 bp.
+- 30845724 Ahmad 2019 full text: Australian sardine n=4 Ballina co-op; lipid yield >100 mg/g tissue; omega6/omega3 as low as 0.1 in sardines; EPA+DPA+DHA >3500 mg/100 g flesh, >6000 mg/100 g viscera; >1000 mg/100 g each EPA & DHA in flesh and viscera. GC Agilent 6890N FID 260C, BPX 70 column 50 m x 0.22 mm x 0.25 um; split injector 230C; He 1 mL/min; oven 100C 5 min -> 240C at 5C/min; 1 uL split 200:1; std Supelco 37 FAME mix + marine PUFA No.1; GC-MS 5973 70 eV, 35-550 amu; DPA 40 eV; BHT internal std; FAME: 0.5 M NaCl? in MeOH 1.5 mL 100C 10 min, 14% BF3-MeOH 2 mL 100C 30 min, hexane w BHT. Lipid extraction CHCl3:MeOH ... 19 mL/g; 8:4:3 with NaCl.
+- 32439483 Gomes 2020 Parasitol Int 10.1016/j.parint.2020.102137: Japanese pilchard (Sardinops sagax melanostictus) Anisakis prevalence 2%; A. simplex s.s. first molecular ID in Japanese pilchard.
+- 21506810 Baldwin 2011 J Parasitol 10.1645/GE-2690.1: 148 larval anisakids from Pacific sardine 2005-2008 California Current; A. pegreffii, A. simplex 'C', A. simplex s.s.
+- 19616851 Beale 2009 Mol Immunol 10.1016/j.molimm.2009.06.018: pilchard S. sagax parvalbumin strongest IgE reactivity among 10 fish-allergic; Sar sa 1.0101 (FM177701); isoforms ~10-13 kDa.
+- 25451973 Sharp 2014 Mol Immunol: anti-pilchard parvalbumin antibody cross-reactive; canned fish no parvalbumin detected.
+- 17075273 Koyama 2006 Allergol Int 10.2332/allergolint.55.311: Japanese sardine high IgE binding (38 children).
+- 42005754 EFSA 2010 PMC13085105 10.2903/j.efsa.2010.1684: Sardine Peptide Product (trade name - use generic) alkaline protease hydrolysis of sardine muscle; max 0.6 g/serving; mean 0.89 g/person, P97.5 2.4 g/person male teens; safe.
+- 20097009 Massie 2010: Pacific sardines filter T. gondii oocysts 66% (40/61) PCR; 30% mice.
+- 24598048 van der Lingen 2014 Parasitology 10.1017/S0031182014000018: South African western/southern/eastern subpopulations; parasite tags.

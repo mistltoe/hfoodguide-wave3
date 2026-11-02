@@ -1,0 +1,73 @@
+{
+ "slug": "tuber-borchii",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 76,
+ "checked_items": 57,
+ "verified": 121,
+ "fixed": 9,
+ "removed": 0,
+ "unverifiable": 3,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "건강기능식품 고시형 원료의 원재료 목록에는 없어 고시 지표성분은 없다[1].",
+   "after": "목록상 분류는 '식품원료(A코드)'로, 건강기능식품 기능성 원료 고시에 오른 원료가 아니어서 고시 지표성분은 없다[1].",
+   "why": "[1](I1020 행)은 고시형 원료 목록 여부를 말하지 않음 — 원자료가 실제로 보여 주는 분류(LCLAS_NM '식품원료(A코드)')로 근거를 바꿈"
+  },
+  {
+   "where": "sections.overview",
+   "before": "같은 목록에는 송로버섯(T. aestivum·T. melanosporum), 흰서양송로(T. magnatum), T. brumale가 따로 올라 있고",
+   "after": "같은 목록에는 송로버섯(T. aestivum·T. melanosporum), 검은서양송로(T. melanosporum), 흰서양송로(T. magnatum), Winter truffle(T. brumale)가 따로 올라 있고",
+   "why": "로컬 I1020 원자료에 '검은서양송로자실체'(T. melanosporum) 행이 별도로 있고 T. brumale 원료명은 'Winter truffle자실체'임"
+  },
+  {
+   "where": "sections.history",
+   "before": "종소명 borchii는 18세기 폴란드의 보르흐(Borch) 백작의 이름에서 왔다[6].",
+   "after": "종소명 borchii는 18~19세기 무렵 송로 재배법을 찾던 폴란드의 보르흐(Borch) 백작의 이름에서 왔다[6].",
+   "why": "[6] 전문은 '18·19세기 ... 이 무렵 보르흐 백작이 송로 재배법을 찾기 시작했다'고만 씀 — '18세기'로 단정하지 않음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "이탈리아 자생지 조사에서는 균근 70개 분류군 가운데",
+   "after": "자연 발생지 조사에서는 균근 70개 분류군 가운데",
+   "why": "[10] 초록은 조사지 국가를 밝히지 않음(저자 소속만 이탈리아)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "2.5–33.3 Bq/kg으로, 저자들은 방사선상 우려가 없다고 보았다[20].",
+   "after": "2.5–33.3 Bq/kg으로(네 종을 합친 범위이며 이 종만의 값은 초록에 없음), 저자들은 방사선상 우려가 없다고 보았다[20].",
+   "why": "[20] 범위는 T. magnatum·T. aestivum·T. excavatum 포함 네 종 합산 — 다른 송로 값과 섞여 보이지 않게 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "자실체에는 세균이 많이 살고 흰 송로는 변질이 빨라 냉장(4 °C) 보관이 권장된다[19, 32].",
+   "after": "자실체 속에는 세균이 많이 산다[32]. 저장 실험에서는 4 °C 냉장 보관이 신선 송로의 생화학·미생물 특성을 가장 잘 지켰고, 흰 송로는 검은 송로보다 생화학적 변질에 약했다(미생물 변질에는 흰서양송로가 가장 강했다)[19].",
+   "why": "[19] 는 '권장'이 아니라 비교 결과이며, 미생물 변질 저항은 흰서양송로가 가장 컸음 — '흰 송로는 변질이 빠르다'는 과장"
+  },
+  {
+   "where": "compounds[3-Methylthiophene].activity_ko",
+   "before": "이 종의 특징적 황 휘발성분 가운데 하나[4]",
+   "after": "황 휘발성분으로 검출됨(같은 연구의 T. aestivum은 불검출–0.7%)[4]",
+   "why": "[4] 표 1 에 값만 있고 '이 종의 특징적 성분'이라는 서술은 없음; 판별 VIP 변수에도 없음"
+  },
+  {
+   "where": "sources[35].title",
+   "before": "이탈리아 「Legge 16 dicembre 1985, n. 752」(신선·저장 송로의 채취·재배·거래 기본법) — 채취 기간 조항. 원문(주정부 사본 PDF)은 이 환경에서 열지 못했고 WebSearch 요약으로만 확인함",
+   "after": "이탈리아 「Legge 16 dicembre 1985, n. 752」(신선·저장 송로의 채취·재배·거래 기본법) — 채취 기간 조항. 원문 PDF(FAO 법령 DB·주정부 사본)는 이 환경의 네트워크 허용 목록 밖이라 열지 못했고, 작성·검토 단계 모두 WebSearch 요약으로만 확인함",
+   "why": "V2 가 FAO·마르케주 사본을 각 1회 열려 했으나 도메인 차단(재시도 안 함); 검색 요약은 '비안케토 또는 마르추올로, 1월 15일–4월 30일'로 본문과 일치하나 원문 미확인이므로 본문의 '검색 요약으로만 확인' 표현 유지"
+  },
+  {
+   "where": "compounds[Triterpenoids].content_text",
+   "before": "2.39 ± 0.14 mg/g 기질(율무 기질, 참나무 체세포배 공배양)[26]",
+   "after": "2.39 ± 0.14 mg/g 기질(율무 기질, 종가시나무(Quercus glauca) 체세포배 1 g 공배양)[26]",
+   "why": "[26] 초록: 공배양 식물은 Quercus glauca 체세포배 1 g — 종을 밝힘"
+  }
+ ],
+ "unverifiable_notes": [
+  "[35] 이탈리아 법률 752/1985: FAO 법령 DB·마르케주 사본 모두 이 환경의 네트워크 허용 목록 밖(도메인 해석 실패, 재시도 안 함). WebSearch 요약(1회)은 'Tuber albidum o Borchii — bianchetto o marzuolo, 15 gennaio–30 aprile'로 본문과 일치. 본문은 '검색 요약으로만 확인'이라고 이미 밝혀 두어 유지",
+  "[3] J Agric Food Chem 권·쪽(72:10023-30)은 PubMed 메타데이터에 쪽 정보가 없어 확인 못함(PMID·PMC·DOI 는 일치)",
+  "[3] 검량선 식·정량 이온은 보충자료에만 있어 assays.linearity 의 '확인하지 못함' 유지",
+  "기울임 종명이 빠진 초록·전문([3],[4],[22],[23],[24],[27],[28],[29],[31])은 문맥으로 종을 정함: [3] 'previously named …, yielding the Bianchetto truffle'·진품 6점(B 01 C–B 06 C)이 이 종, 13점이 T. magnatum; [4] 표 1 첫 열 'Borchii' 와 본문 '33–53% 2-methyl-butanoic acid … in Borchii' 로 열 순서 확인; [29] 'Iotti 등의 순수 배양 균사 5종 접종 첫 생산 송로밭'(= [8]·[9] 의 T. borchii 밭)·경쟁종은 키워드상 T. maculatum·T. rufum; [27] 'syn. … Pico, white truffles' 로 흰 송로 두 종(T. magnatum 대 이 종) 100% 구분; [31] 표 2 에 T. borchii 프라이머(TK-f1, 131 bp); [22]·[23] 은 TboI/TboII 397 bp 로 종 확인한 마르케 1월 채취 자실체의 80% 에탄올 추출물. 다른 송로 값이 이 종 값으로 섞인 곳은 [20] 세슘 범위(네 종 합산) 외에 없었고, 이것도 문장에 명시함"
+ ]
+}

@@ -1,0 +1,22 @@
+{"slug": "momordica-dioica", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 74, "checked_items": 64,
+ "verified": 120, "fixed": 9, "removed": 7, "unverifiable": 2,
+ "changes": [
+  {"where": "sections.biology", "before": "익으면 초록에서 노랑·주황으로 바뀌고 속의 씨는 붉은 과육에 싸인다[3].", "after": "익으면 초록에서 밝은 노랑·주황으로 바뀌며, 속에는 길이 6–7 mm의 약간 납작한 노랑~갈색 씨가 많이 들어 있다[2].", "why": "종설[3→2] 본문은 씨를 6–7 mm, 노랑~갈색으로만 적음. 붉은 씨껍질(arillus)은 표 2의 M. balsamina 행 내용으로 근연종 자료 섞임"},
+  {"where": "sections.biology", "before": "POWO 검색 요약에 따르면 자생지는 인도아대륙에서 미얀마까지(파키스탄·네팔·인도·스리랑카·방글라데시·아삼·히말라야)이고, 안다만·니코바르 제도에는 도입되었다[2].", "after": "종설이 정리한 여주속 종별 분포표에서 이 종의 자생 범위는 '인도아대륙에서 미얀마까지'로 적혀 있다[2]. 나라별 자생·도입 구분은 원 분류 데이터베이스를 직접 열지 못해 확인하지 못함.", "why": "POWO 원 페이지를 연 적 없이 WebSearch 요약에만 기댄 출처. 종설 표 1에 'Indian Subcontinent to Myanmar'가 있어 그것으로 바꾸고 나라 목록·도입지는 삭제"},
+  {"where": "sections.related_species", "before": "확인할 필요가 있다(POWO 검색 요약에서도 renigera는 M. subangulata의 아종으로 따로 등재)[2, 6].", "after": "확인할 필요가 있다[5].", "why": "POWO WebSearch 요약 근거 삭제"},
+  {"where": "sources", "before": "[2] Plants of the World Online (WebSearch 요약으로만 확인)", "after": "삭제, 이후 번호 3→2 … 23→22로 당김", "why": "열지 못한 페이지의 검색 요약은 대조 근거가 되지 못함"},
+  {"where": "sections.processing", "before": "(kakrol 연구[8, 9]를 단서 없이 이 종 결과로 기술)", "after": "두 연구는 재료를 학명 M. dioica의 'kakrol'로 적었지만, … M. subangulata subsp. renigera로 보기도 하므로[5], 실제로 이 종의 결과인지는 확인되지 않았다.", "why": "[8] 재료는 오키나와 이시가키에서 개발·재배한 kakrol, [9]도 같은 연구진의 kakrol. 2025 BMC 논문[6→5]은 방글라데시 등지 teasel gourd를 renigera로 봄 — 근연 분류군 자료일 가능성 명시"},
+  {"where": "sections.related_species", "before": "일본 연구는 kakrol이 … 요리에 쓰인다고 적었다[8].", "after": "(같은 문장) + 다만 이 'kakrol'이 아래에서 말하는 근연 분류군일 가능성은 배제되지 않는다[5].", "why": "같은 kakrol 재료 문제"},
+  {"where": "sections.safety", "before": "… 모두 쥐·생쥐·세포 실험 결과이다[3, 8, 10, 20, 23].", "after": "… 모두 쥐·생쥐·세포 실험 결과이며, 이 가운데 'kakrol'로 표시된 재료는 근연 분류군일 가능성도 있다[2, 5, 7, 9, 19, 22].", "why": "항알레르기[8→7]·혈당[10→9] 연구는 kakrol(방글라데시·일본) 재료"},
+  {"where": "sections.safety", "before": "1,000 mg/kg 아급성 투여에서 경미한 독성이, 100·250 mg/kg 장기 투여에서는 이상이 없었다", "after": "아급성 시험(250·500·1,000 mg/kg)의 최고 용량에서 경미한 독성이, 아만성·만성 시험(100·250·500 mg/kg)에서는 이상 소견이 없었다", "why": "종설 원문의 용량 구성대로 바로잡음(장기 시험에 500 mg/kg 빠짐)"},
+  {"where": "compounds.beta-Carotene.content_text", "before": "162 mg/100 g 가식부(종설 인용값을 단위 그대로 옮김; 1차 자료 확인 못함)[4]", "after": "종설은 '가식부 100 g당 162 mg'이라 적었으나(1차 자료 확인 못함), 비정상적으로 높아 μg 단위의 오기일 가능성 — 수치로 쓰지 말 것[3]", "why": "[4→3] 원문은 162 mg/100 g이 맞으나 채소 카로틴으로 비현실적인 값이라 의심 단위로 표시"},
+  {"where": "nutrients[열매 건물].items", "before": "칼륨 4.63·나트륨 1.62·칼슘 7.37·철 5.04·아연 3.83 mg/100 g 건물", "after": "삭제(basis에 사유 기록)", "why": "원문[4→3] 표기와는 같으나 칼륨 4.63 mg/100 g 건물 등 건물 기준으로 비정상적으로 낮아 단위 오류가 의심되고 1차 자료를 확인할 수 없음"},
+  {"where": "compounds.Oleic acid / Linoleic acid.part", "before": "부위 원문에 명확하지 않음(종설 표 4)", "after": "열매(종설 표 4 '지방산 조성', 본문에 열매 지방산이라 적음)", "why": "종설 본문이 'The fruit's fatty acid profile … oleic (∼56%) and linoleic (∼22%)'라고 적음"}
+ ],
+ "unverifiable_notes": [
+  "[6](종전 [7]) 열풍건조 논문은 초록만 확인 — 아스코르브산 생/건 기준과 분석법은 확인하지 못함(dossier에도 그렇게 적힘)",
+  "[3](종전 [4]) 종설이 인용한 생과·건물 영양 값의 1차 자료(방글라데시 kakrol 문헌일 가능성)는 열지 못함",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 티즐고어드과육(Momordica dioica Roxb.) 사용가능, 사용가능부위 과육 — card.json·overview와 일치. 여주 씨앗·뿌리·덩이줄기 사용불가, 나한과 열매·잎, 목별 열매도 원자료와 일치. 이 종의 건강기능식품(C코드) 행 없음",
+  "POWO·GBIF·doi.org 등은 이 환경 허용 목록 밖이라 열지 않음. 논문은 PubMed 도구(메타데이터 22건, 전문 PMC4145798·PMC4034278·PMC11618414)와 작성자가 받아 둔 종설·BMC 전문 텍스트로 대조"
+ ]}

@@ -1,0 +1,586 @@
+{
+ "slug": "chlamys-nobilis",
+ "name_ko": "흔한가리비",
+ "name_en": "Noble scallop",
+ "scientific_name": "Chlamys nobilis",
+ "aliases": [
+  "Mimachlamys nobilis",
+  "Chlamys (Mimachlamys) nobilis",
+  "noble scallop"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "흔한가리비(Chlamys nobilis)는 가리비과(Pectinidae)에 드는 바다 조개로, 영어로는 noble scallop이라 부른다[1, 6]. 식약처 「식품원료 목록」에는 '흔한가리비'라는 원료명과 학명 Chlamys nobilis, 영문명 Noble scallop으로 올라 있으며, 분류는 수산물이다[1]. 이 목록에서 상태는 '사용가능'이고, 사용 부위는 따로 정하지 않은 '-'로 적혀 있으며 별도의 사용 조건은 없다[1].\n\n중국 남부 연안에서 1980년대부터 널리 양식해 온 중요한 경제 이매패류이고[4], 최근 연구들은 이 종을 중국 남부 연안의 주요 양식 패류로 소개한다[35]. 껍데기 색이 금색인 개체와 갈색인 개체가 있으며, 금색·주황색 개체는 관자·외투막·껍데기에 카로티노이드가 더 많다[6, 30]. 관자 가공·셀레늄 다당류·관자 효소분해물 같은 식품 연구가 있다[14–16]. 건강기능식품 고시형 원료로서의 기록과 식약처 지정 지표성분은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "흔한가리비는 1980년대부터 중국 남해안에서 대규모로 양식되었다[4]. 그러나 1990년대 말부터 양식 개체가 지역별로 대량 폐사하는 일이 잦아 양식 농가와 산업에 큰 손실을 주었다[4]. 2017년 3월 초 광둥성 산터우 난아오섬 일부 양식장에서는 폐사율이 67–90%에 이르렀고 일주일 안에 양식장 전체로 번졌다[5]. 이 사건의 원인으로는 낮은 밀도의 유독 와편모조류 Karenia mikimotoi가 지목되었다[4].\n\n중국에서는 카로티노이드가 많은 금색 계통을 골라 기르는 선발 육종이 이루어져, 최근 논문은 이를 상업적 가치가 높은 '금색 흔한가리비'로 부른다[33]. 극심한 저수온과 세균 질병 때문에 양식 손실이 자주 나서 저온·병 저항성 연구가 이어지고 있다[38].\n\n국내에서는 제주 연안에서 이 종의 치패 성장과 중간육성을 시험한 한국패류학회지 논문이 있다는 것을 웹 검색으로 찾았으나, 원문 내용은 확인하지 못함[36]. 국내 자연 분포와 이용 역사를 적은 공식 자료도 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "흔한가리비는 가리비과에 속하는 바다 이매패류이며, 연구에서는 따뜻한 물에 사는 종(warm-water bivalve)으로 다룬다[1, 40]. 바닷물을 걸러 먹는 조개여서 먹이 속 미세조류의 독소·금속을 몸에 쌓는다[21, 26]. 중국 난아오섬에서 기른 14개월 된 개체의 껍데기 크기는 주황색 계통이 각장 67.28 mm·각고 72.92 mm, 갈색 계통이 각장 66.80 mm·각고 71.69 mm였다[6].\n\n껍데기 색은 주황·주황보라·갈색 등으로 다양하고, 관자 색도 주황과 흰색으로 나뉜다[6]. 주황색은 갈색보다 우성이며 껍데기 색과 관자 색은 적어도 두 유전자 자리가 조절한다고 보고되었다[6]. 금색 개체는 외투막·껍데기의 총카로티노이드가 갈색 개체보다 많고 멜라닌은 적었다[30]. 동물은 카로티노이드를 스스로 만들지 못해 먹이에서 얻으며, 금색 개체의 장에는 카로티노이드를 만드는 세균이 더 많았다[12].\n\n암컷 생식소는 난자를 만드는 동안 지질을 많이 쌓는다[31]. 생식소 단백질·전사체 분석에서는 수컷에서 암컷으로 성을 바꿀 가능성이 제시되었다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」은 이 종을 학명 Chlamys nobilis로 올렸다[1]. 학술 논문에서는 같은 종을 Mimachlamys nobilis(Reeve, 1852) 또는 Chlamys (Mimachlamys) nobilis로도 쓴다[2, 3, 23]. 세계해양생물목록(WoRMS) 등 분류 데이터베이스에서 이 이름을 현재 정명으로 두는지, 다른 종명(예: Mimachlamys crassicostata)의 이명으로 두는지는 원 기록을 열지 못해 확인하지 못함. 이 문서는 식품원료 목록의 학명 Chlamys nobilis를 따른다[1].\n\n같은 목록에는 비단가리비(Chlamys farrei nipponensis), 고랑가리비(Chlamys swifti), 영문 원료명 Farrer's scallop(Chlamys farreri), 여왕가리비(Chlamys opercularis) 같은 다른 가리비가 따로 올라 있다[1]. 이 문서는 그 종들의 성분·안전 자료를 섞지 않았다[1].\n\n중국에서는 C. farreri와 이 종의 인공 종간 교잡이 실험적으로 가능하다는 것이 확인되었다[3]. 일본 연안 조사에서는 C. farreri 아종들이 복어독(테트로도톡신)을 높은 농도로 쌓은 반면 이 종은 낮았다[23]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·채취",
+   "body": "양식 실험에서는 여러 층으로 된 채롱(lantern cage)에 넣어 길렀다[9]. 같은 장소에서 60일 동안 채롱 하나(10층)에 500마리와 100마리를 넣어 비교했더니, 고밀도에서 폐사가 많고 성장이 느렸으며 혈림프의 세균 수도 많았다[9]. 3개월 양식 실험에서도 층당 200마리 구역은 하루 성장 0.39 mm·생존율 37.00%로, 층당 110마리 구역(0.55 mm·76.82%)보다 나빴다[10].\n\n수온은 양식의 큰 변수다[7, 8]. 고수온 시험에서 36시간 반치사 온도는 금색 개체 32.14 ℃, 갈색 개체 31.19 ℃였다[7]. 저수온 시험에서는 두 계통 모두 12 ℃ 이상에서 잘 적응했고, 겨울 수온이 12 ℃ 아래로 내려가는 곳에서는 금색 개체가 더 알맞다고 보았다[8]. 저수온을 단계적으로 낮춘 시험에서는 10 ℃와 9 ℃에서 아가미가 크게 손상되었다[40].\n\n새우 양식 연못에서 40일 기른 개체는 바다 양식 개체와 생존·성장 차이가 없었고 총카로티노이드는 더 많았다[37]. 다모류 기생으로 생기는 흑각병도 폐사와 성장 저하를 일으킨다[35]. 국내외 생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출 연구",
+   "body": "관자를 삶고 헹구고 굽고 말리는 단계별 변화를 본 연구에서, 전체 공정은 필수아미노산을 잘 보존했다[14]. 건조 단계에서는 감칠맛 아미노산과 단맛 아미노산이 각각 72.08%, 67.77% 늘었고 맛을 내는 뉴클레오타이드도 늘었다[14]. 다만 공정을 거치며 단백질 산화는 1.49–3.01배, 지질 산화는 4.25–5.81배로 높아졌다[14].\n\n이 종의 셀레늄 다당류를 생것과 찐 것으로 비교한 연구에서는 찌기가 구조와 셀레늄 함량을 바꾸었지만 생체이용률은 떨어뜨리지 않았다[15]. 관자 효소분해물은 시험관에서 α-글루코시데이스를 약 35% 억제했고, 정상 생쥐에 3일 먹였을 때 내당능이 좋아졌으나 이는 동물 실험 결과다[16]. 이 분해물에서 찾은 트로포미오신 유래 펩타이드 두 개의 IC50은 144.89 μM과 136.96 μM이었다[16].\n\n카로티노이드 추출에는 초음파 추출(240 W, 38 ℃, 29분)이 2시간 일반 추출보다 효율이 높았다[11]. 주 알레르기 단백질인 트로포미오신을 자일로스와 마이야르 반응시키면 면역 결합 활성이 낮아졌다[28]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "미토콘드리아 유전체는 17,935 bp로 해독되었고 tRNA 유전자 21개가 확인되었다[2]. 같은 연구는 큰가리비(Mizuhopecten yessoensis)와 C. farreri의 미토콘드리아 유전체가 이 종과 가까운 공통 조상에서 따로 갈라져 나왔을 것으로 보았다[1, 2]. 염색체는 반수체 n=16이며 히스톤 H3 유전자 자리는 한 곳에서 확인되었다[20]. C. farreri와의 교잡 F1 유생은 2n=35의 잡종 핵형을 보였다[3].\n\n454 염기서열로 만든 전사체는 정제 리드 1,181,060개를 49,717개 아이소티그로 조립했고, SSR 3,844개와 12만 개가 넘는 변이를 찾았다[6]. 이 연구에서 SRB-like-3 유전자는 주황색 개체에만 있고 갈색 개체에는 없었다[6]. 이후 StAR-like-3 유전자가 만드는 단백질이 금색 개체의 장 상피세포에 있고, 이 유전자를 억제하면 혈림프 카로티노이드가 줄어 카로티노이드 축적의 핵심 유전자로 보고되었다[13].\n\n중국 남해 4개 집단 200마리를 미세부수체 5개로 분석했을 때 대립유전자는 모두 32개였고 난아오 집단의 다양성이 가장 높았다[19]. 마이오스타틴 유전자 촉진자 부위의 SNP g.-579A/C는 체중·연체부 무게·관자 무게와 관련이 있었다[39]. 유전체 자료로 유전자군을 찾은 연구가 있으나 참조 유전체의 크기·조립 정보는 확인하지 못함[34]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 이 종은 별도 조건 없이 '사용가능' 원료이다[1]. 건강기능식품 고시형 원료로서의 기록과 고시 섭취 시 주의사항은 확인하지 못함. 이 종을 따로 다룬 국내 공공기관의 알레르기·패독·중금속 안전 정보는 이번 조사에서 확인하지 못함.\n\n이 종은 마비성 패독을 몸에 쌓을 수 있다[21, 22]. 2019–2020년 중국 선전 수산 도매시장 조사에서 이 종 34개 시료 중 10개(29.4%)에서 마비성 패독이 검출되어 14종 가운데 검출률이 가장 높았고, 최고 농도로 계산한 급성 노출은 권고 급성참고용량의 2.4–3.7배였다[21]. 먹이 전달 실험에 쓴 유독 개체의 내장에는 GTX1–3, C1+2, B1, dcGTX2+3 같은 독소가 들어 있었다[22]. 일본 조사에서 이 종의 중장선에서도 복어독이 낮은 농도로 검출되었다[23].\n\n금속은 카드뮴과 아연을 매우 높게 쌓는 종으로 알려져 있다[26]. 2001년 발표된 주강 삼각주 시장 조사(습중량 기준)에서 이 종의 카드뮴은 사람의 일일 허용량과 현지 기준을 모두 넘었다[24]. 수은은 종마다 쌓이는 양상이 달랐다[25]. 과불화화합물 위험은 기준 아래였으나 이 종의 PFHxA 위해 지수가 0.82에 이르러 주의가 필요하다고 했다[29]. 근육의 트로포미오신은 주요 알레르기 단백질이다[27, 28]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Carotenoids",
+   "name_ko": "총카로티노이드",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "원문 초록에 조직 명시 없음",
+   "content_text": "137.88 ± 1.22 µg/g (초음파 추출 최적 조건 240 W·38 ℃·29분), 2시간 일반 추출 107.75 ± 2.60 μg/g (초록에 조직·생건 기준 명시 없음)",
+   "activity_ko": "금색 개체에 많고, 고수온·저수온 내성이 높은 것과 관련된다고 보고되었다[7, 8]",
+   "source": [
+    11,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Astaxanthin",
+   "name_ko": "아스타잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "단백질 결합 실험(시험관)·장에서 분리한 세균",
+   "content_text": "이 종 조직의 함량은 확인하지 못함; 금색 개체의 STARD3 유사 단백질이 시험관에서 결합했고, 장에서 분리한 세균이 만들었다",
+   "activity_ko": "카로티노이드 운반 단백질의 결합 대상으로 확인되었다[33]",
+   "source": [
+    33,
+    12
+   ]
+  },
+  {
+   "name": "Zeaxanthin",
+   "name_ko": "제아잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "단백질 결합 실험",
+   "content_text": "이 종 조직의 함량은 확인하지 못함; STARD3 유사 단백질이 결합해 다른 단백질로 넘겨 주었다",
+   "activity_ko": "카로티노이드 운반 단백질이 선택적으로 넘기는 색소로 보고되었다[33]",
+   "source": [
+    33
+   ]
+  },
+  {
+   "name": "Canthaxanthin",
+   "name_ko": "칸타잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "단백질 결합 실험",
+   "content_text": "이 종 조직의 함량은 확인하지 못함; STARD3 유사 단백질이 시험관에서 결합했다",
+   "activity_ko": "카로티노이드 결합 단백질의 결합 대상[33]",
+   "source": [
+    33
+   ]
+  },
+  {
+   "name": "Lutein",
+   "name_ko": "루테인",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "단백질 결합 실험",
+   "content_text": "이 종 조직의 함량은 확인하지 못함; 재조합 StAR3 단백질이 루테인과 노란 복합체를 만들었다",
+   "activity_ko": "장에서 카로티노이드를 흡수·운반하는 단백질의 결합 대상으로 쓰였다[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA(에이코사펜타엔산)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "효모 발현 효소 실험",
+   "content_text": "함량은 확인하지 못함; 이 종의 Δ8·Δ5 불포화효소로 전구체에서 합성할 수 있음이 확인되었다",
+   "activity_ko": "이 종이 'Δ8 경로'로 EPA를 스스로 만들 수 있다는 근거가 보고되었다[17, 18]",
+   "source": [
+    17,
+    18
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산",
+   "class": "오메가-6 지방산",
+   "role": "nutrient",
+   "part": "효모 발현 효소 실험",
+   "content_text": "함량은 확인하지 못함; 이 종의 Δ5 불포화효소가 20:3n-6을 아라키돈산으로 바꾸었다",
+   "activity_ko": "이 종이 전구체에서 합성할 수 있는 고도불포화지방산[17, 18]",
+   "source": [
+    17,
+    18
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "DHA(도코사헥사엔산)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "전사체·효소 실험",
+   "content_text": "함량은 확인하지 못함; Δ4·Δ6 활성이 없어 스스로 만드는 능력은 제한적일 것으로 추정되었다",
+   "activity_ko": "이 종의 자체 합성 능력은 제한적이라고 보고되었다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄(셀레늄 다당류)",
+   "class": "무기질(유기 셀레늄)",
+   "role": "nutrient",
+   "part": "연체부(생것·찐 것)",
+   "content_text": "수치는 초록에 없음; 정제 분획 가운데 SS-3(생것)·SZ-3(찐 것)의 셀레늄 함량이 가장 높았다",
+   "activity_ko": "Caco-2 세포 모델에서 찐 분획의 셀레늄 수송·흡수가 아셀렌산나트륨보다 컸다(세포 실험)[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Tropomyosin",
+   "name_ko": "트로포미오신",
+   "class": "근육 단백질",
+   "role": "bioactive",
+   "part": "근육(관자)",
+   "content_text": "약 38 kDa 단백질로 보고됨; 함량은 확인하지 못함",
+   "activity_ko": "패류 알레르기의 주요 원인 단백질이며, 효소 분해 시 α-글루코시데이스 억제 펩타이드의 원천이 되었다[16, 27, 28]",
+   "source": [
+    27,
+    28,
+    16
+   ]
+  },
+  {
+   "name": "KLNSTTEKLEE",
+   "name_ko": "펩타이드 KLNSTTEKLEE",
+   "class": "트로포미오신 유래 펩타이드",
+   "role": "bioactive",
+   "part": "관자 효소분해물",
+   "content_text": "α-글루코시데이스 IC50 144.89 μM (합성 펩타이드, 시험관)",
+   "activity_ko": "시험관에서 α-글루코시데이스를 억제했다(아카보스 IC50 709.41 μM과 비교)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "TDADHKF",
+   "name_ko": "펩타이드 TDADHKF",
+   "class": "트로포미오신 유래 펩타이드",
+   "role": "bioactive",
+   "part": "관자 효소분해물",
+   "content_text": "α-글루코시데이스 IC50 136.96 μM (합성 펩타이드, 시험관)",
+   "activity_ko": "시험관에서 α-글루코시데이스를 억제했다[16]",
+   "source": [
+    16
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Total carotenoids",
+   "compound_ko": "총카로티노이드",
+   "part": "관자·장·혈림프",
+   "content": "금색 개체가 세 조직 모두에서 갈색 개체보다 유의하게 높고 장이 가장 높음; 수치는 그림에만 있음 [12]",
+   "method": "분광광도법(아세톤 추출, 480 nm, E1%1cm 1.900)",
+   "conditions": {
+    "instrument": "UV2501PC 분광광도계(Shimadzu)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "400–700 nm 주사, 480 nm 흡광도로 계산(흡광계수 E(1%, 1 cm) 1.900)",
+    "injection": "",
+    "sample_prep": "시료를 48시간 동결건조해 막자사발로 분쇄, 0.02 g에 아세톤 1 mL를 넣고 25 ℃ 어두운 곳에서 1시간 200 rpm 흔들어 추출, 5000 rpm 5분 원심분리 후 상층액 측정",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 금색·갈색 계통을 비교할 때 형질 지표로 쓰는 성분이다. 결과는 μg/g 건중량으로 계산한다[12].",
+   "source": [
+    12
+   ],
+   "url": "https://doi.org/10.3389/fmicb.2020.00036",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total carotenoids",
+   "compound_ko": "총카로티노이드(초음파 추출)",
+   "part": "원문 초록에 조직 명시 없음",
+   "content": "137.88 ± 1.22 µg/g(초음파 추출), 107.75 ± 2.60 μg/g(2시간 일반 추출) [11]",
+   "method": "초음파 보조 추출 후 총카로티노이드 정량",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "추출 38 ℃",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "초음파 240 W, 38 ℃, 29분 추출(반응표면분석 최적 조건); 일반 추출보다 아세톤 사용량이 적음",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 카로티노이드 추출법을 개선한 연구다. 전문 확인 못함 — 초록의 추출 조건만 옮겼다[11].",
+   "source": [
+    11
+   ],
+   "url": "https://doi.org/10.1016/j.foodchem.2018.12.043",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Paralytic shellfish toxins (13 analogues)",
+   "compound_ko": "마비성 패독 13종",
+   "part": "시장 시료(분석 부위는 초록에 명시 없음)",
+   "content": "이 종 34개 시료 중 10개(29.4%) 검출, C1이 주된 독소 [21]",
+   "method": "LC-MS/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종에서 검출률이 가장 높은 위해 성분으로 섭취 노출 평가에 쓰였다. 전문 확인 못함[21].",
+   "source": [
+    21
+   ],
+   "url": "https://doi.org/10.1007/s11356-021-16249-4",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 흔한가리비(Chlamys nobilis) 항목 및 같은 목록의 다른 가리비 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Comparative mitogenomic analyses of three scallops (Bivalvia: Pectinidae) reveal high level variation of genomic organization and a diversity of transfer RNA gene sets. BMC Res Notes 2009;2:69",
+   "url": "https://doi.org/10.1186/1756-0500-2-69",
+   "publisher": "BMC Research Notes, PMC2683862, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Fertilization and cytogenetic examination of interspecific reciprocal hybridization between the scallops, Chlamys farreri and Mimachlamys nobilis. PLoS One 2011;6(11):e27235",
+   "url": "https://doi.org/10.1371/journal.pone.0027235",
+   "publisher": "PLoS One, PMC3215693, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Potential causative factors of noble scallop Chlamys nobilis mass mortality in Nan'ao Island, Shantou, China in 2017. Sci Total Environ 2021;751:142268 (초록)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2020.142268",
+   "publisher": "Science of the Total Environment, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Physiological and immunological responses to mass mortality in noble scallop Chlamys nobilis cultured in Nan'ao waters of Shantou, China. Fish Shellfish Immunol 2018;82:453-459 (초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2018.08.049",
+   "publisher": "Fish & Shellfish Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "A de novo transcriptome of the noble scallop, Chlamys nobilis, focusing on mining transcripts for carotenoid-based coloration. BMC Genomics 2015;16:44",
+   "url": "https://doi.org/10.1186/s12864-015-1241-x",
+   "publisher": "BMC Genomics, PMC4342821, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Effects of thermal stress on mortality and HSP90 expression levels in the noble scallops Chlamys nobilis with different total carotenoid content. Cell Stress Chaperones 2020 (초록)",
+   "url": "https://doi.org/10.1007/s12192-019-01052-5",
+   "publisher": "Cell Stress and Chaperones, PMC6985358, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Enzymes and non-enzymatic antioxidants responses to sequential cold stress in polymorphic noble scallop Chlamys nobilis with different total carotenoids content. Fish Shellfish Immunol 2020;97:617-623 (초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2019.12.063",
+   "publisher": "Fish & Shellfish Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Effects of stocking density on the growth performance, bacterial load and antioxidant response systems of noble scallop Chlamys nobilis. Fish Shellfish Immunol 2019;92:40-44 (초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2019.05.053",
+   "publisher": "Fish & Shellfish Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Effects of high stocking density on growth performance and expression of MyD88, and its temporal expression under the challenge of Vibrio parahaemolyticus in the noble scallop Chlamys nobilis. Fish Shellfish Immunol 2023;141:109059 (초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2023.109059",
+   "publisher": "Fish & Shellfish Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "An improving method for extracting total carotenoids in an aquatic animal Chlamys nobilis. Food Chem 2019;280:45-50 (초록)",
+   "url": "https://doi.org/10.1016/j.foodchem.2018.12.043",
+   "publisher": "Food Chemistry, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Comparison of Gut Microbiota Between Golden and Brown Noble Scallop Chlamys nobilis and Its Association With Carotenoids. Front Microbiol 2020;11:36",
+   "url": "https://doi.org/10.3389/fmicb.2020.00036",
+   "publisher": "Frontiers in Microbiology, PMC7018768, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Identification of a key gene StAR-like-3 responsible for carotenoids accumulation in the noble scallop Chlamys nobilis. Food Chem (Oxf) 2022;4:100072",
+   "url": "https://doi.org/10.1016/j.fochms.2021.100072",
+   "publisher": "Food Chemistry: Molecular Sciences, PMC8991518, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Novel insight into the role of processing stages in nutritional components changes and characteristic flavors formation of noble scallop Chlamys nobilis adductors. Food Chem 2022;378:132049 (초록)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.132049",
+   "publisher": "Food Chemistry, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Effect of steaming on the selenium form, structure, and bioavailability of selenopolysaccharides from Chlamys nobilis. Food Chem 2025;478:143715 (초록)",
+   "url": "https://doi.org/10.1016/j.foodchem.2025.143715",
+   "publisher": "Food Chemistry, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Computational screening for novel α-glucosidase inhibitory peptides from Chlamys nobilis adductor muscle as a potential antidiabetic agent. Front Nutr 2025;12:1566107",
+   "url": "https://doi.org/10.3389/fnut.2025.1566107",
+   "publisher": "Frontiers in Nutrition, PMC11973072, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "PUFA biosynthesis pathway in marine scallop Chlamys nobilis Reeve. J Agric Food Chem 2014;62(51):12384-91 (초록)",
+   "url": "https://doi.org/10.1021/jf504648f",
+   "publisher": "Journal of Agricultural and Food Chemistry, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Functional characterization of a Δ5-like fatty acyl desaturase and its expression during early embryogenesis in the noble scallop Chlamys nobilis Reeve. Mol Biol Rep 2014;41(11):7437-45 (초록)",
+   "url": "https://doi.org/10.1007/s11033-014-3633-4",
+   "publisher": "Molecular Biology Reports, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "The genetic diversity of the noble scallop (Chlamys nobilis, Reeve 1852) in China assessed using five microsatellite markers. Mar Genomics 2013;9:63-7 (초록)",
+   "url": "https://doi.org/10.1016/j.margen.2012.06.003",
+   "publisher": "Marine Genomics, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Chromosome rearrangements in Pectinidae (Bivalvia: Pteriomorphia) implied based on chromosomal localization of histone H3 gene in four scallops. Genetica 2007;130(2):193-8 (초록)",
+   "url": "https://doi.org/10.1007/s10709-006-9006-8",
+   "publisher": "Genetica, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Dietary exposure assessment of paralytic shellfish toxins through shellfish consumption in Shenzhen population, China. Environ Sci Pollut Res Int 2022;29(7):10222-10234 (초록)",
+   "url": "https://doi.org/10.1007/s11356-021-16249-4",
+   "publisher": "Environmental Science and Pollution Research, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Transfer and metabolism of paralytic shellfish poisoning from scallop (Chlamys nobilis) to spiny lobster (Panulirus stimpsoni). Toxicon 2006;48(8):988-94 (초록)",
+   "url": "https://doi.org/10.1016/j.toxicon.2006.08.002",
+   "publisher": "Toxicon, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Tetrodotoxin Detection in Japanese Bivalves: Toxification Status of Scallops. Mar Biotechnol 2023;25(5):666-676 (초록)",
+   "url": "https://doi.org/10.1007/s10126-023-10199-3",
+   "publisher": "Marine Biotechnology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Heavy metal concentrations in edible bivalves and gastropods available in major markets of the Pearl River Delta. J Environ Sci (China) 2001;13(2):210-7 (초록, PMID 11590745)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11590745/",
+   "publisher": "Journal of Environmental Sciences (China), PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Mercury accumulation in marine bivalves: influences of biodynamics and feeding niche. Environ Pollut 2011;159(10):2500-6 (초록)",
+   "url": "https://doi.org/10.1016/j.envpol.2011.06.029",
+   "publisher": "Environmental Pollution, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "The subcellular fate of cadmium and zinc in the scallop Chlamys nobilis during waterborne and dietary metal exposure. Aquat Toxicol 2008;90(4):253-60 (초록)",
+   "url": "https://doi.org/10.1016/j.aquatox.2008.09.010",
+   "publisher": "Aquatic Toxicology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Tropomyosin Is the Major Mollusk Allergen: Reverse Transcriptase Polymerase Chain Reaction, Expression and IgE Reactivity. Mar Biotechnol 2000;2(5):499-509 (초록)",
+   "url": "https://doi.org/10.1007/s101260000035",
+   "publisher": "Marine Biotechnology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Effects of the Maillard reaction on the epitopes and immunoreactivity of tropomyosin, a major allergen in Chlamys nobilis. Food Funct 2021;12(11):5096-5108 (초록)",
+   "url": "https://doi.org/10.1039/d1fo00270h",
+   "publisher": "Food & Function, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Legacy and novel perfluoroalkyl substances in major economic species of invertebrates in South China Sea: Health implication from consumption. Mar Pollut Bull 2023;192:115112 (초록)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2023.115112",
+   "publisher": "Marine Pollution Bulletin, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "The physiological and transcriptional differences between golden and brown noble scallops Chlamys nobilis. Comp Biochem Physiol Part D 2025;55:101498 (초록)",
+   "url": "https://doi.org/10.1016/j.cbd.2025.101498",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Srebp-1 bridges gonad development and lipid accumulation by regulating lipogenesis in noble scallop Chlamys nobilis. Int J Biol Macromol 2024;279:135094 (초록)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2024.135094",
+   "publisher": "International Journal of Biological Macromolecules, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Proteome and Transcriptome Analysis of Ovary, Intersex Gonads, and Testis Reveals Potential Key Sex Reversal/Differentiation Genes and Mechanism in Scallop Chlamys nobilis. Mar Biotechnol 2018;20(2):220-245 (초록)",
+   "url": "https://doi.org/10.1007/s10126-018-9800-1",
+   "publisher": "Marine Biotechnology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "STARD3-like protein from golden noble scallop is a carotenoid transfer protein capable of binding various xanthophylls. Int J Biol Macromol 2026;359:151788 (초록)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2026.151788",
+   "publisher": "International Journal of Biological Macromolecules, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Identification of aquaporin (AQP) genes in the noble scallop Chlamys nobilis and characterization of their expression under low-temperature stress. Comp Biochem Physiol Part D 2026;101897 (초록)",
+   "url": "https://doi.org/10.1016/j.cbd.2026.101897",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "The secondary effects of Vibrio parahaemolyticus on noble scallop Chlamys nobilis with black shell disease. Fish Shellfish Immunol 2025;167:110684 (초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2025.110684",
+   "publisher": "Fish & Shellfish Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "흔한가리비, Chlamys nobilis의 치패성장 및 중간육성. 한국패류학회지 24(3):205 — WebSearch 결과로 서지·요약만 확인(원문 미열람, 사이트 접근 불가)",
+   "url": "https://www.accesson.kr/malacol/v.24/3/205/52341",
+   "publisher": "한국패류학회(Korean Journal of Malacology)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Environmental-driven restructuring of intestinal microbiota promotes host fitness and enhances food safety potential in shrimp pond-cultured Chlamys nobilis. Mar Environ Res 2026;218:108025 (초록)",
+   "url": "https://doi.org/10.1016/j.marenvres.2026.108025",
+   "publisher": "Marine Environmental Research, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 38,
+   "title": "Identification of ATG genes in the noble scallop Chlamys nobilis reveals unique expression strategies against low-temperature and Vibrio parahaemolyticus challenge. Dev Comp Immunol 2026;105715 (초록)",
+   "url": "https://doi.org/10.1016/j.dci.2026.105715",
+   "publisher": "Developmental and Comparative Immunology, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 39,
+   "title": "Molecular characterization and expression analysis of the myostatin gene and its association with growth traits in Noble scallop (Chlamys nobilis). Comp Biochem Physiol B 2017;212:24-31 (초록)",
+   "url": "https://doi.org/10.1016/j.cbpb.2017.07.004",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 40,
+   "title": "Effects of chronic cold stress on tissue structure, antioxidant response, and key gene expression in the warm-water bivalve Chlamys nobilis. Comp Biochem Physiol Part D 2024;50:101225 (초록)",
+   "url": "https://doi.org/10.1016/j.cbd.2024.101225",
+   "publisher": "Comparative Biochemistry and Physiology Part D, PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, pub, extra=""):
+    return {"n": n, "title": title + extra, "url": f"https://doi.org/{doi}", "publisher": pub, "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Nemipterus virgatus 4행(실꼬리돔·실꼬리돔페이스트: 부위 '-'; 실꼬리돔어육·실꼬리돔연육: 부위 '죽순'; 모두 수산물·사용가능·사용 조건 없음; 영문 Golden threadfin bream, Golden thread; 같은 속 금홍실꼬리돔 N. aurora, 홍대실꼬리돔 N. hexodon, N. japonicus, N. thosaporni 는 별도 행; data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/nemipterus-virgatus/card.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Effects of collagen-based coating with chitosan and ε-polylysine on sensory, texture, and biochemical changes of refrigerated Nemipterus virgatus fillets. Food Sci Nutr 2023;12(3) (PMC 전문 확인)", "10.1002/fsn3.3916", "Food Science & Nutrition, PMC10916661 (PubMed 38455186)"),
+ pm(3, "Compare with different vegetable oils on the quality of the Nemipterus virgatus surimi gel. Food Sci Nutr 2022 (PMC 전문 확인)", "10.1002/fsn3.2889", "Food Science & Nutrition, PMC9469861 (PubMed 36171767)"),
+ pm(4, "Low-Content Pre-Emulsified Safflower Seed Oil Enhances the Quality and Flavor of the Nemipterus virgatus Surimi Gel. Gels 2022;8(2):106 (PMC 전문 확인)", "10.3390/gels8020106", "Gels (MDPI), PMC8871502 (PubMed 35200487)"),
+ pm(5, "A Mathematical Model of Myosin Heavy Chain Dynamics in the Disintegration of Golden Threadfin Bream Nemipterus virgatus Surimi Gel. Gels 2025;11(5):348 (PMC 전문 확인)", "10.3390/gels11050348", "Gels (MDPI), PMC12111577 (PubMed 40422368)"),
+ pm(6, "Purification and characterization of a sarcoplasmic serine proteinase from threadfin bream Nemipterus virgatus muscle. Food Chem 2019", "10.1016/j.foodchem.2019.01.024", "Food Chemistry (PubMed 30744846, 초록)"),
+ pm(7, "Identification of a modori-inducing proteinase in the threadfin bream: Molecular cloning, tissue distribution and proteinase leakage from viscera during ice storage. Food Chem 2020", "10.1016/j.foodchem.2020.127246", "Food Chemistry (PubMed 32526647, 초록; 같은 연구진의 [6] 후속 연구로 학명은 초록에 없음)"),
+ pm(8, "Quality improvement of threadfin bream (Nemipterus virgatus) surimi-gel using soy protein as a natural food additive. Food Chem 2024", "10.1016/j.foodchem.2024.140423", "Food Chemistry (PubMed 39067386, 초록)"),
+ pm(9, "Complete mitochondrial genome of the Nemipterus virgatus (Perciformes: Nemipteridae). Mitochondrial DNA A 2015", "10.3109/19401736.2015.1066360", "Mitochondrial DNA Part A (PubMed 26258518, 초록)"),
+ pm(10, "The second complete mitogenome of Nemipterus virgatus to dissect control region structure and phylogenetic problem of the superfamily Sparoidea (Teleostei, Perciformes). Mitochondrial DNA B Resour 2019 (PMC 전문 확인)", "10.1080/23802359.2019.1674708", "Mitochondrial DNA Part B, PMC7707243 (PubMed 33366016)"),
+ pm(11, "Morphological, Molecular and Phylogenetic Characterization of Ceratomyxa sp. nov. (Myxozoa: Ceratomyxidae) Infecting Nemipterus virgatus Houttuyn, 1782 in the East China Sea. Animals 2026;16(2):166 (PMC 전문 확인)", "10.3390/ani16020166", "Animals (MDPI), PMC12837322 (PubMed 41594355)"),
+ pm(12, "New records of three commercial fish hosts for two Unicapsula spp. and Kudoa megacapsula (Myxozoa: Myxosporea: Multivalvulida). Parasitol Res 2022", "10.1007/s00436-022-07584-7", "Parasitology Research (PubMed 35852603, 초록)"),
+ pm(13, "Philometra sawara sp. n. and a redescription of Philometra sciaenae Yamaguti, 1941 and Philometra nemipteri Luo, 2001 (Nematoda: Philometridae). Folia Parasitol 2008", "10.14411/fp.2008.036", "Folia Parasitologica (PubMed 19175206, 초록)"),
+ {"n": 14, "title": "Survey of Anisakis larvae in marine fish of Taiwan. Int J Zoonoses 1985;12(3) (초록; DOI 없음)", "url": "https://pubmed.ncbi.nlm.nih.gov/3833830/", "publisher": "International Journal of Zoonoses (PubMed 3833830)", "accessed": A},
+ pm(15, "Geographical distribution and risk assessment of persistent organic pollutants in golden threads (Nemipterus virgatus) from the northern South China Sea. Ecotoxicology 2015", "10.1007/s10646-015-1475-z", "Ecotoxicology (PubMed 25956984, 초록)"),
+ pm(16, "Residual levels of DDTs and PAHs in freshwater and marine fish from Hong Kong markets and their health risk assessment. Chemosphere 2006", "10.1016/j.chemosphere.2006.06.008", "Chemosphere (PubMed 16870232, 초록)"),
+ pm(17, "Risk assessment of PCDD/Fs levels in human tissues related to major food items based on chemical analyses and micro-EROD assay. Environ Int 2009", "10.1016/j.envint.2009.05.005", "Environment International (PubMed 19535140, 초록)"),
+ pm(18, "Analysis of Heavy Metal Characteristics and Health Risk Assessment of Dried Fish Marketed in Guangzhou, China. Biol Trace Elem Res 2024", "10.1007/s12011-024-04291-5", "Biological Trace Element Research (PubMed 38954322, 초록)"),
+ pm(19, "N-nitrosamine and mutagenicity formation in Chinese salted fish after digestion. Food Addit Contam 1992", "10.1080/02652039209374045", "Food Additives & Contaminants (PubMed 1397390, 초록)"),
+ pm(20, "Unrinsed Nemipterus virgatus surimi provides more nutrients than rinsed surimi and helps recover immunosuppressed mice treated with cyclophosphamide. J Sci Food Agric 2023", "10.1002/jsfa.12520", "Journal of the Science of Food and Agriculture (PubMed 36823492, 초록)"),
+ pm(21, "Synergistic Gelation Effects in Surimi Mixtures Composed of Nemipterus virgatus and Hypophthalmichtys molitrix. J Food Sci 2019", "10.1111/1750-3841.14761", "Journal of Food Science (PubMed 31777960, 초록)"),
+ pm(22, "Usage of nanocrystalline cellulose as a novel cryoprotective substance for the Nemipterus virgatus surimi during frozen storage. Food Chem X 2022 (PMC 전문 확인)", "10.1016/j.fochx.2022.100506", "Food Chemistry: X, PMC9672416 (PubMed 36404893)"),
+ pm(23, "Amounts and compositional analysis of glycosaminoglycans in the tissue of fish. Carbohydr Res 2012", "10.1016/j.carres.2012.11.010", "Carbohydrate Research (PubMed 23261779, 초록)"),
+ pm(24, "Insight into the mechanism of optimal low-level pressure coupled with heat treatment to improve the gel properties of Nemipterus virgatus surimi combined with water migration. Food Res Int 2022", "10.1016/j.foodres.2022.111230", "Food Research International (PubMed 35761546, 초록)"),
+ pm(25, "Effect of Pre-Emulsified Flaxseed Oil Containing Rutin on the Quality of Nemipterus virgatus Surimi Gel: Gelatinization Properties, Storage Stability, and Protein Digestibility. Foods 2025;14(2):242 (PMC 전문 확인)", "10.3390/foods14020242", "Foods (MDPI), PMC11765390 (PubMed 39856907)"),
+ pm(26, "Mercury content and consumption risk of 8 species threadfin bream (Nemipterus spp.) caught along the Gulf of Thailand. Mar Pollut Bull 2022 (초록; 조사 8종에 N. virgatus 가 드는지는 초록에 없음)", "10.1016/j.marpolbul.2022.113363", "Marine Pollution Bulletin (PubMed 35151078, 초록)"),
+ {"n": 27, "title": "남중국해 실꼬리돔류(Nemipterus) 8종 근육 지방산 조성 연구(중국어 학술지 「现代食品科技」 초록 페이지) — WebSearch 요약으로만 확인, 원문·초록 페이지는 이 환경의 네트워크 허용 목록 밖이라 열지 못함", "url": "https://xdspkj.alljournals.cn/xdspkj/article/abstract/20180332", "publisher": "现代食品科技 (WebSearch 요약만 확인)", "accessed": A},
+ pm(28, "Structural changes and functional properties of threadfin bream sarcoplasmic proteins subjected to pH-shifting treatments and lyophilization. J Food Sci 2010 (초록; 원료를 'Nemipterus sp.'로만 적음)", "10.1111/j.1750-3841.2010.01530.x", "Journal of Food Science (PubMed 20492275, 초록)"),
+ pm(29, "Tapioca Starch Improves the Quality of Nemipterus virgatus Surimi Gel by Enhancing Molecular Interaction in the Gel System. Foods 2024;13(1):169", "10.3390/foods13010169", "Foods (MDPI), PMC10779019 (PubMed 38201197, 초록)"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "실꼬리돔(Nemipterus virgatus)은 실꼬리돔과(Nemipteridae)에 드는 바닷물고기로, 식약처 「식품원료 목록」에 '실꼬리돔'(영문 Golden threadfin bream, Golden thread)이라는 원료명으로 올라 있다[1]. 같은 학명으로 '실꼬리돔페이스트'·'실꼬리돔어육'·'실꼬리돔연육' 행이 따로 있으며, 네 행 모두 상태는 '사용가능'이고 사용 조건은 없다[1]. 사용 부위는 실꼬리돔·실꼬리돔페이스트가 '-', 실꼬리돔어육·실꼬리돔연육이 '죽순'으로 원자료에 적혀 있다[1]. 어류 원료에 '죽순'이라는 부위 표기가 붙은 까닭은 확인하지 못함. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n중국 남부 연구진은 실꼬리돔을 남중국해의 중요한 경제 어종으로 소개하며, 단백질이 많고 겔 형성력이 강해 연육(수리미)과 연제품의 주요 원료라고 적었다[3]. 동남아 여러 나라에서도 중요한 경제 어종이며, 통째 생선 기준 단백질이 19.7%까지 이른다는 앞선 보고가 인용되었다[2]. 국내 공공기관의 실꼬리돔 식품성분표 값은 확인하지 못함."},
+ {"key": "history", "title": "이용 역사", "body":
+  "1980년 5–8월 대만 북부 단수이 시장에서 팔린 해산어를 조사한 연구에 실꼬리돔이 포함되어 있어, 오래전부터 시장 어종이었음을 보여 준다[14]. 홍콩에서 구한 소금에 절여 말린 실꼬리돔이 1992년 연구의 시료로 쓰였고[19], 2024년 연구에서는 중국 광저우 시장에서 인기 있는 마른 생선 다섯 가지 가운데 하나로 실꼬리돔 건어가 조사되었다[18]. 홍콩 시장 해산어의 잔류 오염물질 조사에도 실꼬리돔이 들어 있었다[16].\n\n중국에서 실꼬리돔은 연육과 연제품, 냉동 가공품, 마른 생선, 어유로 가공되며, 그 가운데 연육과 연제품으로 가장 널리 쓰인다[3]. 중국산 AAA 등급 냉동 연육이 시판되어 여러 연구에 원료로 쓰였다[3, 4]. 일본에서도 도쿄 시장에서 산 실꼬리돔으로 연육 겔 실험을 했다[5]. 식약처 목록에 어육·연육·페이스트라는 원료명이 따로 있는 점은 가공 원료로도 들어온다는 점을 보여 주지만[1], 국내 수입·유통의 역사와 규모를 다룬 공식 자료는 확인하지 못함."},
+ {"key": "biology", "title": "어종·형태·생태", "body":
+  "실꼬리돔은 실꼬리돔과에서 가장 널리 퍼지고 수가 많은 종 가운데 하나로, 일본 남부에서 오스트레일리아 북서부와 아라푸라해까지 분포한다고 소개된다[10]. 대륙붕의 진흙이나 모래 바닥, 수심 200 m까지에 사는 저서성 어류다[10]. 다른 연구는 서태평양과 인도양의 열대·아열대에 주로 사는 따뜻한 물의 중형 저서 어류로 적었고[11], 또 다른 연구는 난온대 해역의 바닥 가까이에 사는 물고기로 소개했다[2].\n\n중국 차오저우 시장에서 산 실험용 개체는 평균 무게 약 510 g, 길이 약 40 cm였다[2]. 기생충 연구에서는 일본산 실꼬리돔의 생식소에서 선충 Philometra nemipteri 암수가 확인되었고[13], 동중국해 샤먼 연안 개체 18마리 가운데 2마리(11.1%)의 쓸개에서 새로운 점액포자충(Ceratomyxa 속)이 발견되었다[11]. 중국 남부 개체의 몸통 근육에서는 Kudoa megacapsula가 가낭(pseudocyst)을 만든 사례가 보고되었다[12]. 한국 연안의 출현 기록과 산란기·성장 같은 생활사 자료는 이번 조사에서 확인하지 못함."},
+ {"key": "related_species", "title": "관련 종·이름", "body":
+  "식약처 「식품원료 목록」은 같은 속의 금홍실꼬리돔(Nemipterus aurora), 홍대실꼬리돔(Nemipterus hexodon), Nemipterus japonicus(원료명 'Japanese threadfin bream'), Nemipterus thosaporni(원료명 'Palefin threadfin bream')를 실꼬리돔과 별도의 원료로 올려 두었다[1]. 이 문서는 이들 종의 자료를 섞지 않았다[1].\n\n미토콘드리아 유전체 계통수에서 실꼬리돔은 같은 속의 Nemipterus japonicus·Nemipterus bathybius와 한 가지로 묶였다[9]. 32종의 미토콘드리아 유전체로 만든 계통수에서는 실꼬리돔과가 도미과·Centracanthidae·Lethrinidae와 한 무리(도미상과 Sparoidea)로 묶이지 않아, 생김새는 비슷해도 도미과와 가까운 무리라는 가설을 지지하지 않았다[10].\n\n영어 'threadfin bream'은 실꼬리돔속 여러 종을 두루 가리키는 이름이라, 원료를 'Nemipterus sp.'로만 적은 논문도 있다[28]. 타이만에서 잡은 실꼬리돔속 8종의 총수은은 11.3–374 μg/kg(습중량)이었지만, 그 8종에 실꼬리돔이 드는지는 초록에서 확인하지 못함[26]. 그래서 이 문서는 학명이 Nemipterus virgatus로 밝혀진 자료만 썼다[1]. 한국어 이름 '실꼬리돔'의 유래를 적은 공식 자료는 확인하지 못함."},
+ {"key": "cultivation", "title": "어획", "body":
+  "실꼬리돔은 동중국해 남부와 남중국해 북부에서 중요한 상업 어업의 대상이다[10]. 중국 남동부 연안에서도 지역 해양 어업에서 큰 몫을 차지하는 경제 어종으로 소개된다[11]. 연구용 개체는 남중국해 베이부만에서 주낙(연승)으로 잡거나[10], 샤먼 앞바다에서 조업하는 연안 어선에서 얻었다[11].\n\n중국 연구는 중국 어업통계연감을 인용해 2019년 중국의 실꼬리돔 어획량을 약 32만 9,190톤(329.19천 톤)으로 적었다[3]. 다만 이 값은 논문 서론에 인용된 것이며, 원 통계표의 품목 범위(종 단위인지 속 단위인지)는 확인하지 못함.\n\n실꼬리돔 양식에 관한 보고는 이번 조사에서 찾지 못해 확인하지 못함. 국내 실꼬리돔 어획·수입 통계도 국가통계포털 등이 이 환경에서 열리지 않아 확인하지 못함."},
+ {"key": "processing", "title": "가공·저장", "body":
+  "실꼬리돔 연육은 열을 가할 때 겔이 무너지는 '모도리' 현상이 문제다[6]. 배 쪽 근육에서 정제한 트립신 닮은 세린 단백질분해효소(최적 pH 9.5, 50 ℃)가 마이오신 중사슬을 끊어 모도리를 일으킨다[6]. 이 효소는 주로 소화기관에서 만들어지며, 내장을 빼지 않고 얼음 저장하면 내장에서 배 쪽 근육으로 새어 나온다[7]. 시판 연육에도 이 효소가 남아 70 ℃에서 모도리가 일어났고, 탈지 대두단백 1 g/kg을 넣으면 겔이 좋아졌다[8]. 실꼬리돔은 트랜스글루타미네이스 활성이 낮고 50 ℃ 넘는 온도에서 단백질분해효소 활성이 높은 종으로 소개된다[5].\n\n실꼬리돔 연육과 백련어 연육을 3:1로 섞으면 실꼬리돔 연육만 쓸 때보다 겔 강도가 3.08% 높았다[21]. 죽순 분말에서 뽑은 나노결정 셀룰로스는 60일 냉동 저장 동안 근원섬유 단백질의 변성을 늦췄다[22]. 압력과 가열을 함께 쓰는 처리[24], 타피오카 전분 12% 첨가[29]도 겔을 단단하게 했다.\n\n냉장 필레는 코팅하지 않으면 6일째 일반세균 수가 허용 한계 7 log CFU/g을 넘었고, 키토산·ε-폴리라이신·콜라겐 코팅은 10일 동안 한계 아래로 유지했다[2].\n\n연육은 물로 씻는 과정에서 단백질·지방·회분과 필수아미노산·지방산이 줄었고, 면역을 억제한 생쥐 실험에서는 씻지 않은 연육이 면역 회복에 더 나았으나 이는 동물 실험 결과다[20]. 루틴 농도 1.5%로 만든 아마씨유 예비 유화물을 넣은 연육 겔은 시험관 단백질 소화율이 77.18%였다[25]."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "2015년 처음 해독된 실꼬리돔 미토콘드리아 유전체는 16,992 bp이고, 단백질 암호 유전자 13개, rRNA 유전자 2개, tRNA 유전자 22개와 조절 영역 1개를 담았다[9]. tRNA-Ser2 유전자는 DHC 팔이 없어 전형적인 클로버잎 구조를 만들지 못했다[9].\n\n남중국해 베이부만 개체로 다시 해독한 두 번째 미토콘드리아 유전체는 17,073 bp, GC 비율 42.93%였다[10]. 두 유전체 사이에는 단일염기다형성 9개만 있어 종 안의 유전 다양성이 낮다고 해석되었고, 조절 영역에는 28 bp 반복 서열이 9개 있어 앞선 보고보다 3개 많았다[10]. 연구진은 이런 조절 영역 변이를 종 내부 집단 연구용 분자 표지로 개발할 수 있다고 했다[10].\n\n모도리를 일으키는 세린 단백질분해효소의 cDNA는 열린 읽기틀 726 bp, 아미노산 241개이며 어류 트립시노젠과 매우 비슷했다[7]. 실꼬리돔의 핵 유전체 해독 보고는 이번 조사에서 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "1980년 대만 시장 조사에서 실꼬리돔은 아니사키스 유충이 한 마리당 평균 76.2마리로, 조사 어종 가운데 두 번째로 많았다[14]. 날로 먹을 때는 이 점을 고려해야 하며, 몸통 근육에 가낭을 만드는 Kudoa megacapsula 감염 보고도 있다[12]. 쓸개에서 찾은 Ceratomyxa 속 점액포자충은 사람에게 옮는 것으로 알려져 있지 않다[11].\n\n남중국해 북부 실꼬리돔 45마리의 PBDE·PCB·DDT 농도는 각각 1.3–36.0, 2.3–76.5, 8.3–228 ng/g(지질 기준)이었고, 추정 1일 섭취량은 허용량보다 훨씬 낮았다[15]. 홍콩 시장 조사에서 실꼬리돔은 조사 해산어 가운데 배 쪽 근육의 PAH 농도가 가장 높았으며, 해산어 배 쪽 근육의 범위는 18.1–118 ng/g(습중량)이었다[16]. 다이옥신류(PCDD/F)는 0.511 pg/g(지방 기준)이었다[17].\n\n광저우 시장의 마른 생선 다섯 가지 가운데 실꼬리돔 건어의 중금속 오염이 가장 심했고, 비소가 주된 오염원이었으며 비발암 위해가 확인되었다[18]. 소금에 절여 말린 실꼬리돔을 아질산과 함께 시험관 소화하면 N-나이트로소다이메틸아민이 생겼다[19]. 국내 공공기관의 실꼬리돔 알레르기·잔류 기준 정보는 확인하지 못함."},
+]
+
+compounds = [
+ {"name": "Protein", "name_ko": "단백질", "class": "일반성분", "role": "nutrient", "part": "통째 생선", "content_text": "최대 19.7%(통째 생선 기준; 앞선 연구 인용값)[2]", "activity_ko": "단백질이 많아 저장·운송 중 미생물·화학 변질이 쉽다고 설명되었다[2]", "source": [2]},
+ {"name": "Water", "name_ko": "수분", "class": "일반성분", "role": "nutrient", "part": "냉동 연육(AAA 등급, 시판품)", "content_text": "73.96 ± 0.26%[3, 4]", "activity_ko": "연육 겔 실험에서는 최종 수분을 80%로 맞춰 겔을 만들었다[3, 4]", "source": [3, 4]},
+ {"name": "Myosin", "name_ko": "마이오신 중사슬(MHC)", "class": "근원섬유 단백질", "role": "bioactive", "part": "근육(연육)", "content_text": "분자량 약 220 kDa(함량은 확인하지 못함)[5]", "activity_ko": "연육 겔 그물 구조를 만드는 핵심 단백질이며, 가열 중 분해되면 겔 강도가 떨어진다[5]", "source": [5]},
+ {"name": "Trypsin", "name_ko": "근형질 세린 단백질분해효소(트립신 닮은 효소)", "class": "효소 단백질", "role": "bioactive", "part": "배 쪽 근육·소화기관", "content_text": "정제 배수 1,967배, 수율 4.8%; 비환원 43.5 kDa, 환원 22.5 kDa(동형이량체); 최적 pH 9.5, 50 ℃[6]", "activity_ko": "마이오신 중사슬을 분해해 연육 겔의 모도리 현상을 일으킨다[6, 7]", "source": [6, 7, 8]},
+ {"name": "Inosine monophosphate", "name_ko": "이노신산(IMP) 등 ATP 분해산물", "class": "뉴클레오타이드", "role": "nutrient", "part": "필레", "content_text": "개별 함량은 확인하지 못함; ATP 분해산물로 계산한 K값이 처음 14.32%, 무처리구는 4일째 40% 초과[2]", "activity_ko": "IMP는 감칠맛을 내고, 분해산물 HxR·Hx는 쓴맛·이취를 내며 K값은 신선도 지표다[2]", "source": [2]},
+ {"name": "Malondialdehyde", "name_ko": "말론다이알데하이드(TBARS)", "class": "지질 산화 산물", "role": "marker", "part": "필레·연육 겔", "content_text": "냉장 필레 처음 0.33 mg MDA/kg → 무처리 10일 1.68 mg MDA/kg[2]; 식물성 기름을 넣지 않은 연육 겔 0.74 mg/kg[3]", "activity_ko": "지질 산화(산패) 정도를 보여 주는 신선도·품질 지표다[2, 3]", "source": [2, 3]},
+ {"name": "Hexanal", "name_ko": "헥산알 등 알데하이드류", "class": "휘발성 향기 성분", "role": "bioactive", "part": "연육 겔(대조구)", "content_text": "알데하이드류 합계 14.94 μg/kg, 전체 휘발 성분의 34.95%; 헥산알·헵탄알·벤즈알데하이드·옥탄알·노난알·데칸알이 많음[4]", "activity_ko": "불포화지방산 산화에서 생기는 생선 향의 주요 성분이다[4]", "source": [4]},
+ {"name": "1-Octen-3-ol", "name_ko": "1-옥텐-3-올", "class": "휘발성 알코올", "role": "bioactive", "part": "연육 겔(대조구)", "content_text": "알코올류 8종 합계 10.76 μg/kg(전체 휘발 성분의 25.00%) 가운데 가장 많음; 개별 수치는 확인하지 못함[4]", "activity_ko": "역치가 낮아 버섯·흙곰팡이 냄새를 내며, 리폭시게네이스가 리놀레산 과산화물을 분해해 만든다[4]", "source": [4]},
+ {"name": "2,5-Octanedione", "name_ko": "2,5-옥테인다이온", "class": "휘발성 케톤", "role": "bioactive", "part": "연육 겔(대조구)", "content_text": "5.16 μg/kg[4]", "activity_ko": "대조구의 주된 케톤으로 과일·우유 향을 낸다[4]", "source": [4]},
+ {"name": "Chondroitin sulfate", "name_ko": "콘드로이틴 황산·더마탄 황산(글리코사미노글리칸)", "class": "다당류", "role": "bioactive", "part": "먹지 않는 부위(머리·껍질·내장·지느러미·비늘·척추)", "content_text": "실꼬리돔의 개별 함량은 초록에서 확인하지 못함[23]", "activity_ko": "실꼬리돔을 포함한 여러 어종의 부산물에서 분리·조성 분석되었다[23]", "source": [23]},
+ {"name": "Eicosapentaenoic acid", "name_ko": "EPA+DHA", "class": "오메가-3 지방산", "role": "nutrient", "part": "근육", "content_text": "EPA+DHA 39.27%(기준이 총지방산 대비인지 확인하지 못함; WebSearch 요약으로만 확인, 원문 열지 못함)[27]", "activity_ko": "남중국해 실꼬리돔속 8종 비교에서 높은 편으로 요약되었다(원문 미확인)[27]", "source": [27]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Volatile compounds (aldehydes, alcohols, ketones)", "compound_ko": "휘발성 향기 성분(알데하이드·알코올·케톤)", "part": "연육 겔(시판 AAA 등급 냉동 연육)",
+  "content": "대조구 연육 겔 휘발 성분 48종; 알데하이드류 14.94 μg/kg, 알코올류 10.76 μg/kg, 2,5-옥테인다이온 5.16 μg/kg[4]", "method": "HS-SPME-GC-MS",
+  "conditions": {"instrument": "", "column": "SH-Rxi-5Sil MS 모세관 칼럼(규격 본문에 없음)", "mobile_phase": "헬륨 운반 기체", "gradient": "50 °C 5분 → 5 °C/분 100 °C(2분) → 4 °C/분 140 °C(1분) → 4 °C/분 180 °C(2분) → 5 °C/분 250 °C(5분)", "flow": "1.5 mL/min, splitless", "temp": "주입구 250 °C(섬유 탈착 3분)", "detection": "EI 70 eV, 이온원 230 °C, 전체 주사 m/z 35–550; NIST 14 라이브러리 일치도 80 이상, n-알케인 머무름 지수", "injection": "SPME 섬유(50/30 μm DVB/CAR/PDMS) 열탈착", "sample_prep": "시료 10 g을 잘게 썰어 20 mL 헤드스페이스 병에 넣고 60 °C 10분 평형 → 60 °C 30분 흡착", "standard": "내부표준 2-메틸-3-헵탄온(보정계수 1.0)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "알데하이드·알코올·케톤은 연육 겔 향의 주성분이며 첨가 기름에 따라 달라져 향 품질 지표로 쓰였다[4]. 전문(Methods) 확인 — 기기 제조사·모델, 칼럼 규격, 검출·정량한계, 회수율은 본문에 없음[4].", "source": [4], "url": "https://doi.org/10.3390/gels8020106", "source_kind": "paper"},
+ {"role": "literature", "compound": "Malondialdehyde (TBARS)", "compound_ko": "말론다이알데하이드(TBARS)", "part": "연육 겔(시판 AAA 등급 냉동 연육)",
+  "content": "식물성 기름 무첨가 연육 겔 0.74 mg/kg; 기름 2 mL/100 g 첨가 겔 1.2 mg/kg 미만[3]", "method": "TBA 비색법(UV-Vis 분광광도계)",
+  "conditions": {"instrument": "UV-Vis 분광광도계 Cintra 1010(GBC Scientific Equipment)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "532 nm", "injection": "", "sample_prep": "겔 5.0 g + 0.1% EDTA 함유 7.5% 트라이클로로아세트산 50 mL, 50 °C 30분 → 거름종이 두 겹 여과 → 여액 2 mL + 0.02 M 싸이오바비투르산 2 mL, 90 °C 30분 → 식혀 흡광도 측정", "standard": "1,1,3,3-테트라에톡시프로페인 검량선", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "TBARS는 지질 2차 산화 산물인 MDA의 양으로 산패 정도를 보는 지표다[3]. 전문(Methods) 확인 — 직선성·검출·정량한계·회수율은 본문에 없음[3].", "source": [3], "url": "https://doi.org/10.1002/fsn3.2889", "source_kind": "paper"},
+ {"role": "literature", "compound": "ATP-related compounds (K-value)", "compound_ko": "ATP 분해산물(K값)", "part": "냉장 필레",
+  "content": "처음 K값 평균 14.32%; 무처리구 4일째 40% 초과, 3종 복합 코팅구 10일째 60.24%[2]", "method": "HPLC",
+  "conditions": {"instrument": "Agilent 1260 Infinity HPLC", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "차오저우 시장 활어(평균 약 510 g, 40 cm)를 머리·비늘·내장 제거 후 필레(112 ± 14 g)로 떠서 4 °C 저장; 분석은 앞선 문헌(Karim 등) 방법을 따름", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "K값은 (HxR+Hx)/ATP 분해산물 합으로, 20–40%는 보통 신선도, 60% 이상은 부패 시작으로 본다[2]. 전문(Methods) 확인 — 칼럼·이동상·검출 파장 등 조건은 본문에 없고 인용 문헌 방법을 따른다고만 적음[2].", "source": [2], "url": "https://doi.org/10.1002/fsn3.3916", "source_kind": "paper"},
+]
+
+world = [
+ {"country": "중국", "metric": "production_t", "year": 2019, "value": 329190, "unit": "t", "note": "논문 서론이 중국 어업통계연감을 인용해 '약 329.19천 톤'으로 적은 값; 원 통계표와 품목 범위(종/속)는 확인하지 못함", "source": [3]},
+]
+
+d = {
+ "slug": "nemipterus-virgatus", "name_ko": "실꼬리돔", "name_en": "Golden threadfin bream",
+ "scientific_name": "Nemipterus virgatus (Houttuyn, 1782)",
+ "aliases": ["실꼬리돔", "실꼬리돔어육", "실꼬리돔연육", "실꼬리돔페이스트", "Golden threadfin bream", "Golden thread", "Golden threadfin", "Threadfin bream"],
+ "sections": sections, "compounds": compounds, "markers": [], "assays": assays,
+ "nutrients": [], "production": [], "world": world, "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

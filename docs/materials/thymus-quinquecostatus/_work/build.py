@@ -1,0 +1,145 @@
+import json
+A="2026-11-02"
+def pm(pmid): return f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+I1020="https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+S=[
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 백리향·백리향추출물 2개 행(Thymus quinquecostatus Celak.; 별칭 사향초; Five-rib thyme, Fiveribbed thyme; 식품원료(A코드), 사용가능, 사용가능부위 : 전초※(사향초))",I1020,"식품의약품안전처","2026-10-13"),
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 대조 행: 같은 속 타임(Thymus vulgaris)·세르필룸백리향·마스티키나백리향·플레기오이데스백리향 등(사용가능부위 : 잎), 복합원료(U코드) '레몬백리향', 사향노루·사향 관련 행(사용불가)",I1020,"식품의약품안전처","2026-10-13"),
+ ("The Chemical Composition and Biological Activities of Essential Oil from Korean Native Thyme Bak-Ri-Hyang (Thymus quinquecostatus Celak.). Molecules 2022;27(13):4251 (리뷰, PMC9268194 전문 확인)",pm("35807496"),"MDPI / PubMed",A),
+ ("Variations in the Chemical Composition of Essential Oils in Native Populations of Korean Thyme, Thymus quinquecostatus Celak. Molecules 2022;27(21):7203 (PMC9658411 전문 확인)",pm("36364030"),"MDPI / PubMed",A),
+ ("Morphological, Chemical, and Genetic Characteristics of Korean Native Thyme Bak-Ri-Hyang (Thymus quinquecostatus Celak.). Antibiotics 2020;9(6):289 (PMC7344789 전문 확인)",pm("32481500"),"MDPI / PubMed",A),
+ ("Multi-Response Extraction Optimization Based on Anti-Oxidative Activity and Quality Evaluation by Main Indicator Ingredients Coupled with Chemometric Analysis on Thymus quinquecostatus Celak. Molecules 2018;23(4):957 (PMC6017520 전문 확인)",pm("29671816"),"MDPI / PubMed",A),
+ ("Chemical composition and anti-oxidant potential on essential oils of Thymus quinquecostatus Celak. from Loess Plateau in China, regulating Nrf2/Keap1 signaling pathway in zebrafish. Sci Rep 2020;10:11280 (PMC7347579 전문 확인)",pm("32647188"),"Springer Nature / PubMed",A),
+ ("Insecticidal and Repellent Activity of Thymus quinquecostatus Celak. Essential Oil and Major Compositions against Three Stored-Product Insects. Chem Biodivers 2021;18(11):e2100374",pm("34453492"),"Wiley / PubMed",A),
+ ("Glandular trichomes and essential oil of Thymus quinquecostatus. ScientificWorldJournal 2013:387952",pm("24250266"),"Hindawi / PubMed",A),
+ ("[Study on the essential oil components in Thymus quinquecostatus Celak]. Yao Xue Xue Bao 2001;36(3):233-4",pm("12580095"),"Acta Pharmaceutica Sinica / PubMed",A),
+ ("Chromosome-level assembly and analysis of the Thymus genome provide insights into glandular secretory trichome formation and monoterpenoid biosynthesis in thyme. Plant Commun 2022;3(6):100413",pm("35841150"),"Elsevier (Cell Press) / PubMed",A),
+ ("Population diversity analyses provide insights into key horticultural traits of Chinese native thymes. Hortic Res 2023;10(2):uhac262",pm("36778183"),"Oxford University Press / PubMed",A),
+ ("Creation of new germplasm resources, development of SSR markers, and screening of monoterpene synthases in thyme. BMC Plant Biol 2023;23:5",pm("36604636"),"BMC / PubMed",A),
+ ("The complete chloroplast genome sequence of Thymus quinquecostatus var. japonicus (Lamiaceae), an endemic to Ulleung Island of Korea. Mitochondrial DNA B Resour 2020;5(3):2401-2402",pm("33553624"),"Taylor & Francis / PubMed",A),
+ ("Inhibitory Activity of Plant Essential Oils against Escherichia coli 1-Deoxy-d-xylulose-5-phosphate reductoisomerase. Molecules 2019;24(14):2518",pm("31295807"),"MDPI / PubMed",A),
+ ("Integrated pharmacokinetic-pharmacodynamic modeling and metabolomic research on polyphenol-rich fraction of Thymus quinquecostatus Celak. alleviating cerebral ischemia-reperfusion injury. J Ethnopharmacol 2024;118229",pm("38670403"),"Elsevier / PubMed",A),
+ ("Thymus quinquecostatus Celak. ameliorates cerebral ischemia-reperfusion injury via dual antioxidant actions. Phytomedicine 2021;91:153673",pm("34416627"),"Elsevier / PubMed",A),
+ ("Thyme (Thymus quinquecostatus Celak) Polyphenol-Rich Extract (TPE) Alleviates HFD-Induced Liver Injury in Mice by Inactivating the TLR4/NF-κB Signaling Pathway through the Gut-Liver Axis. Foods 2023;12(16):3074",pm("37628072"),"MDPI / PubMed",A),
+ ("Gut dysbiosis correction contributes to the hepatoprotective effects of Thymus quinquecostatus Celak extract against alcohol through the gut-liver axis. Food Funct 2021;12(20):10281-10290",pm("34549762"),"Royal Society of Chemistry / PubMed",A),
+ ("Dual modulation of lipid-lowering and anti-inflammatory effects of Thymus quinquecostatus Celak. ethanol extract on atherosclerosis. J Sci Food Agric 2026",pm("42675565"),"Wiley / PubMed",A),
+ ("Gonadal efficacy of Thymus quinquecostatus Celakovski: Regulation of testosterone levels in aging mouse models. Biomed Pharmacother 2024;116700",pm("38703505"),"Elsevier / PubMed",A),
+ ("In vitro protective effects of Thymus quinquecostatus Celak extracts on t-BHP-induced cell damage through antioxidant activity. Food Chem Toxicol 2012;50(11):4191-8",pm("22921350"),"Elsevier / PubMed",A),
+ ("Thymol from Thymus quinquecostatus Celak. protects against tert-butyl hydroperoxide-induced oxidative stress in Chang cells. J Nat Med 2014;68(1):154-62",pm("23771524"),"Springer / PubMed",A),
+ ("In vitro inhibitory activities of essential oils from two Korean thymus species against antibiotic-resistant pathogens. Arch Pharm Res 2005;28(8):897-901",pm("16178414"),"Springer / PubMed",A),
+ ("Antifungal activities of essential oils from Thymus quinquecostatus and T. magnus. Planta Med 2004;70(11):1090-2",pm("15549669"),"Thieme / PubMed",A),
+ ("Changes in structure and histochemistry of glandular trichomes of Thymus quinquecostatus Celak. ScientificWorldJournal 2012:187261",pm("22545009"),"Hindawi / PubMed",A),
+ ("Discovery of hepatoprotective activity components from Thymus quinquecostatus celak. by molecular networking, biological evaluation and molecular dynamics studies. Bioorg Chem 2023;106790",pm("37604095"),"Elsevier / PubMed",A),
+ ("Multi-dimensional preparation of Thymus quinquecostatus Celak. by normal-phase flash chromatography coupled to counter-current chromatography. J Chromatogr A 2023;464238",pm("37506459"),"Elsevier / PubMed",A),
+ ("Galuteolin, identified in the extract of thymus quinquecostatus flowers, is involved in inhibiting melanin biosynthesis in B16/F10 melanoma cells. Nat Prod Res 2021;35(23):5389-5391",pm("32419489"),"Taylor & Francis / PubMed",A),
+ ("Application of Thymus quinquecostatus Celak essential oil in lamb diet: Effects on growth performance and meat quality. Meat Sci 2026;110039",pm("41558216"),"Elsevier / PubMed",A),
+ ("[Patch diversity and spatial structure of wild Thymus quinquecostatus]. Ying Yong Sheng Tai Xue Bao 2009;20(1):20-6",pm("19449560"),"Chinese Journal of Applied Ecology / PubMed",A),
+ ("Micromorphology and Molecular Insights Into Glandular Trichomes in Two Different Thymes: Glandular Trichomes Formation Process and the Function of the Main Regulator TqHD1. Plant Cell Environ 2025",pm("40341569"),"Wiley / PubMed",A),
+ ("Histochemical investigation and kinds of alkaloids in leaves of different developmental stages in Thymus quinquecostatus. ScientificWorldJournal 2014:839548",pm("25101324"),"Hindawi / PubMed",A),
+ ("Radio-protective effects of Thymus quinquecostatus Celak extract in mice. Appl Radiat Isot 2023;110881",pm("37267776"),"Elsevier / PubMed",A),
+]
+sources=[{"n":i+1,"title":t,"url":u,"publisher":p,"accessed":a} for i,(t,u,p,a) in enumerate(S)]
+
+sec=[]
+def add(k,t,b): sec.append({"key":k,"title":t,"body":b})
+add("overview","한눈에 보기",
+"백리향(Thymus quinquecostatus Celak.)은 꿀풀과 백리향속의 여러해살이 작은 관목으로, 한반도에 자생하는 '토종 타임'이다[3, 5]. 한국어 이름은 향기가 멀리까지 퍼진다는 뜻에서 왔다고 소개되며, 리뷰 논문은 그 거리를 약 40 km로 적었다[3]. 중국·한국·일본에 주로 분포한다고 보고된다[6].\n\n"
+"식약처 「식품원료 목록」에는 '백리향'과 '백리향추출물' 두 행이 식품원료(A코드)로 올라 있고, 상태는 '사용가능', 별칭은 '사향초', 사용 조건은 '사용가능부위 : 전초※(사향초)'이다[1]. 같은 목록에서 타임(Thymus vulgaris)을 비롯한 다른 백리향속 원료는 잎만 쓸 수 있게 되어 있어, 전초를 쓸 수 있다는 점이 이 종의 다른 점이다[1, 2]. 이 목록은 일반 식품원료 목록이므로 건강기능식품 원료 지위를 뜻하지 않으며, 건강기능식품 고시형 원료로 등록된 기록은 확인하지 못함.\n\n"
+"향의 중심은 정유이며, 같은 종이라도 개체와 산지에 따라 티몰형·제라니올형·제라닐아세테이트형·리날로올형 등 여러 화학형으로 갈린다[4, 5]. 비휘발성 성분으로는 단삼소(danshensu)·스쿠텔라린 같은 페놀산·플라보노이드가 지표 성분으로 정량되었다[6]. 효능 연구는 세포·동물 실험이 대부분이고, 사람 대상 임상시험은 확인하지 못함.")
+add("history","이용의 역사",
+"한국에서 백리향은 전통적으로 땀을 내게 하거나 장 속 가스를 줄이는 데, 기침·염증 치료에 쓰였다고 보고된다[5]. 103개 국내 집단을 다룬 연구는 위장염·위장 장애·간 질환·관절염·동맥경화·월경 문제 치료와 향미료로 쓰였다고 소개한다[4]. 리뷰 논문은 한방에서 상기도 염증 치료에 쓰였다고 적으면서도, 현재 국내에서는 주로 관상용·지피식물로만 쓰인다고 평가했다[3].\n\n"
+"중국에서는 이 종을 '표증(겉증상)을 풀고 통증을 덜어 주는' 민간약과 향신료로 써 왔다고 보고된다[17]. 베이컨·소시지를 만들 때 천연 방부 효과를 노려 첨가물로 쓰였고, 열을 내리고 독을 없앤다는 차 같은 음료로도 마셨다고 한다[6]. 황토고원 일대에서는 양념으로 쓰이며 뇌졸중·감기·소화불량·치통·고혈압 등에 민간약으로 쓰였다고 기록된다[7].\n\n"
+"근래에는 국내 시장에 외국산 타임 품종이 토종 백리향처럼 팔리고, 재배 중에도 서로 섞이는 일이 많다는 지적이 있다[3, 5]. 이 때문에 토종 백리향을 정유 성분과 DNA 표지로 가려내려는 연구가 이어졌다[5].\n\n"
+"최근 효능 연구는 모두 동물·세포 실험이다[17–22, 34]. 폴리페놀 분획은 쥐 뇌 허혈 손상을 줄였고[17], 추출물은 생쥐의 고지방식·알코올 간 손상[18, 19]과 동맥경화 지질 축적[20]을 덜었으며, 노화 생쥐의 테스토스테론을 높였다[21]. 간세포 산화 손상 보호[22]와 감마선 방호[34]도 보고되었으나 사람 효과는 확인하지 못함.")
+add("biology","식물학적 특징",
+"백리향은 줄기에서 가지가 많이 갈라지는 작은 관목이며, 잎은 마주나고 달걀꼴·타원형·피침형이다[3]. 잎 길이는 5–12 mm, 너비는 3–8 mm이고 가장자리에 톱니가 거의 없으며 양면에 오목한 점이 있다[3]. 꽃은 흰색 또는 분홍색으로 길이 7–9 mm이며 7–8월에 피고, 작은 흑갈색 열매가 9월에 익는다고 정리되어 있다[3]. 국내 세 산지(월출산·오대산·지리산) 계통은 모두 줄기가 땅을 기는 포복형이었다[5].\n\n"
+"잎·줄기·꽃받침·꽃부리 표면에는 기름을 내는 샘털이 있는데, 머리 부분이 12개 세포인 방패 모양 샘털, 단세포 머리의 머리 모양 샘털, 꽃부리 바깥에만 있는 손가락 모양 샘털의 세 가지가 기재되었다[9]. 정유는 노란색이며 생장기에 함량이 가장 높았다고 보고되었다[9]. 다른 연구는 방패 모양 샘털의 머리 세포가 8–12개라고 관찰했다[32]. 샘털 분비물에는 정유 외에 폴리페놀·플라보노이드가 들어 있고, 방패 모양 샘털에는 산성 다당류도 있었다[26].\n\n"
+"잎 샘털에서는 GC-MS 로 18종의 알칼로이드성 물질이 검출되었다는 보고도 있다[33]. 중국 화이위안 야생 집단 연구는 이 종이 씨앗으로 퍼진 뒤 포기 나눔(영양번식)으로 군락을 넓힌다고 해석했다[31].")
+add("related_species","가까운 종과 혼동 주의",
+"한국에는 한반도 전역에 자라는 백리향과, 울릉도 등 섬에만 자라는 섬백리향(T. quinquecostatus var. japonicus)이 있다고 정리된다[3, 4]. 섬백리향은 울릉도 고유 분류군으로 엽록체 유전체가 따로 해독되었다[14]. 국내 자생 Thymus magnus 의 정유 항균·항진균 자료는 백리향 자료와 한 논문에 함께 실린 경우가 있어 구별해서 읽어야 한다[24, 25].\n\n"
+"식약처 목록에서 타임(Thymus vulgaris)·세르필룸백리향(T. serpyllum)·마스티키나백리향(T. mastichina)·플레기오이데스백리향(T. pulegioides) 등은 각각 다른 원료로 올라 있고 잎만 쓸 수 있다[2]. 따라서 서양 타임(T. vulgaris) 정유의 성분 규격이나 안전성 자료를 백리향에 그대로 옮겨 쓰면 안 된다[2, 3]. 국내 시판 원예용 타임 6품종과 토종 3계통은 RAPD 띠 양상으로 모두 판별되었지만, 집괴 분석에서 지리산 계통은 원예 품종 쪽에, 오렌지 품종은 월출산·오대산 계통 쪽에 묶였다[5].\n\n"
+"중국 자생 백리향속 39개 계통을 분석한 연구는 유럽 직립형 재배 타임과 중국 자생종 사이에 유전자 유입 흔적이 있다고 보고했다[12]. 실제로 T. vulgaris 'Elsbeth' × T. quinquecostatus 교잡 후대가 육종 재료로 만들어졌다[13]. '사향초'라는 별칭은 같은 목록의 사향노루·사향(사용불가) 행과 이름이 비슷하므로 혼동하지 않아야 한다[1, 2].")
+add("cultivation","재배와 생산",
+"백리향은 씨앗으로도 번식하지만 보통 꺾꽂이를 쓰며, 4–6월에 꽂으면 뿌리내림률이 80%를 넘었다고 보고되었다[3]. 꺾꽂이 상토는 펄라이트:버미큘라이트 1:1에서 뿌리내림률이 93%로 가장 높았다[3]. 그늘 없이 키우면 생체중이 늘고 꽃이 빨리 피지만, 뿌리가 얕아 물을 주기적으로 주지 않으면 마르기 쉽다[3]. 심는 간격이 15 × 15 cm 일 때 포기당 생체중은 48.7 g, 30 × 30 cm 일 때 156.7 g 이었다[3].\n\n"
+"정유 함량은 꽃 피기 전부터 늘어 개화기에 가장 높았고(수증기 증류 2.62%), 그 뒤 크게 줄었다고 정리되어 있다[3]. 국내 103개 집단을 같은 밭(강원 춘천)에서 키워 개화기 지상부를 수증기 증류한 연구에서 정유 수율은 생체중 기준 평균 0.40%, 최고 0.8%였다[4]. 세 산지 토종 계통의 정유 수율은 생체 100 g 당 0.12–0.43%(v/w)였다[5]. 중국 황토고원 네 산지의 건조 지상부 물 증류 수율은 2.33–5.00 mL/kg 이었다[7].\n\n"
+"리뷰 논문은 재배 면적이 매우 적어 재배 확대가 필요하다고 보았다[3]. 백리향의 국내 재배 면적·생산량 공식 통계는 확인하지 못함. 제주에서는 가로수 아래 지피식물로, 다른 곳에서는 옥상 녹화 식물로 시험되었다[3].")
+add("processing","가공과 이용",
+"식약처 목록에는 '백리향추출물'이 따로 올라 있어, 전초를 원료로 한 추출물도 식품원료로 쓸 수 있다[1]. 주요 가공 형태는 수증기·물 증류로 얻는 정유와 물·에탄올 추출물이다[3, 4]. 중국 연구는 항산화 활성을 기준으로 추출 조건을 최적화해 45% 에탄올, 용매비 20:1, 1.5시간을 실용 조건으로 제시했다[6].\n\n"
+"추출 방법에 따라 얻어지는 성분이 크게 달라진다[3]. 강원산 시료에서 초임계 추출물은 티몰 77.63%, 물·수증기 증류 정유는 티몰 30.44%로 보고되었다[3]. 용매 추출에서도 티몰 비율이 메탄올 64.23%, 에탄올 72.65%, 헥산 57.98%로 달랐다[3].\n\n"
+"식품 외 이용으로는 정유를 저장 곡물 해충의 훈증·기피제로 쓰려는 연구가 있다[8]. 새끼 양 사료에 정유를 kg 당 200–600 mg 넣은 시험에서는 일당 증체와 고기의 산화 안정성이 좋아졌다고 보고되었다[30]. 꽃 추출물에서 찾은 갈루테올린을 미백 화장품 원료로 제안한 연구도 있다[29]. 국내 건강기능식품 생산실적에서 백리향 품목은 확인하지 못함.")
+add("genetics","유전체와 유전 다양성",
+"중국 연구진이 염색체 수준으로 조립한 백리향 유전체는 13개 염색체, 총 528.66 Mb, 콘티그 N50 8.06 Mb, BUSCO 97.34%였다[11]. 이 종은 두 차례 전체 유전체 중복을 겪었고 가장 최근 중복은 약 434만 년 전으로 추정되었다[11]. 유전자 Tq02G002290.1(TqTPS1)은 제라닐이인산(GPP)에서 γ-테르피넨을 만드는 테르펜 합성효소로 확인되었다[11].\n\n"
+"이 유전체를 바탕으로 SSR 프라이머 300쌍이 개발되어 교잡 후대 판별에 쓰였다[13]. HD-ZIP IV 전사인자 TqHD1 은 샘털 형성을 촉진하고 휘발 성분 조성도 바꾸는 것으로 보고되었다[32]. 중국 자생 백리향속 39개 계통의 재서열 분석은 목질화·테르페노이드·샘털 형질에 관련된 후보 유전자를 제시했다[12].\n\n"
+"한국 토종 세 계통과 원예 품종 여섯 종류를 RAPD 프라이머 16개로 분석하자 133개 띠 가운데 124개(93.2%)가 다형성을 보였다[5]. 중국 야생 집단 연구에서는 유전 변이의 9.65%만 집단 사이에 있고 90.35%가 집단 안 개체 사이에 있었다[31]. 섬백리향(var. japonicus) 엽록체 유전체는 151,782 bp 였다[14]. 국내 103개 집단을 같은 조건에서 키워도 정유 조성이 크게 달랐기 때문에, 화학형 차이는 유전적 차이와 관련 있을 것으로 해석되었다[4].")
+add("safety","안전성",
+"식약처 목록상 백리향과 백리향추출물은 '사용가능' 원료이며, 사용 부위는 전초로 정해져 있다[1]. 목록에 별도 섭취량 제한이나 주의 문구는 없었다[1]. 사람을 대상으로 한 독성·임상 자료와 알레르기·잔류농약에 관한 공공기관 정보는 확인하지 못함.\n\n"
+"동물·세포 실험의 안전성 단서는 제한적이다[7]. 황토고원산 정유는 제브라피시 배아에서 40 μg/mL 농도에 이르면 난황낭 부종·심낭 부종·몸 굽음이 나타났고, 한 산지 정유는 이 농도에서 배아가 모두 죽었다[7]. 이 연구에서 새로 보고된 카르바크롤에틸에테르는 JECFA 가 현재 섭취 수준에서 안전성 우려가 없다고 평가한 합성 향료 물질이라고 원문은 설명한다[7]. 리뷰 논문은 정유의 주성분 티몰이 페놀처럼 작용해 낮은 농도에서도 미생물·곤충에 독성을 보인다고 적었다[3].\n\n"
+"잎 샘털 분비물에서 GC-MS 로 알칼로이드 18종이 보고되었고, 3-메톡시-α-메틸벤젠에탄아민이 모든 발달 단계에서 많았다[33]. 이 성분들의 실제 함량과 사람 건강에 대한 의미는 확인하지 못함. 정유는 농축물이므로 서양 타임(T. vulgaris) 정유의 안전 자료를 백리향 정유에 그대로 옮겨 쓰지 않는다[2, 3]. '사향초'라는 별칭 때문에 사용불가 원료인 사향(사향노루 분비물)과 혼동하지 않도록 한다[1, 2].")
+
+def C(name,ko,cls,role,part,ct,act,src): return {"name":name,"name_ko":ko,"class":cls,"role":role,"part":part,"content_text":ct,"activity_ko":act,"source":src}
+comps=[
+ C("Thymol","티몰","페놀성 모노테르펜","marker","지상부 정유",
+   "국내 103개 집단 가운데 39개가 티몰형[4]; 오대산 계통 정유 30.54%, 지리산 계통 15.98%[5]; 서울 재배 시료 41.7%(리뷰 인용)[3]; 중국 칭양(QY) 정유 16.32%[7]",
+   "백리향에서 분리한 티몰이 t-BHP 로 손상시킨 사람 간세포주(Chang)의 생존율을 높임(세포 실험)[23]; 정유와 티몰이 케토코나졸과 함께 백선균(Trichophyton rubrum)에 상승 작용(시험관)[25]",[3,4,5,7,23,25]),
+ C("Carvacrol","카르바크롤","페놀성 모노테르펜","bioactive","지상부 정유",
+   "국내 103개 집단의 6개 화학형 가운데 하나[4]; 가평 시료 18.25%, 강원 시료 19.20%(열탈착 GC-MS, 리뷰 표 인용)[3]; 중국 닝샤 구위안 시료 28.54%(리뷰 인용)[3]",
+   "이 종 정유의 대장균 DXR 효소 억제 IC50 59 μg/mL, 카르바크롤 20 μg/mL 에서 55.6% 억제(효소 실험)[15]",[3,4,15]),
+ C("gamma-Terpinene","γ-테르피넨","모노테르펜 탄화수소","bioactive","지상부 정유",
+   "오대산 계통 정유 23.92%[5]; 서울 재배 시료 16.0%(리뷰 인용)[3]",
+   "유전자 TqTPS1 이 GPP 에서 γ-테르피넨을 만드는 주 생성물 효소로 확인됨[11]",[3,5,11]),
+ C("o-Cymene","o-시멘","모노테르펜 탄화수소","bioactive","지상부 정유",
+   "국내 103개 집단에서 o-시멘형이 6개 화학형 가운데 하나[4]; 중국 시료 정유의 주성분 가운데 하나(수치는 초록에 없음)[10]; 오대산 계통 정유의 시멘 11.13%는 전문 텍스트에서 위치 접두어가 빠져 o-/p- 구분 확인 못함[5]",
+   "확인하지 못함",[4,5,10]),
+ C("Geraniol","제라니올","모노테르펜 알코올","bioactive","지상부 정유",
+   "국내 103개 집단 가운데 30개가 제라니올형[4]; 월출산 계통 정유 42.94%[5]; 충북 시료 trans-제라니올 36.85–39.75%(리뷰 인용)[3]",
+   "확인하지 못함",[3,4,5]),
+ C("Geranyl acetate","제라닐아세테이트","모노테르펜 에스터","bioactive","지상부 정유",
+   "국내 103개 집단 가운데 26개가 제라닐아세테이트형[4]; 월출산 계통 정유 26.49%[5]",
+   "확인하지 못함",[4,5]),
+ C("Linalool","리날로올","모노테르펜 알코올","bioactive","지상부 정유",
+   "국내 시료 T9 정유 80.33%[4]; 지리산 계통 정유 47.89%[5]; 중국 산둥 옌타이 시료 물 증류 정유 52.003%[8]; 칭다오 시료 정유의 주성분[9]",
+   "정유와 주성분들이 저장 곡물 해충 3종에 훈증·접촉·기피 활성(곤충 실험)[8]",[4,5,8,9]),
+ C("Borneol","보르네올","모노테르펜 알코올","bioactive","지상부 정유",
+   "중국 옌타이 시료 정유 10.911%[8]; 황토고원 위린(YL) 정유 6.50%, 징볜(JB) 5.61%, 칭양(QY) 1.52%, 룽더(LD) 1.38%[7]",
+   "황토고원 정유에서 DPPH 소거능과 유의한 상관(상관 분석)[7]",[7,8]),
+ C("Carvacrol ethyl ether","카르바크롤에틸에테르","페놀 에테르(모노테르펜 유도체)","bioactive","건조 지상부 정유",
+   "황토고원 위린(YL) 정유 31.80%, 징볜(JB) 정유 23.32%; 원문은 천연물로는 처음 보고된 성분이라고 밝힘[7]",
+   "DPPH 소거능과 유의한 상관을 보여 항산화 지표 후보로 제안됨(상관 분석)[7]",[7]),
+ C("Danshensu","단삼소(살비안산 A)","페놀산","marker","건조 원료 식물(부위 표기 없음)",
+   "중국 산시·간쑤 12개 시료에서 최고 11.080 mg/g(HPLC-UV)[6]",
+   "폴리페놀 풍부 분획을 먹인 쥐의 혈장·뇌에서 지표 성분(살비안산 A)으로 선정됨(동물)[16]",[6,16]),
+ C("Scutellarin","스쿠텔라린","플라보노이드 배당체","marker","건조 원료 식물(부위 표기 없음)",
+   "12개 시료에서 최고 4.472 mg/g(HPLC-UV)[6]",
+   "폴리페놀 풍부 분획의 약동학 지표 성분으로 선정됨(쥐)[16]",[6,16]),
+ C("Rosmarinic acid","로즈마린산","하이드록시신남산 에스터","bioactive","지상부 메탄올 추출물·물 추출물",
+   "지상부 메탄올 추출물에서 분리[28]; 물 추출물에서 HPLC-MS 로 확인(수치는 초록에 없음)[21]",
+   "폴리페놀 풍부 분획의 약동학 지표 성분으로 선정됨(쥐)[16]",[16,21,28]),
+ C("Luteolin 7-glucoside","갈루테올린(루테올린-7-글루코사이드)","플라보노이드 배당체","bioactive","꽃 추출물, 원료 식물",
+   "꽃 추출물에서 기능 성분으로 확인[29]; 6성분 정량에서 일부 시료는 거의 검출되지 않음[6]",
+   "B16/F10 흑색종 세포에서 멜라닌 생성 억제, 티로시나아제 활성 일부 억제(세포 실험)[29]",[6,29]),
+ C("Xanthomicrol","잔토미크롤","폴리메톡시 플라본","bioactive","지상부 추출물",
+   "이 종에서 처음 확인된 성분으로 보고[6]; 지상부 메탄올 추출물에서 분리[28]",
+   "확인하지 못함",[6,28]),
+ C("Thymutatusone A","티무타투손 A","디테르페노이드(새 골격)","bioactive","원료 식물 추출물",
+   "새 골격 디테르페노이드 거울상 이성질체 한 쌍으로 분리·구조 결정(함량 수치는 초록에 없음)[27]",
+   "아세트아미노펜으로 손상시킨 HepG2 세포에서 EC50 8.4–12.2 μM 의 간세포 보호 활성(세포 실험)[27]",[27]),
+]
+cond6={"instrument":"Waters 2489 HPLC(UV 검출기, 수동 주입기)","column":"Thermo Hypersil GOLD C18, 4.6 × 250 mm, 5 μm","mobile_phase":"A 아세토나이트릴, B 0.1% 인산 수용액","gradient":"0–5분 A 0→7%, 5–10분 7→13%, 10–15분 13→15%, 15–20분 15→18%, 20–25분 18%, 25–30분 18→20%, 30–35분 20%, 35–45분 20→28%, 45–55분 28→40%, 55–65분 40→80%, 65–70분 80→100%, 70–75분 100%","flow":"1.0 mL/min","temp":"25 °C","detection":"UV 294 nm","injection":"10 μL","sample_prep":"분쇄 시료 약 2.0 g 에 45% 에탄올 40 mL, 실온 초음파 1.5시간 추출 후 농축, 0.22 μm 여과","standard":"단삼소·바닐산·클로로겐산·갈루테올린·스쿠텔라린·아피제닌 표준품(에탄올에 녹임)","linearity":"6성분 모두 R² ≥ 0.9990","lod":"","loq":"","recovery":"평균 96.72–101.67%, RSD < 2%(n = 9)"}
+assays=[
+ {"role":"literature","compound":"Danshensu","compound_ko":"단삼소(살비안산 A)","part":"원료 식물(중국 산시 위린, 간쑤 칭양·옌츠산, 7–10월 채취 12개 시료, 그늘 건조)","content":"최고 11.080 mg/g; 산지에 따라 함량 차이가 크고 간쑤산이 산시산보다 대체로 높음[6]",
+  "method":"HPLC-UV(외부표준법, 6성분 동시 정량)","conditions":cond6,
+  "rationale":"원문은 UPLC-MS 로 확인한 35개 성분 가운데 모든 시료에 공통이고 함량이 높은 6성분을 품질 평가 지표로 골랐고, 단삼소가 그중 가장 많았다; 전문 확인, 검출·정량한계는 본문에 없음(표에 있을 수 있으나 확인 못함), 함량 기준(건물 여부)은 본문에 명시 없음[6]",
+  "source":[6],"url":"https://doi.org/10.3390/molecules23040957","source_kind":"paper"},
+ {"role":"literature","compound":"Scutellarin","compound_ko":"스쿠텔라린","part":"원료 식물(중국 산시·간쑤 12개 시료, 그늘 건조)","content":"최고 4.472 mg/g[6]",
+  "method":"HPLC-UV(외부표준법, 6성분 동시 정량)","conditions":cond6,
+  "rationale":"단삼소와 함께 가장 많은 활성 성분으로 정량 지표에 포함됨; 쥐 약동학 연구에서도 지표 성분으로 쓰임; 전문 확인, 검출·정량한계는 본문에 없음[6, 16]",
+  "source":[6,16],"url":"https://doi.org/10.3390/molecules23040957","source_kind":"paper"},
+ {"role":"literature","compound":"Thymol","compound_ko":"티몰(정유 화학형 지표)","part":"개화기 지상부(국내 103개 집단, 강원 춘천 같은 밭 재배) 생시료 수증기 증류 정유","content":"103개 집단 가운데 티몰형 39, 제라니올형 30, 제라닐아세테이트형 26; 개별 함량은 표에 있음(본문 확인 못함), 정유 수율 평균 0.40%(생체중 기준)[4]",
+  "method":"GC-MS(피크 면적 백분율, 반정량)","conditions":{"instrument":"Varian CP3800 GC + Varian 1200L 질량검출기","column":"VF-5MS, 30 m × 0.25 mm × 0.25 μm","mobile_phase":"헬륨 운반기체","gradient":"오븐 50 °C(5분) → 5 °C/min → 250 °C(3분) → 20 °C/min → 300 °C(5분)","flow":"1 mL/min","temp":"주입구 250 °C, 이온원 280 °C","detection":"EI 70 eV, m/z 30–500","injection":"1 μL, 분할비 1:20","sample_prep":"개화기 지상부를 90분 수증기 증류, 무수 황산나트륨으로 탈수 후 4 °C 보관","standard":"NIST 3.0 라이브러리와 n-알케인 머무름지수 비교(표준품 정량 아님)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"이 종은 같은 조건에서 키워도 티몰·제라니올·제라닐아세테이트·리날로올 등으로 화학형이 갈리므로, 주성분 비율이 계통 판별의 지표가 된다고 원문은 결론지었다; 전문 확인, 표준품 정량이 아니라 면적 백분율임[4]",
+  "source":[4],"url":"https://doi.org/10.3390/molecules27217203","source_kind":"paper"},
+]
+d={"slug":"thymus-quinquecostatus","name_ko":"백리향","name_en":"Five-rib thyme","scientific_name":"Thymus quinquecostatus Celak.",
+ "aliases":["사향초","백리향추출물","Fiveribbed thyme","Bak-ri-hyang","Korean thyme"],
+ "sections":sec,"compounds":comps,"markers":[],"nutrients":[],"assays":assays,"production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+json.dump(d,open('/home/user/hfoodguide-wave3/docs/materials/thymus-quinquecostatus/dossier.json','w'),ensure_ascii=False,indent=1)
