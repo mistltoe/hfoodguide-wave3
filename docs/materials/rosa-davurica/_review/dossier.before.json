@@ -1,0 +1,512 @@
+{
+ "slug": "rosa-davurica",
+ "name_ko": "생열귀",
+ "name_en": "Amur rose",
+ "scientific_name": "Rosa davurica Pall.",
+ "aliases": [
+  "생열귀나무",
+  "생열귀꽃잎",
+  "생열귀순",
+  "생열귀열매",
+  "범의찔레",
+  "가마귀밥나무(목록 이명; 까치밥나무속 '까마귀밥나무'와 다름)",
+  "Rosa amblyotis C.A.Mey.",
+  "Dahurian rose"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "생열귀(생열귀나무)는 장미과 장미속(Rosa)의 낙엽 관목으로, 식약처 「식품원료 목록」에는 학명 Rosa davurica Pall.(이명 Rosa amblyotis C.A.Mey.), 영어명 Amur rose, 이명 범의찔레·가마귀밥나무로 올라 있다[1]. 목록에는 '생열귀꽃잎'(부위 꽃잎), '생열귀순'(부위 순), '생열귀열매'(부위 열매) 세 행이 있고, 세 행 모두 '사용가능'이며 사용 조건은 '사용가능부위 : 순, 꽃잎, 열매'이다[1]. 세 행의 대분류는 모두 '식품원료(A코드)'이다[1]. 따라서 연구가 많은 잎·뿌리·씨는 이 목록의 사용가능 부위에 들어 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n생열귀는 한국·일본·중국 동북부·시베리아 남동부 등 동아시아에 분포한다고 소개된다[30]. 열매는 중국에서 음료와 건강식품으로 널리 먹는다고 하며[11], 다섯 가지 장미속 열매를 견준 연구는 이 열매를 약으로 쓰는 나라는 여럿이지만 식품으로 널리 쓰는 곳은 중국뿐이라고 적었다[2]. 열매에는 플라보노이드·페놀산·트리테르페노이드가 많다고 보고되었다[2, 3]. 효능 연구는 대부분 세포·동물 실험이며, 사람을 대상으로 한 시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통 이용",
+   "body": "생열귀 열매는 중국의 소수민족 오로첸족 전통 의학에서 소화불량·위장 질환·월경 이상 등에 써 왔다고 소개된다[3]. 1989년 일본·중국 연구진은 중국 전통 약재로 쓰이는 생열귀 열매 껍질에서 사환 트리테르펜산 8종과 플라보노이드 3종을 분리해 보고했다[4]. 1997년 중국 학술지에는 생열귀 열매 연구를 정리한 리뷰가 실렸다(제목만 확인)[29].\n\n국내에서는 1999년 대학 연구진이 생열귀 열매 추출물이 쥐에서 즉시형 알레르기 반응과 비만세포의 히스타민 분비를 줄였다고 보고했다[9]. 2003년 국내 민간약 식물의 항산화능을 비교한 연구에서는 장미과 가운데 해당화(R. rugosa)와 생열귀가 DPPH 라디칼 소거능이 강했다[21]. 강원도 시장에서 산 오리나무류·생열귀·가시오갈피·인삼을 섞은 민간 처방의 열수 추출물을 당뇨 쥐 사료에 섞어 먹인 연구도 있다[22]. 중국에서는 열매 추출물이 생쥐의 지질 과산화를 줄였다는 2004년 보고 이후[10], 최근 열매를 젖산균으로 발효한 음료(자오쑤) 개발 연구까지 나왔다[5]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "생열귀는 장미과의 낙엽 관목으로, 정원수와 약용 식물로 쓰인다고 소개된다[6]. 중국 베이징 주룽산에서 채집한 개체 사진 설명에 따르면 열매는 주황빛이 도는 붉은색의 둥근 또는 달걀꼴이고, 꽃은 분홍색 홑꽃으로 가지 끝에 달린다[6]. 국립수목원 연구진의 분류 논문은 생열귀 기본 변종이 작은잎 뒷면·잎축·잎자루에 샘털이 있고, 꽃받침 조각 뒷면에 샘털이 빽빽하며, 꽃 지름이 4~5 cm라고 정리했다[7]. 같은 논문은 작은잎 모양이 좁은 타원형에서 넓은 타원형까지 다양하고 샘의 유무도 달라 변이가 크다고 적었다[7].\n\n생열귀는 중국 허베이성 사이한바 자연보호구의 자작나무·사시나무 숲과 가문비나무 숲 관목층에서 우점종으로 나타났다[24]. 1년생 묘목을 카드뮴 오염 토양에 심은 온실 실험에서 생열귀는 함께 시험한 네 수종 가운데 카드뮴 내성이 가장 컸다[23]. 중국 동북부에서는 생열귀와 해당화에 혹을 만드는 혹벌 신종(Diplolepis valtonyci)이 기재되었다[25]. 꽃잎·순의 개화·채취 시기 등 국내 생태 정보는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "식약처 목록에는 같은 장미속의 로즈힙(R. canina), 해당화(R. rugosa), 찔레(R. multiflora), 금앵자(R. laevigata), 장미(Rosa spp.)가 각각 다른 원료로 올라 있고, 장미태좌세포배양분말(R. damascena)은 '제한적사용'이다[1]. 따라서 로즈힙이나 해당화 열매의 비타민 C·성분 자료를 생열귀 자료로 옮겨 쓰면 안 된다[1, 2]. 다섯 장미속 열매를 같은 조건에서 견준 연구에서도 종마다 주성분과 함량 구성이 크게 달랐다[2].\n\n종소명이 같은 갈매나무(Rhamnus davurica Pall.)는 갈매나무과 식물로 식약처 목록에 부위 '전체', '사용불가'로 올라 있어 학명을 속명까지 확인해야 한다[1]. 또 생열귀의 이명 '가마귀밥나무'는 목록에서 까치밥나무속(Ribes fasciculatum) 원료인 개당주나무의 이명 '까마귀밥나무'와 이름이 비슷하므로 혼동하지 않도록 해야 한다[1]. 국립수목원 연구진은 샘털이 없는 변종 R. davurica var. alpestris의 올바른 이름을 var. rubro-stipulata로 정리했으며, 이 변종은 꽃 지름이 2~3 cm로 기본 변종보다 작다[7]. 중국 식용 장미의 기원을 분석한 연구는 다마스크장미(R. × damascena)의 조상 후보에 R. majalis·R. fedtschenkoana와 함께 생열귀를 묶어 제시했고, 겹꽃 해당화 'Plena'가 해당화와 생열귀의 잡종이라고 보고했다[8]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "생열귀의 국내 재배 면적·생산량 통계는 확인하지 못함. 국내 연구에 쓰인 시료로는 강원도 시장에서 구입한 약재[22], 국내 업체가 공급한 잎[16] 등이 확인된다. 중국에서는 헤이룽장성에서 구입한 생열귀가 발효 음료 연구에 쓰였고[5], 엽록체 유전체 연구 시료는 베이징 먼터우거우구 주룽산에서 채집되었다[6].\n\n생열귀는 허베이성 사이한바 지역의 자연 숲에서 관목층을 이루며 자란다[24]. 카드뮴 오염 토양 실험에서 함께 시험한 수종보다 광합성 지표와 생물량이 덜 줄어 오염지에서도 견디는 편이었다[23]. 중국 하얼빈에서 댕댕이나무류 관목(블루허니서클)의 잎점무늬병균을 접종한 시험에서는 생열귀 열매도 감염되었다[26]. 혹벌이 가지에 혹을 만든다는 보고도 있다[25]. 열매·꽃잎·순을 식용으로 생산하는 국내 재배 방법은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "중국에서 생열귀 열매는 음료와 건강식품으로 널리 먹는다고 소개된다[11]. 생열귀 말린 것 10 g에 물 30 mL를 섞어 70 °C에서 15분 살균한 뒤 젖산균 3종으로 발효한 음료에서는 72시간 발효 시 한 균주 처리구의 플라보노이드가 521.8 mg/L로 무균 대조(444.6 mg/L)의 117.3%였다[5]. 같은 연구에서 다당류는 발효 전 4.15 mg/mL에서 96시간 뒤 18.16 mg/mL까지 늘었지만 총페놀은 2.30–2.40 mg/mL로 달라지지 않았다[5]. 발효액은 시험관에서 α-글루코시다아제를 최대 83.6% 억제했으며, 이는 효소 실험 결과다[5].\n\n50 °C에서 말린 열매 가루를 80% 에탄올로 환류 추출한 연구에서는 생열귀 열매의 총다당류가 100 g당 49.11 g으로, 금앵자(64.48 g)보다 적고 R. roxburghii(33.80 g)보다 많았다[2]. 열매 플라보노이드 추출물을 고지방식 생쥐에 먹인 실험에서는 체중·간 무게·혈중 지질이 줄었다[11]. 식품 사용 부위가 아닌 잎에서는 70% 에탄올 추출물에서 새 플라보노이드 배당체를 포함한 퀘르세틴 3-O-배당체·갈산 유도체 8종이 분리되었고[14], 잎 클로로폼 분획은 생쥐 염증·통증 모델에서 활성을 보였다[15]. 씨 기름[27]과 뿌리 추출물[19]도 생쥐 실험이 보고되었지만 모두 사용가능 부위가 아니며, 사람에서의 효과는 확인하지 못함. 식약처 「식품 등의 생산실적」에서 생열귀를 원료로 한 건강기능식품 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "생열귀(R. davurica var. davurica)의 엽록체 유전체는 2023년 처음 해독되었으며 전체 길이는 156,971 bp, GC 함량은 37.22%였다[6]. 이 유전체는 86,032 bp의 대단일복사 영역, 18,837 bp의 소단일복사 영역, 26,051 bp의 역반복 영역 두 개로 이루어졌다[6]. 유전자는 131개(단백질 암호 86개, tRNA 37개, rRNA 8개)였고 역반복 영역에 18개 유전자가 중복되어 있었다[6]. 장미속 16종과 다른 식물 2종의 엽록체 유전체로 그린 계통수에서 생열귀는 다른 장미속 종들과 가까이 묶였다[6].\n\n중국 식용 장미 88개 엽록체 유전체와 핵 ITS 서열을 분석한 연구는 생열귀가 다마스크장미와 겹꽃 해당화 'Plena'의 기원에 관여했다고 보고했다[8]. 해당화에서 분리한 안토시아닌 배당화 효소 유전자 RrGT1은 생열귀 조직에서도 발현되었고 발현 양상이 안토시아닌 축적과 맞았다[28]. 생열귀 핵 유전체 해독 정보는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 생열귀는 순·꽃잎·열매만 사용가능한 식품원료이며, 잎·뿌리·씨는 사용가능 부위에 적혀 있지 않다[1]. 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 확인하지 못함. 같은 종소명의 갈매나무(Rhamnus davurica)는 '사용불가'이므로 원료 확인 시 속명을 반드시 대조해야 한다[1].\n\n생열귀 잎·뿌리 추출물의 독성 자료로는, 잎 30% 에탄올 추출물이 100 µg/mL까지 대식세포·호염기구 세포주에서 뚜렷한 세포독성을 보이지 않았다는 시험관 결과가 있다[16]. 뿌리 추출물을 먹인 당뇨 쥐에서 간·신장 효소 수치가 회복되었다는 보고도 있으나 뿌리는 식품 사용 부위가 아니다[18]. 잎 추출물의 여드름균 염증 억제를 보고한 2020년 논문은 학술지가 철회했으므로 근거로 쓰지 않는다[17]. 생열귀 꽃잎·순·열매에 대한 사람 섭취 안전성 시험, 국내 공공기관의 알레르기·잔류농약 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Corosolic acid",
+   "name_ko": "코로솔산(2α-하이드록시우르솔산)",
+   "class": "오환 트리테르페노이드",
+   "role": "marker",
+   "part": "열매(50 °C 건조, 중국 채집)",
+   "content_text": "상대 함량 1.16%(UPLC-MS/MS 피크 면적 기준, 절대 함량 아님); 생열귀 열매 지표 후보 30종 중 1위[2]",
+   "activity_ko": "R. roxburghii 열매보다 20배 이상 많은 트리테르페노이드로 보고[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ursolic acid",
+   "name_ko": "우르솔산",
+   "class": "오환 트리테르페노이드",
+   "role": "marker",
+   "part": "열매(과육)",
+   "content_text": "과육에서 트리테르페노이드 9종을 분리·HPLC로 동시 정량(개별 함량 수치는 초록에 없어 확인하지 못함)[3]; 상대량은 R. roxburghii 열매의 20배 이상[2]",
+   "activity_ko": "열매 품질 관리용 정량 대상 트리테르페노이드 계열[3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Ethyl gallate",
+   "name_ko": "에틸 갈레이트",
+   "class": "페놀산 에스터",
+   "role": "marker",
+   "part": "열매·잎",
+   "content_text": "열매 상대 함량 1.13%[2]; 잎 추출물 HPLC(280 nm)의 주성분, 머무름 시간 16 min[16]",
+   "activity_ko": "잎 추출물 HPLC 지문의 주 성분으로 표준품 UV 스펙트럼과 대조[16]",
+   "source": [
+    2,
+    16
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "잎(식품 사용 부위 아님)",
+   "content_text": "잎 30% 에탄올 추출물 HPLC의 주성분, 머무름 시간 19 min(함량 수치 없음)[16]",
+   "activity_ko": "잎 추출물 항알레르기 시험의 주요 성분으로 제시(세포 실험)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Camaldulenic acid",
+   "name_ko": "카말둘렌산",
+   "class": "트리테르페노이드",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "상대 함량 2.99%(열매에서 상대량 1위)[2]",
+   "activity_ko": "열매 주요 트리테르페노이드[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Poncirin",
+   "name_ko": "폰시린",
+   "class": "플라바논 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "상대 함량 2.80%[2]",
+   "activity_ko": "다른 장미속 열매보다 생열귀 열매에 많은 플라보노이드[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Tiliroside",
+   "name_ko": "틸리로사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "상대 함량 2.77%[2]",
+   "activity_ko": "생열귀 열매에 상대적으로 많은 플라보노이드[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "다른 네 장미속 열매보다 상대량이 높음(수치 확인하지 못함)[2]",
+   "activity_ko": "항산화 폴리페놀[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Procyanidin B1",
+   "name_ko": "프로시아니딘 B1",
+   "class": "프로안토시아니딘",
+   "role": "bioactive",
+   "part": "확인하지 못함(원문 'RDP', 부위 표기 없음)",
+   "content_text": "함량 확인하지 못함; 항심근허혈 활성 분획(S4)의 21개 성분 중 도킹 결과가 가장 좋은 단일 성분[12]",
+   "activity_ko": "생쥐 심근허혈 모델 활성 분획의 후보 성분(동물·컴퓨터 모의)[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Hyperoside",
+   "name_ko": "하이페로사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매 추출물",
+   "content_text": "UPLC-Q-TOF-MS/MS로 확인한 99개 성분 중 하나(함량 확인하지 못함)[13]",
+   "activity_ko": "TNF-α·TNFR1 결합 후보로 제시(분자 도킹)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매 추출물",
+   "content_text": "UPLC-Q-TOF-MS/MS로 확인한 99개 성분 중 하나(함량 확인하지 못함)[13]",
+   "activity_ko": "TNF-α·TNFR1 결합 후보로 제시(분자 도킹)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Myricetin",
+   "name_ko": "미리세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "상대 함량 0.02 ± 0.00%[2]",
+   "activity_ko": "다섯 열매 중 금앵자와 생열귀에서만 검출[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "L-Tartaric acid",
+   "name_ko": "L-(+)-타르타르산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "상대 함량 0.43%[2]",
+   "activity_ko": "생열귀 열매 지표 후보 상위 5종 가운데 하나[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Polysaccharides",
+   "name_ko": "총다당류",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "열매(50 °C 건조 가루)",
+   "content_text": "49.11 g/100 g(페놀-황산법, 포도당 환산)[2]; 발효 음료 중 4.15 mg/mL → 18.16 mg/mL(96시간)[5]",
+   "activity_ko": "다당 RDPA1은 시험관·생쥐에서 호중구 이동을 억제(부위 표기 없음)[20]",
+   "source": [
+    2,
+    5,
+    20
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Ursolic acid",
+   "compound_ko": "우르솔산 등 오환 트리테르페노이드 9종",
+   "part": "열매 과육",
+   "content": "개별 함량 수치는 초록에 없음(확인하지 못함)[3]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "",
+    "column": "역상 C18 칼럼(초록 표기 'Merges reverse phase (RP) C', 250 × 4.6 mm, 5 μm)",
+    "mobile_phase": "0.05% 인산 수용액 / 아세토니트릴",
+    "gradient": "40분 기울기 용리(세부 확인 못함)",
+    "flow": "1.2 mL/min",
+    "temp": "30 °C",
+    "detection": "UV 210 nm",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "과육에서 분리·동정한 트리테르페노이드 9종",
+    "linearity": "모든 검량선 R > 0.9990(초록 표기)",
+    "lod": "0.21–1.27 μg/mL",
+    "loq": "0.63–3.80 μg/mL",
+    "recovery": "양호하다고만 기재(수치 확인 못함)"
+   },
+   "rationale": "생열귀 열매 과육에서 직접 분리한 트리테르페노이드 9종을 동시 정량해 품질 관리법으로 제안한 유일한 정량 시험법; 초록만 확인, 전문 확인 못함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.1093/chromsci/bmw155",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Corosolic acid",
+   "compound_ko": "2α-하이드록시우르솔산(코로솔산) 등 열매 2차 대사물",
+   "part": "열매(50 °C 건조 가루의 80% 에탄올 추출물)",
+   "content": "상대 함량 1.16%(MRM 피크 면적 비율, 절대 함량 아님)[2]",
+   "method": "UPLC-ESI-MS/MS(QTRAP, MRM, 광범위 표적 대사체 분석)",
+   "conditions": {
+    "instrument": "Shimadzu UFLC CBM A + AB Sciex QTRAP 4500+",
+    "column": "Waters ACQUITY UPLC HSS T3 C18, 2.1 × 100 mm, 1.7 µm",
+    "mobile_phase": "A 물/포름산(99.9:0.1), B 아세토니트릴/포름산(99.9:0.1)",
+    "gradient": "0–10 min 5–95% B; 10–11 min 95% B; 11–11.1 min 95–5% B; 11.1–15 min 5% B",
+    "flow": "0.4 mL/min",
+    "temp": "40 °C",
+    "detection": "ESI 양·음이온, MRM; 소스 550 °C, 이온 분무 전압 +5500 V/−4500 V",
+    "injection": "2 μL",
+    "sample_prep": "건조 가루 80% 에탄올 환류 추출(3 × 200 mL, 4 h)·감압 농축·동결건조 → 동결건조 분말 100 mg을 70% 메탄올 1.2 mL에 녹여 4 °C 12 h, 원심분리, 0.22 μm 나일론 여과",
+    "standard": "자체 구축 데이터베이스와 2차 질량 스펙트럼으로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "다섯 장미속 열매를 같은 조건으로 비교해 생열귀 열매의 지표 후보 30종을 고른 연구로, 2α-하이드록시우르솔산이 상대량 1위였다; 전문 확인, 정량은 상대값이며 검량·검출한계 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.3390/foods13050796",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 생열귀꽃잎·생열귀순·생열귀열매(Rosa davurica Pall. / Rosa amblyotis C.A.Mey.; Amur rose; 이명 범의찔레·가마귀밥나무), 사용가능, 사용가능부위: 순, 꽃잎, 열매, 식품원료(A코드); 같은 목록의 장미속 다른 행(로즈힙 R. canina, 해당화 R. rugosa, 찔레 R. multiflora, 금앵자 R. laevigata, 장미태좌세포배양분말 R. damascena 제한적사용 등), 갈매나무(Rhamnus davurica Pall., 전체, 사용불가), 개당주나무·까마귀밥나무(Ribes fasciculatum, 이명 까마귀밥나무) 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "UPLC-ESI-MS/MS-Based Analysis of Various Edible Rosa Fruits Concerning Secondary Metabolites and Evaluation of Their Antioxidant Activities — Foods 2024;13(5):796 — PMID 38472910, PMC10931279 — 전문 확인(상대 함량, 보충 표는 확인 못함)",
+   "url": "https://doi.org/10.3390/foods13050796",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Isolation and Simultaneous Quantification of Nine Triterpenoids from Rosa davurica Pall. — J Chromatogr Sci 2017;55(2):130-136 — PMID 27733480 — 초록만 확인",
+   "url": "https://doi.org/10.1093/chromsci/bmw155",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Chemical constituents of pericarps of Rosa davurica Pall., a traditional Chinese medicine — Chem Pharm Bull 1989;37(8):2232-3 — PMID 2598327 — 초록만 확인",
+   "url": "https://doi.org/10.1248/cpb.37.2232",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Lactic acid fermentation of Rosa davurica Pall. Jiaosu as a functional food — Food Chem X 2025 — PMID 41080133, PMC12514523 — 전문 확인",
+   "url": "https://doi.org/10.1016/j.fochx.2025.103103",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "The first chloroplast sequence of Rosa davurica Pall. var. davurica — Mitochondrial DNA B Resour 2023 — PMID 37325773, PMC10266123 — 전문 확인",
+   "url": "https://doi.org/10.1080/23802359.2023.2220431",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Rosa davurica var. rubro-stipulata (Rosaceae), the correct name for R. davurica var. alpestris — PhytoKeys 2023;229:71-76 — PMID 37457386, PMC10349305 — 전문 확인",
+   "url": "https://doi.org/10.3897/phytokeys.229.105786",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Complex and reticulate origin of edible roses (Rosa, Rosaceae) in China — Hortic Res 2022;9 — PMID 35031798, PMC8788372 — 초록만 확인(전문 본문 비어 있음)",
+   "url": "https://doi.org/10.1093/hr/uhab051",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Inhibition of immediate-type allergic reaction by Rosa davurica Pall. in a murine model — J Ethnopharmacol 1999;67(1):53-60 — PMID 10616960 — 초록만 확인",
+   "url": "https://doi.org/10.1016/s0378-8741(99)00013-6",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "[Anti-lipid peroxidation effect of Rosa davurica Pall. fruit] — Zhong Xi Yi Jie He Xue Bao 2004;2(5):364-5 — PMID 15383261 — 영문 초록만 확인(본문 중국어)",
+   "url": "https://doi.org/10.3736/jcim20040516",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Flavonoids from Rosa davurica Pall. fruits prevent high-fat diet-induced obesity and liver injury via modulation of the gut microbiota in mice — Food Funct 2021;12(20):10097-10106 — PMID 34522931 — 초록만 확인",
+   "url": "https://doi.org/10.1039/d1fo01373d",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Discovering the active components of Rosa davurica Pall on ameliorating acute myocardial ischemia based on spectral relationships, network pharmacology, molecular docking and molecular dynamic — Fitoterapia 2025;184:106648 — PMID 40446937 — 초록만 확인(사용 부위 표기 없음)",
+   "url": "https://doi.org/10.1016/j.fitote.2025.106648",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Rosa davurica Pall. as a Functional Food in Ameliorating Acute Myocardial Ischemia: An Integrated Multi-Omics Study on TNF-α and Oxidative Stress — Chem Biodivers 2026;23(5):e71355 — PMID 42178827, PMC13381007 — 초록만 확인(PMC 전문 본문 비어 있음)",
+   "url": "https://doi.org/10.1002/cbdv.71355",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "A new flavonoid glycoside and other chemical constituents from leaves of Rosa davurica and their antioxidant activity — Nat Prod Res 2013;27(23):2178-82 — PMID 23802510 — 초록만 확인",
+   "url": "https://doi.org/10.1080/14786419.2013.811408",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Anti-inflammatory, anti-angiogenic, and anti-nociceptive activities of the chloroform fraction of a methanol extract from Rosa davurica Pall. leaves in experimental animal models — Immunopharmacol Immunotoxicol 2011;33(1):186-92 — PMID 20550430 — 초록만 확인",
+   "url": "https://doi.org/10.3109/08923973.2010.491516",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Rosa davurica Pall. Inhibited Allergic Mediators by Regulating Calcium and Histamine Signaling Pathways — Plants 2023;12(7):1572 — PMID 37050198, PMC10097250 — 전문 확인(잎 추출물)",
+   "url": "https://doi.org/10.3390/plants12071572",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "RETRACTED: Rosa davurica Pall. Improves Propionibacterium acnes-Induced Inflammatory Responses in Mouse Ear Edema Model … — Int J Mol Sci 2020;21(5):1717 — PMID 32138302; 철회 공지 Int J Mol Sci 2026, PMID 41894594 (doi 10.3390/ijms27073049) — 초록·철회 표시만 확인",
+   "url": "https://doi.org/10.3390/ijms21051717",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Therapeutic Potential of Rosa davurica Pall. Root Extract as an Antidiabetic Agent — Int J Mol Sci 2024;25(16):8944 — PMID 39201631, PMC11354915 — 초록만 확인",
+   "url": "https://doi.org/10.3390/ijms25168944",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Supernatants of Water Extraction-Ethanol Precipitation from Roots of Rosa davurica Pall. Ameliorate Ulcerative Colitis in Mice — Pharmaceuticals 2026;19(9):1372 — PMID 42797418, PMC13610652 — 초록만 확인",
+   "url": "https://doi.org/10.3390/ph19091372",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Characterization of a polysaccharide from Rosa davurica and inhibitory activity against neutrophil migration — Int J Biol Macromol 2016;89:111-7 — PMID 27112979 — 초록만 확인(사용 부위 표기 없음)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2016.04.062",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Study on the inhibitory effects of Korean medicinal plants and their main compounds on the 1,1-diphenyl-2-picrylhydrazyl radical — Phytomedicine 2003;10(6-7):544-51 — PMID 13678241 — 초록만 확인",
+   "url": "https://doi.org/10.1078/094471103322331520",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "The antidiabetic effects of an herbal formula composed of Alnus hirsuta, Rosa davurica, Acanthopanax senticosus and Panax schinseng in the streptozotocin-induced diabetic rats — Nutr Res Pract 2013;7(2):103-8 — PMID 23610602, PMC3627926 — 전문 확인(본문에서 종명이 빠져 각 종의 사용 부위 대응은 확인 못함)",
+   "url": "https://doi.org/10.4162/nrp.2013.7.2.103",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "[Impact of soil cadmium contamination on chlorophyll fluorescence characters and biomass accumulation of four broad-leaved tree species seedlings] — Ying Yong Sheng Tai Xue Bao 2006;17(5):769-72 — PMID 16883798 — 영문 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16883798/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "[Quantitative classification of natural plant communities in the Saihanba National Nature Reserve, Hebei Province, China] — Ying Yong Sheng Tai Xue Bao 2016;27(5):1383-1392 — PMID 29732798 — 영문 초록만 확인",
+   "url": "https://doi.org/10.13287/j.1001-9332.201605.007",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "A new species of Diplolepis Geoffroy (Hymenoptera: Cynipidae: Diplolepidini) from northeastern China — Zootaxa 2021;4985(2):219-234 — PMID 34186657 — 초록만 확인",
+   "url": "https://doi.org/10.11646/zootaxa.4985.2.5",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Evaluation and Control of Alternaria tenuissima Causing Leaf Spots in Blue Honeysuckle in China — Plant Dis 2024;108(5):1270-1277 — PMID 37933146 — 초록만 확인",
+   "url": "https://doi.org/10.1094/PDIS-07-23-1470-RE",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Antioxidant and Hepatoprotective Effect of Rosa davurica Pall Seed Oil on CCl4-Induced Acute Liver Injury in Mice — J Med Food 2024;27(7):636-650 — PMID 38722249 — 제목만 확인(초록 없음)",
+   "url": "https://doi.org/10.1089/jmf.2024.K.0018",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "RrGT1, a key gene associated with anthocyanin biosynthesis, was isolated from Rosa rugosa and identified via overexpression and VIGS — Plant Physiol Biochem 2019;135:19-29 — PMID 30500515 — 초록만 확인",
+   "url": "https://doi.org/10.1016/j.plaphy.2018.11.022",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "[Advances in the study of the fruits of Rosa davurica Pall] — Zhongguo Zhong Yao Za Zhi 1997;22(3):131-4 — PMID 10743178 — 제목만 확인(초록 없음, 리뷰)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10743178/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Rosa davurica Pall. improves DNCB-induced atopic dermatitis in mice and regulated TNF-α/IFN-γ-induced skin inflammatory responses in HaCaT cells — Phytomedicine 2021;91:153708 — PMID 34455178 — 초록만 확인",
+   "url": "https://doi.org/10.1016/j.phymed.2021.153708",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

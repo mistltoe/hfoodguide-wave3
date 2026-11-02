@@ -1,0 +1,92 @@
+{
+ "slug": "salvia-triloba",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 81,
+ "checked_items": 27,
+ "verified": 92,
+ "fixed": 11,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.history",
+   "before": "EMA HMPC가 '오랜 전통 사용을 입증할 문헌이 부족하다며' 모노그래프를 만들지 않았다고 알려져 있다",
+   "after": "공개 성명(2016-05-31 자)에서 회원국 사용은 인정하나 새 자료 없으면 모노그래프 불가라고 검색 요약에 나옴, 근거는 확인하지 못함",
+   "why": "WebSearch 요약(ema.europa.eu)에는 '전통 사용 문헌 부족'이라는 이유가 없음. 원문 미열람이라 결론만 남김. 출처 [25] 제목에 성명 문서번호 EMA/HMPC/599993/2014 보충"
+  },
+  {
+   "where": "sections.history",
+   "before": "레바논 민간에서는 … 잎을 끓여 차로",
+   "after": "이 식물을 끓여 차로",
+   "why": "[18] 원문은 'The plant is boiled as a tea'로 부위를 밝히지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "재배한 식물은 야생보다 1,8-시네올을 적게 만든다는 보고도 있다[5].",
+   "after": "(삭제)",
+   "why": "[5] 원문 해당 문장은 재배 조건 표기(기외배양 등으로 보임)가 빠져 있어 '재배 대 야생' 비교로 읽을 수 없음"
+  },
+  {
+   "where": "sections.processing / compounds.Rosmarinic acid",
+   "before": "끓는 물 추출 4.96 mg/g",
+   "after": "물 추출(초음파 30 °C, 10분) 4.96 mg/g",
+   "why": "[2] Methods: 물·에탄올 모두 초음파 10분, 30 °C 추출. 끓는 물이 아님"
+  },
+  {
+   "where": "compounds.Eucalyptol",
+   "before": "잎 정유 46.8–54.2%[13]",
+   "after": "S. triloba와 월계수 잎 정유를 합친 범위 46.8–54.2%(종별 값은 초록에 없음)",
+   "why": "[13] 초록의 46.8–54.2%는 S. triloba와 Laurus nobilis 두 시료를 합친 범위 — 다른 종 자료 섞임"
+  },
+  {
+   "where": "sections.biology",
+   "before": "지상부에서는 탄화수소 12종…",
+   "after": "이 종에서 …(분석 부위는 초록에 없음)",
+   "why": "[30] 초록은 부위를 밝히지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "투존은 GABA 작용을 막아… 유럽 규정이 … 25 mg/kg 이하로 둔다고 적었다[5]",
+   "after": "성분 자체의 성질로 명시, 총설의 2차 인용이며 규정 원문과 현행 기준치는 확인하지 못함",
+   "why": "[5] 총설 원문 확인: 'European regulations … 25 mg/kg of food prepared from any of the sage species' — 규정 원문 인용 없음. 이 종 고유 근거가 아니므로 성분 일반 성질로 구분"
+  },
+  {
+   "where": "sections.safety",
+   "before": "30일 먹이자 암수 모두에서 착상 수와 생존 태아 수가 줄었다",
+   "after": "먹인 암컷과 먹인 수컷과 교배한 암컷 모두에서 … 줄고 흡수 태아가 늘었다",
+   "why": "[19] 초록: 수컷 투여군은 교배한 암컷의 착상·생존 태아가 줄어든 것"
+  },
+  {
+   "where": "sections.safety",
+   "before": "에임스 시험(TA98·TA100)에서는 음성이었다[20, 21]",
+   "after": "에임스 음성이었으나 코멧 시험에서는 모든 추출물이 DNA 손상 신호를 높였다[21]",
+   "why": "[21] 초록: 19개 시료 모두 코멧 시험 양성. 음성 결과만 적은 것은 한쪽 서술"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "(없음)",
+   "after": "식품첨가물(B코드) '천연향료(Sage, Greek)'가 따로 있으나 학명 없음[1]",
+   "why": "로컬 I1020_20261013.json 에서 확인, 이름 혼동 정보 보충"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이 자료의 수치는 S. triloba 또는 S. fruticosa 로 동정된 시료에서 나온 것만 썼다[2, 3, 4]",
+   "after": "성분 수치만 해당, 세이지 ISO 규격·교배 품종 자료는 비교용으로 밝힘[2,3,4,5,10]",
+   "why": "본문에 세이지 ISO 수치와 S. officinalis × S. fruticosa 교배 품종 자료가 있어 문장이 사실과 어긋남"
+  },
+  {
+   "where": "compounds.Rutin",
+   "before": "레바논산 지상부 추출물에서",
+   "after": "레바논산 추출물 HPLC에서",
+   "why": "[18] HPLC는 전초(지상부·뿌리) 추출물 분석"
+  }
+ ],
+ "unverifiable_notes": [
+  "[25] EMA 원문 미열람 — WebSearch(ema.europa.eu 한정) 요약으로 성명의 존재·날짜·결론만 확인, 이유는 확인하지 못함",
+  "[5] 의 유럽 투존 25 mg/kg 기준은 총설의 2차 인용 — 규정 원문(EU 규정) 미확인으로 문장에 그렇게 밝힘",
+  "[4] 전문(W2 저장본 _work/ft_41760873.json, PubMed 전문)으로 S. fruticosa 표(두 번째 표)의 α-투존 16.66/17.19%, 1,8-시네올 8.36–12.45%, 캠퍼 9.44–13.28%, β-투존 3.94–5.13%, α-피넨 4.62–9.28%, α-후물렌 5.67–8.75%, 정유 함량 0.42–0.50%/1.20–1.52% 대조 일치 — S. officinalis 표 값(α-투존 25.01% 등)과 섞이지 않았음. 단 이 논문 서론은 S. fruticosa 를 'Dalmatian sage'라고도 불러 서론 서술(약전 등재)은 신뢰도 낮음",
+  "식품원료 지위: 로컬 I1020_20261013.json 에서 '그릭세이지잎'(Salvia triloba L.F., Greek sage, 사용가능, 잎)과 'Greek sage잎'(Salvia fruticosa, 사용가능, 잎) 두 행 확인, card.json 과 일치",
+  "[6]~[33] PubMed 초록, [2]·[5]·[18] PMC 전문 대조. [3] 은 W2 저장 전문으로 분석 조건 대조"
+ ]
+}

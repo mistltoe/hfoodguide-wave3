@@ -1,0 +1,53 @@
+import json
+from pathlib import Path
+P=Path(__file__).resolve().parent.parent/"dossier.json"
+d=json.load(open(P))
+S={s['key']:s for s in d['sections']}
+changes=[]
+def rep(key,old,new,why):
+    b=S[key]['body']; assert old in b,(key,old); S[key]['body']=b.replace(old,new); changes.append({"where":f"sections.{key}","before":old,"after":new,"why":why})
+rep('history',"민간에서는 설사, 학질, 객혈·토혈 같은 출혈 증상에 전초를 써 왔다[12].",
+ "전초는 설사, 학질, 객혈·토혈 치료에 임상적으로 써 왔다고 기재된다[12].",
+ "[12] 초록은 'clinical applications'라고 씀(민간 사용이 아님)")
+rep('history',"중국에서는 황기나 화살나무(Euonymus alatus)와 섞은 복합 처방으로도 당뇨 동물 실험이 이루어졌는데, 이런 결과는 솜양지꽃 단독의 효과가 아니다[31, 32].",
+ "중국에서는 화살나무(Euonymus alatus)와 섞은 복합 처방으로 당뇨 흰쥐의 장내세균 변화를 본 실험도 있는데, 이 결과는 솜양지꽃 단독의 효과가 아니다[31]. 에탄올 추출물은 TNBS로 유발한 궤양성 대장염 흰쥐에서 질병 활성 지수와 대장 염증세포 침윤을 줄였다(동물 결과)[32].",
+ "[31] 은 솜양지꽃–화살나무 배합만 다루고 황기는 없음; [32] 는 단독 에탄올 추출물의 궤양성 대장염 흰쥐 실험이지 복합 처방·당뇨 실험이 아님")
+rep('history',"전초 추출물과 주성분 플라본은 당뇨병성 신장병 생쥐의 단백뇨를 줄였다[24].",
+ "추출물(100 mg/kg)과 주성분으로 제시된 플라본(10 mg/kg)을 12주간 복강 주사하자 당뇨병성 신장병 생쥐의 알부민뇨가 줄었다(동물 결과, 먹인 것이 아님)[24].",
+ "[24] 전문: 전초라는 표기 없음, 투여 경로는 복강 주사, 용량·기간 보충")
+rep('biology',"Flora of China 기재문은 뿌리가 굵고 아랫부분이 흔히 방추형으로 굵어진다고 적고 있으나, 이 내용은 원문을 열지 못하고 검색 요약으로만 확인했다[33].",
+ "중국 연구진은 이 식물이 성긴 숲·풀밭·골짜기에 자라며 뿌리가 굵고 방추형으로 부풀어 있고, 꽃줄기는 곧게 서며 잎은 깃꼴겹잎이라고 기재했다[16].",
+ "검색 요약 출처(Plazi, 원문 미확인) 대신 전문을 확인한 [16] 의 형태 기재로 바꿈")
+rep('related_species',"솜양지꽃만 뿌리가 사용 가능 부위로 지정되어 있으므로",
+ "이 밖에 개소시랑개비(P. supina)·검은낭아초(P. palustris)는 잎만 쓸 수 있고, 양지꽃(P. fragarioides var. major)과 딱지꽃 줄기는 '사용불가'다[1]. 솜양지꽃만 뿌리가 사용 가능 부위로 지정되어 있으므로",
+ "로컬 I1020 원자료에 양지꽃속 원료가 더 있어 보충")
+rep('related_species',"양지꽃속(넓은 뜻)은 엽록체·미토콘드리아 유전체 분석에서 8개의 큰 계통군으로 나뉜다[27].",
+ "중국 약재 시장에서는 '백두옹(白頭翁)'이라는 이름으로 할미꽃속 뿌리 대신 딱지꽃과 솜양지꽃의 전초가 유통된 사례가 현미경 감별로 확인되어, 이름만으로 원료를 구별하기 어렵다[33]. 양지꽃속(넓은 뜻)은 엽록체·미토콘드리아 유전체 분석에서 8개의 큰 계통군으로 나뉜다[27].",
+ "근연종 혼동 사례를 PubMed 1차 자료(PMID 15700819)로 추가")
+rep('processing',"약재 번백초는 뿌리를 포함한 식물 전체를 말린 것으로 정의되며[2, 22]",
+ "약재 번백초는 말린 전초(全草)로 정의되며[2, 22]",
+ "[2]·[22] 는 'dried whole herb'라고만 씀 — '뿌리를 포함한'은 출처에 없음")
+rep('processing',"한 연구는 분쇄한 전초를 열 배 부피의 물로 1시간씩 세 번 환류 추출한 뒤 동결건조했다[9].",
+ "한 연구는 분쇄한 전초를 열 배 부피의 물로 1시간 환류 추출하고 이 과정을 두 번 더 되풀이한('repeated twice') 뒤 농축·동결건조했다[9].",
+ "[9] 전문 표현대로 반복 횟수를 적음")
+rep('cultivation',"중국 연구에 쓰인 재료는 허베이성 탕현의 차 제조업체가 공급한 바람에 말린 전초[8, 9]",
+ "중국 연구에 쓰인 재료는 허베이성 탕현산 바람에 말린 식물체(한 연구는 그곳 차 제조업체가 공급)[8, 9]",
+ "[9] 는 산지(탕현)만, [8] 은 차 제조업체 공급이라고 씀 — 둘을 구별")
+for c in d['compounds']:
+    if c['name']=='Corosolic acid':
+        old=c['part']; c['part']="부위 미기재(약재 추출물)"; changes.append({"where":"compounds.Corosolic acid.part","before":old,"after":c['part'],"why":"[14] 초록에 부위 기재 없음"})
+    if c['name']=='Euscaphic acid':
+        old=c['part']; c['part']="부위 미기재(약재 추출물)"; changes.append({"where":"compounds.Euscaphic acid.part","before":old,"after":c['part'],"why":"[14]·[18] 초록에 전초라는 기재 없음"})
+    if c['name'] in ('Tormentic acid','Maslinic acid'):
+        old=c['part']; c['part']="부위 미기재(70% 에탄올 추출물)"; changes.append({"where":f"compounds.{c['name']}.part","before":old,"after":c['part'],"why":"[18] 초록에 전초라는 기재 없음"})
+al=d['aliases']; i=al.index("Potentillae Discoloris Herba"); al[i]="Potentilla discolor herba"
+changes.append({"where":"aliases","before":"Potentillae Discoloris Herba","after":"Potentilla discolor herba","why":"출처 [2] 의 표기로 맞춤(라틴 약재명 표기는 출처 없음)"})
+for s in d['sources']:
+    if s['n']==33:
+        s.update({"title":"[Microscopic identification of homonym drugs of \"Baitouweng\" by digital imaging technique] (2004)","url":"https://pubmed.ncbi.nlm.nih.gov/15700819/","publisher":"Yao Xue Xue Bao (PubMed PMID 15700819)","accessed":"2026-11-02"})
+    if s['n']==25:
+        s['title']="Isolation of Two Steroids and a Triterpenoid from the Roots of Potentilla discolor (생약학회지 38(4):354–357, 2007) — 원문을 열지 못하고 검색 요약으로 서지·분리 화합물만 확인"
+changes.append({"where":"sources[33]","before":"Plazi TreatmentBank(Flora of China, 검색 요약)","after":"PubMed PMID 15700819","why":"원문 미확인 검색 요약 출처를 제거하고 번호를 새 1차 출처로 대체"})
+json.dump(d,open(P,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open(P.parent/'_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

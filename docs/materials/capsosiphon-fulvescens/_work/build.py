@@ -1,0 +1,230 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pm(n, title, doi, journal, pmid, pmc=None):
+    pub = f"{journal} (PubMed {pmid}" + (f", {pmc})" if pmc else ")")
+    return {"n": n, "title": title, "url": f"https://doi.org/{doi}", "publisher": pub, "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '매생이'(식품원료 A코드, 수산물, 학명 Capsosiphon fulvescens, 영문명 Seaweed fulvescens, 사용가능부위: 전체, 사용가능)와 복합원료 '매생이김'(U코드) 항목(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 2, "title": "국립수산물품질관리원 「지리적표시 수산물 현황」(20261013) — 제11호 장흥매생이(앱 공공데이터 docs/materials/foodlist/gi.json)",
+     "url": "https://www.nfqs.go.kr", "publisher": "국립수산물품질관리원", "accessed": "2026-10-13"},
+    pm(3, "Reconstructing the Phylogeny of Capsosiphon fulvescens (Ulotrichales, Chlorophyta) from Korea Based on rbcL and 18S rDNA Sequences. BioMed Res Int 2016;2016:1462916", "10.1155/2016/1462916", "BioMed Research International", "27190985", "PMC4852126"),
+    pm(4, "Flip-flop organization in the chloroplast genome of Capsosiphon fulvescens (Ulvophyceae, Chlorophyta). J Phycol 2019;55:214–223", "10.1111/jpy.12811", "Journal of Phycology", "30403403"),
+    pm(5, "Chloroplast DNA markers for distinguishing seaweeds Capsosiphon fulvescens and Ulva prolifera using real-time quantitative PCR and their application in commercial products. Food Sci Biotechnol 2025;34:2051–2059", "10.1007/s10068-024-01804-9", "Food Science and Biotechnology", "40196318", "PMC11972259"),
+    pm(6, "Strain-Dependent Lactic Acid Fermentation of Capsosiphon fulvescens Hydrolysate by Lactobacillus spp. Microorganisms 2025;13:2295", "10.3390/microorganisms13102295", "Microorganisms", "41156755", "PMC12565846"),
+    pm(7, "Structural Features and Anti-coagulant Activity of the Sulphated Polysaccharide SPS-CF from a Green Alga Capsosiphon fulvescens. Mar Biotechnol 2015;17:718–735", "10.1007/s10126-015-9643-y", "Marine Biotechnology", "26337523"),
+    pm(8, "Purification, characterization and immunostimulating activity of water-soluble polysaccharide isolated from Capsosiphon fulvescens. Int Immunopharmacol 2010;10:364–370", "10.1016/j.intimp.2009.12.011", "International Immunopharmacology", "20074671"),
+    pm(9, "Characterization and immunomodulatory activities of sulfated polysaccharides from Capsosiphon fulvescens. Int J Biol Macromol 2012;51:720–729", "10.1016/j.ijbiomac.2012.07.006", "International Journal of Biological Macromolecules", "22796642"),
+    pm(10, "Sulfated Glucuronorhamnoxylan from Capsosiphon fulvescens Ameliorates Osteoporotic Bone Resorption via Inhibition of Osteoclastic Cell Differentiation and Function In Vitro and In Vivo. Mar Biotechnol 2022;24:690–705", "10.1007/s10126-022-10136-w", "Marine Biotechnology", "35796894"),
+    pm(11, "Glucuronorhamnoxylan from Capsosiphon fulvescens inhibits the growth of HT-29 human colon cancer cells in vitro and in vivo via induction of apoptotic cell death. Int J Biol Macromol 2019;124:1060–1068", "10.1016/j.ijbiomac.2018.12.001", "International Journal of Biological Macromolecules", "30521889"),
+    pm(12, "The inhibitory activities of the edible green alga Capsosiphon fulvescens on rat lens aldose reductase and advanced glycation end products formation. Eur J Nutr 2014;53:233–242", "10.1007/s00394-013-0521-y", "European Journal of Nutrition", "23575770"),
+    pm(13, "Capsofulvesins A-C, cholinesterase inhibitors from Capsosiphon fulvescens. Chem Pharm Bull 2012;60:1351–1358", "10.1248/cpb.c12-00268", "Chemical & Pharmaceutical Bulletin", "23124557"),
+    pm(14, "Pheophorbide a from Capsosiphon fulvescens Inhibits Advanced Glycation End Products Mediated Endothelial Dysfunction. Planta Med 2016;82:46–57", "10.1055/s-0035-1557829", "Planta Medica", "26308358"),
+    pm(15, "Antioxidant Activity of Oxygen Evolving Enhancer Protein 1 Purified from Capsosiphon fulvescens. J Food Sci 2015;80:H1412–H1417", "10.1111/1750-3841.12883", "Journal of Food Science", "25944160"),
+    pm(16, "Chalinasterol attenuates ethanol-induced hepatic lipid accumulation by activating β-oxidation. Biomed Rep 2026;24:57", "10.3892/br.2026.2130", "Biomedical Reports", "41859047", "PMC12996857"),
+    pm(17, "The antioxidant properties of ethanol extracts and their solvent-partitioned fractions from various green seaweeds. J Med Food 2010;13:1232–1239", "10.1089/jmf.2010.1124", "Journal of Medicinal Food", "20828323"),
+    pm(18, "The effect of polysaccharide extracted from the marine alga Capsosiphon fulvescens on ethanol administration. Food Chem Toxicol 2008;46:2653–2657", "10.1016/j.fct.2008.04.027", "Food and Chemical Toxicology", "18524446"),
+    pm(19, "Polysaccharides from Capsosiphon fulvescens stimulate the growth of IEC-6 Cells by activating the MAPK signaling pathway. Mar Biotechnol 2011;13:433–440", "10.1007/s10126-010-9314-y", "Marine Biotechnology", "20694826"),
+    pm(20, "A polysaccharide of the marine alga Capsosiphon fulvescens induces apoptosis in AGS gastric cancer cells via an IGF-IR-mediated PI3K/Akt pathway. Cell Biol Int 2007;31:768–775", "10.1016/j.cellbi.2007.01.010", "Cell Biology International", "17344071"),
+    pm(21, "Induction of apoptosis signaling by glycoprotein of Capsosiphon fulvescens in human gastric cancer (AGS) cells. Nutr Cancer 2012;64:761–769", "10.1080/01635581.2012.683228", "Nutrition and Cancer", "22591240"),
+    pm(22, "Hydrophilic Glycoproteins of an Edible Green Alga Capsosiphon fulvescens Prevent Aging-Induced Spatial Memory Impairment by Suppressing GSK-3β-Mediated ER Stress in Dorsal Hippocampus. Mar Drugs 2019;17:168", "10.3390/md17030168", "Marine Drugs", "30875947", "PMC6470841"),
+    pm(23, "Glycoproteins of Capsosiphon fulvescens modulate synaptic clustering of PSD95 and prevent social isolation-induced cognitive decline in aged male rats. J Nutr Biochem 2022;107:109054", "10.1016/j.jnutbio.2022.109054", "Journal of Nutritional Biochemistry", "35609859"),
+    pm(24, "Capsosiphon fulvescens glycopeptides restore synaptic plasticity and mitigate cognitive decline via calcineurin regulation in aged hippocampus. Eur J Nutr 2025;64:287", "10.1007/s00394-025-03802-x", "European Journal of Nutrition", "41051592"),
+    pm(25, "Capsosiphon fulvescens extracts improve obesity-associated metabolic disorders and hepatic steatosis in high-fat diet-induced obese mice. Anim Sci J 2018;89:589–596", "10.1111/asj.12969", "Animal Science Journal", "29271532"),
+    pm(26, "Potential antiobesity and antihepatic steatosis effects of a Capsosiphon fulvescens (maesaengi) ethanol extract: in vitro and in vivo studies. Food Funct 2026;17:3764–3783", "10.1039/d5fo05258k", "Food & Function", "41945403"),
+    pm(27, "A toolkit for quantifying individual response to herbal extracts in metabolic and inflammatory stress. NPJ Sci Food 2025;9:14", "10.1038/s41538-024-00354-y", "npj Science of Food", "39900584", "PMC11791183"),
+    pm(28, "Inhibition of Formation of Azoxymethane-induced Colonic Aberrant Crypt Foci in Rats by Edible Green Algae Capsosiphon fulvescens and Brown Algae Hizikia fusiforme. In Vivo 2018;32:101–108", "10.21873/invivo.11210", "In Vivo", "29275305", "PMC5892625"),
+    pm(29, "Photoprotective activities of Capsosiphon fulvescens in UVB-induced SKH-1 mice and human keratinocytes. J Food Sci 2024;89:5150–5163", "10.1111/1750-3841.17246", "Journal of Food Science", "38992886"),
+    pm(30, "Inactivation of murine norovirus-1 in the edible seaweeds Capsosiphon fulvescens and Hizikia fusiforme using gamma radiation. Food Microbiol 2016;56:80–86", "10.1016/j.fm.2015.12.006", "Food Microbiology", "26919820"),
+    pm(31, "Moisture Sorption and Thermodynamic Properties of Vacuum-Dried Capsosiphon fulvescens Powder. Prev Nutr Food Sci 2015;20:215–220", "10.3746/pnf.2015.20.3.215", "Preventive Nutrition and Food Science", "26451360", "PMC4596349"),
+    pm(32, "Inhibitory effect of marine green algal extracts on germination of Lactuca sativa seeds. J Environ Biol 2016;37:207–213", "10.1007/s10126-015-9643-y", "Journal of Environmental Biology", "27097439"),
+    pm(33, "Development of bioactive cellulose nanocrystals derived from dominant cellulose polymorphs I and II from Capsosiphon fulvescens for biomedical applications. Int J Biol Macromol 2018;110:531–539", "10.1016/j.ijbiomac.2017.11.047", "International Journal of Biological Macromolecules", "29133102"),
+]
+# [32] 은 DOI 가 없다 → PubMed 주소로
+sources[31]["url"] = "https://pubmed.ncbi.nlm.nih.gov/27097439/"
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "매생이(Capsosiphon fulvescens (C.Agardh) Setchell & N.L.Gardner)는 가는 실 모양 엽상체를 가진 녹조류로, 한국 남서해안에서 양식해 먹는 해조다[3, 6]. "
+     "식약처 「식품원료 목록」에서 '매생이'는 수산물로 분류된 식품원료이고, 사용 조건은 '사용가능', 사용 가능 부위는 '전체'다[1]. "
+     "같은 목록에는 매생이를 넣은 복합원료 '매생이김'도 '사용가능'으로 올라 있다[1]. "
+     "이 종을 원재료로 지정한 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+     "건조 원료는 탄수화물 53.4%, 단백질 24.2%, 회분 22.0%, 지방 0.3%로 탄수화물과 단백질이 많고, 산 가수분해하면 람노스·자일로스가 주된 당으로 나온다[6]. "
+     "대표 생리활성 성분은 람노스-3-황산과 자일로스가 번갈아 이어진 황산화 글루쿠로노람노자일란(울반형 다당, SPS-CF)이다[7]. "
+     "그 밖에 당지질(캡소풀베신), 스테롤(칼리나스테롤), 엽록소 분해물(페오포바이드 a), 당단백질이 분리되었다[12–15, 22]. "
+     "연구 결과는 고지방식 비만 생쥐[25, 26]·자외선 광노화 생쥐[29] 같은 세포·동물 실험이 대부분이고, 사람 연구는 건강한 성인에게 분말을 한 번 먹인 교차시험 정도다[27].",
+     },
+    {"key": "history", "title": "이용 역사·학명", "body":
+     "매생이는 한국 남서부 지방에서 독특한 향과 부드러운 식감 때문에 먹어 왔고, 위장 불편과 숙취에 좋다고 여겨져 왔다[3]. "
+     "이런 전통적 쓰임은 민간 이용에 관한 서술이며, 사람에서 효과가 확인된 것은 아니다[3, 19]. "
+     "한편 이 해조는 다른 해조 양식장에 끼어드는 오염 해조로도 알려져 있었다[3].\n\n"
+     "학명은 Capsosiphon fulvescens이고, 명명자는 (C.Agardh) Setchell & N.L.Gardner로 적는다[6]. "
+     "식약처 목록의 영문명은 'Seaweed fulvescens'다[1]. "
+     "이 종은 형태 형질 해석이 엇갈려 목·과 수준의 분류가 오랫동안 논란이었다[3]. "
+     "다당 연구에서도 해석이 바뀌었는데, 2010년에는 SPS-CF를 만노스(55.4 mol%)·갈락토스가 주성분인 글루쿠로노갈락토만난으로 보고했다[8]. "
+     "2015년 같은 다당을 여러 방법으로 다시 분석한 연구는 자일로스(38.6–49.4 mol%)와 람노스(39.6–45 mol%)가 주성분인 울반형 다당으로 바로잡았다[7].",
+     },
+    {"key": "biology", "title": "생물학적 특징·생태", "body":
+     "매생이는 녹조식물문 갈파래강(Ulvophyceae)에 속하는 실 모양 녹조류다[3, 4]. "
+     "북대서양과 한국·일본을 포함한 북태평양에 분포하며, 연안 퇴적물과 바위 해안의 조간대 윗부분에 산다[3]. "
+     "번식은 암수가 한 몸인 배우체에서 나온 편모 2개짜리 동형배우자로 이루어진다[3].\n\n"
+     "세포벽 다당에는 황산화 람노스 다당이 많고, 이것이 산 가수분해물에 람노스가 많은 이유로 설명된다[6]. "
+     "원소 분석에서 황 함량이 비교적 높게 나온 것도 황산화 다당이 많다는 점과 맞는다[6]. "
+     "엽상체를 그대로 머서화 처리하면 결정성 셀룰로스 I(결정화도 81.3%)이 셀룰로스 II(63.7%)로 바뀐다[33]. "
+     "실험실에서는 거른 바닷물 배지에서 8 °C, 30–50 µmol photons m⁻² s⁻¹, 명암 14:10 시간 조건으로 키운 예가 있다[3]. "
+     "지질 분획은 상추 씨앗 발아를 0.5 mg/종이 원판에서 완전히 억제해 타감(他感) 작용을 보였다[32].",
+     },
+    {"key": "related_species", "title": "관련 종·이름", "body":
+     "매생이는 파래류(Ulva prolifera 등)와 자라는 곳·철·생김새가 겹쳐 시판 제품에서 자주 섞인다[5]. "
+     "엽록체 유전자 표지로 두 종을 가르는 실시간 정량 PCR이 개발되었고, 시판 14개 제품 가운데 4개에서 다른 종이 소량 섞여 있었다[5]. "
+     "따라서 이 자료의 성분·효능 수치는 C. fulvescens로 동정한 시료에서 나온 것만 모았고, 파래류·갈파래류 자료는 넣지 않았다[5, 6].\n\n"
+     "여러 녹조를 함께 견준 연구에서도 매생이는 Enteromorpha compressa·Ulva pertusa[17], Monostroma nitidum·Enteromorpha linza[32] 같은 다른 녹조와 별개 종으로 다뤄졌다[17, 32]. "
+     "계통상으로 매생이는 18S rDNA 분석에서 Urospora·Acrosiphonia와 함께 Ulotrichaceae(Ulotrichales)로 추정되었다[3]. "
+     "엽록체 유전체 분석에서는 Pseudoneochloris marina가 자매군으로 나타났다[4]. "
+     "다만 개별 유전자 70개의 신호는 Ulotrichales·Ulvales·두 목의 묶음 중 어느 쪽과 가까운지 서로 엇갈렸다[4]. "
+     "식약처 목록에서 매생이 학명 항목은 '매생이' 하나이고, 복합원료 '매생이김'은 학명 칸이 비어 있다[1].",
+     },
+    {"key": "cultivation", "title": "양식·채취", "body":
+     "매생이는 한국에서 양식으로 상업 생산되는 녹조이며, 실험에 쓴 원료도 전라남도 장흥에서 양식한 것을 그대로 썼다[6]. "
+     "계통 연구의 시료는 진도·고흥·완도·장흥의 해조 양식장 다섯 곳에서 2011년 12월부터 2012년 2월 사이에 채집했다[3]. "
+     "채집 뒤에는 차가운 바닷물로 여러 번 씻고 얼음에 담아 옮겼다[3]. "
+     "이 양식 원료는 선발 육종이나 실험실 순화를 거치지 않은 것이었다[6].\n\n"
+     "지리적 표시로는 국립수산물품질관리원 등록 수산물 제11호 '장흥매생이'(대상 지역 전라남도 장흥군, 2011-05-13 등록)가 있다[2]. "
+     "등록 단체는 (사)정남진장흥매생이생산자협의회다[2]. "
+     "매생이의 전국·시도별 생산량(톤)과 양식 면적은 공식 통계 원문을 열지 못해 확인하지 못함. "
+     "세계 생산 통계도 확인하지 못함.",
+     },
+    {"key": "processing", "title": "가공·이용 연구", "body":
+     "진공 건조한 매생이 분말의 수분 흡착 등온선은 25·35·45 °C, 수분활성도 0.11–0.94 범위에서 측정되었다[31]. "
+     "수분활성도 0.45 미만에서는 BET 모델이 가장 잘 맞았고, 0.75를 넘으면 온도 역전 현상이 나타났다[31]. "
+     "평형 수분이 0.055에서 0.090 kg H₂O/kg 고형분으로 늘면 순 등량 흡착열은 15.77에서 9.08 kJ/mol로 줄었다[31].\n\n"
+     "감마선 3–10 kGy를 쬐면 매생이에 접종한 쥐 노로바이러스(사람 노로바이러스 대리 바이러스)가 줄었고, 90% 감소 선량은 2.89 kGy였다[30]. "
+     "같은 처리에서 색도와 관능 품질(외관·색·향·조직감·전체 기호도)은 유의하게 달라지지 않았다[30]. "
+     "식품 밖 이용으로는 묽은 황산 가수분해물을 젖산균으로 발효해 젖산을 최고 2.8 g/L 얻은 연구가 있다[6]. "
+     "엽상체 셀룰로스로 셀룰로스 나노결정(평균 두께 12.67·15.58 nm)을 만들어 조직공학 지지체 소재로 제안한 연구도 있다[33]. "
+     "식약처 「식품 등의 생산실적」 건강기능식품 품목 표에서 매생이 품목은 확인하지 못함.",
+     },
+    {"key": "genetics", "title": "유전 정보", "body":
+     "매생이 엽록체 유전체는 원형이며 길이 111,561 bp, GC 함량 31.3%다[4]. "
+     "단백질 암호 유전자 77개, rRNA 오페론 2벌, tRNA 27개를 포함해 유전자 108개가 들어 있다[4]. "
+     "한 개체 안에 구조가 다른 두 형태의 엽록체 유전체가 함께 있는 이형질성(heteroplasmy)이 보였고, 이는 플립플롭 재배열 때문으로 해석되었다[4]. "
+     "엽록체 유전자 70개를 이어 붙인 계통수는 Ulvales와의 단계통을 지지했지만, 개별 유전자 신호가 엇갈려 위치는 아직 확정되지 않았다[4].\n\n"
+     "한국 4개 산지 분리주의 rbcL과 18S rDNA 서열로 만든 계통수에서는 Ulotrichales, 그 가운데 Ulotrichaceae에 속하는 것으로 추정되었다[3]. "
+     "종 판별용 엽록체 표지 6쌍은 검량선 결정계수 R² 0.99 초과, 기울기 −3.14 ~ −3.45, 증폭 효율 94.89–108.39%였다[5]. "
+     "이 표지로 만든 눈가림 혼합 시료 20개의 판정은 실제 혼합 비율과 모두 일치했다[5].",
+     },
+    {"key": "safety", "title": "안전성", "body":
+     "매생이는 식약처 「식품원료 목록」에서 '사용가능' 원료이며, 전체를 식품으로 쓸 수 있다[1]. "
+     "이 종만을 대상으로 한 중금속(납·카드뮴·수은·비소)과 요오드 함량 자료는 원문을 열 수 있는 출처에서 확인하지 못함. "
+     "건조 원료의 회분은 22.0%로 높고, 무기질은 칼륨·나트륨·마그네슘·칼슘이 주이며 알루미늄·철·스트론튬·구리는 미량이었다[6]. "
+     "시판 매생이 제품에 파래류가 섞이는 일이 있어, 제품 단위 분석값은 다른 종의 혼입을 감안해 읽어야 한다[5].\n\n"
+     "사람 연구로는 20–40세 건강한 성인에게 매생이 분말 0.1 g 또는 0.4 g을 고지방·고당 시험 음료와 한 번 먹인 무작위·이중눈가림·위약대조 교차시험이 있다[27]. "
+     "이 보고는 염증·대사 지표 점수만 다루었고 이상반응은 따로 적지 않았다[27]. "
+     "쥐 먹이에 매생이를 1–2% 섞어 먹인 실험에서는 체중이 대조군과 다르지 않았다[28]. "
+     "정제 다당 SPS-CF는 시험관에서 aPTT와 트롬빈 시간을 늘렸으나, 사람에서 출혈 위험이 확인된 것은 아니다[7]. "
+     "노로바이러스 대리 바이러스를 접종한 실험은 해조 가공·유통 중 바이러스 오염 관리의 필요성을 보여 준다[30]. "
+     "식약처의 이 종 관련 섭취 주의·알레르기 정보는 확인하지 못함.",
+     },
+]
+
+compounds = [
+    {"name": "Sulfated glucuronorhamnoxylan (ulvan-type polysaccharide)", "name_ko": "황산화 글루쿠로노람노자일란(울반형 다당, SPS-CF)", "class": "황산화 다당류", "role": "marker", "part": "엽상체 전체(건조물)",
+     "content_text": "중성당 중 자일로스 38.6–49.4 mol%, 람노스 39.6–45 mol%; 골격은 4-결합 L-람노스-3-황산과 D-자일로스가 번갈아 이어진 울보바이오스 U3s [7]; 2010년 보고에서는 분자량 385 kDa, 황산 에스터 5.7%(질량) [8]",
+     "activity_ko": "시험관에서 aPTT·트롬빈 시간 연장 [7]; RAW264.7 대식세포에서 TNF-α·IL-6 분비 증가(세포) [8]; 탈황산하면 파골세포 분화 억제가 사라짐, 난소절제 생쥐에 400 mg/kg/일 경구 투여 시 골밀도 증가(동물) [10]; HT-29 대장암 세포 증식 500 µg/mL에서 최대 40% 억제 및 이종이식 생쥐 종양 성장 감소(세포·동물) [11]",
+     "source": [7, 8, 10, 11]},
+    {"name": "L-Rhamnose", "name_ko": "람노스", "class": "단당(데옥시당)", "role": "marker", "part": "엽상체 건조물 산 가수분해물",
+     "content_text": "건조 원료 100 g당 9.8 g(0.5 M 황산, 120 °C, 2시간 가수분해) [6]; 이온교환 분획 다당의 단당 중 20.8–65.2% [9]",
+     "activity_ko": "울반형 다당 골격 단당으로 C-3에 황산기가 붙음 [7]", "source": [6, 7, 9]},
+    {"name": "D-Xylose", "name_ko": "자일로스", "class": "단당(오탄당)", "role": "marker", "part": "엽상체 건조물 산 가수분해물",
+     "content_text": "건조 원료 100 g당 7.6 g; 자일로스/포도당 비 약 4.2 g/g [6]; 분획 다당의 단당 중 13.0–37.1% [9]",
+     "activity_ko": "울반형 다당 골격 단당 [7]; 젖산균 균주에 따라 이용 정도가 달라 발효 수율을 좌우 [6]", "source": [6, 7, 9]},
+    {"name": "D-Glucuronic acid", "name_ko": "글루쿠론산", "class": "우론산", "role": "bioactive", "part": "엽상체 건조물 산 가수분해물",
+     "content_text": "건조 원료 100 g당 글루쿠론산 0.3 g, 글루쿠로노락톤 1.0 g [6]; 분획 다당의 우론산 1.6–9.2% [9]",
+     "activity_ko": "SPS-CF에서 L-람노스-3-황산의 O-2에 곁사슬로 붙음 [7]", "source": [6, 7, 9]},
+    {"name": "Capsofulvesin A", "name_ko": "캡소풀베신 A(갈락토실 다이아실글리세롤)", "class": "당지질", "role": "bioactive", "part": "엽상체 추출물의 헥세인·다이클로로메테인 분획 등",
+     "content_text": "함량 보고 없음(분리 동정) [12, 13]",
+     "activity_ko": "쥐 수정체 알도스 환원효소 억제 IC50 52.53 µM(효소, 혼합형 억제) [12]; 분리 화합물 1–6의 아세틸콜린에스터레이스 억제 IC50 50.90–82.83 µM(효소) [13]", "source": [12, 13]},
+    {"name": "Capsofulvesin B", "name_ko": "캡소풀베신 B", "class": "당지질", "role": "bioactive", "part": "엽상체 에탄올 추출물의 분획",
+     "content_text": "함량 보고 없음(분리 동정) [12, 13]",
+     "activity_ko": "알도스 환원효소 억제 IC50 101.92 µM(효소, 비경쟁 억제) [12]; 화합물 2–6의 부티릴콜린에스터레이스 억제 IC50 114.75–185.55 µM [13]", "source": [12, 13]},
+    {"name": "24-Methylenecholesterol", "name_ko": "칼리나스테롤(24-메틸렌콜레스테롤)", "class": "스테롤", "role": "bioactive", "part": "엽상체 에탄올 추출물의 분획",
+     "content_text": "함량 보고 없음(분리 동정) [12]",
+     "activity_ko": "알도스 환원효소 억제 IC50 345.27 µM(효소) [12]; 시판 표준품 4 µM이 간세포의 에탄올 유도 지질 축적을 줄이고, 생쥐에 37.5 µg/kg 복강 주사 시 지방간 지표 감소(세포·동물) [16]", "source": [12, 16]},
+    {"name": "Pheophorbide a", "name_ko": "페오포바이드 a", "class": "엽록소 분해물(포르피린)", "role": "bioactive", "part": "엽상체 에탄올·물 추출물의 칼럼 분획",
+     "content_text": "함량 보고 없음(HPLC-MS로 동정) [14]",
+     "activity_ko": "최종당화산물 자극 혈관내피세포에서 활성산소 소거, 단핵구 부착 억제, MCP-1·IL-6 mRNA 감소(세포) [14]", "source": [14]},
+    {"name": "Oxygen evolving enhancer protein 1", "name_ko": "산소 발생 촉진 단백질 1(OEE1)", "class": "단백질", "role": "bioactive", "part": "엽상체 아세트산나트륨(pH 6) 추출물",
+     "content_text": "분자량 33 kDa(SDS-PAGE) [15]",
+     "activity_ko": "과산화수소 소거 활성이 높고 HepG2 세포의 과산화수소 유도 활성산소 생성을 줄임(시험관·세포) [15]", "source": [15]},
+    {"name": "Glycoprotein (C. fulvescens hydrophilic glycoproteins)", "name_ko": "매생이 당단백질(Cf-GP·Cf-hGP)", "class": "당단백질", "role": "bioactive", "part": "엽상체 추출 당단백질",
+     "content_text": "함량 보고 없음 [21, 22]",
+     "activity_ko": "AGS 위암 세포 세포자멸사 유도(세포) [21]; 노화 쥐에 15 mg/kg/일 4주 경구 투여 시 공간 기억 저하 완화(동물) [22, 23]; 트립신 처리 당펩타이드를 해마에 직접 주입한 노화 쥐에서 학습·기억 개선(동물) [24]", "source": [21, 22, 23, 24]},
+    {"name": "Hot-water soluble polysaccharide (Cf-PS)", "name_ko": "열수 추출 다당(Cf-PS)", "class": "다당류(조다당)", "role": "bioactive", "part": "엽상체 열수 추출물",
+     "content_text": "함량 보고 없음 [18, 20]",
+     "activity_ko": "에탄올 유발 쥐 위 손상 완화(동물) [18]; 쥐 소장 상피세포(IEC-6) 증식 촉진(세포) [19]; AGS 위암 세포 증식 억제(세포) [20]", "source": [18, 19, 20]},
+    {"name": "Cellulose", "name_ko": "셀룰로스", "class": "구조 다당", "role": "nutrient", "part": "엽상체(세포벽)",
+     "content_text": "추출 셀룰로스 I 결정화도 81.3%, 머서화 셀룰로스 II 63.7% [33]",
+     "activity_ko": "황산 가수분해로 방추형 나노결정(셀룰로스 I: 두께 12.67±2.69 nm, 길이 92.31±21.31 nm) 제조 [33]", "source": [33]},
+    {"name": "Protein", "name_ko": "단백질(조단백, 질소×6.25)", "class": "영양 성분", "role": "nutrient", "part": "엽상체 건조물(장흥 양식)",
+     "content_text": "24.2%(건조물) [6]", "activity_ko": "탄수화물(53.4%) 다음으로 많은 성분 [6]", "source": [6]},
+    {"name": "Carbohydrate", "name_ko": "탄수화물(차감법)", "class": "영양 성분", "role": "nutrient", "part": "엽상체 건조물(장흥 양식)",
+     "content_text": "53.4%(건조물, 100 − 수분·단백질·회분·지방); 산 가수분해로 정량한 단당 합계 약 24.1% [6]", "activity_ko": "젖산 발효 탄소원으로 시험됨 [6]", "source": [6]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Monosaccharides (L-rhamnose, D-xylose, D-mannose, D-glucose, D-glucuronic acid)", "compound_ko": "구성 단당(람노스·자일로스 등)", "part": "엽상체 건조물(장흥 양식) 묽은 황산 가수분해물",
+     "content": "건조 원료 100 g당 람노스 9.8 g, 자일로스 7.6 g, 만노스 3.5 g, 포도당 1.8 g, 글루쿠로노락톤 1.0 g, 글루쿠론산 0.3 g(합계 약 24.1%) [6]",
+     "method": "HPLC-RI(굴절률 검출, 외부 검량)",
+     "conditions": {"instrument": "HPLC(굴절률 검출기)", "column": "D-만노스·D-자일로스: COSMOSIL Sugar-D(Nacalai Tesque); 유기산(젖산·아세트산): Aminex HPX-87H(Bio-Rad)",
+                    "mobile_phase": "Sugar-D: 80%(v/v) 아세토니트릴 수용액; HPX-87H: 5 mM H₂SO₄", "gradient": "", "flow": "Sugar-D 1.0 mL/min; HPX-87H 0.6 mL/min",
+                    "temp": "Sugar-D 30 °C; HPX-87H 35 °C", "detection": "굴절률(RI)", "injection": "",
+                    "sample_prep": "건조 원료 100 g + 0.5 M H₂SO₄ 1 L, 120 °C 2시간(고압멸균기) 가수분해 → CaCO₃ 중화 → 원심분리 → 0.22 µm 여과",
+                    "standard": "정품 표준물질 외부 검량", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "매생이 다당의 골격 단당(람노스·자일로스)을 이 종의 건조 원료에서 직접 정량한 연구다; 전문(Methods) 확인. 원문은 만노스·자일로스를 Sugar-D 칼럼으로 쟀다고 적었고, 람노스·포도당 등 나머지 당의 칼럼은 따로 밝히지 않았다 [6].",
+     "source": [6], "url": "https://doi.org/10.3390/microorganisms13102295", "source_kind": "paper"},
+    {"role": "literature", "compound": "Monosaccharide composition of SPS-CF (xylose, rhamnose)", "compound_ko": "울반형 다당 SPS-CF의 단당 조성", "part": "엽상체 묽은 산 추출 정제 다당(DEAE-셀룰로스 정제)",
+     "content": "자일로스 38.6–49.4 mol%, 람노스 39.6–45 mol% [7]",
+     "method": "HPLC(PMP 유도체화), HPAEC-PAD, GC-FID, TLC 병행",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "트라이플루오로아세트산(TFA) 가수분해 [7]", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "같은 다당을 처음에는 HPLC-PMP만으로 만노스 주성분(55.4 mol%)으로 보고했다가 여러 방법으로 다시 재어 자일로스·람노스 주성분으로 바로잡은 사례라, 단당 분석법을 교차 확인해야 함을 보여 준다; 초록만 봄, 전문 확인 못함 [7, 8].",
+     "source": [7, 8], "url": "https://doi.org/10.1007/s10126-015-9643-y", "source_kind": "paper"},
+    {"role": "literature", "compound": "Crude protein (N × 6.25)", "compound_ko": "조단백질", "part": "엽상체 건조물(장흥 양식)",
+     "content": "24.2% [6]", "method": "켈달법(총질소 × 6.25), 「식품공전」 일반성분 시험법",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "수분은 상압 가열 건조, 회분은 회화 중량법, 지방은 에테르 추출, 탄수화물은 차감법 [6]", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "식품원료로서 기본 품질 지표가 되는 일반성분을 「식품공전」 방법으로 잰 이 종의 자료다; 전문(Methods) 확인 [6].",
+     "source": [6], "url": "https://doi.org/10.3390/microorganisms13102295", "source_kind": "paper"},
+]
+
+orgs = [
+    {"name": "(사)정남진장흥매생이생산자협의회", "role": "cooperative", "region": "전라남도 장흥군", "url": "https://www.nfqs.go.kr",
+     "source": [2]},
+]
+
+d = {
+    "slug": "capsosiphon-fulvescens",
+    "name_ko": "매생이",
+    "name_en": "Maesaengi (Capsosiphon fulvescens; MFDS list: Seaweed fulvescens)",
+    "scientific_name": "Capsosiphon fulvescens (C.Agardh) Setchell & N.L.Gardner",
+    "aliases": ["Capsosiphon fulvescens", "Seaweed fulvescens", "Maesaengi"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "gi": [],
+    "orgs": orgs,
+    "world": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("ok", len(sources), len(compounds))
