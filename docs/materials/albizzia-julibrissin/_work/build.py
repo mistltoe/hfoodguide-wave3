@@ -1,0 +1,146 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+PM = "https://pubmed.ncbi.nlm.nih.gov/{}/"
+PMC = "https://pmc.ncbi.nlm.nih.gov/articles/{}/"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+src = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 자귀나무꽃·자귀나무잎 행(학명 'Albizzia julibrissin Durazz. / Albizia julibrissin Durazz.', 이명 계수나무, 영문 Silk tree, 사용가능, 사용가능부위 잎·꽃; 2026-10-13 받은 원자료 대조)", I1020, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)", "2026-10-13"),
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 대조 행: 계수나무·계수나무꽃(Cercidiphyllum japonicum, 사용불가), 월계수잎 등(Laurus nobilis, 이명에 '계수나무'), 자귀풀잎·줄기·뿌리(Aeschynomene indica, 제한적사용)", I1020, "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)", "2026-10-13"),
+ ("A comparison review of Hehuan flowers and Hehuan bark on the traditional applications, phytochemistry and pharmacological effects. J Ethnopharmacol 2023;303:116002 (PMID 36509253, 초록 확인)", PM.format(36509253), "Journal of Ethnopharmacology (Elsevier)", A),
+ ("Albizia julibrissin exerts anti-obesity effects by inducing the browning of 3T3L1 white adipocytes. Int J Mol Sci 2023;24(14):11496 (PMC10380714, 전문 확인)", PMC.format("PMC10380714"), "International Journal of Molecular Sciences (MDPI)", A),
+ ("Quercitrin, the primary active ingredient of Albizia julibrissin Durazz. flowers, alleviates methamphetamine-induced hepatotoxicity through a mitochondria-mediated apoptosis pathway. Front Pharmacol 2025;16:1482172 (PMC11911681, 전문 확인)", PMC.format("PMC11911681"), "Frontiers in Pharmacology", A),
+ ("Exploration of potential antidepressant active ingredients of Albiziae Flos via HS-GC-MS, chemometrics, and network pharmacology. J Anal Methods Chem 2026:2885034 (PMC12950218, 전문 확인)", PMC.format("PMC12950218"), "Journal of Analytical Methods in Chemistry (Wiley)", A),
+ ("Sedative activity of two flavonol glycosides isolated from the flowers of Albizzia julibrissin Durazz. J Ethnopharmacol 2000;71(1-2):321-3 (PMID 10904180, 초록 확인)", PM.format(10904180), "Journal of Ethnopharmacology (Elsevier)", A),
+ ("Flavonol acylglycosides from flower of Albizia julibrissin and their inhibitory effects on lipid accumulation in 3T3-L1 cells. Chem Pharm Bull 2012;60(1):129-36 (PMID 22223384, 초록 확인)", PM.format(22223384), "Chemical & Pharmaceutical Bulletin", A),
+ ("[Chemical constituents from ethyl acetate extract of flower of Albizia julibrissin]. Zhongguo Zhong Yao Za Zhi 2014;39(10):1845-51 (PMID 25282893, 영문 초록 확인)", PM.format(25282893), "China Journal of Chinese Materia Medica", A),
+ ("Effect of Albizia julibrissin water extracts on low-density lipoprotein oxidization. J Agric Food Chem 2007;55(12):4704-9 (PMID 17497875, 초록 확인)", PM.format(17497875), "Journal of Agricultural and Food Chemistry (ACS)", A),
+ ("Extraction of hyperoside and quercitrin from mimosa (Albizia julibrissin) foliage. Appl Biochem Biotechnol 2006;129-132:382-91 (PMID 16915655, 초록 확인)", PM.format(16915655), "Applied Biochemistry and Biotechnology (Springer)", A),
+ ("Identification and quantification of glycoside flavonoids in the energy crop Albizia julibrissin. Bioresour Technol 2007;98(2):429-35 (PMID 16481160, 초록 확인)", PM.format(16481160), "Bioresource Technology (Elsevier)", A),
+ ("The role of N,N,N-trimethylglycine in oviposition of Eurema mandarina on Albizia julibrissin. J Chem Ecol 2019;45(4):371-7 (PMID 30880353, 초록 확인)", PM.format(30880353), "Journal of Chemical Ecology (Springer)", A),
+ ("Polyhydroxy acids as fabaceous plant components induce oviposition of the common grass yellow butterfly, Eurema mandarina. J Chem Ecol 2023;49(1-2):67-76 (PMID 36484901, 초록 확인)", PM.format(36484901), "Journal of Chemical Ecology (Springer)", A),
+ ("Leaf-opening substance in the nyctinastic plant, Albizzia julibrissin Durazz. Biosci Biotechnol Biochem 1998;62(11):2133-7 (PMID 27393586, 초록 확인)", PM.format(27393586), "Bioscience, Biotechnology, and Biochemistry", A),
+ ("Phytochrome control of rapid nyctinastic movements and membrane permeability in Albizzia julibrissin. Planta 1967;77(2):135-41 (PMID 24522504, 초록 확인)", PM.format(24522504), "Planta (Springer)", A),
+ ("Phytochrome-controlled nyctinasty in Albizzia julibrissin: IV. Auxin effects on leaflet movement and K flux. Plant Physiol 1972;50(2):235-41 (PMID 16658148, 초록 확인)", PM.format(16658148), "Plant Physiology", A),
+ ("Five TPSs are responsible for volatile terpenoid biosynthesis in Albizia julibrissin. J Plant Physiol 2021;258-259:153358 (PMID 33453433, 초록 확인)", PM.format(33453433), "Journal of Plant Physiology (Elsevier)", A),
+ ("A multiyear estimate of the effective pollen donor pool for Albizia julibrissin. Heredity 2003;90(2):187-94 (PMID 12634826, 초록 확인)", PM.format(12634826), "Heredity (Nature)", A),
+ ("Inferring recruitment history from spatial genetic structure within populations of the colonizing tree Albizia julibrissin (Fabaceae). Mol Ecol 2008;17(12):2865-79 (PMID 18510586, 초록 확인)", PM.format(18510586), "Molecular Ecology (Wiley)", A),
+ ("Comprehensive analysis of chloroplast genome of Albizia julibrissin Durazz. (Leguminosae sp.). Planta 2021;255(1):26 (PMID 34940902, 초록 확인)", PM.format(34940902), "Planta (Springer)", A),
+ ("[Identification of albiziae cortex, albiziae flos and their adulterants using ITS2 barcoding]. Zhongguo Zhong Yao Za Zhi 2014;39(12):2164-8 (PMID 25244737, 영문 초록 확인)", PM.format(25244737), "China Journal of Chinese Materia Medica", A),
+ ("A comparative untargeted metabolomic analysis and assessment of antiplasmodial potential of nine Albizia species. Arch Pharm 2024;357(6):e2300543 (PMID 38412461, 초록 확인)", PM.format(38412461), "Archiv der Pharmazie (Wiley)", A),
+ ("An analysis study of Celastrus orbiculatus fruits (Beihehuan) for insomnia treatment and potential replacement for Albizia julibrissin flowers (Hehuanhua). Biomed Chromatogr 2026;40(3):e70370 (PMID 41587772, 초록 확인)", PM.format(41587772), "Biomedical Chromatography (Wiley)", A),
+ ("Comprehensive strategy for discovering effective ingredients of Lirianthe coco flowers (Yehehua) for anti-insomnia based on molecular networking and network pharmacology. Biomed Chromatogr 2025;39(7):e70131 (PMID 40459243, 초록 확인)", PM.format(40459243), "Biomedical Chromatography (Wiley)", A),
+ ("[Effects of NaCl stress on the seedling growth and K+- and Na+-allocation of four leguminous tree species]. Ying Yong Sheng Tai Xue Bao 2011;22(5):1155-61 (PMID 21812288, 영문 초록 확인)", PM.format(21812288), "Chinese Journal of Applied Ecology", A),
+ ("First report of Fusarium wilt disease of mimosa in Greece. Plant Dis 1999;83(6):590 (PMID 30849851, 초록 확인)", PM.format(30849851), "Plant Disease (APS)", A),
+ ("[Study on ultrasonic-surfactant extraction of total flavonoids from Albizia julibrissin flower by response surface methodology]. Zhong Yao Cai 2015;38(3):606-9 (PMID 26495664, 영문 초록 확인)", PM.format(26495664), "Journal of Chinese Medicinal Materials", A),
+ ("Impact of Baizhu, Daqingye, and Hehuanhua extracts on the human gut microbiome. Front Cell Infect Microbiol 2023;13:1298392 (PMC10740150, 초록 확인)", PMC.format("PMC10740150"), "Frontiers in Cellular and Infection Microbiology", A),
+ ("[Relationship among allergic rhinitis, regional pollens and meteorological conditions in Kunming area]. Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi 2015;50(7):560-3 (PMID 26695978, 영문 초록 확인)", PM.format(26695978), "Chinese Journal of Otorhinolaryngology Head and Neck Surgery", A),
+ ("Screening of the anticonvulsant activity of some plants from Fabaceae family in experimental seizure models in mice. Daru 2011;19(4):301-5 (PMC3304383, 초록 확인)", PMC.format("PMC3304383"), "DARU Journal of Pharmaceutical Sciences", A),
+ ("Involvement of 5-HT1A receptors in the anxiolytic-like effects of quercitrin and evidence of the involvement of the monoaminergic system. Evid Based Complement Alternat Med 2016:6530364 (PMC4889836, 초록 확인)", PMC.format("PMC4889836"), "Evidence-Based Complementary and Alternative Medicine (Hindawi)", A),
+ ("Flos Albiziae aqueous extract and its active constituent quercetin potentiate the hypnotic effect of pentobarbital via the serotonergic system. Biomed Rep 2015;3(6):835-8 (PMC4660601, 초록 확인)", PMC.format("PMC4660601"), "Biomedical Reports (Spandidos)", A),
+ ("Attenuation of brain mitochondria oxidative damage by Albizia julibrissin Durazz: neuroprotective and antiemetic effects. Drug Chem Toxicol 2019;42(2):122-9 (PMID 29250976, 초록 확인)", PM.format(29250976), "Drug and Chemical Toxicology (Taylor & Francis)", A),
+ ("FloraKorea — Albizia julibrissin Durazz. 자귀나무(usage: accepted) — WebSearch 검색 요약으로만 확인, 페이지는 네트워크 허용 목록 밖이라 열지 못함", "https://florakorea.myspecies.info/en/taxonomy/term/5248", "FloraKorea (Scratchpads)", A),
+ ("Calcium-induced patterns of calcium-oxalate crystals in isolated leaflets of Gleditsia triacanthos L. and Albizia julibrissin Durazz. Planta 1985;165(3):301-10 (PMID 24241134, 초록 확인)", PM.format(24241134), "Planta (Springer)", A),
+]
+sources = [{"n": i+1, "title": t, "url": u, "publisher": p, "accessed": a} for i,(t,u,p,a) in enumerate(src)]
+
+S = {}
+S["overview"] = ("개요", """자귀나무는 콩과(Leguminosae)의 나무로, 중국에서는 합환(合歡)이라 부르고 꽃(합환화)과 나무껍질(합환피)을 따로 약재로 써 왔다[3, 21]. 식약처 「식품원료 목록」에는 '자귀나무꽃'과 '자귀나무잎' 두 행이 식품원료(A코드)로 실려 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 잎, 꽃'이다[1]. 목록의 학명 칸은 'Albizzia julibrissin Durazz. / Albizia julibrissin Durazz.'로 두 철자를 함께 적으며, 이 자료는 목록 키(Albizzia)를 slug에 그대로 두고 본문에서는 FloraKorea가 인정명으로 적는 Albizia 철자를 쓴다[1, 35]. 같은 목록에서 '합환' 이름이 들어간 행이나 나무껍질·줄기 행은 확인하지 못함.
+
+꽃에는 퀘르시트린(quercitrin) 같은 플라보놀 배당체가 많고, 꽃 추출물 에틸아세테이트 분획에서는 퀘르시트린이 피크 면적의 55%를 차지했다[5, 7]. 잎 열수 추출물도 퀘르시트린이 주성분(추출물의 1.49%)이었다[4]. 꽃 추출물의 수면 보조(생쥐)·구토 억제(병아리) 결과와 퀘르시트린의 항불안 유사 효과(생쥐)는 모두 동물·세포 실험이다[32–34]. 사람에게서의 효과는 확인하지 못함.""")
+S["history"] = ("역사·이용", """한 종설은 중국 문헌을 바탕으로 합환의 약용 역사가 서기 25년까지 거슬러 올라가고 다른 아시아 나라에서도 약으로 썼다고 정리했다[3]. 같은 종설에 따르면 합환피와 합환화는 중국약전에 따로 실려 있고, 불안·우울·불면·타박상 등에 쓰였다[3]. 합환화는 맑은 여름날 핀 꽃차례를 따서 바로 말린 것이고, 꽃봉오리 때 딴 것은 '합환미(合歡米)'라 부르며 쓰임은 비슷하다고 한 논문이 적었다[6].
+
+한국 원광대 연구진은 2000년에 꽃이 동양 전통의학에서 진정제로 쓰인다고 쓰고, 꽃에서 퀘르시트린과 이소퀘르시트린을 분리했다[7]. 중국 북부에서는 노박덩굴(Celastrus orbiculatus) 열매가, 광둥에서는 Lirianthe coco 꽃이 합환화 대용으로 쓰인다는 보고가 있다[24, 25]. 미국 아칸소 연구진은 2006년 무렵 '미모사(mimosa)'라는 이름의 이 나무를 에너지 작물 후보로 보고 잎 플라보노이드를 함께 뽑아 쓰는 방법을 연구했다[11, 12]. 한국에서 꽃·잎을 음식으로 먹어 온 기록은 확인하지 못함.""")
+S["biology"] = ("식물학적 특징", """자귀나무는 밤이 되면 작은잎(pinnule)이 접히는 수면 운동(취면 운동)으로 오래 연구된 식물이다[16, 17]. 이 운동은 피토크롬이 조절하며, 해 지기 전 적색광은 밤의 잎 닫힘을 돕고 원적색광은 막는다[16]. 작은잎 밑 운동세포의 칼륨 이동이 잎 각도를 바꾸며 옥신이 일부 단계에 관여한다[17]. 잎에서는 잎을 여는 물질로 cis-p-쿠마로일아그마틴이 분리되었다[15].
+
+꽃은 여러 송이가 뭉친 두상 꽃차례이고[6], 꽃향기의 주성분은 테르페노이드다[18]. 곤충이 꽃가루를 옮기는 타가수정 나무다[19]. 정상 작은잎에서 옥살산칼슘 결정은 잎맥을 둘러싼 유관속초 세포에만 있었다[36]. 일본에서는 노랑나비류 Eurema mandarina의 주 기주식물이며, 생잎의 D-피니톨과 글리신베타인이 산란을 유도한다[13, 14].""")
+S["related_species"] = ("관련 종·혼동 주의", """식약처 목록에서 자귀나무의 이명은 '계수나무'로 적혀 있지만, 같은 목록에서 '계수나무'·'계수나무꽃'은 별개 식물 Cercidiphyllum japonicum의 행이며 상태가 '사용불가'다[1, 2]. 월계수(Laurus nobilis) 행의 이명에도 '계수나무'가 있어, 이름만으로 원료를 고르면 다른 식물과 섞일 수 있다[2]. 이름이 비슷한 자귀풀(Aeschynomene indica)은 다른 콩과 식물로 목록 상태가 '제한적사용'이다[2].
+
+엽록체 유전체 계통수에서 자귀나무는 Albizia odoratissima·Albizia bracteata와 가장 가깝고 그다음이 Samanea saman이었다[21]. 자귀나무를 포함한 Albizia 9종의 잎 대사체 비교에서 종마다 다른 플라보노이드 배당체가 확인되어 종 구분 지표로 제안되었다[23]. 합환화 대용으로 쓰이는 노박덩굴 열매와 Lirianthe coco 꽃은 속이 다른 식물이므로 이들 자료를 자귀나무 꽃 자료로 옮기지 않는다[24, 25]. 시장의 합환피·합환화와 위품은 ITS2 바코드로 100% 구별되었다[22].""")
+S["cultivation"] = ("재배·생태", """자귀나무는 아시아에서 오래 관상수로 심어 온 나무이고, 그리스에서는 도시 환경에서도 잘 자라 가로수 길을 만드는 데 쓰였다[18, 27]. 미국 조지아주 연구는 이 종을 '잡초성 정착 나무(colonizing tree)'로 다루었고, 개체군의 공간 유전 구조는 처음 정착한 개체 수와 이웃 종자원에 따라 정해졌다[20]. 미국 아칸소 연구진은 생장량이 커서 에너지 작물 후보로 보았다[11].
+
+염분 내성은 함께 시험한 콩과 나무 4종 가운데 가장 약했고, 생장이 반으로 주는 NaCl 농도(C50)는 3.0‰이었다[26]. 그리스 테살로니키에서는 1991년 Fusarium oxysporum에 의한 시들음병이 나타나 조사한 1,520그루 가운데 85그루(5.6%)가 이미 죽어 있었고, 이 병은 1936년 미국 노스캐롤라이나에서 처음 보고되었다[27]. 국내 재배 면적·생산량 통계는 확인하지 못함.""")
+S["processing"] = ("가공·추출", """중국 약재 합환화는 꽃차례 또는 꽃봉오리를 말린 것으로, 낱꽃은 길이 0.7–1 cm에 연노랑~황갈색이고 냄새가 은은하다[6]. 잎(foliage)을 50 °C 물로 추출하면 하이페로사이드 2.227 mg/g과 퀘르시트린 8.134 mg/g을 얻어 60% 메탄올 추출과 비슷했다[10]. 잎 20 g을 물 320 mL로 100 °C에서 3시간 추출해 동결건조하면 수율 13.97%의 갈색 가루가 되었다[4].
+
+꽃 총플라보노이드는 2.5% SDS가 든 60% 에탄올(15배량)로 31분 초음파 추출할 때 추출률 0.853%로 가장 높았고, 초음파만 쓸 때보다 93.0% 늘었다[28]. 꽃 70–80% 에탄올 추출물은 석유에테르·에틸아세테이트·n-부탄올로 나누어지며, 에틸아세테이트 분획에서 퀘르시트린을 약 95% 순도로 분리했다[5]. 국내 건강기능식품·식품 제품 생산실적에서 자귀나무 원료는 확인하지 못함.""")
+S["genetics"] = ("유전·분자", """자귀나무 엽록체 유전체는 175,922 bp로, 큰 단일복사 부위 91,323 bp, 작은 단일복사 부위 5,145 bp, 역반복 부위 39,725 bp 두 개로 이루어진다[21]. 고유 유전자 93개와 비암호 RNA 34개가 있고 GC 함량은 36.9%, 단순반복서열(SSR)은 149개였다[21]. 핵 rDNA ITS2 바코드는 종 내 유전 거리가 위품과의 거리보다 작아 합환피·합환화와 위품을 BLAST로 100% 판별했다[22].
+
+전사체 분석에서 테르펜 합성효소 유전자 11개가 찾아졌고, 그중 5개(AjTPS2·5·7·9·10)가 기능을 보였다[18]. AjTPS10은 리날로올, AjTPS7은 β-오시멘을 단일 산물로 만들었고, 이들 효소 산물은 실제 꽃향기 성분과 맞았다[18]. 15그루에서 나온 실생묘의 유전자형을 4년 연속 분석한 연구에서 한 나무의 유효 꽃가루 공여 개체 수는 2.87, 한 해 자료만 쓰면 약 2.05로 추정되었다[19]. 미국 조지아주 6개 개체군 1,385개체를 11개 효소다형(allozyme) 좌위로 본 연구는 창시 개체가 하나인 개체군이 서로 가까운 친척으로 이루어졌다고 보고했다[20]. 핵 유전체 해독 결과는 확인하지 못함.""")
+S["safety"] = ("안전성", """식약처 목록에서 식품에 쓸 수 있는 부위는 잎과 꽃뿐이다[1]. 약재로 쓰이는 나무껍질(합환피)은 목록에서 따로 확인하지 못함. 이명 '계수나무'로 원료를 고르면 사용불가인 Cercidiphyllum japonicum과 혼동될 수 있어 학명 확인이 필요하다[1, 2].
+
+사람을 대상으로 한 섭취 안전성 시험·부작용 보고는 확인하지 못함. 잎·꽃·전초 물 추출물은 Vero 76 세포에 독성이 없었고, 잎 열수 추출물은 3T3-L1 세포에서 50 μg/mL까지 세포독성이 없었다[4, 10]. 반면 꽃 알코올 추출물의 석유에테르·n-부탄올·물 분획은 10–200 μg/mL에서 사람 간세포 생존율을 낮췄다[5]. 생쥐 복강 투여 선별 시험에서 잎 수알코올 추출물은 '독성이 낮고 항경련 효과가 있는' 추출물에 들지 않았다[31].
+
+체외 장내세균 발효 실험에서 합환화 추출물은 일부 세균을 늘렸고, 연구진은 시험 용량이 일부 사람에게 맞지 않을 수 있다고 적었다[29]. 중국 쿤밍에서는 자귀나무 꽃가루 수가 알레르기 비염 피부반응 양성자 수와 양의 상관을 보였다[30]. 임신·수유 중 섭취 안전성은 확인하지 못함.""")
+order = ["overview","history","biology","related_species","cultivation","processing","genetics","safety"]
+sections = [{"key": k, "title": S[k][0], "body": S[k][1]} for k in order]
+
+C = []
+def c(name, ko, cls, role, part, content, act, s): C.append(dict(name=name, name_ko=ko, **{"class": cls}, role=role, part=part, content_text=content, activity_ko=act, source=s))
+c("Quercitrin","퀘르시트린(퀘르세틴-3-O-람노사이드)","플라보놀 배당체","marker","잎; 꽃",
+  "잎 열수 추출물의 1.49%(HPLC)[4]; 잎 건물 기준 0.90%[11]; 잎 50 °C 물 추출 8.134 mg/g[10]; 꽃 에틸아세테이트 분획 피크 면적 55%(UPLC-MS/MS)[5]",
+  "꽃·잎의 주 플라보노이드; 생쥐 진정(펜토바르비탈 수면 연장)[7], 항불안 유사 효과[32], 간손상 완화(생쥐)[5] — 모두 동물·세포 결과", [4,5,7,10,11,32])
+c("Hyperoside","하이페로사이드(퀘르세틴-3-O-갈락토사이드)","플라보놀 배당체","bioactive","잎; 꽃",
+  "잎 열수 추출물의 0.14%[4]; 잎 건물 기준 0.83%[11]; 잎 50 °C 물 추출 2.227 mg/g[10]; 꽃 에틸아세테이트 분획 피크 면적 3%[5]",
+  "잎 메탄올 추출물의 항산화(ORAC) 성분으로 확인[12]", [4,5,10,11,12])
+c("Afzelin","아프젤린(캠페롤-3-O-람노사이드)","플라보놀 배당체","bioactive","잎; 꽃",
+  "잎 열수 추출물의 0.21%[4]; 꽃 에틸아세테이트 분획 피크 면적 6%[5]",
+  "잎 추출물 HPLC 프로파일의 세 주요 피크 가운데 하나[4]", [4,5])
+c("Isoquercitrin","이소퀘르시트린","플라보놀 배당체","bioactive","꽃",
+  "정량값 없음(꽃에서 분리)[7]",
+  "생쥐에서 펜토바르비탈 수면 시간을 용량 의존적으로 늘림[7]", [7])
+c("Myricitrin","미리시트린","플라보놀 배당체","bioactive","꽃",
+  "꽃 에틸아세테이트 분획 피크 면적 3%(UPLC-MS/MS)[5]",
+  "꽃 분획에서 확인된 8성분 가운데 하나[5]", [5])
+c("3''-(E)-Feruloylquercitrin","3″-(E)-페룰로일퀘르시트린","플라보놀 아실배당체","bioactive","꽃",
+  "정량값 없음(꽃 90% 에탄올 추출물에서 새로 분리)[8]",
+  "3T3-L1 세포에서 중성지방 축적·GPDH 활성 억제 — 세포 결과[8]", [8])
+c("(Z)-Linalool oxide","(Z)-리날로올 옥사이드","모노테르펜 산화물(휘발 성분)","marker","꽃(합환화)",
+  "HS-GC-MS 상대 피크 면적 19.34±7.61%(저장성)–29.18±7.73%(안후이성)[6]",
+  "합환화 휘발 성분 가운데 가장 많은 축; 항우울 관련성은 분자 도킹 예측뿐[6]", [6])
+c("(E)-Linalool oxide","(E)-리날로올 옥사이드","모노테르펜 산화물(휘발 성분)","bioactive","꽃(합환화)",
+  "HS-GC-MS 상대 피크 면적 23.75±6.71%(저장성)–28.01±5.36%(장쑤성)[6]",
+  "16개 배치 공통 성분[6]", [6])
+c("Linalool","리날로올","모노테르펜","bioactive","꽃",
+  "정량값 없음[18]",
+  "꽃향기 성분; AjTPS10 효소가 단일 산물로 생성[18]", [18])
+c("Formononetin","포르모노네틴","이소플라본","bioactive","꽃",
+  "정량값 없음(꽃 에틸아세테이트 추출물 29성분 가운데 하나)[9]",
+  "이 종에서 처음 보고된 성분으로 기재[9]", [9])
+c("Betaine","글리신베타인(N,N,N-트리메틸글리신)","4급 암모늄 화합물","bioactive","생잎",
+  "생잎 평균 0.012% w/w(HPLC)[13]",
+  "Eurema mandarina 나비의 산란 자극 물질[13]", [13])
+c("D-Pinitol","D-피니톨","사이클리톨","bioactive","생잎",
+  "정량값 없음[13, 14]",
+  "Eurema mandarina 산란 자극 물질(글리신베타인과 함께)[13, 14]", [13,14])
+c("cis-p-Coumaroylagmatine","cis-p-쿠마로일아그마틴","페놀산 아마이드","bioactive","잎",
+  "정량값 없음; 하루 중 함량은 거의 일정[15]",
+  "밤에 5×10⁻⁶ M에서 자귀나무 잎을 여는 물질[15]", [15])
+c("Flavonoids (total)","총플라보노이드","플라보노이드 총량","bioactive","꽃",
+  "초음파-계면활성제 추출 최적 조건에서 추출률 0.853%[28]",
+  "꽃 추출 공정 평가 지표[28]", [28])
+
+assays = [
+ {"role":"literature","compound":"Quercitrin (afzelin, hyperoside 동시 분석)","compound_ko":"퀘르시트린(아프젤린·하이페로사이드 동시)","part":"잎(제주산) 열수 추출물",
+  "content":"추출물 중 퀘르시트린 1.49%, 아프젤린 0.21%, 하이페로사이드 0.14%[4]","method":"HPLC-PDA",
+  "conditions":{"instrument":"Waters 2695 Separation module + Waters 996 PDA","column":"Phenomenex Luna C18 (4.6 × 250 mm, 5 μm)","mobile_phase":"A: 0.1% 트리플루오로아세트산 수용액, B: 아세토니트릴","gradient":"0–10분 A 90%; 10–20분 A 90→80%; 20–35분 A 80→70%; 35–45분 A 80→0%(원문 그대로); 45–55분 A 0%","flow":"1.0 mL/min","temp":"실온(RT)","detection":"254 nm","injection":"10 μL","sample_prep":"잎 20 g을 물 320 mL로 100 °C 3시간 추출·여과·동결건조(수율 13.97%) 후 5 mg/mL로 조제","standard":"퀘르시트린 47 µg/mL, 하이페로사이드 6 µg/mL, 아프젤린 10 µg/mL 표준 원액(머무름 시간·UV 스펙트럼·공동 크로마토그래피로 확인)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"잎 추출물 HPLC의 주 피크가 퀘르시트린이어서 잎 원료의 지표 성분으로 쓸 수 있다(전문 확인; 검량선·검출한계·회수율은 원문에 없음)[4]","source":[4],"url":"https://doi.org/10.3390/ijms241411496","source_kind":"paper"},
+ {"role":"literature","compound":"(Z)-/(E)-Linalool oxide (volatile fingerprint)","compound_ko":"리날로올 옥사이드(휘발 성분 지문)","part":"꽃(합환화, 시판 건조 꽃 16배치)",
+  "content":"(Z)-형 19.34–29.18%, (E)-형 23.75–28.01%(산지별 평균 상대 피크 면적)[6]","method":"HS-GC-MS",
+  "conditions":{"instrument":"Shimadzu TQ8040 GC-MS, 헤드스페이스 주입","column":"Agilent DB-17MS (30 m × 0.25 mm, 0.25 μm)","mobile_phase":"헬륨(순도 > 99.999%)","gradient":"40 °C에서 5 °C/min로 100 °C, 20 °C/min로 240 °C까지 올려 5분 유지","flow":"1.0 mL/min","temp":"주입구 250 °C(분할비 10:1); EI 이온원 250 °C","detection":"EI 70 eV, m/z 45–500 전체 주사, 용매 지연 3분; NIST14 라이브러리 대조(유사도 > 80%)","injection":"헤드스페이스 1 mL; 배양 130 °C 25분, 정량 루프 140 °C, 교반 250 rpm","sample_prep":"꽃 가루(80메시) 1.6 g을 20 mL 헤드스페이스 병에","standard":"산화 리날로올 혼합물 표준품(GC 순도 ≥ 97%)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"16배치 공통 17성분 가운데 상대 함량이 가장 높아 합환화 휘발 성분 품질 평가의 기준으로 쓰였다(면적 정규화 상대값이며 절대 함량 아님, 전문 확인)[6]","source":[6],"url":"https://doi.org/10.1155/jamc/2885034","source_kind":"paper"},
+ {"role":"literature","compound":"Quercitrin","compound_ko":"퀘르시트린","part":"꽃(합환화) 70–80% 에탄올 추출물의 에틸아세테이트 분획",
+  "content":"분획 총 피크 면적의 55%(8성분 중 최대)[5]","method":"UPLC-MS/MS(정성·면적비); 분리물 순도는 HPLC",
+  "conditions":{"instrument":"Agilent 1260 HPLC(분리물 순도 확인); UPLC-고분해능 질량분석기","column":"","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"HR-ESI-MS m/z 449.1059 [M+H]+ (계산값 449.1078)","injection":"","sample_prep":"건조 꽃 2 kg을 70–80% 에탄올에 3–4일 침지(3–4회 반복) → 감압 농축 → 석유에테르·에틸아세테이트·n-부탄올 분배 → 실리카겔 칼럼(클로로포름-메탄올 20:1~2:1)","standard":"퀘르시트린 표준품(TLC·머무름 시간 대조)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"꽃 활성 분획의 최대 성분이어서 꽃의 주 활성 성분으로 제시되었다; 칼럼·이동상 조건은 전문에 적혀 있지 않음[5]","source":[5],"url":"https://doi.org/10.3389/fphar.2025.1482172","source_kind":"paper"},
+]
+
+d = {
+ "slug":"albizzia-julibrissin","name_ko":"자귀나무","name_en":"Silk tree (Persian silk tree, mimosa)",
+ "scientific_name":"Albizia julibrissin Durazz. (식약처 목록 표기 'Albizzia julibrissin Durazz. / Albizia julibrissin Durazz.')",
+ "aliases":["자귀나무꽃","자귀나무잎","합환(合歡)","합환화(Albiziae Flos)","Albizzia julibrissin","mimosa","silk tree"],
+ "sections":sections,"compounds":C,"markers":[],"nutrients":[],"assays":assays,
+ "production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))
+print(len(sources))

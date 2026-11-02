@@ -1,0 +1,21 @@
+{"slug": "cynoglossus-semilaevis", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 67, "checked_items": 49,
+ "verified": 102, "fixed": 6, "removed": 8, "unverifiable": 0,
+ "changes": [
+  {"where": "sections.overview", "before": "바닥에 사는 대형 어종으로 동북아시아 연안에 분포하며", "after": "난온대 바다의 바닥에 사는 대형 어종으로 동북아시아에 분포하며", "why": "[6] 전문은 'large benthic fish ... warm temperate', [5] 전문은 'distributed in northeast Asia'라고만 씀('연안' 없음)"},
+  {"where": "sections.overview", "before": "국내에서는 주로 서해안과 남해 서부 연안에 분포한다고 기록된 국내 논문이 있으나, 원문을 열지 못해 검색 요약으로만 확인했다[25].", "after": "(삭제)", "why": "[25] 은 WebSearch 요약뿐이고 원문(koreascience)이 네트워크 허용 목록 밖이라 대조 불가, 논문 제목·저자도 특정되지 않음"},
+  {"where": "sections.overview / sections.safety", "before": "이 원료는 건강기능식품 고시형 원료(의 원재료)가 아니어서 고시 지표성분/섭취 시 주의사항은 없다[1].", "after": "건강기능식품 고시형 원료로는 이번 조사에서 확인하지 못해 … 적지 않는다.", "why": "[1](식품원료 목록 I1020)은 건강기능식품 고시 여부를 말하지 않음 — 출처 불일치"},
+  {"where": "sections.history", "before": "국내에서는 1990년대 참서대과 분포 연구와 … 2012년 연구가 있으나, … 검색 요약으로만 확인했다[24, 25].", "after": "국내 연안의 분포·성숙·산란 연구는 원문을 열지 못해 이번 조사에서 확인하지 못함.", "why": "[24][25] 검색 요약 출처 — 원문 대조 불가"},
+  {"where": "sections.biology", "before": "박대는 온대 바다의 바닥에 사는", "after": "박대는 난온대 바다의 바닥에 사는", "why": "[6] 'warm temperate marine environments'"},
+  {"where": "sections.biology", "before": "국내 서해 개체를 조사한 연구에서 암컷의 생물학적 최소형은 전장 46.87 cm였다는 내용은 검색 요약으로만 확인했다[24].", "after": "(삭제)", "why": "구체 수치가 검색 요약에만 기댐 — 원문 대조 불가"},
+  {"where": "sections.related_species", "before": "참서대과 어류는 겉모습이 비슷해 … 다중 PCR 판별법이 국내에서 개발되었고 박대도 대상에 들어 있다는 내용은 검색 요약으로만 확인했다[26].", "after": "참서대과 어류의 국내 유통 어종 판별(유전자 판별법) 연구는 원문을 열지 못해 이번 조사에서 확인하지 못함.", "why": "[26] 검색 요약 출처 — 박대 포함 여부 대조 불가"},
+  {"where": "sources", "before": "[24] [25] [26] koreascience 검색 요약 출처", "after": "삭제, [27]–[30] → [24]–[27] 재번호", "why": "원문 미확인 출처를 근거로 남기지 않음"},
+  {"where": "sources[9].publisher", "before": "Marine Genomics, 2012", "after": "Marine Genomics 9:17-23, 2013(온라인 2012)", "why": "PubMed 서지(PMID 23904060) 권·쪽 보강"},
+  {"where": "aliases", "before": "Tongue sole", "after": "(삭제)", "why": "참서대과 여러 종(예: C. bilineatus, 새 [26])에 함께 쓰는 일반명이라 근연종 자료 섞임 위험"},
+  {"where": "compounds[Pyroglutamic acid].part", "before": "근육(12–15개월령 양식어)", "after": "근육(양식어)", "why": "[5] Methods 2.7 대사체 시료의 월령이 적혀 있지 않음(12 mph 는 영양성분 시료)"}
+ ],
+ "unverifiable_notes": [
+  "koreascience·doi.org 가 네트워크 허용 목록 밖이라 국내 논문(옛 [24]–[26])을 대조하지 못해 해당 문장은 삭제하거나 '확인하지 못함'으로 바꿈",
+  "[7] 설파모노메톡신 논문은 PubMed 초록만 확인(전문 없음) — 수치는 초록과 일치",
+  "[5]·[6] 은 PubMed 도구로 PMC 전문 대조, [1] 은 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 원 행으로 대조(박대·같은 속 6종·세네갈개서대·Bengal tongue sole·흑대기·각시서대·노랑각시서대 모두 일치)"
+ ]}

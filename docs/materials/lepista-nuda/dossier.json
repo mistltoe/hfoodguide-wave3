@@ -1,0 +1,571 @@
+{
+ "slug": "lepista-nuda",
+ "name_ko": "민자주방망이버섯",
+ "name_en": "Blewit",
+ "scientific_name": "Lepista nuda (Bull. ex Fr.) Cooke",
+ "aliases": [
+  "Lepista nuda",
+  "Clitocybe nuda",
+  "blewit"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "민자주방망이버섯(Lepista nuda)은 송이버섯과(Tricholomataceae)의 식용버섯으로, 해외 논문에서는 Clitocybe nuda라는 이름으로도 쓰이고 영어로는 blewit이라 불린다[8, 11]. 식품의약품안전처 「식품원료 목록」에는 원료명 '민자주방망이버섯', 학명 'Lepista nuda (Bull. ex fr.) Cooke'로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. 따라서 일반 식품의 원료로는 자실체(버섯 몸체)만 쓸 수 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어, 고시된 지표성분과 기준은 확인하지 못함.\n\n같은 목록에는 같은 속의 자주방망이버섯아재비(L. sordida)와 광릉자주방망이버섯(L. irina)이 별도 원료로 올라 있으며, 이 문서는 그 종들의 자료를 섞지 않는다[2]. 자실체는 단백질이 건조중 100 g당 22.29 g으로 함께 분석한 9종 가운데 가장 높았고, 트레할로스가 주된 당이었다[5]. 연구는 다당류(LNP)의 항산화·면역 작용, 추출물의 혈당·지질 개선(쥐), 효소(락카아제·단백질분해효소), 중금속 축적에 모여 있다[9–12, 14, 15, 23]. 사람 대상 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "이 종은 Lepista속과 Clitocybe속 사이를 오가며 분류되어, 일부 논문은 Clitocybe nuda[11, 18], 다른 논문은 Lepista nuda[19, 23]라는 이름을 쓴다. 학명 어원과 명명 경위는 확인하지 못함. 모로코 연구는 이 버섯이 특유의 향과 부드러운 조직 때문에 프랑스·네덜란드·영국·대만 등에서 재배되어 왔다고 소개했다[6].\n\n포르투갈·스페인·폴란드·튀르키예의 야생 버섯 성분·원소 조사에 이 종이 포함되었다[7, 23, 28, 29]. 일본 후쿠시마현 연구는 이 버섯이 잿빛만가닥버섯과 함께 기름에 조리한 요리(fried dishes)와 국물 요리에 널리 쓰이며, 원전 사고 전 후쿠시마 버섯 산업을 크게 떠받쳤다고 적었다[4]. 국내 교배·재배 연구가 한국버섯학회지에 실린 것으로 검색되나 원문을 열지 못해 내용은 확인하지 못함. 국내 전통 식용·약용 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "민자주방망이버섯은 담자균문 주름버섯목 송이버섯과의 버섯이다[6]. 갓·주름 색 등 형태 기재 원문은 확인하지 못함. 낙엽을 분해하는 부생균으로[4], 활엽수림과 혼합림에 나며 유럽·북아메리카·아시아·오스트레일리아에 널리 분포한다고 보고되었다[6]. 국내 발생 시기·생태에 대한 원문 자료는 확인하지 못함.\n\n참나무 낙엽에서 자라는 암모니아 균류 조사에서 이 종의 주된 페놀 산화효소는 락카아제였다[33]. 균주 LN07에서는 제1형 구리(type I copper)가 없는 분자량 56 kDa의 '흰색 락카아제'가 정제되었고, 최적 조건은 pH 3.0·50 ℃였다[14]. 건조 자실체에서는 20.9 kDa의 새로운 금속단백질분해효소가 분리되었다[15]. 균사의 생장 최적 온도는 24 ℃ 정도로 인용되었다[4]. 영하 70 ℃에서 6개월 보관한 뒤에도 균사가 되살아난 몇 안 되는 균주 가운데 하나였다[34]. 인도 카슈미르 연구는 이 종을 침엽수 묘목에 접종하는 외생균근균 후보로 다루었으나, 다른 문헌의 부생균 서술과 차이가 있다[37, 4]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "같은 Lepista속의 자주방망이버섯아재비(L. sordida)와 광릉자주방망이버섯(L. irina)은 식약처 목록에 따로 '사용가능' 원료로 올라 있다[2]. 두 종은 별개 원료이므로 그 연구 결과를 민자주방망이버섯의 자료로 옮겨 쓰지 않는다[2]. 이름이 비슷한 Clitocybe속 가운데 하늘색깔대기버섯(C. odora)은 '사용가능'이지만, 깔때기버섯(C. infundibuliformis)·배불뚝이깔때기버섯(C. clavipes)·비단빛깔때기버섯(C. candicans)은 '사용불가'로 되어 있다[2].\n\n이 종은 문헌에 따라 Clitocybe nuda로 적히므로, Clitocybe로 검색하면 식품원료로 쓸 수 없는 다른 Clitocybe 종의 자료가 섞일 수 있다[11, 2]. 질산염 조사에서는 같은 속의 L. personata·L. irina, 그리고 Clitocybe nebularis·C. odora가 민자주방망이버섯과 함께 질산염 축적종으로 묶였다[27]. 폴란드 조사에서는 L. nuda·L. personata·Paralepista gilva 등 송이버섯과 버섯이 여러 원소를 많이 축적하는 무리로 나타났다[28]. 보라색 버섯 가운데 이 종과 헷갈리기 쉬운 독버섯에 대한 공공기관 안내는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 채취",
+   "body": "일본 후쿠시마현 14개 활엽수림에서 한 야외 균상 재배 시험에서는 바크 퇴비와 겨(bran)를 10:2로 섞어 접종한 시판 균상(12 × 20 × 13 cm)을 표토 위에 놓고 부엽토로 덮었다[4]. 균상은 2024년 7월 23일–8월 1일에 놓았고, 자실체는 11월 7–21일에 거두어 재배 기간은 102–118일이었으며 물과 비료는 따로 주지 않았다[4].\n\n국내에서도 볏짚 발효배지 상자 재배와 교배 육종 연구가 있는 것으로 검색되나, 원문을 열지 못해 재배 조건·기간 수치는 확인하지 못함. 중국 동북부 8개 집단 72개 시료는 유전 변이가 컸다[19]. 육종에 쓰는 단핵균주의 교배형을 빨리 가리는 SCAR 표지도 개발되었다[22]. 통계청·농림축산식품부 생산 통계에는 이 버섯이 따로 집계되지 않아 국내 재배 면적·생산량은 확인하지 못함[3]. 야생 채취 시기·지역에 대한 국내 공공기관 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "후쿠시마 연구는 이 버섯이 기름에 조리한 요리(fried dishes)와 국물 요리에 널리 쓰인다고 적었다[4]. 60% 메탄올 추출물은 항균 활성을 보였고[36], 물 추출물은 생쥐 골수 유래 수지상세포의 성숙을 유도했다(세포 실험)[13]. 이 버섯을 포함한 트러플·버섯 7종의 생것과 냉동·통조림 가공품을 비교한 스페인 연구에서, 냉동은 라디칼 소거 활성이 조금 줄었지만 생것과 유의한 차이가 없었고 통조림은 항산화 활성을 일부 잃었다(초록은 7종을 묶어 서술해 이 종만의 결과는 확인하지 못함)[31]. 생것의 트롤록스 환산 항산화 능력 순위에서 이 종은 7종 가운데 여섯 번째였다[31].\n\n자실체 다당류(LNP)는 반응표면법으로 추출 조건을 최적화하고 D301 수지로 탈색한 뒤 DEAE 셀룰로스·Sephadex G-150으로 LNP-1(11,703 Da)·LNP-2(13,369 Da)를 얻었다[9]. 다른 연구의 LNP-1·LNP-2는 분자량 16,263 Da·17,730 Da이고 푸코스·만노스·포도당·갈락토스로 이루어졌다[10]. 균주 LN07에서 얻은 락카아제는 여러 실험·섬유 염료를 탈색했고, HIV-1 역전사효소를 반수억제농도 0.65 μM로 억제했다(시험관)[14]. 균사 배양 여과액은 고추 역병균의 유주자 발아를 억제하는 성분을 냈다[18]. 국내 가공품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "중국 동북부 8개 집단의 72개 시료를 ISSR·SRAP 표지로 분석한 결과 다형성 비율이 94.4%로 유전 변이가 컸지만 집단 사이 유전자 흐름은 적었고, 유전 거리와 지리 거리는 유의한 상관이 없었다[19]. RAD 시퀀싱으로 두 채집품에서 712개의 단일염기다형성(SNP)을 찾았으며, 당시에는 참조 유전체가 없었다[20].\n\nA 교배형 유전자좌에는 호메오도메인 전사인자 유전자 lna1·lna2가 있고, 그 주변 유전자 순서(mip–lna2–lna1–β-fg)가 다른 식용버섯과 달랐다[21]. 원형질체 단핵균주 115개는 A1B1 또는 A2B2 교배형으로 나뉘었고, 이를 가리는 SCAR 프라이머 16개와 다중 PCR이 개발되었다[22]. 세스퀴테르펜 합성효소 유전자도 효모에서 발현해 기능을 확인한 연구가 있다[32]. 전장 유전체 해독 결과는 이 문서의 출처에서 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 민자주방망이버섯은 자실체에 한해 '사용가능'이다[1]. 날것으로 먹었을 때의 위장장애 등은 공공기관·논문 근거를 확인하지 못함. 국내 공공기관의 알레르기·잔류농약 정보는 확인하지 못함.\n\n야생 자실체는 서식지에 따라 중금속을 많이 축적할 수 있다[23, 25, 26]. 스페인 루고 지방 야생 시료의 수은은 건조중 kg당 자실층 5.1 mg·나머지 3.1 mg으로 조사 28종 가운데 높은 편이어서, 연구진은 적게 먹을 것을 권했다[23]. 같은 지역의 납은 2.5·2.3 mg/kg 건조중이었지만 모든 종이 납을 토양보다 덜 농축해(BCF < 1) 독성 위험은 아니라고 보았다[24]. 체코 납 제련소 주변에서는 납을 크게 축적했고 수은 평균 11.9 mg/kg·구리 평균 193 mg/kg 건조중이었으며, 슬로바키아 구리 제련소 주변에서는 수은 평균 84.7 mg/kg 건조중이었다[26, 25]. 그래서 제련소 주변 버섯은 먹지 말라고 결론지었다[25]. 질산염 축적종으로도 분류되었다[27]. 후쿠시마 재배 자실체의 세슘-137은 0.2–42 Bq/kg(수분 90% 기준)으로 모두 일본 기준 100 Bq/kg 아래였다[4]. 사람 림프구 시험에서 추출물은 염색체 이상·소핵을 늘리지 않았다[30]. 초파리 먹이 시험에서는 추출물이 수명과 산란을 줄였다[35]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "4-Hydroxybenzoic acid",
+   "name_ko": "p-하이드록시벤조산",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "자실체(모로코 야생, 건조)",
+   "content_text": "587.90 µg/g 건조중(HPLC-MS로 정량한 13종 페놀 화합물 가운데 최다)[6]",
+   "activity_ko": "단일 성분 활성은 이 논문에서 시험하지 않음 — 메탄올 추출물의 항산화 활성과 연관 지어 논의됨(시험관)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라보노이드",
+   "role": "bioactive",
+   "part": "자실체(모로코 야생, 건조)",
+   "content_text": "400.20 µg/g 건조중(두 번째로 많은 페놀 화합물)[6]",
+   "activity_ko": "단일 성분 활성은 이 논문에서 시험하지 않음 — 메탄올 추출물의 항산화 활성을 페놀 함량과 연관 지어 논의함(시험관)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "자실체(모로코 야생, 건조)",
+   "content_text": "362.60 µg/g 건조중[6]",
+   "activity_ko": "단일 성분 활성은 이 논문에서 시험하지 않음 — 메탄올 추출물의 항산화 활성을 페놀 함량과 연관 지어 논의함(시험관)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "자실체(모로코 야생, 건조)",
+   "content_text": "327.60 µg/g 건조중[6]",
+   "activity_ko": "단일 성분 활성은 이 논문에서 시험하지 않음 — 메탄올 추출물의 항산화 활성을 페놀 함량과 연관 지어 논의함(시험관)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Trehalose",
+   "name_ko": "트레할로스",
+   "class": "이당류",
+   "role": "nutrient",
+   "part": "자실체(아르헨티나 야생, 건조)",
+   "content_text": "주된 당; 트레할로스가 우세한 6종의 범위 1.15–10.26 g/100 g 건조중(종별 값은 표에 있어 확인하지 못함)[5]",
+   "activity_ko": "버섯의 주요 저장당[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Ergothioneine",
+   "name_ko": "에르고티오네인",
+   "class": "함황 아미노산 유도체",
+   "role": "bioactive",
+   "part": "자실체 물 추출물",
+   "content_text": "HPLC로 동정·정량(초록에 수치 없음)[8]",
+   "activity_ko": "추출물의 혈관신생 억제 시험(제브라피시·HUVEC)에서 함께 분석된 성분 — 단일 성분 효과는 확인하지 못함[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Eritadenine",
+   "name_ko": "에리타데닌",
+   "class": "퓨린 알칼로이드",
+   "role": "bioactive",
+   "part": "자실체 물 추출물",
+   "content_text": "HPLC로 동정·정량(초록에 수치 없음)[8]",
+   "activity_ko": "추출물 성분으로 보고됨[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Adenosine",
+   "name_ko": "아데노신",
+   "class": "뉴클레오사이드",
+   "role": "bioactive",
+   "part": "자실체 물 추출물",
+   "content_text": "HPLC로 동정·정량(초록에 수치 없음)[8]",
+   "activity_ko": "추출물 성분으로 보고됨[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Heteropolysaccharide LNP (fucose, mannose, glucose, galactose)",
+   "name_ko": "헤테로다당 LNP-1·LNP-2",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "분자량 16,263 Da·17,730 Da, 푸코스:만노스:포도당:갈락토스 몰비 1.00:2.42:1.09:4.04(LNP-1)[10]; 다른 연구 조다당 중 다당 70.60%, LNP-1 11,703 Da[9]",
+   "activity_ko": "A375 세포 증식 억제, 대식세포의 NO·IL-6·TNF-α 분비 유도(세포 실험)[10]; DPPH 소거 등 항산화(시험관)[9]",
+   "source": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Ergosterol",
+   "name_ko": "에르고스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "자실체 메탄올 추출물",
+   "content_text": "GC-MS 검출 성분의 1.61%(상대 면적)[6]",
+   "activity_ko": "버섯에 가장 많은 스테롤로 여러 생리활성이 보고되었다고 논의됨[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "5alpha,9alpha-epidioxy-(22E)-ergosta-7,22-diene-3beta,6beta-diol",
+   "name_ko": "에피디옥시 에르고스타디엔디올(스테롤)",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "분리·구조 확인(함량 미보고)[17]",
+   "activity_ko": "활성은 확인하지 못함[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "(2S,2'R,3R,4E,8E)-N-2'-hydroxyhexadecanoyl-2-amino-9-methyl-4,8-octadecadiene-1,3-diol",
+   "name_ko": "세라마이드(2'-하이드록시헥사데카노일형)",
+   "class": "세라마이드",
+   "role": "bioactive",
+   "part": "자실체",
+   "content_text": "분리·구조 확인(함량 미보고)[16]",
+   "activity_ko": "활성은 확인하지 못함[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Indole-3-carbaldehyde",
+   "name_ko": "인돌-3-카르브알데하이드",
+   "class": "인돌 알칼로이드",
+   "role": "bioactive",
+   "part": "균사 배양 여과액(자실체 아님)",
+   "content_text": "분리(함량 미보고); 500 mg/L에서 고추 역병균 유주자 발아 완전 억제[18]",
+   "activity_ko": "식물병원균 억제(시험관)[18]",
+   "source": [
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "4-Hydroxybenzoic acid (and 12 other phenolic compounds)",
+   "compound_ko": "p-하이드록시벤조산 등 페놀 화합물 13종",
+   "part": "자실체(모로코 야생, 공기 건조 후 20 mesh 분말)",
+   "content": "587.90 ± 4.89 µg/g 건조중[6]",
+   "method": "HPLC–MS(280 nm 정량)",
+   "conditions": {
+    "instrument": "",
+    "column": "Acclaim 120 역상 C18(3 µm, 150 × 4.6 mm)",
+    "mobile_phase": "1% 아세트산과 100% 아세토니트릴",
+    "gradient": "",
+    "flow": "",
+    "temp": "35 ℃",
+    "detection": "UV-Vis 280 nm(정량), 질량 스펙트럼으로 동정",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "각 화합물 시판 표준품의 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 자실체에서 정량된 페놀 화합물 가운데 가장 많은 성분이다. PMC 전문 텍스트에서 학명이 빠져 있어 종 귀속을 따로 대조했다: 제목의 종 순서(Paralepista flaccida (Sowerby) Vizzini, Lepista nuda (Bull.) Cooke)와 초록·본문의 'respectively', 서론의 L. nuda 단락(blewits, 프랑스·네덜란드·영국·대만 재배), 그리고 두 번째 종의 총페놀 25.52 mg을 이전 모로코 L. nuda 연구값과 비교한 서술이 서로 맞아 587.90 µg/g·카테킨 400.20 µg/g 등은 L. nuda 값으로 판단했다. 함께 분석된 Paralepista flaccida(옛 Lepista flaccida·L. inversa)의 값(p-하이드록시벤조산 138.50 µg/g 등)과 섞지 않는다. 기울기·유속·주입량은 저자들의 이전 논문을 따랐다고만 적혀 있어 확인하지 못함.",
+   "source": [
+    6
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36770790/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Trehalose (free sugars)",
+   "compound_ko": "트레할로스(유리당)",
+   "part": "자실체(아르헨티나 야생, 분쇄 후 −18 ℃ 보관)",
+   "content": "트레할로스가 우세한 6종 범위 1.15–10.26 g/100 g 건조중(종별 값 확인 못함)[5]",
+   "method": "HPLC-RI",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "굴절률 검출기(RI)",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "내부표준 라피노스, 표준품과 상대 머무름 시간 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "버섯의 주된 저장당으로 품질 비교에 쓰인다. 전문을 열었으나 칼럼·이동상은 인용 방법(이전 논문)만 적혀 있고 표가 빠져 있어 종별 값은 확인하지 못함.",
+   "source": [
+    5
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27617993/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ergothioneine, eritadenine, adenosine",
+   "compound_ko": "에르고티오네인·에리타데닌·아데노신",
+   "part": "자실체 물 추출물",
+   "content": "HPLC로 정량했다고 보고(초록에 수치 없음)[8]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "버섯 특유의 생리활성 성분으로 추출물의 활성 성분 후보로 정량되었다. 전문 확인 못함(PMC 판 없음).",
+   "source": [
+    8
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36621144/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 민자주방망이버섯(Lepista nuda (Bull. ex fr.) Cooke) (로컬 원자료 I1020_20261013.json 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 이름·분류가 가까운 항목: 자주방망이버섯아재비(Lepista sordida)·광릉자주방망이버섯(Lepista irina)·하늘색깔대기버섯(Clitocybe odora, 사용가능)·깔때기버섯(Clitocybe infundibuliformis)·배불뚝이깔때기버섯(Clitocybe clavipes)·비단빛깔때기버섯(Clitocybe candicans, 이상 사용불가) (로컬 원자료 대조)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "통계청 「농작물생산조사」·농림축산식품부 「특용작물 생산실적」(1995–2024) 로컬 파싱본(docs/stats/regional_crops.csv·special_crops_annual.csv·special_crops_2024.csv) — '민자주방망이버섯' 품목 없음 확인('버섯-기타'로만 집계)",
+   "url": "https://www.mafra.go.kr",
+   "publisher": "농림축산식품부·통계청",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Radiocesium uptake in two fungal bed-cultivated edible mushroom species in forests in Fukushima, Japan (PMC13432144 전문) (PLoS One, 2026; PMID 42546016)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42546016/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Chemical and Antioxidant Properties of Wild Edible Mushrooms from Native Nothofagus spp. Forest, Argentina (PMC6274418 전문, 표는 확인 못함) (Molecules, 2016; PMID 27617993)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27617993/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Antioxidant Properties, Bioactive Compounds Contents, and Chemical Characterization of Two Wild Edible Mushroom Species from Morocco (PMC9920256 전문) (Molecules, 2023; PMID 36770790)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36770790/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Chemical composition and biological properties of Portuguese wild mushrooms: a comprehensive study (초록) (J Agric Food Chem, 2008; PMID 18435539)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18435539/",
+   "publisher": "J Agric Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Antiangiogenic potential of Lepista nuda extract suppressing MAPK/p38 signaling-mediated developmental angiogenesis in zebrafish and HUVECs (초록) (Biomed Pharmacother, 2023; PMID 36621144)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36621144/",
+   "publisher": "Biomed Pharmacother (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Extraction, purification and properties of water-soluble polysaccharides from mushroom Lepista nuda (초록) (Int J Biol Macromol, 2019; PMID 30716376)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30716376/",
+   "publisher": "Int J Biol Macromol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Structure characterization and biological activities evaluation of two hetero-polysaccharides from Lepista nuda (초록) (Int J Biol Macromol, 2023; PMID 37271268)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37271268/",
+   "publisher": "Int J Biol Macromol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Validation of the Antidiabetic and Hypolipidemic Effects of Clitocybe nuda ... in Streptozotocin-Induced Mice (초록) (Evid Based Complement Alternat Med, 2014; PMID 24639883)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24639883/",
+   "publisher": "Evid Based Complement Alternat Med (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Antidiabetic and Antihyperlipidemic Effects of Clitocybe nuda ... in High-Fat-Fed Mice (초록) (Evid Based Complement Alternat Med, 2014; PMID 24550994)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24550994/",
+   "publisher": "Evid Based Complement Alternat Med (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Clitocybe nuda Activates Dendritic Cells and Acts as a DNA Vaccine Adjuvant (초록) (Evid Based Complement Alternat Med, 2013; PMID 24058377)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24058377/",
+   "publisher": "Evid Based Complement Alternat Med (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Purification and Characterization of a White Laccase ... from Lepista nuda (초록) (Molecules, 2016; PMID 27023513)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27023513/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "A novel metalloprotease from the wild basidiomycete mushroom Lepista nuda (초록) (J Microbiol Biotechnol, 2011; PMID 21464595)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21464595/",
+   "publisher": "J Microbiol Biotechnol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Ceramide constituents from five mushrooms (초록) (Chem Pharm Bull (Tokyo), 2002; PMID 12036031)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12036031/",
+   "publisher": "Chem Pharm Bull (Tokyo) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "New sterols and triterpenoids from four edible mushrooms (초록) (Chem Pharm Bull (Tokyo), 2001; PMID 11383612)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11383612/",
+   "publisher": "Chem Pharm Bull (Tokyo) (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Isolation and identification of secondary metabolites of Clitocybe nuda responsible for inhibition of zoospore germination of Phytophthora capsici (초록) (J Agric Food Chem, 2012; PMID 22738079)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22738079/",
+   "publisher": "J Agric Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Genetic diversity of Lepista nuda (Agaricales, Basidiomycota) in Northeast China as indicated by SRAP and ISSR markers (초록) (PLoS One, 2018; PMID 30148893)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30148893/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Identification of SNPs in a nonmodel macrofungus (Lepista nuda) through RAD sequencing (초록) (Springerplus, 2016; PMID 27795935)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27795935/",
+   "publisher": "Springerplus (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Cloning of the A Mating-Type Locus from Lepista nuda and Characterization of Its Genetic Structure (초록) (Curr Microbiol, 2015; PMID 26330378)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26330378/",
+   "publisher": "Curr Microbiol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Development of SCAR markers to determine the mating types of Lepista nuda protoplast monokaryons (초록) (Curr Microbiol, 2013; PMID 24352297)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24352297/",
+   "publisher": "Curr Microbiol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Mercury in edible mushrooms and underlying soil: bioconcentration factors and toxicological risk (초록) (Sci Total Environ, 2009; PMID 19631362)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19631362/",
+   "publisher": "Sci Total Environ (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Lead in edible mushrooms: levels and bioaccumulation factors (초록) (J Hazard Mater, 2009; PMID 19217716)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19217716/",
+   "publisher": "J Hazard Mater (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Concentrations of mercury, copper, cadmium and lead in fruiting bodies of edible mushrooms in the vicinity of a mercury smelter and a copper smelter (초록) (Sci Total Environ, 1996; PMID 8584916)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/8584916/",
+   "publisher": "Sci Total Environ (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Concentrations of lead, cadmium, mercury and copper in mushrooms in the vicinity of a lead smelter (초록) (Sci Total Environ, 1991; PMID 1925517)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1925517/",
+   "publisher": "Sci Total Environ (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Nitrate content in a collection of higher mushrooms (초록) (J Sci Food Agric, 2015; PMID 25645279)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25645279/",
+   "publisher": "J Sci Food Agric (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Family and species as determinants modulating mineral composition of selected wild-growing mushroom species (초록) (Environ Sci Pollut Res Int, 2020; PMID 32812153)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32812153/",
+   "publisher": "Environ Sci Pollut Res Int (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Metal concentration and health risk assessment of fifteen wild mushrooms collected from the Ankara University Campus (Turkey) (초록) (Environ Sci Pollut Res Int, 2020; PMID 32506407)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32506407/",
+   "publisher": "Environ Sci Pollut Res Int (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Antioxidant and Genotoxic Effects of Aqueous and Methanol Extracts from Two Edible Mushrooms from Turkey in Human Peripheral Lymphocytes (초록) (Int J Med Mushrooms, 2020; PMID 32479004)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32479004/",
+   "publisher": "Int J Med Mushrooms (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Antioxidant activity of edible fungi (truffles and mushrooms): losses during industrial processing (초록) (J Food Prot, 2002; PMID 12380748)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12380748/",
+   "publisher": "J Food Prot (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Biocatalyst collection and heterologous expression of sesquiterpene synthases from basidiomycetous fungi (초록) (Microb Biotechnol, 2022; PMID 36576879)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36576879/",
+   "publisher": "Microb Biotechnol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Some characteristics of ammonia fungi 1. In relation to their ligninolytic enzyme activities (초록) (J Gen Appl Microbiol, 1998; PMID 12501413)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12501413/",
+   "publisher": "J Gen Appl Microbiol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Regeneration of ectomycorrhizal fungal isolates following deep freezer storage (초록) (Mycobiology, 2011; PMID 22783092)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22783092/",
+   "publisher": "Mycobiology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Diets supplemented with different solvents extracts of Lepista nuda alters longevity and fecundity ... in Drosophila melanogaster (초록) (J Econ Entomol, 2025; PMID 39578891)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39578891/",
+   "publisher": "J Econ Entomol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Antimicrobial activity of the macrofungus Lepista nuda (초록) (Fitoterapia, 2002; PMID 12490232)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12490232/",
+   "publisher": "Fitoterapia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Seedling ectomycorrhization is central to conifer forest restoration: a case study from Kashmir Himalaya (초록) (Sci Rep, 2022; PMID 35922649)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35922649/",
+   "publisher": "Sci Rep (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

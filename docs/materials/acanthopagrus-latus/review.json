@@ -1,0 +1,69 @@
+{
+ "slug": "acanthopagrus-latus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 82,
+ "checked_items": 58,
+ "verified": 130,
+ "fixed": 6,
+ "removed": 2,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "바닷물과 민물을 오가는 광염성 어종이다[6]",
+   "after": "염분 변화에 잘 견디는 광염성(euryhaline) 어종이다[6]",
+   "why": "[6] 초록은 euryhaline 이라고만 씀 — 바닷물·민물을 '오간다'(회유)는 표현은 출처에 없음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "하구처럼 염분이 크고 자주 바뀌는 연안에 사는 광염성 어종이다[7]",
+   "after": "염분 변화가 크고 잦은 연안·하구에 사는 광염성 어종이다[6, 7]",
+   "why": "[7] 은 'coastal environments with large and frequent salinity fluctuation', 하구(estuarine)는 [6] 에 있음 — 출처 보강"
+  },
+  {
+   "where": "sections.biology",
+   "before": " 부화 직후 자어는 15일째까지 천천히 자라 4.7 mm에 이르고, 16–30일째에는 더 빨리 자라 7.5 mm가 되었다[17]. 이 시기 소화효소는 입이 열릴 때부터 검출되었지만 장의 성숙은 생후 한 달 안에 끝나지 않았다[17].",
+   "after": "",
+   "why": "[17] 은 이란 페르시아만 연구소(부셰르)의 'A. latus' 자어 연구 — 2013년 분류 정리[2]로 페르시아만 개체는 A. arabicus·A. sheim 일 가능성이 커 새눈치 값에서 뺌(related_species 에 주석)"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "종자 생산에서는 나노클로롭시스를 넣은 녹수 방식으로 자어를 기르고, 로티퍼에서 아르테미아, 미립자 사료 순으로 먹이를 바꿨다[17]. ",
+   "after": "",
+   "why": "[17] 은 페르시아만(이란) 개체 연구로 다른 종일 수 있음 — 같은 이유로 삭제"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이 문서는 그 수치를 새눈치 값으로 쓰지 않았다[2, 12, 13].",
+   "after": "이 문서는 그 수치를 새눈치 값으로 쓰지 않았다[2, 12, 13]. 2013년 이후에도 이란 페르시아만 연구진이 'A. latus'라는 이름으로 자어 사육·소화효소 연구를 냈으나, 채집 해역으로 보아 A. arabicus나 A. sheim일 수 있어 같은 이유로 새눈치 값으로 쓰지 않았다[2, 17].",
+   "why": "[17] 의 처리 근거를 밝힘(이란 부셰르 연구진, 페르시아만 개체)"
+  },
+  {
+   "where": "sections.processing",
+   "before": "양식 사료 연구에서는 라이소자임을 100 mg/kg 넣은 사료가 살의 경도와 말산·EPA·DHA 축적을 높였다고 보고되었다[4].",
+   "after": "양식 사료 연구에서는 라이소자임을 넣은 사료(100·200 mg/kg)가 살의 경도를 높였고, 100 mg/kg군에서는 대사체 상대량으로 말산과 불포화 지질(PE 22:6 등)이 늘어 저자들은 EPA·DHA 축적이 늘었다고 해석했다[4].",
+   "why": "[4] 전문: 경도는 두 군 모두(200 mg/kg군이 더 높음) 상승, EPA·DHA 는 지방산을 직접 정량하지 않고 전구체·PE(22:6) 상대량으로 추정"
+  },
+  {
+   "where": "compounds[EPA].activity_ko",
+   "before": "라이소자임 100 mg/kg 사료군에서 EPA·DHA 축적이 늘었다[4, 5]",
+   "after": "라이소자임 100 mg/kg 사료군에서 EPA·DHA 전구체와 PE(22:6)가 늘어 축적 증가가 시사되었고[4], GABA 0.01%군 근육의 EPA 비율은 0.10%군보다 높았다[5]",
+   "why": "[4] 는 EPA 를 직접 정량하지 않음(대사체 추정), [5] 는 0.01% vs 0.10% 비교만 유의"
+  },
+  {
+   "where": "compounds[PC].activity_ko",
+   "before": "라이소자임 사료군 근육에서 PC·PE가 많아졌다[4, 5]",
+   "after": "라이소자임 사료군 근육에서 PC·PE가 많아졌다[4]",
+   "why": "이 문장은 [4] 만의 결과 — [5] 인용 제거(함량 값은 [5] 그대로)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[3]·[4]·[5] 는 PMC 전문, 나머지는 PubMed 초록으로 대조. [3] 검량선(Table S2)·[5] 개별 지방산 비율(그림) 수치는 본문에 없어 확인하지 못함",
+  "[1] 식품원료 목록은 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 행(새눈치, Acanthopagrus latus, Yellowfin seabream, 수산물, 부위 '-', 사용가능, 조건 없음)으로 확인 — card.json 과 일치. 감성돔(A. schlegelii)은 별도 행",
+  "[9] 초록의 근연종 학명이 PubMed 에서 빠져 'Bleeker 1854'만 보임 — 감성돔(A. schlegelii (Bleeker, 1854))과 일치하는 것으로 판단",
+  "철회 확인: PubMed 에서 'Acanthopagrus latus' 철회 논문 2건(Toxicol Ind Health 2011, PMID 21949090·21911425, 이란 수은 독성)은 이 문서에서 인용하지 않음. 인용 34건 중 철회 표시 없음",
+  "감성돔 자료 섞임: 수치·성분·안전성 문장 중 감성돔 자료는 없음(감성돔은 [9]·[30] 비교 대상으로만 등장)",
+  "페르시아만 'A. latus'([12] 수은·비소, [13] PBDE, [17] 자어 사육)는 2013년 분류 정리[2]상 A. arabicus·A. sheim 일 수 있어 새눈치 값으로 쓰지 않음"
+ ]
+}
