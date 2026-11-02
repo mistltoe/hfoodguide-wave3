@@ -1,0 +1,486 @@
+{
+ "slug": "pholiota-adiposa",
+ "name_ko": "검은비늘버섯",
+ "name_en": "Chestnut mushroom",
+ "scientific_name": "Pholiota adiposa (Batsch) P. Kumm.",
+ "aliases": [
+  "Huangsan",
+  "yellow cap fungus",
+  "Pholiota adiposa (Fr.) Quél."
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "검은비늘버섯(Pholiota adiposa)은 Strophariaceae에 속하는 담자균류 버섯으로, 중국에서는 식용버섯으로 이용되며 논문에서는 영어로 chestnut mushroom, 중국 전통 약재 이름으로는 'Huangsan'이라 소개된다[3, 18, 19]. 식품의약품안전처 「식품원료 목록」에는 원료명 '검은비늘버섯', 학명 Pholiota adiposa (Batsch) P. Kumm.으로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. 따라서 일반 식품의 원료로 쓸 수 있는 부위는 자실체(버섯 몸체)이며, 연구에 자주 쓰이는 액체 배양 균사체는 목록의 사용 부위가 아니다[1, 14, 16]. 건강기능식품 고시형 원료의 원재료 여부와 다른 나라 식품원료 목록 등재 정보는 확인하지 못함.\n\n연구는 자실체 에탄올 추출물에 많은 스테롤류(에르고스테롤, 에르고스타-4,6,8(14),22-테트라엔-3-온 등), 다당체, 렉틴, 아데노신 같은 성분과, 균사가 내는 목질 분해 효소에 모여 있다[6, 7, 11, 20]. 항종양·혈당·체지방 관련 결과는 모두 세포·동물 실험이며, 사람 대상 임상시험은 확인하지 못함. 같은 속의 나도팽나무버섯(P. nameko)·노란갓비늘버섯·꽈리비늘버섯·흰비늘버섯은 따로 올라 있는 별개 원료이므로 이 문서에서는 그 자료를 쓰지 않는다[1]."
+  },
+  {
+   "key": "history",
+   "title": "이름의 역사",
+   "body": "비늘버섯속(Pholiota)은 1871년 Kummer가 세운 속으로, 비늘이 덮이거나 끈적한 노란색·갈색 갓과 발아공이 있는 매끈한 갈색 포자가 특징이다[2]. 식약처 목록의 학명 표기는 Batsch가 처음 기재하고 Kummer가 이 속으로 옮겼음을 뜻하는 'Pholiota adiposa (Batsch) P. Kumm.'이다[1]. 다만 2013년 아데노신 논문은 'Pholiota adiposa (Fr.) Quel'이라는 다른 저자 표기를 썼다[6]. 2006년 국내 논문은 이 버섯을 'yellow cap fungus'라 불렀고, 2023년 논문은 'chestnut mushroom'이라 불렀다[17, 19]. 국문명 '검은비늘버섯'이 언제 누가 붙인 이름인지는 확인하지 못함.\n\n국내에서는 1940년 비늘버섯속 버섯이 처음 기록된 뒤 모두 18종이 보고되었고 그중 16종이 인정되었다[2]. 2020년 국내 표본 62점을 다시 조사한 연구는 형태만으로 동정된 기록이 많아 유전자(ITS) 분석으로 재검토가 필요하다고 보았다[2]. 국내 연구로는 2006년 국내 연구진이 균주 ASI 24018의 추출물로 고지방식 생쥐의 체지방을 시험한 보고가 있고, 2012–2014년에는 국내 대학 연구진이 분리한 균주(SKU0714)의 목질 분해 효소 연구가 이어졌다[17, 20, 21]. 중국에서는 약재 'Huangsan'으로 암 치료에 쓰였다는 기록이 논문에 인용된다[18]."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "비늘버섯속은 죽은 나무를 분해하는 부생성 버섯 무리이다[2]. 2020년 국내 분류 연구의 검색표에서 검은비늘버섯이 속한 복합체는 갓 껍질에 젤라틴층이 있어 습할 때 끈적이고, 포자 길이가 5 µm보다 길며, 자실층에 크리소시스티디아(chrysocystidia)가 있는 무리로 구분되었다[2]. 중국 북동부 연구에 따르면 이 버섯은 중국·일본·유럽·북아메리카에 널리 분포하고 해발 1,500 m 이하 활엽수림의 버드나무·자작나무 고사목, 쓰러진 나무, 그루터기에 주로 나며 갓 표면에 점액이 많다[4].\n\n균사 생장 최적 조건은 25 ℃·pH 6·자당(탄소원)으로 보고되었고, 다른 중국 연구는 포도당·효모 추출물·25 ℃·pH 6.5–7.0을 꼽았다[4, 5]. 35 ℃에서 2일째에서 4일째 사이 균사의 말론다이알데하이드와 셀룰레이스 활성은 27.6%와 40.8% 줄고, SOD·카탈레이스·글루타티온 환원효소 활성은 31.6%, 49.2%, 1.2% 늘어 고온 적응 반응을 보였다[4]. 국내 분리 균주 SKU0714는 볏짚 배지에서 엔도글루카네이스 26, 셀로바이오하이드롤레이스 32, β-글루코시데이스 39, 자일라네이스 1,680 U/mL의 활성을 냈고, 같은 균주의 β-1,4-만난에이스(Vmax 1,990 U/mg)와 같은 연구진이 정제한 자일라네이스(kcat 4,261 s−1)는 보고 당시 가장 높은 값으로 소개되었다[20, 21, 22]. 반면 중국 토양 균류 10종 비교에서는 이 종이 3–4가지 효소만 약하게 분비하는 무리로 분류되어, 균주와 배양 조건에 따라 결과가 크게 다르다[31]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "식약처 「식품원료 목록」에는 같은 비늘버섯속의 나도팽나무버섯(P. nameko, 별명 맛버섯), 노란갓비늘버섯(P. spumosa, 별명 천사비늘버섯), 꽈리비늘버섯(P. lubrica), 흰비늘버섯(P. lenta)이 각각 '사용가능'(자실체)으로 따로 올라 있다[1]. 같은 목록에서 재비늘버섯(P. highlandensis), 참비늘버섯(P. terrestris), 침비늘버섯(P. squarrosoides)은 '사용불가'이므로 이름이 비슷한 비늘버섯류를 함부로 섞어 쓰면 안 된다[1].\n\n2020년 국내 연구에서 표본 23점은 형태가 비슷한 세 종(P. adiposa·P. aurivella·P. limonella)으로 이루어진 'P. adiposa 복합체'로 묶였고(구성 종 학명은 전문 도구에서 빠져 웹 검색 요약으로 확인), ITS 서열로는 세 종을 가를 수 없었다[2]. 세 종은 포자 크기와 기주 나무에서 차이가 있다고 알려졌지만, 연구진은 이것이 환경 차이나 종내 변이일 수 있어 교배 시험과 다른 유전자 표지가 필요하다고 보았다[2]. 따라서 국내 야생 '검은비늘버섯'의 동정은 근연종과 겹칠 수 있다[2]. 중국에서 재배되는 '골드 머시룸' P. conissans는 다른 종이고, 학명 끝말이 같은 Ceratocystis adiposa는 침엽수 변색을 일으키는 자낭균으로 이 버섯과 무관하다[29, 30]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "2025년 중국 연구는 하얼빈 동북임업대학 실습림의 썩은 나무에서 채집한 야생 균주를 순화해 재배했으며, 이 버섯은 수확량이 적어 시장 수요를 채우지 못한다고 적었다[4]. 배지 비교에서 톱밥+옥수숫대 배지의 생물학적 효율(건조 배지 무게 대비 생버섯 무게)은 72.84%로 가장 높았고, 톱밥+콩대 60.42%, 톱밥+목화씨 껍질 46.40%, 톱밥+옥수수 가루 44.48%, 톱밥+콩가루 39.95%가 뒤를 이었다[4]. 톱밥+옥수숫대 배지의 원기 수는 103 ± 13개였고, 배지 수분 65%에서 원기가 가장 많이(21 ± 5개) 생겼다[4]. 헤이룽장성 무단장의 야생 균주를 순화한 2023년 연구에서는 톱밥(20%)·밀기울(10%)·콩가루(1%)·생석회(1%) 배지에서 봉지당 자실체 수확량이 24.96 g으로 가장 많았다(배합 비율은 초록 표기 그대로)[5].\n\n중국에서는 지린성 쑹위안의 버섯 전문 협동조합과 허난성 뤄양에서 재배한 자실체가 연구 시료로 쓰였다[6, 7]. 국내 재배 현황과 통계청·농림축산식품부 특용작물 생산실적의 검은비늘버섯 항목은 확인하지 못함. 세계 생산량 통계도 확인하지 못함. 액체·평판 균사 배양(자실체 아님)에서는 황산아연 농도에 따라 아밀레이스·라케이스·셀룰레이스 활성과 대사물이 달라져, 시험한 첨가 농도 가운데 가장 낮은 200(단위는 초록에 없음)에서 아밀레이스·라케이스·셀룰레이스 활성이 무첨가보다도 높았다[26]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "말린 자실체 가루 1,000 g을 75% 에탄올로 초음파 추출하면 동결건조 추출물 66.42 g이 얻어졌고, 이 추출물에서는 에르고스테롤·에르고스테롤 과산화물·에르고스타-4,6,8(14),22-테트라엔-3-온 같은 스테롤류가 큰 비중을 차지했다[7]. 이 추출물은 간암(H22) 이식 생쥐에 14일 동안 100·200·300 mg/kg/일을 먹였을 때 종양 억제율 79.70%·84.55%·87.28%를 보였고, 대조 항암제(사이클로포스파마이드)는 92.42%였다[7]. 세포 실험에서는 50 μg/mL에서 간암 세포 HepG-2의 세포사멸 비율이 23.71 ± 1.59%까지 올랐다[19]. 국내 2006년 연구에서 물 추출물을 고지방 사료에 0.1–1.0% 섞어 7주 먹인 생쥐는 후복막 지방이 줄었으나 간 중성지방(0.5% 군 제외)과 부고환 지방은 변하지 않았다[17].\n\n다당체는 대식세포를 자극하는 분획(PAP-1a)이 셀레늄 나노입자 소재로도 연구되었지만(세포·동물 실험)[12, 28], 액체 배양 균사체 다당(PAP80-2a 등)은 식품원료 사용 부위가 아니다[1, 14, 15, 16]. 말린 자실체의 휘발성 성분은 다른 식용버섯과 구별되는 지표 성분을 가졌고, 60% 메탄올 추출물은 항균 활성을 보였다[23, 27]. 네트워크 약리학 연구가 제시한 카르노솔 등은 데이터베이스(TCMSP 등)와 분자 도킹 예측에서 나온 후보로, 이 연구에서 버섯 시료를 분석해 확인한 성분이 아니며 알츠하이머 효과도 실험으로 확인되지 않았다[25]. 균사는 버섯 균사체 단열재 비교에서 열전도율이 가장 낮은 종으로 보고되었다[32]. 식약처 「식품 등의 생산실적」의 검은비늘버섯 품목과 사람 대상 시험은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "기존 공개 유전체(GCA_014526955.1)는 콘티그 수준이며 N50이 1 Mb 미만이었다[3]. 2026년 중국 연구진은 2009년 베이징 쯔주위안 공원에서 채집한 야생 균주에서 서로 짝지을 수 있는 단핵 균주 두 개(D1·D11)를 얻어, 틈이 없는 텔로미어–텔로미어(T2T) 유전체를 처음 조립했다[3]. 두 유전체는 모두 염색체 13개로 각각 46.66 Mb와 47.63 Mb이며, BUSCO 완전도는 98.6%와 98.3%, 단백질 유전자는 14,204개와 14,353개였다[3]. 반복서열은 유전체의 18.64%와 20.45%였고 LTR 레트로트랜스포존이 가장 많았다[3].\n\n두 핵의 염색체는 큰 재배열 없이 1대1로 대응했지만, 공통 배열(동일 순서) 유전자는 전체의 75.0%였고 각 핵에만 있는 유전자가 570개와 668개였다[3]. D1 고유 유전자는 에너지 대사에, D11 고유 유전자는 유전정보 처리와 MAPK 신호에 몰려 두 핵이 기능을 나눠 맡는 것으로 해석되었다[3]. 야생 계통 18개의 재분석에서는 시장에서 귀하게 여기는 붉은 갓 형질과 관련된 후보 구간이 6번과 12번 염색체에서 찾아졌다[3]. 국내 표본의 ITS 서열은 GenBank에 등록되어 있으나 복합체 안의 종 구분에는 충분하지 않았다[2]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 검은비늘버섯은 '사용가능' 원료이며 쓸 수 있는 부위는 자실체이다[1]. 식약처 등 국내 공공기관의 검은비늘버섯 알레르기·잔류농약·중금속·독성 정보는 확인하지 못함. 사람 대상 독성·섭취 안전성 연구도 확인하지 못함.\n\n동물 실험에서 자실체 에탄올 추출물(100–300 mg/kg/일, 14일)은 간암 이식 생쥐의 AST·BUN을 모델군보다 낮췄고 비장·흉선 지수 감소도 일으키지 않아, 대조 항암제보다 간·신장 부담이 적은 것으로 보고되었다[7]. 이 결과는 종양 모델 동물의 단기 관찰이며 정식 독성시험은 아니다[7]. 자실체에서 분리된 렉틴은 응집 활성이 50 ℃까지 안정했다고 보고되었으나, 조리한 버섯에서 활성이 남는지는 확인하지 못함[11]. 야생 채취품은 형태가 비슷한 근연종(P. aurivella·P. limonella)과 유전자로도 잘 구분되지 않는다[2]. 따라서 야생 채취품은 동정에 특히 주의해야 한다(이 권고는 출처의 직접 결론이 아니라 [2]의 결과에서 끌어낸 것이다). 같은 비늘버섯속이라도 재비늘버섯·참비늘버섯·침비늘버섯은 식약처 목록에서 '사용불가'이다[1]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Ergosta-4,6,8(14),22-tetraen-3-one",
+   "name_ko": "에르고스타-4,6,8(14),22-테트라엔-3-온(ETO)",
+   "class": "스테로이드(에르고스탄)",
+   "role": "bioactive",
+   "part": "자실체(건조, 에탄올 추출 후 석유에터·실리카겔 분획)",
+   "content_text": "자실체 1.5 kg에서 분리, 함량 수치는 보고되지 않음; 동물 시험에는 시판 98% 표준품 사용[8]",
+   "activity_ko": "간암(H22) 이식 생쥐 종양 억제율 59.74%(19.631 mg/kg)·76.10%(39.262 mg/kg), 14일[8]; 당뇨 모델 동물(초록에 종 명시 없음)에서 공복혈당을 대조군보다 약 10 mmol/L 낮춤(고용량)[9] — 모두 동물 실험",
+   "source": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Ergosterol",
+   "name_ko": "에르고스테롤",
+   "class": "스테롤",
+   "role": "marker",
+   "part": "자실체(75% 에탄올 추출물)",
+   "content_text": "UPLC-QTOF-MS 정성 분석에서 스테롤류가 높은 비중을 차지(정량값 없음)[7]",
+   "activity_ko": "추출물의 주요 성분으로 제시[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Ergosterol peroxide",
+   "name_ko": "에르고스테롤 과산화물",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체(75% 에탄올 추출물)",
+   "content_text": "정성 검출, 함량 수치 없음[7]",
+   "activity_ko": "추출물의 주요 성분(추출물 전체로 생쥐 항종양 효과 보고, 성분 단독 효과는 이 논문에서 시험하지 않음)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "(22E,24R)-Ergosta-7,22-diene-3beta,5alpha,6beta-triol",
+   "name_ko": "(22E,24R)-에르고스타-7,22-다이엔-3β,5α,6β-트라이올",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체(75% 에탄올 추출물)",
+   "content_text": "정성 검출, 함량 수치 없음[7]",
+   "activity_ko": "추출물의 주요 스테롤 성분 중 하나[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Adenosine",
+   "name_ko": "아데노신",
+   "class": "뉴클레오사이드",
+   "role": "bioactive",
+   "part": "자실체(재배품, 건조·70% 에탄올 추출 후 분획 PB3)",
+   "content_text": "HPLC 머무름 시간과 ESI-MS([M+H]+ 268.1040)로 동정, 함량 수치는 보고되지 않음[6]",
+   "activity_ko": "생쥐 복강 주사(50 mg/kg, 7일) 뒤 LPS 자극 시 비장 IL-10 mRNA 1.5배·SOD mRNA 1.6배 증가, IL-2·IL-6·IFN-γ mRNA 49.0%·56.9%·73.4%로 감소(동물 실험)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Methyl gallate",
+   "name_ko": "갈산 메틸",
+   "class": "페놀산 에스터",
+   "role": "bioactive",
+   "part": "부위 원문 확인 못함(초록)",
+   "content_text": "에탄올·에틸아세테이트 추출 후 HPLC로 정제, 함량 수치 초록에 없음[10]",
+   "activity_ko": "1.36 mM에서 DPPH 소거 85.6%; HIV-1 복제 억제 IC50 11.9 μM, 역전사효소 IC50 80.1 μM(세포·효소 실험)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Pholiota adiposa lectin",
+   "name_ko": "검은비늘버섯 렉틴",
+   "class": "단백질(렉틴, 16 kDa 동일 소단위 2개)",
+   "role": "bioactive",
+   "part": "부위 원문 확인 못함(초록)",
+   "content_text": "이온교환·겔여과로 분리, 함량 수치 초록에 없음[11]",
+   "activity_ko": "HepG2·MCF7 세포 증식 억제 IC50 2.1 μM·약 3.2 μM, HIV-1 역전사효소 억제 IC50 1.9 μM; 응집 활성은 50 ℃까지 안정(세포·효소 실험)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Polysaccharide PAP-1a",
+   "name_ko": "다당 PAP-1a",
+   "class": "헤테로다당",
+   "role": "bioactive",
+   "part": "부위 원문 확인 못함(초록)",
+   "content_text": "분자량 16.453 kDa; 몰% 갈락토스 38.31, 만노스 33.41, 아라비노스 18.04, 포도당 5.28 등[12]",
+   "activity_ko": "대식세포의 NO·TNF-α·IL-6·IL-12p70 분비 유도, 대식세포와 함께 배양한 간암 세포 증식 억제(세포 실험)[12]; 셀레늄 나노입자 피복 소재로 연구[28]",
+   "source": [
+    12,
+    28
+   ]
+  },
+  {
+   "name": "Polysaccharide SPAP2-1",
+   "name_ko": "다당 SPAP2-1·SPAP2-2",
+   "class": "헤테로다당(만노스·포도당·갈락토스)",
+   "role": "bioactive",
+   "part": "부위 원문 확인 못함(초록, 산 추출)",
+   "content_text": "SPAP2-1 19 kDa, SPAP2-2 20 kDa[13]",
+   "activity_ko": "SPAP2-1이 HeLa 세포 주기를 방해하고 세포사멸 유도(세포 실험)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Polysaccharide PAP80-2a",
+   "name_ko": "균사체 다당 PAP80-2a",
+   "class": "헤테로다당",
+   "role": "bioactive",
+   "part": "액체 배양 균사체(식품원료 사용 부위 아님)",
+   "content_text": "분자량 3.5 × 10^3 Da, 포도당 57.8%[14]; 포도당:람노스:자일로스:갈락토스 10.00:2.09:4.09:1.13[15]",
+   "activity_ko": "생쥐 항종양·T림프구 증식 촉진(동물 실험)[14]",
+   "source": [
+    14,
+    15
+   ]
+  },
+  {
+   "name": "1-Methyl-1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid",
+   "name_ko": "1-메틸-1,2,3,4-테트라하이드로-β-카볼린-3-카복실산(MCA)",
+   "class": "β-카볼린 알칼로이드",
+   "role": "bioactive",
+   "part": "부위 원문 확인 못함(초록)",
+   "content_text": "이 버섯 유래 저분자 대사물로 소개, 함량 수치 없음[24]",
+   "activity_ko": "사과 잎·열매의 탄저성 잎마름병 병반을 줄이고 리그닌 합성 유도(식물 실험, 사람 효과 아님)[24]",
+   "source": [
+    24
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Adenosine",
+   "compound_ko": "아데노신",
+   "part": "자실체(재배품, 건조 분말 70% 에탄올 환류 추출 → NKA 수지 30% 에탄올 분획 → Sephadex G-15 분획 PB3)",
+   "content": "함량 수치 보고 없음(동정·정제 목적)[6]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Lab Alliance HPLC(Series III 펌프 2대, 500 흡광 검출기)",
+    "column": "Merck 역상 C18 ODS 분석용 250 × 4.6 mm(분취용 250 × 10 mm)",
+    "mobile_phase": "15% 메탄올",
+    "gradient": "등용매",
+    "flow": "1 mL/min(분석), 3 mL/min(분취)",
+    "temp": "30 ℃",
+    "detection": "260 nm; ESI-MS [M+H]+ 268.1040으로 확인",
+    "injection": "",
+    "sample_prep": "말린 자실체 분말을 70% 에탄올(100 g : 2 L)로 환류 추출, 여과·농축 후 NKA 거대다공성 수지(물 → 30% → 70% 에탄올)와 Sephadex G-15(물)로 분획",
+    "standard": "아데노신 표준품(머무름 시간 비교)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 버섯 자실체에서 처음 크로마토그래피로 분리·동정된 생리활성 뉴클레오사이드이다[6]. 원문은 정량값·검출한계·회수율을 보고하지 않아 정성 확인 조건만 옮겼다[6].",
+   "source": [
+    6
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23434863/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Sterols in ethanol extract (ergosterol, ergosterol peroxide, ergosta-4,6,8(14),22-tetraen-3-one)",
+   "compound_ko": "에탄올 추출물의 스테롤류(에르고스테롤·에르고스테롤 과산화물·ETO 등)",
+   "part": "자실체(재배품, 지린성 쑹위안 협동조합 구입, 건조 분말)",
+   "content": "정성 분석으로 스테롤류가 높은 비중을 차지한다고만 보고, 함량 수치 없음; 추출 수율 1,000 g → 66.42 g[7]",
+   "method": "UPLC-QTOF-MS(MSE, 정성)",
+   "conditions": {
+    "instrument": "Waters ACQUITY UPLC – QTOF(MSE), Waters UNIFI 분석",
+    "column": "Waters ACQUITY UPLC BEH C18, 100 × 2.1 mm, 1.7 μm",
+    "mobile_phase": "A: 0.1% 폼산 초순수, B: 아세토나이트릴",
+    "gradient": "원문 표에 제시(본문에서 확인하지 못함)",
+    "flow": "0.3 mL/min",
+    "temp": "40 ℃",
+    "detection": "ESI 음이온 모드, m/z 50–2000, 탈용매 400 ℃·800 L/h, 저에너지 6 eV·고에너지 20–50 eV, 이온원 120 ℃, 모세관 2.5 kV",
+    "injection": "",
+    "sample_prep": "추출물 10 mg을 폼산 초순수 5 mL에 녹여 60 ℃ 초음파 30분 3회, 10,000 r/min 5분 원심, 0.22 μm 나일론 막 여과(추출물은 75% 에탄올, 500 W·60 ℃·액고비 37:1·32분 초음파 추출)",
+    "standard": "데이터베이스 대조(표준품 정량 없음)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "자실체 추출물의 주된 성분군이 스테롤류임을 보인 분석으로, 같은 연구진은 그중 ETO를 분리해 동물 실험을 이어갔다[7, 8]. 정량 검량·검출한계·회수율은 원문에 없다[7].",
+   "source": [
+    7,
+    8
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35597811/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 검은비늘버섯(Pholiota adiposa (Batsch) P. Kumm.)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Taxonomic Study of the Genus Pholiota (Strophariaceae, Basidiomycota) in Korea (PMC7717605 전문) (Mycobiology, 2020; PMID 33312014) — 전문 도구가 이탤릭 학명을 빠뜨려, 'P. adiposa 복합체'의 구성 종(P. adiposa·P. aurivella·P. limonella)은 웹 검색 요약으로만 확인함",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33312014/",
+   "publisher": "Mycobiology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Nuclear Functional Divergence and Genetic Basis of Cap Colour Variation Revealed by T2T Genomes of Two Compatible Monokaryons in Pholiota adiposa (PMC13721899 전문) (Microbial Biotechnology, 2026; PMID 42961328)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42961328/",
+   "publisher": "Microbial Biotechnology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The Domestication and Cultivation of Pholiota adiposa and Its High-Temperature Adaptability (PMC12111476 전문) (Foods, 2025; PMID 40428558)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40428558/",
+   "publisher": "Foods (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Medicinal Value, Biological Characteristics, and Domestication of the Wild Mushroom Pholiota adiposa (초록) (International Journal of Medicinal Mushrooms, 2023; PMID 37830198)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37830198/",
+   "publisher": "International Journal of Medicinal Mushrooms (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Effects of Adenosine Extract from Pholiota adiposa (Fr.) Quel on mRNA Expressions of Superoxide Dismutase and Immunomodulatory Cytokines (PMC6270628 전문) (Molecules, 2013; PMID 23434863)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23434863/",
+   "publisher": "Molecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Influence of Pholiota adiposa on gut microbiota and promote tumor cell apoptosis properties in H22 tumor-bearing mice (PMC9124200 전문) (Scientific Reports, 2022; PMID 35597811)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35597811/",
+   "publisher": "Scientific Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Integrated gut microbiota and metabolomics analysis reveals the antitumor effects of ergosta-4,6,8(14),22-tetraen-3-one purified from the medicinal fungus Pholiota adiposa in tumor-bearing mice (PMC12748264 전문) (Frontiers in Pharmacology, 2025; PMID 41476790)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41476790/",
+   "publisher": "Frontiers in Pharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Anti-diabetic effects of fungal Ergosta-4, 6, 8(14), 22-tetraen-3-one from Pholiota adiposa (초록) (Steroids, 2023; PMID 36720423)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36720423/",
+   "publisher": "Steroids (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "First report on isolation of methyl gallate with antioxidant, anti-HIV-1 and HIV-1 enzyme inhibitory activities from a mushroom (Pholiota adiposa) (초록) (Environmental Toxicology and Pharmacology, 2014; PMID 24572641)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24572641/",
+   "publisher": "Environmental Toxicology and Pharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "A novel lectin with antiproliferative activity from the medicinal mushroom Pholiota adiposa (초록) (Acta Biochimica Polonica, 2009; PMID 19636442)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19636442/",
+   "publisher": "Acta Biochimica Polonica (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Study on the physicochemical properties and immunomodulatory anti-tumor effect of the Pholiota adiposa polysaccharide (초록) (Food & Function, 2022; PMID 35420612)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35420612/",
+   "publisher": "Food & Function (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Structural analysis and in vitro antitumor effect of polysaccharides from Pholiota adiposa (초록) (Glycoconjugate Journal, 2022; PMID 35675021)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35675021/",
+   "publisher": "Glycoconjugate Journal (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Isolation and purification of polysaccharides with anti-tumor activity from Pholiota adiposa (Batsch) P. Kumm. (초록) (International Journal of Medicinal Mushrooms, 2012; PMID 22577977)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22577977/",
+   "publisher": "International Journal of Medicinal Mushrooms (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "The structural characterization of a polysaccharide exhibiting antitumor effect from Pholiota adiposa mycelia (초록) (Scientific Reports, 2019; PMID 30741980)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30741980/",
+   "publisher": "Scientific Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Extraction and in vitro antioxidant activity of intracellular polysaccharide by Pholiota adiposa SX-02 (초록) (Journal of Bioscience and Bioengineering, 2011; PMID 20801714)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20801714/",
+   "publisher": "Journal of Bioscience and Bioengineering (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Effect of a Pholiota adiposa Extract on Fat Mass in Hyperlipidemic Mice (PMC3769580 전문) (Mycobiology, 2006; PMID 24039505)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24039505/",
+   "publisher": "Mycobiology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Untargeted metabolomic analysis of the therapeutic effects of Pholiota adiposa in H22 hepatocellular carcinoma tumor-bearing mice (초록) (Journal of Bioenergetics and Biomembranes, 2025; PMID 40772996)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40772996/",
+   "publisher": "Journal of Bioenergetics and Biomembranes (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Chemical Components Analyzed by UPLC-QTOF-MS and In Vitro Antitumor Effects of the Chestnut Mushroom Pholiota adiposa (초록) (International Journal of Medicinal Mushrooms, 2023; PMID 37075083)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37075083/",
+   "publisher": "International Journal of Medicinal Mushrooms (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Saccharification of poplar biomass by using lignocellulases from Pholiota adiposa (초록) (Bioresource Technology, 2012; PMID 22831905)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22831905/",
+   "publisher": "Bioresource Technology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Characterization of a β-1,4-mannanase from a newly isolated strain of Pholiota adiposa and its application for biomass pretreatment (초록) (Bioprocess and Biosystems Engineering, 2014; PMID 24590240)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24590240/",
+   "publisher": "Bioprocess and Biosystems Engineering (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Immobilization of Pholiota adiposa xylanase onto SiO2 nanoparticles and its application for production of xylooligosaccharides (초록) (Biotechnology Letters, 2012; PMID 22421976)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22421976/",
+   "publisher": "Biotechnology Letters (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Untargeted GC × GC/HRMS profiling of volatile and semi-volatile organic compounds in dried edible mushrooms supported by multivariate statistical tools (초록) (Journal of Chromatography A, 2026; PMID 42492467)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42492467/",
+   "publisher": "Journal of Chromatography A (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "A Novel Fungal Metabolite 1-Methyl-1,2,3,4-tetrahydro-β-carboline-3-carboxylic Acid Enhances Apple Resistance to Glomerella cingulata (초록) (Journal of Agricultural and Food Chemistry, 2026; PMID 42473334)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42473334/",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Uncovering active ingredients and mechanisms of Pholiota adiposa in the treatment of Alzheimer's disease based on network pharmacology and bioinformatics (초록) (Scientific Reports, 2025; PMID 40745201)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40745201/",
+   "publisher": "Scientific Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "The effects of zinc sulfate on mycelial enzyme activity and metabolites of Pholiota adiposa (초록) (PLoS One, 2023; PMID 38127967)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38127967/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Antimicrobial activity of the macrofungus Pholiota adiposa (초록) (Fitoterapia, 2004; PMID 15159005)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15159005/",
+   "publisher": "Fitoterapia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Anti-hepatoma immunotherapy of Pholiota adiposa polysaccharide-coated selenium nanoparticles by reversing M2-like tumor-associated macrophage polarization (초록) (International Journal of Biological Macromolecules, 2024; PMID 38969038)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38969038/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Species level identification of conifer associated Ceratocystis sapstain fungi by PCR-RFLP on a beta-tubulin gene fragment (초록) (FEMS Microbiology Letters, 2003; PMID 12757958)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12757958/",
+   "publisher": "FEMS Microbiology Letters (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Taxonomy, Biological Characterization, and Fungicide Sensitivity of a New Species Causing Cobweb Disease in Gold Mushroom (Pholiota conissans) in China (초록) (Plant Disease, 2026; PMID 42616610)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42616610/",
+   "publisher": "Plant Disease (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Differences in the activities of eight enzymes from ten soil fungi and their possible influences on the surface structure, functional groups, and element composition of soil colloids (초록) (PLoS One, 2014; PMID 25398013)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25398013/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Effect of fungal species on thermal conductivity and chemical composition in mycelium-based insulation (초록) (Scientific Reports, 2026; PMID 41484443)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41484443/",
+   "publisher": "Scientific Reports (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

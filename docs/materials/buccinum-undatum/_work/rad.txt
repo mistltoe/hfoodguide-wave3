@@ -1,0 +1,799 @@
+1
+
+INTRODUCTION
+
+The reconstruction of spatial genetic structure can provide valuable insights into the evolutionary processes affecting species—such as genetic drift, adaptive selection, and gene flow between populations (Crawford & Oleksiak,; Funk et al.,; Kohn et al.,)—while facilitating the characterization of historical demographic events and ongoing evolutionary trajectories (Emerson et al.,). Marine invertebrate phylogeography in the north Atlantic Ocean has been shaped by climate variation during the Pleistocene Epoch; glacial cycles have repeatedly altered species' distributions over the last two million years. Several marine invertebrate species have gone extinct in North America and have subsequently been recolonized from Europe (Ingolfsson,; Vermeij,; Wares & Cunningham,). Expansion from southern refugia since the last glacial maximum 18–25 k years ago is generally believed to account for present‐day distributions. However, some species survived in glacial refugia and have recolonized from more northerly latitudes (Coyer et al.,; Maggs et al.,; Panova et al.,), undergoing genetic bottlenecks that resulted in signatures of low genetic diversity as found in recently expanded populations.
+
+The common whelk,(Linnaeus, 1758), is a commercially valuable neogastropod species characterized by slow maturation rates, a mostly sedentary adult lifestyle, internal fertilization, and direct development of larvae (Himmelman,; Himmelman & Hamel,; Jalbert et al.,; Martel et al.,). Common whelk is broadly distributed at high latitudes across the North Atlantic Ocean, from eastern North America to western Europe, as well as Greenland, Iceland, and the Norwegian Sea (Gendron,; Golikov,; Taylor & Taylor,). Phylogenetic reconstructions utilizing mitochondrial (mt)DNA cytochrome oxidase subunit I (COI) markers identified two monophyletic lineages (eastern and western North Atlantic: ENA and WNA, respectively), hypothesized to have diverged early during the Pleistocene approximately 2.1 mya (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Pálsson et al.,). Molecular indices, based on COI, indicate that the WNA and ENA lineages should be considered cryptic species that have diverged in allopatry (Magnúsdóttir et al.,). Canadian and ENA whelk also display variation in shell morphology (Magnúsdóttir, Pálsson, Westfall, Jónsson, & Örnólfsdóttir,), as well as temporal spawning differences (Canadian whelk breed in May–July while ENA whelk in September–February) (Kideys et al.,; Magnúsdóttir et al.,; Martel et al.,), further supporting the diversification of the Canadian and ENA lineages. Within the ENA lineage, multiple studies ofhave reported patterns of local population structure following an isolation‐by‐distance model (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Mariani et al.,; Pálsson et al.,; Weetman et al.,) at distances as short as 30 km in Icelandic waters (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Pálsson et al.,). However, despite repeated observations of fine‐scale population structure, genetic divergence (as measured by) across the entire ENA lineage is uncharacteristically low (Weetman et al.,). Large effective population size and recent divergence may explain the limited genetic differentiation. Semi‐continuity has also been proposed as a potential mechanism maintaining gene flow among the European populations (Mariani et al.,; Weetman et al.,).
+
+Comparing intraspecific patterns of genotypic and phenotypic variation may also elucidate concordant or distinctive responses to environmental landscapes (Zamudio et al.,). Common whelk displays discordant relationships between genotypic and phenotypic variation across small geographic scales in Iceland (Magnúsdóttir et al.,) and Ireland (Mariani et al.,). In Breiðafjörður (western Iceland), shell traits such as shape and color are highly differentiated among geographically proximate populations (20–30 km), exhibiting small but significant amounts of neutral genetic variation (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Pálsson et al.,). Fine‐scale phenotypic patterns have been documented, with shell shape and color exhibiting gradients from the inner to the outer bay that correlated with environmental variables (Magnúsdóttir et al.,). Limited demographic connectivity was apparent from the patterns of phenotypic variation; still, with only low levels of neutral genetic differentiation among the same populations, it was hypothesized that plastic responses to environmental variation are driving the observed phenotypic divergence (Mariani et al.,).
+
+Although phenotypic variation may reflect population differentiation at the molecular level, a certain level of discordance can be expected due to sampling of markers, selection on functional traits, or plasticity. Previous studies on common whelk were based on a handful of loci (microsatellite and mtDNA COI) (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Mariani et al.,; Pálsson et al.,; Weetman et al.,). Studies utilizing genome‐wide genetic datasets such as RAD sequencing (Davey & Blaxter,) may be required to delineate concordant responses between the genotypic and phenotypic variations observed in common whelk. RAD sequencing has been used to resolve fine‐scale population structure in several marine invertebrates species, including the American and European lobster (Benestan et al.,; Jenkins et al.,), great and Mediterranean scallop (Vendrami et al.,,), sea scallop (Van Wyngaarden et al.,), and staghorn corals (Drury et al.,). Additionally, RAD sequencing has the potential to detect uncharacterized cryptic species complexes within known species distributions (e.g., in the River Limpet (Weiss et al.,)). As such, utilization of large‐scale RAD sequencing datasets may help clarify the low overall genetic differentiation across the ENA lineage and provide further evidence of the cryptic species found within common whelk.
+
+The current study utilizes new and extensive geographic sampling of common whelk across the North Atlantic combined with RAD sequencing technologies to assess the genetic structure within the species at varying geographic scales, ranging from a broad‐scale analysis of genetic divergence across the North Atlantic to a more targeted fine‐scale analysis of divergence within Iceland. In addition, broad‐scale analyses (herein referred to as North Atlantic‐specific analyses) aimed to evaluate the existence of cryptic species in Canada and Europe and the low genetic divergence within the ENA lineage (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Pálsson et al.,; Weetman et al.,). Within Iceland, individuals from Breiðafjörður Bay (western Iceland) display exceptionally high levels of shell color variation (Magnúsdóttir et al.,). Detailed analyses of geographical patterns of phenotypic shell traits in Breiðafjörður have been described by Magnúsdóttir et al. (). Therefore, in addition to describing fine‐scale population trends in Breiðafjörður using a RAD sequencing approach, we aim to examine further the relationship between population genetic differentiation and existing phenotypic profiling data (shell color and shape) within the bay.
+
+2
+
+MATERIALS AND METHODS
+
+2.1
+
+Sample collection
+
+Livewere collected at seven sites in Breiðafjörður, Iceland (IS,= 295, Figure): Bjarneyjaráll (BJA,= 31), Brjánslækur (BRJ,= 60), Hvammsfjörður (HVA,= 58), Hrútey (HRU,= 66), Oddbjarnarsker (ODD,= 40), Skor (SKO,= 32), and Rauðasandur (RAU,= 8). Across the North Atlantic (Figure), whelk were sampled from Canada (CAN, Quebec, Gulf of St. Lawrence,= 29)England (ENG, English Channel,= 30), and Faroe Islands (FAR,= 29). Geographical coordinates for all sample sites are listed in Table. For all individuals, foot tissue was sampled via dissection and fixed immediately in 96% ethanol. Samples were stored at 4°C for 2 days before being exchanged with fresh ethanol and stored at –30°C.
+
+Figure 1
+
+Sampling sites across the Bay of Breiðafjörður, west Iceland.were collected from the following sites: Rauðasandur (RAU), Skor (SKO), Bjarneyjaráll (BJA), Oddbjarnarsker (ODD), Brjánslækur (BRJ), Hrútey (HRU), and Hvammsfjörður (HVA). GPS coordinates for each sample site can be found in Table
+
+Figure 2
+
+Distribution ofsample sites across the North Atlantic. Individuals sampled are representative of populations from Canada, the Gulf of Saint Lawrence (CAN), Faroe Islands (FAR), England (ENG), and Breiðafjörður in west Iceland. GPS coordinates for each sample site can be found in Table
+
+Table 1
+
+Sample locations, depths, GPS coordinates, and sample numbers (pre‐ and post‐data filtering) forsampled within Breiðafjörður (Iceland) and across the North Atlantic (Canada, England, Faroe Islands)
+
+Location
+
+Abbreviation
+
+Depth (m)
+
+Latitude
+
+Longitude
+
+Year Sampled
+
+Captured ()
+
+Analyzed ()
+
+Iceland
+
+IS
+
+–
+
+–
+
+–
+
+2014
+
+295
+
+104
+
+Bjarneyjaráll
+
+BJA
+
+125
+
+65° 08′27″ N
+
+23° 35′04″ W
+
+2014
+
+31
+
+9
+
+Brjánslækur
+
+BRJ
+
+37
+
+65° 29′52″ N
+
+23° 08′24″ W
+
+2014
+
+60
+
+9
+
+Hvammsfjörður
+
+HVA
+
+15
+
+65° 07′36″ N
+
+22° 22′37″ W
+
+2014
+
+58
+
+34
+
+Hrútey
+
+HRU
+
+36
+
+65° 01′34″ N
+
+22° 56′20″ W
+
+2014
+
+66
+
+18
+
+Oddbjarnarsker
+
+ODD
+
+43
+
+65° 18′50″ N
+
+23° 14′01″ W
+
+2014
+
+40
+
+4
+
+Skor
+
+SKO
+
+53
+
+65° 20′26″ N
+
+23° 55′28″ W
+
+2014
+
+32
+
+24
+
+Rauðasandur
+
+RAU
+
+31
+
+65° 27′59″ N
+
+24° 09′05″ W
+
+2014
+
+8
+
+6
+
+Canada
+
+CAN
+
+18
+
+50° 02′24″ N
+
+66° 25′48″ W
+
+2015
+
+29
+
+28
+
+England
+
+ENG
+
+10
+
+50° 23′24″ N
+
+1° 22′12″ W
+
+2007
+
+30
+
+14
+
+Faroe Islands
+
+FAR
+
+40
+
+61° 46′48″ N
+
+7° 36′00″ W
+
+2008
+
+29
+
+18
+
+John Wiley & Sons, Ltd
+
+2.2
+
+DNA extraction, RAD library preparation, and sequencing
+
+Fixed foot tissue was dried briefly (to evaporate residual ethanol) and cut into small pieces that underwent DNA isolation using an Omega Bio‐Tek E.Z.N.A. Mollusc DNA Kit (as per manufacturer's instructions,). Double digest RAD sequencing libraries were constructed by digesting whole genomic DNA with3AI andKI and selecting fragments 390 bp to 430 bp using a Pippin Prep (Sage Science). Individuals were assigned a molecular identification tag using combinatorial barcoding of forward (5bp) and reverse (6bp) reads, respectively, then pooled into four separate libraries before size selection and amplification using 10 PCR cycles. Resulting library concentrations were quantified using SYBR Gold double‐stranded DNA assay measured on a TECAN GENios plate reader (TECAN,), and the sizes estimated by 2% agarose gel. Library quality was assessed using two pilot sequencing runs on Illumina MiSeq (paired‐end 2 × 150 bp). Libraries were sequenced using Illumina HiSeq 2500 (paired‐end 2 × 125 bp) across four lanes, generating an average of 4 ± 3.5million paired raw reads per individual.
+
+2.3
+
+Data assessment, quality filtering, and stacks assembly
+
+Raw reads were demultiplexed in paired mode () using theprogram inv.2.0b (Catchen et al.,,), with restriction enzymes specified (;) and the,,,,options enabled (demultiplexed reads available from Goodall, et al.,). Note that reads were truncated to 119 bp to ensure equal length following the removal of molecular identification tags. Demultiplexed reads (see Table), which included both Illumina MiSeq and HiSeq data (average of 3,499,689 (±3,131,707 standard deviation) reads per sample), were processed using the de novopipeline (i.e.,,,,,, and).
+
+The initial pass through the de novopipeline was designed to optimize the sample selection of downstream primary analyses by identifying and removing low‐quality individuals within the dataset. Overall,parameters were selected with the aim of retaining a high number of SNPs, with more rigorous filtering of SNPs and individuals occurring downstream. Initially, trimmed reads were processed inwith the,options enabled. To generatecatalogs, sample inputs were limited to= 200 individuals, following the recommendations of Rochette and Catchen (). To avoid the inclusion of over‐ or under‐sequenced individuals inassemblies, the median total read count (as derived from FastQC (Andrews,)) was calculated from all= 383 individuals. The= 200 individuals used constituted those with a total read count closest to this median value, which includedindividuals from each of the four North Atlantic sample locations: Canada(n) = 19; England(n) = 14; Faroe Island(n) = 17; Iceland(n) = 150. Followingcatalog construction (option enabled), the remaining de novopipeline proceeded using the original= 383 samples.andsteps proceeded using default settings, whilewas run in de novo mode (option enabled). Finally,analyses were run with3 and0.5 options enabled, where thedesignated individuals based on their country of origin (i.e., Canada, England, Faroe Islands, and Iceland).
+
+The resulting.vcf file was imported into(Gosselin,) for quality analysis. Radiator'spipeline was run in interactive mode, with the aim of blacklisting poor‐quality markers and individuals. Filtering parameters and outputs are listed in Table. Afterfiltering, the following samples were considered as whitelisted and used for all primary analyses downstream: Canada(n) = 28; England(n) = 14; Faroe Island(n) = 18; and Iceland(n) = 117.
+
+Primary analyses were initiated by undertaking a second pass through the de novopipeline using only the optimized= 177 whitelisted sample set. Again,parameters were selected with the aim of retaining high numbers of SNPs, with more rigorous filtering occurring downstream in. Initially, thecatalog was reassembled (option enabled) using all= 177 individuals.andsteps were run using default settings, andrun in de novo mode (option enabled), yielding 900,825 loci, with an effective per‐sample coverage of 17.7 (± 6.8 standard deviation).analyses were again run with3 and0.5 options enabled, anddesignating individuals based on their country of origin. Low‐quality individuals and markers were again filtered using(parameters and outputs listed in Table). The number of individuals retained, postfiltering, across all geographic scales of analysis is listed in Table. The average coverage per marker followingwas 18.6 (±6.3 standard deviation).
+
+Departure from Hardy–Weinberg equilibrium (HWE) was assessed using a chi‐squared test ((Paradis,), where the false discovery rate ofwas controlled for using Benjamini and Yekutieli () procedure for multiple testing. HWE tests were undertaking in a population‐wise manner, where population status was assigned based on country of origin, except for Icelandic individuals who were assigned population status relative to their sample site of origin in Breiðafjörður. In addition to population‐wise chi‐squared values, combined probabilities across all populations were calculated using Fisher's combined probability (Sokal & Rohlf,) and adjusted using Benjamini‐Yekutieli's procedure. Loci were removed from the dataset when either two or more populations significantly deviated from HWE, or significant Fisher's combined probability values (< .05) were observed (these parameters are not mutually exclusive). Notably, departure from HWE was assessed on a scale‐specific manner; firstly, at the North Atlantic scale where all individuals from all populations (with all sites from Breiðafjörður representing Iceland) were included and, secondly, at the Icelandic scale where only individuals from Iceland were assessed (again with population designated relative to sample site in Breiðafjörður). Adaptive SNPs (putative loci under selection) were identified either at the North Atlantic or Icelandic scale using(Foll & Gaggiotti,), with parameters set for 50,000 iterations with prior odds of 100, following 20 pilot runs of 5,000 interactions each, a thinning interval of 10, and a burn‐in length of 50,000. Confirmation of Markov chain convergence was conducted using Gelman and Rubin multiple sequence diagnostic and Heidelberger and Welch's Convergence diagnostic tests within the‐package(Plummer et al.,). Putative adaptive SNPs were removed from the North Atlantic or Icelandic datasets using(Jombart & Ahmed,) (loci were considered outliers under a false discovery rate (FDR) of 0.05). All downstream analysis of the quality filtered North Atlantic‐ and Iceland‐specific datasets were conducted independently.
+
+2.4
+
+Analysis of genetic variation and population divergence
+
+The estimation of genetic variation and divergence was undertaken in both North Atlantic and Icelandic datasets using the neutral SNP dataset exclusively. Mean observed heterozygosity (), expected heterozygosity (), and inbreeding coefficient () per population were calculated using(Goudet,). All pairwisecalculations were computed infollowing 1,000 permutations (Gruber et al.,). The presence of putative population clusters () within the genomic data was estimated using thefunction of(Jombart,; Jombart & Ahmed,). The optimal number of clusters () was selected by computing the value ofwith the lowest associated goodness of fit value estimated with BIC.
+
+Population genetic structure was visualized by using Gower PCoA ordination (using Euclidean distance) in. Population structure was visualized using PCoA both when considering population assignments as sample site of origin or as a function of the putative population clusters () assignments. Population admixture was estimated using the Discriminant Analysis of Principal Components (DAPC) in(Jombart et al.,). The number of principal components retained within DAPC was optimized using the a‐score optimization test prior to analysis. Admixture was expressed both when considering population assignments as sample site of origin or as a function of the putative population clusters () assignments. Isolation‐by‐distance was assessed by analyzing the association of genetic and geographic distances for all individuals using a Mantel test in(Dray & Dufour,; Mantel,). Relative migration rates for Icelandic individuals were calculated on a per‐sample site basis using thefunction in(Keenan et al.,), where relative migration was derived from Nei's Gstatistic.
+
+Finally, genomic divergence across the North Atlantic was investigated by assaying haplotype coancestry.derived haplotype.tsv files were converted to a(Malinsky et al.,) compatible format using(). Haplotype coancestry of North Atlantic populations was calculated usingand visualized inusing the scripts provided in themanual ().
+
+2.5
+
+Comparison of genetic and phenotypic trends in Breiðafjörður, Iceland
+
+Comparisons of genetic and phenotypic distances were performed for the Icelandic dataset only. Phenotypic data corresponding to each of the Icelandic sites was sourced from Magnúsdóttir et al. (). No phenotypic data could be sourced from RAU (Rauðasandur), and therefore, individuals from this site were excluded from phenotype association analyses. Phenotypic data corresponding to the following measures were sourced: (a) shell shape, based on eleven geometric morphometric landmarks on the ventral surface of the shell that combine information on shell spire/body whorl ratio, aperture shape, shell shape, and shell lip thickness; and (b) shell color frequency, based on the primary color of the shell (See Table).
+
+Correlation of genetic distances (euclidean) with phenotypic distances was tested on a per‐sample site basis, using Mantel's test, with 1,000 permutations in the R‐package(Oksanen et al.,). Euclidean distances were calculated for variation in shell shape between sites, while differences in shell color composition at each site were assessed using Bray–Curtis distances (Oksanen et al.,). To account for spatial autocorrelation due to either geographic distance or differences in depth, a partial Mantel test was implemented (Smouse et al.,) whereby either the effect of geographic distance or depth differences was kept constant.
+
+The relationship between population genetic and phenotypic structuring was tested using cluster (= 2) population assignments. Correlation between putative population clusters and shell shape differences were assessed using permutational multivariate analysis of variance of shape distances, implemented using the() function in(Oksanen et al.,) with the assigned putative genetic clusters as the explanatory variable. Similarly, correlation between putative population clusters and shell color were assessed by comparing differences in shell color frequencies between putative population clusters, using Fisher's exact test (Fisher,).
+
+3
+
+RESULTS
+
+3.1
+
+Population genetic structure and divergence across the North Atlantic
+
+Following genotype calling () andquality filtering, North Atlantic‐specific analyses (= 164 individuals) yielded a total of 35,836 common putative single locus SNP across Canada (= 28), Iceland (= 104), Faroe Islands (= 18), and England (= 14). A further= 314 loci significantly deviated from HWE and were removed from the dataset, as were= 2 loci flagged as putative adaptive SNP candidates (qval ≤ 0.05). All downstream analyses were performed on the remaining= 35,518 putative neutral loci (total missing data 18.4%) retained postfiltering.
+
+Genetic diversity was similar in all ENA populations (Iceland, Faroe Islands, England), with observed heterozygosity ranging from 0.146 to 0.158 (Table), while gene diversity was lowest for Canadian individuals (= 0.107). None of the North Atlantic populations displayed signals of inbreeding withranging from 0.043 to 0.068. At the North Atlantic scale, calculations of pairwiseidentified significant genetic divergence for all pairwise comparisons (< .001, Table).values for all pairwise comparisons with Canadian exceeded 0.57, whilevalues within the ENA ranged from 0.059 to 0.098. Overall, genetic divergence followed a model of isolation‐by‐distance (0.884,.001), with the Faroe Islands and England whelk displaying the greatest degree of genetic similarity, followed by Iceland, while Canada represented the most genetically divergent population relative to ENA populations (Figure). No signals of population admixture (DAPC optimized to retain= 23 principal components) were observed between Canada, Iceland, Faroe Islands, and England (Figure).
+
+The Bayesian information criterion estimated optimal goodness of fit value at= 3 population clusters. Canadian and Icelandic populations formed distinct putative populations relative to the Faroe Islands and England whelk (Figure). No signals of population admixture were detected between putative population assignments at the North Atlantic (DAPC optimized to retain= 23 principal components).
+
+Haplotype coancestry analyses indicated a lack of shared genetic ancestry between CAN and all ENA individuals, with the split of CAN and the ENA lineages occurring before any subsequent ENA divergence (Figure). Regarding the ENA clade, Icelandic individuals formed an outgroup distinct from the Faroe Islands and English haplotypes. Within the Iceland‐specific branch, haplotypes were primarily structured into two further subgroups. For the Faroe Island‐ and England‐specific clade, individual haplotypes were structured by country of origin, with Faroe Islands and English individuals forming two distinct sister groups.
+
+Table 2
+
+Summary of average observed heterozygosity (H), expected heterozygosity (H), and inbreeding coefficient (F) forpopulations sampled from across the North Atlantic. Populations are designated relative to the country of origin with countries denoted as CAN (Canada), ICE (Iceland), FAR (Faroe Island), and ENG (England). The standard error is denoted as SE
+
+Population
+
+Individuals
+
+H
+
+O
+
+±SE
+
+H
+
+E
+
+±SE
+
+F
+
+IS
+
+±SE
+
+CAN
+
+28
+
+0.107
+
+0.001
+
+0.108
+
+0.001
+
+0.047
+
+0.001
+
+ICE
+
+104
+
+0.157
+
+0.001
+
+0.167
+
+0.001
+
+0.068
+
+0.001
+
+FAR
+
+18
+
+0.158
+
+0.001
+
+0.159
+
+0.001
+
+0.043
+
+0.001
+
+ENG
+
+14
+
+0.146
+
+0.001
+
+0.148
+
+0.001
+
+0.050
+
+0.001
+
+Overall
+
+164
+
+0.147
+
+0.001
+
+0.214
+
+0.001
+
+0.053
+
+0.001
+
+John Wiley & Sons, Ltd
+
+Table 3
+
+Pairwisevalues forsampled across the North Atlantic. Values ofare listed above the diagonal, while values below represent significance values () of pairwise comparisons. Significance values () of pairwise comparisons were obtained following 1,000 permutations. Populations are listed based on country of origin, with abbreviations corresponding to the following: CAN (Canada); ICE (Iceland); ENG (England); and FAR (Faroe Islands)
+
+CAN
+
+ICE
+
+FAR
+
+ENG
+
+CAN
+
+–
+
+0.572
+
+0.603
+
+0.619
+
+ICE
+
+<0.001
+
+–
+
+0.061
+
+0.098
+
+FAR
+
+<0.001
+
+<0.001
+
+–
+
+0.059
+
+ENG
+
+<0.001
+
+<0.001
+
+<0.001
+
+–
+
+John Wiley & Sons, Ltd
+
+Figure 3
+
+Summary of inferred population genetic structure for(= 164) sampled from across the North Atlantic. All plots are derived from 35,518 putatively neutral SNP. Plots corresponding to the following: (a) Gower PCoA ordination (using euclidean distance) plot where population is assigned relative country of origin; (b) Admixture plot where population is assigned relative country of origin; (c) Gower PCoA ordination plot where population is assigned relative to optimal cluster (= 3) assignments; (d) Admixture plot where population is assigned relative to optimal cluster (= 3) assignments. Individuals are labeled relative country of origin: Canada (CAN, orange), Iceland (ICE, purple), Faroe Island (FAR, blue), and England (ENG, green)
+
+Figure 4
+
+Haplotype coancestry matrix inferred for North Atlanticpopulations. Each pixel within the heatmap represents the inferred coancestry coefficient for a given individual based on haplotype loci. Colored bars adjacent to the heatmap represent individuals' country of origin, including England (green), the Faroe Islands (blue), Iceland (purple), and Canada (red). Within the heatmap, individuals with the highest shared coancestry are depicted in darker colors, while lesser values of coancestry are depicted in brighter shades. Bootstrap support is listed for each branch divergence for the inferred phylogeny
+
+3.2
+
+Population genetic structure and divergence in Iceland
+
+Quality filtering reduced sample representation across all sample sites (particularly for ODD), with Iceland‐specific analyses being conducted across BJA (= 9), BRJ (= 9), HVA (= 34), HRU (= 18), ODD (= 4), SKO (= 24), and RAU (= 6). Following the preparation of the Icelandic‐specific dataset (35,836 common putative single locus SNP across all individuals), quality filtering removed a further= 268 loci, which significantly deviated from HWE, as well as a further= 175 putatively adaptive SNP candidates (qval ≤ 0.05). All downstream Iceland‐specific analyses proceeded with the remaining= 35,393 putative neutral loci (total percentage of missing data = 19.4%).
+
+Genetic diversity was similar across all Icelandic populations, with observed heterozygosity ranging from 0.149 to 0.165 and inbreeding coefficient () ranging from −0.019 to 0.040 (Table). Calculations of pairwiseidentified significant genetic divergence between all pairwise comparisons (.001, Table). Genetic divergence followed a model of isolation‐by‐distance (= 0.203,= .001), with individuals within the outermost (SKO, RAU, BJA) and innermost (BRJ, HRU, HVA, ODD) regions of Breiðafjörður, generally, displaying the greatest degree of genetic similarity (Figure) and admixture (Figure), respectively. Estimations of clusters (K) inindicated further regional segregation of population genetic variation, predicting an optimal BIC goodness of fit value at= 2, with clusters segregating outer‐ (SKO, RAU, BJA) and innermost (BRJ, HRU, HVA, ODD) bay sites (Figure). When considering the optimal cluster () population assignments, admixture plots indicated minimal gene flow between the putative outer‐ and innermost bay populations (see Figure). Migration analyses indicated that coastal sites generally share the greatest degree of migration (Figure), particularly for the inner bay sites BRJ, HRU, and HVA. For both mid‐bay sites (BJA and ODD), which occur at the greatest depth, unidirectional migration patterns were observed, with migration occurring exclusively from deep site to proximal coastal sites.
+
+Table 4
+
+Summary of average observed heterozygosity (), expected heterozygosity (), and inbreeding coefficient () forpopulations sampled from Breiðafjörður Bay, Iceland. Populations are designated relative to their sample site of origin with sites denoted as BJA (Bjarneyjaráll), BRJ (Brjánslækur), HVA (Hvammsfjörður), HRU (Hrútey), ODD (Oddbjarnarsker), SKO (Skor), and RAU (Rauðasandur). The standard error is denoted as SE
+
+Population
+
+Individuals
+
+H
+
+O
+
+±SE
+
+H
+
+E
+
+±SE
+
+F
+
+IS
+
+±SE
+
+BJA
+
+9
+
+0.149
+
+0.001
+
+0.140
+
+0.001
+
+0.026
+
+0.001
+
+BRJ
+
+9
+
+0.157
+
+0.001
+
+0.148
+
+0.001
+
+0.016
+
+0.001
+
+HRU
+
+18
+
+0.157
+
+0.001
+
+0.157
+
+0.001
+
+0.040
+
+0.001
+
+HVA
+
+34
+
+0.160
+
+0.001
+
+0.162
+
+0.001
+
+0.034
+
+0.001
+
+ODD
+
+4
+
+0.165
+
+0.001
+
+0.143
+
+0.001
+
+−0.019
+
+0.002
+
+RAU
+
+6
+
+0.161
+
+0.001
+
+0.150
+
+0.001
+
+0.017
+
+0.002
+
+SKO
+
+24
+
+0.159
+
+0.001
+
+0.161
+
+0.001
+
+0.036
+
+0.001
+
+Overall
+
+104
+
+0.158
+
+0.001
+
+0.167
+
+0.001
+
+0.024
+
+0.001
+
+John Wiley & Sons, Ltd
+
+Table 5
+
+Pairwisevalues for Buccinum undatum sampled within Breiðafjörður Bay, Iceland. Values ofare listed above the diagonal, while values below represent significance values () of pairwise comparisons. Significance values () of pairwise comparisons were obtained following 1,000 permutations. Populations are listed relative to individuals sample site of origin, with abbreviations corresponding to the following: BJA (Bjarneyjaráll), BRJ (Brjánslækur), HVA (Hvammsfjörður), HRU (Hrútey), ODD (Oddbjarnarsker), SKO (Skor), and RAU (Rauðasandur)
+
+BJA
+
+BRJ
+
+HRU
+
+HVA
+
+ODD
+
+RAU
+
+SKO
+
+BJA
+
+–
+
+0.068
+
+0.067
+
+0.068
+
+0.051
+
+0.057
+
+0.053
+
+BRJ
+
+<0.001
+
+–
+
+0.009
+
+0.007
+
+0.015
+
+0.035
+
+0.038
+
+HRU
+
+<0.001
+
+<0.001
+
+–
+
+0.007
+
+0.012
+
+0.036
+
+0.040
+
+HVA
+
+<0.001
+
+<0.001
+
+<0.001
+
+–
+
+0.012
+
+0.035
+
+0.038
+
+ODD
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+–
+
+0.018
+
+0.026
+
+RAU
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+–
+
+0.003
+
+SKO
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+<0.001
+
+–
+
+John Wiley & Sons, Ltd
+
+Figure 5
+
+Summary of inferred population genetic structure for(= 104) sampled from Breiðafjörður, Iceland. All plots are derived from 35,836 putatively neutral SNP. Plots corresponding to the following: (a) Gower PCoA ordination (using euclidean distance) plot where individual population is assigned relative to capture site in Breiðafjördur; (b) Admixture plot where individual population is assigned relative to capture site in Breiðafjördur; (c) Gower PCoA ordination plot where individual population is assigned relative to optimal cluster (= 2) assignments; (d) Admixture plot where individual population is assigned relative to optimal cluster (= 2) assignments. Individuals are labeled relative to capture site in Breiðafjördur: Rauðasandur (RAU, purple), Skor (SKO, pink), Bjarneyjaráll (BJA, red), Oddbjarnarsker (ODD, blue), Brjánslækur (BRJ, brown), Hrútey (HRU, green), and Hvammsfjörður (HVA, blue‐green)
+
+Figure 6
+
+Relative migration network of sample sites within Breiðafjörður, Iceland. Migration rates are calculated from Nei's GST. Filter thresholds were set to exclude weak migration patterns at values < 0.3. Sample sites within Breiðafjörður are abbreviated as follows: Rauðasandur (RAU), Skor (SKO), Bjarneyjaráll (BJA), Oddbjarnarsker (ODD), Brjánslækur (BRJ), Hrútey (HRU), and Hvammsfjörður (HVA)
+
+3.3
+
+Comparison of genetic and phenotypic variation in Iceland
+
+No significant correlation between shell shape distances or color dissimilarity were observed (> .05) when considering individuals on a site‐specific basis, regardless of correction for spatial autocorrelation (geographic distance or depth). Sites were grouped into putative population clusters based on K‐means clustering (= 2) and analyzed for correlations between genetic distance and phenotypic traits, shell shape distances, and color frequency (Magnúsdóttir et al.,). Significant differences in both color frequency (Fisher's test:= .0005) and shape distances (′ = 15.95,= .001) were observed between the two putative genetic clusters. The outer bay cluster consisted primarily of lighter shell colors, with orange and white being the most common (Table), while the inner bay cluster consisted predominantly of green and brown shells. With regard to shell shape, the outer bay cluster was correlated with rounder shells, a proportionally shorter spire (compared with the body whorl), and a more elongate aperture (Magnúsdóttir et al.,), whereas the inner bay cluster was correlated with more elongate shells, with a comparatively taller spire, and smaller rounder apertures.
+
+4
+
+DISCUSSION
+
+The current study undertook a comprehensive analysis of North Atlantic population genetic structure in the common whelk utilizing a RAD sequencing approach. WNA (Canada) and ENA (England, Faroe Islands, and Iceland) populations were highly divergent, with an≥ 0.57 relative to within‐ENA divergence (≤ 0.1), bolstering previous claims that the two lineages constitute cryptic species that diverged under allopatric speciation (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Pálsson et al.,). Smaller but significant differentiation was also observed between all ENA sites (Iceland, Faroe Islands, England), with putative cluster assignments suggesting genetic substructuring within the ENA likely exists, particularly regarding Icelandic populations being differentiated from both Faroe Islands and English populations. Haplotype coancestry analyses further support the characterization of ENA populations as a distinct lineage, typified by moderate to low intra‐lineage population divergence. Limited but significant population structure following an isolation‐by‐distance model was also detected in Icelandic populations, suggesting that limited dispersal inconstrains gene flow at localized and broad geographic scales across the ENA. Analyses of genetic variation in the bay of Breiðafjörður (Iceland) identified two putative population clusters composed exclusively of individuals sampled from the bay's outer‐ and innermost regions. Significant correlation between shell shape variation and shell color frequency were observed in Iceland, with phenotypic traits showing concordance with the denotation of Breiðafjörður whelk as distinct outer‐ and innermost bay population clusters.
+
+Direct‐developing, benthic marine species are hypothesized to exhibit greater population genetic structure, relative to broadcast spawners, due to their limited dispersal capabilities. While rafting of egg masses may confer some means of dispersal for direct‐developing gastropods (see Johannesson,; Kyle & Boulding,; Marko,), the frequency of such events is unlikely to maintain gene flow to an extent which counteracts the effects of high self‐recruitment. Existing population genetic studies ofdescribed genetic structuring following an isolation‐by‐distance model across the North Atlantic (Magnúsdóttir, Pálsson, Westfall, Jónsson, Goodall, et al.,; Mariani et al.,; Pálsson et al.,; Weetman et al.,); however, it remained unclear whether the variation observed from mitochondrial/microsatellite markers was representative of broader genomic trends. In the present study, trends in population structure both within Iceland and across the North Atlantic (as scored from a set of RAD sequencing SNPs) were commensurate with existing mitochondrial/microsatellite works.
+
+Our results reaffirm mtDNA data at the North Atlantic scale, indicating the Canadian and ENA populations constitute two distinct genetic lineages, which diverged some 2.1 million years ago (Magnúsdóttir, Pálsson, Westfall, Jónsson, & Örnólfsdóttir,). Haplotype coancestry estimates indicated Canadian and ENA whelk represent two distinct genetic lineages, with subsequent divergence within the ENA lineage occurring more recently. For all pairwise comparisons,and DAPC analyses indicated significant genetic divergence with restricted gene flow between Canadian and ENA populations. Recent work focused on themtDNA gene,, indicated the presence of cryptic species or clear allopatric divergence between Canadian and ENA whelk based on multiple species screening indices (Magnúsdóttir, Pálsson, Westfall, Jónsson, & Örnólfsdóttir,). Regarding SNP‐based population genetic comparisons, Hey and Pinho () proposed an= 0.35 as the upper threshold for intra‐species population comparisons, whereby comparisons exceeding this value likely constitute interspecies comparisons. Under this scheme, Canadian and the ENA whelk exceed Hey and Pinho's ()threshold at ≥0.57 and would thus be considered separate species. Nevertheless, while our data further consolidate evidence of substantial genetic divergence between Canadian and ENA lineages, breeding studies are ultimately required to determine whether the two lineages represent reproductively isolated species conforming to the biological species concept. However, due to asynchronous breeding times, these populations are unlikely to interbreed in nature.
+
+Our results support claims of low, but significant, genetic divergence as a persistent feature within the ENA lineage. Further research is required to derive the mechanisms driving low divergence within the ENA; however, our data suggest that maintenance of gene flow under a stepping stone model is unlikely given little to no admixture is observed between Icelandic, Faroe Islands, and English whelk. At the Icelandic scale, our estimates of(ranging from 0.003 to 0.068) fall within the ranges previously estimated for Breiðafjörður using mtDNA (ranging from 0.0003 to 0.145) (Pálsson et al.,). On a regional basis, globalfor Iceland (global= 0.029) is similar, albeit higher on average, to those derived for British (global= 0.014) and Irish (global= 0.019)populations (Mariani et al.,; Weetman et al.,).
+
+While previous studies have speculated on the occurrence of multiple spatially differentiatedpopulations within Breiðafjörður (Magnúsdóttir et al.,,; Woods & Jonasson,), our study is the first to characterize fine‐scale genetic structure in the region. Interestingly, profiles of heterozygosity and genetic divergence in Iceland are dissimilar to those described for Britain. Weetman et al. () characterized reduced genetic diversity and greater genetic differentiation in inshore, relative to offshore populations, resulting from unidirectional migration by British whelk. Breiðafjörður's populations exhibit similar observed heterozygosity across all site‐specific populations, with populations from the outermost regions of Breiðafjörður (BJA, RAU, and SKO) displaying the greatest degree of genetic differentiation. To summarize, trends in genetic diversity and divergence in Iceland do not indicate unidirectional offshore migration, as seen in Britain. Instead, modeling of migration patterns indicated that some degree of migration likely occurs between all sites; however, said migration is primarily restricted to shallower more coastal sites and, even then, occurs mostly within the putatively assigned outermost and innermost bay population clusters (a trend also reflected by estimations of admixture).
+
+Interestingly, both BJA and ODD, which represent the deepest sites for each putative population cluster, respectively, displayed unidirectional migration patterns toward shallower more coastal sites. Signatures of restricted gene flow in both BJA and ODD were evident in site‐specific admixture plots, even within their putatively assigned population clusters. Shallower, more coastal sites may be more susceptible to disturbance (i.e., in the case of storms), increasing the frequency of rafting events, and thus, admixture between coastal sites. Surface waters in Breiðafjörður are considered to be well mixed, with nearshore currents flowing in a continuous clockwise fashion (Logemann et al.,) across Breiðafjörður. Taken together, deeper sites such as BJA and ODD are likely more stable (with respect to storm events) and less influenced by coastal currents, resulting in reduced gene flow from adjacent sites (a trend that is particularly evident from the high divergence and limited admixture of BJA). As such, gene flow from deep water sites in Breiðafjörður may be primarily dictated by patterns of vertical migration (as seen in the migration pattern analyses), while coastal sites experience more complex gene flow patterns resulting from more dynamic hydrological conditions. Ultimately, the impact of hydrological conditions on benthic communities in Breiðafjörður has not been quantified, and therefore, more targeted studies are required to determine and quantify factors driving the migration ofin Breiðafjörður. Still, based on this study, population genetic structuring in Breiðafjördur is broadly stratified into two distinct population clusters corresponding to the bay's outermost and innermost geographical regions, with both clusters displaying independent signatures of inshore migration and increased migration and gene flow in the shallower, more coastal sites.
+
+Magnúsdóttir et al. () described a trend of thinner, rounder shells with relatively shorter spires, as well as increasing color diversity (and striping) from the innermost to outmost regions of Breiðafjörður. Our study showed that both color frequency distribution and shell shape distance were strongly correlated with putative population cluster () assignments. Divergence in phenotypic shell traits between putative populations can reflect random fluctuations (i.e., genetic drift) in separate populations with limited demographic connectivity, which may be further augmented by selection due to different environmental settings. Previous genetic data are congruent with a model of recent population expansion into Breiðafjörður following the last glacial maximum (Pálsson et al.,), where the ice sheet is considered to have extended 130 km west of the coast, as witnessed by findings of glacial moraines (Norddahl et al.,). Given the species' limited dispersal capabilities, the formation of multiple genetically isolated populations diverging under a genetic drift model is possible. Similar concepts have been proposed to explain the lowvalues recorded for the ENA lineage, whereby population bottlenecks would have facilitated genetic drift, leading to low but significant population differentiation (Weetman et al.,). However, the inner regions of Breiðafjörður, which are typically shallower, also contain a variety of predatory crab species such as the Spider crab (), Green crab (), and Atlantic Rock crab (). Thicker, more elongate shells with smaller apertures were hypothesized to occur in association with the predatory crab species in the innermost regions of Breiðafjörður (Bourdeau & Johansson,; Magnúsdóttir et al.,; Thomas & Himmelman,). At greater depths, negative selection by visual predators may be less intense, allowing for greater shell color diversity to be represented by individuals inhabiting the outermost regions of Breiðafjörður. In the presence of visual predators, negative selection may also constrain the frequency of particular color morphs within Breiðafjörður while selecting for specific shell shapes. Future studies should seek to characterize the relationship between genetic variation and shell shape and color in Breiðafjörður using genome‐wide association studies. In particular, GWAS studies should seek to link genetic variation with specific color morphs in a bid to characterize the distribution and frequency of color‐linked genes across Breiðafjörður.
+
+The current study undertook the first genome‐wide analysis of population structure and divergence in. Our genetic works reinforce the need to re‐examineas a singular trans North Atlantic species, with Canadian and ENA whelk likely representing a potentially cryptic species complex. A clear pattern of fine‐scale population genetic structuring following a model of isolation‐by‐distance was established as a persistent trend across both small‐ (Breiðafjörður) and large‐scale (North Atlantic) geographical distances. Clear population genetic structure was defined forwithin Breiðafjörður, Iceland, constituting two distinct putative genetic clusters. The frequency distribution of shell color and shell shape distance was significantly correlated with the two putative genetic clusters in Breiðafjörður. The work detailed here provides a rigid framework for ongoing associative studies of genetic variation in the subtidal mollusk,, while laying the foundations for future comparative studies aimed at characterizing genotype–phenotype associations in common whelk.
+
+CONFLICT OF INTEREST
+
+None to declare.
+
+AUTHOR CONTRIBUTION
+
+Conceptualization (equal); Data curation (equal); Formal analysis (lead); Methodology (equal); Project administration (equal); Validation (lead); Visualization (lead); Writing‐original draft (lead); Writing‐review & editing (lead).Conceptualization (equal); Data curation (equal); Formal analysis (supporting); Funding acquisition (supporting); Investigation (equal); Methodology (equal); Project administration (equal); Validation (supporting); Visualization (supporting); Writing‐original draft (supporting); Writing‐review & editing (supporting).Conceptualization (equal); Data curation (equal); Formal analysis (supporting); Funding acquisition (supporting); Investigation (equal); Methodology (equal); Project administration (equal); Writing‐original draft (supporting); Writing‐review & editing (supporting).Conceptualization (equal); Formal analysis (supporting); Funding acquisition (supporting); Methodology (equal); Project administration (equal); Resources (supporting); Supervision (equal); Writing‐original draft (supporting); Writing‐review & editing (supporting).Conceptualization (equal); Funding acquisition (lead); Project administration (equal); Resources (lead); Supervision (equal); Writing‐original draft (supporting); Writing‐review & editing (supporting).Conceptualization (equal); Data curation (supporting); Formal analysis (supporting); Funding acquisition (supporting); Investigation (equal); Methodology (equal); Project administration (equal); Resources (supporting); Supervision (equal); Writing‐original draft (supporting); Writing‐review & editing (supporting).
+
+Supporting information
+
+Supinfo
+
+Click here for additional data file.

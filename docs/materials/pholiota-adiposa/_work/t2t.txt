@@ -1,0 +1,435 @@
+1
+
+Introduction
+
+Eukaryotic cells are traditionally defined by the presence of a single nucleus containing the genetic material, typically organized as a diploid genome, although polyploid states such as tetraploidy also occur (Todd Robert et al.). However, across the eukaryotic tree of life, numerous lineages have evolved remarkable variations on this theme, with cells containing two or more nuclei (Dey et al.). Fungi, in particular, display exceptional diversity in nuclear number and organization, ranging from the coenocytic hyphae of many filamentous ascomycetes to the elaborate dikaryotic structures of basidiomycetes (Casselton and Olesnicky; Roper et al.; Lakovic and Rillig).
+
+Among the most striking examples are the mushroom‐forming basidiomycetes (Agaricomycetes), which maintain a dikaryotic state throughout most of their life cycle (Raudaskoski and Kothe). In a dikaryon, two genetically distinct haploid nuclei, each inherited from a different parental monokaryon, coexist within the same cytoplasm and divide synchronously via specialized structures called clamp connections (Casselton and Olesnicky). These two nuclei remain physically separate and do not fuse until the brief diploid stage just before meiosis in the basidium (Vreeburg et al.). This living apart together arrangement maintains some autonomy for each nucleus while requiring coordinated behaviour to support hyphal growth, fruiting body development, and environmental adaptation (Vreeburg et al.). Yet, despite decades of developmental and genetic studies, a fundamental question remains largely unanswered: how do the two coexisting haploid nuclei in a basidiomycete dikaryon coordinate their activities, divide labour, and maintain genomic integrity while coexisting in the same cell?
+
+Recent advances in long read sequencing and haplotype‐resolved genome assembly have begun to shed light on this question at the genomic level. In the shiitake mushroom, Gao et al. () assembled the genomes of two compatible monokaryons (SP3 and SP30) from a commercial dikaryon and revealed that the two nuclei differ by approximately 30% in unique or non‐syntenic genomic content, with extensive chromosomal rearrangements including inversions and translocations (Gao et al.). Similar patterns of inter‐nuclear structural divergence have since been observed in other strains of(Shen et al.; Yoshitake et al.), as well as in, where the two haplotypes of the dikaryotic genome differ by multiple chromosomal rearrangements affecting chromosome number and sequence arrangement (Deng et al.), and in, where chromosomal rearrangements between the two haploid nuclei were also detected (Chen et al.). These findings indicate that inter‐nuclear chromosomal rearrangements, rather than simple allelic differences, may be a recurring feature of basidiomycete dikaryons. However, whether such extensive structural divergence is a universal characteristic across all basidiomycete lineages, or whether some species maintain highly collinear nuclear genomes with functional differentiation occurring at the gene level rather than the chromosomal level, remains an open question requiring investigation in a broader range of species.
+
+(Batsch) P. Kumm., a basidiomycete mushroom belonging to the family Strophariaceae, is a characteristic edible fungus in China (Cao et al.). Its fruiting bodies are rich in polysaccharides, flavonoids, and various bioactive metabolites, with well‐documented potential in antitumor and immunomodulatory functional foods (Kim et al.; Yang et al.; Zhou et al.). Despite its commercial importance, genomic resources forremain severely limited. The publicly available genome assembly in NCBI (GCA_014526955.1) remains at the contig level with an N50 below 1 Mb, lacking chromosome‐scale resolution and comprehensive annotation of repetitive regions. This gap has hindered not only the dissection of the species' dikaryotic genetic architecture but also the genetic analysis of agronomically important traits.
+
+Among these traits, cap colour is a key phenotypic characteristic that varies considerably among wildstrains, with the rare red cap phenotype being particularly prized in the market. In several other edible mushrooms, the genetic basis of cap pigmentation has been linked to melanin and tyrosinase pathways in(Zhang et al.) and(Du et al.), to flavonoid metabolism in(Lv et al.), and to anthocyanin‐associated regulation in(Wang et al.). However, the genetic underpinnings of cap colour variation inremain unexplored at the genomic level.
+
+Based on these considerations, this study used the wildisolate HS5 () to obtain two compatible monokaryons, D1 and D11, and integrated PacBio HiFi, Oxford Nanopore Technologies (ONT) ultra‐long reads, and Hi‐C scaffolding to construct the first telomere‐to‐telomere (T2T)‐level dual‐monokaryon reference genome for this species. Comparative genomics was performed to resolve the collinearity conservation and functional divergence of strain‐specific genes between the two haploid nuclei, revealing nuclear functional partitioning in the basidiomycete dikaryon. Furthermore, whole‐genome resequencing of 18 wild accessions was conducted to evaluate whether the two nuclear genomes yield congruent population genetic inferences and to identify candidate genomic regions associated with red cap colour variation. This study provides a paired haploid reference framework for dissecting nuclear functional divergence in basidiomycetes and offers insights into the genetic architecture of phenotypic variation in a commercially important fungus.
+
+2
+
+Materials and Methods
+
+2.1
+
+Strains and Protoplast Monokaryotization
+
+Thestrainused in this study was collected from Zizhuyuan Park, Haidian District, Beijing, China, in 2009 and is preserved in the Edible Fungal Germplasm Resource Center of the Beijing Academy of Agriculture and Forestry Sciences. The strain was cultured on potato dextrose agar (PDA) medium at 25°C for 13 day and subsequently transferred to liquid medium for mycelial biomass production.
+
+Protoplasts were generated from the dikaryotic strainby enzymatic digestion of the cell wall using lywallzyme (Guangdong Institute of Microbiology, Guangzhou, China). The resulting protoplasts were regenerated on cell wall regeneration medium at a concentration of 1 × 10protoplasts mL. After mycelial recovery, the presence or absence of clamp connections was examined microscopically. Isolates lacking clamp connections were identified as putative monokaryons according to previously described methods (Zhao and Chang).
+
+All obtained monokaryotic isolates were subjected to pairwise mating tests to determine mating compatibility. Compatible pairings produced dikaryotic mycelia with typical clamp connections. Through this screening procedure, two compatible monokaryotic strains, designated D1 and D11, were selected. A reconstructed dikaryon, D1 × D11, was subsequently generated through mating between the two monokaryons.
+
+2.2
+
+Genome Sequencing and Assembly
+
+A multi‐platform sequencing strategy was employed to generate high‐quality genome assemblies. Genomic DNA was extracted frommycelia using the QIAGEN Genomic Kit according to the manufacturer's instructions. Whole‐genome sequencing included PacBio HiFi, Oxford Nanopore Technologies (ONT) ultra‐long reads, and BGI short‐read sequencing.
+
+PacBio HiFi libraries were prepared using the SMRTbell Express Template Prep Kit 2.0 and sequenced on the PacBio Revio platform. Ultra‐long ONT libraries were constructed using the SQK‐ULK001 kit and sequenced on the PromethION platform. For short‐read sequencing, PCR‐free libraries were prepared from DNA extracted using the CTAB method and sequenced on the BGI T7 platform. In addition, Hi‐C libraries were generated to facilitate chromosome‐scale assembly. Cross‐linked DNA was digested with MboI, end‐repaired, and labelled with biotin. Biotinylated fragments were subsequently enriched by PCR and sequenced on the BGI T7 platform using a paired‐end 150 bp strategy.
+
+Genome assembly was initially performed using Hifiasm (v0.19.9‐r616) in ultra‐long read mode to generate a hybrid assembly from HiFi and ONT reads (Cheng et al.). Raw ONT reads were also assembled de novo using NextDenovo (v2.2) with parameters of read_cutoff = 1 kb and seed_cutoff = 25,211. The resulting contigs were polished for six rounds using NextPolish (v1.3.0), including two rounds with ONT reads and four rounds with short reads. To remove redundant primary contigs representing alternative haplotypes in the highly heterozygous genome, purge_dups (v1.2.3) was applied.
+
+Hi‐C data were used for chromosome anchoring and scaffolding. Raw paired‐end reads were filtered using Trimmomatic (v0.40) to remove adapter sequences and low‐quality bases, and the cleaned reads were aligned to the assembled contigs. Contact matrices were generated using Juicer (v3) (Durand et al.). Misassembled regions were corrected through two rounds of iterative refinement using 3D‐DNA (v180922) with the parameter ‐r 19. The resulting scaffolds were further manually curated based on Hi‐C interaction maps using Juicebox Assembly Tools (v1.11.08) (Durand et al.).
+
+To improve assembly continuity, gaps were filled using TGS‐GapCloser (Xu et al.). Potential single‐nucleotide variants (SNVs) and structural variants (SVs) were subsequently corrected following the polishing strategy described by McCartney et al. (Mc Cartney et al.).
+
+2.3
+
+Identification of Telomeres and Centromeres and Genome Quality Assessment
+
+Telomeric and centromeric regions were identified based on the Vertebrate Genomes Project (VGP) telomere analysis pipeline and tandem repeat analysis. Telomeric repeats (CCCTAAA) were manually identified from PacBio HiFi reads, ONT ultra‐long reads, and assembled contigs, and missing telomeric sequences were subsequently recovered when possible. Candidate centromeric regions were detected using Tandem Repeats Finder (TRF) and further validated according to Hi‐C interaction heatmaps.
+
+Genome completeness and assembly quality were evaluated using multiple approaches. Short reads and long reads were aligned to the assembled genome using BWA (v0.7.8) and Minimap2 (v2.21), respectively, to estimate genome coverage and average sequencing depth. Long terminal repeat (LTR) assembly quality was assessed using LTR_retriever (v1.0.7) (Ou and Jiang). Consensus quality value (QV) and genome completeness were further evaluated using Merqury (v1.3) (Rhie et al.).
+
+2.4
+
+Genome Annotation
+
+Tandem repeats within the genome were identified using Tandem Repeats Finder (TRF, v4.09.1) with parameters of 2 7 7 80 10 50 2000. Transposable elements (TEs) were annotated using a combination of de novo and homology‐based approaches at both the DNA and protein levels. Long terminal repeat retrotransposons (LTR‐RTs) were first identified using LTR_FINDER (v1.0.7). A de novo repeat library, including consensus repeat sequences and classification information, was subsequently constructed using RepeatModeler (v2.0.1). RepeatMasker (v4.1.2) was then employed to identify repetitive elements based on both the Repbase TE database and the de novo repeat library. At the protein level, TE‐related proteins were identified using RepeatProteinMask implemented in RepeatMasker through the WU‐BLASTX search engine.
+
+Protein‐coding genes were predicted using a combination of homology‐based, ab initio, and transcriptome‐assisted approaches. For homology‐based prediction, protein sequences from closely related species were aligned to the assembled genome using TBLASTN (v2.11.0+), and the resulting alignments were refined using Exonerate (v2.4.0). Ab initio gene prediction was performed using Augustus (v3.4.0) (Stanke and Morgenstern) and GlimmerHMM (v3.0.4). For transcriptome‐assisted annotation, RNA‐seq reads were aligned to the genome using HISAT2 (v2.2.1), followed by genome‐guided transcript assembly using StringTie (v2.1.7). In parallel, de novo transcriptome assembly was conducted using Trinity (v2.8.5). RNA‐seq and Iso‐Seq transcripts were integrated to generate a comprehensive transcript dataset, which was subsequently processed using the PASA pipeline (v2.4.1) (Haas et al.). Gene models generated from different evidence sources were integrated using MAKER (v3.01.03) (Cantarel et al.) to produce a non‐redundant and high‐confidence gene set. The resulting annotations were further refined using PASA to improve gene structure prediction and to annotate untranslated regions (UTRs) and alternative splicing isoforms.
+
+Functional annotation of predicted proteins was performed based on sequence homology. Protein sequences were searched against the NCBI non‐redundant (NR), KEGG (Kanehisa et al.), Gene Ontology (GO) (Ashburner et al.), TrEMBL, and Swiss‐Prot databases using DIAMOND BLASTP (v2.0.7) (Cantarel et al.) with an‐value cutoff of 1 × 10. Protein domains and functional motifs were identified using InterProScan (v5.50–84.0) (Jones et al.) based on the InterPro database.
+
+Transfer RNA (tRNA) genes were identified using tRNAscan‐SE (v2.0.9). Ribosomal RNA (rRNA) genes were predicted using RNAmmer (v1.2). Small nucleolar RNAs (snoRNAs), microRNAs (miRNAs), and small nuclear RNAs (snRNAs) were identified using Infernal (v1.1.2) by searching against the Rfam database (v14.6) (Kalvari et al.).
+
+2.5
+
+Synteny Analysis, Identification of Genome‐Specific Genes, and Functional Enrichment Analysis
+
+Comparative genomic analysis between the D1 and D11 monokaryotic genomes was performed to identify syntenic genes and genome‐specific genes. Syntenic relationships between the two genomes were detected using MCScanX (Wang et al.). Based on the alignment of shared genomic regions, single‐nucleotide polymorphisms (SNPs) and insertion/deletion (InDel) variants between D1 and D11 were identified using MUMmer (Kurtz et al.).
+
+To identify genome‐specific genes, all predicted genes from the two genomes were subjected to reciprocal BLAST analysis. Genes that lacked significant homologous matches in the counterpart genome (‐value > 1 × 10or no detectable hit) and were not located within syntenic regions were defined as genome‐specific genes.
+
+To investigate the potential biological functions of syntenic and genome‐specific genes, GO and KEGG enrichment analyses were performed separately. GO annotations were classified into three categories, including biological process (BP), molecular function (MF), and cellular component (CC). KEGG enrichment analysis was conducted to identify significantly represented metabolic pathways and biological processes. All annotated genes in each genome were used as the background gene set, and significantly enriched GO terms and KEGG pathways were retained for subsequent functional interpretation.
+
+2.6
+
+Calling, Chromosomal Localization, and Phylogenetic Analysis of 18Strains
+
+Whole‐genome resequencing data from 18strains were analysed using the D1 and D11 monokaryotic genomes as reference assemblies. Raw paired‐end reads were first processed using fastp (v0.23.2) (Chen et al.) to remove adapter sequences and low‐quality reads, including reads with a Phred quality score below 20, more than 10% low‐quality bases, or a length shorter than 50 bp.
+
+Clean reads were aligned to the reference genomes using BWA‐MEM2, and read group information was added during alignment. The resulting alignments were sorted and indexed using SAMtools. PCR duplicates were identified and marked using the MarkDuplicates module implemented in the Genome Analysis Toolkit (GATK).
+
+Variant calling was performed following the GATK Best Practices workflow. Briefly, HaplotypeCaller was run in GVCF mode for each sample to generate individual gVCF files. All gVCF files were subsequently merged using CombineGVCFs and jointly genotyped using GenotypeGVCFs to produce a population‐level variant dataset. Single‐nucleotide polymorphisms (SNPs) were extracted using SelectVariants and filtered using VariantFiltration with the following criteria: QD < 2.0, FS > 60.0, MQ < 40.0, SOR > 5.0, MQRankSum < −12.5, and ReadPosRankSum < −8.0. Only high‐quality SNPs were retained for downstream analyses.
+
+Phylogenetic relationships among the 18 strains were inferred using the neighbour‐joining (NJ) method implemented in MEGA11 (Tamura et al.) based on the filtered SNP dataset. Branch support was evaluated using 1000 bootstrap replicates. The resulting phylogenetic tree was visualized and annotated using the Interactive Tree of Life (iTOL) platform.
+
+To investigate the chromosomal distribution of genetic variation, filtered SNPs were mapped onto the reference chromosomes using the RIdeogram package (Hao et al.), allowing visualization of SNP density and genomic distribution across chromosomes.
+
+2.7
+
+Phenotypic Evaluation of Cap Colour inStrains
+
+A total of 18strains collected from Beijing, Hebei, Gansu, Inner Mongolia, Qinghai, and Jiangsu Provinces, China, were used for phenotypic evaluation during fruiting body development (Table). Mycelia were cultured on PDA at 25°C prior to cultivation. Fruiting bodies were produced on a substrate consisting of 50% cottonseed hulls, 30% sawdust, 18% wheat bran, and 2% lime, with the moisture content adjusted to 67%. After inoculation, cultivation bags were incubated in darkness at 25°C for 60–90 day until complete substrate colonization. The bags were subsequently transferred to a fruiting chamber maintained at 16°C–20°C and approximately 85% relative humidity to induce primordium formation. Following primordium emergence, the bags were opened and humidity was maintained at 85%–90% through regular water spraying and ventilation. At the mature fruiting body stage, cap coloration was visually assessed and photographed for each strain. Strains were subsequently classified according to cap colour phenotype and used for downstream population genomic analyses.
+
+2.8
+
+Identification of Locus Associated With Red Cap Phenotype
+
+To identify genomic regions associated with cap colour variation, the red‐capped strainwas used as the focal genotype, while 16 yellow‐capped strains and one non‐fruiting strain were used as comparison groups. Based on the high‐confidence SNP dataset, candidate loci were defined as sites that were homozygous for the alternative allele in strain, while remaining homozygous for the reference allele across all other strains.
+
+To further evaluate genetic differentiation between colour groups, pairwise fixation index (FST) values were calculated using VCFtools (Danecek et al.). Genome‐wide scans were performed using a sliding‐window approach (window size = 50 kb, step size = 10 kb). Genomic regions exhibiting elevated FST values were defined as highly differentiated intervals and considered as candidate loci potentially associated with cap colour variation.
+
+2.9
+
+Statistical Analysis and Figure Preparation
+
+Genome circular plots, synteny maps, and gene localization diagrams were generated using TBtools. GO and KEGG enrichment analyses were performed using the OmicShare online platform. Significantly enriched GO terms and KEGG pathways associated with genome‐specific genes were identified based on hypergeometric tests.
+
+Statistical analyses were conducted using GraphPad Prism 8.0 and SPSS software. Experimental data are presented as the mean ± standard deviation (SD). Differences among groups were evaluated by one‐way analysis of variance (ANOVA) followed by Duncan's multiple range test. Statistical significance was defined at.
+
+3
+
+Results
+
+3.1
+
+Two Telomere‐To‐Telomere Haploid Genomes Establish a Paired Reference for Dikaryotic Comparison
+
+Basidiomycete fungi differ fundamentally from higher plants in their dikaryotic life cycle, in which two genetically distinct haploid nuclei coexist within the same cytoplasm. To enable direct comparative analysis between the two nuclei, we generated two compatible monokaryons, D1 and D11, from the wild dikaryotic isolate HS5 () through protoplast regeneration. This non‐meiotic approach preserves the integrity of each haploid genome without recombination.
+
+Using PacBio HiFi, Oxford Nanopore ultra‐long reads, and Hi‐C scaffolding, we produced the first telomere‐to‐telomere (T2T) gap‐free genome assemblies for(Tables,). The D1 genome comprises 13 chromosomes spanning 46.66 Mb, while the D11 genome consists of 13 chromosomes totaling 47.63 Mb (Table; Figure). Both assemblies achieved 100% chromosome anchoring with no sequence gaps. Telomeric repeats (CCCTAAA) were detected at 25 of the 26 chromosome ends in both genomes, and centromeric regions were identified on all 13 chromosomes of each assembly (Table; Figure). BUSCO completeness reached 98.6% for D1 and 98.3% for D11, with 97.9% and 97.2% of BUSCOs present as single copy, respectively (Table). By contrast, the previously reportedgenome in public databases (GCA_014526955.1) remains at the contig level with an N50 below 1 Mb. Our T2T assemblies therefore represent a substantial advance, providing the first chromosome‐scale reference for this species.
+
+Annotation of the two genomes revealed notable differences in both repetitive element composition and gene content. Repetitive elements account for 18.64% of the D1 genome and 20.45% of the D11 genome, with long terminal repeat retrotransposons as the predominant class (10.21% and 11.57%, respectively) (Table). Functional annotation predicted 14,204 protein‐coding genes in D1 and 14,353 in D11, with 90.9% and 90.8% showing homology to the NCBI non‐redundant database (Table). The slightly larger genome size and higher repeat content in D11, together with its 149 additional predicted genes, suggest modest but measurable inter‐nuclear divergence in genomic composition. In contrast to the near‐identical homologous chromosomes of diploid horticultural crops, the two nuclei of a basidiomycete horticultural mushroom may differ not only at the allelic level but also in overall gene content and syntenic organization. The following sections present a systematic comparison of structural conservation, gene content divergence, and functional specialization between D1 and D11.
+
+TABLE 1
+
+Genome assemblies of two monokaryons of.
+
+Contents
+
+D1
+
+D11
+
+Numbers of scaffold
+
+13
+
+13
+
+Total length (bp)
+
+46,379,519
+
+47,606,398
+
+Scaffold N50 (bp)
+
+3,690,275
+
+3,722,829
+
+Contig num
+
+13
+
+13
+
+Contigs N50 (bp)
+
+3,690,275
+
+3,722,829
+
+Chromosome
+
+13
+
+13
+
+Chromosome total length (bp)
+
+46,659,265
+
+47,629,404
+
+Gap
+
+0
+
+0
+
+Centromere
+
+13
+
+13
+
+Telomere
+
+25
+
+25
+
+Chromosome anchoring rate for contigs (%)
+
+100%
+
+100%
+
+TABLE 2
+
+BUSCO analysis results of the twogenomes.
+
+Term
+
+D1
+
+D11
+
+Genes
+
+Proportion(%)
+
+Genes
+
+Proportion(%)
+
+Complete BUSCOs
+
+747
+
+98.6
+
+745
+
+98.3
+
+Complete and single‐copy BUSCOs
+
+742
+
+97.9
+
+737
+
+97.2
+
+Complete and duplicated BUSCOs
+
+5
+
+0.7
+
+8
+
+1.1
+
+Fragmented BUSCOs
+
+1
+
+0.1
+
+1
+
+0.1
+
+Missing BUSCOs
+
+10
+
+1.3
+
+12
+
+1.6
+
+Total BUSCO groups searched
+
+758
+
+100.0
+
+758
+
+100.0
+
+FIGURE 1
+
+Genome‐wide landscape and synteny analysis of themonokaryotic genomes. (A) D1 genome. (B) D11 genome. The chromosome names are labelled on the outermost circle, with blue labels representing the D1 genome and purple labels representing the D11 genome. Circle I indicates the 13 chromosomes of. Circle II represents the density of annotated genes across each chromosome calculated in non‐overlapping 10 kb windows. Circle III shows the positions of allelic indels between the monokaryotic genomes, with each dot representing an indel. Circle IV displays the positions of allelic SNPs between the monokaryotic genomes, with each dot representing a SNP. Circle V represents GC content. Circle VI indicates the density of rRNA, snRNA, and tRNA across chromosomes calculated in non‐overlapping 10 kb windows. Circle VII represents genome‐wide synteny relationships. (C) Chromosomal synteny relationship between the D1 and D11 monokaryotic genomes. Grey lines indicate syntenic gene pairs, and different colours represent corresponding chromosomes. (D) Gene composition of D1, comprising a total of 14,204 protein‐coding genes. (E) Gene composition of D11, comprising a total of 14,353 protein‐coding genes. These genes are classified into syntenic genes and non‐syntenic genes, with non‐syntenic genes further including genome‐specific genes.
+
+3.2
+
+High Synteny Conservation With Extensive Inter‐Nuclear Gene Content Divergence
+
+Comparative genomic analysis between D1 and D11 revealed a remarkably high degree of structural conservation. Synteny analysis using MCScanX demonstrated that the 13 chromosomes of the two genomes exhibited clear one‐to‐one correspondence, with syntenic blocks distributed continuously along homologous chromosomes (Figure). Importantly, no chromosomal‐level translocations or large‐scale rearrangements were detected between the two haploid nuclei. This observation stands in contrast to several other basidiomycete species, where extensive chromosomal rearrangements have been reported between haploid nuclei or among strains. In, for instance, the two haplotypes of the dikaryotic genome differ by multiple chromosomal rearrangements that affect chromosome number, length, and sequence arrangement (Deng et al.). The absence of such large‐scale structural variation insuggests that the two nuclei have undergone limited chromosomal restructuring during divergence, maintaining a highly stable genomic framework.
+
+A total of 21,418 syntenic genes were identified between the two genomes, representing 75.0% of all predicted genes (21,418 out of 28,557) (Figure). Functional enrichment analysis revealed that these syntenic genes were predominantly associated with fundamental cellular processes, including RNA processing, ribosome biogenesis, regulation of gene expression, and protein biosynthesis (Figure; Tables,). Notably, pathways related to ribosome function and genetic information processing were significantly enriched. This functional profile is broadly conserved across basidiomycetes (Zhang et al.). In(Gao et al.) and(Chen et al.), syntenic or core genes are likewise enriched in ribosome biogenesis, translation, and primary metabolism, reflecting the essential roles of these genes in maintaining cellular viability and normal development. The strong purifying selection acting on this core functional repertoire likely contributes to the long‐term conservation of both gene content and chromosomal synteny in.
+
+Despite the extensive genomic conservation, a substantial number of non‐syntenic genes were identified in both genomes, with 3494 genes in D1 and 3648 genes in D11 classified as non‐syntenic. These genes, which are not shared between the two nuclei in conserved chromosomal contexts, may represent lineage‐specific or rapidly evolving genomic components. Their identification provides a valuable entry point for investigating functional divergence between the two monokaryotic nuclei.
+
+3.3
+
+Subtelomeric and Centromeric Enrichment of Genome‐Specific Genes Reveals Nuclear Functional Specialization
+
+To further characterize genomic divergence between the two nuclei, genome‐specific genes were identified from the non‐syntenic regions. Genes lacking significant homologues in the counterpart genome (‐value > 1 × 10) were defined as genome‐specific genes. A total of 570 genome‐specific genes were identified in D1, whereas D11 contained 668 such genes (Figure). This modest difference in gene count between the two nuclei is consistent with the slightly larger genome size of D11 (47.63 Mb vs. 46.66 Mb for D1).
+
+Chromosomal localization revealed a highly uneven distribution of genome‐specific genes. The vast majority of these genes were concentrated in subtelomeric regions, with particularly prominent clusters near the chromosome ends, for example, on chromosome 2 of D11 (Figure). This subtelomeric enrichment is consistent with observations in other basidiomycetes. In, the two main subspecies exhibit largely co‐linear genomes, yet chromosome ends differ markedly in gene model content between the two subspecies (Sonnenberg et al.). The subtelomeric bias of genome‐specific genes inthus aligns with a broader pattern observed across basidiomycetes, where chromosome termini serve as hotspots of genomic diversification and strain‐specific gene innovation.
+
+Notably, a small subset of genome‐specific genes was also detected in centromeric regions, for instance, on chromosome 5 of D1 and chromosome 11 of D11 (Figure; Table). The presence of genome‐specific genes in centromeric regions is of particular interest. In eukaryotes, meiotic recombination is strongly suppressed in centromere‐proximal regions. In, centromere‐linked loci exhibit recombination blocks spanning large chromosomal regions (Campbell and Turner). In, meiotic recombination frequency in subcentromeric DNA is reduced from approximately 1 crossover per 0.8 Mb to approximately 1 crossover per 5 Mb (Aleksenko et al.). Similarly, in anther‐smut fungi, gene linkage to centromeres has been shown to have important genetic and evolutionary consequences (Carpentier et al.). The suppressed recombination in centromere‐proximal regions may therefore reduce the probability of these genome‐specific genes being exchanged or lost through recombination, potentially maintaining their genetic independence and facilitating their retention within each nucleus. The non‐corresponding distribution of genome‐specific genes between D1 and D11, where a gene present in one nucleus may be absent from the other without a simple one‐to‐one reciprocal pattern, further supports the notion that these genes have arisen independently in each nuclear lineage and may be maintained through reduced inter‐nuclear gene flow.
+
+Functional enrichment analysis revealed distinct profiles between the two sets of genome‐specific genes (Figure; Table). D1‐specific genes were significantly enriched in pathways associated with energy metabolism, including oxidative phosphorylation, mitochondrial electron transport, and amino acid metabolism. By contrast, D11‐specific genes were predominantly enriched in DNA replication, homologous recombination, DNA repair, and MAPK signalling pathways, with the latter including mating pheromone receptors (RCB‐class) and the 14‐3‐3 protein Rad24. This functional divergence correlates with phenotypic differences between the two monokaryons: D1 exhibited a significantly higher mycelial growth rate on PDA medium than D11 (Figure, Figure). The enrichment of D1‐specific genes in energy metabolism pathways is consistent with its enhanced vegetative growth, whereas the preferential enrichment of D11‐specific genes in genome maintenance and mating signal perception suggests a functional specialization toward genetic information processing rather than rapid biomass accumulation. Together, these findings indicate that the two haploid nuclei within thedikaryon have undergone functional specialization, with D1 favouring rapid vegetative growth and D11 favouring genome maintenance and mating signal perception, and that genome‐specific genes, particularly those located in subtelomeric and centromeric regions, serve as key drivers of this nuclear functional divergence.
+
+FIGURE 2
+
+Number of centromere‐specific genes, genomic distribution characteristics of strain‐specific genes, functional enrichment analysis, and phenotypic differences between two monokaryotic strains. (A) Line graph showing the number of centromere‐specific genes identified in the two monokaryotic genomes. Circles represent D1, and squares represent D11. (B) Chromosomal distribution of strain‐specific genes. Black blocks indicate gene positions, and the central green blocks represent centromeric regions. (C–E) Bubble plots showing the enrichment of GO terms in each group, including biological process (BP), molecular function (MF), and cellular component (CC), respectively. (F) Bubble plot showing KEGG pathway enrichment analysis. The Y‐axis lists enriched terms/pathways categorized according to ontology or pathway classification, and the X‐axis represents different strains. Bubble size indicates the proportion of genes associated with each term (GeneRatio), and bubble colour represents the significance level (−log(value)); darker colours indicate higher enrichment significance. (G) Morphological differences among D1, D11, and D1 × D11 mycelia.
+
+3.4
+
+Population Genomic Variation Converges in Subtelomeric and Mating‐Type Hotspots
+
+To characterize genome‐wide genetic variation within, whole‐genome resequencing data from 18 wild strains were analysed using the D1 and D11 monokaryotic genomes as independent reference assemblies. Phylogenetic reconstruction using the neighbour‐joining method based on SNPs called from either reference genome yielded highly congruent topologies (Figure). This consistency indicates that, at the species‐level phylogenetic scale, the two haploid nuclei do not introduce substantial reference bias, and both assemblies effectively capture the overall genetic diversity of the population. The stable population structure further suggests that the two nuclei share a largely similar evolutionary trajectory at the inter‐strain level.
+
+Chromosomal distribution of SNPs revealed a markedly non‐random pattern. In both D1‐ and D11‐referenced datasets, SNP densities were significantly elevated near chromosome termini, whereas central chromosomal regions exhibited substantially lower levels of variation (Figure). Importantly, the SNP density distributions derived from the two reference genomes were largely consistent, with high‐density regions coinciding between the two mappings. This concordance confirms that the observed variation patterns reflect genuine population‐level features rather than reference‐specific artefacts. The enrichment of SNPs in subtelomeric regions is consistent with observations in other fungi, where subtelomeric regions constitute approximately 14% of the genome but contain about 32% of intra‐specific SNPs and serve as hotspots for genomic diversification and lineage‐specific gene innovation (Chiara et al.).
+
+Notably, the mating‐type loci, including both homeodomain (HD)‐class and pheromone receptor (RCB)‐class genes, were located within genomic intervals exhibiting the highest SNP densities (Figure). This observation is consistent with the well‐documented role of mating‐type loci as targets of long‐term balancing selection in basidiomycete fungi (Peris et al.). In tetrapolar basidiomycetes, mating‐type genes determine sexual compatibility and are typically characterized by exceptionally high nucleotide diversity, trans‐species polymorphisms, and suppressed recombination. The elevated SNP density surrounding MAT loci inthus likely reflects the action of balancing selection maintaining multiple functional alleles within the population, a pattern also observed in(Casselton and Kües). The convergence of high SNP density, mating‐type gene localization, and the non‐random distribution of genome‐specific genes in subtelomeric regions collectively highlights these chromosomal compartments as major reservoirs of genetic diversity and functional innovation in.
+
+FIGURE 3
+
+Phylogenetic relationships of wildpopulations and the distribution of mating‐type loci and SNP variation. (A) Phylogenetic tree of 18 wildaccessions constructed using the D1 genome as the reference assembly. (B) Phylogenetic tree of 18 wildaccessions constructed using the D11 genome as the reference assembly. Branch lengths represent genetic distances, and node support values were calculated using 1000 bootstrap replicates. (C) Chromosome‐scale SNP density distribution and localization and structural organization of mating‐type genes in the D1 and D11 genomes of. SNP density was calculated using 10 kb windows and visualized as a heatmap. Green circles indicate HD‐class mating‐type genes in D1, and green triangles indicate RCB‐class mating‐type genes in D1; orange‐red circles indicate HD‐class mating‐type genes in D11, and orange‐red triangles indicate RCB‐class mating‐type genes in D11.
+
+3.5
+
+Two Candidate Regions Associated With Red Cap Colour Reveal Polygenic Coordination of Pigment Metabolism
+
+Previous analyses demonstrated that population genetic analyses based on the D1 and D11 reference genomes produced highly consistent results across the 18 wildaccessions. Therefore, the D1 genome was selected as the reference for all subsequent population genomic analyses.
+
+To investigate the genetic basis underlying the redder cap phenotype of strain, qualitative observation and quantitative RGB measurements of pileus colour were first performed. Among the 18 wild accessions, strainexhibited a distinct dark red cap phenotype, whereas the remaining 17 accessions produced yellow, yellowish‐brown, or no caps (Figure). RGB colour analysis revealed thathad significantly lower red and green channel values compared with the other pigmented accessions, confirming its visually distinct coloration (Figure). To determine whether this phenotypic variation was associated with genome‐wide genetic variation, principal component analysis (PCA) was performed using genome‐wide SNPs. The PCA clearly separatedfrom the other 17 accessions, forming an independent cluster (Figure), indicating that this strain possesses a distinct genetic background and suggesting that the red‐cap phenotype is accompanied by substantial genome‐wide genetic differentiation.
+
+To identify genetic variants specifically associated with the red‐cap phenotype, genotype comparisons were performed betweenand the remaining 17 accessions. SNPs were defined as‐specific when straincarried the homozygous alternative genotype (genotype = 2), whereas all other accessions carried the homozygous reference genotype (genotype = 0). A total of 26,022 strain‐specific SNPs were identified and annotated to 2729 genes. KEGG enrichment analysis revealed that these genes were significantly enriched in several pigment‐related metabolic pathways, including tyrosine metabolism, phenylalanine metabolism, terpenoid backbone biosynthesis, sesquiterpenoid and triterpenoid biosynthesis, and biosynthesis of secondary metabolites (Table).
+
+To further localize the genomic regions controlling cap colour variation, the chromosomal distribution of‐specific SNPs and genome‐wide FST analyses were performed. The strain‐specific SNPs showed a highly uneven genomic distribution and were predominantly enriched within two high‐density regions on chromosomes 6 and 12 (Figure). Specifically, the 1.03–1.53 Mb interval on chromosome 6 contained 2630 strain‐specific SNPs annotated to 112 genes, whereas the 1.93–2.58 Mb interval on chromosome 12 harboured 3339 strain‐specific SNPs associated with 157 annotated genes. Genome‐wide FST analysis further revealed that the strongest genetic differentiation betweenand the yellow‐cap population was located within the 1.29–1.53 Mb interval on chromosome 6 (Figure, Figure), which largely overlapped with the chromosome 6 SNP hotspot. Based on the concordance between the SNP hotspot and the FST peak, chromosome 6 was considered the major candidate genomic region associated with the dark red cap phenotype, whereas chromosome 12 was regarded as a secondary candidate region that may also contribute to cap colour formation.
+
+Further functional annotation of these two candidate intervals identified three colour‐related genes carrying missense mutations on chromosome 6 (Table), encoding an FAD‐dependent monooxygenase, a cytochrome P450 monooxygenase, and a heat shock transcription factor (HSF). These genes are mainly involved in oxidative modification, monooxygenase reactions, and transcriptional regulation during pigment metabolism. In contrast, the chromosome 12 candidate interval contained 23 colour‐related genes with missense mutations (Table), including tyrosinase, phenol hydroxylase, O‐methyltransferase (OMT), short‐chain dehydrogenase/reductase (SDR), multiple oxidoreductases, Zn(2)‐Cys(6) transcription factors, and major facilitator superfamily (MFS) transporters, representing genes involved in pigment biosynthesis, oxidative modification, transcriptional regulation, and metabolite transport.
+
+Taken together, population genetic structure analysis, strain‐specific SNP identification, chromosomal localization, and FST analysis consistently identified chromosomes 6 and 12 as the major candidate genomic regions associated with the red‐cap phenotype of strain. Among these, chromosome 6 likely represents the major‐effect locus underlying red cap coloration, whereas chromosome 12 may function as a minor‐effect region through the coordinated action of multiple pigment‐related genes. These candidate genomic regions and their associated genes carrying strain‐specific missense mutations provide an important genetic foundation for elucidating the molecular mechanisms underlying cap colour formation in.
+
+FIGURE 4
+
+Identification of candidate genomic regions associated with red pileus colour in. (A) Pileus phenotypes of 18 wildstrains. Strainexhibited a distinct red pileus phenotype, whereas the remaining strains showed yellow or yellowish‐brown pileus phenotypes. (B) Quantitative analysis of pileus colour variation among 18 wildstrains. (C) Principal component analysis (PCA) based on genome‐wide SNP data. Strainwas clearly separated from the other accessions, indicating a distinct genetic background. (D) Distribution structure of‐specific SNPs on chromosome 6. (E) Genome‐wide Manhattan plot of FST based on genome‐wide SNPs. Population genetic differentiation index (FST) was calculated using a sliding‐window approach, revealing a prominent differentiation peak on chromosome 6.
+
+4
+
+Discussion
+
+4.1
+
+PairedMonokaryon Genomes Provide a High‐Quality Framework for Dissecting Dikaryotic Genetics
+
+Telomere‐to‐telomere (T2T) genome assemblies have substantially advanced horticultural genomics by enabling accurate annotation of centromeres, telomeres, and repetitive regions. In this study, we generated the first paired T2T reference genomes from two compatible monokaryons of. Both assemblies achieved > 98% BUSCO completeness with complete telomere resolution at 25 of 26 chromosome ends and centromere identification on all 13 chromosomes. Compared with the previously fragmented assembly in public databases (GCA_014526955.1, N50 < 1 Mb), our dual‐reference framework enabled chromosome‐scale comparison and accurate characterization of synteny and genome‐specific genes.
+
+A fundamental distinction between basidiomycete dikaryons and diploid plants lies in genomic divergence between homologous genomes. In diploid horticultural crops, homologous chromosomes share > 99% sequence identity, whereas in, approximately 25% of genes are non‐syntenic between the two nuclei, with 570 (4.01%) and 668 (4.65%) genome‐specific genes in D1 and D11, respectively. This proportion, while lower than the ~30% non‐syntenic content reported in(Gao et al.), still far exceeds allelic differences in diploids. Similar paired assemblies in,(Deng et al.), and(Chen et al.) have revealed extensive chromosomal rearrangements in some species. Interestingly, such rearrangements were absent in: the 13 chromosomes exhibited perfect one‐to‐one correspondence without detectable translocations or inversions, reflecting a more recent divergence or distinct evolutionary trajectory.
+
+Notably, population genomic analyses based on D1 and D11 as independent references yielded highly congruent phylogenetic topologies and SNP distributions (Section), confirming that both assemblies effectively capture population diversity. The high synteny thus represents an advantage over species with extensive rearrangements, where reference bias complicates population analyses.
+
+4.2
+
+Genome‐Specific Genes Reveal Functional Specialization and Highlight Subtelomeric and Mating‐Type Regions as Evolutionary Hotspots
+
+Despite highly conserved chromosome organization, over one thousand genome‐specific genes were identified, predominantly enriched in subtelomeric regions. This pattern is consistent with observations in, where species‐specific genes exhibit subtelomeric bias arising through duplication, diversification, and differential loss (Pérez et al.). Chromosome termini thus serve as hotspots of genomic diversification across basidiomycetes.
+
+The genome‐specific genes displayed clear functional divergence. D1‐specific genes were enriched in oxidative phosphorylation and amino acid metabolism, whereas D11‐specific genes were enriched in DNA replication, homologous recombination, DNA repair, and MAPK signalling. This functional differentiation correlated with phenotypic differences: D1 exhibited significantly faster mycelial growth than D11. Phenotypic variation between monokaryons derived from the same dikaryon is common in basidiomycetes, with growth rate differences widely documented in(Gao et al.) and(Larraya et al.). Our findings extend this paradigm by linking faster growth in D1 to energy metabolism genes and slower growth in D11 to genome maintenance functions.
+
+Population resequencing further revealed that SNPs were predominantly concentrated in subtelomeric regions. Notably, both HD‐ and RCB‐class mating‐type genes were located within intervals exhibiting the highest SNP densities. In tetrapolar basidiomycetes, mating‐type loci typically exhibit exceptionally high nucleotide diversity due to long‐term balancing selection (Peris et al.). The elevated SNP density surrounding MAT loci inlikely reflects similar selective pressures maintaining multiple functional alleles. The convergence of high SNP density, MAT gene localization, and subtelomeric gene enrichment highlights these chromosomal compartments as major reservoirs of genetic diversity.
+
+4.3
+
+Centromeric Genome‐Specific Genes Are Enriched in Transposable Elements
+
+Although genome‐specific genes were predominantly located in subtelomeric regions, a small subset (less than 10%) was also detected in centromeric regions. These centromeric genome‐specific genes largely lacked functional annotation; however, among those with identifiable Pfam domains, the majority were transposon‐related elements, including KDZ transposases (PF18758), hAT family transposases (PF05699), Helitron helicase‐like domains (PF14214), and DDE superfamily endonucleases (PF13358).
+
+This transposon enrichment reflects a well‐documented feature of fungal centromeres: meiotic recombination is strongly suppressed in centromere‐proximal regions, allowing transposons, once inserted, to persist and accumulate over evolutionary time (Svedberg et al.). This suppression has been observed across diverse fungal lineages. In, chromosome IV centromere‐proximal regions contain large repeats that have assimilated degenerated retrotransposons (Nielsen et al.). In, the genome is rich in transposons that cluster at candidate centromeric regions (Loftus et al.), and centromere‐specific retrotransposons can serve as sites for DNA double‐strand breaks that mediate chromosome translocations (Yadav et al.). In, centromeres of Chromosomes 4 and 5 harbour frequent inversions and transposon polymorphisms (Oggenfuss et al.). In Mucorales fungi, GremLINE1 retroelements are restricted to centromeres where they occupy long heterochromatic islands (Navarro‐Mendoza et al.). This observation suggests that the non‐corresponding distribution of centromeric genome‐specific genes between D1 and D11 may be attributed to recombination suppression, which prevents inter‐nuclear exchange of these sequences and thus promotes independent divergence of centromeric regions between the two nuclei.
+
+4.4
+
+Multiple Pigment Metabolic Pathways Coordinately Regulate Red‐Cap Formation
+
+Cap colour, as a core commercial trait of edible mushrooms, has been progressively elucidated in several cultivated species, with three major pathways established. The first is the melanin tyrosinase route.inregulates browning and has been applied in marker‐assisted breeding (Zhang et al.). Genome‐wide reconstruction of the melanin pathway insimilarly identified tyrosinase family members as core enzymatic steps (Du et al.). The recently reported first genome ofalso linked cap colour to tyrosinase pathways (Gao et al.). The second is the flavonoid route: dual loci coupling flavonoid metabolism remodelling regulates the yellow‐to‐brown cap colour transition in, providing a multi‐omic roadmap beyond the melanin paradigm (Lv et al.). The third is the anthocyanin route: the white‐to‐reddish‐brown cap colour transition inis driven by auxin‐regulated anthocyanin accumulation via themodule (Wang et al.). In, RGB analysis revealed that the red‐cap strainexhibited significantly lower red and green channel values than yellow‐cap strains, suggesting involvement of both red and melanin‐related pathways.
+
+Two candidate regions were identified on chromosomes 6 and 12. The Chr6 interval (1.29–1.53 Mb), showing the strongest population differentiation (FST peak), contains three genes with missense mutations: a cytochrome P450, an FAD‐dependent monooxygenase, and a heat shock transcription factor. P450 monooxygenases are known to function in pigment biosynthesis in plants, such asin beet betacyanin production (Hatlestad et al.) andin tomato carotenoid hydroxylation (Stigliani et al.). The FAD‐dependent monooxygenase AptC is required for asperthecin biosynthesis in(Szewczyk et al.), and HSF overexpression increased anthocyanin content in sweet potato (Chen et al.). The Chr12 region, lacking a prominent FST peak, harbours 23 pigment‐associated genes with missense mutations, including tyrosinase, phenol hydroxylase, O‐methyltransferase, oxidoreductases, Zn(2)‐Cys(6) transcription factors, and MFS transporters. The darker phenotype of, together with tyrosinase‐encoding genes in this region, supports melanin‐pathway involvement. The identification of multiple pigment‐associated genes across two regions suggests that the red‐cap phenotype is not controlled by a single gene but by coordinated regulation of multiple pigment metabolic networks.
+
+Several limitations should be acknowledged. The red‐cap phenotype is represented by a single strain, candidate genes are inferred solely from genetic association and annotation, and the absence of transcriptomic and metabolomic data leaves the specific pathways speculative. Future studies with larger populations and functional validation will be essential.
+
+5
+
+Conclusion
+
+This study provides the first paired telomere‐to‐telomere reference genomes for the basidiomycete mushroom, a species with significant edible and medicinal value. The two compatible haploid nuclei exhibit functional complementarity, with one nucleus specialised in energy metabolism and the other in genetic information processing and mating signalling, revealing that nuclear specialisation is a genomic design principle in dikaryotic fungi. Population genomic analyses identified two candidate regions associated with red cap colour, suggesting that fungal pigmentation is governed by coordinated regulation of multiple metabolic networks rather than a single pathway. These findings establishas a valuable model for investigating nuclear functional divergence in basidiomycetes and provide genomic resources for understanding phenotypic variation in fungi. The paired haploid reference framework will facilitate future studies on dikaryotic coordination, secondary metabolism, and marker‐assisted breeding in this commercially important species.
+
+Author Contributions
+
+conceptualization, methodology, data curation, writing – review and editing, funding acquisition, formal analysis.conceptualization, methodology, data curation, formal analysis, funding acquisition.conceptualization, methodology, data curation, formal analysis.conceptualization, methodology, data curation, formal analysis, funding acquisition.project administration, resources.resources.resources.resources, project administration.resources, project administration.resources.conceptualization, methodology, supervision, funding acquisition, writing – review and editing.conceptualization, methodology, data curation, writing – review and editing, funding acquisition, formal analysis.
+
+Funding
+
+This work was supported by Beijing Academy of Agricultural and Forestry Sciences, KJCX20261413. China Agriculture Research System, CARS‐19. Beijing Innovation Consortium of Agriculture Research System, BAIC03.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Supporting information
+
+Geographic origins of the 18isolates used in this study.
+
+Telomere positions in strains D1 and D11.
+
+Centromere positions in strains D1 and D11.
+
+Statistics of repeat sequence types in each genome.
+
+Summary statistics of gene functional annotation across databases.
+
+Top 20 enriched GO terms of syntenic genes in.
+
+Top 20 enriched KEGG pathways of syntenic genes in.
+
+Number of centromere‐specific genes.
+
+Detailed information of the genome‐specific genes underlying the GO and KEGG enrichment results presented in Figure.
+
+KEGG colour‐related pathway enrichment analysis of‐specific SNP‐associated genes.
+
+Candidate pigmentation‐related genes carrying‐specific nonsynonymous mutations in the chromosome 6 and 12 candidate regions.
+
+Hi‐C interaction maps of the monokaryoticgenomes at 10 kb resolution. (A) Hi‐C interaction map of the D1 genome. (B) Hi‐C interaction map of the D11 genome. The colour scale from light to dark indicates increasing interaction frequency.
+
+Functional enrichment of syntenic genes in the monokaryoticgenomes. (A) KEGG enrichment analysis of syntenic genes. The outermost circle shows enriched pathways and the corresponding numbers of genes. The second circle shows the numbers of background genes and enrichment significance (−logvalue). The third circle shows the numbers of enriched syntenic genes. The innermost circle shows the enrichment factor. Colours indicate different KEGG functional categories. (B) GO enrichment analysis of syntenic genes. The outermost circle shows the top 20 significantly enriched GO terms and the corresponding numbers of genes. The second circle shows the numbers of background genes and enrichment significance (−logvalue). The third circle shows the numbers of enriched syntenic genes. The innermost circle shows the enrichment factor. Colours indicate different GO categories.
+
+Mycelial growth rates of D1, D11, and the hybrid strain D1 × D11.
+
+Chromosomal SNP distribution, and localization of mating‐type genes in wildstrains. Chromosome‐scale distribution of SNP density and mating‐type genes in the D1 and D11 genomes. SNP density was calculated using 10 kb sliding windows and is displayed as a heat map, with warmer colours indicating higher SNP densities. Green circles indicate HD genes in D1, and green triangles indicate RCB genes in D1. Orange‐red circles indicate HD genes in D11, orange‐red triangles indicate RCB genes in D11, and blue stars indicate genome‐specific mating‐type genes.
+
+Chromosomal distribution of‐specific SNPs and candidate colour‐associated genes. (A) Chromosomal distribution of‐specific SNPs. SNP density was calculated using a sliding‐window approach, showing that strain‐specific variants were predominantly enriched on chromosomes 6 and 12. (B) Distribution architecture of‐specific SNPs on chromosome 12.

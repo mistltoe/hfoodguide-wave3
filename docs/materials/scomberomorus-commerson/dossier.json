@@ -1,0 +1,562 @@
+{
+ "slug": "scomberomorus-commerson",
+ "name_ko": "동갈삼치",
+ "name_en": "Narrow-barred Spanish mackerel",
+ "scientific_name": "Scomberomorus commerson",
+ "aliases": [
+  "동갈삼치",
+  "Narrow-barred spanish mackerel",
+  "seer fish",
+  "Scomberomorus commersoni"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "동갈삼치(Scomberomorus commerson)는 식약처 「식품원료 목록」에 '동갈삼치'(영문 Narrow-barred spanish mackerel)라는 원료명으로 올라 있는 수산물이다[1]. 목록에서 이 학명은 1행뿐이며 상태는 '사용가능', 부위 칸은 '-'로 적혀 있고 따로 정한 사용 조건이나 별명은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없으므로 식약처가 정한 지표성분도 없다[1].\n\n동갈삼치는 고등어과 삼치속의 대형 육식성 어류로, 인도·서태평양 대륙붕 바다에 널리 분포한다[15]. 대만해협 연구에서 영양단계는 3.8–4.3(평균 4.0)으로 추정되어 최상위 포식자로 평가되었다[14]. 오스트레일리아 그레이트배리어리프에서는 100년 넘게 산란군을 노리는 어업이 이어졌다[11]. 퀸즐랜드·뉴사우스웨일스에서는 시가테라 식중독의 주요 원인 어종으로 꼽힌다[3, 6]. 여러 나라 문헌을 합친 메타분석에서 살의 독성 원소 총 위해 지수는 성인 기준으로 모든 나라에서 1 미만이었으나, 어린이 기준으로는 말레이시아·필리핀에서 1을 넘었다[20]. 국가표준식품성분표의 동갈삼치 성분값과 국내 어획·수입 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "1983년 퀸즐랜드에서 잡힌 동갈삼치 살에서 시가테라 독소와 비슷한 지용성 독소가 처음 실험적으로 확인되었고, 독성 개체 대부분은 남위 24–26도 사이에서 잡혔다[2]. 퀸즐랜드에서 1965–1984년 보고된 시가테라 175건(527명) 가운데 대부분이 이 종과 관련되었다는 정리가 나왔다[3]. 1992년 연구는 이 종의 살에서 ciguatoxin-1·-2·-3을 함께 검출해 여러 독소가 섞여 있음을 보였다[4]. 1993년에는 중독 사건에 연루된 개체에서 수용성 독소와 지용성 독소가 함께 들어 있다는 보고가 이어졌다[5].\n\n그레이트배리어리프의 동갈삼치 산란군 어업은 신문 기록·어민 지식·어업일지로 1911–2013년의 어획을 복원한 연구가 있다[11]. 지중해에서는 수에즈 운하를 통해 들어온 외래종으로 약 80년 전부터 알려져 있다[12]. 2021–2022년에는 오스트레일리아 플래티퍼스만의 해조류–새우–소형 어류–동갈삼치로 이어지는 먹이사슬을 따라 시가톡신 이동을 정량 모형으로 추정한 연구가 나왔다[9, 10]. 2014–2016년에는 뉴사우스웨일스 연안에서 잡힌 개체로 시가테라 5건(24명)이 발생했다[7]. 2026년에는 다랑어류 성염색체 연구의 비교종으로 이 종의 고품질 유전체가 조립되었다[16]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생태·번식",
+   "body": "동갈삼치는 고등어과(Scombridae) 삼치속에 속하며, 한반도 주변·일본·인도-서태평양 대륙붕 해역에 분포하는 경제 어종으로 소개된다[15]. 대만해협 중부에서 2017년 1월–2022년 3월에 모은 1,733마리를 조사한 결과 79.8%는 위가 비어 있었고, 나머지는 주로 반쯤 소화된 어류였다[14]. 먹이 구성은 몸 크기와 계절에 따라 달랐고, 안정동위원소 분석으로 추정한 영양단계는 3.8–4.3이었다[14].\n\n대만해협에서는 겨울에 자원 밀도가 가장 높고 여름에 가장 낮았으며, 봄·여름에는 북위 23–25도에 모였다가 가을·겨울에 남쪽으로 넓게 퍼졌다[13]. 그레이트배리어리프에서는 산호초 주변에 산란을 위해 모이는 무리(산란군)가 어업의 주된 대상이었다[11]. 지중해에 들어온 개체의 아가미에서는 단생흡충이 100% 감염률, 한 마리당 평균 약 80마리로 관찰되었다[12]. 인도 말라바르 연안 981마리 가운데 95%에서 기생성 요각류 Cybicola armatus가 발견되었고, 함께 조사한 다른 고등어과 어류에서는 나오지 않았다[34]. 근육에는 쿠도아(Kudoa) 점액포자충 여러 종이 기생하며, 이 무리는 죽은 뒤 살이 무르는 현상의 원인이 되기도 한다[31, 32]. 산란 시기·성숙 체장·수명 같은 생활사 수치는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」에는 같은 삼치속의 삼치(Scomberomorus niphonius), 평삼치(S. koreanus), 브라질삼치(S. brasiliensis), Pacific sierra(S. sierra)가 각각 별개 원료로 올라 있다[1]. 이들의 성분·안전 자료는 동갈삼치 자료로 옮겨 쓰지 않는다[1].\n\n같은 목록에서 '줄삼치'는 다른 속인 Sarda orientalis(이명 이빨다랑어)의 원료명이므로, 동갈삼치를 줄삼치로 부르면 목록상 다른 원료와 혼동된다[1]. 이름에 '삼치'가 들어가는 다른 속 원료로 꼬치삼치(Acanthocybium solandri), 검정통삼치(Thyrsites atun), 비늘삼치(Gasterochisma melampus)가 있고, 청새치(Kajikia audax)는 이명이 '용삼치'로 적혀 있다[1]. 영문 'Spanish mackerel'은 중국 연구에서 삼치(S. niphonius)에도 쓰이므로 영문명만으로 자료를 고르지 않는다[35]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "그레이트배리어리프의 산란군 어업을 1911–2013년 자료로 복원한 연구에서 어획 노력은 10년마다 9.4해리씩 먼바다로 옮겨 갔고, 10년마다 2.9곳의 새 산란군이 어장으로 보고되었다[11]. 이 확장에 가려 이용된 산란군의 70%가 사라졌으며, 기술 발전을 보정한 평균 어획률은 1934–2011년 사이 90.5% 줄었다[11]. 대만해협에서도 자원 감소가 보고되어 보전·회복을 위한 서식지 연구가 진행되었다[13].\n\n뉴사우스웨일스 북부에서는 유어(낚시)가 어획의 최대 90%를 차지할 수 있고, 상업 어획과 유어의 비율은 약 1:10으로 추정되었다[6]. 인도 연안 개체군은 미토콘드리아 유전자 분석에서 유전적 분화가 거의 없어 하나의 자원 단위로 관리할 수 있다고 제안되었다[17]. 이 종의 양식 생산 자료와 FAO 세계 어획량 통계는 이번 조사에서 확인하지 못함. 국내 해역의 동갈삼치 어획 통계도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·저장·품질",
+   "body": "얼음 보관(1–2 °C) 동갈삼치 스테이크에 산소 흡수제와 2% 아세트산나트륨 담금을 함께 쓰자 관능 저장 기간이 공기 포장의 12일에서 25일로 늘었다[26]. 감마선 3.0·4.5 kGy 조사는 2 ± 2 °C 저장에서 관능·미생물 품질을 8일 연장했고, 1.5 kGy로 살모넬라가 없어졌지만 6.0·10.0 kGy는 품질을 해쳤다[27]. 이 연구는 동갈삼치를 지방이 많은 바닷물고기로 분류했다[27]. 4 °C 냉장 필레에 알긴산-갈산 코팅을 하면 생체아민 지수가 관능 거부 시점(12일)까지 20 mg/100 g을 넘지 않았고, 대조군은 6일째 56.25로 거부되었다[28].\n\n필레의 피레트로이드 농약 잔류는 염장(큐어링)으로 74.82–79.45% 줄었고, 8주 냉동 저장 뒤 굽기도 69.19–78.31%를 줄였다[25]. 바레인 전통 조리 시료(조리된 상태 100 g 기준)에서 튀긴 동갈삼치의 에너지는 894.2 kJ/100 g, 밥과 함께 조리한 것은 867.3 kJ/100 g으로, 함께 조사한 어류 8종·새우 1종의 조리 시료 가운데 가장 높았다[24]. 가공 부산물인 껍질에서 젤라틴을 21.04% 수율로 얻었고, 겔화 온도 19.95 °C, 녹는 온도 23.10 °C였다[29]. 스리랑카 가공장 껍질 조각에서는 산가용성 I형 콜라겐을 건조 중량 기준 58.21% 수율로 얻었다[30]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2025년 차세대 염기서열 분석으로 동갈삼치의 미토콘드리아 전체 유전체가 해독되었고, 단백질 암호 유전자 13개·tRNA 22개·rRNA 2개와 비암호 영역으로 이루어졌다[15]. 전체 길이는 본문에 16,545 bp, 초록에 16,594 bp로 서로 다르게 적혀 있으며, A+T 함량은 본문 53.5%, 초록 53.4%이다[15]. 제어 영역 길이는 857 bp였다[15].\n\n2026년 연구는 이 종의 전장 유전체를 조립해, 다랑어류 수컷에만 있는 성결정 후보 유전자 SULT1-Y가 동갈삼치에는 없음을 확인했다[16]. 인도 연안 시료의 미토콘드리아 ATPase 6/8 유전자 842 bp에서 23개 일배체형이 나왔고, 전체 FST가 −0.02074로 낮아 개체군이 섞여 있는 것으로 해석되었다[17]. 3세대 염기서열 분석으로 이 종 전용 미세위성 마커 32개가 개발되었으며, 좌위당 대립유전자는 4–17개였다[19]. 미세위성 7좌위 분석에서는 이입 개체를 뺀 뒤 유효 집단 크기 추정치의 95%가 24,000을 넘었다[18]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 동갈삼치는 '사용가능' 원료이며 따로 정한 사용 조건이나 섭취 주의 문구는 없다[1]. 오스트레일리아 동부에서는 이 종이 시가테라 식중독의 주된 원인 어종이다[6, 3]. 뉴사우스웨일스 개체 71마리 가운데 살에서는 1마리(1.4%), 간에서는 5마리(7%)에서 P-CTX-1B가 검출되었고, 퀸즐랜드 13마리 가운데 6마리의 살에서 검출되었다[6]. 검출량은 살 최대 0.13 μg/kg, 간 최대 1.39 μg/kg이었고, 몸 크기와 독소 검출 사이 관계는 보이지 않았으며, 이 무작위 표본의 양성 어류로 인한 중독 보고는 연구 시점까지 없었다[6]. 조리 방법은 살 속 수용성·지용성 독소의 상대량을 바꾸었다[5].\n\n여러 나라 문헌을 합친 메타분석에서 필레의 메틸수은 평균은 66.60 μg/kg(습중량), 납 180.99 μg/kg, 카드뮴 66.03 μg/kg이었고, 나라별 총 위해 지수(TTHQ)는 성인 기준 모두 1 미만이었으나 어린이 기준으로 말레이시아(1.04)·필리핀(1.02)은 1을 넘었다[20]. 아랍에미리트·이란 시료에서는 크롬·구리·철이 국제 허용 한도를 넘었다[21]. 페르시아만에서 이 종을 포함한 식용 어류 5종 600마리를 조사한 연구는 사람에게 옮을 가능성이 있는 아니사키스류·히스테로틸라키움류 선충 5분류군을 확인했으나, 어종별 검출 결과는 초록에서 확인하지 못함[33]. 페르시아만 석유화학 단지 주변 조사에서 이 종의 비발암 위해 지수는 0.394로 조사한 다섯 어종 가운데 가장 낮았다[22]. 인도 만나르만 조사에서는 표층 어류 가운데 수은 농도가 가장 낮았다[23]. 이 종 근거의 히스타민 식중독 사례와 어류 알레르기 정보는 이번 조사에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Ciguatoxin CTX1B",
+   "name_ko": "시가톡신 P-CTX-1B(CTX-1)",
+   "class": "폴리에테르 자연독(시가테라 원인)",
+   "role": "marker",
+   "part": "살·간",
+   "content_text": "살 0.19 μg/kg(시가테라 독성 어류 살)[4]; 무작위 시료 살 최대 0.13 μg/kg, 간 최대 1.39 μg/kg[6]",
+   "activity_ko": "먹이사슬로 쌓여 시가테라 식중독을 일으키며, 이 종의 위해 평가 지표로 정량되었다[6, 9]",
+   "source": [
+    4,
+    6,
+    9
+   ]
+  },
+  {
+   "name": "Ciguatoxin 2",
+   "name_ko": "시가톡신 P-CTX-2",
+   "class": "폴리에테르 자연독",
+   "role": "marker",
+   "part": "살",
+   "content_text": "0.09 μg/kg[4]",
+   "activity_ko": "P-CTX-1과 함께 검출되는 동족체로, 여러 독소가 섞여 있어 증상이 다양할 수 있다고 해석되었다[4]",
+   "source": [
+    4,
+    8
+   ]
+  },
+  {
+   "name": "Ciguatoxin 3",
+   "name_ko": "시가톡신 P-CTX-3",
+   "class": "폴리에테르 자연독",
+   "role": "marker",
+   "part": "살",
+   "content_text": "0.02 μg/kg[4]",
+   "activity_ko": "개선한 추출법과 HILIC 정제를 함께 쓰면 검출량이 71% 늘어난 동족체다[8]",
+   "source": [
+    4,
+    8
+   ]
+  },
+  {
+   "name": "Methylmercury",
+   "name_ko": "메틸수은",
+   "class": "중금속(유기수은)",
+   "role": "bioactive",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 66.60 μg/kg(습중량)[20]",
+   "activity_ko": "대형 포식 어류에 쌓이는 신경독성 오염물질이며, 이 메타분석의 독성 원소 총 위해 지수는 성인 기준 1 미만, 어린이 기준 일부 나라(말레이시아·필리핀)에서 1 초과였다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Lead",
+   "name_ko": "납",
+   "class": "독성 원소",
+   "role": "bioactive",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 180.99 μg/kg(습중량)[20]",
+   "activity_ko": "비필수 독성 금속으로 위해 평가 대상이다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Cadmium",
+   "name_ko": "카드뮴",
+   "class": "독성 원소",
+   "role": "bioactive",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 66.03 μg/kg(습중량)[20]",
+   "activity_ko": "비필수 독성 금속으로 위해 평가 대상이다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Arsenic",
+   "name_ko": "비소",
+   "class": "독성 원소",
+   "role": "bioactive",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 93.11 μg/kg(습중량, 화학형 구분 없음)[20]",
+   "activity_ko": "총비소 값으로, 독성이 다른 화학형을 구분하지 않았다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 10,853.29 μg/kg(습중량)[20]; 아랍에미리트·이란 시료 일부는 국제 허용 한도 초과[21]",
+   "activity_ko": "필수 무기질이지만 오염 해역에서는 한도를 넘는 사례가 있었다[21]",
+   "source": [
+    20,
+    21
+   ]
+  },
+  {
+   "name": "Zinc",
+   "name_ko": "아연",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 4007.00 μg/kg(습중량)[20]",
+   "activity_ko": "필수 무기질이다[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Copper",
+   "name_ko": "구리",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "필레",
+   "content_text": "여러 나라 연구 합산 메타분석 평균 1005.66 μg/kg(습중량)[20]; 아랍에미리트·이란 시료 근육에서 높은 값[21]",
+   "activity_ko": "필수 무기질이지만 높은 농도는 우려 대상으로 지적되었다[21]",
+   "source": [
+    20,
+    21
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민",
+   "role": "marker",
+   "part": "필레",
+   "content_text": "4 °C 저장 중 히스타민 등 생체아민 8종 검출; 생체아민 지수 대조군 6일째 56.25, 코팅군 12일째 20 mg/100 g 이하[28]; 히스타민 단독 함량은 초록에서 확인하지 못함",
+   "activity_ko": "신선도와 부패 판정에 쓰이는 생체아민 지수의 구성 성분이다[28]",
+   "source": [
+    28
+   ]
+  },
+  {
+   "name": "Collagen type I",
+   "name_ko": "I형 콜라겐",
+   "class": "구조 단백질",
+   "role": "bioactive",
+   "part": "껍질",
+   "content_text": "산가용성 콜라겐 수율 58.21%(건조 중량 기준)[30]",
+   "activity_ko": "삼중나선 구조를 유지한 I형 콜라겐으로 식품·의약 소재 가능성이 제시되었다[30]",
+   "source": [
+    30
+   ]
+  },
+  {
+   "name": "Gelatin",
+   "name_ko": "젤라틴",
+   "class": "단백질(콜라겐 부분 가수분해물)",
+   "role": "bioactive",
+   "part": "껍질",
+   "content_text": "수율 21.04%, 점도 7.52 cP, 겔화 19.95 °C, 녹는점 23.10 °C[29]",
+   "activity_ko": "키위 단백질분해효소 가수분해물을 넣은 코팅이 냉장 새우의 산화·세균 증식을 늦추었다[29]",
+   "source": [
+    29
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Ciguatoxin CTX1B (P-CTX-1B)",
+   "compound_ko": "시가톡신 P-CTX-1B",
+   "part": "살·간",
+   "content": "살 최대 0.13 μg/kg, 간 최대 1.39 μg/kg; 뉴사우스웨일스 71마리 중 살 1마리·간 5마리 양성[6]",
+   "method": "LC-MS/MS(삼중사중극자)",
+   "conditions": {
+    "instrument": "삼중사중극자 LC-MS/MS, TargetLynx 소프트웨어로 정량",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "암모늄 부가이온 [M+NH4]+ m/z 1128.6102 추출, 질량 허용오차 5 ppm",
+    "injection": "",
+    "sample_prep": "조직 5 ± 0.1 g을 잘게 썰어 용매 추출 → 용매 분배로 지질 제거 → 정상상 SPE 정제 → 질소 건조 후 재용해·재정제, −80 °C 보관(미발표 방법 인용)",
+    "standard": "P-CTX-1B 표준 0.341·1.705·3.41 ng/mL 검량선, 스파이크 용액 68.2 ng/mL",
+    "linearity": "시험 범위에서 직선 검량(수치 없음)",
+    "lod": "",
+    "loq": "",
+    "recovery": "스파이크 시료 평균 회수율 25.83%(보정계수 3.87 적용), 표준편차 28.29%"
+   },
+   "rationale": "P-CTX-1B는 태평양 육식성 어류의 주된 시가톡신이어서 이 종의 시가테라 위험 평가 지표로 정량되었다[6]. 전문(Methods) 확인 — 칼럼·이동상·검출한계는 본문에 없음[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.1016/j.toxrep.2017.06.006",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ciguatoxins P-CTX-1, P-CTX-2, P-CTX-3",
+   "compound_ko": "시가톡신 3종",
+   "part": "살",
+   "content": "시가테라 독성 개체 5마리로 추출법 비교; 900 mg C18 칼럼이 500 mg보다 P-CTX-1 검출 37% 증가, 개선 정제 병용 시 P-CTX-1 46%·P-CTX-2 10%·P-CTX-3 71% 증가[8]",
+   "method": "HPLC-MS/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "고속 블렌딩 또는 초음파 균질화(효과 비슷) → C18 SPE(900 mg) → HILIC SPE 정제로 인지질 제거(초록 기준)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "P-CTX-1은 살 0.1 μg/kg에서도 중독을 일으킬 수 있어 낮은 농도 검출을 위한 추출·정제 조건이 이 종 시료로 비교되었다[8]. 전문 확인 못함[8].",
+   "source": [
+    8
+   ],
+   "url": "https://doi.org/10.1016/j.toxicon.2015.10.021",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "튀김(바레인 전통 조리, 조리된 시료)",
+   "basis": "100 g",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 894.2,
+     "unit": "kJ"
+    }
+   ],
+   "source": [
+    24
+   ]
+  },
+  {
+   "form": "밥과 함께 조리(바레인 전통 조리, 조리된 시료)",
+   "basis": "100 g",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 867.3,
+     "unit": "kJ"
+    }
+   ],
+   "source": [
+    24
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Scomberomorus commerson 1행: 원료명 '동갈삼치', 영문 Narrow-barred spanish mackerel, 분류 수산물, 대분류 식품원료(A코드), 부위 '-', 사용조건 기준 없음, 상태 사용가능, 별명 없음; 같은 속 삼치(S. niphonius)·평삼치(S. koreanus)·브라질삼치(S. brasiliensis)·Pacific sierra(S. sierra) 행과 '줄삼치'(Sarda orientalis) 등 이름에 '삼치'가 든 다른 속 행 대조; 고시형 원료 원재료 목록(KR_NOTICE) 없음 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/scomberomorus-commerson/card.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Occurrence of a ciguatoxin-like substance in the Spanish mackerel (Scomberomorus commersoni). Toxicon 1983;21(1):19-24 (초록 확인)",
+   "url": "https://doi.org/10.1016/0041-0101(83)90045-4",
+   "publisher": "Toxicon, PMID 6845383",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Ciguatera in Australia. Occurrence, clinical features, pathophysiology and management. Med J Aust 145(11-12):584-90 (초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2432386/",
+   "publisher": "The Medical Journal of Australia, PMID 2432386",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Multiple ciguatoxins in the flesh of fish. Toxicon 1992;30(8):915-9 (초록 확인)",
+   "url": "https://doi.org/10.1016/0041-0101(92)90390-q",
+   "publisher": "Toxicon, PMID 1523683",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Variation in the toxins present in ciguateric narrow-barred Spanish mackerel, Scomberomorus commersoni. Toxicon 1993;31(6):723-32 (초록 확인)",
+   "url": "https://doi.org/10.1016/0041-0101(93)90378-v",
+   "publisher": "Toxicon, PMID 8342170",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Qualitative and quantitative assessment of the presence of ciguatoxin, P-CTX-1B, in Spanish Mackerel (Scomberomorus commerson) from waters in New South Wales (Australia). Toxicol Rep 2017;4:328-334 — 학명은 PubMed 색인, 종 동정은 본문 COI qPCR (PMC5615149 전문 확인)",
+   "url": "https://doi.org/10.1016/j.toxrep.2017.06.006",
+   "publisher": "Toxicology Reports, PMID 28959656",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Management of Ciguatoxin Risk in Eastern Australia. Toxins 2017;9(11):367 — 학명은 PubMed 색인 (초록 확인)",
+   "url": "https://doi.org/10.3390/toxins9110367",
+   "publisher": "Toxins, PMID 29135913",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "An updated ciguatoxin extraction method and silica cleanup for use with HPLC-MS/MS for the analysis of P-CTX-1, PCTX-2 and P-CTX-3. Toxicon 2015;108:249-56 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.toxicon.2015.10.021",
+   "publisher": "Toxicon, PMID 26541571",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Critical Review and Conceptual and Quantitative Models for the Transfer and Depuration of Ciguatoxins in Fishes. Toxins 2021;13(8):515 — 학명은 PubMed 색인 (초록 확인)",
+   "url": "https://doi.org/10.3390/toxins13080515",
+   "publisher": "Toxins, PMID 34437386",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Origin of Ciguateric Fish: Quantitative Modelling of the Flow of Ciguatoxin through a Marine Food Chain. Toxins 2022;14(8):534 — 학명은 PubMed 색인 (초록 확인)",
+   "url": "https://doi.org/10.3390/toxins14080534",
+   "publisher": "Toxins, PMID 36006196",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Historical spatial reconstruction of a spawning-aggregation fishery. Conserv Biol 2017;31(6):1322-1332 (초록 확인)",
+   "url": "https://doi.org/10.1111/cobi.12940",
+   "publisher": "Conservation Biology, PMID 28370319",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Under the radar: co-introduced monogeneans (Polyopisthocotylea: Gastrocotylinea) of the invasive fish Scomberomorus commerson in the Mediterranean Sea. Parasitol Res 2022;121(8):2275-2293 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00436-022-07560-1",
+   "publisher": "Parasitology Research, PMID 35713734",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Seasonal distribution patterns of Scomberomorus commerson in the Taiwan Strait in relation to oceanographic conditions: An ensemble modeling approach. Mar Pollut Bull 2023;197:115733 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2023.115733",
+   "publisher": "Marine Pollution Bulletin, PMID 37925992",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Feeding ecology and trophic interactions of the narrow-barred Spanish Mackerel (Scomberomorus commerson) in the Central Taiwan Strait. PeerJ 2025;13:e20350 — 학명은 PubMed 색인 (초록 확인)",
+   "url": "https://doi.org/10.7717/peerj.20350",
+   "publisher": "PeerJ, PMID 41256772",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Structural Characteristics of Mitochondrial Genomes of Two Species of Mackerel (S. guttatus, S. commerson) and Phylogenetic Analysis of Scombridae Family. Biomolecules 2025;15(4):555 (PMC12025218 전문 확인)",
+   "url": "https://doi.org/10.3390/biom15040555",
+   "publisher": "Biomolecules, PMID 40305293",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "The origin and evolution of tuna sex chromosomes. BMC Genomics 2026;27(1) (초록 확인)",
+   "url": "https://doi.org/10.1186/s12864-026-13229-1",
+   "publisher": "BMC Genomics, PMID 42934508",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Hints for panmixia in Scomberomorus commerson in Indian waters revealed by mitochondrial ATPase 6 and 8 genes. Mitochondrial DNA A 2016;27(4):2822-4 (초록 확인)",
+   "url": "https://doi.org/10.3109/19401736.2015.1053084",
+   "publisher": "Mitochondrial DNA Part A, PMID 26104155",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Linkage Disequilibrium Estimation of Effective Population Size with Immigrants from Divergent Populations: A Case Study on Spanish Mackerel (Scomberomorus commerson). G3 2013;3(4):709-717 (초록 확인)",
+   "url": "https://doi.org/10.1534/g3.112.005124",
+   "publisher": "G3: Genes|Genomes|Genetics, PMID 23550119",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Microsatellite marker development in Spanish mackerel Scomberomorus commerson using third generation sequencing technology. Mol Biol Rep 2020;47(12):10005-10014 (초록 확인)",
+   "url": "https://doi.org/10.1007/s11033-020-05975-6",
+   "publisher": "Molecular Biology Reports, PMID 33170425",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Potentially Toxic Elements (PTEs) in the Fillet of Narrow-Barred Spanish Mackerel (Scomberomorus commerson): a Global Systematic Review, Meta-analysis and Risk Assessment. Biol Trace Elem Res 2021;199(9):3497-3509 (초록 확인)",
+   "url": "https://doi.org/10.1007/s12011-020-02476-2",
+   "publisher": "Biological Trace Element Research, PMID 33180263",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Determination of potentially toxic elements bioaccumulated in the commercially important pelagic fish narrow-barred Spanish mackerel (Scomberomorus commerson). Mar Pollut Bull 2024;201:116281 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2024.116281",
+   "publisher": "Marine Pollution Bulletin, PMID 38520998",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Effects of heavy metal contamination released by petrochemical plants on marine life and water quality of coastal areas. Environ Sci Pollut Res Int 2021;28(37):51369-51383 (초록 확인)",
+   "url": "https://doi.org/10.1007/s11356-021-13763-3",
+   "publisher": "Environmental Science and Pollution Research, PMID 33982260",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Selenium and mercury concentration, Se/Hg molar ratio and risk-benefit assessment of marine fish consumption. Food Res Int 2024;180:114086 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2024.114086",
+   "publisher": "Food Research International, PMID 38395583",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "The effects of different methods of cooking on proximate, mineral and heavy metal composition of fish and shrimps consumed in the Arabian Gulf. Arch Latinoam Nutr 2008;58(1):103-9 (초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18589580/",
+   "publisher": "Archivos Latinoamericanos de Nutrición, PMID 18589580",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Effect of food processing on reduction and degradation pathway of pyrethroid pesticides in mackerel fillet (Scomberomorus commerson). Food Chem 2022;384:132523 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.132523",
+   "publisher": "Food Chemistry, PMID 35231708",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Effect of reduced oxygen atmosphere and sodium acetate treatment on the microbial quality changes of seer fish (Scomberomorus commerson) steaks stored in ice. Food Microbiol 2010;27(4):526-34 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.fm.2010.01.005",
+   "publisher": "Food Microbiology, PMID 20417403",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Irradiation and Postirradiation Storage at 2 ± 2°C of Tilapia and Spanish Mackerel (Scomberomorus commerson): Sensory and Microbial Assessment. J Food Prot 1996;59(10):1041-1048 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028X-59.10.1041",
+   "publisher": "Journal of Food Protection, PMID 31195468",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Effect of alginate-gallic acid coating on freshness and flavor properties of Mackerel (Scomberomorus commerson) fillets under refrigerated storage. Int J Biol Macromol 2023;249:125999 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2023.125999",
+   "publisher": "International Journal of Biological Macromolecules, PMID 37499710",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Shelf-life extension of whole shrimp using an active coating containing fish skin gelatin hydrolysates produced by a natural protease. Food Sci Nutr 2020;8(1):214-223 — 젤라틴 원료 'barred mackerel' 껍질, 학명은 PubMed 색인 (PMC6977469 전문 확인)",
+   "url": "https://doi.org/10.1002/fsn3.1293",
+   "publisher": "Food Science & Nutrition, PMID 31993147",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Extraction and characterisation of type I collagen from the skin offcuts generated at the commercial fish processing centres. J Food Sci Technol 2023;60(2):484-493 — 'Seer fish', 학명은 PubMed 색인 (초록 확인)",
+   "url": "https://doi.org/10.1007/s13197-022-05630-x",
+   "publisher": "Journal of Food Science and Technology, PMID 36712198",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Multivalvulid myxozoans from eastern Australia: three new species of Kudoa from scombrid and labrid fishes of the Great Barrier Reef. J Parasitol 2005;91(5):1138-42 (초록 확인)",
+   "url": "https://doi.org/10.1645/GE-368R.1",
+   "publisher": "The Journal of Parasitology, PMID 16419761",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Description of three new species of Kudoa (Myxozoa: Multivalvulida) in commercial marine fishes from southern China, and new host records. Folia Parasitol 2024;71 (초록 확인)",
+   "url": "https://doi.org/10.14411/fp.2024.018",
+   "publisher": "Folia Parasitologica, PMID 39435486",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Occurrence of ascaridoid nematodes in selected edible fish from the Persian Gulf and description of Hysterothylacium larval type XV and Hysterothylacium persicum n. sp. Int J Food Microbiol 2016;236:65-73 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijfoodmicro.2016.07.006",
+   "publisher": "International Journal of Food Microbiology, PMID 27449722",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "A case of persisting massive infection of Scomberomorus commerson with Cybicola armatus (Copepoda). Acta Parasitol 2016;61(4):836-848 (초록 확인)",
+   "url": "https://doi.org/10.1515/ap-2016-0116",
+   "publisher": "Acta Parasitologica, PMID 27787225",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Multi-omics Analysis of Volatile Flavor Components in Pacific Chub and Spanish Mackerel during Freezing using GC-MS-O. Food Chem 2024;443:138534 — 영문명 'Spanish mackerel'을 삼치(S. niphonius)에 쓴 예 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2024.138534",
+   "publisher": "Food Chemistry, PMID 38320377",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

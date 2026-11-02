@@ -1,0 +1,57 @@
+import json,sys
+p=sys.argv[1]
+d=json.load(open(p))
+changes=[]
+def rep_sec(key,old,new,why):
+    for s in d['sections']:
+        if s['key']==key:
+            assert old in s['body'],(key,old)
+            s['body']=s['body'].replace(old,new); changes.append({"where":"sections."+key,"before":old,"after":new,"why":why}); return
+    raise Exception(key)
+def rep_obj(where,obj,field,old,new,why):
+    assert old in obj[field],(where,old)
+    obj[field]=obj[field].replace(old,new); changes.append({"where":where,"before":old,"after":new,"why":why})
+
+rep_sec('history',"브라질에서는 아라사(araçá)·아라사두캄푸(araçá-do-campo)·아라사베르다데이루(araçá-verdadeiro) 등으로 부르고, 에콰도르에서는 과야비야(guayabilla)라고 부른다[4, 5, 11, 25].",
+ "브라질에서는 아라사(araçá)·아라사두캄푸(araçá-do-campo)·아라사베르다데이루(araçá-verdadeiro) 등으로 부르고[4, 11, 12, 25], 에콰도르 연구는 이 종을 영어명 Brazilian guava와 함께 과야비야(guayabilla)로 소개했다[5].",
+ "[5]는 'commonly known as Brazilian guava or guayabilla'라고만 써 에콰도르 고유 호칭이라는 근거가 없음; araçá-do-campo 는 [11]·[12]에서 확인해 출처 보강")
+rep_sec('biology',"아마존 시료를 기재한 연구에 따르면 키는","아마존 과일 향기 연구의 종 기재(문헌 인용)에 따르면 키는",
+ "[2]의 형태 기재는 분석 시료를 잰 것이 아니라 문헌을 인용한 종 일반 기재임")
+rep_sec('biology',"아마존에서는 6–12월에 꽃이 피고 10–3월에 열매가 익는다[2].","같은 기재에서 꽃은 6–12월에 피고 열매는 10–3월에 맺힌다고 했다(지역은 밝히지 않음)[2].",
+ "[2] 원문은 'flowers from June to December, and fruits from October to March'로 아마존에 한정하지 않음")
+rep_sec('biology',"열매 크기가 연구마다 1–4 cm로 다르게 적혀 있어 산지와 개체에 따른 차이로 보인다[2, 5].","열매 크기는 문헌마다 1–4 cm로 다르게 적혀 있으며, 그 이유는 원문들이 설명하지 않았다[2, 5].",
+ "산지·개체 차이라는 해석은 출처에 없는 추정")
+rep_sec('cultivation',"에콰도르에서는 과야킬 인근 열대 건조림에서 채집되었고,","에콰도르에서는 과야스주 콜리메스의 열대 건조림에서 건기에 잎이 채집되었고,",
+ "[5] 원문 채집지는 Colimes, Guayas Province(2022년 7월 건기)로 '과야킬 인근'은 원문 표현이 아님")
+rep_sec('cultivation',"남아프리카에서 채집한 식물 추출물 연구에도 이 종이 포함되었다[26].","남아프리카 개화식물 추출물의 모기 살충·기피 시험에도 이 종이 포함되었다[26].",
+ "[26] 초록은 채집 여부를 말하지 않음; 시험 내용으로 정확히 씀")
+rep_sec('genetics',"이 연구는 배수성에 따른 유전자 수 차이가 잎 정유의 수율·조성과 관련된다고 보았다[7].","이 연구에서 정유 수율은 핵 DNA 양(2C 값)과 GC 함량이 클수록 높았다[7].",
+ "[7] 초록은 'Essential oil yield increased in relation to 2C value and to GC%'라고 씀; 유전자 수와 조성의 관련은 초록에 직접 없음")
+rep_sec('processing',"학명 P. araca로 적힌 콜롬비아 열매를 물로 추출한 연구에서","학명 P. araca로 적힌 콜롬비아 몬텔리바노산 'sour guava' 열매를 물로 추출한 연구(증거표본·명명자 기재 없음, 종 동정은 원문만으로 확정할 수 없음)에서",
+ "[18] 전문은 식물을 'sour guava'로만 부르고 증거표본을 밝히지 않음; 같은 영어명이 P. friedrichsthalianum에 쓰이므로[19] 근연종 혼입 가능성 표시")
+rep_sec('safety',"열매 껍질 열수 추출물과 부위를 밝히지 않은 수추출물의 항균 결과도 시험관 실험이다[16, 17].","열매 껍질 열수 추출물[16]과 잎 수추출물[17]의 항균 결과도 시험관 실험이다.",
+ "[17] 전문(PMC3349319) 확인 결과 재료는 잎(2009년 11월 페르남부쿠주 채집, 증거표본 있음)")
+rep_sec('related_species',"같은 영어 이름이 Costa Rican Guava인 P. friedrichsthalianum에도 쓰인다[18, 19].","같은 영어 이름이 Costa Rican Guava인 P. friedrichsthalianum에도 쓰인다[18, 19]. 그 논문은 증거표본을 밝히지 않아, 이 자료를 브라질구와바 열매 값으로 읽을 때는 종 동정의 불확실성을 감안해야 한다[18].",
+ "P. araca 표기 자료의 이명 근거는 식약처 행[1]에만 있고 [18]은 동정 근거를 제시하지 않음")
+
+c={x['name']:x for x in d['compounds']}
+g=c['Gallic acid']
+rep_obj("compounds[Gallic acid].activity_ko",g,'activity_ko',"잎 추출물 항산화 성분으로 제시[12, 13]","잎 추출물의 구성 페놀산으로 동정(개별 활성은 초록에 없음)[12, 13]",
+ "[12]·[13] 초록은 갈산을 동정만 했고 항산화 활성을 갈산에 돌리지 않음")
+g['content_text']=g['content_text'].replace("UHPLC-MS/MS로 동정(함량 초록에 없음)[12]","UHPLC-MS/MS[12]·HPLC-DAD[13]로 동정(함량 초록에 없음)[12, 13]")
+tp=c['Total phenolics (gallic acid equivalents)']
+rep_obj("compounds[Total phenolics].part",tp,'part',"(수추출물; 학명 P. araca로 기재)","(수추출물; 학명 P. araca로 기재, 'sour guava'로 부르며 증거표본 없음)",
+ "종 동정 불확실성 표시")
+a=[x for x in d['assays'] if x['compound'].startswith('Total phenolics')][0]
+rep_obj("assays[Total phenolics].rationale",a,'rationale',"열매 부위별 항산화 물질 양을 비교한 유일한 열매 정량 자료로,","이 자료에서 찾은 열매 부위별 페놀 정량 자료로,",
+ "'유일한'은 출처가 뒷받침하지 않는 단정")
+rep_obj("assays[Total phenolics].rationale",a,'rationale',"식약처 행의 이명 P. araca로 적힌 시료임;","식약처 행의 이명 P. araca로 적힌 시료이나 증거표본이 없고 'sour guava'라는 이름이 P. friedrichsthalianum에도 쓰여 종 동정은 확정할 수 없음; 값은 원문에서 생과 100 g당으로 환산한 것임;",
+ "근연종 혼입 가능성·생과 기준 명시([18] 2.3절 'mass of gallic acid in 100 g of fresh fruit')")
+s=d['sources']
+s[16]['title']=s[16]['title'].replace("초록 확인","전문 확인; 재료는 잎")
+changes.append({"where":"sources[17].title","before":"초록 확인","after":"전문 확인; 재료는 잎","why":"PMC 전문에서 부위 확인"})
+s[17]['title']=s[17]['title'].replace("(PubMed 초록 표기 학명 Psidium araca)","(PubMed 서지 학명 표기 Psidium araca; 본문은 'sour guava'로만 부르고 증거표본 없음)")
+changes.append({"where":"sources[18].title","before":"(PubMed 초록 표기 학명 Psidium araca)","after":"(PubMed 서지 학명 표기 Psidium araca; 본문은 'sour guava'로만 부르고 증거표본 없음)","why":"동정 근거 부재 명시"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

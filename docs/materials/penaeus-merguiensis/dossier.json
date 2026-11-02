@@ -1,0 +1,581 @@
+{
+ "slug": "penaeus-merguiensis",
+ "name_ko": "바나나새우",
+ "name_en": "Banana prawn",
+ "scientific_name": "Penaeus merguiensis",
+ "aliases": [
+  "Banana prawn",
+  "Banana shrimp",
+  "White banana prawn",
+  "Fenneropenaeus merguiensis",
+  "Penaeus merguiensis de Man, 1888"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "바나나새우(Penaeus merguiensis, 영문 Banana prawn)는 보리새우과(Penaeidae)에 드는 바다 새우다[1, 3]. 리뷰 논문은 이 종과 인도보리새우(P. indicus)를 함께 '바나나새우류'로 묶어, 열대·아열대 인도-서태평양에서 상업적으로 가장 중요한 보리새우류로 꼽는다[3]. 먼바다에서 산란하고 맹그로브가 늘어선 연안을 어린 시기의 성육장으로 쓰는 복잡한 생활사를 거치며, 알을 많이 낳고 수명이 짧다[3].\n\n식약처 「식품원료 목록」에는 학명 Penaeus merguiensis로 '바나나새우' 한 줄이 올라 있고, 분류는 수산물, 상태는 '사용가능'이다[1]. 사용 부위 칸은 원자료에 '-'로 적혀 있으며 별도의 사용 조건 문구와 이명은 없다[1]. 건강기능식품 고시형 원료의 원재료로 이 종이 따로 지정되어 있지 않아 식약처가 정한 이 종의 지표성분·기능성은 없다[1, 2].\n\n중국 양식 개체 근육의 조단백질은 100 g당 20.83–21.97 g, 조지방은 0.90–1.03 g으로 보고되었다[6]. 국내 어획·수입 통계와 국가표준식품성분표의 이 종 성분값은 이 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "바나나새우는 오스트레일리아 북부, 동남아시아, 중국 남부, 페르시아만 연안 등에서 잡히거나 길러지는 새우로 연구되어 왔다[3, 6, 13, 17]. 오스트레일리아 북부 새우 어업(Northern Prawn Fishery)에서 이 종은 '흰바나나새우'로 불리는 가치가 큰 상업 어획 대상이며, 해마다 어획량이 강우와 강물 흐름에 따라 크게 달라진다[17]. 리뷰 논문은 이렇게 해마다 성체 자원량과 상업 어획량이 크게 오르내리는 현상을 이 종의 생활사와 환경 요인으로 설명하려는 연구를 정리했다[3].\n\n양식 쪽에서는 동남아시아와 오스트레일리아에서 중요한 양식 새우로 떠올랐다는 평가가 있다[19]. 2014년 오스트레일리아 연구는 상업 양식장 한 못에서 얻은 약 2000마리 자손의 부모를 마이크로위성 표지로 추적해, 새우의 몸 색깔 유전력을 처음으로 추정했다[19]. 최근 연구는 이 종을 외래종인 흰다리새우(P. vannamei)를 대신할 수 있는 지속 가능한 양식 후보로 소개한다[21]. 다만 중국에서는 안정적인 인공 종자 공급 체계가 없어 대규모 양식이 늦어지고 있다고 보고되었다[6]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "바나나새우는 먼바다에서 산란하고, 유생이 연안으로 들어와 맹그로브 숲 주변 성육장에서 자란 뒤 다시 바다로 나가는 이동을 한다[3]. 리뷰는 성장·사망·먹이·포식 관계와 맹그로브 서식지의 중요성을 정리했으나, 가입량 변동 요인에 대해서는 연구 결과가 서로 엇갈린다고 밝혔다[3]. 오스트레일리아 카펀테리아만에서 미량원소와 탄소 안정동위원소(δ13C)를 비교한 연구는 하구와 연안 개체 모두 육지 유역에서 온 자원에 기대며, 연안 개체는 유역과 바다 자원이 섞인 특징을 보인다고 했다[18].\n\n말레이시아 크다주 쿠알라무다에서 잡은 암컷의 난소는 성숙 단계에 따라 노란색(1단계), 노르스름한 녹색(2단계), 연녹색(3단계), 짙은 녹색(4단계)으로 바뀌었고, 생식소 지수도 단계가 높아질수록 커졌다[22]. 수컷 어미를 오징어 살로 먹였을 때 정자 성숙까지 20일이 걸려 생선살(22일)이나 새우살(24일)보다 빨랐다[23].\n\n몸 색은 먹이로 들어온 아스타잔틴과 이를 안정시키는 단백질 크러스타시아닌이 정하며, 알비노 개체는 밝거나 짙은 개체보다 크러스타시아닌 유전자 발현과 총 아스타잔틴이 유의하게 낮았다[24]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 목록의 학명은 Penaeus merguiensis이지만, 많은 논문은 같은 종을 Fenneropenaeus merguiensis로 적는다[1, 4, 11]. 이는 넓은 의미의 보리새우속(Penaeus)을 형태만으로 여러 속으로 나눈 분류가 논란이 되어 왔기 때문이며, 2021년 미토콘드리아 전체 유전체 계통 분석은 나뉜 속들이 하나의 계통임을 보이며 옛 Penaeus 속으로 되돌릴 것을 제안했다[5]. 2016년 이 종의 미토콘드리아 유전체 분석은 Fenneropenaeus가 단계통이라는 결과를 냈다[4]. 이 자료는 두 학명을 같은 종의 이름으로 다룬다[1, 4, 5].\n\n식약처 목록에는 같은 속의 대하(P. chinensis), 보리새우(P. japonicus), 범보리새우(P. esculentus), 지중해보리새우(P. kerathurus), 얼룩새우(P. monodon), 홍다리얼룩새우(P. semisulcatus)가 각각 다른 원료로 올라 있다[1]. 리뷰에서 이 종과 함께 '바나나새우류'로 다룬 인도보리새우(Fenneropenaeus indicus)[3]와, 리뷰 대상은 아니지만 흔히 비교되는 흰다리새우(Litopenaeus vannamei / Penaeus vannamei)도 목록에서 별도의 행이다[1]. 영문 논문에서 이 종이 'white shrimp'로 불린 예가 있어 흰다리새우와 헷갈리기 쉬우므로, 원료를 확인할 때는 학명을 함께 보아야 한다[15, 26]. 이 자료는 이들 다른 새우의 성분·안전성 값을 이 종의 값으로 옮기지 않는다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "오스트레일리아 북부 새우 어업에서는 미첼강 등 하천 유량의 여러 요소가 카펀테리아만의 이 종 어획 유무와 단위노력당 어획량에 영향을 주었고, 그 관계는 어장 안에서도 공간적으로 달랐다[17]. 저자들은 물 자원 개발로 자연 유량이 바뀌면 가치 높은 이 어업이 영향을 받을 수 있다고 보았다[17]. 남중국해 북부의 2019·2021년 조업 실험에서는 청록색 LED 집어등이 흰색 LED보다 이 종을 더 잘 끌어모았다[27]. 그 어획량 수치는 초록에서 확인하지 못함.\n\n양식 연구로는 어미 선발용 난소 성숙 판정[22], 수컷 어미 먹이[23], 생식세포 동결보존(10% DMSO 유리화, 해동 10 °C가 적합)[29]이 있다. 오스트레일리아 양식 집단에서는 간췌장 파보바이러스(HPV) 저항성의 유전력이 0.46으로 추정되었고, 몸무게·꼬리 살 무게의 유전체 예측 정확도는 0.76–0.77이었다[20]. 바이오플록 수조에서 우점한 Vibrio owensii는 이 종에 병원성을 보였고 여러 항생제에 내성이었다[25]. 노란머리바이러스(YHV) 감염 때 혈구 구성이 크게 바뀐다는 단일세포 분석도 있다[21]. 국내 어획·양식 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용",
+   "body": "새우를 가공하면 머리와 껍데기 같은 부산물이 원료 무게의 절반 이상 나올 수 있으며, 이 부산물은 아스타잔틴·키틴·단백질의 원료로 연구된다[7, 10]. 이란 호르모즈간주에서 얻은 야생 이 종의 가공 부산물(주로 머리와 껍데기)을 동결건조·분쇄한 분말을 염화콜린-포도당 공융용매로 60 °C에서 30분 교반 추출하자 아스타잔틴(총 아스타잔틴 당량, 동결건조 분말 g당)이 29.50 µg/g, 교반 15분 뒤 200 W 초음파 15분을 주면 50.10 µg/g으로 대조보다 약 70% 많았다[7]. 이 값은 머리·껍데기 부산물 건조 분말 기준이며 가식부(살) 함량이 아니다[7]. 이 추출물은 시험관에서 DPPH·ABTS 라디칼 소거와 ACE 저해 활성을 보였으나, 저자들은 소화 안정성·독성 평가가 더 필요하다고 밝혔다[7]. 마이크로파·초음파 전처리 비교에서는 이온성 마이크로에멀전 용매가 가장 나았고, 이 종 시료가 함께 비교한 다른 갑각류 시료보다 총 카로티노이드가 많았다[8]. 말레이시아 새우 6종 껍데기 비교에서 고압 처리가 수율을 높였으나, 가장 많은 아스타잔틴은 이 종이 아닌 얼룩새우에서 나왔다[9].\n\n이 종 껍데기 폐기물을 Pseudomonas aeruginosa로 6일 발효하면 탈단백 92%, 탈무기질 82%, 키틴 수율 47%였고, 키틴을 고압멸균 방식으로 키토산으로 바꾸면 수율이 87%였다[10]. 간췌장 유전자로 만든 재조합 키티나아제(52 kDa)는 40 °C·pH 6.0에서 가장 활발해 키틴 폐기물 전환용 촉매로 제안되었다[26]. 고시형 원료 글루코사민·키토산의 원재료가 '갑각류(게, 새우 등)의 껍질'로 정해져 있으나[2], 이 종의 껍질이 국내에서 실제로 쓰이는지는 확인하지 못함. 이 종 유전자로 만든 재조합 포틸린의 치수 세포 실험은 식품 섭취와 무관한 실험실 결과다[30]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "바나나새우의 미토콘드리아 유전체는 16,023 bp의 고리형 분자로, 단백질 암호 유전자 13개, tRNA 유전자 22개, rRNA 유전자 2개와 조절 영역으로 이루어져 있다[4]. 유전자 배열은 갑각류의 기본 형태와 같았다[4].\n\n중국 라오핑·선전·싼야의 세 양식 집단을 유전체 재염기서열 분석(리시퀀싱)한 결과 다형 정보량(PIC)은 약 0.125로 낮았고, 집단 간 분화 지수(Fst)는 0.002–0.004로 집단 사이 차이가 거의 없었다[6]. 오스트레일리아 양식 집단 연구는 9472개의 단일염기다형성(SNP)으로 유전체 선발 가능성을 검토했다[20]. 날 새우의 몸 색 유전력은 0.03–0.55, 형태 형질은 0.14–0.50이었고 익힌 색과 날 색의 유전 상관은 0.64였다[19].\n\n근육 성장 조절 유전자 마이오스타틴(FmMstn)은 엑손 3개와 인트론 2개로 되어 있고, 크기 차이와 관련된 SNP가 확인되었다[31]. 난소 발달 단계별 전사체 분석에서는 2208개의 발현 차이 유전자가 나왔다[28]. 핵 유전체 전체 해독 결과는 이 조사에서 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "이 종은 사용 조건이 없는 '사용가능' 수산물이다[1]. 새우 껍질 등을 원재료로 쓴 글루코사민·키토산 등 건강기능식품에는 '게 또는 새우에 알레르기가 있는 사람은 섭취에 주의' 문구가 정해져 있다[2].\n\n이 종 자체의 알레르겐 연구로는, 새우 알레르기 환자 21명의 혼합 혈청으로 근육과 여러 기관 단백질을 분석해 근육과 껍데기의 주 알레르겐은 아르기닌 키나아제, 난소의 주 알레르겐은 비텔로제닌으로 보고한 연구가 있다[11]. 이 연구 초록이 꼽은 알레르겐 10종 목록에는 트로포미오신이 들어 있지 않다[11]. 새우 5종 전사체 비교에서는 'banana shrimp' 근육의 트로포미오신 서열이 다른 새우의 등록 알레르겐(Lit v 1, Pen m 1)과 100% 같았으나, PubMed 도구로 받은 초록·전문 텍스트에서 학명(이탤릭)이 빠져 있어 종 동정은 일반명으로만 확인했고, 시료가 오스트레일리아 CSIRO 어업 조사·양식장에서 왔다는 것만 확인된다[12]. 리뷰는 인도보리새우도 이 종과 함께 '바나나새우류'로 부르므로[3], 이 결과는 이 종 근거로 확정하지 않고 참고로만 둔다[3, 12]. 같은 연구는 새우 트로포미오신이 집먼지진드기·바퀴벌레 트로포미오신과 72–83% 같아 교차 반응 가능성이 있다고 했다[12].\n\n페르시아만 북부 개체 근육의 아연·니켈은 FAO/WHO 권고 한도를 넘었고 니켈의 발암 위해가 기준을 넘었으나, 저자들은 매일 먹어도 위해 가능성은 없으나 오래 먹으면 니켈의 발암 위해가 있을 수 있다고 보았다[13]. 같은 해역 무사 하구에서는 수은이 간췌장 > 아가미 > 근육 순으로 많았고, 수은 농도는 성별·먹이 크기와 양의 상관을 보였고 저자들은 몸이 커 더 큰 먹이(새우·식물)를 먹는 암컷에서 높을 것으로 해석했으며, 계절로는 여름(7월) 시료가 유의하게 높았다[14]. 벵골만 새우 7종 조사에 이 종이 포함되었고[15], 인도 투투쿠디 조사에서는 이 종이 조사한 패류·갑각류(shellfish) 7종 가운데 미세플라스틱 양이 가장 적은 순위였고, 소화관 값은 마리당 3.0개였다(초록은 이를 '가장 높은 농도'로 적었으나 함께 적은 범위 3.0–7.8개의 아래 끝이어서 원문 표현이 서로 맞지 않는다)[16]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "영양소",
+   "role": "nutrient",
+   "part": "근육(양식, 생 시료)",
+   "content_text": "20.83–21.97 g/100 g(세 양식 집단; 결과 절은 최고값을 21.70 g/100 g으로 적어 고찰 절과 다름) [6]",
+   "activity_ko": "저자들은 고단백·저지방 수산물로 평가했다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "2.07–2.33 g/100 g(검출된 17종 아미노산 가운데 가장 많음) [6]",
+   "activity_ko": "맛을 내는 아미노산으로, 세 집단 가운데 선전 집단에서 대부분 아미노산이 가장 높았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Cysteine",
+   "name_ko": "시스테인",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "0.10–0.14 g/100 g(17종 가운데 가장 적음) [6]",
+   "activity_ko": "필수아미노산 비율(EAA/TAA)은 FAO/WHO 권장 40%보다 약간 낮았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산(C18:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "75.23–118.20 mg/100 g(검출 지방산 가운데 가장 많음) [6]",
+   "activity_ko": "포화지방 함량은 100 g당 300 mg을 넘지 않았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산(C18:1n9c)",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "라오핑 집단 72.20 mg/100 g(최고값; 다른 집단 값은 전문 텍스트에 없음) [6]",
+   "activity_ko": "단일불포화지방산 합계는 57.47–97.97 mg/100 g이었다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 다가불포화지방산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "EPA+DHA 합계 90.20–131.4 mg/100 g(개별 값은 전문 텍스트에서 확인하지 못함) [6]",
+   "activity_ko": "다가불포화지방산 합계는 169.5–209.8 mg/100 g으로 단일불포화지방산보다 많았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "n-3 다가불포화지방산",
+   "role": "nutrient",
+   "part": "근육(양식)",
+   "content_text": "EPA+DHA 합계 90.20–131.4 mg/100 g(개별 값은 전문 텍스트에서 확인하지 못함) [6]",
+   "activity_ko": "EPA·DHA는 싼야 집단에서 높고 선전 집단에서 낮았다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Astaxanthin",
+   "name_ko": "아스타잔틴",
+   "class": "케토카로티노이드",
+   "role": "bioactive",
+   "part": "가공 부산물(주로 머리·껍데기, 동결건조 분말)",
+   "content_text": "동결건조 부산물 분말 g당 — 공융용매 추출 29.50 µg/g, 초음파 병행 최적 50.10 µg/g [7]",
+   "activity_ko": "추출물이 시험관에서 DPPH·ABTS 라디칼 소거, ACE 저해(초록 32.79–45.97%, 본문 31.41–46.30%)를 보였다[7]; 몸 색을 정하는 색소다[24]",
+   "source": [
+    7,
+    24
+   ]
+  },
+  {
+   "name": "Chitin",
+   "name_ko": "키틴",
+   "class": "다당류(구조 다당)",
+   "role": "bioactive",
+   "part": "껍데기 등 가공 폐기물",
+   "content_text": "세균 발효 최적 조건 키틴 수율 47%, 키토산 전환 수율 87%(고압멸균법) [10]",
+   "activity_ko": "화학 추출을 대신할 생물학적 추출 방법으로 제안되었다[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Arginine kinase",
+   "name_ko": "아르기닌 키나아제",
+   "class": "효소 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "근육·껍데기",
+   "content_text": "함량 값 없음 — 환자 21명 혼합 혈청 면역블롯에서 근육·껍데기의 주 알레르겐 [11]",
+   "activity_ko": "새우 5종 전사체 비교에서 새우 아르기닌 키나아제 서열끼리 97–100% 같았다[12]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Vitellogenin",
+   "name_ko": "비텔로제닌",
+   "class": "난황 전구 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "난소",
+   "content_text": "함량 값 없음 — 난소의 주 알레르겐으로 제시 [11]",
+   "activity_ko": "난소 전사체 연구에서 비텔로제닌 유전자(PmVtg)는 성숙 난소에서 발현이 높았다[28]",
+   "source": [
+    11,
+    28
+   ]
+  },
+  {
+   "name": "Tropomyosin",
+   "name_ko": "트로포미오신",
+   "class": "근육 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "함량 값 없음 — 'banana shrimp' 전사체의 서열이 Lit v 1·Pen m 1과 100% 동일(받은 텍스트에서 학명이 빠져 일반명으로만 확인 — 인도보리새우와 구분 불가) [12]",
+   "activity_ko": "갑각류의 주요 알레르겐으로, 진드기·바퀴벌레 트로포미오신과 72–83% 같았다[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Sarcoplasmic calcium-binding protein",
+   "name_ko": "근형질 칼슘결합단백질",
+   "class": "근육 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "근육·껍데기",
+   "content_text": "함량 값 없음 — 면역블롯에서 IgE 결합 [11]",
+   "activity_ko": "새우 5종 전사체에서 가장 많이 발현된 알레르겐 전사체 가운데 하나였다[12]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Crustacyanin",
+   "name_ko": "크러스타시아닌",
+   "class": "카로티노이드 결합 단백질",
+   "role": "bioactive",
+   "part": "근육·큐티클·간췌장 등",
+   "content_text": "함량 값 없음 — 소단위 A·C 전체 서열 확보 [24]",
+   "activity_ko": "아스타잔틴을 조직에 안정시켜 몸 색을 만들며, 알비노 개체에서 발현이 낮았다[24]",
+   "source": [
+    24
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Astaxanthin",
+   "compound_ko": "아스타잔틴(총 아스타잔틴 당량)",
+   "part": "가공 부산물(주로 머리·껍데기) 동결건조 분말",
+   "content": "29.50 ± 0.04 µg/g(염화콜린:포도당 공융용매), 50.10 ± 0.05 µg/g(교반 15분 + 200 W 초음파 15분), 대조(60 °C 교반 30분) 29.54 µg/g — 방법 2.6절은 대조를 '공융용매 없는 아세톤 추출'로 적어 결과 절과 대조 정의가 다름 [7]",
+   "method": "공융용매(·초음파) 추출 후 자외선-가시광 분광광도법(468 nm)",
+   "conditions": {
+    "instrument": "UV–Vis 분광광도계(모델 원문에 없음); 초음파 200·400 W",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "468 nm 흡광도, 비흡광계수 0.2(=E1%/10000)로 아스타잔틴 당량 계산",
+    "injection": "",
+    "sample_prep": "부산물 72시간 동결건조 후 분쇄; 분말 1 g + 공융용매 10 mL(염화콜린:수소결합주개 1:2 몰비, 물 10% w/w), 60 °C 자석 교반 30분(또는 교반 후 초음파 5·10·15분), 7000 rpm 10분 원심분리, 추출액을 탈이온수로 100 mL 희석",
+    "standard": "표준품 검량선 대신 문헌 비흡광계수 사용",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 부산물의 대표 색소이자 생리활성 성분으로 정량되었다. 크로마토그래피 분리 없이 총흡광으로 계산했고 검출·정량한계와 회수율은 원문에 없으며, 저자들도 HPLC로 형태별 분석이 필요하다고 적었다[7].",
+   "source": [
+    7
+   ],
+   "url": "https://doi.org/10.1016/j.ultsonch.2026.108136",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids (17)",
+   "compound_ko": "아미노산 17종",
+   "part": "근육(중국 양식 3집단, 탈피 간기 개체)",
+   "content": "글루탐산 2.07–2.33 g/100 g(최다), 시스테인 0.10–0.14 g/100 g(최소) [6]",
+   "method": "중국 국가식품안전표준 GB 5009.124-2016(식품 중 아미노산 측정, 고성능액체크로마토그래피)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "집단마다 3마리의 근육을 가수분해해 분석(세부 조건은 표준 문서에 따름, 원문에 칼럼·이동상 기재 없음)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 가식부(근육)의 영양 성분을 정량한 전문 공개 연구다. 원문은 표준 시험법 번호만 적고 기기 조건·검출한계·회수율은 적지 않았다[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.3390/biology13121002",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acids",
+   "compound_ko": "지방산 조성",
+   "part": "근육(중국 양식 3집단)",
+   "content": "C18:0 75.23–118.20 mg/100 g, ΣPUFA 169.5–209.8 mg/100 g, ΣMUFA 57.47–97.97 mg/100 g, EPA+DHA 90.20–131.4 mg/100 g [6]",
+   "method": "중국 국가식품안전표준 GB 5009.168-2016(식품 중 지방산 측정, 외부표준법)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "집단마다 3마리 근육(세부 조건은 표준 문서에 따름, 원문에 칼럼·오븐 조건 기재 없음)",
+    "standard": "외부표준법(원문 기재)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 근육의 n-3 지방산(EPA·DHA) 등 지방산을 정량했다. 개별 지방산 표 값과 기기 조건은 전문 텍스트에서 확인하지 못함[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.3390/biology13121002",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "근육(중국 라오핑·선전·싼야 양식 개체, 생 시료)",
+   "basis": "100 g당 세 집단 값의 범위(습중량이라는 명시는 원문에 없으나 수분 73.87–75.43 g으로 보아 생 근육 기준; 조단백질 상한은 고찰 절 21.97 g, 결과 절 최고값 21.70 g으로 원문 안에서 다름); 국가표준식품성분표 수록 여부는 확인하지 못함",
+   "items": [
+    {
+     "name": "수분",
+     "value": "73.87–75.43",
+     "unit": "g"
+    },
+    {
+     "name": "조단백질",
+     "value": "20.83–21.97",
+     "unit": "g"
+    },
+    {
+     "name": "조지방",
+     "value": "0.90–1.03",
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": "1.37–1.77",
+     "unit": "g"
+    },
+    {
+     "name": "총당",
+     "value": "0.32–0.40",
+     "unit": "%"
+    }
+   ],
+   "source": [
+    6
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '바나나새우' 행(학명 Penaeus merguiensis, 영문 Banana prawn, 수산물, 사용가능, 사용가능부위 '-', 사용조건 없음, 이명 없음). 같은 속 대하·대하새우분말(P. chinensis), 보리새우·건보리새우·건보리새우분해농축액(P. japonicus), 범보리새우(P. esculentus), 지중해보리새우(P. kerathurus), 얼룩새우(P. monodon), 홍다리얼룩새우(P. semisulcatus), 'Eastern kong prawn'(원자료 표기 그대로, P. plebejus), Southern pink shrimp(P. notialis), 인도보리새우(Fenneropenaeus indicus, 이명 인도흰새우), 흰다리새우 계열(Litopenaeus vannamei / Penaeus vannamei) 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, card.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 제3. 2-30 글루코사민·2-31 N-아세틸글루코사민·2-49 키토산/키토올리고당(원재료 '갑각류(게, 새우 등)의 껍질, 연체류(오징어, 갑오징어 등)의 뼈' 등, 섭취 시 주의사항 '게 또는 새우에 알레르기가 있는 사람은 섭취에 주의') (로컬 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt)",
+   "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "The biology and ecology of the banana prawns: Penaeus merguiensis de Man and P. indicus H. Milne Edwards. Adv Mar Biol 2020;86(1):1-139 (초록 확인)",
+   "url": "https://doi.org/10.1016/bs.amb.2020.04.001",
+   "publisher": "Advances in Marine Biology (PubMed 32600543)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The complete mitochondrial genome of banana shrimp Fenneropenaeus merguiensis with phylogenetic consideration. Mitochondrial DNA A 2016;27(4):2606-7 (초록 확인)",
+   "url": "https://doi.org/10.3109/19401736.2015.1041116",
+   "publisher": "Mitochondrial DNA Part A (PubMed 26053939)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Phylogenetic relations and mitogenome-wide similarity metrics reveal monophyly of Penaeus sensu lato. Ecol Evol 2021;11(5):2040-2049 (초록 확인)",
+   "url": "https://doi.org/10.1002/ece3.7148",
+   "publisher": "Ecology and Evolution (PubMed 33717440, PMC7920775)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "A Comprehensive Assessment of the Nutritional Value, Antioxidant Potential, and Genetic Diversity of Fenneropenaeus merguiensis from Three Different Regions in China. Biology (Basel) 2024;13(12):1002 (전문 확인; 표 수치는 전문 텍스트에 없어 본문 서술 값만 씀)",
+   "url": "https://doi.org/10.3390/biology13121002",
+   "publisher": "Biology (Basel) (PubMed 39765669, PMC11726762)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Ultrasound-assisted deep eutectic solvent extraction of astaxanthin-rich extracts from banana shrimp by-products: antioxidant and ACE inhibitory activities. Ultrason Sonochem 2026;134:108136 (PMC 전문 확인; 학명 Fenneropenaeus merguiensis 는 PubMed 초록에 있음)",
+   "url": "https://doi.org/10.1016/j.ultsonch.2026.108136",
+   "publisher": "Ultrasonics Sonochemistry (PubMed 42933080, PMC13722066)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Green astaxanthin extraction using microwave and ultrasound pretreatments. NPJ Sci Food 2025;9(1):147 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41538-025-00504-w",
+   "publisher": "npj Science of Food (PubMed 40695832, PMC12283964)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Comparison Between High-Pressure Processing and Chemical Extraction: Astaxanthin Yield From Six Species of Shrimp Carapace. J Diet Suppl 2018;15(6):805-813 (초록 확인)",
+   "url": "https://doi.org/10.1080/19390211.2017.1387885",
+   "publisher": "Journal of Dietary Supplements (PubMed 29185824)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Bioconversion of shrimp waste Penaeus merguiensis using lactic acid fermentation: An alternative procedure for chemical extraction of chitin and chitosan. Int J Biol Macromol 2017;104(Pt A):883-888 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2017.06.099",
+   "publisher": "International Journal of Biological Macromolecules (PubMed 28663153)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Identification of a novel allergen from muscle and various organs in banana shrimp (Fenneropenaeus merguiensis). Ann Allergy Asthma Immunol 2014;113(3):301-6 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.anai.2014.06.002",
+   "publisher": "Annals of Allergy, Asthma & Immunology (PubMed 24996992)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Novel Allergen Discovery through Comprehensive De Novo Transcriptomic Analyses of Five Shrimp Species. Int J Mol Sci 2020;22(1):32 (전문 확인; PubMed 도구 텍스트에서 학명 이탤릭이 빠져 있어 'banana shrimp'라는 일반명으로만 확인함 — 시료는 오스트레일리아 CSIRO 제공)",
+   "url": "https://doi.org/10.3390/ijms22010032",
+   "publisher": "International Journal of Molecular Sciences (PubMed 33375120, PMC7792927)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Tracing the heavy metals zinc, lead and nickel in banana shrimp (Penaeus merguiensis) from the Persian Gulf and human health risk assessment. Environ Sci Pollut Res Int 2021;28(29):38817-38828 (초록 확인)",
+   "url": "https://doi.org/10.1007/s11356-021-13063-w",
+   "publisher": "Environmental Science and Pollution Research (PubMed 33745043)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Mercury accumulation in selected tissues of shrimp Penaeus merguiensis from Musa estuary, Persian Gulf: variations related to sex, size, and season. Environ Monit Assess 2014;186(9):5439-46 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10661-014-3793-7",
+   "publisher": "Environmental Monitoring and Assessment (PubMed 24838762)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Assessment of microplastic contamination in shrimps from the Bay of Bengal and associated human health risk. Mar Pollut Bull 2024;201:116185 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2024.116185",
+   "publisher": "Marine Pollution Bulletin (PubMed 38412798)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Shellfish and elasmobranch as sentinel vector for microplastic contamination: Species and tissue-specific variability, ATR-FTIR polymer spectral fingerprint, pollution indices and health implications. Mar Pollut Bull 2026;229:119741 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2026.119741",
+   "publisher": "Marine Pollution Bulletin (PubMed 42013485)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Spatially structured relationships between white banana prawn (Penaeus merguiensis) catch and riverine flow in the Northern Prawn Fishery, Australia. J Environ Manage 2022;319:115761 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.jenvman.2022.115761",
+   "publisher": "Journal of Environmental Management (PubMed 35982564)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Trace element and δ13C values of the banana prawn Penaeus merguiensis reveal the importance of catchment-derived resources across both estuarine and nearshore habitats. Mar Environ Res 2025;206:107028 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marenvres.2025.107028",
+   "publisher": "Marine Environmental Research (PubMed 40024171)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Heritability for body colour and its genetic association with morphometric traits in Banana shrimp (Fenneropenaeus merguiensis). BMC Genet 2014;15:132 (초록 확인)",
+   "url": "https://doi.org/10.1186/s12863-014-0132-5",
+   "publisher": "BMC Genetics (PubMed 25476506, PMC4261751)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Genomic prediction for disease resistance to Hepatopancreatic parvovirus and growth, carcass and quality traits in Banana shrimp Fenneropenaeus merguiensis. Genomics 2020;112(2):2021-2027 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ygeno.2019.11.014",
+   "publisher": "Genomics (PubMed 31765824)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Single-cell RNA-seq reveals cellular dynamics and emergency hematopoiesis in banana shrimp Penaeus merguiensis hemocytes upon Yellow Head Virus infection. Fish Shellfish Immunol 2026;171:111178 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.fsi.2026.111178",
+   "publisher": "Fish & Shellfish Immunology (PubMed 41638371)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Histology and External Morphological Assessment on Ovarian Maturation Stages of Wild Female Banana Shrimp, Penaeus merguiensis (de Man, 1888) for Broodstock Selection Purpose. Trop Life Sci Res 2022;33(1):91-103 (초록 확인)",
+   "url": "https://doi.org/10.21315/tlsr2022.33.1.6",
+   "publisher": "Tropical Life Sciences Research (PubMed 35651636, PMC9128651)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Gonad Quality of Banana Shrimp Male Broodstock (de Man, 1888) Fed Different Natural Diets. Trop Life Sci Res 2022;33(2):19-30 (초록 확인)",
+   "url": "https://doi.org/10.21315/tlsr2022.33.2.2",
+   "publisher": "Tropical Life Sciences Research (PubMed 35966265, PMC9354901)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Molecular characterisation of colour formation in the prawn Fenneropenaeus merguiensis. PLoS One 2013;8(2):e56920 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0056920",
+   "publisher": "PLoS One (PubMed 23441225, PMC3575496)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Pathogenicity and transcriptome analysis of a strain of Vibrio owensii in Fenneropenaeus merguiensis. Fish Shellfish Immunol 2022;130:194-205 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.fsi.2022.09.008",
+   "publisher": "Fish & Shellfish Immunology (PubMed 36087819)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Identification of a novel tailor-made chitinase from white shrimp Fenneropenaeus merguiensis. Colloids Surf B Biointerfaces 2021;203:111747 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.colsurfb.2021.111747",
+   "publisher": "Colloids and Surfaces B: Biointerfaces (PubMed 33839476)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Analysis of catch rates of LED lamps using on the falling-net fishing vessels in South China Sea. PLoS One 2024;19(4):e0301434 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0301434",
+   "publisher": "PLoS One (PubMed 38573953, PMC10994366)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Comparative transcriptome analysis for identifying genes involved in reproduction of banana shrimp (Penaeus merguiensis). Comp Biochem Physiol Part D Genomics Proteomics 2025;56:101637 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.cbd.2025.101637",
+   "publisher": "Comparative Biochemistry and Physiology Part D (PubMed 40976221)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Cryopreservation of Germ Cells of Banana Shrimp (Fenneropenaeus merguiensis) and Black Tiger Shrimp (Penaeus monodon). Mar Biotechnol (NY) 2021;23(4):590-601 (초록 확인)",
+   "url": "https://doi.org/10.1007/s10126-021-10048-1",
+   "publisher": "Marine Biotechnology (PubMed 34272626)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Biological activities of a recombinant fortilin from Fenneropenaeus merguiensis. PLoS One 2020;15(10):e0239672 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0239672",
+   "publisher": "PLoS One (PubMed 33002062, PMC7529305)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Characterization of a molt-related myostatin gene (FmMstn) from the banana shrimp Fenneropenaeus merguiensis. Gen Comp Endocrinol 2017;248:55-68 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ygcen.2017.03.010",
+   "publisher": "General and Comparative Endocrinology (PubMed 28322766)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
