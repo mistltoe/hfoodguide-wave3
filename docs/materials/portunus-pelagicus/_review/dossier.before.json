@@ -1,0 +1,599 @@
+{
+ "slug": "portunus-pelagicus",
+ "name_ko": "청색꽃게",
+ "name_en": "Blue swimming crab",
+ "scientific_name": "Portunus pelagicus",
+ "aliases": [
+  "Blue swimming crab",
+  "Blue swimmer crab",
+  "Blue crab"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "청색꽃게(Portunus pelagicus)는 꽃게과(Portunidae) Portunus속에 드는 바다 게로, 식약처 「식품원료 목록」에 '청색꽃게'라는 원료명과 영문명 Blue swimming crab으로 올라 있다[1]. 이 목록에서 이 종은 수산물로 분류된 식품원료(A코드)이며 상태는 '사용가능'이다[1]. 사용 부위는 따로 정하지 않은 '-'로 적혀 있고 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료가 아니어서 식약처가 정한 지표성분은 없다[1].\n\n이 종은 인도-태평양에 사는 큰 게로 소개되며, 인도-서태평양의 중요한 수산 자원이다[2, 5]. 동남아시아와 동아시아 연안에 살고, 인도네시아에서는 수출 가치가 높은 수산물이다[7]. 태국에서는 즐겨 먹는 게로, 살과 함께 간췌장과 생식소도 먹는다고 보고되었다[20]. 냉동·통조림 게살 산업의 수요가 이 종에 크게 기대고 있다고 설명되었다[9].\n\n알레르기 면에서는 근육 단백질 트로포미오신(Por p 1)이 이 종의 주요 알레르겐으로 확인되었다[13, 14]. 국내 생산 통계와 국내 유통량은 공식 자료에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "이 종은 자바해 연안 여러 어촌의 중요한 어획 대상이며, 인도네시아에서는 수출용 고부가 수산물로 다뤄진다[7, 28]. 인도네시아의 청색꽃게 교역에서는 업계가 주도한 어업개선사업(FIP)이 시작되었으나, 어민·중간상의 행동을 생태적으로 지속 가능하게 바꾸는 데는 성공하지 못했다는 분석이 있다[33]. 스리랑카에서는 지난 10여 년 사이 수출 중심 어업으로 커지면서 어획이 빠르게 늘었다[34].\n\n태국 반돈만에서는 2007년부터 청색꽃게 유생을 계속 방류하는 이른바 '크랩 뱅크'가 이어졌고, 2007년과 2016년 먹이망 모형을 비교하자 청색꽃게 생물량이 크게 늘었다[32]. 태국은 2020년 냉동·통조림 청색꽃게살을 5,233 t 넘게, 2,515만 달러어치 수출했다고 한 논문 서론이 다른 자료를 인용해 적었다[17]. 태국 소비자는 주로 미리 쪄서 손으로 발라낸 게살(즉석 조리·섭취용)로 이 게를 먹는다고 설명되었다[17].\n\n국내에 이 종이 언제부터 수입·유통되었는지는 공식 자료에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "청색꽃게는 십각목 꽃게과에 속하는 헤엄치는 게로, 인도-태평양의 큰 게다[1, 2]. 동남아시아·동아시아 연안이 주요 서식지이며, 인도네시아에서는 동부 해역 집단의 유전 다양성이 가장 높았다[7].\n\n태국 쿵끄라벤만의 위 내용물 조사에서 주된 먹이는 경골어류(29.61%), 유기물(20.69%), 갑각류(18.3%), 조개류(11.46%) 순이었고, 어린 게와 성숙한 게, 만 안팎, 계절에 따라 먹이가 달랐다[29]. 스리랑카 북부에서는 빈 위의 비율이 높았고 먹이 구성이 크게 달라 여러 방식으로 먹이를 먹는 것으로 보았다[34].\n\n인도네시아 동람풍 해역 암컷의 한 번 포란 수는 229,468–2,236,355개(평균 926,638개)였고, 갑폭이 클수록 많았다[28]. 스리랑카 북부 집단은 1년 내내 산란했으며 2월과 5월에 두 번 정점이 있었고, 포란 수는 123,482–3,179,928개였다[34]. 탈피 주기에 따라 간췌장 글리코겐은 탈피 전기 D0의 1225 μg/mg에서 D2-3의 1700 μg/mg으로 늘었다[35]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」은 같은 속의 꽃게(Portunus trituberculatus), 점박이꽃게(P. sanguinolentus), Portunus segnis를 청색꽃게와 다른 행으로 따로 올려 두었다[1]. 이 문서는 이들 종의 성분·안전 자료를 섞지 않았다[1].\n\n미토콘드리아 유전체 13개 단백질 유전자를 이은 계통 분석에서 청색꽃게는 꽃게(P. trituberculatus)와 하나의 무리를 이루었고, 다시 Callinectes sapidus(영문 blue crab)와 더 큰 무리를 이루었다[3]. 중국 남동 해역 집단 연구는 NCBI에 올라 있던 청색꽃게 서열 3개가 자기 시료와 크게 달라 숨은 별종일 수 있다고 보았다[10].\n\n시장에서는 값싼 게살이 청색꽃게살로 둔갑할 수 있어 종 판별법이 개발되었다[11]. LAMP 분석은 청색꽃게, Charybdis feriata(영문 crucifix crab), 점박이꽃게(three spotted swimming crab)를 구별했고, 삶거나 찐 게살에서도 효율이 같았다[11]. 다중 PCR-측방유동 스트립 분석은 같은 세 종을 구별했으며, 시장 시료 15개 가운데 4개(26.7%)가 잘못 표시되어 있었다[12].\n\n알레르기 면에서 Charybdis feriatus(영문 red crab)의 IgE 결합 단백질은 모두 청색꽃게 알레르겐과 교차 반응했다[15]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·자원 관리",
+   "body": "태국 쿵끄라벤만의 자원 평가는 게 자망과 접이식 통발 어획물로 이루어졌다[30]. 태국 쿵끄라벤만의 2008–2009년 자원 평가에서 어획 사망률은 4.14로 늘었고, 이용률은 0.71로 최적값 0.38보다 높아 자원이 위기에 있다고 판단되었다[30]. 같은 조사에서 성숙 암컷의 크기는 8.10 cm에서 7.52 cm로 줄었다[30]. 연구진은 산란기 금어, 해초밭 복원, 유생 방류, 이해관계자 교육을 제안했다[30].\n\n인도네시아 동람풍 연구는 현재 최소 어획 크기(갑폭 100 mm)가 알맞지 않다며 115 mm로 올리면 산란 암컷을 더 보호할 수 있다고 제안했다[28]. 남술라웨시 팡카예네 제도에서는 어획 성수기가 5–6월로 짧지만 어민이 1년 내내 어구를 써 어획량과 노력량이 최대지속생산량(MSY)에 가까웠다[31].\n\n인도네시아 집단은 60 km 넘게 떨어지면 유전적 연결이 낮아 여러 자원 단위로 나눠 관리해야 한다는 의견이 나왔다[7]. 베트남에서도 남부 집단이 북부·중부와 다른 어업 단위로 확인되었다[8]. 국내 양식이나 어획 기록은 공식 자료에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·부산물 연구",
+   "body": "태국 연구의 시료는 게를 100–120 ℃ 증기로 20분 찐 뒤 손으로 발라 몸통살(lump)·집게살(claw)·뒷다리 쪽 살(backfin)과 알(roe)로 나눈 것이다[17]. 이 살과 알은 모두 단백질이 많았고, 알은 지방이 더 많았으며 살은 알보다 고도불포화지방산이 많았다[17]. 500 MPa 고압 처리는 몸통살과 알에서 검출 가능한 세균을 모두 없앴다[17].\n\n생살을 저장하면 히스타민이 생겨 96시간 뒤 4 ℃에서 7.55 mg/100 g, 20 ℃에서 17.68 mg/100 g이 되었다[18]. 같은 연구는 휘발성 염기질소와 트라이메틸아민질소를 신선도 지표로 보았다[18].\n\n가공 공장에서 많이 나오는 껍데기는 키틴·키토산 원료로 연구되었고, 개선한 추출법에서 조키틴 수율은 32.52%, 정제 키토산은 21.78%였다[25]. 인도네시아 서자바 수산 가공 부산물 껍데기에서 극초단파와 공융 용매로 뽑은 키틴은 쥐의 에탄올 위궤양 지수를 낮췄다[26]. 이 게에서 얻은 헤파란황산 함유 글리코사미노글리칸 추출물은 BACE1을 억제했으나 항응고 작용은 약했다[27]. 국내 가공품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "Illumina 쌍말단 서열로 조립한 전장 유전체가 공개되었고, 원자료(SRA SRR25655135)와 조립 유전체는 GenBank에 있다[2]. 그보다 앞서 RAD 방법으로 0.82 Gbp의 자료를 얻어 85,796개 콘티그를 조립했고, SNP 45,464개와 미세부수체 17,983개를 찾았으며 다형성 표지 16개를 개발했다[5].\n\n미토콘드리아 유전체는 16,155 bp 또는 16,157 bp로 보고되었고, 단백질 유전자 13개, tRNA 유전자 22개, rRNA 유전자 2개와 조절 영역을 가진다[3, 4]. 아가미 전사체 분석에서는 흰반점병 바이러스(WSSV) 감염 뒤 유니진 162,740개를 찾았고, 크러스틴·라이소자임 같은 면역 유전자가 감염 초기에 많이 발현되었다[6].\n\n인도네시아 297개체의 COI 분석은 집단 간 분화가 매우 컸다(FST = 0.954)[7]. 베트남 96개체의 SNP 306개 분석은 남부 집단을 따로 갈랐다[8]. 말레이시아 집단은 미세부수체 분석에서 분화가 낮았지만 근친교배 흔적이 보였다[9]. 중국 남동 해역 집단은 COI 889 bp에서 두 계통(A, B)으로 나뉘었다[10]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 이 종은 별도 조건 없이 '사용가능' 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 이 종을 따로 다룬 국내 공공기관의 알레르기·잔류·중금속 안전 정보는 이번 조사에서 확인하지 못함.\n\n이 종의 주요 알레르겐은 열에 강한 트로포미오신(Por p 1)이며, 생살에서는 열에 약한 아르기닌 키네이스도 주요 알레르겐이었다[13, 14]. 갑각류 알레르기 환자 24명의 혈청 실험에서 익힌 추출물이 날것보다 IgE 반응이 훨씬 컸고, 흑호랑이새우와 강하게 교차 반응했다[13]. 이 종을 포함한 여섯 가지 식용 게를 비교한 연구에서는 확인된 게 알레르겐들의 서열·에피토프 유사도가 68%를 넘었다[16].\n\n태국 뜨랑 조사에서는 카드뮴과 납이 간췌장·생식소에 가장 많아, 살만 먹고 이 부위를 빼면 노출을 줄일 수 있다고 했다[20]. 동자바 조사에서는 여섯 금속이 기준 이하였지만 위해 지수가 1보다 컸다[19]. 인도 남동 해안 조사에서는 구리와 카드뮴이 기준을 넘었고, 보르네오 조사에서는 근육이 안전한 수준이었다[21, 22]. 미세플라스틱은 태국 조사에서 근육에서 나오지 않았고, 인도 조사에서는 가식부 1 kg당 평균 3.2개였다[23, 24]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Tropomyosin",
+   "name_ko": "트로포미오신(Por p 1)",
+   "class": "근육 단백질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "SDS-PAGE에서 39 kDa 단백질로 확인, 재조합 rPor p 1은 약 41 kDa(태그 포함) [13]; 다른 연구에서는 36 kDa [14]",
+   "activity_ko": "열에 강한 주요 알레르겐이며 새우 트로포미오신과 교차 반응한다[13, 14]",
+   "source": [
+    13,
+    14
+   ]
+  },
+  {
+   "name": "Arginine kinase",
+   "name_ko": "아르기닌 키네이스",
+   "class": "효소 단백질",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "41 kDa 단백질(생살 추출물) [14]",
+   "activity_ko": "생살에서 확인된 열에 약한 주요 알레르겐이다[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "몸통살(lump)",
+   "content_text": "몸통살에서 가장 많은 아미노산(글루탐산/글루타민), 수치는 표에 있어 확인하지 못함 [17]",
+   "activity_ko": "몸통살과 알의 감칠맛 차이에 기여할 수 있다고 설명되었다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Leucine",
+   "name_ko": "류신",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "알(roe)",
+   "content_text": "알에서 가장 많은 아미노산, 수치는 표에 있어 확인하지 못함 [17]",
+   "activity_ko": "알의 필수아미노산 함량이 몸통살보다 약간 높았다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "몸통살·집게살",
+   "content_text": "몸통살·집게살에 많음(g/100 g 지질 단위로 보고), 수치는 표에 있어 확인하지 못함 [17]",
+   "activity_ko": "살 부위가 알보다 고도불포화지방산이 많았다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "DHA",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "뒷다리 쪽 살(backfin)",
+   "content_text": "backfin 살에서 가장 많고 집게살이 그다음, 수치는 표에 있어 확인하지 못함 [17]",
+   "activity_ko": "살 부위의 영양적 가치로 언급되었다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "96시간 저장 후 4 ℃ 7.55 ± 0.46 mg/100 g, 20 ℃ 17.68 ± 1.30 mg/100 g [18]",
+   "activity_ko": "저장 중 가장 많이 생긴 생체아민으로, 최대 허용 수준 5 mg/100 g을 넘었다[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Putrescine",
+   "name_ko": "푸트레신",
+   "class": "생체아민",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "4 ℃·20 ℃ 저장 24–96시간 뒤부터 검출(수치는 초록에 없음) [18]",
+   "activity_ko": "부패 지표로 쓰였다[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Chitin",
+   "name_ko": "키틴",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "껍데기",
+   "content_text": "개선 추출법 조키틴 수율 32.52 ± 0.68% [25]; 극초단파 추출 키틴 탈아세틸화도 30.8026% [26]",
+   "activity_ko": "쥐 에탄올 위궤양 모델에서 300·600 mg/kg BW가 NF-κB p65 발현을 억제했다[26]",
+   "source": [
+    25,
+    26
+   ]
+  },
+  {
+   "name": "Chitosan",
+   "name_ko": "키토산",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "껍데기",
+   "content_text": "수율 26.28 ± 0.47%, 정제 키토산 21.78 ± 0.34% [25]",
+   "activity_ko": "개선 추출법에서 대조법보다 물리화학적·기능적 특성이 좋았다[25]",
+   "source": [
+    25
+   ]
+  },
+  {
+   "name": "Heparan sulfate",
+   "name_ko": "헤파란황산 함유 글리코사미노글리칸",
+   "class": "글리코사미노글리칸",
+   "role": "bioactive",
+   "part": "게 추출물(부위는 초록에 없음)",
+   "content_text": "BACE1 억제 IC50 1.85 μg/mL(헤파린 2.43 μg/mL) [27]",
+   "activity_ko": "알츠하이머병 관련 BACE1을 헤파린과 비슷하게 억제하면서 항응고 작용은 크게 약했다[27]",
+   "source": [
+    27
+   ]
+  },
+  {
+   "name": "Glycogen",
+   "name_ko": "글리코겐",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "간췌장",
+   "content_text": "탈피 전기 D0 1225 ± 0.04 μg/mg → D2-3 1700 ± 0.3 μg/mg [35]",
+   "activity_ko": "탈피 전기에 에너지 저장으로 늘어난다고 해석되었다[35]",
+   "source": [
+    35
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acids (EPA, DHA)",
+   "compound_ko": "지방산(EPA·DHA)",
+   "part": "찐 게살(몸통살·집게살·backfin)·알",
+   "content": "g/100 g 지질 단위로 보고, 몸통살·집게살에 EPA가, backfin에 DHA가 많음; 수치는 표에 있어 확인하지 못함 [17]",
+   "method": "GC-FID(지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Agilent 7890B GC, 불꽃이온화검출기(FID)",
+    "column": "모세관 칼럼 30 m × 0.32 mm × 0.25 μm",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "FID",
+    "injection": "",
+    "sample_prep": "클로로폼/메탄올(2:1, v/v)로 지질 추출 후 지방산 메틸에스터(FAME)로 전환",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "찐 게살 부위별 영양 가치를 비교하는 성분으로 쓰였다. 원문 Methods에 칼럼 규격과 기기만 있고 승온 조건·표준물질·검출한계는 없다[17].",
+   "source": [
+    17
+   ],
+   "url": "https://doi.org/10.1016/j.fochx.2024.102070",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids (glutamic acid, leucine)",
+   "compound_ko": "아미노산(글루탐산·류신)",
+   "part": "찐 몸통살·알",
+   "content": "몸통살은 글루탐산/글루타민, 알은 류신이 가장 많음; 수치는 표에 있어 확인하지 못함 [17]",
+   "method": "산가수분해 후 GC-MS",
+   "conditions": {
+    "instrument": "GC-MS QP-2010SE",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "시료 1 g에 6 M HCl 10 mL를 넣고 밀봉해 가수분해; 트립토판은 4.2 M NaOH 10 mL로 오토클레이브 121–123 ℃ 3시간; 2 M NaOH로 중화 후 거름종이(No. 42)와 0.45 μm 시린지 필터로 거름",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "단백질이 많은 몸통살과 알의 맛·영양 차이를 설명하는 지표로 쓰였다. 원문에 칼럼·유도체화·검출 조건과 검출한계는 적혀 있지 않다[17].",
+   "source": [
+    17
+   ],
+   "url": "https://doi.org/10.1016/j.fochx.2024.102070",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Tropomyosin (Por p 1)",
+   "compound_ko": "트로포미오신(Por p 1)",
+   "part": "근육(날것·익힌 것)",
+   "content": "39 kDa IgE 반응 단백질; 환자 24명 중 익힌 추출물 ELISA 양성 15명(63%), 날 추출물 5명(21%) [13]",
+   "method": "IgE ELISA·IgE 면역블롯 및 LC-MS/MS 펩타이드 동정",
+   "conditions": {
+    "instrument": "DIONEX Ultimate 3000 LC + QSTAR XL QqToF-MS/MS(펩타이드 동정); 분광광도계(ELISA)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "ELISA: TMB 기질 5분 반응 후 1 M HCl로 정지, 450 nm 흡광도; MS/MS 검색 시 전구·생성 이온 허용오차 0.1 Da",
+    "injection": "SDS-PAGE 15 µg/lane(4–12% Bis-Tris), ELISA 코팅 1 µg/mL 100 µL",
+    "sample_prep": "껍데기를 벗긴 근육을 PBS(pH 7.2)와 갈아 4 ℃에서 하룻밤 섞은 뒤 13,000 rpm·4 ℃·20분 원심분리, 상등액 여과; 익힌 시료는 껍데기째 끓는 PBS에 20분 가열",
+    "standard": "단백질 정량: Bradford법(소 감마글로불린 표준)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 주요 알레르겐이며 가열 후 IgE 반응이 커져 갑각류 알레르기 진단 지표가 된다. 원문은 호주 멜버른 시장에서 산 게를 썼다[13].",
+   "source": [
+    13
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0067487",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Histamine",
+   "compound_ko": "히스타민",
+   "part": "근육",
+   "content": "96시간 후 4 ℃ 7.55 ± 0.46 mg/100 g, 20 ℃ 17.68 ± 1.30 mg/100 g [18]",
+   "method": "",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "저장 중 가장 많이 생긴 생체아민으로 선도·위생 지표로 쓰였다. 도구로 받은 PMC 본문이 비어 있어 분석 조건은 전문 확인 못함[18].",
+   "source": [
+    18
+   ],
+   "url": "https://doi.org/10.1007/s13197-017-2694-5",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [
+  {
+   "country": "태국",
+   "metric": "export_t",
+   "year": 2020,
+   "value": 5233,
+   "unit": "t",
+   "note": "냉동·통조림 청색꽃게살 수출량, '5,233 t 넘게'; 논문 서론이 다른 자료를 인용한 값",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "태국",
+   "metric": "export_kusd",
+   "year": 2020,
+   "value": 25150,
+   "unit": "천 달러",
+   "note": "같은 수출의 금액 2,515만 달러; 논문 서론 인용값",
+   "source": [
+    17
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 청색꽃게(Portunus pelagicus) 1행 및 같은 목록의 꽃게과 원료 행(로컬 원자료 I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "The Complete Genome Sequence of Portunus pelagicus (Portunidae, Decapoda), the Blue Swimming Crab. Biodivers Genomes 2023;2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38144399/",
+   "publisher": "Biodiversity Genomes (PubMed 초록, PMC10745231 본문 비어 있음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Characterization of the complete mitochondrial genome of Portunus pelagicus with implications for phylogenomics. Genet Mol Res 2016;15(3)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27706563/",
+   "publisher": "Genetics and Molecular Research (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The complete mitogenome of blue swimming crab Portunus pelagicus (Crustacea: Decapoda: Portunidae). Mitochondrial DNA A 2016;27(4):2789-2790",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26171873/",
+   "publisher": "Mitochondrial DNA Part A (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "De novo assembly of genome and development of polymorphic microsatellite loci in the blue swimming crab (Portunus pelagicus) using RAD approach. Mol Biol Rep 2018;45(6):1913-1918",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30203240/",
+   "publisher": "Molecular Biology Reports (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "The first description of the blue swimming crab (Portunus pelagicus) transcriptome and immunological defense mechanism in response to white spot syndrome virus (WSSV). Fish Shellfish Immunol 2023;134:108626",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36841515/",
+   "publisher": "Fish & Shellfish Immunology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Genetic population subdivision of the blue swimming crab (Portunus pelagicus) across Indonesia inferred from mitochondrial DNA. PLoS One 2021;16(2):e0240951",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33539423/",
+   "publisher": "PLoS One (PubMed 초록, PMC7861520)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Genome-wide SNP analyses reveal population structure of Portunus pelagicus along Vietnam coastline. PLoS One 2019;14(11):e0224473",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31689298/",
+   "publisher": "PLoS One (PubMed 초록, PMC6830773)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Population Structure of the Blue Swimmer Crab Portunus pelagicus in Coastal Areas of Malaysia Inferred from Microsatellites. Zool Stud 2017;56:e26",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31966225/",
+   "publisher": "Zoological Studies (PubMed 초록, PMC6517759)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Genetic structure and historical demography of the blue swimming crab (Portunus pelagicus) from southeastern sea of China based on mitochondrial COI gene. Mitochondrial DNA A 2018;29(2):192-198",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28034343/",
+   "publisher": "Mitochondrial DNA Part A (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Development of Loop-Mediated Isothermal Amplification (LAMP) Assays for the Rapid Authentication of Three Swimming Crab Species. Foods 2022;11(15):2247",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35954015/",
+   "publisher": "Foods (PubMed 초록, PMC9368355)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Multiplex PCR Combined With Lateral Flow Dipstick Assay for the Species Authentication of Three Swimming Crabs. J Food Sci 2025;90(6):e70364",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40556047/",
+   "publisher": "Journal of Food Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "IgE Reactivity of Blue Swimmer Crab (Portunus pelagicus) Tropomyosin, Por p 1, and Other Allergens; Cross-Reactivity with Black Tiger Prawn and Effects of Heating. PLoS One 2013;8(6):e67487",
+   "url": "https://doi.org/10.1371/journal.pone.0067487",
+   "publisher": "PLoS One, PMC3686732 (PubMed 도구로 PMC 전문 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Identification of tropomyosin and arginine kinase as major allergens of Portunus pelagicus (blue swimming crab). Trop Biomed 2012;29(3):467-478",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23018510/",
+   "publisher": "Tropical Biomedicine (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Identification of the major allergens of Charybdis feriatus (red crab) and its cross-reactivity with Portunus pelagicus (blue crab). Asian Pac J Allergy Immunol 2012;30(4):285-293",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23393908/",
+   "publisher": "Asian Pacific Journal of Allergy and Immunology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Revealing the Diverse Allergenic Protein Repertoire of Six Widely Consumed Crab Species: A Species-Specific Allergen in King Crab. Allergy 2025;81(5):1500-1521",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40736448/",
+   "publisher": "Allergy (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Edible portions of precooked blue swimming crab: Chemical composition and effect of chitooligosaccharide conjugate and high-pressure processing on microbial inactivation. Food Chem X 2024;25:102070",
+   "url": "https://doi.org/10.1016/j.fochx.2024.102070",
+   "publisher": "Food Chemistry: X, PMC11696631 (PubMed 도구로 PMC 전문 확인, 표 수치는 미포함)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Changes on biogenic, volatile amines and microbial quality of the blue swimmer crab (Portunus pelagicus) muscle during storage. J Food Sci Technol 2017;54(8):2503-2511",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28740308/",
+   "publisher": "Journal of Food Science and Technology (PubMed 초록, PMC5502046 본문 비어 있음)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Assessment of the health risks related with metal accumulation in blue swimming crab (Portunus pelagicus) caught in East Java coastal waters, Indonesia. Mar Pollut Bull 2022;177:113573",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35314398/",
+   "publisher": "Marine Pollution Bulletin (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Oxidative response to cadmium and lead accumulations in the tissues of blue swimming crabs Portunus pelagicus from the Trang Province coastline, Southern Thailand. J Aquat Anim Health 2024;36(3):265-274",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39152670/",
+   "publisher": "Journal of Aquatic Animal Health (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Trace metal distribution in crab organs and human health risk assessment on consumption of crabs collected from coastal water of South East coast of India. Mar Pollut Bull 2019;141:273-282",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30955735/",
+   "publisher": "Marine Pollution Bulletin (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Bioaccumulation of trace metals in the coastal Borneo (Malaysia) and health risk assessment. Mar Pollut Bull 2019;145:56-66",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31590824/",
+   "publisher": "Marine Pollution Bulletin (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "The Contamination of Microplastic Debris in Blue Swimming Crab Portunus pelagicus from Artisanal Fisheries in the Eastern Gulf of Thailand. Toxics 2025;13(10):813",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41150512/",
+   "publisher": "Toxics (PubMed 초록, PMC12568171)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Microplastics in the edible tissues of shellfishes sold for human consumption. Chemosphere 2021;264(Pt 2):128554",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33049503/",
+   "publisher": "Chemosphere (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "An improved extraction and purification method for obtaining high-quality chitin and chitosan from blue swimmer (Portunus pelagicus) crab shell waste. Food Sci Biotechnol 2021;30(13):1645-1655",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34925940/",
+   "publisher": "Food Science and Biotechnology (PubMed 초록, PMC8639916)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Chitin Extracted from the Shell of Blue Swimming Crabs (Portunus pelagicus) Inhibits NF-kappaB p65 in Ethanol-Induced Gastric Ulcerative Wistar Rats. Mar Drugs 2023;21(9):488",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37755101/",
+   "publisher": "Marine Drugs (PubMed 초록, PMC10533015)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "A Glycosaminoglycan Extract from Portunus pelagicus Inhibits BACE1, the β Secretase Implicated in Alzheimer's Disease. Mar Drugs 2019;17(5):293",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31100859/",
+   "publisher": "Marine Drugs (PubMed 초록, PMC6562973)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Reproductive Biology of the Blue Swimming Crab Portunus pelagicus in East Lampung Waters, Indonesia: Fecundity and Reproductive Potential. Trop Life Sci Res 2015;26(1):67-85",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26019748/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC4437326)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "The Feeding Ecology of the Blue Swimming Crab, Portunus pelagicus, at Kung Krabaen Bay, Chanthaburi Province, Thailand. Trop Life Sci Res 2014;25(1):13-27",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25210585/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC4156471)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "A Stock Assessment of the Blue Swimming Crab Portunus pelagicus for Sustainable Management in Kung Krabaen Bay, Gulf of Thailand. Trop Life Sci Res 2014;25(1):41-59",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25210587/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC4156473)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Abundance, Fishing Season and Management Strategy for Blue Swimming Crab (Portunus pelagicus) in Pangkajene Kepulauan, South Sulawesi, Indonesia. Trop Life Sci Res 2018;29(1):1-15",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29644012/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC5893224)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Evolution of the Food Web in Bandon Bay, the Gulf of Thailand: Ten Years of the Blue Swimming Crab Stocking Programme. Trop Life Sci Res 2023;34(2):109-130",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38144378/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC10735257)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "From good intentions to unexpected results - a cross-scale analysis of a fishery improvement project within the Indonesian blue swimming crab. Marit Stud 2022;21(4):587-607",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36246418/",
+   "publisher": "Maritime Studies (PubMed 초록, PMC9540048)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Reproductive Biology and Feeding Ecology of The Blue Swimming Crab (Portunus pelagicus) in Northern Coastal Waters, Sri Lanka. Trop Life Sci Res 2022;33(2):155-178",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35966266/",
+   "publisher": "Tropical Life Sciences Research (PubMed 초록, PMC9354908)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Molt cycle related changes and effect of short term starvation on the biochemical constituents of the blue swimmer crab Portunus pelagicus. Saudi J Biol Sci 2013;20(1):93-103",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23961226/",
+   "publisher": "Saudi Journal of Biological Sciences (PubMed 초록, PMC3730964)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

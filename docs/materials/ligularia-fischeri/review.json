@@ -1,0 +1,76 @@
+{
+ "slug": "ligularia-fischeri",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 82,
+ "checked_items": 61,
+ "verified": 131,
+ "fixed": 8,
+ "removed": 3,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.genetics",
+   "before": "곰취의 엽록체 전체 유전체는 두 차례 보고되었다[12, 13]. … 2022년 보고에서는 길이 150,773 bp, 유전자 130개(단백질 암호 85, tRNA 37, rRNA 8), GC 함량 37.5%였다[13].",
+   "after": "곰취의 엽록체 전체 유전체는 2016년 처음 보고되었다[12]. … 2018년 중국 연구는 곰취를 포함한 곰취속 6종의 엽록체 유전체를 새로 해독했는데, 곰취 시료는 151,193 bp(LSC 83,301·SSC 18,232·IR 24,830 bp)였고 6종 모두 GC 37.5%, 유전자 134개였다[27].",
+   "why": "옛 [13](PMID 36267669, PMC9578491)은 전문 확인 결과 '(Bunge) Maxim. 1859, shredded umbrella plant' 즉 우산나물(Syneilesis aconitifolia)의 엽록체 유전체로, 곰취가 아님(다른 종 자료 섞임). 곰취 시료를 포함한 PMC6043804 Table 1 값으로 대체"
+  },
+  {
+   "where": "sources[13]",
+   "before": "First record of the complete chloroplast genome of Ligularia fischeri (Asteraceae) — PMID 36267669",
+   "after": "(삭제)",
+   "why": "Syneilesis aconitifolia 논문을 곰취로 잘못 적음"
+  },
+  {
+   "where": "sources[22]→[21].title, sections.cultivation",
+   "before": "… with Bacillus velezensis ObRS-5 … / 고른 ObRS-5 균주는",
+   "after": "… with Enterobacter asburiae ObRS-5 … / 고른 Enterobacter asburiae ObRS-5 균주는",
+   "why": "PubMed 키워드 'Enterobacter asburiae ObRS-5', 전문에서 16S rRNA가 JCM 6052(E. asburiae 기준주)와 99.9% 일치"
+  },
+  {
+   "where": "sections.safety",
+   "before": "박새는 같은 PCR 연구에서 곰취가 아닌 원추리(Hemerocallis fulva)와의 혼동 쌍으로 다뤄졌고, 곰취-박새 혼동 사고의 1차 자료는 확인하지 못함.",
+   "after": "같은 PCR 연구에서 원추리(Hemerocallis fulva)와 짝지어진 독초는 박새(Veratrum patulum)가 아니라 같은 속의 Veratrum maackii였다[7]. 곰취와 박새를 혼동한 사고의 1차 자료와 … 식약처 보도자료 원문은 확인하지 못함.",
+   "why": "[7] 초록의 쌍은 Hemerocallis fulva & Veratrum maackii; 식품원료 목록의 박새는 V. patulum으로 다른 종"
+  },
+  {
+   "where": "sections.safety, sources[28]",
+   "before": "식약처는 산나물과 독초 구별이 확실하지 않으면 채취·섭취하지 말라고 권고한 것으로 검색 요약에서 확인되었다(원문 미확인)[28].",
+   "after": "(앞 문장의 '식약처 보도자료 원문은 확인하지 못함'으로 합침, [28] 삭제)",
+   "why": "원문을 열지 못한 검색 요약만의 출처 — V 규칙상 확인 불가 출처는 지움"
+  },
+  {
+   "where": "sections.safety",
+   "before": "L. hodgsonii 추출물은 DNA 부가물을 만들었다[9, 10].",
+   "after": "L. hodgsonii 추출물은 쥐 간 미소체와 반응시킨 시험관 실험에서 DNA 부가물을 만들었다[9, 10]. 곰취속 일부 종에 PA가 있어 종을 정확히 가리는 일이 안전상 중요하다는 지적이 있다[27].",
+   "why": "[10]은 미소체 시험관 실험(과장 방지). PA와 종 판별 중요성은 [27](PMC6043804) 서론·초록에 있음"
+  },
+  {
+   "where": "compounds.Fischerisin A.activity_ko",
+   "before": "KB·MCF-7 세포 독성 IC50 9.7·9.8 μM(세포 실험)[31]",
+   "after": "뿌리에서 분리한 피셰리신 A·B가 KB·MCF-7 세포에 IC50 9.7–17.8 μM의 세포 독성을 보임(초록의 수치 배정이 모호해 화합물별 값은 확인하지 못함, 세포 실험)[29]",
+   "why": "초록 'IC50 values of 9.7 and 10.2 µM, and 9.8 and 17.8 µM, respectively'는 화합물별/세포주별 배정이 모호"
+  },
+  {
+   "where": "compounds.3,4-Dicaffeoylquinic acid.activity_ko",
+   "before": "(5–10 mg/kg 경구)",
+   "after": "(5–10 mg/kg 경구, 동물 실험)",
+   "why": "[17] 랫드 실험임을 명시"
+  },
+  {
+   "where": "sources",
+   "before": "1–35",
+   "after": "1–33",
+   "why": "[13]·[28] 삭제 후 번호 재정렬(본문·배열 참조 함께 갱신)"
+  }
+ ],
+ "unverifiable_notes": [
+  "식약처 산나물·독초 보도자료(옛 [28])는 원문을 열 수 없어 삭제",
+  "곰취-박새 오인 섭취 사고의 1차 자료는 PubMed에서 찾지 못함",
+  "곰취(L. fischeri) 잎 자체의 피롤리지딘 알칼로이드 검출·함량 자료는 PubMed 검색('Ligularia fischeri pyrrolizidine' 1건, 종 판별 논문뿐)에서 찾지 못함 — 본문에 '확인하지 못함' 유지",
+  "[3]·[4]·[8]·[9]·[10]·[11]·[13]–[18]·[22]–[26]·[28]–[33]은 PubMed 초록으로 대조(전문 없음 또는 불필요). [2]·[5]·[6]·[21]·[27] 및 옛 [13]은 PMC 전문으로 대조",
+  "[2]의 mg/g 값은 초록대로 '원료 5 g/용매 50 mL 추출 기준'이며 생/건 기준은 원문에 명시되지 않음(시료는 동결건조 잎·줄기 분말). [5] 값은 건조중량(mg/g dry weight) 확인",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 곰취잎·곰취가루·곰취추출액 모두 A코드·사용가능·'사용가능부위 : 잎'·이명 큰곰취, 동의나물(C. palustris var. nipponica)·박새(V. patulum) 사용불가, 곤달비잎·어리곤달비잎·긴잎곰취잎/순은 별도 행 — card.json 과 일치",
+  "근연종(곤달비·어리곤달비·긴잎곰취) 성분 자료가 곰취 성분·함량에 섞인 곳은 없음(옛 [13]의 우산나물 자료만 섞여 있었음)"
+ ]
+}

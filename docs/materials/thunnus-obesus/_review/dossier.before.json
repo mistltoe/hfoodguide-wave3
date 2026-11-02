@@ -1,0 +1,840 @@
+{
+ "slug": "thunnus-obesus",
+ "name_ko": "눈다랑어",
+ "name_en": "Bigeye tuna",
+ "scientific_name": "Thunnus obesus (Lowe, 1839)",
+ "aliases": [
+  "눈다랑어",
+  "눈다랭이",
+  "Bigeye tuna",
+  "눈다랑어뼈",
+  "눈다랑어알"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "눈다랑어(Thunnus obesus)는 고등어과(Scombridae) 다랑어속(Thunnus)에 드는 대형 회유어로, 식약처 「식품원료 목록」에 '눈다랑어'(영문 Bigeye tuna, 별명 눈다랭이)라는 원료명으로 올라 있다[1]. 같은 학명으로 '눈다랑어뼈'와 '눈다랑어알'도 따로 올라 있고, 세 행 모두 상태는 '사용가능'이며 별도의 사용 조건은 없다[1]. 부위 칸은 원자료에 '눈다랑어'가 '-', '눈다랑어뼈'가 '어린싹', '눈다랑어알'이 '균핵'으로 적혀 있다[1]. 같은 목록의 다른 다랑어류 알·뼈 행에도 '균핵'·'어린싹'이 같은 방식으로 붙어 있어, 뼈·알을 가리키는 부위 코드가 식물·버섯 부위 이름으로 표시된 것으로 보인다[1]. 이 표기의 연유는 공식 자료로 확인하지 못함. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n눈다랑어는 세계의 열대·온대 바다에 사는 대형 원양 회유성 다랑어다[17]. 다른 열대 다랑어보다 깊은 수층에서 먹이를 찾기 때문에 살의 수은 농도가 높은 편이며, 큰 개체는 식품 기준(메틸수은 1 mg/kg 습중량 수준)을 넘는 경우가 보고되었다[8, 25, 26, 27]. 살은 회(사시미)와 통조림·냉동 원료로 쓰이고, 뼈·껍질·머리 같은 부산물에서 콜라겐·수산화인회석·감칠맛 펩타이드를 얻는 연구도 있다[9, 15, 36, 37, 39]. 국가표준식품성분표의 눈다랑어 성분값과 국내 공식 생산 통계 원문은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "눈다랑어는 일찍부터 생리·생화학 연구 재료로 쓰였다[57]. 1968년에는 태평양 다랑어 2종(가다랑어·눈다랑어)의 붉은살과 흰살 산소 소비량을 재어, 붉은살의 대사율이 흰살의 평균 6.2배라고 보고했다[57]. 1983년에는 하와이 근해 황다랑어·눈다랑어의 총수은 함량을 다룬 논문이 나왔다[61]. 1990년에는 눈다랑어 근육에서 옥시미오글로빈을 분리해, 향유고래 것보다 훨씬 쉽게 자동산화된다는 사실을 밝혔다[56]. 1994년에는 눈다랑어 뇌하수체에서 생식소자극호르몬 두 종류(GTH I·II)를 정제해 경골어류 생식소자극호르몬이 두 가지임을 확인했다[58].\n\n1992년에는 원격 측정으로 자유 유영하는 눈다랑어가 몸 전체 열전도도를 100배(두 자릿수) 바꿀 수 있음을 보여, 체온 조절 연구의 대표 사례가 되었다[2]. 2000년대 이후에는 수은 오염[8, 25, 26], 종 판별용 유전자 검사[13, 14, 15], 자원 관리[9, 10]로 연구가 넓어졌다. 2010년대 후반부터는 저장·유통 중 품질 변화와 머리·뼈·껍질 같은 부산물 이용 연구가 늘었다[36, 39, 53, 54]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생태·번식",
+   "body": "눈다랑어는 다랑어 가운데 깊은 곳을 오가며 먹이를 찾는 종으로, 동태평양에서 표지한 개체는 수온약층 훨씬 아래까지 내려가 먹이를 찾았다[7]. 깊은 곳의 산소가 적을 때는 짧게 위로 올라오는 행동이 4배 잦아져, 저산소 물에 머문 뒤 산소를 보충하는 것으로 해석되었다[7]. 혈관의 역류 열교환기로 체온을 바닷물보다 높게 유지하며, 따뜻한 표층으로 올라올 때는 열교환기를 끄고 차가운 깊은 곳으로 내려가면 다시 켜서 열을 보존한다[2]. 열흐름 모델에서는 붉은살과 흰살로 가는 혈류 경로의 열교환기가 각각 생산된 열의 99%와 96%를 붙잡아 둘 때 실측과 가장 잘 맞았다[3].\n\n서태평양 암컷 888마리(가랑이체장 84.9–174.4 cm)를 조사한 연구에서 산란은 1년 내내 일어났고 주 산란기는 2–9월이었다[4]. 암컷의 50% 성숙 체장은 102.85 cm였고, 여러 번 나누어 거의 매일 산란하며, 한 번에 낳는 알 수는 84만–856만 개(평균 306만 개)였다[4]. 중부 대서양 개체의 폰 베르탈란피 성장식 극한 체장은 217.9 cm, 성장계수는 연 0.23으로 추정되었다[5]. 몸의 일부 부위에는 속이 지방으로 찬 그물 구조의 두꺼운 비늘이 있으며, 이는 세포성 뼈로 이루어져 있었다[51]. 키리바시 피닉스제도 보호구역에서는 눈다랑어 자어가 유전자 바코드로 확인되어 이곳이 산란장임이 밝혀졌다[50]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "다랑어속에는 8종이 있으며, 눈다랑어는 그중 하나로 대서양·태평양·인도양의 열대 바다에 분포하는 종으로 여겨진다[49]. 미토콘드리아 유전자 분석에서는 날개다랑어가 속에서 가장 먼저 갈라지고 그다음이 눈다랑어로 나타나, 형태로 나눈 분류(눈다랑어를 참다랑어 무리에 넣음)와 맞지 않았다[11]. 식약처 「식품원료 목록」에서도 참다랑어·황다랑어·날개다랑어·남방참다랑어·백다랑어·Thunnus thynnus는 눈다랑어와 별도의 원료로 올라 있다[1]. 지중해에서는 그동안 확인되지 않았던 눈다랑어 어린 개체 3마리가 2021년 유전자로 확인되었다[49].\n\n몸길이 40 cm 미만의 어린 눈다랑어와 황다랑어는 겉모습으로 구별하기 매우 어렵다[12]. 필리핀 집어장치 주변 어획물 48마리를 형태로 보면 25%가 눈다랑어였지만, 유전자와 간 모양으로는 10%만 눈다랑어였다[12]. 이 때문에 신선·냉동·통조림 다랑어에서 눈다랑어를 가려내는 PCR 검사들이 개발되었다[13, 14]. 회 제품에서도 PCR-RFLP로 눈다랑어 등 다랑어 종을 판별하는 방법이 검증되었다[15]. 유럽연합은 통조림에서 다랑어 종을 바꾸거나 섞는 것을 금지하고 있으며, 포르투갈 통조림 조사에서는 한 캔 안에 두 종 이상이 섞인 제품이 확인되었다[14, 59]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·자원",
+   "body": "눈다랑어는 주로 원양 어업으로 잡히며, 인도양에서는 가다랑어·황다랑어와 함께 열대 다랑어 어업의 주 대상종이다[6]. 지난 30년간의 높은 어획 압력 때문에 지속 가능성에 대한 우려가 제기되었다[6]. 서중부 태평양에서 잡히는 눈다랑어의 절반 넘게는 선망어업에서 의도치 않게 잡혀 kg당 2달러 미만의 통조림 원료로 팔리고, 나머지는 연승어업으로 잡혀 kg당 10달러 넘는 신선·냉동 다랑어로 팔린다[9]. 집어장치(FAD)에 모인 가다랑어를 노리는 선망어업은 어린 눈다랑어를 함께 잡아, 이를 줄이는 것이 자원 관리의 과제로 꼽힌다[10].\n\n한 논문은 2017년 세계 눈다랑어 어획량을 472,934톤으로 인용했다[20]. 국내에서는 원양어업으로 눈다랑어를 잡으며, 해양수산부·통계청 발표를 인용한 보도에 따르면 2023년 약 2.5만 톤, 2024년(잠정) 약 2만2000톤이었다(검색 결과 요약으로만 확인)[44, 45]. 해양수산부·통계청 원자료(KOSIS 어업생산동향조사)는 이 환경에서 열 수 없어 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·저장·품질",
+   "body": "눈다랑어 옥시미오글로빈은 향유고래 것보다 산소가 떨어져 나가는 속도 상수가 10배 커서 쉽게 자동산화된다[56]. 0 °C·4 °C 6일 저장 중에는 드립 손실·히스타민과 헥산알 등 이취 성분이 늘었다[53]. 알릴아이소티오시아네이트 증기는 12 °C 저장 눈다랑어 살의 히스타민 생성균과 히스타민 축적을 억제했다[33]. 운송 포장 중에는 알루미늄박 종이 포장이 40시간 뒤 휘발성염기질소 21.28 mg/100 g, 일반세균 3.53 log CFU/g으로 가장 나았다[54]. 근적외선 분광법은 냉동 후 해동한 살과 냉동하지 않은 살을 정확도 0.91로 구별했다[55]. 살이 희고 푸석해지는 '야케(burnt tuna)' 결함에서는 43 kDa 크레아틴키나아제 띠가 지표 후보로 제시되었다[52].\n\n건조 가공에서는 염지 후 130 °C로 8초 안에 올려 11분 처리하는 순간 고온 처리가 AMP를 295.83에서 605.78 μg/g으로 늘리고 감칠맛·단맛 유리아미노산을 늘렸다[21]. 머리 국물의 미세 콜로이드 입자에는 DHA·EPA가 풍부한 지질이 주성분이며, 지방산에 노출된 간세포의 중성지방 축적을 31–40% 줄였으나 세포 실험일 뿐이다[60]. 뼈는 증기 폭쇄 후 효소 분해로 감칠맛·짠맛 증강 펩타이드를 얻는 원료로, 뼈를 600–900 °C로 태워 얻는 수산화인회석은 골조직 재료로 연구되었다[36, 37]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "눈다랑어는 대서양 집단과 인도·태평양 집단이 유전적으로 뚜렷이 나뉜다[16]. 미토콘드리아 DNA의 한 표지형(알파형)은 대서양 표본 244마리 중 178마리에서 나왔지만 인도·태평양 표본에서는 195마리 중 1마리뿐이었고, 남아프리카 희망봉 주변에서는 두 집단이 섞여 있었다[16]. 대서양에는 플라이스토세에 갈라진 것으로 보이는 두 미토콘드리아 계통(I·II)이 함께 살며, 대서양 전체는 하나의 계군으로 보는 결과가 나왔다[17]. 이 연구는 기니만을 대서양 눈다랑어의 가장 잘 알려진 산란장으로 소개했다[17].\n\n미세부수체 9개 좌위로 380마리를 분석한 연구에서도 대서양 안에서는 핵 유전자 수준의 유전자 흐름이 막힘없이 이루어졌다[18]. 중부 태평양의 자어·준성어 348마리를 2bRAD 염기서열로 분석한 2026년 연구에서는 눈다랑어 안에서 집단 구조가 나타나지 않았다[19]. 시토크롬 b, 미토콘드리아 조절영역, ND2 등 미토콘드리아 유전자는 종 판별 표지로 널리 쓰인다[12, 13, 14]. 눈다랑어 전장 유전체 해독 논문은 이번 조사의 PubMed 검색에서 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "눈다랑어는 깊은 수층의 먹이를 먹어 수은이 많이 쌓이는 종이다[8]. 대서양·인도양 231마리의 근육 총수은은 평균 0.786, 유기수은은 0.595 mg/kg(습중량)이었고 16마리가 유기수은 1 mg/kg을 넘었다[26]. 태평양 75마리 중 큰 개체 13마리도 유기수은이 1 μg/g을 넘었다[25]. 브라질 근해에서는 30 kg 넘는 개체의 총수은이 1000 ng/g 이상이었다[27]. 이 논문들은 성인 주 145–170 g 이하 섭취를 제안했다[25, 26]. 국내에서는 다랑어류의 메틸수은을 1.0 ppm으로 관리한다(검색 결과 요약으로만 확인)[43].\n\n하와이 근해 개체는 셀레늄/수은 몰비가 5.2였고, 수은은 1970년대보다 2000년대에 높았으나 남서태평양 18년 감시에서는 장기 추세가 없었다[28, 46, 47]. 카드뮴은 145 cm 넘는 개체의 10.3%, 아조레스 근해 표본의 53%가 유럽연합 기준을 넘었다[29, 30]. 북태평양 개체는 간 PCB가 적었다[48].\n\n다랑어는 히스타민 식중독 위험 어종이며, 눈다랑어 흰살에서는 저장 중 히스타민이 늘어 히스티딘과 상관을 보였다[24, 32]. 국내 히스타민 기준 원문은 이번 조사에서 확인하지 못함. 눈다랑어 근육 콜라겐은 환자 혈청 8개 중 5개와 반응한 어류 알레르겐이고, 살 속 고래회충 알레르겐(Ani s 4)은 통조림 가열 뒤에도 일부 남았다[34, 35]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "머리살(총지질·중성지질 분획), 근육",
+   "content_text": "머리 총지질의 EPA+DHA 64.29%(지방산 대비); 머리 TG 분획 PUFA 중 DHA 81.78%(원문 표현)",
+   "activity_ko": "열대 다랑어 근육의 극성·중성 지질 모두에서 주 지방산이었다[22]",
+   "source": [
+    20,
+    22
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "머리살",
+   "content_text": "머리 총지질 EPA+DHA 64.29%, TG 분획 32.77%(총 지방산 대비); PUFA 중 EPA+DHA 91.18%",
+   "activity_ko": "머리 TG 분자종 146개 중 72개가 EPA 또는 DHA를 포함(총 TG의 56.12%)[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Methylmercury",
+   "name_ko": "메틸수은(유기수은)",
+   "class": "유해 중금속(유기금속)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "대서양·인도양 231마리 평균 0.595 ± 0.238(0.143–2.222) mg/kg 습중량[26]; 태평양 75마리 중 13마리 1 μg/g 초과[25]",
+   "activity_ko": "신경독성 오염물질 — 체장·체중과 양의 상관, 큰 개체일수록 높음[25, 26]",
+   "source": [
+    25,
+    26
+   ]
+  },
+  {
+   "name": "Mercury",
+   "name_ko": "총수은",
+   "class": "유해 중금속",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "평균 0.786 ± 0.386(0.214–3.133) mg/kg 습중량[26]; 브라질 적도 대서양 95–1748 ng/g, 평균 545 ng/g[27]",
+   "activity_ko": "깊은 곳 먹이 섭식과 관련해 다른 열대 다랑어보다 높음[8, 27]",
+   "source": [
+    26,
+    27,
+    8
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "미량 무기질",
+   "role": "nutrient",
+   "part": "가식부(근육)",
+   "content_text": "셀레늄/수은 몰비 평균 5.2(하와이 근해)",
+   "activity_ko": "수은 독성을 줄이는 것으로 알려진 원소 — 몰비가 1보다 커 셀레늄이 과잉[28]",
+   "source": [
+    28
+   ]
+  },
+  {
+   "name": "Cadmium",
+   "name_ko": "카드뮴",
+   "class": "유해 중금속",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "체장 145 cm 초과 개체의 10.3%가 0.1 μg/g 습중량 초과[29]; 아조레스 근해 근육 표본 53%가 EU 기준 초과[30]",
+   "activity_ko": "체장과 양의 상관[29]",
+   "source": [
+    29,
+    30
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민",
+   "role": "bioactive",
+   "part": "흰살·붉은살",
+   "content_text": "저장 중 증가, 흰살이 붉은살보다 대체로 높음(수치는 초록에 없음)[24]; 0 °C·4 °C 6일 저장 중 증가[53]",
+   "activity_ko": "히스타민 식중독 원인 물질 — 흰살에서 히스티딘과 상관[24, 32]",
+   "source": [
+    24,
+    53,
+    32
+   ]
+  },
+  {
+   "name": "Histidine",
+   "name_ko": "히스티딘(유리)",
+   "class": "유리아미노산",
+   "role": "nutrient",
+   "part": "흰살",
+   "content_text": "수치는 초록에 없음",
+   "activity_ko": "히스타민의 전구체 — 흰살에서 히스타민과 상관[24]",
+   "source": [
+    24
+   ]
+  },
+  {
+   "name": "Anserine",
+   "name_ko": "안세린",
+   "class": "이미다졸 디펩타이드",
+   "role": "bioactive",
+   "part": "흰살",
+   "content_text": "수치는 초록에 없음(흰살·붉은살 함량 차이 보고)[24]",
+   "activity_ko": "NMR 대사체 분석에서 카르노신과 함께 종·크기·산지·저장 조건을 가르는 주요 성분[23]",
+   "source": [
+    23,
+    24
+   ]
+  },
+  {
+   "name": "Inosine monophosphate",
+   "name_ko": "이노신산(IMP)",
+   "class": "5'-뉴클레오타이드",
+   "role": "bioactive",
+   "part": "살(생육·건조품)",
+   "content_text": "생살 1833.42 μg/g; 건조 가공 후 감소",
+   "activity_ko": "감칠맛 뉴클레오타이드 — 순간 고온 처리 시 AMP 295.83→605.78 μg/g로 증가, IMP는 감소[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산(유리)",
+   "class": "유리아미노산",
+   "role": "bioactive",
+   "part": "살(건조품)",
+   "content_text": "순간 고온 처리 건조품 1506.66 μg/g(맛활성값 >1)",
+   "activity_ko": "대표 감칠맛 아미노산; 감칠맛 유리아미노산 합계 321.78→1730.60 μg/g[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Collagen type I",
+   "name_ko": "I형 콜라겐",
+   "class": "구조 단백질",
+   "role": "bioactive",
+   "part": "껍질·비늘·뼈",
+   "content_text": "껍질 산가용성 13.5 ± 0.6%, 펩신가용성 16.7 ± 0.7%(건물 기준); 비늘 4.6 ± 0.3%, 뼈 2.6 ± 0.3%(펩신가용성)[39]",
+   "activity_ko": "변성온도 31.1–32.2 °C로 온대·냉수성 어류 콜라겐보다 높음[39]; 근육 콜라겐은 어류 알레르겐[34]",
+   "source": [
+    39,
+    40,
+    34
+   ]
+  },
+  {
+   "name": "Hydroxyapatite",
+   "name_ko": "수산화인회석",
+   "class": "무기질(인산칼슘)",
+   "role": "bioactive",
+   "part": "뼈",
+   "content_text": "600 °C 소성 시 80–300 nm 나노 결정[37]; 알칼리 가수분해 시 길이 17–71 nm 결정[38]",
+   "activity_ko": "MG-63 골모세포 유사 세포에 세포독성 없음 — 골조직 재료 후보[37, 38]",
+   "source": [
+    37,
+    38
+   ]
+  },
+  {
+   "name": "Trp-Pro-Glu-Ala-Ala-Glu-Leu-Met-Met-Glu-Val-Asp-Pro",
+   "name_ko": "ACE 저해 펩타이드(검붉은살 유래)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "검붉은살(펩신 가수분해물)",
+   "content_text": "IC50 21.6 μM, 분자량 1581 Da",
+   "activity_ko": "고혈압 쥐에 10 mg/kg 경구 투여 3시간 뒤 혈압이 가장 많이 내려감 — 동물 실험[41]",
+   "source": [
+    41
+   ]
+  },
+  {
+   "name": "Leu-Asn-Leu-Pro-Thr-Ala-Val-Tyr-Met-Val-Thr",
+   "name_ko": "항산화 펩타이드(검붉은살 유래)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "검붉은살(펩신 가수분해물)",
+   "content_text": "분자량 1,222 Da(함량 수치 없음)",
+   "activity_ko": "DPPH·하이드록실 등 라디칼 소거, 리놀레산 과산화 억제 — 시험관·세포 실험[42]",
+   "source": [
+    42
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (EPA, DHA etc.)",
+   "compound_ko": "지방산 조성(EPA·DHA 등)",
+   "part": "머리살(머리에서 뼈를 떼어 낸 살)",
+   "content": "머리 총지질 PUFA 70.5%, EPA+DHA 64.29%(총 지방산 대비)·PUFA 중 91.18%; TG 분획 EPA+DHA 32.77%[20]",
+   "method": "GC-FID",
+   "conditions": {
+    "instrument": "TRACE GC ULTRA 가스크로마토그래프(Thermo Fisher), 불꽃이온화검출기",
+    "column": "SP-2560 모세관 칼럼, 100 m × 250 μm, 막 두께 0.2 μm",
+    "mobile_phase": "운반 기체 질소(N2)",
+    "gradient": "70 °C → 20 °C/분 140 °C(1분) → 4 °C/분 180 °C(1분) → 3 °C/분 225 °C(30분 유지)",
+    "flow": "1 mL/min(N2)",
+    "temp": "주입구(기화) 250 °C",
+    "detection": "FID",
+    "injection": "1 μL, split 45:1",
+    "sample_prep": "머리살 10 g을 클로로포름-메탄올(2:1) 200 mL로 4 °C 24시간 Folch 추출 → 0.9% NaCl 30 mL로 분배; 지질 0.1 g + 내부표준 C19:0(10 mg/mL) 100 μL + 0.5 mol/L 메탄올성 NaOH 5 mL, 100 °C 10분 → 14% BF3-메탄올 3 mL, 100 °C 3분 → n-헥세인 2 mL 2분 → 포화 NaCl 10 mL, 헥세인층 0.22 μm 나일론 필터",
+    "standard": "37종 지방산메틸에스터 혼합 표준품(머무름 시간 비교), 내부표준 C19:0 면적비로 정량(mg/g 총지질)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "EPA·DHA는 다랑어 지질의 영양 가치를 보여 주는 대표 성분으로, 머리 같은 부산물의 어유 원료 가치를 판단하는 지표로 쓰였다[20]. 전문(Methods) 확인 — 검출·정량한계·회수율은 본문에 없음[20].",
+   "source": [
+    20
+   ],
+   "url": "https://doi.org/10.3390/molecules24213983",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Triacylglycerol molecular species",
+   "compound_ko": "중성지방(TG) 분자종",
+   "part": "머리살 TG 분획",
+   "content": "TG 분자종 146개 검출, 주 분자종 TG(16:0/18:1/22:6) 24375.98 ng/μL(5.44%), TG(16:0/22:6/22:6) 22494.45 ng/μL(5.02%); EPA·DHA 함유 72종이 총 TG의 56.12%[20]",
+   "method": "UHPLC-Q Exactive Orbitrap MS",
+   "conditions": {
+    "instrument": "Ultimate 3000 UHPLC(Dionex) + Q Exactive 질량분석기(Thermo)",
+    "column": "Cortecs C18, 2.1 × 100 mm(Waters)",
+    "mobile_phase": "A: 물 400 mL에 아세트산암모늄 0.77 g + 아세토나이트릴 600 mL(pH 약 7); B: 아세토나이트릴 100 mL + 아이소프로판올 900 mL",
+    "gradient": "0분 33% B, 2.5분 33%, 5분 45%, 6분 52%, 9분 58%, 12분 66%, 15분 70%, 19.5분 98%, 29.5분 98%, 30분 33%, 35분 33%",
+    "flow": "0.25 mL/min",
+    "temp": "칼럼 40 °C",
+    "detection": "ESI 양이온 3.2 kV(음이온 2.8 kV), 모세관 320 °C, 질량범위 m/z 240–2000(양이온), full MS 분해능 70,000, MS/MS 175,000, topN 10, NCE 15/30/45",
+    "injection": "1 μL",
+    "sample_prep": "실리카겔(100–200 mesh) 칼럼으로 TG 분획 정제(다이클로로메테인으로 용출) → 다이클로로메테인/메탄올(2:1)로 80배 희석",
+    "standard": "내부표준 TG(16:0/18:0/16:0)-d5 0.2 μg/mL, 외부표준 TG(18:1/18:1/18:0) 검량선; LipidSearch 4.1.16으로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "TG 분자종 지문은 어종(눈다랑어·대서양연어·대두어) 머리 지질을 완전히 구별했으며, EPA·DHA가 어느 TG 분자에 붙어 있는지 보여 준다[20]. 전문(Methods) 확인 — 검출·정량한계·회수율은 본문에 없음[20].",
+   "source": [
+    20
+   ],
+   "url": "https://doi.org/10.3390/molecules24213983",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "5'-Nucleotides (AMP, IMP, GMP, HxR, Hx)",
+   "compound_ko": "맛 뉴클레오타이드(AMP·IMP·GMP·이노신·하이포잔틴)",
+   "part": "살(생육·건조품)",
+   "content": "생살 IMP 1833.42 μg/g; 순간 고온 처리 건조품 AMP 605.78 μg/g(295.83에서 증가), HxR 580.24→1088.85 μg/g, Hx 6.64→26.77 μg/g[21]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "HPLC(기종 원문 미기재)",
+    "column": "Venusil XBP C 칼럼(원문 표기, 탄소수 표기 누락), 250 × 4.6 mm, 5 μm",
+    "mobile_phase": "0.02 mol/L KH2PO4와 K2HPO4·3H2O를 1:1(v/v)로 섞고 인산으로 pH 6.0",
+    "gradient": "",
+    "flow": "1.0 mL/min",
+    "temp": "35 °C",
+    "detection": "UV 254 nm",
+    "injection": "20 μL",
+    "sample_prep": "균질물 2 g + 10% HClO4 20 mL, 1분 교반, 8000 rpm 10분 4 °C 원심 → 잔사를 5% HClO4 10 mL로 재추출 → 합친 상등액을 1 mol/L NaOH로 pH 6.0–6.4, 50 mL 정용 → 재원심 후 0.22 μm 여과",
+    "standard": "AMP·IMP·HxR·GMP·Hx 표준품(순도 98%)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "IMP·AMP 등 뉴클레오타이드는 수산물 감칠맛과 선도를 보여 주는 지표로, 가공(염지·건조·고온 처리)에 따른 맛 변화를 판정하는 데 쓰였다[21]. 전문(Methods) 확인 — 검출·정량한계·회수율과 검량 범위는 본문에 없음[21].",
+   "source": [
+    21
+   ],
+   "url": "https://doi.org/10.1016/j.crfs.2026.101508",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Histamine",
+   "compound_ko": "히스타민",
+   "part": "살(필레)",
+   "content": "눈다랑어 필레에 25·50 μg/g 첨가 회수 시험, 세 시료(눈다랑어 필레·어간장·건조 정어리) 회수율 88.8–99.6%(함량 실측값은 초록에 없음)[31]",
+   "method": "형광아민(fluorescamine) 유도체화 HPLC-형광검출",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "형광(fluorescamine 유도체)",
+    "injection": "",
+    "sample_prep": "연속 고상추출(tandem SPE) 후 fluorescamine 형광 유도체화",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "88.8–99.6%(반복성 1.3–2.1%, 재현성 2.1–4.7%)"
+   },
+   "rationale": "히스타민은 다랑어 등 붉은살 생선의 히스타민 식중독 원인 물질이라 선도·안전 관리 지표로 쓰이며, 이 방법은 일본 공정 시험법 개발을 위해 눈다랑어 필레로 단일 실험실 검증을 거쳤다[31, 32]. 전문 확인 못함 — 칼럼·이동상·검출 파장 등은 초록에 없어 비워 둠[31].",
+   "source": [
+    31
+   ],
+   "url": "https://doi.org/10.3358/shokueishi.53.121",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 22000,
+   "unit": "톤",
+   "note": "원양어업 눈다랑어 생산량(잠정, 약 2만2000 t, 전년 대비 11.3% 감소) — 해양수산부·통계청 발표 인용 보도, WebSearch 요약으로만 확인",
+   "source": [
+    44
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 25000,
+   "unit": "톤",
+   "note": "원양어업 눈다랑어 생산량(약 2.5만 t) — 해양수산부 발표 인용 보도, WebSearch 요약으로만 확인",
+   "source": [
+    45
+   ]
+  }
+ ],
+ "world": [
+  {
+   "country": "세계",
+   "metric": "production_t",
+   "year": 2017,
+   "value": 472934,
+   "unit": "톤",
+   "note": "어획량 — 논문 서론이 FAO 자료를 인용한 값(FAO 원자료는 이 환경에서 열지 못함)",
+   "source": [
+    20
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Thunnus obesus 3행: '눈다랑어'(부위 '-', 별명 눈다랭이), '눈다랑어뼈'(부위 코드 '어린싹'), '눈다랑어알'(부위 코드 '균핵', 별명 눈다랭이·Bigeye tuna), 영문 Bigeye tuna, 수산물, 모두 사용가능, 사용 조건 없음; 같은 속의 참다랑어·황다랑어·날개다랑어·남방참다랑어·백다랑어·Thunnus thynnus는 별도 행; 같은 목록의 다른 다랑어류 '…알'·'…뼈' 행도 부위 코드가 각각 '균핵'·'어린싹'으로 적힘; 고시형 원료 원재료 목록(KR_NOTICE) 없음 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/thunnus-obesus/card.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Physiological and behavioural thermoregulation in bigeye tuna (Thunnus obesus). Nature 1992;358(6385):410-2 (초록 확인)",
+   "url": "https://doi.org/10.1038/358410a0",
+   "publisher": "Nature, PMID 1641023",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Transectional heat transfer in thermoregulating bigeye tuna (Thunnus obesus) - a 2D heat flux model. J Exp Biol 2009;212(Pt 22):3708-18 (초록 확인)",
+   "url": "https://doi.org/10.1242/jeb.031427",
+   "publisher": "Journal of Experimental Biology, PMID 19880733",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Reproductive biology of female bigeye tuna Thunnus obesus in the western Pacific Ocean. J Fish Biol 2013;83(2):250-71 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.12161",
+   "publisher": "Journal of Fish Biology, PMID 23902305",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Growth and mortality rates of bigeye tuna Thunnus obesus (Perciformes: Scombridae) in the central Atlantic Ocean. Rev Biol Trop 2009;57(1-2):79-88 (초록 확인)",
+   "url": "https://doi.org/10.15517/rbt.v57i1-2.11292",
+   "publisher": "Revista de Biología Tropical, PMID 19637690",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "A review of the fisheries, life history and stock structure of tropical tuna (skipjack, yellowfin and bigeye) in the Indian Ocean. Adv Mar Biol 2020;88:39-89 (초록 확인)",
+   "url": "https://doi.org/10.1016/bs.amb.2020.09.002",
+   "publisher": "Advances in Marine Biology, PMID 34119046",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Highly active fish in low oxygen environments: vertical movements and behavioural responses of bigeye and yellowfin tunas to oxygen minimum zones in the eastern Pacific Ocean. Mar Biol 2024;171(2):55 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00227-023-04366-2",
+   "publisher": "Marine Biology, PMC10787700, PMID 38226137",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "The influence of depth on mercury levels in pelagic fishes and their prey. Proc Natl Acad Sci U S A 2009;106(33):13865-9 (초록 확인)",
+   "url": "https://doi.org/10.1073/pnas.0900711106",
+   "publisher": "PNAS, PMC2728986, PMID 19666614",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Shifting from marine reserves to maritime zoning for conservation of Pacific bigeye tuna (Thunnus obesus). Proc Natl Acad Sci U S A 2012;109(44):18221-5 (초록 확인)",
+   "url": "https://doi.org/10.1073/pnas.1209468109",
+   "publisher": "PNAS, PMC3497750, PMID 23064639",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Revisiting the vulnerability of juvenile bigeye (Thunnus obesus) and yellowfin (T. albacares) tuna caught by purse-seine fisheries while associating with surface waters and floating objects. PLoS One 2017;12(6):e0179045 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0179045",
+   "publisher": "PLOS ONE, PMC5490998, PMID 28662091",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Phylogenetic relationships between tuna species of the genus Thunnus (Scombridae: Teleostei): inconsistent implications from morphology, nuclear and mitochondrial genomes. J Mol Evol 1995;41(6):741-8 (초록 확인)",
+   "url": "https://doi.org/10.1007/BF00173154",
+   "publisher": "Journal of Molecular Evolution, PMID 8587119",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Discrimination of juvenile yellowfin (Thunnus albacares) and bigeye (T. obesus) tunas using mitochondrial DNA control region and liver morphology. PLoS One 2012;7(4):e35604 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0035604",
+   "publisher": "PLOS ONE, PMC3334917, PMID 22536417",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "One-step triplex-polymerase chain reaction assay for the authentication of yellowfin, bigeye, and skipjack tuna DNA from fresh, frozen, and canned tuna samples. J Agric Food Chem 2007;55(19):7638-47 (초록 확인)",
+   "url": "https://doi.org/10.1021/jf070902k",
+   "publisher": "Journal of Agricultural and Food Chemistry, PMID 17711337",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Development of a qPCR method for the identification and quantification of two closely related tuna species, bigeye tuna (Thunnus obesus) and yellowfin tuna (Thunnus albacares), in canned tuna. J Agric Food Chem 2017;65(4):913-920 (초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jafc.6b04713",
+   "publisher": "Journal of Agricultural and Food Chemistry, PMID 28085274",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Methodology and application of PCR-RFLP for species identification in tuna sashimi. Food Sci Nutr 2020;8(7):3138-3146 (초록 확인)",
+   "url": "https://doi.org/10.1002/fsn3.1552",
+   "publisher": "Food Science & Nutrition, PMC7382206, PMID 32724578",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Genetic divergence between Atlantic and Indo-Pacific stocks of bigeye tuna (Thunnus obesus) and admixture around South Africa. Mol Ecol 2000;9(2):221-7 (초록 확인)",
+   "url": "https://doi.org/10.1046/j.1365-294x.2000.00851.x",
+   "publisher": "Molecular Ecology, PMID 10672166",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Genetic diversity and historical demography of Atlantic bigeye tuna (Thunnus obesus). Mol Phylogenet Evol 2005;39(2):404-16 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ympev.2005.07.022",
+   "publisher": "Molecular Phylogenetics and Evolution, PMID 16188460",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Genetic structuring and migration patterns of Atlantic bigeye tuna, Thunnus obesus (Lowe, 1839). BMC Evol Biol 2008;8:252 (초록 확인)",
+   "url": "https://doi.org/10.1186/1471-2148-8-252",
+   "publisher": "BMC Evolutionary Biology, PMC2559848, PMID 18798987",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Larval genomics as a viable, fisheries-independent tool for investigating population structure in tropical Pacific tunas. Mol Ecol 2026;35(8):e70335 (초록 확인)",
+   "url": "https://doi.org/10.1111/mec.70335",
+   "publisher": "Molecular Ecology, PMC13093127, PMID 42003319",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Comparison of the fatty acid and triglyceride profiles of big eye tuna (Thunnus obesus), Atlantic salmon and bighead carp heads. Molecules 2019;24(21):3983 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules24213983",
+   "publisher": "Molecules (MDPI), PMC6864674, PMID 31689924",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Transient high temperature treatment: impacts on taste-aroma formation and mechanisms in dried tuna. Curr Res Food Sci 2026;13:101508 (PMC 전문 확인)",
+   "url": "https://doi.org/10.1016/j.crfs.2026.101508",
+   "publisher": "Current Research in Food Science, PMC13446302, PMID 42565106",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Biological and environmental influence on tissue fatty acid compositions in wild tropical tunas. Comp Biochem Physiol A Mol Integr Physiol 2017;204:17-27 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.cbpa.2016.11.007",
+   "publisher": "Comparative Biochemistry and Physiology Part A, PMID 27845248",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "NMR-based metabolic profiling and discrimination of wild tropical tunas by species, size category, geographic origin, and on-board storage condition. Food Chem 2021;371:131094 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2021.131094",
+   "publisher": "Food Chemistry, PMID 34583182",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Free amino acids and biogenic amines in red and white muscle of tuna stored in controlled atmospheres. Amino Acids 2004;26(2):125-32 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00726-003-0054-4",
+   "publisher": "Amino Acids, PMID 15042440",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Total and organic mercury concentrations in the muscles of Pacific albacore (Thunnus alalunga) and bigeye tuna (Thunnus obesus). Mar Pollut Bull 2014;85(2):606-12 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2014.01.039",
+   "publisher": "Marine Pollution Bulletin, PMID 24559740",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Organic and total mercury levels in bigeye tuna, Thunnus obesus, harvested by Taiwanese fishing vessels in the Atlantic and Indian Oceans. Food Addit Contam Part B 2011;4(1):15-21 (초록 확인)",
+   "url": "https://doi.org/10.1080/19393210.2010.535908",
+   "publisher": "Food Additives & Contaminants Part B, PMID 24779657",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Mercury concentrations in tuna (Thunnus albacares and Thunnus obesus) from the Brazilian Equatorial Atlantic Ocean. Bull Environ Contam Toxicol 2017;98(2):149-155 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00128-016-2007-0",
+   "publisher": "Bulletin of Environmental Contamination and Toxicology, PMID 28025688",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Selenium and mercury in pelagic fish in the central north Pacific near Hawaii. Biol Trace Elem Res 2007;119(3):242-54 (초록 확인)",
+   "url": "https://doi.org/10.1007/s12011-007-8004-8",
+   "publisher": "Biological Trace Element Research, PMID 17916947",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Arsenic and five metal concentrations in the muscle tissue of bigeye tuna (Thunnus obesus) in the Atlantic and Indian Oceans. Mar Pollut Bull 2018;129(1):186-193 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2018.02.028",
+   "publisher": "Marine Pollution Bulletin, PMID 29680537",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Metal concentrations in two commercial tuna species from an active volcanic region in the Mid-Atlantic Ocean. Arch Environ Contam Toxicol 2016;70(2):341-7 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00244-015-0249-1",
+   "publisher": "Archives of Environmental Contamination and Toxicology, PMID 26681184",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "[Performance evaluation of a fluorescamine-HPLC method for determination of histamine in fish and fish products]. Shokuhin Eiseigaku Zasshi 2012;53(2):121-7 (영문 초록 확인)",
+   "url": "https://doi.org/10.3358/shokueishi.53.121",
+   "publisher": "Journal of the Food Hygienic Society of Japan, PMID 22688027",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Importance of histamine-producing Clostridium perfringens in scombrotoxin-forming fish. J Food Prot 2013;76(7):1283-7 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028X.JFP-12-540",
+   "publisher": "Journal of Food Protection, PMID 23834808",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "[Antibacterial activity of essential oil vapor for histamine-producing bacteria]. Shokuhin Eiseigaku Zasshi 2011;52(5):276-80 (영문 초록 확인)",
+   "url": "https://doi.org/10.3358/shokueishi.52.276",
+   "publisher": "Journal of the Food Hygienic Society of Japan, PMID 22200745",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Identification of collagen as a new fish allergen. Biosci Biotechnol Biochem 2001;65(2):285-91 (초록 확인)",
+   "url": "https://doi.org/10.1271/bbb.65.285",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry, PMID 11302160",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Antigenicity of Anisakis simplex s.s. L3 in parasitized fish after heating conditions used in the canning processing. J Sci Food Agric 2015;95(5):922-7 (초록 확인)",
+   "url": "https://doi.org/10.1002/jsfa.6763",
+   "publisher": "Journal of the Science of Food and Agriculture, PMID 24888867",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Valorization of bigeye tuna (Thunnus obesus) bone by-products via steam explosion: novel umami peptides with synergistic taste enhancement and sodium reduction potential. Food Chem 2026;525(Pt 2):150484 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2026.150484",
+   "publisher": "Food Chemistry, PMID 42480467",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Effect of temperature on isolation and characterization of hydroxyapatite from tuna (Thunnus obesus) bone. Materials 2010;3(10):4761-4772 (초록 확인)",
+   "url": "https://doi.org/10.3390/ma3104761",
+   "publisher": "Materials (MDPI), PMC5445789, PMID 28883351",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 38,
+   "title": "A comparative study of thermal calcination and an alkaline hydrolysis method in the isolation of hydroxyapatite from Thunnus obesus bone. Biomed Mater 2011;6(3):035003 (초록 확인)",
+   "url": "https://doi.org/10.1088/1748-6041/6/3/035003",
+   "publisher": "Biomedical Materials, PMID 21487174",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 39,
+   "title": "Characterization of marine derived collagen extracted from the by-products of bigeye tuna (Thunnus obesus). Int J Biol Macromol 2019;135:668-676 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2019.05.213",
+   "publisher": "International Journal of Biological Macromolecules, PMID 31154039",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 40,
+   "title": "Chemical and antioxidant characteristics of skin-derived collagen obtained by acid-enzymatic hydrolysis of bigeye tuna (Thunnus obesus). Mar Drugs 2021;19(4):222 (초록 확인)",
+   "url": "https://doi.org/10.3390/md19040222",
+   "publisher": "Marine Drugs (MDPI), PMC8072911, PMID 33923409",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 41,
+   "title": "Antihypertensive effect of angiotensin I converting enzyme-inhibitory peptide from hydrolysates of bigeye tuna dark muscle, Thunnus obesus. J Agric Food Chem 2007;55(21):8398-403 (초록 확인)",
+   "url": "https://doi.org/10.1021/jf0710635",
+   "publisher": "Journal of Agricultural and Food Chemistry, PMID 17894458",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 42,
+   "title": "Purification and antioxidant properties of bigeye tuna (Thunnus obesus) dark muscle peptide on free radical-mediated oxidative systems. J Med Food 2008;11(4):629-37 (초록 확인)",
+   "url": "https://doi.org/10.1089/jmf.2007.0114",
+   "publisher": "Journal of Medicinal Food, PMID 19053853",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 43,
+   "title": "식품의약품안전처 참고자료(최근 임신부의 참치 섭취로 인한 수은의 위해성 논란 관련) — 다랑어류·새치류·심해성 어류 메틸수은 1.0 ppm 관리, 임신부 등 섭취 권고 — WebSearch 검색 결과 요약으로만 확인, 원문은 이 환경에서 열지 못함(mfds.go.kr 접속 불가)",
+   "url": "https://www.mfds.go.kr/brd/m_100/view.do?seq=24909",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 44,
+   "title": "2024년 어업생산동향조사(잠정) 보도 — 원양어업 생산량 47만9000 t, 눈다랑어 2만2000 t(전년 대비 11.3% 감소) — 해양수산부·통계청 발표를 인용한 언론 보도, WebSearch 검색 결과 요약으로만 확인(원문 미열람, KOSIS·해양수산부 원자료 접속 불가)",
+   "url": "https://biz.newdaily.co.kr/site/data/html/2025/03/05/2025030500275.amp.html",
+   "publisher": "뉴데일리(해양수산부·통계청 발표 인용)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 45,
+   "title": "2023년 수산물 생산량 보도 — 원양어업 41만 t, 눈다랑어 2.5만 t — 해양수산부 발표를 인용한 언론 보도, WebSearch 검색 결과 요약으로만 확인(원문 미열람)",
+   "url": "https://newsseoul.co.kr/news/view/1065595212787051",
+   "publisher": "뉴스서울(해양수산부 발표 인용)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 46,
+   "title": "Mercury in tunas and blue marlin in the North Pacific Ocean. Environ Toxicol Chem 2017;36(5):1365-1374 (초록 확인)",
+   "url": "https://doi.org/10.1002/etc.3757",
+   "publisher": "Environmental Toxicology and Chemistry, PMID 28264147",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 47,
+   "title": "Stable mercury concentrations of tropical tuna in the south western Pacific ocean: an 18-year monitoring study. Chemosphere 2021;263:128024 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2020.128024",
+   "publisher": "Chemosphere, PMID 33297047",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 48,
+   "title": "Gonadal histology and serum vitellogenin levels of bigeye tuna Thunnus obesus from the Northern Pacific Ocean — absence of endocrine disruption bio-indicators. Mar Pollut Bull 2003;46(4):459-65 (초록 확인)",
+   "url": "https://doi.org/10.1016/S0025-326X(02)00460-5",
+   "publisher": "Marine Pollution Bulletin, PMID 12705919",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 49,
+   "title": "Genetic validation of the unexpected presence of a tropical tuna, bigeye tuna (Thunnus obesus), in the Mediterranean. J Fish Biol 2021;99(5):1761-1764 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.14866",
+   "publisher": "Journal of Fish Biology, PMID 34328217",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 50,
+   "title": "Evidence and patterns of tuna spawning inside a large no-take Marine Protected Area. Sci Rep 2019;9(1):10772 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-019-47161-0",
+   "publisher": "Scientific Reports, PMC6656763, PMID 31341251",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 51,
+   "title": "Scale diversity in bigeye tuna (Thunnus obesus): fat-filled trabecular scales made of cellular bone. J Morphol 2018;279(6):828-840 (초록 확인)",
+   "url": "https://doi.org/10.1002/jmor.20814",
+   "publisher": "Journal of Morphology, PMID 29537097",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 52,
+   "title": "Comparative study of muscle proteins in relation to the development of yake in three tropical tuna species yellowfin, big eye and skipjack. Food Chem 2016;201:284-91 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2016.01.059",
+   "publisher": "Food Chemistry, PMID 26868578",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 53,
+   "title": "Study on the volatile organic compounds and its correlation with water dynamics of bigeye tuna (Thunnus obesus) during cold storage. Molecules 2019;24(17):3119 (초록 확인)",
+   "url": "https://doi.org/10.3390/molecules24173119",
+   "publisher": "Molecules (MDPI), PMC6749214, PMID 31466228",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 54,
+   "title": "Effects of various logistics packaging on the quality and microbial variation of bigeye tuna (Thunnus obesus). Front Nutr 2022;9:998377 (초록 확인)",
+   "url": "https://doi.org/10.3389/fnut.2022.998377",
+   "publisher": "Frontiers in Nutrition, PMC9505698, PMID 36159488",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 55,
+   "title": "Rapid differentiation of unfrozen and frozen-thawed tuna with non-destructive methods and classification models: BIA, NIR and TDR. Foods 2021;11(1):55 (초록 확인)",
+   "url": "https://doi.org/10.3390/foods11010055",
+   "publisher": "Foods (MDPI), PMC8750308, PMID 35010181",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 56,
+   "title": "Autoxidation of myoglobin from bigeye tuna fish (Thunnus obesus). Biochim Biophys Acta 1990;1038(1):23-8 (초록 확인)",
+   "url": "https://doi.org/10.1016/0167-4838(90)90005-z",
+   "publisher": "Biochimica et Biophysica Acta, PMID 2317515",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 57,
+   "title": "Oxygen consumption of red and white muscles from tuna fishes. Science 1968;159(3810):87-90 (초록 확인)",
+   "url": "https://doi.org/10.1126/science.159.3810.87",
+   "publisher": "Science, PMID 17737477",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 58,
+   "title": "Purification and characterization of gonadotropin I and II from pituitary glands of tuna (Thunnus obesus). Int J Pept Protein Res 1994;43(1):69-80 (초록 확인)",
+   "url": "https://doi.org/10.1111/j.1399-3011.1994.tb00377.x",
+   "publisher": "International Journal of Peptide and Protein Research, PMID 8138353",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 59,
+   "title": "Identification of tuna species used by the Portuguese canning industry through a DNA-based approach. Sci Rep 2025;15(1):41802 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-025-25741-7",
+   "publisher": "Scientific Reports, PMC12647231, PMID 41290749",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 60,
+   "title": "Effect of big eye tuna (Thunnus obesus) head soup with different colloidal particle size on TG and TC deposition in FFA-exposed HepG2 cells. Food Sci Nutr 2021;9(2):1143-1151 (초록 확인)",
+   "url": "https://doi.org/10.1002/fsn3.2092",
+   "publisher": "Food Science & Nutrition, PMC7866563, PMID 33598198",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 61,
+   "title": "Total mercury content in yellowfin and bigeye tuna. Bull Environ Contam Toxicol 1983;30(3):291-7 (초록 없음 — 제목·서지만 확인) (서지 확인)",
+   "url": "https://doi.org/10.1007/BF01610135",
+   "publisher": "Bulletin of Environmental Contamination and Toxicology, PMID 6850115",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

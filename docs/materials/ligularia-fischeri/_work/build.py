@@ -1,0 +1,195 @@
+import json
+A="2026-11-02"
+def pm(pmid,title,journal,year,doi=None,pmc=None):
+    url=f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    t=f"{title} — {journal} ({year})"+(f", doi:{doi}" if doi else "")+f", PMID {pmid}"+(f", {pmc}" if pmc else "")
+    return {"title":t,"url":url,"publisher":"PubMed/NCBI","accessed":A}
+S={
+1:{"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 곰취가루·곰취잎·곰취추출액(Ligularia fischeri (Ledeb.) Turcz., 식품원료 A코드) 행 및 동의나물(Caltha palustris var. nipponica)·박새(Veratrum patulum)·곤달비잎·어리곤달비잎·긴잎곰취잎/순 행(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)","url":"https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020","publisher":"식품의약품안전처","accessed":"2026-10-13"},
+2:pm("40841405","Validation and standardization of the content of three di-caffeoylquinic acid in Korean Ligularia fischeri by region of origin","Scientific Reports","2025","10.1038/s41598-025-10636-4","PMC12370918"),
+3:pm("22583553","Content of antioxidative caffeoylquinic acid derivatives in field-grown Ligularia fischeri (Ledeb.) Turcz and responses to sunlight","Journal of Agricultural and Food Chemistry 60(22):5597-603","2012","10.1021/jf300976y"),
+4:pm("20722907","Isolation and identification of antioxidant compounds from Ligularia fischeri","Journal of Food Science 75(6):C530-5","2010","10.1111/j.1750-3841.2010.01714.x"),
+5:pm("36860897","Identification of drought-responsive phenolic compounds and their biosynthetic regulation under drought stress in Ligularia fischeri","Frontiers in Plant Science","2023","10.3389/fpls.2023.1140509","PMC9968736"),
+6:pm("34797336","Multiple organ failure leading to death after ingestion of Caltha palustris: A case report","Medicine (Baltimore)","2021","10.1097/MD.0000000000027891","PMC8601353"),
+7:pm("32767363","Development of molecular markers to distinguish between morphologically similar edible plants and poisonous plants using a real-time PCR assay","Journal of the Science of Food and Agriculture","2020","10.1002/jsfa.10711"),
+8:pm("15700826","[Detection of hepatotoxic pyrrolizidine alkaloids in Ligularia Cass. with LC/MSn]","Yao Xue Xue Bao 39(10):831-5","2004"),
+9:pm("7193081","Carcinogenic activity of clivorine, a pyrrolizidine alkaloid isolated from Ligularia dentata","Cancer Letters 10(2):117-22","1980","10.1016/0304-3835(80)90034-8"),
+10:pm("15144228","Metabolic formation of DHP-derived DNA adducts from a representative otonecine type pyrrolizidine alkaloid clivorine and the extract of Ligularia hodgsonnii hook","Chemical Research in Toxicology 17(5):702-8","2004","10.1021/tx030030q"),
+11:pm("11601346","[Identification of commercial Chinese medicine ziwan]","Zhongguo Zhong Yao Za Zhi 23(7)","1998"),
+12:pm("33473386","The complete chloroplast genome sequence of Ligularia fischeri (Ledeb.) Turcz. (Asteraceae)","Mitochondrial DNA Part B 1(1):4-5","2016","10.1080/23802359.2015.1137793","PMC7800012"),
+13:pm("36267669","First record of the complete chloroplast genome of Ligularia fischeri (Asteraceae)","Mitochondrial DNA Part B","2022","10.1080/23802359.2022.2126734","PMC9578491"),
+14:pm("27032186","Chemical Lineages of Ligularia fischeri","Natural Product Communications 11(2):139-43","2016"),
+15:pm("24725977","Chemical and genetic similarity and diversity of Ligularia anoleuca and L. fischeri collected in the Hengduan Mountains of China","Phytochemistry 102:137-44","2014","10.1016/j.phytochem.2014.03.019"),
+16:pm("11859456","Furanoligularenone, an eremophilane from Ligularia fischeri, inhibits the LPS-induced production of nitric oxide and prostaglandin E2 in macrophage RAW264.7 cells","Planta Medica 68(2):101-5","2002","10.1055/s-2002-20250"),
+17:pm("11199147","Sesquiterpenes from the leaves of Ligularia fischeri var. spiciformis","Planta Medica 66(8):783-4","2000","10.1055/s-2000-9602"),
+18:pm("16176146","In vivo antihepatotoxic effects of Ligularia fischeri var. spiciformis and the identification of the active component, 3,4-dicaffeoylquinic acid","Journal of Medicinal Food 8(3):348-52","2005","10.1089/jmf.2005.8.348"),
+19:pm("22730927","Inhibition of gastrointestinal lipolysis by green tea, coffee, and gomchui (Ligularia fischeri) tea polyphenols during simulated digestion","Journal of Agricultural and Food Chemistry 60(29):7152-7","2012","10.1021/jf301047f"),
+20:pm("25723402","Preventive effect of Ligularia fischeri on inhibition of nitric oxide in lipopolysaccharide-stimulated RAW 264.7 macrophages depending on cooking method","Biological Research 47:69","2014","10.1186/0717-6287-47-69","PMC4297453"),
+21:pm("28298688","Quality, storability, and essential oil content of Ligularia fischeri during modified atmosphere packaging storage","Journal of Food Science and Technology 54(3):743-750","2017","10.1007/s13197-017-2514-y","PMC5334233"),
+22:pm("32547340","Biological Control of Gom-chwi (Ligularia fischeri) Phytophthora Root Rot with Bacillus velezensis ObRS-5 to Suppress Zoosporangia Formation and Zoospores Germination","Plant Pathology Journal","2020","10.5423/PPJ.OA.11.2019.0283","PMC7272845"),
+23:pm("20162395","Rapid identification and characterization of antioxidants from Ligularia fischeri","Archives of Pharmacal Research 32(12):1689-94","2010","10.1007/s12272-009-2204-z"),
+24:pm("24141244","Antioxidant activity and anti-adipogenic effects of wild herbs mainly cultivated in Korea","Molecules 18(10):12937-50","2013","10.3390/molecules181012937","PMC6270600"),
+25:pm("26799831","Ligularia fischeri extract attenuates liver damage induced by chronic alcohol intake","Pharmaceutical Biology 54(8):1465-73","2016","10.3109/13880209.2015.1104701"),
+26:pm("28782267","4,5-Di-O-Caffeoylquinic Acid from Ligularia fischeri Suppresses Inflammatory Responses Through TRPV1 Activation","Phytotherapy Research 31(10):1564-1570","2017","10.1002/ptr.5885"),
+27:pm("26081274","Evaluation of polyphenol composition and biological activities of two samples from summer and winter seasons of Ligularia fischeri var. spiciformis Nakai","Acta Biologica Hungarica 66(2):179-91","2015","10.1556/018.66.2015.2.5"),
+28:{"title":"식품의약품안전처 보도자료(산나물·독초 구별 관련) — 원문은 이 환경에서 열리지 않아(도메인 차단) WebSearch 검색 요약으로만 확인함","url":"https://www.mfds.go.kr/brd/m_61/view.do?seq=54315","publisher":"식품의약품안전처","accessed":A},
+29:pm("30034337","Identification of Ligularia Herbs Using the Complete Chloroplast Genome as a Super-Barcode","Frontiers in Pharmacology 9:695","2018","10.3389/fphar.2018.00695","PMC6043804"),
+30:pm("28783337","Isolation, Structure Elucidation, and Immunosuppressive Activity of Diterpenoids from Ligularia fischeri","Journal of Natural Products 80(8):2263-2268","2017","10.1021/acs.jnatprod.7b00198"),
+31:pm("21467686","Fischerisin A and B, cytotoxic sesquiterpenoid-geranylhydroquinones from Ligularia fischeri","Chemical & Pharmaceutical Bulletin 59(4):511-4","2011","10.1248/cpb.59.511"),
+32:pm("30801226","Antihyperlipidemic Activity of Ligularia fischeri Extract in Mice Fed a High-Carbohydrate Diet","Journal of Medicinal Food","2019","10.1089/jmf.2018.4248"),
+33:pm("36365457","Phytochemical Composition and Antioxidant and Anti-Inflammatory Activities of Ligularia fischeri Turcz: A Comparison between Leaf and Root Extracts","Plants (Basel) 11(21):3005","2022","10.3390/plants11213005","PMC9656575"),
+34:pm("32276586","Molecular mechanism underlying the anti-inflammatory effects of volatile components of Ligularia fischeri (Ledeb) Turcz based on network pharmacology","BMC Complementary Medicine and Therapies","2020","10.1186/s12906-020-2855-3","PMC7146958"),
+35:pm("12391549","Intermedeol isolated from the leaves of Ligularia fischeri var. spiciformis induces the differentiation of human acute promyelocytic leukemia HL-60 cells","Planta Medica 68(10):881-5","2002","10.1055/s-2002-34932"),
+}
+sources=[dict(n=k,**v) for k,v in sorted(S.items())]
+
+sec=[]
+def add(k,t,b): sec.append({"key":k,"title":t,"body":b.strip()})
+add("overview","한눈에 보기","""
+곰취(Ligularia fischeri (Ledeb.) Turcz.)는 국화과(Asteraceae) 곰취속의 여러해살이풀로, 일본·중국·동시베리아·한국에 자생한다[2]. 습하고 그늘진 곳에서 자라는 잎채소이며, 한국에서는 잎을 생으로 먹거나 절여 발효한 채소로 먹어 왔다[5].
+
+식품의약품안전처 「식품원료 목록」에는 '곰취잎', '곰취가루', '곰취추출액' 세 원료명이 식품원료(A코드)로 올라 있고, 세 행 모두 사용 조건은 '사용가능부위 : 잎'이다[1]. 같은 목록은 큰곰취를 이명으로, Cineraria fischeri Ledeb.와 Cineraria speciosa Schrad. ex Link를 학명 이명으로 적고 있으며 영명은 Fischer's ragwort다[1]. 목록의 곰취 행은 식품원료(A코드)뿐이고 건강기능식품(C코드) 행은 없어, 고시로 정한 지표성분도 없다[1].
+
+곰취 잎의 주요 페놀 성분은 카페오일퀸산(CQA) 유도체로, 5-카페오일퀸산과 3,4-·3,5-·4,5-디카페오일퀸산(DCQA)이 대표적이다[3]. 이 네 이성질체는 말린 잎의 10% 이상을 차지한다고 보고되었다[4]. 2025년 연구는 세 가지 DCQA를 곰취 추출물의 지표 성분으로 삼아 분석법을 검증했다[2]. 곰취 에탄올 추출물은 고탄수화물 식이를 먹인 생쥐에서 체중 증가와 혈중 지질 이상을 줄였으나, 이는 동물 실험 결과다[32]. 곰취는 독초인 동의나물과 생김새가 비슷해 잘못 먹는 사고가 국내에서 보고되었다[6].
+""")
+add("history","역사와 전통 이용","""
+한국에서 곰취 잎은 생채나 절임 발효 채소로 오래 먹어 왔고, 최근에는 생잎을 데쳐 우려낸 곰취 잎차도 고부가 식품으로 여겨진다[5]. 민간에서는 곰취 잎을 간 기능 저하, 황달, 류머티즘 관절염, 성홍열 치료에 써 왔다고 소개된다[5]. 곰취 이용을 다룬 고문헌 원문은 확인하지 못함.
+
+곰취는 동아시아에서 잎채소이자 간 질환 민간약으로 쓰여 왔다는 설명도 있다[25]. 한국 연구진은 이런 전통적 믿음을 근거로 곰취(var. spiciformis) 메탄올 추출물이 쥐의 화학적 간 손상을 줄이는지 시험했고, 주성분 3,4-디카페오일퀸산을 활성 성분으로 제시했다[18].
+
+중국에서는 쓰임이 다르다. 중국 전통 의학에서 곰취(뿌리를 포함한 약재)는 거담·소염약으로 알려져 있다[34]. 중국 시판 약재 '자완(紫菀)'의 기원을 조사한 연구에 따르면 대부분 지역은 개미취(Aster tataricus)의 뿌리와 뿌리줄기를 쓰지만, 서남부와 서북·동북 일부에서는 곰취를 포함한 곰취속 식물의 뿌리를 '산자완(山紫菀)'이라는 이름으로 쓴다[11]. 한국 식품원료 목록에서 곰취의 사용 가능 부위는 잎뿐이므로, 뿌리를 쓰는 중국 약재 용도와 식품 용도는 구분해야 한다[1, 11].
+""")
+add("biology","식물학적 특징","""
+곰취는 국화과의 여러해살이풀로 동북아시아 고산 지역이 원산이며, 뿌리와 잎이 약용·식용으로 쓰였다[2]. 습하고 그늘진 곳에서 자라는 잎채소로, 중국·한국·일본·유럽 일부·러시아 극동에 분포한다고 소개된다[5].
+
+그늘을 좋아하는 식물이지만 햇빛을 받으면 적응 반응을 보인다[3]. 4주 동안 햇빛에서 키운 모종은 그늘에서 키운 것보다 잎이 두껍고 페놀 함량이 높았으며, 5-카페오일퀸산과 세 가지 디카페오일퀸산이 햇빛에 의해 늘었다[3]. 반대로 그늘 잎에서는 이 성분들이 꾸준히 줄었다[3].
+
+곰취의 특징 하나는 가뭄을 겪으면 잎이 초록에서 보라색으로 바뀌는 것으로, 안토시아닌 합성 때문이다[5]. 가뭄 처리한 잎에서는 시아니딘-3-O-글루코사이드가 건조중량 1 g당 0.09 mg에서 2.79 mg으로 늘고, 카페오일퀸산류와 플라보놀은 줄었다[5]. 뿌리 추출물은 잎 추출물보다 항산화능과 총 플라보노이드가 높았고, GC/MS에서 휘발 성분·디테르페노이드·세스퀴테르펜이 검출되었다[33]. 곰취 전초에서는 새 화합물 6종을 포함한 디테르페노이드 13종이 분리되었다[30]. 국내 산채 5종의 메탄올 추출물 비교에서 곰취는 총페놀 함량이 215.8 mg GAE/g으로 가장 높았다[24]. 잎의 크기·꽃 모양 등 형태 기재의 공식 도감 원문은 확인하지 못함.
+""")
+add("related_species","분류와 근연종","""
+곰취의 정명은 Ligularia fischeri (Ledeb.) Turcz.이며, 식품원료 목록은 Cineraria fischeri Ledeb.와 Cineraria speciosa Schrad. ex Link를 이명으로 함께 적는다[1]. 한국 연구 논문에서는 곰취를 Ligularia fischeri var. spiciformis Nakai로 표기한 경우가 많다[4, 17, 27]. 변종 표기의 분류학적 처리를 국가 표준 목록에서는 확인하지 못함.
+
+곰취속에는 약재로 쓰이는 종이 많다[29]. 중국 약재 자완의 기원 조사에서는 곰취 외에 L. hodgsonii, L. intermedia, L. wilsoniana, L. sibirica var. araneosa, L. veitchiana, L. caloxantha가 함께 확인되었다[11]. 중국 쓰촨성에서 채집한 L. anoleuca와 곰취는 중성 DNA 영역 분석으로 서로 구별되지 않았다[15]. 형태나 일반 DNA 영역만으로는 곰취속 종을 가리기 어려워, 엽록체 전체 유전체를 '슈퍼 바코드'로 쓰자는 제안이 있다[29].
+
+식품원료 목록에는 곰취와 별도 항목으로 곤달비(L. stenocephala), 어리곤달비(L. intermedia), 긴잎곰취(L. jaluensis)가 올라 있다[1]. 이 문서는 곰취(L. fischeri)만 다루며, 이들 근연종의 성분·사용 조건은 각 종의 자료를 따로 봐야 한다[1].
+""")
+add("cultivation","재배와 생산","""
+곰취는 야생에서도 자라지만 농가와 온실에서 대량으로 재배되며, 상업 수요에 맞춰 재배 면적이 늘고 있다고 소개된다[5]. 2025년 연구는 함양·양산(경남), 횡성·정선(강원), 논산(충남)의 재배지에서 5–7월에 수확한 곰취를 비교했다[2]. 산지에 따라 디카페오일퀸산 함량 차이가 컸다[2]. 예를 들어 50% 에탄올 추출 기준 3,4-DCQA는 논산 시료가 2,152.28 μg/mL로 가장 높고 양산 시료가 381.56 μg/mL로 가장 낮았다[2]. 국내 여러 지역 잎 추출물의 HPLC에서도 CQA 양이 크게 달랐다[3].
+
+재배 환경도 성분에 영향을 준다[3]. 햇빛에서 키우면 잎이 두꺼워지고 CQA가 늘어, 이 특성을 기능성 식품용 재배에 활용할 수 있다는 제안이 있다[3]. 가뭄 스트레스는 CQA를 줄이고 안토시아닌·플라본을 늘렸다[5]. 변종 var. spiciformis 잎은 6월 시료가 12월 시료보다 페놀 함량과 항산화·항균 활성이 높았다[27].
+
+곰취 재배에서 경제적으로 중요한 병해는 Phytophthora 뿌리썩음병이다[22]. 근권 세균 172주 가운데 고른 ObRS-5 균주는 토양 관주 시 뿌리썩음병을 최대 81.1% 억제했다[22]. 곰취의 국내 재배 면적·생산량 공식 통계(산림청 임산물생산조사 등)는 이 환경에서 원자료를 열 수 없어 확인하지 못함.
+""")
+add("processing","가공과 이용","""
+식품원료 목록에는 잎 자체(곰취잎) 외에 곰취가루와 곰취추출액이 원료명으로 올라 있어, 잎을 가루나 추출액으로 가공해 쓸 수 있다[1]. 식약처 「식품 등의 생산실적」의 건강기능식품 원료 품목에서 곰취 원료 행은 확인하지 못함.
+
+조리 방법은 성분과 활성을 바꾼다[20]. 생곰취에 견주어 데친 곰취와 볶은 곰취의 3-O-카페오일퀸산 함량은 각각 4.92배, 9.7배로 늘었다[20]. 곰취 잎차는 모의 소화 실험에서 녹차·커피보다 지방 분해 효소 억제 효과가 컸고, 주 폴리페놀인 DCQA는 녹차의 EGCG보다 소화 과정에서 안정했다[19].
+
+추출 용매도 결과를 크게 바꾼다[2]. 같은 원료 5 g을 용매 50 mL로 추출했을 때 3,4-DCQA는 물 추출에서 최고 9.29 mg/g, 50% 에탄올 추출에서 최고 21.52 mg/g이었다[2].
+
+신선 곰취의 유통에는 변형 대기 포장(MAP)이 연구되었다[21]. 산소 투과도 10,000 cc 필름은 8 °C에서 저장 수명 13일, 30,000 cc 필름은 24 °C에서 4일을 보였다[21]. 저자들은 저온 유통에는 10,000 cc 필름, 저온 유통망이 없는 지역 유통에는 30,000 cc 필름이 알맞다고 보았다[21].
+""")
+add("genetics","유전 정보","""
+곰취의 엽록체 전체 유전체는 두 차례 보고되었다[12, 13]. 제주 한라산 시료의 엽록체 유전체는 151,133 bp로, 역위반복(IR) 24,831 bp 두 개와 대단일복사 영역 83,238 bp, 소단일복사 영역 18,233 bp로 이루어지고 113개 유전자를 담았다[12]. 2022년 보고에서는 길이 150,773 bp, 유전자 130개(단백질 암호 85, tRNA 37, rRNA 8), GC 함량 37.5%였다[13].
+
+중국 쓰촨·충칭의 곰취 6개 시료를 뿌리 성분과 ITS 서열로 비교한 연구에서는 벤조푸란을 만드는 계통과 에레모필란을 만드는 계통이 나뉘었다[14]. 저자들은 한 시료의 벤조푸란 생산이 유전자 이입으로 생겼을 수 있다고 보았다[14]. 곰취와 L. anoleuca는 중성 DNA 영역으로 구별되지 않았다[15].
+
+가뭄 스트레스 전사체 분석에서는 516개 전사체에 걸친 2,105건이 가뭄 반응 유전자로 확인되었고, 원자료는 NCBI SRA(PRJNA626533)에 등록되었다[5]. 이 연구는 HCT 유전자 발현 감소가 CQA 감소와 관련된다고 보았다[5]. 곰취와 독초 동의나물을 가리는 종 특이 실시간 PCR 프라이머는 시판 식품과 모의 위액 소화 시료에서도 표적 DNA를 검출했다[7]. 곰취의 핵 유전체 해독 보고는 확인하지 못함.
+""")
+add("safety","안전성","""
+식품원료 목록에서 곰취는 잎만 식품에 쓸 수 있다[1]. 같은 목록에서 동의나물(Caltha palustris var. nipponica)과 박새(Veratrum patulum)는 '사용불가' 원료다[1].
+
+곰취의 가장 큰 위험은 독초를 곰취로 잘못 알고 먹는 일이다[6]. 국내에서는 2013–2017년 생김새가 비슷한 식용·독성 식물을 혼동해 42명이 독초를 먹었고, 곰취-동의나물은 대표적인 혼동 쌍으로 다뤄졌다[7]. 동의나물을 곰취로 알고 먹은 이전 사례들은 복통·위장 증상과 서맥·저혈압을 보였다가 회복되었다[6]. 2021년 보고된 70세 환자는 데친 산나물을 먹은 뒤 심한 위장염, 단백 소실 장병증, 쇼크를 거쳐 다기관 부전으로 숨졌으며, 저자들은 동의나물의 프로토아네모닌과 사포닌을 원인으로 추정했다[6]. 박새는 같은 PCR 연구에서 곰취가 아닌 원추리(Hemerocallis fulva)와의 혼동 쌍으로 다뤄졌고, 곰취-박새 혼동 사고의 1차 자료는 확인하지 못함. 식약처는 산나물과 독초 구별이 확실하지 않으면 채취·섭취하지 말라고 권고한 것으로 검색 요약에서 확인되었다(원문 미확인)[28].
+
+곰취속 22종을 LC/MS로 조사한 연구에서 18종에서 간독성 피롤리지딘 알칼로이드(PA)가 검출되었다[8]. 곰취속 L. dentata의 PA 클리보린은 쥐에서 간 종양을 일으켰고, L. hodgsonii 추출물은 DNA 부가물을 만들었다[9, 10]. 다만 곰취 잎의 PA 검출 여부나 함량을 다룬 자료는 확인하지 못함. 곰취 잎의 알레르기·잔류농약에 관한 공공기관 정보도 확인하지 못함.
+""")
+
+def cmp(name,ko,cls,role,part,ct,act,src):
+    return dict(name=name,name_ko=ko,**{"class":cls},role=role,part=part,content_text=ct,activity_ko=act,source=src)
+compounds=[
+cmp("3,4-Dicaffeoylquinic acid","3,4-디카페오일퀸산(3,4-DCQA)","페놀산(디카페오일퀸산)","marker","잎·줄기",
+ "잎·줄기 추출 최고 9.29 mg/g(물)·19.15 mg/g(30% 에탄올)·21.52 mg/g(50% 에탄올), 모두 논산 시료[2]; 잎 13.83 mg/g(건조중량, 대조군)[5]",
+ "쥐에서 CCl4·갈락토사민 간 손상 지표를 낮춘 활성 성분(5–10 mg/kg 경구)[18]; 네 CQA 이성질체 중 항산화력이 가장 셈[4]",[2,4,5,18]),
+cmp("3,5-Dicaffeoylquinic acid","3,5-디카페오일퀸산(3,5-DCQA)","페놀산(디카페오일퀸산)","marker","잎·줄기",
+ "잎·줄기 추출 최고 5.32 mg/g(물)·9.98 mg/g(30% 에탄올)·17.06 mg/g(50% 에탄올), 모두 횡성 시료[2]; 잎 18.31 mg/g(건조중량, 대조군)[5]",
+ "말린 잎에서 가장 많은 CQA로 라디칼 소거능 기여가 가장 큼[4]",[2,4,5]),
+cmp("4,5-Dicaffeoylquinic acid","4,5-디카페오일퀸산(4,5-DCQA)","페놀산(디카페오일퀸산)","marker","잎·줄기",
+ "잎·줄기 추출 최고 3.38 mg/g(물)·11.79 mg/g(30% 에탄올)·11.25 mg/g(50% 에탄올), 모두 논산 시료[2]; 잎 7.16 mg/g(건조중량, 대조군)[5]",
+ "TRPV1 활성화(EC50 69.34 μM), A549 세포에서 COX-2 발현 억제(세포 실험)[26]; DCQA 이성질체의 췌장 리파아제 억제 IC50 12.7–40.4 μM[19]",[2,5,19,26]),
+cmp("Chlorogenic acid","5-O-카페오일퀸산(클로로겐산)","페놀산(카페오일퀸산)","bioactive","잎",
+ "잎 16.46 mg/g(대조군)→7.26 mg/g(가뭄)(건조중량)[5]",
+ "햇빛 재배에서 함량이 늘어나는 주요 CQA[3]; 말린 잎의 주요 항산화 성분 가운데 하나[4]",[3,4,5]),
+cmp("Neochlorogenic acid","3-O-카페오일퀸산","페놀산(카페오일퀸산)","bioactive","잎",
+ "데친 곰취 4.92배, 볶은 곰취 9.7배(생곰취 대비)[20]",
+ "조리에 따라 늘어나는 성분으로 보고됨[20]",[20]),
+cmp("Hyperoside","하이페로사이드","플라보놀 배당체","bioactive","잎",
+ "잎 4.38 mg/g(대조군)→2.33 mg/g(가뭄)(건조중량)[5]",
+ "DPPH 라디칼 소거 IC50 1.31 μg/mL[23]",[5,23]),
+cmp("2''-Acetylhyperoside","2″-아세틸하이페로사이드","플라보놀 배당체","bioactive","잎",
+ "잎 3.72 mg/g(대조군)→0.32 mg/g(가뭄)(하이페로사이드 환산, 건조중량)[5]",
+ "DPPH 라디칼 소거 IC50 7.09 μg/mL[23]",[5,23]),
+cmp("Luteolin 7-glucuronide","루테올린-7-O-글루쿠로나이드","플라본 배당체","bioactive","잎",
+ "잎 2.86 mg/g(대조군)→9.54 mg/g(가뭄)(건조중량)[5]",
+ "가뭄 스트레스로 늘어나는 플라본으로 곰취에서 처음 분리·동정됨[5]",[5]),
+cmp("Cyanidin 3-glucoside","시아니딘-3-O-글루코사이드","안토시아닌","bioactive","잎",
+ "잎 0.09 mg/g(대조군)→2.79 mg/g(가뭄)(건조중량)[5]",
+ "가뭄 때 잎이 보라색으로 변하는 원인 색소 가운데 하나[5]",[5]),
+cmp("Myricetin","미리세틴","플라보놀","bioactive","잎(var. spiciformis)",
+ "1964.35 μg/g(6월)·1829.12 μg/g(12월)[27]",
+ "변종 잎에서 가장 많은 플라보놀[27]",[27]),
+cmp("Furanoligularenone","푸라노리굴라레논","세스퀴테르펜(에레모필란)","bioactive","",
+ "",
+ "RAW264.7 대식세포에서 LPS 유도 NO·PGE2 생성과 iNOS·COX-2 발현 억제(세포 실험)[16]",[16]),
+cmp("Intermedeol","인터메데올","세스퀴테르펜(유데스만)","bioactive","잎(var. spiciformis)",
+ "",
+ "HL-60 백혈병 세포의 증식 억제와 분화 유도(세포 실험)[35]; 잎에서 분리[17]",[17,35]),
+cmp("Fischerisin A","피셰리신 A","세스퀴테르페노이드-제라닐하이드로퀴논","bioactive","뿌리",
+ "",
+ "KB·MCF-7 세포 독성 IC50 9.7·9.8 μM(세포 실험)[31]",[31]),
+]
+
+assays=[
+{"role":"literature","compound":"3,4-Dicaffeoylquinic acid","compound_ko":"3,4-·3,5-·4,5-디카페오일퀸산(동시 정량)","part":"잎·줄기(동결건조 분말)",
+ "content":"원료 5 g/용매 50 mL 추출 기준 물 추출 3,4-DCQA 9.29 mg/g·3,5-DCQA 5.32 mg/g·4,5-DCQA 3.38 mg/g, 50% 에탄올 추출 3,4-DCQA 21.52 mg/g·3,5-DCQA 17.06 mg/g·4,5-DCQA 11.25 mg/g(각 최고 산지)[2]",
+ "method":"HPLC-PDA(정량), LC-QTOF-MS/MS(동정)",
+ "conditions":{"instrument":"Shimadzu Nexera Lite LC-40D HPLC, Sciex X500R QTOF LC/MS/MS",
+  "column":"Prontosil C18, 250 × 4.6 mm, 5 μm(본문 다른 곳에는 Pronto SIL 120-5-C18 SH, Bischoff로 표기)",
+  "mobile_phase":"물(DW)과 아세토니트릴, 0.1% 포름산 함유(최적화 절에는 0.01% 포름산으로 표기)",
+  "gradient":"B 10분 간격: 10–15% → 15–20% → 20–25% → 25–40% → 40–70% → 70–95%, 마지막 10분 95% B 등용매",
+  "flow":"0.5 mL/min","temp":"35 °C","detection":"UV/PDA 284 nm(정량); ESI 양이온 m/z 100–2000, 탈용매 500 °C, 분무 전압 5500 V, 충돌 에너지 35 ± 15 V",
+  "injection":"",
+  "sample_prep":"잎·줄기 분말 5 g을 물·30% 에탄올·50% 에탄올 각 50 mL로 60 °C 수조에서 72시간 추출, 3000 rpm 10분 원심분리·여과, 45 °C 감압 농축 후 동결건조; 메탄올에 1 mg/mL로 녹여 0.45 μm PVDF 여과",
+  "standard":"3,4-·3,5-·4,5-DCQA 표준품(Sigma-Aldrich), 외부 검량선",
+  "linearity":"100–1000 μg/mL 5수준, R² 0.9998(3,4-)·0.9998(3,5-)·0.9997(4,5-)",
+  "lod":"0.795 mg/L(3,4-)·0.637 mg/L(3,5-)·0.589 mg/L(4,5-)",
+  "loq":"2.386 mg/L(3,4-)·1.910 mg/L(3,5-)·1.766 mg/L(4,5-)",
+  "recovery":"96.97%(3,4-)·99.14%(3,5-)·97.44%(4,5-), RSD < 1%; 일내 정밀도 RSD 0.25% 이내"},
+ "rationale":"저자들은 세 DCQA를 곰취 추출물의 지표 성분(marker compounds)으로 삼아 ICH·FDA 지침에 따라 특이성·직선성·검출/정량한계·정밀도·회수율을 검증했다[2]. 주입량은 본문에서 확인하지 못해 비워 둠.",
+ "source":[2],"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12370918/","source_kind":"paper"},
+{"role":"literature","compound":"Chlorogenic acid","compound_ko":"카페오일퀸산 4종·플라보노이드·안토시아닌(10종 정량)","part":"잎(그늘 건조)",
+ "content":"대조군 잎(건조중량) 5-CQA 16.46 mg/g, 3,4-DCQA 13.83 mg/g, 3,5-DCQA 18.31 mg/g, 4,5-DCQA 7.16 mg/g, 하이페로사이드 4.38 mg/g[5]",
+ "method":"HPLC-PDA(정량), LC-ESI-MS(동정)",
+ "conditions":{"instrument":"Agilent 1200 HPLC(이원 펌프 G1312A, 자동시료주입기 G1347B, PDA G1315D, 칼럼 오븐 G1316A), Agilent 6120 사중극자 MS",
+  "column":"Shiseido MG II C18, 250 × 4.6 mm, 5 μm",
+  "mobile_phase":"A: 아세토니트릴, B: 물, 각각 0.3% 포름산",
+  "gradient":"15% A 10분 → 15–40% A 18분 → 40–90% A 7분 → 90% A 5분 유지 → 15% A로 복귀",
+  "flow":"","temp":"","detection":"330 nm(CQA·플라보노이드), 520 nm(안토시아닌); MS 양이온 전체 스캔 m/z 50–1000",
+  "injection":"",
+  "sample_prep":"말린 잎 200 mg을 0.1 N HCl 함유 메탄올 10 mL로 실온 12시간 추출 후 여과",
+  "standard":"페놀 화합물 10종 외부 검량선; 2″-아세틸하이페로사이드는 하이페로사이드 당량으로 정량",
+  "linearity":"31.25–250 ppm","lod":"","loq":"","recovery":""},
+ "rationale":"CQA 유도체는 곰취 잎의 주된 페놀 성분이어서 재배 환경(가뭄)에 따른 품질 변화를 보는 지표로 쓰였다[5]. 유속·칼럼 온도·검출/정량한계·회수율은 본문에 없어 비워 둠.",
+ "source":[5],"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9968736/","source_kind":"paper"},
+{"role":"literature","compound":"3,5-Dicaffeoylquinic acid","compound_ko":"카페오일퀸산 4종(온라인 HPLC-ABTS 선별)","part":"잎(var. spiciformis)",
+ "content":"5-CQA·3,4-·3,5-·4,5-DCQA 네 이성질체가 말린 잎의 10% 이상, 3,5-DCQA가 가장 많음[4]",
+ "method":"온라인 HPLC-ABTS, ESI/MSn·1H NMR 동정",
+ "conditions":{"instrument":"","column":"","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"ABTS 라디칼 734 nm 흡광 감소(칼럼 후 반응)","injection":"","sample_prep":"","standard":"","linearity":"","lod":"","loq":"","recovery":""},
+ "rationale":"에탄올 추출물 항산화 활성의 94%가 카페오일퀸산류에서 나와 이들이 곰취 잎의 핵심 항산화 성분으로 지목되었다[4]. 전문 확인 못함 — 칼럼·이동상 등 조건은 초록에 없어 비워 둠.",
+ "source":[4],"url":"https://pubmed.ncbi.nlm.nih.gov/20722907/","source_kind":"paper"},
+]
+
+d={"slug":"ligularia-fischeri","name_ko":"곰취","name_en":"Fischer's ragwort","scientific_name":"Ligularia fischeri (Ledeb.) Turcz.",
+ "aliases":["곰취잎","곰취가루","곰취추출액","큰곰취","gomchwi","gomchui","Fischer's ragwort","Ligularia fischeri var. spiciformis Nakai","Cineraria fischeri Ledeb.","Cineraria speciosa Schrad. ex Link"],
+ "sections":sec,"compounds":compounds,"markers":[],"assays":assays,"nutrients":[],"production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+json.dump(d,open("/home/user/hfoodguide-wave3/docs/materials/ligularia-fischeri/dossier.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
+for s in sec: print(s["key"],len(s["body"]))

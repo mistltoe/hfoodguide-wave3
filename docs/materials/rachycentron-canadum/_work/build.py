@@ -1,0 +1,170 @@
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent.parent
+A = "2026-11-02"
+
+
+def pm(n, pmid, title, journal):
+    return {"n": n, "title": title, "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": journal + " (PubMed)", "accessed": A}
+
+
+def pmc(n, pmcid, title, journal):
+    return {"n": n, "title": title, "url": f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/", "publisher": journal + " (PubMed Central, MCP 도구로 전문 확인)", "accessed": A}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Rachycentron canadum 행(원료명 날쌔기, 영문 Cobia, black bonito, 수산물, 부위 '-', 사용조건 없음, 사용가능; 고시형 원료 원재료 목록 없음; data/raw/mfds_rawmtrl/I1020_20261013.json·card.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pmc(2, "PMC11240236", "Shen X et al. (2024) Exploring the cobia (Rachycentron canadum) genome: unveiling putative male heterogametic regions and identification of sex-specific markers. GigaScience 13:giae034. doi:10.1093/gigascience/giae034", "GigaScience"),
+    pm(3, "32269821", "Crear DP et al. (2020) In the face of climate change and exhaustive exercise: the physiological response of an important recreational fish species. R Soc Open Sci 7:200049. doi:10.1098/rsos.200049 (초록 확인)", "Royal Society Open Science"),
+    pm(4, "23504878", "Bignami S et al. (2013) Response to ocean acidification in larvae of a large tropical marine fish, Rachycentron canadum. Glob Chang Biol 19:996-1006. doi:10.1111/gcb.12133 (초록 확인)", "Global Change Biology"),
+    pm(5, "34582874", "Pasparakis C et al. (2022) Ultraviolet avoidance by embryonic buoyancy control in three species of marine fish. Sci Total Environ 806:150542. doi:10.1016/j.scitotenv.2021.150542 (초록 확인)", "Science of the Total Environment"),
+    pm(6, "23808926", "Musika J et al. (2014) Reanalysis and revision of the complete mitochondrial genome of Rachycentron canadum. Mitochondrial DNA 25:249-250. doi:10.3109/19401736.2013.796519 (초록 확인)", "Mitochondrial DNA"),
+    pm(7, "26075480", "Joy L et al. (2016) Weak genetic differentiation in cobia, Rachycentron canadum from Indian waters as inferred from mitochondrial DNA ATPase 6 and 8 genes. Mitochondrial DNA A 27:2819-2821. doi:10.3109/19401736.2015.1053083 (초록 확인)", "Mitochondrial DNA Part A"),
+    pm(8, "34855031", "Aciole Barbosa D et al. (2022) Transcriptomic profiling and microsatellite identification in cobia (Rachycentron canadum), using high-throughput RNA sequencing. Mar Biotechnol 24:255-262. doi:10.1007/s10126-021-10081-0 (초록 확인)", "Marine Biotechnology"),
+    pmc(9, "PMC6628374", "Lin YH et al. (2019) Preparation and identification of novel antihypertensive peptides from the in vitro gastrointestinal digestion of marine cobia skin hydrolysates. Nutrients 11:1351. doi:10.3390/nu11061351", "Nutrients"),
+    pmc(10, "PMC11853878", "Grigorakis K et al. (2025) Freshness and spoilage patterns of wild and farmed tropical fish species with major commercial importance originating from Saudi Arabian waters. Foods 14:690. doi:10.3390/foods14040690", "Foods"),
+    pm(11, "42118403", "Karthik P et al. (2026) Assessing the wound healing efficacy of Wrightia tinctoria protease-hydrolysed cobia skin collagen: an in vivo and in silico study. Appl Biochem Biotechnol 198:5974-5994. doi:10.1007/s12010-026-05736-4 (초록 확인)", "Applied Biochemistry and Biotechnology"),
+    pm(12, "15885754", "Liu SM et al. (2006) Accumulation of butyltin compounds in cobia Rachycentron canadum raised in offshore aquaculture sites. Sci Total Environ 355:167-175. doi:10.1016/j.scitotenv.2005.02.025 (초록 확인)", "Science of the Total Environment"),
+    pm(13, "20855108", "Katner A et al. (2010) An evaluation of mercury levels in Louisiana fish: trends and public health issues. Sci Total Environ 408:5707-5714. doi:10.1016/j.scitotenv.2010.08.021 (초록 확인)", "Science of the Total Environment"),
+    pm(14, "12526903", "Watanabe KH et al. (2003) Fish tissue quality in the lower Mississippi River and health risks from fish consumption. Sci Total Environ 302:109-126. doi:10.1016/s0048-9697(02)00396-0 (초록 확인)", "Science of the Total Environment"),
+    pm(15, "26037096", "Liu K et al. (2015) Toxic effects of two sources of dietborne cadmium on the juvenile cobia, Rachycentron canadum L. and tissue-specific accumulation of related minerals. Aquat Toxicol 165:120-128. doi:10.1016/j.aquatox.2015.05.013 (초록 확인)", "Aquatic Toxicology"),
+    pm(16, "20400227", "Shih HH et al. (2010) Anisakis simplex third-stage larval infections of marine cage cultured cobia, Rachycentron canadum L., in Taiwan. Vet Parasitol 171:277-285. doi:10.1016/j.vetpar.2010.03.023 (초록 확인)", "Veterinary Parasitology"),
+    pm(17, "29578048", "Tran HB et al. (2018) De novo transcriptome analysis of immune response on cobia (Rachycentron canadum) infected with Photobacterium damselae subsp. piscicida. Fish Shellfish Immunol 77:120-130. doi:10.1016/j.fsi.2018.03.041 (초록 확인)", "Fish & Shellfish Immunology"),
+    pm(18, "31765793", "Thu Nguyen TT et al. (2020) α-Enolase as a novel vaccine candidate against Streptococcus dysgalactiae infection in cobia (Rachycentron canadum L.). Fish Shellfish Immunol 98:899-907. doi:10.1016/j.fsi.2019.11.050 (초록 확인)", "Fish & Shellfish Immunology"),
+    pm(19, "24473886", "Moreira CB et al. (2013) Outbreak of mortality among cage-reared cobia (Rachycentron canadum) associated with parasitism. Rev Bras Parasitol Vet 22:588-591. doi:10.1590/S1984-29612013000400021 (초록 확인)", "Revista Brasileira de Parasitologia Veterinária"),
+    pm(20, "27696450", "Sharma SRK et al. (2017) First report of isolation and characterization of Photobacterium damselae subsp. damselae from cage-farmed cobia (Rachycentron canadum). J Fish Dis 40:953-958. doi:10.1111/jfd.12557 (제목·키워드만 확인, 초록 없음)", "Journal of Fish Diseases"),
+    pm(21, "23884630", "Watson AM et al. (2013) Taurine supplementation of plant derived protein and n-3 fatty acids are critical for optimal growth and development of cobia, Rachycentron canadum. Lipids 48:899-913. doi:10.1007/s11745-013-3814-2 (초록 확인)", "Lipids"),
+    pm(22, "19760445", "Xu Y et al. (2009) Different ratios of docosahexaenoic and eicosapentaenoic acids do not alter growth, nucleic acid and fatty acids of juvenile cobia (Rachycentron canadum). Lipids 44:1091-1104. doi:10.1007/s11745-009-3340-4 (초록 확인)", "Lipids"),
+    pm(23, "31007538", "Nguyen MV et al. (2019) The role of dietary methionine concentrations on growth, metabolism and N-retention in cobia (Rachycentron canadum) at elevated water temperatures. Aquac Nutr 25:495-507. doi:10.1111/anu.12875 (초록 확인)", "Aquaculture Nutrition"),
+    pm(24, "32287453", "Lunger AN et al. (2006) Replacement of fish meal in cobia (Rachycentron canadum) diets using an organically certified protein. Aquaculture 257:393-399. doi:10.1016/j.aquaculture.2005.11.010 (초록 확인)", "Aquaculture"),
+    pm(25, "18762234", "Tsai ML et al. (2008) Cloning of peroxisome proliferators activated receptors in the cobia (Rachycentron canadum) and their expression at different life-cycle stages under cage aquaculture. Gene 425:69-78. doi:10.1016/j.gene.2008.08.004 (초록 확인)", "Gene"),
+    pm(26, "37799068", "Buatong J et al. (2023) Contaminated fungi in dried salted fishes: isolation, identification, and their inhibition by chitooligosaccharide-gallic acid conjugate. J Food Sci 88:4653-4663. doi:10.1111/1750-3841.16749 (초록 확인)", "Journal of Food Science"),
+    {"n": 27, "title": "FAO Cultured Aquatic Species Information Programme — Rachycentron canadum (Cobia) 종 설명(2009판; 이 환경에서 FAO 사이트를 열지 못해 WebSearch 검색 결과 요약으로만 확인)", "url": "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_cobia.htm", "publisher": "FAO", "accessed": A},
+    {"n": 28, "title": "경북매일 2020-10-31 보도 — 울릉도 통구미 앞바다 날새기(날쌔기) 낚시 어획 기사(국내 기록상 다도해·제주 분포 언급; 언론 보도, WebSearch 검색 결과 요약으로만 확인)", "url": "https://www.kbmaeil.com/article/202010310291225", "publisher": "경북매일", "accessed": A},
+    pm(29, "24601085", "Hsu PY et al. (2013) Biochemical characterization of a phospholipase A2 from Photobacterium damselae subsp. piscicida. Z Naturforsch C 68:471-481 (초록 확인)", "Zeitschrift für Naturforschung C"),
+    pm(30, "19925591", "Cheng TC et al. (2010) Establishment, characterization, virus susceptibility and transfection of cell lines from cobia, Rachycentron canadum (L.), brain and fin. J Fish Dis 33:161-169. doi:10.1111/j.1365-2761.2009.01113.x (초록 확인)", "Journal of Fish Diseases"),
+]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "날쌔기(Rachycentron canadum, 영명 cobia)는 날쌔기과(Rachycentridae)에 속하는 유일한 현생종으로, 동태평양을 뺀 전 세계 열대·아열대 바다를 넓게 돌아다니는 대형 표층성 어류다[2]. 살코기 품질이 좋고 사육 환경에 잘 적응하며 빨리 자라서 중국·대만·홍콩에 이어 오스트레일리아·베트남·아메리카 대륙까지 양식이 퍼졌다[2].\n\n"
+     "식약처 「식품원료 목록」에는 원료명 '날쌔기'(영문 Cobia, black bonito)가 수산물로 올라 있고, 사용 상태는 '사용가능'이다[1]. 부위 칸은 '-'이고 따로 정한 사용 조건은 없으며, 건강기능식품 고시형 원료의 원재료 목록에도 없어 고시 지표성분이나 1일 섭취량 기준은 없다[1].\n\n"
+     "대만에서는 신선한 날쌔기를 주로 회로 먹거나 수출하며, 껍질·뱃살은 샐러드에 쓰인다[9]. 국내 기록으로는 다도해와 제주 해역에 분포한다고 알려져 있고, 2020년 울릉도에서 낚시로 잡힌 사례가 보도되었다(언론 보도, 검색 요약으로 확인)[28]. 국내 어획·유통 통계는 확인하지 못함[1]."},
+    {"key": "history", "title": "이름과 이용의 역사", "body":
+     "FAO 종 설명에 따르면 날쌔기 양식 연구는 1975년 미국 노스캐롤라이나 앞바다에서 자연산 알을 모은 것이 처음 보고이며, 1980년대 말–1990년대 초 미국과 대만에서 연구가 이어졌다(검색 요약으로 확인)[27]. 같은 자료는 1990년대 초 대만에서 처음으로 사육 중 산란에 성공했고, 1997년에는 종묘 생산 기술이 갖춰져 연안 가두리 양식용 치어를 공급했으며, 지금은 생산량 대부분이 중국에서 나온다고 적는다(검색 요약으로 확인)[27].\n\n"
+     "대만 연구진은 날쌔기가 외해 가두리 양식에 알맞은 어종으로 자리 잡아 가고 있다고 보고했다[25]. 날쌔기는 대만 펑후·핑둥에서 많이 기르는 어종이며, 2017년 대만의 날쌔기 생산량은 1,615톤, 생산액은 6억 2,460만 대만달러였다[9]. 브라질 리우데자네이루주에서도 가두리 양식이 시도되었다[19].\n\n"
+     "미국 중부·남부 대서양 연안에서는 낚시 대상어로 중요하며, 최근 산란기 연안에서 낚시 압력이 커졌다[3]. 국내 식용·양식 이용의 역사 기록은 이번 조사에서 확인하지 못함[1]."},
+    {"key": "biology", "title": "어종과 생태", "body":
+     "날쌔기는 암수가 따로 있는 자웅이체 어종으로, 암수 모두 2배체 염색체 수가 48개이고 핵형으로는 성염색체를 구별할 수 없다[2]. 암컷이 수컷보다 몸길이와 무게 모두 빨리 자라서 같은 발달 단계에서 암컷이 수컷의 두 배 크기가 되기도 한다[2].\n\n"
+     "알은 물에 떠다니는 부유성 알을 낳는 방식이며, 배아는 자외선을 쬐면 비중이 커져 부력을 잃는 반응을 보였다[5]. 부화 뒤 3주 동안 이산화탄소 분압 800·2,100 μatm에서 길러도 성장·발달·유영 능력은 영향이 없었지만 이석 면적은 최대 25% 커졌고, 3,500·5,400 μatm에서는 같은 나이의 몸 크기가 최대 25% 작고 발달이 2–3일 늦었다[4].\n\n"
+     "체서피크만 개체를 쓴 호흡 측정에서 날쌔기는 28–32 °C 수온과 1.7–2.4 mg/L의 낮은 용존산소를 생리적으로 견뎠으나, 고수온에서는 격렬한 운동 뒤 죽는 개체가 있었다[3]. 저자들은 기후 변화가 진행되면 잡았다 놓아주는 낚시의 사망률이 높아질 수 있다고 보았다[3]."},
+    {"key": "related_species", "title": "가까운 종", "body":
+     "날쌔기는 날쌔기과의 유일한 종이며, 전갱이목(Carangiformes) 안에서 날쌔기과·만새기과(Coryphaenidae)·빨판상어과(Echeneidae)가 함께 빨판상어상과(Echeneoidea)라는 단계통 무리를 이룬다[2]. 치어의 생김새로는 빨판상어류와, 뼈 구조와 유생 형태로는 만새기류와 가깝다는 견해가 엇갈려 왔다[2].\n\n"
+     "2024년 염색체 수준 유전체로 단일 사본 유전자 572개를 비교한 계통 분석에서는 날쌔기와 빨판상어(Echeneis naucrates)가 자매군으로 묶였고, 두 계통은 약 5,140만 년 전에 갈라진 것으로 추정되었다[2]. 다만 만새기과 두 종의 유전체가 아직 없어 만새기과와의 관계는 더 확인해야 한다고 저자들은 적었다[2].\n\n"
+     "앞서 공개된 날쌔기 미토콘드리아 유전체는 조절 영역–12S, ND5–tRNA(Glu) 두 구간이 재분석 결과와 달랐으며, 이는 조립 오류나 시료 오동정 때문일 수 있다고 지적되었다[6]. 국내에서 날쌔기와 혼동되어 유통되는 어종 자료는 확인하지 못함[1]."},
+    {"key": "cultivation", "title": "양식과 어획", "body":
+     "대만의 가두리 양식에서는 사료 일부로 다진 생선을 주기도 한다[16]. 식물성 단백질 사료에 타우린 1.5%를 넣고 필수지방산(DHA·아라키돈산)을 0.5 g/kg 넘게 주면 어분 없이도 생존율 100%, 일간 성장률 2.45 이상, 사료계수 1.5 미만을 얻었다[21]. 효모 기반 유기 인증 단백질은 어분 단백질의 25%까지 바꿔도 성장과 사료 효율이 어분 대조구와 같았다[24].\n\n"
+     "메티오닌 9 g/kg 사료는 12·16 g/kg보다 성장이 낮았고, 34 °C에서 기른 치어는 사료 섭취가 줄어 30 °C보다 성장이 나빴다[23]. 사료의 DHA/EPA 비율(0.90–2.10)은 치어 성장에 차이를 내지 않았으며, 8주 동안 평균 체중이 6.86 g에서 58.52 g으로 늘었다[22].\n\n"
+     "대만에서는 포토박테리아증(파스튜렐라증) 원인균 Photobacterium damselae subsp. piscicida에 의한 피해가 크며[17], 이 세균이 내는 포스포리파아제 A2는 5 g 안팎 날쌔기에 대한 LD50이 2–4 μg 단백질/g으로 독소로 확인되었다[29]. Streptococcus dysgalactiae 감염에는 α-에놀레이스 재조합 백신이 상대생존율 88.89–97.37%를 보였다[18]. 브라질 가두리에서는 와편모충 Amyloodinium ocellatum과 단생흡충 Neobenedenia melleni로 집단 폐사가 났고[19], 인도에서는 P. damselae subsp. damselae가 처음 분리되었다[20]. 국내 양식 실적은 확인하지 못함[1]."},
+    {"key": "processing", "title": "가공과 이용", "body":
+     "대만에서 필레를 만들고 남는 머리·간·지느러미·뼈 등 부산물은 몸무게의 약 40–50%이고, 껍질의 단백질 함량은 약 30%로 보고되었다[9]. 껍질을 Protamex로 5시간 분해한 가수분해물은 수용성 단백질 612 mg/g, 펩타이드 270 mg/g을 담았고 ACE 저해 IC50은 0.221 mg/mL였다[9]. 모의 소화 뒤에는 IC50이 0.304 mg/mL로 올라 효과가 조금 줄었다(초록에는 0.044로 적혀 본문과 다름)[9].\n\n"
+     "이 가수분해물에서 Trp-Ala-Ala, Ala-Trp-Trp, Ile-Trp-Trp, Trp-Leu 네 펩타이드가 확인되었고, 고혈압 쥐에 체중 1 kg당 600 mg을 먹이자 4시간 뒤 수축기 혈압이 대조군보다 21.9 mmHg 낮았다[9]. 이는 동물 단기 실험 결과이며 사람에서의 효과는 확인되지 않았다[9]. 식물 단백질분해효소로 분해한 껍질 콜라겐은 생쥐 상처를 10일 만에 아물게 했다(대조 14일)[11].\n\n"
+     "사우디 시장의 자연산 날쌔기를 얼음 저장한 연구에서 관능 한계 점수는 13점이었고, 저장 기간은 양식산 문헌값 15일보다 짧았다[10]. 저장 중 이노신산(IMP)은 거의 사라질 때까지 줄고 하이포잔틴은 천천히 늘었다[10]. 건조 염장품에서는 다른 두 어종과 달리 곰팡이가 검출되지 않았다[26]."},
+    {"key": "genetics", "title": "유전체와 유전 다양성", "body":
+     "2024년 수컷·암컷의 염색체 수준 유전체가 처음 공개되었으며, 조립 크기는 수컷 586.51 Mb, 암컷 583.88 Mb이고 각각 24개 유사 염색체로 정리되었다[2]. BUSCO 완전도는 94.2%·93.8%, 단백질 암호 유전자는 21,604개·21,688개였다[2].\n\n"
+     "수컷 31마리·암컷 60마리 재분석으로 18번 염색체의 10.7 kb 구간에서 수컷 특이 영역 세 곳이 확인되어 XX/XY형 성 결정이 시사되었고, 그 안의 cephx1y·ctcf24y 유전자가 정소에서 주로 발현했다[2]. 이를 표적으로 한 수컷 판별 PCR은 파나마·브라질·일본·오스트레일리아 양식 집단에서 수컷에만 산물을 냈다[2].\n\n"
+     "미토콘드리아 유전체는 18,008 bp로 단백질 암호 유전자 13개, rRNA 2개, tRNA 22개를 가진다[6]. 인도 연안 개체의 ATPase 6/8 유전자 842 bp에서는 하플로타입 15개, 하플로타입 다양도 0.785, FST 0.002가 나와 하나의 자원으로 관리할 수 있다고 보았다[7]. 간 전사체 조립에서는 유전자 101,789개와 미세위성 7,894개가 확인되었고[8], 뇌·지느러미 유래 세포주가 160대 넘게 계대 배양되었다[30]."},
+    {"key": "safety", "title": "안전성과 주의", "body":
+     "고시형 원료가 아니어서 식약처가 따로 정한 섭취 주의사항은 없다[1]. 대만 가두리 날쌔기에서 고래회충(Anisakis simplex) 3기 유충이 처음 확인되었는데, 유충은 위 안이나 복강, 위벽 바깥 장간막에 있었고 근육 속에서는 발견되지 않았다[16]. 사료로 준 생선이 감염원으로 지목되었고, 저자들은 아니사키스증과 알레르기 위험을 줄이는 관리가 필요하다고 제안했다[16].\n\n"
+     "미국 루이지애나 1994–2008년 어류 수은 자료 14,344건 분석에서 날쌔기는 왕삼치 등과 함께 수은 농도로 주의가 필요한 어종으로 꼽혔다[13]. 미시시피강 하류 1990–1994년 조사에서도 날쌔기는 발암 위험 또는 노출 한계를 넘은 9개 종에 들었으며, 주된 원인 물질은 알드린·디엘드린 등 농약류와 비소·수은이었다[14].\n\n"
+     "대만 펑후 외해 가두리 날쌔기의 총 부틸주석은 등쪽 근육 79–688 ng/g, 배쪽 근육 82–1,715 ng/g(습중량)이었고 간에서는 최대 52,745 ng/g이었다[12]. 사료 카드뮴은 신장에 가장 많이 쌓이고 근육에 가장 적게 쌓였다[15]. 이 종의 시구아테라 독소 검출 자료와 국내 공공기관의 알레르기 정보는 이번 조사에서 확인하지 못함[1]."},
+]
+
+compounds = [
+    {"name": "Trp-Ala-Ala", "name_ko": "트립토판-알라닌-알라닌(WAA)", "class": "ACE 저해 펩타이드", "role": "bioactive", "part": "껍질 가수분해물(Protamex 5시간, 모의 소화 후)", "content_text": "IC50 118.50 μM(0.0411 mg/mL)[9]", "activity_ko": "ACE 저해, 이 연구에서 처음 보고된 서열[9]", "source": [9]},
+    {"name": "Ala-Trp-Trp", "name_ko": "알라닌-트립토판-트립토판(AWW)", "class": "ACE 저해 펩타이드", "role": "bioactive", "part": "껍질 가수분해물", "content_text": "IC50 9.40 μM(0.00434 mg/mL)[9]", "activity_ko": "ACE 저해(시험관)[9]", "source": [9]},
+    {"name": "Ile-Trp-Trp", "name_ko": "아이소류신-트립토판-트립토판(IWW)", "class": "ACE 저해 펩타이드", "role": "marker", "part": "껍질 가수분해물", "content_text": "IC50 0.51 μM(0.00026 mg/mL)[9]", "activity_ko": "네 펩타이드 중 ACE 저해가 가장 강함(시험관)[9]", "source": [9]},
+    {"name": "Trp-Leu", "name_ko": "트립토판-류신(WL)", "class": "ACE 저해 펩타이드", "role": "bioactive", "part": "껍질 가수분해물", "content_text": "IC50 26.80 μM(0.00851 mg/mL)[9]", "activity_ko": "ACE 저해(시험관)[9]", "source": [9]},
+    {"name": "Collagen type I", "name_ko": "I형 콜라겐(껍질 콜라겐 펩타이드)", "class": "구조 단백질·펩타이드", "role": "bioactive", "part": "껍질", "content_text": "가수분해 펩타이드 1.6–2.6 kDa, 18–30개 아미노산(LC-MS/MS로 4종 동정)[11]; 껍질 단백질 약 30%[9]", "activity_ko": "생쥐 절개 상처 모델에서 상처 회복 단축(10일 대 14일)[11]", "source": [9, 11]},
+    {"name": "Inosine monophosphate", "name_ko": "이노신산(IMP)", "class": "ATP 분해산물(핵산 관련 물질)", "role": "marker", "part": "등쪽 백색근", "content_text": "얼음 저장 중 거의 검출되지 않는 수준까지 점차 감소(수치는 그림에만 있음)[10]", "activity_ko": "신선도(K값) 계산 지표[10]", "source": [10]},
+    {"name": "Inosine", "name_ko": "이노신", "class": "ATP 분해산물", "role": "marker", "part": "등쪽 백색근", "content_text": "저장 중 변동(수치는 그림에만 있음)[10]", "activity_ko": "K값 분자 성분[10]", "source": [10]},
+    {"name": "Hypoxanthine", "name_ko": "하이포잔틴", "class": "ATP 분해산물", "role": "marker", "part": "등쪽 백색근", "content_text": "저장 중 천천히 증가해 중간 농도에 이름(수치는 그림에만 있음)[10]", "activity_ko": "부패 진행 지표, K값 분자 성분[10]", "source": [10]},
+    {"name": "Docosahexaenoic acid", "name_ko": "DHA", "class": "오메가-3 고도불포화지방산", "role": "nutrient", "part": "근육·간(양식 치어)", "content_text": "근육 지방 6.74%→10.63%(8주) 중 DHA는 사료 DHA에 따라 증가(수치는 초록에 없음)[22]", "activity_ko": "치어 필수지방산; 사료 필수지방산 0.5 g/kg 이상 필요[21, 22]", "source": [21, 22]},
+    {"name": "Eicosapentaenoic acid", "name_ko": "EPA", "class": "오메가-3 고도불포화지방산", "role": "nutrient", "part": "근육·간(양식 치어)", "content_text": "사료 EPA가 줄면 근육·간 EPA도 감소(수치는 초록에 없음)[22]", "activity_ko": "필레 지방산 조성이 사료를 따라 변함[21, 22]", "source": [21, 22]},
+    {"name": "Tributyltin", "name_ko": "트리부틸주석(TBT)", "class": "유기주석 오염물질", "role": "bioactive", "part": "껍질·근육·간", "content_text": "총 부틸주석 등쪽 근육 79–688 ng/g, 배쪽 근육 82–1,715 ng/g, 간 불검출–52,745 ng/g(습중량)[12]", "activity_ko": "가두리 해역 해수에서 유래한 잔류 오염물질[12]", "source": [12]},
+    {"name": "Mercury", "name_ko": "수은", "class": "중금속 오염물질", "role": "bioactive", "part": "가식부", "content_text": "날쌔기 개별 수치는 초록에 없음 — 루이지애나 자료에서 주의 어종으로 분류[13]", "activity_ko": "어류 섭취 위해 평가 대상[13, 14]", "source": [13, 14]},
+    {"name": "Cadmium", "name_ko": "카드뮴", "class": "중금속", "role": "bioactive", "part": "신장·간·장·아가미·근육", "content_text": "축적 순서 신장 > 간 > 장 > 아가미 > 근육(사료 3.0–10.0 mg/kg 노출 실험)[15]", "activity_ko": "고농도 무기 카드뮴 사료에서 성장 저하[15]", "source": [15]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Ile-Trp-Trp (ACE-inhibitory peptides; hippuric acid assay)", "compound_ko": "ACE 저해 펩타이드(IWW 등)·마뇨산 측정",
+     "part": "껍질 가수분해물(Protamex 5시간, 모의 위장 소화 후 PX-5G)",
+     "content": "IWW IC50 0.51 μM, AWW 9.40 μM, WL 26.80 μM, WAA 118.50 μM; PX-5 IC50 0.221 mg/mL[9]",
+     "method": "RP-HPLC-UV(ACE 저해 활성 측정, 마뇨산 정량) / 반분취 RP-HPLC 분리 + 에드만 분해 서열 분석",
+     "conditions": {
+         "instrument": "Hitachi L-7100 펌프, Gilson UV-VIS 118 검출기(ACE 분석); 분리는 Hitachi L-7100, Gilson 118 UV–VIS·715 시스템 컨트롤러; 서열은 Procise 492 단백질 서열분석기",
+         "column": "ACE 분석: Phenomenex Luna 5 μm, 4.6 × 250 mm(역상, 원문 추출본에서 상 종류 표기 일부 누락); 분리: Synergi 4 μm Hydro-RP 80 Å, 10 × 250 mm(반분취), 순도 확인 Jupiter Proteo 4 μm 90 Å",
+         "mobile_phase": "ACE 분석: 메탄올–0.1% TFA(50:50, v/v); 분리: A 0.1% TFA 수용액, B 0.1% TFA 아세토나이트릴",
+         "gradient": "ACE 분석 등용매; 분리 B 0–50%, 2시간(순도 확인 1시간)",
+         "flow": "ACE 분석 0.8 mL/min; 분리 1.5 mL/min",
+         "temp": "분리는 실온",
+         "detection": "ACE 분석 UV 228 nm; 분리 220 nm",
+         "injection": "ACE 분석 10 μL; 분리 500 μL",
+         "sample_prep": "껍질 98 °C 10초 데친 뒤 비늘·살 제거·분쇄 → 150 g + 탈이온수 6배, Protamex(조단백 30%의 3%) 50 °C 5시간 → 10분 끓여 불활성화 → 규조토 여과·동결건조; 펩신(pH 2.0, 37 °C 4시간)·판크레아틴(37 °C 4시간) 모의 소화 → Sephadex G-25(1.6 × 90 cm) 분획; ACE 반응: 15 mM HHL, 붕산 완충액 100 mM pH 8.3 + NaCl 300 mM, 토끼 폐 ACE 53.2 mU/mL, 37 °C 10분+30분, 1.0 N HCl로 정지, 5 kDa 한외여과",
+         "standard": "양성대조 캡토프릴(IC50 0.0069 μM); 동정 펩타이드는 고상 합성품으로 확인",
+         "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "날쌔기 껍질 가수분해물의 혈압 관련 활성을 대표하는 펩타이드로, 정제 단계마다 ACE 저해 효율을 추적하는 지표로 쓰였다[9]. 전문(Methods) 확인 — 검출·정량한계와 회수율은 본문에 없음[9].",
+     "source": [9], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6628374/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Inosine monophosphate / Inosine / Hypoxanthine (K-value)", "compound_ko": "ATP 분해산물(IMP·이노신·하이포잔틴)과 K값",
+     "part": "등쪽 백색근(사우디산 자연산, 얼음 저장)",
+     "content": "IMP는 거의 사라질 때까지 감소, 하이포잔틴은 서서히 증가(날쌔기 개별 수치는 그림에만 있어 확인하지 못함)[10]",
+     "method": "HPLC-UV",
+     "conditions": {
+         "instrument": "Waters 600 펌프·600 컨트롤러, Waters 717 Plus 자동시료주입기(10 °C), Waters 2487 UV 검출기, Empower 소프트웨어",
+         "column": "C18, 5 μm, 100 RP, 4 × 250 mm (Phenomenex)",
+         "mobile_phase": "인산칼륨 완충액(원문 추출본: 0.4 M KH?PO? 및 0.06 M K?HPO?, HPLC용 물; 아래첨자가 빠져 정확한 염 형태는 확인 못함)",
+         "gradient": "등용매로 보임(원문에 기울기 기술 없음), 시료당 20분",
+         "flow": "1.5 mL/min",
+         "temp": "",
+         "detection": "UV 254 nm",
+         "injection": "5 μL",
+         "sample_prep": "근육 5 g + 0.6 M 과염소산 25 mL, 얼음 위 2분 균질 → 4 °C 7,000 × g 5분 원심 → 상등액 10 mL를 KOH 1 M·0.1 M로 pH 6.7–6.9 조정",
+         "standard": "기존에 개발·검증된 분리법을 따름(표준품 명세는 본문에 없음)",
+         "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "ATP 분해산물 비율인 K값은 화학적 신선도 지표 가운데 관능 신선도와 가장 잘 맞는 것으로 알려져 날쌔기 같은 횟감용 어종의 품질 관리에 쓰인다[10]. 전문(Methods) 확인[10].",
+     "source": [10], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11853878/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Butyltins (MBT, DBT, TBT, TeBT)", "compound_ko": "부틸주석 화합물(모노·다이·트리·테트라부틸주석)",
+     "part": "껍질·등쪽·배쪽·혈합육·간(대만 펑후 외해 가두리)",
+     "content": "총 부틸주석 껍질 72–2,270 ng/g, 등쪽 근육 79–688 ng/g, 배쪽 근육 82–1,715 ng/g, 혈합육 93–803 ng/g, 간 불검출–52,745 ng/g(습중량)[12]",
+     "method": "확인하지 못함(초록에 분석법 없음)",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "양식 해역의 선박 방오도료 유래 유기주석이 날쌔기 가식부에 남는 정도를 보여 주는 안전성 지표다[12]. 전문 확인 못함[12].",
+     "source": [12], "url": "https://pubmed.ncbi.nlm.nih.gov/15885754/", "source_kind": "paper"},
+]
+
+world = [
+    {"country": "대만", "metric": "production_t", "year": 2017, "value": 1615, "unit": "t", "note": "양식 생산량, 생산액 6억 2,460만 대만달러(논문이 인용한 대만 통계)[9]", "source": [9]},
+    {"country": "세계", "metric": "production_t", "year": 2022, "value": 35613.45, "unit": "t", "note": "논문이 FAO FishstatJ(2024)를 인용한 'global production' 값; 같은 문장에 'global harvesting volume' 19,147.73 t도 적혀 있으나 어획·양식 구분은 원문 표현만으로 확인하지 못함[10]", "source": [10]},
+]
+
+d = {
+    "slug": "rachycentron-canadum",
+    "name_ko": "날쌔기",
+    "name_en": "Cobia",
+    "scientific_name": "Rachycentron canadum",
+    "aliases": ["날쌔기", "Cobia", "Black bonito"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": world,
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+(HERE / "dossier.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))

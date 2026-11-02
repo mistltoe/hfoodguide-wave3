@@ -1,0 +1,63 @@
+import json, sys
+from pathlib import Path
+P = Path(__file__).resolve().parent.parent / "dossier.json"
+d = json.loads(P.read_text())
+S = {s["key"]: s for s in d["sections"]}
+changes = []
+def rep(key, old, new, why):
+    b = S[key]["body"]
+    assert b.count(old) == 1, (key, old)
+    S[key]["body"] = b.replace(old, new)
+    changes.append({"where": f"sections.{key}", "before": old, "after": new, "why": why})
+
+rep("history",
+    "같은 자료는 1990년대 초 대만에서 처음으로 사육 중 산란에 성공했고, 1997년에는 종묘 생산 기술이 갖춰져 연안 가두리 양식용 치어를 공급했으며, 지금은 생산량 대부분이 중국에서 나온다고 적는다(검색 요약으로 확인)[27].",
+    "같은 자료는 1990년대 초 대만에서 처음으로 사육 중 산란에 성공했다고 적는다(검색 요약으로 확인)[27]. 2025년 사우디 연구는 FAO 통계를 인용해 중국과 대만을 주요 생산지로 꼽았다[10].",
+    "FAO 종 설명은 열리지 않아 검색 요약으로 1975년·1990년대 초 산란만 재확인됨. '1997년 종묘 공급'·'생산량 대부분 중국'은 확인하지 못해 삭제하고, 주요 생산지는 [10] 본문('China and Taiwan are the main producers')으로 바꿈")
+rep("cultivation",
+    "필수지방산(DHA·아라키돈산)을 0.5 g/kg 넘게 주면 어분 없이도 생존율 100%, 일간 성장률 2.45 이상, 사료계수 1.5 미만을 얻었다[21].",
+    "필수지방산(DHA·아라키돈산)을 0.5 g/kg 넘게 주면 어분 없이도 생존율 100%, 비성장률(SGR) 2.45 초과, 사료계수 1.5 미만을 얻을 수 있다고 저자들은 결론지었다[21].",
+    "[21] 초록은 'specific growth rates greater than 2.45'(비성장률)이며, 0.5 g/kg 초과 조건은 실측이 아니라 저자 추론('would likely improve')임")
+rep("cultivation",
+    "효모 기반 유기 인증 단백질은 어분 단백질의 25%까지 바꿔도 성장과 사료 효율이 어분 대조구와 같았다[24].",
+    "효모 기반 유기 인증 단백질로 사료 단백질의 25%를 어분 대신 공급해도 증체율과 사료계수가 어분 100% 대조구와 같았다[24].",
+    "[24] 초록: 'replacing ... fish meal at 25% ... of dietary protein' — 기준은 어분 단백질이 아니라 사료 단백질")
+rep("cultivation",
+    "Streptococcus dysgalactiae 감염에는 α-에놀레이스 재조합 백신이 상대생존율 88.89–97.37%를 보였다[18].",
+    "Streptococcus dysgalactiae 감염에는 α-에놀레이스 재조합 단백질을 유성 면역보조제와 섞은 백신이 상대생존율 88.89%를, 보조제를 두 배로 늘렸을 때 97.37%를 보였고, TNF-α와 섞은 경우는 22.22%에 그쳤다[18].",
+    "[18] 초록: 높은 RPS 는 ISA 763 AVG 보조제 조합에서만 나왔고 TNF-α 조합은 22.22%")
+rep("processing",
+    "고혈압 쥐에 체중 1 kg당 600 mg을 먹이자",
+    "고혈압 자연발생 쥐(SHR, 군당 5마리)에 가수분해물 분말을 체중 1 kg당 600 mg 먹이자",
+    "[9] 본문 2.11: SHR, 대조·시험군 각 n=5, 투여물은 PX-5 분말 — 동물 결과 범위를 분명히 함")
+rep("processing",
+    "식물 단백질분해효소로 분해한 껍질 콜라겐은 생쥐 상처를 10일 만에 아물게 했다(대조 14일)[11].",
+    "식물(Wrightia tinctoria) 조추출 단백질분해효소로 분해한 껍질 콜라겐을 생쥐 절제 상처 모델에 바르자 상처가 10일 만에 완전히 닫혔다(대조 14일)[11]. 이 역시 동물 실험 결과다[11].",
+    "[11] 초록: murine excisional wound model, topical application — 동물·국소 도포 결과임을 명시")
+rep("genetics",
+    "수컷 31마리·암컷 60마리 재분석으로",
+    "수컷 31마리·암컷 60마리의 전장 유전체 재시퀀싱 분석으로",
+    "[2] 본문: whole-genome resequencing (재분석이 아님)")
+rep("genetics",
+    "간 전사체 조립에서는 유전자 101,789개와 미세위성 7,894개가 확인되었고[8]",
+    "간 전사체 첫 조립에서는 유니진 101,789개가 얻어졌고 lncRNA 후보와 연관된 미세위성 7,894개가 확인되었으며[8]",
+    "[8] 초록: '101,789 unigenes', '7894 microsatellites related to cobia's putative lncRNAs'")
+rep("safety",
+    "미시시피강 하류 1990–1994년 조사에서도 날쌔기는 발암 위험 또는 노출 한계를 넘은 9개 종에 들었으며, 주된 원인 물질은 알드린·디엘드린 등 농약류와 비소·수은이었다[14].",
+    "미시시피강 하류 1990–1994년 조사에서도 날쌔기는 총 발암 위험 또는 노출 한계 기준을 넘은 9개 우려 종에 들었다[14]. 연구 전체에서 위험을 높인 주 물질은 알드린·디엘드린 등 농약류와 비소·수은이었으나, 날쌔기에서 어느 물질이 기준을 넘겼는지는 초록에서 확인하지 못함[14].",
+    "[14] 초록의 원인 물질 목록은 16개 어종·3개 갑각류 전체에 대한 것이므로 날쌔기 고유 결과처럼 읽히지 않게 고침(수은은 이 종 자료로만)")
+
+# compounds
+for c in d["compounds"]:
+    if c["name"] == "Collagen type I":
+        old = c["activity_ko"]; c["activity_ko"] = "생쥐 절제 상처 모델에 국소 도포 시 상처 완전 폐합 단축(10일 대 14일, 동물 실험)[11]"
+        changes.append({"where": "compounds[Collagen type I].activity_ko", "before": old, "after": c["activity_ko"], "why": "[11] excisional wound model, topical — 절개→절제, 동물 결과 명시"})
+for a in d["assays"]:
+    if a["source"] == [10]:
+        old = a["rationale"]
+        a["rationale"] = old.replace("날쌔기 같은 횟감용 어종의 품질 관리에 쓰인다[10]", "이 연구에서 날쌔기를 포함한 8개 어종의 화학적 신선도 평가에 쓰였다[10]")
+        assert a["rationale"] != old
+        changes.append({"where": "assays[K-value].rationale", "before": old, "after": a["rationale"], "why": "'횟감용' 은 [10] 에 없는 표현"})
+P.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n")
+json.dump(changes, open(Path(__file__).parent / "changes.json", "w"), ensure_ascii=False, indent=1)
+print(len(changes))

@@ -1,0 +1,571 @@
+{
+ "slug": "syzygium-jambos",
+ "name_ko": "로즈애플",
+ "name_en": "Rose apple",
+ "scientific_name": "Syzygium jambos (L.) Alston",
+ "aliases": [
+  "로즈애플열매",
+  "Veli jambu열매",
+  "Veli jambu",
+  "Rose apple",
+  "Eugenia jambos",
+  "Jambosa jambos",
+  "Syzygium jambos Alston"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "로즈애플(Syzygium jambos (L.) Alston)은 도금양과 시지기움속의 상록 교목으로, 생김새와 열매 향 때문에 영어로 rose apple이라 불린다[2]. 식약처 「식품원료 목록」에는 원료명 '로즈애플열매'(학명 Syzygium jambos Alston, 이명 Eugenia jambos·Jambosa jambos)와 'Veli jambu열매'(Syzygium jambos) 두 행이 올라 있다[1]. 두 행 모두 대분류가 식품원료(A코드)인 사용가능 원료이고, 사용 조건은 '사용가능부위 : 열매'로 열매만 식품에 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매는 두께 10–15 mm의 과육이 있는 아구형 장과이며, 리뷰는 이 속의 열매가 주스·젤리·잼으로 쓰인다고 소개한다[2]. 성분 연구는 주로 잎과 줄기껍질에서 이루어졌고 플라보놀 배당체, 가수분해형 타닌(엘라지타닌), 펜타사이클릭 트라이테르페노이드가 주된 성분군이다[2]. 열매에서는 펙틴 다당류, 폴리페놀, 알킬페놀(카다놀)과 α-글루코시데이스 억제 성분이 보고되었다[20–23]. 효과 근거는 세포·동물 실험이 대부분이며, 잎차를 사람에게 준 시험에서는 혈당 강하 효과가 나타나지 않았다[24, 25]. 씨앗·뿌리에 알칼로이드 잠보신과 시안화수소가 있다는 오래된 편람 기록이 있으나 정량 자료는 없어 안전성 절에 따로 정리했다[4, 5]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 전통 이용",
+   "body": "로즈애플은 남아시아와 동남아시아가 원산으로 알려져 있으며, 하와이에는 1825년에 들어와 해발 1,000 m까지 습한 곳에 퍼졌다[3]. 2022년 리뷰는 원산지를 레위니옹·중앙아메리카·동남아시아로 적고 인도에 귀화했다고 써서, 원산지 서술이 출처마다 다르다[2]. Morton의 열대과수 편람에는 1762년 무렵 자메이카에 도입되었고 1825년 리우데자네이루에서 묘목 8그루가 하와이로 옮겨졌다고 적혀 있으나, 이 내용은 WebSearch 요약으로만 확인했다[4].\n\n전통 의약으로는 인도에서 열매를 뇌·간 강장제로, 잎즙을 해열제로 썼고, 씨앗은 이질·설사에, 꽃은 열을 내리는 데 썼다고 리뷰는 정리한다[2]. 남아메리카에서는 씨앗을 마취 용도로, 잎 달인 물을 눈병·이뇨·류머티즘에 썼고, 껍질 달인 물은 천식·기관지염에 썼다고 기록되어 있다[2]. 사하라 이남 아프리카에서도 감염성 질환에 쓰는 약용 식물로 소개된다[13]. 이런 민간 용도를 검증하려는 동물 실험에서 잎 유기용매 추출물(건조 잎 12.5 g/kg 상당)은 쥐의 급성·만성 염증을 억제했고[27], 껍질 추출물 100–200 mg/kg은 스트렙토조토신 당뇨 쥐의 혈당·췌장 손상 지표를 개선했다[32]. 오늘날 하와이·코스타리카·핏케언섬 등에서는 토착 식생을 밀어내는 침입종으로 관리 대상이 되었다[3, 7, 8]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "로즈애플은 키 7.5–12 m까지 자라는 중간 크기의 상록 교목으로, 가늘고 넓게 퍼지는 가지에 수관이 빽빽하다[2]. 잎은 마주나고 피침형이며 길이 10–22 cm, 너비 2.5–6.25 cm로, 다 자라면 광택 나는 짙은 녹색이고 어린잎은 선명한 붉은색이다[2]. 꽃은 흰색 또는 연녹백색으로 가지 끝에 4–5송이씩 모여 피며, 지름이 5–10 cm에 이른다[2]. 열매는 아구형 장과로 흰색에서 분홍빛 노란색을 띠고, 겉껍질은 얇고 매끈하며 과육은 희고 즙이 많다[2].\n\n잎에는 타닌이 많아 건조중량 1 g당 0.191 g이 측정되었고, 이 때문에 하천에 떨어진 잎이 비교 수종(Dracontomelon duperreanum)보다 느리게 분해되었다[12]. 줄기껍질의 아세톤·물 추출물은 유럽약전 방법으로 잰 타닌 함량이 각각 83%와 77%였다[13]. 줄기에서는 2024년에 새로운 펜타사이클릭 트라이테르페노이드 5종이 알려진 성분 23종과 함께 분리되었다[31]. 코스타리카 숲의 하층 식생 조사에서는 표본 1,285주 가운데 51%가 로즈애플 유묘·어린나무였다[7]. 이 종은 머틀녹병균(Puccinia psidii)에 매우 약해 하와이에서 새잎이 반복해서 감염되어 8–12 m 나무까지 죽었고[3], 호주의 기주 범위 시험에서는 양성 대조 식물로 쓰였다[11]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "시지기움속은 약 1,200–1,800종을 포함하는 큰 속으로, 예전에는 많은 종이 에우게니아속(Eugenia)에 들어 있어 로즈애플도 Eugenia jambos라는 이명을 가진다[1, 2]. 식약처 목록에는 같은 속의 정향나무(S. aromaticum, 잎·꽃봉오리), 자바플럼(S. cumini, 열매), Java apple(S. samarangense, 열매), Malaysian apple(S. malaccense, 열매), Brush cherry(S. paniculatum, 열매), Marungi(S. caryophyllatum, 열매)가 별도 원료로 올라 있어 로즈애플과 구분된다[1].\n\n영어 'rose apple'은 다른 종에도 쓰여 혼동이 잦은데, 알레르기 연구에서 'rose apple'로 부른 것은 S. samarangense였다[30]. 이 백과는 그 연구 결과를 로즈애플(S. jambos)의 자료로 쓰지 않는다[30]. 브라질 연구진은 자바플럼(S. cumini)과 로즈애플의 잎을 함께 'jambolan'으로 묶어 잎차·추출물의 혈당 강하 효과를 시험했다[25]. 2023년 유전체 연구는 S. jambos를 S. malaccense·S. aqueum·S. syzygioides와 같은 아속에 속하는 종으로 함께 분석했다[9]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 분포",
+   "body": "로즈애플은 열대·아열대의 습한 곳에서 잘 자라며, 하와이에서는 해수면 바로 위부터 해발 1,000 m까지 습한 곳에서 흔하거나 침입적으로 퍼져 있다[3]. 핏케언섬에서는 외래 관목림과 로즈애플 단일 수종 조림지가 넓은 면적을 차지하며, 토착림은 섬의 30% 미만에만 남아 있다[8]. 코스타리카 연구진은 상수원 보호림에서 로즈애플을 손으로 제거하고 토착종을 다시 심는 관리를 권했다[7].\n\n재배상 가장 큰 문제는 머틀녹병으로, 하와이에서 2005년 4월 오아후섬의 다른 기주(Metrosideros polymorpha)에서 처음 발견된 뒤 2006년 1월까지 하와이주 전역의 로즈애플 새잎에 심하게 번졌다[3]. 감염된 어린잎은 기형이 되고 노란 여름포자로 덮이며, 반복 감염되면 가지 끝이 말라 죽는다[3]. 국내 재배 면적·생산량 통계는 통계청·농식품부 자료에서 확인하지 못함. 세계 생산량(FAOSTAT 등)도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록상 식품에 쓸 수 있는 부위는 열매뿐이므로, 잎·껍질·씨앗 추출물에 관한 연구 결과를 식품 원료에 그대로 적용할 수 없다[1]. 리뷰는 이 속의 열매가 주스·젤리·잼 등으로 쓰이고, 열매 달인 물이 소화기 질환 등에 민간에서 쓰였다고 소개한다[2]. 열매 향의 지표로 리날로올이 꼽히며, 브라질산 열매는 리날로올이, 말레이시아·이집트산은 3-페닐프로필알코올·(Z)-3-헥센-1-올·신남알데하이드가 주성분이었다[2].\n\n열매 다당류 연구에서 물에 녹는 다당류는 갈락투론산·아라비노스·갈락토스·글루코스·람노스가 51:22:16:5:6 몰비인 펙틴이었다[22]. 초음파 추출 조건을 최적화한 연구는 열매 총폴리페놀 31.24 mg/g(초록에 생·건 기준 표기 없음), 에틸아세테이트 분획에서 96.25 mg/g을 얻었고 LC-MS로 41개 폴리페놀을 확인했다[23]. 알킬페놀을 농축한 열매 추출물은 카다놀 두 성분을 각각 95.9 µg/mg, 198.6 µg/mg 함유하도록 만들어졌다[20]. 식약처 「식품 등의 생산실적」에서 로즈애플 원료 제품의 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2023년 시지기움속 4종의 염색체 수준 유전체 연구에서 S. jambos 표본은 동질4배체(2n = 4x = 44)로 추정되었고, 1배체 유전체 크기는 361 Mb, 이형접합률은 3.60%였다[9]. 조립된 유전체 길이는 426,159,599 bp로 11개 염색체에 고정되었고, 예측 유전자는 31,611개, 반복서열은 42.37%였다[9]. 정향 유전체와 비교하면 11개 염색체의 배열이 잘 보존되었으며, 유제놀 합성효소 추정 유전자는 정향보다 훨씬 적게 발견되었다[9].\n\n엽록체 전체 유전체는 158,541 bp로, 26,076 bp의 역반복 영역 한 쌍이 88,036 bp의 대단일복사 영역과 18,353 bp의 소단일복사 영역을 나눈다[10]. 엽록체 유전체에는 단백질 암호화 유전자 85개, tRNA 유전자 39개, rRNA 유전자 8개 등 132개 고유 유전자가 있다[10]. 계통 분석에서 로즈애플은 시지기움속의 다른 종들과 한 무리로 묶였다[10]. 품종 육성이나 국내 유전자원 보존 현황은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 로즈애플은 열매에 한해 사용가능한 식품원료(A코드)이다[1]. 건강기능식품 고시형 원료는 확인하지 못해, 고시 섭취 시 주의사항도 확인하지 못함. 국내 공공기관의 알레르기·잔류농약 정보와 열매의 독성 시험은 확인하지 못함.\n\n씨앗·뿌리 독성에 관해 Morton 편람은 씨앗이 독성이 있다고 전해지며, 뿌리·줄기·잎에서 양을 알 수 없는 시안화수소가, 나무껍질과 뿌리 껍질에서 알칼로이드 잠보신(jambosine)이 발견되었다고 적었다[4]. PROSEA 편람은 씨앗·잎·줄기·뿌리·껍질이 잠보신과 시안화수소 때문에 독성이 있다고 적었고, ICRAF 데이터베이스도 씨앗이 독성이 있다고 전한다[5, 6]. 이 세 편람의 내용은 원문을 열지 못하고 WebSearch 요약으로만 확인한 것이며, 함량이나 중독 사례를 정량한 1차 논문은 PubMed에서 찾지 못해 확인하지 못함. PubMed에서 잠보신을 다룬 논문은 모두 자바플럼(S. cumini)의 씨앗·잎 자료여서 로즈애플의 근거로 쓸 수 없다[28, 29].\n\n잎 추출물의 경우 2022년 리뷰는 급성 독성 시험에서 체중 1 kg당 5 g까지 안전했다고 정리했으나, 원 시험은 확인하지 못함[2]. 잎 메탄올 추출물은 브라인슈림프 시험에서 48시간 LC50 387.9 µg/mL로 독성을 보였다[26]. 로즈애플 잎차를 건강한 사람에게 준 무작위 시험[24]과, 자바플럼 잎과 함께 'jambolan'으로 묶어 시험한 당뇨 환자 연구에서 혈당 강하 효과는 없었고, 연구진은 환자와 의사가 이 효과에 기대서는 안 된다고 권했다[24, 25]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "잎(열매·전초에서도 보고)",
+   "content_text": "잎 에탄올 추출물 69.30 mg/100 g 건조 추출물(HPLC-DAD)[18]; 리뷰는 줄기껍질을 뺀 모든 기관에서 가장 많은 단량체로 정리[2]",
+   "activity_ko": "추출물의 항산화·항염 활성에 기여하는 성분으로 추정(쥐 발 부종 모델)[18]",
+   "source": [
+    18,
+    2
+   ]
+  },
+  {
+   "name": "Myricetin 3-O-beta-D-xylopyranosyl-(1->2)-alpha-L-rhamnopyranoside",
+   "name_ko": "미리세틴 3-O-자일로실(1→2)람노사이드",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎",
+   "content_text": "잎에서 분리·구조 확인(함량 보고 없음)[15]",
+   "activity_ko": "RAW 264.7 세포에서 TNF-α 생성 억제 IC50 1.11 µM, 설치류 5 mg/kg에서 TNF-α·CRP·피브리노겐 감소(리뷰 인용; 리뷰는 이 활성 연구의 성분을 자일로퓨라노실 배당체로 표기해 [15]의 분리 성분과 같은지 확인하지 못함)[2]",
+   "source": [
+    15,
+    2
+   ]
+  },
+  {
+   "name": "Quercetin 3-O-beta-D-xylopyranosyl-(1->2)-alpha-L-rhamnopyranoside",
+   "name_ko": "퀘르세틴 3-O-자일로실(1→2)람노사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎에서 분리·구조 확인(함량 보고 없음)[15]",
+   "activity_ko": "RAW 264.7 세포에서 TNF-α 생성 억제 IC50 1.68 µM(리뷰 인용; 리뷰는 자일로퓨라노실 배당체로 표기)[2]",
+   "source": [
+    15,
+    2
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물 99.00 mg/100 g 건조 추출물(카테킨 수화물, 정량 성분 중 최고)[18]",
+   "activity_ko": "추출물의 급성 항염 작용에 관여할 것으로 추정[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물 79.20 mg/100 g 건조 추출물(루틴 수화물)[18]; 열매 에틸아세테이트 분획에서 LC-MS로 동정[23]",
+   "activity_ko": "항산화·항염 성분으로 논의됨[18]",
+   "source": [
+    18,
+    23
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산(엘라지타닌 구성 단위)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 에탄올 추출물 59.40 mg/100 g 건조 추출물[18]",
+   "activity_ko": "추출물 항염 작용 관여 성분으로 추정[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "잎·열매",
+   "content_text": "식물 전체에서 가장 많고 널리 분포하는 페놀산으로 정리됨(함량 수치 없음)[2]; 잎 추출물(본문은 수성 추출물로 부르나 방법은 80% 에탄올 속슬렛 추출)에서 HPLC로 검출(수치는 그림에만 있음)[19]",
+   "activity_ko": "리뷰 정리 항산화 성분[2]",
+   "source": [
+    2,
+    19
+   ]
+  },
+  {
+   "name": "1-O-Galloylcastalagin",
+   "name_ko": "1-O-갈로일카스탈라진",
+   "class": "가수분해형 타닌",
+   "role": "bioactive",
+   "part": "잎(70% 아세톤 추출물)",
+   "content_text": "활성 유도 분획에서 분리(함량 보고 없음)[14]",
+   "activity_ko": "사람 백혈병 세포 HL-60 증식 억제 IC50 10.8 µM, 세포자멸사 유도(시험관)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Casuarinin",
+   "name_ko": "카수아리닌",
+   "class": "가수분해형 타닌",
+   "role": "bioactive",
+   "part": "잎(70% 아세톤 추출물)",
+   "content_text": "활성 유도 분획에서 분리(함량 보고 없음)[14]",
+   "activity_ko": "HL-60 세포 IC50 12.5 µM, 정상 림프구·간세포에는 독성이 적음(시험관)[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Myrigalone B",
+   "name_ko": "미리갈론 B",
+   "class": "다이하이드로칼콘",
+   "role": "bioactive",
+   "part": "잎(다이클로로메테인 추출물)",
+   "content_text": "잎에서 분리(함량 보고 없음)[16]",
+   "activity_ko": "DPPH 라디칼 소거 IC50 3.8 µg/mL(리뷰 인용)[2, 16]",
+   "source": [
+    16,
+    2
+   ]
+  },
+  {
+   "name": "Betulinic acid",
+   "name_ko": "베툴린산",
+   "class": "루페인형 트라이테르페노이드",
+   "role": "bioactive",
+   "part": "줄기껍질",
+   "content_text": "줄기껍질 에틸아세테이트 추출물에서 분리(함량 보고 없음)[17]",
+   "activity_ko": "피부사상균 억제 MIC 12.5–100 µg/mL(리뷰 인용)[2, 17]",
+   "source": [
+    17,
+    2
+   ]
+  },
+  {
+   "name": "Friedelin",
+   "name_ko": "프리델린",
+   "class": "프리델레인형 트라이테르페노이드",
+   "role": "bioactive",
+   "part": "줄기껍질",
+   "content_text": "줄기껍질에서 분리, 리뷰는 베툴린산과 함께 주요 트라이테르페노이드로 정리[17, 2]",
+   "activity_ko": "반합성 유도체 프리델로락톤(Baeyer-Villiger 산화로 제조)이 피부사상균에 강한 활성(시험관)[17]",
+   "source": [
+    17,
+    2
+   ]
+  },
+  {
+   "name": "Linalool",
+   "name_ko": "리날로올",
+   "class": "모노테르펜 알코올(휘발성)",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "열매 향 동정의 지표 성분, 브라질산 열매의 주 휘발 성분(함량 수치는 리뷰에 없음)[2]",
+   "activity_ko": "열매 장미향 관련 휘발 성분[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cardanol",
+   "name_ko": "카다놀(알킬페놀)",
+   "class": "알킬페놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매에서 카다놀 3종(1종 신규)과 알킬레조르시놀 3종 분리; 농축 추출물에 화합물 1·2를 95.9·198.6 µg/mg 함유[20]",
+   "activity_ko": "올레산 과부하 HepG2 세포에서 10–40 µM로 AMPK/PPARα를 활성화해 지질 축적 억제; 생쥐 경구 80 mg/kg 후 혈장·지방조직에서 검출[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Pectin",
+   "name_ko": "펙틴(호모갈락투로난 위주)",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "물 가용 다당류 몰비 GalA:Ara:Gal:Glc:Rha = 51:22:16:5:6, HG/RG-I 비 88%[22]",
+   "activity_ko": "에를리히 종양 생쥐에 150·250 mg/kg 21일 경구 투여 시 종양 성장 억제[22]",
+   "source": [
+    22
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨(수화물; 루틴·엘라그산·퀘르세틴 등 동시 정량)",
+   "part": "잎(방글라데시산, 95% 에탄올 추출물) — 식품원료 사용 부위(열매)는 아님",
+   "content": "카테킨 수화물 99.00, 루틴 수화물 79.20, 엘라그산 59.40, 퀘르세틴 69.30 mg/100 g 건조 추출물[18]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Thermo Scientific Dionex UltiMate 3000 RSLC, DAD-3000RS 검출기, LPG-3400RS 4원 펌프, WPS-3000 자동주입기",
+    "column": "Acclaim C18, 4.6 × 250 mm, 5 µm (Dionex)",
+    "mobile_phase": "A 아세토니트릴, B 아세트산 수용액(pH 3.0), C 메탄올",
+    "gradient": "0분 5%A/95%B → 10분 10%A/80%B/10%C → 20분 20%A/60%B/20%C → 30분 100%A",
+    "flow": "1 mL/min",
+    "temp": "30 °C",
+    "detection": "280 nm(갈산·카테킨·바닐산·카페산·에피카테킨), 320 nm(프로토카테큐산·루틴·엘라그산), 380 nm(퀘르세틴); DAD 200–700 nm",
+    "injection": "20 µL",
+    "sample_prep": "추출물 5 mg/mL 에탄올 용액, 0.20 µm PTFE 여과, 초음파 탈기 15분",
+    "standard": "Sigma-Aldrich 표준품, 100 µg/mL 원액(에탄올)",
+    "linearity": "1.25–20 µg/mL(카페산 0.5–8.0, 퀘르세틴 0.375–6.0 µg/mL), 5단계 검량선",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 추출물에서 가장 많이 정량된 폴리페놀로, 저자들은 이 성분들을 항염·항산화 활성의 근거로 제시함; 전문 확인, 검출·정량한계와 회수율은 본문에 없음[18].",
+   "source": [
+    18
+   ],
+   "url": "https://doi.org/10.1186/s13104-016-2000-z",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Gallic acid",
+   "compound_ko": "갈산(클로로겐산·루틴·퀘르세틴·켐페롤 동시 분석)",
+   "part": "잎(브라질산, 80% 에탄올 속슬렛 추출물; 본문은 수성 추출물로 지칭) — 식품원료 사용 부위(열매)는 아님",
+   "content": "성분별 함량은 그림 1에만 있어 수치 확인 못함; 총페놀 108.2 mg GAE/g, 총플라보노이드 85.55 mg QE/g, 비타민 C 21.07 mg/g 추출물[19]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Shimadzu HPLC(SIL-20A 자동주입기, LC-20AT 펌프, SPD-M20A DAD)",
+    "column": "C18, 4.6 × 250 mm, 5 µm(제조사 표기 없음)",
+    "mobile_phase": "A 2% 아세트산 수용액, B 메탄올",
+    "gradient": "B 5%(0–2분) → 25%(10분) → 40%(20분) → 50%(30분) → 60%(40분) → 70%(50분) → 100%(80분)",
+    "flow": "0.7 mL/min",
+    "temp": "",
+    "detection": "271 nm(갈산), 325 nm(카페산·클로로겐산), 365 nm(퀘르세틴·루틴·켐페롤); DAD 200–500 nm",
+    "injection": "40 µL",
+    "sample_prep": "",
+    "standard": "표준품 머무름 시간·DAD 스펙트럼 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 추출물의 페놀 성분 지문 분석에 쓰인 조건(실제 시료는 우림액이 아니라 80% 에탄올 속슬렛 추출물); 전문 확인, 검량·검출한계·회수율은 본문에 없음[19].",
+   "source": [
+    19
+   ],
+   "url": "https://doi.org/10.3390/molecules18089179",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cardanol",
+   "compound_ko": "카다놀(알킬페놀, 화합물 1·2)",
+   "part": "열매",
+   "content": "알킬페놀 농축 열매 추출물 중 화합물 1 95.9 µg/mg, 화합물 2 198.6 µg/mg[20]",
+   "method": "",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "식품 사용 부위인 열매에서 지질 저하 활성 성분으로 정량된 유일한 개별 성분; 초록만 확인해 분석 방법·조건은 전문 확인 못함[20].",
+   "source": [
+    20
+   ],
+   "url": "https://doi.org/10.1016/j.foodchem.2022.133668",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 로즈애플열매(Syzygium jambos Alston / Eugenia jambos / Jambosa jambos; Rose apple)와 Veli jambu열매(Syzygium jambos), 두 행 모두 대분류 식품원료(A코드), 사용가능, 사용가능부위: 열매; 같은 속의 다른 행(Java apple열매 S. samarangense, 자바플럼열매 S. cumini, 정향나무 S. aromaticum, Malaysian apple열매 S. malaccense, Brush cherry열매 S. paniculatum, Marungi열매 S. caryophyllatum)과 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Syzygium jambos L. Alston: An Insight Into its Phytochemistry, Traditional Uses, and Pharmacological Properties — Front Pharmacol 2022;13:786712 (PMID 35177986, PMC8845460, 전문 확인)",
+   "url": "https://doi.org/10.3389/fphar.2022.786712",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "A Recurrent Epiphytotic of Guava Rust on Rose Apple, Syzygium jambos, in Hawaii — Plant Dis 2009;93(4):429 (PMID 30764239, 초록 확인)",
+   "url": "https://doi.org/10.1094/PDIS-93-4-0429B",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Morton JF. Fruits of Warm Climates (1987), 'Rose Apple' 항목 (WebSearch 요약으로만 확인: 원문 페이지 hort.purdue.edu 는 네트워크 허용 목록 밖이라 열지 못함, 핵심 근거 아님)",
+   "url": "https://hort.purdue.edu/newcrop/morton/rose_apple.html",
+   "publisher": "Purdue University NewCROP(원문 미열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "PROSEA (Plant Resources of South-East Asia) No. 2: Edible fruits and nuts — Syzygium jambos 항목 (WebSearch 요약으로만 확인: prosea.prota4u.org 는 네트워크 허용 목록 밖이라 열지 못함, 핵심 근거 아님)",
+   "url": "https://prosea.prota4u.org/view.aspx?id=1549",
+   "publisher": "PROSEA Foundation(원문 미열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Agroforestree Database — Syzygium jambos 종 정보 (WebSearch 요약으로만 확인: 원문 미열람, 핵심 근거 아님)",
+   "url": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1744",
+   "publisher": "World Agroforestry (ICRAF)(원문 미열람)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Impact of the invasive plant Syzigium jambos (Myrtaceae) on patterns of understory seedling abundance in a Tropical Premontane Forest, Costa Rica — Rev Biol Trop 2006;54(2):415-21 (PMID 18494312, 초록 확인)",
+   "url": "https://doi.org/10.15517/rbt.v54i2.13883",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "The plant communities and environmental gradients of Pitcairn Island: the significance of invasive species and the need for conservation management — Ann Bot 2003;92(1):31-40 (PMID 12824069, 초록 확인)",
+   "url": "https://doi.org/10.1093/aob/mcg106",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Chromosome-scale assemblies of Syzygium malaccense, S. aqueum, S. jambos and S. syzygioides provide insights into the evolution of Syzygium genomes — Front Plant Sci 2023;14:1248780 (PMID 37868305, PMC10587690, 전문 확인)",
+   "url": "https://doi.org/10.3389/fpls.2023.1248780",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Complete chloroplast genome sequence of the rose apple, Syzygium jambos (Myrtaceae) — Mitochondrial DNA B Resour 2020;5(3):3460-3462 (PMID 33458204, 초록 확인)",
+   "url": "https://doi.org/10.1080/23802359.2020.1826000",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Investigating the host-range of the rust fungus Puccinia psidii sensu lato across tribes of the family Myrtaceae present in Australia — PLoS One 2012;7(4):e35434 (PMID 22523596, 초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0035434",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "[Relationships of Syzygium jambos and Dracontomelon duperreanum leaf tannin concentration and leaf litter breakdown with the colonization of benthonic invertebrates] — Ying Yong Sheng Tai Xue Bao 2009;20(10):2493-8 (PMID 20077710, 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20077710/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Antimicrobial activity of bark extracts of Syzygium jambos (L.) Alston (Myrtaceae) — J Ethnopharmacol 2000;71(1-2):307-13 (PMID 10904178, 초록 확인)",
+   "url": "https://doi.org/10.1016/s0378-8741(99)00186-5",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Induction of apoptosis by hydrolyzable tannins from Eugenia jambos L. on human leukemia cells — Cancer Lett 2000;157(1):65-75 (PMID 10893444, 초록 확인)",
+   "url": "https://doi.org/10.1016/s0304-3835(00)00477-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Flavonoid glycosides from Eugenia jambos — Phytochemistry 1994;37(1):255-8 (PMID 7765616, 초록 확인)",
+   "url": "https://doi.org/10.1016/0031-9422(94)85036-4",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Dihydrochalcones with radical scavenging properties from the leaves of Syzygium jambos — Nat Prod Res 2007;21(6):551-4 (PMID 17497426, 초록 확인)",
+   "url": "https://doi.org/10.1080/14786410601132238",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Antidermatophytic triterpenoids from Syzygium jambos (L.) Alston (Myrtaceae) — Phytother Res 2007;21(2):149-52 (PMID 17128435, 초록 확인)",
+   "url": "https://doi.org/10.1002/ptr.2039",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "HPLC profiling, antioxidant and in vivo anti-inflammatory activity of the ethanol extract of Syzygium jambos available in Bangladesh — BMC Res Notes 2016;9:191 (PMID 27021114, PMC4810503, 전문 확인)",
+   "url": "https://doi.org/10.1186/s13104-016-2000-z",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Syzygium jambos and Solanum guaraniticum show similar antioxidant properties but induce different enzymatic activities in the brain of rats — Molecules 2013;18(8):9179-94 (PMID 23912272, PMC6269761, 전문 확인; 개별 성분 함량은 그림에만 있어 수치 확인 못함)",
+   "url": "https://doi.org/10.3390/molecules18089179",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Discovery, preparation and characterization of lipid-lowering alkylphenol derivatives from Syzygium jambos fruit — Food Chem 2022;396:133668 (PMID 35849981, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.133668",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Identification of Novel α-Glucosidase Inhibitors from Syzygium jambos (L.) Using Spectroscopy and Molecular Docking — Plant Foods Hum Nutr 2024;79(1):73-82 (PMID 38006459, 초록만 확인)",
+   "url": "https://doi.org/10.1007/s11130-023-01123-0",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Structural features of polysaccharides from edible jambo (Syzygium jambos) fruits and antitumor activity of extracted pectins — Int J Biol Macromol 2018;118(Pt B):1414-1421 (PMID 30170360, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2018.06.164",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "RSM-Optimized Extraction and Evaluation of Bioactivities of Polyphenols From Syzygium jambos (L.) Alston Fruits — Chem Biodivers 2025;22(11):e00594 (PMID 40690507, 초록 확인)",
+   "url": "https://doi.org/10.1002/cbdv.202500594",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Effect of tea prepared from leaves of Syzygium jambos on glucose tolerance in nondiabetic subjects — Diabetes Care 1990;13(8):907-8 (PMID 2209336, 서신 형식, 초록 없음; 무작위 대조 시험 분류는 PubMed 서지 정보로 확인)",
+   "url": "https://doi.org/10.2337/diacare.13.8.907",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "The efficacy of herbal medicines in clinical models: the case of jambolan — J Ethnopharmacol 2006;108(1):16-9 (PMID 16963214, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2006.07.032",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Bioactivity of Syzygium jambos methanolic extracts: Antibacterial activity and toxicity — Pharmacognosy Res 2010;2(1):4-9 (PMID 21808530, PMC3140127, 초록 확인)",
+   "url": "https://doi.org/10.4103/0974-8490.60577",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Anti-inflammatory activity of leaf extracts of Eugenia jambos in rats — J Ethnopharmacol 1994;43(1):9-11 (PMID 7967652, 초록 확인)",
+   "url": "https://doi.org/10.1016/0378-8741(94)90110-4",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Syzygium cumini (L.) Skeels: a review of its phytochemical constituents and traditional uses — Asian Pac J Trop Biomed 2012;2(3):240-6 (PMID 23569906, 초록 확인; 자바플럼(S. cumini) 자료로, 로즈애플 자료가 아님을 대조하기 위해서만 인용)",
+   "url": "https://doi.org/10.1016/S2221-1691(12)60050-1",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Major Bioactive Compounds from Java Plum Seeds: An Investigation of Its Extraction Procedures and Clinical Effects — Plants (Basel) 2023;12(6):1214 (PMID 36986906, 초록 확인; S. cumini 씨앗 자료로 대조용)",
+   "url": "https://doi.org/10.3390/plants12061214",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Identification of allergens in Artocarpus heterophyllus, Moringa oleifera, Trianthema portulacastrum and Syzygium samarangense — Clin Mol Allergy 2023;21(1):6 (PMID 37568224, 초록 확인; 'rose apple'로 불린 S. samarangense 자료로 대조용)",
+   "url": "https://doi.org/10.1186/s12948-023-00187-2",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Pentacyclic triterpenoids with cytotoxic activity from the stems of Syzygium jambos (L.) Alston — Fitoterapia 2024;181:106346 (PMID 39672211, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.fitote.2024.106346",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Syzygium jambos extract mitigates pancreatic oxidative stress, inflammation and apoptosis and modulates hepatic IRS-2/AKT/GLUT4 signaling pathway in streptozotocin-induced diabetic rats — Biomed Pharmacother 2021;142:112085 (PMID 34463263, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.biopha.2021.112085",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

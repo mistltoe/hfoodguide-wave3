@@ -1,0 +1,628 @@
+{
+ "slug": "terminalia-ferdinandiana",
+ "name_ko": "카카두플럼",
+ "name_en": "Kakadu plum",
+ "scientific_name": "Terminalia ferdinandiana Exell",
+ "aliases": [
+  "카카두플럼열매",
+  "카카두플럼분말",
+  "Kakadu plum",
+  "gubinge",
+  "billy goat plum",
+  "salty plum"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "카카두플럼(Terminalia ferdinandiana Exell)은 사군자과(Combretaceae) 테르미날리아속에 속하는 오스트레일리아 고유 나무로, 현지에서는 gubinge·billy goat plum·salty plum으로도 불린다[3, 8]. 식약처 「식품원료 목록」에는 '카카두플럼열매'와 '카카두플럼분말' 두 행이 학명 Terminalia ferdinandiana, 영어명 Kakadu plum으로 올라 있다[1]. 두 행 모두 식품에 쓸 수 있는 원료(사용가능)이고 사용 조건은 '사용가능부위 : 열매'여서 열매 밖의 부위(잎·씨 등)는 이 목록의 사용 가능 부위에 들지 않는다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매가 주목받는 까닭은 비타민 C인데, '식물 가운데 가장 많다'는 표현이 흔하지만 실제 측정값은 시료·지역·나무와 기준(생과·건조)에 따라 크게 다르다[3, 4, 7]. 동결건조 열매 분말의 총 비타민 C는 21.1 g/100 g DW였고, 서호주 열매는 나무마다 25.20–131.50 mg/g DW(생과 기준 3.80–19.73 mg/g FW)로 달랐다[6, 7]. 열매에는 엘라그산과 함께 코릴라긴 같은 가수분해 탄닌도 많다[8, 10]. 한편 열매는 옥살산이 많은 고옥살산 식품으로 분류되어, 그 근거를 안전성 절에 따로 정리했다[5, 6]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "열매와 씨는 오스트레일리아 원주민의 식생활과 약용에 쓰여 왔고, 열매를 그대로 먹거나 음료·젤리·검으로 만들어 먹었다고 정리되어 있다[3]. 원주민 공동체가 이 열매를 전통 식품이나 민간 약으로 써 왔다는 기록도 있다[8]. 1982년 『Lancet』에 'An outstanding food source of vitamin C(뛰어난 비타민 C 식품 공급원)'라는 서한이 실렸으나, 초록이 없어 본문 수치는 확인하지 못함[2].\n\n이후 열매의 비타민 C가 생과 무게의 3.5–5.5%로 오렌지·자몽·라임(약 0.5%)보다 훨씬 많다는 보고가 널리 인용되었고, 열매의 주된 쓰임은 건강식품·화장품·의약 산업용 비타민 C 원료였다[3]. 열매의 기능성 연구가 늘면서 기능성 식품 원료·화장품·건강보조 시장에서 인기를 얻었다[8]. 이 열매는 전통적으로 사람이 기르지 않은 야생 나무에서 채취해 왔으며, 연구용 시료도 정부 허가와 전통 소유자의 승낙을 받아 야생 나무에서 거두었다[8]. 국내 도입 시기와 식품원료 등재 연혁은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "카카두플럼은 작거나 중간 크기의 반낙엽성 나무로, 노던 준주·퀸즐랜드·서호주 북서부의 열대 초지에 주로 자란다[3]. 북부 오스트레일리아 열대 사바나 나무 8종의 광합성을 비교한 연구에서는 이 종을 건기에 몇 달 동안 잎이 없는 낙엽성 나무로 분류했다[19]. 꽃은 건기 끝(9–11월)에 피고, 열매는 지역에 따라 우기 중반(1월)부터 건기 초(6월)까지 맺힌다[3]. 열매는 껍질이 매끈한 황록색 핵과로, 길이 약 1.5–2 cm의 달걀꼴이며 끝에 짧은 부리가 있다[3, 8].\n\n노던 준주 야생 나무 6그루의 열매를 차오름 정도(fullness)로 네 단계로 나눠 보니, 익을수록 가용성 고형분이 2.0%에서 4.1%로, 적정산도가 2.8%에서 4.8%로 올랐으나 나무 사이 변이가 커서 단계 간 차이는 통계적으로 유의하지 않았다[8]. 같은 연구에서 총당은 4.9에서 9.7 g/100 g DW로 늘었고 주된 당은 과당이었다[8]. 반대로 체불라그산·제라닌·푸니칼라긴 같은 가수분해 탄닌은 익을수록 줄었다[8]. 씨 속 알맹이(인)는 건조 기준 지방 35%, 단백질 32%로 이루어져 있으나 식품원료 목록이 허용한 부위는 열매뿐이다[1, 13]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "테르미날리아속에는 열대 여러 나라에 약 250종이 있고, 그 가운데 28종 또는 아종이 오스트레일리아에 자란다[3]. 이름에 '플럼'이 붙었지만 카카두플럼은 사군자과 테르미날리아속 식물이다[3]. 오스트레일리아 테르미날리아 5종(T. ferdinandiana, T. carpenteriae, T. grandiflora, T. petiolares, T. catappa)의 잎 추출물을 비교한 연구에서는 모두 갈산·체불산 같은 단순 갈로탄닌과 루테올린을 비교적 많이 담고 있었다[20].\n\n아시아의 가자(T. chebula)와 T. bellirica의 말린 열매는 아유르베다와 태국 민간의학의 처방 트리팔라의 주재료이며, 태국 연구진은 ITS 염기서열 차이로 이들 약재를 구별하는 방법을 만들었다[21]. 식약처 「식품원료 목록」에서 가자(Terminalia chebula)·벨레릭미로발란(Terminalia belerica)·Arjuna Myrobalan(Terminalia arjuna)은 사용불가로 올라 있어, 같은 속이라도 식품원료 지위가 카카두플럼과 다르다[1]. 다만 가자 추출물은 건강기능식품 개별인정형 원료(기능성원료인정 제2022-12호, 복합물 제2021-9호의 원료)로 목록에 따로 올라 있다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "카카두플럼 열매는 주로 사람이 가꾸지 않은 야생 서식지의 나무에서 채취하며, 한 연구는 노던 준주 다윈 쪽 Thamarrurr 지역의 나무 6그루에서 그루당 약 5 kg씩 거두었다[8]. 서호주 킴벌리 지역의 Karajarri·Yawuru 두 곳에서 곳마다 나무 10그루를 골라 그루당 열매 50–100개를 거두고 노던 준주 다윈 열매와 비교한 연구도 있다[7]. 야생 채취라 품질 변이가 커서, 같은 곳의 나무끼리도 비타민 C·엘라그산·가수분해 탄닌 함량이 크게 달랐다[7, 8].\n\n노던 준주 등에서 새로 모은 45개 계통 가운데 6개 계통이 총페놀 376.1–505.2 mg GAE/g DW, 비타민 C 173.5–322.2 mg/g DW로 우수한 무리로 묶였다[4]. 서호주 열매는 노던 준주 열매보다 총당(16.3 g/100 g DW 대 5.2 g/100 g DW)이 높았다[7]. 수확 시기는 열매의 차오름 정도로 정하며, 연구진은 총당을 보조 성숙 지표로 제안했다[8]. 킴벌리산 열매에서는 휴대용 근적외선 분광기로 비타민 C가 높은 열매와 낮은 열매를 빠르게 가려내는 방법이 시험되었다[22]. 국내 재배 사례와 생산 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "열매는 가공 공장에서 씨 없는 퓨레로 만들어지고 씨는 부산물로 남으며, 연구진은 이 퓨레를 동결건조·분쇄해 분말 시료로 썼다[6, 13]. 시중에는 주스·소스·잼·유청 제품과 정제·액상 보충제, 동결건조 분말 등이 나와 있다고 보고되었다[6]. 비타민 C는 이 열매의 품질을 결정하는 주성분으로, 분말 품질 지표로 쓰인다[12, 24].\n\n동결건조는 오븐건조보다 비타민 C를 잘 지켰고, 말토덱스트린 10–15%를 넣으면 비타민 C 손실이 동결건조에서 8.1%→3.4%, 오븐건조에서 18.9%→11.4%로 줄었다[12]. 어느 분말 시료는 L-아스코르브산 12.05 g/100 g DW, 데히드로아스코르브산 0.5 g/100 g DW였고, 이 분말을 0.2–0.8% 넣은 쇠고기 패티는 냉장 저장 중 지질 산화가 늦어졌다[11]. 퓨레와 동결건조 분말에서 시트르산으로 뽑은 펙틴은 수율 4.8–21%의 저메톡실 펙틴이었다[18]. 다른 식물 원료와 섞은 블렌드 제품은 카카두플럼 분말보다 항산화·항균 활성과 세포독성이 낮았다[23]. 국내 식품 등의 생산실적에서 이 원료의 제품 통계는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "카카두플럼의 핵 게놈 크기·염색체 수·엽록체 게놈 해독 결과는 PubMed에서 확인하지 못함. 대신 개체·계통 사이 성분 변이 연구가 많아, 45개 계통의 페놀·비타민 C·당 조성을 주성분분석과 계층군집으로 세 무리로 나누었다[4]. 같은 연구에서 엘라그산은 계통에 따라 30.5–140.2 mg/g DW로 달랐고, 연구진은 이런 변이가 용도에 맞는 원료 선발의 기회가 된다고 보았다[4].\n\n특정 나무의 열매·잎을 측정해 엘라그산을 많이 만들거나 옥살산이 적은 개체를 찾아낼 수 있었다[5]. 성숙 단계 연구의 주성분분석에서도 첫 주성분(44.13%)은 성숙도보다 나무 사이 차이를 갈랐다[8]. 서호주 연구는 비타민 C·총페놀·엘라그산을 우량 나무 선발의 핵심 변수로 제안했다[7]. 같은 속 약용 종에서는 ITS 염기서열이 종 판별에 쓰였지만, 카카두플럼에 대한 같은 분석은 확인하지 못함[21]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록은 이 종의 열매만 식품원료로 허용한다[1]. 열매와 잎을 분석한 연구는 열매를 고옥살산 범주(high-Oxalate category)로 분류하고, 민감한 사람의 소변 옥살산을 높일 수 있어 열매 제품 섭취를 잘 살펴야 한다고 했다[5]. 다른 연구에서 동결건조 열매의 총 옥살산은 1,420 ± 105 mg/100 g DW, 수용성 옥살산은 1,120 ± 141 mg/100 g DW(총량의 79%)였고, 앞선 보고의 열매 값은 2,717 mg/100 g DW였으며, 이 연구는 50 mg/100 g DW를 넘으면 고옥살산 식품으로 본다는 기준을 인용했다[6]. 연구진은 하루 1 g 분말이 총 옥살산 14.2 mg으로 신장결석 환자 권고(하루 40–50 mg 미만)보다 적다고 계산하면서도, 결석 환자와 신장질환 위험군은 주의하라고 했다[6]. 비타민 C도 몸에서 옥살산으로 바뀔 수 있다는 점이 함께 지적되었다[5, 6]. 시험관 소화 모델에서 옥살산의 생체접근률은 위 단계 72%에서 소장 단계 98%로 늘었다[9].\n\n열매의 비소·카드뮴·수은·납은 모두 0.01 mg/100 g DW 미만이었다[6]. 세포 실험에서 열매·씨 추출물의 사람 장·간 유래 세포 IC50은 3,650–14,400 µg/mL였고, 제브라피시 배아 시험에서 열매 추출물의 LC50은 480 mg/L를 넘었으나, 이는 세포·배아 모델 결과로 사람에서의 안전성을 직접 보여 주지는 않으며 연구진도 후속 안전성 연구의 기초 자료로 제시했다[14, 15]. 공공기관의 알레르기·잔류 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "비타민 C(L-아스코르브산)",
+   "class": "비타민",
+   "role": "marker",
+   "part": "열매(과육·껍질)",
+   "content_text": "동결건조 열매 AA 16.4 ± 0.7 g/100 g DW, 총 비타민 C 21.1 ± 2.2 g/100 g DW[6]; 서호주 나무별 총 비타민 C 25.20 ± 0.16–131.50 ± 0.20 mg/g DW(생과 3.80–19.73 mg/g FW)[7]; 노던 준주 우수 6계통 173.5–322.2 mg/g DW[4]; 생과 무게의 3.5–5.5%로 인용[3]",
+   "activity_ko": "열매 품질을 결정하는 주성분, 항산화[24]; 대사 산물로 옥살산이 생길 수 있음[5, 6]",
+   "source": [
+    3,
+    4,
+    6,
+    7,
+    24
+   ]
+  },
+  {
+   "name": "Dehydroascorbic acid",
+   "name_ko": "데히드로아스코르브산",
+   "class": "비타민(산화형)",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "동결건조 열매 4.7 ± 2.8 g/100 g DW[6]; 시판 분말 0.5 g/100 g DW[11]",
+   "activity_ko": "아스코르브산과 같은 비타민 활성으로 총 비타민 C에 합산[6]",
+   "source": [
+    6,
+    11
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산",
+   "class": "페놀산(엘라기탄닌 가수분해물)",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "서호주 열매 유리 엘라그산 23.2 ± 1.7 mg/g DW, 총 엘라그산 최고 790·833 mg/100 g FW[7]; 45계통 30.5–140.2 mg/g DW[4]; 성숙 단계별 648–730 mg/100 g DW[8]; 분말 추출물 약 4 g/100 g DW[10]",
+   "activity_ko": "DPPH 소거능과 총 엘라그산의 상관(r = 0.82, 0.73)[7]",
+   "source": [
+    4,
+    7,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "Oxalic acid",
+   "name_ko": "옥살산",
+   "class": "유기산(항영양 인자)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "동결건조 열매 총 옥살산 1,420 ± 105 mg/100 g DW, 수용성 1,120 ± 141 mg/100 g DW(79%); 잎 1,133, 씨껍질 327 mg/100 g DW; 앞선 보고 열매 2,717 mg/100 g DW[6]; 열매는 고옥살산 범주[5]",
+   "activity_ko": "칼슘 흡수 방해, 신장결석 위험 인자; 소장 단계 생체접근률 98%[5, 6, 9]",
+   "source": [
+    5,
+    6,
+    9
+   ]
+  },
+  {
+   "name": "Corilagin",
+   "name_ko": "코릴라긴",
+   "class": "엘라기탄닌",
+   "role": "marker",
+   "part": "열매 과육",
+   "content_text": "약 1,600–1,800 mg/100 g DW(측정 성분 중 최고)[8]; 대장 발효 모델에서도 생성 확인[16]",
+   "activity_ko": "열매에서 가장 많은 가수분해 탄닌[8]",
+   "source": [
+    8,
+    16
+   ]
+  },
+  {
+   "name": "3,4,6-Tri-O-galloyl-beta-D-glucose",
+   "name_ko": "3,4,6-트라이-O-갈로일-β-D-글루코스",
+   "class": "갈로탄닌",
+   "role": "bioactive",
+   "part": "열매 과육",
+   "content_text": "1,046–1,380 mg/100 g DW[8]; 분말에서 확인[10]",
+   "activity_ko": "총페놀과 양의 상관(r = 0.55)[8]",
+   "source": [
+    8,
+    10
+   ]
+  },
+  {
+   "name": "Chebulagic acid",
+   "name_ko": "체불라그산",
+   "class": "엘라기탄닌",
+   "role": "bioactive",
+   "part": "열매 과육",
+   "content_text": "143–246 mg/100 g DW, 익을수록 감소[8]",
+   "activity_ko": "열매 탄닌 성분; 대장 발효 산물에서도 확인[16]",
+   "source": [
+    8,
+    16
+   ]
+  },
+  {
+   "name": "Punicalagin",
+   "name_ko": "푸니칼라긴",
+   "class": "엘라기탄닌",
+   "role": "bioactive",
+   "part": "열매 과육",
+   "content_text": "이성질체 포함 145–172 mg/100 g DW[8]; 분말 추출물 2.8·1.3 mg/g DW(용매별)[10]",
+   "activity_ko": "분말 추출물에서 확인된 엘라기탄닌; 항산화·항균(MRSA 등) 활성은 추출물 전체 결과[10]",
+   "source": [
+    8,
+    10
+   ]
+  },
+  {
+   "name": "Geraniin",
+   "name_ko": "제라닌",
+   "class": "엘라기탄닌",
+   "role": "bioactive",
+   "part": "열매 과육",
+   "content_text": "111–363 mg/100 g DW, 익을수록 감소[8]",
+   "activity_ko": "성숙도 구분(주성분 2)에 기여[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "분말 추출물 2.5·2.2 mg/g DW(용매별)[10]; 성숙 단계에서 100 mg/100 g DW 미만, 익을수록 감소[8]",
+   "activity_ko": "항산화 활성이 보고된 페놀산(항암 활성은 세포 실험 수준의 보고)[3]",
+   "source": [
+    3,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "Terminalagin",
+   "name_ko": "테르미날라긴",
+   "class": "엘라기탄닌(신규)",
+   "role": "bioactive",
+   "part": "열매 주스",
+   "content_text": "주스에서 활성 추적 분리(함량 미기재)[17]",
+   "activity_ko": "코릴라긴 하부구조와 드문 2,4-(S)-HHDP 에스터를 가진 새 엘라기탄닌[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Phytic acid",
+   "name_ko": "피트산",
+   "class": "이노시톨 인산(항영양 인자)",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 37.6 mg/100 g DW, 잎 121.72, 씨껍질 8.44 mg/100 g DW(비색법, 과대평가 가능성 언급)[6]",
+   "activity_ko": "피트산:칼슘 몰비 0.01로 칼슘 이용 저해는 낮다고 평가[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Calcium",
+   "name_ko": "칼슘",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "295 ± 0.6 mg/100 g DW; 옥살산:칼슘 몰비 1.51[6]",
+   "activity_ko": "옥살산과 결합해 흡수가 줄 수 있음; 소장 단계 생체접근률 90%[6, 9]",
+   "source": [
+    6,
+    9
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "씨 알맹이(식품원료 허용 부위 아님)",
+   "content_text": "알맹이 지방산의 50.2%(올레산 29.3%, 팔미트산 12.0%)[13]",
+   "activity_ko": "가공 부산물인 씨 알맹이의 주 지방산[13]",
+   "source": [
+    13
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "동결건조 열매 분말(씨 제거 퓨레)",
+   "basis": "동결건조 열매 분말 그대로(수분 6.0% 포함; 일반성분 %, 에너지 kJ/100 g), 무기질은 mg/100 g DW",
+   "items": [
+    {
+     "name": "단백질",
+     "value": 4.7,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 0.9,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 5.5,
+     "unit": "%"
+    },
+    {
+     "name": "수분",
+     "value": 6.0,
+     "unit": "%"
+    },
+    {
+     "name": "총 식이섬유",
+     "value": 45.9,
+     "unit": "%"
+    },
+    {
+     "name": "에너지",
+     "value": 1110,
+     "unit": "kJ/100 g"
+    },
+    {
+     "name": "총당",
+     "value": 2.3,
+     "unit": "g/100 g"
+    },
+    {
+     "name": "이용 가능 탄수화물",
+     "value": 37.0,
+     "unit": "%"
+    },
+    {
+     "name": "칼슘",
+     "value": 295,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "칼륨",
+     "value": 2718,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "마그네슘",
+     "value": 204,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "나트륨",
+     "value": 212,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "인",
+     "value": 73,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "철",
+     "value": 1.7,
+     "unit": "mg/100 g DW"
+    },
+    {
+     "name": "아연",
+     "value": 2.2,
+     "unit": "mg/100 g DW"
+    }
+   ],
+   "source": [
+    6
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Ascorbic acid",
+   "compound_ko": "비타민 C(아스코르브산·데히드로아스코르브산)",
+   "part": "열매(동결건조 분말)",
+   "content": "AA 16.4 ± 0.7, DHAA 4.7 ± 2.8, 총 비타민 C 21.1 ± 2.2 g/100 g DW[6]",
+   "method": "UPLC-PDA",
+   "conditions": {
+    "instrument": "Waters Acquity UPLC, PDA 검출기(Empower 소프트웨어)",
+    "column": "Waters Acquity HSS T3, 100 × 2.1 mm, 1.8 µm",
+    "mobile_phase": "0.1% (v/v) 포름산 수용액",
+    "gradient": "등용매",
+    "flow": "250 µL/min",
+    "temp": "실온",
+    "detection": "245 nm",
+    "injection": "2 µL",
+    "sample_prep": "분말 0.5 g + 3% 메타인산·8% 아세트산·1 mM EDTA 5 mL, 10,000 rpm 10분(2–4 °C) 원심, 3회 추출 합침 → AA: 0.5 M Trizma 완충액·포름산 혼합 후 희석; 총량: 40 mM DTT(Trizma 완충액)로 30분 환원, DHAA = 총량 − AA; 갈색 용기·저온·차광",
+    "standard": "L-아스코르브산(외부 검량선, 매일 새로 조제)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "비타민 C는 이 열매의 품질을 결정하는 주성분이고 가공·저장 중 쉽게 분해되므로 AA와 DHAA를 함께 재는 총 비타민 C가 품질 지표로 쓰임; 전문 확인, 직선성·검출한계·회수율은 원문에 없음[6, 24].",
+   "source": [
+    6,
+    24
+   ],
+   "url": "https://doi.org/10.3389/fnut.2020.598219",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Oxalic acid",
+   "compound_ko": "옥살산(총·수용성 옥살산)",
+   "part": "열매(동결건조 분말)",
+   "content": "총 옥살산 1,420 ± 105 mg/100 g DW, 수용성 1,120 ± 141 mg/100 g DW[6]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Phenomenex HPLC, Gilson UV/VIS 151 다파장 검출기",
+    "column": "Phenomenex Synergi 4 µm Hydro-RP 80A, 250 × 4.60 mm",
+    "mobile_phase": "20 mM 인산완충액(pH 2.4)",
+    "gradient": "등용매",
+    "flow": "0.5 mL/min",
+    "temp": "",
+    "detection": "210 nm",
+    "injection": "20 µL",
+    "sample_prep": "선행 방법에 따라 총·수용성 옥살산 추출, 염산으로 옥살산염을 옥살산으로 전환",
+    "standard": "옥살산나트륨 1·2·3·4·8%(20 mM 인산완충액 pH 2.4) 외부 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매가 고옥살산 식품으로 분류되어 신장결석 위험 평가의 핵심 성분임; 전문 확인, 추출 세부 조건·검출한계·회수율은 원문(선행 문헌 인용)에 없음[5, 6].",
+   "source": [
+    5,
+    6
+   ],
+   "url": "https://doi.org/10.3389/fnut.2020.598219",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ellagic acid",
+   "compound_ko": "엘라그산(유리·총)",
+   "part": "열매(씨 뺀 과육·껍질, 동결건조 분말)",
+   "content": "유리 엘라그산 23.2 ± 1.7 mg/g DW(서호주), 총 엘라그산 최고 790·833 mg/100 g FW[7]",
+   "method": "UHPLC-PDA",
+   "conditions": {
+    "instrument": "Waters UHPLC-PDA",
+    "column": "Waters BEH Shield RP C18, 100 × 2.1 mm, 1.7 µm",
+    "mobile_phase": "A 0.1% 포름산 수용액, B 0.1% 포름산 메탄올",
+    "gradient": "B 35% 5분 등용매 → 10분까지 50% → 15분까지 100%, 7분 재평형",
+    "flow": "0.3 mL/min",
+    "temp": "35 °C",
+    "detection": "254 nm",
+    "injection": "2 µL",
+    "sample_prep": "분말 0.1 g + 산성 에탄올(80% 에탄올·20% 물·0.2% HCl), 와류·초음파 15분·4,000 rpm 15분(20 °C) 원심, 3회 추출 합침",
+    "standard": "엘라그산 외부 검량선(Sigma-Aldrich, 순도 > 99%)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "엘라그산은 열매의 대표 비영양 기능 성분이며 DPPH 소거능·항균 활성과 상관이 있어 비타민 C와 함께 우량 나무 선발 변수로 제안됨; 전문 확인, 직선성·검출한계·회수율은 원문에 없음[7].",
+   "source": [
+    7
+   ],
+   "url": "https://doi.org/10.3390/foods13182888",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Corilagin",
+   "compound_ko": "코릴라긴(가수분해 탄닌 13종 동시 분석)",
+   "part": "열매 과육(동결건조 분말, 노던 준주 야생)",
+   "content": "약 1,600–1,800 mg/100 g DW; 3,4,6-트라이-O-갈로일-β-D-글루코스 1,046–1,380, 엘라그산 648–730 mg/100 g DW[8]",
+   "method": "UHPLC-HRAM-MS/MS(Orbitrap, PRM)",
+   "conditions": {
+    "instrument": "Thermo Q Exactive + DIONEX Ultimate 3000 UHPLC(Trace Finder 5.1)",
+    "column": "Waters HSS T3, 150 × 2.1 mm, 1.8 µm",
+    "mobile_phase": "A 0.1% 포름산, B 0.1% 포름산 아세토니트릴",
+    "gradient": "0–1분 5% B; 1–8분 5–20%; 8–15분 20–45%; 15–22분 45–100%; 100% 2분 유지; 5% 재평형 5분",
+    "flow": "0.3 mL/min",
+    "temp": "40 °C",
+    "detection": "음이온 ESI, PRM, 분해능 35,000 FWHM, AGC 2e5, 최대 주입시간 200 ms, NCE 25–35 eV",
+    "injection": "",
+    "sample_prep": "분말 약 0.5 g + 80% 메탄올(0.01 N HCl), 초음파 15분·진탕 15분·3,900 rpm 10분 원심, 3회 추출 합침, 0.2 µm PTFE 여과",
+    "standard": "갈산·엘라그산·코릴라긴·3,4,6-트라이-O-갈로일-β-D-글루코스·카스탈라긴·푸니칼라긴 혼합 표준(외부 검량선)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "코릴라긴은 열매에서 가장 많은 가수분해 탄닌이고 탄닌류가 열매 항산화능과 상관을 보여 탄닌 프로파일의 지표가 됨; 전문 확인, 주입량·검출한계·회수율은 원문에 없음[8].",
+   "source": [
+    8
+   ],
+   "url": "https://doi.org/10.3389/fnut.2022.961679",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 카카두플럼열매·카카두플럼분말(Terminalia ferdinandiana; Kakadu plum), 사용가능, 사용가능부위: 열매; 같은 속 가자(Terminalia chebula)·벨레릭미로발란(Terminalia belerica)·Arjuna Myrobalan(Terminalia arjuna) 사용불가 행과 가자추출물 개별인정 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "An outstanding food source of vitamin C — Lancet 1982;2(8303):873 (서한) (PMID 6126729, 초록 없음·서지만 확인)",
+   "url": "https://doi.org/10.1016/s0140-6736(82)90832-7",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "The chemotherapeutic potential of Terminalia ferdinandiana: Phytochemistry and bioactivity — Pharmacogn Rev 2012;6(11):29-36 (PMID 22654402, PMC3358965, 전문 확인)",
+   "url": "https://doi.org/10.4103/0973-7847.95855",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Phytochemical divergence in 45 accessions of Terminalia ferdinandiana (Kakadu plum) — Food Chem 2014;151:248-256 (PMID 24423529, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2013.11.049",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Organic acids in Kakadu plum (Terminalia ferdinandiana): The good (ellagic), the bad (oxalic) and the uncertain (ascorbic) — Food Res Int 2016;89(Pt 1):237-244 (PMID 28460910, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2016.08.004",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Interactions Between Phytochemicals and Minerals in Terminalia ferdinandiana and Implications for Mineral Bioavailability — Front Nutr 2020;7:598219 (PMID 33425972, PMC7793935, 전문 확인)",
+   "url": "https://doi.org/10.3389/fnut.2020.598219",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Nutritional and Functional Properties of Terminalia ferdinandiana Fruits Wild Harvested from Western Australia — Foods 2024;13(18):2888 (PMID 39335818, PMC11431513, 전문 확인)",
+   "url": "https://doi.org/10.3390/foods13182888",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Hydrolysable tannins, physicochemical properties, and antioxidant property of wild-harvested Terminalia ferdinandiana (exell) fruit at different maturity stages — Front Nutr 2022;9:961679 (PMID 35967775, PMC9372433, 전문 확인)",
+   "url": "https://doi.org/10.3389/fnut.2022.961679",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Bioaccessibility and Intestinal Absorption of Selected Bioactive Compounds in Terminalia ferdinandiana — Front Nutr 2022;8:818195 (PMID 35155530, PMC8828953, 초록 확인)",
+   "url": "https://doi.org/10.3389/fnut.2021.818195",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Hydrolysable tannins in Terminalia ferdinandiana Exell fruit powder and comparison of their functional properties from different solvent extracts — Food Chem 2021;358:129833 (PMID 33933967, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2021.129833",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Kakadu plum (Terminalia ferdinandiana) bioactivity against spoilage microorganisms and oxidative reactions in refrigerated raw beef patties under modified atmosphere packaging — Meat Sci 2023;204:109268 (PMID 37379705, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.meatsci.2023.109268",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Effects of drying methods and maltodextrin on vitamin C and quality of Terminalia ferdinandiana fruit powder, an emerging Australian functional food ingredient — J Sci Food Agric 2021;101(12):5132-5141 (PMID 33608906, 초록 확인)",
+   "url": "https://doi.org/10.1002/jsfa.11159",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Chemical and Nutritional Composition of Terminalia ferdinandiana (Kakadu Plum) Kernels: A Novel Nutrition Source — Foods 2018;7(4):60 (PMID 29649154, PMC5920425, 초록 확인)",
+   "url": "https://doi.org/10.3390/foods7040060",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Impact of polyphenol-rich extracts of Terminalia ferdinandiana fruits and seeds on viability of human intestinal and liver cells — Food Chem (Oxf) 2021;2:100024 (PMID 35415635, PMC8991618, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.fochms.2021.100024",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Phytochemicals, Antioxidant Activities, and Toxicological Screening of Native Australian Fruits Using Zebrafish Embryonic Model — Foods 2022;11(24):4038 (PMID 36553779, PMC9777714, 초록 확인)",
+   "url": "https://doi.org/10.3390/foods11244038",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "In-vitro colonic fermentation of Kakadu plum (Terminalia ferdinandiana) fruit powder: Microbial biotransformation of phenolic compounds and cytotoxicity — Food Chem 2024;448:139057 (PMID 38555694, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2024.139057",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Terminalagin, a New Ellagitannin from Kakadu Plum (Terminalia ferdinandiana) — Chem Pharm Bull (Tokyo) 2025;73(12):1117-1121 (PMID 41391874, 초록 확인)",
+   "url": "https://doi.org/10.1248/cpb.c25-00402",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Extraction and characterization of a novel Kakadu plum (Terminalia ferdinandiana) pectin — Food Sci Biotechnol 2017;27(1):65-71 (PMID 30263725, PMC6049763, 초록 확인)",
+   "url": "https://doi.org/10.1007/s10068-017-0201-4",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Seasonal changes in photosynthesis of eight savanna tree species — Tree Physiol 1999;19(10):665-671 (PMID 12651322, 초록 확인)",
+   "url": "https://doi.org/10.1093/treephys/19.10.665",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Comparison of the antibacterial activity of Australian Terminalia spp. extracts against Klebsiella pneumoniae: a potential treatment for ankylosing spondylitis — Inflammopharmacology 2022;30(1):207-223 (PMID 34989930, 초록 확인)",
+   "url": "https://doi.org/10.1007/s10787-021-00914-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Molecular Analysis of Terminalia spp. Distributed in Thailand and Authentication of Crude Drugs from Terminalia Plants — Biol Pharm Bull 2016;39(4):492-501 (PMID 27040622, 초록 확인)",
+   "url": "https://doi.org/10.1248/bpb.b15-00673",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "The Use of a Micro Near Infrared Portable Instrument to Predict Bioactive Compounds in a Wild Harvested Fruit-Kakadu Plum (Terminalia ferdinandiana) — Sensors (Basel) 2021;21(4):1413 (PMID 33670523, PMC7922708, 초록 확인)",
+   "url": "https://doi.org/10.3390/s21041413",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Bioactive Properties of Kakadu Plum-Blended Products — Molecules 2023;28(6):2828 (PMID 36985798, PMC10056586, 초록 확인)",
+   "url": "https://doi.org/10.3390/molecules28062828",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "The use of vibrational spectroscopy to predict vitamin C in Kakadu plum powders (Terminalia ferdinandiana Exell, Combretaceae) — J Sci Food Agric 2021;101(8):3208-3213 (PMID 33215708, 초록 확인)",
+   "url": "https://doi.org/10.1002/jsfa.10950",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

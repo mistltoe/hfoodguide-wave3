@@ -1,0 +1,636 @@
+{
+ "slug": "mentha-aquatica",
+ "name_ko": "베르가모트민트",
+ "name_en": "Bergamot mint; Water mint",
+ "scientific_name": "Mentha aquatica L. / Mentha citrata Ehrh.",
+ "aliases": [
+  "워터민트",
+  "베르가못민트",
+  "베르가모트민트잎",
+  "베르가모트민트오일",
+  "Eau de Cologne mint",
+  "water mint",
+  "Mentha hirsuta Huds.",
+  "Mentha × piperita f. citrata"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "식품의약품안전처 「식품원료 목록」에서 '베르가모트민트'는 학명 Mentha aquatica L. / Mentha citrata J. F. Ehrh.로 함께 적혀 있고, 영문명은 Bergamot mint·Eau de Cologne mint, 이명은 워터민트·베르가못민트로 올라 있다[1]. 원료명은 베르가모트민트오일과 베르가모트민트잎 두 가지이며, 둘 다 '사용가능'이고 사용 조건은 '사용가능부위 : 잎'이다[1]. 건강기능식품 고시형 원료의 원재료로 쓰인다는 기록은 목록 자료에서 확인하지 못함.\n\n한 항목에 묶인 두 학명은 성격이 다르다[1][2]. 워터민트(M. aquatica)는 물가에 사는 야생 박하로 정유의 주성분이 흔히 메노푸란이고, 베르가모트민트(M. citrata)는 리날로올과 리날릴 아세테이트가 정유의 대부분을 차지하는 재배형이다[2][11]. M. citrata는 논문에 따라 Mentha × piperita var. citrata, nothosubsp. citrata, f. citrata로도 적혀, 서양박하(M. × piperita) 쪽 분류군으로 다뤄지기도 한다[3][4][5]. 이 글은 목록이 이 종에 붙인 두 학명의 자료만 다루고, 서양박하·녹양박하·박하·애플민트 등 목록의 다른 박하 원료 자료는 섞지 않았다[1]. 정유에는 메노푸란·풀레곤처럼 유럽연합이 식품 속 함량을 따로 제한하는 성분이 들어 있을 수 있다[10][32]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "워터민트는 전통 의학에서 주로 감기 같은 호흡기 질환에 쓰였다[7]. 강장제·진정제로, 그리고 장 기생충·변비·설사·위장 장애·간 질환에 쓰였다는 기록이 있으며, 야생 채소이자 요리용 허브로도 먹었다[8]. 모로코에서는 달여 마시는 방식이 전통적인 이용법이고, 소화 불편·감기·치통 완화에도 썼다[26]. 남아프리카에서는 잎을 태운 연기로 정신 질환을 다스리는 데 썼다고 전해지고[9], 남아프리카 진정·중추신경계 약용 식물 46개 추출물을 비교한 시험에서 워터민트 잎 에탄올 추출물은 GABA-벤조다이아제핀 수용체 결합에서 용량 의존적인 좋은 활성을 보였다[12]. 우울증 비슷한 증상에 쓴 전통 용도를 설명하려는 연구에서 MAO(모노아민 산화효소) 억제 성분으로 나린제닌이 분리되었다[13]. 박하속 5종(잡종 서양박하 포함) 메탄올 추출물 비교에서도 워터민트가 GABA-A 수용체 친화도가 가장 높았다[37]. 이탈리아 칼라브리아에서는 염증 질환에 쓰는 식용 식물로 다뤄졌고, 비교한 5종 가운데 페놀(337 mg/g)과 플라보노이드(15.75 mg/g)가 가장 많았다[23].\n\n베르가모트민트 계통은 정유를 얻는 향료 작물로 다뤄졌다[2][20]. 1970–1971년 미국 향료 회사 연구진이 M. citrata의 정유 성분 유전을 연구했고, 이 계통은 라벤더 같은 냄새가 나는 리날로올·리날릴 아세테이트 정유를 만든다고 기록했다[2][20]. 인도에서도 베르가모트민트 정유가 생산·분석되었다[21]. 한국에서 베르가모트민트를 먹어 온 역사나 고문헌 기록은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "워터민트는 꿀풀과(Lamiaceae) 박하속의 여러해살이풀로, 냇가·강가의 얕은 물가와 수로, 습한 풀밭에서 자란다[8]. 유럽·북아프리카·서아시아에 자생하며 최근 아메리카와 오스트레일리아에도 들어갔다[9]. 이명으로 Mentha hirsuta Huds.가 쓰인다[15]. 하천의 자연 유속 기울기를 따라 조사한 연구에서 워터민트는 물살이 센 곳에서 더 유선형의 몸꼴을 갖추는 방식으로 반응했다[14].\n\n잎과 줄기 표면의 분비털(선모)에 정유가 쌓이며, 망가니즈를 주면 선모 밀도와 정유 수량이 늘었다[15]. 수경 재배 시험에서 정유의 주성분은 1,8-시네올·메노푸란·β-카리오필렌이었다[22]. 잎벌레(Chrysolina herbacea)가 잎을 갉아 먹으면 (+)-메노푸란 합성 유전자 발현이 늘고 메노푸란 방출이 많아져 벌레를 쫓았다[16]. 정유 화학형은 산지와 재배 조건에 따라 메노푸란·풀레곤·멘톨·피페리톤 옥사이드·리날로올형 등으로 갈린다[9]. 땅속 부위에서 새 트리테르펜 2종(마쿠아틱산·3-O-벤조일토르멘트산)이, 지상부와 땅속 부위에서 우르솔산·올레아놀산·β-시토스테롤 등 이미 알려진 화합물 12종이 분리되었다[17]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "서양박하(M. × piperita)는 워터민트(M. aquatica)와 녹양박하(M. spicata) 사이에서 자연적으로 생긴 잡종이다[6]. 베르가모트민트(M. citrata Ehrh.)는 논문에서 Mentha × piperita var. citrata (Ehrh.) Briq., M. × piperita nothosubsp. citrata, M. × piperita f. citrata(오렌지민트)로 적혀 서양박하 아래 분류군으로 다뤄진다[3][4][5]. 한편 1971년 유전 연구는 M. citrata(2n = 96)와 '가까운 팔배체 종' 워터민트(2n = 96)를 교잡해 라벤더 냄새가 나는 정상 잡종 111개체를 얻었다고 보고했다[2].\n\n식약처 목록은 베르가모트민트에 M. aquatica와 M. citrata를 함께 적었지만, 같은 목록의 복합원료 '천연 베르가못 민트향'은 학명을 Mentha x piperita L.로 적었다[1]. 서양박하는 '서양박하잎' 등 별도 원료로 올라 있어 그 자료는 넣지 않았다[1]. 체코 시험포의 'Bergamot'·'Citrata' 품종은 M. × piperita로 분류되었고 정유에 리날로올이 1 mL당 127.25–172.55 mg 들어 있었으며, 같은 곳의 워터민트 'Veronica'는 메노푸란·1,8-시네올 쪽이었다[10]. 엽록체 유전체 계통에서 워터민트는 M. canadensis와 가까운 무리로 묶였다[18]. 풀레곤이 많은 페니로얄(Hedeoma pulegioides) 잎은 목록에서 '사용불가'다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "레바논 남부에서 재배한 워터민트의 말린 잎은 Clevenger 장치 물 증류(4시간)로 건조 무게 기준 3.35%의 정유를 냈다[9]. 체코 작물연구소 시험포에서는 'Veronica' 품종을 초기 개화기에 수확해 어두운 곳에서 바람으로 말린 뒤 정유를 얻었다[10]. 인도에서 채취한 리날로올형 워터민트는 4–9월 수확분에서 리날로올(25.2–48.4%), 10–12월 수확분에서 리날릴 아세테이트(42.1–48.0%)가 주성분이어서, 수확 시기가 정유 품질을 바꾼다고 정리되었다[9].\n\n망가니즈 공급 실험에서 40·80 µM 처리는 생육과 광합성 색소를 높였지만 160 µM에서는 다시 줄었다[22]. 생육 초기와 후기 모두 망가니즈 100 µM 처리가 선모 밀도와 정유 수량을 늘렸다[15]. 베르가모트민트(M. × piperita var. citrata)는 아그로박테리움으로 형질전환한 줄기 배양에서도 원래 식물과 비슷한 양의 정유 성분을 만들었다[3]. 동결 보존 시험에서 베르가모트민트 줄기 끝은 제어 냉각법에서 가장 잘 되살아났다[4]. 국내 베르가모트민트·워터민트 재배면적과 생산량 통계는 확인하지 못함(통계청·농식품부의 '박하' 품목은 이 종 단독 통계가 아님). 지리적 표시 등록도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "목록상 이 종은 잎과 잎에서 얻은 오일로 식품에 쓸 수 있다[1]. 정유는 말린 잎을 물 증류해 얻은 연구가 많고[9][10], 수증기 증류로 얻은 한 연구의 수율은 0.17%(w/w)로 낮았고 주성분은 카르본(정유 100 g당 54.82 g)이었다[28]. 레바논 재배 잎의 정유는 리날릴 아세테이트 34.9%, 리날로올 26.8%로 이루어졌다[9].\n\n잎차로는 우리거나 달여 마신다[24][26]. 알제리 연구는 말린 풀 1 g을 물 100 mL에 5분 끓여 평소 마시는 방식을 흉내 냈고, 우린 물보다 70% 에탄올 추출물에 페놀 성분 합계가 더 많았다(184,347.57 대 96,593.60 µg/g)[24]. 모로코 잎 추출물에서도 70% 에탄올 추출물의 총페놀(62.2 ± 1.2 mg GAE/g)이 물 추출물(22.4 ± 0.6 mg GAE/g)보다 높았다[25]. 모로코 달임 추출물의 총페놀은 47.32 ± 0.32 mg GAE/g이었다[26]. 오렌지 주스에 워터민트 잎 추출물을 15% 섞은 음료가 관능 평가에서 가장 좋았고 5 °C에서 3개월 동안 받아들여질 만했다[36]. 국내 베르가모트민트 원료의 가공식품·건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "1971년 연구에 따르면 M. citrata와 워터민트는 모두 2n = 96이며, 워터민트는 메노푸란(정유의 65–80%)을 만드는 유전자형에 대해 동형접합이다[2]. 같은 연구는 M. citrata의 우성 유전자 I가 정유 생합성을 이른 단계에서 끊어 리날로올·리날릴 아세테이트 위주 정유를 만들고, 워터민트와의 F1 잡종도 라벤더 냄새(리날로올류 84–90% 예상)를 낸다고 설명했다[2]. 리모넨·시네올이 57–94%인 예외 개체는 우성 유전자 Lm 하나로 설명되었다[2]. 1970년에는 M. citrata의 비고리형 정유 성분 유전에 관한 별도 논문이 나왔다[20].\n\n베르가모트민트에서 (−)-3R-리날로올 합성효소 유전자가 클로닝되었으며, 이 효소는 꿀풀과 모노테르펜 고리화효소들과 62–72% 같은 서열을 가졌다[19]. 인도산 베르가모트민트 정유의 리날로올은 (3R)-(−)형의 거울상 이성질체 과잉률(ee)이 72–75%였다[21]. 이란산 워터민트의 엽록체 유전체는 152,077 bp, 유전자 132개였고 ycf1·rpl2-trnH 구간이 바코드 후보로 제시되었다[18]. 워터민트·베르가모트민트의 핵 유전체 해독과 국내 육성 품종은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 베르가모트민트 잎과 오일은 '사용가능'이며 사용 부위는 잎으로 정해져 있다[1]. 이 종에 대한 식약처·EFSA의 개별 안전성 평가나 알레르기 정보는 확인하지 못함. 박하 정유의 풀레곤과 메노푸란은 간 독성이 의심되는 성분이어서 정유 품질 관리에서 따로 확인해야 한다고 지적된다[30][31]. 유럽연합 향료 규정 부속서 III은 두 성분을 그 자체로 식품에 넣지 못하게 하고(Part A), 향료·식품 원료에서 자연히 들어오는 양에 대해 박하 과자류(입냄새 제거용 미세 과자 제외) 풀레곤 250 mg/kg·메노푸란 500 mg/kg, 껌 풀레곤 350 mg/kg·메노푸란 1,000 mg/kg 같은 최대치를 둔다(Part B; 영국 법령 사이트에 실린 제정 당시 본문의 검색 발췌로 확인, EUR-Lex 통합본은 열지 못함)[32].\n\n워터민트 'Veronica' 정유에는 메노푸란 81.90 ± 2.01 mg/mL, 풀레곤 7.04 ± 0.48 mg/mL가 들어 있었다[10]. 메노푸란은 Vero 세포에 약한 독성을 보였고, 같은 시험의 'Citrata'·'Bergamot' 품종 정유는 리날로올이 주성분이고 메노푸란은 검출되지 않았다[10]. 모로코 달임 추출물은 생쥐에 8 g/kg까지 먹여도 죽거나 중독 증상이 없었고, 28일간 0.1·0.5·1 g/kg를 먹인 시험에서 혈액·생화학 지표는 크게 바뀌지 않았다[26]. 다만 복강 주사에서는 반수치사량이 5.975 g/kg이었고, 초록은 무독성량(NOAEL) 0.5 g/kg·최소독성량(LOAEL) 1 g/kg으로 적었으며, 본문 한 곳에는 1 g/kg 군 암수 모두에서 중등도 혈관 울혈·염증세포 침윤·괴사가 보였다고 적혀 있어 '조직 이상 없음'이라는 다른 서술과 엇갈린다[26]. 이탈리아 식용 식물 16종(워터민트 포함)의 하이드로알코올 추출물은 발광세균 독성 시험(Microtox)에서 모두 억제율이 기준(20%) 아래였다(일부 종은 17–19%로 기준에 가까웠고, 워터민트 개별값은 초록에 없음)[35]. 워터민트는 뿌리에 납을 많이 쌓고 수은 등 중금속을 물에서 빨아들이므로 오염된 물가의 야생 채취에 주의가 필요하다[33][34]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Menthofuran",
+   "name_ko": "메노푸란",
+   "class": "모노테르펜(퓨란)",
+   "role": "marker",
+   "part": "잎·지상부 정유",
+   "content_text": "코르시카 야생 정유 50.7%[11]; 정유의 65–80%(1971년 유전 연구)[2]; 'Veronica' 정유 81.90 ± 2.01 mg/mL[10]; 에티오피아 70.5%, 루마니아 51.3–58.6%, 보이보디나 16.9%(문헌 인용)[9]",
+   "activity_ko": "워터민트 정유의 대표 성분으로, 잎벌레가 갉으면 합성이 늘어 벌레를 쫓는다[16]. 간 독성이 의심돼 박하 정유에서 관리 대상으로 꼽힌다[31]",
+   "source": [
+    2,
+    9,
+    10,
+    11,
+    16,
+    31
+   ]
+  },
+  {
+   "name": "1,8-Cineole",
+   "name_ko": "1,8-시네올",
+   "class": "모노테르펜(옥사이드)",
+   "role": "bioactive",
+   "part": "잎 정유",
+   "content_text": "'Veronica' 정유 96.75 ± 1.73 mg/mL[10]; 레바논 리날로올형 정유 6.7%[9]; 수경 재배 정유의 주성분 가운데 하나(값 확인하지 못함)[22]",
+   "activity_ko": "SARS-CoV-2 증식 억제(EC50 128.93 ± 14.98 µM, 세포 시험)[10]",
+   "source": [
+    9,
+    10,
+    22
+   ]
+  },
+  {
+   "name": "Pulegone",
+   "name_ko": "풀레곤",
+   "class": "모노테르펜(케톤)",
+   "role": "bioactive",
+   "part": "잎 정유",
+   "content_text": "'Veronica' 정유 7.04 ± 0.48 mg/mL[10]; 'Bergamot'(M. × piperita) 1.55 ± 0.22 mg/mL, 'Citrata' 검출 안 됨[10]; 풀레곤 화학형 보고[9]",
+   "activity_ko": "간 독성이 의심되는 성분으로 박하 정유에서 함량 관리 대상[30][31]",
+   "source": [
+    9,
+    10,
+    30,
+    31
+   ]
+  },
+  {
+   "name": "Menthone",
+   "name_ko": "멘톤",
+   "class": "모노테르펜(케톤)",
+   "role": "bioactive",
+   "part": "잎 정유",
+   "content_text": "'Veronica' 정유 68.48 ± 1.18 mg/mL[10]",
+   "activity_ko": "단독으로는 SARS-CoV-2 억제 활성 없음(세포 시험)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Linalool",
+   "name_ko": "리날로올",
+   "class": "모노테르펜(알코올)",
+   "role": "marker",
+   "part": "잎 정유(베르가모트민트·리날로올형)",
+   "content_text": "레바논 재배 워터민트 정유 26.8%[9]; M. citrata 정유 30%[2]; 인도 4–9월 수확 25.2–48.4%(문헌 인용)[9]; M. × piperita 'Citrata' 172.55 ± 1.53 mg/mL[10]; (3R)-(−)형 거울상 과잉률 72–75%(인도산 베르가모트민트 정유)[21]",
+   "activity_ko": "베르가모트민트의 라벤더 같은 향을 내는 주성분; (−)-3R-리날로올 합성효소가 만든다[19]",
+   "source": [
+    2,
+    9,
+    10,
+    19,
+    21
+   ]
+  },
+  {
+   "name": "Linalyl acetate",
+   "name_ko": "리날릴 아세테이트",
+   "class": "모노테르펜 에스터",
+   "role": "marker",
+   "part": "잎 정유(베르가모트민트·리날로올형)",
+   "content_text": "레바논 재배 워터민트 정유 34.9%[9]; M. citrata 정유 58.5%[2]; 오렌지민트(M. × piperita f. citrata) 휘발 성분 중 가장 많음(값 확인하지 못함)[5]",
+   "activity_ko": "리날로올과 함께 베르가모트민트 향의 중심 성분[2][9]",
+   "source": [
+    2,
+    5,
+    9
+   ]
+  },
+  {
+   "name": "Carvone",
+   "name_ko": "카르본",
+   "class": "모노테르펜(케톤)",
+   "role": "bioactive",
+   "part": "정유(카르본형, 원료 부위는 초록에 없음)",
+   "content_text": "정유 100 g당 54.82 ± 1.39 g(수증기 증류 수율 0.17%)[28]",
+   "activity_ko": "이 정유 75 mg/kg이 쥐의 에탄올 위궤양을 90% 넘게 막았다(동물)[28]",
+   "source": [
+    28
+   ]
+  },
+  {
+   "name": "Rosmarinic acid",
+   "name_ko": "로즈마린산",
+   "class": "페놀산(카페산 에스터)",
+   "role": "marker",
+   "part": "지상부(개화기, 건조)",
+   "content_text": "워터민트 개별값은 확인하지 못함(원문 표 2가 본문 추출본에 없음; 워터민트를 포함한 이란산 박하속 시료 전체가 19.3–58.5 mg/g 건조 식물이었고 최고값은 녹양박하)[27]; 모로코 달임 추출물에서는 정량되지 않음(ND)[26]",
+   "activity_ko": "꿀풀과 페놀 성분의 대표 지표로 HPLC 정량에 쓰임[27]",
+   "source": [
+    26,
+    27
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "지상부 달임 추출물",
+   "content_text": "14.89 ± 0.03 mg/g 추출물(달임, 모로코)[26]",
+   "activity_ko": "달임 추출물의 최다 페놀 성분; 항염 작용 기여 성분으로 논의됨[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Ferulic acid",
+   "name_ko": "페룰산",
+   "class": "하이드록시신남산",
+   "role": "bioactive",
+   "part": "지상부 추출물",
+   "content_text": "달임 추출물 10.73 ± 0.06 mg/g 추출물[26]; 알제리 70% 에탄올 추출물의 페룰산 유도체 2 98,324.02 ± 783.94 µg/g[24]",
+   "activity_ko": "달임·에탄올 추출물의 주요 페놀 성분[24][26]",
+   "source": [
+    24,
+    26
+   ]
+  },
+  {
+   "name": "Vanillic acid",
+   "name_ko": "바닐산",
+   "class": "하이드록시벤조산",
+   "role": "bioactive",
+   "part": "지상부 달임 추출물",
+   "content_text": "7.10 ± 0.00 mg/g 추출물[26]",
+   "activity_ko": "달임 추출물 3대 페놀 성분 가운데 하나[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "Naringenin",
+   "name_ko": "나린제닌",
+   "class": "플라바논",
+   "role": "bioactive",
+   "part": "70% 에탄올 추출물(부위는 초록에 없음)",
+   "content_text": "분리 보고(함량 확인하지 못함)[13]",
+   "activity_ko": "MAO-B 억제 IC50 288 ± 18 µM, MAO-A 955 ± 129 µM(효소 시험)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "beta-Caryophyllene",
+   "name_ko": "β-카리오필렌",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "잎 정유",
+   "content_text": "수경 재배 정유의 주성분 가운데 하나(값 확인하지 못함)[22]",
+   "activity_ko": "합성효소 유전자 발현이 망가니즈 처리에 따라 달라짐[15]",
+   "source": [
+    15,
+    22
+   ]
+  },
+  {
+   "name": "5,6-Dihydroxy-7,8,3',4'-tetramethoxyflavone",
+   "name_ko": "5,6-디하이드록시-7,8,3',4'-테트라메톡시플라본",
+   "class": "메톡시플라본",
+   "role": "bioactive",
+   "part": "잎(오드콜로뉴민트, M. × piperita citrata)",
+   "content_text": "278.0 mg/kg(오드콜로뉴민트 잎에서 분리한 양)[29]",
+   "activity_ko": "RBL-2H3 세포 탈과립 억제 IC50 3.0 µM(항알레르기, 세포 시험)[29]",
+   "source": [
+    29
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Menthofuran",
+   "compound_ko": "메노푸란(풀레곤·1,8-시네올·멘톤 등 13종 동시)",
+   "part": "잎 정유(체코 시험포 'Veronica', 초기 개화기 수확)",
+   "content": "메노푸란 81.90 ± 2.01, 1,8-시네올 96.75 ± 1.73, 멘톤 68.48 ± 1.18, 풀레곤 7.04 ± 0.48 mg/mL 정유[10]",
+   "method": "GC-MS(SIM, 외부표준 검량)",
+   "conditions": {
+    "instrument": "Agilent 7890A GC + Agilent 5975C 질량선택검출기",
+    "column": "HP-5MS UI(5% 페닐메틸실록산), 30 m × 0.25 mm, 0.25 µm",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "SIM; 메노푸란 m/z 79·108·150, 풀레곤 m/z 67·81·109·152(정량·확인 이온)",
+    "injection": "",
+    "sample_prep": "말린 잎 20 g을 Clevenger 장치로 1.5시간 물 증류(hydrodistillation) → 정유 20 µL를 n-운데칸(내부표준) 넣은 n-헥산 1 mL에 녹임",
+    "standard": "표준품(Merck)을 DMSO 100 mg/mL로 녹인 뒤 n-헥산으로 25–1,000 µg/mL 검량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "메노푸란·풀레곤은 박하 정유의 화학형을 가르고 독성 관리가 필요한 성분이어서 정량 지표로 적합하다[10][30]. 오븐 온도 프로그램·운반기체 유속은 앞선 논문을 인용해 본문에 없어 비워 둠.",
+   "source": [
+    10
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108200/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Linalyl acetate",
+   "compound_ko": "리날릴 아세테이트(리날로올 동시)",
+   "part": "잎 정유(레바논 재배, 리날로올형)",
+   "content": "리날릴 아세테이트 34.9%, 리날로올 26.8%, α-테르피닐 아세테이트 12.3%, 1,8-시네올 6.7%(피크 면적 %)[9]",
+   "method": "GC-MS(EI)",
+   "conditions": {
+    "instrument": "Agilent 6890N–5973N GC-MS",
+    "column": "HP-5MS(5% 페닐메틸폴리실록산), 30 m × 0.25 mm, 막 두께 0.1 µm (J&W Scientific)",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "EI 70 eV",
+    "injection": "",
+    "sample_prep": "말린 잎을 Clevenger 장치로 4시간 물 증류(hydrodistillation)(수율 3.35%, 건조 무게 기준) → 정유를 n-헥산으로 1:100 희석",
+    "standard": "α-피넨·리모넨·1,8-시네올·테르피넨-4-올·α-테르피네올·카리오필렌 등 표준품(Merck)과 선형 머무름 지수·질량 스펙트럼으로 동정; 보정계수 없는 피크 면적 정규화(반정량)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "베르가모트민트형(리날로올형) 정유를 메노푸란형과 가르는 지표가 리날로올·리날릴 아세테이트다[2][9]. 반정량(면적 %)이며 크로마토그래피 온도 조건은 앞선 논문 참조로 본문에 없어 비워 둠.",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10143930/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rosmarinic acid",
+   "compound_ko": "로즈마린산",
+   "part": "지상부(이란, 개화기 채취, 건조 분말)",
+   "content": "워터민트 개별값은 확인하지 못함(박하속 시료 전체 19.3–58.5 mg/g 건조 식물, 원문 표 2)[27]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Waters HPLC, 2996 다이오드 배열 검출기",
+    "column": "ACE 5 C(탄소 수 아래첨자가 원문 추출본에서 빠져 C18/C8 여부 확인하지 못함), 250 × 4.6 mm",
+    "mobile_phase": "A: 0.085% 인산 수용액, B: 0.085% 인산 메탄올, C: 0.085% 인산 2-프로판올",
+    "gradient": "20분 기울기(시간표는 원문 표 1, 확인하지 못함)",
+    "flow": "1.0 mL/min",
+    "temp": "30 °C",
+    "detection": "330 nm(스펙트럼 200–900 nm)",
+    "injection": "20 µL",
+    "sample_prep": "분말 200 mg + 물:메탄올:2-프로판올(80:10:10, 각 0.085% 인산) 25 mL로 초음파 30분 추출, 4500 rpm 5분 원심, 3회 반복 후 합쳐 100 mL로 맞춤",
+    "standard": "로즈마린산 표준품(Aldrich), 1–150 µg/mL 8단계",
+    "linearity": "1–150 µg/mL, r = 0.9983",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "로즈마린산은 꿀풀과에 널리 들어 있는 대표 페놀 성분이고 박하속에서 특히 많아 지상부 품질 지표로 쓴다[27]. 검출·정량한계와 회수율은 본문에 없어 비워 둠.",
+   "source": [
+    27
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3307200/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴(페룰산·바닐산 등 페놀 11종 동시)",
+   "part": "지상부 달임 추출물(모로코, 2021년 4월 채취)",
+   "content": "루틴 14.89 ± 0.03, 페룰산 10.73 ± 0.06, 바닐산 7.10 ± 0.00 mg/g 추출물; 로즈마린산 ND[26]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "Shimadzu HPLC, 다이오드 배열 검출기",
+    "column": "Wakosil C18HG, 4.6 × 150 mm, 5 µm",
+    "mobile_phase": "A: 메탄올/아세토니트릴(50/50), B: 0.2% 인산 산성수",
+    "gradient": "A 96%·B 4% → A 50%·B 50% 40분 선형, 12분 재평형; 이어 A 40%·B 60% 5분, A 0%·B 100% 15분(원문 표기 그대로)",
+    "flow": "1 mL/min",
+    "temp": "40 °C",
+    "detection": "",
+    "injection": "20 µL",
+    "sample_prep": "가루 50 g + 증류수 500 mL, 40 °C 20분 후 끓여 식혀 여과·40 °C 감압 농축 → 추출물 10 mg을 0.45 µm 여과, 80% 메탄올로 1 mL",
+    "standard": "쿠마르산·바닐산·카페산·페룰산·로즈마린산·루틴·퀘르세틴 등 14종 표준품 머무름 시간 비교",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "전통적으로 달여 마시는 형태의 추출물에서 가장 많은 페놀 성분이 루틴·페룰산·바닐산이어서, 독성·약리 시험 시료의 성분 지표로 썼다[26]. 검출 파장·검출한계·회수율은 본문에 없어 비워 둠.",
+   "source": [
+    26
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426014/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 베르가모트민트오일·베르가모트민트잎(Mentha aquatica L. / Mentha citrata J. F. Ehrh.), 같은 속 박하류, 페니로얄(Hedeoma pulegioides) 항목, 복합원료 '천연 베르가못 민트향'",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Lincoln DE et al. Genetic basis for high limonene-cineole content of exceptional Mentha citrata hybrids. Theor Appl Genet 1971;41(8):365-70 (PMID 24430526, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24430526/",
+   "publisher": "Theoretical and Applied Genetics (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Spencer A et al. Production of terpenes by differentiated shoot cultures of Mentha citrata transformed with Agrobacterium tumefaciens T37. Plant Cell Rep 1990;8(10):601-4 (PMID 24232681, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24232681/",
+   "publisher": "Plant Cell Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "A comparative study of three cryopreservation protocols for effective storage of in vitro-grown mint (Mentha spp.). Cryo Letters 2008;29(3):181-8 (PMID 18754058, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18754058/",
+   "publisher": "Cryo Letters (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Enhanced monoterpene emission in transgenic orange mint (Mentha × piperita f. citrata) overexpressing a tobacco lipid transfer protein (NtLTP1). Planta 2020;252(3):44 (PMID 32876749, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32876749/",
+   "publisher": "Planta (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Botanical perspectives on health peppermint: more than just an after-dinner mint. J R Soc Promot Health 2001;121(1):62-3 (PMID 11329700, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11329700/",
+   "publisher": "J R Soc Promot Health (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Mentha aquatica (Water Mint) as a Source of Active Pharmaceutical and Cosmetic Ingredients: A Critical Review. Phytother Res 2024;38(12):5806-39 (PMID 39363549, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39363549/",
+   "publisher": "Phytotherapy Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "A Comprehensive Review on the Ethnobotany, Phytochemistry, Pharmacology, and Toxicology of Mentha aquatica L. (water mint) as a Wild Shallow Vegetable. Curr Pharm Des 2021;27(22):2615-27 (PMID 33605850, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33605850/",
+   "publisher": "Current Pharmaceutical Design (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Efficacy of Mentha aquatica L. Essential Oil (Linalool/Linalool Acetate Chemotype) against Insect Vectors and Agricultural Pests. Pharmaceuticals 2023;16(4):633 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10143930/",
+   "publisher": "Pharmaceuticals (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Antiviral Activity of Selected Lamiaceae Essential Oils and Their Monoterpenes Against SARS-Cov-2. Front Pharmacol 2022;13:893634 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108200/",
+   "publisher": "Frontiers in Pharmacology (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Chemical composition of the essential oil from Corsican Mentha aquatica — combined analysis by GC(RI), GC-MS and 13C NMR spectroscopy. Nat Prod Commun 2011;6(10):1479-82 (PMID 22164788, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22164788/",
+   "publisher": "Natural Product Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Activity of traditional South African sedative and potentially CNS-acting plants in the GABA-benzodiazepine receptor assay. J Ethnopharmacol 2005;100(1-2):210-5 (PMID 16054530, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16054530/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Isolation of the MAO-inhibitor naringenin from Mentha aquatica L. J Ethnopharmacol 2008;117(3):500-2 (PMID 18372132, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18372132/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Morphological variation of two taxonomically distant plant species along a natural flow velocity gradient. New Phytol 2004;163(3):651-60 (PMID 33873737, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33873737/",
+   "publisher": "New Phytologist (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Manganese-induced changes in glandular trichomes density and essential oils production of Mentha aquatica L. at different growth stages. J Trace Elem Med Biol 2018;50:57-66 (PMID 30262317, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30262317/",
+   "publisher": "J Trace Elem Med Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Chrysolina herbacea modulates terpenoid biosynthesis of Mentha aquatica L. PLoS One 2011;6(3):e17195 (PMID 21408066, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21408066/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Two New Triterpenes and Other Compounds from Mentha aquatica (Lamiaceae). Nat Prod Commun 2017;12(4):483-6 (PMID 30520576, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30520576/",
+   "publisher": "Natural Product Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Complete Chloroplast genome of Mentha aquatica reveals hypervariable regions and resolves phylogenetic position within the genus Mentha. Mol Biol Rep 2025;52(1):677 (PMID 40622487, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40622487/",
+   "publisher": "Molecular Biology Reports (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Molecular cloning and characterization of a new linalool synthase. Arch Biochem Biophys 2002;405(1):112-21 (PMID 12176064, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12176064/",
+   "publisher": "Archives of Biochemistry and Biophysics (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Murray MJ, Lincoln DE. The Genetic Basis of Acyclic Oil Constituents in Mentha citrata Ehrh. Genetics 1970;65(3):457-71 (PMID 17248501; 초록·전문 본문은 열지 못해 제목만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17248501/",
+   "publisher": "Genetics (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Enantiomeric composition of (3R)-(-)- and (3S)-(+)-linalool in various essential oils of Indian origin by enantioselective capillary GC. Nat Prod Commun 2009;4(4):563-6 (PMID 19476006, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19476006/",
+   "publisher": "Natural Product Communications (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Changes in primary and secondary metabolites of Mentha aquatica L. exposed to different concentrations of manganese. Environ Sci Pollut Res Int 2018;25(8):7575-88 (PMID 29282667, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29282667/",
+   "publisher": "Environ Sci Pollut Res (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "In vivo anti-inflammatory and in vitro antioxidant activities of Mediterranean dietary plants. J Ethnopharmacol 2008;116(1):144-51 (PMID 18164564, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18164564/",
+   "publisher": "Journal of Ethnopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Antioxidant, Phytochemical, and Pharmacological Properties of Algerian Mentha aquatica Extracts. Antioxidants 2024;13(12):1512 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11673699/",
+   "publisher": "Antioxidants (MDPI, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Solvent-driven modulation of phenolic composition and biofunctional activities of three Mentha aquatica formulations. Bioresour Bioprocess 2026;13(1) (PMID 42406202, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42406202/",
+   "publisher": "Bioresources and Bioprocessing (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Integrated Phytochemical and Pharmacological Investigation of Mentha aquatica L.: Anti-Inflammatory, Analgesic, and Safety Evidence From In Vivo Studies. Food Sci Nutr 2026;14(8):e72142 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426014/",
+   "publisher": "Food Science & Nutrition (Wiley, PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Comparative study of rosmarinic acid content in some plants of Labiatae family. Pharmacogn Mag 2012;8(29):37-41 (PMC 전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3307200/",
+   "publisher": "Pharmacognosy Magazine (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Gastrointestinal effects of Mentha aquatica L. essential oil. Inflammopharmacology 2022;30(6):2127-37 (PMID 35451723, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35451723/",
+   "publisher": "Inflammopharmacology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "High antiallergic activity of 5,6,4'-trihydroxy-7,8,3'-trimethoxyflavone and 5,6-dihydroxy-7,8,3',4'-tetramethoxyflavone from eau de cologne mint (Mentha × piperita citrata). Fitoterapia 2015;102:74-83 (PMID 25704366, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25704366/",
+   "publisher": "Fitoterapia (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "In vitro production of M. × piperita not containing pulegone and menthofuran. Acta Biochim Pol 2012;59(3):417-23 (PMID 22946028, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22946028/",
+   "publisher": "Acta Biochimica Polonica (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Influence of red- and blue-dominant light spectra on the biosynthesis of mono- and sesquiterpenes in mint (Mentha × piperita) essential oil. Food Chem 2025;496:146731 (PMID 41106261, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41106261/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Regulation (EC) No 1334/2008 on flavourings, Annex III Part A·B(풀레곤·메노푸란 첨가 금지 및 최대치) — EUR-Lex 원문은 열지 못해 legislation.gov.uk 판(제정 당시 본문) 검색 발췌로 확인",
+   "url": "https://eur-lex.europa.eu/eli/reg/2008/1334/oj",
+   "publisher": "European Union (legislation.gov.uk 판 검색 발췌)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Influence of pH on lead uptake, chlorophyll and nitrogen content of Nasturtium officinale R. Br. and Mentha aquatica L. J Environ Biol 2005;26(4):753-9 (PMID 16459569, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16459569/",
+   "publisher": "Journal of Environmental Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Phytoaccumulation of heavy metals by aquatic plants. Environ Int 2004;29(8):1029-39 (PMID 14680885, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14680885/",
+   "publisher": "Environment International (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Antiproliferative activity against human tumor cell lines and toxicity test on Mediterranean dietary plants. Food Chem Toxicol 2008;46(10):3325-32 (PMID 18768152, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18768152/",
+   "publisher": "Food and Chemical Toxicology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Consumer Acceptance of Orange Juice Mixed with Water Mint Leave Extract. Recent Pat Food Nutr Agric 2018;9(1):50-4 (PMID 29086705, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29086705/",
+   "publisher": "Recent Patents on Food, Nutrition & Agriculture (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 37,
+   "title": "Neuroprotective and neurochemical properties of mint extracts. Phytother Res 2010;24(6):869-74 (PMID 19943334, 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19943334/",
+   "publisher": "Phytotherapy Research (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
