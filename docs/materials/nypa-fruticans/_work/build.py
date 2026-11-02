@@ -1,0 +1,169 @@
+import json
+from pathlib import Path
+
+ACC = "2026-11-02"
+def doi(d): return "https://doi.org/" + d
+def pm(p): return "https://pubmed.ncbi.nlm.nih.gov/%s/" % p
+
+S = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 니파야자꽃액즙·니파야자열매·니파야자순·니파야자분말·니파야자농축액·니파야자추출액(Nypa fruticans Wurmb) 행, 니파야자순혼합추출물(복합원료) 행, 비교용 야자과 원료 행", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Phytochemicals and Antioxidant Capacity from Nypa fruticans Wurmb. Fruit (2013, PMID 23710209, PMC3654328)", doi("10.1155/2013/154606"), "Evidence-Based Complementary and Alternative Medicine", ACC),
+ ("Effect of preservative and preservation methods on physical, chemical and microbiological properties of nipa palm (Nypa fructicans) sap (2025, PMID 40165289, PMC11959983)", doi("10.1186/s13104-024-07039-5"), "BMC Research Notes", ACC),
+ ("Sustainable Nipa Palm (Nypa fruticans Wurmb.) Product Utilization in Thailand (2020, PMID 33062377, PMC7533023)", doi("10.1155/2020/3856203"), "Scientifica", ACC),
+ ("Phenolic Profile of Nipa Palm Vinegar and Evaluation of Its Antilipidemic Activities (2020, PMID 32952589, PMC7487108)", doi("10.1155/2020/6769726"), "Evidence-Based Complementary and Alternative Medicine", ACC),
+ ("De Novo Assembly of Coding Sequences of the Mangrove Palm (Nypa fruticans) Using RNA-Seq and Discovery of Whole-Genome Duplications in the Ancestor of Palms (2015, PMID 26684618)", doi("10.1371/journal.pone.0145385"), "PLoS One", ACC),
+ ("Genomic analysis of Nypa fruticans elucidates its intertidal adaptations and early palm evolution (2024, PMID 38372488, 초록)", doi("10.1111/jipb.13625"), "Journal of Integrative Plant Biology", ACC),
+ ("Deep structured populations of geographically isolated nipa (Nypa fruticans Wurmb.) in the Indo-West Pacific revealed using microsatellite markers (2022, PMID 36388479, 초록)", doi("10.3389/fpls.2022.1038998"), "Frontiers in Plant Science", ACC),
+ ("Semi-connected structure and asymmetric gene flow of Nypa fruticans Wurmb. across the Philippine archipelago (2026, PMID 42519609, 초록)", doi("10.3389/fpls.2026.1879288"), "Frontiers in Plant Science", ACC),
+ ("Palms (Arecaceae) from a Paleocene rainforest of northern Colombia (2009, PMID 21628279, 초록)", doi("10.3732/ajb.0800378"), "American Journal of Botany", ACC),
+ ("Phylogenetic utility of the nuclear gene malate synthase in the palm family (Arecaceae) (2001, PMID 11399149, 초록)", doi("10.1006/mpev.2001.0932"), "Molecular Phylogenetics and Evolution", ACC),
+ ("Pericarp development and fruit structure in borassoid palms (Arecaceae-Coryphoideae-Borasseae) (2011, PMID 21831853, 초록)", doi("10.1093/aob/mcr148"), "Annals of Botany", ACC),
+ ("Probable Nipa Palm Wine-Associated Hepatitis A Outbreak after Attending a Funeral Ceremony in Sabah (2021, PMID 34255740, 초록)", doi("10.4269/ajtmh.21-0036"), "American Journal of Tropical Medicine and Hygiene", ACC),
+ ("Clinics in diagnostic imaging (198). Small bowel obstruction secondary to a bezoar (2019, PMID 31482177, 초록)", doi("10.11622/smedj.2019089"), "Singapore Medical Journal", ACC),
+ ("Exploration of yeast communities in fresh coconut, palmyra, and nipa palm saps and ethanol-fermenting ability of isolated yeasts (2020, PMID 33079277, 초록)", doi("10.1007/s10482-020-01479-2"), "Antonie van Leeuwenhoek", ACC),
+ ("Nypa fruticans wurmb (Mangrove Palm) Fruit Kernel: Effect on physicochemical, sensory evaluation and shelf-life of wheat biscuits (2026, PMID 41706737, PMC12915934)", doi("10.1371/journal.pone.0342665"), "PLoS One", ACC),
+ ("Anti-inflammatory effects of Nypa fruticans Wurmb via NF-κB and MAPK signaling pathways in macrophages (2022, PMID 36545046, PMC9751521)", doi("10.3892/etm.2022.11690"), "Experimental and Therapeutic Medicine", ACC),
+ ("Antidiabetic and antioxidant activities of Nypa fruticans Wurmb. vinegar sample from Malaysia (2015, PMID 26321511, 초록)", doi("10.1016/j.apjtm.2015.07.015"), "Asian Pacific Journal of Tropical Medicine", ACC),
+ ("Aqueous Extract of Nypa fruticans Wurmb. Vinegar Alleviates Postprandial Hyperglycemia in Normoglycemic Rats (2015, PMID 26308046, 초록)", doi("10.3390/nu7085320"), "Nutrients", ACC),
+ ("Nypa fruticans Wurmb. Vinegar's Aqueous Extract Stimulates Insulin Secretion and Exerts Hepatoprotective Effect on STZ-Induced Diabetic Rats (2017, PMID 28832548, 초록)", doi("10.3390/nu9090925"), "Nutrients", ACC),
+ ("Antioxidants, inhibits the growth of foodborne pathogens and reduces nitric oxide activity in LPS-stimulated RAW 264.7 cells of nipa palm vinegar (2021, PMID 34616617, 초록)", doi("10.7717/peerj.12151"), "PeerJ", ACC),
+ ("Novel nutritionally-enriched gummy jelly infused with nipa palm vinegar powder and nipa palm syrup as functional food ingredients (2023, PMID 38027860, 초록)", doi("10.1016/j.heliyon.2023.e21873"), "Heliyon", ACC),
+ ("Anti-hyperglycemic and antinociceptive activity of methanol leaf and stem extract of Nypa fruticans Wurmb. (2011, PMID 21959809, 초록)", pm("21959809"), "Pakistan Journal of Pharmaceutical Sciences", ACC),
+ ("Study on life parameters of the invasive species Octodonta nipae (Coleoptera: Chrysomelidae) on different palm species, under laboratory conditions (2014, PMID 25195440, 초록)", doi("10.1603/ec14119"), "Journal of Economic Entomology", ACC),
+ ("Protection against UVB-Induced Photoaging by Nypa fruticans via Inhibition of MAPK/AP-1/MMP-1 Signaling (2020, PMID 32685089, PMC7330638)", doi("10.1155/2020/2905362"), "Oxidative Medicine and Cellular Longevity", ACC),
+ ("Optimization of the extraction conditions of Nypa fruticans Wurmb. using response surface methodology and artificial neural network (2022, PMID 35121322, 초록)", doi("10.1016/j.foodchem.2022.132086"), "Food Chemistry", ACC),
+ ("Antioxidant, Anti-inflammatory, Analgesic, and Antiarthritic Potentialities of Methanolic Extract of Fruit Husk of Nypa fruticans Wurmb (2026, PMID 41984730, 초록)", doi("10.1155/bmri/8861594"), "BioMed Research International", ACC),
+ ("Oil spills and invasive species drive losses in Nigeria's mangrove forests (2026, PMID 42619528, 초록)", doi("10.1098/rstb.2024.0480"), "Philosophical Transactions of the Royal Society B", ACC),
+ ("Invasion of Rugose spiraling whitefly (Hemiptera: Aleyrodidae) across Bangladesh coastal region causes widespread damage to coconut plants (2023, PMID 37000444, 초록)", doi("10.1093/jee/toad049"), "Journal of Economic Entomology", ACC),
+ ("A novel yeast species isolated from nipa (Nypa fruticans Wurmb.) inflorescence sap in southern Thailand (2020, PMID 31778349, 초록)", doi("10.1099/ijsem.0.003885"), "International Journal of Systematic and Evolutionary Microbiology", ACC),
+ ("Hepatoprotective potential of Nypa fruticans leaves: Insights from integrated experimental and computational approaches (2026, PMID 41722878, 초록)", doi("10.1016/j.jep.2026.121403"), "Journal of Ethnopharmacology", ACC),
+]
+sources = [{"n": i + 1, "title": t, "url": u, "publisher": p, "accessed": a} for i, (t, u, p, a) in enumerate(S)]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "니파야자(Nypa fruticans Wurmb)는 야자과(Arecaceae)에 속하는 맹그로브 야자로, 영어로는 nipa palm·mangrove palm·water coconut이라 부른다[1, 6]. 진짜 맹그로브 식물 가운데 유일한 외떡잎식물이며, 줄기가 땅 위로 서지 않고 바닷물과 민물이 섞이는 기수 지역에서 자란다[2, 6]. "
+  "식약처 「식품원료 목록」에는 니파야자꽃액즙·니파야자열매·니파야자순·니파야자분말·니파야자농축액·니파야자추출액 6행이 모두 '사용가능'으로 올라 있다[1]. 사용 조건은 '사용가능부위 : 순, 열매, 꽃액즙'으로, 잎·줄기·뿌리·열매껍질은 이 조건에 들어 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+  "먹는 부위는 성격이 전혀 다른 두 가지로 나뉜다[1, 4]. 꽃대를 잘라 받는 꽃액즙(수액)은 자당이 많은 단물로, 그대로 마시거나 졸여 당밀·시럽·설탕을 만들고 발효해 식초·술을 만든다[3, 4]. 열매는 덜 익은 것의 배젖(속살)을 먹으며, 덜 익은 배젖에서 클로로젠산·프로토카테큐산·캠페롤이 주요 페놀 성분으로 보고되었다[2]. 국내 연구에서는 시중에서 구한 건조 '순'(새순) 추출물을 실험했다[17]. 또 다른 국내 연구는 추출 부위를 초록에 밝히지 않았으나, 항산화 성분 추출 최적 조건을 57.6% 에탄올·19.0시간·51.3 °C로 제시하고 페놀·플라보노이드 48종을 확인했다[26]."},
+ {"key": "history", "title": "이용의 역사", "body":
+  "니파야자 계통은 기원이 후기 백악기까지 거슬러 올라가는 오래된 야자로 소개되며, 가장 오래된 맹그로브 화석 기록을 남긴 종이다[6, 7]. 콜롬비아 북부의 약 6,000만 년 전(팔레오세) 지층에서 나온 야자 잎·꽃차례·열매 화석 가운데에도 Nypa속 계통이 포함되었다[10].\n\n"
+  "태국 남부 팍파낭 유역의 해안 마을은 수백 년 동안 니파야자를 이용해 왔고, 꽃액즙으로 당밀·시럽·설탕·식초를 만들고 잎으로 지붕 이엉과 담배 종이를 만든다[4]. 말레이시아 사라왁에서는 신선한 꽃액즙을 전통 음료로 마시고, 니파야자 설탕을 전통 과자의 주재료로 쓴다[3]. 말레이 공동체에서는 니파야자 식초를 당뇨에 쓰는 민간약으로 써 왔다[18, 19]. 방글라데시 남부에서는 잎과 줄기를 여러 질환에 쓰는 전통 용법이 있고, 동남아시아에서는 잎을 염증·간 질환에 써 왔다고 한다[23, 31]. 싱가포르에서는 열매 배젖을 'attap chee'라는 이름으로 먹는다[14]. 방글라데시에서는 '골파타(golpata)'라고 부르며 잎을 지붕 재료로 쓴다[16]. 다만 이런 전통 용도는 사람 임상시험으로 확인된 것이 아니다[18–20]."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "니파야자는 암꽃과 수꽃이 한 그루에 피는 암수한그루 야자로, 땅 위로 선 줄기가 없고 열매송이가 흙에서 바로 솟아오르듯 달린다[2, 4]. 원산 분포는 인도·말레이시아·인도네시아·필리핀과 오스트레일리아 퀸즐랜드 일부로 소개되며, 아시아·오세아니아·동아프리카 맹그로브에 흔하다고도 적힌다[2, 16]. 서아프리카 나이지리아에서는 침입종으로 퍼져 2023년 맹그로브의 약 10%인 93,178 ha를 차지했고, 15년 만에 70,000 ha가 늘었다[28].\n\n"
+  "열매는 송이로 달리며, 말레이시아 시료에서 익은 열매(약 6개월) 한 개는 159.6 g, 길이 12.9 cm로 덜 익은 열매(약 3개월)보다 컸다[2]. 덜 익은 배젖은 부드럽고 즙이 많은 연한 흰색이고, 익은 배젖은 단단한 우윳빛이다[2]. 크고 물에 뜨는 열매가 바닷물을 타고 퍼지는 것이 주된 확산 방식이다[9]. 씨가 열매에 붙은 채 싹을 틔우는 '잠재적 태생(crypto-vivipary)' 성질은 EM1·EM6 유전자의 기능 상실과 관련된다[7]. 열매껍질의 발달 방식은 다라수 무리(Borasseae)와 비슷하다[12]. 생육에 알맞은 최고 기온은 32–35 °C, 기후는 아습윤–습윤으로 보고되었다[4]."},
+ {"key": "related_species", "title": "근연종과 혼동 주의", "body":
+  "Nypa속은 니파야자 한 종뿐인 단형속이며, 핵 유전자(말산 합성효소) 분석의 한 결과에서 나머지 야자과 전체의 자매군으로 놓였다[11]. 국내 한 연구 논문은 니파야자를 천남성과(Araceae)로 적었으나, 다른 문헌과 식약처 목록 체계에서 이 종은 야자과 식물이다[1, 17, 23].\n\n"
+  "같은 '꽃액즙'을 받는 야자는 여럿이다[1, 15]. 식약처 「식품원료 목록」에서 코코넛(Cocos nucifera)은 꽃액즙·열매, 사탕야자(Arenga pinnata)는 열매·수액, 다라수(Borassus flabellifer)는 열매·씨·뿌리·꽃액즙, 공작야자(Caryota urens 등)는 수액이 사용가능부위로 올라 있다[1]. 코코넛·다라수·니파야자의 신선한 수액에서는 같은 효모 무리(Saccharomyces cerevisiae 등)가 나와 효모 군집 차이가 뚜렷하지 않았다[15]. 따라서 '야자 꽃액즙'이나 '팜 슈거'라는 이름만으로는 원료 종을 구별할 수 없다[1, 15]. 한편 같은 목록에서 빈랑자(Areca catechu)는 '사용불가'로 분류되어 있어, 야자과라도 지위가 다르다[1]. 니파야자를 해치는 해충 Octodonta nipae는 중국 남동부에서 다른 관상 야자에도 큰 피해를 주며 침입했다[24]."},
+ {"key": "cultivation", "title": "재배와 수확", "body":
+  "니파야자는 늘 물에 잠기는 강가·운하 옆의 염분 있는 진흙에서 잘 자라며, 뿌리가 넓게 퍼져 강둑 침식을 막는다[4]. 태국 최대 산지인 카납낙 지역에는 약 5.76 km²의 니파야자 숲이 있고, 389가구가 이에 기대어 살며, 나무 나이는 5–100년이다[4]. 방글라데시 남서부 일부 지역 농민은 이 식물을 환금작물로 밭에서 기르기도 한다[16].\n\n"
+  "꽃액즙은 꽃과 어린 열매를 떼어 낸 뒤 꽃대를 잘라 받는다[4]. 태국 산지에서는 1–3월에 수액 생산이 가장 많고, 2019년 가뭄 때는 개화가 줄었다[4]. 바닷물이나 민물이 지나치게 많아지는 염분 변화는 수액·설탕의 품질을 떨어뜨리는 주요 위험으로 꼽힌다[4]. 같은 니파야자 식초라도 민물·기수·해수 농장에 따라 총페놀과 아세트산 비율이 달랐다[21]. 해충으로는 니파야자 잎벌레(Octodonta nipae)가 알려져 있고, 방글라데시 해안에서는 침입성 가루이(Aleurodicus rugioperculatus)의 새 기주로 니파야자가 보고되었다[24, 29]. 국내 재배와 생산 통계는 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "꽃액즙은 상하기 쉬워, 위생적으로 받지 않으면 신선한 상태가 1–2시간밖에 가지 않는다[3]. 사라왁 시험에서 보존제가 없는 수액은 저장 중 당도가 17.00에서 11.1 °Brix로, pH가 5.52에서 4.21로 떨어졌다[3]. 소브산칼륨·메타중아황산나트륨 수용액을 채취 통에 미리 넣으면 발효가 늦춰져 품질 유지에 더 효과적이었다[3]. 태국에서는 쌉쌀한 폴리페놀이 든 키암(kiam) 나무 조각을 대통에 넣어 부패를 막는다[4]. 신선한 수액에서는 S. cerevisiae가 모든 시료에서 나왔고, 꽃액즙에서 새로운 효모 종도 분리되었다[15, 30].\n\n"
+  "수액을 졸이면 시럽, 더 졸여 식히며 저으면 당밀이 되며, 당밀 1 kg에 수액 5–6 L(방글라데시 보고는 7–8 L)가 든다[4]. 키암을 넣지 않은 수액을 10–15일 발효하면 식초가 되고, 다른 연구에서는 항아리에서 40일 자연 발효해 산도 4–5%의 식초를 얻었다[4, 5]. 니파야자 시럽과 식초 분말을 넣은 젤리는 시험관 혈당지수가 27.4였다[22].\n\n"
+  "열매는 4개월 된 것을 절이거나 카레에 넣고, 5–8개월 된 것은 디저트에 쓴다[4]. 익은 열매의 속씨를 데쳐(80 °C 5분) 말린 가루로 밀가루의 30%를 바꾸면 비스킷의 조섬유가 0.19%에서 1.35%로 늘었다[16]. 국내 「식품 등의 생산실적」 자료에서 니파야자 품목은 확인하지 못함."},
+ {"key": "genetics", "title": "유전과 계통", "body":
+  "2024년 니파야자의 염색체 수준 유전체가 해독되었고, 비교 분석에서 모든 야자의 공통 조상이 약 8,900만 년 전 전장 유전체 중복을 겪은 것이 확인되었다[7]. 니파야자 유전체는 돌연변이율이 낮고 강한 정화 선택을 받아 느리게 진화했으며, 오래된 중복 유전자 가운데 침수 내성 관련 유전자가 양성 선택을 받았다[7]. 앞선 전사체 연구는 45,368개 유전자 조각(unigene)을 조립했고, 니파야자와 다른 야자의 분기를 약 7,500만 년 전으로 추정했다[6].\n\n"
+  "집단 유전에서는 인도-서태평양 집단을 18개 미세부수체 표지로 분석한 결과 집단 분화가 컸고(FST 0.22131), 스리랑카 서쪽 집단과 동남아 동쪽 집단이 뚜렷이 갈렸다[8]. 말라카 해협은 유전자 흐름의 통로가 아니라 장벽으로 작용했고, 해류와 계절풍 역전이 유전적 경사를 만든 요인으로 제시되었다[8]. 필리핀 7개 해안 118개체 연구에서는 기대 이형접합도 0.584–0.719, 관찰 이형접합도 평균 0.376으로 이형접합 결핍이 뚜렷했고 두 개의 유전 집단이 확인되었다[9]. 팔라완이 주된 유입 지역으로 추정되어, 열매가 떠다니는 경로의 보전이 중요하다고 제안되었다[9]."},
+ {"key": "safety", "title": "안전성", "body":
+  "니파야자의 순·열매·꽃액즙은 식약처 「식품원료 목록」에서 사용가능 원료이며, 이 종에 대한 건강기능식품 고시형 원료의 섭취 시 주의사항은 확인하지 못함[1]. 알레르기, 잔류 농약·중금속에 관한 국내 공공기관 자료는 확인하지 못함.\n\n"
+  "꽃액즙은 당이 많아 미생물이 빨리 자라 저절로 발효되며, 발효가 진행되면 젖산·아세트산과 에탄올이 생긴다[3, 15]. 말레이시아 사바에서는 정수하지 않은 강물로 희석한 니파야자 술을 마신 사람들에게서 A형 간염이 집단 발생했다(오즈비 5.44)[13]. 수액을 받을 때 쓰는 메타중아황산나트륨은 아황산염 보존제이므로, 보존제 종류와 양을 확인할 필요가 있다[3].\n\n"
+  "열매 배젖은 단단해 잘 씹지 않고 삼키면 위험할 수 있으며, 싱가포르에서 attap chee와 닮은 위석(덩어리)이 소장을 막아 수술한 사례가 있다[14]. 익은 열매 속씨에는 시안화수소·탄닌·피트산·옥살산 같은 항영양 성분이 있으나 사람에게 위험한 농도는 넘지 않는다는 문헌이 인용되었다[16]. 식초 추출물과 잎·열매껍질 추출물의 효과는 대부분 동물·세포 실험이며, 사람 임상시험은 확인하지 못함[18–20, 27]."},
+]
+
+compounds = [
+ {"name": "Sucrose", "name_ko": "자당", "class": "이당류", "role": "nutrient", "part": "꽃액즙(수액)",
+  "content_text": "보존제 처리 수액 24시간 보관 후 149.0–150.0 g/L, 무처리 108.0 g/L; 무처리 수액 당도 17.00 → 11.1 °Brix[3]; 니파야자 시럽 고형분의 78.29%(인용 값)[4]",
+  "activity_ko": "수액 단맛의 주성분이며 설탕·당밀 원료; 발효 때 포도당·과당으로 분해되어 줄어듦[3, 4]", "source": [3, 4]},
+ {"name": "Glucose", "name_ko": "포도당", "class": "단당류", "role": "nutrient", "part": "꽃액즙(수액)",
+  "content_text": "24시간 보관 수액 19.5–26.7 g/L[3]; 시럽 고형분의 9.83%(인용 값)[4]",
+  "activity_ko": "자당 분해로 늘어나며 발효 진행의 지표[3]", "source": [3, 4]},
+ {"name": "Fructose", "name_ko": "과당", "class": "단당류", "role": "nutrient", "part": "꽃액즙(수액)",
+  "content_text": "24시간 보관 수액 31.8–38.1 g/L[3]; 시럽 고형분의 6.78%(인용 값)[4]",
+  "activity_ko": "자당 분해 산물[3]", "source": [3, 4]},
+ {"name": "Lactic acid", "name_ko": "젖산", "class": "유기산", "role": "marker", "part": "꽃액즙(수액)",
+  "content_text": "24시간 보관 후 무처리 1.10 g/L, 보존제 처리 0.93–0.97 g/L[3]",
+  "activity_ko": "젖산균 발효로 생기며 수액 신선도·발효 정도의 지표[3]", "source": [3]},
+ {"name": "Acetic acid", "name_ko": "아세트산", "class": "유기산", "role": "marker", "part": "꽃액즙(수액)·꽃액즙 발효 식초",
+  "content_text": "24시간 보관 수액 0.05–0.09 g/L[3]; 식초 수용성 추출물 성분 분석에서 35.25%[18]; 식초 산도 4–5%[5]",
+  "activity_ko": "식초의 주성분이며, 쥐 실험에서 식초 추출물의 혈당 저하 효과에 크게 기여한 성분으로 제시[18]", "source": [3, 5, 18]},
+ {"name": "Chlorogenic acid", "name_ko": "클로로젠산", "class": "페놀산", "role": "marker", "part": "열매 배젖",
+  "content_text": "덜 익은 배젖 14.5 ± 1.30 µg/g, 익은 배젖 9.7 ± 1.10 µg/g(건조 중량)[2]; 산지·부위 미상 50% 에탄올 추출물에서 검출[25]",
+  "activity_ko": "배젖 페놀 성분 가운데 가장 많음; 항산화 활성과 관련[2]", "source": [2, 25]},
+ {"name": "Protocatechuic acid", "name_ko": "프로토카테큐산", "class": "페놀산", "role": "bioactive", "part": "열매 배젖",
+  "content_text": "덜 익은 배젖 5.5 ± 0.40 µg/g, 익은 배젖 3.8 ± 0.50 µg/g[2]; 50% 에탄올 추출물에서 검출[25]",
+  "activity_ko": "배젖에서 두 번째로 많은 페놀; 피부 콜라겐 분해 억제 관련 성분으로 논의[2, 25]", "source": [2, 25]},
+ {"name": "Kaempferol", "name_ko": "캠페롤", "class": "플라보놀", "role": "bioactive", "part": "열매 배젖",
+  "content_text": "배젖 주요 페놀 3위(개별 수치는 표에 있어 확인 못함)[2]; 50% 에탄올 추출물에서 검출[25]",
+  "activity_ko": "항산화 플라보노이드[2]", "source": [2, 25]},
+ {"name": "Gallic acid", "name_ko": "갈산", "class": "페놀산", "role": "bioactive", "part": "꽃액즙 발효 식초",
+  "content_text": "식초 14.14 µg/mL[5]; 열매 배젖에서는 8종 가운데 가장 적음[2]",
+  "activity_ko": "식초에서 가장 많은 페놀; 췌장 라이페이스 억제 등 지질 저하 후보 성분[5]", "source": [2, 5]},
+ {"name": "Isoquercetin", "name_ko": "아이소퀘르세틴", "class": "플라보놀 배당체", "role": "bioactive", "part": "꽃액즙 발효 식초",
+  "content_text": "식초 11.27 µg/mL[5]",
+  "activity_ko": "식초의 지질 저하 후보 성분[5]", "source": [5]},
+ {"name": "Quercetin", "name_ko": "퀘르세틴", "class": "플라보놀", "role": "bioactive", "part": "꽃액즙 발효 식초·열매 배젖",
+  "content_text": "식초 10.33 µg/mL[5]; 배젖에서는 소량 검출[2]",
+  "activity_ko": "라이페이스 억제 보고가 있는 플라보노이드[5]", "source": [2, 5]},
+ {"name": "Catechin", "name_ko": "카테킨", "class": "플라반-3-올", "role": "bioactive", "part": "꽃액즙 발효 식초",
+  "content_text": "식초 8.61 µg/mL[5]; 50% 에탄올 추출물(부위 미상)에서 검출[25]",
+  "activity_ko": "콜레스테롤 흡수 억제 후보 성분[5]", "source": [5, 25]},
+ {"name": "Rutin", "name_ko": "루틴", "class": "플라보놀 배당체", "role": "bioactive", "part": "꽃액즙 발효 식초·열매 배젖",
+  "content_text": "식초 6.67 µg/mL[5]; 배젖에서 소량, 덜 익은 배젖이 더 많음[2]",
+  "activity_ko": "항산화 플라보노이드[2, 5]", "source": [2, 5]},
+ {"name": "Pengxianencin A", "name_ko": "펑셴엔신 A", "class": "쿠쿠르비탄 트라이터페노이드", "role": "bioactive", "part": "부위 미상(국내 온라인 구입 시료)",
+  "content_text": "50% 에탄올 추출물 HPLC-MS의 주 피크(m/z 578.37)로 동정, 함량 미보고[25]",
+  "activity_ko": "추출물 항광노화 활성의 주성분으로 제시[25]", "source": [25]},
+]
+
+nutrients = [
+ {"form": "꽃액즙(수액), 채취 전 보존제를 넣고 받아 24시간 보관(말레이시아 사라왁)", "basis": "1 L당",
+  "items": [{"name": "총당", "value": 200.8, "unit": "g"}, {"name": "자당", "value": 149.0, "unit": "g"},
+            {"name": "포도당", "value": 19.7, "unit": "g"}, {"name": "과당", "value": 32.1, "unit": "g"},
+            {"name": "젖산", "value": 0.93, "unit": "g"}, {"name": "아세트산", "value": 0.05, "unit": "g"}],
+  "source": [3]},
+]
+
+E = {k: "" for k in ["instrument","column","mobile_phase","gradient","flow","temp","detection","injection","sample_prep","standard","linearity","lod","loq","recovery"]}
+def cond(**kw):
+    c = dict(E); c.update(kw); return c
+
+assays = [
+ {"role": "literature", "compound": "Chlorogenic acid", "compound_ko": "클로로젠산(프로토카테큐산·캠페롤 등 페놀 8종 동시 정량)", "part": "열매 배젖(덜 익은 것·익은 것)",
+  "content": "덜 익은 배젖 14.5 ± 1.30 µg/g, 익은 배젖 9.7 ± 1.10 µg/g; 프로토카테큐산 5.5 ± 0.40 / 3.8 ± 0.50 µg/g(건조 중량)[2]",
+  "method": "UHPLC-DAD",
+  "conditions": cond(instrument="Agilent 1290 Infinity LC(이원 펌프·다이오드 배열 검출기·자동주입기)",
+    column="Zorbax Eclipse C18, 50 mm × 2.1 mm, 1.8 µm", mobile_phase="A 0.1% 트라이플루오로아세트산, B 아세토나이트릴",
+    gradient="15% B 6분 → 25% B 3분 → 60% B 3분 → 80% B 0.6분 → 100% B 0.8분(총 14분)", flow="0.6 mL/min", temp="25 °C",
+    detection="DAD 280 nm", injection="5 µL",
+    sample_prep="배젖 150 g 60 °C 항량 건조 → 분쇄·20 mesh → 분말 10 g + 50% 에탄올 100 mL, 400 rpm 30 °C 1시간 → Whatman No.4 여과 → 농축·동결건조, −20 °C 보관",
+    standard="Sigma-Aldrich 표준품; 머무름 시간·UV-Vis 스펙트럼 비교로 동정, 표준 검량선으로 정량"),
+  "rationale": "열매 배젖에서 가장 많은 페놀이며 덜 익은 열매일수록 많아 숙도와 항산화능 비교에 쓰임; 전문 확인, 직선성·검출한계·회수율은 원문에 없음[2].",
+  "source": [2], "url": doi("10.1155/2013/154606"), "source_kind": "paper"},
+ {"role": "literature", "compound": "Lactic acid", "compound_ko": "젖산(아세트산 동시 분석; 당은 굴절계·DNS법)", "part": "꽃액즙(수액)",
+  "content": "24시간 보관 후 젖산 무처리 1.10 ± 0.01 g/L, 보존제 처리 0.93–0.97 g/L; 아세트산 0.09 / 0.05–0.07 g/L; 자당 108.0–150.0 g/L[3]",
+  "method": "HPLC(유기산); 굴절계 °Brix(자당), DNS 비색법(환원당)",
+  "conditions": cond(mobile_phase="0.005 M 황산", flow="0.8 mL/min", temp="칼럼 60 °C",
+    sample_prep="사라왁 9그루에서 저녁에 꽃대를 자른 뒤 12시간 받은 수액; 보존제(소브산칼륨·메타중아황산나트륨 수용액) 채취 전·후 첨가군과 무처리군, 24시간 보관 후 분석"),
+  "rationale": "수액은 받자마자 발효가 시작되어 자당이 줄고 젖산·아세트산이 늘므로 이 성분들이 신선도·보존 효과의 지표로 쓰임; 전문 확인, 칼럼·검출기·검출한계는 원문에 없고 선행 문헌 방법을 따름[3].",
+  "source": [3], "url": doi("10.1186/s13104-024-07039-5"), "source_kind": "paper"},
+ {"role": "literature", "compound": "Gallic acid", "compound_ko": "갈산(아이소퀘르세틴·퀘르세틴·카테킨·루틴 동시 정량)", "part": "꽃액즙 발효 식초",
+  "content": "갈산 14.14, 아이소퀘르세틴 11.27, 퀘르세틴 10.33, 카테킨 8.61, 루틴 6.67 µg/mL; 총페놀 167.10 ± 10.15 µg GAE/mL[5]",
+  "method": "LC-MS(외부 분석기관 의뢰)",
+  "conditions": cond(detection="MS, 질량범위 m/z 100–700",
+    sample_prep="태국 나콘시탐마랏 팍파낭 꽃대 수액을 토기 항아리에서 실온 40일 자연 발효(산도 4–5%)",
+    standard="Sigma-Aldrich 갈산(≥99%)·카테킨(≥98%)·루틴(≥94%)·아이소퀘르세틴(98%)·퀘르세틴(95%) 등 10종"),
+  "rationale": "식초에서 가장 많은 페놀로 지질 소화효소 억제 활성의 후보 성분; 전문 확인, 칼럼·이동상·이온화 방식은 원문에 구체적으로 없음[5].",
+  "source": [5], "url": doi("10.1155/2020/6769726"), "source_kind": "paper"},
+]
+
+d = {
+ "slug": "nypa-fruticans", "name_ko": "니파야자", "name_en": "Nipa palm (mangrove palm, water coconut)",
+ "scientific_name": "Nypa fruticans Wurmb",
+ "aliases": ["니파야자꽃액즙", "니파야자열매", "니파야자순", "니파야자분말", "니파야자농축액", "니파야자추출액",
+             "Nipa Palm", "Mangrove palm", "nipah", "Water Coconut", "nipa", "golpata", "attap chee"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": nutrients, "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+out = Path(__file__).resolve().parent.parent / "dossier.json"
+out.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

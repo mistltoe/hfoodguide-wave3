@@ -1,0 +1,128 @@
+{
+ "slug": "pangasius-hypophthalmus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 64,
+ "checked_items": 31,
+ "verified": 84,
+ "fixed": 16,
+ "removed": 1,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.processing",
+   "before": " 언론 보도로는 피부 보습 등 피부 건강 기능성으로 인정받았다[31].",
+   "after": "(삭제)",
+   "why": "[31]은 기사 본문을 열지 않고 검색 요약만 본 업체 발표 보도라 근거가 약하고, 인정 기능성 원문(식약처)을 이 환경에서 확인하지 못해 삭제"
+  },
+  {
+   "where": "sections.processing",
+   "before": "1 kDa 미만 효소 분해 분획은 ACE 저해 활성을 보였다[27]",
+   "after": "1 kDa 미만 효소 분해 분획은 시험관에서 ACE 저해 활성을 보였다[27]",
+   "why": "[27]은 시험관(in vitro) 결과임을 명시"
+  },
+  {
+   "where": "sections.biology",
+   "before": "다만 수출용 필레는 지방이 1.1–3.0%로",
+   "after": "다만 이탈리아에 유통된 베트남산 필레는 지방이 1.1–3.0%로",
+   "why": "[7]은 이탈리아 시장 유통 필레를 분석"
+  },
+  {
+   "where": "sections.safety",
+   "before": "브라질 유통 필레 40점 중 5점에서 항균제가 나왔다[9].",
+   "after": "브라질 유통 베트남산 필레 40점 중 5점에서 엔로플록사신이 낮은 농도로 나왔다[9].",
+   "why": "[9] 초록: 검출 성분은 엔로플록사신"
+  },
+  {
+   "where": "sections.safety",
+   "before": "인도 유통 시료의 농약 잔류는 허용 섭취량보다 낮았다[12].",
+   "after": "인도에서 국내산·베트남 수입산 148점을 조사한 결과 일부 농약이 검출됐지만 섭취 노출량은 최대 허용 섭취량보다 낮았다[12].",
+   "why": "[12] 초록: 148점, 38%에서 농약 검출, 노출량은 허용치 미만"
+  },
+  {
+   "where": "compounds[Palmitic acid].name",
+   "before": "Palmitic acid",
+   "after": "Saturated fatty acids",
+   "why": "[7]은 팔미트산이 아니라 포화지방산 총량(41.1–47.8%)만 보고; name_ko와 맞춤"
+  },
+  {
+   "where": "compounds[Hydroxyproline].name",
+   "before": "Hydroxyproline",
+   "after": "Imino acids (proline + hydroxyproline)",
+   "why": "[28]의 17.37 g/100 g은 이미노산(프롤린+하이드록시프롤린) 합계; name_ko와 맞춤"
+  },
+  {
+   "where": "compounds[Sodium tripolyphosphate].name",
+   "before": "Sodium tripolyphosphate",
+   "after": "Polyphosphates (pyrophosphate + tripolyphosphate)",
+   "why": "[4]는 피로인산염+삼인산염 합계로 측정"
+  },
+  {
+   "where": "compounds[Collagen tripeptide].activity_ko",
+   "before": "1일 1,000 mg 12주 섭취 시 피부 수분·탄력 개선(무작위 대조 시험, 78명 완료)[25]",
+   "after": "1일 1,000 mg 12주 섭취 시 피부 수분·탄력 개선(광노화 피부 여성 대상 무작위 대조 시험, 78명 완료; 비타민 C 등이 든 음료 형태)[25]",
+   "why": "[25] 전문: 대상은 35–60세 여성, 시험 음료에 비타민 C 0.2%·과일 농축액 함유"
+  },
+  {
+   "where": "assays[3].content",
+   "before": "브라질 유통 베트남산 필레 40점 중 5점에서 검출(성분별 수치는 초록에 없음) [9]",
+   "after": "브라질 유통 베트남산 필레 40점 중 5점에서 엔로플록사신 저농도 검출(수치는 초록에 없음) [9]",
+   "why": "[9] 초록: 검출 성분은 엔로플록사신"
+  },
+  {
+   "where": "sources[4].title",
+   "before": "Food Sci Nutr 2016;4(4)",
+   "after": "Food Sci Nutr 2016;4(3):398-408",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[5].title",
+   "before": "Chemosphere 2018;196:9-14",
+   "after": "Chemosphere 2018;196:53-57",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[6].title",
+   "before": "2012;29(8)",
+   "after": "2012;29(7):1046-51",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[8].title",
+   "before": "J Sci Food Agric 2015;95(13)",
+   "after": "J Sci Food Agric 2016;96(4):1373-9",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[20].title",
+   "before": "2014;49(1)",
+   "after": "2014;49(2):187-92",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[21].title",
+   "before": "J Food Sci Technol 2020;57(3)",
+   "after": "J Food Sci Technol 2020;57(4):1320-1330",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources[28].title",
+   "before": "J Food Sci Technol 2014;51(10)",
+   "after": "J Food Sci Technol 2014;51(11):3104-13",
+   "why": "PubMed 서지(권·호·쪽) 불일치"
+  },
+  {
+   "where": "sources",
+   "before": "[31] 한국경제 2023-03-29 보도(검색 요약만)",
+   "after": "(삭제, 이후 번호 32–37 → 31–36)",
+   "why": "인용 문장 삭제로 쓰지 않는 출처"
+  }
+ ],
+ "unverifiable_notes": [
+  "[30] IUCN 적색목록(2011, Endangered)은 이 환경에서 IUCN 페이지를 열지 않아 원문 대조 못함 — 작성자 표기(검색 요약으로만 확인)대로 남김",
+  "식품원료 지위·이명·부위·조건, 개별인정 2건(제2023-10호·제2023-14호)의 사용 조건은 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 원 행과 일치 확인; 같은 속 퍼시픽도리(P. bocourti)·흑점메기·동남아메기·Pangas catfish는 별도 행이며 본문에 섞이지 않음",
+  "생산실적 금액(2,577,127·888,072·1,030,414천원 → 25.8·8.9·10.3억 원)과 톤수는 docs/stats/hf_items.csv 원 행과 일치",
+  "[4]·[23]·[25]는 PMC 전문, 나머지 논문은 PubMed 초록으로 대조; [23] 전문은 학명 표기가 추출 과정에서 빠져 원료 종은 [24](P. hypophthalmus 명시)·[25](베트남산 판가시우스)로 확인",
+  "잔류 동물용의약품·중금속·수은 자료는 모두 이 종(P. hypophthalmus/Pangasianodon hypophthalmus) 시료 논문임을 확인; [29] ELISA는 tra·basa를 함께 다루나 tra 검출 한계(0.1%)만 이 종 값으로 씀"
+ ]
+}

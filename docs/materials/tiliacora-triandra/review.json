@@ -1,0 +1,112 @@
+{
+ "slug": "tiliacora-triandra",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 76,
+ "checked_items": 56,
+ "verified": 113,
+ "fixed": 14,
+ "removed": 1,
+ "unverifiable": 4,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "한편 이 종의 대표 성분으로 알려진 비스벤질이소퀴놀린 알칼로이드(틸리아코리닌 등)는 주로 뿌리·줄기에서 분리·정량되었고, 잎이나 잎 즙의 알칼로이드 함량을 정량한 자료는 확인하지 못했다[8, 9].",
+   "after": "한편 이 종의 대표 성분으로 알려진 비스벤질이소퀴놀린 알칼로이드(틸리아코리닌 등)는 주로 뿌리·줄기와 지상부에서 분리되었고, 잎이나 잎 즙의 알칼로이드 함량을 정량한 자료는 확인하지 못했다[8, 9, 10].",
+   "why": "[10] 초록은 새 알칼로이드를 지상부(aerial parts)에서 분리했다고 씀 — 잎이 포함될 수 있는 부위라 함께 밝힘"
+  },
+  {
+   "where": "sections.overview",
+   "before": "사람 연구는 다른 식물과 섞은 제품의 소규모 시험 정도다[3, 16].",
+   "after": "사람 연구는 다른 식물과 섞은 제품의 소규모 시험 정도다[16].",
+   "why": "[3] 은 HepG2 세포·쥐 연구로 사람 시험이 없음"
+  },
+  {
+   "where": "sections.history",
+   "before": "태국과 라오스에서 흔히 먹는 채소로, 태국 논문에서는 '태국 토종 채소'로 소개한다[29, 30].",
+   "after": "태국과 라오스에서 흔히 먹는 채소이며[30], 태국 논문에서는 '태국 토종 채소(local Thai vegetable)'로 소개한다[29].",
+   "why": "[30] 은 'common vegetable consumed in Thailand and Laos', [29] 는 'local Thai vegetable' — 출처별로 나눔"
+  },
+  {
+   "where": "sections.history",
+   "before": "이 처방은 태국 국가필수의약품 목록(한약 제제 목록)에 올라 있다[13].",
+   "after": "이 처방은 태국 국가필수의약품 목록(생약 제품 목록, Herbal Products list)에 올라 있다[13].",
+   "why": "[13] 원문 'Herbal Products list' — '한약'은 부정확"
+  },
+  {
+   "where": "sections.history",
+   "before": "성분 연구는 1967년 라오스산 방기과 식물 두 종의 알칼로이드를 다룬 프랑스 논문에서 시작되었다[12].",
+   "after": "PubMed에서 확인되는 이 종의 가장 이른 성분 논문은 1967년 라오스산 방기과 식물 두 종(Cyclea barbata와 야낭)의 알칼로이드를 다룬 프랑스 논문이다[12].",
+   "why": "[12] 는 제목만 있어 '연구의 시작'임을 뒷받침하지 못함 — PubMed 수록 기준으로 약하게 씀"
+  },
+  {
+   "where": "sections.biology",
+   "before": "화학적으로는 비스벤질이소퀴놀린 알칼로이드가 Tiliacora 속의 주요 성분군이다[17].",
+   "after": "화학적으로는 알칼로이드가 Tiliacora 속에서 분리된 성분 가운데 가장 큰 무리다[17].",
+   "why": "[17] 초록은 'alkaloids constitute the major class'라고만 하고 비스벤질이소퀴놀린으로 한정하지 않음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이처럼 속 전체가 알칼로이드를 많이 만드는 식물군이다[17].",
+   "after": "속 총설도 이 속에서 분리된 성분 가운데 알칼로이드가 가장 큰 무리라고 정리한다[17].",
+   "why": "[17] 은 분리 성분의 주요 계열을 말할 뿐 '많이 만든다'는 양적 주장은 없음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "태국에서는 야낭 잎을 펠릿으로 만들어 소·물소 사료에 섞어 반추위 발효와 메탄 발생을 살핀 연구가 여러 건 있다[22]. 하루 150 g까지 펠릿을 먹인 태국 토종 소에서 볏짚 섭취량과 미생물 수가 늘고 메탄 생성이 줄었다[22].",
+   "after": "태국에서는 야낭(bamboo grass) 펠릿을 볏짚을 먹는 태국 토종 소에 보충해 반추위 발효와 메탄 발생을 살핀 연구가 있다[22]. 하루 0·50·100·150 g을 비교한 시험에서 150 g 보충 시 볏짚 섭취량과 미생물 수가 늘고 메탄 생성이 줄었다[22].",
+   "why": "[22] 는 소 4마리 한 건의 시험 — '물소'·'여러 건'은 출처에 없음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "발효 잎 추출물과 유산균을 함께 미세캡슐화한 사료 첨가물을 육계에 먹인 연구도 있다[31].",
+   "after": "잎 추출물과 유산균(Lactiplantibacillus plantarum V202)을 이중층으로 미세캡슐화한 사료 첨가물을 육계에 먹인 연구도 있다[31].",
+   "why": "[31] 초록에 '발효' 잎 추출물이라는 말이 없음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "잎에서는 내생 곰팡이 Dothideomycete sp.가 분리되어 새 폴리케타이드를 만드는 균주로 연구되었다[27].",
+   "after": "야낭에서 분리한 내생 곰팡이 Dothideomycete sp.는 새 폴리케타이드를 만드는 균주로 연구되었다[27].",
+   "why": "[27] 초록은 식물에서 분리했다고만 하고 부위(잎)를 밝히지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "잎 즙의 알칼로이드 근거를 찾아본 결과, 비스벤질이소퀴놀린 알칼로이드 분리·정량 논문은 뿌리·줄기 또는 지상부를 대상으로 했고, 잎 즙이나 잎의 알칼로이드 함량을 정량한 논문은 확인하지 못했다[8, 9, 10].",
+   "after": "잎 즙의 알칼로이드 근거를 찾아본 결과, 비스벤질이소퀴놀린 알칼로이드 분리·정량 논문은 뿌리·줄기[8, 9] 또는 지상부[10]를 대상으로 했고(지상부 논문 초록은 잎을 따로 나누지 않음), 잎 즙(남야낭)이나 잎의 알칼로이드 함량을 정량한 논문은 확인하지 못했다. 잎 물 추출물을 LC-QTOF-MS/MS로 정성 분석한 두 연구도 본문에 폴리페놀·아미노산 등을 나열했을 뿐 비스벤질이소퀴놀린 알칼로이드는 보고하지 않았다[4, 5].",
+   "why": "[10] 지상부 범위를 밝히고, [4]·[5] 전문의 정성 분석 목록에 비스벤질이소퀴놀린 알칼로이드가 없음을 덧붙임(잎 즙 알칼로이드 근거 점검)"
+  },
+  {
+   "where": "assays[0].conditions.gradient",
+   "before": "원문 표에 제시(전문 텍스트에서 내용 확인 못함)",
+   "after": "",
+   "why": "원문은 기울기 표를 참조만 하고 전문 텍스트에 내용이 없음 — 원문에 없는 칸은 비움"
+  },
+  {
+   "where": "sources[20].title",
+   "before": "Biochim Biophys Acta Gen Subj 2023;1868:130486",
+   "after": "Biochim Biophys Acta Gen Subj 2023;1867(12):130486",
+   "why": "PubMed 서지: 1867권 12호"
+  },
+  {
+   "where": "sources[22].title",
+   "before": "Asian-Australas J Anim Sci 2019.",
+   "after": "Asian-Australas J Anim Sci 2019;32(8):1153-1160.",
+   "why": "PubMed 서지로 권·쪽 보충"
+  },
+  {
+   "where": "sources[32].title",
+   "before": "Biomed Pharmacother 2018.",
+   "after": "Biomed Pharmacother 2019;109:2090-2099.",
+   "why": "PubMed 서지: 109권 2090-2099쪽(온라인 2018)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[11] Tilitriandrin(Planta Med 1988)·[12] Ann Pharm Fr 1967 는 PubMed 에 초록이 없어 제목·서지로만 확인",
+  "[7] AJTCAM 2014 는 PubMed 초록으로만 확인(동남아 분포·물 추출 적합·캡슐화 조건 1:4, 10%, 160 °C 일치)",
+  "옥소아놀로빈의 잎 분리는 [2] 전문의 문헌 인용으로만 확인, 원 논문은 열지 못함",
+  "잎 물 추출물 90일 아만성 독성(300·600·1,200 mg/kg)은 [4] 전문의 인용으로만 확인, 원 독성 논문은 직접 확인하지 못함",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 야낭잎·야낭잎추출물·야낭주스(Tiliacora triandra, Yanang) 모두 사용가능, '사용가능부위 : 잎' — card.json 의 parts·conditions 와 일치; 방기과 비교 원료(물방기뿌리·Cocculus orbiculatus잎 사용가능, 댕댕이덩굴·방기덩굴성줄기·방기뿌리줄기·쿠라레 사용불가, C코드 목방기·방기·투보쿠라린 '건강기능식품 제조에 사용할 수 없는 원료')도 원 행과 일치; 이 종의 C코드(고시형) 행 없음",
+  "잎 즙 알칼로이드: 비스벤질이소퀴놀린 분리 논문은 뿌리([8] MeSH Plant Roots)·줄기·뿌리([9] BLW 처방)·지상부([10])뿐이고 잎 즙 정량 자료는 PubMed 에서 찾지 못함; [21] 잎 추출물 LC-QTOF 12 대사물 중 '알칼로이드'는 초록에 이름·함량 없음",
+  "NCBI eutils·PMC 웹·doi.org 는 프록시 차단으로 열지 않았고 PubMed 도구로만 대조함(WebSearch 0회)"
+ ]
+}

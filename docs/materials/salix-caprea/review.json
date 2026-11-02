@@ -1,0 +1,140 @@
+{
+ "slug": "salix-caprea",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 71,
+ "checked_items": 51,
+ "verified": 100,
+ "fixed": 19,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.history",
+   "before": "유럽 전통의학에서 호랑버들 추출물은",
+   "after": "전통의학에서 호랑버들 추출물은",
+   "why": "[22] 원문은 \"In traditional medicine\"이라고만 쓰고 유럽으로 한정하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "호랑버들 겨울눈 추출물이",
+   "after": "호랑버들 눈(bud) 추출물이",
+   "why": "[8] 원문은 bud extracts; 겨울눈으로 한정할 근거 없음"
+  },
+  {
+   "where": "sections.history",
+   "before": "이탈리아 칼라브리아의 양치기들은 호랑버들 껍질과 잎을 물에 30일 담근 침출액을 양의 위장관 선충 구제에 써 왔다[22].",
+   "after": "이탈리아 칼라브리아의 한 노년 목양 농가는 대대로 전해 온 처방에 따라 호랑버들 껍질과 잎을 끓여 식힌 물에 30일 담근 침출액을 양의 위장관 선충 구제에 썼다[22].",
+   "why": "[22] 전문: 105개 농가 설문 중 한 농가가 쓰던 침출액이며 노년 농부가 옛 처방대로 만듦(양치기 일반의 관행으로 일반화된 표현 수정)"
+  },
+  {
+   "where": "sections.biology",
+   "before": "추위에 강한 개척종으로 교란지에 먼저 들어오며[14]",
+   "after": "추위에 강한 개척종(pioneer species)이며[14]",
+   "why": "[14] 초록은 cold-tolerant pioneer species라고만 씀; 교란지 진입 서술은 출처에 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "흰버드나무(Salix alba L.)와 수양버들(Salix babylonica)은 '사용불가'로 올라 있다[1].",
+   "after": "흰버드나무(Salix alba L.)와 수양버들(Salix babylonica)은 '사용불가'로 올라 있다(다만 Salix alba의 변종·품종 행인 Golden willow순추출분말·Cricket bat willow순은 순이 사용가능)[1].",
+   "why": "I1020 원자료에 S. alba var. vitellina·S. alba caerulea 순 행이 사용가능으로 따로 있어 S. alba 전체가 사용불가로 읽히지 않게 보완"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "영국에서는 S. cinerea와 함께 '샐로(sallow)'로 묶여 거래된다[19].",
+   "after": "영국산 묘목 위험평가에서 호랑버들과 S. cinerea는 함께 평가되었고 둘 다 'common sallow'라는 영어 이름을 갖는다[19].",
+   "why": "[19] 전문은 두 종의 영어 일반명에 common sallow가 공통으로 있다고만 씀; \"묶여 거래된다\"는 과장"
+  },
+  {
+   "where": "sections.processing",
+   "before": "겨울눈은 추출물(SCBEs)로 만들어 세포 실험에 썼고[8]",
+   "after": "눈(bud)은 추출물(SCBEs)로 만들어 생쥐 크롬친화세포 실험에 썼고[8]",
+   "why": "[8] 원문은 bud extracts, 실험계는 mouse chromaffin cells"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "금속 적응 유전형의 잎에서는 시스테인 합성 유전자가 늘 더 많이 발현되었다[26].",
+   "after": "금속 적응 유전형의 잎에서는 시스테인 합성 유전자 하나가 늘(구성적으로) 더 많이 발현되었다[26].",
+   "why": "[26] 초록은 a cysteine biosynthesis gene(1개)이라고 씀"
+  },
+  {
+   "where": "sections.safety",
+   "before": "버드나무류 껍질의 살리신(아스피린과 비슷한 작용의 원료 물질)은 이 원료와 부위가 다르다는 점에 유의해야 한다[1, 4].",
+   "after": "버드나무류 껍질의 살리신(분자 도킹 계산에서 COX-2 결합 친화도가 아세틸살리실산과 비슷하게 나온 성분)은 나무껍질 성분이며, 식용 부위인 순과는 부위가 다르다는 점에 유의해야 한다[1, 4].",
+   "why": "[4] 은 도킹 계산 결과만 말함; \"아스피린과 비슷한 작용\"은 과장이라 계산 결과로 한정"
+  },
+  {
+   "where": "sections.safety",
+   "before": "피부 발암 억제 효과[23]는",
+   "after": "피부에 바른 추출물의 발암 억제 효과[23]는",
+   "why": "[23] 은 생쥐 피부 도포 실험(0.5–1.5 mg/kg/0.2 ml acetone)"
+  },
+  {
+   "where": "compounds.Proanthocyanidins.activity_ko",
+   "before": "프로시아니딘·프로델피니딘형 탄닌으로 양 위선충 탈피 억제 시험의 모델 탄닌으로 쓰임[25]",
+   "after": "호랑버들 잎에서 분리한 탄닌이 양 위선충 탈피 억제 시험관 시험의 모델 탄닌 가운데 하나로 쓰임[25]",
+   "why": "[25] 초록은 여러 식물(피나무 꽃·호랑버들 잎·까치밥나무 잎)의 탄닌이 합쳐 PC·PD형을 대표한다고 씀; 호랑버들 탄닌 자체의 PC/PD형은 초록에 없음"
+  },
+  {
+   "where": "compounds.Hexahydrofarnesyl acetone.class",
+   "before": "세스퀴테르페노이드 케톤",
+   "after": "C18 아이소프레노이드 케톤",
+   "why": "6,10,14-트라이메틸펜타데칸-2-온(C18)으로 세스퀴테르페노이드(C15)가 아님"
+  },
+  {
+   "where": "compounds.triterpene.part",
+   "before": "부위 미상(저극성 용매 추출물)",
+   "after": "꽃으로 색인됨(초록에는 부위 명시 없음, 저극성 용매 추출물)",
+   "why": "[24] PubMed MeSH 색인에 Flowers가 있음"
+  },
+  {
+   "where": "assays[0].content",
+   "before": "; S. caprea 수치는 초록에 없음(비교 범위: S. purpurea 0.1–2.6 mg/g, S. alba 3.8–14.7 mg/g)[6]",
+   "after": "; S. caprea 수치는 초록에 없음[6]",
+   "why": "다른 종(S. purpurea, S. alba) 수치를 이 종 함량 칸에 두면 섞여 읽힘 — 삭제"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "잎·당년생 새순(this year's sprouts)",
+   "after": "잎·당년생 새가지(this year's sprouts)",
+   "why": "sprouts는 그해 자란 새 줄기로, 식품원료의 순과 같은 것인지 원문으로 확인 못함"
+  },
+  {
+   "where": "assays[0].rationale",
+   "before": "식용 부위인 순(당년생 새순)을 직접 분석한 유일한 연구로, 호랑버들 잎·순은 살리실레이트보다 축합형 탄닌이 특징적이다; 초록만 확인, 전문 확인 못함[6, 5]",
+   "after": "식용 부위인 순에 가까운 당년생 새가지(this year's sprouts)를 잎과 함께 분석한 연구이며, 호랑버들 잎은 페놀배당체보다 축합형 탄닌이 많다는 보고가 있다[6, 5]; 초록만 확인, 전문 확인 못함",
+   "why": "\"유일한 연구\"·\"순을 직접 분석\"은 확인 불가한 과장; [5] 는 잎만 분석"
+  },
+  {
+   "where": "assays[2].conditions.instrument",
+   "before": "Agilent 1290 Infinity II UHPLC + G6545B Q-TOF MS(이중 ESI)",
+   "after": "UHPLC–Q-TOF 질량분석기(이중 ESI 이온원)",
+   "why": "상표명 대신 일반명"
+  },
+  {
+   "where": "compounds.Proanthocyanidins.part",
+   "before": "잎·당년생 새순",
+   "after": "잎·당년생 새가지",
+   "why": "assays 와 같은 표현으로 정리(sprouts)"
+  },
+  {
+   "where": "compounds.Proanthocyanidins.content_text",
+   "before": "잎과 당년생 새순의",
+   "after": "잎과 당년생 새가지의",
+   "why": "같은 이유"
+  },
+  {
+   "where": "sources[29].title",
+   "before": "BMC Res Notes 2022 (PMID",
+   "after": "BMC Res Notes 2022;15(1):317 (PMID",
+   "why": "PubMed 서지 정보로 권·호·쪽 보완"
+  }
+ ],
+ "unverifiable_notes": [
+  "[4] Acta Chim Slov 2019 와 [6] Phytochemistry 2017 은 PMC 전문이 없어 assays 의 HPLC 세부 조건(칼럼·이동상·검출 등)은 초록만으로 확인했고, 빈칸은 그대로 둠",
+  "[19] EFSA 전문의 거래량(꺾꽂이 2000개·맨뿌리 25,000그루·화분 20,000그루)과 병해충 3종은 작성자가 PubMed 도구로 받아 둔 _work/efsa.json 전문(PMC12035543)의 Table 4·6 에서 대조함",
+  "[3] PMC9824127 전문은 PubMed 도구로 다시 받아 3.3.7절(1.5 kg→110.8 g, 10.3 g MPLC, P4 507 mg, 27% MeOH, 11.8 mg, tR 45.0분, m/z 321 [M+H]+)과 초록의 종 순서(7번째 S. caprea→화합물 7 dihydromyricetin)로 대응을 확인함",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 의 호랑버들순 행(사용가능, '사용가능부위 : 순')과 card.json 이 일치함을 확인; 같은 속 버드나무(제한적사용: 가지·가지껍질)·흰버드나무/수양버들(사용불가)·갯버들(열매)·트리안드라버들/애깁티아카버들/Violet willow(S. daphnoides) 순 행도 대조함",
+  "docs/stats 의 특용작물·지역작물·hf_items 파일에 호랑버들 품목이 없음을 확인"
+ ]
+}

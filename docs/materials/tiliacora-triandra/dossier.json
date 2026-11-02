@@ -1,0 +1,543 @@
+{
+ "slug": "tiliacora-triandra",
+ "name_ko": "야낭",
+ "name_en": "Yanang (bamboo grass)",
+ "scientific_name": "Tiliacora triandra (Colebr.) Diels",
+ "aliases": [
+  "야낭잎",
+  "야낭잎추출물",
+  "야낭주스",
+  "Yanang",
+  "Ya-nang",
+  "bamboo grass"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "야낭(Tiliacora triandra)은 방기과(Menispermaceae)에 속하는 동남아시아 원산 식물로, 특히 태국 동북부와 라오스에서 잎을 음식과 전통 약으로 써 왔다[2]. 식약처 「식품원료 목록」에는 원료명 '야낭잎', '야낭잎추출물', '야낭주스'가 영어 이름 Yanang, 학명 Tiliacora triandra로 올라 있다[1]. 세 원료 모두 식품에 쓸 수 있는 원료(사용가능)이며, 사용 조건은 '사용가능부위 : 잎'으로 잎만 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 목록에서 확인되지 않는다[1].\n\n태국과 라오스에서는 잎을 물에 넣고 손으로 비벼 짠 녹색 즙(남야낭)을 죽순 수프와 죽순 샐러드에 넣는다[2]. 잎에는 자일란이라는 다당류 검이 많아 국물을 걸쭉하게 만드는 역할을 한다[6]. 잎 추출물에서는 에피카테킨·퀘르세틴 같은 플라보노이드와 시나프산·p-쿠마르산 같은 페놀산이 정량되었다[2, 3]. 한편 이 종의 대표 성분으로 알려진 비스벤질이소퀴놀린 알칼로이드(틸리아코리닌 등)는 주로 뿌리·줄기와 지상부에서 분리되었고, 잎이나 잎 즙의 알칼로이드 함량을 정량한 자료는 확인하지 못했다[8, 9, 10]. 항산화·혈당·신경 보호 작용은 대부분 세포·동물 연구 결과이며, 장 세포(Caco-2)에서 잎 메탄올 추출물이 콜레스테롤 흡수를 약 48% 줄였다는 보고도 시험관 결과다[14]. 사람 연구는 다른 식물과 섞은 제품의 소규모 시험 정도다[16]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "야낭 잎은 태국 동북부와 라오스에서 채소이자 약초로 알려져 왔다[7]. 태국과 라오스에서 흔히 먹는 채소이며[30], 태국 논문에서는 '태국 토종 채소(local Thai vegetable)'로 소개한다[29]. 잎을 물과 함께 비벼 만든 즙은 죽순 요리의 국물 재료로 쓰이고, 전통 의학에서는 열·말라리아를 다스리고 해독·해열하는 약으로도 썼다[2]. 태국 논문은 야낭을 '해독 식물(anti-intoxication plant)'로 소개하기도 한다[28].\n\n뿌리는 태국 전통 해열 처방 벤차로카위찬(Benchalokawichian)의 다섯 약재 가운데 하나로 들어가며, 이 처방은 태국 국가필수의약품 목록(생약 제품 목록, Herbal Products list)에 올라 있다[13]. 같은 처방의 뿌리 대신 줄기를 쓰는 관행이 있어 두 부위의 항말라리아 활성을 비교한 연구도 있다[9]. 피부 질환에 쓰는 태국 전통 처방 하락(Ha-rak)에도 야낭 뿌리가 같은 비율로 들어간다[33].\n\nPubMed에서 확인되는 이 종의 가장 이른 성분 논문은 1967년 라오스산 방기과 식물 두 종(Cyclea barbata와 야낭)의 알칼로이드를 다룬 프랑스 논문이다[12]. 1988년에는 독일 연구진이 지상부에서 새 비스벤질이소퀴놀린 알칼로이드 노르야낭인·노르이소야낭인을 분리했고, 같은 해 틸리트리안드린도 보고했다[10, 11]. 2010년대 이후에는 잎 추출물의 항산화·혈당·신경 보호 연구와 사료·식품 가공 연구가 늘었다[3, 6, 22]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "야낭은 방기과 Tiliacora 속 식물로, 이 속은 아시아와 아프리카에 자생한다[17]. 야낭 자체는 동남아시아 원산이며 태국 동북부와 라오스에 특히 많고, 동남아시아 본토에 널리 분포한다[2, 6]. 영어 논문에서는 태국 이름 Yanang(Ya-nang) 외에 bamboo grass라는 이름으로도 부른다[22, 23]. 잎·줄기·꽃의 형태, 생활형, 염색체 수는 이번에 확인할 수 있는 공식 식물지 자료에서 확인하지 못했다.\n\n잎의 가장 두드러진 특징은 물에 우러나는 다당류 검이다[6]. 이 검은 주로 자일로스로 이루어진 자일란으로, 정제하면 자일로스가 82%이고 β-(1→3)과 β-(1→4) 결합이 섞인 주사슬에 아라비노스·갈락토스·글루코스 곁사슬이 붙는다[6]. 평균 분자량은 3,819 kDa, 고유점도는 14.6 dL/g로, 농도가 높아지면 전단 담화(묽어짐) 성질과 약한 젤 성질을 보인다[6].\n\n화학적으로는 알칼로이드가 Tiliacora 속에서 분리된 성분 가운데 가장 큰 무리다[17]. 야낭에서는 뿌리에서 틸리아코리닌·2′-노르틸리아코리닌·틸리아코린이, 지상부에서 마그노플로린·노르틸리아코린 A 등이 보고되었다[8, 10]. 잎에서는 알칼로이드 옥소아놀로빈이 분리되었다는 보고가 있으나 원문은 직접 확인하지 못했다[2]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동 주의",
+   "body": "같은 속의 Tiliacora racemosa는 인도 아유르베다에서 쓰는 식물로, 잎 메탄올 추출물에 비스벤질이소퀴놀린 등 알칼로이드가 많고 자궁경부암 세포에 독성을 보였다[24]. 서아프리카의 Tiliacora funifera 잎에서는 틸리아푸니민과 이소테트란드린 같은 비스벤질이소퀴놀린 알칼로이드가 분리되었다[25]. 속 총설도 이 속에서 분리된 성분 가운데 알칼로이드가 가장 큰 무리라고 정리한다[17].\n\n식약처 「식품원료 목록」에서 방기과 원료의 지위는 종마다 다르다[1]. 물방기뿌리(Stephania tetrandra)는 뿌리를, Cocculus orbiculatus잎은 잎을 식품에 쓸 수 있다[1]. 반면 댕댕이덩굴(Cocculus trilobus), 방기(Sinomenium acutum)의 덩굴성 줄기·뿌리줄기, 쿠라레(Chondrodendron tomentosum)는 사용불가 원료다[1]. 건강기능식품 원료(C코드)로도 목방기·방기·투보쿠라린은 '건강기능식품 제조에 사용할 수 없는 원료'로 올라 있다[1]. 따라서 야낭이 식품원료라고 해서 같은 과 다른 식물이 안전한 것은 아니다[1].\n\n벤차로카위찬 처방에는 야낭과 함께 Ficus racemosa, Capparis micracantha, Clerodendrum petasites, Harrisonia perforata 뿌리가 들어가므로 처방 이름만으로 야낭 단일 원료로 보면 안 된다[13]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "야낭의 재배 방법(번식·수확 주기·재배 면적)은 이번에 공식 자료로 확인하지 못했다. 논문에 쓰인 잎은 태국 동북부 우본랏차타니주 농민 시장에서 사거나 마하사라캄주 칸타라위차이 지역에서 채취한 것이다[4, 6]. 파야오주의 한 지역 공동체 기업은 잎을 끓는 물로 추출해 분무건조한 추출물을 만들어 연구에 공급했다[3]. 시판 잎 가루를 사서 실험에 쓴 연구도 있다[2].\n\n태국에서는 야낭(bamboo grass) 펠릿을 볏짚을 먹는 태국 토종 소에 보충해 반추위 발효와 메탄 발생을 살핀 연구가 있다[22]. 하루 0·50·100·150 g을 비교한 시험에서 150 g 보충 시 볏짚 섭취량과 미생물 수가 늘고 메탄 생성이 줄었다[22]. 잎 추출물과 유산균(Lactiplantibacillus plantarum V202)을 이중층으로 미세캡슐화한 사료 첨가물을 육계에 먹인 연구도 있다[31]. 국내 재배·생산 통계와 세계 생산 통계는 확인하지 못했다."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "가장 전통적인 가공은 잎을 물에 넣고 손으로 비벼 즙(남야낭)을 내는 것으로, 이 즙을 죽순 수프·샐러드에 넣는다[2]. 즙이 걸쭉한 것은 잎의 자일란 검 때문이며, 시큼한 죽순 수프에서 국물을 걸쭉하게 하는 재료로 쓰인다[6]. 검은 잎:물 1:6.6, 85 °C, 100분 조건으로 추출한 뒤 에탄올로 침전시켜 얻는다[6].\n\n잎 추출에서는 물 추출물이 에탄올·아세톤 추출물보다 적합했고, 아라비아검을 피막제로 심재:피막 1:4, 아라비아검 10%, 입구 온도 160 °C로 분무건조하면 생리활성 성분이 보존되었다[7]. 연구용 추출물은 건조 잎을 100 °C 끓는 물에 1시간 추출해 분무건조하거나, 잎 가루를 1:5로 10분 끓여 동결건조(수율 16.67%)하는 방식으로 만든다[3, 4]. 화장품용으로는 1,2-헥산다이올 수용액(60%)으로 90 °C에서 10분 마이크로파 추출한 조건이 총페놀 추출에 가장 좋았다[21].\n\n식약처 목록에는 잎 자체 외에 '야낭잎추출물'과 '야낭주스'가 별도 원료명으로 올라 있다[1]. 국내에서 야낭을 원료로 한 제품의 생산실적은 확인하지 못했다."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 성분 변이",
+   "body": "야낭의 유전체 해독, 염색체 수, 품종 구분에 관한 자료는 이번에 확인하지 못했다. 대신 성분 조성이 추출 용매와 부위에 따라 크게 달라진다는 점이 여러 논문에서 드러난다[2, 3, 4]. 같은 물 추출물이라도 한 연구는 총페놀 30.36 mg GAE/g 추출물을, 다른 연구는 0.020 mg GAE/g 추출물(총플라보노이드 30.08 mg QE/g)을 보고했다[3, 4]. 에탄올 추출물의 총페놀은 47.67 mg GAE/g 건조 추출물이었다[2]. 잎 물 추출물을 LC-ESI-QTOF-MS/MS로 정성 분석한 연구는 베르바스코사이드·카페산·카테킨 같은 폴리페놀과 아르기닌·트립토판 등 아미노산, 콜린을 확인했다[5]. 다른 연구는 추출물의 주요 성분으로 5,7-다이하이드록시-6-옥소헵타데칸산을 보고했다[18].\n\n부위별로는 뿌리·줄기에 비스벤질이소퀴놀린 알칼로이드(틸리아코리닌·야낭코리닌)가 많아 벤차로카위찬 줄기·뿌리 추출물에서 0.57–7.66% 범위로 정량되었다[9]. 뿌리 디클로로메탄 분획에는 플라보노이드 펙톨리나리게닌이 14.24 mg/g 들어 있었다[19]. 잎의 헥산 추출물 활성 분획은 헥사데칸산·옥타데칸산·(Z)-6-옥타데센산이 49.5:19.6:30.9(무게비)로 섞인 지방산 혼합물이었다[15]. 야낭에서 분리한 내생 곰팡이 Dothideomycete sp.는 새 폴리케타이드를 만드는 균주로 연구되었다[27]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처는 야낭 잎을 사용가능 식품원료로 두고 있으며, 뿌리·줄기는 식품원료 목록에 없다[1]. 잎 즙의 알칼로이드 근거를 찾아본 결과, 비스벤질이소퀴놀린 알칼로이드 분리·정량 논문은 뿌리·줄기[8, 9] 또는 지상부[10]를 대상으로 했고(지상부 논문 초록은 잎을 따로 나누지 않음), 잎 즙(남야낭)이나 잎의 알칼로이드 함량을 정량한 논문은 확인하지 못했다. 잎 물 추출물을 LC-QTOF-MS/MS로 정성 분석한 두 연구도 본문에 폴리페놀·아미노산 등을 나열했을 뿐 비스벤질이소퀴놀린 알칼로이드는 보고하지 않았다[4, 5]. 잎 추출물의 LC-QTOF-MS/MS 분석에서 확인된 대사물 12종에 알칼로이드가 포함되었다는 보고가 있으나 화합물 이름과 함량은 초록에서 확인하지 못했다[21]. 대표 알칼로이드 틸리아코리닌·야낭코리닌은 항말라리아 활성이 강했지만 사람 말초혈액 단핵세포에도 독성을 보여 선택성 지수가 1 미만이었다[9].\n\n잎 물 추출물은 쥐에서 5,000 mg/kg 단회 투여에 급성 독성이 없었고 1,200 mg/kg까지 아만성 독성이 없었다는 선행 연구가 인용된다[3]. 300·600·1,200 mg/kg을 90일 먹인 쥐에서 이상이 없었다는 보고도 인용되지만, 원 독성 논문은 직접 확인하지 못했다[4]. 잎 가루 에탄올 추출물은 용혈 시험에서 안전성이 확인되었다[26]. 라임·야낭·대마·갈랑갈·후추를 섞은 추출물(하루 4,500 mg, 7일)을 먹인 롱코비드 무작위 시험에서 이상반응은 대부분 가볍고 추적 기간 안에 사라졌으나, 혼합물 시험이라 야낭 단독의 안전성 근거는 아니다[16].\n\n알레르기·잔류농약·중금속 등에 관한 국내외 공공기관 안전 정보는 확인하지 못했다. 같은 방기과의 방기·목방기·쿠라레는 식품·건강기능식품에 쓸 수 없는 원료이므로, 야낭 잎이 아닌 부위나 다른 덩굴식물과 혼동하지 않아야 한다[1]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Tiliacorinine",
+   "name_ko": "틸리아코리닌",
+   "class": "비스벤질이소퀴놀린 알칼로이드",
+   "role": "bioactive",
+   "part": "뿌리·줄기(식품 사용 부위 아님)",
+   "content_text": "벤차로카위찬 줄기·뿌리 추출물에서 야낭코리닌과 함께 0.57–7.66%(UPLC)[9]; 잎·잎 즙 함량은 확인하지 못함",
+   "activity_ko": "다제내성 결핵균 MIC 0.7–6.2 μg/mL(대부분 3.1 μg/mL)[8]; 항말라리아 IC50 <2 μg/mL이나 정상 세포 독성(SI<1)[9]; 담관암 세포 세포자멸 유도[20]",
+   "source": [
+    8,
+    9,
+    20,
+    32
+   ]
+  },
+  {
+   "name": "Tiliacorine",
+   "name_ko": "틸리아코린",
+   "class": "비스벤질이소퀴놀린 알칼로이드",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "분리 보고(함량 수치는 초록에 없음)[8]",
+   "activity_ko": "다제내성 결핵균 임상분리주에 MIC 0.7–6.2 μg/mL 범위[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "2'-Nortiliacorinine",
+   "name_ko": "2′-노르틸리아코리닌",
+   "class": "비스벤질이소퀴놀린 알칼로이드",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "분리 보고(함량 수치는 초록에 없음)[8]",
+   "activity_ko": "다제내성 결핵균 억제(MIC 0.7–6.2 μg/mL 범위)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Yanangcorinine",
+   "name_ko": "야낭코리닌",
+   "class": "비스벤질이소퀴놀린 알칼로이드",
+   "role": "bioactive",
+   "part": "뿌리·줄기",
+   "content_text": "틸리아코리닌과 함께 벤차로카위찬 줄기·뿌리 추출물에서 0.57–7.66%(UPLC)[9]",
+   "activity_ko": "항말라리아 주요 활성 성분(IC50 <2 μg/mL), 세포독성 있음(SI<1)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Magnoflorine",
+   "name_ko": "마그노플로린",
+   "class": "아포르핀 알칼로이드",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 노르틸리아코린 A·틸리아코리닌-2′-N-옥사이드와 함께 분리(함량 확인하지 못함)[10]",
+   "activity_ko": "이 종에서의 활성은 확인하지 못함[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Oxoanolobine",
+   "name_ko": "옥소아놀로빈",
+   "class": "알칼로이드",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎에서 분리되었다는 문헌 인용(원 논문·함량은 확인하지 못함)[2]",
+   "activity_ko": "확인하지 못함[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "에피카테킨",
+   "class": "플라보노이드(플라반-3-올)",
+   "role": "marker",
+   "part": "잎(물 추출 분무건조물)",
+   "content_text": "1.37 ± 0.025 mg/g 추출물(HPLC-PDA); 카테킨·EGCG는 검출되지 않음[3]",
+   "activity_ko": "HepG2 세포에서 항산화 유전자 발현 증가, 간 포도당 생성 억제(시험관)[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "잎(물 추출 분무건조물)",
+   "content_text": "0.134 ± 0.001 mg/g 추출물(HPLC-PDA)[3]",
+   "activity_ko": "PEPCK·G6Pase 발현 감소, Akt·AMPK 인산화 증가(HepG2 세포)[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "잎(물 추출 분무건조물)",
+   "content_text": "0.053 ± 0.007 mg/g 추출물(HPLC-PDA)[3]",
+   "activity_ko": "라디칼 소거(ABTS·DPPH) 비교 물질로 시험[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Sinapic acid",
+   "name_ko": "시나프산",
+   "class": "페놀산(하이드록시신남산)",
+   "role": "marker",
+   "part": "잎 가루 에탄올 추출물",
+   "content_text": "6.16 ± 0.31 mg/g 건조 추출물(역상 HPLC) — 페놀산 6종 중 가장 많음[2]",
+   "activity_ko": "히스톤 탈아세틸화효소 억제 성분으로 추정, 추출물이 담관암 세포 히스톤 H3 아세틸화 증가[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "p-Coumaric acid",
+   "name_ko": "p-쿠마르산",
+   "class": "페놀산(하이드록시신남산)",
+   "role": "bioactive",
+   "part": "잎 가루 에탄올 추출물",
+   "content_text": "4.16 ± 0.11 mg/g 건조 추출물(역상 HPLC)[2]",
+   "activity_ko": "시나프산과 함께 주요 페놀산, HDAC 억제 후보[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ferulic acid",
+   "name_ko": "페룰산",
+   "class": "페놀산(하이드록시신남산)",
+   "role": "bioactive",
+   "part": "잎 가루 에탄올 추출물",
+   "content_text": "3.26 ± 0.16 mg/g 건조 추출물(역상 HPLC)[2]",
+   "activity_ko": "천연 HDAC 억제 성분으로 언급[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Xylan",
+   "name_ko": "자일란(야낭 검)",
+   "class": "다당류(헤미셀룰로스)",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "정제 검의 자일로스 82%(조추출물 76%), 평균 분자량 3,819 kDa, 고유점도 14.6 dL/g[6]",
+   "activity_ko": "국물을 걸쭉하게 하는 증점제, 전단 담화·약한 젤 성질[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Pectolinarigenin",
+   "name_ko": "펙톨리나리게닌",
+   "class": "플라본",
+   "role": "bioactive",
+   "part": "뿌리(80% 에탄올 추출물의 디클로로메탄 분획)",
+   "content_text": "14.24 ± 2.32 mg/g 추출물(HPLC)[19]",
+   "activity_ko": "삼중음성 유방암 세포 주기 정지·세포자멸(시험관)[19]; 벤차로카위찬 성분으로 항알레르기 IC50 6.3 μg/mL[13]",
+   "source": [
+    19,
+    13
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산(헥사데칸산)",
+   "class": "포화지방산",
+   "role": "bioactive",
+   "part": "잎 헥산 추출물 활성 분획",
+   "content_text": "헥사데칸산:옥타데칸산:(Z)-6-옥타데센산 = 49.5:19.6:30.9(w/w/w) 혼합물[15]",
+   "activity_ko": "혼합물이 다제내성 폐암세포의 P-당단백 활성을 낮춰 에토포사이드 감수성 회복(단독 지방산은 효과 없음)[15]",
+   "source": [
+    15
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Epicatechin",
+   "compound_ko": "에피카테킨",
+   "part": "잎(물 추출 분무건조 추출물, 태국 파야오산)",
+   "content": "1.37 ± 0.025 mg/g 추출물; 같은 분석에서 퀘르세틴 0.134 ± 0.001, 갈산 0.053 ± 0.007 mg/g 추출물, 카테킨·EGCG 불검출[3]",
+   "method": "HPLC-PDA(기울기 용리)",
+   "conditions": {
+    "instrument": "PerkinElmer Flexar LC(4원 펌프·진공 탈기기·온도조절 칼럼부·자동시료주입기·PDA), Chromera 소프트웨어",
+    "column": "역상 Brownlee C18, 5 µm, 250 × 4.6 mm (PerkinElmer)",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "1.0 mL/min",
+    "temp": "35 °C",
+    "detection": "PDA 280 nm(갈산·카테킨·EGCG·에피카테킨), 퀘르세틴은 280 nm와 360 nm",
+    "injection": "10 µL",
+    "sample_prep": "건조 잎을 100 °C 끓는 물로 1시간 추출, 천 필터로 2회 여과 후 분무건조; 분석 전 0.45 µm 막 여과, 초음파 탈기 15분",
+    "standard": "에피카테킨·퀘르세틴·갈산(Sigma-Aldrich), 표준물질별 검량선으로 정량, 3회 반복",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 물 추출물에서 가장 많이 검출된 폴리페놀이고 저자들이 추출물의 항산화·간 포도당 생성 억제 작용을 설명하는 주성분으로 삼음; 이동상 조성·기울기, 직선성·검출한계·정량한계·회수율은 전문 텍스트에서 확인하지 못함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33669133/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Sinapic acid",
+   "compound_ko": "시나프산",
+   "part": "잎 가루(시판품) 에탄올 추출물",
+   "content": "6.16 ± 0.31 mg/g 건조 추출물; p-하이드록시벤조산 2.36, 바닐산 2.56, 시링산 2.22, p-쿠마르산 4.16, 페룰산 3.26 mg/g[2]",
+   "method": "역상 HPLC(표준품 스펙트럼·머무름 시간 대조, 내부표준법)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "잎 가루 20 g을 무수 에탄올 200 mL에 넣어 실온·암소에서 48시간 교반, 6,150 × g 15분 원심분리, Whatman No. 4 여과 후 이전 논문 방법으로 페놀산 분획을 얻어 50% 메탄올에 녹이고 0.2 µm 주사기 필터로 여과",
+    "standard": "페놀산 표준품 검량선, 내부표준 p-하이드록시벤즈알데하이드",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "잎 추출물 페놀산 6종 중 가장 많고 p-쿠마르산과 함께 HDAC 억제 작용 후보로 제시됨; 전문을 열었으나 칼럼·이동상·검출 파장은 이전 논문 방법을 따랐다고만 적혀 있어 확인하지 못함[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36540797/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 야낭잎·야낭잎추출물·야낭주스(Tiliacora triandra, Yanang), 사용가능, 사용가능부위: 잎; 방기과 다른 원료(물방기뿌리·Cocculus orbiculatus잎·댕댕이덩굴·방기·쿠라레, 건강기능식품 C코드 목방기·방기·투보쿠라린) 행 대조 (로컬 원자료 I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Ethanolic extract of Ya-nang (Tiliacora triandra) leaf powder induces apoptosis in cholangiocarcinoma cell lines via induction of hyperacetylation and inhibition of growth signaling. PeerJ 2022;10:e14518. doi:10.7717/peerj.14518 — PMC 전문 확인(남야낭 제조법, 잎 페놀산 HPLC 정량, 잎·뿌리 성분 문헌 정리)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36540797/",
+   "publisher": "PeerJ",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Tiliacora triandra (Colebr.) Diels Leaf Aqueous Extract Inhibits Hepatic Glucose Production in HepG2 Cells and Type 2 Diabetic Rats. Molecules 2021;26(5):1239. doi:10.3390/molecules26051239 — PMC 전문 확인(HPLC-PDA 조건·정량값, 독성 문헌 인용)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33669133/",
+   "publisher": "Molecules (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Neuroprotective effects of Tiliacora triandra (Colebr.) Diels leaf extract against lipopolysaccharide-induced memory impairment via anti-neuroinflammation. Biomedical Reports 2026. doi:10.3892/br.2026.2148 — PMC 전문 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42125768/",
+   "publisher": "Biomedical Reports",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Neuroprotective effect of Tiliacora triandra (Colebr.) Diels leaf extract on scopolamine-induced memory impairment in rats. Heliyon 2023;9:e22545. doi:10.1016/j.heliyon.2023.e22545 — PMC 전문 확인(LC-ESI-QTOF-MS/MS 정성 조건)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38107289/",
+   "publisher": "Heliyon",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Structural and Rheological Properties of Yanang Gum (Tiliacora triandra). Foods 2022;11(14):2003. doi:10.3390/foods11142003 — PMC 전문 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35885245/",
+   "publisher": "Foods (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Bioactive compounds and encapsulation of Yanang (Tiliacora triandra) leaves. Afr J Tradit Complement Altern Med 2014;11(3):76-84. doi:10.4314/ajtcam.v11i3.11 — 초록만 확인(PMC 본문 비어 있음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25371566/",
+   "publisher": "African Journal of Traditional, Complementary and Alternative Medicines",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Antimycobacterial activity of bisbenzylisoquinoline alkaloids from Tiliacora triandra against multidrug-resistant isolates of Mycobacterium tuberculosis. Bioorg Med Chem Lett 2012;22(8):2902-5. doi:10.1016/j.bmcl.2012.02.053 — 초록 확인(MeSH: Plant Roots)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22418278/",
+   "publisher": "Bioorganic & Medicinal Chemistry Letters",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Antiplasmodial activities of a Thai traditional antipyretic formulation, Bencha-Loga-Wichian: A comparative study between the roots and their substitutes, the stems. J Ethnopharmacol 2016;193:125-132. doi:10.1016/j.jep.2016.07.013 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27396349/",
+   "publisher": "Journal of Ethnopharmacology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "[New bisbenzylisoquinoline alkaloids from Tiliacora triandra]. Planta Med 1988;54(5):433-7. doi:10.1055/s-2006-962491 — 독일어 논문, 영문 초록 확인(지상부)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17265307/",
+   "publisher": "Planta Medica",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "[Tilitriandrin: a new bisbenzylisoquinoline alkaloid from Tiliacora triandra]. Planta Med 1988;54(6):516-9. doi:10.1055/s-2006-962534 — 제목만 확인(초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/3212079/",
+   "publisher": "Planta Medica",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "[On the alkaloids of 2 Menispermaceae from Laos: Cyclea barbata (Wall.) Miers and Tiliacora triandra (Roxb.) Diels]. Ann Pharm Fr 1967;25(9):627-33 — 프랑스어 논문, 제목만 확인(초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5605823/",
+   "publisher": "Annales pharmaceutiques françaises",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Inhibitory Effect on β-Hexosaminidase Release from RBL-2H3 Cells of Extracts and Some Pure Constituents of Benchalokawichian, a Thai Herbal Remedy, Used for Allergic Disorders. Evid Based Complement Alternat Med 2014;2014:828760. doi:10.1155/2014/828760 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25580152/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Inhibitory effects of Tiliacora triandra (Colebr.) Diels on cholesterol absorption. J Complement Integr Med 2018;16(1). doi:10.1515/jcim-2017-0169 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30312160/",
+   "publisher": "Journal of Complementary and Integrative Medicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Effect of three fatty acids from the leaf extract of Tiliacora triandra on P-glycoprotein function in multidrug-resistant A549RT-eto cell line. Pharmacogn Mag 2014;10(Suppl 3):S549-56. doi:10.4103/0973-1296.139779 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25298673/",
+   "publisher": "Pharmacognosy Magazine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Impact of combined plant extracts on long COVID: An exploratory randomized controlled trial. Complement Ther Med 2024;87:103107. doi:10.1016/j.ctim.2024.103107 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39488240/",
+   "publisher": "Complementary Therapies in Medicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Unveiling the mystery of the genus Tiliacora: A holistic view on the ethnomedicinal uses, phytochemical richness and pharmacological potentials. Fitoterapia 2025;183:106542. doi:10.1016/j.fitote.2025.106542 — 초록 확인(총설)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40228701/",
+   "publisher": "Fitoterapia",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Tiliacora triandra extract and its major constituent attenuates diabetic kidney and testicular impairment by modulating redox imbalance and pro-inflammatory responses in rats. J Sci Food Agric 2021;101(4):1598-1608. doi:10.1002/jsfa.10779 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32875596/",
+   "publisher": "Journal of the Science of Food and Agriculture",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Pectolinarigenin from Tiliacora triandra Exhibits Potent Anticancer Activity in Triple-Negative Breast Cancer Cells Through Cell Cycle Arrest, Apoptosis, and MAPK Signaling Inhibition. Pharmaceuticals 2026;19(3):384. doi:10.3390/ph19030384 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41901231/",
+   "publisher": "Pharmaceuticals (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Induction of apoptotic cell death of cholangiocarcinoma cells by tiliacorinine from Tiliacora triandra: A mechanistic insight. Biochim Biophys Acta Gen Subj 2023;1867(12):130486. doi:10.1016/j.bbagen.2023.130486 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37813201/",
+   "publisher": "Biochimica et Biophysica Acta – General Subjects",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "From extraction to formulation: evaluating the polyol-assisted microwave extraction of phenolic compounds from Tiliacora triandra leaves for cosmetic applications. Fitoterapia 2026;194:107455. doi:10.1016/j.fitote.2026.107455 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42668100/",
+   "publisher": "Fitoterapia",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Effect of bamboo grass (Tiliacora triandra, Diels) pellet supplementation on rumen fermentation characteristics and methane production in Thai native beef cattle. Asian-Australas J Anim Sci 2019;32(8):1153-1160. doi:10.5713/ajas.18.0703 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30744355/",
+   "publisher": "Asian-Australasian Journal of Animal Sciences",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Evaluation of α-Glucosidase and α-Amylase Inhibition in Thai Culinary Vegetables. Scientifica 2024;2024:3625267. doi:10.1155/2024/3625267 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39359905/",
+   "publisher": "Scientifica",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Tiliacora racemosa leaves induce oxidative stress mediated DNA damage leading to G2/M phase arrest and apoptosis in cervical cancer cells SiHa. J Ethnopharmacol 2021;269:113686. doi:10.1016/j.jep.2020.113686 — 초록 확인(근연종)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33309918/",
+   "publisher": "Journal of Ethnopharmacology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Constituents of West African medicinal plants. XXI. Tiliafunimine, a new imino bisbenzylisoquinoline alkaloid from Tiliacora funifera. Lloydia 1977;40(6):561-5 — 초록 확인(근연종)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/600025/",
+   "publisher": "Lloydia",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Tiliacora triandra Leaf Powder Ethanolic Extract in Combination with Cisplatin or Gemcitabine Synergistically Inhibits the Growth of Cholangiocarcinoma Cells In Vitro and in Nude Mouse Xenograft Models. Medicina 2023;59(7):1269. doi:10.3390/medicina59071269 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37512080/",
+   "publisher": "Medicina (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "A novel tricyclic polyketide and its biosynthetic precursor azaphilone derivatives from the endophytic fungus Dothideomycete sp. Org Biomol Chem 2012;10(35):7220-6. doi:10.1039/c2ob25959a — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22847560/",
+   "publisher": "Organic & Biomolecular Chemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Tiliacora triandra, an Anti-Intoxication Plant, Improves Memory Impairment, Neurodegeneration, Cholinergic Function, and Oxidative Stress in Hippocampus of Ethanol Dependence Rats. Oxid Med Cell Longev 2015;2015:918426. doi:10.1155/2015/918426 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26180599/",
+   "publisher": "Oxidative Medicine and Cellular Longevity",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Tiliacora triandra (Colebr.) Diels leaf extract enhances spatial learning and learning flexibility, and prevents dentate gyrus neuronal damage induced by cerebral ischemia/reperfusion injury in mice. Avicenna J Phytomed 2017;7(5):389-400 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29062800/",
+   "publisher": "Avicenna Journal of Phytomedicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Tiliacora triandra extract possesses antidiabetic effects in high fat diet/streptozotocin-induced diabetes in rats. J Food Biochem 2020;44(6):e13239. doi:10.1111/jfbc.13239 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32281660/",
+   "publisher": "Journal of Food Biochemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Phytosynbiotic Containing Double-Layer Microencapsulated Lactiplantibacillus plantarum V202 and Tiliacora triandra Leaf Extract Improve Growth Performance and Gut Health in Broiler Chickens. Animals 2026;16(5):845. doi:10.3390/ani16050845 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41829053/",
+   "publisher": "Animals (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Endothelium-dependent and endothelium-independent vasorelaxant effects of tiliacorinine 12'-O-acetate and mechanisms on isolated rat aorta. Biomed Pharmacother 2019;109:2090-2099. doi:10.1016/j.biopha.2018.11.062 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30551466/",
+   "publisher": "Biomedicine & Pharmacotherapy",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "In vitro biological activities of a combination of Ha-rak remedy, Piper betle and Garcinia mangostana for the treatment of atopic dermatitis. Res Pharm Sci 2025;20(2):250-267. doi:10.4103/RPS.RPS_206_23 — 초록 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40444165/",
+   "publisher": "Research in Pharmaceutical Sciences",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

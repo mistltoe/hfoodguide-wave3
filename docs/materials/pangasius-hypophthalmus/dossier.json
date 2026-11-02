@@ -1,0 +1,707 @@
+{
+ "slug": "pangasius-hypophthalmus",
+ "name_ko": "메콩강큰메기",
+ "name_en": "Iridescent shark (striped catfish)",
+ "scientific_name": "Pangasius hypophthalmus",
+ "aliases": [
+  "Pangasianodon hypophthalmus",
+  "Pangasius sutchi",
+  "가이양",
+  "팡가시우스메기",
+  "Iridescent shark",
+  "striped catfish",
+  "tra catfish",
+  "sutchi catfish",
+  "panga"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "메콩강큰메기(Pangasius hypophthalmus, 최근 분류명 Pangasianodon hypophthalmus)는 메콩강 유역에 사는 판가시우스과(Pangasiidae)의 대형 민물 메기다[1, 13]. 식약처 「식품원료 목록」에는 원료명 '메콩강큰메기', 이명 '가이양·팡가시우스메기'로 올라 있고, 분류는 수산물, 상태는 '사용가능'이며 사용 부위는 따로 정하지 않은 '-', 별도 사용 조건은 없다[1]. 같은 목록의 퍼시픽도리(P. bocourti)·흑점메기(P. larnaudii)·동남아메기(P. macronema)·Pangas catfish(P. pangasius)는 다른 원료이며, 이 문서는 그 종들의 자료를 섞지 않았다[1].\n\n이 종을 원재료로 하는 건강기능식품 고시형 원료는 없어 지표성분 기준(markers)은 비워 두었다[1]. 다만 이 종의 껍질(어피) 젤라틴을 쓰는 개별인정형 원료 '저분자콜라겐펩타이드 AG(제2023-10호)'와 '저분자콜라겐펩타이드(제2023-14호)'가 같은 목록에 있다[2]. 베트남에서 대량 양식되어 껍질과 뼈를 뺀 냉동 필레로 80여 개국에 수출되며, 판가(panga)·트라(tra)·수치메기(sutchi catfish)·줄무늬메기(striped catfish)로도 불린다[4, 5]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사·보호 지위",
+   "body": "이 종은 해마다 메콩강 하류에서 상류의 산란장으로 올라가고, 나머지 반년은 메콩강 범람원과 톤레삽 호수에서 먹이를 먹는 회유성 어종이다[18]. 베트남 메콩 삼각주에서 연못 양식이 크게 늘어 2011년 양식 생산량이 110만 톤에 이르렀고, 필레는 세계 여러 나라로 수출된다[20]. 2011년 미국에서 여섯 번째로 선호되는 수산물이었다는 FAO 자료가 인용되어 있다[4]. 값이 싸고 맛이 순하며 가시와 껍질이 없는 필레로 팔려 가장 많이 소비되는 생선 가운데 하나로 소개되었다[5].\n\n값싼 수입 어종이라 다른 생선으로 둔갑하는 일도 있었다[4, 29]. 브라질에서는 더 비싼 넙치류(flounder)로 팔린 사례가 보고되었고, 미국에서는 식당 요리에서 메기·그루퍼 같은 고가 어종의 대용으로 쓰여 판별용 ELISA가 개발되었다[4, 29]. 반면 자연 개체군은 국제자연보전연맹(IUCN) 적색목록 2011년 평가에서 '위기(Endangered)' 등급으로 분류되어 있다[30]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생활사",
+   "body": "이 종은 메기목(Siluriformes) 판가시우스과에 속한다[17]. 미토콘드리아 유전체로 본 계통에서 판가시우스과로 확인되었고, Cranoglanididae·아메리카메기과(Ictaluridae)를 포함하는 무리 안에 놓였다[13]. 메콩강 하류에서 최대 1,230 km 떨어진 10개 지점의 567마리를 분석한 결과 유전 다양성(평균 기대이형접합도 0.757)이 다른 민물고기보다 훨씬 높아 바닷물고기 수준이었다[18]. 같은 장소에 섞여 사는 유전적으로 다른 세 집단이 확인되어 산란 집단이 시기와 장소에 따라 나뉠 수 있음을 보여 주었다[18].\n\n잡식성으로, 양식장에서는 주로 쌀겨·콩·어류 부산물을 먹는다고 소개되었다[4]. 살에 지방이 많은 편이어서 '기름진 물고기'로 여겨지며, 유전체에서 지방산 결합 단백질 유전자(fabp1)가 세 벌로 늘어난 것이 그 원인 후보로 제시되었다[14]. 다만 이탈리아에 유통된 베트남산 필레는 지방이 1.1–3.0%로 낮고 수분이 80–85%로 높았다[7]. 껍질 콜라겐은 SDS-PAGE에서 Ⅰ형 콜라겐으로 확인되었다[26]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·종 판별",
+   "body": "같은 판가시우스과의 바사(basa, P. bocourti)도 아시아에서 양식해 수입되는 어종이라 이 종(tra)과 함께 '판가시우스'로 묶여 유통된다[29]. 두 종을 포함한 판가시우스과 어류를 70여 가지 다른 어패류·육류·단백질 원료와 구별하는 단클론항체 샌드위치 ELISA가 개발되었고, 게살 제품에 섞인 tra를 0.1%까지 검출했다[29]. 식약처 「식품원료 목록」은 바사를 '퍼시픽도리'라는 별도 원료로 올려 두었다[1].\n\n한국 토종 메기(Silurus asotus)와 붕메기(Ictalurus punctatus, 채널메기)도 목록에서 각각 다른 원료다[1]. 이 종의 완전한 미토콘드리아 유전체(16,469 bp)로 그린 계통수에서 이 종은 가까운 판가시우스과 종들과 한 무리로 묶였다[17]. 문헌에서는 학명 Pangasius hypophthalmus·Pangasianodon hypophthalmus와 옛 이름 P. sutchi가 함께 쓰인다[1, 8, 27]. 학명 없이 '판가시우스'라고만 적은 연구는 종을 확인하지 못해 이 문서에서 쓰지 않았다."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식",
+   "body": "이 종은 주로 베트남 메콩 삼각주의 흙 연못에서 집약 양식되며, 외부 기생충과 병원체를 막으려 황산구리 등 약품을 쓴다[20]. 황산구리를 반복해 쓴 연못의 퇴적물 구리는 21.3–45.7 mg/kg(건중량)으로 베트남 농경지 기준 70 mg/kg 아래였다[20]. 사료의 단백질·지방 비율은 필레 품질을 바꾸어, 단백질 28%·지방 4% 사료에서 필레 단백질이 16.54%로 가장 높았다[36].\n\n가장 큰 병은 세균성 괴사증(BNP)으로, Edwardsiella ictaluri에 의한 폐사율이 100%에 이를 수 있어 항생제 대신 백신이 연구되고 있다[33]. 메콩 삼각주 BNP 분리주 30주의 유전체는 모두 ST-26형이었고 30%가 확장 스펙트럼 베타락탐 분해효소(ESBL) 유전자를 지녔다[34]. Edwardsiella tarda를 막으려 항생제를 지나치게 써 다제내성 균주가 빠르게 늘었다는 보고도 있다[35]. 치어 양식 연못에서는 사람에게 옮는 어류 매개 흡충 감염이 문제였는데, 사람·가축 구충과 연못 진흙 제거 같은 개입으로 감염률과 감염 강도가 유의하게 줄었다[31]."
+  },
+  {
+   "key": "processing",
+   "title": "가공·부산물 이용",
+   "body": "수출용으로는 껍질과 뼈를 뺀 냉동 필레가 주로 만들어진다[4]. 사후강직이 끝난 뒤 필레를 뜨면 강직 전보다 필레 수율이 높고 해동 드립 손실이 적었다[21]. 필레 가공 부산물(검붉은 살·머리와 등뼈·복부 자투리)에서는 pH 이동법으로 단백질의 83.0–88.9%를 회수했다[22]. 브라질 유통 필레 10점 중 30%는 보수제 폴리인산염이 1 g/100 g을 넘었다[4].\n\n껍질은 콜라겐·젤라틴 원료가 된다[2, 26]. 식약처 목록에는 이 종의 어피 젤라틴을 쓰는 개별인정형 원료 두 건(제2023-10호, 제2023-14호)이 있다[2]. 이 가운데 '저분자콜라겐펩타이드 AG'의 생산액은 2023년 약 25.8억 원(39톤), 2024년 약 8.9억 원(14톤), 2025년 약 10.3억 원(15톤)이었다[3]. 국내 연구진은 어피 젤라틴을 세균 콜라게네이스로 분해한 가수분해물에서 트라이펩타이드 32.67%, Gly-Pro-Hyp 3.22%를 쟀다[23, 24]. 껍질·뼈 젤라틴의 1 kDa 미만 효소 분해 분획은 시험관에서 ACE 저해 활성을 보였다[27]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2018년 일루미나 서열로 만든 초안 유전체는 약 700 Mb, 스캐폴드 568개(N50 14.29 Mbp), 단백질 암호 유전자 약 28,600개로 추정되었다[13]. 이 분석에서 제브라피시가 만드는 자외선 차단 물질 가두솔(gadusol)의 합성 유전자가 메기류 유전체에서는 사라진 것이 확인되었다[13]. 2021년에는 나노포어 장서열과 Hi-C를 더해 731.7 Mb의 98.46%를 30개 유사염색체에 고정한 염색체 수준 유전체가 나왔다[14]. 2022년 HiFi 장서열로 만든 788.4 Mb 조립은 콘티그 N50이 14.7 Mb로 앞선 판들보다 크게 좋아졌다[15].\n\n2025년에는 772.03 Mb를 30개 염색체에 빈틈없이 담은 텔로미어-텔로미어(T2T) 유전체가 보고되었고, 반복서열은 39.53%, 단백질 암호 유전자는 24,596개였다[16]. 미토콘드리아 유전체는 16,469 bp 원형으로 유전자 37개를 담고 있다[17]. 가계 560개체로 만든 첫 고밀도 연관지도(연관군 30개, SNP 8,786개)에서 BNP 저항성과 관련된 QTL 세 개가 LG1·LG9·LG29에서 확인되었다[19]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성·잔류물질",
+   "body": "식약처 목록에서 이 종은 조건 없는 '사용가능' 수산물이며, 고시형 원료의 원재료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 이 종을 따로 다룬 국내 공공기관의 알레르기·잔류 동물용의약품·중금속 검사 결과는 확인하지 못함.\n\n수은은 시료마다 차이가 컸다[4, 5, 6]. 스페인 유통 판가 80점은 0.10–0.69 mg/kg(평균 0.22 mg/kg)이었고, 브라질 유통 필레 10점 중 5점은 0.51–1.31 mg/kg으로 FAO/WHO 권고치 0.5 mg/kg을 넘었다[4, 5]. 이탈리아 유통 필레는 0.41 ± 0.08 mg/kg으로 대구보다 높았다[6]. 반면 수은·유기염소 농약·PCB가 낮았다는 연구와 중금속이 기준보다 훨씬 낮았다는 연구도 있다[7, 8].\n\n브라질 유통 베트남산 필레 40점 중 5점에서 엔로플록사신이 낮은 농도로 나왔다[9]. 플로르페니콜은 치료 용량 투여 하루 뒤 근육 잔류가 최대잔류허용기준 100 µg/kg 아래였고, 독시사이클린 휴약 기간은 150–194 도일(degree-days)로 산출되었다[10, 11]. 말라카이트그린 약욕 한 달 뒤 류코말라카이트그린은 거의 사라졌다[32]. 인도에서 국내산·베트남 수입산 148점을 조사한 결과 일부 농약이 검출됐지만 섭취 노출량은 최대 허용 섭취량보다 낮았다[12]. 수출 필레의 70–80%에서 비브리오균이 나와 날로 먹지 말 것이 권고되었다[8]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Mercury",
+   "name_ko": "총수은",
+   "class": "중금속 오염물질",
+   "role": "bioactive",
+   "part": "필레(근육)",
+   "content_text": "0.10–0.69 mg/kg, 평균 0.22 mg/kg — 스페인 유통 냉동 판가 80점[5]; 0.41 ± 0.08 mg/kg — 이탈리아 시칠리아 유통 필레[6]; 0.01–1.31 mg/kg, 10점 중 5점 0.51–1.31 mg/kg — 브라질 유통 베트남산 필레[4]",
+   "activity_ko": "주 350 g 섭취 시 주간섭취한계(4 μg/kg 체중/주)의 27.5–32%로 추정[5]",
+   "source": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Florfenicol",
+   "name_ko": "플로르페니콜",
+   "class": "동물용 항생제(암페니콜계)",
+   "role": "bioactive",
+   "part": "근육·신장",
+   "content_text": "치료 용량(10 mg/kg 어체중/일) 투여 후 1일 안에 근육 잔류 100 µg/kg 미만; 신장 372.88 ± 13.20 ng/g(투여 10일째)[10]",
+   "activity_ko": "휴약 기간 5일(135 도일)로 산출[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Doxycycline",
+   "name_ko": "독시사이클린",
+   "class": "동물용 항생제(테트라사이클린계)",
+   "role": "bioactive",
+   "part": "근육(껍질 포함)",
+   "content_text": "20 mg/kg 체중 5일 경구 투여 시 휴약 기간 194 도일(수조)·150 도일(흙 연못)[11]",
+   "activity_ko": "양식 세균병 치료 약물의 잔류 감시 대상[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Leucomalachite green",
+   "name_ko": "류코말라카이트그린",
+   "class": "금지 염료 대사물",
+   "role": "bioactive",
+   "part": "근육·혈액",
+   "content_text": "0.1 ppm 말라카이트그린 약욕 2회 뒤 한 달 해독 기간에 거의 사라짐(수치는 초록에 없음)[32]",
+   "activity_ko": "혈액 세포 단백질 변화는 한 달 뒤에도 회복되지 않음[32]",
+   "source": [
+    32
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체 아민",
+   "role": "bioactive",
+   "part": "냉동 필레",
+   "content_text": "최대 9.6 mg/100 g — 폴란드 수출 필레[8]; 검출 안 됨–0.02 mg/kg — 브라질 유통 필레 10점[4]",
+   "activity_ko": "부패 지표·식중독 원인 물질[4, 8]",
+   "source": [
+    4,
+    8
+   ]
+  },
+  {
+   "name": "Malondialdehyde",
+   "name_ko": "말론다이알데하이드(MDA)",
+   "class": "지질 산화 생성물",
+   "role": "bioactive",
+   "part": "냉동 필레",
+   "content_text": "1.21–7.88 mg/kg — 브라질 유통 베트남산 필레 10점[4]",
+   "activity_ko": "운송·저장 중 지질 산화 지표[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Polyphosphates (pyrophosphate + tripolyphosphate)",
+   "name_ko": "폴리인산염(보수제)",
+   "class": "식품첨가물",
+   "role": "bioactive",
+   "part": "냉동 필레",
+   "content_text": "검출 안 됨–10.74 g/100 g, 30%가 1 g/100 g 초과[4]; 나트륨 222–594 mg/100 g(삼인산나트륨 사용 추정)[7]",
+   "activity_ko": "수분 함량을 높이고 단백질 비율을 낮춤[4]",
+   "source": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Cholesterol",
+   "name_ko": "콜레스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "필레",
+   "content_text": "21–39 mg/100 g — 이탈리아 유통 베트남산 필레[7]",
+   "activity_ko": "콜레스테롤이 낮은 생선 살[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "n-6 다가불포화지방산",
+   "role": "nutrient",
+   "part": "필레 지질",
+   "content_text": "다가불포화지방산의 44–59%(다가불포화지방산은 총지방산의 12.5–18.8%)[7]",
+   "activity_ko": "다가불포화지방산의 주성분[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Saturated fatty acids",
+   "name_ko": "포화지방산(총량)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "필레 지질",
+   "content_text": "포화지방산 41.1–47.8%(총지방산 중)[7]",
+   "activity_ko": "포화지방산 비율이 높은 지방산 조성[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Gly-Pro-Hyp",
+   "name_ko": "글리신-프롤린-하이드록시프롤린(GPH)",
+   "class": "콜라겐 트라이펩타이드",
+   "role": "marker",
+   "part": "어피 젤라틴 효소 가수분해물",
+   "content_text": "3.22 ± 0.02%(조단백 약 97%)[23, 24]; 임상 시험 원료 3.2%[25]",
+   "activity_ko": "콜라겐 특이 서열로 가수분해물의 지표 성분으로 씀; 쥐 광노화·골감소 모델에서 단독으로도 효과[23, 24]",
+   "source": [
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "name": "Collagen tripeptide",
+   "name_ko": "콜라겐 트라이펩타이드(총량)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "어피 젤라틴 효소 가수분해물",
+   "content_text": "32.67 ± 0.22%[23]; 임상 시험 원료 20%(평균 분자량 500 Da)[25]",
+   "activity_ko": "1일 1,000 mg 12주 섭취 시 피부 수분·탄력 개선(광노화 피부 여성 대상 무작위 대조 시험, 78명 완료; 비타민 C 등이 든 음료 형태)[25]",
+   "source": [
+    23,
+    25
+   ]
+  },
+  {
+   "name": "Collagen type I",
+   "name_ko": "Ⅰ형 콜라겐",
+   "class": "구조 단백질",
+   "role": "bioactive",
+   "part": "껍질(산가용성 콜라겐)",
+   "content_text": "SDS-PAGE에서 두 가지 α사슬과 β성분을 지닌 Ⅰ형으로 확인(수율 수치는 초록에 없음)[26]",
+   "activity_ko": "콜라겐·젤라틴 원료[26]",
+   "source": [
+    26
+   ]
+  },
+  {
+   "name": "ACE inhibitory peptides",
+   "name_ko": "ACE 저해 펩타이드 분획",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "껍질·뼈 젤라틴 알칼라아제 가수분해물(1 kDa 미만)",
+   "content_text": "IC50 3.2 μg/mL(껍질)·1.3 μg/mL(뼈)[27]",
+   "activity_ko": "앤지오텐신 전환효소 저해(시험관), 소화효소에 안정[27]",
+   "source": [
+    27
+   ]
+  },
+  {
+   "name": "Imino acids (proline + hydroxyproline)",
+   "name_ko": "이미노산(프롤린+하이드록시프롤린)",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "뼈 젤라틴",
+   "content_text": "17.37 g/100 g; 최적 추출 조건에서 하이드록시프롤린 회수율 68.75%[28]",
+   "activity_ko": "젤라틴 물성(겔 강도)과 관련[28]",
+   "source": [
+    28
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Total mercury",
+   "compound_ko": "총수은",
+   "part": "냉동 필레(브라질 유통 베트남산 10점)",
+   "content": "0.01–1.31 mg/kg; 10점 중 5점이 0.51–1.31 mg/kg [4]",
+   "method": "열분해·금 아말감 원자흡광(직접 수은 분석기)",
+   "conditions": {
+    "instrument": "직접 수은 분석기(열분해-금 아말감 포집-원자흡광)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "금 아말감 트랩에서 탈착한 수은 증기를 원자흡광으로 정량(피크 높이)",
+    "injection": "",
+    "sample_prep": "시료 0.27 g을 석영 용기에 넣고 산소 기류에서 160 °C 1분, 650 °C 2분, 650 °C 1분 가열(산소가 연소·운반 기체)",
+    "standard": "검량선(r = 0.9990), 시료 무게와 피크 높이로 계산",
+    "linearity": "r = 0.9990",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "수은은 이 종 필레에서 가장 많이 문제된 오염물질로, 이 시료의 50%가 FAO/WHO 권고치(0.5 mg/kg)를 넘었다. PMC 전문 Methods에서 조건을 확인했으며 검출·정량한계와 회수율은 원문에 없다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1002/fsn3.302",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Biogenic amines (putrescine, cadaverine, histamine, spermine, spermidine)",
+   "compound_ko": "생체 아민(히스타민 등 5종)",
+   "part": "냉동 필레",
+   "content": "히스타민 검출 안 됨–0.02 mg/kg; 퍼트레신·카다베린·스페르민·스페르미딘 대부분 3 mg/kg 미만(스페르미딘 최대 4.41 mg/kg) [4]",
+   "method": "HPLC-UV(벤조일 클로라이드 유도체화)",
+   "conditions": {
+    "instrument": "LC-20AD 펌프·SPD-M20A UV-Vis 검출기(Shimadzu)",
+    "column": "역상 칼럼(제조사·규격은 원문에 없음)",
+    "mobile_phase": "아세토니트릴:초순수 42:58 (v/v)",
+    "gradient": "등용매, 총 15분",
+    "flow": "1 mL/min",
+    "temp": "20 °C",
+    "detection": "UV 198 nm",
+    "injection": "20 μL",
+    "sample_prep": "5% 과염소산으로 추출 후 벤조일 클로라이드 40 μL로 유도체화",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "히스타민은 정부 기준이 있는 유일한 생체 아민이고, 퍼트레신·카다베린은 위생 상태의 지표로 쓰여 필레 품질 지표로 측정되었다. PMC 전문 Methods에서 조건을 확인했다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1002/fsn3.302",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Gly-Pro-Hyp and total collagen tripeptides",
+   "compound_ko": "Gly-Pro-Hyp·콜라겐 트라이펩타이드",
+   "part": "어피 젤라틴 콜라게네이스 가수분해물",
+   "content": "트라이펩타이드 32.67 ± 0.22%, Gly-Pro-Hyp 3.22 ± 0.02% [23]",
+   "method": "HPLC-UV(GPH: 역상; 트라이펩타이드: 크기배제)",
+   "conditions": {
+    "instrument": "",
+    "column": "GPH: Zorbax SB-AQ 4.6 × 250 mm, 5 μm(Agilent); 트라이펩타이드: Superdex Peptide 10/300 GL(Cytiva)",
+    "mobile_phase": "GPH: 0.1% 트라이플루오로아세트산; 트라이펩타이드: 10 mM Tris 완충액(pH 7.5, 0.15 M NaCl·5 mM CaCl2)",
+    "gradient": "트라이펩타이드: 60분, 25–60분 구간 면적으로 계산",
+    "flow": "GPH 1.0 mL/min; 트라이펩타이드 0.3 mL/min",
+    "temp": "",
+    "detection": "GPH 220 nm; 트라이펩타이드 214 nm",
+    "injection": "",
+    "sample_prep": "껍질을 증류수에서 90–100 °C로 7시간 젤라틴화 → 비병원성 세균 유래 콜라게네이스로 분해 → 0.4 μm 필터프레스·0.45 μm 막 여과 → 분무 건조",
+    "standard": "H-Gly-Pro-Hyp-OH 표준품 검량선; 함량(mg/g) = C × V × F / W(희석배수 10)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "Gly-Pro-Hyp는 콜라겐 특이 서열로 흡수된 뒤 Pro-Hyp로 바뀌는 활성 성분이어서, 연구진은 이를 가수분해물의 '생물학적 활성 지표 성분'으로 썼다. PMC 전문 Methods에서 조건을 확인했으며 검출·정량한계·회수율은 원문에 없다. 원료 종은 후속 논문에서 P. hypophthalmus로 명시되었다[23, 24].",
+   "source": [
+    23,
+    24
+   ],
+   "url": "https://doi.org/10.3390/ijms22116137",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Antimicrobials (25 compounds: β-lactams, quinolones, macrolides, sulfonamides, trimethoprim, tetracyclines, amphenicols)",
+   "compound_ko": "항균제 25종",
+   "part": "필레(근육)",
+   "content": "브라질 유통 베트남산 필레 40점 중 5점에서 엔로플록사신 저농도 검출(수치는 초록에 없음) [9]",
+   "method": "LC-MS/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "수입 양식 판가시우스 필레의 동물용의약품 잔류를 한 번에 감시하려고 개발된 방법이다. 초록만 확인했고 전문 확인 못함; 초록에는 아세토니트릴·0.1 M EDTA 추출, Zorbax SB C18 칼럼, 0.1% 포름산 물/아세토니트릴 기울기, 정량한계 3.0 ng/g(클로람페니콜 0.3, 아목시실린·독시사이클린 10 ng/g), 회수율 65–119%로 적혀 있다[9].",
+   "source": [
+    9
+   ],
+   "url": "https://doi.org/10.1016/j.jchromb.2019.05.034",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "냉동 필레(브라질 유통 베트남산, 10점 범위)",
+   "basis": "100 g당",
+   "items": [
+    {
+     "name": "수분",
+     "value": "83.83–85.59",
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": "12.51–14.52",
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": "1.09–1.65",
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": "0.76–2.38",
+     "unit": "g"
+    }
+   ],
+   "source": [
+    4
+   ]
+  },
+  {
+   "form": "냉동·해동 필레(이탈리아 유통 베트남산)",
+   "basis": "100 g당",
+   "items": [
+    {
+     "name": "수분",
+     "value": "80–85",
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": "12.6–15.6",
+     "unit": "%"
+    },
+    {
+     "name": "지질",
+     "value": "1.1–3.0",
+     "unit": "%"
+    },
+    {
+     "name": "콜레스테롤",
+     "value": "21–39",
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": "222–594",
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    7
+   ]
+  }
+ ],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [
+  {
+   "country": "베트남",
+   "metric": "production_t",
+   "year": 2011,
+   "value": 1100000,
+   "unit": "톤",
+   "note": "이 종(striped catfish) 양식 생산량, 논문 초록의 '1.1 million tonnes'",
+   "source": [
+    20
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 메콩강큰메기 행(학명 Pangasius hypophthalmus / Pangasianodon hypophthalmus, 이명 가이양·팡가시우스메기·Iridescent shark, 수산물, 부위 '-', 사용가능, 사용 조건 없음; 같은 속 퍼시픽도리·흑점메기·동남아메기·Pangas catfish는 별도 행; 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 건강기능식품(C코드) 개별인정 행 '저분자콜라겐펩타이드 AG(제2023-10호)'·'저분자콜라겐펩타이드(제2023-14호)', 사용 조건 '가이양(Pangasius hypophthalmus) 어피 젤라틴'(로컬 원자료 I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 2023–2025년판, 품목 유형별 현황(개별인정형) — '저분자콜라겐펩타이드 AG' 행(앱 파싱본 docs/stats/hf_items.csv, 금액 천원 단위)",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "The chemical quality of frozen Vietnamese Pangasius hypophthalmus fillets. Food Sci Nutr 2016;4(3):398-408 (PMC 전문 확인)",
+   "url": "https://doi.org/10.1002/fsn3.302",
+   "publisher": "Food Science & Nutrition, PMC4867760, PubMed 27247770",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Assessment of mercury content in Panga (Pangasius hypophthalmus). Chemosphere 2018;196:53-57 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2017.12.137",
+   "publisher": "Chemosphere (PubMed 29291514)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Evaluation of mercury levels in pangasius and cod fillets traded in Sicily (Italy). Food Addit Contam Part A 2012;29(7):1046-51 (초록만 확인)",
+   "url": "https://doi.org/10.1080/19440049.2012.675595",
+   "publisher": "Food Additives & Contaminants Part A (PubMed 22575000)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "New trends in the seafood market. Sutchi catfish (Pangasius hypophthalmus) fillets from Vietnam: Nutritional quality and safety aspects. Food Chem 2008;110(2):383-389 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2008.02.014",
+   "publisher": "Food Chemistry (PubMed 26049230)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Microbiological and chemical safety concerns regarding frozen fillets obtained from Pangasius sutchi and Nile tilapia exported to European countries. J Sci Food Agric 2016;96(4):1373-9 (초록만 확인)",
+   "url": "https://doi.org/10.1002/jsfa.7233",
+   "publisher": "Journal of the Science of Food and Agriculture (PubMed 25907121)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "A simple and high-throughput method for multiresidue and multiclass quantitation of antimicrobials in pangasius (Pangasionodon hypophthalmus) fillet by LC-MS/MS. J Chromatogr B 2019;1124 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jchromb.2019.05.034",
+   "publisher": "Journal of Chromatography B (PubMed 31176266)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Residue analysis and determination of withdrawal period of florfenicol upon in-feed administration to striped catfish Pangasianodon hypophthalmus. Vet Res Commun 2026 (초록만 확인)",
+   "url": "https://doi.org/10.1007/s11259-026-11225-0",
+   "publisher": "Veterinary Research Communications (PubMed 42029852)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Doxycycline pharmacokinetics and tissue depletion in striped catfish (Pangasianodon hypophthalmus) after oral administration. J Vet Pharmacol Ther 2024 (초록만 확인)",
+   "url": "https://doi.org/10.1111/jvp.13471",
+   "publisher": "Journal of Veterinary Pharmacology and Therapeutics (PubMed 38987927)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Assessment of polyaromatic hydrocarbons and pesticide residues in domestic and imported pangasius (Pangasianodon hypophthalmus) fish in India. J Sci Food Agric 2016;96(7) (초록만 확인)",
+   "url": "https://doi.org/10.1002/jsfa.7352",
+   "publisher": "Journal of the Science of Food and Agriculture (PubMed 26213146)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "A draft genome of the striped catfish, Pangasianodon hypophthalmus, for comparative analysis of genes relevant to development and a resource for aquaculture improvement. BMC Genomics 2018;19:733",
+   "url": "https://doi.org/10.1186/s12864-018-5079-x",
+   "publisher": "BMC Genomics, PMC6173838, PubMed 30290758",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "A chromosome-level genome assembly of the striped catfish (Pangasianodon hypophthalmus). Genomics 2021;113(5)",
+   "url": "https://doi.org/10.1016/j.ygeno.2021.07.026",
+   "publisher": "Genomics (PubMed 34343676)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "A High-Quality Genome Assembly of Striped Catfish (Pangasianodon hypophthalmus) Based on Highly Accurate Long-Read HiFi Sequencing Data. Genes 2022;13(5):923",
+   "url": "https://doi.org/10.3390/genes13050923",
+   "publisher": "Genes (MDPI), PMC9141817, PubMed 35627308",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "A telomere-to-telomere gap-free genome assembly of the striped catfish (Pangasianodon hypophthalmus). Sci Data 2025",
+   "url": "https://doi.org/10.1038/s41597-025-06161-8",
+   "publisher": "Scientific Data, PMC12663411, PubMed 41315526",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "The complete mitochondrial genome of Pangasianodon hypophthalmus (Sauvage 1878) (Siluriformes, Pangasiidae). Mitochondrial DNA B Resour 2021;6(12)",
+   "url": "https://doi.org/10.1080/23802359.2021.1997107",
+   "publisher": "Mitochondrial DNA Part B, PMC8604451, PubMed 34805515",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "High genetic diversity in cryptic populations of the migratory sutchi catfish Pangasianodon hypophthalmus in the Mekong River. Heredity 2006;96(2)",
+   "url": "https://doi.org/10.1038/sj.hdy.6800781",
+   "publisher": "Heredity (PubMed 16369576)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "First High-Density Linkage Map and Quantitative Trait Loci for Disease Resistance in Striped Catfish. Int J Mol Sci 2026;27(2):784",
+   "url": "https://doi.org/10.3390/ijms27020784",
+   "publisher": "International Journal of Molecular Sciences, PMC12841340, PubMed 41596438",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Copper use and accumulation in catfish culture in the Mekong Delta, Vietnam. J Environ Sci Health A 2014;49(2):187-92 (초록만 확인)",
+   "url": "https://doi.org/10.1080/10934529.2013.838869",
+   "publisher": "Journal of Environmental Science and Health Part A (PubMed 24171418)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Rigor mortis development and effects of filleting conditions on the quality of Tra catfish (Pangasius hypophthalmus) fillets. J Food Sci Technol 2020;57(4):1320-1330",
+   "url": "https://doi.org/10.1007/s13197-019-04166-x",
+   "publisher": "Journal of Food Science and Technology, PMC7054564, PubMed 32180628",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Protein Recovery of Tra Catfish (Pangasius hypophthalmus) Protein-Rich Side Streams by the pH-Shift Method. Foods 2022;11(11):1531",
+   "url": "https://doi.org/10.3390/foods11111531",
+   "publisher": "Foods (MDPI), PMC9180071, PubMed 35681281",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Dietary Collagen Hydrolysates Ameliorate Furrowed and Parched Skin Caused by Photoaging in Hairless Mice. Int J Mol Sci 2021;22(11):6137 (PMC 전문 확인; 원료 종은 같은 연구진의 후속 논문 [24]에서 P. hypophthalmus로 명시)",
+   "url": "https://doi.org/10.3390/ijms22116137",
+   "publisher": "International Journal of Molecular Sciences, PMC8200955, PubMed 34200222",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Dietary Collagen Hydrolysates Retard Estrogen Deficiency-Induced Bone Loss through Blocking Osteoclastic Activation and Enhancing Osteoblastic Matrix Mineralization. Biomedicines 2022;10(6):1382 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/biomedicines10061382",
+   "publisher": "Biomedicines (MDPI), PMC9219917, PubMed 35740404",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Liquid collagen from freshwater fish skin ameliorates hydration, roughness and elasticity in photo-aged skin: a randomized, controlled, clinical study. Nutr Res Pract 2024;18(3):357 (PMC 전문 확인; 원문은 '베트남산 판가시우스 껍질'로 적고 선행 연구 [23]을 인용)",
+   "url": "https://doi.org/10.4162/nrp.2024.18.3.357",
+   "publisher": "Nutrition Research and Practice, PMC11156766, PubMed 38854476",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Comparison of acid-soluble collagen characteristic from three important freshwater fish skins in Mekong Delta Region, Vietnam. J Food Biochem 2020;44(9) (초록만 확인)",
+   "url": "https://doi.org/10.1111/jfbc.13397",
+   "publisher": "Journal of Food Biochemistry (PubMed 32713023)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "ACE inhibitory activity of pangasius catfish (Pangasius sutchi) skin and bone gelatin hydrolysate. J Food Sci Technol 2014;51(9) (초록만 확인; P. sutchi는 이 종의 이명)",
+   "url": "https://doi.org/10.1007/s13197-012-0742-8",
+   "publisher": "Journal of Food Science and Technology, PMC4152525, PubMed 25190839",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Optimization and physical properties of gelatin extracted from pangasius catfish (Pangasius sutchi) bone. J Food Sci Technol 2014;51(11):3104-13 (초록만 확인)",
+   "url": "https://doi.org/10.1007/s13197-012-0816-7",
+   "publisher": "Journal of Food Science and Technology, PMC4571212, PubMed 26396302",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Monoclonal antibody-based sandwich ELISA for reliable identification of imported Pangasius catfish. J Food Sci 2009;74(8) (초록만 확인)",
+   "url": "https://doi.org/10.1111/j.1750-3841.2009.01315.x",
+   "publisher": "Journal of Food Science (PubMed 19799656)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "IUCN Red List of Threatened Species — Pangasianodon hypophthalmus (2011 평가, e.T180689A7649971) (WebSearch 검색 결과 요약으로만 확인, IUCN 원문 페이지는 이 환경에서 열지 않음)",
+   "url": "https://www.iucnredlist.org/species/180689/7649971",
+   "publisher": "International Union for Conservation of Nature",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Two-year intervention trial to control of fish-borne zoonotic trematodes in giant gourami (Osphronemus goramy) and striped catfish (Pangasianodon hypophthalmus) in nursery ponds in the Mekong Delta, Vietnam. Acta Trop 2015;152 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.actatropica.2015.09.012",
+   "publisher": "Acta Tropica (PubMed 26394184)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Proteomic analysis of blood cells in fish exposed to chemotherapeutics: evidence for long term effects. J Proteomics 2012;75(8) (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jprot.2012.02.028",
+   "publisher": "Journal of Proteomics (PubMed 22406376)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Effects of immersion vaccination in striped catfish (Pangasianodon hypophthalmus) using a cationic lipid-based mucoadhesive nanovaccine against Edwardsiella ictaluri. Fish Shellfish Immunol 2025 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.fsi.2025.110540",
+   "publisher": "Fish & Shellfish Immunology (PubMed 40614946)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Genomic Insights into Edwardsiella ictaluri: Molecular Epidemiology and Antimicrobial Resistance in Striped Catfish (Pangasianodon hypophthalmus) Aquaculture in Vietnam. Microorganisms 2024;12(6):1182 (초록 확인)",
+   "url": "https://doi.org/10.3390/microorganisms12061182",
+   "publisher": "Microorganisms (MDPI), PMC11205447, PubMed 38930563",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "The potential novel bacteriophages against multidrug-resistant Edwardsiella tarda isolates from striped catfish Pangasianodon hypophthalmus. Sci Rep 2025;15",
+   "url": "https://doi.org/10.1038/s41598-025-20979-7",
+   "publisher": "Scientific Reports, PMC12552678, PubMed 41136450",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Optimizing dietary protein and lipid levels to improve fillet quality, processing yield, physio-metabolic responses, and serum biochemical parameters in pond grown striped catfish, Pangasianodon hypophthalmus. Food Chem 2025 (초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2025.145973",
+   "publisher": "Food Chemistry (PubMed 40840376)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
