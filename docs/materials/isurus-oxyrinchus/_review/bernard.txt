@@ -1,0 +1,655 @@
+ABSTRACT
+
+Large‐bodied pelagic sharks are key regulators of oceanic ecosystem stability, but highly impacted by severe overfishing. One such species, the shortfin mako shark (), a globally widespread, highly migratory predator, has undergone dramatic population reductions and is now Endangered (IUCN Red List), with Atlantic Ocean mako sharks in particular assessed by fishery managers as overfished and in need of urgent, improved management attention. Genomic‐scale population assessments for this apex predator species have not been previously available to inform management planning; thus, we investigated the population genetics of mako sharks across the Atlantic using a bi‐organelle genomics approach. Complete mitochondrial genome (mitogenome) sequences and genome‐wide SNPs from sharks distributed across the Atlantic revealed contrasting patterns of population structure across marker types. Consistent with this species' long‐distance migratory capabilities, SNPs showed high connectivity and Atlantic panmixia overall. In contrast, there was matrilineal population genetic structure across Northern and Southern Hemispheres, suggesting at least large regional‐scale female philopatry. Linkage disequilibrium network analysis indicated that makos possess a chromosomal inversion that occurs Atlantic wide, a genome feature that may be informative for evolutionary investigations concerning adaptations and the global history of this iconic species. Mitogenome diversity in Atlantic makos was high compared to other elasmobranchs assessed at the mitogenome level, and nuclear diversity was high compared to the two other, highly migratory pelagic shark species assessed with SNPs. These results support management efforts for shortfin makos on at least Northern versus Southern Hemisphere scales to preserve their matrilineal genetic distinctiveness. The overall comparative genetic diversity findings provide a baseline for future comparative assessments and monitoring of genetic diversity, as called for by the United Nations Convention on Biological Diversity, and cautious optimism regarding the health and recovery potential of Atlantic shortfin makos if further population declines can be halted.
+
+1
+
+Introduction
+
+During the past five decades, pelagic elasmobranchs (sharks and rays) have undergone alarming global declines (~70%), with three‐quarters of these oceanic, wide‐ranging, and mostly highly mobile species now at risk of extinction (Pacoureau et al.; Juan‐Jordá et al.). This dramatic and ongoing loss in abundance is mainly driven by pervasive overfishing and bycatch (Dulvy et al.; Pacoureau et al.). These fisheries interactions with pelagic elasmobranchs typically occur on the high seas beyond national jurisdictions (Cronin et al.), making coordinated regional fisheries management and conservation efforts essential to stem continued losses of these ecologically important species and allow their recovery. Sustainable conservation management is aided by an understanding of the biology of these species, including foundational information about their genetic spatial connectivity and diversity.
+
+With few strong barriers to dispersal in open oceans, the a priori expectation for large‐bodied pelagic sharks, which often possess long‐distance dispersal propensities as adults and ocean basin or worldwide distributions, is that low levels of population genetic differentiation exist across their range. However, nuclear and/or mitochondrial DNA population genetic structure is increasingly being identified in these highly migratory species, e.g., white sharks (; Blower et al.; Bernard et al.), night sharks (; Domingues et al.), silky sharks (; Clarke et al.; Kraft et al.), blue sharks (; Nikolic et al.), pelagic thresher sharks (; Cardeñosa, Hyde, and Caballero), oceanic whitetip sharks (; Camargo et al.; Ruck et al.), tiger sharks (; Bernard et al.,; Holmes et al.; Sort et al.), porbeagle sharks (; González et al.), and shortfin mako sharks (; Corrigan et al.; González et al.; Vella and Vella). It is anticipated that investigations employing newer generation, whole genome‐based, high‐resolution markers (e.g., single nucleotide polymorphisms (SNPs) and/or whole mitogenomes) will further reveal finer geographic‐scale population differentiation undetected in these species previously with traditional genetic approaches (e.g., Kraft et al.; Bernard et al.; Green et al.; Nikolic et al.). Use of such genome‐level markers will also provide greater precision for elucidating the population histories of species (e.g., Thrasher et al.; Bohling et al.; Zimmerman, Aldridge, and Oyler‐McCance) and improve investigations of broad evolutionary questions concerning adaptive genetic differences (e.g., Vendrami et al.; Junge et al.; Zimmerman, Aldridge, and Oyler‐McCance) and the chromosomal architecture and genomic complexity of species (Kemppainen et al.; Wellenreuther et al.). Furthermore, robust understanding of matrilineal population genetic dynamics will benefit from whole mitochondrial genome sequence‐based approaches, given that past assessments have demonstrated that population and genetic diversity inferences can vary depending on the mitochondrial gene/region analyzed. This variability can result from the reduced information and associated limited statistical power obtained when using short mitochondrial sequences, and varying mutation rates and evolutionary selection in individual mitochondrial regions (Dudgeon, Broderick, and Ovenden; Teacher et al.; Feutry et al.; Lou et al.; Johri et al.; Kraft et al.).
+
+With concerns mounting about the high extinction risks for pelagic sharks, there is a need to apply genomic approaches to better reveal the population dynamics of these species for conservation management and improve understanding of their general evolutionary history. A pelagic species of high conservation concern is the shortfin mako shark (), a large‐bodied, highly migratory, apex predator that is targeted for its meat and fins in fisheries throughout its global distribution. Shortfin makos (hereafter, makos) are classified as “Endangered” on the International Union for Conservation of Nature's (IUCN) Red List of Threatened Species (Rigby et al.) and listed on Appendix II of the Convention on International Trade in Endangered Species (CITES) due to population declines attributed to widespread overfishing. Within Atlantic waters, the mako's population status is particularly dire (Sims, Mucientes, and Queiroz,). The most recent stock assessment indicates Northern Atlantic mako sharks are overfished, and there is high uncertainty about the status of the South Atlantic stock (ICCAT). Furthermore, independent, satellite tagging‐derived data for makos in the North Atlantic indicate that fishing mortality rates may be up to ten times higher than previously estimated by pre‐2017 Atlantic stock assessment models (Byrne et al.).
+
+Conventional tagging‐ and satellite telemetry‐based studies of makos in the Atlantic indicate complex dispersal dynamics with individuals showing a variety of dispersal behaviors, including long‐term area residency, region‐specific movement patterns, and long‐distance, seasonal return migrations (Vaudo et al.; Byrne et al.; Kohler and Turner; Santos et al.; Gibson et al.). Notably, all the combined tagging data have revealed only a single case of trans‐equatorial, North–South hemisphere movements (Santos et al.), leading to a prediction of at least inter‐hemispheric, population genetic structure in the Atlantic.
+
+The only genomic‐level assessments reported for the mako shark thus far are a chromosomal‐level genome assembly (Stanhope et al.) and the development of a panel of SNP markers (Domingues et al.), but neither of these studies conducted population‐level assessments. All genetic assessments of mako population dynamics in various parts of the species' global distribution have thus far relied on sections of mitochondrial DNA sequences from the control region and/or some protein‐coding genes (Heist, Musick, and Graves; Taguchi, Kitamura, and Yokawa; Corrigan et al.; González et al.; Vella and Vella), and/or a modest number of nuclear microsatellite markers (Schrey and Heist; Corrigan et al.). Microsatellite DNA assessments suggest that makos comprise a globally panmictic population (Schrey and Heist; Corrigan et al.), though these results are tempered by the use of either a few microsatellite markers (i.e., Schrey and Heist—four microsatellites) or limited spatial distribution of Atlantic sharks in the assessments (Corrigan et al.—focused on Indo‐Pacific‐wide makos, with Atlantic samples only from the NE Atlantic). Consistent with predictions from Atlantic mako tagging‐based findings, early mitochondrial restriction fragment polymorphism (RFLP) work (Heist, Musick, and Graves) suggested North and South Atlantic makos to be genetically differentiated. Recent work using short sequences of the mitochondrial control region (CR) and/or Cytochrome Oxidase I gene with sampling only from the eastern Atlantic and/or Mediterranean (González et al.) supports mako northern vs. southern hemisphere matrilineal structure in the eastern Atlantic.
+
+The imperiled status of the mako, its global distribution, and long‐distance migrations necessitate a cooperative international approach to its recovery and sustainable management. Improved management efforts and assessment of adaptive evolutionary potential underscore the need for a high‐resolution genetic survey of the population dynamics of this species. Herein, we report an assessment of the population genetics of the mako shark, as derived from single nucleotide polymorphisms and complete mitochondrial genome sequences. Here, we focus on an Atlantic‐wide assessment, including population genomic structure, sex‐biased dispersal, comparative genetic diversity, and genomic architecture of this iconic, endangered, apex predator.
+
+2
+
+Materials and Methods
+
+2.1
+
+Shortfin Mako Atlantic Distribution, Sample Collection, and GenomicExtraction
+
+The mako's Atlantic distribution spans 60°N to 50°S in oceanic and shelf waters (Ebert, Dando, and Fowler). Tissue samples were obtained from 144 sharks across most of this latitudinal range, captured between 2004 and 2018 from six general Atlantic locations (hereafter six “subpopulations”). Individual shark sample subpopulation locations and final sample sizes of SNP genotyped and whole mitogenome sequenced sharks are shown in Figure. Sample metadata (shark sex, size, sequence reads, GenBank Accession numbers) are shown in Appendix S1: Table S1. Samples were typically obtained from fisheries or research telemetry tagging expeditions (fin clips or muscle tissue plugs), and preserved in 99% undenatured ethanol. Genomic DNA was extracted from tissues using either DNeasy Blood and Tissue Kits according to manufacturer's instructions (QIAGEN Inc.) or by the lysis extraction method of Wilson, Lavender, and Black () as modified by Bernard et al. (). Following tissue lysis, 4‐μL of QIAGEN RNAse A was added to the lysate of all samples used for downstream SNP library preparation. A Qubit 3 Fluorometer (Invitrogen) was used to quantify all genomic DNA extracts.
+
+FIGURE 1
+
+Map of shortfin mako shark () a priori defined, Atlantic sampling groupings (hereafter referred to as “subpopulations”): WNA, western North Atlantic; GoMex, Gulf of Mexico and Isla Mujeres, Mexico; WSA, western South Atlantic; ENA, eastern North Atlantic; ECA, eastern Central Atlantic; ESA, eastern South Atlantic. Individual sample locations (i.e., exact capture location or beginning of fishing transect) are represented by a black dot, and a black rectangular box represents a sample group where only general capture location is available. Numbers in brackets represent final shark sample sizes used in downstream analysis (Blue: Complete mitochondrial genomes; Green: Post‐filtered sample sizes for single nucleotide polymorphisms (SNPs) dataset). Red lines delimit ICCAT stock/statistical management areas for sharks; red text indicate abbreviations of ICCAT stock/statistical management areas: AT‐NE, Atlantic Northeast; AT‐NW, Atlantic Northwest; AT‐SW, Atlantic Southwest; AT‐SE, Atlantic Southeast.
+
+2.2
+
+Mitogenome: Long‐, Library Preparation, and Sequencing
+
+Complete mako mitochondrial genomes (mitogenomes) were amplified via long‐polymerase chain reaction (long‐PCR) in four to eight individual fragments of varying sequence length (1323–5852 bp) (details described in Appendix S1: Methods S1, Table S2). Mitochondrial DNA library preparation for sequencing was performed using the Nextera XT DNA Library Preparation Kit (Illumina Inc.) following the manufacturer's guidelines, and included a dilution of each amplified fragment to a concentration of 0.2 ng/μL and the pooling of all amplicons belonging to a single sample (individual shark). Final DNA library size was assessed on an Agilent TapeStation (Agilent Technologies Inc.) followed by paired‐end (2 × 150 PE) sequencing on an Illumina MiSeq.
+
+2.3
+
+Mitogenome: Sequence Read Quality Filtering, Assembly, and Population Genetic Analysis
+
+Within Geneious Prime 2021.2.2 (Kearse et al.), raw Illumina PE reads were merged and then trimmed using BBDuk 38.84 (Bushnell, Rood, and Singer). Adapter sequences (All Truseq, Nextera, and PhiX adapters) and low‐quality nucleotides (minimum Phred quality score of 30) were trimmed and reads spanning less than 75 bp were discarded. Mitogenome sequences were assembled using the “Map to Reference” feature in Geneious (reference sequence GB#; Chang et al.) and the Geneious Mapper feature. Consensus sequences were generated from assembled contigs assuming a minimum of 10× coverage (settings: Threshold = Highest Quality (60%); Assign Quality = Total). Where 10× coverage across the mitogenome was not achieved (= 6 sharks), mitochondrial DNA long‐PCR amplification, library preparation, and sequencing were repeated, with Illumina reads generated across different MiSeq runs combined to achieve higher sequence coverage (= 4 sharks), or gaps in sequence were filled via the process of Sanger Sequence primer walking (= 2 sharks; see Appendix S1: Methods S2, Tables S1 and S2). The above methods resolved 85 complete assembled mitogenomes from four of the six subpopulations (see Section). Resultant assembled mitogenome sequences were annotated using Mitoannotator 3.72 (Iwasaki et al.) and aligned in Geneious using the Muscle 3.8.425 (Edgar) feature. Input files for downstream analyses were generated using FaBox 1.61 (Villesen).
+
+Overall, hierarchical (see groups below) and per collection site genetic diversity estimates (number of haplotypes, haplotype, and nucleotide diversity, and number of polymorphic sites), nucleotide composition, and demographic parameters (Tajima's, Tajima; Fu's, Fu) were determined for complete mitogenome sequences using the program Arlequin 3.5.2.1 (Excoffier and Lischer); nucleotide ambiguities (degenerate bases) were coded as missing data and significance of demographic parameters was estimated by 10,000 simulated samples. Two hierarchical Analysis of Molecular Variance (AMOVAs) were performed using Arlequin with the four collection sites grouped according to: (1) current International Commission for the Conservation of Atlantic Tunas (ICCAT) management boundaries for Atlantic makos (see Figure; Northern Atlantic vs. Southern Atlantic with 5°N as the latitudinal stock limits), and (2)Western vs. Eastern Atlantic mako groupings using ICCAT's stock/statistical longitudinal boundaries for sharks as our a priori longitudinal division of sharks (see Figurefor locations of ICCAT stock/statistical boundaries). AMOVAs were performed assuming pairwise genetic distance (ϕ), nucleotide ambiguities coded as missing data, and significance was determined using 10,000 permutations. Likewise, Arlequin was used to estimate pairwise values of genetic differentiation (pairwise genetic distance: ϕ; ambiguities coded as missing data) between mako hierarchical groups and the four subpopulations. Significance was determined using 10,000 permutations and these values were adjusted using Benjamini and Hochberg's () false discovery rate (FDR) correction as implemented in R version 4.0.5 (R Core Team; function: “p.adjust”). Phylogeographic relationships among complete mitogenome haplotypes were visualized by means of a Median‐Joining Network (Bandelt, Forster, and Röhl) using the program PopART 1.7 (Leigh and Bryant); all other publicly available globally sourced mako whole mitogenome sequences were included in the network to orient our sequences in a global phylogeographic context [Chang et al.—Pacific:; Gorman et al.—WNA:; Mehlrose et al.—WNA:, ENA:, and western South Pacific (New Zealand):].
+
+2.4
+
+Double‐Digest Restriction Site‐AssociatedSequencing (): Library Preparation, Sequencing, and De NovoAssembly
+
+SNP libraries were generated for 135 mako samples (plus nine technical replicates, total= 144) according to Peterson et al.'s () double‐digest RADseq protocol, using aliquots of 200 ng of template genomic DNA, and the restriction enzymes SphI (Life Technologies Inc.) and MluC1 (New England Biolabs Inc.). Following digestion, samples were purified using AMPure XP beads (Beckman Coulter Inc.) and individual barcode (P1; Sigma‐Aldrich Inc.) and universal adapters (P2; Sigma‐Aldrich Inc.) were ligated to enzyme cut sites (SphI and MluC1 restriction enzymes, respectively). Eight unique P1 adapters were adopted herein; thus, each final indexed library contained eight individual sharks (each with a variable P1 adapter). Size selection of RAD libraries (495–605 bp in length) was performed using a Pippin Prep DNA Size Selection System (Sage Science Inc.) and PE sequencing (2 × 150 PE) was performed by GENEWIZ (Azenta US Inc.) on three lanes of an Illumina HiSeq 4000. Quality of raw Illumina reads was assessed using FastQC 0.11.8 (Andrews), followed by de novo SNP discovery using Stacks 2.54 (Catchen et al.; Rochette, Rivera‐Colón, and Catchen) as outlined in Appendix S1: Methods S3.
+
+2.5
+
+:Bioinformatics Quality Filtering, Relatedness, and Linkage Disequilibrium Network Analysis
+
+Secondary filtering of the SNP dataset using the software vcftools 0.1.13 (Danecek et al.) was performed in a series of successive (and sometimes repeated) steps to include only: (1) loci with a minimum of 8× coverage, (2) loci genotyped in at least 70% of individuals and possessing a minor allele frequency of 5%, (3) individuals genotyped across at least 70% of SNP loci, (4) SNP loci with a mean depth of at least 10X coverage across individuals, (5) loci genotyped in at least 70% of individuals and possessing a minor allele frequency of 5%, and (6) SNP loci whose maximum mean depth of coverage was no more than two times the value of the mean coverage across loci.
+
+To test for duplicate samples (i.e., the same shark sampled twice in the field), and to evaluate the genotyping similarity of RAD library technical sample replicates, the R package strataG 2.0.2 (Archer, Adams, and Schneiders) was employed; where duplicate genotypes were identified (shared genotype > 80%), the individual shark with the highest rate of missing data was discarded. Input files for downstream analysis were generated using the R package vcfR 1.12.0 (Knaus and Grünwald). Relatedness between samples was assessed using the R package SNPRelate 1.24.0 (Zheng et al.) and via implementing the KING identity‐by‐descent (IBD) method.
+
+To test for adaptive selection and/or chromosomal structural variants (i.e., the non‐random association of alleles within the RAD dataset), we performed linkage disequilibrium network analysis (LDna) using the methodology of Kemppainen et al. () and the R package LDna 0.64. The LDna method relies on network analyses to identify clusters of loci in high linkage disequilibrium (LD) and exploits the assumption that any LD‐locus “outlier” clusters that remain highly distinct across a vast range of LD values likely represent groups of loci that exhibit and share a unique population genetic signal (Kemppainen). Thus, the purpose of the LDna method is to identify and extract these tightly‐linked [i.e., single outlier clusters (SOC)] sets of outlier loci so that they can be explored further via downstream population genetic analyses (Kemppainen). To perform LDna on our dataset, we generated a matrix of pairwise linkage disequilibrium (LD;) values between all SNP loci using the R package pegas 1.0‐1 (Paradis). LDna was run using this LD matrix as input and assuming a minimum edge number of 52 [per Kemppainen et al.~1% of dataset] and a phi value of 8. SNP loci appearing in the identified SOC (see Section) were extracted and analyzed via a principal component analysis (PCA) using the R package adegenet 2.1.3 (function: “dudi.pca”; Jombart; Jombart and Ahmed). For each of the three SOC PCA‐resolved clusters (see Section), estimates of genetic diversity [observed () and expected heterozygosity () (adegenet) and the inbreeding coefficient (; hierfstat 0.5–10; Goudet)] were obtained. Consensus sequences of all SOC RAD loci were: (1) mapped to the mako unannotated National Center for Biotechnology Information (NCBI) scaffold assembly GCA_026770705.1 (5558 individual sequences; Stanhope et al.; NCBI Genome Assembly ASM2677070v1) using Geneious Prime and its “Map to Reference” Geneious Mapper feature. Settings included a minimum mapping quality of 30 and allowed 10% mismatches and 10% gaps per matched read; and (2) compared against a reference chromosomal‐level, annotated (Annotation Release 100) genome assembly of the white shark (GCF_017639515.1) using the NCBI Blastn feature per Domingues et al. (). Matches of SOC RAD loci mako consensus sequences to the white shark genome were retained if percent identity was ≥ 95% and the bitscore exceeded 200. Up to three chromosomal matches were retained per consensus sequence. Next, to identify white shark genomic features in close proximity to anchored SOC mako loci, we used the program BEDOPS v. 2.4.39 (Neph et al.) to extract annotations (genomic feature, product, and genetic distance in nucleotides to nearest feature; “closest‐features” command) from the white shark reference genome. Then, as performed in Vaux et al. (), for any identified homologous white shark genomic features matching mako consensus sequences, we (where possible) determined the corresponding homologous human NCBI Entrez IDs and searched for these human Entrez IDs in PANTHER 19.0 (Thomas et al.) to identify their potential biological functions (Panther Go‐slim Biological Processes). As stated in Vaux et al. (), evolutionarily distant species comparisons (i.e., white shark vs. human) may still be valid if vertebrate gene function is conserved.
+
+To complement the network analysis in the identification of putative outlier loci: (1) BayeScan 2.1 (Foll and Gaggiotti) was run using default settings (prior odds of 100, and an FDR of 5%), and (2) the R package OutFLANK 0.2 (Lotterhos and Whitlock) was used assuming default settings, six a priori subpopulations, and athreshold of 0.05.
+
+2.6
+
+: Population Genetic Structure Analysis
+
+Following LDna and testing for candidate outlier loci, non‐SOC loci (hereafter referred to as the putatively “neutral SNP loci”) were tested for conformation to Hardy–Weinberg equilibrium (HWE) proportions within subpopulations (where sample size was ≥ 15) using the R package pegas (function: “hw.test”); those loci deviating from HWE at< 0.05 after FDR correction within two or more subpopulations were discarded. Estimates of SNP diversity (overall, hierarchical, and per subpopulation), including,,, allelic richness (; function “allelic. Richness”), and the number of private alleles per subpopulation () were estimated using the R packages adegenet (and), hierfstat (,), and poppr 2.9.2 (; Kamvar, Tabima, and Grünwald; Kamvar, Brooks, and Grünwald).
+
+Signals of population genetic structure within neutral SNP loci were assessed using a set of population‐ and individual‐level analyses. Overall and pairwise estimates of genetic differentiation (; Weir and Cockerham) between subpopulations and hierarchical groupings (as defined above) were generated using the R package strataG and the functions “overallTest” (strataG) and “pairwiseTest” (strataG). Significance was determined by implementing 1000 permutation replicates and pairwise values of significance were adjusted (FDR). Then neutral population genetic structure was further assessed by means of a set of individual‐based cluster analyses. First, a multivariate PCA was performed using the R package adegenet as outlined above. And second, the Maximum Likelihood program Admixture (Alexander, Novembre, and Lange) and its cross‐validation (CV) error approach was adopted to determine the most appropriate number of clusters within the dataset, assuming default settings, and= 1–10.
+
+To test for sex‐biased dispersal in makos, we used the methods outlined in Goudet, Perrin, and Waser () and tested for differences between the two sexes across four metrics: (1) Weir and Cockerham's (), the inbreeding coefficient, where the dispersing sex should possess a higher value of(a heterozygote deficit compared to HWE proportions) compared to the more philopatric sex; (2) thestatistic, which represents the proportion of the total genetic variance that occurs among populations, where the more philopatric sex should have a largercompared to the more dispersing sex; (3) mean corrected Assignment Index (mAIc; Paetkau et al.; Favre et al.), where the assignment probability of the dispersing sex should possess a lower mean AIc than the more philopatric sex; and (4) variance of the corrected Assignment Index (vAIc), where the dispersing sex should have a larger vAIc than the more philopatric sex. The above metrics were estimated using the R package hierfstat (function: “sexbias.test”); statistical significance of estimates between male (= 47) and female (= 58) makos was determined by implementing 1000 permutations.
+
+3
+
+Results
+
+3.1
+
+Mitogenomes
+
+A total of 85 mako complete mitogenomes were generated, ranging in length from 16,699 to 17,002 bp. Of these mitogenomes, 83 were assembled from Illumina reads, while two were assembled using a combination of Illumina reads and stretches of primer‐walked and assembled Sanger sequences (shark OC‐072, Sanger sequenced 3111‐bp, and shark OC‐365, Sanger sequenced 4146‐bp). In total, 34,329,726 raw Illumina PE reads were recovered across samples, with a mean of 403,879 reads per shark. Following assembly, each mitogenome consisted of an average of 158,171 mapped reads (2 × 150 PE; range: 18,424–993,495 reads; Appendix S1: Table S1). Mean sequence depth across the final, individual mitogenomes ranged from 209× to 11,838×, with a minimum and maximum coverage of 11× and 97,907×, respectively (these coverage statistics do not include the two shark samples requiring Sanger sequences to complete assembly). Along with the 85 complete mitogenome sequences generated herein, all downstream population‐level analyses included the mitogenome sequence of a mako shark (GenBank Accession Number:; Mehlrose et al.) from the eastern North Atlantic (ENA) (Figure; Appendix S1: Table S1). In the final curated 86 complete mitogenome sequences, evidence of heteroplasmy (i.e., two nucleotides presenting in near equal frequencies at a single position for Illumina‐derived sequences) was found at 21 nucleotide positions across 15 individual sharks: 18 of these ambiguities appeared in protein‐coding genes (ATP6,= 1; COI,= 5; ND1,= 2; ND2,= 1; ND3,= 1; ND4L,= 1; ND4,= 5; ND5,= 2), and the remaining three appeared in the non‐protein‐coding regions t‐RNA‐Phe, 12S rRNA, and the D‐Loop (one in each region). A single ambiguity was found in a Sanger‐sequenced region, presenting as overlapping peaks in the chromatograms. Annotation of the mitogenomes yielded an identical order and complement (13 protein‐coding genes, two ribosomal RNAs, 22 transfer RNAs, and one non‐coding D‐Loop) to other published, globally‐sourced mako mitogenomes (Chang et al.; Gorman et al.; Mehlrose et al.). The overall GC content of mitogenomes was 43.20%.
+
+Atlantic‐wide mitogenome genetic diversity was high. Across the 86 mitogenomes, 76 haplotypes were recovered, separated by 645 polymorphic sites, and consisting of 588 transitions, 58 transversions, and 9 indels. Overall haplotype and nucleotide diversity was 0.997 ± 0.002 and 0.00654 ± 0.00314, respectively (Table). Estimates of genetic diversity were similar among the four a priori defined subpopulations and hierarchical groupings (i.e., Northern Atlantic, Southern Atlantic, Eastern Atlantic, and Western Atlantic) from whom mitogenomes were obtained. There was no evidence of population expansion according to the parameters Tajima'sand Fu'ss, as values did not deviate from neutral expectations (Table).
+
+Hierarchical AMOVAs indicated some, albeit limited, evidence of matrilineal population genetic structure. Between‐group variance was maximized (8.43%) when subpopulations were latitudinally partitioned by current ICCAT stock management boundaries (Figure) into Atlantic Northern versus Southern Hemisphere groups, although without statistical significance (= 0.252) (Appendix S1: Table S3a). When Atlantic mako subpopulations were grouped into hierarchical groups longitudinally, between‐group variance was negative (−2.34%) and there was no statistically significant genetic differentiation found between Eastern Atlantic versus Western Atlantic subpopulations (= 0.754); however, statistically significant genetic population structure was foundthese longitudinal hierarchical groups (ϕ‐statistic = 0.084,= 0.009; Appendix S1: Table S3b), indicating the presence of some matrilineal population genetic differentiation among western Atlantic mako subpopulations, since the eastern Atlantic contained only one subpopulation. Pairwise testing for mitogenome genetic differentiation between subpopulations also yielded statistically significant matrilineal differentiation between some Northern versus Southern Atlantic regions (i.e., WNA vs. WSA and ENA vs. WSA; ϕ= 0.193 and 0.192, respectively;< 0.05; Table). When samples were compared by hemisphere groupings [i.e., Northern (WNA, GoMex, ENA) versus Southern Hemispheres (WSA)], significant genetic differentiation was also found (ϕ= 0.108,= 0.006; Table). No significant pairwise matrilineal genetic population structure was found between any Western and Eastern Atlantic mako subpopulations (Table).
+
+The median‐joining network for mitogenomes revealed a high number of mutational steps separating many of the haplotypes (up to 98 mutations), but little, if any, phylogeographic partitioning (Figure), indicating the presence of deep or long‐standing lineages that appear to be broadly sympatric within the Atlantic.
+
+TABLE 1
+
+Atlantic shortfin mako shark population genetic diversity statistics by a priori subpopulations and hemispheres as determined from complete mitogenome sequences (= 86) and 4971 genotyped single nucleotide polymorphisms (= 105).
+
+Subpopulation of grouping
+
+Mitogenomes
+
+Single nucleotide polymorphisms (SNPs)
+
+N
+
+nh
+
+np
+
+h
+
+π
+
+()
+
+()
+
+n
+
+H
+
+O
+
+H
+
+E
+
+A
+
+R
+
+F
+
+IS
+
+WNA
+
+27
+
+24
+
+380
+
+0.989 ± 0.015
+
+0.00493 ± 0.00244
+
+−0.635 (0.277)
+
+0.085 (0.498)
+
+28
+
+0.273
+
+0.273
+
+1.295
+
+0.017
+
+GoMex
+
+31
+
+28
+
+435
+
+0.994 ± 0.010
+
+0.00712 ± 0.00349
+
+0.369 (0.708)
+
+0.258 (0.534)
+
+27
+
+0.276
+
+0.276
+
+1.279
+
+0.019
+
+WSA
+
+17
+
+16
+
+406
+
+0.993 ± 0.023
+
+0.00726 ± 0.00367
+
+0.072 (0.584)
+
+0.969 (0.595)
+
+17
+
+0.275
+
+0.271
+
+1.280
+
+0.013
+
+ENA
+
+11
+
+11
+
+310
+
+1.000 ± 0.039
+
+0.00474 ± 0.00250
+
+−1.232 (0.106)
+
+0.054 (0.312)
+
+18
+
+0.283
+
+0.275
+
+1.285
+
+0.008
+
+ECA
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+11
+
+0.270
+
+0.262
+
+1.276
+
+0.019
+
+ESA
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+4
+
+0.299
+
+0.250
+
+1.295
+
+−0.047
+
+Northern Atlantic
+
+69
+
+61
+
+556
+
+0.996 ± 0.003
+
+0.00606 ± 0.00292
+
+−0.433 (0.386)
+
+−4.772 (0.115)
+
+73
+
+0.276
+
+0.279
+
+—
+
+0.018
+
+Southern Atlantic
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+32
+
+0.276
+
+0.276
+
+—
+
+0.018
+
+Western Atlantic
+
+75
+
+66
+
+614
+
+0.996 ± 0.003
+
+0.00672 ± 0.00324
+
+−0.361 (0.426)
+
+−4.653 (0.128)
+
+72
+
+0.275
+
+0.278
+
+—
+
+0.020
+
+Eastern Atlantic
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+33
+
+0.279
+
+0.278
+
+—
+
+0.015
+
+Atlantic Ocean Overall
+
+86
+
+76
+
+645
+
+0.997 ± 0.002
+
+0.00654 ± 0.00314
+
+−0.511 (0.355)
+
+−7.423 (0.066)
+
+105
+
+0.28
+
+0.28
+
+—
+
+0.012
+
+Mitogenomes:, mean allelic richness;, Tajima's(Tajima 1989);,‐value;, Fu's(Fu 1997);,, observed heterozygosity;, expected heterozygosity;, number of complete mitogenomes;, number of haplotypes;, number of polymorphic sites;, haplotype diversity; π, nucleotide diversity; SNPs:, number of samples genotyped; inbreeding coefficient. Subpopulation (from Figure) and/or Grouping Abbreviations: WNA, western North Atlantic; GoMex, Gulf of Mexico and Isla Mujeres, Mexico; WSA, western South Atlantic; ENA, eastern North Atlantic; *ECA, eastern Central Atlantic; *ESA, eastern South Atlantic; Northern Atlantic (WNA, GoMex, ENA); Southern Atlantic (WSA, *ECA, *ESA); Western Atlantic (WNA, GoMex, WSA); Eastern Atlantic (ENA, *ECA, *ESA). * denote samples from these a priori subpopulations analyzed for SNPs only.
+
+TABLE 2
+
+Atlantic shortfin mako shark a priori subpopulation‐level, pairwise values of genetic differentiation (mitogenomes: Φ; SNPs:).
+
+Sub‐population comparison
+
+Φ
+
+F
+
+ST
+
+Mitogenomes
+
+4971 SNPs
+
+= 86
+
+= 105
+
+WNA vs. GoMex
+
+0.059
+
+0.000
+
+WNA vs. WSA
+
+0.193
+
+a
+
+0.001
+
+WNA vs. ENA
+
+−0.041
+
+0.001
+
+WNA vs. ECA
+
+—
+
+0.002
+
+WNA vs. ESA
+
+—
+
+0.001
+
+GoMex vs. WSA
+
+0.015
+
+0.001
+
+GoMex vs. ENA
+
+0.056
+
+0.001
+
+GoMex vs. ECA
+
+—
+
+0.001
+
+GoMex vs. ESA
+
+—
+
+0.000
+
+WSA vs. ENA
+
+0.192
+
+0.001
+
+WSA vs. ECA
+
+—
+
+0.000
+
+WSA vs. ESA
+
+—
+
+0.000
+
+ENA vs. ECA
+
+—
+
+0.001
+
+ENA vs. ESA
+
+—
+
+−0.001
+
+ECA vs. ESA
+
+—
+
+0.001
+
+Values in bold (mitogenome and SNP) indicate non‐adjusted statistical significance at< 0.05.
+
+Abbreviations: ECA, eastern Central Atlantic; ENA, eastern North Atlantic; ESA, eastern South Atlantic; GoMex, Gulf of Mexico and Isla Mujeres, Mexico; WNA, western North Atlantic; WSA, western South Atlantic.
+
+a
+
+Indicates mitogenome and SNP statistical significance at< 0.05 after False Discovery Rate correction.
+
+TABLE 3
+
+Atlantic shortfin mako shark pairwise values of mitogenomes (Φ) and nuclear SNPs () genetic differentiation among hierarchical groups.
+
+Hierarchical group comparisons
+
+Φ()
+
+()
+
+Mitogenomes
+
+4971 SNPs
+
+= 86
+
+= 105
+
+Northern Atlantic vs. Southern Atlantic
+
+0.108 (0.006)
+
+0.001 (0.028)
+
+Western Atlantic vs. Eastern Atlantic
+
+0.032 (0.168)
+
+0.001 (0.006)
+
+Location Hierarchical Groupings: Northern Atlantic: western North Atlantic (WNA), Gulf of Mexico and Isla Mujeres, Mexico (GoMex), and eastern North Atlantic (ENA); Southern Atlantic: western South Atlantic (WSA), central Atlantic (ECA*), and eastern South Atlantic (ESA*); Western Atlantic: WNA, GoMex, and WSA; Eastern Atlantic: ENA, ECA*, and ESA*. * denote samples from these a priori subpopulations analyzed for SNPs only. Values in bold (mitogenome and SNP) indicate statistical significance at< 0.05.
+
+FIGURE 2
+
+Median‐joining network of 90 shortfin mako shark complete mitogenome sequences collected from five areas within the Atlantic Ocean, with two Pacific mako shark mitogenomes as outgroups. Abbreviations and associated data: WNA, western North Atlantic; GoMex, Gulf of Mexico and Isla Mujeres, Mexico; WSA, western South Atlantic; ENA, eastern North Atlantic; PAC, Pacific Ocean. Numbers indicate mutational steps between haplotypes—only mutational steps ≥ 10 are numbered. Hatch marks represent single mutations and black nodes represent intermediate and unsampled sequences.
+
+3.2
+
+Single Nucleotide Polymorphisms
+
+We obtained 1.145 billion PE reads across all 144 genotyped mako samples. However, many Reverse reads were of poor quality (per FastQC analysis); therefore, only Forward reads were used for downstream analyses. Stacks de novo assembly and filtering identified 168,339 genotyped SNPs across 144 samples. Secondary filtering using vcftools reduced the number of genotyped SNPs to 5202 sites across 115 individuals (see Appendix S1: Table S4 for results of step‐by‐step filtering as outlined in the Section). Following removal of duplicate samples (i.e., technical replicates only,= 9) and one sample with missing capture coordinates, the mako SNP dataset comprised 5202 SNPs genotyped at 105 individuals. As kinship analysis identified only one putative‐related pair as 2nd‐degree relatives or higher (OC‐318 and OC‐363; kinship = 0.127) within the dataset, the multi‐locus genotypes of both sharks were retained.
+
+LDna identified two outlier clusters (1 SOC and 1 COC) within the mako RAD dataset (Figure): SOC 500_0.23 contained 230 tightly linked loci, while the compound outlier cluster (COC), 609_0.22, contained the previously defined SOC along with 52 additional SNP loci (i.e., 282 SNP loci total) (Appendix S1: Table S5, Figure S1; Figure). Subsequent PCA of the 230 identified SOC SNP loci resolved three distinct clusters that separated along the first axis of the principal component—representing 55.8% of the total variance (Figure); the second and third axes combined explained only 4.7% of the total genetic variance. Despite the presence of three distinct clusters in the PCA, no clear geographic partitioning of sharks was found [Figure: Group 1 (= 30): WNA = 13, GoMex = 3, WSA = 8, ENA = 1, ECA = 1, ESA = 4; Group 2 (= 44): WNA = 13, GoMex = 12, WSA = 8, ENA = 8, ECA = 3, ESA = 0; Group 3 (= 31): WNA = 2, GoMex = 12, WSA = 1, ENA = 9, ECA = 7, ESA = 0]. Furthermore, post hoc HWE testing (Wigginton, Cutler, and Abecasis) of the frequency of each genotype (A/A, A/B, B/B) found no significant deviations from equilibrium expectations (= 0.118).
+
+Estimates of genetic diversity varied across the three SOC PCA groups: Groups 1 and 3 showed similar heterozygosity values and possessedestimates near zero (Group 1:= 0.166;= 0.162;= −0.005; Group 3:= 0.157;= 0.149;= −0.005), while members of Group 2 showed a large observed heterozygosity excess (= 0.593;= 0.381;= −0.557). Mapping of SOC consensus locus sequences (File: Table S1) to the only available (currently unannotated) reference genome for the mako (see Stanhope et al.) yielded a high assignment of mako loci to a single contig, with 211 of the 230 consensus loci mapping to contigwith a percent identity ≥ 89.7% (File: Table S2). Assignments spanned 220,000,000 bp of scaffolded assembly (from 1,732,317 bp–221,412,477 bp), and notably, 206 SOC consensus sequences matched to this same contig with much higher precision (≥ 97% percent identity; File: Table S2). Matching of mako SOC consensus sequences using NCBI's Blastn feature to the white shark annotated reference genome matched 194 SOC consensus loci to a single white shark chromosome (; Chromosome 1) with extremely low Expect values (1.00E‐47—8.00E‐74; File: Table S3).
+
+Complementing LDna outcomes, BayeScan identified 68 candidate outlier SNPs, while OutFLANK identified 122. Across all three methods, the same 68 loci were deemed candidate outliers, while 106 loci were identified as candidates using both network analysis and OutFLANK; notably, there were no candidate outlier loci identified by both BayeScan and OutFLANK that were not also identified by LDna. As genomic features such as chromosomal inversions may present as erroneous population substructure (McKinney et al.), we elected to remove all 230 SOC‐identified loci to ensure that downstream population genetic analyses were conducted only with putatively neutral loci that sort independently. After the SOC loci were removed from the dataset, 4972 putatively neutral SNP loci remained for downstream population genetic structure analyses. A single additional locus was discarded as it did not conform to HWE in two more subpopulations after FDR correction, leaving a final dataset containing 4971 mako SNP loci genotyped across 105 sharks (Table; Figure). Genetic diversity estimates were similar across Atlantic a priori subpopulations, and no private alleles within subpopulations were identified (Table). When sharks were grouped hierarchically (Western Atlantic versus Eastern Atlantic; Northern Atlantic versus Southern Atlantic), some evidence of genetic diversity variation was found: 19 private alleles were detected within mako sharks in the Western Atlantic (= 72), with none detected in Eastern Atlantic sharks (= 33) (although we note some sample size variation between these groups); 18 private alleles were detected within the Northern Atlantic sharks (= 73), while none were found in Southern Atlantic sharks (= 32).
+
+Overall Atlantic‐wide genetic differentiation as measured bywas low, but statistically significant (= 0.001;= 0.023). No pairwise a priori subpopulation comparisons were statistically significant at< 0.05 after FDR correction, but three were significant prior to FDR correction (Table). When samples were grouped hierarchically, the SNP data revealed very low, but statistically significant genetic differentiation between Western Atlantic versus Eastern Atlantic mako sharks (= 0.001,= 0.006), but also between Northern Atlantic versus Southern Atlantic sharks (= 0.001,= 0.028; Table).
+
+Individual‐based cluster analyses of the 4971 putatively neutral loci found no evidence of population genetic structure. The first three components of the PCA represented 3.97% of the total genetic variance in the SNP dataset and visualization of the first two components showed no marked clustering of individuals (Figure). Likewise, Admixture's CV identified= 1 (CV = 0.512) as the most appropriate number of genetic clusters within the mako SNP dataset (Figure).
+
+Three of four surveyed hierfstat metrics showed some evidence of male‐biased dispersal: The overallfor male makos (= 47;= 0.000) was lower and significantly different than for female sharks (= 58,= 0.002;= 0.032). Likewise, the overallvalue was higher for males than females (‐male = 0.019;‐female = 0.016), and the mAIC value was lower for males than females (mAIC‐male = −3.616, mAIC‐female = 2.930); however, no statistical significance was found across theand mAIC tests (> 0.05). In contrast, the vAIC value of female makos was higher than for males (but not statistically significant at> 0.05).
+
+FIGURE 3
+
+Visualization of the linkage disequilibrium network analysis (LDna) of shortfin mako shark RAD sequence data: (A) biplot depicting λ values (where λ is the change in the median linkage disequilibrium (LD) between loci in a cluster before and after its merger with a secondary cluster); outlier clusters (groups of tightly linked loci possessing very high λ values relative to the tree‐wide λ) are shown and appear above the lambda threshold (λ). Single outlier clusters (SOC) are shown in red; Compound outlier clusters (COC; i.e., a nested linkage group of loci) are shown in blue; (B) tree depicting pairwisevalues from 5202 genotyped SNPs, with branches corresponding to the single outlier cluster (SOC) and compound outlier cluster (COC) indicated in red and blue, respectively; (C) biplot displaying the first two principal components (PC;‐axis = component 1,‐axis = component 2) of a Principal Component Analysis (PCA) of 105 shortfin mako sharks genotyped at 230 single nucleotide polymorphisms (SNPs) identified by the LDna as a SOC (500_0.23). Inbreeding coefficients () for each of the three identified PCA clusters (Groups 1–3) are depicted; (D) biplot displaying the first two PCs of a PCA of 105 samples of shortfin mako sharks genotyped at 4971 neutral SNP loci. Location Abbreviations: WNA, western North Atlantic; GoMex, Gulf of Mexico and Isla Mujeres, Mexico; WSA, western South Atlantic; ENA, eastern North Atlantic; ECA, eastern Central Atlantic; ESA, eastern South Atlantic.
+
+FIGURE 4
+
+Plot of Admixture's (Alexander, Novembre, and Lange) cross‐validation error values vs. number of clusters () for= 1–10 for 105 shortfin mako samples genotyped at 4971 putative neutral SNP loci.
+
+4
+
+Discussion
+
+Global overfishing of pelagic sharks has resulted in the majority of species now threatened with extinction (Dulvy et al.; Pacoureau et al.). Securing species recovery requires urgent conservation management planning, which will be aided by a genomics‐scale view of the population biology of these species. Herein, we provide the first such population view of the Endangered (IUCN Red List) mako shark across the Atlantic Ocean. The high‐resolution, bi‐organelle, genomics assessment (5202 SNPs and 86 complete mitogenomes) revealed: (1) mako sharks are characterized by high levels of Atlantic‐wide, nuclear gene flow, but show evidence of restricted matrilineal connectivity between Northern and Southern Hemispheres; (2) similar levels of genome‐wide, neutral genetic diversity in makos across the Atlantic, (3) a signal of high linkage disequilibrium among a set of SNP loci which downstream population genetic analyses suggest may be an Atlantic‐wide, chromosomal inversion; and (4) comparatively high mitochondrial genome diversity relative to other at‐risk elasmobranch species.
+
+4.1
+
+Population Genomic Structure: Nuclear and Mitochondrial Connectivity
+
+The mako shark's continuous temperate and tropical distribution in the Atlantic Ocean, combined with its often long‐distance migratory behavior and ability to use diverse habitats from nearshore waters to open ocean regions, permits expansive movements and spatial connectivity (Vaudo et al.; Byrne et al.). With regard to nuclear (SNP) data, the mako samples we analyzed from the western Atlantic (i.e., western North Atlantic, Gulf of Mexico, and western South Atlantic;= 17–28) spanned a latitudinal range of ~40°N to 20°S (Figure), with the distance between even the closest cross‐equatorial sampling locations (i.e., southern Gulf of Mexico and southern Brazil) spanning more than 8000 km. Despite this immense distance, coupled with the presence of the Amazon River outlet and the warm waters blanketing the equator—all known biogeographic barriers to gene flow for many marine species including elasmobranchs (Hirschfeld et al.; Tosetto et al.)—there was no evidence of nuclear genetic differentiation between mako subpopulations across these barriers in the western Atlantic, nor much difference in nuclear diversity estimates (Table). Likewise, no latitudinal nuclear genetic differentiation was found among subpopulations of eastern Atlantic makos despite sampling across ~30°N to 20°S latitude (we note that sample sizes genotyped here were comparatively smaller;= 4–18). Results from hierarchical analyses of the hemispheric groupings of Northern Atlantic versus Southern Atlantic makos also suggested little to no nuclear differentiation exists across these hemispheres given the extremely low (albeit statistically significant)value of 0.001 obtained (Table). These nuclear (bi‐parental) SNP‐based, high connectivity findings between Northern and Southern Hemispheres contrast with current ICCAT management boundaries for Atlantic makos (shown in Figure), and the mitogenome sequence‐based findings of statistically significant, matrilineal genetic differentiation across these hemispheres (i.e., between WNA and WSA sharks; between ENA and WSA sharks prior to FDR correction). The high nuclear connectivity results also contrast with available tagging data which has yet to record trans‐equatorial movements of mako sharks tagged in the north or south Atlantic [see Vaudo et al.; Kohler and Turner; Santos et al.; Gibson et al.;. telemetry data from one mako tagged in the central Atlantic revealed it crossing the equator (Santos et al.)], although we note these tagging data don't include many adult mako sharks, which likely undertake longer distance migrations.
+
+Contrasting patterns of genetic connectivity between mitochondrial and nuclear markers in elasmobranchs are often attributed to sex‐biased dispersal (i.e., differences in the migratory propensity between males and females; Phillips et al.) as each of these markers possesses distinct inheritance patterns. In shark species, males are generally the more dispersive sex, while females often show regional and/or natal philopatry (Chapman et al.)—a behavior defined as when a wide‐ranging female returns to the general region or specific location of her birth for parturition (Feldheim et al.). As mitochondrial DNA is maternally transmitted in vertebrates, female‐only philopatric behavior over generations may drive the evolution of significant mitochondrial DNA differences among sharks born within geographically separate parturition habitats. Conversely, the bi‐parentally inherited nuclear DNA, which reflects the reproductive behaviors of both philopatric females and the more wide‐ranging, non‐philopatric males, may show negligible levels of genetic differentiation. Our findings of genomic population structure across the Northern and Southern Hemispheres that is evident in mitogenomes but not nuclear SNPs, combined with results of three of the four nuclear‐based, sex‐biased tests of dispersal (,and mAIC), support the hypothesis of female philopatry and male‐mediated genetic dispersal, although female philopatry likely occurs at relatively large (hemispheric) spatial scales (see next paragraph). The genetic findings obtained here are also consistent with mako shark movements data available to date suggesting that adult males may be more dispersive than adult females (Gibson et al.).
+
+Fisheries catch records for mako sharks are consistent with the genetics‐based indications of female philopatry occurring at very broad, potentially hemispheric (western North vs. western South Atlantic) scales. First, pregnant makos have occasionally been caught in both north and south Atlantic waters, suggesting that parturition likely occurs in both hemispheres (Garcia‐Cortés et al.); and second, catch data within the western North Atlantic show that the distribution of neonate and Young‐of‐Year (YOY) sharks is geographically widespread, spanning thousands of kilometers from the northern Gulf of Mexico to Newfoundland, Canada (Natanson et al.), rather than concentrated within a few geographically distinct insular or neritic areas, lending weight to the hypotheses that female makos give birth across large, continuous swaths of habitat. Combined, these male and female movement and reproductive behaviors may be responsible for the: (1) nuclear homogeneity observed across this species' vast latitudinal range, (2) the mostly frequency‐based mitogenomic differentiation observed between Atlantic Northern and Southern Hemisphere mako sharks, and (3) the absence of distinct Atlantic phylogeographic matrilines (Figure).
+
+Our mitogenomes‐based inferences verify the need for continued management by ICCAT of North and South Atlantic mako stocks separately, and verify the findings of the two other Atlantic mako mitochondrial DNA population studies conducted thus far, which were based on analyzing makos from fewer Atlantic regions and utilized short sections only of mitochondrial DNA (Heist, Musick, and Graves; González et al.). Interestingly, Corrigan et al. (), assessing mitochondrial complete control region sequences from makos across the Indo‐Pacific, also reported frequency‐based matrilineal differentiation between Northern and Southern Hemispheres in these ocean basins, with no phylogeographic partitioning. As in Atlantic Ocean waters, female parturition philopatry over even large Indo‐Pacific geographic scales would allow for some degree of frequency‐based matrilineal differentiation to evolve between hemispheres.
+
+The population‐level pairwise analysis results obtained from SNP data showing very low but statistically significant genetic differentiation between some western and eastern Atlantic mako subpopulations in the Northern Hemisphere, albeit before FDR correction (Table), along with the presence of 19 private alleles within western sharks, were inconsistent with two other lines of evidence regarding population genetic differentiation. First, both individual‐based cluster analyses used showed no evidence of mako population structure in the Atlantic. Second, conventional tagging and satellite telemetry studies have documented recapture of mako sharks initially tagged off the Northeast USA in both the mid‐Atlantic and coastal waters off Portugal, Morocco, and the western Sahara (Kohler and Turner; Byrne et al.), thus indicating at least some spatial mixing is occurring across the Northern Atlantic. These conventional tagging data also indicate that the waters immediately west of the Azores may serve as a mixing area for western and eastern Atlantic makos (Kohler and Turner).
+
+Given the results from the individual‐based cluster analyses and long‐range mako tracking data, the reason for the population‐level analysis‐based, western vs. eastern North Atlantic population differentiation indicated by SNP markers remains enigmatic. However, if this statistical differentiation reflects a true biological signal, a speculative explanation, based on the occurrence of pregnant makos (Garcia‐Cortés et al.) and evidence of parturition on both sides of the North Atlantic (Maia et al.; Kohler and Turner), is that there are multiple breeding populations, which could lead to subtle nuclear differentiation and the potential for longitudinal mako shark population structure across the Atlantic Ocean. However, drawing fisheries management recommendations based on the very low levels of genetic differentiation observed here is uncertain. To confirm our findings of nuclear genetic differentiation across the North Atlantic but absence of nuclear genetic structure between Northern and Southern Hemisphere collections, we recommend the targeted sampling and genomic analyses of mako shark neonates and YOY, since for many vagile species, signals of population genetic structure are most prominent when samples are obtained from these demographic groups which often show at least some short‐term residency or fidelity to their birth places (Klein et al.).
+
+4.2
+
+Genomic Structural Variants and Areas of Reduced Nuclear Recombination
+
+Recent work indicates chromosomal structural variants may play an important role in a number of biological and evolutionary processes, such as adaptation and speciation (Wellenreuther and Bernatchez; Wellenreuther et al.and references therein), and that linkage disequilibrium network analysis (LDna) can identify genomic areas of low recombination and putative chromosomal inversions even across highly divergent taxa (e.g., Kemppainen et al.—and; Jiménez‐Mena et al.—; Hollenbeck et al.—; Hearn et al.—). Following network analysis of mako SNPs, multivariate PCA visualization of the 230 LDna‐identified SOC loci yielded three distinct sample clusters separated along the 1st principal component with no clear geographic partitioning (Figure). This pattern of three distinct sample clusters—when associated with the intermediate group possessing a highly negative inbreeding coefficient () relative to the other two sample groupings—is suggestive of a chromosomal inversion (see Kemppainen et al.and examples therein). Thus, in Figure, Groups 1 and 3 in the PCA likely contain sharks possessing either the ancestral or inverted karyotypes (e.g., A/A, and B/B), while Group 2 consists of sharks possessing the hetero‐karyotype (e.g., A/B), with each individual possessing one copy of the ancestral allele and one copy of the derived inverted chromosomal segment. Supporting this inference is the highly negative estimatedvalue (−0.557) of the putative hetero‐karyotype grouping (Group 2), indicating the presence of an observed heterozygosity excess with respect to HWE proportions, while thevalues of sharks in Groups 1 and 3 were close to zero suggesting neither an excess nor a deficit. Similarly, the high map correspondence (> 89% identity) of most of the 230 SOC consensus sequences of ~140‐bp each (i.e., 211 of 230; ~92%) to a single, albeit very large contig (~220 million bp) from the mako genome reference scaffold assembly (Stanhope et al.) supports the hypothesis that these loci may belong to a distinct region of low recombination in the genome. Likewise, using NCBI's Blastn feature, ~84% (194 of 230) of the SOC loci matched sequences on Chromosome 1 () of the white shark genome with a high percent identity (> 95%; and one of the three top Blastn matches) rather than to sequences scattered across the white shark's 42 nuclear chromosomes (File: Table S3). Where corresponding human NCBI Entrez Gene IDs could be found for white shark SOC gene homologs, these genomic features were largely involved in biological regulation (~76%): cellular processes (~69%), response to stimulus (~25%), and developmental and metabolic processes (~18% each). When we mapped our consensus loci to the white shark genome, akin to Domingues et al. () one mako locus (62350_31) matched to the white shark locus “grid2,” a gene these authors designated as involved with development and nervous system function; herein, our search in the PANTHER database for its human homolog indicated involvement of this gene in biological regulation and cellular processes (File: Table S3).
+
+As chromosomal inversions can suppress recombination, these structural variants may allow for the evolution, and ultimately inheritance, of a set of co‐adapted, tightly linked alleles, which may ultimately drive genetic differentiation between and/or within species. Makos are broadly distributed throughout the world's oceans, inhabit a diverse range of marine habitats (e.g., open ocean, neritic, and surface waters to depths of ~1000 m; Santos et al.), and possess a wide thermal tolerance (5.2°C–31.1°C; Vaudo et al.). However, to date, there are no data to suggest that some makos are locally or behaviorally adapted to specific geographic regions, and thus we are unable to link this putative chromosomal inversion to any sort of ecological adaptation. Indeed, we found no geographic partitioning of the candidate ancestral and inverted alleles, as each karyotype was found within the Western, Eastern, Northern, and Southern waters of the Atlantic and ocean‐wide; these genotypes (A/A, A/B, B/B) conformed HWE proportions, suggesting that if this pattern corresponds to a chromosomal inversion, this structural variant is panmictic throughout Atlantic Ocean makos. Nevertheless, since our tissue samples were obtained from mostly large juvenile and young adult sharks, rather than YOY and neonate sharks, it remains possible that the frequency of these inversion karyotypes varies among parturition areas and may be linked to yet unknown regional adaptive processes.
+
+As our study was focused on the Atlantic Ocean, it is unknown if the three putative SOC karyotypes occur in makos globally, or if one or more of these genetic variants has become fixed within a discrete oceanic region. For instance, in their population genomic survey of the king scallop (), Hollenbeck et al. () identified three putative chromosomal inversions whose frequency was associated with variation in surface temperatures, with accompanying low levels of neutral differentiation throughout the northeast Atlantic. Similarly, Jiménez‐Mena et al. () found high genetic connectivity in the lesser sandeel () within the North Sea using more than 2500 SNPs, but also found an SOC cluster of 13 SNPs which they identified as a putative structural variant, and whose karyotype spatial distribution indicated at least partial reproductive isolation of lesser sandeels within the Scottish North Sea coast. These examples suggest that if the frequency of the mako putative inversion varies globally, this structural variant may prove useful in helping to identify: (1) areas of restricted gene flow, (2) possible historical dispersal pathways and phylogeographic signals, and (3) areas of contemporary admixture or secondary‐contact zones of this species across its global range.
+
+4.3
+
+Genetic Diversity and Concluding Remarks
+
+Conserving genetic diversity within species and their populations is of paramount importance to support their persistence in the Anthropocene, as genetic diversity underpins evolutionary fitness, adaptive potential, and resilience (DeWoody et al.; Kardos et al.; Hoban et al.; Schmidt, Hoban, and Jetz). While there is some debate concerning the most appropriate genetic targets for conservation focus (i.e., genome‐wide diversity vs. adaptative differentiation; e.g., see Kardos et al.and Teixeira and Huber), a holistic approach is likely the most appropriate method to ensure the long‐term persistence of species across evolutionary timescales, as genome‐wide, neutral genetic diversity has been found to be correlated with functional and potentially adaptive evolutionary potential (Funk et al.; DeWoody et al.; Willi et al.).
+
+The similar estimates obtained in our study for genome‐wide, neutral genetic diversity in mako sharks across the Atlantic may either reflect high levels of gene flow, or that a disproportionate level of population reduction has not occurred in any specific region from heavy fisheries exploitation. Although genetic diversity estimates among panels of nuclear SNPs are not necessarily directly comparable across studies due to the diverse assembly and filtering strategies used and potential differences in chromosomal locations of the SNPs, the overall expected heterozygosity values we found (0.28) were relatively close to the estimates (0.341) reported for mako sharks by Domingues et al. (; albeit based on a smaller number of sharks (= 22) and using 405 SNPs), indicating some concordance in the overall Atlantic mako shark genetic diversity results. A very tentative‐view comparison to genetic diversity estimates from SNP data on other pelagic, large‐bodied, highly migratory shark species that have similar global distributions and are also experiencing very high fisheries exploitation indicates genetic diversity in Atlantic mako sharks may be greater (mako shark:= 0.176–0.250;= 0.273–0.299; c.f. tiger shark:: 0.24–0.26;: 0.25–0.26, Bernard et al.; blue shark:= 0.139–0.145,= 0.157–0.168; Nikolic et al.).
+
+In contrast to SNP data, sequence variability among mitogenomes is directly comparable across studies and species. To date, relatively few elasmobranch studies have assessed matrilineal population structure and diversity using a mitogenome sequence approach, but where data exist for comparison, mako shark mitogenome nucleotide diversity was equal or up to 34 times higher than other elasmobranch species, regardless sampled geographic range (Appendix S1: Table S6). The mitogenome and potentially nuclear genomic diversity findings found herein suggest that despite substantial overexploitation‐driven population declines, Atlantic makos appear to have retained a reasonable level of overall genetic diversity. This genetic status provides cautious optimism that this large‐bodied apex predator, which likely plays an influential oceanic ecosystem role, may still possess the genetic resilience and potential for adaptation to allow recovery in a rapidly changing ocean environment—if additional and/or enforced conservation management efforts are implemented to reduce overfishing. With increasing loss of species genetic diversity in the Anthropocene (Exposito‐Alonso et al.), and assessments and monitoring of genetic diversity now called for by the United Nations Convention on Biological Diversity as important activities to inform national policy actions for conserving and restoring species (Hoban et al.; Schmidt, Hoban, and Jetz), the genetic diversity data we report here for mako sharks provide a baseline for assessing, and future monitoring, of the genetic health of this iconic species throughout its global distribution.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+Supporting information
+
+Appendix S1.
+
+File S1.

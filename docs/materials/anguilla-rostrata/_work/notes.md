@@ -1,0 +1,25 @@
+# PubMed notes (abstracts)
+- 39329133 PeerJ 2024 10.7717/peerj.18113 PMC11426316 Calgary mislabeling; freshwater eel -> European eel (not rostrata directly?) check
+- 36560731 Viruses 2022 10.3390/v14122722 AngHV-1-FC from farmed American eels China; 100% morbidity 13.3% mortality
+- 35818833 Folia Parasitol 2022 10.14411/fp.2022.013 Dermocystidium anguillae in imported American eel elvers in China
+- 28295771 RCM 2017 10.1002/rcm.7853 E1/E2/E3 LC-DMS-MS/MS eel muscle; E2 50% depletion per day; back to control at 5d
+- 21565005 Mol Ecol Resour 2009 10.1111/j.1755-0998.2009.02698.x 18S SNP A.anguilla/A.rostrata hybrids
+- 15366851 JAFC 2004 10.1021/jf034525x cyt b 362 nt PCR-RFLP HinfI distinguishes japonica vs rostrata; 12 products: 9 jap, 2 ang, 1 rostrata (Taiwan)
+- 9234423 Prev Vet Med 1997 12243 eels inspected 1992 St Lawrence; lesions <=1%
+- 42000090 FSI 2026 10.1016/j.fsi.2026.111355 "significant aquaculture fish species in China"; IgM heavy chain 1326 bp 441 aa
+- 36661748 JSFA 2023 10.1002/jsfa.12462 DPP-IV peptides eel scraps; IC50 5.455 mg/mL; FPR 62.14 uM, YPPSFS 102.65, YPYPAS 68.30
+- 30176487 STOTEN 2018 10.1016/j.scitotenv.2018.08.203 Penobscot Hg 521 ng/g ww eels; Maine action 200 ng/g
+- 29257981 Environ Res 2018 10.1016/j.envres.2017.11.053 Puerto Rico PCB 0.019-0.031 ppm ww eel; dieldrin <DL-0.024
+- 29193243 ETC 2018 10.1002/etc.4033 dioxin-like no longer risk Lake Ontario
+- 27395077 STOTEN 2016 10.1016/j.scitotenv.2016.06.232 metals; declines 40-80% American; Cd Hg Se increase w size
+- 26562221 Mol Ecol 2016 10.1111/mec.13466 RAD-seq 14755 loci American; PCB153, DDE, Se
+- 37934924 EST 2023 PMC10702518 EOF/PFAS eel (species? check)
+- 42172972 CBPD 2026 10.1016/j.cbd.2026.101871 Vibrio harveyi septicemia, kidney lncRNA 76 DE-lncRNA 2230 DE-mRNA
+- 42038000 Front Physiol 2026 10.3389/fphys.2026.1797772 PMC13106369 dietary histamine; max tolerable 260.11 mg/kg; >355.31 reduced growth
+- 41944626 Microbiol Spectr 2026 10.1128/spectrum.03607-25 PMC13141839 AORV orthoreovirus; HGND; prevalence 32.3% farmed
+- 41921262 CBPD 2026 10.1016/j.cbd.2026.101821 SW->FW liver AQP5
+- 42034892 Theriogenology 2026 10.1016/j.theriogenology.2026.117952 sea cage; >40% 2-yo EV stage follicle 353.9 um, GSI >4%; 6-7 weekly injections
+- 41368280 Environ Epigenet 2025 10.1093/eep/dvaf012 PMC12684172 panmictic; WGBS 72 individuals
+- 36445089 MRA 2022 10.1128/mra.00829-22 PMC9753716 AngHV-1 from imported A. rostrata from Canada (Korea, Chonnam Univ / NIFS)
+- 29136139 GBE 2017 10.1093/gbe/evx226 PMC5714190 710 individuals 12 sites 12,098 SNPs; ~1.5% genome selection; insulin pathway
+- 27754597 MER 2017 10.1111/1755-0998.12608 draft genome 1.41 Gb, 305,043 contigs N50 7397, 79,209 scaffolds N50 86,641, 26,564 genes; >90% decline global stocks

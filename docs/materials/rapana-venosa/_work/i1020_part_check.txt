@@ -1,0 +1,102 @@
+I1020_20261013.json rows 24885
+== Rapana venosa rows
+{"RAWMTRL_STATS_CD_NM": "", "LCLAS_NM": "식품원료(A코드)", "RPRSNT_RAWMTRL_NM": "피뿔고둥", "USE_CND_STDR_CN": "", "REGN_CD_NM": "-", "RAWMTRL_NCKNM": "두드럭고둥, 참고둥", "SCNM": "Rapana venosa", "ENG_NM": "Purple whelk, Thomas’s rapa whelk　", "MLSFC_NM": "수산물", "USE_CND_NM": "사용가능"}
+{"RAWMTRL_STATS_CD_NM": "", "LCLAS_NM": "식품원료(A코드)", "RPRSNT_RAWMTRL_NM": "피뿔고둥살", "USE_CND_STDR_CN": "", "REGN_CD_NM": "죽순", "RAWMTRL_NCKNM": "두드럭고둥, 참고둥", "SCNM": "Rapana venosa", "ENG_NM": "Purple whelk, Thomas’s rapa whelk　", "MLSFC_NM": "수산물", "USE_CND_NM": "사용가능"}
+== REGN_CD_NM=죽순 rows 96 Counter({'수산물': 92, '축산물': 4})
+names ending 살/육/곱창 등: 93
+닭곱창 | Gallus domesticus BRISSON | 축산물
+돼지곱창 | Sus scrofa Linnaeus var. domesticus Brisson | 축산물
+소곱창 | Bos taurus | 축산물
+양곱창 | Ovis ares L. | 축산물
+가오리어육 |  | 수산물
+가자미살 |  | 수산물
+가재살 | Cambaroides similis | 수산물
+검정가자미살 | Reinhardtius hippoglossoides | 수산물
+게살 | Eriocheir sinensis | 수산물
+게살엑기스 | Eriocheir sinensis | 수산물
+게살추출물 | Eriocheir sinensis | 수산물
+게살추출농축액 | Eriocheir sinensis | 수산물
+고등어살 | Scomber japonicus | 수산물
+금눈돔어육 | Beryx decadactylus | 수산물
+꽁치살 | Cololabis saira | 수산물
+남방대구살 | Macruronus novaezelandiae | 수산물
+넙치살 | Paralichthys olivaceus | 수산물
+노랑촉수어육 | Upeneus japonicus | 수산물
+다슬기살 | Semisulcospira libertina | 수산물
+달고기살 | Zeus faber | 수산물
+대게살 | Chionoecetes opilio | 수산물
+대구살 | Gadus macrocephalus | 수산물
+건조대구살 | Gadus macrocephalus | 수산물
+참돔살 | Pagrus major | 수산물
+둥근전복살 | Haliotis discus discus | 수산물
+매퉁이어육 | Saurida undosquamis | 수산물
+멸치살 | Engraulis japonicus | 수산물
+명태살 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+건조명태살 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+명엽채 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+얼린명태살 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+황태살 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+반건조명태살 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+명태연육 | Gadus chalcogrammus / Theragra chalcogramma | 수산물
+삶은문어살 | Enteroctopus dofleini / Octopus vulgaris / Octopus bimaculatus / Octopus maya | 수산물
+바지락살 | Ruditapes philippinarum / Tapes philippinarum | 수산물
+자숙바지락살 | Ruditapes philippinarum / Tapes philippinarum | 수산물
+염장바지락살 | Ruditapes philippinarum / Tapes philippinarum | 수산물
+삶은바지락살 | Ruditapes philippinarum / Tapes philippinarum | 수산물
+방어살 | Seriola quinqueradiata | 수산물
+뱅어포 | Salangichthys microdon | 수산물
+보구치어육 | Pennahia argentata / Ayrosomus argentatus | 수산물
+보리멸어육 | Sillago sihama | 수산물
+붉은메기살 | Hoplobrotula armata | 수산물
+붕장어살 | Conger myriaster | 수산물
+삼치살 | Scomberomorus niphonius | 수산물
+상어살 | Mustelus manazo Bleeker, Mustelus griseus Pilstschmann | 수산물
+새우살 |  | 수산물
+새우살페이스트 |  | 수산물
+자숙새우살 |  | 수산물
+새우추출분말 |  | 수산물
+삶은새우살 |  | 수산물
+성게살 |  | 수산물
+소라살 | Turbo cornutus | 수산물
+송어살 | Oncorhynchus masou masou | 수산물
+실꼬리돔어육 | Nemipterus virgatus | 수산물
+실꼬리돔연육 | Nemipterus virgatus | 수산물
+아귀어육 | Lophiomus setigerus / Lophius gastrophysus | 수산물
+조미양태포 | Platycephalus indicus | 수산물
+연어살 | Oncorhynchus keta | 수산물
+다진연어살 | Oncorhynchus keta | 수산물
+오징어살 | Doryteuthis bleekeri Kefer- stein, D. kensai Wakiya et Ishikawa | 수산물
+삶은오징어슬라이스 | Doryteuthis bleekeri Kefer- stein, D. kensai Wakiya et Ishikawa | 수산물
+임연수어살 | Pleurogrammus azonus | 수산물
+다진임연수어살 | Pleurogrammus azonus | 수산물
+자라고기 | Amyda sinensis / Trionyx sinensis | 수산물
+자라고기추출물 | Amyda sinensis / Trionyx sinensis | 수산물
+장어살 | Anguilla japonica | 수산물
+재첩살 | Corbicula fluminea | 수산물
+전갱이살 | Trachurus japonicus | 수산물
+정어리살 | Sardinops sagax / Sardinops melanostictus / Sardina pilchardus | 수산물
+조갯살 |  | 수산물
+조기살 | Larimichthys polyactis | 수산물
+굴비살 | Larimichthys polyactis | 수산물
+조기연육 | Larimichthys polyactis | 수산물
+주꾸미어육 | Amphioctopus fangsiao | 수산물
+준치어육 | Ilisha elongata | 수산물
+쥐치살 | Stephanolepis cirrhifer | 수산물
+참조기살 | Larimichthys polyactis | 수산물
+청어살 | Clupea pallasii | 수산물
+피뿔고둥살 | Rapana venosa | 수산물
+홍치어육 | Priacanthus macracanthus | 수산물
+홍합살 | Mytilus coruscus | 수산물
+홍합분말 | Mytilus coruscus | 수산물
+자숙홍합살 | Mytilus coruscus | 수산물
+홍합살볶음 | Mytilus coruscus | 수산물
+삶은홍합살 | Mytilus coruscus | 수산물
+흰다리새우살 | Litopenaeus vannamei / Penaeus vannamei | 수산물
+홍새우살 |  | 수산물
+양태살 | Platycephalus indicus | 수산물
+참다랑어살 | Thunnus orientalis | 수산물
+큰가리비살 | Patinopecten yessoensis | 수산물
+학공치살 | Hyporhamphus sajori | 수산물
+홍게살 | Chionoecetes japonicus | 수산물
+대두갈치살 | Trichiurus lepturus / Trichiurus japonicus | 수산물
+냉동아메리카바다가재살 | Homarus americanus | 수산물

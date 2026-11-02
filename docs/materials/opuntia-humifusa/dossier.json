@@ -1,0 +1,538 @@
+{
+ "slug": "opuntia-humifusa",
+ "name_ko": "저단선",
+ "name_en": "Eastern prickly pear",
+ "scientific_name": "Opuntia humifusa (Raf.) Raf.",
+ "aliases": [
+  "천년초(Cheonnyuncho)",
+  "후미푸사선인장",
+  "후미푸사",
+  "Opuntia compressa",
+  "Eastern prickly pear",
+  "Prickly Pear"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "저단선(Opuntia humifusa)은 식약처 「식품원료 목록」에 '저단선'이라는 이름으로 올라 있는 선인장과(Cactaceae) Opuntia속 식물이다[1, 3]. 목록의 학명 칸에는 Opuntia humifusa와 Opuntia compressa가 함께 적혀 있고, 영어 이름 칸에는 Prickly Pear·Indian fig, 별명 칸에는 후미푸사선인장·후미푸사·손바닥선인장이 적혀 있다[1]. 식품원료로서의 지위는 '사용가능'이며, 사용 조건은 '사용가능부위 : 열매, 줄기, 씨앗'이다[1]. 목록에 오른 원료명은 저단선·저단선발효액·저단선씨앗·저단선열매·저단선줄기·저단선추출물 여섯 가지다[1]. 같은 속의 선인장(O. ficus-indica)과 왕선인장(O. monacantha)은 목록에서 별도 원료로 올라 있으므로 저단선 자료와 섞어 읽으면 안 된다[1, 2]. 저단선 항목의 별명 칸에 '손바닥선인장'이 적혀 있지만 O. ficus-indica는 목록에서 '선인장열매·선인장줄기'라는 별도 원료이므로, 이 별명만으로 두 종을 같은 원료로 보아서는 안 된다[1, 2]. 식품원료 목록에는 '천년초'라는 이름이 없지만, 국내 연구 논문들은 이 종을 'Korean Cheonnyuncho(천년초)'라고 부른다[3, 4, 6]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n천년초는 주로 국내에서 재배되며 영하 20 °C 아래의 추위에서도 자라는 것으로 소개된다[3]. 줄기의 플라보노이드는 대부분 아이소람네틴 배당체로, 한 연구에서 줄기 총 플라보노이드 980.43 µg/g(건물) 가운데 92.6%가 아이소람네틴 유도체였다[4]. 줄기는 식이섬유가 많아 총식이섬유 58.07 g/100 g이 보고되었다[6]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "저단선은 캐나다 남부와 미국 동부가 원산인 선인장으로 소개된다[12]. 학명은 Opuntia humifusa (Raf.) Raf.이며, 1820년의 이름으로 인용된다[11]. 넓은 뜻의 O. humifusa는 형태가 매우 다양하고 한 종 이상이 섞여 있을 가능성이 지적되어, 분류가 오랫동안 혼란스러웠다[11]. 미국에서 채집한 이 종을 '미국 자생 약용 선인장'으로 보고 그 내생균을 조사한 연구도 있다[25]. Opuntia속 선인장은 아메리카 원주민·멕시코·한국의 전통 의학에서 쓰여 왔다고 기술된다[15].\n\n국내 문헌에는 이 종이 한반도 남부 지역에 널리 분포한다는 기술과[16], 제주도에서 널리 재배된다는 기술이 함께 나온다[8]. 일부 한국인은 천년초를 물과 함께 갈아 주스로 마시며, 공복에 열매나 줄기를 먹는 것이 변비·배뇨 문제와 장운동에 좋다고 알려져 왔다고 소개된다[6]. 2023년 체계적 문헌고찰은 이 종이 주로 한국에서 재배되기 때문에 고른 연구 15편(2005–2020년)이 모두 국내에서 수행되었다고 설명했다[3]. 국내 도입 시기와 경로, '천년초'라는 이름의 유래는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "저단선은 땅에 낮게 엎드려 자라는 다육식물로, 보통 줄기 마디 한두 개 높이로 무리를 이룬다[3]. 초록색 줄기 마디는 두툼하고, 미늘이 있는 강모가 드문드문 나 있다[3]. 6월에 크고 노란 꽃이 성숙한 마디 가장자리에 핀다[3]. 열매는 길이 3–5 cm로, 익으면 초록에서 빨강이나 분홍으로 바뀌고 이듬해 봄까지 달려 있는 경우가 많다[3].\n\n이 종은 추위에 매우 강해, 영하 10 °C 아래를 견디지 못하는 O. ficus-indica와 달리 영하 24 °C까지 견딘다[12]. 기온을 낮추면 과당·포도당·자당과 함께 만니톨을 많이 만들어 삼투압을 높이며, 이것이 세포 안 결빙과 탈수 피해를 줄이는 것으로 해석되었다[12]. 낮/밤 5/−5 °C에서 7주 순화시키면 광합성 조직의 두께가 61% 줄고 점액 다당은 114% 늘었다[13]. 미국 중서부 관찰에서는 밤에 이산화탄소를 흡수하는 CAM 광합성이 4–9월에만 나타났고, 영하의 겨울에는 보이지 않았다[14]. 분포 북부의 개체군은 영하 20 °C를 견디며, 북부에는 배수체만 분포한다고 정리되었다(2배체의 내한성은 시험되지 않음)[11]."
+  },
+  {
+   "key": "related_species",
+   "title": "비슷한 종과 구별",
+   "body": "Opuntia속은 선인장과에서 가장 큰 속으로, 약 126종이 아메리카·아프리카·아시아·오스트레일리아·지중해 중부에 분포한다고 정리된다[3]. 국내 식품원료 목록에서 같은 속의 선인장(O. ficus-indica)은 선인장열매·선인장줄기, 왕선인장(O. monacantha)은 왕선인장열매·왕선인장줄기라는 별도 원료로 올라 있다[2]. 이 두 항목의 사용가능부위는 열매와 줄기여서, 씨앗까지 쓸 수 있는 저단선과 조건이 다르다[1, 2]. 목록의 침엽선인장(Pereskia aculeata)은 다른 속의 선인장으로 역시 별도 항목이다[2]. 저단선은 영하 24 °C까지 견뎌 영하 10 °C 아래를 견디지 못하는 O. ficus-indica보다 훨씬 추위에 강하다[12].\n\n북미에서 O. humifusa는 O. macrorhiza·O. abjecta·O. pusilla 등과 함께 'Humifusa 계통군'을 이루며, 이 계통군은 미국 남동부와 남서부에 각각 분포하는 두 하위 계통으로 나뉜다[11]. 국내에는 품종형 왕가시천년초(O. humifusa f. jeollaensis)가 있으며, 그 열매 가루를 유화 소시지에 넣어 품질을 본 연구가 있다[19]. 왕가시천년초가 식품원료 목록의 저단선 항목에 포함되는지는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배",
+   "body": "천년초는 주로 한국에서 재배되며, 영하 20 °C 아래의 추운 환경에서도 재배된다고 소개된다[3]. 국내 연구에 쓰인 시료는 경남 창녕의 밭에서 2022년 10월에 채취한 줄기와 열매였다[4]. 다른 연구는 경남 의령에서 3년 동안 기른 마디(논문 표기 '잎')를 썼다[7]. 세종에서 재배해 2014년 10월에 수확한 줄기를 쓴 연구도 있다[6]. 제주도에서 널리 재배된다는 기술도 있다[8].\n\n미국 중서부에서 2년 동안 관찰한 결과, 앞선 생육기에 물을 가장 적게 받은 시험구가 겨울 생존율이 가장 높았다[14]. 낮은 온도에 순화하는 동안 조직의 수분 함량이 줄고 점액 다당이 늘어, 세포 밖 결빙 때 급격한 탈수 피해를 줄이는 것으로 해석되었다[13]. 이 종은 CAM 식물로, 미국 중서부에서는 새 줄기가 자라고 꽃이 피는 6월에 산도 변동이 가장 컸다[14]. 국내 재배 면적·생산량 통계는 로컬 통계 파일(특용작물 생산실적·농작물생산조사)에서 찾지 못해 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품원료 목록에는 저단선의 원료 형태로 열매·줄기·씨앗과 발효액·추출물이 올라 있다[1]. 이 종은 사포닌이 많아 성분 추출이 까다롭다고 지적되었는데, 거품과 유화를 일으키는 사포닌이 폴리페놀·플라보노이드 분리를 방해하기 때문이다[7]. 이 때문에 가시를 없앤 마디(논문 표기 '잎')를 갈아 만든 반죽 500 g을 800 W에서 20분 마이크로파 처리한 뒤 물에 녹여 거르고 동결건조한 추출물이 개발되었다[7]. 이 추출물의 DPPH 라디칼 소거 IC50은 40 ± 0.92 µg/mL였고, 처리하지 않은 시료는 120 µg/mL에서도 IC50에 이르지 못했다[7].\n\n줄기 10.0 kg을 물 50.0 L와 갈아 펙티네이스·셀룰레이스로 45 °C에서 6시간 분해해 물 추출물을 만든 연구가 있다[6]. 다당 분해 효소를 쓰면 추출물의 건조 중량과 폴리페놀 함량이 늘었지만, 압력을 높이면 효소 처리 여부와 관계없이 폴리페놀이 줄어드는 경향을 보였다[22]. 논문이 '잎'으로 적은 마디의 추출에서 지표성분 아이소람네틴 3-O-루티노사이드를 가장 많이 얻는 용매는 60–80% 에탄올이었고, 산업 규모에는 60% 에탄올이 제안되었다[5]. 왕가시천년초 열매 가루는 5%를 넣은 소시지가 관능 평가에서 가장 좋았다[19]. 천년초 추출물은 유산균과 묶은 신바이오틱 소재로도 시험되어, 스트레스로 유발한 쥐의 과민성 장증후군 모델에서 변 굳기를 개선했다[21]. 요구르트와 천년초를 넣은 얼굴 팩을 바른 사람 피부에서 수분이 늘고, 대조 부위에서 줄어든 탄력이 유지되었다는 임상 보고가 있다[24]. 이 소재의 국내 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 분류",
+   "body": "Opuntia속의 기본 염색체 수는 x = 11이다[11]. 넓은 뜻의 O. humifusa에서는 2배체(2n = 22)와 4배체(2n = 44)가 모두 확인되었다[11]. 2배체는 미국 남동부에만 있고, 4배체는 미국 동부와 중서부에 훨씬 널리 퍼져 있다[11]. Humifusa 계통군에서 센 318개 개체 가운데 66%가 배수체였다[11].\n\n핵 리보솜 ITS 염기서열 계통 분석에서 미국 동부의 4배체 O. humifusa는 남서부 2배체 계통에, 2배체 O. humifusa는 남동부 계통에 속했다[11]. 이 때문에 O. humifusa는 단일 계통이 아니며 한 종 이상을 포함할 가능성이 크다고 결론지어졌다[11]. 연구진은 빙하기 동안 남동부·남서부의 피난처에서 갈라진 2배체가 다시 만나 배수체가 생겼고, 추위에 강한 배수체가 북쪽으로 퍼졌다고 보았다[11]. 튀니지에서 이 종을 포함한 Opuntia 여러 종을 SSR 표지로 분석한 연구는 유전형 사이의 다양성이 높다고 보고했으나, 이 종만의 결과는 초록에서 확인하지 못함[23]. 국내 재배 천년초의 배수성과 유전체 해독 여부는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "저단선은 식약처 「식품원료 목록」에서 '사용가능' 원료이며, 쓸 수 있는 부위는 열매·줄기·씨앗이다[1]. 건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없으며, 식품으로서의 알레르기·잔류농약·독성 성분에 관한 공공기관 정보는 확인하지 못함. 줄기 마디에는 미늘이 있는 강모가 있어[3], 가공 연구에서는 잎 모양 마디를 씻고 가시를 없앤 뒤 썼다[7].\n\n2023년 메타분석에서 정상 인체 피부세포(HaCaT·HDF)의 생존율은 약 100 µg/mL 수준의 천년초 처리군과 대조군 사이에 유의한 차이가 없어, 이 농도의 세포 실험에서는 독성이 보이지 않았다[3]. 60세 이상 과민성 장증후군 환자 67명을 위약군과, 유산균(Lactobacillus paracasei DKGF1)과 천년초 추출물을 섞은 신바이오틱군으로 나눠 4주 동안 먹인 임상시험에서 두 군 모두 이상반응이 없었다[20]. 당뇨 쥐에 줄기 가루 150–500 mg/kg을 7주 먹인 실험에서는 간 효소(ALT·AST)가 당뇨 대조군보다 낮았다[17]. 은·카드뮴·납·니켈을 각 100 ppm 처리한 실험에서 이 선인장은 칼랑코에·브리오필룸보다 중금속 흡수 잠재력이 컸다[26]. 이런 결과는 대부분 세포·동물 실험이거나 복합 제품을 쓴 소규모 연구이므로 사람에게 단독으로 먹였을 때의 안전성 자료로 보기는 어렵다[3, 20]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Isorhamnetin 3-O-rutinoside",
+   "name_ko": "아이소람네틴 3-O-루티노사이드(나르시신)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "줄기·열매",
+   "content_text": "줄기 395.20 ± 5.05 µg/g DW, 열매 179.29 ± 1.48 µg/g DW(UPLC-DAD-QToF/MS)[4]; 줄기(논문 표기 leaf) 에탄올 추출물에서 0.33 mg/g(건조 추출물 기준, HPLC)[5]",
+   "activity_ko": "줄기·열매에서 가장 많은 플라보노이드이며, 잎(줄기) 추출물의 프리바이오틱 활성 성분이자 표준화 지표로 제시됨(Lactobacillus paracasei 생존율 증가)",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Isorhamnetin 3-O-glucoside",
+   "name_ko": "아이소람네틴 3-O-글루코사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 193.45 ± 2.76 µg/g DW, 열매 9.14 ± 0.83 µg/g DW(줄기가 약 21배)",
+   "activity_ko": "줄기에서 두 번째로 많은 플라보노이드로, 인슐린 저항성 개선 효과의 후보 성분으로 논의됨",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Isorhamnetin 3-O-rutinoside-4'-O-glucoside",
+   "name_ko": "아이소람네틴 3-O-루티노사이드-4'-O-글루코사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 85.19 ± 1.20 µg/g DW, 열매 83.80 ± 4.12 µg/g DW(내부표준 면적비로 환산)",
+   "activity_ko": "줄기·열매에서 동정된 12종 플라보노이드 가운데 하나",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Isorhamnetin 3-O-robinobioside",
+   "name_ko": "아이소람네틴 3-O-로비노비오사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 61.07 ± 2.66 µg/g DW, 열매 36.31 ± 2.89 µg/g DW(내부표준 면적비로 환산)",
+   "activity_ko": "줄기·열매에서 동정된 12종 플라보노이드 가운데 하나",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Isorhamnetin",
+   "name_ko": "아이소람네틴",
+   "class": "플라보놀(아글리콘)",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 35.83 ± 3.56 µg/g DW, 열매 4.13 ± 0.03 µg/g DW[4]; 마이크로파 처리 물 추출물에서 HPLC로 확인(정량하지 않음)[7]",
+   "activity_ko": "분리한 아이소람네틴 분획을 125 mg/mL라는 높은 농도로 처리한 대장암 세포(HCT116) 실험에서 24시간 뒤 생존율 32%[7]; Lactobacillus paracasei 생존을 늘림[5]",
+   "source": [
+    4,
+    5,
+    7
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "쿼서틴",
+   "class": "플라보놀(아글리콘)",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 15.38 ± 1.98 µg/g DW, 열매 7.76 ± 0.16 µg/g DW[4]",
+   "activity_ko": "에틸아세테이트 분획의 라디칼 소거 활성 성분 가운데 하나로 분리됨[9]",
+   "source": [
+    4,
+    9
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴(쿼서틴 3-O-루티노사이드)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "줄기·열매",
+   "content_text": "줄기 30.14 ± 0.96 µg/g DW, 열매 21.70 ± 3.76 µg/g DW",
+   "activity_ko": "줄기·열매의 쿼서틴 유도체 3종 가운데 가장 많음",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "줄기",
+   "content_text": "마이크로파 처리 물 추출물에서 표준품 머무름 시간 비교로 확인(함량은 정량하지 않음)",
+   "activity_ko": "카페산·쿼서틴과 함께 분획한 시료를 125 mg/mL로 처리한 대장암 세포(HCT116) 실험에서 24시간 뒤 생존율 26%",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Taxifolin",
+   "name_ko": "탁시폴린(트랜스형)",
+   "class": "디하이드로플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 에틸아세테이트 추출물에서 분리(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "열매 추출물은 자궁경부암(HeLa) 세포 증식을 억제했고 정상 섬유아세포에는 영향이 없었음",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Aromadendrin",
+   "name_ko": "디하이드로캠페롤(아로마덴드린)",
+   "class": "디하이드로플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매 에틸아세테이트 추출물에서 분리(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "탁시폴린과 함께 열매에서 분리된 플라보노이드",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Megastigmane glucosides",
+   "name_ko": "메가스티그만 배당체",
+   "class": "노르아이소프레노이드 배당체",
+   "role": "bioactive",
+   "part": "줄기(cladode)",
+   "content_text": "메탄올 추출물에서 새 메가스티그만 1종과 새 메가스티그만 배당체 4종을 포함해 23종 분리(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "일부 화합물이 대식세포(RAW 264.7)의 LPS 유도 일산화질소 생성을 농도 의존적으로 억제(iNOS 발현 억제)",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Betanin",
+   "name_ko": "베타닌(베탈레인)",
+   "class": "베타시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매에서 베타니딘·베타닌·아이소베타니딘·아이소베타닌·네오베타닌·필로칵틴·곰프레닌이 동정되었다고 정리됨(함량은 확인하지 못함)",
+   "activity_ko": "베탈레인은 아스코르브산·카테킨·루틴보다 3–4배 높은 항산화 활성을 보인다고 정리됨",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "비타민 C(아스코르브산)",
+   "class": "수용성 비타민",
+   "role": "nutrient",
+   "part": "줄기·열매",
+   "content_text": "줄기 약 260.94 mg/100 g(2009년 국내 연구를 인용한 값)[3]; 다른 연구는 총 폴리페놀과 아스코르브산이 다른 부위보다 열매에 많다고 보고[10]",
+   "activity_ko": "천연 항산화 성분으로 언급됨",
+   "source": [
+    3,
+    10
+   ]
+  },
+  {
+   "name": "Dietary fiber",
+   "name_ko": "식이섬유(펙틴 점액질)",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "줄기(cladode)",
+   "content_text": "가용성 18.92, 불용성 39.15, 총식이섬유 58.07 g/100 g; 효소 처리 물 추출물 총식이섬유 19.45 g/100 g, 점액질 46.12%[6]; 점액질의 주성분은 펙틴(48.5%)으로 인용됨[6]",
+   "activity_ko": "쥐의 로페라마이드 유발 변비에서 배변 수·분변 수분·장 통과율을 높인 효과의 주 성분으로 제시됨[6]; 줄기 수용성 다당은 고지방식 생쥐의 지방량을 줄임[18]",
+   "source": [
+    6,
+    18
+   ]
+  },
+  {
+   "name": "Mannitol",
+   "name_ko": "만니톨",
+   "class": "당알코올",
+   "role": "nutrient",
+   "part": "줄기",
+   "content_text": "저온(낮/밤 10/0 °C)에서 상당량 축적(수치는 초록에서 확인하지 못함)",
+   "activity_ko": "세포 안 결빙·탈수를 막아 내한성에 기여하는 것으로 해석됨",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Catechol",
+   "name_ko": "카테콜",
+   "class": "페놀 화합물",
+   "role": "bioactive",
+   "part": "열매(튀니지 개체군)",
+   "content_text": "1.88 µg/g DW(RP-HPLC; 이 종에서 가장 많은 페놀 화합물)",
+   "activity_ko": "같은 연구에서 Opuntia 여러 종의 색소 추출물이 강한 라디칼 소거 활성을 보였으나, 이 종만의 값은 초록에서 확인하지 못함",
+   "source": [
+    23
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Isorhamnetin 3-O-rutinoside and 11 other quercetin/isorhamnetin derivatives",
+   "compound_ko": "아이소람네틴 3-O-루티노사이드 등 쿼서틴·아이소람네틴 유도체 12종",
+   "part": "줄기·열매(경남 창녕, 2022년 10월 채취, 동결건조)",
+   "content": "아이소람네틴 3-O-루티노사이드 줄기 395.20 ± 5.05, 열매 179.29 ± 1.48 µg/g DW; 총 플라보노이드 줄기 980.43, 열매 606.67 µg/g DW[4]",
+   "method": "UPLC-DAD-QToF/MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "DAD 350 nm(크로마토그램); ToF-MS 양이온 ESI([M+H]+, [M+Na]+·[M+K]+ 부가이온)",
+    "injection": "",
+    "sample_prep": "분말 0.5 g을 메탄올:물:포름산(50:45:5, v/v/v) 10 mL로 오비탈 진탕기에서 30분(200 rpm) 추출, 2016 × g·4 °C에서 15분 원심분리, 0.2 µm PVDF 시린지 필터 여과; 여액 0.5 mL와 내부표준 0.5 mL를 증류수로 7 mL까지 희석해 C18 고상추출 카트리지(500 mg; 메탄올 3 mL·증류수 5 mL로 활성화)에 걸고 증류수 5 mL로 씻은 뒤 1% 포름산 메탄올 5 mL로 용출, 질소로 완전히 농축하고 추출 용매 0.5 mL에 다시 녹임",
+    "standard": "쿼서틴 3-O-루티노사이드·3-O-갈락토사이드·3-O-글루코사이드, 아이소람네틴 3-O-루티노사이드·3-O-글루코사이드, 쿼서틴, 아이소람네틴은 표준품 검량선으로 정량; 나머지 5종은 내부표준(quercetin-3,5,7,3',4'-pentamethylester 50 ppm, 0.5 mL)과의 면적비 1:1로 환산; 정성은 농촌진흥청 플라보노이드 DB(RDA DB 1.0, 2016)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "줄기 플라보노이드의 92.6%, 열매의 92.3%가 아이소람네틴 유도체이고 그중 아이소람네틴 3-O-루티노사이드가 가장 많아 이 종 줄기·열매의 대표 성분으로 쓸 수 있음. 전문(Methods)을 확인했으나 칼럼·이동상·기울기·유속은 인용 방법으로만 적혀 있어 본문에서 확인하지 못함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.4162/nrp.2024.18.4.498",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isorhamnetin 3-O-beta-D-(6-O-alpha-L-rhamnosyl)glucoside (isorhamnetin 3-O-rutinoside)",
+   "compound_ko": "아이소람네틴 3-O-루티노사이드",
+   "part": "논문 표기 '잎(leaf)' — 시장에서 산 생 시료, 표본 확인",
+   "content": "본문: 80% 에탄올 추출물에서 0.33 mg/g(건조 추출물 기준); 초록: 60% 에탄올 추출물에서 0.33 mg/g(본문과 초록의 추출 조건 표기가 다름)[5]",
+   "method": "HPLC(외부표준법, ICH 지침에 따라 밸리데이션)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "생 잎을 갈아 80% 에탄올(또는 증류수) 10 L로 실온에서 24시간 교반 추출(5회), 여과·감압 농축·동결건조; 추출 조건 비교는 잎 50 g을 0·20·40·60·80% 에탄올로 실온 24시간 추출",
+    "standard": "잎 에탄올 추출물에서 분리하고 NMR(1H·13C·HSQC·HMBC)과 산 가수분해로 구조를 확인한 화합물(외부표준 검량선)",
+    "linearity": "5–500 µg/mL, R² = 0.99",
+    "lod": "0.5 µg/mL(S/N 3)",
+    "loq": "1.9 µg/mL(S/N 10)",
+    "recovery": "평균 98.3 ± 2.97%(표준 첨가 5·50·500 µg/mL); 정밀도 RSD 일내 0.05–2.00%, 일간 0.07–3.01%"
+   },
+   "rationale": "잎(줄기) 에탄올 추출물의 프리바이오틱 활성(Lactobacillus paracasei KCTC 12576 생존율 증가)을 내는 주 성분으로 분리되어, 추출물 표준화용 지표성분으로 제시됨. 전문을 확인했으나 칼럼·이동상·검출 파장 등 크로마토그래피 조건은 표로만 제시되어 본문 텍스트에서 확인하지 못함. 선인장의 납작한 마디를 '잎'으로 적은 것인지는 논문에서 따로 설명하지 않음[5].",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.3390/molecules30153124",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Dietary fiber (soluble, insoluble, total) and mucilage",
+   "compound_ko": "식이섬유(가용성·불용성·총)와 점액질",
+   "part": "줄기(cladode; 세종 재배, 2014년 10월 수확)",
+   "content": "가용성 18.92, 불용성 39.15, 총식이섬유 58.07 g/100 g; 효소 처리 물 추출물은 가용성 4.71, 불용성 14.74, 총 19.45 g/100 g, 점액질 46.12%[6]",
+   "method": "효소-중량법(선행 문헌 방법 인용); 점액질은 에탄올 침전 후 동결건조",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "중량법",
+    "injection": "",
+    "sample_prep": "점액질: 줄기 마디를 물과 1:5로 균질화하고 고운 천으로 거른 뒤 감압 농축, 에탄올에 1:5(v/v)로 부어 침전, 5000 g에서 1시간 원심분리, 침전을 증류수에 녹여 동결건조",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "천년초 줄기는 식이섬유와 펙틴성 점액질이 많고, 이 섬유가 변비 개선 효과의 주 성분으로 제시되어 줄기 원료의 품질을 보는 기본 지표가 됨. 전문(Methods)에서 방법을 옮김[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.1186/s12906-016-1552-8",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 저단선(Opuntia humifusa / Opuntia compressa; Prickly Pear, Indian fig; 별명 후미푸사선인장·후미푸사·손바닥선인장), 원료명 저단선·저단선발효액·저단선씨앗·저단선열매·저단선줄기·저단선추출물, 사용가능부위: 열매, 줄기, 씨앗, 사용가능",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속·과의 별도 항목: 선인장열매·선인장줄기(Opuntia ficus-indica (L.) Mill.), 왕선인장열매·왕선인장줄기(Opuntia monacantha Haw.), 사용가능부위: 열매, 줄기; 침엽선인장(Pereskia aculeata Mill.)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Beneficial Effects of Opuntia humifusa (Korean Cheonnyuncho) on Human Health Based on Antioxidant Properties: Systematic Review and Meta-Analysis — Antioxidants (Basel) 2023;12(1):174 (PMID 36671035, PMC9854510)",
+   "url": "https://doi.org/10.3390/antiox12010174",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Opuntia humifusa stems rich in quercetin and isorhamnetin alleviate insulin resistance in high-fat diet-fed rats — Nutr Res Pract 2024;18(4):498-510 (PMID 39109194, PMC11300119)",
+   "url": "https://doi.org/10.4162/nrp.2024.18.4.498",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "In Vitro Prebiotic Potential of Opuntia humifusa Leaf Extract and Its Active Constituent — Molecules 2025;30(15):3124 (PMID 40807300, PMC12348676)",
+   "url": "https://doi.org/10.3390/molecules30153124",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Cactus (Opuntia humifusa) water extract ameliorates loperamide-induced constipation in rats — BMC Complement Altern Med 2017;17(1):49 (PMID 28095842, PMC5240252)",
+   "url": "https://doi.org/10.1186/s12906-016-1552-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Evaluation of the Antioxidant and Anti-Cancer Potential of Microwave-Assisted Opuntia humifusa (Korean Cheonnyencho) Aqueous Extract — Curr Issues Mol Biol 2025;47(2):88 (PMID 39996809, PMC11854608)",
+   "url": "https://doi.org/10.3390/cimb47020088",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Megastigmane Derivatives from the Cladodes of Opuntia humifusa and Their Nitric Oxide Inhibitory Activities in Macrophages — J Nat Prod 2020;83(3):684-692 (PMID 32118424) — 초록만 확인",
+   "url": "https://doi.org/10.1021/acs.jnatprod.9b01120",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Radical scavenging and anti-inflammatory activity of extracts from Opuntia humifusa Raf. — J Pharm Pharmacol 2006;58(1):113-9 (PMID 16393471) — 초록만 확인",
+   "url": "https://doi.org/10.1211/jpp.58.1.0014",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Anticancer properties of extracts from Opuntia humifusa against human cervical carcinoma cells — J Med Food 2015;18(1):31-44 (PMID 25379883) — 초록만 확인",
+   "url": "https://doi.org/10.1089/jmf.2013.3096",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Cytogeography of the Humifusa clade of Opuntia s.s. Mill. 1754 (Cactaceae, Opuntioideae, Opuntieae): correlations with pleistocene refugia and morphological traits in a polyploid complex — Comp Cytogenet 2012;6(1):53-77 (PMID 24260652, PMC3833768)",
+   "url": "https://doi.org/10.3897/CompCytogen.v6i1.2523",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Water Relations and Low-Temperature Acclimation for Cactus Species Varying in Freezing Tolerance — Plant Physiol 1994;104(2):675-681 (PMID 12232118, PMC159246) — 초록만 확인",
+   "url": "https://doi.org/10.1104/pp.104.2.675",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Water relations and mucopolysaccharide increases for a winter hardy cactus during acclimation to subzero temperatures — Oecologia 1991;88(3):340-346 (PMID 28313794) — 초록만 확인",
+   "url": "https://doi.org/10.1007/BF00317576",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Effects of seasonal changes in the Midwest on Crassulacean Acid Metabolism (CAM) in Opuntia humifusa Raf. — Oecologia 1980;45(3):390-395 (PMID 28309570) — 초록만 확인",
+   "url": "https://doi.org/10.1007/BF00540212",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Chemopreventive effect of cactus (Opuntia humifusa) extracts: radical scavenging activity, pro-apoptosis, and anti-inflammatory effect in human colon (SW480) and breast cancer (MCF7) cells — Food Funct 2013;4(5):681-8 (PMID 23435602) — 초록만 확인",
+   "url": "https://doi.org/10.1039/c3fo30287c",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Opuntia humifusa partitioned extracts inhibit the growth of U87MG human glioblastoma cells — Plant Foods Hum Nutr 2010;65(3):247-52 (PMID 20814744) — 초록만 확인",
+   "url": "https://doi.org/10.1007/s11130-010-0188-y",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Opuntia humifusa stems lower blood glucose and cholesterol levels in streptozotocin-induced diabetic rats — Nutr Res 2011;31(6):479-87 (PMID 21745630) — 초록만 확인",
+   "url": "https://doi.org/10.1016/j.nutres.2011.05.002",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Biological activities of water-soluble polysaccharides from Opuntia humifusa stem in high-fat-diet-fed mice — J Food Biochem 2019;43(4):e12806 (PMID 31353577) — 초록만 확인",
+   "url": "https://doi.org/10.1111/jfbc.12806",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Effect on the Emulsification Stability and Quality of Emulsified Sausages Added with Wanggasi-Chunnyuncho (Opuntia humifusa f. jeollaensis) Fruit Powders — Food Sci Anim Resour 2019;39(6):953-965 (PMID 31950111, PMC6949519) — 초록만 확인",
+   "url": "https://doi.org/10.5851/kosfa.2019.e85",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Efficacy of a Synbiotic Containing Lactobacillus paracasei DKGF1 and Opuntia humifusa in Elderly Patients with Irritable Bowel Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial — Gut Liver 2023;17(1):100-107 (PMID 35611667, PMC9840930) — 초록만 확인",
+   "url": "https://doi.org/10.5009/gnl210478",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Effect of a Synbiotic Containing Lactobacillus paracasei and Opuntia humifusa on a Murine Model of Irritable Bowel Syndrome — Nutrients 2020;12(10):3205 (PMID 33092151, PMC7594034) — 초록만 확인",
+   "url": "https://doi.org/10.3390/nu12103205",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Enzyme-assisted extraction of cactus bioactive molecules under high hydrostatic pressure — J Sci Food Agric 2014;94(5):850-6 (PMID 23893871) — 초록만 확인",
+   "url": "https://doi.org/10.1002/jsfa.6317",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Natural colourants analysis and biological activities. Association to molecular markers to explore the biodiversity of Opuntia species — Phytochem Anal 2020;31(6):892-904 (PMID 32548910) — 초록만 확인",
+   "url": "https://doi.org/10.1002/pca.2954",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Clinical efficacy of facial masks containing yoghurt and Opuntia humifusa Raf. (F-YOP) — J Cosmet Sci 2011;62(5):505-14 (PMID 22152494) — 초록만 확인",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22152494/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Diversity and antifungal activity of the endophytic fungi associated with the native medicinal cactus Opuntia humifusa (Cactaceae) from the United States — Microbiol Res 2015;175:67-77 (PMID 25851725) — 초록만 확인",
+   "url": "https://doi.org/10.1016/j.micres.2015.03.007",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Phytoremediation ability of three succulent ornamental plants; cactus (Opuntia humifusa), kalanchoe and bryophyllum under heavy metals pollution — Sci Total Environ 2024;947:174579 (PMID 38981535) — 초록만 확인",
+   "url": "https://doi.org/10.1016/j.scitotenv.2024.174579",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

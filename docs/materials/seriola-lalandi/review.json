@@ -1,0 +1,96 @@
+{
+ "slug": "seriola-lalandi",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 65,
+ "checked_items": 52,
+ "verified": 96,
+ "fixed": 20,
+ "removed": 1,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "aliases",
+   "before": "California yellowtail",
+   "after": "(삭제)",
+   "why": "출처 없는 별명이며, 종 복합체 구분에서 북동태평양 집단(Seriola dorsalis)을 가리키는 이름이라 근연종 혼입 위험"
+  },
+  {
+   "where": "sections.overview",
+   "before": "사료를 먹인 어린 개체의 근육 지방산에서는",
+   "after": "멕시코 바하칼리포르니아에서 사료를 먹여 기른 어린 개체의 근육 지방산에서는",
+   "why": "[2] 전문: 시료는 Baja Seas 공급 치어(멕시코)로, 집단 출처를 밝힘"
+  },
+  {
+   "where": "sections.overview",
+   "before": "양식 부시리가 분석 대상에 들었으나",
+   "after": "부시리(yellowtail kingfish)가 분석 대상 22종에 들었으나",
+   "why": "[33] 초록은 야생·양식 22종을 나열할 뿐 부시리가 양식 개체인지 말하지 않음"
+  },
+  {
+   "where": "sections.biology",
+   "before": "육식성 회유어",
+   "after": "육식성 외양 어류",
+   "why": "[6]·[30] 초록은 pelagic piscivore·circumglobal distribution 이라고만 씀"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "선발 육종으로 세대당 평균 약 10%의 유전적 개량을 얻었다",
+   "after": "이 종을 포함한 세 양식종의 질병 저항성 선발 육종에서 세대당 평균 약 10%",
+   "why": "[20] 의 10%는 흰다리새우·메기·부시리 세 종 프로그램 평균"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "카놀라유로 모두 바꾸면 항산화 유전자 발현이 달라졌다",
+   "after": "카놀라유로 모두 바꾸면 성장이 떨어지고 간의 GPx1 발현이 늘었다",
+   "why": "[17] 초록: 100% 카놀라유는 성장 저하, GPx1 상향"
+  },
+  {
+   "where": "sections.processing",
+   "before": "필레 무게·수율과 필레 지방 함량이 살 품질 형질",
+   "after": "필레 무게·수율은 도체 형질, 필레 지방 함량은 살 품질 형질",
+   "why": "[16] 초록의 형질 분류대로"
+  },
+  {
+   "where": "sections.processing / safety / compounds.Histamine.part",
+   "before": "부시리 부산물로 만든 가수분해물",
+   "after": "부시리로 만든 가수분해물",
+   "why": "[15] 초록은 부산물이라고 쓰지 않음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "(없음)",
+   "after": "[6] 유전체는 중국 다롄 양식 개체로 해독해 북서태평양 집단 자료에 해당한다는 문장 추가",
+   "why": "[6] 전문 Methods(Dalian 양식장 시료), [7] 초록(북서태평양 집단 유전체 존재) — 근연 계통(S. aureovittata) 혼입 표시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "같은 시료의 다이옥신은",
+   "after": "그중 5개 시료의 다이옥신은",
+   "why": "[11] 초록: 다이옥신·PCB는 27개 중 5개 부분 시료만 분석"
+  },
+  {
+   "where": "assays[Mercury].part",
+   "before": "필레(양식 개체 혼합 시료)",
+   "after": "양식 개체 혼합 시료(부위는 초록에 없음)",
+   "why": "[11] 초록에 부위 표기 없음"
+  },
+  {
+   "where": "sources 17,22,26,30,32",
+   "before": "권·호·쪽 없음 또는 연도 오류(30: 2015)",
+   "after": "PubMed 서지로 보완(30: 2016;16(1):364-76)",
+   "why": "PubMed 메타데이터"
+  },
+  {
+   "where": "sources 6,8,9",
+   "before": "초록 확인 / PMID 없음",
+   "after": "6 은 PMC 전문 확인, 8·9 PMID 추가",
+   "why": "PubMed 대조"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 부시리 Seriola lalandi, Yellowtail amberjack, 수산물, 부위 '-', 사용가능, 조건 없음 — card.json 과 일치. 방어·잿방어·낫잿방어는 별도 행",
+  "[2]·[3]·[6] 은 PMC 전문으로, 나머지는 PubMed 초록으로 대조. [13]·[33] 은 초록에 부시리 개별 값이 없어 문장도 그 범위로만 씀",
+  "[3]·[6]·[32] 의 동아시아 개체는 종 복합체 구분상 S. aureovittata 에 해당할 수 있어 related_species·genetics 에 그 점을 적어 둠"
+ ]
+}

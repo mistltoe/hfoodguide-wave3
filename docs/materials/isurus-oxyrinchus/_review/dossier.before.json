@@ -1,0 +1,685 @@
+{
+ "slug": "isurus-oxyrinchus",
+ "name_ko": "청상아리",
+ "name_en": "Shortfin mako shark",
+ "scientific_name": "Isurus oxyrinchus",
+ "aliases": [
+  "청상아리",
+  "생아리",
+  "Shortfin mako",
+  "Mako shark",
+  "Isurus oxyrhinchus"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "청상아리(Isurus oxyrinchus)는 악상어과(Lamnidae)에 드는 대형 외양성 상어로, 식약처 「식품원료 목록」에 '청상아리'(영문 Shortfin mako, Mako shark, 별칭 생아리)라는 수산물 원료로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고, 사용 부위는 따로 정하지 않은 '-'로 적혀 있으며 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료로 이 종이 따로 적힌 곳은 없어 식약처가 정한 지표성분도 없다[1, 32].\n\n모든 온대·열대 바다에 사는 빠르고 이동성이 큰 상어로, 다랑어·새치류 같은 빠른 경골어를 잡아먹는다[3]. 고기와 지느러미를 얻으려는 어업의 대상이며, 국제자연보전연맹(IUCN) 적색목록에서 '위기(Endangered)'로 분류되고 멸종위기에 처한 야생동식물종의 국제거래에 관한 협약(CITES) 부속서 II에 올라 있다[4]. 살코기 100 g에 단백질 20.7 g, 오메가-3 지방산 0.795 g이 든다는 자료가 있지만, 먹이사슬 꼭대기에 있어 수은이 많이 쌓이는 종으로 꼽힌다[3, 11]. 그래서 먹을 때는 개체 크기와 섭취 빈도를 함께 살펴야 한다는 연구가 많다[13, 15]."
+  },
+  {
+   "key": "history",
+   "title": "이용·국제 거래 관리의 역사",
+   "body": "홍콩 상어지느러미 시장의 경매 기록과 유전자 판별을 묶은 연구에서 청상아리는 거래 무게의 적어도 2–6%를 차지하는 주요 분류군 가운데 하나였다[34]. 2014–2015년 홍콩 소매시장 지느러미 조각 4,800개를 판별한 조사에서는 청상아리 비율이 0.2–1.2%로 추정되었다[25]. 중국 광저우 소매시장 2,000개 조각 조사에서도 청새리상어·미흑점상어·홍살귀상어·귀상어 다음으로 흔했다[26]. 대만 시장·식당의 상어 살코기 548점을 판별한 연구에서는 청상아리를 포함한 4종이 표본의 80%를 차지해 많이 소비되는 종으로 보았다[27].\n\n2019년 CITES 제18차 당사국총회에서 청상아리와 긴지느러미청상아리가 부속서 II에 올랐고 2019년 11월 26일 발효되었다고 하나, 이는 검색 요약으로만 확인했다[7]. 부속서 II는 거래 금지가 아니라 국제 거래 때 CITES 서류를 요구하는 단계다[7]. 등재 뒤에도 대만 고양이 통조림에서 표시되지 않은 청상아리가 나왔고, 시장에서 살코기·지느러미로 종을 가리는 현장 검사법이 개발되었다[5, 6]. 스페인에서는 2021년 청새리상어·청상아리·황새치를 합쳐 약 69,000 t을 잡아 자국 선단 수입의 최대 13%를 차지했다[3]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "청상아리는 홈이 진 피부 비늘, 몸 안쪽에 자리한 적색근, 큰 아가미구멍, 어뢰형 몸통, 초승달 꼴 꼬리지느러미를 갖추고 다랑어처럼 꼬리로 헤엄친다[3]. 몸 일부의 체온을 바닷물보다 높게 유지하는 악상어과 상어로, 기록계를 단 3마리는 수평 유영 때 꼬리를 초당 약 0.6번 치며 초속 약 0.5 m로 움직였다[18]. 활강은 거의 없었고(1.31% 미만) 낮에는 초속 3.6 m까지 순간 가속했지만 해 질 녘 직후 멈췄다[18].\n\n새끼는 어미 몸속에서 다른 알을 먹으며 자라고(난식), 브라질 연구에서 한 배 최대 20마리, 출산 직전 배아 길이 64.5–72.0 cm가 관찰되었다[19]. 대만 난팡아오 항의 세 배를 분석한 결과 한 배에 평균 4.6마리(COLONY) 또는 2.5마리(GERUD)의 아비가 있었다[24]. 느리게 자라고 오래 사는 무리(성장계수 0.034–0.103/년, 최대 수명 26–81년)로 분류된다[31]. 미국 캘리포니아에서 잡힌 암컷은 전장 373 cm, 무게 600 kg, 약 22살로 추정되었고 위에서 캘리포니아바다사자가 나왔다[20]. 척추 나이테는 성숙한 수컷에서 해마다 한 쌍씩 생기는 것이 확인되었다[21]. 수은 동위원소 분석은 북동태평양 개체가 주로 중층(중심해) 먹이에 기대고 있음을 보였다[35]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」 원자료에는 같은 악상어과의 백상아리(Carcharodon carcharias)와 악상어(Lamna ditropis, 별칭 물맛상아리)가 '사용가능'으로 따로 올라 있다[1]. Lamna nasus는 '비악상어'라는 이름으로는 '사용불가', 영문 'Porbeagle'이라는 이름으로는 '사용가능'으로 두 줄이 엇갈려 적혀 있다[1]. 같은 속의 긴지느러미청상아리(Isurus paucus)는 이 목록에서 찾지 못했고, CITES에는 2019년 청상아리와 함께 올랐다고 검색 요약으로만 확인했다[1, 7].\n\n영문으로는 shortfin mako, mako shark로 부르고, 논문에 따라 학명을 Isurus oxyrhinchus로 쓰기도 한다[1, 28]. 살코기는 토막으로, 지느러미는 가공품으로 팔려 겉모습으로 종을 가리기 어렵기 때문에 미토콘드리아 COI 유전자 391 bp 조각으로 판별한 연구가 있다[27]. 대만 고양이 통조림 연구는 표시 오류를 가리려면 일반명과 학명을 짝지은 공식 목록과 믿을 만한 바코드 참조 자료가 필요하다고 했다[5]. 같은 주낙에 함께 걸리는 청새리상어와 비교하면 북동대서양 청상아리는 몸이 커질수록 근육 수은이 더 빨리 늘었다[13]. 동대서양과 지중해 개체는 유전적으로 하나의 섞인 집단으로 나타나, 지중해를 별도의 자료 부족 자원으로 다루는 국제대서양참치보존위원회 방식 대신 해역 전체를 묶은 관리가 필요하다는 제안이 나왔다[10]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·자원 관리",
+   "body": "청상아리 양식 사례는 이번 조사에서 확인하지 못함. 자원은 주로 주낙(연승) 어업의 부수어획으로 잡히며, 전 세계적으로 '위기', 지중해에서는 '심각한 위기'로 분류된다[10]. 가장 최근의 국제대서양참치보존위원회 평가에서 북대서양 자원은 남획 상태로 판정되었다[4]. 북대서양에서 표지를 단 청상아리 132마리 가운데 30마리(22.73%)가 2009–2017년 주낙에 다시 잡혔고, 연간 생존율은 0.618 ± 0.189로 추정되었다[23]. 남동태평양에서는 스페인 주낙선 1996–2009년 어획 자료로 어린 개체가 모이는 성육장 후보가 찾아졌는데, 주낙 조업이 몰리는 해역과 겹쳤다[22].\n\n남태평양 인구학 모델에서는 생산성이 낮아 어업에 민감하고, 성숙 개체보다 미성숙 개체를 보호할 때 개체군 증가율이 더 높았다[30]. 국내에서는 2017년 10–12월 제주 모슬포 위판장에서 다른 어종 낚시·주낙에 함께 잡힌 청상아리 2마리(전장 110–137 cm, 약 1살)가 조사되었다[2]. 이 연구는 2 m가 넘는 상어는 끌어올리기 어려워 시장에 나오는 개체가 대부분 2 m 미만의 어린 개체라고 적었다[2]. 국내 청상아리 어획량 통계와 세계 어획 통계(FAO)는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용·영양",
+   "body": "청상아리는 고기와 지느러미를 얻으려는 어업의 대상이다[4]. 스페인 자료를 정리한 총설의 표에서 청상아리 살 100 g은 열량 87 kcal, 단백질 20.7 g, 지방 4.4 g, 수분 76 g이고 오메가-3 지방산은 0.795 g이었다[3]. 같은 표에서 셀레늄 28.5 μg, 비타민 B12 1.35 μg, 비타민 D 8 μg이 적혀 있으며, 총설은 이 종의 지방산 조성 자료가 아직 문헌에 없다고 밝혔다[3]. 총설은 이 종을 지방이 많은 생선(oily fish)으로 묶고, 2012년 스페인 정부 지침의 영양 표시(포화지방 낮음, 오메가-3 높음)를 소개했다[3].\n\n살코기는 토막으로 팔리고 지느러미는 몸무게의 5%도 안 되어, 시장 유통품의 종은 유전자로 가려야 하는 경우가 많다[27]. 가공된 고양이 통조림에서 표시되지 않은 청상아리가 나온 사례도 있어 가공품 표시 관리가 과제로 꼽힌다[5]. 「건강기능식품의 기준 및 규격」의 알콕시글리세롤 함유 상어간유는 원재료를 '상어 간'으로만 적고 종을 정하지 않아, 청상아리 간이 실제로 쓰이는지는 확인하지 못함[32]. 국내 청상아리 가공·유통 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "청상아리는 염색체 수준의 유전체가 공개되어 있으며, 크기는 4.98 Gbp이고 1 Mbp 넘는 동형접합 구간이 1% 미만이어서 유전 다양성이 높은 편이었다[8]. 같은 연구는 지난 25만 년 동안 유효 집단 크기가 크게 줄었지만 과거 집단이 컸기 때문에 다양성이 남아 있다고 해석했다[8]. 미토콘드리아 유전체는 16,699–16,702 bp로 단백질 유전자 13개, tRNA 22개, rRNA 2개, 조절 부위 1개를 가지며, ATP8·ATP6·ND5가 가장 많이 달랐다[9].\n\n대서양 전역 86개 미토콘드리아 유전체에서 76개 일배체형이 나왔고 일배체형 다양도는 0.997 ± 0.002, 염기 다양도는 0.00654 ± 0.00314였다[4]. 핵 SNP로는 대서양 전체가 하나로 섞였지만 모계(미토콘드리아)로는 남반구와 북반구가 나뉘어, 적어도 반구 단위로 관리해야 한다고 제안했다[4]. 이 연구는 대서양 전역에 퍼진 염색체 역위도 찾았다[4]. 동대서양·지중해 66마리에서 얻은 중립 SNP 4,349개로는 하나의 섞인 집단이 나타났다[10]. 현장에서는 등온증폭(LAMP)을 종이 칩에 올려 1시간 안에 살코기·지느러미에서 청상아리를 가려내는 방법이 시험되었다[6]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료로는 '사용가능'이지만, 이 종에 대한 국내 공공기관의 알레르기·잔류물질 정보는 확인하지 못함. 제주 시장의 어린 청상아리 2마리 근육은 총수은 0.27 ± 0.07, 메틸수은 0.19 ± 0.08, 비소 2.06 ± 1.07 mg/kg(습중량)이었다[2]. 서적도대서양에서는 조사한 대형 어종 가운데 청상아리 수은이 2173.6 ± 1521.5 ng/g으로 가장 높았고, 미국 뉴잉글랜드 앞바다 개체도 2.65 ± 1.16 ppm이었다[11, 12]. 북동대서양에서는 전장 190 cm 넘는 개체에서 유럽연합 기준(1 mg/kg 습중량)을 넘는 값이 주로 나왔다[13]. 남아프리카 동해안 개체는 평균 10 mg/kg(건중량)을 넘었고, 브라질 남동부 61마리에서는 비소와 수은이 식품 안전 기준을 넘었다[14, 17]. 멕시코 연구는 수은·셀레늄·카드뮴을 근거로 청상아리의 주간 섭취 한도를 0.5 kg으로 산정했다[15]. 청상아리 논문 8편을 포함한 대서양·지중해 체계적 문헌고찰은 상어가 경골어보다 수은이 유의하게 높았다고 정리했다[16].\n\n식약처는 다랑어류·새치류·심해성 어류의 메틸수은을 1.0 ppm으로 관리하고 임산부 등에게 상어·황새치·참치 등을 주 1회 100 g 이하로 권고했다고 하나, 검색 요약으로만 확인했다[33]. 청상아리가 식품공전의 심해성 어류 목록에 드는지는 확인하지 못함. 북서대서양 청상아리 간에서는 여러 난연제 농도가 가랑이체장과 함께 늘었고, 세 외양성 상어 가운데 청상아리의 유기오염물질 축적 잠재력이 가장 높았다[28, 29]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Mercury",
+   "name_ko": "총수은",
+   "class": "중금속(오염물질)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "제주 어린 개체 0.27 ± 0.07 mg/kg 습중량(n = 2)[2]; 서적도대서양 2173.6 ± 1521.5 ng/g[11]; 미국 뉴잉글랜드 2.65 ± 1.16 ppm[12]; 북동대서양 0.74 ± 0.56 mg/kg(0.12–2.57)[3]",
+   "activity_ko": "신경독성 금속으로 몸 크기·영양단계와 함께 늘어나 섭취 위해성 평가의 핵심 지표다[2, 13]",
+   "source": [
+    2,
+    3,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Methylmercury",
+   "name_ko": "메틸수은",
+   "class": "유기수은(오염물질)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "0.19 ± 0.08 mg/kg 습중량(제주, n = 2)[2]",
+   "activity_ko": "흡수율(약 90%)이 높고 몸에 오래 남는(반감기 약 70일) 수은 형태로 생선 섭취 위해성의 핵심이다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Arsenic",
+   "name_ko": "비소(총)",
+   "class": "준금속(오염물질)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "2.06 ± 1.07 mg/kg 습중량(제주, n = 2)[2]",
+   "activity_ko": "브라질 남동부 61마리 연구에서 식품 안전 기준을 넘었다[17]; 제주 연구는 청상아리 평균이 기준(3 mg/kg)보다 낮았다고 보고[2]",
+   "source": [
+    2,
+    17
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "0.36 ± 0.09 mg/kg 습중량(제주)[2]; 28.5 μg/100 g(스페인 자료 정리 표)[3]",
+   "activity_ko": "필수 미량원소로 수은 독성과의 관계가 위해성 평가에 함께 쓰인다[3, 15]",
+   "source": [
+    2,
+    3,
+    15
+   ]
+  },
+  {
+   "name": "Lead",
+   "name_ko": "납",
+   "class": "중금속(오염물질)",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "0.06 ± 0.02 mg/kg 습중량(제주)[2]",
+   "activity_ko": "제주 연구에서 기준 이내였다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "13.48 ± 1.78 mg/kg 습중량(제주)[2]; 0.957 mg/100 g(정리 표)[3]",
+   "activity_ko": "필수 무기질[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Copper",
+   "name_ko": "구리",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "4.45 ± 4.67 mg/kg 습중량(제주)[2]",
+   "activity_ko": "제주 연구에서 1일 섭취량 환산값이 기준 이내였다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Zinc",
+   "name_ko": "아연",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "3.23 ± 1.60 mg/kg 습중량(제주)[2]; 0.358 mg/100 g(정리 표)[3]",
+   "activity_ko": "필수 무기질[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Omega-3 fatty acids",
+   "name_ko": "오메가-3 지방산(총)",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "0.795 g/100 g(총지방 4.4 g/100 g)[3]",
+   "activity_ko": "EPA·DHA 등 장쇄 오메가-3는 심혈관 건강과 연관되며, 이 종의 개별 지방산 조성 자료는 문헌에 없다고 했다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Cobalamin",
+   "name_ko": "비타민 B12",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "1.35 μg/100 g[3]",
+   "activity_ko": "정리 표의 영양 성분[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Vitamin D",
+   "name_ko": "비타민 D",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "8 μg/100 g[3]",
+   "activity_ko": "정리 표의 영양 성분[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Riboflavin",
+   "name_ko": "리보플래빈(비타민 B2)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "0.58 mg/100 g[3]",
+   "activity_ko": "정리 표의 영양 성분[3]",
+   "source": [
+    3
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Total mercury",
+   "compound_ko": "총수은",
+   "part": "근육(첫 등지느러미 높이의 등쪽 근육)",
+   "content": "청상아리 0.27 ± 0.07 mg/kg 습중량(n = 2, 전장 110–137 cm, 약 1살)[2]",
+   "method": "직접 수은 분석기(DMA-80)",
+   "conditions": {
+    "instrument": "Milestone DMA-80 Direct Mercury Analyzer",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "동결건조 시료 약 0.01 g",
+    "sample_prep": "근육을 1 cm 조각으로 잘라 72시간 동결건조(FDU-1200) → 막자사발로 균질화 → 동결건조 전후 무게로 수분율 계산, 건중량 값을 습중량으로 환산(평균 수분 74.6%)",
+    "standard": "인증표준물질 DOLT-5(캐나다 국립연구원)",
+    "linearity": "",
+    "lod": "0.06 ng/g",
+    "loq": "",
+    "recovery": "103.7% (± 9.8%, n = 13, DOLT-5)"
+   },
+   "rationale": "수은은 먹이사슬 꼭대기에 있는 상어 근육에 쌓이는 대표 위해 성분이며 몸 크기와 함께 늘어 섭취 안전성 판단의 지표로 쓰였다[2]. 전문(Methods) 확인 — 분석 원리(연소·금아말감 등)는 이 논문 본문에 적혀 있지 않음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0212410",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Methylmercury",
+   "compound_ko": "메틸수은",
+   "part": "근육",
+   "content": "청상아리 0.19 ± 0.08 mg/kg 습중량(n = 2)[2]",
+   "method": "에틸화–퍼지·트랩–GC–CVAFS",
+   "conditions": {
+    "instrument": "기체크로마토그래피 + 냉증기 원자형광 검출기(Brooks Rand Model III)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "냉증기 원자형광(CVAFS)",
+    "injection": "Tenax 트랩 30초 가열 탈착",
+    "sample_prep": "동결건조·균질화 시료 약 0.01 g + 메탄올로 희석한 25% KOH 5 mL, 60 °C 12시간 넘게 → 상온 냉각·탈이온수 희석 → 버블러(탈이온수 200 mL + 2.0 M 아세트산 완충액 1 mL, pH 4.9)에 희석액과 1% 테트라에틸붕산염 0.1 mL 첨가 → 15분 에틸화 후 질소 15분 퍼지로 Tenax 트랩 포집 → 질소로 9분 건조",
+    "standard": "인증표준물질 DOLT-5",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "101.6% (± 8.1%, n = 9, DOLT-5)"
+   },
+   "rationale": "메틸수은은 흡수율이 높고 반감기가 길어 생선 섭취 위해성의 핵심 형태이며, 일본 보건당국의 0.3 mg/kg 등 여러 규제 기준과 비교되었다[2]. 전문(Methods) 확인 — 칼럼·검출한계는 본문에 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0212410",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Arsenic (and Cr, Fe, Cu, Zn, Se, Cd, Sn, Sb, Pb)",
+   "compound_ko": "비소 등 10개 금속",
+   "part": "근육",
+   "content": "청상아리 비소 2.06 ± 1.07, 셀레늄 0.36 ± 0.09, 납 0.06 ± 0.02 mg/kg 습중량, 카드뮴은 검출한계 미만(n = 2)[2]",
+   "method": "ICP-MS",
+   "conditions": {
+    "instrument": "Agilent 770x ICP-MS (He 모드, 저매트릭스 조건, CeO/Ce 0.9%)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "유도결합플라즈마 질량분석",
+    "injection": "",
+    "sample_prep": "균질화한 습시료 약 0.1 g + HNO₃ 10 mL, 200 °C 2시간 분해 → 상온 냉각 → 탈이온수 희석(최종 무게로 희석배수 계산)",
+    "standard": "인증표준물질(VHG Labs) 0.1–100 ppb 검량",
+    "linearity": "Pearson r > 0.999",
+    "lod": "0.0001 mg/kg",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "비소는 이 연구의 상어 대부분에서 기준을 넘은 성분이어서 수은과 함께 상어고기 안전성 판단에 쓰였다[2]. 전문(Methods) 확인 — 회수율·정량한계는 본문에 없음[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0212410",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "살코기(근육)",
+   "basis": "100 g당, 총설 표 1(스페인 자료 정리, 청상아리 열)[3]",
+   "items": [
+    {
+     "name": "열량",
+     "value": 87,
+     "unit": "kcal"
+    },
+    {
+     "name": "수분",
+     "value": 76,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 20.7,
+     "unit": "g"
+    },
+    {
+     "name": "총지질",
+     "value": 4.4,
+     "unit": "g"
+    },
+    {
+     "name": "포화지방산",
+     "value": 1.27,
+     "unit": "g"
+    },
+    {
+     "name": "단일불포화지방산",
+     "value": 1.22,
+     "unit": "g"
+    },
+    {
+     "name": "다가불포화지방산",
+     "value": 1.3,
+     "unit": "g"
+    },
+    {
+     "name": "오메가-3 지방산",
+     "value": 0.795,
+     "unit": "g"
+    },
+    {
+     "name": "오메가-6 지방산",
+     "value": 0.02,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 0.21,
+     "unit": "g"
+    },
+    {
+     "name": "칼슘",
+     "value": 12,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 0.957,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 40,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 0.358,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 90,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 167,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 190,
+     "unit": "mg"
+    },
+    {
+     "name": "셀레늄",
+     "value": 28.5,
+     "unit": "μg"
+    },
+    {
+     "name": "티아민",
+     "value": 0.03,
+     "unit": "mg"
+    },
+    {
+     "name": "리보플래빈",
+     "value": 0.58,
+     "unit": "mg"
+    },
+    {
+     "name": "니아신 당량",
+     "value": 2.1,
+     "unit": "mg"
+    },
+    {
+     "name": "비타민 B12",
+     "value": 1.35,
+     "unit": "μg"
+    },
+    {
+     "name": "비타민 A(레티놀 당량)",
+     "value": 8.36,
+     "unit": "μg"
+    },
+    {
+     "name": "비타민 D",
+     "value": 8,
+     "unit": "μg"
+    }
+   ],
+   "source": [
+    3
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Isurus oxyrinchus 행(청상아리, Shortfin mako/Mako shark, 이명 생아리, 수산물, 부위 '-', 사용가능, 사용 조건 없음, 고시형 원료 원재료 목록 없음) 및 같은 원자료의 악상어과 행(백상아리·악상어·비악상어/Porbeagle) 대조(docs/materials/isurus-oxyrinchus/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Kim SW et al. Heavy metal accumulation in and food safety of shark meat from Jeju island, Republic of Korea. PLoS One 2019;14(3):e0212410 (PMC 전문 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0212410",
+   "publisher": "PLoS One, PMC6415793",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Chamorro F et al. Health Benefits of Oily Fish: Illustrated with Blue Shark (Prionace glauca), Shortfin Mako Shark (Isurus oxyrinchus), and Swordfish (Xiphias gladius). Nutrients 2023;15(23):4919 (PMC 전문 확인, 표 1·표 2)",
+   "url": "https://doi.org/10.3390/nu15234919",
+   "publisher": "Nutrients (MDPI), PMC10708079",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Bernard AM et al. Connections Across Open Water: A Bi-Organelle, Genomics-Scale Assessment of Atlantic-Wide Population Dynamics in a Pelagic, Endangered Apex Predator Shark (Isurus oxyrinchus). Evol Appl 2025;18(1):e70071 (PMC 전문 확인)",
+   "url": "https://doi.org/10.1111/eva.70071",
+   "publisher": "Evolutionary Applications, PMC11754249",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Wang YC et al. DNA mini-barcoding reveals the mislabeling rate of canned cat food in Taiwan. PeerJ 2024;12:e16833 (초록 확인)",
+   "url": "https://doi.org/10.7717/peerj.16833",
+   "publisher": "PeerJ, PMC10893872",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Tiktak GP et al. Genetic identification of three CITES-listed sharks using a paper-based Lab-on-a-Chip (LOC). PLoS One 2024;19(4):e0300383 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0300383",
+   "publisher": "PLoS One, PMC10994358",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "CITES CoP18(2019) 제안 42 — 청상아리(Isurus oxyrinchus)·긴지느러미청상아리(Isurus paucus) 부속서 II 등재, 2019년 11월 26일 발효(미국 대서양주해양수산위원회 2020년 2월 회의 발표자료에 적힌 날짜) — WebSearch 검색 결과 요약으로만 확인, cites.org 원문은 이 환경에서 열지 못함",
+   "url": "https://asmfc.org/wp-content/uploads/2025/02/CoastalSharksBoardPresentations_Feb2020.pdf",
+   "publisher": "Atlantic States Marine Fisheries Commission (WebSearch 요약)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Stanhope MJ et al. Genomes of endangered great hammerhead and shortfin mako sharks reveal historic population declines and high levels of inbreeding in great hammerhead. iScience 2022;26(1):105815 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.isci.2022.105815",
+   "publisher": "iScience, PMC9826928",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Mehlrose MR et al. Three complete mitochondrial genomes of shortfin mako sharks, Isurus oxyrinchus, from the Atlantic and Pacific Oceans. Mitochondrial DNA B Resour 2022;7(4):652-654 (초록 확인)",
+   "url": "https://doi.org/10.1080/23802359.2022.2060768",
+   "publisher": "Mitochondrial DNA Part B, PMC9009892",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Evidence of Genetic Continuity in the Shortfin Mako Shark (Isurus oxyrinchus) Between the Eastern Atlantic and Mediterranean Sea. Ecol Evol 2026;16(4):e73261 (초록 확인)",
+   "url": "https://doi.org/10.1002/ece3.73261",
+   "publisher": "Ecology and Evolution, PMC13053171",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "de Alencar Goyanna FA et al. Ecological drivers of mercury accumulation in oceanic apex predators: A human consumption advisory. Sci Total Environ 2025;970:178994 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2025.178994",
+   "publisher": "Science of the Total Environment",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Teffer AK et al. Trophic influences on mercury accumulation in top pelagic predators from offshore New England waters of the northwest Atlantic Ocean. Mar Environ Res 2014;101:124-134 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marenvres.2014.09.008",
+   "publisher": "Marine Environmental Research",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Biton-Porsmoguer S et al. Mercury in blue shark (Prionace glauca) and shortfin mako (Isurus oxyrinchus) from north-eastern Atlantic: Implication for fishery management. Mar Pollut Bull 2018;127:131-138 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2017.12.006",
+   "publisher": "Marine Pollution Bulletin",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "McKinney MA et al. Global versus local causes and health implications of high mercury concentrations in sharks from the east coast of South Africa. Sci Total Environ 2016;541:176-183 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2015.09.074",
+   "publisher": "Science of the Total Environment",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Pantoja-Echevarría LM et al. Risk assessment for shark consumers exposed to mercury, selenium and cadmium in Mexico. Mar Pollut Bull 2024;209(Pt B):117205 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2024.117205",
+   "publisher": "Marine Pollution Bulletin",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Goyanna FAA et al. Mercury in oceanic upper trophic level sharks and bony fishes - A systematic review. Environ Pollut 2023;318:120821 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.envpol.2022.120821",
+   "publisher": "Environmental Pollution",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "de Pinho JV et al. Metallic Makos: Metal and Metalloid Levels and Human Health Risks Arising from the Consumption of Shortfin Makos (Isurus oxyrinchus) from Southeastern Brazil. Biol Trace Elem Res 2025;203(10):5401-5415 (초록 확인)",
+   "url": "https://doi.org/10.1007/s12011-025-04572-7",
+   "publisher": "Biological Trace Element Research",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Saraiva BM et al. First insights into the shortfin mako shark (Isurus oxyrinchus) fine-scale swimming behaviour. R Soc Open Sci 2023;10(5):230012 (초록 확인)",
+   "url": "https://doi.org/10.1098/rsos.230012",
+   "publisher": "Royal Society Open Science, PMC10154923",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Costa FES et al. Aspects of the reproductive biology of the shortfin Mako, Isurus oxyrinchus (Elasmobranchii Lamnidae), in the southeastern region of Brazil. Braz J Biol 2002;62(2):239-248 (초록 확인)",
+   "url": "https://doi.org/10.1590/s1519-69842002000200007",
+   "publisher": "Brazilian Journal of Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Lyons K et al. Insights into the life history and ecology of a large shortfin mako shark Isurus oxyrinchus captured in southern California. J Fish Biol 2015;87(1):200-211 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.12709",
+   "publisher": "Journal of Fish Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Kinney MJ et al. Oxytetracycline age validation of an adult shortfin mako shark Isurus oxyrinchus after 6 years at liberty. J Fish Biol 2016;89(3):1828-1833 (초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.13044",
+   "publisher": "Journal of Fish Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Mucientes G et al. Discovery of a potential open ocean nursery for the endangered shortfin mako shark in a global fishing hotspot. Sci Rep 2025;15(1):2190 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-025-85572-4",
+   "publisher": "Scientific Reports, PMC11739380",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Mucientes G et al. Juvenile survival and movements of two threatened oceanic sharks in the North Atlantic Ocean inferred from tag-recovery data. Ecol Evol 2023;13(6):e10198 (초록 확인)",
+   "url": "https://doi.org/10.1002/ece3.10198",
+   "publisher": "Ecology and Evolution, PMC10283031",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Liu SYV et al. Accessing Multiple Paternity in the Shortfin Mako Shark (Isurus oxyrinchus). Zool Stud 2020;59:e49 (초록 확인)",
+   "url": "https://doi.org/10.6620/ZS.2020.59-49",
+   "publisher": "Zoological Studies, PMC7736774",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Fields AT et al. Species composition of the international shark fin trade assessed through a retail-market survey in Hong Kong. Conserv Biol 2018;32(2):376-389 (초록 확인)",
+   "url": "https://doi.org/10.1111/cobi.13043",
+   "publisher": "Conservation Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Cardeñosa D et al. Species composition of the largest shark fin retail-market in mainland China. Sci Rep 2020;10(1):12914 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-020-69555-1",
+   "publisher": "Scientific Reports, PMC7395743",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Liu SYV et al. DNA barcoding of shark meats identify species composition and CITES-listed species from the markets in Taiwan. PLoS One 2013;8(11):e79373 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0079373",
+   "publisher": "PLoS One, PMC3832526",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Marler H et al. Legacy and emerging flame retardants in sharks from the Western North Atlantic Ocean. Sci Total Environ 2022;829:154330 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2022.154330",
+   "publisher": "Science of the Total Environment",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Lyons K et al. Species-Specific Characteristics Influence Contaminant Accumulation Trajectories and Signatures Across Ontogeny in Three Pelagic Shark Species. Environ Sci Technol 2019;53(12):6997-7006 (초록 확인)",
+   "url": "https://doi.org/10.1021/acs.est.8b07355",
+   "publisher": "Environmental Science & Technology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Huynh HH et al. Demographic Analysis of Shortfin Mako Shark (Isurus oxyrinchus) in the South Pacific Ocean. Animals 2022;12(22):3229 (초록 확인)",
+   "url": "https://doi.org/10.3390/ani12223229",
+   "publisher": "Animals (MDPI), PMC9687030",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Liu KM et al. Estimating Finite Rate of Population Increase for Sharks Based on Vital Parameters. PLoS One 2015;10(11):e0143008 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0143008",
+   "publisher": "PLoS One, PMC4648575",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 제3. 2-21 알콕시글리세롤 함유 상어간유 — 원재료 '상어 간'(종 지정 없음), 고시형 원료 전체에서 청상아리·Isurus 원재료 여부 대조(로컬 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt)",
+   "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "식품의약품안전처 참고자료(최근 임신부의 참치 섭취로 인한 수은의 위해성 논란 관련) — 다랑어류·새치류·심해성 어류 메틸수은 1.0 ppm 관리, 2004–2008년 상어류 평균 메틸수은 0.28 ppm, 임산부·가임여성·수유모는 상어·황새치·참치 등을 주 1회 100 g 이하 권고 — WebSearch 검색 결과 요약으로만 확인, 원문은 이 환경에서 열지 못함(mfds.go.kr 접속 불가)",
+   "url": "https://www.mfds.go.kr/brd/m_100/view.do?seq=24909",
+   "publisher": "식품의약품안전처 (WebSearch 요약)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Clarke SC et al. Identification of shark species composition and proportion in the Hong Kong shark fin market based on molecular genetics and trade records. Conserv Biol 2006;20(1):201-211 (초록 확인)",
+   "url": "https://doi.org/10.1111/j.1523-1739.2005.00247.x",
+   "publisher": "Conservation Biology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Besnard L et al. Foraging depth depicts resource partitioning and contamination level in a pelagic shark assemblage: Insights from mercury stable isotopes. Environ Pollut 2021;283:117066 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.envpol.2021.117066",
+   "publisher": "Environmental Pollution",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

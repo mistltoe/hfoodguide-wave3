@@ -1,0 +1,272 @@
+"""rapana-venosa dossier.json 생성 스크립트 (도우미)."""
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+S = []  # sources
+
+
+def src(title, url, publisher, accessed=ACC):
+    S.append({"n": len(S) + 1, "title": title, "url": url, "publisher": publisher, "accessed": accessed})
+    return len(S)
+
+
+MFDS = src("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 피뿔고둥·피뿔고둥살 항목(원자료 I1020_20261013.json) 및 국립생물자원관 연결 자료",
+           "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13")
+MARI = src("Valorization of the Invasive Gastropod Rapana venosa Through Cold Marination and Vacuum Packaging: Quality Characteristics and Shelf-Life Assessment Under Refrigerated Storage. Food Sci Nutr 2026;14(7):e72104",
+           "https://doi.org/10.1002/fsn3.72104", "Food Science & Nutrition (Wiley), PMC13351606")
+VISC = src("Valorization of Rapana venosa Viscera Through Enzymatic Production of Protein Hydrolysates. Scientifica 2026:8589143",
+           "https://doi.org/10.1155/sci5/8589143", "Scientifica (Wiley/Hindawi), PMC13239541")
+GEN = src("Chromosome-level genome assembly of the caenogastropod snail Rapana venosa. Sci Data 2023;10:539",
+          "https://doi.org/10.1038/s41597-023-02459-7", "Scientific Data, PMC10432487")
+MONO = src("Genetically monomorphic invasive populations of the rapa whelk, Rapana venosa. Mol Ecol 2008;17(18):4079-91",
+           "https://doi.org/10.1111/j.1365-294x.2008.03897.x", "Molecular Ecology (PubMed 19238707)")
+SAL = src("Salinity tolerance of larval Rapana venosa: implications for dispersal and establishment of an invading predatory gastropod on the North American Atlantic coast. Biol Bull 2003;204(1):96-103",
+          "https://doi.org/10.2307/1543499", "The Biological Bulletin (PubMed 12588748)")
+SPAT = src("Spatial Patterns of the Marine Alien Gastropod Rapana venosa Invasion Across the Black Sea, Mediterranean, and Atlantic Europe. Biology 2026;15(13):1012",
+           "https://doi.org/10.3390/biology15131012", "Biology (MDPI), PMC13359707")
+OLF = src("Identification and characterization of olfactory receptor genes and olfactory perception in rapa whelk Rapana venosa during larval settlement and metamorphosis. Gene 2022;825:146403",
+          "https://doi.org/10.1016/j.gene.2022.146403", "Gene (PubMed 35306113)")
+META = src("Symbiotic microbiome and metabolism profiles reveal the effects of induction by oysters on the metamorphosis of the carnivorous gastropod Rapana venosa. Comput Struct Biotechnol J 2021;20:1-14",
+           "https://doi.org/10.1016/j.csbj.2021.11.041", "Computational and Structural Biotechnology Journal, PMC8666614")
+PSP_JP = src("PSP-toxicification of the carnivorous gastropod Rapana venosa inhabiting the estuary of Nikoh River, Hiroshima Bay, Japan. Mar Pollut Bull 2004;48(11-12):1116-21",
+             "https://doi.org/10.1016/j.marpolbul.2003.12.020", "Marine Pollution Bulletin (PubMed 15172817)")
+PSP_CN = src("Occurrence and spatial distribution of paralytic shellfish toxins in seawater and marine organisms in the coastal waters of Qinhuangdao, China. Chemosphere 2023;315:137746",
+             "https://doi.org/10.1016/j.chemosphere.2023.137746", "Chemosphere (PubMed 36608885)")
+LIPO = src("First detection and seasonal variation of lipophilic toxins okadaic acid, dinophysistoxin-1, and yessotoxin in Korean gastropods. J Food Prot 2012;75(11):2000-6",
+           "https://doi.org/10.4315/0362-028X.JFP-12-192", "Journal of Food Protection (PubMed 23127709)")
+TTX = src("Survey of Tetrodotoxins (TTXs) in Gastropods, Sea Urchins, and Blue Crabs from the Adriatic Sea. Foods 2025;14(23):4036",
+          "https://doi.org/10.3390/foods14234036", "Foods (MDPI), PMC12691885")
+TM16 = src("[Tetramine Contents in the Salivary Glands from 16 Species of Marine Carnivorous Gastropods Collected along Japanese Coasts]. Shokuhin Eiseigaku Zasshi 2021;62(6):203-208 (초록만 확인)",
+           "https://doi.org/10.3358/shokueishi.62.203", "Journal of the Food Hygienic Society of Japan (PubMed 34955471)")
+TM_KR = src("Identification of tetramine, a toxin in whelks, as the cause of a poisoning incident in Korea and the distribution of tetramine in fresh and boiled whelk (Neptunea intersculpta). J Food Prot 2009;72(9):1935-40",
+            "https://doi.org/10.4315/0362-028x-72.9.1935", "Journal of Food Protection (PubMed 19777897)")
+TM_SEAS = src("Seasonal variation in tetramine content in Korean marine gastropods Neptunea arthritica and Neptunea eulimata. Toxicon 2025;262:108379",
+              "https://doi.org/10.1016/j.toxicon.2025.108379", "Toxicon (PubMed 40316001)")
+TM29 = src("[Toxicity and tetramine contents of salivary glands from carnivorous gastropods]. Shokuhin Eiseigaku Zasshi 2002;43(6):385-8 (초록만 확인)",
+           "https://doi.org/10.3358/shokueishi.43.385", "Journal of the Food Hygienic Society of Japan (PubMed 12635343)")
+TM_LC = src("Determination of tetramine in marine gastropods by liquid chromatography/electrospray ionization-mass spectrometry. Toxicon 2004;44(2):185-91",
+            "https://doi.org/10.1016/j.toxicon.2004.05.020", "Toxicon (PubMed 15246768)")
+CASE_PD = src("Critical Tetramine Poisoning after Sea Snail Ingestion in a Patient on Peritoneal Dialysis: A Case Report. Medicina 2021;57(6):564",
+              "https://doi.org/10.3390/medicina57060564", "Medicina (MDPI), PMC8229806")
+CASE_MG = src("Respiratory Paralysis in a Patient with Myasthenia Gravis after Ingestion of Marine Carnivorous Gastropods. Intern Med 2024;64(1):157-160",
+              "https://doi.org/10.2169/internalmedicine.2828-23", "Internal Medicine (Japan), PMC11781920")
+PM1 = src("Purification, Characterization, and Three-Dimensional Structure Prediction of Paramyosin, a Novel Allergen of Rapana venosa. J Agric Food Chem 2020;68(49):14632-14642",
+          "https://doi.org/10.1021/acs.jafc.0c04418", "Journal of Agricultural and Food Chemistry (PubMed 33175512)")
+PM2 = src("Identification and Amino Acid Analysis of Allergenic Epitopes of a Novel Allergen Paramyosin (Rap v 2) from Rapana venosa. J Agric Food Chem 2021;69(18):5381-5391",
+          "https://doi.org/10.1021/acs.jafc.1c00775", "Journal of Agricultural and Food Chemistry (PubMed 33929822)")
+TE_SIN = src("Trace elements in edible tissues of the veined rapa whelk (Rapana venosa) in the southern Black Sea, Türkiye: sex, monthly, and age variations and human consumer health risk. Environ Sci Pollut Res 2022;30(7):17384-17396",
+             "https://doi.org/10.1007/s11356-022-23297-x", "Environmental Science and Pollution Research (PubMed 36194334)")
+PTE_TR = src("Hazard Analysis and Human Health Risk Assessment in the Mytilus galloprovincialis and Rapana venosa Species in the Black Sea's Türkiye Coastline by Multivariate Analysis. Biol Trace Elem Res 2024;203(8):4347-4360",
+             "https://doi.org/10.1007/s12011-024-04482-0", "Biological Trace Element Research (PubMed 39690364)")
+BOHAI = src("Long-term investigation of heavy metal variations in mollusks along the Chinese Bohai Sea. Ecotoxicol Environ Saf 2022;236:113443",
+            "https://doi.org/10.1016/j.ecoenv.2022.113443", "Ecotoxicology and Environmental Safety (PubMed 35364504)")
+PEP_BC = src("Marine-derived peptides from Rapana venosa inhibit breast cancer cell growth through synergistic mechanisms with doxorubicin. Sci Rep 2025;15:32451",
+             "https://doi.org/10.1038/s41598-025-18052-4", "Scientific Reports, PMC12432159")
+PEP_IBD = src("The Peptide LLTRAGL Derived from Rapana venosa Exerts Protective Effect against Inflammatory Bowel Disease in Zebrafish Model by Regulating Multi-Pathways. Mar Drugs 2024;22(3):100",
+              "https://doi.org/10.3390/md22030100", "Marine Drugs, PMC10972007")
+HCY = src("Hemocyanins of Muricidae: New 'Insights' Unravel an Additional Highly Hydrophilic 800 kDa Mass Within the Molecule. J Mol Evol 2021;89(1-2):62-72",
+          "https://doi.org/10.1007/s00239-020-09986-6", "Journal of Molecular Evolution, PMC7884596")
+HEMO = src("Antitumor Activity of Bioactive Compounds from Rapana venosa against Human Breast Cell Lines. Pharmaceuticals 2023;16(2):181",
+           "https://doi.org/10.3390/ph16020181", "Pharmaceuticals (MDPI), PMC9959655")
+THERM = src("Metabolic trade-offs shape acute thermal responses in the marine predator Rapana venosa. Mar Environ Res 2026;220:108249",
+            "https://doi.org/10.1016/j.marenvres.2026.108249", "Marine Environmental Research (PubMed 42419057)")
+SHELL = src("Calcium Acetate Drug Produced from Rapana venosa Invasive Gastropod Shells: Green Process Control Assisted by Raman Technology. ACS Omega 2024;9(35):37086-37093",
+            "https://doi.org/10.1021/acsomega.4c04138", "ACS Omega, PMC11375701")
+EGG = src("Micromorphological details and identification of chitinous wall structures in Rapana venosa (Gastropoda, Mollusca) egg capsules. Sci Rep 2020;10:14550",
+          "https://doi.org/10.1038/s41598-020-71348-5", "Scientific Reports, PMC7471954")
+WIND = src("Ecological impacts and sustainable development of offshore wind farm pile foundations in the Bodhi Island area. Mar Environ Res 2025;213:107615",
+           "https://doi.org/10.1016/j.marenvres.2025.107615", "Marine Environmental Research (PubMed 41092783)")
+META2 = src("Molecular response and developmental speculations in metamorphosis of the veined rapa whelk, Rapana venosa. Integr Zool 2022;18(3):506-517",
+            "https://doi.org/10.1111/1749-4877.12675", "Integrative Zoology (PubMed 36063563)")
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body": (
+        f"피뿔고둥(Rapana venosa)은 뿔소라과(Muricidae)에 드는 육식성 바다 고둥으로, 식약처 「식품원료 목록」에는 '피뿔고둥'과 '피뿔고둥살' 두 원료명으로 올라 있다[{MFDS}]. "
+        f"두 항목 모두 수산물로 분류되어 상태는 '사용가능'이며 별도의 사용 조건은 적혀 있지 않다[{MFDS}]. "
+        f"사용 부위는 '피뿔고둥'이 '-'(따로 정하지 않음), '피뿔고둥살'이 원문 그대로 '죽순'으로 적혀 있다[{MFDS}]. "
+        f"같은 목록에서 부위가 '죽순'인 96행은 모두 대구살·바지락살·소라살·곱창처럼 동물의 살이나 그 가공품이어서, 이 값은 실제 죽순이 아니라 살(근육)을 가리키는 부위 코드의 표기로 보이지만 식약처의 공식 설명은 확인하지 못함. "
+        f"목록의 별칭은 두드럭고둥·참고둥이고 영문명은 Purple whelk, Thomas's rapa whelk이다[{MFDS}].\n\n"
+        f"원산지는 중국·한국·일본 연안이며, 1940년대 이후 흑해·지중해·미국 체서피크만 등으로 퍼진 대표적 해양 외래종이기도 하다[{MONO}]. "
+        f"흑해 연안국에서는 잡아서 한국·중국 등으로 수출하는 상업 자원이다[{MARI}, {VISC}]. "
+        f"건강기능식품 고시형 원료의 원재료가 아니어서 식약처가 정한 지표성분은 없다[{MFDS}].")},
+    {"key": "history", "title": "이용 역사", "body": (
+        f"피뿔고둥은 중국·한국·일본 연안의 토착종으로[{MONO}], 중국에서는 경제적으로 중요한 수산 자원으로 소개된다[{OLF}]. "
+        f"국내에서도 통영 수산시장에서 피뿔고둥 65개체를 사들여 패독을 조사한 연구가 있을 만큼 시장에 유통된다[{LIPO}]. "
+        f"국내 이용의 구체적 역사를 적은 공공기관 자료는 확인하지 못함.\n\n"
+        f"이 종은 1940년대부터 세계 여러 바다로 옮겨져 흑해, 지중해의 아드리아해·에게해, 프랑스·네덜란드 연안, 미국 체서피크만, 우루과이·아르헨티나의 라플라타강 하구에 정착했다[{MONO}]. "
+        f"흑해에는 일본해의 굴을 양식용으로 옮길 때 유생이나 어린 개체가 함께 들어온 것으로 보이며, 1959–1972년 사이 불가리아·튀르키예·루마니아 연안으로 퍼졌다[{MARI}, {VISC}]. "
+        f"유전 분석 결과는 흑해에 먼저 들어온 집단이 다른 침입 지역의 공급원이 되었다는 가설과 맞았다[{MONO}].\n\n"
+        f"튀르키예에서는 고둥을 먹는 전통이 없어 국내 소비는 거의 없고, 공장에서 냉동 가공해 일본·한국·대만·중국 등으로 수출한다[{VISC}]. "
+        f"2025년 1–9월 튀르키예 수출의 최대 시장은 한국이었다[{MARI}].")},
+    {"key": "biology", "title": "종·형태·생태", "body": (
+        f"피뿔고둥은 뿔소라과(Muricidae)의 육식성 복족류로, 주로 홍합 같은 이매패류를 잡아먹는다[{MARI}, {MONO}]. "
+        f"흑해 집단의 산란기는 6월에서 8월 초까지로 보고되었다[{MARI}]. "
+        f"알은 키틴 계열 물질(키토산)이 든 여러 겹의 단단한 알주머니에 낳으며, 이 구조가 물살과 부착생물에 견디게 한다[{EGG}].\n\n"
+        f"유생은 플랑크톤으로 떠다니며 식물성 먹이를 먹다가 바닥에 내려앉아 변태한 뒤 육식성으로 바뀐다[{OLF}]. "
+        f"껍데기 길이 1000–1500 μm의 J4 단계 유생만 굴 냄새가 있을 때 적극적으로 착저·변태했고, 자연 상태의 착저·변태율은 1% 미만으로 낮다[{OLF}]. "
+        f"어린 굴이 있어야 변태가 유도되며, 이때 소화 효소와 신경내분비 관련 유전자 발현이 바뀐다[{META}]. "
+        f"유생은 염분 15 ppt까지는 48시간 동안 거의 죽지 않았으나 7 ppt에서는 생존율이 크게 낮았다[{SAL}].\n\n"
+        f"성체의 표준 대사율은 29 ℃에서 가장 높고 그보다 높은 온도에서 급히 떨어졌으며, 35 ℃를 넘으면 생리 기능이 무너졌다[{THERM}]. "
+        f"유럽 침입 지역에서는 강 하구처럼 염분이 낮고 영양염이 많은 곳에 집단이 몰려 있다[{SPAT}].")},
+    {"key": "related_species", "title": "관련 종·이름", "body": (
+        f"식품원료 목록은 피뿔고둥의 별칭으로 두드럭고둥·참고둥을 적었는데, 같은 목록에는 학명이 다른 Reishia bronni가 '두드럭고둥'이라는 대표 원료명으로 따로 올라 있다[{MFDS}]. "
+        f"따라서 '두드럭고둥'이라는 이름만으로는 두 종을 구별할 수 없고 학명을 함께 확인해야 한다[{MFDS}]. "
+        f"소라(Turbo cornutus)의 별칭에도 '고둥'·'골뱅이'가 들어 있어 시장 이름이 겹친다[{MFDS}].\n\n"
+        f"침샘에 신경독 테트라민이 많은 고둥은 주로 물레고둥과(Buccinidae)의 매물고둥속(Neptunea)이며, 국내 식중독 원인으로 확인된 종도 조각매물고둥(N. intersculpta)이었다[{TM_KR}, {TM29}]. "
+        f"피뿔고둥은 이들과 과가 다른 뿔소라과에 속한다[{MFDS}, {TM16}]. "
+        f"일본 연안 16종 조사에는 뿔소라과도 포함되었지만 초록에 고농도 종으로 이름이 나온 것은 매물고둥속과 Fusitriton·Hemifusus 등이었다[{TM16}].\n\n"
+        f"같은 뿔소라과의 Nucella lapillus도 피뿔고둥과 같은 독특한 헤모시아닌 소단위 구조를 지녀, 이것이 뿔소라과의 공통 특징으로 정의되었다[{HCY}]. "
+        f"영어로는 rapa whelk, veined rapa whelk라고 부른다[{MONO}, {MARI}].")},
+    {"key": "cultivation", "title": "어획·자원", "body": (
+        f"튀르키예 흑해 연안에서는 주로 형망(드레지)과 잠수로 피뿔고둥을 잡는다[{VISC}]. "
+        f"원문은 튀르키예의 연간 어획량을 약 10,000–13,000 t으로 추정했고, 전체 무게 가운데 먹는 살은 15–20%뿐이라고 적었다[{VISC}]. "
+        f"이 추정에 따르면 해마다 껍데기 약 8,000–11,000 t과 내장 약 500–1,300 t이 부산물로 나온다[{VISC}].\n\n"
+        f"원산지인 중국에서는 경제적으로 중요한 수산 자원이지만 유생의 착저·변태율이 낮아 자원량이 제한되므로, 착저 유도 연구가 종묘 생산과 자원 관리에 쓰일 수 있다고 보았다[{OLF}, {META}]. "
+        f"중국 보하이 연안의 해상풍력 단지 조사에서는 하부 구조물 주변이 피뿔고둥과 굴 같은 경제종을 많이 수용할 수 있는 것으로 평가되었다[{WIND}].\n\n"
+        f"국내 피뿔고둥의 연도별 어획·양식 생산 통계는 공식 자료에서 확인하지 못함. "
+        f"지리적 표시 등록 현황 자료(gi.json)에도 이 종 항목이 없어 지리적 표시 정보는 확인하지 못함.")},
+    {"key": "processing", "title": "가공·이용 연구", "body": (
+        f"튀르키예 가공장에서는 잡은 피뿔고둥을 100 ℃ 물에 3분 삶아 껍데기를 떼고, 씻고, 크기별로 골라 무게를 단다[{MARI}]. "
+        f"이렇게 얻은 살 한 개는 약 20–40 g이었고, 삶은 살에 식초산 3.8–3.9%와 소금 5% 또는 8%로 냉절임한 뒤 해바라기유와 함께 진공포장하면 4 ℃에서 11개월 동안 세균이 검출 한계(10 cfu/g) 아래로 유지되었다[{MARI}]. "
+        f"다만 해바라기유가 스며들어 EPA·DHA 비율은 거의 사라지고 리놀레산이 약 56%를 차지했다[{MARI}].\n\n"
+        f"버려지던 내장은 효소(알칼레이스)로 분해해 단백질 가수분해물로 만드는 연구가 있으며, 필수아미노산이 전체 아미노산의 52.4%였지만 카드뮴이 높아 정제가 필요하다고 지적되었다[{VISC}]. "
+        f"껍데기는 식초산으로 녹여 아세트산칼슘을 만드는 원료로 연구되었고 수율은 최대 87.5%였다[{SHELL}].\n\n"
+        f"살을 효소로 분해한 펩타이드 분획이 유방암 세포에 선택적 독성을 보였다는 세포 실험과, 합성 펩타이드 LLTRAGL이 제브라피시 장염 모델에서 염증을 줄였다는 동물 실험이 보고되었다[{PEP_BC}, {PEP_IBD}]. "
+        f"이들은 사람 대상 연구가 아니다[{PEP_BC}, {PEP_IBD}].")},
+    {"key": "genetics", "title": "유전 정보", "body": (
+        f"PacBio·Illumina 서열과 Hi-C 자료로 조립한 피뿔고둥의 염색체 수준 유전체는 2.30 Gb이고, 35개 염색체에 고정되었으며 스캐폴드 N50은 64.63 Mb이다[{GEN}]. "
+        f"단백질 암호 유전자는 29,649개로 그 가운데 77.22%가 기능 주석을 얻었다[{GEN}]. "
+        f"이형접합도가 1.41%, 반복 서열이 57.72%로 높아 조립이 매우 어려운 유전체로 평가되었다[{GEN}].\n\n"
+        f"미토콘드리아 COI와 ND2 유전자를 원산지 8곳 178개체와 침입지 12곳 106개체에서 비교한 결과, 원산지는 유전 변이가 매우 컸지만 침입 집단은 모두 같은 하나의 일배체형만 지녔다[{MONO}]. "
+        f"유생 착저·변태 연구에서는 후각 수용체 유전자 463개가 확인되어 9개 계통으로 나뉘었다[{OLF}]. "
+        f"변태 과정의 전사체 분석에서는 변태 48시간 무렵 아연 금속단백분해효소와 코노톡신 유사 유전자 발현이 늘어 사냥 기관이 갖춰지는 것으로 해석되었다[{META2}].\n\n"
+        f"피뿔고둥 헤모시아닌의 한 소단위는 300 kDa과 100 kDa 두 폴리펩타이드로 이루어지는데, 둘 다 한 유전자에서 만들어진다[{HCY}]. "
+        f"이 소단위에는 다른 연체동물 헤모시아닌에 없는 친수성 아미노산 340개 구간이 더 있다[{HCY}].")},
+    {"key": "safety", "title": "안전성", "body": (
+        f"식약처 「식품원료 목록」에서 피뿔고둥과 피뿔고둥살은 별도 조건 없는 '사용가능' 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[{MFDS}]. "
+        f"이 종을 따로 다룬 국내 공공기관의 알레르기·패독 안전 정보는 확인하지 못함.\n\n"
+        f"육식성 바다 고둥의 침샘에는 신경독 테트라민이 있어 대개 가벼운 중독을 일으키나, 신장질환·중증근무력증 환자에게는 호흡부전까지 올 수 있다[{CASE_MG}, {CASE_PD}, {TM_SEAS}]. "
+        f"국내에서는 2005년 조각매물고둥을 먹은 17명이 눈 통증·두통·어지럼·복통을 겪었고 원인 물질이 테트라민으로 확인되었다[{TM_KR}]. "
+        f"그러나 피뿔고둥 침샘의 테트라민 함량을 정량한 자료는 PubMed에서 확인하지 못함. "
+        f"일본 연안 16종 조사도 초록에 이 종의 값이 없고 고위험 종으로 매물고둥속 등을 꼽았다[{TM16}]. "
+        f"테트라민은 껍데기째 삶거나 천천히 녹이면 살로 퍼지므로, 침샘을 떼어 낸 뒤 삶도록 권고된다[{TM_KR}, {TM_LC}].\n\n"
+        f"히로시마만 개체 내장에서 마비성 패독이 최대 11.4 MU/g, 통영 시장 개체 중장선에서 오카다산이 최대 21.5 ng/g(유럽 기준 이하) 나왔다[{PSP_JP}, {LIPO}]. "
+        f"아드리아해 조사에서는 이 종을 포함한 고둥 104시료 모두 테트로도톡신이 검출 한계(3 μg/kg) 미만이었다[{TTX}]. "
+        f"근육 단백질 파라미오신(Rap v 2)은 고둥 알레르기 환자 혈청의 IgE와 결합하는 알레르겐이다[{PM1}, {PM2}]. "
+        f"흑해 시노프산 살의 중금속은 기준 이하였지만 튀르키예 8개 도시 조사에서는 카드뮴 위해지수가 1을 넘었고, 중국 보하이 조사에서 이 종은 비소를 잘 쌓는 종으로 분류되었다[{TE_SIN}, {PTE_TR}, {BOHAI}].")},
+]
+
+compounds = [
+    {"name": "Tetramethylammonium", "name_ko": "테트라민(테트라메틸암모늄)", "class": "4급 암모늄 이온(신경독)", "role": "bioactive", "part": "침샘",
+     "content_text": "이 종(피뿔고둥)의 함량은 확인하지 못함; 참고로 국내 근연 매물고둥류 침샘 568.10–7762.16 mg/kg(Neptunea arthritica·N. eulimata, 2023–2024 월별)",
+     "activity_ko": f"침샘에 있는 신경독으로 섭취 시 눈 통증·두통·어지럼 등을 일으키며 신장질환자·중증근무력증 환자에게 위중할 수 있다[{TM_KR}, {TM_SEAS}, {CASE_PD}, {CASE_MG}]",
+     "source": [TM16, TM_KR, TM_SEAS]},
+    {"name": "Docosahexaenoic acid", "name_ko": "DHA", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "살(가공장에서 3분 삶은 살)",
+     "content_text": "총지방산의 19.26% (흑해산, 절임 전 원료 살); 같은 연구진의 살 분석도 19.26%",
+     "activity_ko": f"살 지방산 가운데 가장 많은 고도불포화지방산이다[{MARI}, {VISC}]", "source": [MARI, VISC]},
+    {"name": "Eicosapentaenoic acid", "name_ko": "EPA", "class": "n-3 고도불포화지방산", "role": "nutrient", "part": "살(삶은 살)",
+     "content_text": "총지방산의 6.07% (절임 전 원료 살) / 6.06% (살, 내장 비교 연구); 내장은 4.56%",
+     "activity_ko": f"DHA와 함께 n-3 지방산 합계 26.23%를 이룬다[{MARI}]", "source": [MARI, VISC]},
+    {"name": "Arachidonic acid", "name_ko": "아라키돈산", "class": "n-6 고도불포화지방산", "role": "nutrient", "part": "살(삶은 살)",
+     "content_text": "총지방산의 10.08%",
+     "activity_ko": f"원료 살 n-6 지방산(합계 13.09%)의 대부분을 차지했다[{MARI}]", "source": [MARI]},
+    {"name": "Eicosenoic acid", "name_ko": "에이코센산(C20:1)", "class": "단일불포화지방산", "role": "nutrient", "part": "살(삶은 살)",
+     "content_text": "총지방산의 8.57% (원료 살); 내장은 C20:1n-9 13.39%",
+     "activity_ko": f"살의 단일불포화지방산 가운데 가장 많았다[{MARI}, {VISC}]", "source": [MARI, VISC]},
+    {"name": "Palmitic acid", "name_ko": "팔미트산", "class": "포화지방산", "role": "nutrient", "part": "살·내장",
+     "content_text": "살 총지방산의 8.86%, 내장 13.69%",
+     "activity_ko": f"살과 내장 모두에서 가장 많은 포화지방산이었다[{VISC}]", "source": [MARI, VISC]},
+    {"name": "Glutamic acid", "name_ko": "글루탐산", "class": "아미노산", "role": "nutrient", "part": "내장 단백질 가수분해물(동결건조)",
+     "content_text": "총아미노산 2626.415 mg/1000 g, 유리아미노산 586.36 mg/1000 g",
+     "activity_ko": f"맛을 돋우는 아미노산으로 가수분해물 유리아미노산 가운데 가장 많았다[{VISC}]", "source": [VISC]},
+    {"name": "Lysine", "name_ko": "라이신", "class": "필수아미노산", "role": "nutrient", "part": "내장 단백질 가수분해물(동결건조)",
+     "content_text": "총아미노산 2485.76 mg/1000 g, 유리아미노산 243.70 mg/1000 g",
+     "activity_ko": f"곡류 식사에서 부족하기 쉬운 필수아미노산으로 보완 단백질 원료 가능성이 언급되었다[{VISC}]", "source": [VISC]},
+    {"name": "Phenylalanine", "name_ko": "페닐알라닌", "class": "필수아미노산", "role": "nutrient", "part": "내장 단백질 가수분해물(동결건조)",
+     "content_text": "총아미노산 2860.39 mg/1000 g, 유리아미노산 380.31 mg/1000 g",
+     "activity_ko": f"가수분해물 필수아미노산(총아미노산의 52.4%) 가운데 가장 많았다[{VISC}]", "source": [VISC]},
+    {"name": "Tetrodotoxin", "name_ko": "테트로도톡신", "class": "구아니디늄 신경독", "role": "bioactive", "part": "연체부 전체(중장선·생식소 포함)",
+     "content_text": "아드리아해 2023–2025 조사에서 이 종을 포함한 고둥 104시료 모두 검출 한계(3 μg/kg) 미만; 생물자원 DB(LOTUS) 후보 성분으로 1건 보고됨",
+     "activity_ko": f"전압 개폐 나트륨 통로를 막는 맹독으로, 다른 고둥에서는 식중독 원인이 된다[{TTX}]", "source": [TTX, MFDS]},
+    {"name": "Saxitoxin", "name_ko": "삭시톡신(마비성 패독, GTX2·GTX3 포함)", "class": "마비성 패독", "role": "bioactive", "part": "내장",
+     "content_text": "히로시마만 개체 최대 4.2 MU/g(2001년 5월), 11.4 MU/g(2002년 4월); GTX3·GTX2·STX가 전체의 약 91 mol%",
+     "activity_ko": f"먹이인 조개를 통해 쌓이는 마비성 패독이다[{PSP_JP}]; 친황다오 조사에서도 낮은 수준이 검출되었다[{PSP_CN}]", "source": [PSP_JP, PSP_CN]},
+    {"name": "Okadaic acid", "name_ko": "오카다산", "class": "설사성 패독(지용성)", "role": "bioactive", "part": "중장선(소화샘)",
+     "content_text": "최대 21.5 ng/g (통영 수산시장, 2009–2010); 같은 부위 DTX1 최대 8.4 ng/g; 침샘에서는 불검출",
+     "activity_ko": f"설사성 패독 성분으로, 검출 최대치는 유럽 허용 기준보다 낮았다[{LIPO}]", "source": [LIPO]},
+    {"name": "Paramyosin", "name_ko": "파라미오신(Rap v 2)", "class": "근육 단백질(알레르겐)", "role": "bioactive", "part": "살(근육)",
+     "content_text": "분자량 99 kDa, 859개 아미노산; 함량 수치 확인하지 못함",
+     "activity_ko": f"고둥 알레르기 환자 IgE와 결합하며 가열하면 결합력이 줄었고, 알레르기 항원결정기 7개가 확인되었다[{PM1}, {PM2}]", "source": [PM1, PM2]},
+    {"name": "Hemocyanin", "name_ko": "헤모시아닌(RvH)", "class": "구리 함유 당단백질", "role": "bioactive", "part": "혈림프",
+     "content_text": "함량 수치 확인하지 못함; 50–100 kDa 혈림프 분획에서 헤모시아닌 50 kDa 기능 단위 등 확인",
+     "activity_ko": f"혈림프 분획이 유방암 세포주에서 항종양 활성을 보였다는 세포 실험이 있다[{HEMO}, {HCY}]", "source": [HEMO, HCY]},
+]
+
+nutrients = [
+    {"form": "살(가공장에서 삶은 뒤 껍데기를 뗀 살, 흑해산)", "basis": "100 g 당(원문 % 값)",
+     "items": [{"name": "수분", "value": 73.00, "unit": "g"}, {"name": "단백질", "value": 20.12, "unit": "g"},
+               {"name": "지방", "value": 0.98, "unit": "g"}, {"name": "회분", "value": 2.07, "unit": "g"}],
+     "source": [VISC]},
+    {"form": "내장(삶은 개체에서 분리)", "basis": "100 g 당(원문 % 값)",
+     "items": [{"name": "수분", "value": 71.54, "unit": "g"}, {"name": "단백질", "value": 22.61, "unit": "g"},
+               {"name": "지방", "value": 2.87, "unit": "g"}, {"name": "회분", "value": 2.95, "unit": "g"}],
+     "source": [VISC]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Fatty acids (EPA, DHA)", "compound_ko": "지방산(EPA·DHA)", "part": "살(가공장에서 100 ℃ 3분 삶은 살)",
+     "content": f"원료 살 총지방산 중 DHA 19.26%, EPA 6.07%, 아라키돈산 10.08%, n-3 합계 26.23% [{MARI}]",
+     "method": "GC-FID (지방산 메틸에스터)",
+     "conditions": {"instrument": "Agilent Technologies GC-FID", "column": "TR-CN100 캐필러리 칼럼, 100 m × 0.25 mm i.d., 0.20 μm 막두께 (Teknokroma)",
+                    "mobile_phase": "운반기체 헬륨", "gradient": "오븐 140 ℃(5분 유지) → 4 ℃/min으로 240 ℃ → 240 ℃ 20분 유지",
+                    "flow": "1 mL/min (정유량)", "temp": "주입구·검출기 250 ℃", "detection": "불꽃이온화검출기(FID)",
+                    "injection": "1 μL, 분할 주입 100:1", "sample_prep": "2% H2SO4 메탄올로 산 촉매 에스터교환하여 FAME 제조",
+                    "standard": "Supelco 37 Component FAME Mix (머무름 시간 비교)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": f"이 종 살의 영양 품질과 가공(절임)에 따른 변화를 비교하는 지표로 쓰였다. 결과는 확인된 지방산 합에 대한 면적 %이며 정량 검량·검출한계는 원문에 없다[{MARI}].",
+     "source": [MARI], "url": "https://doi.org/10.1002/fsn3.72104", "source_kind": "paper"},
+    {"role": "literature", "compound": "Tetrodotoxin and analogues", "compound_ko": "테트로도톡신(유사체 9종)", "part": "연체부 전체(중장선·생식소 포함, 100–150 g 풀링)",
+     "content": f"이 종을 포함한 고둥 8개 종·속 104시료 모두 검출 한계 미만(<3 μg/kg) [{TTX}]",
+     "method": "HILIC-MS/MS (EURLMB SOP 기반)",
+     "conditions": {"instrument": "Waters ACQUITY I-Class – Xevo TQ-S micro IVD, ESI 양이온 모드", "column": "",
+                    "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "MRM, 유사체당 전이 2개(9개 유사체)",
+                    "injection": "",
+                    "sample_prep": "균질물 5.0 g + 1% 아세트산 3 mL, 2분 혼합 후 끓는 물 5분, 3220×g 10분 원심, 잔사 재추출 후 10 mL로 정용; 상등액 1 mL에 수산화암모늄 5 μL, 10,000×g 1분 원심; 0.25% 아세트산 함유 80% 아세토니트릴로 1:2 희석, 0.2 μm 여과",
+                    "standard": "CIFGA CRM-03-TTXs (TTX 25.9 ± 1.3 μg/g, 4,9-anhydroTTX 2.99 ± 0.16 μg/g), 매트릭스 일치 검량",
+                    "linearity": "7점 매트릭스 일치 검량 0–64.75 ng/mL", "lod": "3 μg/kg", "loq": "8 μg/kg",
+                    "recovery": "고둥·극피동물 76 ± 18% (8 μg/kg), 92 ± 20% (22 μg/kg)"},
+     "rationale": f"식품원료 카드의 후보 성분(테트로도톡신)을 이 종에서 실제로 측정한 자료다. EFSA가 고둥 자료를 요청한 신흥 위해 독소여서 감시 지표로 쓰였다. 칼럼·이동상 조건은 원문 표에 있다고 적혀 있으나 본문에서 확인하지 못했다[{TTX}].",
+     "source": [TTX], "url": "https://doi.org/10.3390/foods14234036", "source_kind": "paper"},
+    {"role": "literature", "compound": "Paralytic shellfish toxins (GTX3, GTX2, STX, C1, C2)", "compound_ko": "마비성 패독", "part": "내장",
+     "content": f"최대 4.2 MU/g(2001년 5월), 11.4 MU/g(2002년 4월); 개체당 224·206 MU [{PSP_JP}]",
+     "method": "마우스 생물검정 + HPLC",
+     "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+                    "sample_prep": "내장을 아세트산 산성 80% 에탄올로 추출, 디클로로메탄 탈지, 활성탄 처리 후 Sep-Pak C18 비흡착 분획 분석(초록)",
+                    "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": f"이 종이 먹이 조개를 통해 마비성 패독을 쌓는지 확인하는 지표로 쓰였다. 전문 확인 못함 — 초록만 보아 HPLC 조건은 비워 둠[{PSP_JP}].",
+     "source": [PSP_JP], "url": "https://doi.org/10.1016/j.marpolbul.2003.12.020", "source_kind": "paper"},
+]
+
+world = [
+    {"country": "튀르키예", "metric": "export_t", "year": 2025, "value": 1017, "unit": "t",
+     "note": "2025년 1–9월, 8개국 수출(동부흑해수출업자협회 자료 인용); 수출액 1,068만 달러, 한국 526만 달러로 1위", "source": [MARI]},
+    {"country": "튀르키예", "metric": "export_kusd", "year": 2025, "value": 10680, "unit": "천 달러",
+     "note": "2025년 1–9월 수출액 10.68 million USD", "source": [MARI]},
+    {"country": "튀르키예", "metric": "export_t", "year": 2025, "value": 1943, "unit": "t",
+     "note": "다른 논문의 2025년 연간 근사치(약 1,943 t, 약 2,090만 달러); 1–9월 값과 기간이 달라 함께 적음", "source": [VISC]},
+    {"country": "튀르키예", "metric": "production_t", "year": 2025, "value": 10000, "unit": "t",
+     "note": "원문 추정 연간 어획량 10,000–13,000 t의 하한(공식 통계 아님)", "source": [VISC]},
+]
+
+d = {
+    "slug": "rapana-venosa", "name_ko": "피뿔고둥", "name_en": "Veined rapa whelk", "scientific_name": "Rapana venosa",
+    "aliases": ["피뿔고둥살", "두드럭고둥(식품원료 목록 별칭)", "참고둥", "Purple whelk", "Thomas's rapa whelk", "Rapa whelk"],
+    "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": nutrients,
+    "production": [], "world": world, "gi": [], "orgs": [], "sources": S,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+for s in sections:
+    print(s["key"], len(s["body"]))
+print("sources", len(S))
