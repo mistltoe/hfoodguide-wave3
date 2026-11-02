@@ -1,0 +1,47 @@
+import json
+from pathlib import Path
+P=Path(__file__).resolve().parent.parent
+d=json.load(open(P/'dossier.json'))
+changes=[]
+def rep(key,old,new,why):
+    for s in d['sections']:
+        if s['key']==key:
+            assert old in s['body'],(key,old[:30])
+            s['body']=s['body'].replace(old,new)
+            changes.append({"where":f"sections.{key}","before":old.strip(),"after":new.strip(),"why":why})
+            return
+    raise KeyError(key)
+rep('overview',"2025년 발표된 유전체 논문은 지난 10년간 미국 양륙량이 연평균 약 1,600만 파운드였다고 정리했다[2].",
+    "2025년 발표된 유전체 논문은 지난 10년간 양륙량이 연평균 약 1,600만 파운드였다고 정리했다(국가는 따로 적지 않았으나 미국 대서양주해양수산위원회 맥락의 서술)[2].",
+    "[2] 원문은 'averaging 16 million pounds landed annually over the last decade'로 국가를 명시하지 않음")
+rep('history',"미국 대서양 연안의 이 종 양륙량은 1990년대에 연 200만–300만 파운드 정도였고 2000년대 초부터 늘기 시작했다고 미국 대서양주해양수산위원회(ASMFC) 자료가 정리하고 있다(검색 요약으로만 확인, 원문 미열람)[24]. ",
+    "", "[24] ASMFC 자료는 WebSearch 요약으로만 확인됐고 원문을 열 수 없어 수치를 대조하지 못함 — 삭제")
+rep('history',"이에 ASMFC는 2023년 미국 수역의 첫 자원평가를 실시했다[2]. 주간 어업관리계획은 2015년 8월 승인되었고 메인주부터 버지니아주까지를 관리 구역으로 한다(검색 요약으로만 확인)[24].",
+    "이에 미국 대서양주해양수산위원회(ASMFC)는 2023년 미국 수역의 첫 자원평가를 실시했다[2]. 수컷 크기 기준의 주간 어업관리계획이 시행 중이지만[3], 그 승인 연도와 관리 구역은 ASMFC 원문을 열지 못해 확인하지 못함.",
+    "[24] 검색 요약만으로는 2015년 8월 승인·메인~버지니아 관리 구역을 대조할 수 없음 — 확인하지 못함으로 바꾸고 [3]이 말하는 범위(관리계획 존재)만 남김")
+rep('history',"이 종은 1960년대에 이미 생화학 실험 재료로 쓰여, 정소뿐 아니라 근육·간·알에도 아데닌과 티민이 주를 이루는 특이한 DNA 중합체가 있음이 보고되었다[22].",
+    "이 종은 1960년대에 이미 생화학 실험 재료로 쓰였다. Cancer 속 몇 종의 정소·수정관에서 먼저 알려진, 아데닌과 티민이 주를 이루는 특이한 DNA 중합체가 이 종의 근육·간·알에도 있음이 1964년 보고되었다[22].",
+    "[22] 초록: 정소·수정관 검출은 'Several species of a genus Cancer'에 대한 앞선 보고이고, 이 논문은 C. borealis 근육·간·알을 보탬 — 종 귀속을 바로잡음")
+rep('biology',"갈매기가 썰물 때 이 게를 잡아먹어 조간대 먹이그물에 연쇄 효과를 낸다는 실험 결과가 있다[13].",
+    "갈매기가 썰물 때 이 게를 잡아먹어 조간대 하부에 자리 잡지 못하게 한다는 결과가 있으며, 갈매기–게–고둥으로 이어지는 3단계 연쇄 효과에 대해서는 연구진 스스로 '시사적이지만 결정적이지 않은' 근거라고 했다[13].",
+    "[13] 초록은 3단계 영양 연쇄를 'suggestive, but not conclusive'라고 씀 — 과장 완화")
+rep('cultivation',"2023년 벤치마크 자원평가는 자원을 네 단위로 나누었고, 남부 뉴잉글랜드 외해 자원이 2010–2021년 연안 전체 양륙량의 70–85%를 차지했다(검색 요약으로만 확인)[25]. 같은 평가는 양륙량이 약 30배로 늘었다가 3년 새 51% 줄었고 자료가 부족해 자원 상태가 매우 불확실하다고 보았다(검색 요약으로만 확인)[25]. ",
+    "2023년 ASMFC 자원평가는 자원 경계 설정을 주요 연구 목표의 하나로 삼았다[2]. 이 평가의 자원 단위 구분과 양륙량 추이 수치는 원문을 열지 못해 확인하지 못함. ",
+    "[25] ASMFC 자원평가 개요는 WebSearch 요약으로만 확인 — 수치 삭제, [2] 원문('stock delineation as one of the primary research objectives')으로 대체")
+rep('processing',"미국 연구진이 지역 시장에서 산 개체를 실험에 쓴 예가 여럿 있어, 산 채로 소매 유통되기도 함을 알 수 있다[8, 9].",
+    "같은 미국 연구실의 두 논문은 위스콘신주의 한 지역 상점에서 산 수컷을 수조에서 1주일 순치한 뒤 실험에 썼고[8, 9], 유전체 연구는 수산물 업체에서 산 메인만 개체를 썼다[2]. 산 채로 유통되는 경로가 있음을 보여 주지만 유통 규모 자료는 아니다.",
+    "[8][9]는 같은 연구실·같은 상점 — '여럿'은 과장. 원문 경위를 구체화하고 [2] 구매 경위 추가")
+# world: drop [24]
+before=[w for w in d['world'] if 24 in w['source']]
+d['world']=[w for w in d['world'] if 24 not in w['source']]
+for w in d['world']:
+    if w['value']==16000000:
+        w['country']="북서대서양(논문은 국가 미표기, 미국 어업 맥락)"
+        w['note']="연평균 양륙량 약 1,600만 파운드; 논문 서론이 다른 자료를 인용한 값, 국가 미표기"
+changes.append({"where":"world[]","before":json.dumps(before,ensure_ascii=False),"after":"(삭제)","why":"[24] WebSearch 요약만으로 확인된 2023년 1,240만 파운드·1,410만 달러 — 원문 대조 불가"})
+changes.append({"where":"world[0]","before":"country '미국(북서대서양)'","after":"국가 미표기로 명시","why":"[2] 원문이 국가를 명시하지 않음"})
+d['sources']=[s for s in d['sources'] if s['n'] not in (24,25)]
+changes.append({"where":"sources","before":"[24][25] ASMFC(WebSearch 요약만)","after":"(삭제)","why":"원문 미열람 출처는 근거로 쓰지 않음; 남은 번호 1–23 연속"})
+json.dump(d,open(P/'dossier.json','w'),ensure_ascii=False,indent=1)
+json.dump(changes,open(P/'_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

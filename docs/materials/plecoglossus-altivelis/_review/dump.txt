@@ -1,0 +1,544 @@
+['slug', 'name_ko', 'name_en', 'scientific_name', 'aliases', 'sections', 'compounds', 'markers', 'assays', 'nutrients', 'production', 'world', 'gi', 'orgs', 'sources']
+## cultivation
+일본 서부 하이즈카댐 저수지의 인공 육봉형 은어는 점근 체장 19.50 cm, 성장계수 0.73/년이었고 첫 성숙 체장은 10.77 cm였으며, 이 저수지의 최대 지속 생산량은 211 t으로 추정되었다[10]. 같은 저수지 집단의 미토콘드리아 조절 영역 분석에서는 849마리에서 31개 일배체형이 나왔고 일배체형 다양도가 0.3503으로 낮아 창시자 효과가 시사되었다[11]. 비와호 육봉형 치어는 어린 시기에 바닷물 적응력이 회유형보다 낮았고, 유생은 24 ℃ 바닷물에서 생존율이 크게 떨어져 방류가 자연 집단에 주는 영향을 살펴야 한다고 했다[5].
+
+양식 은어에서는 세균성 출혈성 복수증(Pseudomonas plecoglossicida)과 세균성 냉수병(Flavobacterium psychrophilum)이 보고되었다[31, 33]. 냉수병 실험에서는 피부 상처가 주된 감염 경로였고 아래턱에 궤양이 많이 생겼다[33]. 복수증 실험에서 두 파지를 섞어 먹인 무리의 폐사율은 20.0%로 파지를 주지 않은 대조군 93.3%보다 낮았다[32]. 국내 은어의 양식·어획 생산 통계는 국가통계포털이 이 환경에서 막혀 확인하지 못함.
+## processing
+은어는 7월 중순부터 오이나 수박 같은 독특한 향을 내기 시작해 8월에 향이 강해지는데, 같은 시기 혈액의 포스파티딜콜린 과산화물과 총 지방산이 크게 높아 지질 과산화물과 고도불포화지방산이 향의 전구체일 수 있다고 보았다[17]. 양식 은어의 지질은 트라이아실글리세롤이 저장 지질의 주를 이루고, 극성 지질은 포스파티딜콜린과 포스파티딜에탄올아민이 주성분이었다[14]. 섬진강산 은어의 조지방은 근육이 소형 5.7%·대형 6.9%로 가장 낮고 내장이 소형 43.2%·대형 52.8%로 가장 높았다는 보고가 있으나, 원문은 열지 못하고 검색 요약으로만 확인했다[36].
+
+외피에는 제아잔틴 등 카로티노이드가 많고, 눈은 외피·피하지방·소화관보다 카로티노이드 함량이 높았다[18]. 은어 몸 전체(뼈·내장 포함)를 시료로 클로람페니콜 등 페니콜계 동물용의약품 3종의 잔류를 LC-MS/MS로 재는 방법이 일본 기준에 맞춰 검증되었다[35]. 감마선 실험에서는 은어를 200 Gy로 조사하면 요코가와흡충 피낭유충의 감염력과 발육을 막을 수 있었다[29]. '은어분말'·'은어내장'은 식품원료 목록의 원료명이며 그 제조 방법은 원자료에서 확인하지 못함.
+## genetics
+은어 유전체 크기는 약 420 Mb로 추정되며, Hi-C 서열로 고친 조립본은 핵형(n = 28)에 맞는 큰 스캐폴드 28개로 이루어졌고 스캐폴드 N50은 4.3 Mb에서 17.0 Mb로 늘었다[3]. 2025년 PacBio HiFi 기반 염색체 수준 조립본은 507.8 Mb, 스캐폴드 N50 20 Mb였고 반복 서열 164 Mb와 단백질 암호 유전자 27,876개를 담았다[2]. 이 조립본에서는 직렬 반복이 유난히 많고 최근에 전이인자가 크게 늘어난 흔적이 보였다[2].
+
+은어의 성 결정은 XX/XY 방식이며, Y 염색체에만 있는 항뮐러관 호르몬 2형 수용체 유전자 사본(amhr2bY)이 성 결정 유전자로 밝혀졌고 이 유전자를 망가뜨리면 수컷이 암컷으로 바뀌었다[4]. 지방산 합성 유전자 연구에서는 Fads2가 Δ6·Δ5·Δ8 불포화 활성을 보였고 elovl2 유전자는 없지만 다른 Elovl 효소로 아라키돈산·EPA·DHA를 합성할 수 있는 경로를 갖춘 것으로 나타났다[16]. 방사성 리놀렌산 주사 실험에서도 은어는 EPA·DHA로의 전환이 무지개송어보다 약하지만 참돔보다는 강한 '중간' 수준이었다[19].
+## safety
+식약처 「식품원료 목록」에서 은어·은어분말·은어내장은 별도 조건 없는 '사용가능' 원료이며, 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 은어를 따로 다룬 국내 공공기관의 알레르기·잔류물질 정보는 이번 조사에서 확인하지 못함.
+
+은어는 요코가와흡충의 주요 제2중간숙주이며, 이 흡충은 극동 러시아·한국·일본·중국·대만에서 사람을 포함한 포유류의 작은창자에 기생한다[28]. 2007년 국내 조사에서 동해안 하천 은어의 60.7%(감염어 1마리당 평균 61개), 남해안 하천 은어의 99.3%(평균 949개)가 피낭유충에 감염되어 있었고, 연구진은 이 지역 자연산 은어를 날로 먹지 말아야 한다고 했다[21]. 경남 산청 덕천강 은어의 감염률은 97.6%, 감염어당 3,570개였다[22]. 강원 삼척 오십천 은어도 감염이 심했고, 그 피낭유충에서는 요코가와흡충만 자랐다[23, 25]. 국내 은어에서는 다카하시흡충(M. takahashii) 피낭유충도 함께 나왔고[26], 은어는 한국·일본에서 미야타흡충의 숙주로도 보고되었다[27]. 일본에서는 사람의 장흡충증이 거의 사라졌지만, 일본 동부에서는 은어가 여전히 미야타흡충(좁은 뜻)의 주요 제2중간숙주로 확인되었다[30]. 일본 후쿠시마 일부 하천에서는 세슘-137 때문에 은어 어업이 중단된 것으로 보고되었다[34].
+== compounds
+[
+{
+"name": "Docosahexaenoic acid",
+"name_ko": "DHA(도코사헥사엔산)",
+"class": "n-3 고도불포화지방산",
+"role": "nutrient",
+"part": "근육·생식소(총지질)",
+"content_text": "주요 지방산 가운데 하나(수치는 초록에 없음); 트라이아실글리세롤보다 인지질에 더 많음",
+"activity_ko": "인지질에 선택적으로 쌓이며, 저온 적응 집단(세토가와형)에서 평균 DHA가 회유형보다 유의하게 높았다[14]",
+"source": [
+14,
+15
+]
+},
+{
+"name": "Eicosapentaenoic acid",
+"name_ko": "EPA(에이코사펜타엔산)",
+"class": "n-3 고도불포화지방산",
+"role": "nutrient",
+"part": "근육·정소",
+"content_text": "자연산 근육의 EPA 비율이 모든 시험군 가운데 가장 높았음(수치는 초록에 없음)",
+"activity_ko": "정소에 많이 쌓이는 지방산으로 보고되었다[15]",
+"source": [
+14,
+15
+]
+},
+{
+"name": "Linoleic acid",
+"name_ko": "리놀레산(18:2n-6)",
+"class": "n-6 지방산",
+"role": "nutrient",
+"part": "근육·난소(총지질)",
+"content_text": "모든 지질 분획에서 높은 수준(수치는 초록에 없음)",
+"activity_ko": "사료 지질에서 온 것으로 해석되었고, 난소에 많았다[14, 15]",
+"source": [
+14,
+15
+]
+},
+{
+"name": "Arachidonic acid",
+"name_ko": "아라키돈산(20:4n-6)",
+"class": "n-6 고도불포화지방산",
+"role": "nutrient",
+"part": "조직 인지질·정소",
+"content_text": "조직 인지질의 주요 지방산(수치는 초록에 없음)",
+"activity_ko": "정소에 많이 쌓이며, 은어는 전구체로부터 합성할 효소 경로를 갖춘 것으로 나타났다[15, 16]",
+"source": [
+14,
+15,
+16
+]
+},
+{
+"name": "Docosapentaenoic acid",
+"name_ko": "DPA(도코사펜타엔산)",
+"class": "n-3 고도불포화지방산",
+"role": "nutrient",
+"part": "정소",
+"content_text": "정소에 많음(수치는 초록에 없음)",
+"activity_ko": "DHA·EPA·아라키돈산과 함께 정소에 선택적으로 쌓였다[15]",
+"source": [
+15
+]
+},
+{
+"name": "alpha-Linolenic acid",
+"name_ko": "알파-리놀렌산(18:3n-3)",
+"class": "n-3 지방산",
+"role": "nutrient",
+"part": "난소·근육",
+"content_text": "난소에 많음(수치는 초록에 없음)",
+"activity_ko": "은어는 리놀렌산을 EPA·DHA로 중간 정도 전환하며, 알파-리놀렌산 사료군의 지방산 조성이 자연산과 가장 비슷했다[15, 19]",
+"source": [
+15,
+19
+]
+},
+{
+"name": "Oleic acid",
+"name_ko": "올레산(18:1n-9)",
+"class": "단일불포화지방산",
+"role": "nutrient",
+"part": "트라이아실글리세롤·난소",
+"content_text": "트라이아실글리세롤의 주요 지방산, 난소에 많음(수치는 초록에 없음)",
+"activity_ko": "난소에 선택적으로 많이 쌓였다[15]",
+"source": [
+14,
+15
+]
+},
+{
+"name": "Palmitoleic acid",
+"name_ko": "팔미톨레산(16:1n-7)",
+"class": "단일불포화지방산",
+"role": "nutrient",
+"part": "트라이아실글리세롤·난소",
+"content_text": "트라이아실글리세롤의 주요 지방산, 난소에 많음(수치는 초록에 없음)",
+"activity_ko": "난소에 선택적으로 많이 쌓였다[15]",
+"source": [
+14,
+15
+]
+},
+{
+"name": "Phosphatidylcholine",
+"name_ko": "포스파티딜콜린",
+"class": "인지질",
+"role": "nutrient",
+"part": "조직 극성 지질",
+"content_text": "극성 지질의 주성분(수치는 초록에 없음)",
+"activity_ko": "포스파티딜에탄올아민과 함께 은어 극성 지질의 주요 분획이었다[14]",
+"source": [
+14
+]
+},
+{
+"name": "Phosphatidylethanolamine",
+"name_ko": "포스파티딜에탄올아민",
+"class": "인지질",
+"role": "nutrient",
+"part": "조직 극성 지질",
+"content_text": "극성 지질의 주성분(수치는 초록에 없음)",
+"activity_ko": "세 집단 사이 지질 분류 구성은 비슷했다[14]",
+"source": [
+14
+]
+},
+{
+"name": "Phosphatidylcholine hydroperoxide",
+"name_ko": "포스파티딜콜린 과산화물",
+"class": "지질 과산화물",
+"role": "bioactive",
+"part": "혈액",
+"content_text": "7–8월에 매우 높음(수치는 초록에 없음)",
+"activity_ko": "오이·수박 같은 은어 특유 향의 전구체 후보로 제시되었다[17]",
+"source": [
+17
+]
+},
+{
+"name": "Zeaxanthin",
+"name_ko": "제아잔틴",
+"class": "카로티노이드",
+"role": "bioactive",
+"part": "눈·외피",
+"content_text": "눈의 주된 카로티노이드; 눈의 카로티노이드 함량이 외피·피하지방·소화관보다 높음(수치는 초록에 없음)",
+"activity_ko": "세포 실험에서 산화 스트레스로부터 광수용체·망막색소상피 세포주를 보호했다(사람 효과는 확인되지 않음)[18]",
+"source": [
+18
+]
+},
+{
+"name": "Sialooligosaccharides",
+"name_ko": "유리 시알올리고당",
+"class": "올리고당",
+"role": "bioactive",
+"part": "미수정란",
+"content_text": "알 1개당 약 35 ng, 약 107 μg/g",
+"activity_ko": "원래 단백질에 붙어 있던 당사슬이 난자 형성 중 떨어져 나와 쌓인 것으로 해석되었다[20]",
+"source": [
+20
+]
+}
+]
+== markers
+[]
+== assays
+[
+{
+"role": "literature",
+"compound": "Zeaxanthin",
+"compound_ko": "제아잔틴",
+"part": "눈(안구)·외피·피하지방·소화관",
+"content": "눈의 주된 카로티노이드이며 눈의 카로티노이드 함량이 다른 부위보다 높음(수치는 초록에 없음)[18]",
+"method": "키랄 HPLC(원편광 이색성 스펙트럼 병용)",
+"conditions": {
+"instrument": "",
+"column": "",
+"mobile_phase": "",
+"gradient": "",
+"flow": "",
+"temp": "",
+"detection": "",
+"injection": "",
+"sample_prep": "",
+"standard": "",
+"linearity": "",
+"lod": "",
+"loq": "",
+"recovery": ""
+},
+"rationale": "은어 눈의 광수용체층 근처에 쌓인 주 카로티노이드로, 부위별 카로티노이드 분포를 비교하는 지표로 쓰였다[18]. 전문 확인 못함 — J-STAGE 전문이 이 환경에서 열리지 않아 분석 조건 칸은 비움[18].",
+"source": [
+18
+],
+"url": "https://doi.org/10.5650/jos.ess20108",
+"source_kind": "paper"
+},
+{
+"role": "literature",
+"compound": "Phosphatidylcholine hydroperoxide",
+"compound_ko": "포스파티딜콜린 과산화물(지방산은 GC)",
+"part": "혈액(꼬리 혈관)",
+"content": "7월 중순–8월 향이 나는 시기에 매우 높음(수치는 초록에 없음)[17]",
+"method": "HPLC(과산화물), 가스크로마토그래피(지방산 조성)",
+"conditions": {
+"instrument": "",
+"column": "",
+"mobile_phase": "",
+"gradient": "",
+"flow": "",
+"temp": "",
+"detection": "",
+"injection": "",
+"standard": "",
+"linearity": "",
+"lod": "",
+"loq": "",
+"recovery": "",
+"sample_prep": "일본 두 수산 시험장에서 6–10월 5개월 기른 은어의 꼬리 혈관에서 2주마다 채혈"
+},
+"rationale": "은어 특유의 오이·수박 향 전구체 후보인 지질 과산화물을 계절별로 추적한 지표다[17]. 전문 확인 못함 — 칼럼·이동상 등은 초록에 없음[17].",
+"source": [
+17
+],
+"url": "https://doi.org/10.1016/s1096-4959(01)00401-8",
+"source_kind": "paper"
+},
+{
+"role": "literature",
+"compound": "Chloramphenicol, thiamphenicol, florfenicol",
+"compound_ko": "페니콜계 동물용의약품 3종(잔류물질)",
+"part": "몸 전체(뼈·내장 포함)",
+"content": "검증 결과 진도(trueness) 85–103%, 반복성 5–13%, 실험실 내 재현성 8–13%[35]",
+"method": "LC-MS/MS",
+"conditions": {
+"instrument": "",
+"column": "",
+"mobile_phase": "",
+"gradient": "",
+"flow": "",
+"temp": "",
+"detection": "",
+"injection": "",
+"linearity": "",
+"lod": "",
+"loq": "",
+"sample_prep": "90% 아세토나이트릴 추출 → 플로리실 칼럼(2 g) 정제 → n-헥세인 탈지 → 용매를 인산 완충액으로 바꿈 → 수산화 스타이렌-다이비닐벤젠 공중합체 칼럼(200 mg) 정제 → 지질 제거 기능 제단백 카트리지 필터 통과",
+"standard": "클로람페니콜은 동위원소 표지 클로람페니콜(초록 표기 'chloramphenicol-d') 보정 검량선, 티암페니콜·플로르페니콜은 절대 검량선",
+"recovery": "진도 85–103%, 반복성 5–13%, 실험실 내 재현성 8–13%(일본 후생노동성 통지 기준 검증)"
+},
+"rationale": "지표성분이 아니라 은어를 통째로(뼈·내장 포함) 먹는 식습관에 맞춘 잔류물질 검사법이다[35]. 전문 확인 못함 — 일본어 원문은 열지 못해 기기·칼럼 조건은 비움[35].",
+"source": [
+35
+],
+"url": "https://doi.org/10.3358/shokueishi.58.143",
+"source_kind": "paper"
+}
+]
+== nutrients
+[]
+== production
+[]
+== world
+[]
+== gi
+[]
+== orgs
+[]
+== sources
+[
+{
+"n": 1,
+"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Plecoglossus altivelis 3행: '은어'(부위 '-'), '은어분말'(부위 '-'), '은어내장'(부위 원자료 표기 '어린순'); 모두 영문 Ayu sweetfish, 분류 수산물, 식품원료(A코드), 사용가능, 사용 조건 없음; 같은 목록의 빙어(Hypomesus nipponensis)·바다빙어(Osmerus dentex)·열빙어(Mallotus villosus)·뱅어(Salangichthys microdon)는 별도 행; 과 이름 Plecoglossidae는 card.json 의 생물자원 DB 연결 정보(docs/materials/plecoglossus-altivelis/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)",
+"url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+"publisher": "식품의약품안전처",
+"accessed": "2026-10-13"
+},
+{
+"n": 2,
+"title": "Chromosome-level draft genome assembly of Plecoglossus altivelis reveals transposable element expansion reshaping the genome structure. Front Genet 2025;16:1502681",
+"url": "https://doi.org/10.3389/fgene.2025.1502681",
+"publisher": "Frontiers in Genetics (PubMed 40385984, PMC12083275)",
+"accessed": "2026-11-02"
+},
+{
+"n": 3,
+"title": "Improvement of the ayu (Plecoglossus altivelis) draft genome using Hi-C sequencing. BMC Res Notes 2023;16(1):92",
+"url": "https://doi.org/10.1186/s13104-023-06362-7",
+"publisher": "BMC Research Notes (PubMed 37254197, PMC10230677)",
+"accessed": "2026-11-02"
+},
+{
+"n": 4,
+"title": "A Y-linked anti-Müllerian hormone type-II receptor is the sex-determining gene in ayu, Plecoglossus altivelis. PLoS Genet 2021",
+"url": "https://doi.org/10.1371/journal.pgen.1009705",
+"publisher": "PLoS Genetics (PubMed 34437539, PMC8389408)",
+"accessed": "2026-11-02"
+},
+{
+"n": 5,
+"title": "Temperature-dependent differences in seawater tolerance between amphidromous and landlocked ayu Plecoglossus altivelis. Comp Biochem Physiol A 2026:112065",
+"url": "https://doi.org/10.1016/j.cbpa.2026.112065",
+"publisher": "Comparative Biochemistry and Physiology A (PubMed 42628871)",
+"accessed": "2026-11-02"
+},
+{
+"n": 6,
+"title": "Climate-driven shifts in early life history via shortened marine residence in amphidromous ayu Plecoglossus altivelis. J Fish Biol 2026",
+"url": "https://doi.org/10.1111/jfb.70533",
+"publisher": "Journal of Fish Biology (PubMed 42274256)",
+"accessed": "2026-11-02"
+},
+{
+"n": 7,
+"title": "Habitat use and growth strategies of amphidromous fish 'ayu' throughout a river system. Sci Rep 2025",
+"url": "https://doi.org/10.1038/s41598-025-02988-8",
+"publisher": "Scientific Reports (PubMed 40436942, PMC12119983)",
+"accessed": "2026-11-02"
+},
+{
+"n": 8,
+"title": "Linkage between spatiotemporal distribution of environmental DNA and phenological activity in an amphidromous fish, ayu Plecoglossus altivelis altivelis, in a river located in its northernmost distributional area. J Fish Biol 2024",
+"url": "https://doi.org/10.1111/jfb.15687",
+"publisher": "Journal of Fish Biology (PubMed 38369621)",
+"accessed": "2026-11-02"
+},
+{
+"n": 9,
+"title": "Facultative amphidromy involving estuaries in an annual amphidromous fish from a subtropical marginal range. J Fish Biol 2019",
+"url": "https://doi.org/10.1111/jfb.14147",
+"publisher": "Journal of Fish Biology (PubMed 31587274)",
+"accessed": "2026-11-02"
+},
+{
+"n": 10,
+"title": "Stock assessment of landlocked ayu Plecoglossus altivelis altivelis in Japan through length-based models. Environ Sci Pollut Res 2022",
+"url": "https://doi.org/10.1007/s11356-022-22289-1",
+"publisher": "Environmental Science and Pollution Research (PubMed 35933527)",
+"accessed": "2026-11-02"
+},
+{
+"n": 11,
+"title": "Population structure and demographic history for year cohort dynamics of landlocked ayu Plecoglossus altivelis altivelis in dam reservoir of Japan. Environ Sci Pollut Res 2024",
+"url": "https://doi.org/10.1007/s11356-023-31743-7",
+"publisher": "Environmental Science and Pollution Research (PubMed 38214853)",
+"accessed": "2026-11-02"
+},
+{
+"n": 12,
+"title": "Geographical distribution of Metagonimus yokogawai and M. miyatai in Shizuoka Prefecture, Japan, and their site preferences in the sweetfish, Plecoglossus altivelis, and hamsters. Parasitol Int 2006;55(3):201-6",
+"url": "https://doi.org/10.1016/j.parint.2006.05.001",
+"publisher": "Parasitology International (PubMed 16807078)",
+"accessed": "2026-11-02"
+},
+{
+"n": 13,
+"title": "Transcriptomic Insights into Post-Spawning Death and Muscle Atrophy in Ayu (Plecoglossus altivelis). Int J Mol Sci 2025;26(2):434",
+"url": "https://doi.org/10.3390/ijms26020434",
+"publisher": "International Journal of Molecular Sciences (PubMed 39859150, PMC11764881)",
+"accessed": "2026-11-02"
+},
+{
+"n": 14,
+"title": "Differences in lipid characteristics among populations: low-temperature adaptability of ayu, Plecoglossus altivelis. Lipids 2011",
+"url": "https://doi.org/10.1007/s11745-011-3628-z",
+"publisher": "Lipids (PubMed 22120618)",
+"accessed": "2026-11-02"
+},
+{
+"n": 15,
+"title": "Preferential accumulation of fatty acids in the testis and ovary of cultured and wild sweet smelt Plecoglossus altivelis. Comp Biochem Physiol B 2002",
+"url": "https://doi.org/10.1016/s1096-4959(01)00501-2",
+"publisher": "Comparative Biochemistry and Physiology B (PubMed 11818246)",
+"accessed": "2026-11-02"
+},
+{
+"n": 16,
+"title": "A complete biosynthetic pathway of the long-chain polyunsaturated fatty acids in an amphidromous fish, ayu sweetfish Plecoglossus altivelis. Biochim Biophys Acta Mol Cell Biol Lipids 2024",
+"url": "https://doi.org/10.1016/j.bbalip.2024.159498",
+"publisher": "BBA - Molecular and Cell Biology of Lipids (PubMed 38703945)",
+"accessed": "2026-11-02"
+},
+{
+"n": 17,
+"title": "Seasonal variation of phosphatidylcholine hydroperoxides in blood of sweet smelt Plecoglossus altivelis. Comp Biochem Physiol B 2001",
+"url": "https://doi.org/10.1016/s1096-4959(01)00401-8",
+"publisher": "Comparative Biochemistry and Physiology B (PubMed 11470442)",
+"accessed": "2026-11-02"
+},
+{
+"n": 18,
+"title": "Distribution of Carotenoids and Protective Effects of Zeaxanthin on Retina of Ayu Sweetfish (Plecoglossus altivelis). J Oleo Sci 2020;69(9):1095-1105 (초록만 확인)",
+"url": "https://doi.org/10.5650/jos.ess20108",
+"publisher": "Journal of Oleo Science (PubMed 32788523)",
+"accessed": "2026-11-02"
+},
+{
+"n": 19,
+"title": "Relationship between essential fatty acid requirements of aquatic animals and the capacity for bioconversion of linolenic acid to highly unsaturated fatty acids. Comp Biochem Physiol B 1979;63(3):295-8",
+"url": "https://doi.org/10.1016/0305-0491(79)90251-7",
+"publisher": "Comparative Biochemistry and Physiology B (PubMed 233802)",
+"accessed": "2026-11-02"
+},
+{
+"n": 20,
+"title": "Free sialooligosaccharides found in the unfertilized eggs of a freshwater trout, Plecoglossus altivelis. J Biol Chem 1989;264(3):1623-30",
+"url": "https://pubmed.ncbi.nlm.nih.gov/2912977/",
+"publisher": "The Journal of Biological Chemistry (PubMed 2912977)",
+"accessed": "2026-11-02"
+},
+{
+"n": 21,
+"title": "Prevalence of Metagonimus metacercariae in sweetfish, Plecoglossus altivelis, from eastern and southern coastal areas in Korea. Korean J Parasitol 2011;49(2):161-5",
+"url": "https://doi.org/10.3347/kjp.2011.49.2.161",
+"publisher": "The Korean Journal of Parasitology (PubMed 21738272, PMC3121073)",
+"accessed": "2026-11-02"
+},
+{
+"n": 22,
+"title": "Endemicity of Zoonotic Trematode Metacercariae in Fish from Deokcheon-gang (River) in Sancheong-gun, Gyeongsangnam-do, Republic of Korea. Korean J Parasitol 2021;59(5):523-529",
+"url": "https://doi.org/10.3347/kjp.2021.59.5.523",
+"publisher": "The Korean Journal of Parasitology (PubMed 34724774, PMC8561055)",
+"accessed": "2026-11-02"
+},
+{
+"n": 23,
+"title": "Prevalence of zoonotic trematode metacercariae in freshwater fish from Gangwon-do, Korea. Korean J Parasitol 2014;52(4):399-412",
+"url": "https://doi.org/10.3347/kjp.2014.52.4.399",
+"publisher": "The Korean Journal of Parasitology (PubMed 25246719, PMC4170036)",
+"accessed": "2026-11-02"
+},
+{
+"n": 24,
+"title": "Epidemiological Study On Metagonimus Yokogawai Infection Along Boseong River In Jeonra Nam Do, Korea. Korean J Parasitol 1978;16(1):1-13 (한국어 논문, 영문 초록)",
+"url": "https://doi.org/10.3347/kjp.1978.16.1.1",
+"publisher": "The Korean Journal of Parasitology (PubMed 12902778)",
+"accessed": "2026-11-02"
+},
+{
+"n": 25,
+"title": "Intestinal flukes of genus Metagonimus and their second intermediate hosts in Kangwon-do. Korean J Parasitol 1993;31(4):331-40 (한국어 논문, 영문 초록)",
+"url": "https://doi.org/10.3347/kjp.1993.31.4.331",
+"publisher": "The Korean Journal of Parasitology (PubMed 8297890)",
+"accessed": "2026-11-02"
+},
+{
+"n": 26,
+"title": "Classification and host specificity of Metagonimus spp. from Korean freshwater fish. Korean J Parasitol 1996;34(1):7-14",
+"url": "https://doi.org/10.3347/kjp.1996.34.1.7",
+"publisher": "The Korean Journal of Parasitology (PubMed 8820736)",
+"accessed": "2026-11-02"
+},
+{
+"n": 27,
+"title": "Metagonimus miyatai sp. nov. (Digenea: Heterophyidae), a new intestinal trematode transmitted by freshwater fishes in Japan and Korea. Korean J Parasitol 1997;35(4):223-32",
+"url": "https://doi.org/10.3347/kjp.1997.35.4.223",
+"publisher": "The Korean Journal of Parasitology (PubMed 9446902)",
+"accessed": "2026-11-02"
+},
+{
+"n": 28,
+"title": "Metagonimus yokogawai (Trematoda: Heterophyidae): From Discovery to Designation of a Neotype. Korean J Parasitol 2015;53(5):627-39",
+"url": "https://doi.org/10.3347/kjp.2015.53.5.627",
+"publisher": "The Korean Journal of Parasitology (PubMed 26537043, PMC4635838)",
+"accessed": "2026-11-02"
+},
+{
+"n": 29,
+"title": "Effects of gamma-irradiation on the survival and development of Metagonimus yokogawai metacercariae in rats. Korean J Parasitol 1995;33(4):297-303",
+"url": "https://doi.org/10.3347/kjp.1995.33.4.297",
+"publisher": "The Korean Journal of Parasitology (PubMed 8591007)",
+"accessed": "2026-11-02"
+},
+{
+"n": 30,
+"title": "Resolution of cryptic species complexes within the genus Metagonimus (Trematoda: Heterophyidae) in Japan, with descriptions of four new species. Parasitol Int 2022;90:102605",
+"url": "https://doi.org/10.1016/j.parint.2022.102605",
+"publisher": "Parasitology International (PubMed 35643322)",
+"accessed": "2026-11-02"
+},
+{
+"n": 31,
+"title": "Pseudomonas plecoglossicida sp. nov., the causative agent of bacterial haemorrhagic ascites of ayu, Plecoglossus altivelis. Int J Syst Evol Microbiol 2000;50(1):83-9",
+"url": "https://doi.org/10.1099/00207713-50-1-83",
+"publisher": "International Journal of Systematic and Evolutionary Microbiology (PubMed 10826790)",
+"accessed": "2026-11-02"
+},
+{
+"n": 32,
+"title": "Bacteriophage control of Pseudomonas plecoglossicida infection in ayu Plecoglossus altivelis. Dis Aquat Organ 2003;53(1):33-9",
+"url": "https://doi.org/10.3354/dao053033",
+"publisher": "Diseases of Aquatic Organisms (PubMed 12608566)",
+"accessed": "2026-11-02"
+},
+{
+"n": 33,
+"title": "Pathogenesis of experimentally induced bacterial cold water disease in ayu Plecoglossus altivelis. Dis Aquat Organ 2005;67(1-2):93-104",
+"url": "https://doi.org/10.3354/dao067093",
+"publisher": "Diseases of Aquatic Organisms (PubMed 16385814)",
+"accessed": "2026-11-02"
+},
+{
+"n": 34,
+"title": "Assessment of the cesium-137 concentration in algae-grazing ayu Plecoglossus altivelis collected from Tomioka River in Fukushima, Japan. J Environ Radioact 2025",
+"url": "https://doi.org/10.1016/j.jenvrad.2025.107759",
+"publisher": "Journal of Environmental Radioactivity (PubMed 40706128)",
+"accessed": "2026-11-02"
+},
+{
+"n": 35,
+"title": "Determination of Residues of Phenicol Drugs in Ayu (Plecoglossus altivelis) by LC-MS/MS. Shokuhin Eiseigaku Zasshi 2017;58(3):143-148 (일본어 논문, 영문 초록만 확인)",
+"url": "https://doi.org/10.3358/shokueishi.58.143",
+"publisher": "Journal of the Food Hygienic Society of Japan (PubMed 28690304)",
+"accessed": "2026-11-02"
+},
+{
+"n": 36,
+"title": "한국산 은어의 지질성분에 관한 연구-1 총지질성분의 비교. 한국수산과학회지 1993 (원문 사이트가 이 환경의 네트워크 허용 목록 밖이라 열지 못함 — WebSearch 결과 요약으로만 확인한 수치)",
+"url": "https://koreascience.kr/article/JAKO199323607627674.page",
+"publisher": "한국수산과학회 (KoreaScience)",
+"accessed": "2026-11-02"
+}
+]

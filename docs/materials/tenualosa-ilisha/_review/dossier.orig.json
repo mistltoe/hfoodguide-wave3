@@ -1,0 +1,716 @@
+{
+ "slug": "tenualosa-ilisha",
+ "name_ko": "힐사이리사",
+ "name_en": "Hilsa shad",
+ "scientific_name": "Tenualosa ilisha (Hamilton, 1822)",
+ "aliases": [
+  "힐사이리사",
+  "힐사",
+  "Hilsa shad",
+  "Hilsa"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "힐사이리사(Tenualosa ilisha)는 청어목 청어과(Clupeidae)로 분류되어 온 회유성 물고기로, 식약처 「식품원료 목록」에 '힐사이리사'(영문 Hilsa shad)라는 원료명의 수산물로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고 사용 부위는 따로 정하지 않은 '-'로 적혀 있으며 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1]. 같은 속의 납작전어(Tenualosa reevesii, 영문 Reeves shad)는 목록에서 별도 원료로 올라 있으므로 이 문서는 납작전어 자료를 섞지 않았다[1].\n\n힐사는 북인도양, 특히 벵골만에 널리 분포하며 바다에서 자라 강으로 올라가 알을 낳는 소하성 어종이고, 방글라데시의 국어(國魚)로 그 나라 전체 어류 생산의 10%를 차지한다[2]. 방글라데시·인도·미얀마에서는 맛과 향 때문에 가장 선호되는 식용어로 꼽히며, 지방이 많고 DHA·EPA 같은 n-3 지방산이 풍부한 어종으로 보고되었다[14, 15]. 방글라데시 시장에서 산 생선의 날것 토막은 수분 68.50%, 단백질 18.52%, 지방 12.32%(습량 기준)였다[16]. 국내 유통·소비량과 국가표준식품성분표 값은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "힐사는 방글라데시 전체 어류 생산의 10%를 차지하고 시장 가치는 17억 4천만 달러로 평가되며, 인도 서벵골 어획의 12.5%를 차지하고 미얀마에서는 해면 어획 1위 어종이다[2]. 다른 정리에 따르면 전체 어획의 약 60%가 방글라데시, 약 20%가 미얀마, 약 15%가 인도에서 나오며, 방글라데시에서는 해면 어획의 65%, 전체 어류 생산의 12%를 차지하고 인구의 2%에게 생계를 제공한다[20]. 같은 논문은 힐사가 방글라데시의 국어이자 지리적 표시(GI)로 지정되었다고 적었다[20].\n\n인도 서벵골의 벵골 사람들 사이에는 파드마강 힐사가 후글리강 힐사보다 맛있다는 인식이 있어, 2019년 연구는 두 강의 800 g 넘는 성어를 비교해 파드마산의 향·맛·살결 점수가 더 높고 알라닌·글루탐산·올레산이 더 많다고 보고했다[14]. 방글라데시에서는 1994년 고콜레스테롤혈증 환자가 힐사 100 g을 날마다 10개월 먹은 소규모 연구가 있었는데, 혈청 총콜레스테롤은 285.1에서 244.6 mg/dl로 14.2% 내려갔으나 통계적으로 유의하지 않았다[32]. 2003년 무렵부터는 남획·오염·기후변화·이동로 퇴적 등으로 어획이 줄고 어민 소득이 불안정해졌다는 현지 조사가 있다[31]. 한국에서 힐사를 이용해 온 역사나 수입 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "힐사는 벵골만을 중심으로 북인도양에 사는 소하성 어종으로, 벵골만·아라비아해와 남아시아·동남아시아·중동의 강에 분포한다[2, 10]. 이란 카룬강에서는 표층에 사는 초식성 어류로 다루어졌고, 인도네시아 북수마트라에서는 현지명 terebuk으로 불린다[35, 30]. 산란을 위해 강으로 최대 1200 km까지 거슬러 올라가며, 여과 섭식자여서 강에서는 먹이가 모자라 근육 단백질 분해와 간의 장쇄 고도불포화지방산 합성으로 에너지를 꾸린다는 유전자 발현 연구가 있다[3].\n\n메그나강 하구 힐사의 위 내용물은 녹조류 53.7%, 규조류 22.6%로, 이 식물플랑크톤이 고도불포화지방산의 주된 공급원으로 평가되었다[33]. 방글라데시 연중 조사에서 산란 성기는 10월 하순–11월 초순(생식소숙도지수 최고 12.1)이고 2–3월에 작은 정점이 있었으며, 암컷의 첫 성숙 크기는 전장 31 cm, 총 포란수는 평균 0.745백만 개였다[29]. 인도네시아 바루문강에서는 연중 산란하되 1–3월이 성기였고 포란수는 81,450–245,267개였다[30]. 2019년 영양 연구는 청어과로, 2025년 염색체 수준 유전체 논문은 Dorosomatidae로 적어 상위 분류 표기가 문헌마다 다르다[14, 3]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·학명 문제",
+   "body": "식약처 목록에는 같은 속의 납작전어(Tenualosa reevesii)가 별도 원료로 있고, 국내에서 흔히 먹는 전어는 다른 속(Konosirus punctatus)으로 '전어'·'전어엑기스'·'염장전어' 등 여러 원료명으로 올라 있다[1]. 납작전어는 중국 양쯔강의 상업 어종으로, 어민 면담 연구에서 1970년대 이후 크게 줄어든 종으로 기록되었다[12]. 같은 속의 Tenualosa macrura(longtail shad)는 인도네시아 시악강 하구에 제한적으로 사는 소하성 어종으로 남획되어 멸종 위기에 있다고 평가되었다[13].\n\n인도에서는 힐사, 같은 속의 Tenualosa toli, 다른 속의 Hilsa kelee 세 종이 생김새가 비슷해, 디지털 사진의 13개 기준점 형태 분석으로 등지느러미 시작점–눈 뒤끝 거리 등이 종을 가르는 핵심 형질로 제시되었다[11]. 같은 종 안에서도 방글라데시 집단과 이라크 집단은 미토콘드리아 COI·Cyt b 분석에서 전체 변이의 69% 넘게가 지역 사이 차이로 나타날 만큼 뚜렷이 갈렸다[10]. 이 문서의 영양·안전 수치는 모두 Tenualosa ilisha로 적힌 남아시아(주로 방글라데시·인도) 시료의 값이며, 납작전어·T. toli 자료는 섞지 않았다[1, 11]. 한국명 '힐사이리사'의 명명 근거는 식약처 목록 외에는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "힐사 생산은 거의 전부 자연산 어획에 기대며, 2025년 유전체 논문은 연간 약 60만 t의 어획과 직접 생계를 의존하는 약 300만 명을 언급했다[3]. 방글라데시 수산부 집계를 인용한 언론 보도에 따르면 2022-23 회계연도 생산량은 57만 1천 t이었다(검색 요약으로만 확인)[34]. 지난 20년 동안 내수면 생산은 안정적이었고 벵골만의 해면 어획은 크게 늘었으며, 지속 가능한 공동 관리를 위해 미성어 어획 전면 금지, 시기·구역별 금어, 전략 지점의 보호구역 지정, 어민 보상, 서식지 복원, 양식 기술 개발이 권고되었다[2]. 방글라데시 정부는 산란 성기의 금어기와 최소 어획 크기를 두고 있으나 그 시기·크기에 관해 상충하는 정보가 있다고 지적되었다[29].\n\n인도의 기수 연못 양식 시험에서는 자연산 치어(1.35 g)를 배합사료로 6개월 기르자 66.76 g이 되었고, 조단백질 41.06% 사료를 먹인 어미 후보군은 평균 383.80 g, 생식소숙도지수 9.09%, 난경 570 μm까지 성숙했다[28]. 같은 연구는 성숙 과정에서 지방이 근육에서 난소로 옮겨 가고 EPA·DHA·아라키돈산 등이 난소에 선택적으로 남는다고 보고했다[28]. 한국 내 어획·양식·수입 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "조리·가공·품질",
+   "body": "방글라데시산 힐사를 겨자기름 170–180 ℃에서 0–12분 튀긴 연구에서 수분은 68.50%에서 41.35%로 줄고 지방은 기름을 흡수해 12.32%에서 27.25%로 늘었다[16]. 튀김 시간이 길어지자 라이신·히스티딘 같은 필수아미노산이 크게 줄고 EPA는 59% 감소했으며 포화지방산 비율은 42.64%에서 49.17%로 올랐고, 맛·식감·전체 기호도는 3–6분이 가장 좋았다[16]. 메그나강 산란 전 암컷(600–700 g)으로 만든 냉동 '힐사 큐브'와 상온 '힐사 분말'은 동결·건조 보호제와 당근 카로티노이드를 넣어 6개월 저장 동안 품질 허용 범위를 지켰고, 냉동 큐브의 휘발성염기질소는 1.11에서 9.80 mg/100 g으로 늘었다[17].\n\n후글리강과 파드마강 중간 크기(500–700 g) 힐사의 단백질은 18–21%, 지방은 각각 9.94%와 7.84%였고, 후글리산이 EPA·DHA와 필수아미노산이 더 많았다[18]. 크기가 커질수록 지방이 늘어 5 g 미만 5.68%, 800 g 초과 26.87%였다(원문에 건량·습량 기준 표기 없음)[14]. 힐사 알(곤이)은 별미로 여겨지며, 방글라데시 세 지역 알의 주요 아미노산은 글루탐산(14.20–14.60%)이었다[19]. 파르브알부민을 표적으로 한 질량분석(MRM)은 섞인 생선 시료에서 힐사를 판별하는 진위 판별 지표로도 쓸 수 있다고 제시되었다[24]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2025년 나노포어·일루미나·Hi-C로 만든 첫 염색체 수준 유전체는 748 Mb이고 93.03%가 24개 의사염색체에 놓였으며, N50은 29 Mb, 고신뢰 유전자는 24,258개였다[3]. 이 연구는 이온통로·신호 관련 유전자군의 빠른 확장과 1,353개 유전자의 양성 선택을 보고했고, 강에 있는 개체의 간에서 FADS2·ELOVL2 발현이 크게 올라 장쇄 고도불포화지방산 합성이 활발하다고 해석했다[3]. 그보다 앞선 초안 유전체는 762.5 Mb(미토콘드리아 유전체 16,745 bp, 단백질 암호 유전자 33,042개), 파드마강 개체 816 Mb(유전자 모델 31,254개), 벵골만 개체 710.28 Mb(BUSCO 78.1%)로 보고되었다[4, 5, 6].\n\n방글라데시 아홉 서식지 300개체의 NextRAD 분석에서는 적응 유전자좌로 보아 바다·하구 집단과 강 집단이 나뉘고, 강 집단은 다시 탁한 물의 북서부와 맑은 물의 북동부 생태형으로 갈렸다[7]. 여섯 지점 180개체 연구도 서부 강·동부 강·남부 하구-바다의 세 생태형을 제시했다[8]. 반면 18개 지점 139개체의 교차종 유전자 농축 분석은 방글라데시 수역의 힐사를 유전 다양성이 낮은 하나의 무작위 교배 집단으로 관리해야 한다고 결론지었다[9]. 방글라데시와 이라크 집단은 미토콘드리아 유전자로 뚜렷이 구분되었고 이라크 집단은 유전적으로 균일했다[10]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 힐사이리사는 별도 조건 없는 '사용가능' 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 힐사를 따로 다룬 국내 공공기관의 알레르기·잔류물질 정보는 이번 조사에서 확인하지 못함. 경골어류의 주요 알레르겐인 파르브알부민-β는 힐사 근육에서 세 가지 아형이 확인되었고, 치어가 성어보다 많았으나 다른 민물고기보다는 적었다[24].\n\n메그나 하구 힐사 근육(습중량)은 납 0.09(우기)·0.18 μg/g(건기), 카드뮴 0.01 μg/g(우기), 비소 0.04–0.05 μg/g이었고, 위해지수와 발암 위해는 허용 범위로 평가되었지만 납은 권고 기준 0.30 μg/g을 넘은 시료가 있었다[20]. 방글라데시 여섯 지점 36개체 연구에서 위해지수는 1 미만이었지만 니켈은 하구·연안에서 식품 허용치와 발암 위해 기준을 넘었다[21]. 파드마-메그나 합류부에서는 작은 개체의 아가미·간에 크롬이 기준을 넘게 쌓였다[22]. 다른 연구는 비소 섭취에 따른 위해 가능성을 제기했다[23].\n\n히스타민은 기름진 표층어에서 선도 저하 지표로 쓰이며, 힐사 냉동 큐브는 6개월 동안 0.56에서 8.46 mg/100 g으로 늘었으나 유럽연합 기준(10 mg/100 g)보다 낮았다[17]. 벵골만 북동부 힐사의 유기염소 농약 합계는 153.75 ng/g(습중량)으로 높은 편이었고 디엘드린의 발암 위해가 기준을 넘었다[25]. 소화관에서는 미세플라스틱이 개체당 평균 19.13개, 갠지스강 성숙 암컷 근육에서는 비스페놀 A가 196.23 ng/g(건중량) 나왔다[26, 27]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "DHA",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "근육·알",
+   "content_text": "알(곤이) 총 지방산의 5.55–5.68% (C22:6n-3, 방글라데시 세 지역)[19]; 근육에서는 5 g 미만 치어에서 유의하게 높음(표 수치 확인 못함)[14]",
+   "activity_ko": "인도 식용어 39종 비교에서 힐사가 DHA·EPA가 풍부한 어종으로 꼽혔다[15]",
+   "source": [
+    19,
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "근육(토막)",
+   "content_text": "날것 총 지방산의 1.64 ± 0.08% (C20:5n-3), 12분 튀김 후 0.67 ± 0.03%",
+   "activity_ko": "튀김 시간이 길어질수록 59% 줄어 열에 약한 성분으로 보고되었다[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "알파-리놀렌산(C18:3n-3)",
+   "class": "n-3 다불포화지방산",
+   "role": "nutrient",
+   "part": "근육(토막)",
+   "content_text": "날것 총 지방산의 8.57 ± 0.11%, 12분 튀김 후 3.69 ± 0.18%",
+   "activity_ko": "이 시료에서 가장 많은 다불포화지방산으로, 튀김으로 크게 줄었다[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Myristic acid",
+   "name_ko": "미리스트산(C14:0)",
+   "class": "포화지방산",
+   "role": "bioactive",
+   "part": "근육",
+   "content_text": "날것 총 지방산의 30.22 ± 0.38%[16]; 인도 시료에서 주된 지방산 37.8%(이탤릭 학명이 빠진 전문에서 대응시킨 값)[15]",
+   "activity_ko": "향미 성분으로 쓰이는 지방산이며 힐사 특유의 맛과 관련될 수 있다고 해석되었다[15]",
+   "source": [
+    16,
+    15
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산(C16:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "알",
+   "content_text": "알(곤이) 총 지방산의 31.08–32.86%",
+   "activity_ko": "힐사 알의 주된 포화지방산이다[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산(C18:1)",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "근육·알",
+   "content_text": "날것 근육 총 지방산의 24.37 ± 0.30%(C18:1)[16]; 알 20.73–22.23%(C18:1n-9)[19]",
+   "activity_ko": "파드마강 힐사에서 더 많았고 맛 점수가 높은 이유 가운데 하나로 해석되었다[14]",
+   "source": [
+    16,
+    19,
+    14
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "근육·알",
+   "content_text": "날것 근육 17.80 ± 0.50(단위 표기 없음)[16]; 알 14.20–14.60%[19]",
+   "activity_ko": "감칠맛 아미노산으로, 파드마산 힐사의 맛과 관련된다고 해석되었다[14, 18]",
+   "source": [
+    16,
+    19,
+    14,
+    18
+   ]
+  },
+  {
+   "name": "Leucine",
+   "name_ko": "류신",
+   "class": "필수아미노산(BCAA)",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "날것 근육 8.53 ± 0.24, 12분 튀김 후 3.42 ± 0.10(단위 표기 없음)[16]",
+   "activity_ko": "인도 힐사의 모든 크기군에서 가장 많은 아미노산이었다[14]",
+   "source": [
+    16,
+    14
+   ]
+  },
+  {
+   "name": "Lysine",
+   "name_ko": "라이신",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "날것 근육 5.16 ± 0.15, 12분 튀김 후 1.11 ± 0.03(단위 표기 없음)",
+   "activity_ko": "튀김 중 가장 크게 줄어든 필수아미노산 가운데 하나다[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Histidine",
+   "name_ko": "히스티딘",
+   "class": "필수아미노산",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "날것 근육 5.74 ± 0.16, 12분 튀김 후 1.32 ± 0.04(단위 표기 없음)[16]",
+   "activity_ko": "사후 세균 효소로 히스타민으로 바뀌는 전구 아미노산이다[17]",
+   "source": [
+    16,
+    17
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민",
+   "role": "marker",
+   "part": "가공품(냉동 큐브·분말)",
+   "content_text": "냉동 큐브 0.56 ± 0.01 → 8.46 ± 0.05 mg/100 g(6개월), 분말 0.87 ± 0.03 → 9.91 ± 0.12 mg/100 g(6개월)",
+   "activity_ko": "기름진 표층어의 선도 저하 지표로 쓰였고, 저장 끝까지 유럽연합 기준 10 mg/100 g보다 낮았다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Calcium",
+   "name_ko": "칼슘",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "토막(뼈 제거 여부 원문에 없음)",
+   "content_text": "날것 344.35 ± 2.52 mg/100 g(습중량), 12분 튀김 후 519.49 ± 3.23 mg/100 g",
+   "activity_ko": "튀김으로 늘어난 것은 수분 손실에 따른 농축 효과로 설명되었다[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Iron",
+   "name_ko": "철",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "날것 토막 5.66 ± 0.05 mg/100 g(습중량)[16]; 메그나 하구 근육 3.32(우기)·4.38 μg/g(건기, 습중량)[20]",
+   "activity_ko": "필수 미량원소로 함께 정량되었다[16, 20]",
+   "source": [
+    16,
+    20
+   ]
+  },
+  {
+   "name": "Parvalbumin beta",
+   "name_ko": "파르브알부민-β",
+   "class": "근육 단백질(알레르겐)",
+   "role": "marker",
+   "part": "근육",
+   "content_text": "세 가지 아형 확인; 치어가 성어보다 많고 다른 민물고기보다 유의하게 적음(정량값은 초록에 없음)",
+   "activity_ko": "경골어류의 주요 알레르겐이며, MRM 표적 질량분석으로 알레르겐 정량과 힐사 진위 판별 지표로 쓸 수 있다고 제시되었다[24]",
+   "source": [
+    24
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (DHA, EPA, myristic acid)",
+   "compound_ko": "지방산 조성(DHA·EPA·미리스트산 등)",
+   "part": "근육(뼈를 뺀 살)",
+   "content": "힐사 조지방 10.5%로 39종 중 최고, 미리스트산이 주된 지방산(37.8%), 단백질 20.7%(전문 텍스트에서 학명이 빠져 본문 서술로 대응시킴)[15]",
+   "method": "GC-MS(이온트랩, 지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Trace GC Ultra 가스크로마토그래프 + ITQ 900 이온트랩 질량분석기(Thermo Scientific)",
+    "column": "TR-FAME 모세관 칼럼, 30 m × 0.25 mm, 막 두께 0.25 μm",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "50 °C 1분 → 20 °C/min로 150 °C(15분 유지) → 20 °C/min로 240 °C(2분 유지)",
+    "flow": "1.0 mL/min",
+    "temp": "전달선 250 °C, 이온원 220 °C",
+    "detection": "EI 70 eV, m/z 40–500 스캔",
+    "injection": "1 μL, 분할비 30:1",
+    "sample_prep": "인도 수산물 양륙장의 500–800 g 개체, 비늘·뼈 제거한 필릿을 다져 −40 °C 보관; 30 g을 클로로폼:메탄올(2:1, 용매:조직 20:1)로 3회 Folch 추출 → 회전증발 → Metcalfe(1966)법으로 메틸에스터화",
+    "standard": "지방산 메틸에스터 표준 혼합물(ME-14-KT, ME-19-KT)과 머무름 시간·피크 면적 비교, NIST 라이브러리(2.0, 2008)로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "DHA·EPA 함량은 생선을 n-3 지방산 공급원으로 비교하는 지표이며, 이 연구는 힐사를 DHA·EPA가 풍부한 어종으로 꼽았다[15]. 전문(Methods) 확인 — 직선성·검출·정량한계·회수율은 본문에 없고, 종별 표는 전문 텍스트에 없어 힐사의 DHA·EPA 수치는 확인하지 못함[15].",
+   "source": [
+    15
+   ],
+   "url": "https://doi.org/10.1155/2016/4027437",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acids (EPA, alpha-linolenic acid, myristic acid)",
+   "compound_ko": "지방산 조성(튀김 전후)",
+   "part": "근육(토막)",
+   "content": "날것: C14:0 30.22%, C18:1 24.37%, C18:3n-3 8.57%, C20:5n-3 1.64%, ΣSFA 42.64%, ΣPUFA 10.21%; 12분 튀김 후 EPA 0.67%, ΣSFA 49.17%[16]",
+   "method": "GC-MS(EI, 지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Clarus 690 가스크로마토그래프 + Clarus SQ 8 C 질량분석기(PerkinElmer)",
+    "column": "Elite-35, 30 m × 0.25 mm, 0.25 μm",
+    "mobile_phase": "운반기체 헬륨(99.99%)",
+    "gradient": "60 °C(0분) → 5 °C/min로 240 °C, 4분 유지(총 40분)",
+    "flow": "1 mL/min",
+    "temp": "주입구 280 °C",
+    "detection": "EI 70 eV",
+    "injection": "1 μL, 비분할(splitless)",
+    "sample_prep": "방글라데시 바리살 시장의 900–1000 g 개체 6마리, 비늘 제거 후 약 3 cm 토막(80–100 g); 겨자기름 170–180 ℃에서 0·3·6·9·12분 튀김 후 4 ℃ 보관; 지질 추출·메틸화 세부는 인용 문헌을 따름",
+    "standard": "NIST 데이터베이스 대조로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "조리(튀김)에 따른 n-3 지방산 손실과 포화·트랜스지방 증가를 보는 지표로 쓰였다[16]. 전문(Methods) 확인 — 지질 추출·메틸화 조건, 검출·정량한계, 회수율은 본문에 없음[16].",
+   "source": [
+    16
+   ],
+   "url": "https://doi.org/10.1002/fsn3.71822",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids (lysine, histidine, leucine, glutamic acid)",
+   "compound_ko": "아미노산 조성(튀김 전후)",
+   "part": "근육(토막)",
+   "content": "날것: 글루탐산 17.80, 아스파르트산 10.78, 류신 8.53, 히스티딘 5.74, 라이신 5.16(단위 표기 없음); 12분 튀김 후 라이신 1.11, 히스티딘 1.32[16]",
+   "method": "아미노산 분석기(이온교환 분리, 후컬럼 반응 형광 검출)",
+   "conditions": {
+    "instrument": "Eppendorf LC 3000 아미노산 분석기",
+    "column": "PEEK 전처리 칼럼 'LUFA' + PEEK 분리 칼럼 'LUFA'",
+    "mobile_phase": "",
+    "gradient": "분석 프로그램 84분",
+    "flow": "0.2 mL/min",
+    "temp": "반응기 125 °C",
+    "detection": "여기 440 nm, 방출 570 nm",
+    "injection": "20 μL",
+    "sample_prep": "시료 100 mg을 페놀 1 mg/L 함유 6 M HCl 10 mL에 녹여 질소 2분 치환·밀봉 → 110 °C 22시간 가수분해 → 여과·회전증발 2회 농축 → 희석액 1 mL → 막 여과",
+    "standard": "가수분해물 보정 표준액(Hydrolysate Calibration Standard H)으로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "필수아미노산(특히 라이신·히스티딘)의 열 손실을 보는 영양 품질 지표로 쓰였다[16]. 전문(Methods) 확인 — 이동상·검출·정량한계·회수율과 결과 단위는 본문에 없음[16].",
+   "source": [
+    16
+   ],
+   "url": "https://doi.org/10.1002/fsn3.71822",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Trace metals (Pb, Cd, As, Cr, Ni, Fe, Zn)",
+   "compound_ko": "미량 금속(납·카드뮴·비소 등)",
+   "part": "근육·지느러미·아가미·장",
+   "content": "전 기관 평균(습중량) 우기 Pb 0.22, As 0.08, Cd 0.01 μg/g, 건기 Pb 0.30, As 0.09, Cd 0.02 μg/g; 근육 Pb 0.09(우기)·0.18 μg/g(건기)[20]",
+   "method": "ICP-MS(Zn은 원자흡광광도법)",
+   "conditions": {
+    "instrument": "ICP-MS NexION 2000(PerkinElmer)으로 As·Pb·Cd·Cr·Co·Ni·Fe·Mn·Cu, 원자흡광광도계 AAS-7000(Shimadzu)으로 Zn",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "기기 조건은 보충 표에 있음(확인 못함)",
+    "injection": "",
+    "sample_prep": "메그나 하구(하티야) 650–1000 g 개체 32마리를 7월(우기)·11월(건기)에 채집; 기관별로 잘라 70–73 °C 48시간 건조, −20 °C 이하 보관; 건조 시료 0.5 g + 진한 질산(68%) 10 mL + 과산화수소(30%) 3 mL, 마이크로파 분해(AOAC 999.10)",
+    "standard": "검량선(R² > 0.999), 내부표준 보정, 인증표준물질(Sigma-Aldrich)",
+    "linearity": "R² > 0.999",
+    "lod": "보충 표에 있음(확인 못함)",
+    "loq": "보충 표에 있음(확인 못함)",
+    "recovery": "NIST SRM 2976(홍합 조직) 회수율 96–103%"
+   },
+   "rationale": "수은을 뺀 유해 금속의 노출량(EDI)·위해지수(THQ)·발암 위해(TR)를 계산하기 위한 정량으로, 힐사 섭취의 안전성 지표로 쓰였다[20]. 전문(Methods) 확인 — 건조 시료를 분석했지만 결과는 습중량으로 표기되었고 환산 방법은 본문에 없음; 수은은 측정하지 않음[20].",
+   "source": [
+    20
+   ],
+   "url": "https://doi.org/10.1038/s41598-023-47142-4",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "날것 토막(방글라데시 바리살 시장, 900–1000 g 개체, 비늘 제거; 뼈 제거 여부 원문에 없음)",
+   "basis": "습량 100 g당(일반성분 %, 무기질 mg/100 g)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 68.5,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 18.52,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 12.32,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 0.71,
+     "unit": "%"
+    },
+    {
+     "name": "칼슘",
+     "value": 344.35,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "인",
+     "value": 323.48,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "철",
+     "value": 5.66,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "아연",
+     "value": 0.82,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "마그네슘",
+     "value": 18.82,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "나트륨",
+     "value": 68.09,
+     "unit": "mg/100 g"
+    },
+    {
+     "name": "칼륨",
+     "value": 345.41,
+     "unit": "mg/100 g"
+    }
+   ],
+   "source": [
+    16
+   ]
+  },
+  {
+   "form": "생살(메그나강산, 힐사 큐브·분말 원료)",
+   "basis": "습량 %",
+   "items": [
+    {
+     "name": "수분",
+     "value": 65.26,
+     "unit": "%"
+    },
+    {
+     "name": "단백질",
+     "value": 18.52,
+     "unit": "%"
+    },
+    {
+     "name": "지방",
+     "value": 15.13,
+     "unit": "%"
+    },
+    {
+     "name": "회분",
+     "value": 1.35,
+     "unit": "%"
+    }
+   ],
+   "source": [
+    17
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "방글라데시",
+   "metric": "production_t",
+   "year": 2023,
+   "value": 571000,
+   "unit": "t",
+   "note": "2022-23 회계연도(7월–이듬해 6월) 힐사 생산량; 방글라데시 수산부 집계를 인용한 언론 보도를 WebSearch 요약으로만 확인(원 통계연보 미확인)",
+   "source": [
+    34
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '힐사이리사' 행(학명 Tenualosa ilisha, 영문 Hilsa shad, 수산물, 부위 '-', 사용가능, 사용 조건 없음)과 같은 속 '납작전어'(Tenualosa reevesii, Reeves shad, 사용가능), 다른 속 '전어'(Konosirus punctatus) 행; 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 및 docs/materials/tenualosa-ilisha/card.json으로 확인",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Biology and fisheries of Hilsa shad in Bay of Bengal. Sci Total Environ 2019;651(Pt 2):1720-1734 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2018.10.034",
+   "publisher": "Science of the Total Environment (PubMed 30316090)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Chromosome-Level Genome Assembly and Comparative Transcriptome Analyses Identified Energy Conservation as a Key Strategy for Anadromous Adaptation of the Hilsa Shad. Biomolecules 2025;15(3):321 (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/biom15030321",
+   "publisher": "Biomolecules (MDPI) (PubMed 40149857, PMC11940632)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Draft genome assembly of Tenualosa ilisha, Hilsa shad, provides resource for osmoregulation studies. Sci Rep 2019;9:16511 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-019-52603-w",
+   "publisher": "Scientific Reports (PubMed 31712633, PMC6848103)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Genome of Tenualosa ilisha from the river Padma, Bangladesh. BMC Res Notes 2018;11:921 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1186/s13104-018-4028-8",
+   "publisher": "BMC Research Notes (PubMed 30577879, PMC6303923)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "First draft genome assembly and identification of SNPs from hilsa shad of the Bay of Bengal. F1000Res 2019;8:320 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.12688/f1000research.18325.1",
+   "publisher": "F1000Research (PubMed 31602298, PMC6774053)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Population Genomics of an Anadromous Hilsa Shad Species across Its Diverse Migratory Habitats: Discrimination by Fine-Scale Local Adaptation. Genes 2020;11(1):46 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.3390/genes11010046",
+   "publisher": "Genes (MDPI) (PubMed 31905942, PMC7017241)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Fine-scale population structure and ecotypes of anadromous Hilsa shad (Tenualosa ilisha) across complex aquatic ecosystems revealed by NextRAD genotyping. Sci Rep 2019;9:16050 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-019-52465-2",
+   "publisher": "Scientific Reports (PubMed 31690767)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Cross-species gene enrichment revealed a single population of Hilsa shad (Tenualosa ilisha) with low genetic variation in Bangladesh waters. Sci Rep 2021;11:11560 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-021-90864-6",
+   "publisher": "Scientific Reports (PubMed 34078978, PMC8173019)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Genetic Diversity, Population Structure, and Demographic History of Anadromous Hilsa Shad Across Diverse Geographical Regions: A Comparative Study Between Bangladesh and Iraq. Ecol Evol 2026;16(4):e73524 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1002/ece3.73524",
+   "publisher": "Ecology and Evolution (PubMed 42028422, PMC13102496)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Differentiating three Indian shads by applying shape analysis from digital images. J Fish Biol 2019;96(6):1298-1308 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.14074",
+   "publisher": "Journal of Fish Biology (PubMed 31192459)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Rapidly shifting baselines in Yangtze fishing communities and local memory of extinct species. Conserv Biol 2010;24(3):778-787 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1111/j.1523-1739.2009.01395.x",
+   "publisher": "Conservation Biology (PubMed 20067488)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Climate anomalies reshape abundance distribution and biological parametric of the endemic longtail shad (Tenualosa macrura) in the Siak River Estuary, Indonesia. Environ Sci Pollut Res 2026;33(13):5997-6019 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1007/s11356-026-37676-1",
+   "publisher": "Environmental Science and Pollution Research (PubMed 41896502)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Nutritional profiling of hilsa (Tenualosa ilisha) of different size groups and sensory evaluation of their adults from different riverine systems. Sci Rep 2019;9:19306 (표는 전문 텍스트에 없어 수치 일부만 확인) (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.1038/s41598-019-55845-w",
+   "publisher": "Scientific Reports (PubMed 31848425, PMC6917730)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "DHA and EPA Content and Fatty Acid Profile of 39 Food Fishes from India. Biomed Res Int 2016;2016:4027437 (전문 텍스트에서 이탤릭 학명이 빠져 있어 힐사 값은 본문 서술로 대응시킴; 표는 확인 못함) (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.1155/2016/4027437",
+   "publisher": "BioMed Research International (PubMed 27579313, PMC4989070)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Impact of Oil Frying on the Physicochemical Properties and Nutritional Quality of Hilsa Fish. Food Sci Nutr 2026;14(5):e71822 (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.1002/fsn3.71822",
+   "publisher": "Food Science & Nutrition (PubMed 42058227, PMC13121863)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Biochemical properties and shelf life of value-added fish cube and powder developed from hilsa shad. Heliyon 2021;7(10):e08137 (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.1016/j.heliyon.2021.e08137",
+   "publisher": "Heliyon (PubMed 34660934, PMC8503861)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Nutrigenomic studies on hilsa to evaluate flesh quality attributes and genes associated with fatty acid metabolism from the rivers Hooghly and Padma. Food Res Int 2018;103:21-29 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodres.2017.10.017",
+   "publisher": "Food Research International (PubMed 29389608)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Nutritional profiling and sensory evaluation of hilsa Tenualosa ilisha (Hamilton, 1822) eggs roe from three different locations of Bangladesh. Sci Rep 2025;15:30894 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-025-16332-7",
+   "publisher": "Scientific Reports (PubMed 40846893, PMC12373840)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Trace metals in transboundary (India-Myanmar-Bangladesh) anadromous fish Tenualosa ilisha and its consequences on human health. Sci Rep 2023;13:19978 (PubMed 도구로 PMC 전문 확인)",
+   "url": "https://doi.org/10.1038/s41598-023-47142-4",
+   "publisher": "Scientific Reports (PubMed 37968367, PMC10651861)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Metal accumulation and health risk assessment in the anadromous fish Tenualosa ilisha across riverine, estuarine, and marine habitats of Bangladesh. Mar Pollut Bull 2026;232:120088 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2026.120088",
+   "publisher": "Marine Pollution Bulletin (PubMed 42442289)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Heavy Metals in the Fish Tenualosa ilisha Hamilton, 1822 in the Padma-Meghna River Confluence: Potential Risks to Public Health. Toxics 2021;9(12):341 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.3390/toxics9120341",
+   "publisher": "Toxics (MDPI) (PubMed 34941775, PMC8708538)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Evaluation of Possible Human Health Risk of Heavy Metals from the Consumption of Two Marine Fish Species Tenualosa ilisha and Dorosoma cepedianum. Biol Trace Elem Res 2019;191(2):485-494 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1007/s12011-018-1616-3",
+   "publisher": "Biological Trace Element Research (PubMed 30560543)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Proteomic Characterization of Major Fish Allergy Responsive Protein Parvalbumins in Hilsa: A Commercially Important Fish in Southeast Asia. J Agric Food Chem 2025;73(47):30551-30564 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jafc.5c04335",
+   "publisher": "Journal of Agricultural and Food Chemistry (PubMed 41248300, PMC12670419)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Bioaccumulation variability and human health risk assessment of organochlorine pesticides in edible fish and shellfish from the Northeast Bay of Bengal. Mar Pollut Bull 2025;215:117856 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2025.117856",
+   "publisher": "Marine Pollution Bulletin (PubMed 40120358)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Microplastics in an anadromous national fish, Hilsa shad Tenualosa ilisha from the Bay of Bengal, Bangladesh. Mar Pollut Bull 2022;174:113236 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2021.113236",
+   "publisher": "Marine Pollution Bulletin (PubMed 34902769)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Bisphenol A contamination in Hilsa shad and assessment of potential health hazard: A pioneering investigation in the national river Ganga, India. J Hazard Mater 2023;461:132532 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jhazmat.2023.132532",
+   "publisher": "Journal of Hazardous Materials (PubMed 37748308)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Broodstock development and captive maturation of hilsa (Tenualosa ilisha) in a brackishwater pond-based system. J Fish Biol 2020;97(3):720-733 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1111/jfb.14426",
+   "publisher": "Journal of Fish Biology (PubMed 32515489)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Estimating peak breeding season, size at first maturity and variation in fecundity and egg-size at different sizes of Hilsa. Heliyon 2023;9(9):e19420 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.heliyon.2023.e19420",
+   "publisher": "Heliyon (PubMed 37681140, PMC10481282)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Reproductive biology of Hilsa Shad Tenualosa ilisha (Hamilton, 1822) in Labuhanbatu waters, Northern Sumatra, Indonesia: a basis for fishing management. Braz J Biol 2025;85:e296985 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1590/1519-6984.296985",
+   "publisher": "Brazilian Journal of Biology (PubMed 41615101)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Understanding Social-Ecological Challenges of a Small-Scale Hilsa (Tenualosa ilisha) Fishery in Bangladesh. Int J Environ Res Public Health 2019;16(23):4814 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.3390/ijerph16234814",
+   "publisher": "IJERPH (MDPI) (PubMed 31795523, PMC6927010)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Effect of hilsa (Tenualosa ilisha) fish in hypercholesterolemic subjects. Bangladesh Med Res Counc Bull 1994;20(1):1-7 (PubMed 도구로 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7880151/",
+   "publisher": "Bangladesh Medical Research Council Bulletin (PubMed 7880151)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Dominant phytoplankton groups as the major source of polyunsaturated fatty acids for hilsa (Tenualosa ilisha) in the Meghna estuary Bangladesh. Sci Rep 2022;12:20980 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-022-24500-2",
+   "publisher": "Scientific Reports (PubMed 36470973, PMC9722787)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "방글라데시 수산부(Department of Fisheries) 집계를 인용한 언론 보도 — 2022-23 회계연도 힐사 생산량 57만 1천 t 등(WebSearch 검색 요약으로만 확인, 원 통계연보·기사 원문은 열지 않음)",
+   "url": "https://thefinancialexpress.com.bd/trade/hilsa-production-now-exceeds-0571m-tonnes-says-minister-in-js",
+   "publisher": "The Financial Express (Bangladesh) 등 언론 보도",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Comparative assessment of human health risk associated with heavy metals bioaccumulation in fish species (Barbus grypus and Tenualosa ilisha) from the Karoon River, Iran. Mar Pollut Bull 2023;188:114623 (PubMed 도구로 초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2023.114623",
+   "publisher": "Marine Pollution Bulletin (PubMed 36689875)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

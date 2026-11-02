@@ -1,0 +1,60 @@
+{
+ "slug": "sanguisorba-minor",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 78,
+ "checked_items": 49,
+ "verified": 118,
+ "fixed": 6,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "술모이풀은 이 가운데 잎만 쓸 수 있는 원료이므로, 뿌리를 쓰는 오이풀 자료와 섞지 않아야 한다[1].",
+   "after": "술모이풀은 잎만 쓸 수 있는 원료이고 오이풀은 잎과 뿌리를 함께 쓸 수 있으므로, 오이풀(특히 뿌리) 자료와 섞지 않아야 한다[1].",
+   "why": "로컬 I1020 원자료: 가는오이풀·카나덴시스오이풀·멘지에시오이풀·S. occidentalis 도 '사용가능부위 : 잎'이라 '이 가운데 잎만'은 틀림. 오이풀(잎·뿌리)만 뿌리 사용 가능"
+  },
+  {
+   "where": "sections.related_species / sources[23]",
+   "before": "1984년 분류 논문은 P. sanguisorba 를 S. minor 와 같은 것으로 보았다고 하나 원문은 열지 못해 WebSearch 요약으로만 확인했다[23]. 최신 Kew POWO 의 정명 처리는 확인하지 못함.",
+   "after": "옛 유럽 문헌에서는 salad burnet 을 Poterium sanguisorba L. 라는 이름으로 적었고, PubMed 는 이 문헌을 오이풀속(Sanguisorba) 주제어로 분류한다[25]. 두 이름 가운데 어느 쪽을 정명으로 보는지에 대한 Kew POWO 등 분류 원자료의 처리는 확인하지 못함.",
+   "why": "[23]은 원문을 열지 못한 WebSearch 요약뿐이라 출처 자격 없음(삭제). 이명 처리 근거는 I1020 학명란[1]과 PubMed 서지(PMID 14388438, 제목 'salad burnet (Poterium sanguisorba L.)', MeSH Sanguisorba)로 대체"
+  },
+  {
+   "where": "sections.safety",
+   "before": "생쥐에 지상부 수알코올 추출물 ... 4주간 100–400 mg/kg을 먹인 아급성 시험에서도 뚜렷한 이상은 없었다[8].",
+   "after": "생쥐에 지상부(줄기·잎) 수알코올 추출물 ... 반수치사량은 3,000 mg/kg보다 높았으며(종설은 약 3,000 mg/kg으로 옮김), 쥐에게 4주간 ... [2][8].",
+   "why": "'지상부'는 [8] 초록에 없고 [2] 종설에만 있음 → [2] 추가. [8] 초록상 아급성 시험 동물은 rats. [2]는 LD50을 '약 3000'으로 적어 차이를 밝힘"
+  },
+  {
+   "where": "sections.safety",
+   "before": "일부 시료에서는 납이 잎채소 기준을 넘어 주의가 필요하다고 했다[9].",
+   "after": "한 종의 마이크로그린에서는 납이 FAO/WHO 잎채소 최대기준(30 μg/100 g 생체중)을 넘어 주의가 필요하다고 했다[9]. ... 질산염 최고·최저값과 납 초과 시료가 어느 종의 것인지는 확인하지 못함.",
+   "why": "[9] 전문: Pb ML 초과는 한 종의 마이크로그린에서만, 기준값 30 μg/100 g FW"
+  },
+  {
+   "where": "compounds[Punicalagin]",
+   "before": "name 'Punicalagin', name_ko '푸니칼라긴 갈레이트(푸니칼라긴 유도체)'",
+   "after": "name 'Punicalagin gallate', name_ko '푸니칼라긴 갈레이트'",
+   "why": "[3] 전문은 punicalagin gallate 로만 보고(뿌리 탄닌의 69.05%). 영문명과 성분이 어긋남"
+  },
+  {
+   "where": "compounds[Polyphenols].content_text",
+   "before": "... 뿌리 121.36 mg/g dw[3]",
+   "after": "... 뿌리 121.36 mg/g dw(초록, 본문 122.07)[3]",
+   "why": "[3] 본문은 SMR 총페놀을 122.07 mg/g dw로 적음"
+  },
+  {
+   "where": "sources",
+   "before": "25개(23 = 1984 Blumea WebSearch 요약)",
+   "after": "25개(23 = 구 24, 24 = 구 25, 25 = PMID 14388438)",
+   "why": "번호 정리"
+  }
+ ],
+ "unverifiable_notes": [
+  "[9] 전문 텍스트에서 이탤릭 학명이 빠져 질산염(5205–6833 mg/kg FW) 범위의 종별 배정과 납 초과 종을 확인하지 못함 — 본문에 그대로 밝힘",
+  "Poterium sanguisorba 와 S. minor 의 분류학적 정명 처리(POWO·WFO·Blumea 1984)는 허용 목록 밖·차단이라 열지 않음. 국가표준식물목록상 '술모이풀' 국명도 확인 불가(I1020 대표명 '술모이풀잎'만 확인)",
+  "확인 근거: I1020_20261013.json 로컬 원자료(술모이풀잎 행·같은 속 12행), PubMed 초록 [5]–[8][10]–[22][24]·[25] 서지, PMC 전문 [2][3][4][9]. 오이풀(S. officinalis) 자료 섞임 점검: 지유·약전 수재·Zi-Yu 등 오이풀 뿌리 내용은 related_species 에서 오이풀로 명시돼 있고, [2] 종설의 'S. minor 뿌리를 중국 전통의학에서 지혈에 썼다'는 오이풀과 혼동 소지가 있는 서술은 원고에 들어 있지 않음을 확인. assays 2건(HPLC-DAD-MS [3], RP-HPLC-DAD [4])의 칼럼·이동상·기울기·유속·검출·주입량·전처리를 전문과 한 칸씩 대조해 일치"
+ ]
+}

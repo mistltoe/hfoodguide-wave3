@@ -1,0 +1,147 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, pmid, pub, pmc=None):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n": n, "title": title, "url": url, "publisher": pub, "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 노무라입깃해파리(Nemopilema nomurai) 1행, 같은 목록의 해파리(Rhopilema esculenta)·보름달물해파리(Aurelia aurita)·Cannonball jellyfish(Stomolophus meleagris) 행 대조(2026-10-13 받은 원자료)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Harada K et al. Antioxidant activity of the giant jellyfish Nemopilema nomurai measured by the oxygen radical absorbance capacity and hydroxyl radical averting capacity methods. Mol Med Rep 2011;4(5):919-922 (초록)", "21667028", "Molecular Medicine Reports (PubMed)"),
+ pm(3, "Kawahara M et al. Stings of edible jellyfish (Rhopilema hispidum, Rhopilema esculentum and Nemopilema nomurai) in Japanese waters. Toxicon 2006;48(6):713-716 (초록)", "16962626", "Toxicon (PubMed)"),
+ pm(4, "Armani A et al. Pentaplex PCR as screening assay for jellyfish species identification in food products. J Agric Food Chem 2014;62(50):12134-12143 (초록)", "25393326", "Journal of Agricultural and Food Chemistry (PubMed)"),
+ pm(5, "Sugahara T et al. Immunostimulation effect of jellyfish collagen. Biosci Biotechnol Biochem 2006;70(9):2131-2137 (초록)", "16960386", "Bioscience, Biotechnology, and Biochemistry (PubMed)"),
+ pm(6, "Morishige H et al. Immunostimulatory effects of collagen from jellyfish in vivo. Cytotechnology 2011;63(5):481-492 (초록)", "21773823", "Cytotechnology (PMC)", "PMC3176933"),
+ pm(7, "Ohta N et al. Jellyfish mucin may have potential disease-modifying effects on osteoarthritis. BMC Biotechnol 2009;9:98 (초록)", "19995451", "BMC Biotechnology (PMC)", "PMC2801673"),
+ pm(8, "Kim HM et al. The genome of the giant Nomura's jellyfish sheds light on the early evolution of active predation. BMC Biol 2019;17(1):28", "30925871", "BMC Biology (PMC)", "PMC6441219"),
+ pm(9, "Complete mitochondrial genome of the jellyfish, [Nemopilema nomurai] (Cnidaria: Scyphozoa) and the phylogenetic relationship in the related species. Mitochondrial DNA B Resour 2017;2(1):165-166", "33473754", "Mitochondrial DNA Part B (PMC)", "PMC7800497"),
+ pm(10, "Dong Z, Liu D, Keesing JK. Jellyfish blooms in China: Dominant species, causes and consequences. Mar Pollut Bull 2010;60(7):954-963 (초록)", "20553695", "Marine Pollution Bulletin (PubMed)"),
+ pm(11, "Fine structure, histochemistry, and morphogenesis during excystment of the podocysts of the giant jellyfish Nemopilema nomurai (Scyphozoa, Rhizostomeae). Biol Bull 2011;221(3):248-260 (초록)", "22186913", "The Biological Bulletin (PubMed)"),
+ pm(12, "Selective suppression of in situ proliferation of scyphozoan polyps by biofouling. Mar Pollut Bull 2016;114(2):1046-1056 (초록)", "27890264", "Marine Pollution Bulletin (PubMed)"),
+ pm(13, "Wang PP, Zhang F, Sun S. Predation effect on copepods by the giant jellyfish Nemopilema nomurai during the early occurrence stage in May in the northern East China Sea and southern Yellow Sea, China. Mar Pollut Bull 2023;186:114462 (초록)", "36521364", "Marine Pollution Bulletin (PubMed)"),
+ pm(14, "Wang J et al. Monthly dietary shifts in the jellyfish Nemopilema nomurai in Liaodong Bay, China. Mar Pollut Bull 2023;193:115115 (초록)", "37300958", "Marine Pollution Bulletin (PubMed)"),
+ pm(15, "Phenological shifts in plankton dynamics reshape pressures on anchovy recruitment in the southern coastal waters of the Korean peninsula. Mar Environ Res 2026;221:108265 (초록)", "42468333", "Marine Environmental Research (PubMed)"),
+ pm(16, "Variation in the Distribution Characteristics of [Nemopilema nomurai] in Relation to Marine Environmental Conditions. Biology (Basel) 2026;15(7):570 (초록)", "41972573", "Biology (PMC)", "PMC13072000"),
+ pm(17, "Wang C et al. Unique Diversity of Sting-Related Toxins Based on Transcriptomic and Proteomic Analysis of the Jellyfish Cyanea capillata and Nemopilema nomurai. J Proteome Res 2019;18(1):436-448 (초록)", "30481029", "Journal of Proteome Research (PubMed)"),
+ pm(18, "Insights into individual variations in nematocyst venoms from the giant jellyfish Nemopilema nomurai in the Yellow Sea. Sci Rep 2019;9(1):3361 (초록)", "30833625", "Scientific Reports (PMC)", "PMC6399247"),
+ pm(19, "Fatal Pulmonary Edema in a Child After Jellyfish Stings in Korea. Wilderness Environ Med 2018;29(4):527-530 (초록)", "30309824", "Wilderness & Environmental Medicine (PubMed)"),
+ pm(20, "Modulation of jellyfish nematocyst discharges and management of human skin stings in Nemopilema nomurai and Carybdea mora. Toxicon 2015;109:26-32 (초록)", "26541574", "Toxicon (PubMed)"),
+ pm(21, "Kang C et al. Cytotoxicity and hemolytic activity of jellyfish Nemopilema nomurai (Scyphozoa: Rhizostomeae) venom. Comp Biochem Physiol C 2009;150(1):85-90 (초록)", "19303056", "Comparative Biochemistry and Physiology C (PubMed)"),
+ pm(22, "Comparative Study of Toxic Effects and Pathophysiology of Envenomations Induced by [Cubozoa 해파리 1종] (Cnidaria: Cubozoa) and [Nemopilema nomurai] (Cnidaria: Scyphozoa) Jellyfish Venoms. Toxins (Basel) 2022;14(12) (초록)", "36548728", "Toxins (PMC)", "PMC9785312"),
+ pm(23, "Lee H et al. Scyphozoan jellyfish venom metalloproteinases and their role in the cytotoxicity. Toxicon 2011;58(3):277-284 (초록)", "21718715", "Toxicon (PubMed)"),
+ pm(24, "Shen W et al. Identification of Novel Anti-Inflammatory Peptides from Jellyfish [Nemopilema nomurai] Enzymatic Hydrolysate: An Integrated In Silico Analysis and Cellular Evaluation. Mar Drugs 2026;24(6):192", "42346778", "Marine Drugs (PMC)", "PMC13301869"),
+ pm(25, "Novel antioxidant peptides from jellyfish (Nemopilema nomurai) hydrolysate: identification, activity, and potential mechanisms. Food Chem 2026:149684 (초록)", "42184520", "Food Chemistry (PubMed)"),
+ pm(26, "Molecular Weight Distribution and Antioxidant Activity of Enzymatic Hydrolysates from [Nemopilema nomurai] and [Rhopilema hispidum] Under Different Enzymatic Hydrolysis Conditions. Mar Drugs 2025;23(12):447", "41440881", "Marine Drugs (PMC)", "PMC12734450"),
+ pm(27, "An aqueous extract of Nomura's jellyfish ameliorates inflammatory responses in lipopolysaccharide-stimulated RAW264.7 cells and a zebrafish model of inflammation. Biomed Pharmacother 2018;100:583-589 (초록)", "29500959", "Biomedicine & Pharmacotherapy (PubMed)"),
+ pm(28, "Imamichi Y, Yokoyama Y. Purification, characterization and cDNA cloning of a novel lectin from the jellyfish Nemopilema nomurai. Comp Biochem Physiol B 2010;156(1):12-18 (초록)", "20102748", "Comparative Biochemistry and Physiology B (PubMed)"),
+ pm(29, "Synthetic ShK-like Peptide from the Jellyfish [Nemopilema nomurai] Has Human Voltage-Gated Potassium-Channel-Blocking Activity. Mar Drugs 2024;22(5) (초록)", "38786608", "Marine Drugs (PMC)", "PMC11122761"),
+ pm(30, "Raposo A et al. Jellyfish as Food: A Narrative Review. Foods 2022;11(18):2773", "35164021", "Foods (PMC)", "PMC9498191"),
+ pm(31, "Zhang H et al. Aluminium in food and daily dietary intake assessment from 15 food groups in Zhejiang Province, China. Food Addit Contam Part B 2016;9(2):73-78 (초록)", "26727195", "Food Additives & Contaminants B (PubMed)"),
+ {"n": 32, "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 고시형 원료 요건 전체에서 해파리 원재료 여부 대조(로컬 원문 docs/refs/MFDS/MFDS_2026-43_고시형원료_요건.json·건강기능식품의기준및규격_2026-43_제1~제3.txt 에서 '해파리' 0건)", "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(33, "Identifying and revealing the geographical variation in Nemopilema nomurai venom metalloprotease and phospholipase A2 activities. Chemosphere 2021;266:129164 (초록)", "33310516", "Chemosphere (PubMed)"),
+ pm(34, "Efficacy of venom from tentacle of jellyfish Stomolophus meleagris (Nemopilema nomurai) against the cotton bollworm Helicoverpa armigera. Biomed Res Int 2014;2014:315853 (초록)", "25162008", "BioMed Research International (PMC)", "PMC4137687"),
+ pm(35, "Biodiversity and distribution patterns of blooming jellyfish in the Bohai Sea revealed by eDNA metabarcoding. BMC Ecol Evol 2024;24(1):37 (초록)", "38500049", "BMC Ecology and Evolution (PMC)", "PMC10946145"),
+ pm(36, "Characterization and neutralization of Nemopilema nomurai (Scyphozoa: Rhizostomeae) jellyfish venom using polyclonal antibody. Toxicon 2014;86:116-125 (초록)", "24751365", "Toxicon (PubMed)"),
+]
+# fix Raposo url (pmid not used since pmc given)
+SEC = [
+("overview", "한눈에 보기",
+"노무라입깃해파리(Nemopilema nomurai)는 근구해파리목(Rhizostomeae)에 속하는 대형 해파리이며[11][21], 우산 지름이 2 m, 무게가 150 kg에 이르기도 한다[2]. 한국·중국·일본 바다에서 대량으로 나타나 그물을 무겁게 하는 등 어업 피해를 주고, 자포(쏘는 세포)의 독으로 피부 증상을 일으킨다[2][21]. 중국 요리에서는 먹는 해파리로 여겨지며, 시판 해파리 식품의 종 판별 대상 5종에도 들어 있다[2][4].\n\n"
+"식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에는 '노무라입깃해파리'(영문명 Nomuras jellyfish, 학명 Nemopilema nomurai) 1행이 식품원료(A코드)·수산물로 올라 있고, 사용가능 부위 칸은 '-', 사용 조건은 비어 있으며 상태는 '사용가능'이다[1]. 「건강기능식품의 기준 및 규격」(고시 제2026-43호) 원문에는 해파리를 원재료로 하는 고시형 원료가 없다[32].\n\n"
+"성분 연구는 우산 조직의 단백질 가수분해 펩타이드, 콜라겐, 뮤신(큐니우뮤신)과 자포 독 단백질에 모여 있으며, 사람 대상 섭취 연구는 확인하지 못했다[5][7][17][24]."),
+("history", "이용 역사",
+"근구해파리목의 큰 해파리 몇 종은 중국과 일본에서 많이 먹으며, 일본 연구진은 노무라입깃해파리(당시 학명 Stomolophus nomurai) 우산 바깥쪽을 재료로 콜라겐 추출물을 만들었다[5]. 2011년 일본 연구는 이 종이 그동안 해로운 생물로 여겨져 버려졌지만 중국 요리에 쓰이는 먹을 수 있는 해파리라는 점에서 동결건조 분말의 항산화능을 측정했다[2]. 일본 연안에서는 이 종을 포함한 식용 해파리 3종을 다루는 수확 작업자에게 쏘임 피부 병변이 흔하다고 보고되었다[3].\n\n"
+"해파리 식품은 대부분 중국·일본·한국으로 수출되어 소비되며, 아시아 전통 가공은 소금과 명반으로 탈수하는 방식이다[30]. 대량 발생이 잦아지면서 한국·중국 연구진은 버려지는 개체를 자원으로 쓰려고 효소 가수분해 펩타이드, 물 추출물 등을 연구해 왔다[24][26][27]. 이 종 단독의 국내 식용 이력이나 유통 기록은 확인하지 못했다[1]."),
+("biology", "생물학적 특징·생태",
+"노무라입깃해파리는 근구해파리목 대형 종으로, 바닥에 붙어 사는 폴립 단계와 떠다니는 메두사 단계를 거친다[8][11]. 이 종의 폴립은 족낭(podocyst)을 만드는 방식으로만 무성생식하며, 족낭은 키틴질 껍질 안에 단백질·탄수화물·지질을 저장한 채 최소 5년간 휴면할 수 있다[11]. 연구진은 이 장기 휴면 능력이 메두사 대량 발생의 주기성에 기여할 것으로 보았다[11].\n\n"
+"메두사는 주로 1000 μm 미만의 작은 요각류와 부유 유기물을 먹는다[13][14]. 2019년 5월 동중국해 북부·황해 남부에서 잡힌 개체(평균 우산 지름 26.06 ± 9.73 cm)는 하루에 요각류를 약 5248 ± 2768마리 먹는 것으로 계산되었다[13]. 랴오둥만 조사에서는 몸이 커질수록 먹이 중 동물성 먹이의 비율이 줄었다[14]. 동중국해 조사(2020–2024년)에서는 주로 수심 40–60 m의 중·저층에 분포했다[16]."),
+("related_species", "관련 종·이름",
+"노무라입깃해파리는 근구해파리목(Rhizostomeae)에 속한다[11][21]. 식품원료 목록에는 다른 해파리인 해파리(Rhopilema esculenta, 이명 숲뿌리해파리)·Cannonball jellyfish(Stomolophus meleagris)·보름달물해파리(Aurelia aurita)가 각각 별도 행으로 올라 있다[1]. 이 종의 자료는 이들 근연 식용 해파리의 자료와 섞지 않아야 한다[1][4].\n\n"
+"옛 문헌에서는 이 종을 Stomolophus nomurai 라는 학명으로 적었다[5][7]. 중국의 한 논문은 제목에 'Stomolophus meleagris (Nemopilema nomurai)'라고 두 학명을 함께 적어, 두 종이 혼동되어 온 사례를 보여 준다[34]. 시판 염장·즉석 해파리 제품은 눈으로 종을 가릴 수 없어, COI 유전자를 겨냥한 다중 PCR로 노무라입깃해파리·Rhopilema esculentum 등 식용 5종을 구분하는 방법이 개발되었다[4].\n\n"
+"영어로는 Nomura's jellyfish 또는 giant jellyfish 로 불린다[8][13]."),
+("cultivation", "발생·어획",
+"노무라입깃해파리는 양식 대상이 아니며, 국내 어획·생산 통계는 확인하지 못했다[1]. 중국 바다에서 대량 발생하는 해파리는 보름달물해파리·Cyanea nozakii·노무라입깃해파리 3종이며, 이 종은 앞바다(외해)에서 대량 발생한다[10]. 부영양화·남획·양식장 조성 같은 서식지 변화·기후변화가 대량 발생을 돕는 요인으로 거론된다[10]. 보하이해 환경 DNA 조사에서도 이 종은 주로 앞바다의 중·저층에서 검출되었다[35].\n\n"
+"한반도 남해안 주요 어장 자료(2010–2020년)에서는 이 종의 대량 발생 정점이 약 1.5개월 앞당겨져 멸치 산란기와 겹치게 되었고, 같은 기간 멸치 생산량 감소와 연관된 것으로 분석되었다[15]. 인공 구조물에 붙인 폴립 실험에서 이 종의 폴립은 7–8개월 안에 부착생물 군집에 밀려 모두 사라졌다[12]. 한국·중국·일본 연안에서 대량 발생과 쏘임 사고가 늘고 있다는 보고가 이어진다[36]."),
+("processing", "가공·추출 연구",
+"식용 해파리는 입팔과 우산을 나누어 씻은 뒤 염화나트륨과 명반(알루미늄염) 혼합물에 여러 번 절여 탈수하며, 종과 방법에 따라 전 과정이 4–40일 걸린다(식용 해파리 일반 자료)[30]. 이 종만의 염장 공정 자료는 확인하지 못했다[30].\n\n"
+"성분 연구에서는 우산 조직을 효소로 가수분해한 펩타이드가 주로 다뤄진다[24][25][26]. 한 연구는 우산 조직을 균질·동결건조해 플라보자임(3000 U/g, 50 °C, 10시간)과 복합 프로테아제(4000 U/g, 같은 조건)로 차례로 분해해 가수분해물(JP-FC)을 얻었고, 이 분말의 단백질은 71.70, 펩타이드는 54.51 g/100 g(건물 기준)이었다[24]. 다른 연구는 이 종과 Rhopilema hispidum 우산을 세 가지 효소로 분해했을 때 플라보자임 가수분해물에 3 kDa 미만 펩타이드가 가장 많았다고 보고했다[26]. 콜라겐 추출물은 우산 바깥쪽을 pH 3.0 묽은 염산에 12시간 담근 뒤 121 °C에서 20분 가열해 얻었다[5]."),
+("genetics", "유전 정보",
+"2013년 9월 통영 해역에서 채집한 메두사로 노무라입깃해파리 유전체가 처음 해독되어 2019년 발표되었다[8]. 조립된 유전체는 213 Mb, 스캐폴드 255개, N50 2.71 Mb, 공백 1.48%였고, 단백질 암호화 유전자 18,962개가 예측되었다[8]. 유전체의 21.07%는 전이인자였으며, 근육 수축 관련 코돈 편향, 신경전달물질 유전자와 미오신 II·독 도메인 유전자군 확장이 능동적 유영·포식과 관련된 것으로 해석되었다[8].\n\n"
+"동중국해에서 잡은 약 10 kg 개체의 미토콘드리아 유전체는 17,024 bp 원형 분자로, 단백질 암호화 유전자 13개, tRNA 6개, rRNA 2개를 가진다[9]. 이 유전체 정보를 바탕으로 사람 전압개폐 칼륨 통로를 막는 ShK 유사 펩타이드 유전자(NnK-1)가 찾아졌다[29]. 시판 해파리 제품의 종 판별에는 COI 유전자 부위가 쓰인다[4]."),
+("safety", "안전성",
+"식품 섭취: 일본의 증례 보고는 노무라입깃해파리를 포함한 식용 해파리 3종을 먹어서 생기는 증상은 의미 있게 나타나지 않는다고 적었다[3]. 이 종의 독 추출물 세포독성은 60 °C 이상에서 크게 줄고 pH 4 이하에서도 급격히 사라졌다(시험관 실험)[21]. 국내 공공기관의 이 종 식품 안전 정보(알레르기·잔류 기준)는 확인하지 못했다[1].\n\n"
+"명반 잔류(식용 해파리 일반 자료이며 이 종 단독 자료는 확인하지 못함): 중국 저장성 조사에서 해파리의 알루미늄은 평균 4862 mg/kg으로 높았고 15개 식품군을 통한 알루미늄 섭취량의 37.6%를 차지했다[31]. 이 조사가 기준으로 쓴 잠정 주간섭취허용량은 주당 체중 kg당 2 mg 이다[31].\n\n"
+"쏘임 독(식품 안전과 별개): 자포 독에서는 단백질분해효소인 메탈로프로테아제가 확인된 독 단백질의 27.5%로 가장 많았다[17]. 독의 용혈 활성은 개체 사이에 최대 77배 차이가 났고, 효소 활성은 해역에 따라서도 달랐다[18][33]. 생쥐 복강 투여 반수치사량은 4.4697 mg/kg이었다(동물 실험)[22]. 한국에서 해파리에 쏘인 어린이가 폐부종으로 숨진 사례가 보고되었고, 원인 종은 이 종으로 추정되었으나 확정되지 않았다[19]. 식초(4% 아세트산)는 이 종의 자포 발사를 곧바로 일으켰고 바닷물은 일으키지 않아, 응급 세척에는 바닷물이 권고되었다[20]."),
+]
+d = {
+ "slug": "nemopilema-nomurai", "name_ko": "노무라입깃해파리", "name_en": "Nomura's jellyfish",
+ "scientific_name": "Nemopilema nomurai",
+ "aliases": ["Nomura's jellyfish", "Nomuras jellyfish", "giant jellyfish", "Stomolophus nomurai"],
+ "sections": [{"key": k, "title": t, "body": b} for k, t, b in SEC],
+ "compounds": [
+  {"name": "Collagen", "name_ko": "콜라겐(산 추출물)", "class": "구조 단백질", "role": "bioactive", "part": "우산 바깥쪽(외산)",
+   "content_text": "함량 수치 없음; pH 3.0 묽은 염산 12시간 침지 후 121 °C 20분 가열 추출물",
+   "activity_ko": "추출물이 사람 하이브리도마 세포의 IgM 생산을 34배 높였고 콜라게네이스 처리로 활성이 사라졌다(세포 실험)[5]. 생쥐에게 먹였을 때 혈청 면역글로불린이 늘었으나 IgE는 변하지 않았다(동물 실험)[6]", "source": [5, 6]},
+  {"name": "Qniumucin", "name_ko": "큐니우뮤신(해파리 뮤신)", "class": "뮤신형 당단백질", "role": "bioactive", "part": "체(추출 부위는 초록에 없음)",
+   "content_text": "함량 수치 없음; 보름달물해파리와 이 종에서 각각 추출해 이온교환 크로마토그래피로 정제",
+   "activity_ko": "토끼 골관절염 모델에서 히알루론산과 함께 무릎에 주사하면 연골 변성이 적었고, 뮤신 단독군은 대조군처럼 연골 결손이 진행되었다(동물 실험)[7]", "source": [7]},
+  {"name": "Protein hydrolysate (JP-FC)", "name_ko": "효소 가수분해 펩타이드 분획(JP-FC)", "class": "펩타이드 혼합물", "role": "marker", "part": "우산 조직",
+   "content_text": "가수분해물 중 단백질 71.70 g/100 g DW, 펩타이드 54.51 g/100 g DW, 1000 Da 미만 분획 37.61%; LC-MS/MS로 펩타이드 2221개 동정",
+   "activity_ko": "LPS 자극 대식세포(RAW264.7)에서 200 μg/mL 처리 시 TNF-α가 613.80에서 405.08 pg/mL로, IL-1β가 732.12에서 136.06 pg/mL로 줄었다(세포 실험)[24]", "source": [24]},
+  {"name": "GPKGYPGP", "name_ko": "펩타이드 GPKGYPGP", "class": "올리고펩타이드(8잔기)", "role": "bioactive", "part": "우산 조직 가수분해물(합성 펩타이드로 시험)",
+   "content_text": "함량 수치 없음; 같은 분획에서 DGIPGMPG·PGFHVPPP 와 함께 선별",
+   "activity_ko": "LPS 자극 대식세포의 NO 생성 억제 겉보기 IC50 87.75 μM로 세 펩타이드 중 가장 강했다(PGFHVPPP 210.68 μM, DGIPGMPG 214.21 μM; 세포 실험)[24]", "source": [24]},
+  {"name": "FNPPPP", "name_ko": "항산화 펩타이드 FNPPPP", "class": "올리고펩타이드(6잔기)", "role": "bioactive", "part": "효소 가수분해 분획(JP-FC)",
+   "content_text": "함량 수치 없음; 하이드록실 라디칼 소거 EC50 0.86 mg/mL(PPPMQPPP 1.25, WDAPLLG 1.69 mg/mL)",
+   "activity_ko": "과산화수소로 산화 스트레스를 준 사람 각질세포(HaCaT)에서 세포 내 활성산소와 MDA를 줄이고 SOD 활성을 높였다(세포 실험, 초록)[25]", "source": [25]},
+  {"name": "Antioxidant capacity (ORAC/HORAC)", "name_ko": "항산화능(ORAC·HORAC)", "class": "총 항산화 지표", "role": "bioactive", "part": "개체 동결건조 분말",
+   "content_text": "ORAC 541 μmol TE/100 g, HORAC 3,687 μmol GAE/100 g(동결건조 시료)",
+   "activity_ko": "ESR 하이드록실 라디칼 소거 IC50 3.3%; 연구진은 동결건조 분말이 식품으로 이로울 수 있다고 제안했다(시험관)[2]", "source": [2]},
+  {"name": "Nemopilema nomurai lectin (NnL)", "name_ko": "렉틴 NnL", "class": "피브리노겐 유사 도메인 렉틴", "role": "bioactive", "part": "체(초록에 부위 없음)",
+   "content_text": "겉보기 분자량 28 kDa(SDS-PAGE)",
+   "activity_ko": "말 적혈구, 고초균, 대장균 K12 를 응집했고 N-아세틸갈락토사민·시알산류가 응집을 억제했다(시험관)[28]", "source": [28]},
+  {"name": "Metalloproteinase", "name_ko": "메탈로프로테아제(자포 독)", "class": "독 효소", "role": "bioactive", "part": "촉수 자포",
+   "content_text": "자포 독에서 확인된 독 단백질 69종 중 27.5%",
+   "activity_ko": "해파리 독의 세포독성과 양의 상관을 보였고, 세포독성 순위는 Cyanea nozakii > 노무라입깃해파리 > 보름달물해파리 > Rhopilema esculenta 였다(세포 실험)[17][23]", "source": [17, 23]},
+  {"name": "Phospholipase A2", "name_ko": "포스포리파아제 A2(자포 독)", "class": "독 효소", "role": "bioactive", "part": "촉수 자포",
+   "content_text": "함량 수치 없음; 31개 독 시료에서 활성의 해역별 차이 확인",
+   "activity_ko": "메탈로프로테아제와 함께 독의 주요 성분으로 용혈·염증·치사 독성에 관여할 수 있다고 보고되었다[33]", "source": [33]},
+  {"name": "NnK-1", "name_ko": "ShK 유사 펩타이드 NnK-1", "class": "독 펩타이드", "role": "bioactive", "part": "유전체에서 찾은 유전자(합성 펩타이드로 시험)",
+   "content_text": "전구체 297개 아미노산에 ShK 유사 펩타이드 5개, 그중 다섯 번째가 NnK-1",
+   "activity_ko": "사람 전압개폐 칼륨 통로 hKv1.3·hKv1.4·hKv1.5 를 막았다(전기생리 시험)[29]", "source": [29]},
+ ],
+ "markers": [], "nutrients": [], "production": [], "world": [],
+ "assays": [
+  {"role": "literature", "compound": "Peptides (JP-FC peptide profile)", "compound_ko": "효소 가수분해 펩타이드(JP-FC)", "part": "우산 조직",
+   "content": "펩타이드 2221개(FDR < 1%) 동정, 전구 단백질 1427개에 대응; 가수분해물 단백질 71.70·펩타이드 54.51 g/100 g DW",
+   "method": "nanoLC-MS/MS(데이터 의존 수집)",
+   "conditions": {"instrument": "Q Exactive 질량분석기 + EASY-nLC 시스템(Thermo Fisher Scientific)", "column": "C18 칼럼(규격은 원문에 없음)",
+     "mobile_phase": "A 0.1% 폼산 수용액, B 0.1% 폼산 아세토나이트릴", "gradient": "선형 기울기(수치는 원문에 없음)", "flow": "", "temp": "",
+     "detection": "데이터 의존 수집(DDA), UniProtKB 자포동물문(taxon 332258) 검색, 시스테인 카바미도메틸화 고정·메티오닌 산화 가변, FDR < 1%",
+     "injection": "",
+     "sample_prep": "우산 조직 세척·균질·동결건조 후 물에 1:40 분산, 플라보자임 3000 U/g 50 °C 10시간 → 복합 프로테아제 4000 U/g 50 °C 10시간, 100 °C 10분 불활성화, 18,000 ×g 15분 4 °C 원심분리 후 상등액 동결건조",
+     "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+   "rationale": "이 종 우산 가수분해물에서 펩타이드를 동정하고 활성 펩타이드(GPKGYPGP 등)를 고른 연구로, 단백질·펩타이드 함량과 분획이 함께 보고되었다. 정량 시험법이 아니라 동정법이어서 검출·정량한계와 회수율은 원문에 없다[24].",
+   "source": [24], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13301869/", "source_kind": "paper"},
+  {"role": "literature", "compound": "Peptide molecular weight distribution", "compound_ko": "펩타이드 분자량 분포", "part": "우산(시판 개체)",
+   "content": "플라보자임 가수분해물의 3 kDa 미만 펩타이드 비율 87.3%와 81.7%, 프로타멕스 59.7%와 40.5%(두 종 값; 본문 추출에서 학명이 빠져 어느 종 값인지 확인 못함)",
+   "method": "HPLC-SEC(크기배제)-UV",
+   "conditions": {"instrument": "HPLC(기종은 원문에 없음)", "column": "TSKgel G2000SWXL(7.8 × 300)", "mobile_phase": "A 0.1% 빙초산 수용액 : B 아세토나이트릴 = 85:15",
+     "gradient": "등용매", "flow": "0.5 mL/min", "temp": "칼럼 25 °C", "detection": "UV 215 nm", "injection": "20 µL",
+     "sample_prep": "동결건조 가수분해물을 물에 10 mg/mL로 녹여 0.22 μm 막 여과",
+     "standard": "소 인슐린(5733.49 Da), 티말파신(3108.275 Da), GGYR(451.48 Da), L-타이로신(247.25 Da), 글리실글리실글리신(189.17 Da)",
+     "linearity": "머무름 시간–lg MW 검량선 R² 0.9978(100–6000 Da)", "lod": "", "loq": "", "recovery": ""},
+   "rationale": "가수분해 펩타이드의 항산화 활성이 분자량(3 kDa 미만 비율)과 관련되어 분자량 분포가 품질 지표로 쓰였다. 시료는 이 종과 Rhopilema hispidum 두 종이므로 값의 종 귀속에 주의해야 한다[26].",
+   "source": [26], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12734450/", "source_kind": "paper"},
+  {"role": "literature", "compound": "FNPPPP / PPPMQPPP / WDAPLLG", "compound_ko": "항산화 펩타이드", "part": "효소 가수분해 분획(JP-FC)",
+   "content": "하이드록실 라디칼 소거 EC50 FNPPPP 0.86, PPPMQPPP 1.25, WDAPLLG 1.69 mg/mL; 분획 전체 EC50 ·OH 1.03, 초과산화 음이온 2.05, DPPH 4.94 mg/mL",
+   "method": "LC-MS/MS 동정 + 라디칼 소거 시험",
+   "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+   "rationale": "이 종 가수분해물에서 항산화 활성을 나타내는 펩타이드 서열을 찾은 연구다. 전문 확인 못함(초록만 확인)이어서 분석 조건 칸은 비웠다[25].",
+   "source": [25], "url": "https://pubmed.ncbi.nlm.nih.gov/42184520/", "source_kind": "paper"},
+ ],
+ "gi": [], "orgs": [],
+ "sources": S,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("ok")

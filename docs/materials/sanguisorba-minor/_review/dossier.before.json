@@ -1,0 +1,506 @@
+{
+ "slug": "sanguisorba-minor",
+ "name_ko": "술모이풀",
+ "name_en": "Salad burnet (small burnet)",
+ "scientific_name": "Sanguisorba minor Scop.",
+ "aliases": [
+  "술모이풀잎",
+  "Poterium sanguisorba L.(이명)",
+  "Salad burnet",
+  "Small burnet",
+  "Lesser burnet",
+  "Burnet"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "술모이풀(Sanguisorba minor Scop.)은 장미과 오이풀속의 여러해살이풀로, 영어로는 salad burnet·small burnet 등으로 불린다[1][2]. 어린잎에서 오이와 비슷한 맛이 나서 유럽에서는 샐러드와 음료의 향을 내는 채소·허브로 써 왔다[2][4].\n\n식품의약품안전처 「식품원료 목록」에는 '술모이풀잎' 한 행이 '사용가능' 원료로 올라 있고, 사용 조건은 '사용가능부위 : 잎'이어서 잎만 식품원료로 쓸 수 있다[1]. 같은 행의 학명란에는 Sanguisorba minor Scop.와 이명 Poterium sanguisorba L.가 함께 적혀 있어 두 이름을 같은 원료로 다룬다[1]. 국문명 '술모이풀'의 출처는 이 목록뿐이고, 국가표준식물목록 등 국내 식물명 원자료에서의 정명 여부는 확인하지 못함. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함. 카드 자료의 유럽연합 신규식품(Novel Food) 목록 표시는 EU 원문으로 확인하지 못함.\n\n잎에는 퀘르세틴 글루쿠로니드 같은 플라보노이드와 엘라그산 유도체·가수분해형 탄닌이 많다고 보고되었다[3][6]. 쥐 실험에서는 수에탄올 추출물이 스코폴라민으로 일으킨 기억 장애(복강 주사)[16], D-갈락토스 노화 모델의 뇌·간 손상[17], 이소프레날린으로 일으킨 심근 손상(지상부 추출물 경구)[18]을 줄였고, 시험관에서는 에탄올 추출물이 아세틸콜린에스터레이스를 78%(1 mg/mL) 억제했다[20]. 이런 효과는 모두 시험관·동물 실험 결과이고, 사람을 대상으로 한 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "속명 Sanguisorba 는 라틴어로 '피'와 '빨아들이다(멈추다)'를 뜻하는 말에서 왔고, 이 속 식물을 지혈에 쓰던 데서 붙은 이름으로 설명된다[2][3]. 종소명 minor 는 다른 오이풀류보다 작은 크기를 가리킨다[2].\n\n유럽 민간에서는 술모이풀을 우림차나 팅크로 만들어 결막염·열·설사에 썼다고 전해지며, 1633년 제라드의 본초서에는 뿌리 제제를 상처에 바르고 이질과 월경 조절에 먹었다는 기록이 있다고 소개된다[2]. 잎은 전염병을 막는다고 믿어 포도주 향을 내는 데 쓰였고, 미국 독립전쟁 때 병사들이 출혈을 막으려고 이 풀의 차를 마셨다는 이야기도 전해진다[2]. 다만 이 일화들은 종설이 옛 문헌을 옮긴 것이며 효과가 과학적으로 확인된 것은 아니다[2].\n\n이탈리아에서는 들나물을 섞어 먹는 전통 요리에 가장 자주 인용되는 종 가운데 하나이고, 건강에 좋은 '음식 약'으로 여겨 온 야생 식용식물로 꼽힌다[13][14]. 튀르키예 카이세리 지역 민간의학에서는 아종 subsp. muricata 의 지상부 달임물을 복통·속쓰림 등 위장 증상에 써 왔다[19]. 루마니아에서는 입맛을 돋운다고 여겨 샐러드·수프 등에 넣는다고 한다[2]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "술모이풀은 땅속에 가지를 친 단단한 뿌리줄기(약 25–40 cm)를 가진 여러해살이풀이다[2]. 곧게 선 줄기는 20–50 cm 정도이고, 잎은 홀수깃꼴겹잎으로 뿌리잎은 길이 5–15 cm에 작은잎이 11–25장 달린다[2]. 루마니아 채집 개체는 키가 25–55 cm였고, 잎 양면에 끝이 뾰족한 원뿔형 비선모가 있었다[3].\n\n꽃잎이 없는 작은 꽃이 줄기 끝에 둥근 머리 모양으로 빽빽이 모여 피며, 꽃차례 위쪽은 암꽃, 가운데는 양성꽃, 아래쪽은 수꽃이다[2]. 꽃은 5–8월에 피고 씨앗(수과)은 7–9월에 맺히며, 잎은 사계절 푸르게 남아 일 년 내내 잎을 얻을 수 있는 드문 야생 채소로 소개된다[2].\n\n유럽 대부분과 북아프리카·아시아에 분포하고, 다소 건조한 석회질 토양이나 물 빠짐이 좋은 척박한 땅을 좋아한다[2]. 유럽에서는 석회질 초지를 대표하는 종으로 다뤄진다[12]. 꽃가루가 많아 벌 등 꽃가루 매개 곤충이 찾아온다[2]. 국내 자생 여부는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 구별",
+   "body": "식품원료 목록에는 같은 속의 오이풀(Sanguisorba officinalis L., 잎·뿌리 사용가능), 가는오이풀(S. tenuifolia), 산오이풀(S. hakusanensis), 카나덴시스오이풀(S. canadensis), 멘지에시오이풀(S. menziesii), Sanguisorba occidentalis 가 각각 별도 원료로 올라 있다[1]. 술모이풀은 이 가운데 잎만 쓸 수 있는 원료이므로, 뿌리를 쓰는 오이풀 자료와 섞지 않아야 한다[1].\n\n가장 혼동하기 쉬운 종은 오이풀이다[3]. 한국·중국에서 '지유'로 불리며 중국·유럽·러시아 약전에 실린 것은 오이풀의 말린 뿌리이고, 술모이풀이 아니다[3]. 오이풀은 키 30–150 cm로 습한 풀밭에, 술모이풀은 25–55 cm로 건조한 초지에 자란다[3]. 루마니아 비교 연구에서 술모이풀은 오이풀보다 탄닌이 약 1.5배 많았고, 잎의 주된 플라보노이드가 오이풀은 퀘르세틴 배당체, 술모이풀은 퀘르세틴 글루쿠로니드로 달랐다[3].\n\n학명은 Sanguisorba minor Scop.와 Poterium sanguisorba L.가 같은 식물을 가리키며, 국내 목록도 두 이름을 함께 적는다[1]. 1984년 분류 논문은 P. sanguisorba 를 S. minor 와 같은 것으로 보았다고 하나 원문은 열지 못해 WebSearch 요약으로만 확인했다[23]. 최신 Kew POWO 의 정명 처리는 확인하지 못함. 아종으로는 subsp. muricata 가 연구에 자주 쓰였고, 세계식물목록(WFO)에는 여섯 아종이 실려 있다고 소개된다[2][19][22]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "술모이풀은 척박하고 건조한 석회질 땅에서도 잘 자라며, 그리스 실험에서는 피트 단독 배지에서 지상부·뿌리 건물중이 가장 많았고 피트:펄라이트(1:1) 배지에서는 생육이 크게 나빠졌다[2][7]. 같은 그리스 연구진은 무기질 비료를 ha당 330 kg(절반 시비)·660 kg(전량 시비) 주어 성분 변화를 비교했다[6].\n\n이탈리아에서는 양액(수경)으로 길러 파종 15일·30일 뒤에 잎을 두 번 베어 신선편이 채소로 쓰는 방법이 시험되었다[10]. 어린 싹 채소(마이크로그린)와 어린잎 채소(베이비 그린)로 수경 재배한 연구도 있다[9].\n\n사료 작물로도 연구되어, 튀르키예 46개 유전형의 생초 수량은 ha당 3737–18,182 kg, 건초 수량은 1713–5777 kg, 조단백질은 9.33–14.41%였다[11]. 목초지 연구에서는 콩과가 아닌 사료용 초본으로 다뤄져, 수확 시기에 따른 α-토코페롤·β-카로틴·루테인 함량 변화가 조사되었다[24]. 국내 재배 면적·생산량 통계와 지리적 표시 등록은 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품으로는 주로 어린잎을 날로 샐러드에 넣거나 익혀 먹고, 음료·포도주·식초·치즈·버터·달걀·고기 요리의 향을 내는 데 쓴다[2][4]. 맛은 고소하면서 오이 향이 난다고 묘사된다[2]. 이탈리아에서는 여러 들나물을 섞은 샐러드·수프·파이에 들어간다[13].\n\n수경 재배한 잎을 신선편이 제품으로 15일 저장해도 페놀 함량과 항산화 능력에 뚜렷한 변화가 없었다[10]. 지중해 야생 식용식물 13종 비교에서 술모이풀은 친수성 총항산화 활성과 총페놀이 가장 높은 종에 들었다[25]. 말린 가루를 항산화 성분이 적은 옥수수기름·해바라기기름에 넣어 산화 안정성을 높이는 연구도 소개된다[2].\n\n씨앗의 기름 함량은 유전형에 따라 8.85–15.66%이고[2], 씨앗 기름에서는 리놀레산(43.25%)·α-리놀렌산(25.33%)·올레산(20.73%)이 주된 지방산이었다[21]. 국내 건강기능식품 원료로서의 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 품종",
+   "body": "종설에 따르면 술모이풀과 오이풀의 염색체 수는 2n = 28과 56 두 값이 보고되어 있다[2]. 유럽 전역 38개 집단을 AFLP 분자표지로 분석한 연구는 동·서 두 계통이 뚜렷이 나뉘고, 빙하기 뒤 이베리아반도와 프랑스·벨기에·독일 등의 북쪽 피난처에서 중부 유럽으로 넓게 다시 퍼졌다고 보았다[12].\n\n튀르키예에서 모은 46개 야생 유전형은 수량·사료 품질의 모든 형질에서 통계적으로 유의한 차이를 보여 우수 유전형 선발의 가능성이 제시되었다[11]. 아종 subsp. muricata 의 꽃밥에서는 녹말·단백질 알갱이가 쌓이고 꽃밥 안에 단백질로 찬 풍선 모양 구조가 관찰되었다[22]. 등록된 식용 품종, 전체 유전체 해독 여부는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "국내에서는 잎만 '사용가능' 원료로 쓸 수 있고, 뿌리·씨앗 등 다른 부위는 이 원료의 사용 가능 부위에 들어 있지 않다[1]. 식약처·농촌진흥청 등 국내 공공기관의 알레르기·잔류농약 관련 정보는 확인하지 못함.\n\n생쥐에 지상부 수알코올 추출물을 한 번 먹인 급성 독성 시험에서 무독성량은 2,000 mg/kg까지였고 반수치사량은 3,000 mg/kg보다 높았으며, 4주간 100–400 mg/kg을 먹인 아급성 시험에서도 뚜렷한 이상은 없었다[8]. 다만 3,000 mg/kg 투여 동물에서 근육 경련과 무기력이 48시간 안에 사라지는 정도로 나타났다[2]. 이는 추출물 동물 실험이며, 사람에게서의 안전성 시험은 확인하지 못함.\n\n종설은 자료가 부족해 임신·수유 중에는 쓰지 말고, 탄닌이 많아 오래 계속 먹지 말며, 플루오로퀴놀론계 항생제와 상호작용할 수 있다고 적었다[2]. 수경 재배한 마이크로그린·베이비 그린 연구에서 세 야생종의 질산염은 평균 5205–6833 mg/kg(생체중)으로 모든 시료가 2000 mg/kg을 넘었고, 일부 시료에서는 납이 잎채소 기준을 넘어 주의가 필요하다고 했다[9]. 그 연구의 전문 텍스트에서는 종 이름이 빠져 있어 어느 수치가 술모이풀의 것인지 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Quercetin 3-O-glucuronide",
+   "name_ko": "퀘르세틴-3-글루쿠로니드",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "잎·지상부",
+   "content_text": "잎 70% 에탄올 추출물에서 주된 플라보노이드(HPLC-DAD-MS)[3]; 개별 함량은 전문 텍스트에서 확인하지 못함",
+   "activity_ko": "시험관에서 사람 플라스민을 경쟁적으로 억제하고 유방암 세포의 플라스민 유도 부착 소실을 막음(세포 실험)[15]",
+   "source": [
+    3,
+    15
+   ]
+  },
+  {
+   "name": "Punicalagin",
+   "name_ko": "푸니칼라긴 갈레이트(푸니칼라긴 유도체)",
+   "class": "엘라지탄닌",
+   "role": "bioactive",
+   "part": "잎·뿌리",
+   "content_text": "잎에서 검출, 뿌리에서는 총 탄닌의 69.05%로 우세(HPLC-DAD-MS)[3]",
+   "activity_ko": "잎 추출물의 항균 활성에 기여하는 성분으로 추정(시험관)[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Ellagic acid",
+   "name_ko": "엘라그산(엘라그산 헥소시드 포함)",
+   "class": "페놀산(엘라그산 유도체)",
+   "role": "bioactive",
+   "part": "잎·뿌리",
+   "content_text": "엘라그산 헥소시드가 잎 총 탄닌의 34.82%; 유리 엘라그산은 뿌리에서만 소량 검출[3]; 전초에서 분리[5]",
+   "activity_ko": "아세틸콜린에스터레이스 억제 성분으로 거론(동물 실험 해석)[2]",
+   "source": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "name": "Sanguiin H-10",
+   "name_ko": "산귀인 H-10",
+   "class": "엘라지탄닌",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "무시비 재배 잎에서 특히 우세한 가수분해형 탄닌(수치는 초록에 없음)[6]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Sanguiin H-1",
+   "name_ko": "산귀인 H-1",
+   "class": "엘라지탄닌",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃의 주된 탄닌(총 탄닌의 62.89%)[3]",
+   "activity_ko": "꽃 추출물 항균 활성과 연관된 성분으로 해석(시험관)[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Lambertianin C",
+   "name_ko": "람베르티아닌 C",
+   "class": "엘라지탄닌",
+   "role": "bioactive",
+   "part": "부위는 초록에서 확인하지 못함(잎·뿌리 시료 중)",
+   "content_text": "절반 시비(330 kg/ha) 처리 시료 84 ± 1 mg/g 건조 추출물[6]",
+   "activity_ko": "총페놀 함량을 높인 주된 엘라지탄닌[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Quercetin 3-O-glucoside",
+   "name_ko": "퀘르세틴-3-글루코시드(이소퀘르시트린)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "캠페롤-3-글루코시드와 함께 잎 총페놀의 52%(다른 연구 인용)[3]",
+   "activity_ko": "잎의 주요 페놀 성분[2][3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-glucoside",
+   "name_ko": "캠페롤-3-글루코시드(아스트라갈린)",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "퀘르세틴-3-글루코시드와 합쳐 잎 총페놀의 52%(다른 연구 인용)[3]",
+   "activity_ko": "잎의 주요 페놀 성분[2][3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "채집 식물(부위는 원문에서 확인하지 못함)",
+   "content_text": "부탄올 분획 278.4 ± 1.20 µg/g, 물 분획 32.87 ± 0.23 µg/g 건조 추출물(HPLC-DAD)[4]",
+   "activity_ko": "분획의 시험관 항산화 활성에 기여하는 성분으로 해석[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Apigenin",
+   "name_ko": "아피제닌",
+   "class": "플라본",
+   "role": "bioactive",
+   "part": "채집 식물(부위는 원문에서 확인하지 못함); 잎",
+   "content_text": "에틸아세테이트 분획 156.8 ± 0.95 µg/g, 디클로로메탄 분획 84.75 ± 0.60 µg/g 건조 추출물[4]; 종설은 잎의 두 주요 플라보노이드 가운데 하나로 소개[2]",
+   "activity_ko": "시험관 항산화 활성에 기여하는 성분으로 해석[4]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨(이성질체·이량체 포함)",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "뿌리에서 B형 (에피)카테킨 이량체 50.632 mg/g 건조중량[3]; 전량 시비 뿌리의 플라보노이드 대부분[6]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    3,
+    6
+   ]
+  },
+  {
+   "name": "2-(4-Carboxy-3-methoxystyryl)-2-methoxysuccinic acid",
+   "name_ko": "2-(4-카복시-3-메톡시스티릴)-2-메톡시숙신산",
+   "class": "특이 페놀성 카복실산",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "전초에서 처음 분리·구조 확인(NMR·ESI-MS), 함량은 초록에 없음[5]",
+   "activity_ko": "이 종에서 처음 보고된 특이 성분[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "7-Hydroxy-4,8-dimethoxy-2-oxochromene-5,6-dicarboxylic acid",
+   "name_ko": "4,8-디메톡시-7-히드록시-2-옥소-2H-1-벤조피란-5,6-디카복실산",
+   "class": "쿠마린 디카복실산",
+   "role": "bioactive",
+   "part": "전초",
+   "content_text": "전초에서 처음 분리·구조 확인, 함량은 초록에 없음[5]",
+   "activity_ko": "자연계에서 드문 쿠마린 디카복실산 유도체로 소개[2][5]",
+   "source": [
+    2,
+    5
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "α-리놀렌산",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "지상부·씨앗",
+   "content_text": "지상부 지방산의 49.4–52.4%[2]; 씨앗 기름 25.33%(초록 표기 'α-linoleic acid')[21]",
+   "activity_ko": "지상부의 주된 지방산[2][7]",
+   "source": [
+    2,
+    7,
+    21
+   ]
+  },
+  {
+   "name": "Oxalic acid",
+   "name_ko": "옥살산",
+   "class": "유기산",
+   "role": "bioactive",
+   "part": "지상부·뿌리",
+   "content_text": "시트르산과 함께 주된 유기산, 뿌리가 지상부보다 높음(수치는 초록·종설에 없음)[2][7]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    2,
+    7
+   ]
+  },
+  {
+   "name": "Polyphenols",
+   "name_ko": "총페놀(HPLC 합계)",
+   "class": "페놀성 화합물(총량)",
+   "role": "bioactive",
+   "part": "잎·꽃·뿌리",
+   "content_text": "잎 160.96 mg/g 건조중량(초록), 본문에서는 186.56 mg/g dw로 달리 적음; 꽃 131.56, 뿌리 121.36 mg/g dw[3]",
+   "activity_ko": "잎 추출물의 항균 활성과 연관(시험관)[3]",
+   "source": [
+    3
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Quercetin 3-O-glucuronide",
+   "compound_ko": "퀘르세틴-3-글루쿠로니드(잎 페놀 프로필)",
+   "part": "잎(2021년 5월 루마니아 클루지 채집)",
+   "content": "잎의 주된 플라보노이드; 잎 HPLC 총페놀 160.96 mg/g dw(초록)·186.56 mg/g dw(본문)[3]",
+   "method": "HPLC-DAD-MS(ESI, 양이온 모드), 외부표준법",
+   "conditions": {
+    "instrument": "Agilent 1200 HPLC(4원 펌프·DAD) + Agilent 6110 단일 사중극자 질량분석기",
+    "column": "Kinetex XB-C18(5 μm, 4.5 × 150 mm, Phenomenex)",
+    "mobile_phase": "A: 0.1% 포름산 물, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "5% B 2분 유지 → 20분간 5–90% B → 90% B 4분 유지 → 6분간 5% B로(총 30분)",
+    "flow": "0.5 mL/min",
+    "temp": "25 ± 0.5 °C",
+    "detection": "280·350 nm; ESI 양이온 스캔 m/z 120–1200, 가스 350 °C, 질소 7 L/min, 분무기 35 psi, 모세관 3000 V, 프래그멘터 100 V",
+    "injection": "20 μL",
+    "sample_prep": "분쇄 시료 1 g + 70% 에탄올 10 mL, 1분 와류·30분 초음파, 4 °C 24시간 보관 뒤 10,000 rpm 10분 원심분리, 3회 반복해 10 mL로 농축, 0.45 μm 나일론 필터",
+    "standard": "갈산·클로로겐산·루틴 검량선(1–100 μg/mL)",
+    "linearity": "결정계수 0.9937–0.9981",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "술모이풀 잎에서 퀘르세틴 글루쿠로니드가 주된 플라보노이드로, 잎을 오이풀 잎(퀘르세틴 글루코시드 우세)과 구별하는 성분이다[3]. 전문 확인함: 개별 성분 함량은 표에 있어 전문 텍스트에서 확인하지 못했고 검출·정량한계·회수율은 본문에 없어 비워 둠.",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9785539/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴",
+   "part": "그늘에 말린 채집 식물(2021년 9월 알제리 테베사), 70% 메탄올 추출물의 분획(부위는 원문에서 확인하지 못함)",
+   "content": "부탄올 분획 278.4 ± 1.20 µg/g, 물 분획 32.87 ± 0.23 µg/g 건조 추출물[4]",
+   "method": "RP-HPLC-DAD(280 nm), 외부표준법",
+   "conditions": {
+    "instrument": "",
+    "column": "Intersil ODS-3 역상 C18(규격은 원문에 없음)",
+    "mobile_phase": "A: 0.5% 아세트산 물, B: 0.5% 아세트산 메탄올",
+    "gradient": "0–10% B(0–0.01분), 10–20%(0.01–5분), 20–30%(5–15분), 30–50%(15–25분), 50–65%(25–30분), 65–75%(30–40분), 75–90%(40–50분), 90–10%(50–55분)",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "DAD 280 nm",
+    "injection": "20 μL",
+    "sample_prep": "말린 가루 700 g을 메탄올/물(70/30)로 24시간 냉침, 농축 뒤 뜨거운 물에 녹여 디클로로메탄·에틸아세테이트·n-부탄올 순으로 액액분배; 각 분획을 물/메탄올(80/20)에 녹여 0.20 μm 필터",
+    "standard": "26종 페놀 표준품, 검량 농도 0.00782–1.0 ppm",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "부탄올·물 분획에서 가장 많은 페놀 성분이어서 분획의 항산화 활성 해석에 쓰였다[4]. 전문 확인함: 직선성·검출한계·회수율은 본문에 없어 비워 둠, 원문 방법 절에 '아카시아 추출물'이라는 오기가 있음.",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10748046/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — '술모이풀잎'(학명란 'Sanguisorba minor Scop. / Poterium sanguisorba L.', 영명 Salad burnet, 사용가능, '사용가능부위 : 잎') 행과 같은 속 오이풀·가는오이풀·산오이풀·카나덴시스오이풀·멘지에시오이풀·Sanguisorba occidentalis 행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Sanguisorba minor Scop.: An Overview of Its Phytochemistry and Biological Effects. Plants (Basel) 2023;12(11):2128 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10255321/",
+   "publisher": "MDPI (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Evaluation of Polyphenolic Composition and Antimicrobial Properties of Sanguisorba officinalis L. and Sanguisorba minor Scop. Plants (Basel) 2022;11(24):3561 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9785539/",
+   "publisher": "MDPI (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Assessment of Chemical Composition and In Vitro Antioxidant, Antidiabetic, Anticholinesterase and Microbial Virulence-Quenching Effects of Salad Burnet (Sanguisorba minor L.) Harvested from Algeria. Plants (Basel) 2023;12(24):4134 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10748046/",
+   "publisher": "MDPI (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Unique phenolic carboxylic acids from Sanguisorba minor. Phytochemistry 2003;63(4):433-436 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12770593/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Bioactive properties of Sanguisorba minor L. cultivated in central Greece under different fertilization regimes. Food Chemistry 2020;327:127043 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32470801/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Chemical composition and bioactive properties of Sanguisorba minor Scop. under Mediterranean growing conditions. Food & Function 2019;10(3):1340-1351 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30761392/",
+   "publisher": "Royal Society of Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Acute and sub-acute toxicity assessment of the standardized extract of Sanguisorba minor. Journal of Complementary & Integrative Medicine 2021;19(4):987-997 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34881541/",
+   "publisher": "De Gruyter (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Antioxidant and Mineral Composition of Three Wild Leafy Species: A Comparison Between Microgreens and Baby Greens. Foods 2019;8(10):487 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835962/",
+   "publisher": "MDPI (PubMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Hydroponically Grown Sanguisorba minor Scop.: Effects of Cut and Storage on Fresh-Cut Produce. Antioxidants (Basel) 2019;8(12):631 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31818034/",
+   "publisher": "MDPI (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Evaluation of forage yield and nutritive value of lesser burnet genotypes. Scientific Reports 2025 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40175420/",
+   "publisher": "Springer Nature (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Molecular markers provide evidence for a broad-fronted recolonisation of the widespread calcareous grassland species Sanguisorba minor from southern and cryptic northern refugia. Plant Biology 2017 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28387987/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Wild food plants used in traditional vegetable mixtures in Italy. Journal of Ethnopharmacology 2016 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26944238/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Perceived health properties of wild and cultivated food plants in local and popular traditions of Italy: A review. Journal of Ethnopharmacology 2013 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23395624/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Sanguisorba minor extract suppresses plasmin-mediated mechanisms of cancer cell migration. Biochimica et Biophysica Acta 2012 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22348918/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Effect of Sanguisorba minor on scopolamine-induced memory loss in rat: involvement of oxidative stress and acetylcholinesterase. Metabolic Brain Disease 2022 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34982352/",
+   "publisher": "Springer (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Standardized extract of Sanguisorba minor attenuates injury in aging rat model via the Nrf2/HO-1 pathway. Acta Neurobiologiae Experimentalis 2022 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36748966/",
+   "publisher": "Nencki Institute (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Cardioprotective effect of Sanguisorba minor against isoprenaline-induced myocardial infarction in rats. Frontiers in Pharmacology 2023 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38223198/",
+   "publisher": "Frontiers (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Anti-ulcerogenic activity of some plants used in folk medicine of Pinarbasi (Kayseri, Turkey). Journal of Ethnopharmacology 2005 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16085377/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "The in vitro screening for acetylcholinesterase inhibition and antioxidant activity of medicinal plants from Portugal. Journal of Ethnopharmacology 2006 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16737790/",
+   "publisher": "Elsevier (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Exploring Antimicrobial Activities of Fixed Oil From Sanguisorba minor Seeds by In Vitro and In Silico Analysis. ChemistryOpen 2026;15(7):e70250 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42394206/",
+   "publisher": "Wiley (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Some anther structures in Sanguisorba minor Scop. (Rosaceae). Pakistan Journal of Biological Sciences 2011 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21916268/",
+   "publisher": "ANSInet (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Poterium 과 Sanguisorba 의 학명 관계를 다룬 1984년 Blumea 논문(네덜란드 Naturalis 저장소 PDF) — 원문을 열지 못하고 WebSearch 요약으로만 확인함",
+   "url": "https://repository.naturalis.nl/pub/525973/BLUM1984030001008.pdf",
+   "publisher": "Naturalis Biodiversity Center (WebSearch 요약만 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Interrelations between herbage yield, α-tocopherol, β-carotene, lutein, protein, and fiber in non-leguminous forbs, forage legumes, and a grass-clover mixture as affected by harvest date. Journal of Agricultural and Food Chemistry 2015 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25573460/",
+   "publisher": "American Chemical Society (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Nutritional and antioxidant properties of wild edible plants and their use as potential ingredients in the modern diet. International Journal of Food Sciences and Nutrition 2013 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23944868/",
+   "publisher": "Taylor & Francis (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

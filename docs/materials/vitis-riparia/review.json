@@ -1,0 +1,80 @@
+{
+ "slug": "vitis-riparia",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 119,
+ "checked_items": 46,
+ "verified": 153,
+ "fixed": 10,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.biology",
+   "before": "꽃은 암꽃만 피는 개체(암그루형)와 양성화 개체가 있으며, 'Manitoba 37'은 암꽃형으로 검은 열매를 맺는다[4].",
+   "after": "'Manitoba 37'은 암꽃(pistillate)형으로 검은 열매를 맺는다[4].",
+   "why": "[4] 의 양성화 형질은 교배 상대 'Seyval blanc'(교잡 품종)에서 온 것으로, 순수 V. riparia 에 양성화 개체가 있다는 근거가 아님"
+  },
+  {
+   "where": "sections.biology",
+   "before": "뿌리에서는 혹을 만들지 않는 Agrobacterium vitis 균주가 흔히 분리되었다[22].",
+   "after": "미국 뉴욕주 야생 개체 66그루 가운데 41그루의 뿌리에서 Agrobacterium vitis가 분리되었고, 조사한 균주는 모두 혹을 만들지 않았다[22].",
+   "why": "[22] 초록의 수치(66그루 중 41그루, 모두 비종양성)로 구체화"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "원산지 북미에서 자생하며, 겨울이 추운 미국 미시간주의 숲 서식지에서도 토종 덩굴로 자란다[17].",
+   "after": "원산지 북미에서 자생하며, 미국 미시간주에서는 외래 덩굴 Celastrus orbiculatus와 같은 서식지에 자라는 토종 덩굴이다[17].",
+   "why": "[17] 초록에 '숲' 서식지 언급 없음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "효모 동화성 질소 관련 QTL이 확인되었다[5].",
+   "after": "효모 동화성 질소 관련 QTL이 확인되었다[4, 5].",
+   "why": "[5] 초록은 V. riparia 부모를 'Manitoba 37'로 적지 않음 — 부모 이름은 [4] 전문(Methods)에서 확인"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "말산 QTL은 1·6·8번 염색체에 놓였다[4].",
+   "after": "말산 QTL은 1·6번 염색체에, 잠정 QTL은 8번 염색체에 놓였다[4].",
+   "why": "[4] 에서 8번 염색체는 모델링으로 찾은 잠정(potential) QTL"
+  },
+  {
+   "where": "sections.safety",
+   "before": "포도주 실험에서 V. riparia 일부 계통의 메톡시피라진 농도(IBMP 350 pg/g 초과, IPMP 30 pg/g 초과)는 감각 역치를 크게 넘었는데, 이는 풍미 문제이지 독성 문제로 보고된 것은 아니다[6].",
+   "after": "V. riparia·V. cinerea 포도주의 메톡시피라진(IBMP·IPMP) 농도는 감각 역치를 크게 넘었다[6]. 후속 조사에서 V. riparia·V. rupestris·V. cinerea 31개 계통의 열매 가운데 일부가 IBMP 350 pg/g 초과 또는 IPMP 30 pg/g 초과였다(어느 종의 계통인지는 초록에 없음)[6]. 이는 풍미 문제이지 독성 문제로 보고된 것은 아니다[6].",
+   "why": "[6] 초록: 31개 계통 조사는 포도주가 아니라 열매 조사이고 세 종을 합친 것이라 V. riparia 계통 값으로 단정할 수 없음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "캐나다 프레리 야생 베리 연구에서 '야생포도'는 총지방 7659 ± 312 μg/g 건조중량, 다가불포화지방산 74%로 조사 베리 중 가장 높았으나, 초록 표기에서 학명을 확인하지 못해 사막포도 값으로 단정하지 않는다[21].",
+   "after": "캐나다 프레리의 저이용 야생 베리 14종을 비교한 연구에서 야생포도(PubMed 제목·초록 색인에서 학명 Vitis riparia 확인)는 총지방 7659 ± 312 μg/g 건조중량으로 가장 높았고, 지방산 가운데 다가불포화지방산 비율도 74%로 가장 높았다[21]. 야생에서 채집한 열매를 분석한 한 연구의 값이고 씨를 포함한 열매 전체 기준인지 등 시료 조건은 초록에서 확인하지 못함[21].",
+   "why": "PubMed 검색 38920290[pmid] AND \"Vitis riparia\"[tiab] 가 일치(다른 Vitis 학명은 불일치) — 도구 출력에서 기울임 학명이 빠졌을 뿐 원 초록에 V. riparia 가 적혀 있음. 시료 조건 단서 추가"
+  },
+  {
+   "where": "compounds[Malic acid].activity_ko",
+   "before": "야생종 열매의 높은 신맛(적정산도 12.88–28.28 g/L 범위)과 강하게 상관[4]",
+   "after": "적정산도와 강하게 상관(조부모·부모·F2 평균 적정산도 12.88–28.28 g/L, 3개 연도)[4]",
+   "why": "[4] 의 적정산도 범위는 야생종 열매 값이 아니라 조부모·부모·F2 평균의 연도별 범위"
+  },
+  {
+   "where": "compounds[Resveratrol].content_text",
+   "before": "V. riparia 등 14종 덩굴에서 9종 스틸벤 합계 약 2.2–19.5 g/kg 건조중량(종 범위)[10]",
+   "after": "V. riparia 포함 14개 분류군(교잡종 포함) 16개 덩굴의 가지(cane)에서 스틸벤 9종 합계 약 2.2–19.5 g/kg 건조중량(전체 범위, V. riparia 단독 값은 초록에 없음)[10]",
+   "why": "[10] 은 16개 덩굴·14개 분류군(V. × champini 등 교잡 포함)이며 범위는 전체 값"
+  },
+  {
+   "where": "sources[21].title",
+   "before": "Underutilized Canadian wild berries as potential sources of lipophilic bioactive compounds with antihypertensive properties — Food Funct 2024 (PMID 38920290, 초록 확인; 초록 표기에서 야생포도의 학명이 빠져 종 확인 못함)",
+   "after": "Underutilized Canadian wild berries as potential sources of lipophilic bioactive compounds with antihypertensive properties — Food Funct 2024 (PMID 38920290, 초록 확인; 야생포도 학명 Vitis riparia 는 PubMed 제목·초록 필드 검색으로 확인)",
+   "why": "학명 확인됨"
+  }
+ ],
+ "unverifiable_notes": [
+  "[7](PMC3317721) 전문에서 학명이 빠진 채로 출력되어 총페놀 396·377 mg/g, 갈산 10.2·8.6 mg/g 가운데 어느 값이 V. riparia 인지 확정하지 못함 — 원문대로 '두 미국 종' 값으로 둠",
+  "[8](PMC10343412) 표가 본문 출력에 없어 V. riparia 개별 성분 값은 확인하지 못함 — 원문대로 세 종 범위로 둠",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 으로 대조: 사막포도열매 / Vitis riparia Michx. / 이명 리파리아머루 / 영어명 Riverbank grape / 사용가능 / 사용가능부위: 열매 — card.json 과 일치. '강변포도'는 원자료에 없음(0건). Desert grape열매는 Vitis girdiana 별개 행으로 확인",
+  "[21] PMID 38920290: 도구 출력 초록에서 기울임 학명이 빠졌으나 PubMed 검색 '38920290[pmid] AND \"Vitis riparia\"[tiab]' 일치, V. vulpina·vinifera·labrusca·aestivalis 는 불일치 — 야생포도=V. riparia 로 보고 문장 고침(시료 조건은 미확인으로 명시)",
+  "교잡·대목 자료([9] V. monticola×V. riparia, [13] Börner, [14] Ramsey×Riparia Gloire, [23] 교잡 품종, [24] 내한성 교잡 품종, [4]·[5] Manitoba 37×Seyval blanc F2)는 모두 순수 V. riparia 값이 아님을 본문에 이미 명시 — 확인. 다만 [4] 의 양성화 형질을 V. riparia 일반 특성처럼 쓴 문장은 고침"
+ ]
+}

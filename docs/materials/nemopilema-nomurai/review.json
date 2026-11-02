@@ -1,0 +1,18 @@
+{"slug": "nemopilema-nomurai", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 55, "checked_items": 53,
+ "verified": 100, "fixed": 7, "removed": 0, "unverifiable": 1,
+ "changes": [
+  {"where": "sections.biology", "before": "메두사는 주로 1000 μm 미만의 작은 요각류와 부유 유기물을 먹는다[13][14].", "after": "2019년 5월 개체의 위 내용물에서는 1000 μm 미만 요각류가 먹이 개체 수의 99% 이상이었다[13].", "why": "[13]은 5월 표본의 먹이 개체 수 비율(>99%)만 말하고, 부유 유기물은 [14]의 7월 결과라 두 출처를 한 문장의 '주로'로 묶을 수 없음"},
+  {"where": "sections.biology", "before": "랴오둥만 조사에서는 몸이 커질수록 먹이 중 동물성 먹이의 비율이 줄었다[14].", "after": "… 200 μm 이상 동물플랑크톤 비율이 5월 74%에서 7월 32% 미만으로 낮아지고 부유 유기물 비율은 68%까지 늘었다[14].", "why": "[14] 초록 수치로 보강(부유 유기물 내용을 정확한 출처·시기로 옮김)"},
+  {"where": "sections.cultivation", "before": "노무라입깃해파리는 양식 대상이 아니며, 국내 어획·생산 통계는 확인하지 못했다[1].", "after": "노무라입깃해파리는 실험실에서 쉽게 기를 수 없는 종으로 보고되었고[8], 양식이나 국내 어획·생산 통계는 확인하지 못했다.", "why": "[1] 식품원료 목록은 양식 여부를 말하지 않음. [8] 방법 절은 이 종을 실험실에서 쉽게 기를 수 없다고 적음"},
+  {"where": "sections.related_species", "before": "두 학명을 함께 적어, 두 종이 혼동되어 온 사례를 보여 준다[34].", "after": "두 학명을 함께 적어, 이 종을 Stomolophus meleagris 로 부른 문헌도 있다[34].", "why": "[34]는 두 학명을 병기할 뿐 혼동 사례라고 해석하지 않음 — 출처가 말하는 범위로 줄임"},
+  {"where": "sources[22]", "before": "Toxins (Basel) 2022;14(12)", "after": "Toxins (Basel) 2022;14(12):831", "why": "PubMed 서지(DOI 10.3390/toxins14120831)"},
+  {"where": "sources[25]", "before": "Food Chem 2026:149684", "after": "Food Chem 2026;519:149684", "why": "PubMed 서지 권호"},
+  {"where": "sources[29]", "before": "Mar Drugs 2024;22(5)", "after": "Mar Drugs 2024;22(5):217", "why": "PubMed 서지(DOI 10.3390/md22050217)"}
+ ],
+ "unverifiable_notes": [
+  "[26] 전문에서 학명이 빠져 플라보자임 3 kDa 미만 비율 87.3%·81.7%가 어느 종(노무라입깃해파리·Rhopilema hispidum) 값인지 확정하지 못함 — 원문 서술대로 '두 종 값'으로 둠",
+  "[7] 큐니우뮤신 추출 부위는 초록에 없어 원문 표현('초록에 부위 없음')을 유지",
+  "식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 에서 노무라입깃해파리(Nemopilema nomurai, Nomuras jellyfish, 수산물, 부위 '-', 사용가능) 행을 확인했고, 해파리(Rhopilema esculenta, 이명 숲뿌리해파리)·보름달물해파리·Cannonball jellyfish(Stomolophus meleagris) 행도 별도로 확인함. 고시 2026-43 로컬 원문에 '해파리' 0건 확인",
+  "PubMed 도구로 [2]–[31],[33]–[36] 서지·초록(PMC 전문: [8],[9],[24],[26],[30])을 대조함. Rhopilema 등 다른 해파리 자료는 비교·구분 맥락으로만 쓰였고 이 종 값으로 섞인 곳은 없음"
+ ]}

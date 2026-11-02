@@ -1,0 +1,172 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(title, doi, pmid, pmc=None, note="초록 확인"):
+    ids = f"PMID {pmid}" + (f", {pmc}" if pmc else "")
+    return {"title": f"{title} ({ids}, {note})", "url": f"https://doi.org/{doi}", "publisher": "PubMed", "accessed": A}
+S = [
+ {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 디터니오브크릿꽃·디터니오브크릿잎(Origanum dictamnus L.; Dittany of crete), 식품원료(A코드), 사용가능, 사용가능부위: 잎, 꽃; 같은 속 오레가노·마조람·터키쉬오레가노(제한적사용), 백선·백선피(Dictamnus dasycarpus, 사용불가) 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm("Phytochemical analysis and enzyme inhibition of Origanum dictamnus L essential oil through in vitro and in silico methods — Sci Rep 2025;15(1):36058", "10.1038/s41598-025-19920-9", "41093943", "PMC12528680", "전문 확인"),
+ pm("Analysis of Naturally Occurring Phenolic Compounds in Aromatic Plants by RP-HPLC Coupled to Diode Array Detector (DAD) and GC-MS after Silylation — Foods 2013;2(1):90-99", "10.3390/foods2010090", "28239100", "PMC5302235", "전문 확인"),
+ pm("Toxicity evaluation of an essential oil mixture from the Cretan herbs thyme, Greek sage and Cretan dittany — NPJ Sci Food 2020;4(1):20", "10.1038/s41538-020-00080-1", "33298942", "PMC7652874", "전문 확인"),
+ pm("Growing of the Cretan Therapeutic Herb Origanum dictamnus in the Urban Fabric: The Effect of Substrate and Cultivation Site on Plant Growth and Potential Toxic Element Accumulation — Plants (Basel) 2023;12(2)", "10.3390/plants12020336", "36679049", "PMC9867495", "전문 확인"),
+ pm("Response of Origanum dictamnus L. (Cretan dittany) to Five Species of Root-Knot Nematodes (Meloidogyne spp.) — J Nematol 2024;56(1):20240037", "10.2478/jofnem-2024-0037", "39444848", "PMC11498933", "전문 확인"),
+ pm("Cretan Dittany (Origanum dictamnus L.), a Valuable Local Endemic Plant: In Vitro Regeneration Potential of Different Type of Explants for Conservation and Sustainable Exploitation — Plants (Basel) 2023;12(1)", "10.3390/plants12010182", "36616309", "PMC9824101", "전문 확인"),
+ pm("Dittany of Crete: a botanical and ethnopharmacological review — J Ethnopharmacol 2010;131(2):229-41", "10.1016/j.jep.2010.06.005", "20633631"),
+ pm("Depsides and other polar constituents from Origanum dictamnus L. and their in vitro antimicrobial activity in clinical strains — J Agric Food Chem 2010;58(10):6064-8", "10.1021/jf904596m", "20423097"),
+ pm("Extensive analysis of the cultivated medicinal herbal drug Origanum dictamnus L. and antimicrobial activity of its constituents — Phytochemistry 2023;208:113591", "10.1016/j.phytochem.2023.113591", "36682432"),
+ pm("Exploring Origanum dictamnus as a functional food ingredient: Phytochemical characterization and gut motility modulation — Food Chem 2026;507:148243", "10.1016/j.foodchem.2026.148243", "41643386"),
+ pm("Cretan tea (Origanum dictamnus L.) as a functional beverage: an investigation on antiglycative and carbonyl trapping activities — Food Funct 2018;9(3):1545-1556", "10.1039/c7fo01930k", "29431803"),
+ pm("Cytotoxic activity of Origanum dictamnus — Fitoterapia 2007;78(5):342-4", "10.1016/j.fitote.2007.02.005", "17507178"),
+ pm("Effect of solution conductivity on the volatile constituents of Origanum dictamnus L. in nutrient film culture — J Agric Food Chem 2005;53(5):1656-60", "10.1021/jf040365t", "15740055"),
+ pm("Contact sensitization to dittany of Crete (Origanum dictamnus) in a herbal remedy — Contact Dermatitis 2012;67(2):114-6 (증례 보고)", "10.1111/j.1600-0536.2012.02081.x", "22775549", None, "초록 없음, 제목·서지만 확인"),
+ pm("A Mixture of Essential Oils from Three Cretan Aromatic Plants Inhibits SARS-CoV-2 Proliferation: A Proof-of-Concept Intervention Study in Ambulatory Patients — Diseases 2023;11(3)", "10.3390/diseases11030105", "37606476", "PMC10443288"),
+ pm("Rosmarinic Acid Production from Origanum dictamnus L. Root Liquid Cultures In Vitro — Plants (Basel) 2023;12(2)", "10.3390/plants12020299", "36679010", "PMC9864065"),
+ {"title": "European Medicines Agency(HMPC) — Origani dictamni herba, herbal medicinal product(전통 사용 EU 약초 단행본 EMA/HMPC/200429/2012) — ema.europa.eu 는 이 환경에서 열리지 않아 WebSearch 결과 요약으로만 확인함(원문 미확인)", "url": "https://www.ema.europa.eu/en/medicines/herbal/origani-dictamni-herba", "publisher": "European Medicines Agency", "accessed": A},
+ pm("Depsides from Origanum dictamnus and Satureja pilosa as selective inhibitors of carbonic anhydrases: Isolation, structure elucidation, X-ray crystallography — Arch Pharm 2025;358(1):e2400823", "10.1002/ardp.202400823", "39711099"),
+ pm("The complete chloroplast genome of Origanum vulgare L. (Lamiaceae) — Gene 2013;528(2):163-9", "10.1016/j.gene.2013.07.026", "23911304"),
+ pm("Phytochemistry and nematicidal activity of the essential oils from 8 Greek Lamiaceae aromatic plants and 13 terpene components — J Agric Food Chem 2010;58(13):7856-63", "10.1021/jf100797m", "20527965"),
+ pm("Origanum species native to the island of Crete: in vitro antioxidant characteristics and liquid chromatography-mass spectrometry identification of major polyphenolic components — Nat Prod Res 2014;28(16):1284-7", "10.1080/14786419.2014.896011", "24635145"),
+ pm("Phenolic profiles and antioxidant and anticarcinogenic activities of Greek herbal infusions; balancing delight and chemoprevention? — Food Chem 2013;142:233-41", "10.1016/j.foodchem.2013.07.056", "24001836"),
+ pm("Antibacterial activities of essential oils from eight Greek aromatic plants against clinical isolates of Staphylococcus aureus — Anaerobe 2011;17(6):399-402", "10.1016/j.anaerobe.2011.03.024", "21521657"),
+ pm("Origanum dictamnus oil vapour suppresses the development of grey mould in eggplant fruit in vitro — Biomed Res Int 2014:562679", "10.1155/2014/562679", "25254209", "PMC4165565"),
+ pm("Evaluation of the antimicrobial and antioxidant activities of Origanum dictamnus extracts before and after encapsulation in liposomes — Molecules 2007;12(5):932-45", "10.3390/12050932", "17873829", "PMC6149476"),
+ pm("Essential oils of Satureja, Origanum, and Thymus species: chemical composition and antibacterial activities against foodborne pathogens — J Agric Food Chem 2004;52(26):8261-7", "10.1021/jf049113i", "15612827"),
+ pm("Screening of some Greek aromatic plants for antioxidant activity — Phytother Res 2003;17(2):194-5", "10.1002/ptr.1261", "12601688"),
+ pm("Effect of phosphorus concentration of the nutrient solution on the volatile constituents of leaves and bracts of Origanum dictamnus — J Agric Food Chem 2002;50(22):6276-80", "10.1021/jf0203444", "12381103"),
+ pm("Increased seizure latency and decreased severity of pentylenetetrazol-induced seizures in mice after essential oil administration — Epilepsy Res Treat 2013:532657", "10.1155/2013/532657", "23819045", "PMC3684096"),
+]
+for i, s in enumerate(S, 1):
+    s["n"] = i
+    s.setdefault("publisher", "PubMed")
+SRC = [{"n": s["n"], "title": s["title"], "url": s["url"], "publisher": s["publisher"], "accessed": s["accessed"]} for s in S]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "디터니오브크릿(Origanum dictamnus L.)은 꿀풀과 오레가노속의 여러해살이 작은 관목으로, 그리스 크레타섬에만 자생하는 고유종이다[5, 6]. 영어로는 Dittany of Crete 또는 Cretan dittany 라고 부르며, 크레타에서는 잎과 꽃으로 우린 차를 '크레타 차(Cretan tea)'로 마셔 왔다[1, 12].\n\n"
+  "식약처 「식품원료 목록」에는 '디터니오브크릿꽃'과 '디터니오브크릿잎' 두 행이 식품원료(A코드)로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 잎, 꽃'이다[1]. 즉 국내에서 식품 원료로 쓸 수 있는 부위는 잎과 꽃이며, 줄기·뿌리는 이 목록의 사용 부위에 들어 있지 않다[1]. 건강기능식품 고시형 원료의 원재료로 등록된 기록은 확인하지 못함.\n\n"
+  "향의 중심은 정유의 카르바크롤이며, 한 시료의 지상부 정유에서 카르바크롤 57.7%, p-시멘 20.2%가 보고되었다[2]. 잎·꽃 추출물과 우린 물에는 로즈마린산·살비아놀산 P 같은 뎁시드와 플라본 배당체가 들어 있다[9, 11, 12]. 유럽의약품청(EMA)은 기침·가벼운 위장 불편에 쓰는 전통 약초차 단행본을 두고 있다고 검색 요약에서 확인했으나 원문은 열어 보지 못했다[18]."},
+ {"key": "history", "title": "역사와 전통적 이용", "body":
+  "디터니오브크릿은 고대부터 크레타의 약초로 알려졌고, 고대 그리스의 의사와 철학자들이 그 치유력을 기록했다[5]. 고대 기록에는 이다산의 상처 입은 야생 염소가 이 풀을 뜯어 먹어 화살을 빼내고 상처를 낫게 했다는 이야기가 전하며, 이 때문에 만병통치약(panacea)처럼 여겨졌다[6]. 기원후 2세기의 의학 문헌에도 상처 치유와 류머티즘에 쓴다는 내용이 이어졌다고 한다[6].\n\n"
+  "민간에서는 인후통·기침·위궤양 같은 증상에 써 왔다는 기록이 정리되어 있다[8]. 경련, 편도염, 감기, 위장 불편, 간 질환, 당뇨, 비만에 우린 물로 마시고, 습포나 가루로 바르는 쓰임도 보고되었다[2]. 그리스 테살로니키의 약초 시장에서도 우린 물이나 외용 세척제로 팔리고 쓰였다는 조사가 인용되어 있다[2].\n\n"
+  "오늘날에도 크레타에서는 이 풀을 차로 마시는 관습이 이어지며, 연구자들은 이를 '크레타 차'라는 기능성 음료로 다룬다[12]. 그리스 연구진은 이 풀을 백리향·그리스 세이지 정유와 섞어 감기 증상용 혼합물로 만들고 임상 시험까지 진행했다[4, 16]. 예전에는 자생지에서 채취했지만 지금 쓰이는 원료는 모두 재배한 식물에서 나온다고 보고되었다[6]."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "디터니오브크릿은 높이 20–30 cm(최대 약 35 cm)의 작은 관목으로, 줄기는 비스듬히 서고 아래쪽에서 뿌리를 내린다[5, 6]. 온몸이 흰 솜털로 빽빽하게 덮여 있으며, 잎은 둥글고 벨벳처럼 부드럽다[5].\n\n"
+  "여름(6–8월)에 연보라색 꽃이 피는데, 꽃은 보라빛이 도는 분홍색 포엽(꽃턱잎)에 둘러싸여 있다[5]. 정유는 잎과 포엽 모두에서 나오며, 수경재배 연구에서는 잎 정유에 티모퀴논이 포엽보다 많았고 포엽 정유가 항균 시험에서 더 강했다[29]. 잎이 넓은 형과 좁은 형이 구별되며, 두 형은 정유 조성에도 차이를 보였다[14].\n\n"
+  "자생지는 크레타의 해발 500 m 이상 산지 바위 지대로, 절벽·바위틈·협곡·돌담처럼 그늘지거나 반그늘진 곳에 붙어 자란다[6, 7]. 크레타 중부 이라클리온의 프실로리티스산 일대가 대표 자생지로 소개된다[7]. 국제자연보전연맹(IUCN) 평가는 1997년 목록에서 '취약(Vulnerable)'으로 소개되기도 하고 다른 논문에서는 '준위협(Near Threatened)'으로 적혀 출처마다 다르다[5, 7]. 그리스 대통령령 67/81과 유럽 법령으로 보호를 받는다[5, 7]."},
+ {"key": "related_species", "title": "이름과 가까운 종", "body":
+  "식약처 식품원료 목록에서 같은 오레가노속(Origanum)에는 오레가노(O. vulgare, 그리스 오레가노 O. vulgare var. hirtum 포함), 마조람(O. majorana), 터키쉬오레가노(O. tyttanthum)가 있다[1]. 오레가노와 마조람은 줄기·잎이 사용 가능 부위이고, 터키쉬오레가노잎은 '제한적사용'으로 등재되어 있어 디터니오브크릿(잎·꽃, 사용가능)과 조건이 다르다[1]. 이 종들의 정유도 카르바크롤·티몰을 공통으로 담지만 조성 비율이 달라, 일반 오레가노 정유의 수치를 디터니오브크릿에 옮겨 쓰면 안 된다[2, 27].\n\n"
+  "크레타에는 디터니오브크릿 외에도 O. microphyllum, O. vulgare subsp. hirtum 같은 오레가노속 식물이 자라며, 세 종의 추출물을 비교한 연구에서는 디터니오브크릿 에틸아세테이트 분획의 폴리페놀 구성이 가장 풍부했다[22].\n\n"
+  "이름이 비슷한 다른 식물도 조심해야 한다[1, 28]. 식약처 목록의 '백선'과 '백선피'는 Dictamnus dasycarpus 로, 학명 앞부분이 디터니오브크릿의 종소명 dictamnus 와 같은 철자이지만 전혀 다른 속이며 둘 다 '사용불가' 원료다[1]. 그리스 꿀풀과 식물 비교 연구에는 Ballota pseudodictamnus 처럼 종소명에 dictamnus 가 들어간 별개의 종도 함께 시험되었다[28]. 시중 자료에서 'dittany' 나 'dictamnus' 라는 이름만 보고 같은 원료로 여기지 말고 학명 Origanum dictamnus 를 확인해야 한다[1, 3]."},
+ {"key": "cultivation", "title": "재배와 산지", "body":
+  "디터니오브크릿의 원료는 과거 자생지 채취에 의존했으나, 지금은 크레타에서 재배한 식물만 쓰인다고 보고되었다[6]. 상업적 수요가 늘면서 재배 면적이 넓어졌고, 재배지에서는 뿌리혹선충 피해가 발견되지 않았다[6]. 화분 시험에서도 뿌리혹선충 5종을 포기당 알 2,500개씩 접종했을 때 혹과 알덩어리가 전혀 생기지 않았다[6].\n\n"
+  "씨앗 발아율이 낮고 꺾꽂이 발근율도 중간 정도라 조직배양 번식법이 연구되었다[7]. MS 배지에 BA 2.2 μM 을 넣은 처리에서 증식률 3.15, 발근율 100%가 나왔고, 온실 순화 뒤 평균 생존율은 80.4%였다[7]. 양액 농도와 인 함량을 달리한 수경재배(NFT)에서도 카르바크롤이 정유의 주성분으로 유지되었다[14, 29]. 야생 시료와 유기 재배 시료의 추출물이 모두 항산화·항균 활성을 보였다는 비교도 있다[26].\n\n"
+  "아테네 도심의 옥상 녹화 화분과 차도 옆에서 키운 시험에서도 잘 자랐지만, 두 곳 모두 잎·꽃의 납·니켈·망간이 FAO/WHO 허용 기준을 넘어 식용 재배지는 오염원을 피해 골라야 한다고 결론 내렸다[5]. 잎과 꽃은 여름 끝 무렵에 수확한다고 소개된다[5]. 국내 재배·생산 통계는 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "가장 흔한 이용 형태는 말린 잎·꽃을 뜨거운 물에 우린 차다[12]. 우린 물에서는 플라본 유도체가 많은 폴리페놀 20종이 검출되었고, 시험관에서 최종당화산물(AGEs)과 디카르보닐 화합물 생성을 72–100% 억제했다[12]. 전통 방식으로 우린 물에서는 새로운 플라본 배당체 4종이 확인되었고, 토끼 장 조직 실험(체외)에서 장 수축을 누그러뜨렸다[11].\n\n"
+  "정유는 지상부를 물 증류해 얻으며, 한 시료의 수율은 건조 중량 기준 3.01%였고 다른 연구들은 2.53%, 0.94%, 0.46%로 차이가 컸다[2]. 정유는 시험관에서 아세틸콜린에스테라아제(IC50 14.19 ± 3.5 µg/mL)와 리파아제(IC50 37.8 ± 3.7 µg/mL)를 억제했지만, 이는 효소 시험 결과일 뿐 사람에게서 확인된 효과가 아니다[2]. 그리스 약초 우린 물 6종을 비교한 연구에서는 우린 물의 라디칼 소거능이 총페놀 함량과 강하게 상관했고, 대장·전립선 암세포 성장 억제는 세포 실험 결과에 그쳤다[23]. 식품 보존 쪽에서는 정유 증기가 가지 열매의 잿빛곰팡이병을 줄였고, 선충 살충 시험의 EC50(96시간)은 1.72 µL/mL 였다[21, 25].\n\n"
+  "그리스에서는 이 정유를 백리향·그리스 세이지 정유와 섞은 혼합물(1 mL 에 정유 약 1.5%)을 1주일 복용하는 제품으로 개발했다[4]. 이 혼합물은 경증 코로나19 외래 환자 69명의 개념 증명 연구에서 증상 수를 대조군보다 더 빨리 줄였으나, 무작위 배정 시험이 아니어서 근거 수준은 낮다[16]. 국내 건강기능식품 생산실적에서 디터니오브크릿 원료 품목은 확인하지 못함."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "PubMed 에서 디터니오브크릿 자체의 전장 유전체나 엽록체 유전체를 해독한 논문은 찾지 못했으며, 염색체 수도 확인하지 못함. 같은 속 오레가노(O. vulgare)의 엽록체 유전체(151,935 bp)를 해독한 연구는 오레가노속 안의 엽록체 DNA 16개 구간 중 14개에서 변이가 0.7% 이하로 매우 낮다고 보고했다[20]. 따라서 엽록체 표지만으로는 오레가노속 종을 가려내기 어려울 수 있다[20].\n\n"
+  "화학형 차이는 비교적 잘 기록되어 있다[2, 14]. 대부분의 시료는 카르바크롤형이지만, 다른 연구에서는 티몰 78%·카르바크롤 불검출인 정유나 p-시멘 32.7%가 가장 많은 정유도 보고되어 개체·산지에 따라 조성이 크게 다르다[2]. 넓은잎형과 좁은잎형은 정유 조성에서 화학계통적으로 다른 무리를 이루었고, 넓은잎형은 티모퀴논 비율이 더 높았다[14]. 재배 식물 가운데 티몰이 주성분이었던 사례도 있다[6].\n\n"
+  "생명공학 쪽에서는 잎·잎자루·뿌리 조직에서 캘러스를 유도해 다시 식물체를 만드는 간접 기관형성 방법이 처음 보고되었다[7]. 뿌리 액체배양에서는 로즈마린산이 건조 중량의 최고 6.6%까지 쌓였는데, 이는 시험관 배양 뿌리의 값으로 식용 부위(잎·꽃)의 함량이 아니다[17]."},
+ {"key": "safety", "title": "안전성", "body":
+  "식약처 「식품원료 목록」에서 디터니오브크릿의 잎과 꽃은 '사용가능' 원료이고 별도 제한 조건은 없다[1]. 건강기능식품 고시형 원료가 아니므로 고시 섭취 시 주의사항은 없으며, 국내 공공기관의 알레르기·잔류 독성 정보는 확인하지 못함.\n\n"
+  "디터니오브크릿 단독의 독성 시험은 확인하지 못함. 디터니오브크릿·백리향·그리스 세이지 정유 혼합물을 쥐에게 사람 용량의 10배·40배로 한 번, 1·5·20배로 4개월 먹인 시험에서 간·신장 지표와 조직 소견에 독성이 나타나지 않았다[4]. 저자들은 이 연구가 디터니오브크릿에 대한 유일한 독성 연구라고 밝혔고, 혼합물 시험이므로 단독 섭취의 안전성을 그대로 말해 주지는 않는다[4]. 생쥐에게 체중별 용량의 정유를 준 실험에서는 투여 뒤 활동이 줄어드는 반응이 관찰되었다[30].\n\n"
+  "약초 제품을 바른 뒤 접촉 과민 반응이 생긴 증례가 보고되었으므로 피부 사용 시 주의가 필요하다[15]. 유럽의약품청 단행본은 성인용 약초차로 기침에는 1주, 위장 증상에는 2주를 넘겨 쓰지 말라고 하며 평가 당시 보고된 부작용은 없었다고 검색 요약에 나오나, 원문은 확인하지 못함[18]. 도심 차도 근처에서 키운 잎·꽃에서는 납·니켈·망간이 기준을 넘었으므로 원료의 산지와 중금속 관리가 중요하다[5]. 정유의 황색포도상구균 임상 분리주 MIC 는 256 mg/L 를 넘어 임상 항균제로 쓸 근거는 없다고 보고되었다[24]."},
+]
+
+compounds = [
+ {"name": "Carvacrol", "name_ko": "카르바크롤", "class": "페놀성 모노테르펜", "role": "marker", "part": "지상부 정유(잎·꽃·포엽)",
+  "content_text": "건조 지상부 물 증류 정유 57.7 ± 0.50%(피크 면적 정규화)[2]; 야생·수경재배 잎과 포엽 정유 모두에서 주성분[14, 29]",
+  "activity_ko": "정유 효소 억제 활성의 주 기여 성분으로 추정(도킹 결합 에너지 −6.26 kcal/mol, AChE)[2]", "source": [2, 14, 29]},
+ {"name": "p-Cymene", "name_ko": "p-시멘", "class": "모노테르펜 탄화수소", "role": "marker", "part": "지상부 정유",
+  "content_text": "정유 20.2 ± 0.20%[2]; 다른 연구 정유에서는 32.7%로 최대 성분(논문 인용)[2]",
+  "activity_ko": "카르바크롤과 함께 정유의 주성분, 효소 도킹 결합 에너지는 카르바크롤보다 약함[2]", "source": [2]},
+ {"name": "Thymol", "name_ko": "티몰", "class": "페놀성 모노테르펜", "role": "bioactive", "part": "지상부 정유",
+  "content_text": "정유 1.0 ± 0.09%[2]; 다른 시료에서는 78%로 주성분(논문 인용)[2]; 재배 식물 중 티몰 우세 사례 보고[6]",
+  "activity_ko": "카르바크롤의 이성질체로 정유의 항균·살충 활성에 기여하는 것으로 논의됨[6]", "source": [2, 6]},
+ {"name": "gamma-Terpinene", "name_ko": "γ-테르피넨", "class": "모노테르펜 탄화수소", "role": "bioactive", "part": "지상부 정유",
+  "content_text": "정유 0.8 ± 0.08%[2]; 다른 연구 정유 12.4%(논문 인용)[2]",
+  "activity_ko": "정유 주성분 가운데 하나로 소개됨[5]", "source": [2, 5]},
+ {"name": "Thymoquinone", "name_ko": "티모퀴논", "class": "모노테르펜 퀴논", "role": "bioactive", "part": "잎·포엽 정유, 지상부 극성 추출물",
+  "content_text": "정유 0.3 ± 0.04%[2]; 잎 정유가 포엽보다 높음[29]; 넓은잎형 정유가 좁은잎형보다 높음[14]; 극성 추출물에서 분리[9]",
+  "activity_ko": "함량 차이가 잎 형태·부위 구별 지표로 쓰임[14, 29]", "source": [2, 9, 14, 29]},
+ {"name": "beta-Caryophyllene", "name_ko": "β-카리오필렌", "class": "세스퀴테르펜", "role": "bioactive", "part": "지상부 정유",
+  "content_text": "정유 1.4 ± 0.30%(가장 많은 세스퀴테르펜)[2]",
+  "activity_ko": "정유 주성분 가운데 하나로 소개됨[5]", "source": [2, 5]},
+ {"name": "Rosmarinic acid", "name_ko": "로즈마린산", "class": "뎁시드(카페산 에스터)", "role": "marker", "part": "지상부 극성 추출물",
+  "content_text": "지상부 극성 추출물에서 분리[9]; 시험관 뿌리 배양체 최고 6.6%(건조 중량, 식용 부위 아님)[17]",
+  "activity_ko": "꿀풀과 공통 페놀산; 이 종 뿌리 배양으로 생산 연구[17]", "source": [9, 17]},
+ {"name": "Salvianolic acid P", "name_ko": "살비아놀산 P", "class": "뎁시드(벤조다이옥세인 고리)", "role": "bioactive", "part": "지상부 극성 추출물",
+  "content_text": "이 종에서 처음 분리·명명된 성분, 함량 확인하지 못함[9]",
+  "activity_ko": "그람음성 임상 분리균에 활성(시험관)[9]; 종양 관련 탄산탈수효소 IX·XII 선택 억제(시험관)[19]", "source": [9, 19]},
+ {"name": "12-Hydroxyjasmonic acid", "name_ko": "12-하이드록시자스몬산", "class": "자스모네이트(지환족 산)", "role": "bioactive", "part": "지상부 극성 추출물",
+  "content_text": "그 글루코사이드와 함께 분리, 함량 확인하지 못함[9]; 재배 원료 메탄올 추출물에서도 자스모네이트류 분리[10]",
+  "activity_ko": "식물 호르몬 대사물로 보고됨, 사람 생리 활성은 확인하지 못함[9]", "source": [9, 10]},
+ {"name": "p-Coumaric acid", "name_ko": "p-쿠마르산", "class": "하이드록시신남산", "role": "nutrient", "part": "건조 잎(시판품)",
+  "content_text": "산 가수분해 후 13.9 ± 0.04 mg/100 g 건조 시료(표 머리의 이성체 표기 일부가 추출 본문에서 빠짐, 표준품은 p-쿠마르산)[3]",
+  "activity_ko": "이 시료에서 정량된 페놀산 가운데 가장 많음[3]", "source": [3]},
+ {"name": "Ferulic acid", "name_ko": "페룰산", "class": "하이드록시신남산", "role": "nutrient", "part": "건조 잎(시판품)",
+  "content_text": "0.34 ± 0.01 mg/100 g 건조 시료(산 가수분해 후)[3]",
+  "activity_ko": "항산화 페놀산[3]", "source": [3]},
+ {"name": "Catechin", "name_ko": "(+)-카테킨", "class": "플라반-3-올", "role": "nutrient", "part": "건조 잎(시판품)",
+  "content_text": "0.5 ± 0.01 mg/100 g 건조 시료(산 가수분해 후)[3]",
+  "activity_ko": "같은 시험에서 갈산·카페산·퀘르세틴 등은 이 종에서 검출되지 않음[3]", "source": [3]},
+ {"name": "Apigenin", "name_ko": "아피제닌", "class": "플라본", "role": "bioactive", "part": "지상부 극성 추출물·우린 물",
+  "content_text": "지상부 극성 추출물에서 분리, 함량 확인하지 못함[9]; 우린 물에는 아피제닌·루테올린 7-O-글루쿠로나이드 계열 아실화 배당체가 있음[11]",
+  "activity_ko": "우린 물의 항당화 활성은 플라본 유도체가 많은 폴리페놀 조성 덕으로 추정됨[12]", "source": [9, 11, 12]},
+ {"name": "Ursolic acid", "name_ko": "우르솔산", "class": "트리테르펜산", "role": "bioactive", "part": "지상부 디클로로메탄 추출물",
+  "content_text": "활성 유도 분획으로 분리, 함량 확인하지 못함[13]",
+  "activity_ko": "P388·NSCLC-N6 암세포주 세포독성(시험관), 생쥐 백혈병 모델 50 mg/kg 에서 미미한 효과[13]", "source": [13]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Carvacrol", "compound_ko": "카르바크롤(p-시멘 등 70개 휘발 성분 동시 분석)",
+  "part": "건조 지상부(2023년 5월 이탈리아의 허가 공급처에서 구입한 재배품) 물 증류 정유",
+  "content": "카르바크롤 57.7 ± 0.50%, p-시멘 20.2 ± 0.20%, p-시멘-2,5-다이올 2.5 ± 0.50%(피크 면적 정규화, 70성분 합계 95.2%); 정유 수율 3.01%(건조 중량)[2]",
+  "method": "GC-MS(EI, 단일 사중극자), 피크 면적 정규화 상대 정량",
+  "conditions": {
+   "instrument": "Agilent 6850 Series II GC + MSD 5973",
+   "column": "DB-5 용융 실리카 모세관, 30 m × 0.25 mm × 0.33 µm",
+   "mobile_phase": "운반기체 헬륨",
+   "gradient": "40 °C 5분 유지 → 2 °C/min 270 °C → 270 °C 20분 유지",
+   "flow": "1.0 mL/min",
+   "temp": "주입구 250 °C, 검출기 290 °C",
+   "detection": "EI 70 eV, 전자증배관 2000 V, m/z 40–500, 5 scans/s",
+   "injection": "n-헥산 1:1000 희석액 1 µL, 스플릿리스",
+   "sample_prep": "건조 지상부 345 g 을 유럽약전 방법으로 3시간 물 증류, n-헥산에 녹여 무수 황산나트륨으로 여과, 질소 하 4 °C 암소 보관",
+   "standard": "n-알케인 기준 코바츠 지수·NIST 02·Wiley 275 라이브러리 대조, 일부는 표준품 동시 주입으로 확인",
+   "linearity": "", "lod": "", "loq": "",
+   "recovery": "감응 계수 보정 없음(원문: no response factors were calculated)"},
+  "rationale": "카르바크롤은 이 종 정유에서 거의 항상 최대 성분이고 효소 억제 활성의 주 기여 성분으로 논의되므로 정유 품질 지표로 적합하다; 다만 티몰형·p-시멘형 정유도 보고되어 화학형 확인이 함께 필요하다; 전문 확인, 절대 정량이 아닌 면적 백분율이다[2]",
+  "source": [2], "url": "https://doi.org/10.1038/s41598-025-19920-9", "source_kind": "paper"},
+ {"role": "literature", "compound": "p-Coumaric acid", "compound_ko": "p-쿠마르산(페룰산·카테킨 등 페놀 16종 동시 분석)",
+  "part": "시판 건조 잎(논문 제목상 그리스산)(25 °C 암소 건조 후 분쇄)",
+  "content": "쿠마르산 13.9 ± 0.04, 페룰산 0.34 ± 0.01, (+)-카테킨 0.5 ± 0.01 mg/100 g 건조 시료; 갈산·카페산·퀘르세틴·아피제닌·루테올린 등 불검출(n = 3)[3]",
+  "method": "RP-HPLC-DAD(산 가수분해 후 아글리콘 정량)",
+  "conditions": {
+   "instrument": "JASCO HPLC + 다이오드 배열 검출기 MD-910, 자료처리 DP-L910/V",
+   "column": "Waters Spherisorb ODS2, 250 × 4.6 mm, 5 µm",
+   "mobile_phase": "A 물(빙초산 1%), B 물(빙초산 6%), C 물-아세토니트릴 65:30(빙초산 5%)",
+   "gradient": "0–10분 A 100%; 10–30분 B 100%; 30–50분 B 90/C 10; 50–60분 B 80/C 20; 60–70분 B 70/C 30; 70–105분 C 100%; 105–110분 A 100%; 다음 주입 전 10분",
+   "flow": "0.5 mL/min",
+   "temp": "실온",
+   "detection": "280 nm(페놀산), 320·370 nm(플라본·플라보놀); 머무름 시간과 스펙트럼 일치로 동정",
+   "injection": "20 µL",
+   "sample_prep": "건조 시료 0.5 g + 62.5% 메탄올 수용액(BHT 1 g/L) 40 mL + 6 M HCl 10 mL, 질소 버블링 40–60초, 초음파 15분, 90 °C 수욕 환류 2시간, 메탄올로 100 mL 정용, 0.45 µm 막 여과",
+   "standard": "갈산·쿠마르산·페룰산·카테킨 등 시판 표준품, 작업 표준액 0.5–25 mg/L",
+   "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 종 잎의 페놀산을 실제로 정량한 몇 안 되는 시험으로, 산 가수분해 뒤 측정해 결합형까지 합산한 값이다; 이 시료에서 가장 많이 정량된 페놀산이 쿠마르산이었다; 전문 확인, 검량선·검출한계·회수율은 원문에 없어 확인하지 못함[3]",
+  "source": [3], "url": "https://doi.org/10.3390/foods2010090", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "origanum-dictamnus", "name_ko": "디터니오브크릿", "name_en": "Dittany of Crete", "scientific_name": "Origanum dictamnus L.",
+ "aliases": ["디터니오브크릿꽃", "디터니오브크릿잎", "Dittany of Crete", "Cretan dittany", "Cretan tea"],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": SRC,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

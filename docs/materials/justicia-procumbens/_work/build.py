@@ -1,0 +1,141 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, pmid, pub, extra=""):
+    return {"n": n, "title": title + (" " + extra if extra else ""), "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": pub + " (PubMed)", "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 쥐꼬리망초잎 행(학명 Justicia procumbens L. / Justicia japonica Thunb., 이명 쥐꼬리망풀, 영문 Oriental water-willow, 식품원료(A코드)·식물, 부위 잎, 사용가능, '사용가능부위 : 잎') 및 같은 과(쥐꼬리망초과)의 Katu-ikiriya잎(Asteracantha longifolia)·천심련추출물(Andrographis paniculata, 건강기능식품 C코드) 행; 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json·docs/materials/justicia-procumbens/card.json", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Ethnomedicinal uses, phytochemistry, and pharmacological relevance of Justicia procumbens (Oriental Water Willow) - A promising traditional plant. J Ethnopharmacol 2023;317:116819. doi:10.1016/j.jep.2023.116819 (초록 확인)", "37385576", "J Ethnopharmacol"),
+ pm(3, "Comparative Metabolite Profiling of Wild and Cultivated Justicia procumbens L. Based on 1H-NMR Spectroscopy and HPLC-DAD Analysis. Plants (Basel) 2020;9(7):860. doi:10.3390/plants9070860 (PMC7411763 전문 확인)", "32646001", "Plants (Basel)"),
+ pm(4, "Preventive effects of the butanol fraction of Justicia procumbens L. against dexamethasone-induced muscle atrophy in C2C12 myotubes. Heliyon 2022;8(11):e11597. doi:10.1016/j.heliyon.2022.e11597 (PMC9713280 전문 확인)", "36468147", "Heliyon"),
+ pm(5, "Effective components and mechanism analysis of anti-platelet aggregation effect of Justicia procumbens L. J Ethnopharmacol 2022;294:115392. doi:10.1016/j.jep.2022.115392 (초록 확인)", "35589019", "J Ethnopharmacol"),
+ pm(6, "Antithrombotic effect and plasma pharmacochemistry of Justicia procumbens L. PLoS One 2025;20(4):e0321023. doi:10.1371/journal.pone.0321023 (PMC12083875 전문 확인)", "40305585", "PLoS One"),
+ pm(7, "Screening for cytotoxic chemical constituents from Justicia procumbens by HPLC-DAD-ESI-MS and NMR. Chem Cent J 2018;12(1):6. doi:10.1186/s13065-018-0371-z (PMC5785455 전문 확인 — 함량 표 수치는 본문에 없음)", "29372338", "Chem Cent J"),
+ pm(8, "[Identification of Rostellularia procumbens (L.) Nees] 中药爵床的鉴定. Zhejiang Da Xue Xue Bao Yi Xue Ban 2018;47(3):294-299. doi:10.3785/j.issn.1008-9292.2018.06.13 (중국어·영문 초록 확인)", "30226332", "J Zhejiang Univ Med Sci"),
+ pm(9, "Chloroplast genome of Justicia procumbens: genomic features, comparative analysis, and phylogenetic relationships among Justicieae species. J Appl Genet 2024;65(1):31-46. doi:10.1007/s13353-023-00812-5 (초록 확인)", "38133708", "J Appl Genet"),
+ pm(10, "The use of heterospecific scent marks by the sweat bee Halictus aerarius. Naturwissenschaften 2007;94(12):1021-1024. doi:10.1007/s00114-007-0285-4 (초록 확인)", "17661003", "Naturwissenschaften"),
+ pm(11, "Cd and Zn accumulation in plants from the Padaeng zinc mine area. Int J Phytoremediation 2009;11(5):479-495. doi:10.1080/15226510802656243 (초록 확인)", "19810350", "Int J Phytoremediation"),
+ pm(12, "Chromatographic fingerprint analysis and simultaneous determination of eight lignans in Justicia procumbens and its compound preparation by HPLC-DAD. J Sep Sci 2011;34(6):667-674. doi:10.1002/jssc.201000781 (초록 확인)", "21328534", "J Sep Sci"),
+ pm(13, "Development of a mesoporous silica based solid-phase extraction and ultra-performance liquid chromatography-MS/MS method for quantifying lignans in Justicia procumbens. Electrophoresis 2020;41(5-6):379-385. doi:10.1002/elps.201900401 (초록 확인)", "32040861", "Electrophoresis"),
+ pm(14, "Justicia procumbens Extract (DW2008) Selectively Suppresses Th2 Cytokines in Splenocytes and Ameliorates Ovalbumin-Induced Airway Inflammation in a Mouse Model of Asthma. Biol Pharm Bull 2017;40(9):1416-1422. doi:10.1248/bpb.b17-00179 (초록 확인)", "28867724", "Biol Pharm Bull"),
+ pm(15, "DW2008S and its major constituents from Justicia procumbens exert anti-asthmatic effect via multitargeting activity. J Cell Mol Med 2018;22(5):2680-2691. doi:10.1111/jcmm.13550 (PMC5908124 전문 확인)", "29512870", "J Cell Mol Med"),
+ pm(16, "In-Depth Exploration of Chemical Constituents from Justicia procumbens L. Through UHPLC-Q-Exactive Orbitrap Mass Spectrometry. Molecules 2025;30(17):3554. doi:10.3390/molecules30173554 (초록 확인)", "40942079", "Molecules"),
+ pm(17, "Justicia procumbens promotes hair growth and ameliorates age-related deterioration of hair health. Phytomedicine 2025;150:157609. doi:10.1016/j.phymed.2025.157609 (초록 확인)", "41319615", "Phytomedicine"),
+ pm(18, "Justicia procumbens prevents hair loss in androgenic alopecia mice. Biomed Pharmacother 2024;170:115913. doi:10.1016/j.biopha.2023.115913 (초록 확인)", "38154270", "Biomed Pharmacother"),
+ pm(19, "Non-clinical GLP genotoxicity and rodent oral toxicity studies of 6'-hydroxy justicidin B for anti-COVID-19 agent development. Biomed Pharmacother 2025;192:118708. doi:10.1016/j.biopha.2025.118708 (초록 확인)", "41161005", "Biomed Pharmacother"),
+ pm(20, "Potential of 6'-hydroxy justicidin B from Justicia procumbens as a therapeutic agent against coronavirus disease 2019. Phytomedicine 2024. doi:10.1016/j.phymed.2024.156014 (초록 확인)", "39241386", "Phytomedicine"),
+ pm(21, "Justicidin A decreases the level of cytosolic Ku70 leading to apoptosis in human colorectal cancer cells. Carcinogenesis 2005;26(10):1716-1730. doi:10.1093/carcin/bgi133 (초록 확인)", "15905197", "Carcinogenesis"),
+ pm(22, "Caspase-8 acts as a key upstream executor of mitochondria during justicidin A-induced apoptosis in human hepatoma cells. FEBS Lett 2006;580(13):3185-3191. doi:10.1016/j.febslet.2006.04.085 (초록 확인)", "16684533", "FEBS Lett"),
+ pm(23, "Evaluation and structure-activity relationship analysis of a new series of arylnaphthalene lignans as potential anti-tumor agents. PLoS One 2014;9(3):e93516. doi:10.1371/journal.pone.0093516 (초록 확인)", "24675875", "PLoS One"),
+ pm(24, "Antiviral activity of lignans and their glycosides from Justicia procumbens. Phytochemistry 1996;42(3):713-717. doi:10.1016/0031-9422(96)00024-6 (초록 확인)", "8768323", "Phytochemistry"),
+ pm(25, "Antiplatelet arylnaphthalide lignans from Justicia procumbens. J Nat Prod 1996;59(12):1149-1150. doi:10.1021/np960443+ (초록 확인)", "8988600", "J Nat Prod"),
+ pm(26, "Six New Diarylbutane Lignans from Justicia procumbens. J Nat Prod 1998;61(2):227-229. doi:10.1021/np9703860 (초록 확인)", "9548850", "J Nat Prod"),
+ pm(27, "New cyclopeptide alkaloid and lignan glycoside from Justicia procumbens. J Asian Nat Prod Res 2015;17(1):33-39. doi:10.1080/10286020.2014.968560 (초록 확인)", "25367562", "J Asian Nat Prod Res"),
+ pm(28, "Antibacterial lignans and triterpenoids from Rostellularia procumbens. Planta Med 2007;73(15):1596-1599. doi:10.1055/s-2007-993747 (초록 확인)", "18058608", "Planta Med"),
+ pm(29, "Application of a sensitive and specific LC-MS/MS method for determination of chinensinaphthol methyl ether in rat plasma for a bioavailability study. J Chromatogr B 2012;903:75-80. doi:10.1016/j.jchromb.2012.06.045 (초록 확인)", "22831883", "J Chromatogr B"),
+ pm(30, "Justicia procumbens ameliorates aortic aging via ferroptosis regulation in senescent mice and vascular smooth muscle cells. Fitoterapia 2025;186:106829. doi:10.1016/j.fitote.2025.106829 (초록 확인)", "40835052", "Fitoterapia"),
+ pm(31, "Part 1: Antiplasmodial, cytotoxic, radical scavenging and antioxidant activities of Thai plants in the family Acanthaceae. Planta Med 2010;76(16):1940-1943. doi:10.1055/s-0030-1250045 (초록 확인)", "20556707", "Planta Med"),
+ pm(32, "Deciphering the pharmacological mechanisms of Rostellularia procumbens (L) Nees. Extract alleviates adriamycin-induced nephropathy in vivo and in vitro. Phytomedicine 2023;113:154736. doi:10.1016/j.phymed.2023.154736 (초록 확인)", "36907143", "Phytomedicine"),
+ pm(33, "Anti-HIV lignans from Justicia procumbens. Chin J Nat Med 2019;17(12):945-952. doi:10.1016/S1875-5364(19)30117-7 (초록 확인)", "31882050", "Chin J Nat Med"),
+]
+
+S = []
+S.append(("overview", "한눈에 보기", """쥐꼬리망초(Justicia procumbens L.)는 쥐꼬리망초과(Acanthaceae)에 속하는 풀로, 영어로는 Oriental water willow라 부른다[1, 2]. 인도·대만·오스트레일리아·중국 남부·베트남·한국 등에 흔히 자라며, 국내에서는 중부와 남부에 널리 분포한다고 소개된다[2, 4].
+
+식약처 「식품원료 목록」에는 원료명 '쥐꼬리망초잎'(이명 쥐꼬리망풀)이 식품원료(A코드)로 올라 있고, 학명은 Justicia procumbens L. / Justicia japonica Thunb.로 적혀 있다[1]. 사용 상태는 '사용가능'이지만 조건은 '사용가능부위 : 잎'이어서, 식품원료로 쓸 수 있는 부위는 잎뿐이다[1]. 건강기능식품 고시형 원료의 원재료가 아니므로 고시 지표성분이나 1일 섭취량 기준은 없다[1].
+
+주요 성분은 저스티시딘 B·저스티시딘 A 같은 아릴나프탈렌 리그난과 그 배당체이며, 지금까지 이 식물에서 분리된 대사물은 95종으로 정리되었다[2]. 2025년 고분해능 질량분석 연구에서는 리그난 54종·플라보노이드 19종·유기산 31종·알칼로이드 18종 등 132종이 잠정 동정되었다[16]. 대부분의 성분·효능 연구는 잎이 아닌 전초(식물 전체)나 지상부 추출물로 이루어졌으므로, 식품원료인 잎에 그대로 옮겨 적을 수는 없다[2, 3, 7]. 한국에서는 이 식물의 무수에탄올 추출물이 천식 치료제 후보로 개발되어 2020년 논문 시점에 임상 1상을 마무리하는 단계로 소개되었다[3, 15]."""))
+S.append(("history", "이름과 이용의 역사", """중국에서는 이 식물을 작상(爵床)이라 부르며, 전초를 인후염·통증·암 등에 써 왔고 1977년판 중국약전에 수재되었다[7, 8]. 중국 문헌에서는 『신농본초경』에 처음 기록되어 요통과 열을 다스리는 데 썼고, 당나라 『신수본초』에서는 어혈 관련 질환에 처음 쓰였다고 정리한다[5]. 중국 연구에서는 같은 식물을 Rostellularia procumbens (L.) Nees라는 학명으로 부르는 경우가 많다[8, 28, 32].
+
+한국·중국·인도에서는 전초를 열·기침·부종·황달·인후통·요로감염 치료에 써 왔고, 뱀에 물렸을 때나 물고기를 잡는 독초로도 썼다는 기록이 있다[2, 3]. 대만에서는 열·통증·암에 쓰는 민간 약초로 소개되었다[22]. 인도에서는 잎으로 국을 끓여 천식에 쓰고, 말레이시아에서는 흉년에 식용했다는 서술이 있다[6]. 중국에서 이 식물을 원료로 한 복합 제제(시럽·분무제)가 판매되고 있다는 보고도 있다[6].
+
+한국에서는 2010년대에 이 식물의 무수에탄올 추출물(DW2008, 이후 분말화한 DW2008S)이 천식 치료제 후보로 개발되었다[14, 15]. 국내 전통 식용 이력이나 이름 '쥐꼬리망초'의 유래는 이번 조사에서 확인하지 못함."""))
+S.append(("biology", "식물학적 특징", """쥐꼬리망초는 한해살이풀로, 전형적인 이삭꽃차례를 내며 꽃차례 밑에 총포 모양의 포가 없다[8]. 꽃부리는 뚜렷한 두 입술 모양이고 수술은 2개이며, 삭과 하나에 씨앗이 4개 들어 있다[8]. 약재로 말린 줄기는 여섯 모가 진 원기둥 모양이고 마디가 부푼 곳이 연한 자주색을 띤다[8]. 잎은 타원상 긴 타원형이며 가장자리가 밋밋하고, 맛은 담백하다[8].
+
+현미경으로 보면 꽃가루는 긴 타원형이고 발아구가 2개이며, 잎 표피의 기공은 직축형(diacytic)이다[8]. 비샘털은 대개 3–5개 세포로 이루어지고, 머리가 납작하게 부푼 4세포 샘비늘이 흔하다[8]. 줄기와 잎에는 긴 타원형·막대 모양의 탄산칼슘 결정(종유체)이 많아, 비슷한 쥐꼬리망초과 약재와 구별하는 데 쓰인다[8].
+
+야외 실험에서는 꼬마꽃벌의 일종(Halictus aerarius)이 다른 벌이 이미 다녀간 쥐꼬리망초 꽃을 냄새 표지로 알아보고 피했다[10]. 정확한 개화 시기·키 같은 국내 공식 도감 기재는 이번 조사에서 확인하지 못함."""))
+S.append(("related_species", "같은 속·혼동 주의 식물", """「식품원료 목록」에서 Justicia 속으로 올라 있는 원료는 쥐꼬리망초잎 하나뿐이며, 같은 과(쥐꼬리망초과)에서는 Asteracantha longifolia의 잎('Katu-ikiriya잎')이 별도 '사용가능' 원료로 올라 있다[1]. 같은 과의 천심련(Andrographis paniculata)은 일반 식품원료가 아니라 개별인정형 건강기능식품 원료(천심련추출물, 인정 제2022-3호·제2022-37호)로 따로 올라 있으므로 쥐꼬리망초와 섞어서는 안 된다[1].
+
+엽록체 유전체로 Justicieae족 14종을 비교한 계통 분석에서 쥐꼬리망초와 가장 가까운 종은 Justicia flava였다[9]. 일본 연구에서는 흰 꽃 변종인 Justicia procumbens var. leucantha의 지상부에서 항바이러스 리그난을 분리했는데, 이는 기본종과 같은 결과로 볼 수 없다[24].
+
+중국 문헌의 Rostellularia procumbens (L.) Nees는 같은 식물을 가리키는 학명으로 쓰이므로, 그 이름으로 낸 논문도 이 종의 자료다[8, 28, 32]. 태국의 쥐꼬리망초과 20종 비교 연구처럼 여러 종을 함께 시험한 자료는 종마다 결과가 달라 서로 옮겨 쓰면 안 된다[31]. 「식품원료 목록」에서 Justicia adhatoda·Justicia gendarussa 같은 다른 Justicia 종은 찾지 못하였으며, 이 종들의 식품원료 지위는 확인하지 못함."""))
+S.append(("cultivation", "자생·재배", """국내 연구 원료로는 야생 채취품과 재배품이 함께 쓰인다[3]. 2012–2019년 국내에서 모은 35개 시료 가운데 12개는 제천·용인·영동·양평에서 재배한 것이었고, 제천 재배품 5개는 GAP(우수농산물관리) 인증을 받았다[3]. 재배품은 야생품보다 지표성분 저스티시딘 B(0.80 ± 0.25 mg/g 대 0.63 ± 0.30 mg/g)와 디필린 등 리그난 5종의 봉우리 면적이 더 컸다[3]. 야생 개체끼리는 채취 지역에 따른 성분 차이가 뚜렷하지 않았다[3].
+
+천식 치료제 후보 추출물 연구에는 제천에서 채취하고 국립생물자원관이 감정한 원료가 쓰였다[15]. 식물공장과 스마트팜에서 키운 원료로 만든 물 추출물은 생쥐 털 재생 시험에서 재배 방식과 관계없이 비슷한 효과를 보였다[17].
+
+농림축산식품부 「특용작물 생산실적」과 통계청 농작물생산조사 자료에서 쥐꼬리망초 품목은 찾지 못하여, 국내 재배 면적·생산량은 확인하지 못함."""))
+S.append(("processing", "가공·제품", """식품원료로 쓸 수 있는 부위는 잎이므로, 식품에는 잎만 원료로 써야 한다[1]. 연구용 원료는 대개 전초를 말려 가루로 낸 뒤 에탄올·메탄올 등으로 추출했다[3, 6, 7]. 국내 품질 비교 연구에서는 말린 가루 2.0 g을 무수에탄올로 두 번 초음파 추출하여 저스티시딘 B를 정량했다[3].
+
+천식 치료제 후보 DW2008S는 말린 원료를 10배 부피의 무수에탄올로 추출해 60 °C에서 농축한 뒤, 콜로이드성 이산화규소와 1:1로 섞어 진공 건조한 분말이다[15]. 이 분말의 주성분은 저스티시딘 A와 저스티시딘 B로 확인되었다[15].
+
+중국 연구에서는 전초 15 kg의 80% 에탄올 침출액에서 아세트산에틸 추출물 90 g을 얻고, 실리카겔 칼럼으로 활성 분획 15 g을 만들었다[6]. 이 분획은 저스티시딘 B 45.98%, 키넨시나프톨 메틸에테르 25.06%, 네오저스티신 B 19.10%로 이루어졌다[6]. 중국의 복합 시럽 제제(Jian-er syrup) 품질관리에도 같은 리그난 다성분 정량법이 쓰였다[12].
+
+효능 연구는 탈모 생쥐[18], 노화 생쥐의 대동맥[30] 등 세포·동물 수준이며, 6'-하이드록시저스티시딘 B는 세포·페럿 시험을 거친 코로나19 치료제 후보 단일 성분이다[20]. 국내 식품 생산 실적은 확인하지 못함."""))
+S.append(("genetics", "유전·유전체", """쥐꼬리망초의 엽록체 유전체는 150,454 bp 길이의 고리 모양이며, 큰 단일복제 부위·작은 단일복제 부위와 역반복 부위 2개로 이루어진 4분 구조다[9]. 유전자는 133개로, 단백질 암호 유전자 88개, tRNA 유전자 37개, rRNA 유전자 8개가 들어 있다[9]. 단순반복서열(SSR) 24개와 반복서열 81개가 확인되었다[9].
+
+Justicieae족의 다른 종과 비교하면 암호화하지 않는 부위가 암호 부위보다 변이가 컸다[9]. 엽록체 유전체 14개로 그린 계통수에서 쥐꼬리망초는 Justicia flava와 가장 가까웠다[9]. 이 연구는 이 종의 첫 유전체 연구로 소개되었다[9].
+
+국내 야생품과 재배품을 비교한 대사체 연구에서는 HPLC 봉우리 11개와 1H-NMR 신호로 두 집단이 뚜렷이 갈렸고, 디필린이 구분력이 가장 컸다[3]. 핵 유전체 해독, 염색체 수, 품종 등록 현황은 이번 조사에서 확인하지 못함."""))
+S.append(("safety", "안전성·주의", """식약처 「식품원료 목록」에서 쥐꼬리망초는 잎만 식품원료로 쓸 수 있고, 고시형 원료가 아니어서 따로 정한 섭취 주의사항은 없다[1]. 이 식물은 물고기를 잡는 독초로 쓰인 기록이 있고, 2023년 종설은 안전한 사용을 위해 독성·전임상·임상 연구가 더 필요하다고 결론지었다[2]. 잎 자체의 사람 섭취 안전성 자료는 이번 조사에서 확인하지 못함.
+
+태국 아연 광산 지대에서 채취한 쥐꼬리망초는 지상부 카드뮴이 건조 무게 1 kg당 100 mg을 넘어 카드뮴 초집적 식물로 분류되었다[11]. 같은 조사에서 지상부 아연이 건조 무게 1 kg당 10,000 mg을 넘은 아연 초집적 식물은 이 종뿐이었다[11]. 따라서 광산·오염 토양 주변에서 채취한 잎은 중금속 위험이 있다[11].
+
+주요 리그난의 독성 자료는 단일 성분 수준이다[19, 20, 29]. 6'-하이드록시저스티시딘 B는 GLP 유전독성 시험에서 음성이었고, 랫드와 비글견 경구 투여에서 치사량이 2,000 mg/kg를 넘었다[19, 20]. 키넨시나프톨 메틸에테르의 랫드 경구 절대 생체이용률은 3.2 ± 0.2%로 낮았다[29].
+
+저스티시딘 류는 시험관과 동물에서 혈소판 응집 억제·혈전 억제 작용을 보였다[5, 6, 25]. 사람에서 항응고제·항혈소판제와의 상호작용 자료는 확인하지 못함. 공공기관의 알레르기·잔류농약 정보도 확인하지 못함."""))
+
+compounds = [
+ dict(name="Justicidin B", name_ko="저스티시딘 B", **{"class": "아릴나프탈렌 리그난"}, role="marker", part="건조 식물체(국내 야생·재배 35시료)", content_text="0.22–1.38 mg/g(건조 시료); 재배품 0.80 ± 0.25 mg/g, 야생품 0.63 ± 0.30 mg/g[3]", activity_ko="국내 품질관리 지표성분으로 선정[3]; 사람 혈소판 응집 억제(시험관)·랫드 경동맥 혈전 억제(동물)[5]; PDE4 억제(효소 시험)[15]", source=[3, 5, 15]),
+ dict(name="Justicidin A", name_ko="저스티시딘 A", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초 추출물(DW2008S 주성분)", content_text="DW2008S의 두 주성분 중 하나 — 함량 수치는 확인하지 못함[15]", activity_ko="생쥐 천식 모델에서 Th2 반응 억제(동물)[14, 15]; 대장암 세포 사멸·생쥐 이식 종양 성장 억제(세포·동물)[21]", source=[14, 15, 21]),
+ dict(name="6'-Hydroxyjusticidin B", name_ko="6'-하이드록시저스티시딘 B", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초", content_text="주요 리그난 6종의 함량 범위 0.065–0.37 mg/g(산지 3곳 시료)에 포함[13]", activity_ko="백혈병 K562 세포 증식 억제(세포)[23]; GLP 유전독성 음성, 랫드 경구 치사량 2,000 mg/kg 초과[19]", source=[13, 19, 23]),
+ dict(name="6'-Hydroxyjusticidin A", name_ko="6'-하이드록시저스티시딘 A", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초", content_text="주요 리그난 6종의 함량 범위 0.065–0.37 mg/g에 포함[13]", activity_ko="K562 세포 증식 억제(세포; 세기 순서 HJB > HJA > JB)[23]", source=[13, 23]),
+ dict(name="6'-Hydroxyjusticidin C", name_ko="6'-하이드록시저스티시딘 C", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초", content_text="HPLC-DAD 8종 동시 정량 대상 — 함량 수치는 초록에 없어 확인하지 못함[12]", activity_ko="중국산 시료·시럽 제제의 품질관리 다성분 지표 중 하나[12]", source=[12]),
+ dict(name="Chinensinaphthol methyl ether", name_ko="키넨시나프톨 메틸에테르", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초(아세트산에틸 활성 분획)", content_text="항혈소판 활성 분획의 25.06%[6]", activity_ko="혈소판 응집 억제(시험관·동물)[5, 6]; 랫드 경구 절대 생체이용률 3.2 ± 0.2%[29]", source=[5, 6, 29]),
+ dict(name="Neojusticin B", name_ko="네오저스티신 B", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초(아세트산에틸 활성 분획)", content_text="항혈소판 활성 분획의 19.10%[6]", activity_ko="혈소판 응집 억제 후보(시험관)[5]; 랫드 혈장에서는 검출되지 않음[6]", source=[5, 6]),
+ dict(name="Neojusticin A", name_ko="네오저스티신 A", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초", content_text="주요 리그난 6종의 함량 범위 0.065–0.37 mg/g에 포함[13]", activity_ko="토끼 혈소판 응집 억제(시험관)[25]; 국내 재배품에서 야생품보다 많음[3]", source=[3, 13, 25]),
+ dict(name="Diphyllin", name_ko="디필린", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="건조 식물체", content_text="함량 수치 없음 — 재배품에서 야생품보다 유의하게 많음(봉우리 면적)[3]", activity_ko="변종 var. leucantha 지상부 분리품이 수포성구내염 바이러스 억제(세포, MIC 0.25 µg/mL 미만)[24]; HIV-1 억제 IC50 0.38 µmol/L(세포)[33]", source=[3, 24, 33]),
+ dict(name="Tuberculatin", name_ko="투베르쿨라틴", **{"class": "아릴나프탈렌 리그난 배당체"}, role="bioactive", part="전초", content_text="함량 수치 없음 — 국내 시료 HPLC 공통 봉우리 11개 중 하나[3]", activity_ko="사람 혈소판 응집을 억제한 유효 성분 중 하나(시험관)[5]", source=[3, 5]),
+ dict(name="Taiwanin E methyl ether", name_ko="타이와닌 E 메틸에테르", **{"class": "아릴나프탈렌 리그난"}, role="bioactive", part="전초", content_text="함량 수치 없음[25]", activity_ko="혈소판 응집 억제(시험관)[25]; K562 세포 억제는 5종 중 가장 약함[23]", source=[23, 25]),
+ dict(name="Secoisolariciresinol dimethyl ether", name_ko="세코이소라리시레시놀 다이메틸에테르", **{"class": "다이아릴뷰테인(다이벤질뷰테인) 리그난"}, role="bioactive", part="전초", content_text="함량 수치 없음 — 아세트산에틸 추출물에서 다이아세테이트형이 비교적 많음(총이온 크로마토그램)[6]", activity_ko="전초에서 다이아릴뷰테인 리그난 9종과 함께 분리[26]", source=[6, 26]),
+ dict(name="Justicidinoside B", name_ko="저스티시디노사이드 B", **{"class": "아릴나프탈렌 리그난 배당체"}, role="bioactive", part="전초(아세트산에틸 추출물)", content_text="함량 수치는 본문 표에 없어 확인하지 못함 — 6종 정량 대상[7]", activity_ko="변종 var. leucantha 지상부에서 저스티시딘 A의 6'-O-글루코사이드로 처음 보고[24]; 배당체는 랫드 혈중에서 검출되지 않음[6]", source=[6, 7, 24]),
+ dict(name="Ursolic acid", name_ko="우르솔산", **{"class": "트라이테르페노이드"}, role="bioactive", part="전초", content_text="함량 수치 없음[28]", activity_ko="세균 8종에 MIC 1.56–100 µg/mL 범위의 항균 활성(분리 성분 전체 범위)[28]", source=[28]),
+ dict(name="Justicianene A", name_ko="저스티시아넨 A", **{"class": "사이클로펩타이드 알칼로이드"}, role="bioactive", part="전초", content_text="함량 수치 없음[27]", activity_ko="Justicia 속에서 처음 보고된 사이클로펩타이드 알칼로이드[27]", source=[27]),
+]
+
+def cond(**k):
+    base = {x: "" for x in ["instrument","column","mobile_phase","gradient","flow","temp","detection","injection","sample_prep","standard","linearity","lod","loq","recovery"]}
+    base.update(k); return base
+assays = [
+ {"role": "literature", "compound": "Justicidin B", "compound_ko": "저스티시딘 B", "part": "건조 식물체(국내 35시료 중 재배 12시료; 부위 표기는 원문에서 확인하지 못함)",
+  "content": "0.22–1.38 mg/g(건조 시료); 재배 0.80 ± 0.25 mg/g, 야생 0.63 ± 0.30 mg/g[3]", "method": "HPLC-DAD",
+  "conditions": cond(column="Shiseido Capcell Pak UG120 C18(4.6 × 250 mm, 5 µm)", mobile_phase="(A) 아세토니트릴, (B) 물", gradient="0–5분 15% A; 40분 46% A; 60분 55% A; 70분 60% A; 75분 40% A; 76–90분 15% A", flow="0.8 mL/min", temp="35 °C",
+   sample_prep="말린 시료 가루 2.0 g + 무수에탄올 50 mL 실온 초음파 20분 → 원심분리(3000 rpm, 5분)·여과(5 µm) → 잔사에 무수에탄올 40 mL 10분 재추출 → 합쳐 100 mL로 맞추고 0.2 µm 여과", standard="저스티시딘 B 표준품(화학 합성품을 지표로 써 왔다고 기술)"),
+  "rationale": "35개 크로마토그램 모두에서 일정하고 강하게 검출되어 국내 품질관리 지표성분으로 선정되었다[3]. 전문(Methods) 확인 — 검출 파장·직선성·검출한계·회수율은 보충자료(검증 표)에만 있어 확인하지 못함[3].",
+  "source": [3], "url": "https://pubmed.ncbi.nlm.nih.gov/32646001/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Justicidin B / Chinensinaphthol methyl ether / Neojusticin B", "compound_ko": "저스티시딘 B·키넨시나프톨 메틸에테르·네오저스티신 B", "part": "전초 아세트산에틸 추출물의 항혈소판 활성 분획",
+  "content": "활성 분획 중 저스티시딘 B 45.98%, 키넨시나프톨 메틸에테르 25.06%, 네오저스티신 B 19.10%(원료 식물 기준 함량 아님)[6]", "method": "HPLC-UV",
+  "conditions": cond(instrument="Agilent 1200 액체크로마토그래프", column="Eclipse XDB-C18(4.6 mm × 150 mm, 5 µm)", mobile_phase="(A) 물, (B) 아세토니트릴", gradient="0분 55% A; 8분 55% A; 12분 35% A; 20분 35% A", flow="0.6 mL/min", temp="30 °C", detection="256 nm", injection="10 µL",
+   sample_prep="활성 분획을 메탄올에 0.480 mg/mL로 녹임(5 mg/10 mL 메탄올, 초음파 10분, 0.22 µm 여과와 같은 방법)", standard="실험실에서 분리한 저스티시딘 B 0.162 mg/mL·키넨시나프톨 메틸에테르 0.141 mg/mL·네오저스티신 B 0.132 mg/mL 혼합 표준액(메탄올)"),
+  "rationale": "랫드 혈장으로 잘 옮겨 가고 추출물 속 함량도 높은 저스티시딘 B와 키넨시나프톨 메틸에테르를 항혈소판 유효 성분으로 보고 지표로 삼았다[6]. 전문(Methods) 확인 — 직선성·검출한계·회수율은 본문에 없음[6].",
+  "source": [6], "url": "https://pubmed.ncbi.nlm.nih.gov/40305585/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Eight arylnaphthalide lignans (6'-hydroxyjusticidin A/B/C, justicidin B, justicidin C, chinensinaphthol methyl ether, taiwanin C, neojusticin A)", "compound_ko": "아릴나프탈라이드 리그난 8종", "part": "전초(중국 여러 산지) 및 시럽 제제",
+  "content": "함량 수치는 초록에 없어 확인하지 못함[12]", "method": "HPLC-DAD(지문 분석 + 다성분 정량)",
+  "conditions": cond(column="Shiseido Capcell Pak C18(250 × 4.6 mm, 5 µm)", mobile_phase="아세토니트릴–물", temp="35 °C", detection="256 nm"),
+  "rationale": "특징 봉우리 17개의 지문과 리그난 8종 동시 정량을 함께 쓰는 품질관리법으로 제안되었다[12]. 전문 확인 못함 — 초록에 나온 조건만 옮겼다[12].",
+  "source": [12], "url": "https://pubmed.ncbi.nlm.nih.gov/21328534/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Six dominant lignans (6'-hydroxyjusticidin B, 6'-hydroxyjusticidin A, justicidin B, chinensinaphthol methyl ether, justicidin C, neojusticin A)", "compound_ko": "주요 리그난 6종", "part": "전초(산지가 다른 3개 배치)",
+  "content": "0.065–0.37 mg/g(6종·3배치 범위)[13]", "method": "메조다공성 실리카 고상추출(SPE) + UPLC-MS/MS",
+  "conditions": cond(sample_prep="실험실 제작 SPE 카트리지(메조다공성 실리카 100 mg)에 적재 → 10% 메탄올로 세척 → 아세토니트릴 0.8 mL로 용출", linearity="상관계수 0.9989–0.9996(초록 값)", lod="0.13 µg/kg 이하", loq="0.42 µg/kg 이하", recovery="83.42–96.11%(RSD 2.88% 이하)"),
+  "rationale": "이 종에서 우세한 리그난 6종을 6분 안에 분리해 정량했다[13]. 전문 확인 못함 — 칼럼·이동상·질량 조건은 초록에 없어 비웠다[13].",
+  "source": [13], "url": "https://pubmed.ncbi.nlm.nih.gov/32040861/", "source_kind": "paper"},
+]
+
+d = {"slug": "justicia-procumbens", "name_ko": "쥐꼬리망초", "name_en": "Oriental water willow", "scientific_name": "Justicia procumbens",
+     "aliases": ["쥐꼬리망초", "쥐꼬리망초잎", "쥐꼬리망풀", "Oriental water-willow", "Justicia japonica", "Rostellularia procumbens", "작상(爵床)"],
+     "sections": [{"key": k, "title": t, "body": b} for k, t, b in S],
+     "compounds": compounds, "markers": [], "assays": assays, "nutrients": [], "production": [], "world": [], "gi": [], "orgs": [],
+     "sources": sources}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in d["sections"]: print(s["key"], len(s["body"]))
