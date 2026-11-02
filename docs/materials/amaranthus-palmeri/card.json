@@ -1,0 +1,34 @@
+{
+ "key": "Amaranthus palmeri",
+ "name_ko": "긴이삭비름",
+ "names": [
+  "긴이삭비름씨앗",
+  "긴이삭비름잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Careless weed, Palmers amaranth"
+ ],
+ "scnm_full": [
+  "Amaranthus palmeri S.Watson"
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14747580,
+ "genus": "Amaranthus",
+ "family": "Amaranthaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

@@ -1,0 +1,78 @@
+{
+ "key": "Angelica decursiva",
+ "name_ko": "바디나물",
+ "names": [
+  "바디나물순"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Purple-flower angelica"
+ ],
+ "scnm_full": [
+  "Angelica decursiva (Miq.) Franch. & Sav. / Angelica decursiva f. albiflora Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747757,
+ "genus": "Angelica",
+ "family": "Apiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 31,
+ "candidates": [
+  {
+   "compound": "2-[2-[3,4,5-Trihydroxy-6-[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxypropan-2-yl]-2,3-dihydrofuro[3,2-g]chromen-7-one",
+   "compound_ko": null,
+   "pubchem_cid": 137796537,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Decuroside III",
+   "compound_ko": null,
+   "pubchem_cid": 442125,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Decursidin",
+   "compound_ko": null,
+   "pubchem_cid": 15521791,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[1-Methyl-1-(2-oxo-8,9-dihydrofuro[2,3-h]chromen-8-yl)ethyl] 2-methylbut-2-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 53399217,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[2,2-Dimethyl-3-(3-methylbut-2-enoyloxy)-8-oxo-3,4-dihydropyrano[3,2-g]chromen-4-yl] 3-methylbut-2-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 10477544,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.505
+}

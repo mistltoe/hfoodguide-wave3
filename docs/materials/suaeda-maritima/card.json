@@ -1,0 +1,37 @@
+{
+ "key": "Suaeda maritima",
+ "name_ko": "해홍나물",
+ "names": [
+  "해홍나물순",
+  "해홍나물잎"
+ ],
+ "nicknames": [
+  "갯나문재",
+  "남은재나물"
+ ],
+ "eng": [
+  "Sea blite, Sea goosefoot, Herbaceous seepweed"
+ ],
+ "scnm_full": [
+  "Suaeda maritima (L.) Dumort. / Suaeda maritima subsp. asiatica Hara. / Chenopodina filiformis Moq. / Chenopodium maritimum L. / Suaeda australis Moq."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14759160,
+ "genus": "Suaeda",
+ "family": "Chenopodiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 22,
+ "candidates": [],
+ "priority": 5.739
+}

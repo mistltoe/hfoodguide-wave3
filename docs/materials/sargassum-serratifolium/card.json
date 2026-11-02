@@ -1,0 +1,30 @@
+{
+ "key": "Sargassum serratifolium",
+ "name_ko": "톱니모자반",
+ "names": [
+  "톱니모자반"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Sargassum serratifolium"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Sargassum",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

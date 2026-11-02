@@ -1,0 +1,79 @@
+{
+ "key": "Styela plicata",
+ "name_ko": "주름미더덕",
+ "names": [
+  "주름미더덕"
+ ],
+ "nicknames": [
+  "오만둥이",
+  "오만디"
+ ],
+ "eng": [
+  "Wrinkled sea squirt, Sea potato"
+ ],
+ "scnm_full": [
+  "Styela plicata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14767397,
+ "genus": "Styela",
+ "family": "Styelidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 13,
+ "candidates": [
+  {
+   "compound": "Plicatamide",
+   "compound_ko": null,
+   "pubchem_cid": 101022375,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Tunichrome Sp-1",
+   "compound_ko": null,
+   "pubchem_cid": 11104307,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Isofucoxanthin",
+   "compound_ko": null,
+   "pubchem_cid": 15559915,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(3R)-3-[(2Z,4E,6E,8E,10E,12E,14E,16E)-3-hydroxy-19-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-4,8,13,17-tetramethylnonadeca-2,4,6,8,10,12,14,16-octaen-18-ynoyl]-3,4,4-trimethylcyclopentan-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 23424843,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Diadinochrome",
+   "compound_ko": null,
+   "pubchem_cid": 134771507,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 4.146
+}

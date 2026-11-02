@@ -1,0 +1,80 @@
+{
+ "key": "Cyclopia intermedia",
+ "name_ko": "허니부쉬",
+ "names": [
+  "허니부쉬잎",
+  "허니부쉬줄기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Honey bush"
+ ],
+ "scnm_full": [
+  "Cyclopia intermedia"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14763472,
+ "genus": "Cyclopia",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 40,
+ "candidates": [
+  {
+   "compound": "(2R,3S,4S,5R,6S)-2-[[(2R,3S,4S)-3,4-dihydroxy-4-(hydroxymethyl)oxolan-2-yl]oxymethyl]-6-[4-(2-hydroxyethyl)phenoxy]oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162946495,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3R,4S,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]oxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163033630,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-2-(3,4-dihydroxyphenyl)-7-hydroxy-5-[(2R,3R,4S,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]oxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163011943,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-5-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-7-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163070654,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-5-hydroxy-2-(4-hydroxyphenyl)-7-[(2R,3R,4S,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]oxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163039721,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.99
+}

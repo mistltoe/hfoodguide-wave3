@@ -1,0 +1,74 @@
+{
+ "key": "Aplysia kurodai",
+ "name_ko": "군소",
+ "names": [
+  "군소"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Aplysia kurodai"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14772840,
+ "genus": "Aplysia",
+ "family": "Aplysiidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 45,
+ "candidates": [
+  {
+   "compound": "(1E,3R,4S,5E,7S)-1-bromo-3,4,7,8-tetrachloro-3,7-dimethylocta-1,5-diene",
+   "compound_ko": null,
+   "pubchem_cid": 642192,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,8R,9S,12R)-9-hydroxy-1-methyl-2-[(2R)-6-methylheptan-2-yl]-5-oxatricyclo[6.3.1.04,12]dodecan-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 21674181,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,4aR,4bS,7R,8aS,10aS)-7-bromo-1-(hydroxymethyl)-2,4b,8,8,10a-pentamethyl-1,3,4,4a,5,6,7,8a,9,10-decahydrophenanthren-2-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162952886,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2S,4aS,6R,8aR)-6-bromo-1-[(3R)-3-hydroxy-3-methylpent-4-enyl]-2,5,5,8a-tetramethyl-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-ol",
+   "compound_ko": null,
+   "pubchem_cid": 23426423,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2S,4aS,6R,8aR)-6-bromo-1-[(E)-5-hydroxy-3-methylpent-3-enyl]-2,5,5,8a-tetramethyl-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-ol",
+   "compound_ko": null,
+   "pubchem_cid": 23427916,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.663
+}

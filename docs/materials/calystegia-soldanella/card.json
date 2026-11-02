@@ -1,0 +1,82 @@
+{
+ "key": "Calystegia soldanella",
+ "name_ko": "갯메",
+ "names": [
+  "갯메꽃땅속줄기",
+  "갯메꽃순"
+ ],
+ "nicknames": [
+  "개메꽃"
+ ],
+ "eng": [
+  "Sea bells, Beach morning glory"
+ ],
+ "scnm_full": [
+  "Calystegia soldanella (L.) Roem. & Schultb. / Calystegia marioimus Lam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "땅속줄기",
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 땅속줄기, 순"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14749044,
+ "genus": "Calystegia",
+ "family": "Convolvulaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "(11S)-11-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-3-[(2S,3R,4S,5R,6R)-5-hydroxy-6-(hydroxymethyl)-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-6-methyloxan-2-yl]oxyhexadecanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 10056532,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(11S)-11-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-3-[(2S,3R,4S,5R,6R)-5-hydroxy-6-(hydroxymethyl)-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-6-methyloxan-2-yl]oxyhexadecanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162843021,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Calysolin I",
+   "compound_ko": null,
+   "pubchem_cid": 56833466,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Calysolin II",
+   "compound_ko": null,
+   "pubchem_cid": 56833467,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Calysolin III",
+   "compound_ko": null,
+   "pubchem_cid": 56833554,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.419
+}

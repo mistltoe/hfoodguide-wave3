@@ -1,0 +1,78 @@
+{
+ "key": "Cedrus libani",
+ "name_ko": "레바논개잎갈수지",
+ "names": [
+  "레바논개잎갈수지"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Cedar of Lebanon"
+ ],
+ "scnm_full": [
+  "Cedrus libani A.Rich."
+ ],
+ "kind": "plant",
+ "parts": [
+  "수지"
+ ],
+ "conditions": [
+  "사용가능부위 : 수지"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749364,
+ "genus": "Cedrus",
+ "family": "Pinaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 74,
+ "candidates": [
+  {
+   "compound": "(1R,2S,7S,8R,9R)-2,6,6,9-tetramethyltricyclo[5.4.0.02,9]undecan-8-ol",
+   "compound_ko": null,
+   "pubchem_cid": 101637059,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,4aR,10aR)-1,4a-dimethyl-7-propan-2-yl-2,3,4,9,10,10a-hexahydrophenanthrene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 6552012,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-4-[(2R)-4-oxopentan-2-yl]cyclohexene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 96019538,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-4-[(Z)-6-methyl-4-oxohept-2-en-2-yl]cyclohexene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162929118,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4S)-4-[(2R)-4-oxopentan-2-yl]cyclohexene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 96019540,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.875
+}

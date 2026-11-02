@@ -1,0 +1,30 @@
+{
+ "key": "Acanthopagrus schlegelii",
+ "name_ko": "감성돔",
+ "names": [
+  "감성돔"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Black sea bream"
+ ],
+ "scnm_full": [
+  "Acanthopagrus schlegelii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14801725,
+ "genus": "Acanthopagrus",
+ "family": "Sparidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

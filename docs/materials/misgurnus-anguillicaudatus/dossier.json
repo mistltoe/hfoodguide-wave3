@@ -1,0 +1,514 @@
+{
+ "slug": "misgurnus-anguillicaudatus",
+ "name_ko": "미꾸리",
+ "name_en": "Pond loach",
+ "scientific_name": "Misgurnus anguillicaudatus (Cantor, 1842)",
+ "aliases": [
+  "미꾸리",
+  "Pond loach",
+  "Dojo loach",
+  "Oriental weatherfish",
+  "Cobitis anguillicaudata"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "미꾸리(Misgurnus anguillicaudatus (Cantor, 1842))는 잉어목 미꾸리과(Cobitidae) 미꾸리속에 속하는 민물고기로, 영어로는 pond loach·dojo loach·oriental weatherfish 등으로 불린다[4, 5]. 시베리아의 아무르강 유역과 사할린, 한국, 일본에서 중국을 거쳐 베트남 북부까지 동아시아에 자연 분포한다[4, 5].\n\n식약처 「식품원료 목록」에는 원료명 '미꾸리'(영문 Pond loach)가 수산물로 올라 있고 상태는 '사용가능'이다[1]. 부위 칸은 '-'이고 따로 정한 사용 조건은 없으며, 건강기능식품 고시형 원료의 원재료 목록에도 없어 고시 지표성분이나 1일 섭취량 기준은 없다[1]. 식품공전 별표 1 「식품에 사용할 수 있는 원료」에는 A나037250 미꾸리가 실려 있고, 같은 속의 미꾸라지(A나037200, Misgurnus mizolepis)는 별도 원료로 구분된다[2].\n\n동아시아에 널리 분포하는 흔한 민물고기로 식용·관상용·낚시 미끼로 쓰이며, 중국에서는 예로부터 맛과 풍미로 알려져 왔다[5, 23, 24]. 단백질 가수분해 펩타이드와 다당 등 기능성 소재 연구가 이어지고 있다[22, 23, 24]. IUCN 적색목록에서는 관심 대상(LC)으로 평가되었다[3, 4]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "이 종의 학명은 Cantor가 1842년에 Cobitis anguillicaudata로 처음 기재한 이름에서 비롯했고, 지금은 Misgurnus 속에 둔다[3]. GBIF 분류표에는 Cobitis maculata Temminck & Schlegel, 1846, Misgurnus punctatus Oshima, 1926 등 30여 개의 이명이 정리되어 있다[3].\n\n미국 어류야생동물국(USFWS) 평가에 따르면 이 종은 1800년대 말 식용으로 하와이에 들여와졌고, 이후 양식·관상어 거래·미끼 방류를 통해 북미·유럽·오세아니아에 정착했다[5]. 중국에서는 예로부터 맛과 풍미로 알려졌고 수십 년 동안 중요한 민물 양식종이 되었다고 보고된다[23].\n\n국내에서는 1984–1985년 기생충학 연구에서 서울·김해·나주·강진 등지의 시장에서 산 미꾸리가 조사되어, 시장에서 유통되는 식용어였음을 보여 준다[14, 15]. 1997년에는 국내 연구진이 미꾸리에서 새로운 항균 펩타이드 미스구린(misgurin)을 분리해 보고했다[17]. 국내 고문헌 속 미꾸리 이용 기록은 이번 조사에서 공식 출처로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "몸은 뱀장어처럼 길고, 등 쪽은 갈색 바탕에 녹회색·갈색 얼룩무늬가 있으며 배는 엷은 은색이다[5]. 입은 작고 아래쪽을 향하며 입수염이 있는데, USFWS 자료는 6개, FishBase는 10개로 적어 출처마다 다르다[4, 5]. 최대 표준체장 28 cm까지 자라지만 보통 10–20 cm이고, 암컷이 수컷보다 크다[5].\n\n강·호수·연못·늪·논의 진흙 바닥에 살며 주로 작은 저서 무척추동물과 유기물 찌꺼기를 먹는다[4, 5]. 뒤창자·피부·수염을 보조 호흡기관으로 써서 공기를 마실 수 있어, 산소가 2 mg/L 아래인 물이나 마른 진흙 속에서도 버틴다[5, 6]. 실험에서는 81일 넘는 건조·굶주림을 견뎠고, 약 −1~−2 °C에서 38 °C 안팎까지 견디는 것으로 보고되었다[5].\n\n체외수정을 하며 4–10월에 여러 차례 산란하고, 수명은 13년 이상이라는 보고가 있다[5]. 국내 당진 논 조사(2015년)에서는 잡힌 물고기 2,704마리 가운데 65.9%가 미꾸리로 가장 많았다[12]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "식품공전 원료 목록은 미꾸리(Pond loach, Misgurnus anguillicaudatus)와 미꾸라지(추어, Chinese muddy loach, Misgurnus mizolepis / Paramisgurnus dabryanus)를 서로 다른 원료로 적는다[2]. 같은 미꾸리과의 기름종개(Cobitis hankugensis)도 별도 원료로 올라 있다[2].\n\n국내에서 발견된 알비노 미꾸리속 25개체를 rag1·cytb 유전자로 판별한 연구에서는 미꾸라지·미꾸리·M. mohoity 세 계통이 확인되었다[11]. 붉은 눈 형 20개체 가운데 16개체가 미꾸리였고, 일부는 미꾸라지×미꾸리, M. mohoity×미꾸리 잡종으로 판정되었다[11]. 색소가 없는 개체는 형태만으로 종을 가리기 어려워 이런 유전자 판별법이 쓰인다[11].\n\nGBIF에서는 M. mizolepis elongatus 같은 옛 미꾸라지 아종명 일부가 미꾸리의 이명으로 정리되어 있어, 문헌을 읽을 때 학명을 꼭 확인해야 한다[3]. 미꾸리 안에서도 중국 중부의 이배체–사배체 복합 집단과 일본 일부 집단의 클론 이배체 계통처럼 배수성과 번식 방식이 다른 무리가 알려져 있다[9]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식과 어획",
+   "body": "FishBase는 미꾸리를 상업 어업·상업 양식·관상어 거래 대상이며 때때로 미끼로 쓰는 종으로 적는다[4]. USFWS 평가도 세계적으로 관상어, 식용 양식, 낚시 미끼, 중국 전통 약재로 쓰인다고 정리했다[5].\n\n국내 당진 조사에서는 친환경 논에서 미꾸리가 관행 논보다 약 2.67배 많이 잡혀, 논이 이 종의 중요한 서식처임을 보여 준다[12].\n\n연못 양식은 수질 탓에 세균 감염이 생기기 쉬우며, 국내 병든 미꾸리에서 여러 항생제에 내성인 Chryseobacterium cucumeris가 처음 분리되었다[16]. 중국 야생 60개체의 전장 유전체 재시퀀싱(resequencing) 분석에서는 평균 근교계수가 0.552로 높아 야생 자원 보전이 필요하다고 지적되었다[10]. 국내 미꾸리만 따로 집계한 어획·양식 생산 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "미꾸리 단백질을 효소로 분해하면 여러 생리활성 펩타이드가 생긴다[21, 22, 24]. 브로멜라인 가수분해물에서 분리한 Ala-His-Leu-Leu는 ACE 저해 IC50 18.2 μg/mL를 보였고, 2.5 kDa 미만 분획을 먹인 고혈압 쥐의 수축기 혈압이 내려갔다[21]. 3 kDa 미만 분획에서 찾은 펩타이드 중 TVDGPSGKLWR는 0.5 mg/mL에서 DPPH 소거율 86.57%, AFRVPTP는 ACE 저해율 92.12%(IC50 95.07 μg/mL)를 보였다[22].\n\n초음파 보조 효소 분해(200 W, 22분, 중성 단백질분해효소 10 KU/g)로 항산화 활성이 높은 가수분해물을 만들었고 펩타이드 서열 2,289개가 확인되었다[24]. 열수 추출 탄수화물은 RAW264.7 대식세포에서 면역 조절 활성을 보였다[23]. 껍질에서는 산가용성·펩신가용성 I형 콜라겐을 각각 22.42%, 27.32% 수율로 얻었다[20].\n\n동결건조 분말은 쥐 간섬유화 모델에서 간 보호 효과를 보였다[25]. 위 결과는 모두 세포·동물 실험이며, 사람 대상 시험과 국내 제품 생산실적은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 염색체",
+   "body": "2023년 처음 발표된 염색체 수준 유전체(이배체 수컷 1마리)는 1.10 Gb 크기로 25개 염색체에 98.66%가 고정되었고, k-mer로 추정한 유전체 크기는 1,135 Mb였다[6]. 뼈 발달 조절 유전자 fos가 양성 선택되었고, fos를 없앤 개체에 골화석증과 운동 장애가 생겨 진흙 속 생활과의 관련이 제시되었다[6]. 독성 물질 대사에 관여하는 fmo5 유전자군이 늘어나 있었고, fmo5 결손 개체는 간·장 손상을 보였다[6].\n\n미꾸리는 이배체와 사배체가 함께 있는 종으로, 중국 중부의 야생 사배체는 전체 유전체가 배가된 동질사배체로 여겨진다[7, 9]. 2024년 동질사배체 유전체는 4.76 Gb, 단백질 암호 유전자 91,485개로 조립되었다[7]. 일본 일부 야생 집단에는 자성발생으로 번식하는 클론 이배체 계통이 있다[9]. 같은 연구진은 공기호흡 관련 유전자로 mex3a를 찾아, 없애면 혈관 생성이 억제되어 공기호흡 능력이 떨어짐을 보였다[8]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 주의",
+   "body": "식품공전 원료 분류에서 민물어류에는 미꾸라지 등이 예시되어 있고, 어류 중금속 기준은 납 0.5 mg/kg 이하, 카드뮴 0.1 mg/kg 이하(민물·회유 어류), 수은 0.5 mg/kg 이하이며, 건조 등으로 수분이 달라진 수산물은 생물 기준으로 환산해 적용한다[2]. 고시형 원료가 아니어서 따로 정한 섭취 주의사항은 없다[1].\n\n미꾸리는 국내에서 간흡충(Clonorchis sinensis)의 제2중간숙주로 새로 확인된 민물고기에 들어 있다[13]. 시장에서 산 미꾸리 154마리 중 41.6%에서 호르텐스극구흡충(Echinostoma hortense) 피낭유충이 나왔고, Echinostoma cinetorchis 피낭유충도 확인되어 사람 감염원이 될 수 있다고 보고되었다[14, 15]. 간흡충 감염은 민물고기를 날로 먹은 이력과 관련되어 보고되므로 충분히 익혀 먹는 것이 바람직하다[13].\n\n실험에서 미꾸리는 α-헥사클로로사이클로헥산을 최대 생물농축계수 728까지 축적했고 반감기는 약 5일이었다[27]. 농약 잔류 분석법도 이 종을 대상으로 검증되었다[28]. 미꾸리 단독의 알레르기 정보는 공공기관 자료에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "3-Deoxy-D-glycero-D-galacto-2-nonulosonic acid",
+   "name_ko": "KDN(탈아미노 뉴라민산, 시알산의 일종)",
+   "class": "시알산",
+   "role": "marker",
+   "part": "피부 점액 당단백질",
+   "content_text": "정제 당단백질의 38.5% (w/w)[18, 19]",
+   "activity_ko": "미꾸리 피부 점액의 주된 시알산; 물고기 점액 당단백질에서 NeuAc 대신 KDN을 가진 첫 보고[18]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "N-Acetylneuraminic acid",
+   "name_ko": "N-아세틸뉴라민산(NeuAc)",
+   "class": "시알산",
+   "role": "bioactive",
+   "part": "피부 점액 당단백질",
+   "content_text": "0.4% (w/w)[18]; 0.5%[19]",
+   "activity_ko": "점액 당단백질의 미량 시알산[18, 19]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "N-Acetylgalactosamine",
+   "name_ko": "N-아세틸갈락토사민(GalNAc)",
+   "class": "아미노당",
+   "role": "bioactive",
+   "part": "피부 점액 당단백질",
+   "content_text": "24.6% (w/w)[18]; 25.0%[19]",
+   "activity_ko": "Thr에 결합한 당사슬의 뿌리 당[18]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "L-Fucose",
+   "name_ko": "푸코스",
+   "class": "단당(다당 구성)",
+   "role": "marker",
+   "part": "몸 전체(열수 추출 다당 MAP)",
+   "content_text": "MAP 단당 조성 중 87.55%; MAO 중 0.92%[23]",
+   "activity_ko": "미꾸리 다당(MAP)의 주 구성 당; 면역 조절 활성 탄수화물의 구성 성분[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "L-Arabinose",
+   "name_ko": "아라비노스",
+   "class": "단당(올리고당 구성)",
+   "role": "bioactive",
+   "part": "몸 전체(열수 추출 올리고당 MAO)",
+   "content_text": "MAO 단당 조성 중 77.11%[23]",
+   "activity_ko": "MAO 뼈대 당으로 추정[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "L-Rhamnose",
+   "name_ko": "람노스",
+   "class": "단당",
+   "role": "bioactive",
+   "part": "몸 전체(열수 추출 탄수화물)",
+   "content_text": "MAO 중 21.97%, MAP 중 8.86%[23]",
+   "activity_ko": "미꾸리 올리고당·다당의 구성 당[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "D-Galactose",
+   "name_ko": "갈락토스",
+   "class": "단당",
+   "role": "bioactive",
+   "part": "몸 전체(열수 추출 다당 MAP); 피부 점액",
+   "content_text": "MAP 중 3.59%[23]; 피부 점액 당단백질 3.3% (w/w)[18]",
+   "activity_ko": "다당·점액 당단백질의 구성 당[18, 23]",
+   "source": [
+    18,
+    23
+   ]
+  },
+  {
+   "name": "Misgurin",
+   "name_ko": "미스구린(항균 펩타이드)",
+   "class": "펩타이드(21 아미노산, 2,502 Da)",
+   "role": "bioactive",
+   "part": "개체(추출 부위는 초록에 명시 없음)",
+   "content_text": "함량 수치 없음(정제·서열 결정)[17]",
+   "activity_ko": "넓은 범위 미생물에 항균 활성, 마가이닌 2보다 약 6배 강하고 뚜렷한 용혈성 없음(시험관)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Ala-His-Leu-Leu",
+   "name_ko": "ACE 저해 펩타이드 AHLL",
+   "class": "펩타이드(452 Da)",
+   "role": "bioactive",
+   "part": "몸 전체 단백질 브로멜라인 가수분해물",
+   "content_text": "ACE 저해 IC50 18.2 ± 0.9 μg/mL[21]",
+   "activity_ko": "안지오텐신 전환효소 저해; 2.5 kDa 미만 분획 경구 투여 시 고혈압 쥐 수축기 혈압 감소[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "AFRVPTP",
+   "name_ko": "펩타이드 AFRVPTP(D-4)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "몸 전체 단백질 가수분해물(3 kDa 미만)",
+   "content_text": "ACE 저해율 92.12%, IC50 95.07 μg/mL(0.12 mM)[22]",
+   "activity_ko": "ACE 저해·항산화(시험관, 분자 도킹)[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "TVDGPSGKLWR",
+   "name_ko": "펩타이드 TVDGPSGKLWR(D-2)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "몸 전체 단백질 가수분해물(3 kDa 미만)",
+   "content_text": "0.5 mg/mL에서 DPPH 소거율 86.57%[22]",
+   "activity_ko": "같은 농도 글루타티온보다 높은 DPPH 소거 활성(시험관)[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "Collagen type I",
+   "name_ko": "I형 콜라겐",
+   "class": "구조 단백질",
+   "role": "nutrient",
+   "part": "껍질",
+   "content_text": "수율 산가용성 22.42%, 펩신가용성 27.32%; 이미노산 212·193 잔기/1,000 잔기; 변성온도 36.03·33.61 °C[20]",
+   "activity_ko": "육상 포유류 콜라겐의 대체 원료 후보[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "MAPP antimicrobial polypeptide",
+   "name_ko": "항균 폴리펩타이드 MAPP",
+   "class": "폴리펩타이드(약 9,800 Da)",
+   "role": "bioactive",
+   "part": "개체(추출 부위는 초록에 명시 없음)",
+   "content_text": "함량 수치 없음(약 94 잔기, 시스테인이 가장 많음, pI 약 4.78)[26]",
+   "activity_ko": "고초균·대장균·황색포도상구균 생육 억제, 60 °C 30분 뒤에도 70% 넘는 활성 유지(시험관)[26]",
+   "source": [
+    26
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "L-Fucose",
+   "compound_ko": "푸코스",
+   "part": "몸 전체(열수 추출 다당 MAP)",
+   "content": "MAP 단당 조성 중 87.55% (MAO 중 0.92%)[23]",
+   "method": "GC (단당 조성)",
+   "conditions": {
+    "instrument": "가스크로마토그래프(GC) — 기종·칼럼·온도 프로그램은 선행 문헌 방법을 따랐다고만 적힘",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "다진 미꾸리를 50 °C 오븐 건조 → 분쇄·40 mesh 체 → 속슬레 탈지 → 물 1:5(w/v), 59 °C 83분 3회 추출 → 4,000×g 15분 원심 → 농축 → Sevag 제단백 → 에탄올 4배량 4 °C 하룻밤 침전 → 투석(MWCO 3,500) → 동결건조(MAC) → DEAE-52 셀룰로스 칼럼(1 × 20 cm, 물·0.1–0.4 mol/L NaCl, 1 mL/min): 물 용출 MAO, 0.1 mol/L NaCl 용출 MAP",
+    "standard": "단당 표준 혼합물(크로마토그램으로 제시)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열수 추출 다당 MAP의 주 구성 당이라 미꾸리 다당의 특성을 나타내는 지표로 쓸 수 있다[23]. 다른 연구는 미꾸리 다당의 푸코스를 40%로 보고해 추출·정제법에 따라 값이 크게 다르다[23]. 전문(Methods) 확인 — GC 조건은 선행 문헌 인용뿐이라 비움[23].",
+   "source": [
+    23
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421513/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Misgurnus anguillicaudatus polysaccharide (MAP)",
+   "compound_ko": "미꾸리 다당(MAP)",
+   "part": "몸 전체(열수 추출)",
+   "content": "Mw 3,873 Da, Mn 2,748 Da, Mw/Mn 1.41, 머무름 시간 8.683분; 총당 98.80% ± 0.27%[23]",
+   "method": "HPLC-RID (겔 투과, 분자량 측정)",
+   "conditions": {
+    "instrument": "Shimadzu LC-20 HPLC",
+    "column": "Shodex 802 (Φ300 × 7.5 mm)",
+    "mobile_phase": "초순수",
+    "gradient": "",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "굴절률 검출기(RID)",
+    "injection": "",
+    "sample_prep": "다진 미꾸리를 50 °C 오븐 건조 → 분쇄·40 mesh 체 → 속슬레 탈지 → 물 1:5(w/v), 59 °C 83분 3회 추출 → 4,000×g 15분 원심 → 농축 → Sevag 제단백 → 에탄올 4배량 4 °C 하룻밤 침전 → 투석(MWCO 3,500) → 동결건조(MAC) → DEAE-52 셀룰로스 칼럼(1 × 20 cm, 물·0.1–0.4 mol/L NaCl, 1 mL/min): 물 용출 MAO, 0.1 mol/L NaCl 용출 MAP",
+    "standard": "덱스트란 표준(중량평균분자량 1,000·4,000·5,000·7,000·16k Da)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "면역 조절 활성을 보인 미꾸리 탄수화물의 정제 분획으로, 분자량·균질도가 품질 지표가 된다[23]. 총당은 페놀-황산법(글루코스 표준)으로 쟀다[23]. 전문(Methods) 확인 — 칼럼 온도·주입량·검출한계·회수율은 본문에 없음[23].",
+   "source": [
+    23
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421513/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "3-Deoxy-D-glycero-D-galacto-2-nonulosonic acid",
+   "compound_ko": "KDN(시알산)",
+   "part": "피부 점액 당단백질",
+   "content": "정제 당단백질의 38.5% (w/w)[18]",
+   "method": "NMR·질량분석으로 동정(정량법은 초록에 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "피부 점액을 0.05 M Tris-HCl(pH 8.0)로 초음파 처리해 당단백질 용해 → DE52-셀룰로스 크로마토그래피 → Nuclease P1 처리 → Sepharose CL-4B 겔 여과",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "미꾸리 피부 점액의 주된 시알산이며 NeuAc 대신 KDN을 가진 점이 이 종 점액 당단백질의 특징이다[18, 19]. 전문 확인 못함 — 초록만 보아 기기 조건은 비움[18].",
+   "source": [
+    18,
+    19
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7798209/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Misgurnus anguillicaudatus 행(미꾸리, Pond loach, 수산물, 부위 '-', 사용가능; docs/materials/misgurnus-anguillicaudatus/card.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품의 기준 및 규격」(식품공전) 고시전문 — 제1. 4. 식품원료 분류 2) 동물성 원료(민물어류), 제2. 중금속 기준 ③ 수산물, 별표 1 원료목록 A나037250 미꾸리·A나037200 미꾸라지·A나012400 기름종개(프로젝트 원문 사본)",
+   "url": "https://www.foodsafetykorea.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "GBIF Backbone Taxonomy — Misgurnus anguillicaudatus (Cantor, 1842) (ACCEPTED, usageKey 2367919, Cobitidae, Cypriniformes), 이명 목록·IUCN 범주 LC·출현 기록 44,067건(한국 30,887·일본 6,844·호주 1,877·중국 1,412건 등)",
+   "url": "https://www.gbif.org/species/2367919",
+   "publisher": "GBIF Secretariat",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "FishBase — Misgurnus anguillicaudatus (Cantor, 1842), Pond loach: species summary",
+   "url": "https://www.fishbase.se/summary/3016",
+   "publisher": "FishBase",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "U.S. Fish and Wildlife Service. Pond Loach (Misgurnus anguillicaudatus) Ecological Risk Screening Summary (2024년 3월, 2025년 5월 개정, 웹판 2026-07-21)",
+   "url": "https://www.fws.gov/sites/default/files/documents/2026-08/ecological-risk-screening-summary-pond-loach-jul-2026.pdf",
+   "publisher": "U.S. Fish and Wildlife Service",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Sun B 외. The chromosome-level genome and key genes associated with mud-dwelling behavior and adaptations of hypoxia and noxious environments in loach (Misgurnus anguillicaudatus). BMC Biol 2023;21:18",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9893644/",
+   "publisher": "BMC Biology (BioMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Sun B 외. Chromosome-scale and haplotype-resolved genome assembly of the autotetraploid Misgurnus anguillicaudatus. Sci Data 2024;11:1059",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438953/",
+   "publisher": "Scientific Data (Nature Portfolio)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Sun B 외. The loach haplotype-resolved genome and the identification of Mex3a involved in fish air breathing. Cell Genom 2024;4(10):100670",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11602589/",
+   "publisher": "Cell Genomics (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Arai K, Fujimoto T. Genomic constitution and atypical reproduction in polyploid and unisexual lineages of the Misgurnus loach, a teleost fish. Cytogenet Genome Res 2013;140:226-240",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23899809/",
+   "publisher": "Cytogenetic and Genome Research (Karger)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Cui X 외. Investigation of genetic diversity in the loach Misgurnus anguillicaudatus revealed by whole-genome resequencing. BMC Genomics 2024;25:1126",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11583728/",
+   "publisher": "BMC Genomics (BioMed Central)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Song HY 외. Genetic species identification by sequencing analysis of nuclear and mitochondrial genes for albino Misgurnus species from Korea. 한국어류학회지 2017;29(2):139-145 (영문 초록)",
+   "url": "https://koreascience.kr/article/JAKO201720636499863.pdf",
+   "publisher": "한국어류학회",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Lee BM 외. Fish assemblages distinguish eco-friendly from conventional rice paddies through abundance and biomass rather than diversity. Biology (Basel) 2026;15(16):1411",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13509312/",
+   "publisher": "Biology (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Yoo WG 외. Current status of Clonorchis sinensis and clonorchiasis in Korea: epidemiological perspectives integrating the data from human and intermediate hosts. Parasitology 2022",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10090769/",
+   "publisher": "Parasitology (Cambridge University Press)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Chai JY 외. Studies on intestinal trematodes in Korea XVI. Infection status of loaches with the metacercariae of Echinostoma hortense. 기생충학잡지 1985;23(1):18-23",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12888682/",
+   "publisher": "대한기생충학·열대의학회",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Seo BS 외. Studies on intestinal trematodes in Korea XIV. Infection status of loaches with metacercariae of Echinostoma cinetorchis and their development in albino rats. 기생충학잡지 1984;22(2):181-189",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12891011/",
+   "publisher": "대한기생충학·열대의학회",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Kim SG 외. First isolation and characterization of Chryseobacterium cucumeris SKNUCL01, isolated from diseased pond loach (Misgurnus anguillicaudatus) in Korea. Pathogens 2020;9(5):397",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7281267/",
+   "publisher": "Pathogens (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Park CB 외. A novel antimicrobial peptide from the loach, Misgurnus anguillicaudatus. FEBS Lett 1997;411:173-178",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9271200/",
+   "publisher": "FEBS Letters (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Kimura M 외. Characterization of a deaminated neuraminic acid-containing glycoprotein from the skin mucus of the loach, Misgurnus anguillicaudatus. J Biol Chem 1994;269(51):32138-32143",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7798209/",
+   "publisher": "Journal of Biological Chemistry (ASBMB)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Nakagawa H 외. KDN-containing glycoprotein from loach skin mucus. Adv Exp Med Biol 2001;491:171-184",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14533798/",
+   "publisher": "Advances in Experimental Medicine and Biology (Springer)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Wang J 외. Extraction and characterization of acid-soluble and pepsin-soluble collagen from skin of loach (Misgurnus anguillicaudatus). Int J Biol Macromol 2018;106:544-550",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28811205/",
+   "publisher": "International Journal of Biological Macromolecules (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Li Y 외. Purification of a novel angiotensin I-converting enzyme (ACE) inhibitory peptide with an antihypertensive effect from loach (Misgurnus anguillicaudatus). J Agric Food Chem 2012;60(5):1320-1325",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22224920/",
+   "publisher": "Journal of Agricultural and Food Chemistry (ACS)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Dou B 외. Multiple bioactivities of peptides from hydrolyzed Misgurnus anguillicaudatus. Molecules 2023;28(6):2589",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10053552/",
+   "publisher": "Molecules (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Yun L 외. Structure characterization and immunomodulatory activity of Misgurnus anguillicaudatus carbohydrates. Molecules 2023;28(15):5771",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421513/",
+   "publisher": "Molecules (MDPI)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Chu Z 외. Ultrasound-assisted enzymatic hydrolysis of loach (Misgurnus anguillicaudatus) protein for antioxidant peptides: process optimization, structural characterization, and Keap1/Nrf2-mediated antioxidant mechanism. Ultrason Sonochem 2025;107665",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12639302/",
+   "publisher": "Ultrasonics Sonochemistry (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Zhang Q 외. Hepatoprotective effects of loach (Misgurnus anguillicaudatus) lyophilized powder on dimethylnitrosamine-induced liver fibrosis in rats. Arch Pharm Res (2014 온라인 게재)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25074038/",
+   "publisher": "Archives of Pharmacal Research (대한약학회)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Dong XZ 외. The preparation and characterization of an antimicrobial polypeptide from the loach, Misgurnus anguillicaudatus. Protein Expr Purif 2002;26(2):235-242",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12406677/",
+   "publisher": "Protein Expression and Purification (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Ma RX 외. Enantioselective toxicokinetics study of the bioaccumulation and elimination of α-hexachlorocyclohexane in loaches (Misgurnus anguillicaudatus) and its environmental implications. Chemosphere 2013;90(7):2181-2186",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23246726/",
+   "publisher": "Chemosphere (Elsevier)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Li H 외. Residual analysis of QoI fungicides in multiple (six) types of aquatic organisms by UPLC-MS/MS under acutely toxic conditions. Environ Sci Pollut Res 2023;30(5):12075-12084",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36104645/",
+   "publisher": "Environmental Science and Pollution Research (Springer)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

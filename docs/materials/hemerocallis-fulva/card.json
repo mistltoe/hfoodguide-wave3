@@ -1,0 +1,91 @@
+{
+ "key": "Hemerocallis fulva",
+ "name_ko": "원추리",
+ "names": [
+  "원추리꽃봉오리",
+  "원추리어린잎",
+  "원추리추출물",
+  "홑왕원추리어린잎"
+ ],
+ "nicknames": [
+  "겹첩넘나물",
+  "넘나물",
+  "들원추리",
+  "큰겹원추리"
+ ],
+ "eng": [
+  "Common day liiy, Orange day lily, Day lily",
+  "Orange Daylily, Tawny Datlily, Fulvous Daylily"
+ ],
+ "scnm_full": [
+  "Hemerocallis fulva L. / Hemerocallis fulva L. var. longituba (Miq.) Maxim.",
+  "Hemerocallis fulva L. / Hemerocallis fulva var. maculata Baroni"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꽃봉오리",
+  "어린잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 어린잎",
+  "사용가능부위 : 어린잎, 꽃봉오리"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14753088,
+ "genus": "Hemerocallis",
+ "family": "Liliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 72,
+ "candidates": [
+  {
+   "compound": "(2R)-2-amino-5-[[(2S)-3-methyl-2,5-dihydrofuran-2-yl]amino]-5-oxopentanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162960464,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3S,4S,5R,6S)-2-[[(2R,3S,4R)-3,4-dihydroxy-4-(hydroxymethyl)oxolan-2-yl]oxymethyl]-6-[(1S)-4-methyl-1-propan-2-ylcyclohex-3-en-1-yl]oxyoxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 11224676,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,4R)-2-amino-4-hydroxypentanedioic acid",
+   "compound_ko": null,
+   "pubchem_cid": 57824326,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,9S,11R)-11-hydroxy-3,8-dioxa-1-azatricyclo[7.3.0.02,6]dodec-5-en-12-one",
+   "compound_ko": null,
+   "pubchem_cid": 9990289,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-2-amino-5-[[(2S)-3-methyl-2,5-dihydrofuran-2-yl]amino]-5-oxopentanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162960465,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.846
+}

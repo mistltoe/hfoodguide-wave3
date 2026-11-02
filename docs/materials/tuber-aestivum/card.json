@@ -1,0 +1,37 @@
+{
+ "key": "Tuber aestivum",
+ "name_ko": "송로버섯",
+ "names": [
+  "건조송로버섯",
+  "송로버섯오일",
+  "송로버섯자실체",
+  "송로버섯주스",
+  "송로버섯추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Truffle"
+ ],
+ "scnm_full": [
+  "Tuber aestivum (Wulfen) Vitt. / Tuber melanosporum Vittad."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 17099068,
+ "genus": "Tuber",
+ "family": "Tuberaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.877
+}

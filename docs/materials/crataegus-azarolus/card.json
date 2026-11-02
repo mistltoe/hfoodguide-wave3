@@ -1,0 +1,32 @@
+{
+ "key": "Crataegus azarolus",
+ "name_ko": "아자롤루스산사",
+ "names": [
+  "아자롤루스산사열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Azarole"
+ ],
+ "scnm_full": [
+  "Crataegus azarolus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15355239,
+ "genus": "Crataegus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

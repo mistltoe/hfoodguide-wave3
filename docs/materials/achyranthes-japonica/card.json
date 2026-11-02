@@ -1,0 +1,51 @@
+{
+ "key": "Achyranthes japonica",
+ "name_ko": "쇠무릅",
+ "names": [
+  "건조쇠무릅",
+  "발효쇠무릅뿌리농축액",
+  "발효쇠무릅뿌리추출고형분",
+  "쇠무릅농축액",
+  "쇠무릅분말",
+  "쇠무릅뿌리",
+  "쇠무릅뿌리추출분말",
+  "쇠무릅잎",
+  "쇠무릅줄기",
+  "쇠무릅추출농축분말",
+  "쇠무릅추출물고형분",
+  "쇠무릅추출물분말",
+  "쇠무릅추출액"
+ ],
+ "nicknames": [
+  "쇠무릎풀",
+  "우슬"
+ ],
+ "eng": [
+  "Oriental chaff flower"
+ ],
+ "scnm_full": [
+  "Achyranthes japonica Nakai / Achyranthes bidentata Blume"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "뿌리",
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎",
+  "제한적사용가능부위 : 뿌리※(우슬)"
+ ],
+ "status": "restricted",
+ "n_rows": 13,
+ "bioresource_id": 14747094,
+ "genus": "Achyranthes",
+ "family": "Amaranthaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.711
+}

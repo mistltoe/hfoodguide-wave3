@@ -1,0 +1,32 @@
+{
+ "key": "Mactra veneriformis",
+ "name_ko": "동죽",
+ "names": [
+  "동죽"
+ ],
+ "nicknames": [
+  "동조개"
+ ],
+ "eng": [
+  "Surf clam"
+ ],
+ "scnm_full": [
+  "Mactra veneriformis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Mactra",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

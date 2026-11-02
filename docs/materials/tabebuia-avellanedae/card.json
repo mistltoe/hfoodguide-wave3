@@ -1,0 +1,43 @@
+{
+ "key": "Tabebuia avellanedae",
+ "name_ko": "타히보",
+ "names": [
+  "타히보껍질",
+  "타히보내피",
+  "타히보농축액",
+  "타히보농축액분말",
+  "타히보분말",
+  "타히보차",
+  "타히보차추출물",
+  "타히보추출물분말",
+  "타히보추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Taheebo, Pau DArco"
+ ],
+ "scnm_full": [
+  "Tabebuia avellanedae / T. impetiginosa"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "껍질",
+  "속껍질",
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 껍질"
+ ],
+ "status": "allowed",
+ "n_rows": 9,
+ "bioresource_id": 14759240,
+ "genus": "Tabebuia",
+ "family": "Bignoniaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.983
+}

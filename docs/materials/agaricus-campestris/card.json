@@ -1,0 +1,76 @@
+{
+ "key": "Agaricus campestris",
+ "name_ko": "주름버섯",
+ "names": [
+  "주름버섯"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Agaricus campestris L. ex Fr."
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14773444,
+ "genus": "Agaricus",
+ "family": "Agaricaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 34,
+ "candidates": [
+  {
+   "compound": "(2S)-5-amino-2-(3,4-dihydroxyanilino)-5-oxopentanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162851,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4S)-4-amino-N'-[4-(hydroxymethyl)phenyl]-5-oxopentanehydrazide",
+   "compound_ko": null,
+   "pubchem_cid": 129637375,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Agaridoxin",
+   "compound_ko": null,
+   "pubchem_cid": 15382847,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "L-Glutamic acid, 5-[2-(4-formylphenyl)hydrazide]",
+   "compound_ko": null,
+   "pubchem_cid": 15382846,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "DL-Arginine",
+   "compound_ko": null,
+   "pubchem_cid": 232,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 4.544
+}

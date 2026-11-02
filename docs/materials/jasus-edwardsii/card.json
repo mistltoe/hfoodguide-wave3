@@ -1,0 +1,32 @@
+{
+ "key": "Jasus edwardsii",
+ "name_ko": "붉은남방닭새우",
+ "names": [
+  "붉은남방닭새우"
+ ],
+ "nicknames": [
+  "Red rock lobster"
+ ],
+ "eng": [
+  "Red rock lobster"
+ ],
+ "scnm_full": [
+  "Jasus edwardsii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15925667,
+ "genus": "Jasus",
+ "family": "Palinuridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

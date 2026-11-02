@@ -1,0 +1,33 @@
+{
+ "key": "Hippocampus abdominalis",
+ "name_ko": "식용양식해마",
+ "names": [
+  "식용양식해마",
+  "식용양식해마분말",
+  "해마추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Big-belly Sea horse"
+ ],
+ "scnm_full": [
+  "Hippocampus abdominalis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "전체"
+ ],
+ "conditions": [],
+ "status": "restricted",
+ "n_rows": 3,
+ "bioresource_id": 15838585,
+ "genus": "Hippocampus",
+ "family": "Syngnathidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.0
+}

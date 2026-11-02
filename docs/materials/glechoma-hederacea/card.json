@@ -1,0 +1,82 @@
+{
+ "key": "Glechoma hederacea",
+ "name_ko": "병꽃풀",
+ "names": [
+  "병꽃풀",
+  "병꽃풀순",
+  "병꽃풀잎"
+ ],
+ "nicknames": [
+  "연전초"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Glechoma hederacea L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14752612,
+ "genus": "Glechoma",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 133,
+ "candidates": [
+  {
+   "compound": "epsilon-Bulgarene",
+   "compound_ko": null,
+   "pubchem_cid": 22211659,
+   "part": "Plant",
+   "content": "최대 11 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 11 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "2beta-Hydroxyursolic acid",
+   "compound_ko": null,
+   "pubchem_cid": 24721200,
+   "part": "Plant",
+   "content": "최대 600 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 600 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "Isogermafurene",
+   "compound_ko": null,
+   "pubchem_cid": 572766,
+   "part": "Plant",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "Epsilon-Muurolene",
+   "compound_ko": "엡실론-무롤렌",
+   "pubchem_cid": 520461,
+   "part": "Plant",
+   "content": "최대 6 ppm",
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 6 ppm",
+   "n_genera": 12
+  },
+  {
+   "compound": "1-Octen-3-yl acetate",
+   "compound_ko": "1-옥텐-3-일 아세테이트",
+   "pubchem_cid": 17121,
+   "part": "Plant",
+   "content": "최대 2 ppm",
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 2 ppm",
+   "n_genera": 17
+  }
+ ],
+ "priority": 7.627
+}

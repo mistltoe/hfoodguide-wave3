@@ -1,0 +1,30 @@
+{
+ "key": "Chlamys nobilis",
+ "name_ko": "흔한가리비",
+ "names": [
+  "흔한가리비"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Noble scallop"
+ ],
+ "scnm_full": [
+  "Chlamys nobilis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Chlamys",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

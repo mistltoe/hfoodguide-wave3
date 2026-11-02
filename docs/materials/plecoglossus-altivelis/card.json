@@ -1,0 +1,43 @@
+{
+ "key": "Plecoglossus altivelis",
+ "name_ko": "은어",
+ "names": [
+  "은어",
+  "은어내장",
+  "은어분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Ayu sweetfish"
+ ],
+ "scnm_full": [
+  "Plecoglossus altivelis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "어린순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14781766,
+ "genus": "Plecoglossus",
+ "family": "Plecoglossidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Galloxanthin",
+   "compound_ko": null,
+   "pubchem_cid": 13940463,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  }
+ ],
+ "priority": 5.301
+}

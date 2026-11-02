@@ -1,0 +1,80 @@
+{
+ "key": "Sanguisorba minor",
+ "name_ko": "술모이풀",
+ "names": [
+  "술모이풀잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Salad burnet"
+ ],
+ "scnm_full": [
+  "Sanguisorba minor Scop. / Poterium sanguisorba L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758038,
+ "genus": "Sanguisorba",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 25,
+ "candidates": [
+  {
+   "compound": "(2R)-2-[(E)-2-(4-carboxy-3-methoxyphenyl)ethenyl]-2-methoxybutanedioic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163193569,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R,4R,5R,6R)-2,3,4-trihydroperoxy-6-(hydroxymethyl)-5-phenoxy-5-phenylperoxyoxane-2,3,4-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162817110,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7-Hydroxy-4,8-dimethoxy-2-oxochromene-5,6-dicarboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 91554824,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(2R,3R,4R,5R,6R)-2,3,4-trihydroperoxy-3,4,5-trihydroxy-6-(hydroxymethyl)-6-phenoxy-5-phenylperoxyoxan-2-yl]-(3,4,5-trihydroxyphenyl)methanone",
+   "compound_ko": null,
+   "pubchem_cid": 162817107,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(2S,3R,4R,5R,6R)-2,3,4-trihydroperoxy-3,4,5-trihydroxy-6-(hydroxymethyl)-6-phenoxy-5-phenylperoxyoxan-2-yl]-(3,4,5-trihydroxyphenyl)methanone",
+   "compound_ko": null,
+   "pubchem_cid": 162817108,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.415
+}

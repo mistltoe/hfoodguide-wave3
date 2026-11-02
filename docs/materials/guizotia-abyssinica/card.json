@@ -1,0 +1,32 @@
+{
+ "key": "Guizotia abyssinica",
+ "name_ko": "니거",
+ "names": [
+  "니거씨앗"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Niger"
+ ],
+ "scnm_full": [
+  "Guizotia abyssinica (L.f.) Cass."
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14752833,
+ "genus": "Guizotia",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

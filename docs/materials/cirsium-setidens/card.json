@@ -1,0 +1,63 @@
+{
+ "key": "Cirsium setidens",
+ "name_ko": "고려엉겅퀴",
+ "names": [
+  "건조고려엉겅퀴",
+  "고려엉겅퀴",
+  "고려엉겅퀴분말",
+  "고려엉겅퀴순",
+  "고려엉겅퀴잎",
+  "고려엉겅퀴추출액",
+  "냉동고려엉겅퀴",
+  "절임고려엉겅퀴"
+ ],
+ "nicknames": [
+  "곤드레",
+  "도깨비엉겅퀴"
+ ],
+ "eng": [
+  "Gondre, Korean thistle"
+ ],
+ "scnm_full": [
+  "Cirsium setidens (Dunn) Nakai, Cirsium coreanum Nakai / Saussurea setidens Dunn"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 8,
+ "bioresource_id": 14769355,
+ "genus": "Cirsium",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "5-hydroxy-6-methoxy-2-(4-methoxyphenyl)-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-[[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 134728117,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Pectolinarin",
+   "compound_ko": "펙톨리나린",
+   "pubchem_cid": 168849,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  }
+ ],
+ "priority": 7.857
+}

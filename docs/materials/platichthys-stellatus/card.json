@@ -1,0 +1,30 @@
+{
+ "key": "Platichthys stellatus",
+ "name_ko": "강도다리",
+ "names": [
+  "강도다리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Starry flounder, Diamond back"
+ ],
+ "scnm_full": [
+  "Platichthys stellatus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16560001,
+ "genus": "Platichthys",
+ "family": "Pleuronectidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

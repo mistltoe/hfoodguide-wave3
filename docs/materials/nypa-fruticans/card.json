@@ -1,0 +1,40 @@
+{
+ "key": "Nypa fruticans",
+ "name_ko": "니파야자",
+ "names": [
+  "니파야자꽃액즙",
+  "니파야자농축액",
+  "니파야자분말",
+  "니파야자순",
+  "니파야자열매",
+  "니파야자추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Nipa Palm, Mangrove palm, nipah, Water Coconut"
+ ],
+ "scnm_full": [
+  "Nypa fruticans Wurmb"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꽃액즙",
+  "순",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 열매, 꽃액즙"
+ ],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 14755550,
+ "genus": "Nypa",
+ "family": "Arecaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.211
+}

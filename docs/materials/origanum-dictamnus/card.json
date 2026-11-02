@@ -1,0 +1,80 @@
+{
+ "key": "Origanum dictamnus",
+ "name_ko": "디터니오브크릿",
+ "names": [
+  "디터니오브크릿꽃",
+  "디터니오브크릿잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Dittany of crete"
+ ],
+ "scnm_full": [
+  "Origanum dictamnus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14755707,
+ "genus": "Origanum",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 70,
+ "candidates": [
+  {
+   "compound": "(1R,2S,3R,4aR,6aR,6aS,6bR,8aR,10S,12aR,14bS)-4a-(hydroxymethyl)-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-3,10-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162991984,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (1R,2S,3R,4aR,6aR,6aS,6bR,8aR,10S,12aR,14bS)-3,10-dihydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 21672624,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (3R,4aR,6aR,6aS,6bR,8aR,10S,12aR,14bS)-3,10-dihydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 21594152,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "12-Hydroxyjasmonicacid",
+   "compound_ko": null,
+   "pubchem_cid": 69604805,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "6-Mercaptopurine",
+   "compound_ko": "메르캅토푸린",
+   "pubchem_cid": 667490,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 6.229
+}

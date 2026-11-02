@@ -1,0 +1,30 @@
+{
+ "key": "Micromesistius poutassou",
+ "name_ko": "청대구",
+ "names": [
+  "청대구"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Blue whiting"
+ ],
+ "scnm_full": [
+  "Micromesistius poutassou"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16175195,
+ "genus": "Micromesistius",
+ "family": "Gadidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

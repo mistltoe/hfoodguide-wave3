@@ -1,0 +1,78 @@
+{
+ "key": "Abelmoschus moschatus",
+ "name_ko": "아벨모스쿠스 사카텐시스",
+ "names": [
+  "아벨모스쿠스 사카텐시스잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Musk Mallow"
+ ],
+ "scnm_full": [
+  "Abelmoschus moschatus Medik. var. tuberosus Borssum."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14746938,
+ "genus": "Abelmoschus",
+ "family": "Malvaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 50,
+ "candidates": [
+  {
+   "compound": "(Z)-5-Tetradecen-14-olide",
+   "compound_ko": null,
+   "pubchem_cid": 21187406,
+   "part": "Seed",
+   "content": "최대 30 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 30 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "5-Dodecen-1-ol, 1-acetate, (5Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 5363387,
+   "part": "Seed",
+   "content": "최대 0.6 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.6 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "5-Dodecenyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 85543,
+   "part": "Seed",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Oxacycloheptadec-8-en-2-one, (8Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 5365703,
+   "part": "Seed",
+   "content": "최대 6 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 6 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Decyl acetate",
+   "compound_ko": "데실 아세테이트",
+   "pubchem_cid": 8167,
+   "part": "Seed",
+   "content": "최대 350 ppm",
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 350 ppm",
+   "n_genera": 20
+  }
+ ],
+ "priority": 4.708
+}

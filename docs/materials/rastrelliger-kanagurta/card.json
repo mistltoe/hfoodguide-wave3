@@ -1,0 +1,31 @@
+{
+ "key": "Rastrelliger kanagurta",
+ "name_ko": "줄무늬고등어",
+ "names": [
+  "줄무늬고등어",
+  "훈연줄무늬고등어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Indian mackerel"
+ ],
+ "scnm_full": [
+  "Rastrelliger kanagurta"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 16725637,
+ "genus": "Rastrelliger",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

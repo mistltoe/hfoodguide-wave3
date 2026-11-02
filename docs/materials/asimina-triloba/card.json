@@ -1,0 +1,84 @@
+{
+ "key": "Asimina triloba",
+ "name_ko": "포포나무",
+ "names": [
+  "포포나무열매"
+ ],
+ "nicknames": [
+  "번려지",
+  "아시마나",
+  "파파"
+ ],
+ "eng": [
+  "Papaw"
+ ],
+ "scnm_full": [
+  "Asimina triloba Dunal / Annona triloba (L.)"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14748210,
+ "genus": "Asimina",
+ "family": "Annonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 212,
+ "candidates": [
+  {
+   "compound": "Butane-2,3-diol, mono-hexanoate, #1",
+   "compound_ko": null,
+   "pubchem_cid": 529258,
+   "part": "Fruit",
+   "content": "최대 1.121 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE), 최대 1.121 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "(E,E)-3,7,11-Trimethyl-2,6,10-dodecatrienyl octanoate",
+   "compound_ko": null,
+   "pubchem_cid": 5352773,
+   "part": "Fruit",
+   "content": "최대 0.041 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.041 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Octenoic acid, methyl ester, (2Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 11040937,
+   "part": "Fruit",
+   "content": "최대 0.036 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.036 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Butane-2,3-diol mono-butanoate, #1",
+   "compound_ko": null,
+   "pubchem_cid": 529257,
+   "part": "Fruit",
+   "content": "최대 0.473 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.473 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Ethyl 4-octenoate, (4Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 5352770,
+   "part": "Fruit",
+   "content": "최대 0.716 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.716 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.328
+}

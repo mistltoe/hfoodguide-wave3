@@ -1,0 +1,3841 @@
+{
+ "source": "식약처 고시 「건강기능식품의 기준 및 규격」 제4. 시험방법(고시 제2025-11호, 2025.3.5.)",
+ "methods": [
+  {
+   "no": "2-1",
+   "title": "붕해시험법",
+   "summary": "본 시험법은 시료가 물이나 시험액상에서 반복된 상하 움직임에 의하여 시료가 녹는 시간을 측정하는 방법으로, 내용고형제품의 시험액에 대한 붕해성 또는 저항성을 시험하는 방법이다. 따로 규정이 없는 한 정제제품, 적당한 제피제로 제피를 한 정제제품, 환제품, 캡슐제품, 과립제품, 장용성 제품은 각각 다음의 시험에 적합하여야 한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "염화나트륨(Sodium chloride)",
+    "염산(Hydrochloric acid)",
+    "증류수(Distilled water)",
+    "제1인산칼륨(Monopotassium phosphate)",
+    "수산화나트륨(Sodium hydroxide)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 41
+  },
+  {
+   "no": "2-2",
+   "title": "내용량 시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 25
+  },
+  {
+   "no": "2-3",
+   "title": "입도시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 4
+  },
+  {
+   "no": "2-4",
+   "title": "산도시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "2-4-1",
+   "title": "산도",
+   "summary": "본 시험법은 산의 총량측정을 이용한 분석법으로 pH 지시약(페놀프탈레인)을 사용하여 알칼리 규정액으로 적정함으로써 산의 함량을 구한다.",
+   "method": "",
+   "instruments": [
+    "pH 측정기"
+   ],
+   "columns": [],
+   "standards": [
+    "N 수산화나트륨 용액(Sodium hydroxide)1 N 수산화나트륨 용액을 취하여 증류수로 10배 용량으로 희석하여 사용하거나 수산화나트륨 4.5 g을 취하여 일정량의 증류수에 녹이고 1000 mL 부피플라스크에 옮겨 담은 후 증류수를 표선까지 채운 다음 표정하여 사용한다.",
+    "페놀프탈레인 시액(Phenolphthalein)페놀프탈레인 1 g을 에탄올 100 mL에 녹인다."
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1 산도(1 N NaOH mL/100g) = S × S : 0.1 N 수산화나트륨용액의 소비량(mL)f : 0.1 N 수산화나트륨용액의 역가",
+   "n_lines": 20
+  },
+  {
+   "no": "2-4-2",
+   "title": "유기산 산도",
+   "summary": "본 시험법은 산의 총량측정에 의한 분석법으로 pH 지시약(페놀프탈레인)을 사용하여 알칼리 규정액으로 적정함으로써 유기산 함량을 구한다.",
+   "method": "",
+   "instruments": [
+    "pH 측정기"
+   ],
+   "columns": [],
+   "standards": [
+    "N 수산화나트륨(Sodium hydroxide)1 N 수산화나트륨 용액을 취하여 증류수로 10배 용량으로 희석하여 사용하거나 수산화나트륨 4.5 g을 취하여 일정량의 증류수에 녹이고 1000 mL 부피플라스크에 옮겨 담은 후 증류수를 표선까지 채운 다음 표정하여 사용한다.",
+    "페놀프탈레인 시액(Phenolphthalein)페놀프탈레인 1 g을 에탄올 100 mL에 녹인다."
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1유기산 산도(젖산으로서, %) ＝ S × × 100S : 0.1 N 수산화나트륨용액의 소비량(mL)f : 0.1 N 수산화나트륨용액의 역가",
+   "n_lines": 20
+  },
+  {
+   "no": "2-5",
+   "title": "유해물질 시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "2-5-1",
+   "title": "시안화합물",
+   "summary": "시료를 수기에 밀전하고 시료로부터 휘발되는 시안화합물에 의한 피크린산지의 색변화를 관찰하여 시안화합물을 정성분석 한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "탄산나트륨(Sodium carbonate)",
+    "구연산(Citric acid)",
+    "수산화나트륨(Sodium hydroxide)",
+    "피크린산(Picric acid)",
+    "주석산(Tartaric acid)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 결과 분석\n5.1.1 피크린산지의 색변화를 관찰(예) 공시험 : 노란연두, 시료 : 갈색)",
+   "n_lines": 26
+  },
+  {
+   "no": "2-5-2",
+   "title": "카페인",
+   "summary": "본 시험법은 메탄올과 초음파 처리를 이용하여 시료 중 카페인을 충분히 추출하여 액체크로마토그래프/자외부흡광광도검출기를 통해 분석하는 방법으로 카페인의 최대 흡수파장인 280 nm에서 정량분석을 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "카페인(Caffeine, 1,3,7-trimethyl-1H-purine-2,6(3H,7H)-dione, 1,3,7 -trimethylxanthine, trimethylxanthine, theine, methyltheobromine)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "detection": "280 nm",
+    "temp": "40℃",
+    "mobile_phase": "A : 0.1%초산용액, B : 100%아세토니트릴",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "10분 85/15 → 11분 0/100 → 20분 0/100 → 21분 95/5 → 40분 95/5"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n검출기 파장 | 280 nm\n칼럼 온도 | 40℃\n이동상 | A : 0.1%초산용액, B : 100%아세토니트릴\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 95 | 5\n10 | 85 | 15\n11 | 0 | 100\n20 | 0 | 100\n21 | 95 | 5\n40 | 95 | 5\n[/표]",
+   "n_lines": 49
+  },
+  {
+   "no": "2-5-3",
+   "title": "디에틸렌글리콜",
+   "summary": "",
+   "method": "",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐",
+    "가스크로마토그래프",
+    "질량검출기(Mass Selective Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "% dimethylpolysiloxane 칼럼 (길이 50 m, 안지름 0.32 mm, 필름두께 0.17 μm) 또는 이와 동등한 것",
+    "칼럼오븐"
+   ],
+   "standards": [
+    "디에틸렌글리콜(Diethylene glycol, (2-hydroxyethoxy)ethan-2-ol)",
+    "디에틸렌글리콜(Diethylene glycol, (2-hydroxyethoxy)ethan-2-ol)"
+   ],
+   "conditions": {
+    "inlet_temp": "140℃",
+    "temp": "40℃(3분) → 10℃/분 → 250℃(20분)",
+    "detection": "250℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "injection": "1 μL",
+    "이온질량": "m/z 45, m/z 75",
+    "Split ratio": "30 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "2.3 분석장비의 준비분석시작 전에 주입부 및 검출기 온도, 유량, 칼럼온도를 분석조건에 맞게 조작하고, 가스크로마토그래프를 충분히 안정화 시킨다.\n3. 표준물질 및 일반시약\n3.1 표준물질\n3.1.1디에틸렌글리콜(Diethylene glycol, (2-hydroxyethoxy)ethan-2-ol)분자식 : C4H10O3, 분자량 : 106.12, CAS No. : 111-46-6\n3.2 일반시약\n3.2.1 메탄올(Methanol)\n4. 시험과정\n4.1 표준용액의 조제\n4.1.1 디에틸렌글리콜 100 mg을 100 mL 부피플라스크에 넣는다.\n4.1.2 메탄올을 표선까지 채운다.\n4.1.3 위의 용액 5 mL을 취하여 다시 100 mL 부피플라스크에 넣는다.\n4.1.4 메탄올을 표선까지 채운 다음, 필요 농도로 희석하여 사용한다.\n4.2 시험용액의 조제\n4.2.1분말 또는 페이스트상의 시료는 1 g을 취하여 메탄올 10 mL를 가하여 녹인다. 단, 액상시료는 5 mL를 취하여 40℃에서 감압 농축 하여 수분을 제거한 후 잔사에 메탄올 10 mL를 가하여 녹인다.\n4.2.2 위의 용액을 활성화된 알루미나칼럼에 가한다.\n4.2.3 메탄올 30 mL로 용출한다.\n4.2.4 용출액을 40℃에서 약 1 mL로 감압 농축시킨다.\n4.2.5 메탄올을 가하여 5 mL로 한 후 시험용액으로 한다.\n5. 분석 및 계산\n5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 140℃\n칼럼 온도 | 40℃(3분) → 10℃/분 → 250℃(20분)\n검출기 온도 | 250℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\n[/표]",
+   "n_lines": 93
+  },
+  {
+   "no": "2-5-4",
+   "title": "시트리닌",
+   "summary": "본 시험법은 에탄올을 이용하여 시료 중 시트리닌을 충분히 추출하여 액체크로마토 그래프를 통해 분석하는 방법으로 형광검출기를 이용하여 정성 및 정량분석을 한다.",
+   "method": "HPLC-FLD",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)",
+    "칼럼오븐",
+    "고속액체크로마토그래프",
+    "질량검출기(Mass Selective Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것",
+    "칼럼오븐"
+   ],
+   "standards": [
+    "시트리닌(Citrinin)",
+    "시트리닌(Citrinin)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "여기파장 : 335 nm, 측정파장 : 502 nm",
+    "temp": "40℃",
+    "mobile_phase": "0.1% 삼불화초산용액 : 100% 아세토니트릴 (60 : 40)",
+    "flow": "1.0 mL/분",
+    "ionization": "ESI, Positive",
+    "분석모드": "MRM",
+    "Capillary voltage": "4.0 kV",
+    "Corn voltage": "25 V",
+    "Source temperature": "120℃",
+    "Desolvation temperature": "350℃",
+    "ions": "251(precursor), 233(product)"
+   },
+   "gradient": [
+    "3.00분 40/60 → 4.00분 40/60 → 4.01분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조 건\n주입량 | 10 μL\n검출기 파장 | 여기파장 : 335 nm, 측정파장 : 502 nm\n칼럼 온도 | 40℃\n이동상 | 0.1% 삼불화초산용액 : 100% 아세토니트릴 (60 : 40)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 102
+  },
+  {
+   "no": "2-5-5",
+   "title": "초산에틸",
+   "summary": "본 시험법은 건강기능식품 중 휘발성물질을 추출하기 위하여 헤드스페이스법을 거친 후 GC 칼럼을 통하여 추출된 용매를 분리하는 방법이다. 분리된 성분은 가스크로마토그래프 불꽃이온화검출기를 이용하여 정량한다.",
+   "method": "GC-FID",
+   "instruments": [
+    "가스크로마토그래프/불꽃이온화검출기 혹은 질량분석기",
+    "헤드스페이스샘플러 (HeadSpaceSampler)"
+   ],
+   "columns": [
+    "Wax 칼럼 (0.25 mm i.d. × 30m × 0.25 μm film thickness), FFAP 칼럼 (0.25 mm i.d. × 30m × 0.25 μm film thickness) 혹은 이와 동등한 것"
+   ],
+   "standards": [
+    "초산에틸Ethyl acetate (EA)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 기기분석다음 표 1의 조건으로 사용하되 적용되는 기기나 칼럼에 따라 수정이 필요할 수 있다.\n[표]\n구분 | 항목 | 조건\n가스크로마토 / 그래프 | 고정상 | FFAP 칼럼(0.25 mm i.d. × 30 m × 0.25 μm)\n칼럼온도 | 초기조건 : 40℃에서 5분 정체 / 승온 1단계 1) : 3℃/분으로 50℃ 후 5분 정체 / 승온 2단계 2) : 50℃/분으로 150℃ 후 3분 정체\n캐리어가스 및 유량 | 질소 또는 헬륨, 0.5 mL/분\n분할비율 | 40 : 1\n헤드스페이스 / 샘플러 | 주입량 | 100 μL\n주입기 온도 | 120℃\n가열 온도 및 방법 | 80℃, 흔들면서 가열\n가열 시간 | 10분\n검출기 온도 | 250℃\n | 분석시간 | 20분\n[/표]",
+   "n_lines": 53
+  },
+  {
+   "no": "2-5-6",
+   "title": "디시안디아미드(Dicyandiamide)",
+   "summary": "본 시험법은 시료 중 디시안디아미드를 증류수에 용해한 후 초음파 추출하고 최대흡수파장인 212 nm와 액체크로마토그래프/자외부흡광광도검출기를 이용하여 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도 검출기(UV Detector)"
+   ],
+   "columns": [],
+   "standards": [
+    "디시안디아미드(Dicyandiamide)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35 ℃",
+    "mobile_phase": "2.3%(w/v) 인산이수소암모늄 (pH 5.5)",
+    "detection": "212 nm",
+    "flow": "0.5 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35 ℃\n이동상 | 2.3%(w/v) 인산이수소암모늄 (pH 5.5)\n검출기 파장 | 212 nm\n유속 | 0.5 mL/min\n[/표]",
+   "n_lines": 43
+  },
+  {
+   "no": "2-5-7",
+   "title": "디하이드로트리아진(Dihydrotriazine)",
+   "summary": "본 시험법은 시료 중 디하이드로트리아진을 증류수에 용해한 후 초음파 추출하고 최대흡수파장인 237 nm에서 액체크로마토그래프/자외부흡광광도 검출기를 이용하여 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도 검출기(UV Detector)"
+   ],
+   "columns": [],
+   "standards": [
+    "디하이드로트리아진(Dihydro-1,3,5-triazine)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35℃",
+    "mobile_phase": "2.3%(w/v) 인산이수소암모늄(pH 5.5)",
+    "detection": "237 nm",
+    "flow": "0.5 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35℃\n이동상 | 2.3%(w/v) 인산이수소암모늄(pH 5.5)\n검출기 파장 | 237 nm\n유속 | 0.5 mL/min\n[/표]",
+   "n_lines": 43
+  },
+  {
+   "no": "2-5-8",
+   "title": "트레온산",
+   "summary": "본 시험법은 시료 중 트레온산을 1% 개미산 용액으로 추출한 후 액체크로마토 그래프/질량분석기/질량분석기를 이용하여 정량 분석하는 방법이다.",
+   "method": "LC-MS/MS",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "질량분석기"
+   ],
+   "columns": [
+    "C18 칼럼(안지름 2.0 mm, 길이 150 mm, 충전입자크기 3 μm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "트레온산칼슘(calcium L-threonate)"
+   ],
+   "conditions": {
+    "mobile_phase": "A용액 : 0.1% 개미산 수용액 / B용액 : 0.1% 개미산이 첨가된 아세토니트릴",
+    "temp": "30℃",
+    "flow": "0.2 mL/분",
+    "injection": "10 μL",
+    "ionization": "ESI, Negative",
+    "Capillary voltage": "4.0 kV",
+    "Collision gas": "N2(질소 또는 비활성기체)",
+    "Collision Energy": "10 eV",
+    "Desolvation temperature": "350℃",
+    "ions": "135(precursor ion), 75(fragment ion)"
+   },
+   "gradient": [
+    "0분 100/0 → 4.0분 100/0 → 5.0분 0/100 → 7.0분 0/100 → 7.1분 100/0 → 10분 100/0"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 고속액체크로마토그래프/질량분석기/질량분석기\n[표]\n항목 | 조건\n이동상 | A용액 : 0.1% 개미산 수용액 / B용액 : 0.1% 개미산이 첨가된 아세토니트릴\n칼럼온도 | 30℃\n유속 | 0.2 mL/분\n주입량 | 10 μL\n이온화 | ESI, Negative\nCapillary voltage | 4.0 kV\nCollision gas | N2(질소 또는 비활성기체)\nCollision Energy | 10 eV\nDesolvation temperature | 350℃\nMonitor ions(m/z) | 135(precursor ion), 75(fragment ion)\n[/표]\n[표]\n시간(분) | 이동상(%)\nA 용액(%) | B 용액(%)\n0 | 100 | 0\n4.0 | 100 | 0\n5.0 | 0 | 100\n7.0 | 0 | 100\n7.1 | 100 | 0\n10 | 100 | 0\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "2-6",
+   "title": "화학적 시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "2-6-1",
+   "title": "아니시딘가",
+   "summary": "본 시험법은 차광조건에서 유지 중 2차 산화물인 알데히드(aldehyde)류와 케톤(ketone)류가 ρ-아니시딘과 반응하여 생성된 황색 발색단을 분광광도계로 분석하는 방법으로, 최대 흡수파장인 350 nm에서 흡광도를 측정함으로써 정량분석한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "ρ-아니시딘(ρ-Anisidine)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 분석\n5.1.1 파장 350 nm에서 흡광도를 측정한다.",
+   "n_lines": 27
+  },
+  {
+   "no": "2-7",
+   "title": "성상시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 18
+  },
+  {
+   "no": "2-8",
+   "title": "용출시험법",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "염화나트륨(Sodium chloride)",
+    "염산(Hydrochloric acid)",
+    "증류수(Distilled water)",
+    "제1인산칼륨(Monopotassium phosphate)",
+    "수산화나트륨(Sodium hydroxide)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 51
+  },
+  {
+   "no": "3-1",
+   "title": "비타민 A",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-1-1",
+   "title": "비타민 A(제1법)",
+   "summary": "본 시험법은 시료 중에 존재하는 비타민A를 비누화시킨 후 벤젠으로 추출 하여 감압 건조시키고 잔류물을 클로로포름으로 희석을 시킨 것으로 정색 용액에 의해서 변색이 일어남으로써 대조액과 비교하여 분광광도계를 통하여 파장 620 nm에서 흡광도를 측정한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "Retinyl Palmitate(all−trans−Retinol palmitate; Vitamin A palmitate)",
+    "Retinyl Acetate(Retinol acetate; Vitamin A acetate)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1 비타민 A 함량(μg/100g) = A × B × (100/C) × 2A : 시험용액 중 비타민 A 농도(μg/mL)B : 시험용액의 전량(mL)C : 시료 채취량(g)",
+   "n_lines": 68
+  },
+  {
+   "no": "3-1-2",
+   "title": "비타민 A(제2법)",
+   "summary": "",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Retinyl Acetate(Retinol acetate; Vitamin A acetate)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "35℃",
+    "mobile_phase": "에탄올 : 물 (95 : 5)",
+    "detection": "여기파장 340 nm, 측정파장 460 nm",
+    "flow": "0.5 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 20 μL\n칼럼온도 | 35℃\n이동상 | 에탄올 : 물 (95 : 5)\n검출기 파장 | 여기파장 340 nm, 측정파장 460 nm\n유량 | 0.5 mL/분\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "3-2",
+   "title": "베타카로틴",
+   "summary": "본 시험법은 검화과정을 거쳐 시료로부터 베타카로틴을 추출한 후 액체크로마토 그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 450 nm에서 검출하여 정량한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "베타카로틴(β-carotene)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "detection": "450 nm",
+    "temp": "40℃",
+    "mobile_phase": "A용매 : 아세토니트릴 : 메탄올 (85 : 15), / B용매 : 디클로로메탄",
+    "용매 조건": "A용매(70%), B용매(30%)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n검출기 파장 | 450 nm\n칼럼 온도 | 40℃\n이동상 | A용매 : 아세토니트릴 : 메탄올 (85 : 15), / B용매 : 디클로로메탄\n용매 조건 | A용매(70%), B용매(30%)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 57
+  },
+  {
+   "no": "3-3",
+   "title": "비타민 D",
+   "summary": "본 시험법은 시료 중 비타민 D를 에탄올과 피로갈롤에탄올용액을 이용하여 비누화시키고 헥산으로 추출한 후 감압건조시켜 아세토니트릴:메탄올(1:1) 용액으로 녹인 것을 액체크로마토그래프/자외부흡광광도검출기(264 nm) 또는 액체크로마토그래프/질량분석기를 이용하여 정량한다.",
+   "method": "HPLC-UV / LC-MS/MS",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량분석기"
+   ],
+   "columns": [
+    "칼럼",
+    "전처리칼럼 : Capcellpak MF C8 SG80(안지름 4.6 mm, 길이 150 mm, 충전입자크기 5 μm) 또는 이와 동등한 것",
+    "농축칼럼 : Capcellpak C18 UG 120V(안지름 2.0 mm, 길이 35 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Ergocalciferol(Calciferol; Ercalciol; Ergocalciferol; Ergosterol irradiated; Irradiated ergosterol; Vitamin D2)",
+    "Cholecalciferol((+)-Vitamin D3; 7-Dehydrocholesterol activated; Calciol; Activated 7-dehydrocholesterol; Cholecalciferol)"
+   ],
+   "conditions": {
+    "injection": "100 μL",
+    "temp": "35℃",
+    "mobile_phase": "전처리칼럼 : 80%(v/v) 메탄올 / 분석칼럼 : 96%(v/v) 메탄올",
+    "detection": "264 nm",
+    "flow": "전처리칼럼 : 300 μL/분 / 분석칼럼 : 90 μL/분",
+    "ionization": "ESI, positive",
+    "ions": "비타민 D2 : 397 → 107, 105, 91 / 비타민 D3 : 385 → 107, 105, 79",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "120℃",
+    "Desolvation Temp.": "350℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 100 μL\n칼럼온도 | 35℃\n이동상 | 전처리칼럼 : 80%(v/v) 메탄올 / 분석칼럼 : 96%(v/v) 메탄올\n검출기 파장 | 264 nm\n유량 | 전처리칼럼 : 300 μL/분 / 분석칼럼 : 90 μL/분\n[/표]\n표 2. 액체크로마토그래프/질량분석기 조건(예)\n[표]\n항목 | 조건\n주입량 | 1 μL\n유량 | 0.45 mL/분\n칼럼온도 | 40℃\n이동상 | 5 mM 초산암모늄:메탄올(5:95)\n이온화 | ESI, positive\nMonitoring ion | 비타민 D2 : 397 → 107, 105, 91 / 비타민 D3 : 385 → 107, 105, 79\nCapillary Voltage | 3.5 kV\nSource Temp. | 120℃\nDesolvation Temp. | 350℃\n[/표]",
+   "n_lines": 80
+  },
+  {
+   "no": "3-4",
+   "title": "비타민 E",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-4-1",
+   "title": "비타민 E(제1법)",
+   "summary": "본 시험법은 시료 중 비타민 E를 에탄올과 피로갈롤에탄올용액을 이용하여 비누화시키고 석유에테르용액을 이용하여 추출 후 감압건조시켜 에탄올로 녹인 후 염화 제이철에탄올용액과 디피리딜에탄올용액으로 정색반응을 시킨 후 대조액을 에탄올로 하여 분광광도계를 이용하여 파장 520 nm에서 흡광도를 측정한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "α-Tocopherol((±)-α-Tocopherol; DL-all-rac-α-Tocopherol; Vitamin E)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1 총토코페롤 함량(mg/100g) = A x (B / C) × (25 / 5) × (1/D)\nA : 시험용액 중 토코페롤의 농도(mg/mL)\nB : 시험용액의 흡광도\nC : 표준용액의 흡광도\nD : 시료 채취량(g)",
+   "n_lines": 52
+  },
+  {
+   "no": "3-4-2",
+   "title": "비타민 E(제2법)",
+   "summary": "본 시험법은 일반 식품인 경우 시료 중 비타민 E를 에탄올과 피로갈롤에탄올 용액을 이용하여 비누화시키고 석유에테르용액을 이용하여 추출 후 감압 건조시켜 헥산을 가하여 녹여 형광검출기를 이용하는 방법과 유지식품의 경우 비누화조작을 생략하고 헥산으로 추출한 후 형광검출기를 이용하여 여기파장 298 nm, 측정파장 325 nm에서 검출하고 정량한다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "순상형 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Silica gel) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "α-Tocopherol((±)-α-Tocopherol; DL-all-rac-α-Tocopherol; Vitamin E)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35℃",
+    "mobile_phase": "헥산 : 이소프로판올(98 : 2)",
+    "detection": "여기파장 298 nm, 측정파장 325 nm",
+    "flow": "0.5 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35℃\n이동상 | 헥산 : 이소프로판올(98 : 2)\n검출기 파장 | 여기파장 298 nm, 측정파장 325 nm\n유량 | 0.5 mL/분\n[/표]\n※ 정량시험을 위해 시험용액 1.0 mL에 토콜표준용액 1.0 mL를 가해(S) 이 용액의 10 μL를 분석한다. 또한 토코페롤동족체 각각에 대하여 각각 토코페롤 표준용액 1.0 mL를 취해 이에 토콜표준용액 1.0 mL를 가해 이 용액의 10 μL를 분석한다. S : 시험용액에 함유된 토콜의 함량(mg)",
+   "n_lines": 97
+  },
+  {
+   "no": "3-5",
+   "title": "비타민 K",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-5-1",
+   "title": "비타민 K1(제1법) <삭제>",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-5-2",
+   "title": "비타민 K1(제2법)",
+   "summary": "본 시험법은 시료 중 지방을 효소적으로 분해하여 지방산으로 침전시킨 후 헥산으로 비타민 K1을 추출하여 역상칼럼으로 분리하고 포스트 칼럼으로 환원시켜 형광을 이용하여 정량하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)",
+    "칼럼"
+   ],
+   "columns": [
+    "칼럼",
+    "분석칼럼 : 옥타데실실릴화한 칼럼으로 carbon loading량이 10% 이상인 것(안지름 4.6 mm, 길이 250 mm, 충진제 Silica gel) 또는 이와 동등한 것",
+    "포스트 칼럼 : 안지름 4.0 mm, 길이 20 mm 또는 이와 동등한 것 혹은 내경 2.0~4.0 mm 및 길이 30~50 mm의 액체크로마토그래피 칼럼관에 아연분말을 채워 제작한 것으로 분석 칼럼과 형광검출기 사이에 장착한다."
+   ],
+   "standards": [
+    "Vitamin K1 (2-Methyl-3-phytyl-1,4-naphthoquinone; 3-Phytylmenadione; Phylloquinone; Vitamin K1)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30℃",
+    "mobile_phase": "Methanol : Dichloromethane (900 : 100)에 ZnCl2 1.37 g, CH3COONa 0.41 g, Glacial acetic acid 0.3 g / Methanol / 5 mL를 합하여 이동상으로 함",
+    "detection": "여기파장 243 nm, 측정파장 430 nm",
+    "flow": "0.8 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 30℃\n이동상 | Methanol : Dichloromethane (900 : 100)에 ZnCl2 1.37 g, CH3COONa 0.41 g, Glacial acetic acid 0.3 g / Methanol / 5 mL를 합하여 이동상으로 함\n검출기 파장 | 여기파장 243 nm, 측정파장 430 nm\n유량 | 0.8 mL/분\n[/표]",
+   "n_lines": 75
+  },
+  {
+   "no": "3-5-3",
+   "title": "비타민 K2(제3법)",
+   "summary": "",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기(UV Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "C30 칼럼(안지름 4.6 mm, 길이 250 mm, 충진입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "trans MK-7 (Menaquinone-7)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "268 nm",
+    "temp": "25℃",
+    "mobile_phase": "증류수:에탄올:메탄올:테트라하이드로퓨란 / (1:15:80:10, v/v)",
+    "flow": "0.8 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 268 nm\n칼럼 온도 | 25℃\n이동상 | 증류수:에탄올:메탄올:테트라하이드로퓨란 / (1:15:80:10, v/v)\n유속 | 0.8 mL/분\n[/표]",
+   "n_lines": 51
+  },
+  {
+   "no": "3-6-1",
+   "title": "비타민 B1(제1법)",
+   "summary": "본 시험법은 시료 중 비타민 B1을 황산이나 염산으로 추출하여 다카디아스타제로 효소분해를 하고 칼럼관을 통하여 정제 한 용액을 페리시안에 의한 산화 및 티오크롬의 추출방법이나 브롬시안에 의한 산화 및 티오크롬의 추출 방법을 사용하여 비타민 B1의 함량을 구한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "Thiamine hydrochloride(Aneurine hydrochloride; Vitamin B1 hydrochloride)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n전항의 이소부탄올액을 형광셀에 넣어 형광도를 측정한다.",
+   "n_lines": 66
+  },
+  {
+   "no": "3-6-2",
+   "title": "비타민 B1(제2법)",
+   "summary": "본 시험법은 시료 중 비타민 B1을 삼염화초산용액으로 균질화 시킨 후 원심분리를 하여 상등액 채취하여 다카디아스타제 용액으로 효소분해를 한 용액을 옥타데실실릴화한 칼럼을 이용하여 비타민 B1을 분리하는 방법으로 페리시안과 반응하여 티오크롬으로 환원된 비타민 B1을 형광검출기를 이용하여 여기파장인 375 nm와 측정파장 450 nm에서 검출하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Octadecylsilica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Thiamine hydrochloride(Aneurine hydrochloride; Vitamin B1 hydrochloride)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "0.1 M 제1인산나트륨 수용액",
+    "detection": "여기파장 : 375 nm, 측정파장 : 450 nm",
+    "flow": "0.7 mL/분",
+    "반응액※": "0.01%페리시안화칼륨･15%(w/v)수산화나트륨용액 / (유속 : 0.7 mL/분)"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 40℃\n이동상 | 0.1 M 제1인산나트륨 수용액\n검출기 파장 | 여기파장 : 375 nm, 측정파장 : 450 nm\n유량 | 0.7 mL/분\n반응액※ | 0.01%페리시안화칼륨･15%(w/v)수산화나트륨용액 / (유속 : 0.7 mL/분)\n[/표]\n※반응액은 컬럼 통과 후 이동상 Line과 T자관으로 연결하고 티오크롬 환원을 위해 반응코일(규격 : 0.8 mm I.D × 1 m)을 컬럼오븐에 장치한다. 이때 반응액의 역류 방지를 위해 반응액 펌프에 0.25 mm I.D의 코일을 5~10 m 길이가 되도록 설치하여 사용한다.",
+   "n_lines": 65
+  },
+  {
+   "no": "3-7-1",
+   "title": "비타민 B2(제1법)",
+   "summary": "본 시험법은 시료 중 비타민 B2를 물로 추출하여 광분해를 하고 이것을 산화 및 추출하는 방법이 있다. 또한 처음 시료를 물로 추출하는 대신 3-6-1 비타민 B1(제1법)의 4.3 시험용액의 제조 중 4.3.1~4.3.5 까지의 시험용액을 그대로 사용할 수 있다.",
+   "method": "",
+   "instruments": [
+    "형광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "RiboflavinRiboflavin(Lactoflavin; Vitamin B2; Vitamin G)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 43
+  },
+  {
+   "no": "3-7-2",
+   "title": "비타민 B2(제2법)",
+   "summary": "본 시험법은 시료에 증류수를 가하여 70~80℃ 수욕 상에서 비타민 B2를 충분히 추출한 후 액체크로마토그래프를 이용하여 분석하는 방법으로 형광검출기를 이용하여 표준물질과 시료의 면적을 비교함으로써 정량한다.",
+   "method": "HPLC-FLD",
+   "instruments": [
+    "액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)",
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "리보플라빈(Riboflavin)",
+    "FMN(Flavin mononucleotide)",
+    "FAD(Flavin adenine dinucleotide)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "여기파장 : 445 nm, 측정파장 : 530 nm",
+    "temp": "40℃",
+    "mobile_phase": "메탄올:10 mM NaH2PO4(pH 5.5)(35:65) / (1 N 수산화나트륨용액으로 pH 조정)",
+    "flow": "0.8 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 여기파장 : 445 nm, 측정파장 : 530 nm\n칼럼 온도 | 40℃\n이동상 | 메탄올:10 mM NaH2PO4(pH 5.5)(35:65) / (1 N 수산화나트륨용액으로 pH 조정)\n유속 | 0.8 mL/분\n[/표]",
+   "n_lines": 59
+  },
+  {
+   "no": "3-8",
+   "title": "나이아신",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-8-1",
+   "title": "나이아신(제1법)",
+   "summary": "본 시험법은 시료 중 니코틴산을 가수분해 하여 중화시킨 후 탈색을 한 후에 다시 이것을 브롬시안용액과 파라아미노 아세토페논용액으로 발색을 시킨 후 분광광도계로 흡광도를 측정하는 방법으로 파장 420 nm에서 흡광도를 측정한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "Nicotinic acid(3-Picolinic acid; Niacin; Pellagra preventive factor; Pyridine-3-carboxylic acid; Vitamin B3)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1 계산식\nX : 니코틴산의 농도(μg/mL)",
+   "n_lines": 56
+  },
+  {
+   "no": "3-8-2",
+   "title": "나이아신(제2법)",
+   "summary": "본 시험법은 시료 중 나이아신을 미생물학적으로 함량을 구하는 방법으로 시료를 황산으로 추출 후 접종액을 넣어 배양하여 나온 측정치를 가지고 시료중의 나이아신의 함량을 측정하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "Nicotinic acid(3-Picolinic acid; Niacin; Pellagra preventive factor; Pyridine-3-carboxylic acid; Vitamin B3)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 정량시험(산도적정법에 의한 적정법)니코틴산 표준계열의 각 단계에 따른 측정치의 평균치를 각 시험관에 가한 니코틴산의 μg수에 대한 검량선을 작성한다. 다음에 이 검량선을 사용하여 내삽법에 따라서 시료 계열의 각관 중의 니코틴산 함량을 구한다. 이 때의 측정치가 0.15 μg 이상 및 0.025 μg 이하의 것이 있으면 제외하고 남은 각 시험관에 대해서 시험용액 1 mL에 대한 니코틴산의 함량을 구한다. 6개 이상의 관으로부터 얻어진 각각의 수치가 그의 평균치보다 ±10%를 초과하는 것이 없는 것을 확인한 다음에 다시 이것만의 평균치를 구하고, 다음에 시료 중의 니코틴산 함량을 산출한다.",
+   "n_lines": 71
+  },
+  {
+   "no": "3-8-3",
+   "title": "나이아신(제3법)",
+   "summary": "본 시험법은 시료 중 나이아신(니코틴산과 니코틴산아미드)을 이동상으로 추출, 정제한 후 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석 하는 방법으로 최대 흡수 파장인 260 nm에서 정량 분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그패프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Nicotinic acid(3-Picolinic acid; Niacin; Pellagra preventive factor; Pyridine-3-carboxylic acid; Vitamin B3)",
+    "Nicotinamide(Pyridine-3-carboxamide)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "A : 5 mM Sodium hexanesulfonate/0.1% 초산 용액 / B : 5 mM Sodium hexanesulfonate/0.1% 초산 용액 : 메탄올 (35 : 65)",
+    "detection": "260 nm",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "3분 100/0 → 13분 70/30 → 20분 70/30"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 40℃\n이동상 | A : 5 mM Sodium hexanesulfonate/0.1% 초산 용액 / B : 5 mM Sodium hexanesulfonate/0.1% 초산 용액 : 메탄올 (35 : 65)\n검출기 파장 | 260 nm\n유량 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 100 | 0\n3 | 100 | 0\n13 | 70 | 30\n20 | 70 | 30\n[/표]",
+   "n_lines": 59
+  },
+  {
+   "no": "3-9",
+   "title": "판토텐산",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-9-1",
+   "title": "판토텐산(제1법)",
+   "summary": "본 시험법은 시료 중 판토텐산을 미생물학적으로 함량을 구하는 방법으로 시료를 황산으로 추출 후 접종액을 넣어 배양하여 나온 측정치를 가지고 시료중의 판토텐산의 함량을 측정한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "D-Pantothenic acid(Calcium D-pantothenate; Vitamin B5)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 정량시험판토텐산칼륨 표준계열에 의한 흡광도의 평균치로부터 검량선을 작성한다. 이 검량선을 이용하여 시료계열의 각 시험관의 판토텐산칼륨 함량을 구한다. 이 때 값이 0.09 μg 이상 또는 0.01 μg 이하의 것이 있으면 제외하고, 남은 각 관에 대하여 시험용액 1 mL에 대한 판토텐산칼륨의 함량을 계산한다. 6개 이상의 시험관으로부터 얻어진 각각의 값이 그들의 평균치보다 10% 이상 벗어나지 않는 것을 확인한 다음에 이 값만의 평균치를 구하여 시료 중의 판토텐산칼륨의 함량을 산출한다. 그 다음에 여기에서 얻은 값으로 환산계수 0.916을 곱해서 판토텐산 함량을 구한다.",
+   "n_lines": 71
+  },
+  {
+   "no": "3-9-2",
+   "title": "판토텐산(제2법)",
+   "summary": "본 시험법은 시료 중 존재하는 판토텐산을 20 mM 인산이수소칼륨용액으로 추출 하여 옥타데실실릴화한 칼럼으로 판토텐산을 분리하는 방법으로 자외부흡광 광도검출기를 이용하여 판토텐산의 최대 흡수 파장인 200 nm에서 검출하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 1.5 mm, 길이 250 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "D-Pantothenic acid(Calcium D-pantothenate; D-pantothenic acid hemicalcium salt; Vitamin B5)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35℃",
+    "mobile_phase": "A: 20 mM 인산이수소칼륨용액 : ACN (99.5 : 0.5, v/v) / B: 20 mM 인산이수소칼륨용액 : ACN (80 : 20, v/v)",
+    "detection": "200 nm",
+    "flow": "120 μL/분"
+   },
+   "gradient": [
+    "0분 100/0 → 37분 100/0 → 37.1분 0/100 → 47분 0/100 → 47.1분 100/0 → 70분 100/0"
+   ],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35℃\n이동상 | A: 20 mM 인산이수소칼륨용액 : ACN (99.5 : 0.5, v/v) / B: 20 mM 인산이수소칼륨용액 : ACN (80 : 20, v/v)\n검출기 파장 | 200 nm\n유량 | 120 μL/분\n[/표]\n[표]\n시간(분) | 이 동 상 (%)\nA 용액 | B 용액\n0 | 100 | 0\n37 | 100 | 0\n37.1 | 0 | 100\n47 | 0 | 100\n47.1 | 100 | 0\n70 | 100 | 0\n[/표]",
+   "n_lines": 64
+  },
+  {
+   "no": "3-10-1",
+   "title": "비타민 B6(제1법)",
+   "summary": "본 시험법은 시료 중 존재하는 피리독신염산염을 증류수에 녹여 추출하여 옥타데실실릴화한 칼럼으로 피리독신염산염을 분리하는 방법으로 형광검출기를 이용하여 피리독신염산염의 여기파장인 290 nm, 측정파장 396 nm에서 검출하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "액체크로마토그래프",
+    "형광검출기(Fluorescence Detector, FLD)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 1.5 mm, 길이 250 mm, 충전제 octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Pyridoxine hydrochloride(Adermine hydrochloride; PN HCl; Pyridoxol hydrochloride; Vitamin B6 hydrochloride)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35℃",
+    "mobile_phase": "50 mM 인산나트륨용액(pH 2.5)",
+    "detection": "여기파장 : 290 nm, 측정파장 : 396 nm",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35℃\n이동상 | 50 mM 인산나트륨용액(pH 2.5)\n검출기 파장 | 여기파장 : 290 nm, 측정파장 : 396 nm\n유량 | 1.0 mL/분\n[/표]",
+   "n_lines": 49
+  },
+  {
+   "no": "3-10-2",
+   "title": "비타민 B6(제2법)",
+   "summary": "본 시험법은 시료 중 피리독신염산염을 미생물학적으로 함량을 구하는 방법 으로 시료를 염산과 물로 추출 후 접종액을 넣어 배양하여 나온 측정치를 가지고 시료중의 피리독신염산염의 함량을 측정한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "Pyridoxine hydrochloride(Adermine hydrochloride; PN HCl; Pyridoxol hydrochloride; Vitamin B6 hydrochloride)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 67
+  },
+  {
+   "no": "3-11",
+   "title": "엽산",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-11-1",
+   "title": "엽산(제1법)",
+   "summary": "본 시험법은 시료 중 엽산을 미생물학적으로 함량을 구하는 방법으로 시료를 염산과 물로 추출 후 접종액을 넣어 배양하여 나온 측정치를 가지고 시료중의 엽산의 함량을 측정하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "분광광도기"
+   ],
+   "columns": [],
+   "standards": [
+    "Folic acid"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 탁도법에 의한 계산\n5.1.1검량선을 작성할 때는 횡축에는 표준용액의 농도 또는 mL 수의 대수를, 종축에는 투과도 또는 흡광도를 취한다.\n5.1.2표준용액의 각 농도단계에 관해서 얻어진 투과도 또는 흡광도의 평균치를 구해, 그 값(y)을 정점으로 해서 직선을 그린다.\n5.1.3실험용액의 각 농도단계에 관해서 투과도 또는 흡광도를 구해, 횡축에 시료의 g 수 또는 시료용액 mL 수의 대수를 임의로 취하여 실험치 y를 정점으로 하여 직선을 그린다. 적어도 3점 이상이 직선을 구성하여야 한다.\n5.1.4표준용액 및 시험용액은 직선으로 평행하는 부분에 관해서 시험용액 1 mL 또는 시료 1 g당의 함유량을 구해 계산식에 따라 시료 중의 비타민 함량을 산출한다.",
+   "n_lines": 119
+  },
+  {
+   "no": "3-11-2",
+   "title": "엽산(제2법)",
+   "summary": "본 시험법은 10 mM 인산완충용액(pH 8.0)으로 추출하고 역상 분배형 컬럼을 이용하여 액체크로마토그래프에서 분리하고 UV 280 nm에서 측정 한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "엽산(Folic acid)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "40 ℃",
+    "mobile_phase": "이동상 A : 아세토니트릴 = 8 : 2",
+    "detection": "280 nm",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표.1 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n컬럼온도 | 40 ℃\n이동상 | 이동상 A : 아세토니트릴 = 8 : 2\n검출기파장 | 280 nm\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 53
+  },
+  {
+   "no": "3-11-3",
+   "title": "엽산(메틸테트라히드로엽산글루코사민)(제3법)",
+   "summary": "본 시험법은 시료 중 메틸테트라히드로엽산을 아황산나트륨 용액으로 추출 하고 역상칼럼을 이용하여 액체크로마토그래프 에서 분리하고 PDA 검출기로 280 nm에서 정량분석한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "포토다이오드어레이(Photodiode Array, PDA) 검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼 (안지름 4.6 mm, 길이 250 mm, 충전제 Octadecylsilica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "메틸테트라히드로엽산칼슘(L-5-Methyltetrahydrofolate calcium)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "32℃",
+    "mobile_phase": "A: 인산이수소칼륨 (pH 6.5) / B: 인산이수소칼륨 : 아세토니트릴(pH 8.0) = 65 : 35",
+    "detection": "280 nm",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [
+    "15분 80/20 → 30분 100/0 → 40분 100/0"
+   ],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 32℃\n이동상 | A: 인산이수소칼륨 (pH 6.5) / B: 인산이수소칼륨 : 아세토니트릴(pH 8.0) = 65 : 35\n검출기파장 | 280 nm\n유속 | 1.0 mL/min\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 100 | 0\n15 | 80 | 20\n30 | 100 | 0\n40 | 100 | 0\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "3-12-1",
+   "title": "비타민 B12(제1법)",
+   "summary": "본 시험법은 시료 중 존재하는 비타민 B12을 준비된 배지에 가한 후 균을 접종하여 배양 후 탁도법에 의한 증식도를 측정한 후, 공시험을 투과도 100%로 하여 분광광도기에서 540~610 nm의 파장으로 흡광도를 구하여 탁도 측정에 의해 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "Cyanocob(III)alaminα-(5,6-Dimethylbenzimidazolyl)cyanocobamide"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 탁도법에 의한 계산\n5.1.1검량선을 작성할 때는 횡축에는 표준용액의 농도 또는 mL 수의 대수를, 종축에는 투과도 또는 흡광도를 취한다.\n5.1.2표준용액의 각 농도단계에 관해서 얻어진 투과도 또는 흡광도의 평균치를 구해, 그 값(y)을 정점으로 해서 직선을 그린다.\n5.1.3실험용액의 각 농도단계에 관해서 투과도 또는 흡광도를 구해, 횡축에 시료의 g수 또는 시료용액 mL 수의 대수를 임의로 취하여 실험치 y를 정점으로 하여 직선을 그린다. 적어도 3점 이상이 직선을 구성하여야 한다.\n5.1.4표준용액 및 시험용액은 직선으로 평행하는 부분에 관해서 시험용액 1 mL 또는 시료 1 g당의 함유량을 구해 계산식에 따라 시료 중의 비타민 함량을 산출한다.",
+   "n_lines": 121
+  },
+  {
+   "no": "3-12-2",
+   "title": "비타민 B12(제2법)",
+   "summary": "본 시험법은 시료 중 존재하는 비타민 B12을 이동상으로 추출하고 액체크로마토그래프(육방전환밸브시스템)/자외부흡광광도검출기(최대 흡수파장 550 nm) 또는 액체크로마토그래프/질량분석기를 이용하여 정량 분석 한다.",
+   "method": "HPLC-UV / LC-MS/MS",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량분석기"
+   ],
+   "columns": [
+    "전처리칼럼 : Capcellpak MF C8(안지름 4.6 mm, 길이 150 mm, 충전입자 크기 5 μm) 또는 이와 동등한 것",
+    "농축칼럼 : Capcellpak MG C18(안지름 2.0 mm, 길이 35 mm, 충전입자크기 5 μm) 또는 이와 동등한 것",
+    "분석칼럼 : Capcellpak UG C18(안지름 1.5 mm, 길이 250 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Cyanocob(III)alamin(α-(5,6-Dimethylbenzimidazolyl)cyanocobamide)"
+   ],
+   "conditions": {
+    "injection": "200 μL",
+    "temp": "35℃",
+    "mobile_phase": "전처리칼럼 : 5 mM 인산이수소칼륨(KH2PO4) 용액 / 분석칼럼 : 5 mM 인산이수소칼륨(KH2PO4) 용액/메탄올(MeOH)(80:20)",
+    "detection": "550 nm",
+    "flow": "전처리칼럼 : 500 μL/분 / 분석칼럼 : 120 μL/분",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0": "95 5",
+    "0.7": "95 5",
+    "1.2": "80 20",
+    "1.6": "80 20",
+    "1.7": "20 80",
+    "3.7": "20 80",
+    "3.8": "95 5",
+    "6.0": "95 5",
+    "ionization": "ESI, positive",
+    "ions": "678(precusor ion), 147, 359(fragment ion)",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "120℃",
+    "Desolvation Temp.": "350℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 200 μL\n칼럼온도 | 35℃\n이동상 | 전처리칼럼 : 5 mM 인산이수소칼륨(KH2PO4) 용액 / 분석칼럼 : 5 mM 인산이수소칼륨(KH2PO4) 용액/메탄올(MeOH)(80:20)\n검출기 파장 | 550 nm\n유량 | 전처리칼럼 : 500 μL/분 / 분석칼럼 : 120 μL/분\n[/표]\n표 2. 액체크로마토그래프/질량분석기 조건(예)\n[표]\n항목 | 조건\n주입량 | 2 μL\n유량 | 0.4 mL/분\n칼럼온도 | 35℃\n이동상 | A : 20 mM 개미산암모늄 / B : 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 95 / 5 / 0.7 / 1.2 / 80 / 20 / 1.6 / 1.7 / 3.7 / 3.8 / 6.0\n시간(분) | 이동상(%)\nA | B\n0 | 95 | 5\n0.7 | 95 | 5\n1.2 | 80 | 20\n1.6 | 80 | 20\n1.7 | 20 | 80\n3.7 | 20 | 80\n3.8 | 95 | 5\n6.0 | 95 | 5\n이온화 | ESI, positive\nMonitoring ion(m/z) | 678(precusor ion), 147, 359(fragment ion)\nCapillary Voltage | 3.5 kV\nSource Temp. | 120℃\nDesolvation Temp. | 350℃\n[/표]",
+   "n_lines": 81
+  },
+  {
+   "no": "3-13",
+   "title": "비오틴",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-13-1",
+   "title": "비오틴(제1법)",
+   "summary": "본 시험법은 시료 중 존재하는 비오틴을 준비된 배지에 가한 후 균을 접종하여 배양 후 탁도법에 의한 증식도를 측정한 후, 공시험을 투과도 100%로 하여 분광광도계에서 540~610 nm의 파장으로 흡광도를 구하여 탁도 측정에 의해 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "Biotin"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 탁도법에 의한 계산\n5.1.1검량선을 작성할 때는 횡축에는 표준용액의 농도 또는 mL 수의 대수를, 종축에는 투과도 또는 흡광도를 취한다.\n5.1.2표준용액의 각 농도단계에 관해서 얻어진 투과도 또는 흡광도의 평균치를 구해, 그 값(y)을 정점으로 해서 직선을 그린다.\n5.1.3실험용액의 각 농도단계에 관해서 투과도 또는 흡광도를 구해, 횡축에 시료의 g수 또는 시료용액 mL 수의 대수를 임의로 취하여 실험치 y를 정점으로 하여 직선을 그린다. 적어도 3점 이상이 직선을 구성하여야 한다.\n5.1.4표준용액 및 시험용액은 직선으로 평행하는 부분에 관해서 시험용액 1 mL 또는 시료 1 g당의 함유량을 구해 계산식에 따라 시료 중의 비타민 함량을 산출한다.",
+   "n_lines": 103
+  },
+  {
+   "no": "3-13-2",
+   "title": "비오틴(제2법)",
+   "summary": "본 시험법은 시료 중 비오틴을 이동상으로 충분히 추출하고 액체크로마토 그래프(육방전환밸브시스템)/자외부흡광광도검출기(최대 흡수파장 200 nm) 또는 액체크로마토그래프/질량분석기를 이용하여 정량분석 한다.",
+   "method": "HPLC-UV / LC-MS/MS",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량분석기"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "칼럼",
+    "전처리칼럼 : Capcellpak MF C8, SG80(안지름 4.6 mm, 길이 150 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "비오틴(Biotin)"
+   ],
+   "conditions": {
+    "injection": "100 μL",
+    "temp": "40℃",
+    "mobile_phase": "전처리칼럼 : 0.01 M 인산이수소칼륨용액 / 분석칼럼 : 0.01 M 인산이수소칼륨용액/메탄올(90:10, v/v)",
+    "detection": "200 nm",
+    "flow": "전처리칼럼 : 500 μL/분, 분석칼럼 : 100 μL/분",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0": "100 0",
+    "5.0": "80 20",
+    "5.2": "0 100",
+    "6.2": "0 100",
+    "7.0": "100 0",
+    "11.0": "100 0",
+    "ionization": "ESI, positive",
+    "ions": "245(precursor ion), 227, 166(fragment ion)",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "120℃",
+    "Desolvation Temp.": "350℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 100 μL\n칼럼온도 | 40℃\n이동상 | 전처리칼럼 : 0.01 M 인산이수소칼륨용액 / 분석칼럼 : 0.01 M 인산이수소칼륨용액/메탄올(90:10, v/v)\n검출기파장 | 200 nm\n유속 | 전처리칼럼 : 500 μL/분, 분석칼럼 : 100 μL/분\n[/표]\n표 2. 액체크로마토그래프/질량분석기 조건(예)\n[표]\n항목 | 조건\n주입량 | 2 μL\n유량 | 0.2 mL/분\n칼럼온도 | 40℃\n이동상 | A : 0.1%(v/v) 포름산 / B : 0.1%(v/v) 포름산을 함유한 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 100 / 5.0 / 80 / 20 / 5.2 / 6.2 / 7.0 / 11.0\n시간(분) | 이동상(%)\nA | B\n0 | 100 | 0\n5.0 | 80 | 20",
+   "n_lines": 84
+  },
+  {
+   "no": "3-14",
+   "title": "비타민 C",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-14-1",
+   "title": "비타민 C(제1법)",
+   "summary": "본 시험법은 시료 중 존재하는 비타민 C를 메타인산용액으로 추출한 환원형 비타민 C(ascorbic acid, AA)를 2,6-dichlorophenol-indophenol(DCP)로 산화시켜 산화형(dehydroascorbic acid, DHAA)으로 만든 다음 2,4-DNPH (dinitrophenyl hydrazine)를 가해 적색의 오사존(osazone)을 형성시킨 후 황산(H2SO4)을 가해 탈수시키면 등적색의 무수물 bis-2,4-dintrophenylhyd razine으로 전환되어 안정된 정색반응을 나타내는데, 이를 파장 510~540 nm에서 표준용액과의 흡광도를 측정하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "L-Ascorbic acid, L-Threoascorbic acid"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 비색\n5.1.1T1 및 T2의 내용액에 대해서 510~540 nm에서 흡광도를 측정하고, T1 및 T2 로 한다. 대조액은 T3로 한다.",
+   "n_lines": 70
+  },
+  {
+   "no": "3-14-2",
+   "title": "비타민 C(제2법)",
+   "summary": "본 시험법은 시료 중 존재하는 비타민 C에 인도페놀용액을 넣어 적색이 5초간 지속 될 때까지 투입량을 이용하여 정량하는 방법이다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "L-Ascorbic acidL-Threoascorbic acid"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 32
+  },
+  {
+   "no": "3-14-3",
+   "title": "비타민 C(제3법)",
+   "summary": "본 시험법은 시료 중 존재하는 비타민 C를 메타인산으로 균질화 시킨 후 옥타데실화된 칼럼을 연결하여 분리하는 방법으로 자외부흡광광도검출기를 이용하여 최대 흡수 파장인 254 nm에서 검출하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기"
+   ],
+   "columns": [],
+   "standards": [
+    "L-Ascorbic acidL-Ascorbic acid(L-Threoascorbic acid)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "실온",
+    "mobile_phase": "0.05 M KH2PO4 : 아세토니트릴(60 : 40)",
+    "detection": "254 nm",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 실온\n이동상 | 0.05 M KH2PO4 : 아세토니트릴(60 : 40)\n검출기 파장 | 254 nm\n유량 | 1.0 mL/min\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "3-14-4",
+   "title": "비타민 C(제4법)",
+   "summary": "본 시험법은 시료 중 존재하는 아스코빌팔미테이트를 메탄올로 균질화시킨 후 옥타데실화된 칼럼을 연결하여 분리하는 방법으로 자외부흡광 광도 검출기를 이용하여 최대 흡수 파장인 245 nm에서 검출하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 150 mm, 충전제 : octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Ascorbyl palmitate"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "실온",
+    "mobile_phase": "0.05 M KH2PO4 : 아세토니트릴(30 : 70)",
+    "detection": "245 nm",
+    "flow": "1 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 실온\n이동상 | 0.05 M KH2PO4 : 아세토니트릴(30 : 70)\n검출기 파장 | 245 nm\n유량 | 1 mL/min\n[/표]",
+   "n_lines": 54
+  },
+  {
+   "no": "3-15",
+   "title": "구리, 마그네슘, 망간, 몰리브덴, 셀렌, 크롬",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-15-1",
+   "title": "구리, 마그네슘, 망간, 몰리브덴, 셀렌, 크롬(제1법 원자흡광광도법)",
+   "summary": "본 시험법은 시료 중 존재하는 구리, 마그네슘, 망간, 몰리브덴을 건식으로 분해하여 원자흡광광도법을 적용하여 정량한다. 이는 시험용액 중의 금속 원소를 적당한 방법으로 해리시켜 원자 증기화하여 생성한 기저상태의 원자가 그 원자증기를 통과하는 빛으로부터 측정파장의 빛을 흡수하는 현상을 이용하여 광전측정 등에 따라 목적원소의 특정파장에서의 흡광도를 측정하고 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "분광광도법",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Copper",
+    "Magnesium",
+    "Maganese",
+    "Molybdenum",
+    "Selenium",
+    "Chromium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 57
+  },
+  {
+   "no": "3-15-2",
+   "title": "구리, 마그네슘, 망간, 몰리브덴, 셀렌, 크롬(제2법 유도결합플라즈마법)",
+   "summary": "본 시험법은 아르곤 가스에 고주파를 유도결합방법으로 걸어 방전되어 얻어진 아르곤 프라즈마에 시험용액을 주입하여 목적원소의 원자선 및 이온선의 발광광도를 측정하여 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "Copper",
+    "Magnesium",
+    "Maganese",
+    "Molybdenum",
+    "Selenium",
+    "Chromium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 19
+  },
+  {
+   "no": "3-16",
+   "title": "칼슘",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-16-1",
+   "title": "칼슘(제1법 과망간산칼륨 용량법)",
+   "summary": "본 시험법은 칼슘을 함유하는 용액에 수산염을 첨가하여 물에 난용성인 수산칼슘으로 침전시켜 침전물을 황산에 녹여 용액내 수산을 과망간산칼륨 용액으로 적정하여 정량하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Calcium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 과망간산칼륨 용량법의 계산\na：공시험에 대한 0.02 N 과망간산칼륨용액의 소비 mL 수\nb：검액에 대한 0.02 N 과망간산칼륨용액의 소비 mL 수\nF：0.02 N 과망간산칼륨용액의 역가\nV：시험용액의 희석배수",
+   "n_lines": 53
+  },
+  {
+   "no": "3-16-2",
+   "title": "칼슘(제2법 원자흡광광도법)",
+   "summary": "본 시험법은 시료 중 존재하는 칼슘을 건식 또는 습식으로 분해하여 원자흡광 광도법을 적용하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Calcium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 21
+  },
+  {
+   "no": "3-16-3",
+   "title": "칼슘(제3법 유도결합플라즈마법)",
+   "summary": "본 시험법은 아르곤 가스에 고주파를 유도결합방식으로 걸어 방전되어 얻어진 아르곤 플라즈마에 시험용액을 주입하여 목적원소의 원자선 및 이온선의 발광광도 또는 질량값을 측정하여 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "유도결합플라즈마검출기(Inductively Coupled Plasma, ICP)"
+   ],
+   "columns": [],
+   "standards": [
+    "Calcium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 20
+  },
+  {
+   "no": "3-17",
+   "title": "요오드",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-17-1",
+   "title": "요오드(제1법)",
+   "summary": "본 시험법은 시료 중 존재하는 요오드를 건식⋅습식으로 분해하여 이온-선택 전극법을 적용 정량한다.",
+   "method": "",
+   "instruments": [
+    "전극 : 요오드전극, 기준 전극(Ag/AgCl전극)"
+   ],
+   "columns": [],
+   "standards": [
+    "Iodium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 요오드 용량법의 계산\n요오드 함량(μg/100g) ＝ Q × 0.9854 × V × 100\nQ ＝ 0.0885/{antilog[(E4-E3)/S]-0.912}\n0.9854：기지의 첨가 표준용액의 요오드 농도(μg/mL)\nV : 희석 배수\n0.0885:표준용액 첨가 mL수/(표준용액 첨가 전 총 mL수＋표준용액 첨가 mL수)＝10/(103+10)\n0.912:표준용액 첨가 전 총 mL수/(표준용액 첨가 전 총 mL수 ＋표준 용액 첨가 mL수)＝103/(103＋10)\nS : E2-E1",
+   "n_lines": 63
+  },
+  {
+   "no": "3-17-2",
+   "title": "요오드(제 2법)",
+   "summary": "본 시험법은 시료 중에 존재하는 요오드를 마이크로웨이브 분해 장치에 넣고 테트라메틸암모늄하이드록사이드(TMAH)용액으로 분해하여 유도결합플라즈마/ 질량검출기로 정량하는 방법이다.",
+   "method": "ICP/AAS",
+   "instruments": [
+    "유도결합플라즈마/질량검출기",
+    "마이크로웨이브 분해 장치"
+   ],
+   "columns": [],
+   "standards": [
+    "요오드화칼륨(Potassium iodide)"
+   ],
+   "conditions": {
+    "기기": "ICP-MS",
+    "flow": "1.0 mL/분",
+    "RF 파워": "1.1 kw",
+    "플라즈마 기체": "아르곤(15 L/분)",
+    "mobile_phase": "아르곤(0.7 L/분)",
+    "메이크업 기체": "아르곤(0.29 L/분)",
+    "m/z": "요오드(I) 127 / 내부표준물질(Te): 128",
+    "세척용매": "0.5% TMAH"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n기기 | ICP-MS\n시료 도입 유속 | 1.0 mL/분\nRF 파워 | 1.1 kw\n플라즈마 기체 | 아르곤(15 L/분)\n이동상 기체 | 아르곤(0.7 L/분)\n메이크업 기체 | 아르곤(0.29 L/분)\nm/z | 요오드(I) 127 / 내부표준물질(Te): 128\n세척용매 | 0.5% TMAH\n[/표]",
+   "n_lines": 40
+  },
+  {
+   "no": "3-18",
+   "title": "철",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-18-1",
+   "title": "철(제1법 올쏘 페난트로린 비색법)",
+   "summary": "본 시험법은 시료 중 존재하는 철을 건식 또는 습식으로 분해하여 올쏘 페난트로린 비색법을 적용하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "흡광광도계(Spectrophotometer)"
+   ],
+   "columns": [],
+   "standards": [
+    "Iron"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 철 용량법의 계산S：시험용액 중의 철의 양(mg/mL)a：시험용액의 전량(mL)",
+   "n_lines": 59
+  },
+  {
+   "no": "3-18-2",
+   "title": "철(제2법 원자흡광광도법)",
+   "summary": "본 시험법은 시료 중 존재하는 철을 건식 또는 습식으로 분해하여 원자흡광 광도법을 적용하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Iron"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 19
+  },
+  {
+   "no": "3-18-3",
+   "title": "철(제3법 유도결합플라즈마법)",
+   "summary": "본 시험법은 아르곤 가스에 고주파를 유도결합방식으로 걸어 방전되어 얻어진 아르곤 플라즈마에 시험용액을 주입하여 목적원소의 원자선 및 이온선의 발광광도 또는 질량값을 측정하여 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "유도결합플라즈마검출기(Inductively Coupled Plasma, ICP)"
+   ],
+   "columns": [],
+   "standards": [
+    "Iron"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 20
+  },
+  {
+   "no": "3-19",
+   "title": "아연",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-19-1",
+   "title": "아연(제1법 원자흡광광도법)",
+   "summary": "본 시험법은 시료 중 존재하는 아연을 건식 또는 습식으로 분해하여 원자흡광 광도법을 적용하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Zinc"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 36
+  },
+  {
+   "no": "3-19-2",
+   "title": "아연(제2법 유도결합플라즈마법)",
+   "summary": "본 시험법은 아르곤 가스에 고주파를 유도결합방식으로 걸어 방전되어 얻어진 아르곤 플라즈마에 시험용액을 주입하여 목적원소의 원자선 및 이온선의 발광광도 또는 질량값을 측정하여 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "유도결합플라즈마검출기(Inductively Coupled Plasma, ICP)"
+   ],
+   "columns": [],
+   "standards": [
+    "Zinc"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 20
+  },
+  {
+   "no": "3-20",
+   "title": "칼륨",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-20-1",
+   "title": "칼륨(제1법 원자흡광광도법)",
+   "summary": "본 시험법은 시료 중 존재하는 칼륨을 건식 또는 습식으로 분해하여 원자흡광 광도법을 적용하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "원자흡광광도계(Atomic Absorption Spectrophotometer, AAS)"
+   ],
+   "columns": [],
+   "standards": [
+    "Potassium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 34
+  },
+  {
+   "no": "3-20-2",
+   "title": "칼륨(제2법 유도결합플라즈마법)",
+   "summary": "본 시험법은 아르곤 가스에 고주파를 유도결합방식으로 걸어 방전되어 얻어진 아르곤 플라즈마에 시험용액을 주입하여 목적원소의 원자선 및 이온선의 발광광도 또는 질량값을 측정하여 시험용액 중의 목적원소의 농도를 구하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "유도결합플라즈마검출기(Inductively Coupled Plasma, ICP)"
+   ],
+   "columns": [],
+   "standards": [
+    "Potassium"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 20
+  },
+  {
+   "no": "3-21",
+   "title": "조단백질",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-21-1",
+   "title": "세미마이크로 킬달법(제1법)",
+   "summary": "본 시험법은 질소가 함유된 시료를 황산과 브런스위크시액을 이용하여 냉각 시킨 후 추출하여 수산화나트륨용액으로 적정하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "세미마이크로킬달장치"
+   ],
+   "columns": [],
+   "standards": [
+    "분해 촉진제 : CuSO4 : K2SO4(1 : 4)",
+    "부런스위크(Brunswik)시액",
+    "증류수(Distilled water)",
+    "황산(Sulfate acid)",
+    "과산화수소(Hydrogen peroxide)",
+    "수산화나트륨(Sodium chloride)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1시료의 분해액을 전부 사용해서 적정했을 때의 식이므로 분해액의 일부를 사용할 때에는 그 계수를 곱한다. 여기서 얻은 질소량에 질소 계수(6.25)를 곱하여 조단백질의 양으로 한다.[계산식]\n[표]\nN(%) | = | 0.7003 | × | (a -b) | × | 100\n시료 채취량(mg)\n[/표]\nN : 질소\na : 공시험에서 중화에 소요된 0.05 N 수산화나트륨액의 mL수\nb : 본시험에서 중화에 소요된 0.05 N 수산화나트륨액의 mL수\n0.05N 황산 1 mL＝0.7003 mg N\n[계산식]\n조단백질(%) = N(%)×질소계수(6.25)",
+   "n_lines": 52
+  },
+  {
+   "no": "3-21-2",
+   "title": "듀마스법(연소법, 제2법)",
+   "summary": "본 시험법은 분말, 액체 등의 균질한 식품에 적용이 가능하며, 질소분석기를 이용하여 검체는 순수한 산소가 사용되는 고온의 연소공정으로 인해 질소성분이 질소산화물 형태로 산화되며, 질소산화물은 환원력이 높은 구리(또는 텅스텐 등)와 반응하여 질소로 환원된다. 질소가스는 열전도도 검출기를 통해 정량하는 방법이다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "EDTA(Ethylene diamine tetraacetic acid)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 질소분석기를 이용하여 자동으로 연소, 환원 및 검출과정이 수행된다.",
+   "n_lines": 19
+  },
+  {
+   "no": "3-22",
+   "title": "아미노산",
+   "summary": "본 시험법은 시료 중 단백질을 동결건조 한 후 단백질 가수분해 장치를 이용하여 가수분해 한 후 구연산나트륨 완충액 또는 염산용액으로 단백질을 분리하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "단백질 가수분해장치",
+    "아미노산 자동분석기",
+    "고속액체크로마토그래프"
+   ],
+   "columns": [],
+   "standards": [
+    "D-Cystine",
+    "D-Tryptophane"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 아미노산 자동분석기 조건\n5.1.1완충액, 발색시약의 유무, 칼럼항온조의 온도를 점검하고, 자동완충액 전환기구 및 정유량 펌프, 유량을 소정의 조건에 따라 설정하고 측정을 실시한다.\n5.1.2정성분석을 위하여 표준물질과 시험용액을 동일한 조건에서 분석하여 머무름 시간이 일치하는 성분을 비교 동정한다.\n5.1.3정량분석의 경우에는 미리 구해 놓은 농도의 아미노산표준의 피크 면적과 함량으로부터 검량 곡선을 작성한 다음 시험용액으로부터 얻어진 피크면적으로 시험용액 중의 아미노산 함량을 계산한다.",
+   "n_lines": 78
+  },
+  {
+   "no": "3-23",
+   "title": "글루코사민",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-23-1",
+   "title": "글루코사민(제1법)",
+   "summary": "본 시험법은 시료로부터 글루코사민을 추출한 후 액체크로마토그래프를 이용 하여 분석하는 방법으로 시차굴절계검출기를 이용하여 정량한다.",
+   "method": "HPLC-RI",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계검출기(Refractive Index Detector)",
+    "칼럼오븐",
+    "NH2-60칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "NH2-60칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "D-글루코사민 염산염(D-glucosamine hydrochloride)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "증류수 : 아세토니트릴 (30 : 70)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼 온도 | 40℃\n이동상 | 증류수 : 아세토니트릴 (30 : 70)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 45
+  },
+  {
+   "no": "3-23-2",
+   "title": "글루코사민(제2법)",
+   "summary": "본 시험법은 시료로부터 글루코사민을 추출한 후 액체크로마토그래프를 이용 하여 분석하는 방법으로 증기화광산란검출기를 이용하여 정량한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "칼럼오븐",
+    "NH2-60칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "NH2-60칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "D-글루코사민 염산염(D-glucosamine hydrochloride)"
+   ],
+   "conditions": {
+    "injection": "40 μL",
+    "temp": "40℃",
+    "Nebulization Temp.": "70%",
+    "Pressure (N2 gas)": "40psi",
+    "Drift tube Temp.": "85℃",
+    "mobile_phase": "완충용액 : 아세토니트릴 (50 : 50)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 40 μL\n칼럼온도 | 40℃\nNebulization Temp. | 70%\nPressure (N2 gas) | 40psi\nDrift tube Temp. | 85℃\n이동상 | 완충용액 : 아세토니트릴 (50 : 50)\n유량 | 1.0 mL/분\n[/표]",
+   "n_lines": 53
+  },
+  {
+   "no": "3-24",
+   "title": "N-아세틸글루코사민",
+   "summary": "본 시험법은 시료 중 존재하는 N-아세틸글루코사민을 아세토니트릴용액으로 추출하여 아민칼럼을 통해 N-아세틸글루코사민을 분리하는 방법으로 시차 굴절계를 이용하여 검출하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계(Refractive Index Detector)",
+    "칼럼오븐",
+    "NH2P-50 (안지름 4.6 mm, 길이 250 mm, 충전제 polyamine bonded polymer gel) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "N-아세틸글루코사민(N-Acetylglucosamine, 2-Acetamido-2-deoxy- D-glucose)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "35~40℃",
+    "mobile_phase": "증류수 : 아세토니트릴(25 : 75)",
+    "flow": "0.8 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 20 μL\n칼럼온도 | 35~40℃\n이동상 | 증류수 : 아세토니트릴(25 : 75)\n유량 | 0.8 mL/분\n[/표]",
+   "n_lines": 45
+  },
+  {
+   "no": "3-25",
+   "title": "베타글루칸",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-25-1",
+   "title": "베타글루칸(제 1법 영지버섯자실체추출물)",
+   "summary": "본 시험법은 시료를 효소처리하여 베타글루칸만을 침전 시킨 후 글루코오스 형태로 분해하고 발색시켜 분광광도계로 정량하는 방법으로 영지버섯자실체추출물에 적용하며 최대흡수파장인 470 nm에서 분석 한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "글루코오스(D-(+)-glucose)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 흡광도 측정\n5.1.1 파장 470 nm에서 흡광도를 측정한다.",
+   "n_lines": 61
+  },
+  {
+   "no": "3-25-2",
+   "title": "베타글루칸(제2법 상황버섯추출물)",
+   "summary": "본 시험법은 시료에 있는 총 글루칸에서 베타글루칸 외의 글루칸 함량을 제거하여 베타글루칸의 값을 구한다. 산분해와 효소처리를 하여 글루코오스 형태로 분해한 후 발색시켜 분광광도계로 정량하는 방법으로 상황버섯 추출물에 적용하며 최대흡수파장인 470 nm에서 분석 한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "글루코오스(D-(+)-glucose)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 흡광도 측정\n5.1.1 증류수를 대조액으로 하여 파장 510 nm에서 흡광도를 측정한다.",
+   "n_lines": 70
+  },
+  {
+   "no": "3-26",
+   "title": "식이섬유",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-26-1",
+   "title": "식이섬유(제1법)",
+   "summary": "건조된 시료 두 개를 준비하고 이를 내열성 α-아밀라아제, 프로테아제, 아밀로글루코시다제 효소로 연속적으로 분해하여 전분과 단백질을 제거 한다. 이때 10% 이상의 지방을 함유한 식품은 건조 전에 지방을 제거하여 시험한다. 총 식이섬유(TDF) 정량은 효소분해물에 녹아 있는 식이섬유를 에탄올로 처리하여 침전시켜 여과하고 에탄올과 아세톤으로 세척한 후, 건조하여 그 무게를 확인한다. 물불용성 식이섬유(IDF)는 효소분해물을 여과하여 잔사를 따뜻한 물로 세척하고 그 무게를 확인하여 정량한다. 수용성식이섬유(SDF)는 IDF의 전처리과정에서 얻은 여과액과 세척액을 합하여 에탄올로 침전시킨 후 여과하여 잔류물을 건조하고 무게를 확인 하여 정량한다. 총 식이섬유, 물불용성 및 수용성식이섬유 함량계산 시 잔사의 무게 중 단백질 및 회분량은 보정해준다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "에탄올(Ethanol)",
+    "규조토(Celite 545 AW)",
+    "내열성 α-아밀라아제(α-amylase heat stable)",
+    "프로테아제(protease)",
+    "아밀로글루코시다아제(Amyloglucosidase)",
+    "MES(2-(N-Morpholin)ethanesulfonic acid)",
+    "TRIS(Tris(hydroxymethyl)aminomethane)",
+    "아세톤(Acetone)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n※총 식이섬유 함량은 7) 총 식이섬유(TDF) 함량 측정을 독립적으로 수행하여 결정하거나 8) 물불용성 식이섬유(IDF) 측정 및 9) 수용성 식이섬유(SDF) 측정에서 구한 IDF와 SDF의 합으로 결정할 수 있다.\n가) 공시험 함량 (B, mg) 측정 :B = [(B1R + B2R) / 2] - PB – ABB1R, B2R: 공시험 2반복에 대한 잔사의 무게(mg)PB : 공시험(B1)의 단백질 무게(mg)AB : 공시험(B2)의 회분 무게(mg)\n나) 식이섬유 함량(DF, g/100g) 측정 :\nM1R, M2R : 검체 2반복의 잔사 무게(mg)\nP : 잔사(M1R) 중 단백질 무게(mg)\nA : 잔사(M2R) 중 회분 무게(mg)\nB : 공시험 함량(mg)\nM1, M2: 검체의 무게(mg)",
+   "n_lines": 64
+  },
+  {
+   "no": "3-26-2",
+   "title": "식이섬유(제2법)",
+   "summary": "난소화성 말토덱스트린(RMD) 등을 함유한 식품에 인산완충액을 이용한 효소-중량법을 적용하여 에탄올에 의해 침전되는 고분자의 난소화성 말토덱스트린과 같은 수용성 식이섬유(HMWSDF)를 확인하고 에탄올에 녹는 저분자의 난소화성 말토덱스트린과 같은 수용성 식이섬유(LMWSDF)를 탈염 하여 농축한 후, 액체크로마토그래피로 확인하는 방법이다. 이 방법에서 총 식이섬유는 물불용성 식이섬유(IDF) 및 HMWSDF와 액체크로마토그래피로 확인한 LMWSDF의 합으로 계산되어진다. 즉 효소-중량법으로 구한 식이섬유의 함량에 알코올에 녹는 수용성 식이섬유의 함량을 합하여 총 식이섬유의 함량으로 한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계(Refractive Index Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "액체크로마토그래피 머무름 시간 확인용 표준물질: 저분자의 난소화성 말토덱스트린에 해당하는 올리고당[DP(Degree of polymerization) ≥3]을 포함한 DE(Dextrose equivalent) 25 또는 16.5~19.5의 말토덱스트린(Sigma사 419699 또는 이와 동등한 것)",
+    "Glycerol"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 시험조작\n5.1.1 액체크로마토그래프의 측정조건\n-분석칼럼 : TSK-GEL G2500PWX L, 7.8 mm id × 30 cm를 연속하여 2개를 연결한 것 또는 이와 동등한 것\n-가드 칼럼 : TSK guard column PWXL, 6.0 mm id × 4 cm 또는 이와 동등한 것\n- 칼럼온도 : 80℃\n- 이동상 : 증류수\n- 유속 : 0.5 mL/min\n- 주입량 : 20 μL\n- 검출기 : 시차굴절계검출기(RI), 40℃ 유지\n5.1.2RMD와 액체크로마토그래피 반응이 동등한 덱스트로즈로 반응계수 결정 RMD의 RI 검출기의 반응에 대한 평가와 표준화를 위해 글리세롤 표준물질을 사용한다. LC 분석에서 RI 검출기에서 얻은 RMD의 피크면적은 덱스트로즈와 동등하며 내부표준물질인 글리세롤의 피크면적과 덱스트로즈의 농도에 따른 피크면적을 비교한다. 이렇게 작성된 검량곡선으로부터 시험용액 중 RMD의 함량을 계산하는데 사용할 반응계수를 결정한다.동량의 글리세롤과 3개 농도 수준으로 덱스트로즈를 100 mL 정용플라스크에 각각 넣은 3개의 용액을 준비한다. 이를 위해 0.5, 1.0, 2.0 g의 덱스트로즈를 3개의 구분된 100 mL 정용플라스크에 정확히 칭량하여 넣고 덱스트로즈-글리세롤 반응계수 확인용 표준 용액 10 mL을 각 정용 플라스크에 첨가한 후 증류수를 채워 100 mL로 조제한다. 조제된 3개의 표준용액 20 μL를 액체크로마토 그래피에 주입하여 각 크로마토그래피에서 덱스트로즈와 글리세롤의 피크면적을 확인하여 글리세롤의 피크면적에 대한 덱스트로즈 피크면적 비(y-축)와 글리세롤 함량에 대한 덱스트로즈 함량 비(x-축)을 비교하여 얻어진 기울기의 역수로부터 아래의 식과 같이 반응계수를 구한다.반응계수(Rf) = 1/[(PA-dex/PA-gly) × (Wt-gly/Wt-dex)]PA-dex : 덱스트로즈 피크면적PA-gly : 글리세롤 피크면적Wt-dex : 표준용액 중 덱스트로즈 함량Wt-gly : 표준용액 중 글리세롤 함량\n5.1.3 액체크로마토그래피의 크로마토그램\n그림 1. 표준용액 및 시험용액의 크로마토그램",
+   "n_lines": 107
+  },
+  {
+   "no": "3-27",
+   "title": "총 다당체",
+   "summary": "본 시험법은 다당체를 시료로부터 추출하여 페놀과 황산으로 발색시켜 분광광도계를 이용하여 정량하는 분석법이다. 이때, 만노오스를 표준물질으로 하며 다당체, 페놀 및 황산의 상호작용으로 만들어진 화합물이 갖는 최대 흡수파장인 490 nm에서 정량분석한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "만노오스(D-(+)-mannose, D-Mannopyranose)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 흡광도 측정\n5.1.1 파장 490 nm에서 흡광도를 측정한다.",
+   "n_lines": 57
+  },
+  {
+   "no": "3-28",
+   "title": "콘드로이친황산",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-28-1",
+   "title": "콘드로이친황산(제1법)",
+   "summary": "본 시험법은 hexuronic acid와 카바졸을 붉은색 화합물로 만들어 분광 광도계로 분석하는 방법으로, 최대 흡수파장인 530 nm에서 발색정도를 측정하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "δ-글루쿠로노락톤(D-(+)-Glucurono-6,3-lactone, Glucuronolactone)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 흡광도 측정\n5.1.1 파장 530 nm에서 흡광도를 측정한다.",
+   "n_lines": 45
+  },
+  {
+   "no": "3-28-3",
+   "title": "콘드로이친황산(제3법)",
+   "summary": "본 시험법은 시료로부터 추출한 콘드로이친황산을 콘드로이티나아제 ABC를 이용하여 특이적으로 분해시켜 얻은 3가지 이당류(Di-0S, Di-6S 와 Di-4S)를 액체크로마토그래프를 사용하여 분석하는 방법이다. 음이온을 가진 이들 분해 산물을 음이온교환수지 칼럼을 이용하여 232 nm에서 정량한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "음이온교환수지칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 : 강염기성 암모늄 음이온교환수지로 코팅된 실리카겔), Hypercil-SAX 칼럼 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "콘드로이친황산 나트륨염(Chondroitin sulfate sodium salt)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30℃",
+    "mobile_phase": "A : 증류수(pH 3.5), / B : 1 M 염화나트륨용액(pH 3.5)",
+    "detection": "232 nm",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "5분 100/0 → 15분 50/50 → 20분 50/50 → 21분 100/0"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼 온도 | 30℃\n이동상 | A : 증류수(pH 3.5), / B : 1 M 염화나트륨용액(pH 3.5)\n검출기 파장 | 232 nm\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A (%) | B(%)\n0 | 100 | 0\n5 | 100 | 0\n15 | 50 | 50\n20 | 50 | 50\n21 | 100 | 0\n[/표]",
+   "n_lines": 63
+  },
+  {
+   "no": "3-29",
+   "title": "키토산(총글루코사민으로서)",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-29-1",
+   "title": "키토산(총글루코사민으로서)(제1법)",
+   "summary": "본 시험법은 키토산에 산을 첨가하여 단당류인 글루코사민으로 분해한 후 글루코사민과 p-디메틸아미노벤즈알데히드(p-dimethylaminobenzaldehyde)를 반응시켜 분광광도계를 이용하여 분석하는 방법으로, 530 nm에서 발색 정도를 측정하여 정량한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "D-글루코사민 염산염(D-glucosamine hydrochloride)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 기기분석파장 530 nm에서 흡광도를 측정한다.",
+   "n_lines": 45
+  },
+  {
+   "no": "3-29-2",
+   "title": "키토산(총글루코사민으로서)(제2법)",
+   "summary": "본 시험법은 키토산에 산을 첨가하여 단당류인 글루코사민으로 분해한 후 액체크로마토그래프를 이용하여 분석하는 방법으로 시차굴절계 검출기를 이용하여 정량한다.",
+   "method": "HPLC-RI",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계 검출기"
+   ],
+   "columns": [
+    "NH2-60칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 ㎛) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "D-글루코사민 염산염(D-glucosamine hydrochloride)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "40℃",
+    "mobile_phase": "증류수 : 아세토니트릴 (30 : 70)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼 온도 | 40℃\n이동상 | 증류수 : 아세토니트릴 (30 : 70)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 46
+  },
+  {
+   "no": "3-30",
+   "title": "키토올리고당",
+   "summary": "본 시험법은 3-29 분광광도계를 이용한 총글루코사민 정량법에 의해 총글루코사민 함량을 구한 후, 3-23에 따라 유리 D-글루코사민의 함량을 구하여 그 차로서 키토올리고당 함량을 정량한다.",
+   "method": "분광광도법",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 4
+  },
+  {
+   "no": "3-31",
+   "title": "프락토올리고당",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-31-1",
+   "title": "프락토올리고당(제1법)",
+   "summary": "본 시험법은 증류수를 이용하여 시료로부터 프락토올리고당을 추출하고 아민칼럼을 사용하여 프락토올리고당을 분리하는 방법으로 시차굴절계 검출기를 이용하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계검출기(Refractive Index Detector)",
+    "칼럼오븐",
+    "아민칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "아민칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "-케스토즈(1-kestose, GF2)",
+    "니스토즈(nystose, GF3)분자량 : C24H42O21,",
+    "F-프락토퓨라노실니스토즈(1F-fructofuranosylnystose, GF4)분자량 : C30H52O26,",
+    "내부표준물질(아라비노즈)분자량 : C5H10O5,"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "40℃",
+    "mobile_phase": "70% 아세토니트릴",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼 온도 | 40℃\n이동상 | 70% 아세토니트릴\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 52
+  },
+  {
+   "no": "3-31-2",
+   "title": "프락토올리고당(제2법)",
+   "summary": "본 시험법은 시료로부터 프락토올리고당을 추출한 후 액체크로마토 그래프를 이용하여 분석하는 방법으로 증기화광산란검출기를 이용하여 정량한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "칼럼오븐",
+    "아민칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "아민칼럼(안지름 4.6 mm, 길이 250 mm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "1-케스토즈(1-kestose, GF2)",
+    "니스토즈(nystose, GF3)분자량 : C24H42O21,",
+    "F-프락토퓨라노실니스토즈(1F-fructofuranosylnystose, GF4)분자량 : C30H52O26,",
+    "내부표준물질(아라비노즈)분자량 : C5H10O5,"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "Nebulization Temp.": "70%",
+    "Pressure (N2 gas)": "40psi",
+    "Drift tube Temp.": "85℃",
+    "mobile_phase": "70% Acetonitrile",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 40℃\nNebulization Temp. | 70%\nPressure (N2 gas) | 40psi\nDrift tube Temp. | 85℃\n이동상 | 70% Acetonitrile\n유속 | 1.0 mL/min\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "3-32",
+   "title": "지방산",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-32-1",
+   "title": "지방산(제1법)",
+   "summary": "본 시험법은 0.5 N 메탄올성수산화나트륨과 14% 트리플루오르보란메탄올을 이용하여 메틸에스테르화시켜 분석하는 방법으로 내부표준물질의 면적과 비교하여 정량한다.",
+   "method": "",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "각종 지방산"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "180℃(1분)-10℃/분-230℃(1분)",
+    "detection": "250℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n칼럼 온도 | 180℃(1분)-10℃/분-230℃(1분)\n검출기 온도 | 250℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\nSplit ratio | 10 : 1\n[/표]\n※탄소수가 12이하인 경우에는 칼럼온도가 더 낮아야 하며, 탄소수가 20이상인 경우에는 주입부, 칼럼, 검출기의 온도가 높아야 한다. 다양한 탄소수의 지방산을 한번에 분석할 경우에는 칼럼온도의 승온조건 조작이 필요하다.",
+   "n_lines": 71
+  },
+  {
+   "no": "3-32-2",
+   "title": "지방산(제2법)",
+   "summary": "본 시험법은 유지를 메탄올성 수산화나트륨용액으로 처리하여 알칼리염을 만든 후 트리플루오로보란메탄올 용액을 가하고 가열하여 에스테르화 한다. 생성된 지방산에스테르를 이소옥탄에 녹여 분석을 행한다. 개별 지방산의 함량 및 대표적인 지방산의 합을 계산한다.",
+   "method": "",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "분석하고자 하는 지방산의 메틸 에스테르"
+   ],
+   "conditions": {
+    "inlet_temp": "225℃",
+    "temp": "100℃(4분) → 3℃/분 → 240℃(15분)",
+    "detection": "285℃",
+    "carrier_gas": "헬륨, 0.75 mL/분",
+    "Split ratio": "200 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "2.3 분석장비의 준비분석시작 전에 주입부 및 검출기 온도, 유량, 칼럼 온도를 분석조건에 맞게 조작하고, 가스크로마토그래프를 충분히 안정화 시킨다.\n3. 표준물질 및 일반시약\n3.1 표준물질\n3.1.1 분석하고자 하는 지방산의 메틸 에스테르\n3.2 내부표준물질\n3.2.1 Undecanoic acid methyl ester\n3.3 시약\n3.3.1 트리플루오르보란(Boron trifluoride)\n3.3.2 수산화나트륨(Sodium hydroxide)\n3.3.3 이소옥탄(Isooctane, GC급)\n3.3.4 염화나트륨 포화용액\n3.3.5 무수황산나트륨(Sodium sulfate anhydrous)\n3.3.6 메탄올(Methanol)\n3.4 시액의 제조\n3.4.1 14% 트리플 루오르보란메탄올용액125 g BF3를 1 L의 메탄올에 녹인다.\n3.4.2 0.5N 메탄올성수산화나트륨용액수산화나트륨 2 g을 메탄올 100 mL에 녹인다.\n3.4.3내부표준용액：triundecanoin (C11:0) 0.01 g을 이소옥탄용액에 녹여 10 mL가 되게 한다(1 mg/mL).\n3.4.4 염화나트륨 포화용액\n4. 시험과정\n4.1 표준용액의 제조\n4.1.1분석하고자 하는 지방산 메틸 에스테르와 내부표준물질 undecanoic acid 메틸 에스테르를 이소옥탄에 녹여 각각 0.5 mg/mL이 되도록 조제한다.\n4.2 시험용액의 제조\n4.2.1시료 25 mg을 유리튜브에 정밀히 취하고, 3.4.3용액을 1 mL 첨가 한다.\n※ 쏘팔메토 열매 추출물의 경우 내부표준물질 첨가한 시험용액(A) 및 내부표준물질을 첨가하지 않은 시험용액(B)을 각각 실험하여 비교한다.\n4.2.2이어 0.5N 메탄올성 수산화나트륨 1.5 mL를 가하고 질소 충진하고 즉시 뚜껑을 덮고 혼합한다.\n4.2.3 이어 100℃ heating block에서 5분간 가온한다.\n4.2.4이를 냉각한 후 14% 트리플루오르보란메탄올용액 2 mL을 가하고 질소를 충진한 후 뚜껑을 덮고 혼합하고 100℃에서 30분간 가열한다 (이때 공액리놀레산의 경우, 70~80℃에서 가온한다).\n4.2.5이어 30~40℃로 냉각하여 이소옥탄 1 mL을 가하여 질소를 불어 넣은 후 뚜껑을 덮고 30초간 격렬히 진탕한다.\n4.2.6즉시 염화나트륨 포화용액 5 mL을 가하고 질소를 불어넣은 후 뚜껑을 덮고 진탕한다.\n4.2.7상온으로 냉각한 후 수층으로부터 분리된 이소옥탄층을 무수황산 나트륨으로 탈수하여 시험용액으로 한다.\n5. 분석 및 계산\n5.1 기기분석\n표 1. 크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 225℃\n칼럼 온도 | 100℃(4분) → 3℃/분 → 240℃(15분)\n검출기 온도 | 285℃\n캐리어 가스 및 유량 | 헬륨, 0.75 mL/분\nSplit ratio | 200 : 1\n[/표]",
+   "n_lines": 125
+  },
+  {
+   "no": "3-32-3",
+   "title": "지방산(제3법)",
+   "summary": "본 시험법은 지방산의 에틸에스테르 형태(EPA, DHA 등)를 메틸에스테르화 하지 않고 직접 분석하는 방법으로 내부표준물질의 면적과 비교하여 정량 한다.",
+   "method": "",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "EPA 에틸 에스테르(Eicosapentaenoic acid ethyl ester)",
+    "DHA 에틸 에스테르(Docosahexaenoic acid ethyl ester)"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "170℃(0-2분), 170→240℃(2~25.7분), 240℃(25.7~28분)",
+    "detection": "270℃",
+    "carrier_gas": "헬륨 또는 질소, 3.0 mL/분",
+    "Split ratio": "100:1~200:1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n5.1.1표준용액 및 시험용액을 표 2와 같은 조건으로 가스크로마토 그래프를 이용하여 분석한다.\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n칼럼 온도 | 170℃(0-2분), 170→240℃(2~25.7분), 240℃(25.7~28분)\n검출기 온도 | 270℃\n캐리어 가스 및 유량 | 헬륨 또는 질소, 3.0 mL/분\nSplit ratio | 100:1~200:1\n[/표]",
+   "n_lines": 52
+  },
+  {
+   "no": "3-33",
+   "title": "인지질(아세톤불용물로서)",
+   "summary": "본 시험법은 시료 중 지질을 충분히 추출하여 지질의 양을 측정하고 이들 지질 중 인지질을 아세톤 불용물로서 분리하여 무게를 측정하여 인지질 함량을 정량 분석하는 방법이다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "석유에테르",
+    "에틸에테르",
+    "헥산",
+    "아세톤(Acetone, 0~5℃로 냉각)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 인지질 함량(mg/g) = (W2 -W3)/W1\nW1 : 시료 채취량(g)\nW2 : 시험용 시료량(mg)\nW3 : 아세톤 가용물 중량(mg)",
+   "n_lines": 27
+  },
+  {
+   "no": "3-34",
+   "title": "인지질 중 포스파티딜콜린의 함량",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-34-1",
+   "title": "인지질 중 포스파티딜콜린의 함량(제1법)",
+   "summary": "본 시험법은 인지질 중 포스파티딜콜린을 박층크로마토그래프판(Thin layer chromatography plate)을 이용해 분리한 후 습식 분해하여 인을 추출 정량하는 방법으로, 발색시약을 사용하여 640 nm에서 흡광도를 측정함 으로써 정량한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "헥산(n-Hexane)",
+    "클로로포름(Chloroform)",
+    "메탄올(Methanol)",
+    "암모니아수(Ammonia solution)",
+    "과염소산(Perchloric acid)",
+    "질산(Nitric acid)",
+    "수산화나트륨(Sodium hydroxide)",
+    "ρ-니트로페놀 용액(ρ-nitrophenol)",
+    "몰리브덴산(6-)암모늄염4수화물(Ammonium molybdate tetrahydrate)",
+    "주석산 칼륨(Potassium tartrate)",
+    "황산(Sulfuric acid)",
+    "아마이드 황산암모늄(ammonium sulfamate)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n5.1.1 640 nm에서 흡광도를 측정한다. 단, 표준인산용액(인으로서 5.0 μg/mL)을 이용하여 검량선을 작성하여 정량한다.",
+   "n_lines": 59
+  },
+  {
+   "no": "3-34-2",
+   "title": "인지질 중 포스파티딜콜린의 함량(제2법)",
+   "summary": "본 시험법은 인지질 중 포스파티딜콜린을 박층크로마토그래프판를 이용해 분리한 후 습식 분해하여 인을 추출하는 방법으로 유도결합플라즈마분광 광도계를 사용하여 인을 정량한다.",
+   "method": "분광광도법",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "헥산(n-Hexane)",
+    "클로로포름(Chloroform)",
+    "메탄올(Methanol)",
+    "암모니아수(Ammonia solution)",
+    "과염소산(Perchloric acid)",
+    "질산(Nitric acid)"
+   ],
+   "conditions": {
+    "RF power(kW)": "1.2",
+    "Carrier gas flow": "0.7 mL/분",
+    "Coolant gas flow": "14.0 mL/분",
+    "Plasma gas flow": "1.2 mL/분",
+    "Wavelength": "213.6 nm"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. ICP 분석조건(예)\n[표]\n항목 | 조건\nRF power(kW) | 1.2\nCarrier gas flow | 0.7 mL/분\nCoolant gas flow | 14.0 mL/분\nPlasma gas flow | 1.2 mL/분\nWavelength | 213.6 nm\n[/표]",
+   "n_lines": 53
+  },
+  {
+   "no": "3-34-3",
+   "title": "인지질 중 포스파티딜콜린의 함량(제3법)",
+   "summary": "본 시험법은 시료로부터 포스파티딜콜린을 추출한 후 액체크로마토그래프를 이용하여 분석하는 방법으로 시차굴절계검출기(Refractive Index Detector)를 이용하여 정량한다.",
+   "method": "HPLC-RI",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "시차굴절계검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "HILIC 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "포스파티딜콜린(L-α-Phosphatidylcholine, L-α-Lecithin)CAS No. : 8002-43-5(대두 또는 난황)(원재료에 따라 검체의 표준품을 선택하여 사용한다.)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "헥산 : 이소프로판올 : 증류수(30 : 60 : 10, v/v/v)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼 온도 | 40℃\n이동상 | 헥산 : 이소프로판올 : 증류수(30 : 60 : 10, v/v/v)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 45
+  },
+  {
+   "no": "3-35",
+   "title": "콜레스테롤",
+   "summary": "검체 중 지질을 고온에서 수산화칼륨 에탄올 용액으로 비누화한다. 콜레스테롤을 헥산으로 추출하고 트리메틸실릴(TMS) 에테르화하여 유도체화 한 다음 이를 기체크로마토그래피로 정량한다.",
+   "method": "GC",
+   "instruments": [
+    "가스크로마토그래프/불꽃이온화검출기(GC-FID)"
+   ],
+   "columns": [
+    "칼럼 : HP-5(25 m × 0.32 mm × 0.17 μm 또는 이와 동등 제품(5%-phenyl-methyl polysiloxane)"
+   ],
+   "standards": [
+    "콜레스테롤(Cholesterol)"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "190℃(2분)-20℃/분-230℃(3분)-40℃/분-270℃(25분)",
+    "detection": "300℃",
+    "carrier_gas": "질소 또는 헬륨, 2.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n컬럼 온도 | 190℃(2분)-20℃/분-230℃(3분)-40℃/분-270℃(25분)\n검출기 온도 | 300℃\n캐리어 가스 및 유량 | 질소 또는 헬륨, 2.0 mL/분\n[/표]",
+   "n_lines": 80
+  },
+  {
+   "no": "3-36",
+   "title": "구연산",
+   "summary": "본 시험법은 물로 시료를 추출하고 C18 카트리지로 불순물을 제거하여 옥타데실릴화한 칼럼을 통하여 구연산을 분리하는 방법으로 액체크로마토 그래프/자외부흡광광도검출기를 사용하여 구연산의 최대흡수 파장인 214 nm에서 검출하여 정량한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼 (안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "구연산(Citric acid, 2-hydroxypropane-1,2,3-tricarboxylic acid)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "40℃",
+    "mobile_phase": "0.2 M 인산완충액(pH 2.4)",
+    "detection": "214 nm",
+    "flow": "0.8 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼 온도 | 40℃\n이동상 | 0.2 M 인산완충액(pH 2.4)\n검출기파장 | 214 nm\n유속 | 0.8 mL/분\n[/표]",
+   "n_lines": 44
+  },
+  {
+   "no": "3-37",
+   "title": "스쿠알렌",
+   "summary": "본 시험법은 헥산을 이용하여 스쿠알렌을 시료로부터 추출하여 가스크로마토 그래프로 분석하는 방법으로, 내부표준물질과 표준물질의 면적비를 이용하여 정량한다.",
+   "method": "GC",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "스쿠알렌(Squalene, 2,6,10,15,19,23-hexamethyl-tetracosahex- 2,6,10,14,18,22-ene)"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "190℃(2분)-15℃/분-260℃(5분)-15℃/분-300℃(10분)",
+    "detection": "300℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n칼럼 온도 | 190℃(2분)-15℃/분-260℃(5분)-15℃/분-300℃(10분)\n검출기온도 | 300℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\nSplit ratio | 10 : 1\n[/표]",
+   "n_lines": 44
+  },
+  {
+   "no": "3-38",
+   "title": "식물스테롤",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-38-1",
+   "title": "식물스테롤(제1법)",
+   "summary": "본 시험법은 시료를 검화시킨 후 식물스테롤 성분을 추출하여 가스크로마토 그래프로 분석하는 방법으로 내부표준물질과 표준물질의 면적비를 이용하여 정량한다.",
+   "method": "GC",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector, FID)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "베타시토스테롤(β-sitosterol)",
+    "캄페스테롤(campesterol)",
+    "브라시카스테롤(brassicasterol)",
+    "스티그마스테롤(stigmasterol)"
+   ],
+   "conditions": {
+    "inlet_temp": "270℃",
+    "temp": "200(2분)→5℃/분→300℃(5분)",
+    "detection": "300℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "2.3 분석장비의 준비분석시작 전에 주입부 및 검출기 온도, 유량, 칼럼 온도를 분석조건에 맞게 조작하고, 가스크로마토그래프를 충분히 안정화 시킨다.\n3. 표준물질 및 일반시약\n3.1 표준물질\n3.1.1 베타시토스테롤(β-sitosterol)분자식 : C29H50O, 분자량 : 414.71, CAS No. : 83-46-5\n3.1.2 캄페스테롤(campesterol)분자식 : C28H48O, 분자량 : 400.68, CAS No. : 474-62-4\n3.1.3 브라시카스테롤(brassicasterol)분자식 : C28H46O, 분자량 : 398.66, CAS No. : 474-67-9\n3.1.4 스티그마스테롤(stigmasterol)분자식 : C29H48O, 분자량 : 412.69, CAS No. : 83-48-7\n3.2 일반시약\n3.2.1 톨루엔(Toluene) : 잔류농약급 또는 이와 동등한 것\n3.2.2 수산화칼륨(Potassium hydroxide)\n3.2.3 헥산(n-Hexane)\n3.2.4 염화나트륨(Sodium chloride)\n3.2.5 클로로포름(Chloroform) : 기체크로마토그래피용\n3.2.6 무수황산나트륨(Sodium sulfate anhydrous)\n3.2.7 유리솜\n3.3 내부표준물질\n3.3.1 5α-콜레스탄(5α-Cholestane)분자식 : C27H48, 분자량 : 372.67, CAS No.:481-21-0\n3.4 시액의 제조\n3.4.1 내부표준용액5α-콜레스탄 20 mg을 클로로포름에 녹여 20 mL로 한다(1 mg/mL).\n3.4.2 수산화칼륨용액\n3.4.2.1 50%(w/w) : 수산화칼륨 500 g을 증류수에 녹여 1 L로 한다.\n3.4.2.2 1 N : 수산화칼륨 56 g을 증류수에 녹여 1 L로 한다.\n3.4.2.3 0.5 N : 1 N 수산화칼륨 용액을 증류수로 희석하여 조제한다.\n4. 시험과정\n4.1 표준용액의 제조\n4.1.14종의 표준물질을 각각 10 mg씩 정밀하게 달아 내부표준용액 10 mL에 녹여 만든다(1 mg/mL).\n4.2 시험용액의 제조\n4.2.1 비누화 과정\n4.2.1.1베타-시토스테롤, 브라시카스테롤, 스티그마스테롤, 캄페스테롤의 합계량으로서 25~100 mg이 함유되도록 적당량의 시료를 환저플라스크에 정밀하게 단다.\n4.2.1.2자석막대를 삼각플라스크에 넣고 95% 에탄올 40 mL과 50% 수산화칼륨용액 8 mL을 가한다(95% 에탄올 40 mL 중 일정량을 50% 수산화칼륨용액 첨가 후 잔류물 세척에 사용 하여 플라스크와 콘덴서가 같이 붙어서 떨어지지 않는 것을 방지할 수 있다).\n4.2.1.3콘덴서를 설치하고 자석교반-가열기를 이용하여 교반하면서 가열하여 70±10분간 환류 시킨다. 비누화를 위해 시료를 지속적으로 관찰하면서 덩어리가 생길 경우 유리봉으로 분산 시키거나 교반하면서 50% 수산화칼륨용액을 추가하여 시험 용액을 교반한다.\n4.2.1.4환류가 완료되면 가열기를 끄고 교반 중에 콘덴서의 상부를 통해 95% 에탄올 60 mL을 첨가하고 15분간 방치한다.\n4.2.1.5콘덴서를 플라스크에서 제거하고 플라스크에 마개를 막아 실온으로 냉각시킨 후 12시간 이상(24시간 이내) 동안 정치하여 시험용액을 안정화한다.\n4.2.2 추출\n4.2.2.1비누화가 끝난 시험용액을 교반하면서 톨루엔 100 mL을 첨가 하고 마개를 하여 30초 이상 교반한다.\n4.2.2.2이를 세척과정 없이 500 mL 분액여두로 옮기고 1 N 수산화 칼륨용액 110 mL을 넣고 10초간 강렬하게 진탕하여 정치하고 분리된 아래층을 버린다.\n4.2.2.30.5 N 수산화칼륨용액 40 mL을 분액여두에 넣고 분액여두를 천천히 내용물이 소용돌이가 생기도록 10초간 섞어준 후 정치 하여 분리된 아래층을 버린다.\n4.2.2.4톨루엔 층을 증류수 40 mL로 천천히 분액여두를 돌려주며 수세한 후 정치하여 분리된 아래층을 버리고 수세과정을 3회 이상 반복한다. 이 때 수세과정이 반복될수록 더욱 강렬하게 진탕하며, 만약 에멀젼이 발생하면 소량의 95% 알코올을 첨가 하여 분액여두의 내용물이 회오리가 생기도록 섞어준 후 정치 하여 층을 분리한다. 톨루엔 층이 맑게 보일 때까지 수세과정을 계속한다.\n4.2.2.5유리솜과 약 20 g의 무수황산나트륨이 채워진 유리깔때기를 통해 수세한 톨루엔 층을 약 2 g 무수황산나트륨이 채워진 삼각플라스크로 흘려주어 탈수한다.\n4.2.2.6삼각플라스크에 마개를 막고 15분 이상 정치한다. 이 때 마개의 막음상태가 완벽하더라도 24시간 이상 방치하여서는 안된다.\n4.2.2.7추출한 톨루엔 층 20 mL을 250 mL 환저 플라스크에 취하고 이를 50±3℃에서 감압 농축하여 건고하고 잔류물에 아세톤 약 3 mL을 가한 후 다시 감압 농축하여 완전 건고한다.\n4.2.2.8잔류물을 5 mL 내부표준용액에 녹여 여과한 뒤 시험용액으로 한다.\n5. 분석 및 계산\n5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 270℃\n칼럼 온도 | 200(2분)→5℃/분→300℃(5분)\n검출기 온도 | 300℃\n캐리어 ",
+   "n_lines": 77
+  },
+  {
+   "no": "3-38-2",
+   "title": "식물스테롤(제2법)",
+   "summary": "본 시험법은 시료를 검화시킨 후 톨루엔으로 식물스테롤 성분을 추출하고 트리메틸실릴(TMS) 에테르화하여 유도체화 한 다음 가스크로마토그래프/불꽃이온화검출기를 이용하여 정량하는 방법이다.",
+   "method": "GC-FID",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐",
+    "5%-phenyl-methyl polysiloxane(길이 25 m, 안지름 0.32 mm, 필름두께 0.17μm) 또는 이와 동등한 것"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "베타-시토스테롤(β-sitosterol)",
+    "캄페스테롤(campesterol)",
+    "브라시카스테롤(brassicasterol)",
+    "스티그마스테롤(stigmasterol)",
+    "스티그마스타놀(stigmastanol)"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "190℃(2분)-20℃/분-230℃(3분)-40℃/분-270℃(25분)",
+    "detection": "300℃",
+    "carrier_gas": "헬륨, 0.7 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n칼럼 온도 | 190℃(2분)-20℃/분-230℃(3분)-40℃/분-270℃(25분)\n검출기 온도 | 300℃\n캐리어 가스 및 유량 | 헬륨, 0.7 mL/분\nSplit ratio | 10 : 1\n[/표]",
+   "n_lines": 99
+  },
+  {
+   "no": "3-39",
+   "title": "유리식물스테롤",
+   "summary": "본 시험법은 시료를 헥산으로 추출･농축하여 시료 중에 유리 된 식물스테롤을 가스크로마토그래프로 분석하여 내부표준물질과 표준물질의 면적비를 이용 하여 정량한다.",
+   "method": "GC",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector, FID)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "베타시토스테롤(β-sitosterol)",
+    "캄페스테롤(campesterol)",
+    "브라시카스테롤(brassicasterol)",
+    "스티그마스테롤(stigmasterol)"
+   ],
+   "conditions": {
+    "inlet_temp": "270℃",
+    "temp": "200(2분)→5℃/분→300℃(5분)",
+    "detection": "300℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "2.3 분석장비의 준비분석시작 전에 주입부 및 검출기 온도, 유량, 칼럼 온도를 분석조건에 맞게 조작하고, 가스크로마토그래프를 충분히 안정화 시킨다.\n3. 표준물질 및 일반시약\n3.1 표준물질\n3.1.1 베타시토스테롤(β-sitosterol)분자식 : C29H50O, 분자량 : 414.71, CAS No. : 83-46-5\n3.1.2 캄페스테롤(campesterol)분자식 : C28H48O, 분자량 : 400.68, CAS No. : 474-62-4\n3.1.3 브라시카스테롤(brassicasterol)분자식 : C28H46O, 분자량 : 398.66, CAS No. : 474-67-9\n3.1.4 스티그마스테롤(stigmasterol)분자식 : C29H48O, 분자량 : 412.69, CAS No. : 83-48-7\n3.2 일반시약\n3.2.1 클로로포름(Chloroform) : 기체크로마토그래피용\n3.2.2 헥산(n-Hexane)\n3.2.3 염화나트륨(Sodium chloride)\n3.3 내부표준물질\n3.3.1 5α-콜레스탄(5α-Cholestane)분자식 : C27H48, 분자량 : 372.67, CAS No. : 481-21-0\n3.4 시액의 제조\n3.4.1 내부표준용액5α-콜레스탄 20 mg을 클로로포름에 녹여 20 mL로 한다(1 mg/mL).\n4. 시험과정\n4.1 표준용액의 조제\n4.1.14종의 표준물질을 각각 10 mg을 정밀하게 달아 내부표준용액 10 mL에 녹여 만든다(1 mg/mL).\n4.2 시험용액의 제조\n4.2.1베타-시토스테롤, 브라시카스테롤, 스티그마스테롤, 캄페스테롤의 계량으로서 25 mg~100 mg이 함유되도록 적당량의 시료를 환저 플라스크에 정밀하게 단다.\n4.2.2 100 mL 헥산과 잘 혼합한다.\n4.2.3 추출한 헥산층 20 mL를 감압 농축한다.\n4.2.4 내부표준용액을 5 mL를 넣은 후 여과한다.\n5. 분석 및 계산\n5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 270℃\n칼럼 온도 | 200(2분)→5℃/분→300℃(5분)\n검출기 온도 | 300℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\nSplit ratio | 10 : 1\n[/표]",
+   "n_lines": 55
+  },
+  {
+   "no": "3-40",
+   "title": "알콕시글리세롤",
+   "summary": "시료를 검화하여 불검화물을 추출하고, 그 양을 측정한 다음 불검화물 중 스쿠알렌의 양을 감하여 정량하는 방법이다.",
+   "method": "",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "스쿠알렌(Squalene, 2,6,10,15,19,23-hexamethyl- tetracosahex- 2,6,10,14,18,22-ene)"
+   ],
+   "conditions": {
+    "inlet_temp": "250℃",
+    "temp": "190(2분)-15℃/분-260℃(5분) / -15℃/분-300℃(10분)",
+    "detection": "300℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250℃\n칼럼 온도 | 190(2분)-15℃/분-260℃(5분) / -15℃/분-300℃(10분)\n검출기 온도 | 300℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\nSplit ratio | 10 : 1\n[/표]",
+   "n_lines": 59
+  },
+  {
+   "no": "3-41",
+   "title": "바틸알콜",
+   "summary": "본 시험법은 시료를 비누화시켜 비비누화물을 추출한 후 박층 크로마토 그래프(TLC)에 전개시켜 표준품과의 반점위치를 비교하여 정성분석하거나 가스 크로마토그래프/질량검출기로 분석하여 정성하는 방법이다.",
+   "method": "GC-MS",
+   "instruments": [
+    "가스크로마토그래프/질량검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "HP-5MS 칼럼(길이 30 m, 안지름 0.25 mm, 필름두께 0.25 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "바틸알콜(DL-Batyl alcohol)"
+   ],
+   "conditions": {
+    "흡착제": "실리카겔 60F 254",
+    "전개용매": "헥산･초산에틸･에탄올(10 : 8 : 1)",
+    "점적량": "5 μL",
+    "발색제": "0.1% 로다민B 에탄올 용액",
+    "inlet_temp": "260℃",
+    "temp": "160℃(2분)-5℃/분-240℃(8분)-30℃/분-320℃(10분)",
+    "detection": "250℃",
+    "carrier_gas": "헬륨, 1.5 mL/분",
+    "injection": "1 μL",
+    "Split ratio": "20 : 1",
+    "이온": "m/z 113, 253, 283"
+   },
+   "gradient": [],
+   "analysis_text": "2.3 분석장비의 준비분석시작 전에 주입부 온도, 유량 및 칼럼 온도를 분석조건에 맞게 조작하고, 가스크로마토그래프/질량검출기를 충분히 안정화시킨다.\n3. 표준물질 및 일반시약\n3.1 표준물질\n3.1.1 바틸알콜(DL-Batyl alcohol)분자식 : C21H44O3, 분자량 : 344.57, CAS No. : 544-62-7\n3.2 일반시약\n3.2.1 수산화나트륨(Sodium hydroxide)\n3.2.2 에틸에테르(Ethyl ether)\n3.2.3 무수황산나트륨(Sodium sulfate anhydrous)\n3.2.4 헥산(n-Hexane)\n3.2.5 초산에틸(Ethyl acetate)\n3.2.6 에탄올(Ethanol)\n3.3 시액의 조제\n3.3.1 1 N 에탄올성 수산화나트륨수산화칼륨 4 g을 소량의 증류수에 녹인 후 에탄올을 가하여 100 mL로 한다.\n4. 시험과정\n4.1 비비누화물 추출\n4.1.1알콕시글리세롤로서 1 g에 해당하는 시료를 정밀히 취하여 환저플라스크에 넣는다.\n4.1.2 1 N 에탄올성 수산화나트륨 50 mL를 가한다.\n4.1.3환류냉각기를 이용하여 100℃에서 1시간 30분 동안 혼화한 후 에탄올을 증발시킨다.\n4.1.4 열수를 가한 다음 분액여두로 옮긴다.\n4.1.5이 용액에 에틸에테르를 첨가하고 혼합한 후 정치하여 에틸에테르층을 취한다.\n4.1.6물층은 다시 에틸에테르를 가해 세척하여 이전의 에틸에테르층에 합한다(3회 반복).\n4.1.7에틸에테르층에 증류수 30 mL를 가해 교반한 후 증류수층을 제거 한다(페놀프탈레인 시액으로 붉은색이 나타나지 않을 때 까지 반복 한다).\n4.1.8에틸에테르층을 무수황산나트륨으로 탈수시켜 증발 건조한 후 비비누화물로 한다.\n4.2 표준용액의 조제\n4.2.1 박층크로마토그래프DL-바틸알콜 표준물질 50 mg을 취하여 에테르에 녹여 10 mL로 한다.\n4.2.2 가스크로마토그래프/질량검출기DL-바틸알콜 표준물질 50 mg을 취하여 헥산에 녹여 10 mL로 한 후 헥산으로 적절히 희석하여 표준용액으로 한다.\n4.3 시험용액의 조제\n4.3.1 박층크로마토그래프비비누화물을 에테르 10 mL에 녹여 시험용액으로 한다.\n4.3.2 가스크로마토그래프/질량검출기비비누화물을 헥산 10 mL에 녹여 시험용액으로 한다.\n5. 분석 및 계산\n5.1 박층크로마토그래프 분석\n표 1. 박층크로마토그래프 조건(예)\n[표]\n항목 | 조건\n흡착제 | 실리카겔 60F 254\n전개용매 | 헥산･초산에틸･에탄올(10 : 8 : 1)\n점적량 | 5 μL\n발색제 | 0.1% 로다민B 에탄올 용액\n[/표]",
+   "n_lines": 62
+  },
+  {
+   "no": "3-42",
+   "title": "옥타코사놀",
+   "summary": "본 시험법은 시료 중 옥타코사놀을 초산에틸로 추출한 후 가스크로마토 그래프/불꽃이온화검출기를 이용하여 정성·정량분석한다.",
+   "method": "GC-FID",
+   "instruments": [
+    "가스크로마토그래프",
+    "불꽃이온화검출기(Flame Ionization Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "옥타코사놀(1-Octacosanol)"
+   ],
+   "conditions": {
+    "inlet_temp": "260℃",
+    "temp": "180℃(1분)-10℃/분-250℃-300℃(3분)-5℃/분-310℃ (1분)",
+    "detection": "280℃",
+    "carrier_gas": "질소, 3.0 mL/분",
+    "Split ratio": "10 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 260℃\n칼럼 온도 | 180℃(1분)-10℃/분-250℃-300℃(3분)-5℃/분-310℃ (1분)\n검출기 온도 | 280℃\n캐리어 가스 및 유량 | 질소, 3.0 mL/분\nSplit ratio | 10 : 1\n[/표]",
+   "n_lines": 43
+  },
+  {
+   "no": "3-43",
+   "title": "총(-)-Hydroxycitric acid",
+   "summary": "본 시험법은 10 mM 황산용액을 이용하여 시료 중 Hydroxycitric acid를 충분히 추출하여 액체크로마토그래프를 통해 분석하는 방법으로 자외부흡광광도검출기를 이용하여 정성 및 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "(-)-thero-Hydroxycitric acid calcium",
+    "(-)-Hydroxycitric acid lactone"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "detection": "210 nm",
+    "mobile_phase": "10 mM 황산용액 / (증류수를 사용하여 pH를 2.4로 조절)",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n검출기 파장 | 210 nm\n이동상 | 10 mM 황산용액 / (증류수를 사용하여 pH를 2.4로 조절)\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 51
+  },
+  {
+   "no": "3-44",
+   "title": "루테인",
+   "summary": "본 시험법은 증류수로 분산시킨 루테인 원료를 에틸아세테이트로 추출하고 에탄올로 희석한 용액을 자외분광광도계 446 nm에서 총 카로티노이드 함량을 구하고 고속액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 446 nm에서 검출하여 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "자외분광광도계(UV/Visible Spectrophotometer)",
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "컬럼오븐"
+   ],
+   "columns": [
+    "silica 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 silica gel, 5μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "루테인(Lutein)Lutein (3R,3\"R,6\"R-β,ε-carotene-3,3'-diol, l-trans-lutein, 5'didehydro-5'6'dihydro-beta, beta-caroene-3,3'diol)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30 ℃",
+    "mobile_phase": "헥산:에틸아세테이트 (70:30)",
+    "detection": "446 nm",
+    "flow": "1.5 mL/분",
+    "분석시간": "25분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 30 ℃\n이동상 | 헥산:에틸아세테이트 (70:30)\n검출기 파장 | 446 nm\n유량 | 1.5 mL/분\n분석시간 | 25분\n[/표]",
+   "n_lines": 68
+  },
+  {
+   "no": "3-45",
+   "title": "아스타잔틴",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-45-1",
+   "title": "아스타잔틴(제1법)",
+   "summary": "본 시험법은 시료를 아세톤으로 녹여 추출하고 cholesterolesterase를 넣어 아스타잔틴에 붙어있는 ester기를 분리시킨 후 정제하여 아세톤으로 녹인 용액을 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법 으로 최대흡수파장인 474nm에서 검출하여 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "자외분광광도계(UV/Visible Spectrophotometer)",
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기"
+   ],
+   "columns": [
+    "YMC Carotenoid 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자 크기 5 ㎛) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "아스타잔틴(Astaxanthin)Astaxanthin(3,3'-Dihydroxy-β,β-carotene-4,4'-dione)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "25℃",
+    "mobile_phase": "A : 메탄올, B : MTBE, C : 1% 인산용액",
+    "flow": "1.0 mL/분",
+    "detection": "474 nm"
+   },
+   "gradient": [
+    "15분 66/30/4 → 23분 16/80/4 → 27분 16/80/4 → 27.1분 81/15/4 → 35분 81/15/4"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼온도 | 25℃\n이동상 | A : 메탄올, B : MTBE, C : 1% 인산용액\n유속 | 1.0 mL/분\n검출기 파장 | 474 nm\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간 | A용액 / (%) | B용액 / (%) | C용액 / (%)\n0 | 81 | 15 | 4\n15 | 66 | 30 | 4\n23 | 16 | 80 | 4\n27 | 16 | 80 | 4\n27.1 | 81 | 15 | 4\n35 | 81 | 15 | 4\n[/표]",
+   "n_lines": 102
+  },
+  {
+   "no": "3-45-2",
+   "title": "아스타잔틴(제2법)",
+   "summary": "본 시험법은 시료 중 아스타잔틴을 아세톤으로 녹여 추출하고 cholesterol esterase를 넣어 아스타잔틴에 붙어있는 ester기를 분리시킨 후 정제하여 이동상으로 녹인 용액을 액체크로마토그래프/자외부흡광광도검출기 및 순상 컬럼을 이용하여 분석하는 방법으로 최대 흡수파장인 474 nm에서 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "자외분광광도계(UV/Visible Spectrophotometer)",
+    "고속액체크로마토그래프",
+    "자외부흡광광도 검출기(UV Detector)"
+   ],
+   "columns": [
+    "Silica 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "아스타잔틴(Astaxanthin)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "25℃",
+    "mobile_phase": "헥산 : 아세톤 (82 : 18)",
+    "detection": "474 nm",
+    "flow": "1.2 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼온도 | 25℃\n이동상 | 헥산 : 아세톤 (82 : 18)\n검출기 파장 | 474 nm\n유속 | 1.2 mL/분\n[/표]",
+   "n_lines": 78
+  },
+  {
+   "no": "3-46",
+   "title": "카테킨",
+   "summary": "본 시험법은 시료 중 카테킨을 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대 흡수파장인 275 nm에서 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기(UV Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐"
+   ],
+   "standards": [
+    "에피갈로카테킨((-)-epigallocatechin, EGC)",
+    "에피갈로카테킨갈레이트((-)-epigallocatechin-gallate, EGCG)",
+    "에피카테킨((-)-epicatechin, EC)",
+    "에피카테킨갈레이트((-)-epicallocatechin-gallate, ECG)분자량 : C22H18O10,"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "275 nm",
+    "temp": "35℃",
+    "mobile_phase": "A : 0.1% 인산용액, B : 0.1% 인산이 함유한 아세토니트릴",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "5분 90/10 → 10분 87/13 → 20분 85/15 → 25분 70/30 → 30분 70/30 → 31분 90/10 → 35분 90/10"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 275 nm\n칼럼 온도 | 35℃\n이동상 | A : 0.1% 인산용액, B : 0.1% 인산이 함유한 아세토니트릴\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 90 | 10\n5 | 90 | 10\n10 | 87 | 13\n20 | 85 | 15\n25 | 70 | 30\n30 | 70 | 30\n31 | 90 | 10\n35 | 90 | 10\n[/표]",
+   "n_lines": 65
+  },
+  {
+   "no": "3-47",
+   "title": "<삭 제>",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-48",
+   "title": "총 플라보노이드",
+   "summary": "본 시험법은 에탄올을 이용하여 시료로부터 플라보노이드계물질을 추출하여 분광광도계를 이용하는 분석법으로, 플라보노이드의 최대 흡수파장인 415 nm에서 흡광도를 측정함으로써 정량하는 방법이다.",
+   "method": "분광광도법",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "퀘르세틴 이수화물(Quercetin dihydrate)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 결과 분석\n5.1.1표준물질의 농도별 흡광도와 각 농도별 공시험의 흡광도의 차를 이용하여 표준물질의 검량선을 작성한다.\n5.1.2시료의 흡광도와 시료의 공시험 흡광도의 차를 검량선에 적용시켜 시료 중 총 플라보노이드의 함량을 구한다.",
+   "n_lines": 51
+  },
+  {
+   "no": "3-49",
+   "title": "파라(ρ)-쿠마르산(Coumaric acid), 계피산(Cinnamic acid)",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-49-1",
+   "title": "파라(ρ)-쿠마르산(Coumaric acid), 계피산(Cinnamic acid)(제1법)",
+   "summary": "본 시험법은 에탄올을 이용하여 시료 중 파라-쿠마르산 및 계피산을 충분히 추출한 후 액체크로마토그래프/자외분광광도검출기를 이용하여 분석하는 방법으로 각각 최대 흡수파장인 310 nm와 280 nm에서 정성 분석한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "파라-쿠마르산(ρ-coumaric acid, trans-4-Hydroxycinnamic acid)",
+    "계피산(Cinnamic acid, trans-3-Phenylacrylic acid)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "310 nm(파라-쿠마르산), 280 nm(계피산)",
+    "temp": "40℃",
+    "mobile_phase": "A : 0.5% 초산용액, B : 메탄올",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "15분 50/50 → 15.01분 0/100 → 25분 0/100 → 25.01분 55/45 → 35분 55/45"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 310 nm(파라-쿠마르산), 280 nm(계피산)\n칼럼 온도 | 40℃\n이동상 | A : 0.5% 초산용액, B : 메탄올\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 55 | 45\n15 | 50 | 50\n15.01 | 0 | 100\n25 | 0 | 100\n25.01 | 55 | 45\n35 | 55 | 45\n[/표]",
+   "n_lines": 53
+  },
+  {
+   "no": "3-49-2",
+   "title": "파라(ρ)-쿠마르산(Coumaric acid) 확인(제2법)",
+   "summary": "본 시험법은 시료 중 파라-쿠마르산을 20% 아세토니트릴에 용해한 후 초음파 추출하여, 액체크로마토그래피/질량검출기/질량검출기를 이용하여 정성 분석하는 방법이다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래피",
+    "질량검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(C18, 안지름 2.1 mm, 길이 50 mm, 충전제 octadecyl silica, 충전입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "파라-쿠마르산(p-Coumaric acid, trans-4-Hydroxycinnamic acid)"
+   ],
+   "conditions": {
+    "mobile_phase": "A용액 : 0.1% 개미산 수용액 / B용액 : 0.1% 개미산이 첨가된 아세토니트릴",
+    "temp": "40℃",
+    "flow": "0.3 mL/분",
+    "injection": "2 μL",
+    "ionization": "ESI, Negative",
+    "Capillary voltage": "1.0 kV",
+    "Corn voltage": "40 V",
+    "Desolvation temperature": "350℃",
+    "ions": "163(precursor ion), 119(fragment ion)"
+   },
+   "gradient": [
+    "0분 80/20 → 0.5분 80/20 → 2분 20/80 → 2.5분 20/80 → 2.6분 80/20 → 4분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 고속액체크로마토그래피/질량검출기/질량검출기\n[표]\n항목 | 조건\n이동상 | A용액 : 0.1% 개미산 수용액 / B용액 : 0.1% 개미산이 첨가된 아세토니트릴\n칼럼온도 | 40℃\n유속 | 0.3 mL/분\n주입량 | 2 μL\n이온화 | ESI, Negative\nCapillary voltage | 1.0 kV\nCorn voltage | 40 V\nDesolvation temperature | 350℃\nMonitor ions(m/z) | 163(precursor ion), 119(fragment ion)\n[/표]\n[표]\n시간(분) | 이 동 상 (%)\nA 용액 (%) | B 용액 (%)\n0 | 80 | 20\n0.5 | 80 | 20\n2 | 20 | 80\n2.5 | 20 | 80\n2.6 | 80 | 20\n4 | 80 | 20\n[/표]",
+   "n_lines": 59
+  },
+  {
+   "no": "3-49-3",
+   "title": "계피산(Cinnamic acid) 확인(제2법)",
+   "summary": "본 시험법은 시료 중 계피산을 20% 아세토니트릴에 용해한 후 초음파 추출하고, 액체크로마토그래프/질량검출기/질량검출기를 이용하여 정성 분석 한다.",
+   "method": "HPLC",
+   "instruments": [
+    "액체크로마토그래프",
+    "질량검출기(Mass Selective Detector)"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충전제 octadecyl silica, 충전입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "계피산(Cinnamic acid, trans-3-Phenylacrylic acid)"
+   ],
+   "conditions": {
+    "mobile_phase": "A: 0.1 % 개미산용액 / B: 0.1 % 개미산을 함유한 아세토니트릴",
+    "temp": "40℃",
+    "flow": "0.3 mL/분",
+    "injection": "2 μL",
+    "ionization": "ESI, Positive",
+    "Capillary voltage": "3.0 kV",
+    "Cone voltage": "26 V",
+    "Desolvation temperature": "350℃",
+    "ions": "149(precursor ion), 103, 77(product ion)"
+   },
+   "gradient": [
+    "0분 80/20 → 0.1분 80/20 → 3분 5/95 → 4분 5/95 → 4.1분 80/20 → 6분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 액체크로마토그래프/질량검출기/질량검출기\n[표]\n항목 | 조건\n이동상 | A: 0.1 % 개미산용액 / B: 0.1 % 개미산을 함유한 아세토니트릴\n칼럼온도 | 40℃\n유속 | 0.3 mL/분\n주입량 | 2 μL\n이온화 | ESI, Positive\nCapillary voltage | 3.0 kV\nCone voltage | 26 V\nDesolvation temperature | 350℃\nMonitor ions(m/z) | 149(precursor ion), 103, 77(product ion)\n[/표]\n[표]\n시간(분) | 이동상(%)\nA | B\n0 | 80 | 20\n0.1 | 80 | 20\n3 | 5 | 95\n4 | 5 | 95\n4.1 | 80 | 20\n6 | 80 | 20\n[/표]",
+   "n_lines": 52
+  },
+  {
+   "no": "3-50",
+   "title": "다이드제인 및 제니스테인",
+   "summary": "본 시험법은 메탄올로 시료를 추출하고, 옥타데실실릴화한 칼럼을 통하여 다이드제인과 제니스테인을 분석하는 방법으로, 다이드제인과 제니스테인의 흡수파장인 260 nm에서 정량한다.",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "다이드제인(Daidzein)",
+    "Genistein(Genistein)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "detection": "260 nm",
+    "temp": "40℃",
+    "mobile_phase": "A : 2% 초산용액 / B : 2% 초산용액이 함유된 메탄올",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "20분 40/60 → 21분 0/100 → 35분 0/100 → 36분 60/40 → 50분 60/40"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n검출기 파장 | 260 nm\n칼럼 온도 | 40℃\n이동상 | A : 2% 초산용액 / B : 2% 초산용액이 함유된 메탄올\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 60 | 40\n20 | 40 | 60\n21 | 0 | 100\n35 | 0 | 100\n36 | 60 | 40\n50 | 60 | 40\n[/표]",
+   "n_lines": 64
+  },
+  {
+   "no": "3-51",
+   "title": "총 모나콜린 K",
+   "summary": "본 시험법은 75% 에탄올과 초음파 처리를 이용하여 시료 중 모나콜린 K를 충분히 추출하여 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석 하는 방법으로 최대 흡수파장인 237 nm에서 정량분석을 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐",
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자 크기 5 ㎛, 충전제 octadecyl silica) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(안지름 4.6mm, 길이 150mm, 충전제 Octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "비활성형 모나콜린 K(mevinolin, lovastatin)",
+    "활성형 모나콜린 K(mevinolin sodium salt, lovastatin hydroxy acid sodium salt)",
+    "코엔자임Q10(Coenzyme Q10, Ubiquinone, Ubidecarenone)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "detection": "237 nm",
+    "temp": "40℃",
+    "mobile_phase": "A : 0.2% 인산용액, B : 아세토니트릴",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "20분 25/75 → 21분 0/100 → 35분 0/100 → 36분 65/35 → 50분 65/35"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n검출기 파장 | 237 nm\n칼럼 온도 | 40℃\n이동상 | A : 0.2% 인산용액, B : 아세토니트릴\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 65 | 35\n20 | 25 | 75\n21 | 0 | 100\n35 | 0 | 100\n36 | 65 | 35\n50 | 65 | 35\n[/표]",
+   "n_lines": 123
+  },
+  {
+   "no": "3-53",
+   "title": "대두이소플라본",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-53-1",
+   "title": "이소플라본(제1법)",
+   "summary": "본 시험법은 80% 메탄올을 이용하여 시료 중 이소플라본을 추출하고 액체크로마토그래프/자외부흡광광도검출기(최대흡수파장 260 nm) 또는 액체크로마토그래프/질량검출기/질량검출기를 이용하여 이소플라본 중 배당체 및 비배당체를 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량검출기/질량검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충전제 Octadecyl silica, 충전입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "다이드진(Daidzin)",
+    "글리시틴(Glycitin)",
+    "제니스틴(Genistin)",
+    "다이드제인(Daidzein)",
+    "제니스테인(Genistein)",
+    "글리시테인(Glycitein)"
+   ],
+   "conditions": {
+    "injection": "5 μL",
+    "temp": "40℃",
+    "mobile_phase": "A : 0.1% 초산용액 / B: 0.1% 초산을 함유한 메탄올 / 시간(분) / 이동상(%) / A / B / 0 / 80 / 20 / 15 / 50 / 25 / 30 / 70",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0": "80 20",
+    "15": "50 50",
+    "25": "30 70",
+    "30": "80 20",
+    "detection": "260 nm",
+    "flow": "1.0 mL/분",
+    "5.0": "5 95",
+    "5.5": "95 5",
+    "6.0": "95 5",
+    "ionization": "ESI, positive",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "120℃",
+    "Desolvation Temp.": "350℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 5 μL\n칼럼온도 | 40℃\n이동상 | A : 0.1% 초산용액 / B: 0.1% 초산을 함유한 메탄올 / 시간(분) / 이동상(%) / A / B / 0 / 80 / 20 / 15 / 50 / 25 / 30 / 70\n시간(분) | 이동상(%)\nA | B\n0 | 80 | 20\n15 | 50 | 50\n25 | 30 | 70\n30 | 80 | 20\n검출기 파장 | 260 nm\n유량 | 1.0 mL/분\n[/표]\n표 2. 액체크로마토그래프/질량검출기/질량검출기 조건(예)\n[표]\n항목 | 조건\n주입량 | 2 μL\n유량 | 0.3 mL/분\n칼럼온도 | 40℃\n이동상 | A : 0.1% 개미산용액 / B: 0.1% 개미산을 함유한 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 95 / 5 / 5.0 / 5.5 / 6.0\n시간(분) | 이동상(%)\nA | B\n0 | 95 | 5\n5.0 | 5 | 95\n5.5 | 95 | 5\n6.0 | 95 | 5\n이온화 | ESI, positive\nCapillary Voltage | 3.5 kV\nSource Temp. | 120℃\nDesolvation Temp. | 350℃\n[/표]\n표 3. 질량검출기 분석을 위한 이온\n[표]\n성분 | Precursor ion(m/z) | Product ion(m/z) | Cone(V)\nDaidzin | 417 | 255 | 25\nGlycitin | 447 | 285 | 25\nGenistin | 433 | 271 | 30\nDaidzein | 255 | 199, 137 | 30\nGlycitein | 285 | 242, 270 | 50\nGenistein | 271 | 153, 149 | 25\n[/표]",
+   "n_lines": 98
+  },
+  {
+   "no": "3-53-2",
+   "title": "이소플라본(제2법)",
+   "summary": "본 시험법은 시료에 존재하는 아세틸과 말로닐 이소플라본을 염기성가수 분해하여 아세틸기와 말로닐기가 제거된 이소플라본으로 전환시켜 함께 정량할 수 있는 방법으로, 액체크로마토그래프/자외부흡광광도검출기(최대 흡수파장 260 nm) 또는 액체크로마토그래프/질량검출기/질량검출기를 이용 하여 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량검출기/질량검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충전제 Octadecyl silica, 충전입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "다이드진(Daidzin)",
+    "글리시틴(Glycitin)",
+    "제니스틴(Genistin)",
+    "다이드제인(Daidzein)",
+    "제니스테인(Genistein)",
+    "글리시테인(Glycitein)"
+   ],
+   "conditions": {
+    "injection": "5 μL",
+    "temp": "40℃",
+    "mobile_phase": "A : 0.1% 초산용액 / B: 0.1% 초산을 함유한 메탄올 / 시간(분) / 이동상(%) / A / B / 0 / 80 / 20 / 15 / 50 / 25 / 30 / 70",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0": "80 20",
+    "15": "50 50",
+    "25": "30 70",
+    "30": "80 20",
+    "detection": "260 nm",
+    "flow": "1.0 mL/분",
+    "5.0": "5 95",
+    "5.5": "95 5",
+    "6.0": "95 5",
+    "ionization": "ESI, positive",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "120℃",
+    "Desolvation Temp.": "350℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 액체크로마토그래프 조건(예)\n[표]\n항목 | 조건\n주입량 | 5 μL\n칼럼온도 | 40℃\n이동상 | A : 0.1% 초산용액 / B: 0.1% 초산을 함유한 메탄올 / 시간(분) / 이동상(%) / A / B / 0 / 80 / 20 / 15 / 50 / 25 / 30 / 70\n시간(분) | 이동상(%)\nA | B\n0 | 80 | 20\n15 | 50 | 50\n25 | 30 | 70\n30 | 80 | 20\n검출기 파장 | 260 nm\n유량 | 1.0 mL/분\n[/표]\n표 2. 액체크로마토그래프/질량분석기/질량분석기 조건(예)\n[표]\n항목 | 조건\n주입량 | 2 μL\n유량 | 0.3 mL/분\n칼럼온도 | 40℃\n이동상 | A : 0.1% 개미산용액 / B: 0.1% 개미산을 함유한 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 95 / 5 / 5.0 / 5.5 / 6.0\n시간(분) | 이동상(%)\nA | B\n0 | 95 | 5\n5.0 | 5 | 95\n5.5 | 95 | 5\n6.0 | 95 | 5\n이온화 | ESI, positive\nCapillary Voltage | 3.5 kV\nSource Temp. | 120℃\nDesolvation Temp. | 350℃\n[/표]\n표 3. 질량검출기 분석을 위한 이온\n[표]\n성분 | Precursor ion(m/z) | Product ion(m/z)\nDaidzin | 417 | 255\nGlycitin | 447 | 285\nGenistin | 433 | 271\nDaidzein | 255 | 199, 137\nGlycitein | 285 | 242, 270\nGenistein | 271 | 153, 149\n[/표]",
+   "n_lines": 103
+  },
+  {
+   "no": "3-54",
+   "title": "진세노사이드",
+   "summary": "본 시험법은 증류수 및 유기용매를 이용하여 시료로부터 진세노사이드 성분을 추출한 후 액체크로마토그래프/자외부흡광광도검출기 또는 액체크로마토 그래프/질량분석기/질량분석기를 이용하여 정량한다.",
+   "method": "HPLC-UV / LC-MS/MS",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "질량분석기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전 입자크기 5 μm, 충전제 octadecyl silica) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충전 입자크기 1.7 µm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "진세노사이드 Rb1(ginsenoside Rb1)",
+    "진세노사이드 Rg1(ginsenoside Rg1)",
+    "진세노사이드 Rg3(S)(ginsenoside Rg3(S))"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "203 nm",
+    "temp": "30℃",
+    "mobile_phase": "A : 증류수, B : 아세토니트릴",
+    "flow": "1.0 mL/분",
+    "ionization": "ESI, Negative",
+    "ions": "Rg1: 799(precursor ion), / 161, 475, 637(product ion) / Rb1: 1,107(precursor ion), 179(product ion) / Rg3: 783(precursor ion), / 101, 161, 621(product ion)"
+   },
+   "gradient": [
+    "0분 80/20 → 5분 80/20 → 20분 77/23 → 25분 70/30 → 45분 60/40 → 55분 50/50 → 65분 50/50 → 70분 80/20 → 75분 80/20",
+    "0분 80/20 → 0.1분 80/20 → 12분 20/80 → 13분 0/100 → 13.1분 80/20 → 15분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 액체크로마토그래프 측정 조건\n표 1. 고속액체크로마토그래프 조건\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 203 nm\n칼럼 온도 | 30℃\n이동상 | A : 증류수, B : 아세토니트릴\n유속 | 1.0 mL/분\n[/표]\n[표]\n시간(분) | 이동상(%)\nA 용액 | B 용액\n0 | 80 | 20\n5 | 80 | 20\n20 | 77 | 23\n25 | 70 | 30\n45 | 60 | 40\n55 | 50 | 50\n65 | 50 | 50\n70 | 80 | 20\n75 | 80 | 20\n[/표]\n5.1.2 액체크로마토그래프/질량분석기/질량분석기 측정 조건\n표 3. 고속액체크로마토그래프/질량분석기/질량분석기 조건(예)\n[표]\n항목 | 조건\n주입량 | 1 μL\n유속 | 0.3 mL/분\n칼럼온도 | 40℃\n이동상 | A : 증류수, B : 아세토니트릴\n이온화 | ESI, Negative\nMonitor ions / (m/z) | Rg1: 799(precursor ion), / 161, 475, 637(product ion) / Rb1: 1,107(precursor ion), 179(product ion) / Rg3: 783(precursor ion), / 101, 161, 621(product ion)\n[/표]\n표 4. 이동상 조건(예)\n[표]\n시간(분) | 이동상(%)\nA 용액 | B 용액\n0 | 80 | 20\n0.1 | 80 | 20\n12 | 20 | 80\n13 | 0 | 100\n13.1 | 80 | 20\n15 | 80 | 20\n[/표]",
+   "n_lines": 106
+  },
+  {
+   "no": "3-55",
+   "title": "총 엽록소",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-55-1",
+   "title": "총 엽록소(제1법)",
+   "summary": "본 시험법은 엽록소를 알칼리성 피리딘을 이용하여 충분히 추출하여 비색법 으로 분석하는 방법으로, 최대 흡광파장인 419 nm와 454 nm에서 총 엽록소를 정량한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "수산화나트륨(Sodium hydroxide)",
+    "피리딘(Pyridine)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1 엽록소(mg/100g) = C/S × 100\nC : 엽록소(mg/L)=8.970 × (7.19 E419nm + 3.33 E454nm)\nS : 용액 2 mL에 함유된 시료의 양(mg)",
+   "n_lines": 32
+  },
+  {
+   "no": "3-55-2",
+   "title": "총 엽록소(제2법)",
+   "summary": "본 시험법은 시료로부터 85% 아세톤을 이용하여 엽록소를 충분히 추출하여 비색법으로 분석하는 방법으로, 최대 흡광파장인 660 nm와 642.5 nm에서 총 엽록소를 정량한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "아세톤(Acetone)",
+    "에틸에테르(Ethyl ether)",
+    "황산나트륨(Sodium sulfate)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 분석\n5.1.1에틸에테르를 대조액으로 액층 1 cm, 파장 642.5 nm와 660 nm에서 흡광도를 측정한다.",
+   "n_lines": 39
+  },
+  {
+   "no": "3-56",
+   "title": "총 페오포르바이드",
+   "summary": "본 시험법은 시료로부터 인산완충용액 및 아세톤 등을 이용하여 충분히 페오포르바이드를 추출하여 비색법으로 분석하는 방법으로, 최대 흡수파장인 667 nm에서 흡광도를 측정함으로써 정량한다.",
+   "method": "",
+   "instruments": [
+    "분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "아세톤(Acetone)",
+    "에틸에테르(Ethyl ether)",
+    "염산(Hydrochloric acid)",
+    "황산나트륨(Sodium sulfate)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 분석\n5.1.1에틸에테르를 사용하여 시험용액을 필요한 농도로 정확하게 희석하여 667 nm의 파장에서 흡광도를 측정한다.",
+   "n_lines": 40
+  },
+  {
+   "no": "3-57",
+   "title": "유산균수",
+   "summary": "본 시험법은 시료에 함유된 유산균을 MRS 배지 또는 BL 배지를 사용하여 배양하는 방법으로 배양 후 유산균의 집락을 계수한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "에탄올(Ethanol)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 64
+  },
+  {
+   "no": "3-58",
+   "title": "유산간·구균 및 비피더스균",
+   "summary": "본 시험법은 유산간･구균과 비피더스균을 구분하여 산정해야 하는 경우에 한하며, 유산간･구균은 BCP첨가 평판측정용배지를 사용하고 비피더스균은 TOS-MUP 배지를 사용한 시험방법에 따라 시험한 후 산출한다.",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [
+    "에탄올(Ethanol)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 58
+  },
+  {
+   "no": "3-59",
+   "title": "총 폴리페놀",
+   "summary": "본 시험법은 시료 중 총 폴리페놀 함량을 구하는 방법으로 시료를 증류수에 용해하고 초음파 추출한 후 발색시약과 반응시켜 분광광도계를 사용하여 파장 760 nm에서 측정한 후, 비타민 C 함량을 제외한 값으로 정량 분석한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "자외분광광도계(UV/Visible Spectrophotometer)"
+   ],
+   "columns": [],
+   "standards": [
+    "탄닌산(Tannic acid)"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 결과 분석\n5.1.1표준물질의 농도별 흡광도와 공시험 흡광도의 차를 이용하여 표준물질의 검량선을 작성한다.\n5.1.2 시료의 흡광도와 공시험 흡광도의 차를 이용하여 정량한다.\n5.1.3비타민 C가 총 폴리페놀 함량에 간섭하는 양을 보정하기 위해 시료 중 비타민 C의 함량을 「건강기능식품의 기준 및 규격」 중 제 4. 건강기능식품시험법 3-14 비타민 C(제3법)에 따라 미리 분석한다.",
+   "n_lines": 47
+  },
+  {
+   "no": "3-60",
+   "title": "코로솔산(Corosolic acid)",
+   "summary": "본 시험법은 시료 중 코로솔산을 메탄올 용액으로 초음파 추출하여 액체크로마토그래피/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 210 nm에서 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래피"
+   ],
+   "columns": [],
+   "standards": [
+    "코로솔산(Corosolic acid)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "30℃",
+    "mobile_phase": "1% 인산 : 아세토니트릴 (30 : 70)",
+    "flow": "1.0 mL/분",
+    "detection": "210 nm"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래피 조건(예)\n[표]\n항목 | 조건\n주입량 | 20 μL\n컬럼온도 | 30℃\n이동상 | 1% 인산 : 아세토니트릴 (30 : 70)\n유속 | 1.0 mL/분\n검출기 파장 | 210 nm\n[/표]",
+   "n_lines": 48
+  },
+  {
+   "no": "3-61",
+   "title": "플라보놀 배당체(Flavonol glycoside)",
+   "summary": "본 시험법은 시료 중 플라보놀 배당체(켐페롤, 퀘르세틴, 이소람네틴의 합)를 가수 분해시킨 후 액체크로마토그래피/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 370 nm에서 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래피"
+   ],
+   "columns": [],
+   "standards": [
+    "퀘르세틴 이수화물(Quercetin dihydrate)",
+    "켐페롤(Kaempferol)",
+    "이소람네틴(Isorhamnetin)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "370 nm",
+    "temp": "35℃",
+    "mobile_phase": "0.1% 인산을 함유한 아세토니트릴 : 0.1% 인산용액 = 40 : 60",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래피 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n검출기 파장 | 370 nm\n컬럼온도 | 35℃\n이동상 | 0.1% 인산을 함유한 아세토니트릴 : 0.1% 인산용액 = 40 : 60\n유속 | 1.0 mL/분\n[/표]",
+   "n_lines": 61
+  },
+  {
+   "no": "3-62",
+   "title": "깅콜릭산(Ginkgolic acid)",
+   "summary": "본 시험법은 시료 중 깅콜릭산(깅콜릭산 C13:0, C15:1, C17:1의 합)을 50% 에탄올과 클로로포름을 이용하여 2회 추출 후 클로로포름 층을 감압 농축한 것을 액체크로마토그래프/자외부흡광광도검출기(최대흡수파장 210 nm) 또는 액체크로마토그래프/질량검출기/질량검출기를 이용하여 정량 분석하는 방법이다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량검출기/질량검출기"
+   ],
+   "columns": [
+    "C8 칼럼(안지름 4.6 mm, 길이 150 mm, 충전입자크기 5 μm, 전처리 칼럼) 또는 이와 동등한 것",
+    "C18 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 μm, 분석칼럼) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(C18, 안지름 2.1 mm, 길이 100 mm, 충전입자크기 1.7 μm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "깅콜릭산 C15:1(Ginkgolic acid C15:1)",
+    "깅콜릭산 C17:1(Ginkgolic acid C17:1)",
+    "깅콜릭산 C13 : 0(Ginkgolic acid C13:0)"
+   ],
+   "conditions": {
+    "injection": "50 μL",
+    "detection": "210 nm",
+    "temp": "40℃",
+    "mobile_phase": "전처리용매 : 0.1% 인산을 함유한 70% 아세토니트릴 / 분석용매 : 이동상 A - 0.1% 인산 / 이동상 B – 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 30 / 70 / 4 / 5 / 95 / 32 / 32.1 / 40",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0": "30 70",
+    "4": "30 70",
+    "30": "5 95",
+    "32": "5 95",
+    "32.1": "30 70",
+    "40": "30 70",
+    "flow": "1.0 mL/분",
+    "분석 시간": "40 분",
+    "0.33": "30 70",
+    "5.43": "20 80",
+    "8.26": "20 80",
+    "8.32": "30 70",
+    "10": "30 70",
+    "ionization": "ESI, Negative",
+    "Capillary Voltage": "3.5 kV",
+    "Source Temp.": "150℃",
+    "Desolvation Temp.": "200℃"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 50 μL\n검출기 파장 | 210 nm\n칼럼 온도 | 40℃\n이동상 | 전처리용매 : 0.1% 인산을 함유한 70% 아세토니트릴 / 분석용매 : 이동상 A - 0.1% 인산 / 이동상 B – 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 30 / 70 / 4 / 5 / 95 / 32 / 32.1 / 40\n시간(분) | 이동상(%)\nA | B\n0 | 30 | 70\n4 | 30 | 70\n30 | 5 | 95\n32 | 5 | 95\n32.1 | 30 | 70\n40 | 30 | 70\n유속 | 1.0 mL/분\n분석 시간 | 40 분\n[/표]\n[표]\n항 목 | 조 건\n주입량 | 2 μL\n유속 | 0.53 mL/분\n칼럼온도 | 40℃\n이동상 | A - 0.1% 개미산용액 / B - 아세토니트릴 / 시간(분) / 이동상(%) / A / B / 0 / 30 / 70 / 0.33 / 5.43 / 20 / 80 / 8.26 / 8.32 / 10\n시간(분) | 이동상(%)\nA | B\n0 | 30 | 70\n0.33 | 30 | 70\n5.43 | 20 | 80\n8.26 | 20 | 80\n8.32 | 30 | 70\n10 | 30 | 70\n이온화 | ESI, Negative\nCapillary Voltage | 3.5 kV\nSource Temp. | 150℃\nDesolvation Temp. | 200℃\n[/표]\n[표]\n성분 | Precursor ion(m/z) | Product ion(m/z) | Cone(V)\nGingkolic Acid C13:0 | 319 | 119, 133, 275 | 25\nGingkolic Acid C15:1 | 345 | 119, 133, 301 | 25\nGingkolic Acid C17:1 | 373 | 119, 133, 329 | 30\n[/표]",
+   "n_lines": 96
+  },
+  {
+   "no": "3-63",
+   "title": "실리마린(Silymarin)",
+   "summary": "본 시험법은 시료 중 실리마린의 함량을 액체크로마토그래피/자외부흡광 광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 288 nm에서 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래피"
+   ],
+   "columns": [],
+   "standards": [
+    "실리크리스틴",
+    "실리디아닌",
+    "실리빈A",
+    "실리빈B",
+    "이소실리빈A",
+    "이소실리빈B"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "35℃",
+    "mobile_phase": "A: 메탄올 : 증류수 : 인산 (20:80:0.5, v/v/v)",
+    "flow": "1.0 mL/분",
+    "detection": "288 nm"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래피 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 20 μL\n컬럼온도 | 35℃\n이동상 | A: 메탄올 : 증류수 : 인산 (20:80:0.5, v/v/v)\nB: 메탄올 : 증류수 : 인산 (80:20:0.5, v/v/v)\n유속 | 1.0 mL/분\n검출기 파장 | 288 nm\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | 이동상(%)\nA | B\n0 / 5 / 20 / 40 / 41 / 55 | 85 / 55 | 15 / 45\n[/표]",
+   "n_lines": 60
+  },
+  {
+   "no": "3-64",
+   "title": "PGG(Penta-Ο-galloyl beta-D-glucose)",
+   "summary": "본 시험법은 메탄올을 이용하여 시료 중 PGG을 추출하고 액체크로마토 그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대 흡수 파장인 280 nm에서 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "옥타데실실릴화한 컬럼(4.6 x 250 mm, 5 ㎛) 또는 이와 동등한 것"
+   ],
+   "columns": [],
+   "standards": [
+    "PGG(Penta-O-galloyl beta-D-glucose, 1,2,3,4,6-Penta-O-galloyl-b-D-gluco-pyranose)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "A: 증류수 : 초산 (99.7:0.3, v/v)",
+    "flow": "1.0 mL/분",
+    "detection": "280 nm"
+   },
+   "gradient": [
+    "15분 80/20 → 20분 50/50 → 25분 50/50 → 25.1분 85/15 → 30분 85/15"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n컬럼온도 | 40℃\n이동상 | A: 증류수 : 초산 (99.7:0.3, v/v)\nB: 아세토니트릴 : 증류수 : 초산 (94.7:5:0.3, v/v)\n유속 | 1.0 mL/분\n검출기 파장 | 280 nm\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | 이동상(%)\nA | B\ninitial | 85 | 15\n15 | 80 | 20\n20 | 50 | 50\n25 | 50 | 50\n25.1 | 85 | 15\n30 | 85 | 15\n[/표]",
+   "n_lines": 60
+  },
+  {
+   "no": "3-65",
+   "title": "포스파티딜세린",
+   "summary": "본 시험법은 지용성 물질인 포스파티딜세린 화합물을 선택적으로 분리하여 분석하는 방법으로 고속액체크로마토그래피/광산란검출기를 이용하여 정량 분석한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래피",
+    "광산란검출기(ELSD)"
+   ],
+   "columns": [],
+   "standards": [
+    "포스파티딜세린(L-α-diacyl phosphatidylserine)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "40℃",
+    "mobile_phase": "A: Hexane : IPA : Aectic acid : Triethylamine / (2000:425:37.5:2, v/v/v/v)",
+    "flow": "1.0 mL/분",
+    "detection": "Drift tube Temp. : 90℃",
+    "Nebulizer gas flow rate": ": 1.9 mL/min"
+   },
+   "gradient": [
+    "5분 95/5 → 15분 70/30 → 18분 20/80 → 19분 95/5 → 30분 95/5"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 20 μL\n컬럼온도 | 40℃\n이동상 | A: Hexane : IPA : Aectic acid : Triethylamine / (2000:425:37.5:2, v/v/v/v)\nB: IPA : Water : Aectic acid : Triethylamine / (2110:350:37.5:2, v/v/v/v)\n유속 | 1.0 mL/분\n광산란 검출기 | Drift tube Temp. | : 90℃\nNebulizer gas flow rate | : 1.9 mL/min\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | 이동상(%)\nA | B\ninitial | 95 | 5\n5 | 95 | 5\n15 | 70 | 30\n18 | 20 | 80\n19 | 95 | 5\n30 | 95 | 5\n[/표]",
+   "n_lines": 61
+  },
+  {
+   "no": "3-66",
+   "title": "테아닌(L-theanine)",
+   "summary": "본 시험법은 카테킨의 전구물질인 L-테아닌을 선택적으로 분리하여 분석하는 방법으로 액체크로마토그래프/자외부흡광광도검출기를 이용하여 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프"
+   ],
+   "columns": [],
+   "standards": [
+    "L-테아닌 (L-theanine)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "203 nm",
+    "temp": "35℃",
+    "flow": "1.0 mL/min",
+    "mobile_phase": "A : 증류수 B : 아세토니트릴",
+    "시간(분)": "이동상(%)",
+    "A": "B",
+    "0.0": "98 2",
+    "10.0": "98 2",
+    "10.1": "20 80",
+    "15.0": "20 80",
+    "15.1": "98 2",
+    "20.0": "98 2"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n검출기 파장 | 203 nm\n컬럼온도 | 35℃\n유속 | 1.0 mL/min\n이동상 | A : 증류수 B : 아세토니트릴\n시간(분) / 이동상(%) / A / B / 0.0 / 98 / 2 / 10.0 / 10.1 / 20 / 80 / 15.0 / 15.1 / 20.0\n시간(분) | 이동상(%)\nA | B\n0.0 | 98 | 2\n10.0 | 98 | 2\n10.1 | 20 | 80\n15.0 | 20 | 80\n15.1 | 98 | 2\n20.0 | 98 | 2\n[/표]",
+   "n_lines": 51
+  },
+  {
+   "no": "3-67",
+   "title": "엠에스엠(MSM)",
+   "summary": "본 시험법은 메탄올을 이용하여 시료 중 엠에스엠을 추출하고 가스크로마토 그래피/불꽃이온화검출기를 이용하여 정량분석 한다.",
+   "method": "GC-FID",
+   "instruments": [
+    "가스크로마토그래피",
+    "불꽃이온화검출기(Flame Ionization Detector)"
+   ],
+   "columns": [],
+   "standards": [
+    "엠에스엠(Methylsulfonylmethane, Methyl sulfone)"
+   ],
+   "conditions": {
+    "inlet_temp": "250 ℃",
+    "temp": "60 ℃(4분)→(8 ℃/분)→120 ℃→220 ℃",
+    "detection": "300 ℃",
+    "carrier_gas": "질소, 1.0 mL/분",
+    "injection": "1 μL",
+    "Split ratio": "25 : 1"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 가스크로마토그래피 조건(예)\n[표]\n항목 | 조건\n주입부 온도 | 250 ℃\n칼럼 온도 | 60 ℃(4분)→(8 ℃/분)→120 ℃→220 ℃\n검출기 온도 | 300 ℃\n캐리어 가스 및 유량 | 질소, 1.0 mL/분\n주입량 | 1 μL\nSplit ratio | 25 : 1\n[/표]",
+   "n_lines": 41
+  },
+  {
+   "no": "3-68",
+   "title": "폴리감마글루탐산",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [],
+   "standards": [],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "",
+   "n_lines": 0
+  },
+  {
+   "no": "3-68-1",
+   "title": "폴리글루탐산(제1법)",
+   "summary": "본 시험법은 시료 중 폴리감마글루탐산을 산으로 가수분해한 후 아미노산 자동분석기 또는 고속액체크로마토그래피/질량검출기/질량검출기를 이용하여 정량 분석하는 방법이다.",
+   "method": "HPLC",
+   "instruments": [
+    "아미노산 자동분석기",
+    "고속액체크로마토그래피"
+   ],
+   "columns": [
+    "이온 교환 칼럼으로 HR NA 칼럼(안지름 4.6 mm, 길이 200 mm, 유리아미노산 분석용) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼 (C18, 안지름 2.1 mm, 길이 50 mm, 충진입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "L-글루탐산(L-glutamic acid)"
+   ],
+   "conditions": {
+    "injection": "20 uL",
+    "temp": "38~78℃",
+    "detection": "570 nm",
+    "완충액": "0.35 mL/min",
+    "반응액": "닌히드린 시약 : 0.30 mL/min",
+    "반응기온도": "135℃",
+    "mobile_phase": "A용액 : 0.1% 개미산 / B용액 : 메탄올",
+    "flow": "0.4 mL/min",
+    "ionization": "ESI, Positive",
+    "분석모드": "MRM",
+    "Capillary voltage": "4.0 kV",
+    "Corn voltage": "20 V",
+    "Desolvation temperature": "350℃",
+    "ions": "148(precursor), 84, 130(product)"
+   },
+   "gradient": [
+    "0분 98/2 → 2분 98/2 → 3분 5/95 → 4분 5/95 → 4.1분 95/5 → 5분 95/5"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 아미노산 자동분석기\n[표]\n항 목 | 조 건\n주입량 | 20 uL\n칼럼온도 | 38~78℃\n흡광검출기 파장 | 570 nm\n완충액 | 0.35 mL/min\n반응액 | 닌히드린 시약 : 0.30 mL/min\n반응기온도 | 135℃\n[/표]\n5.1.2 고속액체크로마토그래피/질량검출기/질량검출기\n[표]\n항 목 | 조 건\n이동상 | A용액 : 0.1% 개미산 / B용액 : 메탄올\n칼럼온도 | 35℃\n유속 | 0.4 mL/min\n주입량 | 1 μL\n이온화 | ESI, Positive\n분석모드 | MRM\nCapillary voltage | 4.0 kV\nCorn voltage | 20 V\nDesolvation temperature | 350℃\nMonitor ions(m/z) | 148(precursor), 84, 130(product)\n[/표]\n[표]\n시간(분) | 이 동 상 (%)\nA 용액 (%) | B 용액 (%)\n0 | 98 | 2\n2 | 98 | 2\n3 | 5 | 95\n4 | 5 | 95\n4.1 | 95 | 5\n5 | 95 | 5\n[/표]",
+   "n_lines": 106
+  },
+  {
+   "no": "3-68-2",
+   "title": "폴리글루탐산(제2법)",
+   "summary": "본 시험법은 시료 중 폴리감마글루탐산을 산으로 가수분해하고 글루탐산을 유도체화한 후 최대흡수파장인 338 nm에서 고속액체크로마토그래프/ 자외부흡광광도검출기를 이용하여 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기(UV Detector)"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "L-글루탐산(L-glutamic acid)"
+   ],
+   "conditions": {
+    "mobile_phase": "A: 20 mM Na2HPO4(20 mM NaH2PO4로 조정, pH 7.8) : / B: 90% 아세토니트릴 = (82 : 18)",
+    "detection": "338 nm",
+    "flow": "0.7 mL/분",
+    "temp": "40℃",
+    "injection": "10 μL"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n이동상 | A: 20 mM Na2HPO4(20 mM NaH2PO4로 조정, pH 7.8) : / B: 90% 아세토니트릴 = (82 : 18)\n검출기 파장 | 338 nm\n유속 | 0.7 mL/분\n칼럼온도 | 40℃\n주입량 | 10 μL\n[/표]",
+   "n_lines": 73
+  },
+  {
+   "no": "3-69",
+   "title": "히알루론산",
+   "summary": "본 시험법은 시료로부터 추출한 히알루론산을 콘드로이티나아제 ABC를 이용하여 특이적으로 분해시켜 얻은 이당류를 액체크로마토그래프를 사용 하여 분석하는 방법이다. 음이온을 가진 이들 분해산물을 음이온교환수지 칼럼을 이용하여 232 nm에서 정량 분석한다.",
+   "method": "HPLC",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 강염기성의 암모늄이온 교환수지로 코팅된 실리카겔), Hypersil GOLD SAX 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Hyaluronic acid sodium salt(Poly(β-glucuronic acid-[1→3]- β-N-acetylglucosamine-[1→4]), alternating)"
+   ],
+   "conditions": {
+    "injection": "10 uL",
+    "temp": "40℃",
+    "mobile_phase": "0.01 M NaCl(pH 3.5)",
+    "detection": "232 nm",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 10 uL\n칼럼온도 | 40℃\n이동상 | 0.01 M NaCl(pH 3.5)\n검출기 파장 | 232 nm\n유량 | 1.0 mL/min\n[/표]",
+   "n_lines": 59
+  },
+  {
+   "no": "3-70",
+   "title": "로사빈",
+   "summary": "본 시험법은 시료 중 로사빈을 메탄올 용액으로 초음파로 추출 한 후 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장인 250 nm에서 정량 분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "로사빈(Rosavin)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30℃",
+    "mobile_phase": "A : Distilled water, B : Acetonitrile",
+    "detection": "250 nm",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [
+    "0분 80/20 → 15분 80/20 → 20분 30/70 → 25분 30/70 → 30분 80/20 → 40분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n칼럼온도 | 30℃\n이동상 | A : Distilled water, B : Acetonitrile\n검출기 파장 | 250 nm\n유량 | 1.0 mL/min\n[/표]\n[표]\n분 | 이동상(%)\nA(Distilled water) | B(Acetonitrile)\n0 | 80 | 20\n15 | 80 | 20\n20 | 30 | 70\n25 | 30 | 70\n30 | 80 | 20\n40 | 80 | 20\n[/표]",
+   "n_lines": 56
+  },
+  {
+   "no": "3-71",
+   "title": "안토시아노사이드",
+   "summary": "본 시험법은 시료 중 안토시아노사이드를 염산을 이용하여 안토시아니딘으로 분해한 후 분광광도기로 분석하는 방법으로 540 nm의 파장으로 흡광도를 구하여 정량 분석한다.",
+   "method": "분광광도법",
+   "instruments": [
+    "자외분광광도계"
+   ],
+   "columns": [],
+   "standards": [
+    "안토시아니딘의 함량이 알려진 바키늄미르틸루스엑스"
+   ],
+   "conditions": {},
+   "gradient": [],
+   "analysis_text": "5.1 계산\n5.1.1총 안토시아노사이드의 함량(mg/g)\n[표]\n= 표준품의 안토시아니딘 양(mg) | × | AT | × | 1.475 | × | 1 | × | 1,000\nAS | S\n[/표]\nAT : 시험용액의 흡광도\nAS : 표준용액의 흡광도\nS : 시료 채취량(mg)\n1.475 : 안토시아니딘의 안토시아노사이드 전환계수\n1,000 : 단위 환산 계수",
+   "n_lines": 34
+  },
+  {
+   "no": "3-72",
+   "title": "알리인",
+   "summary": "본 시험법은 시료 중 알리인의 함량을 80% 메탄올 용액으로 초음파로 추출 한 후 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법 으로 208 nm에서 정량 분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "옥타데실실릴화한 칼럼(안지름 3.0 mm, 길이 150 mm, 충전제 octadecyl silica) 또는 이와 동등한 것."
+   ],
+   "standards": [
+    "알리인(L(+)Alliin)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30℃",
+    "mobile_phase": "A : 20 mM 인산이수소나트륨·10 mM 헵탄설폰산나트륨 용액(pH 2.0), / B : 아세토니트릴 : 이동상 A(50:50)",
+    "detection": "208 nm",
+    "flow": "0.4 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n칼럼온도 | 30℃\n이동상 | A : 20 mM 인산이수소나트륨·10 mM 헵탄설폰산나트륨 용액(pH 2.0), / B : 아세토니트릴 : 이동상 A(50:50)\n검출기 파장 | 208 nm\n유량 | 0.4 mL/min\n[/표]\n[표]\nmin | 이동상(%)\nA | B\n0 | 100 | 0\n5 | 70 | 30\n25 | 46 | 54\n30 | 0 | 100\n32 | 0 | 100\n37 | 100 | 0\n45 | 100 | 0\n[/표]",
+   "n_lines": 67
+  },
+  {
+   "no": "3-73",
+   "title": "크레아틴 모노하이드레이트",
+   "summary": "본 시험법은 시료 중 크레아틴 모노하이드레이트를 증류수에 용해한 후 초음파 추출하고 최대흡수파장인 224 nm에서 고속액체크로마토그래프/ 자외부흡광광도검출기를 이용하여 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기(UV Detector)"
+   ],
+   "columns": [],
+   "standards": [
+    "크레아틴 모노하이드레이트 (Creatine monohydrate(2-(methylgu anidino) ethanoic acid))"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "35 ℃",
+    "mobile_phase": "2.3%(w/v) 인산이수소암모늄(pH 5.5)",
+    "detection": "224 nm",
+    "flow": "0.5 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래피 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼온도 | 35 ℃\n이동상 | 2.3%(w/v) 인산이수소암모늄(pH 5.5)\n검출기 파장 | 224 nm\n유속 | 0.5 mL/min\n[/표]",
+   "n_lines": 48
+  },
+  {
+   "no": "3-74",
+   "title": "알파에스1카제인(αS1-casein)(f91-100)",
+   "summary": "본 시험법은 시료 중 알파에스1카제인(f91-100)을 이동상으로 용해한 후 초음파 추출하여 최대흡수파장인 276 nm에서 액체크로마토그래프/자외부흡광광도 검출기 또는 액체크로마토그래프/질량검출기/질량검출기를 이용하여 정량 분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "액체크로마토그래프/자외부흡광광도검출기",
+    "액체크로마토그래프/질량검출기/질량검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 Octadecyl silica, 충전입자크기 5 μm) 또는 이와 동등한 것",
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충전제 Octadecyl silica, 충전입자크기 1.7 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "알파에스1카제인(αS1-Casein)(f91-100)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "37℃",
+    "mobile_phase": "A: 0.1% 트리플루오르아세트산용액 / B: 0.1% 트리플루오르아세트산을 함유한 아세토니트릴",
+    "detection": "276 nm",
+    "flow": "0.8 mL/분",
+    "ionization": "ESI, Positive",
+    "Capillary voltage": "2.0 kV",
+    "Cone voltage": "30 V",
+    "Desolvation temperature": "350℃",
+    "ions": "634*(precursor ion), 771, 658(product ion)"
+   },
+   "gradient": [
+    "0분 74/26 → 20분 66/34 → 20.1분 1/99 → 25분 1/99 → 25.1분 74/26 → 34분 74/26",
+    "0분 85/15 → 1분 85/15 → 11분 30/70 → 12분 30/70 → 12.5분 0/100 → 14분 0/100 → 15.5분 85/15 → 17분 85/15"
+   ],
+   "analysis_text": "5.1 기기분석\n5.1.1 액체크로마토그래프/자외부흡광광도검출기\n[표]\n항목 | 조건\n주입량 | 20 μL\n칼럼온도 | 37℃\n이동상 | A: 0.1% 트리플루오르아세트산용액 / B: 0.1% 트리플루오르아세트산을 함유한 아세토니트릴\n검출기 파장 | 276 nm\n유량 | 0.8 mL/분\n[/표]\n[표]\n시간(분) | 이동상(%)\nA | B\n0 | 74 | 26\n20 | 66 | 34\n20.1 | 1 | 99\n25 | 1 | 99\n25.1 | 74 | 26\n34 | 74 | 26\n[/표]\n5.1.2 액체크로마토그래프/질량검출기/질량검출기\n[표]\n항목 | 조건\n이동상 | A: 0.1% 개미산, 0.01% 트리플루오르아세트산을 / 함유한 증류수 / B: 0.1% 개미산, 0.01% 트리플루오르아세트산을 / 함유한 아세토니트릴\n칼럼온도 | 40℃\n유속 | 0.5 mL/분\n주입량 | 5 μL\n이온화 | ESI, Positive\nCapillary voltage | 2.0 kV\nCone voltage | 30 V\nDesolvation temperature | 350℃\nMonitor ions(m/z) | 634*(precursor ion), 771, 658(product ion)\n[/표]\n* m/z 1268/2\n[표]\n시간(분) | 이동상(%)\nA | B\n0 | 85 | 15\n1 | 85 | 15\n11 | 30 | 70\n12 | 30 | 70\n12.5 | 0 | 100\n14 | 0 | 100\n15.5 | 85 | 15\n17 | 85 | 15\n[/표]",
+   "n_lines": 86
+  },
+  {
+   "no": "3-75",
+   "title": "라이코펜(lycopene)",
+   "summary": "본 시험법은 염화메틸렌을 이용하여 시료 중 all-trans-라이코펜을 추출하고 고속액체크로마토그래피/자외부 흡광광도 검출기를 이용하여 정량 분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래피",
+    "분광광도계",
+    "자외부 흡광광도 검출기",
+    "옥타데실실릴화한 컬럼(4.6×250 mm) 또는 이와 동등한 것"
+   ],
+   "columns": [],
+   "standards": [
+    "all-trans-lycopene(Ψ,Ψ-carotene,2,6,10,14,19,23,27,31- Octamethyl-dotriaconta-2,6,8,10,12,14,16,18,20,22,24,26,30-tridecaene)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "40℃",
+    "mobile_phase": "아세토니트릴 : 메탄올 : 염화메틸렌 : 헥산 : 디이소프로필에틸아민 = (475 : 475 : 25 : 25 : 0.05, v/v)",
+    "flow": "0.6 mL/min",
+    "detection": "472 nm"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래프 조건\n[표]\n항 목 | 조 건\n주입량 | 10 μL\n칼럼온도 | 40℃\n이동상 | 아세토니트릴 : 메탄올 : 염화메틸렌 : 헥산 : 디이소프로필에틸아민 = (475 : 475 : 25 : 25 : 0.05, v/v)\n유속 | 0.6 mL/min\n검출기 파장 | 472 nm\n[/표]",
+   "n_lines": 72
+  },
+  {
+   "no": "3-76",
+   "title": "글루코실세라미드(Glucosylceramide)",
+   "summary": "본 시험법은 메탄올성 수산화칼륨 용액을 처리한 후 클로로포름으로 글루코실세라미드를 추출하고 액체크로마토그래프/질량검출기/질량검출기를 이용하여 정성 및 정량 분석하는 방법이다.",
+   "method": "HPLC",
+   "instruments": [
+    "액체크로마토그래프",
+    "질량검출기"
+   ],
+   "columns": [
+    "옥타데실실릴화한 칼럼(안지름 2.1 mm, 길이 100 mm, 충진입자 크기 1.7 μm, octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "곤약 글루코실세라미드(Konjac glucosylceramide, Funakoshi, NS170302 또는 NS170303)"
+   ],
+   "conditions": {
+    "mobile_phase": "A용액 : 0.1% 개미산용액 / B용액 : 0.1% 개미산을 함유한 메탄올",
+    "temp": "40℃",
+    "flow": "0.35 mL/분",
+    "injection": "1 μL",
+    "ionization": "ESI, Positive",
+    "Capillary Voltage": "2.5 kV",
+    "Source Temp.": "150℃",
+    "Desolvation temperature": "350℃"
+   },
+   "gradient": [
+    "1.5분 5/95 → 2.0분 0/100 → 5.0분 0/100 → 5.1분 5/95 → 10분 5/95"
+   ],
+   "analysis_text": "5.1 기기분석\n[표]\n항 목 | 조 건\n이동상 | A용액 : 0.1% 개미산용액 / B용액 : 0.1% 개미산을 함유한 메탄올\n칼럼온도 | 40℃\n유속 | 0.35 mL/분\n주입량 | 1 μL\n이온화 | ESI, Positive\nCapillary Voltage | 2.5 kV\nSource Temp. | 150℃\nDesolvation temperature | 350℃\n[/표]\n[표]\n성분 | Precursor ion(m/z) | Product ion(m/z) | Cone(V)\n글루코실세라미드 | 743 | 262 | 20\n[/표]\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 5 | 95\n1.5 | 5 | 95\n2.0 | 0 | 100\n5.0 | 0 | 100\n5.1 | 5 | 95\n10 | 5 | 95\n[/표]",
+   "n_lines": 63
+  },
+  {
+   "no": "3-77",
+   "title": "소포리코사이드(Sophoricoside)",
+   "summary": "본 시험법은 시료 중 소포리코사이드를 메탄올로 초음파 추출하고, 최대흡수 파장인 260 nm에서 액체크로마토그래프/자외부흡광광도검출기를 이용하여 정량분석한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기"
+   ],
+   "columns": [
+    "C18 칼럼(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 μm, 충전제 octadecyl silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "소포리코사이드(Sophoricoside, Genistein-4′-O-glucoside)"
+   ],
+   "conditions": {
+    "injection": "5 μL",
+    "temp": "30℃",
+    "mobile_phase": "A용액 : 0.1% 초산 수용액 / B용액 : 0.1% 초산이 첨가된 아세토니트릴",
+    "detection": "260 nm",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "5분 85/15 → 15분 55/45 → 17분 50/50 → 21분 50/50 → 23분 85/15 → 25분 85/15"
+   ],
+   "analysis_text": "5.1 기기 분석\n[표]\n항 목 | 조 건\n주입량 | 5 μL\n칼럼온도 | 30℃\n이동상 | A용액 : 0.1% 초산 수용액 / B용액 : 0.1% 초산이 첨가된 아세토니트릴\n검출기 파장 | 260 nm\n유속 | 1.0 mL/분\n[/표]\n[표]\n시간(분) | A 용액(%) | B 용액(%)\n0 | 85 | 15\n5 | 85 | 15\n15 | 55 | 45\n17 | 50 | 50\n21 | 50 | 50\n23 | 85 | 15\n25 | 85 | 15\n[/표]",
+   "n_lines": 54
+  },
+  {
+   "no": "3-78",
+   "title": "비타민 A 및 비타민 E 동시분석법",
+   "summary": "",
+   "method": "",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "C30 실릴화한 칼럼(안지름 4.6 mm, 길이 250 mm, 충전제 C30 silica) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "Retinol(Retinol, Vitamin A)",
+    "α-Tocopherol((±)-α-Tocopherol; DL-all-rac-α-Tocopherol; Vitamin E)"
+   ],
+   "conditions": {
+    "injection": "20 μL",
+    "temp": "30℃",
+    "mobile_phase": "메탄올 : 물 (95 : 5, v/v)",
+    "detection": "비타민 A(레티놀) - 325 nm, / 비타민 E(α-, β-, γ-, δ-토코페롤) - 298 nm",
+    "flow": "1.2 mL/분"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석 조건\n표 1. 고속액체크로마토그래프 조건(예)\n[표]\n항 목 | 조 건\n주입량 | 20 μL\n칼럼온도 | 30℃\n이동상 | 메탄올 : 물 (95 : 5, v/v)\n검출기 파장 | 비타민 A(레티놀) - 325 nm, / 비타민 E(α-, β-, γ-, δ-토코페롤) - 298 nm\n유량 | 1.2 mL/분\n[/표]",
+   "n_lines": 86
+  },
+  {
+   "no": "3-79",
+   "title": "카테킨 및 카페인 동시분석법",
+   "summary": "본 시험법은 시료 중 카테킨 및 카페인을 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대 흡수파장인 275 nm에서 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래프",
+    "자외부흡광광도검출기(UV Detector)",
+    "칼럼오븐"
+   ],
+   "columns": [
+    "칼럼오븐",
+    "YMC-triart C18(안지름 4.6 mm, 길이 250 mm, 충전입자크기 5 μm) 칼럼 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "에피갈로카테킨((-)-epigallocatechin, EGC)",
+    "에피갈로카테킨갈레이트((-)-epigallocatechin-gallate, EGCG)",
+    "에피카테킨((-)-epicatechin, EC)",
+    "에피카테킨갈레이트((-)-epicatechin-gallate, ECG)",
+    "카페인(Caffeine, 1,3,7-trimethyl-1H-purine-2,6(3H,7H)-dione, 1,3,7 -trimethylxanthine, trimethylxanthine, theine, methyltheobromine)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "275 nm",
+    "temp": "30℃",
+    "mobile_phase": "A : 0.1% 인산용액, B : 0.1% 인산을 함유한 아세토니트릴",
+    "flow": "1.0 mL/분"
+   },
+   "gradient": [
+    "5분 90/10 → 10분 87/13 → 20분 85/15 → 25분 70/30 → 30분 70/30 → 31분 90/10 → 40분 90/10"
+   ],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 275 nm\n칼럼 온도 | 30℃\n이동상 | A : 0.1% 인산용액, B : 0.1% 인산을 함유한 아세토니트릴\n유속 | 1.0 mL/분\n[/표]\n표 2. 이동상 조건(예)\n[표]\n시간(분) | A용액(%) | B용액(%)\n0 | 90 | 10\n5 | 90 | 10\n10 | 87 | 13\n20 | 85 | 15\n25 | 70 | 30\n30 | 70 | 30\n31 | 90 | 10\n40 | 90 | 10\n[/표]",
+   "n_lines": 75
+  },
+  {
+   "no": "3-80",
+   "title": "포스콜린(Forskolin)",
+   "summary": "",
+   "method": "",
+   "instruments": [],
+   "columns": [
+    "칼럼오븐",
+    "Capcell pak C18 MG II 칼럼(안지름 4.6 mm, 길이 250 mm, 충진 입자 크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "standards": [
+    "포스콜린(Forskolin)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "temp": "30℃",
+    "mobile_phase": "증류수 : 아세토니트릴 = 1 : 1",
+    "detection": "210 nm",
+    "flow": "1.0 mL/min"
+   },
+   "gradient": [],
+   "analysis_text": "5.1 기기분석\n[표]\n항목 | 조건\n주입량 | 10 μL\n칼럼 온도 | 30℃\n이동상 | 증류수 : 아세토니트릴 = 1 : 1\n검출기 파장 | 210 nm\n유속 | 1.0 mL/min\n[/표]",
+   "n_lines": 50
+  },
+  {
+   "no": "3-81",
+   "title": "알로인",
+   "summary": "본 시험법은 시료 중 알로인 A와 B를 초산에틸·메탄올 혼합용액으로 추출하고 액체크로마토그래프/자외부흡광광도검출기를 이용하여 분석하는 방법으로 최대흡수파장 380 nm에서 정량분석 한다.",
+   "method": "HPLC-UV",
+   "instruments": [
+    "고속액체크로마토그래피",
+    "자외부흡광광도 검출기",
+    "C18 컬럼(안지름 4.6 mm, 길이 250 mm, 충진입자크기 5 μm) 또는 이와 동등한 것"
+   ],
+   "columns": [],
+   "standards": [
+    "알로인 A(Aloin A)",
+    "알로인 B(Aloin B)"
+   ],
+   "conditions": {
+    "injection": "10 μL",
+    "detection": "380 nm",
+    "temp": "35℃",
+    "mobile_phase": "A : 0.1% 초산 수용액 / B : 0.1% 초산 함유 아세토니트릴",
+    "flow": "0.7 mL/분"
+   },
+   "gradient": [
+    "0분 80/20 → 25분 70/30 → 31분 0/100 → 33분 80/20 → 40분 80/20"
+   ],
+   "analysis_text": "5.1 기기분석\n표 1. 고속액체크로마토그래피 조건(예)\n[표]\n항목 | 조건\n주입량 | 10 μL\n검출기 파장 | 380 nm\n칼럼온도 | 35℃\n이동상 | A : 0.1% 초산 수용액 / B : 0.1% 초산 함유 아세토니트릴\n유속 | 0.7 mL/분\n[/표]\n표 2. 고속액체크로마토그래피 이동상 조성(예)\n[표]\n분 | 이동상(%)\nA | B\n0 | 80 | 20\n25 | 70 | 30\n31 | 0 | 100\n33 | 80 | 20\n40 | 80 | 20\n[/표]",
+   "n_lines": 74
+  }
+ ]
+}

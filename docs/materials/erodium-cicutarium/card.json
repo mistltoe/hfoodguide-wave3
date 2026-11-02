@@ -1,0 +1,84 @@
+{
+ "key": "Erodium cicutarium",
+ "name_ko": "세열유럽쥐손이",
+ "names": [
+  "Erodium cicutarium bipinnatum뿌리",
+  "Erodium cicutarium bipinnatum잎",
+  "세열유럽쥐손이뿌리",
+  "세열유럽쥐손이잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Redstem storks bill",
+  "Storks bill, Alfilaria, Red-stem filaree"
+ ],
+ "scnm_full": [
+  "Erodium cicutarium (L.) LHer. / Geranium cicutarium L.",
+  "Erodium cicutarium bipinnatum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리,잎"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14751649,
+ "genus": "Erodium",
+ "family": "Geraniaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 17,
+ "candidates": [
+  {
+   "compound": "6,7,14-Trihydroxy-2,9-dioxatricyclo[9.3.1.14,8]hexadeca-1(15),4,6,8(16),11,13-hexaene-3,10-dione",
+   "compound_ko": null,
+   "pubchem_cid": 101722240,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(7R,8S,17R,19R,26R,28S,29R,38R)-1,13,14,18,18,19,34,35,39,39-decahydroxy-2,5,10,20,23,31-hexaoxo-6,9,24,27,30,40,41-heptaoxanonacyclo[34.3.1.115,19.04,38.07,26.08,29.011,16.017,22.032,37]hentetraconta-3,11,13,15,21,32,34,36-octaen-28-yl] 3,4,5-trihydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 163186482,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-6,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163010435,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "3-O-Galloylshikimic Acid",
+   "compound_ko": null,
+   "pubchem_cid": 460897,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "Myricetin 3-rutinoside",
+   "compound_ko": "미리세틴 3-루티노사이드",
+   "pubchem_cid": 44259428,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  }
+ ],
+ "priority": 6.738
+}

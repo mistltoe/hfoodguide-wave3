@@ -1,0 +1,82 @@
+{
+ "key": "Syzygium jambos",
+ "name_ko": "로즈애플",
+ "names": [
+  "Veli jambu열매",
+  "로즈애플열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Rose apple"
+ ],
+ "scnm_full": [
+  "Syzygium jambos",
+  "Syzygium jambos Alston / Eugenia jambos / Jambosa jambos"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14759232,
+ "genus": "Syzygium",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 63,
+ "candidates": [
+  {
+   "compound": "Chlorine",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Fruit",
+   "content": "최대 258 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 258 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Myricetin 3-xylosyl-(1->2)-rhamnoside",
+   "compound_ko": null,
+   "pubchem_cid": 101674016,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(1R,2R,20R,42S,46S)-7,8,9,12,13,14,25,26,27,30,31,32,35,36,46-pentadecahydroxy-4,17,22,40,44-pentaoxo-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaen-37-yl] 3,4,5-trihydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 102231177,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(Z)-3-Phenyl-2-propen-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 5280511,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Cinnamyl acetate, (Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 5315912,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 5.684
+}

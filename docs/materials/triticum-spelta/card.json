@@ -1,0 +1,38 @@
+{
+ "key": "Triticum spelta",
+ "name_ko": "스펠트밀",
+ "names": [
+  "스펠트밀가루",
+  "스펠트밀겨",
+  "스펠트밀시럽",
+  "스펠트밀씨앗",
+  "스펠트밀플레이크"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Farro, Spelt"
+ ],
+ "scnm_full": [
+  "Triticum spelta L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "겨(속껍질)",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14759819,
+ "genus": "Triticum",
+ "family": "Poaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.377
+}

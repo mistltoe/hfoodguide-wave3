@@ -1,0 +1,85 @@
+{
+ "key": "Acer palmatum",
+ "name_ko": "단풍나무",
+ "names": [
+  "단풍나무",
+  "단풍나무추출물",
+  "단풍당시럽"
+ ],
+ "nicknames": [
+  "내장단풍",
+  "붉은 단풍나무",
+  "산단풍나무"
+ ],
+ "eng": [
+  "Japanese Maple, Palmate maple"
+ ],
+ "scnm_full": [
+  "Acer palmatum Thunb. / Acer eupalmatum (Schwer.) Koidz. / Acer formosum Carrière"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "수액"
+ ],
+ "conditions": [
+  "사용가능부위 : 수액"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14778741,
+ "genus": "Acer",
+ "family": "Sapindaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 18,
+ "candidates": [
+  {
+   "compound": "5,7-dihydroxy-2-(4-hydroxyphenyl)-6-[(2S,3S,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 25722922,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Neovitexin",
+   "compound_ko": null,
+   "pubchem_cid": 9910645,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[[(2R,3S,4R,5R,6R)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-3,4-dihydroxy-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]methoxy]-6-methyloxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 154496399,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-8-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 162951156,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Keracyanin cation",
+   "compound_ko": "케라시아닌",
+   "pubchem_cid": 441674,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  }
+ ],
+ "priority": 6.279
+}

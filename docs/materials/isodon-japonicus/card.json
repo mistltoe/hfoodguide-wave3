@@ -1,0 +1,80 @@
+{
+ "key": "Isodon japonicus",
+ "name_ko": "방아풀",
+ "names": [
+  "방아풀",
+  "방아풀어린잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bangahpul, East Asian soup-mint"
+ ],
+ "scnm_full": [
+  "Isodon japonicus (Burm.) Hara / Amethystanthus japonicus Nakai / Isodon glaucocalyx var. japonicus (Burm.) Kudo"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "어린잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14762504,
+ "genus": "Isodon",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 143,
+ "candidates": [
+  {
+   "compound": "(15-Acetyloxy-9,10-dihydroxy-12-methyl-6-methylidene-7-oxo-17-oxapentacyclo[7.6.2.15,8.01,11.02,8]octadecan-12-yl)methyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 75052573,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,9R,10S,13S,14R,16R)-2,16-dihydroxy-5,5,9,14-tetramethyltetracyclo[11.2.1.01,10.04,9]hexadecane-6,15-dione",
+   "compound_ko": null,
+   "pubchem_cid": 13919296,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,9S,10S,13S,15S,16R)-2,15,16-trihydroxy-5,5,9-trimethyl-14-methylidenetetracyclo[11.2.1.01,10.04,9]hexadecan-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 162842245,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,5S,8R,9R,11R,15S,18S)-9,15,18-trihydroxy-12,12-dimethyl-6-methylidene-17-oxapentacyclo[7.6.2.15,8.01,11.02,8]octadecan-7-one",
+   "compound_ko": null,
+   "pubchem_cid": 162990881,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,5S,8R,9S,11R,15S,18R)-9,15,18-trihydroxy-12,12-dimethyl-6-methylidene-17-oxapentacyclo[7.6.2.15,8.01,11.02,8]octadecan-7-one",
+   "compound_ko": null,
+   "pubchem_cid": 10315734,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.536
+}

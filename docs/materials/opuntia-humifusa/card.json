@@ -1,0 +1,90 @@
+{
+ "key": "Opuntia humifusa",
+ "name_ko": "저단선",
+ "names": [
+  "저단선",
+  "저단선발효액",
+  "저단선씨앗",
+  "저단선열매",
+  "저단선줄기",
+  "저단선추출물"
+ ],
+ "nicknames": [
+  "손바닥선인장",
+  "후미푸사",
+  "후미푸사선인장"
+ ],
+ "eng": [
+  "Prickly Pear, Indian fig"
+ ],
+ "scnm_full": [
+  "Opuntia humifusa / Opuntia compressa"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "씨앗",
+  "열매",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매, 줄기, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 14781289,
+ "genus": "Opuntia",
+ "family": "Cactaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 19,
+ "candidates": [
+  {
+   "compound": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[[4-(2-hydroxypropan-2-yl)phenyl]methoxy]oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 11823635,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-4-[(3R)-3,4-dihydroxybutyl]-3,5,5-trimethylcyclohex-2-en-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 156011196,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Opuntiol",
+   "compound_ko": null,
+   "pubchem_cid": 10034839,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-3-(hydroxymethyl)-5,5-dimethyl-4-[(3S)-3-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybutyl]cyclohex-2-en-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 101367898,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1-[(2Z)-2-(2,6-dicarboxy-2,3-dihydro-1H-pyridin-4-ylidene)ethylidene]-6-hydroxy-5-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydroindol-1-ium-2-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 4480716,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 8.512
+}

@@ -1,0 +1,34 @@
+{
+ "key": "Todarodes pacificus",
+ "name_ko": "살오징어",
+ "names": [
+  "살오징어"
+ ],
+ "nicknames": [
+  "물오징어"
+ ],
+ "eng": [
+  "Japanese flying squid, Japanese common squid"
+ ],
+ "scnm_full": [
+  "Todarodes pacificus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체(내장 제외)"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17047882,
+ "genus": "Todarodes",
+ "family": "Ommastrephidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

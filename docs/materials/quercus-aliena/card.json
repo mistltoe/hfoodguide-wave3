@@ -1,0 +1,82 @@
+{
+ "key": "Quercus aliena",
+ "name_ko": "갈참나무",
+ "names": [
+  "갈참나무견과",
+  "갈참나무열매"
+ ],
+ "nicknames": [
+  "도토리나무",
+  "홍갈참나무"
+ ],
+ "eng": [
+  "Oriental chestnut oak, Galcham oak"
+ ],
+ "scnm_full": [
+  "Quercus aliena Blume / Quercus aliena var. rubripes Nakai / Quercus aliena var. acuticarpa Uyeki / Quercus aliena var. heterophylla Uyeki"
+ ],
+ "kind": "plant",
+ "parts": [
+  "견과"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매, 견과"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14767894,
+ "genus": "Quercus",
+ "family": "Fagaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 23,
+ "candidates": [
+  {
+   "compound": "(1S,4aR,6aR,6aS,6bR,8aS,9S,10R,11R,12aS,14bS)-1,10,11-trihydroxy-2,2,6a,6b,9,12a-hexamethyl-3,4,5,6,6a,7,8,8a,9,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101420611,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,4aR,6aR,6aS,6bR,8aS,9S,11R,12aS,14bS)-1,11-dihydroxy-2,2,6a,6b,9,12a-hexamethyl-10-oxo-1,3,4,5,6,6a,7,8,8a,9,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101420610,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,4aR,6aR,6aS,6bR,8aS,9S,12aS,14bS)-1-hydroxy-2,2,6a,6b,9,12a-hexamethyl-10-oxo-1,3,4,5,6,6a,7,8,8a,9,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101420609,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(10R,11S)-10-[(14R,15S,19S)-2,3,4,7,8,9-hexahydroxy-12,17-dioxo-19-[(1R,2S,19R,20R,22R)-7,8,9,12,13,14,20,28,29,30,33,34,35-tridecahydroxy-4,17,25,38-tetraoxo-3,18,21,24,39-pentaoxaheptacyclo[20.17.0.02,19.05,10.011,16.026,31.032,37]nonatriaconta-5,7,9,11,13,15,26(31),27,29,32,34,36-dodecaen-27-yl]-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaen-14-yl]-3,4,5,17,18,19-hexahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(19),2,4,6,15,17-hexaen-11-yl] 3,4,5-tr",
+   "compound_ko": null,
+   "pubchem_cid": 162996852,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[12-[2,3,4,7,8,9,19-Heptahydroxy-12,17-dioxo-19-(7,8,9,12,13,14,20,28,29,30,33,34,35-tridecahydroxy-4,17,25,38-tetraoxo-3,18,21,24,39-pentaoxaheptacyclo[20.17.0.02,19.05,10.011,16.026,31.032,37]nonatriaconta-5,7,9,11,13,15,26(31),27,29,32,34,36-dodecaen-27-yl)-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaen-14-yl]-3,4,5,18,19-pentahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(15),2,4,6,16,18-hexaen-11-yl] 3,4,5-trihydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 163196012,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.258
+}

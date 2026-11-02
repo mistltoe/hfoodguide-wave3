@@ -1,0 +1,36 @@
+{
+ "key": "Malus prunifolia",
+ "name_ko": "벚잎꽃사과",
+ "names": [
+  "벚잎꽃사과분말",
+  "벚잎꽃사과열매"
+ ],
+ "nicknames": [
+  "애기사과"
+ ],
+ "eng": [
+  "Chinese apple, Plumleaf crab apple"
+ ],
+ "scnm_full": [
+  "Malus prunifolia (Willd.) Borkh."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 16092578,
+ "genus": "Malus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

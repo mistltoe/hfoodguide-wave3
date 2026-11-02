@@ -1,0 +1,78 @@
+{
+ "key": "Acacia melanoxylon",
+ "name_ko": "멜라녹실론아카시아",
+ "names": [
+  "멜라녹실론아카시아꽃"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Blackwood, Blackwood acacia, Australian blackwood"
+ ],
+ "scnm_full": [
+  "Acacia melanoxylon R.Br."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747002,
+ "genus": "Acacia",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 50,
+ "candidates": [
+  {
+   "compound": "6-Methoxy-2-methyl-4,7-benzofurandione",
+   "compound_ko": null,
+   "pubchem_cid": 156280,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4R)-2-(3,4-dihydroxyphenyl)-4-[[(2R,3R,4S)-2-(3,4-dihydroxyphenyl)-3,7,8-trihydroxy-3,4-dihydro-2H-chromen-4-yl]oxy]-3,4-dihydro-2H-chromene-3,7,8-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162972719,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S)-2-(3,4-dihydroxyphenyl)-4-[[(2R,3R,4S)-2-(3,4-dihydroxyphenyl)-3,7,8-trihydroxy-3,4-dihydro-2H-chromen-4-yl]oxy]-3,4-dihydro-2H-chromene-3,7,8-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162972718,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S)-2-(3,4-dihydroxyphenyl)-4-ethoxy-3,4-dihydro-2H-chromene-3,7,8-triol",
+   "compound_ko": null,
+   "pubchem_cid": 21676334,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S)-2-(3,4-dihydroxyphenyl)-6-[(2R,3R,4R)-2-(3,4-dihydroxyphenyl)-3,7,8-trihydroxy-3,4-dihydro-2H-chromen-4-yl]-3,4-dihydro-2H-chromene-3,4,7,8-tetrol",
+   "compound_ko": null,
+   "pubchem_cid": 21676339,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.708
+}

@@ -1,0 +1,3223 @@
+{
+ "source": {
+  "title": "2026년 식품의약품통계연보",
+  "title_en": "2026 Food & Drug Statistical Yearbook",
+  "edition": "제28호",
+  "published": "2026-07",
+  "publisher": "식품의약품안전처 (MFDS)",
+  "registration_no": "11-1471000-100134-10",
+  "issn": "1975-6011",
+  "file": "2026년+식품의약품통계연보(제28호).pdf",
+  "page_note": "'page' = printed page number; 'pdf_page' = PDF page index (printed + 2)."
+ },
+ "tables": [
+  {
+   "key": "import_by_year",
+   "table_no": "표 3-2-1-3",
+   "title_ko": "건강기능식품 수입 현황 - 연도별/품목별, 지방청별 : 2015-2025",
+   "unit": "건(cases), 톤(weight), 천 달러(amount)",
+   "page": [
+    204,
+    205
+   ],
+   "pdf_page": [
+    206,
+    207
+   ],
+   "rows": [
+    {
+     "year": 2015,
+     "cases": 10113,
+     "weight_ton": 9555,
+     "amount_kusd": 440636,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1673,
+       "weight_ton": 1250,
+       "amount_kusd": 56520
+      },
+      "busan": {
+       "cases": 1366,
+       "weight_ton": 3109,
+       "amount_kusd": 136510
+      },
+      "gyeongin": {
+       "cases": 7000,
+       "weight_ton": 5135,
+       "amount_kusd": 241787
+      },
+      "daegu": {
+       "cases": 6,
+       "weight_ton": 3,
+       "amount_kusd": 72
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 68,
+       "weight_ton": 58,
+       "amount_kusd": 5748
+      }
+     }
+    },
+    {
+     "year": 2016,
+     "cases": 10555,
+     "weight_ton": 10775,
+     "amount_kusd": 506752,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1543,
+       "weight_ton": 1392,
+       "amount_kusd": 59902
+      },
+      "busan": {
+       "cases": 1493,
+       "weight_ton": 3078,
+       "amount_kusd": 148197
+      },
+      "gyeongin": {
+       "cases": 7463,
+       "weight_ton": 6245,
+       "amount_kusd": 293727
+      },
+      "daegu": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 56,
+       "weight_ton": 60,
+       "amount_kusd": 4926
+      }
+     }
+    },
+    {
+     "year": 2017,
+     "cases": 10691,
+     "weight_ton": 11069,
+     "amount_kusd": 509619,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1794,
+       "weight_ton": 1265,
+       "amount_kusd": 66974
+      },
+      "busan": {
+       "cases": 1283,
+       "weight_ton": 3033,
+       "amount_kusd": 153856
+      },
+      "gyeongin": {
+       "cases": 7547,
+       "weight_ton": 6687,
+       "amount_kusd": 283384
+      },
+      "daegu": {
+       "cases": 2,
+       "weight_ton": 1,
+       "amount_kusd": 12
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 65,
+       "weight_ton": 83,
+       "amount_kusd": 5393
+      }
+     }
+    },
+    {
+     "year": 2018,
+     "cases": 12043,
+     "weight_ton": 13531,
+     "amount_kusd": 610751,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 2012,
+       "weight_ton": 1838,
+       "amount_kusd": 98451
+      },
+      "busan": {
+       "cases": 1400,
+       "weight_ton": 3361,
+       "amount_kusd": 170220
+      },
+      "gyeongin": {
+       "cases": 8554,
+       "weight_ton": 8154,
+       "amount_kusd": 335273
+      },
+      "daegu": {
+       "cases": 8,
+       "weight_ton": 4,
+       "amount_kusd": 117
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 69,
+       "weight_ton": 175,
+       "amount_kusd": 6690
+      }
+     }
+    },
+    {
+     "year": 2019,
+     "cases": 13102,
+     "weight_ton": 16066,
+     "amount_kusd": 785963,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1884,
+       "weight_ton": 1857,
+       "amount_kusd": 119758
+      },
+      "busan": {
+       "cases": 1564,
+       "weight_ton": 4200,
+       "amount_kusd": 212598
+      },
+      "gyeongin": {
+       "cases": 9585,
+       "weight_ton": 9891,
+       "amount_kusd": 447536
+      },
+      "daegu": {
+       "cases": 5,
+       "weight_ton": 3,
+       "amount_kusd": 53
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 64,
+       "weight_ton": 115,
+       "amount_kusd": 6018
+      }
+     }
+    },
+    {
+     "year": 2020,
+     "cases": 13809,
+     "weight_ton": 19824,
+     "amount_kusd": 912150,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1827,
+       "weight_ton": 2098,
+       "amount_kusd": 131265
+      },
+      "busan": {
+       "cases": 1578,
+       "weight_ton": 4860,
+       "amount_kusd": 198678
+      },
+      "gyeongin": {
+       "cases": 10350,
+       "weight_ton": 12785,
+       "amount_kusd": 577956
+      },
+      "daegu": {
+       "cases": 4,
+       "weight_ton": 3,
+       "amount_kusd": 67
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 50,
+       "weight_ton": 78,
+       "amount_kusd": 4185
+      }
+     }
+    },
+    {
+     "year": 2021,
+     "cases": 14572,
+     "weight_ton": 22537,
+     "amount_kusd": 1098763,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1779,
+       "weight_ton": 2332,
+       "amount_kusd": 137004
+      },
+      "busan": {
+       "cases": 1913,
+       "weight_ton": 6070,
+       "amount_kusd": 240724
+      },
+      "gyeongin": {
+       "cases": 10824,
+       "weight_ton": 14060,
+       "amount_kusd": 716481
+      },
+      "daegu": {
+       "cases": 2,
+       "weight_ton": 2,
+       "amount_kusd": 44
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 54,
+       "weight_ton": 73,
+       "amount_kusd": 4510
+      }
+     }
+    },
+    {
+     "year": 2022,
+     "cases": 13938,
+     "weight_ton": 27042,
+     "amount_kusd": 1161945,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1425,
+       "weight_ton": 2036,
+       "amount_kusd": 108724
+      },
+      "busan": {
+       "cases": 1839,
+       "weight_ton": 7779,
+       "amount_kusd": 237095
+      },
+      "gyeongin": {
+       "cases": 10619,
+       "weight_ton": 17163,
+       "amount_kusd": 812015
+      },
+      "daegu": {
+       "cases": 3,
+       "weight_ton": 4,
+       "amount_kusd": 64
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 52,
+       "weight_ton": 61,
+       "amount_kusd": 4047
+      }
+     }
+    },
+    {
+     "year": 2023,
+     "cases": 12462,
+     "weight_ton": 23932,
+     "amount_kusd": 1069058,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1230,
+       "weight_ton": 1696,
+       "amount_kusd": 76783
+      },
+      "busan": {
+       "cases": 1824,
+       "weight_ton": 7545,
+       "amount_kusd": 251619
+      },
+      "gyeongin": {
+       "cases": 9352,
+       "weight_ton": 14579,
+       "amount_kusd": 737033
+      },
+      "daegu": {
+       "cases": 1,
+       "weight_ton": 1,
+       "amount_kusd": 33
+      },
+      "gwangju": {
+       "cases": 1,
+       "weight_ton": 0,
+       "amount_kusd": 1
+      },
+      "daejeon": {
+       "cases": 54,
+       "weight_ton": 112,
+       "amount_kusd": 3589
+      }
+     }
+    },
+    {
+     "year": 2024,
+     "cases": 12970,
+     "weight_ton": 23251,
+     "amount_kusd": 1057013,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1695,
+       "weight_ton": 2312,
+       "amount_kusd": 130850
+      },
+      "busan": {
+       "cases": 1837,
+       "weight_ton": 7424,
+       "amount_kusd": 255349
+      },
+      "gyeongin": {
+       "cases": 9363,
+       "weight_ton": 13403,
+       "amount_kusd": 665683
+      },
+      "daegu": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 75,
+       "weight_ton": 112,
+       "amount_kusd": 5131
+      }
+     }
+    },
+    {
+     "year": 2025,
+     "cases": 13361,
+     "weight_ton": 22970,
+     "amount_kusd": 1020077,
+     "by_regional_office": {
+      "seoul": {
+       "cases": 1796,
+       "weight_ton": 2136,
+       "amount_kusd": 132675
+      },
+      "busan": {
+       "cases": 2068,
+       "weight_ton": 7742,
+       "amount_kusd": 242805
+      },
+      "gyeongin": {
+       "cases": 9388,
+       "weight_ton": 12940,
+       "amount_kusd": 636922
+      },
+      "daegu": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "gwangju": {
+       "cases": null,
+       "weight_ton": null,
+       "amount_kusd": null
+      },
+      "daejeon": {
+       "cases": 109,
+       "weight_ton": 152,
+       "amount_kusd": 7676
+      }
+     }
+    }
+   ],
+   "note": "Year rows only (national total + 6 지방청). The table also prints a 2025 품목별 breakdown (pp.204-207) which is not extracted. Weight is in tonnes as printed."
+  },
+  {
+   "key": "import_top_countries",
+   "table_no": "표 3-2-2-6",
+   "title_ko": "건강기능식품 수입액 상위 10개 국가 - 연도별 : 2021-2025",
+   "unit": "천 달러 (amount), % (share)",
+   "page": 214,
+   "pdf_page": 216,
+   "rows": [
+    {
+     "year": 2021,
+     "rank": "total",
+     "country_ko": "총계",
+     "country_en": "Total",
+     "amount_kusd": 1098762,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2021,
+     "rank": "top10_subtotal",
+     "country_ko": "소계",
+     "country_en": "Subtotal",
+     "amount_kusd": 982549,
+     "share_pct": 89.4
+    },
+    {
+     "year": 2021,
+     "rank": 1,
+     "country_ko": "미국",
+     "country_en": "USA",
+     "amount_kusd": 530083,
+     "share_pct": 48.2
+    },
+    {
+     "year": 2021,
+     "rank": 2,
+     "country_ko": "독일",
+     "country_en": "Germany",
+     "amount_kusd": 128430,
+     "share_pct": 11.7
+    },
+    {
+     "year": 2021,
+     "rank": 3,
+     "country_ko": "캐나다",
+     "country_en": "Canada",
+     "amount_kusd": 99106,
+     "share_pct": 9.0
+    },
+    {
+     "year": 2021,
+     "rank": 4,
+     "country_ko": "인도",
+     "country_en": "India",
+     "amount_kusd": 63024,
+     "share_pct": 5.7
+    },
+    {
+     "year": 2021,
+     "rank": 5,
+     "country_ko": "대만",
+     "country_en": "Taiwan",
+     "amount_kusd": 36559,
+     "share_pct": 3.3
+    },
+    {
+     "year": 2021,
+     "rank": 6,
+     "country_ko": "중국",
+     "country_en": "China",
+     "amount_kusd": 33295,
+     "share_pct": 3.0
+    },
+    {
+     "year": 2021,
+     "rank": 7,
+     "country_ko": "이탈리아",
+     "country_en": "Italy",
+     "amount_kusd": 32944,
+     "share_pct": 3.0
+    },
+    {
+     "year": 2021,
+     "rank": 8,
+     "country_ko": "호주",
+     "country_en": "Australia",
+     "amount_kusd": 23744,
+     "share_pct": 2.2
+    },
+    {
+     "year": 2021,
+     "rank": 9,
+     "country_ko": "덴마크",
+     "country_en": "Denmark",
+     "amount_kusd": 18302,
+     "share_pct": 1.7
+    },
+    {
+     "year": 2021,
+     "rank": 10,
+     "country_ko": "프랑스",
+     "country_en": "France",
+     "amount_kusd": 17062,
+     "share_pct": 1.6
+    },
+    {
+     "year": 2022,
+     "rank": "total",
+     "country_ko": "총계",
+     "country_en": "Total",
+     "amount_kusd": 1161944,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2022,
+     "rank": "top10_subtotal",
+     "country_ko": "소계",
+     "country_en": "Subtotal",
+     "amount_kusd": 1033920,
+     "share_pct": 89.0
+    },
+    {
+     "year": 2022,
+     "rank": 1,
+     "country_ko": "미국",
+     "country_en": "USA",
+     "amount_kusd": 499836,
+     "share_pct": 43.0
+    },
+    {
+     "year": 2022,
+     "rank": 2,
+     "country_ko": "독일",
+     "country_en": "Germany",
+     "amount_kusd": 211298,
+     "share_pct": 18.2
+    },
+    {
+     "year": 2022,
+     "rank": 3,
+     "country_ko": "캐나다",
+     "country_en": "Canada",
+     "amount_kusd": 89508,
+     "share_pct": 7.7
+    },
+    {
+     "year": 2022,
+     "rank": 4,
+     "country_ko": "인도",
+     "country_en": "India",
+     "amount_kusd": 69886,
+     "share_pct": 6.0
+    },
+    {
+     "year": 2022,
+     "rank": 5,
+     "country_ko": "이탈리아",
+     "country_en": "Italy",
+     "amount_kusd": 34753,
+     "share_pct": 3.0
+    },
+    {
+     "year": 2022,
+     "rank": 6,
+     "country_ko": "대만",
+     "country_en": "Taiwan",
+     "amount_kusd": 34231,
+     "share_pct": 2.9
+    },
+    {
+     "year": 2022,
+     "rank": 7,
+     "country_ko": "중국",
+     "country_en": "China",
+     "amount_kusd": 29477,
+     "share_pct": 2.5
+    },
+    {
+     "year": 2022,
+     "rank": 8,
+     "country_ko": "호주",
+     "country_en": "Australia",
+     "amount_kusd": 23253,
+     "share_pct": 2.0
+    },
+    {
+     "year": 2022,
+     "rank": 9,
+     "country_ko": "프랑스",
+     "country_en": "France",
+     "amount_kusd": 21222,
+     "share_pct": 1.8
+    },
+    {
+     "year": 2022,
+     "rank": 10,
+     "country_ko": "스페인",
+     "country_en": "Spain",
+     "amount_kusd": 20456,
+     "share_pct": 1.8
+    },
+    {
+     "year": 2023,
+     "rank": "total",
+     "country_ko": "총계",
+     "country_en": "Total",
+     "amount_kusd": 1069058,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2023,
+     "rank": "top10_subtotal",
+     "country_ko": "소계",
+     "country_en": "Subtotal",
+     "amount_kusd": 948169,
+     "share_pct": 88.7
+    },
+    {
+     "year": 2023,
+     "rank": 1,
+     "country_ko": "미국",
+     "country_en": "USA",
+     "amount_kusd": 428233,
+     "share_pct": 40.1
+    },
+    {
+     "year": 2023,
+     "rank": 2,
+     "country_ko": "독일",
+     "country_en": "Germany",
+     "amount_kusd": 206020,
+     "share_pct": 19.3
+    },
+    {
+     "year": 2023,
+     "rank": 3,
+     "country_ko": "캐나다",
+     "country_en": "Canada",
+     "amount_kusd": 83820,
+     "share_pct": 7.8
+    },
+    {
+     "year": 2023,
+     "rank": 4,
+     "country_ko": "인도",
+     "country_en": "India",
+     "amount_kusd": 69151,
+     "share_pct": 6.5
+    },
+    {
+     "year": 2023,
+     "rank": 5,
+     "country_ko": "이탈리아",
+     "country_en": "Italy",
+     "amount_kusd": 44251,
+     "share_pct": 4.1
+    },
+    {
+     "year": 2023,
+     "rank": 6,
+     "country_ko": "중국",
+     "country_en": "China",
+     "amount_kusd": 34309,
+     "share_pct": 3.2
+    },
+    {
+     "year": 2023,
+     "rank": 7,
+     "country_ko": "스페인",
+     "country_en": "Spain",
+     "amount_kusd": 23900,
+     "share_pct": 2.2
+    },
+    {
+     "year": 2023,
+     "rank": 8,
+     "country_ko": "대만",
+     "country_en": "Taiwan",
+     "amount_kusd": 23746,
+     "share_pct": 2.2
+    },
+    {
+     "year": 2023,
+     "rank": 9,
+     "country_ko": "호주",
+     "country_en": "Australia",
+     "amount_kusd": 19430,
+     "share_pct": 1.8
+    },
+    {
+     "year": 2023,
+     "rank": 10,
+     "country_ko": "프랑스",
+     "country_en": "France",
+     "amount_kusd": 15309,
+     "share_pct": 1.4
+    },
+    {
+     "year": 2024,
+     "rank": "total",
+     "country_ko": "총계",
+     "country_en": "Total",
+     "amount_kusd": 1057013,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2024,
+     "rank": "top10_subtotal",
+     "country_ko": "소계",
+     "country_en": "Subtotal",
+     "amount_kusd": 931278,
+     "share_pct": 88.1
+    },
+    {
+     "year": 2024,
+     "rank": 1,
+     "country_ko": "미국",
+     "country_en": "USA",
+     "amount_kusd": 459178,
+     "share_pct": 43.4
+    },
+    {
+     "year": 2024,
+     "rank": 2,
+     "country_ko": "독일",
+     "country_en": "Germany",
+     "amount_kusd": 182207,
+     "share_pct": 17.2
+    },
+    {
+     "year": 2024,
+     "rank": 3,
+     "country_ko": "캐나다",
+     "country_en": "Canada",
+     "amount_kusd": 76902,
+     "share_pct": 7.3
+    },
+    {
+     "year": 2024,
+     "rank": 4,
+     "country_ko": "인도",
+     "country_en": "India",
+     "amount_kusd": 63123,
+     "share_pct": 6.0
+    },
+    {
+     "year": 2024,
+     "rank": 5,
+     "country_ko": "이탈리아",
+     "country_en": "Italy",
+     "amount_kusd": 49435,
+     "share_pct": 4.7
+    },
+    {
+     "year": 2024,
+     "rank": 6,
+     "country_ko": "중국",
+     "country_en": "China",
+     "amount_kusd": 36916,
+     "share_pct": 3.5
+    },
+    {
+     "year": 2024,
+     "rank": 7,
+     "country_ko": "스페인",
+     "country_en": "Spain",
+     "amount_kusd": 22279,
+     "share_pct": 2.1
+    },
+    {
+     "year": 2024,
+     "rank": 8,
+     "country_ko": "호주",
+     "country_en": "Australia",
+     "amount_kusd": 15285,
+     "share_pct": 1.4
+    },
+    {
+     "year": 2024,
+     "rank": 9,
+     "country_ko": "아르헨티나",
+     "country_en": "Argentina",
+     "amount_kusd": 13786,
+     "share_pct": 1.3
+    },
+    {
+     "year": 2024,
+     "rank": 10,
+     "country_ko": "뉴질랜드",
+     "country_en": "New Zealand",
+     "amount_kusd": 12167,
+     "share_pct": 1.2
+    },
+    {
+     "year": 2025,
+     "rank": "total",
+     "country_ko": "총계",
+     "country_en": "Total",
+     "amount_kusd": 1020077,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2025,
+     "rank": "top10_subtotal",
+     "country_ko": "소계",
+     "country_en": "Subtotal",
+     "amount_kusd": 896228,
+     "share_pct": 87.9
+    },
+    {
+     "year": 2025,
+     "rank": 1,
+     "country_ko": "미국",
+     "country_en": "USA",
+     "amount_kusd": 387680,
+     "share_pct": 38.0
+    },
+    {
+     "year": 2025,
+     "rank": 2,
+     "country_ko": "독일",
+     "country_en": "Germany",
+     "amount_kusd": 201215,
+     "share_pct": 19.7
+    },
+    {
+     "year": 2025,
+     "rank": 3,
+     "country_ko": "캐나다",
+     "country_en": "Canada",
+     "amount_kusd": 69982,
+     "share_pct": 6.9
+    },
+    {
+     "year": 2025,
+     "rank": 4,
+     "country_ko": "인도",
+     "country_en": "India",
+     "amount_kusd": 69921,
+     "share_pct": 6.9
+    },
+    {
+     "year": 2025,
+     "rank": 5,
+     "country_ko": "중국",
+     "country_en": "China",
+     "amount_kusd": 54396,
+     "share_pct": 5.3
+    },
+    {
+     "year": 2025,
+     "rank": 6,
+     "country_ko": "이탈리아",
+     "country_en": "Italy",
+     "amount_kusd": 47823,
+     "share_pct": 4.7
+    },
+    {
+     "year": 2025,
+     "rank": 7,
+     "country_ko": "스페인",
+     "country_en": "Spain",
+     "amount_kusd": 18711,
+     "share_pct": 1.8
+    },
+    {
+     "year": 2025,
+     "rank": 8,
+     "country_ko": "호주",
+     "country_en": "Australia",
+     "amount_kusd": 17814,
+     "share_pct": 1.7
+    },
+    {
+     "year": 2025,
+     "rank": 9,
+     "country_ko": "아르헨티나",
+     "country_en": "Argentina",
+     "amount_kusd": 14916,
+     "share_pct": 1.5
+    },
+    {
+     "year": 2025,
+     "rank": 10,
+     "country_ko": "프랑스",
+     "country_en": "France",
+     "amount_kusd": 13770,
+     "share_pct": 1.3
+    }
+   ],
+   "note": ""
+  },
+  {
+   "key": "import_top_items",
+   "table_no": "표 3-2-3-6",
+   "title_ko": "건강기능식품 수입액 상위 10개 품목 - 연도별 : 2021-2025",
+   "unit": "천 달러 (amount), % (share)",
+   "page": [
+    224,
+    225
+   ],
+   "pdf_page": [
+    226,
+    227
+   ],
+   "rows": [
+    {
+     "year": 2021,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kusd": 1098762,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2021,
+     "rank": "top10_subtotal",
+     "item_ko": "소계",
+     "item_en": "Subtotal",
+     "amount_kusd": 929553,
+     "share_pct": 84.6
+    },
+    {
+     "year": 2021,
+     "rank": 1,
+     "item_ko": "복합영양소제품",
+     "item_en": "Complex nutrients products",
+     "amount_kusd": 269801,
+     "share_pct": 24.6
+    },
+    {
+     "year": 2021,
+     "rank": 2,
+     "item_ko": "영양소기능성복합제품",
+     "item_en": "Complex nutrients and functional ingredients products",
+     "amount_kusd": 205007,
+     "share_pct": 18.7
+    },
+    {
+     "year": 2021,
+     "rank": 3,
+     "item_ko": "개별인정형건강기능식품",
+     "item_en": "Product-Specific",
+     "amount_kusd": 138541,
+     "share_pct": 12.6
+    },
+    {
+     "year": 2021,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kusd": 126291,
+     "share_pct": 11.5
+    },
+    {
+     "year": 2021,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible oils contain EPA and DHA",
+     "amount_kusd": 83898,
+     "share_pct": 7.6
+    },
+    {
+     "year": 2021,
+     "rank": 6,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kusd": 32547,
+     "share_pct": 3.0
+    },
+    {
+     "year": 2021,
+     "rank": 7,
+     "item_ko": "비타민 C",
+     "item_en": "Vitamin C",
+     "amount_kusd": 27350,
+     "share_pct": 2.5
+    },
+    {
+     "year": 2021,
+     "rank": 8,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kusd": 17752,
+     "share_pct": 1.6
+    },
+    {
+     "year": 2021,
+     "rank": 9,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk thistle extracts",
+     "amount_kusd": 14593,
+     "share_pct": 1.3
+    },
+    {
+     "year": 2021,
+     "rank": 10,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe gel",
+     "amount_kusd": 13774,
+     "share_pct": 1.3
+    },
+    {
+     "year": 2022,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kusd": 1161944,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2022,
+     "rank": "top10_subtotal",
+     "item_ko": "소계",
+     "item_en": "Subtotal",
+     "amount_kusd": 990154,
+     "share_pct": 85.2
+    },
+    {
+     "year": 2022,
+     "rank": 1,
+     "item_ko": "복합영양소제품",
+     "item_en": "Complex nutrients products",
+     "amount_kusd": 337330,
+     "share_pct": 29.0
+    },
+    {
+     "year": 2022,
+     "rank": 2,
+     "item_ko": "영양소기능성복합제품",
+     "item_en": "Complex nutrients and functional ingredients products",
+     "amount_kusd": 202577,
+     "share_pct": 17.4
+    },
+    {
+     "year": 2022,
+     "rank": 3,
+     "item_ko": "개별인정형건강기능식품",
+     "item_en": "Product-Specific",
+     "amount_kusd": 166671,
+     "share_pct": 14.3
+    },
+    {
+     "year": 2022,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kusd": 96668,
+     "share_pct": 8.3
+    },
+    {
+     "year": 2022,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible oils contain EPA and DHA",
+     "amount_kusd": 95252,
+     "share_pct": 8.2
+    },
+    {
+     "year": 2022,
+     "rank": 6,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kusd": 26714,
+     "share_pct": 2.3
+    },
+    {
+     "year": 2022,
+     "rank": 7,
+     "item_ko": "비타민 C",
+     "item_en": "Vitamin C",
+     "amount_kusd": 26682,
+     "share_pct": 2.3
+    },
+    {
+     "year": 2022,
+     "rank": 8,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk thistle extracts",
+     "amount_kusd": 13933,
+     "share_pct": 1.2
+    },
+    {
+     "year": 2022,
+     "rank": 9,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe gel",
+     "amount_kusd": 13033,
+     "share_pct": 1.1
+    },
+    {
+     "year": 2022,
+     "rank": 10,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kusd": 11295,
+     "share_pct": 1.0
+    },
+    {
+     "year": 2023,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kusd": 1069058,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2023,
+     "rank": "top10_subtotal",
+     "item_ko": "소계",
+     "item_en": "Subtotal",
+     "amount_kusd": 915185,
+     "share_pct": 85.6
+    },
+    {
+     "year": 2023,
+     "rank": 1,
+     "item_ko": "복합영양소제품",
+     "item_en": "Complex nutrients products",
+     "amount_kusd": 312885,
+     "share_pct": 29.3
+    },
+    {
+     "year": 2023,
+     "rank": 2,
+     "item_ko": "영양소기능성복합제품",
+     "item_en": "Complex nutrients and functional ingredients products",
+     "amount_kusd": 160252,
+     "share_pct": 15.0
+    },
+    {
+     "year": 2023,
+     "rank": 3,
+     "item_ko": "개별인정형건강기능식품",
+     "item_en": "Product-Specific",
+     "amount_kusd": 152256,
+     "share_pct": 14.2
+    },
+    {
+     "year": 2023,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kusd": 109004,
+     "share_pct": 10.2
+    },
+    {
+     "year": 2023,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible oils contain EPA and DHA",
+     "amount_kusd": 85308,
+     "share_pct": 8.0
+    },
+    {
+     "year": 2023,
+     "rank": 6,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kusd": 25251,
+     "share_pct": 2.4
+    },
+    {
+     "year": 2023,
+     "rank": 7,
+     "item_ko": "비타민 C",
+     "item_en": "Vitamin C",
+     "amount_kusd": 22431,
+     "share_pct": 2.1
+    },
+    {
+     "year": 2023,
+     "rank": 8,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk thistle extracts",
+     "amount_kusd": 19678,
+     "share_pct": 1.8
+    },
+    {
+     "year": 2023,
+     "rank": 9,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kusd": 17664,
+     "share_pct": 1.7
+    },
+    {
+     "year": 2023,
+     "rank": 10,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe gel",
+     "amount_kusd": 10457,
+     "share_pct": 1.0
+    },
+    {
+     "year": 2024,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kusd": 1057013,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2024,
+     "rank": "top10_subtotal",
+     "item_ko": "소계",
+     "item_en": "Subtotal",
+     "amount_kusd": 897538,
+     "share_pct": 84.9
+    },
+    {
+     "year": 2024,
+     "rank": 1,
+     "item_ko": "복합영양소제품",
+     "item_en": "Complex nutrients products",
+     "amount_kusd": 280048,
+     "share_pct": 26.5
+    },
+    {
+     "year": 2024,
+     "rank": 2,
+     "item_ko": "영양소기능성복합제품",
+     "item_en": "Complex nutrients and functional ingredients products",
+     "amount_kusd": 174821,
+     "share_pct": 16.5
+    },
+    {
+     "year": 2024,
+     "rank": 3,
+     "item_ko": "개별인정형건강기능식품",
+     "item_en": "Product-Specific",
+     "amount_kusd": 153784,
+     "share_pct": 14.5
+    },
+    {
+     "year": 2024,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kusd": 103027,
+     "share_pct": 9.7
+    },
+    {
+     "year": 2024,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible oils contain EPA and DHA",
+     "amount_kusd": 83991,
+     "share_pct": 7.9
+    },
+    {
+     "year": 2024,
+     "rank": 6,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kusd": 33352,
+     "share_pct": 3.2
+    },
+    {
+     "year": 2024,
+     "rank": 7,
+     "item_ko": "비타민 C",
+     "item_en": "Vitamin C",
+     "amount_kusd": 22149,
+     "share_pct": 2.1
+    },
+    {
+     "year": 2024,
+     "rank": 8,
+     "item_ko": "포스파티딜세린",
+     "item_en": "Phosphatidylserine",
+     "amount_kusd": 19933,
+     "share_pct": 1.9
+    },
+    {
+     "year": 2024,
+     "rank": 9,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk thistle extracts",
+     "amount_kusd": 15073,
+     "share_pct": 1.4
+    },
+    {
+     "year": 2024,
+     "rank": 10,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kusd": 11359,
+     "share_pct": 1.1
+    },
+    {
+     "year": 2025,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kusd": 1020077,
+     "share_pct": 100.0
+    },
+    {
+     "year": 2025,
+     "rank": "top10_subtotal",
+     "item_ko": "소계",
+     "item_en": "Subtotal",
+     "amount_kusd": 870267,
+     "share_pct": 85.3
+    },
+    {
+     "year": 2025,
+     "rank": 1,
+     "item_ko": "복합영양소제품",
+     "item_en": "Complex nutrients products",
+     "amount_kusd": 280192,
+     "share_pct": 27.5
+    },
+    {
+     "year": 2025,
+     "rank": 2,
+     "item_ko": "영양소기능성복합제품",
+     "item_en": "Complex nutrients and functional ingredients products",
+     "amount_kusd": 145948,
+     "share_pct": 14.3
+    },
+    {
+     "year": 2025,
+     "rank": 3,
+     "item_ko": "개별인정형건강기능식품",
+     "item_en": "Product-Specific",
+     "amount_kusd": 142442,
+     "share_pct": 14.0
+    },
+    {
+     "year": 2025,
+     "rank": 4,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible oils contain EPA and DHA",
+     "amount_kusd": 103855,
+     "share_pct": 10.2
+    },
+    {
+     "year": 2025,
+     "rank": 5,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kusd": 100419,
+     "share_pct": 9.8
+    },
+    {
+     "year": 2025,
+     "rank": 6,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kusd": 24549,
+     "share_pct": 2.4
+    },
+    {
+     "year": 2025,
+     "rank": 7,
+     "item_ko": "비타민 C",
+     "item_en": "Vitamin C",
+     "amount_kusd": 23576,
+     "share_pct": 2.3
+    },
+    {
+     "year": 2025,
+     "rank": 8,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kusd": 16590,
+     "share_pct": 1.6
+    },
+    {
+     "year": 2025,
+     "rank": 9,
+     "item_ko": "포스파티딜세린",
+     "item_en": "Phosphatidylserine",
+     "amount_kusd": 16386,
+     "share_pct": 1.6
+    },
+    {
+     "year": 2025,
+     "rank": 10,
+     "item_ko": "헤마토코쿠스 추출물",
+     "item_en": "Haematococcus extracts",
+     "amount_kusd": 16310,
+     "share_pct": 1.6
+    }
+   ],
+   "note": ""
+  },
+  {
+   "key": "adverse_events",
+   "table_no": "표 4-3-13",
+   "title_ko": "건강기능식품 이상사례 보고 현황 - 연도별 : 2010-2025",
+   "unit": "건",
+   "page": 309,
+   "pdf_page": 311,
+   "rows": [
+    {
+     "year": 2010,
+     "total": 95,
+     "consumer_reports": 95,
+     "business_operator_reports": null
+    },
+    {
+     "year": 2011,
+     "total": 108,
+     "consumer_reports": 108,
+     "business_operator_reports": null
+    },
+    {
+     "year": 2012,
+     "total": 58,
+     "consumer_reports": 58,
+     "business_operator_reports": null
+    },
+    {
+     "year": 2013,
+     "total": 139,
+     "consumer_reports": 108,
+     "business_operator_reports": 31
+    },
+    {
+     "year": 2014,
+     "total": 1733,
+     "consumer_reports": 1583,
+     "business_operator_reports": 150
+    },
+    {
+     "year": 2015,
+     "total": 502,
+     "consumer_reports": 395,
+     "business_operator_reports": 107
+    },
+    {
+     "year": 2016,
+     "total": 696,
+     "consumer_reports": 399,
+     "business_operator_reports": 297
+    },
+    {
+     "year": 2017,
+     "total": 874,
+     "consumer_reports": 271,
+     "business_operator_reports": 603
+    },
+    {
+     "year": 2018,
+     "total": 964,
+     "consumer_reports": 257,
+     "business_operator_reports": 707
+    },
+    {
+     "year": 2019,
+     "total": 1127,
+     "consumer_reports": 236,
+     "business_operator_reports": 891
+    },
+    {
+     "year": 2020,
+     "total": 1193,
+     "consumer_reports": 217,
+     "business_operator_reports": 976
+    },
+    {
+     "year": 2021,
+     "total": 1340,
+     "consumer_reports": 252,
+     "business_operator_reports": 1088
+    },
+    {
+     "year": 2022,
+     "total": 1115,
+     "consumer_reports": 203,
+     "business_operator_reports": 912
+    },
+    {
+     "year": 2023,
+     "total": 1431,
+     "consumer_reports": 148,
+     "business_operator_reports": 1283
+    },
+    {
+     "year": 2024,
+     "total": 2313,
+     "consumer_reports": 136,
+     "business_operator_reports": 2177
+    },
+    {
+     "year": 2025,
+     "total": 3547,
+     "consumer_reports": 118,
+     "business_operator_reports": 3429
+    }
+   ],
+   "note": "Columns: 총계 / 소비자 신고 / 영업자 보고 (EN header: 'Reports by Health Supplement Association')."
+  },
+  {
+   "key": "firms_by_type",
+   "table_no": "표 4-1-2",
+   "title_ko": "건강기능식품 관련업체 현황 - 연도별/시도별, 업종별 : 2010-2025",
+   "unit": "개소",
+   "page": 267,
+   "pdf_page": 269,
+   "rows": [
+    {
+     "year": 2010,
+     "total": 72631,
+     "mfg_subtotal": 397,
+     "mfg_specialized": 361,
+     "mfg_venture": 36,
+     "sales_subtotal": 72234,
+     "sales_general": 70753,
+     "sales_distribution_specialized": 1481,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2011,
+     "total": 80605,
+     "mfg_subtotal": 424,
+     "mfg_specialized": 386,
+     "mfg_venture": 38,
+     "sales_subtotal": 80181,
+     "sales_general": 78591,
+     "sales_distribution_specialized": 1590,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2012,
+     "total": 84417,
+     "mfg_subtotal": 435,
+     "mfg_specialized": 396,
+     "mfg_venture": 39,
+     "sales_subtotal": 83982,
+     "sales_general": 82246,
+     "sales_distribution_specialized": 1736,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2013,
+     "total": 93060,
+     "mfg_subtotal": 449,
+     "mfg_specialized": 407,
+     "mfg_venture": 42,
+     "sales_subtotal": 92611,
+     "sales_general": 90687,
+     "sales_distribution_specialized": 1924,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2014,
+     "total": 98040,
+     "mfg_subtotal": 460,
+     "mfg_specialized": 414,
+     "mfg_venture": 46,
+     "sales_subtotal": 97580,
+     "sales_general": 95404,
+     "sales_distribution_specialized": 2176,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2015,
+     "total": 95178,
+     "mfg_subtotal": 487,
+     "mfg_specialized": 434,
+     "mfg_venture": 53,
+     "sales_subtotal": 94691,
+     "sales_general": 92217,
+     "sales_distribution_specialized": 2474,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2016,
+     "total": 95792,
+     "mfg_subtotal": 487,
+     "mfg_specialized": 433,
+     "mfg_venture": 54,
+     "sales_subtotal": 95305,
+     "sales_general": 92587,
+     "sales_distribution_specialized": 2718,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2017,
+     "total": 89330,
+     "mfg_subtotal": 496,
+     "mfg_specialized": 439,
+     "mfg_venture": 57,
+     "sales_subtotal": 88834,
+     "sales_general": 85855,
+     "sales_distribution_specialized": 2979,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2018,
+     "total": 87849,
+     "mfg_subtotal": 500,
+     "mfg_specialized": 439,
+     "mfg_venture": 61,
+     "sales_subtotal": 87349,
+     "sales_general": 84058,
+     "sales_distribution_specialized": 3291,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2019,
+     "total": 82067,
+     "mfg_subtotal": 508,
+     "mfg_specialized": 443,
+     "mfg_venture": 65,
+     "sales_subtotal": 81559,
+     "sales_general": 78312,
+     "sales_distribution_specialized": 3247,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2020,
+     "total": 92010,
+     "mfg_subtotal": 521,
+     "mfg_specialized": 454,
+     "mfg_venture": 67,
+     "sales_subtotal": 91489,
+     "sales_general": 87688,
+     "sales_distribution_specialized": 3801,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2021,
+     "total": 103959,
+     "mfg_subtotal": 539,
+     "mfg_specialized": 462,
+     "mfg_venture": 77,
+     "sales_subtotal": 103420,
+     "sales_general": 98951,
+     "sales_distribution_specialized": 4469,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2022,
+     "total": 126893,
+     "mfg_subtotal": 566,
+     "mfg_specialized": 489,
+     "mfg_venture": 77,
+     "sales_subtotal": 126327,
+     "sales_general": 121223,
+     "sales_distribution_specialized": 5104,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2023,
+     "total": 127395,
+     "mfg_subtotal": 591,
+     "mfg_specialized": 513,
+     "mfg_venture": 78,
+     "sales_subtotal": 126804,
+     "sales_general": 121174,
+     "sales_distribution_specialized": 5630,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2024,
+     "total": 117866,
+     "mfg_subtotal": 607,
+     "mfg_specialized": 519,
+     "mfg_venture": 88,
+     "sales_subtotal": 117259,
+     "sales_general": 111233,
+     "sales_distribution_specialized": 6026,
+     "personalized_hff_sales": null
+    },
+    {
+     "year": 2025,
+     "total": 122362,
+     "mfg_subtotal": 613,
+     "mfg_specialized": 533,
+     "mfg_venture": 80,
+     "sales_subtotal": 121044,
+     "sales_general": 114650,
+     "sales_distribution_specialized": 6394,
+     "personalized_hff_sales": 705
+    }
+   ],
+   "note": "No 수입업 column is printed. Footnote: since 2016 건강기능식품수입업 영업신고 was merged into 수입식품 등 수입판매업 (수입식품안전관리 특별법). 맞춤형건강기능식품판매업 column is blank for 2010-2024 (new business type; only 2025 = 705) -> null. 2025 시도별 breakdown printed but not extracted."
+  },
+  {
+   "key": "sales_by_item",
+   "table_no": "표 4-2-7",
+   "title_ko": "건강기능식품 매출액, 국내 판매액 및 수출액 - 연도별, 품목별 : 2015-2025",
+   "unit": "천 원 (subtotal/domestic/export_kkrw), 달러 (export_usd)",
+   "page": [
+    284,
+    285
+   ],
+   "pdf_page": [
+    286,
+    287
+   ],
+   "rows": [
+    {
+     "level": "year_total",
+     "year": 2015,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 1822993077,
+     "domestic_kkrw": 1732559521,
+     "export_kkrw": 90433556,
+     "export_usd": 79958936
+    },
+    {
+     "level": "year_total",
+     "year": 2016,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 2125996285,
+     "domestic_kkrw": 2017548499,
+     "export_kkrw": 108447786,
+     "export_usd": 93456439
+    },
+    {
+     "level": "year_total",
+     "year": 2017,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 2237398489,
+     "domestic_kkrw": 2129742602,
+     "export_kkrw": 107655887,
+     "export_usd": 95230245
+    },
+    {
+     "level": "year_total",
+     "year": 2018,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 2522050463,
+     "domestic_kkrw": 2396224801,
+     "export_kkrw": 125825661,
+     "export_usd": 114326684
+    },
+    {
+     "level": "year_total",
+     "year": 2019,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 2950786930,
+     "domestic_kkrw": 2808102867,
+     "export_kkrw": 142684063,
+     "export_usd": 122359008
+    },
+    {
+     "level": "year_total",
+     "year": 2020,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 3325388036,
+     "domestic_kkrw": 3098950173,
+     "export_kkrw": 226437863,
+     "export_usd": 191894868
+    },
+    {
+     "level": "year_total",
+     "year": 2021,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 4032130137,
+     "domestic_kkrw": 3801497841,
+     "export_kkrw": 230632295,
+     "export_usd": 201494217
+    },
+    {
+     "level": "year_total",
+     "year": 2022,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 4169524534,
+     "domestic_kkrw": 3891414177,
+     "export_kkrw": 278110357,
+     "export_usd": 215222478
+    },
+    {
+     "level": "year_total",
+     "year": 2023,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 4091862920,
+     "domestic_kkrw": 3767675996,
+     "export_kkrw": 324186924,
+     "export_usd": 248341076
+    },
+    {
+     "level": "year_total",
+     "year": 2024,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 4013141069,
+     "domestic_kkrw": 3632972426,
+     "export_kkrw": 380168643,
+     "export_usd": 278638386
+    },
+    {
+     "level": "year_total",
+     "year": 2025,
+     "item_ko": null,
+     "item_en": null,
+     "subtotal_kkrw": 4090967394,
+     "domestic_kkrw": 3638539863,
+     "export_kkrw": 452427531,
+     "export_usd": 318169533
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "비타민 및 무기질",
+     "item_en": "Vitamin and Mineral",
+     "subtotal_kkrw": 787500865,
+     "domestic_kkrw": 671221017,
+     "export_kkrw": 116279848,
+     "export_usd": 81773770
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "식이섬유(보충용)",
+     "item_en": "Dietary Fiber(Supplement)",
+     "subtotal_kkrw": 1491834,
+     "domestic_kkrw": 1491834,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "subtotal_kkrw": 42699287,
+     "domestic_kkrw": 41349409,
+     "export_kkrw": 1349878,
+     "export_usd": 949301
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "필수 지방산",
+     "item_en": "Essential Fatty Acid",
+     "subtotal_kkrw": 2728264,
+     "domestic_kkrw": 2728264,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "인삼",
+     "item_en": "Ginseng",
+     "subtotal_kkrw": 10053820,
+     "domestic_kkrw": 5804115,
+     "export_kkrw": 4249705,
+     "export_usd": 2988604
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "홍삼",
+     "item_en": "Red Ginseng",
+     "subtotal_kkrw": 784484990,
+     "domestic_kkrw": 726716138,
+     "export_kkrw": 57768852,
+     "export_usd": 40625929
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "엽록소 함유 식물",
+     "item_en": "Plants Containing Chlorophyll",
+     "subtotal_kkrw": 15148,
+     "domestic_kkrw": 15148,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "클로렐라",
+     "item_en": "Chlorella",
+     "subtotal_kkrw": 7339505,
+     "domestic_kkrw": 1553543,
+     "export_kkrw": 5785962,
+     "export_usd": 4068976
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "스피루리나",
+     "item_en": "Spirulina",
+     "subtotal_kkrw": 5225158,
+     "domestic_kkrw": 5224649,
+     "export_kkrw": 509,
+     "export_usd": 358
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "녹차추출물",
+     "item_en": "Green Tea Extract",
+     "subtotal_kkrw": 33509319,
+     "domestic_kkrw": 32879746,
+     "export_kkrw": 629573,
+     "export_usd": 442747
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "알로에 전잎",
+     "item_en": "Aloe Whole Leaves",
+     "subtotal_kkrw": 13175,
+     "domestic_kkrw": 13175,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "프로폴리스추출물",
+     "item_en": "Propolis Extract",
+     "subtotal_kkrw": 22278245,
+     "domestic_kkrw": 21400471,
+     "export_kkrw": 877774,
+     "export_usd": 617294
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "subtotal_kkrw": 34550771,
+     "domestic_kkrw": 21244798,
+     "export_kkrw": 13305973,
+     "export_usd": 9357422
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "대두이소플라본",
+     "item_en": "Soybean Isoflavone",
+     "subtotal_kkrw": 556028,
+     "domestic_kkrw": 514366,
+     "export_kkrw": 41662,
+     "export_usd": 29299
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "구아바잎 추출물",
+     "item_en": "Guava Leaf Extracts",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "바나바잎 추출물",
+     "item_en": "Banaba Leaf Extracts",
+     "subtotal_kkrw": 13920754,
+     "domestic_kkrw": 13163829,
+     "export_kkrw": 756925,
+     "export_usd": 532307
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "은행잎 추출물",
+     "item_en": "Ginkgo Biloba Extracts",
+     "subtotal_kkrw": 32969314,
+     "domestic_kkrw": 32680304,
+     "export_kkrw": 289010,
+     "export_usd": 203246
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk Thistle Extracts",
+     "subtotal_kkrw": 121312956,
+     "domestic_kkrw": 113776701,
+     "export_kkrw": 7536255,
+     "export_usd": 5299869
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "달맞이꽃종자 추출물",
+     "item_en": "Evening Primrose Seeds Extracts",
+     "subtotal_kkrw": 435576,
+     "domestic_kkrw": 435576,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible Oil Containing EPA and DHA",
+     "subtotal_kkrw": 318428605,
+     "domestic_kkrw": 238467658,
+     "export_kkrw": 79960947,
+     "export_usd": 56232513
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "감마리놀렌산 함유 유지",
+     "item_en": "Edible Oil Containing Gama-linolenic Acid",
+     "subtotal_kkrw": 11664780,
+     "domestic_kkrw": 11426941,
+     "export_kkrw": 237839,
+     "export_usd": 167260
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "레시틴",
+     "item_en": "Lecithin",
+     "subtotal_kkrw": 1914457,
+     "domestic_kkrw": 944949,
+     "export_kkrw": 969508,
+     "export_usd": 681806
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "스쿠알렌",
+     "item_en": "Squalene",
+     "subtotal_kkrw": 3833114,
+     "domestic_kkrw": 3763800,
+     "export_kkrw": 69314,
+     "export_usd": 48745
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "식물스테롤/식물스테롤에스테르",
+     "item_en": "Phytosterol/Phytosterolester",
+     "subtotal_kkrw": 115478,
+     "domestic_kkrw": 115478,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "알콕시글리세롤 함유 상어간유",
+     "item_en": "Shark Liver Oil Containing Alkoxyglycerol",
+     "subtotal_kkrw": 5182066,
+     "domestic_kkrw": 5078554,
+     "export_kkrw": 103512,
+     "export_usd": 72795
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "옥타코사놀 함유 유지",
+     "item_en": "Edible Oil Containing Octacosanol",
+     "subtotal_kkrw": 6174262,
+     "domestic_kkrw": 2745855,
+     "export_kkrw": 3428407,
+     "export_usd": 2411026
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "매실추출물",
+     "item_en": "Japanese Apricot Extracts",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "공액리놀레산",
+     "item_en": "Conjugated Linoleic Acid",
+     "subtotal_kkrw": 4045763,
+     "domestic_kkrw": 3309596,
+     "export_kkrw": 736167,
+     "export_usd": 517709
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "가르시니아캄보지아 추출물",
+     "item_en": "Garcinia cambogia Extract",
+     "subtotal_kkrw": 54065785,
+     "domestic_kkrw": 48150814,
+     "export_kkrw": 5914971,
+     "export_usd": 4159702
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "마리골드꽃추출물",
+     "item_en": "Marigold Flower Extracts",
+     "subtotal_kkrw": 40432618,
+     "domestic_kkrw": 36400201,
+     "export_kkrw": 4032417,
+     "export_usd": 2835796
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "헤마토코쿠스 추출물",
+     "item_en": "Haematococcus Extracts",
+     "subtotal_kkrw": 13903801,
+     "domestic_kkrw": 12585170,
+     "export_kkrw": 1318631,
+     "export_usd": 927327
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "쏘팔메토 열매 추출물",
+     "item_en": "Sawpalmetto Fruit Extracts",
+     "subtotal_kkrw": 29399817,
+     "domestic_kkrw": 29170638,
+     "export_kkrw": 229179,
+     "export_usd": 161170
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "포스파티딜세린",
+     "item_en": "Phosphatidylserine",
+     "subtotal_kkrw": 50789226,
+     "domestic_kkrw": 50442473,
+     "export_kkrw": 346753,
+     "export_usd": 243854
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "글루코사민",
+     "item_en": "Glucosamine",
+     "subtotal_kkrw": 1717464,
+     "domestic_kkrw": 1709764,
+     "export_kkrw": 7700,
+     "export_usd": 5415
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "NAG(엔에이지, N-아세틸글루코사민)",
+     "item_en": "N-Acetylglucosamine",
+     "subtotal_kkrw": 10753906,
+     "domestic_kkrw": 10028713,
+     "export_kkrw": 725193,
+     "export_usd": 509992
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "뮤코다당·단백",
+     "item_en": "Mucopolysaccharide·mucoprotein",
+     "subtotal_kkrw": 35558731,
+     "domestic_kkrw": 35370340,
+     "export_kkrw": 188391,
+     "export_usd": 132486
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "구아검/구아검가수분해물",
+     "item_en": "Guar Gum / Guar Gum Hydrolysate",
+     "subtotal_kkrw": 1348383,
+     "domestic_kkrw": 1348383,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "글루코만난",
+     "item_en": "Glucomannan",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "귀리식이섬유",
+     "item_en": "Oat dietary fiber",
+     "subtotal_kkrw": 692576,
+     "domestic_kkrw": 674349,
+     "export_kkrw": 18227,
+     "export_usd": 12818
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "난소화성말토덱스트린",
+     "item_en": "Indigestible Maltodextrin",
+     "subtotal_kkrw": 40270292,
+     "domestic_kkrw": 32061192,
+     "export_kkrw": 8209100,
+     "export_usd": 5773047
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "대두식이섬유",
+     "item_en": "Soybean Dietary Fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "목이버섯식이섬유",
+     "item_en": "Tree Ear Dietary Fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "밀식이섬유",
+     "item_en": "Wheat Dietary fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "보리식이섬유",
+     "item_en": "Barley Dietary Fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "아라비아검",
+     "item_en": "Arabic Gum",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "옥수수겨식이섬유",
+     "item_en": "Corn Bran Dietary Fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "이눌린/치커리추출물",
+     "item_en": "Inulin / Chicory Extracts",
+     "subtotal_kkrw": 5736430,
+     "domestic_kkrw": 5736430,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "차전자피식이섬유",
+     "item_en": "Psyllium Husk Dietary Fiber",
+     "subtotal_kkrw": 35056391,
+     "domestic_kkrw": 33524594,
+     "export_kkrw": 1531797,
+     "export_usd": 1077236
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "폴리덱스트로스",
+     "item_en": "Polydextrose",
+     "subtotal_kkrw": 4995137,
+     "domestic_kkrw": 3299428,
+     "export_kkrw": 1695709,
+     "export_usd": 1192507
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "호로파종자식이섬유",
+     "item_en": "Fenugreek Seed Dietary Fiber",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe gel",
+     "subtotal_kkrw": 30553311,
+     "domestic_kkrw": 29930632,
+     "export_kkrw": 622679,
+     "export_usd": 437899
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "영지버섯 자실체 추출물",
+     "item_en": "Ganoderma Lucidum Fruit Body Extracts",
+     "subtotal_kkrw": 58940,
+     "domestic_kkrw": 58940,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "키토산/키토올리고당",
+     "item_en": "Chitosan / Chitooligosaccharide",
+     "subtotal_kkrw": 2710035,
+     "domestic_kkrw": 2699427,
+     "export_kkrw": 10608,
+     "export_usd": 7460
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "프락토올리고당",
+     "item_en": "Fructooligosaccharide",
+     "subtotal_kkrw": 60544822,
+     "domestic_kkrw": 60243913,
+     "export_kkrw": 300909,
+     "export_usd": 211614
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "subtotal_kkrw": 653803373,
+     "domestic_kkrw": 581806815,
+     "export_kkrw": 71996558,
+     "export_usd": 50631559
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "홍국",
+     "item_en": "Red Yeast Rice",
+     "subtotal_kkrw": 5947572,
+     "domestic_kkrw": 5947572,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "대두단백",
+     "item_en": "Soybean Protein",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "테아닌",
+     "item_en": "Theanine",
+     "subtotal_kkrw": 20211769,
+     "domestic_kkrw": 7258396,
+     "export_kkrw": 12953373,
+     "export_usd": 9109456
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "엠에스엠",
+     "item_en": "MSM, Methyl sulfonylmethane",
+     "subtotal_kkrw": 45285709,
+     "domestic_kkrw": 44545534,
+     "export_kkrw": 740175,
+     "export_usd": 520528
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "폴리감마글루탐산",
+     "item_en": "Poly γ-glutamic Acid",
+     "subtotal_kkrw": 1797637,
+     "domestic_kkrw": 1797637,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "히알루론산",
+     "item_en": "Hyaluronic acid",
+     "subtotal_kkrw": 7016861,
+     "domestic_kkrw": 5901596,
+     "export_kkrw": 1115265,
+     "export_usd": 784310
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "홍경천 추출물",
+     "item_en": "Rhodiola Rosea L. extracts",
+     "subtotal_kkrw": 4083306,
+     "domestic_kkrw": 4083108,
+     "export_kkrw": 198,
+     "export_usd": 139
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "빌베리 추출물",
+     "item_en": "Bilberry Extracts",
+     "subtotal_kkrw": 2252643,
+     "domestic_kkrw": 2252643,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "마늘",
+     "item_en": "Garlic",
+     "subtotal_kkrw": 351246,
+     "domestic_kkrw": 351246,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "라피노스",
+     "item_en": "Raffinose",
+     "subtotal_kkrw": 105240,
+     "domestic_kkrw": 105240,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "분말한천",
+     "item_en": "Agar powder",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "크레아틴",
+     "item_en": "Creatine",
+     "subtotal_kkrw": 2626912,
+     "domestic_kkrw": 2626912,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "유단백가수분해물",
+     "item_en": "Hydrolyzed Milk Protein",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "상황버섯추출물",
+     "item_en": "Phellinus Linteus Extracts",
+     "subtotal_kkrw": null,
+     "domestic_kkrw": null,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "토마토추출물",
+     "item_en": "Tomato Extracts",
+     "subtotal_kkrw": 1492784,
+     "domestic_kkrw": 904029,
+     "export_kkrw": 588755,
+     "export_usd": 414042
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "곤약감자추출물",
+     "item_en": "Amorphophallus Konjac Extracts",
+     "subtotal_kkrw": 49389,
+     "domestic_kkrw": 49389,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "회화나무열매추출물",
+     "item_en": "Sophora Japonica L. fruit Extracts",
+     "subtotal_kkrw": 3812056,
+     "domestic_kkrw": 3659624,
+     "export_kkrw": 152432,
+     "export_usd": 107198
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "콜레우스포스콜리 추출물",
+     "item_en": "Coleus forskohlii Extracts",
+     "subtotal_kkrw": 4867123,
+     "domestic_kkrw": 4867123,
+     "export_kkrw": null,
+     "export_usd": null
+    },
+    {
+     "level": "item",
+     "year": 2025,
+     "item_ko": "개별인정제품",
+     "item_en": "product-Specific",
+     "subtotal_kkrw": 666232576,
+     "domestic_kkrw": 620881684,
+     "export_kkrw": 45350892,
+     "export_usd": 31893002
+    }
+   ],
+   "note": "Item breakdown is printed for 2025 only; 2015-2024 are national totals. 주: 1달러=1,421.97원(한국은행경제통계시스템, '25.12월 기준)."
+  },
+  {
+   "key": "top20_items",
+   "table_no": "표 4-2-10",
+   "title_ko": "건강기능식품 매출액 상위 20개 품목 현황 : 2024-2025",
+   "unit": "천 원",
+   "page": 288,
+   "pdf_page": 290,
+   "rows": [
+    {
+     "year": 2024,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kkrw": 3815657595
+    },
+    {
+     "year": 2024,
+     "rank": 1,
+     "item_ko": "홍삼",
+     "item_en": "Red Ginseng",
+     "amount_kkrw": 863554248
+    },
+    {
+     "year": 2024,
+     "rank": 2,
+     "item_ko": "비타민 및 무기질",
+     "item_en": "Vitamin and Mineral",
+     "amount_kkrw": 699202611
+    },
+    {
+     "year": 2024,
+     "rank": 3,
+     "item_ko": "개별인정형",
+     "item_en": "Product-Specific",
+     "amount_kkrw": 690286063
+    },
+    {
+     "year": 2024,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kkrw": 639748886
+    },
+    {
+     "year": 2024,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible Oil Containing EPA and DHA",
+     "amount_kkrw": 239104798
+    },
+    {
+     "year": 2024,
+     "rank": 6,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk Thistle Extract",
+     "amount_kkrw": 130015368
+    },
+    {
+     "year": 2024,
+     "rank": 7,
+     "item_ko": "프락토올리고당",
+     "item_en": "Fructooligosaccharide",
+     "amount_kkrw": 78866186
+    },
+    {
+     "year": 2024,
+     "rank": 8,
+     "item_ko": "가르시니아캄보지아 추출물",
+     "item_en": "Garcinia cambogia Extract",
+     "amount_kkrw": 51846309
+    },
+    {
+     "year": 2024,
+     "rank": 9,
+     "item_ko": "포스파티딜세린",
+     "item_en": "Phosphatidylserine",
+     "amount_kkrw": 49459126
+    },
+    {
+     "year": 2024,
+     "rank": 10,
+     "item_ko": "엠에스엠",
+     "item_en": "MSM, Methyl sulfonylmethane, 디메틸설폰",
+     "amount_kkrw": 44880824
+    },
+    {
+     "year": 2024,
+     "rank": 11,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe Gel",
+     "amount_kkrw": 43371610
+    },
+    {
+     "year": 2024,
+     "rank": 12,
+     "item_ko": "녹차추출물",
+     "item_en": "Green Tea Extract",
+     "amount_kkrw": 41341451
+    },
+    {
+     "year": 2024,
+     "rank": 13,
+     "item_ko": "은행잎 추출물",
+     "item_en": "Ginkgo Biloba Extract",
+     "amount_kkrw": 34837474
+    },
+    {
+     "year": 2024,
+     "rank": 14,
+     "item_ko": "마리골드꽃추출물",
+     "item_en": "Marigold Flower Extracts",
+     "amount_kkrw": 33774808
+    },
+    {
+     "year": 2024,
+     "rank": 15,
+     "item_ko": "차전자피식이섬유",
+     "item_en": "Psyllium husk dietary fiber",
+     "amount_kkrw": 31594439
+    },
+    {
+     "year": 2024,
+     "rank": 16,
+     "item_ko": "난소화성말토덱스트린",
+     "item_en": "Indigestible maltodextrin",
+     "amount_kkrw": 30597388
+    },
+    {
+     "year": 2024,
+     "rank": 17,
+     "item_ko": "쏘팔메토 열매추출물",
+     "item_en": "Sawpalmetto Fruit Extracts",
+     "amount_kkrw": 30188283
+    },
+    {
+     "year": 2024,
+     "rank": 18,
+     "item_ko": "테아닌",
+     "item_en": "Theanine",
+     "amount_kkrw": 30151399
+    },
+    {
+     "year": 2024,
+     "rank": 19,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kkrw": 27126497
+    },
+    {
+     "year": 2024,
+     "rank": 20,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kkrw": 25709827
+    },
+    {
+     "year": 2025,
+     "rank": "total",
+     "item_ko": "총계",
+     "item_en": "Total",
+     "amount_kkrw": 3897448758
+    },
+    {
+     "year": 2025,
+     "rank": 1,
+     "item_ko": "비타민 및 무기질",
+     "item_en": "Vitamin and Mineral",
+     "amount_kkrw": 787500865
+    },
+    {
+     "year": 2025,
+     "rank": 2,
+     "item_ko": "홍삼",
+     "item_en": "Red Ginseng",
+     "amount_kkrw": 784484990
+    },
+    {
+     "year": 2025,
+     "rank": 3,
+     "item_ko": "개별인정형",
+     "item_en": "Product-Specific",
+     "amount_kkrw": 666232576
+    },
+    {
+     "year": 2025,
+     "rank": 4,
+     "item_ko": "프로바이오틱스",
+     "item_en": "Probiotics",
+     "amount_kkrw": 653803373
+    },
+    {
+     "year": 2025,
+     "rank": 5,
+     "item_ko": "EPA 및 DHA 함유 유지",
+     "item_en": "Edible Oil Containing EPA and DHA",
+     "amount_kkrw": 318428605
+    },
+    {
+     "year": 2025,
+     "rank": 6,
+     "item_ko": "밀크씨슬(카르두스 마리아누스) 추출물",
+     "item_en": "Milk Thistle Extract",
+     "amount_kkrw": 121312956
+    },
+    {
+     "year": 2025,
+     "rank": 7,
+     "item_ko": "프락토올리고당",
+     "item_en": "Fructooligosaccharide",
+     "amount_kkrw": 60544822
+    },
+    {
+     "year": 2025,
+     "rank": 8,
+     "item_ko": "가르시니아캄보지아 추출물",
+     "item_en": "Garcinia cambogia Extract",
+     "amount_kkrw": 54065785
+    },
+    {
+     "year": 2025,
+     "rank": 9,
+     "item_ko": "포스파티딜세린",
+     "item_en": "Phosphatidylserine",
+     "amount_kkrw": 50789226
+    },
+    {
+     "year": 2025,
+     "rank": 10,
+     "item_ko": "엠에스엠",
+     "item_en": "MSM, Methyl sulfonylmethane, 디메틸설폰",
+     "amount_kkrw": 45285709
+    },
+    {
+     "year": 2025,
+     "rank": 11,
+     "item_ko": "단백질",
+     "item_en": "Protein",
+     "amount_kkrw": 42699287
+    },
+    {
+     "year": 2025,
+     "rank": 12,
+     "item_ko": "마리골드꽃추출물",
+     "item_en": "Marigold Flower Extracts",
+     "amount_kkrw": 40432618
+    },
+    {
+     "year": 2025,
+     "rank": 13,
+     "item_ko": "난소화성말토덱스트린",
+     "item_en": "Indigestible maltodextrin",
+     "amount_kkrw": 40270292
+    },
+    {
+     "year": 2025,
+     "rank": 14,
+     "item_ko": "뮤코다당ㆍ단백",
+     "item_en": "Mucopolysaccharide·mucoprotein",
+     "amount_kkrw": 35558731
+    },
+    {
+     "year": 2025,
+     "rank": 15,
+     "item_ko": "차전자피식이섬유",
+     "item_en": "Psyllium husk dietary fiber",
+     "amount_kkrw": 35056391
+    },
+    {
+     "year": 2025,
+     "rank": 16,
+     "item_ko": "코엔자임Q10",
+     "item_en": "Coenzyme Q10",
+     "amount_kkrw": 34550771
+    },
+    {
+     "year": 2025,
+     "rank": 17,
+     "item_ko": "녹차추출물",
+     "item_en": "Green Tea Extract",
+     "amount_kkrw": 33509319
+    },
+    {
+     "year": 2025,
+     "rank": 18,
+     "item_ko": "은행잎 추출물",
+     "item_en": "Ginkgo Biloba Extract",
+     "amount_kkrw": 32969314
+    },
+    {
+     "year": 2025,
+     "rank": 19,
+     "item_ko": "알로에 겔",
+     "item_en": "Aloe Gel",
+     "amount_kkrw": 30553311
+    },
+    {
+     "year": 2025,
+     "rank": 20,
+     "item_ko": "쏘팔메토 열매추출물",
+     "item_en": "Sawpalmetto Fruit Extracts",
+     "amount_kkrw": 29399817
+    }
+   ],
+   "note": "Printed 총계 is the sum of the top-20 items only (not total HFF sales; cf. 표 4-2-7 2025 소계 4,090,967,394)."
+  },
+  {
+   "key": "import_inspection",
+   "table_no": "표 3-3-1-6",
+   "title_ko": "수입 건강기능식품 검사현황 - 연도별/지방청별, 검사별 : 2012-2025",
+   "unit": "건",
+   "page": 245,
+   "pdf_page": 247,
+   "rows": [
+    {
+     "year": 2012,
+     "total": 7423,
+     "conform": 7327,
+     "reject": 96,
+     "document_review": {
+      "conform": 4649,
+      "reject": 1
+     },
+     "field_test": {
+      "conform": 181,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 1888,
+      "reject": 88
+     },
+     "random_sampling_test": {
+      "conform": 609,
+      "reject": 7
+     }
+    },
+    {
+     "year": 2013,
+     "total": 7945,
+     "conform": 7870,
+     "reject": 75,
+     "document_review": {
+      "conform": 5169,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 83,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 1808,
+      "reject": 61
+     },
+     "random_sampling_test": {
+      "conform": 810,
+      "reject": 13
+     }
+    },
+    {
+     "year": 2014,
+     "total": 8520,
+     "conform": 8439,
+     "reject": 81,
+     "document_review": {
+      "conform": 5487,
+      "reject": 1
+     },
+     "field_test": {
+      "conform": 153,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 2051,
+      "reject": 72
+     },
+     "random_sampling_test": {
+      "conform": 748,
+      "reject": 7
+     }
+    },
+    {
+     "year": 2015,
+     "total": 10113,
+     "conform": 10006,
+     "reject": 107,
+     "document_review": {
+      "conform": 6707,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 146,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 2243,
+      "reject": 93
+     },
+     "random_sampling_test": {
+      "conform": 910,
+      "reject": 14
+     }
+    },
+    {
+     "year": 2016,
+     "total": 10555,
+     "conform": 10442,
+     "reject": 113,
+     "document_review": {
+      "conform": 6835,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 83,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 2471,
+      "reject": 105
+     },
+     "random_sampling_test": {
+      "conform": 1053,
+      "reject": 7
+     }
+    },
+    {
+     "year": 2017,
+     "total": 10691,
+     "conform": 10589,
+     "reject": 102,
+     "document_review": {
+      "conform": 6167,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 122,
+      "reject": 2
+     },
+     "laboratory_test": {
+      "conform": 2534,
+      "reject": 94
+     },
+     "random_sampling_test": {
+      "conform": 1766,
+      "reject": 6
+     }
+    },
+    {
+     "year": 2018,
+     "total": 12043,
+     "conform": 11921,
+     "reject": 122,
+     "document_review": {
+      "conform": 7488,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 58,
+      "reject": 2
+     },
+     "laboratory_test": {
+      "conform": 2728,
+      "reject": 112
+     },
+     "random_sampling_test": {
+      "conform": 1647,
+      "reject": 8
+     }
+    },
+    {
+     "year": 2019,
+     "total": 13104,
+     "conform": 13012,
+     "reject": 92,
+     "document_review": {
+      "conform": 8969,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 56,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 2809,
+      "reject": 89
+     },
+     "random_sampling_test": {
+      "conform": 1178,
+      "reject": 3
+     }
+    },
+    {
+     "year": 2020,
+     "total": 13809,
+     "conform": 13706,
+     "reject": 103,
+     "document_review": {
+      "conform": 9604,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 39,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 2864,
+      "reject": 92
+     },
+     "random_sampling_test": {
+      "conform": 1199,
+      "reject": 10
+     }
+    },
+    {
+     "year": 2021,
+     "total": 14572,
+     "conform": 14464,
+     "reject": 108,
+     "document_review": {
+      "conform": 10072,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 45,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 3036,
+      "reject": 96
+     },
+     "random_sampling_test": {
+      "conform": 1311,
+      "reject": 12
+     }
+    },
+    {
+     "year": 2022,
+     "total": 13938,
+     "conform": 13831,
+     "reject": 107,
+     "document_review": {
+      "conform": 9045,
+      "reject": 1
+     },
+     "field_test": {
+      "conform": 87,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 2990,
+      "reject": 92
+     },
+     "random_sampling_test": {
+      "conform": 1709,
+      "reject": 14
+     }
+    },
+    {
+     "year": 2023,
+     "total": 12462,
+     "conform": 12387,
+     "reject": 75,
+     "document_review": {
+      "conform": 8000,
+      "reject": null
+     },
+     "field_test": {
+      "conform": 76,
+      "reject": null
+     },
+     "laboratory_test": {
+      "conform": 2748,
+      "reject": 69
+     },
+     "random_sampling_test": {
+      "conform": 1563,
+      "reject": 6
+     }
+    },
+    {
+     "year": 2024,
+     "total": 12970,
+     "conform": 12879,
+     "reject": 91,
+     "document_review": {
+      "conform": 8460,
+      "reject": 2
+     },
+     "field_test": {
+      "conform": 125,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 3163,
+      "reject": 82
+     },
+     "random_sampling_test": {
+      "conform": 1131,
+      "reject": 6
+     }
+    },
+    {
+     "year": 2025,
+     "total": 13361,
+     "conform": 13311,
+     "reject": 50,
+     "document_review": {
+      "conform": 9255,
+      "reject": 1
+     },
+     "field_test": {
+      "conform": 238,
+      "reject": 1
+     },
+     "laboratory_test": {
+      "conform": 2688,
+      "reject": 45
+     },
+     "random_sampling_test": {
+      "conform": 1130,
+      "reject": 3
+     }
+    }
+   ],
+   "note": "National totals by year 2012-2025 with 검사별 (서류/현장/정밀/무작위) 적합·부적합. 2025 지방청별 breakdown printed but not extracted."
+  }
+ ]
+}

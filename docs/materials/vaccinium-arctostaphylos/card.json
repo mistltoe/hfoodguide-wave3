@@ -1,0 +1,78 @@
+{
+ "key": "Vaccinium arctostaphylos",
+ "name_ko": "아르크토스타필로스산앵도",
+ "names": [
+  "아르크토스타필로스산앵도열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Caucasian whortleberry, Bearberry, Whortleberry caucasian"
+ ],
+ "scnm_full": [
+  "Vaccinium arctostaphylos L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14766628,
+ "genus": "Vaccinium",
+ "family": "Ericaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "Robustaside A",
+   "compound_ko": null,
+   "pubchem_cid": 26263971,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "2-Hydroxymethyl-6-(4-hydroxy-phenoxy)-tetrahydro-pyran-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 346,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "6-O-Caffeoylarbutin",
+   "compound_ko": null,
+   "pubchem_cid": 15689808,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Cryptochlorogenic acid",
+   "compound_ko": "크립토클로로겐산",
+   "pubchem_cid": 9798666,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 25개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 25
+  },
+  {
+   "compound": "GYFFKZTYYAFCTR-QHEBTOHLSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.079
+}

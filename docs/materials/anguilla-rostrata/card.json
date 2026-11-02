@@ -1,0 +1,30 @@
+{
+ "key": "Anguilla rostrata",
+ "name_ko": "북아메리카 장어",
+ "names": [
+  "북아메리카 장어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "American eel"
+ ],
+ "scnm_full": [
+  "Anguilla rostrata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14919902,
+ "genus": "Anguilla",
+ "family": "Anguillidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

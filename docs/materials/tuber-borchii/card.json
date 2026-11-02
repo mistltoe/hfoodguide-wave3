@@ -1,0 +1,78 @@
+{
+ "key": "Tuber borchii",
+ "name_ko": "대리석덩이버섯",
+ "names": [
+  "대리석덩이버섯자실체"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bianchetto Truffles"
+ ],
+ "scnm_full": [
+  "Tuber borchii Vitt.(=Tuber albidum Picco.)"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14778219,
+ "genus": "Tuber",
+ "family": "Tuberaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 28,
+ "candidates": [
+  {
+   "compound": "(3R)-3-methyloctane",
+   "compound_ko": null,
+   "pubchem_cid": 25021965,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S)-2,3,5-trimethylhexane",
+   "compound_ko": null,
+   "pubchem_cid": 59954463,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(R)-3-Methylheptane",
+   "compound_ko": null,
+   "pubchem_cid": 12263096,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1,3-Di-tert-butylbenzene",
+   "compound_ko": null,
+   "pubchem_cid": 136810,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2,2,4,6,6-Pentamethylheptane",
+   "compound_ko": null,
+   "pubchem_cid": 26058,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.462
+}

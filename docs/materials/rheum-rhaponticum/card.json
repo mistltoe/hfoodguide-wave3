@@ -1,0 +1,82 @@
+{
+ "key": "Rheum rhaponticum",
+ "name_ko": "루바브",
+ "names": [
+  "루바브농축액",
+  "루바브잎",
+  "루바브줄기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Rhubarb"
+ ],
+ "scnm_full": [
+  "Rheum rhaponticum L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14757565,
+ "genus": "Rheum",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 38,
+ "candidates": [
+  {
+   "compound": "(2S,3R,4S,5S,6R)-2-{5-[(1E)-2-(3,5-Dihydroxyphenyl)ethenyl]-2-hydroxyphenoxy}-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 11968990,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 16667665,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[3-hydroxy-5-[(E)-2-(4-methoxyphenyl)ethenyl]phenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 6108426,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[4-[2-(3,5-Dihydroxyphenyl)ethenyl]phenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 72727112,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,3',5-Trihydroxy-4'-methoxystilbene 3-O-beta-D-glucoside",
+   "compound_ko": null,
+   "pubchem_cid": 5062,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.091
+}

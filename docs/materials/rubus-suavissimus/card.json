@@ -1,0 +1,35 @@
+{
+ "key": "Rubus suavissimus",
+ "name_ko": "첨차",
+ "names": [
+  "첨차잎",
+  "첨차추출물",
+  "첨차추출분말"
+ ],
+ "nicknames": [
+  "텐차"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Rubus suavissimus S. Lee"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": null,
+ "genus": "Rubus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.0
+}

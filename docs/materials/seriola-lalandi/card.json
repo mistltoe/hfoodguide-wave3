@@ -1,0 +1,30 @@
+{
+ "key": "Seriola lalandi",
+ "name_ko": "부시리",
+ "names": [
+  "부시리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Yellowtail amberjack"
+ ],
+ "scnm_full": [
+  "Seriola lalandi"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16850035,
+ "genus": "Seriola",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

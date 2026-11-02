@@ -1,0 +1,32 @@
+{
+ "key": "Scapharca broughtonii",
+ "name_ko": "피조개",
+ "names": [
+  "피조개"
+ ],
+ "nicknames": [
+  "큰피조개"
+ ],
+ "eng": [
+  "Broughton’s ribbed ark"
+ ],
+ "scnm_full": [
+  "Scapharca broughtonii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Scapharca",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

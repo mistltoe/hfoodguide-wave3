@@ -1,0 +1,30 @@
+{
+ "key": "Armillariella tabescens",
+ "name_ko": "뽕나무버섯부치",
+ "names": [
+  "뽕나무버섯부치"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Armillariella tabescens sing."
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Armillariella",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

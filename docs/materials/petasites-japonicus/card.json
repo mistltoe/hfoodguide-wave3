@@ -1,0 +1,88 @@
+{
+ "key": "Petasites japonicus",
+ "name_ko": "머위",
+ "names": [
+  "머위",
+  "머위잎",
+  "머위잎추출액",
+  "머위줄기",
+  "머위추출분말"
+ ],
+ "nicknames": [
+  "머구",
+  "머우",
+  "머웃대"
+ ],
+ "eng": [
+  "Butterbur"
+ ],
+ "scnm_full": [
+  "Petasites japonicus (Siebold & Zucc.) Maxim."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14756156,
+ "genus": "Petasites",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 242,
+ "candidates": [
+  {
+   "compound": "Isopetasin",
+   "compound_ko": "이소페타신",
+   "pubchem_cid": 5318627,
+   "part": "Flower, Plant, Rhizome",
+   "content": "최대 160 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE, LOTUS), 최대 160 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "Petasitenine",
+   "compound_ko": null,
+   "pubchem_cid": 5281741,
+   "part": "Flower, Plant, Shoot",
+   "content": "최대 97 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE, LOTUS), 최대 97 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "Senkirkine",
+   "compound_ko": "센키르킨",
+   "pubchem_cid": 5281752,
+   "part": "Flower, Rhizome, Shoot",
+   "content": "최대 26 ppm",
+   "rationale": "이 성분이 보고된 생물은 16개 속뿐이고(특이성), 이 종에서 4건 보고(DUKE, LOTUS), 최대 26 ppm",
+   "n_genera": 16
+  },
+  {
+   "compound": "Neopetasitenine",
+   "compound_ko": null,
+   "pubchem_cid": 6440206,
+   "part": "Flower, Plant",
+   "content": "최대 60 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS), 최대 60 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "(3aR,4R,7aR)-2-acetyl-3a,4-dimethyl-4,6,7,7a-tetrahydro-1H-inden-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 10584415,
+   "part": "Rhizome",
+   "content": "최대 1.06 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 1.06 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 8.763
+}

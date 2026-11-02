@@ -1,0 +1,86 @@
+{
+ "key": "Alnus japonica",
+ "name_ko": "오리나무",
+ "names": [
+  "오리나무",
+  "오리나무농축액",
+  "오리나무수피",
+  "오리나무잎",
+  "오리나무추출액"
+ ],
+ "nicknames": [
+  "오리목"
+ ],
+ "eng": [
+  "Japanese alder"
+ ],
+ "scnm_full": [
+  "Alnus japonica (Thunberg) Steudel"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "나무껍질",
+  "잎"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 수피, 잎"
+ ],
+ "status": "restricted",
+ "n_rows": 5,
+ "bioresource_id": 14761063,
+ "genus": "Alnus",
+ "family": "Betulaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 104,
+ "candidates": [
+  {
+   "compound": "(1S,3aS,5aR,5bS,7aR,11aS,11bR,13aS,13bR)-3a,5a,5b,8,8,11a-hexamethyl-1-prop-1-en-2-yl-2,3,4,5,6,7,7a,10,11,11b,12,13,13a,13b-tetradecahydro-1H-cyclopenta[a]chrysen-9-one",
+   "compound_ko": null,
+   "pubchem_cid": 162943805,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2E)-6-[(3S,3aR,5aS,6S,7S,9aR,9bR)-6-(2-carboxyethyl)-6,9a,9b-trimethyl-7-prop-1-en-2-yl-1,2,3,3a,4,5,5a,7,8,9-decahydrocyclopenta[a]naphthalen-3-yl]-2-methylhepta-2,6-dienoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162860444,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2E)-6-[(3S,3aR,5aS,6S,7S,9aR,9bR)-6-(3-methoxy-3-oxopropyl)-6,9a,9b-trimethyl-7-prop-1-en-2-yl-1,2,3,3a,4,5,5a,7,8,9-decahydrocyclopenta[a]naphthalen-3-yl]-2-methylhepta-2,6-dienoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162984974,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(5R)-1,7-bis(3,4-dihydroxyphenyl)-5-hydroxyheptan-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 44602672,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(5S)-1,7-bis(4-hydroxyphenyl)-5-[(2S,3R,4R,5S)-3,4,5-trihydroxyoxan-2-yl]oxyheptan-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 154497237,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.399
+}

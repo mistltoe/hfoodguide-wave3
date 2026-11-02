@@ -1,0 +1,38 @@
+{
+ "key": "Trichiurus lepturus",
+ "name_ko": "대두갈치",
+ "names": [
+  "대두갈치",
+  "대두갈치내장",
+  "대두갈치살",
+  "대두갈치포"
+ ],
+ "nicknames": [
+  "Pacific cutlassfish",
+  "갈치"
+ ],
+ "eng": [
+  "Pacific cutlassfish"
+ ],
+ "scnm_full": [
+  "Trichiurus lepturus / Trichiurus japonicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "어린순",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 17068685,
+ "genus": "Trichiurus",
+ "family": "Trichiuridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.983
+}

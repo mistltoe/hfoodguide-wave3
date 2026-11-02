@@ -1,0 +1,85 @@
+{
+ "key": "Juniperus rigida",
+ "name_ko": "노간주나무",
+ "names": [
+  "노간주나무농축",
+  "노간주나무분말",
+  "노간주나무열매",
+  "노간주나무오일",
+  "노간주나무추출물"
+ ],
+ "nicknames": [
+  "노가주",
+  "두송"
+ ],
+ "eng": [
+  "Juniperberry"
+ ],
+ "scnm_full": [
+  "Juniperus rigida Siebold & Zucc. / Juniperus communis L. / Juniperus utilis Koidz"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 열매"
+ ],
+ "status": "restricted",
+ "n_rows": 5,
+ "bioresource_id": 14753804,
+ "genus": "Juniperus",
+ "family": "Cupressaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 39,
+ "candidates": [
+  {
+   "compound": "(1S,4aR,8aR)-5-(5-hydroxy-3-methylpent-3-enyl)-1,4a-dimethyl-6-methylidene-3,4,5,7,8,8a-hexahydro-2H-naphthalene-1-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 137705038,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,4aS,4bS,6aR,8S,10aR,10bR,12aR)-1,4b,6a,8,10a,12a-hexamethyl-8-(4-methylpent-3-enyl)-1,3,4,4a,5,6,7,9,10,10b,11,12-dodecahydrochrysen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 163094696,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R,4S)-3,4-dihydroxy-3,4-bis[(4-hydroxy-3-methoxyphenyl)methyl]oxolan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 162880742,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Hydroxysandaracopimaric acid",
+   "compound_ko": null,
+   "pubchem_cid": 101200911,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Hydroxy-5-(3-hydroxy-3-methylbutyl)-6-propan-2-ylcyclohepta-2,4,6-trien-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 5320197,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 5.98
+}

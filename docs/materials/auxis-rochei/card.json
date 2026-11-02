@@ -1,0 +1,34 @@
+{
+ "key": "Auxis rochei",
+ "name_ko": "몽치다래",
+ "names": [
+  "몽치다래",
+  "훈연몽치다래",
+  "훈연몽치다래추출액"
+ ],
+ "nicknames": [
+  "몽치"
+ ],
+ "eng": [
+  "Bullet tuna"
+ ],
+ "scnm_full": [
+  "Auxis rochei"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 15034314,
+ "genus": "Auxis",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.5
+}

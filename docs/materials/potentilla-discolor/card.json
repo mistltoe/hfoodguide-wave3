@@ -1,0 +1,34 @@
+{
+ "key": "Potentilla discolor",
+ "name_ko": "솜양지",
+ "names": [
+  "솜양지꽃뿌리"
+ ],
+ "nicknames": [
+  "칠양지꽃"
+ ],
+ "eng": [
+  "Discolor cinquefoil"
+ ],
+ "scnm_full": [
+  "Potentilla discolor Bunge / Potentilla discolor var. formosana Franch."
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14756962,
+ "genus": "Potentilla",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

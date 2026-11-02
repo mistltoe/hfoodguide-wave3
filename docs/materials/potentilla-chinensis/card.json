@@ -1,0 +1,44 @@
+{
+ "key": "Potentilla chinensis",
+ "name_ko": "딱지",
+ "names": [
+  "딱지꽃순",
+  "딱지꽃잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "East Asian cinquefoil"
+ ],
+ "scnm_full": [
+  "Potentilla chinensis Ser. / Potentilla chinensis subsp. trigonodonta Hand.-Mazz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14756960,
+ "genus": "Potentilla",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "[(2R,3S,4S,6R)-6-[5,7-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-3-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methyl (E)-3-(4-hydroxyphenyl)prop-2-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 163185514,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.678
+}

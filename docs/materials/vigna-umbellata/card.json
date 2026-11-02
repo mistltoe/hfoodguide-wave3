@@ -1,0 +1,83 @@
+{
+ "key": "Vigna umbellata",
+ "name_ko": "덩굴팥",
+ "names": [
+  "덩굴팥씨앗"
+ ],
+ "nicknames": [
+  "예팥",
+  "자주팥"
+ ],
+ "eng": [
+  "Rice-bean"
+ ],
+ "scnm_full": [
+  "Vigna umbellata (Thunb.) Ohwi & H. Ohashi / Phaseolus calcaratus"
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14760187,
+ "genus": "Vigna",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "CN_MFH"
+ ],
+ "n_compounds": 14,
+ "candidates": [
+  {
+   "compound": "3-(2,4-Dihydroxyphenyl)-2,3-dihydro-5,7-dihydroxy-4H-1-benzopyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 181994,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Kievitone",
+   "compound_ko": "키에비톤",
+   "pubchem_cid": 119269,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Phaseollidin",
+   "compound_ko": "파세올리딘",
+   "pubchem_cid": 119268,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  },
+  {
+   "compound": "delphinidin 3-O-beta-D-glucoside betaine",
+   "compound_ko": null,
+   "pubchem_cid": 165559,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 17
+  },
+  {
+   "compound": "Hydrogen Cyanide",
+   "compound_ko": "사이안화 수소",
+   "pubchem_cid": 768,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 18
+  }
+ ],
+ "priority": 4.176
+}

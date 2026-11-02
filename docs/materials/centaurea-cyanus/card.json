@@ -1,0 +1,84 @@
+{
+ "key": "Centaurea cyanus",
+ "name_ko": "수레국화",
+ "names": [
+  "수레국화꽃잎",
+  "수레국화추출물"
+ ],
+ "nicknames": [
+  "콘플라워",
+  "팔랑개비국화"
+ ],
+ "eng": [
+  "Cornflower"
+ ],
+ "scnm_full": [
+  "Centaurea cyanus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14749403,
+ "genus": "Centaurea",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 98,
+ "candidates": [
+  {
+   "compound": "Protocyanin",
+   "compound_ko": null,
+   "pubchem_cid": 100916164,
+   "part": "Flower",
+   "content": "최대 11.6 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 11.6 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Apiin",
+   "compound_ko": "아피인",
+   "pubchem_cid": 5280746,
+   "part": "Leaf, Shoot",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS)",
+   "n_genera": 14
+  },
+  {
+   "compound": "Cyanocentaurin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Flower",
+   "content": "최대 975 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 975 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Succinylcyanin",
+   "compound_ko": null,
+   "pubchem_cid": 44256760,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Apigenin 4'-O-beta-D-glucopyranoside",
+   "compound_ko": "아피제닌 4'-O-베타-D-글루코피라노사이드",
+   "pubchem_cid": 5491384,
+   "part": "Shoot",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 22개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 22
+  }
+ ],
+ "priority": 5.873
+}

@@ -1,0 +1,76 @@
+{
+ "key": "Ilex latifolia",
+ "name_ko": "다라",
+ "names": [
+  "다라엽"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Ilex latifolia Thunb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14770169,
+ "genus": "Ilex",
+ "family": "Aquifoliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 37,
+ "candidates": [
+  {
+   "compound": "(1R,4S,5R,8R,10S,13S,14R,19S,20S)-10-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-19-hydroxy-4,5,9,9,13,19,20-heptamethyl-21-oxahexacyclo[18.2.2.01,18.04,17.05,14.08,13]tetracosa-15,17-dien-22-one",
+   "compound_ko": null,
+   "pubchem_cid": 21593970,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "10-[4,5-dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-1,2,6a,6b,9,9,12a-heptamethyl-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 85238259,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Kudinoside A",
+   "compound_ko": null,
+   "pubchem_cid": 102000287,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Kudinoside G",
+   "compound_ko": null,
+   "pubchem_cid": 44566332,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Latifoloside C",
+   "compound_ko": null,
+   "pubchem_cid": 44566326,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.58
+}

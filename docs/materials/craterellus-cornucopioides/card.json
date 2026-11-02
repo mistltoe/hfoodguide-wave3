@@ -1,0 +1,76 @@
+{
+ "key": "Craterellus cornucopioides",
+ "name_ko": "뿔나팔버섯",
+ "names": [
+  "뿔나팔버섯자실체"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Craterellus cornucopioides"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14761936,
+ "genus": "Craterellus",
+ "family": "Cantharellaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "2-(1H-indol-3-yl)ethyl octadec-9-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 163002862,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(1H-indol-3-yl)ethyl octadeca-9,12-dienoate",
+   "compound_ko": null,
+   "pubchem_cid": 162934898,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(1H-indol-3-yl)ethyl octadeca-9,14-dien-12-ynoate",
+   "compound_ko": null,
+   "pubchem_cid": 162849704,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "4-Oxohex-1,6-diyl diacetate",
+   "compound_ko": null,
+   "pubchem_cid": 139584644,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "4-Oxohex-5-enyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 139588464,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.079
+}

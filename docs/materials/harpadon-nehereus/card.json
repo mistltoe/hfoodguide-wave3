@@ -1,0 +1,30 @@
+{
+ "key": "Harpadon nehereus",
+ "name_ko": "물천구",
+ "names": [
+  "물천구"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bombay duck"
+ ],
+ "scnm_full": [
+  "Harpadon nehereus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15784392,
+ "genus": "Harpadon",
+ "family": "Harpadontidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

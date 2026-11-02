@@ -1,0 +1,37 @@
+{
+ "key": "Trachurus japonicus",
+ "name_ko": "전갱이",
+ "names": [
+  "건조전갱이",
+  "전갱이",
+  "전갱이뼈",
+  "전갱이살",
+  "전갱이추출물",
+  "전갱이포"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese jack mackerel"
+ ],
+ "scnm_full": [
+  "Trachurus japonicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "어린싹",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 17056873,
+ "genus": "Trachurus",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.711
+}

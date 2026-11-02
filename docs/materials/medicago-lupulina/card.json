@@ -1,0 +1,82 @@
+{
+ "key": "Medicago lupulina",
+ "name_ko": "잔개자리",
+ "names": [
+  "잔개자리씨앗",
+  "잔개자리잎"
+ ],
+ "nicknames": [
+  "승앵이자리"
+ ],
+ "eng": [
+  "Black medick"
+ ],
+ "scnm_full": [
+  "Medicago lupulina"
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14754911,
+ "genus": "Medicago",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 28,
+ "candidates": [
+  {
+   "compound": "6-(Hydroxymethyl)-6,10,17,17,20,22,23-heptamethyl-2-oxapentacyclo[12.7.1.13,11.05,10.015,20]tricos-14-en-7-ol",
+   "compound_ko": null,
+   "pubchem_cid": 5321409,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Soyasapogenol B [M+H]+",
+   "compound_ko": null,
+   "pubchem_cid": 429190,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Soyasapogenol D",
+   "compound_ko": null,
+   "pubchem_cid": 46173903,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Soyasapogenol F",
+   "compound_ko": null,
+   "pubchem_cid": 46173902,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Laricitrin",
+   "compound_ko": "라리시트린",
+   "pubchem_cid": 5282154,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 5.84
+}

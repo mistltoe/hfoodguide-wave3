@@ -1,0 +1,80 @@
+{
+ "key": "Cyperus papyrus",
+ "name_ko": "파피루스속대",
+ "names": [
+  "파피루스속대"
+ ],
+ "nicknames": [
+  "머리방동사니"
+ ],
+ "eng": [
+  "Papyrus"
+ ],
+ "scnm_full": [
+  "Cyperus papyrus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "속대"
+ ],
+ "conditions": [
+  "사용가능부위 : 속대"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14750726,
+ "genus": "Cyperus",
+ "family": "Cyperaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 8,
+ "candidates": [
+  {
+   "compound": "2-Acetyl-4,8-dihydro-5-methylbenzo[1,2-b:5,4-b']difuran-4,8-dione",
+   "compound_ko": null,
+   "pubchem_cid": 12303842,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 29
+  },
+  {
+   "compound": "2-Prop-1-en-2-ylfuro[3,2-f][1]benzofuran-4,8-dione",
+   "compound_ko": null,
+   "pubchem_cid": 71436556,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 29
+  },
+  {
+   "compound": "3-[(Z)-heptadec-8-enyl]-2-hydroxy-5-methoxycyclohexa-2,5-diene-1,4-dione",
+   "compound_ko": null,
+   "pubchem_cid": 13922663,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 29
+  },
+  {
+   "compound": "5-Methyl-2-prop-1-en-2-yl-2,3,5,6-tetrahydrofuro[3,2-f][1]benzofuran-4,8-dione",
+   "compound_ko": null,
+   "pubchem_cid": 5321848,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 29
+  },
+  {
+   "compound": "BENZO(1,2-b:5,4-b')DIFURAN-4,8-DIONE, 2,3-DIHYDRO-2-ISOPROPENYL-5-METHYL-, (-)-",
+   "compound_ko": null,
+   "pubchem_cid": 608585,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 29
+  }
+ ],
+ "priority": 3.954
+}

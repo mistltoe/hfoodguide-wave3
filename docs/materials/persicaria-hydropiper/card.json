@@ -1,0 +1,82 @@
+{
+ "key": "Persicaria hydropiper",
+ "name_ko": "여뀌",
+ "names": [
+  "여뀌순",
+  "여뀌잎"
+ ],
+ "nicknames": [
+  "버들여뀌"
+ ],
+ "eng": [
+  "Water pepper"
+ ],
+ "scnm_full": [
+  "Persicaria hydropiper L. / Persicaria vernalis Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14762438,
+ "genus": "Persicaria",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 70,
+ "candidates": [
+  {
+   "compound": "(1R,4aS,8aR)-2-formyl-5,5,8a-trimethyl-1,4,4a,6,7,8-hexahydronaphthalene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 154497258,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,4aS,8aS)-2-formyl-5,5,8a-trimethyl-1,4,4a,6,7,8-hexahydronaphthalene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101317817,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2,5,5,8a-Tetramethyl-1,4,4a,5,6,7,8,8a-octahydronaphthalen-1-yl)methanol",
+   "compound_ko": null,
+   "pubchem_cid": 298071,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,4aS,8aS)-3-hydroxy-5,5,8a-trimethyl-3,4,4a,6,7,8-hexahydronaphthalene-2-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 71430781,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4aS,8aS)-5,5,8a-trimethyl-3-oxo-4a,6,7,8-tetrahydro-4H-naphthalene-2-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 13993703,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.229
+}

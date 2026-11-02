@@ -1,0 +1,30 @@
+{
+ "key": "Eucheuma cottonii",
+ "name_ko": "코토니",
+ "names": [
+  "코토니"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Eucheuma cottonii"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Eucheuma",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,34 @@
+{
+ "key": "Cistus incanus",
+ "name_ko": "락로즈",
+ "names": [
+  "락로즈잎",
+  "락로즈줄기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Rock rose"
+ ],
+ "scnm_full": [
+  "Cistus incanus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 15273223,
+ "genus": "Cistus",
+ "family": "Cistaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

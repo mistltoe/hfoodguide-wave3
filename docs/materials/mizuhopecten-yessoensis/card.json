@@ -1,0 +1,81 @@
+{
+ "key": "Mizuhopecten yessoensis",
+ "name_ko": "큰가리비",
+ "names": [
+  "큰가리비"
+ ],
+ "nicknames": [
+  "Large weathervane scallop",
+  "Yesso scallop",
+  "밥조개",
+  "참가리비"
+ ],
+ "eng": [
+  "Yesso scallop"
+ ],
+ "scnm_full": [
+  "Mizuhopecten yessoensis / Patinopecten yessoensis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14767299,
+ "genus": "Mizuhopecten",
+ "family": "Pectinidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 52,
+ "candidates": [
+  {
+   "compound": "(1R,2S,5S,7S,8Z,10E,12S,14R,16S,19S,20R,24R,27R,28R,29S,32S,33S,35R)-14-[(2R,3S,4S)-2,3-dihydroxy-4-methyloxan-2-yl]-28-hydroxy-5,7,9,19,29-pentamethyl-18,31-dioxo-13,17,38,39,40,41,42,43-octaoxaoctacyclo[31.4.1.11,35.12,5.120,24.124,27.129,32.012,16]tritetraconta-8,10-diene-35-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 162901530,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,5S,7S,8Z,10Z,12S,14R,16S,19S,20R,24R,27R,28R,29S,32S,33S,35R)-14-[(2R,3S,4S)-2,3-dihydroxy-4-methyloxan-2-yl]-28-hydroxy-5,7,9,19,29-pentamethyl-18,31-dioxo-13,17,38,39,40,41,42,43-octaoxaoctacyclo[31.4.1.11,35.12,5.120,24.124,27.129,32.012,16]tritetraconta-8,10-diene-35-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101999572,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,5S,7S,8Z,10Z,12S,14R,16S,19S,20R,24R,27S,28S,29S,32S,33S,35R)-14-[(2R,3S,4S)-2,3-dihydroxy-4-methyloxan-2-yl]-27-hydroxy-35-(hydroxymethyl)-5,7,9,19,29-pentamethyl-13,17,38,39,40,41,42,43-octaoxaoctacyclo[31.4.1.11,35.12,5.120,24.124,28.129,32.012,16]tritetraconta-8,10-diene-18,31-dione",
+   "compound_ko": null,
+   "pubchem_cid": 101220132,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,5S,7S,8Z,10Z,12S,14R,16S,19S,20R,27R,28R,29S,32S,33S,35R)-14-[(2R,3S,4S)-2,3-dihydroxy-4-methyloxan-2-yl]-28-hydroxy-5,7,9,19,29-pentamethyl-18,31-dioxo-13,17,38,39,40,41,42,43-octaoxaoctacyclo[31.4.1.11,35.12,5.120,24.124,27.129,32.012,16]tritetraconta-8,10-diene-35-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 101639292,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,5R,7R,8E,10E,12R,14S,16R,19R,20S,24S,27S,28S,29R,32R,33R,35S)-14-[(2S,3R,4R)-2,3-dihydroxy-4-methyloxan-2-yl]-28-hydroxy-5,7,9,19,29-pentamethyl-18,31-dioxo-13,17,38,39,40,41,42,43-octaoxaoctacyclo[31.4.1.11,35.12,5.120,24.124,27.129,32.012,16]tritetraconta-8,10-diene-35-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 10653273,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.724
+}

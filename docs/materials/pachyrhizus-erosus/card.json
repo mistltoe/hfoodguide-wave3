@@ -1,0 +1,79 @@
+{
+ "key": "Pachyrhizus erosus",
+ "name_ko": "Jicama덩이",
+ "names": [
+  "Jicama덩이뿌리",
+  "건Jicama덩이뿌리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Yam bean, Mexican turnip"
+ ],
+ "scnm_full": [
+  "Pachyrhizus erosus"
+ ],
+ "kind": "plant",
+ "parts": [
+  "덩이뿌리"
+ ],
+ "conditions": [
+  "사용가능부위 : 덩이뿌리"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14755833,
+ "genus": "Pachyrhizus",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 78,
+ "candidates": [
+  {
+   "compound": "Rotenone",
+   "compound_ko": "로테논",
+   "pubchem_cid": 6758,
+   "part": "Seed",
+   "content": "최대 10000 ppm",
+   "rationale": "이 성분이 보고된 생물은 16개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 10000 ppm",
+   "n_genera": 16
+  },
+  {
+   "compound": "Erosnin",
+   "compound_ko": null,
+   "pubchem_cid": 5317189,
+   "part": "Seed",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Erosone",
+   "compound_ko": null,
+   "pubchem_cid": 5317190,
+   "part": "Seed",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Dehydroneotenone",
+   "compound_ko": null,
+   "pubchem_cid": 100751,
+   "part": "Seed",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "12A-Hydroxyrotenone",
+   "compound_ko": "12a-하이드록시로테논",
+   "pubchem_cid": 68184,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 13
+  }
+ ],
+ "priority": 5.775
+}

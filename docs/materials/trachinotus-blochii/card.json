@@ -1,0 +1,32 @@
+{
+ "key": "Trachinotus blochii",
+ "name_ko": "무점매가리",
+ "names": [
+  "무점매가리"
+ ],
+ "nicknames": [
+  "Snubnose pompano"
+ ],
+ "eng": [
+  "Snubnose pompano"
+ ],
+ "scnm_full": [
+  "Trachinotus blochii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17056722,
+ "genus": "Trachinotus",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

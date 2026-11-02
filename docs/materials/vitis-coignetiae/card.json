@@ -1,0 +1,90 @@
+{
+ "key": "Vitis coignetiae",
+ "name_ko": "머루",
+ "names": [
+  "건조머루",
+  "머루",
+  "머루발효농축액",
+  "머루발효액",
+  "머루씨앗",
+  "머루열매",
+  "머루주스",
+  "산머루농축액"
+ ],
+ "nicknames": [
+  "산머루",
+  "산포도"
+ ],
+ "eng": [
+  "Crimson glory vine, Crimson grapevine"
+ ],
+ "scnm_full": [
+  "Vitis coignetiae Pulliat ex Planch / Vitis amurensis var. coignetii (Pulliat) Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "씨앗",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 8,
+ "bioresource_id": 14767506,
+ "genus": "Vitis",
+ "family": "Vitaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 16,
+ "candidates": [
+  {
+   "compound": "(1R,2S,3S,9R,10R,17R)-2-(3,5-dihydroxyphenyl)-3,9,17-tris(4-hydroxyphenyl)-8-oxapentacyclo[8.7.2.04,18.07,19.011,16]nonadeca-4(18),5,7(19),11(16),12,14-hexaene-5,13,15-triol",
+   "compound_ko": null,
+   "pubchem_cid": 59409135,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,8S,9S,16R)-8,16-bis(4-hydroxyphenyl)tetracyclo[7.6.1.02,7.010,15]hexadeca-2(7),3,5,10(15),11,13-hexaene-4,6,12,14-tetrol",
+   "compound_ko": null,
+   "pubchem_cid": 131874109,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,3R,9S,10S,17S)-2-(3,5-dihydroxyphenyl)-3,9,17-tris(4-hydroxyphenyl)-8-oxapentacyclo[8.7.2.04,18.07,19.011,16]nonadeca-4(18),5,7(19),11(16),12,14-hexaene-5,13,15-triol",
+   "compound_ko": null,
+   "pubchem_cid": 9917932,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,8S,9R,16S)-8,16-bis(4-hydroxyphenyl)-9-[2-hydroxy-5-[(1S,8S,16S)-4,6,12-trihydroxy-16-(4-hydroxyphenyl)-15-oxatetracyclo[8.6.1.02,7.014,17]heptadeca-2(7),3,5,10(17),11,13-hexaen-8-yl]phenyl]-15-oxatetracyclo[8.6.1.02,7.014,17]heptadeca-2(7),3,5,10(17),11,13-hexaene-4,6,12-triol",
+   "compound_ko": null,
+   "pubchem_cid": 102120914,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,8S,9R,16S)-9-[5-[(Z)-2-[(2S,3S)-3-(3,5-dihydroxyphenyl)-6-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydro-1-benzofuran-4-yl]ethenyl]-2-hydroxyphenyl]-8,16-bis(4-hydroxyphenyl)-15-oxatetracyclo[8.6.1.02,7.014,17]heptadeca-2(7),3,5,10(17),11,13-hexaene-4,6,12-triol",
+   "compound_ko": null,
+   "pubchem_cid": 102120913,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 8.485
+}

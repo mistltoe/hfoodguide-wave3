@@ -1,0 +1,80 @@
+{
+ "key": "Gaultheria procumbens",
+ "name_ko": "체커베리",
+ "names": [
+  "체커베리열매",
+  "체커베리잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Checkerberry, Wintergreen, Teaberry"
+ ],
+ "scnm_full": [
+  "Gaultheria procumbens L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14752498,
+ "genus": "Gaultheria",
+ "family": "Ericaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 41,
+ "candidates": [
+  {
+   "compound": "Monotropitoside",
+   "compound_ko": "모노트로피토사이드",
+   "pubchem_cid": 5315244,
+   "part": "Leaf",
+   "content": "최대 1450 ppm",
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS), 최대 1450 ppm",
+   "n_genera": 8
+  },
+  {
+   "compound": "8-Demethyllatifolin",
+   "compound_ko": null,
+   "pubchem_cid": 14353449,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Primeverose",
+   "compound_ko": "프리메베로스",
+   "pubchem_cid": 5460006,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 5
+  },
+  {
+   "compound": "8-Demethylsideroxylin",
+   "compound_ko": "8-데메틸시데록실린",
+   "pubchem_cid": 44258359,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 7
+  },
+  {
+   "compound": "Galangin 3-methyl ether",
+   "compound_ko": "갈랑긴 3-메틸 에터",
+   "pubchem_cid": 5281946,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 20
+  }
+ ],
+ "priority": 6.001
+}

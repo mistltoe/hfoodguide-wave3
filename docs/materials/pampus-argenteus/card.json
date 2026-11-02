@@ -1,0 +1,33 @@
+{
+ "key": "Pampus argenteus",
+ "name_ko": "병어",
+ "names": [
+  "병어"
+ ],
+ "nicknames": [
+  "병치",
+  "편어"
+ ],
+ "eng": [
+  "Silver pomfret"
+ ],
+ "scnm_full": [
+  "Pampus argenteus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16407728,
+ "genus": "Pampus",
+ "family": "Stromateidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

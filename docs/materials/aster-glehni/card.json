@@ -1,0 +1,36 @@
+{
+ "key": "Aster glehni",
+ "name_ko": "섬쑥부쟁이",
+ "names": [
+  "섬쑥부쟁이순"
+ ],
+ "nicknames": [
+  "구메리나물",
+  "부지깽이",
+  "섬쑥부장이"
+ ],
+ "eng": [
+  "Ulleungdo aster"
+ ],
+ "scnm_full": [
+  "Aster glehni F.Schmidt / Aster korsakoviensis Lev. & Vaniot / Aster pseudoglehnii"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Aster",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

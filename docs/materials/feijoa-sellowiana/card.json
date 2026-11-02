@@ -1,0 +1,82 @@
+{
+ "key": "Feijoa sellowiana",
+ "name_ko": "파인애플구아바",
+ "names": [
+  "파인애플구아바열매",
+  "파인애플구아바주스"
+ ],
+ "nicknames": [
+  "페이조아(Feijoa)"
+ ],
+ "eng": [
+  "Feijoa, Pineapple Guava"
+ ],
+ "scnm_full": [
+  "Feijoa sellowiana Berg"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14752177,
+ "genus": "Feijoa",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 69,
+ "candidates": [
+  {
+   "compound": "Iodide Ion",
+   "compound_ko": "아이오딘화 이온",
+   "pubchem_cid": 30165,
+   "part": "Fruit",
+   "content": "최대 3.9 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 3.9 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R)-hexan-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 6994293,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-Methyl-3-nitrobenzyl alcohol",
+   "compound_ko": null,
+   "pubchem_cid": 90289,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "3-Hexenyl-2-butenoate, (2E,3Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 16220110,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Ethyl (9Z,11E)-9,11-octadecadienoate",
+   "compound_ko": null,
+   "pubchem_cid": 9963693,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 6.223
+}

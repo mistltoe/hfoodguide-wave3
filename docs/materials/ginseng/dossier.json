@@ -1,0 +1,2002 @@
+{
+ "slug": "ginseng",
+ "name_ko": "인삼",
+ "name_en": "Korean ginseng",
+ "scientific_name": "Panax ginseng C.A. Meyer",
+ "aliases": [
+  "고려인삼",
+  "Korean ginseng",
+  "Asian ginseng",
+  "심",
+  "人蔘",
+  "Ginseng Radix"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "인삼(Panax ginseng C.A. Meyer)은 두릅나무과에 속하며 해마다 잎이 지는 여러해살이풀로[41][43], 한국에서는 보통 4~6년 길러 뿌리를 수확한다[17][43]. 원래 자라던 곳은 러시아 극동(시베리아 동쪽 끝)과 중국 동북부, 한반도 일대이며[40][41], 한국에서 생산되는 인삼은 모두 이 종(P. ginseng)이다[17]. 갓 캔 수삼을 찌지 않고 말리면 백삼, 쪄서 말리면 홍삼이 되며[5][46], 대표 성분은 진세노사이드라 불리는 사포닌이다[5]. 식품의약품안전처는 홍삼을 건강기능식품 원료로 정하고 면역력 증진, 피로 개선 등의 기능성을 인정하고 있다[6]. 다만 인삼의 건강 효과에 대한 사람 대상 연구는 결과가 일관되지 않은 경우가 많아, 근거가 아직 제한적이라는 평가도 있다[28][40]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "농촌진흥청 국립원예특작과학원장의 기고에 따르면 고려인삼은 삼국시대부터 중국 위·수·당나라와의 외교·교역에 쓰였다[21]. 인삼을 쪄서 말리는 방법은 송나라 서긍이 1123년에 쓴 『고려도경』에 처음 소개되었고, '홍삼'이라는 이름은 『정조실록』(1776~1800)에 나온다[5]. 1908년 『삼정요람』에는 수삼을 씻어 크기별로 나눈 뒤 약 50~90분 찌고 말리는 근대적 홍삼 제조법이 자세히 적혀 있다[5]. 그 뒤 홍삼은 정부 관리 아래에서만 만들 수 있었고 개인이 마음대로 만들어 팔 수 없었는데, 이 홍삼 전매제는 1908년부터 1996년까지 이어졌다[5]. 서양에는 17세기에 네덜란드 상인 등을 통해 알려졌으며[21], 1709년에는 프랑스 예수회 선교사 자르투(Jartoux)가 중국에서 본 인삼의 생김새를 편지로 자세히 전했고, 1714년 이 편지를 읽은 캐나다의 라피토(Lafitau) 신부가 그 뒤 현지에서 자라는 인삼(미국삼)을 찾아냈다[43]. 학명 Panax ginseng은 러시아의 식물학자 C.A. 마이어(Carl Anton Meyer)가 붙였다[41][42]. 발표 연도는 국제식물명색인(IPNI)과 관련 문헌에는 1843년으로 나오지만[42][43], 영국 큐 왕립식물원의 POWO는 1842년 문헌을 처음 발표된 곳으로 적고 있다[41]. 금산 지역에서는 1700년대부터 해가림 재배가 발달했다고 전해지며[33], 2020년 '인삼 재배와 약용문화'가 농업 분야 최초로 국가무형문화재로 지정되었다[21][37]. 인공 재배가 처음 시작된 정확한 시기와 장소는 이번에 확인한 자료로는 확인하지 못했다."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징",
+   "body": "인삼은 두릅나무과(Araliaceae) 인삼속(Panax)에 속하며, 해마다 잎이 지는 여러해살이풀이다[41][43]. 약재로 쓰는 말린 뿌리는 가늘고 긴 원기둥 또는 방추 모양으로, 중간쯤에서 곁뿌리가 2~5개 갈라지기도 하며, 길이는 5~20 cm, 원뿌리 지름은 5~30 mm 정도다[45]. 뿌리 윗부분에는 줄기가 붙어 있던 자리인 뇌두가 있다[45]. 한국과 중국에서는 보통 4~6년 길러 수확하고, 캐나다와 미국(주로 미국삼)에서는 3~4년생을 주로 수확하며 일부는 6년까지 기른다[17]. 그늘을 좋아하는 식물로, 유전체 연구에서는 약한 빛에서도 광합성을 효율적으로 하는 데 관여하는 유전자가 많이 남아 있는 것으로 보고되었다[18]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 구분",
+   "body": "인삼속(Panax)에는 고려인삼(P. ginseng) 외에 미국삼(화기삼, P. quinquefolius), 전칠삼(삼칠, P. notoginseng), 일본 죽절삼(P. japonicus), 베트남삼(P. vietnamensis) 등이 있다[43][44]. 인삼속에 넣는 종의 수는 2001년 소개 글에서는 13종[43], 2023년 분류 연구에서는 약 18종[44]으로 자료마다 다르다. 미국삼은 캐나다 남부와 미국 동부 일대에 자생하며[43], 캐나다와 미국에서 재배되는 인삼은 대부분 미국삼이고 중국은 고려인삼·미국삼·전칠삼을 모두 생산한다[17]. 전칠삼은 중국 윈난성에서 자란다[43]. 성분으로 구분할 때, 시판 아시아 인삼과 미국삼을 비교한 대사체 분석에서는 진세노사이드 Rf·Rb2·Rc는 아시아 인삼에, 슈도진세노사이드 F11·Rb1·Rd는 미국삼에 많이 나타나는 경향을 보였다[22]. 전칠삼에서는 진세노사이드 Rg1과 Rb1 함량이 높아 이 둘이 주요 사포닌으로 꼽히며, 고려인삼·미국삼과 달리 올레아난형 사포닌은 발견되지 않았다[49]. 유전적으로 고려인삼은 사배체(2n=4x=48)이고 전칠삼은 이배체(2n=2x=24)다[19]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "2024년 전국 인삼 재배면적은 10,585 ha, 재배 농가는 15,877호였다[15]. 시도별 재배면적은 강원 2,131 ha, 경기 1,901 ha, 충북 1,835 ha, 충남 1,693 ha, 경북 1,258 ha, 전북 1,248 ha 순이다(2024년)[15]. 충남 금산은 1,500년 역사를 내세우는 대표 산지로, 금산 국제인삼시장이 전국 백삼 유통의 70~80%를 차지한다[33]. 금산 전통 인삼 농업 시스템은 2018년 FAO 세계중요농업유산(GIAHS)으로 지정되었다[34]. 인삼은 그늘을 좋아해 해가림 시설 아래에서 기르며, 금산에서는 산의 북쪽·북동쪽 비탈에 심고 한 번 수확한 땅은 약 10년 쉬게 하는 돌려짓기를 해 왔다[33]. 같은 땅에 이어 심기 어려운 연작장해 때문에 새 밭이 부족해져, 최근에는 논 재배가 약 7,308 ha로 전체 인삼밭의 약 50%에 이른다[35]. 주요 병해로는 점무늬병, 탄저병, 뿌리썩음병 등이 꼽힌다[36]. 재배면적은 2010년 19,010 ha에서 2024년 10,585 ha로 줄었다[15]."
+  },
+  {
+   "key": "processing",
+   "title": "가공 형태",
+   "body": "수삼은 밭에서 갓 캔 인삼, 백삼은 수삼의 껍질을 벗겨 말린 것, 홍삼은 수삼을 쪄서 말린 것이다[43][46]. 태극삼은 수삼을 뜨거운 물에 데친 뒤 말린 것이다[17]. 오늘날 홍삼은 6년근 수삼을 골라 씻은 뒤 90~98℃에서 1~3시간 찌고, 열풍과 햇볕으로 수분 15~18%까지 말려 만든다[5]. 흑삼은 찌고 말리기를 아홉 번 반복하는 방식으로 만든다[24]. 찌는 동안 Rb1·Rc·Rb2·Rd·Rg1·Re 같은 주요 진세노사이드 일부가 Rg3, Rg5, Rk1, Rh1, Rg2 등으로 바뀐다[5]. 전통 홍삼에는 이런 희귀 진세노사이드가 소량 들어 있고, 흑삼이나 120℃ 이상에서 찐 선삼(sun ginseng)에는 Rg3·Rg5·Rk1이 많다[24]. 또 찌고 말리는 과정의 마이야르 반응으로 아미노당 AFG(홍삼 1.0~1.5%)와 홍삼 특유의 향 성분 말톨이 생기고, 산성다당체는 백삼(0.63~0.86%)보다 홍삼(4.7~7.5%)에 더 많다[5]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "인삼은 염색체 48개를 가진 사배체(2n=4x=48) 식물이다[19]. 2018년 국내외 공동연구진이 사배체 인삼 유전체를 해독해 2.98 Gbp 크기의 조립 유전체와 59,352개의 유전자를 보고했다[18]. 리뷰 논문[19]은 두 품종(IR826, 천풍)의 유전체 크기를 각각 3.5 Gb와 3.12 Gb로 정리했고, 유전체의 약 70%가 반복서열이라고 소개했다. 조립된 크기와 추정 크기가 연구마다 다르므로 '약 3 Gb 내외'로 이해하는 것이 무난하다[18][19]. 이 연구에서는 두릅나무과에서 전장유전체 중복이 두 번 일어났고, 이 중 최근의 중복이 인삼의 겨울나기 능력과 관련된 것으로 해석했다[18]. 국내에서는 천풍, 연풍, 금풍, 고풍, 선풍, 선운, 선원, 청선, 선향, 천일, K-1, 천량, 금선, 선일 등 19개 품종이 육성되었다(2014년 기준)[20]. 천풍은 적변 저항성이 강하고 모양이 좋아 원형삼 생산 농가가 선호한다[20]. 2021년에는 염류토양에 강한 천량, 병에 강한 고원, 고온에 강한 진원 품종도 소개되었다[21]."
+  },
+  {
+   "key": "safety",
+   "title": "섭취 시 주의",
+   "body": "식약처는 홍삼 건강기능식품의 섭취 주의사항으로 ① 당뇨치료제와 혈액항응고제를 복용할 때 섭취에 주의할 것, ② 알레르기 체질 등 개인에 따라 과민반응이 나타날 수 있음, ③ 이상사례가 생기면 섭취를 중단하고 전문가와 상담할 것을 안내한다[6]. 서울시 자료는 두통, 불면, 가슴 두근거림, 혈압 상승 등의 부작용 보고와 항혈소판제·혈액응고제 병용 시 주의를 언급한다[38]. 와파린(혈액이 굳는 것을 막는 약)과 함께 먹을 때의 영향은 아직 분명하지 않다[25]. 건강한 성인 시험에서는 아시아 인삼이 S-와파린 청소율을 약간(1.14배) 높였을 뿐 약효 지표에는 직접 영향이 없었고[27], 허혈성 뇌졸중 환자 25명 대상 무작위 시험에서도 INR·PT에 유의한 차이가 없었다[26]. 체계적 문헌고찰은 근거의 질이 낮아 결론을 내리기 어렵다고 평가했다[25]. 미국 국립보건원 산하 국립보완통합보건센터(NCCIH)는 권장량을 6개월 이내로 먹는 것은 대부분의 사람에게 안전해 보이며 가장 흔한 부작용은 불면이라고 설명하면서도, 영아·어린이와 임신·수유 중인 여성에게는 권하지 않는다고 안내한다[40]. 또 인삼이 혈당을 낮출 수 있으므로 당뇨약 등을 복용 중이라면 먼저 의료인과 상의하라고 권한다[40]. 유럽의약품청(EMA)도 자료가 부족하다는 이유로 18세 미만, 임신·수유 중인 사람은 인삼 뿌리 의약품을 쓰지 말라고 안내한다[48]. 이상사례는 식약처(☎1577-2488)에 신고할 수 있다[7]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Ginsenoside Rb1",
+   "name_ko": "진세노사이드 Rb1",
+   "class": "PPD계 사포닌",
+   "role": "marker",
+   "part": "뿌리",
+   "content_text": "홍삼 근 5.8 mg/g, 홍삼 추출물 6.4 mg/g[5]; 6년근 주근 57.56 mg/100 g(건물)[32]",
+   "activity_ko": "홍삼 건강기능식품 지표성분(Rg1·Rg3와 합산)이며, 세포·동물 연구에서 항염증 작용이 보고됨[29]",
+   "source": [
+    5,
+    32,
+    29
+   ]
+  },
+  {
+   "name": "Ginsenoside Rg1",
+   "name_ko": "진세노사이드 Rg1",
+   "class": "PPT계 사포닌",
+   "role": "marker",
+   "part": "뿌리",
+   "content_text": "홍삼 근 3.3 mg/g, 홍삼 추출물 1.3 mg/g[5]; 6년근 주근 55.10 mg/100 g(건물)[32]",
+   "activity_ko": "홍삼 건강기능식품 지표성분이며, 항염증 작용이 보고됨[29]",
+   "source": [
+    5,
+    32,
+    29
+   ]
+  },
+  {
+   "name": "Ginsenoside Rg3",
+   "name_ko": "진세노사이드 Rg3",
+   "class": "PPD계 사포닌(가공 중 생성)",
+   "role": "marker",
+   "part": "뿌리(가공품)",
+   "content_text": "6년근 주근 21.72 mg/100 g(건물)[32]; 홍삼 제조 시 Rb1·Rc·Rb2·Rd에서 전환되어 증가[5]",
+   "activity_ko": "홍삼 지표성분 중 하나이며, 대식세포의 M2 분극 유도 등 항염증 관련 기전이 보고됨[29]",
+   "source": [
+    5,
+    32,
+    29
+   ]
+  },
+  {
+   "name": "Ginsenoside Rb2",
+   "name_ko": "진세노사이드 Rb2",
+   "class": "PPD계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "홍삼 근 2.3 mg/g, 홍삼 추출물 2.3 mg/g[5]",
+   "activity_ko": "아시아 인삼에 상대적으로 많은 경향이 있어 종 구분 지표로 쓰임[22]",
+   "source": [
+    5,
+    22
+   ]
+  },
+  {
+   "name": "Ginsenoside Rc",
+   "name_ko": "진세노사이드 Rc",
+   "class": "PPD계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "홍삼 근 1.7 mg/g, 홍삼 추출물 2.5 mg/g[5]",
+   "activity_ko": "p38 MAPK 신호 억제와 관련된 항염증 가능성이 실험 연구에서 보고됨[31]",
+   "source": [
+    5,
+    31
+   ]
+  },
+  {
+   "name": "Ginsenoside Rd",
+   "name_ko": "진세노사이드 Rd",
+   "class": "PPD계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "홍삼 근 0.4 mg/g, 홍삼 추출물 0.9 mg/g[5]",
+   "activity_ko": "당뇨 관련 실험 연구에서 검토된 진세노사이드 중 하나[30]",
+   "source": [
+    5,
+    30
+   ]
+  },
+  {
+   "name": "Ginsenoside Re",
+   "name_ko": "진세노사이드 Re",
+   "class": "PPT계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "홍삼 근 2.0 mg/g, 홍삼 추출물 1.3 mg/g[5]",
+   "activity_ko": "가공 중 Rg2 등으로 전환됨[5]; 당뇨 관련 실험 연구 대상[30]",
+   "source": [
+    5,
+    30
+   ]
+  },
+  {
+   "name": "Ginsenoside Rf",
+   "name_ko": "진세노사이드 Rf",
+   "class": "PPT계 사포닌",
+   "role": "marker",
+   "part": "뿌리",
+   "content_text": "6년근 주근 10.46 mg/100 g(건물)[32]",
+   "activity_ko": "미국삼보다 아시아 인삼에서 많이 나타나 종 구분 지표로 쓰임[22]",
+   "source": [
+    32,
+    22
+   ]
+  },
+  {
+   "name": "Ginsenoside Rg2",
+   "name_ko": "진세노사이드 Rg2",
+   "class": "PPT계 사포닌(가공 중 생성)",
+   "role": "bioactive",
+   "part": "뿌리(가공품)",
+   "content_text": "홍삼 제조 시 Re에서 전환되어 증가[5]",
+   "activity_ko": "p38 MAPK 억제 관련 실험 연구에서 보고된 진세노사이드 중 하나[31]",
+   "source": [
+    5,
+    31
+   ]
+  },
+  {
+   "name": "Ginsenoside Rh1",
+   "name_ko": "진세노사이드 Rh1",
+   "class": "PPT계 사포닌(가공 중 생성)",
+   "role": "bioactive",
+   "part": "뿌리(가공품)",
+   "content_text": "6년근 주근 51.46 mg/100 g(건물)[32]; 홍삼 제조 시 Rg1에서 전환[5]",
+   "activity_ko": "p38 MAPK 억제 관련 실험 연구에서 보고됨[31]",
+   "source": [
+    32,
+    5,
+    31
+   ]
+  },
+  {
+   "name": "Ginsenoside Rg5",
+   "name_ko": "진세노사이드 Rg5",
+   "class": "PPD계 희귀 사포닌(가공 중 생성)",
+   "role": "bioactive",
+   "part": "뿌리(가공품)",
+   "content_text": "전통 홍삼에는 미량, 흑삼·선삼에 많음[24]; Rg3에서 전환[5]",
+   "activity_ko": "당뇨 관련 실험 연구에서 검토됨[30]",
+   "source": [
+    24,
+    5,
+    30
+   ]
+  },
+  {
+   "name": "Ginsenoside Rk1",
+   "name_ko": "진세노사이드 Rk1",
+   "class": "PPD계 희귀 사포닌(가공 중 생성)",
+   "role": "bioactive",
+   "part": "뿌리(가공품)",
+   "content_text": "전통 홍삼에는 미량, 흑삼·선삼에 많음[24]; Rg3에서 전환[5]",
+   "activity_ko": "당뇨 관련 실험 연구에서 검토됨[30]",
+   "source": [
+    24,
+    5,
+    30
+   ]
+  },
+  {
+   "name": "Ginsenoside Rh2",
+   "name_ko": "진세노사이드 Rh2",
+   "class": "PPD계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리(가공품)",
+   "content_text": "함량 수치는 이번 조사에서 확인하지 못함",
+   "activity_ko": "항염증 작용이 보고된 진세노사이드 중 하나[29]",
+   "source": [
+    29
+   ]
+  },
+  {
+   "name": "Ginsenoside Ro",
+   "name_ko": "진세노사이드 Ro",
+   "class": "올레아난계 사포닌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "함량 수치는 이번 조사에서 확인하지 못함; 인삼 사포닌은 PPD형과 PPT형이 주를 이루고, 그 밖에 올레아난형 등이 있음[47]",
+   "activity_ko": "p38 MAPK 억제 관련 실험 연구에서 보고됨[31]",
+   "source": [
+    47,
+    31
+   ]
+  },
+  {
+   "name": "Malonyl ginsenosides",
+   "name_ko": "말로닐 진세노사이드",
+   "class": "PPD계 사포닌(말로닐 결합형)",
+   "role": "bioactive",
+   "part": "뿌리(수삼)",
+   "content_text": "수삼의 PPD계 진세노사이드는 말로닐 형태로 존재하다가 홍삼 제조 시 열·산에 의해 말로닐기가 떨어짐[5]",
+   "activity_ko": "당뇨 관련 실험 연구 대상 성분으로 언급됨[30]",
+   "source": [
+    5,
+    30
+   ]
+  },
+  {
+   "name": "Arginine-fructose-glucose (AFG)",
+   "name_ko": "아르기닌-프럭토스-글루코스(AFG)",
+   "class": "아미노당(마이야르 반응 산물)",
+   "role": "marker",
+   "part": "뿌리(홍삼)",
+   "content_text": "홍삼 1.0~1.5%, 홍삼 추출물 약 2.5%[5]",
+   "activity_ko": "수삼이 홍삼으로 바뀔 때 생기는 홍삼 특이 성분으로 소개됨[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Acidic polysaccharides",
+   "name_ko": "산성다당체",
+   "class": "다당류",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "백삼 0.63~0.86%, 홍삼 4.7~7.5%[5]",
+   "activity_ko": "면역 활성화와 관련된 성분으로 소개됨[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Maltol",
+   "name_ko": "말톨",
+   "class": "피란계 향기 성분",
+   "role": "bioactive",
+   "part": "뿌리(홍삼)",
+   "content_text": "함량 수치는 이번 조사에서 확인하지 못함",
+   "activity_ko": "마이야르 반응의 최종 산물로, 홍삼의 대표적인 향을 낸다[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Polyacetylenes (panaxynol, panaxydol, panaxytriol)",
+   "name_ko": "폴리아세틸렌(파낙시놀·파낙시돌·파낙시트리올)",
+   "class": "폴리아세틸렌",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "약 20종이 보고됨; 파낙시트리올은 홍삼 특징 성분이나 정량 연구는 아직 없음[5]",
+   "activity_ko": "화학적으로 불안정해 약리적 의미는 분명하지 않다고 정리됨[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "L-Arginine",
+   "name_ko": "아르기닌",
+   "class": "아미노산",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "수삼 620 mg/100 g[12], 홍삼(말린것) 1,734 mg/100 g[14]",
+   "activity_ko": "인삼 아미노산 중 함량이 가장 높으며, 홍삼 제조 중 당과 결합해 AFG 등 아미노당이 된다[5]",
+   "source": [
+    12,
+    14,
+    5
+   ]
+  }
+ ],
+ "markers": [
+  {
+   "product": "홍삼",
+   "marker": "진세노사이드 Rg1, Rb1 및 Rg3의 합",
+   "spec": "원료 1 g당 Rg1·Rb1·Rg3 합계 2.5 mg 이상(제조기준)[7][8]; 최종제품은 표시량의 80% 이상(2010년 개정)[39]",
+   "daily_intake": "진세노사이드 Rg1·Rb1·Rg3 합계로 면역력 증진·피로 개선 3~80 mg, 혈소판 응집 억제를 통한 혈액 흐름·기억력 개선·항산화 2.4~80 mg, 갱년기 여성 건강 25~80 mg[6][7]",
+   "functions": [
+    "면역력 증진",
+    "피로 개선",
+    "혈소판 응집 억제를 통한 혈액 흐름에 도움",
+    "기억력 개선에 도움",
+    "항산화에 도움",
+    "갱년기 여성 건강에 도움"
+   ],
+   "note": "2016년 자료[9]는 지표성분을 Rg1+Rb1, 기능성을 5가지로 소개하는 등 시점에 따라 기준이 달라졌다. 이 항목은 최신 식약처 자료[6] 기준으로 정리했다. 원료 4년근 이상 사용[7].",
+   "source": [
+    6,
+    7,
+    8,
+    9,
+    39
+   ]
+  },
+  {
+   "product": "인삼",
+   "marker": "진세노사이드 Rg1과 Rb1의 합(업계지 보도 기준)",
+   "spec": "원문 고시는 확인하지 못함",
+   "daily_intake": "뼈 건강 기능성: Rg1·Rb1 합계 25 mg(업계지 보도[11]; 고시 원문 대조 필요). 면역·피로 기능성 섭취량은 확인하지 못함",
+   "functions": [
+    "면역력 증진",
+    "피로 개선",
+    "뼈 건강에 도움(2020년 고시형 원료 등록)"
+   ],
+   "note": "농촌진흥청은 2019년 기존 인삼 기능성이 '면역력 증진, 피로 개선' 2종이라고 밝혔고[10], 2020년 뼈 건강 기능성이 고시형 원료로 추가되었다[11]. 골감소증 여성 90명 대상 12주 시험에서 인삼추출물 1일 3 g 섭취군의 오스테오칼신 변화치가 위약군의 11.6배였다고 보고되었다[10].",
+   "source": [
+    10,
+    11
+   ]
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "수삼",
+   "basis": "가식부 100 g (인삼, 수삼, 생것; 폐기율 7%)",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 90,
+     "unit": "kcal"
+    },
+    {
+     "name": "수분",
+     "value": 74.9,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 4.12,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 0.76,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 1.4,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 18.85,
+     "unit": "g"
+    },
+    {
+     "name": "당류",
+     "value": 8.1,
+     "unit": "g"
+    },
+    {
+     "name": "총 식이섬유",
+     "value": 2.4,
+     "unit": "g"
+    },
+    {
+     "name": "칼슘",
+     "value": 84,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 4.64,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 41,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 100,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 447,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 12,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 0.49,
+     "unit": "mg"
+    },
+    {
+     "name": "티아민",
+     "value": 0.1,
+     "unit": "mg"
+    },
+    {
+     "name": "리보플라빈",
+     "value": 0.056,
+     "unit": "mg"
+    },
+    {
+     "name": "니아신",
+     "value": 1.304,
+     "unit": "mg"
+    },
+    {
+     "name": "판토텐산",
+     "value": 2.976,
+     "unit": "mg"
+    },
+    {
+     "name": "비타민 C",
+     "value": 5.14,
+     "unit": "mg"
+    },
+    {
+     "name": "엽산(엽산당량)",
+     "value": 13,
+     "unit": "μg"
+    },
+    {
+     "name": "비타민 E",
+     "value": 0.51,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    12
+   ]
+  },
+  {
+   "form": "백삼",
+   "basis": "가식부 100 g (인삼, 백삼, 말린것; 1984년 분석값)",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 316,
+     "unit": "kcal"
+    },
+    {
+     "name": "수분",
+     "value": 10.1,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 15.7,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 0.5,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 3.9,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 69.8,
+     "unit": "g"
+    },
+    {
+     "name": "칼슘",
+     "value": 227,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 33.5,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 385,
+     "unit": "mg"
+    },
+    {
+     "name": "티아민",
+     "value": 0.16,
+     "unit": "mg"
+    },
+    {
+     "name": "리보플라빈",
+     "value": 0.5,
+     "unit": "mg"
+    },
+    {
+     "name": "니아신",
+     "value": 1,
+     "unit": "mg"
+    },
+    {
+     "name": "비타민 C",
+     "value": 6,
+     "unit": "mg"
+    }
+   ],
+   "note": "식이섬유·칼륨 등은 DB에 값이 없음",
+   "source": [
+    13
+   ]
+  },
+  {
+   "form": "홍삼",
+   "basis": "가식부 100 g (인삼, 홍삼, 말린것)",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 309,
+     "unit": "kcal"
+    },
+    {
+     "name": "수분",
+     "value": 13.4,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 13.02,
+     "unit": "g"
+    },
+    {
+     "name": "지방",
+     "value": 1.24,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 4.09,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 68.25,
+     "unit": "g"
+    },
+    {
+     "name": "당류",
+     "value": 8.3,
+     "unit": "g"
+    },
+    {
+     "name": "칼슘",
+     "value": 306,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 7.14,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 160,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 327,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 1268,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 45,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 1.44,
+     "unit": "mg"
+    },
+    {
+     "name": "티아민",
+     "value": 0.516,
+     "unit": "mg"
+    },
+    {
+     "name": "리보플라빈",
+     "value": 0.192,
+     "unit": "mg"
+    },
+    {
+     "name": "니아신",
+     "value": 0.881,
+     "unit": "mg"
+    },
+    {
+     "name": "판토텐산",
+     "value": 39.252,
+     "unit": "mg"
+    },
+    {
+     "name": "엽산(엽산당량)",
+     "value": 42,
+     "unit": "μg"
+    },
+    {
+     "name": "비타민 E",
+     "value": 1.55,
+     "unit": "mg"
+    }
+   ],
+   "note": "식이섬유는 DB에 값이 없음",
+   "source": [
+    14
+   ]
+  }
+ ],
+ "production": [
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2010,
+   "value": 19010,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2010,
+   "value": 26944,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2010,
+   "value": 23857,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2011,
+   "value": 17601,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2011,
+   "value": 26737,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2011,
+   "value": 23578,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2012,
+   "value": 16174,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2012,
+   "value": 26057,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2012,
+   "value": 23795,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2013,
+   "value": 15824,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2013,
+   "value": 21968,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2013,
+   "value": 24376,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 14652,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 20978,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 22986,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 14213,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 21043,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 21087,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 14679,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 20386,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 22945,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 14832,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 23310,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 21008,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 15452,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 23265,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 20556,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 14770,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 19582,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 16981,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 15160,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 23896,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 17707,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 14729,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 20772,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 19044,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 14734,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 22020,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 18236,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 11745,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 22223,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 17662,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 10585,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "production_t",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 18272,
+   "unit": "t",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 15877,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 5819,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2014,
+   "value": 183532,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 5925,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2015,
+   "value": 155081,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 5828,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2016,
+   "value": 133486,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 6410,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2017,
+   "value": 158393,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 7512,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2018,
+   "value": 187742,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 10575,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2019,
+   "value": 210277,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 11894,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2020,
+   "value": 229764,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 13652,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2021,
+   "value": 266968,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 15965,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2022,
+   "value": 269731,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 13657,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2023,
+   "value": 260245,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_t",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 15092,
+   "unit": "t",
+   "note": "인삼류 전체(수삼·백삼·홍삼·홍삼정·인삼음료 등 합계)",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2024,
+   "value": 249316,
+   "unit": "천 달러",
+   "note": "인삼류 전체",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "인천",
+   "year": 2024,
+   "value": 40,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "인천",
+   "year": 2024,
+   "value": 148,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "대전",
+   "year": 2024,
+   "value": 31,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "대전",
+   "year": 2024,
+   "value": 49,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "세종",
+   "year": 2024,
+   "value": 77,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "세종",
+   "year": 2024,
+   "value": 123,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "경기",
+   "year": 2024,
+   "value": 1901,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "경기",
+   "year": 2024,
+   "value": 2908,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "강원",
+   "year": 2024,
+   "value": 2131,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "강원",
+   "year": 2024,
+   "value": 3914,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "충북",
+   "year": 2024,
+   "value": 1835,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "충북",
+   "year": 2024,
+   "value": 2987,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "충남",
+   "year": 2024,
+   "value": 1693,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "충남",
+   "year": 2024,
+   "value": 2471,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "전북",
+   "year": 2024,
+   "value": 1248,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "전북",
+   "year": 2024,
+   "value": 1297,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "전남",
+   "year": 2024,
+   "value": 291,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "전남",
+   "year": 2024,
+   "value": 288,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "경북",
+   "year": 2024,
+   "value": 1258,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "경북",
+   "year": 2024,
+   "value": 1636,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "경남",
+   "year": 2024,
+   "value": 79,
+   "unit": "ha",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "farms",
+   "region": "경남",
+   "year": 2024,
+   "value": 56,
+   "unit": "호",
+   "source": [
+    15
+   ]
+  },
+  {
+   "metric": "export_kusd",
+   "region": "대한민국",
+   "year": 2009,
+   "value": 38000,
+   "unit": "천 달러",
+   "note": "논문 본문의 '$38 million'을 환산; 농식품부 통계와 집계 기준이 다를 수 있음",
+   "source": [
+    17
+   ]
+  },
+  {
+   "metric": "area_ha",
+   "region": "강원",
+   "year": 2023,
+   "value": 2013,
+   "unit": "ha",
+   "note": "전국 11,745 ha의 17.1%",
+   "source": [
+    16
+   ]
+  }
+ ],
+ "world": [
+  {
+   "country": "중국",
+   "metric": "production_t",
+   "year": 2008,
+   "value": 44749,
+   "unit": "t",
+   "note": "세계 생산 약 80,080 t 중 55.9%",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "대한민국",
+   "metric": "production_t",
+   "year": 2009,
+   "value": 27480,
+   "unit": "t",
+   "note": "34.3%",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "캐나다",
+   "metric": "production_t",
+   "year": 2007,
+   "value": 6486,
+   "unit": "t",
+   "note": "8.1%(추정치, 대부분 미국삼)",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "미국",
+   "metric": "production_t",
+   "year": 2007,
+   "value": 1054,
+   "unit": "t",
+   "note": "1.3%(추정치, 미국삼)",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "중국",
+   "metric": "share_pct",
+   "year": 2008,
+   "value": 55.9,
+   "unit": "%",
+   "note": "4개국 합계 79,769 t(세계 생산의 약 99%) 기준",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "대한민국",
+   "metric": "share_pct",
+   "year": 2009,
+   "value": 34.3,
+   "unit": "%",
+   "note": "",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "캐나다",
+   "metric": "share_pct",
+   "year": 2007,
+   "value": 8.1,
+   "unit": "%",
+   "note": "",
+   "source": [
+    17
+   ]
+  },
+  {
+   "country": "미국",
+   "metric": "share_pct",
+   "year": 2007,
+   "value": 1.3,
+   "unit": "%",
+   "note": "",
+   "source": [
+    17
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 5,
+   "title": "Lee SM et al. (2015) Characterization of Korean Red Ginseng (Panax ginseng Meyer): History, preparation method, and chemical composition. J Ginseng Res 39(4):384-391. doi:10.1016/j.jgr.2015.04.009",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593794/",
+   "publisher": "Journal of Ginseng Research (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 6,
+   "title": "[카드뉴스] 건강기능식품 이야기",
+   "url": "https://mfds.go.kr/brd/m_768/view.do?seq=3693",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 7,
+   "title": "인기 추석 선물 '홍삼'…올바른 구매·섭취 방법은? (2021.09.13)",
+   "url": "https://www.korea.kr/news/cultureColumnView.do?newsId=148893063",
+   "publisher": "대한민국 정책브리핑(식품의약품안전처 기고)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 8,
+   "title": "홍삼 제품 진세노사이드 함량 조사 결과(서울시보건환경연구원)",
+   "url": "https://news.seoul.go.kr/welfare/?p=535822",
+   "publisher": "서울특별시",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 9,
+   "title": "홍삼 먹을 때 꼭 확인해야 할 5가지 (2016.11.30)",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148825392",
+   "publisher": "대한민국 정책브리핑",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 10,
+   "title": "인삼의 '뼈 건강 개선 효과' 과학적 입증 (2019.06.05)",
+   "url": "https://www.korea.kr/news/policyNewsView.do?newsId=156335048",
+   "publisher": "대한민국 정책브리핑(농촌진흥청)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 11,
+   "title": "New health claim boost: Ginseng recognised for improving bone health in South Korea (2020.08.18)",
+   "url": "https://www.nutraingredients.com/Article/2020/08/18/New-health-claim-boost-Ginseng-recognised-for-improving-bone-health-in-South-Korea",
+   "publisher": "NutraIngredients-Asia(업계 전문지)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 12,
+   "title": "국가표준식품성분표 - 인삼, 수삼, 생것 (출처 표기: 농진청 '19)",
+   "url": "https://www.nics.go.kr/food/kfi/fct/fctFoodSrch/detailOne?foodCodes=T0210020000a",
+   "publisher": "농촌진흥청 국립식량과학원 식품성분 DB",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 13,
+   "title": "국가표준식품성분표 - 인삼, 백삼, 말린것 (출처 표기: 농진청 '84)",
+   "url": "https://www.nics.go.kr/food/kfi/fct/fctFoodSrch/detailOne?foodCodes=T0210010001a",
+   "publisher": "농촌진흥청 국립식량과학원 식품성분 DB",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 14,
+   "title": "국가표준식품성분표 - 인삼, 홍삼, 말린것 (출처 표기: 농진청 '19)",
+   "url": "https://www.nics.go.kr/food/kfi/fct/fctFoodSrch/detailOne?foodCodes=T0210030001a",
+   "publisher": "농촌진흥청 국립식량과학원 식품성분 DB",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 15,
+   "title": "2025 농림축산식품 주요통계 (V. 경제작물 - 4. 특용작물: 인삼 생산현황, 시도별 인삼 경작현황, 인삼류별 수출실적)",
+   "url": "https://www.mafra.go.kr/bbs/home/789/592915/download.do",
+   "publisher": "농림축산식품부",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 16,
+   "title": "강원특별자치도 인삼 재배 현황",
+   "url": "https://state.gwd.go.kr/portal/partinfo/livestock/horticultural/special/ginseng",
+   "publisher": "강원특별자치도",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 17,
+   "title": "Baeg IH, So SH (2013) The world ginseng market and the ginseng (Korea). J Ginseng Res 37(1)",
+   "url": "https://www.scienceopen.com/document_file/e2fed45f-35df-486d-90ae-4accadb72c5c/PubMedCentral/e2fed45f-35df-486d-90ae-4accadb72c5c.pdf",
+   "publisher": "Journal of Ginseng Research (ScienceOpen 사본)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 18,
+   "title": "Kim NH et al. (2018) Genome and evolution of the shade-requiring medicinal herb Panax ginseng. Plant Biotechnol J 16(11):1904-1917. doi:10.1111/pbi.12926",
+   "url": "https://genome.arizona.edu/publication/genome-and-evolution-shade-requiring-medicinal-herb-panax-ginseng.html",
+   "publisher": "Arizona Genomics Institute 출판 목록(초록) / PubMed",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 19,
+   "title": "Boopathi V et al. (2019) Till 2018: a survey of biomolecular sequences in genus Panax. J Ginseng Res 44(1):33-43",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7033366",
+   "publisher": "Journal of Ginseng Research (PMC)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 20,
+   "title": "김영창 외 (2014) 인삼 종자의 개갑률 향상을 위한 적정 수확시기 및 GA3 처리 효과. 한국약용작물학회지 22(6):423-428",
+   "url": "https://koreascience.or.kr/article/JAKO201402148670219.pdf",
+   "publisher": "한국약용작물학회 (KoreaScience)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 21,
+   "title": "[정책발언대] 우리 겨레의 자긍심이 깃든 인삼 (2021.02.16, 황정환 국립원예특작과학원장)",
+   "url": "https://www.etoday.co.kr/news/view/1994699",
+   "publisher": "이투데이",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 22,
+   "title": "Chen Y et al. (2015) Chemical differentiation and quality evaluation of commercial Asian and American ginsengs based on a UHPLC-QTOF/MS/MS metabolomics approach. Phytochem Anal 26(2):145-160",
+   "url": "https://doi.org/10.1002/pca.2546",
+   "publisher": "Phytochemical Analysis (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 24,
+   "title": "Ye X et al. (2023) Saponins of ginseng products: a review of their transformation in processing. Front Pharmacol",
+   "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1177819/pdf",
+   "publisher": "Frontiers in Pharmacology",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 25,
+   "title": "Choi S et al. (2017) A systematic review of the pharmacokinetic and pharmacodynamic interactions of herbal medicine with warfarin. PLoS One 12(8):e0182794",
+   "url": "https://doi.org/10.1371/journal.pone.0182794",
+   "publisher": "PLoS One (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 26,
+   "title": "Lee SH et al. (2008) Interaction between warfarin and Panax ginseng in ischemic stroke patients. J Altern Complement Med 14(6):715-721",
+   "url": "https://doi.org/10.1089/acm.2007.0799",
+   "publisher": "J Altern Complement Med (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 27,
+   "title": "Jiang X et al. (2006) Investigation of the effects of herbal medicines on warfarin response in healthy subjects. J Clin Pharmacol 46(11):1370-1378",
+   "url": "https://doi.org/10.1177/0091270006292124",
+   "publisher": "J Clin Pharmacol (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 28,
+   "title": "Li X et al. (2023) Ginseng and Ginseng Herbal Formulas for Symptomatic Management of Fatigue: A Systematic Review and Meta-Analysis. J Integr Complement Med 29(8):468-482",
+   "url": "https://doi.org/10.1089/jicm.2022.0532",
+   "publisher": "J Integr Complement Med (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 29,
+   "title": "Im DS (2020) Pro-Resolving Effect of Ginsenosides as an Anti-Inflammatory Mechanism of Panax ginseng. Biomolecules 10(3):444",
+   "url": "https://doi.org/10.3390/biom10030444",
+   "publisher": "Biomolecules (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 30,
+   "title": "Bai L et al. (2018) Therapeutic Potential of Ginsenosides as an Adjuvant Treatment for Diabetes. Front Pharmacol 9:423",
+   "url": "https://doi.org/10.3389/fphar.2018.00423",
+   "publisher": "Frontiers in Pharmacology (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 31,
+   "title": "Arafa EA et al. (2021) The promising therapeutic potentials of ginsenosides mediated through p38 MAPK signaling inhibition. Heliyon 7(11):e08354",
+   "url": "https://doi.org/10.1016/j.heliyon.2021.e08354",
+   "publisher": "Heliyon (PubMed 메타데이터로 확인)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 32,
+   "title": "Kang OJ, Kim JS (2016) Comparison of ginsenoside contents in different parts of Korean ginseng (Panax ginseng C.A. Meyer). Prev Nutr Food Sci 21(4):389-392",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5216893",
+   "publisher": "Preventive Nutrition and Food Science (PMC)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 33,
+   "title": "신비로운 인삼에 정성을 담다 - 금산 인삼 (농촌진흥청 웹진 2023년 10월)",
+   "url": "https://rda.go.kr/webzine/2023/10/sub4-1.html",
+   "publisher": "농촌진흥청",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 34,
+   "title": "Geumsan Traditional Ginseng Agricultural System",
+   "url": "https://www.fao.org/giahs/around-the-world/detail/korea-geumsan-system",
+   "publisher": "FAO GIAHS",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 35,
+   "title": "농촌진흥청, 논에서 인삼 재배 병 줄이고 수확량 높이는 토양 관리 필수 (2025.03.25)",
+   "url": "https://newsseoul.co.kr/news/view/1065584419595485",
+   "publisher": "뉴스서울(농촌진흥청 보도 인용)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 36,
+   "title": "인삼 재배 관련 연구 계획 자료(plan_20_reso_03)",
+   "url": "https://nongup.gg.go.kr/wp-content/uploads/sites/2/2020/03/plan_20_reso_03.pdf",
+   "publisher": "경기도농업기술원 소득자원연구소",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 37,
+   "title": "'인삼 재배와 약용문화' 국가무형문화재 지정 관련 보도 (2020.09)",
+   "url": "https://www.ytn.co.kr/_ln/0106_202009281627354388",
+   "publisher": "YTN(문화재청 발표 인용)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 38,
+   "title": "알고 먹으면 더 건강해지는 '홍삼'",
+   "url": "https://mediahub.seoul.go.kr/archives/938031",
+   "publisher": "서울특별시 미디어허브",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 39,
+   "title": "건강기능식품의 기준 및 규격 개정 고시 (식품의약품안전청 고시 제2010-7호, 2010.02.18)",
+   "url": "https://www.mfds.go.kr/brd/m_207/view.do?seq=2978",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 40,
+   "title": "Asian Ginseng (Last updated February 2025)",
+   "url": "https://www.nccih.nih.gov/health/asian-ginseng",
+   "publisher": "미국 국립보건원 국립보완통합보건센터(NIH NCCIH)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 41,
+   "title": "Panax ginseng C.A.Mey. - Plants of the World Online",
+   "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:91472-1/general-information",
+   "publisher": "Royal Botanic Gardens, Kew (POWO)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 42,
+   "title": "Panax ginseng C.A.Mey. - International Plant Names Index",
+   "url": "https://www.ipni.org/n/91472-1",
+   "publisher": "IPNI (Kew·Harvard·Australian National Herbarium)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 43,
+   "title": "Yun TK (2001) Brief introduction of Panax ginseng C.A. Meyer. J Korean Med Sci 16(Suppl):S3-5",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3202213/",
+   "publisher": "Journal of Korean Medical Science (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 44,
+   "title": "Wen J et al. (2023) Panax siamensis J. Wen, a new species of the ginseng genus (Panax, Araliaceae) from northern Thailand. PhytoKeys 234",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10576250/",
+   "publisher": "PhytoKeys (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 45,
+   "title": "대한민국약전 인삼(人蔘, Ginseng Radix) 각조 (생약 사진자료 KP_123)",
+   "url": "https://www.mfds.go.kr/files/upload/herbmed/photo_data/KP_123.pdf",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 46,
+   "title": "이달의 이슈 농업기술 - 환절기 면역력에 좋은 인삼, 추석 선물로도 좋아요 (2023.09.13)",
+   "url": "https://www.rda.go.kr/middlePopOpenPopNongsaroDBView.do?no=1907",
+   "publisher": "농촌진흥청 국립원예특작과학원(농사로)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 47,
+   "title": "Assessment report on Panax ginseng C.A.Mey., radix (EMA/HMPC/27745/2023, Rev. 1, 2024)",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-panax-ginseng-camey-radix-revision-1_en.pdf",
+   "publisher": "European Medicines Agency (HMPC)",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 48,
+   "title": "Ginseng radix - herbal medicinal product",
+   "url": "https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix",
+   "publisher": "European Medicines Agency",
+   "accessed": "2026-10-04"
+  },
+  {
+   "n": 49,
+   "title": "Yang X et al. (2014) Protective effects of Panax notoginseng saponins on cardiovascular diseases: a comprehensive overview of experimental studies. Evid Based Complement Alternat Med 2014:204840",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4131460/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PubMed Central 전문, PubMed 도구로 열람)",
+   "accessed": "2026-10-04"
+  }
+ ]
+}

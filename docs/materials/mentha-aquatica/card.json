@@ -1,0 +1,85 @@
+{
+ "key": "Mentha aquatica",
+ "name_ko": "베르가모트민트",
+ "names": [
+  "베르가모트민트오일",
+  "베르가모트민트잎"
+ ],
+ "nicknames": [
+  "베르가못민트",
+  "워터민트"
+ ],
+ "eng": [
+  "Bergamot mint, Eau de Cologne mint"
+ ],
+ "scnm_full": [
+  "Mentha aquatica L. / Mentha citrata J. F. Ehrh."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14755000,
+ "genus": "Mentha",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 116,
+ "candidates": [
+  {
+   "compound": "Myrtenyl methyl ether",
+   "compound_ko": "미르테닐 메틸 에테르",
+   "pubchem_cid": 15775107,
+   "part": "Shoot",
+   "content": "최대 2 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 6건 보고(DUKE, LOTUS), 최대 2 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "Verbenyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 118088,
+   "part": "Shoot",
+   "content": "최대 3 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE), 최대 3 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "Menthyl acetate",
+   "compound_ko": "멘틸 아세테이트",
+   "pubchem_cid": 27867,
+   "part": "Leaf, Shoot",
+   "content": "최대 1900 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE), 최대 1900 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "Menthofuran",
+   "compound_ko": "멘토푸란",
+   "pubchem_cid": 329983,
+   "part": "Leaf, Shoot",
+   "content": "최대 7582 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE), 최대 7582 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "Isoamyl isovalerate",
+   "compound_ko": "이소아밀 이소발레레이트",
+   "pubchem_cid": 12613,
+   "part": "Shoot",
+   "content": "최대 0.1 ppm",
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 6건 보고(DUKE, LOTUS), 최대 0.1 ppm",
+   "n_genera": 11
+  }
+ ],
+ "priority": 6.446
+}

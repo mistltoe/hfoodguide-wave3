@@ -1,0 +1,78 @@
+{
+ "key": "Parkia speciosa",
+ "name_ko": "세이터",
+ "names": [
+  "세이터열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Sator, Parkia, Petai, Petai Bean, Pete, Stink bean, Twisted Cluster bean, yongchaa, yongchaak, zawngtah"
+ ],
+ "scnm_full": [
+  "Parkia speciosa Hassk."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14755950,
+ "genus": "Parkia",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 20,
+ "candidates": [
+  {
+   "compound": "1,2,4,5,7,8-Hexathionane",
+   "compound_ko": null,
+   "pubchem_cid": 580002,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1,2,4,5,7-Pentathiocane",
+   "compound_ko": null,
+   "pubchem_cid": 522753,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1,2,4,6-Tetrathiepane",
+   "compound_ko": null,
+   "pubchem_cid": 520423,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Lenthionine",
+   "compound_ko": null,
+   "pubchem_cid": 67521,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "1,2,4-Trithiolane",
+   "compound_ko": null,
+   "pubchem_cid": 9258,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 4.322
+}

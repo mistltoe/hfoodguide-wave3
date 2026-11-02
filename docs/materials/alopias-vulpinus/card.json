@@ -1,0 +1,30 @@
+{
+ "key": "Alopias vulpinus",
+ "name_ko": "흰배환도상어",
+ "names": [
+  "흰배환도상어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Thresher shark, Fox shark, Thintail thresher"
+ ],
+ "scnm_full": [
+  "Alopias vulpinus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14874752,
+ "genus": "Alopias",
+ "family": "Alopiidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

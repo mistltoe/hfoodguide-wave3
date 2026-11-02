@@ -1,0 +1,84 @@
+{
+ "key": "Cola acuminata",
+ "name_ko": "콜라나무",
+ "names": [
+  "콜라나무농축물",
+  "콜라나무열매",
+  "콜라나무열매분말",
+  "콜라나무열매추출물",
+  "콜라나무오일",
+  "콜라나무추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Cola tree, Kola, Kola nut, Bissy nut, Gooroo nut"
+ ],
+ "scnm_full": [
+  "Cola acuminata / Cola spp."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 14750003,
+ "genus": "Cola",
+ "family": "Sterculiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 34,
+ "candidates": [
+  {
+   "compound": "Theobromine",
+   "compound_ko": "테오브로민",
+   "pubchem_cid": 5429,
+   "part": "Seed",
+   "content": "최대 1000 ppm",
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 1000 ppm",
+   "n_genera": 11
+  },
+  {
+   "compound": "Colalipase",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Colaoxydase",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Kolanin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Seed",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Kolatein",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Seed",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.755
+}

@@ -1,0 +1,30 @@
+{
+ "key": "Otolithes ruber",
+ "name_ko": "붉은이석태",
+ "names": [
+  "붉은이석태"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Tiger toothed croaker"
+ ],
+ "scnm_full": [
+  "Otolithes ruber"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16380472,
+ "genus": "Otolithes",
+ "family": "Sciaenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

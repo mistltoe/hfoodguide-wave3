@@ -1,0 +1,30 @@
+{
+ "key": "Sphyraena barracuda",
+ "name_ko": "큰꼬치고기",
+ "names": [
+  "큰꼬치고기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Great barracuda"
+ ],
+ "scnm_full": [
+  "Sphyraena barracuda"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16895737,
+ "genus": "Sphyraena",
+ "family": "Sphyraenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

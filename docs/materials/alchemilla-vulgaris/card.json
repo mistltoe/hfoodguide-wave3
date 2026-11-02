@@ -1,0 +1,32 @@
+{
+ "key": "Alchemilla vulgaris",
+ "name_ko": "레이디스맨틀",
+ "names": [
+  "레이디스맨틀잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Ladys mantle"
+ ],
+ "scnm_full": [
+  "Alchemilla vulgaris L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747390,
+ "genus": "Alchemilla",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 6,
+ "candidates": [],
+ "priority": 3.845
+}

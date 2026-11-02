@@ -1,0 +1,37 @@
+{
+ "key": "Aster yomena",
+ "name_ko": "쑥부쟁이",
+ "names": [
+  "쑥부쟁이가루",
+  "쑥부쟁이잎"
+ ],
+ "nicknames": [
+  "가새쑥부쟁이",
+  "쑥부장이",
+  "왜쑥부쟁이"
+ ],
+ "eng": [
+  "Field aster"
+ ],
+ "scnm_full": [
+  "Aster yomena (Kitam.) Honda / Aster incisa var. yomena Kitam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14786323,
+ "genus": "Aster",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 4.178
+}

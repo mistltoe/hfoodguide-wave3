@@ -1,0 +1,85 @@
+{
+ "key": "Amelanchier alnifolia",
+ "name_ko": "오리잎채진목",
+ "names": [
+  "Pacific serviceberry열매",
+  "오리잎채진목열매"
+ ],
+ "nicknames": [
+  "사스카툰"
+ ],
+ "eng": [
+  "June berries, Saskatoon",
+  "Saskatoon, Serviceberry, Saskatoon berry, June berry"
+ ],
+ "scnm_full": [
+  "Amelanchier alnifolia (Nutt.) Nutt. ex M. Roem.",
+  "Amelanchier alnifolia semiintegrifolia"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14747609,
+ "genus": "Amelanchier",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 16,
+ "candidates": [
+  {
+   "compound": "(4S,5R)-2-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxyoxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 71315023,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Cyanidin 3-O-xyloside",
+   "compound_ko": "시아니딘 3-O-자일로사이드",
+   "pubchem_cid": 87948385,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  },
+  {
+   "compound": "2-(4-Hydroxyphenyl)-3-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-5-[4,5,6-trihydroxy-3-(hydroxymethyl)oxan-2-yl]oxychromen-7-one",
+   "compound_ko": null,
+   "pubchem_cid": 163195776,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "Quercetin 3-beta-L-arabinopyranoside",
+   "compound_ko": "퀘르세틴 3-베타-L-아라비노피라노사이드",
+   "pubchem_cid": 5317847,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 14
+  },
+  {
+   "compound": "Cyanidin 3-O-galactoside",
+   "compound_ko": "시아니딘 3-O-갈락토사이드",
+   "pubchem_cid": 441699,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 22개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 22
+  }
+ ],
+ "priority": 5.108
+}

@@ -1,0 +1,34 @@
+{
+ "key": "Psidium guineense",
+ "name_ko": "브라질구와바",
+ "names": [
+  "브라질구와바열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Brazilian Guava"
+ ],
+ "scnm_full": [
+  "Psidium guineense Sw. / Psidium molle Bertol / Psidium schiedeanum Berg. / Psidium araca Raddi"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14782584,
+ "genus": "Psidium",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 3.301
+}

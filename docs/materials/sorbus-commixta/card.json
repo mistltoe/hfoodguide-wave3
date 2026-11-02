@@ -1,0 +1,72 @@
+{
+ "key": "Sorbus commixta",
+ "name_ko": "마가목",
+ "names": [
+  "마가목",
+  "마가목나무껍질",
+  "마가목나무껍질분말",
+  "마가목나무껍질추출액",
+  "마가목열매",
+  "마가목열매추출물"
+ ],
+ "nicknames": [
+  "Mountoin Ash",
+  "Silvery mountain ash",
+  "은빛마가목"
+ ],
+ "eng": [
+  "Mountoin Ash, Silvery mountain ash"
+ ],
+ "scnm_full": [
+  "Sorbus commixta Hedl. / Pyrus micrantha var. macrophylla Cardot / Sorbus aucuparia var. japonica Maxim."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "나무껍질",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매",
+  "제한적사용가능부위 : 나무껍질"
+ ],
+ "status": "restricted",
+ "n_rows": 6,
+ "bioresource_id": 14763218,
+ "genus": "Sorbus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 5,
+ "candidates": [
+  {
+   "compound": "2-Phenyl-2-(3,4,5-Trihydroxy-6-((3,4,5-Trihydroxy-6-(Hydroxymethyl)Oxan-2-Yl)Oxymethyl)Oxan-2-Yl)Oxyacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 2180,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "3-Hydroxy-2-[(2E)-3-(4-hydroxyphenyl)prop-2-enoyl]-5-methoxyphenyl beta-D-glucopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 14524444,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-Phenyl-2-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 576072,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 6
+  }
+ ],
+ "priority": 6.489
+}

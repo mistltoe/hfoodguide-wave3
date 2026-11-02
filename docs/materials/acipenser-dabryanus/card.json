@@ -1,0 +1,30 @@
+{
+ "key": "Acipenser dabryanus",
+ "name_ko": "칼상어",
+ "names": [
+  "칼상어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Dabry‘s sturgeon"
+ ],
+ "scnm_full": [
+  "Acipenser dabryanus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14809144,
+ "genus": "Acipenser",
+ "family": "Acipenseridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

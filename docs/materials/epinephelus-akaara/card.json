@@ -1,0 +1,32 @@
+{
+ "key": "Epinephelus akaara",
+ "name_ko": "붉바리",
+ "names": [
+  "붉바리"
+ ],
+ "nicknames": [
+  "붉발"
+ ],
+ "eng": [
+  "Hong Kong grouper, Red spotted grouper"
+ ],
+ "scnm_full": [
+  "Epinephelus akaara"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15583059,
+ "genus": "Epinephelus",
+ "family": "Epinephelidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

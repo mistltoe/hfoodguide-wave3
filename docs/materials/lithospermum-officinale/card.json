@@ -1,0 +1,83 @@
+{
+ "key": "Lithospermum officinale",
+ "name_ko": "그롬웰",
+ "names": [
+  "그롬웰잎",
+  "그롬웰지상부"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Gromwell"
+ ],
+ "scnm_full": [
+  "Lithospermum officinale L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎",
+  "지상부"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎",
+  "제한적사용가능부위 : 지상부(잎 제외)"
+ ],
+ "status": "restricted",
+ "n_rows": 2,
+ "bioresource_id": 14754394,
+ "genus": "Lithospermum",
+ "family": "Boraginaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_EFSA_COMPENDIUM"
+ ],
+ "n_compounds": 6,
+ "candidates": [
+  {
+   "compound": "Acetyllythosenine",
+   "compound_ko": null,
+   "pubchem_cid": 101674027,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Lithosenine",
+   "compound_ko": null,
+   "pubchem_cid": 101674026,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(+-)-Shikonin",
+   "compound_ko": null,
+   "pubchem_cid": 5208,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1-(5,8-Dihydroxy-1,4-dioxo-1,4-dihydronaphthalen-2-yl)-4-methylpent-3-en-1-yl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 32464,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Shikonin",
+   "compound_ko": "시코닌",
+   "pubchem_cid": 479503,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 4.223
+}

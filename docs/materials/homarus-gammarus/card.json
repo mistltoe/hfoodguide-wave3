@@ -1,0 +1,33 @@
+{
+ "key": "Homarus gammarus",
+ "name_ko": "유럽바다가재",
+ "names": [
+  "유럽바다가재"
+ ],
+ "nicknames": [
+  "European lobster",
+  "유럽바닷가재"
+ ],
+ "eng": [
+  "European lobster"
+ ],
+ "scnm_full": [
+  "Homarus gammarus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15848524,
+ "genus": "Homarus",
+ "family": "Nephropidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

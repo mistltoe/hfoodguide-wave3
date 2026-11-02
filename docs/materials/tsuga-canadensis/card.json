@@ -1,0 +1,78 @@
+{
+ "key": "Tsuga canadensis",
+ "name_ko": "캐나다솔송내피",
+ "names": [
+  "캐나다솔송내피"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Eastern hemlock, Canadian hemlock"
+ ],
+ "scnm_full": [
+  "Tsuga canadensis Carriere"
+ ],
+ "kind": "plant",
+ "parts": [
+  "속껍질"
+ ],
+ "conditions": [
+  "사용가능부위 : 내피"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759846,
+ "genus": "Tsuga",
+ "family": "Pinaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 23,
+ "candidates": [
+  {
+   "compound": "L-alpha-Pinene",
+   "compound_ko": null,
+   "pubchem_cid": 12223113,
+   "part": "Branches",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Galactoglucomannan",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Wood",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Galactoglucomannoglycan",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Wood",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "L-Bornyl-Acetate",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Branches",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 3
+  },
+  {
+   "compound": "L-Borneol",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Branches",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 5
+  }
+ ],
+ "priority": 4.38
+}

@@ -1,0 +1,32 @@
+{
+ "key": "Cirsium vulgare",
+ "name_ko": "서양가시엉겅퀴",
+ "names": [
+  "서양가시엉겅퀴잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bull thistle, Spear thistle"
+ ],
+ "scnm_full": [
+  "Cirsium vulgare (Savi) Ten"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15271894,
+ "genus": "Cirsium",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,69 @@
+{
+ "key": "Pholiota nameko",
+ "name_ko": "나도팽나무버섯",
+ "names": [
+  "나도팽나무버섯자실체"
+ ],
+ "nicknames": [
+  "맛버섯"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Pholiota nameko"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762374,
+ "genus": "Pholiota",
+ "family": "Strophariaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 4,
+ "candidates": [
+  {
+   "compound": "(3S,4R,5R,7S)-3,11-Dihydroxyeremophil-1(10)-en-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 170989165,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,6S,7S,8R,10S)-3,7,14-trihydroxy-1-sterpuren",
+   "compound_ko": null,
+   "pubchem_cid": 170988607,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Hexopyranosyl hexopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 1143,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "L-Ascorbic acid, 6-deoxy-",
+   "compound_ko": null,
+   "pubchem_cid": 54679898,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  }
+ ],
+ "priority": 3.699
+}

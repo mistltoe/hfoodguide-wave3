@@ -1,0 +1,35 @@
+{
+ "key": "Butyrospermum parkii",
+ "name_ko": "시어버터나무",
+ "names": [
+  "시어버터나무씨앗",
+  "시어버터나무씨앗추출물"
+ ],
+ "nicknames": [
+  "쉐어버터나무"
+ ],
+ "eng": [
+  "Shea tree, Shea butter"
+ ],
+ "scnm_full": [
+  "Butyrospermum parkii (G. Don) Kotschy"
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14748888,
+ "genus": "Butyrospermum",
+ "family": "Sapotaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

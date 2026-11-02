@@ -1,0 +1,49 @@
+{
+ "key": "Nemopilema nomurai",
+ "name_ko": "노무라입깃해파리",
+ "names": [
+  "노무라입깃해파리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Nomuras jellyfish"
+ ],
+ "scnm_full": [
+  "Nemopilema nomurai"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14777659,
+ "genus": "Nemopilema",
+ "family": "Rhizostomatidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 2,
+ "candidates": [
+  {
+   "compound": "JMVNDTIUDCAHOT-LSYUVFFOSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "JMVNDTIUDCAHOT-MWPXPLBMSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.477
+}

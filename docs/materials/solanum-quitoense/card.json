@@ -1,0 +1,44 @@
+{
+ "key": "Solanum quitoense",
+ "name_ko": "루로",
+ "names": [
+  "루로열매",
+  "루로페이스트"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Lulo, Naranjilla"
+ ],
+ "scnm_full": [
+  "Solanum quitoense"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14782027,
+ "genus": "Solanum",
+ "family": "Solanaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Citroside A",
+   "compound_ko": "시트로사이드 A",
+   "pubchem_cid": 14312562,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 23
+  }
+ ],
+ "priority": 4.678
+}

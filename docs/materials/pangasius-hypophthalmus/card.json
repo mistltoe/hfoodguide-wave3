@@ -1,0 +1,34 @@
+{
+ "key": "Pangasius hypophthalmus",
+ "name_ko": "메콩강큰메기",
+ "names": [
+  "메콩강큰메기"
+ ],
+ "nicknames": [
+  "Iridescent shark",
+  "가이양",
+  "팡가시우스메기"
+ ],
+ "eng": [
+  "Iridescent shark"
+ ],
+ "scnm_full": [
+  "Pangasius hypophthalmus / Pangasianodon hypophthalmus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Pangasius",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

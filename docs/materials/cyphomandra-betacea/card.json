@@ -1,0 +1,80 @@
+{
+ "key": "Cyphomandra betacea",
+ "name_ko": "나무토마토",
+ "names": [
+  "나무토마토열매",
+  "나무토마토페이스트"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Tree tomato"
+ ],
+ "scnm_full": [
+  "Cyphomandra betacea (Cav.) Sendt."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14750736,
+ "genus": "Cyphomandra",
+ "family": "Solanaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 33,
+ "candidates": [
+  {
+   "compound": "Malvidin 3-diglucoside",
+   "compound_ko": null,
+   "pubchem_cid": 44256978,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Malvidin-3-Glucosyl-Glucose",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Fruit",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Paeonidin-3-Glucosyl-Glucose",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Fruit",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Pelargonidin-3-Glucosyl-Glucose",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Fruit",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Solacarpoine",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.909
+}

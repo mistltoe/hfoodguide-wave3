@@ -1,0 +1,36 @@
+{
+ "key": "Patrinia scabiosaefolia",
+ "name_ko": "마타리",
+ "names": [
+  "마타리",
+  "마타리순"
+ ],
+ "nicknames": [
+  "가얌취"
+ ],
+ "eng": [
+  "Golden lace, Dahurian patrinia"
+ ],
+ "scnm_full": [
+  "Patrinia scabiosaefolia Fisch. ex Link / Patrinia scabiosifolia ex Trevir."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14755992,
+ "genus": "Patrinia",
+ "family": "Valerianaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

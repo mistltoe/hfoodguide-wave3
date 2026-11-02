@@ -1,0 +1,30 @@
+{
+ "key": "Pangasius bocourti",
+ "name_ko": "퍼시픽도리",
+ "names": [
+  "퍼시픽도리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Basa fish"
+ ],
+ "scnm_full": [
+  "Pangasius bocourti"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16409838,
+ "genus": "Pangasius",
+ "family": "Pangasiidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

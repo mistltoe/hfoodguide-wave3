@@ -1,0 +1,56 @@
+{
+ "key": "Rapana venosa",
+ "name_ko": "피뿔고둥",
+ "names": [
+  "피뿔고둥",
+  "피뿔고둥살"
+ ],
+ "nicknames": [
+  "두드럭고둥",
+  "참고둥"
+ ],
+ "eng": [
+  "Purple whelk, Thomas’s rapa whelk　"
+ ],
+ "scnm_full": [
+  "Rapana venosa"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14766907,
+ "genus": "Rapana",
+ "family": "Muricidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 2,
+ "candidates": [
+  {
+   "compound": "4,9-Anhydrotetrodotoxin",
+   "compound_ko": null,
+   "pubchem_cid": 107878,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Tetrodotoxin",
+   "compound_ko": "테트로도톡신",
+   "pubchem_cid": 11174599,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 22개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 22
+  }
+ ],
+ "priority": 4.855
+}

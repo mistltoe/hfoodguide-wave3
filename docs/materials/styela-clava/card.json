@@ -1,0 +1,79 @@
+{
+ "key": "Styela clava",
+ "name_ko": "미더덕",
+ "names": [
+  "미더덕",
+  "미더덕엑기스분말"
+ ],
+ "nicknames": [
+  "미두둑"
+ ],
+ "eng": [
+  "Warty sea squirt"
+ ],
+ "scnm_full": [
+  "Styela clava"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14767390,
+ "genus": "Styela",
+ "family": "Styelidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 15,
+ "candidates": [
+  {
+   "compound": "Clavanin D",
+   "compound_ko": null,
+   "pubchem_cid": 102066134,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R)-3-[(2Z,4E,6E,8E,10E,12E,14E,16E)-3-hydroxy-19-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-4,8,13,17-tetramethylnonadeca-2,4,6,8,10,12,14,16-octaen-18-ynoyl]-3,4,4-trimethylcyclopentan-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 23424843,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Pectenolone",
+   "compound_ko": null,
+   "pubchem_cid": 16061214,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 6
+  },
+  {
+   "compound": "(2Z,4E,6E,8E,10E,12E,14E,16E)-3-Hydroxy-19-((4R)-4-hydroxy-2,6,6-trimethyl-1-cyclohexen-1-yl)-1-((1R,4S)-4-hydroxy-1,2,2-trimethylcyclopentyl)-4,8,13,17-tetramethyl-2,4,6,8,10,12,14,16-nonadecaoctaen-18-yn-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 11365423,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 10개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 10
+  },
+  {
+   "compound": "Halocynthiaxanthin",
+   "compound_ko": "할로시티아잔틴",
+   "pubchem_cid": 11966451,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  }
+ ],
+ "priority": 5.082
+}

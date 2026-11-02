@@ -1,0 +1,78 @@
+{
+ "key": "Sargassum thunbergii",
+ "name_ko": "지충이",
+ "names": [
+  "지충이"
+ ],
+ "nicknames": [
+  "가는잎듬북"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Sargassum thunbergii"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762525,
+ "genus": "Sargassum",
+ "family": "Sargassaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 15,
+ "candidates": [
+  {
+   "compound": "(2Z,6E)-9-[(2S,3R)-3,6-dihydroxy-2,8-dimethyl-3,4-dihydrochromen-2-yl]-6-methyl-2-(4-methylpent-3-enyl)nona-2,6-dienoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162875961,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1-(5-Acetyl-2,4-dihydroxyphenyl)-3-methylbutan-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 90903158,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1-(5-Acetyl-2-hydroxy-4-methoxyphenyl)-3-methylbutan-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 90750503,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "10-Hydroxy-10-(5-hydroxy-7-methyl-2,3-dihydro-1-benzofuran-2-yl)-6-methyl-2-(4-methylpent-3-enyl)undeca-2,6-dienoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 73229718,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "9-(6-Hydroxy-2,8-dimethylchromen-2-yl)-6-methyl-2-(4-methylpent-3-enyl)nona-2,6-dienoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 75599899,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.204
+}

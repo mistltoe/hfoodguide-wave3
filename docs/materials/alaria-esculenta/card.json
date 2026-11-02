@@ -1,0 +1,44 @@
+{
+ "key": "Alaria esculenta",
+ "name_ko": "배더락스",
+ "names": [
+  "배더락스"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Dabberlocks, winged kelp, babberlocks"
+ ],
+ "scnm_full": [
+  "Alaria esculenta (L.) Greville"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14781446,
+ "genus": "Alaria",
+ "family": "Alariaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 2,
+ "candidates": [
+  {
+   "compound": "Trimethyllysine",
+   "compound_ko": "트리메틸라이신",
+   "pubchem_cid": 440121,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 8
+  }
+ ],
+ "priority": 3.477
+}

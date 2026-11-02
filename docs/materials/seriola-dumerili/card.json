@@ -1,0 +1,30 @@
+{
+ "key": "Seriola dumerili",
+ "name_ko": "잿방어",
+ "names": [
+  "잿방어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Greater amberjack, Amberjack, Allied kingfish"
+ ],
+ "scnm_full": [
+  "Seriola dumerili"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16850032,
+ "genus": "Seriola",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,34 @@
+{
+ "key": "Solanum muricatum",
+ "name_ko": "페피노",
+ "names": [
+  "페피노열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pepino"
+ ],
+ "scnm_full": [
+  "Solanum muricatum Aiton"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16875803,
+ "genus": "Solanum",
+ "family": "Solanaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

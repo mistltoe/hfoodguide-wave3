@@ -1,0 +1,77 @@
+{
+ "key": "Silurus asotus",
+ "name_ko": "메기",
+ "names": [
+  "메기",
+  "메기분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Amur catfish, Far eastern catfish"
+ ],
+ "scnm_full": [
+  "Silurus asotus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14767359,
+ "genus": "Silurus",
+ "family": "Siluridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 21,
+ "candidates": [
+  {
+   "compound": "(1R)-3,5,5-trimethyl-4-[(1E,3E,5E,7E,9E,11E,13E,15E)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13,15-octaenyl]cyclohex-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 101217148,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R)-3,5,5-trimethyl-4-[(1E,3E,5E,7E,9E,11E,13E,15Z)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13,15-octaenyl]cyclohex-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 102261952,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R)-3,5,5-trimethyl-4-[(1E,3E,5E,7E,9E,11E,13E,16R)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13-heptaenyl]cyclohex-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163033931,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R)-3,5,5-trimethyl-4-[(3E,5E,7E,9E,11E,13E,15E,17E)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-3,5,7,9,11,13,15,17-octaenyl]cyclohex-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 134693771,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R)-4-[(3E,5E,7E,9E,11E,13E,15E)-18-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-3,7,12,16-tetramethyloctadeca-3,5,7,9,11,13,15-heptaen-17-ynyl]-3,5,5-trimethylcyclohex-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162909361,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.22
+}

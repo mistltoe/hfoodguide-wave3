@@ -1,0 +1,78 @@
+{
+ "key": "Coprinus cinereus",
+ "name_ko": "재먹물버섯",
+ "names": [
+  "재먹물버섯",
+  "재먹물버섯어린자실체"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Coprinus cinereus (Schaeff.) Gray"
+ ],
+ "kind": "plant",
+ "parts": [
+  "어린자실체",
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14763398,
+ "genus": "Coprinus",
+ "family": "Agaricaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 18,
+ "candidates": [
+  {
+   "compound": "1,5,11,11-Tetramethyl-8-oxatricyclo[7.2.1.02,7]dodeca-2(7),3,5-triene-4,9-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162814861,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "11-(Hydroxymethyl)-1,5,11-trimethyl-8-oxatricyclo[7.2.1.02,7]dodeca-2(7),3,5-triene-4,9-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162863072,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2,6,7-Trihydroxy-1,5,9,9-tetramethyltricyclo[5.2.1.02,6]dec-4-en-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 162814970,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Hydroxy-4-methyl-2-(1,2,2-trimethyl-4-oxocyclopentyl)cyclopent-4-ene-1,3-dione",
+   "compound_ko": null,
+   "pubchem_cid": 163064770,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "5-(Hydroxymethyl)-1,11,11-trimethyl-8-oxatricyclo[7.2.1.02,7]dodeca-2(7),3,5-triene-4,9-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162918436,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.656
+}

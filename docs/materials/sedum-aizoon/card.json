@@ -1,0 +1,35 @@
+{
+ "key": "Sedum aizoon",
+ "name_ko": "가는기린초",
+ "names": [
+  "가는기린초잎"
+ ],
+ "nicknames": [
+  "가는잎기린초",
+  "꿩의 비름"
+ ],
+ "eng": [
+  "Aizoon stonecrop"
+ ],
+ "scnm_full": [
+  "Sedum aizoon L. / Sedum aizoon var. typica Nakai."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Sedum",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

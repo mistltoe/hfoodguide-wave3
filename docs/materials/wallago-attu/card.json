@@ -1,0 +1,30 @@
+{
+ "key": "Wallago attu",
+ "name_ko": "왈라고메기",
+ "names": [
+  "왈라고메기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Wallago"
+ ],
+ "scnm_full": [
+  "Wallago attu"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17151259,
+ "genus": "Wallago",
+ "family": "Siluridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,30 @@
+{
+ "key": "Plectropomus leopardus",
+ "name_ko": "무늬바리",
+ "names": [
+  "무늬바리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Leopard coralgrouper"
+ ],
+ "scnm_full": [
+  "Plectropomus leopardus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16570821,
+ "genus": "Plectropomus",
+ "family": "Epinephelidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

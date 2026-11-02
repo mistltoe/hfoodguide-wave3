@@ -1,0 +1,418 @@
+{
+ "slug": "pinctada-fucata",
+ "name_ko": "진주조개",
+ "name_en": "Japanese pearl oyster",
+ "scientific_name": "Pinctada fucata",
+ "aliases": [
+  "진주조개",
+  "Pinctada fucata martensii",
+  "Japanese pearl oyster",
+  "Pearl oyster",
+  "Pearl shell",
+  "Akoya oyster"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "진주조개(Pinctada fucata)는 이매패강 굴목(Ostreida) Margaritidae과에 속하는 바다 조개다[2][8]. 영문 이름은 Japanese pearl oyster·Pearl oyster·Pearl shell 등이 목록에 함께 적혀 있다[1]. 목록의 학명 칸에는 Pinctada fucata martensii가 올라 있는데, WoRMS는 이 이름을 인정하지 않고 Pinctada fucata로 연결한다[1][8].\n\n식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에 '진주조개'라는 이름으로 올라 있고 상태는 '사용가능'이다[1]. 목록의 '사용 부위' 칸은 '-'로 적혀 있어 부위를 따로 정하지 않았고, 사용 조건 칸은 비어 있다[1]. 건강기능식품 고시형 원료의 원재료로는 이 목록에 연결되어 있지 않다[1].\n\n1986–1988년 한국의 한 진주 양식 시험은 일본산 진주조개를 들여와 고리·서귀포에서 월동시키고 어구 앞바다에서 키웠다[10]. 성분 연구는 살(육) 단백질을 효소로 분해해 얻은 혈압 관련 펩타이드와 아미노산 조성, 그리고 껍데기·진주층의 탄산칼슘과 유기 기질에 모여 있다[4][5][6][16]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "진주 가루(pearl powder)는 중국에서 오래전부터 전통 약재, 화장품, 건강식품 보충제로 써 왔다고 보고되었다[7]. 다만 이 자료는 진주 가루의 품질 평가 논문으로, 담수 양식 진주와 천연 해수 진주를 함께 다루며 진주조개(Pinctada fucata)의 진주만을 다룬 것이 아니다[7]. 중국 연구진은 진주 가루의 효과가 천 년 넘게 건강·미용 분야에서 인정되어 왔다고 적었다[18].\n\n한국에서는 1986년 12월부터 1988년 11월까지 일본산 진주조개로 모패 수급과 월동 기술을 시험한 연구가 있었다[10]. 그보다 앞서 1984년 11월부터 1986년 6월까지 한산만과 일광에서 진주조개 성장을 비교한 연구도 발표되었다[11]. 한국에서 진주조개를 식품으로 쓰기 시작한 시기와 식품원료 목록에 올린 경위는 확인하지 못함[1].\n\n일본 연구진은 진주조개의 염색체 수준 유전체를 해독해 2022년에 발표했다[3]. 한국과 중국의 식품 이용 역사 전반은 더 확인하지 못함[1][7]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·형태·생태",
+   "body": "GBIF 분류에서 Pinctada fucata는 동물계 연체동물문 이매패강 Ostreida(굴목) Margaritidae과의 인정된 종이다[2]. WoRMS도 이 종을 Gould(1850) 명명의 인정된 종으로 싣는다[8]. 국립생물자원관 연결 자료에서도 과는 Margaritidae이다[1].\n\n유전체 연구에 따르면 이 종은 2n = 28, 곧 14쌍의 염색체를 가진 이배체다[3]. 한국 한산만에서 키운 진주조개는 평균 껍데기 길이 2.53 cm에서 17개월 만에 6.07 cm까지 자랐고, 일광에서는 19개월 만에 4.07 cm였다[11]. 1986–1988년 시험에서 D형 유생은 7–9월에 세 차례 많이 나타났다[10].\n\n호주에서 상업적으로 수확된 아코야굴(Pinctada fucata) 껍데기의 주성분은 탄산칼슘(CaCO3)이었고, 절대 함량으로 아라고나이트 49.82%, 방해석 32.90%였다[6]. 칼슘은 건조 기준 378,400.79 mg/kg이었다[6]. 먹이·수명 같은 다른 생태 값은 이 글에서 확인하지 못함[2][8]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식품원료 목록은 학명을 Pinctada fucata martensii 로도 함께 적는다[1]. WoRMS에서 Pinctada fucata martensii (Dunker, 1880)는 인정되지 않은 이름이며, 인정된 이름은 Pinctada fucata로 연결된다[8]. 중국·일본 연구는 martensii 표기를 많이 쓰며, 살 단백질 가수분해물 연구와 양식 질병 연구가 이 이름으로 나왔다[5][13].\n\n호주 연구에서는 같은 종을 '아코야굴(Akoya oyster, Pinctada fucata)'이라 부르는 상업 어종으로 다룬다[6]. WoRMS는 같은 속의 Pinctada imbricata Röding, 1798을 별개의 인정된 종으로 싣지만, 두 종의 관계가 완전히 정리되지 않았다는 편집 주석을 함께 단다[8]. 영문 이름으로는 Japanese pearl oyster, Pearl oyster, Pearl shell이 목록에 적혀 있다[1].\n\n진주 가루 품질 평가 연구에서는 진주 가루에 흔히 섞는 가짜로 소라 가루(conch powder)가 지적되었다[7]. 진주층의 수용성 기질은 여러 종의 굴에서 얻을 수 있으며 종마다 생체분자 조성이 다르다고 설명되었다[16]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·채취",
+   "body": "한국 진주 양식 시험(1986–1988)에서 월동지는 고리와 서귀포, 양성지는 어구 앞바다였다[10]. 고리는 부유 퇴적물이 많아 사망률이 서귀포보다 약 2배 높았고, 서귀포가 월동지로 더 알맞다고 보았다[10]. 진주 생산율은 당년산 58.2%, 월동산 48.3%였고, 채묘는 한산만의 수심 2 m 층에서 가장 잘 되었다[10]. 다른 연구는 한산만이 성장에 좋고 일광은 월동지로 쓸 만하다고 결론지었다[11].\n\n통영시 도산면에서 1년간 키운 진주조개의 진주를 색과 등급별로 분석한 연구도 있다[12]. 국내 진주조개 양식 면적·생산량 통계는 확인하지 못함[1].\n\n일본 양식장에서는 연체부가 적갈색으로 변하며 대량 폐사하는 '아코야굴 질병'이 생겼고, 스피로헤타문 세균이 원인으로 제안되었다[13]. 유해 적조 생물 6종은 진주조개의 알·배아·유생에 서로 다른 해를 끼쳤다[14]. 중국에서는 실내 배합사료로 45일 키운 무리가 바깥 자연 먹이 무리보다 생존율이 높았다[20]. 연구용 살은 광둥성 잔장의 조개 시장[4]과 광시성 베이하이의 진주 양식 기지[5]에서 얻었다[4][5]."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출 연구",
+   "body": "식품원료로서 가공 형태(분말·추출물 등)에 대한 국내 규격은 목록에서 확인하지 못함[1]. 한 연구는 진주조개 살을 갈아 이소프로필알코올로 기름을 뺀 뒤 말려 보관했고, 세린 엔도펩티다아제 계열 상용 단백질분해효소로 50 °C, pH 10.0, 기질 농도 8%에서 0~10시간 분해했다[4]. 10시간 분해 때 가수분해도는 23.77 ± 3.75%였고, 10 mg/mL에서 안지오텐신 전환효소(ACE) 저해 활성은 94.42 ± 0.35%였다[4]. 다른 연구는 알칼리성 단백질분해효소로 55 °C에서 4시간 분해한 뒤 한외여과(5 kDa 기준)로 나누었다[5].\n\n진주층의 수용성 기질은 시험관에서 조골전구세포의 분화를 돕고 DPPH·ABTS 라디칼을 없앴다[16]. 진주조개 외투막에서 처음 찾은 단백질 PFMG1은 난소를 없앤 쥐의 뼈 손실을 막았다고 보고되었으나, 분리 단백질을 쓴 세포·동물 실험이며 사람 근거는 아니다[17]. Pinctada fucata martensii 진주 추출물 겔을 쥐 피부에 바른 동물 실험에서는 자외선 광노화 징후가 줄었다[18].\n\n껍데기는 주성분이 탄산칼슘이어서 충전재나 조칼슘 보충 재료로 쓸 가능성이 제시되었다[6]. 진주 가루(담수·해수 진주를 함께 다룸)에 대해 아미노산 총량 1.10% 이상을 품질 기준으로 제안한 연구가 있으나, 진주조개 원료의 기준은 아니다[7]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "일본 연구진은 HiFi 장독해와 염색체 구조 자료로 진주조개의 거의 완전한 반수체 분리(haplotype-phased) 유전체를 2022년에 발표했다[3]. 조립에는 14쌍의 긴 스캐폴드(38 Mb 초과)가 들어 있어 염색체(2n = 28)에 대응한다[3]. k-mer 분석으로 추정한 정확도는 99.99997%였고, 두 반수체의 BUSCO 완전·단일 사본 유전자 비율은 각각 95.2%, 95.9%였다[3].\n\n전이인자가 조립의 53.3%를 차지하고 구조 변이의 큰 원인이었다[3]. 한 염색체 스캐폴드에는 메가염기 규모의 비동일 영역이 있고 NACHT, DZIP3/hRUL138-like HEPN, 면역글로불린 도메인 유전자 가족이 확장되어 있었다[3].\n\n앞서 해독된 진주조개 유전체에서 근육 단백질 유전자를 찾은 연구는 미오신 중쇄, 파라미오신, 트로포미오신, 액틴 등의 유전자를 확인했다[19]. 미오신 중쇄·파라미오신·칼포닌은 선택적 이어맞추기로 여러 형태가 만들어졌다[19]. 이 유전자들과 사람 알레르기의 관계는 확인하지 못함[19]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료 목록에서 진주조개는 '사용가능'이며 사용 조건이 따로 없다[1]. 건강기능식품 고시형 원료의 원재료로 연결되어 있지 않아 고시의 섭취 시 주의사항은 없다[1].\n\n식품안전나라는 알레르기 유발식품 표시 대상에 '조개류(굴,전복,홍합)'를 올려 두었다[9]. 진주조개가 이 조개류 표시 대상에 해당하는지는 원문에서 확인하지 못함[9].\n\n껍데기를 칼슘 보충제로 쓸 때는 중금속 축적이 문제가 될 수 있다[6]. 아코야굴 껍데기의 카드뮴은 건조 기준 11.80 mg/kg이었고, 조사한 껍데기는 모두 11세 미만에서 위해지수가 1을 넘었으며(주로 카드뮴), 11세 초과 인구에서는 조칼슘 보충 재료로 안전하다고 평가되었다[6]. 실험실에서 구리에 노출한 진주조개는 낮은 농도에서 소화샘, 높은 농도에서 아가미에 구리를 주로 쌓았다[15].\n\n잔류 농약·항생제 등 공공기관 안전 정보는 확인하지 못함[1]. 펩타이드 연구는 시험관 실험과 고혈압 유도 쥐에 정맥 주사한 실험 수준이고, 사람 근거는 확인하지 못함[4][5]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "살(탈지·건조) 8.11, 10시간 가수분해물 9.88 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "activity_ko": "표 1의 18종 아미노산 가운데 살·가수분해물 모두에서 가장 많았다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Aspartic acid",
+   "name_ko": "아스파르트산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "살(탈지·건조) 5.87, 10시간 가수분해물 6.78 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "activity_ko": "글루탐산·류신·라이신·아르기닌과 함께 많은 아미노산으로 언급되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Leucine",
+   "name_ko": "류신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "살(탈지·건조) 4.08, 10시간 가수분해물 4.73 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "activity_ko": "소수성 아미노산으로 ACE 결합에 유리하다고 해석되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Lysine",
+   "name_ko": "라이신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "살(탈지·건조) 4.71, 10시간 가수분해물 5.23 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "activity_ko": "많이 든 아미노산의 하나로 보고되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Arginine",
+   "name_ko": "아르기닌",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "살(탈지·건조) 4.07, 10시간 가수분해물 4.45 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "activity_ko": "양전하 아미노산 비율이 높아 ACE 저해 활성에 유리할 수 있다고 해석되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Phenylalanyl-arginyl-valyl-tryptophan",
+   "name_ko": "FRVW(테트라펩타이드)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "살 가수분해물",
+   "content_text": "질량 607.3314 Da; IC50 18.34 μM",
+   "activity_ko": "ACE 저해(비경쟁적), 시험관 실험[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Leucyl-prolyl-tyrosyl-tyrosine",
+   "name_ko": "LPYY(테트라펩타이드)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "살 가수분해물",
+   "content_text": "질량 555.2881 Da; IC50 116.26 μM",
+   "activity_ko": "ACE 저해(혼합형), 시험관 실험[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Histidyl-leucyl-histidyl-threonine",
+   "name_ko": "HLHT(테트라펩타이드)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "살 가수분해물",
+   "content_text": "IC50 458.06 ± 3.24 μM",
+   "activity_ko": "ACE 저해(비경쟁적), 시험관 실험[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Glycyl-tryptophyl-alanine",
+   "name_ko": "GWA(트리펩타이드)",
+   "class": "펩타이드",
+   "role": "bioactive",
+   "part": "살 가수분해물",
+   "content_text": "IC50 109.25 ± 1.45 μM",
+   "activity_ko": "ACE 저해(경쟁적), 시험관 실험. 가수분해물(10 mg/kg)을 고혈압 유도 SD 쥐에 정맥 주사했을 때 혈압이 내려갔으나 캅토프릴보다 약했다[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Calcium carbonate",
+   "name_ko": "탄산칼슘",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "껍데기",
+   "content_text": "주성분 CaCO3; 절대 함량 아라고나이트 49.82%, 방해석 32.90%; 칼슘 378,400.79 mg/kg(건조 기준)",
+   "activity_ko": "조칼슘 보충 재료·충전재로 쓸 가능성이 제시되었다[6]",
+   "source": [
+    6
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "FRVW, LPYY (ACE-inhibitory peptides)",
+   "compound_ko": "FRVW·LPYY 펩타이드",
+   "part": "살(가수분해물)",
+   "content": "IC50 FRVW 18.34 μM, LPYY 116.26 μM; 10시간 가수분해물 ACE 저해 94.42 ± 0.35% (10 mg/mL)",
+   "method": "RP-HPLC 분리 + LC-ESI-MS/MS 서열 분석",
+   "conditions": {
+    "instrument": "Agilent HPLC + Bruker maXis Impact MS(전기분무, 양이온)",
+    "column": "반정제: YMC-Pack ODS-A C18 250 × 10.0 mm; MS 분석: Agilent 역상 칼럼 4.6 × 150 mm, 5 μm",
+    "mobile_phase": "반정제: A 0.1% TFA 수용액, B 메탄올; MS: A 0.1% 포름산 수용액, B 메탄올",
+    "gradient": "반정제 A 99%(0–5분)→39%(5–65분)→39%(65–70분)→99%(70–75분)→99%(75–80분); MS 용리 B 1→61%(65분)",
+    "flow": "반정제 2.0 mL/min; MS 용리 1.0 mL/min",
+    "temp": "",
+    "detection": "반정제 220 nm; MS m/z 200–3000, 건조 온도 180 °C, 모세관 전압 4.5 kV, 건조 가스 4.0 L/min; 모질량 10 ppm, 조각이온 0.02 Da",
+    "injection": "반정제 100 μL; MS 10 μL (10 mg/mL)",
+    "sample_prep": "살을 갈아 이소프로필알코올(1:4, w/v)로 3시간 기름 제거, 건조; 세린 엔도펩티다아제 계열 상용 단백질분해효소 50 °C, pH 10.0, 8% 기질, 8000 U/g, 10시간; 한외여과(3 kDa), 덱스트란 겔 여과(G-25 등급)",
+    "standard": "합성 펩타이드(GL Biochem), HPLC·LC-MS로 순도 확인",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "정량 지표성분이 아니라 활성 유도 분리로 찾은 ACE 저해 펩타이드의 서열 확인 조건이다. 함량은 보고되지 않았다.",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8696521/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Amino acids (18 species, e.g. glutamic acid)",
+   "compound_ko": "아미노산 조성",
+   "part": "살",
+   "content": "글루탐산 8.11, 아스파르트산 5.87, 류신 4.08, 라이신 4.71, 아르기닌 4.07 g/100 g (살, 원문 표 1; 생·건 기준 명시 없음)",
+   "method": "아미노산 자동분석기",
+   "conditions": {
+    "instrument": "Hitachi L-8900 아미노산 자동분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "가수분해 110 °C, 22시간",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "6 mol/L HCl 가수분해(110 °C, 22시간), Arise 등의 방법",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "살 단백질의 영양·기능 성분 구성을 보이기 위한 조성 분석이다. 원문은 단위를 g/100 g로 적었다. 칼럼·검출 조건은 원문에 없다.",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8696521/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "HLHT, GWA (ACE-inhibitory peptides)",
+   "compound_ko": "HLHT·GWA 펩타이드",
+   "part": "살(가수분해물)",
+   "content": "IC50 HLHT 458.06 ± 3.24 μM, GWA 109.25 ± 1.45 μM; 가수분해물 중 HLHT 1.8 µg/mg, GWA 1.2 µg/mg",
+   "method": "RP-HPLC 분리",
+   "conditions": {
+    "instrument": "",
+    "column": "Agilent Zorbax SB-C18 (원문 표기 150 × 5 μm)",
+    "mobile_phase": "A 0.1%(v/v) TFA 수용액, B 0.1%(v/v) TFA 아세토니트릴",
+    "gradient": "0–35분, B 1%→35%",
+    "flow": "0.5 mL/min",
+    "temp": "30 °C",
+    "detection": "280 nm",
+    "injection": "",
+    "sample_prep": "신선한 살 7.0 g을 증류수 200 mL에 균질화, 알칼리성 프로테아제 55 °C 4시간(pH 9.5), 5 kDa 한외여과, 금속이온 친화 자성 매질 용출액",
+    "standard": "합성 펩타이드(GL Biochem)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "정량 지표성분이 아니라 ACE 저해 펩타이드를 분리·정제한 조건이다. 원문은 가수분해물 중 HLHT 1.8 µg/mg, GWA 1.2 µg/mg이라고 적었으나 그 정량 방법은 Methods에 적혀 있지 않다.",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "gi": [],
+ "orgs": [],
+ "world": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 진주조개 항목 및 국립생물자원관 연결 자료",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "GBIF Backbone Taxonomy — Pinctada fucata (species match)",
+   "url": "https://api.gbif.org/v1/species/match?name=Pinctada%20fucata",
+   "publisher": "GBIF",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Takeuchi T et al. A high-quality, haplotype-phased genome reconstruction reveals unexpected haplotype diversity in a pearl oyster. DNA Res 2022;29(6):dsac035",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9646362/",
+   "publisher": "DNA Research (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Li J et al. Two novel potent ACEI peptides isolated from Pinctada fucata meat hydrolysates using in silico analysis. RSC Adv 2021;11:12172-12182",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8696521/",
+   "publisher": "RSC Advances (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Liu P et al. Purification, characterization and evaluation of inhibitory mechanism of ACE inhibitory peptides from pearl oyster (Pinctada fucata martensii) meat protein hydrolysate. Mar Drugs 2019;17(8):463",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Chung WH et al. Exploring the functional properties and utilisation potential of mollusca shell by-products through an interdisciplinary approach. Sci Rep 2024;14:28274",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11569229/",
+   "publisher": "Scientific Reports (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Zhang J et al. Ultra-performance liquid chromatography of amino acids for the quality assessment of pearl powder. J Sep Sci 2015;38(9):1552-1560",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25707736/",
+   "publisher": "Journal of Separation Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "WoRMS — Pinctada fucata (AphiaID 397170) 및 Pinctada fucata martensii (AphiaID 955715)",
+   "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=397170",
+   "publisher": "World Register of Marine Species",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "알레르기 유발식품 표시에 대해 알아보아요!(수정)",
+   "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?menu_no=3120&menu_grp=MENU_NEW01&bbs_no=bbs001&ntctxt_no=1091412",
+   "publisher": "식품의약품안전처 식품안전나라",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "조창환 외. 인공진주 양식에 관한 시험연구(An Experimental Study on Pearl Oyster (Pinctada fucata) Culture). 한국양식학회지 1988;1(1):85-102",
+   "url": "https://koreascience.kr/article/JAKO198825720584882.page",
+   "publisher": "한국양식학회(KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "유성규 외. 양성장에 따른 진주조개, Pinctada fucata의 성장. 한국수산과학회지 1986;19(6):593-598",
+   "url": "https://koreascience.kr/article/JAKO198622105900861.page",
+   "publisher": "한국수산과학회(KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "서진형 외. 통영해역의 진주조개, Pinctada fucata에서 생산된 진주의 품질특성. 한국패류학회지 2012;28(3):245-254",
+   "url": "https://koreascience.or.kr/article/JAKO201205759634856.page",
+   "publisher": "한국패류학회(KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Matsuyama T et al. A Spirochaete is suggested as the causative agent of Akoya oyster disease by metagenomic analysis. PLoS One 2017;12(8):e0182280",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5542438/",
+   "publisher": "PLoS One (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Basti L et al. Sublethal and antioxidant effects of six ichthyotoxic algae on early-life stages of the Japanese pearl oyster. Harmful Algae 2021;103:102013",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33980452/",
+   "publisher": "Harmful Algae (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Jing G et al. Metal accumulation and enzyme activities in gills and digestive gland of pearl oyster (Pinctada fucata) exposed to copper. Comp Biochem Physiol C 2006;144(2):184-190",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17020821/",
+   "publisher": "Comparative Biochemistry and Physiology C (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Chaturvedi R et al. Water soluble bioactives of nacre mediate antioxidant activity and osteoblast differentiation. PLoS One 2013;8(12):e84584",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3868599/",
+   "publisher": "PLoS One (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Li L et al. PFMG1 promotes osteoblast differentiation and prevents osteoporotic bone loss. FASEB J 2018;32(2):838-849",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29021211/",
+   "publisher": "FASEB Journal (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Zhang Z et al. Protective effect of the pearl extract from Pinctada fucata martensii Dunker on UV-induced photoaging in mice. Chem Biodivers 2022;19(3):e202100876",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35098641/",
+   "publisher": "Chemistry & Biodiversity (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Funabara D et al. Genome-wide survey of genes encoding muscle proteins in the pearl oyster, Pinctada fucata. Zoolog Sci 2013;30(10):817-825",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24125646/",
+   "publisher": "Zoological Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Yang C et al. Metabolomics responses of pearl oysters (Pinctada fucata martensii) fed a formulated diet indoors and cultured with natural diet outdoors. Front Physiol 2018;9:944",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6060569/",
+   "publisher": "Frontiers in Physiology (PMC)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

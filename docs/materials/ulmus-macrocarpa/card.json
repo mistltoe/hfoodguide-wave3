@@ -1,0 +1,71 @@
+{
+ "key": "Ulmus macrocarpa",
+ "name_ko": "왕느릅나무",
+ "names": [
+  "왕느릅나무껍질",
+  "왕느릅나무껍질분말",
+  "왕느릅나무껍질추출물",
+  "왕느릅나무뿌리껍질",
+  "왕느릅나무잎"
+ ],
+ "nicknames": [
+  "유근피",
+  "유백피",
+  "큰잎느릅나무"
+ ],
+ "eng": [
+  "Large-fruit elm"
+ ],
+ "scnm_full": [
+  "Ulmus macrocarpa Hance"
+ ],
+ "kind": "plant",
+ "parts": [
+  "나무껍질",
+  "뿌리껍질",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 나무껍질*(유백피), 나무뿌리껍질",
+  "제한적사용가능부위 : 잎"
+ ],
+ "status": "restricted",
+ "n_rows": 5,
+ "bioresource_id": 14759901,
+ "genus": "Ulmus",
+ "family": "Ulmaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 4,
+ "candidates": [
+  {
+   "compound": "(2R,3R)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 124124220,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Catechin 7-O-apiofuranoside",
+   "compound_ko": null,
+   "pubchem_cid": 21676366,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7-hydroxy-6-methoxy-8-[3,4,5-trihydroxy-6-(hydroxymethyl)(2H-3,4,5,6-tetrahydr opyran-2-yl)oxy]chromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 5909448,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 6.076
+}

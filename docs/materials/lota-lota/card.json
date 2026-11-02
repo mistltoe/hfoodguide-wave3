@@ -1,0 +1,32 @@
+{
+ "key": "Lota lota",
+ "name_ko": "모오캐",
+ "names": [
+  "모오캐"
+ ],
+ "nicknames": [
+  "모캐"
+ ],
+ "eng": [
+  "Burbot"
+ ],
+ "scnm_full": [
+  "Lota lota"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16056898,
+ "genus": "Lota",
+ "family": "Lotidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

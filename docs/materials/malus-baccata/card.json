@@ -1,0 +1,47 @@
+{
+ "key": "Malus baccata",
+ "name_ko": "야광나무",
+ "names": [
+  "야광나무열매"
+ ],
+ "nicknames": [
+  "동배나무",
+  "들배나무",
+  "아가위나무",
+  "아그배나무"
+ ],
+ "eng": [
+  "Siberian crap apple, Siberian crabapple"
+ ],
+ "scnm_full": [
+  "Malus baccata (L.) Borkhausen / Malus baccata var. leiostyla Rupr. & Maxim."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14782997,
+ "genus": "Malus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Phloretamide",
+   "compound_ko": null,
+   "pubchem_cid": 16222514,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.301
+}

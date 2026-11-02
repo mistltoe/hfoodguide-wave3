@@ -1,0 +1,51 @@
+{
+ "key": "Cladosiphon okamuranus",
+ "name_ko": "오카무라큰실말",
+ "names": [
+  "오카무라큰실말"
+ ],
+ "nicknames": [
+  "큰실말"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Cladosiphon okamuranus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14777597,
+ "genus": "Cladosiphon",
+ "family": "Chordariaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 2,
+ "candidates": [
+  {
+   "compound": "6,9,12,15-Octadecatetraenoic acid",
+   "compound_ko": "6,9,12,15-옥타데카테트라엔산",
+   "pubchem_cid": 163841,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  },
+  {
+   "compound": "Stearidonic Acid",
+   "compound_ko": "스테아리돈산",
+   "pubchem_cid": 5312508,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  }
+ ],
+ "priority": 3.477
+}

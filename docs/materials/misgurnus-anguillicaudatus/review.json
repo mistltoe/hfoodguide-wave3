@@ -1,0 +1,40 @@
+{
+ "slug": "misgurnus-anguillicaudatus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 60,
+ "checked_items": 50,
+ "verified": 99,
+ "fixed": 9,
+ "removed": 2,
+ "unverifiable": 0,
+ "changes": [
+  {"where": "sections.cultivation", "before": "중국 쓰촨성 시험에서는 같은 사료를 먹인 논 양식과 연못 양식 미꾸리의 최종 체중이 비슷했지만, 근육 총아미노산 중 발린·메티오닌·페닐알라닌 비율은 논 양식에서 더 높았다[26].", "after": "(삭제)", "why": "Yang 2017(옛 [26]) 초록·MeSH에 학명이 없고 'loach'라고만 씀. 같은 연구진이 같은 쓰촨 논/연못 비교로 낸 후속 논문(BMC Microbiol 2018, PMC6131900)은 대상 종을 Paramisgurnus dabryanus라고 적음. 식품공전에서 이 종은 미꾸리가 아니라 미꾸라지(A나037200)로 분류되므로 근연종 자료가 섞인 것으로 보고 지움"},
+  {"where": "sources[26]", "before": "Yang S 외. ... Appl Microbiol Biotechnol 2017;101(11):4775-4789", "after": "(삭제, 이후 번호 27→26, 28→27, 29→28로 당김)", "why": "인용 문장 삭제로 더 이상 쓰이지 않음"},
+  {"where": "sections.overview", "before": "중국·일본·한국에서 흔히 먹는 민물고기이며, 단백질 가수분해 펩타이드와 다당 등 기능성 소재 연구가 이어지고 있다[22, 23, 24].", "after": "동아시아에 널리 분포하는 흔한 민물고기로 식용·관상용·낚시 미끼로 쓰이며, 중국에서는 예로부터 맛과 풍미로 알려져 왔다[5, 23, 24]. 단백질 가수분해 펩타이드와 다당 등 기능성 소재 연구가 이어지고 있다[22, 23, 24].", "why": "[22][23][24] 어디에도 '중국·일본·한국에서 흔히 먹는다'는 문장이 없음. [24]는 '중국과 동아시아에 널리 분포하는 흔한 민물고기', [23]은 '중국에서 예로부터 맛과 풍미로 알려짐', USFWS [5]는 식용·관상어·미끼로 쓰인다고 씀"},
+  {"where": "sections.overview", "before": "pond loach·dojo loach·oriental weatherfish 등으로 불린다[3, 4]", "after": "... 불린다[4, 5]", "why": "GBIF [3]는 영문명 출처가 아님. 'Dojo Loach', 'Oriental Weatherfish'는 USFWS ERSS [5]의 'Synonyms and Other Names'에 있고 FishBase [4]는 Pond loach라고 씀"},
+  {"where": "sections.cultivation", "before": "중국 야생 60개체의 전장 유전체 재분석에서는", "after": "중국 야생 60개체의 전장 유전체 재시퀀싱(resequencing) 분석에서는", "why": "[10]은 기존 자료를 다시 분석한 것이 아니라 whole-genome resequencing(재시퀀싱)으로 새로 얻은 자료임"},
+  {"where": "sections.processing", "before": "AFRVPTP는 ACE 저해율 92.12%를 보였다[22].", "after": "AFRVPTP는 ACE 저해율 92.12%(IC50 95.07 μg/mL)를 보였다[22].", "why": "[22] 본문에 IC50 95.07 μg/mL(0.12 mM)가 있음. 농도 조건 없는 저해율만으로는 비교할 수 없어 보충함"},
+  {"where": "compounds[AFRVPTP].content_text", "before": "ACE 저해율 92.12%[22]", "after": "ACE 저해율 92.12%, IC50 95.07 μg/mL(0.12 mM)[22]", "why": "위와 같음"},
+  {"where": "compounds[Misgurin].part", "before": "몸 전체", "after": "개체(추출 부위는 초록에 명시 없음)", "why": "[17] 초록에는 'isolated from the loach'라고만 있고 부위가 없음"},
+  {"where": "compounds[MAPP].part", "before": "몸 전체", "after": "개체(추출 부위는 초록에 명시 없음)", "why": "[26](옛 [27]) 초록에도 부위가 없음"},
+  {"where": "sections.safety", "before": "수은 0.5 mg/kg 이하이다[2].", "after": "수은 0.5 mg/kg 이하이며, 건조 등으로 수분이 달라진 수산물은 생물 기준으로 환산해 적용한다[2].", "why": "식품공전 제2. 5. 1)의 ①은 중금속을 생물 기준으로 환산해 적용하도록 정함. 생물/건조물 기준을 분명히 함"}
+ ],
+ "verification_notes": [
+  "[1] card.json: 원료명 미꾸리, Pond loach, 수산물, 부위 '-', 조건 없음, status allowed. overview 서술과 일치. card.kind 'marine'은 목록상 '수산물' 분류를 뜻할 뿐 서식지가 아님(미꾸리는 민물고기). card.json은 수정 대상이 아니라 그대로 둠",
+  "[2] 식품공전 원문 사본(_work/foodcode): 별표 1 A나037250 미꾸리(Pond loach, Misgurnus anguillicaudatus, 부위 -), A나037200 미꾸라지(추어, Chinese muddy loach, Misgurnus mizolepis / Paramisgurnus dabryanus), A나012400 기름종개(Cobitis hankugensis). 민물어류 예시는 '미꾸라지 등'이며 어류 기준은 납 0.5, 카드뮴 0.1(민물·회유), 수은 0.5 mg/kg으로 모두 일치",
+  "국문명 근거: 식품공전 별표 1과 [11](한국어류학회지 2017)이 모두 미꾸리=M. anguillicaudatus, 미꾸라지=M. mizolepis로 구분함",
+  "[3] GBIF API: ACCEPTED, Cobitidae, Cypriniformes, 이명 32개(Cobitis maculata, Misgurnus punctatus, M. mizolepis elongatus 포함), IUCN LC, 출현 44,067건(KR 30,887·JP 6,844·AU 1,877·CN 1,412) 일치",
+  "[4] FishBase: 원산지 Tugur·Amur 유역, 사할린, 한국, 일본, 중국에서 베트남 북부까지. 최대 28 cm SL, 입수염 10개, 상업 어업·양식·관상어, 미끼는 occasionally, IUCN LC 일치",
+  "[5] USFWS ERSS(PDF 텍스트 추출): 입수염 6개, 28 cm SL, 보통 10–20 cm, 암컷이 큼, 저서 무척추동물·유기물 찌꺼기를 먹음, 2 mg/L 미만에서 생존, 81일 넘는 건조·굶주림을 견딤, −1~−2 °C·38 °C, 4–10월 여러 차례 산란, 13년 이상, 하와이에 1800년대 말 식용으로 도입. 문서 날짜(2024년 3월, 2025년 5월 개정, 웹판 2026-07-21) 일치",
+  "[6][7][8][10] PMC 전문: 1.10 Gb, 25개 염색체, 98.66%, k-mer 1,135 Mb, 이배체 수컷 1마리, fos·fmo5 결손 결과, 4.76 Gb, 91,485개 유전자, mex3a 혈관 생성 억제, 근교계수 0.552 모두 일치",
+  "[11] 한국어류학회지 PDF 초록: 25개체, rag1·cytb, 세 계통, 붉은 눈 형 20개체 중 미꾸리 16·미꾸라지 1·잡종 3(미꾸라지×미꾸리 1, M. mohoity×미꾸리 2) 일치",
+  "[12] PMC 전문: 당진 2015년, 2,704마리, 미꾸리 65.9%, 율비 2.67 일치. 같은 표에서 미꾸라지(M. mizolepis)는 따로 집계되어 섞이지 않음",
+  "[13]~[24] PubMed 초록·PMC 전문: 41.6%(154마리 중 64마리), 간흡충 제2중간숙주로 새로 확인, Chryseobacterium cucumeris가 처음 분리됨, misgurin 21 아미노산·2,502 Da·마가이닌 2의 약 6배, KDN 38.5%·NeuAc 0.4%·GalNAc 24.6%·Gal 3.3%, [19]의 0.5%·25.0%, 콜라겐 22.42·27.32%·212·193·36.03·33.61 °C, AHLL IC50 18.2 μg/mL와 2.5 kDa 미만 분획, 86.57%·92.12%(3 kDa 미만, alkaline protease), 200 W·22분·10 KU/g·2,289개 일치",
+  "[23] assays: Shodex 802(Φ300 × 7.5 mm), 초순수, 1.0 mL/min, RID, 덱스트란 1,000~16k Da, 추출 조건(50 °C, 40 mesh, 1:5, 59 °C 83분 3회, 4,000×g 15분, Sevag, MWCO 3,500, DEAE-52 1 × 20 cm, 0.1–0.4 mol/L, 1 mL/min), GC는 선행 문헌 방법만 인용, Figure 2의 단당 표준 혼합물, 87.55·0.92·77.11·21.97·8.86·3.59%, Mw 3,873·Mn 2,748·1.41·8.683분·98.80% 모두 Methods·표와 일치. 원문에 없는 칸은 이미 비어 있음",
+  "세포·동물 결과 표현: processing 절이 '세포·동물 실험이며 사람 대상 시험은 확인하지 못함'이라고 이미 제한해 씀. 과장된 표현은 없음",
+  "[25] Arch Pharm Res: PubMed에 2014년 온라인 게재, 2021;44(8) 권호로 등재. 출처 표기 '2014 온라인 게재'는 사실과 맞음",
+  "WebSearch 1회 사용([26] 학명 확인)"
+ ],
+ "unverifiable_notes": []
+}

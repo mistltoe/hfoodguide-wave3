@@ -1,0 +1,52 @@
+{
+ "key": "Taraxacum coreanum",
+ "name_ko": "흰민들레",
+ "names": [
+  "흰민들레",
+  "흰민들레추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Korean dandelion, White-flowering Korean dandelion"
+ ],
+ "scnm_full": [
+  "Taraxacum coreanum Nakai / Taraxacum albidum Nakai / Taraxacum glabrisquamum Nakai ex H.Koidz. / Taraxacum pseudoalbidum Kitag. / Taraxacum taquetii H.Koidz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14761919,
+ "genus": "Taraxacum",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 9,
+ "candidates": [
+  {
+   "compound": "beta-D-Glucopyranose, 1-[(3aS,6Z,10E,11aR)-2,3,3a,4,5,8,9,11a-octahydro-10-methyl-3-methylene-2-oxocyclodeca[b]furan-6-carboxylate]",
+   "compound_ko": null,
+   "pubchem_cid": 95392279,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "|A-D-Glucopyranosyl taraxinic ester",
+   "compound_ko": null,
+   "pubchem_cid": 56776213,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.877
+}

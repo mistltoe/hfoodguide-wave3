@@ -1,0 +1,87 @@
+{
+ "key": "Broussonetia kazinoki",
+ "name_ko": "닥나무",
+ "names": [
+  "닥나무가지",
+  "닥나무농축액",
+  "닥나무잎",
+  "닥나무추출액"
+ ],
+ "nicknames": [
+  "꾸지닥나무",
+  "딱나무",
+  "저상"
+ ],
+ "eng": [
+  "Korean paper tree, Small paper mulberry"
+ ],
+ "scnm_full": [
+  "Broussonetia kazinoki Sieb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "가지",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 가지, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14770158,
+ "genus": "Broussonetia",
+ "family": "Moraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 70,
+ "candidates": [
+  {
+   "compound": "(+)-(2R)Kazinol I",
+   "compound_ko": null,
+   "pubchem_cid": 46871916,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(10R)-10-[(3S,5R,6R,7R)-6,7-dihydroxy-5-(hydroxymethyl)-2,3,5,6,7,8-hexahydro-1H-pyrrolizin-3-yl]-1,10-dihydroxydecan-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 101096882,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(10R)-10-[(3S,5R,6R,7R,8R)-6,7-dihydroxy-5-(hydroxymethyl)-2,3,5,6,7,8-hexahydro-1H-pyrrolizin-3-yl]-1,10-dihydroxydecan-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 9998578,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(13R)-13-[(2R,3R,4R,5R)-3,4-dihydroxy-5-(hydroxymethyl)pyrrolidin-2-yl]-13-hydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxytridecan-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 10530062,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(13R)-13-[(2R,3R,4R,5R)-3,4-dihydroxy-5-(hydroxymethyl)pyrrolidin-2-yl]-13-hydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxytridecan-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 10506226,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.834
+}

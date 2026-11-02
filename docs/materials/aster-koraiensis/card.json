@@ -1,0 +1,83 @@
+{
+ "key": "Aster koraiensis",
+ "name_ko": "벌개미취",
+ "names": [
+  "벌개미취순",
+  "벌개미취잎"
+ ],
+ "nicknames": [
+  "고려쑥부쟁이",
+  "별개미취"
+ ],
+ "eng": [
+  "Korean starwort, Montane aster"
+ ],
+ "scnm_full": [
+  "Aster koraiensis Nakai / Asteromoea koraiensis (Nakai) Kitam. / Gymnaster koraiensis (Nakai) Kitam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14763156,
+ "genus": "Aster",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 57,
+ "candidates": [
+  {
+   "compound": "(2E,8S,9Z)-heptadeca-2,9,16-trien-4,6-diyn-8-ol",
+   "compound_ko": null,
+   "pubchem_cid": 101745966,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[(E,3S)-3-hydroxydec-8-en-4,6-diynoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 10268235,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[[(1R,2R,4R,4aR,5R,8aS)-4,5-dihydroxy-4a,8-dimethyl-2-propan-2-yl-2,3,4,5,6,8a-hexahydro-1H-naphthalen-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163020854,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[[(1R,4S,4aR,8aR)-4-hydroxy-4,8a-dimethyl-6-propan-2-yl-1,2,3,4a,7,8-hexahydronaphthalen-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 102523031,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[[(1S,2S,4R,4aR,5R,8aS)-4,5-dihydroxy-2-(2-hydroxypropan-2-yl)-4a,8-dimethyl-2,3,4,5,6,8a-hexahydro-1H-naphthalen-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163014392,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.141
+}

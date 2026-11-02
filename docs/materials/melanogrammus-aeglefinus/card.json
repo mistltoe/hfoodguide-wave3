@@ -1,0 +1,30 @@
+{
+ "key": "Melanogrammus aeglefinus",
+ "name_ko": "해덕대구",
+ "names": [
+  "해덕대구"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Haddock"
+ ],
+ "scnm_full": [
+  "Melanogrammus aeglefinus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16129266,
+ "genus": "Melanogrammus",
+ "family": "Gadidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

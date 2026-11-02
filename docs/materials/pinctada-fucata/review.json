@@ -1,0 +1,105 @@
+{
+ "slug": "pinctada-fucata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 69,
+ "checked_items": 39,
+ "verified": 94,
+ "fixed": 14,
+ "removed": 0,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "한국의 진주 양식 시험은 일본산 진주조개를 들여와 남해안에서 키우는 방식으로 이루어졌다[10].",
+   "after": "1986–1988년 한국의 한 진주 양식 시험은 일본산 진주조개를 들여와 고리·서귀포에서 월동시키고 어구 앞바다에서 키웠다[10].",
+   "why": "[10]은 한 편의 시험연구로 한국 진주 양식 시험 전체를 대표하지 않으며, 월동지 서귀포는 제주로 '남해안'만이 아님 — 초록대로 범위 한정"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "WoRMS는 같은 속의 Pinctada imbricata Röding, 1798을 별개의 인정된 종으로 싣는다[8].",
+   "after": "WoRMS는 같은 속의 Pinctada imbricata Röding, 1798을 별개의 인정된 종으로 싣지만, 두 종의 관계가 완전히 정리되지 않았다는 편집 주석을 함께 단다[8].",
+   "why": "WoRMS P. fucata 페이지 편집 주석 'The matter is not fully resolved' — 근연종 자료 혼동 가능성 명시"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "일본 양식장에서는 살이 붉게 변하며 대량 폐사하는",
+   "after": "일본 양식장에서는 연체부가 적갈색으로 변하며 대량 폐사하는",
+   "why": "[13] 원문 'reddish browning of the soft tissues'"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "연구용 살은 중국 광시성 베이하이 진주 양식장과 광둥성 잔장 수산 시장에서 얻었다[4][5].",
+   "after": "연구용 살은 광둥성 잔장의 조개 시장[4]과 광시성 베이하이의 진주 양식 기지[5]에서 얻었다[4][5].",
+   "why": "[4] Zhanjiang shellfish market, [5] Beihai pearl culture base — 출처별 산지를 분명히 함"
+  },
+  {
+   "where": "sections.processing",
+   "before": "알칼라제(Alcalase) 효소로 50 °C",
+   "after": "세린 엔도펩티다아제 계열 상용 단백질분해효소로 50 °C",
+   "why": "상표명 대신 일반명([4]: 'a serine endopeptidase with broad selectivity')"
+  },
+  {
+   "where": "sections.processing",
+   "before": "난소를 없앤 쥐의 뼈 손실을 막았다고 보고되었다[17].",
+   "after": "난소를 없앤 쥐의 뼈 손실을 막았다고 보고되었으나, 분리 단백질을 쓴 세포·동물 실험이며 사람 근거는 아니다[17].",
+   "why": "[17] 초록은 세포 실험과 난소절제 동물 모델 — 과장 방지 단서 추가"
+  },
+  {
+   "where": "sections.processing",
+   "before": "진주 추출물 겔을 쥐 피부에 바른 실험에서는 자외선 광노화가 줄었다[18].",
+   "after": "Pinctada fucata martensii 진주 추출물 겔을 쥐 피부에 바른 동물 실험에서는 자외선 광노화 징후가 줄었다[18].",
+   "why": "[18] 진주(살·껍데기 아님) 추출물의 국소 도포 동물 실험임을 명시"
+  },
+  {
+   "where": "compounds.Glutamic acid.content_text",
+   "before": "살 단백질 8.11, 10시간 가수분해물 9.88 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "after": "살(탈지·건조) 8.11, 10시간 가수분해물 9.88 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "why": "[4] 표 1 열 이름은 'Meat'(탈지·건조한 살)로, 분리 단백질이 아님"
+  },
+  {
+   "where": "compounds.Aspartic acid.content_text",
+   "before": "살 단백질 5.87, 10시간 가수분해물 6.78 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "after": "살(탈지·건조) 5.87, 10시간 가수분해물 6.78 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "why": "[4] 표 1 열 이름은 'Meat'(탈지·건조한 살)로, 분리 단백질이 아님"
+  },
+  {
+   "where": "compounds.Leucine.content_text",
+   "before": "살 단백질 4.08, 10시간 가수분해물 4.73 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "after": "살(탈지·건조) 4.08, 10시간 가수분해물 4.73 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "why": "[4] 표 1 열 이름은 'Meat'(탈지·건조한 살)로, 분리 단백질이 아님"
+  },
+  {
+   "where": "compounds.Lysine.content_text",
+   "before": "살 단백질 4.71, 10시간 가수분해물 5.23 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "after": "살(탈지·건조) 4.71, 10시간 가수분해물 5.23 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "why": "[4] 표 1 열 이름은 'Meat'(탈지·건조한 살)로, 분리 단백질이 아님"
+  },
+  {
+   "where": "compounds.Arginine.content_text",
+   "before": "살 단백질 4.07, 10시간 가수분해물 4.45 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "after": "살(탈지·건조) 4.07, 10시간 가수분해물 4.45 (g/100 g, 원문 표의 단위; 생·건 기준은 원문에 명시 없음(시료는 탈지 후 건조한 살))",
+   "why": "[4] 표 1 열 이름은 'Meat'(탈지·건조한 살)로, 분리 단백질이 아님"
+  },
+  {
+   "where": "compounds.Glutamic acid.activity_ko",
+   "before": "살 단백질에서 가장 많은 아미노산이었다[4]",
+   "after": "표 1의 18종 아미노산 가운데 살·가수분해물 모두에서 가장 많았다[4]",
+   "why": "[4] 표 1 'Meat' 열 — '살 단백질' 표현 정정"
+  },
+  {
+   "where": "assays[0].conditions.sample_prep",
+   "before": "살을 갈아 이소프로필알코올(1:4, w/v)로 3시간 기름 제거, 건조; Alcalase 50 °C, pH 10.0, 8% 기질, 8000 U/g, 10시간; 한외여과(3 kDa), Sephadex G-25",
+   "after": "살을 갈아 이소프로필알코올(1:4, w/v)로 3시간 기름 제거, 건조; 세린 엔도펩티다아제 계열 상용 단백질분해효소 50 °C, pH 10.0, 8% 기질, 8000 U/g, 10시간; 한외여과(3 kDa), 덱스트란 겔 여과(G-25 등급)",
+   "why": "상표명 대신 일반명"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품원료 목록(I1020)은 OpenAPI 안내 페이지라 card.json(status allowed, parts '-', conditions 없음, lists 없음, scnm P. fucata martensii, 영문명, 과 Margaritidae)으로 대조 — overview·safety 지위 서술 일치",
+  "[7][14][15][17][18][19]는 PubMed 초록으로, [10][11][12]는 KoreaScience 초록으로 대조(전문 미열람); [3][4][5][6][13][16][20]은 PMC 전문으로 대조",
+  "[17] 초록에 동물 종(생쥐/랫드)이 적혀 있지 않아 '쥐'로 둠",
+  "[8] WoRMS: P. fucata 인정(Gould, 1850), P. f. martensii (Dunker, 1880) 비인정; P. imbricata Röding, 1798 은 별도 인정 종이나 관계 미정 주석 있음",
+  "[9] 식품안전나라 알레르기 표시 안내: '조개류(굴,전복,홍합)' 확인, 진주조개 언급 없음",
+  "WebSearch 0회 사용"
+ ]
+}

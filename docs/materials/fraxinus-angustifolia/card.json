@@ -1,0 +1,78 @@
+{
+ "key": "Fraxinus angustifolia",
+ "name_ko": "앙구스티폴리아물푸레",
+ "names": [
+  "앙구스티폴리아물푸레열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Narrow-leaved ash"
+ ],
+ "scnm_full": [
+  "Fraxinus angustifolia Vahl"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14767569,
+ "genus": "Fraxinus",
+ "family": "Oleaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 23,
+ "candidates": [
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)ethyl (4R,5Z,6S)-5-ethylidene-4-[2-[2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]ethoxy]-2-oxoethyl]-6-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 163190053,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Excelside B",
+   "compound_ko": null,
+   "pubchem_cid": 46881042,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (2S,3S,4S)-3-formyl-4-[2-[2-(4-hydroxyphenyl)ethoxy]-2-oxoethyl]-2-methyl-3,4-dihydro-2H-pyran-5-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 101393982,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (4R,5E,6S)-5-ethylidene-4-[2-[2-(4-hydroxyphenyl)ethoxy]-2-oxoethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 163194966,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (4R,5E,6S)-5-ethylidene-4-[2-[2-[3-hydroxy-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]ethoxy]-2-oxoethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 163193522,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.38
+}

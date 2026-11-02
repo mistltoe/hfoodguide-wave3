@@ -1,0 +1,47 @@
+{
+ "key": "Hemicentrotus pulcherrimus",
+ "name_ko": "말똥성게",
+ "names": [
+  "말똥성게"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Hemicentrotus pulcherrimus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14768957,
+ "genus": "Hemicentrotus",
+ "family": "Strongylocentrotidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 2,
+ "candidates": [
+  {
+   "compound": "Pulcherrimine",
+   "compound_ko": null,
+   "pubchem_cid": 15883083,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Amino-3-[4-[5-(2-amino-2-carboxyethyl)-3-[5-(2-amino-2-carboxyethyl)-2-hydroxyphenyl]-2-hydroxyphenoxy]phenyl]propanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 124402,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 3.477
+}

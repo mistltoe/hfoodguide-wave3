@@ -1,0 +1,78 @@
+{
+ "key": "Salix caprea",
+ "name_ko": "호랑버들",
+ "names": [
+  "호랑버들순"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Goat willow"
+ ],
+ "scnm_full": [
+  "Salix caprea L. / Salix caprea var. orbicularis Andersson"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14757913,
+ "genus": "Salix",
+ "family": "Salicaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 38,
+ "candidates": [
+  {
+   "compound": "(2S,3S)-3,5,7-trihydroxy-2-(4-methoxyphenyl)-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 122196229,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Grandidentatin",
+   "compound_ko": null,
+   "pubchem_cid": 5281776,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Salicortin",
+   "compound_ko": "살리코르틴",
+   "pubchem_cid": 115158,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Vimalin",
+   "compound_ko": null,
+   "pubchem_cid": 14048616,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "[2-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]methyl 1-hydroxy-6-oxocyclohex-2-ene-1-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 133554354,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.591
+}

@@ -1,0 +1,39 @@
+{
+ "key": "Sasa quelpaertensis",
+ "name_ko": "제주조릿대",
+ "names": [
+  "제주조릿대순",
+  "제주조릿대잎",
+  "제주조릿대추출농축액"
+ ],
+ "nicknames": [
+  "산죽",
+  "탐라세"
+ ],
+ "eng": [
+  "Broad-leaf bamboo"
+ ],
+ "scnm_full": [
+  "Sasa quelpaertensis Nakai / Sasa palmata"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 16798912,
+ "genus": "Sasa",
+ "family": "Poaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.5
+}

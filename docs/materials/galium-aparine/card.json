@@ -1,0 +1,80 @@
+{
+ "key": "Galium aparine",
+ "name_ko": "구즈그라스",
+ "names": [
+  "구즈그라스순",
+  "구즈그라스씨앗"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Goosegrass"
+ ],
+ "scnm_full": [
+  "Galium aparine L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14752419,
+ "genus": "Galium",
+ "family": "Rubiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 19,
+ "candidates": [
+  {
+   "compound": "1,7-Dihydroxy-6,8-dimethoxy-2-methylanthraquinone",
+   "compound_ko": null,
+   "pubchem_cid": 25202491,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "8-Hydroxy-3-methoxy-7-methyl-1,2-methylenedioxy-anthraquinone",
+   "compound_ko": null,
+   "pubchem_cid": 129713930,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1,3-Dihydroxyanthraquinone",
+   "compound_ko": "1,3-디하이드록시안트라퀴논",
+   "pubchem_cid": 196978,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1,5,7-Trihydroxy-6-methoxy-2-methylanthraquinone",
+   "compound_ko": null,
+   "pubchem_cid": 10040428,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1,2-Dihydroxy-6-methylanthracene-9,10-dione",
+   "compound_ko": null,
+   "pubchem_cid": 5319503,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  }
+ ],
+ "priority": 5.678
+}

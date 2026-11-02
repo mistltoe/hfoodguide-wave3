@@ -1,0 +1,80 @@
+{
+ "key": "Gloiopeltis furcata",
+ "name_ko": "불등가사리",
+ "names": [
+  "불등가사리"
+ ],
+ "nicknames": [
+  "불등풀가사리"
+ ],
+ "eng": [
+  "Fukurofunori"
+ ],
+ "scnm_full": [
+  "Gloiopeltis furcata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762467,
+ "genus": "Gloiopeltis",
+ "family": null,
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 23,
+ "candidates": [
+  {
+   "compound": "(2S)-2-hydroxy-2-[(2S,3R,4S)-4-hydroxy-3-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxolan-2-yl]acetaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 88399957,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-4-hydroxyhex-2-enoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163062429,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4S)-3-ethylidene-4-methylpyrrolidine-2,5-dione",
+   "compound_ko": null,
+   "pubchem_cid": 131243894,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[(3S)-3-hydroxy-5-oxooxolan-3-yl]acetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 133639597,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,6-Anhydro-L-galactose dimethyl acetal",
+   "compound_ko": null,
+   "pubchem_cid": 20835708,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.38
+}

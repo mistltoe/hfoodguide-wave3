@@ -1,0 +1,32 @@
+{
+ "key": "Zophobas atratus",
+ "name_ko": "아메리카 왕거저리 유충 탈지",
+ "names": [
+  "아메리카 왕거저리 유충 탈지분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Zophobas atratus"
+ ],
+ "scnm_full": [
+  "Zophobas atratus"
+ ],
+ "kind": "animal",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "<제조 조건>\n동결건조, 탈지"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Zophobas",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

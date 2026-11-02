@@ -1,0 +1,78 @@
+{
+ "key": "Sinapis arvensis",
+ "name_ko": "들갓",
+ "names": [
+  "들갓잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Charlock"
+ ],
+ "scnm_full": [
+  "Sinapis arvensis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758602,
+ "genus": "Sinapis",
+ "family": "Brassicaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 13,
+ "candidates": [
+  {
+   "compound": "Brassilexin",
+   "compound_ko": null,
+   "pubchem_cid": 135413564,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "YPQKRKAUPLJHDT-UHFFFAOYSA-N",
+   "compound_ko": null,
+   "pubchem_cid": 189690,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "4-Hydroxybenzylamine",
+   "compound_ko": null,
+   "pubchem_cid": 97472,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Glucosinalbin",
+   "compound_ko": "글루코시날빈",
+   "pubchem_cid": 9601115,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 6
+  },
+  {
+   "compound": "Unii-Q86A197713",
+   "compound_ko": null,
+   "pubchem_cid": 76957235,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 8
+  }
+ ],
+ "priority": 4.146
+}

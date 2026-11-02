@@ -1,0 +1,28 @@
+{
+ "key": "Urechis unicinctus",
+ "name_ko": "개불",
+ "names": [
+  "개불"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Urechis unicinctus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17117596,
+ "genus": "Urechis",
+ "family": "Urechidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

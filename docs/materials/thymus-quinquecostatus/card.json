@@ -1,0 +1,81 @@
+{
+ "key": "Thymus quinquecostatus",
+ "name_ko": "백리향",
+ "names": [
+  "백리향",
+  "백리향추출물"
+ ],
+ "nicknames": [
+  "사향초"
+ ],
+ "eng": [
+  "Five-rib thyme, Fiveribbed thyme"
+ ],
+ "scnm_full": [
+  "Thymus quinquecostatus Celak."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 사용가능부위 : 전초※(사향초)"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14759588,
+ "genus": "Thymus",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 47,
+ "candidates": [
+  {
+   "compound": "1-(4-Methylphenyl)propane-2-amine",
+   "compound_ko": null,
+   "pubchem_cid": 199116,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Aminononadecane",
+   "compound_ko": null,
+   "pubchem_cid": 141647,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Azabicyclo[3.2.2]nonane",
+   "compound_ko": null,
+   "pubchem_cid": 9240,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "4-Ethoxy-alpha-methylbenzeneethanamine",
+   "compound_ko": null,
+   "pubchem_cid": 125379,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "4-Ethyl-2-methoxy-6-methylphenol",
+   "compound_ko": null,
+   "pubchem_cid": 183540,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.559
+}

@@ -1,0 +1,30 @@
+{
+ "key": "Pinctada fucata",
+ "name_ko": "진주조개",
+ "names": [
+  "진주조개"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese pearl oyster, Pearl oyster, Pearl shell"
+ ],
+ "scnm_full": [
+  "Pinctada fucata martensii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16544183,
+ "genus": "Pinctada",
+ "family": "Margaritidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

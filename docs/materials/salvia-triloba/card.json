@@ -1,0 +1,78 @@
+{
+ "key": "Salvia triloba",
+ "name_ko": "그릭세이지",
+ "names": [
+  "그릭세이지잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Greek sage"
+ ],
+ "scnm_full": [
+  "Salvia triloba L.F."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758002,
+ "genus": "Salvia",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 131,
+ "candidates": [
+  {
+   "compound": "(-)-beta-Thujone",
+   "compound_ko": "(-)-베타-투존",
+   "pubchem_cid": 6553876,
+   "part": "Plant",
+   "content": "최대 1500 ppm",
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1500 ppm",
+   "n_genera": 18
+  },
+  {
+   "compound": "Luteolin 7-glucuronide-3'-glucoside",
+   "compound_ko": null,
+   "pubchem_cid": 44258090,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Chrysoeriol 7-glucuronide",
+   "compound_ko": "크리소에리올 7-글루쿠로나이드",
+   "pubchem_cid": 14630703,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 8
+  },
+  {
+   "compound": "Nepitrin",
+   "compound_ko": "네피트린",
+   "pubchem_cid": 120742,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "(4bR,8aR)-4b,8,8-trimethyl-2-propan-2-yl-5,6,7,8a-tetrahydrophenanthrene-1,3,4-triol",
+   "compound_ko": null,
+   "pubchem_cid": 101219048,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.121
+}

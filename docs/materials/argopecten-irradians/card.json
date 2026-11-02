@@ -1,0 +1,32 @@
+{
+ "key": "Argopecten irradians",
+ "name_ko": "캐롤라이나해만가리비",
+ "names": [
+  "대서양해만가리비",
+  "캐롤라이나해만가리비"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Carolina bay scallop"
+ ],
+ "scnm_full": [
+  "Argopecten irradians concentricus",
+  "Argopecten irradians irradians"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14978305,
+ "genus": "Argopecten",
+ "family": "Pectinidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

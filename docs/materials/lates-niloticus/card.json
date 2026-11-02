@@ -1,0 +1,33 @@
+{
+ "key": "Lates niloticus",
+ "name_ko": "나일선농어",
+ "names": [
+  "나일선농어"
+ ],
+ "nicknames": [
+  "Nile perch",
+  "나일농어"
+ ],
+ "eng": [
+  "Nile perch"
+ ],
+ "scnm_full": [
+  "Lates niloticus / Lates nilotus rudolfianus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15973244,
+ "genus": "Lates",
+ "family": "Latidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

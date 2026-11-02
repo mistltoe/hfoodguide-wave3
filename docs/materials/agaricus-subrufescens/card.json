@@ -1,0 +1,32 @@
+{
+ "key": "Agaricus subrufescens",
+ "name_ko": "붉은갓주름버섯",
+ "names": [
+  "붉은갓주름버섯자실체"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Agaricus subrufescens Peck"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14841339,
+ "genus": "Agaricus",
+ "family": "Agaricaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

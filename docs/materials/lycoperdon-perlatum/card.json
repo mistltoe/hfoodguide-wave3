@@ -1,0 +1,46 @@
+{
+ "key": "Lycoperdon perlatum",
+ "name_ko": "말불버섯",
+ "names": [
+  "말불버섯",
+  "말불버섯어린자실체"
+ ],
+ "nicknames": [
+  "봉오리먼지버섯"
+ ],
+ "eng": [
+  "Puffball, Smut ball"
+ ],
+ "scnm_full": [
+  "Lycoperdon perlatum Pers."
+ ],
+ "kind": "plant",
+ "parts": [
+  "어린자실체",
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14790693,
+ "genus": "Lycoperdon",
+ "family": "Agaricaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Lycoperdic acid",
+   "compound_ko": null,
+   "pubchem_cid": 85157543,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.678
+}

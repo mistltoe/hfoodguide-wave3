@@ -1,0 +1,76 @@
+{
+ "key": "Pinus edulis",
+ "name_ko": "파인너트",
+ "names": [
+  "파인너트씨앗"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Pinus edulis Engelm"
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14756432,
+ "genus": "Pinus",
+ "family": "Pinaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 71,
+ "candidates": [
+  {
+   "compound": "Prptein",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Seed",
+   "content": "최대 154100 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 154100 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Hemicellulose",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Seed",
+   "content": "최대 56000 ppm",
+   "rationale": "이 성분이 보고된 생물은 25개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 56000 ppm",
+   "n_genera": 25
+  },
+  {
+   "compound": "2-Methyl-6-prop-1-enylpiperidine",
+   "compound_ko": null,
+   "pubchem_cid": 580067,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(-)-Pinidinone",
+   "compound_ko": null,
+   "pubchem_cid": 11159443,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(1S,5S)-1-methyl-9-azabicyclo[3.3.1]nonan-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 50918821,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.857
+}

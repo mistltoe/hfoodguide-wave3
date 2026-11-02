@@ -1,0 +1,30 @@
+{
+ "key": "Decapterus maruadsi",
+ "name_ko": "가라지",
+ "names": [
+  "가라지"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese scad, Amberfish, Round scad"
+ ],
+ "scnm_full": [
+  "Decapterus maruadsi"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15431896,
+ "genus": "Decapterus",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

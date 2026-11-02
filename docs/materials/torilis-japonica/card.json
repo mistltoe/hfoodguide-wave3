@@ -1,0 +1,82 @@
+{
+ "key": "Torilis japonica",
+ "name_ko": "사상자",
+ "names": [
+  "사상자농축액",
+  "사상자분말",
+  "사상자열매",
+  "사상자열매추출분말",
+  "사상자추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Erect hedgeparsley"
+ ],
+ "scnm_full": [
+  "Torilis japonica (Houtt.) DC."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 열매※(사상자)"
+ ],
+ "status": "restricted",
+ "n_rows": 5,
+ "bioresource_id": 14759640,
+ "genus": "Torilis",
+ "family": "Apiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 40,
+ "candidates": [
+  {
+   "compound": "(1R,3aR,4R,7aR)-1-[(1S)-1-methoxy-2-methylpropyl]-3a-methyl-7-methylidene-2,3,4,5,6,7a-hexahydro-1H-inden-4-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163080623,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2S,3S,5R,6R,8R,12R)-1,5,9,9-tetramethyl-10-oxatricyclo[6.2.2.02,6]dodecane-3,8,12-triol",
+   "compound_ko": null,
+   "pubchem_cid": 10801998,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,3aR,4R,7aS)-1-[(1R)-1-methoxy-2-methylpropyl]-3a-methyl-7-methylidene-2,3,4,5,6,7a-hexahydro-1H-inden-4-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163080625,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,3aR,4R,7aS)-3a-methyl-7-methylidene-1-(2-methylprop-1-enyl)-2,3,4,5,6,7a-hexahydro-1H-inden-4-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163052582,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,5R,8E)-10,10-dimethyl-2,6-dimethylidenecycloundec-8-ene-1,5-diol",
+   "compound_ko": null,
+   "pubchem_cid": 15624790,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.99
+}

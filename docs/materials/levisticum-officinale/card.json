@@ -1,0 +1,80 @@
+{
+ "key": "Levisticum officinale",
+ "name_ko": "러비지",
+ "names": [
+  "러비지뿌리",
+  "러비지뿌리오일",
+  "러비지추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Lovage"
+ ],
+ "scnm_full": [
+  "Levisticum officinale Koch."
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14754222,
+ "genus": "Levisticum",
+ "family": "Apiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 160,
+ "candidates": [
+  {
+   "compound": "Ligustilide",
+   "compound_ko": "리구스틸라이드",
+   "pubchem_cid": 5319022,
+   "part": "Root",
+   "content": "최대 2150 ppm",
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 4건 보고(DUKE, LOTUS), 최대 2150 ppm",
+   "n_genera": 12
+  },
+  {
+   "compound": "Butylidenephthalide",
+   "compound_ko": "부틸리덴프탈라이드",
+   "pubchem_cid": 5352899,
+   "part": "Root",
+   "content": "최대 1535 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 1535 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "Butylphthalide",
+   "compound_ko": "부틸프탈라이드",
+   "pubchem_cid": 61361,
+   "part": "Root",
+   "content": "최대 1535 ppm",
+   "rationale": "이 성분이 보고된 생물은 10개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 1535 ppm",
+   "n_genera": 10
+  },
+  {
+   "compound": "Menthadienol",
+   "compound_ko": null,
+   "pubchem_cid": 527143,
+   "part": "Root",
+   "content": "최대 10 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 10 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "(+)-Thujopsene",
+   "compound_ko": "(+)-투좁센",
+   "pubchem_cid": 11401461,
+   "part": "Root",
+   "content": "최대 80 ppm",
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 80 ppm",
+   "n_genera": 11
+  }
+ ],
+ "priority": 6.707
+}

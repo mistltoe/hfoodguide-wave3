@@ -1,0 +1,78 @@
+{
+ "key": "Thymus pulegioides",
+ "name_ko": "플레기오이데스백리향",
+ "names": [
+  "플레기오이데스백리향잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Broad-leaved thyme"
+ ],
+ "scnm_full": [
+  "Thymus pulegioides L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14774756,
+ "genus": "Thymus",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 28,
+ "candidates": [
+  {
+   "compound": "[(1R,2S,4R)-7,7-dimethyl-2-bicyclo[2.2.1]heptanyl] 2-methylpropanoate",
+   "compound_ko": null,
+   "pubchem_cid": 163093249,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(4S)-3,3,6-trimethylhepta-1,5-dien-4-yl] acetate",
+   "compound_ko": null,
+   "pubchem_cid": 14890510,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Npc144719",
+   "compound_ko": null,
+   "pubchem_cid": 12308602,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Linalyl acetate, (-)-",
+   "compound_ko": "(-)-리날릴 아세테이트",
+   "pubchem_cid": 442474,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  },
+  {
+   "compound": "4-Terpineol, (-)-",
+   "compound_ko": "(-)-4-터피네올",
+   "pubchem_cid": 5325830,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 14
+  }
+ ],
+ "priority": 4.462
+}

@@ -1,0 +1,78 @@
+{
+ "key": "Citrus depressa",
+ "name_ko": "플랫레몬",
+ "names": [
+  "플랫레몬열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Flat lemon"
+ ],
+ "scnm_full": [
+  "Citrus depressa Hayata / Citrus pectinifera Tanaka"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14768706,
+ "genus": "Citrus",
+ "family": "Rutaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 29,
+ "candidates": [
+  {
+   "compound": "1,3,6-Trihydroxy-5-methoxy-10-methyl-4-(3-methylbut-2-enyl)acridin-9-one",
+   "compound_ko": null,
+   "pubchem_cid": 10066776,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6-Hydroxy-10,11-dimethoxy-3,3,12-trimethyl-pyrano[2,3-c]acridin-7-one",
+   "compound_ko": null,
+   "pubchem_cid": 5494832,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Citpressine I",
+   "compound_ko": null,
+   "pubchem_cid": 5494827,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Citracridone III",
+   "compound_ko": null,
+   "pubchem_cid": 5465517,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Limonin glucoside",
+   "compound_ko": "리모닌 글루코사이드",
+   "pubchem_cid": 24820753,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.477
+}

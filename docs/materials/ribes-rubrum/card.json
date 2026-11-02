@@ -1,0 +1,85 @@
+{
+ "key": "Ribes rubrum",
+ "name_ko": "루브룸까치밥",
+ "names": [
+  "냉동루브룸까치밥열매",
+  "루브룸까치밥농축",
+  "루브룸까치밥열매",
+  "루브룸까치밥추출액",
+  "커런트열매"
+ ],
+ "nicknames": [
+  "레드커런트"
+ ],
+ "eng": [
+  "Red currant"
+ ],
+ "scnm_full": [
+  "Ribes rubrum L. / Ribes sativum Syme. / Ribes triste Pall."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14757675,
+ "genus": "Ribes",
+ "family": "Grossulariaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 170,
+ "candidates": [
+  {
+   "compound": "Cyanidin 3-xylosylrutinoside",
+   "compound_ko": null,
+   "pubchem_cid": 44256729,
+   "part": "Fruit",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4R,5R,6S)-2-[[(2R,3S,4S,5R)-6-[[(2R,3S,4S,5R)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methoxy]-3,4,5-trihydroxyoxan-2-yl]methoxy]-6-methyloxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 76322876,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "N-beta-D-glucopyranosyl indole-3-acetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 16108205,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(E)-2-cyano-4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybut-2-enyl] 4-hydroxy-3-methoxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 16108211,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(E)-2-cyano-4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybut-2-enyl] 4-hydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 16108206,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 8.11
+}

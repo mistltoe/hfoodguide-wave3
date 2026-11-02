@@ -1,0 +1,82 @@
+{
+ "key": "Valeriana fauriei",
+ "name_ko": "쥐오줌풀",
+ "names": [
+  "쥐오줌풀뿌리",
+  "쥐오줌풀뿌리추출물",
+  "쥐오줌풀어린잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Valerian Root"
+ ],
+ "scnm_full": [
+  "Valeriana fauriei Briq."
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "어린잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 어린잎",
+  "제한적사용가능부위 : 뿌리※(길초근)"
+ ],
+ "status": "restricted",
+ "n_rows": 3,
+ "bioresource_id": 14760010,
+ "genus": "Valeriana",
+ "family": "Valerianaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 34,
+ "candidates": [
+  {
+   "compound": "(1R,2R)-4-methyl-1-[(2R)-6-methylhept-5-en-2-yl]cyclohex-3-ene-1,2-diol",
+   "compound_ko": null,
+   "pubchem_cid": 101380093,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,3R,5R,6R,8S)-1,5,9,9-tetramethyl-10-oxatricyclo[6.2.2.02,6]dodecan-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162844755,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2Z,7Z,11S)-8,12,12-trimethylbicyclo[9.1.0]dodeca-2,7-dien-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163073508,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,3R,6S,7S,8S,10R)-2,2,6,8-tetramethyltricyclo[5.3.1.03,8]undecane-3,10-diol",
+   "compound_ko": null,
+   "pubchem_cid": 25082526,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,5R,6R,8S,12S)-1,5,9,9-tetramethyl-10-oxatricyclo[6.2.2.02,6]dodecan-12-ol",
+   "compound_ko": null,
+   "pubchem_cid": 12304810,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.544
+}

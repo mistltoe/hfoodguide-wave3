@@ -1,0 +1,34 @@
+{
+ "key": "Nemipterus virgatus",
+ "name_ko": "실꼬리돔",
+ "names": [
+  "실꼬리돔",
+  "실꼬리돔어육",
+  "실꼬리돔연육",
+  "실꼬리돔페이스트"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Golden threadfin bream, Golden thread"
+ ],
+ "scnm_full": [
+  "Nemipterus virgatus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 16254271,
+ "genus": "Nemipterus",
+ "family": "Nemipteridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.483
+}

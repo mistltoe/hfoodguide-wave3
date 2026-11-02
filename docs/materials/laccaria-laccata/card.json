@@ -1,0 +1,58 @@
+{
+ "key": "Laccaria laccata",
+ "name_ko": "졸각버섯",
+ "names": [
+  "졸각버섯"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Laccaria laccata (Scop.:Fr.) Berk. & Br."
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14775354,
+ "genus": "Laccaria",
+ "family": "Hydnangiaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "1-ethoxy-10-hydroxy-7-methoxy-3-(4-methylhex-2-en-2-yl)-1H-benzo[g]isochromene-8,9-dione",
+   "compound_ko": null,
+   "pubchem_cid": 85069859,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "10-hydroxy-1,7-dimethoxy-3-(4-methylhex-2-en-2-yl)-1H-benzo[g]isochromene-8,9-dione",
+   "compound_ko": null,
+   "pubchem_cid": 85074537,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl 4-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-3-(3-methylbut-2-enoxy)benzoate",
+   "compound_ko": null,
+   "pubchem_cid": 163019498,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.602
+}

@@ -1,0 +1,30 @@
+{
+ "key": "Terapon jarbua",
+ "name_ko": "살벤자리",
+ "names": [
+  "살벤자리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Crescent grunter"
+ ],
+ "scnm_full": [
+  "Terapon jarbua"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17003163,
+ "genus": "Terapon",
+ "family": "Terapontidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

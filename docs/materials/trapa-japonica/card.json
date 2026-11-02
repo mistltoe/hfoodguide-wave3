@@ -1,0 +1,34 @@
+{
+ "key": "Trapa japonica",
+ "name_ko": "마름",
+ "names": [
+  "마름분말",
+  "마름열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Water nut, Water chestnut, Knotweed"
+ ],
+ "scnm_full": [
+  "Trapa japonica Flerow / Trapa bicornis var. iwasakii (Nakano) Nakano"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Trapa",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

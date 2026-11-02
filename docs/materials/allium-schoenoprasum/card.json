@@ -1,0 +1,87 @@
+{
+ "key": "Allium schoenoprasum",
+ "name_ko": "골파",
+ "names": [
+  "건조골파",
+  "골파분말",
+  "골파오일",
+  "골파유탕",
+  "골파잎",
+  "골파즙",
+  "골파추출물"
+ ],
+ "nicknames": [
+  "차이브"
+ ],
+ "eng": [
+  "Chives"
+ ],
+ "scnm_full": [
+  "Allium schoenoprasum L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 7,
+ "bioresource_id": 14747444,
+ "genus": "Allium",
+ "family": "Liliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 163,
+ "candidates": [
+  {
+   "compound": "Amyl methyl disulfide",
+   "compound_ko": null,
+   "pubchem_cid": 522459,
+   "part": "Essential Oil, Leaf Essent. Oil",
+   "content": "최대 16000 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS), 최대 16000 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "1-Pentanesulfenothioic acid",
+   "compound_ko": null,
+   "pubchem_cid": 21251947,
+   "part": "Leaf Essent. Oil",
+   "content": "최대 25000 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 25000 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Folate",
+   "compound_ko": null,
+   "pubchem_cid": 135405876,
+   "part": "Leaf",
+   "content": "최대 11 ppm",
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 11 ppm",
+   "n_genera": 3
+  },
+  {
+   "compound": "Cyanidin 3-laminaribioside",
+   "compound_ko": null,
+   "pubchem_cid": 101710212,
+   "part": "Stem",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Dotriacontanal",
+   "compound_ko": null,
+   "pubchem_cid": 185893,
+   "part": "Leaf, Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE)",
+   "n_genera": 3
+  }
+ ],
+ "priority": 8.715
+}

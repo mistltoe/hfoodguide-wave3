@@ -1,0 +1,33 @@
+{
+ "key": "Oudemansiella radicata",
+ "name_ko": "민긴뿌리버섯",
+ "names": [
+  "민긴뿌리버섯자실체"
+ ],
+ "nicknames": [
+  "민간뿌리버섯",
+  "민마른뿌리버섯"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Oudemansiella radicata (Relhan) Singer"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Oudemansiella",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

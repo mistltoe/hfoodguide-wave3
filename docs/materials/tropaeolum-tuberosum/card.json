@@ -1,0 +1,76 @@
+{
+ "key": "Tropaeolum tuberosum",
+ "name_ko": "Anu덩이",
+ "names": [
+  "Anu덩이줄기"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Tropaeolum tuberosum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "덩이줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 덩이줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759841,
+ "genus": "Tropaeolum",
+ "family": "Tropaeolaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 22,
+ "candidates": [
+  {
+   "compound": "2-[2-[5,7-Dihydroxy-2-(4-hydroxyphenyl)chromenylium-3-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 74089795,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Npc149221",
+   "compound_ko": null,
+   "pubchem_cid": 29232,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Thiourea, N,N'-bis((4-methoxyphenyl)methyl)-",
+   "compound_ko": null,
+   "pubchem_cid": 834166,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "4-Methoxybenzyl isothiocyanate",
+   "compound_ko": null,
+   "pubchem_cid": 123197,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Cyanidin 3-sophoroside",
+   "compound_ko": null,
+   "pubchem_cid": 44256720,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  }
+ ],
+ "priority": 4.362
+}

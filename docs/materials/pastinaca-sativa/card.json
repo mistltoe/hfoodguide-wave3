@@ -1,0 +1,86 @@
+{
+ "key": "Pastinaca sativa",
+ "name_ko": "파스닙",
+ "names": [
+  "파스닙농축액",
+  "파스닙뿌리",
+  "파스닙잎",
+  "파스닙퓌레"
+ ],
+ "nicknames": [
+  "설탕당근",
+  "아메리카 방풍나물"
+ ],
+ "eng": [
+  "Wild Parsnip"
+ ],
+ "scnm_full": [
+  "Pastinaca sativa L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14755991,
+ "genus": "Pastinaca",
+ "family": "Apiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 118,
+ "candidates": [
+  {
+   "compound": "Isopsoralen",
+   "compound_ko": "이소소랄렌",
+   "pubchem_cid": 10658,
+   "part": "Root",
+   "content": "최대 34 ppm",
+   "rationale": "이 성분이 보고된 생물은 25개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 34 ppm",
+   "n_genera": 25
+  },
+  {
+   "compound": "Selinium",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 0.002 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.002 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Sphondin",
+   "compound_ko": "스폰딘",
+   "pubchem_cid": 108104,
+   "part": "Root",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "Androstenone",
+   "compound_ko": null,
+   "pubchem_cid": 6852393,
+   "part": "Root",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Octyl propionate",
+   "compound_ko": null,
+   "pubchem_cid": 61096,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 8.058
+}

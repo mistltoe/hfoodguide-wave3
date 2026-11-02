@@ -1,0 +1,30 @@
+{
+ "key": "Pollachius virens",
+ "name_ko": "검정대구",
+ "names": [
+  "검정대구"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Saithe"
+ ],
+ "scnm_full": [
+  "Pollachius virens"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16588895,
+ "genus": "Pollachius",
+ "family": "Gadidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

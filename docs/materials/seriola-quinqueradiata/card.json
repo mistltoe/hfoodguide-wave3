@@ -1,0 +1,33 @@
+{
+ "key": "Seriola quinqueradiata",
+ "name_ko": "방어",
+ "names": [
+  "방어",
+  "방어살",
+  "방어포"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese amberjack, Yellowtail"
+ ],
+ "scnm_full": [
+  "Seriola quinqueradiata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 16850037,
+ "genus": "Seriola",
+ "family": "Carangidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.0
+}

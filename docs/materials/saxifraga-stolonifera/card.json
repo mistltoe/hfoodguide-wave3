@@ -1,0 +1,80 @@
+{
+ "key": "Saxifraga stolonifera",
+ "name_ko": "바위취",
+ "names": [
+  "바위취잎"
+ ],
+ "nicknames": [
+  "겨우사리귀"
+ ],
+ "eng": [
+  "Rock pine"
+ ],
+ "scnm_full": [
+  "Saxifraga stolonifera Meerb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758176,
+ "genus": "Saxifraga",
+ "family": "Saxifragaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 59,
+ "candidates": [
+  {
+   "compound": "18-Pentatriacontanone",
+   "compound_ko": null,
+   "pubchem_cid": 10440,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,4,8,10-tetrahydroxy-2,9-bis(hydroxymethyl)-3,4,4a,10b-tetrahydro-2H-pyrano[3,2-c]isochromen-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 153281423,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-2-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 6121060,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-2-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 14552371,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,4aS,10bS)-3,4,8,9,10-pentahydroxy-2-(hydroxymethyl)-3,4,4a,10b-tetrahydro-2H-pyrano[3,2-c]isochromen-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 158227268,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.778
+}

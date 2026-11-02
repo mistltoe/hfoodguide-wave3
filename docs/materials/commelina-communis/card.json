@@ -1,0 +1,84 @@
+{
+ "key": "Commelina communis",
+ "name_ko": "달개비",
+ "names": [
+  "달개비",
+  "달개비분말",
+  "달개비순",
+  "달개비추출액"
+ ],
+ "nicknames": [
+  "닭의장풀"
+ ],
+ "eng": [
+  "Dayflower, Asian dayflower"
+ ],
+ "scnm_full": [
+  "Commelina communis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "restricted",
+ "n_rows": 4,
+ "bioresource_id": 14750091,
+ "genus": "Commelina",
+ "family": "Commelinaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 60,
+ "candidates": [
+  {
+   "compound": "3-Hydroxy-4,5-Dimethoxybenzoic Acid",
+   "compound_ko": null,
+   "pubchem_cid": 74709,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-sulfanylidene-3-[[(2R,3S,4S,5R,6S)-3,4,5-trihydroxy-6-[7-hydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[3-(4-hydroxyphenyl)prop-2-enoyloxymethyl]oxan-2-yl]oxy-2-(3,4,5-trihydroxyphenyl)chromenylium-5-yl]oxyoxan-2-yl]methoxy]propanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 100916163,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "5,7-dihydroxy-2-(4-hydroxyphenyl)-6-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163027886,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Flavocommelin",
+   "compound_ko": null,
+   "pubchem_cid": 5317357,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Malonylawobanin",
+   "compound_ko": null,
+   "pubchem_cid": 5281258,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.268
+}

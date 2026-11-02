@@ -1,0 +1,85 @@
+{
+ "key": "Citrus japonica",
+ "name_ko": "금귤",
+ "names": [
+  "금귤주스",
+  "금귤주스농축",
+  "금귤추출물",
+  "둥근금감열매"
+ ],
+ "nicknames": [
+  "금귤나무",
+  "둥근귤"
+ ],
+ "eng": [
+  "Round kumquat"
+ ],
+ "scnm_full": [
+  "Citrus japonica / Fortunella japonica (Thunb.) Swingle"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14762733,
+ "genus": "Citrus",
+ "family": "Rutaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 152,
+ "candidates": [
+  {
+   "compound": "(1R,2R,4S,7R,8S,11R,12R,13S,16R)-13-hydroxy-7-[(2R)-2-hydroxy-5-oxo-2H-furan-4-yl]-1,8,12,13,15,15-hexamethyl-3,6,14-trioxapentacyclo[9.7.0.02,4.02,8.012,16]octadecane-5,18-dione",
+   "compound_ko": null,
+   "pubchem_cid": 162995213,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,7R,8S,11R,12R,13S,16R)-7-[(2R)-2-hydroxy-5-oxo-2H-furan-4-yl]-13-methoxy-1,8,12,13,15,15-hexamethyl-3,6,14-trioxapentacyclo[9.7.0.02,4.02,8.012,16]octadecane-5,18-dione",
+   "compound_ko": null,
+   "pubchem_cid": 162916750,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,7R,8S,11R,12R,13S,18R)-13-hydroxy-7-[(2R)-2-hydroxy-5-oxo-2H-furan-4-yl]-1,8,12,17,17-pentamethyl-3,6,16-trioxapentacyclo[9.9.0.02,4.02,8.012,18]icosane-5,15,20-trione",
+   "compound_ko": null,
+   "pubchem_cid": 163022347,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4S,7R,8S,11R,12R,18R)-7-[(2R)-2-hydroxy-5-oxo-2H-furan-4-yl]-1,8,12,17,17-pentamethyl-3,6,16-trioxapentacyclo[9.9.0.02,4.02,8.012,18]icos-13-ene-5,15,20-trione",
+   "compound_ko": null,
+   "pubchem_cid": 124389670,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2S,4R,7S,8R,11S,12S,18R)-7-[(2S)-2-hydroxy-5-oxo-2H-furan-3-yl]-1,8,12,17,17-pentamethyl-3,6,16-trioxapentacyclo[9.9.0.02,4.02,8.012,18]icos-13-ene-5,15,20-trione",
+   "compound_ko": null,
+   "pubchem_cid": 162912723,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.668
+}

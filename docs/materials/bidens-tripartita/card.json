@@ -1,0 +1,82 @@
+{
+ "key": "Bidens tripartita",
+ "name_ko": "가막사리",
+ "names": [
+  "가막사리순",
+  "가막사리잎"
+ ],
+ "nicknames": [
+  "가막살"
+ ],
+ "eng": [
+  "Three-lobe beggartick"
+ ],
+ "scnm_full": [
+  "Bidens tripartita L. / Bidens modiflora L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14748589,
+ "genus": "Bidens",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 16,
+ "candidates": [
+  {
+   "compound": "(E)-1-(2-Hydroxy-4-Methoxyphenyl)-3-(4-Methoxyphenyl)Prop-2-En-1-One",
+   "compound_ko": null,
+   "pubchem_cid": 5357488,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "6'-Hydroxy-4,4'-dimethoxychalcone",
+   "compound_ko": null,
+   "pubchem_cid": 98120,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 44559826,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 8
+  },
+  {
+   "compound": "3(2H)-Benzofuranone, 2-[(3,4-dihydroxyphenyl)methylene]-6-hydroxy-",
+   "compound_ko": null,
+   "pubchem_cid": 67111,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "Cosmene",
+   "compound_ko": "코스멘",
+   "pubchem_cid": 5368451,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 11
+  }
+ ],
+ "priority": 5.608
+}

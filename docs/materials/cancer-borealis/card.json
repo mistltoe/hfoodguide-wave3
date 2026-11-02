@@ -1,0 +1,33 @@
+{
+ "key": "Cancer borealis",
+ "name_ko": "북쪽은행게",
+ "names": [
+  "북쪽은행게"
+ ],
+ "nicknames": [
+  "Jonah crab",
+  "조나게"
+ ],
+ "eng": [
+  "Jonah crab"
+ ],
+ "scnm_full": [
+  "Cancer borealis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15161873,
+ "genus": "Cancer",
+ "family": "Cancridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

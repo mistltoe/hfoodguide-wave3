@@ -1,0 +1,30 @@
+{
+ "key": "Misgurnus anguillicaudatus",
+ "name_ko": "미꾸리",
+ "names": [
+  "미꾸리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pond loach"
+ ],
+ "scnm_full": [
+  "Misgurnus anguillicaudatus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14778645,
+ "genus": "Misgurnus",
+ "family": "Cobitidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 3.301
+}

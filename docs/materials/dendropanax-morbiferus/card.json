@@ -1,0 +1,43 @@
+{
+ "key": "Dendropanax morbiferus",
+ "name_ko": "황칠나무",
+ "names": [
+  "황칠나무",
+  "황칠나무농축분말",
+  "황칠나무농축액",
+  "황칠나무발효추출물",
+  "황칠나무뿌리",
+  "황칠나무잎",
+  "황칠나무줄기",
+  "황칠나무추출물",
+  "황칠나무추출분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Korean dendropanax"
+ ],
+ "scnm_full": [
+  "Dendropanax morbiferus H.Lév / Textoria morbifera"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "뿌리",
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 뿌리, 줄기, 잎"
+ ],
+ "status": "restricted",
+ "n_rows": 9,
+ "bioresource_id": null,
+ "genus": "Dendropanax",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.983
+}

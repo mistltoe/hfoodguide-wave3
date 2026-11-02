@@ -1,0 +1,32 @@
+{
+ "key": "Capsosiphon fulvescens",
+ "name_ko": "매생이",
+ "names": [
+  "매생이"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Seaweed fulvescens"
+ ],
+ "scnm_full": [
+  "Capsosiphon fulvescens"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Capsosiphon",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,30 @@
+{
+ "key": "Penaeus merguiensis",
+ "name_ko": "바나나새우",
+ "names": [
+  "바나나새우"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Banana prawn"
+ ],
+ "scnm_full": [
+  "Penaeus merguiensis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16466453,
+ "genus": "Penaeus",
+ "family": "Penaeidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

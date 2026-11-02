@@ -1,0 +1,35 @@
+{
+ "key": "Miichthys miiuy",
+ "name_ko": "민어",
+ "names": [
+  "민어"
+ ],
+ "nicknames": [
+  "개우치",
+  "보굴치",
+  "불등거리",
+  "홍치"
+ ],
+ "eng": [
+  "Mi-iuy croaker, Brown croaker"
+ ],
+ "scnm_full": [
+  "Miichthys miiuy"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16183062,
+ "genus": "Miichthys",
+ "family": "Sciaenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

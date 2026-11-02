@@ -1,0 +1,35 @@
+{
+ "key": "Lonicera maackii",
+ "name_ko": "괴불나무",
+ "names": [
+  "괴불나무열매"
+ ],
+ "nicknames": [
+  "아귀꽃나무",
+  "절초나무"
+ ],
+ "eng": [
+  "Amur Honeysuckle"
+ ],
+ "scnm_full": [
+  "Lonicera maackii (Rupr.) Maxim. / Caprifolium maackii (Rupr.) Kuntze"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16052762,
+ "genus": "Lonicera",
+ "family": "Caprifoliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

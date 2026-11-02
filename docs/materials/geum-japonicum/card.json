@@ -1,0 +1,80 @@
+{
+ "key": "Geum japonicum",
+ "name_ko": "뱀무",
+ "names": [
+  "뱀무순"
+ ],
+ "nicknames": [
+  "일본수양매"
+ ],
+ "eng": [
+  "Asian herb bennet"
+ ],
+ "scnm_full": [
+  "Geum japonicum Thunb. / Geum iyoanum Koidz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14752585,
+ "genus": "Geum",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 68,
+ "candidates": [
+  {
+   "compound": "(14S,15S,19R)-14-[(10S,11R)-3,4,5,11,17,18,19-heptahydroxy-8,14-dioxo-9,13-dioxatricyclo[13.4.0.02,7]nonadeca-1(19),2,4,6,15,17-hexaen-10-yl]-2,3,4,7,8,9,19-heptahydroxy-13,16-dioxatetracyclo[13.3.1.05,18.06,11]nonadeca-1,3,5(18),6,8,10-hexaene-12,17-dione",
+   "compound_ko": null,
+   "pubchem_cid": 162920120,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,19R,22R)-7,8,9,12,13,14,20,28,29,30,33,34,35-tridecamethoxy-3,18,21,24,39-pentaoxaheptacyclo[20.17.0.02,19.05,10.011,16.026,31.032,37]nonatriaconta-5,7,9,11,13,15,26,28,30,32,34,36-dodecaene-4,17,25,38-tetrone",
+   "compound_ko": null,
+   "pubchem_cid": 10748463,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,4aS,8aS)-6-[[(1R,2S,4aR,6R,7R,8aR)-2-acetyl-6,7-dihydroxy-1,5,5,8a-tetramethyl-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-yl]methyl]-1,4a-dimethyl-2,3,4,8a-tetrahydronaphthalene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162894341,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,4aS,8aR)-6-[[(1S,2R,4aS,6S,7S,8aS)-2-acetyl-6,7-dihydroxy-1,5,5,8a-tetramethyl-3,4,4a,6,7,8-hexahydro-1H-naphthalen-2-yl]methyl]-1,4a-dimethyl-2,3,4,8a-tetrahydronaphthalene-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162894342,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Geumonoid",
+   "compound_ko": null,
+   "pubchem_cid": 482574,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.839
+}

@@ -1,0 +1,49 @@
+{
+ "key": "Sardinops sagax",
+ "name_ko": "정어리",
+ "names": [
+  "South American pilchard",
+  "건조정어리",
+  "건조정어리분말",
+  "건조정어리추출물",
+  "볶은정어리",
+  "유탕정어리",
+  "정어리",
+  "정어리가수분해단백질",
+  "정어리농축",
+  "정어리분말",
+  "정어리살",
+  "정어리오일",
+  "정어리추출액",
+  "정어리포",
+  "정어리효소분해농축액",
+  "정제정어리"
+ ],
+ "nicknames": [
+  "눈치"
+ ],
+ "eng": [
+  "Sardinops sagax"
+ ],
+ "scnm_full": [
+  "Sardinops sagax",
+  "Sardinops sagax / Sardinops melanostictus / Sardina pilchardus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 16,
+ "bioresource_id": 16797671,
+ "genus": "Sardinops",
+ "family": "Alosidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 8.131
+}

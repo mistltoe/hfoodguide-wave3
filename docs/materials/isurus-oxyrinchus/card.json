@@ -1,0 +1,33 @@
+{
+ "key": "Isurus oxyrinchus",
+ "name_ko": "청상아리",
+ "names": [
+  "청상아리"
+ ],
+ "nicknames": [
+  "생아리",
+  "청상아리"
+ ],
+ "eng": [
+  "Shortfin mako, Mako shark"
+ ],
+ "scnm_full": [
+  "Isurus oxyrinchus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15919896,
+ "genus": "Isurus",
+ "family": "Lamnidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

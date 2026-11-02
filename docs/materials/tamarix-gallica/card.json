@@ -1,0 +1,76 @@
+{
+ "key": "Tamarix gallica",
+ "name_ko": "Manna plant수액",
+ "names": [
+  "Manna plant수액"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Tamarix gallica"
+ ],
+ "kind": "plant",
+ "parts": [
+  "수액"
+ ],
+ "conditions": [
+  "사용가능부위 : 수액"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759307,
+ "genus": "Tamarix",
+ "family": "Tamaricaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 12,
+ "candidates": [
+  {
+   "compound": "[4-(3-Hydroxyprop-1-enyl)-2-methoxyphenyl] hydrogen sulfate",
+   "compound_ko": null,
+   "pubchem_cid": 162977408,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "coniferyl alcohol 4-O-sulphate",
+   "compound_ko": null,
+   "pubchem_cid": 129845814,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "(3beta,24xi)-Stigmast-5-en-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 9823110,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 17
+  },
+  {
+   "compound": "Tamarixetin",
+   "compound_ko": "타마릭세틴",
+   "pubchem_cid": 5281699,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 21개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 21
+  },
+  {
+   "compound": "24-Methylcholesterol",
+   "compound_ko": "24-메틸콜레스테롤",
+   "pubchem_cid": 12358784,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 25개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 25
+  }
+ ],
+ "priority": 4.114
+}

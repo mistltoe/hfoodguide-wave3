@@ -1,0 +1,67 @@
+{
+ "key": "Agrocybe cylindracea",
+ "name_ko": "버들송이",
+ "names": [
+  "버들송이"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Agrocybe cylindracea (DC. ex Fr.) Maire"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14779674,
+ "genus": "Agrocybe",
+ "family": "Strophariaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 4,
+ "candidates": [
+  {
+   "compound": "1-(6-Hydroxyhexyl)indole-3-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 113991739,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6-Hydroxy-1H-Indole-3-Acetamide",
+   "compound_ko": null,
+   "pubchem_cid": 286538,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Agrocybenine",
+   "compound_ko": null,
+   "pubchem_cid": 23278458,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6-Hydroxy-1H-indole-3-carboxaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 10103438,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 3.699
+}

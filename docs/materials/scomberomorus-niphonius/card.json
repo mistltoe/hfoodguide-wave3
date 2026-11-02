@@ -1,0 +1,37 @@
+{
+ "key": "Scomberomorus niphonius",
+ "name_ko": "삼치",
+ "names": [
+  "반건조삼치",
+  "삼치",
+  "삼치가수분해단백질",
+  "삼치구이",
+  "삼치살",
+  "삼치포"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese Spanish mackerel"
+ ],
+ "scnm_full": [
+  "Scomberomorus niphonius"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "전체",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 16825840,
+ "genus": "Scomberomorus",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.711
+}

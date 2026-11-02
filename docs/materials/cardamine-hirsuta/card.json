@@ -1,0 +1,34 @@
+{
+ "key": "Cardamine hirsuta",
+ "name_ko": "봄맞이냉이",
+ "names": [
+  "봄맞이냉이뿌리",
+  "봄맞이냉이잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Hairy bittercress"
+ ],
+ "scnm_full": [
+  "Cardamine hirsuta"
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위: 뿌리, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 15172493,
+ "genus": "Cardamine",
+ "family": "Brassicaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

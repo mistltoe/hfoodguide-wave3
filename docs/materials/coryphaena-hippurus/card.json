@@ -1,0 +1,30 @@
+{
+ "key": "Coryphaena hippurus",
+ "name_ko": "만새기",
+ "names": [
+  "만새기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Common dolphinfish"
+ ],
+ "scnm_full": [
+  "Coryphaena hippurus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14783002,
+ "genus": "Coryphaena",
+ "family": "Coryphaenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [],
+ "priority": 3.602
+}

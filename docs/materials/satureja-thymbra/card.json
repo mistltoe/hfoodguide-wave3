@@ -1,0 +1,78 @@
+{
+ "key": "Satureja thymbra",
+ "name_ko": "타임잎세이보리",
+ "names": [
+  "타임잎세이보리잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Thyme-leaved savory"
+ ],
+ "scnm_full": [
+  "Satureja thymbra L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758140,
+ "genus": "Satureja",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 53,
+ "candidates": [
+  {
+   "compound": "Npc301181",
+   "compound_ko": null,
+   "pubchem_cid": 6432367,
+   "part": "Shoot",
+   "content": "최대 370 ppm",
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 370 ppm",
+   "n_genera": 3
+  },
+  {
+   "compound": "cis-Thujanol",
+   "compound_ko": null,
+   "pubchem_cid": 3034320,
+   "part": "Shoot",
+   "content": "최대 110 ppm",
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 110 ppm",
+   "n_genera": 6
+  },
+  {
+   "compound": "gamma-Gurjunene",
+   "compound_ko": "감마-구르주넨",
+   "pubchem_cid": 15560285,
+   "part": "Shoot",
+   "content": "최대 37 ppm",
+   "rationale": "이 성분이 보고된 생물은 22개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 37 ppm",
+   "n_genera": 22
+  },
+  {
+   "compound": "(+-)-cis-Pinane",
+   "compound_ko": null,
+   "pubchem_cid": 6429433,
+   "part": "Shoot",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Carvacryl methyl ether",
+   "compound_ko": "카르바크릴 메틸 에테르",
+   "pubchem_cid": 80790,
+   "part": "Shoot",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 20
+  }
+ ],
+ "priority": 4.732
+}

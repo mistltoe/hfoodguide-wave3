@@ -1,0 +1,80 @@
+{
+ "key": "Astragalus sinicus",
+ "name_ko": "자운영",
+ "names": [
+  "자운영순"
+ ],
+ "nicknames": [
+  "야화생"
+ ],
+ "eng": [
+  "Chinese Milkvetch"
+ ],
+ "scnm_full": [
+  "Astragalus sinicus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14748300,
+ "genus": "Astragalus",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 13,
+ "candidates": [
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4S,4aR,6aR,6bS,8aR,9R,12aS,14aR,14bS)-9-hydroxy-4-(hydroxymethyl)-4,6a,6b,8a,11,11,14b-heptamethyl-14-oxo-2,3,4a,5,6,7,8,9,10,12,12a,14a-dodecahydro-1H-picen-3-yl]oxy]-5-[(2S,3R,4S,5R)-4,5-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-3,4-dihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101638316,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4S,4aS,6aR,6bS,8aR,9R,12aR,14aS,14bR)-9-hydroxy-4-(hydroxymethyl)-4,6a,6b,8a,11,11,14b-heptamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163073405,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4S,4aS,6aR,6bS,8aR,9R,12aR,14aS,14bR)-9-hydroxy-4-(hydroxymethyl)-4,6a,6b,8a,11,11,14b-heptamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-5-[(2R,3S,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-3,4-dihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163027411,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Amino-4-(aminooxy)butanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 4391006,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Hydroxyaspartic acid",
+   "compound_ko": null,
+   "pubchem_cid": 5425,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.146
+}

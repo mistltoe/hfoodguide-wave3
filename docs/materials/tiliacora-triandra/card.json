@@ -1,0 +1,80 @@
+{
+ "key": "Tiliacora triandra",
+ "name_ko": "야낭",
+ "names": [
+  "야낭잎",
+  "야낭잎추출물",
+  "야낭주스"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Yanang"
+ ],
+ "scnm_full": [
+  "Tiliacora triandra"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14773474,
+ "genus": "Tiliacora",
+ "family": "Menispermaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 15,
+ "candidates": [
+  {
+   "compound": "(1S,14S)-9,20,25-trimethoxy-15-methyl-23-oxa-15,30-diazaheptacyclo[22.6.2.13,7.18,12.114,18.027,31.022,33]pentatriaconta-3(35),4,6,8,10,12(34),18,20,22(33),24,26,31-dodecaene-6,21-diol",
+   "compound_ko": null,
+   "pubchem_cid": 163010937,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(7S,8S,21S)-16,27-dimethoxy-7,22-dimethyl-7-oxido-29,31-dioxa-22-aza-7-azoniaoctacyclo[19.9.3.14,30.110,14.115,19.03,8.025,33.028,32]hexatriaconta-1(30),2,4(34),10(36),11,13,15,17,19(35),25,27,32-dodecaen-13-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163195497,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(8R,21R)-16,27-dimethoxy-7,22-dimethyl-29,31-dioxa-7,22-diazaoctacyclo[19.9.3.14,30.110,14.115,19.03,8.025,33.028,32]hexatriaconta-1(30),2,4(34),10(36),11,13,15,17,19(35),25,27,32-dodecaen-13-ol",
+   "compound_ko": null,
+   "pubchem_cid": 124511658,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(8R,21S)-13,27-dimethoxy-7,22-dimethyl-29,31-dioxa-7,22-diazaoctacyclo[19.9.3.14,30.110,14.115,19.03,8.025,33.028,32]hexatriaconta-1(30),2,4(34),10(36),11,13,15,17,19(35),25(33),26,28(32)-dodecaene-16,26-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162986615,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(8R,21S)-16,27-dimethoxy-22-methyl-29,31-dioxa-7,22-diazaoctacyclo[19.9.3.14,30.110,14.115,19.03,8.025,33.028,32]hexatriaconta-1(30),2,4(34),10(36),11,13,15,17,19(35),25(33),26,28(32)-dodecaene-13,26-diol",
+   "compound_ko": null,
+   "pubchem_cid": 163083141,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.704
+}

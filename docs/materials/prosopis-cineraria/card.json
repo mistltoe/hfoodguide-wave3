@@ -1,0 +1,78 @@
+{
+ "key": "Prosopis cineraria",
+ "name_ko": "Ghaf나무",
+ "names": [
+  "Ghaf나무껍질"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Jand, Jandi, Shum"
+ ],
+ "scnm_full": [
+  "Prosopis cineraria (L.) Druce / Prosopis spicigera L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "나무껍질"
+ ],
+ "conditions": [
+  "사용가능부위 : 나무껍질"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14757058,
+ "genus": "Prosopis",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 15,
+ "candidates": [
+  {
+   "compound": "12-[(2R,5S,6S)-5-hydroxy-6-methylpiperidin-2-yl]dodecanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101680810,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "12-[(2S,5R,6S)-5-hydroxy-6-methylpiperidin-2-yl]dodecanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162878983,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2',4'-Dihydroxy-5'-methoxy-3,4-methylen edioxychalcone",
+   "compound_ko": null,
+   "pubchem_cid": 74819197,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Prosogerin A",
+   "compound_ko": null,
+   "pubchem_cid": 44257586,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Prosogerin B",
+   "compound_ko": null,
+   "pubchem_cid": 42607554,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.204
+}

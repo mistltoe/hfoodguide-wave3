@@ -1,0 +1,28 @@
+{
+ "key": "Allomyrina dichotoma",
+ "name_ko": "장수풍뎅이유충",
+ "names": [
+  "장수풍뎅이유충"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Allomyrina dichotoma"
+ ],
+ "kind": "animal",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Allomyrina",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

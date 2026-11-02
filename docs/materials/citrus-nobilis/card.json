@@ -1,0 +1,78 @@
+{
+ "key": "Citrus nobilis",
+ "name_ko": "필리핀오렌지",
+ "names": [
+  "필리핀오렌지열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Dalandan"
+ ],
+ "scnm_full": [
+  "Citrus nobilis Lour."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749788,
+ "genus": "Citrus",
+ "family": "Rutaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 29,
+ "candidates": [
+  {
+   "compound": "1-(7-Hydroxy-5-methoxy-2,2-dimethylchromen-8-yl)-3-(4-hydroxyphenyl)prop-2-en-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 72732651,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Hydroxy-7-(1-hydroxyethylidene)-10,15,15-trimethyl-16-oxa-10-azatetracyclo[9.8.0.03,9.012,17]nonadeca-1,3(9),4,11,13,17-hexaene-6,8,19-trione",
+   "compound_ko": null,
+   "pubchem_cid": 136863024,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6-(4-Hydroxy-4-methylpent-2-enyl)-7-methoxychromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 162910199,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Citrunobin",
+   "compound_ko": null,
+   "pubchem_cid": 14542258,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Natsudaidain",
+   "compound_ko": null,
+   "pubchem_cid": 3084605,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.477
+}

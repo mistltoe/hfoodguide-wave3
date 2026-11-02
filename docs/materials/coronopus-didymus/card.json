@@ -1,0 +1,32 @@
+{
+ "key": "Coronopus didymus",
+ "name_ko": "냄새냉이",
+ "names": [
+  "냄새냉이잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Lesser Swinecress"
+ ],
+ "scnm_full": [
+  "Coronopus didymus (L.) Sm."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14750270,
+ "genus": "Coronopus",
+ "family": "Brassicaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

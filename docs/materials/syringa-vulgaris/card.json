@@ -1,0 +1,82 @@
+{
+ "key": "Syringa vulgaris",
+ "name_ko": "서양수수꽃다리",
+ "names": [
+  "서양수수꽃다리꽃"
+ ],
+ "nicknames": [
+  "라일락"
+ ],
+ "eng": [
+  "Lilac"
+ ],
+ "scnm_full": [
+  "Syringa vulgaris L. / Busbeckia lilac Hecart / Lilac coerulea Lunell"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759219,
+ "genus": "Syringa",
+ "family": "Oleaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 87,
+ "candidates": [
+  {
+   "compound": "(1S)-1-methyl-2,4-dihydro-1H-2,7-naphthyridin-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 101409962,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)ethyl (1R,4aS,8S,8aS)-1-methyl-3-oxo-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4,4a,8,8a-tetrahydro-1H-pyrano[3,4-c]pyran-5-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 21593827,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)ethyl (4S,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3S,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 162873754,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(4-hydroxyphenyl)ethyl (1R,4aS,8S,8aS)-1-methyl-3-oxo-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4,4a,8,8a-tetrahydro-1H-pyrano[3,4-c]pyran-5-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 21593826,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(4-hydroxyphenyl)ethyl (4S,5E,6S)-5-ethylidene-4-(2-methoxy-2-oxoethyl)-6-[(2S,3S,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",
+   "compound_ko": null,
+   "pubchem_cid": 162978206,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.944
+}

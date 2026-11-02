@@ -1,0 +1,45 @@
+{
+ "key": "Oncorhynchus masou",
+ "name_ko": "송어",
+ "names": [
+  "산천어",
+  "송어",
+  "송어살",
+  "송어알",
+  "송어이리추출물",
+  "훈제송어"
+ ],
+ "nicknames": [
+  "고들메기",
+  "반어",
+  "시마연어",
+  "열목어",
+  "쪼고리"
+ ],
+ "eng": [
+  "Cheery salmon, Trout",
+  "Cherry salmom"
+ ],
+ "scnm_full": [
+  "Oncorhynchus masou masou"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "과육",
+  "균핵",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 16339717,
+ "genus": "Oncorhynchus",
+ "family": "Salmonidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.211
+}

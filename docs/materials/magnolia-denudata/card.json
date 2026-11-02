@@ -1,0 +1,82 @@
+{
+ "key": "Magnolia denudata",
+ "name_ko": "백목련",
+ "names": [
+  "백목련꽃잎"
+ ],
+ "nicknames": [
+  "흰가지꽃나무"
+ ],
+ "eng": [
+  "Yulan"
+ ],
+ "scnm_full": [
+  "Magnolia denudata Desr. / Gwillimia yulan deVos / Lassonia heptapeta Buchoz"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14754716,
+ "genus": "Magnolia",
+ "family": "Magnoliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_EFSA_COMPENDIUM"
+ ],
+ "n_compounds": 165,
+ "candidates": [
+  {
+   "compound": "D-Trans-Nerolidol",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Bark, Bulb, Flower, Leaf, Twig",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "L-Linalol",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Bark, Bulb, Flower, Leaf, Twig",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 5건 보고(DUKE)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Denudatin A",
+   "compound_ko": null,
+   "pubchem_cid": 13336517,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Denudatin B",
+   "compound_ko": null,
+   "pubchem_cid": 442834,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Isoquinoline alkaloids",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "껍질(수피), 뿌리·지하부, 잎",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 3건 보고(EFSA)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 5.22
+}

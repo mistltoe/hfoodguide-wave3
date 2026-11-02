@@ -1,0 +1,78 @@
+{
+ "key": "Chimonanthus praecox",
+ "name_ko": "납매",
+ "names": [
+  "납매꽃"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Winter sweet"
+ ],
+ "scnm_full": [
+  "Chimonanthus praecox (L.) Link"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14771819,
+ "genus": "Chimonanthus",
+ "family": "Calycanthaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 31,
+ "candidates": [
+  {
+   "compound": "(+)-Calycanthidine",
+   "compound_ko": null,
+   "pubchem_cid": 442031,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(+)-Folicanthine",
+   "compound_ko": null,
+   "pubchem_cid": 16720248,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(-)-Calycanthidine",
+   "compound_ko": null,
+   "pubchem_cid": 16722158,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(-)-Folicanthine",
+   "compound_ko": null,
+   "pubchem_cid": 16722157,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,9R,13S,21R)-10,22-dimethyl-8,10,20,22-tetrazahexacyclo[11.11.0.01,21.02,7.09,13.014,19]tetracosa-2,4,6,14,16,18-hexaene",
+   "compound_ko": null,
+   "pubchem_cid": 102179239,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.505
+}

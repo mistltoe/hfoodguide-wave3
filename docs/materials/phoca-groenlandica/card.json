@@ -1,0 +1,35 @@
+{
+ "key": "Phoca groenlandica",
+ "name_ko": "하프물범",
+ "names": [
+  "하프물범(단, 하프물범신제외)",
+  "하프물범(단, 하프물범신제외)오일농축",
+  "하프물범(단, 하프물범신제외)유",
+  "하프물범(단, 하프물범신제외)추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Harp seal"
+ ],
+ "scnm_full": [
+  "Phoca groenlandica"
+ ],
+ "kind": "animal",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "단, 하프물범신제외"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": null,
+ "genus": "Phoca",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.983
+}

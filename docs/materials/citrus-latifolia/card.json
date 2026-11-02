@@ -1,0 +1,32 @@
+{
+ "key": "Citrus latifolia",
+ "name_ko": "타히티라임",
+ "names": [
+  "타히티라임열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Tahiti Lime"
+ ],
+ "scnm_full": [
+  "Citrus latifolia"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15273882,
+ "genus": "Citrus",
+ "family": "Rutaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

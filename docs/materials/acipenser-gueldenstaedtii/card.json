@@ -1,0 +1,33 @@
+{
+ "key": "Acipenser gueldenstaedtii",
+ "name_ko": "다뉴브철갑상어",
+ "names": [
+  "다뉴브철갑상어"
+ ],
+ "nicknames": [
+  "Danube sturgeon",
+  "러시안철갑상어"
+ ],
+ "eng": [
+  "Danube sturgeon"
+ ],
+ "scnm_full": [
+  "Acipenser gueldenstaedtii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14809148,
+ "genus": "Acipenser",
+ "family": "Acipenseridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

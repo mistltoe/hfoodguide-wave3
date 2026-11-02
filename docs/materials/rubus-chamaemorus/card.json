@@ -1,0 +1,82 @@
+{
+ "key": "Rubus chamaemorus",
+ "name_ko": "진들딸기",
+ "names": [
+  "진들딸기열매"
+ ],
+ "nicknames": [
+  "장지딸기"
+ ],
+ "eng": [
+  "Cloudberry, Baked-apple berry"
+ ],
+ "scnm_full": [
+  "Rubus chamaemorus L. / Chamaemorus norwegica Greene"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14757780,
+ "genus": "Rubus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 71,
+ "candidates": [
+  {
+   "compound": "(6S)-6-[(1E,3E,5E,7E,9E,11E,13E,15E,17E,19E)-3,7,12,16,20,24-hexamethylpentacosa-1,3,5,7,9,11,13,15,17,19,23-undecaenyl]-1,5,5-trimethylcyclohexene",
+   "compound_ko": null,
+   "pubchem_cid": 76960323,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Pelargonidin 3-(6''-succinyl-glucoside)",
+   "compound_ko": null,
+   "pubchem_cid": 101209468,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "pelargonidin 3-O-(6-O-malonyl-beta-D-glucoside)",
+   "compound_ko": null,
+   "pubchem_cid": 443913,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R)-3-[(S)-hydroxy-(4-hydroxy-3-methoxyphenyl)methyl]-4-[(4-hydroxy-3-methoxyphenyl)methyl]oxolan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 101392635,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "4-[(2R,3S)-2-ethyl-3-[hydroxy-(4-hydroxy-3-methoxyphenyl)methyl]pentyl]-2-methoxyphenol",
+   "compound_ko": null,
+   "pubchem_cid": 157009747,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  }
+ ],
+ "priority": 4.857
+}

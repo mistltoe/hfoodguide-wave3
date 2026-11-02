@@ -1,0 +1,35 @@
+{
+ "key": "Gnaphalium affine",
+ "name_ko": "떡쑥",
+ "names": [
+  "떡쑥잎"
+ ],
+ "nicknames": [
+  "솜쑥",
+  "흰떡쑥"
+ ],
+ "eng": [
+  "Cudweed"
+ ],
+ "scnm_full": [
+  "Gnaphalium affine D. Don / Gnaphalium luteoalbum subsp. affine (D.Don) H.Kost."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14752680,
+ "genus": "Gnaphalium",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

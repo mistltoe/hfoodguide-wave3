@@ -1,0 +1,32 @@
+{
+ "key": "Auricularia heimuer",
+ "name_ko": "흑목이",
+ "names": [
+  "흑목이"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Auricularia heimuer F. Wu, B.K. Cui & Y.C. Dai"
+ ],
+ "scnm_full": [
+  "Auricularia heimuer F. Wu, B.K. Cui & Y.C. Dai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15027948,
+ "genus": "Auricularia",
+ "family": "Auriculariaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

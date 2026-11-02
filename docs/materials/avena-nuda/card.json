@@ -1,0 +1,35 @@
+{
+ "key": "Avena nuda",
+ "name_ko": "큰쌀귀리",
+ "names": [
+  "큰쌀귀리씨앗"
+ ],
+ "nicknames": [
+  "귀리",
+  "쌀귀리"
+ ],
+ "eng": [
+  "Naked Oat"
+ ],
+ "scnm_full": [
+  "Avena nuda L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15034512,
+ "genus": "Avena",
+ "family": "Poaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

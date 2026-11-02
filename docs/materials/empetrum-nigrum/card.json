@@ -1,0 +1,83 @@
+{
+ "key": "Empetrum nigrum",
+ "name_ko": "시로미",
+ "names": [
+  "시로미열매"
+ ],
+ "nicknames": [
+  "암고란(岩高蘭)",
+  "조이(鳥李)"
+ ],
+ "eng": [
+  "Crowberry, Korean crowberry"
+ ],
+ "scnm_full": [
+  "Empetrum nigrum L. / Empetrum nigrum var. japonicum K.Koch / Empetrum albicarpha Sugaw. / Empetrum asiaticum Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763898,
+ "genus": "Empetrum",
+ "family": "Ericaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 41,
+ "candidates": [
+  {
+   "compound": "(4R,5S,8R,9S,10S,13R,14S,17R)-4,5,9,13,14-pentamethyl-17-[(2R)-6-methylhept-5-en-2-yl]-1,2,4,6,7,8,10,11,12,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 162962010,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1,2-Dimethoxy-5,6-dihydrobenzo[b][1]benzoxepin-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 127042593,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2'-Hydroxy-4'-methoxydihydrochalcone",
+   "compound_ko": null,
+   "pubchem_cid": 1214726,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2'-Methoxy-4'-hydroxydihydrochalcone",
+   "compound_ko": null,
+   "pubchem_cid": 42607666,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2,3-Dimethoxy-5,6-dihydrobenzo[b][1]benzoxepin-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 127040590,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.623
+}

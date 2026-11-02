@@ -1,0 +1,30 @@
+{
+ "key": "Coilia nasus",
+ "name_ko": "웅어",
+ "names": [
+  "웅어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Japanese grenadier anchovy"
+ ],
+ "scnm_full": [
+  "Coilia nasus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15302857,
+ "genus": "Coilia",
+ "family": "Engraulidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

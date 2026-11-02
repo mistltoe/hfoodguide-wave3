@@ -1,0 +1,35 @@
+{
+ "key": "Polygonum viviparum",
+ "name_ko": "씨범꼬리",
+ "names": [
+  "씨범꼬리잎"
+ ],
+ "nicknames": [
+  "무강범의꼬리",
+  "씨범꼬리풀"
+ ],
+ "eng": [
+  "Alpine bistort, Alpine knotweed"
+ ],
+ "scnm_full": [
+  "Polygonum viviparum L. / Bistorta vivipara (L.) Gray"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14756861,
+ "genus": "Polygonum",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

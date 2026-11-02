@@ -1,0 +1,34 @@
+{
+ "key": "Tuber magnatum",
+ "name_ko": "흰서양송로",
+ "names": [
+  "흰서양송로자실체"
+ ],
+ "nicknames": [
+  "송로버섯"
+ ],
+ "eng": [
+  "White Truffles, Bianco Truffles"
+ ],
+ "scnm_full": [
+  "Tuber magnatum Pico"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17099160,
+ "genus": "Tuber",
+ "family": "Tuberaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

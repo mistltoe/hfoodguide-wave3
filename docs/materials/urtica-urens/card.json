@@ -1,0 +1,36 @@
+{
+ "key": "Urtica urens",
+ "name_ko": "서양",
+ "names": [
+  "서양잎"
+ ],
+ "nicknames": [
+  "쐐기풀"
+ ],
+ "eng": [
+  "Annual nettle"
+ ],
+ "scnm_full": [
+  "Urtica urens / Cuscuta japonica var. thyroidea Engelm. / Cuscuta japonica var. thyroidea Kom."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 잎"
+ ],
+ "status": "restricted",
+ "n_rows": 1,
+ "bioresource_id": 14759969,
+ "genus": "Urtica",
+ "family": "Urticaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 2,
+ "candidates": [],
+ "priority": 2.477
+}

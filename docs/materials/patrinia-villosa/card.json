@@ -1,0 +1,80 @@
+{
+ "key": "Patrinia villosa",
+ "name_ko": "뚝갈",
+ "names": [
+  "뚝갈잎"
+ ],
+ "nicknames": [
+  "뚜갈"
+ ],
+ "eng": [
+  "White-flower golden lace"
+ ],
+ "scnm_full": [
+  "Patrinia villosa (Thunb.) JUSS. / Fedia villosa (Thunb.) Vahl"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14755993,
+ "genus": "Patrinia",
+ "family": "Valerianaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 30,
+ "candidates": [
+  {
+   "compound": "(4S,4aR,7S,7aR)-7-methyl-4-[[(2R,3S,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-4,4a,5,6,7,7a-hexahydro-3H-cyclopenta[c]pyran-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162999820,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(S)-(-)-5-Hydroxymethyl-2(5H)-furanone",
+   "compound_ko": null,
+   "pubchem_cid": 10176122,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Decenal, (2Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 5354834,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Moretenone",
+   "compound_ko": null,
+   "pubchem_cid": 604937,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Villosolside",
+   "compound_ko": null,
+   "pubchem_cid": 156599111,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.491
+}

@@ -1,0 +1,40 @@
+{
+ "key": "Tenualosa ilisha",
+ "name_ko": "힐사이리사",
+ "names": [
+  "힐사이리사"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Hilsa shad"
+ ],
+ "scnm_full": [
+  "Tenualosa ilisha"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14787915,
+ "genus": "Tenualosa",
+ "family": "Clupeidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Chethoxyrol",
+   "compound_ko": null,
+   "pubchem_cid": 185808,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.301
+}

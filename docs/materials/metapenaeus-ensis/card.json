@@ -1,0 +1,30 @@
+{
+ "key": "Metapenaeus ensis",
+ "name_ko": "곧은뿔중하",
+ "names": [
+  "곧은뿔중하"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Greasyback shrimp, Sand shrimp"
+ ],
+ "scnm_full": [
+  "Metapenaeus ensis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16156038,
+ "genus": "Metapenaeus",
+ "family": "Penaeidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

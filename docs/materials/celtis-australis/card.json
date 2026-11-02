@@ -1,0 +1,80 @@
+{
+ "key": "Celtis australis",
+ "name_ko": "남팽나무",
+ "names": [
+  "남팽나무열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Nettle tree, Mediterranean hackberry"
+ ],
+ "scnm_full": [
+  "Celtis australis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749382,
+ "genus": "Celtis",
+ "family": "Ulmaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "(1E,4E)-5-[(3S)-3-(hydroxymethyl)-5-[(E)-3-hydroxyprop-1-enyl]-4-methoxy-2,3-dihydro-1-benzofuran-6-yl]penta-1,4-diene-1-sulfonic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163185277,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4R,5R)-2-[(1R)-1,2-dihydroxyethyl]-5-[[(1R,5R,10R,13R,14S,17R,19S,22R)-7,7,10,13,14,18,18-heptamethyl-19-hexacyclo[12.9.0.01,22.04,13.05,10.017,22]tricos-3-enyl]oxy]oxolane-3,4-diol",
+   "compound_ko": null,
+   "pubchem_cid": 101781620,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[[(1S,3R,6S,8R,11R,12S,15R,16R)-12-hydroxy-16-methyl-15-[(2R)-pentan-2-yl]-6-pentacyclo[9.7.0.01,3.03,8.012,16]octadecanyl]oxy]oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163194889,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R,5S)-5-[(1R,4R,5S,8R,9S,12R,13S,16S,21R)-5,12,13,17,17-pentamethyl-8-hexacyclo[11.9.0.01,21.04,12.05,9.016,21]docosanyl]hexan-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 101781619,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(5R)-5-[(3R,3aS,5aR,5bR,7aR,9S,11aR,11bR,13aR,13bS)-9-hydroxy-5a,5b,8,8,11a,13b-hexamethyl-1,2,3,3a,4,5,6,7,7a,9,10,11,11b,12,13,13a-hexadecahydrocyclopenta[a]chrysen-3-yl]hexan-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 101781618,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.041
+}

@@ -1,0 +1,33 @@
+{
+ "key": "Penaeus japonicus",
+ "name_ko": "보리새우",
+ "names": [
+  "건보리새우",
+  "건보리새우분해농축액",
+  "보리새우"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Kuruma prawn, Kuruma shrimp"
+ ],
+ "scnm_full": [
+  "Penaeus japonicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "전체"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14790186,
+ "genus": "Penaeus",
+ "family": "Penaeidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [],
+ "priority": 5.602
+}

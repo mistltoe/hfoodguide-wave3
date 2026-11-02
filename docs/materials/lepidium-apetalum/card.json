@@ -1,0 +1,60 @@
+{
+ "key": "Lepidium apetalum",
+ "name_ko": "다닥냉이",
+ "names": [
+  "다닥냉이순"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pepperweed, Peppergrass"
+ ],
+ "scnm_full": [
+  "Lepidium apetalum Willd. / Lepidium micranthum Ledeb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14754154,
+ "genus": "Lepidium",
+ "family": "Brassicaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "3-[(3R,5R,8R,9S,10S,13R,14S,17R)-14-hydroxy-10,13-dimethyl-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 162973898,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Evomonoside",
+   "compound_ko": null,
+   "pubchem_cid": 12308635,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Benzyl Isothiocyanate",
+   "compound_ko": "벤질 이소티오시아네이트",
+   "pubchem_cid": 2346,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 14
+  }
+ ],
+ "priority": 3.602
+}

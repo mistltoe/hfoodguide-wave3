@@ -1,0 +1,60 @@
+{
+ "key": "Chrysophyllum cainito",
+ "name_ko": "스타애플",
+ "names": [
+  "스타애플열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Star apple, Canito, Camito, bubby water"
+ ],
+ "scnm_full": [
+  "Chrysophyllum cainito L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749632,
+ "genus": "Chrysophyllum",
+ "family": "Sapotaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 33,
+ "candidates": [
+  {
+   "compound": "(alphaR)-alpha-((6-O-beta-D-Xylopyranosyl-beta-D-glucopyranosyl)oxy)benzeneacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 184959,
+   "part": "Seed",
+   "content": "최대 12000 ppm",
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 12000 ppm",
+   "n_genera": 3
+  },
+  {
+   "compound": "Lysin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Fruit",
+   "content": "최대 670 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 670 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Pouterin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Seed",
+   "content": "최대 37 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 37 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.531
+}

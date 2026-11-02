@@ -1,0 +1,78 @@
+{
+ "key": "Stellaria media",
+ "name_ko": "별꽃",
+ "names": [
+  "별꽃순"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Chickweed, Common chickweed"
+ ],
+ "scnm_full": [
+  "Stellaria media (L.) Vill. / Alsine media L. / Stellaria media var. minor Makino"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758988,
+ "genus": "Stellaria",
+ "family": "Caryophyllaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 177,
+ "candidates": [
+  {
+   "compound": "5-Acetoxydotetracont-3-en-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162917953,
+   "part": "Shoot",
+   "content": "최대 14 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 14 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Saccharopine",
+   "compound_ko": "사카로핀",
+   "pubchem_cid": 160556,
+   "part": "Shoot",
+   "content": "최대 2.4 ppm",
+   "rationale": "이 성분이 보고된 생물은 16개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 2.4 ppm",
+   "n_genera": 16
+  },
+  {
+   "compound": "Alpha-Aminoadipic Acid",
+   "compound_ko": "알파-아미노아디프산",
+   "pubchem_cid": 469,
+   "part": "Shoot",
+   "content": "최대 1.6 ppm",
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1.6 ppm",
+   "n_genera": 18
+  },
+  {
+   "compound": "Saponarin",
+   "compound_ko": "사포나린",
+   "pubchem_cid": 441381,
+   "part": "Shoot",
+   "content": "최대 1.5 ppm",
+   "rationale": "이 성분이 보고된 생물은 19개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1.5 ppm",
+   "n_genera": 19
+  },
+  {
+   "compound": "6-7-Dimethylheptacosane",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Shoot",
+   "content": "최대 20 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 20 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.25
+}

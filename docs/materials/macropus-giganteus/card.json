@@ -1,0 +1,32 @@
+{
+ "key": "Macropus giganteus",
+ "name_ko": "캥거루식용",
+ "names": [
+  "캥거루식용부산물",
+  "캥거루지육"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Macropus giganteus / Macropus rufus / Macropus fuliginosus / Macropus robustus / Macropus rufogriseus rufogriseus"
+ ],
+ "kind": "animal",
+ "parts": [
+  "꽃꿀",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 지육(꼬리포함)"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 16081270,
+ "genus": "Macropus",
+ "family": "Macropodidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

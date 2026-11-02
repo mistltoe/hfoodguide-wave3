@@ -1,0 +1,39 @@
+{
+ "key": "Clupea pallasii",
+ "name_ko": "청어",
+ "names": [
+  "건조청어알",
+  "염장청어알",
+  "청어",
+  "청어살",
+  "청어알",
+  "청어유",
+  "청어추출물",
+  "청어훈제분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pacific herring"
+ ],
+ "scnm_full": [
+  "Clupea pallasii"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "균핵",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 8,
+ "bioresource_id": 15290508,
+ "genus": "Clupea",
+ "family": "Clupeidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.255
+}

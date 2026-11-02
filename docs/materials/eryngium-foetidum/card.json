@@ -1,0 +1,82 @@
+{
+ "key": "Eryngium foetidum",
+ "name_ko": "쿨란트로",
+ "names": [
+  "쿨란트로잎",
+  "쿨란트로줄기"
+ ],
+ "nicknames": [
+  "스팅크위드(Stinkweed)"
+ ],
+ "eng": [
+  "Stinkweed, Culantro, Bhandhanya, Chardon benit"
+ ],
+ "scnm_full": [
+  "Eryngium foetidum L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎",
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14751679,
+ "genus": "Eryngium",
+ "family": "Apiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 66,
+ "candidates": [
+  {
+   "compound": "Carotol",
+   "compound_ko": "카로톨",
+   "pubchem_cid": 442347,
+   "part": "Leaf Essent. Oil, Seed Essent. Oil",
+   "content": "최대 190000 ppm",
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS), 최대 190000 ppm",
+   "n_genera": 11
+  },
+  {
+   "compound": "2,4,5-Trimethylbenzaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 22013,
+   "part": "Leaf Essent. Oil, Plant",
+   "content": "최대 210000 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE), 최대 210000 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-Dodecenoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 96204,
+   "part": "Essential Oil",
+   "content": "최대 160000 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 160000 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "4'-Hydroxy-3',5'-dimethylacetophenone",
+   "compound_ko": null,
+   "pubchem_cid": 36581,
+   "part": "Plant",
+   "content": "최대 100 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 100 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,4-Dimethylbenzoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 12073,
+   "part": "Plant",
+   "content": "최대 20 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 20 ppm",
+   "n_genera": 2
+  }
+ ],
+ "priority": 6.204
+}

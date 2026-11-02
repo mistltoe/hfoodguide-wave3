@@ -1,0 +1,81 @@
+{
+ "key": "Rumex japonicus",
+ "name_ko": "참소리쟁이",
+ "names": [
+  "참소리쟁이잎"
+ ],
+ "nicknames": [
+  "소리쟁이",
+  "참송구지"
+ ],
+ "eng": [
+  "Northeast Asian curly dock"
+ ],
+ "scnm_full": [
+  "Rumex japonicus Houtt. / Rumex crispus subsp. japonicus (Houtt.) Kitam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14757833,
+ "genus": "Rumex",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 26,
+ "candidates": [
+  {
+   "compound": "(10R)-1,3,8,10-tetrahydroxy-6-methyl-10-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]anthracen-9-one",
+   "compound_ko": null,
+   "pubchem_cid": 162870638,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4aS,6aR,6aS,6bR,8aR,10S,11R,12aR,14bS)-1,10,11-trihydroxy-1,2,6a,6b,12a-pentamethyl-9-methylidene-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 11705538,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,4aS,6aR,6aS,6bR,8aR,9R,10R,11R,12aR,14bS)-1,10,11-trihydroxy-1,2,6a,6b,12a-pentamethylspiro[2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-9,2'-oxirane]-4a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 11526005,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Acetyl-2-methyl-1,4,5-trihydroxy-2,3-epoxynaphthoquinol",
+   "compound_ko": null,
+   "pubchem_cid": 101437332,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Rumejaposide A",
+   "compound_ko": null,
+   "pubchem_cid": 101437334,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.431
+}

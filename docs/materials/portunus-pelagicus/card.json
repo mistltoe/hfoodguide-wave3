@@ -1,0 +1,30 @@
+{
+ "key": "Portunus pelagicus",
+ "name_ko": "청색꽃게",
+ "names": [
+  "청색꽃게"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Blue swimming crab"
+ ],
+ "scnm_full": [
+  "Portunus pelagicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16609077,
+ "genus": "Portunus",
+ "family": "Portunidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

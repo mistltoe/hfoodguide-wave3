@@ -1,0 +1,76 @@
+{
+ "key": "Lyophyllum decastes",
+ "name_ko": "잿빛만가닥버섯",
+ "names": [
+  "잿빛만가닥버섯"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Lyophyllum decastes (Fr. ex Fr.) Sing / Tricholoma aggregatum Gill."
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762373,
+ "genus": "Lyophyllum",
+ "family": "Lyophyllaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 8,
+ "candidates": [
+  {
+   "compound": "(7aR,9S,11aS,11bS)-3,3,8,8,11a-pentamethyl-1,5,7,7a,9,10,11,11b-octahydrobenzo[g][2,4]benzodioxepin-9-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162949999,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Keto-drimenol",
+   "compound_ko": null,
+   "pubchem_cid": 42604493,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(1S,4aR,6S,8aS)-6-hydroxy-2,5,5,8a-tetramethyl-1,4,4a,6,7,8-hexahydronaphthalen-1-yl]methyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 12164031,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,4aS,5S,8aR)-5-(hydroxymethyl)-1,1,4a,6-tetramethyl-2,3,4,5,8,8a-hexahydronaphthalen-2-ol",
+   "compound_ko": null,
+   "pubchem_cid": 14433089,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Drimendiol",
+   "compound_ko": null,
+   "pubchem_cid": 11064467,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 3.954
+}

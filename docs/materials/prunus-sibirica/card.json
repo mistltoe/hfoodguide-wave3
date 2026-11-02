@@ -1,0 +1,66 @@
+{
+ "key": "Prunus sibirica",
+ "name_ko": "시베리아살구",
+ "names": [
+  "시베리아살구열매"
+ ],
+ "nicknames": [
+  "개살구",
+  "북산살구나무",
+  "시베리아살구나무"
+ ],
+ "eng": [
+  "Siberian cherry"
+ ],
+ "scnm_full": [
+  "Prunus sibirica L. / Armeniaca sibirica Lam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매(씨앗 제외)"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14777638,
+ "genus": "Prunus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "CN_MFH"
+ ],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "2-Phenyl-2-(3,4,5-Trihydroxy-6-((3,4,5-Trihydroxy-6-(Hydroxymethyl)Oxan-2-Yl)Oxymethyl)Oxan-2-Yl)Oxyacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 2180,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "5-Hydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadec-12-ene-9-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 12310158,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "5,12-Dihydroxy-11-methyl-6-methylidene-16-oxo-15-oxapentacyclo[9.3.2.15,8.01,10.02,8]heptadecane-9-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 3509874,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 20
+  }
+ ],
+ "priority": 3.602
+}

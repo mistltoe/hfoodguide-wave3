@@ -1,0 +1,53 @@
+{
+ "key": "Auricularia polytricha",
+ "name_ko": "털목이버섯",
+ "names": [
+  "털목이버섯"
+ ],
+ "nicknames": [
+  "털목이"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Auricularia polytricha Sacc. / Auricularia nigricans (Sw.) Birkebak"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14761040,
+ "genus": "Auricularia",
+ "family": "Auriculariaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "9-Hydroxycerevisterol",
+   "compound_ko": null,
+   "pubchem_cid": 637203,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "(3S,5R,6R,10R,13R,17R)-6-methoxy-10,13-dimethyl-17-[(E,1R)-1,4,5-trimethylhex-2-enyl]-1,2,3,4,6,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthrene-3,5-diol",
+   "compound_ko": null,
+   "pubchem_cid": 6475146,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 15개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 15
+  }
+ ],
+ "priority": 3.602
+}

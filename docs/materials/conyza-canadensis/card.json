@@ -1,0 +1,85 @@
+{
+ "key": "Conyza canadensis",
+ "name_ko": "망초",
+ "names": [
+  "망초",
+  "망초순",
+  "망초잎"
+ ],
+ "nicknames": [
+  "망풀",
+  "큰망초"
+ ],
+ "eng": [
+  "Horse-weed, Canadian Fleabane"
+ ],
+ "scnm_full": [
+  "Conyza canadensis (L.) Cronquist / Erigeron canadensis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14750162,
+ "genus": "Conyza",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 47,
+ "candidates": [
+  {
+   "compound": "Matricaria-Methyl-Ester",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": "최대 1200 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1200 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Dl-Terpineol",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": "최대 673 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 673 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "Terpinyl-Acetate",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": "최대 238 ppm",
+   "rationale": "이 성분이 보고된 생물은 10개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 238 ppm",
+   "n_genera": 10
+  },
+  {
+   "compound": "(2S)-5-hydroxy-8-[2-hydroxy-5-[(2S)-5-hydroxy-7-methoxy-4-oxo-2,3-dihydrochromen-2-yl]phenyl]-2-(4-hydroxyphenyl)-7-methoxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 10325701,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(4Z)-Lachnophyllum Lactone",
+   "compound_ko": null,
+   "pubchem_cid": 5380634,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 7.181
+}

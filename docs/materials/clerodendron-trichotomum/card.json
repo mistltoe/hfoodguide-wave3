@@ -1,0 +1,36 @@
+{
+ "key": "Clerodendron trichotomum",
+ "name_ko": "누리장나무",
+ "names": [
+  "누리장나무순",
+  "누리장나무잎"
+ ],
+ "nicknames": [
+  "개똥나무"
+ ],
+ "eng": [
+  "Glory bower, Harlequin glorybower"
+ ],
+ "scnm_full": [
+  "Clerodendron trichotomum Thumb. / Clerodendrum fargesii Dode"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Clerodendron",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

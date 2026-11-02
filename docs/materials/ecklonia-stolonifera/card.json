@@ -1,0 +1,79 @@
+{
+ "key": "Ecklonia stolonifera",
+ "name_ko": "곰피",
+ "names": [
+  "곰피",
+  "곰피추출물분말",
+  "곰피추출액"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Ecklonia stolonifera"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14770721,
+ "genus": "Ecklonia",
+ "family": "Lessoniaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 13,
+ "candidates": [
+  {
+   "compound": "(1R,2S,8Z,11Z,14Z,16S,17R,19S)-2-ethyl-3,18-dioxatricyclo[14.4.0.017,19]icosa-8,11,14-trien-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 10313698,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2S,9Z,12Z,14R,15R,17S)-2-ethyl-3,16-dioxatricyclo[12.4.0.015,17]octadeca-9,12-dien-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 162886280,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,12Z,14R,15S,16S)-2-ethyl-15,16-dihydroxy-3-oxabicyclo[12.3.0]heptadec-12-en-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163186621,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,8Z,11Z,14Z,16R,17S,18S)-2-ethyl-17,18-dihydroxy-3-oxabicyclo[14.3.0]nonadeca-8,11,14-trien-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 162984819,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,9Z,12Z,14R,15S,16S)-2-ethyl-15,16-dihydroxy-3-oxabicyclo[12.3.0]heptadeca-9,12-dien-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 162878547,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.146
+}

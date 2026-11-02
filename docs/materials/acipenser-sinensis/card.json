@@ -1,0 +1,37 @@
+{
+ "key": "Acipenser sinensis",
+ "name_ko": "철갑상어",
+ "names": [
+  "철갑상어",
+  "철갑상어알",
+  "철갑상어알엑기스",
+  "철갑상어알추출액",
+  "철갑상어추출물"
+ ],
+ "nicknames": [
+  "줄철갑상어"
+ ],
+ "eng": [
+  "Chinese sturgeon"
+ ],
+ "scnm_full": [
+  "Acipenser sinensis / Acipenser naccarii / Acipenser transmontanus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "균핵"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14809157,
+ "genus": "Acipenser",
+ "family": "Acipenseridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.877
+}

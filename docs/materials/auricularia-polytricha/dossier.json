@@ -1,0 +1,584 @@
+{
+ "slug": "auricularia-polytricha",
+ "name_ko": "털목이버섯",
+ "name_en": "Hairy wood ear",
+ "scientific_name": "Auricularia polytricha (Mont.) Sacc.",
+ "aliases": [
+  "털목이",
+  "Auricularia nigricans",
+  "Exidia polytricha",
+  "Peziza nigricans"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "털목이버섯은 목이목(Auriculariales) 목이과(Auriculariaceae) 목이속(Auricularia)에 속하는 담자균류이다[2, 4]. 식품의약품안전처 「식품원료 목록」에는 원료명 '털목이버섯'(다른 이름 '털목이')으로 올라 있으며, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 자실체'이다[1]. 같은 목록의 학명 칸에는 Auricularia polytricha와 Auricularia nigricans가 함께 적혀 있다[1]. GBIF 분류체계에서는 A. polytricha (Mont.) Sacc.를 A. nigricans의 이명으로 처리한다[2, 3]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 고시된 지표성분과 기준은 확인하지 못함.\n\n연구는 주로 자실체 다당체와 지질 성분(에르고스테롤·지방산)에 모여 있다[9, 10, 11]. 2021년 목이속 분류 정리 연구는 중국 남부에서 '마오무얼(Maomuer)'로 재배되며 100년 넘게 A. polytricha로 불린 버섯이 실제로는 A. cornea라고 보았다[5]. 그래서 이 문서는 'A. polytricha' 이름으로 보고된 자료만 쓰고 시료의 산지를 함께 적으며, 다른 종 이름으로 보고된 자료는 섞지 않는다[5]."
+  },
+  {
+   "key": "history",
+   "title": "이름의 역사",
+   "body": "이 종의 가장 오래된 이름은 1806년 서인도 식물지에 실린 Peziza nigricans이고, Exidia polytricha는 1834년에 발표되었다[5]. Exidia polytricha는 1885년 목이속으로 옮겨져 Auricularia polytricha (Mont.) Sacc.가 되었다[2, 4]. 2013년 「North American Fungi」에 실린 연구가 두 이름이 같은 종을 가리킨다는 것을 밝히고, 먼저 발표된 nigricans에 우선권을 주어 A. nigricans라는 새 조합을 발표했다[3, 5].\n\n아시아에서는 중국에서 재배되는 '마오무얼'을 A. polytricha로 보고한 이래 2015년 무렵까지 중국의 거의 모든 보고가 이 이름을 썼다[5]. 2021년 분류 연구는 흰 자실체를 근거로 1991년 기재된 A. polytricha var. argentea와 아시아에서 기재된 A. leucochroma를 A. cornea의 이명으로 보았다[5]. 반면 GBIF 분류체계는 A. leucochroma를 A. nigricans의 이명 목록에 두고 있어 출처끼리 처리가 다르다[3].\n\n국내에서는 1986년 한국균학회지에 '털목이'라는 이름으로 독성 성분 연구가 실렸고, 2016년에는 전라남도농업기술원이 육성한 털목이 품종 '건이'가 보고되었다[20, 22]."
+  },
+  {
+   "key": "biology",
+   "title": "균학적 특징",
+   "body": "2021년 분류 연구가 정리한 A. nigricans의 자실체는 물을 머금으면 젤라틴질이고 적갈색~주황갈색이며, 홀로 또는 뭉쳐 나고 자루가 없거나 짧다[5]. 갓은 컵 또는 귀 모양으로 최대 6 cm 정도 돋아나고 두께는 1–3 mm(마르면 0.36–0.4 mm)이다[5]. 윗면은 대개 빽빽하고 거친 털로 덮여 마르면 포도주빛 회색이 되며, 아랫면(자실층)은 대개 주름 없이 매끈하다[5].\n\n단면에는 털 쪽 가까이에 뚜렷한 수층(medulla)이 있고, 털은 무색·두꺼운 벽으로 길이 300–600 µm, 굵기 7–9 µm이다[5]. 담자기는 곤봉 모양으로 가로 격벽이 3개이고 50–60 × 4–6 µm이며, 포자는 14.5–17 × 5–7 µm로 보고되었다[5]. 같은 연구는 이 종의 분포를 북아메리카로 적었다[5]. GBIF에는 5,045건의 기록이 있고 미국(884)·멕시코(827)·일본(583)·브라질(437)·한국(222) 순으로 많지만, 이는 분류 정리 전의 동정이 섞인 '기록된 곳'이다[3].\n\n나무를 분해하는 목재부후균으로, 재배 중 균사가 락케이스·셀룰레이스·폴리페놀산화효소를 분비해 배지의 리그노셀룰로스를 분해한다[8]. 자실체에서는 타이로시네이스 유전자 발현이 높아 멜라닌이 쌓여 흑갈색을 띠는 것으로 해석되었다[15]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "2021년 분류 연구는 A. nigricans를 A. cornea 복합군에 넣었으며, 같은 복합군에는 A. cornea·A. camposii·A. eburnea·A. eminii·A. novozealandica가 있다[5]. A. nigricans는 형태가 다양한 A. cornea와 혼동되기 쉽지만 윗면 털이 더 거칠고, 계통상으로는 두 종이 멀리 떨어져 있다[5]. A. cornea의 털은 180–425 µm, A. camposii의 털은 120–250 µm로 A. nigricans(300–600 µm)보다 짧다[5].\n\n이 때문에 'A. polytricha' 이름으로 나온 논문의 시료가 실제 어느 종인지 주의해야 한다[5]. 2014년 'A. polytricha' 전사체 연구는 2019년 목이속 유전체 논문에서 A. cornea 전사체 연구로 인용되었다[6, 15]. 2019년 'A. polytricha' 미토콘드리아 유전체 논문은 시료가 실제로 그물버섯류(Suillus sp.)였다는 이유로 철회되었다[16].\n\n전사체 염기서열을 데이터베이스와 비교하면 가장 닮은 종으로 2014년 연구에서는 A. delicata(주석 EST의 94.03%), 2021년 연구에서는 A. subglabra(13,754개, 47.13%)가 나왔다[15, 7]. 식품원료 목록에는 같은 속의 다른 종도 따로 올라 있으므로 원료명과 학명을 함께 확인해야 한다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 병해",
+   "body": "국내 품종 '건이'는 전라남도농업기술원이 단포자 교잡으로 2012년 육성했고(2016년 품종 등록), 갓이 연갈색으로 매끈하며 씹힘성과 식이섬유 함량이 높다[22]. 0.9 kg 톱밥 봉지에서 유효경수 39개, 봉지당 수량 291 g이었고, 20 °C에서 배양기간 40–54일이 걸렸다[22].\n\n중국 쓰촨성에서는 2009년 봉지재배에서 '미끄러운 흉터병(slippery scar)'이 나타나 6월에는 감염률이 80%를 넘었고, 이 병을 재현한 병원성 시험에는 톱밥 78%·밀기울 20%·석회 1%·석고 1% 배지 봉지를 썼다[13]. 원인균은 처음 Scytalidium lignicola로 동정되었다가 2014년 새 종 S. auriculariicola로 기재되었다[13, 14]. 2021년 산둥 연구는 대규모 재배가 보통 4–10월에 이루어진다고 적었으며, 첫 수확기 자실체는 두께 2.4–3.2 mm로 셋째 수확기(1.5–2.3 mm)보다 두껍고 생체량이 5–6배였다[7].\n\n톱밥 대신 농업 부산물을 쓰는 연구도 많다[8, 23, 24]. 중국 구이저우 연구에서 목화줄기 배지의 균사 생장은 하루 2.62 mm로 가장 빨랐고, 대만 연구에서는 볏짚 60% 배지의 생물학적 효율이 159.14%였다[8, 23]. 말레이시아에서는 고무나무 톱밥 봉지에서 평균 4번 수확해 생물학적 효율 80–82%를 얻었다[24]. 국내 털목이 생산 면적·생산량 공식 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "생 털목이에는 포르피린이 들어 있어 건조로 줄일 수 있다는 보고가 있으며, 그래서 소비자는 주로 말린 제품을 산다고 2018년 잔류농약 논문은 적었다[12]. 말린 버섯은 물에 불려 조리하는데, 불리기만으로 피레스로이드계 농약 잔류가 평균 60% 줄었고, 저자들은 햇볕 건조 후 0.5% 탄산수소나트륨 용액(50 °C)에 90분 불리기를 권했다[12].\n\n국내 비교 연구에서 털목이를 포함한 목이류 3품종의 식이섬유는 모두 약 60%였고, 총 폴리페놀은 털목이가 가장 높았다[21]. 중국 쓰촨 청두산 자실체를 초음파로 물 추출한 다당체(ABPs)의 수율은 10.33%, 다당 함량은 90.79%였으며, 모의 소화(침·위·소장) 중에도 거의 분해되지 않았다[9]. 태국 연구진은 말린 자실체를 헥산·에탄올·물로 차례로 우려 추출물을 만들고 성분과 활성을 조사했다[10, 11].\n\n2025년 논문은 중국식용균협회 자료를 인용해 2022년 중국의 A. polytricha 생산량을 181.73만 t, 중국 재배 식용버섯 7위로 적었다[8]. 다만 중국 재배 '마오무얼'은 2021년 분류 연구에서 A. cornea로 재동정되었으므로 이 통계의 종 이름은 주의해서 읽어야 한다[5]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "2014년 균사체와 성숙 자실체의 전사체를 일루미나로 해독해 EST 36,483개(N50 636 bp)를 조립했고, 이 가운데 28,108개가 알려진 단백질과 일치했다[15]. 두 조직 사이에 발현이 다른 EST는 2,057개였고, SSR 표지 후보 1,715개를 찾았다[15]. 2021년 산둥성 시료 연구는 수확 시기 두 단계의 전사체에서 유니진 79,184개를 얻어 30,298개를 주석했으며, 자료를 NCBI(PRJNA760980)에 등록했다[7]. 2026년 연구는 주력 품종 'Zhang'er 4328'과 두꺼운 귀 돌연변이 'B2872'를 세 생육 단계에서 비교했다[19].\n\n중국 열대 지역 야생 균주 40개(10개 집단)와 재배 균주 5개를 ISSR로 분석한 결과, 종 전체의 Nei 유전 다양도는 0.2398이었고 재배 균주 집단이 0.0940으로 가장 낮았다[17]. 균주 19개를 ISSR·SRAP로 비교한 연구는 다형성 밴드 비율 99.0%·95.9%를 보고했다[18]. 국내 품종 '건이'는 RAPD 분석에서 모균주와 다른 양상을 보였다[22].\n\n2019년 발표된 'A. polytricha' 미토콘드리아 전체 유전체는 시료가 다른 버섯으로 밝혀져 철회되었다[16]. 'A. polytricha' 또는 A. nigricans 이름의 핵 유전체 해독 보고는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료로는 자실체만 쓸 수 있다[1]. 1986년 국내 연구는 말린 털목이 자실체의 물 추출물을 생쥐에 주어 급성 독성을 조사했고, 영문 초록은 반수치사량을 복강 투여 1.28 g/kg, 경구 투여 4.31 g/kg으로 적었다[20]. 같은 논문의 국문 초록은 1.25 g/kg과 4.18 g/kg으로 적어 값이 조금 다르며, 운동 저하·떨림·마비·호흡 억제 등의 증상과, 아세톤 침전·칼럼 크로마토그래피로 정제한 독성 분획을 보고했다[20].\n\n중국 재배 실험에서 피레스로이드 농약 5종을 뿌린 뒤 수확 시 자실체 잔류량은 펜프로파트린을 뺀 4종이 유럽연합·일본·중국의 해당 잔류허용기준을 넘었으나, 저장·건조·불리기를 거치면 가공계수가 모두 1보다 작아 잔류가 줄었다[12]. 이 논문은 생 털목이에 포르피린이 있어 건조로 줄일 수 있다는 선행 보고도 인용했다[12].\n\n2018년 '영지와 털목이가 카보퓨란 독성을 막는다'는 쥐 실험 논문은 2026년에 철회되었다[25]. 식약처 등 공공기관의 털목이 알레르기·잔류·독성 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Polysaccharide",
+   "name_ko": "자실체 다당체(ABPs, 이종다당)",
+   "class": "다당체",
+   "role": "marker",
+   "part": "자실체(중국 쓰촨 청두 재배)",
+   "content_text": "초음파 물 추출 수율 10.33 ± 0.02%, 추출물 중 총 다당 90.79 ± 0.71%(페놀-황산법), 단백질 1.67 ± 0.22%, 우론산 10.38 ± 1.13%[9]",
+   "activity_ko": "2.5 mg/mL에서 DPPH 라디칼 74.84% 소거(시험관), 모의 소화 중 거의 분해되지 않음[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "D-Glucose",
+   "name_ko": "포도당(다당 구성당)",
+   "class": "단당(다당 구성 단위)",
+   "role": "marker",
+   "part": "자실체 다당체",
+   "content_text": "자실체 다당체(ABPs) 단당 조성 40.6%(상대%, HPAEC-PAD)[9]",
+   "activity_ko": "다당체의 주 구성당[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "D-Mannose",
+   "name_ko": "만노스(다당 구성당)",
+   "class": "단당(다당 구성 단위)",
+   "role": "bioactive",
+   "part": "자실체 다당체",
+   "content_text": "자실체 다당체(ABPs) 단당 조성 24.88%(상대%)[9]",
+   "activity_ko": "균사체 다당(15.76%)보다 비율이 높음[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "D-Xylose",
+   "name_ko": "자일로스(다당 구성당)",
+   "class": "단당(다당 구성 단위)",
+   "role": "bioactive",
+   "part": "자실체 다당체",
+   "content_text": "자실체 다당체(ABPs) 단당 조성 17.88%(상대%), 균사체 다당에서는 검출되지 않음[9]",
+   "activity_ko": "자실체 다당과 균사체 다당을 구별하는 구성당[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "D-Glucuronic acid",
+   "name_ko": "글루쿠론산(다당 구성당)",
+   "class": "우론산",
+   "role": "bioactive",
+   "part": "자실체 다당체",
+   "content_text": "자실체 다당체(ABPs) 단당 조성 14.16%(상대%), 균사체 다당 2%[9]",
+   "activity_ko": "산성 다당의 성질을 주는 구성 성분[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Ergosterol",
+   "name_ko": "에르고스테롤",
+   "class": "스테롤",
+   "role": "marker",
+   "part": "자실체(태국 재배, 에탄올 추출물·헥산 추출물)",
+   "content_text": "에탄올 추출물(APE) 친유성 성분 1 g당 191.4 mg(GC/MS)[10]; 헥산 추출물에서 주요 화합물로 분리[11]",
+   "activity_ko": "HIV-1 단백분해효소 억제(시험관)[11]; 추출물의 신경세포 보호 활성에 관여할 후보 성분으로 제시[10]",
+   "source": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "지방산",
+   "role": "bioactive",
+   "part": "자실체(태국 재배)",
+   "content_text": "에탄올 추출물 친유성 성분 1 g당 262.3 mg(GC/MS)[10]; 헥산 추출물에서 분리[11]",
+   "activity_ko": "HIV-1 단백분해효소 억제(시험관)[11]",
+   "source": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "자실체(태국 재배)",
+   "content_text": "에탄올 추출물 친유성 성분 1 g당 105.5 mg(GC/MS)[10]",
+   "activity_ko": "추출물 지질 성분의 하나[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "cis-Vaccenic acid",
+   "name_ko": "시스-박센산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "자실체(태국 재배)",
+   "content_text": "에탄올 추출물 친유성 성분 1 g당 116.7 mg(GC/MS)[10]",
+   "activity_ko": "추출물 지질 성분의 하나[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "자실체(태국 재배)",
+   "content_text": "에탄올 추출물 친유성 성분 1 g당 98.4 mg(GC/MS)[10]",
+   "activity_ko": "추출물 지질 성분의 하나[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Triacylglycerol",
+   "name_ko": "트라이아실글리세롤(2종)",
+   "class": "지질",
+   "role": "bioactive",
+   "part": "자실체(태국 재배, 헥산 추출물)",
+   "content_text": "헥산 추출물의 주요 화합물 4종 가운데 2종으로 분리(함량 정량값 확인하지 못함)[11]",
+   "activity_ko": "HIV-1 단백분해효소 억제(시험관)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Cerevisterol",
+   "name_ko": "세레비스테롤",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "자실체 알코올·다이클로로메테인 추출물",
+   "content_text": "선행 연구에서 보고된 성분으로 인용(함량 확인하지 못함)[11]",
+   "activity_ko": "확인하지 못함[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Dietary fiber",
+   "name_ko": "식이섬유",
+   "class": "탄수화물",
+   "role": "nutrient",
+   "part": "자실체(국내 비교 품종)",
+   "content_text": "털목이를 포함한 목이류 3품종 모두 약 60%, 품종 간 유의차 없음[21]",
+   "activity_ko": "털목이 품종 '건이'는 식이섬유 함량이 높다고 보고[22]",
+   "source": [
+    21,
+    22
+   ]
+  },
+  {
+   "name": "Polyphenols",
+   "name_ko": "총 폴리페놀",
+   "class": "페놀류",
+   "role": "bioactive",
+   "part": "자실체(국내 비교 품종)",
+   "content_text": "목이류 3품종 가운데 털목이가 가장 높음(수치 확인하지 못함)[21]",
+   "activity_ko": "항산화 성분으로 비교됨[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "영양 성분",
+   "role": "nutrient",
+   "part": "자실체(중국 구이저우 상업 균주)",
+   "content_text": "톱밥 대조 배지 9.42 ± 0.08%, 농업 부산물 배지 최고 24.84 ± 0.06%(건조중량)[8]; 산둥 시료 총 아미노산 첫 수확기 11.51%, 셋째 수확기 10.74%[7]",
+   "activity_ko": "배지 조성과 수확 시기에 따라 달라짐[8, 7]",
+   "source": [
+    8,
+    7
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Polysaccharide monosaccharide composition",
+   "compound_ko": "자실체 다당체 구성당(포도당·만노스·자일로스·글루쿠론산·갈락토스)",
+   "part": "자실체(중국 쓰촨 청두 식용균 기지 재배, 건조·100메시 분말)",
+   "content": "ABPs 상대 조성 포도당 40.6%, 만노스 24.88%, 자일로스 17.88%, 글루쿠론산 14.16%, 갈락토스 1.58%[9]",
+   "method": "HPAEC-PAD(고성능 음이온교환 크로마토그래피-펄스 전류 검출)",
+   "conditions": {
+    "instrument": "ICS-5000(Dionex)",
+    "column": "CarboPac TMPA20(원문 표기), 3 mm × 150 mm",
+    "mobile_phase": "NaOH 250 mM",
+    "gradient": "",
+    "flow": "0.5 mL/min",
+    "temp": "",
+    "detection": "펄스 전류 검출기(pulsed amperometric detector)",
+    "injection": "",
+    "sample_prep": "80% 에탄올 80 °C 2시간 2회 환류로 저분자 제거 → 탈이온수 초음파 추출(450 W, 20분) → 트립신 제단백 → 95% 에탄올 4배 침전 → 동결건조. 다당 5 mg에 2 M TFA 1 mL, 121 °C 2시간 가수분해 → 물로 50 mL → 0.45 μm 여과",
+    "standard": "아라비노스·만노스·릭소스·포도당·람노스·자일로스·갈락토스 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "자실체 다당체가 이 버섯 연구의 중심 성분이며, 자실체 다당은 균사체 다당과 달리 자일로스를 포함하고 글루쿠론산 비율이 높아 둘을 구별하는 지표가 된다[9]. 검출·정량한계와 회수율은 원문에 없다[9].",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9945431/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Polysaccharide molecular weight",
+   "compound_ko": "자실체 다당체 분자량 분포",
+   "part": "자실체(중국 쓰촨 청두 식용균 기지 재배)",
+   "content": "ABPs 분획 1: 5.40 ± 0.09 × 10^6 Da(피크 면적 95.77%), 분획 3: 1.88 ± 0.21 × 10^3 Da(4.23%)[9]",
+   "method": "HPGFC(고성능 겔여과 크로마토그래피)-RI",
+   "conditions": {
+    "instrument": "Waters 1525 펌프, 2414 굴절률 검출기",
+    "column": "Ultrahydrogel Linear 300 mm × 7.8 mm, 2개",
+    "mobile_phase": "0.1 M 질산나트륨",
+    "gradient": "",
+    "flow": "0.9 mL/min",
+    "temp": "45 ℃(칼럼)",
+    "detection": "굴절률(RI)",
+    "injection": "",
+    "sample_prep": "이동상에 녹여 0.45 μm 막으로 여과",
+    "standard": "분자량 135,350·36,800·9,750·2,700·180 표준(머무름 시간 15.08·15.50·18.25·18.98·21.47분)",
+    "linearity": "y = -0.4851x + 12.758 (R2 = 0.9965)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "다당체의 생리활성은 분자량과 구성당에 좌우된다고 보아 자실체 다당과 균사체 다당의 분자량 분포를 비교했다[9].",
+   "source": [
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9945431/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ergosterol",
+   "compound_ko": "에르고스테롤(및 지방산)",
+   "part": "자실체(말린 자실체를 헥산→에탄올→물로 차례 침지한 에탄올 추출물 APE)",
+   "content": "APE 친유성 성분 1 g당 에르고스테롤 191.4 mg, 리놀레산 262.3 mg, 시스-박센산 116.7 mg, 팔미트산 105.5 mg, 스테아르산 98.4 mg[10]",
+   "method": "GC/MS(NIST 라이브러리 동정, 전체 친유성 성분 대비 환산)",
+   "conditions": {
+    "instrument": "Agilent GC/MS",
+    "column": "HP-PLOT Al2O3(원문 표기 AI203), 50.0 m × 320 µm × 8.00 µm (Agilent 19091P-M15)",
+    "mobile_phase": "운반 기체 He",
+    "gradient": "50 °C → 7 °C/min → 220 °C(2분) → 7 °C/min → 270 °C(5분) → 5 °C/min → 290 °C",
+    "flow": "He 1.5 mL/min",
+    "temp": "",
+    "detection": "질량분석(NIST MS search 2.0으로 동정)",
+    "injection": "분할비 15:1",
+    "sample_prep": "말린 자실체를 헥산·에탄올·물 순으로 침지 추출, 에탄올 추출물 사용",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "같은 연구진이 헥산 추출물에서 에르고스테롤·리놀레산 등을 분리해 HIV-1 단백분해효소 억제를 보였고, 에탄올 추출물의 신경세포 보호 활성 후보로 에르고스테롤을 제시했다[10, 11]. 표준품 검량이 아닌 라이브러리 동정·상대 환산 값이며 검출·정량한계와 회수율은 원문에 없다[10].",
+   "source": [
+    10,
+    11
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8539790/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "자실체(중국 구이저우대 보존 상업 균주 GUCCTM142, 잡목 톱밥(miscellaneous sawdust) 대조 배지, 60 °C 건조)",
+   "basis": "건조 자실체 기준",
+   "items": [
+    {
+     "name": "조지방",
+     "value": 5.55,
+     "unit": "%"
+    },
+    {
+     "name": "조단백질",
+     "value": 9.42,
+     "unit": "%"
+    },
+    {
+     "name": "총당",
+     "value": 7.95,
+     "unit": "%"
+    },
+    {
+     "name": "칼슘",
+     "value": 0.4557,
+     "unit": "%"
+    },
+    {
+     "name": "마그네슘",
+     "value": 0.2137,
+     "unit": "%"
+    },
+    {
+     "name": "철",
+     "value": 28.12,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "망가니즈",
+     "value": 29.46,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "구리",
+     "value": 3.47,
+     "unit": "mg/kg"
+    },
+    {
+     "name": "아연",
+     "value": 10.56,
+     "unit": "mg/kg"
+    }
+   ],
+   "source": [
+    8
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "중국",
+   "metric": "production_t",
+   "year": 2022,
+   "value": 1817300,
+   "unit": "t",
+   "note": "논문이 중국식용균협회 자료를 인용(181.73만 t, 중국 재배 식용버섯 7위). 중국 재배 '마오무얼'은 2021년 분류 연구에서 A. cornea로 재동정됨[5]",
+   "source": [
+    8,
+    5
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 털목이버섯(Auricularia polytricha / Auricularia nigricans)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "GBIF Backbone Taxonomy — Auricularia polytricha (Mont.) Sacc. (usageKey 5249293, 이명)",
+   "url": "https://api.gbif.org/v1/species/5249293",
+   "publisher": "GBIF",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "GBIF Backbone Taxonomy — Auricularia nigricans (usageKey 7351381) 및 이명·발생 기록",
+   "url": "https://api.gbif.org/v1/species/7351381",
+   "publisher": "GBIF",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "NCBI Taxonomy — Auricularia polytricha (taxid 29893)",
+   "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29893",
+   "publisher": "NCBI",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Global Diversity and Updated Phylogeny of Auricularia (Auriculariales, Basidiomycota). J Fungi 2021;7(11):933",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8625027/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Genomic Analyses Provide Insights Into the Evolutionary History and Genetic Diversity of Auricularia Species. Front Microbiol 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6786273/",
+   "publisher": "Frontiers (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Comparison of the Nutritional Properties and Transcriptome Profiling Between the Two Different Harvesting Periods of Auricularia polytricha. Front Nutr 2021;8:771757",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8576271/",
+   "publisher": "Frontiers (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Enhancing the Nutritional Value and Antioxidant Activity of Auricularia polytricha Through Efficient Utilization of Agricultural Waste. Int J Food Sci 2025:7257263",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12687564/",
+   "publisher": "Wiley (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Comparison of chemical property and in vitro digestion behavior of polysaccharides from Auricularia polytricha mycelium and fruit body. Food Chem X 2023",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9945431/",
+   "publisher": "Elsevier (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Neuroprotective Effects against Glutamate-Induced HT-22 Hippocampal Cell Damage and Caenorhabditis elegans Lifespan/Healthspan Enhancing Activity of Auricularia polytricha Mushroom Extracts. Pharmaceuticals 2021;14:1001",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8539790/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Anti-HIV-1 protease activity of the crude extracts and isolated compounds from Auricularia polytricha. BMC Complement Altern Med 2019",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6896332/",
+   "publisher": "BMC (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Dissipation and Migration of Pyrethroids in Auricularia polytricha Mont. from Cultivation to Postharvest Processing and Dietary Risk. Molecules 2018;23(4):791",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017079/",
+   "publisher": "MDPI (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Slippery Scar: A New Mushroom Disease in Auricularia polytricha. Mycobiology 2012;40(2):129",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3408303/",
+   "publisher": "한국균학회 (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "A new species of Scytalidium causing slippery scar on cultivated Auricularia polytricha in China. FEMS Microbiol Lett 2014;359(1):72-80 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25091557/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "De novo assembly of Auricularia polytricha transcriptome using Illumina sequencing for gene discovery and SSR marker identification. PLoS One 2014;9(3):e91740",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3953639/",
+   "publisher": "PLoS (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Retraction: Characterization of the complete mitochondrial genome of an important edible fungus Auricularia polytricha. Mitochondrial DNA B Resour",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7783054/",
+   "publisher": "Taylor & Francis (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "High genetic diversity in wild culinary-medicinal wood ear mushroom, Auricularia polytricha, in tropical China revealed by ISSR analysis. Int J Med Mushrooms 2011;13(3):289-97 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22135881/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Molecular diversity of Auricularia polytricha revealed by inter-simple sequence repeat and sequence-related amplified polymorphism markers. Curr Microbiol 2008;56(3):240-5 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18180993/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Comparative transcriptomics reveals stage-specific regulatory pathways of ear thickening in Auricularia polytricha. PLoS One 2026;21(9):e0358747 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42789504/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "한국산 고등균류의 성분연구(제54보) — 털목이의 독성 성분에 관한 연구. 한국균학회지 1986;14(4):265-271 (초록)",
+   "url": "https://koreascience.or.kr/article/JAKO198603040072193.page",
+   "publisher": "한국균학회 (KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "목이버섯 품종간 영양성분 비교. 한국버섯학회지 2012;10(1):29-36 (초록)",
+   "url": "https://koreascience.kr/article/JAKO201214364645459.page",
+   "publisher": "한국버섯학회 (KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "털목이 신품종 '건이'. 한국버섯학회지 2016;14(4):211-214 (초록)",
+   "url": "https://koreascience.kr/article/JAKO201610236161969.page",
+   "publisher": "한국버섯학회 (KoreaScience)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Effect of Different Proportions of Agrowaste on Cultivation Yield and Nutritional Composition of the Culinary-Medicinal Jelly Mushroom Auricularia polytricha. Int J Med Mushrooms 2017;19(4):377-385 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28605326/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Antioxidant Properties and Yield of Wood Ear Mushroom, Auricularia polytricha, Cultivated on Rubberwood Sawdust. Int J Med Mushrooms 2018;20(4):369-380 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29953397/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "RETRACTION: Ganoderma lucidum and Auricularia polytricha Mushrooms Protect against Carbofuran-Induced Toxicity in Rats. Evid Based Complement Alternat Med 2026",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42529440/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

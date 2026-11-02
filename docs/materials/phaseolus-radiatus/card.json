@@ -1,0 +1,38 @@
+{
+ "key": "Phaseolus radiatus",
+ "name_ko": "그린콩",
+ "names": [
+  "그린콩꼬투리",
+  "그린콩씨앗",
+  "그린콩퓌레"
+ ],
+ "nicknames": [
+  "깍지콩"
+ ],
+ "eng": [
+  "Green bean"
+ ],
+ "scnm_full": [
+  "Phaseolus radiatus L. var. aurea"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꼬투리",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 씨앗, 꼬투리"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": null,
+ "genus": "Phaseolus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.5
+}

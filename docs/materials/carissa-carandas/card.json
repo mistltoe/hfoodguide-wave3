@@ -1,0 +1,78 @@
+{
+ "key": "Carissa carandas",
+ "name_ko": "카란다",
+ "names": [
+  "카란다열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Sri Lankan Damson, Kala, Mahakaramba, Karanda"
+ ],
+ "scnm_full": [
+  "Carissa carandas L. / Carissa congesta Wight"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749199,
+ "genus": "Carissa",
+ "family": "Apocynaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "(2R,3R)-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butane-1,2,4-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162866333,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4R)-3,4-bis[(4-hydroxy-3-methoxyphenyl)methyl]oxolane-2,3-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162955217,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[[(1R,2S,3S)-7-hydroxy-1-(4-hydroxy-3,5-dimethoxyphenyl)-3,6,8-trimethoxy-1,2,3,4-tetrahydronaphthalen-2-yl]methoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162853185,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[[(1S,2R,3R)-7-hydroxy-1-(4-hydroxy-3,5-dimethoxyphenyl)-3,6,8-trimethoxy-1,2,3,4-tetrahydronaphthalen-2-yl]methoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162853184,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4aS,7S)-7-(2-hydroxypropan-2-yl)-1,4a-dimethyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-5,6,7,8-tetrahydronaphthalen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 44179851,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.041
+}

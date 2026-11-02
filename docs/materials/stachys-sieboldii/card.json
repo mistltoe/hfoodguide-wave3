@@ -1,0 +1,55 @@
+{
+ "key": "Stachys sieboldii",
+ "name_ko": "초석잠",
+ "names": [
+  "초석잠분말",
+  "초석잠뿌리",
+  "초석잠뿌리추출액",
+  "초석잠추출분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Chinese artichoke"
+ ],
+ "scnm_full": [
+  "Stachys sieboldii Miq."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "뿌리"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14758961,
+ "genus": "Stachys",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "Stachyose hydrate",
+   "compound_ko": null,
+   "pubchem_cid": 4287569,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Decaffeoyl-acteoside",
+   "compound_ko": null,
+   "pubchem_cid": 13889681,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 11
+  }
+ ],
+ "priority": 6.085
+}

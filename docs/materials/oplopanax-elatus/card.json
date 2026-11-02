@@ -1,0 +1,76 @@
+{
+ "key": "Oplopanax elatus",
+ "name_ko": "땃두릅나무",
+ "names": [
+  "땃두릅나무줄기추출물"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Oplopanax elatus Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "줄기"
+ ],
+ "conditions": [
+  "<제조조건>\n건조, 분쇄, 물 추출, 여과, 농축, 건조, 분쇄\n<사용조건>\n사용대상식품 100g 당 액상차 60mg 이하, \n고형차 60mg \n이하로 사용해야함"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763467,
+ "genus": "Oplopanax",
+ "family": "Araliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "1-(3-Heptyloxiran-2-yl)octa-2,4-diyne-1,6-diol",
+   "compound_ko": null,
+   "pubchem_cid": 75215443,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "10-Methoxyheptadeca-4,6-diyne-3,8,9-triol",
+   "compound_ko": null,
+   "pubchem_cid": 75215444,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(Hydroxymethyl)-6-[4-(3-hydroxypropyl)-2-methoxyphenoxy]oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 14427335,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(Hydroxymethyl)-6-[[5-(3-hydroxypropyl)-7-methoxy-2-[3-methoxy-4-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-2,3-dihydro-1-benzofuran-3-yl]methoxy]oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162918194,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[4-[4-[(4-Hydroxy-3-methoxyphenyl)methyl]-3-(hydroxymethyl)oxolan-2-yl]-2,6-dimethoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162979785,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.079
+}

@@ -1,0 +1,73 @@
+{
+ "key": "Pinus thunbergii",
+ "name_ko": "곰솔",
+ "names": [
+  "곰솔잎"
+ ],
+ "nicknames": [
+  "가지해송",
+  "왕솔",
+  "해송"
+ ],
+ "eng": [
+  "Black pine"
+ ],
+ "scnm_full": [
+  "Pinus thunbergii Parl. / Pinus massoniana Palib."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14756466,
+ "genus": "Pinus",
+ "family": "Pinaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 7,
+ "candidates": [
+  {
+   "compound": "(3R,5S,8S,9S,10R,13R,14S,17R)-17-[(2S,3R,4R,5S)-3,4-dihydroxy-5,6-dimethylheptan-2-yl]-3-hydroxy-10,13-dimethyl-1,2,3,4,5,7,8,9,11,12,14,15,16,17-tetradecahydrocyclopenta[a]phenanthren-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 13475124,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "24-epi-Castasterone",
+   "compound_ko": null,
+   "pubchem_cid": 13039027,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "(1S,2R,7S,9R)-3,3,7-trimethyl-8-methylidenetricyclo[5.4.0.02,9]undecane",
+   "compound_ko": null,
+   "pubchem_cid": 12304749,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 16개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 16
+  },
+  {
+   "compound": "Typhasterol",
+   "compound_ko": "티파스테롤",
+   "pubchem_cid": 13475120,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 17
+  }
+ ],
+ "priority": 3.903
+}

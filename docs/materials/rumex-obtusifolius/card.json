@@ -1,0 +1,80 @@
+{
+ "key": "Rumex obtusifolius",
+ "name_ko": "돌소리쟁이",
+ "names": [
+  "돌소리쟁이잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Broad-leaved dock, Round-leaved dock"
+ ],
+ "scnm_full": [
+  "Rumex obtusifolius L. / Lapathum obtusifolium (L.) Moench / Lapathum sylvestre Lam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14757839,
+ "genus": "Rumex",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_EFSA_COMPENDIUM"
+ ],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "1,8-dihydroxyanthraquinone derivatives",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "뿌리·지하부",
+   "content": "최대 4 %",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(EFSA), 최대 4 %",
+   "n_genera": 1
+  },
+  {
+   "compound": "Tannins",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "뿌리·지하부",
+   "content": "최대 20 %",
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 2건 보고(EFSA), 최대 20 %",
+   "n_genera": 17
+  },
+  {
+   "compound": "(2S,4R)-5-oxo-4-[(2R,3S,4R)-2,3,4-trihydroxyoxolan-2-yl]pyrrolidine-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162928960,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Amino-4-(furan-2-yl)-4-oxobutanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 22326395,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Oxo-3-(((2R,3S,4S,5R,6R)-3,4,5-trihydroxy-6-methoxytetrahydro-2H-pyran-2-yl)methoxy)propanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 5319243,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.079
+}

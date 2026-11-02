@@ -1,0 +1,76 @@
+{
+ "key": "Pistacia chinensis",
+ "name_ko": "황연목",
+ "names": [
+  "황연목잎"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Pistacia chinensis Bunge"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14767178,
+ "genus": "Pistacia",
+ "family": "Anacardiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 8,
+ "candidates": [
+  {
+   "compound": "(3R,4S)-7-hydroxy-3-[(3S,4S)-7-hydroxy-4-(4-hydroxyphenyl)-2-oxo-3,4-dihydrochromen-3-yl]-4-(4-hydroxyphenyl)-3,4-dihydrochromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 10052044,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,4S)-7-hydroxy-3-[(3S,4S)-7-hydroxy-4-(4-hydroxyphenyl)-2-oxo-3,4-dihydrochromen-3-yl]-4-(4-hydroxyphenyl)-3,4-dihydrochromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 10391605,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 11557027,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7-Hydroxy-3-[7-hydroxy-4-(4-hydroxyphenyl)-2-oxo-3,4-dihydrochromen-3-yl]-4-(4-hydroxyphenyl)-3,4-dihydrochromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 9957984,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7-(2-Octylcyclopropyl)heptanoic acid",
+   "compound_ko": "7-(2-옥틸사이클로프로필)헵탄산",
+   "pubchem_cid": 71359694,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 23
+  }
+ ],
+ "priority": 3.954
+}

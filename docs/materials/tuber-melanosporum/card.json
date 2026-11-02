@@ -1,0 +1,78 @@
+{
+ "key": "Tuber melanosporum",
+ "name_ko": "검은서양송로",
+ "names": [
+  "검은서양송로자실체"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Black Truffles"
+ ],
+ "scnm_full": [
+  "Tuber melanosporum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14766302,
+ "genus": "Tuber",
+ "family": "Tuberaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 20,
+ "candidates": [
+  {
+   "compound": "Androst-16-en-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 556492,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Ergosta-5,7,22-trien-3-ol, (3beta,22E)-",
+   "compound_ko": null,
+   "pubchem_cid": 7067893,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "(+-)-2-Butanol",
+   "compound_ko": "2-뷰탄올",
+   "pubchem_cid": 6568,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  },
+  {
+   "compound": "Anisole",
+   "compound_ko": "아니솔",
+   "pubchem_cid": 7519,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 14
+  },
+  {
+   "compound": "1-Propanol",
+   "compound_ko": "1-프로판올",
+   "pubchem_cid": 1031,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 15개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 15
+  }
+ ],
+ "priority": 4.322
+}

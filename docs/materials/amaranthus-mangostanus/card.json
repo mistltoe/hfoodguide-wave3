@@ -1,0 +1,41 @@
+{
+ "key": "Amaranthus mangostanus",
+ "name_ko": "비름",
+ "names": [
+  "비름분말",
+  "비름순",
+  "비름오일",
+  "절임비름나물"
+ ],
+ "nicknames": [
+  "개비름",
+  "비름나물",
+  "새비름",
+  "참비름"
+ ],
+ "eng": [
+  "Edible amaranth"
+ ],
+ "scnm_full": [
+  "Amaranthus mangostanus L. / Amaranthus inamoenus Willd. / Amaranthus inamoenus f. viridis Makino"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": null,
+ "genus": "Amaranthus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.483
+}

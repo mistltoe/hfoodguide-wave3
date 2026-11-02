@@ -1,0 +1,37 @@
+{
+ "key": "Eucheuma denticulatum",
+ "name_ko": "스피노숨",
+ "names": [
+  "스피노숨",
+  "유큐마"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Spinosum"
+ ],
+ "scnm_full": [
+  "Eucheuma denticulatum",
+  "Eucheuma denticulatum (Burman) Collins et Harvey / Eucheuma spinosum J. Agardh"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 17192776,
+ "genus": "Eucheuma",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

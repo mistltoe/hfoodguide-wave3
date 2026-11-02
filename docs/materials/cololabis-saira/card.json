@@ -1,0 +1,34 @@
+{
+ "key": "Cololabis saira",
+ "name_ko": "꽁치",
+ "names": [
+  "구운꽁치",
+  "꽁치",
+  "꽁치살",
+  "꽁치포"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pacific saury"
+ ],
+ "scnm_full": [
+  "Cololabis saira"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 15309862,
+ "genus": "Cololabis",
+ "family": "Scomberesocidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.483
+}

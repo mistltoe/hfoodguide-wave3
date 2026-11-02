@@ -1,0 +1,34 @@
+{
+ "key": "Sepia esculenta",
+ "name_ko": "갑오징어",
+ "names": [
+  "갑오징어",
+  "갑오징어뼈"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Cuttlefish, Golden cuttlefish, common cuttlefish"
+ ],
+ "scnm_full": [
+  "Sepia esculenta / Sepia officinalis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "어린싹"
+ ],
+ "conditions": [
+  "사용가능 부위 : 전체(내장제외)"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Sepia",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

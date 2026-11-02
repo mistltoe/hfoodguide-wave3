@@ -1,0 +1,32 @@
+{
+ "key": "Castanea henryi",
+ "name_ko": "헨리밤나무",
+ "names": [
+  "헨리밤나무열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Castanea henryi"
+ ],
+ "scnm_full": [
+  "Castanea henryi (Skan) Rehder & E.H.Wilson"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15184699,
+ "genus": "Castanea",
+ "family": "Fagaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

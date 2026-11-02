@@ -1,0 +1,80 @@
+{
+ "key": "Lactuca indica",
+ "name_ko": "왕고들빼기",
+ "names": [
+  "왕고들빼기잎"
+ ],
+ "nicknames": [
+  "고채"
+ ],
+ "eng": [
+  "Slender-leaf Indian lettuce"
+ ],
+ "scnm_full": [
+  "Lactuca indica L. / Chondrilla squarrosa Poir"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14753941,
+ "genus": "Lactuca",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 67,
+ "candidates": [
+  {
+   "compound": "(1R,3S,4S,5R)-3-[(E)-4-(3,4-dihydroxyphenyl)-2-oxobut-3-enyl]-1,4,5-trihydroxycyclohexane-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 102477377,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,3S,4S,5R)-3-[4-(3,4-dihydroxyphenyl)-2-oxobut-3-enyl]-1,4,5-trihydroxycyclohexane-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162880487,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3R,4S,5R,6R)-2-[[(1S,3R,3aS,4S,6S,6aS)-3-hydroxy-1,4-bis(4-hydroxy-3-methoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162973135,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3R,4S,5S,6R)-2-[[(1S,3R,3aS,4S,6S,6aS)-3-hydroxy-1,4-bis(4-hydroxy-3-methoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 6918761,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-[5-hydroxy-2-(2-hydroxyphenyl)-4-oxochromen-7-yl]oxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162892015,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.833
+}

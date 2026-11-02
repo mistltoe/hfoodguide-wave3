@@ -1,0 +1,37 @@
+{
+ "key": "Prunus yedoensis",
+ "name_ko": "왕벚나무",
+ "names": [
+  "왕벚나무나무껍질",
+  "왕벚나무씨앗"
+ ],
+ "nicknames": [
+  "참벚나무",
+  "큰벚나무"
+ ],
+ "eng": [
+  "Korean flowering cherry"
+ ],
+ "scnm_full": [
+  "Prunus yedoensis Matsumura / Cerasus yedoensis (Matsum.) Yu & Li."
+ ],
+ "kind": "plant",
+ "parts": [
+  "나무껍질",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 나무껍질, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14757124,
+ "genus": "Prunus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

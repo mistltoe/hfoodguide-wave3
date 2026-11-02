@@ -1,0 +1,30 @@
+{
+ "key": "Oncorhynchus gorbuscha",
+ "name_ko": "곱사연어",
+ "names": [
+  "곱사연어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pink salmon, Humpback salmon"
+ ],
+ "scnm_full": [
+  "Oncorhynchus gorbuscha"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16339712,
+ "genus": "Oncorhynchus",
+ "family": "Salmonidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

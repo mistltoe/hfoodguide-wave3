@@ -1,0 +1,81 @@
+{
+ "key": "Backhousia citriodora",
+ "name_ko": "레몬머틀",
+ "names": [
+  "레몬머틀잎",
+  "레몬머틀잎추출액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Lemon myrtle"
+ ],
+ "scnm_full": [
+  "Backhousia citriodora F. Muell."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14748403,
+ "genus": "Backhousia",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 14,
+ "candidates": [
+  {
+   "compound": "(3E)-3,7-dimethylocta-3,6-dien-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 6536347,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,6-Octadienal, 3,7-dimethyl-, (Z)-",
+   "compound_ko": null,
+   "pubchem_cid": 20837773,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Isocitral",
+   "compound_ko": null,
+   "pubchem_cid": 6428928,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "6-Octenal, 3,7-dimethyl-, (3R)-",
+   "compound_ko": null,
+   "pubchem_cid": 75427,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 6
+  },
+  {
+   "compound": "Isogeraniol",
+   "compound_ko": "이소게라니올",
+   "pubchem_cid": 5362876,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  }
+ ],
+ "priority": 5.054
+}

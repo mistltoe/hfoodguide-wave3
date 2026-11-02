@@ -1,0 +1,78 @@
+{
+ "key": "Thymus mastichina",
+ "name_ko": "마스티키나백리향",
+ "names": [
+  "마스티키나백리향잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Mastic thyme"
+ ],
+ "scnm_full": [
+  "Thymus mastichina L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759585,
+ "genus": "Thymus",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 48,
+ "candidates": [
+  {
+   "compound": "Cyclohexanol, 1-methyl-4-(1-methylethenyl)-, acetate",
+   "compound_ko": null,
+   "pubchem_cid": 88693,
+   "part": "Plant",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "p-Menth-3-en-1-ol",
+   "compound_ko": "p-멘트-3-엔-1-올",
+   "pubchem_cid": 11468,
+   "part": "Plant",
+   "content": "최대 20 ppm",
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 20 ppm",
+   "n_genera": 14
+  },
+  {
+   "compound": "Delta-Terpineol",
+   "compound_ko": "델타-테르피네올",
+   "pubchem_cid": 81722,
+   "part": "Plant",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 23
+  },
+  {
+   "compound": "Longifolene",
+   "compound_ko": "롱기폴렌",
+   "pubchem_cid": 1796220,
+   "part": "Plant",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 24개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 24
+  },
+  {
+   "compound": "beta-Gurjunene",
+   "compound_ko": "베타-구르주넨",
+   "pubchem_cid": 6450812,
+   "part": "Plant",
+   "content": "최대 30 ppm",
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 30 ppm",
+   "n_genera": 29
+  }
+ ],
+ "priority": 4.69
+}

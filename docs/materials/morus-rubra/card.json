@@ -1,0 +1,32 @@
+{
+ "key": "Morus rubra",
+ "name_ko": "붉은뽕나무",
+ "names": [
+  "붉은뽕나무열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Red mulberry"
+ ],
+ "scnm_full": [
+  "Morus rubra"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14755288,
+ "genus": "Morus",
+ "family": "Moraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 3.301
+}

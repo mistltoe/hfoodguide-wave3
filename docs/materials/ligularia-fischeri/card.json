@@ -1,0 +1,83 @@
+{
+ "key": "Ligularia fischeri",
+ "name_ko": "곰취",
+ "names": [
+  "곰취가루",
+  "곰취잎",
+  "곰취추출액"
+ ],
+ "nicknames": [
+  "큰곰취"
+ ],
+ "eng": [
+  "Fischer’s ragwort"
+ ],
+ "scnm_full": [
+  "Ligularia fischeri (Ledeb.) Turcz. / Cineraria fischeri Ledeb. / Cineraria speciosa Schrad. ex Link"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14762866,
+ "genus": "Ligularia",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 64,
+ "candidates": [
+  {
+   "compound": "(1R,11R)-11-prop-1-en-2-yl-2-oxatricyclo[6.3.1.04,12]dodeca-4,6,8(12)-triene-3,9-dione",
+   "compound_ko": null,
+   "pubchem_cid": 163042839,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,11R)-7-hydroxy-11-prop-1-en-2-yl-2-oxatricyclo[6.3.1.04,12]dodeca-4(12),5,7-trien-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 162941064,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,3R,4R,10R,11S)-4-[(4aR,5S,9aS)-3,4a,5-trimethyl-2-oxo-5,6,7,8-tetrahydro-4H-benzo[f][1]benzofuran-9a-yl]-7,10,11-trimethyl-2,5-dioxatetracyclo[8.4.0.01,3.04,8]tetradec-7-en-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 163041208,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,3R,7S,8R,9R)-7,8,11-trimethyl-13,14-dioxatetracyclo[7.4.1.01,10.03,8]tetradec-10-en-12-one",
+   "compound_ko": null,
+   "pubchem_cid": 101033353,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,3S,4S,10S,11R)-4-[(4aS,5R,9aR)-3,4a,5-trimethyl-2-oxo-5,6,7,8-tetrahydro-4H-benzo[f][1]benzofuran-9a-yl]-7,10,11-trimethyl-2,5-dioxatetracyclo[8.4.0.01,3.04,8]tetradec-7-en-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 163041207,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.813
+}

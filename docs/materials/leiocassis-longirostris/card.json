@@ -1,0 +1,28 @@
+{
+ "key": "Leiocassis longirostris",
+ "name_ko": "종어",
+ "names": [
+  "종어"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Leiocassis longirostris"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Leiocassis",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

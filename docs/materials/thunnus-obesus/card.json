@@ -1,0 +1,37 @@
+{
+ "key": "Thunnus obesus",
+ "name_ko": "눈다랑어",
+ "names": [
+  "눈다랑어",
+  "눈다랑어뼈",
+  "눈다랑어알"
+ ],
+ "nicknames": [
+  "Bigeye tuna",
+  "눈다랭이"
+ ],
+ "eng": [
+  "Bigeye tuna"
+ ],
+ "scnm_full": [
+  "Thunnus obesus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "균핵",
+  "어린싹"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 17033969,
+ "genus": "Thunnus",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 5.5
+}

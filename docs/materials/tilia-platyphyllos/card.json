@@ -1,0 +1,65 @@
+{
+ "key": "Tilia platyphyllos",
+ "name_ko": "황금플라티필로스피나무",
+ "names": [
+  "황금플라티필로스피나무꽃",
+  "황금플라티필로스피나무잎"
+ ],
+ "nicknames": [
+  "넓은잎피나무",
+  "큰잎유럽피나무"
+ ],
+ "eng": [
+  "Broad-leaved lime, Weeping lime"
+ ],
+ "scnm_full": [
+  "Tilia platyphyllos"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14759610,
+ "genus": "Tilia",
+ "family": "Tiliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 17,
+ "candidates": [
+  {
+   "compound": "(4R,9R,10S)-5,5,9-trimethyl-14-methylidenetetracyclo[11.2.1.01,10.04,9]hexadecane",
+   "compound_ko": null,
+   "pubchem_cid": 12304784,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  },
+  {
+   "compound": "5,9,13-Pentadecatrien-2-one, 6,10,14-trimethyl-",
+   "compound_ko": null,
+   "pubchem_cid": 61206,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 15개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 15
+  },
+  {
+   "compound": "Farnesyl acetone",
+   "compound_ko": "파르네실 아세톤",
+   "pubchem_cid": 1711945,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 18
+  }
+ ],
+ "priority": 5.633
+}

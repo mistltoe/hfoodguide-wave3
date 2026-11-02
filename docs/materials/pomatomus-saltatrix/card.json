@@ -1,0 +1,30 @@
+{
+ "key": "Pomatomus saltatrix",
+ "name_ko": "블루피쉬",
+ "names": [
+  "블루피쉬"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bluefish, Tailor"
+ ],
+ "scnm_full": [
+  "Pomatomus saltatrix"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16602840,
+ "genus": "Pomatomus",
+ "family": "Pomatomidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

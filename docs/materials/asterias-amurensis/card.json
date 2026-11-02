@@ -1,0 +1,79 @@
+{
+ "key": "Asterias amurensis",
+ "name_ko": "불가사리",
+ "names": [
+  "불가사리껍질",
+  "불가사리껍질발효분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Seastar, Starfish"
+ ],
+ "scnm_full": [
+  "Asterias amurensis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "어린자실체"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 껍질 / 사용조건 : 칼슘보충용 원료에 한함"
+ ],
+ "status": "restricted",
+ "n_rows": 2,
+ "bioresource_id": 14768113,
+ "genus": "Asterias",
+ "family": "Asteriidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 36,
+ "candidates": [
+  {
+   "compound": "(2R)-2-hydroxy-N-[(2S,3R,4E,13Z)-3-hydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxydocosa-4,13-dien-2-yl]hexadecanamide",
+   "compound_ko": null,
+   "pubchem_cid": 15693323,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-hydroxy-N-[(2S,3R,4E,13Z)-3-hydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxydocosa-4,13-dien-2-yl]pentadecanamide",
+   "compound_ko": null,
+   "pubchem_cid": 15693322,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-hydroxy-N-[(2S,3R,4E,9Z)-3-hydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxydocosa-4,9-dien-2-yl]hexadecanamide",
+   "compound_ko": null,
+   "pubchem_cid": 15693324,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-N-[(2S,3S,4R,16R)-3,4-dihydroxy-16-methyl-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxynonadecan-2-yl]-2-hydroxyhexadecanamide",
+   "compound_ko": null,
+   "pubchem_cid": 163188125,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-N-[(Z,2S,3S,4R)-3,4-dihydroxy-1-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxydocos-13-en-2-yl]-2-hydroxypentadecanamide",
+   "compound_ko": null,
+   "pubchem_cid": 15693325,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.446
+}

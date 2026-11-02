@@ -1,0 +1,31 @@
+{
+ "key": "Euthynnus affinis",
+ "name_ko": "점다랑어",
+ "names": [
+  "점다랑어",
+  "훈연점다랑어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Black skipjack"
+ ],
+ "scnm_full": [
+  "Euthynnus affinis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 15652706,
+ "genus": "Euthynnus",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

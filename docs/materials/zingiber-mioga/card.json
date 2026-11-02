@@ -1,0 +1,84 @@
+{
+ "key": "Zingiber mioga",
+ "name_ko": "양하",
+ "names": [
+  "양하",
+  "양하어린잎",
+  "양하화서"
+ ],
+ "nicknames": [
+  "양애"
+ ],
+ "eng": [
+  "Mioga Ginger"
+ ],
+ "scnm_full": [
+  "Zingiber mioga (Thunb.) Roscoe / Amomum mioga Thunb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "어린잎",
+  "화서"
+ ],
+ "conditions": [
+  "사용가능부위 : 화서, 잎(순)"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14760528,
+ "genus": "Zingiber",
+ "family": "Zingiberaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 134,
+ "candidates": [
+  {
+   "compound": "(2E)-2-[2-[(1S,2S,4aS,8aR)-2-formyl-5,5,8a-trimethyl-1,2,3,4,4a,6,7,8-octahydronaphthalen-1-yl]ethylidene]butanedial",
+   "compound_ko": null,
+   "pubchem_cid": 11857930,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(E)-2-pentadecen-1-al",
+   "compound_ko": null,
+   "pubchem_cid": 149211,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1-Hydroxyheptan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 12691664,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Ethenylhex-2-enal",
+   "compound_ko": null,
+   "pubchem_cid": 163195894,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Methylhexanol",
+   "compound_ko": null,
+   "pubchem_cid": 43858,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.63
+}

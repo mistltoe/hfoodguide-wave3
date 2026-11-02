@@ -1,0 +1,48 @@
+{
+ "key": "Larimichthys polyactis",
+ "name_ko": "조기",
+ "names": [
+  "굴비",
+  "굴비살",
+  "굴비채",
+  "굴비포",
+  "조기",
+  "조기구이",
+  "조기단백질",
+  "조기살",
+  "조기알",
+  "조기연육",
+  "조기추출물",
+  "참조기",
+  "참조기살",
+  "참조기포",
+  "참조기효소분해액"
+ ],
+ "nicknames": [
+  "황조기"
+ ],
+ "eng": [
+  "Yellow croaker, Small yellow croaker"
+ ],
+ "scnm_full": [
+  "Larimichthys polyactis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "균핵",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 15,
+ "bioresource_id": 15967313,
+ "genus": "Larimichthys",
+ "family": "Sciaenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 8.5
+}

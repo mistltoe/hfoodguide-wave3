@@ -1,0 +1,81 @@
+{
+ "key": "Aquilaria agallocha",
+ "name_ko": "침향나무수지가침착된수간목",
+ "names": [
+  "침향나무수지가침착된수간목",
+  "침향나무수지가침착된수간목분말",
+  "침향나무수지가침착된수간목오일",
+  "침향나무수지가침착된수간목추출액"
+ ],
+ "nicknames": [
+  "침향"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Aquilaria agallocha Roxburgh / Aquilaria malaccensis Lam"
+ ],
+ "kind": "plant",
+ "parts": [
+  "수지가 침착된 수간목"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 수지가 침착된 수간목※(침향)"
+ ],
+ "status": "restricted",
+ "n_rows": 4,
+ "bioresource_id": 14747893,
+ "genus": "Aquilaria",
+ "family": "Thymelaeaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 22,
+ "candidates": [
+  {
+   "compound": "3H-Naphtho(1,8-bc)furan-3,8(4H)-dione, 5,5a,6,7-tetrahydro-7-methyl-5-(1-methylethyl)-, (5R,5aR,7S)-",
+   "compound_ko": null,
+   "pubchem_cid": 156117,
+   "part": "Wood",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 5
+  },
+  {
+   "compound": "(7R,8R,10S,11S)-11-hydroxy-10-methyl-7-propan-2-yl-2-oxatricyclo[6.3.1.04,12]dodeca-1(12),3-dien-5-one",
+   "compound_ko": null,
+   "pubchem_cid": 101289698,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,4-Dihydroxydihydroagarofuran",
+   "compound_ko": null,
+   "pubchem_cid": 5316759,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Agarotetrol",
+   "compound_ko": null,
+   "pubchem_cid": 13606036,
+   "part": "Wood",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Norketoagarofuran",
+   "compound_ko": null,
+   "pubchem_cid": 12431535,
+   "part": "Wood",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.345
+}

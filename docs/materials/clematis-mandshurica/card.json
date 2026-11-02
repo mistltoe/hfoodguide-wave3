@@ -1,0 +1,35 @@
+{
+ "key": "Clematis mandshurica",
+ "name_ko": "으아리",
+ "names": [
+  "으아리잎"
+ ],
+ "nicknames": [
+  "좀으아리",
+  "큰위령선"
+ ],
+ "eng": [
+  "Manchurian clematis"
+ ],
+ "scnm_full": [
+  "Clematis mandshurica"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Clematis",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

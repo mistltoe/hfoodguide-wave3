@@ -1,0 +1,36 @@
+{
+ "key": "Albizzia julibrissin",
+ "name_ko": "자귀나무",
+ "names": [
+  "자귀나무꽃",
+  "자귀나무잎"
+ ],
+ "nicknames": [
+  "계수나무"
+ ],
+ "eng": [
+  "Silk tree"
+ ],
+ "scnm_full": [
+  "Albizzia julibrissin Durazz. / Albizia julibrissin Durazz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Albizzia",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

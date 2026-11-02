@@ -1,0 +1,30 @@
+{
+ "key": "Notothenia coriiceps",
+ "name_ko": "검정돌치",
+ "names": [
+  "검정돌치"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Black rockcod"
+ ],
+ "scnm_full": [
+  "Notothenia coriiceps"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16304279,
+ "genus": "Notothenia",
+ "family": "Nototheniidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

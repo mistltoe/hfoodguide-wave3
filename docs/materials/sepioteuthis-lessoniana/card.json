@@ -1,0 +1,35 @@
+{
+ "key": "Sepioteuthis lessoniana",
+ "name_ko": "흰꼴뚜기",
+ "names": [
+  "흰꼴뚜기"
+ ],
+ "nicknames": [
+  "날개꼴뚜기",
+  "흰오징어"
+ ],
+ "eng": [
+  "Big fin reef squid"
+ ],
+ "scnm_full": [
+  "Sepioteuthis lessoniana"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체(내장 제외)"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16846422,
+ "genus": "Sepioteuthis",
+ "family": "Loliginidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

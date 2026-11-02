@@ -1,0 +1,40 @@
+{
+ "key": "Thunnus alalunga",
+ "name_ko": "날개다랑어",
+ "names": [
+  "날개다랑어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Albacore, Binnaga"
+ ],
+ "scnm_full": [
+  "Thunnus alalunga"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14787337,
+ "genus": "Thunnus",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Arsenobetaine",
+   "compound_ko": null,
+   "pubchem_cid": 47364,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 8
+  }
+ ],
+ "priority": 3.301
+}

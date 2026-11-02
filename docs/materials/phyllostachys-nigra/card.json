@@ -1,0 +1,95 @@
+{
+ "key": "Phyllostachys nigra",
+ "name_ko": "솜대",
+ "names": [
+  "솜대순",
+  "솜대잎",
+  "오죽잎",
+  "오죽죽순",
+  "죽력"
+ ],
+ "nicknames": [
+  "검정대",
+  "담죽",
+  "대나무",
+  "분죽",
+  "솜대",
+  "왕대",
+  "흑죽"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Phyllostachys nigra (Lodd. ex Lindl.) Munro",
+  "Phyllostachys nigra Munro var. henonis Stapf",
+  "Phyllostachys nigra Munro var. henonis Stapf / Phyllostachys bambusoides Sieb. et Zucc."
+ ],
+ "kind": "plant",
+ "parts": [
+  "마디줄기를 태울 때 유출되는 즙액",
+  "새순(죽순)",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎",
+  "사용가능부위 : 죽순, 잎",
+  "제한적사용가능부위 : 마디줄기를 태울 때 유출되는 즙액※(죽력), 주류의 원료로만 사용"
+ ],
+ "status": "restricted",
+ "n_rows": 5,
+ "bioresource_id": 14756323,
+ "genus": "Phyllostachys",
+ "family": "Poaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 17,
+ "candidates": [
+  {
+   "compound": "2,5-Dimethoxy-2,5-cyclohexadiene-1,4-dione",
+   "compound_ko": null,
+   "pubchem_cid": 101405,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 7
+  },
+  {
+   "compound": "2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-6-(3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl)chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 6426860,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  },
+  {
+   "compound": "Npc48700",
+   "compound_ko": null,
+   "pubchem_cid": 5382105,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  },
+  {
+   "compound": "D-Cystine",
+   "compound_ko": "D-시스틴",
+   "pubchem_cid": 6857538,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 17개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 17
+  },
+  {
+   "compound": "5,7-Dihydroxy-2-(4-hydroxyphenyl)-8-(3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl)chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 5378180,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 21개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 21
+  }
+ ],
+ "priority": 7.133
+}

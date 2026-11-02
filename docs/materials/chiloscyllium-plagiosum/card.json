@@ -1,0 +1,30 @@
+{
+ "key": "Chiloscyllium plagiosum",
+ "name_ko": "얼룩상어",
+ "names": [
+  "얼룩상어"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pelagic tresher"
+ ],
+ "scnm_full": [
+  "Chiloscyllium plagiosum"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15240238,
+ "genus": "Chiloscyllium",
+ "family": "Hemiscylliidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

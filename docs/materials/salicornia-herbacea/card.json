@@ -1,0 +1,91 @@
+{
+ "key": "Salicornia herbacea",
+ "name_ko": "퉁퉁마디",
+ "names": [
+  "퉁퉁마디",
+  "퉁퉁마디발효액",
+  "퉁퉁마디분말",
+  "퉁퉁마디엑기스",
+  "퉁퉁마디잎",
+  "퉁퉁마디줄기",
+  "퉁퉁마디추출농축분말",
+  "퉁퉁마디추출농축액",
+  "퉁퉁마디추출액"
+ ],
+ "nicknames": [
+  "함초"
+ ],
+ "eng": [
+  "Marshfire glasswort"
+ ],
+ "scnm_full": [
+  "Salicornia herbacea L. / Salicornia europaea var. herbacea L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎",
+  "줄기",
+  "즙액"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 9,
+ "bioresource_id": 14757908,
+ "genus": "Salicornia",
+ "family": "Chenopodiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 7,
+ "candidates": [
+  {
+   "compound": "4-[3-(3,4-Dihydroxyphenyl)propanoyloxy]-3-[3-(3,4-dihydroxyphenyl)prop-2-enoyloxy]-1,5-dihydroxycyclohexane-1-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 77915995,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Tungtungmadic acid",
+   "compound_ko": null,
+   "pubchem_cid": 70697815,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4S,4aR,6aR,6bS,8aS,12aS,14aR,14bR)-4-formyl-4,6a,6b,14b-tetramethyl-11-methylidene-8a-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycarbonyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 70694509,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(3I(2),4I+/-)-28-(I(2)-D-Glucopyranosyloxy)-23-hydroxy-28-oxo-30-noroleana-12,20(29)-dien-3-yl I(2)-D-glucopyranosiduronic acid",
+   "compound_ko": null,
+   "pubchem_cid": 10819104,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "gypsogenin-3-O-beta-D-glucuronopyranosyl-28-O-beta-D-glucopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 70692466,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  }
+ ],
+ "priority": 8.886
+}

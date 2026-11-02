@@ -1,0 +1,76 @@
+{
+ "key": "Suillus bovinus",
+ "name_ko": "황소비단그물버섯",
+ "names": [
+  "황소비단그물버섯"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Suillus bovinus (Pers.) Roussel"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763014,
+ "genus": "Suillus",
+ "family": "Suillaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 17,
+ "candidates": [
+  {
+   "compound": "ANRTZOOJHNGZJT-QTOBOEDMSA-N",
+   "compound_ko": null,
+   "pubchem_cid": 102408104,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "IOSOZXURFAOWST-JQIJEIRASA-N",
+   "compound_ko": null,
+   "pubchem_cid": 24938904,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2E)-2-[3-hydroxy-4-(4-hydroxyphenyl)-5-oxofuran-2-ylidene]-2-(4-hydroxyphenyl)acetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 54716518,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(alphaE)-alpha-(4-(3,4-Dihydroxyphenyl)-3-hydroxy-5-oxo-2(5H)-furanylidene)-3,4-dihydroxybenzeneacetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 101967051,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "2,5-Dihydroxy-3-(3,7,11,15-tetramethylhexadeca-2,6,10,14-tetraenyl)cyclohexa-2,5-diene-1,4-dione",
+   "compound_ko": null,
+   "pubchem_cid": 162864492,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.255
+}

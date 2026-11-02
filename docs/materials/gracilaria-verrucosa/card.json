@@ -1,0 +1,82 @@
+{
+ "key": "Gracilaria verrucosa",
+ "name_ko": "꼬시래기",
+ "names": [
+  "꼬시래기"
+ ],
+ "nicknames": [
+  "꼬시락"
+ ],
+ "eng": [
+  "Sewing thread, Sea string"
+ ],
+ "scnm_full": [
+  "Gracilaria verrucosa"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14788552,
+ "genus": "Gracilariopsis",
+ "family": null,
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 29,
+ "candidates": [
+  {
+   "compound": "(E)-12-oxooctadec-8-enoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 44448193,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "(E,10S)-10-hydroxyhexadec-8-enoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162932337,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanol",
+   "compound_ko": null,
+   "pubchem_cid": 101937605,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "10-Keto palmitic acid",
+   "compound_ko": null,
+   "pubchem_cid": 4998669,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "10R-hydroxy-8E-octadecenoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 5312850,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.477
+}

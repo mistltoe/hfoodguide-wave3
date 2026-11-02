@@ -1,0 +1,80 @@
+{
+ "key": "Sonchus asper",
+ "name_ko": "큰방가지똥",
+ "names": [
+  "큰방가지똥잎"
+ ],
+ "nicknames": [
+  "큰방가지풀"
+ ],
+ "eng": [
+  "Spiny-leaved sow thistle"
+ ],
+ "scnm_full": [
+  "Sonchus asper (Linne) Hill."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14758805,
+ "genus": "Sonchus",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 54,
+ "candidates": [
+  {
+   "compound": "(3R,4R,6S)-6-[[(2R,3S,4S,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxochromen-7-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methoxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162918486,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,3aR,4S,6E,10E,11aR)-4-hydroxy-10-(hydroxymethyl)-3-methyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 101665849,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,3aR,4S,6E,10Z,11aR)-4-hydroxy-3-methyl-2-oxo-10-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 162922736,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,3aR,4S,6Z,10Z,11aR)-4-hydroxy-3-methyl-2-oxo-10-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 162922737,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,3aS,5aR,6R,9R,9aS,9bS)-3,5a-dimethyl-2-oxo-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,6,7,8,9,9a,9b-decahydrobenzo[g][1]benzofuran-9-carbaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 162872949,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.74
+}

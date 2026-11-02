@@ -1,0 +1,30 @@
+{
+ "key": "Cynoglossus semilaevis",
+ "name_ko": "박대",
+ "names": [
+  "박대"
+ ],
+ "nicknames": [],
+ "eng": [
+  "-"
+ ],
+ "scnm_full": [
+  "Cynoglossus semilaevis"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15404769,
+ "genus": "Cynoglossus",
+ "family": "Cynoglossidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

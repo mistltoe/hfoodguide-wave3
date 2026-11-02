@@ -1,0 +1,76 @@
+{
+ "key": "Lepista sordida",
+ "name_ko": "자주방망이버섯아재비",
+ "names": [
+  "자주방망이버섯아재비"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Lepista sordida (Schum.:Fr.) Sing"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763378,
+ "genus": "Lepista",
+ "family": "Tricholomataceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 16,
+ "candidates": [
+  {
+   "compound": "(3R,6R)-3-benzyl-3-hydroxy-6-methoxy-6-(2-methylpropyl)piperazine-2,5-dione",
+   "compound_ko": null,
+   "pubchem_cid": 92449222,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S,6R)-3-benzyl-3-hydroxy-6-methoxy-6-(2-methylpropyl)piperazine-2,5-dione",
+   "compound_ko": null,
+   "pubchem_cid": 92449221,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1H-imidazole-5-carboxamide",
+   "compound_ko": null,
+   "pubchem_cid": 152917,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,7-Dihydro-4H-imidazo(4,5-d)-1,2,3-triazin-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 135421876,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-[(2R,3R,4S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-5,7-dihydroimidazo[4,5-d]triazine-4,6-dione",
+   "compound_ko": null,
+   "pubchem_cid": 139591114,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.23
+}

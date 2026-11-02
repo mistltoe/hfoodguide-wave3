@@ -1,0 +1,36 @@
+{
+ "key": "Pseudorasbora parva",
+ "name_ko": "참붕어",
+ "names": [
+  "참붕어"
+ ],
+ "nicknames": [
+  "깨붕어",
+  "꽃붕어",
+  "돌고리",
+  "보리붕어",
+  "열치"
+ ],
+ "eng": [
+  "Stone moroko, False dace"
+ ],
+ "scnm_full": [
+  "Pseudorasbora parva"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16671525,
+ "genus": "Pseudorasbora",
+ "family": "Cyprinidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

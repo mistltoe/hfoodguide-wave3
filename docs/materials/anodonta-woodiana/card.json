@@ -1,0 +1,31 @@
+{
+ "key": "Anodonta woodiana",
+ "name_ko": "펄조개",
+ "names": [
+  "펄조개"
+ ],
+ "nicknames": [
+  "늪조개",
+  "칠조개"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Anodonta woodiana"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Anodonta",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

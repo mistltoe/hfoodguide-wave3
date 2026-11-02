@@ -1,0 +1,33 @@
+{
+ "key": "Terminalia ferdinandiana",
+ "name_ko": "카카두플럼",
+ "names": [
+  "카카두플럼분말",
+  "카카두플럼열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Kakadu plum"
+ ],
+ "scnm_full": [
+  "Terminalia ferdinandiana"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 17004820,
+ "genus": "Terminalia",
+ "family": "Combretaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

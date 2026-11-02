@@ -1,0 +1,32 @@
+{
+ "key": "Zelkova serrata",
+ "name_ko": "느티나무",
+ "names": [
+  "느티나무잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Zelkova tree, Sawleaf zelkova"
+ ],
+ "scnm_full": [
+  "Zelkova serrata (Thunb.) Makino / Zelkova serrata var. latifolia / Abelicea acuminata Kuntzw"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17181823,
+ "genus": "Zelkova",
+ "family": "Ulmaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

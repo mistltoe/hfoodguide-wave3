@@ -1,0 +1,30 @@
+{
+ "key": "Scomberomorus commerson",
+ "name_ko": "동갈삼치",
+ "names": [
+  "동갈삼치"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Narrow-barred spanish mackerel"
+ ],
+ "scnm_full": [
+  "Scomberomorus commerson"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16825832,
+ "genus": "Scomberomorus",
+ "family": "Scombridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,79 @@
+{
+ "key": "Halocynthia roretzi",
+ "name_ko": "우렁쉥이",
+ "names": [
+  "우렁쉥이"
+ ],
+ "nicknames": [
+  "Korean common sea squirt",
+  "멍게"
+ ],
+ "eng": [
+  "Korean common sea squirt"
+ ],
+ "scnm_full": [
+  "Halocynthia roretzi"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14767404,
+ "genus": "Halocynthia",
+ "family": "Pyuridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 34,
+ "candidates": [
+  {
+   "compound": "(2Z,4E,6E,8E,10E,12E,14E,16E)-3-hydroxy-19-[(4S)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-1-[(1R,4S)-4-hydroxy-1,2,2-trimethylcyclopentyl]-4,8,13,17-tetramethylnonadeca-2,4,6,8,10,12,14,16-octaen-18-yn-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162912290,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S)-3-[(2Z,4E,6E,8E,10E,12E,14E,16E)-3-hydroxy-19-[(4S)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-4,8,13,17-tetramethylnonadeca-2,4,6,8,10,12,14,16-octaen-18-ynoyl]-3,4,4-trimethylcyclopentan-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162903439,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3Z,6Z)-3,6,9-Decatrienyl Sulfate",
+   "compound_ko": null,
+   "pubchem_cid": 10399046,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4Z,7E)-4,7-Decadienyl Sulfate",
+   "compound_ko": null,
+   "pubchem_cid": 10331598,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4Z,7Z)-deca-4,7-dien-1-yl hydrogen sulfate",
+   "compound_ko": null,
+   "pubchem_cid": 10354007,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.544
+}

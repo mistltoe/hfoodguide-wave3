@@ -1,0 +1,32 @@
+{
+ "key": "Limonium tetragonum",
+ "name_ko": "갯질경이",
+ "names": [
+  "갯질경이잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Square-stem statice"
+ ],
+ "scnm_full": [
+  "Limonium tetragonum (Thunb.) Bullock / Limonium japonicum (Siebold & Zucc.) Kuntze"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14754284,
+ "genus": "Limonium",
+ "family": "Plumbaginaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

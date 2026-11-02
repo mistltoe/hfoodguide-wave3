@@ -1,0 +1,80 @@
+{
+ "key": "Eupatorium lindleyanum",
+ "name_ko": "골등골나물",
+ "names": [
+  "골등골나물잎"
+ ],
+ "nicknames": [
+  "벌등골나물"
+ ],
+ "eng": [
+  "Lindley eupatorium"
+ ],
+ "scnm_full": [
+  "Eupatorium lindleyanum DC. / Eupatorium kirilowii Turcz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14751944,
+ "genus": "Eupatorium",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 41,
+ "candidates": [
+  {
+   "compound": "(3aR,4R,6R,6aS,7S,9aR,9bS)-6-(chloromethyl)-4,6,7-trihydroxy-9-methyl-3-methylidene-4,5,6a,7,9a,9b-hexahydro-3aH-azuleno[4,5-b]furan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 162993457,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3aS,4S,6Z,8S,10E,11aR)-4,8-dihydroxy-6,10-dimethyl-3-methylidene-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 162886776,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(8-Acetyloxy-4,9-dimethyl-14-methylidene-13-oxo-5,12-dioxatricyclo[9.3.0.04,6]tetradec-9-en-2-yl) 2-(hydroxymethyl)but-2-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 75029447,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[6,9-Dimethyl-4-(2-methylbut-2-enoyloxy)-3-methylidene-2,8-dioxo-3a,4,5,10a-tetrahydrofuro[2,3-e]oxonin-6-yl]acetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 73799030,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Epichromolaenide",
+   "compound_ko": null,
+   "pubchem_cid": 3467091,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.623
+}

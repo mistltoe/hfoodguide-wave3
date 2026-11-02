@@ -1,0 +1,37 @@
+{
+ "key": "Cipangopaludina chinensis",
+ "name_ko": "논우렁이",
+ "names": [
+  "논우렁이",
+  "큰논우렁이"
+ ],
+ "nicknames": [
+  "골뱅이",
+  "논고동",
+  "우렁"
+ ],
+ "eng": [
+  "Japanese mysterysnail",
+  "River snail, Mystery snail"
+ ],
+ "scnm_full": [
+  "Cipangopaludina chinensis japonica",
+  "Cipangopaludina chinensis malleata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Cipangopaludina",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

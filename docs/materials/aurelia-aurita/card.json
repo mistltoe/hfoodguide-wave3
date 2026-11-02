@@ -1,0 +1,40 @@
+{
+ "key": "Aurelia aurita",
+ "name_ko": "보름달물해파리",
+ "names": [
+  "보름달물해파리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Jelly-fish"
+ ],
+ "scnm_full": [
+  "Aurelia aurita"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14780072,
+ "genus": "Aurelia",
+ "family": "Ulmaridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [
+  {
+   "compound": "Qniumucin",
+   "compound_ko": null,
+   "pubchem_cid": 163105900,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.301
+}

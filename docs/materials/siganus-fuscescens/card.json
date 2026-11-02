@@ -1,0 +1,32 @@
+{
+ "key": "Siganus fuscescens",
+ "name_ko": "독가시치",
+ "names": [
+  "독가시치"
+ ],
+ "nicknames": [
+  "따치"
+ ],
+ "eng": [
+  "Mottled spinefoot, Dusky spinefoot"
+ ],
+ "scnm_full": [
+  "Siganus fuscescens"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16858789,
+ "genus": "Siganus",
+ "family": "Siganidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

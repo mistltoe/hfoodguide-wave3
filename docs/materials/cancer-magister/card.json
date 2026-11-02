@@ -1,0 +1,32 @@
+{
+ "key": "Cancer magister",
+ "name_ko": "던지네스게",
+ "names": [
+  "던지네스게"
+ ],
+ "nicknames": [
+  "대짜은행게"
+ ],
+ "eng": [
+  "Dungeness crab"
+ ],
+ "scnm_full": [
+  "Cancer magister"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Cancer",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

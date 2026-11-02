@@ -1,0 +1,78 @@
+{
+ "key": "Callistemon citrinus",
+ "name_ko": "병솔나무",
+ "names": [
+  "병솔나무잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bottlebrush Crimson"
+ ],
+ "scnm_full": [
+  "Callistemon citrinus (Curtis) Skeels / Callistemon lanceolatus"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763888,
+ "genus": "Callistemon",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 31,
+ "candidates": [
+  {
+   "compound": "(2R,3R)-2-(4-hydroxy-3-methoxyphenyl)-3-methyl-5-prop-1-enyl-2,3-dihydro-1-benzofuran-7-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162879046,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-[(1S,2S)-1-hydroxy-1-(4-hydroxy-3-methoxyphenyl)propan-2-yl]oxy-5-prop-1-enylphenol",
+   "compound_ko": null,
+   "pubchem_cid": 163024144,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6,8-Dimethylacacetin",
+   "compound_ko": null,
+   "pubchem_cid": 101989666,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7,4'-Dimethoxy-5-hydroxy-8-(2-hydroxypropan-2-yl)-6-methylflavone",
+   "compound_ko": null,
+   "pubchem_cid": 132517368,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[2-Amino-2-(octadec-9-enoyloxymethyl)butyl] octadec-9-enoate",
+   "compound_ko": null,
+   "pubchem_cid": 162866929,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.505
+}

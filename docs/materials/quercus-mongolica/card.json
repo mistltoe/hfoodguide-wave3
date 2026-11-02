@@ -1,0 +1,81 @@
+{
+ "key": "Quercus mongolica",
+ "name_ko": "신갈나무",
+ "names": [
+  "신갈나무열매"
+ ],
+ "nicknames": [
+  "돌참나무",
+  "물갈나무"
+ ],
+ "eng": [
+  "Mongolian oak"
+ ],
+ "scnm_full": [
+  "Quercus mongolica Fisch. ex Ledeb. / Quercus crispula var. mandshurica Koidz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14763147,
+ "genus": "Quercus",
+ "family": "Fagaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 32,
+ "candidates": [
+  {
+   "compound": "(1R,2R,20R,42R,46R)-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37,46-hexadecahydroxy-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-4,17,22,40,44-pentone",
+   "compound_ko": null,
+   "pubchem_cid": 162934485,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,20R,42R,46R)-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37-pentadecahydroxy-4,17,22,40,44-pentaoxo-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-46-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163189587,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,20R,42R,46S)-46-[(2R,3S,4R)-2-(3,4-dihydroxyphenyl)-4-[(2R,3S)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-8-yl]-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-8-yl]-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37-pentadecahydroxy-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-4,17,22,40,44-pentone",
+   "compound_ko": null,
+   "pubchem_cid": 163192208,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,20S,42S,46R)-46-[(2R,3R)-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-6-yl]-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37-pentadecahydroxy-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-4,17,22,40,44-pentone",
+   "compound_ko": null,
+   "pubchem_cid": 163192225,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,2R,20S,42S,46R)-46-[(2R,3R)-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxo-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-8-yl]-7,8,9,12,13,14,25,26,27,30,31,32,35,36,37-pentadecahydroxy-3,18,21,41,43-pentaoxanonacyclo[27.13.3.138,42.02,20.05,10.011,16.023,28.033,45.034,39]hexatetraconta-5,7,9,11,13,15,23,25,27,29(45),30,32,34(39),35,37-pentadecaene-4,17,22,40,44-pentone",
+   "compound_ko": null,
+   "pubchem_cid": 163191675,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.519
+}

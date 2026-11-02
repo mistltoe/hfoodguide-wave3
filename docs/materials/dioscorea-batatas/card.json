@@ -1,0 +1,42 @@
+{
+ "key": "Dioscorea batatas",
+ "name_ko": "마뿌리",
+ "names": [
+  "마뿌리",
+  "마뿌리농축액",
+  "마뿌리줄기",
+  "마뿌리줄기분말",
+  "마뿌리추출분말",
+  "마주아"
+ ],
+ "nicknames": [
+  "East Asian mountain yam",
+  "참마"
+ ],
+ "eng": [
+  "East Asian mountain yam"
+ ],
+ "scnm_full": [
+  "Dioscorea batatas Decaisne / Dioscorea japonica Thunberg / Dioscorea polystachya / Dioscorea opposita"
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "뿌리줄기",
+  "주아"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리, 뿌리줄기※(산약), 주아(영여자)"
+ ],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 14751065,
+ "genus": "Dioscorea",
+ "family": "Dioscoreaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.711
+}

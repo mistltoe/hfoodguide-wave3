@@ -1,0 +1,82 @@
+{
+ "key": "Tetragonia tetragonoides",
+ "name_ko": "번행초",
+ "names": [
+  "번행초잎"
+ ],
+ "nicknames": [
+  "번향"
+ ],
+ "eng": [
+  "Common tetragonia"
+ ],
+ "scnm_full": [
+  "Tetragonia tetragonoides (Pall.) Kuntze / Demidovia tetragonoides Pall. / Tetragonia cornuta Banks"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14759449,
+ "genus": "Tetragonia",
+ "family": "Aizoaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 27,
+ "candidates": [
+  {
+   "compound": "(6R,10R)-6,10,14-trimethyl-2-methylidenepentadecanal",
+   "compound_ko": null,
+   "pubchem_cid": 162843019,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(6S,10S)-6,10,14-trimethyl-2-methylidenepentadecanal",
+   "compound_ko": null,
+   "pubchem_cid": 162843018,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(E,7S,11S)-3,7,11,15-tetramethylhexadec-2-enal",
+   "compound_ko": null,
+   "pubchem_cid": 162981831,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "7,8-Dimethoxyflavanone",
+   "compound_ko": null,
+   "pubchem_cid": 15458308,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Anti-inflammatory agent 44",
+   "compound_ko": null,
+   "pubchem_cid": 101460351,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.447
+}

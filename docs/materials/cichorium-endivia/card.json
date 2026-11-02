@@ -1,0 +1,80 @@
+{
+ "key": "Cichorium endivia",
+ "name_ko": "앤디브",
+ "names": [
+  "앤디브잎"
+ ],
+ "nicknames": [
+  "에스케롤"
+ ],
+ "eng": [
+  "Endive, Escarole endive, Garden endive, White chicory"
+ ],
+ "scnm_full": [
+  "Cichorium endivia L. var. crisprum Heigi. / Cichorium endivia L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749649,
+ "genus": "Cichorium",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 219,
+ "candidates": [
+  {
+   "compound": "Silver",
+   "compound_ko": "은",
+   "pubchem_cid": 23954,
+   "part": "Leaf",
+   "content": "최대 0.24 ppm",
+   "rationale": "이 성분이 보고된 생물은 27개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.24 ppm",
+   "n_genera": 27
+  },
+  {
+   "compound": "Zirconium",
+   "compound_ko": "지르코늄",
+   "pubchem_cid": 23995,
+   "part": "Leaf",
+   "content": "최대 4.8 ppm",
+   "rationale": "이 성분이 보고된 생물은 30개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 4.8 ppm",
+   "n_genera": 30
+  },
+  {
+   "compound": "Phenolics",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Leaf",
+   "content": "최대 32000 ppm",
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 32000 ppm",
+   "n_genera": 9
+  },
+  {
+   "compound": "Lithium",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Leaf",
+   "content": "최대 0.96 ppm",
+   "rationale": "이 성분이 보고된 생물은 27개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.96 ppm",
+   "n_genera": 27
+  },
+  {
+   "compound": "(1R,8R,9S,13S)-8-(hydroxymethyl)-12-methylidene-4-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-2,14-dioxatetracyclo[6.5.1.01,5.09,13]tetradeca-4,6-dien-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 162846848,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.342
+}

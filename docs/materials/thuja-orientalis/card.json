@@ -1,0 +1,35 @@
+{
+ "key": "Thuja orientalis",
+ "name_ko": "측백나무",
+ "names": [
+  "측백나무잎",
+  "측백나무잎추출물"
+ ],
+ "nicknames": [
+  "측백엽"
+ ],
+ "eng": [
+  "Chinese arbor vitae"
+ ],
+ "scnm_full": [
+  "Thuja orientalis L. / Biota orientalis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 잎※(측백엽)"
+ ],
+ "status": "restricted",
+ "n_rows": 2,
+ "bioresource_id": 14759567,
+ "genus": "Thuja",
+ "family": "Cupressaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 2.877
+}

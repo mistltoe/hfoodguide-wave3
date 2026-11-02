@@ -1,0 +1,32 @@
+{
+ "key": "Paralithodes camtschaticus",
+ "name_ko": "왕게",
+ "names": [
+  "왕게",
+  "왕게오일",
+  "왕게추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Red king crab"
+ ],
+ "scnm_full": [
+  "Paralithodes camtschaticus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 16427224,
+ "genus": "Paralithodes",
+ "family": "Lithodidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.5
+}

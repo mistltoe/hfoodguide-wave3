@@ -1,0 +1,82 @@
+{
+ "key": "Hydrangea macrophylla",
+ "name_ko": "수국",
+ "names": [
+  "수국잎",
+  "수국잎농축액",
+  "수국잎분말",
+  "수국잎침출액",
+  "수국추출분말"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Korean hydrangea"
+ ],
+ "scnm_full": [
+  "Hydrangea macrophylla (Thunb.) ser. subsp. serrata (Thunb.) Makino / Hydrangea macrophylla Seringe f. otaksa Wilson /Hydrangea serrata var. amagiana"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14753322,
+ "genus": "Hydrangea",
+ "family": "Hydrangeaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 135,
+ "candidates": [
+  {
+   "compound": "(1R,3S,3aS,5aS,5bS,6S,7aS,9S,11aS,13aR,13bS)-3a,5a,8,8,11a,13a-hexamethyl-3-propan-2-yl-1,2,3,4,5,5b,6,7,7a,9,10,11,13,13b-tetradecahydrocyclopenta[a]chrysene-1,6,9-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163059484,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-(3-hydroxy-4-methoxyphenyl)-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 101474172,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-(3-hydroxy-4-methoxyphenyl)-2-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxyacetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 101474173,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-[(2R,3R,4S,5R,6R)-3,5-dihydroxy-6-(hydroxymethyl)-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-(4-hydroxyphenyl)acetonitrile",
+   "compound_ko": null,
+   "pubchem_cid": 162931466,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3R)-3-(3,4-dihydroxyphenyl)-6,8-dihydroxy-3,4-dihydroisochromen-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162915638,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.511
+}

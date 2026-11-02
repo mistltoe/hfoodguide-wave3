@@ -1,0 +1,32 @@
+{
+ "key": "Panulirus argus",
+ "name_ko": "카리브닭새우",
+ "names": [
+  "카리브닭새우"
+ ],
+ "nicknames": [
+  "Caribbean spiny lobster"
+ ],
+ "eng": [
+  "Caribbean spiny lobster"
+ ],
+ "scnm_full": [
+  "Panulirus argus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16412095,
+ "genus": "Panulirus",
+ "family": "Palinuridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,81 @@
+{
+ "key": "Sedum sarmentosum",
+ "name_ko": "돌나물",
+ "names": [
+  "돌나물순"
+ ],
+ "nicknames": [
+  "돈나물",
+  "돋나물"
+ ],
+ "eng": [
+  "Stonecrop"
+ ],
+ "scnm_full": [
+  "Sedum sarmentosum Bunge"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순"
+ ],
+ "conditions": [
+  "사용가능부위 : 순"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14766586,
+ "genus": "Sedum",
+ "family": "Crassulaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 136,
+ "candidates": [
+  {
+   "compound": "(2R)-4-[(1S,4S,6R)-4-hydroxy-2,2,6-trimethylcyclohexyl]butane-1,2-diol",
+   "compound_ko": null,
+   "pubchem_cid": 16216883,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[(1S,4S,5R)-4-[(3S)-3,4-dihydroxybutyl]-3,3,5-trimethylcyclohexyl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163086255,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[(2R)-1-hydroxy-4-[(1R,4S,6R)-4-hydroxy-2,2,6-trimethylcyclohexyl]butan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162898424,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[(2S)-1-hydroxy-4-[(1S,4S,6R)-4-hydroxy-2,2,6-trimethylcyclohexyl]butan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162898427,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[(2S)-2-hydroxy-4-[(1S,4S,6R)-4-hydroxy-2,2,6-trimethylcyclohexyl]butoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163045166,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.137
+}

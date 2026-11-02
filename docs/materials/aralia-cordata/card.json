@@ -1,0 +1,86 @@
+{
+ "key": "Aralia cordata",
+ "name_ko": "독활",
+ "names": [
+  "독활뿌리",
+  "독활뿌리추출액",
+  "독활잎",
+  "독활잎분말"
+ ],
+ "nicknames": [
+  "땃두릅",
+  "땅두릅"
+ ],
+ "eng": [
+  "Manchurian angelica"
+ ],
+ "scnm_full": [
+  "Aralia cordata / Aralia continentalis Kitagawa"
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎",
+  "제한적사용가능부위 : 뿌리※(독활)"
+ ],
+ "status": "restricted",
+ "n_rows": 4,
+ "bioresource_id": 14747906,
+ "genus": "Aralia",
+ "family": "Araliaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 86,
+ "candidates": [
+  {
+   "compound": "(+)-delta-Selinene",
+   "compound_ko": "(+)-델타-셀리넨",
+   "pubchem_cid": 12308846,
+   "part": "Root",
+   "content": "최대 11 ppm",
+   "rationale": "이 성분이 보고된 생물은 10개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 11 ppm",
+   "n_genera": 10
+  },
+  {
+   "compound": "Paeonol",
+   "compound_ko": "패오놀",
+   "pubchem_cid": 11092,
+   "part": "Root",
+   "content": "최대 2.5 ppm",
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 2.5 ppm",
+   "n_genera": 23
+  },
+  {
+   "compound": "Beta-Sesquiphellandrene",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 8 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 8 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Cis-4,11,11-Trimethyl-8-Methylene-Bicyclo(7.2.0)Undec-4-Ene",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 7 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 7 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Germacrene-D",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 16 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 16 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.422
+}

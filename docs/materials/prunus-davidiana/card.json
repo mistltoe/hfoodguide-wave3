@@ -1,0 +1,82 @@
+{
+ "key": "Prunus davidiana",
+ "name_ko": "산복사",
+ "names": [
+  "산복사열매"
+ ],
+ "nicknames": [
+  "산복숭아"
+ ],
+ "eng": [
+  "Chinese wild peach"
+ ],
+ "scnm_full": [
+  "Prunus davidiana (Carriere) Franchet/ Amygdalus communis Bunge"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매 (씨앗 제외)"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매(씨앗 제외)"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14765880,
+ "genus": "Prunus",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "CN_MFH"
+ ],
+ "n_compounds": 24,
+ "candidates": [
+  {
+   "compound": "(2R)-2-[(2S,3R,4S,5S,6R)-6-(benzoyloxymethyl)-3,4,5-trihydroxyoxan-2-yl]oxy-2-phenylacetic acid",
+   "compound_ko": null,
+   "pubchem_cid": 73350750,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S)-7-hydroxy-2-(3-hydroxy-4-methoxyphenyl)-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 129663,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Bz(-6)Glc(b1-6)Glc(b)-O-Bn",
+   "compound_ko": null,
+   "pubchem_cid": 73346132,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Bz(-6)Glc(b1-6)Glc(b)-O-Bz",
+   "compound_ko": null,
+   "pubchem_cid": 73355242,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(2R,3S,4S,5R,6R)-6-[(2S,3S)-2,3-dihydroxy-3-(4-hydroxyphenyl)propoxy]-3,4,5-trihydroxyoxan-2-yl]methyl benzoate",
+   "compound_ko": null,
+   "pubchem_cid": 73349173,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.398
+}

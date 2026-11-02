@@ -1,0 +1,79 @@
+{
+ "key": "Humulus japonicus",
+ "name_ko": "한삼덩굴",
+ "names": [
+  "한삼덩굴순",
+  "한삼덩굴잎",
+  "한삼덩굴추출분말"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Humulus japonicus Siebold et Zucc"
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 잎, 순"
+ ],
+ "status": "restricted",
+ "n_rows": 3,
+ "bioresource_id": 14753294,
+ "genus": "Humulus",
+ "family": "Cannabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "(8Z)-1,6,10,10-tetramethyl-5,13-dioxatricyclo[10.1.0.04,6]tridec-8-ene",
+   "compound_ko": null,
+   "pubchem_cid": 101215174,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,5,6-Trihydroxy-4,6-bis(3-methyl-2-buten-1-yl)-2-(3-methyl-1-oxobutyl)-2,4-cyclohexadien-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 549481,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,5R,7S,10R)-4,10-dimethyl-7-propan-2-yltricyclo[4.4.0.01,5]dec-3-ene",
+   "compound_ko": null,
+   "pubchem_cid": 134779875,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 8
+  },
+  {
+   "compound": "7-(alpha-D-Glucopyranosyloxy)-5-hydroxy-2-(4-hydroxyphenyl)-4H-1-benzopyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 12304095,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  },
+  {
+   "compound": "Npc85473",
+   "compound_ko": null,
+   "pubchem_cid": 5385553,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 27개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 27
+  }
+ ],
+ "priority": 5.079
+}

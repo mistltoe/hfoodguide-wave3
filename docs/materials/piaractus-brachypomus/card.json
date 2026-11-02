@@ -1,0 +1,32 @@
+{
+ "key": "Piaractus brachypomus",
+ "name_ko": "파쿠",
+ "names": [
+  "Pirapitinga",
+  "파쿠"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Pacu, Red pacu"
+ ],
+ "scnm_full": [
+  "Piaractus brachypomus",
+  "Piaractus brachypomus / Colossoma bidens"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 16537994,
+ "genus": "Piaractus",
+ "family": "Serrasalmidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

@@ -1,0 +1,31 @@
+{
+ "key": "Engraulis ringens",
+ "name_ko": "페루멸치",
+ "names": [
+  "페루멸치",
+  "페루멸치오일"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Peruvian anchoveta"
+ ],
+ "scnm_full": [
+  "Engraulis ringens"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 15562907,
+ "genus": "Engraulis",
+ "family": "Engraulidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.877
+}

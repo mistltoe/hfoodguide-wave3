@@ -1,0 +1,30 @@
+{
+ "key": "Carcharodon carcharias",
+ "name_ko": "백상아리",
+ "names": [
+  "백상아리"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Great white shark"
+ ],
+ "scnm_full": [
+  "Carcharodon carcharias"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15172027,
+ "genus": "Carcharodon",
+ "family": "Lamnidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

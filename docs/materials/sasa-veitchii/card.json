@@ -1,0 +1,33 @@
+{
+ "key": "Sasa veitchii",
+ "name_ko": "얼룩조릿대",
+ "names": [
+  "얼룩조릿대잎"
+ ],
+ "nicknames": [
+  "베이트키조릿대",
+  "사라세니아 퍼푸레아"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Sasa veitchii Rehder"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14785809,
+ "genus": "Sasa",
+ "family": "Poaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 3.301
+}

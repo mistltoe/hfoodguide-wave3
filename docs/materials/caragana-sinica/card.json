@@ -1,0 +1,81 @@
+{
+ "key": "Caragana sinica",
+ "name_ko": "골담초",
+ "names": [
+  "골담초꽃",
+  "골담초분말",
+  "골담초추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Chinese pea tree, Chinese peashrub"
+ ],
+ "scnm_full": [
+  "Caragana sinica (Buchoz) Rehder / Caragana chamlagu Lam."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14767887,
+ "genus": "Caragana",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 50,
+ "candidates": [
+  {
+   "compound": "(+)-Isoampelopsin F",
+   "compound_ko": null,
+   "pubchem_cid": 11134199,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(10R,11S,18S,19S)-3,11,19-tris(4-hydroxyphenyl)-4,12,20-trioxaheptacyclo[16.6.1.12,5.110,13.021,25.09,27.017,26]heptacosa-1(25),2,5,7,9(27),13,15,17(26),21,23-decaene-7,15,23-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162952382,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(10S,11S,18R,19R)-11-(3-hydroxyphenyl)-3,19-bis(4-hydroxyphenyl)-4,12,20-trioxaheptacyclo[16.6.1.12,5.110,13.021,25.09,27.017,26]heptacosa-1(25),2,5,7,9(27),13,15,17(26),21,23-decaene-7,15,23-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162900000,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(17S,18S)-7,12,14,22-tetrahydroxy-3,18-bis(4-hydroxyphenyl)-4,19-dioxahexacyclo[15.6.1.12,5.011,16.020,24.09,25]pentacosa-1(24),2,5,7,9(25),11(16),12,14,20,22-decaen-10-one",
+   "compound_ko": null,
+   "pubchem_cid": 11599596,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,2R,3S)-3-(3,5-dihydroxyphenyl)-2-(4-hydroxyphenyl)-1-[(R)-(4-hydroxyphenyl)-methoxymethyl]-2,3-dihydro-1H-indene-4,6-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162914510,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.708
+}

@@ -1,0 +1,32 @@
+{
+ "key": "Momordica dioica",
+ "name_ko": "티즐고어드",
+ "names": [
+  "티즐고어드과육"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Palupalagakalungai, Teasle gourd"
+ ],
+ "scnm_full": [
+  "Momordica dioica Roxb."
+ ],
+ "kind": "plant",
+ "parts": [
+  "과육"
+ ],
+ "conditions": [
+  "사용가능부위 : 과육"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14755220,
+ "genus": "Momordica",
+ "family": "Cucurbitaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

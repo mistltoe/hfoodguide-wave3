@@ -1,0 +1,17 @@
+{"slug": "auricularia-polytricha", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 68, "checked_items": 57,
+ "verified": 117, "fixed": 6, "removed": 0, "unverifiable": 2,
+ "changes": [
+  {"where": "sections.cultivation", "before": "중국 쓰촨성에서는 톱밥 78%·밀기울 20%·석회 1%·석고 1% 배지의 봉지재배가 쓰이며, 2009년 '미끄러운 흉터병(slippery scar)'이 나타나 6월에는 감염률이 80%를 넘었다[13].", "after": "중국 쓰촨성에서는 2009년 봉지재배에서 '미끄러운 흉터병(slippery scar)'이 나타나 6월에는 감염률이 80%를 넘었고, 이 병을 재현한 병원성 시험에는 톱밥 78%·밀기울 20%·석회 1%·석고 1% 배지 봉지를 썼다[13].", "why": "[13] 원문에서 이 배지 조성은 병원성 시험(Koch 가설)용 재배 재료로 적혀 있고, 쓰촨의 일반 재배 배지로 쓴 것이 아님"},
+  {"where": "sections.cultivation", "before": "산둥성의 대규모 재배는 대개 4–10월에 이루어지며", "after": "2021년 산둥 연구는 대규모 재배가 보통 4–10월에 이루어진다고 적었으며", "why": "[7] 은 대규모 재배의 일반적인 재배철로 적었고 산둥성에 한정하지 않음"},
+  {"where": "sections.safety", "before": "피레스로이드 농약 5종을 뿌린 지 7일 뒤 자실체 잔류량은 대부분 유럽연합·일본·중국 잔류허용기준을 넘었으나", "after": "피레스로이드 농약 5종을 뿌린 뒤 수확 시 자실체 잔류량은 펜프로파트린을 뺀 4종이 유럽연합·일본·중국의 해당 잔류허용기준을 넘었으나", "why": "[12] 원문: 수확 시 펜프로파트린(1회 살포·7일 뒤 채취)을 제외한 잔류가 MRL 초과. '7일 뒤'는 펜프로파트린에만 해당"},
+  {"where": "sections.safety", "before": "증상과 저분자 독성 분획을 보고했다[20].", "after": "증상과, 아세톤 침전·칼럼 크로마토그래피로 정제한 독성 분획을 보고했다[20].", "why": "[20] 초록에서 '저분자'라는 표현을 확인하지 못함. 초록의 정제 과정(아세톤 침전, cellulose·silica gel·Sephadex LH-20)으로 바꿈"},
+  {"where": "nutrients[0].form", "before": "활엽수 톱밥 대조 배지", "after": "잡목 톱밥(miscellaneous sawdust) 대조 배지", "why": "[8] Table 에서 대조구는 'Miscellaneous sawdust (CK)'"},
+  {"where": "sections.cultivation", "before": "단포자 교잡으로 육성해 2012년 선발을 마쳤고", "after": "단포자 교잡으로 2012년 육성했고(2016년 품종 등록)", "why": "[22] 초록: 2009년 교배·2012년 육성, 2016년 품종 등록. '선발을 마쳤다'는 표현을 원문에 맞춤"}
+ ],
+ "unverifiable_notes": [
+  "[20] 1986년 논문은 KoreaScience 초록만 확인(PDF 미확인). 국·영문 초록의 LD50 값이 다르다는 점은 본문에 이미 적혀 있음",
+  "[21] 총 폴리페놀 수치는 초록에 없어 '수치 확인하지 못함' 그대로 둠",
+  "PMC 전문은 작성자가 받은 NCBI efetch XML(_work/)로 대조했고, PubMed 초록 7건·GBIF API·NCBI Taxonomy·식품원료 목록 원자료(data/raw/mfds_rawmtrl/I1020_20261013.json)는 검토자가 직접 다시 확인함",
+  "같은 속 다른 식품원료(목이버섯·흑목이·뿔목이·전나무목이·작은목이·짧은털목이) 이름의 자료는 섞여 있지 않음. A. cornea·A. subglabra·A. delicata 는 분류·전사체 비교 맥락에서만 등장"
+ ]}

@@ -1,0 +1,35 @@
+{
+ "key": "Mya arenaria",
+ "name_ko": "우럭",
+ "names": [
+  "반건조우럭",
+  "우럭",
+  "우럭구이"
+ ],
+ "nicknames": [
+  "다랑조개",
+  "도끼조개"
+ ],
+ "eng": [
+  "Soft-shell clam, Sand gaper"
+ ],
+ "scnm_full": [
+  "Mya arenaria"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14790636,
+ "genus": "Mya",
+ "family": "Myidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 1,
+ "candidates": [],
+ "priority": 4.801
+}

@@ -1,0 +1,82 @@
+{
+ "key": "Calendula arvensis",
+ "name_ko": "금잔화",
+ "names": [
+  "금잔화꽃",
+  "금잔화꽃분말",
+  "금잔화꽃추출액"
+ ],
+ "nicknames": [
+  "Field marigold"
+ ],
+ "eng": [
+  "Field marigold"
+ ],
+ "scnm_full": [
+  "Calendula arvensis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14748967,
+ "genus": "Calendula",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 30,
+ "candidates": [
+  {
+   "compound": "(2S,3R,4S,5R,6R)-2-[[(1aR,4R,4aS,7R,7aS,7bS)-1,1,4,7-tetramethyl-2,3,4a,5,6,7,7a,7b-octahydro-1aH-cyclopropa[e]azulen-4-yl]oxy]-6-methyloxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 44567053,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3R,4S,5R,6S)-2-[[(1R,4R,5R,6R,7S,10R)-4,10-dimethyl-7-propan-2-yl-4-tricyclo[4.4.0.01,5]decanyl]oxy]-6-methyloxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162819138,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4aR,6aR,6bS,8aS,12aR,14aR,14bR)-4,4,6a,6b,11,11,14b-heptamethyl-8a-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycarbonyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,5-dihydroxy-4-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 124839772,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4aR,6aR,6bS,8aS,12aR,14aR,14bR)-4,4,6a,6b,11,11,14b-heptamethyl-8a-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycarbonyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3-hydroxy-4-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162980388,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4aR,6aR,6bS,8aS,12aR,14aR,14bR)-4,4,6a,6b,11,11,14b-heptamethyl-8a-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxycarbonyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-4-[(3S)-4-carboxy-3-hydroxy-3-methylbutanoyl]oxy-3,5-dihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163002186,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.991
+}

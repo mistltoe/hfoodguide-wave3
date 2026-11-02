@@ -1,0 +1,40 @@
+{
+ "key": "Citrus microcarpa",
+ "name_ko": "필리핀레몬",
+ "names": [
+  "필리핀레몬열매",
+  "필리핀레몬열매과즙",
+  "필리핀레몬열매농축분말",
+  "필리핀레몬열매농축액",
+  "필리핀레몬열매분말",
+  "필리핀레몬열매원액",
+  "필리핀레몬열매주스",
+  "필리핀레몬열매착즙액",
+  "필리핀레몬열매퓨레"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Calamansi"
+ ],
+ "scnm_full": [
+  "Citrus microcarpa Bunge"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 9,
+ "bioresource_id": 14749785,
+ "genus": "Citrus",
+ "family": "Rutaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 6.483
+}

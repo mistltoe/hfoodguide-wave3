@@ -1,0 +1,85 @@
+{
+ "key": "Rosa davurica",
+ "name_ko": "생열귀",
+ "names": [
+  "생열귀꽃잎",
+  "생열귀순",
+  "생열귀열매"
+ ],
+ "nicknames": [
+  "가마귀밥나무",
+  "범의찔레"
+ ],
+ "eng": [
+  "Amur rose"
+ ],
+ "scnm_full": [
+  "Rosa davurica Pall. / Rosa amblyotis C.A.Mey."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃잎",
+  "순",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 꽃잎, 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14757720,
+ "genus": "Rosa",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 31,
+ "candidates": [
+  {
+   "compound": "(1R,3aS,5aS,5bR,7aR,9R,10R,11aR,11bR,13bR)-9,10-dihydroxy-5a,5b,8,8,11a-pentamethyl-1-prop-1-en-2-yl-1,2,3,4,5,6,7,7a,9,10,11,11b,12,13b-tetradecahydrocyclopenta[a]chrysene-3a-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 44584080,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R)-3-[(2S,3R,4R)-3,4-dihydroxy-4-(hydroxymethyl)oxolan-2-yl]oxy-2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 162981128,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3S,4R,5R)-2-(ethoxymethyl)oxane-2,3,4,5-tetrol",
+   "compound_ko": null,
+   "pubchem_cid": 91552627,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(10R,11S,28R,29R,31R)-3,4,5,16,17,18,21,22,23,36,37,38-dodecahydroxy-8,13,26,34-tetraoxo-9,12,27,30,33-pentaoxaheptacyclo[33.3.1.02,7.010,31.011,28.014,19.020,25]nonatriaconta-1(39),2,4,6,14,16,18,20,22,24,35,37-dodecaen-29-yl] 2-[2,3-dihydroxy-5-[[(10S,11S,12R,13S,15R)-3,4,5,11,13,21,22,23-octahydroxy-8,18-dioxo-9,14,17-trioxatetracyclo[17.4.0.02,7.010,15]tricosa-1(23),2,4,6,19,21-hexaen-12-yl]oxycarbonyl]phenoxy]-3,4,5-trihydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 163192013,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "[(10R,11S,28R,29R,31R)-3,4,5,16,17,18,21,22,23,36,37,38-dodecahydroxy-8,13,26,34-tetraoxo-9,12,27,30,33-pentaoxaheptacyclo[33.3.1.02,7.010,31.011,28.014,19.020,25]nonatriaconta-1(39),2,4,6,14,16,18,20,22,24,35,37-dodecaen-29-yl] 2-[5-[[(1R,2S,19R,20R,22R)-7,8,9,12,13,14,28,29,30,33,34,35-dodecahydroxy-4,17,25,38-tetraoxo-3,18,21,24,39-pentaoxaheptacyclo[20.17.0.02,19.05,10.011,16.026,31.032,37]nonatriaconta-5,7,9,11,13,15,26,28,30,32,34,36-dodecaen-20-yl]oxycarbonyl]-2,3-dihydroxyphenoxy]-3,4,5-",
+   "compound_ko": null,
+   "pubchem_cid": 163024696,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.005
+}

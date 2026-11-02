@@ -1,0 +1,58 @@
+{
+ "key": "Strongylocentrotus intermedius",
+ "name_ko": "새치성게",
+ "names": [
+  "새치성게"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Intermedial sea urchin"
+ ],
+ "scnm_full": [
+  "Strongylocentrotus intermedius"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14776911,
+ "genus": "Strongylocentrotus",
+ "family": "Strongylocentrotidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "2,2'-(Ethan-1,1-diyl)bis(3,5,6,7,8-pentahydroxy-1,4-naphthoquinone)",
+   "compound_ko": null,
+   "pubchem_cid": 135706818,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2,3,5,6,8-Pentahydroxy-1,4-naphthalenedione",
+   "compound_ko": null,
+   "pubchem_cid": 135518074,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "QXBXYHGNKIYHCT-UHFFFAOYSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.602
+}

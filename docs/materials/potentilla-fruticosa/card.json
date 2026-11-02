@@ -1,0 +1,80 @@
+{
+ "key": "Potentilla fruticosa",
+ "name_ko": "흰물싸리",
+ "names": [
+  "흰물싸리잎"
+ ],
+ "nicknames": [
+  "은물싸리"
+ ],
+ "eng": [
+  "Yellow gem, Shrubby cinquefoil"
+ ],
+ "scnm_full": [
+  "Potentilla fruticosa / Dasiphora fruticosa var. coreana Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14756965,
+ "genus": "Potentilla",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 28,
+ "candidates": [
+  {
+   "compound": "Kaempferol-3-Beta-D-(6-O-Cis-P-Coumaroyl)Glucopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 10175330,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Tellimoside",
+   "compound_ko": null,
+   "pubchem_cid": 14055723,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 4
+  },
+  {
+   "compound": "Apigenin-7-O-(6''-O-4-coumaroyl)-beta-glucopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 6439941,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  },
+  {
+   "compound": "Quercetin 3-(6''-galloylgalactoside)",
+   "compound_ko": "퀘르세틴 3-(6''-갈로일갈락토사이드)",
+   "pubchem_cid": 5491814,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 12개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 12
+  },
+  {
+   "compound": "Quercetin 3',4',7-trimethyl ether",
+   "compound_ko": "퀘르세틴 3',4',7-트리메틸 에테르",
+   "pubchem_cid": 5748558,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  }
+ ],
+ "priority": 4.462
+}

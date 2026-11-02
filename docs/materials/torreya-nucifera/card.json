@@ -1,0 +1,80 @@
+{
+ "key": "Torreya nucifera",
+ "name_ko": "비자나무",
+ "names": [
+  "비자나무씨앗",
+  "비자나무열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Nut-bearing torreya"
+ ],
+ "scnm_full": [
+  "Torreya nucifera S. et Z. / Torreya grandis Frot."
+ ],
+ "kind": "plant",
+ "parts": [
+  "씨앗",
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매, 씨앗※(비자)"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14759642,
+ "genus": "Torreya",
+ "family": "Taxaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 56,
+ "candidates": [
+  {
+   "compound": "(1R,2S,4aS,10aR)-1-(hydroxymethyl)-1,4a-dimethyl-7-propan-2-yl-2,3,4,9,10,10a-hexahydrophenanthrene-2,6-diol",
+   "compound_ko": null,
+   "pubchem_cid": 163003074,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2E,6E)-9-(furan-3-yl)-2,6-dimethylnona-2,6-dien-1-ol",
+   "compound_ko": null,
+   "pubchem_cid": 12444395,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2E,6E)-9-(furan-3-yl)-2,6-dimethylnona-2,6-dienal",
+   "compound_ko": null,
+   "pubchem_cid": 12444394,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,4aS,10aS)-2,5,8-trihydroxy-6-methoxy-1,1,4a-trimethyl-7-propan-2-yl-3,4,10,10a-tetrahydro-2H-phenanthren-9-one",
+   "compound_ko": null,
+   "pubchem_cid": 163028933,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,4aS,10aS)-2,5-dihydroxy-6-methoxy-1,1,4a-trimethyl-7-propan-2-yl-3,4,10,10a-tetrahydro-2H-phenanthren-9-one",
+   "compound_ko": null,
+   "pubchem_cid": 162911446,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.133
+}

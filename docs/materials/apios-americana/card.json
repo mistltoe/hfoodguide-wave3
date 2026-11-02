@@ -1,0 +1,62 @@
+{
+ "key": "Apios americana",
+ "name_ko": "인디언감자",
+ "names": [
+  "인디언감자"
+ ],
+ "nicknames": [
+  "감자콩"
+ ],
+ "eng": [
+  "Earthnut, Ground nut"
+ ],
+ "scnm_full": [
+  "Apios americana"
+ ],
+ "kind": "plant",
+ "parts": [
+  "덩이줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 덩이줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747880,
+ "genus": "Apios",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "2'-Hydroxygenistein",
+   "compound_ko": "2'-하이드록시제니스테인",
+   "pubchem_cid": 5282074,
+   "part": "Leaf Diffusate",
+   "content": "최대 26 ppm",
+   "rationale": "이 성분이 보고된 생물은 26개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 26 ppm",
+   "n_genera": 26
+  },
+  {
+   "compound": "(2S,3S,4S,5R,6R)-6-[[(3S,4S,4aR,6aR,6bS,8aR,9R,12aR,14aR,14bR)-4-(hydroxymethyl)-9-[[(2R)-5-hydroxy-6-methyl-4-oxo-2,3-dihydropyran-2-yl]oxy]-4,6a,6b,8a,11,11,14b-heptamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-5-[(2S,3R,4S,5R,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-3,4-dihydroxyoxane-2-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 163080889,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Apiocarpin",
+   "compound_ko": null,
+   "pubchem_cid": 117587659,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.041
+}

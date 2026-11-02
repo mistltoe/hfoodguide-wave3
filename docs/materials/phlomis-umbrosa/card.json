@@ -1,0 +1,42 @@
+{
+ "key": "Phlomis umbrosa",
+ "name_ko": "한속단",
+ "names": [
+  "한속단농축분말",
+  "한속단농축액",
+  "한속단분말",
+  "한속단뿌리",
+  "한속단뿌리농축액",
+  "한속단뿌리분말",
+  "한속단뿌리추출분말",
+  "한속단잎",
+  "한속단추출고형분",
+  "한속단추출분말",
+  "한속단추출액"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Phlomis umbrosa Turcz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 뿌리※(한속단)"
+ ],
+ "status": "allowed",
+ "n_rows": 11,
+ "bioresource_id": null,
+ "genus": "Phlomis",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.877
+}

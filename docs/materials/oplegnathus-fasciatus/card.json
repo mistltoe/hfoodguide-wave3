@@ -1,0 +1,33 @@
+{
+ "key": "Oplegnathus fasciatus",
+ "name_ko": "돌돔",
+ "names": [
+  "돌돔"
+ ],
+ "nicknames": [
+  "아홉동가리",
+  "청돔"
+ ],
+ "eng": [
+  "Barred knifejaw, Rock bream, Striped beak perch"
+ ],
+ "scnm_full": [
+  "Oplegnathus fasciatus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16356420,
+ "genus": "Oplegnathus",
+ "family": "Oplegnathidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

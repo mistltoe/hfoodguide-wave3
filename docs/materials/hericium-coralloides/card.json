@@ -1,0 +1,78 @@
+{
+ "key": "Hericium coralloides",
+ "name_ko": "산호침버섯",
+ "names": [
+  "산호침버섯"
+ ],
+ "nicknames": [
+  "수실노루궁뎅이"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Hericium coralloides (Scop.) Pers. / Hericium ramosum (Bull.) Letell"
+ ],
+ "kind": "plant",
+ "parts": [
+  "자실체"
+ ],
+ "conditions": [
+  "사용가능부위 : 자실체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762086,
+ "genus": "Hericium",
+ "family": "Hericiaceae",
+ "kingdom": "Fungi",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 19,
+ "candidates": [
+  {
+   "compound": "(1S,2R,5R,10R,13S,14S,16S,17R,20S,21R,22R)-2,5-dimethyl-8-propan-2-yl-15,19,23-trioxahexacyclo[18.2.1.02,10.05,9.013,22.016,21]tricos-8-ene-14,17,21-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163050016,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R,9R,15S,18S,19S,20R,21R)-9,12-dimethyl-6-propan-2-yl-14,16-dioxahexacyclo[16.3.1.04,12.05,9.013,21.015,20]docosa-1,5-diene-18,19,20,22-tetrol",
+   "compound_ko": null,
+   "pubchem_cid": 5317180,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4R,9S,12R,13R,15S,18S,20S,21R,22R)-18,20,22-trihydroxy-9,12-dimethyl-6-propan-2-yl-14,16-dioxahexacyclo[16.3.1.04,12.05,9.013,21.015,20]docosa-1,5-dien-19-one",
+   "compound_ko": null,
+   "pubchem_cid": 162960735,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "5-(3,7-dimethylocta-2,6-dienyl)-4-hydroxy-2-[2-(1H-indol-3-yl)ethyl]-6-methoxy-3H-isoindol-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162816041,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "5-(3,7-dimethylocta-2,6-dienyl)-4-hydroxy-2-[2-(4-hydroxyphenyl)ethyl]-6-methoxy-3H-isoindol-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 162816042,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.301
+}

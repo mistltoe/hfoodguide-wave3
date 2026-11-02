@@ -1,0 +1,32 @@
+{
+ "key": "Reinhardtius hippoglossoides",
+ "name_ko": "검정가자미",
+ "names": [
+  "검정가자미",
+  "검정가자미살"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Greenland halibut"
+ ],
+ "scnm_full": [
+  "Reinhardtius hippoglossoides"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "죽순"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 16729204,
+ "genus": "Reinhardtius",
+ "family": "Pleuronectidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

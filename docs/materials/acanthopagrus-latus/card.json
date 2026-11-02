@@ -1,0 +1,30 @@
+{
+ "key": "Acanthopagrus latus",
+ "name_ko": "새눈치",
+ "names": [
+  "새눈치"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Yellowfin seabream"
+ ],
+ "scnm_full": [
+  "Acanthopagrus latus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14801719,
+ "genus": "Acanthopagrus",
+ "family": "Sparidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

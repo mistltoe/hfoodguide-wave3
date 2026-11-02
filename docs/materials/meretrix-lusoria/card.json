@@ -1,0 +1,30 @@
+{
+ "key": "Meretrix lusoria",
+ "name_ko": "백합",
+ "names": [
+  "백합"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Hard clam, Common orient clam"
+ ],
+ "scnm_full": [
+  "Meretrix lusoria"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16142511,
+ "genus": "Meretrix",
+ "family": "Veneridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

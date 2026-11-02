@@ -1,0 +1,42 @@
+{
+ "key": "Pyrus ussuriensis",
+ "name_ko": "산돌배",
+ "names": [
+  "금강산돌배열매",
+  "산돌배열매농축액",
+  "산돌배열매발효추출액",
+  "청실배열매"
+ ],
+ "nicknames": [
+  "돌배",
+  "산돌배나무"
+ ],
+ "eng": [
+  "Geumgangsan wild pear",
+  "Ovoid-fruit Ussurian pear",
+  "Ussurian pear"
+ ],
+ "scnm_full": [
+  "Pyrus ussuriensis Maim. / Pyrus amoena Koidz./ Pyrus aromatica Kikuchi & Nakai",
+  "Pyrus ussuriensis Max. var. diamantica Uyeki.",
+  "Pyrus ussuriensis Max. var. ovoidea Rehder"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": null,
+ "genus": "Pyrus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.983
+}

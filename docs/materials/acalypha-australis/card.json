@@ -1,0 +1,74 @@
+{
+ "key": "Acalypha australis",
+ "name_ko": "깨풀",
+ "names": [
+  "깨풀순",
+  "깨풀잎"
+ ],
+ "nicknames": [
+  "들깨풀",
+  "함주초"
+ ],
+ "eng": [
+  "Asian copperleaf"
+ ],
+ "scnm_full": [
+  "Acalypha australis L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14747029,
+ "genus": "Acalypha",
+ "family": "Euphorbiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "[(1S,8R,9R,18R,19S,21R,22S)-7,7,8,12,13,22-hexahydroxy-21-(hydroxymethyl)-3,6,16-trioxo-2,17,20,23-tetraoxapentacyclo[16.3.1.18,11.04,9.010,15]tricosa-4,10,12,14-tetraen-19-yl] 3,4,5-trihydroxybenzoate",
+   "compound_ko": null,
+   "pubchem_cid": 101921699,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 10개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 10
+  },
+  {
+   "compound": "beta-D-Glucopyranose, cyclic 2-7:4-5-(3,6-dihydro-2,9,10,11,11-pentahydroxy-3-oxo-2,6-methano-2H-1-benzoxocin-5,7-dicarboxylate) 1-(3,4,5-trihydroxybenzoate), (2(2S))-",
+   "compound_ko": null,
+   "pubchem_cid": 3086135,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 11
+  },
+  {
+   "compound": "Corilagin",
+   "compound_ko": "코릴라진",
+   "pubchem_cid": 73568,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 25개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 25
+  },
+  {
+   "compound": "Geraniin",
+   "compound_ko": "제라닌",
+   "pubchem_cid": 3001497,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 27개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 27
+  }
+ ],
+ "priority": 5.419
+}

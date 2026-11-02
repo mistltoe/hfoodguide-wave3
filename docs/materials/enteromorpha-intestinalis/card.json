@@ -1,0 +1,96 @@
+{
+ "key": "Enteromorpha intestinalis",
+ "name_ko": "파래",
+ "names": [
+  "건파래",
+  "건파래가루",
+  "건파래볶음",
+  "구운파래",
+  "잎파래",
+  "조미파래",
+  "창자갈파래",
+  "청파래",
+  "파래",
+  "파래부각",
+  "파래분말",
+  "파래추출물"
+ ],
+ "nicknames": [
+  "가시파래",
+  "격자파래",
+  "납작파래",
+  "잎파래",
+  "창자파래"
+ ],
+ "eng": [
+  "Sea lettuce"
+ ],
+ "scnm_full": [
+  "Enteromorpha intestinalis / Enteromorpha compressa / Enteromorpha linza / Enteromorpha prolifera / Enteromorpha clathrata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 12,
+ "bioresource_id": 14789316,
+ "genus": "Ulva",
+ "family": "Ulvaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 23,
+ "candidates": [
+  {
+   "compound": "(1R,3R,5R,6R,9R,11S,15R)-3,15-dihydroxy-8-methyl-9-[(E)-non-1-enyl]-10,13-dioxatetracyclo[9.2.2.01,5.06,11]pentadec-7-en-12-one",
+   "compound_ko": null,
+   "pubchem_cid": 11794758,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,3R,5S,6R,9R,11S,15R)-3,15-dihydroxy-8-methyl-9-[(E)-non-1-enyl]-10,13-dioxatetracyclo[9.2.2.01,5.06,11]pentadec-7-en-12-one",
+   "compound_ko": null,
+   "pubchem_cid": 10834264,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,6S,7E,9S,11E,13R,14S,16R,17S,18R,19S)-6-hydroxy-19-(1H-indol-3-ylmethyl)-7,9,16,17-tetramethyl-15-oxa-20-azatetracyclo[11.8.0.01,18.014,16]henicosa-7,11-diene-2,5,21-trione",
+   "compound_ko": null,
+   "pubchem_cid": 10392232,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,6S,7E,9S,11E,13R,14S,17R,18S)-6,14-dihydroxy-18-(1H-indol-3-ylmethyl)-7,9,15,16-tetramethyl-19-azatricyclo[11.7.0.01,17]icosa-7,11,15-triene-2,5,20-trione",
+   "compound_ko": null,
+   "pubchem_cid": 10414658,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,5S,6R,7S,8R,10S,11R,12E,15S,16E,19S)-5-(1H-indol-3-ylmethyl)-7,8,15,17-tetramethyl-9-oxa-4,22-diazapentacyclo[17.2.1.02,6.02,11.08,10]docosa-1(22),12,16-triene-3,18-dione",
+   "compound_ko": null,
+   "pubchem_cid": 10255818,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 8.931
+}

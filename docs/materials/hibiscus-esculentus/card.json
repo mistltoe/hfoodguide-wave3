@@ -1,0 +1,45 @@
+{
+ "key": "Hibiscus esculentus",
+ "name_ko": "오크라",
+ "names": [
+  "건조오크라",
+  "오크라꽃",
+  "오크라분말",
+  "오크라뿌리",
+  "오크라씨앗",
+  "오크라열매",
+  "오크라잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Okra, Abelmoschus esculentus"
+ ],
+ "scnm_full": [
+  "Hibiscus esculentus L. / Abelmoschus esculentus (L.) Moench."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꽃",
+  "뿌리",
+  "씨앗",
+  "열매",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리, 잎, 꽃, 열매, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 7,
+ "bioresource_id": 14753171,
+ "genus": "Hibiscus",
+ "family": "Malvaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.5
+}

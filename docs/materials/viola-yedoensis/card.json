@@ -1,0 +1,83 @@
+{
+ "key": "Viola yedoensis",
+ "name_ko": "호제비",
+ "names": [
+  "호제비꽃잎"
+ ],
+ "nicknames": [
+  "들오랑캐꽃",
+  "들제비꽃",
+  "씨름꽃",
+  "지정초"
+ ],
+ "eng": [
+  "Field purpleflower violet"
+ ],
+ "scnm_full": [
+  "Viola yedoensis Makino"
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14762981,
+ "genus": "Viola",
+ "family": "Violaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 29,
+ "candidates": [
+  {
+   "compound": "(1R,4S,5E,8R,9R)-4-hydroxy-5-methyl-8-(prop-1-en-2-yl)-10-oxabicyclo[7.2.1]dodec-5-en-11-one",
+   "compound_ko": null,
+   "pubchem_cid": 23305215,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-8-[(2S,3R,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-6-[(2S,3S,4S,5R)-3,4,5-trihydroxyoxan-2-yl]chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 125181850,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "5,7-dihydroxy-2-(4-hydroxyphenyl)-6-[(2S,3R,4R,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-8-[(2R,3R,4R,5R)-3,4,5-trihydroxyoxan-2-yl]chromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 159606619,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "6,7-Dihydroxy-5-(7-hydroxy-2-oxochromen-6-yl)oxychromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 91109259,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Apigenin 6-C-alpha-L-arabinopyranosyl-8-C-beta-D-xylopyranoside",
+   "compound_ko": null,
+   "pubchem_cid": 21576180,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.477
+}

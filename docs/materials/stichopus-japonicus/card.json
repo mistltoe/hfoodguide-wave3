@@ -1,0 +1,49 @@
+{
+ "key": "Stichopus japonicus",
+ "name_ko": "해삼",
+ "names": [
+  "Japanese sea cucumber",
+  "건조돌기해삼알",
+  "건조해삼",
+  "건해삼채",
+  "냉동돌기해삼생식선",
+  "냉동돌기해삼알",
+  "냉동자숙해삼",
+  "돌기해삼",
+  "동결건조해삼",
+  "불린돌기해삼",
+  "염장돌기해삼알",
+  "해삼",
+  "해삼분말",
+  "해삼창자",
+  "해삼추출물"
+ ],
+ "nicknames": [
+  "Sea cucumber"
+ ],
+ "eng": [
+  "Sea cucumber"
+ ],
+ "scnm_full": [
+  "Stichopus japonicus",
+  "Stichopus japonicus / Apostichopus japonicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-",
+  "균핵",
+  "열매"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 15,
+ "bioresource_id": null,
+ "genus": "Stichopus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 8.5
+}

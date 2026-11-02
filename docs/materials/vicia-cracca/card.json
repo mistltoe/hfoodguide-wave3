@@ -1,0 +1,84 @@
+{
+ "key": "Vicia cracca",
+ "name_ko": "등갈퀴나물",
+ "names": [
+  "등갈퀴나물순",
+  "등갈퀴나물씨앗"
+ ],
+ "nicknames": [
+  "등갈키나물",
+  "등말굴레",
+  "등말굴레풀"
+ ],
+ "eng": [
+  "Turfed vetch"
+ ],
+ "scnm_full": [
+  "Vicia cracca L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "씨앗"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14760165,
+ "genus": "Vicia",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 11,
+ "candidates": [
+  {
+   "compound": "2-Methoxy-6-(2-phenylethenyl)pyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 85272275,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-Methoxy-6-[2-(4-methoxyphenyl)ethenyl]pyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 85196120,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-methoxy-6-[(E)-2-(4-methoxyphenyl)ethenyl]pyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 10587288,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "2-methoxy-6-[(E)-2-phenylethenyl]pyran-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 10799349,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "kaempferol-3-O-alpha-L-rhamnoside",
+   "compound_ko": "캠페롤-3-O-알파-L-람노사이드",
+   "pubchem_cid": 15558501,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 28개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 28
+  }
+ ],
+ "priority": 5.457
+}

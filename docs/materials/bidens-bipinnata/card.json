@@ -1,0 +1,80 @@
+{
+ "key": "Bidens bipinnata",
+ "name_ko": "도깨비바늘",
+ "names": [
+  "도깨비바늘잎"
+ ],
+ "nicknames": [
+  "좀도깨비바늘"
+ ],
+ "eng": [
+  "Spanish needle"
+ ],
+ "scnm_full": [
+  "Bidens bipinnata L. / Bidens decompositus Wall."
+ ],
+ "kind": "plant",
+ "parts": [
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14748578,
+ "genus": "Bidens",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 37,
+ "candidates": [
+  {
+   "compound": "(2R,3R,4S,5R,6R)-2-[(Z)-dec-8-en-4,6-diynoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 163004497,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[(E,3R)-3,10-dihydroxydec-8-en-4,6-diynoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 10936789,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R,3R,4S,5S,6R)-2-[(E,3S)-3,10-dihydroxydec-8-en-4,6-diynoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",
+   "compound_ko": null,
+   "pubchem_cid": 10268930,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,3E,11E)-trideca-3,11-dien-5,7,9-triyne-1,2,13-triol",
+   "compound_ko": null,
+   "pubchem_cid": 162975127,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "12,13-Diacetyloxytridec-2-en-4,6,8,10-tetraynyl acetate",
+   "compound_ko": null,
+   "pubchem_cid": 162907403,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.58
+}

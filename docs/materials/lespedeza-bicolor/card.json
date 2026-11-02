@@ -1,0 +1,84 @@
+{
+ "key": "Lespedeza bicolor",
+ "name_ko": "싸리나무",
+ "names": [
+  "싸리나무순",
+  "싸리나무잎",
+  "싸리나무추출액"
+ ],
+ "nicknames": [
+  "싸리나무"
+ ],
+ "eng": [
+  "Shrub lespedeza"
+ ],
+ "scnm_full": [
+  "Lespedeza bicolor Turcz."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14763137,
+ "genus": "Lespedeza",
+ "family": "Fabaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 44,
+ "candidates": [
+  {
+   "compound": "(+-)-Cyclohexylphenylglycolic acid",
+   "compound_ko": null,
+   "pubchem_cid": 97700,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2S,7R)-7-(2,4-dihydroxyphenyl)-2-methyl-2-(4-methylpent-3-enyl)-7,8-dihydropyrano[3,2-g]chromen-6-one",
+   "compound_ko": null,
+   "pubchem_cid": 162895243,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S)-6-[(2E)-3,7-dimethylocta-2,6-dienyl]-7-hydroxy-3-(4-hydroxy-2-methoxyphenyl)-2,3-dihydrochromen-4-one",
+   "compound_ko": null,
+   "pubchem_cid": 163017024,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(6aR,11aR)-2-(3,7-dimethylocta-2,6-dienyl)-8-methyl-10-(3-methylbut-2-enyl)-6a,11a-dihydro-6H-[1]benzofuro[3,2-c]chromene-3,9-diol",
+   "compound_ko": null,
+   "pubchem_cid": 162883492,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(6aR,11aR)-4-(3,7-dimethylocta-2,6-dienyl)-1-methoxy-6a,11a-dihydro-6H-[1]benzofuro[3,2-c]chromene-3,9-diol",
+   "compound_ko": null,
+   "pubchem_cid": 163052207,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.153
+}

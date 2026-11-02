@@ -1,0 +1,76 @@
+{
+ "key": "Sargassum siliquastrum",
+ "name_ko": "꽈배기모자반",
+ "names": [
+  "꽈배기모자반"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Sargassum siliquastrum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14764780,
+ "genus": "Sargassum",
+ "family": "Sargassaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 88,
+ "candidates": [
+  {
+   "compound": "(2E,4E)-5-[(2S)-6-hydroxy-2,8-dimethylchromen-2-yl]-2-methylpenta-2,4-dienal",
+   "compound_ko": null,
+   "pubchem_cid": 163188313,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-[(3E,6R,7E)-6-hydroxy-4,8,12-trimethyltrideca-3,7,11-trienyl]-2,8-dimethylchromen-6-ol",
+   "compound_ko": null,
+   "pubchem_cid": 163190897,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-[(3E,7E,9R)-9-(hydroxymethyl)-4,8,11-trimethyldodeca-3,7,10-trienyl]-2,8-dimethyl-3,4-dihydrochromen-6-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162868586,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-[(3E,7E,9R,10R)-10-hydroxy-9-methoxy-4,8,12-trimethyltrideca-3,7,11-trienyl]-2,8-dimethyl-3,4-dihydrochromen-6-ol",
+   "compound_ko": null,
+   "pubchem_cid": 76965481,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2R)-2-[(3E,7E,9S,10R)-10-hydroxy-9-methoxy-4,8,12-trimethyltrideca-3,7,11-trienyl]-2,8-dimethyl-3,4-dihydrochromen-6-ol",
+   "compound_ko": null,
+   "pubchem_cid": 76965480,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 4.949
+}

@@ -1,0 +1,76 @@
+{
+ "key": "Chrysobalanus icaco",
+ "name_ko": "코코플럼",
+ "names": [
+  "코코플럼열매"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Chrysobalanus icaco"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749630,
+ "genus": "Chrysobalanus",
+ "family": "Chrysobalanaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 21,
+ "candidates": [
+  {
+   "compound": "9,11,13,15-cis,trans,trans,cis-Octadecatetraenoic acid methyl ester",
+   "compound_ko": null,
+   "pubchem_cid": 91699935,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Methyl 4-oxooctadeca-9,11,13-trienoate",
+   "compound_ko": null,
+   "pubchem_cid": 53680500,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "methyl (11E,13E)-octadeca-9,11,13,15-tetraenoate",
+   "compound_ko": null,
+   "pubchem_cid": 177697246,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "9,11,13-Octadecatrienoic acid, methyl ester",
+   "compound_ko": null,
+   "pubchem_cid": 27746,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Methyl alpha-eleostearate",
+   "compound_ko": null,
+   "pubchem_cid": 21718552,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 2
+  }
+ ],
+ "priority": 4.342
+}

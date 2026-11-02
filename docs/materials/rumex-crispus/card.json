@@ -1,0 +1,92 @@
+{
+ "key": "Rumex crispus",
+ "name_ko": "소리쟁이",
+ "names": [
+  "소리쟁이분말",
+  "소리쟁이어린잎",
+  "소리쟁이잎",
+  "소리쟁이추출물",
+  "소리쟁이추출액"
+ ],
+ "nicknames": [
+  "긴소루쟁이",
+  "긴잎소루쟁이",
+  "야대황",
+  "양제"
+ ],
+ "eng": [
+  "Yellow dock, Curly leafed dock sorrel"
+ ],
+ "scnm_full": [
+  "Rumex crispus L. / Lapathum crispum Scop. / Rumex coreanus Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "어린잎",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 5,
+ "bioresource_id": 14757824,
+ "genus": "Rumex",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_EFSA_COMPENDIUM",
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 71,
+ "candidates": [
+  {
+   "compound": "Nepodin",
+   "compound_ko": "네포딘",
+   "pubchem_cid": 100780,
+   "part": "Root, Seed, Shoot",
+   "content": "최대 1660 ppm",
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 4건 보고(DUKE, LOTUS), 최대 1660 ppm",
+   "n_genera": 9
+  },
+  {
+   "compound": "1,8-dihydroxyanthraquinone derivatives",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "뿌리·지하부",
+   "content": "최대 4 %",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 4건 보고(EFSA), 최대 4 %",
+   "n_genera": 1
+  },
+  {
+   "compound": "Chrysophanic acid-9-anthrone",
+   "compound_ko": null,
+   "pubchem_cid": 68111,
+   "part": "Plant, Root",
+   "content": "최대 3000 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 3건 보고(DUKE, LOTUS), 최대 3000 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "Emodin-8-glucoside",
+   "compound_ko": "에모딘-8-글루코사이드",
+   "pubchem_cid": 99649,
+   "part": "Fruit, Leaf, Root, Stem",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 7개 속뿐이고(특이성), 이 종에서 4건 보고(DUKE)",
+   "n_genera": 7
+  },
+  {
+   "compound": "Diacetin",
+   "compound_ko": null,
+   "pubchem_cid": 66021,
+   "part": "Essential Oil",
+   "content": "최대 226000 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 226000 ppm",
+   "n_genera": 1
+  }
+ ],
+ "priority": 8.235
+}

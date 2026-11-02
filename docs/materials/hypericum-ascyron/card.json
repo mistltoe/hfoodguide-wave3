@@ -1,0 +1,87 @@
+{
+ "key": "Hypericum ascyron",
+ "name_ko": "물레나물",
+ "names": [
+  "물레나물순",
+  "물레나물잎",
+  "큰물레나물잎"
+ ],
+ "nicknames": [
+  "매대체",
+  "애기물레나물",
+  "큰물레나물"
+ ],
+ "eng": [
+  "Great St. John’s-wort"
+ ],
+ "scnm_full": [
+  "Hypericum ascyron L. / Hypericum ascyron var. brevistylum Maxim",
+  "Hypericum ascyron Linne var. longistylum Max."
+ ],
+ "kind": "plant",
+ "parts": [
+  "순",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 순, 잎",
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14753383,
+ "genus": "Hypericum",
+ "family": "Clusiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 47,
+ "candidates": [
+  {
+   "compound": "3,5-dihydroxy-4-[[(1R,2S,5S)-2-hydroxy-2-methyl-5-prop-1-en-2-ylcyclopentyl]methyl]-2-(3-methylbutanoyl)-6,6-bis(3-methylbut-2-enyl)cyclohexa-2,4-dien-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 163049149,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,5-dihydroxy-4-[[(1R,2S,5S)-2-hydroxy-2-methyl-5-prop-1-en-2-ylcyclopentyl]methyl]-6,6-bis(3-methylbut-2-enyl)-2-(2-methylpropanoyl)cyclohexa-2,4-dien-1-one",
+   "compound_ko": null,
+   "pubchem_cid": 72944684,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3,6-Dihydroxy-1,7-dimethoxyxanthone",
+   "compound_ko": null,
+   "pubchem_cid": 101010505,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Hypercalin B",
+   "compound_ko": null,
+   "pubchem_cid": 5281562,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Hypercalin C",
+   "compound_ko": null,
+   "pubchem_cid": 14502640,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 6.681
+}

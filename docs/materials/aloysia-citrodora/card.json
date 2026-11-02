@@ -1,0 +1,83 @@
+{
+ "key": "Aloysia citrodora",
+ "name_ko": "레몬버베나",
+ "names": [
+  "건조레몬버베나",
+  "레몬버베나분말",
+  "레몬버베나잎",
+  "레몬버베나잎추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Lemon verbena"
+ ],
+ "scnm_full": [
+  "Aloysia citrodora Palau /  Aloysia triphylla Britton",
+  "Aloysia citrodora Palau / Aloysia triphylla Britton"
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎"
+ ],
+ "status": "allowed",
+ "n_rows": 4,
+ "bioresource_id": 14747504,
+ "genus": "Aloysia",
+ "family": "Verbenaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 204,
+ "candidates": [
+  {
+   "compound": "2-Methyl-5-(1-methylethenyl)cyclopentanecarboxaldehyde",
+   "compound_ko": null,
+   "pubchem_cid": 102684,
+   "part": "Plant",
+   "content": "최대 105 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE), 최대 105 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "(-)-Cubebene",
+   "compound_ko": null,
+   "pubchem_cid": 42608160,
+   "part": "Plant",
+   "content": "최대 21 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 21 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "(+)-Thujopsene",
+   "compound_ko": "(+)-투좁센",
+   "pubchem_cid": 11401461,
+   "part": "Plant",
+   "content": "최대 14 ppm",
+   "rationale": "이 성분이 보고된 생물은 11개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 14 ppm",
+   "n_genera": 11
+  },
+  {
+   "compound": "beta-Maaliene",
+   "compound_ko": "베타-말리엔",
+   "pubchem_cid": 101596917,
+   "part": "Plant",
+   "content": "최대 140 ppm",
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 140 ppm",
+   "n_genera": 13
+  },
+  {
+   "compound": "(-)-beta-Curcumene",
+   "compound_ko": "(-)-베타-쿠르쿠멘",
+   "pubchem_cid": 14014430,
+   "part": "Plant",
+   "content": "최대 140 ppm",
+   "rationale": "이 성분이 보고된 생물은 19개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 140 ppm",
+   "n_genera": 19
+  }
+ ],
+ "priority": 7.795
+}

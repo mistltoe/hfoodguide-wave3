@@ -1,0 +1,84 @@
+{
+ "key": "Viola tricolor",
+ "name_ko": "삼색제비",
+ "names": [
+  "삼색제비꽃꽃",
+  "삼색제비꽃추출액"
+ ],
+ "nicknames": [
+  "팬지",
+  "호접제비꽃"
+ ],
+ "eng": [
+  "Pansy, heartsease"
+ ],
+ "scnm_full": [
+  "Viola tricolor L. / Viola tricolor L. var. hortensis DC."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14760231,
+ "genus": "Viola",
+ "family": "Violaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 55,
+ "candidates": [
+  {
+   "compound": "Violanthin",
+   "compound_ko": "비올란틴",
+   "pubchem_cid": 442665,
+   "part": "Flower",
+   "content": "최대 700 ppm",
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS), 최대 700 ppm",
+   "n_genera": 6
+  },
+  {
+   "compound": "15-cis-Violaxanthin",
+   "compound_ko": null,
+   "pubchem_cid": 12358669,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Violin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": "최대 30 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 30 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Tocopherol",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Flower",
+   "content": "최대 302 ppm",
+   "rationale": "이 성분이 보고된 생물은 29개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 302 ppm",
+   "n_genera": 29
+  },
+  {
+   "compound": "(1R,3S,6S)-6-[(1E,3E,5E,7E,9Z,11E,13E,15Z,17E)-18-[(1S,4S,6R)-4-hydroxy-2,2,6-trimethyl-7-oxabicyclo[4.1.0]heptan-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-1,5,5-trimethyl-7-oxabicyclo[4.1.0]heptan-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162964874,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.626
+}

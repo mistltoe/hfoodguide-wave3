@@ -1,0 +1,30 @@
+{
+ "key": "Eugenia stipitata",
+ "name_ko": "아라자",
+ "names": [
+  "아라자열매"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Eugenia stipitata Mac Vaugh"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15622485,
+ "genus": "Eugenia",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

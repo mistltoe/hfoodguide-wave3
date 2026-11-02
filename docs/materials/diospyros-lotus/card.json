@@ -1,0 +1,86 @@
+{
+ "key": "Diospyros lotus",
+ "name_ko": "고욤나무",
+ "names": [
+  "고욤나무열매",
+  "고욤나무열매분말",
+  "고욤나무잎",
+  "고욤나무잎추출물",
+  "고욤나무잎추출물농축액",
+  "고욤나무잎추출물분말"
+ ],
+ "nicknames": [
+  "고양나무"
+ ],
+ "eng": [
+  "Date-plum"
+ ],
+ "scnm_full": [
+  "Diospyros lotus L. / Diospyros kaki var. glabra A.DC."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 6,
+ "bioresource_id": 14751138,
+ "genus": "Diospyros",
+ "family": "Ebenaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 56,
+ "candidates": [
+  {
+   "compound": "(3S,4aR,6aR,6aR,8aR,12aS,14aR,14bR)-4,4,6a,8a,11,11,14b-heptamethyl-2,3,4a,5,6,6a,8,9,10,12,12a,13,14,14a-tetradecahydro-1H-picen-3-ol",
+   "compound_ko": null,
+   "pubchem_cid": 162879940,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(4aR,6aR,6aR,8aR,12aS,14aR,14bR)-4,4,6a,8a,11,11,14b-heptamethyl-1,2,4a,5,6,6a,8,9,10,12,12a,13,14,14a-tetradecahydropicen-3-one",
+   "compound_ko": null,
+   "pubchem_cid": 102035711,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "1',4,4''',8''-Tetrahydroxy-2,2''',3',6''-tetramethyl(1,2':7',2'':7'',1'''-quaternaphthalene)-1'',4'',5,5',5''',8,8',8'''-octone",
+   "compound_ko": null,
+   "pubchem_cid": 169144,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "10-Hydroxy-1,6a,6b,9,9,12a-hexamethyl-1,2,3,4,4a,5,6,6a,7,8,8a,10,11,12,13,14b-hexadecahydropicene-4-carboxylic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162937795,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3beta-Hydroxy-17alpha-19,28-epoxyoleanan-28-one",
+   "compound_ko": null,
+   "pubchem_cid": 12305934,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.967
+}

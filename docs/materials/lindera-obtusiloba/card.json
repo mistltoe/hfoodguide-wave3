@@ -1,0 +1,87 @@
+{
+ "key": "Lindera obtusiloba",
+ "name_ko": "생강나무",
+ "names": [
+  "고로쇠생강나무잎",
+  "생강나무꽃",
+  "생강나무잎"
+ ],
+ "nicknames": [
+  "개동백나무",
+  "동백나무",
+  "아귀나무"
+ ],
+ "eng": [
+  "Blunt-lobe spicebush"
+ ],
+ "scnm_full": [
+  "Lindera obtusiloba Blume / Benzoin cercidifolium (Hemsl.) Rehder",
+  "Lindera obtusiloba Blume f. quinquelobum Uyeki"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎",
+  "제한적사용가능부위 : 꽃(다류의 원료로만 사용)"
+ ],
+ "status": "restricted",
+ "n_rows": 3,
+ "bioresource_id": 14761084,
+ "genus": "Lindera",
+ "family": "Lauraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 7,
+ "candidates": [
+  {
+   "compound": "(2e,3r,4r)-2-(11-Dodecenylidene)-3-hydroxy-4-methoxy-4-methylbutanolide",
+   "compound_ko": null,
+   "pubchem_cid": 10662755,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(2z,3s,4s)-2-(11-Dodecenylidene)-3-hydroxy-4-methylbutanolide",
+   "compound_ko": null,
+   "pubchem_cid": 10401436,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-[(1S)-1-methoxydodec-11-enyl]-5-methylidenefuran-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 162989275,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "4-Hydroxy-5-methylidene-3-tetradecylideneoxolan-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 76005700,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "Pluviatilol",
+   "compound_ko": null,
+   "pubchem_cid": 70695727,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  }
+ ],
+ "priority": 8.903
+}

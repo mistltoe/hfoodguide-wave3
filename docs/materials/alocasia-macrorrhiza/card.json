@@ -1,0 +1,78 @@
+{
+ "key": "Alocasia macrorrhiza",
+ "name_ko": "Habarala덩이",
+ "names": [
+  "Habarala덩이줄기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Giant taro"
+ ],
+ "scnm_full": [
+  "Alocasia macrorrhiza"
+ ],
+ "kind": "plant",
+ "parts": [
+  "덩이줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 덩이줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747478,
+ "genus": "Alocasia",
+ "family": "Araceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 50,
+ "candidates": [
+  {
+   "compound": "Triethylamine citrates",
+   "compound_ko": null,
+   "pubchem_cid": 20441961,
+   "part": "Root",
+   "content": "최대 10600 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 10600 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "Oxalate",
+   "compound_ko": "옥살산염",
+   "pubchem_cid": 71081,
+   "part": "Root",
+   "content": "최대 1280 ppm",
+   "rationale": "이 성분이 보고된 생물은 22개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1280 ppm",
+   "n_genera": 22
+  },
+  {
+   "compound": "Dehydroascorbic Acid",
+   "compound_ko": "디히드로아스코르브산",
+   "pubchem_cid": 440667,
+   "part": "Root",
+   "content": "최대 310 ppm",
+   "rationale": "이 성분이 보고된 생물은 26개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 310 ppm",
+   "n_genera": 26
+  },
+  {
+   "compound": "Succinates",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 15000 ppm",
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 15000 ppm",
+   "n_genera": 3
+  },
+  {
+   "compound": "Malates",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Root",
+   "content": "최대 12330 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 12330 ppm",
+   "n_genera": 5
+  }
+ ],
+ "priority": 4.708
+}

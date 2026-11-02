@@ -1,0 +1,30 @@
+{
+ "key": "Buccinum undatum",
+ "name_ko": "유럽물레고둥",
+ "names": [
+  "유럽물레고둥"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Whelk"
+ ],
+ "scnm_full": [
+  "Buccinum undatum"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 15119457,
+ "genus": "Buccinum",
+ "family": "Buccinidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

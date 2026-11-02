@@ -1,0 +1,82 @@
+{
+ "key": "Celosia cristata",
+ "name_ko": "맨드라미",
+ "names": [
+  "맨드라미",
+  "맨드라미꽃발효액"
+ ],
+ "nicknames": [
+  "계관",
+  "계두"
+ ],
+ "eng": [
+  "Common cockscomb"
+ ],
+ "scnm_full": [
+  "Celosia cristata L. / Celosia argentea var. cristata (L.) Kuntze"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14749376,
+ "genus": "Celosia",
+ "family": "Amaranthaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 19,
+ "candidates": [
+  {
+   "compound": "Betaxanthin",
+   "compound_ko": null,
+   "pubchem_cid": 135926572,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  },
+  {
+   "compound": "Celosianin",
+   "compound_ko": null,
+   "pubchem_cid": 157010010,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 2
+  },
+  {
+   "compound": "Amaranthin betacyanin",
+   "compound_ko": null,
+   "pubchem_cid": 112500418,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 5
+  },
+  {
+   "compound": "Betacyanin",
+   "compound_ko": "베타시아닌",
+   "pubchem_cid": 11953901,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 19개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 19
+  },
+  {
+   "compound": "Isoamaranthin",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Flower",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.178
+}

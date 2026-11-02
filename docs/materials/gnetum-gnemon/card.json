@@ -1,0 +1,82 @@
+{
+ "key": "Gnetum gnemon",
+ "name_ko": "멜린조",
+ "names": [
+  "멜린조꽃",
+  "멜린조씨앗",
+  "멜린조잎"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Melindjo"
+ ],
+ "scnm_full": [
+  "Gnetum gnemon"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "씨앗",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 꽃, 씨앗"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14762799,
+ "genus": "Gnetum",
+ "family": "Gnetaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 82,
+ "candidates": [
+  {
+   "compound": "(10S,11S,18S)-18-(2,4-dihydroxyphenyl)-3-(3,5-dihydroxyphenyl)-4,10-bis(4-hydroxyphenyl)-5,9-dioxapentacyclo[9.8.1.02,6.08,20.012,17]icosa-1,6,8(20),12(17),13,15-hexaene-14,16-diol",
+   "compound_ko": null,
+   "pubchem_cid": 101168034,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1R,8S,9S,16R)-8,16-bis(4-hydroxy-3-methoxyphenyl)tetracyclo[7.6.1.02,7.010,15]hexadeca-2(7),3,5,10(15),11,13-hexaene-4,6,12,14-tetrol",
+   "compound_ko": null,
+   "pubchem_cid": 50918019,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,6R,7R,11S,19S)-11-(2,4-dihydroxyphenyl)-7-(3,5-dihydroxyphenyl)-6,19-bis(4-hydroxyphenyl)-5,18-dioxapentacyclo[11.6.1.02,10.04,8.017,20]icosa-2,4(8),9,13(20),14,16-hexaene-9,15-diol",
+   "compound_ko": null,
+   "pubchem_cid": 101215353,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,6S,7S,11S,19S)-11-(2,4-dihydroxyphenyl)-6-(3,5-dihydroxyphenyl)-7,19-bis(4-hydroxyphenyl)-8,18-dioxapentacyclo[11.6.1.02,10.05,9.017,20]icosa-2,4,9,13(20),14,16-hexaene-4,15-diol",
+   "compound_ko": null,
+   "pubchem_cid": 101198453,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(1S,6S,7S,11S,19S)-11-(2,4-dihydroxyphenyl)-7-(3,5-dihydroxyphenyl)-6,19-bis(4-hydroxyphenyl)-5,18-dioxapentacyclo[11.6.1.02,10.04,8.017,20]icosa-2,4(8),9,13(20),14,16-hexaene-9,15-diol",
+   "compound_ko": null,
+   "pubchem_cid": 10941505,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 7.419
+}

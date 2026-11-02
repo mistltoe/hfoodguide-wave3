@@ -1,0 +1,33 @@
+{
+ "key": "Micropogonias furnieri",
+ "name_ko": "대서양통꼬마민어",
+ "names": [
+  "대서양통꼬마민어"
+ ],
+ "nicknames": [
+  "White mouth croaker",
+  "Whitemouth croaker"
+ ],
+ "eng": [
+  "White mouth croaker, Whitemouth croaker"
+ ],
+ "scnm_full": [
+  "Micropogonias furnieri"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16177643,
+ "genus": "Micropogonias",
+ "family": "Sciaenidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

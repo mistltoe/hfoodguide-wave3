@@ -1,0 +1,80 @@
+{
+ "key": "Dianthus caryophyllus",
+ "name_ko": "카네이션",
+ "names": [
+  "카네이션꽃"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Clove Pinks, Rainbow Pinks, Carnation"
+ ],
+ "scnm_full": [
+  "Dianthus caryophyllus L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃"
+ ],
+ "conditions": [
+  "사용가능부위 : 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14750967,
+ "genus": "Dianthus",
+ "family": "Caryophyllaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_EFSA_COMPENDIUM"
+ ],
+ "n_compounds": 102,
+ "candidates": [
+  {
+   "compound": "Benzyl Salicylate",
+   "compound_ko": "벤질 살리실레이트",
+   "pubchem_cid": 8363,
+   "part": "Flower",
+   "content": "최대 145 ppm",
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 145 ppm",
+   "n_genera": 20
+  },
+  {
+   "compound": "Cis-Hexenyl-Benzoate",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Flower",
+   "content": "최대 320 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 320 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Kaempferide triglycoside",
+   "compound_ko": null,
+   "pubchem_cid": 10818979,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S)-4-[[(2S,3R,4R,5S,6R)-6-[[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4H-chromen-3-yl]oxy]-3,4,5-trihydroxyoxan-2-yl]methoxy]-3-hydroxy-4-oxobutanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162912878,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "(3S)-4-[[(2S,3R,4R,5S,6R)-6-[[5,7-dihydroxy-2-(4-hydroxyphenyl)-4H-chromen-3-yl]oxy]-3,4,5-trihydroxyoxan-2-yl]methoxy]-3-hydroxy-4-oxobutanoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162872620,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 5.013
+}

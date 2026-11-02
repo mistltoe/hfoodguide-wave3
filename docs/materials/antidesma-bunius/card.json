@@ -1,0 +1,32 @@
+{
+ "key": "Antidesma bunius",
+ "name_ko": "빅나이",
+ "names": [
+  "빅나이열매"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Bignay"
+ ],
+ "scnm_full": [
+  "Antidesma bunius"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14747858,
+ "genus": "Antidesma",
+ "family": "Euphorbiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

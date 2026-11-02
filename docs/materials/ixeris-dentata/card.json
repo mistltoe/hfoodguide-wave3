@@ -1,0 +1,32 @@
+{
+ "key": "Ixeris dentata",
+ "name_ko": "흰씀바귀",
+ "names": [
+  "흰씀바귀뿌리",
+  "흰씀바귀잎"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Ixeris dentata (Thunb.) Nakai var. albiflora Nakai"
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리,잎"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": null,
+ "genus": "Ixeris",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 4.377
+}

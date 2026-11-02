@@ -1,0 +1,42 @@
+{
+ "key": "Sargassum fulvellum",
+ "name_ko": "모자반",
+ "names": [
+  "모자반"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Gulf weed, Sea-lentil"
+ ],
+ "scnm_full": [
+  "Sargassum fulvellum"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14779776,
+ "genus": "Sargassum",
+ "family": "Sargassaceae",
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 4,
+ "candidates": [
+  {
+   "compound": "2-[[(2R)-2-hydroxy-3-[(11E,14E)-icosa-11,14-dienoyl]oxypropoxy]methyl]prop-2-enoic acid",
+   "compound_ko": null,
+   "pubchem_cid": 162964615,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.699
+}

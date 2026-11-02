@@ -1,0 +1,52 @@
+{
+ "key": "Maranta arundinacea",
+ "name_ko": "애로루트",
+ "names": [
+  "애로루트뿌리줄기",
+  "애로루트전분"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Arrowroot"
+ ],
+ "scnm_full": [
+  "Maranta arundinacea L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "뿌리줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 뿌리줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14754841,
+ "genus": "Maranta",
+ "family": "Marantaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 26,
+ "candidates": [
+  {
+   "compound": "Lignans",
+   "compound_ko": "리그난",
+   "pubchem_cid": 443013,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 15개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 15
+  },
+  {
+   "compound": "3-(4-Hydroxyphenyl)propionic acid",
+   "compound_ko": "3-(4-히드록시페닐)프로피온산",
+   "pubchem_cid": 10394,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 26개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 26
+  }
+ ],
+ "priority": 5.309
+}

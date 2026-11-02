@@ -1,0 +1,69 @@
+{
+ "key": "Acer platanoides",
+ "name_ko": "노르웨이단풍수액",
+ "names": [
+  "노르웨이단풍수액"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Norway maple"
+ ],
+ "scnm_full": [
+  "Acer platanoides L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "수액"
+ ],
+ "conditions": [
+  "사용가능부위 : 수액"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14778030,
+ "genus": "Acer",
+ "family": "Sapindaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 6,
+ "candidates": [
+  {
+   "compound": "[(1R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1R,4R)-4-hydroxy-2,6,6-trimethylcyclohex-2-en-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-3-en-1-yl] (9Z,12Z,15Z)-octadeca-9,12,15-trienoate",
+   "compound_ko": null,
+   "pubchem_cid": 162880157,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "AQZBYUZKEFENRX-PGCPAECGSA-O",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "KNAAKGXQWAOOSH-CEHBZMSSSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  },
+  {
+   "compound": "SIXFRRFAAOVZLD-PGCPAECGSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 1
+  }
+ ],
+ "priority": 3.845
+}

@@ -1,0 +1,53 @@
+{
+ "key": "Ugni molinae",
+ "name_ko": "우니몰리내",
+ "names": [
+  "우니몰리내",
+  "우니몰리내농축액",
+  "우니몰리내추출물"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Chilean guava, Strawberry myrtle, Uni, Ugni molinae"
+ ],
+ "scnm_full": [
+  "Ugni molinae"
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 3,
+ "bioresource_id": 14782931,
+ "genus": "Ugni",
+ "family": "Myrtaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 4,
+ "candidates": [
+  {
+   "compound": "Alphitolic Acid",
+   "compound_ko": "알피톨산",
+   "pubchem_cid": 12305768,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 20개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 20
+  },
+  {
+   "compound": "Asiatic Acid",
+   "compound_ko": "아시아트산",
+   "pubchem_cid": 119034,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 26개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 26
+  }
+ ],
+ "priority": 5.199
+}

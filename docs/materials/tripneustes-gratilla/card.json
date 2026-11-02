@@ -1,0 +1,28 @@
+{
+ "key": "Tripneustes gratilla",
+ "name_ko": "흰수염성게",
+ "names": [
+  "흰수염성게"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Tripneustes gratilla"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 17085502,
+ "genus": "Tripneustes",
+ "family": "Toxopneustidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

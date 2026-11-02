@@ -1,0 +1,44 @@
+{
+ "key": "Monostroma nitidum",
+ "name_ko": "참홑파래",
+ "names": [
+  "참홑파래"
+ ],
+ "nicknames": [
+  "홑파래"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Monostroma nitidum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "전체"
+ ],
+ "conditions": [
+  "사용가능부위 : 전체"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14783685,
+ "genus": "Monostroma",
+ "family": "Monostromataceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 3,
+ "candidates": [
+  {
+   "compound": "Dimethyl Sulfide",
+   "compound_ko": "다이메틸 설파이드",
+   "pubchem_cid": 1068,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 18
+  }
+ ],
+ "priority": 3.602
+}

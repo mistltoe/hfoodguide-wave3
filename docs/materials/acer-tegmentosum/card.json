@@ -1,0 +1,80 @@
+{
+ "key": "Acer tegmentosum",
+ "name_ko": "산겨릅나무",
+ "names": [
+  "산겨릅나무가지",
+  "산겨릅나무추출액"
+ ],
+ "nicknames": [
+  "벌나무"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Acer tegmentosum Maxim."
+ ],
+ "kind": "plant",
+ "parts": [
+  "가지"
+ ],
+ "conditions": [
+  "사용가능부위 : 가지 / 제조 조건 : 추출(정제수), 여과, 농축(액상) 또는 건조(분말) / 사용 조건 : 산겨릅나무 농축액 또는 추출분말(고형분 100% 기준)로 유산균음료 2.4g/kg 이하, 기타발효음료 1.3g/kg 이하, 인삼・홍삼음료 2.8 g/kg 이하, 기타음료 1.0 g/kg 이하, 액상차 1.8 g/kg 이하, 고형차 26.6 g/kg 이하, 캔디류 9.8 g/kg 이하로 사용해야 함",
+  "사용가능부위 : 가지 / 제조 조건: 추출(정제수), 여과, 농축(액상) 또는 건조(분말) / 사용 조건: 산겨릅나무 농축액 또는 추출분말(고형분 100% 기준)로 유산균음료 2.4g/kg 이하, 기타발효음료 1.3g/kg 이하, 인삼・홍삼음료 2.8 g/kg 이하, 기타음료 1.0 g/kg 이하, 액상차 1.8 g/kg 이하, 고형차 26.6 g/kg 이하, 캔디류 9.8 g/kg 이하로 사용해야 함"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14779468,
+ "genus": "Acer",
+ "family": "Sapindaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 8,
+ "candidates": [
+  {
+   "compound": "Keracyanin cation",
+   "compound_ko": "케라시아닌",
+   "pubchem_cid": 441674,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 13개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 13
+  },
+  {
+   "compound": "Delphinidin 3-O-rutinoside",
+   "compound_ko": "델피니딘 3-O-루티노사이드",
+   "pubchem_cid": 5492231,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 14개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 14
+  },
+  {
+   "compound": "PLKUTZNSKRWCCA-LTSKFBHWSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 3개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 3
+  },
+  {
+   "compound": "USNPULRDBDVJAO-FXCAAIILSA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 16개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 16
+  },
+  {
+   "compound": "XENHPQQLDPAYIJ-PEVLUNPASA-N",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 18개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 18
+  }
+ ],
+ "priority": 4.832
+}

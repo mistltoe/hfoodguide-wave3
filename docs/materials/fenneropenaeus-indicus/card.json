@@ -1,0 +1,30 @@
+{
+ "key": "Fenneropenaeus indicus",
+ "name_ko": "인도보리새우",
+ "names": [
+  "인도보리새우"
+ ],
+ "nicknames": [
+  "인도흰새우"
+ ],
+ "eng": [],
+ "scnm_full": [
+  "Fenneropenaeus indicus"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Fenneropenaeus",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

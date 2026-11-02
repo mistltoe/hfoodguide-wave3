@@ -1,0 +1,81 @@
+{
+ "key": "Duchesnea indica",
+ "name_ko": "뱀딸기",
+ "names": [
+  "뱀딸기열매"
+ ],
+ "nicknames": [
+  "배암딸기",
+  "큰배암딸기"
+ ],
+ "eng": [
+  "Wrinkled mock strawberry, False Strawberry, Indian strawberry"
+ ],
+ "scnm_full": [
+  "Duchesnea indica (Andr.) Focke / Duchesnea indica var. major Makino / Fragaria indica Andr."
+ ],
+ "kind": "plant",
+ "parts": [
+  "열매"
+ ],
+ "conditions": [
+  "사용가능부위 : 열매"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14751330,
+ "genus": "Duchesnea",
+ "family": "Rosaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 18,
+ "candidates": [
+  {
+   "compound": "2alpha,3alpha,19 alpha-Trihydroxyurs-12-en-28-oic acid",
+   "compound_ko": null,
+   "pubchem_cid": 73645,
+   "part": "Plant",
+   "content": "최대 1.1 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1.1 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "Ducheside A",
+   "compound_ko": null,
+   "pubchem_cid": 5316973,
+   "part": "Plant",
+   "content": "최대 0.8 ppm",
+   "rationale": "이 성분이 보고된 생물은 4개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 0.8 ppm",
+   "n_genera": 4
+  },
+  {
+   "compound": "Ducheside-B",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Plant",
+   "content": "최대 1.5 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1.5 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "Agrimoniin",
+   "compound_ko": "아그리모니인",
+   "pubchem_cid": 16129621,
+   "part": "Leaf",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE, LOTUS)",
+   "n_genera": 6
+  },
+  {
+   "compound": "Xanthoxylin",
+   "compound_ko": "잔톡실린",
+   "pubchem_cid": 66654,
+   "part": "Plant",
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE)",
+   "n_genera": 23
+  }
+ ],
+ "priority": 4.279
+}

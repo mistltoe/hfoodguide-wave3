@@ -1,0 +1,45 @@
+{
+ "key": "Chrysanthemum zawadskii",
+ "name_ko": "구절초",
+ "names": [
+  "건조구절초",
+  "구절초",
+  "구절초꽃",
+  "구절초농축액",
+  "구절초분말",
+  "구절초원액",
+  "구절초잎",
+  "구절초줄기",
+  "구절초추출농축고형분",
+  "구절초추출물",
+  "구절초추출분말",
+  "구절초추출액"
+ ],
+ "nicknames": [],
+ "eng": [],
+ "scnm_full": [
+  "Chrysanthemum zawadskii Herbich var. latilobum (Maxim.) Kitamura  / Chrysanthemum zawadskii var. coreanum",
+  "Chrysanthemum zawadskii Herbich var. latilobum (Maxim.) Kitamura / Chrysanthemum zawadskii var. coreanum"
+ ],
+ "kind": "plant",
+ "parts": [
+  "꽃",
+  "잎",
+  "전체",
+  "줄기"
+ ],
+ "conditions": [
+  "제한적사용가능부위 : 전초※(구절초)"
+ ],
+ "status": "restricted",
+ "n_rows": 12,
+ "bioresource_id": null,
+ "genus": "Chrysanthemum",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 7.551
+}

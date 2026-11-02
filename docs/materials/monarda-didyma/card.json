@@ -1,0 +1,90 @@
+{
+ "key": "Monarda didyma",
+ "name_ko": "베르가모트",
+ "names": [
+  "베르가모트꽃",
+  "베르가모트농축",
+  "베르가모트분말",
+  "베르가모트오일",
+  "베르가모트잎",
+  "베르가모트주스",
+  "베르가모트추출물"
+ ],
+ "nicknames": [
+  "베르가못"
+ ],
+ "eng": [
+  "Bergamot"
+ ],
+ "scnm_full": [
+  "Monarda didyma L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "-",
+  "꽃",
+  "잎"
+ ],
+ "conditions": [
+  "사용가능부위 : 잎, 꽃"
+ ],
+ "status": "allowed",
+ "n_rows": 7,
+ "bioresource_id": 14755226,
+ "genus": "Monarda",
+ "family": "Lamiaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 66,
+ "candidates": [
+  {
+   "compound": "Didymin",
+   "compound_ko": "디디민",
+   "pubchem_cid": 16760075,
+   "part": "Plant",
+   "content": "최대 3000 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE), 최대 3000 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "T-Sabinene-Hydrate",
+   "compound_ko": null,
+   "pubchem_cid": null,
+   "part": "Flower, Leaf",
+   "content": "최대 4 ppm",
+   "rationale": "이 성분이 보고된 생물은 1개 속뿐이고(특이성), 이 종에서 2건 보고(DUKE), 최대 4 ppm",
+   "n_genera": 1
+  },
+  {
+   "compound": "3-Octyl acetate",
+   "compound_ko": "3-옥틸 아세테이트",
+   "pubchem_cid": 521238,
+   "part": "Plant",
+   "content": "최대 110 ppm",
+   "rationale": "이 성분이 보고된 생물은 6개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 110 ppm",
+   "n_genera": 6
+  },
+  {
+   "compound": "Dihydrocarvyl acetate",
+   "compound_ko": "디하이드로카르빌 아세테이트",
+   "pubchem_cid": 30248,
+   "part": "Plant",
+   "content": "최대 45 ppm",
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 45 ppm",
+   "n_genera": 8
+  },
+  {
+   "compound": "(-)-beta-Copaene",
+   "compound_ko": "(-)-베타-코파엔",
+   "pubchem_cid": 21722369,
+   "part": "Plant",
+   "content": "최대 40 ppm",
+   "rationale": "이 성분이 보고된 생물은 15개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 40 ppm",
+   "n_genera": 15
+  }
+ ],
+ "priority": 8.826
+}

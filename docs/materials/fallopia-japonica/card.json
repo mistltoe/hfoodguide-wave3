@@ -1,0 +1,84 @@
+{
+ "key": "Fallopia japonica",
+ "name_ko": "호장근",
+ "names": [
+  "호장근줄기",
+  "호장근줄기추출물"
+ ],
+ "nicknames": [
+  "까치수영",
+  "싱아"
+ ],
+ "eng": [
+  "Mexican Bamboo, Japanese knotweed, Asian knotweed"
+ ],
+ "scnm_full": [
+  "Fallopia japonica (Houtt.) RonseDecr. / Reynoutria japonica Houtt / Polygonum cuspidatum Siebold & Zucc. / Fallopia japonica var. compacta (Hook.f.) J.Bailey"
+ ],
+ "kind": "plant",
+ "parts": [
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 2,
+ "bioresource_id": 14752163,
+ "genus": "Fallopia",
+ "family": "Polygonaceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [
+  "EU_NOVEL_FOOD"
+ ],
+ "n_compounds": 89,
+ "candidates": [
+  {
+   "compound": "7-Hydroxy-4-methoxy-5-methylchromen-2-one",
+   "compound_ko": null,
+   "pubchem_cid": 5318268,
+   "part": "Root",
+   "content": "최대 3 ppm",
+   "rationale": "이 성분이 보고된 생물은 2개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 3 ppm",
+   "n_genera": 2
+  },
+  {
+   "compound": "2-Methoxystypandrone",
+   "compound_ko": null,
+   "pubchem_cid": 158739,
+   "part": "Root",
+   "content": "최대 3 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 3 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "Questinol",
+   "compound_ko": null,
+   "pubchem_cid": 147621,
+   "part": "Root",
+   "content": "최대 1 ppm",
+   "rationale": "이 성분이 보고된 생물은 5개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 1 ppm",
+   "n_genera": 5
+  },
+  {
+   "compound": "2,5-Dimethyl-7-Hydroxychromone",
+   "compound_ko": null,
+   "pubchem_cid": 5316891,
+   "part": "Root",
+   "content": "최대 2 ppm",
+   "rationale": "이 성분이 보고된 생물은 8개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 2 ppm",
+   "n_genera": 8
+  },
+  {
+   "compound": "Reynoutrin",
+   "compound_ko": "레이노우트린",
+   "pubchem_cid": 5320861,
+   "part": "Leaf",
+   "content": "최대 3000 ppm",
+   "rationale": "이 성분이 보고된 생물은 19개 속뿐이고(특이성), 이 종에서 1건 보고(DUKE), 최대 3000 ppm",
+   "n_genera": 19
+  }
+ ],
+ "priority": 5.832
+}

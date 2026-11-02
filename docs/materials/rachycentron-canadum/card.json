@@ -1,0 +1,30 @@
+{
+ "key": "Rachycentron canadum",
+ "name_ko": "날쌔기",
+ "names": [
+  "날쌔기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Cobia, black bonito"
+ ],
+ "scnm_full": [
+  "Rachycentron canadum"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16717596,
+ "genus": "Rachycentron",
+ "family": "Rachycentridae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

@@ -1,0 +1,51 @@
+{
+ "key": "Carduus nutans",
+ "name_ko": "사향엉겅퀴",
+ "names": [
+  "사향엉겅퀴줄기"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Musk thistle, Nodding plumeless thistle"
+ ],
+ "scnm_full": [
+  "Carduus nutans L."
+ ],
+ "kind": "plant",
+ "parts": [
+  "줄기"
+ ],
+ "conditions": [
+  "사용가능부위 : 줄기"
+ ],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 14749185,
+ "genus": "Carduus",
+ "family": "Asteraceae",
+ "kingdom": "Plantae",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 10,
+ "candidates": [
+  {
+   "compound": "Luteolin 7-galactoside",
+   "compound_ko": "루테올린 7-갈락토사이드",
+   "pubchem_cid": 5488493,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 9개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 9
+  },
+  {
+   "compound": "Tilianin",
+   "compound_ko": "틸리아닌",
+   "pubchem_cid": 5321954,
+   "part": null,
+   "content": null,
+   "rationale": "이 성분이 보고된 생물은 23개 속뿐이고(특이성), 이 종에서 1건 보고(LOTUS)",
+   "n_genera": 23
+  }
+ ],
+ "priority": 4.041
+}

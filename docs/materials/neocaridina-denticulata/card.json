@@ -1,0 +1,30 @@
+{
+ "key": "Neocaridina denticulata",
+ "name_ko": "새뱅이",
+ "names": [
+  "새뱅이"
+ ],
+ "nicknames": [],
+ "eng": [
+  "Red cherry shrimp"
+ ],
+ "scnm_full": [
+  "Neocaridina denticulata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": 16258034,
+ "genus": "Neocaridina",
+ "family": "Atyidae",
+ "kingdom": "Animalia",
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}

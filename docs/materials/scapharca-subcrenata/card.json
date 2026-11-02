@@ -1,0 +1,32 @@
+{
+ "key": "Scapharca subcrenata",
+ "name_ko": "새꼬막",
+ "names": [
+  "새꼬막"
+ ],
+ "nicknames": [
+  "피조개"
+ ],
+ "eng": [
+  "Half-crenate ark"
+ ],
+ "scnm_full": [
+  "Scapharca subcrenata"
+ ],
+ "kind": "marine",
+ "parts": [
+  "-"
+ ],
+ "conditions": [],
+ "status": "allowed",
+ "n_rows": 1,
+ "bioresource_id": null,
+ "genus": "Scapharca",
+ "family": null,
+ "kingdom": null,
+ "bio_name_ko": null,
+ "lists": [],
+ "n_compounds": 0,
+ "candidates": [],
+ "priority": 3.0
+}
