@@ -1,0 +1,160 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+PM = "PubMed (National Library of Medicine)"
+AC = "2026-11-02"
+def pm(title, doi, pmid, note):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"title": f"{title} (PMID {pmid}; {note})", "url": url, "publisher": PM, "accessed": AC}
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+S = [
+ {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 비자나무씨앗(사용부위 씨앗)·비자나무열매(사용부위 열매), 학명 표기 'Torreya nucifera S. et Z. / Torreya grandis Frot.', 영명 Nut-bearing torreya, 사용조건 '사용가능부위 : 열매, 씨앗※(비자)', 사용가능", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 이름·분류가 가까운 다른 행: California nutmeg씨앗(Torreya californica, 사용가능부위 씨앗, 사용가능), 눈개비자나무열매·씨앗(Cephalotaxus harringtonia var. nana, 사용가능부위 열매·씨앗, 사용가능), Chinese plum yew열매(Cephalotaxus fortunei, 사용가능부위 열매, 사용가능), 향수비자나무·향수비자나무오일(Cymbopogon nardus, Citronella, 사용불가)", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm("The complete chloroplast genome of Torreya nucifera (Taxaceae) and phylogenetic analysis. Mitochondrial DNA B Resour 2019;4(2):2537-2538", "10.1080/23802359.2019.1640091", "33365615", "PMC7706904 전문 확인"),
+ pm("Seasonal and Regional Effects on the Yield and Bioactive Constituents of Torreya nucifera Essential Oils in South Korea. Plants (Basel) 2025;14(21):3370", "10.3390/plants14213370", "41225920", "PMC12610738 전문 확인"),
+ pm("Integrative Discovery Through Network Pharmacology and Molecular Docking Approaches of Phenolic Compounds Isolated from Torreya nucifera to Treat Rheumatoid Arthritis. Int J Mol Sci 2025;26(23):11629", "10.3390/ijms262311629", "41373781", "PMC12691866 전문 확인"),
+ pm("Src/Syk/IRAK1-targeted anti-inflammatory action of Torreya nucifera butanol fraction in lipopolysaccharide-activated RAW264.7 cells. J Ethnopharmacol 2016;188:167-76", "10.1016/j.jep.2016.05.008", "27178629", "초록만 확인"),
+ pm("Effects of Japanese torreya (Torreya nucifera) seed oil on lipid metabolism in rats. Nutrition 2006;22(5):553-8", "10.1016/j.nut.2005.08.012", "16600818", "초록만 확인"),
+ pm("Effects of Japanese Torreya (Torreya nucifera) seed oil on the activities and mRNA expression of lipid metabolism-related enzymes in rats. Biosci Biotechnol Biochem 2007;71(1):231-3", "10.1271/bbb.60350", "17213654", "초록만 확인"),
+ pm("Effects of non-methylene-interrupted polyunsaturated fatty acid, sciadonic (all-cis-5,11,14-eicosatrienoic acid) on lipid metabolism in rats. Biosci Biotechnol Biochem 2009;73(3):577-81", "10.1271/bbb.80646", "19270392", "초록만 확인"),
+ pm("Torreya nucifera seed oil improves 3T3-L1 adipocyte differentiation. BMC Complement Med Ther 2021;21(1):255", "10.1186/s12906-021-03429-5", "34620154", "PMC8496151 전문 확인"),
+ pm("Anti-proliferative and apoptosis-inducible activity of labdane and abietane diterpenoids from the pulp of Torreya nucifera in HeLa cells. Mol Med Rep 2010;3(4):673-8", "10.3892/mmr_00000315", "21472297", "초록만 확인"),
+ pm("Kayadiol exerted anticancer effects through p53-mediated ferroptosis in NKTCL cells. BMC Cancer 2022;22(1):724", "10.1186/s12885-022-09825-5", "35778693", "초록만 확인"),
+ pm("Isopimaric acid derived from Torreya nucifera blocks autophagy and mitophagy to sensitize colon cancer cells to nutrient starvation. Cell Stress Chaperones 2026;31(2):100151", "10.1016/j.cstres.2026.100151", "41679689", "초록만 확인"),
+ pm("Biflavonoids from Torreya nucifera displaying SARS-CoV 3CL(pro) inhibition. Bioorg Med Chem 2010;18(22):7940-7", "10.1016/j.bmc.2010.09.035", "20934345", "초록만 확인"),
+ pm("Extracellular signal-regulated kinase is a direct target of the anti-inflammatory compound amentoflavone derived from Torreya nucifera. Mediators Inflamm 2013;2013:761506", "10.1155/2013/761506", "23970815", "초록만 확인"),
+ pm("Abietane Diterpenoids Isolated from Torreya nucifera Disrupt Replication of Influenza Virus by Blocking the PI3K-Akt and ERK Signaling Pathway. Curr Issues Mol Biol 2023;45(3):2284-2295", "10.3390/cimb45030147", "36975517", "PMC10046907 전문 확인"),
+ pm("Antioxidant activities of abietane diterpenoids isolated from Torreya nucifera leaves. J Agric Food Chem 2006;54(15):5369-74", "10.1021/jf060896c", "16848519", "초록만 확인"),
+ pm("Neuroprotective dibenzylbutyrolactone lignans of Torreya nucifera. Planta Med 2001;67(5):470-2", "10.1055/s-2001-15804", "11488466", "초록만 확인"),
+ pm("Hepatoprotective dibenzylbutyrolactone lignans of Torreya nucifera against CCl4-induced toxicity in primary cultured rat hepatocytes. Biol Pharm Bull 2003;26(8):1202-5", "10.1248/bpb.26.1202", "12913279", "초록만 확인"),
+ pm("Extract of Torreya nucifera Pericarps Exhibits a Parasiticidal Effect on a Nematode Parasite. J Med Food 2023;26(9):624-630", "10.1089/jmf.2022.K.0112", "37638801", "초록만 확인, 제목의 기생충 학명은 PubMed 표기에서 빠져 있음"),
+ pm("The amoebicidal effect of Torreya nucifera extract on Acanthamoeba lugdunensis. PLoS One 2023;18(2):e0281141", "10.1371/journal.pone.0281141", "36745609", "초록만 확인"),
+ pm("Phylogenetic origin of two Japanese Torreya taxa found in two regions with strongly contrasting snow depth. J Plant Res 2021;134(5):907-919", "10.1007/s10265-021-01301-8", "33866439", "초록만 확인"),
+ pm("The Divergence History of Two Japanese Torreya Taxa (Taxaceae): Implications for Species Diversification in the Japanese Archipelago. Plants (Basel) 2025;14(10):1537", "10.3390/plants14101537", "40431103", "초록만 확인"),
+ pm("Anti-melanogenic effects of hot-water extracts from Torreya nucifera leaves via MAPKs and cAMP signaling pathway on B16F10 cells. Pharmazie 2020;75(11):565-570", "10.1691/ph.2020.0522", "33239130", "초록만 확인"),
+ pm("Leaf anatomy and its implications for phylogenetic relationships in Taxaceae s. l. J Plant Res 2014;127(3):373-88", "10.1007/s10265-014-0625-3", "24496502", "초록만 확인"),
+ pm("Long-term variation in fruiting and the food habits of wild Japanese macaques on Kinkazan Island, northern Japan. Am J Primatol 2006;68(11):1068-80", "10.1002/ajp.20307", "17044008", "초록만 확인"),
+ pm("Metagenomic SMRT Sequencing-Based Exploration of Novel Lignocellulose-Degrading Capability in Wood Detritus from Torreya nucifera in Bija Forest on Jeju Island. J Microbiol Biotechnol 2017;27(9):1670-1680", "10.4014/jmb.1705.05008", "28633514", "초록만 확인"),
+ pm("Complete genome sequence of antibiotic and anticancer agent violacein producing Massilia sp. strain NR 4-1. J Biotechnol 2016;223:36-7", "10.1016/j.jbiotec.2016.02.027", "26916415", "초록만 확인"),
+ pm("Erythema multiforme like reaction to santos rosewood and Torreya nucifera. BMJ Case Rep 2019;12(5) (PubMed 제목의 학명 표기는 이탤릭이 빠져 있음)", "10.1136/bcr-2018-228580", "31092494", "초록만 확인, PMC6536186 본문 없음"),
+ pm("Abietane diterpenoids from suspension cultured cells of Torreya nucifera var. radicans. Phytochemistry 2002;59(4):385-9", "10.1016/s0031-9422(01)00390-9", "11830153", "초록만 확인"),
+ pm("Inhibitory effects of natural plants of Jeju Island on elastase and MMP-1 expression. J Cosmet Sci 2007;58(1):19-33", "", "17342265", "초록만 확인"),
+ pm("[Constituent analysis of the essential oil in leaves of Torreya nucifera]. Zhong Yao Cai 1997;20(11):563-8", "", "12572512", "중국어 논문, 영문 초록만 확인"),
+ pm("Arctigenin, a phenylpropanoid dibenzylbutyrolactone lignan, inhibits MAP kinases and AP-1 activation via potent MKK inhibition: the role in TNF-alpha inhibition. Int Immunopharmacol 2004;4(10-11):1419-29", "10.1016/j.intimp.2004.06.011", "15313439", "초록만 확인"),
+]
+sources = [dict(n=i+1, **s) for i, s in enumerate(S)]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "비자나무(Torreya nucifera)는 주목과(Taxaceae)의 늘푸른 바늘잎나무로, 암나무와 수나무가 따로 있고 키가 25 m까지 자란다[3]. 자연 분포는 한국과 일본에 한정되며, 국내에서는 북위 35°10′ 남쪽에 띄엄띄엄 자란다[3]. 씨앗은 예로부터 구충 약재와 기름 원료로 쓰였고, 한국 전통의학에서는 씨앗을 '비자(榧子)'라고 부른다[3, 5].\n\n"
+  "식약처 「식품원료 목록」에는 '비자나무씨앗'(사용부위 씨앗)과 '비자나무열매'(사용부위 열매) 두 행이 있고, 두 행 모두 사용가능 원료다[1]. 두 행의 사용조건은 똑같이 '사용가능부위 : 열매, 씨앗※(비자)'로 적혀 있어 열매와 씨앗을 식품에 쓸 수 있다[1]. 다만 이 목록의 학명 칸은 'Torreya nucifera S. et Z. / Torreya grandis Frot.'로 중국 비자나무(T. grandis)를 함께 적고 있으므로, 이 문서는 T. nucifera 자료만 다루고 T. grandis 연구는 섞지 않는다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함. 씨앗 기름의 지질 개선 작용과 씨앗·잎 성분의 항염 작용은 동물·세포 실험에서 보고되었으나, 사람 대상 임상시험은 확인하지 못함."},
+ {"key": "history", "title": "역사와 이용", "body":
+  "비자나무 목재는 가구와 불상을 만드는 중요한 재료였고, 씨앗은 구충 약재와 기름 원료로 쓰였다[3]. 씨앗 기름은 예로부터 식품과 머릿기름 같은 모발 관리 제품에 쓰였다고 소개된다[4]. 한국에서는 씨앗·잎·줄기를 오래전부터 먹을거리와 한약재로 써 왔다는 기록이 있다[24].\n\n"
+  "전통적으로는 기생충 감염, 변비, 당뇨, 치질에 쓰였다고 정리되어 있다[10]. 다른 논문은 복통·치질·류머티즘 관절염의 민간 치료제로 쓰였다고 적었다[16]. 국내 비자나무 숲은 주로 절과 향교·사당 주변에 남은 숲으로 보전되어 왔다[4]. 국내 비자나무 숲 다섯 곳은 역사·문화적 가치로 천연기념물로 지정되어 있으며, 제주 구좌읍 평대리 비자림은 천연기념물 제374호다[3]. 국내에서 비자 씨앗이 식품으로 유통된 시기와 규모는 확인하지 못함."},
+ {"key": "biology", "title": "식물학적 특징", "body":
+  "비자나무는 주목과 비자나무속(Torreya)의 늘푸른 큰키나무로 키 15–25 m, 줄기 지름 1.5 m까지 자란다[4]. 잎은 길이 2–3 cm, 너비 3 mm의 바늘 모양이며 끝이 날카롭고 뒷면에 흰 숨구멍 줄이 두 개 있다[4]. 비자나무속 잎은 관다발 아래에 수지구가 하나 있고, 두꺼운 벽을 가진 둥근 표피세포와 실 모양 구조물로 덮인 깊이 묻힌 숨구멍이 특징이다[25]. 암수딴그루이고 오래 사는 나무이며, 세계자연보전연맹(IUCN) 적색목록 등급은 '관심 필요(LC)'다[3].\n\n"
+  "씨앗 기름에는 메틸렌으로 끊기지 않는 고도불포화지방산인 시아돈산(all-cis-5,11,14-에이코사트라이엔산)이 들어 있다[7, 9]. 씨앗 기름의 지방산 조성 수치와 씨앗·열매 크기는 원문을 열지 못해 확인하지 못함. 일본 긴카잔섬의 야생 일본원숭이는 가을에 비자나무 열매를 포함한 견과류를 주로 먹으며, 견과 결실량은 해마다 달랐다[26]."},
+ {"key": "related_species", "title": "이름과 가까운 종", "body":
+  "식약처 「식품원료 목록」의 비자나무 행은 학명 칸에 Torreya nucifera와 Torreya grandis(중국 비자나무)를 함께 적고 있다[1]. 이 문서는 한국·일본에 자라는 T. nucifera 자료만 다루며, 중국의 비자 연구는 대부분 T. grandis를 대상으로 하므로 성분 수치를 그대로 옮겨 쓰지 않는다[1, 3]. 같은 비자나무속의 California nutmeg(Torreya californica)는 '씨앗'만 쓸 수 있는 별도 원료로 올라 있다[2].\n\n"
+  "일본 동해 쪽 눈 많은 지역의 관목형 변종(var. radicans)은 엽록체 유전체로는 중국 T. grandis와 가장 가깝고, 핵 ITS로는 대부분 기본 변종(var. nucifera)과 묶였다[22]. 이 연구진은 이 변종을 별개의 종 T. fruticosa로 다루자고 제안했다[22]. 관목형 변종의 현탁 배양세포에서는 새 아비에탄형 다이테르페노이드 3종과 이미 알려진 4종이 분리되었다[30]. 두 변종의 유전적 분화는 엽록체 DNA에서 0.9619, 핵 유전자에서 0.6543으로 컸고, 갈라진 시기는 177만–303만 년 전으로 추정되었다[23].\n\n"
+  "이름이 비슷한 '개비자나무' 계열은 다른 속(Cephalotaxus)으로, 눈개비자나무 열매·씨앗과 Chinese plum yew 열매가 따로 올라 있다[2]. '향수비자나무'는 시트로넬라(Cymbopogon nardus)를 가리키며 사용불가 원료이므로 비자나무와 혼동하면 안 된다[2]."},
+ {"key": "cultivation", "title": "재배와 산지", "body":
+  "국내 비자나무는 남해안의 난온대 지역과 제주도에 주로 분포한다[4]. 제주 평대리 비자림(천연기념물 제374호)은 대표적인 비자나무 숲이다[3]. 이 숲은 제주의 곶자왈 지대에 있으며, 썩은 비자나무 목재와 숲 토양의 미생물 연구에도 쓰였다[27, 28].\n\n"
+  "비자나무는 모래땅·양토·점토에서 자라고, 그늘을 견디며 습한 곳을 좋아한다고 소개된다[4]. 나주 지역 비자나무 숲 토양은 pH 4.65–6.57(평균 5.37)이었다는 선행 연구가 인용되었다[4]. 제주·진주·화순에서 잎을 채취해 비교한 연구에서는 정유 수율이 계절과 관계없이 건조중량 대비 0.9–1.6%였으나 지역 간 차이는 뚜렷했고 화순이 가장 높았다[4]. 같은 연구에서 2023년 가을 화순산 잎의 정유 수율은 1.4%로 제주산(0.9%)보다 50% 넘게 높았다[4]. 씨앗 생산을 위한 재배 방법, 국내 재배 면적과 생산량 통계는 확인하지 못함."},
+ {"key": "processing", "title": "가공과 이용", "body":
+  "비자나무 씨앗 기름은 식용유이자 전통 약재로 쓰여 왔다[10]. 동물 실험에서는 씨앗 기름의 시아돈산을 요소 부가물 형성과 리파아제 에스터화를 함께 써서 분리했다[9]. 성분 연구에서는 말린 씨앗 10 kg을 갈아 40% 에탄올로 25 °C에서 120분 초음파 추출해 조추출물 390 g을 얻었다[5]. 이 추출물을 헥산·염화메틸렌·에틸아세테이트·부탄올 순으로 나누어 분획을 만들었다[5].\n\n"
+  "열매 겉껍질(과피)은 메탄올로 추출해 말린 뒤 뜨거운 물에 녹인 추출물로 실험에 쓰였다[20]. 잎은 수증기 증류로 정유를 얻는데, 잎 1 kg에 물을 1:7(kg:L)로 넣고 102 °C로 가열해 딘-스타크 장치로 모았다[4]. 잎은 뜨거운 물 추출물로도 연구되었으나, 잎은 식품원료 목록의 사용 가능 부위가 아니다[1, 24]. 국내 건강기능식품 생산실적에서 비자나무 원료 품목은 확인하지 못함.\n\n"
+  "식품 부위가 아닌 잎에 대한 연구도 많다[17, 31, 32]. 제주 식물 약 60종을 선별한 연구에서 비자나무 잎 추출물은 자유 라디칼 소거능이 뚜렷한 12개 추출물에 들었다[31]. 잎 에탄올 추출물에서는 아비에탄형 다이테르페노이드 2종이 분리되어 구리 이온 등으로 유도한 LDL 산화를 억제했다[17]. 중국산 잎 정유에서는 71개 성분이 분리되어 68개가 동정되었다[32]. 부위가 초록에 적히지 않은 비자나무 추출물은 가시아메바(Acanthamoeba lugdunensis)의 미토콘드리아 막전위를 무너뜨려 살아메바 작용을 보였다[21]."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "비자나무의 엽록체 전체 유전체는 136,985 bp의 원형이며 GC 함량은 35.4%다[3]. 유전자는 118개로, 단백질 유전자 82개, tRNA 유전자 33개, rRNA 유전자 4개로 이루어져 있다[3]. 다른 침엽수처럼 한 쌍의 역위반복영역(IR)이 없었다[3]. 시료는 제주 평대리 비자림의 한 나무 잎에서 얻었고, 13개 겉씨식물의 단백질 유전자 81개로 만든 계통수에서 주목과 9개 분류군이 하나의 무리를 이루었다[3].\n\n"
+  "일본의 두 변종을 엽록체 전체 유전체와 핵 ITS로 비교한 결과, 두 유전 표지가 서로 다른 계통 관계를 보여 과거의 교잡과 유전자 흐름이 시사되었다[22]. 다른 연구는 엽록체 DNA 3개 영역과 핵 유전자 14개를 83개체에서 읽어, 두 변종 사이의 유전자 흐름이 매우 약하다고 보고했다[23]. 핵 전체 유전체 해독 보고는 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "비자나무씨앗과 비자나무열매는 식약처 「식품원료 목록」에서 사용가능 원료이며, 사용조건은 '사용가능부위 : 열매, 씨앗※(비자)'다[1]. 이 종에 대한 식약처 등 국내 공공기관의 알레르기·잔류·독성 정보는 확인하지 못함. 사람을 대상으로 한 섭취 안전성 시험도 확인하지 못함.\n\n"
+  "쥐에게 비자 씨앗 기름을 사료의 10%로 4주 동안 먹인 시험에서는 혈장과 간의 중성지방이 옥수수유·콩기름군보다 낮았고, 혈장·간 지질에서 시아돈산이 상당량 검출되었다[7]. 이 초록에는 독성 소견이 따로 적혀 있지 않아 안전성 자료로 볼 수는 없다[7]. 씨앗 기름은 3T3-L1 세포에서 0.1–0.75 μL/mL 범위에서 세포 독성을 보이지 않았다[10]. 열매 과육에서 분리한 카야디올은 사람 암세포 증식을 IC50 30–50 μM에서 억제했는데, 이는 세포 실험 결과다[11].\n\n"
+  "목재 가공 작업자에게서 산토스 로즈우드와 비자나무 목재 등에 대한 접촉피부염으로 생긴 다형홍반 유사 반응이 보고되었다[29]. '향수비자나무'는 사용불가 원료인 시트로넬라의 이름이므로 원료명을 학명으로 확인해야 한다[2]."},
+]
+
+compounds = [
+ {"name": "Sciadonic acid", "name_ko": "시아돈산", "class": "고도불포화지방산(Δ5, 메틸렌 비분절형)", "role": "bioactive", "part": "씨앗(씨앗 기름)",
+  "content_text": "씨앗 기름의 특징 지방산(all-cis-5,11,14-20:3)으로 보고됨[7, 9]; 기름 중 함량 수치는 초록에 없어 확인하지 못함",
+  "activity_ko": "씨앗 기름에서 분리한 시아돈산을 5%·10% 섞은 사료를 2주 먹인 쥐에서 혈청·간 중성지방 감소[9]; 씨앗 기름 10% 사료 4주에서 간의 지방산 합성 효소 일부 활성 감소[8]", "source": [7, 8, 9]},
+ {"name": "Amentoflavone", "name_ko": "아멘토플라본", "class": "바이플라보노이드", "role": "bioactive", "part": "잎·씨앗",
+  "content_text": "잎 에탄올 추출물에서 분리[14]; 씨앗 분획 HPLC에서 활성 후보 성분으로 지목(함량 확인하지 못함)[6]",
+  "activity_ko": "SARS-CoV 3CLpro 억제 IC50 8.3 μM(효소 실험)[14]; RAW264.7 세포에서 LPS 유도 NO·PGE2 생성 억제, ERK 직접 억제[15]", "source": [6, 14, 15]},
+ {"name": "Arctigenin", "name_ko": "아크티게닌", "class": "다이벤질뷰티로락톤 리그난", "role": "bioactive", "part": "나무껍질·씨앗",
+  "content_text": "나무껍질 메탄올 추출물에서 분리[18, 19]; 씨앗 분획 HPLC에서 활성 후보 성분으로 지목(함량 확인하지 못함)[6]",
+  "activity_ko": "쥐 대뇌피질 세포의 글루타메이트 독성 억제(0.01–10 μM)[18]; 쥐 간세포 CCl4 손상 억제[19]; MKK1 억제 IC50 1 nM(효소 실험)[33]", "source": [6, 18, 19, 33]},
+ {"name": "Quercetin", "name_ko": "쿼세틴", "class": "플라보놀", "role": "bioactive", "part": "씨앗",
+  "content_text": "씨앗 분획 HPLC에서 활성 후보 성분으로 지목(함량 확인하지 못함)[6]",
+  "activity_ko": "SARS-CoV 3CLpro 억제 IC50 23.8 μM(표준품 비교 시험)[14]", "source": [6, 14]},
+ {"name": "Gallic acid", "name_ko": "갈산", "class": "페놀산", "role": "bioactive", "part": "씨앗",
+  "content_text": "말린 씨앗 40% 에탄올 추출물에서 분리한 12개 페놀 성분 중 하나(함량 확인하지 못함)[5]",
+  "activity_ko": "분리 성분의 류머티즘 관절염 관련 표적은 네트워크 약리·도킹으로 예측됨(실험 검증 아님)[5]", "source": [5]},
+ {"name": "Protocatechuic acid", "name_ko": "프로토카테큐산", "class": "페놀산", "role": "bioactive", "part": "씨앗",
+  "content_text": "씨앗 추출물에서 분리(함량 확인하지 못함)[5]",
+  "activity_ko": "씨앗 추출물(100 µg/mL)은 LPS 자극 RAW264.7 세포에서 p65·IκBα 인산화 억제[5]", "source": [5]},
+ {"name": "Vanillic acid", "name_ko": "바닐산", "class": "페놀산", "role": "bioactive", "part": "씨앗",
+  "content_text": "씨앗 추출물에서 분리(함량 확인하지 못함)[5]",
+  "activity_ko": "분리 성분 가운데 하나로 도킹 분석 대상[5]", "source": [5]},
+ {"name": "Kayadiol", "name_ko": "카야디올", "class": "랍단형 다이테르페노이드", "role": "bioactive", "part": "열매 과육",
+  "content_text": "열매 과육 메탄올 추출물에서 분리(함량 확인하지 못함)[11]",
+  "activity_ko": "HeLa 세포 증식 억제 IC50 30 µM, 다른 6개 암세포주 IC50 30–50 µM[11]; NK/T 세포 림프종 세포에서 p53 매개 페롭토시스 유도(세포 실험)[12]", "source": [11, 12]},
+ {"name": "Isopimaric acid", "name_ko": "아이소피마르산", "class": "다이테르페노이드", "role": "bioactive", "part": "부위는 초록에 없어 확인하지 못함",
+  "content_text": "비자나무 유래 성분으로 소개(함량 확인하지 못함)[13]",
+  "activity_ko": "대장암 세포에서 자가포식 흐름과 미토파지 차단, 혈청 결핍 조건에서만 세포 사멸 유도(세포 실험)[13]", "source": [13]},
+ {"name": "18-Hydroxyferruginol", "name_ko": "18-하이드록시페루기놀", "class": "아비에탄형 다이테르페노이드", "role": "bioactive", "part": "잎",
+  "content_text": "잎 추출물의 n-헥산 분획에서 분리(함량 확인하지 못함)[16]",
+  "activity_ko": "인플루엔자 H1N1 IC50 13.6 μM, H9N2 12.8 μM(감염 후 처리, 세포 실험)[16]", "source": [16]},
+ {"name": "18-Oxoferruginol", "name_ko": "18-옥소페루기놀", "class": "아비에탄형 다이테르페노이드", "role": "bioactive", "part": "잎",
+  "content_text": "잎 추출물의 n-헥산 분획에서 분리(함량 확인하지 못함)[16]",
+  "activity_ko": "인플루엔자 H9N2 IC50 10.8 μM, H1N1 18.3 μM, H3N2 29.2 μM(세포 실험)[16]", "source": [16]},
+ {"name": "D-Limonene", "name_ko": "D-리모넨", "class": "모노테르펜", "role": "marker", "part": "잎 정유",
+  "content_text": "잎 정유 중 36.8–51.1%(봄)·40.5–70.6%(여름·가을), 최대 70.6 ± 5.5%(2023년 가을 화순)[4]",
+  "activity_ko": "정유 품질 관리용 화학 지표로 선정됨[4]", "source": [4]},
+ {"name": "3-Carene", "name_ko": "3-카렌", "class": "모노테르펜", "role": "marker", "part": "잎 정유",
+  "content_text": "잎 정유 중 8.7–30.8%; 2023년 봄 제주 26.6 ± 5.2%, 진주 12.6 ± 3.3%, 화순 11.6 ± 3.1%[4]",
+  "activity_ko": "D-리모넨과 함께 정유 품질 관리용 화학 지표로 선정됨[4]", "source": [4]},
+ {"name": "alpha-Pinene", "name_ko": "α-피넨", "class": "모노테르펜", "role": "bioactive", "part": "잎 정유",
+  "content_text": "잎 정유 중 22.61–32.96%(2023년 봄, 세 지역)[4]",
+  "activity_ko": "α-피넨·3-카렌·D-리모넨 세 성분이 정유의 79.4–86.5%를 차지[4]", "source": [4]},
+ {"name": "Traxillagenin", "name_ko": "트락실라게닌", "class": "다이벤질뷰티로락톤 리그난", "role": "bioactive", "part": "나무껍질",
+  "content_text": "나무껍질 메탄올 추출물에서 분리(함량 확인하지 못함)[18]",
+  "activity_ko": "쥐 대뇌피질 세포 신경 보호[18]; 쥐 간세포 CCl4 손상 억제, 글루타티온 수준 유지[19]", "source": [18, 19]},
+]
+
+assays = [
+ {"role": "literature", "compound": "D-Limonene; 3-Carene", "compound_ko": "D-리모넨·3-카렌", "part": "잎 정유(수증기 증류) — 식품원료 목록의 사용 가능 부위(열매·씨앗)가 아님",
+  "content": "D-리모넨 최대 70.6 ± 5.5%(2023년 가을 화순), 3-카렌 8.7–30.8%(2023–2024년)[4]",
+  "method": "GC-MS(외부표준법)",
+  "conditions": {
+   "instrument": "Agilent 7890B GC + 5977A MSD",
+   "column": "VF-5MS 모세관 칼럼 60 m × 0.25 mm, 0.25 µm",
+   "mobile_phase": "운반기체 헬륨",
+   "gradient": "오븐 50 °C(5분) → 10 °C/min으로 65 °C(30분) → 5 °C/min으로 210 °C(10분) → 20 °C/min으로 305 °C(5분)(원문 표기 그대로)",
+   "flow": "2.0 mL/min",
+   "temp": "주입구 280 °C; 이온원 270 °C; 인터페이스 250 °C",
+   "detection": "전자이온화(EI), 전체 주사 35–550 amu; C8–C30 n-알케인으로 코바츠 머무름지수 계산 후 NIST 값과 비교",
+   "injection": "",
+   "sample_prep": "잎 1 kg + 증류수 1:7(kg:L), 102 °C 가열 수증기 증류(딘-스타크 장치), 무수 황산나트륨으로 탈수",
+   "standard": "리모넨(순도 99%)·3-카렌(순도 98.5%) 표준품, 외부표준법",
+   "linearity": "200–1200 ppm 6개 농도, 상관계수(R) 리모넨 0.996, 3-카렌 0.997",
+   "lod": "", "loq": "", "recovery": ""},
+  "rationale": "국내 잎 정유의 주성분 가운데 생리활성이 보고된 D-리모넨과 3-카렌을 품질 관리용 화학 지표로 정해 지역·계절별로 정량했다[4]. 전문(Methods)에서 조건을 옮겼고, 주입량·검출한계·정량한계·회수율은 논문에 없어 확인하지 못함. 식품 사용 부위인 씨앗·열매의 지표성분 정량 논문은 확인하지 못함.",
+  "source": [4], "url": "https://doi.org/10.3390/plants14213370", "source_kind": "paper"},
+ {"role": "literature", "compound": "Arctigenin; Amentoflavone; Quercetin", "compound_ko": "아크티게닌·아멘토플라본·쿼세틴", "part": "씨앗 분획(초록은 에틸아세테이트 분획 Tn-EE-BF, 제목은 부탄올 분획으로 표기)",
+  "content": "HPLC로 활성 후보 성분 확인, 함량은 초록에 없어 확인하지 못함[6]",
+  "method": "HPLC",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "씨앗 분획의 항염 작용(NO·PGE2 억제)을 설명하는 성분으로 HPLC에서 아크티게닌·아멘토플라본·쿼세틴이 지목되었다[6]. 전문 확인 못함 — 칼럼·이동상·검출 조건은 비워 둔다.",
+  "source": [6], "url": "https://doi.org/10.1016/j.jep.2016.05.008", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "torreya-nucifera", "name_ko": "비자나무", "name_en": "Japanese torreya (Nut-bearing torreya)",
+ "scientific_name": "Torreya nucifera (L.) Siebold & Zucc.",
+ "aliases": ["비자나무씨앗", "비자나무열매", "비자(榧子)", "Nut-bearing torreya", "Japanese torreya", "Torreya nucifera S. et Z."],
+ "sections": sections, "compounds": compounds, "markers": [], "nutrients": [], "assays": assays,
+ "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

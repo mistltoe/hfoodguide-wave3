@@ -1,0 +1,617 @@
+{
+ "slug": "pomatomus-saltatrix",
+ "name_ko": "블루피쉬",
+ "name_en": "Bluefish",
+ "scientific_name": "Pomatomus saltatrix (Linnaeus, 1766)",
+ "aliases": [
+  "블루피쉬",
+  "Bluefish",
+  "Tailor"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "블루피쉬(Pomatomus saltatrix)는 식약처 「식품원료 목록」에 '블루피쉬'(영문 Bluefish, Tailor)라는 원료명으로 올라 있는 수산물이다[1]. 이 목록에서 블루피쉬는 학명 1행뿐이며 상태는 '사용가능', 부위 칸은 '-'이고 따로 정한 사용 조건이나 별명은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없으므로 식약처가 정한 지표성분도 없다[1].\n\n블루피쉬는 온대·아열대 바다에 널리 사는 빠르게 자라는 표층성 포식어로, 흑해에서는 전통 제철 생선으로 굽기·튀기기·훈제 등으로 먹는다[2]. 흑해산 시료에서 조리한 살의 EPA+DHA는 100 g(습중량)당 743–2,223 mg으로 보고되었다[2]. 한편 몸집이 클수록 살의 수은이 높아지는 종이어서, 미국 뉴저지 연구는 가랑이체장 50 cm가 넘는 개체를 임신부·어린이가 피하라고 제안했다[4]. 보관·해동을 잘못하거나 온도 관리가 나쁘면 히스타민이 쌓여 히스타민(스콤브로이드) 식중독을 일으킨 사례도 있다[12, 10]. 국가표준식품성분표의 블루피쉬 성분값과 국내 어획·수입 통계는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "블루피쉬 아가미에 붙는 기생충 Microcotyle pomatomi는 미국 로드아일랜드 뉴포트에서 잡힌 블루피쉬 아가미 표본으로 1899년에 처음 기재되었다(Microcotyle pomatomi Goto, 1899)[33]. 1972년에는 미국 노스캐롤라이나 앞바다 성어의 살 수은이 측정되었고, 2011년 재측정에서는 43% 낮아져 10년에 약 10%씩 줄어든 것으로 계산되었다[5].\n\n1980년대에는 고등어과가 아닌 블루피쉬도 히스타민 식중독의 원인이 된다는 보고가 이어졌다[13, 12]. 미국 코네티컷주 시판 필레 조사에서는 6.5%가 넘는 필레가 부패를 뜻하는 수준의 히스타민을 보였다[13]. 1987년 미국 매사추세츠주 보건 당국 연구진의 보고는 의학 학회 공동 식사 뒤 5명이 발병한 사건의 원인으로 잘못 보관·해동한 블루피쉬를 지목했다[12]. 1986–1991년 뉴저지 조사에서는 블루피쉬를 포함한 어패류 5종의 클로르데인이 습중량 5–2,150 ppb 범위로 측정되었고, 가장 높은 평균(300 ppb)은 블루피쉬가 아닌 미국뱀장어에서 나왔다(블루피쉬만의 값은 초록에 없음)[16]. 1989년 미국 식품의약국 연구진은 블루피쉬 필레를 구워 PCB와 농약 잔류량의 변화를 비교했다[14]. 2010년대에는 어린 블루피쉬를 하구 오염 지표종으로 쓴 연구가 나왔다[17, 18]. 2025–2026년에는 흑해산 블루피쉬의 조리법별 영양 성분과 원소 위해도 평가가 나왔다[2, 3]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생태·번식",
+   "body": "블루피쉬는 날렵한 몸, 날카로운 원뿔꼴 이빨을 지닌 표층성 포식어로 느슨한 큰 무리를 이루어 다니며 다른 물고기를 잡아먹는다[2]. 흑해 집단은 봄에 지중해에서 에게해를 거쳐 흑해로 산란 회유하고 이른 가을에 남쪽으로 돌아간다[2]. 북미 대서양 집단의 대부분은 여름을 북쪽에서, 겨울을 플로리다와 걸프 스트림 부근에서 보내는 회유성이다[4].\n\n이 종은 세계에 7개의 주요 집단이 있다고 소개된다[22]. 호주 동부 집단은 한 산란기에 여러 번 알을 낳으며, 한 번의 산란 수는 99,488–1,424,425개로 추정되었다[22]. 같은 연구에서 50% 성숙 체장은 수컷 30.2 cm, 암컷 31.5 cm(가랑이체장)로 40년 전보다 4 cm 컸고, 성비는 암컷 1.58 대 수컷 1로 바뀌어 있었다[22]. 미국 내러갠섯만 조사에서 0세어는 저서·부유 먹이를 함께 먹었지만 1세 이상은 거의 부유성 먹이 물고기만 먹었다[6]. 입의 이빨은 뼈에 깊이 박혀 붙어 있고 아래턱 15–31개, 위턱 앞부분 15–39개로 자라면서 늘어난다[25]. 혈액에서는 α사슬이 과잉 생산되는데, 연구진은 이것이 낮은 pH에서도 산소를 나르는 적응이라고 해석했다[24]. 국내 연안의 출현 기록은 이번 조사에서 공식 자료로 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」의 영문명 칸에는 'Bluefish, Tailor' 두 이름이 함께 적혀 있다[1]. 호주 연구에서는 같은 종을 tailor라는 이름으로 부르며 생물에너지 모형을 만들었다[36]. 식약처 목록에는 Pomatomus 속의 다른 종이 올라 있지 않다[1]. 블루피쉬의 이빨 교체 방식은 꼬치고기류·고등어류와 공통점이 있어, 연구진은 이 종이 이들과 더 가깝다는 해석을 지지한다고 보았다[25].\n\n학명의 명명자·연도는 Linnaeus, 1766으로 적은 논문들을 따른다[21, 29]. 국립생물자원관 국가생물종목록의 국문 표준명은 이번 조사에서 확인하지 못함. 따라서 이 백과는 식약처 원료명 '블루피쉬'를 쓰고, 다른 어종의 국문 이름과 섞어 쓰지 않는다[1]. 흰 근육에서 분리한 파브알부민은 '빠른'·'느린' 두 동형으로 나뉘었고, 블루피쉬를 포함한 농어목 4종 전체의 겉보기 분자량은 10,400–14,000 범위였다[34]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·자원",
+   "body": "블루피쉬는 상업 어업과 유어 낚시의 대상이며 양식 생산 자료는 이번 조사에서 확인하지 못함. 불가리아 흑해 연안에서는 어획량이 유럽스프랫(European sprat) 다음 2위인 주요 어종이다[2, 3]. 미국 뉴저지에서는 유어 낚시 대회의 주요 대상 어종이고, 이 지역 슈퍼마켓·생선가게의 80% 넘는 곳에서 판매된다고 보고되었다[4].\n\n자원 감소 사례도 있다[23]. 브라질 남동부에서 어민 214명을 면담한 결과 지난 60년 동안 블루피쉬의 풍도가 크게 줄었다고 답했고, 16년간의 양륙 자료도 이를 뒷받침했다[23]. 반대로 호주 동부에서는 관리 강화 뒤 성숙 체장이 커지고 성비가 바뀐 것이 확인되어, 연구진은 생식 생물학을 계속 감시해야 한다고 했다[22]. 미국 뉴저지에서는 큰 개체가 봄에만 연안에서 잡히고 이후 먼바다로 나가 계절에 따라 잡히는 크기가 달랐다[4]. 세계 어획량(FAO 통계)은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·저장·품질",
+   "body": "흑해 연안에서는 블루피쉬를 생으로 팔거나 굽기·튀기기·훈제·절임·통조림으로 가공한다[2]. 실험에서 조리하면 수분이 7–18% 줄고 총지질은 26–80% 늘었다[2]. 해바라기유로 팬에 튀기면 EPA는 약 25.2%, DHA는 약 20.3%(습중량 100 g당 기준) 줄었다[2]. 훈제는 비타민 E를 대체로 지켰지만 그릴 구이에서는 비타민 E 손실이 컸고 아스타잔틴은 검출되지 않았다[2]. 연구진은 굽기와 훈제가 긴사슬 n-3 지방산과 미량영양소를 지키는 데 유리하다고 결론지었다[2].\n\n저장 중 품질 관리도 중요하다[10]. 5·10·15 °C에 둔 필레에서 히스타민이 생겼고 15 °C에서는 2,200 ppm까지 올랐다[10]. 블루피쉬를 포함한 대서양 어류 4종을 이산화탄소 기체치환포장하면 일반 포장보다 저장 안정성이 45–55% 늘었다(4종 함께 보고)[28]. 석류 껍질 초임계 추출 분획은 UV-C 처리한 블루피쉬 패티의 지질 산화를 합성 산화방지제 BHT만큼 막았다(4 °C, 9일)[27]. 유문수에서 분리한 트립신은 분자량 28 kDa, 최적 pH 9.5·55 °C였다[26]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "블루피쉬의 전장 유전체나 미토콘드리아 전장 서열 논문은 이번 PubMed 검색에서 확인하지 못함. 미토콘드리아 시토크롬 b 부분 서열 분석에서는 북대서양 서쪽과 동쪽 집단이 완전히 갈라져 있었고, 동쪽 집단은 지중해와 이어져 있었다[20]. 남아프리카 동해안 개체 100마리로 개발한 4염기 반복 미세부수체 8개는 좌위당 대립유전자 18–37개(평균 24개), 관찰 이형접합도 0.79였다[21].\n\n남아프리카·앙골라·세네갈·포르투갈 8개 지점을 비교한 연구는 시토크롬 b, 인트론 AM2B1, 미세부수체 15개를 썼다[19]. 남아프리카 개체와 다른 지점 사이 유전 분화(FST)는 0.15–0.20으로 컸고, 남아프리카에서 앙골라 쪽으로만 유전자가 흐르는 2차 접촉이 확인되었다[19]. 브라질 남동부 3개 지점 성어 109마리의 형태계측에서는 지점별 재분류 정확도가 87.2%였지만, 연구진은 형태만으로 계군 경계를 정할 수 없다고 했다[35]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "수은은 크기와 함께 늘어난다[4, 6]. 뉴저지 206마리의 살 총수은은 평균 0.35±0.02 ppm(습중량)이었고 41%가 0.3 ppm, 20%가 0.5 ppm, 4%가 1 ppm을 넘었다[4]. 내러갠섯만에서는 전장 30 cm 넘는 개체가 꾸준히 미국 환경보호청 기준 0.3 ppm을 넘었다[6]. 이스탄불 조사에서도 일부 달의 작은·중간 크기 블루피쉬 수은으로 계산한 주간 섭취량이 권고 한도를 넘었다[8]. 반면 지중해 이스켄데룬만 시료의 살에서는 수은과 카드뮴이 검출되지 않았다[9]. 흑해산 날것·조리 시료의 카드뮴·납은 EU 최대기준(0.050·0.30 mg/kg 습중량) 아래였고 위해지수(THQ)도 모두 1 미만이었다[3].\n\n미국 대서양 연안 블루피쉬는 PCB 농도가 상당하며, 블루피쉬만 86일 먹인 고양이 사육 실험(동물)에서 지방의 PCB 중앙값은 48 ppm(건중량)으로 대조군 0.61 ppm보다 높았다[15]. 구운 필레(껍질·기름 제거)의 PCB 농도는 조리 전 2.5 ppm에서 2.7 ppm(전체 무게 기준)으로 비슷했지만, 필레에 남은 PCB 총량은 평균 27% 줄었다[14]. 히스타민은 신선 도매품에서 평균 39 ppm이었으나 온도 관리가 잘못되면 미국 식품의약국 권고 50 ppm을 관능 거부보다 먼저 넘었다[10]. 브라질산 암컷의 난소 선충 감염률은 48.7%였고, 브라질 상파울루 시료에서는 Hysterothylacium 유충, 호주 서부 시료에서는 고래회충과(Anisakidae) 유충이 확인되었다[29, 30, 31]. 흑해 기레순산 살의 미세플라스틱은 41.3±19.3개/g(건중량)으로 7종의 근육 가운데 가장 많았다[32]. 이 종의 알레르기 자료와 식약처 잔류 기준 적용 사례는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "살(가식부)",
+   "content_text": "조리 시료 EPA+DHA 743–2,223 mg/100 g 습중량, 팬 튀김에서 EPA 약 25.2% 감소[2]",
+   "activity_ko": "긴사슬 n-3 지방산으로 생선의 영양 가치 평가와 위해-편익 비 계산의 기준이 되었다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "n-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "살(가식부)",
+   "content_text": "조리 시료 EPA+DHA 743–2,223 mg/100 g 습중량, 팬 튀김에서 DHA 약 20.3% 감소[2]",
+   "activity_ko": "굽기·훈제 뒤 비율이 높아졌으나 연구진은 수분 손실에 따른 농축 효과로 해석했다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "alpha-Tocopherol",
+   "name_ko": "알파-토코페롤(비타민 E)",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "날것 1.18 mg/g 지질(27.1 mg/100 g 건중량), 팬 튀김 뒤 0.56 mg/g 지질(22.9 mg/100 g 건중량)[2]",
+   "activity_ko": "훈제 시료 100 g이 성인 권장량의 160% 넘는 양을 준다고 계산되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Vitamin D",
+   "name_ko": "비타민 D",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "훈제 시료 100 g이 권장량의 40–50% 제공(원문 아래첨자 표기·절대값은 확인 못함)[2]",
+   "activity_ko": "조리 중 비교적 안정했다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Retinol",
+   "name_ko": "레티놀(비타민 A)",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "그릴 구이에서 약 57% 손실(절대값은 확인 못함)[2]",
+   "activity_ko": "열과 산소에 약해 조리법에 따라 크게 줄었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Astaxanthin",
+   "name_ko": "아스타잔틴",
+   "class": "카로티노이드 색소",
+   "role": "bioactive",
+   "part": "살",
+   "content_text": "그릴 구이 시료에서 불검출, 튀김·훈제에서 지질 기준 약 65–70% 유지[2]",
+   "activity_ko": "산화방지 색소로 조리 손실 지표로 함께 분석되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cholesterol",
+   "name_ko": "콜레스테롤",
+   "class": "스테롤",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "튀김·훈제에서 지질 기준 약 15–28% 감소(절대값은 확인 못함)[2]",
+   "activity_ko": "지용성 비타민과 같은 HPLC 조건으로 동시 분석되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민(부패 지표·식중독 원인)",
+   "role": "marker",
+   "part": "필레",
+   "content_text": "신선 도매품 <1–99 ppm(평균 39 ppm), 15 °C 저장 최고 2,200 ppm[10]",
+   "activity_ko": "히스타민(스콤브로이드) 식중독 원인 물질이며 신선도 지표로 쓰인다[10, 12]",
+   "source": [
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Mercury",
+   "name_ko": "수은(총수은)",
+   "class": "중금속 오염물질",
+   "role": "marker",
+   "part": "살",
+   "content_text": "뉴저지 206마리 평균 0.35±0.02 ppm 습중량[4]; 0세어 0.041, 1세 이상 0.254 ppm 습중량[6]",
+   "activity_ko": "대부분 메틸수은으로 존재한다고 보며 크기·계절에 따라 달라 섭취 권고의 근거가 된다[4]",
+   "source": [
+    4,
+    6,
+    5,
+    7
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "필수 미량원소",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "뉴저지 206마리 평균 0.37±0.01 ppm 습중량[4]",
+   "activity_ko": "수은 독성을 줄이는 효과가 보고되어 함께 측정되었으나 크기·계절과 관계가 없었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Polychlorinated biphenyls",
+   "name_ko": "폴리염화비페닐(PCB)",
+   "class": "잔류성 유기오염물질",
+   "role": "marker",
+   "part": "필레",
+   "content_text": "조리 전 평균 2.5 ppm(Aroclor 1254 기준, 전체 무게 기준), 조리 뒤 2.7 ppm — 총량은 평균 27% 감소[14]; 블루피쉬 먹인 고양이 지방 중앙값 48 ppm(건중량)[15]",
+   "activity_ko": "지질이 많은 블루피쉬에 쌓여 섭취 위해와 하구 오염 감시 지표로 쓰인다[14, 18]",
+   "source": [
+    14,
+    15,
+    18
+   ]
+  },
+  {
+   "name": "2,2',4,4'-Tetrabromodiphenyl ether",
+   "name_ko": "BDE-47(브롬화 난연제)",
+   "class": "잔류성 유기오염물질",
+   "role": "marker",
+   "part": "어린 개체 전어체",
+   "content_text": "가장 자주 검출된 PBDE 동족체; 뉴어크만 ΣPBDE 평균 56.6±30.8 ng/g 습중량[17]",
+   "activity_ko": "산업·도시 지역 하구 오염을 반영하는 지표로 쓰였다[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Zinc",
+   "name_ko": "아연",
+   "class": "필수 미량원소",
+   "role": "nutrient",
+   "part": "살",
+   "content_text": "이스켄데룬만 살 6.27–13.59(초록에 단위 표기 없음)[9]",
+   "activity_ko": "흑해산 조리 시료에서 철·크롬과 함께 필수 원소 공급원으로 평가되었다[3]",
+   "source": [
+    9,
+    3
+   ]
+  },
+  {
+   "name": "Parvalbumin",
+   "name_ko": "파브알부민",
+   "class": "근육 칼슘결합 단백질",
+   "role": "bioactive",
+   "part": "흰 근육",
+   "content_text": "'빠른'·'느린' 두 동형, 겉보기 분자량 10,400–14,000(4종 전체 범위)[34]",
+   "activity_ko": "근육 단백질의 진화 연구 대상으로 분리되었으며, 이 종의 알레르기 자료는 확인 못함[34]",
+   "source": [
+    34
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fatty acid methyl esters (EPA, DHA etc.)",
+   "compound_ko": "지방산 조성(EPA·DHA 포함)",
+   "part": "살(머리·내장 제거 근육)",
+   "content": "조리 시료 EPA+DHA 743–2,223 mg/100 g 습중량(훈제 2,223, 그릴 1,478, 팬 튀김 743)[2]",
+   "method": "GC-MS(이온트랩)",
+   "conditions": {
+    "instrument": "Thermo FOCUS 가스크로마토그래프 + PolarisQ 이온트랩 질량분석기",
+    "column": "Trace TR-FAME 모세관 칼럼 60 m × 0.25 mm × 0.25 μm",
+    "mobile_phase": "운반 기체 헬륨",
+    "gradient": "100 °C 1분 → 10 °C/분 160 °C → 5 °C/분 215 °C(6분 유지) → 5 °C/분 230 °C(5분 유지)",
+    "flow": "1.2 mL/min",
+    "temp": "",
+    "detection": "질량분석(이온트랩)",
+    "injection": "1 μL, split 10:1",
+    "sample_prep": "Bligh–Dyer 변법(CHCl3/CH3OH 1:2 → 1:1 → CHCl3 순차 추출) → 5% H2SO4–메탄올 70 °C 메틸화",
+    "standard": "Supelco 37 성분 FAME 혼합물·PUFA No. 3(멘헤이든유)과 머무름 시간 비교; mg/100 g 습중량 환산은 어류 지방산 환산계수(XFA) 사용([3]의 같은 실험실 방법; [2] Methods는 총지방산 중 %로 표기)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "긴사슬 n-3 지방산(EPA·DHA)은 블루피쉬 영양 가치와 조리 손실, 원소 위해-편익 비 계산의 기준으로 쓰였다[2, 3]. 전문(Methods) 확인 — 검출·정량한계·회수율은 본문에 없음[2].",
+   "source": [
+    2,
+    3
+   ],
+   "url": "https://doi.org/10.3390/foods15010055",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Toxic and essential elements (Cd, Pb, Ni, Cr, Mn, Fe, Cu, Zn)",
+   "compound_ko": "유해·필수 원소",
+   "part": "가식부 살",
+   "content": "Cd·Pb는 날것·조리 시료 모두 EU 최대기준(Cd 0.050, Pb 0.30 mg/kg 습중량) 이하, 원소별 수치는 표에 있어 확인 못함[3]",
+   "method": "ICP-OES",
+   "conditions": {
+    "instrument": "ICP-OES Optima 8000(PerkinElmer), 축 방향 관측",
+    "column": "",
+    "mobile_phase": "플라스마 기체 10 L/min, 보조 기체 0.7 L/min, 분무 기체 0.2 L/min",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "시료 약 1 g을 HNO3(65%):H2O2(30%) 8:2로 마이크로파 분해(MARS 6, 최고 210 °C·800 psi·1050 W) → 25 mL 정용",
+    "standard": "인증표준물질 DORM-2(돔발상어 근육)로 정확도 확인",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "91.5–107.3%(DORM-2)"
+   },
+   "rationale": "카드뮴·납·니켈은 섭취 위해 평가(THQ·HI·발암 위해) 대상이고 철·아연·구리 등은 영양 원소여서 함께 정량했다[3]. 전문 확인 — 원소별 파장·검출한계는 보충 표에 있어 확인 못함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.3390/foods15010140",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total mercury",
+   "compound_ko": "총수은",
+   "part": "살(근육)",
+   "content": "206마리 평균 0.35±0.02 ppm 습중량, 0.3 ppm 초과 41%[4]",
+   "method": "냉증기 원자흡광(CV-AAS)",
+   "conditions": {
+    "instrument": "Perkin Elmer FIMS-100 수은 분석기",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "냉증기 원자흡광",
+    "injection": "",
+    "sample_prep": "습중량 2 g을 초순수 질산으로 마이크로파 분해(CEM MD 2000, 3단계 각 10분, 50·100·150 lb/in²) → 탈이온수 100 mL 희석",
+    "standard": "DORM-2 인증 돔발상어 조직으로 검량 확인(회수율 90–110% 허용)",
+    "linearity": "",
+    "lod": "기기 검출수준 0.2 ng/g",
+    "loq": "매트릭스 정량수준 0.002 μg/g",
+    "recovery": "첨가 회수율 85–115% 허용, 벗어난 배치 없음"
+   },
+   "rationale": "살의 수은은 대부분 메틸수은으로 보며 크기와 함께 늘어 섭취 권고(가랑이체장 50 cm 이상 회피)의 근거가 되었다[4]. 전문(Methods) 확인[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.1016/j.envres.2009.07.005",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Histamine, putrescine, cadaverine",
+   "compound_ko": "히스타민·푸트레신·카다베린",
+   "part": "필레",
+   "content": "신선 도매품 히스타민 <1–99 ppm(평균 39 ppm), 15 °C 저장 최고 2,200 ppm[10]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "히스타민은 히스타민 식중독 원인 물질이고 미국 식품의약국 권고 50 ppm과 비교되는 부패 지표다[10]. 2001년 후속 연구는 HPLC·형광검출로 히스타민을 정량했다[11]. 전문 확인 못함 — 조건 칸은 비워 둠.",
+   "source": [
+    10,
+    11
+   ],
+   "url": "https://doi.org/10.4315/0362-028x-62.9.1033",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Pomatomus saltatrix 1행: 원료명 '블루피쉬', 영문 'Bluefish, Tailor', 분류 수산물, 대분류 식품원료(A코드), 부위 '-', 사용조건 기준 없음, 상태 사용가능, 별명 없음; 같은 속 다른 종 행 없음; 고시형 원료 원재료 목록(KR_NOTICE) 없음 — 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json, docs/materials/pomatomus-saltatrix/card.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "From Raw to Cooked: Proximate Composition, Fatty Acids and Fat-Soluble Vitamins in Bluefish (Pomatomus saltatrix) from the Black Sea. Foods 2025;15(1):55 (PMC12785910 전문 확인, 표 수치는 도구 본문에 없어 확인 못함)",
+   "url": "https://doi.org/10.3390/foods15010055",
+   "publisher": "Foods, PMID 41517121",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Toxic and Trace Elements in Raw and Cooked Bluefish (Pomatomus saltatrix) from the Black Sea: Benefit-Risk Analysis. Foods 2026;15(1):140 (PMC12786204 전문 확인, 표 수치는 도구 본문에 없어 확인 못함)",
+   "url": "https://doi.org/10.3390/foods15010140",
+   "publisher": "Foods, PMID 41517206",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Risk to consumers from mercury in bluefish (Pomatomus saltatrix) from New Jersey: Size, season and geographical effects. Environ Res 2009;109(7):803-11 (PMC4041110 전문 확인)",
+   "url": "https://doi.org/10.1016/j.envres.2009.07.005",
+   "publisher": "Environmental Research, PMID 19643400",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Decadal Declines of Mercury in Adult Bluefish (1972-2011) from the Mid-Atlantic Coast of the U.S.A. Environ Sci Technol 2015;49(15):9064-72 (초록 확인)",
+   "url": "https://doi.org/10.1021/acs.est.5b01953",
+   "publisher": "Environmental Science & Technology, PMID 26148053",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Ontogenetic patterns in bluefish (Pomatomus saltatrix) feeding ecology and the effect on mercury biomagnification. Environ Toxicol Chem 2011;30(6):1447-58 (초록 확인)",
+   "url": "https://doi.org/10.1002/etc.516",
+   "publisher": "Environmental Toxicology and Chemistry, PMID 21381087",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Mercury and selenium levels in 19 species of saltwater fish from New Jersey as a function of species, size, and season. Sci Total Environ 2011;409(8):1418-29 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2010.12.034",
+   "publisher": "Science of the Total Environment, PMID 21292311",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Monitoring programme on toxic metal in bluefish (Pomatomus saltatrix), anchovy (Engraulis encrasicolus) and sardine (Sardina pilchardus) from Istanbul, Turkey: levels and estimated weekly intake. Bull Environ Contam Toxicol 2013;90(5):542-51 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00128-012-0958-3",
+   "publisher": "Bulletin of Environmental Contamination and Toxicology, PMID 23328894",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Metal Bioaccumulation in the Gill, Liver, and Muscle of Bluefish (Pomatomus saltatrix) From the Northeastern Mediterranean and Human Health Risk Assessment Associated with Their Seasonal Consumption. Arch Environ Contam Toxicol 2021;81(1):58-66 (초록 확인)",
+   "url": "https://doi.org/10.1007/s00244-021-00852-0",
+   "publisher": "Archives of Environmental Contamination and Toxicology, PMID 34014341",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Biogenic amine survey and organoleptic changes in fresh, stored, and temperature-abused bluefish (Pomatomus saltatrix). J Food Prot 1999;62(9):1033-7 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028x-62.9.1033",
+   "publisher": "Journal of Food Protection, PMID 10492478",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Growth and histamine formation of Morganella morganii in determining the safety and quality of inoculated and uninoculated bluefish (Pomatomus saltatrix). J Food Prot 2001;64(12):2015-9 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028x-64.12.2015",
+   "publisher": "Journal of Food Protection, PMID 11770632",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Bluefish-associated scombroid poisoning. An example of the expanding spectrum of food poisoning from seafood. JAMA 1987;258(23):3409-10 (초록 확인)",
+   "url": "https://doi.org/10.1001/jama.258.23.3409",
+   "publisher": "JAMA, PMID 3682140",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Presence of Histamine in the Bluefish, Pomatomus saltatrix. J Food Prot 1985;48(2):166-168 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028X-48.2.166",
+   "publisher": "Journal of Food Protection, PMID 30934524",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Levels of polychlorinated biphenyls and pesticides in bluefish before and after cooking. J Assoc Off Anal Chem 1989;72(3):501-3 (초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2501293/",
+   "publisher": "Journal of the Association of Official Analytical Chemists, PMID 2501293",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Tissue deposition of polychlorinated biphenyls in cats fed Atlantic Ocean bluefish. Cornell Vet 1991;81(3):259-65 (초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1831741/",
+   "publisher": "The Cornell Veterinarian, PMID 1831741",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Chlordane contamination in selected estuarine and coastal marine finfish and shellfish of New Jersey, USA. Environ Pollut 1996;94(1):75-81 (초록 확인)",
+   "url": "https://doi.org/10.1016/s0269-7491(96)00051-6",
+   "publisher": "Environmental Pollution, PMID 15093520",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Polybrominated diphenyl ether congeners in the young-of-the-year bluefish, Pomatomus saltatrix, from several nursery habitats along the US Atlantic coastline. Mar Pollut Bull 2013;77(1-2):237-50 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2013.09.051",
+   "publisher": "Marine Pollution Bulletin, PMID 24449924",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Young of the year bluefish (Pomatomus saltatrix) as a bioindicator of estuarine health: Establishing a new baseline for persistent organic pollutants after Hurricane Sandy for selected estuaries in New Jersey and New York. Mar Pollut Bull 2016;107(2):422-31 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2016.03.019",
+   "publisher": "Marine Pollution Bulletin, PMID 27039958",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Secondary contact and asymmetrical gene flow in a cosmopolitan marine fish across the Benguela upwelling zone. Heredity 2016;117(5):307-315 (초록 확인)",
+   "url": "https://doi.org/10.1038/hdy.2016.51",
+   "publisher": "Heredity, PMID 27436525",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Climate change and oceanic barriers: genetic differentiation in Pomatomus saltatrix (Pisces: Pomatomidae) in the North Atlantic Ocean and the Mediterranean Sea. J Fish Biol 2010;77(8):1993-8 (초록 확인)",
+   "url": "https://doi.org/10.1111/j.1095-8649.2010.02774.x",
+   "publisher": "Journal of Fish Biology, PMID 21078102",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Isolation and characterization of polymorphic tetranucleotide microsatellite loci in the pelagic perciform fish Pomatomus saltatrix (Linnaeus, 1766) from South Africa. Mol Ecol Resour 2008;8(5):1065-7 (초록 확인)",
+   "url": "https://doi.org/10.1111/j.1755-0998.2008.02156.x",
+   "publisher": "Molecular Ecology Resources, PMID 21585973",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Reduced exploitation is associated with an altered sex ratio and larger length at maturity in southwest Pacific (east Australian) Pomatomus saltatrix. Mar Environ Res 2019;147:72-79 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.marenvres.2019.02.012",
+   "publisher": "Marine Environmental Research, PMID 31000357",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Local ecological knowledge and scientific data reveal overexploitation by multigear artisanal fisheries in the southwestern Atlantic. PLoS One 2014;9(10):e110332 (초록 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0110332",
+   "publisher": "PLoS One, PMID 25333661",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Overproduction of alpha chains provides a proton-insensitive component to the bluefish hemoglobin system. J Biol Chem 2005;280(49):40509-14 (초록 확인)",
+   "url": "https://doi.org/10.1074/jbc.M505353200",
+   "publisher": "Journal of Biological Chemistry, PMID 16166086",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Structure, attachment, replacement and growth of teeth in bluefish, Pomatomus saltatrix (Linnaeus, 1776), a teleost with deeply socketed teeth. Zoology (Jena) 2005;108(4):317-27 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.zool.2005.09.004",
+   "publisher": "Zoology, PMID 16351980",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Trypsin from the pyloric caeca of bluefish (Pomatomus saltatrix). Comp Biochem Physiol B 2007;148(4):382-9 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.cbpb.2007.07.004",
+   "publisher": "Comparative Biochemistry and Physiology Part B, PMID 17707670",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Pomegranate (Punica granatum) peel fractions obtained by supercritical CO2 increase oxidative and colour stability of bluefish (Pomatomus saltatrix) patties treated by UV-C irradiation. Food Chem 2021;362:130159 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2021.130159",
+   "publisher": "Food Chemistry, PMID 34167065",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Attenuation of Microbial Growth on Modified Atmosphere-Packaged Fish. J Food Prot 1983;46(7):610-613 (초록 확인)",
+   "url": "https://doi.org/10.4315/0362-028X-46.7.610",
+   "publisher": "Journal of Food Protection, PMID 30921938",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Philometra saltatrix (Nematoda: Philometridae) in the ovary of the bluefish, Pomatomus saltatrix (Linnaeus, 1766), off the coast of the state of Rio de Janeiro, Brazil. J Helminthol 2017;92(2):210-215 (초록 확인)",
+   "url": "https://doi.org/10.1017/S0022149X17000335",
+   "publisher": "Journal of Helminthology, PMID 28397630",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Morphological and molecular characterization of Hysterothylacium spp. parasitizing Pomatomus saltatrix and Pagrus pagrus of the State of São Paulo, Brazil. An Acad Bras Cienc 2023;95(1):e20211046 (초록 확인)",
+   "url": "https://doi.org/10.1590/0001-3765202320211046",
+   "publisher": "Anais da Academia Brasileira de Ciências, PMID 36790269",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Molecular characterization of anisakid nematode larvae from 13 species of fish from Western Australia. Int J Food Microbiol 2012;161(3):247-53 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijfoodmicro.2012.12.012",
+   "publisher": "International Journal of Food Microbiology, PMID 23353682",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Microplastics in commercially important marine fish from Giresun Province, Türkiye: A baseline assessment of tissue distribution, polymer composition, spatial patterns, and potential environmental and ecological risk. Environ Res 2026;310(Pt 1):125964 (초록 확인)",
+   "url": "https://doi.org/10.1016/j.envres.2026.125964",
+   "publisher": "Environmental Research, PMID 42892431",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "First integrated characterization of Microcotyle pomatomi Goto, 1899 (Polyopisthocotylea: Microcotylidae) from the Bluefish Pomatomus saltatrix (Linnaeus) off Algeria, Western Mediterranean, with resolution of its historical synonymy. Syst Parasitol 2026;103(5) (초록 확인)",
+   "url": "https://doi.org/10.1007/s11230-026-10297-5",
+   "publisher": "Systematic Parasitology, PMID 42584736",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "The structure and evolution of parvalbumins. I. Amino acid compositional studies of parvalbumins from four perciform species. J Mol Evol 1975;5(2):103-16 (초록 확인)",
+   "url": "https://doi.org/10.1007/BF01732515",
+   "publisher": "Journal of Molecular Evolution, PMID 1159797",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Population Structure and Spatial Connectivity Inferred from Spatial Phenotypic Differentiation of the Bluefish (Teleostei: Pomatomidae) Along the Southeastern-Southern Brazilian Coast Using Landmark-Based Truss Network Morphometrics. Biology 2026;15(20):1883 (초록 확인)",
+   "url": "https://doi.org/10.3390/biology15201883",
+   "publisher": "Biology, PMID 42939484",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "The influence of ontogenetic diet variation on consumption rate estimates: a marine example. Sci Rep 2018;8(1):10725 (초록 확인)",
+   "url": "https://doi.org/10.1038/s41598-018-28479-7",
+   "publisher": "Scientific Reports, PMID 30013084",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

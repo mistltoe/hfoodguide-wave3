@@ -1,0 +1,21 @@
+{"slug": "broussonetia-kazinoki", "reviewer": "V", "date": "2026-11-02",
+ "checked_sentences": 63, "checked_items": 100,
+ "verified": 151, "fixed": 10, "removed": 1, "unverifiable": 1,
+ "changes": [
+  {"where": "compounds[Chlorogenic acid]", "before": "교배 잡종 잎에서 함량이 가장 높은 성분으로 보고(B. kazinoki 잎 값은 확인하지 못함)[12]", "after": "(항목 삭제)", "why": "[12] 전문은 중국 교배 잡종(B. kazinoki × B. papyrifera) 잎의 결과만 말하고 닥나무 값은 특정할 수 없음 — 다른 분류군 자료 섞임"},
+  {"where": "compounds[Luteolin].content_text, assays[Luteolin].content", "before": "교배 잡종 27.4 ± 2.4 μg/g을 앞에 두고 나머지 두 종 값을 나열", "after": "교배 잡종이 아닌 두 분류군 값(2.6·3.4 μg/g DW, 종 대응 미확인)을 쓰고 교배 잡종 27.4 μg/g은 이 종 값이 아님을 밝힘", "why": "[12] 전문 대조: 27.4 μg/g은 hybrid paper mulberry 값이므로 닥나무 값처럼 읽히지 않게 함"},
+  {"where": "sections.biology", "before": "(없음)", "after": "국내 미세위성 표지 연구는 B. kazinoki를 B. × hanjiana의 부모 종으로 다루어[8] … 논문에 따라 잡종 전체 또는 부모 종 하나를 가리킴", "why": "[8] 초록은 B. kazinoki를 B. × hanjiana의 부모 종으로 다뤄 [5]·[7]의 B. × kazinoki(잡종) 처리와 다름 — 학명 처리 차이를 밝힘"},
+  {"where": "sections.overview", "before": "338개 화합물이 분리되었을 만큼 성분 연구는 많지만, 부위가 섞여 있다[11]", "after": "338개 화합물이 분리되었을 만큼 성분 연구는 많지만[11], 논문마다 쓴 부위가 다르다", "why": "[11] 초록은 338개 화합물만 말하고 '부위가 섞였다'는 말은 없음"},
+  {"where": "sections.overview", "before": "카지놀류 등 많이 연구된 프레닐 폴리페놀은 주로 뿌리껍질에서 얻은 것이고[19, 20]", "after": "카지놀류 등 프레닐 폴리페놀을 분리한 국내 연구 두 건은 뿌리껍질을 썼고[19, 20]", "why": "[19]·[20] 두 논문은 뿌리껍질을 썼다는 것만 뒷받침, '주로'는 일반화"},
+  {"where": "sections.history", "before": "우량 계통을 꺾꽂이 등 영양번식으로", "after": "우량 계통을 영양번식으로", "why": "[10] 초록은 vegetatively propagated 만 말하고 꺾꽂이는 없음"},
+  {"where": "sections.cultivation", "before": "재배 품종 사이의 유전적 이질성이 크다고", "after": "재배 닥나무가 유전적으로 이질적이며 기원이 복잡하다고", "why": "[10] 초록 표현(heterogeneous nature … complex origins)에 맞춤"},
+  {"where": "aliases", "before": "Broussonetia × kazinoki Siebold", "after": "Broussonetia × kazinoki", "why": "출처 [5]·[7]은 명명자 없이 B. × kazinoki로 씀"},
+  {"where": "production[경상북도 farms].note", "before": "면적은 0 ha로 표기(반올림 추정)", "after": "같은 표의 경북 면적은 0 ha로 표기", "why": "'반올림 추정'은 출처에 없는 추정"},
+  {"where": "assays[Marmesin], sources[35]", "before": "WebSearch 요약으로만 확인(학술지 미상)", "after": "한국식품영양과학회지 2016 논문으로 존재·제목 확인, 원문 미열람으로 조건 칸은 비운 채 유지", "why": "검색 결과로 서지 확인; 원문(KoreaScience)은 이 환경에서 열 수 없어 Methods 대조 불가"}
+ ],
+ "unverifiable_notes": [
+  "[35] KoreaScience 원문은 네트워크 허용 목록 밖이라 열지 않음 — 마르메신 HPLC 분석 조건·추출물 부위는 확인하지 못해 assays 조건 칸을 비워 둠",
+  "[12] PMC 전문에서 종 학명이 빠져 있어 교배 잡종이 아닌 두 분류군 중 어느 값이 B. kazinoki인지 특정하지 못함",
+  "식품원료 지위는 로컬 I1020_20261013.json 원 행으로 대조: 닥나무가지(가지)·닥나무잎(잎)·닥나무농축액·닥나무추출액(-) 모두 '사용가능부위 : 가지, 잎' 사용가능; 꾸지나무 전체 사용불가; 민꾸지나무·마주잎꾸지나무는 원자료에 f.(품종)로 적혀 있고 잎·열매 사용가능 — dossier 와 일치",
+  "production 37행은 docs/stats/special_crops_annual.csv(2009–2024 면적·생산량)·special_crops_2024.csv·regional_crops.csv(2024 충북 7호·2 ha·4 t, 경북 4호·1 t, 전국 11호)와 모두 일치. 시도별 5행은 regional_crops_map.json 에 닥나무가 없어 그대로 남김"
+ ]}

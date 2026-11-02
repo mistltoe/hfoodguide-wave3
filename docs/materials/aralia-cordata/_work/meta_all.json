@@ -1,0 +1,1097 @@
+[
+{
+"pmid": "42462532",
+"pmc": null,
+"doi": "10.1016/j.phymed.2026.158572",
+"year": "2026",
+"j": "Phytomedicine",
+"cit": {
+"volume": "159",
+"pages": "158572"
+},
+"title": "Potentially regulating the ApoB RNA editosome via FXR activation: The natural compound continentalic acid alleviates hepatic fibrogenesis.",
+"ab": "Hepatic fibrosis is a reversible wound-healing response to acute or chronic liver injury, and currently lacks effective therapeutic drugs. Continentalic acid (CNT) is the effective ingredient from Aralia continentalis Kitag., used as medicinal and edible homologous plant, and exhibits anti-inflammatory and hepatoprotective effects.\n\nThe study investigates the therapeutic effect of CNT against liver fibrosis and elucidates its potential molecular mechanism.\n\nHSCs or LX-2 cells were stimulated with TGF-β or conditioned medium from LPS-primed macrophages, and then cultured with CNT, GW4064 or Guggulsterone, or deficient FXR by siRNA. Hepatic fibrosis was induced in mice by TAA and subjected to treatment with CNT, Pirfenidone (PFD). Network pharmacology and molecular docking were used to predict potential targets of CNT. Finally, the necessity of FXR on CNT against hepatic fibrosis was validated in TAA induced model through FXR knockdown mediated by adeno-associated virus (AAV).\n\nCNT significantly inhibited the accumulation of extracellular matrix (ECM) and inflammatory factors in activated HSCs. CNT effectively reduced liver collagen deposition and inflammatory response in TAA-induced mice. Network pharmacology and experimental verification showed that CNT could activate FXR to further inhibit Apobec1/A1CF. Validated by agonist, inhibitors, or FXR siRNA, the inhibition or knockdown of FXR significantly weakened the inhibitory effects of CNT on Apobec1/A1CF and HSCs activation. Chromatin immunoprecipitation (ChIP) assay further indicated that FXR can bind to the promoter region of the APOBEC1, implying a potential transcriptional regulatory function. CNT could regulate the crosstalk of macrophages and HSCs by activating FXR and inhibiting Apobec1/A1CF. FXR deficiency also blocked the regulation of CNT on activated HSCs stimulated with conditioned medium from macrophage. FXR knockdown significantly exacerbated TAA induced liver fibrosis formation and weakened the ability of CNT alleviating liver fibrosis in AAV-NR1H4 mice.\n\nCNT could ameliorate hepatic fibrosis and HSCs activation, which might be potentially implicated in the activating FXR to inhibit ApoB production mediated by Apobec1/A1CF."
+},
+{
+"pmid": "41936451",
+"pmc": null,
+"doi": "10.1248/bpb.b25-00741",
+"year": "2026",
+"j": "Biol Pharm Bull",
+"cit": {
+"volume": "49",
+"issue": "4",
+"pages": "636-644"
+},
+"title": "Diterpenes in Aralia cordata Rhizomes Suppress the Expression of Proinflammatory and Extracellular Matrix Degradation-Related Genes in ATDC5 Cells.",
+"ab": "Aralia cordata Thunberg (Araliaceae) is a perennial plant that grows in East Asia, including Japan. Its rhizome, called Dokukatsu in Japanese, is used as a crude drug in traditional Japanese (Kampo) medicines. Aralia rhizomes are included in several Kampo formulae, such as Dokkatsuto, which is prescribed for patients with osteoarthritis-related arthralgia, due to its analgesic and anti-inflammatory properties. However, the specific compounds responsible for these effects remain unexplored. In this study, we aimed to evaluate the anti-inflammatory properties of Aralia rhizome constituents by monitoring the production of the proinflammatory mediator nitric oxide (NO) in primary cultured rat hepatocytes. An ethyl acetate (EtOAc)-soluble fraction from an Aralia rhizome extract significantly suppressed interleukin (IL)-1β-induced NO production in rat hepatocytes. Within this fraction, we identified diterpenes, such as pimaradienoic acid (most abundant), kaurenoic acid, and pimaric acid. Among these, pimaradienoic acid markedly inhibited NO production in hepatocytes. We further investigated the effects of the EtOAc-soluble fraction on mouse chondrogenic cell line ATDC5-which produces NO in response to IL-1β and bacterial lipopolysaccharide (LPS)-and found that it inhibited NO production in ATDC5 cells treated with IL-1β and LPS. Moreover, pimaradienoic acid suppressed IL-1β-induced expression of the inducible nitric oxide synthase gene and downregulated genes involved in extracellular matrix (ECM) degradation in cartilage, specifically matrix metalloproteinase-13 (Mmp13) and a disintegrin and metalloproteinase with thrombospondin motifs-5 (Adamts5) genes. These findings suggest that pimaradienoic acid contributes to the anti-inflammatory effects of Aralia rhizomes by inhibiting NO-mediated inflammation and matrix degradation in articular cartilage during osteoarthritis."
+},
+{
+"pmid": "41463523",
+"pmc": "PMC12730357",
+"doi": "10.3390/biology14121750",
+"year": "2025",
+"j": "Biology (Basel)",
+"cit": {
+"volume": "14",
+"issue": "12"
+},
+"title": "Shifts in Dissolved Organic Matter and Microbial Communities Under Continuous Cropping ofKitag.: A Comparative Study of 2-, 6-, and 12-Year Durations.",
+"ab": "Continuous cropping affects soil health, microbial diversity, and organic matter dynamics, but its long-term impacts on soils underKitag. (a medicinally important Northeast China-native plant) remain unclear. This study evaluated effects of 2-, 6-, and 12-year continuous cropping on soil microbial communities, physicochemical properties, and dissolved organic matter (DOM) of bulk soils, and elucidated links between cropping duration and soil health indicators. Results showed that key physicochemical properties (total organic carbon, TOC) and available nutrients (available nitrogen, AN; available phosphorus, AP; available potassium, AK) declined with cropping duration: AN, AP, and AK decreased from 75.24 ± 1.2, 16.39 ± 0.05, and 104.8 ± 0.27 mg·kg(2 years) to 63.47 ± 1.53, 13.38 ± 0.16, and 88.71 ± 0.94 mg·kg(12 years), respectively. Microbial diversity increased initially but stabilized after 6 years, with communities shifting from copiotrophic taxa (e.g., Proteobacteria) to oligotrophic taxa (e.g., Acidobacteria). Partial Least Squares Path Modeling (PLS-PM) revealed strong positive correlations between dissolved/organic carbon (DOC/TOC) and microbial diversity, highlighting organic matter's role in sustaining microbial richness. UV-visible and 3D fluorescence spectroscopy indices correlated significantly with microbial diversity, confirming their utility for monitoring DOM quality and microbial dynamics. This study clarifies dynamic interactions between soil properties, microbial diversity, and organic matter under continuous cropping, providing insights for sustainable cultivation of."
+},
+{
+"pmid": "41313364",
+"pmc": null,
+"doi": "10.1007/s11033-025-11294-5",
+"year": "2025",
+"j": "Mol Biol Rep",
+"cit": {
+"volume": "53",
+"issue": "1",
+"pages": "135"
+},
+"title": "Neuroprotective effect of Continentalic acid by targeting NF-κB/Bcl-2 and oxidative stress signaling in traumatic brain injury in male BALB/c mice.",
+"ab": "Traumatic brain injury (TBI) is characterized as a heterogeneous neurological disorder, which causes a variety of behavioral and functional impairments. Continentalic acid (CA), a diterpenoid acid obtained from Aralia continentalis, possesses anti-inflammatory, anti-apoptotic, and antioxidant properties.\n\nIn the current study we investigated the neuroprotective properties of CA in an experimental TBI model. An in vivo, weight-drop model of TBI was developed in male BALB/c mice. Following traumatic insult, CA (1, 10, and 50 mg/kg) was administered intraperitoneally for up to 14 days. To assess the protective effects of CA, we performed behavioral tests, spectroscopy, histopathology, and biochemical analyses.\n\nThe results revealed that CA significantly attenuated trauma-evoked neurological functions and improved mechanical as well as periorbital allodynia. CA also restored the structural and molecular composition of traumatized brain tissues. Similarly, CA reversed the histological changes in the cortex region of the traumatized brain sections and improved the neuronal count. CA administration also decreased the level of traumatic microbleeds in the brain. The expression levels of GFAP and Iba1 were significantly reduced by CA. Treatment with CA significantly reduced the expression of TLR-4, NF-κB, and increased the expression of IĸB-α regulatory protein. CA also downregulated the expression of cleaved caspase-3 protein and upregulated the expression of anti-apoptotic Bcl-2 protein and alleviated the DNA damage. CA dramatically improved the levels of GST, GSH, catalase, and SOD while concomitantly reducing NO and LPO levels. The levels of IL-1β and TNF-α were also reduced in the treatment group.\n\nThe results demonstrated that CA (50 mg/kg) exhibited neuroprotective activity in TBI by attenuating inflammation, neuronal apoptosis, and oxidative stress."
+},
+{
+"pmid": "41300412",
+"pmc": "PMC12650098",
+"doi": "10.3390/biology14111624",
+"year": "2025",
+"j": "Biology (Basel)",
+"cit": {
+"volume": "14",
+"issue": "11"
+},
+"title": "Organic Mulching Enhances Soil Health and Fungal Diversity to Promote Growth ofKitag: A Sustainable Alternative to Conventional Fertilization in Agroecosystems.",
+"ab": "Soil degradation from long-term chemical fertilization poses serious challenges to the sustainability of black soil agroecosystems in Northeast China, particularly for the cultivation of medicinal plants such asKitag. To evaluate eco-friendly alternatives, we compared decomposed leaf mulching (LM), conventional fertilization (CF), and an untreated control (CK) in a five-year field experiment. LM significantly improved soil structure by reducing bulk density by 12.8% (< 0.05) and increasing porosity by 15.6% while enhancing organic carbon and humus fractions by 23.4% and 31.7%, respectively. These changes promoted microbial biomass carbon by 28.2% (< 0.01) and enriched beneficial fungi such as, which correlated with nutrient mobilization and plant growth. Fungal richness and diversity were higher under LM (+18.4% and +12.6%, respectively), whereas CF reduced evenness and favored dominance of stress-tolerant taxa. Functional predictions indicated that LM sustained saprotrophic and symbiotic guilds, while CF weakened mycorrhizal associations. Structural equation modeling identified microbial community composition as a central mediator linking soil properties, microbial diversity, and biomass (R= 0.78), with LM exerting the strongest cascading effects. At the plant level, LM achieved the highest above- and belowground biomass, outperforming CF and CK by 26.3% and 34.5%, respectively. Overall, decomposed leaf mulching represents a sustainable strategy to restore soil quality, enhance microbial diversity, and support medicinal plant cultivation in cold-region agroecosystems."
+},
+{
+"pmid": "40699693",
+"pmc": "PMC12026255",
+"doi": "10.3390/cimb47040294",
+"year": "2025",
+"j": "Curr Issues Mol Biol",
+"cit": {
+"volume": "47",
+"issue": "4"
+},
+"title": "Enhanced Bioactivity of FermentedExtract for Glucose and Immune Modulation.",
+"ab": "Excessive glucose absorption is a major contributing factor of metabolic disorders that necessitates effective therapeutic strategies. This study investigates the potential of fermentedextract (FACE) in regulating glucose transport and immune responses under high-glucose stress conditions. Caco-2 intestinal cells and L cells were treated with FACE to determine effects on key glucose-regulating proteins and cytokines. FACE treatment inhibited the expression of glucose transporters SGLT1 and GLUT2 while promoting GLP-1 secretion. This effect was associated with HDAC and somatostatin suppression, along with AMPK-γ upregulation. Notably, FACE inhibited DPP-4 expression, further enhancing GLP-1 stability and function. Immunomodulatory effects also occurred, specifically FACE promotion of T lymphocyte differentiation, with a stronger influence on Th2 cell development. Additionally, FACE increased the secretion of essential molecules for immune balance and inflammation control, including antimicrobial peptides LL-37 and defensin, along with cytokines IL-4 and IL-13. These findings suggest that FACE exerts dual effects of improving glucose regulation and modulating immune responses, highlighting its potential as a novel bioactive material for managing metabolic disorders and enhancing intestinal immunity. Further research is warranted to explore its clinical applicability in therapeutic formulations."
+},
+{
+"pmid": "40274257",
+"pmc": null,
+"doi": "10.1016/j.lfs.2025.123635",
+"year": "2025",
+"j": "Life Sci",
+"cit": {
+"volume": "372",
+"pages": "123635"
+},
+"title": "A signpost to guide the key therapeutic components of Aralia continentalis Kitag roots in treating T2DM-derived heart attack, and diabetic nephropathy via systems biology concept.",
+"ab": "Aralia continentalis Kitag roots (ACKRs) have been regarded as a nutritional natural resource for treating different diseases, including type 2 diabetes mellitus (T2DM), and its complications (heart attack; HA, diabetic nephropathy; DN). Nonetheless, an extensive investigation of T2DM-derived complications has yet to be performed.\n\nAccordingly, we adopted gas chromatography-mass spectrometry (GC-MS) to identify the molecules of ACKRs, followed by the use of cheminformatics (Similarity Ensemble Approach; SEA, SwissTargetPrediction; STP), bioinformatics (STRING, DisGeNET, and OMIM), and computer screening tools to investigate its corresponding targets, in T2DM diseases and its complications.\n\nThe primary targets (PPARG, and IL6) were confirmed via a protein-protein interaction (PPI) network, suggesting that IL6- Andrographolide, PPARA-Germacrene D, PPARD- Kaurenoic acid, PPARG- Kaurenoic acid, NR1H3- 1-Naphthalenepropanol, α-ethenyldecahydro-5-(hydroxymethyl)-α,2,5,5,8a-pentamethyl-, and FABP4- Kaurenoic acid conformers on PPAR signaling pathway might exert agonistic mode.\n\nThese findings underline that ACKRs' bioactives filtered by the devised platform could prevent T2DM-derived complications through multiple-target."
+},
+{
+"pmid": "39639122",
+"pmc": "PMC11621546",
+"doi": "10.1038/s41598-024-81942-6",
+"year": "2024",
+"j": "Sci Rep",
+"cit": {
+"volume": "14",
+"issue": "1",
+"pages": "30381"
+},
+"title": "Root microbiome of Panax ginseng in comparison with three other medicinal plants in the families of Araliaceae and Apiaceae.",
+"ab": "The intricate interplay between endophytic microorganisms and plants in the upkeep of biodiversity, the stability of communities, and the operation of ecosystems needs to be more adequately extensive. Although root-associated microbial communities of plants have been revealed for the last decade, the understanding of bacterial and fungal communities associated with the roots of medicinal plants remains elusive. To highlight the importance of Panax ginseng Meyer (PG) in our research, we investigated the root endophytic bacterial and fungal communities of Panax ginseng Meyer (PG), alongside Aralia cordata (AC), Angelica gigas (AG), and Peucedanum japonicum (PJ), utilizing amplicon-based community profiling and advanced bioinformatic methodologies. The study aimed to investigate the root-endophytic microbiota of ginseng and three other medicinal plants and identify similarities in microbiome composition across different plant species and families. Results revealed that root-endophytic bacterial and fungal communities were influenced by plant species and phylogenetic differences at the family level. Differential abundance tests and random forest models showed microbial features within the same plant family. PG had a distinctive microbial profile with significant B1653_o_Enterobacterales and F8_o_Helotiales. PG had a core microbiome, B10_Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium, and a more evenly distributed microbial network compared to AG, PJ, and AC. Our research reveals the intricate endophytic microbial communities within the roots of medicinal plants, pinpointing specific taxa that may be pivotal to their medicinal qualities and overall plant health. These insights carry notable implications for future studies, particularly those focused on the endophytes of PG and their secondary metabolites, as they deepen our understanding of plant-microbe interactions and their role in enhancing the plants' therapeutic potential."
+},
+{
+"pmid": "39199196",
+"pmc": "PMC11351958",
+"doi": "10.3390/antiox13080950",
+"year": "2024",
+"j": "Antioxidants (Basel)",
+"cit": {
+"volume": "13",
+"issue": "8"
+},
+"title": "Phytochemical and Functional Diversity of Enzyme-Assisted Extracts fromL.,Thunb., andL.",
+"ab": "Plant leaves are a source of essential phenolic compounds, which have numerous health benefits and can be used in multiple applications. While various techniques are available for recovering bioactive compounds from by-products, more data are needed on enzyme-assisted extraction (EAE). The aim of this study was to compare EAE and solid-liquid extraction (SLE), to evaluate the impact on bioactive compounds' extraction yield, phytochemical composition, and the antioxidant, antimicrobial, and antidiabetic properties ofleaves and roots, sea buckthornand hempleaves. The results indicate that EAE with Viscozyme L enzyme (EAE_Visc) extracts of the tested plant leaves possess the highest yield, antioxidant activity, and total phenolic content. Moreover, the EAE_Visc extract increased by 40% the total sugar content compared to the control extract ofroot. Interestingly, the sea buckthorn leaf extracts exhibited α-glucosidase inhibitory activity, which reached an almost 99% inhibition in all extracts. Furthermore, the sea buckthorn leaves SLE and EAE_Visc extracts possess antibacterial activity against. Additionally, scanning electron microscopy was used to examine changes in cell wall morphology after EAE. Overall, this study shows that EAE can be a promising method for increasing the yield and improving the functional properties of the resulting extracts in a fast and sustainable way compared to SLE."
+},
+{
+"pmid": "39124933",
+"pmc": "PMC11313775",
+"doi": "10.3390/molecules29153529",
+"year": "2024",
+"j": "Molecules",
+"cit": {
+"volume": "29",
+"issue": "15"
+},
+"title": "A Comprehensive Review of Traditional Medicinal Uses, Geographical Distribution, Botanical Characterization, Phytochemistry, and Pharmacology ofKitag.",
+"ab": "Kitag. () holds significant medicinal value among thegenus. It has traditionally been employed in ethnomedicine to address a wide range of conditions, including wind-cold-dampness arthralgia; rheumatic pain in the waist and lower extremities; lumbar muscular strain; injuries resulting from falls, fractures, contusions, and strains; headache; toothache; and abscesses. Modern pharmacological research has validated its therapeutic potential, encompassing anti-inflammatory, analgesic, antioxidant, antimicrobial, insecticidal, hepatoprotective, anti-diabetic, and cytotoxic properties, among other pharmacological effects. To compile comprehensive knowledge on, a rigorous literature search was undertaken utilizing databases like SciFinder, PubMed, and Web of Science. This review seeks to delve into the plant's traditional applications, geographical distribution, botanical characteristics, phytochemistry, and pharmacology. The objective is to lay a foundation and propose novel research directions for exploring the plant's potential applications. Currently, one hundred and fifty-nine compounds have been isolated and identified from, encompassing diterpenoids, steroids, triterpenoids, volatile components, phenolics, vitamins, trace elements, and other compounds. Notably, diterpenoids, steroids, triterpenoids, volatile components, and phenolics have exhibited pronounced pharmacological effects, such as anti-inflammatory, analgesic, antioxidant, hepatoprotective, antidiabetic, and antimicrobial activities. However, despite the extensive research conducted, further studies are imperative to unravel new components and mechanisms of action, necessitating more in-depth investigations. This comprehensive exploration could pave the way for advancing and harnessing the potential of."
+},
+{
+"pmid": "38371679",
+"pmc": "PMC10866816",
+"doi": "10.1007/s10068-023-01454-3",
+"year": "2023",
+"j": "Food Sci Biotechnol",
+"cit": {
+"volume": "33",
+"issue": "4",
+"pages": "1017"
+},
+"title": "Correction to: Development of real‑time PCR‑based markers for differentiation ofandin commercial food products.",
+"ab": "[This corrects the article DOI: 10.1007/s10068-023-01313-1.]."
+},
+{
+"pmid": "38140279",
+"pmc": "PMC10745546",
+"doi": "10.3390/nu15245020",
+"year": "2023",
+"j": "Nutrients",
+"cit": {
+"volume": "15",
+"issue": "24"
+},
+"title": "Root Enhances Non-Rapid Eye Movement Sleep by Activating GABAReceptors.",
+"ab": "exhibits various biological activities; however, their sleep-promoting effects have not been previously reported. In this study, we evaluated the hypnotic effects and sleep-wake profiles ofroot (KS-126) using a pentobarbital-induced sleep-acceleration test and polysomnographic recordings. Additionally, we investigated the molecular mechanism of KS-126 through patch-clamp electrophysiology. Our polysomnographic recordings revealed that KS-126 not only accelerated the onset of non-rapid eye movement sleep (NREMS) but also extends its duration. Considering the temporal dynamics of the sleep-wake stages, during the initial and subsequent periods KS-126 extended NREMS duration and decreased wakefulness, thereby enhancing sleep-promoting effects. Furthermore, the assessment of sleep quality via analysis of electroencephalogram power density indicated that KS-126 did not significantly alter sleep intensity. Finally, we found that KS-126 enhanced GABAreceptor-mediated synaptic responses in primary hippocampal neurons, leading to an increase in the percentage of the GABA current. This effect was not affected by the selective benzodiazepine receptor antagonist flumazenil, but was entirely inhibited by the GABAreceptor antagonist bicuculline. In conclusion, KS-126 extends the duration of NREMS without altering its intensity by prolonging GABAergic synaptic transmission, which modulates GABAreceptor function."
+},
+{
+"pmid": "37869529",
+"pmc": "PMC10582000",
+"doi": "10.1007/s10068-023-01313-1",
+"year": "2023",
+"j": "Food Sci Biotechnol",
+"cit": {
+"volume": "32",
+"issue": "14",
+"pages": "2153-2161"
+},
+"title": "Development of real-time PCR-based markers for differentiation ofandin commercial food products.",
+"ab": "and, commonly referred to as \"Dureub\" in Korea, are generally used as medicinal or food raw materials. Although, a rare and endangered plant, is typically sold at high prices, the more abundantis comparatively inexpensive. Given their common names and morphological root similarities, both plants can easily be confused, thereby providing potential opportunities for fraudulent use in food products. Species-specific molecular markers that can be used for quantitative real-time PCR (qPCR) analysis were developed. Verification of the six primer pairs revealed a correlation coefficient greater than 0.99, with a slope between -3.33 and -3.56. The assay confirmed specificity based on an analysis of 14 non-target plant species and verified its practicality using 10 commercial products with reliability based on a blind test. Thus, qPCR assays can contribute to food safety and protect consumer rights and interests.\n\nThe online version of this article contains supplementary material available 10.1007/s10068-023-01313-1."
+},
+{
+"pmid": "37175264",
+"pmc": "PMC10179879",
+"doi": "10.3390/molecules28093853",
+"year": "2023",
+"j": "Molecules",
+"cit": {
+"volume": "28",
+"issue": "9"
+},
+"title": "GC-MS/MS Method for Determination of Polycyclic Aromatic Hydrocarbons in Herbal Medicines.",
+"ab": "Polycyclic aromatic hydrocarbons (PAHs) are hydrophobic organic contaminants that have a highly carcinogenic and mutagenic nature. This study aimed to develop and validate a sensitive analytical method to determine 8 PAHs in 51 herbal medicines (HMs) using gas chromatography (GC)-tandem mass spectrometry (MS/MS). Liquid--liquid extraction and florisil SPE cartridge purification were basically adopted for pretreatment. For the samples containing essential oil, starch grain, etc.,-dimethyl formamide/water mixture (9:1,/) was added in the extraction step. The multiple reaction monitoring (MRM) conditions were newly obtained by the infusion of reference solutions of the targeted compounds at a concentration of 100 ng/mL into the GC-MS/MS system used in this study. The 51 items were classified according to whether or not they contained essential oil. Eight PAHs were not detected in 39 (8.3%) of the 459 samples monitored. The total content of 8 PAHs ranged from 0.45 μg/kg in Anemarrhenae Rhizoma to 270.94 μg/kg in Zingiberis Rhizoma. The average content of those ranged from 0.9 μg/kg in Araliae Continentalis Radix to 110.8 μg/kg in Coptidis Rhizoma Preparata cum Vinum. The results of this study prove that the proposed method is useful for determining 8 PAHs in HMs."
+},
+{
+"pmid": "36754338",
+"pmc": null,
+"doi": "10.1016/j.ympev.2023.107727",
+"year": "2023",
+"j": "Mol Phylogenet Evol",
+"cit": {
+"volume": "181",
+"pages": "107727"
+},
+"title": "Phylogenomics of Aralia sect. Aralia (Araliaceae): Signals of hybridization and insights into its species delimitations and intercontinental biogeography.",
+"ab": "Genome-scale data have significantly increased the number of informative characters for phylogenetic analyses and recent studies have also revealed widespread phylogenomic discordance in many plant lineages. Aralia sect. Aralia is a small plant lineage (14 spp.) of the ginseng family Araliaceae with a disjunct distribution between eastern Asia (11 spp.) and North America (3 spp.). We herein employ sequences of hundreds of nuclear loci and the complete plastomes using targeted sequence capture and genome skimming to reconstruct the phylogenetic and biogeographic history of this section. We detected substantial conflicts among nuclear genes, yet different analytical strategies generated largely congruent topologies from the nuclear data. Significant cytonuclear discordance was detected, especially concerning the positions of the three North American species. The phylogenomic results support two intercontinental disjunctions: (1) Aralia californica of western North America is sister to the eastern Asian clade consisting of A. cordata and A. continentalis in the nuclear tree, and (2) the eastern North American A. racemosa forms a clade with A. bicrenata from southwestern North America, and the North American A. racemosa - A. bicrenata clade is then sister to the eastern Asian clade consisting of A. glabra (Japan), A. fargesii (C China), and A. apioides and A. atropurpurea (the Hengduan Mountains). Aralia cordata is supported to be disjunctly distributed in Japan, Taiwan, the Ulleung island of Korea, and in Central, Southwest and South China, and Aralia continentalis is redefined with a narrower distribution in Northeast China, eastern Russia and peninsular Korea."
+},
+{
+"pmid": "36558996",
+"pmc": "PMC9783608",
+"doi": "10.3390/ph15121545",
+"year": "2022",
+"j": "Pharmaceuticals (Basel)",
+"cit": {
+"volume": "15",
+"issue": "12"
+},
+"title": "Analysis of Structure and Antioxidant Activity of Polysaccharides from.",
+"ab": "We extracted, purified, and characterized three neutral and three acidic polysaccharides from the roots, stems, and leaves ofKitigawa. The results of the analysis of monosaccharide composition indicated that the polysaccharides from the roots and stems were more similar to each other than they were to the polysaccharides from the leaves. The in vitro antioxidant results demonstrated that the acidic polysaccharides had stronger antioxidant activity than the neutral fractions. Therefore, we investigated the primary purified acidic polysaccharide fractions (WACP(R)-A-c, WACP(S)-A-c, and WACP(L)-A-d) by NMR and enzymatic analysis. The structural analytical results indicated that WACP(R)-A-c contained homogalacturonan (HG); WACP(S)-A-c contained HG and rhamnogalacturonan II (RG-II), and WACP(L)-A-d contained HG, RG-II, and rhamnogalacturonan I (RG-I) domains. Our findings offer insights into the screening of natural polysaccharide-based antioxidants and provide a theoretical basis for the application of"
+},
+{
+"pmid": "35958135",
+"pmc": "PMC9360744",
+"doi": "10.3389/fmicb.2022.945023",
+"year": "2022",
+"j": "Front Microbiol",
+"cit": {
+"volume": "13",
+"pages": "945023"
+},
+"title": "Identification of the antibacterial action mechanism of diterpenoids through transcriptome profiling.",
+"ab": "Effective antibacterial substances ofhave anti-biofilm and bactericidal activity to the oral pathogen. In this study, three compounds extracted fromwere identified as acanthoic acid, continentalic acid, and kaurenoic acid by NMR and were further investigated how these diterpenoids affect the physiology of the. Whenwas exposed to individual or mixed fraction of diterpenoids, severe growth defects and unique morphology were observed. The proportion of unsaturated fatty acids in the cell membrane was increased compared to that of saturated fatty acids in the presence of diterpenoids. Genome-wide gene expression profiles with RNA-seq were compared to reveal the mode of action of diterpenoids.commonly enhanced the expression of 176 genes in the presence of the individual diterpenoids, whereas the expression of 232 genes was considerably reduced. The diterpenoid treatment modulated the expression of genes or operon(s) involved in cell membrane synthesis, cell division, and carbohydrate metabolism of. Collectively, these findings provide novel insights into the antibacterial effect of diterpenoids to controlinfection, which causes human dental caries."
+},
+{
+"pmid": "35807656",
+"pmc": "PMC9269114",
+"doi": "10.3390/plants11131704",
+"year": "2022",
+"j": "Plants (Basel)",
+"cit": {
+"volume": "11",
+"issue": "13"
+},
+"title": "Thunb. as a Source of Bioactive Compounds: Phytochemical Composition and Antioxidant Activity.",
+"ab": "Plant primary and secondary metabolites are a significant source for many applications, including extractions of functional components, green synthesis development, and producing higher-added value products. However, in the variety of botanicals,Thunb. plant is getting attention for its similarity to ginseng. This study comprehensively examines the biochemical and phytochemical profiles of differentmorphological parts: root, stem, leaf, inflorescence, berry, and seed. Additionally, the establishment of total phenolic content and quantitative analysis of powerful antioxidants such as chlorophyll, carotenoids (zeaxanthin, lutein, and β-carotene), proanthocyanidins, and anthocyanins content were evaluated. The results indicated thatstem and berries are an excellent source of anthocyanins in the range from 18.27 to 78.54 mg/100 g DW. Meanwhile, the antioxidant activity was evaluated using three different methods based on the capacity to scavenge: DPPHscavenging capacity, ABTSradical cation assay, and ferric reducing antioxidant power (FRAP) and ranged from 27 to 168 µmol TE/g DW, 8 to 117 µmol TE/g DW, and 18 to 157 µmol TE/g DW, respectively. This study proposes a novel competitive plant for many health-promoting applications in the nutraceutical, pharmaceutical, material, and food industries."
+},
+{
+"pmid": "34833935",
+"pmc": "PMC8625780",
+"doi": "10.3390/molecules26226845",
+"year": "2021",
+"j": "Molecules",
+"cit": {
+"volume": "26",
+"issue": "22"
+},
+"title": "Anticancer Activity of Continentalic Acid in B-Cell Lymphoma.",
+"ab": "has been used in Korea as a folk remedy for arthralgia, rheumatism, and inflammation. However, its anti-lymphoma effect remains uncharacterized. Here, we demonstrate thatextract and its three diterpenes efficiently kill B-lymphoma cells. Our in vitro and in vivo results suggest that the cytotoxic activities of continentalic acid, a major diterpene fromextract, are specific towards cancer cells while leaving normal murine cells and tissues unharmed. Mechanistically, continentalic acid represses the expression of pro-survival Bcl-2 family members, such as Mcl-1 and Bcl-xL. It dissociates the mitochondrial membrane potential, leading to the stimulation of effector caspase 3/7 activities and, ultimately, cell death. Intriguingly, this agent therapeutically synergizes with roflumilast, a pan-PDE4 inhibitor that has been successfully repurposed for the treatment of aggressive B-cell malignancies in recent clinical tests. Our findings unveiled thatextract and three of the plant's diterpenes exhibit anti-cancer activities. We also demonstrate the synergistic inhibitory effect of continentalic acid on the survival of B-lymphoma cells when combined with roflumilast. Taken in conjunction, continentalic acid may hold significant potential for the treatment of B-cell lymphoma."
+},
+{
+"pmid": "33711550",
+"pmc": null,
+"doi": "10.1016/j.biopha.2021.111411",
+"year": "2021",
+"j": "Biomed Pharmacother",
+"cit": {
+"volume": "138",
+"pages": "111411"
+},
+"title": "Pharmacological evaluation of continentalic acid for antidiabetic potential.",
+"ab": "Diabetes is a complex endocrine and metabolic disorder. Continentalic acid is a natural drug product found in roots of Aralia continentalis (family Araliaceae), which used in traditional medicine for treatment of rheumatic arthritis, lumbag, lameness, inflammation, gastritis, nephritis and diabetes mellitus.\n\nThis study is aim to investigate the continentalic acid anti-diabetic potential.\n\nIn-silico, in-vitro, in-vivo and molecular techniques were used to investigate various effects of continentalic acid by Auto Doc Vina, α-amylase and α-glucosidase inhibitory assay and alloxan-induced diabetes rats model.\n\nIn-silico results revealed that continentalic acid exhibits binding energy values of - 5 to - 9.3Kcal/mol against selected targets. In-vitro assay showed that continentalic acid caused α-amylase and α-glucosidase enzymes inhibition. In-vivo finding exhibits that continentalic acid (50 mg/kg) decreased blood glucose level, body weight, oral glucose tolerance overload, glycosylated hemoglobin, triglycerides, total cholesterol, low density lipoprotein, aspartate transaminase, aspartate aminotransferase, alkaline phosphate, total bilirubin and increased high density lipoprotein (P < 0.05, P < 0.01, P < 0.001 vs. diabetic control group). In animals pancreas and liver tissues, continentalic acid enhanced glutathione-s-transferase, reduced glutathione, catalase and decreased lipid hydroperoxide level, improved cellular architecture in histopathological examination and decrease expression of inflammatory markers: cyclooxygenase 2, tumor necrosis factor alpha, phosphorylated-nuclear factor kappa B, prostaglandins E, interleukin-18 and increased heme oxygenase-1, as evidenced in immunohistochemistry and enzyme-linked immunosorbent assay molecular investigations.\n\nThis study shows that continentalic acid exhibited binding affinities against the different targets and anti-diabetic action, mediated possibly through α-amylase and α-glucosidase inhibition, anti-hyperlipidemic, hepatoprotection, antioxidant and anti-inflammatory pathways."
+},
+{
+"pmid": "33476145",
+"pmc": null,
+"doi": "10.1021/acs.jnatprod.0c00842",
+"year": "2021",
+"j": "J Nat Prod",
+"cit": {
+"volume": "84",
+"issue": "2",
+"pages": "230-238"
+},
+"title": "Diterpenoids and Diacetylenes from the Roots ofwith Inhibitory Effects on Nitric Oxide Production.",
+"ab": "Bioactivity-guided isolation of a MeOH extract ofled to the isolation of four new-pimarane diterpenoids (-) and a diacetylene () together with 21 known compounds (-). Their structures were established based on the interpretation of one- and two-dimensional NMR and HRESIMS data. The absolute configurations of the new isolates were determined by electronic circular dichroism data analysis, single crystal X-ray diffraction, and Mosher's esterification method. All compounds exhibited inhibitory effects on lipopolysaccharide-induced nitric oxide production in RAW 264.7 macrophages with ICvalues ranging from 1.1 to 69.4 μM."
+},
+{
+"pmid": "32448886",
+"pmc": null,
+"doi": "10.1093/chromsci/bmaa019",
+"year": "2020",
+"j": "J Chromatogr Sci",
+"cit": {
+"volume": "58",
+"issue": "7",
+"pages": "672-677"
+},
+"title": "Optimization of Extraction Conditions of Continentalic and Kaurenoic Acids from Aralia continentalis by HPLC/UV and Their Validation.",
+"ab": "Aralia continentalis (AC) is a perennial herb that has long been used as a traditional medicine for many diseases. Continentalic acid (CA) and kaurenoic acid (KA) are major diterpenoids in AC, which are known to exert various pharmacological activities. This study focuses on the optimization of the extraction of CA and KA from dried AC roots by evaluating the influence of different extraction conditions on their yield. Five extraction variables were examined: sample weight, solvent concentration, extraction time, solid matrix and the number of repeated extractions. The analytical method used in this study was also validated in terms of linearity, limit of detection, limit of quantification, precision and accuracy. The CA and KA yields were measured by high-performance liquid chromatography analysis. The results show that CA and KA were the highest when unpulverized samples (3.75 g) were subjected to a single extraction for 5 h using 50% ethanol (300 mL) as the solvent. These conditions are proposed for the optimization of the extraction of CA and KA from AC."
+},
+{
+"pmid": "32375422",
+"pmc": "PMC7278697",
+"doi": "10.3390/antiox9050379",
+"year": "2020",
+"j": "Antioxidants (Basel)",
+"cit": {
+"volume": "9",
+"issue": "5"
+},
+"title": "Extract Attenuates the Fatigue Induced by Exhaustive Exercise through Inhibition of Oxidative Stress.",
+"ab": "The present study aimed to evaluate the anti-fatigue effects of(AC) extract during exhaustive exercise of rats by forced swimming. Rats were subjected to forced swimming until exhausted after pre-treatment with AC extract for 21 days. Exhaustion time significantly increased in rats treated with AC extract. AC treatment also preserved blood homeostasis during fatigue due to exhaustive exercise. For fatigue-related serum biomarkers, AC extract significantly fail to decrease glucose and triglyceride (TG), but ameliorated increased lactate levels compared with levels in control rats. Metabolic acidosis, a major cause of fatigue, was effectively attenuated by AC extract, according to metabolic acidosis-related blood parameters. AC extract suppressed muscle injury and attenuated gastrocnemius muscle apoptotic responses due to exhaustive exercise. To investigate the mechanisms behind the AC extract anti-fatigue effect, we evaluated its effect on oxidative stress-related fatigue. We showed that pro-oxidants were inhibited, while antioxidants were preserved by AC extract treatment. Therefore, the anti-fatigue effect of AC extract was mediated by suppression of oxidative stress. Overall, the study demonstrated that AC extract effectively attenuates fatigue from exhaustive exercise through oxidative stress inhibition. AC extract, as an antioxidant, could be utilized as a therapeutic or preventive strategy against exhaustive exercise fatigue."
+},
+{
+"pmid": "32166984",
+"pmc": null,
+"doi": "10.1080/10286020.2020.1737859",
+"year": "2020",
+"j": "J Asian Nat Prod Res",
+"cit": {
+"volume": "23",
+"issue": "4",
+"pages": "371-378"
+},
+"title": "Diterpenoids and phenolic analogues from the roots of.",
+"ab": "Two new compounds, including a-pimarane diterpenoid (continentanol,) and a phenolic derivative (aralianic acid,), along with the known diterpenoids (-), polyacetylenes (-), phenolic components (-), and phytosterols (and), were isolated from roots of. The structures of the new compounds were established by spectroscopic data interpretation, particularly HRESIMS, 1 D and 2 D NMR data including HSQC and HMBC. Also, those of the known compounds were identified by spectral comparison with those of the reported values.[Formula: see text]."
+},
+{
+"pmid": "32004924",
+"pmc": null,
+"doi": "10.1016/j.intimp.2020.106209",
+"year": "2020",
+"j": "Int Immunopharmacol",
+"cit": {
+"volume": "80",
+"pages": "106209"
+},
+"title": "Continentalic acid exhibited nephroprotective activity against the LPS and E. coli-induced kidney injury through inhibition of the oxidative stress and inflammation.",
+"ab": "The present study investigated the effect of the continentalic acid (CNT) isolated from the Aralia Continentalis against the LPS and E. coli-induced nephrotoxicity. The LPS and E. coli administration markedly altered the behavioral parameters including spontaneous pain, tail suspension and survival rate. However, the treatment with CNT dose dependently improved the behavioral parameters. The CNT treatment significantly improved the renal functions test (RFTs) and hematological parameters following LPS and E. coli-induced kidney injury. Furthermore, the LPS and E. coli administration markedly compromised the anti-oxidant enzymes and enhanced the oxidative stress markers. However, the CNT treatment markedly enhanced the anti-oxidants enzymes such as GSH, GST, Catalase and SOD, while attenuated the oxidative stress markers such as MDA and POD. The MPO enzyme is widely used marker for the neutrophilic infiltration, the LPS and E. coli administration markedly increased the MPO activity. However, the CNT treatment markedly attenuated the MPO activity in both LPS and E. coli-induced kidney injury. Furthermore, the CNT treatment markedly attenuated the NO production compared to the LPS and E. coli-induced kidney injury group. Additionally, the CNT treatment improved the histological parameters markedly (H and E, PAS and Masson's trichome staining) and protect the kidney from the inflammatory insult of the LPS and E. coli evidently. The comet assay revealed marked DNA damage, however, the CNT treatment markedly prevented the LPS and E. coli-induced kidney damage. The CNT treatment markedly enhanced the expression of Nrf2, while attenuated the iNOS expression in both models of kidney injury."
+},
+{
+"pmid": "31690022",
+"pmc": "PMC6861925",
+"doi": "10.3390/ijms20215488",
+"year": "2019",
+"j": "Int J Mol Sci",
+"cit": {
+"volume": "20",
+"issue": "21"
+},
+"title": "Continentalic Acid Rather Than Kaurenoic Acid Is Responsible for the Anti-Arthritic Activity of Manchurian Spikenard In Vitro and In Vivo.",
+"ab": "The aim of this study was to identify the active compound responsible for the pharmacological activities of Manchurian spikenard (Kitag.). Interleukin (IL)-1β-stimulated human chondrocytes and monoiodoacetate (MIA)-induced osteoarthritic rats were treated with the 50% ethanolic extract of spikenard or its major components, such as continentalic acid (ent-pimara-8(14),15-diene-19-oic acid) and kaurenoic acid (ent-kaura-16-en-19-oic acid). The spikenard extract significantly inhibited IL-1β-stimulated production of IL-6, IL-8, metalloproteinase (MMP)-1, MMP-13, cyclooxygenase (COX)-2, inducible nitric oxide synthase (iNOS) and prostaglandin(PG)E2 in a dose-dependent manner but not MMP-3 production. The extract also inhibited the IL-1β-induced translocation of NF-κB/p65 into the nucleus and dose-dependent phosphorylation levels of extracellular signal-regulated kinase (ERK), Jun amino-terminal kinase (JNK) and p38 mitogen-activated protein (MAP) kinase. Continentalic acid exhibited significant anti-arthritic activity corresponding exactly to that of the extract containing an equivalent amount of continentalic acid. On the other hand, kaurenoic acid exhibited a compatible activity at about a 10-times higher molar concentration than that of continentalic acid. In vitro anti-arthritic activities of the spikenard extract and continentalic acid were also confirmed in MIA-induced osteoarthritic rats. The 50% ethanolic extract of Manchurian spikenard exhibited promising anti-arthritic activities in the in vitro and in vivo osteoarthritis models, and continentalic acid, not kaurenoic acid, was most probably responsible for those activities."
+},
+{
+"pmid": "31597167",
+"pmc": null,
+"doi": "10.1055/a-1013-1364",
+"year": "2019",
+"j": "Planta Med",
+"cit": {
+"volume": "85",
+"issue": "16",
+"pages": "1242-1252"
+},
+"title": "Anticariogenic Potential of Korean Native Plant Extracts against Streptococcus mutans.",
+"ab": "Numerous chemically synthesized compounds are widely used in oral hygiene products. However, due to their potential risk, there is a need to improve the safety and quality of dental care by seeking alternative control agents such as those naturally found in plant materials. Here we assessed antibacterial potentials of extracts from 100 species of Korean native plants againston cariogenesis. Among those, extracts from five plants (Arctii Fructusand) showed a growth inhibition ofThe five extracts were further individually evaluated for their minimal inhibitory concentration and minimal bactericidal concentration. Interestingly, a synergistic antibacterial activity was observed with the combination of sodium fluoride and the plant extracts. To determine the anti-biofilm activity of plant extracts,was treated with increasing concentrations of the extracts in the range from 1250 to 3750 µg/mL. Whenwas grown in the defined biofilm medium containing the individual extracts of 47 species, the biofilm amount markedly decreased compared to that of a negative control. Notably, the extract ofsignificantly downregulated theandgenes for synthesis of glucan and adhesive proteins in, anddecreased the expression ofgene. Therefore, these results demonstrate that the five plant extracts modulate survival and pathogenesis ofby growth inhibition and downregulation of the gene(s) implicated in biofilm formation."
+},
+{
+"pmid": "31294054",
+"pmc": "PMC6595269",
+"doi": "10.1016/j.dib.2019.104088",
+"year": "2019",
+"j": "Data Brief",
+"cit": {
+"volume": "25",
+"pages": "104088"
+},
+"title": "Anti-inflammatory effects of the combined extracts ofandand.",
+"ab": "This study investigated the anti-inflammatory effects of mixed extracts of(AJ) and(AC) (ratios of 1:2, 1:3, 1:5, 2:1, 3:1 and 5:1) on RAW264.7 macrophages and evaluated the anti-inflammatory effects of the mixed extracts of AJ and AC by measuring IL-1, IL-6, and TNFusing the ELISA kit assay. In particular, the formation of nitric oxide (NO) was found to decrease in the group treated with the combined extracts of AJ and AC at all ratios. In particular, extracts of ratio of 2:1 (AJ:AC) deceased the formation of NO level that is approximately 60% of the group treated with only lipopolysaccharide (LPS). Also, extracts of ratio of 2:1 (AJ:AC) reduced the production of IL-1, IL-6, TNFand PGE2 with statistical significance. Volunteers over the age of 50 who complain of discomfort in knee joints were selected as the experimental subjects. The subjects took daily administration of 2000 mg of the combined extracts of ratio of 2:1 (AJ:AC) for 12 weeks. A survey (VAS (Visual Analog Scale), WOMAC (Western Ontario and McMaster Universities Osteoarthritis Index)) was conducted after the 12 weeks of oral administration. The experimental group showed the change between each visit and baseline time compared with the control group. In the intention-to-treat (ITT) analysis, VAS score and WOMAC stiffness score decreased significantly. And the WOMAC total score and function score tended to decrease. In the per-protocol (PP) analysis, the WOMAC stiffness score was significantly decreased and the VAS and WOMAC total and function scores were decreased. There was no significant difference in all parameters of ITT and PP in radiological examinations."
+},
+{
+"pmid": "30621666",
+"pmc": "PMC6323859",
+"doi": "10.1186/s12906-018-2417-0",
+"year": "2019",
+"j": "BMC Complement Altern Med",
+"cit": {
+"volume": "19",
+"issue": "1",
+"pages": "11"
+},
+"title": "The ethanolic extract of Aralia continentalis ameliorates cognitive deficits via modifications of BDNF expression and anti-inflammatory effects in a rat model of post-traumatic stress disorder.",
+"ab": "Post-traumatic stress disorder (PTSD) is a disease associated with that the experience of traumatic stress. The traumatic experience results in the development of a prolonged stress response that causes impaired memory function and increased inflammation in the hippocampus. Currently, antidepressants are the only approved therapy for PTSD. However, the efficacy of antidepressants in the treatment of PTSD is marginal. The ethanol extract of Aralia continentalis (AC) is traditionally used in oriental medicine, and has been showed to possess pharmacological properties, including anti-inflammatory, anti-cancer, anti-atherosclerotic, and anti-diabetic effects. Nevertheless, the effects of AC on cognitive memory and its mechanism of action in PTSD remain unclear. Given the necessity of further treatment options for PTSD, we investigated the effect of AC on the spatial cognitive impairment caused by single prolonged stress (SPS) in a rat model of PTSD.\n\nMale rats were treated with various intraperitoneal (i.p.) doses of AC for 21 consecutive days after inducing chronic stress with the SPS procedure.\n\nCognitive impairment caused by SPS were inhibited after treatment with 100 mg/kg AC, as measured by the Morris water maze test and an object recognition test. Additionally, AC treatment significantly alleviated memory-related decreases in brain-derived neurotrophic factor (BDNF) mRNA and protein levels in the hippocampus. Our results suggest that AC significantly inhibited the cognitive deficits caused by SPS via increased expression of pro-inflammatory cytokines, including tumor necrosis factor-α and interleukin-6, in the rat brain.\n\nAC reversed the behavioral impairments and inflammation triggered by SPS-derived traumatic stress and should be further evaluated as a potential therapeutic drug for PTSD."
+},
+{
+"pmid": "30513750",
+"pmc": "PMC6321364",
+"doi": "10.3390/pharmaceutics10040253",
+"year": "2018",
+"j": "Pharmaceutics",
+"cit": {
+"volume": "10",
+"issue": "4"
+},
+"title": "Pharmacokinetic Profile of Kaurenoic Acid after Oral Administration of Araliae Continentalis Radix Extract Powder to Humans.",
+"ab": "The objective of this study was to characterize pharmacokinetics (PKs) of kaurenoic acid (KAU) after administration of the clinical usual dose of Araliae Continentalis Radix extract powder to Korean subjects for the first time and evaluate the mechanism of its absorption. A simple, sensitive, and selective analytical method was developed for the detection of KAU in human plasma. Concentrations of KAU were quantified by ultra-performance liquid chromatography tandem mass spectrometry after simple liquid⁻liquid extraction. This pharmacokinetic model of KAU was best described by a two-compartment model with first-order absorption. To identify efflux transporters involved in the absorption of KAU, a Caco-2 monolayer model was used. Estimated PK parameters were: systemic clearance, 23.89 L/h; inter-compartmental clearance, 15.55 L/h; rate constant for absorption, 1.72 h; volume of distribution of the central compartment, 24.44 L; and volume of distribution of the peripheral compartment, 64.05 L. Results from Caco-2 bidirectional transport study suggested that KAU was a potential substrate of efflux transporters. In summary, PKs of KAU were successfully characterized after administration of a usual dose of Araliae continentalis Radix extract powder in human with the newly developed bioanalytical method and the mechanism of absorption of KAU was identified clearly."
+},
+{
+"pmid": "29425654",
+"pmc": null,
+"doi": "10.1016/j.phymed.2017.10.016",
+"year": "2017",
+"j": "Phytomedicine",
+"cit": {
+"volume": "38",
+"pages": "45-56"
+},
+"title": "Anti-inflammatory and anti-arthritic effects of the ethanolic extract of Aralia continentalis Kitag. in IL-1β-stimulated human fibroblast-like synoviocytes and rodent models of polyarthritis and nociception.",
+"ab": "Blocking the formation and invasive growth of pannus and its secretion of inflammatory cytokines and MMPs is important for treating rheumatoid arthritis.\n\nAnti-arthritic activity of Aralia continentalis Kitag., an oriental herbal medicine, and the underlying mechanisms involved were investigated.\n\nAnti-inflammatory and anti-nocicpetive activities of the ethanolic extract (50% v/v) of Aralia continentalis Kitag. harvested from Imsil, Korea (ACI) were investigated in IL-1β-stimulated human fibroblast-like synoviocyte (FLS) cells and rodent models of collagen-induced polyarthritis and carrageenan-induced acute paw pain.\n\nIn IL-1β-stimulated FLS cells derived from rheumatoid arthritis patients, the anti-inflammatory activity of ACI was examined by analyzing the expression levels of inflammatory mediators such as TNF-α, IL-6, IL-8, MMP-1, MMP-3, MMP-13, PGE2, and COX-2 using ELISA and RT-PCR analysis. The anti-arthritic activity of ACI was investigated by measuring body weight, squeaking score, paw volume, and arthritis index in collagen-induced polyarthritis mice. The anti-nociceptive activity of ACI was examined in the paw-pressure test and Tail-flick latency test in rats.\n\nThe ethanolic extract (50% v/v) of ACI reduced the levels of TNF-α, IL-6, IL-8, MMP-1, and MMP-13 secreted by IL-1β-stimulated FLS cells, whereas MMP-3, COX-2, and PGE2 were not significantly affected. ACI inhibited the migration of NF-κB into the nucleus through the inhibition of ERK- and JNK-dependent MAP kinase pathways in IL-1β-stimulated FLS cells. In collagen-induced polyarthritis mice, oral administration of ACI extract (200 mg/kg) significantly alleviated arthritic behaviors. Histological observations of arthritic mouse knees were consistent with their behaviors. The anti-arthritic and anti-inflammatory activities of 200 mg/kg ACI extract were comparable to those of 10 mg/kg prednisolone when administered to mice. However, ACI administration did not significantly affect carrageenan-induced hyperalgesia or thermal nociception in rats.\n\nThese results suggest that the ethanolic extract of ACI have significant anti-inflammatory and anti-arthritic effects in a rodent arthritis model and in IL-1β-stimulated FLS cells. Thus, ACI may be a useful candidate for developing pharmaceuticals or dietary supplements for the treatment of inflammatory arthritis."
+},
+{
+"pmid": "28732811",
+"pmc": null,
+"doi": "10.1016/j.phymed.2017.04.008",
+"year": "2017",
+"j": "Phytomedicine",
+"cit": {
+"volume": "32",
+"pages": "8-14"
+},
+"title": "Kaurenoic acid activates TGF-β signaling.",
+"ab": "Kaurenoic acid (ent-kaur-16-en-19-oic acid: KA) is a key constituent found in the roots of Aralia continentalis Kitagawa (Araliaceae) that has been used for treating rheumatism in traditional Asian medicine.\n\nAlthough KA was reported to suppress inflammation by activating Nrf2, the anti-inflammatory function of KA is less characterized. Given the complex nature of the inflammatory response and the critical role of TGF-β in resolving inflammation, we hypothesized that KA suppresses inflammatory response by activating TGF-β signaling.\n\nMurine macrophage RAW 264.7, human lung epithelial cell MRC-5, and a TGFβRII defective cell HCT116 were treated with various amounts of KA. KA was also administered to mouse lung via intratracheal (i.t.) route. Phosphorylated Smad2 and Smad3 were analyzed by western blot. TGFβ-dependent gene expression was determined by immunoblotting of α-SMA and luciferase assay.\n\nKA induced the phosphorylation of Smad2 and Smad3, key activator molecules in TGF-β signaling. EW7197, an inhibitor for activin receptor-like kinase 5/TGF-β receptor I (TGFβR1) suppressed KA-mediated phosphorylation of Smad2. Similarly, KA failed to phosphorylate Smad2 in HCT116, suggesting that KA acts through the prototypic TGFβR. KA treatment increased the transcriptional activity driven by a Smad-binding element in a luciferase reporter assay and induced the α-smooth muscle actin (α-SMA). Similarly, i.t. KA induced the phosphorylation of Smad2 and increased the expression ofα-SMA in mouse lungs.\n\nKA activated TGF-β signaling, suggesting that TGFβ signaling is associated with KA suppressing inflammation."
+},
+{
+"pmid": "28701020",
+"pmc": null,
+"doi": "10.1055/s-0043-114425",
+"year": "2017",
+"j": "Planta Med",
+"cit": {
+"volume": "84",
+"issue": "1",
+"pages": "42-48"
+},
+"title": "The Identification of Araliaceae Species by ITS2 Genetic Barcoding and Pollen Morphology.",
+"ab": "The genetic barcode ITS2 (ITS: internal transcribed spacer) and pollen morphology were used for the identification of the pharmacologically valuable wild Araliaceae species, andinhabiting the natural forests of Primorye, Russia. The ITS2 locus successfully identified all six species, which supports the use of ITS2 as a standard barcode for medicinal plants. However, the ITS2 locus was insufficient for intra-specific discrimination in these species, neither within Primorye nor from other world representatives within GenBank. Araliaceae pollen was confirmed to undergo size-reducing metamorphosis. The final morphotypes were species-specific for each of the six species but could not discriminate intra-species geographic localities within Primorye. The morphologies of the final pollen morphotypes from homologous species inhabiting other parts of the world are not yet known. Therefore, whether pollen is applicable for Araliaceae intra-species discrimination between Primorye and other world localities could not be established. Based on these findings, we propose that the ITS2 genetic barcode and the final pollen morphotypes are suitable for the identification of Araliaceae species. However, further studies will be needed to determine the suitability of genetic and pollen traits for Araliaceae geographic authentication."
+},
+{
+"pmid": "28306202",
+"pmc": null,
+"doi": "10.1002/jssc.201601261",
+"year": "2017",
+"j": "J Sep Sci",
+"cit": {
+"volume": "40",
+"issue": "9",
+"pages": "2071-2079"
+},
+"title": "Ultra-performance convergence chromatography for the quantitative determination of bioactive compounds in Aralia continentalis Kitagawa as quality control markers.",
+"ab": "A rapid ultra-performance convergence chromatography method was developed for the quantitative determination of bioactive compounds in Aralia continentalis as quality control markers. Quantitative analysis indicated the presence of two major bioactive compounds: diterpenoid acids continentalic acid and kaurenoic acid. Using a Torus 1-aminoanthracene column, continentalic acid and kaurenoic acid were separated in less than 8 min. The method was validated with respect to precision, accuracy, and linearity according to the International Conference on Harmonization guidelines. The optimized method exhibited a good linear correlation (r> 0.996), excellent precision (RSD < 1.0%), and acceptable recoveries (99.97-100.26%). Limits of detection for continentalic acid and kaurenoic acid were 0.068 and 0.097 μg/mL, respectively, while their corresponding limits of quantitation were 0.207 and 0.295 μg/mL. The system performance of ultra-performance convergence chromatography was compared with that of conventional high-performance liquid chromatography with respect to analysis time and efficiency. The proposed method was found to be reliable and convenient for the quantitative analysis of continentalic acid and kaurenoic acid in A. continentalis from South Korea and A. pubescens from China. This study is expected to serve as a guideline for the quality control of Aralia continentalis."
+},
+{
+"pmid": "27133718",
+"pmc": null,
+"doi": "10.1016/j.bbrc.2016.04.122",
+"year": "2016",
+"j": "Biochem Biophys Res Commun",
+"cit": {
+"volume": "474",
+"issue": "3",
+"pages": "534-540"
+},
+"title": "Therapeutic effect of ent-kaur-16-en-19-oic acid on neutrophilic lung inflammation and sepsis is mediated by Nrf2.",
+"ab": "Kaurenoic acid (ent-kaur-16-en-19-oic acid: KA) is a key constituent found in the roots of Aralia continentalis Kitagawa (Araliaceae), a remedy to treat patients with inflammatory diseases in traditional Asian medicine. Since KA activates Nrf2, a key anti-inflammatory factor, at the cellular level, we explored a possible therapeutic usage of KA against neutrophilic inflammatory lung disease such as acute lung injury (ALI). Intraperitoneal (i.p.) injection of lipopolysaccharide (LPS) to C57BL/6 mice induced lung inflammation as in ALI. 2 h after i.p. LPS, intratracheal (i.t.) delivery of KA (0.3, 3, or 30 μg/kg body weight) improved lung structure and significantly suppressed neutrophil infiltrations to mouse lungs, with concomitant reduction of myeloperoxidase activity and of the expression of pro-inflammatory cytokine genes. While activating Nrf2 and expressing Nrf2-dependent genes in mouse lungs, KA did not significantly suppress neutrophil lung inflammation in Nrf2 KO mice. In a mouse model of sepsis, a major cause of ALI, single i.t. KA (3 μg/kg) 2 h after the onset of sepsis significantly decreased the mortality of mice. Together, these results suggest that KA has a therapeutic potential against inflammatory lung disease, the effect of which is associated with Nrf2 activation."
+},
+{
+"pmid": "27132716",
+"pmc": null,
+"doi": "10.1016/j.jep.2016.04.055",
+"year": "2016",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "187",
+"pages": "293-301"
+},
+"title": "Chinese vegetative materia medica in a venereological treatise by Jean Astruc from 1740.",
+"ab": "Historical medical sources can be still queried for forgotten cures and remedies. Traditional Chinese medicine has dealt with lues venerea (syphilis) since the Five Dynasties period (10th century). Chinese indigenous materia medica and remedies recorded, studied or imported by the Europeans can reveal known or quite unknown medicinal plants. The studied Jean Astruc's work is a published ethnopharmacological survey carried out in Beijing in the 1730s and it deserves a modern interpretation.\n\nThis is the first proposal to identify historical Chinese medicinal plants listed in a scarcely known medical treatise De Morbis venereis… ('On venereal diseases…') by Jean Astruc from 1740. I searched for the current uses and position of the taxonomically identified herbal stock in both traditional Chinese and official medical knowledge, with special attention to syphilis.\n\nChinese names of drugs and their botanical identities (originally expressed by means of pre-Linnaean polynomials, and now interpreted as accepted binomials) were independently cross-checked with younger till most recent taxonomical and ethnopharmacological sources. Plants and drugs identified this way were queried for their modern applications in traditional Chinese and official medicine with special attention to sexually transmitted diseases (STD) and other uses which are similar to the 18th-century understanding of venereology.\n\nFor 24 items of medicinal stock, 34 medicinal plants have been identified or suspected: Acacia catechu, Achyranthes bidentata, Akebia quinata, Angelica dahurica, A. sinensis, Aquilaria sinensis, Aralia cordata, Aristolochia fangchi, Chaenomeles sinensis, Ch. speciosa, Clematis vitalba, Coix lacryma-jobi, Commiphora myrrha, Cydonia oblonga, Daemonorops draco, D. jenkinsiana, Dictamnus dasycarpus, Dryobalanops sumatrensis, Forsythia suspensa, Glycyrrhiza uralensis, Lonicera confusa, L. hypoglauca, L. japonica, Ligusticum striatum (=L. chuanxiong), Piper kadsura, Pterocarpus officinalis, Saposhnikovia divaricata, Sassafras tzumu, Smilax china, S. glabra, Stephania tetrandra, Styphnolobium japonicum, Trichosanthes japonica, T. kirilowii; China wax is also mentioned. Out of them, only Lonicera japonica is being used in China in late syphilis, Achyranthes bidentata in gonorrhoea, and Dictamnus dasycarpus in gynaecological problems. In the Astruc's study, 3 medicinal plant species and 5 further plant genera are correctly determined; other plant parts were misidentified.\n\nAntisyphilitic actions ascribed to the Chinese medical formulas and their constituents studied by Astruc, seem to have come from Hg or As compounds rather than from vegetative materia medica. The formulas contained only one species still known in TCM as a remedy for syphilis."
+},
+{
+"pmid": "26989992",
+"pmc": null,
+"doi": "10.1111/1348-0421.12376",
+"year": "2016",
+"j": "Microbiol Immunol",
+"cit": {
+"volume": "60",
+"issue": "5",
+"pages": "343-55"
+},
+"title": "A hot water extract of Aralia cordata activates bone marrow-derived macrophages via a myeloid differentiation protein 88-dependent pathway and protects mice from bacterial infection.",
+"ab": "In traditional Asian medicine, Aralia cordata (AC) is a known as a pain reliever and anti-inflammatory drug. Although several of its biological activities have been reported, the immunomodulatory effects of a hot water extract of AC (HAC) have not yet been described. The aim of this study was to investigate whether HAC modulates the activation of macrophages, which play important roles in innate immune responses against microbial pathogens, and if so, to determine the molecular mechanisms by which HAC mediates this process. It was found that HAC activates bone marrow-derived macrophages (BMDM) and increases amounts of nitric oxide and proinflammatory cytokines in a dose-dependent manner. In addition, HAC was found to induce phosphorylation of NF-κB and mitogen-activated protein kinases (MAPKs), including c-Jun N-terminal kinases, extracellular signal-regulated kinases and p38. Interestingly, these effects were absent in BMDM prepared from myeloid differentiation protein 88-knockout mice. Polysaccharides from HAC exerted stronger immunostimulatory effects than HAC itself. Furthermore, orally administered HAC clearly enhanced clearance of the intracellular pathogen Listeria monocytogenes by boosting innate immune responses. These results demonstrate that HAC exerts immunostimulatory effects through the TLR/MyD88 and NF-κB/MAPK signal transduction pathways."
+},
+{
+"pmid": "26938512",
+"pmc": "PMC6273786",
+"doi": "10.3390/molecules21030270",
+"year": "2016",
+"j": "Molecules",
+"cit": {
+"volume": "21",
+"issue": "3",
+"pages": "270"
+},
+"title": "Rapid Authentication of the Herbal Medicine Plant Species Aralia continentalis Kitag. and Angelica biserrata C.Q. Yuan and R.H. Shan Using ITS2 Sequences and Multiplex-SCAR Markers.",
+"ab": "Accurate identification of the plant species that are present in herbal medicines is important for quality control. Although the dried roots of Aralia continentalis (Araliae Continentalis Radix) and Angelica biserrata (Angelicae Pubescentis Radix) are used in the same traditional medicine, namely Dok-Hwal in Korean and Du-Huo in Chinese, the medicines are described differently in the national pharmacopeia. Further confusion arises from the distribution of dried Levisticum officinale and Heracleum moellendorffii roots as the same medicine. Medicinal ingredients from all four plants are morphologically similar, and discrimination is difficult using conventional methods. Molecular identification methods offer rapidity and accuracy. The internal transcribed spacer 2 (ITS2) region of the nuclear ribosomal RNA gene (rDNA) was sequenced in all four plant species, and the sequences were used to design species-specific primers. Primers for each species were then combined to allow sample analysis in a single PCR reaction. Commercial herbal medicine samples were obtained from Korea and China and analyzed using the multiplex assay. The assay successfully identified authentic medicines and also identified inauthentic or adulterated samples. The multiplex assay will be a useful tool for identification of authentic Araliae Continentalis Radix and/or Angelicae Pubescentis Radix preparations in Korea and China."
+},
+{
+"pmid": "26138601",
+"pmc": null,
+"doi": "10.1016/j.chroma.2015.06.038",
+"year": "2015",
+"j": "J Chromatogr A",
+"cit": {
+"volume": "1406",
+"pages": "224-30"
+},
+"title": "A strategy for the separation of diterpenoid isomers from the root of Aralia continentalis by countercurrent chromatography: The distribution ratio as a substitute for the partition coefficient and a three-phase solvent system.",
+"ab": "Aralia continentalis (Araliaceae) is widely used as a medicinal plant in East Asia. Previous studies have indicated that diterpenoid isomers (kaurenoic acid, continentalic acid, and ent-continentalic acid) are the major bioactive compounds of this plant. A new strategy was developed to alleviate difficulties in the separation of these isomers from this plant. A three-phase solvent system was applied to separate the isomers, and furthermore, the distribution ratio (Kc) was introduced as a substitute for the partition coefficient (KD). For compounds exhibiting a single equilibrium, their distributions in two immiscible phases were only affected by the partition coefficient of each solute. However, compounds that have a dissociating functional group (e.g., -COOH) are involved in two types of equilibrium in the two-phase system. In this case, the partitioning behaviors of the solutes are greatly affected by the pH of the solution. A mathematical prediction was applied for adjusting the solutions to the proper pH values. To prevent non-used phase (medium phase) waste, both the stationary phase (upper phase) and mobile phase (lower phase) were prepared on-demand without pre-saturation with the application of (1)H NMR. Each fraction obtained was collected and dried, yielding the following diterpenoid isomers from the 50mg injected sample: kaurenoic acid (19.7mg, yield: 39%) and ent-continentalic acid (21.3mg, yield: 42%)."
+},
+{
+"pmid": "25674801",
+"pmc": null,
+"doi": "10.4014/jmb.1501.01069",
+"year": "2015",
+"j": "J Microbiol Biotechnol",
+"cit": {
+"volume": "25",
+"issue": "3",
+"pages": "413-7"
+},
+"title": "HY253, a novel decahydrofluorene analog, induces apoptosis via intrinsic pathway and cell cycle arrest in liver cancer HepG2 cells.",
+"ab": "Recently, we isolated HY253, a novel decahydrofluorene analog with a molecular structure of 7,8a-divinyl-2,4a,4b,5,6,7,8,8a,9,9a-decahydro-1H-fluorene-2,4a,4b,9a-tetraol from the roots of Aralia continentalis, which is known as Dokwhal, a traditional medicinal herb. Moreover, we previously reported its cytotoxic activity on cancer cell proliferation in human lung cancer A549 and cervical cancer HeLa cells. The current study aimed to evaluate its detailed molecular mechanisms in cell cycle arrest and apoptotic induction in human hepatocellular carcinoma HepG2 cells. Flow cytometric analysis of HepG2 cells treated with 60 micrometer HY253 revealed appreciable cell cycle arrest at the G1 phase via inhibition of Rb phosphorylation and down-regulation of cyclin D1. Furthermore, using western blots, we found that up-regulation of cyclin-dependent kinase inhibitors, such as p21(CIP1) and p27(KIP1), was associated with this G1 phase arrest. Moreover, TUNEL assay and immunoblottings revealed apoptotic induction in HepG2 cells treated with 100 micrometer HY253 for 24 h, which is associated with cytochrome c release from mitochondria, via down-regulation of anti-apoptotic Bcl-2 protein, which in turn resulted in activation of caspase-9 and -3, and proteolytic cleavage of poly(ADP-ribose) polymerase (PARP). Accordingly, we suggest that HY253 may be a potent chemotherapeutic hit compound for treating human liver cancer cells via up-regulation and activation of the p53 gene."
+},
+{
+"pmid": "24799257",
+"pmc": null,
+"doi": "10.1016/j.bmc.2014.03.047",
+"year": "2014",
+"j": "Bioorg Med Chem",
+"cit": {
+"volume": "22",
+"issue": "12",
+"pages": "3204-12"
+},
+"title": "Retinoic acid receptor agonist activity of naturally occurring diterpenes.",
+"ab": "Recent accumulating evidence indicates that all-trans retinoic acid (ATRA) may be useful for preventing or treating inflammation, allergy, and autoimmune diseases, despite its severe side effects. In this study, screening of 99 crude drugs for retinoic acid receptor (RAR) ligands by luciferase reporter assay demonstrated that the methanol extract of Aralia cordata Rhizoma most effectively activates the transcriptional activity of RARα. Pimaradienoic acid (ent-pimara-8(14),15-dien-19-oic acid) was subsequently isolated as the constituent capable of activating RAR. Pimaric acid and abietic acid, which have similar structures to pimaradienoic acid, were also found to be novel RAR agonists, although abietic acid only slightly activated peroxisome proliferator-activated receptor gamma. These three natural RAR agonists with diterpene structures, while structurally different from ATRA, were able to increase the mRNA levels of the constitutive androstane receptor in HepG2 cells, induce F9 cell differentiation followed by Cyp26a1 mRNA expression, and differentiate HL-60 cells via RAR activation in a different manner from ATRA. These results demonstrate that some diterpenes exist as naturally occurring RAR agonists and that the differences in chemical structure between ATRA and these diterpenes may induce distinct gene activation and a specific cellular response."
+},
+{
+"pmid": "24293061",
+"pmc": null,
+"doi": "10.1007/s12272-013-0291-3",
+"year": "2013",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "37",
+"issue": "11",
+"pages": "1437-44"
+},
+"title": "Optimization of ultrasonic-assisted extraction of continentalic acid from the root of Aralia continentalis by using the response surface methodology.",
+"ab": "In order to optimize the extraction conditions of continentalic acid, the main compound from Aralia continentalis root, we developed a model using the response surface methodology. The continentalic acid yield was analyzed and quantified by high-performance liquid chromatography coupled with UV detection. The extraction solvent, temperature, and time the three main factors for ultrasound-assisted extraction were optimized using the central composite design. Analysis of variance showed a good model fit (R (2) = 0.9323). The maximum extraction of continentalic acid obtained experimentally was 1.0138 % under an extraction temperature of 33 °C and extraction time of 28 min when 100 % ethanol was used as the solvent. The experimental value was in good agreement (the yield 1.0103 %) with those predicted values. The results clearly showed that quality by statistical design could be effectively applied to optimize extraction of continentalic acid."
+},
+{
+"pmid": "24283275",
+"pmc": "PMC3868379",
+"doi": "10.1089/jmf.2012.2636",
+"year": "2013",
+"j": "J Med Food",
+"cit": {
+"volume": "16",
+"issue": "12",
+"pages": "1108-14"
+},
+"title": "Aralia cordata inhibits triacylglycerol biosynthesis in HepG2 cells.",
+"ab": "Glycerol-3-phosphate acyltransferase (GPAT) catalyzes the first committed step in triacylglycerol (TAG) and phospholipid biosynthesis, and has been considered as one of the drug targets for treating hepatic steatosis, insulin resistance, and other metabolic disorders. The aim of this study was to investigate the GPAT inhibitors from natural products and to evaluate their effects. The methanol extract of Aralia cordata roots showed a strong inhibitory effect on the human GPAT1 activity. A further bioactivity-guided approach led to the isolation of ent-pimara-8(14),15-dien-19-oic acid, (PA), one of the major compounds of A. cordata, which suppressed the GPAT1 activity with IC50 value of 60.5 μM. PA markedly reduced de novo lysophosphatidic acid synthesis through inhibition of GPAT activity and therefore significantly decreased synthesis of TAG in the HepG2 cells. These results suggest that PA as well as A. cordata root extract could be beneficial in controlling lipid metabolism."
+},
+{
+"pmid": "23662113",
+"pmc": "PMC3638610",
+"doi": "10.1155/2013/160592",
+"year": "2013",
+"j": "Evid Based Complement Alternat Med",
+"cit": {
+"volume": "2013",
+"pages": "160592"
+},
+"title": "Kaurenoic Acid from Aralia continentalis Inhibits Biofilm Formation of Streptococcus mutans.",
+"ab": "We isolated a single chemical compound from A. continentalis and identified it to be kaurenoic acid (KA) and investigated the influence of anticariogenic properties. Inhibitory effects of KA on cariogenic properties such as growth, acid production, biofilm formation, and the adherence of S. mutans were evaluated. Furthermore, real-time PCR analysis was performed to evaluate the influence of KA on the genetic expression of virulence factors. KA significantly inhibited the growth and acid production of S. mutans at 2-4  μ g/mL and 4  μ g/mL of KA, respectively. Furthermore, the adherence onto S-HAs was inhibited at 3-4  μ g/mL of KA and biofilm formation was significantly inhibited when treated with 3  μ g/mL KA and completely inhibited at 4  μ g/mL. Also, the inhibitory effect of KA on biofilm formation was confirmed by SEM. In confocal laser scanning microscopy, bacterial viability gradually decreased by KA in a dose dependent manner. Real-time PCR analysis showed that the expressions of gtfB, gtfC, gbpB, spaP, brpA, relA, and vicR were significantly decreased in S. mutans when it was treated with KA. These results suggest that KA from A. continentalis may be a useful agent for inhibiting the cariogenic properties of S. mutans."
+},
+{
+"pmid": "23604820",
+"pmc": null,
+"doi": "10.1007/s12272-013-0131-5",
+"year": "2013",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "36",
+"issue": "8",
+"pages": "957-65"
+},
+"title": "Kinetics and molecular docking studies of pimarane-type diterpenes as protein tyrosine phosphatase (PTP1B) inhibitors from Aralia continentalis roots.",
+"ab": "Since insulin sensitivity to cells is attributed to phosphorylation of the insulin receptor (IR), protein tyrosine phosphatase 1B (PTP1B), which dephosphorylates the tyrosine residues of IR proteins, is primarily responsible for insulin resistance in type 2 diabetes. Therefore, PTP1B inhibitors ameliorating the insulin-dependent signaling pathway are potential therapeutic candidates for the treatment and prevention of diabetes. As part of our continuous search for diterpenes derived from Aralia continentalis as potent PTP1B inhibitors, five active diterpenoids, including ent-pimara-8(14),15-diene-19-oic acid (1); 7-oxo-ent-pimara-8(14),15-diene-19-oic acid (2); 7β-hydroxy-ent-pimara-8(14),15-diene-19-oic acid (3); ent-pimara-8(14),15-diene-19-ol (4); 8α-hydroxy-ent-pimara-15-en-19-ol (5); and ent-kaur-16-en-19-oic-acid (6) were investigated using the enzyme kinetic assay. With the exception of 1 showing mixed inhibition, compounds 2 and 4-6 exhibited noncompetitive inhibition against PTP1B with K i values ranging 3.29-12.86 μM. In particular, 2 with an oxo group in the C-7 position showed increased PTP1B inhibition compared to nonsubstituted 1. Based on the structure and activity relationship, the 3D docking simulations of 1, 2, and 3 were also performed. Compounds 1-3 showed negative binding energies of -5.3 to -6.1 kcal/mol and a high affinity to PTP1B residues (Phe182 and Asp181 in the WPD loop; Cys215 in the active sites; Tyr46, Arg47, Asp48, Val49, Ser216, Ala217, Gly218, Ile219, Gly220, Arg221, Gln262, and Gln266 in the pocket site), indicating that they may stabilize the open form and generate tighter binding to the catalytic sites of PTP1B. The enzymatic kinetics and docking results clearly indicate the promising potential of pimarane-type diterpenes as PTP1B inhibitors."
+},
+{
+"pmid": "23139128",
+"pmc": null,
+"doi": "10.1007/s12272-012-1009-7",
+"year": "2012",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "35",
+"issue": "10",
+"pages": "1771-7"
+},
+"title": "Inhibitory activity of Aralia continentalis roots on protein tyrosine phosphatase 1B and rat lens aldose reductase.",
+"ab": "As part of our continuous search for compounds from natural sources that can treat diabetes and its diabetic complications, in the present work, we investigated the protein tyrosine phosphatase 1B (PTP1B) and rat lens aldose reductase (RLAR) inhibitory activities of the roots of Aralia continentalis. The methanol extract showed a potent inhibitory activity against PTP1B and RLAR. Among the tested fractions, the n-hexane fraction exhibited the highest PTP1B inhibitory activity, while the EtOAc fraction showed highest RLAR inhibitory activity. Bioassayguided fractionation of the active n-hexane and EtOAc soluble fractions resulted in the isolation of the diterpenoids; ent-pimara-8(14),15-diene-19-oic acid (continentalic acid, 1); ent-kaur-16-en-19-oic-acid (kaurenoic acid, 2); ent-pimara-8(14),15-diene-19-ol (3); 7-oxo-ent-pimara-8(14),15-diene-19-oic acid (4); 16á-hydroxy-17-isovaleroyloxy-ent-kauran-19-oic acid (5); 17-hydroxy-entkaur-15-en-19-oic acid (6); 15á,16á-epoxy-17-hydroxy-ent-kauran-19-oic acid (7); 16á,17-dihydroxy-ent-kauran-19-oic acid (8); 8á-hydroxy-ent-pimara-15-en-19-ol (9); 4-epirulopezol (10) and 4â-hydroxy-19-nor-(-)-pimara-8(14),15-diene (11), from the n-hexane fraction, and 4-[formy-5-(methoxymethyl)-1H-pyrrol-1-yl] butanoic acid (12); vanillic acid (13); 4-hydroxybenzoic acid (14); protocatechuic acid (15); nicotinic acid (16); aralia cerebroside (17); 5-O-feruloly quinic acid (18) from the EtOAc fraction. Of these, compounds 12∼14, 16 and 18 were isolated from A. continentalis for the first time. Compounds 1∼10 exhibited inhibitory potential against PTP1B, while compounds 12, 17, and 18 were found to be active against RLAR. Taken together, these results clearly demonstrate that the roots of A. continentalis displayed anti-diabetic and antidiabetic properties, which could be further explored to develop therapeutic and preventive agents for the treatment of diabetes and related complications."
+},
+{
+"pmid": "23124353",
+"pmc": null,
+"doi": "10.4014/jmb.1209.09022",
+"year": "2012",
+"j": "J Microbiol Biotechnol",
+"cit": {
+"volume": "22",
+"issue": "11",
+"pages": "1591-5"
+},
+"title": "HY251, a novel decahydrocyclopenta[a]indene analog, induces apoptosis via tBid-mediated intrinsic pathway in human ovarian cancer PA-1 cells.",
+"ab": "We previously isolated a novel compound, HY251, with the molecular structure of 3-propyl-2-vinyl-1,2,3,3a,3b,6,7,7a,8,8adecahydrocyclopenta[ a]indene-3,3a,7a,8a-tetraol from the roots of Aralia continentalis. The current study was designed to evaluate the detailed molecular mechanisms underlying the apoptotic induction by HY251 in human ovarian cancer PA-1 cells. TUNEL assay and Western blot analyses revealed an appreciable apoptotic induction in PA-1 cells treated with 60 μM of HY251 for 24 h. This apoptotic induction was associated with caspase-8-dependent Bid cleavage, which in turn resulted in the formation of pro-apoptotic truncated Bid (tBid), and activation of caspase-9 and -3, as well as the cleavage of poly(ADP-ribose) polymerase (PARP). Moreover, we found that this death event was also associated with the significant upregulation and activation of the p53 tumor-suppressor protein through phosphorylation at Ser15. Therefore, we suggest that HY251 may be a potent cancer chemotherapeutic candidate for the treatment of ovarian cancer."
+},
+{
+"pmid": "22885130",
+"pmc": null,
+"doi": "10.1016/j.jep.2012.07.031",
+"year": "2012",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "143",
+"issue": "2",
+"pages": "746-53"
+},
+"title": "Src and Syk are targeted to an anti-inflammatory ethanol extract of Aralia continentalis.",
+"ab": "Aralia continentalis Kitagawa (Araliaceae) is a representative ethnomedicinal herbal plant traditionally prescribed in Korea to relieve various inflammatory symptoms. However, the exact molecular mechanism of its anti-inflammatory activity has not been fully investigated.\n\nThe effect of the ethanol extract from the roots of this plant (Ac-EE) on the production of the inflammatory mediator nitric oxide (NO) was studied in RAW264.7 cells. Its effect on inflammatory symptoms (gastritis and hepatitis) in mice was also examined. In particular, the molecular inhibitory mechanism was analysed by measuring the activation of transcription factors and their upstream signalling and the kinase activity of target enzymes.\n\nAc-EE dose-dependently suppressed NO production in lipopolysaccharide (LPS)-activated RAW264.7 cells. This extract also displayed curative activity against EtOH/HCl-induced gastritis and LPS-induced hepatitis in mice. Ac-EE-mediated anti-inflammatory activity was found to be at the transcriptional level, as it blocked the activation of the nuclear factor (NF)-κB pathway composed of Syk and Src, according to immunoblotting and immunoprecipitation analyses and a kinase assay with whole and nucleus lysates from RAW264.7 cells and mice.\n\nAc-EE may be developed as a functional herbal remedy targeting Syk- and Src-mediated anti-inflammatory mechanisms. Future work using pre-clinical studies will be needed to investigate this possibility."
+},
+{
+"pmid": "22705379",
+"pmc": null,
+"doi": "10.1016/j.cbi.2012.06.003",
+"year": "2012",
+"j": "Chem Biol Interact",
+"cit": {
+"volume": "199",
+"issue": "2",
+"pages": "112-9"
+},
+"title": "Pimaric acid from Aralia cordata has an inhibitory effect on TNF-α-induced MMP-9 production and HASMC migration via down-regulated NF-κB and AP-1.",
+"ab": "Many studies have indicated that activation of matrix metalloproteinase (MMP)-9 and smooth muscle cell (SMC) migration are involved in neointimal formation and atherosclerosis. In this study, we revealed that pimaric acid (PiMA) purified from Aralia cordata had an inhibitory effect on MMP-9 production and migration of human aortic smooth muscle cells (HASMCs) induced by tumor necrosis factor (TNF)-α. Down-regulated MMP-9 mRNA transcription was detected in PiMA-treated cells using RT-PCR and the luciferase-tagged MMP-9 promoter assay. Results of an electrophoretic mobility shift assay indicated that PiMA-treated HASMCs showed decreased binding activity of nuclear factor (NF)-κB and activator protein-1 transcription factors. A Western-blot analysis using nuclear extract demonstrated that PiMA reduced the levels of NF-κB p65, c-Fos, p-c-Jun, Jun-D, and p-ATF2 proteins in the nucleus. In addition, TNF-α stimulated mitogen activated protein kinase (MAPK) containing extracellular signal regulated kinase 1 and 2, p38, and c-Jun N-terminal kinase was inhibited by PiMA. Using the Transwell system, we found that PiMA inhibited TNF-α stimulated HASMC migration/invasion in a dose-dependent manner. To confirm whether MAPK mediated MMP-9 expression, we used MAPK inhibitors including U0126, SB253580, and SP600125 and found that those inhibitors reduced MMP-9 expression and HASMC migration/invasion. These results suggest that PiMA has potent anti-atherosclerotic activity with inhibitory action on MMP-9 production and cell migration in TNF-α-induced HASMCs."
+},
+{
+"pmid": "21884778",
+"pmc": "PMC3616193",
+"doi": "10.1016/j.jep.2011.08.024",
+"year": "2011",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "137",
+"issue": "3",
+"pages": "1442-9"
+},
+"title": "ent-kaur-16-en-19-oic Acid, isolated from the roots of Aralia continentalis, induces activation of Nrf2.",
+"ab": "Excessive inflammation can lead to tissue damage and dysfunction of vital organs. Hence, regulating inflammatory response is a viable therapeutic approach. In Asian countries, various inflammatory diseases have often effectively been treated with herbal remedies including the root extract of Aralia continentalis Kitagawa (Araliaceae). Here, we investigated the effect of kaurenoic acid (ent-kaur-16-en-19-oic acid: KA), a diterpenoid that is extracted from Aralia continentalis Kitagawa root, on inflammation.\n\nWestern blot and RT-PCR analyses show that KA induced the nuclear localization of Nrf2 as low as 1 nM in concentration and that KA treatment induced the expression of Nrf2 dependent genes such as GCLC and HO-1. On the other hand, KA did not affect the degradation of cytoplasmic IκB-α, the nuclear localization of RelA (p65), and NF-κB transcriptional activity in RAW264.7 cells treated with endotoxin. Consistent with these data, KA treatment failed to suppress gene expression of representative pro-inflammatory mediators including COX-2, nitric oxide, IL-1β, TNF-α, and IL-12, indicating that KA did not have an important impact on NF-κB activation.\n\nTogether, these results show that KA was an effective activator of Nrf2, and suggest that the beneficial effects of Aralia continentalis Kitagawa root extract are, at least in part, mediated by activating Nrf2."
+},
+{
+"pmid": "21782015",
+"pmc": null,
+"doi": "10.1016/j.jep.2011.07.015",
+"year": "2011",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "137",
+"issue": "2",
+"pages": "979-84"
+},
+"title": "Inhibitory effect of Aralia continentalis on the cariogenic properties of Streptococcus mutans.",
+"ab": "Aralia continentalis has been used in traditional Korean medicine for dental diseases such as toothache, dental caries, periodontal disease and gingivitis, and also has been used for neuralgia, analgesia, sweating, and as an antirheumatic.\n\nThe present study was designed to investigate the inhibitory effect of Aralia continentalis extract on cariogenic properties of Streptococcus mutans, which is one of the most important bacteria in the formation of dental caries and dental plaque.\n\nThe inhibitory effects of Aralia continentalis extract on the growth, acid production, water-insoluble glucan synthesis, and adhesion were investigated in Streptococcus mutans. The biofilm formation of Streptococcus mutans was determined by scanning electron microscopy (SEM) and safranin staining.\n\nThe ethanol extract of Aralia continentalis showed concentration dependent inhibitory activity on the growth of Streptococcus mutans and significant inhibition of acid production at the concentrations of 0.25, 0.5, 1, 2 and 4 mg/ml compared to the control group. The synthesis of water-insoluble glucan by glucosyltransferase (GTFase) was decreased in the presence of 0.5-4 mg/ml of the extract of Aralia continentalis. The extract markedly inhibited Streptococcus mutans adherence to saliva-coated hydroxyapatite beads (S-HAs). The extract of Aralia continentalis has an inhibitory effect on the formation of Streptococcus mutans biofilms at the concentrations higher than 2mg/ml.\n\nThese results suggest that Aralia continentalis may inhibit cariogenic properties of Streptococcus mutans, and also may support the scientific rationale that native inhabitants used the extract for the treatment of dental diseases."
+},
+{
+"pmid": "21420482",
+"pmc": null,
+"doi": "10.1016/j.jep.2011.03.031",
+"year": "2011",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "135",
+"issue": "2",
+"pages": "414-21"
+},
+"title": "Combined prescription (OAH19T) of Aralia cordata Thunb and Cimicifuga heracleifolia Komar and its major compounds inhibit matrix proteinases and vascular endothelial growth factor through the regulation of mitogen-activated protein kinase pathway.",
+"ab": "OAH19T, a new herbal extract from a mixture of Aralia cordata Thunb and Cimicifuga heracleifolia, is traditionally used for the treatment of arthritis in far East Asia. To investigate the chondroprotective effects of OAH19T on osteoarthritis was examined and compared with its major compounds pimaradienoic acid (PA) and ferulic acid (FA) of human osteoarthritis (OA) chondrocytes.\n\nChondrocytes, alone or in the presence of IL-1β, were cultured with or without OAH19T, PA or FA (10, 20, 40 μg/ml). The release of sulfated glycosaminoglycan (GAG) was measured by colorimetric assay using 1,9-dimethylmethylene blue (DMB) reagent from the cultured media. The level of aggrecanases and VEGF was measured by reverse transcription polymerase chain reaction (RT-PCR). The expression of MMP-1 and MMP-3 analyzed by real time RT-PCR and enzyme-linked immunosorbent assay (ELISA). The phosphorylation of mitogen-activated protein kinases was performed by immunoblotting in OA chondrocytes. The proliferation was examined by the BrdU assay.\n\nOAH19T markedly inhibited the release of proteoglycan and the degradation of aggrecan, in a dose-dependent manner in OA chondrocytes. OAH19T also inhibited the level of aggrecanase-1, aggrecanase-2, MMP-1, MMP-3, and VEGF in OA chondrocytes. PA and FA also inhibited the level of aggrecanase-2, MMP-3 and VEGF, while did not significantly affect the levels of aggrecanase-1, MMP-3 in OA chondrocytes. OAH19T exhibited the down-regulation of p38 MAP kinase unlike PA and FA in OA chondrocytes without cytotoxicity. In addition, p38 inhibitor SB203580 abolished the antiproliferative activity and proteoglycan degradation by OAH19T, while had no effect by PA or FA.\n\nOAH19T have shown the chondroprotective effect by inhibiting cell proliferation, expression of cartilage-specific matrix proteinases and release of VEGF, but bigger than PA or FA, through down-regulation of p38 MAP kinase in human OA chondocyte. These results provide pharmacological basis for use in treatment of OA."
+},
+{
+"pmid": "21315590",
+"pmc": null,
+"doi": "10.1016/j.bmcl.2011.01.045",
+"year": "2011",
+"j": "Bioorg Med Chem Lett",
+"cit": {
+"volume": "21",
+"issue": "5",
+"pages": "1347-9"
+},
+"title": "HY251, a novel decahydrocyclopenta[a]indene analog, from Aralia continentalis induces apoptosis via down-regulation of AR expression in human prostate cancer LNCaP cells.",
+"ab": "In the course of screening for a novel anticancer drug candidate, we previously isolated HY251 with the molecular structure of 3-propyl-2-vinyl-1,2,3,3a,3b,6,7,7a,8,8a-decahydrocyclopenta[a]indene-3,3a,7a,8a-tetraol from the roots of Aralia continentalis. The current study was designed to evaluate the detailed mechanisms of apoptotic induction of HY251 in androgen-sensitive prostate cancer LNCaP cells. TUNEL assay and Western blot analysis revealed an appreciable apoptotic induction in LNCaP cells treated with 95μM of HY251 for 24h. This apoptotic induction is also associated with cytochrome c release from mitochondria which, in turn, resulted in the activation of caspase-9 and -3, and the cleavage of poly(ADP-ribose) polymerase (PARP). Moreover, we found that HY251 significantly inhibited the expression levels of androgen receptor (AR) and prostate-specific antigen (PSA) in a time-dependent manner, as well as abrogated up-regulation of AR and PSA genes with and without androgen. Therefore, we suggest that HY251, a novel androgen antagonist, may be a potent cancer chemotherapeutic candidate for the treatment of both androgen-sensitive and hormone-refractory prostate cancer."
+},
+{
+"pmid": "21243781",
+"pmc": null,
+"doi": null,
+"year": "2010",
+"j": "Zhong Yao Cai",
+"cit": {
+"volume": "33",
+"issue": "9",
+"pages": "1484-7"
+},
+"title": "[Extraction and antioxidant activity of flavonoids from Aralia cordata].",
+"ab": "In this study, microwave-assisted extraction techniques of flavonoids fom Aralia cordata were studied by the single factor analysis and orthogonal test, then the property antioxidant activities of flavonoids extracts were evaluated by two antioxidant assays, for 1,1-diphenyl-2-picrylhydrazyl (DPPH) radicals scavenging and reducing power. The results showed that the optimum conditions were as follows: twice extracting Aralia cordata with 75 times volume (V/W) of 30% ethanol at 140W of microwave for 60 min at 80 degrees C. Under these conditions, the extraction yield was 1.35%. The flavonoids extracts could significantly scavenge DPPH and superoxide anion free radicals in dose-dependent manner, meanwhile a linear correlation between its concentration and reducing power was also observed (R2 = 0.9855)."
+},
+{
+"pmid": "21211951",
+"pmc": null,
+"doi": "10.1016/j.phymed.2010.11.010",
+"year": "2011",
+"j": "Phytomedicine",
+"cit": {
+"volume": "18",
+"issue": "8-9",
+"pages": "677-82"
+},
+"title": "Inhibitory effects of kaurenoic acid from Aralia continentalis on LPS-induced inflammatory response in RAW264.7 macrophages.",
+"ab": "This study investigates the anti-inflammatory effects of a diterpenoid, kaurenoic acid, isolated from the root of Aralia continentalis (Araliaceae). To determine its anti-inflammatory effects, LPS-induced RAW264.7 macrophages were treated with different concentrations of kaurenoic acid and carrageenan-induced paw edema mice model was used in vivo. Kaurenoic acid (ent-kaur-16-en-19-oic acid) dose-dependently inhibited nitric oxide (NO) production, prostaglandin E(2) (PGE(2)) release, cyclooxygenase-2 (COX-2) and inducible nitric oxide synthase (iNOS) expression at micromolar concentrations in LPS-induced RAW264.7 macrophages with IC(50) (the half maximal inhibitory concentration) values of 51.73 (±2.42) μM and 106.09 (±0.27) μM in NO production and PGE(2) release, respectively. Kaurenoic acid also dose-dependently inhibited LPS-induced activation of NF-κB as assayed by electrophorectic mobility shift assay (EMSA) and it almost abolished NF-κB DNA binding affinity at 100μM. Furthermore, the in vivo anti-inflammatory effect of kaurenoic acid was examined in a carrageenan-induced paw edema model. Eight ICR mice in each group were injected with carrageenan and observed hourly, compared with the control group. Kaurenoic acid dose-dependently reduced paw swelling up to 34.4% at 5h after induction, demonstrating inhibition in an acute inflammation model. Taken together, our data suggest that kaurenoic acid, a major diterpenoid from the root of A. continentalis shows anti-inflammatory activity and the inhibition of iNOS and COX-2 expression might be one of the mechanisms responsible for its anti-inflammatory properties."
+},
+{
+"pmid": "24278540",
+"pmc": "PMC3834501",
+"doi": "10.5487/TR.2010.26.4.321",
+"year": "2010",
+"j": "Toxicol Res",
+"cit": {
+"volume": "26",
+"issue": "4",
+"pages": "321-7"
+},
+"title": "Comparison of hydroxyl radical, peroxyl radical, and peroxynitrite scavenging capacity of extracts and active components from selected medicinal plants.",
+"ab": "The ability of 80% ethanol extracts from five medicinal plants, Aralia continentalis, Paeonia suffruticosa, Magnolia denudata, Anemarrhena asphodeloides, and Schizonepeta tenuifolia, to neutralize hydroxyl radical, peroxyl radical and peroxynitrite was examined using the total oxyradical scavenging capacity (TOSC) assay. Peroxyl radical was generated from thermal homolysis of 2,2'-azobis (2-methylpropionamidine) dihydrochloride (ABAP) ; hydroxyl radical by an iron-ascorbate Fenton reaction; peroxynitrite by spontaneous decomposition of 3-morpholinosydnonimine N-ethylcarbamide (SIN-1) . The oxidants generated react with α-keto-γ-methiolbutyric acid (KMBA) to yield ethylene, and the TOSC of the substances tested is quantified from their ability to inhibit ethylene formation. Extracts from P. suffruticosa, M. denudata,and S. tenuifolia were determined to be potent peroxyl radical scavenging agents with a specific TOSC (sTOSC) being at least six-fold greater than that of glutathione (GSH) . These three plants also showed sTOSCs toward peroxynitrite markedly greater than sTOSC of GSH, however, only P. suffruticosa revealed a significant hydroxyl radical scavenging capacity. Seven major active constituents isolated from P. suffruticosa, quercetin, (+) -catechin, methyl gallate, gallic acid, benzoic acid, benzoyl paeoniflorin and paeoniflorin, were determined for their antioxidant potential toward peroxynitrite, peroxyl and hydroxyl radicals. Quercetin, (+) -catechin, methyl gallate, and gallic acid exhibited sTOSCs 40~85 times greater than sTOSC of GSH. These four components also showed a peroxynitrite scavenging capacity higher than at least 10-fold of GSH. For antioxidant activity against hydroxyl radical, methyl gallate was greatest followed by gallic acid and quercetin. Further studies need to be conducted to substantiate the significance of scavenging a specific oxidant in the prevention of cellular injury and disease states caused by the reactive free radical species."
+},
+{
+"pmid": "20717878",
+"pmc": null,
+"doi": "10.1055/s-0030-1250177",
+"year": "2010",
+"j": "Planta Med",
+"cit": {
+"volume": "77",
+"issue": "2",
+"pages": "164-8"
+},
+"title": "Inhibitory effect of human breast cancer cell proliferation via p21-mediated G1 cell cycle arrest by araliadiol isolated from Aralia cordata Thunb.",
+"ab": "A new polyacetylenic compound, araliadiol, was isolated from the leaves of Aralia cordata Thunb. (Araliaceae). The structure of araliadiol was determined to be 3( S),8( R)-pentadeca-1,9( Z)-diene-4,6-diyne-3,8-diol by MS, NMR, IR, and UV spectroscopic analysis as well as Mosher ester reaction. Araliadiol displayed a significant inhibitory effect on the growth of a human breast adenocarcinoma cell line (MCF-7), with an IC (50) value for cytotoxicity of 6.41 µg/mL. Cell cycle analysis revealed that the proportion of cells in the G (1) phase of the cell cycle increased in a dose-dependent manner (from 54.7 % to 72.0 %) after 48 h exposure to araliadiol at dosages ranging from 0 to 80 µM. The results suggest that araliadiol inhibits cell cycle progression of MCF-7 at the G (1)-S transition. After treatment with araliadiol, phosphorylation of retinoblastoma protein (Rb) in MCF-7 cells was inhibited, accompanied by a decrease in the levels of cyclin D (3) and cyclin-dependent kinase 4 (cdk4) and an increase in the expression of p21 (WAF-1/Cip1). However, the expression of phosphorylated p53 (Ser15) and Chk2 was not altered in MCF-7 cells. These findings indicate that araliadiol exhibits its growth-inhibitory effects on MCF-7 cells through downregulation of cdk4 and cyclin D (3), and upregulation of p21 (WAF-1/Cip1) by a p53-independent mechanism."
+},
+{
+"pmid": "20422358",
+"pmc": null,
+"doi": "10.1007/s12272-010-0403-2",
+"year": "2010",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "33",
+"issue": "4",
+"pages": "509-14"
+},
+"title": "The analgesic and anti-inflammatory effects of 7-oxosandaracopimaric acid isolated from the roots of Aralia cordata.",
+"ab": "The root of Aralia cordata is a traditional medicine for the treatment of inflammation, fever, pain, and spasm in the various diseases in Korea. We isolated a dibenzylbutyrolactone diterpene acid, 7-oxosandaracopimaric acid (OSA), from the ether fraction of Aralia cordata MeOH extract, and studied the effect of OSA on phenylquinone (PQ)-induced writhing syndrome and PQ-induced capillary permeability increase, compound 48/80-induced histamine release by peritoneal mast cells, cycloxygenase (COX) activities, and silica-induced RAW 264.7 cell reactive oxygen species production. OSA (30 mg/kg, p.o.) significantly (p < 0.05) inhibited PQ-induced writhes by 25.8% and the PQ-induced capillary permeability increase levels by 33.13% as compared with PQ control. Furthermore, OSA (10 mM) inhibited COX-1 by 22.82 +/- 1.94%, and COX-2 by 15.86 +/- 1.35%, respectively, to the same extent as indomethacin at the same concentration (10 mM). And OSA (3.0 mM) significantly (p < 0.05) inhibited compound 48/80-induced histamine release from rat mast cells, and its activity was similar to that of celebrex (1 mM), but no piracetam (0.1 mM) inhibited them. OSA did not inhibit ROS production in RAW 264.7 cells. These results indicated that OSA has analgesic and anti-inflammatory effects due to its inhibitory effects on capillary permeability, COX activities, and histamine release."
+},
+{
+"pmid": "20219657",
+"pmc": null,
+"doi": "10.1016/j.jep.2010.02.010",
+"year": "2010",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "129",
+"issue": "1",
+"pages": "135-9"
+},
+"title": "HY253, a novel decahydrofluorene analog, from Aralia continentalis, induces cell cycle arrest at the G1 phase and cytochrome c-mediated apoptosis in human lung cancer A549 cells.",
+"ab": "In the course of our screening for novel modulators on cell cycle progression and apoptosis as anticancer drug candidates, we isolated a novel compound HY253 with the molecular structure of 7,8a-divinyl-2,4a,4b,5,6,7,8,8a,9,9a-decahydro-1H-fluorene-2,4a,4b,9a-tetraol from the roots of Aralia continentalis. This study was designed to evaluate the detailed mechanisms of cell cycle arrest and the apoptotic induction of HY253 in human lung cancer A549 cells.\n\nTo investigate the effects of HY253 on cell cycle progression in A549 cells, we measured DNA content of A549 cells treated with 35 microM of HY253 using flow cytometric analysis. Furthermore, TUNEL assay was used to examine apoptotic induction in A549 cells treated with 70 microM of HY253 for 24 and 48 h. The effects of HY253 on apoptosis-associated and cell cycle regulatory proteins in A549 cells were examined using Western blot analysis.\n\nThe flow cytometric analysis revealed an appreciable G(1) phase arrest in A549 cells treated with 35 microM of HY253. This HY253-induced G(1) phase arrest is associated with decreased expression of cyclin D and up-regulation of p21(CIP1), via p53 phosphorylation at Ser-15, which resulted in increased hypophosphorylated pRb in A549 cells. Furthermore, TUNEL assay and Western blot analysis revealed an appreciable apoptotic induction in A549 cells treated with 70 microM of HY253 for 48 h. This apoptotic induction in HY253-treated A549 cells is also associated with cytochrome c release from mitochondria which in turn resulted in the activation of caspase-9 and -3, and the cleavage of poly(ADP-ribose) polymerase (PARP).\n\nThese results demonstrate that HY253, a novel antiproliferative compound isolated from the roots of Aralia continentalis, induces cell cycle arrest at the G(1) phase and apoptosis in A549 cells. Based on these results, we suggest that HY253 may be a potent cancer chemotherapeutic candidate for use in treating human lung cancer cells via up-regulation and activation of p53 gene."
+},
+{
+"pmid": "20060054",
+"pmc": null,
+"doi": "10.1016/j.pupt.2009.12.004",
+"year": "2010",
+"j": "Pulm Pharmacol Ther",
+"cit": {
+"volume": "23",
+"issue": "3",
+"pages": "190-9"
+},
+"title": "Inhibitory effects of diterpene acids from root of Aralia cordata on IgE-mediated asthma in guinea pigs.",
+"ab": "This study evaluated the anti-asthmatic activities of four diterpene acids isolated from Aralia cordata root that are proposed to be the active ingredients in its traditional use as a treatment for inflammation, overheating, pain and spasm in Korea. The diterpene acids were identified as kaurenoic acid, 7-oxo-sandaracopimaric acid, 17-hydroxy-ent-kaur-15-en-19-oic acid, and hederagenin, by comparing their phytochemical and spectroscopic data with previous reports. The effects of diterpene acids on asthma were evaluated by determining the specific airway resistance (sRaw) during the immediate asthmatic response (IAR) and the late-phase asthmatic response (LAR) in guinea pigs with IgE-mediated asthma. Recruitment of leukocytes and the presence of chemical mediators in bronchoalveolar lavage fluid (BALF) were determined, and histopathological surveys performed. The four diterpene acids dosed at 25 approximately 100 mg/kg had dose-dependently anti-asthmatic effects: 7-oxo-sandaracopimaric acid > 17-hydroxy-ent-kaur-15-en-19-oic acid > kaurenoic acid > hederagenin. 7-oxo-sandaracopimaric acid (25 mg/kg) significantly (p < 0.05) inhibited sRaw by 59.5% in IAR and LAR, and also dose-dependently inhibited recruitment of eosinophils and neutrophils into lung and release of chemical mediators, histamine, and the activity of phospholipase A(2) and eosinophil peroxidase in BALF. 7-Oxo-sandaracopimaric acid had the highest activity among the diterpene acids. But its effect was lower than cromolyn sodium, salbutamol, or dexamethasone in both the IAR and the LAR. These results suggested that C(7)-oxo radical of 7-oxo-sandaracopimaric acid was more active than the C(7)-hydroxy and hydrogen of the other compounds, and showed diterpene acids have anti-asthmatic effects, supporting the traditional application of this herb in treating IgE-mediated asthma."
+},
+{
+"pmid": "19898803",
+"pmc": null,
+"doi": "10.1007/s12272-009-2009-0",
+"year": "2009",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "32",
+"issue": "10",
+"pages": "1399-408"
+},
+"title": "Cholinesterase and BACE1 inhibitory diterpenoids from Aralia cordata.",
+"ab": "Fourteen diterpenes were isolated from the n-hexane fraction of the roots of Aralia cordata (syn. = A. continentalis). Through spectroscopy, the chemical structures were determined as: ent-pimara-8(14),15-diene-19-oic acid (1); ent-kaur-16-en-19-oic-acid (2); 18-nor-ent-pimara-8(14),15-diene-4beta-ol (3); 18-nor-ent-kaur-16-ene-4beta-ol (4); ent-pimara-8(14),15-diene-19-ol (5); 7alpha-hydroxy-ent-pimara-8(14),15-diene-19-oic acid (6); 7beta-hydroxy-ent-pimara-8(14),15-diene-19-oic acid (7); ent-pimar-15-en-8alpha,19-diol (8); 7-oxo-ent-pimara-8(14),15-diene-19-oic acid (9); 16alpha-hydroxy-17-isovaleroyloxy-ent-kauran-19-oic acid (10); 17-hydroxy-ent-kaur-15-en-19-oic acid (11); 15alpha,16alpha-epoxy-17-hydroxy-ent-kauran-19-oic acid (12); 16alpha,17-dihydroxy-ent-kauran-19-oic acid (13); and 16alpha-methoxy-17-hydroxy-ent-kauran-19-oic acid (14). Compounds 4, 5, 8, 12, and 14 were first isolated from this plant. The anti-Alzheimer and antioxidant effects of ent-pimarane-type diterpenes 1, 3, 5, 8, and 9, as well as ent-kaurane-type diterpenes 2, 4, and 10-13, were evaluated via beta-site amyloid precursor protein cleaving enzyme 1 (BACE1), acetylcholinesterase (AChE), butyrylcholinesterase (BChE), peroxynitrite (ONOO(-)), and nitric oxide (NO*) assays. Of the compounds tested, 8 exerted the most effective BChE inhibition with an IC(50) value of 7.58 microM, followed by 3, 13, 11, 2, and 10. Compounds 9-11 exhibited good BACE1 inhibitory activities with IC(50) values of 18.58-24.10 microM. However, 11 showed marginal AChE inhibitory effect, and all compounds tested showed no scavenging activities on ONOO(-) and NO* at a concentration of 100 microM."
+},
+{
+"pmid": "30754590",
+"pmc": null,
+"doi": "10.1094/PDIS-93-11-1215B",
+"year": "2009",
+"j": "Plant Dis",
+"cit": {
+"volume": "93",
+"issue": "11",
+"pages": "1215"
+},
+"title": "First Report of Alternaria panax Causing Leaf Spot of Aralia cordata in Japan.",
+"ab": "Udo, Aralia cordata Thumb, Araliaceae, is a traditional Japanese perennial vegetable and used in Chinese herbal medicines. During the last 10 days of July 2008, before the period of flower, leaf spots were observed on udo growing under pine trees in Nasushiobara, Tochigi, Japan. Leaf spots affected more than 40% of the plants. Early symptoms appeared as small, round or irregular, water-soaked, dark brown lesions on the leaves. These areas expanded to 15 to 30 mm in diameter, were irregular and pale brown in the central area and the margin of the lesions were water soaked and dark brown. Later, some lesions coalesced. In continuously wet or humid conditions, conidiophores with conidia appeared on the surface of leaf spots. Conidiophores were medium brown and simple (approximately 70 to 160 × 6 to 8 μm). Well-developed conidia were long-obclavate, base obtuse, straight, yellowish brown, smooth walled, with six to nine transverse septa and three to five longitudinal or oblique septa, constricted at some main septa, some cells easily swelled, conidium body was 72 to 100 × 19 to 34 μm, and the rostra extension was 40 to 90 × 4 to 5 μm. The pathogen was identified as Alternaria panax on the basis of the morphology and sequence of ITS1-5.8s-ITS2 of rDNA. The sequence (GenBank Accession No. FJ607183) exactly matched the sequences of two A. panax (e.g., GenBank Accession Nos. AY898639 and AY898640) (2-4). The fungus was isolated on V8 agar from a single conidium found on symptomatic leaf tissue. Colonies of A. panax were gray-to-black and did not easily produce conidia on the agar. Koch's postulates were performed with the leaves of three branches on a field plant of Aralia cordata. Leaves were inoculated with a mycelial plug harvested from the periphery of a 7-day-old colony; an equal number of leaves on the same plant inoculated with plugs of V8 medium served as the control. All test leaves were covered with plastic bags for 24 h to maintain high relative humidity and incubated at a natural temperature (approximately 24 to 28°C). After 7 days, all inoculated leaves showed symptoms identical to those observed in natural conditions, whereas the controls remained symptom free. Reisolation of the fungus from lesions on inoculated leaves confirmed that the causal agent was A. panax. This species has been previously reported on Aralia cordata in Korea (1). To our knowledge, this is the first report of leaf spots caused by A. panax on Aralia cordata in Japan. References: (1) W. D. Cho and H. D. Shin. List of Plant Diseases in Korea. 4th ed. Korean Society of Plant Pathology, 2004. (2) E. G. Simmons. Mycotaxon 14:17, 1982. (3) E. G. Simmons. Alternaria: An Identification Manual. CBS Fungal Biodiversity Centre, Utrecht, the Netherlands, 2007. (4) T. Y. Zhang et al. Flora Fungorum Sinicorum: Alternaria. Vol. 16. Science Press (in Chinese), Beijing, 2003."
+},
+{
+"pmid": "19784580",
+"pmc": null,
+"doi": "10.1007/s12272-009-1909-3",
+"year": "2009",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "32",
+"issue": "9",
+"pages": "1237-43"
+},
+"title": "Anti-inflammatory activity of the constituents of the roots of Aralia continentalis.",
+"ab": "To assess the anti-inflammatory activity of the constituents of the roots of Aralia continentalis, ent-pimara-8(14),15-diene-19-oic acid (continentalic acid, pimaradienoic acid, compound I), 7beta-hydroxy-ent-pimara-8(14),15-diene-19-oic acid (compound II), 7-oxo-ent-pimara-8(14),15-diene-19-oic acid (compound III), 15alpha,16alpha-epoxy-17-hydroxy-ent-kauran-19-oic acid (compound IV) and ent-kaura-16-en-19-oic acid (kaurenoic acid, compound V), their inhibitory effects against cyclooxygenase-2 (COX-2)-catalyzed PGE(2) and inducible nitric oxide synthase (iNOS)-catalyzed NO production by lipopolysaccharide-treated RAW 264.7 cells were examined. Among the compounds tested, compound III and V moderately inhibited NO production. In addition, compound III weakly inhibited PGE2 production, while treatment with compounds II and IV at concentrations of up to 100 microM had no significant effects. Conversely, compound I only weakly inhibited PGE2 and NO production. To elucidate the mechanism by which these changes occurred, the iNOS down-regulating capacity of compound III was investigated. Western blot analysis and an electrophoretic mobility shift assay demonstrated that compound III weakly inhibited COX-2 and iNOS expression at 50-100 microM, and inhibited NF-kappaB activation. When in vivo anti-inflammatory activities of compounds I, III and V were examined, intraperitoneal injection of 4-100 mg/kg of compound I and V significantly inhibited carrageenan-induced paw edema in mice, whereas compound III did not. Taken together, the results of this study suggest that some constituents of A. continentalis, especially compounds I, III and V, exert significant anti-inflammatory activity, which suggests that these constituents contribute, at least in part, to the anti-inflammatory action of the roots of A. continentalis."
+},
+{
+"pmid": "19763045",
+"pmc": null,
+"doi": "10.1254/jphs.08271fp",
+"year": "2009",
+"j": "J Pharmacol Sci",
+"cit": {
+"volume": "111",
+"issue": "1",
+"pages": "22-32"
+},
+"title": "Aralia cordata protects against amyloid beta protein (25-35)-induced neurotoxicity in cultured neurons and has antidementia activities in mice.",
+"ab": "The present study investigated an ethanol extract of the aerial part of Aralia cordata Thunb. (Araliaceae) for possible neuroprotective effects on neurotoxicity induced by amyloid beta (Abeta) protein (25 - 35) in cultured rat cortical neurons and antidementia activity in mice. Exposure of cultured cortical neurons to 10 muM Abeta(25 - 35) for 36 h induced neuronal apoptotic death. At 1 - 10 mug/ml, A. cordata inhibited neuronal death, elevation of intracellular calcium ([Ca(2+)](i)), glutamate release into the medium, and generation of reactive oxygen species (ROS) induced by Abeta(25-35) in primary cultures of rat cortical neurons. Memory loss induced by intracerebroventricular injection of ICR mice with 15 nmol Abeta(25-35) was inhibited by chronic treatment with A. cordata (50 and 100 mg/kg, p.o. for 7 days) as measured by a passive avoidance test, and corresponding reductions were observed in brain cholinesterase activity and neuronal death measured histologically in the hippocampal region. Oleanolic acid isolated from A. cordata also inhibited neuronal death, elevation of [Ca(2+)](i), glutamate release, and generation of ROS induced by Abeta(25-35) in cultured rat cortical neurons, suggesting that the neuroprotective effect of A. cordata may be, at least in part, attributable to this compound. From these results, we suggest that the antidementia effect of A. cordata is due to its neuroprotective effect against Abeta(25-35)-induced neurotoxicity and that A. cordata may have a therapeutic role in preventing the progression of Alzheimer's disease."
+},
+{
+"pmid": "19619632",
+"pmc": null,
+"doi": "10.1016/j.jep.2009.07.010",
+"year": "2009",
+"j": "J Ethnopharmacol",
+"cit": {
+"volume": "125",
+"issue": "2",
+"pages": "207-17"
+},
+"title": "Therapeutic effect of Aralia cordata extracts on cartilage protection in collagenase-induced inflammatory arthritis rabbit model.",
+"ab": "Aralia cordata has been used to alleviate symptoms of osteoarthritis (OA) in traditional medicine. However, there is no in vivo study related with the therapeutic effects and mechanisms of Aralia cordata. On the basis of this background, our study was designed to examine the cartilage protective and proliferative effects of Aralia cordata by using a collagenase-induced osteoarthritis (CIA) rabbit model.\n\nThe right knees of rabbits were injected intra-articularly with collagenase, and rabbits were orally administered with distilled water (vehicle), Aralia cordata (200mg/kg) and celecoxib (100mg/kg) once a day for 28 days after the initiation of the CIA.\n\nIn histopathologic studying by using H&E and Safranin O staining, Aralia cordata showed a cartilage protective effect in CIA rabbit femoral condyle. However, celecoxib had no effect on cartilage protection in CIA. The inflammatory mediators involved in cartilage destruction, such as COX-2 and PGE(2), were inhibited in the Aralia cordata-treated group. Aralia cordata also showed an anti-apoptotic effect through suppression of caspase-3 activity and chondrocyte proliferation induction in both in vivo and in vitro.\n\nThese results indicate that Aralia cordata showed cartilage protective effects through the down-regulations of COX-2 expression, PGE(2) production, caspase-3 activity, and chondrocyte proliferation in the CIA rabbit model."
+},
+{
+"pmid": "19557371",
+"pmc": null,
+"doi": "10.1007/s12272-009-1615-1",
+"year": "2009",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "32",
+"issue": "6",
+"pages": "923-32"
+},
+"title": "Anti-ischemic activities of aralia cordata and its active component, oleanolic acid.",
+"ab": "Aralia has been reported to exhibit various pharmacological properties, including anti-inflammatory, antidiabetic and antioxidant activities. We performed in vitro and in vivo analyses on the neuroprotective effects of an ethanolic extract of the aerial parts of Aralia cordata Thunb. (Araliaceae). In cultured cortical neurons from rats, A. cordata (5-20 microg/mL) inhibited 100 muM hydrogen peroxide (H(2)O(2))-induced apoptotic neuronal death, elevation of intracellular calcium concentration ([Ca(2+)](i)) and generation of reactive oxygen species (ROS). Since oleanolic acid isolated from A. cordata also inhibited H(2)O(2)-induced neuronal death, increase in [Ca(2+)](i) and ROS generation in cultured cortical neurons, some of the neuroprotective effects of A. cordata might be attributable to this compound. In rats, A. cordata prevented cerebral ischemic injury induced by 3 h of middle cerebral artery occlusion, followed by 24 h of reperfusion. Ischemic infarct and edema volumes were significantly reduced in rats that received A. cordata (50 mg/kg, orally). These animals exhibited a corresponding improvement in neurological function and a reduction of neuronal death, as determined histologically from the cortex and hippocampal regions. It is possible that the anti-oxidative properties of A. cordata may be responsible for its neuroprotective effects against focal cerebral ischemic injury. In future, A. cordata might play a therapeutic role in the prevention and treatment of neurodegeneration in stroke."
+},
+{
+"pmid": "19097782",
+"pmc": null,
+"doi": "10.1016/j.bmcl.2008.12.009",
+"year": "2008",
+"j": "Bioorg Med Chem Lett",
+"cit": {
+"volume": "19",
+"issue": "3",
+"pages": "797-9"
+},
+"title": "HY253, a novel compound isolated from Aralia continentalis, induces apoptosis via cytochrome c-mediated intrinsic pathway in HeLa cells.",
+"ab": "This study was aimed to elucidate the novel structure of HY253 isolated from the roots of Aralia continentalis and to evaluate its detailed mechanisms on apoptotic induction in HY253-treated HeLa cells. The structure of HY253 was elucidated based on the interpretation of the NMR spectra, as 7,8a-divinyl-2,4a,4b,5,6,7,8,8a,9,9a-decahydro-1H-fluorene-2,4a,4b,9a-tetraol. The TUNEL assay using flow cytometer revealed an appreciable apoptotic induction in HeLa cells treated with 100 microM of HY253 for 48 h. This apoptotic induction is associated with cytochrome c release from mitochondria, via up-regulation of pro-apoptotic Bcl-2 proteins, such as Bax and Bak, which, in turn, resulted in the activation of caspase-8, -9 and -3, and the cleavage of poly(ADP-ribose) polymerase (PARP)."
+},
+{
+"pmid": "19095450",
+"pmc": null,
+"doi": "10.1016/j.bmcl.2008.11.087",
+"year": "2008",
+"j": "Bioorg Med Chem Lett",
+"cit": {
+"volume": "19",
+"issue": "3",
+"pages": "959-61"
+},
+"title": "HY251, a novel cell cycle inhibitor isolated from Aralia continentalis, induces G1 phase arrest via p53-dependent pathway in HeLa cells.",
+"ab": "This study was aimed to elucidate the novel structure of HY251 isolated from the roots of Aralia continentalis and to evaluate its detailed inhibition mechanisms on cell cycle progression in HeLa cells. The structure of HY251 was elucidated based on the interpretation of the NMR spectra, as 3-propyl-2-vinyl-1,2,3,3a,3b,6,7,7a,8,8a-decahydrocyclopenta[a]indene-3,3a,7a,8a-tetraol. The flow cytometric analysis revealed an appreciable G(1) phase arrest in HeLa cells treated with 100 microM of HY251. This HY251-induced G(1) phase arrest is associated with decreased expression of cyclin D3 and up-regulation of p21(CIP1) and p27(KIP1), via p53 phosphorylation at Ser-15 by transcriptional up-regulation of ATM, which resulted in increased hypophosphorylated pRb in HeLa cells."
+},
+{
+"pmid": "18984026",
+"pmc": null,
+"doi": "10.1016/j.fct.2008.10.011",
+"year": "2008",
+"j": "Food Chem Toxicol",
+"cit": {
+"volume": "47",
+"issue": "1",
+"pages": "75-81"
+},
+"title": "Protective effect of the Aralia continentalis root extract against carbon tetrachloride-induced hepatotoxicity in mice.",
+"ab": "The root of Aralia continentalis Kitagawa has been used in traditional Korean medicine to relieve pain and to treat inflammation. The purpose of this study was to investigate the protective effects of the extract of A. continentalis roots (AC) against hepatotoxicity induced by carbon tetrachloride (CCl4) and the mechanism of its hepatoprotective effect. In mice, pretreatment with AC prior to the administration of CCl4 significantly prevented the increased serum enzymatic activity of ALT and AST as well as the formation of hepatic malondialdehyde. Histopathological evaluation of the livers also revealed that AC reduced the incidence of liver lesions induced by CCl4. In addition, pretreatment with AC significantly prevented both the depletion of reduced glutathione (GSH) content and the decrease in glutathione-S-transferase (GST) activity in the liver of CCl4-intoxicated mice. Hepatic GSH levels and GST activity were increased by treatment with AC alone. Heme oxygenase-1 (HO-1) is known to be induced by oxidative stress and to confer protection against oxidative tissue injuries. Interestingly, AC markedly upregulated hepatic HO-1 expression in CCl4-treated mice, which might provide anti-oxidative activity in the liver. These results indicate that AC plays a critical protective role in CCl4-induced acute liver injury by promoting anti-oxidative protein expression."
+},
+{
+"pmid": "18938152",
+"pmc": null,
+"doi": "10.1016/j.ejphar.2008.10.012",
+"year": "2008",
+"j": "Eur J Pharmacol",
+"cit": {
+"volume": "601",
+"issue": "1-3",
+"pages": "179-85"
+},
+"title": "Ent-pimara-8(14), 15-dien-19-oic acid isolated from the roots of Aralia cordata inhibits induction of inflammatory mediators by blocking NF-kappaB activation and mitogen-activated protein kinase pathways.",
+"ab": "Macrophages play central roles in the innate immune system. The roots of Aralia cordata are widely used in Oriental medicine as a remedy for arthritis. During our program to screen medicinal plants for potential anti-inflammatory compounds, ent-pimara-8(14), 15-dien-19-oic acid (pimaradienoic acid; PA) was isolated from the roots of A. cordata. We examined the effect of PA on pro-inflammatory mediators in lipopolysaccharide (LPS)-stimulated RAW 264.7 macrophages. PA was found to significantly inhibit the production of nitric oxide (NO), prostaglandin E(2) (PGE(2)), and interleukin-6 (IL-6), as well as the expressions of inducible NO synthase (iNOS), cyclooxygenase-2 (COX-2), and IL-6. Furthermore, we examined whether mitogen-activated protein kinases (MAPKs) and phosphatidylinositol 3-kinase (PI3K) signaling pathways are involved in LPS-induced RAW 264.7 cells. We found that a p38 inhibitor (SB203580) and an ERK 1/2 inhibitor (PD98059) significantly affected LPS-induced IL-6 production. In contrast, a JNK 1/2 inhibitor (SP600125) and PI3K inhibitor (wortmannin or LY294002) did not block the induction of IL-6 production by LPS. The LPS-induced phosphorylation of p38 MAPK and extracellular signal-regulated kinase 1/2 (ERK1/2) was inhibited by PA, but not the phosphorylation of JNK 1/2 and AKT (Ser473). Moreover, PA suppressed I kappaB alpha degradation, NF-kappaB activation and luciferase activity. These results suggest that PA isolated from A. cordata has a potential regulatory effect on inflammatory iNOS, COX-2 and IL-6 expression through blockade of the phosphorylation of MAPKs following I kappaB alpha degradation and NF-kappaB activation."
+},
+{
+"pmid": "18824057",
+"pmc": null,
+"doi": "10.1016/j.fct.2008.08.035",
+"year": "2008",
+"j": "Food Chem Toxicol",
+"cit": {
+"volume": "46",
+"issue": "11",
+"pages": "3512-21"
+},
+"title": "Protective mechanisms of Aralia continentalis extract against tert-butyl hydroperoxide-induced hepatotoxicity: in vivo and in vitro studies.",
+"ab": "In the present work, we investigated the protective effects of the ethanol extract of Aralia continentalis roots (AC) on tert-butyl hydroperoxide (t-BHP)-induced hepatotoxicity in a cultured Hepa1c1c7 cell line and in mouse liver. Pretreatment with AC prior to the administration of t-BHP significantly prevented the increase in serum levels of hepatic enzyme markers (ALT, AST) and lipid peroxidation and reduced oxidative stress, as measured by glutathione content, in the liver. Histopathological evaluation of the livers also revealed that AC reduced the incidence of liver lesions. The in vitro study showed that AC significantly reduced t-BHP-induced oxidative injury in Hepa1c1c7 cells, as determined by cell cytotoxicity, intracellular glutathione content, lipid peroxidation, reactive oxygen species (ROS) levels, and caspase-3 activation. Also, AC up-regulated phase II genes including heme oxygenase-1 (HO-1), NAD(P)H:quinone reductase, and glutathione S-transferase. Moreover, AC induced Nrf2 nuclear translocation and ERK1/2 and p38 activation, pathways that are involved in inducing Nrf2 nuclear translocation. Taken together, these results suggest that the protective effects of AC against t-BHP-induced hepatotoxicity may, at least in part, be due to its ability to scavenge ROS and to regulate the antioxidant enzyme HO-1 via the ERK1/2 and p38/Nrf2 signaling pathways."
+},
+{
+"pmid": "18806961",
+"pmc": null,
+"doi": "10.1007/s12272-001-1285-3",
+"year": "2008",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "31",
+"issue": "9",
+"pages": "1172-8"
+},
+"title": "Continentalic acid from Aralia continentalis induces growth inhibition and apoptosis in HepG2 cells.",
+"ab": "In this study, we investigated the effects of continentalic acid (CA, (-)-pimara-8(14), 15-diene-19-oic acid), a diterpenic acid, isolated from Aralia continentalis, on the proliferation and apoptosis induction of HepG2 cells. In 3-(4,5-dimethyl-2-thiazolyl)-2,5-diphenyl-2H-tetrazolium bromide (MTT) assay, the inhibitory effect became gradually stronger with the passage of time, 24, 48 and 72 h after treatment with CA, and the most significant effect was observed at 72 h. CA treatment for 72 h induced DNA fragmentation in a dose-dependent manner. Furthermore, flow cytometric analysis of HepG2 cells exposed to CA showed that apoptotic cells increased in a dose-dependent manner. The induction of apoptosis in HepG2 cells by CA was mediated through the activation of caspase-3, Bak, and Bax, and then through the cleavage of peroxisome proliferator-activated receptor (PARP) and the down-regulation of Bcl-2. These results demonstrate that CA efficiently induces apoptosis and is a good candidate for further evaluation as an effective chemotherapeutic agent."
+},
+{
+"pmid": "20162037",
+"pmc": "PMC2816525",
+"doi": null,
+"year": "2008",
+"j": "Afr J Tradit Complement Altern Med",
+"cit": {
+"volume": "6",
+"issue": "1",
+"pages": "17-22"
+},
+"title": "Genetic analysis of Aralia cordata Thunb by RAPD.",
+"ab": "In the research, genetic analysis of Aralia cordata Thunb. (Araliaceae) was conducted using randomly amplified polymorphism DNA (RAPD). 161 loci were detected with 12 RAPD primers. Percentage of Polymorphic Band (PPB) varied from 34.78% to 63.35%. All the samples were respectively collected from the eight provinces richest in Aralia cordata Thunb resources in China, including Hunan, Yunnan, Zhejiang, Sichuan, Jiangxi, Anhui, Shanxi and Gansu. The results showed that Hunan Province enjoyed the highest level of genetic differentiation and Gansu was the lowest. The total genetic diversity (H(T)) of RAPD, intraspecific genetic diversity (H(S)) and genetic diversity (D(ST)) of the various places was respectively 26.33%, 11.14%, and 49.36%. The differentiation among the species accounted for 98.76% of total genetic diversity (G(ST)). Based on the cluster results of genetic distance, the 8 samples were classified into three groups. It is concluded that Hunan Province enjoyed the highest level of genetic differentiation of Aralia cordata Thunb and Gansu was the lowest, which provides a basis for the taxonomic identification and germplasm resource research of Aralia cordata Thunb in the future."
+},
+{
+"pmid": "18087808",
+"pmc": null,
+"doi": "10.1007/BF02977364",
+"year": "2007",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "30",
+"issue": "11",
+"pages": "1404-9"
+},
+"title": "Cytotoxic and DNA topoisomerases I and II inhibitory constituents from the roots of Aralia cordata.",
+"ab": "Bioactivity-guided fractionation, based on the DNA topoisomerase inhibitory activity, lead to the isolation of five compounds (1-5) from the methylene chloride extract of the roots of Aralia cordata Thunb. (Araliaceae). These compounds were identified as ent-pimara-8(14), 15-dien-19-oic acid (1), ent-pimara-8(14), 15-dien-18-oic acid (2), 16alpha-hydrogen-17-isovaleryloxy-ent-kauran-19-oic acid (3), 16alpha-hydroxy-17-isovaleryloxy-ent-kauran-19-oic acid (4) and dehydrofalcarindiol-8-acetate (5) from their spectral data. Compound 3 was isolated for the first time from this plant, and also showed the strongest inhibition of both DNA topoisomerase I and II activities, with 53 and 96% inhibitions, respectively, at a concentration of 20 microM. However, all the compounds exhibited either weak or no cytotoxicities against the human colon carcinoma cell line (HT-29), the human breast carcinoma cell line (MCF-7) and human hepato blastoma cell line (HepG-2)."
+},
+{
+"pmid": "16903073",
+"pmc": null,
+"doi": "10.1007/BF02969263",
+"year": "2006",
+"j": "Arch Pharm Res",
+"cit": {
+"volume": "29",
+"issue": "7",
+"pages": "548-55"
+},
+"title": "Cytotoxic and COX-2 inhibitory constituents from the aerial parts of Aralia cordata.",
+"ab": "Three diterpenes (1, 8, and 9), three triterpenes (3, 4, and 7), one saponin (11), four sterols (2, 5, 6, and 12), and one cerebroside (10) were isolated from the EtOH extract of the aerial parts of Aralia cordata by repeated silica gel column chromatography. Their chemical structures were identified by comparing their physicochemical and spectral data with those published in literatures. All isolated compounds were evaluated for their cytotoxicity against L1210, K562, and LLC tumor cell lines using MTT assay. Of which, 3beta,5alpha-dihydroxy-6beta-methoxyergosta-7,22-diene (6) showed a potent cytotoxicity against all cell lines with IC50 values of 11.7, 11.9, and 15.1 microM, respectively, while compounds 1, 5, and 11 showed a moderate or weak cytotoxicity. These isolates were also examined for their inhibitory activity against COX-1 and COX-2. Although most compounds, except for 2, 10, and 12, showed a strong inhibitory activity against COX-1, they exhibited a moderate or weak inhibitory activity against COX-2."
+},
+{
+"pmid": "16819182",
+"pmc": null,
+"doi": "10.1248/bpb.29.1423",
+"year": "2006",
+"j": "Biol Pharm Bull",
+"cit": {
+"volume": "29",
+"issue": "7",
+"pages": "1423-30"
+},
+"title": "Effect of Aralia cordata extracts on cartilage protection and apoptosis inhibition.",
+"ab": "Cartilage loss in osteoarthritis is characterized by cartilage degradation and chondrocyte death. Cartilage degradation is induced by activation of matrix-metalloproteinases (MMPs) activity and degradation of glycosaminoglycan (GAG) and collagen. Also, chondrocyte death is induced by the apoptosis through the activation of MAP kinase and caspases activities. On the basis of this background, our study was designed to examine the cartilage protective and anti-apoptotic effect of Aralia cordata. Cartilage explants and Chondrocytes were cultured from rabbit knee joint cartilage and treated by 5 ng/ml IL-1alpha. Cartilage and chondroprotective effects of Aralia cordata were determined by measuring (1) GAG and collagen expression, (2) GAG and collagen degradation, (3) TIMP and MMPs expression, and (4) TIMP and MMPs activity. Anti-apoptotic effects of Aralia cordata were determined by measuring (1) JNK and p38 MAP kinase expression, (2) apoptotic cells by flow cytometry, and (3) caspase-3 activity. In cartilage explants and chondroctyes treated by IL-1alpha, Aralia cordata showed the decrease of GAG and collagen degradation, decrease of MMPs (MMP-1, -3, -13) activity, and increase of TIMP-1 activity in a dose-dependent manner. Aralia cordata also showed anti-apoptotic effect by inhibition of early and late apoptotic cells, sub-G1 phase cells, and caspase-3 activity through the downregulation of JNK and p38 MAP kinase signaling pathway. Aralia cordata inhibited the cartilage and chondrocyte destruction through the downregulation of MMPs activities and the inhibition of proteoglycan and collagen degradation. Also, Aralia cordata inhibited the chondrocyte apoptosis through the downregulation of JNK and p38 MAP kinase signal, and the inhibition of caspase-3 activity."
+},
+{
+"pmid": "16619343",
+"pmc": null,
+"doi": "10.1002/ptr.1894",
+"year": "2006",
+"j": "Phytother Res",
+"cit": {
+"volume": "20",
+"issue": "6",
+"pages": "511-4"
+},
+"title": "Continentalic acid from Aralia continentalis shows activity against methicillin-resistant Staphylococcus aureus.",
+"ab": "In a continuing search for compounds with antibacterial activity against methicillin-resistant Staphylococcus aureus (MRSA), a chloroform extract of roots of Aralia continentalis was found to contain continentalic acid (CA, C(20)H(30)O(2)), a diterpenic acid. This compound exhibited potent activity against standard methicillin-susceptible Staphylococcus aureus (MSSA) as well as clinical isolates of methicillin-resistant Staphylococcus aureus (MRSA). It was determined that continentalic acid had minimum inhibitory concentrations (MICs) of approximately 8-16 microg/mL against S. aureus, including the MSSA and MRSA standard strains. Therefore, the results obtained in this study suggest that continentalic acid might have potential as an adjunct in the treatment of antibiotic-resistant bacteria."
+},
+{
+"pmid": "16514887",
+"pmc": null,
+"doi": null,
+"year": "2005",
+"j": "Zhong Yao Cai",
+"cit": {
+"volume": "28",
+"issue": "11",
+"pages": "996-8"
+},
+"title": "[Research on chemical ingredients of the root from cultivar Aralia cordata Thunb].",
+"ab": "Eight components were isolated and purified from the ethereal extract from cultivar Aralia cordata Thumb. By means of UV, IR, 1H-NMR, 13CNMR, they were identified as (I) kaur-16-en-19-oic acid, (II) docosanoic, (III) hexadecanoic acid, (V) stigmasterol, (V) 16-formyl-kaur-15-en-19-oic acid, (VI) 7-oxo-ent-pimara-8 (14), 15-dien-19-oic acid, (VII) 17-Hydroxy-ent-kaur-15-en-19-oic acid, (VlII) sitosterol. Among them, components II, III, V were isolated from the gunus of Aralia for the first time."
+},
+{
+"pmid": "16114085",
+"pmc": null,
+"doi": "10.1002/ptr.1693",
+"year": "2005",
+"j": "Phytother Res",
+"cit": {
+"volume": "19",
+"issue": "6",
+"pages": "511-3"
+},
+"title": "Effects of Aralia continentalis on hyperalgesia with peripheral inflammation.",
+"ab": "This study aimed to determine the antinociceptive effect of Aralia continentalis extract (AC) on Freund's adjuvant-induced arthritis in rats. Adult Sprague-Dawley rats received an injection of complete Freund's adjuvant (CFA) into the articular cavity of the ankle joint, and then antinociceptive behaviors and spinal Fos expression were examined. AC was found to suppress significantly nociceptive behaviors caused by CFA injection. In addition, it also decreased adjuvant-induced Fos expression in the lumbar spinal cord induced by CFA. In conclusion, this study showed that AC produced significant antinociceptive effects on CFA-induced arthritis in rats, and it is suggested that AC is recommended to alleviate the arthritis-related symptoms in humans."
+},
+{
+"pmid": "16080605",
+"pmc": null,
+"doi": null,
+"year": "2005",
+"j": "Genetika",
+"cit": {
+"volume": "41",
+"issue": "6",
+"pages": "800-10"
+},
+"title": "[Phylogenetic relationships of the Far Eastern Araliaceae inferred from ITS sequences of nuclear rDNA].",
+"ab": "In eight species of the family Araliaceae, inhabiting the territory of the Russian Far East, the sequences of ITS regions of nuclear rDNA were determined. A comparison of these sequences enabled establishment of phylogenetic relationships between the Far Eastern and other members of the family. It was demonstrated that Aralia sensu populations from Primorye and Sakhalin were genetically different and, hereby, could be classified as interspecific taxa. Aralia continentalis along with A. cordata were attributed to the section Aralia sensu. Oplopanax elaus and O. horridus were found to be very close to each other, possibly being the subspecies of one species or relatively young species. Legitimacy of the isolation of two sections within the genus Eleutherococcus was confirmed."
+}
+]

@@ -1,0 +1,82 @@
+{
+ "slug": "aralia-cordata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 89,
+ "checked_items": 118,
+ "verified": 195,
+ "fixed": 9,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "aliases",
+   "before": "獨活",
+   "after": "(삭제)",
+   "why": "출처 없는 별명이고, 식약처 목록에서 '獨活(독활)'은 사용불가 원료 Du Huo(Angelica pubescens)의 다른 이름으로 올라 있어 Angelica 약재와 혼동될 수 있음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "독활(Aralia cordata)은 두릅나무과",
+   "after": "독활(식약처 목록 학명 Aralia cordata / A. continentalis)은 두릅나무과",
+   "why": "[5] 리뷰는 A. continentalis 를 다룸 — 학명 기준을 분명히 함"
+  },
+  {
+   "where": "sections.processing",
+   "before": "식약처 허가를 받은 시판 제품이며 통증·경련 환자에게 보통 0.72–1.09 g씩 하루 세 번 쓴다고 소개되었다[15]",
+   "after": "식약처 허가를 받아 시판되는 제제로 통증·경련 환자에게 보통 0.72–1.09 g씩 하루 세 번 쓴다고 소개되었다(의약품 용법이며 식품 섭취량 기준이 아님)[15]",
+   "why": "[15] 원문은 환자 투여량(의약 용도)이므로 식품 섭취 기준으로 읽히지 않게 함"
+  },
+  {
+   "where": "compounds.Continentalic acid.activity_ko",
+   "before": "GPAT1 IC50 60.5 μM(세포)[26]",
+   "after": "GPAT1 효소 활성 IC50 60.5 μM(효소), HepG2 세포 TAG 합성 감소(세포)[26]",
+   "why": "[26] 초록: IC50 는 GPAT1 효소 억제, 세포 결과는 HepG2 TAG 합성 감소"
+  },
+  {
+   "where": "compounds.Pimaric acid.activity_ko",
+   "before": "일본산 뿌리줄기 아세트산에틸 분획에서 피마라디엔산·카우레노산과 함께 확인(세포)[11]",
+   "after": "일본산 뿌리줄기 아세트산에틸 분획에서 피마라디엔산·카우레노산과 함께 확인; 이 분획의 NO 생성 억제는 주로 피마라디엔산에서 보고되어 피마르산 자체의 활성은 확인하지 못함[11]",
+   "why": "[11] 초록은 NO 억제 활성을 피마라디엔산(가장 많은 성분)에 돌림 — 피마르산 활성 과장 방지"
+  },
+  {
+   "where": "assays[17].part",
+   "before": "뿌리(한국산 A. continentalis; 중국산 A. pubescens 시료도 함께 분석)",
+   "after": "한국산 A. continentalis(부위는 초록에 적혀 있지 않음); 중국산 'A. pubescens' 시료도 함께 분석(초록 표기 그대로, 속명 미기재 — 중국 독활의 기원인 Angelica pubescens 로 보이나 확인하지 못함)",
+   "why": "[17] 초록은 부위를 말하지 않고 \"A. pubescens from China\" 로만 적어 Aralia/Angelica 구분이 안 됨"
+  },
+  {
+   "where": "production[1996 production_t].note",
+   "before": "(주석 없음)",
+   "after": "원자료 내부 불일치 주석 추가",
+   "why": "special_crops_annual.csv 1996 행: 수확 172 ha×120 kg/10a≈206톤 ≠ 1,798톤(값은 CSV 와 같아 유지)"
+  },
+  {
+   "where": "production[2018 area_ha].note",
+   "before": "(주석 없음)",
+   "after": "원자료 내부 불일치 주석 추가",
+   "why": "special_crops_annual.csv 2018 행: 재배 250 ha < 수확 296 ha(값은 CSV 와 같아 유지)"
+  },
+  {
+   "where": "sources[9].title",
+   "before": "Development of real-time PCR-based markers for differentiation of Oplopanax elatus and Aralia cordata in commercial food products. Food Sci Biotechnol 2023;32(14):2153-2161, doi:10.1007/s10068-023-01313-1 (초록 확인; PubMed 메타데이터에 학명이 빠져 있어 두 종 이름은 WebSearch 요약으로만 확인) (PMID 37869529; 초록 확인)",
+   "after": "Development of real-time PCR-based markers for differentiation of Oplopanax elatus and Aralia cordata in commercial food products. Food Sci Biotechnol 2023;32(14):2153-2161, doi:10.1007/s10068-023-01313-1 (PMID 37869529, PMC10582000; 초록 확인 — 초록 본문에서 학명이 빠져 있어 두 종 이름은 PubMed 키워드 'Aralia cordata'·'Oplopanax elatus'로 확인)",
+   "why": "WebSearch 요약 의존을 없애고 PubMed 메타데이터(키워드)로 두 학명을 확인; PMC 번호 추가"
+  },
+  {
+   "where": "sources[34].title",
+   "before": "Cholinesterase and BACE1 inhibitory diterpenoids from Aralia cordata. Arch Pharm Res 2009, doi:10.1007/s12272-009-2009-0 (PMID 19898803; 초록 확인)",
+   "after": "Cholinesterase and BACE1 inhibitory diterpenoids from Aralia cordata. Arch Pharm Res 2009;32(10):1399-408, doi:10.1007/s12272-009-2009-0 (PMID 19898803; 초록 확인 — 초록은 A. cordata 의 이명을 A. continentalis 로 적음)",
+   "why": "PubMed 메타데이터의 권·호·쪽 추가"
+  }
+ ],
+ "unverifiable_notes": [
+  "[17] 은 초록만 볼 수 있음(PMC 없음) — 분석 부위와 'A. pubescens'(Aralia/Angelica 여부)를 원문으로 확인하지 못해 assays 항목에 그렇게 적음",
+  "제한적사용 원료(독활뿌리·독활뿌리추출액)의 식품공전상 구체적 사용 한도는 로컬 원자료(I1020)에 '제한적사용가능부위 : 뿌리※(독활)' 외 설명이 없어 확인하지 못함(본문도 '확인하지 못함'으로 유지)",
+  "[30] 초록에서 6종 학명이 빠져 있어 독활 포함 여부는 확인하지 못함(MeSH 에 Aralia 포함) — 문장은 일반 서술이라 유지",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 로 대조: 독활잎·독활잎분말 사용가능(사용가능부위 : 잎), 독활뿌리·독활뿌리추출액 제한적사용(제한적사용가능부위 : 뿌리※(독활)), Du Huo(Angelica pubescens, 다른 이름 '猪独活, 獨活(독활)') 사용불가, 두릅·Aralia 동속 원료·땃두릅나무 행 모두 본문과 일치",
+  "production 59행(1996–2024 면적·생산량 58행 + 2024 농가 수)은 docs/stats/special_crops_annual.csv·special_crops_2024.csv 와 값이 모두 같음; 시도별 생산량(경남 222·전남 113·충남 71·전북 68톤)과 임야 108호·26 ha·93톤은 regional_crops.csv·special_crops_2024.csv 와 일치",
+  "전문 대조: [5] PMC11313775, [8] PMC6273786, [13] PMC6861925, [14] PMC10745546, [15] PMC6321364, [16] PMC9269114 — 수치·분석 조건 모두 원문과 일치. 나머지 PubMed 출처는 초록·메타데이터로 대조",
+  "WebSearch 는 쓰지 않음; 막힌 사이트 재시도 없음"
+ ]
+}
