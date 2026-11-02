@@ -1,0 +1,333 @@
+Introduction
+
+(red mulberry), a native species of North America, plays an important role in maintaining the biodiversity of pristine riparian habitats. It is distributed as far north as Southern Ontario, Canada, extending southward to Southern Florida and as far west as the eastern margin of the Great Plains.is facing a severe threat to its species’ integrity due to taxonomic challenges and introgressive hybridization with the invasive(white mulberry).was introduced to North America in the early 1600s during the colonial period to establish a silk industry. This species has rapidly expanded its range, overlapped, and exceeded the distribution range of, leading to concerns over the survival of the native species.
+
+Hybridization betweenandhas posed genetic and demographic challenges for the conservation of the native. Previous studies found introgressive hybridization betweenand several generations of fertile hybrids withcreating a hybrid/genetic swamp. This has caused taxonomic confusions, even among experts.is listed as an endangered species in Canada and in several U.S. states such as Connecticut and Massachusetts, while it is considered threatened in Michigan and Vermont., with its rapid growth and reproductive advantages, continues to threaten the native species. Consequently, there is an urgent need to study’s genome to develop conservation strategies and prevent further genetic swamping.
+
+Although mulberries have been widely studied for their economic and ecological importance, the specific genetic composition and evolutionary history ofremain relatively underexplored. Previous phylogenetic studies have employed various molecular markers, including nuclear ITS and chloroplastLF regionsto explore the relationships amongspecies. Despite earlier suggestions of a non-monophyletic origin for the genus, recent studies indicate thatspecies are monophyletic, as shown in studies by Gardner et al., Zeng et al., Yang et al., and Wang et al.. To fully resolve the phylogenetic relationships and gain deeper insights into the evolutionary history ofspecies, comprehensive genomic data will be critical in understanding natural relationships that earlier molecular studies have speculated.
+
+Chloroplast genomes, being maternally inherited and highly conserved, offer valuable insights into population genetics, phylogenetics, and the evolution of plants, and serve as a tool for taxonomic clarification and conservation. The major objectives of this study were: (1) to sequence, assemble, and annotate the complete chloroplast genome of, and (2) to perform phylogenomic analyses ofspecies to assess their evolutionary history and hybridization events within the genus. The availability of complete chloroplast genomes ofis crucial for understanding its genetic structure, resolving taxonomic challenges within the genus, and developing conservation strategies.
+
+Results
+
+Chloroplast genome features of
+
+We assembled chloroplast genomes from 45 tree samples, including 35 individuals of. The size of the complete chloroplast genome ofranged from 159,393 to 159,423 basepairs (bp) (GenBank Accessions #:). The assembled circular chloroplast genomes were found to have the typical quadripartite structure with a Long Single Copy (LSC) region (88,207–88,242 bp), a Small Single Copy (SSC) region (19,829–19,841 bp), and a pair of Inverted Repeat (IR) regions (25,674 bp). The GC content across the genome was found to be 36.1%. The assembled genome statistics can be found in Supplemental Material 1. The variable region in thechloroplast genome was present as indel in the non-coding and intergenic spacer of the LSC and SSC regions only. The IR regions were identical for allchloroplast genomes. Figureshows thequadripartite chloroplast genome and gene locations.
+
+A total of 128 genes coding for 83 proteins, eight ribosomal RNAs (rRNAs), and 37 transfer RNAs (tRNAs) were annotated for each chloroplast genome (see Table. The LSC region codes for 61 proteins and 21 tRNAs. The SSC region codes for 12 proteins (,, started in IRA and extended to the SSC region) and one tRNA. Each IR region codes for five proteins, four rRNAs, and seven tRNAs. Similarly, for all the examined specimens, the fragment of thegene was also found in the IRB region as a pseudogene.
+
+We found 17 genes containing intron(s). Out of 17 genes, 15 genes (,,,,,,,,,,,,,, and) had a single intron, and two genes (and) had two introns. Twelve of these intron-containing genes – three tRNAs and nine protein-coding genes (PCG) – were in the LSC region; one PCG in the SSC region; and each IR containing four genes – two protein-coding and two tRNA genes. Moreover, a trans-splicing genehas three introns – one in the LSC region and the other two in the IR. The largest-sized intron (2,557 bp) was reported to be of thegene lying within thegene, whereas the smallest intron was reported to be of(16 bp). Most PCGs had AUG as the start codon, however, two genes:andhad an ACG as an abnormal start codon.
+
+Fig. 1
+
+Chloroplast Genome. The internal concentric circle represents the quadripartite structure with LSC, SSC, and IR regions, with the dark gray representing the GC content while light gray representing AT content. The genes shown inside the outer circle are transcribed in the clockwise direction, whereas the outer genes are transcribed in the anticlockwise direction. Genes marked with an asterisk (*) contain introns.
+
+Table 1
+
+Genes identified in the Chloroplast genome of.
+
+Gene related to
+
+Genes’ group
+
+Gene names
+
+Photosynthesis
+
+Photosystem I
+
+,,,,
+
+Photosystem II
+
+,,,,,,,,,,,,,,
+
+Cytochrome b6/f complex
+
+,,,,,
+
+ATP synthase
+
+,,,,,,
+
+RUBISCO
+
+rbcL
+
+NADH oxidoreductase
+
+,,,,,,,,,,,
+
+Cytochrome c synthesis
+
+ccsA
+
+Assembly
+
+,
+
+Transcription and translation
+
+Ribosomal proteins
+
+Large subunit
+
+,,,,,,,,
+
+Small subunit
+
+,,,,,,,,,,,
+
+Transcription
+
+,,
+
+Ribosomal RNAs
+
+,,,
+
+Transfer RNAs
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Other genes
+
+Carbon metabolism
+
+cemA
+
+RNA processing
+
+matK
+
+Proteolysis
+
+clpP
+
+**
+
+Fatty acid synthesis
+
+accD
+
+ORF
+
+,
+
+Pseudogene
+
+Ψ
+
+Indicates a gene with one intron,indicates a gene with 2 introns,represents the copy number of a gene,denotes a trans-splicing gene, Ψ indicates a pseudogene, ORF stands for open reading frame, and ycf refers to a hypothetical chloroplast open reading frame.
+
+Repetitive sequences
+
+Repetitive sequence analysis showed a variable number of repeats across thesamples. The number of repeats ranged from 43 to 46 including one with 43, 11 with 44; 21 with 45, and two with 46 repeats. The repeats of 20 bp were more frequent accounting for ~ 9% whereas 25, 26, 28, and 30 bp repeats were less common. The palindromic repeat frequency was followed by forward, reverse, and complementary repeats with approximate frequencies of 40, 33.33, 24.45, and 2.22%. FigureA shows the distribution of the repeat regions in the chloroplast genome and the details can be found in Supplemental Material
+
+Fig. 2
+
+Distribution of repeat types (), including Complement, Forward, Reverse, Palindromic, and Total, and SSR types (), including Mono-, Di-, Tri-, Tetra-, Penta-, Compound, and Total in theandchloroplast genomes. Error bars represent the variations (in terms of Standard Deviation), present within thegenome.
+
+The number of microsatellites or SSR (Simple Sequence Repeat) markers in the chloroplast genome ofaccessions ranged from 74 to 76. Mononucleotide repeats were the most common SSRs in the chloroplast genome accounting for approximately 75% of total SSRs, while compound repeats only accounted for ca. 4% of total. Most of the SSRs were found to be present in the LSC region with almost 80% distribution followed by SSC with ~ 17% whereas each of the IR regions was composed of only two tetranucleotide repeats. We did not observe any hexanucleotide repeats in the chloroplast genome. Similarly, none of the mononucleotide repeats were found to be of the G/C type. We also observed only 12% of the SSRs (no mononucleotides) to have either G or C present in them, however, none of the SSRs had consecutive G and C. FigureB shows the distribution of the microsatellites (SSRs) across the genome whereas the detailed report for the 45 specimens is provided in Supplemental Material.
+
+Codon usage bias
+
+Codon usage analysis revealed thatchloroplast genomes encode approximately 22,775 codons. There was no difference in the codon usage bias within the species. We found 30 codons with RSCU values above one, 32 codons (including three stop codons: UAG, UGA, and UAA) with below one whereas two codons: AUG and UGG encoding Methionine and Tryptophan were found to have RSCU values equal to one. AUU coding for Isoleucine was the most frequently used codon (982, ca. 4.31%) whereas UGC coding for Cysteine was used less frequently (57, 0.25%). Leucine was the most highly coded amino acid (2421 codons, 10.63%) while Cysteine (261, 1.15%) was the least frequent amino acid. The GC content of coding genes was found to be approximately 37%. The Codon usage data are provided in Supplemental Material.
+
+Chlorotype analysis and ecological correlation
+
+Chlorotype analysis of the 45 samples revealed 13 distinct haplotypes including one representing 10trees while 12 were unique to 35trees. Although the interspecific haplotype variations had a significant sequence divergence, the intraspecific () haplotype difference was primarily due to the presence of indels in the non-coding regions. We namedfor alltype chloroplast genome, andthroughfor alltype chloroplast genomes.,, andwere present in 9, 12, and 5 trees, respectively. Each of the remaining nine trees had a unique haplotype, namely,,,,,,,and. The haplotype network is shown in Fig.and samples belonging to different haplotypes are reported in Supplemental Material. There was no sequence variation among the samples within thehaplotype, as well as those within thehaplotype. The nine genomes belonging tohad indels of 13 bases, whereas the 12 genomes ofwere found to differ by indels of 15 bases. Interestingly, other than the indels, we did not observe nucleotide substitution within the same haplotypes. Supplemental Materialshows the distribution of haplotypes across 12 counties, from across eight states, with the highest number of haplotypes found in Riley County, Kansas.
+
+Geographic Information System (GIS) methods were used to assess the impact of ecological parameters on thechloroplast genome diversity, as determined by the georeferenced samples. Generalized linear model did not show a statistically significant effect of environmental variables such as elevation, total soil organic carbon, nitrogen, and pH, and climatic attributes including precipitation and temperature on haplotype diversity (Supplemental Material 7).
+
+Fig. 3
+
+Haplotype network (13 haplotypes) constructed using PopART v1.7.representstype chlorotype, while the remainingthroughrepresentchlorotypes. A number above the network line (in parenthesis) represents the nucleotide difference relative to the nearest chlorotype. The assorted color ranges represent samples from eight different US states as shown in the index, the circle sizes are proportional to sample sizes.
+
+Nucleotide polymorphism
+
+We performed three different sequence divergence analyses. The sequence divergence analysis of 35chloroplast genomes (159,297 sites), resulted in 36 polymorphic sites with 29 singleton variable sites, seven parsimony informative sites, and a nucleotide diversity (Pi) value of 0.00002. Supplemental Material 8 shows the intraspecific DNA polymorphism. Even though none of the regions exhibited higher Pi values for intraspecies variation, the whole chloroplast genome distinguished the examined samples into 12 haplotypes. A second sequence divergence analysis, which includes all 45 specimens (35and 10) scanning 158,608 sites resulted in 441 variable sites with 26 singleton variables, 415 parsimony informative sites, and Pi: 0.00093. Supplemental Material 9 shows theand’s interspecific DNA polymorphism. The sliding window analysis showed a total of eight peaks which have Pi values greater than 0.005 with the possibility of utilization in interspecific molecular marker development. The regions with a maximum capability of developing markers for differentiatingandinclude a spacer between-,-,-,-,-,-, and-genes. The number of indels and SNPs (in parenthesis) present in these seven spacers are: 18 (1), 7 (8), 93 (6), 16 (3), 25 (7), 57 (14), and 6 (1), respectively. The spacer between-genes also contains thegene. In contrast to other gene regions that consist solely of spacers, the-includesgene. Sequence alignment of potential DNA barcoding regions and concatenated phylogenetic tree is visualized in Supplemental Materials 10-17.
+
+We also compared the chloroplast genomes of 12species with an alignment length of 162,710, scanning 155,976 bases as the total number of sites excluding gaps. The total number of polymorphic sites were found to be 2198 with 1597 and 619 as singleton variable and parsimony informative sites (see Supplemental Material 18). The overall Pi was found to be 0.00319 with eleven hypervariable gene regions with a Pi value above 0.01. The variable region included the-,-,-,-,-,-,-,-,,-,-, and-(Fig.). The mVISTA analysis also supported the results obtained from DNASP for the variable regions (Fig.). We did not observe major structural changes such as large fragment inversions or duplications. Although we observed sequence difference in LSC and SSC regions compared to the IR region, a prominent level of collinearity existed in the chloroplast genome ofspecies which indicated a consistent evolutionary conservation.
+
+Fig. 4
+
+Nucleotide polymorphism (Pi) determined through sliding window analysis (window length: 500 bp; step size: 250 bp) across the complete chloroplast genome of 12species. The Y-axis represents the Pi value at the mid-point of the sliding window and X-axis denotes nucleotide positions. The dotted magenta line indicates the Pi threshold value of 0.01, with genes exceeding this threshold value are labeled above the peaks. The figure was edited using Inkscape v1.3.2 ().
+
+Fig. 5
+
+Comparative analysis of mVista aligned complete chloroplast genome sequences ofspecies, using() as the reference genome. The X-axis represents aligned contigs, while the Y-axis represents the pairwise percentage identity ranging from 50–100%. Light gray regions correspond to the contigs, dark gray regions represent genes, with arrows denoting their orientation, the pink regions are the Conserved Non-Coding Sequences (CNS), dark blue regions are exons, and light-blue regions are Untranslated Regions (UTR). The figure was edited using Inkscape v1.3.2 ().
+
+IR/SC junction analysis
+
+Figureshows a comparison among 12chloroplast genomes for the IR/SC expansion and contraction. We observed for JLB (LSC and IRB junction) that thegene forandmoved 3 and 123 bp towards IRB. We observed variations in the size of thegene found in the JSB (SSC and IRB junction) region and thegene found in the JSA (SSC and IRA junction) region among the species. Thegene was found to be 15 and 47 bp away from IRA forand, whereas, for otherspecies, it was 23 bp away in the JLA (LSC and IRA junction) region.
+
+Fig. 6
+
+Comparison of the expansion and contraction of the IR/SC boundary regions across twelvespecies. Forward-transcribed genes are positioned at the base/bottom, while reverse-transcribed genes are displayed at the top of the genome. The abbreviations JLB, JSB, JSA, and JLA represent the junctions between LSC/IRB, SSC/IRB, SSC/IRA, and LSC/IRA, respectively.
+
+Phylogenetic analysis
+
+The maximum likelihood (ML) tree ofchloroplast genomes, withas the outgroup, is shown in Fig.. Four distinct clades were identified: Asian, North American, South American, and African, all strongly supported by a bootstrap (BS) value of 100. The Asian clade comprised eight recognized species, including,,,,,,, and. The twochloroplast genomes available in NCBI GenBank closely resembled those of, and nested within the Asian clade, highlighting ongoing taxonomic confusion among experts. The North American clade included two species native to North America:and, while the South American clade consisted solely of, native to South America. The African clade contained only, which is native to Africa. Interestingly, the U.S.-naturalizedand potential hybrids with-like genomes formed a distinct subclade within the Asian clade.
+
+Fig. 7
+
+phylogeny based on complete chloroplast genomes. The Maximum Likelihood (ML) tree illustrates the relationships amongaccessions, representing 12species and their variants. The phylogenetic analysis employed the K3Pu + F + I + G4 model with 1000 bootstrap (BS) replicates. Numerical values above the branches indicate BS support. Accessions marked with an asterisk (*) represent the genomes reported in this study.
+
+Divergence time estimation
+
+Figureshows the divergence times of the differentspecies based on whole chloroplast genomes.anddiverged approximately 55.34 million years ago (MYA), and the earliest divergence indated back to 38.67 MYA separating the clade ofandfrom the coreclade. Africanand South Americansplit approximately 12.12 MYA. The North American and the Asian clades diverged ca. 28.69 MYA. The North American sister species:andseparated 9.93 MYA. The common ancestor of North American and Asiandiverged at 28.63 MYA.andevolved fairly recently (4.51 MYA) but they were separated from other Asian species ~ 21.34 MYA. The other Asian pairsand;and; andandevolved from their common ancestors ~ 4.5 MYA whereas the most common ancestor of all these pairs separated ca. 13.80 MYA.
+
+Fig. 8
+
+Divergence time tree based on complete chloroplast genomes of 12species. The dotted gray branch represents, used as an outgroup. The clade labels A, B, and C represent African and Neotropic, North American, and Asian, respectively. The values next to each node and the linear scale on the top of the tree represent divergence times in Million Years (MY). The figure was edited in Inkscape v1.3.2 ().
+
+Discussions
+
+Chloroplast genome composition and features of genus
+
+The complete chloroplast genomes of North American native, introducedand their hybrids revealed a quadripartite structure with genome sizes ranging from 159,293 to 159,423 bp. Among the assembled chloroplast genomes, the smallest size (159,293 bp) was of.and hybrids withas maternal parent (GenBank:), whereas the largest (159,423 bp) was of.(GenBank:). Thechloroplast genome was at least 103 bp larger than that of. The assembled chloroplast genomes had almost no variation in the total GC content (36.14–36.15%). The LSC, SSC, and IR regions of thegenome were 88,071, 19,842, and 25,690 bp respectively. Comparative genomic analysis revealed nucleotide insertion in the LSC and deletion in the SSC and IR regions ofcompared to. We did not observe any differences in the number of genes encoded byandchloroplast genomes. In both species, the largest intron (size:: 2,557 bp and: 2,553 bp) was reported to be of thegene embedded within thegene, whereas the smallest intron (sized 16 bp in both) was of. However, we did not observe nucleotide variation in the coding sequences between the two genomes.
+
+The very first chloroplast genome was sequenced in 1986 from the plant(Tobacco) and it was reported to have a size of 156 kilobase pairs (kbp) with 25 kbp IR regions separated by 87 kbp LSC and 19 kbp SSC regions. Since then, hundreds of chloroplast genomes from several species have been sequenced and reported. The first chloroplast genome for the genuswas sequenced in 2006 by Ravi et al.fromvar. K2, and the genome size was reported 158,484 bp. Here, the chloroplast genomes we assembled are larger thanandvar. K2. Nevertheless, they are smaller than thecultivar Tianquan-12 (NCBI:)and(NCBI:)with genome sizes of 159,681 and 160,041 bp, respectively. The assembled red mulberry chloroplast genomes resemble similar genome organization, gene order, and GC content as reported earlier for other mulberries.
+
+The number of genes predicted in our analysis matches with the first reported chloroplast genome by Ravi et al., in, with 128 genes including 83 protein-coding, 37 tRNAs, and 8 rRNAs. However, this number is larger than the genes reported by Zeng et al., who reported only 125 genes, including 81 protein-coding, 8 rRNAs, and 36 tRNAs. The two genes previously reported asandby Ravi et al., were renamed asand. In 1997, Boudreau et al.reported the essence ofandin the accumulation of the Photosystem I (PSI) complex in. Later, in 2011 Wicke et al.proposed to rename the genesandto() and, () which is widely followed. Theandgenes with non-canonical start codon: ACG requiring RNA editing altering to AUG before translation has been well documented in the angiosperm chloroplast genome. The only pseudogene reported in thechloroplast genome was thegene in the IRB region as previously reported. Unlike Ravi et al.who reportedgene into be separated by one base pair from IRB/LSC, we did not observe any insertion in the border region for our constructed genome. However, the extendedgene and presence ofas a pseudogene in() and() indicate a possible Ebby effect (expansion/contraction) in the IR region of thechloroplast genome. Previously, Li et al.have reportedpseudogene in the IR region inand Huang et al.in thechloroplast genome.
+
+Unlike the variable numbers of repeats detected inchloroplast genome, we detected 44 repeats inchloroplast genome. In thechloroplast genome, the 22 bp repeats accounted for the highest frequency (= 12, 16.22%) whereas 24, 26, 28, and 29 bp repeats had a single occurrence. Similarly, palindromic repeats were followed by forward and reverse repeats, with the total number of 24, 12, and 8, respectively. No complement repeats were found in thegenome. Unlikewith 74–76 SSRs, allaccessions had 75 SSRs in the chloroplast genome. The repeat elements are widely distributed in the intron and intergenic-spacer regions of the chloroplast genome. Polymorphic chloroplast microsatellite (SSR) markers have been widely applied in population genetics, not only limited to haplotype identification but also for the detection of intra- and inter-specific variations. In the chloroplast genome of angiosperms, repeat elements are primarily concentrated in the LSC regions. Previously, Kong and Yangdetected 83 SSRs in the chloroplast genome ofandgreater than our reported value. Similarly, the chloroplast SSRs ofandhave been reported to be rich in AT content which is in alignment with our result. The variation in the chloroplast SSRs withindetermined in this study highlights the potential use of these markers in population genetics. Moreover, tandem repeats and SSRs hold significant promise for the interspecific DNA fingerprinting within the genus.
+
+We detected a total of 22,775 codons in thechloroplast genome, whereasgenome had a slightly higher number of codons (22,795). With the overall GC content in the codon of approximately 37% in both genomes, we found a minimal numeral difference in the RCSU analysis. Similar to, AUU encoding Isoleucine accounted for high frequency (984, ca. 4.32%) and UGC encoding Cysteine– the least (57, 0.25%) in’s genome. Intoo, Leucine was the most abundant amino acid (2431 codons, 10.66%) whereas Cysteine was less frequent (260 codons, 1.14%). A codon is described as the triplet of nucleotides coding for a specific amino acid where 64 triplets code for 20 amino acids. If two or more codons encode for the same amino acids, they are known as synonymous codons. The use of synonymous codons does not necessarily alter protein structures; however, mutational biases might influence the usage of synonymous codons. Sharp and Li (1986)describe the relative synonymous codon usage value as “RSCU value for a codon is simply the observed frequency of that codon divided by the frequency expected under the assumption of equal usage of the synonymous codons for an amino acid”. An RSCU value equal to one indicates uniform codon usage particularly in unbiased genes whereas a value greater than one signifies a higher frequency of the codon usage and less than one implies a lower frequency. Kong and Yangreported approximately 26,000 codons in fivespecies with a GC content of ~ 37%, even though the number of codons seems to be higher than what we have reported, the difference is due to our research considering only one gene of the IR region, otherwise, if we consider the duplicated genes the number of codon in our chloroplast genome is ca. 26,000 too. Ravi et al.also reported similar codon composition for, with leucine being the most abundant codon (10.71%) and cysteine the least frequent (1.17%), which is in parallel with our findings. Furthermore, most studies have shown consistent RSCU values across codons signifying the highly conserved nature of the chloroplast genome.
+
+To date, only a limited number of studies have focused on assessing intraspecific variation using chloroplast genomes. This study is among the first ones in the genusto explore population genetics based on the whole chloroplast DNA. While chloroplast markers have been previously implemented inphylogenomics, none of the prior studies have reported intraspecific variation in the markers used. Even though we found variation in the length of the-type genome, the length difference was mostly due to indels in non-coding regions, which is in agreement with Li et al.'s findings forhybrids. The nucleotide polymorphism for(Pi = 0.00002) was comparatively lower than the reported for Castor beans (Pi = 0.00046) by Muraguri et al.. The Pi reported by Wang et al.across theplastome (0.00096) is not in agreement with our finding, here we found the overall Pi across 12plastome to be 0.00319. Moreover, their analysis showed only the-gene region had a Pi > 0.01, however, we found 11 regions with nucleotide diversity above 0.01 holding the potential to develop molecular markers for segregating thespecies. Based on the identical chloroplast genome of, it is plausible to hypothesize that these individuals may have descended from a single population introduced to North America in the early 1600s. Limited generational turnover since their introduction could explain the lack of detectable recombination in their chloroplast genomes. We did not see any chloroplast genome recombination in the potentialhybrids aligning with the results of Park et al.for cucumber, Li et al.forhybrids, and Choi et al.forhybrids showing the maternal origin of the chloroplast genome. The higher nucleotide polymorphism between two species indicates the potential use of chloroplast DNA markers for species identification, however, it does not, alone, guarantee hybrid identification.
+
+Interestingly, higher number of the observed haplotypes in the sampled populations from Nebraska and Kansas maybe attributed to extensive sampling in these regions. In contrast, we noted fewer haplotypes from sparsely distributed individuals across the southern boundaries. This pattern may be partly due to a limited sampling and partly reflect the impact of climate change. Further investigation through extensive sampling is needed to clarify the impact of ecological factors on the species distribution. It is important to note that the species is already endangered, making it challenging to locate sparsely distributed individuals, providing a clearer understanding of the population structure. Statistical modeling performed in this study shows a modest effect of ecological attributes in shaping genetic diversity, supported by the Climate Change Tree Atlas which has modeled and predicted the northward expansion ofhabitat in response to the climatic factors.
+
+The expansion and contraction of IR region – also known as Ebb and Flow events – is one of the factors influencing the change in chloroplast genome size. The study of IR/SC junction more specifically provides insight into the interspecies variation caused due to the changing IR region. Recent research by Huang et al.showed a conserved IR region in thegenus, however, theIR expansion was noted when compared to closely relatedvar.. We noted that the IR region in thespecies was conserved, and the variation was majorly due to indels present between the genomes of the distinct species. This is the first report of IR/SC junction analysis in thegenus.
+
+Chloroplast genome basedphylogeny
+
+Thephylogenetic analysis showed that 13 species are grouped into four distinct clades, each corresponding to their native distribution range, which is in agreement with Nepal and Purintun. Gardner et al.recently moved the South Americanand Africanto the genusand, respectively. However, our analysis continues to show the monophyletic origin ofspecies, inclusive ofand. The scattering of thespecies within the Asian clade, specifically, potentially indicates interspecific hybridization involving. One of the most widely reported interspecific hybridizations ofis with. The hybridization events betweenand other species such as,, andhave also been reported. Similarly,,, andhave a longer domestication and artificial selection history withhaving several varieties and subvarieties. Taxonomic confusion often arises due to misidentification, which could result from plant introductions through anthropogenic activities or bird dispersal into the natural habitats of other species. In addition, genome assembly method can influence the genome composition, for instance, if reference-based genome assembly is employed the constructed genome depends on the reference used. All these factors might have aided in the scattering of the species within the Asian clade. Recently, Zeng et al.classified two accessions:andas. However, their placement within the Asian clade in our phylogenetic tree suggests these two accessions may represent potential hybrids ofandor they may have been misidentified.
+
+The unresolved relationships amongspecies within the Asian clade, as reported by Nepal and Purintun 2021, were also evident in our results, as demonstrated by the scattering placement of the species within the clade. Koidzumiin 1917 classified the long styled (> 1 mm) taxa:,, andof our Asian clade, into the Section, distinguishing from the rest ofspecies.and, with long (> 2 cm) catkins and larger (0.2–1.0 cm × 0.5 cm) axillary buds (Nepal) are not nested together in the chloroplast phylogenetic tree. However, weak support for the sister relationship was reported by Nepal and Fegurson. The North Americanandfound in eastern North America and Central America, respectively, form a clade with a sister relationship to the Asian clade, aligning with the results of Nepal and Fegurson. Africanand Neotropicalshow sister relationships based on the chloroplast genomes. Datwyler and Weiblen, Zerega et al., and Clement and Weiblenreported that the genusis closely related to, butitself is paraphyletic. This made Africannested with-complex in the phylogenetic analyses showing the non-monophyly nature of the genus. Similarly, the repositioning ofandto the generaand, respectively by Gardner et al.may have been influenced by the taxonomic complexity within the genus. As their study focused on the broader Moraceae family, targeted research on the–complex is warranted for the resolution of the taxonomic complexities.
+
+Based on the chloroplast phylogenetic analysis, we still propose 13species aligning with the taxonomy of the genus by Nepal and Purintun. Bothandare categorized under, whereasis described under. Taxonomic ambiguity within the genushas been exacerbated by the submission of molecular data to public repositories, such as NCBI GenBank, without sufficient efforts to accurately identify the species of the submitted samples. Wang et al.recently reported a chloroplast genome of, sampled from Arizona, however, the same genome is reported as() in GenBank. Moreover, their inclusion of-5621 and-5621 for IR/SC junction raises some inconsistencies. The placement of the reported genome with(), supported by bootstrap value of 87, may reflect potential taxonomic misidentification. Furthermore, the chloroplast genome of accessionis identical toand NC 047236, except there is a single nucleotide insertion. Although Bergconsidersas the synonym of, Nepal and Purintunreported several specimens from Mexico with intermediate morphological features suggesting potential hybridization between these two species. Therefore, we considered Wang et al.’ssubmission asand did not includein our phylogenetic analysis due to the unavailability of its sequenced chloroplast genome. The weakly resolved relationships among Asianhighlights the need of comprehensive taxonomic revision that integrates both morphological and molecular evidence.
+
+Fossil records and divergence time analysis of
+
+Fossil records provide valuable insights into the evolutionary history and geographic distribution of plant species, including the genusand its relatives. In 1890s, Nathorstreported the fossilized leaf and fruit ofNathorst for the first time from Greenland dating back to the Cretaceous era. Similarly, in 1983, Mehrotra et al.reported the early Tertiary fossil wood offrom the Deccan Intertrappean beds in India. Multiple studies have placed the origin or crown age ofbetween 42 and 64 MYA. For this reason, we used the chloroplast genome ofas an outgroup in determining the divergence time of 12species included in our analysis. Fossilizedleaves are reported from the Alaskan Cenozoic, New Jersey Pleistocene, and Southern Mississippian middle Miocenein North America. Additionally, fossilizedfruits are reported, from the Miocene to early Eocene in Eurasia. Recently, Patel et al.reported an early Eocene fossilizedleaf from Bikaner, India, representing the earliest fossil evidence in Asia. Gardner et al.and Yang et al.inferred the separation of() and() from otherspecies during the Eocene, which is in alignment with our results. While both studies inferredlineage to be ancestral to both American and Asian clades, our chloroplast genome analysis does not fully support the former inference, and conflicts with the divergence time of the Asian clade. Asian,, andare characterized by long style. The fossil-based divergence time analysis suggested the repeated evolution of long style, probably occurring around 4.5 MYA, simultaneously, in these three species which diverged from their common ancestor approximately 21.34 MYA. This finding aligns well with the suggestion of Nepal, as the long-styled taxa used in the present study do not form a distinct clade.
+
+The fossilizedspecies date back to the early Eocene Epoch of the Cenezoic Era suggesting a Eurasian or Asian origin of the species. However, this does not necessarily suggest the precise origin of individualspecies as fossil records are based on morphological similarities with the extant species. This has limited the study of the biogeographical origin ofspecies. Nevertheless, we cannot rule out the fact that the Last Glacial Maxima (LGM) played an important role in speciation, including that of thespecies. The glaciation events during the Pleistocene Epoch are noted to have a profound effect on the natural ecosystem within the Northern hemisphere. During LGM, the expanded Laurentide ice sheet to 40–50°N in Eurasia and North Americamight have led to the destruction of native species. Oxygen isotope analysis from the deep-sea cores indicates glacial events following a cyclic pattern of long glaciation duration leading to drastic temperature increment with short glacial recession, providing opportunities for the surviving species to fill and colonize the new niches. When a niche is colonized by a population that is available to all individuals in the population, an even and gradual expansion without change in allele frequency across the population range into the niches will occur. However, colonization would influence the genetic structure of future populations when biotic and abiotic factors influence the movement of individuals into a niche away from the source population with a change in allele frequencies. The leading edge sub-populations near the habitation limit of a population would facilitate repopulation of the earlier glaciated area with the future generation expressing similar genetic composition as their colonizing ancestors and the process is known as leading edge expansion. This process could have resulted in the speciation of the differentspecies distributed throughout the world, which then remained isolated from each other’s habitat. Moreover, in North America,, based on competitive exclusion, would have beneficial selectivity for colonizing niches opened by glaciation. Theindividuals in a glacier-induced leading edge expansion of sub-populations would not carry all alleles from the source population, resulting in less genetically diverse future populations and a selective effect on genetic variation. After the dramatic bottleneck effect, the loci with low-frequency alleles within the source population are least likely to remain polymorphic, or once rare alleles from the source population can hold a larger presence within newly colonized populations. Thus, founder effects induced by glaciation may have profoundly shaped the genetic structure ofpopulations. The admixtures of chloroplast haplotypes ofsuggest that isolation and diversification were influenced by repeated glacial maxima during the Pleistocene Epoch.
+
+Implications for conservation and future research
+
+Our findings have important implications for the conservation of, an endangered species at risk of genetic swamping through introgressive hybridization with the invasive. The identification of hypervariable regions and species-specific molecular markers could assist conservation efforts by enabling more accurate identification of pureindividuals and hybrids. This is crucial for maintaining the genetic integrity and healthy populations of nativethroughout its range.
+
+Future research should focus on expanding the sampling ofacross its geographic range, particularly in regions of co-occurrence with. This broader sampling could provide a comprehensive understanding of the population structure and help address existing taxonomic challenges. Additionally, integrating nuclear markers, especially as our project on whole genome sequencing nears completion, with chloroplast data will offer a more detailed picture of hybridization dynamics and gene flow betweenandThis integrative approach will be instrumental in developing management strategies to protect species integrity and long-term viability of the native.
+
+Conclusion
+
+This study is the first to sequence and analyze the complete chloroplast genome of the endangered(red mulberry), alongside(white mulberry) and their hybrids. The chloroplast genome ofranged from 159,396 to 159,423 bp and encoded 128 genes, including 83 proteins, eight rRNAs, and 37 tRNAs, making it at least 103 bp larger than the genome of. These findings offer foundational data on the genome structure of, critical for understanding its evolutionary history and addressing taxonomic complexities within the genus. Phylogenomic analysis revealed distinct clades for Asian, North American, South American, and Africanspecies, supporting the monophyly of the genus. These findings also highlight the evolutionary relationships amongspecies and underscore the complexity of hybridization events within the genus. The identification of chloroplast SSRs and tandem repeats inoffers promising tools for population genetics and interspecific DNA fingerprinting. These molecular markers are valuable for understanding genetic diversity and hybridization dynamics, particularly betweenand. Such insights are critical for developing conservation strategies to mitigate the genetic swamping ofby.
+
+Expanding sampling across the native range ofwould enable population structure analysis, ecological adaptation, and genetic variation. Integrating these data with ecological modeling may further refine predictions of range shifts, including the potential northward expansion ofin response to changing environmental conditions.
+
+Overall, this study provides critical genomic and phylogenetic insights that advance our understanding ofevolution, highlight the conservation needs of, and lay the groundwork for future research on population genetics, hybridization, and species resilience under environmental change.
+
+Materials and methods
+
+Sample collection
+
+Theleaf samples were collected from eight different US states, as shown in Fig.. Plant identification followed Nepal and Purintunand Nepal and Ferguson. Dr. Madhav Nepal and Dr. Gary Larson – C.A. Taylor Herbarium (SDC)’s former curator undertook the formal identification of the plant materials used in this study. The voucher specimens with the collection numbers: 014, 019, 021, 024, 025, 027, 029, 031, 034, 036, 037, 041, 043, 044, 046, 050, 051, 052, 055, 056, 057, 058, 059, 100, 133 − 14, 171-1, 171-4, 180-3, 182-1, 31, 37, 40, and 41 are deposited and available at the C.A. Taylor Herbarium (SDC), South Dakota State University. Sample information along with the location coordinates are provided in Supplemental Material. Representative images of the plants sampled and their herbarium information along with the GenBank accession numbers are also available at:(10.6084/m9.figshare.27021787).
+
+Fig. 9
+
+Map showing the sample collection sites in the states of Nebraska, Minnesota, Kansas, Missouri, Illinois, Oklahoma, Arkansas, and Texas.
+
+DNA extraction and sequencing
+
+Approximately 100 mg of silica-dried preserved leaf tissue was subjected to total genomic DNA extraction using DNeasyPlant Mini Kit (Qiagen, USA) following Qiagen’s protocol with slight modifications. The extracted DNA was subjected to gel electrophoresis (1.2% T.A.E.) and quantified using a Nanodrop Spectrophotometer (ThermoFisher). The extracted DNA were sent to CD-Genomics (Shirley, NY, USA) for library preparation and sequencing using Illumina HiSeq™ PE150 sequencing.
+
+assembly of the chloroplast genome
+
+FastQC (v0.11.9) ()program accessed from South Dakota State University’s High Performance Computing (HPC) cluster was utilized to assess the quality of the sequence reads. Trimmomatic (v0.39)was used for trimming the adapter sequence as well as to get rid of low-quality bases (QC < 20) with the options: PE -phred33 ILLUMINACLIP: TruSeq2-PE.fa:2:30:10:2:True LEADING:3 TRAILING:3 MINLEN:36). After quality control of the dataset, MultiQC (v1.13)was used to visualize the results obtained. Then, the quality controlled paired-end data for each read obtained using Trimmomatic from the two lanes were merged. The paired reads were then subjected toassembly using GetOrganelle (v1.7.6.1).
+
+Annotation and visualization
+
+The GetOrganelleassembled chloroplast genome was annotated with GeSeqaccessed through Chloroboxselecting the same orientation of the SSC region as suggested by Zeng et al.. The FASTA file of the assembled genome was uploaded to GeSeq [options: Circular, Sequence source: Plastid (land plants), Annotation Options: Annotate plastid Inverted Repeats (IR), Annotate plastid trans-spliced rps12, Annotation Support: Support annotation by Chloëselecting BLATsearch [Protein search identity: 25%; rRNA, tRNA, DNA search identity: 90%; Annotate: CDS, tRNA, rRNA; Options: Ignore genes annotated as locus tag; MPI-MP Reference Set: chloroplast land plants (CDS + rRNA)] along with HMMERprofile search [Chloroplast land plants; Annotate: CDS + rRNA] and tRNAscan-SE (v2.0.7)[Sequence source: Organellar tRNAs; Genetic Code: Universal, Cut-off score for reporting tRNAs: 15; Score and report output options: Disable pseudogene checking, Display detailed prediction output, Show origin of first-pass hits, Show primary and secondary structure components to scores] for annotation. The annotated output was uploaded to Geneious Primefor manual correction. NCBI blastxsearch was used for the selection of the best hit for multiple annotated genes, and CDS and tRNAscan-SE were considered for the selection of tRNAs (if multiple hits were present). The corrected annotated file was then uploaded to OGDRAWfor the visualization of the circularized chloroplast genome.
+
+Repeat and simple sequence repeat (SSR) analysis
+
+For the detection of forward (f), reverse (r), complement (c), and palindromic (p) repeats, web-based REPuter ()with the default parameters to detect the repeats ranging from 20 to 100 bases was used.
+
+The online version of MISA v2.1() was used for detecting mono-, tri-, tetra-, penta-, and hexanucleotide simple sequence repeats, or microsatellites. The minimum repeat threshold for the detection of palindromic SSRs was set to ten for mononucleotide, five for dinucleotide, four for trinucleotide, and three for tetra-, penta- and hexanucleotides, respectively. Moreover, for the detection of compound SSRs, the maximum length of sequence between two SSRs to register as a compound SSR was set to 50 nucleotides.
+
+Analysis of chlorotypes and ecological factors
+
+Chlorotype network was constructed using the PopART(Population Analysis with Reticulate Trees) v1.7 software using Minimum Spanning Network.
+
+Soil attributes, including pH, organic carbon (dg/kg), and nitrogen (cg/kg) data from SoilGrids 250 m 2.0as well as climatic parameters, including global mean precipitation (mm) and temperature (°C) from WorldClim 2, were accessed through Living Atlas using ArcGIS Pro software. These raster datasets were layered with the GIS coordinates to extract the corresponding mean attributes values. Elevation data was acquired from dcode.fr/earth-elevation (retrieved on 20th January, 2025) using longitude and latitude data. The ecological parameters were normalized using minimum-maximum normalization to employ generalized linear model and multinomial logistic model to observe their effects on haplotype diversity using RStudio 2024.12.0, with the readxland base R v4.3.3packages. The code used for the analysis can be found in Supplemental Material 19.
+
+Codon usage bias
+
+The PCGs from the GenBank (.gb) file were extracted using Biopython’s SeqIO. The script used to extract the protein-coding sequences is provided in Supplemental Material 20. The extracted coding sequences in fasta format were subjected to the relative synonymous codon usage (RSCU) analysis – calculated using codonW v1.4.4accessed through the HPC cluster.
+
+Boundary analysis
+
+The web-based IRscopeprogram accessed through(accessed date: 16th May 2024) was used to locate, visualize, and compare the genes expanding between the single copy (SC) and inverted repeat (IR) regions. The chloroplast genomes of() and(Sample 19) () from this study were used in the analysis. The remainingchloroplast genomes downloaded from NCBI GenBankinclude(),(),(),(),(),(),(),(),(), and(). The GenBank downloaded genomes were reannotated and .gb files were used for the IR/SC junction analysis.
+
+Nucleotide polymorphism or sequence divergence and comparative chloroplast genome analyses
+
+Thechloroplast genomes were aligned with Multiple Alignment using Fast Fourier transform (MAFFT) v7.505. The aligned sequences in nexus file format were uploaded to DnaSP v6.12.03with the sliding window analysis (window length = 500 bp, step size = 250) to identify the nucleotide polymorphism.
+
+mVISTAprogram accessed fromwas employed for the comparative chloroplast genome analysis of 12species. The 12chloroplast genomes, the same as used for boundary analysis, were uploaded as fasta sequences usingas the reference. The application was operated by selecting the Shuffle-LAGAN alignment program.
+
+Phylogenetic analysis
+
+We downloaded the chloroplast genomes of the tenspecies from the NCBI GenBank, along with that ofspecies as the outgroup for phylogenetic analysis [see Fig.for the GenBank Accessions]. MAFFT v7.505was used for multiple sequence alignment. The alignment file was used in IQTREE2 v2.2.2.6employing the best evolutionary model search through ModelFinderfor the construction of the Maximum Likelihood (ML) phylogenetic tree. The K3Pu + F + I + G4 model with 1000 bootstrap replicates was implemented for the construction of the phylogenetic tree. Thus, obtained ML tree was visualized in iTOL v6.8.1 ().
+
+Divergence time analysis
+
+The Markov Chain Monte Carlo (MCMC) method through the Bayesian Evolutionary Analysis Sampling Trees (BEAST) v2.7.6was used for the divergence time analysis.(NCBI Accession:) chloroplast genome was used as an outgroup for the fossil-based molecular clock calibration with the crown age ranging between 60 and 70 MYA. The crown age of thespecies was considered to be 30–45 MYA. The MAFFT-aligned chloroplast genome ofalong with the 12chloroplast, as described previously for the Boundary analysis, was imported to Bayesian Evolutionary Analysis Utility (BEAUti) version 2 within the BEAST package. The use tip dates option was checked with the date specified numerically as the year before the present. The General Time Reversible (GTR) substitution model was selected as suggested by MEGA11with frequencies as estimated along with the rates 1.0 for AC, AG, AT, CG, and GT with the estimate box checked and CT without the estimate box checked. An optimized relaxed clockwith a mean clock rate of 1.0 was selected. The Fossilized Birth Death Model for the tree was selected whereas all the other functions were set as default. Six priors:for fossil calibration anddivided as Asian, African, American, all, and new world(excludingand) were used. MCMC with chain length 20,000,000 and default remaining parameters were used. The .xml file generated from BEAUti was used to runBEAST. The detailed procedure for creating the XML file can be found in Supplemental Material 21. The BEAST output was then used in TreeAnnotator with the parameters set as Burn in percentage: 20, Posterior probability limit: 0, target tree type: Maximum clade credibility (MCC) tree, and Node heights: Mean heights. Tracer v1.7.1was used to visually inspect the analysis output for MCMC provided by TreeAnnotator. FigTree v1.4.4was used for the preliminary visualization whereas iTOL v6.8.1 ()was used for the final visualization of the divergence tree.
+
+Electronic supplementary material
+
+Below is the link to the electronic supplementary material﻿.
+
+Supplementary Material 1
+
+Supplementary Material 2
+
+Supplementary Material 3
+
+Supplementary Material 4
+
+Supplementary Material 5
+
+Supplementary Material 6
+
+Supplementary Material 7
+
+Supplementary Material 8
+
+Supplementary Material 9
+
+Supplementary Material 10
+
+Supplementary Material 11
+
+Supplementary Material 12
+
+Supplementary Material 13
+
+Supplementary Material 14
+
+Supplementary Material 15
+
+Supplementary Material 16
+
+Supplementary Material 17
+
+Supplementary Material 18
+
+Supplementary Material 19
+
+Supplementary Material 20
+
+Supplementary Material 21

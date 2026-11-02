@@ -1,0 +1,261 @@
+1. Introduction
+
+Rabbitfishes of the genusare widely distributed across tropical and sub-tropical Indo-Pacific coastal regions and represent an ecologically and economically important group of herbivorous fishes. Among them, the mottled spinefootis common throughout the western Pacific, Southeast Asia, and the Ryukyu–Japanese archipelago []. Recent genetic studies have revealed complex phylogeographic structures and partially isolated regional populations [,,], suggesting that local adaptation and region-specific reproductive characteristics may occur across its broad distribution. In many Indo-Pacific countries, rabbitfishes constitute important coastal fisheries resources and are widely consumed []. Their herbivorous diet, relatively fast growth, and favorable consumer acceptance have further contributed to increasing interest in their aquaculture potential [].
+
+Recent studies have further clarified the reproductive biology and spawning seasonality of the mottled spinefoot rabbitfish, highlighting regional variation and environmental influences on reproductive timing [].
+
+Despite this long-standing interest, the successful seed production ofspecies remains challenging, particularly during the early larval stages. Studies onhave provided detailed information on spawning characteristics, yolk absorption, timing of mouth opening, and the narrow size range of prey that larvae can ingest at first feeding, all of which contribute to high mortality when appropriately sized prey are not supplied [,]. Similarly, the developmental sequence oflarvae, including fin formation, pigmentation, and digestive tract extension, has been described []. These studies collectively demonstrate that siganid fish larvae exhibit rapid yolk depletion, very small initial mouth size, and a strict requirement for suitably sized prey immediately after first feeding. Although these findings are derived from closely relatedspecies, such comparisons are justified primarily by their shared phylogenetic background and broadly similar early-life feeding modes as herbivorous or omnivorous fishes. These species exhibit common early developmental constraints, including rapid yolk depletion, small initial mouth size, and strong dependence on visual feeding cues immediately after first feeding. Nevertheless, potential species-specific eco-functional differences cannot be excluded, and the present comparisons are intended to provide developmental context rather than to imply direct equivalence across species. For, inadequate feeding during the onset of exogenous feeding—particularly between 2 and 6 days post-hatching—has been identified as a major cause of poor survival in fingerling production []. Specifically, the relative growth of feeding-related structures such as the eye, snout, and jaw provides morphological predictors of the prey sizes that larvae can effectively capture and ingest at different developmental stages. These allometric indicators also define practical thresholds at which larvae are likely to tolerate changes in prey type, such as transitions from small rotifers to larger live feeds. Therefore, quantifying relative growth patterns offers a morphological basis for optimizing feeding schedules and rearing practices in hatchery production.
+
+Early feeding success in marine fish larvae is influenced by both environmental conditions and intrinsic developmental constraints, particularly the development of feeding-related external morphology and the digestive system. While many marine larvae are visual feeders whose feeding performance is strongly affected by light intensity, successful prey ingestion and assimilation during the first-feeding period ultimately depend on whether feeding-related structures and digestive capacity are sufficiently developed. In rabbitfishes, recent hatchery observations indicate thatlarvae exhibit strong positive phototaxis immediately after the onset of exogenous feeding, which under artificial light environments can induce maladaptive behaviors such as wall aggregation and surface-pecking, potentially increasing energy expenditure and early mortality.
+
+Although previous studies have described aspects of reproductive biology, external morphology, and early feeding inspecies [,,,], important gaps remain in our understanding of early morphological and functional development in. Kitajima et al. [] reported the growth relationships of several external traits, including body depth, preanal length, eye diameter, second dorsal spine length, pelvic spine length, and the allometric relationship between total length and body weight. However, feeding-related structures such as snout length, upper jaw length, and head length were not examined, and their ontogenetic growth patterns remain unknown. Kitajima et al. [] also provided a description of general gut morphology, and the present study re-visits these observations to confirm and extend their findings. However, beyond documenting size relationships of individual traits, previous studies did not establish a quantitative framework for how coordinated allometric changes in feeding- and sensory-related structures define functional developmental phases. In particular, the timing and magnitude of growth transitions that mark shifts in feeding capacity and locomotor performance have not been identified in. The present study addresses this gap by applying segmented allometric analysis to detect ontogenetic breakpoints that delineate functionally distinct growth phases.
+
+Further information on early development has been provided by studies on otherspecies. Juario et al. [] documented the spawning characteristics, yolk absorption, timing of mouth opening, and initial feeding performance of. Bagarinao [] emphasized the narrow timing of the first-feeding window and the critical importance of providing appropriately sized prey. However, these studies focused primarily on general larval morphology and feeding onset and did not provide detailed analyses of digestive tract differentiation or the relative growth of feeding-related structures in. In, Kitajima et al. [] noted that eye enlargement and increases in body depth accompany the onset of exogenous feeding, indicating that early somatic growth is aligned with the development of visual and oral structures that facilitate prey detection and ingestion. These observations highlight the importance of feeding-related morphology during the transition to external feeding. However, key traits such as head length, snout length, and upper jaw length were not quantified in their study, and the ontogenetic growth patterns of these structures remain insufficiently understood.
+
+In, detailed information on the ontogeny of digestive tract development and the allometric growth of feeding-related structures remains scarce, particularly during the earliest post-hatching stages. Although Kitajima et al. [] provided valuable descriptions of the external morphology of the digestive tract, their observations focused mainly on larvae from 14 days post-hatching onward, leaving the formative period of digestive and feeding-related structures largely undocumented. Such early-stage information is essential for designing feeding strategies that match larval developmental capacity and for improving hatchery protocols. These observations suggest that early mortality inlarvae may arise not from delayed morphological development per se, but from mismatches between larval functional capacity and hatchery feeding and environmental conditions.
+
+The present study therefore aims to clarify the early ontogeny ofby (1) describing basic growth patterns and overall morphological development from hatching onward, (2) quantifying the relative growth of feeding-related structures, and (3) interpreting the development of feeding-related external morphology in the context of digestive system maturation based on previous studies. By identifying developmental milestones associated with prey size selectivity and inferred digestive capacity, this study provides foundational biological information for guiding first-feeding strategies and improving the reliability of fingerling production in this ecologically and economically important species.
+
+2. Materials and Methods
+
+2.1. Test Larvae and Juveniles and Their Rearing Methods
+
+A total of 8000 fertilized eggs obtained from 14 broodstock individuals maintained at the Oshima Experiment Station were randomly distributed into five identical indoor 1-t cylindrical tanks at hatching. Multiple tanks were used to ensure standard hatchery conditions and to minimize potential tank-specific effects, while all tanks were maintained under identical and controlled environmental conditions throughout the rearing period.
+
+Seawater was supplied continuously at a flow rate of 0.4 L minusing an overflow system. Dissolved oxygen saturation ranged from 81.2% to 107.3%, salinity was maintained at 32.0 ± 1.8 PSU, and water temperature ranged from 25.3 °C to 31.0 °C. Light intensity was set at 16,000 lx, and the photoperiod was maintained at 14 h light and 10 h dark (14L:10D; light phase from 07:30 to 21:30). These conditions were identical among all tanks.
+
+Water temperature, dissolved oxygen (DO), salinity, and pH were recorded twice daily (AM and PM) throughout the pre-transfer period (0–15 dph). To evaluate potential differences in water-quality conditions among tanks during this period, linear models were fitted for each parameter with days post-hatching (dph) and time of day (AM/PM) as covariates and tank as a factor. Because larvae were transferred and pooled among tanks after 16 dph, statistical comparisons among tanks were restricted to the pre-transfer period.
+
+From 2 to 30 days post-hatching (dph), larvae were fed rotifers at a density of 10–30 individuals mL. Rotifers were enriched with freshwater Chlorella fortified with eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).nauplii were supplied from 15 to 40 dph, starting at approximately 10 individuals per larva and gradually increasing according to larval growth.
+
+From 22 dph onward, larvae were additionally fed a formulated commercial diet, and fresh vegetables were introduced from 25 dph. During the rotifer andfeeding phases (2–21 dph), larvae were fed once daily in the morning. After 22 dph, feeding frequency and amounts were adjusted to apparent satiation based on observations of larval feeding behavior and swimming activity (e.g., changes in swimming speed and prey capture frequency), which are commonly used as practical indicators of feeding status in aquaculture studies of marine fish larvae (e.g., [,]).The seawater used for rearing was treated by ultraviolet sterilization and filtration. When necessary, concentrated(Fresh Chlorella V-12; Chlorella Industry Co., Ltd., Tokyo, Japan) was added at appropriate concentrations.
+
+2.2. Sampling and Measurement of Larvae and Juveniles
+
+At each age (0–40 dph), 5–30 individuals were randomly collected as the daily sample. When multiple tanks were available, individuals were taken from more than one tank to avoid tank-specific bias. Larvae collected from different tanks at the same sampling age were pooled at the time of sampling, and tank identity was therefore not retained for individual specimens. This sampling design was adopted to obtain representative individuals under identical rearing conditions and to minimize potential bias associated with specific tanks.
+
+All individuals collected at the same age were pooled and treated as a single sample. The sampled fish were anesthetized with eugenol (FA100; Bussan Animal Health Co., Ltd., Osaka, Japan) at a concentration of 500 ppm and then euthanized in ice water. Digital images were subsequently captured using a stereomicroscope system (cellSense standard version 1.16; OLYMPUS Corp., Tokyo, Japan; SZX7; OLYMPUS Corp., Tokyo, Japan), and morphometric measurements were obtained from the images. In total, 358 individuals spanning a body-length range of 2.07–57.87 mm were included in the quantitative analyses. This dataset covers all major larval and early juvenile stages examined in this study. Developmental stages of rabbitfish were classified according to Kendall (1984) [].
+
+For the assessment of absolute growth, notochord length (NL) and standard length (SL) were measured and collectively defined as body length (BL). For relative growth analysis, the following morphological traits were measured: total length (TL), body length (BL), preanal length (PAL), head length (HL), snout length (SnL), body height (BH), head height (HH), caudal peduncle depth (CPD), upper jaw length (UJL), and eye diameter (ED).
+
+Because the primary objective of this study was to characterize individual-level allometric growth trajectories rather than to compare rearing conditions among tanks, individuals collected from different tanks were pooled for the regression-based analyses. Preliminary inspection, based on visual comparison of size-frequency distributions and summary statistics (mean ± SD) of body length and major morphometric traits among tanks at overlapping sampling days, did not reveal systematic differences among tanks; therefore, tank effects were not explicitly modeled. Nevertheless, we acknowledge that individuals reared in the same tank may not be fully independent due to shared environmental conditions, and this limitation is considered when interpreting the results.
+
+2.3. Statistical Analysis
+
+2.3.1. Software and Analytical Environment
+
+Statistical analyses were performed using R software (version 4.3.1). Additional data checking and basic statistical summaries were conducted using EZR (Easy R, version 1.63), which is widely used in biological and medical research. EZR was used primarily for data inspection and descriptive statistics, whereas all regression and segmented analyses were conducted directly in R. Segmented regression analyses were performed using the segmented package in R []. Data organization and calculation of basic descriptive statistics were conducted using Microsoft Excel as a supplementary tool.
+
+2.3.2. Data Preprocessing and Outlier Detection
+
+Morphological measurements, including pre-anal length, snout length, head length, head height, caudal peduncle depth, body height, total length, eye diameter, and upper jaw length, were recorded for each individual at each sampling age.
+
+Prior to statistical analysis, outliers were identified using the interquartile range (IQR) method to minimize the influence of measurement errors and extreme values. Specifically,
+
+Outliers identified by the IQR method were carefully inspected on a case-by-case basis, and values were excluded only when they were considered likely to result from measurement or recording errors rather than representing biologically meaningful variation.
+
+the first (Q1) and third quartiles (Q3) were calculated,
+
+the interquartile range was defined as IQR = Q3 − Q1, and
+
+values below Q1 − 1.5 × IQR or above Q3 + 1.5 × IQR were identified as potential outliers.
+
+2.3.3. Allometric Growth Analysis (Log–Log Regression)
+
+Allometric relationships between each morphological trait () and the reference body length (X) were analyzed using the allometric equation:
+
+After logarithmic transformation, the equation was expressed as:
+
+Natural logarithms (ln) were used for all transformations. All measurements were positive values, and no zero values were present in the dataset; therefore, logarithmic transformation was applied without additional correction.
+
+Linear regression analyses were then performed on the log-transformed data.
+
+The regression coefficient b was interpreted as the allometric growth coefficient, where
+
+The allometric coefficientwas statistically evaluated by testing whether it differed significantly from isometric growth (= 1) using-tests.
+
+Notochord length was used as the reference body length prior to notochord flexion, whereas standard length was used thereafter, reflecting ontogenetic changes in body structure.
+
+= 1 indicates isometric growth,
+
+> 1 indicates positive allometry, and
+
+< 1 indicates negative allometry.
+
+2.3.4. Segmented Regression Analysis and Inflection Point Estimation
+
+Segmented regression models allowing up to two breakpoints (i.e., up to three linear segments) were fitted to the log–log relationships between body length and each morphometric trait. Breakpoints were identified using a model-selection approach rather than visual inspection, by comparing competing segmented regression models with different numbers of breakpoints based on Akaike’s Information Criterion. To detect body length thresholds at which allometric growth patterns changed during development, segmented regression analysis was applied to the log–log transformed data.
+
+Initially, a simple linear regression model was fitted to each trait. Subsequently, segmented regression models were constructed using the segmented package in R to allow the regression line to be divided into multiple segments with different slopes [].
+
+Segmented regression models with zero to two breakpoints (corresponding to one to three linear segments) were fitted to the log–log relationships between body length and each morphometric trait. Candidate models were compared by sequentially increasing model complexity, and the optimal number of breakpoints was selected based on Akaike’s Information Criterion (AIC; []), parameter stability, residual diagnostics, and biological interpretability of the estimated breakpoints.
+
+The general form of a segmented regression model with two breakpoints is given by:whereanddenote the estimated breakpoints, and,, andare the segment-specific allometric coefficients. Breakpoints were estimated on the logarithmic scale and back-transformed to millimeters for biological interpretation. Standard errors of breakpoint estimates were calculated to quantify estimation uncertainty. The breakpoints and segment-specific slopes reported incorrespond to the final selected model for each trait; traits supported by fewer breakpoints are represented by correspondingly simpler models. For total length, the two-breakpoint model was strongly supported over simpler alternatives (ΔAIC = 79.7 relative to the one-breakpoint model). Among candidate models, the final model was selected primarily based on the lowest AIC, provided that estimated breakpoints were biologically interpretable and associated with stable slope estimates.
+
+2.3.5. Model Evaluation and Interpretation
+
+For each regression model, regression coefficients, standard errors, coefficients of determination (), and the number of estimated breakpoints were evaluated.
+
+When multiple breakpoints were detected, their relevance was assessed in relation to ontogenetic stage transitions, rather than relying solely on statistical criteria.
+
+2.3.6. Statistical Significance
+
+Statistical significance was assessed at a 5% significance level (< 0.05).
+
+Differences in regression slopes and improvements in model fit were evaluated based on-tests and the estimated parameters of the regression models.
+
+3. Results
+
+3.1. Environmental Conditions During the Rearing Period
+
+During the pre-transfer period (0–15 dph), no significant differences among tanks were detected for any water-quality parameter, including water temperature, dissolved oxygen, salinity, and pH (). Salinity and pH varied significantly with days post-hatching, and salinity also differed between AM and PM measurements; however, these temporal variations were consistent across tanks.
+
+3.2. Absolute Growth of Notochord Length or Standard Length
+
+After sampling, the experimental fish were photographed using a microscope-mounted camera. From the obtained images, individuals and ages that were considered representative of each developmental stage were selected and are presented in.
+
+Changes in body length during early development are shown in. Mean notochord length (NL) increased gradually from hatching to approximately 10 dph, remaining below 5 mm during this period. At hatching and during the yolk-sac stage (0–2 dph), NL ranged from approximately 2.1 to 2.3 mm. From 3 to 10 dph, NL increased steadily to approximately 4–5 mm, after which growth accelerated, reaching approximately 10–12 mm by 20 dph.
+
+After 10 dph, growth in body length accelerated markedly. NL increased from approximately 5 mm at 10 dph to about 10–12 mm by 20 dph. Following the transition to the juvenile stage, standard length (SL) increased rapidly, reaching approximately 20 mm by 30 dph, approximately 28 mm by 35 dph, and exceeding 40 mm by 40 dph. Variability in body length increased with age, particularly after 25 dph, as indicated by larger standard deviations. Variability in body length increased with age, particularly after 25 dph, as indicated by larger standard deviations, although variability was not quantified separately within each ontogenetic phase.
+
+3.3. Developmental Stage Composition During Larval and Early Juvenile Development
+
+The relative proportions of developmental stages (pre-flexion, flexion, post-flexion, and juvenile) changed markedly with days post-hatch (). From 0 to 4 dph, all individuals were classified as pre-flexion larvae, accounting for 100% of the population. Flexion-stage larvae first appeared at 5 dph, coinciding with the onset of rapid morphological change.
+
+Between 6 and 9 dph, the proportion of flexion larvae increased rapidly, while pre-flexion larvae declined to less than 10% by 9 dph. Post-flexion larvae began to appear at approximately 10 dph and increased steadily in proportion through 15 dph, during which the population was dominated by flexion and post-flexion stages. From 16 to 19 dph, post-flexion larvae accounted for more than 70% of individuals. Juveniles first appeared at 20 dph and rapidly became dominant, accounting for all individuals from 25 dph onward.
+
+3.4. Relative Growth of Body Proportions During Larval and Early Juvenile Development
+
+Relative growth of body parts inwas analyzed by expressing each measurement as a percentage of notochord length (NL) during the larval stage and standard length (SL) during the early juvenile stage ().
+
+At hatching, larvae were slender with low relative body depth. During the early larval stage (approximately 3–8 dph), body depth and head depth increased rapidly relative to notochord length. Thereafter, these proportions stabilized as overall body length continued to increase. From 8 to 20 dph, NL increased substantially from approximately 4.3 mm to 11.6 mm, whereas body depth and head depth ratios remained relatively stable. This resulted in a gradual elongation of overall body shape during the later larval stage.
+
+Relative growth patterns of feeding-related organs showed distinct ontogenetic trends. Feeding-related traits, including upper jaw length, head length, and eye diameter, were relatively large from the onset of exogenous feeding and changed only gradually during subsequent larval development.
+
+In contrast, relative trunk length increased primarily during later development. From approximately 8 dph onward (NL > 4.3 mm), trunk length increased from approximately 45–48% of NL to 50–55% of NL by 20 dph. The relative length of the caudal region also increased steadily toward the early juvenile stage.
+
+3.5. Log–Log Relative Growth and Detection of Developmental Breakpoints
+
+It should be noted that no formal statistical tests were applied to the descriptive results presented in this section; these results are intended to provide an overview of developmental trends, while statistical evaluations are presented in the subsequent analyses. In the log–log relationship between total length and body length, the model with two breakpoints provided the best fit (AIC = −1377.6), indicating two distinct shifts in the allometric scaling pattern. Natural logarithms of notochord length (NL) or standard length (SL) and individual body-part measurements were analyzed using segmented regression to detect breakpoints in relative growth trajectories.
+
+Segmented regression analysis consistently identified three major breakpoints in multiple body parts, corresponding to NL values of approximately 5 mm, 7–9 mm, and 17–19 mm (,).
+
+3.5.1. First Breakpoint (NL ≈ 5 mm)
+
+The first breakpoint, detected at approximately NL = 4.8–5.3 mm, corresponded to the transition from the preflexion to flexion stage. Prior to this breakpoint (NL ≈ 2.3–5.0 mm), several feeding- and locomotion-related body parts exhibited strong positive allometry relative to NL.
+
+Eye diameter, upper jaw length, snout length, and caudal peduncle depth showed slopes substantially greater than 1.0 (typically b ≈ 1.2–1.5, depending on the trait), indicating disproportionately rapid growth relative to overall body length. In contrast, trunk length and total body length increased more slowly during this phase.
+
+After this breakpoint, the slopes for these feeding-related traits decreased significantly (< 0.05), indicating a clear shift in relative growth pattern.
+
+3.5.2. Second Breakpoint (NL ≈ 7–9 mm)
+
+The second breakpoint was detected at approximately NL = 7.0–9.0 mm, corresponding to the mid-flexion stage. Between the first and second breakpoints (NL ≈ 5–8 mm), most body parts showed reduced allometric slopes, approaching isometric growth (≈ 1.0).
+
+In this size range, most feeding- and locomotion-related traits exhibited slopes close to unity (≈ 1.0), indicating near-isometric growth and stabilization of body proportions during this interval.
+
+3.5.3. Third Breakpoint (NL ≈ 17–19 mm)
+
+A third breakpoint was detected at approximately NL = 17–19 mm, corresponding to the transition from the larval to juvenile stage. Beyond this breakpoint (NL > ~18 mm), body depth and caudal peduncle depth again exhibited positive allometry, with slopes increasing to approximately≈ 1.2–1.4 (< 0.05).
+
+In contrast, head-related measurements, including eye diameter and upper jaw length, showed reduced slopes (< 1.0) after this stage, indicating a relative deceleration of head growth compared with overall body length. Trunk length and standard length increased steadily, contributing to the overall juvenile body form.
+
+3.6. Summary of Segmented Growth Patterns
+
+Overall, segmented regression analysis revealed a three-phase pattern of relative growth in., characterized by early positive allometry, a mid-larval stabilization phase, and renewed allometric growth during the transition to the juvenile stage.
+
+These statistically identified growth phases and their biological interpretation are summarized in.
+
+4. Discussion
+
+4.1. Absolute Growth and Development of S. fuscescens Larvae and Juveniles
+
+The present study revealed a biphasic pattern of absolute growth in notochord length (NL) and standard length (SL) in, characterized by gradual body elongation until approximately 10 dph and a subsequent period of rapid length in-crease during the late larval to early juvenile phase. During the yolk-sac and early larval stages (0–10 dph), NL remained below 5 mm, indicating limited somatic elongation despite the onset of exogenous feeding. Comparable early plateaus in body length have been reported for other marine fishes and are often associated with energetic allocation to organogenesis rather than somatic extension [,].
+
+This interpretation aligns with previous studies on digestive tract development in rabbitfishes. Kohno et al. [] demonstrated that relative gut length (RGL) increases sharply during the first week post-hatching, and similar early digestive differentiation has been documented for herbivorous and omnivorous larvae [,]. The modest increase in NL prior to 10 dph therefore likely reflects energetic prioritization toward digestive tract elongation, organ maturation, and initial feeding-related structure development. Such patterns differ from those observed in pelagic carnivores like Pacific bluefin tuna () and greater amberjack (), in which early elongation of body length is more pronounced [,].
+
+After 10 dph, NL increased rapidly to approximately 10–12 mm by 20 dph, and SL exceeded 40 mm by 40 dph. This acceleration coincides with the transition from strong positive allometry in feeding-related traits to near-isometric growth, as revealed by segmented regression in the present study. Such growth shifts correspond to increased locomotor capability and enhanced digestive efficiency, allowing greater energetic allocation toward somatic elongation []. The postflexion period thus represents a developmental phase during which larvae gain both structural and functional independence, enabling rapid length growth.
+
+Comparisons with other species provide additional context. In red sea bream (), early elongation is stronger, and NL typically reaches 6–7 mm by 8–10 dph under comparable temperatures []. Greater amberjack displays even more rapid early elongation, attaining 9–12 mm by 10 dph and transitioning to the juvenile stage sooner [], whereas Pacific bluefin tuna demonstrate extreme early growth acceleration and surpass 15–20 mm by 10 dph []. The slower early elongation oftherefore reflects a divergent developmental strategy in which early energy investment emphasizes digestive tract development and feeding-related morphology rather than rapid overall length extension.
+
+It should be noted that, in addition to intrinsic developmental processes, several extrinsic factors not directly controlled in the present study may also have contributed to the observed growth patterns. It should also be noted that early allometric growth patterns in marine fish larvae can be influenced by environmental factors such as rearing temperature, which may modify the timing and magnitude of ontogenetic growth shifts []. Stocking density and intra-cohort competition for food can influence growth rates and energy allocation in larval fishes, potentially modulating the timing and magnitude of somatic elongation. Furthermore, changes in feeding regime after 22 dph may have affected digestive efficiency and growth dynamics during later stages. While these factors were maintained within standard hatchery ranges, their individual effects were not experimentally isolated. Therefore, the interpretations presented here should be regarded as functional inferences based on morphological patterns rather than definitive causal relationships.
+
+Finally, the increased variability in SL after 25 dph likely reflects individual differences in feeding success, metabolic efficiency, and early behavioral traits—a pattern also observed in species undergoing settlement transitions []. Overall, the absolute growth pattern ofunderscores a developmental trajectory that prioritizes organogenesis and feeding competence during early ontogeny, followed by rapid somatic elongation once digestive and locomotor capacity has been established. Because no significant among-tank differences in water-quality parameters were detected during the pre-transfer period, the growth patterns and allometric trajectories observed in this study are unlikely to be attributable to systematic environmental heterogeneity among tanks.
+
+4.2. Early Allometric Traits of S. fuscescens Larvae and Juveniles in a Comparative Context
+
+The present study revealed three distinctive and interrelated allometric traits in the early development oflarvae that clearly differentiate this species from many carnivorous marine fishes.
+
+First, early body deepening was a prominent feature of initial larval development. Between 3 and 8 dph (NL ≈ 2.3–4.3 mm), body depth and head depth increased rapidly from approximately 10–12% to 14–18% of NL, whereas notochord elongation itself remained relatively modest. This pattern contrasts with that observed in pelagic or semi-pelagic larvae such as red sea bream (), greater amberjack (), and Japanese flounder (), in which early larval growth is typically dominated by elongation of body length with only limited early increases in body depth [,,]. Early body deepening is considered advantageous for posture stabilization and maneuverability [,,], and for predator avoidance [] in structurally complex coastal and algal-associated habitats, where larvae and early juveniles must maintain orientation and rapidly respond to visual and hydrodynamic cues [].
+
+Second, the observed temporal shift in body proportions closely corresponded to onto-genetic changes in digestive tract development. Previous studies have shown thatlarvae undergo a rapid increase in relative gut length (RGL) during the same developmental window (approximately 3–8 dph), followed by continued elongation of the digestive tract at later stages [,]. In the present study, early expansion of body depth and head-related dimensions (NL ≈ 2–4 mm) likely reflects enlargement of the body cavity to accommodate rapid gut development during the early larval stage. After NL exceeded approximately 4 mm, body depth ratios stabilized (≈14–17% of NL), while trunk length increased markedly, indicating a shift toward longitudinal growth that supports further elongation of the digestive tract and somatic tissues during later larval and early juvenile stages. This two-phase pattern—early body deepening followed by accelerated body elongation—differs from the more uniform elongation dominated growth reported for many carnivorous species.
+
+Third, early development of feeding-related organs supporting the utilization of small prey items was evident inlarvae. Allometric scaling of feeding-related structures has been shown to constrain feeding capacity and prey size selection during early ontogeny in marine fish larvae, thereby linking morphological development directly to feeding performance []. Upper jaw length (≈5–7% of NL), head length (≈19–22% of NL), and eye diameter (≈8–10% of NL) were already relatively large immediately after the onset of exogenous feeding and remained high throughout the early larval stage. These proportions are consistent with the well-documented preference of siganid larvae for small rotifers (approximately 60–120 µm), which contrasts with the larger prey sizes (120–180 µm) typically selected by larvae of species such asand[,,]. Together, these morphological traits indicate thatlarvae are morphologically specialized for efficient detection and capture of small prey immediately after first feeding, reflecting an ontogenetic strategy distinct from that of pelagic carnivorous fishes and well suited to coastal, al-gal-associated environments.
+
+4.3. Developmental Interpretation of Growth Breakpoints Revealed by Segmented Regression
+
+Segmented regression analysis of log–log relationships between body-part dimensions and notochord or standard length revealed three major breakpoints in the relative growth trajectories oflarvae, occurring at approximately NL ≈ 5 mm, 7–9 mm, and 17–19 mm (,). Ontogenetic shifts in functional morphology and swimming performance, often occurring as discrete developmental phases, have been reported across a wide range of marine fish larvae []. These breakpoints correspond to distinct developmental phases and provide a quantitative framework for interpreting functional and ecological shifts during early ontogeny.
+
+The first breakpoint (NL ≈ 5 mm) coincided with the transition from the preflexion to flexion stage () and was characterized by strong positive allometry in feeding- and locomotion-related traits, including eye diameter, upper jaw length, snout length, and caudal peduncle depth (≈ 1.2–1.5). Such disproportionate growth indicates rapid acquisition of sensory, prey-capture, and swimming capacities immediately after the onset of exogenous feeding. In many carnivorous marine fishes, such as,, and, early larval growth is dominated by elongation of body length, while feeding-related structures develop more gradually [,]. In contrast, the pronounced early allometry observed insuggests an ontogenetic strategy that prioritizes early functional competence rather than simple body elongation.
+
+The timing of the first breakpoint also corresponds closely with the period of rapid digestive tract development previously reported for siganid larvae. Kohno et al. [] showed that relative gut length (RGL) inincreases sharply during the early larval stage, reaching values exceeding 1.0–1.5 before flexion. The present results indicate that early expansion of body depth and head-related dimensions, together with strong positive allometry of feeding structures, likely reflects coordinated morphological reorganization that supports both internal digestive development and external feeding performance [,,,,]. This integrated pattern contrasts with the more uniform growth trajectories observed in pelagic carnivorous species, such asand other fusiform pelagic predators [,], and may be characteristic of herbivorous or omnivorous fishes associated with structurally complex coastal habitats where maneuverability and fine-scale grazing are at a premium [].
+
+The second breakpoint (NL ≈ 7–9 mm) occurred during the flexion stage and was marked by a transition toward near-isometric growth (≈ 0.9–1.1) in most body parts. During this phase, previously emphasized traits such as eye diameter, upper jaw length, and head length showed reduced relative growth, indicating stabilization of body proportions. This phase likely represents a period of morphological scaling and adjustment, during which early-specialized structures are integrated into a more balanced body plan. Similar transient phases of proportional stabilization have been reported in other marine fish larvae, although the specific timing and affected traits vary among species [,].
+
+The third breakpoint (NL ≈ 17–19 mm) corresponded to the transition from the larval to juvenile stage and was characterized by renewed positive allometry in body depth and caudal peduncle depth (≈ 1.2–1.4), while head-related traits exhibited relative deceleration (< 1.0). This pattern indicates reorganization of body shape toward the juvenile morphology, with increased emphasis on swimming performance and structural robustness. Comparable late-stage increases in body depth or caudal region development have been reported during metamorphosis in a variety of marine fishes and are commonly associated with shifts in habitat use and locomotor demands [,].
+
+Taken together, the three growth breakpoints identified in this study delineate a sequence of functional transitions inlarvae: an initial phase of rapid functional acquisition for feeding and locomotion (NL < ~5 mm), a subsequent phase of morphological stabilization and scaling (NL ≈ 5–9 mm), and a final phase of body-shape reorganization associated with juvenile transformation (NL > ~17 mm). This three-phase developmental pattern differs markedly from the predominantly elongation-driven growth observed in many carnivorous marine fishes ().
+
+This comparative framework highlights fundamental differences in early developmental strategies betweenand pelagic carnivorous fishes. Whereas pelagic species exhibit rapid early elongation of the body axis to support cruising and pursuit in open-water environments,prioritizes early development of feeding-related and postural structures, resulting in limited initial length increase but strong positive allometry of the head, eyes, jaws, and body depth. These contrasting trajectories indicate that early larval growth is shaped by different functional demands, reflecting divergent ecological strategies between coastal herbivorous/omnivorous fishes and pelagic predators. (Based on [,,,]).
+
+Accordingly, the functional and ecological interpretations discussed here should be regarded as hypotheses generated from observed morphological patterns, rather than direct demonstrations of causality.
+
+4.4. Ecological Implications of Ontogenetic Growth Patterns and Behavior in Natural Habitats
+
+While the present study provides clear implications for hatchery management, the observed ontogenetic patterns of relative growth inmay also be informative for interpreting early survival strategies in natural coastal environments, which are characterized by structural complexity, variable light conditions, and heterogeneous prey fields [,].
+
+The pronounced early body deepening observed during the early larval stage (NL ≈ 2–4 mm) may be functionally consistent with improved postural stability and maneuverability at low swimming speeds. Increased body and head depth have been associated with enhanced stability and turning performance in complex flow environments in other fishes []. However, the present study does not directly evaluate predator–prey interactions or habitat use, and therefore such ecological interpretations should be regarded as hypotheses rather than demonstrated adaptations.
+
+The first growth breakpoint (NL ≈ 5 mm), characterized by strong positive allometry in visual and feeding-related organs, coincides with a period when larvae must efficiently capture small prey. Fluctuations in the availability of suitably sized planktonic prey are common in coastal waters, and enlargement of the eyes and jaws could plausibly enhance prey detection and capture under such conditions, as reported for siganid larvae in previous studies [,,]. Compared with pelagic carnivorous species that forage in relatively homogeneous open-water prey fields, these traits may be functionally relevant in more heterogeneous nearshore environments, although this remains to be tested.
+
+During the second growth phase (NL ≈ 5–9 mm), near-isometric growth of most body parts indicates stabilization of body proportions. This pattern is consistent with a transition from highly specialized early larval morphology toward a more generalized body plan capable of supporting a wider range of locomotor and feeding behaviors, but direct links to habitat shifts were not examined in the present study.
+
+Collectively, the three-phase growth pattern revealed by relative growth and segmented regression analyses describes coordinated changes in morphology that likely influence functional performance through development. While these patterns are consistent with hypotheses about changing ecological demands across ontogeny, the present results should be interpreted primarily as a morphological framework for future experimental and field-based tests.
+
+4.5. Integration of Phototactic Behavior and Ontogenetic Changes in Morphology
+
+Visual cues play a central role in prey detection, posture control, and orientation in larval fishes, and visual gradients are known to strongly influence swimming behavior during early development [].
+
+The ontogenetic changes in relative growth patterns identified in this study provide a morphological framework for interpreting phototactic behavior and associated abnormal behaviors inlarvae. During the early larval phase (notochord length [NL] < ~5 mm), pronounced positive allometry in eye diameter, feeding-related structures, and caudal peduncle depth coincides with the period when strong positive phototaxis has been reported in several marine fish larvae at the onset of exogenous feeding [,]. This combination of rapid sensory and locomotor development likely increases reliance on visual cues for orientation and prey detection, which under artificial light gradients may elevate the risk of walling and surface-pecking behaviors. Recent hatchery studies have demonstrated that light-dependent swimming behavior can strongly affect larval survival, with inappropriate light environments inducing excessive surface aggregation and walling behavior in marine fish larvae [].
+
+Experimental studies have further shown that sensorimotor control of posture and orientation in larval fish is tightly regulated by visual gradients, supporting a mechanistic link between visual input and swimming behavior [,]. During the intermediate growth phase (NL ≈ 5–9 mm), near-isometric growth of most body parts indicates stabilization of body proportions, which is expected to improve swimming control and reduce dependence on strong light-oriented cues. As larvae approach the late larval to early juvenile stage (NL > ~17 mm), renewed positive allometry in body depth and caudal peduncle depth likely enhances swimming performance and maneuverability, further diminishing the functional importance of phototaxis for orientation and feeding.
+
+However, it should be acknowledged that the proposed relationship between changes in allometric growth patterns and attenuation of phototactic responses is interpretative in nature. The present study did not directly manipulate light environments or quantify behavioral responses across developmental stages; therefore, the links suggested here should be regarded as functional hypotheses rather than demonstrated causal relationships.
+
+Overall, these results suggest that phototactic behavior and its associated abnormal manifestations inare most pronounced during the early functional acquisition phase and decline as morphological stabilization and locomotor capacity increase.
+
+Future studies should explicitly test these hypotheses by manipulating prey size, feeding regime, and light environment according to the allometric thresholds identified here, and by directly quantifying growth, feeding success, and behavior. Such experiments will be necessary to determine whether the morphological patterns described in this study translate into improved hatchery performance.
+
+4.6. Implications for Hatchery Management and Feeding Design
+
+The integration of relative growth patterns and behavioral ontogeny has direct implications for hatchery management and feeding strategies inseed production. The early larval phase (NL < ~5 mm), characterized by strong positive allometry in feeding-related organs and heightened sensitivity to visual stimuli, represents a critical window during which larvae are particularly vulnerable to mismatches between morphology, prey size, and light environment. The present results support the use of small rotifers (approximately 60–120 µm) during this phase, a prey size range that is compatible with the relatively large upper jaw length and eye diameter observed immediately after first feeding. Provision of prey exceeding this size range may reduce capture efficiency and promote unnecessary locomotor activity, thereby in-creasing energetic costs.
+
+In addition to prey size, the strong tendency toward phototactic responses during the early larval stage highlights the importance of carefully managing hatchery lighting conditions. Intense overhead illumination can generate steep vertical light gradients that promote surface aggregation and surface-pecking behavior, whereas more homogeneous or mid-depth illumination may help disperse larvae within the water column and reduce abnormal behavior. Comparable adjustments to lighting regimes have been shown to improve survival and reduce behavioral stress in other marine fish larvae [,].
+
+During the subsequent stabilization phase (NL ≈ 5–9 mm), when relative growth approaches isometry, larvae appear less dependent on extreme visual cues and more capable of controlled swimming and prey capture. This stage likely represents an optimal window for the gradual increase in prey size and modification of feeding density, as morphological constraints on prey handling are progressively relaxed. Finally, during the late larval to early juvenile phase (NL > ~17 mm), renewed positive allometry in body depth and caudal peduncle depth indicates enhanced swimming performance and structural robustness, supporting the transition to juvenile feeding regimes and more structurally complex rearing environments.
+
+Overall, these findings emphasize that successful fingerling production ofrequires stage-specific integration of morphology, behavior, and rearing conditions. Rather than applying uniform feeding and lighting protocols throughout larval development, hatchery management strategies should reflect the distinct functional phases revealed by relative growth and segmented regression analyses. Such an approach is expected to reduce early mortality associated with abnormal behaviors and improve overall rearing efficiency for this species.
+
+Although the external development of the intestine was not quantitatively analyzed in the present study, continuous morphological sketches from hatching revealed that intestinal elongation and initial looping began earlier than the stage previously described by Kitajima et al. for postlarval rabbitfish (≥14 dph) []. This early expansion of the digestive tract likely contributes to the observed early body deepening, reflecting functional integration between digestive capacity and somatic growth during the onset of exogenous feeding.
+
+5. Conclusions
+
+This study demonstrates that early morphological development infollows a distinct three-phase pattern of relative growth, reflecting changing functional requirements during larval and early juvenile stages. Using detailed morphometric measurements and log–log segmented regression analysis, we identified three major developmental phases separated by breakpoints at approximately 5 mm, 7–9 mm, and 17–19 mm in body length.
+
+The earliest larval phase was characterized by strong positive allometry in feeding- and locomotion-related traits, indicating rapid functional acquisition immediately after the onset of exogenous feeding. This was followed by an intermediate phase of near-isometric growth, reflecting stabilization of body proportions, and a later phase marked by renewed positive allometry in body depth and caudal peduncle depth, corresponding to reorganization toward juvenile morphology.
+
+These results highlight an ontogenetic growth strategy inthat differs from elongation-dominated patterns reported in many carnivorous marine fishes. The application of segmented regression provided an effective framework for detecting functionally meaningful growth transitions and offers a useful approach for comparative developmental studies. From an applied perspective, recognizing these stage-specific growth patterns can contribute to the optimization of feeding and rearing strategies in rabbitfish aquaculture. Future experimental studies manipulating stocking density, feeding regime, or light environment are required to directly test the functional implications inferred from the present morphological patterns.
+
+It should be noted that digestive tract function and feeding performance were not directly measured in this study, and thus functional interpretations based on allometric patterns remain inferential. Future studies combining morphometrics with experimental manipulation of diet and light environment will be necessary to test these hypotheses.
+
+It should be emphasized that the present study provides a morphological and statistical framework for understanding early ontogenetic growth in. Direct experimental validation of functional performance, digestive capacity, and behavioral responses will be necessary in future studies to test the hypotheses inferred from the observed allometric patterns.

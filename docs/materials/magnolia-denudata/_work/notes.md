@@ -1,0 +1,29 @@
+# notes (W2 magnolia-denudata)
+- I1020: 백목련꽃잎, 사용가능부위 꽃잎, 이명 흰가지꽃나무, ENG Yulan; 목련꽃잎(M.kobus), 버지니아목련꽃잎, 별목련꽃잎 사용가능; 후박(M. officinale) 사용불가; 황목련(M. obovata) 사용불가; 목련꽃봉오리추출물(제2026-29호) 개별인정 M. kobus
+- PMID 29954130 PMC6100211: white flowers M. denudata vs violet M. liliiflora; total flavonoids(7 phenolics HPLC) white 11.71±0.46 mg/g DW, violet 17.31; HPLC 280nm 40C 1.0 mL/min 20uL, A 0.2% acetic acid water / B MeOH gradient; 0.1 g + 2 mL 80% MeOH sonication 1h 35C; column not given (ref Park 2017); flowers harvested Mar 2018 CNU Daejeon; rutin most abundant, chlorogenic 2nd
+- PMID 40011674 PMC11865492 Sci Rep 2025: Xinyi = M. biondii, M. denudata, M. sprengeri (ChP). Hubei buds May2022–Mar2023 (Xianning, Wuhan, Enshi); samples a,b,c = biondii, denudata, sprengeri (species names stripped in text; mapping by order + abstract). denudata(b) volatile oil 0.45–2.62%, peak 2.62% stage5 (January); 30 compounds: β-cubebene 0.29–21.39%, 1,8-cineole 0.36–17.87%, β-selinenol 2.43–15.44%, caryophyllene 2.96–10.98%, α-eudesmol 3.96–7.56% (peak area %); ChP volatile oil standard 1% met by biondii & denudata; GC-MS Agilent 7890A/5975C, HP-5MS 0.25mm×30m 0.1µm(as written), 60°C 2min→3°C/min 115→6°C/min 130→3°C/min 200→10°C/min 250 hold 2 min; inj 200°C, quad 150°C, EI source 230°C, 50–550 amu, 1.0 mL/min, split 10:1, 1.0 µL of 800 µg/mL in DCM; steam distillation 10 g + 400 mL water 5 h (ChP Part IV); quant by peak area normalization, NIST14; buds dried 37°C, 60 mesh
+- PMID 18585022 Phytomedicine 2008: RP-HPLC magnolin & fargesin: not found in M. denudata (found in biondii, kobus, liliflora; fargesin only biondii, kobus); histamine release IC50 rank biondii<kobus<liliflora<denudata<sprengeri<sargentiana (rat mast cells)
+- 12575280: GC-MS oil Xinyi three species main 1,8-cineole, sabinene, β-pinene, α-pinene, trans-caryophyllene (Chinese, abstract)
+- 12811018: Magnoliae flos = buds of M. denudata used for allergic disease in Korea; RBL-2H3 mast cell apoptosis
+- 32466951 Food Res Int 2020: M. denudata flower tea, fermented; UPLC-QTOF; 16 compounds; rutin -0.47 fold, keioside 1.00, 1-CQA -1.62, chlorogenic -1.48, quinic 1.36, isoverbasoside 5.42, isoacteoside 3.33
+- 26151113 Molecules 2015: petal extract fermented P. acidilactici; TPC 38.1→47.0 mg GAE/g solids; DPPH 91.4% after 72 h; 3x antioxidant; AGS LoVo MCF-7 1.29–1.36x, MRC-5 not affected
+- 21462973 JAFC 2011 buds lignans 3T3-L1 (4 lignans A–D)
+- 15684526 CPB 2005 buds: new tricyclooctane neolignan + 15 known
+- 17260239 Planta Med 1999 lignans incl. from M. denudata buds; ACAT IC50 25–200 µM (gomisin N most potent - Schizandra)
+- 42367119 2026 'Hailuo' buds drying: sun-drying 42 cpds; eucalyptol, tetracosane, α-terpinyl acetate, α-terpineol, β-caryophyllene
+- 36114399 flower essential oil fish anesthetic 100 mg/L spotted seabass; "used as analgesic for headaches"; ornamental
+- 41316548 / 40988373 / 28424715 / 36311085 thermogenesis; stage2 peak; gynoecium lateral tissue; petal closure benefits reproduction
+- 32480636 flowers before leaves; tepal sap flux 22% of leaves
+- 34625030 leaf bud cold acclimation transcriptome 74,503 unigenes
+- 33389128 male meiosis
+- 42268519 sausage MDE 0.2%; TPC 132.91 mg GAE/g; TFC 42.44 mg NE/g (part?)
+- 30674912 honokiol from seeds larvicidal LC50 6.13–7.37 mg/L; 26085316 seed hydrodistillate
+- 26265578 twigs magnolol honokiol
+- 11783585 leaves 20 cpds 16 lignans
+- 18838787 young fruits denudatin A,B NO; 19270419 mature fruit denudalide
+- 23949779 fructus IL-4/13
+- 27326901 APTI tolerant street tree Beijing
+- 1651734 bud differentiation Anhui May–end June ~50 days; pick buds before perianth appears; 1418575 var. dilutipurpurascens
+- 35011454 PMC8746637 Jeju buds M. heptapeta(white) vs M. denudata var. purpurascens
+- PMC8746637 (35011454): white buds = Magnolia heptapeta (Buc'hoz) Dandy [synonym; I1020 lists Lassonia heptapeta Buchoz], violet = M. denudata var. purpurascens; Jeju Namwon, Feb 2021. Fresh 1 kg Clevenger 8 h; oil yield white 0.35% (w/w fresh), violet 0.2%. White: sabinene 15.19, β-pinene 12.92, β-myrcene 9.94, 1,8-cineole 7.59, germacrene D 7.73, α-pinene 6.33, β-eudesmol 3.66, α-eudesmol 2.04 (area %); MH 58%. Rutin white 69.14±4.63 mg/g DW (violet 43.20); chlorogenic white 3.55±0.29 (violet 4.37). HPLC: Waters Alliance e2695 PDA, Zorbax CB-C18 250×4.6 mm 5 µm (Agilent), A 0.1% AcOH water B 0.1% AcOH ACN; gradient 0 92/8; 2 90/10; 35 70/30; 50 10/90; 51 0/100; 60 0/100; 63 92/8; 10 µL; 1 mL/min; 40 °C; PDA 200–400, chrom 280 nm; std 2.5–80 ppm calibration; prep 100 mg + 1 mL MeOH + 200 µL 0.1 M HCl vortex 1 min sonicate 1 h, 13000 rpm 10 min, re-extract 1 mL MeOH, concentrate, 1 mL MeOH, 0.50 µm PTFE; buds dried 45 °C 72 h. GC-MS oil: Agilent 7890A/5975C HP-5MS 30 m×0.25 mm×0.25 µm, He 1.00 mL/min, split 10:1, 1 µL, inj 230, source 230, quad 150, m/z 50–550, 70 eV, 40 °C 2 min →3 °C/min→250 hold 10 min; hexane 1:1000; RI C8–C20, NIST >90%.
+- PMC13253912 (42268519): fully bloomed flowers Apr 2024 Chungbuk Natl Univ campus ornamental trees; air-dried 25 °C; 80% EtOH (1:4) 1 week 37 °C shaking; 45 °C evap; freeze-dried; yield 5.33±0.15%; DPPH 44.48%; TPC 132.91 mg GAE/g; TFC 42.44 mg NE/g (extract); sausage 0.1–0.2%; bitterness rose (T3 6.57 vs NC 1.14), overall preference fell (3.71 vs 6.93); Table 1 labels "Magnolia leaf extract" (inconsistency, methods say flowers)

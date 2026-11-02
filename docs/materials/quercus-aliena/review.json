@@ -1,0 +1,109 @@
+{
+ "slug": "quercus-aliena",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 77,
+ "checked_items": 43,
+ "verified": 103,
+ "fixed": 14,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.processing",
+   "before": "논문은 갈참나무를 포함한 세 종 도토리가 엘라그산·갈산 원료로 쓰일 수 있다고 보았다[7].",
+   "after": "논문 초록은 굴참나무와 갈참나무 도토리를 엘라그산 추출 원료로 적합하다고 보았다(종 이름은 PubMed 도구 출력에서 빠져 WebSearch 요약으로 확인)[7]. 시료는 중국 베이징 주펑산에서 채취한 도토리였다[7].",
+   "why": "초록은 두 종(굴참나무·갈참나무)을 엘라그산 원료로, 다른 한 종을 갈산 연구 원료로 구분함 — 세 종 모두 두 성분 원료라는 서술은 과장"
+  },
+  {
+   "where": "sections.processing",
+   "before": "갈참나무 도토리 물 추출물은 다른 추출물보다 슈퍼옥사이드 라디칼 소거 활성이 높았다(IC50 4.92 μg/mL)[6].",
+   "after": "갈참나무 도토리 물 추출물은 다른 추출물보다 슈퍼옥사이드 라디칼 소거 활성이 높았고, 도토리 추출물의 소거 활성 IC50은 4.92 μg/mL였다(ESR 측정)[6].",
+   "why": "초록은 IC50 을 물 추출물로 특정하지 않고 Quercus aliena acorn extracts 로 적음"
+  },
+  {
+   "where": "sections.processing",
+   "before": "이 추출물을 미리 먹인 쥐에서는",
+   "after": "추출물을 미리 먹인 흰쥐(랫드)에서는",
+   "why": "초록: rats"
+  },
+  {
+   "where": "sections.biology",
+   "before": "백참나무류 도토리의 배를 4 mm 잘라 내는 실험에서",
+   "after": "다람쥐의 배 제거 행동을 흉내 내 백참나무류 도토리 끝의 떡잎 4 mm를 잘라 내는 실험에서",
+   "why": "[12] 초록: removing 4 mm of cotyledon from the apical end"
+  },
+  {
+   "where": "sections.biology",
+   "before": "설치류는 벌레 먹은 도토리보다 성한 갈참나무 도토리를 더 많이 저장하고 먹었다[13].",
+   "after": "설치류는 야외와 반자연 사육장에서 벌레 먹은 도토리보다 성한 갈참나무 도토리를 더 많이 저장하고 먹었지만, 좁은 개별 우리에서는 벌레 먹은 도토리를 더 먹었다[13].",
+   "why": "[13] 초록: 개별 우리에서는 반대 결과"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "굴참나무는 갈참나무와 서식지가 비슷하지만 다른 절의 종으로, 도토리 녹말·총페놀의 발달 양상이 다르다[9].",
+   "after": "굴참나무는 갈참나무와 서식지가 비슷하지만, 도토리 녹말·총페놀의 발달 양상이 다르다[9].",
+   "why": "[9] 초록에 '다른 절' 언급 없음"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "굴참나무·갈참나무·떡갈나무 세 종은 깍정이의 가수분해형 탄닌 함량이 서로 다르다[10].",
+   "after": "굴참나무·갈참나무·떡갈나무 세 종은 가수분해형 탄닌 함량이 서로 다르며, 세 종의 깍정이에서 β-글루코갈린이 그 생산 지표로 확인되었다[10].",
+   "why": "[10] 초록은 HT 함량 차이를 부위 특정 없이 말하고, 깍정이는 β-글루코갈린 지표에 관한 것"
+  },
+  {
+   "where": "sections.safety",
+   "before": "쥐 실험에서 간 보호 작용을 보였고 독성은 보고되지 않았으나, 사람 대상 안전성 시험은 확인하지 못함[6].",
+   "after": "흰쥐 실험에서 간 보호 작용을 보였으나 초록에 독성 평가 결과는 없고, 사람 대상 안전성 시험은 확인하지 못함[6].",
+   "why": "[6] 초록에 독성 평가 없음 — '독성 보고 없음'은 근거 없는 함의"
+  },
+  {
+   "where": "compounds.Tannins",
+   "before": "part 깍정이·열매, 종자 방어 물질",
+   "after": "part 깍정이, 방어 해석은 굴참나무 총페놀 대상",
+   "why": "[9]는 총페놀(탄닌 아님)·굴참나무 해석, [10]은 깍정이; 열매 탄닌은 이 종 근거 없음"
+  },
+  {
+   "where": "compounds.Gallic acid.content_text",
+   "before": "종 대응 주의: PubMed 도구 출력에서 학명이 빠져 있어 본문에서 제목 순서(굴참나무·갈참나무·떡갈나무)의 둘째 종 문단을 갈참나무로 대응시켰다[7]",
+   "after": "종 대응: PubMed 도구 전문에서는 학명이 빠져 있어, 이 수치를 갈참나무(Q. aliena)에 대응시킨 근거는 PMC 본문 문장('In the free polyphenol extract of Q. aliena acorn kernels…')을 인용한 WebSearch 요약뿐이다(원문 직접 확인 못함, 근거 수준 낮음)[7]",
+   "why": "둘째 종=갈참나무 대응을 제목 순서 추정에서 WebSearch 인용 근거로 바꾸고 근거 수준을 낮게 표시"
+  },
+  {
+   "where": "compounds.Ellagic acid.content_text",
+   "before": "종 대응 주의: PubMed 도구 출력에서 학명이 빠져 있어 본문에서 제목 순서(굴참나무·갈참나무·떡갈나무)의 둘째 종 문단을 갈참나무로 대응시켰다[7]",
+   "after": "종 대응: PubMed 도구 전문에서는 학명이 빠져 있어, 이 수치를 갈참나무(Q. aliena)에 대응시킨 근거는 PMC 본문 문장('In the free polyphenol extract of Q. aliena acorn kernels…')을 인용한 WebSearch 요약뿐이다(원문 직접 확인 못함, 근거 수준 낮음)[7]",
+   "why": "둘째 종=갈참나무 대응을 제목 순서 추정에서 WebSearch 인용 근거로 바꾸고 근거 수준을 낮게 표시"
+  },
+  {
+   "where": "compounds.Ellagic acid.content_text",
+   "before": "결합 폴리페놀 문단에서…",
+   "after": "본문 표기(유리)와 문맥(결합)이 엇갈림을 명시",
+   "why": "원문은 free polyphenol extract 로 적음"
+  },
+  {
+   "where": "assays.Ellagic acid",
+   "before": "source [7,8], '결합 폴리페놀의 주성분'",
+   "after": "source [7], 표기 엇갈림 명시",
+   "why": "[8] 정정 공고는 내용(초록 '[...]')을 확인할 수 없고 분석 근거가 아님"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "같은 실험에서 갈참나무와 이 변종은 따로 다루어졌다[11].",
+   "after": "다람쥐의 배 제거를 흉내 낸 다른 실험에서도 갈참나무와 이 변종은 따로 다루어졌다[11].",
+   "why": "'같은 실험'이 앞 문장의 [13] 발아 실험을 가리키는 것처럼 읽히나 실제 근거 [11]은 다른 실험"
+  },
+  {
+   "where": "sources",
+   "before": "[8] Correction (윤리 승인 번호 정정)",
+   "after": "삭제·번호 재정렬(9→8 … 21→20)",
+   "why": "정정 공고 내용은 초록 '[...]'뿐이라 확인 불가, 분석 근거로 불필요"
+  }
+ ],
+ "unverifiable_notes": [
+  "PMC11476354: PubMed 도구 전문·초록에서 학명이 모두 빠져 있어 어느 문단이 갈참나무인지 도구로 직접 확인 못함. WebSearch 요약이 'In the free polyphenol extract of Q. aliena acorn kernels, the content of gallic acid is higher than those of quercetin and azelaic acid'와 '...ellagic acid is higher than that of gallic acid' 문장을 인용해 둘째 문단(9.86배·51.63배, 7.42배·47.52배) 대응을 뒷받침함. 다만 원문 직접 확인이 아니라 수치는 남기되 근거 수준을 낮게 표시. 초록상 엘라그산 원료 적합 = 굴참나무·갈참나무(WebSearch 요약).",
+  "PMC11476354 수치는 모두 같은 추출물 안 성분 간 비율이라 생/건 기준 영향이 없음. 시료는 45 °C 48 h 건조 알맹이. 절대 함량 표는 도구 출력에 없어 확인 못함.",
+  "[8](구 [9]) Plant Physiol Biochem 2023, [9](구 [10]) New Phytol 2024 등은 초록만 확인 — 녹말·총페놀·탄닌 수치는 없음.",
+  "식품원료 지위는 data/raw/mfds_rawmtrl/I1020_20261013.json 의 갈참나무열매·갈참나무견과·청졸갈참나무열매·굴참나무열매(물갈참나무) 행과 일치 확인."
+ ]
+}

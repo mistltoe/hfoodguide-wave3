@@ -1,0 +1,541 @@
+{
+ "slug": "aster-glehni",
+ "name_ko": "섬쑥부쟁이",
+ "name_en": "Ulleungdo aster",
+ "scientific_name": "Aster glehni F.Schmidt",
+ "aliases": [
+  "섬쑥부쟁이순",
+  "부지깽이",
+  "섬쑥부장이",
+  "구메리나물",
+  "Ulleungdo aster",
+  "Aster glehnii",
+  "Aster korsakoviensis Lev. & Vaniot",
+  "Aster pseudoglehnii"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "섬쑥부쟁이(Aster glehni F.Schmidt)는 국화과(Asteraceae) 참취속(Aster) 식물로, 울릉도에서 '부지깽이'라는 이름의 나물로 먹어 온 소재다[1][4]. 한국에서는 울릉도에서 자라는 고유한 지역 특산 식물로 소개되며, 잎은 '취나물' 요리에 쓰인다[4]. 봄에 거둔 어린 줄기와 잎을 반찬으로 먹는다고 설명한 논문도 있다[8].\n\n식품의약품안전처 「식품원료 목록」에는 '섬쑥부쟁이순'이 식품원료(A코드)로 올라 있고, 사용 여부는 '사용가능', 사용 조건은 '사용가능부위 : 순'이다[1]. 같은 행에는 이명으로 부지깽이·섬쑥부장이·구메리나물, 영문명 Ulleungdo aster, 학명으로 Aster glehni F.Schmidt와 Aster korsakoviensis·Aster pseudoglehnii가 함께 적혀 있다[1]. 로컬 목록 원자료에서 섬쑥부쟁이를 원재료로 표시한 건강기능식품(C코드) 행은 찾지 못했다[1]. 따라서 일반 식품으로 쓸 수 있는 부위는 '순'이며, 연구에 쓰인 잎·줄기·꽃 추출물이 곧 식품원료 지위를 뜻하지는 않는다[1][2][17].\n\n주요 성분은 3,5-디카페오일퀸산을 비롯한 카페오일퀸산류와 아스트라갈린·캠페롤 같은 플라보노이드다[2][4][6]. 효능 연구는 대부분 세포·동물 실험이며, 가벼운 고요산혈증 성인 대상 12주 무작위 대조시험에서는 위약과 유의한 차이가 없었다[13]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "섬쑥부쟁이는 한국에서 수백 년 동안 요리와 약으로 써 왔다고 소개된다[16]. 여러 논문은 『동의보감』에 열을 내리고 통증을 덜며 가래와 기침을 줄인다는 기록이 있다고 인용하지만[2][6], 『동의보감』 원문은 확인하지 못함. 민간에서는 당뇨·고콜레스테롤혈증·불면·심혈관 질환에 썼다고 정리되어 있다[4][10]. 잎은 한국에서 불면 치료에 쓰였다는 설명도 있다[14].\n\n성분 연구는 2012년 잎의 물-에탄올 추출물에서 카페오일퀸산류와 캠페롤 배당체를 분석하고 진정·항경련 작용을 본 동물 연구로 이어졌다[11]. 2013년에는 지방세포 분화 억제와 고지방식 생쥐의 체중 증가 억제가 보고되었다[4]. 2016년에는 에틸아세테이트 분획에서 분리한 카페오일글루코사이드 유도체의 대식세포 항염증 연구가 나왔고[12], 2018년에는 고요산혈증 쥐에서 잎 추출물의 요산 저하가 보고되었으며[3][17], 2022년에는 고요산혈증 쥐의 신장 요산 수송체를 본 연구가 나왔다[18]. 2017–2020년에는 대장염·대장암 생쥐 모델 연구도 보고되었다[19][20][21]. 이후 2020년 사람 대상 무작위 대조시험[13], 2021년 아만성 독성·유전독성 시험[2]이 발표되었다. 2024–2025년에는 생쥐 골격근·근육세포 연구와 연골세포 연구가 나왔다[9][15]. 울릉도에서 나물로 먹어 온 역사를 다룬 공공기관 문헌은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "섬쑥부쟁이는 울릉도에 널리 자라는 식물로 소개된다[2]. 잎 표피를 주사전자현미경으로 본 연구에 따르면 큐티클은 매끈하고 얇으며, 기공은 표면에 불규칙하게 흩어진 무배열형(anomocytic)으로 약간 함몰되어 있다[22]. 표피세포는 다각형이고 세포벽은 곧거나 약간 굽었으며, 털(모용)은 없다[22]. 기공 밀도는 1 mm당 100–150개, 잎맥 밀도는 1 mm당 5–10개, 표피세포는 길이 10–20 μm·폭 5–10 μm로 보고되었다[22].\n\n연구에는 잎, 잎과 줄기(지상부), 꽃이 시료로 쓰였다[2][17]. 봄·가을의 잎·줄기·꽃 추출물을 비교한 연구에서는 가을 잎 추출물의 크산틴 산화효소 억제 활성이 가장 컸다[17]. 잎 추출물의 히스티딘은 100 g당 39.52 mg으로, 잎·줄기 추출물(16.69 mg)보다 많았다[2]. 잎·줄기 추출물(덱스트린 포함 분말)의 총단백질은 100 g당 1,759.84 mg이었고, 아미노산 가운데 프롤린(35.1%)·아스파르트산(21.6%)·글루탐산(11.2%)이 많았다[2]. 꽃 모양·개화기 등 공식 형태 기재는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동 주의",
+   "body": "국내 식품원료 목록에는 같은 Aster 속의 참취(A. scaber, 잎)·벌개미취(A. koraiensis, 잎)·까실쑥부쟁이(A. ageratoides, 잎)·쑥부쟁이(A. yomena, 잎)·해국(A. spathulifolius, 잎)과 개미취(A. tataricus, 순)·옹굿나물(A. fastigiatus, 순)·가는쑥부쟁이(순)·갯쑥부쟁이(순)·눈개쑥부쟁이(순)가 각각 따로 올라 있다[1]. 같은 목록의 개별인정형 원료 '쑥부쟁이추출분말'(제2019-13호·제2021-13호)은 영문명이 Aster yomena Extract Powder이고, '해국추출물'(제2022-36호)은 해국 잎이 원료여서 섬쑥부쟁이와는 다른 종이다[1]. 이름에 '쑥부쟁이'가 들어간 원료가 많으므로 학명으로 구분해야 한다[1].\n\n'부지깽이'는 식품원료 목록에서 섬쑥부쟁이의 이명으로 적혀 있다[1]. 목록은 Aster glehni F.Schmidt와 함께 Aster korsakoviensis, Aster pseudoglehnii를 같은 원료의 학명으로 올렸다[1]. 2013년 논문은 울릉도 개체가 최근 한국 연구진에 의해 새 이름으로 명명되었다고 소개했으나, PMC 전문 변환에서 학명이 빠져 정확한 이름은 확인하지 못함. 국제 식물 분류 데이터베이스에서의 현재 처리와 일본·사할린 개체와의 관계는 확인하지 못함. 울릉도와 동해안에 자라는 해국(A. spathulifolius)에서는 섬과 반도 집단이 유전적으로 뚜렷이 나뉜다는 연구가 있으나[26], 이는 다른 종의 결과로 섬쑥부쟁이에 그대로 적용되지 않는다."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 생산",
+   "body": "연구용 시료는 대부분 울릉도에서 채집하거나 산 것으로, 2007년 8월 채집한 잎[8], 2012년 11월 울릉도에서 산 데쳐 말린 잎·줄기[6], 자연 건조한 잎[3]과 잎·줄기[2] 등이었다. 종자 발아는 20–25 °C에서 가장 잘 되고 30 °C에서 급격히 떨어지며 35 °C에서는 발아하지 않았다는 연구가 있다(검색 요약으로만 확인)[24]. 1993–1995년에 차광망 처리와 재식 밀도가 생잎 수량에 미치는 영향을 본 재배 시험도 있었다(검색 요약으로만 확인)[25].\n\n섬쑥부쟁이(부지깽이)의 국내 재배 면적·생산량 공식 통계는 확인하지 못함. 통계청 농작물생산조사나 농림축산식품부 특용작물 생산실적의 로컬 표에서도 이 품목은 찾지 못했다[1]. 섬쑥부쟁이 지리적 표시 등록은 확인하지 못함. 울릉군 재배 현황은 언론 보도로만 접할 수 있어 근거로 쓰지 않았고, 원문 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품원료 목록에 오른 섬쑥부쟁이 원료는 '섬쑥부쟁이순'(사용가능부위: 순) 한 품목뿐이다[1]. 연구용으로는 울릉도에서 데쳐 말린 제품을 사서 쓴 예가 있다[6]. 기능성 소재 연구용 추출물은 말린 잎을 70% 에탄올로 80 °C에서 4시간, 다시 2시간 추출하고 여과·농축(20 Brix)한 뒤 같은 양의 덱스트린을 섞어 95 °C에서 1시간 살균하고 분무 건조해 만들었다[3]. 잎·줄기 추출물도 70% 에탄올로 두 번 추출하고 덱스트린을 섞어 분무 건조한 뒤 3,5-디카페오일퀸산으로 표준화했다[2].\n\n다른 연구는 잎·줄기 메탄올 추출물을 에틸아세테이트로 분획해 카페오일퀸산이 많은 분획을 얻었다[6]. 이 분획을 산성 수지와 메탄올로 메틸화하면 HMG-CoA 환원효소 억제 활성이 약 150% 높아졌다고 보고되었다[8]. 용매별 분획 비교(사용 부위는 원문에 적혀 있지 않음)에서는 에틸아세테이트 분획의 총페놀(422.5 mg GAE/g)과 총플라보노이드(114.7 mg QE/g)가 가장 높았다[10]. 섬쑥부쟁이 정유(에센셜 오일)는 세포 실험에서 섬유아세포 생존율을 높였다[23]. 섬쑥부쟁이를 원료로 한 건강기능식품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 분류 연구",
+   "body": "섬쑥부쟁이의 핵 유전체나 엽록체 유전체 해독 결과는 PubMed에서 확인하지 못함. 분류·동정에 쓸 수 있는 형질로는 잎 표피의 큐티클·기공·표피세포 모양과 잎맥 밀도가 보고되었고, 연구진은 이를 고유종 식별과 보전의 기준 자료로 제시했다[22]. 식품원료 목록이 세 학명(A. glehni, A. korsakoviensis, A. pseudoglehnii)을 함께 적고 있어, 울릉도 개체의 분류학적 지위는 학명 처리에 따라 달라질 수 있다[1][4].\n\n섬쑥부쟁이 집단유전 분석 연구나 등록 품종 정보는 확인하지 못함(같은 지역 해국의 집단유전 연구[26]는 다른 종의 결과다)."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "섬쑥부쟁이는 건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항은 없다[1]. 식약처·농촌진흥청 등 공공기관의 섬쑥부쟁이 알레르기·잔류농약 안내는 확인하지 못함.\n\n아래 독성 자료는 식품원료 부위인 순이 아니라 잎·줄기 70% 에탄올 추출물(덱스트린 혼합 분말)을 시험한 것이다[2]. 이 추출물을 쥐에 13주 동안 하루 1,250·2,500·5,000 mg/kg 먹인 GLP 시험에서 무독성량(NOAEL)은 5,000 mg/kg/일이었고 표적 장기는 없었다[2]. 설치류에만 있는 앞위(전위) 경계 부위의 편평상피 증식이 2,500 mg/kg 수컷 7마리, 5,000 mg/kg 수컷 전부·암컷 8마리에서 보여 용량에 따라 늘었지만, 세포 이형성이 없고 다른 소화기관에는 변화가 없어 연구진은 독성학적 의미가 작다고 판단했다[2]. 복귀돌연변이 시험에서는 TA98 균주(S9 존재)의 복귀 집락 수가 3,000·5,000 μg/plate에서 음성대조의 2.3·2.5배로 재현성 있게 늘어 처음에는 판정 유보(inconclusive)로 보았고, 히스티딘 함량이 다른 추출물로 추가 시험한 뒤 추출물에 든 히스티딘 때문인 위양성으로 판단했다[2]. 염색체이상 시험과 생쥐 골수 소핵 시험은 음성이었다[2].\n\n가벼운 고요산혈증 성인에게 섬쑥부쟁이 추출물(사용 부위는 초록에 없음) 480 mg/일을 12주 먹인 무작위 대조시험에서 부작용 보고나 안전성 지표 변화는 없었다[13]. 다만 이 시험에서 혈청 요산은 6주째 기준치보다 낮아졌을 뿐 12주째와 위약 대비 차이는 유의하지 않았다[13]. 고요산혈증을 유도한 쥐에 잎 추출물 50–200 mg/kg을 7일 먹였을 때 간 효소(GOT·GPT)와 간 조직에 변화가 없었다[3]. 국화과 식물 알레르기와의 교차 반응에 관한 공공기관 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "3,5-Dicaffeoylquinic acid",
+   "name_ko": "3,5-디카페오일퀸산(이소클로로젠산 A)",
+   "class": "페놀산(디카페오일퀸산)",
+   "role": "marker",
+   "part": "잎·줄기 또는 잎의 70% 에탄올 추출물(덱스트린 포함 분말)",
+   "content_text": "잎·줄기 추출물 2.37 mg/g(HPLC 330 nm, 표준화 지표)[2]; 잎 추출물 0.04%[3]; 에틸아세테이트 분획에서 가장 많은 성분(함량 미보고)[8]",
+   "activity_ko": "연골세포에서 IL-1β 6시간 자극 때만 염증·MMP 유전자 억제, 24시간 자극에서는 효과 없음(세포)[9]",
+   "source": [
+    2,
+    3,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "5-O-카페오일퀸산(클로로젠산)",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎·줄기 메탄올 추출물의 에틸아세테이트 분획",
+   "content_text": "주요 카페오일퀸산 6종 가운데 하나로 검출(함량 미보고)[6]; trans-5-O-카페오일퀸산을 주요 기능 성분으로 제시[15]",
+   "activity_ko": "C2C12 세포 근분화 지표 증가가 카페오일퀸산 의존적(세포)[15]",
+   "source": [
+    6,
+    15
+   ]
+  },
+  {
+   "name": "3,4-Dicaffeoylquinic acid",
+   "name_ko": "3,4-디카페오일퀸산",
+   "class": "페놀산(디카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎·줄기 에틸아세테이트 분획; 잎 70% 에탄올 추출물",
+   "content_text": "검출(함량 미보고)[4][6]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    4,
+    6
+   ]
+  },
+  {
+   "name": "4,5-Dicaffeoylquinic acid",
+   "name_ko": "4,5-디카페오일퀸산",
+   "class": "페놀산(디카페오일퀸산)",
+   "role": "bioactive",
+   "part": "잎·줄기 에틸아세테이트 분획",
+   "content_text": "3,5-디카페오일퀸산과 함께 주요 성분(함량 미보고)[6][8]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "3,5-Dicaffeoylquinic acid methyl ester",
+   "name_ko": "3,5-디카페오일퀸산 메틸에스터",
+   "class": "페놀산 유도체",
+   "role": "bioactive",
+   "part": "잎·줄기 에틸아세테이트 분획",
+   "content_text": "검출(함량 미보고)[6]; 분획을 메틸화하면 늘어남[8]",
+   "activity_ko": "HMG-CoA 환원효소 억제 IC50 9 μM(시험관)[8]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "4,5-Dicaffeoylquinic acid methyl ester",
+   "name_ko": "4,5-디카페오일퀸산 메틸에스터",
+   "class": "페놀산 유도체",
+   "role": "bioactive",
+   "part": "잎·줄기 에틸아세테이트 분획",
+   "content_text": "검출(함량 미보고)[6][8]",
+   "activity_ko": "HMG-CoA 환원효소 억제 IC50 63 μM(시험관)[8]",
+   "source": [
+    6,
+    8
+   ]
+  },
+  {
+   "name": "3-O-p-Coumaroylquinic acid",
+   "name_ko": "3-O-p-쿠마로일퀸산",
+   "class": "페놀산(하이드록시신남산 에스터)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 물-에탄올(3:7) 추출물에서 측정한 카페오일퀸산류 가운데 가장 많음, 건조중량 1 g당 46.10 ± 4.22 mg(초록 표기)[11]",
+   "activity_ko": "확인하지 못함(추출물 전체로 생쥐 진정·항경련 효과)[11]",
+   "source": [
+    11,
+    4
+   ]
+  },
+  {
+   "name": "Astragalin",
+   "name_ko": "아스트라갈린(캠페롤-3-O-글루코사이드)",
+   "class": "플라보노이드(플라보놀 배당체)",
+   "role": "bioactive",
+   "part": "잎 70% 에탄올 추출물",
+   "content_text": "추출물 13.2 mg/g(HPLC-UV 246 nm)[4]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "class": "플라보노이드(플라보놀)",
+   "role": "bioactive",
+   "part": "잎 70% 에탄올 추출물; 메틸화 분획",
+   "content_text": "추출물 0.23 mg/g(HPLC-UV 246 nm)[4]; 메틸화 분획에서 검출[8]",
+   "activity_ko": "약한 HMG-CoA 환원효소 억제(시험관)[8]",
+   "source": [
+    4,
+    8
+   ]
+  },
+  {
+   "name": "Isorhamnetin",
+   "name_ko": "이소람네틴",
+   "class": "플라보노이드(플라보놀)",
+   "role": "bioactive",
+   "part": "메틸화한 에틸아세테이트 분획(70% 메탄올 용출분)",
+   "content_text": "LC-MS/MS로 검출·정량(수치는 원문 표에 있어 확인하지 못함)[8]",
+   "activity_ko": "약한 HMG-CoA 환원효소 억제(시험관)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보노이드(플라보놀)",
+   "role": "bioactive",
+   "part": "메틸화한 에틸아세테이트 분획",
+   "content_text": "LC-MS/MS로 검출(수치 확인하지 못함)[8]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Rhamnetin",
+   "name_ko": "람네틴",
+   "class": "플라보노이드(플라보놀)",
+   "role": "bioactive",
+   "part": "메틸화한 에틸아세테이트 분획",
+   "content_text": "LC-MS/MS로 검출(수치 확인하지 못함)[8]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "6'-O-Caffeoyldihydrosyringin",
+   "name_ko": "6'-O-카페오일디하이드로시린진",
+   "class": "페닐프로파노이드 배당체(카페오일글루코사이드)",
+   "role": "bioactive",
+   "part": "에틸아세테이트 분획",
+   "content_text": "에틸아세테이트 분획에서 분리한 새 카페오일글루코사이드 유도체 5종 가운데 하나(함량 미보고)[12]",
+   "activity_ko": "RAW 264.7 대식세포에서 LPS 유도 NO·PGE2·염증성 사이토카인 억제(세포)[12]",
+   "source": [
+    12
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "3,5-Dicaffeoylquinic acid",
+   "compound_ko": "3,5-디카페오일퀸산",
+   "part": "잎 70% 에탄올 추출물(덱스트린 혼합 분무건조 분말)",
+   "content": "추출물 0.04%[3]; 잎·줄기 추출물 2.37 mg/g(HPLC 330 nm)[2]",
+   "method": "HPLC-UV(다파장 검출기, 330 nm)",
+   "conditions": {
+    "instrument": "Agilent 1100 series, G1365B 다파장 검출기(MWD)",
+    "column": "Kromasil 100-5-C 계열 역상 칼럼(250 × 4.6 mm, 5 µm; 원문 변환에서 아래첨자 숫자가 빠져 C18 여부는 확인하지 못함)",
+    "mobile_phase": "인산:증류수 0.5:99.5 (v/v)(원문에 적힌 그대로, 유기용매 조성은 확인하지 못함)",
+    "gradient": "",
+    "flow": "1.4 mL/min",
+    "temp": "",
+    "detection": "330 nm",
+    "injection": "",
+    "sample_prep": "말린 잎 2 kg을 70% 에탄올 25 L로 80 °C 4시간, 20 L로 2시간 추출 → 펄라이트 여과 → 20 Brix 농축 → 같은 양의 덱스트린 혼합 → 95 °C 1시간 살균 → 분무 건조 → 60메시 체",
+    "standard": "3,5-디카페오일퀸산 표준품(Sigma-Aldrich)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "제조사 연구진이 섬쑥부쟁이 추출물의 지표성분(marker compound)으로 3,5-디카페오일퀸산을 정해 HPLC로 분석했고, 같은 계열의 잎·줄기 추출물도 이 성분으로 표준화했다[2][3]. 검량선·검출한계·회수율은 원문에 없었다[3].",
+   "source": [
+    3,
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5921330/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Astragalin",
+   "compound_ko": "아스트라갈린·캠페롤(카페오일퀸산 4종은 정성 확인)",
+   "part": "잎 70% 에탄올 추출물",
+   "content": "아스트라갈린 13.2 mg/g, 캠페롤 0.23 mg/g(추출물 기준)[4]",
+   "method": "HPLC-UV(246 nm)",
+   "conditions": {
+    "instrument": "Gilson HPLC(234 자동시료주입기, UV/VIS-155 검출기, 321 펌프)",
+    "column": "Phenomenex Luna C18(4.6 × 250 mm, 5 µm)",
+    "mobile_phase": "A: 0.05% 인산, B: 메탄올",
+    "gradient": "0–10분 A 60:B 40, 10–20분 50:50, 20–30분 40:60, 30–35분 60:40(분석 시간 50분)",
+    "flow": "원문에 0.5 mL/min과 1.00 mL/min이 함께 적혀 있음",
+    "temp": "실온",
+    "detection": "UV 246 nm",
+    "injection": "10 µL",
+    "sample_prep": "말린 잎을 70% 에탄올로 60 °C 6시간 환류 추출 → 여과·감압 농축·동결 건조; 80% 메탄올에 1.000 mg/mL로 녹여 주사기 필터로 거름",
+    "standard": "아스트라갈린(머무름 시간 14.4분)·캠페롤(24.3분) 표준품과 카페오일퀸산 표준품 7종",
+    "linearity": "아스트라갈린 y = 27.10x + 50.50(r = 0.998), 캠페롤 y = 54.85x + 287.01(r = 0.999)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "연구진이 카페오일퀸산과 함께 추출물의 플라보노이드 지표로 아스트라갈린·캠페롤을 정량했다[4]. 이 논문의 정정 공지는 저자 이름 표기에 관한 것으로 분석 자료와는 관계없다[5]. 검출·정량한계와 회수율은 원문에 없었다[4].",
+   "source": [
+    4,
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3705792/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Dicaffeoylquinic acids",
+   "compound_ko": "디카페오일퀸산·디카페오일퀸산 메틸에스터·플라보놀(람네틴·이소람네틴·캠페롤·퀘르세틴)",
+   "part": "지상부 메탄올 추출물의 에틸아세테이트 분획을 메틸화한 분획",
+   "content": "정량값은 원문 표에 있어 확인하지 못함; 에틸아세테이트 분획에서 3,5-디카페오일퀸산이 가장 많음[8]",
+   "method": "UPLC-MS/MS(ESI 양이온, MRM)",
+   "conditions": {
+    "instrument": "ExionLC AD + Triple Quad 4500(ESI)",
+    "column": "Waters ACQUITY UPLC BEH C18(2.1 × 100 mm, 1.7 µm)",
+    "mobile_phase": "A: 0.1% 포름산 함유 5% 아세토니트릴, B: 0.1% 포름산 함유 95% 아세토니트릴",
+    "gradient": "0–0.5분 B 0→2%, 0.5–1분 2%, 1–1.5분 2→15%, 1.5–6.5분 15→17%, 6.5–10분 17→80%, 10–12분 80%, 12–12.5분 80→0%, 12.5–16분 0%",
+    "flow": "0.4 mL/min",
+    "temp": "칼럼 40 °C, 자동시료주입기 6 °C",
+    "detection": "ESI 양이온, 기화 온도 500 °C, 이온 분무 전압 5500 V, MRM(전이 쌍은 원문 표)",
+    "injection": "5 µL",
+    "sample_prep": "분획을 내부표준(퀘르세틴 동위원소 표지체 0.5 µg/mL) 함유 메탄올로 1 µg/mL까지 희석",
+    "standard": "디카페오일퀸산·디카페오일퀸산 메틸에스터·람네틴·이소람네틴·캠페롤·퀘르세틴 표준품으로 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "HMG-CoA 환원효소·지방산합성효소 억제 활성이 가장 큰 분획의 성분을 확인하려고 디카페오일퀸산 계열과 플라보놀을 정량했다[8]. 검출·정량한계와 회수율은 본문에서 확인하지 못함.",
+   "source": [
+    8
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8620592/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Caffeoylquinic acids",
+   "compound_ko": "카페오일퀸산 6종(5-카페오일퀸산, 3,4-·3,5-·4,5-디카페오일퀸산, 3,4-·4,5-디카페오일퀸산 메틸에스터)",
+   "part": "데쳐 말린 잎·줄기 메탄올 추출물의 에틸아세테이트 분획",
+   "content": "6종이 주성분으로 확인(함량 미보고)[6]",
+   "method": "HPLC-PDA(정성 프로파일)",
+   "conditions": {
+    "instrument": "Waters 1500 Series + 2998 PDA 검출기",
+    "column": "Phenomenex Luna C18(5 µm, 250 × 4.6 mm)",
+    "mobile_phase": "메탄올과 1% 아세트산",
+    "gradient": "메탄올 30%(0분), 40%(0–10분), 60%(10–20분), 80%(20–30분), 100%(30–40분)",
+    "flow": "1.0 mL/min",
+    "temp": "25 °C",
+    "detection": "",
+    "injection": "10 µL",
+    "sample_prep": "잎·줄기 12 kg을 메탄올 70 L로 실온 3회 추출(잔사 2.6 kg) → 물에 현탁해 에틸아세테이트로 분배 → 41.0 g",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "동물 실험에 쓴 추출물이 카페오일퀸산 위주임을 보이기 위한 성분 프로파일이다[6]. 정량값·검출 파장·검량선은 본문에서 확인하지 못함. 이 논문의 정정 공지는 연구비 번호에 관한 것으로 자료와는 관계없다[7].",
+   "source": [
+    6,
+    7
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672637/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 섬쑥부쟁이순(Aster glehni F.Schmidt / Aster korsakoviensis Lev. & Vaniot / Aster pseudoglehnii, 식품원료 A코드, 사용가능, '사용가능부위 : 순') 행과 같은 속 원료 행(로컬 원자료 I1020_20261013)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Evaluation of Subchronic Toxicity and Genotoxicity of Ethanolic Extract of Aster glehni Leaves and Stems. Evid Based Complement Alternat Med 2021;2021:1018101 (PMID 35003288, doi:10.1155/2021/1018101)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8736694/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Hypouricemic Effect of Ethanol Extract of Aster glehni Leaves in Potassium Oxonate-Induced Hyperuricemic Rats. Clin Nutr Res 2018;7(2):126-135 (PMID 29713621, doi:10.7762/cnr.2018.7.2.126)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5921330/",
+   "publisher": "Clinical Nutrition Research (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Antiadipogenic Effects of Aster glehni Extract: In Vivo and In Vitro Effects. Evid Based Complement Alternat Med 2013;2013:859624 (PMID 23864899, doi:10.1155/2013/859624)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3705792/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Corrigendum to 'Antiadipogenic Effects of Aster glehni Extract: In Vivo and In Vitro Effects'. Evid Based Complement Alternat Med 2019;2019:2459192 (PMID 30733808, doi:10.1155/2019/2459192) — 정정 내용은 첫 저자 이름 표기와 기여 표기이며 자료·결과와는 관계없음(PMC6348843 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6348843/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Caffeoylquinic Acid-Rich Extract of Aster glehni F. Schmidt Ameliorates Nonalcoholic Fatty Liver through the Regulation of PPARδ and Adiponectin in ApoE KO Mice. PPAR Res 2017;2017:3912567 (PMID 29201040, doi:10.1155/2017/3912567)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672637/",
+   "publisher": "PPAR Research (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Corrigendum to 'Caffeoylquinic Acid-Rich Extract of Aster glehni F. Schmidt Ameliorates Nonalcoholic Fatty Liver…'. PPAR Res 2019;2019:5317126 (PMID 31781179, doi:10.1155/2019/5317126) — 정정 내용은 연구비 번호·감사의 글이며 자료·결과와는 관계없음(PMC6855046 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855046/",
+   "publisher": "PPAR Research (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Aster glehni F. Schmidt Extract Modulates the Activities of HMG-CoA Reductase and Fatty Acid Synthase. Plants (Basel) 2021;10(11):2287 (PMID 34834649, doi:10.3390/plants10112287)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8620592/",
+   "publisher": "Plants (MDPI) (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Edible Herb Aster glehni Alleviates Inflammation and Oxidative Stress in Chondrocytes by Regulating p38 and NF-κB Signaling Pathways with Partial Involvement of Its Major Component, 3,5-Dicaffeoylquinic Acid. Int J Mol Sci 2025;26(19):9691 (PMID 41096956, doi:10.3390/ijms26199691)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12525141/",
+   "publisher": "International Journal of Molecular Sciences (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Antioxidant Activities of Aster glehni Extracted with Different Solvents. Iran J Public Health 2019;48(1):176-178 (PMID 30847328)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6401574/",
+   "publisher": "Iranian Journal of Public Health (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Phytochemical studies of the phenolic substances in Aster glehni extract and its sedative and anticonvulsant activity. Arch Pharm Res 2012;35(3):423-430 (PMID 22477188, doi:10.1007/s12272-012-0304-7)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22477188/",
+   "publisher": "Archives of Pharmacal Research (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "6'-O-Caffeoyldihydrosyringin isolated from Aster glehni suppresses lipopolysaccharide-induced iNOS, COX-2, TNF-α, IL-1β and IL-6 expression via NF-κB and AP-1 inactivation in RAW 264.7 macrophages. Bioorg Med Chem Lett 2016;26(19):4592-4598 (PMID 27590705, doi:10.1016/j.bmcl.2016.08.074)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27590705/",
+   "publisher": "Bioorganic & Medicinal Chemistry Letters (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Effects of Aster glehni Extract on Serum Uric Acid in Subjects with Mild Hyperuricemia: A Randomized, Placebo-Controlled Trial. J Med Food 2020;23(5):508-514 (PMID 32150484, doi:10.1089/jmf.2019.4513)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32150484/",
+   "publisher": "Journal of Medicinal Food (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Aster glehni Extract Ameliorates Scopolamine-Induced Cognitive Impairment in Mice. J Med Food 2019;22(7):685-695 (PMID 31225769, doi:10.1089/jmf.2018.4302)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31225769/",
+   "publisher": "Journal of Medicinal Food (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Aster glehni Extract, Including Caffeoylquinic Acids as the Main Constituents, Induces PPAR β/δ-Dependent Muscle-Type Change and Myogenesis in Apolipoprotein E Knockout Mice. J Med Food 2024;27(6):521-532 (PMID 38651680, doi:10.1089/jmf.2024.k.0027)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38651680/",
+   "publisher": "Journal of Medicinal Food (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Aster glehni Extract Containing Caffeoylquinic Compounds Protects Human Keratinocytes through the TRPV4-PPARδ-AMPK Pathway. Evid Based Complement Alternat Med 2018;2018:9616574 (PMID 30622619, doi:10.1155/2018/9616574)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30622619/",
+   "publisher": "Evidence-Based Complementary and Alternative Medicine (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Synergic effect in the reduction of serum uric acid level between ethanol extract of Aster glehni and vitamin B6. Food Sci Biotechnol 2018;27(5):1439-1444 (PMID 30319854, doi:10.1007/s10068-018-0394-1)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30319854/",
+   "publisher": "Food Science and Biotechnology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Extract of Aster glehni ameliorates potassium oxonate-induced hyperuricemia by modulating renal urate transporters and renal inflammation by suppressing TLR4/MyD88 signaling. Food Sci Biotechnol 2022;31(13):1729-1739 (PMID 36312990, doi:10.1007/s10068-022-01153-5)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36312990/",
+   "publisher": "Food Science and Biotechnology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Anti-inflammatory effects of an ethanol extract of Aster glehni via inhibition of NF-κB activation in mice with DSS-induced colitis. Food Funct 2017;8(7):2611-2620 (PMID 28695925, doi:10.1039/c7fo00369b)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28695925/",
+   "publisher": "Food & Function (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Chemopreventive Effect of Aster glehni on Inflammation-Induced Colorectal Carcinogenesis in Mice. Nutrients 2018;10(2):202 (PMID 29439531, doi:10.3390/nu10020202)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29439531/",
+   "publisher": "Nutrients (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "High-Fat Diet Propelled AOM/DSS-Induced Colitis-Associated Colon Cancer Alleviated by Administration of Aster glehni via STAT3 Signaling Pathway. Biology (Basel) 2020;9(2):24 (PMID 32024285, doi:10.3390/biology9020024)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32024285/",
+   "publisher": "Biology (MDPI) (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Endemic species analysis: Foliar epidermal anatomical characters of Aster glehnii F. Schmidt (Asteraceae). Microsc Res Tech 2024;87(7):1640-1646 (PMID 38450874, doi:10.1002/jemt.24547)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38450874/",
+   "publisher": "Microscopy Research and Technique (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Essential oils extracted from nine different plants exhibit differential effects on skin antioxidation and elasticity. FEBS Open Bio 2024;14(4):613-625 (PMID 38409906, doi:10.1002/2211-5463.13778)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38409906/",
+   "publisher": "FEBS Open Bio (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Effect of Temperature, Light Condition, and Priming Treatment On the Germination of Aster glehni Seed (한국 학술지, 2003) — ※ 원문 페이지(koreascience)는 이 작업 환경에서 열 수 없어 WebSearch 검색 요약으로만 확인함",
+   "url": "https://koreascience.kr/article/JAKO200315875836562.page",
+   "publisher": "KoreaScience(WebSearch 요약으로만 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Effects of Shading Net Treatment and Planting Density on Growth and Fresh Leaf Yield of Aster glehni (한국 학술지, 1996; 1993–1995년 시험) — ※ 원문은 열지 못했고 WebSearch 검색 요약으로만 확인함",
+   "url": "https://koreascience.or.kr/article/JAKO199611920278450.do",
+   "publisher": "KoreaScience(WebSearch 요약으로만 확인)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Patterns of genomic variation and population structure suggest the strong influence of allopatry between peninsular and island distributions of seashore spatulate aster on the Korean east coast region. J Plant Res 2026;139(4):545-558 (PMID 42120812, doi:10.1007/s10265-026-01714-3)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42120812/",
+   "publisher": "Journal of Plant Research (PubMed 초록)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "slug": "siganus-fuscescens",
+ "name_ko": "독가시치",
+ "name_en": "Mottled spinefoot",
+ "scientific_name": "Siganus fuscescens (Houttuyn, 1782)",
+ "aliases": [
+  "독가시치",
+  "따치",
+  "Mottled spinefoot",
+  "Dusky spinefoot",
+  "Black rabbitfish"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "독가시치(Siganus fuscescens)는 독가시치과(Siganidae) Siganus속의 바닷물고기로, 식약처 「식품원료 목록」에 '독가시치'(이명 '따치', 영문 Mottled spinefoot·Dusky spinefoot)라는 원료명의 수산물로 올라 있다[1]. 이 목록에서 상태는 '사용가능'이고, 사용 부위 칸은 원자료대로 '-'로 적혀 있으며 별도의 사용 조건은 없다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].\n\n해조류와 해초를 먹는 초식성 어종이며[16], 등지느러미 가시에 독이 있다[5]. 독가시치과(rabbitfish) 어류는 사람 찔림 사고가 잦은 독어로 알려져 있는데, 이는 가시에 찔리는 사고의 이야기이고 살을 먹는 문제와는 다르다[5]. 일본 연구에서는 근육과 내장 지질에 아라키돈산(ARA)이 일반 해산어보다 많고 DHA도 비교적 많아 영양 지질 공급원으로 쓸 가능성이 제안되었다[2]. 중국 남부·호주·인도네시아에서 양식되거나 먹는 어종으로 소개되며[4], 필리핀에서도 상업적으로 중요한 식용 어종으로 다루어졌다[26]. 국내 공공기관의 독가시치 식품성분표 값은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용·연구 역사",
+   "body": "독가시치의 독 기관은 1955년 일본 어류 독 기관 형태 연구 연재에서 이미 따로 다루어졌다[32]. 일본 연안에서 가장 흔한 독가시치과 어종으로 소개되며, 독가시치과 어류는 사람 찔림 사고를 자주 일으키는 독어로 알려져 있다[5].\n\n최근에는 온난화로 서식 범위가 넓어지는 어종으로 주목받는다[12]. 서호주에서는 2011년 해양 열파 때 레이우인 해류가 강해지며 온대 해역으로 퍼졌고, 일본에서는 쿠로시오 해류의 점진적 온난화와 함께 북쪽으로 분포가 넓어졌다[12]. 서호주 온대 암초에서 겨울을 나며 켈프(대형 갈조류)와 다른 해조류를 먹어, 해조 숲의 해조가 찌꺼기(쇄설물)로 바뀌는 속도를 약 5배 높였다는 보고가 있다[15]. 열대 계통 개체가 온대로 옮겨 가도 유전적 차이가 거의 없었고 해조류를 포함한 다양한 먹이를 먹어 2100년까지 분포가 더 넓어질 수 있다고 예측되었다[13].\n\n제주 연안 독가시치의 나이·성장과 생식생태를 다룬 국내 학술지 논문이 있다는 것은 검색 결과 요약으로만 확인했고, 원문을 열지 못해 채집 시기·수치는 싣지 않았다(확인하지 못함)[29, 30]."
+  },
+  {
+   "key": "biology",
+   "title": "어종·생태",
+   "body": "독가시치는 초식성 어종으로, 호주 모턴만의 어린 개체 위장에서는 해초 4종과 조류 1종이 육안으로 확인되었다[16]. 서호주 다지선택 실험에서는 어린 켈프(Ecklonia radiata)보다 잔디처럼 깔린 소형 해조(turf)를 더 즐겨 먹었다[14]. 서호주 2,000 km에 걸친 조사에서 후장 미생물 군집은 개체군마다 달랐지만 20개 OTU가 모든 시료에 공통으로 나타나 '핵심 미생물군'을 이루었다[28].\n\n아래 생활사 수치는 S. canaliculatus를 동의어로 보고 두 학명 자료를 합산한 메타분석 값이다[12]. 이 분석에서 성숙 최소 체장(가랑이 체장 기준)은 열대 120 ± 14 mm, 아열대 150 ± 10 mm, 온대 199 ± 31 mm로 추운 곳일수록 컸다[12]. 같은 분석에서 최대 수명은 열대 3살, 아열대 8살, 온대 13살로 늘었고, 산란기는 열대에서 최대 7개월, 온대에서 2개월이었다[12]. 23 ℃와 29 ℃에 순치한 개체의 반수 치사 상한 수온(UILT)은 각각 33.4 ℃, 33.6 ℃였다[18]. 해조류나 이매패를 먹였을 때 먹이 속 방사성 세슘(137Cs) 동화율은 51–55%로 육식성 어종 두 종(70–79%)보다 낮았다[31]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 「식품원료 목록」에는 같은 속의 벌레무늬독가시치(Siganus vermiculatus)가 별도 행으로 있고, 그 상태는 '사용불가'여서 독가시치와 지위가 다르다[1]. 이 문서는 벌레무늬독가시치 자료를 쓰지 않았고, S. canaliculatus와 합산된 자료([12] 생활사 수치)와 다른 독가시치과 어류 자료(안전성 절의 지중해 사례)는 그렇다고 밝혀 두었다.\n\n독가시치(mottled spinefoot)와 S. canaliculatus(영문 white-spotted spinefoot)는 색과 형태가 조금 다를 뿐이어서, AFLP 분석에서 형태가 아니라 지역에 따라 묶여 서로 교배하는 색깔 형태로 보아야 한다는 주장이 있다[8]. 미토콘드리아·핵 DNA 분석에서도 두 종의 개체가 유전적 모자이크를 이루어 한 생물학적 종 안의 색깔 형태로 제안되었다[9]. 반대로 남중국해 북부에서는 독가시치 안에 유전·형태가 다른 은둔종 두 무리가 있다는 결과가 나와, 미토콘드리아 표지만으로 종을 가리지 말라고 권고되었다[10].\n\n영어로는 rabbitfish·mottled spinefoot·dusky spinefoot 등으로 부르는데, 'rabbitfish'는 독가시치과 전체를 가리키는 말이기도 해서 학명이 없는 자료는 이 종의 자료로 쓰지 않았다[12]. '독가시치'라는 국문명의 유래를 적은 공식 자료는 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·양식",
+   "body": "독가시치과 어류는 초식성이고 비교적 빨리 자라며 소비자 선호가 좋아 양식 대상으로 관심을 받지만, 초기 자어 단계의 종묘 생산이 여전히 어렵다고 소개된다[17]. 일본의 한 대학 양식연구소 시험장에서는 어미 14마리에서 얻은 수정란 8,000개를 1톤 원형 수조 5개에 나누어 부화 후 2–30일 동안 로티퍼를 1 mL당 10–30마리 먹이며 길렀다[17]. 이 연구는 몸길이 약 5 mm, 7–9 mm, 17–19 mm에서 성장 양상이 바뀌는 세 단계를 찾아 먹이 공급과 조명 관리를 단계에 맞추라고 제안했다[17].\n\n새로운 양식 대상종으로서 사료에 해조류 11종을 3%씩 넣은 실험에서는 홍조류 Asparagopsis taxiformis와 갈조류 Dictyota intermedia가 선천 면역 지표를 가장 크게 높였다[19]. 중국 선전 다펑의 해상 양식장 실험에서는 황금(Scutellaria baicalensis) 지상부 물 추출물을 사료에 1% 넣자 4주 뒤 몸길이(약 30%)와 체중(약 20%)이 대조군보다 늘었고, 5%에서는 오히려 줄었다[4].\n\n서호주에서는 독가시치가 주로 겨냥되지 않고 부수어획으로 잡히며, FAO 통계는 독가시치과 단위로만 어획량을 집계해 종별 어획량을 알기 어렵다[12]. 국내 독가시치의 연도별 어획·양식 생산 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "성분·가공",
+   "body": "독가시치 근육 지질의 주요 지방산은 16:0, 18:0, 16:1n-7, 18:1n-9, 아라키돈산(ARA), DHA였고, 조지방 함량은 겨울에 높고 여름에 낮았다[2]. 근육 총지질 중 ARA는 5월 말–8월에 4.6–13.1%, 그 밖의 계절에 4.3–9.5%로 한 해 내내 비교적 높았다[2]. 근육·간·내장 모두 중성지질보다 극성지질(인지질)에 ARA가 더 많았다[2].\n\n2017년 일본 연구는 독가시치를 포함한 초식성 어류 세 종의 주요 지질이 트라이아실글리세롤·포스파티딜에탄올아민·포스파티딜콜린이라고 보고했다[3]. 이 연구는 위 내용물에서도 ARA가 주된 고도불포화지방산이어서 높은 ARA가 먹이에서 온다고 보았다[3].\n\n양식 독가시치 등살의 아미노산 12종을 LC-MS/MS로 잰 연구에서 대조군은 류신이 20.02 ± 0.05 mg/100 g으로 가장 많았고 알라닌이 13.92 ± 0.11 mg/100 g으로 뒤를 이었다(근육 무게 기준이나 생·건 기준은 본문에 명시 없음)[4]. 이 논문은 제목·초록 표기에서 학명이 빠져 보이지만 PubMed 색인은 Siganus fuscescens로 검색되고, 같은 연구진이 같은 추출물로 이 종(18S rRNA로 종 확인)의 세포주를 다룬 선행 연구를 이어 간 것이어서 독가시치 자료로 보았다[4]. 가공·저장 방법(건조·염장·냉장 등)을 이 종에서 따로 다룬 연구는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2024년 처음 발표된 독가시치 초안 유전체는 독가시치과 첫 전장 유전체로, 반수체 크기 498 Mb에 추정 크기의 99.6%를 담았다[6]. 이 유전체는 콘티그 164개(N50 7.2 Mb), GC 함량 42.9%, BUSCO 완성도 99.5%였고, 반복 서열은 17.43%, 주석된 유전자는 28,351개였다[6]. 연구진은 장쇄 고도불포화지방산 합성과 독 분비에 관련된 유전체 특성도 살폈다[6].\n\n미토콘드리아 전장 유전체는 16,491 bp로 단백질 유전자 13개, rRNA 2개, tRNA 22개를 가졌다[7]. 필리핀 군도의 미토콘드리아 조절 영역 분석에서는 플라이스토세에 갈라진 세 계통이 나왔고, 그 가운데 하나는 S. canaliculatus로 판정되었다[11]. 남중국해 북부 373개체 분석에서는 핵 유전자형 무리 두 개 사이의 유전자 흐름이 거의 없었고(FST = 0.241), 20.5%의 개체에서 미토콘드리아 유입 흔적이 보였다[10]. 자연산 30개체에서 개발한 미세부수체 10개는 좌위당 대립유전자 3–5개, 관찰 이형접합도 0.3333–0.8462였다[27]. 머리콩팥에서 만든 대식세포 유사 세포주(RFM)는 50대 넘게 계대되었고 20% 혈청, 28 ℃에서 가장 잘 자랐다[33]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 독가시치는 별도 조건 없이 '사용가능' 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1]. 독가시치를 따로 다룬 국내 공공기관의 알레르기·잔류물질·식중독 정보는 이번 조사에서 확인하지 못함.\n\n독은 등지느러미 가시에 있고, 가시 추출물은 쑤기미류 독소와 닮은 단백질 독소(α 703, β 699 아미노산)를 가지며 생쥐 치사·용혈·부종·통증 활성을 보였다[5]. 이는 손질 중 가시에 찔리는 자상의 문제이고, 살을 먹어서 생기는 독성을 보인 자료는 아니다[5]. 지중해 동부에서 독가시치과 어류(종 미상, 이 종이 아님)를 먹은 뒤 시가테라 의심 중독을 겪은 사례 보고가 있으나[34], 이 종의 살에서 시가테라 독소를 검출한 보고는 PubMed에서 확인하지 못함.\n\n중국 산터우 시장 조사(2013년, 52종 382마리)에서 독가시치의 아니사키스 유충 감염 강도는 마리당 2마리 미만으로 낮은 편이었고, 52종 전체에서 유충은 근육에서 나오지 않았다[24]. 남중국해 독가시치와 S. canaliculatus의 장과 위에서 회충류 Hysterothylacium longilabrum이 새로 기재되었다[25]. 중국 김 양식 거점의 독가시치 과불화화합물(PFAS)은 7.17–25.43 ng/g(건중량)이었고, 김과 독가시치를 통한 주민 섭취 노출량은 제시된 허용 일일 섭취량보다 훨씬 낮았다[22]. 무기비소를 400·1,500 μg/g(사료 건중량, 명목 농도) 넣은 사료를 21·42일 먹인 실험에서 근육 비소의 79.0–95.2%, 간 비소의 63.3–91.3%가 독성이 낮은 아르세노베타인 형태였다[20]. 중국 주강 삼각주 양식장 어류 9종 가운데 하이링섬 독가시치 간의 노르플록사신이 254.58 ng/g(습중량)으로 가장 높았으나(근육은 간보다 낮음), 연구진은 중국 정부 최대잔류허용기준과 FAO/WHO 1일 섭취허용량에 비추어 플루오로퀴놀론 잔류가 광둥 연안 주민 건강에 위험이 되지 않는다고 보았다[23]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산(ARA, 20:4n-6)",
+   "class": "n-6 지방산",
+   "role": "nutrient",
+   "part": "근육·간·내장",
+   "content_text": "근육 총지질 중 4.6–13.1%(5월 말–8월), 4.3–9.5%(그 밖의 계절); 간 4.5–9.1% / 3.6–8.4%; 기타 내장 2.0–10.7%",
+   "activity_ko": "일반 해산어보다 많고 먹이(해조류)에서 유래하는 것으로 보았다[2, 3]",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "DHA(22:6n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "근육",
+   "content_text": "근육 총지질의 주요 지방산(개별 수치는 초록에 없음); 1% 황금 지상부 추출물 사료군에서 대조군보다 2배 넘게 증가",
+   "activity_ko": "ARA와 함께 비교적 많아 영양 지질 공급원으로 제안되었다[2, 4]",
+   "source": [
+    2,
+    4
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "EPA(20:5n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "근육·내장",
+   "content_text": "주요 지방산의 하나(초식성 3종 연구, 독가시치 개별 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "인지질에 고도불포화지방산이 더 많았다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Docosapentaenoic acid",
+   "name_ko": "DPA(22:5n-3)",
+   "class": "n-3 지방산",
+   "role": "nutrient",
+   "part": "근육·내장",
+   "content_text": "주요 지방산의 하나(초식성 3종 연구, 독가시치 개별 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "고도불포화지방산 가운데 하나로 보고되었다[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산(16:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "근육·간·내장",
+   "content_text": "총지질의 주요 지방산(수치는 초록에 없음)",
+   "activity_ko": "독가시치 지질의 주된 포화지방산으로 보고되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Stearic acid",
+   "name_ko": "스테아르산(18:0)",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "근육·간·내장",
+   "content_text": "총지질의 주요 지방산(수치는 초록에 없음)",
+   "activity_ko": "주요 지방산의 하나로 보고되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Palmitoleic acid",
+   "name_ko": "팔미톨레산(16:1n-7)",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "근육·간·내장",
+   "content_text": "총지질의 주요 지방산(수치는 초록에 없음)",
+   "activity_ko": "주요 단일불포화지방산의 하나로 보고되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산(18:1n-9)",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "근육·간·내장",
+   "content_text": "총지질의 주요 지방산(수치는 초록에 없음)",
+   "activity_ko": "주요 단일불포화지방산의 하나로 보고되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Leucine",
+   "name_ko": "류신",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "등살(양식, 대조 사료군)",
+   "content_text": "20.02 ± 0.05 mg/100 g(근육 무게 기준, 생·건 표기 없음)",
+   "activity_ko": "측정한 12종 아미노산 중 가장 많았고, 황금 지상부 추출물 사료군에서는 약 40% 줄었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Alanine",
+   "name_ko": "알라닌",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "등살(양식, 대조 사료군)",
+   "content_text": "13.92 ± 0.11 mg/100 g(근육 무게 기준, 생·건 표기 없음)",
+   "activity_ko": "류신 다음으로 많은 아미노산이었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Glutamic acid",
+   "name_ko": "글루탐산",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "등살(양식, 대조 사료군)",
+   "content_text": "약 2.4 mg/100 g(근육 무게 기준, 생·건 표기 없음)",
+   "activity_ko": "감칠맛 관련 아미노산으로, 사료군 사이에 거의 변하지 않았다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Threonine",
+   "name_ko": "트레오닌",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "등살(양식)",
+   "content_text": "1% 황금 지상부 추출물 사료군에서 50% 넘게 증가(절대 수치는 본문에서 확인하지 못함)",
+   "activity_ko": "단맛 관련 아미노산으로 설명되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Arsenobetaine",
+   "name_ko": "아르세노베타인",
+   "class": "유기비소 화합물",
+   "role": "bioactive",
+   "part": "근육·간(무기비소 고농도 사료 노출 실험)",
+   "content_text": "근육 비소의 79.0–95.2%, 간 63.3–91.3%",
+   "activity_ko": "독성이 높은 무기비소를 독성이 낮은 형태로 바꾼 결과물이다[20, 21]",
+   "source": [
+    20,
+    21
+   ]
+  },
+  {
+   "name": "Stonefish toxin-like toxin",
+   "name_ko": "쑤기미류 독소 유사 단백질 독소",
+   "class": "단백질 독소",
+   "role": "bioactive",
+   "part": "등지느러미 가시",
+   "content_text": "α 소단위 703 아미노산, β 소단위 699 아미노산(cDNA 클로닝으로 1차 구조 규명)",
+   "activity_ko": "가시 추출물이 생쥐 치사·용혈·부종·통증 활성을 보였다(가시 자상 관련, 섭취 독성 아님)[5]",
+   "source": [
+    5
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Amino acids (leucine etc.)",
+   "compound_ko": "아미노산(류신 등 12종)",
+   "part": "등살(양식)",
+   "content": "대조군 류신 20.02 ± 0.05 mg/100 g, 알라닌 13.92 ± 0.11 mg/100 g, 글루탐산 약 2.4 mg/100 g[4]",
+   "method": "UPLC-MS/MS(MRM)",
+   "conditions": {
+    "instrument": "LC-MS(질량분석기 PerkinElmer Qsight 220, MRM 양이온 모드)",
+    "column": "Waters ACQUITY UPLC HSS T3, 2.1 × 150 mm, 1.8 μm",
+    "mobile_phase": "A: 10 mM 폼산암모늄·0.1% 폼산 수용액, B: 아세토나이트릴",
+    "gradient": "0–2분 95% A; 2–4분 95→72% A; 4–20분 72% A; 20–22분 72→60% A; 22–35분 60% A; 35–45분 60→5% A; 45–50분 5% A; 50–50.1분 5→95% A; 50.1–55분 95% A",
+    "flow": "",
+    "temp": "",
+    "detection": "MRM, 양이온(+) 전자분무 5500 V, 분무 가스 180",
+    "injection": "",
+    "sample_prep": "등살 100 mg + 다이클로로메테인:메탄올(2:1, v/v) 1 mL 균질 → 물 0.4 mL 넣고 30초 교반·10분 정치 → 850×g 4 °C 10분 원심 → 위층(약 0.4 mL)은 아미노산, 아래층(약 0.4 mL)은 지방산 분석용으로 농축",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "근육 아미노산은 맛(단맛·쓴맛·감칠맛)과 영양을 함께 보여 주는 지표로 쓰였다[4]. 전문(Methods) 확인 — 유속·칼럼 온도·표준품·검출·정량한계·회수율은 본문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8441375/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Docosahexaenoic acid",
+   "compound_ko": "DHA 등 지방산·인지질·중성지질",
+   "part": "등살(양식)",
+   "content": "1% 황금 지상부 추출물 사료군에서 DHA 2배 넘게 증가, 트라이글리세라이드 4종 3배 넘게 감소(상대량)[4]",
+   "method": "UPLC-MS(ESI, 양·음이온)",
+   "conditions": {
+    "instrument": "LC-MS(전자분무 이온화, 양·음이온 모드)",
+    "column": "Waters Acquity BEH C18, 2.1 × 100 mm, 1.7 μm",
+    "mobile_phase": "A: 물:아세토나이트릴(40:60, v/v)+5 mM 폼산암모늄·0.1% 폼산, B: 아이소프로판올:아세토나이트릴(90:10, v/v)+5 mM 폼산암모늄·0.1% 폼산",
+    "gradient": "0–13분 70→20% A; 13–20분 20→10% A; 20–21분 10→0% A; 21–26분 0% A; 26–27분 0→70% A; 27–30분 70% A",
+    "flow": "0.2 mL/min",
+    "temp": "55 °C",
+    "detection": "전자분무 양·음이온, 주사 범위 m/z 150–1,050",
+    "injection": "",
+    "sample_prep": "등살 100 mg + 다이클로로메테인:메탄올(2:1, v/v) 1 mL 균질 → 물 0.4 mL 넣고 30초 교반·10분 정치 → 850×g 4 °C 10분 원심 → 위층(약 0.4 mL)은 아미노산, 아래층(약 0.4 mL)은 지방산 분석용으로 농축",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "지방산 조성은 이 종의 영양 가치(n-3 지방산)를 보여 주는 지표로 쓰였다[4]. 전문 확인 — 절대 함량이 아닌 상대량 비교이며 표준품·검출·정량한계·회수율은 본문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8441375/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Arachidonic acid",
+   "compound_ko": "아라키돈산(ARA)",
+   "part": "근육·간·내장",
+   "content": "근육 총지질 중 4.6–13.1%(5월 말–8월), 4.3–9.5%(그 밖의 계절)[2]",
+   "method": "가스크로마토그래피(GC, GC-MS)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "독가시치 지질의 특징이 일반 해산어보다 높은 ARA이고 연중 높게 유지되어 이 종을 대표하는 지방산으로 쓰였다[2, 3]. 전문 확인 못함(초록과 MeSH의 GC-MS 표기만 확인)[2].",
+   "source": [
+    2,
+    3
+   ],
+   "url": "https://doi.org/10.1007/s11745-006-5121-7",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Siganus fuscescens 행(독가시치, 이명 따치, Mottled spinefoot·Dusky spinefoot, 수산물, 부위 '-', 사용가능, 사용 조건 없음; 같은 속 벌레무늬독가시치 Siganus vermiculatus는 별도 행 '사용불가'; docs/materials/siganus-fuscescens/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Year-round high arachidonic acid levels in herbivorous rabbit fish Siganus fuscescens tissues. Lipids 2006;41(5):473-89 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s11745-006-5121-7",
+   "publisher": "Lipids, PMID 16933792",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "High Arachidonic Acid Levels in the Tissues of Herbivorous Fish Species (Siganus fuscescens, Calotomus japonicus and Kyphosus bigibbus). Lipids 2017;52(4):363-373 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s11745-017-4244-3",
+   "publisher": "Lipids, PMID 28332043",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Feeding containing the aerial part of Scutellaria baicalensis promotes the growth and nutritive value of rabbit fish. Food Sci Nutr 2021;9(9):4827-4838 (PMC 전문 확인; 도구 출력에서 학명 이탤릭이 빠지나 PubMed \"Siganus fuscescens AND Scutellaria\" 검색에 걸리고, 같은 연구진의 선행 세포주 연구 PMID 32738512가 S. fuscescens를 18S rRNA로 확인)",
+   "url": "https://doi.org/10.1002/fsn3.2410",
+   "publisher": "Food Science & Nutrition, PMID 34531995, PMC8441375",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Occurrence of a stonefish toxin-like toxin in the venom of the rabbitfish Siganus fuscescens. Toxicon 2017 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.toxicon.2017.10.015",
+   "publisher": "Toxicon, PMID 29055787",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "De Novo Assembly and Annotation of the Siganus fuscescens (Houttuyn, 1782) Genome: Marking a Pioneering Advance for the Siganidae Family. Mar Biotechnol 2024 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s10126-024-10325-9",
+   "publisher": "Marine Biotechnology, PMID 38850360",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Complete mitochondrial genome of the rabbitfish Siganus fuscescens (Perciformes, Siganidae). DNA Seq 2007 (PubMed 초록)",
+   "url": "https://doi.org/10.1080/10425170701248525",
+   "publisher": "DNA Sequence, PMID 17541835",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Two spinefoot colour morphs: mottled spinefoot Siganus fuscescens and white-spotted spinefoot Siganus canaliculatus are synonyms. J Fish Biol 2011 (PubMed 초록)",
+   "url": "https://doi.org/10.1111/j.1095-8649.2011.03104.x",
+   "publisher": "Journal of Fish Biology, PMID 22026611",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Phylogenetic relationships and natural hybridization in rabbitfishes (Teleostei: Siganidae) inferred from mitochondrial and nuclear DNA analyses. Mol Phylogenet Evol 2007;45(1):69-80 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.ympev.2007.04.018",
+   "publisher": "Molecular Phylogenetics and Evolution, PMID 17590356",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Cryptic genetic diversity in the mottled rabbitfish Siganus fuscescens with mitochondrial introgression at a contact zone in the South China Sea. PLoS One 2018 (PubMed 초록; 373개체는 S. canaliculatus로 보고된 미토콘드리아 계통 C를 가진 개체도 포함)",
+   "url": "https://doi.org/10.1371/journal.pone.0193220",
+   "publisher": "PLoS One, PMID 29466431, PMC5821360",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Phylogeography of the mottled spinefoot Siganus fuscescens: Pleistocene divergence and limited genetic connectivity across the Philippine archipelago. Mol Ecol 2010 (PubMed 초록)",
+   "url": "https://doi.org/10.1111/j.1365-294X.2010.04803.x",
+   "publisher": "Molecular Ecology, PMID 20875063",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Maximization of fitness by phenological and phenotypic plasticity in range expanding rabbitfishes (Siganidae). J Anim Ecol 2022 (PMC 전문 확인; S. fuscescens와 S. canaliculatus 자료를 동의어로 합쳐 분석)",
+   "url": "https://doi.org/10.1111/1365-2656.13739",
+   "publisher": "Journal of Animal Ecology, PMID 35543704, PMC9546425",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Climate-assisted persistence of tropical fish vagrants in temperate marine ecosystems. Commun Biol 2021 (PubMed 초록)",
+   "url": "https://doi.org/10.1038/s42003-021-02733-7",
+   "publisher": "Communications Biology, PMID 34711927, PMC8553944",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Feeding preferences of range-shifting and native herbivorous fishes in temperate ecosystems. Mar Environ Res 2021 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.marenvres.2021.105508",
+   "publisher": "Marine Environmental Research, PMID 34710739",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Overwintering tropical herbivores accelerate detritus production on temperate reefs. Proc Biol Sci 2019 (PubMed 초록)",
+   "url": "https://doi.org/10.1098/rspb.2019.2046",
+   "publisher": "Proceedings of the Royal Society B, PMID 31744442, PMC6892040",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Identification of seagrasses in the gut of a marine herbivorous fish using DNA barcoding and visual inspection techniques. J Fish Biol 2011 (PubMed 초록)",
+   "url": "https://doi.org/10.1111/j.1095-8649.2011.02999.x",
+   "publisher": "Journal of Fish Biology, PMID 21722114",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Allometric Growth of Feeding and Locomotor Structures During Early Ontogeny of Rabbitfish (Siganus fuscescens). Animals 2026;16(5):777 (PMC 전문 확인)",
+   "url": "https://doi.org/10.3390/ani16050777",
+   "publisher": "Animals (MDPI), PMID 41828986, PMC12984535",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Comparative assessment of thermal tolerance in rabbitfish (Siganus fuscescens) following acclimation to two different temperatures. Fish Physiol Biochem 2026 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s10695-026-01816-8",
+   "publisher": "Fish Physiology and Biochemistry, PMID 42867556",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Seaweed dietary supplements enhance the innate immune response of the mottled rabbitfish, Siganus fuscescens. Fish Shellfish Immunol 2021 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.fsi.2021.03.018",
+   "publisher": "Fish & Shellfish Immunology, PMID 33823246",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Biotransformation of inorganic arsenic in a marine herbivorous fish Siganus fuscescens after dietborne exposure. Chemosphere 2016 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2015.12.121",
+   "publisher": "Chemosphere, PMID 26766368",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Comparison of Bioavailability and Biotransformation of Inorganic and Organic Arsenic to Two Marine Fish. Environ Sci Technol 2016 (PubMed 초록)",
+   "url": "https://doi.org/10.1021/acs.est.5b06307",
+   "publisher": "Environmental Science & Technology, PMID 26835720",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Are there risks induced by novel and legacy poly- and perfluoroalkyl substances in coastal aquaculture base in South China? Sci Total Environ 2021 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.scitotenv.2021.146539",
+   "publisher": "Science of the Total Environment, PMID 34030277",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Residues of fluoroquinolones in marine aquaculture environment of the Pearl River Delta, South China. Environ Geochem Health 2011 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s10653-011-9420-4",
+   "publisher": "Environmental Geochemistry and Health, PMID 21881861",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "[Anisakis simplex larvae: infection status in marine fishes for sale in Shantou]. Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi 2014 (PubMed 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25223058/",
+   "publisher": "PubMed, PMID 25223058",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Morphological and molecular identification of Hysterothylacium longilabrum sp. nov. (Nematoda: Anisakidae) and larvae of different stages from marine fishes in the South China Sea. Parasitol Res 2012 (PubMed 초록)",
+   "url": "https://doi.org/10.1007/s00436-012-2897-7",
+   "publisher": "Parasitology Research, PMID 22461007",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Microplastics in marine sediments and rabbitfish (Siganus fuscescens) from selected coastal areas of Negros Oriental, Philippines. Mar Pollut Bull 2019 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.marpolbul.2019.110685",
+   "publisher": "Marine Pollution Bulletin, PMID 31706727",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Development of novel polymorphic microsatellite markers in Siganus fuscescens. Genet Mol Res 2016 (PubMed 초록)",
+   "url": "https://doi.org/10.4238/gmr.15037515",
+   "publisher": "Genetics and Molecular Research, PMID 27525874",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "The Microbiome of the Gastrointestinal Tract of a Range-Shifting Marine Herbivorous Fish. Front Microbiol 2018 (PubMed 초록)",
+   "url": "https://doi.org/10.3389/fmicb.2018.02000",
+   "publisher": "Frontiers in Microbiology, PMID 30210475, PMC6121097",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Age and growth of rabbit fish, Siganus fuscescens in the coast of Jeju island, Korea. 2014 — 원문 사이트가 이 환경에서 막혀 WebSearch 결과 요약으로만 존재를 확인(원문 미열람, 수치 미사용)",
+   "url": "https://koreascience.kr/article/JAKO201417048539550.page",
+   "publisher": "한국수산해양기술학회(WebSearch 요약)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "제주 연안 독가시치(Siganus fuscescens)의 생식생태. 2019 — 원문 사이트가 이 환경에서 막혀 WebSearch 결과 요약으로만 존재를 확인(원문 미열람, 수치 미사용)",
+   "url": "https://koreascience.or.kr/article/JAKO201907750244088.page",
+   "publisher": "한국수산해양기술학회(WebSearch 요약)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Radiocesium uptake, trophic transfer, and exposure in three estuarine fish with contrasting feeding habits. Chemosphere 2016 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2016.08.066",
+   "publisher": "Chemosphere, PMID 27565318",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "[Morphology of the venom-apparatus of Japanese fish. XI. The venom-apparatus of the Siganus fuscescens (Houttuyn)]. Yokohama Med Bull 1955;6(2):115-22 (PubMed 서지만, 초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/13257271/",
+   "publisher": "PubMed, PMID 13257271",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Characterization of a macrophagic-like cell line derived from rabbit fish (Siganus fuscescens). Fish Shellfish Immunol Rep 2021 (PubMed 초록)",
+   "url": "https://doi.org/10.1016/j.fsirep.2021.100036",
+   "publisher": "Fish and Shellfish Immunology Reports, PMID 36420515, PMC9680100",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Rabbitfish (\"aras\"): an unusual source of ciguatera poisoning. Isr Med Assoc J 2002;4(1):28-30 (PubMed 초록; 지중해 동부 사례, 어종 학명 미기재 — 이 종의 자료가 아님)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11802305/",
+   "publisher": "PubMed, PMID 11802305",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

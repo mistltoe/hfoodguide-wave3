@@ -1,0 +1,453 @@
+1. Introduction
+
+The genusGray (1821) comprises a morphologically distinctive and ecologically important group of ectomycorrhizal fungi widely distributed across temperate, boreal, subarctic, and Mediterranean regions of the Northern Hemisphere, with additional records from the Neotropics [,,,]. Current estimates recognize approximately 150 species within, although species richness and circumscription have varied considerably over time due to taxonomic instability and evolving generic concepts [,,].
+
+Historically,served as a broad taxonomic repository for numerous “leccinoid” taxa within the Boletaceae, many of which have since been segregated into distinct genera such as,,, and[,,,]. Classical morphological studies emphasized characters such as scabrous stipes, hymenophore color changes, and host association, but also documented substantial overlap among taxa, complicating species delimitation [,,]. Recent molecular phylogenetic analyses, often combined with detailed morphological reassessment, have clarified generic boundaries and revealed cryptic diversity within, particularly in North America and East Asia [,].
+
+Ecologically,species are obligate ectomycorrhizal fungi exhibiting relatively strong host specificity compared with many other boletoid genera. Most species associate with a limited range of woody hosts, particularly,,,, and, makinga valuable model for studying host–fungus specificity, co-evolution, and forest biogeography [,,]. Through these symbiotic relationships,species contribute to nutrient acquisition, carbon allocation belowground, and overall forest ecosystem functioning. In addition to their symbiotic role,fruiting bodies support a diverse assemblage of mycetophilous organisms, including insects, gastropods, mammals, bacteria, and fungi, thereby contributing to forest food webs and biodiversity []. From a socio-economic perspective,species rank among the most widely collected and consumed wild mushrooms in boreal and temperate regions. Species such asare particularly important in traditional diets and local markets, where they represent a seasonal source of nutrition and income [,].
+
+Recent studies have highlighted the nutritional and medicinal potential ofspecies. Chemical analyses demonstrate thatfruiting bodies contain high-quality proteins, dietary fiber, essential minerals, and vitamins []. Species-specific investigations have identified polysaccharides and other bioactive compounds with antioxidant, antimicrobial, and immunomodulatory properties, suggesting potential applications in functional foods and nutraceuticals [,]. Importantly, these properties vary substantially amongspecies, reinforcing the need for accurate taxonomy and comparative studies within the genus.
+
+Another notable characteristic ofis its capacity to bioaccumulate trace elements and metals from soil substrates. This trait has been explored in ecological and applied contexts, including the use ofspecies as indicators of soil chemistry and environmental contamination, as well as their potential relevance in geobotanical studies [,].
+
+Climate change modifies the precipitation patterns, increases the temperature and amplifies the frequency and severity of extreme events [,]. Altered temperature and precipitation regimes can cause drought-induced tree mortality, increased soil erosion, and reduced forest capability to provide essential ecosystem services functions [,,,,,,,]. These changes in temperature, precipitation, water availability and forestry composition represent a major stressor for host trees and will directly alter the distribution and abundance of the associatedspecies.
+
+Over the past several decades, research onhas expanded considerably, encompassing taxonomy, phylogenetics, ecology, chemistry, physiology, biogeography, and conservation [,,,,].
+
+Despite the extensive body of literature devoted to individual mushroom species and economically important fungal groups, no comprehensive review has yet synthesized the scientific knowledge related to the genus. This absence is notable given the genus’s ecological significance, taxonomic complexity, wide geographic distribution, and long-standing relevance to human use. Species ofare prominent ectomycorrhizal fungi in forest ecosystems, play key roles in nutrient cycling and plant–fungus symbioses, and are widely collected for food across Europe, Asia, and North America.
+
+The rapid expansion of research on fungal taxonomy, molecular phylogenetics, environmental monitoring, and bioactive compounds has generated a fragmented but substantial literature on. However, these studies remain dispersed across disciplines, limiting their integration into a unified framework that connects ecological function, chemical composition, environmental sensitivity, and practical applications. A consolidated synthesis is therefore needed to evaluate existing knowledge, identify trends and gaps, and support future research and applied management.
+
+The primary objective of this review is to provide the first holistic and multidisciplinary synthesis of global scientific research on the genus. Specifically, this article aims to:
+
+By integrating ecological, biochemical, environmental, and applied perspectives, this review seeks to provide a coherent reference for mycologists, ecologists, food scientists, and forest managers, and to support evidence-based utilization and conservation ofspecies worldwide.
+
+2. Materials and Methods
+
+The methodological workflow of this review comprised two complementary components. The first component involved a bibliometric assessment aimed at identifying global research trends, authorship patterns, and thematic concentrations in studies concerning the genus. The second component consisted of a traditional literature review designed to synthesize qualitative insights from the selected publications, thereby contextualizing quantitative findings within broader ecological and mycological knowledge.
+
+2.1. Bibliometric Analysis
+
+Data Sources and Search Strategy
+
+The bibliometric analysis drew upon two major international bibliographic databases: Scopus and the Science Citation Index Expanded (SCI-Expanded) within the Web of Science (WoS) platform. Searches were performed using the core keyword “,” supplemented with additional subject-specific terms to capture ecological, physiological, and forest-related aspects. Boolean operators (AND, OR) and wildcard characters (*) were applied to construct a comprehensive search strategy encompassing both broad and specific aspects ofresearch.
+
+All retrieved records were screened and refined following the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) framework to ensure methodological transparency and reproducibility [].
+
+Search Strings
+
+To ensure reproducibility, the exact search strings applied in each database are detailed below:
+
+Scopus (Advanced Search; field: TITLE-ABS-KEY):
+
+TITLE-ABS-KEY(“Leccinum” AND (“forest dynamics” OR “mycorrhizal associations” OR “ecology” OR “soil interactions” OR “nutrient cycling”))
+
+Web of Science—SCI-Expanded (Topic Search; TS):
+
+TS = (“Leccinum” AND (“forest dynamics” OR “mycorrhizal interactions” OR “ecology” OR “nutrient cycling” OR “soil chemistry”))
+
+Wildcard characters (*) were applied to capture plural forms and morphological variations. Minor syntax adjustments were made between databases to maintain logical consistency and accommodate platform-specific search rules.
+
+Search Parameters
+
+Time range: All available years up to the date of data extraction; no temporal restrictions were imposed.
+
+Document types: Only peer-reviewed original research articles and review papers were included.
+
+Excluded records: Conference proceedings, editorials, letters, notes, theses, and book chapters were removed.
+
+De-duplication and Data Validation
+
+Duplicate records were removed through a two-step procedure:
+
+This process eliminated 189 duplicate entries. Additional quality control included verification of bibliographic metadata, correction of typographical or OCR errors, and harmonization of author and institutional names. All modifications were documented in an internal audit log.
+
+Eligibility Criteria
+
+A two-stage screening process was employed:
+
+Stage 1—Title and abstract screening: Conducted independently by two reviewers.
+
+Stage 2—Full-text evaluation: Applied to all potentially relevant articles.
+
+Inclusion criteria:
+
+Exclusion criteria:
+
+Full-text exclusions were coded as follows:
+
+A: Outside thematic scope
+
+B: Non-peer-reviewed
+
+C: Insufficient ecological or methodological data
+
+D: Inaccessible full text
+
+E: Inadequate methodological description
+
+Screening Process
+
+Screening was conducted independently by two reviewers, with any record deemed relevant by at least one reviewer progressing to full-text review. Discrepancies were resolved through consultation with a senior reviewer.
+
+The initial search yielded 514 records (269 from Scopus, 245 from WoS). After removing 70 duplicates, 444 unique records remained. Following two-stage screening based on the above criteria, an additional 151 records were excluded due to irrelevance, non-peer-review status, or lack of accessible abstracts, resulting in a final dataset of 293 publications for bibliometric and content analyses ().
+
+Bibliometric Analysis Tools
+
+Bibliometric analyses were conducted using Scopus [], Web of Science Core Collection (v.5.35) [], Microsoft Excel 2024 [], and Geochart []. Network visualizations for co-authorship, co-citation, and keyword co-occurrence analyses were constructed using VOSviewer (v.1.6.20) [].
+
+All fungal names and their current taxonomic status were verified using Index Fungorum. The nomenclature of vascular plants was standardized primarily according to Flora Europaea and the Euro+Med PlantBase. However, to maintain consistency with the original literature and avoid misinterpretation, the plant names used by the original authors were retained where appropriate.
+
+2.2. Traditional Literature Review
+
+The second phase involved a narrative synthesis based on the refined dataset. A subset of 256 publications underwent detailed qualitative assessment to identify dominant research themes, conceptual linkages, and knowledge gaps. The literature was organized into seven overarching thematic domains: (1)species and their characteristics; (2) Tree and plant species with; (3) Nutritional content of; (4) Mineral constituents of; (5) Heavy metals content in; (6) Reactivity content in; (7) Utilization of.
+
+A schematic overview of the complete methodological framework is provided in, summarizing the workflow from initial data acquisition through quantitative bibliometric analysis and final qualitative synthesis.
+
+The qualitative content analysis enabled a deeper understanding of research production and thematic trends, complementing the bibliometric assessment and providing a comprehensive view of globalresearch.
+
+This study considers only species currently accepted within the genus, based on recent taxonomic revisions; taxa formerly included inbut now transferred to other genera (e.g.,, etc.) are not included.
+
+Although no temporal restriction was imposed during the literature search, the earliest publication retrieved that met the inclusion criteria dated from 1967; therefore, the analyzed literature spans the period from 1967 to the present.
+
+3. Results
+
+3.1. A Bibliometric Review
+
+The inventory of published documents on this topic from 1967–2024 resulted in a total of 293 publications. Of these, most are research articles (270, representing 92% of the total), followed by 17 proceedings papers (6%), 3 reviews (1%), and 3 book chapters (1%) ().
+
+Starting from 1967, the number of published articles has fluctuated considerably up to the present year (2024). The highest number of publications (20 articles) was recorded in 2016, while over the past seven years (2018–2024), the number has remained relatively constant, averaging around 15 articles per year ().
+
+Among the 35 research areas in which these articles can be classified, the most representative are: Mycology (with 68 articles), Environmental sciences—Ecology (with 59 articles), Plant sciences (with 41 articles), and Chemistry (with 29 articles) ().
+
+Authors of articles on this topic come from 62 countries across 5 continents (). The countries with the highest number of publications are Poland (63 articles), China (45 articles), the USA (26 articles), and Japan (17 articles).
+
+The authors’ countries of origin, who have published articles on this topic, can be organized into four main clusters: Cluster 1 includes: Finland, Netherlands, New Zealand, Norway, Scotland and USA; Cluster 2 consists of: Austria, England, Hungary, Italy and Ukraine; Cluster 3 consists of: Canada, Columbia, Poland and Slovakia; and Cluster 4 includes: Czech Republic, Portugal, Russia and Spain ().
+
+Out of the 132 journals that have published articles on this topic, the journals with the largest number of publications are: Environmental Science and Pollution Research, Journal of Environmental Science and Health-Part B-Pesticides foods, Mycologia, Science of the Total Environment and Mycotaxon ().
+
+Among the authors who have contributed to these publications, Jerzy Falandysz stands out with 35 articles, followed by Li Tao and Honggao Liu (11 articles each) and Leszek Bielawski (all focused on the chemical composition and nutritional value of wild-grown edible), as well as Wang Huyiyuan (10 articles). In terms of institutional affiliation, the most representative institutions for authors publishing on this topic were: Fahrenheit University, University of Gdansk, Yunnan Agricultural University and the Chinese Academy of Sciences. The leading publishers in this research domain included Elsevier (46 articles), Springer Nature (39 articles), Taylor and Francis (26 articles) and Wiley (14 articles).
+
+From the analysis carried out on the keywords that appear in the articles published on this topic, it resulted that the most frequently used keywords were: fungi, heavy metals, mushrooms, edible mushrooms and fruiting bodies.
+
+When keywords are grouped into clusters, four main categories emerge, each containing more than six terms: Cluster 1: mainly includes terms related to the genus, species, and taxonomy: Basidiomycota, Boletaceae, Boletales, Boletus, Leccinum, taxonomy. Cluster 2: generally includes terms related to heavy metals: cadmium, copper, heavy metals, lead, mercury. Cluster 3: includes keywords related to minerals and trace elements: mineral constituents, metallic elements, trace elements. Cluster 4: generally includes terms related to medicinal and nutritional values: chemical composition, medicinal mushrooms, nutritional value ().
+
+3.2. Literature Review
+
+This section synthesizes published data on the genusto provide an integrated overview of its taxonomic diversity, host associations, physiological traits, nutritional value, and environmental interactions. Rather than reinterpreting results, this section consolidates molecular, ecological, biochemical, and applied studies to highlight recurring patterns and major advances across regions and research approaches. Comparative references to closely related or ecologically co-occurring fungi are retained only where they provide necessary methodological or contextual benchmarks for understandingbiology.
+
+3.2.1.Species and Their Characteristics
+
+In theare presented the distribution, hosts, and characteristics ofspecies.
+
+Molecular, phylogenetic, and biogeographic studies over the last two decades have fundamentally reshaped the understanding of species diversity and evolutionary relationships within the genus. Traditional morphology-based sectional classifications have proven inadequate for delimiting natural lineages, and modern multi-locus and genomic approaches reveal a genus characterized by extensive cryptic diversity, host-driven divergence, and complex evolutionary histories.
+
+Early phylogenetic reconstructions based on nrITS and nrLSU sequences demonstrated that historical infrageneric concepts were largely artificial and thatexhibits exceptional ITS length heterogeneity caused by minisatellite repeat regions []. Subsequent multilocus and phylogenomic frameworks confirmedsensu Singer as a monophyletic lineage (with the exception of) and highlighted the absence of any single diagnostic morphological character defining the genus []. These findings established the need for molecular data as the primary basis for species delimitation.
+
+Host specialization has emerged as a central evolutionary driver in. Most species exhibit strong host specificity, while phylogenetic reconstructions indicate that the broad host range ofrepresents a derived condition resulting from secondary host expansion []. Rapid diversification has been linked to host switching and ecological niche shifts, with hybridization contributing to lineage formation, particularly within section[]. Phylogeographic analyses further demonstrate that Arctic and boreal lineages are not monophyletic, and onlyshows a strictly Arctic distribution.
+
+Regional surveys and multilocus inventories have substantially expanded the known species pool. In China, early taxonomic uncertainty was resolved through multilocus analyses (nrLSU, rpb2, tef1-α, ITS), which recognized multiple endemic and previously unrecognized species [,,,]. Comparable progress has been made in Central America [,,], Central Asia [,], and Southeast Asia, revealing thatis far more globally diverse than previously assumed.
+
+At a global scale, more than one hundred species are now recognized in North America, with additional centers of diversity in Asia, Europe, Africa, and Oceania [,,]. Nomenclatural clarification of historical names and formal typification of the genus have stabilized taxonomic usage [,].
+
+Physiological and population genetic studies further demonstrate high intraspecific diversity and reproductive isolation among cryptic lineages, with evidence for panmixia within populations and strong allozyme variation []. Recent whole-genome phylogenies of Boletaceae, including Leccinoideae, placewithin a well-supported evolutionary framework [].
+
+Together, these studies establishas a phylogenetically complex, globally distributed ectomycorrhizal genus shaped by host specialization, rapid diversification, and repeated geographic radiations.
+
+Collectively, these studies demonstrate that species delimitation inhas shifted from morphology-based concepts toward multi-locus and genomic frameworks, revealing extensive cryptic diversity, frequent host-associated divergence, and occasional hybridization. Regional inventories continue to expand the known species pool, particularly in Asia, the Neotropics, and Oceania, while nomenclatural clarification has stabilized the application of historical names. Together, these findings establishas a phylogenetically complex and globally distributed ectomycorrhizal lineage, providing the taxonomic foundation for the ecological, nutritional, and applied studies summarized below.
+
+3.2.2. Tree and Plant Species with
+
+The genusforms ectomycorrhizal (ECM) associations with a remarkably broad range of woody host plants across boreal, temperate, Mediterranean, and montane tropical ecosystems. Despite this breadth, host specificity remains a defining ecological trait of most species and represents a major driver of diversification within the genus.
+
+Across the Northern Hemisphere, birch (spp.) constitutes the dominant host lineage for manyspecies, including,,, and[,,]. Associations withspecies are also widespread, particularly forand related taxa in Europe and North America [,]. These boreal and temperate systems represent the evolutionary core of the genus.
+
+In parallel,has diversified extensively within the Fagaceae, forming ectomycorrhizae with,,,, andacross Europe, East Asia, and Southeast Asia [,]. These associations extend the genus into subtropical and montane tropical forests and underpin the high species richness observed in East Asia.
+
+More specialized host relationships have also evolved. In North America,forms ectomycorrhizae with[] and ericaceous shrubs such asand[,,,,,,,,,,,,], while conifer associations have been documented with,,, and[,,].
+
+Collectively, these studies demonstrate thatoccupies a broad ecological niche space but remains fundamentally structured by host-driven specialization. This tight coupling between fungal lineages and host phylogeny explains both the high regional endemism and the rapid speciation patterns observed across the genus.
+
+3.2.3. Nutritional Content of
+
+species are edible mycorrhizal fungi with both culinary and medicinal potential. Various studies have characterized their chemical composition, bioactive compounds, and flavor-related metabolites, highlighting their value as nutraceutical and functional foods.
+
+Additional compounds include 3,4,5-trihydroxybenzaldehyde and 3,4-dihydroxycinnamic acid in[]. Carotenoid analyses showed generally low levels except in[]. Physiological experiments demonstrated thatalters growth morphology depending on nitrogen availability [] and can metabolize polycyclic aromatic hydrocarbons []. Species-specific germination factors and homing reactions have also been documented inand, with responsiveness linked to homokaryosis [,]. Ultrastructural studies ofrevealed complex mycelial strand architecture without thick-walled fibres typical of other fungi [].
+
+Finally, post-harvest studies showed that drying temperature strongly affects phenolic content, organic acids, ergosterol, and antioxidant activity in, with the greatest losses occurring at 70 °C [].
+
+species are widely consumed edible ectomycorrhizal mushrooms and represent an important component of traditional diets across Europe, Asia, and North America. Biochemical and metabolomic studies reveal that the genus is characterized by high nutritional value, diverse bioactive metabolites, and species-specific flavor profiles, supporting its classification as a functional and nutraceutical food resource.
+
+Across species,fruiting bodies are rich in carbohydrates, proteins, dietary fiber, free amino acids, unsaturated fatty acids, vitamins, and essential minerals [,]. They also contain a wide range of phenolic compounds, organic acids, carotenoids, and unique fungal pigments such as crocipodin and methyl isoxerocomate [,], contributing both to antioxidant capacity and sensory qualities.
+
+Physiological studies further demonstrate thatspecies exhibit metabolic plasticity in response to nitrogen availability and are capable of degrading complex organic pollutants such as polycyclic aromatic hydrocarbons [,]. Post-harvest processing strongly affects nutritional quality, with drying temperature exerting a major influence on phenolic content, ergosterol levels, and antioxidant activity [].
+
+At the molecular level, metabolomic and transcriptomic profiling ofhas identified amino acids and sugars as key determinants of species-specific umami and flavor characteristics [], while polysaccharides fromexhibit prebiotic and short-chain fatty acid–modulating activity in vivo.
+
+Together, these findings positionas a nutritionally rich genus with significant functional food potential, while also highlighting strong interspecific variability in metabolite composition.
+
+3.2.4. Mineral Constituents of
+
+The mineral composition ofspecies has been investigated across a wide range of habitats and climatic regions, demonstrating both their nutritional value and their capacity for selective bioaccumulation of essential and potentially toxic elements. Collectively, these studies show thatfruiting bodies are particularly enriched in macronutrients such as K, P, Mg, and Ca, as well as trace elements including Cu, Zn, Mn, Fe, and Rb, while also exhibiting variable accumulation of Cd, Hg, and Pb depending on site conditions.
+
+Leccinum scabrum
+
+is an edible mushroom commonly found in northern European regions. The macro- and trace-element composition, including Ag, Al, Ba, Ca, Cd, Co, Cu, Fe, K, Mg, Mn, Na, Ni, Pb, P, Rb, Sr, and Zn, was analyzed in both fruiting bodies and underlying topsoil from multiple sampling sites in northern Poland: Darżlubska Wilderness, Trójmiejski Landscape Park, Sobieszewo Island, Wdzydze Landscape Park, and the outskirts of Kętrzyn [].
+
+Median concentrations in dehydrated caps were highest for K (27,000–44,000 mg kg), Rb (90–320 mg kg), and P (6200–9100 mg kg), followed by Mg (880–1000 mg kg), Ca (48–210 mg kg), and Al (15–120 mg kg). Cu, Fe, Mn, and Zn were detected at 15–27 mg kg, 38–140 mg kg, 5.3–27 mg kg, and 130–270 mg kg, respectively. Ba and Sr were present at approximately 1 mg kgand were nearly equally distributed between caps and stipes. Toxic elements were generally low: Ag (0.48–0.98 mg kg), Cd (1.0–5.8 mg kg), Hg (0.36–0.59 mg kg), and Pb (0.20–0.91 mg kg), with cap-to-stipe concentration ratios (QC/S) ranging from 1.2 to 4.1. Substantial variations in the pseudo-total (aqua regia extraction) and labile (20% nitric acid extraction) fractions of elements in topsoils were observed between locations. Elements such as K, P, Cd, Cu, Hg, Mn, Na, Rb, and Zn were found to be bioconcentrated in fruiting bodies, though accumulation rates varied with site conditions [].
+
+A multi-seasonal study using inductively coupled plasma optical emission spectroscopy (ICP-OES) and cold-vapour atomic absorption spectroscopy (CV-AAS) further confirmed these findings, demonstrating wide variations in element concentrations between soil and fruiting bodies over three fruiting seasons. Positive bioconcentration factors (BCFs) were observed for Cd, Cu, Hg, K, Mg, Na, P, Rb, and Zn in caps and stipes, whereas Al, Ba, Ca, Co, Fe, Mn, Ni, Pb, and Sr showed limited accumulation. Caps consistently exhibited significantly different concentrations (< 0.05) of Al, Co, Cu, Hg, Mn, Ni, P, Pb, and Sr across the sampling periods, indicating temporal fluctuations in elemental accumulation [].
+
+Long-term monitoring of rare earth elements (REEs) in edible mushrooms, including, over 45 years across 42 forest sites in Poland revealed a gradual increase in REE content in both mushrooms and soils. Compared toand,exhibited lower total REE content. Despite these increases, human consumption ofwould not substantially contribute to dietary exposure to REEs, supporting the use of wild-growing mushrooms as bioindicators of environmental REE migration [].
+
+The most comprehensive mineral profiling has been conducted onin northern Poland. Fruiting bodies and underlying soils were analyzed for Ag, Al, Ba, Ca, Cd, Co, Cu, Fe, K, Mg, Mn, Na, Ni, Pb, P, Rb, Sr, and Zn across multiple forest locations []. Median concentrations in dehydrated caps were dominated by K (27,000–44,000 mg kg), P (6200–9100 mg kg), and Rb (90–320 mg kg), followed by Mg (880–1000 mg kg) and Ca (48–210 mg kg). Trace metals such as Cu, Fe, Mn, and Zn occurred at nutritionally relevant levels, whereas toxic elements (Cd, Hg, Pb, Ag) were generally low. Several elements (K, P, Cd, Cu, Hg, Mn, Na, Rb, Zn) showed clear bioconcentration relative to soils.
+
+A multi-seasonal follow-up study confirmed strong temporal variability and positive bioconcentration factors (BCFs) for Cd, Cu, Hg, K, Mg, Na, P, Rb, and Zn in both caps and stipes, while Al, Ba, Ca, Co, Fe, Mn, Ni, Pb, and Sr showed limited accumulation []. Caps consistently accumulated higher concentrations of most elements than stipes.
+
+Long-term monitoring of rare earth elements (REEs) over 45 years across 42 Polish forest sites showed a gradual increase of REEs infruiting bodies, reflecting soil trends. However, dietary exposure from consumption remained negligible, confirming the suitability ofas a bioindicator rather than a dietary risk source [].
+
+Leccinum versipelle
+
+In the Murmansk region (NW Russia), elemental analyses of(currently) revealed strong accumulation of K and Cu relative to surrounding soils, with K concentrations exceeding soil levels by a factor of 10 and Cu exceeding water-soluble soil Cu by over 70-fold []. Nickel showed only limited bioaccumulation. The elemental composition reflected largely background geochemical conditions, highlighting the sensitivity ofspecies to regional soil chemistry and their role in forest nutrient cycling.
+
+3.2.5. Heavy Metals Content in
+
+The accumulation of heavy metals inspecies has been widely studied in relation to industrial pollution, mining activity, and background geochemistry. Across regions,consistently demonstrates a capacity to bioaccumulate certain metals—particularly Hg, Cd, Pb, Cu, and Zn—making the genus both a valuable environmental bioindicator and a potential food-safety concern in contaminated areas.
+
+Cadmium and lead
+
+Cadmium (Cd) and lead (Pb) contents were investigated in 699 fruiting bodies of 55 mushroom species collected near a major thermal power plant (Šalek Valley) and an abandoned lead smelter (Upper Meža Valley, Slovenia) []. Although the study encompassed a broad fungal assemblage,species formed part of the edible mushroom group used to assess dietary risk. Elevated Cd and Pb concentrations were associated with polluted sites, and consumption of mushrooms from these areas was identified as a significant human health risk.
+
+Nickel, copper, chromium, and cobalt
+
+In the Kola Peninsula (NW Russia), total concentrations of Ni, Cu, Cr, Sr, As, Pb, Cd, and Co were measured in mushrooms collected between 1987 and 1992, includingand[]. Nickel levels showed a strong correlation with soil concentrations and frequently exceeded food safety limits, rendering mushrooms unsuitable for consumption in affected areas. Other metals generally remained within acceptable ranges, indicating metal-specific accumulation patterns.
+
+Multi-element accumulation in forest plantations
+
+In hybrid aspen plantations under hemiboreal conditions,fruiting bodies accumulated multiple metals, with mean concentrations reaching 129 mg kgZn, 99 mg kgCu, 30 mg kgMn, 1.5 mg kgNi, 1.7 mg kgCd, 1.1 mg kgCr, and 0.6 mg kgPb []. Fertilization with digestate, sewage sludge, and wood ash did not increase heavy-metal uptake, although it altered nitrogen isotopic composition.
+
+Bioaccumulation in relation to soil
+
+In Croatia, five Boletaceae species includingwere analyzed for Cd, Cu, Fe, Mn, and Zn []. Cadmium accumulation was lower in(0.73 mg kgdw) than in other Boletaceae. Cu and Zn were consistently accumulated across all taxa, whereas Fe and Mn showed species-specific patterns. Only Mn displayed a significant soil–mushroom correlation, underscoring the importance of species-level assessments.
+
+Regional studies in Poland and Eastern Europe
+
+In Poland,andwere among seven edible mushrooms examined for Ag, Cd, Cu, Zn, and other elements across rural and industrial regions []. Elevated Cd concentrations were observed infrom the Tarnobrzeska Plain. Similarly, in southwest Poland,showed clear accumulation of Ag, Cd, Co, Cu, Hg, Ni, and Zn, with marked species-specific differences []. In Ukrainian Polessye,was among the macromycetes showing the strongest accumulation of Pb and Cd, whereas Cu and Zn were preferentially accumulated by tubular species [].
+
+Mercury accumulation
+
+Mercury (Hg) is the most intensively studied toxic element in. In Poland,consistently showed higher Hg concentrations in caps than in stems, with BCF values between 9 and 40 []. Slovakian surveys of,, andrecorded cap Hg concentrations of 0.41–7.52 mg kgdw, exceeding EU food limits in some samples []. In the Tarnobrzeska Plain, Hg inreached 3500 ng gdw in caps, indicating extreme bioconcentration []. Similar accumulation patterns were reported for[] and[].
+
+Summary of metal accumulation patterns
+
+Overall,species exhibit consistent yet highly variable bioaccumulation behavior depending on region, soil chemistry, and species identity. Mercury, cadmium, and lead represent the most critical elements in terms of potential dietary risk, while essential metals such as potassium, copper, and zinc are reliably accumulated and contribute to nutritional value. These characteristics confirmas a sensitive bioindicator of environmental contamination and a genus requiring site-specific food safety evaluation.
+
+3.2.6. Reactivity Content in
+
+Studies on radionuclide accumulation demonstrate thatspecies are highly responsive to regional fallout history, soil chemistry, and habitat type, making them sensitive bioindicators of radiological contamination. Across Europe and North America, accumulation patterns are species-specific and strongly influenced by ecosystem context, particularly in post-Chernobyl landscapes [,,,,,,,].
+
+While most regions show radionuclide concentrations well below international safety limits [,,,], persistent contamination remains evident in parts of Ukraine and Eastern Europe, whereand related species continue to accumulate elevated levels ofCs decades after the Chernobyl accident [,,]. Morphological traits such as hymenophore tubule density may serve as phenotypic indicators of radionuclide exposure in bog ecosystems [].
+
+These data confirm thatspecies provide valuable long-term records of radionuclide mobility in forest ecosystems.
+
+Overall, radionuclide accumulation inspecies reflects strong dependence on habitat type, soil chemistry, and species-specific physiological traits. While contamination levels vary widely across regions, particularly in post-Chernobyl landscapes, most studies indicate that radiological risk fromconsumption is highly context-dependent and generally low outside heavily contaminated zones. These compiled data establishas both a useful bioindicator and a relevant taxon for long-term environmental monitoring.
+
+3.2.7. Utilization of
+
+Research onutilization spans food safety, pharmacology, immunology, environmental remediation, and agricultural applications. The studies summarized below document experimentally validated bioactivities and applied functions, providing a descriptive inventory of known uses without extrapolating therapeutic or commercial efficacy beyond reported results.
+
+Traditionally,species are generally considered edible, but some can cause gastrointestinal issues if not cooked properly. There are reports ofpoisonings, so the general recommendation is to cook the mushroom thoroughly; some guides do not recommend certain types, like orange-cappedmushrooms, due to potential toxicity [,].
+
+Research onspecies demonstrates that members of this genus contain diverse bioactive compounds with pharmacological, immunological, environmental, and plant-physiological relevance.
+
+Bioactive Metabolites Affecting Human Health
+
+In a subsequent study, the same species yielded leccinine A, which showed strong endoplasmic reticulum (ER) stress-suppressive activity []. ER stress is implicated in several neurodegenerative and metabolic diseases, and leccinine A effectively protected cells from ER stress–induced death. Structural characterization and structure–activity comparisons with seven synthetic analogues confirmed the uniqueness and relevance of this molecule.
+
+(birch bolete) contains 5-hydroxytryptophan (5-HTP) and serotonin, which are precursors to the neurotransmitter serotonin in the brain. Since low serotonin levels are associated with depression, consuming mushrooms likemay be a beneficial dietary component in the prevention or supportive treatment of depression. The potential antidepressant effect ofis primarily linked to its high content of specific indole derivatives: 5-HTP and L-tryptophan which are converted into serotonin in the central nervous system.also exhibits high antioxidant activity due to the presence of phenolic compounds. Oxidative stress and neuroinflammation are thought to play a role in the pathogenesis of depression, so the antioxidant properties of the mushroom may offer protective effects against neuronal damage []. Indole compounds and their derivatives (serotonin, melatonin) exhibit antioxidant, anticancer, anti-aging actions, regulate the diurnal cycle in humans and participate in blood coagulation. These compounds and their derivatives are also anti-inflammatory and analgesic therapeutics [].
+
+demonstrated promising antidiabetic potential. Using microwave-assisted extraction and solvents of varying polarity, Ferraro et al. [] identified EtOAc extracts that potently inhibited α-glucosidase and, to a lesser degree, α-amylase. The extract showed an IC50 for α-glucosidase approximately 60-fold lower than the reference compound 1-deoxynojirimycin. In vivo assays usingconfirmed the hypoglycemic effects, and metabolic profiling of the active extract was performed by GC-MS and HRMS.
+
+All three polysaccharides enhanced macrophage immunomodulation in vitro, with LCP-2 and LCP-3 producing the strongest responses, suggesting their potential as functional food ingredients or immunomodulatory agents.
+
+Extracts fromhave also been studied for anticancer properties. Reis et al. [] examined phenolic extracts rich in hydroxybenzoic acids and found that they inhibited the growth of multiple human cancer cell lines. A more detailed analysis using MCF-7 breast adenocarcinoma cells revealed decreased proliferation, induction of apoptosis, and evidence of DNA damage. MCF-10A non-malignant cells were used as controls to assess selectivity.
+
+Immunological Interactions
+
+Jennemann et al. [] investigated glycoinositolphosphoceramides (GIPCs) from several mushroom species and showed that human sera normally contain IgG2 and IgM heterophile antibodies that recognize basidiolipids from selected taxa, including. Recognition depended on the presence of specific Galα1-6Gal or Galβ1-6Man epitopes, and enzymatic removal of these carbohydrate structures abolished immune binding. These findings indicate selective immunological cross-reactivity between human antibodies and certainlipid components.
+
+have been shown to decrease proliferation and induce apoptosis in breast cancer cells [,]. Extracts fromhave demonstrated antitumor activity against cervical, colon, and lung cancer cell lines in lab studies []. Extracts fromcan inhibit the cell cycle and induce apoptosis in lung adenocarcinoma (A549) cells [].
+
+Environmental and Agricultural Applications
+
+also demonstrated environmental remediation potential. In a study of ectomycorrhizal fungi exposed to the pesticide DDT, Huang et al. [] showed that, along with three other ECMF species, degraded nearly all DDT in liquid culture within 15 days. GC-MS analysis identified metabolites including DDD and DBP, indicating a degradation pathway similar to that of white-rot fungi.
+
+Antioxidant and Antimicrobial Properties
+
+Antioxidant Activity
+
+Edible mushrooms, including species of, are known to contain biologically active compounds such as polyphenols, flavonoids, proteins, saccharides, and vitamins, which contribute to their antioxidant properties.
+
+In another study, the antioxidant activity of methanol extracts of fruiting bodies ofwas evaluated using high-performance thin-layer chromatography (HPTLC) combined with DPPH assay and videodensitometry. The results indicated thatexhibited moderate antioxidant activity compared to, and both mushroom extracts had significantly lower activity than ascorbic acid or gallic acid. Specific mushroom components detected in one zone of theextract were mainly responsible for its antioxidant activity [].
+
+spp. have a role in anti-aging due to their antioxidant, anti-inflammatory, and immunomodulatory properties, which can combat age-related cellular damage and improve overall health. Key compounds include polysaccharides, phenolic acids, and unsaturated fatty acids, which protect against oxidative stress, promote a healthy gut microbiome, and may offer neuroprotective benefits [,].
+
+Antibacterial Activity
+
+The antibacterial potential ofaqueous extracts was investigated against several bacterial strains. The extracts exhibited inhibitory activity against all tested bacteria. Among the extraction methods, microwave-assisted extraction (MAE) generally showed higher inhibition activity, particularly againstATCC 19114. The Minimum Inhibitory Concentration (MIC) values confirmed the high antibacterial activity of the MAE extract for bothATCC 19114 andATCC 25922. In contrast, ultrasound-assisted extraction (UAE) demonstrated strong antibacterial activity againstATCC 13076 andATCC 19114 [].
+
+4. Discussion
+
+4.1. Bibliometric Review
+
+The bibliometric analysis shows that original research articles dominate the publication output on, accounting for more than 90% of all documents. This pattern is consistent with observations from bibliometric analyses in other mycological and ecological fields, where research articles typically represent the majority of publications [,,,]. However, in contrast to comparable studies in which review papers can approach or exceed 10% of the total output [,,,], review articles onaccount for only about 1%. This disparity highlights a notable lack of integrative syntheses and emphasizes the relevance and timeliness of the present review.
+
+The sharp increase in the number of publications after 2010 follows a trend commonly reported across bibliometric studies in biology and environmental sciences [,,,]. This growth likely reflects both methodological advances—particularly the widespread adoption of molecular phylogenetics—and an expanding interest in the ecological and applied relevance of fungi. In the case of, this increased attention is further reinforced by the genus’ importance in ectomycorrhizal ecology, bioaccumulation studies, and food safety research.
+
+Authorship and journal diversity further support the interpretation of a rapidly expanding research field. The large number of contributing authors, their broad geographic distribution, and the wide range of journals involved indicate thatresearch has moved beyond a regional or taxonomically narrow focus. Similar patterns have been reported in other fungal bibliometric assessments, where expanding collaboration networks coincide with increasing thematic complexity.
+
+Regarding the countries of origin of contributing authors, the strong representation of the United States and China aligns with global publication trends observed in numerous bibliometric studies [,,,]. However, the prominence of Poland (ranked first) and Japan (ranked fourth) is particularly noteworthy. Both countries have long-standing traditions in mycological systematics and forest ecology, and their leading roles inresearch likely reflect sustained national expertise rather than short-term publication trends.
+
+The journals publishing the highest numbers of-related articles fall into two main thematic categories. Environmental journals—including Environmental Science and Pollution Research, Journal of Environmental Science and Health—Part B, and Science of the Total Environment—primarily feature studies on metal accumulation, pollution monitoring, and food contamination. In contrast, specialist mycological journals such asandfocus on taxonomy, phylogeny, and species descriptions. This dual publication pattern underscores the interdisciplinary nature ofresearch and its relevance to both fundamental and applied sciences.
+
+Consistent with this observation, keyword analyses reveal a strong and recurring emphasis on heavy metal accumulation, including terms such as “heavy metals,” “mercury,” “accumulation,” and “bioconcentration factor.” The prominence of these terms in-focused publications highlights the genus’ importance as a model for studying fungal–environment interactions and reinforces its applied relevance in environmental monitoring and food safety contexts.
+
+4.2. Taxonomic, Phylogenetic, and Ecological Patterns in Leccinum
+
+Collectively, the reviewed literature demonstrates thatis a morphologically diverse and phylogenetically complex genus whose species boundaries have undergone substantial revision. Early taxonomic frameworks based largely on macromorphological traits proved insufficient, a conclusion now strongly supported by molecular evidence revealing extensive homoplasy and a lack of reliable single diagnostic characters [,]. Multilocus phylogenetic analyses using ITS, LSU, rpb2, tef1-α, and Gapdh consistently indicate that many traditional European and North American species concepts require refinement and that cryptic diversity is widespread within the genus [,].
+
+Host specificity emerges as a central biological feature shapingdiversification. Most species exhibit strong associations with particular host lineages, suggesting that cycles of host specialization and niche expansion have played a major role in evolutionary divergence. Broad host associations, such as those observed in, appear to be derived rather than ancestral conditions [].
+
+Recent studies have also substantially expanded the known geographic range and diversity of. Previously undocumented species have been described from China, Mexico, Central America, Japan, Australia, and Southeast Asia [,]. Many of these taxa exhibit narrow distributions, distinctive colour-change reactions, and unique combinations of microscopic characters, reinforcing the view that global diversity within the genus remains underestimated.
+
+Physiological and biochemical investigations complement taxonomic and phylogenetic findings by revealing functional traits that may underlie ecological success. Studies documenting species-specific germination requirements, PAH degradation pathways, pigment biosynthesis, and nitrogen-responsive growth strategies suggest considerable metabolic versatility [,,,,,]. High allozyme variation and pronounced genetic structuring indicate that manyspecies maintain large, genetically diverse populations [], a conclusion supported by recent mitochondrial genome analyses clarifying evolutionary placement within the Boletaceae [].
+
+Taken together, the continuing discovery of new species, frequent taxonomic reassessments, and the expanding body of molecular, ecological, and biochemical data demonstrate thatremains far from fully resolved. Achieving a stable taxonomic framework will require broader geographic sampling, consistent multilocus approaches, and explicit integration of ecological traits such as host specificity. Similarly, functional studies suggest thatspecies play significant roles in nutrient cycling, forest symbiosis, and substrate degradation—ecological functions that remain insufficiently explored [].
+
+4.3. Host Specificity and Biogeographic Patterns of Leccinum Ectomycorrhizal Associations
+
+Synthesis of documented ectomycorrhizal associations () indicates thatexhibits broad but structured host specificity with clear biogeographic patterns. The strongest signal is associated with, which supports the highest diversity ofspecies across Europe, Asia, and North America, supporting earlier hypotheses that birches represent the ancestral host group for much of the genus [,]. The repeated occurrence of,, andon multiplespecies across continents suggests both long-term ecological stability and potential co-migration during postglacial forest expansion.
+
+A second major host axis involvesspecies, particularlyand, which support characteristic orange-capped taxa such as[,]. These associations highlight the ability of somelineages to specialize on fast-growing, disturbance-adapted trees, suggesting an ecological strategy linked to dynamic forest environments [].
+
+Associations with Fagaceae—including,, and Asianlineages—indicate diversification alongside major temperate and subtropical oak radiations [,,]. The presence of distinctassemblages in tropical montaneforests of Central and northern South America suggests independent regional radiations within these ecosystems [].
+
+Although less frequent, records ofassociated with ericaceous shrubs and conifers (,,,) [,] demonstrate that some species tolerate a relatively broad range of ectomycorrhizal partners. These atypical associations may reflect ecological plasticity, locally adapted populations, or unresolved cryptic species complexes.
+
+Overall, available evidence indicates thatis primarily associated with Betulaceae,, and Fagaceae, while retaining notable ecological breadth. Diversification within the genus appears closely linked to host shifts, geographic isolation, and forest-type specialization. Continued molecular investigation of ectomycorrhizal root tips and integrative taxonomic revision are likely to further expand the known host range and clarify whether currently recognized “generalist” species represent complexes of more specialized lineages.
+
+4.4. Insights into the Antibacterial and Antioxidant Potential of Leccinum Mushrooms
+
+Accumulating evidence demonstrates thatspecies exhibit meaningful antibacterial and antioxidant activities, supporting their growing recognition as potential functional foods and sources of bioactive compounds. Extracts obtained fromhave been shown to inhibit the growth of pathogenic bacteria, reinforcing broader observations that mushrooms produce metabolites with antimicrobial properties. Notably, microwave-assisted extraction (MAE) enhanced antibacterial efficacy compared to conventional methods, particularly againstand, emphasizing the importance of extraction strategy in maximizing bioactivity [].
+
+The antioxidant capacity ofmushrooms appears to be closely associated with their chemical composition, especially their phenolic compounds, flavonoids, and ascorbic acid content. Variability in radical scavenging activity (RSA) and total phenolics between methanolic and aqueous extracts highlights the strong influence of solvent polarity on the recovery of antioxidant constituents []. These findings suggest that differences in reported antioxidant capacity across studies may be partly methodological rather than exclusively species-dependent.
+
+Comparative analyses using HPTLC–DPPH–videodensitometry further contextualize the antioxidant performance ofspecies. Althoughdemonstrates measurable antioxidant activity, its effectiveness is lower than that ofand standard reference antioxidants such as ascorbic acid []. This comparison underscores that whilemushrooms are promising contributors to dietary antioxidants, their activity is highly species- and compound-specific. Collectively, these studies indicate thatmushrooms possess biologically relevant antibacterial and antioxidant properties, with potential applications in food preservation, nutraceutical development, and health-promoting formulations. Future research should prioritize the isolation of active molecules and optimization of extraction techniques to better harness these properties.
+
+4.5. Nutritional and Bioactive Significance of Leccinum Mushrooms
+
+Beyond their bioactivity,species demonstrate substantial nutritional value, reinforcing their role as multifunctional food resources. Species such as,, andare characterized by high carbohydrate and protein contents, favorable profiles of polyunsaturated fatty acids, and appreciable levels of essential vitamins and minerals [,]. These compositional features support their inclusion in human diets as sources of both macronutrients and health-promoting compounds.
+
+When considered alongside metabolomic analyses and antioxidant profiles, these results highlight the potential ofspecies not only as nutritious foods but also as valuable ingredients for functional and culinary applications. The presence of phenolic and organic acids inand, together with documented antioxidant activity, reinforces their broader nutraceutical relevance [].
+
+4.6. Elemental Accumulation, Bioindication, and Nutritional Implications of Leccinum Species
+
+Studies on the mineral composition ofmushrooms reveal pronounced species- and site-specific differences in elemental accumulation, reflecting both ecological function and nutritional significance. In, fruiting bodies contain high concentrations of essential macronutrients such as K, P, Mg, and Ca, alongside moderate levels of trace elements including Cu, Fe, Mn, and Zn. At the same time, toxic metals such as Ag, Cd, Hg, and Pb generally occur at low concentrations, indicating minimal risk to consumers under typical conditions [,]. Nevertheless, observed variability across locations and seasons highlights the importance of ongoing monitoring.
+
+Element-specific bioconcentration patterns further demonstrate the selective uptake capacity of. Positive bioconcentration factors have been reported for K, P, Cd, Cu, Hg, Mg, Na, Rb, and Zn, whereas elements such as Al, Ba, Ca, Co, Fe, Mn, Ni, Pb, and Sr exhibit limited accumulation []. These trends align with previous findings and suggest that metal uptake is regulated by both substrate chemistry and environmental conditions [].
+
+Long-term studies provide additional insight into the bioindicator potential ofspecies. Temporal and spatial variation in elemental content, including gradual increases in rare earth elements (REEs) over several decades, reflects changing environmental deposition patterns []. Importantly, despite these trends, dietary exposure to REEs through consumption ofmushrooms remains negligible.
+
+Research onfurther illustrates the ecological relevance of elemental accumulation. Pronounced enrichment of K and Cu relative to soil concentrations underscores its role in nutrient cycling and highlights its suitability for monitoring environmental health in protected forest ecosystems []. The generally low accumulation of Ni and consistency in soil metal content suggest limited anthropogenic impact in studied regions.
+
+Overall, these findings confirm thatspecies serve as effective indicators of environmental metal availability while simultaneously contributing nutritionally valuable elements to the human diet. Differences among species, anatomical parts, and habitats emphasize the complexity of metal uptake in mushrooms and the necessity of site-specific assessments for accurate evaluations of food safety, ecological monitoring, and human exposure.
+
+4.7. Bioaccumulation of Heavy Metals in Leccinum: Implications for Food Safety and Environmental Monitoring
+
+Collectively, the reviewed studies indicate that species withinconsistently function as effective bioaccumulators of both essential and toxic metals, although accumulation patterns vary substantially among species and regions. A recurring trend across multiple datasets is the preferential accumulation of metals in caps compared to stems, particularly for Hg, Cd, and Pb [,,]. This organ-specific partitioning has direct implications for human exposure, as caps are typically the primary edible portion.
+
+The elevated accumulation of Cd and Pb incollected from industrialized or mining-impacted landscapes reinforces the sensitivity of the genus to anthropogenic contamination [,]. In several cases, concentrations exceeded recommended safety thresholds, emphasizing that consumption risks are highly site-dependent. Mercury showed particularly strong bioaccumulation, with bioconcentration factors varying widely in response to soil contamination levels and species-specific physiological traits []. These findings highlight the need to integrate both environmental context and fungal biology when interpreting metal concentrations in edible mushrooms.
+
+At the same time,species consistently accumulated nutritionally important elements such as Cu, Zn, and K [,]. This dual role—as both nutrient sources and vectors of toxic metals—underscores the complexity of evaluating mushrooms solely as beneficial or hazardous food items. While soil chemistry influenced the uptake of certain elements (e.g., Ni, Cu, Mn), interspecific differences often exerted a stronger effect on accumulation patterns [,,], suggesting genetically mediated uptake mechanisms.
+
+Geographic variation further shaped observed metal loads. Elevated Cd concentrations reported infrom the Tarnobrzeska Plain, for example, may reflect combined influences of industrial activity and geogenic background levels []. Similarly, Hg accumulation inpopulations from Poland and Slovakia varied markedly among localities, pointing to heterogeneous contamination sources and the genus’s high accumulation capacity [,].
+
+Overall, these patterns confirmspecies as useful bioindicators of metal pollution, particularly for Hg, Cd, and Pb. While sporadic consumption from uncontaminated areas likely poses minimal health risk, frequent intake of specimens harvested from polluted environments may result in metal exposure exceeding tolerable limits. Consequently, site-specific monitoring and clear public guidance remain essential for safe foraging practices.
+
+4.8. Radionuclide Accumulation Dynamics in Leccinum: Regional Variation and Bioindicator Potential
+
+The reviewed literature demonstrates pronounced regional and ecological variability in radionuclide accumulation byspecies, driven by differences in fallout history, soil chemistry, habitat type, and fungal morphology. In regions with low contemporary radionuclide deposition, such as southern Italy,mushrooms generally exhibit low activities ofCs andK, resulting in negligible ingestion doses []. In contrast, areas affected by historical nuclear fallout, particularly Ukrainian Polissya, continue to show exceptionally highCs levels in several species, including[,].
+
+Within the genus, species- and organ-specific patterns are evident. Caps frequently contain higher radionuclide concentrations than stems, reflecting differential uptake and translocation processes. This trend is especially pronounced inand has been consistently reported across multiple studies []. Environmental conditions further modulate accumulation, with acidic, organic-rich bog ecosystems promoting enhancedCs uptake, as observed in[]. The reported correlation between hymenophore tubule density and radiocesium content suggests that morphological traits may serve as additional predictors of radionuclide accumulation [].
+
+Beyond radiocesium,species also accumulate naturally occurring radionuclides such asK andPo, which contributed most substantially to ingestion doses in northern regions, including Norway []. In contrast, uranium- and thorium-series radionuclides generally exhibited low bioconcentration factors and limited relevance for human health []. Localized arsenic accumulation near mining areas further illustrates the responsiveness ofto site-specific geochemical anomalies, although much of the arsenic appears to be tightly bound within less bioavailable fractions [].
+
+Taken together, these findings underscore the value ofas a bioindicator of radionuclide contamination, while also highlighting strong regional contrasts in public health relevance. Whereas mushrooms from Italy and Norway pose minimal radiological risk, those collected in certain Ukrainian and Belarusian regions may still exceed safety thresholds decades after the Chernobyl accident. Continued long-term monitoring and region-specific consumption advisories therefore remain critical.
+
+4.9. Biological and Biotechnological Significance of Bioactive Compounds from Leccinum Species
+
+Beyond their ecological role,species represent a chemically diverse group with emerging relevance in pharmacology, biotechnology, and environmental applications. Studies to date reveal a broad spectrum of bioactive metabolites, including sterols, small secondary metabolites, and structurally complex polysaccharides.
+
+Metabolic regulation is another recurring theme. Extracts ofdemonstrated strong α-glucosidase inhibitory activity, supported by in vivo evidence from Drosophila models []. These results suggest that certainspecies may contribute bioactive compounds relevant to dietary strategies for glycemic control.
+
+Additional functional properties include antioxidant, antimicrobial, and anticancer activities. Phenolic extracts frominduced apoptosis and DNA damage in MCF-7 breast cancer cells [], whileextracts exhibited antioxidant and antimicrobial effects correlated with phenolic content []. Although many of these studies remain limited to in vitro systems, they collectively point to multiple, complementary bioactive compound classes within the genus.
+
+Interactions with the human immune system further extend the biological relevance of. The selective recognition of glycosylinositol phosphorylceramides fromby heterophile antibodies in human sera suggests that dietary or environmental exposure to mushroom glycans may have immunological consequences [].
+
+Finally, environmental and agricultural applications broaden the functional scope of the genus. The demonstrated ability ofto degrade DDT and generate identifiable metabolites indicates potential for bioremediation [].
+
+Overall, the literature portraysas a multifunctional genus with relevance spanning medicine, biotechnology, environmental remediation, and agriculture. While many findings remain preliminary, the diversity of compounds and biological targets provides a strong foundation for future mechanistic and translational research.
+
+4.10. Research Gaps and Future Directions
+
+Even though thegenus has shown an increased attention from researchers, there are still significant research gaps, especially related to its evolution, ecology and chemistry.
+
+The resolution of leccinoid lineages remains a significant challenge. For example, the boundaries separatingsensu stricto from morphologically similar genera, including, remain poorly defined. This gap requires genome-scale datasets designed specifically for this taxonomic characters.
+
+Another unexplored aspect is caused by the rapid oxidative colour reactions of. These vary among lineages and environments, despite their potential utility as taxonomic markers.
+
+In addition, there is a cryptic diversity linked to host specificity. For example, some birch or poplar species can mask host-driven speciation events unique toResolving this hidden diversity will require integrated approaches that synthesize host identity, population genomics, and fine-scale morphology.
+
+In contrast to most ECM genera,species commonly exhibit remarkably narrow ecological niches, forming partnerships exclusively with Betulaceae or Salicaceae members. The molecular basis and evolutionary consequences of this fidelity remain unexplained.
+
+Another research gap in this category refers to host switching and postglacial history. For example, Northern Hemispheredistributions showcase a continuous postglacial expansion alongside specific tree lineages. However, in order to test this hypothesis, a phylogeographic approach must be studied specifically for this genus.
+
+Furthermore, there are some subtropical associations that haven’t been yet explored. For example. the association ofwith evergreen Fagaceae and tropical hosts raises important questions about their origin (recent host shifts, overlooked endemic lineages, or ecological convergence.
+
+The common bluing and darkening reactions ofspecies, when compared with related boletes, signify that this distinct enzymatic system still needs to be studied chemically and genetically. In addition, studies indicate an unusually high variation in trace elements, amino acids, and profiles amongspecies, yet systematic comparative investigations remain lacking. And let’s not forget the untapped pharmacological relevance of this species. Although bioactivity studies focus on some species, they still have to explore and focus on the unique sterols and phenolic profiles that differ from other Boletaceae.
+
+species consistently demonstrate high uptakes of Hg, Cd, and K, often exceeding sympatric ECM fungi. This indicates specific transportation or sequestration mechanisms that need to be further analysed. Furthermore, variation in metal accumulation remains poorly quantified although it can be a unique bioindicator value for this species. Not lastly, despite its importance as a harvested food resource, there are not many studies covering the accumulation of elements during cooking or drying.
+
+species can be used in bioindication processes and forest monitoring due to their host specificity and predictable accumulation profiles. This usage can be helpful in evaluating forest health and soil contamination, and requires further studies. Furthermore, the species can also be used in restoration processes, as the species is highly dependent on its host. As such, further studies should focus on reforestation programs, especially those targeting birch or poplar systems. And, not lastly, several non-ediblespecies should be further valorised as they are valuable sources of enzymes, pigments, or metal-binding compounds.
+
+Targeted Future Directions
+
+Future research onshould prioritize genome-scale phylogenesis (in order to solve leccinoid boundaries and species complexes), host connection (especially host fidelity, host-driven speciation, and bioaccumulation analysis linked to host identity), unique aspects to this genus (like its oxidative pigmentation and enzyme systems), as well as its evaluation as a tool useful in bioindication, restoration ecology, and applied mycology.
+
+Taxonomy and evolutionary complexity within
+
+2.
+
+Host association patterns unique to
+
+3.
+
+Genus-specific biochemistry and bioactivity
+
+4.
+
+Selective bioaccumulation as a diagnostic trait
+
+5.
+
+Applied potential focused on
+
+5. Conclusions
+
+This review demonstrates thatis a globally important genus with significant ecological, nutritional, and applied relevance. Bibliometric analysis confirms a steady increase in research output, dominated by studies from Europe, Asia, and North America, but also reveals clear geographic and taxonomic gaps.
+
+Ecologically,species are key ectomycorrhizal fungi associated with a wide range of woody hosts across diverse biomes. Recent molecular studies have substantially revised species boundaries, exposing cryptic diversity and underscoring the need for continued integrative taxonomic work. Functional studies further indicate marked physiological and biochemical diversity within the genus.
+
+From a human-use perspective,species represent valuable edible mushrooms with notable nutritional quality and bioactive potential, while simultaneously exhibiting a strong capacity to bioaccumulate heavy metals and radionuclides. This duality highlights their relevance both as functional foods and as bioindicators of environmental contamination.
+
+Overall, the evidence synthesized here identifiesas a promising yet underexplored genus. Future research should prioritize integrative, standardized, and globally coordinated approaches to resolve taxonomy, clarify functional roles, and responsibly develop applications in environmental monitoring, biotechnology, and human health.
