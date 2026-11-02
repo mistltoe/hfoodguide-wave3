@@ -1,0 +1,104 @@
+[
+ {
+  "where": "sections.overview",
+  "before": "새삼의 변종 학명(Cuscuta japonica var. thyroidea)이 나란히 적혀 있는데, 새삼(Cuscuta japonica Choisy)은 씨앗만 제한적으로 쓰는 별도 원료로 따로 올라 있어 이 병기는 목록 자료의 오기로 보인다[1].",
+  "after": "새삼의 변종 학명(Cuscuta japonica var. thyroidea Engelm. / Kom.)이 나란히 적혀 있다[1]. 원자료에는 이 병기의 이유가 적혀 있지 않아 확인하지 못함. 새삼(Cuscuta japonica Choisy)은 씨앗만 '제한적사용'인 별도 원료(새삼씨앗·새삼씨앗가루)로 따로 올라 있으므로, 이 원료(잎)는 Urtica urens로 보고 새삼 자료와 섞지 않는다[1].",
+  "why": "원자료 학명란은 세 학명을 '/'로 나열할 뿐 오기라는 근거가 없음 — 추정('오기로 보인다')을 사실 확인 범위로 낮춤"
+ },
+ {
+  "where": "sections.overview",
+  "before": "잎 추출물에서는 클로로겐산이 주된 폴리페놀로 정량되었고[4][5]",
+  "after": "지상부 에탄올 추출물에서는 클로로겐산이 주된 폴리페놀로 정량되었고[4][5]",
+  "why": "[4] 전문: 시료는 잎이 아니라 지상부(aerial parts) 80% 에탄올 추출물"
+ },
+ {
+  "where": "sections.biology",
+  "before": "잎은 큰쐐기풀(U. dioica)보다",
+  "after": "잎은 스팅잉네틀(U. dioica)보다",
+  "why": "'큰쐐기풀' 국문명은 출처 없음 — 식품원료 목록 대표명 '스팅잉네틀'로 통일"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "가장 혼동하기 쉬운 종은 큰쐐기풀(스팅잉네틀, Urtica dioica)이다",
+  "after": "가장 혼동하기 쉬운 종은 스팅잉네틀(Urtica dioica)이다",
+  "why": "'큰쐐기풀' 국문명은 출처 없음"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "국내 자생 쐐기풀(Urtica thunbergiana)",
+  "after": "쐐기풀(Urtica thunbergiana Sieb. et Zucc.)",
+  "why": "[1] 은 '국내 자생'을 말하지 않음(학명·사용불가만 확인)"
+ },
+ {
+  "where": "sections.related_species",
+  "before": "항염 효과는 U. dioica보다 강하게 나왔다고",
+  "after": "시험관 항염 효과는 U. dioica보다 강하게 나왔다고",
+  "why": "[10] 초록: in vitro 결과임을 명시(세포 결과 과장 방지)"
+ },
+ {
+  "where": "sections.genetics",
+  "before": "대개 사배체인 큰쐐기풀과 구별된다",
+  "after": "사배체로 보고된 영국의 스팅잉네틀(U. dioica subsp. dioica)과 구별된다",
+  "why": "[3] 은 U. dioica subsp. dioica 개체가 사배체로 보고되었다고 씀; '큰쐐기풀' 국문명 출처 없음"
+ },
+ {
+  "where": "sections.processing",
+  "before": "식품으로는 다른 쐐기풀처럼 어린잎을 익혀 나물로 먹으며, 익히면 쐐기털의 자극이 사라지는 것으로 알려져 있다[3].",
+  "after": "식품으로는 다른 쐐기풀처럼 어린잎을 익혀 나물로 먹는다[3].",
+  "why": "[3] 전문은 '익혀 먹는 나물로 먹을 수 있다'만 쓰고 익히면 자극이 사라진다는 말은 없음"
+ },
+ {
+  "where": "sections.processing",
+  "before": "말린 잎을 육계 사료에 1%·2% 섞어 먹였고",
+  "after": "말린 지상부(줄기·잎 분쇄물)를 육계 사료에 1%·2% 섞어 먹였고",
+  "why": "[26] 전문: 12월에 지상부를 50 °C에서 말려 줄기와 잎을 함께 분쇄해 씀"
+ },
+ {
+  "where": "sections.safety",
+  "before": "따가움과 두드러기를 일으키므로 손질할 때 장갑을 쓰는 것이 좋다[3][19].",
+  "after": "따가움과 두드러기(접촉성 두드러기)를 일으킨다[3][19].",
+  "why": "장갑 권고는 출처 [3][19]에 없음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "이 종의 잎을 잘못 사용한 뒤 심한 혀 부종이 생긴 사례 보고가 있다[20]. 다만 초록이 없어 섭취 경위와 용량은 확인하지 못함.",
+  "after": "제목에 '쐐기풀(Urtica urens)'로 적힌 약초를 잘못 사용한 뒤 심한 혀 부종이 생긴 증례 보고가 있다[20]. 다만 초록이 없어 사용 부위·섭취 경위·용량은 확인하지 못했고, PubMed 색인어는 Urtica dioica로 달려 있어 기원 종도 분명하지 않다[20].",
+  "why": "[20] 은 초록 없음 — '잎'은 확인 불가, MeSH 가 Urtica dioica 로 색인되어 종 혼동 가능성 표시"
+ },
+ {
+  "where": "sections.safety",
+  "before": "유럽 연구에서는 지상부 추출물이 생리활성 농도(200·350 μg/mL)에서 대식세포와 간세포에 독성을 보이지 않았다[10].",
+  "after": "포르투갈 연구의 세포 실험에서는 지상부 추출물이 생리활성 농도(200·350 μg/mL)에서 대식세포와 간세포에 독성을 보이지 않았다[10].",
+  "why": "세포 실험임을 명시"
+ },
+ {
+  "where": "sections.safety",
+  "before": "쥐에 씨앗 추출물을 복강 주사한 실험에서는",
+  "after": "쥐에 씨앗 추출물을 투여한 실험(복강 주사, 200 mg/kg/일 4일 등)에서는",
+  "why": "[22] 초록: 복강 200 mg/kg/day 4일; [21] 초록은 경로를 밝히지 않음"
+ },
+ {
+  "where": "sections.safety",
+  "before": "같은 의견서는 EFSA 식물 성분 목록이 이 종의 잎에서 항영양소인 피트산(4730 mmol/kg 건조물)을 우려 성분으로 적었다고 전한다[2].",
+  "after": "같은 의견서는 EFSA 식물 성분 목록(Compendium)이 남아프리카 연구[15]를 근거로 이 종의 잎에서 항영양소인 피트산(4730 mmol/kg 건조물, 의견서 표기 그대로)을 우려 성분으로 적었다고 전한다[2].",
+  "why": "[2] 전문: Compendium 값의 근거가 Afolayan & Jimoh(=[15])임을 밝힘; 단위는 의견서 표기 그대로라고 명시"
+ },
+ {
+  "where": "compounds.Chlorogenic acid.part",
+  "before": "지상부·잎",
+  "after": "지상부",
+  "why": "[4][12] 모두 지상부 추출물"
+ },
+ {
+  "where": "compounds.Polyphenols.content_text",
+  "before": "잎 물 추출물 47.83 mg GAE/g DW[7]; 잎 70% 에탄올 추출물 31.41 mg GAE/g[13]; 잎 에탄올 추출물 16.86 mg GAE/g DW[8]; 지상부 80% 에탄올 추출물 4.18 mg GAE/100 mg 추출물[4]; 잎 물 추출물 19.20 mg GAE/g 생체중[6]; 잎 팅크 72 μg/mL(69–77, 갈산 당량)[2]",
+  "after": "잎 물 추출물 47.83 mg GAE/g DW[7]; 잎(채집 기록은 지상부) 70% 에탄올 추출물 31.41 mg GAE/g[13]; 잎 에탄올 추출물 16.86 mg GAE/g DW[8]; 지상부 80% 에탄올 추출물 4.18 mg GAE/100 mg 추출물[4]; 잎 물 추출물 19.20 mg GAE/g(원문은 생체중 기준이라 표기했으나 시료는 말린 잎 분말)[6]; 잎 팅크 72 μg/mL(69–77, 갈산 당량)[2]",
+  "why": "[6] 전문: 말린 잎을 추출했는데 결과는 'fresh weight'로 표기 — 생/건 기준 모호함을 밝힘; [13] 방법은 지상부 채집"
+ },
+ {
+  "where": "compounds.Flavonoids.content_text",
+  "before": "잎 물 추출물 10.30 mg RE/g DW[7]; 잎 70% 에탄올 추출물 6.81 mg 퀘르세틴/g[13]; 잎 에탄올 추출물 2.46 mg RE/g[8]; 지상부 80% 에탄올 추출물 1.87 mg QE/100 mg 추출물[4]; 잎 물 추출물 18.3 mg QE/g 생체중[6]",
+  "after": "잎 물 추출물 10.30 mg RE/g DW[7]; 잎 70% 에탄올 추출물 6.81 mg 퀘르세틴/g[13]; 잎 에탄올 추출물 2.46 mg RE/g[8]; 지상부 80% 에탄올 추출물 1.87 mg QE/100 mg 추출물[4]; 잎 물 추출물 18.3 mg QE/g(원문 생체중 표기, 시료는 말린 잎)[6]",
+  "why": "[6] 생/건 기준 모호함 표시"
+ }
+]

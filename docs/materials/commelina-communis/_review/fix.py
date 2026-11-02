@@ -1,0 +1,31 @@
+import json,sys
+p=sys.argv[1]; d=json.load(open(p))
+changes=[]
+def rep_sec(key,old,new,why):
+    for s in d['sections']:
+        if s['key']==key:
+            assert old in s['body'],(key,old)
+            s['body']=s['body'].replace(old,new); changes.append({"where":f"sections.{key}","before":old,"after":new,"why":why}); return
+    raise SystemExit(key)
+rep_sec('overview',"따라서 어린 순은 일반 식품원료로","따라서 순은 일반 식품원료로","원자료[1]의 부위·조건은 '순'이며 '어린'이라는 한정은 없음")
+rep_sec('overview',"제한적사용 원료에 적용되는 식품공전의 구체적인 사용량·사용 방법 기준은 원문으로 확인하지 못함.","목록의 사용조건 칸이 비어 있어 제한적사용 원료로서 어떤 식품에 얼마나 쓸 수 있는지는 목록만으로 알 수 없고, 식품공전의 해당 기준 원문도 이번 대조에서 열지 못해 확인하지 못함.","사용조건 칸이 비어 있다는 원자료 사실과 미확인 사유를 분명히 함")
+rep_sec('safety',"동물 실험에서는 총 알칼로이드 8–32 mg/kg/일을 6일간 먹인 생쥐에서 독감 감염 생존율이 높아졌다[12]. 이 결과들은 동물·세포 수준이며 사람의 안전 섭취량을 뜻하지 않는다[11][12].","동물 실험으로는 독감 바이러스에 감염시킨 생쥐에 총 알칼로이드 8·16·32 mg/kg/일을 6일간 먹인 효능 연구가 있으나[12], 독성을 평가한 연구가 아니므로 안전성 근거로 볼 수 없다. 이 결과들은 세포·동물 수준이며 사람의 안전 섭취량을 뜻하지 않는다[11][12].","[12]는 감염 생쥐의 효능(생존율) 연구로, 안전성 근거처럼 읽히지 않게 고침")
+rep_sec('safety',"달개비는 탄수화물 소화 효소를 억제해 생쥐의 식후 혈당 상승을 아카보스보다 더 잘 억제했으므로[3], 혈당강하제를 먹는 사람에서의 상호작용은 확인하지 못함.","달개비 물 추출물은 α-글루코시다아제를 억제했고, 정상·STZ 당뇨 생쥐에서 맥아당·전분 부하 뒤 고혈당을 아카보스보다 더 잘 줄였다[3]. 이는 생쥐 결과이며, 혈당강하제를 먹는 사람에서의 상호작용 자료는 확인하지 못함.","[3] 원문은 물 추출물·맥아당/전분 부하 생쥐 실험 — 주어 일반화를 줄이고 동물 결과임을 밝힘")
+rep_sec('safety',"구리를 많이 쌓는 집단은 잎 건조중량 1 g당 1,000 μg 넘게 구리를 축적했으므로[17], 광산·오염 지역에서 채취한 개체는 피하는 것이 안전하다.","구리를 많이 쌓는 집단은 잎 건조중량 1 g당 1,000 μg 넘게 구리를 축적하고도 생리적 손상이 적었다[17]. 이 연구는 식물 생리 연구이며 섭취 위험을 평가하거나 채취 지역을 권고하지 않았다. 다만 이 축적 특성으로 보아 광산·오염 지역에서 자란 개체는 먹지 않는 편이 낫다는 것은 이 자료의 판단(출처 없는 권고)이다.","출처[17]가 하지 않은 권고(오염 지역 개체 회피)를 근거와 구별해 작성자 판단임을 밝힘")
+for c in d['compounds']:
+    if c['name']=='Homonojirimycin':
+        old=c['activity_ko']; c['activity_ko']="인플루엔자 A(H1N1) 증식 억제(세포)[14]; 감염 전후 경구 투여한 생쥐에서 생존율·생존 기간 개선, 1 mg/kg에서 혈청·폐 사이토카인 변화(동물)[13]"
+        changes.append({"where":"compounds[Homonojirimycin].activity_ko","before":old,"after":c['activity_ko'],"why":"[13] 초록에서 1 mg/kg은 사이토카인 측정 용량으로만 나오고 생존율 용량은 명시되지 않음"})
+    if c['name']=='Norharmane':
+        old=c['activity_ko']; c['activity_ko']="노르하르만 자체 활성은 확인하지 못함. 근연 성분 하르만은 총 알칼로이드에서 분리되었으나 강한 항바이러스 활성은 HNJ만 보였음[14]"
+        changes.append({"where":"compounds[Norharmane].activity_ko","before":old,"after":c['activity_ko'],"why":"[14]는 '오직 HNJ만 강한 활성'이라고만 씀(하르만 '활성 없음'은 과장); 노르하르만≠하르만 구분"})
+for s in d['sources']:
+    if s['n']==32:
+        old=s['title']; s['title']=old.replace("2022;300:115803","2022;301:115803")
+        changes.append({"where":"sources[32].title","before":"J Ethnopharmacol 2022;300:115803","after":"J Ethnopharmacol 2022;301:115803","why":"PubMed 서지: 권 301"})
+    if s['n']==35:
+        old=s['title']; s['title']=old.replace("Protoplasma 2026 (PMID","Protoplasma 2026;263(5):1593-1611 (PMID")
+        changes.append({"where":"sources[35].title","before":"Protoplasma 2026","after":"Protoplasma 2026;263(5):1593-1611","why":"PubMed 서지로 권·호·쪽 보완"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

@@ -1,0 +1,80 @@
+{
+ "slug": "todarodes-pacificus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 62,
+ "checked_items": 61,
+ "verified": 111,
+ "fixed": 10,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분도 없다[1].",
+   "after": "「건강기능식품의 기준 및 규격」에는 이 학명으로 지정된 고시형 원료가 없지만, 글루코사민·N-아세틸글루코사민·키토산/키토올리고당의 원재료로 '연체류(오징어, 갑오징어 등)의 뼈'가, 뮤코다당·단백의 원재료로 '오징어'를 포함한 여러 동물의 연골조직이 종 구분 없이 적혀 있다[36]. 뮤코다당·단백의 원재료는 고시 제2026-43호에 따라 2027년 1월 1일부터 '돼지, 닭, 상어의 연골조직'으로 좁혀진다[36]. 식품원료 목록에는 학명 없이 '정제오징어유' 개별인정 원료 2건(제2009-38호·제2009-76호)도 있으나, 이 종과의 대응은 확인하지 못함[1].",
+   "why": "고시 원문(2-30 글루코사민, 2-31 NAG, 2-32 뮤코다당·단백, 2-49 키토산/키토올리고당)에 '오징어' 원재료가 일반명으로 있어 '원재료 목록에 없다'는 서술이 틀림; I1020에 정제오징어유 개별인정 행 존재"
+  },
+  {
+   "where": "sections.history",
+   "before": "2013년 논문은 지난 3년 동안 동해안에서 해마다 약 2만 톤이 잡혔으며",
+   "after": "2013년 논문은 지난 3년 동안 동해안에서 약 2만 톤(연간인지 3년 합계인지 원문 표현이 분명하지 않음)이 잡혔으며",
+   "why": "[8] 원문은 'About 20,000 M/T ... for the past 3 years'로 '해마다'라고 하지 않음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "2013년 논문 기준 동해안 어획량은 해마다 약 2만 톤이었으나",
+   "after": "2013년 논문은 지난 3년간 동해안 어획량을 약 2만 톤으로 적었으나",
+   "why": "[8] 원문에 '해마다'라는 표현 없음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "일본에서는 심층수로 사육하면 표층수보다 체중 감소가 적었다(2.5% 대 6.95%)는 사육 연구가 있어 양식 기술은 아직 연구 단계로 보인다[34].",
+   "after": "일본에서는 36시간 사육 실험에서 심층수로 기르면 표층수보다 체중 감소가 적었다(2.5% 대 6.95%)는 연구가 있고, 저자들은 이를 심층수를 쓴 오징어 양식에 기여할 결과로 보아, 양식은 아직 연구 단계에 있다[34].",
+   "why": "[34] 초록: 사육 기간 36시간 명시, '양식 연구 단계'는 저자 문장이 아니므로 출처 밖 판단으로 분리"
+  },
+  {
+   "where": "sections.biology",
+   "before": "반딧불오징어류(Watasenia scintillans)와 가까운 관계",
+   "after": "매오징어(Watasenia scintillans)와 가까운 관계",
+   "why": "식품원료 목록에서 W. scintillans 의 국문명은 '매오징어'이고 '반딧불오징어'는 Enoploteuthis chunii 행이어서 다른 종과 혼동됨"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "이 중복은 반딧불오징어와 공유된다[22]",
+   "after": "이 중복은 매오징어(Watasenia scintillans)와 공유된다[22]",
+   "why": "같은 이유(국문명 혼동)"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "지난 200만 년의 인구 역사로",
+   "after": "지난 200만 년의 집단(개체군) 역사로",
+   "why": "demographic history 는 사람 인구가 아님"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이 가운데 빨강오징어·아메리카대왕오징어·I. argentinus는 살오징어와 함께 Ommastrephidae과 공통 프라이머로 검출되는 종으로 다뤄졌다[24].",
+   "after": "이 가운데 빨강오징어·아메리카대왕오징어·I. argentinus는 살오징어와 함께 중국 시장의 흔한 오징어 4종으로 묶여 실시간 PCR 판별 대상이 되었다(살오징어·아메리카대왕오징어는 COI, 빨강오징어는 Cytb, I. argentinus는 ATPase 6 유전자 표적; 과 공통 프라이머는 12S rDNA)[24].",
+   "why": "[24] 초록: 종별 표적 유전자가 다르고 과 공통 프라이머는 12S rDNA — 원 문장은 종 판별 방식을 부정확하게 요약"
+  },
+  {
+   "where": "sections.safety",
+   "before": "동중국해 시료에서도 소화샘의 카드뮴이 다른 해역 근연종보다 높았고",
+   "after": "동중국해 시료(살오징어 8개체)에서도 소화샘의 카드뮴이 다른 해역의 비슷한 종 보고치보다 높았고",
+   "why": "[6] 초록: 'higher than similar species from other regions', 표본 수 4+4"
+  },
+  {
+   "where": "compounds[Ile-Ile-Tyr].part",
+   "before": "외투막 미오신 중쇄(가상 분해)",
+   "after": "미오신 중쇄(가상 분해)",
+   "why": "[31] 초록은 '미오신 중쇄'만 말하고 외투막 부위는 언급 없음"
+  }
+ ],
+ "unverifiable_notes": [
+  "통계청 어업생산동향조사 품목 '오징어'와 학명 Todarodes pacificus 의 대응: KOSIS·koreascience 가 이 환경의 허용 목록 밖이고 로컬 docs/stats 에 오징어 자료가 없어 확인하지 못함(본문 '확인하지 못함' 유지)",
+  "[8]·[23]·[29]·[31] 은 PubMed 표기에서 이탤릭 학명이 빠져 있으나, 네 편 모두 PubMed 키워드에 'Todarodes pacificus'가 있고 [8] 본문은 Ommastrephidae·강릉 주문진 어획, [23] 제목은 Ommastrephidae·북서태평양, [29] 초록은 'Japanese flying squid', [31] 키워드가 일치해 이 종 자료로 판단함(대응 타당)",
+  "[5] 표 1 값(50.4 ± 26.1 µg/g 습중량, n=90 조직, 10–95)과 [8] 본문(8주, 45–50 cm, 주문진, 간 포함 통째 섭취 식습관)은 PMC 전문으로 확인; 나머지 논문은 초록 기준",
+  "I1020 원자료로 살오징어(사용가능, 전체(내장 제외))·살오징어내장(사용불가)·European flying squid(T. sagittatus)·가공품 '오징어' 행 학명(Doryteuthis bleekeri 등)·빨강오징어 분류 '식물' 표기 모두 확인; T. sagittatus 자료 섞임 없음",
+  "국내 알레르기 유발물질 표시 기준 원문은 로컬 자료가 없어 확인하지 못함(본문 그대로)"
+ ]
+}

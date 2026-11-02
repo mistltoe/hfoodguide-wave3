@@ -1,0 +1,558 @@
+{
+ "slug": "melanogrammus-aeglefinus",
+ "name_ko": "해덕대구",
+ "name_en": "Haddock",
+ "scientific_name": "Melanogrammus aeglefinus",
+ "aliases": [
+  "해덕대구",
+  "Haddock",
+  "Atlantic haddock"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "해덕대구(Melanogrammus aeglefinus)는 대구과(Gadidae)에 속하는 바닷물고기로, 영어로는 haddock이라 부른다[1, 7]. 북대서양 양쪽에 살며 대서양대구와 산란 시기·장소가 자주 겹친다[10]. 바렌츠해의 북동북극(NEA) 자원이 현재 이 종에서 가장 큰 자원이다[9].\n\n식약처 「식품원료 목록」에는 원료명 '해덕대구'(영문 Haddock)가 식품원료(A코드) 수산물로 올라 있고 상태는 '사용가능'이다[1]. 부위 칸은 '-'이고 따로 정한 사용 조건은 없으며, 건강기능식품 고시형 원료의 원재료도 아니어서 고시 지표성분이나 1일 섭취량 기준은 없다[1]. 같은 목록에서 '대구'는 태평양대구(Gadus macrocephalus), '대서양대구'는 Gadus morhua, '명태'는 Gadus chalcogrammus로 따로 올라 있으므로, 이름에 '대구'가 들어 있어도 서로 다른 원료다[1].\n\n살은 지방이 적은 흰살생선(대구목)에 속하며, 영국 소매점에서 산 해산물 95종 가운데 요오드 평균값이 가장 높은 종이었다[3]. 국내 유통·수입 현황은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "해덕대구는 대서양대구·검정대구와 함께 유럽에서 가장 중요한 수산 자원으로 꼽히며, 2021년 노르웨이에 양륙된 북동북극 자원은 해덕대구 약 10만 톤이었다[2]. 세 어종의 어획 가치는 다른 상업 어종 전체를 합친 것보다 컸고, 어획물 대부분은 유럽 여러 시장으로 수출된다[2].\n\n영국에서는 대구와 해덕대구가 흰살생선 시장의 주요 어종이어서, 영국 대형 슈퍼마켓 흰살생선 제품 386점을 두 어종 특이 실시간 PCR과 COI 바코드로 검사한 연구가 있다[18]. 이 조사에서 94.34%는 표시가 맞았으나, 틀린 경우는 대개 더 싼 어종으로 바뀐 것이었다[18]. 영국의 흰살생선 소비는 1974년 1인당 주 44 g에서 약 15 g으로 줄었다고 보고되었다[3].\n\n노르웨이 등 유럽에서는 생선 케이크를 전통적으로 먹어 왔고, 스칸디나비아에서는 보통 대구·해덕대구 같은 흰살생선으로 만든다[4]. 한 연구는 해덕대구 100% 배합을 기준으로 고등어를 섞은 케이크를 비교했다[4]. 훈제 해덕대구 같은 가공품도 생선 알레르기 연구의 대상이 되었다[25]. 국내 도입·이용의 역사 기록은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "서대서양 분포의 북쪽 끝인 뉴펀들랜드 남부에서는 주로 수온 약 4–8 °C의 따뜻하고 깊은 대륙붕 사면에 모였다[12].\n\n먹이에서는 극피동물이 모든 해역에서 꾸준히 나타나고, 다른 대구류와 달리 자라면서 물고기를 먹는 비율이 뚜렷이 늘지 않는다[13]. 조지스뱅크에서는 해덕대구가 많을 때 청어 알을 잡아먹어, 어획을 줄여도 청어 자원이 낮은 수준에 머물 수 있다는 분석이 나왔다[15]. 북동북극 자원에서는 피질포 난모세포 단계가 4–5개월 이어지고, 전장 70 cm 개체가 40 cm 개체보다 약 3주 일찍 산란하며 산란기는 약 3개월에 걸친다[9]. 산란기(2–5월)에는 소리를 거의 계속 내며, 이 소리로 산란장을 찾아낼 수 있다[11]. 12 °C에 적응시킨 해덕대구의 임계 최고수온은 23.9 °C로 대구보다 높았고, 임계 유영속도도 초당 몸길이 3.02배로 대구(2.62배)보다 빨랐다[16]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종",
+   "body": "해덕대구는 대서양대구·태평양대구·명태·whiting(Merlangius merlangus)과 같은 대구과에 속한다[7, 19]. 미토콘드리아 유전체 길이는 해덕대구 16,585 염기, whiting 16,569 염기, 대서양대구 16,696 염기, 명태 16,570 염기로 보고되었다[7]. 북해에서는 같은 나이에서 암컷이 더 크게 자라며, 암컷 비율이 우세해지는 길이가 whiting 약 30 cm, 대서양대구 약 35 cm, 해덕대구 약 60 cm였다[14].\n\n바렌츠해에서 해덕대구와 대서양대구의 관계는 2–3세 무렵 포식-피식에서 경쟁으로 바뀌고, 대구 어획이 늘면 해덕대구 자원이 늘어나는 보상 관계가 나타났다[17]. 원료·가공품 속 대구류를 가려내기 위해 12S rDNA(대구과 판별)와 Cytb 유전자(종 판별)를 표적으로 대서양대구·태평양대구·해덕대구를 구별하는 LAMP 검사가 개발되었고 해덕대구의 상대 검출한계는 1%였다[19]. 식약처 목록에서도 해덕대구, 대구(태평양대구), 대서양대구, 명태, whiting은 각각 다른 원료로 올라 있다[1]. 국내 시장의 대체·혼입 실태는 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 자원",
+   "body": "바렌츠해 남부 연구 시료는 2019년 겨울·봄에 현지 어민이 덴마크식 후릿그물과 연승으로 잡은 것이었다[2]. 연승 어선이 2021년 3월 북동대서양(FAO 27 해역)에서 잡은 해덕대구는 배 위에서 머리를 자르고 내장을 뺐다[5]. 노르웨이의 2021년 흰살생선 어획량은 약 70만 8천 톤이었고, 해덕대구 머리는 전체 무게의 18.7%를 차지한다[5].\n\n해덕대구는 같은 해역의 대구보다 가입량(새로 자원에 들어오는 어린 고기)의 해마다 변동이 크다[10]. 바렌츠해에서는 수온 상승이 해덕대구 유생 수를 늘렸지만 더 나이 든 연령군에는 뚜렷한 영향이 없었다[17]. 뉴펀들랜드 해역이 따뜻해지면 이 지역 생산성이 좋아질 수 있다고 예측되었다[12].\n\n양식 연구에서는 사료 지방을 12–24%로 높여 먹인 어린 해덕대구의 간 지방이 73.8–79.3%(습중량)로 늘었으나 흰 근육 지방은 0.8%로 변하지 않아, 간이 주된 지방 저장 기관임이 확인되었다[20]. 알은 분산된 원유 방울이 껍질에 붙어 기름 유출에 특히 민감하며, 8일 노출 실험에서 총 다환방향족탄화수소 0.1 μg/L는 성장·생존에는 해가 없었으나 난황 자어의 심실 발달이 줄어, 저자들은 이 농도를 위해성 평가의 영향 기준치로 권고했다[31]. 세계 어획 통계(FAO)와 상업 양식 현황은 이 환경에서 원문을 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "노르웨이 소매점에서 산 해덕대구 필레를 갈아 소금·감자전분·우유를 섞고 유채기름에 지진 생선 케이크에서, 살 일부를 고등어로 바꾸면 EPA·DHA가 늘었고 고등어를 섞어도 소비자 수용도는 떨어지지 않았다[4]. 필레·케이크의 지방과 EPA+DHA 수치는 원문 표에만 있어 이번 대조에서 확인하지 못함.\n\n해덕대구 머리는 단백질 17.1%, 수분 79.1%, 회분 6.9%였고, 효소 가수분해 단백질 수율은 원료 100 g당 6.3–7.1 g이었다[5]. 해덕대구 머리 가수분해물은 지방이 건조 중량의 0.44%로 낮았으나 회분이 평균 12.7%로 비교 4종 중 가장 높았다[5]. 머리를 6개월 냉동 보관해도 수율·조성은 거의 변하지 않았지만 단백질 용해도는 낮아졌다[5].\n\n필레에 200–300 MPa 고압 처리를 한 연구는 고압 처리가 이노신이 하이포잔틴으로 바뀌는 속도를 늦춘다고 결론지었으나, 해덕대구에서는 하이포잔틴 자체가 유의하게 줄지 않았고 단백질 함량은 줄었다[21]. 껍질에서 얻은 산가용성 콜라겐은 I형으로 보이며, 그 가수분해물은 생쥐 상처 치유를 앞당겼다(동물실험)[22]. 모의 소화한 해덕대구 가수분해물을 고혈압 쥐에 4주 먹인 실험에서는 혈압 상승을 유의하게 막지 못했다[23]. 사람 대상 근거와 국내 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "해덕대구의 핵 유전체는 PacBio 긴 읽기와 Illumina 짧은 읽기를 함께 써서 조립되었고, 조기어류 보존 유전자 4,584개 중 90% 넘게가 완전한 형태로 확인되었다[6]. 걸러낸 유전자 모델은 27,437개였다[6]. 짧은 직렬 반복 서열 밀도는 해덕대구 96,364 bp/Mbp로 대서양대구(80,706 bp/Mbp)보다 높았고, 단백질 암호화 부분에서도 25,639 bp/Mbp로 대구(16,501 bp/Mbp)보다 높았다[6].\n\n대구목은 주조직적합복합체(MHC) II 유전자를 잃은 계통이며, 세 엑손을 모두 갖춘 MHC I 영역은 대서양대구 13곳, 해덕대구 10곳으로 대구 쪽이 더 크게 늘어나 있었다[6]. NOD 유사 수용체 유전자군은 경골어류 공통으로 크게 늘어나 있었다[6].\n\n미토콘드리아 유전체 전체 염기서열(16,585 염기)은 2006년 처음 보고되었고 tRNA-Thr와 tRNA-Pro 사이에 70 bp의 긴 간격 서열이 있다[7]. 1999년에는 해덕대구의 미세위성 표지가 분리·보고되었다[8]. 아이슬란드 해역에서는 기생충 군집을 자원 구분의 생물 표지로 쓸 수 있다는 가능성이 제시되었다[27]. 염색체 수준 조립 현황은 이번 조사에서 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 주의",
+   "body": "고시형 원료가 아니어서 식약처가 따로 정한 섭취 주의사항은 없다[1]. 바렌츠해 남부 해덕대구 60마리에서는 아니사키스과 유충 2,137마리가 나왔고, 살 속 고래회충 유충은 평균 2마리 이하(감염률 약 72%)로 대구·검정대구보다 훨씬 적었다[2]. 내장에서는 간이 고래회충(Anisakis simplex s.s.)의 주된 자리였고, 뱃살을 잘라내면 대구·해덕대구 필레의 유충을 90% 이상 줄일 수 있다고 제안되었다[2]. 아이슬란드 해덕대구 26마리에서는 기생충 19종이 확인되었다[27].\n\n생선 알레르기의 주 원인인 파브알부민은 대구과에서 9종이 확인되었다[24]. 훈제 해덕대구는 신선품보다 환자 혈청 IgE 결합이 늘고 30 kDa 띠가 새로 나타났다[25]. 대구 파브알부민 다클론 항체는 해덕대구도 검출했다[32]. 노르웨이산 해덕대구 등 8종 생선으로 피부 반응을 본 긁기 첩포시험에서는 알레르겐이 조리로 파괴되나 냉동으로는 파괴되지 않았다[26].\n\n바렌츠해 해덕대구 간의 잔류성 유기오염물질은 대구보다 낮았다[29]. 광미를 버린 노르웨이 피오르에서는 해덕대구 근육·간의 납·크롬·비소 등이 대조 피오르보다 높았다[30]. 해덕대구 140 g 한 토막의 요오드는 영국 성인 하루 권장량의 427%에 해당한다[3]. 캐나다 노바스코샤 어장 해덕대구의 부레에서는 콕시디아 기생충(Eimeria gadi)이 평균 32% 감염률로 나타났다[28]. 국내 공공기관의 해덕대구 알레르기·잔류 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Iodine",
+   "name_ko": "요오드",
+   "class": "무기질(미량원소)",
+   "role": "nutrient",
+   "part": "살(껍질 뺀 생살)",
+   "content_text": "427.4 ± 316.1 µg/100 g 습중량(평균 ± SD), 중앙값 323.3 µg/100 g[3]",
+   "activity_ko": "영국에서 산 해산물 95종 중 최고; 140 g 한 토막이 영국 성인 권장량(140 µg/일)의 427%[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid + Docosahexaenoic acid",
+   "name_ko": "EPA+DHA",
+   "class": "오메가-3 고도불포화지방산",
+   "role": "nutrient",
+   "part": "필레(생)",
+   "content_text": "함량 수치는 원문 표에만 있어 이번 대조에서 확인하지 못함[4]",
+   "activity_ko": "해덕대구 살 일부를 고등어로 바꾸면 케이크의 EPA·DHA가 늘어남[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Anserine",
+   "name_ko": "안세린",
+   "class": "이미다졸 디펩타이드",
+   "role": "bioactive",
+   "part": "필레(생)",
+   "content_text": "236 ± 36 mg/100 g(필레; 고등어에서는 검출되지 않음)[4]",
+   "activity_ko": "항산화 작용이 알려져 있고 인지 기능 관련성이 제시된 성분으로 소개됨(이 연구에서 효과 시험은 하지 않음)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Trimethylamine N-oxide",
+   "name_ko": "트라이메틸아민 N-옥사이드(TMAO)",
+   "class": "유기 삼투조절물질",
+   "role": "bioactive",
+   "part": "필레(생)",
+   "content_text": "해덕대구 필레 수치는 원문 표에만 있어 확인하지 못함; 원문은 흰살생선 문헌값(대구 340–380 mg/100 g)과 맞는다고 씀[4]",
+   "activity_ko": "흰살생선의 주요 저분자 대사물; 미생물이 분해하면 비린내 성분 TMA가 생김(생 필레 TMA 0.1 mg/100 g)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Inosine monophosphate",
+   "name_ko": "이노신일인산(IMP)",
+   "class": "뉴클레오타이드",
+   "role": "bioactive",
+   "part": "필레(생)",
+   "content_text": "IMP 수치는 원문 표에만 있어 확인하지 못함; 생 필레 신선도 K값 40 ± 14%[4]",
+   "activity_ko": "감칠맛 관련 성분이며 이노신·하이포잔틴으로 분해되는 정도가 신선도 지표(K값)로 쓰임[4, 21]",
+   "source": [
+    4,
+    21
+   ]
+  },
+  {
+   "name": "beta-Alanine",
+   "name_ko": "β-알라닌",
+   "class": "아미노산",
+   "role": "nutrient",
+   "part": "필레(생)",
+   "content_text": "함량 수치는 원문 표에만 있어 확인하지 못함[4]",
+   "activity_ko": "고등어를 섞으면 케이크 속 함량이 줄어듦(초록)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Fish protein hydrolysate",
+   "name_ko": "머리 단백질 가수분해물",
+   "class": "단백질·펩타이드",
+   "role": "nutrient",
+   "part": "머리",
+   "content_text": "머리 원료 단백질 17.1 ± 1.0%; 가수분해 수율 6.3–7.1 g 단백질/100 g 원료; 건조 가수분해물 지방 0.44 ± 0.09%, 회분 10.6–13.8%[5]",
+   "activity_ko": "식용 단백질 원료 후보; 회분이 높아 탈염이 과제[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Collagen type I",
+   "name_ko": "I형 콜라겐(산가용성)",
+   "class": "구조 단백질",
+   "role": "bioactive",
+   "part": "껍질",
+   "content_text": "함량 수치는 초록에 없음[22]",
+   "activity_ko": "변성온도가 포유류 콜라겐보다 낮음; 가수분해물이 생쥐 상처 치유를 앞당김(동물실험)[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "Parvalbumin",
+   "name_ko": "파브알부민",
+   "class": "칼슘결합 단백질(알레르겐)",
+   "role": "bioactive",
+   "part": "살",
+   "content_text": "함량 수치 없음; 대구과에서 9종 확인[24]",
+   "activity_ko": "생선 알레르기의 주 원인; 훈제 해덕대구에서 IgE 결합 증가[24, 25]",
+   "source": [
+    24,
+    25
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "무기질(미량원소)",
+   "role": "nutrient",
+   "part": "근육·간",
+   "content_text": "수치는 초록에 없음; 광미 투기 피오르 개체에서 대조보다 유의하게 높음[30]",
+   "activity_ko": "원소 축적의 생물지표로 제안된 연구의 측정 원소 중 하나[30]",
+   "source": [
+    30
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Iodine (total)",
+   "compound_ko": "총 요오드",
+   "part": "살(껍질·뼈 제거한 생살)",
+   "content": "427.4 ± 316.1 µg/100 g 습중량(평균 ± SD), 중앙값 323.3 µg/100 g[3]",
+   "method": "ICP-MS(알칼리 TMAH 추출)",
+   "conditions": {
+    "instrument": "ICP-MS iCAP Q(Thermo Scientific)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "균질화한 살을 110 °C에서 20시간 건조·분쇄 → 시료 100–500 mg + 초순수 5 mL + 2.74 M 수산화테트라메틸암모늄(TMAH) 1 mL, 90 ± 5 °C 3시간 → 희석·원심분리(5000×, 12분) → 0.45 μm 여과 (선행 문헌 방법); 결과는 습중량 환산",
+    "standard": "요오드화칼륨 저장액을 TMAH로 희석한 검량선; 인증표준물질 어류 근육 ERM-BB422를 배치마다 분석; 3반복(변동계수 대개 10% 미만)",
+    "linearity": "",
+    "lod": "",
+    "loq": "0.04 mg/kg 건조중량",
+    "recovery": ""
+   },
+   "rationale": "해덕대구는 요오드가 매우 많은 흰살생선이어서 영양 평가에서 요오드가 대표 지표가 된다[3]. 전문(Methods) 확인 — 질량수·플라스마 조건·회수율은 본문에 없음[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35011067/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Eicosapentaenoic acid / Docosahexaenoic acid",
+   "compound_ko": "EPA·DHA(지방산 조성)",
+   "part": "필레(생) 및 생선 케이크",
+   "content": "해덕대구 필레·케이크의 EPA+DHA·총 지질 수치는 원문 표에만 있어 이번 대조에서 확인하지 못함; 고등어를 섞으면 EPA·DHA 증가(초록)[4]",
+   "method": "GC-FID(지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Agilent 7890A 가스크로마토그래프, 불꽃이온화검출기(FID)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "FID",
+    "injection": "",
+    "sample_prep": "Bligh & Dyer 클로로폼·메탄올 추출(2반복) → 클로로폼층 지질을 메틸화(선행 문헌 방법) — 메틸화 전 내부표준 21:0 메틸에스터 첨가",
+    "standard": "Nu-Chek Prep 기준 용액과 머무름 시간 비교로 동정; 내부표준(C21:0)으로 mg/100 g 환산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "흰살생선을 오메가-3가 많은 고등어로 일부 바꿀 때 영양 개선을 보는 기준 성분으로 쓰였다[4]. 전문(Methods) 확인 — 칼럼·오븐 온도 프로그램은 인용 문헌에만 있어 확인하지 못함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34084075/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Anserine / Trimethylamine N-oxide / IMP (1H NMR)",
+   "compound_ko": "안세린·TMAO·IMP 등 저분자 대사물",
+   "part": "필레(생)",
+   "content": "안세린 236 ± 36 mg/100 g(필레, 본문 값); 생 필레 TMA 0.1 mg/100 g, K값 40 ± 14%; TMAO·타우린·크레아틴·IMP 수치는 원문 표에만 있어 확인하지 못함(추출은 3반복)[4]",
+   "method": "1H NMR(정량 대사체 분석)",
+   "conditions": {
+    "instrument": "Bruker Avance 600 MHz NMR(크라이오프로브, 1H 600.182 MHz), 25 °C",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "25 °C",
+    "detection": "펄스 시퀀스 noesygppr1d(물 신호 억제); 스펙트럼 폭 20 ppm, 64k 데이터점, 획득 4.1 s, 이완 지연 1.0 s, 스캔 128회, 더미 스캔 4회; 0.5 Hz 선폭 확장 후 푸리에 변환",
+    "injection": "",
+    "sample_prep": "동결 시료 약 1 g을 Bligh & Dyer 비율(1/100 축소)의 메탄올·클로로폼·물로 3반복 추출 → 수층 진공 원심 건조(30 °C, 1시간)·동결건조 → D2O 인산완충식염수(pH 7.4) 550 µL에 녹여 5 mm 관",
+    "standard": "내부표준 DSS-d6 0.5 mM; Chenomx NMR Suite 8.4로 수동 피팅 정량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "안세린·TMAO는 해덕대구 같은 흰살생선의 특징 성분이고, IMP·이노신·하이포잔틴은 신선도(K값) 지표로 쓰였다[4]. 전문(Methods) 확인 — 검출·정량한계는 본문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34084075/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Peptide molecular weight distribution (fish protein hydrolysate)",
+   "compound_ko": "머리 가수분해물 펩타이드 분자량 분포",
+   "part": "머리(효소 가수분해물)",
+   "content": "해덕대구 머리 가수분해 단백질 수율 6.3 ± 0.1–7.1 ± 0.1 g/100 g 원료; 건조 가수분해물 지방 0.44 ± 0.09%, 회분 10.6–13.8%[5]",
+   "method": "SEC-UPLC-PDA(크기배제)",
+   "conditions": {
+    "instrument": "Waters AQUITY UPLC H-Class PLUS, PDA 검출기",
+    "column": "Waters AQUITY BEH125 SEC 1.7 µm, 4.6 mm × 150 mm",
+    "mobile_phase": "100 mM 인산완충액(pH 6.8)",
+    "gradient": "등용매, 총 10분",
+    "flow": "0.4 mL/min",
+    "temp": "30 °C",
+    "detection": "220 nm",
+    "injection": "2 µL",
+    "sample_prep": "동결건조 가수분해물 10 mg/mL(초순수) 100 µL를 10% 아세토니트릴 900 µL로 희석; 가수분해는 다진 머리 1 kg + 50 °C 물 1:1, 효소 0.1%, 60분 후 90 °C 10분 불활성화·원심분리",
+    "standard": "사이토크롬 C(12,327 Da), 아프로티닌(6,512 Da), 인슐린 A(2,531 Da), Leu-엔케팔린(555.6 Da), Val-Tyr-Val(379.5 Da), Gly-Tyr(238.2 Da); 3반복",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "펩타이드 크기는 가수분해물의 쓴맛·용해도·기능성을 좌우해 품질 지표로 쓰였다[5]. 전문(Methods) 확인 — 해덕대구만의 분자량 구간별 수치는 그림으로만 제시되어 확인하지 못함[5].",
+   "source": [
+    5
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37999411/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "생살(영국 소매점 구입, 껍질 제거)",
+   "basis": "가식부 100 g(습중량)",
+   "items": [
+    {
+     "name": "요오드",
+     "value": 427.4,
+     "unit": "µg"
+    }
+   ],
+   "source": [
+    3
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "노르웨이(북동북극 자원 양륙)",
+   "metric": "production_t",
+   "year": 2021,
+   "value": 100000,
+   "unit": "t",
+   "note": "논문 서론에 인용된 노르웨이 수산청 자료의 근삿값(약 10만 톤)[2]",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Melanogrammus aeglefinus 행(해덕대구, 영문 Haddock, 식품원료(A코드)·수산물, 부위 '-', 사용가능, 사용조건 없음) 및 같은 목록의 대구(Gadus macrocephalus)·대서양대구(Gadus morhua)·명태(Gadus chalcogrammus)·Whiting(Merlangius merlangus) 행; 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json·docs/materials/melanogrammus-aeglefinus/card.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Anisakid parasites (Nematoda: Anisakidae) in 3 commercially important gadid fish species from the southern Barents Sea, with emphasis on key infection drivers and spatial distribution within the hosts. Parasitology 2022;149(14):1942-1957. doi:10.1017/S0031182022001305 (PMC10090642 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36321524/",
+   "publisher": "Parasitology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Iodine Content of Wild and Farmed Seafood and Its Estimated Contribution to UK Dietary Iodine Intake. Nutrients 2021;14(1):195. doi:10.3390/nu14010195 (PMC8747335 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35011067/",
+   "publisher": "Nutrients (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Sensory and Physicochemical Quality Characteristics of Haddock Fish Cake Enriched with Atlantic Mackerel. Food Technol Biotechnol 2021;59(1):4-15. doi:10.17113/ftb.59.01.21.6695 (PMC8157089 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34084075/",
+   "publisher": "Food Technol Biotechnol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "The Effects of Enzymes, Species, and Storage of Raw Material on Physicochemical Properties of Protein Hydrolysates from Whitefish Heads. Mar Drugs 2023;21(11):587. doi:10.3390/md21110587 (PMC10671905 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37999411/",
+   "publisher": "Mar Drugs (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Genomic architecture of haddock (Melanogrammus aeglefinus) shows expansions of innate immune genes and short tandem repeats. BMC Genomics 2018;19(1):240. doi:10.1186/s12864-018-4616-y (PMC5894186 전문 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29636006/",
+   "publisher": "BMC Genomics (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "The complete mitochondrial genome of the whiting, Merlangius merlangus and the haddock, Melanogrammus aeglefinus: a detailed genomic comparison among closely related species of the Gadidae family. Gene 2006;383:12-23. doi:10.1016/j.gene.2006.06.018",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/16996701/",
+   "publisher": "Gene (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Isolation and characterization of microsatellite loci in Atlantic haddock (Melanogrammus aeglefinus). Mol Ecol 1999;8(8):1355-7. doi:10.1046/j.1365-294x.1999.00701_3.x (초록 없음, 서지만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/10507872/",
+   "publisher": "Mol Ecol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Tracking oocyte development and the timing of skipped spawning for north-east Arctic haddock (Melanogrammus aeglefinus). J Fish Biol 2022;100(6):1464-1474. doi:10.1111/jfb.15057",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35383923/",
+   "publisher": "J Fish Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Comparing the somatic growth and swimming kinematics of Atlantic cod (Gadus morhua) and haddock (Melanogrammus aeglefinus) larvae. J Fish Biol 2025;106(6):1799-1808. doi:10.1111/jfb.16062",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39900562/",
+   "publisher": "J Fish Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "The importance of sound to the Atlantic cod, Gadus morhua, and the Atlantic haddock, Melanogrammus aeglefinus. J Acoust Soc Am 2022;152(3):1605. doi:10.1121/10.0013994",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36182302/",
+   "publisher": "J Acoust Soc Am (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Depth and temperature associations of haddock Melanogrammus aeglefinus off southern Newfoundland. J Fish Biol 2016;89(5):2306-2325. doi:10.1111/jfb.13112",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27716923/",
+   "publisher": "J Fish Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "A trans-Atlantic examination of haddock Melanogrammus aeglefinus food habits. J Fish Biol 2016;88(6):2203-18. doi:10.1111/jfb.12983",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27145075/",
+   "publisher": "J Fish Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Sexual size dimorphism in three North Sea gadoids. J Fish Biol 2014;86(1):261-75. doi:10.1111/jfb.12579",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25457726/",
+   "publisher": "J Fish Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Role of egg predation by haddock in the decline of an Atlantic herring population. Proc Natl Acad Sci U S A 2011;108(33):13606-11. doi:10.1073/pnas.1015400108",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21825166/",
+   "publisher": "Proc Natl Acad Sci U S A (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Thermal biology and swimming performance of Atlantic cod (Gadus morhua) and haddock (Melanogrammus aeglefinus). PeerJ 2019;7:e7784. doi:10.7717/peerj.7784",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31592351/",
+   "publisher": "PeerJ (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Mixed interactions among life history stages of two harvested related species. Ecol Evol 2022;12(3):e8530. doi:10.1002/ece3.8530",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35309747/",
+   "publisher": "Ecol Evol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Fish product mislabelling: failings of traceability in the production chain and implications for illegal, unreported and unregulated (IUU) fishing. PLoS One 2014;9(6):e98691. doi:10.1371/journal.pone.0098691",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24921655/",
+   "publisher": "PLoS One (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Application of loop-mediated isothermal amplification (LAMP) for rapid detection of Atlantic cod (Gadus morhua), Pacific cod (Gadus macrocephalus) and haddock (Melanogrammus aeglefinus). Mol Cell Probes 2019;47:101420. doi:10.1016/j.mcp.2019.07.003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31295518/",
+   "publisher": "Mol Cell Probes (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Effect of dietary lipid level on fatty acid beta-oxidation and lipid composition in various tissues of haddock, Melanogrammus aeglefinus L. Comp Biochem Physiol B 2003;135(1):95-108",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12781977/",
+   "publisher": "Comp Biochem Physiol B Biochem Mol Biol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Determination of nucleotide and enzyme degradation in haddock (Melanogrammus aeglefinus) and herring (Clupea harengus) after high pressure processing. PeerJ 2019;7:e7527. doi:10.7717/peerj.7527",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31523503/",
+   "publisher": "PeerJ (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Characterization of collagen from haddock skin and wound healing properties of its hydrolysates. Biomed Mater 2015;10(1):015022. doi:10.1088/1748-6041/10/1/015022",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25730323/",
+   "publisher": "Biomed Mater (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "The potential of cod hydrolyzate to inhibit blood pressure in spontaneously hypertensive rats. Nutr Res 2014;34(2):168-73. doi:10.1016/j.nutres.2013.11.003",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24461319/",
+   "publisher": "Nutr Res (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Advances on the molecular characterization, clinical relevance, and detection methods of Gadiform parvalbumin allergens. Crit Rev Food Sci Nutr 2017;57(15):3281-3296. doi:10.1080/10408398.2015.1113157",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26714098/",
+   "publisher": "Crit Rev Food Sci Nutr (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Effects of industrial processing on the immunogenicity of commonly ingested fish species. Int Arch Allergy Immunol 2010;151(3):223-36. doi:10.1159/000242360",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19786803/",
+   "publisher": "Int Arch Allergy Immunol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Type-I reactions to commercial fish in non-exposed individuals. Contact Dermatitis 1983;9(3):219-23. doi:10.1111/j.1600-0536.1983.tb04363.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6222876/",
+   "publisher": "Contact Dermatitis (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Parasite diversity in haddock (Melanogrammus aeglefinus) from Icelandic waters. J Helminthol 2025;99:e125. doi:10.1017/S0022149X2510076X",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41277803/",
+   "publisher": "J Helminthol (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Prevalence and morphology of Eimeria gadi (Fiebiger, 1913) in the haddock. J Protozool 1976;23(4):564-71. doi:10.1111/j.1550-7408.1976.tb03842.x",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1003343/",
+   "publisher": "J Protozool (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Levels and temporal trends of persistent organic pollutants (POPs) in Atlantic cod (Gadus morhua) and haddock (Melanogrammus aeglefinus) from the southern Barents Sea. Environ Res 2019;172:89-97. doi:10.1016/j.envres.2019.02.008",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30782539/",
+   "publisher": "Environ Res (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Using Atlantic haddock (Melanogrammus aeglefinus) as bioindicators in sea disposal mining impacted fjords. J Hazard Mater 2026;503:141009. doi:10.1016/j.jhazmat.2025.141009",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41538943/",
+   "publisher": "J Hazard Mater (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Crude oil exposure of early life stages of Atlantic haddock suggests threshold levels for developmental toxicity as low as 0.1 μg total polyaromatic hydrocarbon (TPAH)/L. Mar Pollut Bull 2023;190:114843. doi:10.1016/j.marpolbul.2023.114843",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36965263/",
+   "publisher": "Mar Pollut Bull (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Evaluation and comparison of the species-specificity of 3 antiparvalbumin IgG antibodies. J Agric Food Chem 2011;59(23):12309-16. doi:10.1021/jf203277z",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21999209/",
+   "publisher": "J Agric Food Chem (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

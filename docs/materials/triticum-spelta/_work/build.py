@@ -1,0 +1,218 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+
+
+def pmc(n, title, doi, journal, pmcid=None):
+    pub = journal + (f", {pmcid}" if pmcid else "")
+    return {"n": n, "title": title, "url": f"https://doi.org/{doi}", "publisher": pub, "accessed": ACC}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Triticum spelta L. 5행(스펠트밀가루·스펠트밀시럽·스펠트밀플레이크(부위 '-'), 스펠트밀씨앗(씨앗), 스펠트밀겨(겨(속껍질)); 영문명 'Farro, Spelt'; 식물; 사용가능; 사용 조건 '사용가능부위 : 씨앗'; 고시형 원료 원재료 목록 없음). 같은 목록의 'Emmer씨앗'(Triticum turgidum subsp. dicoccum, 영문 Farro)은 별도 행 (docs/materials/triticum-spelta/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pmc(2, "Comparative Compositions of Grain of Bread Wheat, Emmer and Spelt Grown with Different Levels of Nitrogen Fertilisation. Foods 2023 (PMC 전문 확인)", "10.3390/foods12040843", "Foods (MDPI)", "PMC9957107"),
+    pmc(3, "Identification and Quantification of Selected Benzoxazinoids and Phenolics in Germinated Spelt (Triticum spelta). Foods 2023 (PMC 전문 확인)", "10.3390/foods12091769", "Foods (MDPI)", "PMC10178788"),
+    pmc(4, "5-n-Alkylresorcinol Profiles in Different Cultivars of Einkorn, Emmer, Spelt, Common Wheat, and Tritordeum. J Agric Food Chem 2021 (PMC 전문 확인)", "10.1021/acs.jafc.1c05451", "Journal of Agricultural and Food Chemistry (ACS)", "PMC8640985"),
+    pmc(5, "The Influence of Farming Systems, Genotype and Their Interaction on Bioactive Compound, Protein and Starch Content of Bread and Spelt Wheat. Foods 2022 (PMC 전문 확인)", "10.3390/foods11244028", "Foods (MDPI)", "PMC9778307"),
+    pmc(6, "Genomic insights into the origin and evolution of spelt (Triticum spelta L.) as a valuable gene pool for modern wheat breeding. Plant Commun 2024;5(5):100883 (초록)", "10.1016/j.xplc.2024.100883", "Plant Communications (Cell Press)", "PMC11121738"),
+    pmc(7, "Population genomics and haplotype analysis in spelt and bread wheat identifies a gene regulating glume color. Commun Biol 2021;4:375 (초록)", "10.1038/s42003-021-01908-6", "Communications Biology (Nature Portfolio)", "PMC7979816"),
+    pmc(8, "Spanish Spelt Wheat: From an Endangered Genetic Resource to a Trendy Crop. Plants 2021 (초록, 총설)", "10.3390/plants10122748", "Plants (MDPI)", "PMC8707452"),
+    pmc(9, "Genetic variability of spelt factor gene in Triticum and Aegilops species. BMC Plant Biol 2020;20(Suppl 1):310 (초록)", "10.1186/s12870-020-02536-8", "BMC Plant Biology", "PMC7556929"),
+    pmc(10, "Distinguishing between Bread Wheat and Spelt Grains Using Molecular Markers and Spectroscopy. J Agric Food Chem 2019 (초록)", "10.1021/acs.jafc.9b00131", "Journal of Agricultural and Food Chemistry (ACS), PMID 30807140"),
+    pmc(11, "Comparative Label-Free Proteomics Study on Celiac Disease-Active Epitopes in Common Wheat, Spelt, Durum Wheat, Emmer, and Einkorn. J Agric Food Chem 2024 (초록)", "10.1021/acs.jafc.4c02657", "Journal of Agricultural and Food Chemistry (ACS)", "PMC11228976"),
+    pmc(12, "Genetic and environmental factors affecting the expression of α-gliadin canonical epitopes involved in celiac disease in a wide collection of spelt (Triticum aestivum ssp. spelta) cultivars and landraces. BMC Plant Biol 2018 (초록)", "10.1186/s12870-018-1487-y", "BMC Plant Biology", "PMC6211434"),
+    pmc(13, "No Difference in Tolerance between Wheat and Spelt Bread in Patients with Suspected Non-Celiac Wheat Sensitivity. Nutrients 2022 (초록)", "10.3390/nu14142800", "Nutrients (MDPI)", "PMC9319925"),
+    pmc(14, "Comparative Study on Gluten Protein Composition of Ancient (Einkorn, Emmer and Spelt) and Modern Wheat Species (Durum and Common Wheat). Foods 2019 (초록)", "10.3390/foods8090409", "Foods (MDPI)", "PMC6769531"),
+    pmc(15, "Comprehensive proteome analysis of bread deciphering the allergenic potential of bread wheat, spelt and rye. J Proteomics 2021 (초록)", "10.1016/j.jprot.2021.104318", "Journal of Proteomics (Elsevier), PMID 34224905"),
+    pmc(16, "High-resolution proteomics reveals differences in the proteome of spelt and bread wheat flour representing targets for research on wheat sensitivities. Sci Rep 2020 (초록)", "10.1038/s41598-020-71712-5", "Scientific Reports (Nature Portfolio)", "PMC7477207"),
+    pmc(17, "Resistance of Winter Spelt Wheat [Triticum aestivum subsp. spelta (L.) Thell.] to Fusarium Head Blight. Front Plant Sci 2021;12:661484 (초록)", "10.3389/fpls.2021.661484", "Frontiers in Plant Science", "PMC8058439"),
+    pmc(18, "Occurrence of mycotoxins in spelt and common wheat grain and their products. Food Addit Contam Part A 2014;31(1):132-138 (초록)", "10.1080/19440049.2013.861614", "Food Additives & Contaminants Part A (Taylor & Francis), PMID 24199659"),
+    pmc(19, "The protective effect of hulls on the occurrence of Alternaria mycotoxins in spelt wheat. J Sci Food Agric 2013;93(8):1996-2001 (초록)", "10.1002/jsfa.6005", "Journal of the Science of Food and Agriculture (Wiley), PMID 23255302"),
+    pmc(20, "The effect of storage temperature and water activity on aflatoxin B1 accumulation in hull-less and hulled spelt grains. J Sci Food Agric 2019;99(7):3703-3710 (초록)", "10.1002/jsfa.9601", "Journal of the Science of Food and Agriculture (Wiley), PMID 30663055"),
+    pmc(21, "Processing and Bread-Making Quality Profile of Spanish Spelt Wheat. Foods 2023 (초록)", "10.3390/foods12162996", "Foods (MDPI)", "PMC10453461"),
+    pmc(22, "Characterization of the Protein and Carbohydrate Related Quality Traits of a Large Set of Spelt Wheat Genotypes. Foods 2022 (초록)", "10.3390/foods11142061", "Foods (MDPI)", "PMC9324691"),
+    pmc(23, "Compositional Traits of Grains and Groats of Barley, Oat and Spelt Grown at Organic and Conventional Fields. Foods 2023 (초록)", "10.3390/foods12051054", "Foods (MDPI)", "PMC10001039"),
+    pmc(24, "Effect of irrigation, fertiliser type and variety on grain yield and nutritional quality of spelt wheat (Triticum spelta) grown under semi-arid conditions. Food Chem 2021 (초록)", "10.1016/j.foodchem.2021.129826", "Food Chemistry (Elsevier), PMID 33933964"),
+    pmc(25, "Investigation on the variation of chemical composition and in vitro nutritive value of spelt (Triticum aestivum ssp. spelta) for ruminants. J Anim Physiol Anim Nutr 2020;104(2):470-482 (초록)", "10.1111/jpn.13307", "Journal of Animal Physiology and Animal Nutrition (Wiley), PMID 31950566"),
+    pmc(26, "Techno-Functional Performance of Emmer, Spelt and Khorasan in Spontaneously Fermented Sourdough Bread. Foods 2022 (초록)", "10.3390/foods11233927", "Foods (MDPI)", "PMC9741205"),
+    pmc(27, "Identification and characterization of the powdery mildew resistance in a spelt accession Lsy-93. BMC Plant Biol 2025;25:1089 (초록)", "10.1186/s12870-025-07040-5", "BMC Plant Biology", "PMC12359869"),
+    pmc(28, "Pm4b from spelt wheat 'Hubel' confers recessive powdery mildew resistance. Plant Sci 2026;374:113500 (초록)", "10.1016/j.plantsci.2026.113500", "Plant Science (Elsevier), PMID 42843425"),
+    pmc(29, "Evaluation of the Allelic Variations in Vernalisation (VRN1) and Photoperiod (PPD1) Genes and Genetic Diversity in a Spanish Spelt Wheat Collection. Int J Mol Sci 2023;24(22):16041 (초록)", "10.3390/ijms242216041", "International Journal of Molecular Sciences (MDPI)", "PMC10671769"),
+    pmc(30, "Differences in Processing Quality Traits, Protein Content and Composition between Spelt and Bread Wheat Genotypes Grown under Conventional and Organic Production. Foods 2021 (초록)", "10.3390/foods10010156", "Foods (MDPI)", "PMC7828489"),
+    pmc(31, "Improving accessibility and bioactivity of raw, germinated and enzymatic-treated spelt (Triticum spelta L.) seed antioxidants by fermentation. Food Chem 2022 (초록)", "10.1016/j.foodchem.2022.133483", "Food Chemistry (Elsevier), PMID 35717908"),
+    pmc(32, "Comparative Study on Kernel Quality and Chemical Composition of Ancient and Modern Wheat Species: Einkorn, Emmer, Spelt and Hard Red Spring Wheat. Foods 2021 (초록)", "10.3390/foods10040761", "Foods (MDPI)", "PMC8066832"),
+]
+
+S = []
+
+
+def sec(key, title, body):
+    S.append({"key": key, "title": title, "body": body.strip()})
+
+
+sec("overview", "한눈에 보기", """
+스펠트밀(Triticum spelta L.)은 벼과(Poaceae) 밀속에 드는 껍질밀(겉껍질이 낟알에 단단히 붙어 탈곡 때 잘 떨어지지 않는 밀)로, 식약처 「식품원료 목록」에는 스펠트밀가루·스펠트밀시럽·스펠트밀플레이크·스펠트밀씨앗·스펠트밀겨 다섯 가지 원료명으로 올라 있다[1]. 다섯 행 모두 상태는 '사용가능'이고 사용 조건은 '사용가능부위 : 씨앗'이며, 스펠트밀겨는 부위가 '겨(속껍질)'로 적혀 있다[1]. 건강기능식품 고시형 원료의 원재료 목록에는 없어 식약처가 정한 지표성분은 없다[1].
+
+목록의 영문명은 'Farro, Spelt'인데, 같은 목록에서 'Farro'라는 영문명은 엠머밀(Triticum turgidum subsp. dicoccum)의 'Emmer씨앗' 행에도 쓰이므로 '파로'라는 이름만으로는 종을 가릴 수 없다[1]. 스펠트밀은 염색체 세트가 여섯 벌(AABBDD)인 육배체로, 보통밀과 같은 게놈 구성을 가져 보통밀의 아종(T. aestivum subsp. spelta)으로 다루기도 한다[2, 27]. 영국·네덜란드 시험에서는 통밀가루의 단백질·철·아연·마그네슘 함량이 보통밀보다 높게 나왔지만, 세 밀 종류의 값 범위가 서로 겹쳐 건강상 차이는 크지 않을 것이라고 결론지었다[2]. 글루텐 단백질을 가진 밀이므로 셀리악병 환자에게 안전한 곡물이 아니다[11, 12].
+""")
+
+sec("history", "재배·이용 역사", """
+스펠트밀은 엠머밀과 야생 염소풀 Aegilops tauschii의 교잡에서 생겼고, 주된 기원지는 근동의 '비옥한 초승달' 지역이며 유럽에서 엠머밀과 육배체 밀이 다시 교잡해 두 번째 기원 중심이 생겼다고 정리된다[8]. 전 세계 밀 416계통의 재염기서열 자료를 분석한 연구는 원시 육배체 밀이 서쪽으로 퍼지면서 먼저 자리 잡고 있던 재배 엠머밀(모계 공여자로 추정)과 교잡해 유럽 스펠트밀이 생겼다고 보고했다[6]. 스펠트 267계통의 유전형 분석에서도 스펠트가 유럽에 두 차례 따로 들어왔다는 증거가 나왔다[7].
+
+스펠트밀은 20세기 이전 유럽에서 주로 재배된 중요한 밀 아종이었고 근대 밀 육종에 유전자원을 보탰다[6]. 붉은 이삭껍질은 20세기 이전 유럽의 주된 밀 아종이던 중부 유럽 스펠트에서 흔한 형질로 소개된다[7]. 그 뒤 유럽 대부분에서 재배가 줄었다가 더 자연스럽고 전통적인 식품을 찾는 수요로 다시 늘고 있으며, 이베리아반도 스펠트는 나머지 유럽 스펠트와 다른 지리 집단으로 분류된다[8]. 최근에는 유기농 재배에 잘 맞고 건강식이라는 인식이 퍼지면서 제빵 원료로 인기를 얻고 있다[22]. 국내 도입·재배 이력은 이번 조사에서 확인하지 못함.
+""")
+
+sec("biology", "식물학적 특징", """
+스펠트밀은 2n = 6x = 42, AABBDD 게놈을 가진 고대 육배체 밀 아종이다[27]. 외알밀(AA)·엠머밀(AABB)과 함께 '고대 밀'로 묶이며, 이들은 대개 겉껍질(영)이 낟알을 단단히 싸서 탈곡해도 쉽게 벗겨지지 않는 껍질밀이다[2]. 보통밀·듀럼밀처럼 탈곡 때 껍질이 쉽게 떨어지는 성질(자유 탈곡성)은 진보된 형질로 여겨진다[2].
+
+질긴 이삭껍질과 늦은 개화 같은 스펠트의 원시적 형태 형질은 재배 엠머밀에서 들어온 게놈 구간과 관련된다[6]. 이삭 모양·탈곡성·이삭축 부러짐을 조절하는 Q 유전자(이른바 '스펠트 인자')는 다배체 밀의 순화 형질을 폭넓게 좌우한다[9]. 키가 크고 이삭이 성글며 이삭껍질이 질긴 스펠트 특유의 형질은 붉은곰팡이병(Fusarium head blight)에 대한 수동적 저항 요인으로 작용했다[17]. 스페인 스펠트 60계통 가운데 55계통(91.7%)은 봄형 생육 습성을, 5계통(8.3%)은 겨울형 습성을 보였다[29]. 낟알 천립중은 스펠트 90계통에서 23.2–49.7 g 범위였다[22].
+""")
+
+sec("related_species", "근연종·이름", """
+스펠트밀과 보통밀은 같은 AABBDD 게놈을 가져, 엠머밀(T. turgidum subsp. dicoccum)이 T. turgidum의 아종인 것처럼 스펠트밀은 T. aestivum의 아종으로 분류되기도 한다[2]. 외알밀(T. monococcum, AA)은 별개의 종이고, 엠머밀은 사배체(AABB)다[2]. 유럽 스펠트의 모계 공여자로는 재배 엠머밀이 추정되고[6], D 게놈 공여자 쪽은 Q 유전자 서열 비교에서 Ae. tauschii subsp. strangulata 계통이 지목되었다[9].
+
+식약처 목록에서는 스펠트밀(Triticum spelta L.) 다섯 행과 별개로 엠머밀이 'Emmer씨앗'으로 따로 올라 있으며, 두 원료 모두 영문명에 'Farro'가 들어간다[1]. 따라서 제품의 '파로'가 어느 종인지는 학명으로 확인해야 하며, 이 문서의 수치는 스펠트밀 시료만 옮겼다[1, 2]. 시판 곡물이 스펠트인지 보통밀인지는 Q 유전자 유전형 분석으로 탈곡 성질과 완전히 일치하게 구별할 수 있었고, 근적외선 분광(NIRS) 모델도 높은 정확도(Kappa 0.97)를 보였다[10]. 영국·네덜란드 비교 시험에서는 SNP 분석으로 쓰인 스펠트 품종에 최근 보통밀 유전자가 섞이지 않았음을 확인했는데, 상업 스펠트 품종 중에는 교배로 보통밀 유전자가 들어온 것이 있을 수 있다고 지적했다[2].
+""")
+
+sec("cultivation", "재배", """
+스펠트밀은 껍질이 낟알을 보호해 화학적 보호를 덜 필요로 하므로 유기농 재배에서 성공하기 쉽다고 설명된다[5]. 고대 밀은 쓰러짐(도복)을 피하려고 질소를 적게 주는 유기·저투입 방식으로, 현대 반왜성 밀은 질소를 많이 주는 집약 방식으로 재배하는 경우가 많다[2]. 영국·네덜란드 시험에서 질소를 ha당 100 kg에서 200 kg으로 늘리면 스펠트 낟알의 질소(단백질)·철·아연 함량이 높아졌다[2].
+
+반건조 지역의 장기 시험에서 키가 큰 품종은 철·아연·망간·구리 함량이 10–40% 높았고, 현대 단간 품종은 항산화 활성이 15–38% 높았으며, 보충 관수는 수량을 약 150% 늘렸다[24]. 유럽 세 곳의 접종 시험에서는 키를 낮춘 현대 스펠트 품종이 오래된 재래종보다 붉은곰팡이병에 약하고 낟알의 데옥시니발레놀(DON) 오염도 높았다[17]. 스페인 스펠트 계통은 모두 광주기 민감 대립유전자를 가져 봄 보통밀 대조 품종보다 이삭이 늦게 팼다[29]. 스펠트 품종은 흰가루병 저항성 유전자 자원으로도 연구된다[27, 28]. 국내 재배 면적·생산량 통계는 이번 조사에서 확인하지 못함.
+""")
+
+sec("processing", "가공·이용", """
+스펠트는 수확 뒤 껍질을 벗기는 탈부 과정을 거쳐야 하며, 슬로베니아 연구에서는 탈곡·풍선·솔질(연마)을 조합해 스펠트 낟알을 거친 알곡(그로트)으로 만들었다[23]. 보리·귀리·스펠트 알곡 제품의 열량은 100 g당 334–358 kcal였다[23]. 껍질 자체는 섬유와 회분이 많아 반추가축 사료로 단독 사용은 권장되지 않았다[25].
+
+스페인 재래 스펠트 88계통은 보통밀보다 낟알이 무르고 단백질(14.3% 대 11.9%)과 글루텐 신장성이 높았지만 글루텐 강도(알베오그래프 W 187 대 438)는 낮았고, 제빵 시험 결과는 두 종이 비슷했다[21]. 스펠트 90계통 분석에서도 단백질·글루텐 함량은 보통밀보다 높고 반죽 강도·안정성은 약했으며[22], 헝가리·세르비아 시험에서도 총단백질이 보통밀보다 유의하게 높았다[30]. 다만 미국 노스다코타 시험에서는 스펠트를 포함한 껍질밀 통밀가루의 단백질이 경질 붉은 봄밀보다 오히려 낮고 조지방은 높았다[32]. 자연 발효 사워도우 시험에서 스펠트 반죽은 보통밀과 비슷한 거품 구조를 이루어 빵 부피와 조직이 비슷했다[26]. 발아는 스펠트의 유리 페놀 함량을 1.17에서 4.57 mg TE/g DW로 높였고[3], 발아 낟알을 효모로 발효하면 추출형 trans-페룰산이 크게(2922%) 늘었다[31]. 껍질을 벗길 때 곰팡이독소가 몰린 껍질이 제거되지만, 겨는 곡물보다 독소 농도가 몇 배 높을 수 있다고 경고되었다[18].
+""")
+
+sec("genetics", "유전 정보", """
+스펠트밀은 보통밀과 같은 AABBDD 육배체로[2], 흰가루병 저항성 연구에서는 스펠트 PI190962 참조 게놈(v1.0)이 지도 작성에 쓰였다[28]. 416계통 재염기서열 분석은 엠머밀에서 들어온 게놈 구간이 스펠트의 분류 형질을 만든다고 보고, 품종의 스펠트 유전자 이용 정도를 재는 일배체형 기반 '스펠트 지수'를 제안했다[6]. 붉은 이삭껍질은 1BS 염색체의 Rg-B1 자리에 있는 MYB 전사인자가 후보 유전자로 밝혀졌다[7].
+
+스펠트와 보통밀 각 15품종의 밀가루 단백체 비교에서 3,050개 단백질이 검출되었고 대부분의 발현은 환경 영향을 크게 받았으며, 두 종 사이에 유의하게 다른 단백질이 약 3분의 1이었다[16]. 스펠트 121계통에서 셀리악병 관련 α-글리아딘 항원결정부위의 전사량은 계통에 따라 크게 달랐고, 환경 요인의 영향은 거의 없었다[12]. 흰가루병 저항성 유전자로는 2BL 염색체의 PmLsy-93[27], 'Hubel' 품종의 Pm4b 대립유전자[28]가 보고되었다.
+""")
+
+sec("safety", "안전성", """
+식약처 「식품원료 목록」에서 스펠트밀은 씨앗 부위에 한해 '사용가능' 원료이며, 별도의 섭취 주의사항은 목록에 없다[1]. 스펠트는 글루텐 단백질을 가진 밀이어서, 밀 다섯 종(각 8품종)의 단백체 분석에서 셀리악병 활성 항원결정부위를 가진 서로 다른 펩타이드 수가 스펠트에서 가장 많았다(193 ± 12개)[11]. 스펠트 계통들은 α-글리아딘 항원결정부위를 발현하며 그 양은 계통마다 크게 달랐다[12]. 스펠트·엠머·외알밀은 보통밀보다 글리아딘 대 글루테닌 비율이 높았다[14]. 밀가루·빵 단백체 연구에서 글리아딘 같은 알려진 알레르기 단백질의 상대 함량은 스펠트와 보통밀이 호밀보다 높았다[15].
+
+비셀리악 밀 민감증이 의심되는 성인 24명의 단일맹검 교차 시험에서 스펠트빵과 보통밀빵의 증상 점수에는 차이가 없었고, 연구진은 '스펠트가 더 잘 맞는다'는 경험이 객관적으로 확인되지 않았다고 결론지었다[13]. 스펠트는 보통밀보다 아크릴아마이드 전구체인 아스파라긴과 FODMAP에 속하는 라피노스가 많았다[2]. 곰팡이독소(DON·제랄레논·T-2/HT-2, 알테르나리아 독소, 아플라톡신 B1)는 껍질에 더 많이 쌓였다[18, 19, 20]. 국내 공공기관이 스펠트밀을 따로 다룬 알레르기·잔류물 안내는 이번 조사에서 확인하지 못함.
+""")
+
+compounds = [
+    {"name": "Alkylresorcinols", "name_ko": "알킬레조르시놀(총량)", "class": "페놀성 지질", "role": "marker", "part": "씨앗(탈부 통곡)",
+     "content_text": "817.9 ± 174.7 mg/kg 건물(이탈리아 2곳·2년, 2품종 평균; 품종별 939.0 ± 96.5, 672.5 ± 129.8); 세르비아·헝가리 5품종 평균 511.6 µg/g(범위 372.6–902.4 µg/g)",
+     "activity_ko": "통곡 섭취의 바이오마커이자 곡물 진위 판별 지표로 쓰이며, 낟알 바깥층(종피·과피)에 모여 곰팡이 방어 역할을 한다고 설명된다[4]. 한 연구에서는 스펠트가 보통밀보다 많았고(511.6 대 454.9 µg/g)[5], 다른 연구에서는 보통밀(956.5 mg/kg)보다 적었다(817.9 mg/kg)[4]", "source": [4, 5]},
+    {"name": "5-Heneicosylresorcinol", "name_ko": "알킬레조르시놀 C21:0", "class": "페놀성 지질", "role": "marker", "part": "씨앗(탈부 통곡)",
+     "content_text": "스펠트 총 알킬레조르시놀의 54.1%; C21:0/C23:0 비 4.73 ± 0.91",
+     "activity_ko": "모든 밀 종류에서 가장 많은 동족체이며, C21:0/C23:0 비는 배수성과 관련되고 곰팡이 저항성 지표로 제안되었다[4]", "source": [4]},
+    {"name": "5-Nonadecylresorcinol", "name_ko": "알킬레조르시놀 C19:0", "class": "페놀성 지질", "role": "bioactive", "part": "씨앗(탈부 통곡)",
+     "content_text": "스펠트 총 알킬레조르시놀의 26.1%; C17:0/C21:0 비 0.05 ± 0.02",
+     "activity_ko": "육배체(보통밀·스펠트)에서 두 번째로 많은 동족체였고, C17:0/C21:0 비는 밀 종 판별 지표로 쓰인다[4]", "source": [4]},
+    {"name": "Ferulic acid", "name_ko": "페룰산", "class": "페놀산", "role": "bioactive", "part": "씨앗(결합형 위주)",
+     "content_text": "발아 전 낟알의 페룰산+p-쿠마르산(trans·cis 합) 457.93 ± 12.03 µg/g DW; 메탄올 추출(유리)형 페룰산은 trans 1.9, cis 0.96 µg/g DW; 96시간 발아 후 결합형 trans-페룰산 753.27 ± 95.87 µg/g DW",
+     "activity_ko": "곡물 페놀의 대부분은 세포벽에 결합한 형태로 존재하며, 스펠트에서도 결합형 trans-페룰산이 주 성분이었다[3]", "source": [3]},
+    {"name": "p-Coumaric acid", "name_ko": "p-쿠마르산", "class": "페놀산", "role": "bioactive", "part": "씨앗(결합형)",
+     "content_text": "96시간 발아 후 결합형 trans-p-쿠마르산 119.77 µg/g DW(발아 전보다 610% 증가; 발아 전 개별 수치는 본문에서 확인하지 못함)",
+     "activity_ko": "결합형 분획에서 페룰산 다음으로 많은 페놀산이었다[3]", "source": [3]},
+    {"name": "Schaftoside", "name_ko": "샤프토사이드", "class": "플라보노이드(아피제닌 di-C-배당체)", "role": "bioactive", "part": "씨앗",
+     "content_text": "발아 전 13.58 µg/g DW, 96시간 발아 후 53.69 µg/g DW",
+     "activity_ko": "발아 전 낟알에서 세 아피제닌 di-C-배당체 중 가장 적었으나 발아로 가장 크게 늘었다; 생리 활성은 다른 연구에서 보고된 내용으로 소개되었다[3]", "source": [3]},
+    {"name": "6-Methoxy-2-benzoxazolinone", "name_ko": "MBOA(벤족사지노이드)", "class": "벤족사지노이드", "role": "bioactive", "part": "발아 씨앗",
+     "content_text": "발아 전 낟알에서는 검출되지 않음; 96시간 발아 후 277.61 ± 15.29 µg/g DW(벤족사지노이드 3종 합 517.75 ± 48.49 µg/g DW)",
+     "activity_ko": "발아 스펠트의 유리 분획 주성분이었으며, 사람에서의 건강 효과는 결론이 없다고 원문이 밝혔다[3]", "source": [3]},
+    {"name": "Glycine betaine", "name_ko": "글리신베타인", "class": "메틸 공여체", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "표 값 1.606(질소 100 kg/ha)·1.537(200 kg/ha), 건중량 기준(표에 단위 표기 없음); 보통밀 1.311·1.307",
+     "activity_ko": "콜린의 약 10배 농도였고, 혈중 호모시스테인을 낮춰 심혈관 건강에 이로울 수 있는 성분으로 소개되었다[2]", "source": [2]},
+    {"name": "Choline", "name_ko": "콜린", "class": "메틸 공여체", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "표 값 0.2137(질소 100 kg/ha)·0.2229(200 kg/ha), 건중량 기준(표에 단위 표기 없음); 보통밀 0.1748·0.1854",
+     "activity_ko": "스펠트와 엠머가 보통밀보다 유의하게 많았다[2]", "source": [2]},
+    {"name": "Asparagine", "name_ko": "아스파라긴(유리)", "class": "아미노산", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "표 값 0.6981(질소 100 kg/ha)·0.8648(200 kg/ha), 건중량 기준(표에 단위 표기 없음); 보통밀 0.4907·0.5664",
+     "activity_ko": "가공 중 아크릴아마이드 생성의 제한 인자로, 스펠트에서 가장 많고 질소 시비로 늘었다[2]", "source": [2]},
+    {"name": "Raffinose", "name_ko": "라피노스", "class": "올리고당(FODMAP)", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "표 값 6.916(질소 100 kg/ha)·6.743(200 kg/ha), 건중량 기준(표에 단위 표기 없음); 보통밀 5.95·5.944",
+     "activity_ko": "소장에서 흡수되지 않고 대장에서 발효되는 FODMAP 성분으로, 보통밀보다 많았다[2]", "source": [2]},
+    {"name": "Fructan", "name_ko": "프럭탄", "class": "다당류(FODMAP)", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "평균 0.9%(범위 0.5–1.2%); 보통밀 평균 1.1%(0.7–1.6%)",
+     "activity_ko": "밀의 주된 FODMAP 분획으로 언급되며, 이 연구에서는 스펠트가 보통밀보다 적었다[5, 2]", "source": [5, 2]},
+    {"name": "beta-Glucan", "name_ko": "베타글루칸", "class": "식이섬유", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "세르비아·헝가리 시험 평균 6.4 mg/g(5.1–8.1; 보통밀 7.4 mg/g); 영국·네덜란드 시험에서는 효소 지문법 상대값으로 스펠트가 세 밀 중 가장 높음(9.256·8.521 임의 단위)",
+     "activity_ko": "두 연구의 결과가 엇갈린다: 한 연구는 보통밀이 더 많다고[5], 다른 연구는 스펠트가 가장 많다고 보고했다[2]", "source": [5, 2]},
+    {"name": "Arabinoxylan", "name_ko": "아라비노자일란", "class": "식이섬유", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "총 아라비노자일란 평균 13.3 mg/g(9.0–17.7; 보통밀 15.7), 수용성 5.13 mg/g(보통밀 6.58)",
+     "activity_ko": "밀 통곡의 주된 식이섬유로, 두 연구 모두 보통밀보다 적었다[5, 2]", "source": [5, 2]},
+    {"name": "Iron", "name_ko": "철", "class": "무기질", "role": "nutrient", "part": "씨앗(통밀가루)",
+     "content_text": "표 값 47.65(질소 100 kg/ha)·54.01(200 kg/ha), 건중량 기준(표에 단위 표기 없음); 보통밀 35.33·40.04; 아연은 34.37·40.78(보통밀 24.41·27.27)",
+     "activity_ko": "철·아연은 섭취가 부족한 집단이 많아, 세 밀 종류의 차이 가운데 건강상 의미가 있을 수 있는 예외로 꼽혔다[2]", "source": [2]},
+]
+
+assays = [
+    {"role": "literature", "compound": "5-n-Alkylresorcinols (AR 17:0–25:0, AR 19:1, AR 21:1)", "compound_ko": "알킬레조르시놀 동족체",
+     "part": "씨앗(탈부 통곡 가루)", "content": "스펠트 총 AR 817.9 ± 174.7 mg/kg DM; C21:0 54.1%, C19:0 26.1%[4]",
+     "method": "UHPLC–TWIMS–QTOF(이온 이동도-고분해능 질량분석)",
+     "conditions": {
+         "instrument": "ACQUITY I-Class UPLC + Vion IMS QTOF 질량분석기(ESI)",
+         "column": "ACQUITY BEH C18, 2.1 × 100 mm, 1.7 μm",
+         "mobile_phase": "A: 5 mM 포름산암모늄 물/메탄올(95:5, v/v), B: 5 mM 포름산암모늄 아이소프로판올/메탄올/물(65:30:5, v/v), 둘 다 0.1% 포름산",
+         "gradient": "0.0분 10% B → 1.0분 50% B → 1–5분 80% B → 11.0분 100% B(0.50 mL/min) → 4.5분 등용매 → 2.5분 10% B 재평형",
+         "flow": "0.40 mL/min(11분 단계 0.50 mL/min)",
+         "temp": "시료 10 °C 유지(칼럼 온도는 본문에서 확인하지 못함)",
+         "detection": "ESI 음이온 모드, m/z 100–1000, 모세관 2.5 kV, 소스 120 °C, 탈용매 500 °C, 탈용매 가스 1000 L/h, HDMSE",
+         "injection": "1 μL",
+         "sample_prep": "탈부 낟알을 1 mm 체로 분쇄 후 300 μm 미만으로 미분쇄; 시료 1 g + 에틸아세테이트 20 mL, 240회/분 60분 교반, 14,000 rpm 10분 원심, 상등액 1000 μL 질소 건고; 2회 반복 후 합쳐 이동상 B 1 mL에 재용해",
+         "standard": "5-헵타데실·노나데실·헤네이코실·트라이코실레조르시놀(외부표준); 불포화 AR은 같은 사슬 길이 포화 AR의 상대 감응으로 정량",
+         "linearity": "외부표준 검량 0.1–25 mg/kg",
+         "lod": "",
+         "loq": "AR 17:0 최저 검량 수준(LCL) 100 μg/kg",
+         "recovery": "1차 추출 92.7% (±1.05), 2차 7.3% (±1.14); 3차에서 검출 안 됨"},
+     "rationale": "알킬레조르시놀은 통곡 섭취 바이오마커이자 밀 종 판별(C17:0/C21:0 비) 지표로 쓰이며, 스펠트는 C21:0/C23:0 비가 4.73으로 가장 높았다[4]. 전문(Methods) 확인 — 검출한계 등 상세 검증값은 보충자료에 있어 확인하지 못함[4].",
+     "source": [4], "url": "https://doi.org/10.1021/acs.jafc.1c05451", "source_kind": "paper"},
+    {"role": "literature", "compound": "Ferulic acid, p-coumaric acid, schaftoside, MBOA/BOA", "compound_ko": "페놀산·샤프토사이드·벤족사지노이드",
+     "part": "씨앗(발아 전·발아 0–96시간)", "content": "발아 전 페룰산+p-쿠마르산 457.93 ± 12.03 µg/g DW; 샤프토사이드 13.58 µg/g DW; 96시간 발아 후 MBOA 277.61 ± 15.29 µg/g DW[3]",
+     "method": "LC-DAD-MS(역상, ESI 음이온)",
+     "conditions": {
+         "instrument": "Agilent 1100 LC(다이오드 어레이 검출기) + Waters Quattro micro API 질량분석기",
+         "column": "Ascentis Express C18, 150 × 2.1 mm, 2.7 μm(같은 계열 보호 칼럼 5 × 2.1 mm)",
+         "mobile_phase": "A: 0.1% 포름산 수용액, B: 아세토나이트릴",
+         "gradient": "0–4분 10% B; 4–18분 10–60%; 18–18.2분 60–80%; 18.2–20분 80%; 20–20.2분 80–10%; 20.2–26분 10%",
+         "flow": "320 µL/min",
+         "temp": "35 °C",
+         "detection": "DAD 240–650 nm 스캔; ESI 음이온, 모세관 3.5 kV, 콘 20 V, 소스 100 °C, 탈용매 350 °C",
+         "injection": "2 µL",
+         "sample_prep": "유기 재배 스펠트 1 g을 70% 메탄올 3.0 mL로 3회 추출(유리형); 잔사를 2 M NaOH 20 mL로 4시간 가수분해 후 포름산으로 pH 3.2–3.4(결합형); Strata-X RP 카트리지로 정제, 70% 메탄올 2.0 mL 용출",
+         "standard": "MBOA, BOA, 페룰산, p-쿠마르산, 페룰산 cis/trans 혼합물, 샤프토사이드·아이소샤프토사이드; HBOA는 MBOA 당량",
+         "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "스펠트 낟알 페놀의 대부분(약 72%)이 결합형이고 trans-페룰산이 주성분이어서 결합형 페놀산이 대표 지표로 쓰였다[3]. 전문(Methods) 확인 — 검량 범위·검출·정량한계·회수율은 본문에 없음[3].",
+     "source": [3], "url": "https://doi.org/10.3390/foods12091769", "source_kind": "paper"},
+    {"role": "literature", "compound": "Arabinoxylan and beta-glucan (enzyme fingerprinting)", "compound_ko": "아라비노자일란·베타글루칸",
+     "part": "씨앗(탈부 통밀가루)", "content": "총 AX 27.33·27.26, 총 β-글루칸 9.256·8.521(임의 단위, 질소 100·200 kg/ha)[2]",
+     "method": "효소 지문법 + 고성능 음이온교환 크로마토그래피(HPAEC)",
+     "conditions": {
+         "instrument": "", "column": "Carbopac PA-1, 2 mm × 250 mm", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+         "sample_prep": "기계 탈부 후 원심 분쇄기(0.5 mm 체)와 볼 밀로 2단계 분쇄; 가루를 엔도자일라네이스와 리케네이스로 분해해 AXOS·GOS 올리고당 방출(기술 반복 3회)",
+         "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "아라비노자일란과 베타글루칸은 밀의 주된 식이섬유로, 스펠트는 G3:G4 비가 낮아 β-글루칸 구조가 달랐다[2]. 전문(Methods) 확인 — 결과는 임의 단위이며 용리 조건은 인용 문헌으로 넘겨 본문에 없음[2].",
+     "source": [2], "url": "https://doi.org/10.3390/foods12040843", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "triticum-spelta",
+    "name_ko": "스펠트밀",
+    "name_en": "Spelt",
+    "scientific_name": "Triticum spelta L.",
+    "aliases": ["스펠트밀", "스펠트", "스펠트밀가루", "스펠트밀씨앗", "스펠트밀겨", "Spelt", "Spelt wheat", "Farro(혼용 명칭)", "Triticum aestivum subsp. spelta", "Triticum aestivum ssp. spelta"],
+    "sections": S,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("ok", len(sources), len(compounds))
