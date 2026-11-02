@@ -1,0 +1,66 @@
+{
+ "slug": "carissa-carandas",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 73,
+ "checked_items": 77,
+ "verified": 141,
+ "fixed": 7,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.related_species",
+   "before": "파키스탄 일부 지역에서는 'Christ thorn'이라고도 부른다[9].",
+   "after": "파키스탄 연구는 이 식물이 남아시아·동남아시아 등 여러 분포 지역에서 'Christ thorn'이라고도 불린다고 적었다[9].",
+   "why": "[9] 전문은 스리랑카·인도네시아·인도·네팔·아프가니스탄 등 여러 지역에서 Christ thorn 이라 부른다고 썼고, 파키스탄 일부 지역 한정이 아님"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "(없음)",
+   "after": "POWO 검색 요약에 따르면 'Carissa carandas G.Lodd.'는 C. spinarum의 이명 …[2]",
+   "why": "근연종(C. spinarum) 자료 섞임 위험: 같은 철자의 다른 명명자 학명이 C. spinarum 이명임(POWO 요약, [11] 전문의 syn. G.Lodd. 표기와 일치)"
+  },
+  {
+   "where": "sections.safety",
+   "before": "…혈액·혈청 지표는 정상 범위였다[8].",
+   "after": "…혈액·혈청 지표 대부분은 대조군과 유의한 차이가 없었다[8].",
+   "why": "[8] 표 2에서 대조군 포함 Hb·HCT 일부가 표준 범위 아래, 추출물 5% 군 요소 27 mg/dL 로 상한 초과 — '정상 범위'는 과장"
+  },
+  {
+   "where": "sections.safety",
+   "before": "다만 추출물 10% 군에서는 간세포 핵 농축과 신세뇨관 확장 같은 가벼운 조직 변화가 보였다[8].",
+   "after": "분말 10% 군의 국소 간세포 괴사·공포화를 더하고 수컷만 쓴 단기 시험(20마리) 한계 명시",
+   "why": "[8] 전문 3.4절·Limitations"
+  },
+  {
+   "where": "compounds[Carissic acid].content_text",
+   "before": "열매 메탄올 추출물의 클로로폼 분획에서 새 화합물로 분리(함량 보고 없음)[19]",
+   "after": "새 화합물로 보고[19]; 1993년 논문은 같은 이름의 carissic acid가 1988년 분리되었다고 적어 동일 물질 여부 확인 못함[14]",
+   "why": "[14] 초록에 carissic acid(Naim 1988) 이미 언급 — '새 화합물' 단정 완화"
+  },
+  {
+   "where": "compounds[Cyanidin 3-galactoside].content_text",
+   "before": "총안토시아닌 112 mg/kg",
+   "after": "112 mg/kg(건조 추출물, 시아니딘-3-글루코사이드 당량)",
+   "why": "[6] 2.4절 단위 기준(mg C3G/kg dried extract)"
+  },
+  {
+   "where": "assays[Ascorbic acid].conditions.sample_prep",
+   "before": "1:1 균질화 뒤 초음파 추출 4회 반복",
+   "after": "균질화 상등액(SET 1) + 침전물 초음파 추출 반복, SET 1–4 합침",
+   "why": "[7] Methods 의 Fresh-RKF 공정과 맞춤"
+  },
+  {
+   "where": "sources[2].url",
+   "before": "https://powo.science.kew.org/results?q=Carissa%20carandas",
+   "after": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77691-1",
+   "why": "검색 결과 페이지 대신 해당 분류군 페이지(WebSearch 결과로 확인)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[2] POWO 는 네트워크 허용 목록 밖이라 열지 못하고 WebSearch 요약(원산지 인도·방글라데시 남동부, 계절적 건조 열대, 도입 지역, Jasminonerium 이명)으로만 확인; 1767년 발표 연도와 C. congesta 이명 여부는 확인하지 못함",
+  "[3][4][12]–[33] 은 PubMed 초록만으로 대조(초록 범위 내 수치 모두 일치); [5][6][7][8][9][10][11] 은 PMC 전문으로 대조, assays 조건 칸은 전문 Methods 와 일치",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 원 행(카란다열매, Carissa carandas L. / Carissa congesta Wight, 사용가능, 사용가능부위 : 열매)과 card.json·overview 일치; 같은 속 Heen karamba열매(C. spinarum)·나탈플럼열매(C. grandiflora) 행은 별도이며 자료 섞임 없음"
+ ]
+}

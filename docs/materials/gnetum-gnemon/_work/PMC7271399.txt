@@ -1,0 +1,573 @@
+Introduction
+
+L. is a species of
+the Gnetaceae family commonly called melinjo in Indonesia, known to
+be rich in resveratrol derivatives. Its fruit and seeds are used as
+ordinary food in Indonesia and their extracts have been reported to
+show several pharmacological activities from in vitro to human studies.A stilbene monomer,-resveratrol () and stilbene oligomers such as gnetin C (), gnemonoside
+A (), gnemonoside C (), gnemonoside D
+(), gnetin L, and gnetin E () have been
+isolated from the fruit and/or seeds ().The oligomers possess
+a 1,2-diaryldihydrobenzofuran skeleton as a basic structural motif.
+The relative stereochemistry of two chiral centers in the core has
+been assigned by NOE experiment,whereas the absolute configuration has been traditionally
+elucidated by comparison of its electronic circular dichroism (ECD)
+spectrum with that of known structures.In our ongoing search
+for biologically active components from melinjo seed extract (MSE),
+we isolated a new minor epimer of, termed 7a--gnetin C () along with known compounds
+as shown in. In this paper, we report the elucidation of structureand structural revision of gnetin L () to the regioisomer. In addition, a series of resveratrol derivatives shown
+inwere submitted
+to the oxygen radical absorbance capacity (ORAC) assay and evaluated
+as an antioxidant.
+
+Figure 1
+
+Structures of natural stilbene derivatives fromL.
+
+Results and Discussion
+
+The seeds (endosperms) of melinjo (L.), collected in Indonesia, were powdered and extracted with 55%
+aqueous EtOH. MSE with enzymatic hydrolysis of glucosides was successively
+subjected to ODS column chromatography, silica gel column chromatography,
+and reversed phase HPLC to give. The existence ofin the MSE was confirmed by analytical HPLC analysis before
+being treated with the enzyme. The molecular formula ofwas established as CHOby
+HR-ESI-MS spectrum (/: 477.1313
+[M + Na]; calcd for CHONa, 477.1314). TheH andC NMR data
+ensured a set of 2,3-diaryl-dihydrobenzofuran ring and the connectivity
+of units A and B supported by HMBC correlations from H-8a to C-11b
+and C-12b, which indicated thatpossessed the same
+planar structure as that of(). The coupling constant between H-7a and
+H-8a foris 8.3 Hz, whereas foris reported
+to be 4.5 Hz.These values were diagnostic
+and the same as the values reported for-dihydrobenzofuran
+and itsisomer derived from (−)-ε-viniferin,and the- and-dihydrobenzofuran moieties included in suffruticosol D from,indicating thatis in a-form
+on the dihydrofuran ring. In comparison betweenH NMR
+chemical shifts of() and those of(), theorientation
+of Aand Arings incauses
+up-field shifts for aromatic ring signals of H-2a (Δ −0.22
+ppm), H-3a (Δ −0.23 ppm), H-10a (Δ −0.44
+ppm), and H-12a (Δ −0.22 ppm) by stacking effects. In
+addition, the NOESY correlations between vicinal H-7a and H-8a and
+between two aromatic groups H-2a (6a) and H-10a (14a) further supported
+a cis-orientation.
+
+The absolute configuration ofwas determined by
+the optical data comparison of a phenol derivativederived from bothand. Namely, treatment
+ofwith a Pd/C catalyst under hydrogen atmosphere at
+room temperature underwent a reductive opening of the tetrahydrofuran
+ring at C-7a to give{[α]−60.8 (0.02, MeOH)} (). ItsH andC NMR data were identical with those of the reduction product
+preparedfrom, and its
+optical rotation was also nearly equal in sign and magnitudeto that of{[α]−66.8 (0.11, MeOH)} derived
+from{[α]−18.5
+(0.1, MeOH)}, indicating that the configuration
+of C-8a ofwas the same as. Therefore,was determined to be the C-7a epimer of.
+
+The absolute configuration of (−)-gnetin C (shown asin) was reported to be 7a,8aby
+a vibrational circular dichroism (VCD) study.We independently ensured this assignment using a fully methylated
+benzaldehyde derivative,prepared fromvia(). This compound was designed in order to suppress the effect
+of hydrogen bondingand the free rotation
+of a terminal styryl unit. As expected, the experimental ECD spectrum
+ofshowed good agreement with the calculated one for
+(7a,8a)-at ca.
+210 nm, a strong positive band at ca. 245 nm, a broad negative band
+at ca. 280 nm, and a broad positive band at ca. 325 nm (). Meanwhile, the theoretical
+ECD spectrum calculated for (7a,8a)-exhibited a different feature to that of the experimental
+one. From these results, the absolute configuration of the parent
+compoundwas unambiguously assigned as 7a,8a, which is consistent with the previous result.Thus, the absolute configuration of the new
+compoundwas determined as 7a,8a.
+
+In the course of identifying other isolated compounds, we found
+that NMR spectral data in acetone-ofwas almost identical to those of gnetin L ()with a 3-hydroxy-5-methoxyphenyl group.
+TheH NMR spectra of the isolatedin acetone-chemical shifts of some aromatic signals
+were overlapped and second order effects were observed. To clarify
+the substitution pattern of aromatic rings, we tried to measureH NMR spectra in several solvent systems. In theH NMR spectra ofin CDCN, the three proton
+signals in the Aring were observed at 6.76, 6.80, and
+6.92 ppm as doublet of doublets (= 7.8, 1.8 Hz),
+doublet (= 7.8 Hz), and doublet (= 1.8 Hz), respectively (). The ortho-coupling protons at δ6.76 and 6.80 (= 7.8 Hz) and meta-coupling protons
+at δ6.76 and 6.92 (= 1.8 Hz)
+proposed an ABX system of 4-hydroxy-3-methoxyphenyl group for the
+Aring. In addition, the HMBC correlation peak from the
+hydroxy proton signal at δ6.57 (1H, s) to δ115.6 (C-5a) indicated that the hydroxy group was attached
+to the C-4a position (). Thus, we concluded that the structure of natural gnetin
+L should be revised to be the regioisomer. This structural
+revision of gnetin L () revealed that gnetin Land the later reported macrostachyol D by Sri-in
+et al. in 2011 were identical.
+
+Finally, we have tested the antioxidant activities of the new as
+well as known compounds, as it is well known that polyphenols have
+potentially high antioxidant activities.As listed in, all tested compounds showed stronger ORAC activity compared with-ascorbic acid (). Compoundsandwere less active
+than, indicating that a change in the stereochemistry
+of C-7a in Aring and the methoxy group at C-3a in Aring decreased the activity. In addition, compoundswere less active than, indicating
+that glucosylation of the hydroxyl group at C-4a in Aring
+and at C-4b in Bring decreased the activity. Although
+the glucosyl substitution effects of the hydroxyl group in Aand Bring on DPPH radical scavenging activity reported
+by Kato et al. in 2009 were very small, the number and position of
+free phenolic hydroxyl groups in the molecule will contribute to the
+antioxidant activity as well as other polyphenols. Furthermore, the
+activity ofwas 4-fold less active thanand. This suggested that a molecule larger than a
+dimer is less effective as an antioxidant.
+
+Table 1
+
+H andC NMR
+Data forin Acetone-
+
+position
+
+δ
+
+δ(in Hz)
+
+HMBC
+
+NOE
+
+1a
+
+129.05
+
+2a (6a)
+
+129.05
+
+7.00 (2H, d,= 8.7 Hz)
+
+1a, 4a, 6a, 7a
+
+3a (5a), 7a, 10a (14a)
+
+3a (5a)
+
+115.1
+
+6.61 (2H, d,= 8.7 Hz)
+
+1a, 5a
+
+2a (6a)
+
+4a
+
+157.4
+
+7a
+
+90.3
+
+5.85 (1H, d,= 8.3 Hz)
+
+1a, 2a (6a), 9a
+
+2a (6a), 8a
+
+8a
+
+51.7
+
+4.56 (1H, d,= 8.3 Hz)
+
+9a, 10a (14a), 11b, 12b
+
+7a, 10a (14a)
+
+9a
+
+142.2
+
+10a (14a)
+
+108.6
+
+5.73 (2H, d,= 2.3 Hz)
+
+8a, 12a
+
+2a (6a), 8a
+
+11a (13a)
+
+158.7
+
+10a (14a), 12a
+
+12a
+
+101.6
+
+5.99 (1H, t,= 2.3 Hz)
+
+10a (14a), 11a (13a)
+
+1b
+
+130.0
+
+2b (6b)
+
+128.7
+
+7.45 (2H, d,= 8.2 Hz)
+
+4b, 6b, 7b
+
+7b, 8b
+
+3b (5b)
+
+116.4
+
+6.86 (1H, d,= 8.2 Hz)
+
+1b, 4b, 5b
+
+4b
+
+158.3
+
+7b
+
+129.13
+
+7.11 (1H, d,= 16.5 Hz)
+
+2b (6b), 8b, 9b
+
+2b (6b), 10b, 14b
+
+8b
+
+126.8
+
+6.99 (1H, d,= 16.5 Hz)
+
+7b, 10b, 14b
+
+2b (6b), 10b, 14b
+
+9b
+
+140.8
+
+10b
+
+99.3
+
+6.72 (2H, d,= 0.9 Hz)
+
+8b, 11b, 12b, 14b
+
+7b, 8b
+
+11b
+
+162.9
+
+12b
+
+117.1
+
+13b
+
+155.3
+
+14b
+
+108.3
+
+6.62 (2H, d,= 0.9 Hz)
+
+8b, 10b, 12b, 13b
+
+7b, 8b
+
+11a, 13a-OH
+
+7.85 (2H, s)
+
+10a (14a), 12a
+
+Table 2
+
+ORAC Antioxidant Capacity per mol
+of Stilbene Oligomers and-Ascorbic Acid
+
+compound
+
+type
+
+mmol TE/mol
+
+7a--gnetin C ()
+
+resveratrol dimer
+
+5081 ± 420
+
+gnetin L ()
+
+a resveratrol unit and an
+isorhapontigenin unit
+
+5298 ± 414
+
+gnetin C ()
+
+resveratrol dimer
+
+8597 ± 619
+
+gnemonoside A ()
+
+resveratrol dimer
+
+4679 ± 586
+
+gnemonoside C ()
+
+resveratrol dimer
+
+6336 ± 627
+
+gnemonoside D ()
+
+resveratrol dimer
+
+5663 ± 997
+
+-resveratrol ()
+
+resveratrol monomer
+
+8241 ± 350
+
+gnetin E ()
+
+resveratrol trimer
+
+2129 ± 237
+
+-ascorbic acid
+
+−
+
+638 ± 59
+
+a
+
+Data are expressed as the mean ±
+SD of three experiments.
+
+b
+
+This classification was based on
+the structure ofas a monomer.
+
+c
+
+Data are expressed as Trolox equivalent
+per 1 mol sample.
+
+d
+
+-Ascorbic acid was used
+as positive control.
+
+Scheme 1
+
+Preparation ofby Hydrogenation ofor
+
+Figure 2
+
+Calculated and experimental ECD spectra of.
+
+Scheme 2
+
+Chemical Conversion ofinto a Benzaldehyde Derivative
+
+Figure 3
+
+ExpandedH NMR spectra in comparison with spin–spin
+coupling patterns for 4-hydroxy-3-methoxyphenyl ring portion ofin acetone-(a) and CDCN (b).
+
+Figure 4
+
+HMBC correlations forin CDCN.
+
+Methods
+
+General Procedures
+
+All melting points were determined
+with a Yanaco MP-500 apparatus and are uncorrected. Optical rotations
+were measured using a JASCO DIP-370 digital polarimeter. IR spectra
+were recorded by the attenuated total reflection method using ZnSe
+prism on a JASCO VALOR-III spectrophotometer.H andC NMR spectra were recorded at 500 and 125 MHz or 600 and
+150 MHz with Agilent Technologies V500 or JEOL ECA600 spectrometers.
+Chemical shifts were referenced to a residual signal (H) and a solvent signal (C) of CDCN (δ1.93, δ118.3), acetone-(δ2.04, δ29.8),
+CDOD (δ3.30, δ49.0),
+and CDCl(δ7.26, δ77.0). ESIMS were recorded on a JEOL JMS-T100LC mass spectrometer.
+Preparative HPLC was conducted on a Waters 600E system with a Cosmosil
+5C-AR-II column (250 mm × 20 mmID, Nacalai Tesque).
+Medium-pressure liquid chromatography (MPLC) was carried out on a
+Yamazen MPLC system. Merck precoated silica gel 60 F254 plates, 0.25
+mm in thickness, were used for analytical thin-layer chromatography.
+
+Plant Material
+
+The seeds (endosperms) of melinjo were
+collected in Indonesia (Desa Bangkok, Kecamatan Gurah Kabupaten Kediri,
+Kediri, Jawa Timur) in July 2009 and have been identified by Dr. Eishin
+Kato. Voucher specimens (number 090716) have been deposited at Hosoda
+SHC Co. Ltd., Fukui, Japan.
+
+Extraction and Isolation
+
+The preparation of MSE and
+isolation ofwere performed based on the modified
+method reported by Kato et al.In brief,
+the powder of dried endosperms of melinjo was extracted with 55% aqueous
+ethanol, and the MSE (23.0 g) was subjected to ODS column chromatography,
+silica gel column chromatography, and recrystallization and/or preparative
+HPLC to give(0.19 g),(1.15 g),(62 mg), and(0.23 g).
+
+The MSE (150
+g) was treated with 3 g of β-glucosidase in 0.02 M citric acid
+(12 L) at 40 °C for 24 h. The hydrolyzed residue (120 g) was
+subjected to Daiso Gel column chromatography (Daiso gel IR-60, 600
+mm × 80 mmID) with 9 L (each 1 L/fraction) of 6, 12, and 25%
+MeOH in CHClas the eluent. The fraction eluted with 25%
+MeOH in CHClwas further purified by MPLC using ODS column
+chromatography (Hi-Flash Column ODS-SM, 100 mm × 26 mmID, Yamazen)
+using aqueous MeOH (20–80%, 54 min linear, 100%, 10 min hold)
+with 0.1% TFA as the eluent at a flow rate of 15 mL/min (15 mL ×
+64). Fraction 31–33 was then purified by preparative HPLC using
+aqueous MeOH (48–50%, 60 min linear, 50–55%, 60 min
+linear, 55%, 30 min hold) with 0.1% TFA at a flow rate of 7.5 mL/min
+to give() (= 124 min, 1.82 mg ≥ 99% HPLC). Furthermore,
+the hydrolyzed residue (70 g) was subjected to ODS column chromatography
+(Cosmosil 75C-PREP, 400 mm × 80 mmID, Nacalai Tesque)
+with 6 L (each 1 L/fraction) of 20, 40, 60, and 100% aqueous MeOH.
+The third and fourth fractions eluted with 40% aqueous MeOH were subjected
+to MPLC using ultra pack silica gel column (300 mm × 37 mmID,
+Yamazen) with MeOH (10%, 15 min hold, 10–20%, 45 min linear,
+20–50%, 45 min linear, 50%, 60 min hold) in CHClas the eluent at a flow rate of 20 mL/min (20 mL × 120). Fraction
+27–30 was further purified by preparative HPLC using aqueous
+MeOH (43–46%, 30 min linear, 46%, 150 min hold) with 0.1% TFA
+at a flow rate of 7.5 mL/min to give fractions that eluted at 117
+and 133 min to give(1.82 mg ≥ 99% HPLC) and(3.59 mg ≥ 99% HPLC), respectively.
+
+7a--Gnetin C (): [α]+ 201 (0.11, MeOH); IR (ZnSe)
+ν: 3235, 2932, 2840, 1670, 1595, 1509, 1448, 1429,
+1251, 1194, 1142, 998, 821, and 799 cm;H andC NMR (600 and 150 MHz, acetone-), see; HRESIMS/: 477.1313
+[M + Na](calcd for CHONa, 477.1314).
+
+Gnetin L ():H andC NMR
+(600 and 150 MHz, CDCN), see.
+
+Gnetin E ():H andC NMR
+(600 and 150 MHz, acetone-), see.
+
+Analysis of Resveratrol Derivatives
+
+Analysis of resveratrol
+derivatives in MSE was performed by the Prominence HPLC system (Shimadzu)
+with a Cosmosil 5C-AR-II column (250 mm × 4.6 mmID,
+Nacalai Tesque), following the analysis conditions previously reported.The contents of dimer derivatives in MSE were
+as follows: 1.5 mg/g, 2.2 mg/g, 28 mg/g, 101 mg/g, 16 mg/g, 48 mg/g, and 0.3 mg/g.
+
+()-2-(1-(3,5-Dihydroxyphenyl)-2-(4-hydroxyphenyl)ethyl)-5-(4-hydroxyphenethyl)benzene-1,3-diol
+()
+
+From. To a stirred solution
+of gnetin C (10.2 mg, 22.4 μmol) in ethyl acetate (2.0 mL) was
+added 10% Pd/C (16.1 mg). The mixture was stirred vigorously under
+a hydrogen atmosphere at room temperature (rt) for 22 h, filtered
+through a pad of Celite, and then concentrated. The residue was purified
+by preparative TLC (dichloromethane/methanol = 10:1, 3 developments)
+to give(7.0 mg, 68%) as an amorphous solid: [α]−66.8 (0.11, MeOH);
+IR (ZnSe) ν: 3200, 2920, 2843, 1590, 1510, 1423,
+1240, 1219, 1142, 1000, and 818 cm;H NMR (500 MHz, CDOD): δ 6.95 (2H, d,= 8.6 Hz), 6.91 (2H, d,= 8.6 Hz), 6.65 (2H,
+d,= 8.6 Hz), 6.55 (2H, d,=
+8.6 Hz), 6.46 (2H, brd,= 2.2 Hz), 6.04 (2H, s),
+6.02 (1H, t,= 2.2 Hz), 4.65 (1H, dd,= 9.5, 6.6 Hz), 3.53 (1H, dd,= 13.4, 9.5 Hz),
+3.26 (1H, dd,= 13.4, 6.6 Hz), 2.74–2.66
+(2H, m), and 2.59–2.55 (2H, m);C NMR (150 MHz,
+CDOD): δ 158.5, 157.6, 156.3, 155.7, 149.6, 142.2,
+134.6, 134.3, 130.9, 130.4, 116.2, 116.0, 115.4, 108.34, 108.26, 100.6,
+43.4, 39.3, 38.5, and 38.1; HRESIMS/: 481.1620 [M + Na](calcd for CHONa, 481.1627).
+
+From. To a stirred
+solution of(1.10 mg, 2.42 μmol) in methanol
+(0.5 mL) was added 10% Pd/C (2.5 mg). The mixture was stirred vigorously
+under a hydrogen atmosphere at rt for 9 h, filtered through a pad
+of Celite, and then concentrated. The residue was purified by preparative
+TLC (dichloromethane/methanol = 10:1, 5 developments) to give(0.61 mg, 55%) as an amorphous solid whose spectral data
+were identical with those of an authentic sample derived from gnetin
+C: [α]−60.8 (0.02, MeOH); HRESIMS/: 481.1627
+(calcd for CHONa [M + Na], 481.1627).
+
+Permethylation of Gnetin C ()
+
+To a stirred
+suspension of(10.4 mg, 22.9 μmol) and potassium
+carbonate (61 mg, 441 μmol) in acetone (0.5 mL) was added methyl
+iodide (27.4 μL, 441 μmol), and the mixture was stirred
+under reflux for 2 h. More methyl iodide (27.4 μL, 441 μmol)
+and acetone (0.5 mL) were added and the reaction was further continued
+for 3 h. After cooling to rt, the reaction mixture was concentrated,
+diluted with dichloromethane/methanol (20:1), filtered through a pad
+of Celite, and then concentrated. The residue was purified by preparative
+TLC (-hexane/ethyl acetate = 2:1, 3 developments)
+to give(11.2 mg, 97%) as an amorphous solid: [α]+ 1.2 (0.41, CHCl); IR (ZnSe) ν: 2920, 2820, 1583, 1505, 1453,
+1420, 1241, 1165, 1150, 1023, 821, and 741 cm;H NMR (500 MHz, CDCl), see;C NMR (125 MHz, CDCl):
+δ 161.6, 160.8, 159.4, 159.3, 156.9, 145.2, 140.3, 133.9, 130.0,
+128.4, 127.8, 126.9, 126.8, 115.2, 114.1, 113.9, 105.5, 102.5, 100.4,
+98.6, 92.8, 55.7, 55.4, 55.3, and 55.2; HRESIMS/: 547.2095 [M + Na](calcd for CHONa, 547.2097).
+
+(2,3)-3-(3,5-Dimethoxyphenyl)-4-methoxy-2-(4-methoxyphenyl)-2,3-dihydrobenzofuran-6-carbaldehyde
+()
+
+To a stirred solution of(11.0 mg, 21.0 μmol) in tetrahydrofuran (0.5 mL) and water
+(0.2 mL) was added dropwise a solution of OsO(ca. 5 μmol)
+in 2-methyl-2-propanol (50 μL) at rt. After stirring for few
+minutes, NaIO(43 mg, 0.20 mmol) was added by portions.
+After being stirred for an additional 3 h, the mixture was filtered
+through a pad of Celite. The filtrate was diluted with ethyl acetate,
+washed successively with aqueous NaS, water, and brine,
+dried, and concentrated. The residue was purified by preparative TLC
+(-hexane/ethyl acetate = 4:1, 3 developments) to
+give(7.0 mg, 80%) as an amorphous solid: [α]+ 106.4 (0.23, CHCl); IR (ZnSe) ν: 2920, 2808, 1685, 1585, 1508,
+1450, 1420, 1195, 1150, 1080, 1060, 820, and 745 cm;H NMR (500 MHz, CDCl), see;C NMR (125 MHz, CDCl): δ 191.6, 161.5, 160.9, 159.7, 157.3, 144.2, 139.1,
+133.2, 126.8, 123.0, 114.1, 105.6, 105.3, 104.3, 98.7, 93.2, 55.7,
+55.6, and 55.3; HRESIMS/: 443.1473
+[M + Na](calcd for CHONa, 443.1471).
+
+ECD Calculation
+
+ECD calculations of (7a,8a)-were initiated with a preliminary
+MMFF conformational search on a Spartan’10 program.The lower energy conformers within 2.4 kcal/mol
+from the most stable were optimized at the DFT/B3LYP/6-31G(d) level
+using a Gaussian 09 program.The resultant
+stable conformers within 2.0 kcal/mol, from the most stable ones,
+were further submitted to a DFT/B3LYP/6-311G(d,p) optimization considering
+the solvent effects. The ECD spectra of the obtained 10 conformers
+within 1.0 kcal/mol, from the most stable ones, were calculated at
+the TDDFT/B3LYP/6-311G(d,p) level. The first 55 singlet → singlet
+electronic transitions were considered. The calculated ECD spectra
+in Δε unit were obtained by using Gaussian band shapes
+with 0.15 eV half-width at 1/of peak height.
+
+ORAC Assay
+
+The ORAC analysis has been performed following
+the methodreported by Shimizu et al.
+with minor modifications. In brief, a sample was dissolved directly
+in an ethanol/water mixture (50:50, v/v) and diluted with phosphate
+buffer (75 mM, pH 7.4). The sample solution (20 μL) was transferred
+to a 96-well microplate, and then fluorescein (200 μL, 94.4
+nM) and AAPH (75 μL, 63.4 mM) were added and mixed. Phosphate
+buffer (75 mM, pH 7.4) was used as a blank solution, and Trolox as
+the standard solution. The assay was carried out on a FLUOstar OPTIMA
+plate reader utilizing fluorescence filters with 485 nm excitation
+and 520 nm emission. The antioxidant capacity of the sample was calculated
+as mmol Trolox equivalent per mol (mmol TE/mol).

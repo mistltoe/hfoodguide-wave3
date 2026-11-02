@@ -1,0 +1,48 @@
+import json
+p='mya-arenaria/dossier.json'
+d=json.load(open(p))
+S={s['key']:s for s in d['sections']}
+changes=[]
+def rep(key,old,new,why):
+    s=S[key]
+    assert old in s['body'],(key,old)
+    s['body']=s['body'].replace(old,new); changes.append({"where":f"sections.{key}","before":old,"after":new,"why":why})
+rep('overview','이 종은 북미 동부 연안에서 가장 많이 연구된 식용 조개 가운데 하나로, 마비성 패독에 대한 저항성 유전자와 개체 사이를 옮겨 다니는 전염성 백혈병이 알려져 있다[2, 13]. 건강기능식품 고시형 원료의 원재료는 아니어서 식약처가 정한 지표성분은 없다[1].',
+ '이 종은 상업적으로 중요한 식용 조개로[22], 마비성 패독에 대한 저항성 유전자와 개체 사이를 옮겨 다니는 전염성 백혈병이 알려져 있다[2, 13]. 건강기능식품 고시형 원료로 등재된 기록은 찾지 못했으며, 따라서 식약처가 정한 지표성분도 없다.',
+ "'가장 많이 연구된' 근거 없음 → [22] 초록의 'commercial and economic importance'로; 건기식 고시 여부는 [1](식품원료 목록)이 말하지 않으므로 출처 표시 제거")
+rep('biology','국내에서는 남서해안 조간대 하부의 모래펄에 산다는 학회지 논문이 있으나, 이 내용은 WebSearch 요약으로만 보았다[24].',
+ '국내 서식지(지역·저질)를 이 종의 학명으로 확인한 공공기관·원문 자료는 확인하지 못함.',
+ '[24] 원문 미열람, 검색 요약에서도 서식지 서술 확인 안 됨; 국내 개체가 M. arenaria 인지 M. japonica 인지도 불명')
+rep('cultivation','캐나다 세인트로렌스강 하구 조사에서 여가 채취자는 조간대가 드러나는 2–3시간 동안 채취했다[4].',
+ '같은 조사는 채취 가능한 시간이 조석에 따라 제한된다고 적었다[4].',
+ "[4] 전문에 '2–3시간' 없음; 'harvesting is limited by sea tide'만 있음")
+rep('cultivation','마비성 패독 저항성 유전자형의 지역 분포는 종자 방류(seeding) 사업에서 어느 집단의 종자를 쓸지에도 영향을 준다고 논의되었다[3].',
+ '마비성 패독 저항성 유전자형의 지역 분포가 종자 방류(seeding) 사업에 주는 시사점도 논의되었다[3].',
+ "[3] 초록은 'implications for clam aquaculture (seeding) efforts ... are discussed'만 말함 — 구체 내용 과장 완화")
+rep('cultivation','국내에서는 전라남도 연구기관이 이 종의 종자생산 기술을 연구한 학회지 논문이 있다고 WebSearch 요약으로만 확인했다[24].',
+ "국내에서는 전라남도 해양수산과학원 연구진이 '우럭조개'의 수정란 발생과 유생 성장을 조사한 학회지 논문(2021)이 있으나, 원문을 열지 못해 대상 종의 학명이 Mya arenaria인지는 확인하지 못함[24].",
+ '[24] 재검색: 제목은 「우럭조개 수정란 발생과 유생 성장」, 학명 미확인 — 종 혼동 가능성 명시')
+rep('safety','고령자·가임기 여성은 월 188 g','고령자와 임신부·가임기 여성은 월 188 g',
+ "[5] 초록 'elderly adults and pregnant or childbearing women'")
+rep('safety','금광 폐기물로 오염된 노바스코샤 실 하버의 조개는','비소로 오염된 노바스코샤 실 하버의 조개는',
+ "[19] 초록에 오염원(금광 폐기물) 언급 없음")
+rep('safety','식약처 「식품원료 목록」에서 이 종은 별도 조건 없이 \'사용가능\' 원료이며, 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 없다[1].',
+ '식약처 「식품원료 목록」에서 이 종은 별도 조건 없이 \'사용가능\' 원료이며[1], 건강기능식품 고시형 원료로 등재된 기록을 찾지 못해 고시 섭취 시 주의사항도 없다.',
+ '[1] 은 건기식 고시 여부를 말하지 않으므로 출처 범위 조정')
+rep('related_species','가까운 종으로는 북서태평양의 Mya japonica가 있다[16].','가까운 종으로는 북서태평양의 Mya japonica가 있다[14, 16].',
+ "[16] 은 '북태평양'이라 씀; 서태평양 산은 [14] 'Japanese soft-shell clams from the western Pacific'")
+C={c['name']:c for c in d['compounds']}
+c=C['Selenium']; old=c['activity_ko']; c['activity_ko']='조개가 셀레늄의 좋은 공급원이라고 평가되었다[5]'
+changes.append({"where":"compounds.Selenium.activity_ko","before":old,"after":c['activity_ko'],"why":"[4] 는 '좋은 공급원'이라 평가하지 않음(셀레늄 보호 가능성만 언급); [5] 초록만 해당"})
+c=C['Copper']; old=c['activity_ko']; c['activity_ko']='필수 미량원소이며, 사그네–세인트로렌스 해양공원의 오염 지점 조개에서는 대조 지점보다 높았다[18]'
+changes.append({"where":"compounds.Copper.activity_ko","before":old,"after":c['activity_ko'],"why":"오염 지점 증가는 [18] 만 말함; [4] 는 지점 비교 없음"})
+a=d['assays'][3]; old=a['content']; a['content']='주석(Sn) BSM 지점 평균 70 ng/g, 이 연구 주석 상한 범위 0.07–0.18 µg/g(습중량); 그 밖의 값은 원문 그림·표에만 있음 [18]'
+changes.append({"where":"assays[3].content","before":old,"after":a['content'],"why":"0.07–0.18 µg/g 는 주석 값임을 명시([18] Discussion)"})
+for s in d['sources']:
+    if s['n']==24:
+        old=s['title']
+        s['title']='우럭조개 수정란 발생과 유생 성장. 한국패류학회지 2021;37(4):181–186 — WebSearch 결과로 서지만 확인(원문 미열람, 대상 학명 미확인)'
+        changes.append({"where":"sources[24].title","before":old,"after":s['title'],"why":"검색으로 확인한 실제 제목·쪽수로 정정"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('mya-arenaria/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

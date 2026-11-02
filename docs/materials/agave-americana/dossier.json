@@ -1,0 +1,520 @@
+{
+ "slug": "agave-americana",
+ "name_ko": "용설란",
+ "name_en": "Century plant (Agave, American aloe)",
+ "scientific_name": "Agave americana L.",
+ "aliases": [
+  "만년란",
+  "청용설란",
+  "Agave",
+  "Century Plant",
+  "American Aloe",
+  "용설란수액",
+  "아구아미엘(aguamiel)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "용설란(Agave americana L.)은 식약처 「식품원료 목록」에 영어 이름 Agave·Century Plant·American Aloe로 올라 있는 용설란속 식물이다[1]. 식약처 「식품원료 목록」에서 용설란은 식품에 사용할 수 있는 원료(사용가능)이고, 사용 조건은 '사용가능부위 : 수액'이다[1]. 목록에 오른 원료명은 용설란분말·용설란수액·용설란시럽·용설란원액·용설란주스농축·용설란증류액 여섯 가지이며, 별명으로 만년란·청용설란이 적혀 있다[1]. 이 목록 항목의 학명 칸에는 Agave americana L.와 함께 Agave tequilana·Agave salmiana가 나란히 적혀 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n용설란은 밤에 이산화탄소를 흡수하는 CAM 광합성을 하는 식물로, 가뭄과 더위에 강하고 같은 속의 다른 종보다 추위에도 잘 견딘다[4]. 멕시코에서는 수액을 받아 발효음료 풀케(pulque)를 만들고, 줄기는 익혀 먹거나 증류주 메스칼의 원료로 쓰며, 일부 변종의 섬유로 끈과 직물을 만들어 왔다[2]. 수액(아구아미엘, aguamiel)에는 헤코게닌 등에서 유래한 스테로이드 사포닌이 들어 있다고 보고되었다[8]. 잎에서는 칸탈라사포닌-1 같은 스테로이드 배당체가 분리되었으나[11, 12], 잎은 국내 식품원료 목록의 사용 부위가 아니다[1]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "용설란속 식물은 아메리카 대륙의 옛 문화에서 이미 귀하게 쓰였고, 소노라 사막의 콜럼버스 이전 시기 이용 기록과 바하칼리포르니아·소노라의 수백 년 된 용설란 농업 흔적이 남아 있다[5]. 멕시코에서 용설란의 줄기는 선사시대부터 땅속 화덕에 익혀 먹는 식량이었고, 이렇게 익힌 재료가 오늘날 발효와 메스칼 증류의 바탕이 되었다[2]. 풀케는 여러 용설란(마게이)의 신선한 수액인 아구아미엘을 발효시킨 술로, 스페인 정복 이전 시기부터 마셔 온 기록이 있다[6]. 멕시코 이달고주의 풀케용 재래 변종 조사에서는 19개 재래 변종이 Agave americana·A. salmiana·A. mapisaga에 속하는 것으로 정리되었다[3].\n\n스페인·포르투갈 사람들이 용설란을 아조레스 제도와 카나리아 제도로 옮겼고, 1700년대에는 지중해 지역에 자리 잡았다[4]. 이탈리아 시칠리아 서쪽 에가디 제도에서는 용설란과 사이잘(A. sisalana)이 농업·어업용 밧줄, 바느질 도구, 가구 재료 등으로 쓰였다는 기억이 남아 있다[21]. 아조레스 제도 농가는 여름철 반추가축의 물 공급원으로 용설란을 써 왔고, 테르세이라섬 시료로 그 사료 가치가 조사되었다[22]. 국내 도입 시기와 경로는 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "용설란은 낮에는 기공을 닫고 밤에 이산화탄소를 흡수해 산으로 저장하는 절대(obligate) CAM 식물이다[4]. 원래 자라던 곳은 멕시코 북부와 미국 남서부를 포함하는 지역이며, 자생지의 연평균 강수량은 600–800 mm이지만 고르지 않게 내리는 200 mm 정도의 비로도 살아남는다[4]. 밤 기온이 −3 °C까지 내려가도 광합성을 하고 −9 °C 아래로 내려가야 조직이 상하며, 낮 기온 63 °C까지 순응할 수 있다[4]. 광합성은 광량 약 1,000 µmol m⁻² s⁻¹ 이상에서 최대에 이른다고 정리되었고, 다른 실험에서는 1,250 µmol m⁻² s⁻¹에서 최대 이산화탄소 고정 속도가 관찰되었다[4, 19].\n\n용설란은 일생에 한 번 꽃을 피우고 죽는 일회결실성 식물로, 꽃이 피기까지 20년 이상 걸린다[4]. 어미 그루는 해마다 평균 다섯 개쯤의 곁눈 포기(새끼 포기)를 내어 영양번식을 한다[4]. 이 종에는 두 아종과 네 변종이 알려져 있고, 그중 아종 protamericana는 뚜렷한 야생 집단이 있지만 아종 americana의 변종들은 사람이 관리하는 집단에서만 발견된다[2]. 오악사카에서 '마게이 아로케뇨' 등으로 불리는 변종은 줄기에 탄수화물이 많이 쌓여 고급 메스칼에 쓰이며, 다 자라는 데 18–20년이 걸린다[2]. 잎 가장자리의 이빨 모양 가시와 잎 끝 가시는 야생에서 채취하는 변종일수록 많고 크다[3]. 잎 표피의 큐티클 성분(큐틴)은 어린 잎 부위에서 활발히 만들어진다[25]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "식약처 「식품원료 목록」의 용설란 항목은 학명 칸에 Agave americana L.·Agave tequilana·Agave salmiana를 함께 적고 있어, 세 종의 수액 원료가 한 항목으로 묶여 있다[1]. 같은 목록에서 같은 속의 길상천(Agave parryi)과 Century plant(Agave utahensis)는 잎과 수액을 쓸 수 있는 별도 항목이며, 이 자료에서는 두 종의 자료를 섞지 않았다[1].\n\n멕시코 중부의 풀케용 용설란에는 A. americana 외에 A. salmiana와 A. mapisaga가 함께 쓰인다[3]. 다른 연구에서 잰 아구아미엘 사포닌 함량(건물 기준)은 미성숙 A. salmiana가 건물 1 g당 478.3 µg(프로토디오신 당량)으로 A. americana(179.0 µg)의 약 두 배였다[8]. 멕시코 게레로·오악사카의 다섯 종 잎을 비교한 연구에서는 A. americana var. oaxacensis 잎의 디오스게닌 유래 사포닌 함량이 가장 높았고, A. angustifolia 잎은 티고게닌 유래 사포닌이 가장 많았다[15]. 캘리포니아에 자생하는 두 종인 야생 A. deserti와 재배 A. americana는 잎 밑동의 프럭탄 함량이 높아 바이오연료 원료로 비교되었다[30]. 지중해에서는 섬유용 사이잘(A. sisalana)과 함께 쓰여 왔다[21]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "용설란은 지금은 여섯 대륙에 퍼져 있으며, CABI 조사 자료를 인용한 총설에 따르면 포르투갈·스페인·이탈리아·그리스·에티오피아·케냐·남아프리카·일본·오스트레일리아·뉴질랜드 등에서 침입종으로 분류된다[4]. 스페인 안달루시아 내륙 조사에서도 실제 분포가 기존 기록보다 넓고, 해발고도 범위(기여도 26.9%)와 토지 이용(23.1%)이 분포를 가장 크게 좌우했으며 사람 손이 닿은 낮은·중간 고도에서 적합도가 가장 높았다[20]. 멕시코에서는 야생 채취, 자생지 관리, 혼농림·소규모 재배, 단일 재배까지 관리 강도가 다양하며, 재배 집단은 주로 영양번식으로 늘리고 큰 줄기·많은 수액·적은 가시를 골라 왔다[2].\n\n미국 애리조나주 마리코파에서 처음 실시한 작물 시험에서 바이오매스는 연간 물 투입 530 mm에서 헥타르당 연 9.3 Mg으로 가장 높았고, 300 mm에서도 중간 수준이 유지되었다[4, 19]. 이 시험에서 가장 큰 제약은 30 kg 이상 자란 그루의 줄기 속을 파고드는 용설란 바구미(agave snout weevil)였다[4]. 빛·기온·강수로 월별 생산성 지수를 계산하는 모형이 만들어져 재배 가능 지역을 예측하는 데 쓰인다[19]. 뿌리권에서 분리한 식물생장촉진세균을 접종하면 용설란의 생장과 당 함량이 유의하게 늘었다[31]. 국내 재배 면적과 생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "국내 식품원료 목록에는 용설란 수액을 원료로 한 분말·수액·시럽·원액·주스농축·증류액 형태가 올라 있다[1]. 멕시코에서 아구아미엘은 다 자란 용설란의 꽃대가 될 생장점을 파내고 만든 구멍에 고이는 달콤한 수액이며, 하루 두 번 구멍 안쪽을 긁어내 수액이 계속 흐르게 한다[9]. 모렐로스주 산지에서 여러 종이 섞인 그루를 조사한 연구에서는 아구아미엘의 주성분이 잎에서 만들어진 자당이었고, 프럭탄과 프럭토올리고당은 수확 시기와 그루에 따라 달라졌다[9]. 여러 용설란 종의 수액을 아우른 총설에서 아구아미엘은 아미노산·비타민·무기질·프럭토올리고당의 공급원으로 보고되지만, 쉽게 발효되어 맛과 성분이 바뀌므로 보존 기술이 연구되고 있다[7]. 이 수액이 자연 발효되면 알코올 4–7 °GL의 풀케가 된다[6].\n\n남아프리카에서 증류주 원료로 기르는 A. americana의 프럭탄은 중합도 6–50(평균 약 14)의 네오프럭탄 구조였다[10]. 잎에서 초음파 추출한 이눌린의 함량은 78.99 ± 3.08%로 치커리(90.39%)와 돼지감자(93.53%)보다 낮았다[17]. 잎에서 섬유를 뽑고 남은 찌꺼기와 발효시킨 잎에서는 새로운 스테로이드 배당체들이 분리되었다[12, 13, 14]. 시판 용설란 시럽이 어느 종의 수액으로 만들어졌는지는 확인하지 못함. 식약처 「식품 등의 생산실적」의 용설란 제품 생산 자료는 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "용설란은 생활사가 길고 유전체가 크며 배수성(염색체 세트 수)에 변이가 있어 육종이 매우 제한적이었다[4]. 야생과 묘목장의 그루들 사이에서 유전 변이가 뚜렷하지만, 개화까지 오래 걸려 작물로 기른다면 영양번식(클론) 관리가 현실적이라고 정리되었다[4]. 전사체 분석은 셀룰로스 합성 효소 유전자 발현을 찾는 데 쓰였다[4]. 정확한 염색체 수와 유전체 크기 값은 확인하지 못함.\n\n멕시코 이달고주의 풀케용 재래 변종(A. americana·A. salmiana·A. mapisaga)을 핵 미세위성 표지로 분석한 결과, 변종별 기대 이형접합도는 0.204–0.721이었고 세 개의 유전 집단으로 나뉘었다[3]. 재배 변종은 야생 채취 변종보다 크고 잎 가시가 작은 순화 형질을 보였고, 재배 변종의 유전 다양성 감소는 영양번식 등 여러 요인 때문인 것으로 해석되었다[3]. 형태 측정 연구에서도 아종 americana의 대부분 변종에서 식물 크기 증가와 방어 구조 축소 같은 순화 형질이 확인되었으나, 유전적 기원을 밝히려면 집단유전·계통지리 연구가 더 필요하다[2].\n\n용설란에서 분리한 유전자도 연구에 쓰인다[23, 24, 25]. 용설란의 REVEILLE1 유전자(AaRVE1)를 포플러에 넣자 가을 휴면 시작이 늦어지고 봄 눈트기가 빨라졌으며, 온실에서 바이오매스가 166% 늘었다[23]. 엽록체 소형 열충격단백질 유전자(AasHSP26.85)와 잎 표피 특이 가수분해효소 유전자(AgaSGNH)도 분리되었다[24, 25]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 용설란은 수액만 식품에 쓸 수 있는 사용가능 원료다[1]. 국내 공공기관의 용설란 관련 알레르기·잔류물질·독성 성분 정보는 확인하지 못함. EFSA의 식물 우려물질 목록(Compendium of botanicals)은 우려 물질이 보고된 식물의 데이터베이스이며 법적 효력은 없다고 WebSearch 요약으로만 확인했고, 용설란 항목의 원문은 열람하지 못했다[33]. 2006년에 용설란의 사용 근거·부작용·독성을 정리한 체계적 문헌고찰이 나왔으나 그 결론은 초록에서 확인하지 못함[29].\n\n먹는 수액인 아구아미엘에서도 스테로이드 사포닌이 검출되었고, 그 양은 그루가 성적으로 성숙하면 줄었다[8]. 아구아미엘은 그대로 두면 빨리 발효되고[7], 발효된 풀케에는 알코올이 4–7 °GL 들어 있다[6]. 잎 메탄올 추출물을 쥐에 먹인 OECD-425 급성 경구독성 시험에서는 독성 증상이나 죽음이 없었지만, 이는 식용 부위가 아닌 잎 추출물 자료다[28].\n\n먹는 수액과는 별개로, 기계톱 등으로 잎을 자를 때 튄 잎 즙이 피부에 닿아 자색반이 있는 자극성 접촉피부염이 생긴 사례들이 보고되었다[26, 27]. 보고자들은 피부에 박힌 옥살산 결정[26], 또는 즙 속 옥살산칼슘 결정과 사포닌[27]이 원인일 수 있다고 추정했다."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Hecogenin",
+   "name_ko": "헤코게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "marker",
+   "part": "수액(아구아미엘)·잎",
+   "content_text": "아구아미엘에서 헤코게닌 유래 사포닌 검출(종류별 함량은 초록에서 확인하지 못함); 발효 잎에서 새 헤코게닌 배당체 3종(아가메노사이드 D–F) 분리",
+   "activity_ko": "아구아미엘 사포닌의 아글리콘 가운데 하나로 동정됨",
+   "source": [
+    8,
+    13
+   ]
+  },
+  {
+   "name": "Kammogenin",
+   "name_ko": "캄모게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "marker",
+   "part": "수액(아구아미엘)",
+   "content_text": "아구아미엘에서 캄모게닌 유래 사포닌 검출(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "HPLC/ESI-MS/TOF로 동정된 아구아미엘 사포닌의 아글리콘",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Manogenin",
+   "name_ko": "마노게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "marker",
+   "part": "수액(아구아미엘)",
+   "content_text": "아구아미엘에서 마노게닌 유래 사포닌 검출(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "HPLC/ESI-MS/TOF로 동정된 아구아미엘 사포닌의 아글리콘",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Gentrogenin",
+   "name_ko": "젠트로게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "marker",
+   "part": "수액(아구아미엘)",
+   "content_text": "아구아미엘에서 젠트로게닌 유래 사포닌 검출(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "HPLC/ESI-MS/TOF로 동정된 아구아미엘 사포닌의 아글리콘",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Cantalasaponin-1",
+   "name_ko": "칸탈라사포닌-1",
+   "class": "스테로이드 배당체(스피로스탄형)",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎 아세톤 추출물 활성 분획(F5)에서 동정; 발효 잎에서도 분리(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "생쥐 귀 부종(TPA) 모델에서 1.5 mg/귀 용량으로 부종을 최대 90% 억제",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Diosgenin",
+   "name_ko": "디오스게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "bioactive",
+   "part": "잎(var. oaxacensis)",
+   "content_text": "가수분해한 잎 메탄올 추출물의 GC-FID 분석에서 다섯 종 중 A. americana var. oaxacensis(오악사카) 잎의 디오스게닌 유래 사포닌 함량이 가장 높음(수치는 초록에서 확인하지 못함)",
+   "activity_ko": "조사한 용설란속 다섯 종 잎에서 가장 많은 사포게닌 두 가지 중 하나",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Tigogenin",
+   "name_ko": "티고게닌",
+   "class": "스테로이드 사포게닌",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "다섯 종 잎에서 디오스게닌과 함께 가장 많이 확인된 사포게닌(A. americana 수치는 초록에서 확인하지 못함)",
+   "activity_ko": "용설란속 잎 사포닌의 주요 아글리콘",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Agamenoside H",
+   "name_ko": "아가메노사이드 H",
+   "class": "스테로이드 사포닌",
+   "role": "bioactive",
+   "part": "잎(섬유 분리 후 찌꺼기)",
+   "content_text": "섬유를 뽑고 남은 잎 찌꺼기에서 새 스테로이드 사포닌 아가메노사이드 H–J와 콜레스탄 스테로이드 아가베게닌 D를 분리(함량은 초록에서 확인하지 못함)",
+   "activity_ko": "구조 규명 연구로, 생리활성은 초록에서 확인하지 못함",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Sucrose",
+   "name_ko": "자당",
+   "class": "이당류",
+   "role": "nutrient",
+   "part": "수액(아구아미엘)",
+   "content_text": "아구아미엘의 주성분(여러 종이 섞인 멕시코 모렐로스주 산지 시료)",
+   "activity_ko": "잎의 광합성으로 많이 만들어져 수액 구멍에 고이면서 일부가 포도당·과당으로 분해됨",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Fructooligosaccharides",
+   "name_ko": "프럭토올리고당·프럭탄",
+   "class": "과당 중합체(올리고당·다당)",
+   "role": "nutrient",
+   "part": "수액(아구아미엘)·줄기",
+   "content_text": "아구아미엘에서 생산 기간 초중반에 가장 많고 중합도는 주로 낮음(프럭토올리고당 위주); 남아프리카산 A. americana 프럭탄은 중합도 6–50, 평균 약 14의 네오프럭탄",
+   "activity_ko": "프리바이오틱 소재로 활용이 검토됨",
+   "source": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Inulin",
+   "name_ko": "이눌린",
+   "class": "프럭탄(다당)",
+   "role": "nutrient",
+   "part": "잎",
+   "content_text": "잎 초음파 추출 이눌린 함량 78.99 ± 3.08%(치커리 90.39%, 돼지감자 93.53%)",
+   "activity_ko": "잎 이눌린은 건물 92.86%, 기름 흡착력 3.27 g/g, 용해도 74.32 g/L",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "7-Hydroxy-3-(4-methoxybenzyl)chroman-4-one",
+   "name_ko": "7-하이드록시-3-(4-메톡시벤질)크로만-4-온",
+   "class": "호모이소플라보노이드",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "A. americana와 A. barbadensis 조사에서 분리(어느 종에서 나왔는지는 초록에서 구분되지 않음)",
+   "activity_ko": "용설란속 다섯 잎 분류군의 대사체 분석에서 호모이소플라보노이드 2종이 주석됨(주된 분류 성분은 사포닌)",
+   "source": [
+    16,
+    32
+   ]
+  },
+  {
+   "name": "beta-Caryophyllene",
+   "name_ko": "β-카리오필렌",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "농가 자가 제조 식물 추출물",
+   "content_text": "A. americana 추출물의 주성분 11.3%",
+   "activity_ko": "추출물은 꿀벌(Apis mellifera)과 토종벌(Partamona helleri)에 대한 선택성이 있었음",
+   "source": [
+    18
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Steroidal saponins (kammogenin-, manogenin-, gentrogenin- and hecogenin-derived)",
+   "compound_ko": "스테로이드 사포닌(캄모게닌·마노게닌·젠트로게닌·헤코게닌 유래)",
+   "part": "수액(아구아미엘), 성숙 단계 두 가지",
+   "content": "미성숙 A. americana 아구아미엘 179.0 PE µg/g 건물(프로토디오신 당량); 성적으로 성숙하면 감소[8]",
+   "method": "HPLC-ELSD(정량), HPLC/ESI-MS/TOF(동정)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "증발광산란검출기(ELSD, 정량); ESI-MS/TOF(동정)",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "프로토디오신 당량(PE)으로 환산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "식용 부위인 수액에서 사포닌을 처음 동정·정량한 이 종의 자료이며, 그루가 성적으로 성숙하면 함량이 줄어 사포닌 공급원으로 평가할 때 성숙도를 고려해야 한다고 결론지음. 초록만 확인했고 전문 확인 못함[8].",
+   "source": [
+    8
+   ],
+   "url": "https://doi.org/10.1021/acs.jafc.5b00883",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Sucrose, fructose, glucose and fructans/fructooligosaccharides",
+   "compound_ko": "자당·과당·포도당과 프럭탄(프럭토올리고당)",
+   "part": "수액(아구아미엘), 멕시코 모렐로스주 후이칠락 산지 그루",
+   "content": "",
+   "method": "HPLC-RI(단당·자당), GPC(프럭탄 농도), HPAEC-PAD(프럭탄 조성)",
+   "conditions": {
+    "instrument": "UltiMate 3000 HPLC(자동시료주입기) + Shodex 굴절률 검출기; 프럭탄 조성은 Dionex ED50 전기화학 검출기",
+    "column": "당: Thermo Gold Amino; 프럭탄 농도: Waters Ultrahydrogel linear; 프럭탄 조성: Thermo CarboPac PA200",
+    "mobile_phase": "당: 아세토니트릴/물 75:25(v/v); GPC: 0.1 mM 질산나트륨; HPAEC: 100 mM NaOH에 아세트산나트륨 기울기",
+    "gradient": "HPAEC: 아세트산나트륨 5→100 mM 25분, 100→400 mM 60분, 초기 조건(5 mM) 재평형 10분",
+    "flow": "당 1.2 mL/min; GPC 0.8 mL/min; HPAEC 0.5 mL/min",
+    "temp": "30 °C",
+    "detection": "굴절률(RI); 펄스 전류 검출(PAD)",
+    "injection": "",
+    "sample_prep": "4 °C에서 해동, 14,000 g 15분 원심분리, 0.2 µm 나일론 시린지 필터 여과",
+    "standard": "중합도 추정: 포도당·자당·1-케스토스·니스토스·프럭토실니스토스와 5.2·11.6·23.8·48.6 kDa 덱스트란",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "아구아미엘의 주성분은 자당이고, 프리바이오틱 성분인 프럭탄·프럭토올리고당의 양과 조성이 생산 시기에 따라 바뀌어 수액 품질을 보는 지표가 됨. 전문(Methods)에서 조건을 옮겼으나, 주 시료 세 그루의 종 이름은 전문 텍스트에서 확인하지 못했고 표 2의 10그루 가운데 2그루가 A. americana로 동정됨[9].",
+   "source": [
+    9
+   ],
+   "url": "https://doi.org/10.3389/fnut.2020.566950",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 용설란(Agave americana L. / Agave tequilana / Agave salmiana; Agave, Century Plant, American Aloe), 원료명 용설란분말·용설란수액·용설란시럽·용설란원액·용설란주스농축·용설란증류액, 사용가능부위: 수액, 사용가능; 같은 속의 길상천(Agave parryi)·Century plant(Agave utahensis)는 별도 항목",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Use, management and domestication of Agave americana in Mexico — J Ethnobiol Ethnomed 2026;22(1) (PMID 42399974, PMC13625399)",
+   "url": "https://doi.org/10.1186/s13002-026-00924-2",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Morphological and genetic diversity of traditional varieties of agave in Hidalgo State, Mexico — PLoS One 2021;16(7):e0254376 (PMID 34242333, PMC8270473)",
+   "url": "https://doi.org/10.1371/journal.pone.0254376",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Agave americana: Characteristics and Potential Breeding Priorities — Plants (Basel) 2022;11(17) (PMID 36079687, PMC9460544) — PubMed 표기에서 제목·본문의 종 이름이 빠져 있음(\"Agave americana\" 제목·초록 검색으로 찾음)",
+   "url": "https://doi.org/10.3390/plants11172305",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Lessons from the history of Agave: ecological and cultural context for valuation of CAM — Ann Bot 2023;132(4):819-833 (PMID 37279950, PMC10799984)",
+   "url": "https://doi.org/10.1093/aob/mcad072",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Pulque, a Traditional Mexican Alcoholic Fermented Beverage: Historical, Microbiological, and Technical Aspects — Front Microbiol 2016;7:1026 (PMID 27446061, PMC4928461)",
+   "url": "https://doi.org/10.3389/fmicb.2016.01026",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Aguamiel, a Traditional Mexican Beverage: A Review of Its Nutritional Composition, Health Effects and Conservation — Foods 2025;14(1) (PMID 39796424, PMC11719483)",
+   "url": "https://doi.org/10.3390/foods14010134",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Effect of Agave americana and Agave salmiana Ripeness on Saponin Content from Aguamiel (Agave Sap) — J Agric Food Chem 2015;63(15):3924-30 (PMID 25811101) — 초록만 확인(전문 미열람)",
+   "url": "https://doi.org/10.1021/acs.jafc.5b00883",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Evolution of Fructans in Aguamiel (Agave Sap) During the Plant Production Lifetime — Front Nutr 2020;7:566950 (PMID 33163505, PMC7581979) — 제목의 Aguamiel 은 PubMed 표기에서 빠진 낱말을 채운 것; 전문(PMC)에서 종 이름 서체가 빠져 주 시료 세 그루(P1–P3)의 종은 확인하지 못함; 표 2의 10그루 중 2그루가 A. americana",
+   "url": "https://doi.org/10.3389/fnut.2020.566950",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Structural analysis of fructans from Agave americana grown in South Africa for spirit production — J Agric Food Chem 2009;57(10):3995-4003 (PMID 19348427)",
+   "url": "https://doi.org/10.1021/jf8039389",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Anti-inflammatory activity of different agave plants and the compound cantalasaponin-1 — Molecules 2013;18(7):8136-46 (PMID 23846754, PMC6269955)",
+   "url": "https://doi.org/10.3390/molecules18078136",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "[A new steroidal glycoside from fermented leaves of Agave americana] — Zhongguo Zhong Yao Za Zhi 2002;27(6):431-4 (PMID 12774633)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12774633/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Three new hecogenin glycosides from fermented leaves of Agave americana — J Asian Nat Prod Res 2003;5(2):95-103 (PMID 12765193)",
+   "url": "https://doi.org/10.1080/1028602021000054946",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Four new steroid constituents from the waste residue of fibre separation from Agave americana leaves — Chem Pharm Bull (Tokyo) 2004;52(6):654-8 (PMID 15187383)",
+   "url": "https://doi.org/10.1248/cpb.52.654",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Comparative study of steroidal sapogenins content in leaves of five Agave species — J Sci Food Agric 2022;102(13):5653-5659 (PMID 35368099)",
+   "url": "https://doi.org/10.1002/jsfa.11912",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Constituents of Agave americana and Agave barbadensis — Fitoterapia 2005;76(6):594-7 (PMID 15979249)",
+   "url": "https://doi.org/10.1016/j.fitote.2005.04.013",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Ultrasound-assisted extraction, quantification and characterization of inulin from agave, chicory and Jerusalem artichoke — Sci Rep 2026;16(1) (PMID 41946797, PMC13062020)",
+   "url": "https://doi.org/10.1038/s41598-026-43085-8",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Toxicity of botanical extracts and their main constituents on the bees Partamona helleri and Apis mellifera — Ecotoxicology 2020;29(3):246-257 (PMID 32170464)",
+   "url": "https://doi.org/10.1007/s10646-020-02167-7",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "A model of environmental limitations on production of Agave americana L. grown as a biofuel crop in semi-arid regions — J Exp Bot 2019;70(22):6549-6559 (PMID 30597061, PMC6883261)",
+   "url": "https://doi.org/10.1093/jxb/ery383",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Spatial Patterns and Diversity of the Genus Agave in the Southern Iberian Peninsula: The Role of Anthropogenic Drivers in the Expansion of Agave americana — Plants (Basel) 2026;15(2) (PMID 41600134, PMC12846285) — 제목의 종 이름은 PubMed 표기에서 빠져 있어 초록 맥락으로 판단",
+   "url": "https://doi.org/10.3390/plants15020327",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Ethnobotany of the Aegadian Islands: safeguarding biocultural refugia in the Mediterranean — J Ethnobiol Ethnomed 2021;17(1):47 (PMID 34321030, PMC8320050)",
+   "url": "https://doi.org/10.1186/s13002-021-00470-z",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Influence of the Season on the Nutritive Value and Gas Production of [종 이름 빠짐] and [종 이름 빠짐] L. in Ruminant Feed — Animals (Basel) 2023;13(6) (PMID 36978549, PMC10044418) — PubMed 표기에서 제목·초록의 종 이름이 빠져 있음(\"Agave americana\" 제목·초록 검색으로 찾음)",
+   "url": "https://doi.org/10.3390/ani13061008",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Agave REVEILLE1 regulates the onset and release of seasonal dormancy in Populus — Plant Physiol 2023;191(3):1492-1504 (PMID 36546733, PMC10022617)",
+   "url": "https://doi.org/10.1093/plphys/kiac588",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Analysis of gene sequences indicates that quantity not quality of chloroplast small HSPs improves thermotolerance in C4 and CAM plants — Plant Cell Rep 2012;31(10):1943-57 (PMID 22797908)",
+   "url": "https://doi.org/10.1007/s00299-012-1307-z",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Isolation, characterization, and localization of AgaSGNH cDNA: a new SGNH-motif plant hydrolase specific to Agave americana L. leaf epidermis — J Exp Bot 2007;58(11):2717-31 (PMID 17609535)",
+   "url": "https://doi.org/10.1093/jxb/erm136",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Purpuric irritant contact dermatitis induced by Agave americana — Cutis 2000;66(4):287-8 (PMID 11109152)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11109152/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "[Purpuric contact dermatitis from Agave Americana] — Ann Dermatol Venereol 2007;134(5 Pt 1):477-8 (PMID 17507849)",
+   "url": "https://doi.org/10.1016/s0151-9638(07)89218-0",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Hepatoprotective effect of methanol extract of Agave americana leaves on paracetamol induced hepatotoxicity in Wistar albino rats — BMC Complement Med Ther 2023;23(1):99 (PMID 37005601, PMC10067186)",
+   "url": "https://doi.org/10.1186/s12906-023-03931-y",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Agave (Agave americana): an evidence-based systematic review by the natural standard research collaboration — J Herb Pharmacother 2006;6(2):101-22 (PMID 17182489)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17182489/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Elucidation of native California Agave americana and Agave deserti biofuel potential: Compositional analysis — PLoS One 2021;16(5):e0252201 (PMID 34043690, PMC8158902)",
+   "url": "https://doi.org/10.1371/journal.pone.0252201",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Effect of plant growth-promoting bacteria on the growth and fructan production of Agave americana L — Braz J Microbiol 2016;47(3):587-96 (PMID 27268113, PMC4927679)",
+   "url": "https://doi.org/10.1016/j.bjm.2016.04.010",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Metabolomic profiling of five Agave leaf taxa via UHPLC/PDA/ESI-MS in relation to their anti-inflammatory, immunomodulatory and ulceroprotective activities — Steroids 2020;160:108648 (PMID 32298660)",
+   "url": "https://doi.org/10.1016/j.steroids.2020.108648",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "EFSA Compendium of botanicals (식품에 쓰이는 식물 가운데 우려 물질이 보고된 종의 데이터베이스) — 데이터베이스 성격은 WebSearch 요약으로만 확인, 이 종의 항목 원문은 열람하지 못함",
+   "url": "https://www.efsa.europa.eu/en/data/compendium-botanicals",
+   "publisher": "European Food Safety Authority",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

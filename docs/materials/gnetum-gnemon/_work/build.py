@@ -1,0 +1,149 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pmc(id): return f"https://pmc.ncbi.nlm.nih.gov/articles/{id}/"
+def pm(id): return f"https://pubmed.ncbi.nlm.nih.gov/{id}/"
+S = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Gnetum gnemon 행: 원료명 멜린조꽃·멜린조씨앗·멜린조잎, 영문명 Melindjo, 사용조건 '사용가능부위 : 잎, 꽃, 씨앗', 상태 사용가능(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 대조)", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Melinjo (Gnetum gnemon L.) Seed Extract Decreases Serum Uric Acid Levels in Nonobese Japanese Males: A Randomized Controlled Study. Evid Based Complement Alternat Med 2013;2013:589169 (PMID 24454499, doi:10.1155/2013/589169)", pmc("PMC3877583"), "eCAM (PMC)", A),
+ ("Stilbenoids isolated from the seeds of Melinjo (Gnetum gnemon L.) and their biological activity. J Agric Food Chem 2009;57(6):2544-9 (PMID 19222220, doi:10.1021/jf803077p) — 초록", pm("19222220"), "J Agric Food Chem (PubMed)", A),
+ ("Pharmacokinetics and safety of resveratrol derivatives in humans after oral administration of melinjo (Gnetum gnemon L.) seed extract powder. J Agric Food Chem 2014;62(8):1999-2007 (PMID 24495149, doi:10.1021/jf4048435) — 초록", pm("24495149"), "J Agric Food Chem (PubMed)", A),
+ ("Safety assessment of melinjo (Gnetum gnemon L.) seed extract: acute and subchronic toxicity studies. Food Chem Toxicol 2014;67:230-5 (PMID 24602829, doi:10.1016/j.fct.2014.02.030) — 초록", pm("24602829"), "Food Chem Toxicol (PubMed)", A),
+ ("Antitumor activity of melinjo (Gnetum gnemon L.) seed extract in human and murine tumor models in vitro and in a colon-26 tumor-bearing mouse model in vivo. Cancer Med 2015;4(11):1767-80 (PMID 26408414, doi:10.1002/cam4.520)", pmc("PMC4674003"), "Cancer Medicine (PMC)", A),
+ ("Structural Studies on Stilbene Oligomers Isolated from the Seeds of Melinjo (Gnetum gnemon L.). ACS Omega 2020;5(21):12245-12250 (PMID 32548407, doi:10.1021/acsomega.0c00910)", pmc("PMC7271399"), "ACS Omega (PMC)", A),
+ ("Cytotoxicity Test of Ethyl Acetate Fraction of Gnetum gnemon L. Seeds on Breast and Colon Cancer Cells: Preliminary Investigation of Catechin Compounds. J Pharm Bioallied Sci 2026;18(3):169-174 (PMID 42598713, doi:10.4103/jpbs.jpbs_1651_25)", pmc("PMC13472574"), "J Pharm Bioallied Sci (PMC)", A),
+ ("Immunomodulatory and Metabolic Changes after Gnetin-C Supplementation in Humans. Nutrients 2019;11(6):1403 (PMID 31234376, doi:10.3390/nu11061403)", pmc("PMC6628299"), "Nutrients (PMC)", A),
+ ("Protective Effects of Gnetin C from Melinjo Seed Extract against High-Fat Diet-Induced Hepatic Steatosis and Liver Fibrosis in NAFLD Mice Model. Nutrients 2023;15(18):3888 (PMID 37764672, doi:10.3390/nu15183888)", pmc("PMC10538079"), "Nutrients (PMC)", A),
+ ("Melinjo seed extract increases adiponectin multimerization in physiological and pathological conditions. Sci Rep 2020;10:4313 (PMID 32152335, doi:10.1038/s41598-020-61148-2)", pmc("PMC7062855"), "Scientific Reports (PMC)", A),
+ ("Melinjo-derived Gnetin C restores metabolic balance via dual adipose and hepatic effects in high-fat diet mice. Sci Rep 2025;15:41801 (PMID 41290813, doi:10.1038/s41598-025-25705-x)", pmc("PMC12647683"), "Scientific Reports (PMC)", A),
+ ("Gnetin C in Cancer and Other Diseases: What Do We Know So Far? Nutrients 2025;17(5):863 (PMID 40077738, doi:10.3390/nu17050863)", pmc("PMC11901651"), "Nutrients (PMC)", A),
+ ("Evaluating belinjau (Gnetum gnemon L.) seed flour quality as a base for development of novel food products and food formulations. Food Chem 2014;156:42-9 (PMID 24629936, doi:10.1016/j.foodchem.2014.01.063) — 초록", pm("24629936"), "Food Chemistry (PubMed)", A),
+ ("Nutritional Content and Microbial Load of Fresh Liang, Gnetum gnemon var. tenerum Leaves. Foods 2023;12(20):3848 (PMID 37893741, doi:10.3390/foods12203848)", pmc("PMC10605991"), "Foods (MDPI, PMC)", A),
+ ("Assessment of Biological Activities, Acute and Sub-chronic Toxicity of Liang (Gnetum gnemon var. tenerum) Leaves Powder, a Natural Product. Biol Pharm Bull 2023;46(12):1666-1675 (PMID 37899249, doi:10.1248/bpb.b23-00208) — 초록", pm("37899249"), "Biol Pharm Bull (PubMed)", A),
+ ("The Antihyperglycemic Effect of Crude Liang (Gnetum gnemon var. tenerum) Leaves Powder on Wistar Rats. J Nutr Metab 2023;2023:5630204 (PMID 37692463, doi:10.1155/2023/5630204) — 초록", pmc("PMC10484651"), "J Nutr Metab (PMC)", A),
+ ("Packaging impact on quality changes of dried Liang leaf seasoning. Heliyon 2024;10(22):e40462 (PMID 39634438, doi:10.1016/j.heliyon.2024.e40462) — 초록", pmc("PMC11615486"), "Heliyon (PMC)", A),
+ ("A sharp plant stem causing terminal ileal perforation with clinical presentation resembling acute appendicitis: a case report. Front Med 2025;12:1713022 (PMID 41393138, doi:10.3389/fmed.2025.1713022) — 초록", pmc("PMC12698559"), "Frontiers in Medicine (PMC)", A),
+ ("Nutrients value and antioxidant content of indigenous vegetables from Southern Thailand. Food Chem 2015;173:838-46 (PMID 25466097, doi:10.1016/j.foodchem.2014.10.123) — 초록", pm("25466097"), "Food Chemistry (PubMed)", A),
+ ("trans-Resveratrol in Gnetum gnemon protects against oxidative-stress-induced endothelial senescence. J Nat Prod 2013;76(7):1242-7 (PMID 23859249, doi:10.1021/np300841v) — 초록", pm("23859249"), "J Nat Prod (PubMed)", A),
+ ("MADS-box genes reveal that gnetophytes are more closely related to conifers than to flowering plants. PNAS 1999;96(13):7342-7 (PMID 10377416, doi:10.1073/pnas.96.13.7342) — 초록", pmc("PMC22087"), "PNAS (PMC)", A),
+ ("Double Fertilization in Gnetum gnemon: The Relationship between the Cell Cycle and Sexual Reproduction. Plant Cell 1995;7(12):1975-1988 (PMID 12242365, doi:10.1105/tpc.7.12.1975) — 초록", pmc("PMC161055"), "The Plant Cell (PMC)", A),
+ ("Deciphering the evolution of the ovule genetic network through expression analyses in Gnetum gnemon. Ann Bot 2021;128(2):217-230 (PMID 33959756, doi:10.1093/aob/mcab059) — 초록", pmc("PMC8324035"), "Annals of Botany (PMC)", A),
+ ("Infrageneric variation in partner specificity: multiple ectomycorrhizal symbionts associate with Gnetum gnemon (Gnetophyta) in Papua New Guinea. Mycorrhiza 2012;22(8):663-8 (PMID 22892664, doi:10.1007/s00572-012-0458-7) — 초록", pm("22892664"), "Mycorrhiza (PubMed)", A),
+ ("The complete plastome sequence of Gnetum ula (Gnetales: Gnetaceae). Mitochondrial DNA A 2016;27(5):3721-2 (PMID 26370775, doi:10.3109/19401736.2015.1079874) — 초록", pm("26370775"), "Mitochondrial DNA Part A (PubMed)", A),
+ ("The internal transcribed spacer of nuclear ribosomal DNA in the gymnosperm Gnetum. Mol Phylogenet Evol 2005;36(3):581-97 (PMID 16099382, doi:10.1016/j.ympev.2005.03.011) — 초록", pm("16099382"), "Mol Phylogenet Evol (PubMed)", A),
+ ("A genome for gnetophytes and early evolution of seed plants. Nat Plants 2018;4(2):82-89 (PMID 29379155, doi:10.1038/s41477-017-0097-2) — 초록", pm("29379155"), "Nature Plants (PubMed)", A),
+ ("MADS-Box gene diversity in seed plants 300 million years ago. Mol Biol Evol 2000;17(10):1425-34 (PMID 11018150, doi:10.1093/oxfordjournals.molbev.a026243) — 초록", pm("11018150"), "Mol Biol Evol (PubMed)", A),
+ ("Trans-Resveratrol Enhances the Anticoagulant Activity of Warfarin in a Mouse Model. J Atheroscler Thromb 2016;23(9):1099-110 (PMID 26947597, doi:10.5551/jat.31765) — 초록", pmc("PMC5090816"), "J Atheroscler Thromb (PMC)", A),
+ ("Cycloproprene fatty acids in Gnetum gnemon (L.) seeds and leaves. J Sci Food Agric 1980;31(7):657-62 (PMID 6779057, doi:10.1002/jsfa.2740310707) — 제목·서지만 확인(초록 없음)", pm("6779057"), "J Sci Food Agric (PubMed)", A),
+ ("Stilbenoids from the melinjo (Gnetum gnemon L.) fruit modulate cytokine production in murine Peyer's patch cells ex vivo. Planta Med 2011;77(10):1027-34 (PMID 21267811, doi:10.1055/s-0030-1250742) — 초록", pm("21267811"), "Planta Medica (PubMed)", A),
+ ("Stilbene derivatives from Gnetum gnemon Linn. Phytochemistry 2003;62(4):601-6 (PMID 12560033, doi:10.1016/s0031-9422(02)00670-2) — 초록", pm("12560033"), "Phytochemistry (PubMed)", A),
+ ("The genus Gnetum: Traditional use, phytochemistry, nutritional value, biosynthesis, synthesis, pharmacology, toxicology, synthetic advance, and pharmacokinetics. Fitoterapia 2025;182:106461 (PMID 40024550, doi:10.1016/j.fitote.2025.106461) — 초록", pm("40024550"), "Fitoterapia (PubMed)", A),
+ ("Fractionation using adsorptive macroporous resin HPD-600 enhances antioxidant activity of Gnetum gnemon L. seed hard shell extract. J Food Sci Technol 2017;54(10):3349-3357 (PMID 28974820, doi:10.1007/s13197-017-2793-3) — 초록(PMC 전문 본문은 도구에서 비어 있었음)", pmc("PMC5603001"), "J Food Sci Technol (PMC)", A),
+ ("Remarkable variation of ribosomal DNA organization and copy number in gnetophytes, a distinct lineage of gymnosperms. Ann Bot 2019;123(5):767-781 (PMID 30265284, doi:10.1093/aob/mcy172) — 초록", pmc("PMC6526317"), "Annals of Botany (PMC)", A),
+ ("Pharmacological profiling of Gnetum gnemon var. tenerum extracts exhibits antibacterial, antioxidant, cytotoxic and anti-inflammatory activities. Sci Rep 2026;16:7021 (PMID 41634351, doi:10.1038/s41598-026-38348-3) — 초록", pmc("PMC12920789"), "Scientific Reports (PMC)", A),
+ ("Melinjo (Gnetum gnemon L.) seed extract for treatment of sleep/wake fragmentation in diet-induced obese mice. Exp Anim 2025;74(1):114-121 (PMID 39245578, doi:10.1538/expanim.24-0050)", pmc("PMC11742479"), "Experimental Animals (PMC)", A),
+]
+sources = [{"n": i+1, "title": t, "url": u, "publisher": p, "accessed": a} for i,(t,u,p,a) in enumerate(S)]
+
+sections = [
+{"key":"overview","title":"한눈에 보기","body":
+"멜린조(Gnetum gnemon L.)는 마황목(Gnetales) 그네툼과(Gnetaceae)에 속하는 겉씨식물로, 인도네시아가 원산인 키 15–20 m의 늘푸른 나무이다[2]. 열매처럼 보이는 구조(구과) 안에 길이 2–4 cm의 굵은 씨앗이 들어 있고, 열매와 잎은 인도네시아 요리에 널리 쓰인다[2]. 영어로는 멜린조(melinjo) 외에 Spanish joint fir라는 이름으로도 불린다[20].\n\n"
+"식품의약품안전처 「식품원료 목록」에서 멜린조는 식물성 식품원료로 '사용가능' 상태이며, 사용 조건은 '사용가능부위 : 잎, 꽃, 씨앗'이다[1]. 목록에는 멜린조꽃·멜린조씨앗·멜린조잎의 세 원료명이 올라 있고 영문명은 Melindjo로 적혀 있다[1]. 따라서 국내에서는 잎·꽃·씨앗을 식품원료로 쓸 수 있고, 뿌리·줄기·씨앗 껍질 연구는 참고 정보이다[1]. 건강기능식품 고시형 원료의 원재료로 올라 있는지는 확인하지 못함.\n\n"
+"씨앗(배젖)에는 레스베라트롤 두 분자가 붙은 이량체인 그네틴 C(gnetin C)와 그 배당체인 그네모노사이드 A·D가 많고, 레스베라트롤 단량체는 적다[3][6]. 그네틴 C의 동물·사람 연구는 거의 모두 말린 씨앗 배젖을 에탄올로 추출한 멜린조 씨앗 추출물(MSE)이나 거기서 정제한 그네틴 C로 이루어졌다[2][7][9][10]."},
+{"key":"history","title":"이용의 역사","body":
+"멜린조는 동남아시아에서 서태평양까지 분포하며, 씨앗과 열매를 예로부터 식품으로 먹어 왔다[10]. 인도네시아에서는 씨앗을 채소처럼 먹거나 크래커로 가공하고, 씨앗 크래커가 가장 널리 팔리는 가공품이다[13][35]. 열매와 잎은 수프에 넣거나 채소로 먹는다[13].\n\n"
+"말레이시아에서는 벨린자우(belinjau)라는 이름으로 씨앗 가루를 새 식품 소재로 평가한 연구가 있다[14]. 태국 남부에서는 관목형 변종(var. tenerum)의 잎을 '리앙(Liang)'이라 부르며 흔한 잎채소로 먹는다[15][16]. 그네툼속 식물은 여러 지역의 민간요법에서 기관지염·관절염·당뇨 등에 쓰였다고 정리되어 있다[13].\n\n"
+"2009년에는 말린 씨앗 배젖의 50% 에탄올 추출물에서 그네틴 L 등 스틸베노이드 6종이 분리·보고되었다[3]. 씨앗 추출물은 일본에서 건강보조식품으로 팔리고 미국에도 소개되고 있다고 2015년 논문에 적혀 있다[6]. 2013년에는 씨앗 추출물 750 mg을 8주 먹인 무작위 대조 시험에서 혈청 요산이 낮아졌다는 결과가 나왔다[2]. 국내 도입·유통의 역사는 확인하지 못함."},
+{"key":"biology","title":"식물학적 특징","body":
+"멜린조는 암수딴그루의 교목으로 인도네시아에서 재배된다[21]. 염기서열을 비교한 그네툼속 네 종 가운데 다른 종은 덩굴성이고 멜린조만 작은 교목으로 소개된다[26]. 잎은 늘푸르고, 구과는 얇은 겉껍질과 큰 견과 모양 씨앗으로 이루어진다[2].\n\n"
+"밑씨는 주피 하나가 주심을 덮고 그 밖을 두 겹의 덮개가 싸며, 씨가 익으면서 가장 바깥 덮개가 다육질로 변한다[24]. 이 때문에 열매처럼 보이지만 식물학적으로는 씨앗이다[24]. 멜린조는 꽃피는 식물이 아닌데도 화분관 하나에서 접합자 두 개가 생기는 원시적인 겹수정을 한다[23].\n\n"
+"파푸아뉴기니 숲에서 멜린조는 하층 교목으로 자라며, 스클레로더마(Scleroderma) 등 여러 외생균근 곰팡이와 공생한다[25]. 태국의 리앙은 관목형 변종(var. tenerum)이고, 인도네시아·말레이시아 등의 교목형(var. gnemon)과 형태가 다르다[15]. 리앙의 잎끝은 돋은 지 7일 이내에는 갈색을 띤 붉은색이고, 14–25일이 지나면 연녹색 중간잎이 된다[15]."},
+{"key":"related_species","title":"근연종과 혼동 주의","body":
+"그네툼속(Gnetum)은 남아메리카·아프리카·아시아에 25–35종이 있다[27]. 그네툼속은 마황속(Ephedra)·웰위치아속(Welwitschia)과 함께 마황목을 이루며, 이 세 속은 다른 종자식물과 형태가 뚜렷이 다르다[28]. MADS-box 유전자 계통 분석에서는 마황목이 꽃피는 식물보다 구과식물(소나무류)에 더 가깝게 나왔다[22].\n\n"
+"근연종 G. montanum은 마황목 가운데 처음으로 유전체 초안이 해독된 종이다[28]. 그네툼속 식물에서는 261종의 화합물이 보고되었고 그 가운데 180종이 스틸베노이드이며, 속 전체에서는 이소라폰티게닌이 대표 성분으로 꼽힌다[34]. 그네툼속에는 먹을 수 있는 종이 많아 씨앗을 볶아 먹거나 잎을 채소로 먹는다[34].\n\n"
+"태국의 리앙(G. gnemon var. tenerum)은 같은 종의 변종으로, 잎 추출물에서 LC-MS로 77종의 화합물이 확인되었다[37]. 멜린조 뿌리에서는 그네모놀류(레스베라트롤 삼량체 등) 같은 스틸벤 유도체가 분리되었으나 뿌리는 국내 식품원료 사용 부위가 아니다[33][1]. 씨앗 연구 결과를 잎·꽃 원료에 그대로 적용할 수는 없다[1][15]."},
+{"key":"cultivation","title":"재배와 생산","body":
+"멜린조는 동남아시아에서 널리 재배되며 열매와 씨앗이 인도네시아 음식의 흔한 재료이다[5]. 씨앗 추출물 연구에 쓰인 씨앗(배젖)은 2009년 7월 인도네시아 동자와주 크디리(Kediri)에서 채집되었다[2][7]. 익은 정도가 다른 씨앗의 딱딱한 껍질을 비교한 연구가 있고, 붉은 씨앗 껍질 추출물이 분획 연구에 쓰였다[35].\n\n"
+"태국 남부의 리앙은 한 해 내내 기를 수 있고 계절 변화에 강하다[15]. 농가에서는 잎끝·어린잎·중간잎 단계에서 잎을 따고, 줄기째 묶어 물을 뿌린 뒤 시장에 보낸다[15]. 우물·수로 물을 그대로 관개에 쓰는 농가의 잎은 미생물 오염도가 높았다[15].\n\n"
+"국내 재배와 생산 통계(통계청·농림축산식품부 특용작물 생산실적)에서 멜린조 항목은 확인하지 못함. 지리적 표시 등록이나 국내 생산자 조직도 확인하지 못함. 세계 생산량 통계(FAO 등)는 이번 조사에서 접근하지 못해 확인하지 못함."},
+{"key":"processing","title":"가공과 제품","body":
+"대표적인 기능성 소재인 멜린조 씨앗 추출물은 말린 배젖 가루 250 g을 55% 에탄올 750 mL에 상온에서 3일 담가 추출물 23 g을 얻는 방식으로 만들었다[2]. 이 분말은 레스베라트롤 유도체를 20% 넘게 함유하고 트랜스-레스베라트롤은 0.1%였다[2]. 다른 로트는 그네틴 C 2.5%, 그네모노사이드 A 19.6%, 그네모노사이드 D 4.3%, 레스베라트롤 0.1%로 표준화되었다[10].\n\n"
+"사람 시험에 쓰인 그네틴 C 분말은 씨앗에서 추출·정제한 것으로, 그네틴 C 26.3%에 덱스트린과 유화제를 섞어 캡슐로 만들었다[9]. 씨앗 가루는 단백질 19.0 g/100 g, 조섬유 8.66 g/100 g을 함유하고 수분·기름 흡수력이 적당해 새 식품의 기초 원료로 제안되었다[14]. 씨앗 딱딱한 껍질 추출물은 흡착 수지로 분획하자 항산화 활성이 3–7배 높아졌고, 그네틴 C와 레스베라트롤이 확인되었다[35].\n\n"
+"잎은 말린 조미 분말로도 개발되었는데, 알루미늄 적층 포장에서 상대습도 60% 기준 예상 유통기한이 684일로 나일론 포장(습도 90%, 12일)보다 훨씬 길었다[18]. 식약처 「식품 등의 생산실적」에서 멜린조 원료 품목은 확인하지 못함."},
+{"key":"genetics","title":"유전체와 분자 연구","body":
+"멜린조는 겉씨식물의 모델 종으로 쓰여, 이 종에서 MADS-box 유전자 cDNA 19종이 분리되었다[29]. 이 분석으로 약 3억 년 전 종자식물 공통 조상에 이미 최소 7가지 MADS-box 유전자가 있었다고 추정되었다[29]. 멜린조의 꽃 기관 유전자 상동체 13종 분석은 마황목이 구과식물과 자매군이라는 분자 증거를 제시했다[22].\n\n"
+"밑씨 발생에 관여하는 ANT·KAN·UCN 상동유전자는 멜린조에서 안쪽 주피와 주심에서 발현했고, 바깥 덮개에서는 발현이 검출되지 않았다[24]. 멜린조의 5S와 35S 리보솜 RNA 유전자는 서로 떨어져 있는(S형) 배열이었다[36]. 그네툼속 ITS 서열의 높은 다형성은 잡종화·이질배수화·유전자 이입으로 설명된다[27].\n\n"
+"근연종 G. montanum의 유전체는 4 Gb 넘게 조립되었고 단백질 암호 유전자 27,491개가 예측되었다[28]. 멜린조 자체의 전장 유전체 조립 보고는 확인하지 못함."},
+{"key":"safety","title":"안전성","body":
+"쥐에게 씨앗 추출물 분말을 준 급성·4주 반복 투여 시험에서 독성학적으로 의미 있는 변화가 없었고, 최대무독성용량(NOAEL)은 1,000 mg/kg/일이었다[5]. 골수 소핵 시험은 4,000 mg/kg/일까지 음성이었다[5]. 사람에게는 씨앗 추출물 분말을 5,000 mg까지 먹였을 때 심각한 이상반응이 없었다[4]. 정제 그네틴 C 150 mg/일을 14일 먹인 시험에서는 이상반응이 없었으나 LDL·HDL 콜레스테롤과 아디포넥틴이 함께 낮아졌다[9].\n\n"
+"생쥐에서 씨앗 추출물 0.5% 사료는 12주 뒤 간 CYP3A 활성을 낮췄지만 와파린의 항응고 작용에는 영향을 주지 않았다[30]. 리앙 잎 분말은 2,000 mg/kg 급성 투여에서 독성 징후가 없었으나, 1.47 g/kg 90일 투여에서 중성지방과 크레아티닌이 올랐다[16]. 과당으로 혈당을 높인 쥐에 리앙 잎 분말 0.97 g/kg을 7일 먹인 시험에서 생잎 분말은 혈당을 낮췄지만, 황산구리로 처리한 잎 분말은 생화학 이상과 혈소판 감소를 보였다[17]. 씨앗과 잎의 사이클로프로펜 지방산을 다룬 1980년 논문이 있으나 초록이 없어 함량은 확인하지 못함.\n\n"
+"생잎은 관개수에서 온 미생물 오염이 많고 염소수 세척으로도 잘 줄지 않아 수확 뒤 위생 관리가 필요하다[15]. 태국에서 리앙의 뾰족한 곁줄기 조각을 삼켜 회장이 뚫린 사례가 보고되었다[19]. 국내 공공기관의 멜린조 알레르기·잔류농약·퓨린 함량 정보는 확인하지 못함."},
+]
+
+compounds = [
+ {"name":"Gnetin C","name_ko":"그네틴 C","class":"스틸벤 이량체(레스베라트롤 이량체)","role":"marker","part":"씨앗(배젖)",
+  "content_text":"씨앗 추출물(MSE) 중 28.0 mg/g(61.7 μmol/g)[6]; MSE 로트별 3.68%[6], 2.5%[10], 1.7%[11], 2.41%[12], 1.6%[38]","activity_ko":"씨앗 추출물의 주 활성 성분으로 지목되며, 정제 그네틴 C 150 mg/일 투여 시 NK세포 활성 증가·혈청 요산 감소(사람)[9]; 고지방식 생쥐의 지방간·체중 개선(동물)[10][12]","source":[6,9,10,11,12,38]},
+ {"name":"Gnemonoside A","name_ko":"그네모노사이드 A(그네틴 C 이당체)","class":"스틸벤 이량체 배당체","role":"bioactive","part":"씨앗(배젖)",
+  "content_text":"MSE 중 14.00%[6], 19.6%[10], 20.0%[11], 23.9%[12]","activity_ko":"씨앗 추출물에서 가장 많은 레스베라트롤 유도체[10][11][12]; DPPH 라디칼 소거 활성[3]","source":[3,6,10,11,12]},
+ {"name":"Gnemonoside D","name_ko":"그네모노사이드 D(그네틴 C 단당체)","class":"스틸벤 이량체 배당체","role":"bioactive","part":"씨앗(배젖)",
+  "content_text":"MSE 중 5.44%[6], 4.3%[10], 3.8%[11], 4.51%[12]","activity_ko":"α-아밀레이스 억제(시험관)[3]","source":[3,6,10,11,12]},
+ {"name":"Gnemonoside C","name_ko":"그네모노사이드 C","class":"스틸벤 이량체 배당체","role":"bioactive","part":"씨앗(배젖)",
+  "content_text":"","activity_ko":"씨앗 배젖 50% 에탄올 추출물에서 분리; 리페이스·α-아밀레이스 억제(시험관)[3]","source":[3]},
+ {"name":"Gnetin L","name_ko":"그네틴 L","class":"스틸벤 이량체","role":"bioactive","part":"씨앗(배젖)",
+  "content_text":"","activity_ko":"2009년 씨앗에서 새로 분리[3]; 2020년 구조가 위치 이성질체로 수정됨[7]","source":[3,7]},
+ {"name":"Resveratrol","name_ko":"트랜스-레스베라트롤","class":"스틸벤 단량체","role":"bioactive","part":"씨앗(배젖)·열매",
+  "content_text":"MSE 중 0.1%[2][10][11], 0.11%[6], 0.07%[12]","activity_ko":"과산화수소로 유도한 혈관내피세포 노화를 억제(이량체 1–3은 효과 없음)[21]; MSE 1,000 mg에 4.8 mg 상당, 혈장 체류가 단독 투여보다 김[4]","source":[2,4,6,10,11,12,21]},
+ {"name":"Piceid","name_ko":"트랜스-피세이드(레스베라트롤 배당체)","class":"스틸벤 배당체","role":"bioactive","part":"씨앗",
+  "content_text":"씨앗의 미량 성분[5][6]","activity_ko":"","source":[5,6]},
+ {"name":"Gnetin E","name_ko":"그네틴 E","class":"스틸벤 삼량체","role":"bioactive","part":"열매·씨앗",
+  "content_text":"","activity_ko":"열매 에틸아세테이트 분획에서 확인[32]; 씨앗 추출물에서 분리·NMR 재확인[7]","source":[7,32]},
+ {"name":"Isorhapontigenin","name_ko":"이소라폰티게닌","class":"스틸벤 단량체","role":"bioactive","part":"열매",
+  "content_text":"","activity_ko":"열매 추출물 성분[32]; 그네툼속 전체의 대표 성분으로 꼽힘[34]","source":[32,34]},
+ {"name":"Gnemonoside M","name_ko":"그네모노사이드 M","class":"스틸벤 배당체","role":"bioactive","part":"열매",
+  "content_text":"","activity_ko":"열매에서 새로 분리, 생쥐 파이어판 세포의 Th1 사이토카인(IL-2·IFN-γ) 생성을 강하게 높임[32]","source":[32]},
+ {"name":"Catechin","name_ko":"카테킨","class":"플라반-3-올","role":"bioactive","part":"씨앗(에틸아세테이트 분획)",
+  "content_text":"씨앗 에틸아세테이트 분획 중 65.05 ppm[8]","activity_ko":"분획의 MCF-7·CACO-2 세포독성(IC50 111.28·218.26 ppm)에 기여할 것으로 추정[8]","source":[8]},
+ {"name":"Ascorbic acid","name_ko":"아스코르브산(비타민 C)","class":"비타민","role":"nutrient","part":"식용 부위(초록에 부위 명시 없음)",
+  "content_text":"109.43 mg/100 g[20]","activity_ko":"조사한 태국 남부 토착 채소 가운데 비타민 C가 많은 축[20]","source":[20]},
+ {"name":"Cyclopropene fatty acids","name_ko":"사이클로프로펜 지방산","class":"지방산","role":"bioactive","part":"씨앗·잎",
+  "content_text":"","activity_ko":"씨앗·잎에서 보고(제목만 확인, 함량은 확인하지 못함)[31]","source":[31]},
+]
+
+nutrients = [
+ {"form":"씨앗 가루(belinjau seed flour)","basis":"100 g당(초록 표기 그대로)","items":[
+   {"name":"단백질","value":19.0,"unit":"g/100 g"},{"name":"조섬유","value":8.66,"unit":"g/100 g"},
+   {"name":"탄수화물","value":64.1,"unit":"%"},{"name":"총식이섬유","value":14.5,"unit":"%"}],"source":[14]},
+ {"form":"생잎(리앙, var. tenerum)","basis":"생잎 100 g당 / 건조중량 100 g당","items":[
+   {"name":"단백질(생잎)","value":4.5,"unit":"g/100 g"},{"name":"단백질(건조중량)","value":25.5,"unit":"g/100 g DW"}],"source":[15]},
+ {"form":"말린 잎 조미 분말(리앙)","basis":"100 g당","items":[
+   {"name":"단백질","value":25.20,"unit":"g/100 g"},{"name":"식이섬유","value":10.22,"unit":"g/100 g"},
+   {"name":"칼슘","value":642.17,"unit":"mg/100 g"}],"source":[18]},
+]
+
+assays = [
+ {"role":"literature","compound":"Catechin","compound_ko":"카테킨","part":"씨앗(속씨 가루의 에틸아세테이트 분획)",
+  "content":"씨앗 에틸아세테이트 분획 중 카테킨 65.05 ppm(259.852 mAU/399.429 mAU × 100 ppm)[8]",
+  "method":"HPLC-UV",
+  "conditions":{"instrument":"HPLC(원문 표기 Rittun L-3000)","column":"C18, 250 mm × 4.5 mm, 5 μm","mobile_phase":"메탄올–아세토니트릴(25:75, v/v), 트리플루오로아세트산 0.1%(v/v)로 산성화",
+   "gradient":"","flow":"1 mL/min","temp":"","detection":"280 nm","injection":"20 μL",
+   "sample_prep":"햇볕에 말린 씨앗의 껍질을 벗겨 갈고, 가루 50 g을 96% 에탄올 300 mL로 속슬렛 추출 → 60 °C 감압 농축 → 에탄올–에틸아세테이트(1:1, v/v)로 분획",
+   "standard":"카테킨 표준품 100 ppm(Merck), 머무름 시간 7.160분; 시료와 표준품의 피크 면적비로 1점 계산","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"씨앗 반극성 분획의 세포독성에 관여할 후보로 카테킨을 추적·정량했다[8]. 단일 표준 농도 면적비로 계산했고 검량선·검출한계·회수율·칼럼 온도는 본문에 없어 비워 둠. 기울기 언급이 없어 등용매 조성으로 보이나 원문에 명시되지 않음.",
+  "source":[8],"url":pmc("PMC13472574"),"source_kind":"paper"},
+ {"role":"literature","compound":"Gnetin C","compound_ko":"그네틴 C 등 레스베라트롤 이량체 유도체","part":"씨앗(말린 배젖)의 55% 에탄올 추출물(MSE)",
+  "content":"MSE 중 이량체 유도체 7종 1.5·2.2·28·101·16·48·0.3 mg/g[7](PMC 본문 추출에서 화합물 번호가 빠져 성분별 대응은 확인 못함); 별도 논문에서 그네틴 C 28.0 mg/g[6]",
+  "method":"HPLC",
+  "conditions":{"instrument":"Shimadzu Prominence HPLC","column":"Cosmosil 5C-AR-II(원문 표기), 250 mm × 4.6 mm I.D., Nacalai Tesque","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"","injection":"",
+   "sample_prep":"말린 배젖 가루를 55% 에탄올로 추출해 MSE를 얻음","standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"그네틴 C와 그 배당체는 씨앗 추출물의 주성분이며 상업 MSE 분말이 레스베라트롤 유도체 20% 이상으로 표준화된다[2][10]. 분석 조건은 '앞서 보고한 조건'을 따랐다고만 적혀 있어 이동상·검출 파장 등은 전문에서 확인 못함.",
+  "source":[2,6,7,10],"url":pmc("PMC7271399"),"source_kind":"paper"},
+]
+
+d = {"slug":"gnetum-gnemon","name_ko":"멜린조","name_en":"Melinjo (Melindjo, Spanish joint fir)","scientific_name":"Gnetum gnemon L.",
+ "aliases":["멜린조꽃","멜린조씨앗","멜린조잎","Melindjo","melinjo","belinjau","Spanish joint fir","리앙(Liang, var. tenerum)"],
+ "sections":sections,"compounds":compounds,"markers":[],"nutrients":nutrients,"assays":assays,
+ "production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))
+print(len(sources))

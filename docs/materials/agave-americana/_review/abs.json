@@ -1,0 +1,2101 @@
+{
+ "42399974": {
+  "identifiers": {
+   "pmid": "42399974",
+   "pmc": "PMC13625399",
+   "doi": "10.1186/s13002-026-00924-2",
+   "pii": "10.1186/s13002-026-00924-2"
+  },
+  "title": "Use, management and domestication of Agave americana in Mexico.",
+  "abstract": "Domestication is an evolutionary process guided by humans. It operates continuously in multiple directions, with species undergoing adaption to diverse human-influenced environments and cultural and technological contexts. Mesoamerica is among the world's main regions of domestication and the Agave genus is widely used and managed in this region, with at least eleven domesticated and semi-domesticated species. One species, Agave americana, comprises two subspecies and four varieties, the diversification of which is hypothetically related to human management. This study explores this hypothesis by analysing morphological variation and its relation to environmental and management settings.\n\nEthnobotanical studies were conducted to document uses, management practices, and targets of human selection, together with patterns of morphological variation across different ecological and cultural contexts. Semi-structured interviews were carried out with agave managers throughout the species' distribution range in Mexico. Morphometric analyses were performed on populations occurring under contrasting environmental and management conditions. Multivariate and univariate statistical analyses were used to evaluate morphological variation in relation to geographic distribution, environmental conditions, and management regimes.\n\nA. americana is used to extract sap for preparing the fermented beverage called pulque. Its stems have been used as food since prehistoric times, when they were cooked in underground ovens. This cooked matter forms the basis of current fermentation and the production of distilled mescal. The fibre of some varieties has been used to make cords and textiles. Both subspecies are managed, but the subspecies protamericana clearly has wild populations. Morphometric studies confirm the presence of traits indicative of domestication in most varieties of the subspecies americana.\n\nPhenotypic variation within the Agave americana complex is associated with taxonomic identity, geographic distribution, and management intensity. The observed patterns are consistent with the effects of human selection, particularly in traits related to plant size and the reduction of defensive structures. However, further studies integrating common-garden experiments, population genetics, and phylogeographic analyses are required to clarify the evolutionary history and genetic basis of the observed variation.",
+  "doi": "10.1186/s13002-026-00924-2",
+  "journal": {
+   "title": "Journal of ethnobiology and ethnomedicine",
+   "iso_abbreviation": "J Ethnobiol Ethnomed"
+  },
+  "authors": [
+   {
+    "last_name": "Campos-Salas",
+    "fore_name": "Nadia",
+    "initials": "N",
+    "affiliations": [
+     "Posgrado en Ciencias Biológicas, Universidad Nacional Autónoma de México, Ciudad de México, México. nadiacs@cieco.unam.mx.",
+     "Instituto de Investigaciones en Ecosistemas y Sustentabilidad, Universidad Nacional Autónoma de México (UNAM), Antigua Carretera a Pátzcuaro 8701, Morelia, 58190, Michoacán, México. nadiacs@cieco.unam.mx."
+    ]
+   },
+   {
+    "last_name": "Casas",
+    "fore_name": "Alejandro",
+    "initials": "A",
+    "affiliations": [
+     "Instituto de Investigaciones en Ecosistemas y Sustentabilidad, Universidad Nacional Autónoma de México (UNAM), Antigua Carretera a Pátzcuaro 8701, Morelia, 58190, Michoacán, México. acasas@cieco.unam.mx."
+    ]
+   },
+   {
+    "last_name": "Jacques-Hernández",
+    "fore_name": "Cuauhtémoc",
+    "initials": "C",
+    "affiliations": [
+     "Centro de Biotecnología Genómica, Instituto Politécnico Nacional, Reynosa, Mexico."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2026",
+   "month": "07",
+   "day": "03"
+  },
+  "keywords": [
+   "Agave management",
+   "Mesoamerica",
+   "domestication",
+   "maguey",
+   "mescal",
+   "pulque"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Domestication",
+   "Mexico",
+   "Ethnobotany",
+   "Humans"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "22",
+   "issue": "1"
+  }
+ },
+ "34242333": {
+  "identifiers": {
+   "pmid": "34242333",
+   "pmc": "PMC8270473",
+   "doi": "10.1371/journal.pone.0254376",
+   "pii": "PONE-D-21-01557"
+  },
+  "title": "Morphological and genetic diversity of traditional varieties of agave in Hidalgo State, Mexico.",
+  "abstract": "The agaves are plants of cultural importance which have been used by humans for about 10,000 years and about 40 specific uses. The most culturally and economically important of those uses are for the production of fermented (pulque) and distilled beverages (mescal). Pulque continues to be produced in nearly all of Mexico, and the agaves used for this purpose have shown domestication syndrome. We carry out an ethnobotanical, morphological, and genetic analysis of the traditional varieties of pulque agave used in the production of aguamiel (agave sap) and pulque in the state of Hidalgo. We did semi-structured interviews, free listings, and tours with 11 agave managers. We analyzed morphology and studied genetic diversity and structure using nuclear microsatellites. We found wild-collected, tolerated, transplanted, and cultivated varieties of agave. This comprised 19 traditional varieties of pulque agave, 12 of them in production during the study, which corresponded to the species Agave americana, A. salmiana y A. mapisaga and five intraspecific entities. The varieties were grouped morphologically according to a management gradient; the wild-collected varieties were the smallest, with more lateral teeth and a larger terminal spine. The cultivated varieties clearly exhibited domestication syndrome, with larger plants and smaller dentition. The expected heterozygosity (He) of the varieties ranged from 0.204 to 0.721. Bayesian clustering suggested the existence of three genetic groups, both at the level of traditional varieties of pulque agaves and for management categories, a result that matches multivariate clustering. Pulque producers in the studied localities maintain high agrobiodiversity. The cultivated varieties exhibit domestication syndrome, as has been reported for other species of the genus with the same selection purposes. Our results support the hypothesis of a decrease in genetic diversity in crops compared to wild-growing agaves, which seems to be due to vegetative propagation, among other factors.",
+  "doi": "10.1371/journal.pone.0254376",
+  "journal": {
+   "title": "PloS one",
+   "iso_abbreviation": "PLoS One"
+  },
+  "authors": [
+   {
+    "last_name": "Figueredo-Urbina",
+    "fore_name": "Carmen Julia",
+    "initials": "CJ",
+    "affiliations": [
+     "Cátedras CONACYT-Laboratorio de Genética, Área Académica de Biología, Instituto de Ciencias Básicas e Ingeniería, Universidad Autónoma del Estado de Hidalgo, Mineral de la Reforma, Hidalgo, México."
+    ]
+   },
+   {
+    "last_name": "Álvarez-Ríos",
+    "fore_name": "Gonzalo D",
+    "initials": "GD",
+    "affiliations": [
+     "Instituto de Investigaciones en Ecosistemas y Sustentabilidad, Universidad Nacional Autónoma de México, Morelia, Michoacán, México."
+    ]
+   },
+   {
+    "last_name": "García-Montes",
+    "fore_name": "Mario Adolfo",
+    "initials": "MA",
+    "affiliations": [
+     "Laboratorio de Genética, Área Académica de Biología, Instituto de Ciencias Básicas e Ingeniería, Universidad Autónoma del Estado de Hidalgo, Mineral de la Reforma, Hidalgo, México."
+    ]
+   },
+   {
+    "last_name": "Octavio-Aguilar",
+    "fore_name": "Pablo",
+    "initials": "P",
+    "affiliations": [
+     "Laboratorio de Genética, Área Académica de Biología, Instituto de Ciencias Básicas e Ingeniería, Universidad Autónoma del Estado de Hidalgo, Mineral de la Reforma, Hidalgo, México."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "07",
+   "day": "09"
+  },
+  "mesh_terms": [
+   "Agave",
+   "Mexico",
+   "Genetic Variation",
+   "Ethnobotany",
+   "Microsatellite Repeats",
+   "Domestication",
+   "Humans",
+   "Phylogeny"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "16",
+   "issue": "7",
+   "pages": "e0254376"
+  }
+ },
+ "36079687": {
+  "identifiers": {
+   "pmid": "36079687",
+   "pmc": "PMC9460544",
+   "doi": "10.3390/plants11172305",
+   "pii": "plants11172305"
+  },
+  "title": "Characteristics and Potential Breeding Priorities.",
+  "abstract": "L. is one of manyspecies that could be developed for the production of valuable agricultural products. Although all species in this genus use Crassulacean Acid Metabolism (CAM) and most have drought and heat tolerance,also has the combined traits of high yield and cold tolerance. This review highlights key characteristics ofthat make it an exceptional novel crop for fiber, sweeteners, bioproducts, and bioethanol with resilient traits for changing climate conditions. Then, it proposes potential directions for breeding that will support production in semi-arid climates. With selection and breeding, yields of 16 Mg haymay be achieved. Current field observations, with no crop improvement, indicate ~9 Mg hais the maximum yield, and in arid regions, a yield of ~3 Mg hayis observed. It may be beneficial to breed for a shorter time to flowering, as has been successful forWeber var. azul, so that further breeding goals are achievable in a decadal timespan. Specific trait selection during breeding will depend on whether fiber or sugar yields are the desired products at a given location. Even without breeding, varieties ofare climate resilient alternatives for some current commodity crops.",
+  "doi": "10.3390/plants11172305",
+  "journal": {
+   "title": "Plants (Basel, Switzerland)",
+   "iso_abbreviation": "Plants (Basel)"
+  },
+  "authors": [
+   {
+    "last_name": "Davis",
+    "fore_name": "Sarah C",
+    "initials": "SC",
+    "affiliations": [
+     "Voinovich School of Leadership and Public Service, Ohio University, Athens, OH 45701, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "09",
+   "day": "02"
+  },
+  "keywords": [
+   "Crassulacean Acid Metabolism",
+   "bioethanol",
+   "climate resilient crop",
+   "drought",
+   "fiber",
+   "water use efficiency"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "11",
+   "issue": "17"
+  }
+ },
+ "37279950": {
+  "identifiers": {
+   "pmid": "37279950",
+   "pmc": "PMC10799984",
+   "doi": "10.1093/aob/mcad072",
+   "pii": "7190867"
+  },
+  "title": "Lessons from the history of Agave: ecological and cultural context for valuation of CAM.",
+  "abstract": "Crassulacean acid metabolism (CAM) is an intriguing physiological adaptation in plants that are widespread throughout many ecosystems. Despite the relatively recent mechanistic understanding of CAM in plant physiology, evidence from historical records suggests that ancient cultures in the Americas also recognized the value of CAM plants. Agave species, in particular, have a rich cultural legacy that provides a foundation for commercially valued products. Here, we review that legacy and potential relationships between ancient values and the needs of modern-day climate adaptation strategies.\n\nThere are many products that can be produced from Agave species, including food, sugar, fibre and medicines. Traditional knowledge about agricultural management and preparation of plant products can be combined with new ecophysiological knowledge and agronomic techniques to develop these resources in the borderland region of the southwestern USA and Mexico. Historical records of pre-Columbian practices in the Sonoran desert and remnants of centuries-old agriculture in Baja California and Sonora demonstrate the climate resilience of Agave agriculture. Commercial growth of both tequila and bacanora indicates the potential for large-scale production today, but also underscores the importance of adopting regenerative agricultural practices to accomplish environmentally sustainable production. Recent international recognition of the Appellation of Origin for several Agave species produced for spirits in Mexico might provide opportunities for agricultural diversification. In contrast, fibre is currently produced from several Agave species on many continents. Projections of growth with future climate change suggest that Agave spp. will be viable alternatives for commodity crops that suffer declines during drought and increased temperatures. Historical cultivation of Agave affirms that these CAM plants can supply sugar, soft and hard fibres, medicines and food supplements.",
+  "doi": "10.1093/aob/mcad072",
+  "journal": {
+   "title": "Annals of botany",
+   "iso_abbreviation": "Ann Bot"
+  },
+  "authors": [
+   {
+    "last_name": "Davis",
+    "fore_name": "Sarah C",
+    "initials": "SC",
+    "affiliations": [
+     "Voinovich School of Leadership and Public Service, Ohio University, Building 22 The Ridges, Athens, OH 45701, USA."
+    ]
+   },
+   {
+    "last_name": "Ortiz-Cano",
+    "fore_name": "Hector G",
+    "initials": "HG",
+    "affiliations": [
+     "Holden Arboretum, 9550 Sperry Road, Kirkland, OH 44094, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "Nov",
+   "day": "25"
+  },
+  "keywords": [
+   "Agave americana",
+   "Agave angustifolia",
+   "Agave tequilana",
+   "bacanora",
+   "climate change",
+   "crassulacean acid metabolism",
+   "mescal",
+   "pre-Columbian",
+   "pulque",
+   "resilient agriculture",
+   "tequila",
+   "traditional knowledge"
+  ],
+  "mesh_terms": [
+   "Crassulacean Acid Metabolism",
+   "Agave",
+   "Ecosystem",
+   "Mexico",
+   "Sugars"
+  ],
+  "article_types": [
+   "Review",
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "132",
+   "issue": "4",
+   "pages": "819-833"
+  }
+ },
+ "27446061": {
+  "identifiers": {
+   "pmid": "27446061",
+   "pmc": "PMC4928461",
+   "doi": "10.3389/fmicb.2016.01026"
+  },
+  "title": "Pulque, a Traditional Mexican Alcoholic Fermented Beverage: Historical, Microbiological, and Technical Aspects.",
+  "abstract": "Pulque is a traditional Mexican alcoholic beverage produced from the fermentation of the fresh sap known as aguamiel (mead) extracted from several species of Agave (maguey) plants that grow in the Central Mexico plateau. Currently, pulque is produced, sold and consumed in popular districts of Mexico City and rural areas. The fermented product is a milky white, viscous, and slightly acidic liquid beverage with an alcohol content between 4 and 7° GL and history of consumption that dates back to pre-Hispanic times. In this contribution, we review the traditional pulque production process, including the microbiota involved in the biochemical changes that take place during aguamiel fermentation. We discuss the historical relevance and the benefits of pulque consumption, its chemical and nutritional properties, including the health benefits associated with diverse lactic acid bacteria with probiotic potential isolated from the beverage. Finally, we describe the actual status of pulque production as well as the social, scientific and technological challenges faced to preserve and improve the production of this ancestral beverage and Mexican cultural heritage.",
+  "doi": "10.3389/fmicb.2016.01026",
+  "journal": {
+   "title": "Frontiers in microbiology",
+   "iso_abbreviation": "Front Microbiol"
+  },
+  "authors": [
+   {
+    "last_name": "Escalante",
+    "fore_name": "Adelfo",
+    "initials": "A",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "López Soto",
+    "fore_name": "David R",
+    "initials": "DR",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "Velázquez Gutiérrez",
+    "fore_name": "Judith E",
+    "initials": "JE",
+    "affiliations": [
+     "Departamento de Biología, Facultad de Química, Universidad Nacional Autónoma de México, Ciudad Universitaria Ciudad de México, Mexico."
+    ]
+   },
+   {
+    "last_name": "Giles-Gómez",
+    "fore_name": "Martha",
+    "initials": "M",
+    "affiliations": [
+     "Vagabundo Cultural Atitalaquia, Mexico."
+    ]
+   },
+   {
+    "last_name": "Bolívar",
+    "fore_name": "Francisco",
+    "initials": "F",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "López-Munguía",
+    "fore_name": "Agustín",
+    "initials": "A",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México Cuernavaca, Mexico."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2016",
+   "month": "06",
+   "day": "30"
+  },
+  "keywords": [
+   "Saccharomyces cerevisiae",
+   "aguamiel",
+   "dextran",
+   "fructans",
+   "lactic acid bacteria",
+   "maguey",
+   "probiotics",
+   "pulque"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "7",
+   "pages": "1026"
+  }
+ },
+ "39796424": {
+  "identifiers": {
+   "pmid": "39796424",
+   "pmc": "PMC11719483",
+   "doi": "10.3390/foods14010134",
+   "pii": "foods14010134"
+  },
+  "title": "Aguamiel, a Traditional Mexican Beverage: A Review of Its Nutritional Composition, Health Effects and Conservation.",
+  "abstract": "Aguamiel is the sap extracted from various species of maguey (spp.). This liquid is highly prized in central Mexico for its pleasing sensory qualities and nutritional value. Understanding the composition of aguamiel is crucial as it may offer beneficial effects for human health. Reports have indicated its significance as a source of essential amino acids, vitamins, minerals, and fructooligosaccharides with prebiotic potential. Additionally, aguamiel can harbor diverse microorganisms, including lactic acid bacteria (andspp.) and yeasts, contributing antioxidant, nutritional, prebiotic, and probiotic properties. However, aguamiel is prone to rapid fermentation due to its nature, which can alter its sensory and nutritional characteristics. This review provides insight into the broad nutritional composition, microbial diversity, and metabolites beneficial to the human health of fresh aguamiel. At the same time, it reviews the technologies applied to aguamiel to preserve its nutritional properties and functional metabolites and extend its shelf life. Thus, the data included in this document may lead to greater beverage consumption and further research to find new conservation alternatives that change its organoleptic and functional properties as little as possible.",
+  "doi": "10.3390/foods14010134",
+  "journal": {
+   "title": "Foods (Basel, Switzerland)",
+   "iso_abbreviation": "Foods"
+  },
+  "authors": [
+   {
+    "last_name": "Noriega-Juárez",
+    "fore_name": "Alma Delia",
+    "initials": "AD",
+    "affiliations": [
+     "Laboratorio Integral de Investigación en Alimentos, Tecnológico Nacional de México Instituto Tecnológico de Tepic, Tepic 63175, Nayarit, Mexico."
+    ]
+   },
+   {
+    "last_name": "Meza-Espinoza",
+    "fore_name": "Libier",
+    "initials": "L",
+    "affiliations": [
+     "Dirección de Ciencias Agropecuarias, Universidad Tecnológica de la Costa, Santiago Ixcuintla 63300, Nayarit, Mexico."
+    ]
+   },
+   {
+    "last_name": "García-Magaña",
+    "fore_name": "María de Lourdes",
+    "initials": "ML",
+    "affiliations": [
+     "Laboratorio Integral de Investigación en Alimentos, Tecnológico Nacional de México Instituto Tecnológico de Tepic, Tepic 63175, Nayarit, Mexico."
+    ]
+   },
+   {
+    "last_name": "Ortiz-Basurto",
+    "fore_name": "Rosa Isela",
+    "initials": "RI",
+    "affiliations": [
+     "Laboratorio Integral de Investigación en Alimentos, Tecnológico Nacional de México Instituto Tecnológico de Tepic, Tepic 63175, Nayarit, Mexico."
+    ]
+   },
+   {
+    "last_name": "Chacón-López",
+    "fore_name": "Martina Alejandra",
+    "initials": "MA",
+    "affiliations": [
+     "Laboratorio Integral de Investigación en Alimentos, Tecnológico Nacional de México Instituto Tecnológico de Tepic, Tepic 63175, Nayarit, Mexico."
+    ]
+   },
+   {
+    "last_name": "Anaya-Esparza",
+    "fore_name": "Luis Miguel",
+    "initials": "LM",
+    "affiliations": [
+     "Centro de Estudios para la Agricultura, la Alimentación y la Crisis Climática, Centro Universitario de los Altos, Universidad de Guadalajara, Tepatitlán de Morelos 47620, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Montalvo-González",
+    "fore_name": "Efigenia",
+    "initials": "E",
+    "affiliations": [
+     "Laboratorio Integral de Investigación en Alimentos, Tecnológico Nacional de México Instituto Tecnológico de Tepic, Tepic 63175, Nayarit, Mexico."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2025",
+   "month": "01",
+   "day": "06"
+  },
+  "keywords": [
+   "aguamiel",
+   "microorganisms",
+   "nutrients",
+   "prebiotic",
+   "shelf life"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Review"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "14",
+   "issue": "1"
+  }
+ },
+ "25811101": {
+  "identifiers": {
+   "pmid": "25811101",
+   "doi": "10.1021/acs.jafc.5b00883"
+  },
+  "title": "Effect of Agave americana and Agave salmiana Ripeness on Saponin Content from Aguamiel (Agave Sap).",
+  "abstract": "Steroidal saponins have shown beneficial health effects. Agave spp. leaves and rhizomes are sources of these compounds, but their presence has not been reported in the aguamiel. Aguamiel is the sweet edible sap from mature agave, and its quality is influenced by the plant ripening stage. The purpose of this research was to identify and quantitate saponins in aguamiel from Agave americana and Agave salmiana at two ripening stages. Saponins and sapogenins were identified with HPLC/ESI-MS/TOF and quantitated with HPLC/ELSD. Results proved the presence of saponins derived from kammogenin, manogenin, gentrogenin, and hecogenin. The saponin content in aguamiel from immature A. salmiana was 2-fold higher (478.3 protodioscin equivalents (PE) μg/g aguamiel (DM)) compared with A. americana (179.0 PE μg/g aguamiel (DM)). In both species, saponin content decreased when plants reached sexual maturity. This should be considered before evaluating the effects of Agave spp. as a source of bioactive saponins.",
+  "doi": "10.1021/acs.jafc.5b00883",
+  "journal": {
+   "title": "Journal of agricultural and food chemistry",
+   "iso_abbreviation": "J Agric Food Chem"
+  },
+  "authors": [
+   {
+    "last_name": "Leal-Díaz",
+    "fore_name": "Ana María",
+    "initials": "AM",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   },
+   {
+    "last_name": "Santos-Zea",
+    "fore_name": "Liliana",
+    "initials": "L",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   },
+   {
+    "last_name": "Martínez-Escobedo",
+    "fore_name": "Hilda Cecilia",
+    "initials": "HC",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   },
+   {
+    "last_name": "Guajardo-Flores",
+    "fore_name": "Daniel",
+    "initials": "D",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   },
+   {
+    "last_name": "Gutiérrez-Uribe",
+    "fore_name": "Janet Alejandra",
+    "initials": "JA",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   },
+   {
+    "last_name": "Serna-Saldivar",
+    "fore_name": "Sergio Othón",
+    "initials": "SO",
+    "affiliations": [
+     "†Centro de Biotecnología FEMSA, Tecnológico de Monterrey, Avenida Eugenio Garza Sada 2501 Sur, CP 64849, Monterrey, N.L. México."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2015",
+   "month": "04",
+   "day": "09"
+  },
+  "keywords": [
+   "Agave americana",
+   "Agave salmiana",
+   "aguamiel",
+   "kammogenin",
+   "ripeness",
+   "sapogenin",
+   "saponin"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Chromatography, High Pressure Liquid",
+   "Mass Spectrometry",
+   "Plant Extracts",
+   "Plant Leaves",
+   "Saponins"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "63",
+   "issue": "15",
+   "pages": "3924-30"
+  }
+ },
+ "33163505": {
+  "identifiers": {
+   "pmid": "33163505",
+   "pmc": "PMC7581979",
+   "doi": "10.3389/fnut.2020.566950"
+  },
+  "title": "Evolution of Fructans in(Agave Sap) During the Plant Production Lifetime.",
+  "abstract": "is the sap collected from, whileis the result of the natural fermentation of. Despite its ancestral origin and numerous publications onproduction, little is known about the evolution and concentration of sugars and fructo-oligosaccharides in, either during its daily accumulation or through the agave production lifetime. In this study, we examinedcomposition in three agave plants during their productive lifetime (4 to 9 months). After each collection, the agave pine is scraped to induceto flow into an internally created cavity (), producing a residual bagasse (). We found that the concentration of agave fructans and sucrose, as well as the fructan profile, change during theproduction process. During the daily collection, a small amount of agave fructans released from the pine by scraping is drawn into thewith the first milliliters of sap where it is then diluted with the inflow of. The main component ofis the sucrose produced in high concentration in the leaves through photosynthesis and then hydrolyzed in theasaccumulates. We also describe how the fructan profile changes during the accumulation ofin the. In addition to the varying amount of sucrose that is hydrolyzed in theaccumulated, we found that fructo-oligosaccharides are either diluted, consumed, or hydrolyzed, depending on the plant and its production stage, thus yielding different fructan profiles. New fructo-oligosaccharides are, in some cases, synthesized by bacteria present in. These profiles were also observed incollected from ten different plants in the same production region. We also found that a considerable amount of agave fructans is lost in(bagasse), the agave material that is scraped and thrown away twice a day during the production process.",
+  "doi": "10.3389/fnut.2020.566950",
+  "journal": {
+   "title": "Frontiers in nutrition",
+   "iso_abbreviation": "Front Nutr"
+  },
+  "authors": [
+   {
+    "last_name": "Peralta-García",
+    "fore_name": "Ibeth",
+    "initials": "I",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "González-Muñoz",
+    "fore_name": "Fernando",
+    "initials": "F",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "Elena",
+    "fore_name": "Rodríguez-Alegría María",
+    "initials": "RM",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "Sánchez-Flores",
+    "fore_name": "Alejandro",
+    "initials": "A",
+    "affiliations": [
+     "Unidad de Secuenciación Masiva y Bioinformática, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Mexico."
+    ]
+   },
+   {
+    "last_name": "López Munguía",
+    "fore_name": "Agustín",
+    "initials": "A",
+    "affiliations": [
+     "Departamento de Ingeniería Celular y Biocatálisis, Instituto de Biotecnología, Universidad Nacional Autónoma de México (UNAM), Cuernavaca, Mexico."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "10",
+   "day": "08"
+  },
+  "keywords": [
+   "aguamiel",
+   "fructans",
+   "fructo-oligosaccharides",
+   "metzal",
+   "pine",
+   "pulque",
+   "scraped",
+   "sucrose"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "7",
+   "pages": "566950"
+  }
+ },
+ "23846754": {
+  "identifiers": {
+   "pmid": "23846754",
+   "pmc": "PMC6269955",
+   "doi": "10.3390/molecules18078136",
+   "pii": "molecules18078136"
+  },
+  "title": "Anti-inflammatory activity of different agave plants and the compound cantalasaponin-1.",
+  "abstract": "Species of the agave genus, such as Agave tequilana, Agave angustifolia and Agave americana are used in Mexican traditional medicine to treat inflammation-associated conditions. These plants' leaves contain saponin compounds which show anti-inflammatory properties in different models. The goal of this investigation was to evaluate the anti-inflammatory capacity of these plants, identify which is the most active, and isolate the active compound by a bio-directed fractionation using the ear edema induced in mice with 12-O-tetradecanoylphorbol-13-acetate (TPA) technique. A dose of 6 mg/ear of acetone extract from the three agave species induced anti-inflammatory effects, however, the one from A. americana proved to be the most active. Different fractions of this species showed biological activity. Finally the F5 fraction at 2.0 mg/ear induced an inhibition of 85.6%. We identified one compound in this fraction as (25R)-5α-spirostan-3β,6α,23α-triol-3,6-di-O-β-D-glucopyranoside (cantalasaponin-1) through 1H- and 13C-NMR spectral analysis and two dimensional experiments like DEPT NMR, COSY, HSQC and HMBC. This steroidal glycoside showed a dose dependent effect of up to 90% of ear edema inhibition at the highest dose of 1.5 mg/ear.",
+  "doi": "10.3390/molecules18078136",
+  "journal": {
+   "title": "Molecules (Basel, Switzerland)",
+   "iso_abbreviation": "Molecules"
+  },
+  "authors": [
+   {
+    "last_name": "Monterrosas-Brisson",
+    "fore_name": "Nayeli",
+    "initials": "N",
+    "affiliations": [
+     "Centro de Investigación Biomédica del Sur (CIBIS), Instituto Mexicano del Seguro Social (IMSS), Argentina No. 1, Col. Centro, Xochitepec 62790, Morelos, Mexico. monterrosasnayeli@hotmail.com"
+    ]
+   },
+   {
+    "last_name": "Ocampo",
+    "fore_name": "Martha L Arenas",
+    "initials": "ML"
+   },
+   {
+    "last_name": "Jiménez-Ferrer",
+    "fore_name": "Enrique",
+    "initials": "E"
+   },
+   {
+    "last_name": "Jiménez-Aparicio",
+    "fore_name": "Antonio R",
+    "initials": "AR"
+   },
+   {
+    "last_name": "Zamilpa",
+    "fore_name": "Alejandro",
+    "initials": "A"
+   },
+   {
+    "last_name": "Gonzalez-Cortazar",
+    "fore_name": "Manases",
+    "initials": "M"
+   },
+   {
+    "last_name": "Tortoriello",
+    "fore_name": "Jaime",
+    "initials": "J"
+   },
+   {
+    "last_name": "Herrera-Ruiz",
+    "fore_name": "Maribel",
+    "initials": "M"
+   }
+  ],
+  "publication_date": {
+   "year": "2013",
+   "month": "07",
+   "day": "10"
+  },
+  "mesh_terms": [
+   "Agave",
+   "Animals",
+   "Anti-Inflammatory Agents, Non-Steroidal",
+   "Edema",
+   "Male",
+   "Medicine, Traditional",
+   "Mice",
+   "Mice, Inbred ICR",
+   "Plant Leaves",
+   "Plant Preparations",
+   "Saponins",
+   "Tetradecanoylphorbol Acetate"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "18",
+   "issue": "7",
+   "pages": "8136-46"
+  }
+ },
+ "35368099": {
+  "identifiers": {
+   "pmid": "35368099",
+   "doi": "10.1002/jsfa.11912"
+  },
+  "title": "Comparative study of steroidal sapogenins content in leaves of five Agave species.",
+  "abstract": "Agaves are mainly used to produce alcoholic beverages such as tequila, mezcal and bacanora. However, the leaves constitute more than 50% of the plant and are not used in the production process, so they are considered waste. This plant material can be used as a source of bioactive compounds such as terpenes, flavonoids and saponins. Therefore, the objective of this study was to characterize the aglycone type of saponins and to quantify three steroidal sapogenins in leaves of five Agave species collected in different regions of Guerrero and Oaxaca, Mexico.\n\nAnalysis by gas chromatography-flame ionization detection of the hydrolyzed methanolic extracts showed that diosgenin and tigogenin were the most abundant sapogenins identified in the five Agave species. Differences in the content of these sapogenins were found in the same species collected in different localities. The leaves of Agave americana var. oaxacensis L. (Oaxaca) had the highest diosgenin-derived saponin content, while the leaves of A. angustifolia Haw. (Guerrero) had the highest tigogenin-derived saponin content. Only in A. cupreata was sarsasapogenin identified, all three sapogenins occurring in the leaves of this species. For the first time, information is provided on the aglycones of the saponins produced in A. potatorum Zucc. and A. karwinskii Zucc.\n\nThis study made it possible to compare the content of diosgenin and tigogenin-derived saponins in leaves of Agave species from Guerrero and Oaxaca. This information will be useful for better utilization of this plant material and add value to the process of mezcal elaboration. © 2022 Society of Chemical Industry.",
+  "doi": "10.1002/jsfa.11912",
+  "journal": {
+   "title": "Journal of the science of food and agriculture",
+   "iso_abbreviation": "J Sci Food Agric"
+  },
+  "authors": [
+   {
+    "last_name": "García-Morales",
+    "fore_name": "Soledad",
+    "initials": "S",
+    "affiliations": [
+     "Department of Plant Biotechnology, CONACYT - Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, AC, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Corzo-Jiménez",
+    "fore_name": "Ilenia Janeth",
+    "initials": "IJ",
+    "affiliations": [
+     "Department of Plant Biotechnology, Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, AC, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Silva-Córdova",
+    "fore_name": "Natalina Frine",
+    "initials": "NF",
+    "affiliations": [
+     "Instituto Tecnológico de Acapulco, Guerrero, Mexico."
+    ]
+   },
+   {
+    "last_name": "Soto-Cordero",
+    "fore_name": "Andrés Michelle",
+    "initials": "AM",
+    "affiliations": [
+     "Universidad Politécnica de Gómez Palacio, Durango, Mexico."
+    ]
+   },
+   {
+    "last_name": "Rodríguez-Mejía",
+    "fore_name": "Diego Iván",
+    "initials": "DI",
+    "affiliations": [
+     "Instituto Tecnológico y de Estudios Superiores de Occidente, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Pardo-Núñez",
+    "fore_name": "Joaliné",
+    "initials": "J",
+    "affiliations": [
+     "Laboratory of Technological Prospecting for the Innovative Development of Food and Nutrition, CONACYT - Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, AC, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "León-Morales",
+    "fore_name": "Janet María",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Plant Biotechnology, CONACYT - Centro de Investigación y Asistencia en Tecnología y Diseño del Estado de Jalisco, AC, Jalisco, Mexico."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2022",
+   "month": "04",
+   "day": "21"
+  },
+  "keywords": [
+   "Agave by-products",
+   "acid hydrolysis",
+   "bioactive compounds",
+   "sapogenins",
+   "steroidal saponins"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Diosgenin",
+   "Plant Leaves",
+   "Sapogenins",
+   "Saponins"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "102",
+   "issue": "13",
+   "pages": "5653-5659"
+  }
+ },
+ "41946797": {
+  "identifiers": {
+   "pmid": "41946797",
+   "pmc": "PMC13062020",
+   "doi": "10.1038/s41598-026-43085-8",
+   "pii": "10.1038/s41598-026-43085-8"
+  },
+  "title": "Ultrasound-assisted extraction, quantification and characterization of inulin from agave, chicory and Jerusalem artichoke.",
+  "abstract": "This study investigated the extraction, quantification and characterization of inulin obtained from agave (Agave americana) leaves, chicory (Cichorium intybus) roots and Jerusalem artichoke (Helianthus tuberosus) tubers. Ultrasound-assisted extraction (UAE) was employed under varying solid-to-liquid ratios (1:3–1:6) and ultrasonic frequencies (30–60 kHz), while maintaining a constant extraction time of 35 min and a temperature of 40 °C. Proximate and mineral profiling revealed agave to be richer in moisture and fat, chicory in protein and ash, and Jerusalem artichoke in fiber, with potassium and calcium were the dominant minerals across all sources. Inulin extraction efficiency increased significantly at a solid-to-liquid ratio (1:6) and an ultrasonic frequency (60 kHz). Among the tested samples, Jerusalem artichoke exhibited the highest inulin content (93.53 ± 3.81%), followed by chicory (90.39 ± 2.96%) and agave (78.99 ± 3.08%). Physicochemical and techno-functional evaluation showed that agave inulin contained high dry matter (92.86%), relatively high oil-holding capacity (3.27 g/g) and moderate solubility (74.32 g/L). Chicory inulin exhibited maximum solubility (114.66 g/L) with moderate dry matter (91.48%) and lower water-holding capacity (1.68 g/g). Jerusalem artichoke inulin presented the highest dry matter (94.89%) along with superior water-holding capacity (5.40 g/g) and comparartively lower solubility (4.76 g/L). Fourier Transform Infrared (FTIR) spectroscopy of inulin confirmed the presence of alcohol and glycosidic ether groups while X-ray diffraction (XRD) patterns displayed broad amorphous halos with semi-crystalline features varying by source. In conclusion, Jerusalem artichoke proved to be the most promising source of inulin, demonstrating higher extraction efficiency and favorable techno-functional and structural properties for food and nutraceutical applications.",
+  "doi": "10.1038/s41598-026-43085-8",
+  "journal": {
+   "title": "Scientific reports",
+   "iso_abbreviation": "Sci Rep"
+  },
+  "authors": [
+   {
+    "last_name": "Hussain",
+    "fore_name": "Sajjad",
+    "initials": "S",
+    "affiliations": [
+     "National Institute of Food Science and Technology, University of Agriculture Faisalabad, Faisalabad, Pakistan."
+    ]
+   },
+   {
+    "last_name": "Randhawa",
+    "fore_name": "Muhammad Atif",
+    "initials": "MA",
+    "affiliations": [
+     "National Institute of Food Science and Technology, University of Agriculture Faisalabad, Faisalabad, Pakistan. atifrandhawa@uaf.edu.pk."
+    ]
+   },
+   {
+    "last_name": "Rakha",
+    "fore_name": "Allah",
+    "initials": "A",
+    "affiliations": [
+     "National Institute of Food Science and Technology, University of Agriculture Faisalabad, Faisalabad, Pakistan."
+    ]
+   },
+   {
+    "last_name": "Shahid",
+    "fore_name": "Muhammad",
+    "initials": "M",
+    "affiliations": [
+     "National Institute of Food Science and Technology, University of Agriculture Faisalabad, Faisalabad, Pakistan.",
+     "Department of Biochemistry, University of Agriculture Faisalabad, Faisalabad, Pakistan."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2026",
+   "month": "04",
+   "day": "07"
+  },
+  "keywords": [
+   "FTIR",
+   "Inulin",
+   "Physicochemical characterization",
+   "Techno-functional properties",
+   "UAE",
+   "XRD"
+  ],
+  "mesh_terms": [
+   "Inulin",
+   "Helianthus",
+   "Cichorium intybus",
+   "Agave",
+   "Plant Leaves",
+   "Plant Roots"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "16",
+   "issue": "1"
+  }
+ },
+ "32170464": {
+  "identifiers": {
+   "pmid": "32170464",
+   "doi": "10.1007/s10646-020-02167-7",
+   "pii": "10.1007/s10646-020-02167-7"
+  },
+  "title": "Toxicity of botanical extracts and their main constituents on the bees Partamona helleri and Apis mellifera.",
+  "abstract": "Africanized and wild bees are sensitive to synthetic insecticides, but may not be sensitive to botanical extracts. In this work, we evaluated the toxicity of botanical extracts with homemade preparations used in agroecological crops and their constituents on the bees Apis mellifera and Partamona helleri. Toxicity bioassays of adult bees were done by means of oral exposure and ingestion, using the insecticide imidacloprid as a positive control. Dietary consumption, respiration rate and bee flight were evaluated as sublethal parameters. Although some extracts were toxic to bees, survival was always higher compared to the results obtained with the imidacloprid, which was lethal to 100% of bees. In dietary consumption, P. helleri consumed less (5 mg/bee) in 3 h than A. mellifera (11 mg/bee), and P. helleri consumed less (7 mg/bee) in 24 h than A. mellifera (22 mg/bee). There was no difference in consumption of food containing plant extracts or food containing water only. We did not detect any adverse effects of the botanical extracts on bee respiration rates or flight. The major constituent of N. tabacum is nicotine (8.4-15.1%), in A. americana it is β-caryophyllene (11.3%), and in A. colubrina, lupeol (12.2%). Imidacloprid and nicotine were more toxic to bees (LC ≤ 1.3 and LC ≤ 44.3). Botanical extracts were selective to A. mellifera and the native bee P. helleri, and therefore, have the potential for ecofriendly pest control.",
+  "doi": "10.1007/s10646-020-02167-7",
+  "journal": {
+   "title": "Ecotoxicology (London, England)",
+   "iso_abbreviation": "Ecotoxicology"
+  },
+  "authors": [
+   {
+    "last_name": "Cunha Pereira",
+    "fore_name": "Renata",
+    "initials": "R",
+    "affiliations": [
+     "Departamento de Fitotecnia, Universidade Federal de Viçosa, Campus UFV, Viçosa, Minas Gerais, 36570-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Faria Barbosa",
+    "fore_name": "Wagner",
+    "initials": "W",
+    "affiliations": [
+     "Departamento de Entomologia, Universidade Federal de Viçosa, Campus UFV, Viçosa, Minas Gerais, 36570-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Pereira Lima",
+    "fore_name": "Maria Augusta",
+    "initials": "MA",
+    "affiliations": [
+     "Departamento de Biologia Animal, Universidade Federal de Viçosa, Campus UFV, Viçosa, Minas Gerais, 36570-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Vieira",
+    "fore_name": "José Olívio Lopes",
+    "initials": "JOL",
+    "affiliations": [
+     "Departamento de Fitotecnia, Universidade Federal de Viçosa, Campus UFV, Viçosa, Minas Gerais, 36570-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Carvalho Guedes",
+    "fore_name": "Raul Narciso",
+    "initials": "RN",
+    "affiliations": [
+     "Departamento de Biologia Animal, Universidade Federal de Viçosa, Campus UFV, Viçosa, Minas Gerais, 36570-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Rodrigues da Silva",
+    "fore_name": "Brenda Karina",
+    "initials": "BK",
+    "affiliations": [
+     "Universidade Federal de Viçosa, Instituto de Ciências Agrárias, Campus Rio Paranaíba, MG230, Km08, Rio Paranaíba, Minas Gerais, 38810-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Dias Barbosa",
+    "fore_name": "Guilherme Mateus",
+    "initials": "GM",
+    "affiliations": [
+     "Universidade Federal de Viçosa, Instituto de Ciências Agrárias, Campus Rio Paranaíba, MG230, Km08, Rio Paranaíba, Minas Gerais, 38810-000, Brazil."
+    ]
+   },
+   {
+    "last_name": "Lemes Fernandes",
+    "fore_name": "Flávio",
+    "initials": "F",
+    "affiliations": [
+     "Universidade Federal de Viçosa, Instituto de Ciências Agrárias, Campus Rio Paranaíba, MG230, Km08, Rio Paranaíba, Minas Gerais, 38810-000, Brazil. flaviofernandes@ufv.br."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "03",
+   "day": "13"
+  },
+  "keywords": [
+   "Agave americana",
+   "Anadenanthera colubrina",
+   "Imidacloprid",
+   "Insecticide",
+   "Mortality",
+   "Nicotiana tabacum"
+  ],
+  "mesh_terms": [
+   "Animals",
+   "Bees",
+   "Diet",
+   "Insecticides",
+   "Lethal Dose 50",
+   "Neonicotinoids",
+   "Nitro Compounds",
+   "Plant Extracts"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "29",
+   "issue": "3",
+   "pages": "246-257"
+  }
+ },
+ "30597061": {
+  "identifiers": {
+   "pmid": "30597061",
+   "pmc": "PMC6883261",
+   "doi": "10.1093/jxb/ery383",
+   "pii": "5267110"
+  },
+  "title": "A model of environmental limitations on production of Agave americana L. grown as a biofuel crop in semi-arid regions.",
+  "abstract": "Plants that use crassulacean acid metabolism (CAM) have the potential to meet growing agricultural resource demands using land that is considered unsuitable for many common crop species. Agave americana L., an obligate CAM plant, has potential as an advanced biofuel crop in water-limited regions, and has greater cold tolerance than other high-yielding CAM species, but physiological tolerances have not been completely resolved. We developed a model to estimate the growth responses of A. americana to water input, temperature, and photosynthetically active radiation (PAR). The photosynthetic response to PAR was determined experimentally by measuring the integrated leaf gas exchange over 24 h after acclimation to six light levels. Maximum CO2 fixation rates were observed at a PAR intensity of 1250 µmol photons m-2 s-1. Growth responses of A. americana to water and temperature were also determined, and a monthly environmental productivity index (EPI) was derived that can be used to predict biomass growth. The EPI was calculated as the product of water, temperature, and light indices estimated for conditions at a site in Maricopa (Arizona), and compared with measured biomass at the same site (where the first field trial of A. americana as a crop was completed). The monthly EPI summed over the lifetime of multi-year crops was highly correlated with the average measured biomass of healthy 2- and 3-year-old plants grown in the field. The resulting relationship between EPI and biomass provides a simple model for estimating the production of A. americana at a monthly time step according to light, temperature, and precipitation inputs, and is a useful tool for projecting the potential geographic range of this obligate CAM species in future climatic conditions.",
+  "doi": "10.1093/jxb/ery383",
+  "journal": {
+   "title": "Journal of experimental botany",
+   "iso_abbreviation": "J Exp Bot"
+  },
+  "authors": [
+   {
+    "last_name": "Niechayev",
+    "fore_name": "Nicholas A",
+    "initials": "NA",
+    "affiliations": [
+     "Voinovich School of Leadership and Public Affairs, Ohio University, Athens, OH, USA."
+    ]
+   },
+   {
+    "last_name": "Jones",
+    "fore_name": "Alexander M",
+    "initials": "AM",
+    "affiliations": [
+     "Voinovich School of Leadership and Public Affairs, Ohio University, Athens, OH, USA."
+    ]
+   },
+   {
+    "last_name": "Rosenthal",
+    "fore_name": "David M",
+    "initials": "DM",
+    "affiliations": [
+     "Department of Environmental and Plant Biology, Ohio University, Athens, OH, USA."
+    ]
+   },
+   {
+    "last_name": "Davis",
+    "fore_name": "Sarah C",
+    "initials": "SC",
+    "affiliations": [
+     "Voinovich School of Leadership and Public Affairs, Ohio University, Athens, OH, USA.",
+     "Department of Environmental and Plant Biology, Ohio University, Athens, OH, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2019",
+   "month": "Nov",
+   "day": "29"
+  },
+  "keywords": [
+   "CAM",
+   "bioenergy",
+   "bioethanol",
+   "crassulacean acid metabolism",
+   "desert crops",
+   "drought tolerance",
+   "light intensity",
+   "temperature response"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Biofuels",
+   "Biomass",
+   "Crops, Agricultural",
+   "Desert Climate",
+   "Light",
+   "Models, Biological",
+   "Temperature",
+   "Water"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "70",
+   "issue": "22",
+   "pages": "6549-6559"
+  }
+ },
+ "41600134": {
+  "identifiers": {
+   "pmid": "41600134",
+   "pmc": "PMC12846285",
+   "doi": "10.3390/plants15020327",
+   "pii": "plants15020327"
+  },
+  "title": "Spatial Patterns and Diversity of the Genusin the Southern Iberian Peninsula: The Role of Anthropogenic Drivers in the Expansion of.",
+  "abstract": "The genusL. is a key component of Mediterranean alien flora, yet its inland distribution in the Iberian Peninsula remains poorly understood. This research integrates exhaustive field surveys with Species Distribution Models (SDMs) to characterize the genus diversity and, specifically, the spatial patterns and environmental niche ofin the southern Iberian Peninsula (Andalusia). Our results reveal a diversity of 23 taxa, yet crucially, the widespread occurrence ofdemonstrated that its actual inland distribution is significantly more extensive than previously recorded. Spatial Point Pattern Analysis (SPPA) revealed a strong aggregated distribution pattern (Clark & Evans R = 0.277;< 0.001). The MaxEnt Spatial Distribution Model demonstrated robust predictive performance (Mean AUC = 0.770 ± 0.007; Mean TSS = 0.420 ± 0.009). The distribution was primarily driven by elevation range (26.9%) and land use (23.1%), with maximum suitability peaking in anthropized, low-to-intermediate elevation areas. Projections to the broader Andalusian region confirmed high suitability in the Guadalquivir valley and coastal zones, validated by low spatial uncertainty (SD < 0.05 in optimal areas). These findings provide new insights into the biogeography ofin the region, emphasizing the significance of anthropogenic drivers within a cultural landscape context.",
+  "doi": "10.3390/plants15020327",
+  "journal": {
+   "title": "Plants (Basel, Switzerland)",
+   "iso_abbreviation": "Plants (Basel)"
+  },
+  "authors": [
+   {
+    "last_name": "Guerrero",
+    "fore_name": "Francisco",
+    "initials": "F",
+    "affiliations": [
+     "Departamento de Biología Animal, Biología Vegetal y Ecología, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain.",
+     "Centro de Estudios Avanzados en Ciencias de la Tierra, Energía y Medio Ambiente, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain."
+    ]
+   },
+   {
+    "last_name": "Cid-Gaitán",
+    "fore_name": "Víctor",
+    "initials": "V",
+    "affiliations": [
+     "Sociedad Ibérica para el Estudio y Conservación de los Ecosistemas (SIECE), Polígono Industrial Los Jarales, C/ Mina Alcolea, s/n., 23700 Jaén, Spain."
+    ]
+   },
+   {
+    "last_name": "Jurado-Pardeiro",
+    "fore_name": "Javier",
+    "initials": "J",
+    "affiliations": [
+     "Departamento de Biología Animal, Biología Vegetal y Ecología, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain."
+    ]
+   },
+   {
+    "last_name": "Ortega",
+    "fore_name": "Fernando",
+    "initials": "F",
+    "affiliations": [
+     "Departamento de Biología Animal, Biología Vegetal y Ecología, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain."
+    ]
+   },
+   {
+    "last_name": "Gilbert",
+    "fore_name": "Juan Diego",
+    "initials": "JD",
+    "affiliations": [
+     "Departamento de Biología Animal, Biología Vegetal y Ecología, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain.",
+     "Centro de Estudios Avanzados en Ciencias de la Tierra, Energía y Medio Ambiente, Universidad de Jaén, Campus de Las Lagunillas, s/n., 23071 Jaén, Spain."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2026",
+   "month": "01",
+   "day": "21"
+  },
+  "keywords": [
+   "Agave americana",
+   "Mediterranean",
+   "cultural landscape",
+   "diversity",
+   "species distribution modeling"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "15",
+   "issue": "2"
+  }
+ },
+ "34321030": {
+  "identifiers": {
+   "pmid": "34321030",
+   "pmc": "PMC8320050",
+   "doi": "10.1186/s13002-021-00470-z",
+   "pii": "10.1186/s13002-021-00470-z"
+  },
+  "title": "Ethnobotany of the Aegadian Islands: safeguarding biocultural refugia in the Mediterranean.",
+  "abstract": "The Aegadian Islands are located west of Trapani, Sicily. Once the site of bountiful tuna fisheries and fruit orchards (plums, peaches, apricots), grapevines, prickly pears, and grains, the local economy is now based on tourism, and many traditional agricultural and maritime practices have been abandoned. In this study, we aimed to evaluate the state of traditional ecological knowledge (TEK) concerning the use of wild and cultivated plants and fungi for human health, food, maritime, and agricultural purposes on the islands of Levanzo, Favignana, and Marettimo and compare present-day practices with those documented in the past.\n\nIn-depth semi-structured interviews were conducted in Italian with 48 participants with prior informed consent from May 2016 to July 2017 and October 2018. Herbarium voucher specimens of wild species were collected for herbarium deposit. A rigorous literature review of scientific and other local reports on TEK of wild flora and their application in food, health, and household applications was undertaken for the purpose of comparing findings from this field study with prior reports.\n\nA total of 122 plant and five fungal taxa representing 54 families were cited for 355 uses. Among the most pervasive species in the landscape, Agave americana and A. sisalana had diverse applications in the past, which ranged from cordage for agricultural and maritime applications to tools for sewing, eating land snails, and constructing furniture. Fields of Ferula communis also dominate the landscape, and the dry stems were used extensively in furniture making; this species also serves as an environmental indicator for the location of the most preferred edible mushrooms, Pleurotus eryngii var. ferulae. Other important flora included topical medicinal applications of Glaucium flavum for hematomas and Artemisia arborescens for ritual bathing of newborns.\n\nWhile many plant-based traditions have disappeared from daily practice, especially those related to traditional fishing and health practices, they remain in the memories of the eldest subset of the population. Documenting this knowledge before it disappears from oral history is a key factor in reducing loss of TEK and biocultural diversity, safeguarding the role of the Aegadian Islands as biocultural refugia.",
+  "doi": "10.1186/s13002-021-00470-z",
+  "journal": {
+   "title": "Journal of ethnobiology and ethnomedicine",
+   "iso_abbreviation": "J Ethnobiol Ethnomed"
+  },
+  "authors": [
+   {
+    "last_name": "La Rosa",
+    "fore_name": "Alfonso",
+    "initials": "A",
+    "affiliations": [
+     "Cooperativa Silene, Via D'Ondes Reggio 8/A, 90100, Palermo, Italy."
+    ]
+   },
+   {
+    "last_name": "Cornara",
+    "fore_name": "Laura",
+    "initials": "L",
+    "affiliations": [
+     "Department of Earth, Environment and Life Sciences, University of Genova, Corso Europa 26, 16132, Genova, Italy."
+    ]
+   },
+   {
+    "last_name": "Saitta",
+    "fore_name": "Alessandro",
+    "initials": "A",
+    "affiliations": [
+     "Department of Agricultural, Food and Forest Sciences, University of Palermo, Viale delle Scienze, Bld. 4, 90128, Palermo, Italy."
+    ]
+   },
+   {
+    "last_name": "Salam",
+    "fore_name": "Akram M",
+    "initials": "AM",
+    "affiliations": [
+     "Molecular and Systems Pharmacology Program, Emory University, 615 Michael St., Whitehead 115, Atlanta, GA, 30322, USA."
+    ]
+   },
+   {
+    "last_name": "Grammatico",
+    "fore_name": "Santo",
+    "initials": "S",
+    "affiliations": [
+     "Legambiente Liguria Onlus, Via Caffa 3/5, 16129, Genova, Italy."
+    ]
+   },
+   {
+    "last_name": "Caputo",
+    "fore_name": "Marco",
+    "initials": "M",
+    "affiliations": [
+     "Center for the Study of Human Health, Emory University, 1557 Dickey Dr, Anthropology 306, Atlanta, GA, 30322, USA."
+    ]
+   },
+   {
+    "last_name": "La Mantia",
+    "fore_name": "Tommaso",
+    "initials": "T",
+    "affiliations": [
+     "Department of Agricultural, Food and Forest Sciences, University of Palermo, Viale delle Scienze, Bld. 4, 90128, Palermo, Italy."
+    ]
+   },
+   {
+    "last_name": "Quave",
+    "fore_name": "Cassandra L",
+    "initials": "CL",
+    "affiliations": [
+     "Center for the Study of Human Health, Emory University, 1557 Dickey Dr, Anthropology 306, Atlanta, GA, 30322, USA. cquave@emory.edu.",
+     "Department of Dermatology, Emory University School of Medicine, 615 Michael St., Whitehead 105L, Atlanta, GA, 30322, USA. cquave@emory.edu."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "07",
+   "day": "28"
+  },
+  "keywords": [
+   "Agave sisalana",
+   "Artemisia arborescens",
+   "Glaucium flavum",
+   "Medicinal plants",
+   "Pleurotus eryngii",
+   "Ruta chalepensis",
+   "The Mediterranean"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Artemisia",
+   "Ethnobotany",
+   "Humans",
+   "Islands",
+   "Knowledge",
+   "Papaveraceae",
+   "Plants, Medicinal",
+   "Pleurotus",
+   "Refugium",
+   "Sicily"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "17",
+   "issue": "1",
+   "pages": "47"
+  }
+ },
+ "36978549": {
+  "identifiers": {
+   "pmid": "36978549",
+   "pmc": "PMC10044418",
+   "doi": "10.3390/ani13061008",
+   "pii": "ani13061008"
+  },
+  "title": "Influence of the Season on the Nutritive Value and Gas Production ofandL. in Ruminant Feed.",
+  "abstract": "Using invasive plants in animal production can provide an economical and eco-sustainable competitive advantage in a globalized market. Theand theL. are invasive plants historically used by Azorean farmers as an alternative ruminant water source in the summer. This study aims to better understand their properties and how they vary throughout the year, so their use to complement animal diets can be optimised. Six samples of each species were collected on the Terceira Island during 2 growth seasons: winter (January 2021) and summer (September 2021), and their chemical composition, in vitro digestibility, and gas production, were determined. Significant (< 0.05) differences were found in all parameters between the summer and the winter, with larger variations in both fibre (NDF and ADF) and digestibility parameters found between theand the. Gas production was greater in the summer forand in the winter for. Even though the digestibility was lower in the summer, we found that both plants offer a viable ruminant feed complement in both seasons, providing a cheap and eco-sustainable alternative water source, that can be associated to dry forage and compound feeding stuff with a high crude protein content when designing ruminant diets.",
+  "doi": "10.3390/ani13061008",
+  "journal": {
+   "title": "Animals : an open access journal from MDPI",
+   "iso_abbreviation": "Animals (Basel)"
+  },
+  "authors": [
+   {
+    "last_name": "Dias",
+    "fore_name": "Cristiana S A M Maduro",
+    "initials": "CSAMM",
+    "affiliations": [
+     "Institute of Agricultural and Environmental Research and Technology (IITAA), Faculty of Agricultural and Environmental Sciences, University of the Azores, 9700-042 Angra do Heroísmo, Portugal."
+    ]
+   },
+   {
+    "last_name": "Nunes",
+    "fore_name": "Helder P B",
+    "initials": "HPB",
+    "affiliations": [
+     "Institute of Agricultural and Environmental Research and Technology (IITAA), Faculty of Agricultural and Environmental Sciences, University of the Azores, 9700-042 Angra do Heroísmo, Portugal."
+    ]
+   },
+   {
+    "last_name": "Vouzela",
+    "fore_name": "Carlos F M",
+    "initials": "CFM",
+    "affiliations": [
+     "Institute of Agricultural and Environmental Research and Technology (IITAA), Faculty of Agricultural and Environmental Sciences, University of the Azores, 9700-042 Angra do Heroísmo, Portugal."
+    ]
+   },
+   {
+    "last_name": "Madruga",
+    "fore_name": "João S",
+    "initials": "JS",
+    "affiliations": [
+     "Institute of Agricultural and Environmental Research and Technology (IITAA), Faculty of Agricultural and Environmental Sciences, University of the Azores, 9700-042 Angra do Heroísmo, Portugal."
+    ]
+   },
+   {
+    "last_name": "Borba",
+    "fore_name": "Alfredo E S",
+    "initials": "AES",
+    "affiliations": [
+     "Institute of Agricultural and Environmental Research and Technology (IITAA), Faculty of Agricultural and Environmental Sciences, University of the Azores, 9700-042 Angra do Heroísmo, Portugal."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "03",
+   "day": "10"
+  },
+  "keywords": [
+   "alternative feed sources",
+   "animal nutrition",
+   "diet optimisation",
+   "dry season",
+   "ruminant nutrition",
+   "sustainability"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "13",
+   "issue": "6"
+  }
+ },
+ "36546733": {
+  "identifiers": {
+   "pmid": "36546733",
+   "pmc": "PMC10022617",
+   "doi": "10.1093/plphys/kiac588",
+   "pii": "6956333"
+  },
+  "title": "Agave REVEILLE1 regulates the onset and release of seasonal dormancy in Populus.",
+  "abstract": "Deciduous woody plants like poplar (Populus spp.) have seasonal bud dormancy. It has been challenging to simultaneously delay the onset of bud dormancy in the fall and advance bud break in the spring, as bud dormancy, and bud break were thought to be controlled by different genetic factors. Here, we demonstrate that heterologous expression of the REVEILLE1 gene (named AaRVE1) from Agave (Agave americana) not only delays the onset of bud dormancy but also accelerates bud break in poplar in field trials. AaRVE1 heterologous expression increases poplar biomass yield by 166% in the greenhouse. Furthermore, we reveal that heterologous expression of AaRVE1 increases cytokinin contents, represses multiple dormancy-related genes, and up-regulates bud break-related genes, and that AaRVE1 functions as a transcriptional repressor and regulates the activity of the DORMANCY-ASSOCIATED PROTEIN 1 (DRM1) promoter. Our findings demonstrate that AaRVE1 appears to function as a regulator of bud dormancy and bud break, which has important implications for extending the growing season of deciduous trees in frost-free temperate and subtropical regions to increase crop yield.",
+  "doi": "10.1093/plphys/kiac588",
+  "journal": {
+   "title": "Plant physiology",
+   "iso_abbreviation": "Plant Physiol"
+  },
+  "authors": [
+   {
+    "last_name": "Liu",
+    "fore_name": "Degao",
+    "initials": "D",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "Department of Genetics, Cell Biology and Development, University of Minnesota, Saint Paul, Minnesota 55108, USA."
+    ]
+   },
+   {
+    "last_name": "Tang",
+    "fore_name": "Dan",
+    "initials": "D",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA.",
+     "National Center for Citrus Improvement, College of Horticulture, Hunan Agricultural University, Changsha 410128, Hunan, China."
+    ]
+   },
+   {
+    "last_name": "Xie",
+    "fore_name": "Meng",
+    "initials": "M",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "Biology Department, Brookhaven National Laboratory, Upton, New York 11973, USA."
+    ]
+   },
+   {
+    "last_name": "Zhang",
+    "fore_name": "Jin",
+    "initials": "J",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Zhai",
+    "fore_name": "Longmei",
+    "initials": "L",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Mao",
+    "fore_name": "Jiangping",
+    "initials": "J",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Luo",
+    "fore_name": "Chao",
+    "initials": "C",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Lipzen",
+    "fore_name": "Anna",
+    "initials": "A",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ]
+   },
+   {
+    "last_name": "Zhang",
+    "fore_name": "Yu",
+    "initials": "Y",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ]
+   },
+   {
+    "last_name": "Savage",
+    "fore_name": "Emily",
+    "initials": "E",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ]
+   },
+   {
+    "last_name": "Yuan",
+    "fore_name": "Guoliang",
+    "initials": "G",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Guo",
+    "fore_name": "Hao-Bo",
+    "initials": "HB",
+    "affiliations": [
+     "Materials and Manufacturing Directorate, Air Force Research Laboratory, Wright-Patterson Air Force Base, Dayton, Ohio 45433, USA.",
+     "UES Inc., Dayton, Ohio 45432, USA."
+    ]
+   },
+   {
+    "last_name": "Tadesse",
+    "fore_name": "Dimiru",
+    "initials": "D",
+    "affiliations": [
+     "Biology Department, Brookhaven National Laboratory, Upton, New York 11973, USA."
+    ]
+   },
+   {
+    "last_name": "Hu",
+    "fore_name": "Rongbin",
+    "initials": "R",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Jawdy",
+    "fore_name": "Sara",
+    "initials": "S",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Cheng",
+    "fore_name": "Hua",
+    "initials": "H",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Li",
+    "fore_name": "Linling",
+    "initials": "L",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Yer",
+    "fore_name": "Huseyin",
+    "initials": "H",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Clark",
+    "fore_name": "Miranda M",
+    "initials": "MM",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Sun",
+    "fore_name": "Huayu",
+    "initials": "H",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Shi",
+    "fore_name": "Jiyuan",
+    "initials": "J",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Budhathoki",
+    "fore_name": "Roshani",
+    "initials": "R",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Kumar",
+    "fore_name": "Rahul",
+    "initials": "R",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Kamuda",
+    "fore_name": "Troy",
+    "initials": "T",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Li",
+    "fore_name": "Yanjun",
+    "initials": "Y",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Pennacchio",
+    "fore_name": "Christa",
+    "initials": "C",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ]
+   },
+   {
+    "last_name": "Barry",
+    "fore_name": "Kerrie",
+    "initials": "K",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ]
+   },
+   {
+    "last_name": "Schmutz",
+    "fore_name": "Jeremy",
+    "initials": "J",
+    "affiliations": [
+     "U.S. Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA.",
+     "HudsonAlpha Institute for Biotechnology, 601 Genome Way, Huntsville, Alabama 35801, USA."
+    ]
+   },
+   {
+    "last_name": "Berry",
+    "fore_name": "Rajiv",
+    "initials": "R",
+    "affiliations": [
+     "Materials and Manufacturing Directorate, Air Force Research Laboratory, Wright-Patterson Air Force Base, Dayton, Ohio 45433, USA."
+    ]
+   },
+   {
+    "last_name": "Muchero",
+    "fore_name": "Wellington",
+    "initials": "W",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Chen",
+    "fore_name": "Jin-Gui",
+    "initials": "JG",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Li",
+    "fore_name": "Yi",
+    "initials": "Y",
+    "affiliations": [
+     "Department of Plant Science and Landscape Architecture, University of Connecticut, Storrs, Connecticut 06269, USA."
+    ]
+   },
+   {
+    "last_name": "Tuskan",
+    "fore_name": "Gerald A",
+    "initials": "GA",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   },
+   {
+    "last_name": "Yang",
+    "fore_name": "Xiaohan",
+    "initials": "X",
+    "affiliations": [
+     "Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA.",
+     "U.S. DOE-Center for Bioenergy Innovation (CBI), Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "Mar",
+   "day": "17"
+  },
+  "mesh_terms": [
+   "Plant Proteins",
+   "Populus",
+   "Seasons",
+   "Agave",
+   "Transcription Factors"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "191",
+   "issue": "3",
+   "pages": "1492-1504"
+  }
+ },
+ "22797908": {
+  "identifiers": {
+   "pmid": "22797908",
+   "doi": "10.1007/s00299-012-1307-z"
+  },
+  "title": "Analysis of gene sequences indicates that quantity not quality of chloroplast small HSPs improves thermotolerance in C4 and CAM plants.",
+  "abstract": "Chloroplast-localized small heat-shock proteins (Cp-sHSP) protect Photosystem II and thylakoid membranes during heat and other stresses, and Cp-sHSP production levels are related to plant thermotolerance. However, to date, a paucity of Cp-sHSP sequences from C4 or CAM species, or from other extremely heat-tolerant species, has precluded an examination to determine if Cp-sHSP genes or proteins might differ among plants with photosynthetic pathways or between heat-sensitive and heat-tolerant species. To investigate this, we isolated and characterized novel Cp-sHSP genes in four plant species: two moderately heat-tolerant C4 species, Spartina alterniflora (monocot) and Amaranthus retroflexus (eudicot), and two very heat-tolerant CAM species, Agave americana (monocot) and Ferocactus wislizenii (eudicot) (respective genes: SasHSP27.12, ArsHSP26.43, AasHSP26.85 and FwsHSP27.52) by PCR-based genome walking and cDNA RACE. Analysis of these Cp-sHSPs has confirmed the presence of conserved domains common to previously examined species. As expected, the transit peptide was found to be the most variable part of these proteins. Promoter analysis of these genes revealed differences in CAM versus C3 and C4 species that were independent of a general difference between monocots and eudicots observed for the entire protein. Heat-induced gene and protein expression indicated that Cp-sHSP protein levels were correlated with thermotolerance of photosynthetic electron transport, and that in most cases protein and transcript levels were correlated. Thus, available evidence indicates little variation in the amino acid sequence of Cp-sHSP mature proteins between heat-sensitive and -tolerant species, but that variation in Cp-sHSP protein production is related to heat tolerance or photosynthetic pathway (CAM vs. C3 and C4) and is driven by promoter differences. Key message We isolated and characterized four novel Cp-sHSP genes with promoters from wild plants, analysis has shown qualitative and quantitative interspecific variations in Cp-sHSPs of C3, C4, and CAM plant thermotolerance.",
+  "doi": "10.1007/s00299-012-1307-z",
+  "journal": {
+   "title": "Plant cell reports",
+   "iso_abbreviation": "Plant Cell Rep"
+  },
+  "authors": [
+   {
+    "last_name": "Shakeel",
+    "fore_name": "Samina N",
+    "initials": "SN",
+    "affiliations": [
+     "Department of Biochemistry and Molecular Biology, Mississippi State University, Starkville, MS, USA. snq28@yahoo.com"
+    ]
+   },
+   {
+    "last_name": "Ul Haq",
+    "fore_name": "Noor",
+    "initials": "N"
+   },
+   {
+    "last_name": "Heckathorn",
+    "fore_name": "Scott",
+    "initials": "S"
+   },
+   {
+    "last_name": "Luthe",
+    "fore_name": "D S",
+    "initials": "DS"
+   }
+  ],
+  "publication_date": {
+   "year": "2012",
+   "month": "07",
+   "day": "14"
+  },
+  "mesh_terms": [
+   "Adaptation, Physiological",
+   "Agave",
+   "Amaranthus",
+   "Amino Acid Sequence",
+   "Chloroplast Proteins",
+   "Chloroplasts",
+   "Conserved Sequence",
+   "DNA, Complementary",
+   "Genes, Chloroplast",
+   "Genes, Plant",
+   "Genomics",
+   "Heat-Shock Proteins, Small",
+   "Hot Temperature",
+   "Molecular Sequence Data",
+   "Photosynthesis",
+   "Photosystem II Protein Complex",
+   "Phylogeny",
+   "Polymerase Chain Reaction",
+   "Promoter Regions, Genetic",
+   "Protein Biosynthesis",
+   "Protein Structure, Tertiary",
+   "Sequence Analysis, DNA",
+   "Sequence Analysis, Protein",
+   "Species Specificity"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "31",
+   "issue": "10",
+   "pages": "1943-57"
+  }
+ },
+ "37005601": {
+  "identifiers": {
+   "pmid": "37005601",
+   "pmc": "PMC10067186",
+   "doi": "10.1186/s12906-023-03931-y",
+   "pii": "10.1186/s12906-023-03931-y"
+  },
+  "title": "Hepatoprotective effect of methanol extract of Agave americana leaves on paracetamol induced hepatotoxicity in Wistar albino rats.",
+  "abstract": "Ethiopians locally treat liver illnesses with A. Americana. Available literature demonstrates this. However, there are few in-vivo investigations that provide supporting data. The aim of this study was to evaluate the hepatoprotective effects of methanolic extract of Agave americana leaves on rat liver damage caused by paracetamol.\n\nThe acute oral toxicity test was conducted in accordance with OECD-425 recommendations. The approach outlined by Eesha et al. (Asian Pac J Trop Biomed 4:466-469,  2011) was used to test the hepatoprotective activity. Wistar male rats weighing between 180 and 200 g were used, and six groups with seven animals each were formed. Group I received treatment with gum acacia (2%) at a dose of 2 ml/kg p.o. daily for 7 days. Rats in group II were treated with 2% gum acacia orally daily for seven days along with a single dose of paracetamol (2 mg/kg) p.o. on 7day. Silymarin (50 mg/kg) was given orally to Group III for 7 days. Plant extract doses of 100 mg/kg, 200 mg/kg, and 400 mg/kg were administered orally to Groups IV -VI for seven days, respectively. All rats in groups III-VI were treated with paracetamol (2 mg/kg) 30 min following extract administration. Blood samples were obtained from the cardiac puncture after paracetamol had been used for 24 h to induce toxicity. Serum biomarkers (AST, ALT, ALP, and total bilirubin) were estimated. A histopathological investigation was also done.\n\nNo toxicity symptoms or animal fatalities were recorded during the acute toxicity study. The values of AST, ALT, ALP, and total bilirubin were all substantially raised by paracetamol. Significant hepatoprotective effects were obtained by pretreatment with A. americana extract. Histopathological examination of the liver tissues of paracetamol control group represented the presence of marked foci of mononuclear infiltration in the hepatic parenchyma tissue, sinusoid, and around central vein, as well as disorganization of hepatic plates, necrosis, and fatty changes of hepatocytes. Pretreatment with A. americana extract reversed these alterations. Results of the methanolic extract of A. americana were comparable to Silymarin.\n\nThe current investigation supports the hepatoprotective properties of Agave americana methanolic extract.",
+  "doi": "10.1186/s12906-023-03931-y",
+  "journal": {
+   "title": "BMC complementary medicine and therapies",
+   "iso_abbreviation": "BMC Complement Med Ther"
+  },
+  "authors": [
+   {
+    "last_name": "Ayenew",
+    "fore_name": "Kassahun Dires",
+    "initials": "KD",
+    "affiliations": [
+     "Department of Pharmacy, Asrat Woldeyes Health Science Campus, Debre Berhan University, Debre Berhan, Ethiopia. kassh2009@gmail.com."
+    ]
+   },
+   {
+    "last_name": "Wasihun",
+    "fore_name": "Yared",
+    "initials": "Y",
+    "affiliations": [
+     "Department of Internal Medicine, Ras Desta Damtew Memorial Hospital, Addis Ababa, Ethiopia."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2023",
+   "month": "04",
+   "day": "01"
+  },
+  "keywords": [
+   "Agave americana",
+   "Hepatoprotective",
+   "Methanol Extract"
+  ],
+  "mesh_terms": [
+   "Animals",
+   "Rats",
+   "Acetaminophen",
+   "Methanol",
+   "Agave",
+   "Rats, Wistar",
+   "Gum Arabic",
+   "Chemical and Drug Induced Liver Injury",
+   "Plant Extracts",
+   "Silymarin",
+   "Bilirubin"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "23",
+   "issue": "1",
+   "pages": "99"
+  }
+ },
+ "34043690": {
+  "identifiers": {
+   "pmid": "34043690",
+   "pmc": "PMC8158902",
+   "doi": "10.1371/journal.pone.0252201",
+   "pii": "PONE-D-20-41108"
+  },
+  "title": "Elucidation of native California Agave americana and Agave deserti biofuel potential: Compositional analysis.",
+  "abstract": "Because biofuels have the unique potential to be rapidly deployed in existing transportation fuel infrastructures, they should play a major role in helping California quickly meet its aggressive goals to substantially reduce greenhouse gas contributions by this major sector. Furthermore, energy crops are vital to significantly impact the State's large and burgeoning need for sustainable fuels. Among crops amenable to be grown in California to support fuel production, agave pose a particularly promising prospect, given their drought tolerance and high productivity on marginal land in a State prone to drought and limited water resources. This study focuses on measuring compositional profiles of wild A. deserti and cultivated A. americana, two agaves native to California, to elucidate their potential for biological conversion to fuels that can help meet the huge State need for low-carbon transportation. Results from this study indicate that these two California agave species can be rich in fructans, ranging from 96-314 g/L of equivalent fructose and glucose in their leaf bases. In addition, structural and water-soluble sugar contents exceeding 63 wt.% show that these plants are amenable to fermentation to ethanol and other biofuels. Moreover, because the low K-lignin content of agave leaf bases bagasse of only about 12-18 wt.% suggests low recalcitrance and the negligible acid insoluble ash content should facilitate pretreatment prior to fermentations, the agave species native to the State hold considerable promise as potential biofuel feedstocks.",
+  "doi": "10.1371/journal.pone.0252201",
+  "journal": {
+   "title": "PloS one",
+   "iso_abbreviation": "PLoS One"
+  },
+  "authors": [
+   {
+    "last_name": "Lu",
+    "fore_name": "May Ling",
+    "initials": "ML",
+    "affiliations": [
+     "Center for Environmental Research and Technology, Bourns College of Engineering, University of California, Riverside, California, United States of America.",
+     "Department of Chemical and Environmental Engineering, Bourns College of Engineering, University of California, Riverside, California, United States of America."
+    ]
+   },
+   {
+    "last_name": "Wyman",
+    "fore_name": "Charles E",
+    "initials": "CE",
+    "affiliations": [
+     "Center for Environmental Research and Technology, Bourns College of Engineering, University of California, Riverside, California, United States of America.",
+     "Department of Chemical and Environmental Engineering, Bourns College of Engineering, University of California, Riverside, California, United States of America."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2021",
+   "month": "05",
+   "day": "27"
+  },
+  "mesh_terms": [
+   "Agave",
+   "Biofuels",
+   "California",
+   "Crops, Agricultural",
+   "Ethanol",
+   "Plant Leaves"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "16",
+   "issue": "5",
+   "pages": "e0252201"
+  }
+ },
+ "27268113": {
+  "identifiers": {
+   "pmid": "27268113",
+   "pmc": "PMC4927679",
+   "doi": "10.1016/j.bjm.2016.04.010",
+   "pii": "S1517-8382(16)30273-8"
+  },
+  "title": "Effect of plant growth-promoting bacteria on the growth and fructan production of Agave americana L.",
+  "abstract": "The effect of plant growth-promoting bacteria inoculation on plant growth and the sugar content in Agave americana was assessed. The bacterial strains ACO-34A, ACO-40, and ACO-140, isolated from the A. americana rhizosphere, were selected for this study to evaluate their phenotypic and genotypic characteristics. The three bacterial strains were evaluated via plant inoculation assays, and Azospirillum brasilense Cd served as a control strain. Phylogenetic analysis based on the 16S rRNA gene showed that strains ACO-34A, ACO-40 and ACO-140 were Rhizobium daejeonense, Acinetobacter calcoaceticus and Pseudomonas mosselii, respectively. All of the strains were able to synthesize indole-3-acetic acid (IAA), solubilize phosphate, and had nitrogenase activity. Inoculation using the plant growth-promoting bacteria strains had a significant effect (p<0.05) on plant growth and the sugar content of A. americana, showing that these native plant growth-promoting bacteria are a practical, simple, and efficient alternative to promote the growth of agave plants with proper biological characteristics for agroindustrial and biotechnological use and to increase the sugar content in this agave species.",
+  "doi": "10.1016/j.bjm.2016.04.010",
+  "journal": {
+   "title": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+   "iso_abbreviation": "Braz J Microbiol"
+  },
+  "authors": [
+   {
+    "last_name": "De La Torre-Ruiz",
+    "fore_name": "Neyser",
+    "initials": "N",
+    "affiliations": [
+     "Plant Biotechnology, DEPI Instituto Tecnológico de Tlajomulco, Carretera a San Miguel Cuyutlán, Tlajomulco de Zúñiga, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Ruiz-Valdiviezo",
+    "fore_name": "Víctor Manuel",
+    "initials": "VM",
+    "affiliations": [
+     "Laboratory of Biotechnology, Instituto Tecnológico de Tuxtla Gutiérrez, Tuxtla Gutiérrez, Mexico."
+    ]
+   },
+   {
+    "last_name": "Rincón-Molina",
+    "fore_name": "Clara Ivette",
+    "initials": "CI",
+    "affiliations": [
+     "Laboratory of Biotechnology, Instituto Tecnológico de Tuxtla Gutiérrez, Tuxtla Gutiérrez, Mexico."
+    ]
+   },
+   {
+    "last_name": "Rodríguez-Mendiola",
+    "fore_name": "Martha",
+    "initials": "M",
+    "affiliations": [
+     "Plant Biotechnology, DEPI Instituto Tecnológico de Tlajomulco, Carretera a San Miguel Cuyutlán, Tlajomulco de Zúñiga, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Arias-Castro",
+    "fore_name": "Carlos",
+    "initials": "C",
+    "affiliations": [
+     "Plant Biotechnology, DEPI Instituto Tecnológico de Tlajomulco, Carretera a San Miguel Cuyutlán, Tlajomulco de Zúñiga, Jalisco, Mexico."
+    ]
+   },
+   {
+    "last_name": "Gutiérrez-Miceli",
+    "fore_name": "Federico Antonio",
+    "initials": "FA",
+    "affiliations": [
+     "Laboratory of Biotechnology, Instituto Tecnológico de Tuxtla Gutiérrez, Tuxtla Gutiérrez, Mexico."
+    ]
+   },
+   {
+    "last_name": "Palomeque-Dominguez",
+    "fore_name": "Héctor",
+    "initials": "H",
+    "affiliations": [
+     "Laboratory of Biotechnology, Instituto Tecnológico de Tuxtla Gutiérrez, Tuxtla Gutiérrez, Mexico."
+    ]
+   },
+   {
+    "last_name": "Rincón-Rosales",
+    "fore_name": "Reiner",
+    "initials": "R",
+    "affiliations": [
+     "Laboratory of Biotechnology, Instituto Tecnológico de Tuxtla Gutiérrez, Tuxtla Gutiérrez, Mexico. Electronic address: reriro61@hotmail.com."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2016",
+   "month": "04",
+   "day": "22"
+  },
+  "keywords": [
+   "16S rRNA",
+   "Agave",
+   "Bacteria",
+   "Inoculation",
+   "Inulin"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Bacteria",
+   "Fructans",
+   "Genotype",
+   "Phenotype",
+   "Phylogeny",
+   "Plant Growth Regulators",
+   "RNA, Ribosomal, 16S"
+  ],
+  "article_types": [
+   "Journal Article"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "47",
+   "issue": "3",
+   "pages": "587-96"
+  }
+ },
+ "32298660": {
+  "identifiers": {
+   "pmid": "32298660",
+   "doi": "10.1016/j.steroids.2020.108648",
+   "pii": "S0039-128X(20)30073-8"
+  },
+  "title": "Metabolomic profiling of five Agave leaf taxa via UHPLC/PDA/ESI-MS inrelation to their anti-inflammatory, immunomodulatory and ulceroprotective activities.",
+  "abstract": "Agave plants are popular for their myriad applications in traditional medicine attributed to their reported anti-inflammatory, immunomodulatory, cytotoxic and antifungal activities. The aim of this study was to examine the anti-inflammatory, immunomodulatory and ulceroprotective activity of Agave species in relation to their metabolite fingerprint via a metabolome based ultra-performance liquid chromatography-mass spectrometry (UPLC-MS) approach coupled to chemometrics. The metabolomic differences among five examined Agave leaves viz. Agave americana L., A. americana var. marginata Trel, A. angustifolia Haw. cv. marginata, A. desmettiana Jacobi, A. pygmaea Gentry were determined via a total of 56 annotated metabolites. Identification based on MSand UV spectra revealed 25 steroidal saponins and sapogenins, 6 flavonoids, 2 homoisoflavonoids, 7 phenolic acids, 6 fatty acids and 3 fatty acid amides, some of which are reported for the first time in Agave. Metabolites heterogeneity was assessed among leaf taxa via multivariate data analyses for samples classification, showing that saponins is the major metabolite contributing to their classification. The carrageenan induced acute inflammatory rat model was used to assess the anti-inflammatory activity of Agave extracts via monitoring of blood cytokine levels. Additionally, their effects on ethanol-induced gastric ulcer in rats were evaluated. A. pygmaea showed the most significant anti-inflammatory and immunomodulatory activity, while A. angustifolia var. marginata possessed the highest ulceroprotective activity, which could be attributable to the high abundance of various saponins and homoisoflavonoids in those taxa.",
+  "doi": "10.1016/j.steroids.2020.108648",
+  "journal": {
+   "title": "Steroids",
+   "iso_abbreviation": "Steroids"
+  },
+  "authors": [
+   {
+    "last_name": "El-Hawary",
+    "fore_name": "Seham S",
+    "initials": "SS",
+    "affiliations": [
+     "Pharmacognosy Department, College of Pharmacy, Cairo University, Kasr el Aini st., P.B. 11562, Cairo, Egypt."
+    ]
+   },
+   {
+    "last_name": "El-Kammar",
+    "fore_name": "Heba A",
+    "initials": "HA",
+    "affiliations": [
+     "Pharmacognosy Department, College of Pharmacy, Cairo University, Kasr el Aini st., P.B. 11562, Cairo, Egypt."
+    ]
+   },
+   {
+    "last_name": "Farag",
+    "fore_name": "Mohamed A",
+    "initials": "MA",
+    "affiliations": [
+     "Pharmacognosy Department, College of Pharmacy, Cairo University, Kasr el Aini st., P.B. 11562, Cairo, Egypt; Department of Chemistry, School of Sciences & Engineering, American University in Cairo, New Cairo 11835, Egypt."
+    ]
+   },
+   {
+    "last_name": "Saleh",
+    "fore_name": "Dalia O",
+    "initials": "DO",
+    "affiliations": [
+     "Pharmacology Department, National Research Centre, Cairo 12622, Egypt."
+    ]
+   },
+   {
+    "last_name": "El Dine",
+    "fore_name": "Riham Salah",
+    "initials": "RS",
+    "affiliations": [
+     "Pharmacognosy Department, College of Pharmacy, Cairo University, Kasr el Aini st., P.B. 11562, Cairo, Egypt. Electronic address: riham.salaheldine@pharma.cu.edu.eg."
+    ]
+   }
+  ],
+  "publication_date": {
+   "year": "2020",
+   "month": "04",
+   "day": "13"
+  },
+  "keywords": [
+   "Agavaceae",
+   "Agave",
+   "Anti-inflammatory",
+   "Cytokines",
+   "Metabolite profiling",
+   "Saponins"
+  ],
+  "mesh_terms": [
+   "Agave",
+   "Animals",
+   "Anti-Inflammatory Agents",
+   "Anti-Ulcer Agents",
+   "Carrageenan",
+   "Chromatography, High Pressure Liquid",
+   "Disease Models, Animal",
+   "Ethanol",
+   "Female",
+   "Immunologic Factors",
+   "Immunomodulation",
+   "Inflammation",
+   "Isoflavones",
+   "Male",
+   "Metabolomics",
+   "Mice",
+   "Molecular Structure",
+   "Plant Extracts",
+   "Plant Leaves",
+   "Rats",
+   "Rats, Wistar",
+   "Saponins",
+   "Spectrometry, Mass, Electrospray Ionization",
+   "Stomach Ulcer"
+  ],
+  "article_types": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "language": "eng",
+  "citation": {
+   "volume": "160",
+   "pages": "108648"
+  }
+ }
+}

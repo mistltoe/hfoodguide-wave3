@@ -1,0 +1,179 @@
+Introduction
+
+Recent scientific and media reports have highlighted increased interest in sleep apnea syndrome, emphasizing the link between obesity and sleep disorders []. Epidemiological studies show a U-shaped relationship between obesity and total sleep duration, with individuals sleeping 6–7 h exhibiting the lowest obesity rates []. Both longer and shorter lengths of sleep correlate positively with higher obesity levels. Moreover, patients with obesity often experience more frequent
+nocturnal awakenings and difficulty returning to sleep, leading to impaired sleep stability, which is exacerbated by concomitant sleep apnea syndrome [].
+Given the challenges in determining the complex effects of obesity on sleep disorders and the underlying mechanisms through epidemiological studies alone, experimental obesity models have thus
+been extensively investigated using laboratory animals, such as mice and rats, which share fundamental sleep architecture with humans, such as rapid eye movement (REM) and non-REM (NREM)
+sleep. Research on diet-induced obesity in mice following a high-fat diet (HFD) [] and genetically obese mice models, such as[] and[], has demonstrated higher sleep fragmentation, characterized by more frequent
+awakenings and decreased mean length of sleep episodes.
+
+To achieve a longer healthy life expectancy, diet-related obesity must be addressed, which will subsequently reduce the risk of lifestyle-related diseases and improve sleep stability.
+Improved sleep stability supports the maintenance of physical, mental health, and cognitive functions, including memory []. The key to achieving these
+objectives is integrating improvements in dietary habits, exercise routines, and lifestyle. However, because of difficulties in consistently implementing them in daily life, the effective use
+of functional foods is encouraged. Melinjo (L.) seed extract (MSE) is one such anti-obesity functional food that can potentially stimulate energy metabolism. The
+melinjo tree originates from Indonesia and is often called the “tree of life.” Its seeds are abundant in resveratrol, a type of polyphenol, including trans-resveratrol, gnetin C, gnemonoside
+A, and gnemonoside D. Known for its caloric restriction-mimicking properties, trans-resveratrol may be responsible for the beneficial effects of MSE on metabolic processes [,]. The phenomenon known as the “French Paradox,” which refers to the observation that French nationals who, despite
+having a diet rich in saturated fats, are predominantly healthy with long life expectancies, which has been attributed to their preference for red wine, which is rich in resveratrol. This
+epidemiological paradox has led to an increased societal interest in the impact of resveratrol [].
+
+MSE has tested negative for long-term toxicity [], which has earned it much research attention as a functional food ingredient. Moreover, its high
+therapeutic efficacy has been proven in humans and mice for various conditions, including dementia [], cancer [] [], skin aging [], periodontal disease [], and the
+reduction of serum uric acid levels []. We previously reported that MSE consumption by diet-induced obese mice increased energy expenditure through the
+activation of uncoupling protein 1 (UCP1), a protein that facilitates heat production in brown adipose tissue, thereby ameliorating the conditions of obesity, fatty liver, and insulin
+resistance while concurrently normalizing blood glucose levels []. A study revealed that MSE dietary supplementation in obese mice not only decreased
+adiposity but also enhanced the overall glucose regulation and increased the survival rates []; however, no studies have reported about sleep
+architecture. In the present study, we evaluated the influence of dietary MSE on sleep architecture in HFD-induced obese mice through a comprehensive assessment of sleep architecture using
+frequency analysis focusing on the duration of sleep/wake episodes, incidence of brief awakenings (indicating light sleep), and the distribution of cortical activity during NREM sleep.
+
+Materials and Methods
+
+Animals
+
+Three-week-old male C57BL/6J mice (CLEA Japan, Inc., Hamamatsu, Japan) with homogeneous average body weights were individually placed in plastic cages and housed in an air-conditioned
+animal facility at 22 ± 2°C with a 12-h light–dark cycle (lights on 06:00–18:00). The animal experiment protocol was approved by the Animal Care and Use Committee of Tokai University
+(Isehara, Japan). The minimization of the number of animals analyzed and that of any pain or discomfort were prioritized.
+
+Following a week-long acclimatization period, the mice were divided into groups, which were subjected to one of four dietary conditions: 1) normal diet (ND) group (n=14) fed with CE-2
+rodent diet (comprising 4.8 wt% fat, 25.1 wt% protein, 4.2 wt% fiber, and providing 361.2 kcal/100 g; CLEA Japan, Inc.); 2) HFD group (n=15) fed with HFD-32 (with 31.9 wt% fat [24.5 wt%
+unsaturated fatty acids and 7.1 wt% saturated compounds], 25.5 wt% protein, 2.9 wt% fiber, and providing 507.6 kcal/100 g; CLEA Japan, Inc.); 3) ND+MSE group (n=11); and 4) HFD+MSE group
+(n=13). Lyophilized MSE powder, composed of 0.1% trans-resveratrol, 1.6% gnetin C, 18.7% gnemonoside A, 3.8% gnemonoside D, and 9.0% dextrin was provided by Yamada Bee Co., Inc. (Okayama,
+Japan), was prepared as described previously []. The MSE powder content was standardized to contain >20.0% resveratrol derivatives. The
+MSE-supplemented diets were supplemented with 1% w/w lyophilized MSE powder. The body weights of the mice were assessed every Monday and Friday. After 16 weeks, the mice were then subjected
+to sleep measurement studies.
+
+Food intake measurement
+
+Food intake was assessed at week 15. The weight of the food provided for 1 week was premeasured. After 1 week, the remaining food, bedding, feces, etc., were segregated by thoroughly
+sieving the bedding in the cages, and the weight of the remaining food was calculated. The difference between the weight of the rationed and remaining food provided was divided by seven to
+determine the daily food intake.
+
+Surgery and polygraphic recordings
+
+Electroencephalography (EEG) and electromyography (EMG) electrodes for recording polysomnographic parameters of sleep and wakefulness were embedded in the mice. Briefly, anesthesia was
+performed in an induction chamber with 4% isoflurane (DS Pharma Animal Health Co., Ltd., Osaka, Japan) dissolved in oxygen at 1.0 l/min. The animals were then removed and placed on a
+stereotaxic frame with continuous mask anesthesia achieved with 2% isoflurane. The skull was exposed, and bones were washed with 10% hydrogen peroxide solution. Two stainless-steel screws
+(diameter, 1.0 mm; Neuroscience, Tokyo, Japan) were positioned on the skull in the projection of the left cerebral hemisphere (frontal: 1.5 mm lateral to the midline, 1.0 mm anterior to the
+bregma; parietal: 1.5 mm lateral to the midline, 1.0 mm anterior to the lambda) as per the Mouse Brain in Stereotaxic Coordinates guidelines []. A
+third screw was inserted over a frontal bone to serve as the ground electrode. EMG activity was controlled using stainless-steel Teflon-coated Cooner wires (Cooner Wire, Inc., Chatsworth,
+CA, USA) placed bilaterally in the neck muscles. All electrodes were linked to a micro-connector, and the whole assembly was fixed to the skull with dental cement. Indomethacin (1 mg/kg,
+i.p., Fujifilm Wako Pure Chemical Corp., Osaka, Japan) and penicillin G (800 U/kg, i.m., Meiji Seika Pharma Co., Ltd., Tokyo, Japan) injections were performed prior to electrode placement.
+All the manipulations were performed on a heating pad. The animals were allowed to recover for 10–14 days before transferring them to recording chambers for sleep studies.
+
+Each mouse was placed in a plastic cage (300 × 210 × 210 mm) in an isolated and soundproof recording chamber (illumination intensity, 100 lx). EEG, EMG, and spontaneous locomotor activity
+were evaluated for 24 h starting with the light cycle. The transferring cables were linked to a swivel contact, enabling the mice to move freely without limitations. Unihemispheric,
+frontal-parietal EEG and neck EMG signals were recorded on a BAS-8201 polygraph (Biotex, Kyoto, Japan). The signals were amplified, underwent filtration (EEG, 0.5–30 Hz; EMG, 16–128 Hz),
+digitization at 128 Hz, and were saved in 10-s epochs on a personal computer using the Vital Recorder software (Kissei Comtec, Nagano, Japan). Spontaneous homecage locomotor activity was
+monitored via an infrared sensor (Biotex, Kyoto, Japan) positioned on the cage top. The values for the parameter were intensified and then transformed in a digital form at a sampling rate of
+128 Hz for further recording using the Vital Recorder software.
+
+Vigilance state determination and spectral analysis of the EEG
+
+Polysomnographic records were automatically analyzed and scored offline for wakefulness and REM and NREM sleep in 10-s epochs, as per the standard guidelines for SleepSign ver.3 software
+(Kissei Comtec, Nagano, Japan) []. All vigilance state classifications assigned by SleepSign version 3 were examined visually and corrected if
+necessary. Spectral quantification of the EEG recorded during NREM sleep was performed using fast Fourier transformation (sampled at 128 Hz) with a power spectral profile over a range of
+0–20 Hz divided into 1-Hz resolutions. The EEG power density in each frequency bin was normalized by the total power averaged from all epochs that were scored as NREM sleep throughout the
+24-h period across all frequency bins. The relative delta power was calculated as the quotient of absolute NREM delta power (0–4 Hz) to the total EEG power.
+
+Statistical analyses
+
+The descriptive statistics for the data are expressed as mean ± SEM. One-way analysis of variance was performed, followed by the Scheffe’s post hoc test, to determine the associations
+between the parameters among the groups with different experimental characteristics.
+
+Results
+
+Impact of MSE on body weight, food intake, and spontaneous locomotor activity
+
+shows the changes in the body weights of mice over a 16-week period. The ND group exhibited a steady increase in the values of this parameter, which stabilized at approximately 28.0
+g, whereas the HFD group showed a significant increase after week 8, reaching 40.9 g by the end of the experiment. Both the ND+MSE and HFD+MSE groups showed weight patterns similar to that
+of the ND group. The outcomes demonstrated the protective effect of dietary MSE against HFD-induced obesity.demonstrates the increase in
+the body weight of mice at the end of the experiment. The HFD group showed a 196% increase compared with the ND group. The ND+MSE and HFD+MSE groups showed weight gain patterns comparable to
+those of the ND group. Despite this lipid-metabolizing effect of MSE, no significant difference in food intake and spontaneous locomotor activity were found between the four groups ().
+
+Effect of MSE on sleep/wakefulness parameters
+
+The impact of MSE on sleep/wakefulness parameters are described in. The mean daily amount of NREM sleep, REM sleep, and wakefulness did
+not differ significantly between the four groups, indicating that neither HFD feeding nor MSE supplementation affected these values. Compared with the ND group, the average episode length of
+NREM sleep significantly decreased by 63%, and the number of episodes rose by 159% in the HFD group, indicating NREM sleep fragmentation in HFD-induced obesity mice. The average duration and
+the number of NREM sleep episodes in both the ND+MSE and HFD+MSE groups were comparable to those observed in the ND group. Compared with the ND group, the HFD group experienced a 65%
+decrease in the average episode duration of wakefulness and a 158% increase in the number of episodes, indicating fragmentation of wakefulness. The average duration and number of wakefulness
+episodes in both the ND+MSE and HFD+MSE groups were comparable to those observed in the ND group. These outcomes reveal the protective effect of dietary MSE against the fragmentation of NREM
+sleep and wakefulness demonstrated in HFD-induced obesity mice. In contrast, no significant changes in REM sleep parameters were observed.
+
+Effect of MSE on the length of NREM sleep, REM sleep, and wakefulness episodes
+
+shows a histogram of the duration of NREM sleep episodes. The lengths of all NREM sleep episodes occurring within a 24-h period was categorized into the following intervals: 10, 20,
+30–40, 50–80, 90–160, 170–320, 330–640, 650–1,280, and over 1,290 s. This classification facilitated the investigation of NREM sleep, where the frequency of episode lengths was most
+affected. Compared with the ND group, the frequency of short NREM sleep episodes in the HFD group, the durations of which ranged from 20 to 160 s, increased significantly, whereas the
+frequency of long NREM sleep episodes, which fluctuated from 330 to 640 s, significantly decreased. In the ND+MSE group, the occurrence of any NREM sleep episode duration was comparable to
+that of the ND group, indicating no significant effect of MSE addition in the ND group. Conversely, the HFD+MSE group showed a reduced frequency of short NREM sleep duration, ranging from 20
+to 40 s, comparable to that of the ND group but significantly lower than that of the HFD group. This indicates that MSE supplementation normalized the shortened NREM sleep episodes observed
+in HFD-induced obesity mice.
+
+presents a histogram of the duration of REM sleep episodes. Compared with the ND group, the frequency of short REM sleep episodes in the
+HFD group, which ranged from 10 to 20 s, significantly increased. The duration of REM sleep episodes in the ND+MSE group was similar to that observed in the ND group, indicating that the
+addition of MSE did not significantly affect the ND group. On the contrary, the HFD+MSE group exhibited a tendency toward a decrease in the frequency of short REM sleep episodes ranging from
+10 to 20 s; however, this reduction did not achieve significance when compared with the HFD group.
+
+presents a histogram of the duration of wakefulness episodes. In contrast with the ND group, the frequency of short wakefulness episodes,
+ranging from 10 to 20 s, was significantly increased in the HFD group. The increase in brief awakenings of less than 20 s demonstrates the significant impact of dietary obesity. The
+frequency of short wakefulness episodes was significantly lower in the HFD+MSE group than in the HFD group and comparable to that in the ND group. In the ND+MSE group, the incidence of any
+wakefulness episode duration was similar to that in the ND group, indicating that MSE supplementation had no effect on a normal diet. Thus, MSE supplementation mitigated the brief awakenings
+observed in HFD-caused obesity mice.
+
+Effect of MSE on cortical EEG power
+
+Cortical EEG power spectral () and delta power () analyses were performed to evaluate the effect of MSE supplementation on cortical activity during NREM sleep. The
+power spectra of NREM sleep in the ND+MSE, HFD, and HFD+MSE groups were indistinguishable from that of the ND group, showing that neither HFD feeding nor MSE supplementation affected basal
+cortical activity. Similarly, the delta power in the ND+MSE, HFD, and HFD+MSE groups were indistinguishable from that of the ND group, indicating that neither HFD feeding nor MSE
+supplementation affected the depth or intensity of NREM sleep.
+
+Discussion
+
+Mice assigned an ND exhibited a high prevalence of sustained NREM sleep, whereas those under HFD experienced fragmentation of prolonged NREM sleep due to the occurrence of brief awakenings.
+MSE supplementation in the HFD group suppressed this fragmentation, restoring the continuity of NREM sleep and improving overall sleep stability. Sleep stability may be diminished by the loss
+of sleep continuity, similar to sleep fragmentation induced by mid-sleep awakenings in humans. Indeed, Tobler[] reported that
+mice deficient in prion protein featured a significantly increased frequency of short awakenings compared with wild-type mice, indicating that the frequency of brief awakenings is an
+informative index of sleep stability degradation promoted by the fragmentation of sleep–wake cycles. Therefore, the detrimental effect of HFD-induced obesity and the ameliorative influence of
+MSE on sleep stability may be conveniently evaluated using the occurrence of brief awakenings as an indicator. Since evaluations based on the sustainability of NREM sleep in mice can be
+extrapolated to humans with a similar sleep architecture, the potential benefit of MSE to humans is anticipated. In contrast, dietary supplementation with MSE had little effect in ND,
+signifying no further enhancement of sleep stability beyond the normal state. During NREM sleep, excitatory inputs from the brainstem, hypothalamus, and basal forebrain to the cerebral cortex
+and thalamus decrease, leading to synchronized neural activity in these regions and the predominance of low-frequency delta waves []. Delta activity on
+EEG is recognized as a biomarker of homeostatic sleep drive and is frequently linked to both sleep duration and intensity []. Consequently, we examined
+EEG power spectra and delta power during NREM sleep. Despite an increase in NREM sleep fragmentation in the HFD group, which was ameliorated by MSE supplementation, our findings revealed no
+significant alterations in delta power due to either HFD feeding or MSE supplementation. Similarly, delta power remained unchanged by both HFD-induced weight gain and subsequent weight loss
+[]. Given that delta power within a NREM sleep remains unaffected by brief awakenings or interruptions [],
+it is plausible that delta power is resistant to changes induced by NREM sleep fragmentation under our experimental conditions.
+
+Mice fed HFD for 19 weeks exhibited a two-fold increase in weight gain compared with their ND counterparts during the same period. However, in the HFD+MSE group, body weight was significantly
+lower than that in the HFD group and comparable to that of the ND group. Yoneshiro[], who conducted a study under the same
+experimental conditions as ours, performed biochemical evaluations and found that levels of blood glucose, serum free fatty acids, and insulin resistance index, which were increased in the HFD
+group, were significantly reduced in the HFD+MSE group and comparable to those in the ND group. Thus, administering MSE at a 1% ratio in HFD effectively prevented the development of metabolic
+syndrome caused by HFD-induced obesity. The mechanisms by which MSE ameliorates obesity and metabolic syndrome were then considered. While body weight is determined as the balance between
+energy intake from diet and its expenditure from physical activity, such as exercise and daily living, negligible differences were observed in daily food intake and spontaneous physical
+activity between the HFD and HFD+MSE groups (). Therefore, MSE may not have caused a reduction in food intake to induce a decrease energy
+intake or elevate spontaneous physical activity accompanied by a higher energy expenditure. Yoneshiroalso performed Western blot analysis to evaluate the expression
+levels of UCP1, which is a thermogenic protein localized primarily in brown adipose tissue and recognized as a thermogenic organ []. According to this
+study, UCP1 expression in the HFD+MSE group was significantly higher than in the ND and HFD groups, implying that MSE enhances thermogenesis in brown adipose tissue by increasing UCP1
+expression. UCP1, which is localized in the inner mitochondrial membrane, transforms energy into heat via uncoupling oxidative phosphorylation, thereby utilizing fat as an energy source.
+Increased thermogenesis in brown adipose tissue may have induced a decrease in body fat, ultimately resulting in weight loss. On the contrary, body weight did not decrease in the ND+MSE group,
+compared with that in the ND group. In humans, a higher activity of brown adipose tissue is associated with a lower accumulation of visceral fat, which progresses with age. Specifically, its
+continuous exposure to cold stimuli for 2 h per day at 17°C for 6 weeks significantly increased the metabolic activity of brown adipose tissue, leading to a decline in body fat [].
+
+The significant weight loss not observed in ND+MSE condition may be attributed to two possibilities. First, in nonobese mice, the baseline body fat is low, making it difficult to observe
+weight-reduction effects in the ND+MSE group compared with the ND group. Weight loss effects are more easily observed in obese conditions; however, the difference becomes smaller or harder to
+detect in lean subjects. For example, the fat-suppressing effect of UCP1 is more noticeable in subjects with higher amounts of body fat []. Second, HFD
+often activates brown adipose tissue (e.g., increased UCP1 expression), which is believed to be related to the activation of the sympathetic nervous system because of food intake [,]. Therefore, the brown adipose tissue activation and body fat reduction effects of MSE may act synergistically
+with the effects of HFD. This is reasonable because in lean conditions, excessive catabolism is prevented, while in the obese condition, body fat is effectively reduced. In humans, the body
+fat reduction effect of food components that promote thermogenesis in brown adipose tissue negatively correlates with initial visceral fat levels [].
+
+Finally, the possible underlying mechanism may be the amelioration of deteriorated sleep stability caused by HFD-induced obesity. Guan[] established HFD-induced obesity in mice by feeding them with HFD for 6 weeks, confirming the increased prevalence of NREM sleep and wakefulness but not REM sleep episodes.
+Subsequently, they switched the diet to ND for 4 weeks and observed that the obesity-induced increase in NREM sleep and wakefulness frequency was reversible with weight loss because of reduced
+energy intake. In the present study, we found that HFD-induced obesity was completely suppressed by the addition of 1% MSE, indicating a synergistic effect between the anti-obesity properties
+of MSE and the restoration of sleep-wake parameters. We also found that, both NREM sleep and wake episodes in the HFD+MSE group were significantly lower than those of the HFD group, returning
+to levels comparable to those of the ND group. The average length of NREM sleep and wake episodes also significantly increased, to eventually reach ND group levels. The histogram patterns of
+sleep-wake episode lengths essentially returned to those of ND levels, indicating that sleep architecture was almost completely restored through MSE supplementation. This restoration can be
+attributed to the anti-obesity effects of MSE, which were likely to enhance hormonal balance, including cytokines and adipokines, and the function of the autonomic nervous system, thereby
+alleviating sleep fragmentation in conjunction with the amelioration of metabolic syndrome. Another possibility is that, since MSE also possesses central cognitive and memory effects, it may
+directly exert an influence on the sleep-wake system. In HFD-induced obese mice, the mRNA expression of the prepro-orexin gene, which serves as an indicator of the activity state of orexin
+neurons crucial in sleep–wake regulation, decreased []. Investigating whether MSE restores this hypothalamic neuropeptide expression may elucidate the
+neural mechanisms underlying the improvement of sleep stability by MSE supplementation.

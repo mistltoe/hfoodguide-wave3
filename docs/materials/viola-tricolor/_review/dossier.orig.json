@@ -1,0 +1,610 @@
+{
+ "slug": "viola-tricolor",
+ "name_ko": "삼색제비",
+ "name_en": "Wild pansy (heartsease)",
+ "scientific_name": "Viola tricolor L.",
+ "aliases": [
+  "삼색제비꽃",
+  "삼색제비꽃꽃",
+  "삼색제비꽃추출액",
+  "호접제비꽃",
+  "heartsease",
+  "wild pansy",
+  "Violae tricoloris herba"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "삼색제비꽃(Viola tricolor L.)은 제비꽃과(Violaceae) 제비꽃속에 속하는 풀로, 영어로는 heartsease 또는 wild pansy라 부른다[1, 2]. 식약처 「식품원료 목록」에는 학명 Viola tricolor L. / Viola tricolor L. var. hortensis DC., 영어 이름 Pansy, heartsease, 이명 팬지·호접제비꽃으로 '삼색제비꽃꽃'과 '삼색제비꽃추출액' 두 원료명이 올라 있다[1]. 두 원료 모두 사용가능 원료이고 사용 조건은 '사용가능부위 : 꽃'이어서 꽃만 식품에 쓸 수 있다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n꽃과 지상부의 대표 성분은 플라보노이드로, 플라본 C-배당체인 비올란틴과 루틴이 주된 성분으로 보고되었다[3, 4]. 꽃잎의 보라색은 루티노사이드가 붙은 델피니딘 계열 안토시아닌이 낸다[10]. 이 밖에 카로티노이드, 점액질, 사포닌, 그리고 고리 모양 펩타이드인 사이클로타이드가 들어 있다[6, 13, 14]. 꽃 추출물에서는 살리실산도 검출되어 안전성 절에서 따로 다룬다[8]. 원예용 팬지(Viola × wittrockiana)는 이 종을 바탕으로 교배해 만든 별개의 분류군이며, 이 자료는 팬지 연구를 섞지 않았다[2]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 이용",
+   "body": "삼색제비꽃은 유럽 민간요법에서 기관지염·천식·감기 같은 호흡기 증상에 쓰였고, 기침약·이담제·피부약·강장제 등의 원료로도 쓰였다[18]. 1805년 의학 잡지에는 Jacca라는 이름으로 이 풀을 성병성 궤양 치료에 쓴 효과를 다룬 글이 실렸다[19]. 항염 작용 때문에 딱지·가려움·궤양·습진·건선 같은 피부 질환과 폐·가슴의 염증에 쓰는 전통 약초로 여겨졌고, 유럽약전에도 수재되어 있다[15].\n\n유럽 의약품청 약초위원회(HMPC)는 2010년 11월 25일 이 종(또는 아종 Viola arvensis)의 꽃 핀 지상부에 대한 공동체 약초 모노그래프를 채택했고, 전통적 용도를 가벼운 지루성 피부 상태의 증상 완화로 정했다고 WebSearch 요약으로만 확인했다[29]. 최근에는 식용꽃으로서의 가치가 주목받아, 꽃을 '새로운 기능성 식품'으로 소개한 연구와 보관 방법을 다룬 연구가 나왔다[9, 21]. 원예용 팬지는 삼색제비꽃을 교배해 얻은 관상식물로, 약용보다는 관상용으로 쓰여 왔다[2]. 우리나라에서 이 종을 먹어 온 전통 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "삼색제비꽃은 제비꽃속 Melanium 절(팬지 무리)에 속하며, 같은 절에는 노랑팬지(V. lutea)와 아연제비꽃 등이 있다[23]. 원산지는 유럽과 중동에서 중앙아시아에 이르는 넓은 지역이고, 미국 등지에도 퍼져 자란다[18]. 리투아니아에서는 여름 가뭄, 다른 풀과의 경쟁, 사람의 활동으로 자생지가 빠르게 줄고 있다고 보고되었다[18]. 국내 자생 여부는 확인하지 못함.\n\n꽃잎 표면은 물이 잘 묻지 않는 초소수성으로, 물방울 접촉각이 169°이고 5° 미만으로 기울여도 물방울이 굴러떨어진다[31]. 이는 꽃잎 표면의 평균 40 µm 크기 원뿔 모양 세포와 폭 260 nm의 미세한 큐티클 주름 덕분이다[31]. 꽃잎의 유색체 안에 있는 기름방울(플라스토글로뷸)은 트라이아실글리세롤 57%와 카로티노이드·그 에스터 23%로 이루어져 있다[17].\n\n이 종은 아연·납·카드뮴으로 오염된 광산 폐석 더미에서도 자라는 통성 금속식물이다[22, 23]. 오염지 개체에서는 잎털에 중금속이 특히 많이 쌓였고, 뿌리에 공생하는 균근균이 식물 기관으로 들어가는 중금속을 줄이는 것으로 보였다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "식약처 목록의 삼색제비꽃 항목에는 학명으로 Viola tricolor L.와 함께 Viola tricolor L. var. hortensis DC.가 적혀 있다[1]. 반면 원예용 팬지(Viola x wittrockiana)는 같은 목록에 'Pansy잎'이라는 별도 원료로 올라 있고 사용 부위가 잎이다[1]. 팬지는 삼색제비꽃을 교배해 만든 분류군이며, 두 분류군의 꽃·잎 플라보노이드와 안토시아닌 함량을 비교한 연구가 있다[2]. 이 자료의 성분 값은 모두 Viola tricolor로 표기된 시료에서만 옮겼다[2–6].\n\n같은 목록에서 향기제비꽃(Viola odorata)의 꽃은 제한적사용, 잎은 사용가능 원료로 따로 올라 있다[1]. 제비꽃(Viola mandshurica), 호제비꽃, 졸방제비꽃 등 다른 제비꽃속 원료도 각각 별도 항목이며 이 자료에 섞지 않았다[1]. 유럽 의약품청 모노그래프는 이 종과 함께 들팬지(Viola arvensis)를 같은 약초로 다루었다고 WebSearch 요약으로만 확인했다[29]. 들팬지 지상부 시료에서는 루틴 0.57–1.15%, 비올란틴 0.80–0.82%, 살리실산 0.09–0.11%가 보고되었지만 이는 다른 종의 값이다[30]. 해안 사구에 사는 아종 Viola tricolor subsp. curtisii(dune pansy)는 개체군이 줄고 있는 취약 분류군이다[24]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "삼색제비꽃은 자생지가 줄어 약용 원료를 안정적으로 얻으려면 재배와 적응 연구가 필요하다는 제안이 있다[18]. 이라크의 차광 온실 화분 시험에서는 나노 NPK 비료(화분당 1 g)와 생장조절제 BAP(75 ppm)를 함께 준 처리에서 대조구보다 초장이 68%, 잎 수가 94% 늘었다[33]. 같은 처리는 개화를 앞당기고 꽃 수를 늘렸다[33].\n\n이 종은 중금속 오염 토양에서도 잘 자라므로, 오염지에서 자란 개체는 뿌리와 지상부에 중금속을 쌓을 수 있다[23]. 오염지 개체군은 대조 개체군과 유전적으로 구별될 만큼 국지 생태형으로 분화하고 있었다[22]. 식용 꽃을 얻으려면 재배 토양의 중금속 이력을 확인하는 것이 바람직하다는 공공기관 권고는 확인하지 못함.\n\n수확한 꽃은 쉽게 상하는 식품이어서, 꽃을 그대로 얼리면 1개월까지 생화와 비슷한 외관을 유지했다[21]. 국내 재배 면적·생산량 통계(통계청·농식품부)에서 삼색제비꽃이나 식용꽃 품목은 확인하지 못함. 지리적 표시 등록이나 생산자 단체도 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록상 이 종은 꽃 자체(삼색제비꽃꽃)와 꽃 추출액(삼색제비꽃추출액)으로 식품에 쓸 수 있다[1]. 꽃을 1개월 냉동 보관하면 플라보노이드 등 생리활성 성분이 생화와 같거나 늘었다[21]. 꽃에 1 kGy의 감마선이나 전자선을 쬐면 페놀 성분 함량과 항산화 활성이 가장 높게 나타났다[9].\n\n꽃잎 안토시아닌은 낮은 온도에서는 pH 7까지 안정했지만, 100 °C에서는 pH와 관계없이 15분 만에 50% 아래로 줄었다[10]. 모의 소화에서 유리 안토시아닌은 구강 단계 대비 장 단계에서 78.41% 줄었으나, 장세포 모델 통과율은 4시간에 약 5%로 비교 대상 꽃 가운데 높은 편이었다[10]. 연구진은 안토시아닌을 살리려면 꽃을 되도록 덜 가공해 먹는 편이 낫다고 제안했다[10]. 꽃 자체에는 식이섬유가 많았다[11].\n\n백포도주 식초에 꽃을 30일 우린 실험에서는 항산화 활성이 가장 높았지만, 지방산이 많아 시고 산패한 맛으로 평가되었다[34]. 사이클로타이드를 함유한 물 달임액은 끓이는 시간이 길수록 T세포 억제 작용이 강해졌다[16]. 국내 건강기능식품 생산실적에서 이 원료 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "삼색제비꽃 한 개체의 전사체와 펩타이드를 분석한 연구에서 사이클로타이드가 모두 164종 발견되었다[14]. 이란산 꽃잎에서는 새로운 사이클로타이드 유사 전구체 유전자가 분리되어 GenBank 등록번호 KP065812로 등록되었다[26]. 이 식물에서 처음 밝혀진 효소 VtCGTc는 UDP-람노스를 선택적으로 써서 플라보노이드에 람노스를 C-결합으로 붙이며, 비올란틴 같은 플라보노이드 람노사이드를 만드는 데 쓰일 수 있다[25].\n\n꽃 색 유전자 VtF3'5'H(플라보노이드 3',5'-수산화효소)는 장미에 옮겨 넣었을 때 꽃잎 안토시아닌 함량을 높였다[35]. 중금속 오염지 4개 개체군은 ISSR 지문 분석에서 다형성 84%로 대조지 개체군(75%)보다 유전 다양성이 높았다[22]. 아종 subsp. curtisii에서는 핵 마이크로새틀라이트 표지 12개가 개발되어 개체군 분화(F 0.25)와 혼합 교배 체계가 확인되었다[24]. 염색체 수와 유전체 크기 등 기본 유전체 정보는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 삼색제비꽃은 꽃만 쓸 수 있는 사용가능 원료이고, 잎·줄기·뿌리는 사용 부위로 올라 있지 않다[1]. 국내 공공기관의 알레르기·잔류물질·독성 성분 정보는 확인하지 못함.\n\n꽃 추출물에서는 HPLC로 루틴·클로로겐산과 함께 살리실산이 검출되었다[8]. 이 종에 살리실산과 메틸에스터·비올루토사이드 같은 유도체가 0.3% 들어 있다는 수치는 WebSearch 요약으로만 확인했다[18]. 가까운 종인 들팬지 지상부의 살리실산 함량은 0.09–0.11%였다[30]. 유럽 의약품청 모노그래프의 금기·주의 문구 원문은 확인하지 못함. 살리실산 계열 약(아스피린 등)에 과민 반응이 있는 사람에 대한 이 꽃의 섭취 안전성 자료도 확인하지 못함.\n\n분리한 사이클로타이드는 시험관에서 암세포 독성과 용혈 활성을 보였다[12, 13]. 물 추출물과 달임액은 활성화된 사람 T세포의 증식과 사이토카인 분비를 억제했다[15, 16]. 쥐 실험에서는 추출물이 혈압을 낮추고 칼슘 통로를 막는 작용을 보였다[28]. 생쥐 천식 모델에서는 꽃 추출물 50–200 mg/kg을 먹였을 때 Th2 사이토카인(IL-4)이 줄었다[27]. 이런 결과가 사람의 섭취량에서도 나타나는지와 약물 상호작용은 확인하지 못함.\n\n사람 임상으로는 이 종을 포함한 복합 연고를 아토피 피부염 성인 88명에게 4주 바른 시험이 있었고, 기제 크림보다 우월함을 입증하지 못했다[20]. 꽃을 먹는 사람 대상 안전성 시험은 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Violanthin",
+   "name_ko": "비올란틴",
+   "class": "플라본 C-배당체",
+   "role": "marker",
+   "part": "지상부(꽃 핀 전초)",
+   "content_text": "지상부 메탄올 추출물의 두 주요 플라보노이드 중 하나(NMR로 구조 확인), 함량 수치는 초록에 없음",
+   "activity_ko": "이 종의 주요 플라보노이드로 확인됨; 항산화 분획 구성 성분",
+   "source": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "지상부·꽃",
+   "content_text": "지상부 420 ± 1.17 µg/g(HPLC); 꽃 추출물과 겔에서 정량 시험법 검증(함량은 초록에 없음)",
+   "activity_ko": "주요 플라보노이드 성분 가운데 전자공여 항산화능이 가장 높음",
+   "source": [
+    3,
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Delphinidin 3-(p-coumaroyl)rutinoside-5-glucoside",
+   "name_ko": "델피니딘-3-(4′-trans-p-쿠마로일)루티노사이드-5-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "꽃잎",
+   "content_text": "꽃잎 정제 추출물의 주 안토시아닌(m/z 919.33, MS 분절로 잠정 동정); 일곱 안토시아닌 모두 루티노사이드를 가짐",
+   "activity_ko": "꽃잎 보라색 색소; 모의 소화에서 불안정하나 장세포 모델 통과율 약 5%",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Violaxanthin",
+   "name_ko": "비올라잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "지상부(생약)",
+   "content_text": "352 µg/100 g(HPLC)",
+   "activity_ko": "꽃잎·지상부 카로티노이드 구성 성분",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Lutein",
+   "name_ko": "루테인",
+   "class": "카로티노이드(잔토필)",
+   "role": "nutrient",
+   "part": "지상부(생약)",
+   "content_text": "1575 µg/100 g(HPLC)",
+   "activity_ko": "총 카로티노이드 18.46 mg/100 g의 주요 성분",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Zeaxanthin",
+   "name_ko": "제아잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "nutrient",
+   "part": "지상부(생약)",
+   "content_text": "1488 µg/100 g(HPLC)",
+   "activity_ko": "카로티노이드 구성 성분",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "beta-Carotene",
+   "name_ko": "베타카로틴",
+   "class": "카로티노이드(카로틴)",
+   "role": "nutrient",
+   "part": "지상부(생약)",
+   "content_text": "1678 µg/100 g, 9Z-베타카로틴 312 µg/100 g(HPLC)",
+   "activity_ko": "프로비타민 A 카로티노이드",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Antheraxanthin",
+   "name_ko": "안테라잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "지상부(생약)",
+   "content_text": "711 µg/100 g(HPLC)",
+   "activity_ko": "카로티노이드 구성 성분",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Salicylic acid",
+   "name_ko": "살리실산",
+   "class": "페놀산(살리실산류)",
+   "role": "bioactive",
+   "part": "꽃 추출물",
+   "content_text": "꽃 추출물에서 HPLC로 검출(함량은 초록에 없음); 이 종의 살리실산과 유도체 0.3%는 WebSearch 요약으로만 확인[18]",
+   "activity_ko": "꽃 겔의 항염·진통 작용에 일부 기여하는 성분으로 거론; 살리실산 과민자 주의 근거 성분",
+   "source": [
+    8,
+    18
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "꽃 추출물",
+   "content_text": "꽃 추출물에서 HPLC로 검출(함량은 초록에 없음)",
+   "activity_ko": "꽃 겔의 항염 작용에 일부 기여하는 성분으로 거론",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Vitri A",
+   "name_ko": "비트리 A(사이클로타이드)",
+   "class": "사이클로타이드(고리형 펩타이드)",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "분리 성분(함량 보고 없음); 서열 cyclo-GESCVWIPCITSAIGCSCKSKVCYRNGIPC",
+   "activity_ko": "림프종 세포 IC50 0.6 µM, 골수종 세포 IC50 1 µM의 세포독성",
+   "source": [
+    12,
+    13
+   ]
+  },
+  {
+   "name": "Cycloviolacin O2",
+   "name_ko": "사이클로비올라신 O2",
+   "class": "사이클로타이드(고리형 펩타이드)",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "이 종에서 분리한 14개 사이클로타이드 중 하나(함량 보고 없음)",
+   "activity_ko": "분리 사이클로타이드 중 세포독성이 가장 강한 셋 중 하나; 용혈 활성과는 상관이 낮음",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Kalata S",
+   "name_ko": "칼라타 S(사이클로타이드)",
+   "class": "사이클로타이드(고리형 펩타이드)",
+   "role": "bioactive",
+   "part": "지상부 달임액",
+   "content_text": "분리 성분(함량 보고 없음)",
+   "activity_ko": "달임액의 T세포 억제 작용을 내는 활성 성분 후보",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Mucilage",
+   "name_ko": "점액질(다당류)",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "지상부",
+   "content_text": "14.20%(중량법); 사포닌 5.98%",
+   "activity_ko": "팅크제의 약한 이뇨 작용(이뇨 지수 1.103)과 함께 보고",
+   "source": [
+    6
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Delphinidin-3-(4′-trans-p-coumaroyl)-O-rutinoside-5-O-glucoside (anthocyanins)",
+   "compound_ko": "델피니딘-3-(p-쿠마로일)루티노사이드-5-글루코사이드 등 안토시아닌",
+   "part": "꽃잎(포르투갈 생산 생화, 약 100 g)",
+   "content": "",
+   "method": "UHPLC-DAD / LC-DAD-ESI-MS(이온트랩)",
+   "conditions": {
+    "instrument": "ThermoFinnigan Surveyor Plus HPLC(성상 분석) + Thermo LTQ XL 이온트랩 질량분석기(ESI); 안정성·소화·흡수 시료는 Thermo Dionex UltiMate 3000 UHPLC",
+    "column": "역상 C18 Hypersil GOLD VANQUISH 150 × 2.1 mm, 1.9 µm(성상 분석); 안정성 시험은 Hypersil GOLD 50 × 2.1 mm, 1.9 µm",
+    "mobile_phase": "A: 1% 포름산, B: 1% 포름산/30% 아세토니트릴(성상 분석); 안정성 시험은 A: 5% 포름산, B: 5% 포름산/30% 아세토니트릴",
+    "gradient": "B 5.5→64%(0–7분), →80%(7–10분), 100% B(10–20분), 초기 조건 재평형(20–25분)",
+    "flow": "0.3 mL/min(성상 분석); 0.5 mL/min(안정성 시험)",
+    "temp": "",
+    "detection": "DAD 280 nm(안토시아닌은 280·520 nm 부근 흡수 극대로 확인); ESI 양이온 모드 m/z 250–1500, 캐필러리 온도 300 °C, 시스·보조 가스 질소 40·15(임의 단위)",
+    "injection": "20 µL",
+    "sample_prep": "꽃잎을 분리해 산성화한 탈이온수로 초음파 추출, 원심분리(13,400 ×, 10분; 원문 단위 표기 누락) 후 0.22 µm PTFE 여과; 에틸아세테이트/디에틸에테르/물(1:1:1) 액액 추출 후 물층을 C18 고상추출; DSC-MCAX 혼합형 양이온교환 카트리지(1 g/5 mL)에서 0.1% 포름산으로 적재, 메탄올로 비하전 성분 제거, 메탄올:10 mM 인산이칼륨 pH 6.0(1:1)으로 안토시아닌 용출; 3.5 kDa 투석 후 동결건조",
+    "standard": "표준품 없이 MS 분절 양상으로 잠정 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃잎 보라색을 내는 이 종 고유의 루티노사이드형 델피니딘 안토시아닌을 구분해 소화·흡수를 추적한 방법이다. 전문(Methods)에서 조건을 옮겼으며, 성분별 절대 함량을 정량한 연구가 아니어서 함량은 비웠다[10].",
+   "source": [
+    10
+   ],
+   "url": "https://doi.org/10.3390/ph17020191",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴",
+   "part": "꽃 조추출물과 이를 넣은 겔",
+   "content": "",
+   "method": "HPLC(검증된 정량법)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "식품 사용 부위인 꽃 추출물의 품질 관리 지표로 루틴 정량법을 검증(직선성·정밀성·특이성·정확성·강건성)한 연구다. 전문 확인 못함: 초록에는 추출물 총 폴리페놀 109.32 ± 1.29 mg GAE/g만 있고 칼럼·이동상과 루틴 함량은 없다[7]. 같은 연구진은 꽃 겔 안정성 시험에서도 루틴을 HPLC로 정량했다[8].",
+   "source": [
+    7,
+    8
+   ],
+   "url": "https://doi.org/10.1093/chromsci/bms155",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin, violanthin",
+   "compound_ko": "루틴·비올란틴",
+   "part": "지상부(꽃 핀 전초, heartsease herb)",
+   "content": "루틴 420 ± 1.17 µg/g",
+   "method": "HPLC(정량) / LC-ESI-MSn(동정)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "루틴 표준품(머무름 시간·UV 스펙트럼·분자량·분절 양상 비교)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 두 주요 플라보노이드가 비올란틴과 루틴임을 밝히고 루틴을 정량한 연구로, 비올란틴은 별도 연구에서 NMR로 구조를 확인했다[3, 4]. 전문 확인 못함: 칼럼·이동상 등 조건은 초록에 없고, 시료가 꽃이 아닌 지상부 전초다[3].",
+   "source": [
+    3,
+    4
+   ],
+   "url": "https://doi.org/10.1093/chromsci/46.2.97",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Carotenoids (lutein, zeaxanthin, beta-carotene, violaxanthin 등 8종)",
+   "compound_ko": "카로티노이드 8종",
+   "part": "지상부(생약, 생시료)",
+   "content": "총 카로티노이드 18.46 mg/100 g; 베타카로틴 1678, 루테인 1575, 제아잔틴 1488, 안테라잔틴 711, 비올라잔틴 352 µg/100 g",
+   "method": "HPLC(카로티노이드), 분광광도법(총량)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "꽃잎 색소체에도 많은 카로티노이드를 개별 성분별로 정량한 자료다[6, 17]. 전문 확인 못함: HPLC 조건은 초록에 없고, 시료는 꽃만이 아닌 지상부다[6].",
+   "source": [
+    6,
+    17
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21491816/",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 삼색제비꽃꽃·삼색제비꽃추출액(Viola tricolor L. / Viola tricolor L. var. hortensis DC., Pansy, heartsease; 이명 팬지·호접제비꽃), 사용가능부위: 꽃, 사용가능; 같은 목록의 Pansy잎(Viola x wittrockiana)·향기제비꽃꽃(제한적사용) 행 포함",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Analysis of polar antioxidants in Heartsease (Viola tricolor L.) and Garden pansy (Viola x wittrockiana Gams.) — J Chromatogr Sci 2008;46(9):823-7 (초록) (PMID 19007486)",
+   "url": "https://doi.org/10.1093/chromsci/46.9.823",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Quantitative and qualitative investigation of the main flavonoids in heartsease (Viola tricolor L.) — J Chromatogr Sci 2008;46(2):97-101 (초록) (PMID 18366866)",
+   "url": "https://doi.org/10.1093/chromsci/46.2.97",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Major flavonoid components of heartsease (Viola tricolor L.) and their antioxidant activities — Anal Bioanal Chem 2008;390(7):1917-25 (초록) (PMID 18259733)",
+   "url": "https://doi.org/10.1007/s00216-008-1885-3",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Analysis of heartsease (Viola tricolor L.) flavonoid glycosides by micro-liquid chromatography coupled to multistage mass spectrometry — J Chromatogr A 2008;1206(1):11-20 (초록) (PMID 18514209)",
+   "url": "https://doi.org/10.1016/j.chroma.2008.05.017",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Pharmacognostic research on Viola tricolor L. (Violaceae) — Rev Med Chir Soc Med Nat Iasi 2009;113(1):264-7 (초록) (PMID 21491816)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21491816/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Analysis of rutin in the extract and gel of Viola tricolor — J Chromatogr Sci 2013;51(5):406-11 (초록) (PMID 23035206)",
+   "url": "https://doi.org/10.1093/chromsci/bms155",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Antiinflammatory effects of Viola tricolor gel in a model of sunburn in rats and the gel stability study — J Ethnopharmacol 2013;150(2):458-65 (초록) (PMID 24008111)",
+   "url": "https://doi.org/10.1016/j.jep.2013.08.040",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Edible flowers of Viola tricolor L. as a new functional food: antioxidant activity, individual phenolics and effects of gamma and electron-beam irradiation — Food Chem 2015;179:6-14 (초록) (PMID 25722133)",
+   "url": "https://doi.org/10.1016/j.foodchem.2015.01.123",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "First Insights on the Bioaccessibility and Absorption of Anthocyanins from Edible Flowers: Wild Pansy, Cosmos, and Cornflower — Pharmaceuticals (Basel) 2024;17(2):191, PMC10892915 (PMC 전문) (PMID 38399406)",
+   "url": "https://doi.org/10.3390/ph17020191",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Anthocyanin-rich edible flowers - Impact of food matrix on anthocyanin stability, digestion and absorption: the case of wild pansy, cosmos and cornflower — Food Chem 2026;508(Pt B):148137 (초록) (PMID 41713338)",
+   "url": "https://doi.org/10.1016/j.foodchem.2026.148137",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Cytotoxic cyclotides from Viola tricolor — J Nat Prod 2004;67(2):144-7 (초록) (PMID 14987049)",
+   "url": "https://doi.org/10.1021/np030101l",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Isolation and characterization of cytotoxic cyclotides from Viola tricolor — Peptides 2010;31(8):1434-40 (초록) (PMID 20580652)",
+   "url": "https://doi.org/10.1016/j.peptides.2010.05.004",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Peptidomics of Circular Cysteine-Rich Plant Peptides: Analysis of the Diversity of Cyclotides from Viola tricolor by Transcriptome and Proteome Mining — J Proteome Res 2015;14(11):4851-62 (초록) (PMID 26399495)",
+   "url": "https://doi.org/10.1021/acs.jproteome.5b00681",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Immunosuppressive activity of an aqueous Viola tricolor herbal extract — J Ethnopharmacol 2013;151(1):299-306 (초록) (PMID 24216163)",
+   "url": "https://doi.org/10.1016/j.jep.2013.10.044",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Exploring Immune Modulatory Effects of Cyclotide-Enriched Viola tricolor Preparations — Planta Med 2023;89(15):1493-1504 (초록) (PMID 37748505)",
+   "url": "https://doi.org/10.1055/a-2173-8627",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Composition and molecular structure of chromoplast globules of Viola tricolor — Plant Cell Rep 1982;1(3):111-4 (초록) (PMID 24259022)",
+   "url": "https://doi.org/10.1007/BF00272366",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "The cumulation of Wild pansy (Viola tricolor L.) accessions: the possibility of species preservation and usage in medicine — Medicina (Kaunas) 2003;39(4):411-6 (초록; 살리실산과 그 유도체 0.3% 수치는 이 환경에서 원문 PDF를 열지 못해 WebSearch 요약으로만 확인) (PMID 12738912)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12738912/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "On the Effects of the Jacca, or Viola Tricolor, Linn. in Curing Venereal Ulcers, and Other Venereal Remains — Med Phys J 1805;14(81):431-432, PMC5677838 (서지 정보) (PMID 30491870)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30491870/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "A randomized, double-blind, vehicle-controlled, half-side comparison with a herbal ointment containing Mahonia aquifolium, Viola tricolor and Centella asiatica for the treatment of mild-to-moderate atopic dermatitis — Int J Clin Pharmacol Ther 2007;45(11):583-91 (초록) (PMID 18077922)",
+   "url": "https://doi.org/10.5414/cpp45583",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Freezing of edible flowers: Effect on microbial and antioxidant quality during storage — J Food Sci 2020;85(4):1151-1159 (초록) (PMID 32157694)",
+   "url": "https://doi.org/10.1111/1750-3841.15097",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Increased genetic diversity of Viola tricolor L. (Violaceae) in metal-polluted environments — Chemosphere 2011;83(4):435-42 (초록) (PMID 21262522)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2010.12.081",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Metallophyte status of violets of the section Melanium — Chemosphere 2013;93(9):1844-55 (초록) (PMID 23859423)",
+   "url": "https://doi.org/10.1016/j.chemosphere.2013.06.039",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Polymorphic nuclear markers for coastal plant species with dynamic geographic distributions, the rock samphire (Crithmum maritimum) and the vulnerable dune pansy (Viola tricolor subsp. curtisii) — Mol Biol Rep 2018;45(3):203-209 (초록) (PMID 29404829)",
+   "url": "https://doi.org/10.1007/s11033-018-4153-4",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "A highly selective C-rhamnosyltransferase from Viola tricolor and insights into its mechanisms — Acta Pharm Sin B 2023;13(8):3535-3544 (초록) (PMID 37655315)",
+   "url": "https://doi.org/10.1016/j.apsb.2023.05.011",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Reporting a Transcript from Iranian Viola Tricolor, Which May Encode a Novel Cyclotide-Like Precursor: Molecular and in silico Studies — Comput Biol Chem 2019;84:107168 (초록) (PMID 31791808)",
+   "url": "https://doi.org/10.1016/j.compbiolchem.2019.107168",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Effects of Viola tricolor Flower Hydroethanolic Extract on Lung Inflammation in a Mouse Model of Chronic Asthma — Iran J Allergy Asthma Immunol 2018;17(5):409-417 (초록) (PMID 30518183)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30518183/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Ex vivo and in vivo studies of Viola tricolor Linn. as potential cardio protective and hypotensive agent: Inhibition of voltage-gated Ca++ ion channels — FASEB J 2020;34(7):9102-9119 (초록) (PMID 32475023)",
+   "url": "https://doi.org/10.1096/fj.202000658R",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "European Medicines Agency HMPC — Final community herbal monograph on Viola tricolor L. and/or subspecies Viola arvensis Murray (Gaud), herba cum flore(2010년 11월 25일 채택) 및 2020년 정기 검토 addendum assessment report (이 환경에서 EMA 사이트를 열지 못해 WebSearch 요약으로만 확인)",
+   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-viola-tricolor-l_en.pdf",
+   "publisher": "European Medicines Agency",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "[Principal constituents from flowering aerial parts of wild pansy] (Viola arvensis Murray) — Ann Pharm Fr 2001;59(2):119-24 (초록) (PMID 11320336)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11320336/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Hierarchically structured superhydrophobic flowers with low hysteresis of the wild pansy (Viola tricolor) - new design principles for biomimetic materials — Beilstein J Nanotechnol 2011;2:228-36 (초록) (PMID 21977435)",
+   "url": "https://doi.org/10.3762/bjnano.2.27",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Violets of the section Melanium, their colonization by arbuscular mycorrhizal fungi and their occurrence on heavy metal heaps — J Plant Physiol 2011;168(11):1191-9 (초록) (PMID 21492955)",
+   "url": "https://doi.org/10.1016/j.jplph.2011.01.033",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Effect of nano-NPK fertilizer and BAP on growth and flowering of Viola tricolor — Sci Rep 2026;16 (초록) (PMID 41904208)",
+   "url": "https://doi.org/10.1038/s41598-026-37747-w",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Phytochemical composition, antioxidant activity, and sensory evaluation of edible flower-enriched vinegars — Food Chem 2025;496(Pt 3):146897 (초록) (PMID 41223836)",
+   "url": "https://doi.org/10.1016/j.foodchem.2025.146897",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Overexpression of VtF3'5'H and RhNHX Genes Alters Flower Color and Plant Morphology in Transgenic Rose 'Red Farm' — Plants (Basel) 2025;14(20):3185 (초록) (PMID 41157742)",
+   "url": "https://doi.org/10.3390/plants14203185",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

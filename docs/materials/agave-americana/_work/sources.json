@@ -1,0 +1,233 @@
+[
+ {
+  "n": 1,
+  "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 용설란(Agave americana L. / Agave tequilana / Agave salmiana; Agave, Century Plant, American Aloe), 원료명 용설란분말·용설란수액·용설란시럽·용설란원액·용설란주스농축·용설란증류액, 사용가능부위: 수액, 사용가능; 같은 속의 길상천(Agave parryi)·Century plant(Agave utahensis)는 별도 항목",
+  "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+  "publisher": "식품의약품안전처",
+  "accessed": "2026-10-13"
+ },
+ {
+  "n": 2,
+  "title": "Use, management and domestication of Agave americana in Mexico — J Ethnobiol Ethnomed 2026;22(1) (PMID 42399974, PMC13625399)",
+  "url": "https://doi.org/10.1186/s13002-026-00924-2",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 3,
+  "title": "Morphological and genetic diversity of traditional varieties of agave in Hidalgo State, Mexico — PLoS One 2021;16(7):e0254376 (PMID 34242333, PMC8270473)",
+  "url": "https://doi.org/10.1371/journal.pone.0254376",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 4,
+  "title": "Agave americana: Characteristics and Potential Breeding Priorities — Plants (Basel) 2022;11(17) (PMID 36079687, PMC9460544) — PubMed 표기에서 제목·본문의 종 이름이 빠져 있음(\"Agave americana\" 제목·초록 검색으로 찾음)",
+  "url": "https://doi.org/10.3390/plants11172305",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 5,
+  "title": "Lessons from the history of Agave: ecological and cultural context for valuation of CAM — Ann Bot 2023;132(4):819-833 (PMID 37279950, PMC10799984)",
+  "url": "https://doi.org/10.1093/aob/mcad072",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 6,
+  "title": "Pulque, a Traditional Mexican Alcoholic Fermented Beverage: Historical, Microbiological, and Technical Aspects — Front Microbiol 2016;7:1026 (PMID 27446061, PMC4928461)",
+  "url": "https://doi.org/10.3389/fmicb.2016.01026",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 7,
+  "title": "Aguamiel, a Traditional Mexican Beverage: A Review of Its Nutritional Composition, Health Effects and Conservation — Foods 2025;14(1) (PMID 39796424, PMC11719483)",
+  "url": "https://doi.org/10.3390/foods14010134",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 8,
+  "title": "Effect of Agave americana and Agave salmiana Ripeness on Saponin Content from Aguamiel (Agave Sap) — J Agric Food Chem 2015;63(15):3924-30 (PMID 25811101) — 초록만 확인(전문 미열람)",
+  "url": "https://doi.org/10.1021/acs.jafc.5b00883",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 9,
+  "title": "Evolution of Fructans in Aguamiel (Agave Sap) During the Plant Production Lifetime — Front Nutr 2020;7:566950 (PMID 33163505, PMC7581979) — 제목의 Aguamiel 은 PubMed 표기에서 빠진 낱말을 채운 것; 전문(PMC)에서 종 이름 서체가 빠져 주 시료 세 그루(P1–P3)의 종은 확인하지 못함; 표 2의 10그루 중 2그루가 A. americana",
+  "url": "https://doi.org/10.3389/fnut.2020.566950",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 10,
+  "title": "Structural analysis of fructans from Agave americana grown in South Africa for spirit production — J Agric Food Chem 2009;57(10):3995-4003 (PMID 19348427)",
+  "url": "https://doi.org/10.1021/jf8039389",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 11,
+  "title": "Anti-inflammatory activity of different agave plants and the compound cantalasaponin-1 — Molecules 2013;18(7):8136-46 (PMID 23846754, PMC6269955)",
+  "url": "https://doi.org/10.3390/molecules18078136",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 12,
+  "title": "[A new steroidal glycoside from fermented leaves of Agave americana] — Zhongguo Zhong Yao Za Zhi 2002;27(6):431-4 (PMID 12774633)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/12774633/",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 13,
+  "title": "Three new hecogenin glycosides from fermented leaves of Agave americana — J Asian Nat Prod Res 2003;5(2):95-103 (PMID 12765193)",
+  "url": "https://doi.org/10.1080/1028602021000054946",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 14,
+  "title": "Four new steroid constituents from the waste residue of fibre separation from Agave americana leaves — Chem Pharm Bull (Tokyo) 2004;52(6):654-8 (PMID 15187383)",
+  "url": "https://doi.org/10.1248/cpb.52.654",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 15,
+  "title": "Comparative study of steroidal sapogenins content in leaves of five Agave species — J Sci Food Agric 2022;102(13):5653-5659 (PMID 35368099)",
+  "url": "https://doi.org/10.1002/jsfa.11912",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 16,
+  "title": "Constituents of Agave americana and Agave barbadensis — Fitoterapia 2005;76(6):594-7 (PMID 15979249)",
+  "url": "https://doi.org/10.1016/j.fitote.2005.04.013",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 17,
+  "title": "Ultrasound-assisted extraction, quantification and characterization of inulin from agave, chicory and Jerusalem artichoke — Sci Rep 2026;16(1) (PMID 41946797, PMC13062020)",
+  "url": "https://doi.org/10.1038/s41598-026-43085-8",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 18,
+  "title": "Toxicity of botanical extracts and their main constituents on the bees Partamona helleri and Apis mellifera — Ecotoxicology 2020;29(3):246-257 (PMID 32170464)",
+  "url": "https://doi.org/10.1007/s10646-020-02167-7",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 19,
+  "title": "A model of environmental limitations on production of Agave americana L. grown as a biofuel crop in semi-arid regions — J Exp Bot 2019;70(22):6549-6559 (PMID 30597061, PMC6883261)",
+  "url": "https://doi.org/10.1093/jxb/ery383",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 20,
+  "title": "Spatial Patterns and Diversity of the Genus Agave in the Southern Iberian Peninsula: The Role of Anthropogenic Drivers in the Expansion of Agave americana — Plants (Basel) 2026;15(2) (PMID 41600134, PMC12846285) — 제목의 종 이름은 PubMed 표기에서 빠져 있어 초록 맥락으로 판단",
+  "url": "https://doi.org/10.3390/plants15020327",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 21,
+  "title": "Ethnobotany of the Aegadian Islands: safeguarding biocultural refugia in the Mediterranean — J Ethnobiol Ethnomed 2021;17(1):47 (PMID 34321030, PMC8320050)",
+  "url": "https://doi.org/10.1186/s13002-021-00470-z",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 22,
+  "title": "Influence of the Season on the Nutritive Value and Gas Production of [종 이름 빠짐] and [종 이름 빠짐] L. in Ruminant Feed — Animals (Basel) 2023;13(6) (PMID 36978549, PMC10044418) — PubMed 표기에서 제목·초록의 종 이름이 빠져 있음(\"Agave americana\" 제목·초록 검색으로 찾음)",
+  "url": "https://doi.org/10.3390/ani13061008",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 23,
+  "title": "Agave REVEILLE1 regulates the onset and release of seasonal dormancy in Populus — Plant Physiol 2023;191(3):1492-1504 (PMID 36546733, PMC10022617)",
+  "url": "https://doi.org/10.1093/plphys/kiac588",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 24,
+  "title": "Analysis of gene sequences indicates that quantity not quality of chloroplast small HSPs improves thermotolerance in C4 and CAM plants — Plant Cell Rep 2012;31(10):1943-57 (PMID 22797908)",
+  "url": "https://doi.org/10.1007/s00299-012-1307-z",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 25,
+  "title": "Isolation, characterization, and localization of AgaSGNH cDNA: a new SGNH-motif plant hydrolase specific to Agave americana L. leaf epidermis — J Exp Bot 2007;58(11):2717-31 (PMID 17609535)",
+  "url": "https://doi.org/10.1093/jxb/erm136",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 26,
+  "title": "Purpuric irritant contact dermatitis induced by Agave americana — Cutis 2000;66(4):287-8 (PMID 11109152)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/11109152/",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 27,
+  "title": "[Purpuric contact dermatitis from Agave Americana] — Ann Dermatol Venereol 2007;134(5 Pt 1):477-8 (PMID 17507849)",
+  "url": "https://doi.org/10.1016/s0151-9638(07)89218-0",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 28,
+  "title": "Hepatoprotective effect of methanol extract of Agave americana leaves on paracetamol induced hepatotoxicity in Wistar albino rats — BMC Complement Med Ther 2023;23(1):99 (PMID 37005601, PMC10067186)",
+  "url": "https://doi.org/10.1186/s12906-023-03931-y",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 29,
+  "title": "Agave (Agave americana): an evidence-based systematic review by the natural standard research collaboration — J Herb Pharmacother 2006;6(2):101-22 (PMID 17182489)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/17182489/",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 30,
+  "title": "Elucidation of native California Agave americana and Agave deserti biofuel potential: Compositional analysis — PLoS One 2021;16(5):e0252201 (PMID 34043690, PMC8158902)",
+  "url": "https://doi.org/10.1371/journal.pone.0252201",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 31,
+  "title": "Effect of plant growth-promoting bacteria on the growth and fructan production of Agave americana L — Braz J Microbiol 2016;47(3):587-96 (PMID 27268113, PMC4927679)",
+  "url": "https://doi.org/10.1016/j.bjm.2016.04.010",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 32,
+  "title": "Metabolomic profiling of five Agave leaf taxa via UHPLC/PDA/ESI-MS in relation to their anti-inflammatory, immunomodulatory and ulceroprotective activities — Steroids 2020;160:108648 (PMID 32298660)",
+  "url": "https://doi.org/10.1016/j.steroids.2020.108648",
+  "publisher": "PubMed",
+  "accessed": "2026-11-02"
+ },
+ {
+  "n": 33,
+  "title": "EFSA Compendium of botanicals (식품에 쓰이는 식물 가운데 우려 물질이 보고된 종의 데이터베이스) — 데이터베이스 성격은 WebSearch 요약으로만 확인, 이 종의 항목 원문은 열람하지 못함",
+  "url": "https://www.efsa.europa.eu/en/data/compendium-botanicals",
+  "publisher": "European Food Safety Authority",
+  "accessed": "2026-11-02"
+ }
+]
