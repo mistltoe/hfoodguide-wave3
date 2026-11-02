@@ -1,0 +1,142 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+PM = "https://pubmed.ncbi.nlm.nih.gov/"
+PMC = "https://pmc.ncbi.nlm.nih.gov/articles/"
+src = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 뱀무순 행: 학명 'Geum japonicum Thunb. / Geum iyoanum Koidz.', 다른 이름 일본수양매, 영문명 Asian herb bennet, 사용가능부위 순, 상태 '사용가능'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속 원료 행: 큰뱀무잎·큰뱀무순(Geum aleppicum Jacq., 잎·순, 사용가능), 허브베니트잎·허브베니트뿌리(Geum urbanum, 뿌리·잎, 사용가능), Water avens뿌리(Geum rivale, 목록 영문명 'Herb Robert, Old-mans-whiskers', 뿌리, 사용가능), White avens뿌리(Geum canadense, 뿌리, 사용가능). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Natural deep eutectic solvent-ultrasound assisted extraction: A green approach for ellagic acid extraction from Geum japonicum. Front Nutr 2023;9:1079767 (PMID 36698456, PMC9868705, doi:10.3389/fnut.2022.1079767; 전문 확인)", PMC+"PMC9868705/", "Frontiers / PubMed Central", A),
+ ("Administration of Asian Herb Bennet (Geum japonicum) Extract Reverses Depressive-Like Behaviors in Mouse Model of Depression Induced by Corticosterone. Nutrients 2019;11(12):2841 (PMID 31756901, PMC6950235, doi:10.3390/nu11122841; 전문 확인)", PMC+"PMC6950235/", "MDPI / PubMed Central", A),
+ ("Geum japonicum Thunb. exhibits anti-platelet activity via the regulation of cyclic guanosine monophosphate. Front Pharmacol 2025;16:1538417 (PMID 40642009, PMC12240943, doi:10.3389/fphar.2025.1538417; 전문 확인)", PMC+"PMC12240943/", "Frontiers / PubMed Central", A),
+ ("The Antiapoptosis Effect of Geum japonicum Thunb. var. chinense Extracts on Cerebral Ischemia Reperfusion Injury via PI3K/Akt Pathway. Evid Based Complement Alternat Med 2018:7290170 (PMID 30538763, PMC6261079, doi:10.1155/2018/7290170; 전문 확인)", PMC+"PMC6261079/", "Hindawi / PubMed Central", A),
+ ("Effects of tannins from Geum japonicum on the catalytic activity of thrombin and factor Xa of blood coagulation cascade. J Nat Prod 1998;61(11):1356-60 (PMID 9834152, doi:10.1021/np9801458; 초록 확인)", PM+"9834152/", "American Chemical Society / PubMed", A),
+ ("Anti-HIV triterpene acids from Geum japonicum. J Nat Prod 1996;59(7):643-5 (PMID 8759159, doi:10.1021/np960165e; 초록 확인)", PM+"8759159/", "American Chemical Society / PubMed", A),
+ ("A new anti-HIV triterpene from Geum japonicum. Chem Pharm Bull (Tokyo) 2000;48(9):1367-9 (PMID 10993241, doi:10.1248/cpb.48.1367; 초록 확인)", PM+"10993241/", "Pharmaceutical Society of Japan / PubMed", A),
+ ("Fatty acid synthase inhibitors from Geum japonicum Thunb. var. chinense. Chem Biodivers 2009;6(3):402-10 (PMID 19319862, doi:10.1002/cbdv.200700462; 초록 확인)", PM+"19319862/", "Wiley / PubMed", A),
+ ("Role of nitric oxide in the vasorelaxant and hypotensive effects of extracts and purified tannins from Geum japonicum. J Ethnopharmacol 2006;109(1):128-33 (PMID 16939706, doi:10.1016/j.jep.2006.07.015; 초록 확인)", PM+"16939706/", "Elsevier / PubMed", A),
+ ("Purification and characterization of eugeniin as an anti-herpesvirus compound from Geum japonicum and Syzygium aromaticum. J Pharmacol Exp Ther 1998;284(2):728-35 (PMID 9454821; 초록 확인)", PM+"9454821/", "ASPET / PubMed", A),
+ ("Prophylactic treatment of cytomegalovirus infection with traditional herbs. Antiviral Res 1996;32(2):63-70 (PMID 8891165, doi:10.1016/0166-3542(95)00978-7; 초록 확인)", PM+"8891165/", "Elsevier / PubMed", A),
+ ("Comparative complete chloroplast genome of Geum japonicum: evolution and phylogenetic analysis. J Plant Res 2024;137(1):37-48 (PMID 37917204, doi:10.1007/s10265-023-01502-3; 초록 확인)", PM+"37917204/", "Springer / PubMed", A),
+ ("Comparative analyses of chloroplast genomes in Geum species: insights into genome characteristics, phylogenomic implications, and adaptive evolution. Front Plant Sci 2025;16:1713809 (PMID 41550344, PMC12809601, doi:10.3389/fpls.2025.1713809; 전문 확인)", PMC+"PMC12809601/", "Frontiers / PubMed Central", A),
+ ("Cardioprotective polyphenols from Geum japonicum var. chinense. Phytochemistry 2023(온라인 게재), 논문번호 113935 (PMID 38029953, doi:10.1016/j.phytochem.2023.113935; 초록 확인)", PM+"38029953/", "Elsevier / PubMed", A),
+ ("Taraxasterane-type triterpene and neolignans from Geum japonicum Thunb. var. chinense F. Bolle. Planta Med 2011;77(18):2061-5 (PMID 21800281, doi:10.1055/s-0031-1280091; 초록 확인)", PM+"21800281/", "Thieme / PubMed", A),
+ ("Niga-ichigoside F1 ameliorates high-fat diet-induced hepatic steatosis in male mice by Nrf2 activation. Food Funct 2018 (PMID 29309075, doi:10.1039/c7fo01051f; 초록 확인)", PM+"29309075/", "Royal Society of Chemistry / PubMed", A),
+ ("Characterization and Identification of the Chemical Constituents and the Metabolites of Geum japonicum Thunb. var. chinense F. Bolle. Phytochem Anal 2025 (PMID 40084567, doi:10.1002/pca.3528; 초록 확인)", PM+"40084567/", "Wiley / PubMed", A),
+ ("3,4,5-trihydroxybenzaldehyde from Geum japonicum has dual inhibitory effect on matrix metalloproteinase 9. J Cell Biochem 2008;105(2):524-33 (PMID 18773430, doi:10.1002/jcb.21854; 초록 확인)", PM+"18773430/", "Wiley / PubMed", A),
+ ("A fraction of methylene chloride from Geum japonicum Thunberg inhibits tumor metastatic and angiogenic potential. Oncol Rep 2008;19(6):1399-403 (PMID 18497943; 초록 확인)", PM+"18497943/", "Spandidos / PubMed", A),
+ ("Neovascularization of ischemic myocardium by newly isolated tannins prevents cardiomyocyte apoptosis and improves cardiac function. Mol Med 2006;12(11-12):275-83 (PMID 17380192, PMC1829195; PubMed 문헌 유형 'Retracted Publication' — 철회된 논문, 근거로 쓰지 않음)", PM+"17380192/", "Molecular Medicine / PubMed", A),
+ ("A plant-derived remedy for repair of infarcted heart. PLoS One 2009;4(2):e4461 (PMID 19221596, PMC2637970, doi:10.1371/journal.pone.0004461; 초록 확인)", PM+"19221596/", "PLOS / PubMed", A),
+ ("Host plants of Empria sawflies (Hymenoptera, Tenthredinidae) in Japan include Rhododendron (Ericaceae). Zootaxa 2015;4007(1) (PMID 26623797, doi:10.11646/zootaxa.4007.1.13; 초록 확인)", PM+"26623797/", "Magnolia Press / PubMed", A),
+ ("Allelopathy of the invasive plant Bidens frondosa on the seed germination of Geum japonicum var. chinense. Genet Mol Res 2014 (PMID 25511044, doi:10.4238/2014.December.12.22; 초록 확인)", PM+"25511044/", "FUNPEC / PubMed", A),
+ ("Primary Study on Effect of Extraction Methods on the Properties and Activities of Polysaccharides from Geum japonicum Thunb. var. chinense. Molecules 2025;30(1):148 (PMID 39795204, PMC11722421, doi:10.3390/molecules30010148; 초록 확인)", PM+"39795204/", "MDPI / PubMed", A),
+ ("Exploring the protective mechanisms of total tannins from Geum japonicum var. chinense F.Bolle in mice with hematopoietic dysfunction via the JAK2/STAT3/5 signaling pathway. J Ethnopharmacol 2022;296:115507 (PMID 35788038, doi:10.1016/j.jep.2022.115507; 정정문 PMID 42091358 있음; 초록 확인)", PM+"35788038/", "Elsevier / PubMed", A),
+ ("Efficacy of traditional herbal medicines in combination with acyclovir against herpes simplex virus type 1 infection in vitro and in vivo. Antiviral Res 1995;27(1-2):19-37 (PMID 7486956, doi:10.1016/0166-3542(94)00076-k; 초록 확인)", PM+"7486956/", "Elsevier / PubMed", A),
+]
+sources = [{"n": i+1, "title": t, "url": u, "publisher": p, "accessed": a} for i, (t, u, p, a) in enumerate(src)]
+
+S = {}
+S["overview"] = ("한눈에 보기",
+"뱀무(Geum japonicum Thunb.)는 장미과 뱀무속(Geum)의 여러해살이풀로, 식약처 「식품원료 목록」에는 이명 Geum iyoanum Koidz., 다른 이름 일본수양매, 영문명 Asian herb bennet으로 올라 있다[1]. 식품원료로서의 지위는 '사용가능'이며, 원료명은 '뱀무순', 사용 조건은 '사용가능부위 : 순'이다[1]. 따라서 식품으로 쓸 수 있는 부위는 어린 순뿐이고, 잎·뿌리·전초 전체는 이 종의 목록 행에 사용 부위로 올라 있지 않다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+"연구는 대부분 말린 전초(지상부와 뿌리를 포함한 식물 전체)나 그 추출물로 이루어졌고, 중국 연구의 상당수는 변종 Geum japonicum var. chinense를 썼다[3, 6, 16, 17]. 전초에는 엘라그산과 가수분해형 타닌, 토르멘트산 등 트리테르펜산이 많다고 보고되었다[3, 5, 7, 8]. 알려진 효과는 거의 모두 시험관·세포·동물 실험 결과이며, 순을 먹었을 때의 효과를 본 사람 대상 임상시험은 확인하지 못함.")
+
+S["history"] = ("이용의 역사",
+"중국 전통의학에서 뱀무는 이뇨제·수렴제와 어지럼·두통을 다스리는 약재로 쓰였다고 소개된다[4]. 변종 var. chinense는 중국어로 '란부정(蓝布正)'이라 불리며 2015년판 중국약전에 실린 생약이고, 중국과 아시아 여러 나라에서 기능성 채소나 민간 약으로 쓰인다고 논문들은 적고 있다[3, 6]. 중국 소수민족인 먀오족의 전통 약으로 심혈관 질환과 조혈 촉진에 써 왔다는 기록도 있다[19, 27].\n\n"
+"1990년대 일본 연구진은 열수 추출물의 항바이러스 활성을 생쥐 감염 모델에서 보고했다[12, 13, 28]. 이어 전초 메탄올 추출물에서 HIV-1 단백질분해효소를 억제하는 트리테르펜산과 혈액 응고 효소를 억제하는 타닌이 분리되었다[7, 8, 9]. 2000년대에는 홍콩 연구진이 심근경색 동물 모델에서 추출 분획의 효과를 보고했으나, 그중 한 편은 PubMed에 철회 논문으로 표시되어 있다[22, 23]. 2008년 무렵 한국 연구진도 추출물·분획의 세포 실험 결과를 냈다[20, 21]. 한국에서 순을 나물로 먹는 전통에 관한 공공기관 자료는 확인하지 못함.")
+
+S["biology"] = ("식물학적 특징",
+"뱀무속은 장미과 장미아과(Rosoideae) 콜루리아족(Colurieae)에 속하며, 이 족 75종 가운데 약 72종을 차지하는 가장 큰 속이다[15]. 넓은 뜻의 뱀무속은 뿌리잎이 로제트(방석 모양)로 모여 나는 여러해살이풀로 정의되며, 북아메리카·아시아·유럽에 주로 분포한다[15]. 뱀무속 식물은 저지대 풀밭과 습한 초지, 숲, 바위 비탈부터 해발 5,400 m 고산 초원까지 다양한 곳에 자란다[15].\n\n"
+"뱀무 표본과 원료는 일본, 한국, 중국에서 확인된다[3, 5, 24]. 일본에서는 잎벌류(Empria) 두 종의 먹이식물로 기록되었다[24]. 한국 연구에는 국내 천연물 소재은행에 등록된 전초가 쓰였다[5]. 중국 연구에서는 허난·후베이·저장·간쑤·광둥 등지의 전초가 분석되었다[3]. 줄기·잎·꽃·열매의 크기와 꽃 피는 시기 같은 형태 자료는 이번 조사에서 공식 식물지로 확인하지 못함.")
+
+S["related_species"] = ("가까운 종과 구별",
+"식약처 「식품원료 목록」에는 같은 속 원료로 큰뱀무(Geum aleppicum, 잎·순), 허브베니트(Geum urbanum, 뿌리·잎), Water avens뿌리(Geum rivale, 뿌리), White avens뿌리(Geum canadense, 뿌리)가 따로 올라 있다[2]. 이들은 사용 부위가 서로 다르므로 뱀무의 '순' 조건을 다른 종에 옮겨 쓰면 안 된다[1, 2]. 목록에서 Geum rivale 행의 영문명은 'Herb Robert, Old-mans-whiskers'로 적혀 있다[2].\n\n"
+"엽록체 유전체 비교에서 뱀무는 큰뱀무와 가장 가까웠다[14]. 다른 연구에서는 큰뱀무, 허브베니트, 뱀무 변종 var. chinense가 엽록체 계통수에서 서로 섞여 하나씩 묶이지 않았다[15]. 그래서 엽록체 서열만으로 이 세 분류군을 가리기는 어렵다[15]. 중국 약재 '란부정'은 변종 var. chinense이므로, 그 성분·효능 자료를 한국의 뱀무순에 그대로 옮겨서는 안 된다[6, 15].")
+
+S["cultivation"] = ("자생·재배와 원료 수급",
+"국내에서 뱀무를 재배하거나 순을 수확한 생산 통계는 통계청·농림축산식품부 자료에서 확인하지 못함. 한국 연구는 국내 천연물 소재은행이 보유한 전초를 썼다[5]. 중국 연구는 안후이성 약재 회사에서 산 전초나 구이저우성에서 채취한 원료를 썼다[3, 6].\n\n"
+"산지에 따라 성분 함량이 다르다는 보고가 있다[3]. 중국 5개 성에서 모은 10개 배치의 전초에서 엘라그산 수율은 3.0641 ± 0.0767 ~ 4.0266 ± 0.1292 mg/g이었다[3]. 허난산이 가장 높았고 간쑤산이 가장 낮았으며, 저자들은 강수량 등 생육 환경 차이를 원인으로 추정했다[3]. 중국 황산 지역의 변종 var. chinense는 외래 침입식물 미국가막사리(Bidens frondosa)의 뿌리·줄기·잎 우려낸 물에서 종자 발아가 억제되었다[25]. 순의 수확 시기·재배 방법에 관한 공공기관 자료는 확인하지 못함.")
+
+S["processing"] = ("가공과 제품",
+"식품으로는 순만 쓸 수 있고, 순을 데치거나 말리는 가공법에 관한 공공기관 자료는 확인하지 못함[1]. 연구용 추출에는 여러 방법이 쓰였다[3, 4, 5, 12]. 한국 연구는 말린 원료를 70% 에탄올로 80 °C에서 6시간 추출해 동결건조했고, 수율은 9.1%였다[4]. 다른 한국 연구는 말린 전초를 50% 에탄올로 80 °C에서 2시간 환류 추출했다[5]. 일본 연구는 열수(뜨거운 물) 추출물을 썼다[12, 13].\n\n"
+"중국 연구진은 염화콜린과 옥살산으로 만든 천연 공융용매(NADES)에 초음파를 함께 쓰면 엘라그산 수율이 메탄올보다 3.3배, 에탄올보다 1.7배 높다고 보고했다[3]. 변종 var. chinense에서는 추출법에 따라 다당류의 수율과 성질이 달라진다는 연구도 있다[26]. 식약처 「식품 등의 생산실적」에서 뱀무를 원료로 한 건강기능식품 품목은 확인하지 못함.")
+
+S["genetics"] = ("유전과 분류",
+"뱀무의 엽록체 유전체는 길이 156,042 bp로, 대단일복사·소단일복사 영역과 한 쌍의 역반복 영역으로 이루어진 전형적인 4분 구조였다[14]. 이 유전체에는 단백질 암호 유전자 87개, tRNA 유전자 36개, rRNA 유전자 8개 등 131개 고유 유전자와 단순반복서열 87개가 있었다[14]. 뱀무속 4종을 비교해 ndhF, ycf1, rps16 등 변이가 큰 14개 영역을 찾았고, 이는 종 판별용 표지 후보가 된다[14].\n\n"
+"뱀무속 11개 분류군 32개 시료를 비교한 연구에서 엽록체 유전체 크기는 155,175~156,248 bp로 구조와 유전자 배열이 잘 보존되어 있었다[15]. 이 연구는 엽록체 자료가 뱀무속을 넓게 정의하는 분류(Smedmark의 재정의)를 지지한다고 결론지었다[15]. 뱀무 자체의 핵 유전체 해독 결과는 확인하지 못함.")
+
+S["safety"] = ("안전성과 사용 조건",
+"식약처 「식품원료 목록」에서 뱀무는 '사용가능' 원료이며 사용 조건은 '사용가능부위 : 순'이다[1]. 따라서 뿌리나 전초 추출물은 이 목록 행으로 식품 사용이 허용된 부위가 아니다[1]. 식약처·농촌진흥청 등 공공기관이 낸 뱀무의 알레르기·잔류농약·독성 성분 정보는 확인하지 못함.\n\n"
+"전초 추출물과 그 타닌은 시험관에서 트롬빈·Xa 인자를 억제하고, 쥐 혈소판의 응집을 억제했다[5, 7]. 사람에게서 출혈 위험이나 항응고제와의 상호작용을 확인한 자료는 확인하지 못함. 다만 이 결과 때문에 항응고제·항혈소판제를 먹는 사람이 추출물을 많이 먹을 때는 주의가 필요할 수 있다는 점은 실험 근거에서 나온 추정이다[5, 7]. 생쥐에게 아시클로버와 함께 먹였을 때 독성은 관찰되지 않았다[28]. 중국 연구진은 민간에서 오래 썼어도 부작용 보고는 없지만 더 엄격한 독성 시험이 필요하다고 적었다[6]. 철회된 논문의 결과는 근거로 쓰지 않는다[22].")
+
+sections = [{"key": k, "title": v[0], "body": v[1]} for k, v in S.items()]
+
+W = "전초(식품원료 사용 부위인 순과 다름)"
+compounds = [
+ {"name": "Ellagic acid", "name_ko": "엘라그산", "class": "폴리페놀(디락톤)", "role": "marker", "part": W,
+  "content_text": "중국 5개 성 전초 10배치, NADES(염화콜린:옥살산) 초음파 추출, 건조 분말 기준 3.0641 ± 0.0767 ~ 4.0266 ± 0.1292 mg/g[3]",
+  "activity_ko": "전초의 주요 활성 성분으로 소개됨[3]; 변종 var. chinense에서 분리되어 지방산 합성효소 억제(시험관)[10]", "source": [3, 10]},
+ {"name": "3,4,5-Trihydroxybenzaldehyde", "name_ko": "3,4,5-트라이하이드록시벤즈알데하이드(갈릭알데하이드)", "class": "페놀 알데하이드", "role": "marker", "part": "부위 미기재 말린 원료의 70% 에탄올 추출물",
+  "content_text": "추출물 분말 3.5 ± 0.12 mg/g[4]",
+  "activity_ko": "한국 연구에서 추출물 표준화 지표로 씀[4]; 사람 대동맥 평활근세포에서 MMP-9 활성·발현 억제(세포 실험)[20]", "source": [4, 20]},
+ {"name": "Tormentic acid", "name_ko": "토르멘트산", "class": "우르산형 트리테르펜산", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "전초에서 분리[8]; 한국산 전초 50% 에탄올 추출물 UPLC-QTOF-MS에서 두 번째로 큰 신호(상대 신호, 정량 아님)[5]", "source": [5, 8]},
+ {"name": "23-Hydroxytormentic acid", "name_ko": "23-하이드록시토르멘트산", "class": "트리테르펜산", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "한국산 전초 추출물 UPLC-QTOF-MS에서 가장 큰 신호(상대 신호, 정량 아님); 저자들은 항혈소판 활성 후보로 제시[5]", "source": [5]},
+ {"name": "Geumonoid", "name_ko": "게우모노이드", "class": "트리테르펜", "role": "bioactive", "part": "부위 미기재(뱀무에서 처음 분리)",
+  "content_text": "", "activity_ko": "HIV-1 단백질분해효소 억제(시험관)[9]; 한국산 전초 추출물에서도 검출[5]", "source": [5, 9]},
+ {"name": "Ursolic acid", "name_ko": "우르솔산", "class": "트리테르펜산", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "전초 메탄올 추출물에서 분리, HIV-1 단백질분해효소 억제(시험관)[8]", "source": [8]},
+ {"name": "Maslinic acid", "name_ko": "마슬린산", "class": "트리테르펜산", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "전초 메탄올 추출물에서 분리, HIV-1 단백질분해효소 억제(시험관)[8]", "source": [8]},
+ {"name": "Pedunculagin", "name_ko": "페둔쿨라긴", "class": "엘라기타닌", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "트롬빈 경쟁적 억제, 합성기질·피브리노겐 가수분해 IC50 0.18·0.15 μM(시험관)[7]; 변종 var. chinense에서도 분리[10]", "source": [7, 10]},
+ {"name": "Tellimagrandin II", "name_ko": "텔리마그란딘 II", "class": "엘라기타닌", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "토끼 혈장 응고 시간 연장, 트롬빈·Xa 인자 억제(시험관)[7]; 변종 var. chinense에서 지방산 합성효소 억제(시험관)[10]", "source": [7, 10]},
+ {"name": "Eugeniin", "name_ko": "유게니인", "class": "엘라기타닌", "role": "bioactive", "part": "열수 추출물(부위 미기재)",
+  "content_text": "", "activity_ko": "단순포진바이러스 억제 성분으로 분리; Vero 세포에서 50% 플라크 감소 농도 5.0 μg/mL, 바이러스 DNA 중합효소 억제(세포·효소 실험)[12]", "source": [12]},
+ {"name": "1,2,3,4,6-Pentagalloylglucose", "name_ko": "펜타-O-갈로일-β-글루코스", "class": "갈로타닌", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "혈액 응고 억제(시험관)[7]; 쥐 대동맥 고리 이완 82 ± 10%(10 μM, 적출 조직 실험)[11]", "source": [7, 11]},
+ {"name": "Casuariin", "name_ko": "카수아리인", "class": "엘라기타닌", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "혈액 응고 억제(시험관)[7]; 쥐 대동맥 고리 이완 61 ± 8%(10 μM, 적출 조직 실험)[11]", "source": [7, 11]},
+ {"name": "5-Desgalloylstachyurin", "name_ko": "5-데스갈로일스타키우린", "class": "엘라기타닌", "role": "bioactive", "part": W,
+  "content_text": "", "activity_ko": "혈액 응고 억제(시험관)[7]; 쥐 대동맥 고리 이완 82 ± 14%(10 μM, 적출 조직 실험)[11]", "source": [7, 11]},
+ {"name": "Gemin A", "name_ko": "게민 A", "class": "이량체 엘라기타닌", "role": "bioactive", "part": "변종 var. chinense 메탄올 추출물(부위 미기재)",
+  "content_text": "", "activity_ko": "지방산 합성효소 억제와 ORAC 항산화 활성(시험관)[10]", "source": [10]},
+ {"name": "Niga-ichigoside F1", "name_ko": "니가이치고사이드 F1", "class": "트리테르펜 배당체", "role": "bioactive", "part": "변종 var. chinense(부위 미기재)",
+  "content_text": "", "activity_ko": "고지방식 생쥐에 40 mg/kg 투여 시 간 지방 축적 완화(동물 실험)[18]", "source": [18]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Ellagic acid", "compound_ko": "엘라그산", "part": "전초 분말(중국 시판 약재, 식품원료 사용 부위인 순과 다름)",
+  "content": "최적 조건 3.2142 ± 0.0907 mg/g; 5개 성 10배치 3.0641 ± 0.0767 ~ 4.0266 ± 0.1292 mg/g(건조 분말 기준)[3]",
+  "method": "HPLC-PDA",
+  "conditions": {"instrument": "Waters Acquity Arc UHPLC + 포토다이오드어레이 검출기", "column": "Waters SunFire C18(4.6 × 150 mm, 5 μm)",
+   "mobile_phase": "A: 메탄올, B: 0.7% 인산 수용액", "gradient": "0–5분 A 8→60%; 5–10분 60→68%; 10–11분 68→90%; 11–12분 90→8%",
+   "flow": "1 mL/min", "temp": "30 °C", "detection": "253.4 nm", "injection": "10 μL",
+   "sample_prep": "전초 분말을 50메시로 체질; 염화콜린:옥살산(1:1) NADES, 물 함량 47%, 31분, 고액비 '10:1 mg·mL'(원문 표기), 70 °C, 300 W 초음파 추출 → 8,000 rpm 20분 원심분리 → 상등액 1 mL에 물 1 mL 희석 → 10,000 rpm 10분 원심분리 후 분석",
+   "standard": "엘라그산(순도 ≥98%)", "linearity": "3.906–125 μg/mL, 상관계수 1.000(메탄올·NADES 용매 각각 검량선)", "lod": "", "loq": "",
+   "recovery": "평균 98.42%(RSD 2.09%); 정밀성·반복성·안정성 RSD 0.40·2.87·0.85%; 매트릭스 효과 <5%"},
+  "rationale": "저자들이 전초의 주요 활성 성분으로 보고 산지별 함량을 비교한 지표다; 검출·정량한계는 본문에 없다[3]",
+  "source": [3], "url": PMC+"PMC9868705/", "source_kind": "paper"},
+ {"role": "literature", "compound": "3,4,5-Trihydroxybenzaldehyde", "compound_ko": "3,4,5-트라이하이드록시벤즈알데하이드", "part": "말린 원료(부위 미기재)의 70% 에탄올 추출물 분말",
+  "content": "추출물 분말 3.5 ± 0.12 mg/g[4]",
+  "method": "HPLC-PDA",
+  "conditions": {"instrument": "Jasco HPLC(PU-980 펌프, AS-950-10 자동주입기, MD-2010 PDA 검출기)", "column": "Waters SunFire C18(4.6 × 250 mm, 5 μm)",
+   "mobile_phase": "물·0.2%(v/v) 포름산과 아세토니트릴/메탄올(60:40, v/v)", "gradient": "원문 표기 그대로: 0–10분 90%, 10–15분 77%, 15–35분 40%로 낮춘 뒤 35–40분 90%로 복귀(0.2% 포름산 비율), 총 40분",
+   "flow": "1.0 mL/min", "temp": "30 °C", "detection": "330 nm", "injection": "",
+   "sample_prep": "말린 원료 300 g을 70% 에탄올 3,000 mL로 80 °C에서 6시간 추출, 여과 후 동결건조(수율 9.1%)",
+   "standard": "3,4,5-트라이하이드록시벤즈알데하이드(시판 표준품)", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "한국 연구에서 추출물을 표준화하는 활성·표준 성분으로 썼다; 검량선·검출한계·회수율은 본문에 없다[4]",
+  "source": [4], "url": PMC+"PMC6950235/", "source_kind": "paper"},
+]
+
+d = {
+ "slug": "geum-japonicum", "name_ko": "뱀무", "name_en": "Asian herb bennet",
+ "scientific_name": "Geum japonicum Thunb.",
+ "aliases": ["뱀무순", "일본수양매", "Asian herb bennet", "Geum iyoanum Koidz."],
+ "sections": sections, "compounds": compounds, "markers": [], "assays": assays,
+ "nutrients": [], "production": [], "world": [], "gi": [], "orgs": [], "sources": sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

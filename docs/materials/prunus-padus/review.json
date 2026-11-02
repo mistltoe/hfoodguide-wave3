@@ -1,0 +1,80 @@
+{
+ "slug": "prunus-padus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 82,
+ "checked_items": 49,
+ "verified": 118,
+ "fixed": 10,
+ "removed": 0,
+ "unverifiable": 3,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "열매는 지름 1 cm 남짓한 검붉은 핵과로, 이탈리아에서",
+   "after": "기본종 귀룽나무의 열매는 지름 1 cm 남짓한 검붉은 핵과이며, 이탈리아에서",
+   "why": "[2]의 열매 크기·색은 기본종(P. padus) 자료이므로 변종(서울귀룽나무) 서술처럼 읽히지 않게 주어를 기본종으로 밝힘"
+  },
+  {
+   "where": "sections.history",
+   "before": "한국에서는 귀룽나무가 뇌졸중·신경통·간염 등에 쓰인 전통 약재로 소개되었으며, 이 근거를 살피려는 연구가 줄기 추출 분획으로 이루어졌다[8].",
+   "after": "국내 대학 연구진의 2012년 논문은 귀룽나무(P. padus)가 뇌졸중·신경통·간염 등에 전통 약으로 널리 쓰였다고 소개하고, 줄기 추출물의 염화메틸렌 분획으로 세포·생쥐 실험을 했다[8].",
+   "why": "[8] 초록은 전통 사용 지역을 한국으로 특정하지 않음; 분획(methylene chloride)과 실험 수준(세포·생쥐)을 원문대로 밝힘"
+  },
+  {
+   "where": "sections.history",
+   "before": "열매·나무껍질·잎 가루·꽃은 러시아와 스칸디나비아에서 민간 약으로 쓰였고,",
+   "after": "열매·나무껍질·잎 가루·꽃은 러시아와 스칸디나비아에서 마취·소독 용도의 민간 약으로 쓰인다고 하며,",
+   "why": "[2] 원문은 anesthetics and disinfectants 로 현재형 서술"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "매실나무씨앗·살구나무씨앗처럼 씨앗 행은 '사용불가'이다[1].",
+   "after": "매실나무씨앗·살구나무씨앗 행은 '사용불가'이다[1].",
+   "why": "I1020 원자료에는 왕벚나무씨앗·만첩홍매실씨앗처럼 사용가능한 씨앗 행도 있어 일반화를 뺌"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "영어로 black cherry라 불리는 북미의 P. serotina는 귀룽나무와 함께 다뤄지는 일이 많아 자료를 옮길 때 종을 구별해야 한다[3].",
+   "after": "영어로 American black cherry라 불리는 북미의 P. serotina는 [3]처럼 귀룽나무와 한 리뷰에서 함께 다뤄지기도 하므로 자료를 옮길 때 종을 구별해야 하며[3], 식약처 목록에도 '세로티나벚나무열매'(P. serotina Ehrh., 열매(씨앗 제외) 사용가능)로 따로 올라 있다[1].",
+   "why": "[3]은 한 리뷰일 뿐이라 '일이 많아' 일반화를 줄이고, I1020 원자료의 P. serotina 별도 행을 덧붙여 근연종 구분 근거를 보강"
+  },
+  {
+   "where": "sections.safety",
+   "before": "리뷰는 열매의 씨에 시안배당체가 있어 열처리 없이 많이 먹으면 해로울 수 있다고 적었다[3].",
+   "after": "P. padus와 P. serotina를 함께 다룬 리뷰는 두 종을 묶은 '야생 벚나무류' 열매의 씨에 시안배당체가 있어 열처리 없이 많이 먹으면 해로울 수 있다고 적었다[3].",
+   "why": "[3] 원문 문장의 주어는 두 종을 묶은 wild cherry 로 P. padus 단독 서술이 아님"
+  },
+  {
+   "where": "sections.safety",
+   "before": "같은 가루의 지방산 가운데 에루크산이 74.55%로 높아 저자들은 섭취량 평가가 더 필요하다고 했다[4].",
+   "after": "같은 가루의 지방산 가운데 에루크산이 74.55%로 높았고, 저자들은 독성학적으로 우려가 될 수 있다며 유럽식품안전청의 에루크산 내용일일섭취량(체중 kg당 7 mg)을 인용했다[4].",
+   "why": "[4] 원문은 '섭취량 평가 필요'가 아니라 'may raise concerns'와 EFSA TDI 7 mg/kg bw 인용"
+  },
+  {
+   "where": "name_en",
+   "before": "Seoul bird cherry (bird cherry)",
+   "after": "Seoul bird cherry",
+   "why": "I1020 영어명은 Seoul bird cherry; bird cherry 는 기본종 이름이라 변종과 섞이지 않게 뺌"
+  },
+  {
+   "where": "aliases",
+   "before": "European bird cherry",
+   "after": "European bird cherry(기본종 귀룽나무의 영어명)",
+   "why": "[2]에서 P. padus(기본종)를 가리키는 이름이므로 변종 별명처럼 보이지 않게 표시"
+  },
+  {
+   "where": "sources[1].title",
+   "before": "…Capulin열매 등) 대조",
+   "after": "…Capulin열매·세로티나벚나무열매(P. serotina) 등) 대조",
+   "why": "본문에 새로 인용한 행 반영"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품원료 지위는 로컬 I1020_20261013.json 원자료로 대조: 서울귀룽나무열매(Prunus padus L. var. seoulensis Nakai. / Prunus diversifolia Koehne, Seoul bird cherry, 열매(씨앗 제외), 사용가능, 식품원료(A코드))와 귀룽나무(Prunus padus Linne., 이명 귀중목·구름나무·귀롱나무, 부위 전체, 사용불가) 두 행이 따로 있음을 확인 — 본문 전체에서 변종(사용가능)과 기본종(사용불가) 구분이 지켜짐",
+  "P. serotina 자료 섞임 점검: [3] 리뷰의 P. serotina 잎 시안배당체 수치(59.49·20.95 mg/g)는 쓰이지 않았고, [3] 인용 문장 중 종이 모호한 시안배당체 문장은 두 종 묶음 서술로 고침",
+  "[2]·[3]·[4]·[5]는 PMC 전문, 나머지는 PubMed 초록·메타데이터로 대조. [2]의 이동상·파장·LOD/LOQ 표와 [9] 분석 조건은 본문 표·전문이 없어 확인 불가(원래 '확인 못함'으로 표기됨)",
+  "[13] 소 중독 보고는 초록이 없어 제목·MeSH만 확인",
+  "[7] 한라산 시료와 GCA_024362665.1 조립본이 서울귀룽나무 변종인지 기본종인지 원자료로 확인할 수 없음(본문에 이미 '확인하지 못함' 표기)"
+ ]
+}

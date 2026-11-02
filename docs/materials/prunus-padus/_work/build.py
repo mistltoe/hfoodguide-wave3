@@ -1,0 +1,93 @@
+import json
+A="2026-11-02"
+def pm(n,title,doi,note=""):
+    return {"n":n,"title":title+(" — "+note if note else ""),"url":"https://doi.org/"+doi,"publisher":"PubMed","accessed":A}
+sources=[
+ {"n":1,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 서울귀룽나무열매(Prunus padus L. var. seoulensis Nakai. / Prunus diversifolia Koehne; Seoul bird cherry), 사용가능, 사용가능부위: 열매(씨앗 제외), 식품원료(A코드); 같은 목록의 귀룽나무(Prunus padus Linne., 이명 귀중목·구름나무·귀롱나무, 부위 전체) 사용불가 행과 같은 속 다른 행(매실·아몬드·서양자두·버찌·살구·Capulin열매 등) 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)","url":"https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020","publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ pm(2,"New Findings in Prunus padus L. Fruits as a Source of Natural Compounds: Characterization of Metabolite Profiles and Preliminary Evaluation of Antioxidant Activity — Molecules 2018;23(4):725","10.3390/molecules23040725","PMID 29565317, PMC6017070, 전문 확인(분석 조건 표·LOD/LOQ 표는 본문에 없음)"),
+ pm(3,"Phytopharmacological Possibilities of Bird Cherry Prunus padus L. and Prunus serotina L. Species and Their Bioactive Phytochemicals — Nutrients 2020;12(7):1966","10.3390/nu12071966","PMID 32630652, PMC7399899, 전문 확인; 두 종을 함께 다룬 리뷰로 본문 학명 표기가 빠진 곳이 많아 종이 분명한 문장만 인용"),
+ pm(4,"Chemical, Bioactive, and Functional Characterization of a Protein Preparation from Prunus padus L. Flour — Molecules 2025;30(18):3766","10.3390/molecules30183766","PMID 41011658, PMC12473114, 전문 확인; 씨를 포함한 시판 열매 가루, 본문에 'American bird cherry'·'capulín' 표기가 섞여 있음"),
+ pm(5,"The genome sequence of Prunus padus L., 1753 (Rosales: Rosaceae) — Wellcome Open Res 2026;11:333","10.12688/wellcomeopenres.26679.1","PMID 42732102, PMC13563005, 전문 확인"),
+ pm(6,"Rhamnocitrin isolated from Prunus padus var. seoulensis: A potent and selective reversible inhibitor of human monoamine oxidase A — Bioorg Chem 2019;83:317-325","10.1016/j.bioorg.2018.10.051","PMID 30396116, 초록만 확인"),
+ pm(7,"In vitro Screening for Antioxidant, Antimicrobial, and Antidiabetic Properties of Some Korean Native Plants on Mt. Halla, Jeju Island — Indian J Pharm Sci 2015;77(6):668-74","10.4103/0250-474x.174984","PMID 26997693, PMC4778225, 초록 확인"),
+ pm(8,"Anti-inflammatory and anti-nociceptive properties of Prunus padus — J Ethnopharmacol 2012;144(2):379-86","10.1016/j.jep.2012.09.023","PMID 23010365, 초록만 확인"),
+ pm(9,"Lipophilic extracts from leaves, inflorescences and fruits of Prunus padus L. as potential sources of corosolic, ursolic and oleanolic acids with anti-inflammatory activity — Nat Prod Res 2021;35(13):2263-2268","10.1080/14786419.2019.1666385","PMID 31533493, 초록만 확인"),
+ pm(10,"Structure, degree of polymerization, and starch hydrolase inhibition activities of bird cherry (Prunus padus) proanthocyanidins — Food Chem 2022;385:132588","10.1016/j.foodchem.2022.132588","PMID 35303652, 초록만 확인"),
+ pm(11,"Antioxidant capacities and anthocyanin characteristics of the black-red wild berries obtained in Northeast China — Food Chem 2016;204:150-158","10.1016/j.foodchem.2016.02.122","PMID 26988488, 초록만 확인(Padus avium 표기)"),
+ pm(12,"The Identification of Anthocyanins from Padus racemosa and Its Protective Effects on H2O2-Induced INS-1 Cells Damage and STZ-Induced Diabetes Mice — Chem Biodivers 2020;17(11):e2000382","10.1002/cbdv.202000382","PMID 32914574, 초록만 확인"),
+ pm(13,"Prunus padus (bird cherry) poisoning in cattle — Vet Rec 1996;138(8):188","10.1136/vr.138.8.188","PMID 8677622, 초록 없음, 제목·MeSH만 확인"),
+ pm(14,"Polyphyly of the Padus group of Prunus (Rosaceae) and the evolution of biogeographic disjunctions between eastern Asia and eastern North America — J Plant Res 2013;126(3):351-61","10.1007/s10265-012-0535-1","PMID 23239308, 초록만 확인"),
+ pm(15,"Multiple Events of Allopolyploidy in the Evolution of the Racemose Lineages in Prunus (Rosaceae) Based on Integrated Evidence from Nuclear and Plastid Data — PLoS One 2016;11(6):e0157123","10.1371/journal.pone.0157123","PMID 27294529, PMC4905661, 초록 확인"),
+ pm(16,"Phylogeny and classification of Prunus sensu lato (Rosaceae) — J Integr Plant Biol 2013;55(11):1069-79","10.1111/jipb.12095","PMID 23945216, 초록만 확인"),
+ pm(17,"Metabolite profiling and antioxidant activity of Prunus padus L. flowers and leaves — Nat Prod Res 2011;25(12):1115-31","10.1080/14786410903230359","PMID 21347973, 초록만 확인"),
+ pm(18,"Chemical composition of Prunus padus L. flower extract and its anti-inflammatory activities in primary bone marrow-derived macrophages — J Ethnopharmacol 2021;268:113678","10.1016/j.jep.2020.113678","PMID 33307057, 초록만 확인"),
+ pm(19,"Extraction, structural features, and bioactivities of polysaccharides from Prunus padus L. berries — Nat Prod Res 2026","10.1080/14786419.2026.2738214","PMID 42782048, 초록만 확인"),
+ pm(20,"Screening seeds of Scottish plants for antibacterial activity — J Ethnopharmacol 2002;83(1-2):73-7","10.1016/s0378-8741(02)00214-3","PMID 12413709, 초록만 확인"),
+ pm(21,"Host acceptance by aphids: probing and larviposition behaviour of the bird cherry-oat aphid, Rhopalosiphum padi on host and non-host plants — J Insect Physiol 2012;58(5):660-8","10.1016/j.jinsphys.2012.01.017","PMID 22343318, 초록만 확인"),
+ pm(22,"A comparison of phenological models of leaf bud burst and flowering of boreal trees using independent observations — Tree Physiol 2008;28(12):1873-82","10.1093/treephys/28.12.1873","PMID 19193570, 초록만 확인"),
+ pm(23,"Chemical constituents of bird cherry (Prunus padus L.) stemwood and knotwood bioactive-rich extracts and their antioxidant activity — Nat Prod Res 2026","10.1080/14786419.2026.2632386","PMID 41709760, 초록만 확인"),
+ {"n":24,"title":"[Spatial autocorrelation of genetic structure of Prunus padus population in broadleaved Korean pine forest of Changbai Mountains] — Ying Yong Sheng Tai Xue Bao 2014;25(2):305-10 (PMID 24830226, 중국어 논문, 영문 초록만 확인)","url":"https://pubmed.ncbi.nlm.nih.gov/24830226/","publisher":"PubMed","accessed":A},
+ pm(25,"Fruits of Wild-Grown Shrubs for Health Nutrition — Plant Foods Hum Nutr 2024;79(1):20-37","10.1007/s11130-024-01144-3","PMID 38280176, 초록만 확인"),
+]
+
+S=[]
+def sec(k,t,b): S.append({"key":k,"title":t,"body":b})
+sec("overview","한눈에 보기",
+"서울귀룽나무는 장미과 벚나무속(Prunus)의 낙엽 활엽수로, 식약처 「식품원료 목록」에는 원료명 '서울귀룽나무열매', 학명 Prunus padus L. var. seoulensis Nakai(이명 Prunus diversifolia Koehne), 영어명 Seoul bird cherry로 올라 있다[1]. 이 행은 '사용가능' 원료이고 사용 조건이 '사용가능부위 : 열매(씨앗 제외)'여서 씨를 뺀 열매만 식품에 쓸 수 있다[1]. 같은 목록에 기본종 '귀룽나무'(Prunus padus Linne., 이명 귀중목·구름나무·귀롱나무)가 부위 '전체', '사용불가'로 따로 올라 있으므로, 원료명과 학명을 변종 수준까지 확인해야 한다[1]. 두 행 모두 대분류는 '식품원료(A코드)'이다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+"열매는 지름 1 cm 남짓한 검붉은 핵과로, 이탈리아에서 재배한 귀룽나무 열매(씨 제외)에서 유기산·안토시아닌·카테킨류·비타민 C가 정량되었다[2]. 성분·효능 연구는 대부분 유럽·중국의 기본종(P. padus)을 대상으로 하며, 서울귀룽나무 변종의 열매만 따로 분석한 연구는 확인하지 못함. 효능 근거는 시험관·세포·동물 실험이고 사람 시험은 확인하지 못함. 씨와 잎에는 시안배당체가 있다고 보고되어 안전성 절에 정리했다[2, 5].")
+sec("history","역사",
+"유럽에서 귀룽나무는 중세부터 약용·식용으로 알려진 나무다[2]. 동유럽·북유럽에서는 열매를 말려 빻은 뒤 파이 속에 넣거나 밀가루에 섞어 굽고, 러시아에서는 리큐어나 걸쭉한 주스를 만든다고 소개된다[2]. 열매·나무껍질·잎 가루·꽃은 러시아와 스칸디나비아에서 민간 약으로 쓰였고, 공업용 농약이 나오기 전에는 나무껍질을 감자밭·사과밭에 뿌려 쥐와 곤충을 쫓았다고 한다[2]. 유럽 민간의학에서는 염증·통증·열을 줄이는 데 써 왔다[18].\n\n"
+"한국에서는 귀룽나무가 뇌졸중·신경통·간염 등에 쓰인 전통 약재로 소개되었으며, 이 근거를 살피려는 연구가 줄기 추출 분획으로 이루어졌다[8]. 제주 한라산 자생 식물을 견준 연구에서는 귀룽나무 가지 메탄올 추출물이 시험관에서 α-글루코시다아제를 억제(IC50 1.0 µg/mL)하고 그람양성균에 항균 활성을 보였다[7]. 서울귀룽나무 잎에서는 2019년 국내 연구가 활성 물질을 분리했다[6]. 2024년 리뷰는 귀룽나무 열매를 Sorbus aucuparia·Viburnum opulus·Sambucus nigra·Berberis vulgaris 열매와 함께 야생 관목 열매로 묶어 기능성 식품 소재로서의 가능성을 정리했다[25]. 서울귀룽나무 열매를 국내에서 먹어 온 기록은 확인하지 못함.")
+sec("biology","식물학적 특징",
+"기본종 귀룽나무는 유럽과 아시아의 온대·아한대에 자라는 낙엽 소교목 또는 큰 관목으로, 벚나무속에서 자연 분포가 가장 넓어 북쪽 삼림툰드라에서 남쪽 스텝 지대까지 퍼져 있다[5]. 강가·숲 가장자리처럼 습하고 양분이 많은 땅을 좋아하며, 뿌리 움돋이로 덤불을 이루고 곤충이 꽃가루를, 새가 씨를 옮긴다[5]. 나무는 15 m까지 자라고, 4월 말–5월 초에 크림빛 흰 꽃이 원통형 꽃차례로 피며, 작고 둥근 검은 핵과가 8–9월에 달린다[3].\n\n"
+"이탈리아 재배 계통 'Colorata'의 익은 열매는 길이 11.11 mm, 폭 11.94 mm, 무게 2.08 g이었고 가용성 고형분 16.17 °Brix, pH 2.93이었다[2]. 같은 논문은 열매가 끈적하고 맛이 밋밋하며 7–9월에 익어 일찍 떨어진다고 적었다[2]. 잎에는 시안배당체와 페놀 성분이 있어 초식 곤충에 대한 화학적 방어 물질로 작용한다[5]. 귀룽나무는 곡류 해충인 기장테두리진딧물(Rhopalosiphum padi)이 겨울을 나는 1차 기주이다[21]. 서울귀룽나무 변종을 기본종과 가르는 형태 특징은 확인하지 못함.")
+sec("related_species","이름과 가까운 종",
+"귀룽나무는 꽃이 총상꽃차례로 달리는 무리에 속하며, 2013년 엽록체·핵 유전자 분석에 기초한 분류는 넓은 의미의 벚나무속 안에 귀룽나무아속(Padus)·벚나무아속(Cerasus)·자두아속(Prunus) 셋을 두었다[16]. 반면 핵 ITS와 엽록체 유전자를 쓴 다른 연구에서는 귀룽나무아속이 Laurocerasus 무리와 뒤섞인 다계통군으로 나타났고, 유라시아의 P. padus와 북미 동부의 P. virginiana가 약 299만–410만 년 전에 갈라졌다고 추정되었다[14]. 총상꽃차례 무리는 여러 번의 이질배수화로 생겼다는 가설도 제시되었다[15].\n\n"
+"식약처 목록에는 같은 속의 매실(P. mume)·아몬드(P. dulcis)·서양자두(P. domestica)·버찌(P. pauciflora)·살구(P. armeniaca var. ansu)가 각각 다른 원료로 올라 있고, 매실나무씨앗·살구나무씨앗처럼 씨앗 행은 '사용불가'이다[1]. 영어로 black cherry라 불리는 북미의 P. serotina는 귀룽나무와 함께 다뤄지는 일이 많아 자료를 옮길 때 종을 구별해야 한다[3]. 귀룽나무 가루를 다룬 한 논문은 본문에서 'American bird cherry'·'capulín'이라는 이름을 섞어 썼는데[4], 식약처 목록의 Capulin열매는 Prunus salicifolia로 따로 올라 있다[1]. 중국 연구 가운데는 Padus avium·Padus racemosa라는 이름으로 귀룽나무류 열매를 다룬 것도 있다[11, 12].")
+sec("cultivation","재배와 산지",
+"서울귀룽나무 열매의 국내 재배 면적·생산량 통계는 확인하지 못함. 귀룽나무는 빨리 자라고 씨나 휘묻이로 쉽게 늘릴 수 있으며 뿌리 움돋이도 내므로, 북유럽처럼 기후가 거친 곳에서는 자생지에서 정원으로 옮겨 심기도 했다[2]. 반대로 여러 초식 곤충과 병원균의 기주여서 도시·농촌에서 베어 내는 일도 있었다[2]. 성분 연구에 쓰인 이탈리아 시료는 토리노 대학 유전자원 보존원에서 재배한 계통 'Colorata'를 7월 중순에 손으로 딴 것이었다[2].\n\n"
+"핀란드의 1896–2002년 관찰 자료로 귀룽나무 개화일을 예측한 연구에서는 단순한 적산온도 모형이 독립 자료에 가장 잘 맞았다[22]. 중국 창바이산 활엽수-잣나무림 25 ha 조사구의 396개체를 미소부수체로 분석한 연구에서는 꽃가루·씨 확산이 제한되고 무성번식을 하는 탓에 70 m 이내 개체끼리 유전적으로 비슷했다[24]. 진딧물 등 해충의 겨울 기주가 된다는 점은 재배 시 고려할 점이다[21]. 서울귀룽나무를 열매용으로 재배한 국내 사례는 확인하지 못함.")
+sec("processing","가공과 이용",
+"유럽에서는 열매를 말려 빻아 쓰며, 열매로 주스·과일 음료·와인을 만드는 가능성이 제시되었다[2]. 연구에 쓰인 시판 '귀룽나무 가루'는 익은 열매를 말린 뒤 대개 씨가 붙은 채 곱게 간 것이어서[4], 씨앗을 뺀 열매만 허용하는 국내 기준과 다르다[1]. 이 가루를 알칼리 추출해 만든 단백질 농축물은 단백질이 15.44 g/100 g에서 39.72 g/100 g으로 늘었고 아미그달린은 1.72 mg/g에서 0.15 mg/g으로 약 90% 줄었다[4].\n\n"
+"열매 다당류는 초음파 열수 추출 조건을 최적화해 조다당 수율 13.46%를 얻었고, 4.6 kDa 아라비노갈락탄과 4.4 kDa 펙틴성 다당 두 분획이 시험관에서 α-아밀라아제·α-글루코시다아제를 억제했다[19]. 열매 프로안토시아니딘은 평균 중합도 5.6의 올리고머로, 시험관에서 α-아밀라아제·α-글루코시다아제 IC50이 각각 0.19·0.18 µg/mL였다[10]. 이런 결과는 효소 실험이며 사람에서의 혈당 효과는 확인하지 못함. 식품에 쓸 수 없는 씨의 메탄올 추출물은 시험관에서 세균 5종과 메티실린내성 황색포도상구균에 활성을 보였다[20]. 식약처 「식품 등의 생산실적」에서 서울귀룽나무를 원료로 한 건강기능식품 품목은 확인하지 못함.")
+sec("genetics","유전 정보",
+"영국 에든버러에서 채집한 귀룽나무 한 그루로 염색체 수준 게놈이 해독되었으며, 전체 길이 454.49 Mb 가운데 97.36%가 16개 염색체에 배치되었다[5]. 유세포분석으로 잰 게놈 크기(1C)는 0.61 pg(600 Mb), k-mer 분석 추정치는 515.35 Mb, 이형접합도 0.77%, 반복서열 45.46%였다[5]. 기본 염색체 수가 x = 8이고 2n = 32여서 사배체로 보며, BUSCO 유전자의 82.6%가 중복으로 나타났다[5]. 미토콘드리아 유전체 두 개(280.28·155.92 kb)와 엽록체 유전체(158.96 kb)도 조립되었다[5].\n\n"
+"같은 논문은 서울대학교가 제출한 이 종의 이전 콘티그 수준 조립본(GCA_024362665.1)이 있다고 적었으나[5], 그 시료가 서울귀룽나무 변종인지는 확인하지 못함. 총상꽃차례 무리가 이질배수화로 생겼다는 가설은 사배체라는 점과 맞물린다[15]. 개체군 수준에서는 창바이산 개체군의 공간 유전 구조가 미소부수체로 분석되었다[24].")
+sec("safety","안전성",
+"식약처 목록에서 서울귀룽나무는 열매(씨앗 제외)만 사용가능한 식품원료이고, 기본종 귀룽나무(P. padus Linne.)는 부위 '전체'가 사용불가로 올라 있다[1]. 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 확인하지 못함. 이탈리아 열매 연구는 씨와 잎에 시안배당체가 들어 있다고 적었고[2], 게놈 논문도 잎의 시안배당체를 언급했다[5]. 리뷰는 열매의 씨에 시안배당체가 있어 열처리 없이 많이 먹으면 해로울 수 있다고 적었다[3].\n\n"
+"씨가 붙은 채 간 시판 열매 가루의 아미그달린은 1.72 mg/g이었고, 그 논문은 사람의 시안 독성량을 체중 kg당 0.5–3.5 mg, 아미그달린 1 mg이 시안 약 0.24 mg을 내는 것으로 인용했다[4]. 같은 가루의 지방산 가운데 에루크산이 74.55%로 높아 저자들은 섭취량 평가가 더 필요하다고 했다[4]. 소에서 귀룽나무 중독 사례가 보고되었다(초록 없음, 제목만 확인)[13]. 씨를 뺀 과육의 시안배당체 함량은 확인하지 못함. 국내 공공기관의 알레르기·잔류농약 정보는 확인하지 못함.")
+
+C=[]
+def c(name,ko,cls,role,part,ct,act,src): C.append({"name":name,"name_ko":ko,"class":cls,"role":role,"part":part,"content_text":ct,"activity_ko":act,"source":src})
+c("Cyanidin 3-glucoside","시아니딘-3-글루코사이드(총안토시아닌 환산 기준)","안토시아닌","marker","열매(씨 제외)","총안토시아닌 147.42 mg 시아니딘-3-글루코사이드 당량/100 g 생중량(pH 차등법, 개별 성분 함량 아님)[2]","열매 색을 내는 주 색소군; 총안토시아닌과 FRAP 항산화능의 상관 R = 0.998[2]",[2])
+c("Catechin","(+)-카테킨","플라반-3-올","marker","열매(씨 제외)","56.66 mg/100 g 생중량(HPLC-DAD)[2]; 줄기 옹이 목재 34 g/kg[23]","열매 카테킨류(82.09 mg/100 g)의 주성분; 지질 과산화 억제 등은 일반적 작용으로 소개됨[2]",[2,23])
+c("Epicatechin","(-)-에피카테킨","플라반-3-올","bioactive","열매(씨 제외)","25.43 mg/100 g 생중량[2]","프로안토시아니딘의 구성 단위[10]",[2,10])
+c("Quercitrin","퀘르시트린","플라보놀","bioactive","열매(씨 제외)","16.37 mg/100 g 생중량[2]","열매에서 가장 많은 플라보놀 지표[2]",[2])
+c("Quercetin","퀘르세틴","플라보놀","bioactive","열매(씨 제외)","11.86 mg/100 g 생중량[2]","항산화 플라보놀[2]",[2])
+c("Hyperoside","하이페로사이드(퀘르세틴-3-갈락토사이드)","플라보놀","bioactive","열매(씨 제외)·잎","열매 7.38 mg/100 g 생중량[2]; 잎에서 분리[17]","잎 추출물의 항산화 활성에 기여하는 성분 가운데 하나(시험관)[17]",[2,17])
+c("Chlorogenic acid","클로로겐산","페놀산","bioactive","열매(씨 제외)·꽃","열매 10.48 mg/100 g 생중량[2]; 꽃 에탄올 추출물의 주성분[18]","폴리페놀 산화효소의 기질로 가공 중 갈변에 관여[2]",[2,18])
+c("Ellagic acid","엘라그산","벤조산류","bioactive","열매(씨 제외)","11.41 mg/100 g 생중량[2]","항산화 페놀산[2]",[2])
+c("Quinic acid","퀸산","유기산","nutrient","열매(씨 제외)","324.48 mg/100 g 생중량(유기산 합계 553.88 mg/100 g)[2]","열매에서 가장 많은 유기산[2]",[2])
+c("Citric acid","시트르산","유기산","nutrient","열매(씨 제외)","217.24 mg/100 g 생중량[2]","신맛과 숙도 지표[2]",[2])
+c("gamma-Terpinene","γ-테르피넨","모노테르펜","bioactive","열매(씨 제외)","65.52 mg/100 g 생중량(모노테르펜 합계 106.65 mg/100 g)[2]","열매 향 성분[2]",[2])
+c("Ascorbic acid","비타민 C(아스코르브산+디히드로아스코르브산)","비타민","nutrient","열매(씨 제외)","아스코르브산 25.20 + 디히드로아스코르브산 50.87 = 76.07 mg/100 g 생중량[2]","항산화 비타민[2]",[2])
+c("Ursolic acid","우르솔산(코로솔산·올레아놀산과 합산)","트라이테르펜산","bioactive","열매·꽃·잎","세 트라이테르펜산 합계: 열매 0.25 mg/g 건조중량, 꽃 0.76–1.09, 잎 1.41–4.54 mg/g 건조중량[9]","클로로포름 추출물이 리폭시게나아제·히알루로니다아제를 억제(시험관)[9]",[9])
+c("Amygdalin","아미그달린","시안배당체","bioactive","씨를 포함한 건조 열매 가루(씨앗은 국내 사용 불가 부위)","씨 포함 열매 가루 1.72 mg/g, 단백질 농축물 0.15 mg/g(RP-HPLC)[4]","가수분해되면 시안화수소를 내는 독성 성분[4]",[4])
+c("Rhamnocitrin","람노시트린","플라보놀","bioactive","잎(서울귀룽나무 변종; 식용 허용 부위 아님)","잎에서 분리(함량은 초록에 없음)[6]","사람 MAO-A 억제 IC50 0.051 µM(효소 실험)[6]",[6])
+
+assays=[
+ {"role":"literature","compound":"Catechin","compound_ko":"(+)-카테킨 등 열매 생리활성 성분 23종(페놀류·유기산·모노테르펜·비타민 C)","part":"열매(씨 제외, 이탈리아 재배 'Colorata' 계통)","content":"(+)-카테킨 56.66 mg/100 g, 퀘르시트린 16.37 mg/100 g, 클로로겐산 10.48 mg/100 g 생중량[2]",
+  "method":"HPLC-DAD(외부 표준 검량)","conditions":{"instrument":"Agilent 1200 HPLC, Agilent UV-Vis 다이오드 배열 검출기","column":"Kinetex C18, 4.6 × 150 mm, 5 μm(Phenomenex)","mobile_phase":"성분군별 5가지 방법(이동상 조성은 본문 표에 있으나 확인 못함; 포름산·인산 첨가)","gradient":"성분군별 선형 기울기(세부 확인 못함)","flow":"","temp":"","detection":"190–400 nm 전체 스캔 후 성분군별 선택 파장(값 확인 못함)","injection":"20 µL","sample_prep":"씨 뺀 열매 10 g + 메탄올:물(95:5) 25 mL(37% HCl 1.5 mL로 pH 조정), 암소 60분, 균질화 1분, 3000 rpm 15분 원심분리 3회; 0.45 µm PTFE 여과","standard":"Sigma-Aldrich 표준품(카테킨·에피카테킨·클로로겐산 등)","linearity":"외부 표준 검량선(매트릭스 맞춤)","lod":"S/N 3 기준(값은 본문 표, 확인 못함)","loq":"S/N 10 기준(값은 본문 표, 확인 못함)","recovery":"10 mg/mL 표준 혼합액 첨가로 정확도 확인(값 확인 못함)"},
+  "rationale":"건강 관련 지표 28종을 고른 다성분 지문 분석에서 카테킨류가 안토시아닌 다음으로 많은 페놀 군이었다; 전문 확인, 이동상·파장·LOD/LOQ 수치는 표에 있어 확인 못함[2].","source":[2],"url":"https://doi.org/10.3390/molecules23040725","source_kind":"paper"},
+ {"role":"literature","compound":"Amygdalin","compound_ko":"아미그달린","part":"씨를 포함한 건조 열매 가루(시판품)와 그 단백질 농축물","content":"가루 1.72 mg/g, 단백질 농축물 0.15 mg/g[4]",
+  "method":"RP-HPLC-UV","conditions":{"instrument":"Shimadzu Prominence LC-2030C Plus(원문 표기 'Prominence—and LC-2030C Plus'), LC-2030 UV 검출기","column":"Supelcosil LC-18, 250 × 4.6 mm, 5 μm","mobile_phase":"아세토니트릴:물(20:80)","gradient":"등용매","flow":"1 mL/min","temp":"40 °C","detection":"214 nm","injection":"5 μL","sample_prep":"시료 1.5 g + 에탄올 50 mL 환류 100분, 여과(Whatman No.1), 감압 농축, 물 5 mL에 녹여 0.45 μm PTFE 여과","standard":"아미그달린 표준품(Sigma-Aldrich)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"씨에 몰린 시안배당체로 안전성 지표가 된다; 시료가 씨를 포함한 가루이고 본문 종 표기가 섞여 있어 씨 뺀 열매 값으로 쓰면 안 됨; 전문 확인, 검량·검출한계·회수율은 본문에 없음[4].","source":[4],"url":"https://doi.org/10.3390/molecules30183766","source_kind":"paper"},
+ {"role":"literature","compound":"Ursolic acid","compound_ko":"우르솔산·코로솔산·올레아놀산","part":"열매·꽃차례·잎","content":"합계 열매 0.25 mg/g 건조중량, 꽃 0.76–1.09, 잎 1.41–4.54 mg/g 건조중량[9]",
+  "method":"GC-MS 및 UHPLC-PDA","conditions":{"instrument":"","column":"","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"","injection":"","sample_prep":"클로로포름 추출","standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"추출물의 항염 효소 억제 활성과 상관된 성분; 전문 확인 못함[9].","source":[9],"url":"https://doi.org/10.1080/14786419.2019.1666385","source_kind":"paper"},
+]
+nutrients=[{"form":"생과(씨 제외, 이탈리아 재배 'Colorata' 계통)","basis":"논문 정량값, 생중량 100 g당[2]","items":[{"name":"비타민 C(총)","value":76.07,"unit":"mg"},{"name":"아스코르브산","value":25.20,"unit":"mg"},{"name":"디히드로아스코르브산","value":50.87,"unit":"mg"},{"name":"유기산 합계","value":553.88,"unit":"mg"}],"source":[2]}]
+d={"slug":"prunus-padus","name_ko":"서울귀룽나무","name_en":"Seoul bird cherry (bird cherry)","scientific_name":"Prunus padus L. var. seoulensis Nakai","aliases":["서울귀룽나무열매","Prunus diversifolia Koehne","Seoul bird cherry","귀룽나무(기본종, 식품 사용불가)","European bird cherry"],
+ "sections":S,"compounds":C,"markers":[],"nutrients":nutrients,"assays":assays,"production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+json.dump(d,open('/home/user/hfoodguide-wave3/docs/materials/prunus-padus/dossier.json','w'),ensure_ascii=False,indent=1)
+for s in S: print(s['key'],len(s['body']))

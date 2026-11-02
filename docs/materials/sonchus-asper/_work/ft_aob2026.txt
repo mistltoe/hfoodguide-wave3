@@ -1,0 +1,649 @@
+Introduction
+
+Functional traits are well-defined, measurable morphological, physiological, or phenological characteristics that strongly influence an organism's performance and ecological role within a community (,). Therefore, grouping individuals according to true functional traits allows the identification of their primary biological attributes and the delineation of their respective species’ niches (,,). This approach aligns with the idea that every species occupies its own particular ‘adaptive zone’, the central core of the Ecological Species Concept (,). Moreover, if functional traits describe the adaptive mechanisms of a species, they also reflect its ‘unitary evolutionary role and tendencies’ as a lineage, linking it to the Evolutionary Species Concept (), commonly recognized as the primary or ontological idea of species (,,). All these considerations suggest that species delimitation based on independently evolving lineages can be strengthened by incorporating functionally meaningful traits into taxonomic practice.
+
+Traits with functional value are widely present in plant systematics. However, relatively few studies have explicitly linked taxonomically informative characters to the functional-trait framework (see), even though the term was coined four decades ago (,). The connection between these two perspectives is particularly evident, for example, in the long-recognized importance of reproductive characters in plant taxonomy (,,). Furthermore, understanding how these traits function globally has led to the definition of reproductive syndromes in plants, among which the selfing syndrome is one of the most widespread (,,).
+
+This latter syndrome reflects a recurrent evolutionary transition from an outbreeding to an inbreeding mating system. Selfing plants do not strictly require pollen vectors, so, compared to their outbreeding relatives, they have significantly smaller, less specialized, and less attractive flowers, with a lower incidence of herkogamy or dichogamy and reduced insect rewards and pollen content (,,,,,), as well as the loss of self-incompatibility (,,,). These evolutionary transitions are also associated with life-history traits. Self-incompatibility is more common in perennial than in annual species, whereas annuals tend to exhibit more complete selfing syndromes (,,,,).
+
+Recently documented variation in flower size and life history within(Asteraceae, Cichorieae, Hyoseridinae) in the Mediterranean (,,) provides a study system in which to evaluate the association between functional traits and systematics. This species is commonly considered an annual (exceptionally biennial) cosmopolitan weed with a high capacity to produce achenes by self-fertilization (,,) and relatively inconspicuous flower heads (). At present, the variability withinis addressed by subdividing it into two subspecies: the nominate subspecies (subsp.) and another named eithersubsp.(Jord.) Ball orsubsp.(Tineo & Guss.) Hegi (), present mainly in the Mediterranean (). The delimitation of the latter relies primarily on leaf arrangement, which has been interpreted as indicative of a biennial life cycle. However, the original descriptions of the two intended basionyms for this subspecies—Jord. andTineo & Guss.—do not emphasize leaf arrangement but rather the size and colour of the flower heads, which were reported to be approximately twice as large as those ofand more intensely coloured (: 860;: 76). These taxa were also reported to be biennial and rhizomatous perennial plants, respectively, and were described using material from southern France and Sicily. Furthermore, among the remainingsynonyms (,;, last accessed on 15 July 2026), the presence of large heads is also assumed in the protologue ofReut. ex E. Weiss (), a name assigned to plants from the Aegean. This is in line with the recent report of plants with large ligule florets (and therefore large flower heads in anthesis) and long anthers, supposedly associated with xenogamy, within the current circumscription of the species in the Mediterranean (,). Collectively, these observations suggest thatactually constitutes a complex where changes in the sexual system and life form are important drivers of diversification.
+
+To assess the biodiversity implications of the reported variability in, we addressed four specific questions: (1) Do floral size and anther length reflect mating system divergence and qualify as functional traits? If so, we expected bimodal distributions of floral morphological characters and low selfing ability (indicating a xenogamous sexual system) in the large-floret plants, contrasting with high selfing capacity in typical plants with small florets and short anthers (,,). A lack of clear divergence would reflect gradual adaptations rather than divergent strategies. (2) How is variation in life history linked to the mating system and leaf arrangement? We expected these traits to be associated, thereby enabling the characterization of distinct lineages. (3) Are the phylogenetic relationships and genetic structure of northern Mediterranean populations consistent with the variability in mating system, life form, and leaf arrangement? We combined nrDNA (ITS/ETS) and cpDNA sequencing with amplified fragment length polymorphism (AFLP) analyses to assess evolutionary relationships. We expected substantial genetic differentiation to be consistent with functional traits, reflecting the evolutionary processes that shaped potential lineages. (4) Finally, in light of our findings, what taxonomic treatment best reflects the biodiversity of thecomplex in the northern Mediterranean Basin?
+
+Figure 1
+
+Variability in reproductive and vegetative characters infrom the northern Mediterranean. (a) Achene of a common(L.) Hill (A.MAR[g]). (b) Achene of the rhizomatous perennial morphotypeTineo & Guss. (N.ALI[AG]). (c) Leaf arrangement of common(L.) Hill plants with well-developed leaves exclusively cauline (associated with subsp.: A.MJO[A]). (d) Detail of a common(L.) Hill plant of intermediate leaf arrangement pattern and doubtful subspecies assignment ([AG]: Portugal, São Pedro Moel). (e) leaf arrangement of a common(L.) Hill plant with a well-developed basal rosette and small cauline leaves (associated with subsp.: Spain, Seville [G]). (f) Flower heads of common(L.) Hill during anthesis (A.CAB[A]). (g) Flower head of the morphotypeJord. during anthesis. (G.GAU[g]). (h) Detail of the somewhat glaucous and prickly morphotype, with rigid leaves,Jord. (G.GAU[g]). (i) Vegetative multiplication of the rhizomatous perennial morphotypeTineo & Guss. (N.SCI[AG]). (j) Habit and blooming details of the morphotypeReut. ex Weiss (Turkey, Antalya: SEV256670). Scale bars: 1 mm (a, b), 1 cm (f, g) or 5 cm (h–j).
+
+Ten-panel composite image (a-j) illustrating morphological variation within the Sonchus asper complex from the northern Mediterranean, showing: achenes (a-b), leaf arrangement patterns and basal rosettes in S. asper s. str. (c-e), flower head size variation (f-g), rigid, prickly foliage in S. glaucescens (h), rhizomatous vegetative propagation in S. nymanii (i), and overall plant habit in S. graecus (j).
+
+Materials and methods
+
+Study plant: variability and morphotype assignment
+
+s. l. is part of a phylogenetic clade of around 10 taxa within(), 7 of which are present in the Mediterranean Basin and 4 of which are endemic to the region (). The clade also includes, which, together with, represents one of the most important and globally widespread weeds among the nearly 100 species of. Both species probably originated in the Mediterranean, as did the genus itself () and the tribe Cichorieae ().is a herbaceous plant with erect stems, 15–210 cm tall, whose young specimens and shoots form rosettes of spathulate leaves, from which emerges a floriferous stem, solitary or with erect-patent basal branches, bearing amplexicaul leaves with rounded auricles. The leaves are entire or pinnatifid to pinnatipartite, rarely pinnatisect, with ovate, triangular, or even linear lobes, with a denticulate margin bearing variably rigid spines. Flower heads are grouped in one to several panicles and contain 80–360 yellow florets, of which the outermost are the largest and determine the size of the flower head during anthesis. Achenes are oblanceolate, elliptic or oblong, strongly compressed, with marginal wings and three longitudinal ribs per side, which in most cases are single, although the lateral ones are frequently double (). The pappus is more or less deciduous. This achene morphology is unique to thecomplex in the northern Mediterranean. In the southern Basin, it is also present in the endemicand, which are close relatives of(,). Similar achenes also appear inand, the two components of the clade restricted to the South-West Pacific.
+
+The floriferous stem may bear well-developed leaves or reduced leaves with a persistent basal rosette (sub-rosulate habit). The current taxonomic treatment ofproposes that plants exhibiting the former condition should be interpreted as annual (subsp.), whereas those showing the latter are considered biennial (subsp.= subsp.;,). However, the identification of these subspecies is ambiguous due to continuous variation in leaf arrangement and the absence of roots in voucher specimens. Furthermore, this classification overlooks both the observed variability in flower size and 19th-century reports of perennial plants.
+
+To account for this variability, we independently labelled the studied material based on two criteria: (a) morphotypes inferred from the protologues (plant morphotype) of(),(in),(), and() and (b) the current division into two subspecies based on leaf arrangement. For the first criterion, we relied on protologue descriptions in terms of floret size (specifically, the length and width of outer ligules, and anther length in both outer and central florets), as well as observations of life forms and leaf traits (which are robust, distinctly glaucous, and have rigid and sharp spines in themorphotype). Measurements were taken from florets of dried voucher specimens, which were often briefly boiled in water with a few drops of detergent to allow careful spreading. We then tested for multimodality in the distributions of floret traits using the functions ‘locmodes’ and ‘modetest’ of the R packagev.1.5 ().
+
+Morphotype assignments were indicated by prefixing each population acronym with a letter (A =, N =, G =, R =). To denote leaf arrangement, a bracketed letter was appended to each acronym: [A] for plants with dense, well-developed, exclusively cauline leaves, or [a] for those with mostly cauline leaves (both associated with subsp.); [G] for plants with a well-developed basal rosette and small cauline leaves, or [g] for those also displaying some well-developed cauline leaves (both associated with subsp.); [AG] for intermediate individuals that could not be reliably assigned (see,).
+
+Plant distribution and material collection
+
+We restricted our sampling primarily to the northern Mediterranean region, as the three taxa we tested as potential evolutionary lineages were originally described from material collected in the area. Furthermore, the complete range of variation in leaf arrangement is present in this region (). To analyse the geographical distribution of variation, we measured and revised 227 voucher specimens from the herbaria B, BC, BM, C, COI, FI, GDAC, JACA, L, MA, MPU, SEV, and TLJ. Additionally, we examined 103 specimens from 78 populations collected during our field trips in Portugal, Spain, southern France, Italy, Greece, Turkey, and northern Morocco between May 2009 and May 2017 (see). Geographic patterns of floret traits and leaf arrangement were assessed using Mantel tests, performed via the function ‘mantel’ in the R packagev.2.7-2 (). Differences in floret traits among leaf-arrangement groups were evaluated using a one-way ANOVA or a non-parametric Kruskal–Wallis test, based on data distribution properties.
+
+During these field trips, we also sampled fresh leaf tissue for DNA analysis—which was dried and stored in silica gel until DNA extraction—alongside mature seeds from 10 to 20 individuals across 40 wild populations (see,). For the ITS/ETS and cpDNA analyses, we used a total of 143 samples from 39 populations (using three to five individuals per population, with the exception of population A.VSE[A], for which only two samples were available). For AFLP fingerprinting, we used 240 samples from 24 populations (7 to 12 individuals per population). We visited original locations reported in the protologues ofandto ensure the successful sampling of these morphotypes, given their restricted distributions.
+
+Reproductive system
+
+Plants grown from achenes collected in 11 wild populations, alongside young plants transplanted from three additional populations, were cultivated in experimental garden facilities at the University of Seville (see). Because typicalis considered self-compatible with a high selfing capacity (,,), observations for this morphotype were restricted to three populations from northern Italy and southern Spain. Of these, two populations, A.PEL[a] and A.CAB[A], possessed well-developed cauline leaves, whereas the third, A.MAR[g], was sub-rosulate. Plants were grown in plastic pots with a 3:1 (v/v) peat–perlite substrate, supplemented with a slow-release solid organic fertilizer (Osmocote 12-months; 3.5 g/L substrate).
+
+For each adult individual (= 126; mean = 9 per population), three pollination treatments were conducted in a pollinator-free greenhouse under standard conditions (12 h of daily light, 18–22°C): autonomous self-pollination (ASP), forced self-pollination (FSP) and multiple individual cross-pollination (MCP)―the latter using pollen mixed from multiple individuals within the same population. Manual pollinations (FSP and MCP) were performed during anthesis using cotton swabs or, when the flower heads were close enough, by gently rubbing them against one another (), repeating the process over 2–4 days for each flower head. Anthesis typically lasted 2 days in small-sized flower heads (morphotype) and 3–4 days in the others. Florets opened daily within each flower head, completing pollen presentation and stigma exposure within hours; however, in some cases flower heads prolonged anthesis by one or two additional days without opening new florets, probably to increase fertilization opportunities ().
+
+Following flowering, individual flower heads were covered with clean tea bags and harvested once mature. For each plant, the index of self-incompatibility (ISI;,) was calculated: ISI = 1 − (relative selfing success/relative out-crossed success). For the R.KAS[g] population, we estimated selfing success from the ASP treatment. The population-level ISI was calculated as the arithmetic mean of the individual indices. Mating systems were categorized followingandas self-incompatible (SI; ISI ≥ 0.8), partially self-incompatible (pSI; 0.2 < ISI < 0.8), and self-compatible (SC; ISI ≤ 0.2). Non-normally distributed data―even after attempted transformation―were analysed using SPSS software (v29.0). Differences in fruit set among pollination treatments were evaluated using the non-parametric Friedman test for repeated measures, followed bypairwise comparisons via Wilcoxon signed-rank tests with a Bonferroni correction (ASP vs. FSP and FSP vs. MCP).
+
+ITS/ETS sequencing and sequence data analyses
+
+PCR amplification of ITS was performed as described previously (,). The ETS region was amplified using the primers designed by. PCR products were purified with GENEALL EXPIN PCR SV (GeneAll Biotechnology, Seoul, Korea), and subsequent DNA sequencing was done at the Geno Tech Corp. (Daejeon, Korea) using the same PCR primers. Base calling, sequence editing, and alignment were performed with Geneious R v.11.1.5 (Biomatters, Auckland, New Zealand). To evaluate the consistency between morphotype assignment or leaf arrangement and phylogenetic relationships within the complex, we conducted maximum likelihood (ML) analyses using W-IQ-TREE (,). ML trees were generated with ultrafast bootstrap support (BS) calculated from 1000 bootstrap replicates to determine clade robustness (). Best-fit substitution models were estimated according to the Bayesian information criterion using ModelFinder () implemented in IQ-TREE. The resulting ML phylogenetic tree was visualized using the Interactive Tree of Life (iTOL) online tool v.6 (). Sequences from the close relativesandwere used as outgroups.
+
+cpDNA sequencing and sequence data analysis
+
+We surveyed 17 noncoding regions of cpDNA based onand selected the three regions with the largest number of potentially informative characters (PICs) in thecomplex:-,-, and-. These three regions were amplified using the primers described in. The protocols for PCR purification, DNA sequencing, sequence data process (i.e. base calling, sequence editing, and alignment), and phylogenetic analysis followed the same procedures described above for ITS/ETS. The best-fit model for the three combined cpDNA regions was ‘F81 + F + I’. Additionally, a haplotype network based on the concatenated cpDNA was also constructed using statistical parsimony, implemented in the program TCS v.1.21 (). Gaps were treated as missing data, and the connection limit was set to 95% in accordance with.
+
+AFLP fingerprinting and analyses of AFLP data
+
+The AFLP procedure followed established protocols (). The six primer combinations selected for the selective PCR wereRI (Fam)-ACC/I-CTA,RI (Fam)-ACT/I-CTG,RI (Vic)-AAG/I CAC,RI (Vic)-ATG/I CTGA,RI (Ned)-AAC/I-CTC, andRI (Ned)-AGC/I-CATA. Given the low level of differentiation detected within the small-floret clade (common) in the ITS/ETS tree, we chose five populations of this morphotype, trying to encompass leaf arrangement variability, and sampled the remaining populations from large-floret plants to focus the analysis mainly on potential differentiation within this poorly understood group. In addition to the 240 samples analysed, 25 additional individuals were replicated to exclude non-reproducible bands and to calculate the error rate, following. The fluorescence-labelled selective amplification products were separated by capillary gel electrophoresis at the ‘Genomic Unit’ (Universidad Complutense, Madrid, Spain) on an automated sequencer (3730 DNA Analyser, PE Applied Biosystems, Foster City, CA, USA). Raw data were exported to GeneMarker 1.8 (SoftGenetics, PA, USA) for automatic scoring of fragments after normalization of the profiles.
+
+We used principal coordinate analysis (PCoA) to investigate genetic distances and relationships among populations. The matrix of Jaccard similarities among individuals was calculated with the ‘vegdist’ function in the R packagev.2.7-2 (). The PCoA was performed using the resulting matrix and the ‘pco’ function in the R packagev.2.1.3 ().
+
+The overall population genetic structure was explored using Bayesian clustering analysis implemented in STRUCTURE 2.3.4 (). Analyses were based on an admixture ancestry model with correlated allele frequencies for a range ofgenetic clusters from 1 to 11, with 10 replicates for eachvalue. The analyses were performed with a burn-in period of 100 000 and a Monte Carlo Markov Chain (MCMC) run length of 10iterations. The most likelyvalue was determined based on theand Mean Ln() (,) using Structure Harvester (). For= 2 and= 3, the Full search method with 1000 replicates was used. For= 5, we used the Greedy algorithm, with 30 000 random input orders.
+
+In addition, we analysed the overall population genetic structure using the BAPS software. The maximum number of genetic clusters () was set from 2 to 24. We performed six replicates for eachvalue, and the results were averaged based on the resulting likelihood scores. Subsequently, an admixture analysis () was conducted with the following settings: a minimum cluster size of four individuals; 100 iterations to estimate the admixture coefficients for the individuals; 200 simulated reference individuals from each population; and 20 iterations to estimate the admixture coefficients for the reference individuals.
+
+We assessed patterns and levels of population genetic differentiation by performing analyses of molecular variance (AMOVA) using four different groupings conducted with ARLEQUIN v.3.01 ().
+
+Results
+
+Variability in functional reproductive traits and mating systems
+
+The characters selected to assess flower size (length and width of the outer ligules, and length of the outer and central anthers) were highly correlated (< 0.001,= 0.726–0.937;= 284–327) with bimodal frequency distributions (= 0.034 for ligule width and< 0.001 for the three remaining characters.; see). This distinguished two plant groups: one with small florets, whose outer ligules and anthers seldom exceeded 6.0 and 2.0 mm, respectively, and another with large florets whose outer ligules and anthers were consistently longer than 6.6 and 2.0 mm. The first group includes those plants that were assigned to the common morphotype of, and the second includes the morphotypes,, and. The variability of these four floret traits exhibited a significant geographic pattern (Mantel test:< 0.001,= 0.2546–0.3293. See,), with large-floret morphotypes being absent from western areas ().
+
+Leaf arrangement also showed a significant, although weak, geographical correlation (Mantel test:< 0.001,= 0.0543). Overall, the sub-rosulate habit ([G] + [g]) was more common in eastern areas and among large-floret morphotypes, whereas small-floret plants more frequently displayed well-developed cauline leaves, with the typical subsp.habit ([A]) being exclusive to the latter. No differences in floret traits were detected among leaf-arrangement groups (see) in either small-floret plants (= 0.051–0.837) or large-floret plants (= 0.305–0.935).
+
+Among the cultivated plant material, commonandmorphotypes always flowered during the first year and subsequently died, regardless of leaf arrangement. In contrast,individuals were either annual or flowered in their second year and then died. Plants of themorphotype flowered variably and sparsely over several years, producing rhizomes that repeatedly generated new shoots (). These observations confirm the accuracy of the life-form assessments in the protologues and the appropriateness of the morphotype assignments.
+
+Populations of the small-floretmorphotype produced a high fruit set regardless of the pollination treatment (; A.CAB[A]:= 0.968; A.MAR[g]:= 0.105), with ISI values near zero. We were unable to obtain sufficient data from the outcrossing treatments to calculate the ISI for the A.PEL[a] population, but the fruit set from ASP = 0.92 suggested an equally near-zero value. Within the large-floret group (,, andmorphotypes), fruit set differed significantly among pollination treatments (; see:≤ 0.001–0.016). Mean fruit set from autonomous (ASP) and forced (FSP) self-pollination was very low and did not differ in nine populations (= 0.063–0.735; α = 0.025), except for R. MET[a] and R.GRE[g] (= 0.011 and 0.012, respectively). Cross-pollination (MCP) fruit set was always significantly higher than in FSP (≤ 0.001–0.018; α = 0.025. See). Consequently, the estimated ISI denoted an obligate xenogamous mating system in nine populations (ISI = 0.88–1.00) and a mixed system biased towards obligate xenogamy in two others: R.TER[g] and R.MET[a] (ISI = 0.70 and 0.79). In R.KAS[g], the ISI, exceptionally derived from ASP and MCP, also showed a prevalence of xenogamy. Individual ISI values (excluding R.KAS[g]) showed that 80 out of 93 large-floret plants tested were obligately xenogamous, 10 appeared to have a mixed system (ISI = 0.42–0.78, from G.POR[a], R.TER[g], R.ACH[g], and R.MET[a]), and only 3 were self-fertile (ISI = 0.08–0.20, from G.GAU[g], R.TER[g], and R.MET[a]).
+
+Figure 2
+
+Frequency histograms of the functional traits related to the mating system in thetaxonomic complex in the northern Mediterranean, with indication of the morphotype assigned to the samples. We analysed the length (a,= 299) and width (b,= 285) of a ligule in an outer floret, and the anther tube length in an outer (c,= 327) and an inner (central) floret (d,= 303) of a flower head for each specimen studied (see). Mand M= modes of the bimodal distribution, and T = antimode, estimated according to.
+
+Four-panel frequency histograms (a-d) of floral mating traits. Panels show outer floret ligule length (a) and width (b), alongside outer (c) and inner (d) anther tube lengths. Bars are colour-coded by assigned morphotype, with annotated distribution modes (M1, M2) and antimode (T) values.
+
+Figure 3
+
+Geographical distribution of the localities of origin of the dried specimens (= 322) used for the analysis of floret size variability within thecomplex, with indication of the assigned morphotype.
+
+Geographical distribution map of 322 Sonchus asper specimens across the northern Mediterranean, colour-coded by morphotype. Western populations exhibit small florets exclusively; large-floret plants occur in central/eastern regions along with scattered small-floret ones. Biennial and rhizomatous morphotypes are restricted to south-eastern France and Sicily.
+
+Table 1
+
+Variability in sexual system of(L.) Hill populations in the northern Mediterranean Basin, classified according to the assigned morphotype.
+
+Population (morphotype)
+
+N
+
+ASP
+
+FSP
+
+MCP
+
+ISI
+
+ISI state
+
+(Common(L.) Hill)
+
+IT: San Pellegrino in Alpe (A.PEL[a])
+
+6
+
+0.92 (0.04)
+
+—
+
+—
+
+—
+
+SC
+
+ES: Villamartín—Las Cabezas (A.CAB[A])
+
+12
+
+0.75 (0.22)
+
+0.77 (0.21)
+
+0.84 (0.20)
+
+0.07 (0.18)
+
+SC
+
+ES: Los Marines—Cortelazor (A.MAR[g])
+
+8
+
+0.88 (0.14)
+
+0.90 (0.09)
+
+0.92 (0.04)
+
+0.03 (0.09)
+
+SC
+
+(Tineo & Guss.)
+
+IT: Sicily, Scillato—Caltavuturo (N.SCI[AG])
+
+8
+
+<0.01 (<0.01)
+
+<0.01 (0.01)
+
+0.60 (0.34)
+
+1.00 (<0.01)
+
+SI
+
+IT: Sicily, Alia (N.ALI[AG])
+
+7
+
+0.01 (0.02)
+
+<0.01 <(0.01)
+
+0.42 (0.29)
+
+0.99 (0.01)
+
+SI
+
+(Jord.)
+
+FR: Île de Gaou (G.GAU[g])
+
+10
+
+0.08 (0.16)
+
+0.09 (0.21)
+
+0.80 (0.13)
+
+0.88 (0.29)
+
+SI
+
+FR: Port-Cross (G.POR[a])
+
+8
+
+0.00
+
+0.02 (0.03)
+
+0.41 (0.43)
+
+0.89 (0.06)
+
+SI
+
+(E. Weiss)
+
+TR: Kastamonu (R.KAS[g])
+
+7
+
+0.01 (0.02)
+
+—
+
+0.66 (0.16)
+
+0.98 (0.04)*
+
+SI
+
+TR: Terme—Ḉraşamba (R.TER[g])
+
+8
+
+0.08 (0.19)
+
+0.14 (0.23)
+
+0.57 (0.26)
+
+0.79 (0.29)
+
+pSI
+
+GR: Achaïa beach (R.ACH[g])
+
+14
+
+0.02 (0.03)
+
+0.05 (0.11)
+
+0.80 (0.19)
+
+0.92 (0.17)
+
+SI
+
+GR: Meteora (R.MET[a])
+
+10
+
+0.02 (0.02)
+
+0.25 (0.21)
+
+0.82 (0.14)
+
+0.70 (0.26)
+
+pSI
+
+GR: Grevena (R.GRE[g])
+
+11
+
+<0.01 (<0.01)
+
+0.04 (0.06)
+
+0.75 (0.25)
+
+0.95 (0.10)
+
+SI
+
+IT: Cesena—Cervia (R.CES[a])
+
+7
+
+0.03 (0.03)
+
+0.02 (0.01)
+
+0.92 (0.06)
+
+0.98 (0.01)
+
+SI
+
+FR: Le Pas de Courtin (R.LAV[AG])
+
+10
+
+<0.01 (0.01)
+
+<0.01 (0.01)
+
+0.91 (0.03)
+
+0.99 (0.01)
+
+SI
+
+We indicate mean population values of fruit set (s.d. in brackets) for the following pollination treatments in the greenhouse: ASP (autonomous self-pollination), FSP (manual forced self-pollination) and MCP (manual multiple individual cross-pollination). We also show mean ISI (index of self-incompatibility) = 1 − (FSP/MCP) and ISI states (,,): SC (self-compatibility, ISI < 0.2), pSI (partial-self-incompatibility, 0.2 ≤ ISI < 0.8) and SI (self-incompatibility, ISI ≥ 0.8). (*) ISI = 1 − (ASP/MCP)., number of individuals per population studied.Individuals obtained from transplanted young plants.
+
+ITS/ETS phylogeny
+
+The aligned ITS region comprised 648 nucleotide sites, and the ETS consisted of 439, yielding a total of 1087 concatenated characters. This dataset included multiple-state polymorphisms at 26 sites: 12 within the ITS and 14 within the ETS regions (see). Two alternative nucleotides were detected at nine of these polymorphic sites, whilst the remaining 17 sites exhibited only a single nucleotide polymorphism. Polymorphic sites were present in all but three populations (i.e. A.AMO[g], Italy, and A.BAD[A], Morocco, of themorphotype, and R.EUR[a], Greece, of themorphotype). A total of 10 polymorphic sites were detected exclusively inpopulations, whereas 15 others were unique to the//group. ML analysis of the concatenated sequences, which included 26 parsimony-informative sites, produced an unrooted tree () resolving two major clusters within the complex. The first group comprised exclusively accessions of the small-floretmorphotype, whereas the second group included all three large-floret morphotypes—,, and—with no exceptions to this pattern being detected. Two well-defined subclusters were recovered within the second group: one included all accessions assigned to, and the other included the accessions ofandgrouped together. The limited number of informative ITS/ETS characters did not provide sufficient resolution to reveal any further clusters within either of the two groups. In addition, little correspondence between tree topology and leaf arrangement was detected, as both plants with well-developed cauline leaves and plants with a sub-rosulate habit were present across all major clusters in the tree. However, the presence of a vigorous stem with dense, well-developed cauline leaves and no basal leaves during blooming ([A]) was restricted exclusively to the cluster of small-floret plants (the commonmorphotype).
+
+Figure 4
+
+ML phylogenetic tree of thecomplex in the northern Mediterranean based on nrDNA ITS/ETS sequences. Bootstrap values are shown on the major branches, and the morphotype and leaf arrangement assigned to each sample are indicated by colours and letters, according to indications in the figure. Populations are identified by acronyms according toand.
+
+Maximum Likelihood phylogenetic tree based on nrDNA ITS/ETS sequences for 143 samples. Bootstrap values indicate branch support at major nodes. Terminal clades and samples feature colour-coded symbols and letters representing assigned morphotypes and subspecies.
+
+cpDNA data
+
+The concatenated matrix of cpDNA contained a total of 2265 characters: 826 for, 790 for, and 649 for. The ML tree (see) exhibited low BS values. In contrast to the nuclear ITS/ETS analysis, it did not resolve reciprocal monophyly between the small- and large-floret morphotypes. Although none of the four defined morphotypes was monophyletic in this tree, accessions ofwere never sorted into the same clade asaccessions. The topology of the cpDNA phylogenetic tree revealed some additional phylogeographical patterns. For example, all Greek accessions of themorphotype were placed in one of the two major clades, together with several Turkish materials and some accessions from a single Italian population (R.VLL[AG]) of this same morphotype. Within that same major clade, a moderately supported clade (80% BS) contained all but one accession (N.VAL_4) of the Sicilian endemic morphotype, twoaccessions (A.AMO_1 and A.AMO_4) also from Sicily (Italy), and someaccessions. Meanwhile, most accessions (54 of 62) of themorphotype were placed in the other major clade, distributed across three strongly supported clades (88–94% BS) alongside some Italian and French accessions of themorphotype. This major clade also contained a separate clade where these accessions mapped together with all but one of theaccessions (G.GAU_3) and several accessions offrom Italy and Turkey. No phylogenetic or phylogeographical pattern could be inferred from the distribution of leaf arrangements in the cpDNA phylogenetic tree. Moreover, it is noteworthy that both leaf arrangements are present in virtually all clusters containing four or more accessions.
+
+A total of 20 haplotypes were identified based on the three concatenated regions of cpDNA (see). Their geographical distribution showed a notable pattern characterized by the following main features (): Haplotypes H1–H5 were primarily distributed across the western and central Mediterranean, occurring in the,, andmorphotypes. None of them was found in the Balkan Peninsula; however, the most common haplotype, H1, was also frequent in the eastern subregion (from the R.KAS[g], R.TER[g], and R.FIN[g] populations from Turkey), whereas H4 was frequent in the central-northern area. H6 was common among accessions offrom the Balkans, but was infrequently found in, specifically in material from the southern Iberian Peninsula (A.MJO[A]) and Morocco (A.BAD[A]). Furthermore, several haplotypes (H7, H9, H10, H11, H12, H14, H16, H17, H18, H19, and H20) were unique to the Balkan region or the island of Sicily, or shared exclusively between these two areas.
+
+The TCS network () showed that most haplotypes were connected by a single mutational step, suggesting a recent origin. A total of 18 haplotypes were identified in large-floret morphotypes (2 in, 8 in, and 11 in), whereas seven haplotypes were found in the small-floretmorphotype (seeand). The number of morphotype-specific haplotypes ranged from one into six in. The most common haplotype, H1, was shared among 52 accessions of three morphotypes:,, and. The second most common haplotype, H13, was shared among 21 accessions of theandmorphotypes, alongside two rare accessions offrom Sicily (A.AMO[g]). The remaining haplotypes were present in 1 to 16 accessions of one or, less frequently, two morphotypes ().
+
+Figure 5
+
+Geographical pattern of haplotype diversity of the cpDNA genes. For each population, a pie chart is shown representing the haplotypes found by colours, using the nomenclature indicated in the figure. Populations are identified by acronyms formed according toand.
+
+Map showing cpDNA haplotype diversity across 39 population sites. Pie charts at each location display colour-coded haplotype relative frequencies, according to the figure key. Geographical population structure is shown, illustrating the differentiated haplotype profiles.
+
+Figure 6
+
+Haplotype parsimony network of the cpDNA genes in thecomplex of the northern Mediterranean. Haplotype variants are represented by numbers preceded by ‘H’: H1–H20. The number of samples analysed presenting each haplotype is also indicated in parentheses, as well as the morphotypes in which they are present, represented by colours. The small circles on each link represent additional steps between haplotypes (see).
+
+Statistical parsimony network illustrating phylogenetic relationships among 20 cpDNA haplotypes. Node sizes and numerical labels in brackets indicate sample frequencies for each haplotype, while colour coding denotes corresponding morphotype incidences. Intervening small dots along connecting links mark unobserved mutational steps between lineages.
+
+AFLP data
+
+The six AFLP primer combinations generated 587 unambiguously scorable DNA fragments—of which 586 were polymorphic—from 240 individuals across 24 populations. In the individual-level PCoA (), the first and second axes explained 63.0% and 14.3% of the total variation, respectively. Axis 1 clearly separated the populations into the small-floret (A.CAB[A], A.ART[G], A.XAU[AG], A.BAD[A], A.PEL[a]:morphotype) and large-floret morphotypes (the remaining populations:,, andmorphotypes), although some individuals from A.PEL[a] were genetically close to the large-floret group and some individuals from R.TER[g] were genetically close to the small-floret morphotype. Axis 2 revealed that the populations of large-floret morphotypes formed three distinct groups: those of themorphotype (N.SCI[AG], N.VAL[G], and N.ALI[AG]) andmorphotype (R.KAS[g], R.TER[g], R.BOR[a], R.FIN[g], R.NIK[G], R.EUR[a], R.KAL[AG], R.ACH[g], R.GOR[g], R.MET[a], R.GRE[g], R.VIT[g], R.CES[a], R.VLL[AG], R.BRA[a], and R.LAV[AG]) were the most widely separated from each other, whereas the populations of themorphotype (G.GAU[G] and G.POR[a]) occupied an intermediate position. The PCoA conducted at the population level () yielded similar results and highlighted the genetic differentiation between the small- and large-floret groups, as well as the divergence among the populations of the morphotypes,, and. No grouping pattern could be inferred from leaf arrangement.
+
+Bayesian clustering analyses with STRUCTURE () were generally consistent with the PCoA results (), showing that the most informative representation of overall genetic structure was achieved at= 2 (= 211. See). The first cluster (small-floret morph) was homogeneous and consisted exclusively of individuals of the commonmorphotype, whereas the second cluster (large-floret morph) comprised individuals of the,, andmorphotypes. A second peak at= 80 was obtained for= 3, which separated the populations into three distinct clusters:morphotype,morphotype, and themorphotypes; however, in the last cluster, some populations exhibited an extensive degree of admixture with the(R.EUR[a], R.ACH[g], G.GAU[g], and G.POR[a]) or(R.TER[g]) groups. A further minor peak of= 11 was obtained for= 5, which separated the populations into five distinct clusters: one for each of the,,andmorphotypes, alongside one group comprising R.EUR[a] and R.ACH[g]. Conversely, the Bayesian clustering conducted with BAPS () resulted in an optimal partition of four clusters, with a log-marginal likelihood of −52 086. This was highly congruent with the results obtained by STRUCTURE at= 5, with the exception of the assignment of R.EUR[a] and R.ACH[g] to a separate group.
+
+A non-hierarchical AMOVA () revealed that most of the overall genetic variation was explained by the within-population component (67.57%;= 0.324). A nested AMOVA (i.e. grouping small-floret vs. large-floret morphotypes) attributed the highest global variation (= 0.437,< 0.001) to differences between the two floret morphs (‘small vs. large’). This global variation slightly decreased when considering three groups within(vs.vs. [+]) (= 0.405,< 0.001). Global variation did not increase when considering either the nesting pattern of the four morphotypes (vs.vs.vs.morphotypes;0.392;< 0.001) or the genetic clusters retrieved with STRUCTURE at= 5 (0.378;< 0.001).
+
+Figure 7
+
+(a) Principal coordinate analysis (PCoA) based on a matrix of Nei and Lei’s similarities among 240 individuals oftaxonomic complex from northern Mediterranean basin analysed by AFLP fingerprinting (for details on population acronyms see,). The percentage of variability explained by the first two coordinates amounts to 77.3%. (b) PCoA based on Nei and Lei’s distance at the population level.
+
+Composite figure comprising two Principal Coordinate Analysis (PCoA) plots derived from Nei and Lei's similarity matrix using AFLP fingerprinting. Plot a) depicts relationships among 240 individual specimens, with the first two axes accounting for 77.3% of total variability. Plot b) displays the corresponding relationships at the population level.
+
+Figure 8
+
+(a) Localities of the 240 sampled plants ofcomplex studied from 24 populations by AFLP fingerprinting (for details on population acronyms see,). Pie charts indicate the global score of DNA fragments for each population. (b) Population structure ofcomplex in the northern Mediterranean inferred by Bayesian clustering of the AFLP data by STRUCTURE and BAPS (= 2–5).
+
+Composite figure showing the population genetic structure. Map a) displays 24 sampling localities with pie charts representing AFLP fragment scores per site. Plot b) presents Bayesian assignment bar charts from STRUCTURE and BAPS for K equals 2 to 5, with individual assignments colour-coded.
+
+Table 2
+
+Results of AMOVA of AFLP data (squared Euclidean distance) from the 24 populations ofcomplex analysed ().
+
+Grouping
+
+N
+
+Source of variation
+
+d. f.
+
+Variance components
+
+Percentage of variance
+
+Fixation Index [95% CI]
+
+. Whole sampling
+
+24
+
+= 0.324 [0.287–0.342]
+
+Among populations
+
+23
+
+10.22
+
+32.43
+
+Within populations
+
+216
+
+21.30
+
+67.57
+
+. Small floret morph vs. large floret morph morphotypes [common] [+]
+
+2
+
+= 0.437 [0.375 −0.466]
+
+Among groups
+
+1
+
+9.42
+
+24.88
+
+= 0.249 [0.169–0.287]
+
+Among populations
+
+22
+
+7.13
+
+18.43
+
+= 0.251 [0.223–0.265]
+
+Within populations
+
+216
+
+21.30
+
+56.28
+
+.vs.vs. []
+
+3
+
+= 0.405 [0.359–0.428]
+
+Among groups
+
+2
+
+9.02
+
+25.18
+
+= 0.252 [0.193–0.281]
+
+Among populations
+
+21
+
+5.49
+
+15.34
+
+= 0.205 [0.176–0.220]
+
+Within populations
+
+216
+
+21.30
+
+59.48
+
+vs.vs.vs.
+
+4
+
+= 0.392 [0.347–0.413]
+
+Among groups
+
+4
+
+9.35
+
+26.70
+
+= 0.267 [0.214–0.292]
+
+Among populations
+
+19
+
+4.37
+
+12.49
+
+= 0.170 [0.144–0.184]
+
+Within populations
+
+216
+
+21.30
+
+60.81
+
+. Grouping following STRUCUTRE clustering (= 5)vs.vs.vs. [(R.TER, R.ACH)] vs. [R.TER, R.ACH]
+
+5
+
+= 0.378 [0.336–0.398]
+
+Among groups
+
+4
+
+9.01
+
+26.32
+
+= 0.263 [0.218–0.286]
+
+Among populations
+
+19
+
+3.91
+
+11.43
+
+= 0.155 [0.127–0.169]
+
+Within populations
+
+216
+
+21.30
+
+62.24
+
+d. f. degrees of freedom; general fixation index (), fixation index for the region (), and population within region () level are shown, in brackets the 0.95 confidence interval. Populations analysed are marked by GS in ‘Methodologies’ column in(see).
+
+Discussion
+
+Our analysis reveals unexpected variability in floral traits, reproductive behaviour, and life forms within the currently accepted circumscription ofin the northern Mediterranean. First, two groups of plants can be separated by floret and flower head size (), corresponding to distinct mating systems (). Second, although annual life cycles dominate within the complex, biennial and rhizomatous perennial populations occur among large-floret plants (). These ecological differences consistently align with the ITS/ETS phylogenetic topology, which resolves three strongly supported clusters characterized by mating system and life cycle (). This variability—reflected in 19th-century descriptions but currently overlooked—implies consistent differences in ecological behaviour and evolutionary trends within what is currently considered a single species, necessitating a taxonomic reconsideration (,,). Furthermore, our sampling indicates a significant geographical pattern (). Western Mediterranean populations consistently exhibit small flowers and an annual cycle (morphotype), though they occur sparsely elsewhere. Conversely, most central and eastern northern Mediterranean populations display larger florets and showier flower heads. Among these, the annual cycle remains common (morphotype), but prominent deviations appear in central Sicily and certain coastal areas of south-eastern France, where rhizomatous perennial (morphotype) and biennial (morphotype) populations are confirmed.
+
+Crucially, the phylogenetic tree topology and genetic variability do not support the division ofinto two subspecies based on leaf arrangement. Furthermore, assigning a biennial cycle to sub-rosulate plants (,) lacks experimental support, undermining this trait’s taxonomic value. The geographical pattern of leaf arrangement has little evolutionary significance and does not seem to reflect functional differences between the two groups of plants defined by floret size (see).
+
+Divergence in mating system and persistence mechanisms
+
+As expected, small-floret plants ofexhibit a high capacity for self-fertilization (,) with ISI values close to 0 (;,) and short anthers with low pollen content (fewer than 350 grains per floret;), thereby exhibiting a clear selfing syndrome ().also reported high self-fertilization in commonplants, including both subsp.and subsp.. In contrast, the large-floret group exhibits a markedly xenogamous mating system, with ISI values near 1 (0.70–1.00) and higher pollen contents (∼2000 grains per floret; unpubl. data). These divergences reflect well-differentiated reproductive strategies (e.g.,,,,,) rather than gradual shifts, as evidenced by the bimodal distribution of ligule and anther sizes (). Furthermore, the three xenogamous morphotypes differ in their persistence mechanisms, which likely involve distinct demographic features and requirements associated with the reproductive phase (,,,,,). Conversely, the self-compatible group consists exclusively of monocarpic annuals, a pattern that is common among selfers (,,).
+
+Obligate xenogamy is likely driven by a strong sporophytic self-incompatibility reaction, which is typical of Asteraceae (,,). This hypothesis is supported by the low fruit set under FSP () and uniform patterns of pollen presentation and stigma accessibility across groups, indicating no significant herkogamy or dichogamy effects between them. Nevertheless, some reproductive variability occurs, as is common within the family (e.g.,,,), sometimes biasing population-level ISI towards the margin of the self-incompatibility values (0.70–0.79;). The existence of two divergent groups with well-defined boundaries—governed mainly by self-incompatibility ()—aligns with the influential hypothesis byregarding the predominance of selfing or outcrossing as the two stable states in a population's mating system. However, factors stabilizing mixed strategies or modulating incompatibility responses might operate in populations with skewed mating systems (,).
+
+Phylogenetic and phylogeographic patterns
+
+The ITS/ETS phylogenetic reconstruction () resolved all variation into two major clades corresponding to mating systems, with no topological inconsistencies. The earliest-diverging clade comprised the commonmorphotype representatives: annual weeds characterized by small florets and a high selfing ability. The remaining cluster included the three primarily xenogamous, large-floret morphotypes. Similarly, AFLP analysis showed that the most informative genetic structure occurred at= 2 (,; see), separating small- from large-floret plants, which strongly suggests that mating system differentiation occurred early during diversification. The ITS/ETS topology revealed no further clustering among small-floret plants; moreover, although all variation in leaf arrangement is present within this clade, no apparent phylogenetic sorting was detected. This, together with the annual cycle observed in all experimental populations, demonstrates that the current criterion for subdividinginto two subspecies based on leaf arrangement lacks solid biological and phylogenetic support, and that this trait cannot serve as a surrogate for annual/biennial life cycle variation in this case. Meanwhile, within the large-floret xenogamous clade, both ITS/ETS and AFLP markers consistently separated the rhizomatous perennialaccessions from the remaining two large-floret morphotypes:(frequently biennial and highly prickly) and(strictly annual). However, BAPS clustering also resolved distinct profiles despite a notable geographical overlap between theandmorphotypes (); thus, the divergence between these two morphotypes can be viewed as the result of a recent eco-regional adaptation that generated two cohesive population systems.
+
+Haplotype diversity in cpDNA markers does not consistently correspond to mating systems and life forms; nonetheless, its lineage-sorting patterns, together with ITS/ETS and AFLP data, allow us to formulate several evolutionary hypotheses for the group. Themorphotype exhibits high diversity in cpDNA haplotypes and maximum specificity despite its narrow central Sicilian range (; see), which suggests an ancient origin, as do the nuclear markers. Since the rhizomatous habit is a widespread trait in three of the eight proposed clades fors. l. (), it likely represents the retention of an ancestral trait rather than an evolutionary novelty. The/S.lineage displays the greatest cpDNA diversity within the complex (see), yet surprisingly, its haplotype profile resembles that of the self-fertile clade more than the other xenogamous clade, thereby supporting an ancient, independent origin for both xenogamous groups. This cpDNA variability is mainly exhibited by the widespreadmorphotype, whilstshows remarkable haplotypic homogeneity, again pointing to a recent, derived origin. Unexpectedly, cpDNA haplotype diversity also reveals compelling phylogeographic patterns. For example, the Balkanpopulations exhibit highly differentiated profiles, as all five private haplotypes within this morphotype are restricted to this region, suggesting historical isolation. Similar phylogeographical breaks associated with Quaternary glacial refugia have been documented in this region (). Other haplotypes also display geographically biased distributions, reflecting, for instance, a west–east differentiation across the Iberian Peninsula.
+
+Despite the clear segregation into clades, cpDNA haplotype diversity () and AFLP profiles (and) reveal a substantial level of admixture—both between large-floret morphotypes (e.g. R.LAV[AG]) and, more interestingly, betweenand other morphotypes (e.g. A.PEL[a], A. AMO[g] and R.TER[g]). Intrinsic post-zygotic isolation mechanisms (genic and chromosomal barriers) likely have reduced effectiveness within the complex; indeed, no differences in chromosome number (= 18) and little variation in chromosome morphology occur betweenandmorphotypes (), nor among the remaining morphotypes (unpubl. data). Pre-zygotic barriers might be crucial for maintaining this biodiversity (,,), with historical–biogeographical processes likely driving current patterns of variability (,,). However, ecological interactions should not be underestimated (,,). First, obligate outcrossers have drastically different pollination requirements compared to selfers. Second, the two endemic morphotypes occupy distinct ecological niches (,,,): inland croplands in Sicily for, and a narrow coastal habitat in France for. Assessing hybridization barriers and ecological niche factors, together with characterizing morphotype diversity across the southern Mediterranean Basin, will provide deeper insights into the evolutionary history of this taxonomic complex and the mechanisms maintaining its diversity.
+
+Taxonomic and nomenclatural proposals
+
+The phenotypic variability described here, together with the molecular data, scarcely supports retainingas a single species. From both ontological (conceptual) and epistemological (operational) perspectives, distinct lineages exhibiting such disparate ecological and evolutionary trajectories in mating systems and life forms within a single species are difficult to reconcile (,,,,,,). Remarkably, these divergences only surfaced upon re-examination of ancient protologues, with a focus on potential indicators of differential ecological performance. Owing to the difficulty of discerning such distinctive traits in herbarium specimens, they had hitherto been overlooked; however, our subsequent testing has confirmed that these are functional traits of evolutionary significance in this species complex. Crucially, bringing this unaccounted diversity to light does not reflect cryptic speciation processes, but rather is an artefact of over-reliance on herbarium material—leading to what could be termed ‘cryptic herbarium taxa’.
+
+According to the typification performed by, the name(L.) Hill (UPS-BURSER 6:14) should be applied exclusively to annual plants with small florets. A few remaining anthers on the designated specimen allow their length to be estimated at ∼1 mm, placing this specimen within the group of self-fertile plants with low pollen content (,). Within the large-floret group, we propose recognizing two well-characterized clades at the species level: the rhizomatous perennialTineo & Guss., and the short-livedJord. Furthermore, within the latter species, two cohesive population systems should be recognized as subspecies, given their lower genetic divergence () and minor evolutionary singularity (,). This involves accepting paraphyletic taxa at lower hierarchical levels (,).
+
+Based on these criteria,presents a proposed taxonomic treatment for the plants currently treated asin the northern Mediterranean, pending a more comprehensive morphometric analysis of this complex. The inherent taxonomic variability recognized here significantly enhances our knowledge of biodiversity within the genusin the area. Furthermore, it reinforces the hypothesis that the clade containingoriginated and primarily diversified within the Mediterranean basin ().
+
+Box 1.
+
+Taxonomic treatment for the taxa withins. l. in the northern Mediterranean
+
+Key to the taxa:
+
+1a. Outer anthers 0.5–1.9 mm; ligules of the outermost florets in the head less than 6.5 mm long, shorter than the tube
+
+1b. Outer anthers 2.0–4.4 mm; ligules of the outermost florets in the head more than 6.5 mm long, longer than the tube 2
+
+2a. Rhizomatous perennials; achenes with double lateral ribs; leaf margins soft
+
+2b. Annuals or biennials; achenes with single or double lateral ribs; leaf margins soft to strongly spiny 3
+
+3a. Leaves rigid and coriaceous, with strongly spiny margins, pinnatipartite, the largest with more than 12 lateral lobes; plants biennial or annual
+
+3b. Leaves soft, with weakly spiny margins, pinnatifid to pinnatipartite or rarely undivided, with no more than 12 lateral lobes; plants strictly annual
+
+(L.) Hill, Herb. Brit. 1: 47 (1769)
+
+var.L., Sp. Pl.: 794 (1753) [basion.]
+
+subsp.Boulos, nonJord., Observ. Pl. Nouv. 5: 75, t. 5 (1847), nonsubsp.(Jord.) Ball in J. Linn. Soc., Bot. 16: 548 (1878)
+
+subsp.Hegi, nonTineo & Guss. in Guss., Fl. Sicul. Syn. 2: 860 (1844).
+
+Annuals, (5–)18–150 cm tall. Stems solitary or with up to 6 erect-patent basal branches. Leaves undivided, or pinnatifid to pinnatipartite with up to 12 lateral lobes; margins spiny with teeth 1.5–9.7 mm long, very rarely soft, sometimes fleshy and coriaceous. Flower heads 10.8–29.5 mm in diameter during anthesis. Florets yellow, often pale yellow; outermost florets with ligules 3.1–6.7 × 0.6–1.2 mm and tubes 3.5–7.9 mm; anthers 0.5–2.1 mm. Achenes oblanceolate or elliptic, the inner ones sometimes oblong, 1.9–3.7 × 0.6–1.7 mm, with 3 single ribs; wings 0.05–0.35 mm wide.
+
+: Cultivated and uncultivated fields, paths, roadsides, and grasslands in disturbed environments. Prefers moist soils. Elevation: 0–1500 m a.s.l.
+
+: Cosmopolitan; common in the western Mediterranean region.
+
+: To the best of our knowledge, this is the species within the complex that displays a worldwide distribution, whereas the remaining taxa appear to be restricted to the Mediterranean region. Comprehensive global sampling is desirable to test this hypothesis.
+
+Tineo & Guss. in Guss., Fl. Sicul. Syn. 2: 860 (1844)
+
+nonsubsp.(Tineo & Guss.) Hegi, Ill. Fl. Mitt.-Eur. 6(2): 1110 (1928)
+
+Rhizomatous perennials with erect, commonly unbranched shoots 48–94 cm long. Leaves pinnatifid to pinnatisect with 2–14(−20) lateral pinnae and soft margins, bearing teeth 1.0–2.5(−4.1) mm long. Flower heads 15.4–44.3 mm in diameter during anthesis. Florets bright yellow; outermost florets with ligules 9.5–12.7 × 1.5–2.3 mm and tubes 7.0–10.1 mm; anthers (2.2–)2.7–4.8 mm. Achenes oblanceolate 2.3–3.4 × 0.7–1.2 mm, generally with a single central rib and 2 double lateral ribs; wings 0.02–0.16 mm wide.
+
+: Cultivated fields, abandoned farmlands, and lower slopes. Damp clay soils. Elevation: 400–900 m a.s.l.
+
+: Central Sicily (Italy).
+
+: It is often misidentified as the polyploid(= 36, 54;), which is also a rhizomatous perennial, but whose achenes have rounded, unwinged margins.
+
+Jord., Observ. Pl. Nouv. 5: 75, t. 5 (1847)
+
+subsp.(Jord.) Ball in J. Linn. Soc., Bot. 16: 548 (1878)
+
+nonsubsp.Boulos
+
+Annuals or biennials. Stems solitary or with up to 8 erect-patent basal branches. Achenes oblanceolate or elliptic, the inner ones sometimes oblong, with 3 single ribs, or with a single central rib and 1 or 2 double lateral ribs.
+
+subsp.Jord., Observ. Pl. Nouv. 5: 75, t. 5 (1847)
+
+Often biennials, 29–100 cm tall. Stems solitary. Leaves mostly pinnatipartite, with up to 24 lateral lobes, rigid, coriaceous, and somewhat fleshy; strongly prickly margins bearing teeth 3.9–5.3 mm long. Flower heads 21.8–49.0 mm in diameter during anthesis. Florets bright yellow, sometimes orange-yellow, outermost florets with ligules 8.0–12.2 × (0.9–)1.2–2.6 mm and tubes 5.8–8.1 mm; anthers 2.2–4.6 mm. Achenes 2.5–3.1 × 1.0–1.4 mm, with wings 0.1–0.3 mm wide.
+
+: Coastal rocky areas. Loose soils.
+
+: 0–180(−506) m a.s.l.
+
+: South-eastern France: coast of the Provence-Alpes-Côte d’Azur region and the Hyères Islands.
+
+subsp.(Weiss) Mejías & S.-Ch. Kim,
+
+Reut. ex Weiss in Verh. K.K. Zool.-Bot. Ges. Wien 19:45 (1869) [basion.]
+
+Annuals, 13–210 cm tall. Stems solitary or with up to 8 erect-patent basal branches. Leaves usually pinnatifid to pinnatipartite with up to 12 lateral lobes, sometimes undivided; soft margins bearing teeth 1.0–4.6 mm long. Flower heads 15.4–44.3 mm in diameter during anthesis. Florets yellow or bright yellow; outermost florets with ligules (5.5–)6.6–13.1(16.0) × 0.8–2.4 mm and tubes 5.5–8.8 mm; anthers 2.0–4.7 mm. Achenes 1.8–3.5 × 0.8–1.9 mm, with wings 0.05–0.4 mm wide.
+
+: Cultivated and uncultivated fields, paths and road margins, and grasslands in disturbed environments. Prefers moist soils. Elevation: 0–1100 m a.s.l.
+
+: Central and eastern northern Mediterranean, from south-eastern France to Turkey and Bulgaria. Ruderal/weedy behaviour like that of(L.) Hill, which appears to be rather rare and scarce within the distribution range of this taxon.
+
+A functional/genealogical framework for species delimitation
+
+We show that analysing functional traits and evaluating how their performance fits into phylogenetic relationships can be useful in unravelling evolutionary histories, thereby facilitating taxonomic judgements (,). The taxonomic utility of functional traits has recently gained recognition (,,,), with authors emphasizing their importance even in optimizing herbarium-based research (,). This requires identifying true functional traits as surrogates for species performance within the studied taxonomic group (,). In our study, the breeding system (and its associated characters) and life form proved to be functional traits of genuine biological significance, though not necessarily of universal application (see). The methodological framework of this approach is inherent in several species concepts (e.g.,,,,,). We believe that orienting taxonomic practice towards traits that differentiate ecological performance lends robustness and stability to taxonomic proposals. Furthermore, this key ecological concept links systematics and ecology, adding evolutionary value to biodiversity analysis. Its prominent role in niche assessment for understanding plant community assembly (,,), alongside the trend of incorporating functional diversity into conservation (,), makes integrating functional traits into taxonomy essential.
+
+Supplementary Material
+
+plag040_Supplementary_Data

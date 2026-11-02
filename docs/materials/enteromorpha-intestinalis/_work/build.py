@@ -1,0 +1,155 @@
+import json
+from pathlib import Path
+P = Path(__file__).resolve().parent.parent
+A1 = "2026-10-13"; A = "2026-11-02"
+def pm(n, title, doi, journal, pmid, pmc=None):
+    pub = f"{journal} (PubMed {pmid}" + (f", {pmc}" if pmc else "") + ")"
+    return {"n": n, "title": title, "url": f"https://doi.org/{doi}", "publisher": pub, "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 파래·건파래·파래분말·파래추출물·창자갈파래 등 학명 'Enteromorpha intestinalis / E. compressa / E. linza / E. prolifera / E. clathrata' 묶음 항목과 같은 목록의 구멍갈파래·참갈파래·참홑파래·파래돌김 항목(로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": A1},
+ {"n": 2, "title": "식약처 고시 제2026-43호 「건강기능식품의 기준 및 규격」 제3. 2-3 엽록소 함유 식물 — 원재료 '(다) 엽록소를 함유한 식용해조류'·지표성분·일일섭취량(로컬 원문 docs/refs/MFDS/건강기능식품의기준및규격_2026-43_제1~제3.txt)", "url": "https://www.mfds.go.kr/brd/m_211/view.do?seq=14973", "publisher": "식품의약품안전처", "accessed": A},
+ pm(3, "Strong Endemism of bloom-forming tubular Ulva in Indian West Coast, with description of Ulva paschima Sp. Nov. (Ulvales, Chlorophyta). PLoS One 2014;9:e109295", "10.1371/journal.pone.0109295", "PLoS One", "25329833", "PMC4198087"),
+ pm(4, "Phylogeographical structure, distribution and genetic variation of the green algae Ulva intestinalis and U. compressa (Chlorophyta) in the Baltic Sea area. Mol Ecol 2004;13:2257–2265", "10.1111/j.1365-294X.2004.02219.x", "Molecular Ecology", "15245399"),
+ pm(5, "Phylogenomic analysis of the chloroplast genome of the green-tide forming macroalga Ulva intestinalis Linnaeus (Ulvophyceae, Chlorophyta). Mitochondrial DNA B Resour 2021;6:3052–3054", "10.1080/23802359.2021.1978889", "Mitochondrial DNA Part B", "34589588", "PMC8475142"),
+ pm(6, "Edibility of cultivated green seaweed Ulva intestinalis from Monkhali Beach, Cox's Bazar coast of Bangladesh: bio-toxicity and heavy metal contents. Sci Rep 2024;14:32124", "10.1038/s41598-024-83909-z", "Scientific Reports", "39738733", "PMC11685653"),
+ pm(7, "Heavy metals and metalloids in edible seaweeds of Saint Martin's Island, Bay of Bengal, and their potential health risks. Mar Pollut Bull 2022;181:113866", "10.1016/j.marpolbul.2022.113866", "Marine Pollution Bulletin", "35759901"),
+ pm(8, "Effect of Polysaccharides From Enteromorpha intestinalis on Intestinal Function in Sprague Dawley Rats. Front Pharmacol 2022;12:796734", "10.3389/fphar.2021.796734", "Frontiers in Pharmacology", "35153754", "PMC8831789"),
+ pm(9, "Quantification of Polyphenols in Seaweeds: A Case Study of Ulva intestinalis. Antioxidants 2019;8:612", "10.3390/antiox8120612", "Antioxidants", "31816918", "PMC6943488"),
+ pm(10, "Physicochemical and Nutritional Characteristics of Cookies Prepared with Untapped Seaweed Ulva intestinalis: An Approach to Value Addition as a Functional Food. Foods 2023;12:205", "10.3390/foods12010205", "Foods", "36613424", "PMC9819063"),
+ pm(11, "Physical, Chemical Properties and Biological Activities of Ulvan Extracted From Ulva intestinalis Collected From the Chilika Lagoon. Chem Biodivers 2026;23:e03801", "10.1002/cbdv.202503801", "Chemistry & Biodiversity", "41958124"),
+ pm(12, "Total fractionation and characterization of the water-soluble polysaccharides isolated from Enteromorpha intestinalis. Int J Biol Macromol 2018;111:319–325", "10.1016/j.ijbiomac.2018.01.018", "International Journal of Biological Macromolecules", "29325743"),
+ pm(13, "Characteristics and antioxidant of Ulva intestinalis sulphated polysaccharides extracted with different solvents. Int J Biol Macromol 2015;81:912–919", "10.1016/j.ijbiomac.2015.09.030", "International Journal of Biological Macromolecules", "26400737"),
+ pm(14, "Antimicrobial effects of vinegar against norovirus and Escherichia coli in the traditional Korean vinegared green laver (Enteromorpha intestinalis) salad during refrigerated storage. Int J Food Microbiol 2016;238:208–214", "10.1016/j.ijfoodmicro.2016.09.002", "International Journal of Food Microbiology", "27665528"),
+ pm(15, "Health risks associated with seaweed strandings: sulfur gases and antimicrobial resistant (AMR) bacteria from decaying Ulva intestinalis and Sargassum muticum. Sci Total Environ 2026;1049:182057", "10.1016/j.scitotenv.2026.182057", "Science of the Total Environment", "42561788"),
+ pm(16, "LC-ICP-MS analysis of arsenic compounds in dominant seaweeds from the Thermaikos Gulf (Northern Aegean Sea, Greece). Chemosphere 2013;93:2187–2194", "10.1016/j.chemosphere.2013.08.003", "Chemosphere", "24016626"),
+ pm(17, "Metal accumulation and toxicity measured by PAM-chlorophyll fluorescence in seven species of marine macroalgae. Ecotoxicol Environ Saf 2009;72:1063–1075", "10.1016/j.ecoenv.2008.10.010", "Ecotoxicology and Environmental Safety", "19106005"),
+ pm(18, "Spatial Variability of Metal Concentrations in Seaweeds, Mussels and Surface Sediments in Gemlik Bay: an Extensive Assessment of Contamination Sources and Associated Health Risks. Biol Trace Elem Res 2026;204:4323–4347", "10.1007/s12011-025-04967-6", "Biological Trace Element Research", "41634483", "PMC13157430"),
+ pm(19, "Biomass and species composition of green macroalgae in the Binhai Harbor intertidal zone of the Southern Yellow Sea. Mar Pollut Bull 2022;186:114407", "10.1016/j.marpolbul.2022.114407", "Marine Pollution Bulletin", "36470097"),
+ pm(20, "Protective effects of sulfated polysaccharides from Enteromorpha intestinalis on oxidative stress, liver iron overload and Ferroptosis in Zebra fish exposed to ethanol. Biomed Pharmacother 2024;181:117715", "10.1016/j.biopha.2024.117715", "Biomedicine & Pharmacotherapy", "39615168"),
+ pm(21, "New Insight on the Cytoprotective/Antioxidant Pathway Keap1/Nrf2/HO-1 Modulation by Ulva intestinalis Extract and Its Selenium Nanoparticles in Rats with Carrageenan-Induced Paw Edema. Mar Drugs 2023;21:459", "10.3390/md21090459", "Marine Drugs", "37755072", "PMC10533125"),
+ pm(22, "Preliminary Investigation of the Antioxidant, Anti-Diabetic, and Anti-Inflammatory Activity of Enteromorpha intestinalis Extracts. Molecules 2021;26:1171", "10.3390/molecules26041171", "Molecules", "33671811", "PMC7926928"),
+ pm(23, "Effect of chitosan-coated Ulva intestinalis sulfated polysaccharide nanoliposome on melanosis and quality of Pacific white shrimp during ice storage. Int J Biol Macromol 2023;230:123275", "10.1016/j.ijbiomac.2023.123275", "International Journal of Biological Macromolecules", "36646348"),
+ pm(24, "Preparation and characterization of a novel biodegradable film based on sulfated polysaccharide extracted from seaweed Ulva intestinalis. Food Sci Nutr 2021;9:4108–4116", "10.1002/fsn3.2370", "Food Science & Nutrition", "34401062", "PMC8358359"),
+ pm(25, "Acetone, butanol, and ethanol production from the green seaweed Enteromorpha intestinalis via the separate hydrolysis and fermentation. Bioprocess Biosyst Eng 2019;42:415–424", "10.1007/s00449-018-2045-6", "Bioprocess and Biosystems Engineering", "30470908"),
+ pm(26, "Effect of Dietary Administration of Green Macroalgae (Ulva intestinalis) on Mucosal and Systemic Immune Parameters, Antioxidant Defence, and Related Gene Expression in Zebrafish. Aquac Nutr 2022;2022:7693468", "10.1155/2022/7693468", "Aquaculture Nutrition", "36860428", "PMC9973132"),
+ pm(27, "Characterization of protein, lipid and mineral contents in common Norwegian seaweeds and evaluation of their potential as food and feed. J Sci Food Agric 2014;94:3281–3290", "10.1002/jsfa.6681", "Journal of the Science of Food and Agriculture", "24700148"),
+ pm(28, "Composition and bioaccessibility of elements in green seaweeds from fish pond aquaculture. Food Res Int 2018;105:271–277", "10.1016/j.foodres.2017.11.015", "Food Research International", "29433215"),
+ pm(29, "Epibacterial community patterns on marine macroalgae are host-specific but temporally variable. Environ Microbiol 2011;13:655–665", "10.1111/j.1462-2920.2010.02371.x", "Environmental Microbiology", "21078035"),
+ pm(30, "Can the recycling of europium from contaminated waters be achieved through living macroalgae? Study on accumulation and toxicological impacts under realistic concentrations. Sci Total Environ 2021;786:147176", "10.1016/j.scitotenv.2021.147176", "Science of the Total Environment", "33971602"),
+ pm(31, "Development of nanoemulsion formulation loaded with Enteromorpha intestinalis extract: Characterization and evaluation for topical use. PLoS One 2026;21:e0343626", "10.1371/journal.pone.0343626", "PLoS One", "41790721", "PMC12965610"),
+ pm(32, "Influence of bioactive sulfated polysaccharide-protein complexes on hepatocarcinogenesis, angiogenesis and immunomodulatory activities. Asian Pac J Trop Med 2016;9:1200–1211", "10.1016/j.apjtm.2016.11.004", "Asian Pacific Journal of Tropical Medicine", "27955748"),
+]
+
+sections = [
+ {"key": "overview", "title": "한눈에 보기", "body":
+  "파래(Enteromorpha intestinalis)는 속이 빈 관 모양 엽상체를 가진 녹조류이며, 지금은 Enteromorpha 속이 DNA 증거에 따라 Ulva 속에 다시 합쳐져 Ulva intestinalis Linnaeus로 부른다[3, 5, 9]. 식약처 「식품원료 목록」에서 '파래'는 수산물로 분류된 식품원료이고, 사용 조건은 '사용가능', 사용 가능 부위는 '전체'다[1]. 다만 이 항목의 학명 칸에는 E. intestinalis·E. compressa·E. linza·E. prolifera·E. clathrata 다섯 이름이 함께 적혀 있어, 목록의 '파래'는 한 종이 아니라 관 모양 파래류 묶음이다[1]. 같은 학명 묶음으로 건파래·파래분말·파래추출물·조미파래·창자갈파래 등 12개 원료명이 올라 있다[1].\n\n"
+  "이 자료는 그 가운데 U. intestinalis 한 종을 다룬 연구만 모았다[3, 5]. 이 종은 염분 등 환경에 따라 모양이 크게 달라져 형태만으로는 근연종과 구별하기 어렵다[3, 5]. 건조물에는 람노스·황산기가 많은 다당(울반)이 많고, 산지에 따라 철·납 같은 금속 함량이 수십 배 차이 난다[6, 7, 8]. 이 종을 원재료로 지정한 건강기능식품 고시형 원료는 확인하지 못함."},
+ {"key": "history", "title": "이용 역사·학명", "body":
+  "이 종은 일본·한국·중국에서 전통적으로 먹어 온 녹조(green laver)로 소개된다[8]. 한국에는 생파래를 식초로 무치는 전통 파래무침이 있고, 한 연구는 이 음식을 대상으로 식초 농도별 노로바이러스·대장균 감소를 시험했다[14]. 국내 고문헌 속 기록은 확인하지 못함.\n\n"
+  "학명은 Linnaeus가 1753년 Ulva intestinalis로 처음 붙였다[5]. 그 뒤 Link가 1820년 관 모양 형태를 근거로 Enteromorpha 속을 Ulva 속에서 떼어 냈고, 이 종도 E. intestinalis로 불렸다[3]. DNA 서열 연구가 쌓이면서 Enteromorpha는 다시 Ulva에 합쳐졌다[3]. 노르웨이 연구는 이 종을 'Ulva intestinalis (syn. Enteromorpha intestinalis)'로 적었고, 중국·파키스탄 연구처럼 지금도 옛 이름을 쓰는 논문이 나온다[8, 9, 31]. 식약처 목록은 옛 이름 E. intestinalis를 그대로 쓴다[1].\n\n"
+  "최근 방글라데시에서는 뗏목 양식 개체를 기능성 식품 소재로 쓰려는 연구가 이어지고 있다[6, 10]."},
+ {"key": "biology", "title": "생물학적 특징·생태", "body":
+  "이 종은 녹조식물문 갈파래강(Ulvophyceae)의 해조류다[5]. 엽상체는 대개 가지가 없고 속이 빈 한 층 세포의 관 모양이며, 가지가 많고 납작한 U. compressa와 대비된다[3]. 같은 종이라도 자라는 단계와 환경에 따라 형태·세포 모양이 크게 달라진다[5].\n\n"
+  "아시아·호주·유럽·아메리카 연안에서 보고된 범세계 분포 종이며, 중국에서는 황해·발해의 온대 연안에서 남중국해 아열대 연안까지 자란다[5]. 염분 적응 폭이 넓어, 발트해 조사에서는 이 종만 저염 해역까지 분포했고 U. compressa는 염분 15 ppt 미만에서 발견되지 않았다[4]. 영양이 많은 물에서 녹조(green tide)를 일으키는 종으로 알려져 있다[5, 19].\n\n"
+  "금속을 잘 쌓는 편이어서, 해조 7종에 금속을 노출한 실험에서 구리·납·아연·크로뮴·카드뮴을 가장 많이 축적했다[17]. 유로퓸 오염수 실험에서는 생물량 1 g당 최대 827 µg을 쌓아 생물농축계수가 1800에 이르렀다[30]. 표면 세균 군집도 숙주 특이적이어서, 세균 서열의 7–16%가 숙주 해조에만 나타났다[29]."},
+ {"key": "related_species", "title": "관련 종·이름", "body":
+  "식약처 목록의 '파래' 묶음에는 이 종 외에 E. compressa·E. linza·E. prolifera·E. clathrata가 함께 들어 있고, 별칭은 가시파래·격자파래·납작파래·잎파래·창자파래다[1]. 목록에는 어느 별칭이 어느 학명에 대응하는지 적혀 있지 않다[1]. 이 가운데 U. compressa는 이 종과 매우 가까워 분자 연구에서 은폐종으로 다루어진다[3, 4]. U. prolifera·U. linza는 황해 녹조 해역에서 이 종과 함께 확인된 별개의 종이다[19]. E. clathrata의 현재 처리는 확인하지 못함.\n\n"
+  "같은 목록에서 구멍갈파래(Ulva pertusa)는 별칭이 '파래'이고, 참갈파래(Ulva lactuca)·참홑파래(Monostroma nitidum)는 따로 올라 있어 이 종과 다른 원료다[1]. '파래김'·'파래돌김'은 학명이 김(Pyropia tenera)인 원료명이다[1]. 목록의 영어 이름은 'Sea lettuce'지만, 이 종을 다룬 사료 연구는 'gutweed'라는 영어 이름을 썼다[1, 26].\n\n"
+  "인도 서해안의 관 모양 녹조는 이 종처럼 보였으나 ITS 분석에서 다른 계통으로 나와 신종 U. paschima로 기재되었다[3]."},
+ {"key": "cultivation", "title": "양식·채취", "body":
+  "방글라데시 콕스바자르 몽칼리 해변에서는 길이 22 m·폭 3 m(66 m²)의 부유 뗏목 연승 구획 15개를 두고, 3 m 줄 6개마다 약 6 g짜리 종묘를 약 11개씩 달아 길렀다[6]. 엽상체가 30–40 cm가 되면 20–25일마다 수확했다[6]. 양식장 수질은 염분 30.07 ± 0.20 ppt, 수온 23.53 ± 0.12 °C, pH 8.40 ± 0.17이었다[6].\n\n"
+  "포르투갈에서는 양어장 연못(fish pond aquaculture)에서 자란 녹조 5종 중 하나로 원소 조성이 분석되었다[28]. 연구용 시료는 노르웨이 서해안(6월), 중국 옌타이 조간대(11월), 중국 저장성 연안 등 자연 군락에서 채취되었다[5, 8, 9].\n\n"
+  "같은 연구진은 오염 위험이 낮은 곳에서 거두고, 큰비 직후처럼 오염이 심할 때는 채취를 피하며, 깨끗한 물로 씻어 깨끗한 곳에서 햇볕에 말리라고 권했다[6]. 국내 파래 양식 면적·생산량(종별 통계)은 확인하지 못함."},
+ {"key": "processing", "title": "가공·이용 연구", "body":
+  "국내 식품원료 목록에는 건파래·건파래가루·구운파래·건파래볶음·조미파래·파래부각·파래분말·파래추출물이 원료명으로 올라 있다[1]. 이 종을 이름으로 지정한 고시형 원료는 없지만, 고시의 '엽록소 함유 식물'은 원재료로 '엽록소를 함유한 식용해조류'를 두고 식용해조류는 총엽록소 1.2 mg/g 이상을 요구한다[2].\n\n"
+  "다당 추출 조건이 성분을 바꾼다: 90 °C 물로 3시간 뽑은 다당은 단당 중 람노스가 58.00%였고, 2% 수산화나트륨 추출물은 아라비노스·만노스가 더 많았다[8]. 0.1 N 염산 추출 다당은 물·알칼리 추출물보다 항산화 활성이 컸다[13]. 인도 칠리카 석호 개체에서는 90 °C·5시간 조건에서 울반 약 25.04%를 얻었다[11].\n\n"
+  "응용 연구로는 분말 2.5%·조각 5%를 넣은 쿠키[10], 새우 흑변을 늦추는 황산다당 키토산 코팅[23], 생분해 필름[24], 아세톤·부탄올·에탄올 발효 원료[25], 피부용 나노에멀전[31], 제브라피시 사료 첨가[26]가 있다. 추출물로는 메탄올 추출물의 α-아밀라아제 억제(IC50 약 3.8 µg/mL, 시험관)[22]와 쥐 발 부종 모델의 Keap1·Nrf2·HO-1 발현 증가(동물)[21]가 보고되었고, 사람 대상 연구는 확인하지 못함. 이 종의 건강기능식품 생산실적은 확인하지 못함."},
+ {"key": "genetics", "title": "유전 정보", "body":
+  "중국 옌타이 개체의 엽록체 게놈은 99,041 bp 원형이고 GC 함량은 24.97%다[5]. 여기에는 단백질 유전자 71개, tRNA 26개, rRNA 3개, 독립 ORF 3개, 인트론 속 ORF 9개 등 112개 유전자와 7개 유전자에 걸친 인트론 10개가 있다[5]. 엽록체 단백질 유전자 71개로 만든 계통수에서 이 종은 Ulva 계통 II에 속했다[5].\n\n"
+  "종 구별에는 주로 핵 리보솜 ITS 서열이 쓰인다[3, 4]. 발트해·영국 개체 비교에서 이 종과 U. compressa는 서로 다른 단계통 종으로 확인되었고, 발트해 개체군의 유전 다양성은 영국 제도보다 낮았다[3, 4]. 인도 서해안의 관 모양 개체들은 어느 쪽 계통에도 들지 않아, '범세계 종'이라는 이름만으로 동정하면 고유종을 놓칠 수 있다고 지적되었다[3]. 핵 게놈 전체 해독 여부는 확인하지 못함."},
+ {"key": "safety", "title": "안전성", "body":
+  "중금속은 산지에 따라 크게 다르다: 방글라데시 뗏목 양식 개체는 건조중량 kg당 철 43.60 mg, 납 0.13 mg이었고 카드뮴·비소는 검출되지 않아 위험지수(HI)가 0.0077이었다[6]. 반면 같은 나라 세인트마틴섬 자연산은 철 2290.26, 크로뮴 23.46, 니켈 13.75, 납 6.67 mg/kg 등 6종 해조 중 여러 금속이 가장 높았고, HI가 1을 넘어 성인에게 안전하지 않다고 결론지었다[7]. 튀르키예 겜리크만 조사는 이 종을 포함한 해조 섭취에서 어린이가 가장 취약하다고 보았다[18]. 그리스 연안 조사에서 Ulva 종들은 총비소가 가장 낮은 편이었고, 모든 시료에서 비소당이 검출되었다[16].\n\n"
+  "요오드는 중국 저장성 동결건조 분말에서 0.04%로 보고되었다[8]. 노르웨이 해조 10종 비교에서 요오드가 특히 높은 것은 이 종이 아닌 Laminaria 종이었다[27].\n\n"
+  "생파래 무침에서 노로바이러스 대리 바이러스는 식초 없이 4 °C에서 1 log 줄어드는 데 4.90일이 걸렸다[14]. 바닷가에 쌓여 썩는 이 종은 황 가스와 항생제 내성 세균의 근원이 될 수 있다[15]. 식약처의 이 종 관련 섭취 주의·알레르기 정보는 확인하지 못함."},
+]
+
+compounds = [
+ {"name": "Ulvan", "name_ko": "울반(황산화 람노스 다당)", "class": "황산화 다당류", "role": "marker", "part": "엽상체 전체(건조물)",
+  "content_text": "추출 수율 약 25.04%(20:1, 90 °C, 5시간), 황산기 약 20% [11]; 물 추출 다당(WPEI) 총당 33.30%, 황산 7.50% [8]",
+  "activity_ko": "DPPH 소거 84.9%, 슈퍼옥사이드 소거 55.5%(시험관) [11]; 산 추출 황산다당의 항산화 활성이 물·알칼리 추출물보다 큼 [13]; 열수 추출 황산다당-단백질 복합체 20 mg/kg를 쥐 간암 모델에 5주 투여 시 AFP 등 표지자 감소(동물 실험) [32]", "source": [8, 11, 13, 32]},
+ {"name": "L-Rhamnose", "name_ko": "람노스", "class": "단당(데옥시당)", "role": "marker", "part": "엽상체 다당 가수분해물",
+  "content_text": "물 추출 다당(WPEI) 단당 중 58.00%, 알칼리 추출 다당(APEI) 중 15.93% [8]",
+  "activity_ko": "울반 골격 단당; 황산기가 람노스 C-2 또는 C-3에 붙음 [13]", "source": [8, 13]},
+ {"name": "Glucuronic acid", "name_ko": "글루쿠론산", "class": "우론산", "role": "bioactive", "part": "수용성 다당 분획",
+  "content_text": "산성 분획 WE-32·WE-41·WE-42가 람노스와 글루쿠론산으로 구성; WPEI 우론산 2.70% [8, 12]",
+  "activity_ko": "황산기·글루쿠론산이 많은 분획(WE-32, WE-41)이 시험관 항산화 활성이 상대적으로 강함 [12]", "source": [8, 12]},
+ {"name": "Sulfate", "name_ko": "황산기(다당 결합)", "class": "다당 치환기", "role": "bioactive", "part": "다당 추출물",
+  "content_text": "WPEI 7.50%, APEI 5.70% [8]; 울반 약 20% [11]",
+  "activity_ko": "황산다당 1.5%가 새우 폴리페놀산화효소를 1분에 63.03% 저해 [23]; 황산다당을 사료에 1% 넣은 제브라피시에서 에탄올 간손상·철 축적 완화(동물 실험) [20]", "source": [8, 11, 20, 23]},
+ {"name": "Iodine", "name_ko": "요오드", "class": "할로겐 무기원소", "role": "nutrient", "part": "엽상체 동결건조 분말(중국 저장성)",
+  "content_text": "0.04%(건조 분말, 2반복 평균) [8]",
+  "activity_ko": "필수 미량원소이나 과잉 섭취 주의 대상; 이 종의 다른 산지 값은 확인하지 못함 [8]", "source": [8]},
+ {"name": "Iron", "name_ko": "철", "class": "무기원소", "role": "nutrient", "part": "엽상체 건조물",
+  "content_text": "0.43%(중국 저장성 동결건조 분말) [8]; 43.60 ± 9.62 mg/kg 건조중량(방글라데시 뗏목 양식) [6]; 2290.26 mg/kg(세인트마틴섬 자연산) [7]",
+  "activity_ko": "산지별 차이가 50배 이상; 양식 개체의 위험지수(HQ) 0.0032로 위해 낮음 [6]", "source": [6, 7, 8]},
+ {"name": "Lead", "name_ko": "납", "class": "유해 중금속", "role": "bioactive", "part": "엽상체 건조물",
+  "content_text": "0.13 ± 0.07 mg/kg 건조중량(방글라데시 뗏목 양식) [6]; 6.67 mg/kg(세인트마틴섬 자연산) [7]",
+  "activity_ko": "오염 지표; 양식 개체 HQ 0.0022 [6]", "source": [6, 7]},
+ {"name": "Arsenic", "name_ko": "비소", "class": "유해 준금속", "role": "bioactive", "part": "엽상체 건조물",
+  "content_text": "방글라데시 뗏목 양식 개체에서 검출되지 않음(0.00 mg/kg) [6]; 그리스 연안 Ulva 종들은 조사 해조 중 총비소가 가장 낮음(조사 범위 1.39–55.0 mg/kg) [16]",
+  "activity_ko": "해조 비소의 주된 형태는 비소당(글리세롤형이 가장 흔함) [16]", "source": [6, 16]},
+ {"name": "Chlorophyll a", "name_ko": "엽록소", "class": "테트라피롤 색소", "role": "bioactive", "part": "엽상체",
+  "content_text": "원문 표2의 문헌 비교 열에 엽록소 4.07–5.89%가 적힘(이 연구 시료에서는 측정하지 않음) [8]",
+  "activity_ko": "고시형 원료 '엽록소 함유 식물'의 지표가 총엽록소(식용해조류 1.2 mg/g 이상)이나, 이 종 지정 원료는 아님 [2]", "source": [2, 8]},
+ {"name": "Polyphenols", "name_ko": "총 폴리페놀(갈산 당량)", "class": "폴리페놀(총량)", "role": "bioactive", "part": "엽상체 건조물(노르웨이 6월 채집)",
+  "content_text": "HPLC-DAD 11.3 ± 1.4 mg GAE/g 건조중량(1.1%), qNMR 52.9 ± 5.2 mg/g(5.3%), Folin-Ciocalteu 5 ± 1 mg GAE/g(0.4%) [9]",
+  "activity_ko": "같은 시료라도 정량법에 따라 값이 10배 이상 달라 해조 폴리페놀 수치 비교에 주의가 필요함 [9]", "source": [9]},
+ {"name": "Apigenin", "name_ko": "아피제닌", "class": "플라본", "role": "bioactive", "part": "엽상체 건조물(정제 분획)",
+  "content_text": "2.617 ng/g 건조중량(HPLC-LRMS, m/z 271) [9]",
+  "activity_ko": "녹조류에 플라보노이드가 있는지를 보여 주는 확인 성분; 극미량 [9]", "source": [9]},
+ {"name": "Omega-3 fatty acids", "name_ko": "오메가-3 지방산(합계)", "class": "다불포화지방산", "role": "nutrient", "part": "엽상체 건조물(방글라데시)",
+  "content_text": "오메가-3 133.8 µg/g 건조중량(7.6%), 오메가-6 436.3 µg/g(24.6%), 포화 641.9 µg/g(36.2%), 단일불포화 563.7 µg/g(31.8%) [10]",
+  "activity_ko": "24종 지방산 중 합계값; 지질 자체는 적음 [10]", "source": [10]},
+ {"name": "Protein", "name_ko": "단백질·아미노산", "class": "영양소", "role": "nutrient", "part": "엽상체 건조물",
+  "content_text": "조단백 4.86%, 총아미노산 8.41%(필수 2.36%, 비필수 6.05%; 중국 저장성) [8]; 조단백 12.6%(방글라데시, 선행 연구 인용) [6]",
+  "activity_ko": "비필수 아미노산이 필수 아미노산의 약 2.5배 [8]", "source": [6, 8]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Total polyphenols (gallic acid equivalents)", "compound_ko": "총 폴리페놀(갈산 당량)", "part": "엽상체 건조물(노르웨이 서해안 6월 채집, 표본 BG-A-75)",
+  "content": "11.3 ± 1.4 mg GAE/g 건조중량(1.1%) [9]", "method": "HPLC-DAD(갈산 외부검량, 280 nm·330 nm)",
+  "conditions": {"instrument": "Agilent 1260 Infinity HPLC + 1260 DAD", "column": "", "mobile_phase": "A: 물(0.5% TFA), B: 아세토니트릴(0.5% TFA)",
+   "gradient": "0–10분 95% A + 5% B, 10–20분 85% A + 15% B, 20–34분 60% A + 40% B, 34–35분 95% A + 5% B", "flow": "1.0 mL/min", "temp": "",
+   "detection": "DAD 200–600 nm(2 nm 간격); 1–15분 봉우리는 280 nm, 15–35분 봉우리는 330 nm 갈산 검량선으로 정량", "injection": "20 µL",
+   "sample_prep": "건조 시료 55.9 g을 ASE(Dionex ASE 350)로 물 사전침지(23 °C, 1500 psi) 뒤 물:메탄올 40:60, 70 °C, 1500 psi, 정적 5분 2회 추출; 농축 후 에틸아세테이트 분배 4회",
+   "standard": "갈산", "linearity": "", "lod": "LOD = 3.3 × Sy/S(수치는 원문 표)", "loq": "LOQ = 10 × Sy/S(수치는 원문 표)", "recovery": "에틸아세테이트 분배 후 12.1 ± 0.5 mg GAE/g(EtOAc 0.7% + 물 0.6%)"},
+  "rationale": "같은 시료를 qNMR(5.3%)·Folin-Ciocalteu(0.4%)와 나란히 정량해 방법 간 차이를 보인 이 종의 대표 정량 연구다; 전문(Methods) 확인, 분석 칼럼 표기는 받은 전문에서 잘려 확인 못함 [9].",
+  "source": [9], "url": "https://doi.org/10.3390/antiox8120612", "source_kind": "paper"},
+ {"role": "literature", "compound": "Heavy metals (Fe, Cr, Ni, Cu, Zn, Pb, Cd, As)", "compound_ko": "중금속·준금속", "part": "엽상체 건조물(방글라데시 뗏목 양식, 2022년 3월 수확)",
+  "content": "Fe 43.60 ± 9.62, Cr 0.10 ± 0.02, Ni 0.44 ± 0.03, Cu 0.07 ± 0.02, Zn 0.27 ± 0.04, Pb 0.13 ± 0.07, Cd 0.00, As 0.00 mg/kg 건조중량 [6]", "method": "ICP-OES",
+  "conditions": {"instrument": "PerkinElmer Optima 2000 DV ICP-OES(WinLab32 6.0)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "ICP-OES", "injection": "",
+   "sample_prep": "시료 1 g을 600 °C에서 6시간 회화 → 질산 4 mL·과산화수소 1 mL 가하고 물로 60 mL → 가열해 30 mL로 줄임 → 물 4 mL·과산화수소 1 mL 더해 17.5 mL로 줄임 → 50 mL 정용, 여과 2회",
+   "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "이 종을 식용 소재로 평가할 때 핵심인 유해 금속을 같은 시료로 정량하고 위해지수까지 계산한 연구다; 전문 확인, 다만 원문 서론은 ICP-MS·AAS, 방법은 ICP-OES로 적고 방법의 단위(mg/100 g)와 표의 단위(mg/kg)가 달라 해석에 주의 [6].",
+  "source": [6], "url": "https://doi.org/10.1038/s41598-024-83909-z", "source_kind": "paper"},
+ {"role": "literature", "compound": "Monosaccharides (rhamnose etc.), sulfate, uronic acid", "compound_ko": "다당의 단당 조성·황산기·우론산", "part": "엽상체 동결건조 분말과 물·알칼리 추출 다당(중국 저장성)",
+  "content": "WPEI 람노스 58.00%, 글루코스 20.50%, 자일로스 13.54%, 황산 7.50%, 우론산 2.70% [8]", "method": "GC(단당, 2 M TFA 가수분해 후), 분광법(황산), m-hydroxydiphenyl법(우론산)",
+  "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+   "sample_prep": "동결건조 분말(40 mesh)을 물 1:40, 90 °C 3시간(WPEI) 또는 2% NaOH 1:40, 75 °C 2시간(APEI) 추출 → 여과·농축 → 80% 에탄올 침전 → 원심분리(4,000 rpm, 5분) → 동결건조; 단당은 2 M TFA로 가수분해",
+   "standard": "우론산: D-갈락투론산", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "람노스·황산기·우론산은 이 종 다당(울반)의 특징 성분이라 원료 확인 지표로 쓸 만하다; 전문 확인, GC 기기·칼럼 조건은 인용 문헌에 넘겨 원문에 없음 [8].",
+  "source": [8], "url": "https://doi.org/10.3389/fphar.2021.796734", "source_kind": "paper"},
+]
+
+# compound activity references to animal/cell studies not yet used: 21, 22
+
+
+d = {
+ "slug": "enteromorpha-intestinalis", "name_ko": "파래", "name_en": "Gutweed (tubular green laver)",
+ "scientific_name": "Ulva intestinalis Linnaeus (syn. Enteromorpha intestinalis (L.) Nees)",
+ "aliases": ["Enteromorpha intestinalis", "창자파래", "창자갈파래", "Gutweed", "Sea lettuce(식약처 목록 영문명)", "green laver"],
+ "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [],
+ "production": [], "gi": [], "orgs": [], "world": [], "sources": sources,
+}
+(P / "dossier.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

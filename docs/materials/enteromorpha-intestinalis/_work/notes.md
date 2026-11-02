@@ -1,0 +1,63 @@
+# 후보 논문 (PubMed)
+- 39738733 PMC11685653 10.1038/s41598-024-83909-z Sci Rep 2024 방글라데시 양식 U. intestinalis 중금속·생물독성 (Fe 43.60 등, Cd·As 불검출, HQ<1)
+- 41958124 10.1002/cbdv.202503801 Chem Biodivers 2026 Chilika 울반 ~25.04%, 황산 ~20%, DPPH 84.9%
+- 41790721 PMC12965610 PLoS One 2026 E. intestinalis 추출물 나노에멀전 (외용, 쥐 발부종)
+- 39615168 Biomed Pharmacother 2024 EIP 황산다당 제브라피시 알코올 간손상
+- 39121592 Mar Pollut Bull 2024 모로코 Marchica: P 최고 U. intestinalis 3658±14
+- 41634483 PMC13157430 Biol Trace Elem Res 2026 Gemlik Bay 금속 U. lactuca+U. intestinalis 위해평가(어린이 취약)
+- 42561788 Sci Total Environ 2026 부패 U. intestinalis 황 가스 131 nmol/g FW (해안 퇴적 위해)
+- 42349148 Food Chem 2026 Mar Menor 하이드로콜로이드 citric 1% 수율 49.0%
+- 39634421 PMC11616492 Heliyon 2024 엽록소 미세캡슐 (U. intestinalis)
+- 37755072 PMC10533125 Mar Drugs 2023 추출물·셀레늄 나노 쥐 카라기난 부종 Keap1/Nrf2/HO-1
+- 36860428 PMC9973132 Aquac Nutr 2022 제브라피시 사료 gutweed 0.25-1%
+- 38647581 PMC10992812 바이오차 (용도)
+- 37713082 PMC10567841 흡착 (환경)
+- 35759901 10.1016/j.marpolbul.2022.113866 Mar Pollut Bull 2022 Saint Martin 섬 6종 해조: E. intestinalis 에서 Be 0.47, Co 4.34, Cr 23.46, Cu 11.96, Fe 2290.26, Li 11.55, Ni 13.75, Pb 6.67, Ti 736.62, Tl 0.14, V 33.09 mg/kg 최고; HI>1 → 성인 안전하지 않다고 결론 (초록 "HQ value > 1" 표현 모순 주의)
+- 35153754 PMC8831789 Front Pharmacol 2022 EI 다당 WPEI/APEI SD 쥐 1% 장 기능, 프로피온산
+- 36613424 PMC9819063 Foods 2023 쿠키 2.5% PUI/5% FUI; 지방산 SFA 641.9(36.2%) MUFA 563.7(31.8%) n-3 133.8(7.6%) n-6 436.3(24.6%) µg/g DW
+- 36646348 IJBM 2023 황산다당 1.5% PPO 저해 63.03%(1분), 새우 흑변
+- 36690230 IJBM 2023 젤라틴-울반-밀랍 필름
+- 34401062 PMC8358359 FSN 2021 USP 필름 30% PEG 인장 36.95 MPa
+- 36470097 Mar Pollut Bull 2022 Binhai 녹조 6종 (U. intestinalis 포함)
+- 33971602 Sci Total Environ 2021 유로퓸 U. intestinalis 827 µg/g, BCF 1800
+- 34574335 PMC8471643 Foods 2021 Baltic 거대조류 추출물 (종 확인 필요)
+- 34589588 PMC8475142 MitoDNA B 2021 엽록체 게놈 99,041 bp, 112 유전자(71 PCG, 26 tRNA, 3 rRNA, 3 orf, 9 intronic orf), 10 인트론 7유전자; 중국 황해·발해 분포; Ulva lineage II
+- 26400737 IJBM 2015 태국 U. intestinalis 황산다당 물/0.1N HCl/NaOH 80°C; 포도당·람노스, 황산 C-2/C-3 람노스; 산 추출 항산화↑
+- 25329833 PMC4198087 PLoS One 2014 U. intestinalis·U. compressa 형태 은폐종, 염분 가소성; 인도 관상 Ulva → U. paschima 신종
+- 15245399 Mol Ecol 2004 발트해에는 U. intestinalis 만; U. compressa 15 ppt 이하에 없음; ITS
+- 21078035 Environ Microbiol 2010 착생세균 숙주 특이 7-16%
+## PMC11685653 전문 (Sci Rep 2024, [금속])
+- 2022년 3월 Monkhali 해변 부유 뗏목 연승 양식(15개 구획, 22×3 m=66 m2, 줄 6개 3 m, 줄당 약 11개 6 g 종묘), 30-40 cm 되면 20-25일마다 수확. 수질: 염분 30.07±0.20 ppt, 23.53±0.12°C, pH 8.40
+- 서론 인용: 건조중량 조단백 12.6%, 탄수화물 45.4%, 조지방 3.5%, 조섬유 17.1%, 회분 12.7% (선행연구 = 쿠키 논문 36613424 계열)
+- 표2 (mg/kg 건조중량): Fe 43.60±9.62, Cr 0.10±0.02, Ni 0.44±0.03, Cu 0.07±0.02, Zn 0.27±0.04, Pb 0.13±0.07, Cd 0.00, As 0.00
+- 표2 비교: Siddique(세인트마틴섬) Fe 2290.26, Cr 23.46, Ni 13.75, Cu 11.96, Zn 13.03, Pb 6.67, Cd 0.44, As 93.46
+- HQ 최고 Fe 0.0032, HI 0.0077; 섭취량 가정 5.2 g/일, 체중 70 kg, 250일/년
+- 물 추출 수율 29.54%; Daphnia LC50 4.10(24h)→3.41 mg/mL(72h); Artemia LC50 33.37(48h), 30.87(72h) mg/mL
+- 방법: ICP-OES Optima 2000 DV(PerkinElmer), 1 g 600°C 6h 회화 → HNO3 4 mL+과산화수소 1 mL, 60 mL로 → 가열 30 mL → 물 4 mL+과산화수소 1 mL → 17.5 mL → 50 mL 정용, 여과 2회. 결과 단위는 방법에 "mg/100 g 건조중량", 표는 mg/kg — 불일치. 서론은 ICP-MS·AAS라 씀 — 불일치. LOD/LOQ/회수율 없음.
+- 29433215 Food Res Int 2017 포르투갈 양어지 녹조 5종(U. intestinalis 포함) 원소·생체접근성; I 최고는 R. riparium; I 생체접근성 14-31% (이 종 수치 초록에 없음)
+- 24700148 JSFA 2014 노르웨이 10종(E. intestinalis 포함) 단백 34-123 g/kg DW, 지질 6-58; 요오드는 Laminaria 높음; 중금속 중 비소만 우려 (이 종 개별값 초록에 없음)
+- 24016626 Chemosphere 2013 그리스 Thermaikos 총비소 1.39-55.0 mg/kg; Ulva 종(U. intestinalis 등)이 가장 낮음; 비소당(글리세롤형) 주
+- 19106005 Ecotox Env Saf 2009 7종 중 U. intestinalis 가 모든 금속 최고 축적 (Cu>Pb>Zn>Cr>Cd 순)
+- 32841840 Env Pollut 2020 살아있는 6종 Hg 제거 90-99%
+## PMC8831789 전문 (Front Pharmacol 2022, 중국 저장성 채집 EI)
+- 서론: 일본·한국·중국에서 전통 식용 녹조("green lavers")
+- DPEI(동결건조 분말, 2반복 평균) %: 수분 6.54, 회분 19.10, 조단백 4.86, 다당 40.22, 조섬유 7.64; Al 0.97, Fe 0.43(=4,300 mg/kg), Si 0.26, I 0.04, Mn 0.08, Zn 0.05, Cu 0.05, Br 0.02; 총아미노산 8.41 (필수 2.36, 비필수 6.05)
+- WPEI(물 90°C 3h 1:40): 총당 33.30, 단백 7.55, 황산 7.50; 단당 Rha 58.00 Xyl 13.54 Man 2.26 Gal 2.27 Glc 20.50 우론산 2.70 (Ara 없음)
+- APEI(2% NaOH 75°C 2h): 총당 15.43, 단백 0.98, 황산 5.70; Rha 15.93 Xyl 5.29 Ara 10.93 Man 18.04 Gal 13.09 Glc 11.96 UA 1.10
+- 쥐 1% 40일; 활성탄 추진 APEI 36.23% vs 대조 29.64% (유의차 없음); WPEI 군 신장 무게 유의 증가; DPEI 군 분변 수분 67%
+- 단당 GC(2 M TFA 가수분해), 황산 분광법, 우론산 m-hydroxydiphenyl
+- 27665528 Int J Food Microbiol 2016 한국 전통 파래 초무침(E. intestinalis) 식초 5/10/15% 4°C 7일; 한국에서 식용 해조는 노로바이러스·대장균 고위험 식품으로 여겨짐; MNV-1 D값 0%:4.90일, 15%:2.88일; 대장균 15% 0.90일
+- 31816918 PMC6943488 Antioxidants 2019 노르웨이 폴리페놀 정량 qNMR 5.5% DW, HPLC-DAD 1.1%, TPC 0.4% (갈산 기준); 최적 qNMR 5.3%
+- 33671811 PMC7926928 Molecules 2021 인도 추출물 α-아밀라아제 IC50 ~3.8 µg/mL (메탄올) 등 (시험관)
+- 29325743 IJBM 2018 수용성 다당 분획 WE-32/41/42 Rha+GlcA
+- 27955748 APJTM 2016 이집트 열수 다당 EHEM 20 mg/kg 쥐 간암모델; 분획 HepG2 IC50 73.1/42.6/76.2 µg/mL
+- 30470908 Bioprocess 2018 부경대 ABE 발효 8.5 g/L
+- 38840812 PMC11152718 Saudi 2024 Jeddah 추출물 (페놀 수치 과대 의심 345 mg/g)
+## PMC6943488 전문 (Antioxidants 2019, 노르웨이 서해안 Rogn 6월 채집, 표본 BG-A-75)
+- "Ulva intestinalis (syn. Enteromorpha intestinalis)"
+- 건조 55.9 g, ASE(Dionex ASE 350) 사전침지 물 23°C 1500 psi; 본추출 물:메탄올 40:60 70°C 1500 psi 정적 5분 2회; EtOAc 분배 4회
+- HPLC-DAD: Agilent 1260 Infinity + 1260 DAD; 칼럼 표기 원문 잘림(확인 못함); A 물(0.5% TFA) B 아세토니트릴(0.5% TFA); 0-10분 95:5, 10-20분 85:15, 20-34분 60:40, 34-35분 95:5; 1.0 mL/min; 20 µL; 200-600 nm, 280 nm(1-15분)·330 nm(15-35분) 갈산 검량; LOD=3.3σ/S, LOQ=10σ/S (수치는 표)
+- 결과: HPLC-DAD 11.3±1.4 mg GAE/g DW (1.1%), qNMR 52.9±5.2 mg(330 Mw eq)/g DW (5.3%), TPC 5±1 mg GAE/g DW (0.4%), TFC 0.2±0.4 mg 아피제닌 eq/g DW; 아피제닌 2.617 ng/g DW (HPLC-LRMS SIM m/z 271); 루테올린 이성질체·람나진 이성질체 HRMS 질량 확인
+- HPLC-LRMS: Agilent 1260 + 6420A QqQ; Zorbax SB-C18 50×2.1 mm 1.8 µm; A 물 0.5% 포름산 B ACN 0.5% 포름산; 0-3분 90:10, 3-11분 86:14, 11-15.5분 60:40, 15.5-17분 90:10; 0.3 mL/min; ESI± 모세관 3000 V, 가스 300°C 3.0 L/min, m/z 100-800
+## PMC8475142 전문: Ulva 속 ~85종; U. intestinalis 범세계 분포(아시아·호주·유럽·아메리카), 녹조 형성; 중국 황해·발해~남중국해; 2020년 11월 옌타이 조간대 채집; cpDNA 99,041 bp GC 24.97%; Illumina NovaSeq, GetOrganelle; 15종 71 PCG ML 계통에서 lineage II; 형태·세포 변이 커서 형태만으로 동정 어려움
+## PMC4198087 전문 (PLoS One 2014): Enteromorpha 는 Link(Nees 1820)가 관 모양으로 Ulva 에서 분리했다가 최근 DNA 증거로 Ulva 로 다시 합쳐짐. 형태 가소성(관형↔엽상형). U. intestinalis: 대개 분지 없음·속 빈 관·단층; U. compressa: 많이 분지·납작, 세포 로제트 배열. 두 종 은폐종. 인도 서해안 관상 개체들은 U. paschima 신종으로 분리 → 이름만으로 동정 신뢰 어려움 (U. intestinalis 범세계 분포 가정 주의)

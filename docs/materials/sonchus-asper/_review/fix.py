@@ -1,0 +1,41 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/sonchus-asper/dossier.json'
+d=json.load(open(p))
+changes=[]
+def sec(k): return next(s for s in d['sections'] if s['key']==k)
+def rep(where,obj,key,old,new,why):
+    v=obj[key]
+    assert old in v,(where,old)
+    obj[key]=v.replace(old,new,1)
+    changes.append({"where":where,"before":old,"after":new,"why":why})
+S=sec('overview')
+rep('sections.overview',S,'body','두 종은 생김새가 비슷해 자주 혼동된다[6]','두 종은 생김새가 비슷해 때때로 혼동된다[6]','[6] 원문은 "can sometimes be confused"')
+S=sec('history')
+rep('sections.history',S,'body','그리스 크레타 동부에서도 아종 S. asper ssp. glaucescens가 야생 식용 나물 11종 가운데 하나로 채취된다[21].','그리스 크레타 동부에서는 아종 S. asper ssp. glaucescens가 유전 구조 조사 대상인 야생 식용 나물 11종 가운데 하나로 다뤄졌다[21].','[21] 초록은 11종 식용 야생초의 유전 구조 연구로, 채취 관행 자체를 기술하지 않음')
+S=sec('related_species')
+rep('sections.related_species',S,'body','시칠리아의 뿌리줄기 여러해살이 S. nymanii와 S. glaucescens를 별종으로 되살리자고 제안했다[7]','꽃이 큰 계통 가운데 시칠리아 중부의 뿌리줄기 여러해살이 S. nymanii와 한해·두해살이 S. glaucescens(두 아종 포함)를 별종으로 되살리자고 제안했다[7]','[7] Box 1: S. nymanii 는 시칠리아 중부의 뿌리줄기 여러해살이, S. glaucescens 는 한해·두해살이(프랑스 남동 해안 아종 등)로 서로 다른 종 — 둘 다 시칠리아 뿌리줄기 식물처럼 읽히던 문장 수정')
+S=sec('processing')
+rep('sections.processing',S,'body','2분 데친 잎의 마이크로파 추출물이 총페놀(43.85 mg GAE/g 추출물)과 α-아밀레이스 억제(IC50 127.80 µg/mL)가 가장 높았다[2]','먹는 부위 추출물 4종 가운데 2분 데친 잎의 마이크로파 추출물이 총페놀(43.85 mg GAE/g 추출물)과 α-아밀레이스 억제(IC50 127.80 µg/mL)가 가장 높았다(시험관 실험)[2]','[2] 표 3: 버리는 바깥 잎 추출물(SAD)은 총페놀 63.36, α-아밀레이스 IC50 114.60 µg/mL 로 더 높으므로 "먹는 부위 추출물 4종 가운데"로 한정')
+rep('sections.processing',S,'body','영국 연구는 큰방가지똥 에탄올 추출물에서','아일랜드 연구는 큰방가지똥 에탄올 추출물에서','[22] 저자 소속은 아일랜드 더블린(Teagasc·UCD)')
+rep('sections.processing',S,'body','찌면 루테인과 β-카로텐이 평균 20%, 15%가량 줄었다[23].','같은 연구진의 잎채소 4종(큰방가지똥 포함) 실험에서는 찌면 루테인과 β-카로텐이 평균 20%, 15%가량 줄었다[23].','[23] 수치는 4종 평균이며 큰방가지똥 단독 값이 아님')
+rep('sections.processing',S,'body','국내 연구는 추출물 분획의 ACE·α-글루코시데이스 억제를 보고했으나, 원문을 열지 못해 WebSearch 요약으로만 확인했다[19]. 이 결과들은 모두 세포·동물 실험이며','국내 학술지(생약학회지)에 실린 연구는 추출물 분획의 ACE·α-글루코시데이스 억제를 시험관에서 보고했으나, 원문을 열지 못해 서지와 검색 요약으로만 확인했다[19]. 이 결과들은 모두 시험관·세포·동물 실험이며','[19] 저자 소속에 중국 기관이 포함되어 "국내 연구"는 부정확 — 게재지 기준으로 바꿈; 효소 억제는 시험관 결과')
+S=sec('genetics')
+rep('sections.genetics',S,'body','큰방가지똥과 방가지똥 각 2개체의 엽록체 유전체는 151,808–151,849 bp로','새로 해독한 큰방가지똥·방가지똥 각 2개체와 기존 방가지똥 1개체, 모두 5개의 엽록체 유전체는 151,808–151,849 bp로','[6] 길이·유전자 수는 새 4개+기존 오스트레일리아 방가지똥 1개를 합친 5개 기준')
+rep('sections.genetics',S,'body','크레타 동부의 S. asper ssp. glaucescens 개체군은 RAPD 분석에서 집단 안 변이가 컸다[21].','크레타 동부 야생 식용 나물 11종(S. asper ssp. glaucescens 포함)의 RAPD 분석에서는 변이가 주로 집단 안에 있었다[21].','[21] 초록의 결과는 11종 전체에 대한 것으로 이 아종만의 결과가 아님')
+S=sec('safety')
+rep('sections.safety',S,'body','따라서 길가·공단·광산 주변에서 채취한 잎은 피하는 것이 좋다[13].','저자들은 식물의 중금속 함량이 자란 곳의 오염 상태를 반영한다고 결론지었으므로[13], 길가·공단·광산 주변에서 채취한 잎은 피하는 편이 안전하다.','[13] 은 채취 권고를 직접 하지 않음 — 출처의 결론과 판단을 구분')
+# compounds
+C={c['name']:c for c in d['compounds']}
+rep('compounds.Lutein',C['Lutein'],'content_text','큰방가지똥 포함 야생 잎채소 4종 생잎 약 6–9 mg/100 g(종 전체 범위)[4]; 국화과 야생 나물 3종 약 4 mg/100 g[5]','큰방가지똥 포함 야생 잎채소 4종과 대조 시금치의 생잎 약 6–9 mg/100 g(전체 범위, 큰방가지똥 단독 값은 표에만 있음)[4]; 큰방가지똥·방가지똥 등 국화과 야생 나물 3종 약 4 mg/100 g[5]','[4] 범위는 시금치 포함 전 시료, [5] 는 방가지똥(S. oleraceus)이 섞인 3종 값 — 종 섞임 명시')
+rep('compounds.beta-Carotene',C['beta-Carotene'],'content_text','야생 잎채소 4종 생잎 약 2–5 mg/100 g(종 전체 범위)[4]','야생 잎채소 4종과 대조 시금치의 생잎 약 2–5 mg/100 g(전체 범위)[4]','[4] 범위는 시금치 포함 전 시료')
+rep('compounds.alpha-Tocopherol',C['alpha-Tocopherol'],'content_text','국화과 야생 나물 3종 약 2–3 mg/100 g[5]; 야생 잎채소 4종 평균 2.2 mg/100 g[4]','국화과 야생 나물 3종(방가지똥 포함) 약 2–3 mg/100 g[5]; 조사한 잎채소 전체 평균 2.2 mg/100 g[4]','[4] 평균은 시금치 포함 전 시료, [5] 는 방가지똥 포함 3종')
+A=d['assays']
+rep('assays[0].rationale',A[0],'rationale','38개 성분과 필수아미노산 6종을 확인했다[2]','38개 성분을 잠정 동정하고 필수아미노산을 정량했다(이소류신·류신·트레오닌이 가장 많음)[2]','[2] 원문에 "필수아미노산 6종" 표현 없음; 검정곡선은 8종 아미노산')
+rep('assays[2].content',A[2],'content','4종 야생 잎채소 생잎 루테인','4종 야생 잎채소와 대조 시금치 생잎 루테인','[4] 범위는 시금치 포함 전 시료')
+# source 19 / 22 notes
+src={s['n']:s for s in d['sources']}
+rep('sources[19].title',src[19],'title','— 이 환경에서 원문(KoreaScience)을 열지 못해 WebSearch 요약으로만 확인','— 원문(KoreaScience)을 열지 못해 서지와 검색 요약으로만 확인(시험관 결과)','표기 정리')
+rep('sources[19].publisher',src[19],'publisher','한국생약학회(KoreaScience 서지, WebSearch 요약)','한국생약학회(KoreaScience 서지)','표기 정리')
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/sonchus-asper/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

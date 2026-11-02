@@ -1,0 +1,122 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+PMC = "https://pmc.ncbi.nlm.nih.gov/articles/{}/"
+PM = "https://pubmed.ncbi.nlm.nih.gov/{}/"
+A = "2026-11-02"
+src = [
+ ("식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 큰방가지똥잎(Sonchus asper (Linne) Hill., 식품원료 A코드, 사용가능, 사용가능부위 : 잎) 행", "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "식품의약품안전처", "2026-10-13"),
+ ("Sonchus asper (L.) Hill extracts: phytochemical characterization and exploitation of its biological activities by loading into nanoformulation. Front Plant Sci 2024;15:1416539 (PMID 39220011, doi:10.3389/fpls.2024.1416539)", PMC.format("PMC11363874"), "Frontiers in Plant Science (PMC)", A),
+ ("Sonchus asper extract inhibits LPS-induced oxidative stress and pro-inflammatory cytokine production in RAW264.7 macrophages. Nutr Res Pract 2015;9(6):579-85 (PMID 26634045, doi:10.4162/nrp.2015.9.6.579)", PMC.format("PMC4667197"), "Nutrition Research and Practice (PMC)", A),
+ ("Evaluation of the Content of Minerals, B-Group Vitamins, Tocols, and Carotenoids in Raw and In-House Cooked Wild Edible Plants. Foods 2024;13(3):472 (PMID 38338607, doi:10.3390/foods13030472)", PMC.format("PMC10855799"), "Foods (MDPI, PMC)", A),
+ ("Bioactive Compounds in Wild Asteraceae Edible Plants Consumed in the Mediterranean Diet. Plant Foods Hum Nutr 2020;75(4):540-546 (PMID 32803719, doi:10.1007/s11130-020-00842-y) — 초록", PM.format("32803719"), "Plant Foods for Human Nutrition (PubMed)", A),
+ ("Sow Thistle Chloroplast Genomes: Insights into the Plastome Evolution and Relationship of Two Weedy Species, Sonchus asper and Sonchus oleraceus (Asteraceae). Genes 2019;10(11):881 (PMID 31683955, doi:10.3390/genes10110881)", PMC.format("PMC6895928"), "Genes (MDPI, PMC)", A),
+ ("Functional traits reveal unaccounted diversity within Sonchus asper (L.) Hill (Asteraceae) in the northern Mediterranean and enable the reinstatement of ancient taxa. AoB Plants 2026;18(5):plag040 (PMID 42819532, doi:10.1093/aobpla/plag040)", PMC.format("PMC13626247"), "AoB PLANTS (PMC)", A),
+ ("Evaluation of phenolic contents and antioxidant activity of various solvent extracts of Sonchus asper (L.) Hill. Chem Cent J 2012;6(1):12 (PMID 22305477, doi:10.1186/1752-153X-6-12)", PMC.format("PMC3292812"), "Chemistry Central Journal (PMC)", A),
+ ("Hepatoprotective activity of Sonchus asper against carbon tetrachloride-induced injuries in male rats: a randomized controlled trial. BMC Complement Altern Med 2012;12:90 (PMID 22776436, doi:10.1186/1472-6882-12-90) — 초록", PMC.format("PMC3457902"), "BMC Complementary and Alternative Medicine (PubMed 초록)", A),
+ ("Evaluation of antihypertensive activity of Sonchus asper L. in rats. Acta Pol Pharm 2016;73(2):425-31 (PMID 27180435) — 초록", PM.format("27180435"), "Acta Poloniae Pharmaceutica (PubMed)", A),
+ ("Phytochemical Exploration and Anti-asthmatic Activity of Crude Methanol Extract and Derived Fractions of Sonchus asper (L.) Hill. Curr Med Chem 2026 (PMID 42083961, doi:10.2174/0109298673440977260202210913) — 초록", PM.format("42083961"), "Current Medicinal Chemistry (PubMed)", A),
+ ("Sesquiterpene lactone glucosides from Sonchus asper. Phytochemistry 2000;53(4):473-7 (PMID 10731026, doi:10.1016/s0031-9422(99)00516-6) — 초록", PM.format("10731026"), "Phytochemistry (PubMed)", A),
+ ("Content of micronutrients, mineral and trace elements in some Mediterranean spontaneous edible herbs. Chem Cent J 2015;9:57 (PMID 26473007, doi:10.1186/s13065-015-0137-9)", PMC.format("PMC4605969"), "Chemistry Central Journal (PMC)", A),
+ ("Hyperaccumulation of Pb, Zn and Cd in herbaceous grown on lead-zinc mining area in Yunnan, China. Environ Int 2005;31(5):755-62 (PMID 15910971, doi:10.1016/j.envint.2005.02.004) — 초록", PM.format("15910971"), "Environment International (PubMed)", A),
+ ("Assessment of chromium hyper-accumulative behaviour using biochemical analytical techniques of greenhouse cultivated Sonchus asper on tannery waste dump site soils. Environ Sci Pollut Res 2018;25(27):26992-26999 (PMID 30008168, doi:10.1007/s11356-018-2740-5) — 초록", PM.format("30008168"), "Environmental Science and Pollution Research (PubMed)", A),
+ ("Accumulation and Transfer of Cadmium Isotope by Sonchus asper Intercropped with Vicia faba and Implications for Phytoremediation. Bull Environ Contam Toxicol 2021;107(6):1143-1148 (PMID 33560452, doi:10.1007/s00128-021-03126-6) — 초록", PM.format("33560452"), "Bulletin of Environmental Contamination and Toxicology (PubMed)", A),
+ ("Nutritional quality of some wild leafy vegetables in South Africa. Int J Food Sci Nutr 2009;60(5):424-31 (PMID 19037794, doi:10.1080/09637480701777928) — 초록", PM.format("19037794"), "International Journal of Food Sciences and Nutrition (PubMed)", A),
+ ("Antioxidant and antibacterial activity of six edible wild plants (Sonchus spp.) in China. Nat Prod Res 2011;25(20):1893-901 (PMID 21793765, doi:10.1080/14786419.2010.534093) — 초록", PM.format("21793765"), "Natural Product Research (PubMed)", A),
+ ("큰방가지똥 추출물의 항당뇨 및 항고혈압효과(Antidiabetes and Angiotensin Converting Enzyme Inhibitory Activity of Sonchus asper (L) Hill Extract). 생약학회지 2011;42(1):61-67 — 이 환경에서 원문(KoreaScience)을 열지 못해 WebSearch 요약으로만 확인", "https://koreascience.kr/article/JAKO201112449427929.page", "한국생약학회(KoreaScience 서지, WebSearch 요약)", A),
+ ("Sonchus asper and Its Potential in Cosmetics — A Review. Pharmaceuticals 2026;19(6):890 (PMID 42356508, doi:10.3390/ph19060890) — 초록", PM.format("42356508"), "Pharmaceuticals (MDPI, PubMed)", A),
+ ("Genetic structure and population diversity of eleven edible herbs of Eastern Crete. J Biol Res (Thessalon) 2015;22(1):7 (PMID 26140277, doi:10.1186/s40709-015-0030-7) — 초록", PMC.format("PMC4488954"), "Journal of Biological Research-Thessaloniki (PubMed 초록)", A),
+ ("Investigating the potential of under-utilised plants from the Asteraceae family as a source of natural antimicrobial and antioxidant extracts. Food Chem 2014;161:79-86 (PMID 24837924, doi:10.1016/j.foodchem.2014.03.126) — 초록", PM.format("24837924"), "Food Chemistry (PubMed)", A),
+ ("Loss or Gain of Lipophilic Bioactive Compounds in Vegetables after Domestic Cooking? Effect of Steaming and Boiling. Foods 2021;10(5):960 (PMID 33924885, doi:10.3390/foods10050960) — 초록", PMC.format("PMC8145054"), "Foods (MDPI, PubMed 초록)", A),
+ ("First Report of Iris yellow spot virus in Spiny Sowthistle (Sonchus asper) in the United States. Plant Dis 2007;91(11):1518 (PMID 30780764, doi:10.1094/PDIS-91-11-1518C) — 초록", PM.format("30780764"), "Plant Disease (PubMed)", A),
+ ("First Report of Powdery Mildew Caused by Golovinomyces cichoracearum on Sonchus asper in China. Plant Dis 2012;96(5):766 (PMID 30727551, doi:10.1094/PDIS-01-12-0033-PDN) — 초록", PM.format("30727551"), "Plant Disease (PubMed)", A),
+ ("Prevention of CCl4-induced nephrotoxicity with Sonchus asper in rat. Food Chem Toxicol 2010;48(8-9):2469-76 (PMID 20550952, doi:10.1016/j.fct.2010.06.016) — 초록", PM.format("20550952"), "Food and Chemical Toxicology (PubMed)", A),
+ ("Prevention of hepatorenal toxicity with Sonchus asper in gentamicin treated rats. BMC Complement Altern Med 2011;11:113 (PMID 22082144, doi:10.1186/1472-6882-11-113) — 초록", PMC.format("PMC3305921"), "BMC Complementary and Alternative Medicine (PubMed 초록)", A),
+ ("Antidiabetic, Antioxidant, and Hypolipidemic Potential of Sonchus asper Hill. Altern Ther Health Med 2017;23(5):34-40 (PMID 28236622) — 초록", PM.format("28236622"), "Alternative Therapies in Health and Medicine (PubMed)", A),
+ ("Brain antioxidant markers, cognitive performance and acetylcholinesterase activity of rats: efficiency of Sonchus asper. Behav Brain Funct 2012;8:21 (PMID 22591917, doi:10.1186/1744-9081-8-21) — 초록", PMC.format("PMC3527136"), "Behavioral and Brain Functions (PubMed 초록)", A),
+]
+sources = [{"n": i+1, "title": t, "url": u, "publisher": p, "accessed": a} for i, (t, u, p, a) in enumerate(src)]
+
+S = {}
+S["overview"] = ("한눈에 보기",
+"큰방가지똥(Sonchus asper (L.) Hill)은 국화과(Asteraceae) 방가지똥속의 한해살이 또는 두해살이풀로, 영어로는 prickly(spiny) sow thistle이라 부른다[6]. 잎 가장자리에 단단한 가시가 많아 같은 속의 방가지똥(S. oleraceus)과 구별되지만, 두 종은 생김새가 비슷해 자주 혼동된다[6]. 지중해 지역에서 기원한 것으로 보이며 지금은 전 세계에 퍼진 잡초다[6][7].\n\n"
+"식품의약품안전처 「식품원료 목록」에서 큰방가지똥은 '큰방가지똥잎'이라는 원료명으로 올라 있고, 식품원료(A코드)로 사용가능하며 사용 조건은 '사용가능부위 : 잎'이다[1]. 같은 목록에는 이명 '큰방가지풀'과 영어명 'Spiny-leaved sow thistle'이 함께 적혀 있다[1]. 방가지똥(S. oleraceus)은 같은 목록에서 별도 원료로 올라 있으므로 두 종의 자료를 섞어 쓰지 않아야 한다[1].\n\n"
+"남부 이탈리아에서는 꽃 피기 전의 잎과 어린 줄기를 수프나 곁들이 요리로 먹는다[2]. 잎에는 클로로겐산·치코르산 같은 페놀산과 루테올린·아피게닌 배당체, 루테인·β-카로텐 같은 카로티노이드가 보고되었다[2][4]. 남아프리카 야생 잎채소 4종 비교에서는 큰방가지똥 잎의 철 함량이 높았다[17]. 화장품 원료로서의 가능성을 정리한 2026년 총설도 나왔다[20].")
+S["history"] = ("역사와 전통 이용",
+"린네는 1753년 이 식물을 방가지똥의 변종(Sonchus oleraceus var. asper L.)으로 기재했고, 1769년 힐(Hill)이 독립된 종 Sonchus asper (L.) Hill로 옮겼다[7]. 19세기에 이미 지중해 개체군의 꽃 크기와 생활형 차이가 기록되었다[7].\n\n"
+"파키스탄에서는 이 풀을 당뇨병·비뇨기 질환과 천식의 민간약으로 써 왔다고 보고된다[11][28]. 간·폐·신장 질환과 기침·기관지염·화상·상처 치료에 썼다는 기록도 여러 논문의 서론에 정리되어 있다[3][8]. 남아프리카·이집트·중국에서도 염증성 질환의 민간약으로 쓰였다고 소개된다[3].\n\n"
+"식용 전통은 지중해 지역에서 뚜렷하다[2][5]. 이탈리아 베네벤토 지방에서는 꽃 피기 전에 거둔 잎을 끓는 물에 2분 데쳐 전통 수프에 넣는다[2]. 그리스 크레타 동부에서도 아종 S. asper ssp. glaucescens가 야생 식용 나물 11종 가운데 하나로 채취된다[21]. 국내에서 나물로 먹어 온 기록은 공식 자료에서 확인하지 못함.")
+S["biology"] = ("식물학적 특징",
+"큰방가지똥은 줄기가 곧게 서는 풀로, 넓은 뜻의 종(s. l.) 기준 키가 15–210 cm이다[7]. 어린 개체는 주걱 모양 잎이 뭉친 로제트를 만들고, 꽃줄기의 잎은 둥근 귀 모양 밑부분으로 줄기를 감싼다[7]. 잎은 갈라지지 않거나 깃꼴로 갈라지며 가장자리에 단단한 가시가 있다[7].\n\n"
+"방가지똥과 비교하면 큰방가지똥의 잎은 짙고 윤기 있는 녹색에 두껍고 거의 갈라지지 않으며, 잎 밑의 귀 모양 부분이 둥글게 말린다[6]. 머리모양꽃차례에는 노란 꽃이 80–360개 달린다[7]. 열매(수과)는 거꿀피침형~타원형으로 강하게 납작하고 가장자리에 날개가 있으며 양면에 세로줄이 3개씩 있다[7].\n\n"
+"좁은 뜻의 큰방가지똥은 높이 (5–)18–150 cm의 한해살이풀이고, 꽃차례 지름 10.8–29.5 mm, 수과 1.9–3.7 × 0.6–1.7 mm로 기재된다[7]. 밭·길가·풀밭 같은 교란된 곳의 습한 땅을 좋아하며 해발 0–1,500 m에서 자란다[7]. 주로 제꽃가루받이로 열매를 맺는다[7].")
+S["related_species"] = ("분류와 근연종",
+"방가지똥속(Sonchus)은 넓게 보면 약 95종으로, 유라시아·아프리카·대서양 섬과 오스트레일리아·뉴질랜드에 분포한다[6]. 큰방가지똥과 방가지똥(S. oleraceus)은 같은 아속에 속하는 가까운 종이며, 엽록체 유전체 계통에서도 서로 가깝지만 뚜렷이 나뉘지 않았다[6].\n\n"
+"방가지똥(2n = 32)은 큰방가지똥(2n = 18)과 S. tenerrimus(2n = 14)가 합쳐진 복이배체라는 가설이 있으며, 엽록체 자료는 큰방가지똥이 모계 조상이었을 가능성을 지지한다[6]. 식품원료 목록에는 방가지똥·사데풀(S. brachyotus)·S. arvensis·S. tenerrimus·S. kirkii가 따로 올라 있다[1]. 중국 야생 방가지똥속 6종 비교에서 총페놀은 S. arvensis, 총플라보노이드는 방가지똥이 가장 많았으므로, 다른 종의 성분값을 큰방가지똥에 옮겨 쓰면 안 된다[18].\n\n"
+"현재 분류에서 큰방가지똥은 기본 아종과 지중해의 subsp. glaucescens(subsp. nymanii로도 씀)로 나뉜다[7]. 2026년 연구는 40개 집단의 꽃 형질·생활형·DNA를 분석해, 꽃이 작은 제꽃가루받이 한해살이 개체만 S. asper로 남기고 시칠리아의 뿌리줄기 여러해살이 S. nymanii와 S. glaucescens를 별종으로 되살리자고 제안했다[7]. 이 제안이 널리 받아들여졌는지는 확인하지 못함.")
+S["cultivation"] = ("자생과 채취",
+"큰방가지똥은 재배보다는 야생에서 채취하는 식물이다[2]. 경작지·정원·길가·목초지 같은 열린 교란지에 먼저 들어와 자라는 개척종이며, 방가지똥과 함께 곡물 재배지의 골칫거리 잡초로 꼽힌다[6]. 갓털이 달린 열매가 바람에 퍼지고, 두 잡초성 종은 한 포기가 휴경지에서 씨앗을 최대 25,000개까지 맺는다고 보고된다[6].\n\n"
+"이탈리아에서는 버려진 농지에서 농업 협동조직이 큰방가지똥을 거두어 지역 시장에 파는 방식이 경제성 있는 활용 모델로 제시되었다[2]. 이 식물은 저절로 자라고 물을 대지 않아도 되므로, 비용은 채취 노동·운송·토지 사용료가 중심이다[2].\n\n"
+"큰방가지똥은 미국 조지아주 양파 밭 주변에서 아이리스황반바이러스를 지닌 채 발견되어 바이러스의 잡초 숙주로 보고되었다[24]. 중국 허난성에서는 흰가루병균(Golovinomyces cichoracearum)에 심하게 감염된 사례가 보고되었고, 이 논문은 중국에서 이 종을 외래 한해살이풀로 소개했다[25]. 국내 재배 면적이나 생산량 통계는 확인하지 못함.")
+S["processing"] = ("가공과 이용",
+"식품원료 목록에서 큰방가지똥은 잎만 쓸 수 있다[1]. 이탈리아 연구에서 2분 데친 잎의 마이크로파 추출물이 총페놀(43.85 mg GAE/g 추출물)과 α-아밀레이스 억제(IC50 127.80 µg/mL)가 가장 높았다[2]. 영국 연구는 큰방가지똥 에탄올 추출물에서 페놀 화합물 14종을 동정·정량했다[22].\n\n"
+"야생 잎채소 4종(큰방가지똥 포함)을 10분 데치면 무기질이 최대 60%, 비타민 B1·B2가 거의 전부 빠졌지만 토코페롤과 대부분의 카로티노이드는 크게 줄지 않았다[4]. 찌면 루테인과 β-카로텐이 평균 20%, 15%가량 줄었다[23].\n\n"
+"메탄올 추출물(100·200 mg/kg)은 사염화탄소나 겐타마이신으로 손상시킨 쥐에서 간·신장 손상 지표를 낮췄다[9][26][27]. 당뇨 쥐의 혈당·지질 개선과 쥐의 기억력 개선도 보고되었다[28][29]. 국내 연구는 추출물 분획의 ACE·α-글루코시데이스 억제를 보고했으나, 원문을 열지 못해 WebSearch 요약으로만 확인했다[19]. 이 결과들은 모두 세포·동물 실험이며, 사람 대상 임상시험은 확인하지 못함.")
+S["genetics"] = ("유전 정보",
+"큰방가지똥은 유럽·미국·캐나다 재료에서 일관되게 이배체(2n = 18)로 보고되어, 보통 2n = 32인 방가지똥과 염색체 수가 다르다[6]. 큰방가지똥과 방가지똥 각 2개체의 엽록체 유전체는 151,808–151,849 bp로, 유전자 130개를 담고 GC 함량은 37.6%였다[6]. 5개 엽록체 유전체는 서열이 99.98% 같았고, 단순반복서열(SSR) 79개와 변이가 큰 구간 10곳이 앞으로의 표지로 제안되었다[6].\n\n"
+"지중해 북부 40개 집단을 핵 ITS/ETS·엽록체 DNA와 AFLP로 분석한 연구는 꽃 크기·생활형에 따라 세 계통이 나뉜다고 보았다[7]. 가장 먼저 갈라진 계통은 흔한 제꽃가루받이 한해살이 개체였고, 나머지 두 계통은 자가불화합성이었다[7].\n\n"
+"크레타 동부의 S. asper ssp. glaucescens 개체군은 RAPD 분석에서 집단 안 변이가 컸다[21]. 한국 자생 개체의 유전 정보는 확인하지 못함.")
+S["safety"] = ("안전성",
+"큰방가지똥은 식품원료 목록에서 잎을 쓸 수 있는 '사용가능' 원료이며, 별도의 사용 제한 조건은 적혀 있지 않다[1]. 이 종에 대한 식약처·농촌진흥청의 알레르기·잔류농약·독성 성분 안내는 확인하지 못함.\n\n"
+"큰방가지똥은 중금속을 많이 빨아들일 수 있다[14][15][16]. 중국 납·아연 광산 지역의 개체는 납과 아연을 고농도로 축적했고, 무두질 폐기물 토양에서 키운 개체는 총크롬 601 mg/kg(지상부 212 mg/kg)을 쌓았다[14][15]. 카드뮴 동위원소 실험에서는 지상부 카드뮴 농도가 함께 심은 잠두의 7.0배였다[16]. 이탈리아에서 이 종을 포함한 야생 나물 3종을 조사한 결과 오염 지역과 출처를 모르는 시장 시료에서 납·카드뮴·니켈이 높았다(3종 전체 납 793–12,708 µg/kg 건조중량)[13]. 따라서 길가·공단·광산 주변에서 채취한 잎은 피하는 것이 좋다[13].\n\n"
+"지상부 물-메탄올 추출물의 반수치사량은 생쥐에서 3,500 mg/kg이었고, 쥐 아만성 독성 시험에서 혈액화학에 유의한 변화가 없었다[10]. 이 종 잎의 질산염·옥살산 함량은 확인하지 못함.")
+
+compounds = [
+ dict(name="Chlorogenic acid", name_ko="클로로겐산", **{"class":"페놀산(카페오일퀸산)"}, role="bioactive", part="잎·어린 줄기", content_text="LC-HRMS 정량에서 클로로겐산·치코르산·카프타르산이 가장 많은 성분군(개별 수치는 그림으로만 제시)[2]", activity_ko="", source=[2]),
+ dict(name="Chicoric acid", name_ko="치코르산", **{"class":"페놀산(디카페오일타르타르산)"}, role="bioactive", part="잎·어린 줄기", content_text="잎 추출물 주요 페놀산[2]", activity_ko="", source=[2]),
+ dict(name="Caftaric acid", name_ko="카프타르산", **{"class":"페놀산"}, role="bioactive", part="잎·어린 줄기", content_text="잎 추출물 주요 페놀산[2]", activity_ko="", source=[2]),
+ dict(name="Luteolin 7-O-glucoside", name_ko="루테올린-7-O-글루코사이드", **{"class":"플라보노이드 배당체"}, role="bioactive", part="잎·어린 줄기", content_text="표준품으로 확인; 루테올린·아피게닌 글루쿠로나이드가 가장 대표적인 플라보노이드[2]", activity_ko="", source=[2]),
+ dict(name="Apigenin 7-O-glucoside", name_ko="아피게닌-7-O-글루코사이드", **{"class":"플라보노이드 배당체"}, role="bioactive", part="잎·어린 줄기", content_text="표준품으로 확인; 아피게닌 글루쿠로나이드가 잎 추출물의 대표 플라보노이드[2]", activity_ko="", source=[2]),
+ dict(name="Rutin", name_ko="루틴", **{"class":"플라보놀 배당체"}, role="marker", part="지상부(개화기)", content_text="지상부 메탄올 추출물의 에틸아세테이트 분획 중 8.34%[3]; 전초 추출물 HPLC에서 확인[11]", activity_ko="에틸아세테이트 분획이 LPS 자극 대식세포의 NO 생성을 100 µg/mL에서 95% 억제(세포 실험)[3]", source=[3, 11]),
+ dict(name="Caffeic acid", name_ko="카페산", **{"class":"페놀산(하이드록시신남산)"}, role="bioactive", part="지상부(개화기)", content_text="에틸아세테이트 분획 중 3.079%[3]", activity_ko="", source=[3]),
+ dict(name="Quercetin", name_ko="퀘르세틴", **{"class":"플라보놀"}, role="bioactive", part="지상부·전초", content_text="에틸아세테이트 분획 중 2.158%[3]; 전초 추출물 HPLC에서 확인[11]", activity_ko="", source=[3, 11]),
+ dict(name="Esculin", name_ko="에스쿨린", **{"class":"쿠마린 배당체"}, role="bioactive", part="잎·어린 줄기", content_text="표준품으로 확인; 아에스쿨레틴도 검출[2]", activity_ko="", source=[2]),
+ dict(name="Roseoside", name_ko="로세오사이드", **{"class":"C13-노르이소프레노이드 배당체"}, role="bioactive", part="잎·어린 줄기", content_text="표준품으로 확인[2]", activity_ko="", source=[2]),
+ dict(name="Lutein", name_ko="루테인", **{"class":"카로티노이드(잔토필)"}, role="nutrient", part="뿌리잎(생잎)", content_text="큰방가지똥 포함 야생 잎채소 4종 생잎 약 6–9 mg/100 g(종 전체 범위)[4]; 국화과 야생 나물 3종 약 4 mg/100 g[5]", activity_ko="", source=[4, 5]),
+ dict(name="beta-Carotene", name_ko="β-카로텐", **{"class":"카로티노이드(카로텐)"}, role="nutrient", part="뿌리잎(생잎)", content_text="야생 잎채소 4종 생잎 약 2–5 mg/100 g(종 전체 범위)[4]", activity_ko="", source=[4]),
+ dict(name="alpha-Tocopherol", name_ko="α-토코페롤(비타민 E)", **{"class":"토코페롤"}, role="nutrient", part="뿌리잎(생잎)", content_text="국화과 야생 나물 3종 약 2–3 mg/100 g[5]; 야생 잎채소 4종 평균 2.2 mg/100 g[4]", activity_ko="", source=[4, 5]),
+ dict(name="alpha-Linolenic acid", name_ko="α-리놀렌산", **{"class":"지방산(오메가-3)"}, role="nutrient", part="잎·어린 줄기", content_text="잎 추출물에서 리놀레산·하이드록시 지방산과 함께 확인[2]", activity_ko="", source=[2]),
+ dict(name="15-O-beta-D-Glucopyranosylurospermal A", name_ko="15-O-글루코실우로스페르말 A", **{"class":"세스퀴테르펜 락톤 배당체(게르마크라놀라이드)"}, role="bioactive", part="뿌리", content_text="뿌리 메탄올 추출물에서 분리(새 배당체 2종 포함 5종)[12]", activity_ko="", source=[12]),
+]
+
+assays = [
+ {"role":"literature","compound":"Chlorogenic acid","compound_ko":"클로로겐산 등 페놀산·플라보노이드·쿠마린·지방산","part":"꽃 피기 전 잎과 어린 줄기(날것·2분 데친 것), 70% 에탄올 추출물",
+  "content":"정량값은 그림으로만 제시되어 본문 숫자를 확인하지 못함; 클로로겐산·치코르산·카프타르산과 불포화 지방산이 가장 많았음[2]",
+  "method":"LC-HRMS(UHPLC-Q-Orbitrap, 음이온 ESI)",
+  "conditions":{"instrument":"UltiMate 3000 UHPLC + Q Exactive 하이브리드 사중극자-오비트랩 질량분석기","column":"Luna C18, 150 × 2.0 mm, 3 μm","mobile_phase":"A: 0.1% 포름산 수용액, B: 아세토니트릴","gradient":"5% B 5분 유지 → 45분간 5–50% B → 10분간 50–100% B","flow":"0.2 mL/min","temp":"","detection":"HRMS 음이온 모드, ESI-MS/MS 정규화 충돌에너지 35%, 모세관 320 °C","injection":"10 μL","sample_prep":"건조 추출물을 MeOH:H2O(4:1)에 녹여 13,000 rpm 10분 원심분리","standard":"클로로겐산·아피게닌-7-O-글루코사이드·루테올린-7-O-글루코사이드·루테올린·루틴·아에스쿨레틴·로세오사이드·α-리놀렌산 외부표준","linearity":"1 ng/mL–1 μg/mL(성분별 10–4,000 ng/mL), 7수준 이상","lod":"","loq":"","recovery":""},
+  "rationale":"이 종의 먹는 잎에서 대사물을 처음 정성·정량한 연구로, 38개 성분과 필수아미노산 6종을 확인했다[2]. 검출·정량한계와 회수율은 본문에서 확인하지 못함.",
+  "source":[2],"url":PMC.format("PMC11363874"),"source_kind":"paper"},
+ {"role":"literature","compound":"Rutin","compound_ko":"루틴(카페산·퀘르세틴 동시 분석)","part":"개화기 지상부, 메탄올 추출물의 에틸아세테이트 분획",
+  "content":"루틴 8.34%, 카페산 3.079%, 퀘르세틴 2.158%(에틸아세테이트 분획 기준)[3]",
+  "method":"HPLC-PDA / LC-MS(삼중사중극자)",
+  "conditions":{"instrument":"Waters Alliance HPLC + PDA 2996 검출기, Micromass Quattro micro API 삼중사중극자 질량분석기","column":"Kinetex C18, 150 × 4.6 mm, 5 µm","mobile_phase":"A: 0.05% 포름산 수용액, B: 아세토니트릴","gradient":"A:B 100:0(0–7분) → 80:20(7–47분) → 60:40(47–72분) → 100:0(72–75분)","flow":"1 mL/min","temp":"40 °C","detection":"280 nm(갈산·카테킨·EGCG), 320 nm(카페산·쿠마르산), 360 nm(루틴·퀘르세틴)","injection":"10 µL","sample_prep":"그늘 건조 분말 100 g을 메탄올 1 L로 60 °C 추출(3회), 헥산·디클로로메탄·에틸아세테이트·부탄올 순차 분획","standard":"갈산·카테킨·EGCG·카페산·p-쿠마르산·루테올린-7-글루코사이드·루테올린·루틴·퀘르세틴 9종 표준품(체류시간·질량 비교)","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"이 종의 항산화·항염 활성 성분으로 카로티노이드·카테킨·루틴·퀘르세틴이 거론되어 왔고, 이 분획에서 루틴이 가장 많았다[3]. 검정곡선·검출한계·회수율은 본문에 없음.",
+  "source":[3],"url":PMC.format("PMC4667197"),"source_kind":"paper"},
+ {"role":"literature","compound":"Lutein","compound_ko":"루테인·β-카로텐(카로티노이드), 토코페롤","part":"뿌리잎(생잎·데친 잎·찐 잎), 동결건조 분말",
+  "content":"4종 야생 잎채소 생잎 루테인 약 6–9 mg/100 g, β-카로텐 약 2–5 mg/100 g, 총 토코페롤 평균 2.5 mg/100 g(종별 값은 표에 있어 본문에서 큰방가지똥만의 값은 확인하지 못함)[4]",
+  "method":"HPLC-UV/Vis(카로티노이드), HPLC-형광(토코페롤)",
+  "conditions":{"instrument":"Dionex HPLC(Ultimate 3000 펌프), RF 2000 형광검출기","column":"카로틴: YMC C30, 250 × 4.6 mm, 5 µm(역상); 잔토필·토코페롤: Phenomenex Luna 실리카, 250 × 4.6 mm, 5 µm(순상)","mobile_phase":"카로틴: 메탄올·메틸tert-부틸에테르·물; 잔토필: n-헥산·이소프로판올; 토코페롤: n-헥산:아세트산에틸:아세트산 97.3:1.8:0.9","gradient":"잔토필: 이소프로판올 10%→20% 다단 직선 기울기; 카로틴: 문헌 기울기","flow":"카로틴 1 mL/min, 토코페롤 1.6 mL/min","temp":"","detection":"카로티노이드 450 nm; 토코페롤 형광 여기 290 nm·방출 330 nm","injection":"50 µL 루프","sample_prep":"동결건조 시료 0.1 g을 알칼리 가수분해(검화) 후 용매 추출; 토코페롤 잔사는 n-헥산:이소프로판올(99:1)에 재용해","standard":"α-·β-·γ-·δ-토코페롤, 루테인·제아잔틴·β-크립토잔틴·β-카로텐 등 표준품; 인증표준물질 BCR-485·NIST-SRM 3233으로 검증","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"카로티노이드와 토코페롤은 이 종을 비타민 A·E 공급원으로 표시할 수 있는 근거 성분이며, 알칼리 가수분해로 결합형까지 모두 정량했다[4][5].",
+  "source":[4,5],"url":PMC.format("PMC10855799"),"source_kind":"paper"},
+]
+
+d = {
+ "slug":"sonchus-asper","name_ko":"큰방가지똥","name_en":"Prickly sow thistle (spiny-leaved sow thistle)",
+ "scientific_name":"Sonchus asper (L.) Hill",
+ "aliases":["큰방가지똥잎","큰방가지풀","Spiny-leaved sow thistle","prickly sow thistle","spiny sowthistle","Sonchus oleraceus var. asper L."],
+ "sections":[{"key":k,"title":v[0],"body":v[1]} for k,v in S.items()],
+ "compounds":compounds,"markers":[],"assays":assays,"nutrients":[],"production":[],"world":[],"gi":[],"orgs":[],
+ "sources":sources,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in d["sections"]: print(s["key"], len(s["body"]))

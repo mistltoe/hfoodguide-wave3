@@ -1,0 +1,99 @@
+{
+ "slug": "enteromorpha-intestinalis",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 68,
+ "checked_items": 54,
+ "verified": 109,
+ "fixed": 13,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "사용 가능 부위는 '전체'다[1].",
+   "after": "사용 가능 부위는 '전체'다(같은 묶음의 '잎파래' 항목만 분류가 '식물'이고, '파래부각' 항목은 사용 부위 칸이 비어 있다)[1].",
+   "why": "로컬 I1020 원자료: 잎파래 MLSFC_NM '식물', 파래부각 USE_CND_STDR_CN 공란"
+  },
+  {
+   "where": "sections.safety",
+   "before": "반면 같은 나라 세인트마틴섬 자연산은",
+   "after": "반면 같은 나라 세인트마틴섬에서 채집한 개체는",
+   "why": "[7] 초록은 채집 개체라고만 하고 '자연산'으로 구분하지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "성인에게 안전하지 않다고 결론지었다[7].",
+   "after": "성인에게 안전하지 않다고 결론지었다[7]. 다만 [7] 초록은 건·습 기준을 적지 않았고, [6] 원문도 방법에는 결과를 mg/100 g 건조중량으로 잰다고 적고 표에는 mg/kg 건조중량으로 적어, 두 연구 값을 그대로 견줄 때는 단위·기준을 감안해야 한다[6, 7].",
+   "why": "단위·기준(건/습) 일관성: [6] 방법 'mg/100 g of dry weight' vs 표2 'mg/kg dry weight', [7] 초록 기준 미기재"
+  },
+  {
+   "where": "compounds.Iron.content_text",
+   "before": "0.43%(중국 저장성 동결건조 분말) [8]",
+   "after": "0.43%(약 4,300 mg/kg, 중국 저장성 동결건조 분말) [8]",
+   "why": "[8] 본문 'iron concentration was 4,300 mg/kg' 병기"
+  },
+  {
+   "where": "compounds.Iron.content_text",
+   "before": "2290.26 mg/kg(세인트마틴섬 자연산) [7]",
+   "after": "2290.26 mg/kg(세인트마틴섬 채집 개체, 초록에 건·습 기준 미기재) [7]",
+   "why": "[7] 초록 기준 미기재·'자연산' 표현 근거 없음"
+  },
+  {
+   "where": "compounds.Lead.content_text",
+   "before": "6.67 mg/kg(세인트마틴섬 자연산) [7]",
+   "after": "6.67 mg/kg(세인트마틴섬 채집 개체, 초록에 건·습 기준 미기재) [7]",
+   "why": "[7] 초록 기준 미기재"
+  },
+  {
+   "where": "compounds.Iodine.content_text",
+   "before": "0.04%(건조 분말, 2반복 평균) [8]",
+   "after": "0.04%(약 400 mg/kg; 동결건조 분말 DPEI, 수분 6.54%, 2반복 평균) [8]",
+   "why": "[8] 표2: DPEI 수분 6.54%, I 0.04% — 기준을 분명히 함"
+  },
+  {
+   "where": "compounds.Iodine.part",
+   "before": "엽상체 동결건조 분말(중국 저장성)",
+   "after": "엽상체 동결건조 분말(중국 저장성; 생시료 동결건조 후 분쇄)",
+   "why": "[8] 시료 조제: 생 EI 동결건조·40 mesh"
+  },
+  {
+   "where": "compounds.Polyphenols.content_text",
+   "before": "qNMR 52.9 ± 5.2 mg/g(5.3%)",
+   "after": "qNMR 52.9 ± 5.2 mg/g(평균 분자량 330 g/mol 당량, 5.3%; 갈산 기준 계산은 5.5%)",
+   "why": "[9] 원문: qNMR 값은 갈산 당량이 아니라 '330 Mw eq.'이고 갈산 기준은 5.5%"
+  },
+  {
+   "where": "compounds.Chlorophyll a.content_text",
+   "before": "원문 표2의 문헌 비교 열에 엽록소 4.07–5.89%가 적힘(이 연구 시료에서는 측정하지 않음) [8]",
+   "after": "원문 표2의 문헌 비교 열에 엽록소 4.07–5.89%가 적힘(이 연구 시료에서는 측정하지 않았고, 문헌값의 건·생 기준은 각주가 불분명) [8]",
+   "why": "[8] 표2 문헌 열 각주 'Fresh EI' 표기가 모호해 기준 확정 불가"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "3 m 줄 6개마다 약 6 g짜리 종묘를 약 11개씩 달아 길렀다[6].",
+   "after": "구획마다 3 m 줄 6개를 두고 줄마다 약 6 g짜리 종묘 약 11개를 달아 길렀다[6].",
+   "why": "[6] 원문: 구획당 3 m 줄 6개, 줄당 종묘 약 11개(각 약 6 g)"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "포르투갈에서는 양어장 연못(fish pond aquaculture)에서 자란 녹조 5종 중 하나로",
+   "after": "포르투갈 연구진의 조사에서는 양어장 연못(fish pond aquaculture)에서 자란 녹조 5종 중 하나로",
+   "why": "[28] 초록에 국가가 없고 저자 소속(포르투갈)만 확인됨"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "신종 U. paschima로 기재되었다[3].",
+   "after": "신종 U. paschima로 기재되었다[3]. 그래서 분자 동정 없이 형태로만 이 종이라 한 시료(예: 인도산 시료를 쓴 연구)의 결과는 다른 관 모양 Ulva일 가능성을 감안해 읽어야 한다[3].",
+   "why": "[3] 결론: 범세계 종 가정이 고유종을 놓치게 함 — 인도산 시료 연구[11,22] 해석 주의 추가"
+  }
+ ],
+ "unverifiable_notes": [
+  "[7] Mar Pollut Bull 2022 는 PMC 전문이 없어 초록으로만 대조 — 금속 값의 건·습 기준은 확인하지 못해 본문에 '기준 미기재'로 밝힘",
+  "[11]·[12]·[13]·[14]·[16]·[17]·[19]·[20]·[23]·[25]·[27]·[28]·[29]·[30]·[32]는 PubMed 초록으로 대조(전문 미열람); [8]·[6]·[9]·[5]·[3]은 PMC 전문으로 대조",
+  "학명 처리: [3] 원문 'Enteromorpha ... separated from Ulva based on tubular morphology by Link (Link in Nees 1820) — has recently been merged back to Ulva based on DNA sequence evidence', [5] 'Ulva intestinalis Linnaeus 1753' 확인. scientific_name 의 '(L.) Nees' 조합 저자는 대조 출처 본문에 직접 없음(통용 표기라 유지)",
+  "식품원료 지위: 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 에서 파래 등 12개 원료명이 같은 학명 묶음(E. intestinalis/compressa/linza/prolifera/clathrata)·사용가능·전체로 확인, card.json 과 일치",
+  "다른 파래류 섞임 점검: U. prolifera·U. linza 는 [19](공존 종)·[28](5종 중 하나)에서만 이름으로 나오고 수치가 이 종에 섞이지 않음; 갈파래류(U. lactuca·U. pertusa)도 목록 대조용으로만 언급",
+  "WebSearch 0회, 차단 페이지 재시도 없음"
+ ]
+}
