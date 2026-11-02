@@ -1,0 +1,498 @@
+{
+ "slug": "aplysia-kurodai",
+ "name_ko": "군소",
+ "name_en": "Common sea hare",
+ "scientific_name": "Aplysia kurodai",
+ "aliases": [
+  "군소",
+  "Sea hare",
+  "Common sea hare",
+  "Japanese sea hare"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "군소(Aplysia kurodai)는 군소과(Aplysiidae) 군소속에 속하는 바다 복족류로, 동북아시아 연안에 살며 해조류를 뜯어 먹는 '바다토끼(sea hare)' 무리의 한 종이다[5, 14]. 식약처 「식품원료 목록」에는 이 학명으로 '군소' 한 줄이 수산물 식품원료(A코드)로 올라 있고 상태는 '사용가능'이다[1]. 부위 칸은 원자료 표기 그대로 '-'이고 사용조건 칸은 비어 있어, 목록상 특정 부위나 조건으로 제한되어 있지 않다[1]. 건강기능식품 고시형 원료의 원재료가 아니어서 식약처가 정한 지표성분은 없고, 「식품 등의 생산실적」 건강기능식품 품목에서도 군소 원료 품목은 찾지 못했다[1, 2].\n\n한국에서는 독특한 식감과 맛 때문에 수산물로 먹어 왔고 염증·상처에 쓰는 민간 약재로도 이용되었다고 기술된다[5]. 일본에서도 이 종과 근연종 A. juliana 를 지역 음식으로 먹어 왔으며, 지질에 EPA와 n-3 DPA 같은 다중불포화지방산이 많다는 분석이 있다[3]. 한편 먹은 뒤 가벼운 간 손상이 생긴 증례 1건이 보고되었고, 몸(특히 소화샘)에 방어용 2차대사산물을 모아 둔다는 점이 알려져 있어 안전성 절에서 따로 다룬다[4, 5]. 학술적으로는 신경생물학 실험동물, 해조 다당 분해효소, 항암 후보 물질(아플리로닌 등)의 원천으로 많이 연구되었으나 대부분 세포·동물 실험 단계다[7, 14, 25]."
+  },
+  {
+   "key": "history",
+   "title": "이용과 연구의 역사",
+   "body": "중국에서는 군소과 여러 종의 알을 원료로 한 전통 약재 '해토(Notarchus) 가루'가 명나라 때부터 암과 암 비슷한 질환의 치료에 쓰였다고 정리되어 있고, 그 원동물에 Notarchus leachii cirrosus 와 함께 군소(A. kurodai)가 포함된다[27]. 같은 총설은 중국 연안의 군소과 6속 23종을 검토해 11종에서 약 300개 분자가 확인되었다고 적었다[27]. 일본에서는 군소를 지역 음식으로 먹어 온 전통이 있다고 보고된다[3].\n\n성분 연구는 1960년대에 시작되었다: 브롬을 지닌 세스퀴테르펜 아플리신은 1963년 일본 연구진이 군소에서 처음 분리했다[6]. 이후 강한 세포독성 마크롤라이드인 아플리로닌 A–H, 분해 스테롤 아플리쿠로딘류, 9,11-세코스테로이드 아플리시아세코스테롤 A 등이 이 종에서 보고되었다[5, 7, 9]. 1990년대 말부터 군소의 신경계는 해조 거부 때 턱 운동 신경회로 연구에 쓰였고[21], 2008년에는 북미 종 A. californica 와 가까운 북서태평양 종으로서 신경 전사체가 따로 수집되었다[25]. 2010년대에는 소화액의 알긴산분해효소[17]·셀룰라아제[14] 등 해조 다당 분해효소가 정제·분석되었고, 셀룰라아제 연구진은 그 결과가 해조 바이오연료 기술 개발에 도움이 된다고 적었다[14]."
+  },
+  {
+   "key": "biology",
+   "title": "종의 특징·생태",
+   "body": "군소는 얕은 바위 해안과 조간대·조하대에서 해조류를 먹고 사는 초식성 후새류이며, 제주도 함덕 연안 조간대와 남해 무인도 주변 수심 12 m 에서 채집된 기록이 있다[18, 28]. 파래류(Ulva)를 잘 먹고 우뭇가사리(Gelidium)·Pachydictyon 같은 해조는 거부하며, 거부 동작은 해조 추출액만으로도 유도되고 턱 움직임 양상의 차이로 나타난다[21]. 소화액에는 셀룰라아제 4종과 β-글루코시다아제 2종, α-아밀라아제 2종·α-글루코시다아제 2종이 있어 파래의 다당을 포도당으로 분해하고, 알긴산분해효소 2종은 갈조류의 알긴산을 불포화 올리고당으로 분해한다[14, 15, 17].\n\n암수한몸이지만 보통 자가수정은 하지 않고 교미로 체내수정하며, 한 방향으로 겹쳐 짝짓기하며 여러 마리가 사슬을 이루기도 한다[18]. 생식기는 난정소·소생식관·팽대부·부생식선군·대생식관으로 이루어진다[19]. 알은 젤리 속 캡슐에 담긴 노란색~주황색 끈 모양 알덩이로 낳는데, 1 cm 에 캡슐 55–60개, 캡슐마다 알 15–25개가 들어 있다[18]. 수정란 지름은 약 80 μm 이고, 20 °C 에서 5–6일에 담륜자, 10일에 피면자가 되어 10–15일 사이 부화한다[18]. 자연산 성체는 400–700 g 이었다[18]. 일본 연안에서는 5월 하순 무렵부터 알과 죽은 개체가 많이 보이고 5월 이후 체중이 줄어, 연구진은 이 시기 뒤의 개체를 노령 개체로 분류했으며 노령 개체는 먹는 양이 적었다[20]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "군소속(Aplysia)은 전 세계에 약 50종이 있으며, 제주 조간대 웅덩이에서는 군소와 함께 A. juliana, A. oculifera 가 같이 산다[18, 23]. 식약처 「식품원료 목록」에는 군소속에서 A. kurodai 한 종만 '군소'로 올라 있어, 근연종이 같은 지위를 갖는지는 목록에서 확인되지 않는다[1]. 일본에서 함께 먹는 A. juliana 는 지질 분석에서 군소와 비슷한 n-3 지방산 양상을 보였지만 별개의 종이다[3].\n\n신경생물학의 대표 모델인 A. californica 는 북미 태평양 연안 종으로, 군소의 신경 전사체는 이 종과 비교 연구에 쓰였을 뿐 식품 자료가 아니다[25, 26]. 이 문서의 학습·기억 관련 언급은 이런 실험동물 연구를 말하며 섭취 효과와는 관계가 없다[25]. 중국 전통 약재의 원동물에는 Notarchus leachii cirrosus, A. pulmonica 같은 다른 군소과 동물도 포함되므로, 그 효능 기술을 군소 한 종의 자료로 옮겨서는 안 된다[27]. 영문으로는 'sea hare', 'common sea hare', 'Japanese sea hare' 등으로 불린다[13, 14, 17]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획·채취",
+   "body": "군소의 국내 어획량·생산량 통계(해양수산부·통계청)는 확인하지 못함. 문헌에 나온 시료는 대부분 자연산 채집 개체로, 제주 함덕 연안 조간대, 남해 무인도 주변 수심 12 m, 일본 연안 등에서 얻었다[18, 20, 28]. 성분 분리용으로 습중량 35 kg 의 군소를 쓴 연구가 있다[5].\n\n실험실 사육도 보고되어, 제주 연구에서는 해조류를 매일 먹이며 5톤 수조에서 성체를 기르고 알덩이를 20 °C·염분 약 32 PSU 의 여과 해수에서 부화시켰다[18]. 상업적 양식 현황은 확인하지 못함. 일본 규슈 북서부의 장기 조사에서는 과거 흔하던 군소가 2023–2024년 조사에서 드물게 관찰되어, 수온 상승 등 환경 변화에 따른 분포 변화가 시사되었다[22]."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용·성분",
+   "body": "식품으로서의 조리·가공 방식에 대한 공공기관 자료는 확인하지 못함. 지질은 기관마다 중성지질에 리놀렌산·ITA(20:4n-3)·EPA·n-3 DPA 가, 극성지질에 아라키돈산·아드렌산·EPA·n-3 DPA 가 주된 다중불포화지방산이었다[3]. 저자들은 EPA·n-3 DPA 와 n-6(ARA·아드렌산) 지방산 함량이 높아 식단에 도움이 된다고 해석했지만, 초록에는 함량 수치가 없어 확인하지 못함[3]. 근육 단백질·아미노산 등 일반성분 수치는 원문으로 확인하지 못함.\n\n체벽과 아가미에는 D-아스파르트산을 지닌 특이한 디펩타이드(β-D-아스파르틸글리신)가 많고, 피부에는 아미노에틸포스포닐기를 가진 당지질이 있다[10, 11]. 알에는 갈락토스·갈락투론산과 결합하는 렉틴(AKL)이 있다[12, 13]. 소화액의 셀룰라아제·β-글루코시다아제·아밀라아제·알긴산분해효소와 플로로탄닌 결합 단백질(EHEP)은 해조류를 당으로 바꾸는 당화 과정 연구에 쓰였고, 셀룰라아제 연구진은 해조 바이오연료 기술 개발에 도움이 된다고 적었다[14–17]. 건강기능식품 원료로 생산된 실적은 없다[2]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "군소의 미토콘드리아 유전체 전체가 해독되어 길이 14,113 bp 에 단백질 암호 유전자 13개, rRNA 유전자 2개, tRNA 유전자 22개를 가지며 단백질 유전자 순서는 다른 군소속과 같다[24]. A+T 함량은 65.9%로 같은 속 종들의 범위 안에 든다[24]. 신경계 조직에서는 중복을 뺀 4,859개 전사체 서열이 수집되었고, 세로토닌 처리 뒤 발현이 바뀌는 유전자들이 확인되었다[25].\n\n군소와 A. californica 의 대응 유전자를 비교하면 신경 신호전달 유전자 일부가 하우스키핑 유전자보다 빠르게 진화한 것으로 나타났다[26]. 이 비교는 두 종이 가깝지만 별개의 종임을 전제로 한 것이어서, A. californica 의 유전체 자료를 군소 자료로 그대로 쓸 수 없다[26]. 군소 핵 유전체 전체 해독 여부는 확인하지 못함. 종 판별용 표준 DNA 바코드(식품 진위 판별 기준)도 확인하지 못함. 미토콘드리아 유전체 서열은 근연종과의 계통·분류 연구에 쓰일 수 있다고 원저자들은 적었다[24]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 「식품원료 목록」에서 군소는 부위·사용조건 제한 없이 '사용가능' 수산물 원료로 분류되어 있다[1]. 다만 40세 남성이 군소를 먹은 뒤 구토·발열과 함께 간 효소(아미노전이효소)가 지속적으로 오른 가벼운 급성 간 손상 증례 1건이 보고되었고, 간 생검에서 세포자멸사 간세포와 분열 중인 간세포가 함께 관찰되었다[4]. 증례 1건이어서 발생 빈도나 인과관계의 크기는 알 수 없다[4]. 저자들은 군소 속 생리활성 물질이 원인일 수 있다고 보았으나 원인 성분은 특정되지 않았다[4].\n\n군소속 동물은 소화샘에 독성 대사산물을 모아 두었다가 방어에 쓴다고 기술되며, 이 종에서도 브롬화 세스퀴테르펜·분해 스테롤·마크롤라이드 등이 분리되었다[5, 7]. 아플리신은 홍조류에서도 정제되는 화합물로, 실제 동물 시험에는 군소가 아니라 홍조류에서 정제한 시료가 쓰였다[6]. 아플리로닌 A는 액틴 중합을 막는 강한 세포독성 물질이고, 알 렉틴은 브라인쉬림프 유생에 LC50 63.63 µg/mL 의 독성을 보였다[8, 12]. 이 수치들은 분리 성분의 실험 결과이며 식품 섭취량 기준의 독성 값이 아니다[8, 12]. 공공기관의 알레르기·잔류물질·섭취 주의 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "n-3 다중불포화지방산",
+   "role": "nutrient",
+   "part": "기관별 중성·극성지질",
+   "content_text": "중성지질·극성지질 모두의 주된 PUFA로 보고, 수치는 초록에 없어 확인하지 못함[3]",
+   "activity_ko": "저자들은 EPA·n-3 DPA 가 많아 식단에 도움이 된다고 해석(효능 시험 아님)[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Docosapentaenoic acid",
+   "name_ko": "n-3 도코사펜타엔산(DPA)",
+   "class": "n-3 다중불포화지방산",
+   "role": "nutrient",
+   "part": "기관별 중성·극성지질",
+   "content_text": "EPA와 함께 높은 수준으로 보고(논문 제목), 수치 확인하지 못함[3]",
+   "activity_ko": "영양 지표로 언급[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Arachidonic acid",
+   "name_ko": "아라키돈산(ARA)",
+   "class": "n-6 다중불포화지방산",
+   "role": "nutrient",
+   "part": "극성지질",
+   "content_text": "극성지질의 주된 PUFA, 수치 확인하지 못함[3]",
+   "activity_ko": "n-6 계열 주요 지방산으로 보고[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Adrenic acid",
+   "name_ko": "아드렌산(도코사테트라엔산, 22:4n-6)",
+   "class": "n-6 다중불포화지방산",
+   "role": "nutrient",
+   "part": "극성지질",
+   "content_text": "극성지질의 주된 PUFA, 수치 확인하지 못함[3]",
+   "activity_ko": "n-6 계열 주요 지방산으로 보고[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Aplyronine A",
+   "name_ko": "아플리로닌 A",
+   "class": "마크롤라이드",
+   "role": "bioactive",
+   "part": "몸 전체(추출물)",
+   "content_text": "아플리로닌 A–H 가운데 주성분으로 보고, 함량 확인하지 못함[7]",
+   "activity_ko": "G-액틴과 1:1 복합체를 만들어 액틴 중합을 막고 F-액틴을 끊는다(시험관)[8]; 총설은 '강력한 항종양 마크롤라이드'로 소개하나 초록에 시험 모델은 없음(연구용 물질)[7]",
+   "source": [
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Aplysin",
+   "name_ko": "아플리신",
+   "class": "브롬화 세스퀴테르펜",
+   "role": "bioactive",
+   "part": "몸 전체(추출물)",
+   "content_text": "1963년 이 종에서 처음 분리, 함량 확인하지 못함[6]",
+   "activity_ko": "군소가 아닌 홍조류에서 정제한 시료(순도 97.6%)를 쥐에 40·80 mg/kg 매일 경구 투여(16주) 시 DMBA 유발 유방종양 무게가 대조군보다 약 56%·74% 적었다(동물 실험)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Aplykurodin A",
+   "name_ko": "아플리쿠로딘 A",
+   "class": "분해 스테롤",
+   "role": "bioactive",
+   "part": "몸 전체(습중량)",
+   "content_text": "습중량 35 kg 에서 210 mg 분리, 주요 2차대사산물; 원문은 수율 0.037%로 적었으나 210 mg/35 kg 으로 계산하면 약 0.0006%여서 서로 맞지 않음[5]",
+   "activity_ko": "간암 세포(Hep3B·SNU475)에서 20·40 μM 처리 시 β-카테닌 분해를 촉진하고 증식을 억제(세포 실험; 저자들도 고농도라고 적음)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Laurinterol",
+   "name_ko": "라우린테롤",
+   "class": "할로젠화 세스퀴테르펜",
+   "role": "bioactive",
+   "part": "몸 전체(추출물)",
+   "content_text": "[5] 서론에서 군소류에서 발견된 할로젠화 세스퀴테르펜으로 인용(1차 문헌 미확인), 함량 확인하지 못함[5]",
+   "activity_ko": "HeLa 세포 독성이 보고되었다고 인용됨(세포 실험)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Aplysiasecosterol A",
+   "name_ko": "아플리시아세코스테롤 A",
+   "class": "9,11-세코스테로이드",
+   "role": "bioactive",
+   "part": "몸 전체(추출물)",
+   "content_text": "이 종에서 새로 분리, 함량 확인하지 못함[9]",
+   "activity_ko": "HL-60 백혈병 세포 독성(세포 실험)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "beta-D-Aspartylglycine",
+   "name_ko": "β-D-아스파르틸글리신",
+   "class": "D-아미노산 디펩타이드",
+   "role": "marker",
+   "part": "전 조직(특히 체벽·아가미)",
+   "content_text": "모든 조직에서 검출, 체벽(피부·근육)과 아가미에 특히 높음 — 수치는 초록에 없어 확인하지 못함[10]",
+   "activity_ko": "D-아스파르트산과 글리신이 등몰로 결합한 특이 성분(생리 기능 미상)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Phosphonoglycosphingolipid SGL-II",
+   "name_ko": "포스포노글리코스핑고지질(SGL-II)",
+   "class": "당지질",
+   "role": "bioactive",
+   "part": "피부",
+   "content_text": "피부의 주요 당지질, 함량 확인하지 못함[11]",
+   "activity_ko": "쥐 뇌 cAMP 의존성 단백질인산화효소를 시험관에서 활성화(반최대 32.2 μM)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Sea hare egg lectin (AKL)",
+   "name_ko": "군소 알 렉틴(AKL)",
+   "class": "단백질(렉틴)",
+   "role": "bioactive",
+   "part": "알",
+   "content_text": "16 kDa(AKL-2)·40 kDa(AKL-40) 등 아형 보고, 함량 확인하지 못함[12, 13]",
+   "activity_ko": "갈락토스·갈락투론산 결합; AKL-40 을 생쥐에 2 mg/kg/일 주사 시 에를리히 복수암 세포 성장 최대 58.3% 억제(동물), 항균·항진균 활성(시험관), 브라인쉬림프 유생 LC50 63.63 µg/mL(중등도 독성)[12]; AKL-2 는 Raji·K562 세포 독성(세포 실험)[13]",
+   "source": [
+    12,
+    13
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Aplykurodin A",
+   "compound_ko": "아플리쿠로딘 A",
+   "part": "몸 전체(습중량 35 kg)",
+   "content": "210 mg(습중량 35 kg 기준; 원문 수율 0.037%로 기재되었으나 계산값 약 0.0006%와 맞지 않음)[5]",
+   "method": "용매 추출 → 실리카겔 VLC·MPLC·실리카겔 칼럼 분리, ESI-MS·NMR 동정",
+   "conditions": {
+    "instrument": "ESI-MS, NMR(1H·13C)",
+    "column": "실리카겔 VLC(1,400 g) → MPLC C18 카트리지(340 g) → 실리카겔 칼럼(1.5 × 80 cm, 1.0 × 70 cm)",
+    "mobile_phase": "VLC: n-헥산–EtOAc(30:1, 7:1, 4:1, 1.5:1), n-헥산–EtOAc–MeOH(1:1:0.2), CHCl3–MeOH(3:1), CHCl3–MeOH–H2O(1:1:0.1), MeOH 단계 용출; MPLC 아세톤–MeOH–H2O(17:17:66 → 47:47:6); 실리카겔 n-헥산–EtOAc–아세톤(6.5:1:0.1 → 4:1:0.1); 최종 n-헥산–EtOAc–아세톤(5:1:0.2)",
+    "gradient": "단계 용출(위 이동상 순서)",
+    "flow": "",
+    "temp": "",
+    "detection": "ESI-MS m/z 322.25(양성자화 분자 이온), 1H·13C NMR 비교로 동정",
+    "injection": "",
+    "sample_prep": "군소 35 kg(습중량)을 CHCl3/EtOH(1:1)로 3회 환류 추출 → 추출물 800 g 을 물에 현탁해 CHCl3 분획(140 g) 분리",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 대량 추출에서 주요 2차대사산물로 얻어진 분해 스테롤이다; 정량 시험법이 아니라 분리 수율이므로 함량 기준으로 쓰기 어렵다[5]",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.3390/md18040210",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acids (EPA, n-3 DPA, ARA, adrenic acid)",
+   "compound_ko": "지방산 조성",
+   "part": "기관별 중성·극성지질",
+   "content": "EPA·n-3 DPA 가 높고 극성지질에 ARA·아드렌산이 주된 PUFA — 수치는 초록에 없음[3]",
+   "method": "지질 분획 후 지방산 조성 분석(기기·조건 전문 확인 못함)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종의 영양적 특징으로 저자들이 강조한 성분군이다; 전문 확인 못함(초록만 열람)[3]",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.5650/jos.ess19137",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "beta-D-Aspartylglycine",
+   "compound_ko": "β-D-아스파르틸글리신",
+   "part": "전 조직(체벽·아가미에 많음)",
+   "content": "모든 조직에서 검출, 체벽·아가미에 특히 높음(수치 확인 못함)[10]",
+   "method": "HPLC(o-프탈알데하이드 반응 검출), 광학분할 HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "o-프탈알데하이드(OPA) 반응 성분으로 HPLC 크로마토그램에서 검출",
+    "injection": "",
+    "sample_prep": "조직 추출물 → 이온교환 크로마토그래피 → 분취 고전압 종이전기영동으로 분리",
+    "standard": "합성 β-D-아스파르틸글리신으로 확인",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "D-아미노산을 지닌 이 종 특유의 조직 성분으로 보고되었다; 전문 확인 못함(초록만 열람)[10]",
+   "source": [
+    10
+   ],
+   "url": "https://doi.org/10.1042/bj2630617",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — Aplysia kurodai 1행(원료명 '군소', 식품원료(A코드), 수산물, 부위(REGN_CD_NM) '-', 상태 '사용가능', 사용조건·영문명·이명 칸 비어 있음); card.json lists 비어 있음(건강기능식품 고시형 원료 아님); 같은 원자료에서 학명 Aplysia 또는 원료명 '군소'가 들어간 다른 행 없음(docs/materials/aplysia-kurodai/card.json, data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품 등의 생산실적」 건강기능식품 품목 유형별 현황 — 로컬 파싱본 docs/stats/hf_items.csv 에서 '군소' 품목 검색(해당 행 없음)",
+   "url": "https://www.mfds.go.kr",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Lipids and Fatty Acids of Sea Hares Aplysia kurodai and Aplysia juliana: High Levels of Icosapentaenoic and n-3 Docosapentaenoic Acids. J Oleo Sci 2019;68(12):1199-1213 — PubMed 초록만 확인(PMID 31735747, 전문 미열람)",
+   "url": "https://doi.org/10.5650/jos.ess19137",
+   "publisher": "Journal of Oleo Science",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Acute liver damage with characteristic apoptotic hepatocytes by ingestion of Aplysia kurodai, a sea hare. Intern Med 1998;37(11):927-9 — PubMed 초록 확인(PMID 9868953)",
+   "url": "https://doi.org/10.2169/internalmedicine.37.927",
+   "publisher": "Internal Medicine",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Cytotoxic Activity of Aplykurodin A Isolated From Aplysia kurodai against AXIN1-Mutated Hepatocellular Carcinoma Cells by Promoting Oncogenic β-Catenin Degradation. Mar Drugs 2020;18(4):210 — PMC 전문 확인(PMC7230895; 서론의 국내 식용·민간 이용 서술, 4.1 분리 방법)",
+   "url": "https://doi.org/10.3390/md18040210",
+   "publisher": "Marine Drugs",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Breast cancer suppression by aplysin is associated with inhibition of PI3K/AKT/FOXO3a pathway. Oncotarget 2017;8(38):63923-63934 — PMC 전문 확인(PMC5609973; 시험에 쓴 아플리신은 홍조류에서 정제, 순도 97.6%)",
+   "url": "https://doi.org/10.18632/oncotarget.19209",
+   "publisher": "Oncotarget",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Aplyronine A, a potent antitumour macrolide of marine origin, and the congeners aplyronines B-H: chemistry and biology. Nat Prod Rep 2009;26(1):27-43 — PubMed 초록 확인(PMID 19374121)",
+   "url": "https://doi.org/10.1039/b800263k",
+   "publisher": "Natural Product Reports",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Novel actin depolymerizing macrolide aplyronine A. J Biochem 1996;120(3):552-5 — PubMed 초록 확인(PMID 8902620)",
+   "url": "https://doi.org/10.1093/oxfordjournals.jbchem.a021449",
+   "publisher": "Journal of Biochemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Aplysiasecosterol A: A 9,11-Secosteroid with an Unprecedented Tricyclic γ-Diketone Structure from the Sea Hare Aplysia kurodai. Angew Chem Int Ed 2015;54(24):7073-6 — PubMed 초록 확인(PMID 25925956)",
+   "url": "https://doi.org/10.1002/anie.201501749",
+   "publisher": "Angewandte Chemie International Edition",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Confirmation of D-aspartic acid in the novel dipeptide beta-aspartylglycine isolated from tissue extract of Aplysia kurodai. Biochem J 1989;263(2):617-20 — PubMed 초록 확인(PMID 2597124; PMC1133473 은 본문 텍스트 없음)",
+   "url": "https://doi.org/10.1042/bj2630617",
+   "publisher": "Biochemical Journal",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Glycolipids isolated from Aplysia kurodai can activate cyclic adenosine 3',5'-monophosphate-dependent protein kinase from rat brain. J Neurochem 1994;62(1):86-93 — PubMed 초록 확인(PMID 8263547)",
+   "url": "https://doi.org/10.1046/j.1471-4159.1994.62010086.x",
+   "publisher": "Journal of Neurochemistry",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Antiproliferative and Antimicrobial Potentials of a Lectin from Aplysia kurodai (Sea Hare) Eggs. Mar Drugs 2021;19(7):394 — PubMed 초록 확인(PMID 34356819, PMC8306185)",
+   "url": "https://doi.org/10.3390/md19070394",
+   "publisher": "Marine Drugs",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Cytotoxicity and glycan-binding profile of a D-galactose-binding lectin from the eggs of a Japanese sea hare (Aplysia kurodai). Protein J 2011;30(7):509-19 — PubMed 초록 확인(PMID 21953532)",
+   "url": "https://doi.org/10.1007/s10930-011-9356-7",
+   "publisher": "The Protein Journal",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Comprehensive enzymatic analysis of the cellulolytic system in digestive fluid of the Sea Hare Aplysia kurodai. PLoS One 2013;8(6):e65418 — PubMed 초록 확인(PMID 23762366)",
+   "url": "https://doi.org/10.1371/journal.pone.0065418",
+   "publisher": "PLoS ONE",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Comprehensive enzymatic analysis of the amylolytic system in the digestive fluid of the sea hare, Aplysia kurodai. FEBS Open Bio 2014;4:560-70 — PubMed 초록 확인(PMID 25161866)",
+   "url": "https://doi.org/10.1016/j.fob.2014.06.002",
+   "publisher": "FEBS Open Bio",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Identification and Characterization of a 25 kDa Protein That Is Indispensable for the Efficient Saccharification of Eisenia bicyclis in the Digestive Fluid of Aplysia kurodai. PLoS One 2017;12(1):e0170669 — PubMed 초록 확인(PMID 28129373)",
+   "url": "https://doi.org/10.1371/journal.pone.0170669",
+   "publisher": "PLoS ONE",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Isolation and characterization of two alginate lyase isozymes, AkAly28 and AkAly33, from the common sea hare Aplysia kurodai. Comp Biochem Physiol B 2010;157(4):317-25 — PubMed 초록 확인(PMID 20708706)",
+   "url": "https://doi.org/10.1016/j.cbpb.2010.07.006",
+   "publisher": "Comparative Biochemistry and Physiology Part B",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Spawning Behavior and Egg Development of Aplysia kurodai Inhabiting the Coastal Waters of Jeju Island, Korea. Dev Reprod 2014;18(1):25-31 — PMC 전문 확인(PMC4282261)",
+   "url": "https://doi.org/10.12717/DR.2014.18.1.025",
+   "publisher": "Development & Reproduction",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Structure and Function of the Reproductive System of Aplysia kurodai. Dev Reprod 2015;19(4):197-207 — PubMed 초록 확인(PMID 26973971)",
+   "url": "https://doi.org/10.12717/DR.2015.19.4.197",
+   "publisher": "Development & Reproduction",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Effects of aging on the food intake in the feeding behavior of Aplysia kurodai. J Comp Physiol A 2016;202(11):803-811 — PubMed 초록 확인(PMID 27604699)",
+   "url": "https://doi.org/10.1007/s00359-016-1122-z",
+   "publisher": "Journal of Comparative Physiology A",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Synaptic modulation contributes to firing pattern generation in jaw motor neurons during rejection of seaweed in Aplysia kurodai. J Neurophysiol 1999;82(5):2579-89 — PubMed 초록 확인(PMID 10561428)",
+   "url": "https://doi.org/10.1152/jn.1999.82.5.2579",
+   "publisher": "Journal of Neurophysiology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "A different world: temporal changes in the community structure of sea slugs (Heterobranchia) in northwest Japan spanning more than a half-century. PeerJ 2026;14:e20870 — PubMed 초록 확인(PMID 41800129)",
+   "url": "https://doi.org/10.7717/peerj.20870",
+   "publisher": "PeerJ",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Flow cytometric characterization of the hemocytes of sea hares from tidal pools in Jeju Island off the south coast of Korea. Fish Shellfish Immunol 2022;122:409-418 — PubMed 초록 확인(PMID 35183739)",
+   "url": "https://doi.org/10.1016/j.fsi.2022.02.026",
+   "publisher": "Fish & Shellfish Immunology",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "The complete mitochondrial genome of Aplysia kurodai (Anaspidea: Aplysiidae). Mitochondrial DNA A 2016;27(2):863-4(온라인 2014) — PubMed 초록 확인(PMID 24865907)",
+   "url": "https://doi.org/10.3109/19401736.2014.919478",
+   "publisher": "Mitochondrial DNA Part A",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Transcriptome analysis and identification of regulators for long-term plasticity in Aplysia kurodai. Proc Natl Acad Sci USA 2008;105(47):18602-7 — PubMed 초록 확인(PMID 19017802)",
+   "url": "https://doi.org/10.1073/pnas.0808893105",
+   "publisher": "PNAS",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Differential evolutionary rates of neuronal transcriptome in Aplysia kurodai and Aplysia californica as a tool for gene mining. J Neurogenet 2010;24(2):75-82 — PubMed 초록 확인(PMID 20536287)",
+   "url": "https://doi.org/10.3109/01677061003770614",
+   "publisher": "Journal of Neurogenetics",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "[Research progress of antitumor components from original animals of traditional Chinese medicine powder of Notarchus]. Zhongguo Zhong Yao Za Zhi 2011;36(21):3038-46 — PubMed 영문 초록 확인(PMID 22308698, 본문 중국어)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22308698/",
+   "publisher": "China Journal of Chinese Materia Medica",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Photobacterium aplysiae sp. nov., a lipolytic marine bacterium isolated from eggs of the sea hare Aplysia kurodai. Int J Syst Evol Microbiol 2005;55(Pt 6):2293-2296 — PubMed 초록 확인(PMID 16280485)",
+   "url": "https://doi.org/10.1099/ijs.0.63765-0",
+   "publisher": "International Journal of Systematic and Evolutionary Microbiology",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

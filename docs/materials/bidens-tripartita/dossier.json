@@ -1,0 +1,528 @@
+{
+ "slug": "bidens-tripartita",
+ "name_ko": "가막사리",
+ "name_en": "Three-lobe beggarticks (trifid bur-marigold)",
+ "scientific_name": "Bidens tripartita L.",
+ "aliases": [
+  "가막살",
+  "가막사리잎",
+  "가막사리순",
+  "Bidens modiflora L.",
+  "Three-lobe beggartick",
+  "bur marigold",
+  "낭파초(狼把草)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "가막사리(Bidens tripartita L.)는 국화과(Asteraceae) Bidens속의 한해살이풀로, 영어로는 three-lobe beggarticks·trifid bur-marigold 등으로 부른다[3]. 북반구가 원산인 잡초로 강가·습지·도랑 같은 젖은 땅에 흔히 자란다[3].\n\n식약처 「식품원료 목록」에는 원료명 가막사리잎(부위 잎)과 가막사리순(부위 순) 두 행이 있고, 학명은 'Bidens tripartita L. / Bidens modiflora L.', 다른 이름은 가막살, 영문명은 Three-lobe beggartick으로 적혀 있다[1]. 두 행 모두 사용조건이 '사용가능부위 : 잎'인 사용가능 원료여서, 원료명에 순이 있어도 조건 문구에 적힌 사용가능부위는 잎뿐이다[1]. 건강기능식품 고시형 원료와 건강기능식품 생산실적 자료에서는 가막사리 원료를 확인하지 못함.\n\n러시아에서는 지상부를 우린 물을 민간약으로 써 왔고, 러시아 약전과 세계보건기구 신생독립국(NIS) 약용식물 모노그래프에 'Herba Bidentis' 항목이 실렸다고 한다[3, 13]. 성분 연구는 루테올린 7-O-글루코사이드(시나로사이드)·클로로겐산·루테올린·플라바노마레인 같은 페놀 성분과 정유에 모여 있다[3, 4, 6, 7]. 다만 연구 시료는 대부분 잎만이 아니라 지상부 전체다[3, 7]. 항균·항진균(시험관)과 염증 매개물질 감소(세포) 결과가 있다[22, 23]. 보고된 효과는 이처럼 세포·동물·적출 장기 실험 결과이며, 사람을 대상으로 한 임상시험은 PubMed에서 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "중국 본초학에서 낭파초(狼把草, Langbacao)라는 이름은 10세기 『개보본초(開寶本草)』에 처음 나오며 설사를 다스리는 약초로 소개되었다[14]. 많은 연구자가 낭파초의 기원식물을 가막사리로 보았지만, 옛 문헌의 낭파초에는 가막사리 외의 다른 Bidens 종도 섞여 있었을 것이라는 견해가 있다[14]. 옛 중국 문헌에는 머리카락을 검게 물들이는 염료로 썼다는 기록도 있으나 현대 문헌에서는 그런 쓰임이 드물다[14].\n\n러시아에서는 지상부 우린 물을 카타르성 비염·인후염·급성 호흡기 감염, 대장염·통풍의 소염제, 신장결석의 발한·이뇨제로 써 왔고, 아이들의 알레르기 증상에는 목욕물로도 썼다[3]. 소련 약전 11판에는 실렸으나 유럽 약전에는 없는 약용식물을 다룬 총설에서 가막사리가 핵심어로 올라 있다[13]. 같은 속 식물의 어린잎을 샐러드·국·스튜에 넣고 순 끝을 차로 우려 먹는다는 기록이 있으나, 이는 가막사리 한 종이 아니라 속 전체에 대한 서술이다[3]. 국내에서 가막사리를 나물로 먹어 온 내력은 공공기관 자료로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "가막사리는 국화과의 한해살이풀로, 미국가막사리(B. frondosa)와 함께 연구된 비교 실험에서도 한해살이 종으로 다뤄졌다[20]. 원산지는 북반구이며 강둑·습지·도랑 같은 젖은 곳에 자란다[3]. 폴란드와 몬테네그로에서는 크고 작은 강 유역의 충적토·유기질 토양 등 다양한 서식지에서 채집되었다[10]. 중국 싼샤댐 저수지의 물높이 변동대에서는 피(Echinochloa crusgalli)와 함께 식생을 우점하는 한해살이풀로 보고되었고, 이곳 식물은 주로 토양 종자은행과 남은 개체의 재생으로 되살아났다[21].\n\n가막사리는 한 개체가 모양이 다른 씨앗을 맺는 종자 이형성을 보이며, 경쟁이 없을 때는 씨앗 형태에 따라 자란 개체의 키가 달랐으나 경쟁 조건에서는 차이가 줄었다[20]. 경쟁 실험에서는 북미 원산 침입종인 미국가막사리가 키와 생물량에서 가막사리보다 우세했다[10, 20]. 뿌리에서 얻은 정유에는 106개 성분이 확인되었다[8]. 카드뮴을 잘 모으는 축적식물로 보고되어 오염 토양 정화 연구에도 쓰인다[11, 26]. 잎 모양·꽃차례·열매 가시 수 같은 형태 기재는 공공기관 원문으로 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 시료 종 확인",
+   "body": "식약처 「식품원료 목록」에는 같은 Bidens속 원료로 구와가막사리(B. radiata var. pinnatifida) 잎·순, 까치발(B. parviflora) 순, 도깨비바늘(B. bipinnata) 잎, 털도깨비바늘(B. biternata) 잎, 미국가막사리(B. frondosa) 잎, Arizona beggarticks(B. aurea) 잎이 사용가능 원료로 올라 있다[2]. 울산도깨비바늘(B. pilosa) 잎은 같은 목록에서 '제한적사용'이어서 가막사리와 지위가 다르다[2]. 가막사리의 목록상 이명은 Bidens modiflora L.이다[1].\n\n이 자료의 성분·효능 내용은 시료를 B. tripartita로 밝힌 문헌에서만 가져왔으며, 연구가 많은 울산도깨비바늘의 결과는 섞지 않았다[3–7]. 가막사리와 미국가막사리는 유럽 강가에서 서식지를 두고 경쟁하며, 두 나라 시료 전체로 보면 미국가막사리의 셀레늄 함량이 유의하게 더 높았다[10]. 중국 카르스트 지역에서는 울산도깨비바늘과 가막사리가 함께 천이 초기의 개척 식물로 연구되었다[24]. 옛 본초서의 낭파초에는 가막사리 외의 다른 Bidens 종이 섞였을 가능성이 지적되어, 한약명만으로 종을 판단하기 어렵다[14]. 따라서 시료의 학명과 증거표본 확인이 중요하다[3, 7]."
+  },
+  {
+   "key": "cultivation",
+   "title": "자생과 채취",
+   "body": "가막사리는 재배 작물이 아니라 들에서 저절로 자라는 풀이며, 통계청 「농작물생산조사」와 농림축산식품부 「특용작물 생산실적」에서 가막사리 품목은 확인하지 못함. 지리적 표시 등록과 국내 생산자 조직도 확인하지 못함.\n\n연구용 시료는 주로 야생에서 채집되었으며, 터키 시료는 8월 말 호숫가에서, 폴란드 정유 시료는 만개기인 7월 말–8월 초에 채집한 지상부였다[3, 7]. 폴란드·몬테네그로 조사에서는 2017–2020년 7–10월에 강 유역 113곳에서 Bidens 시료를 모았고 그중 58점이 가막사리였다[10]. 기상 조건(기온·강수량)이 해마다 달라지면 정유 조성도 크게 달라진다는 보고가 인용되어 있다[7]. 가막사리는 카드뮴 축적식물이고 하수 슬러지에서 다환방향족탄화수소(PAH)를 흡수하므로, 오염이 의심되는 하천변·매립지에서 채취하지 않는 것이 바람직하다[11, 12]. 계분 퇴비를 준 화분 실험에서는 토양의 추출 가능한 카드뮴이 줄어 지상부 카드뮴 농도가 22.6% 낮아졌다[26]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "전통적으로는 지상부를 우린 물(침출액)로 쓴다[3, 15]. 러시아 연구진은 HPLC 지문 분석으로 성분을 확인한 지상부 침출액을 동물 실험에 썼다[15]. 터키 연구에서는 말린 지상부 100 g을 80% 에탄올로 추출해 수율 15.63%의 추출물을 얻었고, 이를 다시 클로로포름·에틸아세테이트·부탄올·물 분획으로 나눴다[3]. 클로로겐산·시나로사이드·루테올린은 에틸아세테이트 분획에 가장 많이 모였다[3].\n\n폴란드에서는 계면활성제 수용액으로 초음파 추출하는 방법이 연구되었으며, 일반 물 추출물과 이 추출물 모두 클로로겐산·카프타르산 유도체·루테올린 7-O-글루코사이드가 주성분이었다[6]. 꽃 핀 지상부 말린 것 20 kg을 클레벤저형 장치로 3시간 물증류(hydrodistillation)해 얻은 정유는 수율이 결과에 0.19%, 방법에 0.03%로 서로 다르게 적혀 있다[7]. 정유와 시나로사이드를 피부용 겔 제형에 넣는 연구도 있었다[7, 19]. 국내에서 가막사리를 원료로 한 식품·건강기능식품의 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 종 판별",
+   "body": "가막사리의 핵 유전체·엽록체 유전체 해독 결과와 DNA 바코드 연구는 PubMed 검색에서 확인하지 못함. 염색체 수와 배수성 정보도 공공기관 원문으로 확인하지 못함.\n\n종 판별은 아직 형태와 성분에 기대고 있으며, 1967년 러시아 학술지에 가막사리 생약의 감별 특징을 다룬 논문이 실렸다[27]. 옛 본초서의 낭파초는 기원식물이 여러 Bidens 종에 걸쳐 있었을 수 있어 이름만으로 종을 정하기 어렵다[14]. 미국가막사리는 같은 강가 서식지에서 가막사리와 함께 자라며 경쟁하므로[10, 20], 야생 채집 시료는 종을 확인해야 한다. 성분 면에서는 Bidens속이 플라보노이드와 폴리아세틸렌 유도체가 풍부해 이들이 속의 화학분류 지표로 여겨진다[3]. 가막사리에서는 플라바논 배당체 이소코레옵신의 절대 입체배치가 보고되었다[25]. 침출액의 HPLC 지문은 품질 확인 수단으로 쓰였다[15]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 「식품원료 목록」상 가막사리는 사용조건 '사용가능부위 : 잎'인 사용가능 원료다[1]. 건강기능식품 고시형 원료가 아니어서 고시 섭취 시 주의사항은 해당하지 않는다[1]. 식약처 등 공공기관의 알레르기·잔류농약·임신부 섭취 안전 정보는 확인하지 못함.\n\n생쥐에 알코올 추출물을 복강 주사한 급성 독성시험에서 LD50은 4,038 mg/kg으로 계산되었고, 죽은 동물의 장기에서 육안·조직 이상은 보이지 않았다[16]. 이는 먹었을 때가 아닌 복강 주사 결과다[16]. 랫드에 알코올 추출물 200 mg/kg, 물 추출물 250 mg/kg을 복강 주사한 시험에서는 혈구·혈청 생화학·면역 지표가 증류수 대조군과 크게 다르지 않았다[17]. 지상부 정유는 사람 피부 섬유아세포 24시간 처리에서 50·100 농도(원문 단위가 mg/g과 mg/mL로 섞여 있음)에서는 세포독성·DNA 손상이 유의하게 늘지 않았으나 150·200 mg/mL에서는 늘었다(세포 실험)[7].\n\n가막사리는 카드뮴을 지상부까지 옮기는 축적식물로 확인되었고(지상부 농도는 100 mg/kg 미만), 하수 슬러지의 PAH도 흡수한다[11, 12]. 따라서 야생 채취 시에는 오염 지역을 피해야 한다[11, 12]. 에탄올 추출물이 당뇨 랫드의 혈당을 낮춘 결과가 있어[3], 혈당강하제를 먹는 사람에서의 상호작용 자료는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Cynaroside",
+   "name_ko": "시나로사이드(루테올린 7-O-글루코사이드)",
+   "class": "플라본 배당체",
+   "role": "marker",
+   "part": "지상부(원문 aerial parts/herb — 식품원료 사용부위인 잎만의 값이 아님)",
+   "content_text": "터키 시료 말린 지상부 0.6363%, 80% 에탄올 추출물 4.07%, 에틸아세테이트 분획 10.87%, 부탄올 분획 0.33%(w/w, HPLC-DAD)[3]; 폴란드 시료 지상부 0.179%, 꽃 0.116%(건조중량 %, 다른 연구 값을 [3]이 인용)[3]",
+   "activity_ko": "돼지 공장 적출 조직에서 아세틸콜린 수축 반응을 대조의 250% 넘게 키움(적출 장기)[18]; 생쥐 피부 염증·알레르기 모델에서 겔 도포 시 부종 감소(동물)[19]; α-글루코시다제 결합 도킹(컴퓨터 모의)[5]",
+   "source": [
+    3,
+    5,
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산(카페오일퀸산)",
+   "role": "marker",
+   "part": "지상부(원문 aerial parts/herb — 식품원료 사용부위인 잎만의 값이 아님)",
+   "content_text": "말린 지상부 0.8066%, 80% 에탄올 추출물 5.160%, 에틸아세테이트 분획 10.63%, 부탄올 분획 4.51%(w/w, HPLC-DAD)[3]; 물 추출물의 주성분[6]",
+   "activity_ko": "활성 분획의 주성분으로 보고(분획의 혈당 저하는 동물 실험)[3]",
+   "source": [
+    3,
+    6
+   ]
+  },
+  {
+   "name": "Luteolin",
+   "name_ko": "루테올린",
+   "class": "플라본",
+   "role": "bioactive",
+   "part": "지상부(원문 aerial parts/herb — 식품원료 사용부위인 잎만의 값이 아님)",
+   "content_text": "말린 지상부 0.3267%, 80% 에탄올 추출물 2.09%, 에틸아세테이트 분획 7.58%, 부탄올 분획 검출 안 됨[3]; 폴란드 시료 지상부 0.031%, 꽃 0.047%(건조중량 %, [3]이 인용)[3]",
+   "activity_ko": "이 식물에서 분리, DPPH 라디칼 소거(시험관)[4]; 적출 공장 수축 촉진(적출 장기)[18]",
+   "source": [
+    3,
+    4,
+    18
+   ]
+  },
+  {
+   "name": "Flavanomarein",
+   "name_ko": "플라바노마레인(이소오카닌 7-O-글루코사이드)",
+   "class": "플라바논 배당체",
+   "role": "bioactive",
+   "part": "지상부·꽃(두상화)",
+   "content_text": "폴란드 시료 지상부 0.157%, 꽃 0.229%(건조중량 %, 다른 연구 값을 [3]이 인용)[3]; 이 식물에서 분리[4]",
+   "activity_ko": "DPPH 라디칼 소거(시험관)[4]; 적출 공장 수축 촉진(적출 장기)[18]",
+   "source": [
+    3,
+    4,
+    18
+   ]
+  },
+  {
+   "name": "Caftaric acid",
+   "name_ko": "카프타르산",
+   "class": "페놀산(카페오일타르타르산)",
+   "role": "bioactive",
+   "part": "추출물·침출액(초록에 부위 기재 없음)",
+   "content_text": "물 추출물·계면활성제 추출물에서 카프타르산과 그 유도체가 주성분으로 확인(UPLC-DAD-MS, 수치는 확인하지 못함)[6]",
+   "activity_ko": "이 성분이 든 추출물이 DPPH 라디칼을 소거(시험관, 성분 단독 활성은 시험하지 않음)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "에피카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "추출물(초록에 부위 기재 없음)",
+   "content_text": "HPLC-DAD 분석에서 시나로사이드·클로로겐산과 함께 추출물의 주성분(수치는 확인하지 못함)[5]",
+   "activity_ko": "추출물의 라디칼 소거·효소 억제 시험(시험관)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Isocoreopsin",
+   "name_ko": "이소코레옵신",
+   "class": "플라바논 배당체",
+   "role": "bioactive",
+   "part": "확인하지 못함",
+   "content_text": "가막사리 플라보노이드로 절대 입체배치가 보고됨(논문 제목만 확인, 함량은 확인하지 못함)[25]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    25
+   ]
+  },
+  {
+   "name": "Ascorbic acid",
+   "name_ko": "아스코르브산(비타민 C)",
+   "class": "비타민",
+   "role": "nutrient",
+   "part": "지상부(침출액)",
+   "content_text": "지상부 침출액에서 플라보노이드·탄닌·다당류·아미노산·유기산·폴리아세틸렌과 함께 존재 확인(수치는 확인하지 못함)[15]",
+   "activity_ko": "영양 성분",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "beta-Ocimene",
+   "name_ko": "β-오시멘",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "초임계 CO2 추출 휘발성분(초록에 부위 기재 없음)",
+   "content_text": "초임계 CO2 추출 휘발성분 중 40–46%로 최대 성분[9]",
+   "activity_ko": "향 성분",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "p-Cymene",
+   "name_ko": "p-시멘",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "지상부 정유·뿌리 정유",
+   "content_text": "만개기 지상부 정유 중 4.82%(GC-MS)[7]; 뿌리 정유 중 6.0%[8]",
+   "activity_ko": "이 성분이 든 지상부 정유와 그 하이드로겔이 칸디다 균주 성장을 억제(시험관, 성분 단독 활성은 시험하지 않음)[7]",
+   "source": [
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Linalool",
+   "name_ko": "리날로올",
+   "class": "모노테르펜 알코올",
+   "role": "bioactive",
+   "part": "지상부 정유·뿌리 정유",
+   "content_text": "지상부 정유 중 2.85%[7]; 뿌리 정유 중 4.6%[8]",
+   "activity_ko": "향 성분",
+   "source": [
+    7,
+    8
+   ]
+  },
+  {
+   "name": "alpha-Pinene",
+   "name_ko": "α-피넨",
+   "class": "모노테르펜",
+   "role": "bioactive",
+   "part": "뿌리(식품원료 사용부위 아님)·초임계 추출 휘발성분(부위 미기재)",
+   "content_text": "뿌리 정유 중 15.0%로 최대 성분[8]; 초임계 CO2 추출 휘발성분의 주요 성분 가운데 하나[9]",
+   "activity_ko": "뿌리 정유가 강한 항진균 활성(시험관)[8]",
+   "source": [
+    8,
+    9
+   ]
+  },
+  {
+   "name": "beta-Bisabolene",
+   "name_ko": "β-비사볼렌",
+   "class": "세스퀴테르펜",
+   "role": "bioactive",
+   "part": "뿌리(식품원료 사용부위 아님)",
+   "content_text": "뿌리 정유 중 9.3%[8]",
+   "activity_ko": "확인하지 못함",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Selenium",
+   "name_ko": "셀레늄",
+   "class": "미량 무기질",
+   "role": "nutrient",
+   "part": "식물 전체(건조 후 습식 분해)",
+   "content_text": "폴란드·몬테네그로 강가 시료 0.010–0.320 µg/g(형광분광법); 몬테네그로 시료가 폴란드보다 유의하게 높았고, 미국가막사리보다는 낮았다[10]",
+   "activity_ko": "미량 영양소(함량은 서식지 토양에 따라 달라짐)[10]",
+   "source": [
+    10
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Cynaroside",
+   "compound_ko": "시나로사이드(루테올린 7-O-글루코사이드)",
+   "part": "지상부(원문 aerial parts/herb — 식품원료 사용부위인 잎만의 값이 아님)",
+   "content": "말린 지상부 0.6363%, 에탄올 추출물 4.07%, 에틸아세테이트 분획 10.87%, 부탄올 분획 0.33%(w/w); 머무름 시간 16.777분[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "HP-1200 HPLC(Agilent Technologies), G1315D 다이오드 어레이 검출기",
+    "column": "ACE 5 μm C18, 150 × 4.6 mm",
+    "mobile_phase": "물(0.03% 트라이플루오로아세트산) – 아세토니트릴",
+    "gradient": "아세토니트릴:TFA 용액 10:90(0분) → 30:70(30분), 분석 사이 10분",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "DAD 210 nm에서 정량(210·254·280·360 nm 스캔, 표준품 UV 스펙트럼 중첩으로 확인; LC-MS G1956 질량검출기로 존재 확인)",
+    "injection": "20 μL(방법 기재); 검량선은 10 μL 3회 주입",
+    "sample_prep": "그늘에서 말린 지상부 분말 100 g을 80% 에탄올 1.5 L로 24시간 진탕 추출, 찌꺼기에 1 L 추가 24시간 추출 → 감압 건고·동결건조(수율 15.63%); 에탄올 추출물·부탄올 분획 10 mg은 물:메탄올(1:1) 10 mL, 에틸아세테이트 분획 10 mg은 메탄올 10 mL에 녹여 0.45 μm 여과 후 주입",
+    "standard": "시나로사이드 표준품(Sigma-Aldrich·Fluka), 10 mg을 물:메탄올(1:1) 10 mL에 녹인 원액, 0.01–0.5 mg/mL 6개 농도",
+    "linearity": "y = 20236.62x − 15.2951, r = 0.9999",
+    "lod": "0.924 µg/mL(S/N 3)",
+    "loq": "2.7725 µg/mL(S/N 10)",
+    "recovery": ""
+   },
+   "rationale": "가막사리 지상부의 대표 플라보노이드로 여러 연구에서 주성분으로 보고되고, 활성 분획의 지표로 정량되었다[3, 5, 19]. 회수율과 칼럼 온도는 원문에 없다[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5110660/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산",
+   "part": "지상부(원문 aerial parts/herb — 식품원료 사용부위인 잎만의 값이 아님)",
+   "content": "말린 지상부 0.8066%, 에탄올 추출물 5.160%, 에틸아세테이트 분획 10.63%, 부탄올 분획 4.51%(w/w); 머무름 시간 6.770분[3]",
+   "method": "HPLC-DAD",
+   "conditions": {
+    "instrument": "HP-1200 HPLC(Agilent Technologies), G1315D 다이오드 어레이 검출기",
+    "column": "ACE 5 μm C18, 150 × 4.6 mm",
+    "mobile_phase": "물(0.03% 트라이플루오로아세트산) – 아세토니트릴",
+    "gradient": "아세토니트릴:TFA 용액 10:90(0분) → 30:70(30분), 분석 사이 10분",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "DAD 210 nm에서 정량(210·254·280·360 nm 스캔, 표준품 UV 스펙트럼 중첩으로 확인; LC-MS G1956 질량검출기로 존재 확인)",
+    "injection": "20 μL(방법 기재); 검량선은 10 μL 3회 주입",
+    "sample_prep": "그늘에서 말린 지상부 분말 100 g을 80% 에탄올 1.5 L로 24시간 진탕 추출, 찌꺼기에 1 L 추가 24시간 추출 → 감압 건고·동결건조(수율 15.63%); 에탄올 추출물·부탄올 분획 10 mg은 물:메탄올(1:1) 10 mL, 에틸아세테이트 분획 10 mg은 메탄올 10 mL에 녹여 0.45 μm 여과 후 주입",
+    "standard": "클로로겐산 표준품(Sigma-Aldrich·Fluka), 10 mg을 메탄올 10 mL에 녹인 원액, 0.01–0.5 mg/mL 6개 농도",
+    "linearity": "y = 6892.2x − 31.614, r = 0.9991",
+    "lod": "1.0386 µg/mL(S/N 3)",
+    "loq": "3.1158 µg/mL(S/N 10)",
+    "recovery": ""
+   },
+   "rationale": "물 추출물(침출액)과 활성 분획의 주성분으로 같은 조건에서 함께 정량되었다[3, 6].",
+   "source": [
+    3,
+    6
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5110660/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "p-Cymene",
+   "compound_ko": "p-시멘",
+   "part": "만개기 지상부 정유(원문 aerial parts — 잎만의 값이 아님)",
+   "content": "정유 중 4.82%(정유 성분 98개 동정, 전체의 94–98%); 정유 수율은 결과 0.19%, 방법 0.03%로 다르게 기재[7]",
+   "method": "GC-MS",
+   "conditions": {
+    "instrument": "Agilent 7890A 가스크로마토그래프 + 5975C VL 질량분석기",
+    "column": "HP-5MS 모세관 칼럼, 30 m × 0.25 mm, 막 두께 0.25 µm",
+    "mobile_phase": "운반기체 헬륨",
+    "gradient": "칼럼 50 °C → 300 °C, 4 °C/min",
+    "flow": "1.0 mL/min",
+    "temp": "주입구 280 °C",
+    "detection": "전자이온화 70 eV, m/z 30–650",
+    "injection": "1 μL(헥산 1:100 희석), 분할비 20:1",
+    "sample_prep": "폴란드에서 2016년 7월 28일–8월 6일 만개기에 채집한 지상부를 말려(20 kg) 클레벤저형 장치로 3시간 물증류(hydrodistillation, 약전 방법)",
+    "standard": "상대 머무름 지수와 질량 스펙트럼을 문헌·NIST 라이브러리(2012)와 비교해 동정(표준품 검량 정량 아님)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "지상부 정유의 최대 성분으로 보고되었으나, 정유 조성은 기상·추출법에 따라 크게 달라 지표로 쓰기에는 한계가 있다[7].",
+   "source": [
+    7
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6222870/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 가막사리 2개 원료명 행: 가막사리잎(부위 잎)·가막사리순(부위 순), 학명 'Bidens tripartita L. / Bidens modiflora L.', 다른 이름 가막살, 영문명 Three-lobe beggartick, 식품원료(A코드)·식물, 두 행 모두 사용조건 '사용가능부위 : 잎', 상태 사용가능. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속(Bidens) 원료 행: 구와가막사리잎·순(B. radiata var. pinnatifida, 사용가능부위 잎), 까치발순(B. parviflora, 사용가능부위 순), 도깨비바늘잎(B. bipinnata), 털도깨비바늘잎(B. biternata), 미국가막사리잎(B. frondosa), Arizona beggarticks잎(B. aurea) — 모두 사용가능; 울산도깨비바늘잎(B. pilosa) — 제한적사용(제한적사용가능부위 : 잎). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Anti-hyperglycaemic and antioxidant effects of Bidens tripartita and quantitative analysis on its active principles. Iran J Basic Med Sci 2016;19(10) (PMID 27872708, PMC5110660; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5110660/",
+   "publisher": "Mashhad University of Medical Sciences / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Antioxidant activity of extracts and flavonoids from Bidens tripartita. Acta Pol Pharm 2007;64(5):441-7 (PMID 18540165; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18540165/",
+   "publisher": "Polish Pharmaceutical Society / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Novel in vitro and in silico insights of the multi-biological activities and chemical composition of Bidens tripartita L. Food Chem Toxicol 2018;111:525-536 (PMID 29217268, doi:10.1016/j.fct.2017.11.058; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29217268/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "A micelle mediated extraction as a new method of obtaining the infusion of Bidens tripartita. Acta Biochim Pol 2016;63(3):543-8 (PMID 27231727, doi:10.18388/abp.2015_1223; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27231727/",
+   "publisher": "Polish Biochemical Society / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Novel Gel Formulations as Topical Carriers for the Essential Oil of Bidens tripartita for the Treatment of Candidiasis. Molecules 2018;23(10):2517 (PMID 30275354, PMC6222870, doi:10.3390/molecules23102517; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6222870/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Composition of the essential oil of Bidens tripartita L. roots and its antibacterial and antifungal activities. J Med Food 2011;14(4):428-33 (PMID 21370967, doi:10.1089/jmf.2010.0066; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21370967/",
+   "publisher": "Mary Ann Liebert / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Investigation of recovery of volatiles of Bidens tripartita L. using solid-phase extraction trap in supercritical fluid extraction. Acta Chim Slov 2015;62(1):1-7 (PMID 25830954, doi:10.17344/acsi.2014.260; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25830954/",
+   "publisher": "Slovenian Chemical Society / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Selenium content and bioaccumulation in Bidens tripartita and Bidens frondosa under different habitat conditions in Poland and Montenegro. Sci Rep 2025;15 (PMID 40442159, PMC12123003, doi:10.1038/s41598-025-02704-6; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12123003/",
+   "publisher": "Springer Nature / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Bidens tripartite L.: a Cd-accumulator confirmed by pot culture and site sampling experiment. J Hazard Mater 2009;170(2-3):1269-72 (PMID 19515488, doi:10.1016/j.jhazmat.2009.05.078; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19515488/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "The relation between polyaromatic hydrocarbon concentration in sewage sludge and its uptake by plants: Phragmites communis, Polygonum persicaria and Bidens tripartita. PLoS One 2014;9(10):e109548 (PMID 25310699, PMC4195666, doi:10.1371/journal.pone.0109548; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25310699/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Medicinal plants of the Russian Pharmacopoeia; their history and applications. J Ethnopharmacol 2014;154(3):481-536 (PMID 24742754, doi:10.1016/j.jep.2014.04.007; 초록·키워드 확인, 본문 확인 못함)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24742754/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "[Historical and herbalogical studies on coloring crude drug (Part 1): 'Langbacao']. Yakushigaku Zasshi 1992;27(2):55-64 (PMID 11639707; 일본어 논문의 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11639707/",
+   "publisher": "日本薬史学会 / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Anti-inflammatory activity of a HPLC-fingerprinted aqueous infusion of aerial part of Bidens tripartita L. Phytomedicine 2010;17(6):463-8 (PMID 19748256, doi:10.1016/j.phymed.2009.08.001; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19748256/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Experimental researches on acute toxicity of a Bidens tripartita extract in mice - preliminary investigations. Rev Med Chir Soc Med Nat Iasi 2012;116(4):1230-4 (PMID 23700917; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23700917/",
+   "publisher": "Societatea de Medici si Naturalisti din Iasi / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "In vivo biocompatibility evaluation of some Bidens tripartita extracts in rats. Rev Med Chir Soc Med Nat Iasi 2013;117(3):795-800 (PMID 24502053; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24502053/",
+   "publisher": "Societatea de Medici si Naturalisti din Iasi / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Evaluation of the effects of Bidens tripartita extracts and their main constituents on intestinal motility - An ex vivo study. J Ethnopharmacol 2020;259:112982 (PMID 32442590, doi:10.1016/j.jep.2020.112982; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32442590/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "In vivo anti-inflammatory and anti-allergic activities of cynaroside evaluated by using hydrogel formulations. Biomed Pharmacother 2020;121:109681 (PMID 31810125, doi:10.1016/j.biopha.2019.109681; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31810125/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Performance and responses to competition in two congeneric annual species: does seed heteromorphism matter? Plant Biol 2015;17(6):1203-9 (PMID 26206119, doi:10.1111/plb.12372; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26206119/",
+   "publisher": "Wiley / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Plant communities in relation to flooding and soil characteristics in the water level fluctuation zone of the Three Gorges Reservoir, China. Environ Sci Pollut Res Int 2013;20(3):1794-802 (PMID 22968672, doi:10.1007/s11356-012-1148-x; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22968672/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Antimicrobial and antifungal activities of the extracts and essential oils of Bidens tripartita. Folia Histochem Cytobiol 2008;46(3):389-93 (PMID 19056546, doi:10.2478/v10042-008-0082-8; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19056546/",
+   "publisher": "Via Medica / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Antiangiogenic, Anti-Inflammatory and Antioxidant Properties of Bidens tripartita Herb, Galium verum Herb and Rumex hydrolapathum Root. Molecules 2023;28(13):4966 (PMID 37446627, PMC10343270, doi:10.3390/molecules28134966; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37446627/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Indigenous microorganisms offset the benefits of growth and nutrition regulated by inoculated arbuscular mycorrhizal fungi for four pioneer herbs in karst soil. PLoS One 2022;17(4):e0266526 (PMID 35468152, PMC9037916, doi:10.1371/journal.pone.0266526; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35468152/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "[Bidens tripartita flavonoids. The absolute configuration of isocoreopsin]. Farm Zh 1975;(2):88-9 (PMID 1140373; 우크라이나어 논문, 초록 없음 — 제목만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/1140373/",
+   "publisher": "Farmatsevtychnyi zhurnal / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Poultry manured Bidens tripartite L. extracting Cd from soil - potential for phytoremediating Cd contaminated soil. Bioresour Technol 2010;101(22):8907-10 (PMID 20624678, doi:10.1016/j.biortech.2010.06.090; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20624678/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "[Diagnostic characteristics of raw Bidens tripartita L]. Farmatsiia 1967;16(2):27-33 (PMID 5611764; 러시아어 논문, 초록 없음 — 제목만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/5611764/",
+   "publisher": "Farmatsiia / PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

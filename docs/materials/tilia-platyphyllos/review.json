@@ -1,0 +1,140 @@
+{
+ "slug": "tilia-platyphyllos",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 63,
+ "checked_items": 51,
+ "verified": 92,
+ "fixed": 16,
+ "removed": 4,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "유럽 중부·남부가 원산인 넓은잎 낙엽 교목",
+   "after": "유럽 중부·남부가 원산인 넓은잎 교목",
+   "why": "[5] 초록은 broad-leaved tree 라고만 씀(낙엽 근거 없음)"
+  },
+  {
+   "where": "sections.overview",
+   "before": "유럽 약용식물 문헌에서 '린덴꽃(Tiliae flos)'은 Tilia cordata·Tilia platyphyllos·두 종의 잡종 또는 그 혼합물의 포엽 달린 꽃차례를 말린 것으로, 감기 증상과 정신적 긴장 완화에 전통적으로 써 왔다[6, 20].",
+   "after": "유럽 약용식물 문헌에서 '린덴꽃(Tiliae flos)'은 피나무속 꽃차례를 포엽째 말린 것으로 이 종과 작은잎라임 등 여러 종이나 그 혼합물일 수 있으며, 감기 증상과 정신적 긴장 완화에 전통적으로 써 왔다[6].",
+   "why": "[20] EMA 평가서는 WebSearch 요약뿐이라 원문 미확인 — 인용 제거, [6] 초록 범위로 줄임(초록에서 종 학명이 빠져 있어 정의 속 종 목록은 단정하지 않음)"
+  },
+  {
+   "where": "sections.history",
+   "before": " 유럽의약품청(EMA) 약초위원회는 Tilia cordata·Tilia platyphyllos·Tilia × vulgaris의 꽃 또는 그 혼합물을 하나의 전통 약초 성분으로 묶어 단행 평가서(monograph)를 냈고, 감기 증상 완화가 전통적 용도로 들어 있는 것으로 검색 결과에서 확인했다(원문은 확인하지 못함)[20].",
+   "after": "",
+   "why": "[20] 원문 확인 불가(검색 요약뿐) — 문장 삭제"
+  },
+  {
+   "where": "sections.biology",
+   "before": "아욱과(Malvaceae) 피나무속의 넓은잎 낙엽 교목이다[5, 13]",
+   "after": "아욱과(Malvaceae) 피나무속의 넓은잎 교목이다[5, 13]",
+   "why": "[5]·[13] 초록에 낙엽 언급 없음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "번식과 관련해서는 미숙 접합배에서 얻은 배발생 배양으로 이 종의 체세포배와 어린 식물을 재생한 보고가 있다[24].",
+   "after": "번식과 관련해서는 작은잎라임(Tilia cordata)의 미숙 접합배 배양으로 체세포배를 얻은 연구에서, 이 종도 배발생 배양으로 체세포배와 어린 식물이 재생되었다고 덧붙여 보고되었다[24].",
+   "why": "[24] 의 주 대상은 T. cordata 이고 이 종은 초록 끝에 부가 결과로만 나옴 — 근연종 자료 섞임 방지"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "이 종의 뿌리는 송로버섯(Tuber borchii)과 외생균근을 잘 만들어, 균근 형성 연구의 기주 식물로 쓰였다[23, 25].",
+   "after": "이 종의 뿌리는 송로버섯(Tuber borchii)과 외생균근을 만들며(균주에 따라 형성 효율이 달랐다), 균근 형성 연구의 기주 식물로 쓰였다[23, 25].",
+   "why": "[23] 초록: 두 균주가 다른 효율로 균근을 만듦 — \"잘 만들어\" 과장"
+  },
+  {
+   "where": "sections.processing",
+   "before": "열매(소견과) 기름은 식물스테롤과 토코페롤이 많다는 보고가 있으나",
+   "after": "작은잎라임과 함께 분석한 연구에서 열매(소견과) 기름은 식물스테롤과 토코페롤이 많다는 보고가 있으나",
+   "why": "[9] 의 식물스테롤·토코크로마놀 서술은 두 종 합친 값 — 근연종 섞임 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": " 유럽의약품청 단행 평가서에는 알려진 이상반응이 '없음'으로 적혀 있다는 내용을 검색 결과 요약으로만 확인했다(원문 미확인)[20].",
+   "after": "",
+   "why": "[20] 원문 확인 불가 — 근거 없는 안전성 문장 삭제"
+  },
+  {
+   "where": "sections.safety",
+   "before": "HPV16 유전자이식 생쥐에게 이 종 하이드로에탄올 추출물을",
+   "after": "HPV16 유전자이식 생쥐(군당 4–7마리)에게 이 종 하이드로에탄올 추출물(부위는 초록에 밝히지 않음)을",
+   "why": "[5] 초록: 군당 n=4–7, 사용 부위 미기재 — 소규모 동물 결과임과 부위 불명 명시"
+  },
+  {
+   "where": "sections.safety",
+   "before": "동물에서의 안전성은 양호했다[5]",
+   "after": "이 실험 조건의 생쥐에서는 내약성이 양호했다[5]",
+   "why": "소규모 동물 결과 일반화 완화"
+  },
+  {
+   "where": "compounds.Isoquercitrin.activity_ko",
+   "before": "추출물의 항산화 작용에 기여하는 성분으로 논의됨(시험관)[3]",
+   "after": "이 종 꽃에서 정량한 6성분 가운데 가장 많았으나, 단독 활성은 이 연구에서 시험하지 않음[3]",
+   "why": "[3] 전문에 이소퀘르시트린을 항산화 기여 성분으로 논의한 대목 없음"
+  },
+  {
+   "where": "compounds.Chlorogenic acid.content_text",
+   "before": "정량·추정 동정된 퀸산 유도체",
+   "after": "검출·동정된 퀸산 유도체 가운데 하나",
+   "why": "[7] 초록은 7성분 정량·45성분 추정 동정이라고만 하여 클로로젠산의 정량 여부 불명"
+  },
+  {
+   "where": "compounds.Protocatechuic acid.part",
+   "before": "꽃·포엽·꽃차례(지상부 추출물)",
+   "after": "꽃·포엽·꽃차례[3]; [4, 5]의 하이드로에탄올 추출물은 사용 부위가 초록에 없음",
+   "why": "[4]·[5] 초록에 부위(지상부·꽃차례) 표시 없음"
+  },
+  {
+   "where": "compounds.Epicatechin.part",
+   "before": "꽃차례·추출물",
+   "after": "꽃차례 제제[2]; [4, 5]의 추출물은 사용 부위가 초록에 없음",
+   "why": "[4]·[5] 초록에 부위(지상부·꽃차례) 표시 없음"
+  },
+  {
+   "where": "compounds.beta-Sitosterol",
+   "before": "린덴 씨 기름 식물스테롤 2–2.5 g/100 g 가운데 80–83%(두 종 합친 범위)[9]",
+   "after": "(삭제)",
+   "why": "[9] 의 식물스테롤 값은 작은잎라임과 합친 범위이고 사용가능부위 밖(열매) — 이 종 값으로 쓸 수 없음"
+  },
+  {
+   "where": "compounds.Tiliine A.content_text",
+   "before": "이 종 꽃·포엽·잎에서 HPLC-ESI-qTOF로 정량",
+   "after": "이 종과 작은잎라임 꽃에서 HPLC-ESI-qTOF로 정량(한 종은 포엽·잎까지 분석했으나 초록에서 어느 종인지 확인 못함)",
+   "why": "[6] 초록에서 학명 이탤릭이 빠져 \"flowers 와 flowers, bracts, and leaves\" 중 어느 쪽이 이 종인지 알 수 없음 — 이 종 꽃·포엽·잎 정량으로 단정하지 않음"
+  },
+  {
+   "where": "assays.Tiliine A.content",
+   "before": "6가지 알칼로이드가 이 종 꽃·포엽·잎에서 모두 검출",
+   "after": "6가지 알칼로이드가 이 종과 작은잎라임 꽃에서 모두 검출(포엽·잎 분석 자료의 종 대응은 초록에서 확인 못함)",
+   "why": "[6] 초록에서 학명 이탤릭이 빠져 \"flowers 와 flowers, bracts, and leaves\" 중 어느 쪽이 이 종인지 알 수 없음 — 이 종 꽃·포엽·잎 정량으로 단정하지 않음"
+  },
+  {
+   "where": "assays.Tiliine A.rationale",
+   "before": "피나무속 꽃·잎에서 처음 보고된 고유 알칼로이드로, 잎(식품 사용가능부위)까지 정량한 드문 자료다; 전문 확인 못함[6].",
+   "after": "피나무속 꽃에서 처음 보고된 고유 알칼로이드다; 잎까지 정량한 자료가 이 종인지는 전문을 확인하지 못해 단정하지 않는다[6].",
+   "why": "[6] 초록에서 학명 이탤릭이 빠져 \"flowers 와 flowers, bracts, and leaves\" 중 어느 쪽이 이 종인지 알 수 없음 — 이 종 꽃·포엽·잎 정량으로 단정하지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "꽃·포엽·잎에서 새 알칼로이드가 보고되었지만",
+   "after": "이 종과 작은잎라임의 꽃 등에서 새 알칼로이드가 보고되었지만",
+   "why": "[6] 초록에서 학명 이탤릭이 빠져 \"flowers 와 flowers, bracts, and leaves\" 중 어느 쪽이 이 종인지 알 수 없음 — 이 종 꽃·포엽·잎 정량으로 단정하지 않음"
+  },
+  {
+   "where": "sources[20]",
+   "before": "EMA HMPC community herbal monograph (WebSearch 요약만)",
+   "after": "(삭제, 이후 번호 21–25 → 20–24)",
+   "why": "원문 미확인 출처 — 인용 문장 삭제 후 쓰이지 않음"
+  }
+ ],
+ "unverifiable_notes": [
+  "[14] PMC 전문에서 학명 이탤릭이 빠져 있어 형태 특징(흰 털·가장 큰 꽃·단단한 소견과)의 종 대응은 문맥 판단으로 남김(본문에 이미 단서 있음)",
+  "[2]·[4]·[5]·[6]·[7] 등은 초록만 확인 — [6] 은 PMC 전문이 없어 포엽·잎 자료의 종 대응 미확인, [4]·[5] 추출물의 사용 부위 미기재",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 에서 황금플라티필로스피나무꽃·잎(Tilia platyphyllos; 큰잎유럽피나무, 넓은잎피나무; Broad-leaved lime, Weeping lime; 사용가능; 사용가능부위 : 잎, 꽃) 확인, 라임블로섬(Tilia x europea) 나무껍질 제한적사용도 확인",
+  "철회 확인: PubMed 메타데이터상 인용 논문 24건 중 Retracted Publication 표시 없음, 'Tilia' 철회·정정 검색 결과 1건(37149726)은 인용 문헌 아님",
+  "[3] Sci Rep 2025 표 1 수치(이 종 꽃·포엽·꽃차례 6성분)와 HPLC 조건은 작성자가 저장한 PMC 전문으로 한 칸씩 대조해 모두 일치"
+ ]
+}

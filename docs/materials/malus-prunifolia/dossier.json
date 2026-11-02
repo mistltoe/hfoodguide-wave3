@@ -1,0 +1,533 @@
+{
+ "slug": "malus-prunifolia",
+ "name_ko": "벚잎꽃사과",
+ "name_en": "Chinese apple (Plumleaf crab apple)",
+ "scientific_name": "Malus prunifolia (Willd.) Borkh.",
+ "aliases": [
+  "벚잎꽃사과열매",
+  "벚잎꽃사과분말",
+  "애기사과",
+  "Chinese apple",
+  "Plumleaf crab apple"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "벚잎꽃사과(Malus prunifolia (Willd.) Borkh.)는 장미과 사과속의 작은 열매를 맺는 나무로, 영어로는 Chinese apple 또는 Plumleaf crab apple이라 하며 식약처 목록의 이명은 '애기사과'다[1]. 식약처 「식품원료 목록」에는 '벚잎꽃사과열매'와 '벚잎꽃사과분말' 두 행이 올라 있고, 둘 다 식품에 쓸 수 있는 원료(사용가능)이며 사용 조건은 '사용가능부위 : 열매'다[1]. 따라서 식품원료로 쓸 수 있는 부위는 열매뿐이고, 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n중국에서는 관상수이자 재배 사과의 대목으로 널리 쓰이며, 열매는 술·주스·식초·시럽 같은 식품으로 가공된다[2]. 열매에는 루틴·하이페로사이드·퀘르세틴 같은 플라보노이드, 클로로겐산 같은 페놀산, 마슬린산·코로솔산 같은 트라이테르페노이드가 보고되었다[2, 4, 5]. 꽃사과 효소 가수분해물에서 얻은 다당류의 항염증 효과(세포·생쥐)와, 벚잎꽃사과를 포함한 세 꽃사과 조추출물의 콜레스테롤 저하 효과(생쥐, 초록에서는 어느 종의 추출물인지 구분되지 않음)가 보고되었을 뿐이며, 사람을 대상으로 한 임상시험은 확인하지 못함[6, 8, 9]. 연구의 상당수는 열매가 아니라 대목으로서의 가뭄·염 내성에 관한 것이다[14, 15]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "벚잎꽃사과는 중국 북부에서 오래 재배되어 온 사과속 분류군으로 『중국식물지(Flora of China)』에 기록되어 있고, 스트레스에 강한 대목으로 널리 쓰인다고 소개된다[3]. 중국 신장에서 널리 재배되며, 독특한 맛과 영양 때문에 술·주스·식초·시럽 등 여러 식품으로 개발되었다[2]. '마루바카이도(Marubakaido)'라는 이름의 대목(M. prunifolia var. ringo Asami)도 있어 생장 조절 연구에 쓰였다[18, 27]. 사과 뿌리혹선충 Meloidogyne mali는 일본에서 벚잎꽃사과를 기주로 처음 기재되었다[24].\n\n국내에서는 2010–2011년 경북 안동의 꽃사과(M. prunifolia) 나무에서 탄저병이 처음 보고되었는데, 이 보고는 꽃사과가 한 품종만 심은 사과 과수원의 수분수(꽃가루를 대는 나무)로 쓰인다고 적었다[13]. 식약처 목록에는 이명 '애기사과'와 함께 열매·분말 원료명으로 올라 있다[1]. 국내에서 식품으로 쓰인 시기나 전통적 이용 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "벚잎꽃사과는 장미과(Rosaceae) 사과속(Malus)에 속하며, 식약처 목록의 학명은 Malus prunifolia (Willd.) Borkh.이다[1]. 염색체 수는 2n = 2x = 34인 이배체다[11]. 분포는 연구마다 달리 적혀 있어, 한 논문은 아시아·유럽·북미에 분포한다고 했고 다른 논문은 중국 고유종이라고 했다[2, 19].\n\n열매는 성숙하면서 노란빛이 도는 연두색에서 전체가 붉은색으로 바뀌며, 중국 신장에서는 8월에 여러 성숙 단계의 열매를 땄다[2]. 칭하이성 해발 1,942 m의 30년생 나무에서는 개화 후 60일과 120일에 열매를 따서 비교했으며, 개화기는 4월 초에서 5월 초였다[3]. 전자혀 분석에서 익은 열매의 주된 맛은 신맛이었고, 익을수록 단맛은 늘고 신맛·쓴맛·떫은맛은 줄었다[2]. 열매의 주요 당은 과당·포도당이고 성숙 후기에 자당과 소르비톨·만니톨 같은 당알코올이 늘었다[2]. 해마다 열매가 많이 열리는 해와 적게 열리는 해가 번갈아 오는 해거리 성질이 있다[25]."
+  },
+  {
+   "key": "related_species",
+   "title": "비슷한 종과 구별",
+   "body": "식약처 목록에는 같은 사과속 원료로 사과(M. pumila / M. domestica), 능금나무열매(M. asiatica), 야광나무열매(M. baccata), 크랩애플(M. dorothea), Western crabapple열매(M. fusca)가 각각 별도 행으로 올라 있다[1]. 모두 열매만 쓸 수 있는 원료이지만 학명이 다르므로, 사과나 다른 꽃사과의 성분·생산 자료를 벚잎꽃사과 자료로 옮겨 쓰면 안 된다[1]. 영어 'crabapple'은 여러 사과속 야생종을 두루 가리키는 말이어서, 꽃사과 추출물 연구에서도 M. 'Red jade'·M. hupehensis와 벚잎꽃사과를 함께 다룬 예가 있다[6].\n\n유전체 연구에서 벚잎꽃사과는 두 조상 계통이 섞인 교잡 기원으로 분석되었고[11], 297개 사과속 계통 분석에서는 중앙아시아 야생 사과 M. sieversii의 유전자 흐름이 벚잎꽃사과·M. × asiatica·M. × micromalus 등 동아시아 종으로 이어졌다고 보았다[12]. 중국 칭하이에서는 M. asiatica와 나란히 재배되어 열매 성분이 비교되었다[3]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "벚잎꽃사과는 재배 사과의 대목으로 널리 쓰이며, 가뭄에 강한 종으로 평가된다[14, 19]. 가뭄에 약한 M. hupehensis보다 가뭄에 강했지만, 염 스트레스에서는 '잉예하이탕(yingyehaitang)' 계통이 M. hupehensis보다 약했다[15, 16]. 과잉 구리에서는 다른 대목보다 뿌리에 구리를 많이 붙잡아 지상부로 덜 옮겼다[17]. 콜히친 처리로 만든 배수체는 이배체보다 염에 강했다[14].\n\n산지로는 중국 신장(열매 시료 채취지)과 칭하이성 러두구의 재래 품종 보존 과수원(해발 1,942 m)이 논문에 나온다[2, 3]. 국내에서는 경북 안동에서 꽃사과 열매가 짓무르고 미라처럼 마르는 탄저병(Colletotrichum gloeosporioides)이 보고되어, 재배 사과 과수원의 전염원이 될 수 있다고 지적되었다[13]. 품종 '둥훙궈(Donghongguo)'의 잎에 갈색무늬병(Marssonina apple blotch)균을 접종한 실험에서 멜라토닌 전처리가 저항성을 높였다[26]. 국내 재배 면적·생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록에는 열매 자체('벚잎꽃사과열매')와 가루('벚잎꽃사과분말') 두 형태가 원료명으로 올라 있다[1]. 중국에서는 열매로 술·주스·식초·시럽을 만든다[2]. 연구 단계에서는 열매를 에탄올로 추출하는 조건(에탄올 농도·고액비·온도)을 반응표면분석법으로 최적화하고, HPD-300 다공성 수지로 주성분 분획을 정제해 항산화·항염증 활성이 높은 분획을 얻었다[7]. 꽃사과 효소 가수분해물에서는 람노갈락투로난-I(RG-I)이 풍부한 다당류 분획(MP-PE-I)을 분리했다[8].\n\n열매의 시아니딘-3-O-글루코사이드(C3G)는 안정성이 낮아 이용이 제한되는데, 이를 키토산 유도체 나노입자에 담는 연구에서 카복시메틸키토산·염화칼슘 조합이 봉입 효율 53.88%, 입자 크기 180 nm로 가장 좋았다[10]. 익는 동안 기본 맛 특성이 비교적 안정해 가공 목적에 맞춰 수확 시기를 고를 수 있다는 해석도 있다[2]. 식약처 「식품 등의 생산실적」에서 이 원료의 제품 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 육종",
+   "body": "대목 계통 '푸핑추쯔(Fupingqiuzi)'의 염색체 수준 유전체가 일루미나 단편 서열, PacBio 장편 서열, Hi-C 자료로 조립되었다[11]. 조립 길이는 712 Mb, 스캐폴드 N50은 41.6 Mb였고, 콘티그의 약 98.6%가 17개 유사염색체에 배치되었으며 BUSCO 완성도는 95.3%였다[11]. 단백질 암호 유전자는 44,997개, 반복 서열은 484 Mb로 예측되었다[11]. 113개 계통의 재서열 분석에서 벚잎꽃사과는 두 조상 계통의 교잡 기원으로 추정되었고, 처음 생긴 집단의 핵 유전체는 약 78%와 22%로 두 조상에서 왔으며 종 분화 시기는 약 33,500년 전으로 계산되었다[11].\n\n이 대목에 'Golden Delicious'를 접목하면 같은 품종끼리 접목했을 때보다 가뭄·극한 온도·병에 강했다[11]. 이질 접목한 접수와 대목에서는 mRNA의 m6A 메틸화가 전반적으로 높아졌고[20], 가뭄을 받은 실생묘에서도 m6A 과메틸화 피크가 많이 늘었다[19]. 이 종에서 분리한 MpSnRK2.10 유전자를 과발현한 애기장대·사과는 가뭄 내성이 높아졌다[21]. 열매 성분과 관련된 유전 연구는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 벚잎꽃사과는 열매를 쓸 수 있는 '사용가능' 원료이며, 열매 밖의 부위는 사용 조건에 없다[1]. 사과속을 포함한 장미과 식물의 씨앗에는 시안배당체인 아미그달린이 들어 있어, 영국 시판 장미과 씨앗에서 0.1–17.5 mg/g으로 비장미과 씨앗(0.01–0.2 mg/g)보다 많았다[23]. 재배 사과 15개 품종의 씨앗은 1–4 mg/g이었고 시판 사과주스는 낮은 수준이었다[22]. 이 값들은 재배 사과 등 다른 종의 자료이며, 벚잎꽃사과 씨앗의 아미그달린 함량은 확인하지 못함.\n\n꽃사과 RG-I 다당류는 생쥐에 3주 동안 먹였을 때 잘 견뎠고 대장염 증상을 줄였으며, 세포 실험에서는 염증 인자를 낮췄다[8, 9]. M. 'Red jade'·M. hupehensis·벚잎꽃사과 세 꽃사과의 조추출물 가운데 일부가 고지방식 비만 생쥐의 혈청 콜레스테롤을 낮췄으나, 초록에서는 어느 종의 추출물인지 구분되지 않는다[6]. 이런 결과는 동물·세포 실험이어서 사람에서의 효능이나 안전성을 보여 주지는 않는다[6, 8, 9]. 벚잎꽃사과 열매에 대한 공공기관의 알레르기·잔류농약 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "열매(부위 미표기 시료 포함)",
+   "content_text": "산시성산 벚잎꽃사과에서 RP-HPLC 동시 정량 대상(함량 수치는 초록에 없음)[4]; 성숙 후기 열매에서 동정(상대정량)[2]",
+   "activity_ko": "열매의 쓴맛과 음(-)의 상관을 보인 플라보노이드 중 하나[2]",
+   "source": [
+    4,
+    2
+   ]
+  },
+  {
+   "name": "Hyperoside",
+   "name_ko": "하이페로사이드",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "열매·추출물",
+   "content_text": "RP-HPLC 동시 정량 대상(검량 범위 6.40–160.0 mg/L, 함량 수치는 초록에 없음)[4]",
+   "activity_ko": "꽃사과(M. 'Red jade'·M. hupehensis·벚잎꽃사과) 조추출물에서 콜레스테롤 저하 활성과 상관된 성분으로 분리·동정(생쥐 실험 기반, 종 구분 없음)[6]",
+   "source": [
+    4,
+    6
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "야생 사과(벚잎꽃사과)가 재배 사과보다 많음(수치는 초록에 없음)[5]; RP-HPLC 동시 정량 대상[4]",
+   "activity_ko": "꽃사과 조추출물의 지질 저하 관련 성분으로 동정(M. 'Red jade'·M. hupehensis·벚잎꽃사과 세 종 조추출물을 함께 분석, 생쥐 혈청 지질과의 통계적 상관과 기존 문헌 근거)[6]",
+   "source": [
+    5,
+    4,
+    6
+   ]
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매·추출물",
+   "content_text": "RP-HPLC 동시 정량 대상(검량 범위 0.80–20.00 mg/L)[4]",
+   "activity_ko": "꽃사과 조추출물의 지질 저하 관련 성분으로 동정(M. 'Red jade'·M. hupehensis·벚잎꽃사과 세 종 조추출물을 함께 분석, 생쥐 혈청 지질과의 통계적 상관과 기존 문헌 근거)[6]",
+   "source": [
+    4,
+    6
+   ]
+  },
+  {
+   "name": "Myricetin",
+   "name_ko": "미리세틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "야생 사과(벚잎꽃사과)가 재배 사과보다 많음(수치는 초록에 없음)[5]",
+   "activity_ko": "꽃사과 조추출물의 지질 저하 관련 성분으로 동정(M. 'Red jade'·M. hupehensis·벚잎꽃사과 세 종 조추출물을 함께 분석, 생쥐 혈청 지질과의 통계적 상관과 기존 문헌 근거)[6]",
+   "source": [
+    5,
+    6
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "야생 사과(벚잎꽃사과)가 재배 사과보다 많음(수치는 초록에 없음)[5]",
+   "activity_ko": "벚잎꽃사과에서 확인된 페놀산 중 하나(항산화능과 높은 상관은 갈산·EGCG에 대해 보고됨)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "벚잎꽃사과가 재배 사과보다 많음(수치는 초록에 없음)[5]",
+   "activity_ko": "항산화능과 높은 상관을 보임(시험관)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Epigallocatechin gallate",
+   "name_ko": "에피갈로카테킨 갈레이트",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "벚잎꽃사과가 재배 사과보다 많음(수치는 초록에 없음)[5]",
+   "activity_ko": "항산화능과 높은 상관을 보임(시험관)[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Procyanidin B2",
+   "name_ko": "프로시아니딘 B2",
+   "class": "프로안토시아니딘",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "카테킨·(-)-에피카테킨·크립토클로로겐산과 함께 성숙 중 감소했다가 다시 느는 무리로 분류(상대정량)[2]",
+   "activity_ko": "떫은맛 관련 성분으로 논의됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cyanidin 3-glucoside",
+   "name_ko": "시아니딘-3-O-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "꽃사과 열매 색소로서 안정성이 낮아 나노입자 봉입 연구 대상(함량 수치는 초록에 없음)[10]",
+   "activity_ko": "나노입자 봉입 시 pH 5.3에서 약 75% 방출(제형 연구)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Maslinic acid",
+   "name_ko": "마슬린산",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매에서 동정(상대정량), 코로솔산·알피톨산과 함께 쓴맛과 양(+)의 상관[2]",
+   "activity_ko": "성숙 초기 쓴맛의 주된 기여 성분으로 해석됨[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Corosolic acid",
+   "name_ko": "코로솔산",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "열매에서 동정(상대정량)[2]",
+   "activity_ko": "쓴맛과 양(+)의 상관[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Ursolic acid",
+   "name_ko": "우르솔산",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "꽃사과 조추출물",
+   "content_text": "꽃사과 조추출물에서 분리·동정(함량 수치는 초록에 없음)[6]",
+   "activity_ko": "지질 저하 관련 성분으로 동정(생쥐 실험 기반)(M. 'Red jade'·M. hupehensis·벚잎꽃사과 세 종 조추출물을 함께 분석, 생쥐 혈청 지질과의 통계적 상관과 기존 문헌 근거)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Malic acid",
+   "name_ko": "말산",
+   "class": "유기산",
+   "role": "nutrient",
+   "part": "열매 과육",
+   "content_text": "유기산 가운데 가장 많고 개화 후 60일에서 120일 사이 감소(수치는 그림에만 있어 확인하지 못함)[3]",
+   "activity_ko": "신맛의 주성분[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Rhamnogalacturonan I",
+   "name_ko": "람노갈락투로난-I(RG-I) 다당류",
+   "class": "펙틴 다당류",
+   "role": "bioactive",
+   "part": "꽃사과 효소 가수분해물",
+   "content_text": "효소 가수분해물에서 활성 분획(MP-PE-I)으로 분리(함량 수치는 초록에 없음)[8]",
+   "activity_ko": "장 상피세포 염증 인자 감소(세포)[8], DSS 대장염 생쥐에서 증상 완화·짧은사슬지방산 회복(동물)[9]",
+   "source": [
+    8,
+    9
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Malic acid",
+   "compound_ko": "말산(유기산 일괄 정량)",
+   "part": "열매 과육(적도부 피층, 껍질·씨 제외; 개화 후 60·120일, 중국 칭하이 러두구)",
+   "content": "말산이 유기산 중 우세하고 성숙하며 감소(유기산 함량은 건물(DW) 기준으로 산출); 개별 수치는 그림·표에만 있어 확인하지 못함[3]",
+   "method": "UHPLC-MS/MS(MRM)",
+   "conditions": {
+    "instrument": "ExionLC AD UHPLC + QTRAP 6500+ 삼중사중극자/선형 이온트랩 질량분석기(ESI)",
+    "column": "ACQUITY HSS T3, 1.8 µm, 100 × 2.1 mm",
+    "mobile_phase": "A: 물(0.05% 포름산), B: 아세토니트릴(0.05% 포름산)",
+    "gradient": "0–8분 A 95→5%; 8–9.5분 A 5%; 9.5–12분 A 95%(재평형)",
+    "flow": "0.35 mL/min",
+    "temp": "40 °C",
+    "detection": "ESI 550 °C, +5.5/−4.5 kV, CUR 35 psi, GS1/GS2 55/60 psi, scheduled MRM(양·음이온)",
+    "injection": "2 µL",
+    "sample_prep": "동결 분쇄 분말 0.05 g + 70% 메탄올 500 µL, 3분 볼텍스, 12,000 rpm 10분 4 °C 원심, 상등액 300 µL −20 °C 30분, 재원심, 0.22 µm PTFE 여과",
+    "standard": "외부 검량(0.01–10,000 ng/mL)",
+    "linearity": "1/x 가중 선형회귀, 결정계수 0.99 이상",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "말산은 사과속 열매 신맛의 주성분이고 성숙에 따라 줄어 성숙도·품질 지표로 쓰임; 전문 확인, 다만 제공 전문에서 학명이 빠져 Q·S 그룹 중 어느 쪽이 벚잎꽃사과인지는 확인하지 못함[3].",
+   "source": [
+    3
+   ],
+   "url": "https://doi.org/10.3390/foods14234039",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Rutin",
+   "compound_ko": "루틴(하이페로사이드·퀘르세틴·캠페롤 동시 정량)",
+   "part": "산시성산 벚잎꽃사과(분석 부위는 초록에 없음)",
+   "content": "함량 수치는 초록에 없음[4]",
+   "method": "RP-HPLC-UV",
+   "conditions": {
+    "instrument": "",
+    "column": "Hypersil C18, 4.6 mm × 250 mm, 5 µm",
+    "mobile_phase": "메탄올–물(0.2% 인산)",
+    "gradient": "기울기 용리(세부는 초록에 없음)",
+    "flow": "1.0 mL/min",
+    "temp": "25 °C",
+    "detection": "360 nm",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "루틴 1.87–46.67 mg/L, 하이페로사이드 6.40–160.0 mg/L, 퀘르세틴 3.33–83.33 mg/L, 캠페롤 0.80–20.00 mg/L",
+    "lod": "",
+    "loq": "",
+    "recovery": "평균(n=6) 루틴 99.2%(RSD 2.9%), 하이페로사이드 98.2%(RSD 1.9%), 퀘르세틴 97.4%(RSD 2.3%), 캠페롤 97.2%(RSD 1.3%)"
+   },
+   "rationale": "벚잎꽃사과의 약용 가치를 평가하는 지표로 네 플라보노이드를 동시 정량한 방법; 초록만 확인했고 전문 확인 못함, 분석 부위가 열매인지 확인하지 못함[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19943489/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Quercitrin",
+   "compound_ko": "쿠에르시트린(아스트라갈린·루틴·카테킨 등 비표적 대사체)",
+   "part": "열매(신장 수집, 4개 성숙 단계; 일부 시료는 씨 제거, 대사체 분석 시료의 씨 제거 여부는 원문에 분명하지 않음)",
+   "content": "상대정량(피크 면적)만 보고, 절대 함량 없음; 동정 대사체 407종 중 플라보노이드 22종(5.41%)[2]",
+   "method": "UPLC-MS(MRM, 비표적 대사체 분석)",
+   "conditions": {
+    "instrument": "UPLC-MS(외부 분석기관 표준 절차), ProteoWizard·SCIEX OS로 자료 처리",
+    "column": "Waters UPLC BEH Amide, 2.1 × 100 mm, 1.7 µm",
+    "mobile_phase": "A: 물(25 mM 아세트산암모늄 + 25 mM 수산화암모늄), B: 100% 아세토니트릴",
+    "gradient": "0–1분 B 85%; 1–12분 B 65%; 12–12.1분 B 40%; 12.1–15분 B 40%; 15–15.1분 B 85%; 15.1–20분 B 85%",
+    "flow": "0.3 mL/min",
+    "temp": "55 °C",
+    "detection": "ESI, 이온원 전압 4,500 또는 5,500 V, CUR 20 psi, 분무·보조 가스 각 60 psi, MRM 정량",
+    "injection": "5 µL",
+    "sample_prep": "균질화 시료 100 mg + 메탄올:아세토니트릴:물(2:2:1) 1 mL, 얼음물 초음파 10분·액체질소 1분 3회 반복, −20 °C 1시간, 원심, 질소 건조 후 아세토니트릴:물(1:1) 100 µL로 재용해, 초음파 15분, 원심",
+    "standard": "자체·공개 대사체 데이터베이스와 1·2차 스펙트럼 대조(25 ppm 이내)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "쿠에르시트린·아스트라갈린·루틴은 서로 강하게 상관(r 0.92 이상)하며 성숙 후기 열매의 쓴맛 변화와 연결된 플라보노이드로 제시됨; 전문 확인, 절대 정량법은 아님[2].",
+   "source": [
+    2
+   ],
+   "url": "https://doi.org/10.3389/fnut.2026.1823361",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 벚잎꽃사과분말·벚잎꽃사과열매(Malus prunifolia (Willd.) Borkh.; 이명 애기사과; 영어명 'Chinese apple, Plumleaf crab apple'), 사용가능, 사용가능부위: 열매(분말 행의 부위 칸은 '-'); 같은 속 사과(M. pumila / M. domestica)·능금나무열매(M. asiatica)·야광나무열매(M. baccata)·크랩애플(M. dorothea)·Western crabapple열매(M. fusca) 행 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Assessment of taste profile dynamics during crabapple (Malus prunifolia (Willd.) Borkh.) ripening by metabolomics and electronic tongue analysis — Front Nutr 2026;13:1823361 (PMID 42146080, PMC13171564, 전문 확인; 제공된 전문에서 학명 이탤릭 표기가 빠져 있음)",
+   "url": "https://doi.org/10.3389/fnut.2026.1823361",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Integrative Multi-Omics Reveals Quality Markers and Metabolic Pathways Across Genotype and Ripening Gradients in High-Altitude Malus — Foods 2025;14(23):4039 (M. prunifolia·M. asiatica 열매 비교) (PMID 41375977, PMC12691744, 전문 확인; 제공된 전문에서 학명 표기가 빠져 Q·S 그룹과 종의 대응은 확인하지 못함)",
+   "url": "https://doi.org/10.3390/foods14234039",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "[Simultaneous determination of four flavonoids in Malus prunifolia from Shanxi province by RP-HPLC] — Zhongguo Zhong Yao Za Zhi 2009;34(17):2217–2219 (PMID 19943489, 초록만 확인, 분석 부위는 초록에 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19943489/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Metabolic variation and antioxidant potential of Malus prunifolia (wild apple) compared with high flavon-3-ol containing fruits (apple, grapes) and beverage (black tea) — Food Chem 2014;163:46–50 (PMID 24912694, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2014.04.074",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Targeted isolation and identification of bioactive compounds lowering cholesterol in the crude extracts of crabapples using UPLC-DAD-MS-SPE/NMR based on pharmacology-guided PLS-DA — J Pharm Biomed Anal 2018;150:144–151 (M. 'Red jade'·M. hupehensis·M. prunifolia 추출물을 함께 분석) (PMID 29232626, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.jpba.2017.11.061",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Bioassay-guided preparation of antioxidant, anti-inflammatory active fraction from crabapples (Malus prunifolia (Willd.) Borkh.) — Food Chem 2023;406:135091 (PMID 36459796, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.135091",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Effect of rhamnogalacturonan-I-rich polysaccharides isolated from crabapple hydrolysates on IL-1β-induced inflammation in intestinal epithelial cells — Int J Biol Macromol 2024;277:134240 (PMID 39094865, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2024.134240",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Rhamnogalacturonan-I-rich polysaccharide from Malus prunifolia attenuates dextran sulfate sodium-induced colitis and improves the gut microenvironment — Int J Biol Macromol 2026;348:150741 (PMID 41651265, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.ijbiomac.2026.150741",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Synthesis, structural characterization, and evaluation of cyanidin-3-O-glucoside-loaded chitosan nanoparticles — Food Chem 2020;330:127239 (PMID 32540522, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2020.127239",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Chromosome-scale reference genome provides insights into the genetic origin and grafting-mediated stress tolerance of Malus prunifolia — Plant Biotechnol J 2022 (PMID 35348283, PMC9129071, 전문 확인; 제공된 전문에서 학명 표기가 빠져 조상 분류군 이름은 확인하지 못함)",
+   "url": "https://doi.org/10.1111/pbi.13817",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Insights into the effect of human civilization on Malus evolution and domestication — Plant Biotechnol J 2021;19(11):2206–2220 (PMID 34161653, 초록 확인)",
+   "url": "https://doi.org/10.1111/pbi.13648",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "First Report of Anthracnose Caused by Colletotrichum gloeosporioides on Malus prunifolia in Korea — Plant Dis 2012;96(5):766 (PMID 30727548, 초록 확인)",
+   "url": "https://doi.org/10.1094/PDIS-01-12-0063-PDN",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Induction of polyploid Malus prunifolia and analysis of its salt tolerance — Tree Physiol 2022;42(10):2100–2115 (PMID 35532080, 초록 확인)",
+   "url": "https://doi.org/10.1093/treephys/tpac053",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Melatonin mediates the regulation of ABA metabolism, free-radical scavenging, and stomatal behaviour in two Malus species under drought stress — J Exp Bot 2015 (PMID 25481689, 초록 확인)",
+   "url": "https://doi.org/10.1093/jxb/eru476",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Differential expression of ion transporters and aquaporins in leaves may contribute to different salt tolerance in Malus species — Plant Physiol Biochem 2012 (PMID 22819861, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.plaphy.2012.06.019",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Copper accumulation, subcellular partitioning and physiological and molecular responses in relation to different copper tolerance in apple rootstocks — Tree Physiol 2019 (PMID 30977826, 초록 확인)",
+   "url": "https://doi.org/10.1093/treephys/tpz042",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Paclobutrazol elevates auxin and abscisic acid, reduces gibberellins and zeatin and modulates their transporter genes in Marubakaido apple (Malus prunifolia Borkh. var. ringo Asami) rootstocks — Plant Physiol Biochem 2020 (PMID 32836196, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.plaphy.2020.08.003",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Profiling of N6-Methyladenosine (m6A) Modification Landscape in Response to Drought Stress in Apple (Malus prunifolia (Willd.) Borkh) — Plants (Basel) 2021;11(1):103 (PMID 35009106, PMC8747461, 초록 확인)",
+   "url": "https://doi.org/10.3390/plants11010103",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Global hypermethylation of the N6-methyladenosine RNA modification associated with apple heterografting — Plant Physiol 2023 (PMID 37648253, PMC10663141, 초록 확인)",
+   "url": "https://doi.org/10.1093/plphys/kiad470",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Overexpression of a protein kinase gene MpSnRK2.10 from Malus prunifolia confers tolerance to drought stress in transgenic Arabidopsis thaliana and apple — Gene 2019 (PMID 30641216, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.gene.2018.12.070",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Determination of amygdalin in apple seeds, fresh apples and processed apple juices — Food Chem 2014;170:437–442 (재배 사과 자료) (PMID 25306368, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2014.08.083",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Amygdalin content of seeds, kernels and food products commercially-available in the UK — Food Chem 2014;152:133–139 (PMID 24444917, 초록 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2013.11.002",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "On the species status of the root-knot nematode Meloidogyne ulmi Palmisano & Ambrogioni, 2000 (Nematoda, Meloidogynidae) — ZooKeys 2013;362:1–27 (PMID 24363598, PMC3867104, 초록 확인)",
+   "url": "https://doi.org/10.3897/zookeys.362.6352",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Proteome Analyses Using iTRAQ Labeling Reveal Critical Mechanisms in Alternate Bearing Malus prunifolia — J Proteome Res 2016 (PMID 27551957, 초록 확인)",
+   "url": "https://doi.org/10.1021/acs.jproteome.6b00357",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Exogenous melatonin improves Malus resistance to Marssonina apple blotch — J Pineal Res 2013 (PMID 23356947, 초록 확인)",
+   "url": "https://doi.org/10.1111/jpi.12038",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Shooting control by brassinosteroids: metabolomic analysis and effect of brassinazole on Malus prunifolia, the Marubakaido apple rootstock — Tree Physiol 2009 (PMID 19203977, 초록 확인)",
+   "url": "https://doi.org/10.1093/treephys/tpn052",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}
