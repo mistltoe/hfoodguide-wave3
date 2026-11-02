@@ -1,0 +1,665 @@
+{
+ "slug": "halocynthia-roretzi",
+ "name_ko": "우렁쉥이",
+ "name_en": "Korean common sea squirt",
+ "scientific_name": "Halocynthia roretzi",
+ "aliases": [
+  "멍게",
+  "Korean common sea squirt",
+  "sea pineapple",
+  "sea squirt"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "우렁쉥이(Halocynthia roretzi)는 멍게라는 이름으로 더 잘 알려진 바다 동물로, 원색동물(Protochordata)로 묶이는 피낭동물 가운데 멍게과(Pyuridae)에 속한다[1][4]. 한국과 일본 동북부를 중심으로 동아시아에서 회·초무침·젓갈 형태로 먹어 왔다고 소개된다[4]. 영문으로는 Korean common sea squirt 또는 sea pineapple로 불린다[1][16].\n\n식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에 '우렁쉥이'가 수산물 1행으로 올라 있고, 이명으로 '멍게, Korean common sea squirt'가 적혀 있으며 판정은 '사용가능'이다[1]. 사용 부위 칸은 '-'이고 사용 조건 칸은 비어 있어 부위·조건 제한이 따로 적혀 있지 않다[1]. 건강기능식품 고시형 원료의 원재료로는 연결되어 있지 않다[1].\n\n몸은 셀룰로스로 된 겉껍질(피낭)과 먹는 속살(내장부)로 나뉘며, 속살이 단백질·지질이 많아 식품으로 더 알맞다고 보고되었다[2]. 연구는 붉은 카로티노이드(할로신티아잔틴·알록산틴 등), 내장의 플라스말로젠, 그리고 양식에 큰 피해를 주는 물렁증(피낭연화증)에 모여 있다[3][4][6][9]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "우렁쉥이는 동아시아, 특히 한국과 일본 동북 지방에서 날것·식초 요리·염장 식품으로 먹어 온 식용 피낭동물이다[4]. 한 2024년 논문은 이 종이 1982년 한국에서 처음 양식되었고 지금은 한국과 일본의 얕은 조하대에서 연승(long-line) 방식으로 기른다고 정리했다[2]. 같은 논문은 생산량이 1991년 6,994톤에서 2016년 31,353톤으로 늘었다고 다른 문헌을 인용했으나, 어느 나라 값인지는 그 문장에 명시되어 있지 않다[2].\n\n한국 남해·동해에서는 1990년대부터 대량 폐사가 이어져 큰 경제적 손실이 생겼다[10]. 일본 미야기현 수산기술연구기관 등의 연구로 2011년 그 원인이 키네토플라스트 편모충으로 밝혀졌고, 이 편모충은 Azumiobodo hoyamushi로 불린다[9][12]. 우렁쉥이 알은 오래전부터 발생생물학 연구의 모델로 쓰여 외래 DNA를 주입하는 형질전환 실험에 이용되어 왔다[32].\n\n2010년대 이후 일본에서는 우렁쉥이에서 얻은 플라스말로젠을 넣은 식품으로 사람 대상 무작위 이중맹검 시험이 이루어졌다[7][8]. 한국에서 멍게를 먹기 시작한 시기와 식품원료 목록에 올린 경위는 확인하지 못함[1]."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징(동물)",
+   "body": "우렁쉥이는 홀로 사는 단독성 멍게로, 몸을 셀룰로스 겉껍질(피낭)이 감싼다[16][17]. 피낭동물은 셀룰로스를 만드는 유일한 동물이며, 이 종의 피낭은 셀룰로스와 단백질이 층을 이룬 복합 구조이고 표면의 얇은 큐티클층에는 할로겐화 아미노산이 든 단백질이 다이티로신 결합으로 엮여 있다[16]. 중국 룽청 양식장 개체는 몸길이 9.91 ± 1.11 cm, 무게 111.72 ± 26.13 g이었고, 생체 무게의 64.68%가 겉껍질, 35.32%가 속살이었다[2].\n\n멍게류는 바닷물을 걸러 규조류·와편모조류 같은 미세조류를 먹고, 그 먹이에서 카로티노이드를 얻어 몸에서 바꾼다[4]. 혈구는 유세포 분석으로 과립구 3종, 투명세포 4종, 림프구 유사세포 등 8가지로 나뉘었다[17]. 바나듐은 혈장·장·근육에만 있다고 보고되었고, 속살에서 13 ppm(건조 기준)이 측정되었다[2].\n\n장내 미생물은 주변 바닷물과 다른 고유 군집이며 계절에 따라 우세한 세균 목(目)이 달라졌다[18]. 난모세포는 바닷물에 닿으면 감수분열 재개(핵막 붕괴)를 시작한다[34]. 알이 크고 다루기 쉬워 발생 중 유전자 발현 조절을 보는 실험 동물로 쓰인다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식품원료 목록에서 이 종은 원료명 '우렁쉥이', 이명 '멍게', 영문명 'Korean common sea squirt'로 한 행에 올라 있다[1]. 같은 속의 붉은멍게(Halocynthia aurantium)는 '붉은멍게'·'붉은멍게추출물' 두 행으로 따로 올라 있는 별개의 종이며, 이 문서는 그 자료를 쓰지 않는다[1]. 목록의 '끈멍게'는 다른 속(Pyura vittata)이다[1].\n\n논문에서는 sea squirt, sea pineapple, edible ascidian 같은 영문명이 함께 쓰인다[9][16]. 멍게류 안에서 이 종은 Pleurogona 무리에 속하고, 실험 동물로 널리 쓰이는 Ciona 속은 Enterogona 무리로 서로 멀다[20][22]. 미토콘드리아 유전체의 유전자 배열은 Ciona savignyi와 비교했을 때 경계 3곳만 공유할 정도로 달랐다[22].\n\n지질체 분석 연구는 이 종을 Ciona intestinalis·Styela clava와 함께 분석해 13개 지질 아군에서 245종이 넘는 분자종을 찾았고, 세 종 모두 글리세로인지질과 글리세로지질이 총지질의 66.30–90.60%를 차지했다[31]. 다가불포화지방산이 풍부한 글리세로인지질은 주로 겉껍질이 아닌 속 조직에 있었다[31]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·질병",
+   "body": "이 종은 한국과 일본에서 얕은 조하대 연승 시설로 양식된다[2]. 물렁증(soft tunic syndrome)은 겉껍질이 물러지고 얇아지다 찢어져 죽는 병으로, 한국과 일본의 양식에 큰 피해를 준다[15]. 통영 양식장 병든 개체에서 분리한 A. hoyamushi를 건강한 개체에 주사하자 15 °C에서 13일 만에 100% 발병했다[10]. 이 편모충은 실험실에서 10–15 °C, 염분 30–35 psu에서 잘 자라고 5 °C 아래나 20 °C 위, 25 psu 아래에서 죽는데, 이 조건이 한국 남해안에서 병이 가장 많은 3–6월과 겹친다[10].\n\n실시간 PCR 정량에서 편모충은 입·출수공(사이폰) 피낭에 가장 많았고, 초기 0.25 cm² 당 2.9개에서 죽을 때 16,066개로 늘었다[11]. 병든 피낭은 더 얇고 수분이 적었으며[14], 셀룰로스 함량과 결정 구조는 건강한 개체와 거의 같았다[15].\n\n편모충은 종묘가 붙은 부착 기질을 통해 양식장으로 들어온 것으로 추정되며, 수정란을 포비돈요오드 5 ppm 1분–50 ppm 15분으로 소독하면 배 발생에 해 없이 전파를 막을 수 있었다[12]. 약제 20종 시험에서 포르말린·과산화수소·비티오놀·이산화염소·브로노폴이 24시간 EC50 10 mg/L 미만으로 강했다[13]. 국내 멍게 양식 면적·생산량 공식 통계(통계청 어업생산동향조사)는 이 작업 환경에서 원문을 열지 못해 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·이용 연구",
+   "body": "먹는 부분은 속살(내장부)로 몸 무게의 약 3분의 1이며, 먹지 않는 겉껍질을 다른 용도로 쓰는 방안이 과제로 꼽혔다[2]. 겉껍질은 단백질도 42.12%(건조 기준) 들어 있어 사료 단백질원으로 쓸 수 있다고 제안되었다[2].\n\n카로티노이드는 겉껍질 4 kg을 아세톤으로 추출해 실리카겔·ODS 크로마토그래피로 분리했고, 알록산틴 33 mg, 다이아톡산틴 9 mg, 새 카로티노이드 로레치아잔틴 1.5 mg 등을 얻었다[4]. 말린 몸 전체 가루의 에탄올 추출물에서 할로신티아잔틴이 83%인 분획을 만들어 생쥐에게 먹인 연구도 있다[3]. 플라스말로젠은 내장을 아세톤·에테르로 분획한 뒤 실리카겔 칼럼으로 분리해 순도 40%로 얻었다[6].\n\n날로 먹는 멍게의 노로바이러스를 줄이려는 가공 연구도 있다[25][26]. 500 MPa 고압 처리(실온 5분)는 쥐 노로바이러스-1을 완전히 불활성화했고 색과 pH는 바뀌지 않았다[25]. 부유전극 유전체장벽방전 플라즈마는 사람 노로바이러스 GII.4를 0.11–1.29 log 줄였고 D값은 61.7분이었다[26]. 먹는 부분을 펩신으로 분해한 가수분해물은 대장암 세포 실험에 쓰였다[30]. 우렁쉥이를 원료로 한 건강기능식품·가공품의 국내 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "이 종의 주석이 달린 초안 핵 유전체가 공개되어 있으며, 이를 바탕으로 마이크로RNA 후보 319개가 예측되었다[19]. 그 절반 이상이 배 발생 중 발현되었고, 대부분이 멍게류·피낭동물에만 있는 것이었으며 동물 전반에 보존된 것은 25개 가족 32개뿐이었다[19].\n\nHox 유전자는 9개로, 두 염색체에 흩어진 Ciona와 달리 한 염색체에 모여 있었다[20]. 연구진은 멍게류 진화 과정에서 Hox 유전자 묶음이 여러 단계에 걸쳐 흐트러졌다고 해석했다[20].\n\n미토콘드리아 유전체는 ATP 합성효소 소단위 8 유전자가 없고 tRNA-Gly 유전자가 하나 더 있다[22]. 미토콘드리아에서는 AUA를 메티오닌, UGA를 트립토판, AGA·AGG를 글리신으로 읽는 비표준 유전 암호를 쓰며, tRNA 안티코돈의 타우린 함유 변형(τm5U)이 이를 가능하게 한다[23]. 동해안 삼척 개체 96마리로 다형성 미세위성 표지 13개가 개발되었고, 좌위당 대립유전자는 6–32개였다[21]. 유전체 크기와 품종 육종 현황은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식품원료 목록에서 우렁쉥이는 '사용가능'이며 사용 조건이 따로 없다[1]. 건강기능식품 고시형 원료의 원재료로 연결되어 있지 않아 고시의 섭취 시 주의사항은 없다[1]. 우렁쉥이(멍게)의 알레르기 유발식품 표시 대상 여부, 마비성 패류독소 기준·검출 같은 공공기관 안전 정보는 이 작업 환경에서 원문을 열지 못해 확인하지 못함.\n\n한국에서 멍게는 사람 노로바이러스의 감염원이 될 수 있는 식품으로 지목되며, 날로 먹는 멍게에서 노로바이러스 GII.4와 장염비브리오가 나올 수 있다고 보고되었다[25][26]. 국내산 우렁쉥이를 포함한 해산물 4종의 비소·납·카드뮴·알루미늄·수은 분석에서 알루미늄·비소가 상대적으로 높았지만 FAO·EU·식약처 기준과 비교해 안전한 수준으로 결론지었다[24]. 중국 양식 개체의 알루미늄은 속살 6,626.9 ppm, 겉껍질 1,662.5 ppm(건조 기준)으로 측정되었다[2].\n\n물렁증은 멍게의 병으로 사람에게 옮는다는 근거는 이 문헌들에서 확인하지 못함[9][10]. 플라스말로젠 식품의 사람 시험은 소규모 단기 연구이며[7][8], 항암·항염 연구는 세포 실험 수준이다[5][27][28][29]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Halocynthiaxanthin",
+   "name_ko": "할로신티아잔틴",
+   "class": "아세틸렌 카로티노이드",
+   "role": "marker",
+   "part": "몸 전체(말린 가루의 에탄올 추출 분획); 겉껍질",
+   "content_text": "실험용 분획 중 all-trans 83%, 9′-cis 2%, 13′-cis 3%(HPLC 면적 기준); 겉껍질 4 kg에서 3 mg 분리",
+   "activity_ko": "주로 멍게에 있는 카로티노이드로 생쥐에서 장으로 흡수되었고, 포유류는 푸코잔틴에서 만들지 못해 먹어서 얻어야 한다[3]",
+   "source": [
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Alloxanthin",
+   "name_ko": "알록산틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "겉껍질",
+   "content_text": "겉껍질 4 kg에서 33 mg 분리(분리한 카로티노이드 중 가장 많음)",
+   "activity_ko": "25 µM에서 LPS 자극 대식세포의 IL-1β mRNA를 대조군의 33.7 ± 3.0%로 낮췄다(세포 실험)[5]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Diatoxanthin",
+   "name_ko": "다이아톡산틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "겉껍질",
+   "content_text": "겉껍질 4 kg에서 9 mg 분리",
+   "activity_ko": "all-trans 형이 IL-1β mRNA를 25.1 ± 2.1%로 낮췄다(세포 실험)[5]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Astaxanthin",
+   "name_ko": "아스타잔틴(3S,3′S)",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "겉껍질",
+   "content_text": "겉껍질 4 kg에서 3.5 mg 분리",
+   "activity_ko": "남조류에서 온 제아잔틴의 산화 대사물로 설명되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Mytiloxanthin",
+   "name_ko": "미틸로잔틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "겉껍질",
+   "content_text": "겉껍질 4 kg에서 3.5 mg 분리",
+   "activity_ko": "규조류의 푸코잔틴이 멍게 몸에서 바뀐 대사물로 제시되었다[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Roretziaxanthin",
+   "name_ko": "로레치아잔틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "겉껍질",
+   "content_text": "겉껍질 4 kg에서 1.5 mg(전체 카로티노이드의 1%)",
+   "activity_ko": "2,6-cyclo-ψ 말단기를 가진 새 카로티노이드로, 공생 미생물이 만들었을 가능성이 제기되었다(생리활성 보고 없음)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Plasmenylethanolamine",
+   "name_ko": "에탄올아민 플라스말로젠",
+   "class": "인지질(플라스말로젠)",
+   "role": "marker",
+   "part": "내장",
+   "content_text": "정제 분획 순도 40%; 지방산 20:5 33.0%, 22:6 29.6%; 분자종 18:0p/20:5 30.4%, 18:0p/22:6 24.6%",
+   "activity_ko": "이 종 유래 플라스말로젠 1 mg을 12주 먹은 성인군에서 복합 기억 점수가 위약군보다 높았다(소규모 시험)[7]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "오메가-3 지방산",
+   "role": "nutrient",
+   "part": "내장 플라스말로젠 분획",
+   "content_text": "분획 지방산의 33.0%",
+   "activity_ko": "플라스말로젠 분획의 주요 지방산이다[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Omega-3 fatty acids",
+   "name_ko": "오메가-3 지방산(합계)",
+   "class": "다가불포화 지방산",
+   "role": "nutrient",
+   "part": "속살(내장부)",
+   "content_text": "총지방산의 36.02%(다른 문단에는 16.02%로 적혀 있어 원문 값이 엇갈림); PUFA 49.01%",
+   "activity_ko": "속살 지질의 질이 일반 어패류와 비슷하거나 더 낫다고 평가되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Cellulose",
+   "name_ko": "셀룰로스",
+   "class": "다당",
+   "role": "nutrient",
+   "part": "겉껍질(피낭)",
+   "content_text": "31.05%(건조 기준)",
+   "activity_ko": "피낭의 주된 구조 성분으로 결정성 셀룰로스 섬유가 나선형으로 배열된다[16]",
+   "source": [
+    2,
+    16
+   ]
+  },
+  {
+   "name": "Protein",
+   "name_ko": "단백질",
+   "class": "단백질",
+   "role": "nutrient",
+   "part": "속살(내장부)",
+   "content_text": "48.41%(건조 기준, 질소×6.25); 겉껍질 42.12%",
+   "activity_ko": "속살 필수아미노산 비율 48.56%, EAA/NEAA 1.37로 보고되었다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Zinc",
+   "name_ko": "아연",
+   "class": "무기질",
+   "role": "nutrient",
+   "part": "속살(내장부)",
+   "content_text": "654.7 ppm(건조 기준); 구리 103.5 ppm",
+   "activity_ko": "필수 무기질로, 분석한 부위 가운데 속살에서 가장 높았다[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "name": "Vanadium",
+   "name_ko": "바나듐(바나듐 결합 단백질)",
+   "class": "무기질·단백질",
+   "role": "bioactive",
+   "part": "속살(내장부); 혈액",
+   "content_text": "속살 13 ppm(건조 기준), 겉껍질 불검출; 혈액에서 분리한 바나듐 결합 단백질 27 kDa(수율 5.5%)",
+   "activity_ko": "바나듐 결합 단백질은 대식세포 염증 매개물질과 지방세포 분화를 억제했다(세포 실험)[27][33]",
+   "source": [
+    2,
+    27,
+    33
+   ]
+  },
+  {
+   "name": "Halorotetin A",
+   "name_ko": "할로로테틴 A",
+   "class": "테르페노이드",
+   "role": "bioactive",
+   "part": "겉껍질(피낭) 에탄올 추출물",
+   "content_text": "초록에 함량 수치 없음",
+   "activity_ko": "간암 세포(HepG-2) 증식을 억제했고 정상 세포 생존율은 크게 낮추지 않았다(세포 실험)[28]",
+   "source": [
+    28
+   ]
+  },
+  {
+   "name": "Erucamide",
+   "name_ko": "에루카마이드(지방산 아마이드)",
+   "class": "지방산 아마이드",
+   "role": "bioactive",
+   "part": "먹는 부분 물 추출물",
+   "content_text": "초록에 함량 수치 없음; 헥사데칸아마이드·스테아르아마이드와 혼합물로 동정",
+   "activity_ko": "혼합물이 HepG-2 세포 사멸을 유도하고 독소루비신과 상승 작용을 보였다(세포 실험)[29]",
+   "source": [
+    29
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "우렁쉥이 속살(내장부) — 일반 성분(중국 룽청 양식, 2023년 3월 채취, 동결건조 시료)",
+   "basis": "건조 중량 100 g 기준(원문 %)",
+   "items": [
+    {
+     "name": "단백질",
+     "value": 48.41,
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": 18.42,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 21.72,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    2
+   ]
+  },
+  {
+   "form": "우렁쉥이 겉껍질(피낭) — 일반 성분(같은 시료, 먹지 않는 부위)",
+   "basis": "건조 중량 100 g 기준(원문 %)",
+   "items": [
+    {
+     "name": "단백질",
+     "value": 42.12,
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": 2.71,
+     "unit": "g"
+    },
+    {
+     "name": "셀룰로스",
+     "value": 31.05,
+     "unit": "g"
+    },
+    {
+     "name": "회분",
+     "value": 17.93,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    2
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Halocynthiaxanthin",
+   "compound_ko": "할로신티아잔틴",
+   "part": "몸 전체(말린 가루 에탄올 추출 분획) 및 생쥐 혈장·간·소장",
+   "content": "실험용 분획 조성 all-trans 83%, 9′-cis 2%, 13′-cis 3% (HPLC 면적 %); 생쥐 투여량 5 mg/kg 체중",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Shimadzu Prominence LC, 광다이오드배열 검출기 SPD-M20A",
+    "column": "TSKgel ODS-80Ts (4.6 mm × 250 mm, Tosoh)",
+    "mobile_phase": "A: 메탄올/물(90:10, v/v) + 0.1% 아세트산암모늄; B: 메탄올/아세트산에틸(70:30, v/v) + 0.1% 암모늄",
+    "gradient": "0–5분 B 0%; 5–20분 B 0→100%; 20–35분 100%; 35–40분 100→0%; 40–45분 100%(원문 표기 그대로)",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "450 nm(피크 면적)",
+    "injection": "25 µL(아세트산에틸/메탄올 1:1 40 µL 중)",
+    "sample_prep": "혈장·조직을 클로로폼/메탄올로 지질 추출, 질소 건조 후 재용해. 표준품: 아세톤 추출→헥세인-에테르(7:3) 분배→실리카겔→ODS 분취 HPLC(CH2Cl2:CH3CN 1:9, 2.0 mL/min)로 정제",
+    "standard": "정제 할로신티아잔틴 검량선(1H-NMR·ESI MS로 동정·순도 확인)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "할로신티아잔틴은 주로 이 종에 있는 특이 카로티노이드라 원료 확인 지표로 쓸 만하다. 다만 이 논문은 멍게 자체 함량이 아니라 분획 조성과 생쥐 체내 농도를 정량했다[3].",
+   "source": [
+    3
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7759770/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Fatty acid composition (FAME)",
+   "compound_ko": "지방산 조성(오메가-3 등)",
+   "part": "속살(내장부)·겉껍질, 동결건조",
+   "content": "속살 오메가-3 36.02%(다른 문단 16.02%), PUFA 49.01%, MUFA 16.94%, SFA 34.05%; 겉껍질 SFA 81.86% (총지방산 %)",
+   "method": "GC-MS(지방산 메틸에스터)",
+   "conditions": {
+    "instrument": "Hewlett-Packard 6890 가스크로마토그래프-질량분석",
+    "column": "DB-5MS (30 m × 0.25 mm, 막 두께 0.32 µm로 원문 표기)",
+    "mobile_phase": "운반 기체 헬륨",
+    "gradient": "60 °C 2분 → 10 °C/min 200 °C(2분 유지) → 5 °C/min 240 °C(7분 유지)",
+    "flow": "1 mL/min(헤드 압력 100 kPa, 분할비 30:1)",
+    "temp": "주입구·검출기 250 °C",
+    "detection": "질량분석",
+    "injection": "",
+    "sample_prep": "건조 시료 약 20 mg + 톨루엔 0.2 mL·메탄올 1.5 mL·8% HCl-메탄올 0.3 mL, 밀봉 후 100 °C 1시간 메틸화 → 포화 NaCl 1 mL·헥세인 1 mL로 추출, 상층 분석",
+    "standard": "내부표준 테트라코산",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": "3회 주입 평균"
+   },
+   "rationale": "속살의 오메가-3 지방산 비율은 식품 영양 품질을 보여 주는 값으로 쓰였다. 원문 안에서 오메가-3 값이 36.02%와 16.02%로 엇갈린다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11209008/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Minerals (Zn, Cu, V, Al etc.)",
+   "compound_ko": "무기질·금속",
+   "part": "속살(내장부)·겉껍질, 동결건조",
+   "content": "속살 Zn 654.7 ppm, Cu 103.5 ppm, V 13 ppm, Al 6,626.9 ppm; 겉껍질 Al 1,662.5 ppm, V 불검출 (건조 기준)",
+   "method": "ICP-MS",
+   "conditions": {
+    "instrument": "Thermo X series II ICP-MS(충돌 셀)",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "V·Cr·Fe·Ni·As·Se는 충돌 기체(He 중 H2 7%)로 간섭 저감",
+    "injection": "",
+    "sample_prep": "건조 시료를 진한 HNO3와 30% H2O2로 밀폐 용기 마이크로파 분해(CEM Mars Xpress, 180 °C) 후 초순수로 희석",
+    "standard": "내부표준 Sc·Rh·Re",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "바나듐 축적과 유해 금속(납·알루미늄) 여부가 식품 안전성 판단에 쓰였다. 이 종의 속살에서 납은 보고되지 않았다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11209008/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ethanolamine plasmalogen",
+   "compound_ko": "에탄올아민 플라스말로젠",
+   "part": "내장",
+   "content": "정제 분획 순도 40%; 18:0p/20:5 30.4%, 18:0p/22:6 24.6%; 알케닐 사슬 18:0 86.1%",
+   "method": "LC-MS/MS(전구이온 스캔, MRM)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "사람 시험에 쓰인 이 종 유래 플라스말로젠의 분자종 지표로 쓰였다. 전문 확인 못함(PubMed 초록만 확인)[6].",
+   "source": [
+    6
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24717546/",
+   "source_kind": "paper"
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 우렁쉥이(Halocynthia roretzi) 1행(이명 멍게, Korean common sea squirt; 2026-10-13 받은 원자료). 같은 속 붉은멍게·붉은멍게추출물(Halocynthia aurantium Pallas), 끈멍게(Pyura vittata) 행 대조",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Chemical compositions and nutritional profiles of two edible tunicate species (Halocynthia roretzi and Halocynthia aurantium). Heliyon 2024;10(12):e32321 (이 문서는 H. roretzi 값만 인용)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11209008/",
+   "publisher": "Heliyon (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Evaluation of Intestinal Absorption of Dietary Halocynthiaxanthin, a Carotenoid from the Sea Squirt Halocynthia roretzi. Mar Drugs 2020;18(12):588",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7759770/",
+   "publisher": "Marine Drugs (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "A Novel Carotenoid with a Unique 2,6-Cyclo-ψ-End Group, Roretziaxanthin, from the Sea Squirt Halocynthia roretzi. Mar Drugs 2022;20(12):732",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9784503/",
+   "publisher": "Marine Drugs (PMC 전문)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Suppressive effects of alloxanthin and diatoxanthin from Halocynthia roretzi on LPS-induced expression of pro-inflammatory genes in RAW264.7 cells. J Oleo Sci 2008;57(3):181-189",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18270467/",
+   "publisher": "Journal of Oleo Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Preparation of marine plasmalogen and selective identification of molecular species by LC-MS/MS. J Oleo Sci 2014;63(5):423-430",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24717546/",
+   "publisher": "Journal of Oleo Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "The Impact of Ascidian (Halocynthia roretzi)-derived Plasmalogen on Cognitive Function in Healthy Humans: A Randomized, Double-blind, Placebo-controlled Trial. J Oleo Sci 2020;69(12):1597-1607",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33177278/",
+   "publisher": "Journal of Oleo Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Beneficial Effects of a Formulated Supplement of Ascidiacea (Halocynthia roretzi)-derived Plasmalogen and Tuna-derived Elastin on Memory Function in Elderly Japanese Subjects. J Oleo Sci 2024;73(10):1319-1328",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39313395/",
+   "publisher": "Journal of Oleo Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Soft tunic syndrome in the edible ascidian Halocynthia roretzi is caused by a kinetoplastid protist. Dis Aquat Organ 2011;95(2):153-161",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21848123/",
+   "publisher": "Diseases of Aquatic Organisms (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "The kinetoplastid parasite Azumiobodo hoyamushi, the causative agent of soft tunic syndrome of the sea squirt Halocynthia roretzi, resides in the East Sea of Korea. J Invertebr Pathol 2014;116:36-42",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24389332/",
+   "publisher": "Journal of Invertebrate Pathology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Quantitative assessment of Azumiobodo hoyamushi distribution in the tunic of soft tunic syndrome-affected ascidian Halocynthia roretzi using real-time PCR. Parasit Vectors 2014;7:539",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4253000/",
+   "publisher": "Parasites & Vectors (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Disinfection of fertilized eggs of the edible ascidian Halocynthia roretzi for prevention of soft tunic syndrome. Dis Aquat Organ 2016;118(2):153-158",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26912045/",
+   "publisher": "Diseases of Aquatic Organisms (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "In vitro and in vivo efficacy of drugs against the protozoan parasite Azumiobodo hoyamushi that causes soft tunic syndrome in the edible ascidian Halocynthia roretzi. J Fish Dis 2014;37(4):309-317",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23952334/",
+   "publisher": "Journal of Fish Diseases (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Measurement of Tunic Hardness in an Edible Ascidian, Halocynthia roretzi, with Remarks on Soft Tunic Syndrome. Zoolog Sci 2018;35(6):548-552",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30520361/",
+   "publisher": "Zoological Science (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Cellulose is not degraded in the tunic of the edible ascidian Halocynthia roretzi contracting soft tunic syndrome. Dis Aquat Organ 2015;116(2):143-148",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26480917/",
+   "publisher": "Diseases of Aquatic Organisms (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Structure and composition of the tunic in the sea pineapple Halocynthia roretzi: A complex cellulosic composite biomaterial. Acta Biomater 2020;111:290-301",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32438110/",
+   "publisher": "Acta Biomaterialia (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Flow cytometric characterization of hemocytes of the solitary ascidian, Halocynthia roretzi. Fish Shellfish Immunol 2017;66:289-299",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28476671/",
+   "publisher": "Fish & Shellfish Immunology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Seasonal dynamics and starvation impact on the gut microbiome of urochordate ascidian Halocynthia roretzi. Anim Microbiome 2020;2(1):30",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7807810/",
+   "publisher": "Animal Microbiome (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Genome-wide survey of miRNAs and their evolutionary history in the ascidian, Halocynthia roretzi. BMC Genomics 2017;18(1):314",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5399378/",
+   "publisher": "BMC Genomics (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Hox gene cluster of the ascidian, Halocynthia roretzi, reveals multiple ancient steps of cluster disintegration during ascidian evolution. Zoological Lett 2017;3:17",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5602962/",
+   "publisher": "Zoological Letters (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Isolation and characterization of polymorphic microsatellite DNA markers in the sea squirt Halocynthia roretzi. Mol Ecol Resour 2009;9(2):648-650",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21564717/",
+   "publisher": "Molecular Ecology Resources (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Mitochondrial genome of Ciona savignyi (Urochordata, Ascidiacea, Enterogona): comparison of gene arrangement and tRNA genes with Halocynthia roretzi mitochondrial genome. J Mol Evol 2003;57(5):574-587",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14738316/",
+   "publisher": "Journal of Molecular Evolution (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Taurine-containing uridine modifications in tRNA anticodons are required to decipher non-universal genetic codes in ascidian mitochondria. J Biol Chem 2011;286(41):35494-35498",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3195572/",
+   "publisher": "Journal of Biological Chemistry (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Determination of toxic heavy metals in Echinodermata and Chordata species from South Korea. Food Addit Contam Part B 2014;7(4):295-301",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24916139/",
+   "publisher": "Food Additives & Contaminants: Part B (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Application of high hydrostatic pressure for the inactivation of norovirus and quality stability in fresh sea squirt (Halocynthia roretzi). Food Sci Technol Int 2019;25(7):573-578",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31072125/",
+   "publisher": "Food Science and Technology International (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Inactivation of Human Norovirus GII.4 and Vibrio parahaemolyticus in the Sea Squirt (Halocynthia roretzi) by Floating Electrode-Dielectric Barrier Discharge Plasma. Foods 2023;12(5):1030",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10001302/",
+   "publisher": "Foods (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Anti-inflammatory effects of vanadium-binding protein from Halocynthia roretzi in LPS-stimulated RAW264.7 macrophages through NF-κB and MAPK pathways. Int J Biol Macromol 2019;133:732-738",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31002910/",
+   "publisher": "International Journal of Biological Macromolecules (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Halorotetin A: A Novel Terpenoid Compound Isolated from Ascidian Halocynthia roretzi Exhibits the Inhibition Activity on Tumor Cell Proliferation. Mar Drugs 2023;21(1):51",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9860651/",
+   "publisher": "Marine Drugs (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Aqueous Extract of Sea Squirt (Halocynthia roretzi) with Potent Activity against Human Cancer Cells Acts Synergistically with Doxorubicin. Mar Drugs 2022;20(5):284",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9143001/",
+   "publisher": "Marine Drugs (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Sea Squirt (Halocynthia roretzi) Hydrolysates Induce Apoptosis in Human Colon Cancer HT-29 Cells through Activation of Reactive Oxygen Species. Nutr Cancer 2019;71(1):118-127",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30741016/",
+   "publisher": "Nutrition and Cancer (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Evaluation of lipid profiles in three species of ascidians using UPLC-ESI-Q-TOF-MS-based lipidomic study. Food Res Int 2021;146:110454",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34119246/",
+   "publisher": "Food Research International (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Microinjection of Exogenous DNA into Eggs of Halocynthia roretzi. Adv Exp Med Biol 2018;1029:25-35",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29542078/",
+   "publisher": "Advances in Experimental Medicine and Biology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Inhibitory Effects of Vanadium-Binding Proteins Purified from the Sea Squirt Halocynthia roretzi on Adipogenesis in 3T3-L1 Adipocytes. Appl Biochem Biotechnol 2019;189(1):49-64",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30863985/",
+   "publisher": "Applied Biochemistry and Biotechnology (PubMed 초록)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Signaling pathways in ascidian oocyte maturation: effects of various inhibitors and activators on germinal vesicle breakdown. Dev Growth Differ 2005;47(4):265-272",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15921501/",
+   "publisher": "Development, Growth & Differentiation (PubMed 초록)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

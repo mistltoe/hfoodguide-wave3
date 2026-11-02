@@ -1,0 +1,104 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+def pm(n, title, doi, journal, pmid, pmc=None):
+    pub = f"{journal} (PubMed {pmid}" + (f", {pmc}" if pmc else "") + ")"
+    return {"n": n, "title": title, "url": f"https://doi.org/{doi}", "publisher": pub, "accessed": A}
+S = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 배더락스(Alaria esculenta (L.) Greville) 항목과 같은 목록의 라미나리아디지타타·다시마·미역 항목", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Blanching of Two Commercial Norwegian Brown Algae for Reduction of Iodine and Other Compounds of Importance for Food Safety and Quality. Foods 2025;14:4113", "10.3390/foods14234113", "Foods", "41376050", "PMC12691785"),
+ pm(3, "Arsenolipids are not uniformly distributed within two brown macroalgal species Saccharina latissima and Alaria esculenta. Anal Bioanal Chem 2019;411:4973–4985", "10.1007/s00216-019-01907-x", "Analytical and Bioanalytical Chemistry", "31152227", "PMC6611760"),
+ pm(4, "Effect of Deployment and Harvest Date on Growth and High-Value Compounds of Farmed Alaria esculenta. Mar Drugs 2023;21:305", "10.3390/md21050305", "Marine Drugs", "37233499", "PMC10220681"),
+ pm(5, "Whole genome population structure of North Atlantic kelp confirms high-latitude glacial refugia. Mol Ecol 2022;31:6473–6488", "10.1111/mec.16714", "Molecular Ecology", "36200326", "PMC10091776"),
+ pm(6, "Whole-genome sequencing reveals forgotten lineages and recurrent hybridizations within the kelp genus Alaria (Phaeophyceae). J Phycol 2021;57:1721–1738", "10.1111/jpy.13212", "Journal of Phycology", "34510441"),
+ pm(7, "Revisiting the species problem in Northeast Pacific ribbon kelp lineages (genus Alaria): Lessons learned using whole genome data. J Phycol 2025;61:777–791", "10.1111/jpy.70040", "Journal of Phycology", "40454788", "PMC12351373"),
+ pm(8, "Iodine content in bulk biomass of wild-harvested and cultivated edible seaweeds: Inherent variations determine species-specific daily allowable consumption. Food Chem 2018;254:333–339", "10.1016/j.foodchem.2018.02.024", "Food Chemistry", "29548461"),
+ pm(9, "Brown seaweed as a food ingredient contributing to an adequate but not excessive amount of iodine in the European diet. A case study with bread. J Sci Food Agric 2024;104:8897–8906", "10.1002/jsfa.13716", "Journal of the Science of Food and Agriculture", "38962938"),
+ pm(10, "Impact of harvesting method and advanced post-harvest processing technologies on the potentially toxic trace elements and iodine content of brown seaweed Alaria esculenta. Food Chem 2026;525:150482", "10.1016/j.foodchem.2026.150482", "Food Chemistry", "42551155"),
+ pm(11, "Structural characterization and immunomodulating assessment of ultra-purified water extracted fucoidans from Saccharina latissima, Alaria esculenta and Laminaria hyperborea. Carbohydr Polym 2024;343:122448", "10.1016/j.carbpol.2024.122448", "Carbohydrate Polymers", "39174088"),
+ pm(12, "An in-depth evaluation of fucoidans from five brown seaweeds for wound healing and cytoprotection. Int J Biol Macromol 2025;332:148381", "10.1016/j.ijbiomac.2025.148381", "International Journal of Biological Macromolecules", "41138882"),
+ pm(13, "In-process epimerisation of alginates from Saccharina latissima, Alaria esculenta and Laminaria hyperborea. Carbohydr Polym 2023;325:121557", "10.1016/j.carbpol.2023.121557", "Carbohydrate Polymers", "38008481"),
+ pm(14, "Optimizing nursery conditions of the commercial kelp Alaria esculenta. J Appl Phycol 2025;37:3031–3042", "10.1007/s10811-025-03665-z", "Journal of Applied Phycology", "41346815", "PMC12672681"),
+ pm(15, "Effect of pre-drying storage and drying method on the quality of dried kelp. Food Res Int 2025;221:117568", "10.1016/j.foodres.2025.117568", "Food Research International", "41185319"),
+ pm(16, "Quality and safety aspects in fermentation of winged kelp (Alaria esculenta) and sugar kelp (Saccharina latissima) by the natural microbiota with or without addition of a Lactiplantibacillus plantarum starter culture. Food Res Int 2021;150:110800", "10.1016/j.foodres.2021.110800", "Food Research International", "34863492"),
+ pm(17, "Assessment of food quality and microbial safety of brown macroalgae (Alaria esculenta and Saccharina latissima). J Sci Food Agric 2019;99:1198–1206", "10.1002/jsfa.9289", "Journal of the Science of Food and Agriculture", "30054912"),
+ pm(18, "Serum IGF-1 concentrations change with soy and seaweed supplements in healthy postmenopausal American women. Nutr Cancer 2011;63:743–748", "10.1080/01635581.2011.579383", "Nutrition and Cancer", "21711174", "PMC3150209"),
+ pm(19, "Nordic Seaweed and Diabetes Prevention: Exploratory Studies in KK-Ay Mice. Nutrients 2019;11:1435", "10.3390/nu11061435", "Nutrients", "31242682", "PMC6627585"),
+ pm(20, "Interactive effects of radiation, temperature and salinity on different life history stages of the Arctic kelp Alaria esculenta (Phaeophyceae). Oecologia 2009;160:483–492", "10.1007/s00442-009-1326-9", "Oecologia", "19330357"),
+ pm(21, "Phlorotannin production and lipid oxidation as a potential protective function against high photosynthetically active and UV radiation in gametophytes of Alaria esculenta. Photochem Photobiol 2012;88:46–57", "10.1111/j.1751-1097.2011.01004.x", "Photochemistry and Photobiology", "21958385"),
+ pm(22, "Loss, resilience and recovery of kelp forests in a region of rapid ocean warming. Ann Bot 2024;133:73–92", "10.1093/aob/mcad170", "Annals of Botany", "37952103", "PMC10921841"),
+ pm(23, "Economic and environmental sustainability analysis of seaweed farming: Monetizing carbon offsets of a brown algae cultivation system in Ireland. Bioresour Technol 2022;346:126637", "10.1016/j.biortech.2021.126637", "Bioresource Technology", "34971774"),
+ pm(24, "Biodiversity-Ecosystem Functioning: Increased species diversity does not increase the productivity of cultivated kelp. Ann Bot 2026", "10.1093/aob/mcag037", "Annals of Botany", "41719258"),
+ pm(25, "Acceptable Inclusion Levels for Selected Brown and Red Irish Seaweed Species in Pork Sausages. Foods 2022;11:1522", "10.3390/foods11101522", "Foods", "35627092", "PMC9140922"),
+ pm(26, "An extract of the marine alga Alaria esculenta modulates α-synuclein folding and amyloid formation. Neurosci Lett 2017;644:87–93", "10.1016/j.neulet.2017.02.055", "Neuroscience Letters", "28237800"),
+ pm(27, "Effects of sediment on spore performance as a potential constraint on kelp distribution. Mar Pollut Bull 2022;185:114336", "10.1016/j.marpolbul.2022.114336", "Marine Pollution Bulletin", "36372050"),
+ pm(28, "Short-term response to light after the polar night in the Arctic kelps Alaria esculenta and Saccharina latissima. Mar Environ Res 2025;210:107298", "10.1016/j.marenvres.2025.107298", "Marine Environmental Research", "40543240"),
+ pm(29, "Community development following removal of urchins, Strongylocentrotus droebachiensis, from the rocky subtidal zone of the St. Lawrence Estuary, Eastern Canada. Oecologia 1983;59:27–39", "10.1007/BF00388068", "Oecologia", "25024143"),
+ pm(30, "Investigation into the use of novel pretreatments in the fermentation of Alaria esculenta by Lactiplantibacillus plantarum and kombucha SCOBY. Food Chem 2024;442:138335", "10.1016/j.foodchem.2023.138335", "Food Chemistry", "38237300"),
+ pm(31, "The amino acid sequence of cytochrome f from the brown alga Alaria esculenta (L.) Grev. Biochem J 1975;149:271–279", "10.1042/bj1490271", "Biochemical Journal", "1191259", "PMC1165613"),
+ pm(32, "Extraction of high purity fucoidans from brown seaweeds using cellulases and alginate lyases. Int J Biol Macromol 2023;229:199–209", "10.1016/j.ijbiomac.2022.12.261", "International Journal of Biological Macromolecules", "36584780"),
+]
+sec = []
+def add(k, t, b): sec.append({"key": k, "title": t, "body": b})
+add("overview", "한눈에 보기",
+"배더락스(Alaria esculenta (L.) Greville)는 북대서양 찬 바다에 사는 갈조류(다시마목)로, 영어로는 dabberlocks, winged kelp, babberlocks라고 부른다[1]. 식약처 「식품원료 목록」에서 이 종은 '배더락스'라는 원료명으로 올라 있고, 사용 조건은 '사용가능', 사용 가능 부위는 '전체'다[1]. 같은 목록에서 이 종의 분류는 수산물이 아닌 '식물'로 적혀 있고, 별칭은 비어 있다[1]. 이 자료 묶음의 원자료에는 EU 신규식품(Novel Food) 목록 표시가 있으나, EU 원문에서 그 지위와 조건은 확인하지 못함.\n\n"
+"유럽에서는 슈가켈프(Saccharina latissima)와 함께 가장 많이 양식되는 냉수성 갈조류이며 식품으로 쓰인다[2]. 상업적으로는 Atlantic wakame 또는 Irish wakame라는 이름으로도 불린다[4, 25]. 요오드가 많이 들어 있어 데치기(blanching)로 함량을 줄이는 연구가 이어지고 있다[2, 8]. 건강기능식품 고시형 원료로 등재된 기록과 식약처가 정한 지표성분은 확인하지 못함.")
+add("history", "이용 역사",
+"이 종은 유럽·아메리카·동남아시아 연안 지역에서 전통적으로 먹어 온 갈조류로 소개된다[10]. 유럽에서 해조류 상업 양식은 아시아보다 훨씬 늦게, 최근에야 시작되었다[4]. 아일랜드와 노르웨이가 유럽에서 이 종을 가장 많이 기르는 나라로 꼽힌다[4].\n\n"
+"과학 연구의 역사도 길어, 1975년에는 이 종에서 분리한 시토크롬 f(아미노산 86개, 분자량 9,800)의 아미노산 서열이 밝혀졌다[31]. 최근에는 식품 원료로서의 품질, 요오드 저감, 발효 보존 같은 가공 연구가 늘었다[2, 16, 17]. 2011년 미국 폐경 후 여성 30명을 대상으로 한 이중맹검 교차시험에서는 이 해조 5 g/일을 캡슐로 먹게 했고, 콩 단백으로 오른 혈청 IGF-1 상승폭이 약 40% 줄었다[18].\n\n"
+"국내에서 이 종을 먹어 온 기록, 수입·유통 이력은 공공기관 자료로 확인하지 못함.")
+add("biology", "생물학적 특징·생태",
+"다시마류처럼 이 종도 현미경 크기의 반수체 배우체와 눈에 보이는 이배체 포자체가 번갈아 나타나는 생활사를 갖는다[14]. 포자는 엽상체 아래쪽(자루 위)에 붙는 두꺼운 잎 모양의 포자엽(sporophyll)에서 만들어진다[3, 14]. 엽상체는 부착기·자루·중륵(midrib)·잎으로 나뉜다[3].\n\n"
+"찬 물과 맑은 물을 좋아하고 파도가 센 곳에서 잘 자란다[14]. 노르웨이 스발바르(Kongsfjorden) 개체를 쓴 실험에서 성체 포자체보다 미세한 유주자(zoospore)가 온도·염분 스트레스에 더 민감했다[20]. 같은 지역에서는 극야가 끝나기 전 마지막 몇 주에 새 조직이 생겨 옛 조직과 함께 존재했고, 약한 빛만으로도 성장이 시작되었다[28].\n\n"
+"캐나다 세인트로렌스강 하구에서 성게를 없애자 넉 달 만에 이 종이 수심 3 m까지 숲을 이뤘다[29]. 노바스코샤에서는 1982년 이후 이 냉수성 종이 줄고 고온에 강한 다시마류가 늘었다[22]. 배우체는 강한 빛과 자외선에 플로로탄닌을 더 만들어 대응한다[21].")
+add("related_species", "관련 종·이름",
+"Alaria 속에는 A. crassifolia, A. praelonga, A. crispa, A. marginata, A. esculenta 등이 있으며, 전 세계 분포 개체의 전장 유전체 분석에서 북극 계통(옛 A. grandifolia로 추정)과 여러 차례의 교잡이 드러났다[6]. 북동태평양의 ribbon kelp는 한때 네 종으로 나뉘었다가 A. marginata로 합쳐졌으며, 그 계통 사이 거리는 A. esculenta 집단 안의 차이보다 컸다[7].\n\n"
+"식약처 목록에는 이 종과 다른 다시마목 원료로 라미나리아디지타타(Laminaria digitata), 다시마(Saccharina japonica 등), 미역(Undaria pinnatifida)이 따로 올라 있다[1]. 상업명 'wakame'가 붙어도 이 종은 미역과 다른 종이며, 이 자료의 성분·안전 정보는 모두 Alaria esculenta 자료다[1, 4, 25].\n\n"
+"유럽 양식에서는 슈가켈프(Saccharina latissima)와 자주 비교된다[2]. 캐나다 세인트로렌스만에서 이 종의 분포는 슈가켈프 분포의 일부에 그친다[27]. 국명 '배더락스'는 영어 이름을 소리 나는 대로 옮긴 원료명이며, 이를 정한 근거 문서는 확인하지 못함.")
+add("cultivation", "양식·채취",
+"양식은 실내 종묘장에서 배우체를 불린 뒤 종묘를 붙인 줄을 바다에 내는 방식이다[14]. 스코틀랜드 종묘장 배우체 실험에서 파란빛과 철을 뺀 f/2 배지가 가장 많은 생물량을 냈고, 빨간빛은 포자체 형성을 강하게 억제했다[14]. 아일랜드 남서부 밴트리만에서는 성숙한 포자엽에서 포자를 받아 종묘를 만들고 2019년 10–11월에 길이 110 m 줄 11개를 바다에 내었다[4].\n\n"
+"10월에 낸 줄이 11월에 낸 줄보다 생물량이 많았고(6월 6일 20.66 ± 1.31 kg·m, 원문 표기), 5–6월에는 부착생물이 늘어 품질이 떨어졌다[4]. 아일랜드 코크 양식 실험에서는 여러 종을 섞어 기른 처리 가운데 이 종이 우점한 처리가 가장 생산성이 높았다[24]. 아일랜드 양식장의 수명주기 평가는 20년 기간에 경제성이 있으나 탄소 상쇄 수입은 매출의 5%에 그친다고 보았다[23].\n\n"
+"국내에서 이 종을 양식·채취한 기록과 생산 통계는 확인하지 못함.")
+add("processing", "가공·이용 연구",
+"수확한 다시마류는 빨리 상하므로, 냉장(2–3 °C) 7일 동안 세균 수가 4.0–4.5에서 5.9–6.1 log CFU/g로 늘어 수확 후 5일 안에 건조할 것이 권고되었다[15]. 데치기는 노르웨이 양식 개체의 요오드를 원래의 8–20% 수준으로 줄였고, 바닷물 80 °C에서 2분이 가장 효율이 좋았다[2]. 표준 조건(수돗물 80 °C, 2분)에서는 엽산의 75%와 감칠맛 성분인 유리 글루탐산·아스파르트산도 함께 빠졌다[2].\n\n"
+"신선한 이 종은 85 °C 넘는 고온에서 5–9초 가열할 때 가장 선명한 녹색이 되었다[17]. 젖산균(Lactiplantibacillus plantarum)을 넣은 발효는 2일 안에 pH를 4.6 아래로 낮췄지만, 자연 발효는 pH 4.8–5.2에 머물러 안전하지 않았다[16]. 빵 연구에서는 데친 건조 이 종을 밀가루 1 kg당 최대 11.3 g까지 넣을 수 있다고 계산했다[9]. 소시지에 5% 넣으면 관능 기호도가 떨어졌다[25].\n\n"
+"동물·세포 수준 연구로, 제2형 당뇨 KK-Ay 생쥐에 이 종을 섞은 사료를 10주 먹이자 대조군보다 HbA1c가 낮았다[19]. 이 종의 수용성 추출물은 시험관에서 α-시누클레인의 아밀로이드 섬유 형성을 억제했다[26]. 추출 연구로는 효소를 이용한 고순도 후코이단 추출과 알긴산의 공정 중 에피머화가 보고되었다[13, 32]. 국내 건강기능식품 원료로 가공한 생산실적은 확인하지 못함.")
+add("genetics", "유전 정보",
+"2022년 페로 제도 개체 하나로 이 종의 첫 주석 유전체가 조립되었다[5]. 크기는 487.8 Mb, N50 1,249,706 bp, GC 50.03%이고 유전자 28,969개, 반복서열 57.18%였다[5]. BUSCO 완성도가 83%여서 실제 유전체는 587.7 Mb를 넘을 수 있다고 보았다[5]. 미토콘드리아 유전체는 약 39 kb, 엽록체 유전체는 약 130 kb였다[5].\n\n"
+"캐나다 대서양·그린란드·페로 제도·노르웨이·아일랜드의 54개체에서 약 190만 개의 단일염기다형성(SNP)이 확인되었다[5]. 그린란드 집단은 10만 년 넘게 전 마지막 간빙기에 자리 잡아 빙하기를 고위도 피난처에서 견딘 것으로 추정되었고, 페로 제도 집단은 그린란드·유럽 계통이 섞여 있었다[5].\n\n"
+"속 수준의 전장 유전체 분석에서는 핵과 소기관 유전체의 계통수가 서로 맞지 않고 종 사이 교잡이 반복된 것으로 나타났다[6]. 국내 수집 개체의 유전 정보는 확인하지 못함.")
+add("safety", "안전성",
+"이 종은 요오드가 많다: 노르웨이 양식 개체는 건조중량 kg당 682 ± 95 mg, 문헌 범위는 213–945 mg이었다[2]. 가공하지 않은 건조물 283 mg만으로 대부분의 건강한 성인 하루 권장량을 채운다[8]. 하루 상한(600 µg) 기준으로 생것은 건조중량 0.88 g, 최적 데치기 뒤에는 11.5 g까지 먹을 수 있다고 계산되었다[2].\n\n"
+"총비소는 건조중량 kg당 47.9 ± 2.7 mg이었고 데친 뒤 평균 28.5 ± 5.0 mg이었으며, 무기비소는 정량한계(33 µg/kg) 미만이었다[2]. 비소는 주로 비소당(arsenosugar)과 비소인지질 형태이며, 비소인지질의 독성 자료는 아직 없다[3]. 카드뮴은 2.09 ± 0.05 mg/kg으로 데쳐도 줄지 않았다[2]. 초음파·마이크로파 처리 뒤 오븐 건조가 유해 원소와 요오드를 줄였다는 보고도 있다[10].\n\n"
+"자연 발효품에서는 접종한 리스테리아가 살아남았다[16]. 발효 연구의 대조 시료에서 갑각류 알레르기 단백질인 트로포미오신이 15.92 mg/kg 검출되었다[30]. 식약처 등 국내 공공기관의 이 종 관련 섭취 주의 정보는 확인하지 못함.")
+compounds = [
+ {"name": "Iodine", "name_ko": "요오드", "class": "할로겐 무기원소", "role": "nutrient", "part": "엽상체 전체(자루·부착기 포함)", "content_text": "682 ± 95 mg/kg 건조중량(신선 양식 개체); 문헌 범위 213–945 mg/kg 건조중량; 최적 데치기 후 52.1–134 mg/kg 건조중량 [2]", "activity_ko": "필수 미량원소지만 많이 먹으면 과잉 위험; 대부분 수용성 요오드화물로 칼륨과 함께 빠져나감(r>0.9) [2]", "source": [2, 8]},
+ {"name": "Arsenosugar", "name_ko": "비소당(arsenosugar) 계열", "class": "유기비소 화합물", "role": "bioactive", "part": "부착기·자루·중륵·포자엽·잎", "content_text": "가장 많은 비소 형태는 AsSugSO3; 줄기·중륵의 총비소가 다른 부위의 약 절반(수치는 원문 표에만 있음) [3]", "activity_ko": "독성이 낮은 유기비소로 여겨짐; 총비소 47.9 ± 2.7 mg/kg 건조중량 중 무기비소는 정량한계 미만 [2, 3]", "source": [2, 3]},
+ {"name": "Arsenosugar phospholipid", "name_ko": "비소당인지질(AsPL)", "class": "비소지질", "role": "bioactive", "part": "젊은 조직·생식 조직에 많음", "content_text": "부위 사이 최대 약 4배 차이; 정량값은 원문 표에만 있음 [3]", "activity_ko": "독성 자료가 아직 없어 위해성 평가가 시급하다고 지적됨 [3]", "source": [3]},
+ {"name": "Fucoidan", "name_ko": "후코이단", "class": "황산화 다당류", "role": "bioactive", "part": "엽상체", "content_text": "갈락토스가 많은 헤테로후칸, 황산화도가 슈가켈프·L. hyperborea보다 낮음 [11]", "activity_ko": "보체 억제 작용은 없었음[11]; 섬유아세포 증식·이동을 128 ± 7.7%로 높이고 TGF-β1·콜라겐 I 발현을 올림(세포 실험) [12]", "source": [11, 12, 32]},
+ {"name": "Alginic acid", "name_ko": "알긴산", "class": "다당류(우론산 중합체)", "role": "bioactive", "part": "엽상체 세포벽", "content_text": "만누론산(M)·굴루론산(G) 중합체; 효소(AlgE1) 에피머화로 G 함량과 겔 강도 증가(이 종의 수치는 초록에 없음) [13]", "activity_ko": "겔화제 원료; 카드뮴 같은 2가 양이온과 결합 [2, 13]", "source": [2, 13]},
+ {"name": "Laminarin", "name_ko": "라미나린", "class": "β-1,3-글루칸(저장 다당)", "role": "bioactive", "part": "엽상체", "content_text": "데치기 물로 쉽게 빠져나옴, 45 °C에서는 덜 빠짐(정량값은 원문 그림에만 있음) [2]", "activity_ko": "에너지 저장 다당; 식품·사료 기능성 소재로 연구 [2]", "source": [2]},
+ {"name": "Mannitol", "name_ko": "만니톨", "class": "당알코올", "role": "nutrient", "part": "엽상체", "content_text": "데치기 물로 쉽게 용출, 바닷물로 데치면 손실 감소 [2]", "activity_ko": "갈조류의 에너지 저장·삼투 조절 물질 [2]", "source": [2]},
+ {"name": "Eicosapentaenoic acid", "name_ko": "에이코사펜타엔산(EPA)", "class": "오메가-3 다불포화지방산", "role": "nutrient", "part": "엽상체(양식, 3–6월 수확)", "content_text": "총지질 1.8–2.3 g/100 g 건조중량 중 PUFA가 가장 많고 EPA가 풍부, DHA는 1% 미만(EPA 비율 수치는 원문 표에만 있음) [4]", "activity_ko": "심혈관·염증 관련 건강 효과가 알려진 지방산 [4]", "source": [4]},
+ {"name": "Arachidonic acid", "name_ko": "아라키돈산", "class": "오메가-6 다불포화지방산", "role": "nutrient", "part": "엽상체", "content_text": "팔미트산·올레산과 함께 유의한 수준(수치는 원문 표에만 있음) [4]", "activity_ko": "세포막 유동성·신경계 기능 관련 지방산 [4]", "source": [4]},
+ {"name": "5-Methyltetrahydrofolate", "name_ko": "5-메틸테트라히드로엽산(엽산)", "class": "수용성 비타민(B군)", "role": "nutrient", "part": "신선 엽상체", "content_text": "총엽산 113 ± 37 µg/100 g 습중량, 그중 5-MTHF ≥90%; 80 °C 2분 데치기 후 75% 손실(건조중량 기준) [2]", "activity_ko": "신선물은 엽산 급원이 될 수 있으나 데친 뒤에는 기여가 작음 [2]", "source": [2]},
+ {"name": "Ascorbic acid", "name_ko": "비타민 C", "class": "수용성 비타민", "role": "nutrient", "part": "신선 엽상체", "content_text": "45 °C 30초 데치기 후 0.573 ± 0.034 mg/100 g 습중량(신선물의 13%) [2]", "activity_ko": "짧은 데치기에도 크게 줄어 데친 해조는 비타민 C 급원이 되기 어려움 [2]", "source": [2]},
+ {"name": "Glutamic acid", "name_ko": "글루탐산(유리)", "class": "아미노산", "role": "nutrient", "part": "엽상체", "content_text": "유리 글루탐산·아스파르트산이 많고 데치기에서 크게 손실(수치는 원문 그림에만 있음) [2]", "activity_ko": "감칠맛(우마미) 성분 [2]", "source": [2]},
+ {"name": "Phlorotannin", "name_ko": "플로로탄닌", "class": "폴리페놀", "role": "bioactive", "part": "배우체·어린 포자체, 엽상체 추출물", "content_text": "알칼라제 추출물 총페놀 57.4 ± 1.9–120.0 ± 1.8 mg GAE/g 추출물(3월 수확이 가장 높음) [4]", "activity_ko": "자외선·강광에 대한 보호 작용 추정[21]; 추출물의 항산화·ACE 저해 활성과 상관 [4]", "source": [4, 21]},
+ {"name": "Fucoxanthin", "name_ko": "푸코잔틴", "class": "카로티노이드(잔토필)", "role": "bioactive", "part": "배우체·어린 포자체", "content_text": "파란빛 배양에서 빨간빛보다 높음(µg/g 생중량 값은 원문 그림에만 있음) [14]", "activity_ko": "갈조류의 광수확 색소 [14]", "source": [14]},
+]
+assays = [
+ {"role": "literature", "compound": "Iodine and elements (I, Cl, Br, Na, Mg, P, S, K, Ca, Fe, Co, Zn, As, Se, Cd, Ba); inorganic arsenic", "compound_ko": "요오드·무기원소·무기비소", "part": "엽상체 전체(자루·부착기 포함), 동결건조 분말", "content": "요오드 682 ± 95, 총비소 47.9 ± 2.7, 카드뮴 2.09 ± 0.05 mg/kg 건조중량(신선물); 무기비소 정량한계 미만 [2]", "method": "ICP-MS(삼중사중극자)", "conditions": {"instrument": "Agilent 8800 Triple Quadrupole ICP-MS (Agilent Technologies)", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "ICP-MS", "injection": "", "sample_prep": "동결건조(−60 °C, 0.1 mbar) 후 분쇄; 할로겐(Cl·Br·I)은 20% TMAH 5 mL로 80 °C 추출, 그 밖의 원소는 5% HNO3로 분해; 무기비소는 NIST 방법(KI/I2로 As(V)로 산화)", "standard": "", "linearity": "", "lod": "", "loq": "무기비소 33 µg/kg 건조중량", "recovery": ""}, "rationale": "이 종은 요오드 과잉 섭취 위험 때문에 요오드가 품질·안전의 핵심 지표이며, 데치기 조건별 요오드·유해원소 저감을 정량했다; 전문(Methods) 확인 [2].", "source": [2], "url": "https://doi.org/10.3390/foods14234113", "source_kind": "paper"},
+ {"role": "literature", "compound": "Arsenic species (arsenosugars, arsenolipids incl. AsPL, AsHC)", "compound_ko": "비소 형태(비소당·비소지질)", "part": "부착기·자루·포자엽·중륵·잎(부위별 동결건조 분말)", "content": "AsSugSO3가 가장 많은 비소 형태, 비소인지질은 부위 사이 약 4배 차이; 개별 수치는 원문 표에만 있음 [3]", "method": "HPLC-ICP-MS(비소당: 음이온교환, 비소지질: 역상 C18, 병렬 ESI-MS)", "conditions": {"instrument": "Agilent 1200 HPLC + Agilent 7500ce ICP-MS; 비소지질 확인은 Agilent 1290 HPLC + Agilent 8800 ICP-QQQ와 LTQ Orbitrap Discovery 병렬", "column": "비소당: Hamilton PRP-X100 10 µm, 250 × 4.1 mm; 비소지질: Agilent Eclipse XDB C18 5 µm, 4.6 × 150 mm", "mobile_phase": "비소당: 30 mM 탄산암모늄(pH 9); 비소지질: A 0.1% 포름산 수용액, B 0.1% 포름산 메탄올", "gradient": "비소지질 조건 A: 20분 동안 B 70→100%, 20분 유지; 조건 B: 0–20분 B 0→100%, 25분 유지", "flow": "1 mL/min(비소지질은 컬럼 뒤 3:1 분할)", "temp": "", "detection": "ICP-MS m/z 75(As); 조건 B는 산소 모드 m/z 91; ESI-MS 양이온 m/z 100–1300", "injection": "비소지질 30 µL(조건 A), 0.1 mL(조건 B)", "sample_prep": "총비소: 시료 100–200 mg에 HNO3 3 mL·H2O2 1.5 mL, 마이크로파 분해(200 °C); 순차 추출: 헥산 → DCM/MeOH(2:1) → 물 → 잔사 분해; 비소당: 100 mg을 물 10 mL로 하룻밤 추출", "standard": "DMA 등 비소 표준; 내부표준 Te·In·Ge; 인증표준물질 NMIJ 7405-a(톳)·TORT-2", "linearity": "", "lod": "공시료 표준편차의 3배", "loq": "공시료 표준편차의 10배", "recovery": "비소당 컬럼 회수율 87 ± 12%(62–103%); 비소지질 컬럼 회수율 96 ± 11%·85 ± 11%; 톳 CRM 총비소 35.9 ± 3.4 mg/kg(인증값 35.8 ± 0.9)"}, "rationale": "총비소만으로는 독성을 판단할 수 없어 이 종의 부위별 비소 형태를 분리·정량했다; 전문(Methods) 확인 [3].", "source": [3], "url": "https://doi.org/10.1007/s00216-019-01907-x", "source_kind": "paper"},
+ {"role": "literature", "compound": "Fatty acid methyl esters (EPA, arachidonic acid, palmitic acid, oleic acid 등)", "compound_ko": "지방산 조성", "part": "양식 엽상체(동결건조 분말)", "content": "총지질 2.3 ± 0.2(10월 투입 줄)·1.8 ± 0.2 g/100 g; PUFA가 가장 많고 EPA 풍부, DHA 1% 미만 [4]", "method": "GC-FID(산촉매 메틸에스테르화)", "conditions": {"instrument": "Bruker Scion 456-GC, 자동시료주입기, 불꽃이온화검출기", "column": "DB-WAX (Agilent) 30 m × 0.25 mm i.d., 막두께 0.25 µm", "mobile_phase": "운반기체 헬륨", "gradient": "180 °C → 4 °C/min → 200 °C(10분 유지) → 4 °C/min → 210 °C(14.5분 유지)", "flow": "", "temp": "주입구·검출기 250 °C", "detection": "FID", "injection": "분할 100:1", "sample_prep": "건조 시료 300 mg에 5% 아세틸클로라이드-메탄올 5 mL, 80 °C 수조 1시간; 물 1 mL·n-헵탄 2 mL로 추출, 3000×g 3분 원심분리 후 무수황산나트륨 여과", "standard": "PUFA-3(Menhaden oil, Sigma-Aldrich) 머무름시간 비교", "linearity": "", "lod": "", "loq": "", "recovery": ""}, "rationale": "이 종을 기능성 식품 소재로 평가하며 오메가-3(EPA) 함량을 품질 지표로 삼았다; 전문(Methods) 확인 [4].", "source": [4], "url": "https://doi.org/10.3390/md21050305", "source_kind": "paper"},
+]
+world = [
+ {"country": "아일랜드", "metric": "production_t", "year": None, "value": 24, "unit": "t(생중량)/년", "note": "선행 문헌을 인용한 연간 양식 생산량; 기준 연도는 원문에 없음 [4]", "source": [4]},
+ {"country": "노르웨이", "metric": "production_t", "year": None, "value": 44, "unit": "t(생중량)/년", "note": "선행 문헌을 인용한 연간 양식 생산량; 기준 연도는 원문에 없음 [4]", "source": [4]},
+]
+d = {"slug": "alaria-esculenta", "name_ko": "배더락스", "name_en": "Dabberlocks (winged kelp)", "scientific_name": "Alaria esculenta (L.) Greville",
+     "aliases": ["Dabberlocks", "Winged kelp", "Babberlocks", "Atlantic wakame", "Irish wakame"],
+     "sections": sec, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [], "production": [], "gi": [], "orgs": [], "world": world, "sources": S}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sec: print(s["key"], len(s["body"]))

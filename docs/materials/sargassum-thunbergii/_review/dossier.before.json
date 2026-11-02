@@ -1,0 +1,589 @@
+{
+ "slug": "sargassum-thunbergii",
+ "name_ko": "지충이",
+ "name_en": "Sargassum thunbergii (brown seaweed)",
+ "scientific_name": "Sargassum thunbergii",
+ "aliases": [
+  "가는잎듬북",
+  "Sargassum thunbergii (Mertens ex Roth) Kuntze"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "지충이(Sargassum thunbergii (Mertens ex Roth) Kuntze)는 모자반속에 속하는 갈조류로, 북서태평양 연안의 바위 조간대에 흔한 해조다[4]. 북서태평양에만 사는 냉온대성 갈조류로 소개된다[2].\n\n식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에는 '지충이'(이명 '가는잎듬북') 1행이 식품원료(A코드)로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 전체'다[1]. 같은 목록 자료에서 건강기능식품 고시형 원료의 원재료로 연결된 기록은 없다[1].\n\n논문마다 식용 여부 서술이 다른데, 먹을 수 있는 해조로 소개한 논문이 있는 반면[13][20], 먹지 않는(non-edible) 해조로 소개한 논문도 있다[15][16]. 성분 연구는 푸코이단 같은 황산화 다당, 인돌 유도체, 퓨코스테롤 같은 스테롤, 썬베르골 같은 메로테르페노이드에 모여 있다[13][17][19][21]. 중국에서는 전복·해삼 양식의 먹이와 산업 원료로 쓰이는 경제 해조로 소개된다[6]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "한 논문은 지충이가 중국의 「중국해양약물사전(China's Marine medicine dictionary)」에 굳은 덩어리를 풀고(resolving hard lump) 소변을 잘 나오게 해 부기를 빼는 효능으로 기록되어 있다고 소개한다[13]. 2021년 논문은 지충이가 동양 여러 나라에서 전통적으로 먹거리이자 약재로 쓰였다고 적었다[14].\n\n반면 2026년 논문은 모자반속 갈조류가 동아시아에서 염증·세균 감염·암의 전통 치료제로 오래 쓰였다고 하면서도, 지충이 자체는 먹지 않고 잘 활용되지 않는 종이라고 적었다[16]. 2023년 논문도 지충이를 '먹지 않는 갈조류'로 불렀다[15].\n\n산업 이용으로는 중국에서 전복과 해삼 양식의 질 좋은 먹이이자 산업 원료로 쓰인다고 소개된다[6]. 중국의 소규모 해삼 양식에는 지충이로 만든 상업 사료가 쓰였고, 값싸고 구하기 쉬운 다시마(Laminaria japonica) 사료가 그 대체품으로 연구되었다[7]. 한국에서 지충이를 식품으로 먹어 온 역사나 지역 기록은 공공기관 자료로 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징·생태",
+   "body": "지충이는 북서태평양 고유의 냉온대성 갈조류로, 예전에는 중국 태평양 연안 전역에 흔했지만 남쪽(북위 21° 아래) 개체군은 최근 수십 년 사이 줄었다고 보고되었다[2]. 엽상체가 부착기에서 떨어지면 쿠로시오 해류 서쪽의 대륙붕 위를 떠다니며 멀리 퍼질 수 있다[2].\n\n암수딴그루(자웅이주) 해조로, 수컷의 생식탁은 가늘고 매끈하며 암컷의 생식탁은 짧고 거칠어 겉모양으로 구별된다[6]. 황해 타이핑곶 조사에서 유성생식은 6월 초에 시작해 수온이 약 22°C인 7월 중순에 절정을 이루었고(7월 19일 생식기관에 배분된 생물량 평균 76.7%) 8월 하순에 끝났다[8].\n\n실험에서 생장은 15–20°C에서 빨랐고, 엽록소 a와 푸코잔틴 함량은 빛이 강할수록 줄고 온도가 높을수록 늘었다[10]. 중국 옌타이 양마섬 조간대에서는 1년 내내 우점종이었다[9]. 한국에서는 서해(보령)·남해(진도·사천)·제주(서귀포)·남동해(해운대)·동해(울진·양양) 연안에서 채집한 시료로 지역 간 성분·활성 차이를 비교한 연구가 있다[17]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "국문 이름은 지충이이고, 식품원료 목록에는 이명 '가는잎듬북'이 함께 적혀 있다[1]. 학명 저자는 (Mertens ex Roth) Kuntze로 쓰이며[4], 한 논문은 Sargassum thunbergii (Mert.) O'Kuntze로 적었다[22].\n\n미토콘드리아 유전체 비교에서 지충이는 Bactrophycus 아속 안에서 Sargassum muticum, Sargassum hemiphyllum과 함께 Teretia 절 계통으로 강하게 묶였다[4]. 엽록체 유전체의 유전자 구성과 순서는 같은 모자반목(Fucales)의 Fucus vesiculosus와 같았다[5]. 2025년 유전체 연구는 지충이와 톳(S. fusiforme)을 조간대에 사는 가까운 두 모자반속 종으로 함께 다루었다[3].\n\n식품원료 목록에는 같은 속의 톳·모자반·괭생이모자반·꽈배기모자반·비틀대모자반·알쏭이모자반·톱니모자반이 각각 별도 원료로 올라 있다[1]. 이들은 서로 다른 종이므로, 이 문서의 성분·함량·안전 자료는 지충이를 대상으로 한 자료만 썼다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "서식·채취",
+   "body": "지충이의 국내 양식·채취 생산 통계는 공공 통계에서 확인하지 못함. 연구에 쓰인 시료는 대부분 자연 군락에서 채집했다: 2025년 유전체 연구는 한국 자연 서식지 개체를 썼고[3], 한국 7개 연안 비교 연구는 6–7월 영양 생장기에 채집해 바닷물과 증류수로 씻고 그늘에서 48시간 말린 뒤 동결건조·분쇄한 시료를 썼다[17]. 중국 논문 가운데는 다롄의 지역 상점에서 산 건조 지충이를 쓴 예도 있다[13].\n\n채취 시기에 따라 성분이 달라진다[26][27]. 4월 초–6월 중순 생장기에는 푸코스와 총당 함량이 늘었고, 다당 수율은 7월 초–9월 초에 가장 높았다[27]. 일본 갈조류 조사에서 지충이를 포함한 6종의 푸코잔틴·퓨코스테롤·총지질은 1–3월에 최대였다[26].\n\n기후 변화의 영향도 연구되었다[34][35]. 해양 열파를 흉내 낸 실험(+4°C, +6°C)에서 지충이의 생장률은 38–59% 줄었다[34]. 분포 예측 모형은 적지가 북쪽으로 옮겨 가겠지만 중·저위도에서 잃는 면적을 메우지 못할 것으로 보았다[35]."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출 연구",
+   "body": "다당 추출 연구가 많다[13][28]. 열수(pH 2.0) 추출 최적 조건은 액체:고체 비 120 mL/g, 210분, 97°C였고 총당 수율은 7.53%였다[13]. 같은 연구에서 조다당 수율은 20%, 주요 분획 STP-II의 비율은 63.75%, 분자량은 약 550 kD였다[13]. 마이크로파 추출은 23분, 547 W, 80°C, 원료:물 1:27 g/mL에서 수율 2.84%였고, 이 다당(STP-1)은 총탄수화물 32.7%, 황산기 15.2%를 담고 있었다[28].\n\n효소 추출도 쓰인다[29]. 셀룰라아제(Celluclast) 보조 가수분해물과 그 에탄올 단계 침전 분획은 고지방식 생쥐에서 체중과 백색지방을 줄였다[29]. 성분 분석용 추출로는 70% 에탄올 초음파 추출(40 kHz, 250 W, 40°C, 60분, 3회)[17]과 70% 에탄올 추출물[18]이 쓰였다. 피부 미용 연구에서 찾은 초음파 추출 최적 조건은 12.0분, 65.2°C, 에탄올 53.5%였다[14].\n\n지충이를 원료로 한 건강기능식품 생산실적(식약처 「식품 등의 생산실적」)은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2025년 연구는 한국 개체군에서 지충이 핵 유전체를 376 Mbp 크기로 조립했고, 유전체가 커진 이유를 전이인자(TE)의 확산으로 설명했다[3]. 같은 연구는 건조 스트레스에 반응하는 중복 유전자와 살리실산 합성을 돕는 EDS1 유전자의 확장을 보고했다[3].\n\n엽록체 유전체는 124,592 bp의 원형으로 GC 함량 30.4%, 단백질 암호 유전자 139개, rRNA 오페론 6개, tRNA 28개를 담고 있다[5]. 미토콘드리아 유전체는 34,748 bp의 원형으로 다른 모자반속 4종과 같은 65개 유전자를 갖고 있으며, 유전자 사이 구간(특히 cox3–atp6)에서 차이가 컸다[4].\n\n집단 유전 연구도 있다[2][11][12]. 중국 연안 22개 집단은 황해·발해와 동중국해의 두 유전 집단으로 나뉘었고, 해류를 따라 북에서 남으로 유전자 흐름이 컸다[11]. 일본 연안 집단은 규슈·동해(일본해)·홋카이도-도호쿠·태평양 연안의 네 지역 집단으로 갈렸다[12]. 북서태평양 전체로는 분포 중·북부에 유전 다양성이 풍부하고 남부 계통은 다양성이 낮았다[2]. 전사체에서 찾은 미세위성 961좌위에 프라이머를 설계했고, 시험한 30쌍 가운데 23쌍이 작동했다[36]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 지충이는 '사용가능' 원료이며 사용 조건은 '사용가능부위 : 전체'다[1]. 지충이만을 대상으로 한 식약처 개별 기준(무기비소·요오드 등)은 확인하지 못함. 지충이의 무기비소 함량과 요오드 함량을 측정한 공공기관 자료나 논문 수치도 확인하지 못함.\n\n비소에 관한 실험 연구는 있다[30][31]. 비소산염(As(V))을 넣은 배양에서 지충이는 7일 안에 배지 속 비소를 거의 100% 세포 안에 쌓았고, As(V)를 디메틸아르신산(DMAA)으로 바꾸어 내보냈다[30]. 생장 단계별 실험에서 총비소 함량은 성체 > 준유체 > 유체 > 어린 포자체 순이었다[31]. 이 연구들은 비소를 넣은 배양 실험이므로 시판 원료의 함량을 뜻하지 않는다[30][31].\n\n중국 하이난섬 연안 해조 11종의 중금속 위해성 평가에서 지충이 섭취의 위해지수(HI)는 성인에서 1보다 작았지만 어린이에서는 1보다 커 중간 이상의 위험으로 평가되었고, 비소와 크롬이 섭취 제한 요인으로 지목되었다[32]. 세포 실험에서는 서귀포 시료 추출물이 낮은 농도(25·50 µg/mL)에서도 세포 생존율을 낮춘 반면 다른 지역 시료는 100 µg/mL까지 독성이 낮았다[17]. 알레르기·잔류농약 등 공공기관 안전 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Fucosterol",
+   "name_ko": "퓨코스테롤",
+   "class": "스테롤",
+   "role": "marker",
+   "part": "엽상체 전체(70% 에탄올 추출물)",
+   "content_text": "10.23 ± 0.17 mg/g 추출물(부산 해운대 시료, HPLC)",
+   "activity_ko": "갈조류 특유의 스테롤로, 해운대 추출물의 항염 활성에 기여하는 성분으로 제시되었다(분자 도킹에서 iNOS와 결합)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Indole-2-carboxaldehyde",
+   "name_ko": "인돌-2-카복스알데하이드",
+   "class": "인돌 알칼로이드",
+   "role": "marker",
+   "part": "엽상체(70% 에탄올 추출물)",
+   "content_text": "0.77 mg/g 추출물(HPLC, 머무름 시간 26.64분)",
+   "activity_ko": "지충이에서 분리한 인돌 유도체로 3T3-L1 지방세포 분화를 억제했다[19]. 추출물의 주요 성분(index component)으로 정량되었다[18]",
+   "source": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Indole-6-carboxaldehyde",
+   "name_ko": "인돌-6-카복스알데하이드",
+   "class": "인돌 알칼로이드",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(분리 보고)",
+   "activity_ko": "지충이에서 분리한 6종 인돌 유도체 가운데 하나로 AMPK 활성화를 거쳐 지방세포 분화를 억제했다(세포 실험)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Fucoidan",
+   "name_ko": "푸코이단(황산화 다당)",
+   "class": "황산화 다당",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음; 물 추출·에탄올 침전 분획(S3)은 푸코스와 황산화 다당 함량이 비교적 높았다",
+   "activity_ko": "대식세포와 제브라피시에서 NO 생성·식작용을 높인 면역 증강 효과가 보고되었다[15]",
+   "source": [
+    15
+   ]
+  },
+  {
+   "name": "Sulfated heteropolysaccharide STP-II",
+   "name_ko": "주요 다당 STP-II",
+   "class": "다당",
+   "role": "bioactive",
+   "part": "엽상체 건조 분말",
+   "content_text": "조다당 중 63.75%(DEAE 분획), 총탄수화물 96.78%(w/w), 우론산 약 6.83%, 분자량 약 550 kD",
+   "activity_ko": "푸코스·자일로스·갈락토스·포도당·글루쿠론산으로 이루어지며, 시험관에서 수산기·초과산화 라디칼 소거능과 Caco-2 세포 증식 억제를 보였다[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Sargaquinoic acid",
+   "name_ko": "사가퀴노산",
+   "class": "메로테르페노이드(퀴논)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(활성 추출물에서 분리)",
+   "activity_ko": "조골세포 분화를 촉진하는 활성 성분으로 분리되었다(세포 실험)[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Sargahydroquinoic acid",
+   "name_ko": "사가하이드로퀴노산",
+   "class": "메로테르페노이드(하이드로퀴논)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(활성 추출물에서 분리)",
+   "activity_ko": "사가퀴노산과 함께 조골세포 분화 유도 활성이 보고되었다(세포 실험)[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Thunbergol A",
+   "name_ko": "썬베르골 A",
+   "class": "테트라프레닐톨루퀴놀(크로만)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(신규 화합물로 분리)",
+   "activity_ko": "라디칼 소거와 퍼옥시나이트라이트 생성 억제 활성을 보였다[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "Thunbergol B",
+   "name_ko": "썬베르골 B",
+   "class": "테트라프레닐톨루퀴놀(벤조퓨란)",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(신규 화합물로 분리)",
+   "activity_ko": "라디칼 소거와 퍼옥시나이트라이트 생성 억제 활성을 보였다[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "1-(5-Acetyl-2,4-dihydroxyphenyl)-3-methylbutan-1-one",
+   "name_ko": "레조르시놀 유도체 1",
+   "class": "레조르시놀",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "함량 수치 없음(신규 화합물로 분리)",
+   "activity_ko": "지충이에서 처음 분리된 레조르시놀로, 초록에 활성 보고는 없다[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "Thunberol",
+   "name_ko": "썬베롤",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "엽상체(동중국해 시료)",
+   "content_text": "함량 수치 없음(신규 화합물로 분리)",
+   "activity_ko": "PTP1B 효소를 IC50 2.24 μg/mL로 억제했다(효소 실험)[23]",
+   "source": [
+    23
+   ]
+  },
+  {
+   "name": "Saringosterol",
+   "name_ko": "사링고스테롤",
+   "class": "스테롤",
+   "role": "bioactive",
+   "part": "엽상체(클로로폼 분획)",
+   "content_text": "함량 수치 없음",
+   "activity_ko": "이소퓨코스테롤·엽록소 a와 함께 분리되어 리파아제 억제 활성을 보였다[24]",
+   "source": [
+    24
+   ]
+  },
+  {
+   "name": "(6Z,9Z,12Z,15Z)-1,6,9,12,15-Henicosapentaene",
+   "name_ko": "헤니코사펜타엔",
+   "class": "알카폴리엔(탄화수소)",
+   "role": "bioactive",
+   "part": "엽상체(용매 추출물)",
+   "content_text": "함량 수치 없음",
+   "activity_ko": "대두 리폭시게나아제를 대조 억제제(NDGA)보다 강하게 억제했다[25]",
+   "source": [
+    25
+   ]
+  },
+  {
+   "name": "Fucoxanthin",
+   "name_ko": "푸코잔틴",
+   "class": "카로티노이드",
+   "role": "bioactive",
+   "part": "엽상체",
+   "content_text": "초록에 지충이 수치 없음; 1–3월에 최대(일본 시료)",
+   "activity_ko": "빛이 강할수록 줄고 온도가 높을수록 늘었다[10]. 계절 최대는 1–3월이었다[26]",
+   "source": [
+    10,
+    26
+   ]
+  },
+  {
+   "name": "Phlorotannins",
+   "name_ko": "플로로탄닌(총량)",
+   "class": "폴리페놀",
+   "role": "bioactive",
+   "part": "엽상체(85% 에탄올 추출물)",
+   "content_text": "조추출물 중 0.74%(중국 시료)",
+   "activity_ko": "히알루로니다아제 억제 IC50 269 μg/mL로, 비교한 다른 갈조류보다 약했다[33]",
+   "source": [
+    33
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Fucosterol",
+   "compound_ko": "퓨코스테롤",
+   "part": "엽상체 전체(동결건조 분말의 70% 에탄올 초음파 추출물)",
+   "content": "10.23 ± 0.17 mg/g 추출물(부산 해운대 시료); 머무름 시간 약 17.70분(표준품 17.79분)",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "HPLC, 광다이오드 배열(PDA) 검출기",
+    "column": "ZORBAX SB-C18 (Agilent), 4.6 × 250 mm, 5 μm",
+    "mobile_phase": "A: 0.1% 인산 수용액, B: 아세토나이트릴",
+    "gradient": "A95/B5 3분 유지 → 33분에 걸쳐 B 100%로 직선 증가 → 4분 유지 → 40분에 초기 조건 복귀, 45분까지 평형",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "230 nm",
+    "injection": "30 μL(시료 1 mg/mL 메탄올 용액)",
+    "sample_prep": "그늘 48시간 건조 → 동결건조 → 40 mesh 분쇄; 10 g + 70% 에탄올 200 mL, 초음파(40 kHz, 250 W) 40°C 60분, 같은 조건 재추출 2회, 합쳐 40°C 감압농축 후 동결건조",
+    "standard": "퓨코스테롤 표준품(6농도, 0.8–193.5 μg/mL)",
+    "linearity": "R 0.9994–1.0000",
+    "lod": "0.12 μg/mL",
+    "loq": "0.36 μg/mL",
+    "recovery": "95.1–100.4% (%RSD 1.73–3.81%)"
+   },
+   "rationale": "갈조류 특유의 주 스테롤로, 원문은 항염 활성에 기여하는 성분으로 보고 지역별 시료 중 해운대 추출물에서 정량했다[17]. 전문(Methods) 확인.",
+   "source": [
+    17
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650467/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Indole-2-carboxaldehyde",
+   "compound_ko": "인돌-2-카복스알데하이드",
+   "part": "엽상체(70% 에탄올 추출물)",
+   "content": "0.77 mg/g 추출물; 머무름 시간 26.64분",
+   "method": "HPLC-DAD (LC-Q-TOF-MS로 확인)",
+   "conditions": {
+    "instrument": "HPLC-DAD(ESA 70-6186A 검출기); 확인용 Agilent 6530 Q-TOF LC-MS(양이온 모드)",
+    "column": "YMC C18, 4.6 × 250 mm, 5 µm",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 아세토나이트릴",
+    "gradient": "0–10분 A90/B10; 10–30분 A70/B30; 30–40분 A90/B10",
+    "flow": "",
+    "temp": "",
+    "detection": "290 nm",
+    "injection": "",
+    "sample_prep": "70% 에탄올 추출물(국내 해양바이오뱅크 등에서 입수)",
+    "standard": "인돌-2-카복스알데하이드 표준품",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "지충이에서 분리된 지방세포 분화 억제 인돌 유도체로[19], 원문은 추출물의 지표성분(index component)으로 정량했다[18]. 전문 확인; 유속·주입량·검증값은 원문에 없음.",
+   "source": [
+    18,
+    19
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9407432/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total sugar / polysaccharide STP-II",
+   "compound_ko": "총당·주요 다당 STP-II",
+   "part": "엽상체 건조 분말",
+   "content": "최적 열수 추출 총당 수율 7.53%(건조 시료 기준, 예측 7.85%); 조다당 수율 20%; STP-II 63.75%, 분자량 약 550 kD, 총탄수화물 96.78%",
+   "method": "페놀-황산법(총당) + HPSEC-RID(순도·분자량) + HPLC-RID(단당 조성)",
+   "conditions": {
+    "instrument": "Agilent 1100 HPSEC, 굴절률 검출기(RID)",
+    "column": "분자량: Shodex Sugar KS-804; 단당: Shodex Sugar SP0810",
+    "mobile_phase": "증류수",
+    "gradient": "",
+    "flow": "KS-804 1.0 mL/min; SP0810 0.5 mL/min",
+    "temp": "KS-804 50°C; SP0810 80°C",
+    "detection": "RID",
+    "injection": "",
+    "sample_prep": "건조 분말 1 g, 증류수(pH 2.0, HCl) 120 mL/g, 97°C 210분 추출 → 원심분리 상등액; 정제는 4배 에탄올 침전 → DEAE-Sepharose CL-6B(0–1 M NaCl); 단당은 1 M 황산 100°C 8시간 가수분해 후 탄산바륨 중화",
+    "standard": "단당·덱스트란 표준품(Dextran Blue, T10, T40, T70, T500, 포도당)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "원문은 다당(STP)을 지충이의 주된 생리활성 성분으로 보고 총당 수율을 지표로 추출 조건을 최적화했다[13]. 전문 확인; 검출·정량한계와 회수율은 원문에 없음.",
+   "source": [
+    13
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674119/",
+   "source_kind": "paper"
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 지충이(Sargassum thunbergii) 1행(2026-10-13 받은 원자료)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Song XH et al. Climate-induced range shifts shaped the present and threaten the future genetic variability of a marine brown alga in the Northwest Pacific. Evol Appl 2021;14(7):1867-1879",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8288013/",
+   "publisher": "Evolutionary Applications (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Kim et al. Genome Evolution of Two Intertidal Sargassum Species (S. fusiforme and S. thunbergii) and Their Response to Abiotic Stressors. Genome Biol Evol 2025;17(5):evaf084",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089773/",
+   "publisher": "Genome Biology and Evolution (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Liu F, Pang S. Mitochondrial genome of Sargassum thunbergii: conservation and variability of mitogenomes within the subgenus Bactrophycus. Mitochondrial DNA A 2016;27(5):3186-8 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25690051/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Yang JH et al. Complete plastid genome of an ecologically important brown alga Sargassum thunbergii (Fucales, Phaeophyceae). Mar Genomics 2016;28:17-20 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27012360/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Wang J et al. Diversity of epiphytic bacterial communities on male and female Sargassum thunbergii. AMB Express 2022;12(1):97",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9288574/",
+   "publisher": "AMB Express (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Wang X et al. Improving the quality of Laminaria japonica-based diet for Apostichopus japonicus through degradation of its algin content with Bacillus amyloliquefaciens WB1. Appl Microbiol Biotechnol 2015;99(14):5843-53 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25895094/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Pan JH et al. [Sexual reproductive allocation of Sargassum thunbergii at Taiping Cape of Yellow Sea]. Ying Yong Sheng Tai Xue Bao 2011;22(8):2167-72 (영문 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22097383/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Han QY et al. [Distribution of macroalgal community and environmental effects in Yangma Island, Yantai, Shandong Province, China]. Ying Yong Sheng Tai Xue Bao 2014;25(12):3655-63 (영문 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25876420/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Jiang HB et al. [Effects of temperature and light intensity on the growth and biochemical composition of Sargassum thunbergii]. Ying Yong Sheng Tai Xue Bao 2009;20(1):185-9 (영문 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19449584/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Li JJ et al. Historical isolation and contemporary gene flow drive population diversity of the brown alga Sargassum thunbergii along the coast of China. BMC Evol Biol 2017;17(1):246",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5721624/",
+   "publisher": "BMC Evolutionary Biology (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Kobayashi et al. ddRAD-seq based phylogeographic study of Sargassum thunbergii (Phaeophyceae, Heterokonta) around Japanese coast. Mar Environ Res 2018;140:104-113 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29895505/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Yuan X et al. Extraction Optimization, Characterization and Bioactivities of a Major Polysaccharide from Sargassum thunbergii. PLoS One 2015;10(12):e0144773",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4674119/",
+   "publisher": "PLoS One (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Gam DH et al. Effects of Sargassum thunbergii Extract on Skin Whitening and Anti-Wrinkling. Molecules 2021;26(23):7381 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34885963/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Yang F et al. In vitro and in vivo immuno-enhancing effect of fucoidan isolated from non-edible brown seaweed Sargassum thunbergii. Int J Biol Macromol 2023;253(Pt 5):127212 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37802428/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Yang F et al. Ethnopharmacological basis and combined protection of intestinal barrier function by fucoidan from Sargassum thunbergii and chito-oligosaccharides. J Ethnopharmacol 2026;365:121599 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41911983/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Lee SG et al. Regional Variation in Antioxidant and Anti-Inflammatory Activities of the Brown Alga Sargassum thunbergii and Mechanistic Role of Fucosterol in Inflammation Modulation. Biomedicines 2025;13(11):2808",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650467/",
+   "publisher": "Biomedicines (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Kim D et al. Sargassum thunbergii Extract Attenuates High-Fat Diet-Induced Obesity in Mice by Modulating AMPK Activation and the Gut Microbiota. Foods 2022;11(16):2529",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9407432/",
+   "publisher": "Foods (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Kang MC et al. Indole Derivatives Isolated from Brown Alga Sargassum thunbergii Inhibit Adipogenesis through AMPK Activation in 3T3-L1 Preadipocytes. Mar Drugs 2017;15(4):119 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28417922/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Kim JA et al. Bioactive quinone derivatives from the marine brown alga Sargassum thunbergii induce anti-adipogenic and pro-osteoblastogenic activities. J Sci Food Agric 2016;96(3):783-90 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25720987/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Seo Y et al. Isolation of tetraprenyltoluquinols from the brown alga Sargassum thunbergii. Chem Pharm Bull 2006;54(12):1730-3 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17139113/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Cai YP et al. Two new resorcinols from Sargassum thunbergii. J Asian Nat Prod Res 2010;12(11):1001-4 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21061223/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "He WF et al. Thunberol, a new sterol from the Chinese brown alga Sargassum thunbergii. J Asian Nat Prod Res 2014;16(6):685-9 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24911542/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Kim KB et al. Lipase inhibitory activity of chlorophyll a, isofucosterol and saringosterol isolated from chloroform fraction of Sargassum thunbergii. Nat Prod Res 2014;28(16):1310-2 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24684169/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Kurihara H et al. Lipoxygenase inhibitors derived from marine macroalgae. Bioorg Med Chem Lett 2014;24(5):1383-5 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24495846/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Terasaki M et al. Evaluation of recoverable functional lipid components of several brown seaweeds (Phaeophyta) from Japan with special reference to fucoxanthin and fucosterol contents. J Phycol 2009;45(4):974-80 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27034228/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Jin W et al. Polysaccharides from Sargassum thunbergii: Monthly variations and anti-complement and anti-tumour activities. Int J Biol Macromol 2017;105(Pt 2):1526-1531 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28528951/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Ren B et al. Optimization of microwave-assisted extraction of Sargassum thunbergii polysaccharides and its antioxidant and hypoglycemic activities. Carbohydr Polym 2017;173:192-201 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28732858/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Lee et al. Fucoidan from Sargassum thunbergii obtained via step gradient ethanol precipitation indicate potential anti-obesity and anti-hepatic steatosis in vitro and in vivo. Food Chem Toxicol 2023;174:113686 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36828168/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Datta et al. Effect of salinity on arsenic uptake, biotransformation, and time-dependent speciation pattern by Sargassum species. Chemosphere 2024;362:142712 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38942244/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Datta et al. Arsenic biotransformation by macroalgae Sargassum thunbergii: Influence of growth stages and phosphate availability on uptake and reductive methylation. Chemosphere 2025;377:144333 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40158346/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Peng et al. Species-specific bioaccumulation and health risk assessment of heavy metal in seaweeds in tropic coasts of South China Sea. Sci Total Environ 2022;832:155031 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35398427/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Samee H et al. Anti-allergic effects of ethanol extracts from brown seaweeds. J Zhejiang Univ Sci B 2009;10(2):147-53 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19235274/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Chu Y et al. Aftermath of marine heatwaves on the growth and physiological performance of Sargassum fusiforme and Sargassum thunbergii. Mar Environ Res 2026;217:107945 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41775130/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "Li JJ et al. Will climate change cause Sargassum beds in temperate waters to expand or contract? Evidence from the range shift pattern of Sargassum. Mar Environ Res 2024;200:106659 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39083877/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 36,
+   "title": "Liu F et al. Distribution, function and evolution characterization of microsatellite in Sargassum thunbergii transcriptome and their application in marker development. Sci Rep 2016;6:18947 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26732855/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

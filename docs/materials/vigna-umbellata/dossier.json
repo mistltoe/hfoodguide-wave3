@@ -1,0 +1,620 @@
+{
+ "slug": "vigna-umbellata",
+ "name_ko": "덩굴팥",
+ "name_en": "Rice bean",
+ "scientific_name": "Vigna umbellata (Thunb.) Ohwi & H. Ohashi",
+ "aliases": [
+  "덩굴팥씨앗",
+  "자주팥",
+  "예팥",
+  "Rice-bean",
+  "rice bean",
+  "panda bean",
+  "Phaseolus calcaratus"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "덩굴팥(Vigna umbellata)은 콩과(Fabaceae) 동부속에 속하는 한해살이 콩으로, 영어로는 rice bean이라고 부른다[1, 3, 5]. 식약처 「식품원료 목록」에는 원료명 '덩굴팥씨앗', 이명 '자주팥·예팥', 영명 'Rice-bean', 학명 Vigna umbellata (Thunb.) Ohwi & H. Ohashi(이명 Phaseolus calcaratus)로 올라 있다[1]. 이 목록에서 덩굴팥씨앗은 사용가능 원료이며 사용 조건은 '사용가능부위 : 씨앗'이어서 씨앗만 식품 원료로 쓸 수 있다[1]. '쌀팥'이라는 이름은 이 목록의 원료명·이명에서 확인하지 못함. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n씨앗은 단백질이 많고 지방이 적은 콩으로, 인도 북서 히말라야 15개 유전자원의 조단백질은 22.56–25.97%, 지질은 1.87–3.17%였다[3]. 씨앗에는 루틴·카테킨·이소쿼시트린 같은 폴리페놀이 들어 있고, 알칼리 가수분해로 얻은 결합형 페놀이 총페놀의 71.15%를 차지했다는 보고가 있다[4, 5]. 이뇨·항산화 작용은 생쥐 실험과 시험관 분석에서 보고되었으며[4, 5], 사람을 대상으로 한 임상시험은 확인하지 못함."
+  },
+  {
+   "key": "history",
+   "title": "역사와 이용",
+   "body": "덩굴팥은 남아시아·동남아시아 열대 지역에서 기원해 작물화되었고, 그 뒤 중국·일본·한국 같은 고위도 지역으로 퍼졌다고 본다[7]. 작물화 중심지는 인도차이나 지역으로 여겨지며, 인도 북동부 유전자원을 다룬 연구는 미얀마–태국 지역에서 작물화되었다고 소개했다[9, 10]. 방글라데시 비크람푸라의 불교 사원 유적(11–16세기)에서는 덩굴팥 유물이 나와, 대륙 동남아시아의 작물이 갠지스 삼각주까지 전해졌음을 보여 준다[11].\n\n씨앗은 수천 년 동안 단백질과 미량영양소 공급원으로 먹혀 왔고 전통 의학에서 이뇨제로 쓰였다[7]. 중국에서는 『신농본초경』에 해독·소염·이뇨 효과가 적혀 있다고 소개되며, 전통 의약에서는 작고 붉은 씨앗만 쓴다고 한다[5]. 중국 연구자들은 덩굴팥을 약이면서 음식인 콩으로 소개한다[4, 18]. 네팔에서는 축제 때 먹는 여러 콩 수프 '크와티'에, 인도 히마찰프라데시에서는 명절 음식 '세푸 바디'에 들어간다[8]. 넓게 퍼졌지만 농사상 불리한 형질 때문에 어디에서도 주요 작물이 되지 못하고 소농의 식량안보 작물로 남았다[9]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "덩굴팥은 제꽃가루받이를 하는 따뜻한 철 한해살이 콩과 작물로, 2배체이며 염색체 수는 2n = 22이다[6]. 줄기는 가늘고 모가 지며 털이 있고, 땅을 기거나 반쯤 서거나 감아 오르며 자란다[8]. 키는 30 cm에서 1.5 m 넘게 자란다는 보고와 3 m까지 자란다는 보고가 있다[6, 8]. 잎은 작은잎 3장으로 된 겹잎이고, 밝은 노란 꽃이 모여 핀다[6].\n\n꼬투리는 길이 7.5–12.5 cm의 원통형으로, 세로로 터지며 긴 타원형 씨앗 6–10개를 내놓는다[8]. 씨앗은 길이 6–8 mm, 너비 2–4 mm이고 빨강·검정·갈색·크림·적갈색·얼룩·노랑 등 색이 다양하다[8]. 단일식물이어서 낮 길이와 온도에 따라 수량과 이용성이 크게 달라진다[7]. 뿌리혹박테리아와 공생해 공기 중 질소를 고정한다[6, 8]. 산성 토양의 알루미늄 독성에 견디며, 뿌리에서 시트르산을 내보내는 VuMATE1 유전자의 발현 조절이 이 적응에 관여한다고 보고되었다[6, 24]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "덩굴팥이 속한 동부속(Vigna)에는 야생종 100종 넘게와 동부·녹두·덩굴팥 등 작물화된 종 10종이 있다[7]. 유전체 비교에서 덩굴팥은 팥(Vigna angularis)과 자매종이며 약 175만 년 전에 갈라진 것으로 추정되었다[7]. 중국 연구에서는 판다콩(panda bean)이라는 이름으로 이 종을 다루기도 했다[21].\n\n식약처 「식품원료 목록」에는 같은 속의 팥, 녹두, 동부, 갓끈동부, 돌동부, Vigna catjang이 각각 다른 원료로 따로 올라 있다[2]. 이 목록에서 '소두·적소두(赤小豆)'는 팥(Vigna angularis)의 이명이고 '돌팥'은 돌동부의 이명이어서, 이름에 '팥'이 들어간다고 덩굴팥과 같은 원료는 아니다[2]. 이름이 비슷한 '덩굴강낭콩'은 강낭콩속(Phaseolus vulgaris) 원료로 덩굴팥과 다른 식물이다[2]. 덩굴팥은 녹두·흑녹두(black gram)와 교잡되어 녹두황색모자이크바이러스 저항성 등을 옮기는 데 쓰인다[6, 22]. 녹두×덩굴팥 교잡 계통은 37.50–78.50%의 부분 임성을 보였고 덩굴팥 유래 유전체 조각이 많이 남아 있었다[22]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "덩굴팥은 인도차이나 지역(태국·미얀마·라오스·베트남)을 중심으로 인도, 네팔, 방글라데시, 스리랑카 등에서 재배된다[8]. 동아시아에서는 중국 남부·대만·한국에서도 재배되고, 아메리카·아프리카·오세아니아 일부에도 들어갔다[8]. 덥고 습한 기후에 잘 자라고 척박한 땅·산성 토양·가뭄에 강하며, 저장 해충인 콩바구미에 저항성이 있다[5, 6]. 중국 남부에서는 녹비 작물로도 쓰인다[8].\n\n대부분 덩굴성·무한 생장형이고 개화가 고르지 않으며 꼬투리가 잘 터져 손으로 수확해야 하고, 이 노동비가 대규모 재배를 막는다[5, 6]. 재래종 440점의 줄기 생장형을 중국 난닝 시험지에서 조사한 결과 85% 넘는 재래종이 무한 생장형이었다[7]. 인도 나갈랜드에서는 2020/21년 수량이 1.1 t/ha로 기록되었다[6]. FAO 통계에서 덩굴팥은 따로 집계되지 않고 '건조 콩' 항목에 합쳐진다[6]. 인도 국가 유전자은행은 1,589점을 보존하고 그중 251점을 핵심 집단으로 골랐다[23]. 케냐 서부에서도 농가 204곳을 대상으로 선호 형질을 조사했다[26]. 국내 재배면적·생산량 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "씨앗은 쌀과 함께 콩으로 먹거나 삶아 수프에 넣고, 어린 꼬투리도 채소로 먹을 수 있다[5, 8]. 중국·일본·한국 등 동아시아에서는 씨앗을 가루로 빻아 구운 과자와 죽에 쓴다고 소개된다[8]. 잎·꽃·어린 줄기·어린 꼬투리 같은 지상부도 채소나 사료로 쓸 수 있다고 하나, 국내 목록에서 식품 원료로 쓸 수 있는 부위는 씨앗뿐이다[1, 5]. 강한 맛과 가스를 일으키는 성질이 널리 먹히는 데 걸림돌로 꼽힌다[8].\n\n불림·발아·가열·발효로 피트산·탄닌 같은 항영양 성분을 줄일 수 있지만, 덩굴팥에서 그 효과는 아직 충분히 정량되지 않았다[8]. 다섯 가지 가공 가운데 발아가 단백질(24.3%)과 총페놀(8.42 mg GAE/g)을 가장 높였다[20]. 18시간 발아한 덩굴팥에서 조단백질이 가장 높았고 주된 페놀은 카테킨과 루틴이었다[17]. 덩굴팥 단백질 분리물은 대두·완두 단백질과 견줄 만하거나 더 나은 유화·거품·겔 형성 능력을 보였다[21]. 국내 건강기능식품 생산실적에서 덩굴팥 원료 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "2022년 재래종 FF25의 염색체 수준 참조 유전체가 PacBio 장독 서열과 Hi-C로 조립되었다[7]. 추정 유전체 크기 약 525.60 Mb 가운데 475.64 Mb가 조립되었고, 465.19 Mb가 염색체 11개에 배치되었다[7]. 단백질 암호 유전자 26,736개가 예측되었고 전이인자가 유전체의 38.40%를 차지했다[7]. 같은 해 다른 연구진은 414 Mb 초안 유전체와 유전자 31,276개를 보고해 출처마다 값이 다르다[12].\n\n재래종 440점의 재서열 분석은 남·동남아시아, 중국 남부, 중국 북부의 세 집단을 나누었고 북쪽으로 퍼지는 동안 유전적 병목이 있었음을 보였다[7]. FUL·FT·PRR3 유전자 좌위는 고위도 적응에, VumCYP78A6의 복제수 변이는 씨앗 수량 형질에 관여했다[7]. 중국 중남부 산악 지역 재래종 32점은 TFL1 유전자의 삽입·결실로 유한 생장형 줄기를 가지며 적어도 200년 동안 사람이 개량해 온 것으로 추정되었다[7]. 미토콘드리아 유전체는 404,493 bp의 원형으로 단백질 유전자 32개, tRNA 17개, rRNA 3개를 지녔다[13]. 인도 유전자원 100점의 전사체 연관 분석에서 개화·성숙·씨앗 무게 후보 유전자가 찾아졌다[25]. 인도 북동부 65점의 SSR 분석은 높은 유전 다양성과 높은 타가수분률을 보였다[10]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "덩굴팥씨앗은 식약처 「식품원료 목록」에서 씨앗에 한해 사용가능한 원료다[1]. 이 종에 대한 식약처 등 국내 공공기관의 알레르기·잔류·독성 정보는 확인하지 못함. 다른 콩처럼 씨앗에는 트립신 저해제, 피트산, 사포닌, 탄닌, 옥살산 같은 항영양 성분이 있어 소화와 무기질 흡수를 떨어뜨릴 수 있다[3, 14].\n\n인도 재배 38점에서 피트산 303–760 mg/100 g, 트립신 저해제 309–1076 mg/100 g, 옥살산 219–431 mg/100 g이 측정되었다[14]. 다른 연구는 피트산을 3.22–4.16 mg/100 g으로 보고해 연구마다 값 차이가 크다[3]. 인도 북동부 11개 품종에는 시안화수소가 49.90–158.17 μg/100 g 들어 있었다[15]. 장내 가스를 만드는 라피노스·스타키오스·베르바스코스 같은 올리고당이 있으며, 11개 품종의 가스 유발 당 합계는 937.13–1944.55 mg/100 g이었다[16]. 생쥐 실험에서는 덩굴팥 달인 물이 오줌량을 늘렸으나, 사람 대상 안전성·효능 시험은 확인하지 못함[5]."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "씨앗",
+   "content_text": "씨앗 172.7–311.8 µg/g, 9개 유전자원 평균 232.2 µg/g(HPLC)[5]; 80% 메탄올 추출 58.07 mg/kg DW[4]",
+   "activity_ko": "이 연구의 8개 성분 중 가장 많음; 오줌량과 약한 양의 상관(R = 0.37, 유의하지 않음)[5]; 발아 덩굴팥의 주된 페놀[17]",
+   "source": [
+    4,
+    5,
+    17
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "카테킨",
+   "class": "플라반-3-올",
+   "role": "marker",
+   "part": "씨앗",
+   "content_text": "씨앗 30.9–108.6 µg/g, 평균 64.4 µg/g[5]; 물 추출 53.35, 알칼리 가수분해(결합형) 72.04 mg/kg DW[4]",
+   "activity_ko": "자유형·결합형 모두에 많아 항산화능에 주로 기여[4]; 껍질 식이섬유 결합 폴리페놀에서도 동정[18]",
+   "source": [
+    4,
+    5,
+    18
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "이소쿼시트린",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "80% 메탄올 추출 163.45 mg/kg DW, 물 추출 87.96 mg/kg DW[4]",
+   "activity_ko": "자유형 페놀 중 가장 많음[4]; 모의 위 소화 단계에서 226%로 증가[19]",
+   "source": [
+    4,
+    19
+   ]
+  },
+  {
+   "name": "Procyanidin B1",
+   "name_ko": "프로시아니딘 B1",
+   "class": "축합형 탄닌(이량체)",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "80% 메탄올 추출 106.63, 물 추출 68.12, 알칼리 가수분해 17.58 mg/kg DW[4]",
+   "activity_ko": "모의 장 단계에서 분해되어 검출되지 않음[19]",
+   "source": [
+    4,
+    19
+   ]
+  },
+  {
+   "name": "Taxifolin",
+   "name_ko": "탁시폴린",
+   "class": "디하이드로플라보놀",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "물 추출 52.85 mg/kg DW[4]",
+   "activity_ko": "자유형 주성분의 하나[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "4-Hydroxybenzoic acid",
+   "name_ko": "p-하이드록시벤조산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "알칼리 가수분해 38.85, 산 가수분해 20.93 mg/kg DW[4]",
+   "activity_ko": "결합형 페놀의 항산화능 기여 성분[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Gallic acid",
+   "name_ko": "갈산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "알칼리 가수분해 13.42 mg/kg DW[4]; 건조 씨앗 5 µg/g 미만(HPLC)[5]",
+   "activity_ko": "생쥐 오줌량과 유의한 음의 상관(R = −0.70)[5]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Vitexin",
+   "name_ko": "비텍신",
+   "class": "C-배당체 플라본",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "9개 유전자원 평균 21.6 µg/g(녹두 849.2 µg/g)[5]; 가장 많은 유전형 401.84 µg/g이라는 종설 인용[8]",
+   "activity_ko": "덩굴팥보다 녹두에 훨씬 많음[5]",
+   "source": [
+    5,
+    8
+   ]
+  },
+  {
+   "name": "Isovitexin",
+   "name_ko": "이소비텍신",
+   "class": "C-배당체 플라본",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "9개 유전자원 평균 17.9 µg/g[5]; 가장 많은 유전형 190.29 µg/g이라는 종설 인용[8]",
+   "activity_ko": "오줌량과 약한 음의 상관(R = −0.30)[5]",
+   "source": [
+    5,
+    8
+   ]
+  },
+  {
+   "name": "Phloroglucinol",
+   "name_ko": "플로로글루시놀",
+   "class": "페놀",
+   "role": "bioactive",
+   "part": "씨앗",
+   "content_text": "알칼리 가수분해 28.26 mg/kg DW[4]; 모의 소화 중 10 → 36 mg/kg DW로 증가[19]",
+   "activity_ko": "결합형 페놀 가운데 상대 항산화능이 가장 큼[4]",
+   "source": [
+    4,
+    19
+   ]
+  },
+  {
+   "name": "Stachyose",
+   "name_ko": "스타키오스",
+   "class": "라피노스계 올리고당",
+   "role": "nutrient",
+   "part": "씨앗",
+   "content_text": "11개 품종 692.7–1480.67 mg/100 g(HPLC)[16]; 인도 38점 117–5765 mg/100 g[14]",
+   "activity_ko": "장내 가스를 일으키는 당 중 가장 많음[16]",
+   "source": [
+    14,
+    16
+   ]
+  },
+  {
+   "name": "Raffinose",
+   "name_ko": "라피노스",
+   "class": "라피노스계 올리고당",
+   "role": "nutrient",
+   "part": "씨앗",
+   "content_text": "11개 품종 196.29–429.5 mg/100 g[16]; 인도 38점 47–186 mg/100 g[14]",
+   "activity_ko": "가스를 일으키는 당[16]",
+   "source": [
+    14,
+    16
+   ]
+  },
+  {
+   "name": "Phytic acid",
+   "name_ko": "피트산",
+   "class": "이노시톨 인산(항영양 성분)",
+   "role": "nutrient",
+   "part": "씨앗",
+   "content_text": "인도 38점 303–760 mg/100 g[14]; 11개 품종 205.38–432.14 mg/100 g[15]; 15개 유전자원 3.22–4.16 mg/100 g[3]",
+   "activity_ko": "무기질 흡수를 떨어뜨림; 연구마다 값 차이가 큼[3, 14]",
+   "source": [
+    3,
+    14,
+    15
+   ]
+  },
+  {
+   "name": "alpha-Linolenic acid",
+   "name_ko": "알파-리놀렌산",
+   "class": "다가불포화지방산",
+   "role": "nutrient",
+   "part": "씨앗",
+   "content_text": "씨앗 지방산의 32.56–38.54%(GC)[3]",
+   "activity_ko": "15개 유전자원에서 가장 많은 지방산[3]",
+   "source": [
+    3
+   ]
+  },
+  {
+   "name": "Hydrogen cyanide",
+   "name_ko": "시안화수소",
+   "class": "시안 화합물(독성 성분)",
+   "role": "nutrient",
+   "part": "씨앗",
+   "content_text": "인도 북동부 11개 품종 49.90–158.17 μg/100 g[15]",
+   "activity_ko": "독성 성분으로 함량을 확인하는 대상[15]",
+   "source": [
+    15
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "건조 씨앗 가루(인도 국가 유전자은행 유전자원 IC-548770, 원문 단위 seed flour 100 g당; 수분 보정 기준은 원문에 적혀 있지 않음)",
+   "basis": "100 g",
+   "items": [
+    {
+     "name": "조단백질",
+     "value": 22.65,
+     "unit": "g"
+    },
+    {
+     "name": "총탄수화물",
+     "value": 55.47,
+     "unit": "g"
+    },
+    {
+     "name": "식이섬유",
+     "value": 4.97,
+     "unit": "g"
+    },
+    {
+     "name": "지질",
+     "value": 3.1,
+     "unit": "g"
+    },
+    {
+     "name": "아스코르브산",
+     "value": 18.7,
+     "unit": "mg"
+    },
+    {
+     "name": "나이아신",
+     "value": 3.47,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 310.54,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 1422.25,
+     "unit": "mg"
+    },
+    {
+     "name": "칼슘",
+     "value": 460.58,
+     "unit": "mg"
+    },
+    {
+     "name": "마그네슘",
+     "value": 315.54,
+     "unit": "mg"
+    },
+    {
+     "name": "인",
+     "value": 488.78,
+     "unit": "mg"
+    },
+    {
+     "name": "아연",
+     "value": 2.77,
+     "unit": "mg"
+    },
+    {
+     "name": "구리",
+     "value": 3.85,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 7.87,
+     "unit": "mg"
+    },
+    {
+     "name": "망간",
+     "value": 5.36,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    3
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Rutin; Catechin; Vitexin; Isovitexin; Gallic acid; Chlorogenic acid; Caffeic acid; Genistein",
+   "compound_ko": "루틴·카테킨·비텍신·이소비텍신·갈산·클로로겐산·카페산·제니스테인",
+   "part": "씨앗(중국 싼야 2022년 수확 9개 유전자원)",
+   "content": "루틴 172.7–311.8 µg/g(평균 232.2), 카테킨 30.9–108.6 µg/g(평균 64.4), 비텍신 평균 21.6 µg/g, 이소비텍신 평균 17.9 µg/g, 나머지 4종 5 µg/g 미만[5]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "HPLC (Shimadzu LC-20ADXR)",
+    "column": "Waters BEH C18, 100 mm × 2.1 mm, 1.7 μm",
+    "mobile_phase": "A: 아세토니트릴, B: 0.1% 포름산 수용액",
+    "gradient": "0–5분 B 90%; 5–27.5분 B 90→78%; 27.5–38분 B 78%; 38–43분 B 78→90%; 43–55분 B 90%",
+    "flow": "0.3 mL/min",
+    "temp": "25 °C",
+    "detection": "280 nm",
+    "injection": "20 µL",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "덩굴팥 씨앗에서 가장 많은 폴리페놀이 루틴, 그다음이 카테킨이어서 녹두(비텍신·이소비텍신이 많음)와 구별되는 지표로 쓸 수 있다[5]. 전문(Methods)에서 조건을 옮겼으며, 시료 추출법·표준품 출처·검량선·검출한계·정량한계·회수율은 논문에 적혀 있지 않아 확인하지 못함.",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.3390/nu16111603",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Isoquercitrin; Procyanidin B1; Catechin; Rutin; Taxifolin; 4-Hydroxybenzoic acid",
+   "compound_ko": "이소쿼시트린·프로시아니딘 B1·카테킨·루틴·탁시폴린·p-하이드록시벤조산",
+   "part": "씨앗(중국 자오칭산 시판품, 0.18–0.25 mm 분말)",
+   "content": "80% 메탄올 추출 이소쿼시트린 163.45, 프로시아니딘 B1 106.63, 루틴 58.07 mg/kg DW; 알칼리 가수분해(결합형) 카테킨 72.04, p-하이드록시벤조산 38.85 mg/kg DW[4]",
+   "method": "UPLC-Q-Exactive Orbitrap MS/MS",
+   "conditions": {
+    "instrument": "UPLC-Q-Exactive Orbitrap MS/MS (Thermo Fisher Scientific), ESI",
+    "column": "Waters ACQUITY UPLC BEH C18, 2.1 × 100 mm, 1.7 µm",
+    "mobile_phase": "A: 0.1% 포름산 수용액(Milli-Q), B: 아세토니트릴",
+    "gradient": "0–3분 B 5–15%; 3–11분 15–30%; 11–15분 30–50%; 15–21분 50–90%; 21–22분 90→5%",
+    "flow": "0.15 mL/min",
+    "temp": "",
+    "detection": "ESI 양·음이온 모드, m/z 70–1050; 모세관 전압 3200 V, 모세관 온도 320 °C, 분해능 7000, 시스 가스 35 arb, 보조 가스 10 arb",
+    "injection": "2 µL",
+    "sample_prep": "자유형: 분말 0.5 g + 물 또는 1% 포름산 함유 80% 메탄올 15 mL, 초음파 360 W·25 °C 30분, 4 °C 9000×g 15분 원심분리를 3회 반복 후 농축, 80% 메탄올 5 mL로 재용해. 결합형: 잔사를 3 M HCl(80 °C 60분), 3 M NaOH(EDTA·아스코르브산 포함, 30 °C 4시간) 또는 셀룰라아제·헤미셀룰라아제·펙티나아제(1:1:1, pH 5.0, 50 °C 2시간)로 가수분해 후 에틸아세테이트로 4회 추출",
+    "standard": "갈산·카테킨·루틴·이소쿼시트린·탁시폴린·프로시아니딘 B1 등 26종 표준품과 머무름시간·질량 스펙트럼 비교, 표준품별 외부 검량선으로 정량",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "자유형과 결합형 페놀을 나누어 35종을 동정·정량한 연구로, 이소쿼시트린·프로시아니딘 B1·루틴·카테킨이 자유형의, 카테킨·p-하이드록시벤조산·플로로글루시놀이 결합형의 주성분이었다[4]. 전문(Methods)에서 조건을 옮겼으며, 칼럼 온도·검출한계·정량한계·회수율은 논문에 없어 확인하지 못함.",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.3390/foods12142718",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Stachyose; Raffinose; Verbascose; Ajugose; Sucrose; Glucose",
+   "compound_ko": "스타키오스·라피노스·베르바스코스·아주고스·자당·포도당",
+   "part": "씨앗(인도 북동부 11개 품종)",
+   "content": "스타키오스 692.7–1480.67, 라피노스 196.29–429.5, 베르바스코스 47.66–130.36, 아주고스 0.27–8.82 mg/100 g; 가스 유발 당 합계 937.13–1944.55 mg/100 g[16]",
+   "method": "HPLC(등용매, NH2 칼럼)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "스타키오스가 모든 품종에서 가스 유발 당 중 가장 많아 가스 유발 당 함량으로 품종을 세 무리로 나누는 데 쓰였다[16]. 초록에는 Spherisorb NH2 칼럼, 아세토니트릴:물 70:30 등용매, 1 mL/min, 20분 이내 분리로 적혀 있으나 전문 확인 못함이어서 조건 칸은 비워 두었다(검출기·검량선·회수율 확인하지 못함).",
+   "source": [
+    16
+   ],
+   "url": "https://doi.org/10.1007/s13197-019-03675-z",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 덩굴팥씨앗(Vigna umbellata (Thunb.) Ohwi & H. Ohashi / Phaseolus calcaratus, 이명 자주팥·예팥, 영명 Rice-bean), 사용가능부위: 씨앗, 사용가능",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속·이름이 비슷한 다른 원료 행: 팥(Phaseolus angularis / Vigna angularis, 이명 소두·적소두(赤小豆)), 녹두(Vigna radiata), 동부(Vigna unguiculata), 갓끈동부열매(Vigna sesquipedalis), 돌동부뿌리(Vigna vexillata var. tsusimensis, 이명 돌팥), Cowpea씨앗(Vigna catjang), 덩굴강낭콩(Phaseolus vulgaris)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Nutritional and nutraceutical potential of rice bean (Vigna umbellata) – a legume with hidden potential. Front Nutr 2023;10:1126544 (PMID 37360302; PMC10289016 전문 확인)",
+   "url": "https://doi.org/10.3389/fnut.2023.1126544",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Profiles of Free and Bound Phenolics and Their Antioxidant Capacity in Rice Bean (Vigna umbellata). Foods 2023;12(14):2718 (PMID 37509810; PMC10378860 전문 확인)",
+   "url": "https://doi.org/10.3390/foods12142718",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Assessment of the Diuretic Properties of Rice Bean Accessions Using a Mouse Model and Identification of Active Polyphenolic Compounds. Nutrients 2024;16(11):1603 (PMID 38892535; PMC11174000 전문 확인)",
+   "url": "https://doi.org/10.3390/nu16111603",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Genetic improvement and bioactive potential of rice bean (Vigna umbellata) for climate resilience and sustainable agriculture. Front Plant Sci 2026;17:1817491 (PMID 42147274; PMC13171546 전문 확인)",
+   "url": "https://doi.org/10.3389/fpls.2026.1817491",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Genomic analyses of rice bean landraces reveal adaptation and yield related loci to accelerate breeding. Nat Commun 2022;13:5707 (PMID 36175442; PMC9523027 전문 확인)",
+   "url": "https://doi.org/10.1038/s41467-022-33515-2",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Unlocking the potential of rice bean (Vigna umbellata): Emerging source of bioactives for future foods and food security. J Food Compos Anal 2026;156:109278 (PMID 42583067; PMC13459508 전문 확인)",
+   "url": "https://doi.org/10.1016/j.jfca.2026.109278",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Rice bean: a lesser known pulse with well-recognized potential. Planta 2019;250(3):873-890 (PMID 31134340; 초록만 확인)",
+   "url": "https://doi.org/10.1007/s00425-019-03196-1",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Development and characterization of a new set of genomic microsatellite markers in rice bean (Vigna umbellata) and their utilization in genetic diversity analysis of collections from North East India. PLoS One 2017;12(7):e0179801 (PMID 28686712; 초록만 확인)",
+   "url": "https://doi.org/10.1371/journal.pone.0179801",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Agricultural systems in Bangladesh: the first archaeobotanical results from Early Historic Wari-Bateshwar and Early Medieval Vikrampura. Archaeol Anthropol Sci 2020;12:37 (PMID 32010407; 초록만 확인)",
+   "url": "https://doi.org/10.1007/s12520-019-00991-5",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Genome assembly of rice bean (Vigna umbellata) – a nominated nutritionally rich future crop reveals novel insights into flowering potential, habit, and palatability centric traits. Front Plant Sci 2022;13:739654 (PMID 36267942; 초록만 확인)",
+   "url": "https://doi.org/10.3389/fpls.2022.739654",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Characterization of the complete mitochondrial genome of the rice bean (Vigna umbellata). BMC Plant Biol 2024;24:1239 (PMID 39716065; 초록만 확인)",
+   "url": "https://doi.org/10.1186/s12870-024-05963-z",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Assessment of diversity in anti-nutrient profile, resistant starch, minerals and carbohydrate components in different ricebean (Vigna umbellata) accessions. Food Chem 2023;405(Pt A):134835 (PMID 36356361; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.134835",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Studies on physico-chemical and cooking characteristics of rice bean varieties grown in NE region of India. J Food Sci Technol 2017;54(4):973-986 (PMID 28303048; 초록만 확인)",
+   "url": "https://doi.org/10.1007/s13197-016-2400-z",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "HPLC profiling of flatulence and non-flatulence saccharides in eleven ricebean (Vigna umbellata) varieties from North-East India. J Food Sci Technol 2019;56(3):1655-1662 (PMID 30956347; PMC6423229 — 도구에서 본문이 비어 초록만 확인)",
+   "url": "https://doi.org/10.1007/s13197-019-03675-z",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Effect of acid pretreatment and the germination period on the composition and antioxidant activity of rice bean (Vigna umbellata). Food Chem 2017;227:280-288 (PMID 28274433; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2017.01.103",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Optimization and identification of bound polyphenols from rice bean (Vigna umbellata) skin dietary fiber, antioxidant activities and α-glucosidase inhibition mechanism. Food Chem X 2025;32:103278 (PMID 41323664; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.fochx.2025.103278",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Bioaccessibility and Dynamic Changes in Free and Bound Phenolics in Rice Bean (Vigna umbellata) During Simulated Digestion. Foods 2026;15(11):1985 (PMID 42279771; 초록만 확인)",
+   "url": "https://doi.org/10.3390/foods15111985",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Metabolomics reveals the effect of sand roasting, freeze-drying, and different hydrothermal treatments on the physical, functional and bioactive profile of Rice bean (Vigna umbellata). Food Chem X 2026;39:104553 (PMID 42898583; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.fochx.2026.104553",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Introducing panda bean (Vigna umbellata (Thunb.) Ohwi et Ohashi) protein isolate as an alternative source of legume protein: Physicochemical, functional and nutritional characteristics. Food Chem 2022;388:133016 (PMID 35486987; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2022.133016",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Genome analysis and introgression of multiple disease resistance into pre-breeding lines derived from greengram × ricebean crosses. Mol Biol Rep 2026;53(1) (PMID 42377644; 초록만 확인)",
+   "url": "https://doi.org/10.1007/s11033-026-12210-1",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Multi-environment phenotyping of ricebean (Vigna umbellata (Thunb.) Ohwi & Ohashi) germplasm and identification of core set for accelerating the crop improvement programs. Front Plant Sci 2026;17:1757675 (PMID 41937761; 초록만 확인)",
+   "url": "https://doi.org/10.3389/fpls.2026.1757675",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Characterization of VuMATE1 Expression in Response to Iron Nutrition and Aluminum Stress Reveals Adaptation of Rice Bean (Vigna umbellata) to Acid Soils through Cis Regulation. Front Plant Sci 2016;7:511 (PMID 27148333; 초록만 확인)",
+   "url": "https://doi.org/10.3389/fpls.2016.00511",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Transcriptome-wide association mapping provides insights into the genetic basis and candidate genes governing flowering, maturity and seed weight in rice bean (Vigna umbellata). BMC Plant Biol 2024;24:379 (PMID 38720284; 초록만 확인)",
+   "url": "https://doi.org/10.1186/s12870-024-04976-y",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Farmers' preferences for rice bean production traits in western Kenya. Heliyon 2024;10(21):e39888 (PMID 39524887; 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.heliyon.2024.e39888",
+   "publisher": "PubMed (National Library of Medicine)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

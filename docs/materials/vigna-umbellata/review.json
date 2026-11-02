@@ -1,0 +1,61 @@
+{
+ "slug": "vigna-umbellata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 77,
+ "checked_items": 66,
+ "verified": 134,
+ "fixed": 7,
+ "removed": 0,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "…한해살이 콩으로, 영어로는 rice bean이라고 부른다[1, 3].",
+   "after": "…[1, 3, 5].",
+   "why": "'한해살이·동부속'은 [5] 서론(annual legume in the genus Vigna)이 뒷받침; [1]·[3]에는 한해살이 언급 없음"
+  },
+  {
+   "where": "sections.overview",
+   "before": "이뇨·항산화 작용은 동물과 시험관 실험에서 보고되었으며,",
+   "after": "이뇨·항산화 작용은 생쥐 실험과 시험관 분석에서 보고되었으며[4, 5],",
+   "why": "출처 표시 누락; 이뇨는 [5] 생쥐 위내투여, 항산화는 [4] 시험관 분석"
+  },
+  {
+   "where": "sections.biology",
+   "before": "…VuMATE1 유전자의 발현 조절이 이 적응에 관여한다고 보고되었다[24].",
+   "after": "…[6, 24].",
+   "why": "[24] 초록에는 시트르산 분비 언급이 없고 [6] 전문(citrate efflux)이 뒷받침"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "중국 재래종 440점을 베이징·난닝·싼야에서 키운 연구에서 85% 넘는 재래종이 무한 생장형이었다[7].",
+   "after": "재래종 440점의 줄기 생장형을 중국 난닝 시험지에서 조사한 결과 85% 넘는 재래종이 무한 생장형이었다[7].",
+   "why": "[7] 전문: 줄기 생장형은 난닝에서만 조사(2020·2021); 440점에는 남·동남아시아 집단도 포함돼 '중국 재래종'이 아님"
+  },
+  {
+   "where": "sections.processing",
+   "before": "…어린 꼬투리는 채소로 먹는다[8].",
+   "after": "…어린 꼬투리도 채소로 먹을 수 있다[5, 8].",
+   "why": "[8] 전문에는 어린 꼬투리 채소 이용 문구가 없고 [5] 서론(leaves, flowers, shoots, young pods … vegetables)이 뒷받침"
+  },
+  {
+   "where": "nutrients[0].form",
+   "before": "씨앗 가루(… IC-548770, 원물 기준 측정값)",
+   "after": "건조 씨앗 가루(… IC-548770, 원문 단위 seed flour 100 g당; 수분 보정 기준은 원문에 적혀 있지 않음)",
+   "why": "[3] 전문은 공기 건조 분말(seed flour) 기준으로 보고하며 '원물 기준'이라는 말이 없음(생/건 기준 오기)"
+  },
+  {
+   "where": "assays[2].rationale",
+   "before": "…먹기 좋은 품종을 고르는 지표로 쓰였다[16].",
+   "after": "…가스 유발 당 함량으로 품종을 세 무리로 나누는 데 쓰였다[16].",
+   "why": "[16] 초록은 PCA로 품종을 세 무리로 분류했다고만 씀(과장 완화)"
+  }
+ ],
+ "unverifiable_notes": [
+  "[16] PMC6423229 는 PubMed 도구에서 본문이 비어 초록만 확인 — 분석 조건 칸은 비워 둔 채 유지",
+  "[4] 시료는 중국 자오칭 유통기지 구입품(본문에 'also known as red bean')으로 종 동정 근거가 논문에 적혀 있지 않음 — 팥(V. angularis) 혼입 가능성은 확인 불가, 원문 학명대로 유지",
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 의 '덩굴팥씨앗' 행(Vigna umbellata / Phaseolus calcaratus, 이명 자주팥·예팥, 영명 Rice-bean, 사용가능부위: 씨앗, 사용가능)과 card.json·overview 일치. '쌀팥'은 I1020 원자료 어디에도 없음(overview 의 '확인하지 못함' 유지). 같은 속 팥·녹두·동부·갓끈동부·돌동부·Vigna catjang 및 덩굴강낭콩 행은 related_species[2] 기술과 일치",
+  "[3]·[4]·[5] 는 PMC 전문, [6]·[7]·[8] 은 _work 전문, 나머지는 PubMed 초록으로 대조"
+ ]
+}

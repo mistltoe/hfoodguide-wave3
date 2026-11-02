@@ -1,0 +1,680 @@
+{
+ "slug": "amelanchier-alnifolia",
+ "name_ko": "오리잎채진목",
+ "name_en": "Saskatoon berry (serviceberry, Juneberry)",
+ "scientific_name": "Amelanchier alnifolia (Nutt.) Nutt. ex M. Roem.",
+ "aliases": [
+  "오리잎채진목열매",
+  "사스카툰",
+  "사스카툰베리",
+  "Pacific serviceberry열매",
+  "Saskatoon",
+  "Saskatoon berry",
+  "Serviceberry",
+  "June berry",
+  "Juneberry",
+  "Western serviceberry",
+  "Amelanchier alnifolia semiintegrifolia"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "오리잎채진목(Amelanchier alnifolia)은 장미과 채진목속의 낙엽 관목으로, 북미 서부가 원산이며 영어로 사스카툰베리·서비스베리·준베리 등으로 불린다[3]. 식약처 「식품원료 목록」에는 원료명 '오리잎채진목열매'(학명 Amelanchier alnifolia (Nutt.) Nutt. ex M. Roem., 이명 사스카툰)와 'Pacific serviceberry열매'(Amelanchier alnifolia semiintegrifolia) 두 행으로 올라 있다[1]. 두 행 모두 식품에 쓸 수 있는 원료(사용가능)이고, 사용 조건은 '사용가능부위 : 열매'로 열매만 쓸 수 있다[1]. 두 행 모두 대분류가 '식품원료(A코드)'이며[1], 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n열매는 블루베리처럼 보이지만 사과에 더 가까운 이과(梨果)이며, 생과·건과로 먹거나 음료·시럽·잼·케이크·와인으로 만든다[2]. 주된 기능성 성분은 시아니딘-3-갈락토사이드 중심의 안토시아닌, 퀘르세틴 배당체, 클로로겐산, 프로시아니딘이다[3, 4]. 쥐 실험에서는 열매 분말이 혈당·인슐린 저항성·지방간·혈압 지표를 개선했다[19, 20]. 효과 근거는 대부분 이런 동물 실험이고, 사람에서 대사 효과를 본 연구는 건강한 성인 20명이 10주 동안 동결건조 열매 40 g을 매일 먹은 단일군·비맹검 예비 시험 하나다(그 밖의 사람 연구는 안토시아닌 흡수 연구)[7, 18]. 열매에서 시안배당체(아미그달린·프루나신)가, 가지에서 시안화수소 독성이 보고되어 안전성 절에 따로 정리했다[2, 14]."
+  },
+  {
+   "key": "history",
+   "title": "역사",
+   "body": "북미 원주민은 이 열매를 들소 생고기·지방과 섞어 보존식 페미컨(pemmican)을 만들었고, 먼 사냥 길의 비상식으로 썼다[3]. 블랙풋 부족은 가지와 잎으로 끓인 차를 당뇨 관리에 썼다고 전해지며, 이 전통을 확인하려는 쥐 실험에서 잎 추출물이 소장 α-글루코시다아제를 억제하고 식후 혈당 상승을 늦췄다[3, 21]. 캐나다 원주민은 열매즙을 위장 문제에, 덜 익은 열매를 눈·귀에 넣는 약으로 썼다는 기록도 정리되어 있다[2]. 초기 정착민은 열매를 소독과 유산 예방에도 썼다고 한다[3].\n\n캐나다에서는 1960년대 중반부터 상업 과수원이 생겼고, 최근 20여 년 사이 핀란드·폴란드·체코 등 유럽으로 재배가 넓어졌다[3]. 미국 인터마운틴 웨스트 지역 소비자 115명 조사에서는 생과 선호도가 하스카프보다 낮았으나, 가공품 형태로 판매 기간을 늘릴 기회가 있다고 보고되었다[30]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "오리잎채진목은 캐나다 서부 초원(앨버타·서스캐처원·매니토바)과 유콘·노스웨스트 준주 남부, 미국 북서부에 자생하는 키 큰 관목이며, -60 °C에서도 살아남을 만큼 추위에 강하다[3]. 봄에 흰 꽃이 피고, 열매는 흰색에서 붉은색을 거쳐 짙은 보라색으로 익는다[2, 3]. 2025년 리뷰에 따르면 한 송이에 열매가 7–15개 달리고, 열매 지름은 14–18 mm, 무게는 0.9–1.4 g이다[2]. 열매는 껍질·과육·씨로 이루어지며[2], 17개 품종의 씨 기름 함량은 9.4–18.7%였다[13].\n\n안토시아닌은 어린 열매에서는 적다가 익기 시작하면 크게 늘고, 플라보놀과 프로안토시아니딘은 어린 열매 조직과 발달 중인 씨껍질에 많다가 열매가 커지면서 줄어든다[17]. 흰 열매를 맺는 품종도 있으며, 안토시아닌 증가는 푸른 보라색 열매 품종에서만 나타났다[17]. 핀란드 재배 4개 품종의 전체 안토시아닌은 생중량 100 g당 258.7–517.9 mg으로 열매 페놀의 63%를 차지했다[11]. 껍질에는 안토시아닌·히드록시신남산·트라이테르페노이드·카로티노이드가, 과육에는 가용성 고형분과 플라보놀이, 씨에는 중합 프로시아니딘이 주로 있다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "이름과 가까운 종",
+   "body": "채진목속(Amelanchier)은 배수체화와 무수정생식(아포믹시스) 때문에 종 구분이 어렵기로 이름난 속이다[22]. 이배체 종들은 서로 잘 섞이지 않는 뚜렷한 계통이며, 속의 뼈대는 주로 북미 서부의 A 계통, 북미 동부의 B 계통, 구대륙의 O 계통으로 나뉜다[22]. ITS 분석에서는 북미 서부 종들이 A. humilis·A. sanguinea와 함께 A 계통을 이룬다[25].\n\n식약처 목록에는 같은 속 열매가 여러 행으로 따로 올라 있어 아르보레아채진목(A. arborea)·레비스채진목(A. laevis)·상귀네아채진목(A. huroensis / A. sanguinea)·Juneberry열매(A. canadensis)·Shadbush열매(A. humilis)·Amelanchier bartramiana열매 등은 이 종과 다른 원료다[1]. 'Pacific serviceberry열매'라는 같은 원료명이 A. alnifolia semiintegrifolia와 A. interior 두 학명에 쓰이고, 영어 이름 Pacific serviceberry는 A. weigandii 행에도 있어 이름만으로는 섞이기 쉽다[1]. 변종 'Cusicks serviceberry열매'(A. alnifolia var. cusickii)도 따로 올라 있다[1]. 연구에서도 'Saskatoon berry'라는 이름 아래 라마르크채진목(A. lamarckii) 품종을 함께 다룬 예가 있어 학명 확인이 필요하다[33]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "사스카툰베리 재배 면적이 가장 큰 나라는 캐나다이며, 서스캐처원주에서 두 번째로 많이 재배하는 과일이다[2]. 2025년 리뷰는 캐나다 농업농식품부 자료를 인용해 2022년 캐나다 재배 면적 1,080 ha, 생산량 689 t, 총생산액 291만 5천 캐나다달러라고 적었다[2]. 이 통계의 원자료는 직접 확인하지 못함.\n\n심은 뒤 3–5년에 열매를 맺기 시작해 6–8년에 수확이 많아지고 12–15년에 최대가 된다[2]. 토양 조건을 크게 가리지 않고 겨울 추위에 강해 폴란드에서는 시험 포장과 소규모 재배가 이루어지고, 리투아니아에서도 잘 자랄 수 있다고 소개된다[4, 5]. 묘목은 조직배양으로 늘리며, 메타-토폴린 20 μM 처리에서 절편당 신초 30개로 가장 많이 증식했다[27]. 병해로는 녹병균 Gymnosporangium nelsonii가 미국 미시간의 2년생 'Northline' 포장에서 거의 모든 그루에 생겨 덜 익은 열매 표면의 평균 70% 이상을 덮은 사례가 보고되었다[26]. 국내 재배 면적과 생산 통계는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "열매는 수분 75–80%(습량 기준)에서 수확하므로 오래 두려면 말리며, 마이크로파-진공 건조로 수분 75.5%에서 약 25%까지 낮춘 연구가 있다[28]. 건조 방법 비교에서는 마이크로파-진공 건조가 폴리페놀을 잘 보존하면서 동결건조보다 건조 시간을 크게 줄였다고 정리되어 있다[2]. 주스를 짜고 남은 박에도 페놀이 많아, 건조 박 1 kg당 총페놀 43.3 g, 총안토시아닌 2.8 g, 총플라보노이드 10.3 g이 추출되었다[29]. 열매 분말 3%를 넣은 빵은 관능과 색이 좋아지고 α-아밀라아제·α-글루코시다아제 억제 활성이 높아졌다[2].\n\n리투아니아 연구는 동결건조 열매를 50% 에탄올, 50–55 °C에서 30분 초음파 추출한 뒤 유당 담체 분말로 만들어 경질 캡슐을 만들었고, 유럽약전의 질량 균일성·붕해 시간 기준을 충족했다[5]. -20 °C에서 9개월 냉동 보관할 때 폴리페놀 변화는 품종마다 달랐고 'Nelson'·'Lee 2'가 가장 안정했다[12]. 식약처 「식품 등의 생산실적」에서 오리잎채진목을 원료명으로 한 건강기능식품 품목은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "채진목속 1,355개체의 게놈 크기를 유세포분석으로 잰 연구에서 이배체가 32%, 사배체가 62%, 삼배체가 6%였다[23]. 이배체 씨앗은 2%만 무수정생식이었으나 삼배체는 75%, 사배체는 97%가 무수정생식이었고, 사배체는 흔히 작은 '미소종'을 이룬다[23]. 인정된 종 대부분 안에 여러 배수성이 섞여 있어 겉모습만으로 가리기 어렵다[23]. 엽록체 전체 게놈으로는 채진목속이 단계통으로 묶이지 않았으나 핵 리보솜 DNA로는 단계통이었고, 연구진은 근연 속(페라필룸·말라코멜레스)의 위치가 두 자료에서 엇갈리는 것을 북미 남서부에서 일어난 옛 엽록체 포획으로 설명했다[24]. 오리잎채진목 자체의 핵 게놈 해독 결과는 확인하지 못함.\n\n품종 사이 성분 차이도 크다: 캐나다 17개 품종 가운데 'Nelson'의 총폴리페놀·안토시아닌·프로시아니딘이 생중량 100 g당 801·382·278 mg으로 가장 높았다[12]. 씨 기름의 리놀레산 비율은 47.3%('Success')에서 60.1%('Lee 3')까지 품종에 따라 달랐다[13]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 목록에서 오리잎채진목은 열매에 한해 사용가능한 식품원료(A코드)이다[1]. 건강기능식품 고시형 원료는 확인하지 못해, 고시 섭취 시 주의사항도 확인하지 못함. 시안배당체를 처음 정량한 원 논문 초록에 따르면 익은(보라색) 열매의 아미그달린은 생과 1 kg당 43–129 mg, 프루나신은 5–19 mg이었고, 두 성분 모두 초록 열매 단계에서는 매우 낮았다[15]. 2025년 리뷰는 같은 연구를 인용하며 익은 열매 아미그달린 42.00–129.20, 프루나신 5.01–13.71(덜 익은 열매 0–60.00, 0–30.90)을 'g/kg'으로 적었는데, 원 논문 초록의 mg/kg과 단위·범위가 달라 리뷰의 옮겨 적기 오류로 보인다[2, 15]. 아미그달린·프루나신은 씹거나 가공할 때 벤즈알데하이드·시안화수소·포도당으로 분해되며[2], 생과를 먹을 때 씨에서 오는 아몬드 같은 풍미가 난다고 묘사된다[4]. 원 논문 전문을 보지 못해 이 값이 통열매 기준인지 씨에 몰려 있는지는 확인하지 못했고, 씨만 떼어 시안배당체를 정량한 1차 논문도 PubMed에서 찾지 못해 씨앗의 함량은 확인하지 못함.\n\n가지는 시안 생성 조직이어서, 잘게 썬 가지를 사료의 75%로 먹인 소에서 떨림·체중 감소·설사·호흡곤란이 나타났고 시안화수소 5 mg/kg(체중) 상당량에서 중독이 빠르게 진행되었다[14]. 건강한 성인 20명이 동결건조 열매 40 g/일을 10주 먹은 시험에서 간·신장·심혈관 이상은 없었으나 당 섭취가 늘어 내당능 장애인은 다른 단 음식을 줄이라고 권했다[7]. 국내 공공기관의 알레르기·잔류농약 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Cyanidin 3-galactoside",
+   "name_ko": "시아니딘-3-갈락토사이드",
+   "class": "안토시아닌",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "생과 155 mg/100 g(HPLC)[8]; 폴란드 7개 유전자형 평균 전체 안토시아닌의 57%[4]",
+   "activity_ko": "열매의 주 색소; 안토시아닌 혼합물은 COX-1·COX-2와 지질 과산화를 억제(시험관)[8]",
+   "source": [
+    8,
+    4
+   ]
+  },
+  {
+   "name": "Cyanidin 3-glucoside",
+   "name_ko": "시아니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "생과 54 mg/100 g(HPLC)[8]",
+   "activity_ko": "고지방·고당 식이 쥐에서 열매 분말과 비슷하게 지방간·인슐린 저항성 완화[19]",
+   "source": [
+    8,
+    19
+   ]
+  },
+  {
+   "name": "Cyanidin 3-arabinoside",
+   "name_ko": "시아니딘-3-아라비노사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "익은 열매의 4대 안토시아닌 중 하나로 동정(함량은 초록에 없음)[9]",
+   "activity_ko": "사람 혈장에서 반복 섭취 시 거의 축적되지 않음(짧은 반감기 추정)[18]",
+   "source": [
+    9,
+    18
+   ]
+  },
+  {
+   "name": "Cyanidin 3-xyloside",
+   "name_ko": "시아니딘-3-자일로사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "익은 열매의 4대 안토시아닌 중 하나로 동정[9]",
+   "activity_ko": "4시간 간격 3회 섭취 시 사람 혈장 농도가 유의하게 축적됨[18]",
+   "source": [
+    9,
+    18
+   ]
+  },
+  {
+   "name": "Delphinidin 3-glucoside",
+   "name_ko": "델피니딘-3-글루코사이드",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "263.8 mg/100 g(건조중량 기준, 매니토바산)[10]",
+   "activity_ko": "같은 지역 야생 블루베리(84.4 mg/100 g)보다 많음[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "페놀산",
+   "role": "marker",
+   "part": "열매",
+   "content_text": "폴란드 유전자형 페놀산의 45–72%[4]; 리투아니아산 냉동 열매 추출물 103.219 µg/g DW(HPLC)[5]; 총페놀산(가수분해 후 아글리콘, 클로로겐산만의 값 아님) 59 mg/100 g 생중량[31]",
+   "activity_ko": "열매 페놀산의 주성분; 항산화·LDL 산화 저항 증가 작용이 알려짐[4]",
+   "source": [
+    4,
+    5,
+    31
+   ]
+  },
+  {
+   "name": "Neochlorogenic acid",
+   "name_ko": "네오클로로겐산",
+   "class": "페놀산",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "페놀산의 14–22%[4]; 냉동 열매 추출물 17.762 µg/g DW[5]",
+   "activity_ko": "클로로겐산 다음으로 많은 페놀산[4]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Hyperoside",
+   "name_ko": "퀘르세틴-3-갈락토사이드(하이페로사이드)",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "폴란드 유전자형 플라보놀의 약 60%[4]; 동결건조 열매 추출물 2.500 µg/g DW[5]",
+   "activity_ko": "열매의 주 플라보놀[4]",
+   "source": [
+    4,
+    5
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "동결건조 열매 추출물 22.530 µg/g DW(HPLC)[5]; 'Smoky' 30.7 mg/100 g, 'Thiessen' 23.6 mg/100 g(리뷰 인용)[2]",
+   "activity_ko": "퀘르세틴 이당 배당체; 항산화[3]",
+   "source": [
+    5,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "(-)-에피카테킨(프로시아니딘 구성 단위)",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "프로시아니딘은 주로 에피카테킨 단위가 B형 결합한 이량체–칠량체 이상[16]; 중합 프로시아니딘 1189.76–2631.73 mg/100 g 건조중량(플라반-3-올의 74–93%)[4]",
+   "activity_ko": "열매 폴리페놀 가운데 가장 큰 군(약 46%)[4]",
+   "source": [
+    16,
+    4
+   ]
+  },
+  {
+   "name": "Ursolic acid",
+   "name_ko": "우르솔산",
+   "class": "트라이테르페노이드",
+   "role": "bioactive",
+   "part": "열매(주로 표피 왁스)",
+   "content_text": "전체 트라이테르페노이드 72.21–91.31 mg/kg 건조중량(본문; 초록은 66.55–91.31) 중 약 84%(UPLC-Q-TOF)[4]",
+   "activity_ko": "항산화·항염 등 작용이 알려진 트라이테르펜산[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "beta-Carotene",
+   "name_ko": "베타카로텐",
+   "class": "카로티노이드",
+   "role": "nutrient",
+   "part": "열매",
+   "content_text": "전체 카로티노이드 478.62–561.57 mg/kg 건조중량 중 약 68%[4]",
+   "activity_ko": "프로비타민 A 카로티노이드[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Amygdalin",
+   "name_ko": "아미그달린",
+   "class": "시안배당체",
+   "role": "bioactive",
+   "part": "열매(익은 보라색 열매; 통열매·씨 구분은 원 논문 전문 미확인)",
+   "content_text": "익은 열매 43–129 mg/kg 생중량, 초록 열매에서는 매우 낮음(원 논문 초록)[15]; 2025년 리뷰는 같은 값을 42.00–129.20 'g/kg'으로 옮겨 적음(단위 오기로 보임)[2]",
+   "activity_ko": "분해되면 벤즈알데하이드·시안화수소·포도당 생성[2]",
+   "source": [
+    15,
+    2
+   ]
+  },
+  {
+   "name": "Prunasin",
+   "name_ko": "프루나신",
+   "class": "시안배당체",
+   "role": "bioactive",
+   "part": "열매(익은 보라색 열매; 통열매·씨 구분은 원 논문 전문 미확인)",
+   "content_text": "익은 열매 5–19 mg/kg 생중량, 초록 열매에서는 매우 낮음(원 논문 초록)[15]; 2025년 리뷰 표기는 5.01–13.71 'g/kg'(단위·범위 다름)[2]",
+   "activity_ko": "아미그달린과 같이 분해되어 시안화수소를 낼 수 있음[2]",
+   "source": [
+    15,
+    2
+   ]
+  },
+  {
+   "name": "Linoleic acid",
+   "name_ko": "리놀레산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "씨 기름",
+   "content_text": "씨 기름 지방산의 47.3–60.1%(17개 품종)[13]",
+   "activity_ko": "씨 기름의 주 지방산; 올레산 26.3–38.1%, 총토코페롤 1053–1754 mg/kg 기름[13]",
+   "source": [
+    13
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "동결건조 통열매('Martin' 품종) 1일 섭취분 40 g",
+   "basis": "사람 시험 논문이 제품 영양표시에서 옮긴 값[7]",
+   "items": [
+    {
+     "name": "열량",
+     "value": 133,
+     "unit": "kcal"
+    },
+    {
+     "name": "지방",
+     "value": 0.67,
+     "unit": "g"
+    },
+    {
+     "name": "단백질",
+     "value": 1.5,
+     "unit": "g"
+    },
+    {
+     "name": "식이섬유",
+     "value": 11.7,
+     "unit": "g"
+    },
+    {
+     "name": "당류",
+     "value": 20,
+     "unit": "g"
+    },
+    {
+     "name": "콜레스테롤",
+     "value": 1.7,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    7
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산(네오클로로겐산·루틴·하이페로사이드·이소퀘르시트린 동시 정량)",
+   "part": "열매(리투아니아산; 냉동·건조·동결건조 열매의 에탄올 초음파 추출물)",
+   "content": "냉동 열매 추출물 103.219 µg/g DW(최고); 동결건조 열매 추출물의 확인 성분 합계 159.618 µg/g DW[5]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "Waters 2695 크로마토그래프, Waters 996 광다이오드 배열 검출기",
+    "column": "퀘르세틴 배당체·페놀산: YMC-Pack ODS-A 250 × 4.6 mm, 5 μm; 클로로겐산류: AGE 5C18(원문 표기) 250 × 4.6 mm + 보호칼럼(Advanced Chromatography Technologies)",
+    "mobile_phase": "아세토니트릴과 2% 아세트산",
+    "gradient": "분석 시간 24분(기울기 세부는 보충자료, 확인 못함)",
+    "flow": "1.0 mL/min",
+    "temp": "25 °C",
+    "detection": "",
+    "injection": "10 μL",
+    "sample_prep": "분쇄 열매 1.0 g + 30·50·70% 에탄올 20 mL, 초음파 추출(20–25 °C 또는 50–55 °C, 10·30·40분), 100 µm 막 여과",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "모든 추출물에서 가장 많은 페놀 성분이어서 캡슐 제형 원료 추출물의 품질 지표로 쓰임; 전문 확인, 검출 파장·검량·검출한계·회수율은 본문에 없음[5].",
+   "source": [
+    5
+   ],
+   "url": "https://doi.org/10.3390/ph18121841",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Ursolic acid",
+   "compound_ko": "우르솔산(올레아놀산·베툴린산 동시 정량)",
+   "part": "열매(폴란드 재배 7개 유전자형, 동결건조 분말)",
+   "content": "전체 트라이테르페노이드 72.21–91.31 mg/kg 건조중량(본문; 초록은 66.55–91.31), 그중 우르솔산 약 84%[4]",
+   "method": "UPLC-PDA-Q/TOF-MS(ESI 음이온)",
+   "conditions": {
+    "instrument": "Waters ACQUITY UPLC(이원 펌프), Q-TOF 질량분석기(ESI)",
+    "column": "UPLC BEH C18, 1.7 μm, 2.1 × 150 mm",
+    "mobile_phase": "메탄올–아세토니트릴(15:85, v/v)",
+    "gradient": "",
+    "flow": "0.1 mL/min",
+    "temp": "",
+    "detection": "210 nm; m/z 455.3365(우르솔산), 455.3496(올레아놀산), 455.3452(베툴린산); 머무름 시간 8.19·7.58·6.89분",
+    "injection": "",
+    "sample_prep": "-25 °C 동결 후 24시간 동결건조·분쇄; 추출은 선행 연구 방법 인용(세부 미기재)",
+    "standard": "우르솔산·올레아놀산·베툴린산(Sigma-Aldrich)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "이 종 열매에서 처음 보고된 트라이테르페노이드이며 항산화 능력과 양의 상관을 보임; 전문 확인, 검량·검출한계·회수율은 원문에 없음[4].",
+   "source": [
+    4
+   ],
+   "url": "https://doi.org/10.3390/molecules22050853",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-glucoside",
+   "compound_ko": "시아니딘-3-글루코사이드·시아니딘-3-갈락토사이드 등 폴리페놀 21종",
+   "part": "열매(폴란드 재배 3개 품종·3개 계통, 오존 처리 전후)",
+   "content": "본문 기재 예: 'Amela' 품종 시아니딘-3-O-갈락토사이드 7014.80 mg·100 g−1 d.w.(원문 표기 그대로), 클로로겐산 무처리 평균 1855.33 mg·100 g−1 d.w.[6]",
+   "method": "UPLC-PDA-ESI-MS/MS(TQD, 음이온)",
+   "conditions": {
+    "instrument": "Waters UPLC(이원 펌프·PDA), 탠덤 사중극자 질량분석기(TQD), ESI",
+    "column": "UPLC BEH C18, 1.7 µm, 100 × 2.1 mm",
+    "mobile_phase": "A: 물, B: 40% 아세토니트릴 수용액",
+    "gradient": "",
+    "flow": "0.35 mL/min",
+    "temp": "50 °C",
+    "detection": "PDA + MS(capillary 3500 V, cone 30 V, cone gas 100 L/h, source 120 °C, desolvation 350 °C, desolvation gas 800 L/h)",
+    "injection": "5 µL",
+    "sample_prep": "",
+    "standard": "상용 표준품과 문헌 대조",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "안토시아닌 4종이 동정되었고 시아니딘 배당체가 주 색소라 저장·가공 처리 비교의 지표로 쓰임; 전문 확인, 기울기·추출법·검출한계·회수율은 원문에 없음[6].",
+   "source": [
+    6
+   ],
+   "url": "https://doi.org/10.3390/molecules27196446",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cyanidin 3-galactoside",
+   "compound_ko": "시아니딘-3-갈락토사이드",
+   "part": "생과",
+   "content": "155 mg/100 g(시아니딘-3-글루코사이드 54 mg/100 g)[8]",
+   "method": "HPLC(LC-ESI/MS·NMR로 확인)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열매의 최다 안토시아닌이자 COX 억제 활성 성분으로 정량됨; 초록만 확인, 전문 확인 못함[8].",
+   "source": [
+    8
+   ],
+   "url": "https://doi.org/10.1002/pca.840",
+   "source_kind": "paper"
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "캐나다",
+   "metric": "area_ha",
+   "year": 2022,
+   "value": 1080,
+   "unit": "ha",
+   "note": "2025년 리뷰가 캐나다 농업농식품부 원예 통계를 인용한 값; 원자료 확인 못함[2]",
+   "source": [
+    2
+   ]
+  },
+  {
+   "country": "캐나다",
+   "metric": "production_t",
+   "year": 2022,
+   "value": 689,
+   "unit": "t",
+   "note": "같은 리뷰 인용값, 총생산액 291만 5천 캐나다달러; 원자료 확인 못함[2]",
+   "source": [
+    2
+   ]
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 오리잎채진목열매(Amelanchier alnifolia (Nutt.) Nutt. ex M. Roem.; 이명 사스카툰; Saskatoon, Serviceberry, Saskatoon berry, June berry)와 Pacific serviceberry열매(Amelanchier alnifolia semiintegrifolia; June berries, Saskatoon), 사용가능, 사용가능부위: 열매; 같은 속 다른 행(Cusicks serviceberry열매 A. alnifolia var. cusickii, Pacific serviceberry열매 A. interior, Amelanchier weigandii열매 등) 대조 (로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Saskatoon berry (Amelanchier alnifolia): nutritional composition, phytochemical, health benefits, shelf-life extension and utilization — Food Sci Biotechnol 2025 (PMID 41909868, PMC13022111, 전문 확인; 리뷰가 인용한 캐나다 농업농식품부 통계 원문은 확인 못함; 시안배당체 값은 원 논문[15]과 단위가 다름)",
+   "url": "https://doi.org/10.1007/s10068-025-01997-7",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Bioactive Components and Health Benefits of Saskatoon Berry — J Diabetes Res 2020 (PMID 32509879, PMC7245660, 전문 확인)",
+   "url": "https://doi.org/10.1155/2020/3901636",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Phytochemical Composition and Antioxidant Capacity of Seven Saskatoon Berry (Amelanchier alnifolia Nutt.) Genotypes Grown in Poland — Molecules 2017;22(5):853 (PMID 28531138, PMC6154553, 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules22050853",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "From Berries to Capsules: Technological and Quality Aspects of Juneberry Formulations — Pharmaceuticals (Basel) 2025;18(12):1841 (PMID 41471331, PMC12736035, 전문 확인; HPLC 기울기 등 세부는 보충자료에 있어 확인 못함)",
+   "url": "https://doi.org/10.3390/ph18121841",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Effects of Ozone Application on Microbiological Stability and Content of Sugars and Bioactive Compounds in the Fruit of the Saskatoon Berry (Amelanchier alnifolia Nutt.) — Molecules 2022;27(19):6446 (PMID 36234982, PMC9570576, 전문 확인)",
+   "url": "https://doi.org/10.3390/molecules27196446",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Effects of Daily Saskatoon Berry Supplementation on Cardiometabolic Health, Gut Microbiota, and Short-Chain Fatty Acids in Healthy Adults — Int J Mol Sci 2026;27(8):3644 (PMID 42074282, PMC13116754, 전문 확인)",
+   "url": "https://doi.org/10.3390/ijms27083644",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Quantification and characterisation of cyclo-oxygenase and lipid peroxidation inhibitory anthocyanins in fruits of Amelanchier — Phytochem Anal 2005;16(3):175-80 (PMID 15997850, 초록만 확인)",
+   "url": "https://doi.org/10.1002/pca.840",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Characterization of cyanidin- and quercetin-derived flavonoids and other phenolics in mature saskatoon fruits (Amelanchier alnifolia Nutt.) — J Agric Food Chem 2007;55(25):10414-24 (PMID 17994693, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf072949b",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Saskatoon and wild blueberries have higher anthocyanin contents than other Manitoba berries — J Agric Food Chem 2007;55(26):10832-8 (PMID 18052240, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf072529m",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Bioactive polyphenols in leaves, stems, and berries of Saskatoon (Amelanchier alnifolia Nutt.) cultivars — J Agric Food Chem 2012 (PMID 22220589, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf204056s",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Evaluation of Saskatoon berry (Amelanchier alnifolia Nutt.) cultivars for their polyphenol content, antioxidant properties, and storage stability — J Agric Food Chem 2008 (PMID 18922015, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf801887w",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Characterization of Saskatoon berry (Amelanchier alnifolia Nutt.) seed oil — J Agric Food Chem 2009 (PMID 19449814, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf9006278",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Toxicity of Saskatoon serviceberry to cattle — Can Vet J 1980;21(3):74-6 (PMID 6244889, PMC1789689, 초록만 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6244889/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Carotenoids and cyanogenic glucosides in saskatoon berries (Amelanchier alnifolia Nutt.) — J Food Compos Anal 2008;21(3):249-254 (PubMed 미수록, AGRIS 서지·초록만 확인, 전문 확인 못함)",
+   "url": "https://agris.fao.org/search/en/providers/122535/records/65df379363b8185d9cabafff",
+   "publisher": "FAO AGRIS",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Isolation and structure elucidation of procyanidin oligomers from Saskatoon berries (Amelanchier alnifolia) — J Agric Food Chem 2007;55(1):157-64 (PMID 17199327, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf062441t",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Developmental profile of anthocyanin, flavonol, and proanthocyanidin type, content, and localization in saskatoon fruits (Amelanchier alnifolia Nutt.) — J Agric Food Chem 2015 (PMID 25562425, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf504722x",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Accumulation of plasma levels of anthocyanins following multiple saskatoon berry supplements — Xenobiotica 2019 (PMID 31269857, 초록만 확인)",
+   "url": "https://doi.org/10.1080/00498254.2019.1637967",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Saskatoon berry powder reduces hepatic steatosis and insulin resistance in high fat-high sucrose diet-induced obese mice — J Nutr Biochem 2021 (PMID 34004342, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jnutbio.2021.108778",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Saskatoon Berry Amelanchier alnifolia Regulates Glucose Metabolism and Improves Cardiovascular and Liver Signs of Diet-Induced Metabolic Syndrome in Rats — Nutrients 2020;12(4):931 (PMID 32230955, 초록만 확인)",
+   "url": "https://doi.org/10.3390/nu12040931",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Serviceberry [Amelanchier alnifolia] leaf extract inhibits mammalian α-glucosidase activity and suppresses postprandial glycemic response in a mouse model of diet-induced obesity and hyperglycemia — J Ethnopharmacol 2012 (PMID 22796507, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.jep.2012.06.054",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Understanding diploid diversity: A first step in unraveling polyploid, apomictic complexity in Amelanchier — Am J Bot 2015 (PMID 26643889, 초록만 확인)",
+   "url": "https://doi.org/10.3732/ajb.1500330",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Effects of apomixis and polyploidy on diversification and geographic distribution in Amelanchier (Rosaceae) — Am J Bot 2014 (PMID 25156985, 초록만 확인)",
+   "url": "https://doi.org/10.3732/ajb.1400113",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Phylogenetic relationships and chloroplast capture in the Amelanchier-Malacomeles-Peraphyllum clade (Maleae, Rosaceae) — Mol Phylogenet Evol 2020 (PMID 32135308, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.ympev.2020.106784",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Persistent nuclear ribosomal DNA sequence polymorphism in the Amelanchier agamic complex (Rosaceae) — Mol Biol Evol 1997 (PMID 9000756, 초록만 확인)",
+   "url": "https://doi.org/10.1093/oxfordjournals.molbev.a025705",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "First Report of Juneberry Rust Caused by Gymnosporangium nelsonii on Juneberry in Michigan — Plant Dis 2011 (PMID 30731937, 초록만 확인)",
+   "url": "https://doi.org/10.1094/PDIS-12-10-0874",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Deciphering the growth pattern and phytohormonal content in Saskatoon berry (Amelanchier alnifolia) in response to in vitro cytokinin application — N Biotechnol 2018 (PMID 29454893, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.nbt.2018.02.001",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Drying kinetics and quality characteristics of microwave-vacuum dried Saskatoon berries — J Microw Power Electromagn Energy 2008 (PMID 19227059, 초록만 확인)",
+   "url": "https://doi.org/10.1080/08327823.2007.11688595",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Phenolics and antioxidant activity of Saskatoon berry (Amelanchier alnifolia) pomace extract — J Med Food 2014 (PMID 24476215, 초록만 확인)",
+   "url": "https://doi.org/10.1089/jmf.2012.0278",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Market potential and value-added opportunities of cold-hardy berries and small fruits in the Intermountain West, USA — J Food Sci 2023 (PMID 36576134, 초록만 확인)",
+   "url": "https://doi.org/10.1111/1750-3841.16426",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Phenolic acids in berries, fruits, and beverages — J Agric Food Chem 2006;54(19):7193-9 (PMID 16968082, 초록만 확인)",
+   "url": "https://doi.org/10.1021/jf0615247",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Distribution of phytochemicals and antioxidative potency in fruit peel, flesh, and seeds of Saskatoon berry — Food Chem 2020 (PMID 31518840, 초록만 확인)",
+   "url": "https://doi.org/10.1016/j.foodchem.2019.125430",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Effects of Different Factors on Concentration of Functional Components of Aronia and Saskatoon Berries — Plant Foods Hum Nutr 2020 (PMID 31848855, 초록만 확인)",
+   "url": "https://doi.org/10.1007/s11130-019-00780-4",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

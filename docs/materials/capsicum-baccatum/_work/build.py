@@ -1,0 +1,236 @@
+"""capsicum-baccatum dossier.json 생성 (작성자 W2). 사용: python3 -I build.py <출력경로>"""
+import json
+import sys
+
+A = "2026-11-02"
+PM = "PubMed"
+
+
+def pm(n, title, doi, note):
+    return {"n": n, "title": f"{title} ({note})", "url": f"https://doi.org/{doi}", "publisher": PM, "accessed": A}
+
+
+sources = [
+    {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 로코토열매(학명 Capsicum baccatum, 영문명 Locoto, Cayenne pepper), 식품원료(A코드)·식물, 사용가능, 사용가능부위: 열매; 같은 속의 고추(Capsicum annuum L. / Capsicum frutescens var. longum)·피망 등(Capsicum annuum L.)·케이엔열매(Capsicum minimum Roxb. / Capsicum frutescens L., Cayenne)·하바네로열매·하바네로분말(Capsicum chinense Jacq.) 행 대조; 목록 전체(24,885행)에 Capsicum pubescens 학명 행 없음(원자료 I1020_20261013.json 로컬 확인)",
+     "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"n": 2, "title": "Plants of the World Online — Capsicum baccatum L. 및 변종 var. baccatum·var. pendulum (Willd.) Eshbaugh·var. umbilicatum 페이지 (POWO 는 이 환경에서 열지 못해 WebSearch 요약으로만 확인)",
+     "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:814733-1", "publisher": "Royal Botanic Gardens, Kew", "accessed": A},
+    pm(3, "Carotenoid composition and vitamin A value in ají (Capsicum baccatum L.) and rocoto (C. pubescens R. & P.), 2 pepper species from the Andean region — J Food Sci 2010", "10.1111/j.1750-3841.2010.01795.x", "PMID 21535519, 초록만 확인"),
+    pm(4, "Volatile and capsaicinoid composition of ají (Capsicum baccatum) and rocoto (Capsicum pubescens), two Andean species of chile peppers — J Sci Food Agric 2011", "10.1002/jsfa.4354", "PMID 21445890, 초록만 확인"),
+    pm(5, "Capsaicinoid Profiles, Phenolic Content, and Antioxidant Properties of Chili Peppers Grown in Urban Settings — Int J Mol Sci 2025", "10.3390/ijms26104916", "PMID 40430052, PMC12112534 전문 확인; PMC 텍스트에서 이탤릭 종명이 빠져 있어 baccatum 복합군 소속은 품종명·명명자(L., Ruiz & Pav.)로 판단"),
+    pm(6, "Evolutionary relationships, hybridization and diversification under domestication of the locoto chile (Capsicum pubescens) and its wild relatives — Front Plant Sci 2024", "10.3389/fpls.2024.1353991", "PMID 38463568, 초록·키워드만 확인"),
+    pm(7, "Genetic diversity in Capsicum baccatum is significantly influenced by its ecogeographical distribution — BMC Genet 2012", "10.1186/1471-2156-13-68", "PMID 22866868, 초록만 확인"),
+    pm(8, "Genetic variability in Brazilian Capsicum baccatum germplasm collection assessed by morphological fruit traits and AFLP markers — PLoS One 2018", "10.1371/journal.pone.0196468", "PMID 29758023, 초록만 확인"),
+    pm(9, "Molecular and agronomic analysis of intraspecific variability in Capsicum baccatum var. pendulum accessions — Genet Mol Res 2016", "10.4238/gmr.15048482", "PMID 27808357, 초록만 확인"),
+    pm(10, "Isolation of coniferyl esters from Capsicum baccatum L., and their enzymatic preparation and agonist activity for TRPV1 — Phytochemistry 2008", "10.1016/j.phytochem.2007.11.017", "PMID 18190936, 초록만 확인"),
+    pm(11, "Assessment of capsiconinoid composition, nonpungent capsaicinoid analogues, in capsicum cultivars — J Agric Food Chem 2009", "10.1021/jf900634s", "PMID 19489540, 초록만 확인"),
+    pm(12, "Vitamin C and reducing sugars in the world collection of Capsicum baccatum L. genotypes — Food Chem 2016", "10.1016/j.foodchem.2016.01.135", "PMID 26920284, PMC4911803 전문 확인"),
+    pm(13, "Bioanalytical method validation for the quantification of the chlorogenic acid in Capsicum baccatum through High Performance Liquid Chromatography (HPLC-DAD) — Food Chem 2020", "10.1016/j.foodchem.2020.126929", "PMID 32387988, 초록만 확인"),
+    pm(14, "Chronic ozone exposure alters the secondary metabolite profile, antioxidant potential, anti-inflammatory property, and quality of red pepper fruit from Capsicum baccatum — Ecotoxicol Environ Saf 2016", "10.1016/j.ecoenv.2016.03.004", "PMID 26970882, 초록만 확인"),
+    pm(15, "New reference genome sequences of hot pepper reveal the massive evolution of plant disease-resistance genes by retroduplication — Genome Biol 2017", "10.1186/s13059-017-1341-9", "PMID 29089032, PMC5664825 전문 확인"),
+    pm(16, "Construction of an integrated genetic map for Capsicum baccatum L. — Genet Mol Res 2015", "10.4238/2015.June.18.12", "PMID 26125877, 초록만 확인"),
+    pm(17, "Exploring horticultural traits and disease resistance in Capsicum baccatum through segmental introgression lines — Theor Appl Genet 2023", "10.1007/s00122-023-04422-x", "PMID 37878062, 초록만 확인"),
+    pm(18, "Identification of two new genes conferring resistance to Colletotrichum acutatum in Capsicum baccatum — Phytopathology 2009", "10.1094/PHYTO-99-9-1100", "PMID 19671013, 초록만 확인"),
+    pm(19, "Capturing flavors from Capsicum baccatum by introgression in sweet pepper — Theor Appl Genet 2013", "10.1007/s00122-013-2225-3", "PMID 24185820, 초록만 확인"),
+    pm(20, "Antioxidant and anti-inflammatory properties of Capsicum baccatum: from traditional use to scientific approach — J Ethnopharmacol 2011", "10.1016/j.jep.2011.11.005", "PMID 22100562, 초록만 확인"),
+    pm(21, "Red Pepper (Capsicum baccatum) Extracts Present Anti-Inflammatory Effects In Vivo and Inhibit the Production of TNF-α and NO In Vitro — J Med Food 2016", "10.1089/jmf.2015.0101", "PMID 27533650, 초록만 확인"),
+    pm(22, "Long-Term Oral Administration of Capsicum baccatum Extracts Does Not Alter Behavioral, Hematological, and Metabolic Parameters in CF1 Mice — Evid Based Complement Alternat Med 2012", "10.1155/2012/196358", "PMID 23320023, 초록만 확인"),
+    pm(23, "Estimation of Dietary Capsaicinoid Exposure in Korea and Assessment of Its Health Effects — Nutrients 2021", "10.3390/nu13072461", "PMID 34371974, 초록만 확인; 고추류 전체 캡사이시노이드 섭취 연구로 이 종만 다룬 것은 아님"),
+    pm(24, "Effect of ultrasound on the supercritical CO2 extraction of bioactive compounds from dedo de moça pepper (Capsicum baccatum L. var. pendulum) — Ultrason Sonochem 2016", "10.1016/j.ultsonch.2016.01.013", "PMID 26964951, 초록만 확인"),
+    pm(25, "Assessing the temporal profile and liking of sugar-free spicy dark chocolates with different concentrations of Capsicum baccatum pepper and rebaudioside A — J Sci Food Agric 2025", "10.1002/jsfa.14327", "PMID 40320588, 초록만 확인"),
+    pm(26, "A multifunctional role for riboflavin in the yellow nectar of Capsicum baccatum and Capsicum pubescens — New Phytol 2024", "10.1111/nph.19886", "PMID 38874372, 초록만 확인"),
+    pm(27, "Compositional characterization of native Peruvian chili peppers (Capsicum spp.) — J Agric Food Chem 2013", "10.1021/jf304986q", "PMID 23410113, 초록만 확인"),
+    pm(28, "Metabolite biodiversity in pepper (Capsicum) fruits of thirty-two diverse accessions: variation in health-related compounds and implications for breeding — Phytochemistry 2011", "10.1016/j.phytochem.2011.03.016", "PMID 21514607, 초록만 확인"),
+    pm(29, "Phenolic content and antioxidant and antimicrobial properties of fruits of Capsicum baccatum L. var. pendulum at different maturity stages — J Med Food 2008", "10.1089/jmf.2007.626", "PMID 18598168, 초록만 확인"),
+    pm(30, "Vicilin-like peptides from Capsicum baccatum L. seeds are α-amylase inhibitors and exhibit antifungal activity against important yeasts in medical mycology — Biopolymers 2014", "10.1002/bip.22504", "PMID 24817604, 초록만 확인"),
+    pm(31, "Genome relationships and LTR-retrotransposon diversity in three cultivated Capsicum L. (Solanaceae) species — BMC Genomics 2020", "10.1186/s12864-020-6618-9", "PMID 32183698, 초록만 확인"),
+    pm(32, "Determination of capsinoids by HPLC-DAD in capsicum species — J Agric Food Chem 2009", "10.1021/jf8040287", "PMID 19415923, 초록만 확인"),
+    pm(33, "Effects of ionizing radiation on Capsicum baccatum var. pendulum (Solanaceae) — Appl Radiat Isot 2013", "10.1016/j.apradiso.2013.04.004", "PMID 23747514, 초록만 확인"),
+    pm(34, "Brazilian Capsicum peppers: capsaicinoid content and antioxidant activity — J Sci Food Agric 2017", "10.1002/jsfa.8459", "PMID 28573647, 초록만 확인"),
+]
+
+S = {}
+S["overview"] = (
+    "식약처 「식품원료 목록」에는 원료명 '로코토열매', 학명 'Capsicum baccatum', 영문명 'Locoto, Cayenne pepper'로 한 행이 올라 있다[1]. "
+    "이 행의 상태는 사용가능이고 사용 조건은 '사용가능부위 : 열매'라서 열매만 식품원료로 쓸 수 있다[1]. "
+    "이 종을 원재료로 하는 건강기능식품 고시형 원료는 목록에서 확인되지 않는다[1].\n\n"
+    "그런데 학술 문헌에서 Capsicum baccatum은 '아히(ají)'라 불리는 안데스 고추이고, '로코토(rocoto)'는 다른 종인 Capsicum pubescens R. & P.를 가리킨다[3, 4, 5]. "
+    "'로코토(locoto) 칠레'도 C. pubescens의 이름으로 쓰인다[6]. "
+    "식약처 목록 전체에는 C. pubescens 학명으로 된 행이 없어서, 국문명 '로코토'와 학명 C. baccatum 중 어느 쪽이 등록 의도였는지는 원자료로 확인하지 못함. "
+    "이 글은 목록의 학명 C. baccatum(아히)을 기준으로 쓰고, 로코토(C. pubescens) 자료는 비교로만 적는다[1, 3]. "
+    "아히는 매운 정도가 하바네로(C. chinense)보다 약한 편이고 흙·채소 같은 향을 낸다고 보고되었다[4]."
+)
+S["history"] = (
+    "아히와 로코토는 안데스 요리에서 수천 년 동안 쓰여 온 고추로 소개된다[4]. "
+    "고추속 재배종 가운데 C. annuum·C. frutescens·C. chinense는 멕시코 중동부에서, 아히(C. baccatum)와 로코토(C. pubescens)는 남아메리카에서 순화되었다고 정리되며, 아히는 안데스 중간 고도, 로코토는 높은 고도에서 순화된 것으로 본다[5]. "
+    "C. baccatum은 야생형과 재배형을 모두 포함하고, 재배형 유전자원은 서부와 동부의 두 지역 무리로 나뉜다[7].\n\n"
+    "브라질에서 C. baccatum은 주로 가족농이 재배하며, 주교 모자 모양의 캄부시(cambuci)와 붉은 데두지모사(dedo-de-moça) 유형이 많이 쓰인다[8, 9]. "
+    "브라질에서는 가장 많이 먹는 붉은 고추 종으로 소개된다[21]. "
+    "유럽에서는 안데스 고추가 민족 요리 식당에서 점점 중요해지고 있어 성분 연구가 시작되었다고 저자들이 밝혔다[3]. "
+    "국내 도입 시기나 재배 역사는 확인하지 못함."
+)
+S["biology"] = (
+    "C. baccatum은 가지과 고추속 식물로 염색체 수는 2n = 2x = 24이다[16]. "
+    "POWO는 기본 변종(var. baccatum)과 재배형 변종(var. pendulum)의 자생지로 콜롬비아·페루·볼리비아·파라과이·브라질 남부·아르헨티나 북부 등을 든다(WebSearch 요약으로만 확인)[2]. "
+    "미국 농무부 유전자원의 수집지는 서늘한 안데스 고원에서 아마존 열대우림까지 다양한 환경에 걸친다[7].\n\n"
+    "열매 무게는 유전자원 사이에서 가장 크게 다른 형질이고, 브라질 유전자원은 주로 열매 모양에 따라 다섯 무리로 나뉘었다[7, 8]. "
+    "열매 색은 쌓이는 카로티노이드 종류에 따라 붉은색·노란색·주황색 등으로 달라진다[3]. "
+    "C. baccatum과 C. pubescens의 꽃꿀은 노란색인데, 그 색은 높은 농도의 리보플라빈(비타민 B2) 때문이며 꿀벌 유인과 미생물 억제에 관여하는 것으로 보고되었다[26]. "
+    "매운맛 성분은 태좌(씨가 붙는 속살)에서 주로 만들어진다고 정리된다[5]. "
+    "C. baccatum을 포함한 4개 종 32개 유전자원을 비교한 연구에서 열매 성분 조성은 종이나 지리적 출처와 관계없이 유전자원마다 크게 달랐다[28]."
+)
+S["related_species"] = (
+    "식약처 목록에서 같은 고추속 식품원료는 고추(C. annuum L. / C. frutescens var. longum, 잎·열매), 피망 등(C. annuum L.), 케이엔열매(C. minimum Roxb. / C. frutescens L.), 하바네로열매·하바네로분말(C. chinense Jacq.)로 각각 따로 올라 있다[1]. "
+    "로코토열매 행의 영문명 'Cayenne pepper'는 고추 행(Cayenne)과 케이엔열매 행(Cayenne)에도 비슷하게 쓰여 영문명만으로 종을 가리기 어렵다[1]. "
+    "C. baccatum var. pendulum에도 'Cayenne'이라는 품종명이 쓰인 연구가 있다[33].\n\n"
+    "로코토(C. pubescens)는 야생에서 알려지지 않은 재배종이며, 순화 중심지는 볼리비아 중서부 고원으로 추정된다[6]. "
+    "아히와 로코토는 둘 다 안데스 고추이지만 향 성분이 다르다: 로코토는 오이 같은 냄새와 메톡시피라진·지질 분해 산물이, 아히는 2-헵탄싸이올·3-아이소뷰틸-2-메톡시피라진·페놀·테르펜이 향의 바탕이다[4]. "
+    "미국 텃밭 재배 연구에서 baccatum 복합군 품종의 캡사이신:다이하이드로캡사이신:노르다이하이드로캡사이신 평균 비는 60:32:8, 로코토(Rocoto Red)는 34:60:7로 다이하이드로캡사이신이 많았다[5]. "
+    "유전체 비교에서는 C. annuum과 C. chinense가 서로 가깝고 C. baccatum은 떨어져 있다[15, 31]."
+)
+S["cultivation"] = (
+    "국내 로코토(C. baccatum) 재배 면적·생산량 통계는 확인하지 못함. "
+    "로코토·아히만 따로 집계한 국내외 생산 통계(FAOSTAT 포함)도 확인하지 못함.\n\n"
+    "브라질에서는 C. baccatum을 주로 가족농이 재배하며 지역마다 열매 모양에 따른 이름이 다르다[8, 9]. "
+    "미국 웨스트버지니아 밭에서 22개국 출신 123개 유전형을 함께 길러 비교한 연구가 있다[12]. "
+    "C. baccatum PBC80·PBC81 같은 계통은 고추 탄저병과 흰가루병 저항성의 육종 재료로 쓰인다[17, 18]. "
+    "C. baccatum PBC80은 두 탄저병균(Colletotrichum capsici·C. acutatum) 13개 분리주 어느 것에도 감염되지 않았다[18]. "
+    "재배 환경도 성분에 영향을 준다: 오존에 62일 노출된 식물은 과피의 캡사이신이 50% 줄고 총카로티노이드는 52.8% 늘었다[14]. "
+    "브라질 고추 연구에서는 수확 연도와 익은 정도에 따라 캡사이신 함량이 달라졌다[34]."
+)
+S["processing"] = (
+    "브라질에서 데두지모사(dedo-de-moça) 고추는 초임계 이산화탄소 추출로 기능성 추출물을 얻는 연구에 쓰였고, 초음파를 함께 쓰면 전체 추출 수율이 최대 45%, 캡사이시노이드 수율이 최대 12% 높아졌다[24]. "
+    "건조한 C. baccatum 가루를 무설탕 다크초콜릿에 2.0–5.0 g/kg 넣은 시제품은 대체로 잘 받아들여졌지만, 너무 맵고 오래가면 기호도가 떨어졌다[25]. "
+    "페루 유전자원은 오븐 건조·분쇄 후 캡사이시노이드·폴리페놀·플라보노이드·지방·비타민 C·색도를 분석했다[27].\n\n"
+    "아히의 총캡사이시노이드는 13–352 mg/kg으로 하바네로 대조(1,605 mg/kg)보다 낮았다[4]. "
+    "미국 텃밭 재배 시험에서 baccatum 복합군 품종은 매운맛이 없는 것(0–370 SHU)부터 Lemon Drop 57,000 SHU까지 다양했고 대부분 14,000–36,000 SHU였다[5]. "
+    "C. annuum 단고추에 C. baccatum의 향 관련 유전자 구간을 도입하는 육종 연구도 있다[19]. "
+    "식약처 「식품 등의 생산실적」에서 로코토 원료 제품 실적은 확인하지 못함."
+)
+S["genetics"] = (
+    "2017년 한국 연구진이 C. baccatum PBC81 계통의 유전체를 새로 해독했다[15]. "
+    "19-mer 분석으로 추정한 유전체 크기는 3.9 Gb이고 조립된 길이는 3.2 Gb(추정치의 83%), 스캐폴드 N50은 2.0 Mb였다[15]. "
+    "종마다 약 35,000개 유전자가 주석되었고, 조립 서열의 87%(2.8 Gb)가 12개 염색체 수준으로 배열되었다[15]. "
+    "C. baccatum은 약 170만 년 전 C. annuum·C. chinense의 공통 조상과 갈라졌고, 3·5·9번 염색체 사이 전좌로 구별된다[15]. "
+    "athila 계열 LTR-레트로트랜스포존이 늘어나 유전체가 커졌다[15].\n\n"
+    "SSR·ISSR·RAPD 표지 183개로 만든 C. baccatum 유전지도는 12개 주 연관군과 4개 소 연관군, 총 2,547.5 cM이다[16]. "
+    "C. annuum 'CM334'에 C. baccatum 'PBC81' 구간을 넣은 단편 도입 계통 63개와 역교배 계통 44개가 유전체의 94.8%를 덮으며, 탄저병 저항성 QTL 4개 등 15개 QTL이 찾아졌다[17]. "
+    "탄저병 저항성 후보로 C. baccatum 3번 염색체 3.8 Mb 구간에서 NLR 유전자 64개가 정리되었다[15]."
+)
+S["safety"] = (
+    "로코토(C. baccatum) 열매는 식약처 목록에서 사용가능 원료이며 쓸 수 있는 부위는 열매뿐이다[1]. "
+    "이 종에 대한 식약처 알레르기·잔류농약·독성 경고 같은 공공기관 정보는 확인하지 못함.\n\n"
+    "매운맛 성분 캡사이시노이드에 대해, 국민건강영양조사 자료로 추정한 한국인의 하루 평균 캡사이시노이드 섭취량은 3.25 mg(캡사이신 2.17 mg)이었다[23]. "
+    "같은 연구는 복통 외에 보고된 부작용이 없었고, 장기 반복 섭취의 최대 내약 용량을 30 mg 정도로 보았다[23]. "
+    "이 연구는 고추류 전체에 대한 것으로, 아히만의 자료는 아니다[23]. "
+    "생쥐에 C. baccatum 에탄올·뷰탄올 추출물 200 mg/kg을 60일 먹인 실험에서 혈액·체중·장기 무게·지질·포도당·간·신장 지표와 행동에 유의한 차이가 없었다[22]. "
+    "var. pendulum 열매의 부위·익음 단계별 추출물은 모두 항산화 활성을 보였으나 항균 활성은 약했다[29]. "
+    "항염·항산화 작용은 생쥐·세포 실험 결과이며 사람 임상 근거는 확인하지 못함[20, 21]. "
+    "씨앗에서 분리한 비실린 유사 펩타이드는 사람 침 아밀레이스를 억제했다는 시험관 결과가 있다[30]."
+)
+
+titles = {"overview": "한눈에 보기", "history": "역사", "biology": "식물학적 특징", "related_species": "이름과 가까운 종",
+          "cultivation": "재배와 산지", "processing": "가공과 이용", "genetics": "유전 정보", "safety": "안전성"}
+sections = [{"key": k, "title": titles[k], "body": S[k]} for k in titles]
+
+
+def c(name, ko, cls, role, part, content, act, src):
+    return {"name": name, "name_ko": ko, "class": cls, "role": role, "part": part, "content_text": content, "activity_ko": act, "source": src}
+
+
+compounds = [
+    c("Capsaicin", "캡사이신", "캡사이시노이드", "marker", "열매(태좌에 가장 많음)",
+      "아히 총캡사이시노이드 13–352 mg/kg(하바네로 대조 1,605 mg/kg)[4]; baccatum 복합군 캡사이신:다이하이드로캡사이신:노르다이하이드로캡사이신 평균 60:32:8(HPLC-UV)[5]",
+      "TRPV1 수용체를 통해 매운맛을 냄(정리)[5]; 오존 노출 시 과피 함량 50% 감소[14]", [4, 5, 14]),
+    c("Dihydrocapsaicin", "다이하이드로캡사이신", "캡사이시노이드", "bioactive", "열매",
+      "baccatum 복합군 평균 비율 32%(캡사이신 60, 노르다이하이드로캡사이신 8 기준)[5]", "캡사이신과 함께 가장 강한 매운맛 성분(정리)[5]", [5]),
+    c("Nordihydrocapsaicin", "노르다이하이드로캡사이신", "캡사이시노이드", "bioactive", "열매",
+      "baccatum 복합군 평균 비율 8%[5]", "매운맛 성분의 일부[5]", [5]),
+    c("Capsiconiate", "캡시코니에이트(coniferyl (E)-8-methyl-6-nonenoate)", "코니페릴 에스터(캡시코니노이드)", "bioactive", "열매(var. praetermissum)",
+      "열매에서 분리(함량 보고 없음)[10]; 캡시코니노이드 총량 'Capsiconinoid Baccatum' 품종 3,314 µg/g DW(HPLC)[11]",
+      "매운맛 없는 캡사이시노이드 유사체; TRPV1 작용 EC50 3.2 µM(세포 실험)[10]", [10, 11]),
+    c("Dihydrocapsiconiate", "다이하이드로캡시코니에이트(coniferyl 8-methylnonanoate)", "코니페릴 에스터(캡시코니노이드)", "bioactive", "열매(var. praetermissum)",
+      "열매에서 분리(함량 보고 없음)[10]", "TRPV1 작용 EC50 4.2 µM(세포 실험)[10]", [10]),
+    c("Capsiate", "캡시에이트(E-capsiate)", "캡시노이드", "bioactive", "열매",
+      "C. baccatum을 포함한 4개 재배종 49개 시료에서 11–369 µg/g 검출(HPLC-DAD, 종별 값은 초록에서 확인하지 못함)[32]",
+      "매운맛이 약한 캡사이신 유사체로 보고됨[32]", [32]),
+    c("Capsanthin", "캡산틴", "카로티노이드(잔토필)", "bioactive", "완숙 붉은 열매",
+      "붉은 열매 카로티노이드의 25–50%(3종 범위), 아히는 그중 가장 낮은 비율[3]", "고추 카로티노이드 중 항산화력이 가장 강한 성분으로 소개됨[3]", [3]),
+    c("Capsanthin 5,6-epoxide", "캡산틴 5,6-에폭사이드", "카로티노이드(잔토필)", "bioactive", "완숙 붉은 열매",
+      "아히 총카로티노이드의 11–27%(로코토·붉은 C. annuum보다 높음)[3]", "아히 붉은 열매의 특징 색소[3]", [3]),
+    c("Violaxanthin", "비올라잔틴", "카로티노이드(잔토필)", "bioactive", "노란·주황 열매",
+      "노란·주황 열매 3종의 주 카로티노이드(총카로티노이드의 37–68%)[3]", "노란색 열매 색소[3]", [3]),
+    c("Lutein", "루테인", "카로티노이드(잔토필)", "nutrient", "노란·주황 열매",
+      "노란·주황 아히와 로코토 ≥1000 μg/100 g(캘리포니아원더 피망보다 높음)[3]", "눈 건강 관련 카로티노이드(원문은 함량 비교만)[3]", [3]),
+    c("Ascorbic acid", "아스코르브산(비타민 C)", "비타민", "nutrient", "열매 과피",
+      "123개 유전형 과피 2.54–50.44 mg/g DW(정규분포 집단, DNPH 비색법); 대부분 덜 익은 성숙과에서 완숙과보다 높음[12]",
+      "14개 유전형은 건조 과피 2 g으로 권장량의 50–500%를 공급할 수 있다고 계산됨[12]", [12]),
+    c("Chlorogenic acid", "클로로겐산", "페놀산", "bioactive", "열매 과육 추출물(UENF 1613 계통)",
+      "HPLC-DAD 정량법 검증, 회수율 77–93%(함량 수치는 초록에서 확인하지 못함)[13]", "과육 추출물의 페놀 성분[13]", [13]),
+    c("3-Isobutyl-2-methoxypyrazine", "3-아이소뷰틸-2-메톡시피라진", "피라진(향 성분)", "bioactive", "열매",
+      "HS-SPME-GC/MS·올팩토메트리로 아히 향의 기반 성분으로 동정(정량값 없음)[4]", "피망 같은 풋내 향[4]", [4]),
+    c("Riboflavin", "리보플라빈(비타민 B2)", "비타민", "nutrient", "꽃꿀(먹는 부위 아님)",
+      "꽃꿀의 노란색을 내는 고농도 성분(수치는 초록에서 확인하지 못함)[26]", "빛을 받으면 활성산소를 만들어 미생물 생장 억제, 꿀벌 유인[26]", [26]),
+]
+
+E = {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "",
+     "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""}
+
+assays = [
+    {"role": "literature", "compound": "Capsaicin, dihydrocapsaicin, nordihydrocapsaicin", "compound_ko": "캡사이신·다이하이드로캡사이신·노르다이하이드로캡사이신",
+     "part": "완숙 열매(녹색 조직 제거, 40 °C 건조 분말; 미국 노스캐롤라이나 텃밭 재배)",
+     "content": "baccatum 복합군 품종 0–57,000 SHU(대부분 14,000–36,000 SHU), 평균 비 60:32:8[5]",
+     "method": "HPLC-UV(DAD)",
+     "conditions": dict(E, instrument="Shimadzu HPLC(LC-20AT 펌프, SIL-20A 자동주입기, SPD-M20A 다이오드 배열 검출기, CTO-20A 칼럼 오븐)",
+                        column="Restek Ultra C18, 250 × 4.6 mm, 5 μm",
+                        mobile_phase="A: 10% 메탄올 수용액, B: 100% 메탄올",
+                        gradient="0–10분 A 43%:B 57%, 10–20분 A 32%:B 68%",
+                        flow="1 mL/min", temp="30 °C", detection="UV 280 nm", injection="20 μL",
+                        sample_prep="건조 분말 500 mg에 아세토니트릴 5 mL, 80 °C 수욕 4시간 교반 추출 → 10,000 g 5분 원심 → 감압 건고 → 아세토니트릴 1 mL에 재용해 → 0.45 μm PTFE 여과",
+                        standard="정품 표준품(Sigma-Aldrich)과 머무름 시간·UV 스펙트럼 비교"),
+     "rationale": "캡사이시노이드가 고추 매운맛(SHU)의 직접 지표이고 종마다 세 성분 비율이 다르게 나타남(baccatum 복합군 60:32:8, 로코토 34:60:7); 직선성·검출·정량한계·회수율은 원문에 없음[5].",
+     "source": [5], "url": "https://doi.org/10.3390/ijms26104916", "source_kind": "paper"},
+    {"role": "literature", "compound": "Ascorbic acid", "compound_ko": "아스코르브산(비타민 C)",
+     "part": "열매 과피(덜 익은 성숙과·완숙과, 123개 유전형)",
+     "content": "2.54–50.44 mg/g DW(정규분포 집단)[12]",
+     "method": "DNPH(2,4-다이나이트로페닐하이드라진) 비색법, 마이크로플레이트",
+     "conditions": dict(E, instrument="마이크로플레이트 리더(BioTek Synergy HT), 유리 96웰 플레이트",
+                        detection="흡광도 520 nm",
+                        sample_prep="과피 2.5 g을 모래와 갈아 차가운 PBS(pH 7.4) 5 mL와 섞고 5,000 × g 5분 원심; 상등액 500 µL + 3% 메타인산 500 µL, 10,000 × g 15분 원심; 상등액 280 µL에 브로민 14 µL·4% 싸이오요소 14 µL·2% DNPH 70 µL 넣고 35 °C 3시간 → 얼음 위에서 85% 황산 350 µL 넣고 5분 뒤 80 µL 측정",
+                        standard="PBS에 녹인 아스코르브산(매번 새로 조제)"),
+     "rationale": "비타민 C는 고추 열매의 대표 영양 지표이며, 세계 유전자원 비교에 쓰임; HPLC가 아닌 비색법이고 직선성·검출한계·회수율은 원문에 없음[12].",
+     "source": [12], "url": "https://doi.org/10.1016/j.foodchem.2016.01.135", "source_kind": "paper"},
+    {"role": "literature", "compound": "Capsiconinoids (capsiconiate, dihydrocapsiconiate)", "compound_ko": "캡시코니노이드(캡시코니에이트·다이하이드로캡시코니에이트)",
+     "part": "열매(35개 품종 중 C. baccatum 7품종)",
+     "content": "'Capsiconinoid Baccatum'(C. baccatum var. praetermissum) 3,314 µg/g DW로 가장 높음[11]",
+     "method": "HPLC",
+     "conditions": dict(E),
+     "rationale": "C. baccatum에서 처음 분리된 매운맛 없는 TRPV1 작용 성분이라 이 종의 특이 지표 후보임[10, 11]; 전문 확인 못함 — 분석 조건은 비워 둠.",
+     "source": [11, 10], "url": "https://doi.org/10.1021/jf900634s", "source_kind": "paper"},
+    {"role": "literature", "compound": "Chlorogenic acid", "compound_ko": "클로로겐산",
+     "part": "열매 과육 추출물(UENF 1613 계통)",
+     "content": "함량 수치는 초록에서 확인하지 못함; 회수율 77–93%[13]",
+     "method": "HPLC-DAD(외부 표준법, 생체시료 분석법 기준으로 검증)",
+     "conditions": dict(E, recovery="77–93%", standard="외부 표준법(external standardization)"),
+     "rationale": "C. baccatum 과육 추출물의 페놀 성분 정량을 위해 검증된 방법; 반복성·중간정밀도 RSD 15% 이하; 전문 확인 못함 — 칼럼·이동상 등은 비워 둠[13].",
+     "source": [13], "url": "https://doi.org/10.1016/j.foodchem.2020.126929", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "capsicum-baccatum",
+    "name_ko": "로코토",
+    "name_en": "Ají pepper (Capsicum baccatum; listed by MFDS as Locoto)",
+    "scientific_name": "Capsicum baccatum L.",
+    "aliases": ["로코토열매", "Locoto", "Cayenne pepper", "아히(ají)", "Peruvian hot pepper", "데두지모사(dedo-de-moça)", "캄부시(cambuci)"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "nutrients": [],
+    "assays": assays,
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": sources,
+}
+json.dump(d, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
