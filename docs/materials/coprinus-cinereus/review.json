@@ -1,0 +1,114 @@
+{
+ "slug": "coprinus-cinereus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 65,
+ "checked_items": 52,
+ "verified": 99,
+ "fixed": 15,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "재먹물버섯은 먹물버섯 무리에 속하는 작은 버섯으로,",
+   "after": "재먹물버섯은 넓은 뜻의 먹물버섯속(Coprinus)에 들던 버섯으로,",
+   "why": "\"작은 버섯\"은 인용 출처가 크기를 말하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "식품의약품안전처 목록에 올린 학명은 Schaeffer가 기재하고 Gray가 Coprinus 속으로 옮긴 'Coprinus cinereus (Schaeff.) Gray'이다[1].",
+   "after": "식품의약품안전처 목록에 올린 학명은 'Coprinus cinereus (Schaeff.) Gray'이다[1].",
+   "why": "명명 경위는 [1]이 말하지 않음(목록은 학명만 실음)"
+  },
+  {
+   "where": "sections.history",
+   "before": "그 뒤 이 종은 Coprinopsis cinerea로 불리게 되었고,",
+   "after": "그 뒤 2001년 분류 논문(Taxon 50권)에서 이 종은 Coprinopsis cinerea (Schaeff.) Redhead, Vilgalys & Moncalvo로 옮겨졌고(뉴질랜드 생물명 등록부 항목, 웹 검색 요약으로만 확인)[33],",
+   "why": "현 학명 이전의 근거 출처가 없었음 — 명명 등록부 항목을 추가(웹 검색 요약으로만 확인)"
+  },
+  {
+   "where": "sections.biology",
+   "before": "갓에서 키티나아제와 β-1,3-글루칸 분해효소들이 함께 세포벽을 분해하는 것으로 보고되었다[19, 20].",
+   "after": "갓에서 정제한 키티나아제와 β-1,3-글루칸 분해효소들이 함께 세포벽을 분해할 것으로 제안되었다[19, 20].",
+   "why": "[19][20] 초록은 \"may promote\"·\"may act synergistically\"로 추정으로 씀"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "사이잘 잎 찌꺼기와 사이잘 줄기를 섞은 기질에",
+   "after": "사이잘 폐기물 집하장에서 채집한 자실체를 조직배양해 얻은 균주(동정 방법은 논문에 적혀 있지 않음)를, 퇴비화한 사이잘 잎 찌꺼기와 사이잘 밑동(boles)을 섞은 기질에",
+   "why": "[7] 전문: 균주는 야생 채집 자실체 조직배양, 기질은 composted sisal leaf residues·sisal boles; 동정 근거 미기재를 밝힘"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "종균은 수수 낟알로 만들어 습중량 기준 6%를 접종했고,",
+   "after": "종균은 수수 낟알로 만든 14일 된 것을 습중량 기준 6% 접종했고,",
+   "why": "[7] 전문 확인(14-day old spawn)"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "발이 단계는 26.5 °C·상대습도",
+   "after": "발이 단계는 26.5 ± 0.05 °C·상대습도",
+   "why": "[7] 전문 값"
+  },
+  {
+   "where": "sections.processing",
+   "before": "사이잘 폐기물 재배에서는 균사 생장기에 락카아제 활성이 가장 높았고(최대 39.45 ± 12.05 U/g, 수확 후 배지 습중량),",
+   "after": "사이잘 폐기물 재배에서는 균사 생장기에 락카아제 활성이 가장 높았고(최대 39.45 ± 12.05 U/g 배지 습중량, 소똥 10% 첨가 사이잘 잎 찌꺼기 배지에서 균사가 배지를 다 채운 10일째),",
+   "why": "[7] 전문: 최대값은 수확 후가 아니라 10일째(full colonization) 측정; 단위는 U g⁻¹ SMS wet wt."
+  },
+  {
+   "where": "sections.safety",
+   "before": "이는 환경 곰팡이로서 호흡기로 들어간 감염 사례이며, 버섯을 먹어서 생긴 것은 아니다[24, 25].",
+   "after": "보고된 사례는 폐·호흡기 검체에서 나온 감염과 집락이며, 두 문헌에서 버섯 섭취와 관련된 사례는 확인하지 못함[24, 25].",
+   "why": "[24][25] 초록은 감염 경로를 단정하지 않음 — 과장 없이 표현"
+  },
+  {
+   "where": "sections.safety",
+   "before": "2026년에는 급성 골수성 백혈병 환자의 호중구 감소기에 생긴 폐 감염 사례가 보고되었다[25].",
+   "after": "2026년에는 급성 골수성 백혈병 환자가 항진균제 예방 투여 중 호중구 감소기에 생긴 폐 감염(돌파 감염) 사례가 보고되었다[25].",
+   "why": "[25] 초록: breakthrough infection during antifungal prophylaxis"
+  },
+  {
+   "where": "compounds[14-Hydroxy-5-desoxy-2S,3S,9R-illudosin].content_text",
+   "before": "4,5-디하이드로-5-데옥시아르밀롤",
+   "after": "4,5-데하이드로-5-데옥시아르밀롤",
+   "why": "[13] 초록은 4,5-dehydro(디하이드로 dihydro 아님)"
+  },
+  {
+   "where": "compounds[Coprinoferrin].part",
+   "before": "균사(laeA 결손 균주에서 증가)",
+   "after": "배양 균주(laeA 결손 균주에서 생산 증가; 부위는 초록에 표기 없음)",
+   "why": "[15] 초록은 균사 부위를 말하지 않음"
+  },
+  {
+   "where": "compounds[CCL2 lectin].activity_ko",
+   "before": "(실험동물·무척추동물)",
+   "after": "(선충·초파리 실험)",
+   "why": "[17]: C. elegans·D. melanogaster만 시험"
+  },
+  {
+   "where": "assays[0].conditions.standard",
+   "before": "; 용매 추출법에서는 내부표준 노닐 아세테이트 1 μg/mL",
+   "after": "",
+   "why": "PMC 전문 텍스트에 노닐 아세테이트·1 μg/mL 없음(내부표준 사용만 언급)"
+  },
+  {
+   "where": "sources[2].title",
+   "before": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 이름이 가까운 항목: 먹물버섯·먹물버섯어린자실체·먹물버섯추출물(Coprinus comatus, 사용가능), 노랑갈색먹물버섯자실체(Coprinellus radians / Coprinus radians, 사용가능), 갈색먹물버섯(Coprinus micaceus)·좀밀먹물버섯(Coprinus plicatilis, 이상 사용불가) (로컬 원자료 대조)",
+   "after": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 이름이 가까운 항목: 먹물버섯·먹물버섯어린자실체·먹물버섯추출물(Coprinus comatus, 사용가능), 노랑갈색먹물버섯자실체(Coprinellus radians / Coprinus radians, 사용가능), 갈색먹물버섯(Coprinus micaceus)·좀밀먹물버섯(Coprinus plicatilis — 원자료 표기 'COPRINUS PLICATIOLLIS FR.', 이상 사용불가) (로컬 원자료 대조)",
+   "why": "로컬 원자료 학명 표기 그대로 병기"
+  },
+  {
+   "where": "sources[5].title",
+   "before": "Life history and developmental processes in the basidiomycete Coprinus cinereus (초록; PMC 전문 본문 없음) (Microbiol Mol Biol Rev, 2000; PMID 10839819)",
+   "after": "Life history and developmental processes in the basidiomycete Coprinus cinereus (초록; PMC98996) (Microbiol Mol Biol Rev, 2000; PMID 10839819)",
+   "why": "PubMed 메타데이터에 PMC98996 있음"
+  }
+ ],
+ "unverifiable_notes": [
+  "[33] 현 학명 Coprinopsis cinerea (Schaeff.) Redhead, Vilgalys & Moncalvo(Taxon 50(1):227, 2001)는 웹 검색 요약으로만 확인 — NZOR 페이지·Taxon 원문은 직접 열지 않음",
+  "[12][13][17] 등 초록만 있는 논문은 초록 범위에서 대조; [7]·[16]은 PMC 전문, [1][2]는 로컬 I1020_20261013.json, [3]은 docs/stats CSV에 '먹물버섯' 품목 없음을 재확인",
+  "먹물버섯(C. comatus)·두엄먹물버섯(코프린) 자료는 related_species·safety에서 다른 종 자료로 분리 표기되어 있음을 확인; 균사·배양액·효소 연구는 부위·'시험관'을 명시하고 식품 효능으로 쓰지 않음을 확인"
+ ]
+}

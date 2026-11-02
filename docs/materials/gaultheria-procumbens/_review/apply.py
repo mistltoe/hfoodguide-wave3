@@ -1,0 +1,44 @@
+import json
+p='docs/materials/gaultheria-procumbens/dossier.json'
+d=json.load(open(p))
+S={s['key']:s for s in d['sections']}
+changes=[]
+def rep(key,old,new,why):
+    b=S[key]['body']; assert old in b,(key,old); S[key]['body']=b.replace(old,new); changes.append({"where":f"sections.{key}","before":old,"after":new,"why":why})
+rep('overview','잎을 증류한 정유(윈터그린유)는 살리실산메틸이 96.9–100%를 차지해','잎·열매 등 여러 기관에서 증류한 정유(윈터그린유)는 살리실산메틸이 96.9–100%를 차지해',
+    '[3] 초록은 정유를 "different plant organs"에서 증류한 것으로 보고함 — 잎만으로 한정할 근거 없음')
+rep('related_species','고테린의 동물 진통·항염 실험은 이 종이 아닌 같은 속 식물의 줄기·잎에서 분리한 시료로 한 연구가 섞여 있어, 리뷰 본문에서 출처 종을 하나하나 확인하지 못함.',
+    '고테린의 동물(생쥐·쥐) 진통·항염 실험은 리뷰에 정리되어 있으나[3], 시험 시료가 이 종에서 분리된 것인지 같은 속 다른 종에서 분리된 것인지는 이번에 확인하지 못함.',
+    '출처 없이 "다른 종 시료가 섞여 있다"고 단정함 — [3] 본문은 동물 실험을 정리하나 시료 종명은 추출본에서 확인 불가, 확인하지 못함으로 약화')
+rep('cultivation','미국에서는 콜레토트리쿰(Colletotrichum gloeosporioides)에 의한 탄저병이 이 종에서 처음 보고되었다[21].',
+    '캐나다 브리티시컬럼비아의 종자 번식 묘포장에서 콜레토트리쿰(Colletotrichum gloeosporioides)에 의한 탄저병(줄기 궤양·고사)이 이 종에서 처음 확인되었다[21].',
+    '[21] 초록: 2001–2002년 캐나다 브리티시컬럼비아 묘포장 사례 — "미국"은 틀림')
+rep('processing','다른 연구에서 수증기 증류한 정유는 살리실산메틸이 91%였다[15].','다른 연구에서 물증류(hydrodistillation)로 얻은 정유는 살리실산메틸이 91%였다[15].',
+    '[15] 초록은 hydrodistillation(물증류)으로 적음')
+rep('processing','줄기 아세톤 추출물은 폴리페놀 427.2 mg/g 건조중량 가운데','줄기 아세톤 추출물은 폴리페놀 427.2 mg/g(건조 추출물) 가운데',
+    '[8] 값은 추출물 건조중량 기준 — "건조중량"만 쓰면 원물 기준으로 오독됨')
+rep('processing','정유는 식품 향료 외에 저장 곡물 해충 방제 소재로도 연구되었다[23].','정유는 식품 향료 외에 저장 곡물 해충 방제 소재로도 연구되었다(그 정유의 살리실산메틸 96.61%)[23].',
+    '[23] 초록 확인 — 정유 조성 수치 보강(이전엔 제목만 확인)')
+rep('genetics','새 천연물인 퀘르세틴·캠페롤 3-O-자일로실-글루쿠로나이드도 이 종에서 구조가 밝혀졌다[4].',
+    '이 둘은 2021년 연구에서 새 천연물로 구조가 밝혀진 퀘르세틴·캠페롤 3-O-자일로실(1→2)글루쿠로나이드다[4].',
+    '[4] 본문: DGQ·DGK(퀘르세틴·캠페롤 자일로실-글루쿠로나이드)에 윈터그린오사이드 A·B라는 이름을 붙임 — 별개 성분처럼 쓴 것을 바로잡음')
+rep('safety','JECFA는 향료 살리실산메틸의 1일 섭취허용량(ADI)을 0.5 mg/kg 체중으로 정했고 EFSA도 이를 받아들였다[12].',
+    'EFSA 사료첨가물 의견서에 따르면 JECFA는 개 2년 시험의 무독성량(50 mg/kg 체중/일)을 근거로 향료 살리실산메틸의 1일 섭취허용량(ADI)을 0.5 mg/kg 체중으로 정했고, EFSA도 이를 받아들였다[12].',
+    '[12]는 사료첨가물 평가 의견서 — 출처 성격과 ADI 근거(NOAEL 50 mg/kg bw/일, 개 2년 시험)를 원문대로 보강')
+rep('safety','EFSA는 유럽화학물질청이 살리실산메틸을 생식독성 2등급(태아에 해를 끼칠 우려)으로 분류했다고 적었다[12].',
+    'EFSA는 유럽화학물질청 위해성평가위원회가 2019년 살리실산메틸을 생식독성 2등급(태아에 해를 끼칠 우려)으로 분류했다고 적었다[12].',
+    '[12] 원문: 2019년 ECHA RAC 분류 — 연도·기관 보강')
+rep('safety','티베리 향료 약 40 mL를 마신 성인이','아이스크림을 만들다 티베리 향료 오일 약 40 mL를 일부러 마신 22세 성인이',
+    '[13] 초록 대조 — 고의 섭취·상황 보강(수치 111 mg/dL·혈액투석은 맞음)')
+# compounds
+for c in d['compounds']:
+    if c['name']=='Wintergreenoside A':
+        old=c['content_text']
+        c['content_text']='잎 메탄올–물 추출물 7.26 mg/g, 줄기 메탄올–물 추출물 2.16 mg/g(건조 추출물, HPLC-PDA)[3]'
+        c['part']='잎·줄기·지상부'
+        c['activity_ko']='종 특이 화학분류 표지 후보[3]; 2021년 새 천연물로 구조 확인(퀘르세틴 3-O-자일로실(1→2)글루쿠로나이드), 사람 호중구 IL-1β 분비 억제(체외)[4]'
+        c['source']=[3,4]
+        changes.append({"where":"compounds.Wintergreenoside A","before":old,"after":c['content_text'],"why":"[3] 표에 잎·줄기 추출물 함량이 있음; [4]에서 구조 규명·활성"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('docs/materials/gaultheria-procumbens/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

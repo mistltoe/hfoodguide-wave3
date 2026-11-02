@@ -1,0 +1,158 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+ACC = "2026-11-02"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+
+
+def pm(pmid, title, pub, note="초록 확인"):
+    return {"title": f"{title} (PMID {pmid}; {note})", "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": f"{pub} / PubMed", "accessed": ACC}
+
+
+def pmc(pmcid, title, pub, note="PMC 전문 확인"):
+    return {"title": f"{title} ({pmcid}; {note})", "url": f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/", "publisher": f"{pub} / PubMed Central", "accessed": ACC}
+
+
+S = [
+    {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 양하 3개 원료명 행(양하·양하어린잎·양하화서). 학명 'Zingiber mioga (Thunb.) Roscoe / Amomum mioga Thunb.', 이명 양애, 영문명 Mioga Ginger, 분류 식물, 사용조건 '사용가능부위 : 화서, 잎(순)', 지위 사용가능. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    {"title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 관련 행: 생강·생강가루 등(Zingiber officinale Roscoe, 이명 건강, 영문명 Common Ginger) 사용가능 '사용가능부위 : 뿌리줄기※(건강), 뿌리, 줄기, 잎'; 건조고량강·고량강뿌리줄기(Alpinia officinarum Hance, 이명 갈랑갈·아시아생강·신강) 사용가능 '사용가능부위 : 뿌리줄기※(고량강)'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+    pm("12596870", "Labdane-type diterpene dialdehyde, pungent principle of myoga, Zingiber mioga Roscoe. Biosci Biotechnol Biochem 2002;66(12):2698-2700, doi:10.1271/bbb.66.2698", "Japan Society for Bioscience, Biotechnology, and Agrochemistry"),
+    pm("15277772", "Antimicrobial activities of diterpene dialdehydes, constituents from myoga (Zingiber mioga Roscoe), and their quantitative analysis. Biosci Biotechnol Biochem 2004;68(7):1601-1604, doi:10.1271/bbb.68.1601", "Japan Society for Bioscience, Biotechnology, and Agrochemistry", "초록만 확인, 전문 확인 못함"),
+    pm("17031030", "A novel labdane-type trialdehyde from myoga (Zingiber mioga Roscoe) that potently inhibits human platelet aggregation and human 5-lipoxygenase. Biosci Biotechnol Biochem 2006;70(10):2494-2500, doi:10.1271/bbb.60226", "Japan Society for Bioscience, Biotechnology, and Agrochemistry"),
+    pm("18838802", "Mioganal, a novel pungent principle in myoga (Zingiber mioga Roscoe) and a quantitative evaluation of its pungency. Biosci Biotechnol Biochem 2008;72(10):2681-2686, doi:10.1271/bbb.80347", "Japan Society for Bioscience, Biotechnology, and Agrochemistry", "초록만 확인, 전문 확인 못함"),
+    pm("16356125", "Suppressive effects of mioga ginger and ginger constituents on reactive oxygen and nitrogen species generation, and the expression of inducible pro-inflammatory genes in macrophages. Antioxid Redox Signal 2005;7(11-12):1621-1629, doi:10.1089/ars.2005.7.1621", "Mary Ann Liebert"),
+    pm("11790448", "Screening of edible Japanese plants for suppressive effects on phorbol ester-induced superoxide generation in differentiated HL-60 cells and AS52 cells. Cancer Lett 2002;176(1):7-16, doi:10.1016/s0304-3835(01)00735-2", "Elsevier"),
+    pm("12969783", "Dietary ginger constituents, galanals A and B, are potent apoptosis inducers in Human T lymphoma Jurkat cells. Cancer Lett 2003;199(2):113-119, doi:10.1016/s0304-3835(03)00381-1", "Elsevier"),
+    pm("24533148", "Effects of various phytochemicals on indoleamine 2,3-dioxygenase 1 activity: galanal is a novel, competitive inhibitor of the enzyme. PLoS One 2014;9(2):e88789, doi:10.1371/journal.pone.0088789 (PMC3923053)", "PLOS"),
+    pm("26598901", "Food Compounds Activating Thermosensitive TRP Channels in Asian Herbal and Medicinal Foods. J Nutr Sci Vitaminol 2015;61 Suppl:S86-88, doi:10.3177/jnsv.61.S86", "Center for Academic Publications Japan"),
+    pmc("PMC6332244", "MS-Based Metabolite Profiling of Aboveground and Root Components of Zingiber mioga and Officinale. Molecules 2015;20(9):16170-16185, doi:10.3390/molecules200916170, PMID 26404226", "MDPI"),
+    pmc("PMC13208317", "Multomics Analysis of the Characteristic Changes in Polyphenol Accumulation and Cell Wall Polysaccharide Remodelling During the Development of Zingiber mioga Roscoe Flower Buds. Metabolites 2026;16(5):316, doi:10.3390/metabo16050316, PMID 42188025", "MDPI"),
+    pm("40559382", "UPLC-ESI-QTRAP-MS-Based Metabolomics Revealed Changes in Biostimulant-Related Metabolite Profiles in Zingiber mioga Flower Buds During Development. Metabolites 2025;15(6):358, doi:10.3390/metabo15060358 (PMC12195210)", "MDPI"),
+    pm("38729697", "The dynamic changes in volatile metabolites provide a new understanding for the special flavor formation in Z. mioga flower buds during the growth stages. Food Res Int 2024;186:114347, doi:10.1016/j.foodres.2024.114347", "Elsevier"),
+    pm("38091742", "Polysaccharides from waste Zingiber mioga leaves: Ultrasonic-microwave-assisted extraction, characterization, antioxidant and anticoagulant potentials. Ultrason Sonochem 2023;101:106718, doi:10.1016/j.ultsonch.2023.106718 (PMC10733691)", "Elsevier"),
+    pmc("PMC4815155", "In vitro and in vivo reduction of post-prandial blood glucose levels by ethyl alcohol and water Zingiber mioga extracts through the inhibition of carbohydrate hydrolyzing enzymes. BMC Complement Altern Med 2016;16:111, doi:10.1186/s12906-016-1090-4, PMID 27036710", "BioMed Central"),
+    pm("27347064", "Zingiber mioga reduces weight gain, insulin resistance and hepatic gluconeogenesis in diet-induced obese mice. Exp Ther Med 2016;12(1):369-376, doi:10.3892/etm.2016.3331 (PMC4906615)", "Spandidos Publications"),
+    pm("32765704", "Synergistic lipid-lowering effects of Zingiber mioga and Hippophae rhamnoides extracts. Exp Ther Med 2020;20(3):2270-2278, doi:10.3892/etm.2020.8913 (PMC7401869)", "Spandidos Publications"),
+    pm("26563629", "Effects of Myoga on Memory and Synaptic Plasticity by Regulating Nerve Growth Factor-Mediated Signaling. Phytother Res 2016;30(2):208-213, doi:10.1002/ptr.5511", "Wiley"),
+    pm("26063513", "Zingiber mioga (Thunb.) Roscoe attenuates allergic asthma induced by ovalbumin challenge. Mol Med Rep 2015;12(3):4538-4545, doi:10.3892/mmr.2015.3914", "Spandidos Publications"),
+    pmc("PMC12982368", "Based on untargeted metabolomics and metagenomics: a study on the mechanism of Miao ethnomedicine Zingiber mioga (Thunb.) Rosc. in treating slow transit constipation. Front Microbiol 2026;17:1751739, doi:10.3389/fmicb.2026.1751739, PMID 41834860", "Frontiers", "PMC 전문 중 재료·방법 확인"),
+    pm("17903354", "Occupational allergic contact dermatitis from mioga (Zingiber mioga Rosc.) in greenhouse cultivators. Int J Immunopathol Pharmacol 2007;20(2 Suppl 2):31-34, doi:10.1177/03946320070200S207", "SAGE"),
+    pm("17179641", "Toxicity study of the volatile constituents of Myoga utilizing acute dermal irritation assays and the Guinea-pig Maximization test. J Occup Health 2006;48(6):480-486, doi:10.1539/joh.48.480", "Japan Society for Occupational Health"),
+    pm("20646341", "Evaluation of allergenicity of constituents of myoga using the murine local lymph node assay. Int J Immunopathol Pharmacol 2010;23(2):463-470, doi:10.1177/039463201002300208", "SAGE"),
+    pm("7116325", "Carcinogenicity examination of inflorescence of Zingiber mioga Roscoe. Cancer Lett 1982;15(3):203-208, doi:10.1016/0304-3835(82)90119-7", "Elsevier"),
+    pm("36908146", "[A case report: the progress of fascioliasis from hepatic phase to biliary phase]. Nihon Shokakibyo Gakkai Zasshi 2023;120(3):269-275, doi:10.11405/nisshoshi.120.269", "Japanese Society of Gastroenterology", "일본어 논문, 영문 초록 확인"),
+    pm("33659662", "Characterization of the chloroplast genome of Zingiber mioga (Thunb.) Rosc. Mitochondrial DNA B Resour 2021;6(2):318-319, doi:10.1080/23802359.2020.1866466 (PMC7872563)", "Taylor & Francis"),
+    pm("33829093", "Complete chloroplast genome of Zingiber mioga by de novo sequencing. Mitochondrial DNA B Resour 2021;6(3):1238-1240, doi:10.1080/23802359.2021.1904799 (PMC8008884)", "Taylor & Francis"),
+    pm("540889", "[Pharmacological studies on Zingiber mioga (ZM) (1). General pharmacological effects of water extracts]. Nihon Yakurigaku Zasshi 1979;75(7):669-682", "Japanese Pharmacological Society", "일본어 논문, 영문 초록 확인"),
+    pm("540886", "[Behavioral and EEG effects of Zingiber mioga Roscoe (water soluble fraction)]. Nihon Yakurigaku Zasshi 1979;75(6):601-615", "Japanese Pharmacological Society", "일본어 논문, 영문 초록 확인"),
+    pm("41486242", "Green corrosion inhibition of mild steel in acidic media: electrochemical behavior and theoretical studies of Zingiber mioga essential oil. Environ Sci Pollut Res Int 2026;33(1):275-290, doi:10.1007/s11356-025-37257-8", "Springer"),
+]
+for i, s in enumerate(S, 1):
+    s["n"] = i
+SOURCES = [{"n": s["n"], "title": s["title"], "url": s["url"], "publisher": s["publisher"], "accessed": s["accessed"]} for s in S]
+
+sections = [
+    {"key": "overview", "title": "한눈에 보기", "body":
+     "양하(Zingiber mioga)는 생강과(Zingiberaceae) 생강속의 여러해살이풀로, 땅속줄기에서 올라오는 어린 꽃이삭(화서)을 향신 채소로 먹는다[1, 13]. 식약처 「식품원료 목록」에는 학명이 'Zingiber mioga (Thunb.) Roscoe / Amomum mioga Thunb.', 이명이 양애, 영문명이 Mioga Ginger로 올라 있다[1].\n\n"
+     "식품원료로서 양하는 '양하', '양하어린잎', '양하화서' 세 원료명 행이 모두 사용가능 원료이고, 사용 조건은 '사용가능부위 : 화서, 잎(순)'이다[1]. 따라서 목록상 식품으로 쓸 수 있는 부위는 꽃이삭과 어린잎(순)이며, 땅속줄기(뿌리줄기)는 이 조건에 적혀 있지 않다[1]. 같은 속의 생강(Z. officinale)은 뿌리줄기·뿌리·줄기·잎이 사용가능부위로 따로 올라 있어 두 원료의 조건이 다르다[2].\n\n"
+     "꽃이삭의 매운맛은 라브단형 디테르펜 디알데하이드인 미오가디알(miogadial)에서 오고, 그 밖에 갈라날 A·B, 미오가트리알, 미오가날 등이 분리되었다[3, 4, 5, 6]. 일본 식용식물 선별 연구에서 양하 추출물은 세포의 초과산화물 생성을 강하게 억제했다[8]. 그 밖에 물·에탄올 추출물의 식후 혈당 상승 억제(쥐), 고지방식 생쥐의 체중·간 지방 감소, 기억력 개선(생쥐), 알레르기 천식 완화(생쥐), 비타민나무 열매 추출물과 섞은 혼합물의 지질 저하(생쥐)가 보고되었다[17, 18, 20, 21, 19]. 이 결과들은 모두 세포·동물 실험이며, 사람을 대상으로 한 임상시험은 확인하지 못함."},
+    {"key": "history", "title": "이용의 역사", "body":
+     "일본에서는 양하의 어린 꽃이삭을 향신료로 써 왔고, 일본어 이름 묘가(myoga)로 널리 알려져 있다[23, 3]. 한 논문은 양하를 일본의 특산 향신 식물로 소개하며 일본 전역에서 재배된다고 적었다[24]. 꽃이삭은 향신료나 절임으로 먹고, 동아시아에서는 건강보조 용도로도 쓰인다고 보고되었다[20].\n\n"
+     "한국에서 쓴 연구는 양하 꽃봉오리가 일본·중국·한국에서 향신료와 약재로 쓰인다고 적었다[12]. 중국 구이저우성의 먀오족은 양하를 민간약으로 써 왔고, 어린잎과 꽃이삭은 채소로 먹으며 꽃이삭은 기침약 처방에 넣기도 한다고 보고되었다[22]. 중국에서는 꽃이삭을 잘게 썰어 생으로 샐러드처럼 먹는 방식이 주로 소개된다[13]. 또 다른 연구는 중국에서 기침과 류머티즘에 약으로 쓰고 일본 전역에서 먹는다고 적었다[18].\n\n"
+     "약리 연구는 1979년 일본에서 물 추출물의 중추신경 작용을 본 동물 실험으로 시작되었다[30, 31]. 한국의 양하 재배·이용 역사에 대한 공공기관 자료는 확인하지 못함."},
+    {"key": "biology", "title": "식물학적 특징", "body":
+     "양하는 생강과 생강속의 여러해살이풀이며, 꽃이삭은 땅속줄기에서 땅 위로 솟아나 솔방울 모양을 이룬다[13, 22]. 원산지는 자료마다 달라, 열대 아시아 원산이라는 보고와 동아시아 원산이라는 보고가 함께 있다[23, 25]. 중국에서는 저장·장쑤·광둥·구이저우 등지에 분포한다고 적혀 있다[22].\n\n"
+     "중국 구이저우의 한 재배지에서 꽃이삭은 싹튼 지 10일(발아기)·20일(봉오리기)·30일(발육 후기)·40일(성숙기)의 네 단계로 나뉘어 조사되었다[13]. 이 기간에 안토시아닌과 플라보노이드 등 폴리페놀이 꾸준히 늘어 성숙기에 가장 많았다[13]. 같은 연구진의 다른 분석에서도 페놀산·알칼로이드·지질·테르페노이드 등 204종이 대부분 성숙기에 최대였다[14]. 휘발성 성분 182종도 생육 후기에 가장 많았고, 주된 향은 나무향·단향으로 평가되었다[15].\n\n"
+     "일본에는 여름 양하(natsumyoga)와 가을 양하(akimyoga) 계통이 있으며, 매운 성분 미오가날은 두 계통 모두 꽃이삭보다 잎에 많았다[6]. 미오가디알은 꽃이삭에 잎보다 훨씬 많고, 갈라날 A·B는 잎과 땅속줄기에 많다고 보고되었다[4]."},
+    {"key": "related_species", "title": "근연종과 혼동 주의", "body":
+     "같은 속의 생강(Zingiber officinale)은 식약처 목록에서 별개 원료로, 뿌리줄기(건강)·뿌리·줄기·잎을 쓸 수 있다[2]. 양하는 꽃이삭과 어린잎(순)만 사용가능부위로 적혀 있으므로, 생강의 부위 조건을 양하에 그대로 옮기면 안 된다[1, 2]. 같은 생강과의 고량강(Alpinia officinarum)은 '아시아생강'이라는 이명이 있지만 다른 속의 식물이다[2].\n\n"
+     "두 종을 함께 분석한 연구에서 양하와 생강은 대사체 조성으로 뚜렷이 갈렸고, 테트라하이드로커큐민·다이아릴헵타노이드·8-진저롤·8-파라돌이 두 종을 가르는 성분이었다[12]. 8-진저롤과 8-파라돌은 주로 생강, 특히 생강 뿌리 쪽에서 검출되었다[12]. 그러므로 생강의 진저롤·쇼가올 자료를 양하 효능의 근거로 쓰면 안 된다[12].\n\n"
+     "갈라날 A·B를 다룬 한 논문은 제목에서 '식용 생강 성분'이라 불렀지만, 실제 시료는 양하 꽃봉오리에서 분리한 것이어서 출처의 종을 확인해야 한다[9]. 활성산소 억제 연구에서도 아프라모디알·갈라날 B는 양하 성분, 6-진저롤·갈라놀락톤은 생강 성분으로 나뉘어 있었다[7]."},
+    {"key": "cultivation", "title": "재배와 수확", "body":
+     "양하는 땅속줄기로 번식하며, 꽃이삭이 땅속줄기에서 올라올 때 거둔다[13]. 중국 구이저우의 산지 채소밭 시료는 싹튼 뒤 10–40일 사이에 단계별로 거두어 분석되었다[13]. 꽃이삭의 향 성분은 생육 후기(DS3 또는 DS4)에 최대였고, 연구진은 이 결과를 수확 적기 판단의 참고로 제시했다[15].\n\n"
+     "일본에서는 비닐하우스(온실) 재배가 이루어지며, 재배 농가 35명 가운데 8명(22.9%)이 재배를 시작한 뒤 손 피부염을 겪었다고 답했다[23]. 수확기의 피부염은 재배 작업에서 생기는 직업성 문제로 보고되었다[24].\n\n"
+     "꽃이삭이 주된 수확물이고 큰 잎은 농업 부산물로 버려진다고 보고되었다[16]. 한국 내 재배 면적·생산량 통계는 통계청·농식품부 공개 자료에서 확인하지 못함."},
+    {"key": "processing", "title": "가공과 이용", "body":
+     "양하 꽃이삭은 향신료, 절임, 생채로 먹는다[20, 13]. 일본 연구는 꽃이삭을 향신료로 쓰고, 한국·중국에서도 향신 채소와 약재로 쓴다고 적었다[12, 23].\n\n"
+     "연구용 가공으로는 물·에탄올 추출물이 주로 쓰였다[17, 18]. 제주 시장에서 산 양하를 생체 1 g당 40 mL 비율로 추출했을 때 총페놀 함량은 에탄올 추출물 2697.31 mg/100 g, 물 추출물 2182.96 mg/100 g이었다[17]. 버려지는 잎에서는 초음파-마이크로파 병행 추출로 다당류를 6.22 ± 0.14% 수율로 얻었고, 주된 우론산은 갈락투론산이었다[16]. 수증기 증류로 얻은 정유에서는 α-피넨·α-테르피네올·카리오필렌이 주성분으로 확인되었다[32].\n\n"
+     "중국 구이저우 연구에서 쓴 물 추출물은 꽃이삭이 아닌 말린 땅속줄기를 달여 만든 것이다[22]. 땅속줄기는 식약처 목록의 양하 사용가능부위(화서, 잎(순))에 포함되지 않는다[1]. 식약처 「식품 등의 생산실적」에서 양하 품목은 확인하지 못함."},
+    {"key": "genetics", "title": "유전과 계통", "body":
+     "양하의 엽록체 유전체는 두 연구에서 해독되었다[28, 29]. 한 연구는 길이 159,868 bp, 역반복 구간 26,652 bp 두 개, 큰 단일복제 구간 89,431 bp, 작은 단일복제 구간 17,133 bp, 유전자 113개(단백질 78·tRNA 31·rRNA 4)로 보고했다[28]. 다른 연구는 길이 163,541 bp, 큰 단일복제 구간 88,035 bp, 작은 단일복제 구간 15,886 bp, 역반복 구간 29,810 bp, 유전자 135개로 보고해 두 결과가 다르다[29].\n\n"
+     "계통 분석에서 양하는 생강과·생강목의 다른 종들과 한 무리를 이루었다[28]. 양하와 생강을 비교한 대사체 연구에서 두 종은 1차·2차 대사산물 모두 주성분 분석에서 뚜렷이 갈렸다[12].\n\n"
+     "일본의 여름 양하·가을 양하처럼 수확 시기가 다른 계통이 있다[6]. 한국 품종 등록이나 핵 유전체 해독 자료는 확인하지 못함."},
+    {"key": "safety", "title": "안전성", "body":
+     "식약처 목록에서 양하는 꽃이삭과 어린잎(순)에 한해 사용가능 원료다[1]. 공공기관의 알레르기 표시·잔류 기준·독성 성분 정보는 확인하지 못함.\n\n"
+     "일본 온실 재배 농가 조사에서 35명 중 8명(22.9%)이 손 피부염을 겪었고, 첩포검사를 받은 4명 중 2명이 양하에 알레르기 반응을 보였다[23]. 기니피그 시험에서 양하는 약한 피부 감작물질, 리모넨 옥사이드는 극도의 감작물질로 평가되었다[24]. 생쥐 국소림프절시험에서 리모넨·리모넨 옥사이드·β-펠란드렌은 양성(EC3 각 35.8%·8.22%·0.54%)이었고 α·β-피넨은 음성이었다[25]. 이는 재배·손질할 때 피부 접촉에 관한 결과다[23, 25].\n\n"
+     "1982년 쥐 실험에서 양하 꽃이삭을 섞은 먹이를 먹인 암컷 ACI 쥐에서 방광 종양이 대조군보다 많았으나, 수컷과 F344 쥐에서는 발암성이 관찰되지 않았다[26]. 사람에게서 같은 위험을 확인한 자료는 확인하지 못함.\n\n"
+     "일본에서는 밭에서 딴 양하를 먹은 뒤 간질(Fasciola) 감염증이 생겨 2년에 걸쳐 간에서 담도로 진행한 증례가 보고되었다[27]. 이 증례는 밭에서 거둔 채소를 날로 먹을 때의 기생충 감염 사례로 참고할 수 있다[27]."},
+]
+
+compounds = [
+    {"name": "Miogadial", "name_ko": "미오가디알", "class": "라브단형 디테르펜 디알데하이드", "role": "marker", "part": "꽃이삭", "content_text": "꽃이삭 함량이 잎보다 훨씬 높음(수치는 초록에 없음)[4]; 매운맛 역치는 미오가날의 약 1/8[6]", "activity_ko": "양하의 주된 매운맛 성분, α,β-불포화 1,4-디알데하이드 구조에 의존[3]; 그람양성균·효모 항균(시험관)[4]; 사람 혈소판 응집·5-리폭시게나아제 억제(시험관)[5]; TRPA1 작용제(세포)[11]", "source": [3, 4, 5, 6, 11]},
+    {"name": "Miogatrial", "name_ko": "미오가트리알", "class": "라브단형 디테르펜 트리알데하이드", "role": "bioactive", "part": "꽃이삭", "content_text": "함량 수치 확인하지 못함(분리 보고)[5]", "activity_ko": "사람 혈소판 응집·사람 5-리폭시게나아제 강한 억제(시험관)[5]; TRPA1 작용제(세포)[11]", "source": [5, 11]},
+    {"name": "Galanal A", "name_ko": "갈라날 A", "class": "라브단형 디테르펜 디알데하이드", "role": "bioactive", "part": "꽃이삭·잎·땅속줄기", "content_text": "잎·땅속줄기에 많음(수치는 초록에 없음)[4]", "activity_ko": "매운맛 없음[3]; 그람양성균·효모 항균(시험관)[4]; Jurkat 세포 세포자멸 유도(세포)[9]", "source": [3, 4, 9]},
+    {"name": "Galanal B", "name_ko": "갈라날 B", "class": "라브단형 디테르펜 디알데하이드", "role": "bioactive", "part": "꽃이삭·잎·땅속줄기", "content_text": "잎·땅속줄기에 많음(수치는 초록에 없음)[4]", "activity_ko": "Jurkat 세포 세포자멸 유도(세포)[9]; 혈소판 응집·5-LOX 억제는 없음(시험관)[5]", "source": [4, 5, 9]},
+    {"name": "Galanal", "name_ko": "갈라날(양하 꽃 유래)", "class": "라브단형 디테르펜", "role": "bioactive", "part": "꽃(꽃이삭)", "content_text": "함량 수치 확인하지 못함[10]", "activity_ko": "재조합 사람 IDO1 경쟁적 억제 IC50 7.7 µM(효소), 세포 시험 IC50 45 nM(세포)[10]", "source": [10]},
+    {"name": "Mioganal", "name_ko": "미오가날", "class": "라브단형 디테르펜 디알데하이드", "role": "bioactive", "part": "잎·꽃이삭", "content_text": "잎에 생체 100 g당 평균 1.60 mg(여름·가을 양하), 꽃이삭의 약 3배[6]", "activity_ko": "매운맛 역치 5.6×10⁻⁵ g/mL(사람 관능)[6]", "source": [6]},
+    {"name": "Aframodial", "name_ko": "아프라모디알", "class": "라브단형 디테르펜", "role": "bioactive", "part": "꽃이삭(부위는 초록에 명시되지 않음)", "content_text": "함량 수치 확인하지 못함[7]", "activity_ko": "20 µM에서 HL-60 세포 초과산화물 생성 84.6%, RAW264.7 세포 NO 생성 95.9% 억제(세포)[7]", "source": [7]},
+    {"name": "Cyanidin 3-O-glucoside", "name_ko": "시아니딘-3-O-글루코사이드", "class": "안토시아닌", "role": "marker", "part": "꽃이삭", "content_text": "발육 단계 중 최고 277.52 μg/g(동결건조 시료 메탄올 추출, UPLC-MS/MS 외부표준법)[13]", "activity_ko": "꽃이삭의 붉은빛과 관련된 주요 안토시아닌, 성숙할수록 증가[13]", "source": [13]},
+    {"name": "Epicatechin", "name_ko": "에피카테킨", "class": "플라반-3-올", "role": "marker", "part": "꽃이삭", "content_text": "발육 단계 중 최고 313.39 μg/g(동결건조 시료 메탄올 추출, UPLC-MS/MS 외부표준법)[13]", "activity_ko": "꽃이삭 폴리페놀 중 최고 함량, 프로토펙틴과 강한 양의 상관[13]", "source": [13]},
+    {"name": "Peonidin 3-O-glucoside", "name_ko": "페오니딘-3-O-글루코사이드", "class": "안토시아닌", "role": "bioactive", "part": "꽃이삭", "content_text": "함량 수치는 본문 그림·부록에만 있어 확인하지 못함[13]", "activity_ko": "성숙에 따라 증가, 셀룰로스·리그닌과 양의 상관[13]", "source": [13]},
+    {"name": "Chlorogenic acid", "name_ko": "클로로겐산", "class": "페놀산", "role": "bioactive", "part": "꽃이삭", "content_text": "함량 수치는 본문 그림·부록에만 있어 확인하지 못함[13]", "activity_ko": "리그닌 함량과 양의 상관[13]", "source": [13]},
+    {"name": "Isoquercitrin", "name_ko": "이소퀘르시트린(퀘르세틴-3-O-글루코사이드)", "class": "플라보놀 배당체", "role": "bioactive", "part": "꽃이삭", "content_text": "함량 수치는 본문 그림·부록에만 있어 확인하지 못함[13]", "activity_ko": "꽃이삭에서 정량된 플라보노이드 8종 중 하나[13]", "source": [13]},
+    {"name": "beta-Phellandrene", "name_ko": "β-펠란드렌", "class": "모노테르펜", "role": "bioactive", "part": "꽃이삭(휘발 성분)", "content_text": "함량 수치 확인하지 못함[25]", "activity_ko": "생쥐 국소림프절시험 양성, EC3 0.54%(동물)[25]", "source": [25]},
+    {"name": "Limonene", "name_ko": "리모넨", "class": "모노테르펜", "role": "bioactive", "part": "휘발 성분", "content_text": "GC로 주요 휘발 성분 확인, 함량 수치 확인하지 못함[24]", "activity_ko": "R-(+)-리모넨이 재배자 접촉피부염의 주된 알레르겐으로 제시됨(동물)[24]; 국소림프절시험 EC3 35.8%(동물)[25]", "source": [24, 25]},
+    {"name": "alpha-Pinene", "name_ko": "α-피넨", "class": "모노테르펜", "role": "bioactive", "part": "정유·휘발 성분", "content_text": "정유 주성분으로 확인(수치는 초록에 없음)[32]", "activity_ko": "국소림프절시험 음성, EC3 100% 초과(동물)[25]", "source": [25, 32]},
+]
+
+assays = [
+    {"role": "literature", "compound": "Cyanidin 3-O-glucoside", "compound_ko": "시아니딘-3-O-글루코사이드(에피카테킨 등 폴리페놀 13종 동시 정량)",
+     "part": "꽃이삭(중국 구이저우 충장, 2020년, 발아 후 10·20·30·40일 4단계)",
+     "content": "발육 전 기간 최고값 시아니딘-3-O-글루코사이드 277.52 μg/g, 에피카테킨 313.39 μg/g; 13종 모두 성숙기(GS4)에 최고[13]",
+     "method": "UPLC-ESI-MS/MS(MRM)",
+     "conditions": {"instrument": "AB SCIEX Triple Quad 4500+ 질량분석기(ESI 터보 이온 스프레이); 본문에는 QTRAP6500+ UPLC-MS/MS·Analyst 1.6.3 표기도 함께 있음, 정량 MultiQuant 3.0.3",
+                    "column": "Waters ACQUITY BEH C18(3.0 mm × 100 mm, 1.7 µm)",
+                    "mobile_phase": "A: 0.1% 포름산 물, B: 0.1% 포름산 메탄올",
+                    "gradient": "등용리 A:B = 1:1",
+                    "flow": "0.35 mL/min", "temp": "40 °C",
+                    "detection": "ESI 양·음이온 모드, MRM; 이온원 500 °C, 이온 스프레이 4500 V(양)/−4500 V(음), CAD 9, 커튼가스 25 psi",
+                    "injection": "4 µL",
+                    "sample_prep": "동결건조 시료를 30 Hz 1.5분 분쇄, 분말 100 mg + 메탄올 1.0 mL, 1분 와류·30분 초음파, 11,190×g 4 °C 10분 원심분리, 0.2 µm 여과",
+                    "standard": "표준품(순도 ≥95.0%, 시그마알드리치) 외부표준법",
+                    "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "양하 꽃이삭의 색과 맛 형성에 관여하는 폴리페놀 가운데 시아니딘-3-O-글루코사이드와 에피카테킨이 가장 많아 발육 단계별 품질 지표로 쓰였다; 검출·정량한계와 회수율은 본문에 없다[13]",
+     "source": [13], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13208317/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Miogadial", "compound_ko": "미오가디알(갈라날 A·B 함께)",
+     "part": "꽃이삭·잎·땅속줄기",
+     "content": "미오가디알은 꽃이삭에 잎보다 훨씬 많고, 갈라날 A·B는 잎과 땅속줄기에 많음(수치는 초록에 없음)[4]",
+     "method": "", "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "미오가디알은 양하 꽃이삭의 주된 매운맛 성분이라 부위별 정량의 대상이 되었다[3, 4]; 전문 확인 못함(분석법·조건은 초록에 없음)",
+     "source": [3, 4], "url": "https://pubmed.ncbi.nlm.nih.gov/15277772/", "source_kind": "paper"},
+    {"role": "literature", "compound": "Mioganal", "compound_ko": "미오가날",
+     "part": "잎·꽃이삭(여름 양하·가을 양하)",
+     "content": "잎에 생체 100 g당 평균 1.60 mg, 꽃이삭의 약 3배[6]",
+     "method": "", "conditions": {"instrument": "", "column": "", "mobile_phase": "", "gradient": "", "flow": "", "temp": "", "detection": "", "injection": "", "sample_prep": "", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+     "rationale": "꽃이삭에서 새로 분리한 매운맛 성분으로, 품종·부위별 함량을 비교했다[6]; 전문 확인 못함(분석법·조건은 초록에 없음)",
+     "source": [6], "url": "https://pubmed.ncbi.nlm.nih.gov/18838802/", "source_kind": "paper"},
+]
+
+d = {
+    "slug": "zingiber-mioga",
+    "name_ko": "양하",
+    "name_en": "Mioga ginger (myoga, Japanese ginger)",
+    "scientific_name": "Zingiber mioga (Thunb.) Roscoe (식약처 목록: Zingiber mioga (Thunb.) Roscoe / Amomum mioga Thunb.)",
+    "aliases": ["양애", "양하어린잎", "양하화서", "Amomum mioga Thunb.", "Mioga Ginger", "myoga", "Japanese ginger"],
+    "sections": sections,
+    "compounds": compounds,
+    "markers": [],
+    "assays": assays,
+    "nutrients": [],
+    "production": [],
+    "world": [],
+    "gi": [],
+    "orgs": [],
+    "sources": SOURCES,
+}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("written", OUT)

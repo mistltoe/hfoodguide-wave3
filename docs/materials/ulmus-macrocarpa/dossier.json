@@ -1,0 +1,519 @@
+{
+ "slug": "ulmus-macrocarpa",
+ "name_ko": "왕느릅나무",
+ "name_en": "Large-fruit elm",
+ "scientific_name": "Ulmus macrocarpa Hance",
+ "aliases": [
+  "왕느릅나무껍질",
+  "왕느릅나무뿌리껍질",
+  "왕느릅나무잎",
+  "유백피",
+  "유근피",
+  "Large-fruit elm",
+  "large-fruited elm"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "왕느릅나무(Ulmus macrocarpa Hance)는 느릅나무과 느릅나무속의 잎지는 큰키나무로, 한국·일본·중국에 자라며 줄기껍질과 뿌리껍질이 전통적으로 쓰였다[7, 18]. 식품원료 목록의 영문명은 Large-fruit elm이고 다른 이름은 유백피·유근피·큰잎느릅나무이다[1].\n\n식약처 「식품원료 목록」에서 왕느릅나무껍질·껍질분말·껍질추출물·뿌리껍질은 '사용가능'이며 조건은 '사용가능부위 : 나무껍질*(유백피), 나무뿌리껍질'이다[1]. 왕느릅나무잎은 '제한적사용'이며 조건은 '제한적사용가능부위 : 잎'이다[1]. 열매·목재 등 다른 부위는 사용 부위에 없다[1]. 다른 이름 '큰잎느릅나무'는 별개 종(U. macrophylla)의 원료명이기도 해 혼동하지 않아야 한다[1, 2]. 껍질을 산딸기·치자와 섞은 개별인정 원료 '산딸기·왕느릅나무·치자추출복합물(제2024-36호)'도 목록에 있다[3]. 이 종을 원재료로 하는 고시형 원료는 확인하지 못함.\n\n연구는 주로 껍질에서 이루어졌고 에피카테킨-7-O-아피오사이드와 카테킨-7-O-아피오사이드가 지표성분으로 쓰였다[4, 5]. 동물에서는 혈중 지질 개선[12], 뿌리껍질 추출물의 혈압 저하[13], 전립선 비대 완화[15], 근위축 완화[17], 닭 콕시듐 감염 시 생존율 개선[25]이 보고되었다. 사람 대상 무작위 시험은 하루 500 mg 추출물을 4–12주 먹인 3건이 있다[6, 7, 8]. 고LDL 콜레스테롤 성인 80명 시험에서는 12주 뒤 LDL 콜레스테롤이 위약보다 18.1 mg/dL 더 낮았고[6], 건강한 성인 58명의 4주 시험에서는 NK 세포 활성에 위약과 차이가 없었으며[7], 장내세균 시험에서는 종 풍부도와 존재량에 유의한 차이가 없었다[8]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 이용의 역사",
+   "body": "왕느릅나무 껍질은 한국에서 유백피(楡白皮), 말린 뿌리껍질은 유근피(楡根皮)로 불리며 습진·관절염·염증, 민간에서는 위장 질환·부종에 쓰였다고 소개된다[5]. 동아시아에서는 껍질을 말려 갈아 차로 마시며, 예부터 비염에 좋다고 해 '코나무'로도 불렸다고 한다[4]. 줄기·뿌리껍질은 붓기, 위장병, 장염, 배뇨 곤란, 피부병, 유선염, 관절염 등에 쓰인 약재로 정리되어 있다[6].\n\n한 논문은 1990년 중국 학술지의 궤양성 대장염 36례 보고를 이 종의 첫 현대 약리 연구로 꼽았다[9, 21]. 중국 본초 문헌 고증에서는 열매(시과)를 다른 재료와 함께 발효해 만든 약재 '무이(芜荑)'의 기원식물로 왕느릅나무와 Hemiptelea davidii가 정리되었고, 비술나무(U. pumila)는 혼동된 위품으로 지적되었다[20]. 다만 이 발효 열매 약재는 국내 식품원료 목록의 사용 부위(껍질·뿌리껍질·잎)와 다르다[1, 20].\n\n한국에서는 느릅나무(U. davidiana var. japonica)·참느릅나무·비술나무 등의 껍질이 겉모양으로 구별하기 어려워 오랫동안 '유근피·유백피'라는 같은 이름으로 섞여 쓰였다고 한 논문이 밝혔다[9]. 같은 논문은 현재 한약 규격과 식품원료 목록에서 유근피로 인정되는 것은 왕느릅나무 껍질뿐이라고 적었으나, 한약 규격 원문은 확인하지 못함. 식품원료 목록에는 느릅나무껍질도 '제한적사용' 원료로 따로 올라 있어, 식품원료 측면에서는 이 서술과 차이가 있다[2]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "중국 자료에 따르면 왕느릅나무는 높이 20 m, 가슴높이 지름 40 cm까지 자라고, 가지는 연한 황갈색 또는 엷은 적갈색이다[18]. 잎은 넓은 거꿀달걀꼴 또는 타원상 거꿀달걀꼴로 길이 5–9 cm이고 끝이 뾰족하며, 날개 달린 열매(시과)는 길이 2.5–3.5 cm로 털이 있고 씨가 가운데 있다[18]. 꽃은 4–5월에 피고 열매는 5–6월에 익으며 잎은 10월에 진다[18]. 영문명 'Large-fruit elm'은 이처럼 큰 열매에서 비롯한 이름으로 보이지만, 이름의 유래를 밝힌 공식 자료는 확인하지 못함.\n\n분포는 중국 북부(섬서·산서·산동·하북·요령 등)가 중심이며, 햇빛을 좋아하고 맹아력이 강하며 추위와 가뭄에 견딘다[18]. 석회질 토양을 좋아하는 수종(calciphilous)으로 소개되어 중국의 석회질 오염 토양 조림에 쓰였다[19]. 중국 동북부의 몽골느릅나무(U. macrocarpa var. mongolica)는 가축 방목이 많은 곳에서 어린나무 재생이 늦었다는 보고가 있다[27]. 이탈리아에서 비교한 느릅나무 클론 실험에서 왕느릅나무를 포함한 아시아 클론은 유럽 클론보다 휴면이 일찍 풀렸다[26]. 국내 자생지와 분포 범위를 다룬 공식 식물지 자료는 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동 주의",
+   "body": "한국에는 느릅나무속 5종 1변종이 자란다고 보고되며, 이들 껍질은 겉모양으로 구별하기 어렵다[9]. 식품원료 목록에서 같은 속의 원료는 종마다 사용 부위와 지위가 다르다[2]. 느릅나무(U. davidiana var. japonica)는 나무껍질이 제한적사용이고 뿌리껍질은 사용불가인 반면, 왕느릅나무는 나무껍질과 뿌리껍질이 모두 사용가능이다[1, 2]. 비술나무(U. pumila)·참느릅나무(U. parvifolia)·큰잎느릅나무(U. macrophylla)는 나무껍질과 잎, 당느릅나무(U. davidiana)는 잎과 열매가 사용가능 부위이고, 북미산 슬리퍼리엘름(U. rubra)은 사용불가 원료이다[2]. 따라서 '유근피' 제품이라도 어느 종인지에 따라 식품원료 지위가 달라진다[1, 2].\n\n성분으로 보면 같은 조건으로 추출한 국내 느릅나무속 5종의 껍질 가운데 에피카테킨-7-O-아피오사이드(E7A)는 왕느릅나무에서 가장 많았고(추출물 1 g당 17.28 mg), 질량분석으로 E7A가 확인된 것은 왕느릅나무와 다른 한 종(5.54 mg/g)뿐이었고, 210 nm 피크는 한 종에서 나타나지 않았다[4]. 카테킨-7-O-아피오사이드는 느릅나무속의 화학분류 지표로 제시되었다[5]. 참느릅나무(U. parvifolia) 뿌리껍질 가루를 생쥐 상처에 바른 실험에서는 참느릅나무 가루가 상처 크기를 유의하게 줄였으나 비교군으로 쓴 다른 느릅나무속 가루(논문 약칭 UM)는 유의한 차이가 없었다는 보고가 있어, 근연종 연구 결과를 이 종에 그대로 옮겨서는 안 된다[28]. 이 문서는 느릅나무(유근피)·비술나무 등 다른 종의 연구를 왕느릅나무 결과로 쓰지 않았다[2, 9]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 채취",
+   "body": "왕느릅나무의 국내 재배 면적·생산량 통계는 농림축산식품부 특용작물 생산실적과 통계청 농작물생산조사에서 확인하지 못함. 연구에 쓰인 껍질 원료는 국내 약재 시장이나 원료 업체에서 구입한 건조품이었다[4, 5, 9]. 한 연구는 서울대학교 학술림에서 받은 다른 느릅나무속 수종과 비교했다[4].\n\n생태적으로는 양지를 좋아하고 맹아력이 강하며 추위·가뭄에 강해 중국 북부 산림의 주요 구성 수종이다[18]. 중국에서 중금속으로 오염된 석회질 토양에 조림한 연구에서는 왕느릅나무 숲의 수령이 늘수록 토양 pH가 낮아지고 탄산칼슘이 녹아 중금속(카드뮴·아연 등)의 생물 이용성이 커졌다[19]. 이는 오염 토양에서 채취한 껍질의 중금속 관리가 필요할 수 있음을 시사하지만, 껍질 속 중금속 함량 자료는 확인하지 못함. 임상시험용 추출물은 중금속·미생물·잔류농약·잔류 이산화황 기준을 충족했다고 보고되었다[6]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 제품",
+   "body": "껍질은 50 °C 건조실에서 말린 뒤 잘게 잘라 약 20 메시 가루로 만들어 추출에 썼다[4]. 같은 껍질을 열수·70% 에탄올·100% 에탄올로 추출해 비교하면 열수 추출물이 파골세포 분화를 가장 강하게 억제했고, E7A는 열수 추출물에서 뚜렷하고 에탄올 추출물에서는 거의 보이지 않았다[4]. 반응표면분석으로 찾은 E7A 최적 추출 조건은 용매비 100 mL/g, 90 °C, pH 5, 97분이며 이때 E7A는 추출물 1 g당 26.05 ± 0.96 mg이었다[4].\n\n근육 연구에 쓴 시험 생산에서는 껍질 300 kg을 50% 주정으로 80 °C에서 추출해 농축액 60 kg(수율 20%)을 얻고, 그중 31 kg을 동결건조해 가루 14.105 kg(수율 45.5%)에 덱스트린 10%를 더해 15.516 kg을 만들었다[5]. 사람 시험에 쓴 열수 추출물의 총 카테킨은 1 g당 평균 5.08 mg(4.06–6.09 mg)이었다[6, 7]. 뿌리껍질과 줄기껍질 추출물을 비교한 연구는 줄기껍질의 활성 성분 농도가 더 높다고 보고했다[16].\n\n제품 면에서는 산딸기·왕느릅나무·치자 추출복합물이 건강기능식품 개별인정 원료로, 왕느릅나무껍질혼합추출물이 복합원료로 목록에 있다[3]. 산딸기와 왕느릅나무 추출물의 병용, 그리고 세 원료를 섞은 표준화 추출물은 헬리코박터 균주와 감염 생쥐에서 연구되었다[22, 23]. 개별인정 원료의 기능성 문구와 국내 생산실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 계통",
+   "body": "중국 북부 22개 집단 110개체의 엽록체 DNA 네 구간(이어 붙인 길이 1,668 bp, 다형 자리 41개)을 분석한 연구에서 18개 일배체형이 확인되었다[18]. 전체 일배체형 다양도는 0.901, 염기 다양도는 0.0053으로 유전 다양성이 높았다[18]. 집단들은 산서 중심, 하북·북경 중심, 흑룡강·길림·요령 중심의 세 무리로 나뉘었고, 분자 분산 분석에서 변이의 53%가 무리 사이, 40%가 집단 안에 있었다[18].\n\n일배체형의 공통 조상은 약 1,710만 년 전(마이오세 중기)으로 추정되었고, 무리 안 분화는 마이오세 후기–플라이오세에 주로 일어났다[18]. 마지막 빙하기 최대기에는 분포가 지금보다 좁았으며, 산서와 내몽골 주변이 빙하기 피난처였을 것으로 추정되었다[18]. 이 연구는 이미 발표된 왕느릅나무 엽록체 전체 유전체를 바탕으로 프라이머를 설계했다[18]. 핵 유전체 해독과 국내 집단의 유전 다양성 자료는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성과 사용 조건",
+   "body": "식약처 「식품원료 목록」에서 왕느릅나무 껍질·껍질분말·껍질추출물·뿌리껍질은 '사용가능'(사용 조건 '사용가능부위 : 나무껍질*(유백피), 나무뿌리껍질')이고, 잎은 '제한적사용'(사용 조건 '제한적사용가능부위 : 잎')이다[1]. 목록 원자료의 사용 조건 칸에는 부위 외의 사용량이나 배합 비율이 적혀 있지 않다[1]. 제한적사용 원료에 공통으로 적용되는 식품공전의 배합 기준 원문은 확인하지 못함. 근연종 느릅나무(U. davidiana var. japonica)의 뿌리껍질은 사용불가 원료이므로 종을 확인해야 한다[2].\n\n사람 시험에서 고LDL 콜레스테롤 성인 80명(섭취군 40명)을 무작위로 나눠 열수 추출물 하루 500 mg 또는 위약을 12주 먹였을 때 이상반응이나 중대한 이상반응은 없었고 간효소·혈당·크레아티닌 변화도 없었다[6]. 건강한 성인 58명(섭취군 29명)의 4주 시험(하루 500 mg)에서는 졸림·설사·복통·입술 헤르페스·상기도 증상이 섭취군에서 각 1명씩 보고되었으나 위약군에도 비슷한 경미한 증상이 있었고 간·신장 기능과 CK 변화는 없었다[7]. 장내세균 시험(하루 500 mg, 4주)은 초록에 이상반응 결과를 적지 않았다[8]. 다만 시험 기간이 12주 이내이고 규모가 작아 장기 섭취 안전성은 확인하지 못함.\n\n세포 실험에서 껍질 추출물은 근육세포에 400 μg/mL 이상에서 생존율을 낮췄고, 원충 실험에서도 높은 농도에서 숙주세포 독성이 관찰되었다[5, 24]. 쥐 실험에서 추출물은 혈소판 응집을 억제했으나 사람에서 항혈전제와의 상호작용 자료는 확인하지 못함[14]. 임신·수유 중 안전성, 알레르기, 국내 공공기관의 잔류·독성 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Epicatechin-7-O-beta-D-apiofuranoside",
+   "name_ko": "에피카테킨-7-O-β-D-아피오푸라노사이드(E7A)",
+   "class": "플라반-3-올 배당체",
+   "role": "marker",
+   "part": "나무껍질(열수 추출물)",
+   "content_text": "껍질 열수 추출물 17.28 mg/g 추출물(같은 조건의 다른 느릅나무속 한 종 5.54 mg/g); 최적 추출 조건에서 26.05 ± 0.96 mg/g 추출물(n=3)[4]",
+   "activity_ko": "RANKL 유도 파골세포 분화 억제 IC50 6.6 μM(생쥐 골수세포, 세포)[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Catechin 7-O-apiofuranoside",
+   "name_ko": "카테킨-7-O-β-D-아피오푸라노사이드",
+   "class": "플라반-3-올 배당체",
+   "role": "marker",
+   "part": "나무껍질·뿌리",
+   "content_text": "껍질 50% 주정 추출물(덱스트린 10%) 시험액 133.36 ± 0.27 μg/mL(HPLC)[5]; 뿌리에서 분리[10]; 껍질에서 분리[9]",
+   "activity_ko": "덱사메타손 근위축 근관세포 직경 회복(세포)[5]; DPPH 라디칼 소거 중간 정도, 대식세포 NO 생성 억제(세포)[10]",
+   "source": [
+    5,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Catechin 7-O-beta-D-xylopyranoside",
+   "name_ko": "카테킨-7-O-β-D-자일로피라노사이드",
+   "class": "플라반-3-올 배당체",
+   "role": "bioactive",
+   "part": "나무껍질",
+   "content_text": "껍질 에탄올 추출물에서 분리(함량 확인하지 못함)[9]",
+   "activity_ko": "파골세포 분화 억제 성분 6종 중 하나(세포); 같은 비배당체의 아피오사이드보다 활성이 컸다[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Taxifolin 6-C-glucoside",
+   "name_ko": "탁시폴린-6-C-글루코사이드",
+   "class": "디히드로플라보놀 C-배당체",
+   "role": "bioactive",
+   "part": "나무껍질·뿌리",
+   "content_text": "껍질에서 두 입체이성질체가 약 4:1 비율로 분리[9]; 뿌리에서 분리[10](함량 확인하지 못함)",
+   "activity_ko": "파골세포 분화 억제(세포)[9]; DPPH 라디칼 소거 중간 정도(시험관)[10]",
+   "source": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Naringenin 6-C-glucoside",
+   "name_ko": "나린게닌-6-C-글루코사이드",
+   "class": "플라바논 C-배당체",
+   "role": "bioactive",
+   "part": "나무껍질",
+   "content_text": "껍질에서 두 입체이성질체가 약 3:1 비율로 분리(함량 확인하지 못함)[9]",
+   "activity_ko": "파골세포 분화 억제(세포)[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Aromadendrin 6-C-glucoside",
+   "name_ko": "아로마덴드린-6-C-글루코사이드",
+   "class": "디히드로플라보놀 C-배당체",
+   "role": "bioactive",
+   "part": "나무껍질",
+   "content_text": "껍질 에탄올 추출물에서 분리(함량 확인하지 못함)[9]",
+   "activity_ko": "이 종에서 처음 분리; 파골세포 실험 활성은 화합물별 대응을 확인하지 못함[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Kaempferol 6-C-glucoside",
+   "name_ko": "캠페롤-6-C-글루코사이드",
+   "class": "플라보놀 C-배당체",
+   "role": "bioactive",
+   "part": "나무껍질",
+   "content_text": "껍질 에탄올 추출물에서 분리(함량 확인하지 못함)[9]",
+   "activity_ko": "이 종에서 처음 분리[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Catechin",
+   "name_ko": "(+)-카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "뿌리·껍질",
+   "content_text": "뿌리에서 분리[10]; 껍질 30% 에탄올 추출물의 카테킨 7.84 ± 0.04 mg/g(HPLC-PDA, 부위 표기 불명확)[11]",
+   "activity_ko": "DPPH 라디칼 소거(시험관)[10]; 파골세포 분화 억제 효과 없음(세포)[4]",
+   "source": [
+    4,
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Fraxin",
+   "name_ko": "프락신",
+   "class": "쿠마린 배당체",
+   "role": "bioactive",
+   "part": "뿌리",
+   "content_text": "뿌리에서 분리(함량 확인하지 못함)[10]",
+   "activity_ko": "대식세포 NO 생성 억제, iNOS·COX-2 발현 억제(세포)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "(−)-에피카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "추출물(임상시험용 열수 추출물; 부위 원문 미기재)",
+   "content_text": "총 카테킨 평균 5.08 mg/g(범위 4.06–6.09) 중 38.04%(HPLC)[6, 7]",
+   "activity_ko": "임상시험 추출물의 주된 카테킨[6]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Epigallocatechin",
+   "name_ko": "(−)-에피갈로카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "추출물(임상시험용 열수 추출물; 부위 원문 미기재)",
+   "content_text": "총 카테킨 5.08 mg/g 중 37.19%[6, 7]",
+   "activity_ko": "임상시험 추출물의 주된 카테킨[6]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Epicatechin gallate",
+   "name_ko": "(−)-에피카테킨 갈레이트",
+   "class": "플라반-3-올 갈레이트",
+   "role": "bioactive",
+   "part": "추출물(임상시험용 열수 추출물; 부위 원문 미기재)",
+   "content_text": "총 카테킨 5.08 mg/g 중 21.19%(에피갈로카테킨 갈레이트는 3.58%)[6, 7]",
+   "activity_ko": "개별 성분의 효과는 이 종에서 확인하지 못함[6]",
+   "source": [
+    6,
+    7
+   ]
+  },
+  {
+   "name": "Proanthocyanidin",
+   "name_ko": "프로안토시아니딘(총량)",
+   "class": "축합형 탄닌",
+   "role": "bioactive",
+   "part": "추출물(30% 에탄올; 부위 표기 불명확)",
+   "content_text": "총 프로안토시아니딘 239.82 ± 8.45 mg CE/g, 총 페놀 404.25 ± 2.48 mg GAE/g 추출물[11]",
+   "activity_ko": "추출물 DPPH IC50 31.65 μg/mL, ABTS IC50 25.95 μg/mL(시험관)[11]",
+   "source": [
+    11
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Epicatechin-7-O-beta-D-apiofuranoside",
+   "compound_ko": "에피카테킨-7-O-β-D-아피오푸라노사이드(E7A)",
+   "part": "나무껍질(열수 추출물)",
+   "content": "17.28 mg/g 추출물(표준곡선법); 최적 추출물 26.05 ± 0.96 mg/g 추출물[4]",
+   "method": "HPLC-PDA(정성 확인은 LC-MS)",
+   "conditions": {
+    "instrument": "Waters HPLC + Waters 2998 포토다이오드 어레이 검출기",
+    "column": "Phenomenex Luna C18(5 μm, 100 Å, 원문 표기 250 × 100 mm)",
+    "mobile_phase": "A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴",
+    "gradient": "0–2분 B 2→25%; 2–20분 B 50→95%(원문 그대로)",
+    "flow": "1 mL/min",
+    "temp": "24 °C",
+    "detection": "210 nm(스펙트럼 210–400 nm); E7A 머무름 시간 15.53분",
+    "injection": "",
+    "sample_prep": "건조 껍질 가루 300 mg + 증류수 30 mL, 70 °C 120분 추출, 3,000 × g 1,000초 원심분리 후 Whatman No.4 여과",
+    "standard": "실험실에서 정제한 E7A(순도 95.47%; 시판품 없음)",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "열수 추출물에만 뚜렷한 피크로 나타나는 이 종 껍질의 특이 활성 성분으로, 추출 최적화와 종간 비교의 지표로 정량했다[4]",
+   "source": [
+    4
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330169/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Catechin 7-O-apiofuranoside",
+   "compound_ko": "카테킨-7-O-β-D-아피오푸라노사이드",
+   "part": "나무껍질(50% 주정 추출물 가루)",
+   "content": "시험액 133.36 ± 0.27 μg/mL(시험액 조제 농도 원문 미기재)[5]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "Waters 2695",
+    "column": "SkyPak C18(5 μm) + Phenomenex KJ0-4282 가드 칼럼(길이·내경 원문 미기재)",
+    "mobile_phase": "0.9% 아세트산 수용액 / 아세토니트릴",
+    "gradient": "원문 미기재(분석 시간 35분)",
+    "flow": "1 mL/min",
+    "temp": "",
+    "detection": "UV 280 nm",
+    "injection": "20 μL",
+    "sample_prep": "껍질 300 kg을 50% 주정으로 80 °C 추출·농축(수율 20%), 동결건조 후 덱스트린 10% 첨가",
+    "standard": "추출물에서 분리·정제한 카테킨-7-O-아피오사이드, 6개 농도",
+    "linearity": "Y = 9982x + 68,854(R² = 0.999)",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "연구진이 느릅나무속의 화학분류 표준 화합물로 제시하고 추출물의 표준 성분(marker compound)으로 정량했다[5]",
+   "source": [
+    5
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352752/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Catechin",
+   "compound_ko": "카테킨",
+   "part": "건조 시료(부위 표기 불명확; 30% 에탄올 추출물)",
+   "content": "7.84 ± 0.04 mg/g 추출물[11]",
+   "method": "HPLC-PDA",
+   "conditions": {
+    "instrument": "NANOSPACE SI-2 HPLC/PDA(Shiseido)",
+    "column": "SunFire C18(250 mm × 4.6 mm, 5 μm)",
+    "mobile_phase": "60% 아세토니트릴 + 50 mM KH2PO4",
+    "gradient": "단일 조성(15분)",
+    "flow": "1.0 mL/min",
+    "temp": "",
+    "detection": "254 nm",
+    "injection": "10 μL",
+    "sample_prep": "건조 시료를 30% 에탄올로 60 °C 3시간 추출, 여과(Whatman No.3)·감압농축·동결건조",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "추출물의 항산화 성분 지표로 카테킨을 정량했다; 논문 서론에 종·부위 설명이 혼동되어 있어 사용 부위는 확인하지 못함[11]",
+   "source": [
+    11
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5486023/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 왕느릅나무(Ulmus macrocarpa Hance; 영문명 Large-fruit elm) 식품원료(A코드) 5행: 왕느릅나무껍질·왕느릅나무껍질분말·왕느릅나무껍질추출물·왕느릅나무뿌리껍질(사용가능, '사용가능부위 : 나무껍질*(유백피), 나무뿌리껍질', 다른 이름 '유백피, 큰잎느릅나무, 유근피'), 왕느릅나무잎(제한적사용, '제한적사용가능부위 : 잎', 다른 이름 '유백피, 큰잎느릅나무'). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 느릅나무속(Ulmus) 다른 원료 행: 느릅나무(U. davidiana var. japonica; 껍질·줄기껍질·농축액 '제한적사용가능부위 : 나무껍질' 제한적사용, 느릅나무분말 '사용가능부위 : 잎, 열매 / 제한적사용부위 : 나무껍질' 제한적사용, 뿌리껍질·뿌리껍질분말 사용불가, 잎·열매 사용가능), 비술나무(U. pumila; 나무껍질·잎 사용가능), 참느릅나무(U. parvifolia; 나무껍질·잎 사용가능), 당느릅나무(U. davidiana; 잎·열매 사용가능), 큰잎느릅나무(U. macrophylla Nakai; 나무껍질·잎 사용가능), 글라브라느릅(U. glabra; 잎 사용가능), 난티나무(U. laciniata; 잎 사용가능), 슬리퍼리엘름(U. rubra; 사용불가)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 건강기능식품(C코드) 개별인정 행 '산딸기·왕느릅나무·치자추출복합물(제2024-36호)'(왕느릅나무 사용부위: 껍질) 및 복합원료(U코드) 행 '왕느릅나무껍질혼합추출물'",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 4,
+   "title": "Discovery and optimized extraction of the anti-osteoclastic agent epicatechin-7-O-β-D-apiofuranoside from Ulmus macrocarpa Hance bark. Sci Rep 2023;13:11102, doi:10.1038/s41598-023-38208-4 (PMID 37423923, PMC10330169; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330169/",
+   "publisher": "Springer Nature / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Effects of Ulmus macrocarpa Hance Extract and Catechin 7-O-β-D-apiofuranoside on Muscle Loss and Muscle Atrophy in C2C12 Murine Skeletal Muscle Cells. Curr Issues Mol Biol 2024;46(8):8320-8339, doi:10.3390/cimb46080491 (PMID 39194708, PMC11352752; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352752/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Potential lipid-lowering effects of Ulmus macrocarpa Hance extract in adults with untreated high low-density lipoprotein cholesterol concentrations: a randomized double-blind placebo-controlled trial. Front Med 2022;9:1000428, doi:10.3389/fmed.2022.1000428 (PMID 36388925, PMC9663492; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9663492/",
+   "publisher": "Frontiers / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Effects of 4-Week Intervention with Ulmus macrocarpa Hance Extract on Immune Function Biomarkers in Healthy Adults: A Randomized Controlled Trial. Evid Based Complement Alternat Med 2018;2018:5690816, doi:10.1155/2018/5690816 (PMID 29681977, PMC5845525; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5845525/",
+   "publisher": "Hindawi / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Ulmus macrocarpa Hance extract modulates intestinal microbiota in healthy adults: a randomized, placebo-controlled clinical trial. J Microbiol 2021;59(12):1150-1156, doi:10.1007/s12275-021-1329-8 (PMID 34697783; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34697783/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Flavonoid Glycosides from Ulmus macrocarpa Inhibit Osteoclast Differentiation via the Downregulation of NFATc1. ACS Omega 2022;7(6):4840-4849, doi:10.1021/acsomega.1c05305 (PMID 35187304, PMC8851653; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851653/",
+   "publisher": "American Chemical Society / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Antioxidative and anti-inflammatory effects of phenolic compounds from the roots of Ulmus macrocarpa. Arch Pharm Res 2011;34(9):1459-66, doi:10.1007/s12272-011-0907-4 (PMID 21975807; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21975807/",
+   "publisher": "Springer / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Ulmus macrocarpa Hance Extracts Attenuated H2O2 and UVB-Induced Skin Photo-Aging by Activating Antioxidant Enzymes and Inhibiting MAPK Pathways. Int J Mol Sci 2017;18(6):1200, doi:10.3390/ijms18061200 (PMID 28587261, PMC5486023; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5486023/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Ulmus macrocarpa Hance modulates lipid metabolism in hyperlipidemia via activation of AMPK pathway. PLoS One 2019;14(5):e0217112, doi:10.1371/journal.pone.0217112 (PMID 31120956; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31120956/",
+   "publisher": "PLOS / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Antihypertensive, vasorelaxant, and antioxidant effect of root bark of Ulmus macrocarpa. Biol Pharm Bull 2008;31(11):2090-6, doi:10.1248/bpb.31.2090 (PMID 18981579; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18981579/",
+   "publisher": "Pharmaceutical Society of Japan / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Extract of Ulmus macrocarpa Hance prevents thrombus formation through antiplatelet activity. Mol Med Rep 2013;8(3):726-30, doi:10.3892/mmr.2013.1581 (PMID 23846328; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23846328/",
+   "publisher": "Spandidos / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Ulmus macrocarpa Hance improves benign prostatic hyperplasia by regulating prostatic cell apoptosis. J Ethnopharmacol 2019;233:115-122, doi:10.1016/j.jep.2018.11.042 (PMID 30508623; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30508623/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Ulmus macrocarpa Hance trunk bark extracts inhibit RANKL-induced osteoclast differentiation and prevent ovariectomy-induced osteoporosis in mice. J Ethnopharmacol 2024;319(Pt 3):117285, doi:10.1016/j.jep.2023.117285 (PMID 37839769; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37839769/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "The Impact of Ulmus macrocarpa Extracts on a Model of Sarcopenia-Induced C57BL/6 Mice. Int J Mol Sci 2024;25(11):6197, doi:10.3390/ijms25116197 (PMID 38892385; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38892385/",
+   "publisher": "MDPI / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "The Phylogeography of Deciduous Tree Ulmus macrocarpa (Ulmaceae) in Northern China. Plants 2024;13(10):1334, doi:10.3390/plants13101334 (PMID 38794406, PMC11125379; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11125379/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Temporal changes of metal bioavailability and extracellular enzyme activities in relation to afforestation of highly contaminated calcareous soil. Sci Total Environ 2018;622-623:1056-1066, doi:10.1016/j.scitotenv.2017.12.027 (PMID 29890575; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29890575/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "[Herbalogical textual research of Wuyi]. Zhongguo Zhong Yao Za Zhi 2015;40(22):4510-3 (PMID 27097433; 영문 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27097433/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Ulmus macrocarpa hance for the treatment of ulcerative colitis — a report of 36 cases. J Tradit Chin Med 1990;10(2):97-8 (PMID 2392003; 제목만 확인, 초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/2392003/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Synergistic Effect of Rubus crataegifolius and Ulmus macrocarpa Against Helicobacter pylori Clinical Isolates and Gastritis. Front Pharmacol 2020;11:4, doi:10.3389/fphar.2020.00004 (PMID 32153392; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32153392/",
+   "publisher": "Frontiers / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Standardized Combined Plant Extract, RUG-com, Reduces Bacterial Levels and Suppresses Acute and Chronic Inflammation in Balb/c Mice Infected with CagA+ Helicobacter pylori. Prev Nutr Food Sci 2019;24(4):426-433, doi:10.3746/pnf.2019.24.4.426 (PMID 31915638; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31915638/",
+   "publisher": "Korean Society of Food Science and Nutrition / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Anti-protozoal efficacy of medicinal herb extracts against Toxoplasma gondii and Neospora caninum. Vet Parasitol 2003;116(1):7-14, doi:10.1016/s0304-4017(03)00154-7 (PMID 14519322; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14519322/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Screening of the anticoccidial effects of herb extracts against Eimeria tenella. Vet Parasitol 2001;96(4):257-63, doi:10.1016/s0304-4017(01)00385-5 (PMID 11267752; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11267752/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Bud dormancy release in elm (Ulmus spp.) clones — a case study of photoperiod and temperature responses. Tree Physiol 2010;30(2):264-74, doi:10.1093/treephys/tpp110 (PMID 20022864; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20022864/",
+   "publisher": "Oxford University Press / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Conservation effectiveness of public trusteeship: A multiscale evaluation of Xianghai Nature Reserve in Northeast China. J Environ Manage 2026;414:130543, doi:10.1016/j.jenvman.2026.130543 (PMID 42485967; 초록 확인)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42485967/",
+   "publisher": "Elsevier / PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Ulmus parvifolia Accelerates Skin Wound Healing by Regulating the Expression of MMPs and TGF-β. J Clin Med 2019;9(1):59, doi:10.3390/jcm9010059 (PMID 31887972, PMC7019489; 전문 확인 — 대상 종은 참느릅나무 U. parvifolia, 비교군 학명은 약칭 UM만 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7019489/",
+   "publisher": "MDPI / PubMed Central",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

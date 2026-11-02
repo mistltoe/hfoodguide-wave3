@@ -1,0 +1,188 @@
+import json, pathlib
+HERE = pathlib.Path(__file__).resolve().parent.parent
+A = "2026-11-02"
+def pm(n, title, pmid, doi, note, pmc=None):
+    url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    t = f"{title} (PMID {pmid}" + (f", {pmc}" if pmc else "") + f", {note})"
+    return {"n": n, "title": t, "url": url, "publisher": "PubMed", "accessed": A}
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+sources = [
+ {"n":1,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 체커베리열매·체커베리잎(Gaultheria procumbens L.; Checkerberry, Wintergreen, Teaberry), 식품원료(A코드), 사용가능, 사용가능부위: 잎, 열매","url":I1020,"publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ {"n":2,"title":"식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 목록의 대조 행: 살리실산메틸(식품첨가물, '착향의 목적에 한하여 사용'), 합성향료(Methyl salicylate; 이명 synthetic wintergreen oil·synthetic teaberry oil), 윈터그린향(식품첨가물 혼합제제), 같은 속 Gaultheria 열매 원료 8종 행과 Spotted wintergreen잎(Chimaphila maculata) 행","url":I1020,"publisher":"식품의약품안전처","accessed":"2026-10-13"},
+ pm(3,"Phytochemistry and Biological Profile of Gaultheria procumbens L. and Wintergreen Essential Oil: From Traditional Application to Molecular Mechanisms and Therapeutic Targets — Int J Mol Sci 2024;25(1):565","38203735","10.3390/ijms25010565","PMC 전문 확인","PMC10778675"),
+ pm(4,"Screening for the Active Anti-Inflammatory and Antioxidant Polyphenols of Gaultheria procumbens and Their Application for Standardisation — Int J Mol Sci 2021;22(21):11532","34768963","10.3390/ijms222111532","PMC 전문 확인(기울기 표 수치는 추출본에 없음)","PMC8583782"),
+ pm(5,"Metabolite Profiling of Eastern Teaberry (Gaultheria procumbens L.) Lipophilic Leaf Extracts with Hyaluronidase and Lipoxygenase Inhibitory Activity — Molecules 2017;22(3):412","28272321","10.3390/molecules22030412","PMC 전문 확인","PMC6155426"),
+ pm(6,"Polyphenolic Profile, Antioxidant and Anti-Inflammatory Activity of Eastern Teaberry (Gaultheria procumbens L.) Leaf Extracts — Molecules 2014;19(12):20498","25493634","10.3390/molecules191220498","초록 확인","PMC6271927"),
+ pm(7,"Biological and chemical insight into Gaultheria procumbens fruits: a rich source of anti-inflammatory and antioxidant salicylate glycosides and procyanidins for food and functional application — Food Funct 2020","32812975","10.1039/d0fo01750g","초록만 확인"),
+ pm(8,"Salicylate and Procyanidin-Rich Stem Extracts of Gaultheria procumbens L. Inhibit Pro-Inflammatory Enzymes and Suppress Pro-Inflammatory and Pro-Oxidant Functions of Human Neutrophils — Int J Mol Sci 2019;20(7):1753","30970662","10.3390/ijms20071753","초록 확인","PMC6479601"),
+ pm(9,"The Effect of Standardised Leaf Extracts of Gaultheria procumbens on Multiple Oxidants, Inflammation-Related Enzymes, and Pro-Oxidant and Pro-Inflammatory Functions of Human Neutrophils — Molecules 2022;27(10):3357","35630834","10.3390/molecules27103357","초록 확인","PMC9144433"),
+ pm(10,"Anti-Inflammatory and Antioxidant Effects of (6S,9R)-Vomifoliol from Gaultheria procumbens L.: In Vitro and Ex Vivo Study in Human Immune Cell Models — Int J Mol Sci 2025;26(4):1571","40004039","10.3390/ijms26041571","초록 확인","PMC11855001"),
+ pm(11,"Anti-inflammatory, antioxidant and photoprotective activity of standardised Gaultheria procumbens L. leaf, stem, and fruit extracts in UVA-irradiated human dermal fibroblasts — J Ethnopharmacol 2023","37742876","10.1016/j.jep.2023.117219","초록만 확인"),
+ pm(12,"EFSA FEEDAP Panel: Safety and efficacy of a feed additive consisting of methyl salicylate [09.749] obtained from the leaves of Gaultheria procumbens L. for use in all animal species except cats — EFSA J 2026","42835884","10.2903/j.efsa.2026.10358","PMC 전문 확인","PMC13635980"),
+ pm(13,"Severe Salicylate Poisoning Due to Teaberry Flavoring Ingestion: A Case Report — J Emerg Med 2024","39952819","10.1016/j.jemermed.2024.09.022","초록만 확인"),
+ pm(14,"First report of allergic contact dermatitis caused by Gaultheria procumbens (wintergreen) essential oil — Contact Dermatitis 2022","35368095","10.1111/cod.14120","제목만 확인(초록 없음)"),
+ pm(15,"The Volatile Phytochemistry of Seven Native American Aromatic Medicinal Plants — Plants (Basel) 2021;10(6):1061","34070663","10.3390/plants10061061","초록 확인","PMC8229852"),
+ pm(16,"Effects of solvents and extraction methods on the content and antiradical activity of polyphenols from fruits Actinidia arguta, Crataegus monogyna, Gaultheria procumbens and Schisandra chinensis — Acta Sci Pol Technol Aliment 2016","28071039","10.17306/J.AFS.2016.1.6","초록만 확인"),
+ pm(17,"Reticulate evolution, cryptic species, and character convergence in the core East Asian clade of Gaultheria (Ericaceae) — Mol Phylogenet Evol 2010","20558306","10.1016/j.ympev.2010.06.002","초록만 확인"),
+ pm(18,"The complete chloroplast genome of Gaultheria fragrantissima Wall. (Ericaceae) from Yunnan, China, an aromatic medicinal plant in the wintergreens — Mitochondrial DNA B Resour 2021","34104765","10.1080/23802359.2021.1923425","초록 확인","PMC8168772"),
+ pm(19,"Comparative analysis of mitochondrial genome of Gaultheria (Ericaceae) provides insights into their adaptation to high elevation — BMC Plant Biol 2026","42129649","10.1186/s12870-026-08757-7","초록 확인","PMC13348005"),
+ pm(20,"[On the biosynthesis of benzoic acid in Gaultheria procumbens L. II] — Z Naturforsch B 1964","14317267",None,"제목만 확인"),
+ pm(21,"First Report of Anthracnose of Gaultheria procumbens Caused by Colletotrichum gloeosporioides — Plant Dis 2003","30812876","10.1094/PDIS.2003.87.6.751A","제목만 확인"),
+ pm(22,"Extracts of Canadian first nations medicinal plants, used as natural products, inhibit Neisseria gonorrhoeae isolates with different antibiotic resistance profiles — Sex Transm Dis 2011","21301385","10.1097/OLQ.0b013e31820cb166","초록만 확인"),
+ pm(23,"Assessment of Toxicity, Antifeedant Activity, and Biochemical Responses in Stored-Grain Insects Exposed to Lethal and Sublethal Doses of Gaultheria procumbens L. Essential Oil — J Agric Food Chem 2015","26558484","10.1021/acs.jafc.5b03797","제목만 확인"),
+]
+
+S = {}
+S["overview"] = ("체커베리(Gaultheria procumbens L.)는 진달래과(Ericaceae) 가울테리아속의 키 20 cm 안팎의 땅을 기는 상록 소관목으로, 영어로 checkerberry·eastern teaberry·American wintergreen이라 불린다[3, 12]. "
+ "식약처 「식품원료 목록」에는 '체커베리열매'와 '체커베리잎' 두 원료명으로 올라 있고, 상태는 사용가능, 사용 조건은 '사용가능부위 : 잎, 열매'다[1]. "
+ "같은 목록에서 가울테리아속의 다른 종은 열매만 쓸 수 있게 되어 있어, 잎까지 허용된 종은 체커베리뿐이다[2]. "
+ "이 종을 원재료로 하는 건강기능식품 고시형 원료는 목록에서 확인되지 않는다[1].\n\n"
+ "잎과 열매에서는 '윈터그린 향'의 주성분인 살리실산메틸과 그 배당체 고테린(gaultherin)이 가장 큰 폴리페놀 무리로 보고되었다[3]. "
+ "열매는 건조중량 1 g당 살리실산류 38.5 mg을 담아, 연구진이 알려진 식이원 가운데 살리실산이 가장 많은 원료라고 소개했다[7]. "
+ "잎·줄기·열매 추출물의 항염·항산화 작용은 대부분 시험관과 사람 면역세포(체외) 실험에서 나왔고, 사람을 대상으로 한 임상시험은 없다고 정리되어 있다[3]. "
+ "UVA를 쬔 사람 피부 섬유아세포 실험도 있다[11]. "
+ "반면 에탄올 추출물의 임균 억제력은 약하거나 없었다(MIC ≥256 μg/mL)[22]. "
+ "잎을 증류한 정유(윈터그린유)는 살리실산메틸이 96.9–100%를 차지해, 잎·열매 원물과는 안전성 성격이 전혀 다르다[3].")
+S["history"] = ("체커베리는 북아메리카 동북부 원주민이 먹을거리이자 해열·류머티즘 치료 약초로 쓰던 식물로 기록되어 있다[3]. "
+ "속명 Gaultheria는 1748년 캐나다 퀘벡에서 활동한 프랑스인 의사의 이름을 따서 붙여졌다[3]. "
+ "유럽 이주민도 이 식물을 약초로 받아들였고, 18세기 후반부터 재배 기록이 나온다[3].\n\n"
+ "잎은 1820년 미국약전 보조 목록에 실렸고 1890년까지 공식 약재로 쓰였으며, 그 뒤 정유 항목으로, 1910년에는 살리실산메틸 항목으로 대체되었다[3]. "
+ "20세기 초에는 윈터그린유가 대구 간유 유제 같은 약의 맛을 바로잡는 교정제로 쓰였다[3]. "
+ "20세기 초 관상용으로 유럽에 들어가 지금은 지피식물로 세계 곳곳에서 심는다[3]. "
+ "자생지에서는 열매를 날로 먹거나 잼·젤리·시럽으로 만들고, 잎은 '마운틴 티'라는 차로 우려 마셨다[3]. "
+ "미국에서는 정유가 루트비어 같은 청량음료의 향료로 널리 쓰였다[3]. "
+ "한국에 들어온 시기와 경로는 확인하지 못함.")
+S["biology"] = ("체커베리는 높이 20 cm까지 자라는 포복성 관목으로, 기는줄기(포복지)를 많이 내어 빠르게 퍼지며 산성 토양을 좋아한다[3]. "
+ "자생지는 캐나다 서부에서 미국 동남부에 이르는 북아메리카이며, EFSA 의견서는 캐나다와 미국 동부 원산이라고 적었다[3, 12]. "
+ "잎은 광택 있는 짙은 녹색의 타원형이고, 어린잎은 갈색에서 녹색으로 바뀌며 묵은 잎은 가을에 붉어진다[3].\n\n"
+ "꽃은 아래로 늘어지는 5수성 꽃으로 잎겨드랑이에 한 송이 또는 2–3송이씩 달린다[3]. "
+ "개화기는 지역에 따라 5–9월 또는 7–8월로 보고되었다[3]. "
+ "열매처럼 보이는 것은 육질로 부푼 꽃받침이 여러 씨가 든 납작한 구형 삭과를 감싼 것으로, 겉은 선홍색이고 속살은 희며 살리실산메틸 냄새가 난다[3]. "
+ "열매는 초가을부터 이듬해까지 오래 달려 있다[3]. "
+ "정유 함량은 건조중량 기준 잎 1.30%, 열매 2.68%로 보고되었다[3]. "
+ "1964년 연구는 이 종에서 벤조산이 어떻게 만들어지는지를 다루었다[20].")
+S["related_species"] = ("가울테리아속은 아메리카·동아시아·오세아니아에 약 150종이 있고, 현재 분류에서 10절 22계열로 나뉜다[3]. "
+ "식약처 목록에는 체커베리 외에 미쿠엘즈스파이시윈터그린(G. miqueliana), 샐럴(G. shallon), G. pyroloides, G. rigida, G. trichophylla, G. isleyensis(목록 원료명은 'wisleyensis'), G. pumila var. leucocarpa, G. sclerophylla가 열매 원료로 올라 있다[2]. "
+ "이들 종의 자료는 이 문서에 섞지 않았다[2].\n\n"
+ "'윈터그린'이라는 이름은 혼동이 잦다[2, 12]. "
+ "식약처 목록의 'Spotted wintergreen잎'은 다른 속인 Chimaphila maculata이다[2]. "
+ "EFSA는 '윈터그린유'가 합성품이나 여러 식물에서 얻은 살리실산메틸 증류물을 가리지 않고 부르는 이름으로 쓰인다고 지적했다[12]. "
+ "가울테리아속 정유는 기관이나 종과 관계없이 살리실산메틸 비중이 높아 모두 '윈터그린유'로 불린다[3]. "
+ "중국 윈난의 G. fragrantissima도 살리실산메틸이 많은 방향성 약용식물로 소개된다[18]. "
+ "고테린의 동물 진통·항염 실험은 이 종이 아닌 같은 속 식물의 줄기·잎에서 분리한 시료로 한 연구가 섞여 있어, 리뷰 본문에서 출처 종을 하나하나 확인하지 못함.")
+S["cultivation"] = ("체커베리는 기는줄기를 쉽게 내어 넓은 면적을 빠르게 덮기 때문에 지피식물로 심으며, 산불 피해지 복원과 비탈면 토양 유실 방지에도 쓰인다[3]. "
+ "추위에 강해 겨울 보호가 필요 없고, 붉은 열매가 오래 달려 새의 먹이가 된다[3]. "
+ "폴란드에서는 덜 알려진 과수로서 열매의 폴리페놀 추출 연구가 이루어졌다[16].\n\n"
+ "폴란드 묘포장에서 4–10월에 매달 잎을 따서 본 결과, 우르솔산(5.36–5.87 mg/g 건조중량)과 올레아놀산(1.14–1.26 mg/g 건조중량)은 8–10월에 가장 많았다[5]. "
+ "연구진은 이 결과를 근거로 폴란드 기후에서 8–10월을 잎 수확 적기로 제시했다[5]. "
+ "잎의 고테린도 4월 76.86 mg/g에서 10월 107.49 mg/g(잎 건조중량)으로 가을에 높아졌다고 정리되어 있다[3]. "
+ "미국에서는 콜레토트리쿰(Colletotrichum gloeosporioides)에 의한 탄저병이 이 종에서 처음 보고되었다[21]. "
+ "국내 재배 면적·생산량 통계는 확인하지 못함.")
+S["processing"] = ("잎과 열매는 날것, 잼·젤리·시럽, 케이크 재료, 차('마운틴 티'), 사탕, 술 등으로 쓰인다[3]. "
+ "정유는 잎을 수증기 증류해 얻으며, EFSA가 평가한 잎 유래 천연 살리실산메틸 5개 배치의 순도는 평균 99.53%(99.27–99.65%, GC-FID)였다[12]. "
+ "다른 연구에서 수증기 증류한 정유는 살리실산메틸이 91%였다[15]. "
+ "정유는 식품 향료 외에 저장 곡물 해충 방제 소재로도 연구되었다[23].\n\n"
+ "추출 용매에 따라 성분 회수가 크게 달라진다[3]. "
+ "살리실산류와 카테킨·프로시아니딘은 줄기와 열매에서 아세톤, 잎에서 메탄올–물(75:25)로 가장 잘 추출되었다[3]. "
+ "잎 메탄올–물 추출물은 총 폴리페놀 397.9 mg/g(추출물 건조중량), 그중 살리실산류 98.9 mg/g이었다[9]. "
+ "열매 아세톤 추출물은 총 페놀 191.3 mg/g, 살리실산류 121.7 mg/g, 프로시아니딘 50.9 mg/g(건조 추출물)이었다[7]. "
+ "줄기 아세톤 추출물은 폴리페놀 427.2 mg/g 건조중량 가운데 플라바놀 201.3 mg/g, 살리실산메틸 배당체 199.9 mg/g이었다[8]. "
+ "체커베리 원료를 쓴 국내 제품 생산실적은 확인하지 못함.")
+S["genetics"] = ("가울테리아속의 계통 연구는 주로 동아시아 종을 대상으로 했다[17]. "
+ "동아시아 핵심 분지 30종 84개 시료를 ITS·matK 등 5개 유전자 구간으로 분석한 연구는 잡종화와 엽록체 포획에 따른 망상 진화, 은밀종, 형질 수렴을 보고했다[17]. "
+ "2026년 연구는 이 속에 핵 유전체 초안 하나와 완전한 엽록체 유전체 몇 개만 공개되어 있다고 적었다[19]. "
+ "같은 속 G. fragrantissima의 엽록체 유전체는 176,196 bp, GC 함량 36.6%로 보고되었다[18].\n\n"
+ "체커베리(G. procumbens) 자체의 염색체 수, 유전체 크기, 엽록체 유전체 서열은 이번 조사에서 확인하지 못함. "
+ "화학분류학적으로는 글루쿠론산을 가진 플라보놀 이당체 윈터그린오사이드 A·B가 지금까지 이 종에서만 발견되어 종 표지 후보로 제안되었다[3]. "
+ "새 천연물인 퀘르세틴·캠페롤 3-O-자일로실-글루쿠로나이드도 이 종에서 구조가 밝혀졌다[4]. "
+ "프로시아니딘 A형 삼량체, 시남탄닌 B1, 프로시아니딘 C1도 이 종에 특이한 성분으로 꼽혔다[3].")
+S["safety"] = ("식약처 목록에서 체커베리 잎과 열매는 사용가능 식품원료다[1]. "
+ "같은 목록에서 살리실산메틸은 '착향의 목적에 한하여' 쓸 수 있는 식품첨가물로 따로 올라 있다[2]. "
+ "리뷰는 오랜 식용 경험으로 원물은 대체로 안전하다고 보았고, 독성 보고는 정유를 먹은 경우에 집중된다고 정리했다[3].\n\n"
+ "정유는 살리실산메틸이 거의 전부이므로 소량으로도 살리실산 중독을 일으킬 수 있으며, 어린이 4 mL, 성인 6 mL 섭취로도 치명적일 수 있다고 정리되어 있다[3]. "
+ "티베리 향료 약 40 mL를 마신 성인이 혈중 살리실산 111 mg/dL로 혈액투석을 받은 사례도 보고되었다[13]. "
+ "JECFA는 향료 살리실산메틸의 1일 섭취허용량(ADI)을 0.5 mg/kg 체중으로 정했고 EFSA도 이를 받아들였다[12]. "
+ "EFSA는 유럽화학물질청이 살리실산메틸을 생식독성 2등급(태아에 해를 끼칠 우려)으로 분류했다고 적었다[12]. "
+ "정유는 피부에 바를 때 알레르기 접촉피부염을 일으킨 사례가 있다[14]. "
+ "잎 추출물의 CYP3A4 억제는 기준약보다 약 20만 배 약해 사람에게 약물 상호작용 가능성은 낮다고 판단되었다[3]. "
+ "잎·열매를 식품으로 먹을 때의 알레르기·잔류농약에 관한 공공기관 정보는 확인하지 못함.")
+
+titles = {"overview":"한눈에 보기","history":"역사","biology":"식물학적 특징","related_species":"근연종과 혼동","cultivation":"재배와 수확","processing":"가공과 이용","genetics":"유전과 계통","safety":"안전성"}
+sections = [{"key":k,"title":titles[k],"body":S[k]} for k in titles]
+
+def c(name, ko, cls, role, part, ct, act, src):
+    return {"name":name,"name_ko":ko,"class":cls,"role":role,"part":part,"content_text":ct,"activity_ko":act,"source":src}
+compounds = [
+ c("Gaultherin","고테린(모노트로피토사이드)","살리실산메틸 배당체","marker","잎·줄기·열매",
+   "잎 76.86(4월)–107.49(10월) mg/g 잎 건조중량; 메탄올–물 잎 추출물 98.41 mg/g, 줄기 아세톤 추출물 최대 185.9 mg/g(건조 추출물, HPLC-PDA)[3]",
+   "이 종의 주된 살리실산 배당체; 사람 호중구에서 IL-1β·TNF-α 분비 억제(체외), 직접 항산화력은 약함[3, 4]",[3,4]),
+ c("Methyl salicylate","살리실산메틸","페놀 에스터(정유 성분)","marker","정유(잎·열매 증류)",
+   "정유의 96.9–100%[3]; 잎 수증기 증류 천연품 5개 배치 평균 99.53%(GC-FID)[12]; 다른 시료 정유 91%[15]; 잎 클로로폼 추출물 GC 피크 면적 6.88%[5]",
+   "윈터그린 향의 주성분; 체내에서 살리실산과 메탄올로 빠르게 가수분해됨[12]",[3,5,12,15]),
+ c("Physanguloside A","피산굴로사이드 A","살리실산메틸 배당체","bioactive","열매·잎",
+   "열매 메탄올–물 추출물 12.45 mg/g(건조 추출물)[3]","열매와 잎에서만 확인된 드문 살리실산 배당체[3]",[3]),
+ c("Ursolic acid","우르솔산","트라이테르페노이드","marker","잎",
+   "3.71–5.87 mg/g 잎 건조중량(4–10월, UHPLC-PDA)[5]","히알루로니다아제 억제 활성과 함량 관계가 가장 좋아 지표로 권장됨(시험관)[5]",[5]),
+ c("Oleanolic acid","올레아놀산","트라이테르페노이드","marker","잎",
+   "0.84–1.26 mg/g 잎 건조중량(4–10월, UHPLC-PDA)[5]","우르솔산과 함께 지용성 잎 추출물의 지표로 권장됨[5]",[5]),
+ c("Miquelianin","미쿠엘리안(퀘르세틴 3-O-글루쿠로나이드)","플라보놀 배당체","bioactive","잎·줄기·열매",
+   "플라보노이드 분획의 약 65–85%; 메탄올–물 추출물 플라보노이드 합계 잎 최대 49.4 mg/g, 줄기 20.6 mg/g, 열매 1.2 mg/g(건조 추출물)[3]",
+   "표준화용 활성 지표 11종 중 하나(사람 호중구 체외 실험)[4]",[3,4]),
+ c("Epicatechin","(−)-에피카테킨","플라반-3-올","bioactive","잎·줄기·열매",
+   "프로시아니딘 B2·시남탄닌 B1과 합쳐 프로시아니딘 함량의 평균 44–76%[3]","잎 추출물의 주요 폴리페놀 가운데 하나[6]",[3,6]),
+ c("Cinnamtannin B1","시남탄닌 B1","프로시아니딘 A형 삼량체","bioactive","잎·줄기",
+   "정량값은 이번에 확인한 본문에서 찾지 못함; 분취 HPLC로 분리해 구조 확인[4]","호중구 ROS·IL-1β 분비 억제(체외)[4]",[4]),
+ c("Procyanidin B2","프로시아니딘 B2","프로시아니딘 이량체","bioactive","열매·잎·줄기",
+   "열매 프로시아니딘 합계 28.5 mg/g 열매 건조중량[7]; 총 프로안토시아니딘(분광법) 잎 추출물 최대 174.4 mg/g, 열매 추출물 62.4 mg/g[3]","항산화·항염 활성에 기여(시험관)[7]",[3,7]),
+ c("Chlorogenic acid","클로로겐산(카페오일퀸산 이성질체)","페놀산","bioactive","잎·줄기·열매",
+   "에틸아세테이트 추출물의 페놀산 합계 잎 20.3 mg/g, 줄기 13.9 mg/g, 열매 6.0 mg/g; 클로로겐산 이성질체가 그 13–68%[3]","잎 추출물 활성과 상관된 페놀산 무리[6]",[3,6]),
+ c("Vomifoliol","(6S,9R)-보미폴리올","노르아이소프레노이드","bioactive","잎",
+   "잎 0.36 mg/g 건조중량(GC-FID-MS)[10]; 잎 클로로폼 추출물 GC 피크 면적 4.35%[5]","리폭시게나아제 억제, 사람 호중구·PBMC 사이토카인 분비 억제(체외)[10]",[5,10]),
+ c("8-Demethylsideroxylin","8-데메틸시데록실린","메톡시 플라본","bioactive","잎(표면 왁스층)",
+   "잎 클로로폼 추출물 GC 피크 면적 2.25%[5]","NMR로 구조 확인된 드문 지용성 플라보노이드[5]",[5]),
+ c("8-Demethyllatifolin","8-데메틸라티폴린","메톡시 플라본","bioactive","잎(표면 왁스층)",
+   "잎 클로로폼 추출물 GC 피크 면적 1.13%[5]","드문 지용성 플라보노이드 아글리콘[5]",[5]),
+ c("Methyl benzoate","벤조산메틸","방향족 에스터","bioactive","잎",
+   "잎 석유에테르 추출물 GC 피크 면적 21.59%, 클로로폼 추출물 10.03%[5]","지용성 잎 추출물의 주성분 가운데 하나[5]",[5]),
+ c("Wintergreenoside A","윈터그린오사이드 A","플라보놀 이당체(글루쿠론산 포함)","bioactive","잎·지상부",
+   "함량 보고는 확인하지 못함; 지금까지 이 종에서만 발견[3]","종 특이 화학분류 표지 후보[3]",[3]),
+]
+
+assays = [
+ {"role":"literature","compound":"Polyphenol active markers (11 compounds incl. miquelianin, (−)-epicatechin, procyanidin B2, cinnamtannin B1, caffeoylquinic acids)",
+  "compound_ko":"폴리페놀 활성 지표 11종(미쿠엘리안·(−)-에피카테킨·프로시아니딘 B2·시남탄닌 B1·카페오일퀸산 등)",
+  "part":"지상부·잎·줄기(폴란드 재배, 2019년 10월 채취, 35 °C 음건)",
+  "content":"11종 합계 조추출물 181.04–192.78 mg/g, 에틸아세테이트 분획 384.48 mg/g(건조 추출물)[4]",
+  "method":"HPLC-PDA(역상, 기울기 용리)",
+  "conditions":{"instrument":"VWR-Hitachi LaChrom Elite HPLC, PDA 검출기(220–450 nm), 4중 기울기 펌프","column":"Ascentis Express C18, 2.7 μm, 75 × 4.6 mm(가드 칼럼 Ascentis C18 Supelguard 3 μm, 20 × 4 mm)",
+   "mobile_phase":"A: 물–85% 오르토인산(100:0.5, pH 2.0), B: 아세토니트릴","gradient":"아세토니트릴 직선 기울기, 평형 포함 35분(구간별 수치는 원문 표 — 추출본에서 확인 못함)",
+   "flow":"1.4 mL/min","temp":"18 °C","detection":"280·285·325·350·370 nm(성분별)","injection":"5 μL",
+   "sample_prep":"분말 100 g을 메탄올–물(75:25) 300 mL로 2시간씩 3회 환류 후 농축·동결건조; 추출물 1–50 mg을 메탄올–물(75:25) 10 mL에 녹여 0.2 μm PTFE 여과",
+   "standard":"퀘르세틴·하이퍼로사이드·미쿠엘리안·과야베린·이소퀘르시트린·(−)-에피카테킨·캠페롤 3-글루쿠로나이드·프로시아니딘 B2·카페오일퀸산 3종(시판 표준품), 일부는 분리 물질",
+   "linearity":"6농도, 상관계수 > 0.9994","lod":"0.11–0.55 µg/mL(0.53–2.76 ng)","loq":"0.36–1.84 µg/mL(1.79–9.19 ng)","recovery":"95.45–101.16%(표준물 첨가법)"},
+  "rationale":"호중구 체외 실험·효소 억제에서 활성이 확인된 성분을 표준화 지표로 고르고 ICH 기준으로 검증한 정량법[4].",
+  "source":[4],"url":"https://doi.org/10.3390/ijms222111532","source_kind":"paper"},
+ {"role":"literature","compound":"Ursolic acid, oleanolic acid","compound_ko":"우르솔산·올레아놀산","part":"잎(폴란드 재배, 2014년 4–10월 매달 채취)",
+  "content":"우르솔산 3.71–5.87 mg/g, 올레아놀산 0.84–1.26 mg/g(잎 건조중량)[5]","method":"UHPLC-PDA(등용매)",
+  "conditions":{"instrument":"Agilent 1290 Infinity UHPLC, PDA 검출기","column":"Zorbax Eclipse XDB-C18, 1.8 μm, 100 × 3.0 mm","mobile_phase":"메탄올 : 1% 오르토인산 수용액 = 90:10",
+   "gradient":"등용매","flow":"0.44 mL/min","temp":"18 °C","detection":"215 nm","injection":"3 µL",
+   "sample_prep":"분말 300 mg을 클로로폼 30 mL로 30분씩 2회, 클로로폼–메탄올(1:1) 30 mL로 30분 1회 환류; 증발 후 클로로폼–메탄올(1:1) 4 mL에 녹이고 메탄올로 10 mL, 0.2 μm PTFE 여과",
+   "standard":"우르솔산·올레아놀산 표준품","linearity":"우르솔산 약 3.0–325.0 µg/mL, 올레아놀산 약 1.5–150.0 µg/mL, 6농도(원문에서 두 성분에 대응하는 범위 표기가 기호 누락으로 불분명)",
+   "lod":"","loq":"","recovery":""},
+  "rationale":"지용성 잎 추출물에서 활성–함량 관계가 가장 좋아 저자들이 분석 지표로 권장함; 검출·정량한계와 회수율은 이 논문에 없고 앞선 검증 논문을 인용함[5].",
+  "source":[5],"url":"https://doi.org/10.3390/molecules22030412","source_kind":"paper"},
+ {"role":"literature","compound":"Methyl salicylate","compound_ko":"살리실산메틸","part":"잎 수증기 증류 정유",
+  "content":"5개 배치 평균 99.53%(99.27–99.65%)[12]","method":"GC-FID(EU 참조실험실 권장법), 미량 성분은 GC-MS",
+  "conditions":{"instrument":"","column":"","mobile_phase":"","gradient":"","flow":"","temp":"","detection":"FID","injection":"","sample_prep":"","standard":"","linearity":"","lod":"","loq":"","recovery":""},
+  "rationale":"정유의 품질 지표; EFSA 의견서에는 칼럼·온도 등 세부 조건이 없음[12].",
+  "source":[12],"url":"https://doi.org/10.2903/j.efsa.2026.10358","source_kind":"paper"},
+]
+
+d = {"slug":"gaultheria-procumbens","name_ko":"체커베리","name_en":"Checkerberry (eastern teaberry, American wintergreen)",
+ "scientific_name":"Gaultheria procumbens L.",
+ "aliases":["체커베리열매","체커베리잎","윈터그린","티베리","Checkerberry","Wintergreen","Teaberry","Eastern teaberry","American wintergreen"],
+ "sections":sections,"compounds":compounds,"markers":[],"nutrients":[],"assays":assays,
+ "production":[],"world":[],"gi":[],"orgs":[],"sources":sources}
+# 22, 23 used? add refs
+(HERE/"dossier.json").write_text(json.dumps(d,ensure_ascii=False,indent=1),encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

@@ -1,0 +1,65 @@
+import json,re,sys
+p='docs/materials/clupea-pallasii/dossier.json'
+d=json.load(open(p))
+S={s['key']:s for s in d['sections']}
+changes=[]
+def rep(key,old,new,why):
+    b=S[key]['body']; assert b.count(old)==1,(key,old); S[key]['body']=b.replace(old,new)
+    changes.append({"where":f"sections.{key}","before":old,"after":new,"why":why})
+rep('history','청어는 겨울 찬 바닷바람에 반쯤 말리는 경북 포항 일대의 전통 수산물인 과메기의 원료로 꽁치와 함께 쓰인다고 소개되었다[29].',
+ '청어는 겨울 찬 바닷바람에 반쯤 말리는 경북 포항 일대의 전통 수산물인 과메기의 원료로 꽁치와 함께 쓰인다고 소개되었다(논문은 학명을 적지 않아 이 종으로 단정하지 않음)[29].',
+ '[29] 전문 확인 — 과메기 설명은 맞으나 청어 학명이 본문에 없어 종 단정 회피')
+rep('biology','가속도 기록계를 단 911마리 수조 실험에서는','911마리를 넣은 대형 수조에서 53마리(수컷 15·암컷 38)에 가속도 기록계를 단 실험에서는',
+ '[26] 초록: 911마리는 수조 전체, 기록계는 15+38마리')
+rep('cultivation','우리나라는 어린 청어를 보호하려고 20 cm보다 작은 청어의 어획을 금지하고 있다는 설명이 2022년 시행으로 논문에 적혀 있다[2]. 언론 보도 요약으로는 해양수산부가 20 cm 이하 청어의 포획부터 유통·가공·판매까지 금지했고 2022년 6월 온·오프라인 유통을 집중 단속했다고 하나, 보도자료 원문은 열지 못했다[30].',
+ '우리나라는 2022년부터 20 cm보다 작은 청어의 양륙(landing)을 금지하고 있다고 논문에 적혀 있다[2]. 금지체장의 고시 원문(해양수산부)은 이 환경에서 열지 못해 확인하지 못함.',
+ '[2] 전문은 "prohibits the landing of individuals smaller than 20 cm"; [30]은 WebSearch 요약뿐이라 유통·판매 금지·단속 문장 삭제')
+rep('processing','청어알 지질은 인지질이 74%였고 콜레스테롤 9%를 함유했으며, 단백질과 함께 먹인 생쥐에서 복부 지방 무게가 줄었다[15].',
+ '학명이 적히지 않은 청어알 지질은 인지질이 74%였고 콜레스테롤 9%를 함유했으며, 청어알 단백질과 함께 먹인 생쥐에서 복부 지방 무게가 줄었다(동물 실험)[15].',
+ '[15] 초록에 학명 없음·동물 결과 명시')
+rep('processing','청어·꽁치 부산물 기름(1:9 혼합)을 젖산균으로 발효시킨 기름은','청어·꽁치 부산물을 1:9(꽁치가 대부분)로 섞어 얻은 기름(학명 미기재)을 젖산균으로 발효시킨 기름은',
+ '[29] 전문: 청어 1·꽁치 9 비율, 학명 표기 없음')
+rep('processing','일본에서는 아염소산나트륨으로 처리한 가공 청어알의','일본에서는 아염소산나트륨으로 처리한 가공 청어알(학명 미기재)의','[33] 초록에 학명 없음')
+rep('safety','알래스카 코체부 해역 8개 어종(청어 포함) 297마리의 총수은은 습중량 3.4–235.2 ng/g이었고,',
+ '알래스카 코체부 해역 8개 어종(청어 포함) 297마리 전체를 합친 총수은 범위는 습중량 3.4–235.2 ng/g으로 청어만의 값이 아니며,',
+ '[16] 초록: 8종 합산 범위임을 분명히')
+rep('safety','퓨젓사운드 청어에서도 Contracaecum 유충이 확인되었다[17, 18].',
+ '퓨젓사운드의 1920–2018년 박물관 표본(청어 등 먹이 물고기 5종)에서는 Contracaecum 유충이 가장 흔한 해양포유류 기생충이었다(초록에 청어만의 수치는 없음)[17, 18].',
+ '[18] 초록은 5종 합친 결과로 청어 단독 확인을 말하지 않음')
+rep('safety','섭취량은 내용 일일섭취량보다 훨씬 낮았다(학명 미기재)[22].','수산물 섭취로 인한 현재 섭취량은 내용 일일섭취량보다 훨씬 낮았다(청어 학명 미기재)[22].',
+ '[22] 섭취량은 수산물 전체 기준')
+rep('safety','청어를 포함한 어류 근육 1 g당 인공 미세입자가 0.02–1.08개 나왔다[23].','청어를 포함한 어류 5종 근육에서 인공 미세입자가 1 g당 0.02–1.08개였다(어류 전체 범위로 청어만의 값이 아님)[23].',
+ '[23] 초록의 0.02–1.08은 어류 전체 범위')
+C={c['name']:c for c in d['compounds']}
+def crep(n,f,old,new,why):
+    v=C[n][f]; assert v.count(old)==1,(n,f,old); C[n][f]=v.replace(old,new)
+    changes.append({"where":f"compounds[{n}].{f}","before":old,"after":new,"why":why})
+crep('Docosahexaenoic acid','content_text','동결건조 청어알 가루 15 g당 540 mg[13]','동결건조 청어알 가루 15 g당 540 mg(알래스카 싯카산, 학명 미기재)[13]','[13] 학명 미기재')
+crep('Selenium','content_text','(일본 시판품;','(mg/kg 조직, 생·건 기준 명시 없음; 일본 시판품;','[11] 원문 단위 mg/kg tissue, 기준 미기재')
+crep('Parvalbumin beta 2','part','살','부위 미기재(가공 생선 제품의 DNA로 검출)','[19] 초록에 부위 없음')
+crep('Parvalbumin beta 2','content_text','검출한계 10 pg/µL DNA','검출한계 10 pg/µL DNA; 같은 프라이머로 대서양청어·청어를 함께 검출(종 구분 안 함)','[19] 두 종 공통 검출법')
+# sources: drop 30, renumber
+old=d['sources']; keep=[s for s in old if s['n']!=30]
+mp={s['n']:i+1 for i,s in enumerate(keep)}
+for s in keep: s['n']=mp[s['n']]
+d['sources']=keep
+def fix(t):
+    def f(m):
+        nums=[int(x) for x in re.split(r',\s*',m.group(1))]
+        return '['+', '.join(str(mp[x]) for x in nums)+']'
+    return re.sub(r'\[(\d+(?:,\s*\d+)*)\]',f,t)
+def walk(x):
+    if isinstance(x,dict):
+        for k,v in x.items():
+            if k=='source' and isinstance(v,list): x[k]=[mp[i] for i in v]
+            else: x[k]=walk(v)
+        return x
+    if isinstance(x,list): return [walk(y) for y in x]
+    if isinstance(x,str): return fix(x)
+    return x
+for k in list(d):
+    if k!='sources': d[k]=walk(d[k])
+changes.append({"where":"sources","before":"[30] 데일리안 WebSearch 요약","after":"삭제, 31–33 → 30–32","why":"원문 확인 불가 출처"})
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('docs/materials/clupea-pallasii/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))
