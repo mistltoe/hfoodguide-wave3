@@ -1,0 +1,645 @@
+{
+ "slug": "scomberomorus-niphonius",
+ "name_ko": "삼치",
+ "name_en": "Japanese Spanish mackerel",
+ "scientific_name": "Scomberomorus niphonius",
+ "aliases": [
+  "Japanese Spanish mackerel",
+  "Japanese seerfish",
+  "삼치살",
+  "반건조삼치",
+  "삼치포",
+  "삼치구이"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "삼치(학명 Scomberomorus niphonius)는 고등어과(Scombridae) 삼치속에 속하는 바닷물고기로, 식약처 식품원료 목록의 영문명은 Japanese Spanish mackerel이다[1]. 한국·일본·중국의 온대 해역에 주로 분포하며, 국내에서도 상업적으로 중요한 어종으로 날것·냉동 필렛·염장·건조·훈제 형태로 유통된다고 국내 연구진이 적었다[11, 12].\n\n식약처 「식품원료 목록」에는 삼치, 삼치살, 반건조삼치, 삼치구이, 삼치포, 삼치가수분해단백질 등 이 학명의 원료명 6개가 모두 수산물, '사용가능'으로 올라 있고 사용조건 칸은 비어 있다[1]. 원자료의 부위 칸은 삼치살 행이 '죽순', 반건조삼치 행이 '전체', 나머지 네 행이 '-'로 적혀 있으며, 이 글은 원자료 표기를 그대로 옮긴다[1]. 이 원료는 건강기능식품 고시형 원료의 원재료 목록(lists)에 올라 있지 않아 고시 지표성분은 없다[1].\n\n등푸른생선답게 살과 부산물에 DHA·EPA 같은 오메가-3 지방산이 많아 부산물 기름의 식품 이용이 연구되었고[11], 한국인 코호트 연구는 고등어·꽁치와 함께 삼치를 기름진 생선(oily fish) 섭취 항목에 넣어 분석했다[33]. 반면 고등어과 생선이므로 상온에 두면 히스타민이 쌓여 식중독을 일으킬 수 있다는 점이 안전 관리의 핵심이다[14, 15]."
+  },
+  {
+   "key": "history",
+   "title": "이름과 분류의 역사",
+   "body": "학명 Scomberomorus niphonius는 Cuvier가 1832년에 기재한 이름으로, 국내 훈제 가공 연구도 저자명을 이렇게 표기했다[12]. 영문 'Spanish mackerel'은 여러 삼치속 종에 두루 쓰여, 식약처 목록에서도 동갈삼치는 'Narrow-barred spanish mackerel', 브라질삼치는 'Serra spanish mackerel'로 따로 적혀 있다[1]. 따라서 이 글은 학명이 S. niphonius로 밝혀졌거나 'Japanese Spanish mackerel'로 특정된 자료만 썼다[1].\n\n분자 수준의 기록으로는 2012년 중국 칭다오 개체에서 미세위성 표지 21개가 처음 보고되었고[9], 2017년 미토콘드리아 전장 유전체(GenBank KY228987)가 발표되었다[8]. 2025년에는 이 종의 첫 참조 유전체가 만들어져 회유 집단 구분 연구에 쓰였다[2]. 일본 연안에서는 2001–2010년 표본으로 자원이 회복되는 과정의 유전 구조를 살핀 연구가 있다[7].\n\n우리말 이름 '삼치'의 어원이나 옛 문헌 기록은 이번 조사에서 공공기관·학술 원문으로 확인하지 못함. 지리적 표시 등록 자료에서 이 학명에 연결된 항목도 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "어종과 생태",
+   "body": "삼치는 일본 주변, 동해(일본해), 동중국해를 포함한 북서태평양 대륙붕에 널리 분포한다[18]. 먹이를 활발히 사냥하는 육식성·회유성 어종으로 기술된다[7]. 부산 시장에서 산 평균 1.5 ± 0.28 kg 개체를 나눈 실험에서 먹을 수 있는 살은 체중의 50.89 ± 0.30%였고, 머리 16.03%, 껍질 8.61%, 뼈 7.91%, 내장 6.22%였다[11].\n\n중국 황해 연안의 2015·2017년 5월 하순 알 조사에서 산란장은 스다오 어장(북위 36°30′ 부근)과 하이저우만에 몰려 있었고, 알 분포에 알맞은 수심은 15–30 m, 표층 수온은 16–20 ℃였다[5]. 수온이 높은 해에는 산란장이 북쪽으로 옮겨 가는 경향이 있었다[5]. 2015년 산란기에 중국의 한 주요 산란장에서 한 고해상도 조사에서 자어가 살아남는 수온 범위는 산란 수온보다 좁았고, 초기 발달 단계일수록 수온의 영향이 컸다[6].\n\n제주도 연안에서 2012년 3–7월에 잡은 126마리(전장 62.4 ± 17.5 cm)의 생식소 조직을 본 연구에서 암수 생식세포가 섞인 간성 개체가 14.3%였고, 암컷(21.3%)이 수컷(3.9%)보다 많았다[10]. 삼치를 포함한 해산어 6종 비교에서 암수 간 지방산 조성 차이는 대체로 생식소·장·간에서 두드러졌으나 그 정도는 종에 따라 크게 달랐다[32]."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "식약처 「식품원료 목록」에는 같은 삼치속의 동갈삼치(Scomberomorus commerson), 평삼치(Scomberomorus koreanus), 브라질삼치(Scomberomorus brasiliensis), Pacific sierra(Scomberomorus sierra)가 각각 별개 원료로 올라 있다[1]. 이들의 성분·안전 자료는 삼치 자료로 옮겨 쓰지 않는다[1].\n\n이름에 '삼치'가 들어가지만 다른 속인 원료도 많아, 꼬치삼치(Acanthocybium solandri), 줄삼치(Sarda orientalis, 이명 이빨다랑어), 검정통삼치(Thyrsites atun), 비늘삼치(Gasterochisma melampus)가 목록에 따로 있고, 청새치(Kajikia audax)는 이명이 '용삼치'로 적혀 있다[1]. 고등어(Scomber 속)도 같은 고등어과이지만 다른 속(고등어 Scomber japonicus 등)이므로, 'mackerel'이라는 영문만으로 자료를 섞지 않는다[1].\n\n미토콘드리아 COI 아미노산 서열 18개로 그린 계통수에서 삼치는 다른 삼치속 두 종과 한 무리를 이루어 고등어과의 다른 속들과 갈라졌다[8]. 중국 연구에서 'Spanish mackerel'이라고만 적은 시료 가운데 학명이 확인되지 않은 자료는 이번 조사에서 제외했다[1]."
+  },
+  {
+   "key": "cultivation",
+   "title": "어획과 자원",
+   "body": "삼치는 양식보다 연근해 어획에 의존하는 어종이며, 국내 양식 생산 자료는 이번 조사에서 확인하지 못함. 국내 연구 서론은 FAO 자료를 인용해 2000–2009년에 약 40만 톤의 삼치(seerfish)가 잡혔다고 적었으나, 이 값이 종 단위 통계인지는 원문에서 따로 밝히지 않았다[12]. 한국 연근해 삼치 어획량의 연도별 공식 통계는 통계청·해양수산부 원문으로 확인하지 못함.\n\n일본 연안에서는 2001–2010년 미토콘드리아 조절영역 720개체와 미세위성 1,331개체를 분석해, 집단이 하나로 섞여 있고(범교배) 최근 자원 회복 과정에서도 유전자 빈도가 안정적이었다는 결과가 나왔다[7]. 중국 연안에서는 강한 엘니뇨(2015–2016) 시기에 1세 산란 개체의 이석 원소 조성이 달라지고 동중국해와 황해 집단 사이의 연결성이 커졌다는 분석이 있다[3].\n\n중국 북부 해역 네 어종의 시공간 모형에서는 기후변화 시나리오에 따라 대부분 종의 분포 중심이 2050년까지 북쪽으로 옮겨 갈 것으로 예측되었다[4]. 황해 산란장 연구진은 하이저우만 등 산란장을 보호하는 관리가 필요하다고 보았고[5], 자어 성장이 수온에 민감하므로 기후변화 영향을 자원 관리에 넣어야 한다는 제안도 있다[6]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식약처 목록의 원료명만 보아도 삼치는 생선, 살, 반건조품, 구이, 포, 가수분해단백질 형태로 쓰인다[1]. 국내 연구에서는 필렛을 8% 소금물에 24시간 절인 뒤 70 ℃에서 참나무 톱밥으로 25분 열훈연한 제품이 관능 평가가 가장 좋았고, 10 ℃ 저장에서 42일까지 품질이 유지되었다[12]. 같은 논문은 이 제품의 지방산을 DHA 4.19, EPA 1.82 g/100 g으로 보고했으나, 지방산 표의 합계(약 21 g/100 g)와 포화지방산 합계(6.30 g/100 g)가 같은 논문 영양성분 표의 조지방 2.353 g/100 g·포화지방 0.635 g/100 g보다 커 표 사이 기준이 맞지 않는다[12].\n\n중국에서는 소금에 절여 말린 건염 삼치가 전통 가공품으로, 시판품의 핵심 향기 성분으로 노난알·1-옥텐-3-올 등 9–14종이 꼽혔고[25], 시판품 8종을 비교한 연구에서는 펩타이드 서열이 제품마다 달랐고, 여러 시료에 반복된 펩타이드 가운데 Arg-Asp, Asp-Gly-Val, Asp-Arg, Asp-Lys 4종이 감칠맛·감칠맛 증강 효과를 보였다[24]. 건조 공정 동안 지질 조성이 바뀌고[26], 지질산화효소(LOX)가 풍미 형성을 돕는다는 연구도 있다[27]. 햇볕 건조는 지질 과산화물인 4-하이드록시-2-헥세날(HHE)을 86.33 ± 10.54 mg/kg까지 늘려, 냉풍 건조보다 산화가 심했다[13].\n\n연육(수리미)으로는 알칼리-염수 세척이 겔 강도와 보수력을 높였고[28], 잔탄검·펙틴을 넣어 삼킴곤란식(IDDSI 5·6단계)에 맞는 부드러운 겔을 만든 연구가 있다[29]. 단백질 가수분해물에서는 항산화 펩타이드 후보 8개가 나왔다[30]. 부산물(껍질·머리·뼈·내장)이 체중의 약 절반이고, 초임계 이산화탄소로 뽑은 기름은 DHA·EPA가 풍부했다[11]. 뼈 인지질 추출물이 신경모세포종 세포를 억제했다는 보고는 세포 실험(IC50 710.25 μg/mL)일 뿐 사람에서의 효과 근거가 아니다[31]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체와 유전 다양성",
+   "body": "2025년 발표된 연구는 삼치의 첫 고품질 참조 유전체를 만들고 중국 연안 집단을 전장 유전체와 메틸화(후성유전체) 자료로 비교했다[2]. 깊이 높은 염기서열에서도 지역 간 유전 분화는 찾지 못했지만, 전장 바이설파이트 시퀀싱으로는 보하이·황해 무리와 동중국해·남중국해 무리로 나뉘었다[2]. 남부(잔장)와 북부(서다롄) 집단 사이에는 배아 골격 발달·운동 행동 관련 유전자의 메틸화 차이가 있었다[2].\n\n미토콘드리아 유전체는 16,646 bp이고 단백질 암호화 유전자 13개, tRNA 22개, rRNA 2개를 합친 37개 유전자와 조절영역(D-loop)이 있으며 A+T 비율은 54.91%였다[8]. 칭다오 40개체에서 개발한 미세위성 21좌위는 좌위당 대립유전자 3–24개(평균 8.8), 평균 관측·기대 이형접합도 0.655·0.685를 보였다[9].\n\n일본 집단은 미토콘드리아와 미세위성 모두에서 범교배 구조를 보였고, 플라이스토세 동안 집단이 꾸준히 커졌다는 신호가 강했다[7]. 이석 원소 분석은 유전 자료와 별도로 해마다 집단 연결성이 달라질 수 있음을 보여 주었다[3]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 삼치와 그 가공 원료 6개는 모두 '사용가능'이며 별도 사용조건은 적혀 있지 않다[1]. 삼치만을 대상으로 한 식품 알레르기 연구와 국내 공공기관 알레르기 정보는 이번 조사에서 확인하지 못함.\n\n2014년 9월 대만 화롄현에서 튀긴 삼치를 먹은 7명이 알레르기 비슷한 증상을 보였고, 의심 시료의 히스타민은 날것 3,318 ppm, 튀긴 것 1,906 ppm이었으며, 시중 날것 12건 중 2건(16.7%)이 미국 FDA의 부패 지침 50 ppm을 넘었다[15]. 25 ℃ 저장에서는 히스타민이 계속 늘었고, 진공 포장해 4 ℃ 이하로 두면 품질 저하를 막을 수 있었다[14].\n\n기생충으로는 보하이·황해 어류 93종 조사에서 삼치의 Hysterothylacium aduncum 감염률이 47.5%였고[16], 같은 해역 삼치에서 이 선충이 채집되었다[17]. 일본산 삼치 몸통 근육에서는 점액포자충 Kudoa konishiae가[18], 생식소에서는 선충 Philometra sawara가 새로 기재되었다[19]. 삼치를 시료 기질로 쓴 아니사키스류 유충 ELISA의 회수율은 77.8–107.0%였으나[20], 삼치의 고래회충(Anisakis) 감염률을 종 단위로 밝힌 자료는 확인하지 못함.\n\n중금속·잔류물로는 칭다오산 삼치의 크롬이 안전 기준을 넘었다는 보고[22], 랴오둥만 삼치의 DDT 이성질체 합계 242 ± 70 ng/g(습중량)[23], 비소는 주로 독성이 낮은 아르세노베타인 형태라는 결과[21]가 있다. 이 종의 수은·메틸수은 함량과 국내 기준 대비 모니터링 결과는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Docosahexaenoic acid",
+   "name_ko": "도코사헥사엔산(DHA)",
+   "class": "오메가-3 다가불포화지방산",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛) / 부산물 기름",
+   "content_text": "열훈연 필렛 4.19 g/100 g(원문 표 3 표기 g/100 g; 표 3 합계 약 21 g/100 g이 같은 논문 조지방 2.353 g/100 g보다 커 기준 불일치)[12]; 초임계 CO2 추출 근육 기름 15.01 ± 0.28%, 껍질 기름 12.56 ± 0.38%(지방산 조성 %)[11]",
+   "activity_ko": "삼치에서 가장 많은 다가불포화지방산으로 영양 평가 지표로 쓰인다[11, 12]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Eicosapentaenoic acid",
+   "name_ko": "에이코사펜타엔산(EPA)",
+   "class": "오메가-3 다가불포화지방산",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛) / 부산물 기름",
+   "content_text": "열훈연 필렛 1.82 g/100 g(원문 표 3 표기 g/100 g; 표 3 합계 약 21 g/100 g이 같은 논문 조지방 2.353 g/100 g보다 커 기준 불일치)[12]; 초임계 CO2 추출 껍질 기름 5.81 ± 0.69%, 근육 기름 4.93 ± 0.06%[11]",
+   "activity_ko": "DHA와 함께 등푸른생선 지방의 대표 오메가-3 지방산[11]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Oleic acid",
+   "name_ko": "올레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛)",
+   "content_text": "5.79 g/100 g(가장 많은 지방산; 단일불포화 합계 7.78 g/100 g). 같은 논문 표 2의 조지방 2.353 g/100 g보다 지방산 합계(약 21 g/100 g)가 커 원문 값 사이에 불일치가 있다[12]",
+   "activity_ko": "열훈연 삼치의 주된 지방산[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Palmitic acid",
+   "name_ko": "팔미트산",
+   "class": "포화지방산",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛)",
+   "content_text": "4.03 g/100 g(포화지방산 합계 6.30 g/100 g; 같은 논문 표 2의 포화지방 0.635 g/100 g과 약 10배 차이로 기준 불일치)[12]",
+   "activity_ko": "주요 포화지방산[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Palmitoleic acid",
+   "name_ko": "팔미톨레산",
+   "class": "단일불포화지방산",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛)",
+   "content_text": "1.46 g/100 g(원문 표 3 표기 g/100 g; 표 3 합계 약 21 g/100 g이 같은 논문 조지방 2.353 g/100 g보다 커 기준 불일치)[12]",
+   "activity_ko": "열훈연 삼치에서 올레산 다음으로 많은 단일불포화지방산[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Cholecalciferol",
+   "name_ko": "비타민 D3(콜레칼시페롤)",
+   "class": "지용성 비타민",
+   "role": "nutrient",
+   "part": "부산물·근육에서 추출한 기름",
+   "content_text": "부위별 기름 0.59 ± 0.01 – 1.32 ± 0.3 mg/100 g 기름[11]; 열훈연 필렛 영양성분 분석에서는 불검출(ND)[12]",
+   "activity_ko": "기름 기준으로는 검출되었으나 훈연 필렛 분석에서는 검출되지 않아 출처마다 다르다[11, 12]",
+   "source": [
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Histamine",
+   "name_ko": "히스타민",
+   "class": "생체아민(위해 성분)",
+   "role": "bioactive",
+   "part": "살",
+   "content_text": "대만 식중독 의심 시료 날것 3,318 ppm, 튀긴 것 1,906 ppm; 시판 날것 12건 중 2건이 50 ppm 초과[15]",
+   "activity_ko": "히스티딘이 세균에 의해 바뀌어 생기며 고등어과 생선 식중독(스콤브로이드 중독)의 원인[14, 15]",
+   "source": [
+    14,
+    15
+   ]
+  },
+  {
+   "name": "Trimethylamine N-oxide",
+   "name_ko": "트라이메틸아민 N-옥사이드(TMAO)",
+   "class": "삼투조절 물질",
+   "role": "bioactive",
+   "part": "살",
+   "content_text": "날것 5.89 ± 1.19 μg/100 g, 열훈연품 1.63 ± 0.26/100 g(원문 단위 표기 그대로)[12]",
+   "activity_ko": "부패 세균이 트라이메틸아민으로 바꾸어 비린내를 내므로 신선도 지표로 쓰인다[12]",
+   "source": [
+    12
+   ]
+  },
+  {
+   "name": "Arsenobetaine",
+   "name_ko": "아르세노베타인",
+   "class": "유기비소 화합물",
+   "role": "bioactive",
+   "part": "살(시료 부위 초록에 미기재)",
+   "content_text": "비소 화학종 6종 가운데 주된 형태(정량값은 초록에 없음)[21]",
+   "activity_ko": "해산물에 흔한 독성이 낮은 유기비소 형태[21]",
+   "source": [
+    21
+   ]
+  },
+  {
+   "name": "4-Hydroxy-2-hexenal",
+   "name_ko": "4-하이드록시-2-헥세날(HHE)",
+   "class": "지질 과산화 알데하이드",
+   "role": "bioactive",
+   "part": "건염 삼치(살)",
+   "content_text": "햇볕 건조 끝 86.33 ± 10.54 mg/kg 생선; 열풍 건조 끝 HHE/HNE 29.69 ± 5.52, 냉풍 건조 6.32 ± 0.92 mg/kg[13]",
+   "activity_ko": "오메가-3 지방산이 산화되어 생기며 건염 어류 산화 정도의 지표로 제안되었다[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "4-Hydroxynonenal",
+   "name_ko": "4-하이드록시-2-노네날(HNE)",
+   "class": "지질 과산화 알데하이드",
+   "role": "bioactive",
+   "part": "건염 삼치(살)",
+   "content_text": "햇볕 건조 최고 5.29 ± 0.54 mg/kg 생선[13]",
+   "activity_ko": "오메가-6 지방산 산화로 생기며 삼치에서는 HHE보다 13–18배 적었다[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Arg-Asp",
+   "name_ko": "아르기닌-아스파트산 다이펩타이드",
+   "class": "감칠맛 펩타이드",
+   "role": "bioactive",
+   "part": "시판 건염 삼치",
+   "content_text": "시판품 8종 비교에서 여러 시료에 반복된 펩타이드 중 하나로, 감칠맛·감칠맛 증강 효과 확인(함량 정량값은 초록에 없음)[24]",
+   "activity_ko": "Asp-Gly-Val·Asp-Arg·Asp-Lys와 함께 감칠맛 수용체 결합이 모사되었다[24]",
+   "source": [
+    24
+   ]
+  },
+  {
+   "name": "Protein",
+   "name_ko": "조단백질",
+   "class": "다량영양소",
+   "role": "nutrient",
+   "part": "살(열훈연 필렛)",
+   "content_text": "29.600 g/100 g[12]",
+   "activity_ko": "훈연으로 수분이 빠져 비율이 높아진 값[12]",
+   "source": [
+    12
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "4-Hydroxy-2-hexenal / 4-Hydroxynonenal",
+   "compound_ko": "4-하이드록시-2-헥세날(HHE)·4-하이드록시-2-노네날(HNE)",
+   "part": "10% 소금물(4 °C, 12시간) 염지 후 열풍(60 °C 24시간)·냉풍(10 °C 60시간)·햇볕(5일) 건조한 삼치 토막(약 200 g, 칭다오 시장 구입)",
+   "content": "햇볕 건조 끝 HHE 86.33 ± 10.54, HNE 5.29 ± 0.54 mg/kg 생선[13]",
+   "method": "DNPH 유도체화 LC-ESI-MS/MS(음이온, 동위원소 내부표준)",
+   "conditions": {
+    "instrument": "Agilent 6460 LC-MS/MS(ESI)",
+    "column": "ACQUITY UPLC HSS T3(100 mm × 2.1 mm, 1.8 μm)",
+    "mobile_phase": "아세토나이트릴 / 아세트산 용액(pH 3.55)",
+    "gradient": "아세토나이트릴 40→65%(10.0분), 65→100%(4.0분), 1.0분 동안 40%로 되돌린 뒤 3.0분 재평형",
+    "flow": "0.3 mL/min",
+    "temp": "칼럼 40 °C; 모세관 300 °C",
+    "detection": "ESI 음이온 모드 MS/MS(분무 전압은 원문에 '70 kV'로 표기)",
+    "injection": "5 μL",
+    "sample_prep": "분쇄 시료 2 g + 내부표준 50 μL(10 mg/L) + DNPH 유도체화액(0.5 mg/mL, 1 N HCl) 15.0 mL·BHT 25 mg, 암소 2시간 → 다이클로로메테인 30 mL 추출(원심 7000 r/min, 반복) → 100 mL 정용 → SPE 정제·농축",
+    "standard": "HHE·HNE(≥99%), 내부표준 HHE-d3·HNE-d3",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "삼치는 오메가-3 비율이 높아 HHE가 HNE보다 13–18배 많이 생기며, HHE가 TOTOX 값과 선형 관계(R² = .907)를 보여 건염 어류 산화 지표로 제안되었다[13]. 전문(Methods) 확인 — 직선성·검출한계·회수율 수치는 본문에 없다[13].",
+   "source": [
+    13
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9922132/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Docosahexaenoic acid / Eicosapentaenoic acid (FAME)",
+   "compound_ko": "DHA·EPA(지방산 메틸에스터)",
+   "part": "부산 시장 삼치(평균 1.5 kg)의 껍질·근육·뼈·머리·내장을 동결건조 후 추출한 기름",
+   "content": "초임계 CO2 추출 근육 기름 DHA 15.01 ± 0.28%, EPA 4.93 ± 0.06%; 껍질 기름 DHA 12.56 ± 0.38%, EPA 5.81 ± 0.69%[11]",
+   "method": "GC-FID(지방산 메틸에스터, 내부표준 C17:0)",
+   "conditions": {
+    "instrument": "Agilent 6890 GC",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "FID",
+    "injection": "",
+    "sample_prep": "기름 0.05 g + 0.1% 헵타데칸산 헥세인 2 mL + 0.5 N NaOH 3 mL, 75 °C 45분 → BF3 3 mL 75 °C 20분 → 헥세인 3 mL·10% NaCl 1 mL → 상층을 0.20 μm PTFE 필터 여과",
+    "standard": "37종 지방산 표준 중 26종 확인",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "삼치 기름의 영양 가치를 판단하는 핵심 성분으로 DHA·EPA 비율을 썼다[11]. 전문(Methods 3.8) 확인 — 칼럼·온도 조건은 표·그림으로 넘겨 본문에 없고, 검출한계·회수율도 없다[11].",
+   "source": [
+    11
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8780132/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Cholecalciferol",
+   "compound_ko": "비타민 D3",
+   "part": "삼치 부위별(껍질·근육·뼈·머리·내장) 추출 기름",
+   "content": "0.59 ± 0.01 – 1.32 ± 0.3 mg/100 g 기름[11]",
+   "method": "HPLC-UV",
+   "conditions": {
+    "instrument": "JASCO HPLC",
+    "column": "",
+    "mobile_phase": "아세토나이트릴:메탄올 90:10(v/v)",
+    "gradient": "",
+    "flow": "",
+    "temp": "40 °C(오븐)",
+    "detection": "UV 265 nm",
+    "injection": "10 μL",
+    "sample_prep": "기름 0.5 g + 클로로폼 1 mL + 이동상 1 mL 혼합 → 0.20 μm 소수성 시린지 필터 여과",
+    "standard": "콜레칼시페롤 표준품, 검량선 1–1000 μg/mL",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "부산물 기름의 기능성 식품 원료 가치를 보이려고 정량했다[11]. 전문(Methods 3.10) 확인 — 칼럼·유속·검출한계·회수율은 본문에 없다. 같은 종 열훈연 필렛에서는 비타민 D가 불검출이어서 시료 형태에 따라 결과가 다르다[11, 12].",
+   "source": [
+    11,
+    12
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8780132/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Arsenobetaine (arsenic speciation)",
+   "compound_ko": "아르세노베타인(비소 화학종)",
+   "part": "삼치(부위는 초록에 미기재)",
+   "content": "6종 비소 화학종 중 아르세노베타인이 주성분(정량값은 초록에 없음)[21]",
+   "method": "모세관 전기영동-유도결합플라스마 질량분석(CE-ICP-MS)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "비소의 독성은 화학종에 따라 크게 달라 해산물 안전 평가에 쓰인다[21]. 전문 확인 못함 — 초록에는 20분 안에 6종 분리, 2–50 μg/L 직선성(상관계수 0.996 초과), 검출한계 0.10–1.08 μg/L, 회수율 93–98%가 적혀 있다[21].",
+   "source": [
+    21
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25358186/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [
+  {
+   "form": "열훈연 삼치 필렛(8% 소금물 24시간 염지 후 참나무 톱밥 70 °C 훈연; 원문 표 2 — 같은 논문 표 3 지방산 합계는 이 표의 조지방·포화지방보다 커 기준이 맞지 않음)",
+   "basis": "100 g",
+   "items": [
+    {
+     "name": "에너지",
+     "value": 141.625,
+     "unit": "kcal"
+    },
+    {
+     "name": "단백질",
+     "value": 29.6,
+     "unit": "g"
+    },
+    {
+     "name": "지방(조지방)",
+     "value": 2.353,
+     "unit": "g"
+    },
+    {
+     "name": "포화지방",
+     "value": 0.635,
+     "unit": "g"
+    },
+    {
+     "name": "트랜스지방",
+     "value": 0.002,
+     "unit": "g"
+    },
+    {
+     "name": "탄수화물",
+     "value": 0.512,
+     "unit": "g"
+    },
+    {
+     "name": "콜레스테롤",
+     "value": 80.249,
+     "unit": "mg"
+    },
+    {
+     "name": "나트륨",
+     "value": 211.792,
+     "unit": "mg"
+    },
+    {
+     "name": "칼륨",
+     "value": 531.561,
+     "unit": "mg"
+    },
+    {
+     "name": "칼슘",
+     "value": 43.224,
+     "unit": "mg"
+    },
+    {
+     "name": "철",
+     "value": 0.407,
+     "unit": "mg"
+    }
+   ],
+   "source": [
+    12
+   ]
+  }
+ ],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 삼치·삼치살·반건조삼치·삼치구이·삼치포·삼치가수분해단백질 및 Scomberomorus 속 원료 행",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "A Possible More Precise Management Unit Delineation Based on Epigenomic Differentiation of a Long-Distance-Migratory Marine Fish Scomberomorus niphonius (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40084530/",
+   "publisher": "Molecular Ecology Resources; doi:10.1111/1755-0998.14103 (PubMed 40084530)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Otolith biogeochemistry reveals possible impacts of extreme climate events on population connectivity of a highly migratory fish, Japanese Spanish mackerel (2024)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11602933/",
+   "publisher": "Marine Life Science & Technology; doi:10.1007/s42995-024-00229-x (PubMed 39620092)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Spatio-Temporal Distribution of Four Trophically Dependent Fishery Species in the Northern China Seas Under Climate Change (2025)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11852325/",
+   "publisher": "Biology (Basel); doi:10.3390/biology14020168 (PubMed 40001936)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "[Distribution and environmental characteristics of the spawning grounds of Scomberomorus niphonius in the coastal waters of Yellow Sea, China] (2020)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31957405/",
+   "publisher": "Ying Yong Sheng Tai Xue Bao; doi:10.13287/j.1001-9332.202001.032 (PubMed 31957405)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Stage-specific influence of temperature on the growth rate of Japanese Spanish mackerel (Scomberomorus niphonius) in early life (2021)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34813107/",
+   "publisher": "Journal of Fish Biology; doi:10.1111/jfb.14959 (PubMed 34813107)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Population panmixia and demographic expansion of a highly piscivorous marine fish Scomberomorus niphonius (2017)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28990668/",
+   "publisher": "Journal of Fish Biology; doi:10.1111/jfb.13466 (PubMed 28990668)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Complete mitochondrial genome analysis of Japanese Spanish mackerel (Scomberomorus niphonius) with phylogenetic consideration (2017)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7800835/",
+   "publisher": "Mitochondrial DNA Part B; doi:10.1080/23802359.2017.1280700 (PubMed 33473716)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Polymorphic microsatellite loci for Japanese Spanish mackerel (Scomberomorus niphonius) (2012)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22614347/",
+   "publisher": "Genetics and Molecular Research; doi:10.4238/2012.May.8.2 (PubMed 22614347)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Intersexuality of Scomberomorus niphonius from the Coastal Area around Jeju Island, Korea (Teleostei: Scombridae) (2013)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4282270/",
+   "publisher": "Development & Reproduction; doi:10.12717/DR.2013.17.2.073 (PubMed 25949123)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Lipid Indexes and Quality Evaluation of Omega-3 Rich Oil from the Waste of Japanese Spanish Mackerel Extracted by Supercritical CO2 (2022)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8780132/",
+   "publisher": "Marine Drugs; doi:10.3390/md20010070 (PubMed 35049925)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Effect of hot smoking treatment in improving Sensory and Physicochemical Properties of processed Japanese Spanish Mackerel (2020)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7382142/",
+   "publisher": "Food Science & Nutrition; doi:10.1002/fsn3.1715 (PubMed 32724656)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Effect of drying processes on the occurrence of lipid oxidation-derived 4-hydroxy-2-hexenal and 4-hydroxy-2-nonenal in Spanish mackerel (Scomberomorus niphonius) (2022)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9922132/",
+   "publisher": "Food Science & Nutrition; doi:10.1002/fsn3.3138 (PubMed 36789073)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Effect of Vacuum Packaging on Histamine Production in Japanese Spanish Mackerel (Scomberomorus niphonius) Stored at Various Temperatures (2019)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31633424/",
+   "publisher": "Journal of Food Protection; doi:10.4315/0362-028X.JFP-19-143 (PubMed 31633424)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Determination of Histamine in Japanese Spanish Mackerel (Scomberomorus niphonius) Meat Implicated in a Foodborne Poisoning (2019)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31524539/",
+   "publisher": "Journal of Food Protection; doi:10.4315/0362-028X.JFP-19-111 (PubMed 31524539)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "[Investigation on the nematode of Hysterothylacium aduncum (Anisakidae) from Bohai Sea and Yellow Sea in China] (2007)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18441985/",
+   "publisher": "Zhongguo Ji Sheng Chong Xue Yu Ji Sheng Chong Bing Za Zhi (PubMed 18441985)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Hysterothylacium simile n. sp. and H. aduncum (Nematoda: Raphidascarididae) from marine fishes in the Bohai and Yellow Sea, China (2012)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23263941/",
+   "publisher": "Systematic Parasitology; doi:10.1007/s11230-012-9389-0 (PubMed 23263941)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Morphological and molecular genetic characterization of Kudoa konishiae n. sp. (Myxosporea: Multivalvulida) in the muscle of Japanese Spanish mackerel (Scomberomorus niphonius) (2018)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29417272/",
+   "publisher": "Parasitology Research; doi:10.1007/s00436-018-5770-5 (PubMed 29417272)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Philometra sawara sp. n. and a redescription of Philometra sciaenae and Philometra nemipteri (Nematoda: Philometridae) from the gonads of marine fishes in Japan (2008)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19175206/",
+   "publisher": "Folia Parasitologica; doi:10.14411/fp.2008.036 (PubMed 19175206)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Direct competitive enzyme-linked immunosorbent assay (ELISA) for rapid screening of anisakid larvae in seafood (2010)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20355125/",
+   "publisher": "Journal of the Science of Food and Agriculture; doi:10.1002/jsfa.3898 (PubMed 20355125)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "[Determination of arsenic speciation in Scomberomorus niphonius by capillary electrophoresis-inductively coupled plasma mass spectrometry] (2014)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25358186/",
+   "publisher": "Guang Pu Xue Yu Guang Pu Fen Xi (PubMed 25358186)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Human biomonitoring of heavy metals exposure in different age- and gender-groups based on fish consumption patterns in typical coastal cities of China (2023)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37541022/",
+   "publisher": "Ecotoxicology and Environmental Safety; doi:10.1016/j.ecoenv.2023.115316 (PubMed 37541022)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Behaviors and trophodynamics of o,p'-DDT in the aquatic food web: Comparison with p,p'-DDT (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35092765/",
+   "publisher": "Science of the Total Environment; doi:10.1016/j.scitotenv.2022.153447 (PubMed 35092765)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Identification and comparison of umami-peptides in commercially available dry-cured Spanish mackerels (Scomberomorus niphonius) (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35086010/",
+   "publisher": "Food Chemistry; doi:10.1016/j.foodchem.2022.132175 (PubMed 35086010)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Key aroma compounds of Chinese dry-cured Spanish mackerel (Scomberomorus niphonius) and their potential metabolic mechanisms (2020)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33097327/",
+   "publisher": "Food Chemistry; doi:10.1016/j.foodchem.2020.128381 (PubMed 33097327)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "The dynamic changes of flavors and UPLC-Q-Exactive-Orbitrap-MS based lipidomics in mackerel (Scomberomorus niphonius) during dry-cured processing (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36596184/",
+   "publisher": "Food Research International; doi:10.1016/j.foodres.2022.112273 (PubMed 36596184)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "The roles of lipoxygenases and autoxidation during mackerel (Scomberomorus niphonius) dry-cured processing (2023)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37803620/",
+   "publisher": "Food Research International; doi:10.1016/j.foodres.2023.113309 (PubMed 37803620)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Physiochemical properties and tastes of gels from Japanese Spanish mackerel (Scomberomorus niphonius) surimi by different washing processes (2018)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30156294/",
+   "publisher": "Journal of Texture Studies; doi:10.1111/jtxs.12357 (PubMed 30156294)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Construction and textural modification of soft surimi gel from spanish mackerel (Scomberomorus niphonius) by polysaccharides (2026)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41547009/",
+   "publisher": "Food Chemistry; doi:10.1016/j.foodchem.2026.147875 (PubMed 41547009)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Antioxidant activity measurement and potential antioxidant peptides exploration from hydrolysates of novel continuous microwave-assisted enzymolysis of the Scomberomorus niphonius protein (2016)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28069129/",
+   "publisher": "Food Chemistry; doi:10.1016/j.foodchem.2016.12.026 (PubMed 28069129)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Anticancer and apoptotic activity in neuroblastoma SK-N-SH using phospholipid extract from bone of Scomberomorus niphonius (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36303298/",
+   "publisher": "Chemical Biology & Drug Design; doi:10.1111/cbdd.14165 (PubMed 36303298)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Sex difference in fatty acid composition of six marine teleosts (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36130880/",
+   "publisher": "Journal of Fish Biology; doi:10.1111/jfb.15220 (PubMed 36130880)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Oily Fish Consumption and the Risk of Dyslipidemia in Korean Adults: A Prospective Cohort Study Based on the HEXA-G Study (2019)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835780/",
+   "publisher": "Nutrients; doi:10.3390/nu11102506 (PubMed 31627478)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

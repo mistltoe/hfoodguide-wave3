@@ -1,0 +1,586 @@
+{
+ "slug": "cladosiphon-okamuranus",
+ "name_ko": "오카무라큰실말",
+ "name_en": "Okinawa mozuku (Cladosiphon okamuranus)",
+ "scientific_name": "Cladosiphon okamuranus",
+ "aliases": [
+  "Cladosiphon okamuranus Tokida",
+  "큰실말(식약처 목록 이명)",
+  "오키나와 모즈쿠(일본명)",
+  "Okinawa mozuku"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "오카무라큰실말(Cladosiphon okamuranus Tokida, 1942)은 갈조강(Phaeophyceae)에 속하는 아열대성 식용 갈조류로, 일본에서는 '오키나와 모즈쿠'라 부르며 주로 오키나와현에서 양식해 시장에 낸다[2][4]. 일본 난세이 제도의 고유종으로 소개된다[3].\n\n식품원료로서의 지위: 식품의약품안전처 「식품원료 목록」에는 '오카무라큰실말'(이명 '큰실말') 1행이 식품원료(A코드, 분류 '수산물')로 올라 있고, 상태는 '사용가능', 사용 조건은 '사용가능부위 : 전체'다[1]. 같은 목록 자료에서 건강기능식품 고시형 원료의 원재료로 연결된 기록은 없다[1].\n\n이 종의 세포벽은 알긴산보다 푸코이단이 많아 푸코이단 원료로 연구가 집중되어 있다[4][8]. 사람 연구로는 건강한 성인 40명을 푸코이단군(이 종 유래 푸코이단 3.0 g/일 음료, 20명)과 위약군(20명)으로 나눠 12주 진행한 무작위 이중맹검 예비 시험이 있으며, 푸코이단군의 NK 세포 활성이 8주째 섭취 전보다 높았으나 위약군과 비교해 유의한 차이는 남성에서만 보고되었고, 시험식품에 의한 이상 반응은 관찰되지 않았다[18]. 이 시험에는 원료 생산 업체 소속 연구자가 참여했다[18]. 암 치료를 마친 11명이 3 g/일을 6개월 먹은 대조군 없는 시험에서는 전체 NK 활성 변화가 유의하지 않았고 남성에서만 높아졌다[19]. 다만 이는 소규모 예비 시험이고, 장염·종양·간섬유화 같은 효능 보고는 대부분 생쥐·쥐 실험이다[27][28][32]."
+  },
+  {
+   "key": "history",
+   "title": "이용 역사",
+   "body": "종명은 Tokida가 1942년에 기재했다[2]. 양식 기술은 1972년 오키나와현과 가고시마현에서 개발되었고, 산업적 양식은 1977년 오키나와현에서 시작되었다[2]. 이후 약 50년 동안 일본 전역에서 흔히 구할 수 있는 식품이 되었고, 오키나와 지역 사회에서 가장 중요한 양식 품목의 하나가 되었다[2].\n\n형태가 뚜렷이 다른 S·K·O·C 네 계통이 2000년대 초부터 상업적으로 양식되어 왔다[5]. 연간 생산량은 2006–2021년 사이 8,000–25,000톤으로 크게 오르내렸다[2]. 다른 종설은 연간 생산량을 약 20,000톤으로 적었다[3].\n\n연구 측면에서는 2000년대 초부터 이 종에서 뽑은 푸코이단의 장염(생쥐) 실험이 보고되었고[27], 이후 사람 섭취 후 혈청·소변 푸코이단을 재는 ELISA 측정법이 개발되었다[26]. 오키나와 모즈쿠를 먹은 뒤 일부 자원자의 소변에서 푸코이단이 검출되었다[23]. 장세포(Caco-2) 실험과 쥐 실험에서는 소장을 통한 흡수가 적지만 측정 가능한 수준으로 확인되었다[25]. 일본인 259명이 푸코이단 3 g을 먹은 연구에서 소변 푸코이단은 기초값 3.7 ± 3.4 ng/mL에서 6시간 뒤 24.4 ± 35.1 ng/mL로 늘었고, 헬리코박터 파일로리 음성자 가운데서는 평소 모즈쿠를 자주 먹는 사람의 기초값이 거의 먹지 않는 사람보다 높았다[24]. 한국에서의 전통 이용·유통 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징·생태",
+   "body": "생활사는 눈에 보이는 포자체(조체) 세대와 현미경적 배우체 세대로 이루어지며, 배우체 세대의 발아체는 바닷물에 떠서 증식할 수 있어 종묘 생산에 이용된다[3]. 포자체 끝의 동화사에 생긴 복자낭에서 유주자가 나와 원반 모양 엽상체(discoid thallus)를 만든다[2].\n\n조체의 주축 속은 비어 있고, 수층 세포층과 동화사로 이루어진다[9]. 어린 조체는 더 미끈거리고 색이 옅으며, 다 자란 조체는 색이 짙고 단단하다[9]. 다 자란 조체의 파단 강도는 주축 40 g, 곁가지 36 g으로 어린 조체보다 유의하게 높았다[9]. 수분 함량은 어린 조체 93.2%, 다 자란 조체 91.4%였다(2018년 시료)[9].\n\n곧추선 포자체 형성은 15–25 °C에서 일어난다고 정리되었다[2]. 실내 배양에서 청색광(400–500 nm)은 원반 엽상체의 초기 발아체 형성을 꾸준히 촉진했고, 적색광에서는 형성되지 않았다[2]. 영양염을 보충한 배지에서는 적색광을 뺀 모든 파장에서 발아체가 생겼다[2]."
+  },
+  {
+   "key": "related_species",
+   "title": "관련 종·이름",
+   "body": "식약처 목록의 이명은 '큰실말'이다[1]. 국내에서 '큰실말'이라는 이름이 다른 갈조류에도 쓰이는지는 확인하지 못함. 같은 목록의 '실말'은 Potamogeton pusillus(이명 '실가래', 영명 Small pondweed, 분류 '수산물')로 해조류가 아닌 수생 식물이므로 이름만 보고 섞으면 안 된다[1].\n\n오키나와에서 함께 양식되는 '이토 모즈쿠' 미끈가지(Nemacystus decipiens)는 식약처 목록에 별도 원료로 올라 있다[1][6]. 미토콘드리아 유전자 분석에서 두 종은 가까운 관계로 나타났다[6]. 그러나 푸코이단 구조는 다르다: 오카무라큰실말 푸코이단은 α-1,3 결합 주쇄의 C-2에 글루쿠론산 곁가지가 붙는 반면, 미끈가지 푸코이단은 곁가지 없는 α-1,3 직쇄로 정리되었다[10].\n\n일본 북부의 이시모즈쿠는 형태가 오키나와 모즈쿠와 거의 같지만 다른 종이며, 그 푸코잔틴·폴리페놀 수치는 이 종의 값이 아니다[17]. 아홉 종 갈조류 푸코이단을 비교한 연구에서 오카무라큰실말 푸코이단만 APTT 항응고 활성을 보이지 않아, 푸코이단 효능을 종 구분 없이 옮겨 쓰면 안 된다[12]."
+  },
+  {
+   "key": "cultivation",
+   "title": "양식·채취",
+   "body": "오키나와에서는 11월부터 6월까지 양식하며, 수확은 대체로 1월에 시작해 6월에 끝나지만 장소에 따라 다르다[9]. 양식망은 육상 수조에서 약 4주 동안 유주자를 붙여 원반 엽상체를 만든 뒤, 비교적 깊은 육묘장(nursery)에 15–20일 두어 곧추선 조체를 틔우고, 더 얕고 밝은 후기 육성장(post-nursery)에 35–40일 둔 뒤, 마지막으로 그보다 깊어 폭풍 피해를 피하는 본 양식장으로 옮긴다[2]. 이렇게 성장 단계마다 그물을 다른 수심으로 옮기는 점이 다른 해조 양식과 다르다[2].\n\n오키나와 본섬 남부 지넨 해역 조사에서 육묘장은 수심 7.5 m, 후기 육성장은 2 m, 본 양식장은 3 m였고, 가장 깊은 육묘장에서는 청색광 비중이 높고 적색·원적색광이 매우 적었다[2]. 연구진은 수심 조절이 곧 빛의 질 조절이라는 해석을 내놓았다[2].\n\n시료 연구에서 어린 조체는 바다에 심은 지 약 40일, 다 자란 조체는 약 90일 만에 수확했다[9]. 양식 환경 변동이 커지고 양식 해조 전반에서 생육 불량과 탈색이 잦아지는 상황이라 적극적인 양식 기술 개선이 중요해질 것으로 보았다[2]. 한국 연안의 자생·양식 여부는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공·추출 연구",
+   "body": "푸코이단 정제 예: 동결건조한 해조를 0.1 M 염산으로 실온에서 2시간 추출하고 에탄올 침전, 염화바륨 처리, 투석(12–14 kDa), 이온교환을 거쳐 흰 분말을 얻었으며, 건조 해조 11 g에서 443 mg(수율 4.0%)이 나왔다[10].\n\n세포벽을 순서대로 나누면 열수(HW)와 헤미셀룰로스-I(HC-I) 분획이 회수 세포벽의 약 80%를 차지하고 둘 다 주로 푸코이단이다[8][9]. 2018년 시료에서 HW·HC-I 수율은 어린 조체 62.4%·18.1%, 다 자란 조체 49.8%·30.8%로 자라면서 HC-I 비중이 늘었다[9]. 알코올 불용 잔사(AIR) 수율은 생중량 기준 어린 조체 2.8%, 다 자란 조체 5.5%였다[9].\n\n동물 실험에는 분자량별 분획(저분자 6.5–40 kDa, 중간 110–138 kDa, 고분자 300–330 kDa)[28]이나 순도 88.3%·분자량 49.8 kDa 제품[30]이 쓰였다. 수조에서 떠서 자라는 원반 발아체는 푸코잔틴 함량이 성숙 조체의 최대 50배까지 높아져 1톤 배양 규모의 푸코잔틴 생산에 이용된다[3]. 식약처 「식품 등의 생산실적」에서 이 종 원료 제품의 생산 실적은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전 정보",
+   "body": "S 계통의 초안 유전체는 약 140 Mbp로 추정되었고, 약 100배 깊이 해독으로 541개 스캐폴드(N50 416 kbp)를 얻었으며 단백질 암호 유전자는 13,640개(약 94%가 mRNA로 확인)였다[4]. 황산화 푸칸과 알긴산 생합성 효소 유전자, 플로로탄닌 생합성 효소 유전자가 확인되었다[4].\n\n이후 S 계통 유전체를 개선하고(2판 130 Mbp, 12,999 유전자) K 계통(135 Mbp, 12,511 유전자), O 계통(140 Mbp, 12,548 유전자), C 계통(143 Mbp, 12,182 유전자)을 해독했다[5]. 미토콘드리아·핵 유전자 계통수에서 S 계통이 가장 먼저 갈라지고 K 계통, 그다음 C·O 계통 순이었으며, 계통 사이에 염색체 역위가 자주 관찰되었다[5]. 계통별 고유 유전자군은 S 457, K 344, O 367, C 262개였다[5].\n\n근연종 미끈가지 유전체와 비교하면 L-푸코키나아제와 GDP-푸코스 피로포스포릴라아제 유전자가 융합된 특징을 두 종이 함께 가진다[6]. 청색광 수용체 오레오크롬의 상동 유전자도 이 종 유전체에서 확인되었다[2]."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 오카무라큰실말은 '사용가능' 원료이며 사용 조건은 '사용가능부위 : 전체'다[1]. 이 종에 대한 식약처 개별 기준(무기비소·요오드 등)은 확인하지 못함.\n\n푸코이단 독성: 급성 독성 시험에서 Wistar 쥐에 이 종 푸코이단을 먹였을 때 600 mg/kg 체중/일에서는 의미 있는 독성 변화가 없었으나, 1,200 mg/kg 체중/일 이상에서는 혈액 응고 시간이 유의하게 길어졌다[22]. 사람에서는 '모즈쿠 푸코이단'을 하루 최대 4.05 g씩 2주 먹은 20명에서 이상 소견이 없었으나(초록에 학명이 없어 이 종 유래인지, 같은 '모즈쿠'로 불리는 미끈가지 등 유래인지 확인하지 못함)[21], 3.0 g/일 12주 시험에서도 시험식품에 의한 이상 반응이 없었다[18]. 만성 C형 간염 환자 15명이 0.83 g/일을 12개월 먹은 공개 시험에서도 심각한 이상 반응은 없었다[20]. 모즈쿠 추출물 5%를 물에 타 8주 먹인 쥐에서는 혈장 섬유소 용해 활성이 높아지고 혈전 형성이 줄었으나, 혈소판 응집과 APTT는 대조군과 차이가 없었다(동물 실험)[29]. 항응고제 복용자에 대한 공공기관의 주의 정보는 확인하지 못함.\n\n비소: 일본 건조 해조 제품 분석에서 '모즈쿠' 제품에 무기비소가 의미 있게 검출되었으나, 초록에 학명이 없어 이 종의 값인지는 확인하지 못함[31]. 알레르기·잔류 농약 등 공공기관 안전 정보는 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Fucoidan",
+   "name_ko": "푸코이단(황산화 푸칸)",
+   "class": "황산화 다당",
+   "role": "bioactive",
+   "part": "엽상체(동결건조)",
+   "content_text": "정제 푸코이단 수율 4.0%(동결건조 해조 11 g에서 443 mg)",
+   "activity_ko": "건강한 성인 3.0 g/일 12주 섭취 시 8주째 NK 세포 활성이 섭취 전보다 상승(위약 대비 유의 차이는 남성만, 군당 20명 예비 시험)[18]; DSS 장염 생쥐에서 질병 활성 지수 감소(동물 실험)[27]; 대장암 이식 생쥐의 생존 기간 연장(동물 실험)[28]",
+   "source": [
+    10,
+    18,
+    27,
+    28
+   ]
+  },
+  {
+   "name": "L-Fucose",
+   "name_ko": "L-푸코스",
+   "class": "단당(푸코이단 구성당)",
+   "role": "marker",
+   "part": "정제 푸코이단(일본산 시료)",
+   "content_text": "정제 푸코이단 중 70.13 ± 0.22 wt%",
+   "activity_ko": "푸코이단 주쇄를 이루는 구성당으로, α-1,3 결합 주쇄에 C-2 푸코스 곁가지가 붙는 구조로 보고되었다[7]. 다만 다른 연구들은 C-2 곁가지를 글루쿠론산으로 보고해 구조 해석이 갈린다[10][12]",
+   "source": [
+    7,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "Sulfate",
+   "name_ko": "황산기",
+   "class": "다당의 황산 에스터",
+   "role": "marker",
+   "part": "정제 푸코이단 / 세포벽 열수 분획",
+   "content_text": "정제 푸코이단 중 15.16 ± 1.17 wt%[7]; 어린 조체 열수(HW) 분획 24.5%, HC-I 분획 6.4%[9]",
+   "activity_ko": "푸코스 세 단위마다 C-4에 황산기 하나가 붙는 구조로 정리되었고[7], 아세틸 푸코이단의 대식세포 NO 생성에는 황산기와 아세틸기가 관여했다(세포 실험)[11]",
+   "source": [
+    7,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "D-Glucuronic acid",
+   "name_ko": "D-글루쿠론산",
+   "class": "우론산(푸코이단 곁가지)",
+   "role": "marker",
+   "part": "세포벽 열수·HC-I 분획 푸코이단",
+   "content_text": "푸코스:글루쿠론산:황산기 몰비 HW 1.0:0.3:0.9, HC-I 1.0:0.2:0.3[8]; 성장 단계 연구에서 HW 1.0:0.3:0.6~0.7, HC-I 1.0:0.3:0.2~0.3[9]",
+   "activity_ko": "주쇄 C-2에 붙는 글루쿠론산 곁가지가 이 종 푸코이단의 특징이며[10], 이 곁가지를 가진 이 종 푸코이단은 아홉 종 비교에서 APTT 항응고 활성을 보이지 않았다[12]",
+   "source": [
+    8,
+    9,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "D-Xylose",
+   "name_ko": "D-자일로스",
+   "class": "단당(부성분)",
+   "role": "marker",
+   "part": "정제 푸코이단 / HC-I 분획",
+   "content_text": "정제 푸코이단의 소량 구성당(수치 없음)[7]; HC-I 분획 푸코이단에 HW보다 많음(1,4-결합 자일로스)[8][9]",
+   "activity_ko": "HC-I 분획의 1,4-결합 자일로스·푸코스는 셀룰로스와 가교해 세포벽을 강화하는 헤미셀룰로스 역할로 추정되었다[8][9]",
+   "source": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Alginic acid",
+   "name_ko": "알긴산",
+   "class": "다당(우론산 중합체)",
+   "role": "nutrient",
+   "part": "세포벽 옥살산암모늄(AO) 분획",
+   "content_text": "함량 수치 없음(AO 분획이 주로 알긴산; 세포벽은 알긴산보다 푸코이단이 많음)",
+   "activity_ko": "갈조류 세포벽의 주요 구조 다당이며, 이 종에서는 푸코이단보다 적다[8][9]. 알긴산 생합성 효소 유전자가 유전체에서 확인되었다[4]",
+   "source": [
+    4,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Cellulose",
+   "name_ko": "셀룰로스",
+   "class": "구조 다당",
+   "role": "nutrient",
+   "part": "세포벽(CL 분획)",
+   "content_text": "어린·다 자란 조체 모두 세포벽의 약 5%",
+   "activity_ko": "다 자란 조체에서 푸코이단이 셀룰로스에 더 강하게 결합한 것으로 추정되었다[9]",
+   "source": [
+    9
+   ]
+  },
+  {
+   "name": "Fucoxanthin",
+   "name_ko": "푸코잔틴",
+   "class": "카로티노이드(잔토필)",
+   "role": "bioactive",
+   "part": "배양 원반 발아체의 FCP 광수확 복합체",
+   "content_text": "FCP 색소 비 Chl a:Chl c1:Chl c2:푸코잔틴 = 4.6:1.1:1.0:5.5[14]; 떠서 자라는 원반 발아체의 푸코잔틴 함량은 성숙 조체의 최대 50배[3]",
+   "activity_ko": "갈조류 세포에서 주로 광수확 색소-단백질 복합체(FCP)에 결합해 있으며, 이 종 배양 발아체에서 FCP가 분리·정제되었다[3][13]. 항비만·항당뇨 등 작용은 종설 소개이며 이 종 조체 섭취로 확인된 것은 아니다[3]",
+   "source": [
+    3,
+    13,
+    14
+   ]
+  },
+  {
+   "name": "Chlorophyll a",
+   "name_ko": "엽록소 a",
+   "class": "광합성 색소",
+   "role": "nutrient",
+   "part": "배양 원반 발아체의 FCP",
+   "content_text": "FCP 색소 비 Chl a 4.6(Chl c1 1.1, Chl c2 1.0, 푸코잔틴 5.5 기준)",
+   "activity_ko": "FCP의 Chl c/Chl a 비는 지금까지 보고된 것 가운데 높은 편이다[14]",
+   "source": [
+    14
+   ]
+  },
+  {
+   "name": "Free fatty acids",
+   "name_ko": "유리 지방산",
+   "class": "지방산",
+   "role": "nutrient",
+   "part": "조체 총지질",
+   "content_text": "총지질의 45%",
+   "activity_ko": "주된 지질인 당지질에서 갈락토리파아제 같은 효소가 지방산을 떼어 낸 결과로 추정되었다[15]. 시판 오키나와 모즈쿠 비교 분석에서도 지방산 비중이 큰 편이었다[16]",
+   "source": [
+    15,
+    16
+   ]
+  },
+  {
+   "name": "Diacylglyceryl trimethylhomoserine",
+   "name_ko": "디아실글리세릴 트리메틸호모세린(DGTS)",
+   "class": "베타인 지질",
+   "role": "nutrient",
+   "part": "시판 오키나와 모즈쿠(실온 건조)",
+   "content_text": "다섯 해조 가운데 모즈쿠에 많음(비표적 LC/MS 상대 정량, 절대 함량 없음)",
+   "activity_ko": "EPA 생합성 중간체 역할이 거론된다(문헌 고찰)[16]",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Phlorotannin",
+   "name_ko": "플로로탄닌(총 폴리페놀)",
+   "class": "폴리페놀",
+   "role": "bioactive",
+   "part": "조체(건조물)",
+   "content_text": "오키나와 모즈쿠 총 폴리페놀 0.082 ± 0.011 mg/g 건조중량(이시모즈쿠 논문의 비교값)",
+   "activity_ko": "이 종의 폴리페놀은 근연 이시모즈쿠(0.296–0.958 mg/g 건조중량)보다 낮았다[17]. 플로로탄닌 생합성 효소 유전자가 유전체에서 확인되었다[4]",
+   "source": [
+    4,
+    17
+   ]
+  }
+ ],
+ "markers": [],
+ "nutrients": [
+  {
+   "form": "생 조체(어린 조체, 오키나와 지넨 양식, 심은 지 약 40일)",
+   "basis": "생물 100 g당(원문 % 값을 g으로 옮김, 2018년 시료)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 93.2,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    9
+   ]
+  },
+  {
+   "form": "생 조체(다 자란 조체, 심은 지 약 90일)",
+   "basis": "생물 100 g당(원문 % 값을 g으로 옮김, 2018년 시료)",
+   "items": [
+    {
+     "name": "수분",
+     "value": 91.4,
+     "unit": "g"
+    }
+   ],
+   "source": [
+    9
+   ]
+  }
+ ],
+ "production": [],
+ "world": [
+  {
+   "country": "일본(오키나와현)",
+   "metric": "production_t",
+   "year": 2021,
+   "value": 20000,
+   "unit": "t",
+   "note": "종설의 '연간 약 20,000톤'(기준 연도 명시 없음, 출판 연도 2021로 둠)[3]; 2006–2021년 연간 8,000–25,000톤 사이에서 변동[2]",
+   "source": [
+    2,
+    3
+   ]
+  }
+ ],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Monosaccharide composition (L-fucose, D-glucuronic acid)",
+   "compound_ko": "세포벽 분획 구성당(푸코스·글루쿠론산)",
+   "part": "오키나와 지넨 양식 조체의 세포벽 분획(HW·HC-I 등)",
+   "content": "푸코스:글루쿠론산:황산기 몰비 HW 1.0:0.3:0.6~0.7, HC-I 1.0:0.3:0.2~0.3[9]",
+   "method": "HPAEC-PAD(고성능 음이온교환 크로마토그래피-펄스 전류 검출)",
+   "conditions": {
+    "instrument": "HPAEC-PAD",
+    "column": "CarboPac PA1 (4 mm × 250 mm)",
+    "mobile_phase": "중성당: 14 mM NaOH; 우론산: 100 mM NaOH 중 아세트산나트륨",
+    "gradient": "아세트산나트륨 0–250 mM 직선 기울기(100 mM NaOH 중)",
+    "flow": "1 mL/min",
+    "temp": "35 °C",
+    "detection": "펄스 전류 검출(PAD)",
+    "injection": "",
+    "sample_prep": "분획은 2 M 트리플루오로아세트산 121 °C 1시간 가수분해; AIR·셀룰로스 분획은 72% 황산 4 °C 1시간(초음파) 후 2 N 황산 121 °C 1시간",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "푸코스와 글루쿠론산 곁가지는 이 종 푸코이단의 구조적 특징이어서 다른 갈조류 푸코이단과 구별하는 지표가 된다[9][10]. 전문(Methods)에서 조건을 옮겼고 검출·정량한계와 회수율은 원문에 없다[9].",
+   "source": [
+    9,
+    10
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536011/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Sulfate",
+   "compound_ko": "황산기",
+   "part": "오키나와 지넨 양식 조체의 세포벽 분획",
+   "content": "어린 조체 HW 분획 24.5%, HC-I 분획 6.4%[9]",
+   "method": "HPLC(음이온교환, 이온 크로마토그래피)",
+   "conditions": {
+    "instrument": "HPLC",
+    "column": "AS4A-SC (4 mm × 250 mm)",
+    "mobile_phase": "1.7 mM NaHCO3 + 1.8 mM Na2CO3",
+    "gradient": "",
+    "flow": "1.5 mL/min",
+    "temp": "실온",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "2 M 트리플루오로아세트산 121 °C 1시간 가수분해",
+    "standard": "Na2SO4 검량선",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "황산기 함량은 푸코이단의 성질(점성·생리활성)과 관련되는 기본 지표다[7][9]. 전문에서 조건을 옮겼으나 검출기 종류는 원문에 적혀 있지 않다[9].",
+   "source": [
+    7,
+    9
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536011/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "L-Fucose",
+   "compound_ko": "L-푸코스(정제 푸코이단)",
+   "part": "일본산 조체에서 정제한 푸코이단",
+   "content": "푸코스 70.13 ± 0.22 wt%, 황산기 15.16 ± 1.17 wt%[7]",
+   "method": "단당 프로파일·황산기 정량·결합 분석(세부 기기 조건은 초록에 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "정제 푸코이단의 푸코스·황산기 함량은 원료 푸코이단의 순도·구조를 보여 주는 지표다[7]. 전문 확인 못함(초록만 확인)[7].",
+   "source": [
+    7
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30309536/",
+   "source_kind": "paper"
+  }
+ ],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 오카무라큰실말(Cladosiphon okamuranus) 1행 및 '미끈가지'·'실말' 행(2026-10-13 받은 원자료)",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Influence of Light Quality on the Initial Development in Edible Brown Alga (Cladosiphon okamuranus). Plants (Basel) 2026;15(6):895 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13030692/",
+   "publisher": "Plants (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 3,
+   "title": "Production of Carotenoids from Cultivated Seaweed. Adv Exp Med Biol 2021;1261:21-27 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33783728/",
+   "publisher": "Advances in Experimental Medicine and Biology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "A draft genome of the brown alga, Cladosiphon okamuranus, S-strain: a platform for future studies of 'mozuku' biology. DNA Res 2016;23(6):561-570 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5144679/",
+   "publisher": "DNA Research (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Comparative genomics of four strains of the edible brown alga, Cladosiphon okamuranus. BMC Genomics 2020;21(1):422 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7318753/",
+   "publisher": "BMC Genomics (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "Draft genome of the brown alga, Nemacystus decipiens, Onna-1 strain: Fusion of genes involved in the sulfated fucan biosynthesis pathway. Sci Rep 2019;9(1):4607 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6418280/",
+   "publisher": "Scientific Reports (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Structural elucidation of fucoidan from Cladosiphon okamuranus (Okinawa mozuku). Food Chem 2018;272:222-226 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30309536/",
+   "publisher": "Food Chemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "Fractionation and characterization of cell wall polysaccharides from the brown alga Cladosiphon okamuranus. Carbohydr Res 2022;523:108722 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36459703/",
+   "publisher": "Carbohydrate Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "The Cell Wall Characterization of Brown Alga Cladosiphon okamuranus during Growth. Plants (Basel) 2023;12(18):3274 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536011/",
+   "publisher": "Plants (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Structural Characteristics and Antioxidant Activities of Fucoidans from Five Brown Seaweeds. J Appl Glycosci 2016;63(2):31-37 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8126474/",
+   "publisher": "Journal of Applied Glycoscience (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Structural characteristics and in vitro macrophage activation of acetyl fucoidan from Cladosiphon okamuranus. Glycoconj J 2009;26(8):1019-28 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19219547/",
+   "publisher": "Glycoconjugate Journal (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "A comparative study of the anti-inflammatory, anticoagulant, antiangiogenic, and antiadhesive activities of nine different fucoidans from brown seaweeds. Glycobiology 2007;17(5):541-52 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17296677/",
+   "publisher": "Glycobiology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "Isolation and purification of the major photosynthetic antenna, fucoxanthin-Chl a/c protein, from cultured discoid germilings of the brown alga, Cladosiphon okamuranus TOKIDA (Okinawa Mozuku). Photosynth Res 2011;111(1-2):157-63 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21948618/",
+   "publisher": "Photosynthesis Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "The pigment stoichiometry in a chlorophyll a/c type photosynthetic antenna. Photosynth Res 2011;111(1-2):165-72 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21997123/",
+   "publisher": "Photosynthesis Research (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Glycerolipid acyl hydrolase activity in the brown alga Cladosiphon okamuranus TOKIDA. Biosci Biotechnol Biochem 2003;67(9):1986-9 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14519986/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "Analysis of Antioxidant Lipids in Five Species of Dietary Seaweeds by Liquid Chromatography/Mass Spectrometry. Antioxidants (Basel) 2022;11(8):1538 (전문)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9404842/",
+   "publisher": "Antioxidants (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Anti-Oxidant and Fucoxanthin Contents of Brown Alga Ishimozuku from the West Coast of Aomori, Japan. Mar Drugs 2018;16(8):255 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6117725/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Effects of Ingesting Fucoidan Derived from Cladosiphon okamuranus Tokida on Human NK Cells: A Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Pilot Study. Mar Drugs 2021;19(6):340 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8232719/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Activation of NK cells in male cancer survivors by fucoidan extracted from Cladosiphon okamuranus. Mol Clin Oncol 2019;12(1):81-88 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6888040/",
+   "publisher": "Molecular and Clinical Oncology (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Beneficial effects of fucoidan in patients with chronic hepatitis C virus infection. World J Gastroenterol 2012;18(18):2225-30 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3351773/",
+   "publisher": "World Journal of Gastroenterology (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "Safety evaluation of excessive ingestion of mozuku fucoidan in human. J Food Sci 2013;78(4):T648-51 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23465035/",
+   "publisher": "Journal of Food Science (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Toxicological evaluation of fucoidan from Cladosiphon okamuranus. J Med Food 2008;11(4):638-42 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19053854/",
+   "publisher": "Journal of Medicinal Food (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Detection of Fucoidan in Urine after Oral Intake of Traditional Japanese Seaweed, Okinawa mozuku (Cladosiphon okamuranus Tokida). J Nutr Sci Vitaminol 2017;63(6):419-421 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29332904/",
+   "publisher": "Journal of Nutritional Science and Vitaminology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Are Infection and Fucoidan Consumption Associated with Fucoidan Absorption? Mar Drugs 2020;18(5):235 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7281410/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Intestinal absorption of fucoidan extracted from the brown seaweed, Cladosiphon okamuranus. Mar Drugs 2014;13(1):48-64 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4306924/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Development of a fucoidan-specific antibody and measurement of fucoidan in serum and urine by sandwich ELISA. Biosci Biotechnol Biochem 2010;74(2):350-7 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20139614/",
+   "publisher": "Bioscience, Biotechnology, and Biochemistry (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Fucoidan derived from Cladosiphon okamuranus Tokida ameliorates murine chronic colitis through the down-regulation of interleukin-6 production on colonic epithelial cells. Clin Exp Immunol 2004;136(3):432-9 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1809061/",
+   "publisher": "Clinical and Experimental Immunology (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Effects of oral administration of fucoidan extracted from Cladosiphon okamuranus on tumor growth and survival time in a tumor-bearing mouse model. Mar Drugs 2012;10(10):2337-48 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3497027/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Antithrombotic Effect of Oral Administration of Mozuku (Cladosiphon okamuranus, Brown Seaweed) Extract in Rat. J Nutr Sci Vitaminol 2019;65(2):171-176 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31061286/",
+   "publisher": "Journal of Nutritional Science and Vitaminology (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "Evaluation of the Immunomodulatory Effects of Fucoidan Derived from Cladosiphon okamuranus Tokida in Mice. Mar Drugs 2019;17(10):547 (초록)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835671/",
+   "publisher": "Marine Drugs (PMC)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Determination of Inorganic Arsenic in Seaweed and Seafood by LC-ICP-MS: Method Validation. J AOAC Int 2019;102(2):612-618 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30205865/",
+   "publisher": "Journal of AOAC International (PubMed)",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Attenuation of N-nitrosodiethylamine-induced liver fibrosis by high-molecular-weight fucoidan derived from Cladosiphon okamuranus. J Gastroenterol Hepatol 2010;25(10):1692-701 (초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20880181/",
+   "publisher": "Journal of Gastroenterology and Hepatology (PubMed)",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

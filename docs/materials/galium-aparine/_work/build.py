@@ -1,0 +1,143 @@
+import json
+from pathlib import Path
+P = Path(__file__).resolve().parent.parent
+A = "2026-11-02"
+def pm(n, title, cit, pmid, doi, pmc=None):
+    t = f"{title} — {cit}" + (f" (전문 {pmc})" if pmc else "") + f" (PMID {pmid})"
+    return {"n": n, "title": t, "url": f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/", "publisher": "PubMed", "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 구즈그라스순·구즈그라스씨앗(Galium aparine L., Goosegrass), 사용가능부위: 순, 씨앗, 사용가능; 같은 목록의 Yellow bedstraw(Galium verum L.)·갈퀴덩굴(Galium spurium var. echinospermon / Galium aparine f. strigosa Maxim.)·Hedge bedstraw(Galium mollugo)·개솔나물·솔나물·털잎솔나물·Fragrant bedstraw(Galium triflorum)·선갈퀴(Asperula odorata / Galilum odoratum)·살갈퀴덩굴(GALIUM POGONANTHUM)·너도꼭두서니(Rubia jesoensis / Galium jesoensis) 행 포함", "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020", "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(2, "Phytochemical Profiles and In Vitro Immunomodulatory Activity of Ethanolic Extracts from Galium aparine L.", "Plants 2019;8(12):541", "31775336", "10.3390/plants8120541", "PMC6963662"),
+ pm(3, "Immunomodulatory Activity and Phytochemical Profile of Infusions from Cleavers Herb", "Molecules 2020;25(16):3721", "32824103", "10.3390/molecules25163721", "PMC7464609"),
+ pm(4, "Antifeedant activity of an anthraquinone aldehyde in Galium aparine L. against Spodoptera litura F.", "Phytochemistry 2002;60(2):163-6", "12009319", "10.1016/s0031-9422(02)00095-x"),
+ pm(5, "Separation and purification and in vitro anti-proliferative activity of leukemia cell K562 of Galium aparine L. petroleum ether phase", "Saudi Pharm J 2016;24(3):241-4", "27275108", "10.1016/j.jsps.2016.04.005", "PMC4880947"),
+ pm(6, "Effects of Galium aparine extract on the cell viability, cell cycle and cell death in breast cancer cell lines", "J Ethnopharmacol 2016;186:305-310", "27085941", "10.1016/j.jep.2016.04.007"),
+ pm(7, "Galium aparine L. protects against acetaminophen-induced hepatotoxicity in rats", "Chem Biol Interact 2022;366:110119", "36029804", "10.1016/j.cbi.2022.110119"),
+ pm(8, "Immuno-Enhancing Effects of Galium aparine L. in Cyclophosphamide-Induced Immunosuppressed Animal Models", "Nutrients 2024;16(5):597", "38474724", "10.3390/nu16050597", "PMC10934713"),
+ pm(9, "Bringing back Galium aparine L. from forgotten corners of traditional wound treatment procedures: an antimicrobial, antioxidant, and in-vitro wound healing assay along with HPTLC fingerprinting study", "BMC Complement Med Ther 2024;24(1):279", "39044256", "10.1186/s12906-024-04355-y", "PMC11267910"),
+ pm(10, "Evaluation of diverse antioxidant activities of Galium aparine", "Spectrochim Acta A Mol Biomol Spectrosc 2012;102:24-9", "23211618", "10.1016/j.saa.2012.09.056"),
+ pm(11, "Always on the bright side: the climbing mechanism of Galium aparine", "Proc Biol Sci 2011;278(1715):2233-9", "21147808", "10.1098/rspb.2010.2038", "PMC3107623"),
+ pm(12, "Mechanical adaptations of cleavers (Galium aparine)", "Ann Bot 2005;95(3):475-80", "15574483", "10.1093/aob/mci038", "PMC4246785"),
+ pm(13, "Unusual trichome structure and composition in mericarps of catchweed bedstraw (Galium aparine)", "Protoplasma 2008;233(3-4):223-30", "18581040", "10.1007/s00709-008-0006-7"),
+ pm(14, "Comparative study on mechanical properties and biomineralization of hooks in the diaspores of three epizoochorous plant species", "Acta Biomater 2024;186:330-341", "39097128", "10.1016/j.actbio.2024.07.041"),
+ pm(15, "Tribenuron-methyl resistance in catchweed bedstraw (Galium aparine): status and MIRA-based rapid detection of ALS D376E mutation", "Pest Manag Sci 2026", "42473037", "10.1002/ps.71132"),
+ pm(16, "Establishment of a versatile virus-based system for elucidating herbicide resistance in Galium aparine", "Plant Physiol 2026;201(2)", "42161891", "10.1093/plphys/kiag285", "PMC13316935"),
+ pm(17, "Surveillance and mapping of tribenuron-methyl-resistant weeds in wheat fields", "Sci Rep 2024;14(1):28626", "39562594", "10.1038/s41598-024-75308-1", "PMC11576891"),
+ pm(18, "Reference gene selection for quantitative real-time PCR (qRT-PCR) expression analysis in Galium aparine L.", "PLoS One 2020;15(2):e0226668", "32017769", "10.1371/journal.pone.0226668", "PMC6999859"),
+ pm(19, "Anticancer Effects of Galium aparine L Extract: Dose-Dependent Cytotoxicity in HNO210 Human Laryngeal Carcinoma Cells", "J Craniofac Surg 2026;37(9):e875-9", "41493013", "10.1097/SCS.0000000000012337", "PMC13552565"),
+ pm(20, "Thermostable and solvent-tolerant alkaline protease from Galium aparine: Purification and industrial applications", "Arch Biochem Biophys 2025;771:110529", "40617380", "10.1016/j.abb.2025.110529"),
+ pm(21, "Exploring the diversity and genomics of cultivable Bacillaceae-related endophytic bacteria from the medicinal plant Galium aparine L.", "Front Microbiol 2025;16:1612860", "40661978", "10.3389/fmicb.2025.1612860", "PMC12256460"),
+ pm(22, "False Seedbed and Stale Seedbed Against Important Broadleaf Weeds: A Case Study and a Step Closer to Agroecology", "Plants 2025;14(4):564", "40006823", "10.3390/plants14040564", "PMC11859391"),
+ pm(23, "[Phenolic compounds from Galium aparine var. tenerum]", "Zhongguo Zhong Yao Za Zhi 2009;34(14):1802-4", "19894511", None),
+]
+
+S = {}
+S["overview"] = ("구즈그라스(Galium aparine L.)는 꼭두서니과(Rubiaceae) 갈퀴덩굴속의 한해살이 덩굴성 풀로, 영어로 goosegrass·cleavers·catchweed bedstraw 등으로 부른다[1, 3, 15]. "
+ "식약처 「식품원료 목록」에는 학명 Galium aparine L., 영어 이름 Goosegrass로 '구즈그라스순'과 '구즈그라스씨앗' 두 행이 올라 있고, 두 행 모두 사용 조건이 '사용가능부위 : 순, 씨앗'인 사용가능 원료다[1]. "
+ "목록에 사용가능부위로 적힌 것은 순과 씨앗뿐이며, 잎·뿌리·꽃 행은 이 학명으로 올라 있지 않다[1]. "
+ "이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+ "성분 연구는 대부분 꽃이 필 무렵 거둔 지상부(herb)를 시료로 썼고, 모노트로페인 같은 이리도이드 배당체, 클로로겐산 계열의 카페오일퀸산, 루틴 같은 퀘르세틴 배당체가 주성분으로 보고되었다[2, 3]. "
+ "식품원료로 허용된 순이나 씨앗만 따로 분석한 성분 연구는 확인하지 못함. "
+ "효능 연구는 세포·동물 실험 단계이며 사람 임상시험은 찾지 못했다[6–9].")
+S["history"] = ("논문 서론에 따르면 구즈그라스 지상부 추출물은 영국 생약전(British Herbal Pharmacopoeia)에 모노그래프가 있고, 유럽 시장에는 이 추출물을 넣은 의약품과 식품보충제가 여럿 있다[3]. "
+ "같은 논문은 이 풀을 이뇨·소염·수렴 목적으로 우려 마셨고, 유럽·아시아·아메리카 민간에서는 피부병에 바르는 약으로 썼다고 적었다[3]. "
+ "간 보호 효과를 본 랫드 연구는 이 풀이 전통적으로 황달 치료에 쓰였다고 소개했고, 이란 연구진은 상처 치료에 쓰던 전통 약초로 소개했다[7, 9]. "
+ "한국 연구진의 2024년 논문은 이 풀이 한국에서 봄나물로 쓰여 왔고 1883년에 궤양 치료 효과가 처음 보고되었다고 서론에 적었다[8]. "
+ "다만 국내에서 갈퀴덩굴이라 부르는 식물은 식약처 목록에서 Galium spurium var. echinospermon(이명에 Galium aparine f. strigosa 포함)으로 따로 올라 있어, 봄나물 서술이 어느 분류군을 가리키는지는 확인하지 못함[1, 8]. "
+ "씨앗을 볶아 음료로 쓴다는 이야기는 공공기관·학술 출처로 확인하지 못함.")
+S["biology"] = ("구즈그라스는 빨리 자라는 한해살이풀로, 반쯤 스스로 서다가 곧게 선 다른 식물에 기대어 비스듬히 기어오르며 산울타리나 빈터에 흔하다[12]. "
+ "줄기 밑동은 단면이 둥글고 가운데에 관다발 조직이 차 있지만, 위쪽 줄기는 네모난 단면에 모서리마다 후벽조직 다발이 있다[12]. "
+ "줄기 밑동과 첫째 곁뿌리 밑동은 잘 늘어나서, 끊어질 때까지의 변형률이 각각 24 ± 7%, 28 ± 6%였다[12]. "
+ "잎은 갈고리 모양 털로 덮여 있는데, 잎 뒷면 갈고리는 이웃 식물의 잎 위에 단단히 걸리고 앞면 갈고리는 잎 아래에서 미끄러지게 해 잎이 늘 햇빛 쪽에 놓이게 한다[11]. "
+ "열매(분과)를 둘러싼 털은 끝이 벨크로처럼 굽은 갈고리여서 동물 몸에 붙어 퍼지며, 이 갈고리 끝은 자일로글루칸이 거의 없고 펙틴성 다당류로 두껍게 채워져 있다[13]. "
+ "열매 갈고리에는 규소와 칼슘이 쌓여 있고, 탄성률·경도는 같이 비교한 세 종 가운데 중간이었다[14]. "
+ "분포는 영국·카나리아 제도에서 일본에 이르는 유럽·북아프리카·아시아이며, 북아메리카에도 자라고 오스트레일리아·뉴질랜드에는 들어가 퍼졌다[2, 3].")
+S["related_species"] = ("식약처 「식품원료 목록」에는 갈퀴덩굴속(Galium) 원료가 여럿 따로 올라 있다: Yellow bedstraw(G. verum; 잎·꽃·씨앗), 갈퀴덩굴(G. spurium var. echinospermon; 사용가능부위 잎), Hedge bedstraw(G. mollugo; 잎), 개솔나물·솔나물(순), 털잎솔나물(잎), Fragrant bedstraw(G. triflorum; 잎)[1]. "
+ "같은 목록에서 선갈퀴(Asperula odorata / Galilum odoratum) 잎은 제한적사용이고, 살갈퀴덩굴(GALIUM POGONANTHUM)은 사용불가로 올라 있다[1]. "
+ "특히 갈퀴덩굴 행의 학명란에 'Galium aparine f. strigosa Maxim.'이 이명으로 들어 있어, 이름만 보고 구즈그라스(G. aparine L.)와 갈퀴덩굴 자료를 섞기 쉽다[1]. "
+ "이 자료에는 위 종들의 성분·용도 값을 넣지 않았다[1]. "
+ "중국에서 보고된 Galium aparine var. tenerum 전초의 페놀 화합물(바닐산·갈산 등 6종) 연구는 변종 이름으로 발표된 것이어서 본문 성분 표에 넣지 않았다[23]. "
+ "같은 꼭두서니과의 꼭두서니(Rubia akane) 뿌리에서도 구즈그라스에서 찾은 안트라퀴논 알데하이드(노르담나칸탈)가 분리되었다[4].")
+S["cultivation"] = ("구즈그라스를 작물로 재배한 국내 생산 통계와 식품용 순의 수확 시기 지침은 확인하지 못함. "
+ "농업에서는 밀·유채 밭의 경쟁력 강한 광엽 잡초로 다뤄지며, 중국 주요 밀 산지에서 모은 113개 개체군 가운데 83개가 제초제 트리베누론메틸에 저항성이었다[15]. "
+ "저항성 개체군의 ALS 유전자에서는 P197·D376·W574 자리에 여섯 가지 변이 양상이 나왔고 D376E가 가장 흔했다[15]. "
+ "이란 밀밭에서 2018년에 모은 이 종 개체군 가운데 8개(48%)도 같은 제초제에 저항성으로 판정되었다[17]. "
+ "그리스 밀 포장 시험에서는 파종 전 거짓 묘상(false seedbed)으로 이 잡초의 밀도와 생물량이 무처리보다 각각 최대 75%, 69% 줄었다[22]. "
+ "성분 연구용 시료는 우크라이나 하르키우의 식물원에서 2017년 5월 꽃이 한창일 때 거둔 지상부였고, 상처 연구용 시료는 2019년 4월 이란 테헤란주 산지에서 채집한 전초였다[2, 3, 9].")
+S["processing"] = ("우크라이나 연구진은 잘게 부순(3–4 mm) 지상부를 물과 1:10으로 섞어 30분씩 세 번 환류 가열해 우림(물 추출물)을 만들고 감압 건조했다[3]. "
+ "이 물 추출물에는 다당류 9.63%, 하이드록시신남산 유도체(클로로겐산 환산) 1.87%, 플라보노이드(루틴 환산) 0.26%, 폴리페놀(갈산 환산) 1.33%가 들어 있었다[3]. "
+ "추출물에서 다당류를 떼어 내면 시험관 림프구 자극 활성이 크게 떨어져, 이 실험에서는 다당류가 폴리페놀보다 활성에 더 기여한 것으로 해석되었다[3]. "
+ "에탄올 20%·60%·96%로 추출하면 에탄올 농도가 높을수록 클로로겐산이 건조 추출물 1 mg당 18.44 µg에서 40.61 µg으로, 루틴이 1.08 µg에서 6.33 µg으로 늘었다[2]. "
+ "다당류는 20% 에탄올 추출물에서만 검출되었다(129.4 mg/g)[2]. "
+ "파키스탄 연구진의 시험에서는 메탄올 추출물을 나눈 분획 가운데 물 분획이 DPPH·ABTS 등 라디칼을 가장 강하게 소거했다[10]. "
+ "물 추출물에서 검출된 시스형 클로로겐산은 추출 과정에서 생긴 인공산물일 수 있다고 저자들은 적었다[3]. "
+ "구즈그라스 원료를 쓴 국내 식품·건강기능식품 생산실적은 확인하지 못함.")
+S["genetics"] = ("구즈그라스의 핵 유전체 조립이나 염색체 수를 다룬 공공 자료는 이번 조사에서 확인하지 못함. "
+ "정량 PCR 연구에서는 18S·28S·ACT·GAPDH·EF1α·RPL7·TBP 일곱 기준 유전자를 비교해, 발달 단계·조직·온도·지역·제초제 처리 전체 조건에서 28S와 RPL7이 가장 안정했다[18]. "
+ "제초제 저항성 개체군에서는 ALS 유전자 표적 부위 변이가 확인되었고, 39 °C 등온에서 80분 안에 D376E 변이를 가려내는 MIRA 검출법이 개발되었다[15]. "
+ "광엽 잡초 13종 가운데 담배모자이크바이러스(TMV)가 이 종에 전신 감염되는 것이 확인되어, 바이러스 벡터로 ALS 변이형이나 저항성 개체군에서 발현이 늘어난 P450 유전자 10개를 발현시켜 저항성을 검증하는 체계가 만들어졌다[16]. "
+ "이 식물의 조직에서는 내생세균 10균주가 분리되어 유전체가 해독되었고, Priestia·Bacillus 계열의 신종 후보 2종이 보고되었다[21]. "
+ "구즈그라스에서는 약 30 kDa의 내열성 알칼리 단백질분해효소도 정제되었다[20].")
+S["safety"] = ("식약처 「식품원료 목록」에서 구즈그라스 순과 씨앗은 사용가능 원료이며, 목록에 적힌 사용 조건은 사용가능부위(순, 씨앗) 제한뿐이다[1]. "
+ "식약처 등 공공기관의 독성·알레르기·잔류 정보와 사람 섭취 안전성 자료는 확인하지 못함. "
+ "세포 실험에서 메탄올 추출물은 유방암 세포주에 독성을 보였으나 정상 유방 상피세포(MCF-10A)에는 독성을 보이지 않았다[6]. "
+ "전초의 물·알코올 혼합 추출물은 사람 제대정맥 내피세포와 피부 섬유모세포에 독성을 보이지 않았다[9]. "
+ "랫드에 추출물 250·500 mg/kg을 5일 먹인 간 보호 실험이 있으나 독성시험으로 설계된 연구는 아니다[7]. "
+ "생쥐 면역 실험은 추출물을 복강에 주사한 것이고 군마다 3마리여서, 먹었을 때의 효과로 옮겨 해석할 수 없다[8]. "
+ "후두암 세포·백혈병 세포 증식 억제 결과도 세포 수준의 결과다[5, 19]. "
+ "씨앗(열매)을 먹었을 때의 안전성 자료는 확인하지 못함.")
+TITLES = {"overview": "한눈에 보기", "history": "역사와 이용", "biology": "식물학적 특징", "related_species": "근연종과 혼동 주의",
+          "cultivation": "자생·재배와 잡초 관리", "processing": "추출과 가공", "genetics": "유전·분자 연구", "safety": "안전성"}
+sections = [{"key": k, "title": TITLES[k], "body": S[k]} for k in TITLES]
+
+def c(name, ko, cls, role, part, content, act, src):
+    return {"name": name, "name_ko": ko, "class": cls, "role": role, "part": part, "content_text": content, "activity_ko": act, "source": src}
+compounds = [
+ c("Monotropein", "모노트로페인", "이리도이드 배당체", "marker", "지상부(꽃필 무렵)", "물 추출물(건조) 5.27 µg/mg(로가닌 환산, UHPLC-DAD)[3]; 에탄올 추출물에서 동정(정량 안 함)[2]", "물 추출물에서 가장 많은 이리도이드", [2, 3]),
+ c("Deacetylasperulosidic acid", "데아세틸아스페룰로시드산", "이리도이드 배당체", "marker", "지상부(꽃필 무렵)", "물 추출물(건조) 1.96 µg/mg(로가닌 환산)[3]", "이 풀의 주요 이리도이드", [2, 3]),
+ c("Asperulosidic acid", "아스페룰로시드산", "이리도이드 배당체", "bioactive", "지상부(꽃필 무렵)", "물 추출물(건조)의 세 번째 이리도이드 0.524 µg/mg(로가닌 환산)[3]; 에탄올 추출물에서 동정[2]", "갈퀴덩굴속에 널리 보고되는 이리도이드", [2, 3]),
+ c("Chlorogenic acid", "클로로겐산(5-O-카페오일퀸산)", "하이드록시신남산(카페오일퀸산)", "marker", "지상부(꽃필 무렵)", "물 추출물(건조) 4.68 µg/mg[3]; 에탄올 20–96% 추출물 18.44–40.61 µg/mg(에탄올 농도가 높을수록 증가)[2]", "항산화 페놀산", [2, 3]),
+ c("Neochlorogenic acid", "네오클로로겐산(3-O-카페오일퀸산)", "하이드록시신남산(카페오일퀸산)", "bioactive", "지상부(꽃필 무렵)", "물 추출물(건조) 0.966 µg/mg(클로로겐산 환산)[3]", "카페오일퀸산 이성질체", [3]),
+ c("Cryptochlorogenic acid", "크립토클로로겐산(4-O-카페오일퀸산)", "하이드록시신남산(카페오일퀸산)", "bioactive", "지상부(꽃필 무렵)", "물 추출물(건조) 1.140 µg/mg(클로로겐산 환산)[3]", "카페오일퀸산 이성질체", [3]),
+ c("3,5-Dicaffeoylquinic acid", "3,5-디카페오일퀸산", "하이드록시신남산(디카페오일퀸산)", "bioactive", "지상부(꽃필 무렵)", "에탄올 추출물 0.23–2.43 µg/mg[2]; 물 추출물 0.1 µg/mg 미만[3]", "디카페오일퀸산 이성질체", [2, 3]),
+ c("Rutin", "루틴", "플라보노이드(퀘르세틴 배당체)", "marker", "지상부(꽃필 무렵)", "에탄올 추출물 1.08–6.33 µg/mg[2]; 물 추출물 0.064 µg/mg[3]", "항산화 플라보노이드", [2, 3]),
+ c("Quercetin 3-O-rutinoside-7-O-glucoside", "퀘르세틴 3-O-람노글루코시드-7-O-글루코시드", "플라보노이드(퀘르세틴 배당체)", "marker", "지상부(꽃필 무렵)", "에탄올 추출물에서 분리·NMR로 구조 확인(갈퀴덩굴속 첫 보고)[2]; 물 추출물의 주 플라보노이드 0.96 µg/mg(이소퀘르시트린 환산)[3]", "이 종에서 처음 분리된 플라보노이드", [2, 3]),
+ c("Isorhamnetin 3-O-rutinoside", "이소람네틴 3-O-람노글루코시드", "플라보노이드", "bioactive", "지상부(꽃필 무렵)", "에탄올 추출물에서 표준품 비교로 동정(정량값 없음)[2]", "플라보노이드 배당체", [2]),
+ c("4-Hydroxybenzoic acid", "p-하이드록시벤조산", "페놀산", "bioactive", "지상부(꽃필 무렵)", "에탄올 추출물에서 동정(정량값 없음)[2]", "단순 페놀산", [2]),
+ c("Nordamnacanthal", "노르담나칸탈(1,3-디하이드록시안트라퀴논-2-알데하이드)", "안트라퀴논", "bioactive", "떡잎 시기 식물체·캘러스", "떡잎 시기와 캘러스에서 높고 자랄수록 감소(수치는 초록에 없음)[4]", "담배거세미나방 유충 섭식 억제(곤충 실험)", [4]),
+ c("beta-Sitosterol", "베타-시토스테롤", "식물 스테롤", "bioactive", "60% 에탄올 추출물의 석유에테르 분획(부위 세부는 초록에 없음)", "석유에테르 분획의 주성분(수치는 초록에 없음)[5]", "K562 백혈병 세포 증식 억제(세포 실험)", [5]),
+ c("Daucosterol", "다우코스테롤", "스테롤 배당체", "bioactive", "60% 에탄올 추출물의 석유에테르 분획", "석유에테르 분획에서 분리(수치는 초록에 없음)[5]", "K562 세포 증식 억제(세포 실험)", [5]),
+]
+def cond(**kw):
+    keys = ["instrument","column","mobile_phase","gradient","flow","temp","detection","injection","sample_prep","standard","linearity","lod","loq","recovery"]
+    return {k: kw.get(k, "") for k in keys}
+assays = [
+ {"role": "literature", "compound": "Monotropein; Deacetylasperulosidic acid; Chlorogenic acid", "compound_ko": "모노트로페인·데아세틸아스페룰로시드산·클로로겐산",
+  "part": "지상부(꽃필 무렵, 우크라이나 식물원 재배, 2017년 5월) 물 우림 건조 추출물",
+  "content": "모노트로페인 5.27 µg/mg, 데아세틸아스페룰로시드산 1.96 µg/mg, 클로로겐산 4.68 µg/mg, 크립토클로로겐산 1.140 µg/mg, 네오클로로겐산 0.966 µg/mg(건조 추출물 기준)",
+  "method": "UHPLC-DAD-MS",
+  "conditions": cond(instrument="Dionex Ultimate 3000 + Bruker Amazon SL 이온트랩 MS(ESI)", column="Phenomenex Kinetex XB-C18(원문 표기 'XB-C'), 100 × 2.1 mm, 1.9 µm",
+    mobile_phase="A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴", gradient="0분 B 1% → 60분 B 26%(선형)", flow="0.300 mL/min", temp="25 °C",
+    detection="DAD 240·325·350 nm(스펙트럼 190–450 nm); ESI 음이온, 분무 40 psi, 건조가스 9 L/min, 300 °C, 캐필러리 4.5 kV, m/z 70–2200",
+    injection="5 µL", sample_prep="건조 추출물 약 10 mg을 DMSO에 녹여 10 mg/mL, 0.45 µm PVDF 여과",
+    standard="클로로겐산(페놀산 환산)·로가닌(이리도이드 환산)·이소퀘르시트린(플라보노이드 환산), 각 50 µg/mL",
+    linearity="주입량 50–800 ng, 회귀계수 0.9980 초과"),
+  "rationale": "이 종 지상부 우림에서 이리도이드와 카페오일퀸산이 가장 많은 성분군으로 정량되어 지표 후보가 된다. 전문(Methods)에서 조건을 옮겼고 검출·정량한계와 회수율은 원문에 없다. 시료가 지상부여서 식품원료로 허용된 순·씨앗과 부위가 다르다[3].",
+  "source": [3], "url": "https://doi.org/10.3390/molecules25163721", "source_kind": "paper"},
+ {"role": "literature", "compound": "Chlorogenic acid; Rutin; 3,5-Dicaffeoylquinic acid", "compound_ko": "클로로겐산·루틴·3,5-디카페오일퀸산",
+  "part": "지상부(꽃필 무렵, 우크라이나 식물원 재배, 2017년 5월) 에탄올 20·60·96% 추출물",
+  "content": "클로로겐산 18.44–40.61 µg/mg, 루틴 1.08–6.33 µg/mg, 3,5-디카페오일퀸산 0.23–2.43 µg/mg(건조 추출물 기준, 에탄올 농도별)",
+  "method": "UHPLC-DAD-MS/MS",
+  "conditions": cond(instrument="Dionex Ultimate 3000RS + Amazon SL 질량분석기", column="Phenomenex Kinetex XB-C18(원문 표기 'XB-C'), 150 × 2.1 mm, 1.7 µm",
+    mobile_phase="A: 0.1% 포름산 수용액, B: 0.1% 포름산 아세토니트릴", gradient="0분 B 4% → 60분 B 26% → 90분 B 95%", flow="0.3 mL/min", temp="25 °C",
+    detection="UV 254·325·350 nm(스펙트럼 190–450 nm); MS 음·양이온", injection="3 µL",
+    sample_prep="추출물을 메탄올:물 또는 물에 10 mg/mL로 녹여 0.45 µm 여과",
+    standard="클로로겐산(카페산 유도체, 325 nm)·이소퀘르시트린(플라보노이드) 검량선, 저장액 50 µg/mL", linearity="선형 적합(수치 원문에 없음)"),
+  "rationale": "에탄올 추출물의 주요 페놀 성분으로, 추출 용매 조건에 따른 함량 차이를 보이는 지표로 쓰였다. 전문(Methods)에서 조건을 옮겼고 검출·정량한계와 회수율은 원문에 없다. 시료가 지상부여서 순·씨앗과 부위가 다르다[2].",
+  "source": [2], "url": "https://doi.org/10.3390/plants8120541", "source_kind": "paper"},
+]
+d = {"slug": "galium-aparine", "name_ko": "구즈그라스", "name_en": "Goosegrass", "scientific_name": "Galium aparine L.",
+     "aliases": ["구즈그라스순", "구즈그라스씨앗", "Goosegrass", "Cleavers", "Catchweed bedstraw"],
+     "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [], "production": [], "world": [], "gi": [], "orgs": [], "sources": sources}
+(P / "dossier.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+for s in sections: print(s["key"], len(s["body"]))

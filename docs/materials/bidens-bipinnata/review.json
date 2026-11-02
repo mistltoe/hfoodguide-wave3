@@ -1,0 +1,112 @@
+{
+ "slug": "bidens-bipinnata",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 66,
+ "checked_items": 59,
+ "verified": 108,
+ "fixed": 14,
+ "removed": 1,
+ "unverifiable": 2,
+ "changes": [
+  {
+   "where": "sections.biology",
+   "before": "한국에서도 광주와 남한 대부분 지역에서 흔히 자라며, 2011–2012년 7–10월 잎·줄기에 흰가루병(Podosphaera xanthii)이 퍼진 것이 처음 보고되었다[8].",
+   "after": "한국에서는 2011–2012년 7–10월 광주와 남한 대부분 지역의 도깨비바늘 잎·줄기에 흰가루병(Podosphaera xanthii)이 널리 발생한 것이 처음 보고되었다[8].",
+   "why": "[8] 초록에서 '광주와 남한 대부분 지역에 널리 퍼졌다'는 것은 식물이 아니라 흰가루병이다"
+  },
+  {
+   "where": "sections.biology",
+   "before": "중국에서 수집한 개체의 핵형은",
+   "after": "중국 산둥의 연구진이 보고한 핵형은",
+   "why": "[7] 초록에 시료 채집지가 없고 저자 소속(산둥)만 있음"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "중국에서 채집한 도깨비바늘의 핵형은",
+   "after": "중국 산둥의 연구진이 보고한 도깨비바늘의 핵형은",
+   "why": "[7] 초록에 시료 채집지가 없음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "전초 분리 성분 5종이 백혈병 세포주를 억제했다는 보고(IC50 ≤ 60 μg/ml)도 시험관 결과다[35].",
+   "after": "분리 성분 5종이 백혈병 세포주(HL-60, U937)를 억제했고 U937에 대한 IC50이 60 μg/ml 이하였다는 보고도 시험관 결과다[35].",
+   "why": "[35] 초록은 분리 부위(전초)를 밝히지 않고, IC50 ≤ 60 μg/ml 은 U937(원문 표기 V937) 세포에 대한 값"
+  },
+  {
+   "where": "sections.processing",
+   "before": "연구용 가공은 주로 전초 추출물에서 플라보노이드를 농축하는 방식으로,",
+   "after": "연구용 가공은 주로 추출물에서 총플라보노이드를 농축하는 방식으로(두 연구 모두 초록에 사용 부위를 밝히지 않음),",
+   "why": "[32]·[16] 초록에 '전초'라는 부위가 없음"
+  },
+  {
+   "where": "sections.cultivation",
+   "before": "브라질에서는 밭의 잡초로 다루어져",
+   "after": "브라질에서는 잡초로 다루어져",
+   "why": "[33] 은 '잡초(weed)'라고만 하고 밭을 특정하지 않음"
+  },
+  {
+   "where": "compounds[Luteolin].activity_ko",
+   "before": "잎에 많은 플라보노이드로 보고[3]; 고지혈증 연구에서 혈청 약물화학으로 고른 지표 7종 중 하나(흰쥐 조직 분포)[17]",
+   "after": "잎에 많은 플라보노이드로 보고[3]; 고지혈증 연구에서 혈청 약물화학으로 고른 지표 7종 중 하나(조직 분포 연구)[17]",
+   "why": "[17] 초록에 실험 동물 종이 적혀 있지 않음"
+  },
+  {
+   "where": "compounds[Kaempferol 3-O-rutinoside].activity_ko",
+   "before": "잎 특이적으로 쌓이는 플라보노이드 배당체로 보고[3]",
+   "after": "잎에서 줄기·열매보다 많이 쌓이는 플라보노이드 배당체로 보고(추정 동정)[3]",
+   "why": "[3] 은 잎에 '더 많다(enriched)'고 했지 잎 특이적이라고 하지 않음"
+  },
+  {
+   "where": "compounds[Hyperoside].activity_ko",
+   "before": "귀침초 품질 평가 정량 성분[4]; 고지혈증 지표 7종 중 하나(흰쥐)[17]",
+   "after": "귀침초 품질 평가 정량 성분[4]; 고지혈증 지표 7종 중 하나[17]",
+   "why": "[17] 초록에 실험 동물 종이 적혀 있지 않음"
+  },
+  {
+   "where": "compounds[16-Pregnenolone]",
+   "before": "{\"name\": \"16-Dehydropregnenolone\", \"name_ko\": \"16-프레그네놀론(원문 표기 '16-Pregnenolone')\", \"activity_ko\": \"잎 헥산 추출물에서 분리; 세균 대상 MIC 72 μg/mL(시험관)[27]\"}",
+   "after": "{\"name\": \"16-Pregnenolone (as reported)\", \"name_ko\": \"16-프레그네놀론(원문 표기, GC-MS 라이브러리 대조로 추정 동정)\", \"activity_ko\": \"잎 헥산 추출물에서 분리, 시험관 항균 활성 보고; 다만 MIC 값이 초록(72 μg/mL)과 본문 결과(>250 mg/mL, 72 mg/mL 은 함께 분리된 올레산 메틸에스터)에서 서로 달라 수치는 확정할 수 없음[27]\"}",
+   "why": "[27] 원문은 '16-Pregnenolone'(3β-하이드록시·20-옥소, 즉 프레그네놀론 구조 설명)이라 16-Dehydropregnenolone 으로 바꿀 근거가 없고, PMC 전문 결과 절은 MIC 를 초록과 반대로(16-Pregnenolone >250 mg/mL) 적음"
+  },
+  {
+   "where": "compounds[Isoquercitrin]",
+   "before": "{\"name\": \"Isoquercitrin\", \"name_ko\": \"이소퀘르시트린\", \"class\": \"플라보놀 배당체\", \"role\": \"bioactive\", \"part\": \"전초 추출물\", \"content_text\": \"함량 미보고[26]\", \"activity_ko\": \"간암세포 억제 보고가 있으나 해당 논문은 PubMed 에서 철회 논문으로 표시됨[26]\", \"source\": [26]}",
+   "after": "(삭제)",
+   "why": "유일한 근거 [26] 이 PubMed 에서 Retracted Publication 으로 표시된 철회 논문 — 성분 항목의 근거로 쓸 수 없음(safety 절의 철회 언급은 유지)"
+  },
+  {
+   "where": "sources[27].title",
+   "before": "In vitro examination and isolation of antidiarrheal compounds using five bacterial strains from invasive species Bidens bipinnata L. Saudi J Biol Sci 2022;29(1):472-479. doi:10.1016/j.sjbs.2021.09.006 (초록 확인)",
+   "after": "In vitro examination and isolation of antidiarrheal compounds using five bacterial strains from invasive species Bidens bipinnata L. Saudi J Biol Sci 2022;29(1):472-479. doi:10.1016/j.sjbs.2021.09.006 (PMC8716870 전문 확인 — 시료는 파키스탄 아자드카슈미르 채집, MIC 값이 초록과 본문에서 다름)",
+   "why": "전문 대조 결과 반영"
+  },
+  {
+   "where": "sources[29].title",
+   "before": "[Protective effect of ethyl acetate extract from Bidens bipinnata on hepatocyte damage induced by endoplasmic reticulum stress]. Zhongguo Zhong Yao Za Zhi 2021. doi:10.19540/j.cnki.cjcmm.20210319.402",
+   "after": "[Protective effect of ethyl acetate extract from Bidens bipinnata on hepatocyte damage induced by endoplasmic reticulum stress]. Zhongguo Zhong Yao Za Zhi 2021;46(15):3893-3899. doi:10.19540/j.cnki.cjcmm.20210319.402",
+   "why": "권호·쪽 보충(PubMed)"
+  },
+  {
+   "where": "sources[31].title",
+   "before": "Variation in rhizosphere microbiota correlates with edaphic factor in an abandoned antimony tailing dump. Environ Pollut 2019. doi:10.1016/j.envpol.2019.06.097",
+   "after": "Variation in rhizosphere microbiota correlates with edaphic factor in an abandoned antimony tailing dump. Environ Pollut 2019;253:141-151. doi:10.1016/j.envpol.2019.06.097",
+   "why": "권·쪽 보충(PubMed)"
+  },
+  {
+   "where": "sources[33].title",
+   "before": "Bioherbicidal potential of plant species with allelopathic effects on the weed Bidens bipinnata L. Sci Rep 2022. doi:10.1038/s41598-022-16203-5",
+   "after": "Bioherbicidal potential of plant species with allelopathic effects on the weed Bidens bipinnata L. Sci Rep 2022;12(1):13476. (브라질 피아우이 연방대학) doi:10.1038/s41598-022-16203-5",
+   "why": "권호·쪽 보충, 브라질 연구 근거(저자 소속) 명시"
+  }
+ ],
+ "unverifiable_notes": [
+  "[36](1964 Yao Xue Xue Bao)은 PubMed 에 초록이 없어 제목만으로 확인 — 역사 절 문장은 제목 범위로만 씀",
+  "[4](귀침초 HPLC)는 PMC 전문이 없어 초록만으로 대조 — assays 의 기울기 세부·시료 전처리는 확인 불가로 비워 둠",
+  "식품원료 지위 [1]·[2]는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 의 도깨비바늘잎·같은 속 행과 대조해 일치(사용가능, 사용가능부위 : 잎; 울산도깨비바늘잎은 제한적사용)",
+  "[3] PMC13670983 전문으로 assays 조건(칼럼·이동상·기울기·유속·온도·MS 조건·전처리)을 한 칸씩 대조해 일치; [6]·[11]·[27] 도 PMC 전문 대조",
+  "B. pilosa 섞임 점검: [34]는 초록 본문에 Bidens pilosa 로 적힌 표기 혼선이 related_species 에 이미 적혀 있음, [10]·[6]은 두 종 비교 연구로 B. bipinnata 에 해당하는 내용만 씀 — 추가 섞임 없음",
+  "철회 논문 [26](Retracted Publication)은 compounds 근거에서 빼고 safety 절의 철회 경고 문장에만 남김",
+  "NCBI eutils·pmc 웹·doi.org 등은 프록시 차단으로 열지 않았고 PubMed 도구로만 대조함"
+ ]
+}

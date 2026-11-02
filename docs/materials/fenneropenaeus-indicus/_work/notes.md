@@ -1,0 +1,31 @@
+PubMed candidates (abstract checked unless noted):
+- 2913137 Sa-I 8.2kd / Sa-II 34kd 301 aa allergens boiled P. indicus (JACI 1989) 10.1016/0091-6749(89)90474-0
+- 7693809 tropomyosin = Sa-II (J Immunol 1993) no DOI; epitopes residues 50-66, 153-161; pI 4.8-5.4
+- 9720216 Tur c 1 mentions Pen i 1 (P. indicus allergen) 10.1271/bbb.62.1337
+- 33717440 PMC7920775 full text: mitogenome KX462904; control region 1001 bp; Penaeus s.l. monophyly 10.1002/ece3.7148
+- 34129166 Malaysia metals F. indicus HQ/HI (no species numbers) 10.1007/s11356-021-14701-z
+- 23903758 Mashhad market Hg P. indicus 0.37±0.03 µg/g lowest 10.1007/s00128-013-1068-6
+- 29407475 Persian Gulf As/Pb meta; Pb rank L.vannamei>Panulirus>F.indicus>M.affinis; pooled 1.37 As /0.58 Pb mg/kg dw 10.1016/j.fct.2018.01.046
+- 23344825 Pulicat lake Pb Fe Zn Cd Cr; muscle within permissible 10.1177/0748233713475500
+- 33610109 Visakhapatnam ICP-MS 23 metals P. indicus coastal; Cr Al Mn As exceed 10.1016/j.marpolbul.2021.112162
+- 15769503 Cd uptake juveniles rate const 0.090 L/g/d; hepatopancreas gills 10.1016/j.marenvres.2004.12.001
+- 33621901 Sundarban creeks OCP/HM P. indicus 10.1016/j.marpolbul.2021.112170
+- 40120358 OCP Bay of Bengal 10.1016/j.marpolbul.2025.117856
+- 42128222 microplastics Gresik 0.0487 particles/g ww, 1919 ng/g 10.1016/j.envpol.2026.128304
+- 37812353 transcriptome salinity 173,582 transcripts 10.1007/s11033-023-08824-4 ; native species of India
+- 34536184 gut microbiota; Indo-West Pacific 10.1007/s10482-021-01658-9
+- 34487828 biofloc 30% protein optimum, 120 d 10.1016/j.fsi.2021.09.002
+- 22832716 Saudi WSSV TSV cultured P. indicus, broodstock wild Red Sea 10.3354/dao02470
+- 32318832 Iran wild WSSV 833 samples 10.1007/s00705-020-04625-3
+- 41581466 spermatophore pond-reared 12.23 g 90 DOC 10.1016/j.anireprosci.2026.108114
+- 31252047 Fi-Histin 27 aa AMP, cell IC50 NCI-H460 22.67 µM 10.1016/j.fsi.2019.06.044
+- 28964865 Fi-crustin2 10.1016/j.fsi.2017.09.071
+- 24676722 lysozyme 159 aa, 98% identity F. merguiensis/F. chinensis 10.1007/s12602-013-9146-y
+- 24329985 TCTP/ferritin 10.1111/jfd.12040
+- 29857109 PLA/nanochitosan packaging 18 d chill 10.1016/j.ijbiomac.2018.05.214
+- 33122061 nanochitin from shells 10.1016/j.ijbiomac.2020.10.181
+- 35392922 PMC8991507 chitosan from F. indicus shells NCT 82.72 nm 10.1186/s12951-022-01393-x
+- 31165432 waste meal carp feed 10.1007/s11250-019-01938-7
+- 42486911 PMC13392438 Egypt Damietta cultured P. indicus Vibrio MDR 77.5% 10.1038/s41598-026-62098-x
+- 21944956 Cu postlarvae carotenoids 10.1016/j.ecoenv.2011.08.023
+- 12581716 vitellogenesis V. penaeicida 10.1016/s0022-2011(02)00196-9

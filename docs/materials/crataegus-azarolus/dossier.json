@@ -1,0 +1,529 @@
+{
+ "slug": "crataegus-azarolus",
+ "name_ko": "아자롤루스산사",
+ "name_en": "Azarole",
+ "scientific_name": "Crataegus azarolus L.",
+ "aliases": [
+  "아자롤루스산사열매",
+  "Azarole",
+  "Azerole",
+  "Mediterranean hawthorn",
+  "Crataegus aronia(중동 문헌의 이명·변종명)",
+  "노란 아자롤(yellow azarole)"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "개요",
+   "body": "아자롤루스산사(Crataegus azarolus L.)는 장미과 산사나무속의 작은 나무로, 「식품원료 목록」에는 '아자롤루스산사열매'라는 원료명과 영어명 Azarole로 올라 있다[1]. 튀니지·튀르키예·이스라엘·요르단 등 지중해 연안과 서아시아에서 자라며, 열매를 먹고 약용으로도 써 온 산사나무다[4][9][15][19]. 국내에서 흔히 '산사'라 부르는 산사나무(C. pinnatifida)나 유럽의 서양산사(C. monogyna·C. laevigata)와는 다른 종이다[1][4].\n\n식품의약품안전처 「식품원료 목록」에서 이 원료는 '사용가능' 원료이며, 사용 조건은 '사용가능부위 : 열매'로 적혀 있다[1]. 따라서 일반 식품원료로 쓸 수 있는 부위는 열매뿐이고, 잎·꽃·씨는 목록상 식품원료 부위가 아니다[1]. 건강기능식품 기능성 원료 고시에서 이 종을 원재료로 하는 원료는 이번 조사에서 확인하지 못함.\n\n열매에는 클로로겐산과 하이퍼로사이드 같은 폴리페놀이 들어 있다고 보고되었다[2][4]. 효능 연구는 대부분 쥐 실험과 세포 실험이며, 이 종의 열매로 사람을 대상으로 한 임상시험은 이번 조사에서 확인하지 못함. 잎 추출물로도 변비 쥐 모델, 대장암 세포, 염증 세포 실험이 이루어졌으나 잎은 식품원료 부위가 아니다[26][27][28]. PubMed에서 'azarole'로 찾으면 같은 이름의 합성 약물을 다룬 1983년 분석 논문도 함께 나오므로 문헌을 볼 때 구분해야 한다[32]."
+  },
+  {
+   "key": "history",
+   "title": "이용의 역사",
+   "body": "튀니지 연구진은 아자롤이 열매와 잎을 얻기 위해 재배된다고 적었다[2]. 튀니지에서는 열매로 전통 시럽을 만들어 왔고, 이 시럽의 페놀 함량과 항균 활성을 잎·열매와 비교한 연구가 있다[4].\n\n이스라엘의 아랍 전통의학에서는 이 종(C. aronia, 아자롤루스의 이명으로 표기)의 잎과 덜 익은 열매를 달여 심혈관 질환·당뇨·암·성기능 약화에 써 왔다고 기록되어 있다[15]. 요르단에서는 당뇨 증상에 쓰는 민간 약용식물 21개 시료 가운데 이 종의 줄기·잎·열매가 조사되었다[19]. 튀니지 연구진은 아자롤 추출물이 소화기·요로 통증과 설사에 쓰여 왔다고 소개했다[2][3].\n\n유럽의약품청(EMA) 약초위원회의 '산사 잎과 꽃(Crataegi folium cum flore)' 정리에는 서양산사 등과 함께 C. azarolus L.도 기원 식물명으로 올라 있다(WebSearch 요약으로만 확인)[24]. 다만 이것은 잎과 꽃 약재에 대한 것이며, 국내 식품원료로 인정된 열매와는 부위가 다르다[1][24]."
+  },
+  {
+   "key": "biology",
+   "title": "식물학적 특징",
+   "body": "아자롤루스산사는 장미과(Rosaceae) 산사나무속(Crataegus)에 속한다[1]. 큐 왕립식물원 목록은 변종 var. azarolus의 자생지를 북아프리카·시칠리아에서 이라크까지로, 변종 var. aronia의 자생지를 지중해 중·동부에서 이란까지로 적는다(WebSearch 요약으로만 확인)[22][23].\n\n튀르키예 동지중해 지역의 야생 125개 개체를 조사한 연구에서 열매 길이는 8.02–27.99 mm, 열매 너비는 7.30–32.99 mm, 열매 무게는 0.97–14.73 g, 씨(핵) 무게는 0.22–0.79 g이었다[9]. 같은 연구에서 과즙의 pH는 3.02–3.99, 가용성 고형분은 8.19–21.98 °Brix, 적정산도는 0.69–2.29%로 개체마다 차이가 컸다[9]. 잎 길이는 21.27–50.55 mm였고, 가지의 가시 수는 조사 형질 가운데 변이가 가장 컸다(변이계수 97.46%)[9].\n\n튀니지에서는 노란 열매를 맺는 var. aronia와 붉은 열매를 맺는 var. eu-azarolus가 함께 자라며, 꽃(꽃봉오리·핀 꽃) 에틸아세테이트 추출물의 총페놀은 노란 열매 변종이 더 많았다(건조중량 100 g당 1638.7 대 1415.5 mg 갈산 당량)[5]. 요르단에서는 이 종이 산림 수종으로 기록되어 있다[30]."
+  },
+  {
+   "key": "related_species",
+   "title": "근연종과 혼동",
+   "body": "식품원료 목록에는 같은 산사나무속 원료로 산사나무(C. pinnatifida), 서양산사자(C. oxyacantha), Hawthorn(C. laevigata), 아광나무(C. maximowiczii), 클로로사르카산사(C. chlorosarca), 크루스갈리산사(C. crus-galli) 등이 따로 올라 있다[1]. 이 원료들은 학명이 다르고, 원료마다 사용 부위와 사용 조건(예: 산사나무 잎·꽃은 제한적사용, 서양산사자 잎은 사용가능)이 달라 아자롤루스산사 자료와 섞어 읽으면 안 된다[1].\n\n튀니지 연구는 노란 열매의 아자롤(C. azarolus)과 붉은 열매의 서양산사(C. monogyna, 현지명 '붉은 아자롤')를 비교했는데, 노란 아자롤의 폴리페놀이 더 많았다[4]. 하이퍼로사이드는 두 종의 잎에서 주성분이었지만 열매에서는 노란 아자롤에서만 주성분이었고, 서양산사 열매의 주성분은 프로시아니딘 B2였다[4]. 같은 현지명이 다른 종을 가리킬 수 있다는 점에 주의해야 한다[4][5].\n\n중동 문헌에서는 C. aronia라는 이름이 쓰이며, 2005년 이스라엘 연구는 이를 C. azarolus의 이명으로 적었다[15]. 튀니지·이라크 연구들은 이를 변종 C. azarolus var. aronia로 적고[5][14][16], 큐 목록도 변종으로 다룬다(WebSearch 요약으로만 확인)[23]. C. aronia 잎을 다룬 2022년 논문 하나는 2025년에 철회되었다[21]. 시칠리아의 산사나무속 11개 분류군 열매를 비교한 연구는 하이퍼로사이드와 비텍신을 시료 구분의 주된 성분으로 꼽았으나, 이번에 본 전문에서는 종명이 빠져 있어 어느 값이 아자롤루스산사인지 확인하지 못함[31]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 산지",
+   "body": "국내에서 아자롤루스산사를 재배하거나 생산한 통계는 이번 조사에서 확인하지 못함. 통계청 농작물생산조사와 농림축산식품부 특용작물 생산실적 파일에서도 이 품목을 찾지 못해 생산량은 확인하지 못함.\n\n원산지에서는 주로 야생 개체에서 열매를 채취한다[9]. 튀르키예 연구진은 전통적으로 야생 산사 열매를 따 왔지만 최근 경제 재배에 대한 관심이 커져 과수원이 생기고 있다고 적었다[9]. 이 연구는 정량 형질 평가에서 우수한 20개 개체를 육종 부모나 재배용으로 고를 수 있다고 제안했다[9].\n\n튀니지 연구에서는 북서부 아인드라함 지역(해발 762 m)에서 9월에 익은 열매를 채취했다[2][3]. 요르단에서는 덩굴성 마황류(Ephedra alte)가 이 나무를 덮어 생육을 해치는 사례가 자주 보고되었다[30]."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "튀니지에서는 열매로 전통 시럽을 만드는데, 시럽은 페놀 함량이 낮았지만 항산화·항균 활성이 있었고 이는 가열로 생긴 하이드록시메틸푸르푸랄(HMF) 함량과 관련이 있었다[4]. 실험용 달임액은 열매의 먹는 부분을 40 °C에서 말려 갈고, 가루 1 g을 물 10 mL에 넣고 5분 끓여 걸러 만들었다[2][3].\n\n열매의 안토시아닌 추출 조건을 최적화한 연구에서는 74.45% 메탄올, 초음파 세기 78.46%, 4.5분 조건에서 320.01 ± 4.18 µg/g(시아니딘-3-루티노사이드 당량)을 얻었다[7]. 연구진은 이를 합성 색소를 대신할 천연 식용 색소 후보로 제시했다[7]. 과육과 씨에서 뜨거운 물로 뽑은 다당류도 분석되었다[8].\n\n지중해 야생 열매 7종을 비교한 연구에서 아자롤은 페놀 함량과 항산화 활성이 상위 4종에 들지 않아 돼지고기 패티 산화 억제 시험 대상에서 빠졌다[18]. 열매를 먹고 남는 단단한 씨(핵)는 염료 폐수 흡착제 원료로 연구되었다[29]. 잎은 식품원료 부위가 아니지만 초음파 추출로 페놀을 얻는 연구가 있다[1][25]."
+  },
+  {
+   "key": "genetics",
+   "title": "유전과 품종",
+   "body": "튀르키예 동지중해 3개 주의 야생 125개 개체를 ISSR 표지 15개로 분석한 결과 195개 띠 가운데 191개가 다형성을 보였고, 평균 다형성 비율은 97.20%였다[9]. 개체 간 유사도 지수는 0.72–0.90이었다[9]. 형태 형질 53개 가운데 51개의 변이계수가 20%를 넘어, 연구진은 개방 수분으로 인한 높은 이형접합성을 원인으로 보았다[9].\n\n주성분 분석에서는 열매 형질이 개체 간 다양성에 가장 크게 기여했고 잎 형질이 그다음이었다[9]. 같은 논문 서론은 산사나무속 염색체 수를 2n = 34로 소개하지만, 아자롤루스산사 자체의 배수성은 이번 조사에서 확인하지 못함.\n\n튀니지에서는 열매 색으로 구분되는 두 변종(노란 열매의 var. aronia, 붉은 열매의 var. eu-azarolus)이 보고되어 있다[5]. 이집트 연구진은 var. eu-azarolus의 잎을[10], 이라크 연구진은 var. aronia의 잎을 분석했다[14]. 국내에 등록된 품종은 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "식약처 「식품원료 목록」에서 아자롤루스산사 열매는 '사용가능' 원료이며, 별도 섭취 제한 문구는 목록에 없다[1]. 건강기능식품 기능성 원료 고시에서 이 종을 찾지 못해 고시된 섭취 시 주의사항도 확인하지 못함. 국내 공공기관의 알레르기·잔류농약·독성 성분 정보는 확인하지 못함.\n\n튀니지 연구에서 열매 달임액을 쥐에게 한 번 먹이고 24시간 관찰했을 때 최고 용량 3500 mg/kg까지 죽거나 행동 이상을 보인 개체가 없어, 반수치사량(LD50)이 3500 mg/kg보다 높다고 보고되었다[3]. 다만 같은 논문의 방법에는 최고 용량이 3000 mg/kg, 고찰에는 LD50이 3200 mg/kg보다 높다고 적혀 있어 표기가 일치하지 않는다[3]. 덜 익은 열매 메탄올 추출물은 쥐 자궁 평활근을 이완시켰는데, 이는 시험관 조직 실험 결과다[16]. 씨(핵)의 독성 여부에 대한 1차 자료는 이번 조사에서 확인하지 못함.\n\n산사나무속은 심장약 디곡신과의 상호작용이 우려되어 왔으나, 건강한 성인 8명에게 서양산사 잎·꽃 추출물 450 mg을 하루 두 번 3주간 함께 준 시험에서 디곡신 약동학의 유의한 변화는 없었다[20]. 이는 다른 종의 잎·꽃 제품 결과이므로 아자롤 열매에 그대로 적용할 수는 없다[20]. 연구진은 이 용량에서 함께 써도 된다고 보았으나[20], 심장약이나 혈압약을 먹는 사람은 산사 제품을 고농도로 먹기 전에 의료진과 상의하는 것이 좋다."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Chlorogenic acid",
+   "name_ko": "클로로겐산",
+   "class": "히드록시신남산(카페오일퀸산)",
+   "role": "marker",
+   "part": "열매(먹는 부분) 달임액",
+   "content_text": "LC-ESI-MS로 확인한 8개 페놀 가운데 주성분[2]. 원문은 '406,975 ppm'으로 적었으나 기준 물질량·단위가 분명하지 않아(그대로 읽으면 약 41%) 함량값으로 쓰지 않음",
+   "activity_ko": "달임액 전체로 쥐 대장염 모델에서 보호 효과(동물)[2]; 성분 단독 효과는 이 종에서 확인하지 못함",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Hyperoside",
+   "name_ko": "하이퍼로사이드(퀘르세틴-3-O-갈락토사이드)",
+   "class": "플라보놀 배당체",
+   "role": "marker",
+   "part": "열매·잎·꽃봉오리",
+   "content_text": "열매 달임액의 주 플라보노이드[2](원문 '140,949 ppm'은 기준 불명이라 함량값으로 쓰지 않음); 노란 아자롤 잎과 열매의 주 페놀[4]",
+   "activity_ko": "에틸아세테이트 추출물에서 분리한 성분이 생쥐 림프구·대식세포 기능을 조절(세포, 부위는 초록에 명시 없음)[12]",
+   "source": [
+    2,
+    4,
+    5,
+    12
+   ]
+  },
+  {
+   "name": "Protocatechuic acid",
+   "name_ko": "프로토카테큐산",
+   "class": "히드록시벤조산",
+   "role": "bioactive",
+   "part": "열매 달임액",
+   "content_text": "LC-ESI-MS로 확인한 두 페놀산 가운데 하나[2]",
+   "activity_ko": "",
+   "source": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Quinic acid",
+   "name_ko": "퀸산",
+   "class": "시클리톨 카복실산",
+   "role": "bioactive",
+   "part": "열매 물 추출물",
+   "content_text": "LC-HRESIMS로 확인한 5개 페놀 관련 성분 가운데 주성분[6]",
+   "activity_ko": "추출물 전체로 쥐 설사 모델에서 보호 효과(동물)[6]",
+   "source": [
+    6
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "플라보놀 배당체",
+   "role": "bioactive",
+   "part": "잎·열매 달임액·꽃봉오리",
+   "content_text": "var. eu-azarolus 잎 RP-HPLC에서 함량이 높은 성분[10]; 열매 달임액에서도 확인[3]",
+   "activity_ko": "",
+   "source": [
+    3,
+    5,
+    10
+   ]
+  },
+  {
+   "name": "Procyanidin B2",
+   "name_ko": "프로시아니딘 B2",
+   "class": "B형 프로안토시아니딘 이량체",
+   "role": "bioactive",
+   "part": "꽃봉오리",
+   "content_text": "튀니지 아자롤 꽃봉오리에서 확인한 8개 페놀 가운데 하나[5]; 근연종 서양산사 열매에서는 주성분이나 이 종 열매에서는 주성분 아님[4]",
+   "activity_ko": "이 종에서 추출한 프로시아니딘(부위는 초록에 명시 없음)이 이소프로테레놀 유도 심부전 쥐의 심장 지표를 낮춤(동물)[17]",
+   "source": [
+    4,
+    5,
+    17
+   ]
+  },
+  {
+   "name": "Epicatechin",
+   "name_ko": "(-)-에피카테킨",
+   "class": "플라반-3-올",
+   "role": "bioactive",
+   "part": "꽃봉오리",
+   "content_text": "꽃봉오리 추출물에서 확인[5]",
+   "activity_ko": "꽃봉오리 추출물의 라디칼 소거 활성에 기여하는 성분으로 제시[5]",
+   "source": [
+    5
+   ]
+  },
+  {
+   "name": "Cyanidin 3-rutinoside",
+   "name_ko": "시아니딘-3-루티노사이드(총 단량체 안토시아닌 환산 기준)",
+   "class": "안토시아닌",
+   "role": "bioactive",
+   "part": "열매",
+   "content_text": "최적 추출 조건에서 총 단량체 안토시아닌 320.01 ± 4.18 µg CRE/g[7]",
+   "activity_ko": "최적 추출물 DPPH IC50 193.53 ± 3.71 µg/mL(시험관)[7]",
+   "source": [
+    7
+   ]
+  },
+  {
+   "name": "Polysaccharides",
+   "name_ko": "다당류(우론산 함유)",
+   "class": "다당류",
+   "role": "nutrient",
+   "part": "과육·씨(한 변종)",
+   "content_text": "과육 다당류의 총탄수화물 82.35%, 우론산 29.39%[8]",
+   "activity_ko": "과육 다당류가 씨 다당류보다 항산화·α-아밀라아제 억제 활성이 높음(시험관)[8]",
+   "source": [
+    8
+   ]
+  },
+  {
+   "name": "Hydroxymethylfurfural",
+   "name_ko": "하이드록시메틸푸르푸랄(HMF)",
+   "class": "푸란 유도체",
+   "role": "bioactive",
+   "part": "열매 전통 시럽",
+   "content_text": "시럽의 항산화·항균 활성과 상관된 성분으로 보고(수치는 초록에 없음)[4]",
+   "activity_ko": "가열 가공 중 생기는 성분으로, 시럽의 활성이 페놀보다 HMF 함량과 관련[4]",
+   "source": [
+    4
+   ]
+  },
+  {
+   "name": "Vitexin 2''-O-rhamnoside",
+   "name_ko": "비텍신-2″-O-람노사이드",
+   "class": "플라본 C-배당체",
+   "role": "bioactive",
+   "part": "잎(식품원료 부위 아님)",
+   "content_text": "잎 에틸아세테이트 추출물에서 분리[11]",
+   "activity_ko": "B16F10 흑색종 세포 증식 억제 IC50 20 μM, 멜라닌 생성 억제(세포)[11]",
+   "source": [
+    11
+   ]
+  },
+  {
+   "name": "Ursolic acid",
+   "name_ko": "우르솔산·3β-O-아세틸우르솔산",
+   "class": "우르산형 트리테르펜",
+   "role": "bioactive",
+   "part": "잎(식품원료 부위 아님)",
+   "content_text": "var. eu-azarolus 잎 클로로포름 분획에서 분리[10]",
+   "activity_ko": "3β-O-아세틸우르솔산 경구 투여로 생쥐 혈당 감소(동물)[10]",
+   "source": [
+    10
+   ]
+  },
+  {
+   "name": "Fupenzic acid",
+   "name_ko": "푸펜즈산",
+   "class": "오리아난형 트리테르펜",
+   "role": "bioactive",
+   "part": "잎(식품원료 부위 아님)",
+   "content_text": "잎에서 분리한 트리테르펜[13]",
+   "activity_ko": "NF-κB 경로를 통해 NOS-2·COX-2 발현 억제(세포·컴퓨터 예측)[13]",
+   "source": [
+    13
+   ]
+  },
+  {
+   "name": "Euscaphic acid",
+   "name_ko": "유스카프산",
+   "class": "우르산형 트리테르펜",
+   "role": "bioactive",
+   "part": "잎(var. aronia, 식품원료 부위 아님)",
+   "content_text": "새 트리테르펜 아자롤산(azarolic acid)과 함께 잎에서 분리[14]",
+   "activity_ko": "쥐 대동맥 고리의 혈관 수축 억제(적출 조직)[14]",
+   "source": [
+    14
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Chlorogenic acid",
+   "compound_ko": "클로로겐산·하이퍼로사이드(페놀 프로필)",
+   "part": "열매(먹는 부분) 달임액 건조물",
+   "content": "클로로겐산이 주성분, 하이퍼로사이드가 주 플라보노이드(원문은 각각 406,975 ppm·140,949 ppm으로 적었으나 기준 물질량·단위가 불분명해 함량값으로 쓰지 않음)[2]",
+   "method": "LC-ESI-MS(단일 사중극자, 음이온 모드)",
+   "conditions": {
+    "instrument": "LC-MS-2020 사중극자 질량분석계(전기분무 이온화원)",
+    "column": "Aquasil C18(150 × 3 mm, 3 µm), 같은 충전제 가드 칼럼(10 × 3 mm, 3 µm)",
+    "mobile_phase": "A: 물/포름산 0.1%(v/v), B: 메탄올/포름산 0.1%(v/v)",
+    "gradient": "0–45분 B 10→100%, 45–55분 B 100%(재평형 5분)",
+    "flow": "0.4 mL/min",
+    "temp": "40 °C",
+    "detection": "ESI 음이온 모드, 모세관 전압 −3.5 V, 검출기 전압 1.2 V, 건조 가스 12 L/min, 블록 400 °C, 탈용매관 250 °C, 전체 주사 m/z 50–2000",
+    "injection": "5 µL",
+    "sample_prep": "열매 먹는 부분을 40 °C에서 건조·분쇄 → 가루 1 g을 물 10 mL에 5분 달여 여과 → 건조 추출물 20 mg을 메탄올 20 mL에 녹여 0.45 µm 막으로 여과",
+    "standard": "표준품과 머무름 시간·질량 스펙트럼 비교로 동정",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "튀니지산 열매 달임액에서 확인한 8개 페놀 가운데 클로로겐산이 주성분, 하이퍼로사이드가 주 플라보노이드였다[2]. PMC 전문에서 조건을 옮겼으나, 검량선·검출한계·회수율은 원문에 없고 'ppm' 값의 기준(추출물 또는 원물)도 분명하지 않아 정량 지표로 쓰려면 별도 검증이 필요하다[2].",
+   "source": [
+    2
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38223297/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Hyperoside",
+   "compound_ko": "하이퍼로사이드",
+   "part": "열매(과피·과육)·잎·전통 시럽",
+   "content": "노란 아자롤(C. azarolus)의 잎과 열매에서 주 페놀; 서양산사 열매에서는 프로시아니딘 B2가 주성분[4]",
+   "method": "HPLC",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "수성 아세톤 추출물",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "같은 지역의 근연종 서양산사와 열매 주성분이 달라(아자롤은 하이퍼로사이드, 서양산사는 프로시아니딘 B2) 종 구분 지표로 쓸 만하다[4]. 전문 확인 못함 — 초록과 MeSH(HPLC) 정보만 확인했고 칼럼·이동상 등 조건은 비워 두었다[4].",
+   "source": [
+    4
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24070066/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품원료 목록: 아자롤루스산사열매(Crataegus azarolus L., Azarole) — 사용가능, 사용가능부위: 열매",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020)",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "Phytochemical Properties of Crataegus azarolus Berries Decoction Extract and Evaluation of its Protective Activity Against Acetic Acid-Induced Ulcerative Colitis in Rats (2024)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38223297/",
+   "publisher": "Dose-Response 22 (PubMed PMID 38223297, PMC10785741 전문 확인)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 3,
+   "title": "Antioxidant activity and protective effect of phyto-active compounds of Crataegus azarolus berries decoction extract against acetic acid-induced hepatorenal injuries in male rats (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39924696/",
+   "publisher": "Physiological Reports 13 (PubMed PMID 39924696, PMC11807846 전문 확인)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 4,
+   "title": "Comparative analysis of Tunisian wild Crataegus azarolus (yellow azarole) and Crataegus monogyna (red azarole) leaf, fruit, and traditionally derived syrup (2013)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24070066/",
+   "publisher": "Journal of Agricultural and Food Chemistry 61(40) (PubMed PMID 24070066)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 5,
+   "title": "Polyphenol contents and antioxidant activities of extracts from flowers of two Crataegus azarolus L. varieties (2009)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19634468/",
+   "publisher": "Pakistan Journal of Biological Sciences 12(9) (PubMed PMID 19634468)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 6,
+   "title": "Protective effects of Crataegus azarolus L. berries aqueous extract against castor oil-induced diarrhea, oxidative stress, and inflammation in rat (2020)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33320393/",
+   "publisher": "Neurogastroenterology and Motility (PubMed PMID 33320393)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 7,
+   "title": "Optimization of Monomeric Anthocyanin Extraction Conditions From a New Source (Crataegus azarolus L. Fruits) (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40433932/",
+   "publisher": "Journal of Food Science (PubMed PMID 40433932)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 8,
+   "title": "Characterization of Polysaccharides Extracted from Pulps and Seeds of Crataegus azarolus L. var.: Preliminary Structure, Antioxidant, Antibacterial, α-Amylase, and Acetylcholinesterase Inhibition Properties (2020)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32566076/",
+   "publisher": "Oxidative Medicine and Cellular Longevity (PubMed PMID 32566076)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 9,
+   "title": "Elucidation of genetic diversity in hawthorn (Crataegus azarolus L.) accessions naturally growing in the Eastern Mediterranean region of Türkiye using morphological, pomological, and ISSR markers (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39794746/",
+   "publisher": "BMC Plant Biology 25 (PubMed PMID 39794746, PMC11724565 전문 확인)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 10,
+   "title": "Therapeutic potentials of Crataegus azarolus var. eu-azarolus Maire leaves and its isolated compounds (2017)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28420354/",
+   "publisher": "BMC Complementary and Alternative Medicine 17 (PubMed PMID 28420354)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 11,
+   "title": "Compounds isolated from the aerial part of Crataegus azarolus inhibit growth of B16F10 melanoma cells and exert a potent inhibition of the melanin synthesis (2014)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25661350/",
+   "publisher": "Biomedicine & Pharmacotherapy 69 (PubMed PMID 25661350)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 12,
+   "title": "Immunomodulatory potencies of isolated compounds from Crataegus azarolus through their antioxidant activities (2015)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26711781/",
+   "publisher": "Tumour Biology 37 (PubMed PMID 26711781)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 13,
+   "title": "Exploring the anti-inflammatory activity of fupenzic acid using network pharmacology and experimental validation (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40274978/",
+   "publisher": "Scientific Reports 15 (PubMed PMID 40274978)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 14,
+   "title": "A New Ursane-type Triterpenoid and Other Constituents from the Leaves of Crataegus azarolus var. aronia (2016)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30475495/",
+   "publisher": "Natural Product Communications 11 (PubMed PMID 30475495)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 15,
+   "title": "Antioxidant activity of Crataegus aronia aqueous extract used in traditional Arab medicine in Israel (2005)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/15970411/",
+   "publisher": "Journal of Ethnopharmacology 101 (PubMed PMID 15970411)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 16,
+   "title": "Uterodilation effect of unripe fruit extract of Crataegus azarolus var. aronia L. on rat uterine smooth muscles (2023)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37726053/",
+   "publisher": "Prostaglandins & Other Lipid Mediators (PubMed PMID 37726053)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 17,
+   "title": "The Impact of Procyanidin Extracted from Crataegus azarolus on Rats with Induced Heart Failure (2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36905256/",
+   "publisher": "Cellular and Molecular Biology 68(9) (PubMed PMID 36905256)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 18,
+   "title": "Characterization of selected wild Mediterranean fruits and comparative efficacy as inhibitors of oxidative reactions in emulsified raw pork burger patties (2010)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/20681673/",
+   "publisher": "Journal of Agricultural and Food Chemistry 58(15) (PubMed PMID 20681673)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 19,
+   "title": "Antioxidant activity of some Jordanian medicinal plants used traditionally for treatment of diabetes (2008)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18817155/",
+   "publisher": "Pakistan Journal of Biological Sciences 11(3) (PubMed PMID 18817155)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 20,
+   "title": "Interaction study between digoxin and a preparation of hawthorn (Crataegus oxyacantha) (2003)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/12817526/",
+   "publisher": "Journal of Clinical Pharmacology 43(6) (PubMed PMID 12817526)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 21,
+   "title": "Retraction notice to 'Phytochemical composition and bioactivities of Crataegus aronia ...' [Heliyon 8 (2022) e11516] (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41216528/",
+   "publisher": "Heliyon 11 (PubMed PMID 41216528)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 22,
+   "title": "Crataegus azarolus var. azarolus — Plants of the World Online (WebSearch 요약으로만 확인, 원문 페이지는 이 환경에서 열지 못함)",
+   "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77231704-1",
+   "publisher": "Royal Botanic Gardens, Kew",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 23,
+   "title": "Crataegus azarolus var. aronia — Plants of the World Online (WebSearch 요약으로만 확인, 원문 페이지는 이 환경에서 열지 못함)",
+   "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:50970769-1",
+   "publisher": "Royal Botanic Gardens, Kew",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 24,
+   "title": "Crataegi folium cum flore — herbal medicinal product (WebSearch 요약으로만 확인, 원문 페이지는 이 환경에서 열지 못함)",
+   "url": "https://www.ema.europa.eu/en/medicines/herbal/crataegi-folium-cum-flore",
+   "publisher": "European Medicines Agency (HMPC)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 25,
+   "title": "Ultrasound-Assisted Extraction of Free and Bound Phenolics from Hawthorn (Crataegus azarolus) Leaves and their Antioxidant and Antidiabetic Activities (2026)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42141147/",
+   "publisher": "Plant Foods for Human Nutrition (PubMed PMID 42141147)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 26,
+   "title": "Laxative Effect of Crataegus azarolus L. Leaves Decoction Extract Against Loperamide-Induced Constipation and Oxidative Stress in Rats (2025)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/40107769/",
+   "publisher": "Journal of Medicinal Food (PubMed PMID 40107769)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 27,
+   "title": "Chemical Composition, Antioxidant, Anti-Inflammatory, and Antiproliferative Activities of the Plant Lebanese Crataegus Azarolus L. (2017)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28769026/",
+   "publisher": "Medical Science Monitor Basic Research 23 (PubMed PMID 28769026)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 28,
+   "title": "Crataegus azarolus Leaves Induce Antiproliferative Activity, Cell Cycle Arrest, and Apoptosis in Human HT-29 and HCT-116 Colorectal Cancer Cells (2015)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26495895/",
+   "publisher": "Journal of Cellular Biochemistry 117 (PubMed PMID 26495895)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 29,
+   "title": "Valorization of Crataegus azarolus stones for the removal of textile anionic dye by central composite rotatable design (2017)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/28681299/",
+   "publisher": "Environmental Science and Pollution Research 24 (PubMed PMID 28681299)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 30,
+   "title": "Ephedra alte (joint pine): an invasive, problematic weedy species in forestry and fruit tree orchards in Jordan (2012)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22645486/",
+   "publisher": "TheScientificWorldJournal (PubMed PMID 22645486)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 31,
+   "title": "Polyphenolic Characterization, Antioxidant and Antihyperglycemic Activities of Crataegus spp. Fruit Extracts (2026)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42739450/",
+   "publisher": "Plants (Basel) 15 (PubMed PMID 42739450, PMC13567449 전문 확인)",
+   "accessed": "2026-10-12"
+  },
+  {
+   "n": 32,
+   "title": "Determination of azarole plus its reduction product by HPLC (1983)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/6643640/",
+   "publisher": "Journal of Chromatographic Science 21 (PubMed PMID 6643640)",
+   "accessed": "2026-10-12"
+  }
+ ]
+}

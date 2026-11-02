@@ -1,0 +1,56 @@
+{
+ "slug": "galium-aparine",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 56,
+ "checked_items": 44,
+ "verified": 93,
+ "fixed": 6,
+ "removed": 0,
+ "unverifiable": 1,
+ "changes": [
+  {
+   "where": "sections.genetics",
+   "before": "이 식물의 조직에서는 내생세균 10균주가 분리되어 유전체가 해독되었고, Priestia·Bacillus 계열의 신종 후보 2종이 보고되었다[21].",
+   "after": "폴란드에서 채집한 이 식물의 잎·줄기·뿌리에서 내생세균 10균주가 분리되어 유전체가 해독되었고, 이 가운데 바실루스과(Bacillaceae) 계열 2균주가 신종 후보로 보고되었다[21].",
+   "why": "[21] 전문에서 분리 부위(잎·줄기·뿌리)는 확인되나 신종 후보의 속 이름(Priestia 등)은 확인하지 못해 제목의 Bacillaceae 수준으로 낮춤"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "구즈그라스에서는 약 30 kDa의 내열성 알칼리 단백질분해효소도 정제되었다[20].",
+   "after": "구즈그라스에서 얻었다는 약 30 kDa의 내열성 알칼리 단백질분해효소 정제 보고도 있으나, 초록은 이를 세포외(extracellular) 효소로 적었고 PubMed 색인어에 세균 단백질이 붙어 있어 식물 자체 효소인지는 확인하지 못함[20].",
+   "why": "[20] 초록이 'extracellular' 효소라 하고 MeSH 가 Bacterial Proteins 여서 기원이 식물 조직인지 불분명"
+  },
+  {
+   "where": "sections.safety",
+   "before": "생쥐 면역 실험은 추출물을 복강에 주사한 것이고 군마다 3마리여서, 먹었을 때의 효과로 옮겨 해석할 수 없다[8].",
+   "after": "생쥐 면역 실험은 말린 잎의 물 추출물(식품원료 사용가능부위가 아닌 잎)을 복강에 주사한 것이고 군마다 3마리여서, 순·씨앗을 먹었을 때의 효과로 옮겨 해석할 수 없다[8].",
+   "why": "[8] 전문 2.1: 시료는 말린 잎(dried leaves) 물 추출물 — 허용 부위(순·씨앗)와 다름을 명시"
+  },
+  {
+   "where": "sections.related_species",
+   "before": "이 자료에는 위 종들의 성분·용도 값을 넣지 않았다[1].",
+   "after": "이 자료에는 위 종들의 성분·용도 값을 넣지 않았다[1]. 중국의 밀밭 잡초 연구와 전초 연구[5, 15, 16, 18]는 시료를 G. aparine로 적었으나, 중국에서는 같은 이름 계열의 식물을 Galium aparine var. tenerum 같은 변종 이름으로 발표하기도 해[23] 이들 시료가 유럽의 G. aparine L.과 같은 분류군인지는 확인하지 못함.",
+   "why": "검토 지시: 갈퀴덩굴(G. spurium)·변종 혼동 — 중국 시료의 분류군 불확실성을 밝힘"
+  },
+  {
+   "where": "compounds.beta-Sitosterol",
+   "before": "60% 에탄올 추출물의 석유에테르 분획(부위 세부는 초록에 없음) / 석유에테르 분획의 주성분(수치는 초록에 없음)[5]",
+   "after": "전초(중국 정저우, 2009년 5월 채집)의 60% 에탄올 추출물 석유에테르 분획 / 말린 전초 3 kg에서 얻은 석유에테르 분획 20.8 g에서 6.3 g 분리(분획의 주성분)[5]",
+   "why": "[5] 전문: 시료는 전초(whole plant), 분리량 6.3 g"
+  },
+  {
+   "where": "compounds.Daucosterol",
+   "before": "60% 에탄올 추출물의 석유에테르 분획 / 석유에테르 분획에서 분리(수치는 초록에 없음)[5]",
+   "after": "전초(중국 정저우, 2009년 5월 채집)의 60% 에탄올 추출물 석유에테르 분획 / 석유에테르 분획 20.8 g에서 281 mg 분리[5]",
+   "why": "[5] 전문: 전초, 분리량 281 mg"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 원자료로 대조 — 구즈그라스순·구즈그라스씨앗(Galium aparine L., Goosegrass) 두 행, 조건 '사용가능부위 : 순, 씨앗', 사용가능. card.json·overview 와 일치. 갈퀴덩굴(G. spurium var. echinospermon / G. aparine f. strigosa) 순·잎 행은 조건 '사용가능부위 : 잎' — related_species 서술과 일치.",
+  "[2]·[3]·[5]·[8]·[21] PMC 전문, [9] 전문(작성자 저장본 중 해당 부분), 나머지는 PubMed 초록으로 대조. 성분 수치·분석 조건(칼럼·이동상·기울기·유속·검출·주입량·표준품)은 [2]·[3] Methods 와 일치.",
+  "지상부/전초 결과가 순·씨앗 결과처럼 쓰인 곳은 없었음(성분·분석 표 모두 '지상부' 명시). [8] 은 잎 추출물이어서 safety 에 부위를 밝힘.",
+  "[21] 신종 후보 2균주의 속 이름은 전문 텍스트에서 이탤릭 학명이 빠져 확인하지 못함 — Bacillaceae 수준으로 낮춤.",
+  "NCBI eutils·PMC 웹·GBIF·POWO 는 막혀 있어 열지 않음. WebSearch 0회."
+ ]
+}
