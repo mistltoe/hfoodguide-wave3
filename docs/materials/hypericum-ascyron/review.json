@@ -1,0 +1,18 @@
+{"slug": "hypericum-ascyron", "reviewer": "V2", "date": "2026-11-02",
+ "checked_sentences": 62, "checked_items": 53,
+ "verified": 108, "fixed": 6, "removed": 0, "unverifiable": 1,
+ "changes": [
+  {"where": "sections.genetics", "before": "같은 연구의 엽록체 유전체는 163,564 bp로, 한국 개체 값(162,286 bp)과 다르다[3, 4].", "after": "물레나물로 대응되는 엽록체 163,564 bp, 한국 개체와 약 1.3 kb 차이 + 대응 근거(‘respectively’ 순서·그림 설명 물레나물 패널·미토 411,519 bp/서양고추나물 485,128 bp) 문장 추가", "why": "[4] PMC 본문에서 학명이 빠져 있어 종 대응 근거를 밝힘; 서양고추나물 값(139,734 bp)과 섞이지 않았음을 확인"},
+  {"where": "sections.genetics", "before": "2025년 물레나물과 14종 비교에서", "after": "2025년 물레나물과 3개 족 12종과 외군 2종의 엽록체 유전체 비교에서", "why": "[5] 초록: 12개 신규 엽록체 유전체(7속·3족) + 클루시아과 외군 2종"},
+  {"where": "sections.related_species", "before": "하이퍼포린 대신 다른 아실플로로글루시놀이 많아 … 종으로 분류했다[15]", "after": "하이퍼포린 외의 다른 아실플로로글루시놀 유도체를 상당량 함유해 … 종 가운데 하나로 꼽았다(총설 초록 기준)[15]", "why": "[15] 초록은 'considerable amounts of other acylphloroglucinol derivatives'라고만 씀 — '대신'은 원문에 없음"},
+  {"where": "sections.history", "before": "중국 논문들은", "after": "한 중국 논문은", "why": "인용은 [7] 한 편"},
+  {"where": "compounds[Kaempferol 3-O-beta-(2''-acetyl)galactopyranoside].activity_ko", "before": "세균 세포의 아폽토시스 유사 사멸 유도(시험관)[9]", "after": "이 성분과 퀘르세틴이 든 항균 분획 8이 세균의 아폽토시스 유사 사멸 유도(시험관, 단일 성분 시험 아님)[9]", "why": "[9] 초록은 분획 8(두 성분 함께)로 시험"},
+  {"where": "sources[4], sources[5]", "before": "(종 대응 메모 간략)", "after": "종 대응 근거·표본 구성 명시", "why": "검토 추적성"}
+ ],
+ "unverifiable_notes": [
+  "[7]·[8]·[9]·[10]·[11]·[12]·[13]·[16]~[24]·[26]~[34]는 PubMed 초록으로만 대조(전문 미확인); [35]는 제목만 있음",
+  "식품원료 지위·학명·부위·별명·영문명은 로컬 data/raw/mfds_rawmtrl/I1020_20261013.json 원 행(물레나물잎·물레나물순·큰물레나물잎, 고추나물잎, 서양고추나물 6행)과 일치 확인",
+  "[3] PMC 전문: 162,286 bp, LSC 97,542·SSC 11,052·IR 26,846 bp, 단백질 74·tRNA 29·rRNA 4, 영천 채약산 야생, 과 9속 약 700종·속 490종 이상 확인; [5] 전문: Vismieae–Hypericeae 자매군, 유전자 소실이 과 전체 특징 확인; [25] 전문: 중국에서 가장 널리 분포하는 고추나물속 종 가운데 하나 확인; [14] 초록: 하이퍼포린은 서양고추나물만, 하이페리신은 서양고추나물·고추나물 확인",
+  "H. longistylum 시료 논문[33]은 근거로 쓰지 않은 상태 유지 확인; 뿌리[27-29]·꽃[20]·열매[21] 연구는 부위를 밝혀 적혀 있고 순·잎 결과로 쓰이지 않음",
+  "PubMed 메타데이터 원본(_work/meta1.json, meta2.json — 저자 이메일 포함)은 대조 뒤 삭제"
+ ]}

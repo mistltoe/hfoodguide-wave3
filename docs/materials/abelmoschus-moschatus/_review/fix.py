@@ -1,0 +1,45 @@
+import json,sys
+p='/home/user/hfoodguide-wave3/docs/materials/abelmoschus-moschatus/dossier.json'
+d=json.load(open(p))
+changes=[]
+def rep(where,obj,key,old,new,why):
+    s=obj[key]
+    assert s.count(old)==1,(where,old)
+    obj[key]=s.replace(old,new); changes.append({"where":where,"before":old,"after":new,"why":why})
+sec={s['key']:s for s in d['sections']}
+rep('sections.history',sec['history'],'body',
+ '씨앗 추출물(100~400 mg/kg)을 7일간 먹인 쥐의 요로결석 모델에서 결석 침착이 줄었다는 동물 실험도 있다[22].',
+ '씨앗 추출물을 7일간 먹인 쥐의 요로결석(아연 원판 이식) 모델에서 결석 침착이 줄었다는 동물 실험도 있는데, 메탄올 추출물은 100·200·400 mg/kg 모두에서, 클로로포름 추출물은 400 mg/kg에서만 유의했고, 식품원료 허용 부위(잎)가 아닌 씨앗 결과다[22].',
+ '[22] 원문: CAM 은 400 mg/kg 만 유의. 씨앗 결과임을 명시')
+rep('sections.safety',sec['safety'],'body',
+ '건강한 쥐에 잎의 헥산(55 mg/kg)·아세트산에틸(75 mg/kg)·부탄올(60 mg/kg)·물(140 mg/kg) 추출물을 28일 동안 먹인 시험에서 죽거나 행동이 달라진 동물은 없었다[2]. 헥산·물 추출물은 혈액·생화학 지표에 유의한 변화가 없었지만, 아세트산에틸·부탄올 추출물은 일부 혈액 지표를 바꿨고 아세트산에틸 추출물은 신장 상대 무게를 줄였다(조직검사에서는 이상 없음)[2].',
+ '건강한 쥐에 잎의 헥산(55 mg/kg)·아세트산에틸(75 mg/kg)·부탄올(60 mg/kg)·물(140 mg/kg) 추출물을 28일 동안 먹인 시험에서 죽거나 행동이 달라진 동물은 없었다[2]. 이 용량은 사람 치료용량을 쥐에 환산한 한 가지 용량이며, 고용량 독성시험은 아니다[2]. 헥산·물 추출물은 혈액·생화학 지표에 유의한 변화가 없었지만, 아세트산에틸·부탄올 추출물은 적혈구 수·헤모글로빈 등 일부 혈액 지표를 올렸고 공복혈당·AST 에도 유의한 차이가 있었으며(정상 범위 안), 아세트산에틸 추출물은 신장 상대 무게를 줄였다(조직검사에서는 이상 없음)[2].',
+ '[2] 원문: 용량은 human equivalent therapeutic dose; 결론부에 EtOAc·BuOH 군 공복혈당·AST 유의 변화(정상범위) 명시')
+rep('sections.safety',sec['safety'],'body',
+ '추출물이나 마이리세틴이 쥐의 혈당을 낮춘 실험이 있으므로, 당뇨약을 먹는 사람에게 미치는 영향은 알려지지 않았다는 점에 유의해야 한다[6, 7].',
+ '추출물(부위 미기재)이 과당 식이 쥐의 인슐린 저항성 지표를 낮추고[6], 지상부에서 정제한 마이리세틴 정맥주사가 당뇨 쥐의 혈당을 낮춘 실험[7]이 있으므로, 당뇨약을 먹는 사람에게 미치는 영향은 알려지지 않았다는 점에 유의해야 한다.',
+ '[6] 은 혈당 강하가 아니라 HOMA-IR·인슐린 감수성 결과이고 추출 부위가 초록에 없음; [7] 은 주사')
+rep('sections.genetics',sec['genetics'],'body',
+ '오크라와의 원연 교잡에서는 잡종의 불임을 콜히친으로 염색체를 배가해 극복했다[18].',
+ '오크라와 야생 아벨모스쿠스 종의 원연 교잡 연구에서는 잡종의 불임을 콜히친으로 염색체를 배가해 극복했으나, 이 연구에 쓰인 야생종 가운데 A. moschatus 계통이 어느 것인지는 PMC 본문에서 학명이 빠져 확인하지 못함[18].',
+ '[18] 은 오크라 원연 교잡 일반 연구; A. moschatus 사용 여부를 본문에서 확인 못 함 — 이 종 결과처럼 읽히지 않게')
+c={x['name']:x for x in d['compounds']}
+rep('compounds.Myricetin.activity_ko',c['Myricetin'],'activity_ko',
+ '당뇨 쥐에 정맥주사하자 혈당이 용량에 따라 낮아짐(1.0 mg/kg)[7]',
+ '당뇨 쥐에 정맥주사하자 혈당이 용량에 따라 낮아짐(유효용량 1.0 mg/kg)[7]',
+ '[7] 원문 표현(effective dose)')
+rep('compounds.(Z)-5-Dodecenyl acetate.content_text',c['(Z)-5-Dodecenyl acetate'],'content_text',
+ '씨앗 최대 1 ppm(DUKE, 5-dodecenyl acetate)[25]',
+ '씨앗 최대 0.6 ppm(DUKE, (5Z)-형), 이성질체 미표기 5-dodecenyl acetate 로는 최대 1 ppm(DUKE)[25]',
+ 'card.json DUKE 후보: (5Z)-형 0.6 ppm, 미표기형 1 ppm — Z 형 값이 빠져 있었음')
+rep('compounds.Oleic acid.part',c['Oleic acid'],'part',
+ '씨앗·잎·껍질 추출물',
+ '껍질·잎·씨앗 추출물(활성 띠가 어느 부위 추출물인지 초록에 구분 없음); 씨앗 기름[13]',
+ '[14] 초록은 부위별 구분 없음, [13] 은 씨앗 기름만')
+rep('compounds.Glycine betaine.activity_ko',c['Glycine betaine'],'activity_ko',
+ '아욱과의 공통 성분이 이 종에서는 없다는 점에서 구별 형질로 볼 수 있음[15]',
+ '조사한 아욱과 26분류군 가운데 이 종에서만 검출되지 않음(생리 활성 시험은 아님)[15]',
+ '"구별 형질" 해석은 [15] 에 없음')
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+json.dump(changes,open('/home/user/hfoodguide-wave3/docs/materials/abelmoschus-moschatus/_review/changes.json','w'),ensure_ascii=False,indent=1)
+print(len(changes))

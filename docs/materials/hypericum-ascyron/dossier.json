@@ -1,0 +1,545 @@
+{
+ "slug": "hypericum-ascyron",
+ "name_ko": "물레나물",
+ "name_en": "Great St. John’s-wort",
+ "scientific_name": "Hypericum ascyron L.",
+ "aliases": [
+  "애기물레나물",
+  "매대체",
+  "큰물레나물",
+  "Hypericum ascyron var. brevistylum Maxim",
+  "Hypericum ascyron var. longistylum Maxim.",
+  "Great St. John’s-wort"
+ ],
+ "sections": [
+  {
+   "key": "overview",
+   "title": "한눈에 보기",
+   "body": "물레나물(Hypericum ascyron L.)은 고추나물속(Hypericum) 식물로, 최근 논문들은 물레나물과(Hypericaceae)의 고추나물족(Hypericeae)에 넣는다[3]. 영어 이름은 Great St. John’s-wort로, 서양고추나물(St. John’s wort)과 이름이 비슷하지만 다른 종이다[1, 7].\n\n식약처 「식품원료 목록」에는 물레나물잎(부위 잎)과 물레나물순(부위 순) 두 행이 학명 'Hypericum ascyron L. / Hypericum ascyron var. brevistylum Maxim'으로 올라 있고, 사용조건은 '사용가능부위 : 순, 잎', 상태는 사용가능이다[1]. 따로 큰물레나물잎 행(학명 'Hypericum ascyron Linne var. longistylum Max.')이 있는데, 이 행의 사용조건은 '사용가능부위 : 잎'뿐이다[1]. 목록의 다른 이름은 애기물레나물·매대체·큰물레나물이다[1]. 건강기능식품 고시형 원료와 건강기능식품 생산실적 자료에서는 물레나물 원료를 확인하지 못함.\n\n성분 연구는 주로 지상부·잎·꽃·열매·뿌리에서 폴리프레닐화 아실플로로글루시놀(PPAP)과 플라보노이드·잔톤을 분리한 것이다[16, 18, 20, 21, 22, 27]. 보고된 효과(항균·세포독성·염증 지표 감소 등)는 시험관·세포·생쥐 실험 결과이며[8, 10, 18], 사람을 대상으로 한 임상시험은 PubMed에서 확인하지 못함. 서양고추나물의 대표 성분인 하이퍼포린은 세 종 비교 분석에서 서양고추나물에서만 확인되었다[14]."
+  },
+  {
+   "key": "history",
+   "title": "역사와 쓰임",
+   "body": "한 중국 논문은 물레나물이 중국에서 2,000년 넘게 토혈·자궁출혈·류머티즘·부기·복통·종기·이질·월경불순에 쓰였다고 소개한다[7]. 다른 논문은 상처·부기·두통·메스꺼움·종기·이질·만성 기관지염에 쓰인 전통약이라고 적는다[8, 9]. 1980년 중국 약학 학술지에는 'hong han lian(Hypericum ascyron L.)'이라는 이름으로 성분 연구가 실렸다[35].\n\n본초학 연구에 따르면 당나라 이전의 약재 '연교(連翹)'는 물레나물과 고추나물(H. erectum)의 지상부였다[6]. 남북조에서 당나라 사이에 물푸레나무과 의성개나리(Forsythia suspensa) 열매가 연교로 함께 쓰이기 시작했고, 송나라 이후에는 이 열매만 연교가 되었다[6]. 한나라부터 당나라까지 물레나물과 식물의 연교는 주로 황하 유역에서 났다고 한다[6].\n\n한국에서는 2009년 연구가 물레나물의 어린 싹을 전통 샐러드(나물) 식물의 하나로 다뤘고[11], 한국 산채 24종 연구에도 들어 있다[12]. 국내에서 언제부터 나물로 먹었는지에 대한 공공기관 기록은 확인하지 못함."
+  },
+  {
+   "key": "biology",
+   "title": "생물학적 특징",
+   "body": "고추나물속은 물레나물과에서 가장 큰 속으로 490종이 넘고 전 세계에 퍼져 있으며, 물레나물과는 9속 약 700종으로 소개된다[3]. 물레나물은 중국에서 가장 널리 분포하는 고추나물속 식물 가운데 하나로 소개된다[25]. 국내에서는 경상북도 영천시 채약산의 야생 개체가 엽록체 유전체 연구에 쓰였다[3].\n\n중국의 생육 관찰에서 물레나물은 해마다 4월 하순에 싹이 트고, 5월 하순에 가지를 치며, 6월 하순에 꽃이 피고, 8월 상순에 열매가 가장 많이 달리며, 10월 상순에 씨가 익었다[13]. 같은 연구는 키 생장을 로지스틱 모형 H = 127.109/(1 + 23.744·e^(−0.062t))로 나타냈다(초록에 단위는 적혀 있지 않음)[13]. 성분 연구에는 잎[18], 잎과 잔가지[19], 꽃[20], 열매[21], 뿌리[27, 28, 29]가 따로 쓰였다.\n\n잎·꽃의 모양과 크기, 국내 자생지 분포는 공식 식물지 페이지에 접속하지 못해 확인하지 못함."
+  },
+  {
+   "key": "related_species",
+   "title": "가까운 종과 혼동",
+   "body": "식약처 「식품원료 목록」에는 같은 속 원료로 고추나물(H. erectum, 고추나물잎, 사용가능부위 잎, 사용가능)과 서양고추나물(H. perforatum)이 있다[2]. 서양고추나물은 잎·꽃·열매·분말·추출액·추출분말 행이 모두 '제한적사용가능부위 : 잎, 열매, 꽃'인 제한적사용 원료로, 사용가능인 물레나물과 지위가 다르다[1, 2].\n\n세 종의 알코올 추출물을 고분해능 LC-MS로 비교한 연구에서 하이퍼포린은 서양고추나물에서만, 하이페리신은 서양고추나물과 고추나물에서 확인되었다[14]. 그래서 서양고추나물에서 나온 하이퍼포린·하이페리신 관련 연구 결과를 물레나물에 그대로 옮길 수 없다[14]. 총설은 물레나물을 하이퍼포린 외의 다른 아실플로로글루시놀 유도체를 상당량 함유해 항균·세포독성 활성을 보일 가능성이 있는 종 가운데 하나로 꼽았다(총설 초록 기준)[15].\n\n목록에는 var. brevistylum과 var. longistylum(큰물레나물)이 함께 실려 있다[1]. 2018년 한 논문은 제목에 Hypericum ascyron L.을 쓰면서 초록 본문에서는 시료를 Hypericum longistylum이라고 적어, 어느 식물인지 분명하지 않으므로 이 문서의 근거로 쓰지 않았다[33]. 엽록체 유전자 계통 분석에서 고추나물족은 Vismieae족과 자매군이었다[5]."
+  },
+  {
+   "key": "cultivation",
+   "title": "재배와 채취",
+   "body": "중국에서 생육과 인공 번식을 시험한 연구에서 포기를 통째로 옮겨 심은 경우 생존율이 100%, 포기를 나눠 심은 경우 67.2%였다[13]. 씨앗 번식에서는 발아율이 15.2%, 옮겨 심은 실생묘의 생존율이 36%로 낮았다[13]. 연구진은 생육 기간이 4월부터 10월까지이며 인공 번식이 가능하다고 결론지었다[13].\n\n한국 엽록체 유전체 연구의 시료는 경북 영천의 야생 개체였다[3]. 중국 미토콘드리아 유전체 연구에서는 구이저우성에서 옮겨 와 쿤밍식물연구소 온실에서 키운 개체를 썼다[4].\n\n국내 재배 면적과 생산량은 농림축산식품부 특용작물 생산실적과 통계청 농작물생산통계 파싱본에 품목이 없어 확인하지 못함. 지리적 표시 등록 현황에서도 물레나물 품목은 확인하지 못함. 순과 잎을 거두는 적기나 재배 기술에 관한 농촌진흥청 자료는 확인하지 못함."
+  },
+  {
+   "key": "processing",
+   "title": "가공과 이용",
+   "body": "식품원료로 쓸 수 있는 부위는 물레나물의 순과 잎이며, 큰물레나물 행은 잎만 쓸 수 있다[1]. 데치기·말리기 같은 조리·가공 방법과 섭취량에 관한 공공기관 자료는 확인하지 못함.\n\n한국 샐러드 식물 11종 비교에서 물레나물 어린 싹 메탄올 추출물의 총페놀은 197.1 mg kg(-1)으로 화살나무 다음으로 높았다[11]. 같은 연구에서 63 mg kg(-1) 농도의 물레나물 추출물은 DPPH 라디칼을 91.2% 소거했다[11].\n\n연구용 추출은 지상부를 90% 에탄올로 추출하거나[34], 열매를 에틸아세테이트로 추출하는 방식 등이 쓰였다[21]. 중국 연구진은 물레나물 추출물 10개 배치의 HPLC 지문을 비교해 유사도 상관계수가 0.97을 넘었다고 보고했다[31]. 후속 연구에서는 2차원 HPLC 지문과 MTT 항균 시험을 결합해 10개 배치의 상관계수가 0.99를 넘었다[32]. 식약처 건강기능식품 생산실적 자료에서 물레나물 원료 제품은 확인하지 못함."
+  },
+  {
+   "key": "genetics",
+   "title": "유전체",
+   "body": "한국 영천 야생 개체의 엽록체 유전체는 162,286 bp로, 대단일복제 영역(LSC) 97,542 bp, 소단일복제 영역(SSC) 11,052 bp, 두 역위반복 영역(IR) 각 26,846 bp로 이루어진다[3]. 단백질 유전자 74개, tRNA 29개, rRNA 4개가 있고 infA·rps16·trnK-UUU 유전자가 없으며 rps7·rpl23·rpl32는 위유전자다[3]. 잎 전사체 분석에서 infA·rps7·rpl32는 핵으로 옮겨 간 것으로, rps16·rpl23은 핵 상동유전자로 대체된 것으로 추정되었다[3]. 이 엽록체 유전체에는 역위 7개와 IR 경계 이동이 3회 이상 있었다[3].\n\n2025년 물레나물과 3개 족 12종과 외군 2종의 엽록체 유전체 비교에서 이런 유전자 소실과 구조 재배열은 물레나물만의 특징이 아니라 과 전체에서 나타나는 특징으로 확인되었다[5]. 중국 개체로 조립한 미토콘드리아 유전체는 411,519 bp의 원형 구조였고, 엽록체에서 옮겨 온 조각 22개가 전체의 5.9%를 차지했다[4]. 같은 연구에서 물레나물로 대응되는 엽록체 유전체는 163,564 bp로, 한국 개체 값(162,286 bp)과 약 1.3 kb 다르다[3, 4]. 이 논문은 물레나물과 서양고추나물의 값을 '각각' 순서로만 적어, 물레나물 값은 미토콘드리아 유전체(물레나물 411,519 bp, 서양고추나물 485,128 bp의 두 염색체)와 같은 순서·그림 설명(물레나물 패널)으로 대응한 것이다[4]. 핵 유전체 크기와 염색체 수는 확인하지 못함."
+  },
+  {
+   "key": "safety",
+   "title": "안전성",
+   "body": "물레나물은 식약처 「식품원료 목록」에서 순·잎을 쓸 수 있는 사용가능 원료이며, 같은 속 서양고추나물처럼 제한적사용 원료로 지정되어 있지 않다[1, 2]. 건강기능식품 고시형 원료가 아니어서 고시된 섭취 시 주의사항이 없고, 물레나물에 관한 공공기관의 알레르기·잔류농약·독성 정보도 확인하지 못함.\n\n세 종 비교에서 서양고추나물의 대표 성분인 하이퍼포린과 하이페리신은 물레나물 추출물에서 확인된 것으로 보고되지 않았다[14]. 다만 이것은 성분 분석 결과이며, 물레나물 자체의 약물 상호작용 연구는 PubMed에서 확인하지 못함.\n\n물레나물에서 분리한 일부 아실플로로글루시놀은 사람 암세포주에 마이크로몰 농도에서 세포독성을 보였다(예: 토모에온 F, KB 세포 IC50 6.2 μM)[18, 22]. 한국 산채 연구는 폐암 세포에 대해 물레나물 추출물이 효과가 없고 오히려 해로울 수 있다고 적었다[12]. 다른 성분 연구에서도 간세포(HepG2) 손상 보호[23], 대장암 세포 증식 억제[24, 25], 대식세포 염증 반응 억제[26]가 모두 세포 수준에서 보고되었다. 이 결과들은 세포 실험이므로 사람에게 그대로 적용할 수 없으며, 사람 대상 독성시험과 임상시험은 PubMed에서 확인하지 못함."
+  }
+ ],
+ "compounds": [
+  {
+   "name": "Hyperoside",
+   "name_ko": "하이페로사이드(퀘르세틴 3-O-갈락토사이드)",
+   "class": "flavonol glycoside",
+   "role": "bioactive",
+   "part": "부위 기재 없음(에틸아세테이트 분획)",
+   "content_text": "에틸아세테이트 분획에서 분리(함량 기재 없음)[16]",
+   "activity_ko": "H9c2 심근모세포의 H2O2 손상 보호(세포)[17]",
+   "source": [
+    16,
+    17
+   ]
+  },
+  {
+   "name": "Isoquercitrin",
+   "name_ko": "아이소퀘르시트린",
+   "class": "flavonol glycoside",
+   "role": "bioactive",
+   "part": "부위 기재 없음",
+   "content_text": "반분취 HPLC로 분리(함량 기재 없음)[17]",
+   "activity_ko": "H9c2 세포 H2O2 손상 보호(세포)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Isohyperoside",
+   "name_ko": "아이소하이페로사이드",
+   "class": "flavonol glycoside",
+   "role": "bioactive",
+   "part": "부위 기재 없음",
+   "content_text": "물레나물에서 처음 분리(함량 기재 없음)[17]",
+   "activity_ko": "H9c2 세포 H2O2 손상 보호(세포)[17]",
+   "source": [
+    17
+   ]
+  },
+  {
+   "name": "Quercetin",
+   "name_ko": "퀘르세틴",
+   "class": "flavonol",
+   "role": "bioactive",
+   "part": "부위 기재 없음",
+   "content_text": "항균 활성 분획 8에서 동정(함량 기재 없음)[9]",
+   "activity_ko": "퀘르세틴과 아래 캠페롤 배당체의 1:1 혼합물이 HeLa 세포 증식 억제(세포)[7]",
+   "source": [
+    7,
+    9,
+    16
+   ]
+  },
+  {
+   "name": "Kaempferol 3-O-beta-(2''-acetyl)galactopyranoside",
+   "name_ko": "캠페롤 3-O-β-(2″-아세틸)갈락토피라노사이드",
+   "class": "flavonol glycoside",
+   "role": "bioactive",
+   "part": "부위 기재 없음",
+   "content_text": "항균 활성 분획 8에서 동정(함량 기재 없음)[9]",
+   "activity_ko": "이 성분과 퀘르세틴이 든 항균 분획 8이 세균의 아폽토시스 유사 사멸 유도(시험관, 단일 성분 시험 아님)[9]",
+   "source": [
+    7,
+    9
+   ]
+  },
+  {
+   "name": "Rutin",
+   "name_ko": "루틴",
+   "class": "flavonol glycoside",
+   "role": "bioactive",
+   "part": "부위 기재 없음(에틸아세테이트 분획)",
+   "content_text": "분리(함량 기재 없음)[16]",
+   "activity_ko": "",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Kaempferol",
+   "name_ko": "캠페롤",
+   "class": "flavonol",
+   "role": "bioactive",
+   "part": "부위 기재 없음(에틸아세테이트 분획)",
+   "content_text": "분리(함량 기재 없음)[16]",
+   "activity_ko": "",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Hypercalin B",
+   "name_ko": "하이퍼칼린 B",
+   "class": "acylphloroglucinol",
+   "role": "bioactive",
+   "part": "부위 기재 없음(에틸아세테이트 분획)",
+   "content_text": "물레나물에서 처음 분리(함량 기재 없음)[16]",
+   "activity_ko": "",
+   "source": [
+    16
+   ]
+  },
+  {
+   "name": "Tomoeone F",
+   "name_ko": "토모에온 F",
+   "class": "spirocyclic acylphloroglucinol",
+   "role": "bioactive",
+   "part": "잎",
+   "content_text": "잎에서 분리(함량 기재 없음)[18]",
+   "activity_ko": "KB 세포 IC50 6.2 μM, 다제내성 암세포주에도 세포독성(세포)[18]",
+   "source": [
+    18
+   ]
+  },
+  {
+   "name": "Hyperascyrone C",
+   "name_ko": "하이퍼아시론 C",
+   "class": "polyprenylated spirocyclic acylphloroglucinol",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 분리(함량 기재 없음)[22]",
+   "activity_ko": "HL-60 세포 IC50 4.22 μM(세포)[22]",
+   "source": [
+    22
+   ]
+  },
+  {
+   "name": "Ascyronone E",
+   "name_ko": "아시로논 E",
+   "class": "polyprenylated acylphloroglucinol",
+   "role": "bioactive",
+   "part": "꽃",
+   "content_text": "꽃에서 분리(함량 기재 없음)[20]",
+   "activity_ko": "사람 호중구 엘라스타제 억제 IC50 4.3 μM(효소)[20]",
+   "source": [
+    20
+   ]
+  },
+  {
+   "name": "Hypascyrin E",
+   "name_ko": "하이파시린 E",
+   "class": "prenylated acylphloroglucinol",
+   "role": "bioactive",
+   "part": "뿌리(식품원료 사용부위 아님)",
+   "content_text": "뿌리에서 분리(함량 기재 없음)[27]",
+   "activity_ko": "MRSA MIC 2.0 μM(시험관)[27]",
+   "source": [
+    27
+   ]
+  },
+  {
+   "name": "3,7-Dihydroxy-1,6-dimethoxyxanthone",
+   "name_ko": "3,7-다이하이드록시-1,6-다이메톡시잔톤",
+   "class": "xanthone",
+   "role": "bioactive",
+   "part": "잎과 잔가지",
+   "content_text": "잎·잔가지에서 분리(함량 기재 없음)[19]",
+   "activity_ko": "SH-SY5Y 세포의 MPP+·미세아교세포 활성화 손상 보호(세포)[19]",
+   "source": [
+    19
+   ]
+  },
+  {
+   "name": "Friedelin",
+   "name_ko": "프리델린",
+   "class": "triterpenoid",
+   "role": "bioactive",
+   "part": "지상부",
+   "content_text": "지상부에서 분리(함량 기재 없음)[30]",
+   "activity_ko": "",
+   "source": [
+    30
+   ]
+  }
+ ],
+ "markers": [],
+ "assays": [
+  {
+   "role": "literature",
+   "compound": "Hypericin",
+   "compound_ko": "하이페리신(하이퍼포린 함께 분석)",
+   "part": "부위 기재 없음(말린 알코올 추출물)",
+   "content": "초록: 하이퍼포린은 세 종 중 서양고추나물에서만, 하이페리신은 서양고추나물과 고추나물에서 확인 — 물레나물 추출물은 둘 다 확인 종에 들지 않음(정량값은 초록에 없음)[14]",
+   "method": "고분해능 LC-MS",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "하이퍼포린·하이페리신은 고추나물속, 특히 서양고추나물의 대표 지표성분이어서 물레나물과 구별하는 데 쓸 수 있다[14, 15]. 전문 확인 못함 — 분석 조건과 검출한계는 비워 둠[14].",
+   "source": [
+    14
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33129946/",
+   "source_kind": "paper"
+  },
+  {
+   "role": "literature",
+   "compound": "Total phenolics",
+   "compound_ko": "총페놀",
+   "part": "순(어린 싹)",
+   "content": "어린 싹 메탄올 추출물 197.1 mg kg(-1)(11종 중 화살나무 235.7 mg kg(-1) 다음)[11]",
+   "method": "총페놀 정량(초록에 시험법 이름 없음)",
+   "conditions": {
+    "instrument": "",
+    "column": "",
+    "mobile_phase": "",
+    "gradient": "",
+    "flow": "",
+    "temp": "",
+    "detection": "",
+    "injection": "",
+    "sample_prep": "어린 싹 메탄올 추출물(초록)",
+    "standard": "",
+    "linearity": "",
+    "lod": "",
+    "loq": "",
+    "recovery": ""
+   },
+   "rationale": "식품원료 사용부위인 순의 값으로, 총페놀이 DPPH 소거능과 높은 상관을 보였다[11]. 전문 확인 못함 — 함량의 기준(생시료·건조시료·추출물)은 초록으로 확인하지 못함[11].",
+   "source": [
+    11
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19016328/",
+   "source_kind": "paper"
+  }
+ ],
+ "nutrients": [],
+ "production": [],
+ "world": [],
+ "gi": [],
+ "orgs": [],
+ "sources": [
+  {
+   "n": 1,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 물레나물 3개 원료명 행: 물레나물잎(부위 잎)·물레나물순(부위 순), 학명 'Hypericum ascyron L. / Hypericum ascyron var. brevistylum Maxim', 다른 이름 애기물레나물·매대체·큰물레나물, 영문명 Great St. John’s-wort, 사용조건 '사용가능부위 : 순, 잎'; 큰물레나물잎(부위 잎), 학명 'Hypericum ascyron Linne var. longistylum Max.', 사용조건 '사용가능부위 : 잎'; 세 행 모두 식품원료(A코드)·식물·사용가능. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속(Hypericum) 원료 행: 고추나물잎(H. erectum Thunb 등, 사용가능부위 잎, 사용가능); 서양고추나물잎·꽃·열매·분말·추출액·추출분말(H. perforatum L., '제한적사용가능부위 : 잎, 열매, 꽃', 제한적사용). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json",
+   "url": "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020",
+   "publisher": "식품의약품안전처",
+   "accessed": "2026-10-13"
+  },
+  {
+   "n": 3,
+   "title": "Gene loss, genome rearrangement, and accelerated substitution rates in plastid genome of Hypericum ascyron (Hypericaceae). BMC Plant Biol 2022;22(1):135 (PMID 35321651, PMC8941745; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8941745/",
+   "publisher": "BMC Plant Biology / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 4,
+   "title": "Newly assembled mitochondrial genomes of Hypericum (Hypericaceae) provide insights into phylogenetic relationships and inter-organellar conflict. Front Plant Sci 2026;17:1763082 (PMID 41717114, PMC12913449; 전문 확인 — 본문 PMC 변환에서 학명이 빠짐 — 미토콘드리아 411,519 bp·MTPT 22개(Ha_MTPT 접두어)는 그림 설명과 접두어로 물레나물에 대응, 엽록체 163,564 bp는 같은 'respectively' 순서로 대응)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12913449/",
+   "publisher": "Frontiers in Plant Science / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 5,
+   "title": "Plastome evolution at the edge: structural rearrangements, IR expansion, and gene flux in Hypericaceae (Malpighiales). BMC Plant Biol 2025;26(1):222 (12종 신규 서열+외군 2종) (PMID 41436932, PMC12870916; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870916/",
+   "publisher": "BMC Plant Biology / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 6,
+   "title": "[Herbalogical study on merit rating of Forsythiae Fructus based on near-mature fruit and hyper-mature fruit]. Zhongguo Zhong Yao Za Zhi 2019;44(24):5508-5512 (PMID 32237402; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32237402/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 7,
+   "title": "Induction of apoptosis in human cervical carcinoma HeLa cells by active compounds from Hypericum ascyron L. Oncol Lett 2018;15(3):3944-3950 (PMID 29556280, PMC5844083; 초록만 확인 — PMC 도구에서 본문이 비어 있음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29556280/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 8,
+   "title": "The extract of Hypericum ascyron L. induces bacterial cell death through apoptosis pathway. J Ethnopharmacol 2015;166:205-10 (PMID 25796407; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25796407/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 9,
+   "title": "Antibacterial active compounds from Hypericum ascyron L. induce bacterial cell death through apoptosis pathway. Eur J Med Chem 2015;96:436-44 (PMID 25916905; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25916905/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 10,
+   "title": "Hypericum ascyron L. extract reduces particulate matter-induced airway inflammation in mice. Phytother Res 2021;35(3):1621-1633 (PMID 33150724; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33150724/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 11,
+   "title": "Total phenolics level, antioxidant activities and cytotoxicity of young sprouts of some traditional Korean salad plants. Plant Foods Hum Nutr 2009;64(1):25-31 (PMID 19016328; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19016328/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 12,
+   "title": "Antiproliferative activity of Korean wild vegetables on different human tumor cell lines. Plant Foods Hum Nutr 2009;64(4):257-63 (PMID 19890716; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19890716/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 13,
+   "title": "[Study on the growth, development and artificial propagation of Hypericum ascyron]. Zhong Yao Cai 2011;34(6):845-8 (PMID 22016998; 영문 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22016998/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 14,
+   "title": "Hypericum perforatum extract and hyperforin inhibit the growth of neurotropic parasite Toxoplasma gondii and infection-induced inflammatory responses of glial cells in vitro. J Ethnopharmacol 2021;267:113525 (PMID 33129946; 초록 — H. perforatum·H. erectum·H. ascyron 세 종 추출물의 하이퍼포린·하이페리신 LC-MS 분석)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/33129946/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 15,
+   "title": "Do other Hypericum species have medical potential as St. John's wort (Hypericum perforatum)? Curr Med Chem 2013;20(18):2273-95 (PMID 23521674; 초록, 총설)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23521674/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 16,
+   "title": "[Chemical Constituents of Ethyl Acetate Fraction from Hypericum ascyron]. Zhong Yao Cai 2016;39(2):322-5 (PMID 30080367; 초록 — 시료 부위 기재 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30080367/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 17,
+   "title": "Difference in protective effects of three structurally similar flavonoid glycosides from Hypericum ascyron against H2O2-induced injury in H9c2 cardiomyoblasts. Mol Med Rep 2015;12(4):5423-8 (PMID 26177564; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26177564/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 18,
+   "title": "Tomoeones A-H, cytotoxic phloroglucinol derivatives from Hypericum ascyron. Phytochemistry 2008;69(11):2225-30 (PMID 18556029; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18556029/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 19,
+   "title": "Two rearranged acylphloroglucinols with moderate neuroprotective effects from Hypericum ascyron Linn. Fitoterapia 2024;174:105852 (PMID 38325587; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/38325587/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "title": "Human neutrophil elastase (HNE) inhibitory polyprenylated acylphloroglucinols from the flowers of Hypericum ascyron. Bioorg Chem 2019;90:103075 (PMID 31254671; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31254671/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 21,
+   "title": "New sesquiterpenes and flavonoids from the fruits of Hypericum ascyron L. with nitric oxide inhibitory activities. Fitoterapia 2026;194:107440 (PMID 42603667; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42603667/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 22,
+   "title": "Hyperascyrones A-H, polyprenylated spirocyclic acylphloroglucinol derivatives from Hypericum ascyron Linn. Phytochemistry 2015;115:222-30 (PMID 25800107; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25800107/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 23,
+   "title": "Methylated Polycyclic Polyprenylated Acylphloroglucinol Derivatives from Hypericum ascyron. J Nat Prod 2018;81(11):2348-2356 (PMID 30379546; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30379546/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 24,
+   "title": "Structurally diverse spirocyclic polycyclic polyprenylated acylphloroglucinols from Hypericum ascyron Linn. and their anti-tumor activity. Phytochemistry 2023;212:113727 (PMID 37207991; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37207991/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 25,
+   "title": "Carascynol A, a hybrid of caryophyllane-type terpenoid and a C6 unit degraded by polyprenylated acylphloroglucinols from Hypericum ascyron. Nat Prod Bioprospect 2022;12(1):38 (PMID 36342546, PMC9640506; 전문 확인)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9640506/",
+   "publisher": "Natural Products and Bioprospecting / PubMed Central",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 26,
+   "title": "Ascyrones A-E, type B bicyclic polyprenylated acylphloroglucinol derivatives from Hypericum ascyron. Chin J Nat Med 2022;20(6):473-480 (PMID 35750386; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/35750386/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 27,
+   "title": "Hypascyrins A-E, Prenylated Acylphloroglucinols from Hypericum ascyron. J Nat Prod 2019;82(10):2754-2760 (PMID 31596079; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31596079/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 28,
+   "title": "Hyperdioxane A, a Conjugate of Dibenzo-1,4-dioxane and Sesquiterpene from Hypericum ascyron. Org Lett 2018;20(18):5977-5980 (PMID 30207481; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30207481/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 29,
+   "title": "Hyperdioxanes, dibenzo-1,4-dioxane derivatives from the roots of Hypericum ascyron. J Nat Med 2021;75(4):907-914 (PMID 34142303; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/34142303/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 30,
+   "title": "A new 3,4-seco-oleanane-type triterpenoid with an unusual enedione moiety from Hypericum ascyron. Fitoterapia 2015;103:227-30 (PMID 25870936; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25870936/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 31,
+   "title": "Quality and antitumour activity evaluation of extract of Hypericum ascyron. Biomed Chromatogr 2014;29(1):47-52 (PMID 24638934; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24638934/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 32,
+   "title": "Quality evaluation of Hypericum ascyron extract by two-dimensional high-performance liquid chromatography coupled with the colorimetric MTT method. J Sep Sci 2015;38(4):576-84 (PMID 25521967; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25521967/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 33,
+   "title": "Extractive from Hypericum ascyron L promotes serotonergic neuronal differentiation in vitro. Stem Cell Res 2018;31:42-50 (PMID 30015171; 초록 — 초록 본문은 시료를 'Hypericum longistylum'으로 적음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30015171/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 34,
+   "title": "Antidepressant polyprenylated acylphloroglucinols from Hypericum ascyron. J Asian Nat Prod Res 2024;26(4):474-481 (PMID 37610120; 초록)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/37610120/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  },
+  {
+   "n": 35,
+   "title": "[Studies on the constituents of hong han lian (Hypericum ascyron L.)]. Yao Xue Xue Bao 1980;15(6):365-7 (PMID 7457156; 제목만 확인 — 초록 없음)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7457156/",
+   "publisher": "PubMed",
+   "accessed": "2026-11-02"
+  }
+ ]
+}

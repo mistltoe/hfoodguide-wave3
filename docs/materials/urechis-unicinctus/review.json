@@ -1,0 +1,75 @@
+{
+ "slug": "urechis-unicinctus",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 66,
+ "checked_items": 58,
+ "verified": 111,
+ "fixed": 13,
+ "removed": 0,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "다만 효소·펩타이드 연구는 정제 물질의 시험관·동물 실험이어서 … [26, 27, 30]",
+   "after": "다만 효소·펩타이드·다당 연구는 정제·추출 물질의 시험관·세포·동물 실험이어서 … [7, 8, 26, 27, 30]",
+   "why": "내장 펩타이드[7]·체강액 다당[8]도 세포·시험관 결과뿐이어서 식품 섭취 효과 아님을 함께 밝힘"
+  },
+  {
+   "where": "sections.processing",
+   "before": "총아미노산이 486.65 mg 으로, …",
+   "after": "총아미노산이 486.65 mg(원문 단위 표기 그대로, 표 1 개별 값은 동결건조 가수분해물 분말 1 g 당 mg) … 건조한 가수분해물 분말 기준이어서 생 개불 살의 함량과는 다르다[6]",
+   "why": "[6] PMC 전문 3.2·표 1: 단위 'Hydrolysates (mg/g)', 시료는 내장 제거 후 동결건조·효소 가수분해·재동결건조한 분말 — 생/건 기준 명시"
+  },
+  {
+   "where": "sections.processing",
+   "before": "당뇨 쥐에 8주간 100·500 mg/kg/일 경구 투여한 동물 실험도 있으나 동물 결과일 뿐이다[30]",
+   "after": "당뇨 유발 쥐에 8주간 100·500 mg/kg/일 위관으로 먹여 발기 기능 지표를 본 동물 실험도 있으나, 사람이나 일반 식품 섭취에 관한 결과가 아니다[30]",
+   "why": "[30] 초록: STZ 당뇨 쥐, intragastric 투여, 음경해면체압 등 평가 — 무엇을 본 실험인지 밝히고 식품 효과로 읽히지 않게 함"
+  },
+  {
+   "where": "sections.genetics",
+   "before": "Illumina 단독 서열",
+   "after": "Illumina 단편(short-read) 서열",
+   "why": "[18] 초록 'short-read Illumina' 오역"
+  },
+  {
+   "where": "compounds[알라닌·글루탐산·글리신·아스파르트산·류신].content_text",
+   "before": "…mg/g(가수분해물)",
+   "after": "…mg/g(동결건조 가수분해물 분말 1 g 당, 건물 기준)",
+   "why": "[6] 표 1 기준(건조 분말) 명시"
+  },
+  {
+   "where": "compounds[VTSALVGPR].activity_ko",
+   "before": "H2O2 손상 RAW264.7 세포 생존율 회복(세포 실험)",
+   "after": "…(고상 합성한 펩타이드로 한 세포 실험)",
+   "why": "[7] 전문 3.9: 세포 실험은 서열대로 합성한 펩타이드로 수행"
+  },
+  {
+   "where": "compounds[Urechistachykinin I].activity_ko",
+   "before": "합성 펩타이드가 Vibrio vulnificus 에 항균 작용(시험관)",
+   "after": "이 펩타이드가 Vibrio vulnificus 에 항균 작용(시험관)",
+   "why": "[29] 초록에 합성 여부 언급 없음"
+  },
+  {
+   "where": "assays[0].content",
+   "before": "총 486.65 mg;",
+   "after": "총 486.65 mg(원문 표기, 동결건조 가수분해물 분말 기준);",
+   "why": "[6] 단위·기준 명시"
+  },
+  {
+   "where": "assays[1].conditions.instrument",
+   "before": "황산기: 마이크로플레이트 리더 360 nm",
+   "after": "황산기: 흡광도 360 nm(기기 명시 없음)",
+   "why": "[8] 전문 2.4: 황산기 측정 기기는 적혀 있지 않음(마이크로플레이트 리더는 총당·UV 측정에만 기재)"
+  }
+ ],
+ "unverifiable_notes": [
+  "식품원료 지위: data/raw/mfds_rawmtrl/I1020_20261013.json 에서 SCNM 'Urechis unicinctus' 1행(개불, 식품원료(A코드), 수산물, 부위 '-', 사용가능, 조건·영문명·이명 빈칸) 확인 — card.json 과 일치, 학명 Urechis 다른 행 없음. 부위 칸 '-' 원표기 유지",
+  "docs/stats/hf_items.csv 에 '개불' 행 0건 확인([2])",
+  "[3]·[4]·[5]·[9]–[35] 는 PubMed 초록(메타데이터)으로 대조, [21] 은 초록 없음(제목만), [6]·[7]·[8] 은 PMC 전문으로 대조",
+  "Sipunculus nudus 자료는 related_species 에서 종명을 밝혀 비교로만 쓰였고(BCFA 약 3% 는 S. nudus 값), 22:3 지방산은 어느 종에서 나왔는지 확인 못함으로 표기되어 섞임 없음; Urechis caupo 등 다른 개불속 자료 없음",
+  "크롬·비스페놀 A·PMMA 축적은 실험실 노출 시험이며 시판품 오염이 아니라고 본문에 명시되어 있음을 확인([31][32][35])",
+  "_work/build.py 는 수정 전 dossier 를 만드는 스크립트라 다시 돌리면 이번 수정이 덮어쓰인다 — dossier.json 이 최종본. 이 종 폴더 도우미 파일에 이메일·PubMed 메타데이터 원본 없음 확인"
+ ]
+}

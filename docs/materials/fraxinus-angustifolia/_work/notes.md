@@ -1,0 +1,5 @@
+PMID 26690403 PMC6332458 doi 10.3390/molecules201219845 — F. angustifolia seed/fruit extract (Morocco Demnat fruits; earlier reported as F. excelsior, DNA re-authenticated).
+nuzhenide 5.92±0.14%, GL3 4.75±0.09% (total 10.67±0.23%). HPLC-DAD-MS/MS Agilent 1100, LiChroCART C18 250x4 mm 4.5um, RT, 0.8 mL/min, 10 uL, A water 1% formic, B ACN; 0 1%B; 0-10 1-9; 10-48 9-35; 48-52 35-95; 52-54 95-1; hold 6 min; 260 nm; ESI neg m/z100-1500. sample 20 mg in 1 mL MeOH/H2O 50/50 vortex 2min US 10 min centrifuge 3500g 10 min filter 0.45 PVDF. calib 1-500 ppm nuzhenide & GL3 (standards synthesized by supplier).
+extract carbohydrate 72.4 g/100g, protein & TDF ~6 g/100 g, glucose 3.34, sucrose 3.84 g/100 g. 9 volunteers 1 g (3x334 mg). Metabolites tyrosol gluc/sulf, ligstroside-aglycone gluc/sulf; peak 2 h. Intact secoiridoids not detected.
+other: salidroside, oleoside, oleoside 11-methyl ester, glucosylformoside, excelside B, GL5, verbascoside.
+PMID 30884667 seed fixed oil subsp angustifolia: oleic 45.5%, linoleic 50.0%; isoverbascoside first; sesquiterpene volatiles; ABTS IC50 28.2 ug/mL.

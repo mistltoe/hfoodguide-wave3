@@ -1,0 +1,106 @@
+{
+ "slug": "corbicula-japonica",
+ "reviewer": "V2",
+ "date": "2026-11-02",
+ "checked_sentences": 68,
+ "checked_items": 55,
+ "verified": 109,
+ "fixed": 14,
+ "removed": 0,
+ "unverifiable": 0,
+ "changes": [
+  {
+   "where": "sections.overview",
+   "before": "건강기능식품 고시형 원료의 원재료가 아니어서 식약처가 정한 지표성분은 없다[1].",
+   "after": "이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못했고, 따라서 식약처가 정한 지표성분도 확인하지 못함.",
+   "why": "[1](식품원료 목록)은 건강기능식품 고시 여부를 말하지 않음"
+  },
+  {
+   "where": "sections.history",
+   "before": "일본에서는 예로부터 재첩 추출물이 간을 보호한다고",
+   "after": "일본에서는 예로부터 재첩속(Corbicula) 추출물이 간을 보호한다고",
+   "why": "[11] 초록은 'Corbicula extract'로 속 수준만 말함 — 재첩(C. fluminea)으로 읽히지 않게"
+  },
+  {
+   "where": "sections.history",
+   "before": "2019년에는 아코르빈이 생쥐의 알코올성 간 손상을 줄였다는 동물·세포 실험 결과가 나왔다[11].",
+   "after": "2019년에는 합성 아코르빈이 생쥐의 알코올성 간 손상을 줄이고, 재첩 추출물에서 정제한 아코르빈이 생쥐 ES/iPS 세포 유래 간 배양 모델에서 알코올 독성을 막았다는 동물·세포 실험 결과가 나왔으며, 사람에서의 효과는 확인하지 못함[11].",
+   "why": "[11] 초록: 생쥐 실험은 합성 아코르빈, 세포 실험은 정제 아코르빈 — 사람 근거 아님을 분명히"
+  },
+  {
+   "where": "sections.history",
+   "before": "국내에서는 광양만 하구의 이 종이 식용과 내수면 어업 자원으로 상업적으로 중요하다고 기술되었다[4].",
+   "after": "국내에서는 이 종이 식용과 내수면 어업 자원으로 상업적으로 중요하다고 기술되었다(시료는 광양만 하구)[4].",
+   "why": "[4] 전문은 '한국에서' 상업적으로 중요하다고 했고 광양만에 한정하지 않음"
+  },
+  {
+   "where": "sections.safety",
+   "before": "이 결과는 주사 실험이며 먹었을 때의 위해를 보여 준 자료는 확인하지 못함.",
+   "after": "이 결과는 정맥 주사 실험이며, 먹었을 때의 위해나 조리 후 독성 잔존을 보여 준 자료는 확인하지 못함.",
+   "why": "주사 독성이 섭취 위해로 읽히지 않게 범위를 분명히(원문 i.v. LD50)"
+  },
+  {
+   "where": "compounds.Selenium.part",
+   "before": "조갯살(주로 내장부)",
+   "after": "조갯살(건조 중량 기준)",
+   "why": "[14] 초록에서 내장부 분포는 MALDI로 확인한 m/z 534 셀레늄 화학종 하나에 대한 것"
+  },
+  {
+   "where": "compounds.Selenium.activity_ko",
+   "before": "약 30%가 물로 추출되었고 분자량 5000 미만의 셀레늄 화합물이 주로 내장부에 있었다[14]",
+   "after": "총셀레늄의 약 30%가 물로 추출되었고 물 추출물의 주된 셀레늄 화학종은 분자량 5000 미만으로 추정되었으며, 질량분석으로 찾은 한 셀레늄 화학종은 주로 내장부에 있었다[14]",
+   "why": "[14] 초록 문장 구조대로 분리"
+  },
+  {
+   "where": "compounds.Glutamic acid.activity_ko",
+   "before": "맛을 정하는 유리아미노산 가운데 하나로 분석되었다[13]",
+   "after": "먹는 부위에서 함량이 높은 유리아미노산이며, 원문은 유리아미노산 조성을 맛의 결정 요인으로 기술했다[13]",
+   "why": "[13]은 개별 성분이 맛을 정한다고 하지 않고 유리아미노산 조성 전체를 맛 요인으로 기술"
+  },
+  {
+   "where": "compounds.Glycine.activity_ko",
+   "before": "맛을 정하는 유리아미노산 가운데 하나로 분석되었다[13]",
+   "after": "먹는 부위에서 함량이 높은 유리아미노산이며, 원문은 유리아미노산 조성을 맛의 결정 요인으로 기술했다[13]",
+   "why": "[13]은 개별 성분이 맛을 정한다고 하지 않고 유리아미노산 조성 전체를 맛 요인으로 기술"
+  },
+  {
+   "where": "assays[0].method",
+   "before": "아미노산 자동분석기(이온교환, 닌히드린 후발색)",
+   "after": "아미노산 자동분석기(포스트칼럼 닌히드린법)",
+   "why": "[13] 전문 Methods 에 이온교환 칼럼 언급 없음"
+  },
+  {
+   "where": "assays[0].part",
+   "before": "먹는 부위(생시료)",
+   "after": "먹는 부위(습중량; 6–7월 시료는 냉동 보관, 신선 시료 표도 별도)",
+   "why": "[13] 전문: 6–7월 시료는 냉동 보관, 냉장·신선 시료 표가 따로 있음 — '생시료'로만 쓰면 틀림"
+  },
+  {
+   "where": "sources[14].title",
+   "before": "Characterization of Selenium Species in the Shijimi Clam. Chem Pharm Bull 2017",
+   "after": "Characterization of Selenium Species in the Shijimi Clam. Chem Pharm Bull 2017;65:1045-50 (초록에 Corbicula japonica로 명시)",
+   "why": "제목에 학명 없는 'Shijimi' — 초록에서 C. japonica 확인, 권·쪽 보충"
+  },
+  {
+   "where": "sources[23].title",
+   "before": "Using Human Intestinal Enteroids. Viruses 2022;14:1014",
+   "after": "Using Human Intestinal Enteroids. Viruses 2022;14:1014 (원문은 'freshwater clams'로 부르나 PubMed 초록 검색에서 Corbicula japonica로 확인)",
+   "why": "제목·추출문에 학명이 빠져 있어 종 확인 근거를 밝힘"
+  },
+  {
+   "where": "sources[11].title",
+   "before": "suppresses ethanol-induced liver injury. Biochem Biophys Res Commun 2019",
+   "after": "suppresses ethanol-induced liver injury. Biochem Biophys Res Commun 2019;522:580-4",
+   "why": "권·쪽 보충"
+  }
+ ],
+ "unverifiable_notes": [
+  "[1] 식품원료 지위는 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json 의 '일본재첩' 행(수산물, 사용가능, 부위 칸 '-', 별칭 가막조개, 학명 4개)과 대조해 일치; 재첩(C. fluminea)·참재첩(C. leana, 별칭에 가막조개 포함)은 별도 행임을 확인",
+  "논문 31건은 PubMed 도구로 초록 대조, [4]·[12]·[13]·[23]은 PMC 전문까지 대조. [7]·[14]는 전문을 보지 못해 초록 수치만 사용(총카로티노이드 5.3 mg/100 g 먹는 부위 습중량, 셀레늄 3.5 µg/g 건조 시료 — 원문 기준과 일치)",
+  "[4]·[13]·[21]·[23]·[12]는 PubMed 추출문에서 이탤릭 학명이 빠져 있어 '\"Corbicula japonica\"[All Fields]' 검색 적중으로 이 종 자료임을 확인; [23]은 원문이 'freshwater clams'라고 부름",
+  "[13] 성분별 수치 표는 보지 못해 개별 함량을 쓰지 않음(문서도 '확인하지 못함'으로 둠)",
+  "재첩(C. fluminea)·참재첩 자료 섞임 없음: [20]의 C. leana·C. sandai 독소, [7]의 C. sandai 카로티노이드는 대비 문장에만 쓰였고 수치는 C. japonica 값만 사용",
+  "단백질 독소 [19][20]은 생쥐 정맥 주사 결과이며 섭취 위해가 아님을 safety 본문에 분명히 함",
+  "PubMed 메타데이터 원본(_work/m1.json, 저자 이메일·이름 포함)을 삭제함"
+ ]
+}

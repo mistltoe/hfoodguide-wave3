@@ -1,0 +1,115 @@
+import json
+from pathlib import Path
+OUT = Path(__file__).resolve().parent.parent / "dossier.json"
+A = "2026-11-02"
+I1020 = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do?svc_no=I1020"
+def pm(n, title, pmid, pub, pmc=None):
+    url = f"https://pmc.ncbi.nlm.nih.gov/articles/{pmc}/" if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    return {"n": n, "title": title, "url": url, "publisher": pub, "accessed": A}
+sources = [
+ {"n": 1, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 딱지 원료명 3행(학명 Potentilla chinensis Ser. / Potentilla chinensis subsp. trigonodonta Hand.-Mazz., 영문명 East Asian cinquefoil): 딱지꽃순(부위 순)·딱지꽃잎(부위 잎)은 사용가능, 딱지꽃줄기(부위 줄기)는 사용불가, 세 행 모두 조건 '사용가능부위 : 순, 잎'. 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ {"n": 2, "title": "식품의약품안전처 「식품원료 목록」(식품안전나라 OpenAPI I1020) — 같은 속 관련 행: 털딱지꽃잎(Potentilla chinensis var. concolor, 사용가능, 잎), 물양지꽃순·잎(P. cryptotaeniae, 다른 이름 세잎딱지), 솜양지꽃뿌리(P. discolor, 뿌리), 가락지나물순(P. anemonefolia), 흰물싸리잎(P. fruticosa), Silverweed잎(P. anserina), 개소시랑개비잎(P. supina), 검은낭아초잎(P. palustris), 양지꽃(P. fragarioides var. major, 사용불가, 다른 이름에 '위릉채' 포함). 로컬 원자료 data/raw/mfds_rawmtrl/I1020_20261013.json", "url": I1020, "publisher": "식품의약품안전처", "accessed": "2026-10-13"},
+ pm(3, "Potentilloside A, a New Flavonol-bis-Glucuronide from the Leaves of Potentilla chinensis, Inhibits TNF-α-Induced ROS Generation and MMP-1 Secretion. Plants (Basel) 2022;11(23):3318 (PMID 36501357, doi:10.3390/plants11233318; 전문 확인)", "36501357", "MDPI / PubMed Central", "PMC9738723"),
+ pm(4, "The Effects of Flavonol and Flavone Glucuronides from Potentilla chinensis Leaves on TNF-α-Exposed Normal Human Dermal Fibroblasts. Antioxidants (Basel) 2023;12(10):1803 (PMID 37891882, doi:10.3390/antiox12101803; 전문 확인)", "37891882", "MDPI / PubMed Central", "PMC10604389"),
+ pm(5, "Ethanol Extracts from the Aerial Parts of Inula japonica and Potentilla chinensis Alleviate Airway Inflammation in Mice That Inhaled Particulate Matter 10 and Diesel Particulate Matter. Nutrients 2023;15(21):4599 (PMID 37960252, doi:10.3390/nu15214599; 전문 확인)", "37960252", "MDPI / PubMed Central", "PMC10647664"),
+ pm(6, "A Botanical Mixture Consisting of Inula japonica and Potentilla chinensis Relieves Obesity via the AMPK Signaling Pathway in 3T3-L1 Adipocytes and HFD-Fed Obese Mice. Nutrients 2022;14(18):3685 (PMID 36145056, doi:10.3390/nu14183685; 전문 확인)", "36145056", "MDPI / PubMed Central", "PMC9505034"),
+ pm(7, "Potentilla chinensis aqueous extract attenuates cyclophosphamide-induced hemorrhagic cystitis in rat model. Sci Rep 2022;12:13024 (PMID 35906474, doi:10.1038/s41598-022-17393-8; 전문 확인)", "35906474", "Springer Nature / PubMed Central", "PMC9338276"),
+ pm(8, "The influence of Potentilla chinensis aqueous extract on urinary bladder function in retinyl acetate-induced detrusor overactivity in rats. Biomed Pharmacother 2020;132:110861 (PMID 33113423, doi:10.1016/j.biopha.2020.110861; 초록 확인)", "33113423", "Elsevier / PubMed"),
+ pm(9, "[Comparison of Six Flavonoid Components of Closely-Related Plants Agrimonia pilosa, Potentilla chinensis and Potentilla discolor]. Zhong Yao Cai 2016;39(5) (PMID 30132635; 중국어 논문, 영문 초록만 확인)", "30132635", "Zhong Yao Cai / PubMed"),
+ pm(10, "Triterpenoids from Potentilla chinensis Inhibit RANKL-Induced Osteoclastogenesis in Vitro and Lipopolysaccharide-Induced Osteolytic Bone Loss in Vivo. Chem Biodivers 2024;e202402011 (PMID 39539038, doi:10.1002/cbdv.202402011; 초록 확인)", "39539038", "Wiley / PubMed"),
+ pm(11, "Pentacyclic triterpenes with nitric oxide inhibitory activity from Potentilla chinensis. Bioorg Chem 2021;108:104659 (PMID 33524652, doi:10.1016/j.bioorg.2021.104659; 초록 확인)", "33524652", "Elsevier / PubMed"),
+ pm(12, "[Studies on triterpenoids from Potentilla chinensis]. Zhongguo Zhong Yao Za Zhi 2006;31(17) (PMID 17087084; 중국어 논문, 영문 초록만 확인)", "17087084", "China Journal of Chinese Materia Medica / PubMed"),
+ pm(13, "[Study on chemical constituents of Potentilla chinensis Ser]. Zhong Yao Cai 2006;29(3) (PMID 16850720; 중국어 논문, 영문 초록만 확인)", "16850720", "Zhong Yao Cai / PubMed"),
+ pm(14, "Protective effect of tormentic acid from Potentilla chinensis against lipopolysaccharide/D-galactosamine induced fulminant hepatic failure in mice. Int Immunopharmacol 2014;19(2):365-372 (PMID 24560903, doi:10.1016/j.intimp.2014.02.009; 초록 확인. 2020년 정정문 PMID 33309532 있음)", "24560903", "Elsevier / PubMed"),
+ pm(15, "Asiatic acid from Potentilla chinensis attenuate ethanol-induced hepatic injury via suppression of oxidative stress and Kupffer cell activation. Biol Pharm Bull 2013;36(12) (PMID 24432383, doi:10.1248/bpb.b13-00634; 초록 확인)", "24432383", "Pharmaceutical Society of Japan / PubMed"),
+ pm(16, "Asiatic acid from Potentilla chinensis alleviates non-alcoholic fatty liver by regulating endoplasmic reticulum stress and lipid metabolism. Int Immunopharmacol 2018;65:256-267 (PMID 30340105, doi:10.1016/j.intimp.2018.10.013; 초록 확인. 2020년 정정문 PMID 32094005 있음)", "30340105", "Elsevier / PubMed"),
+ pm(17, "Asiatic acid ameliorates acute hepatic injury by reducing endoplasmic reticulum stress and triggering hepatocyte autophagy. Biomed Pharmacother 2020;129:110375 (PMID 32540645, doi:10.1016/j.biopha.2020.110375; 초록 확인)", "32540645", "Elsevier / PubMed"),
+ pm(18, "The Integrated Analysis of Transcriptomics and Metabolomics Unveils the Therapeutical Effect of Asiatic Acid on Alcoholic Hepatitis in Rats. Inflammation 2022 (PMID 35348973, doi:10.1007/s10753-022-01660-x; 초록 확인)", "35348973", "Springer / PubMed"),
+ pm(19, "Neuroprotective effect of tormentic acid against memory impairment and neuro-inflammation in an Alzheimer's disease mouse model. Mol Med Rep 2020;22(2) (PMID 32468017, doi:10.3892/mmr.2020.11154; 초록 확인)", "32468017", "Spandidos / PubMed Central", "PMC7339752"),
+ pm(20, "Characterization and immunological activity of polysaccharides from Potentilla chinensis. Int J Biol Macromol 2020;165 (PMID 32961189, doi:10.1016/j.ijbiomac.2020.09.118; 초록 확인)", "32961189", "Elsevier / PubMed"),
+ pm(21, "Tiliroside-derivatives enhance GLUT4 translocation via AMPK in muscle cells. Diabetes Res Clin Pract 2011;92(2) (PMID 21376414, doi:10.1016/j.diabres.2011.02.009; 초록 확인)", "21376414", "Elsevier / PubMed"),
+ pm(22, "AMPK/AS160 mediates tiliroside derivatives-stimulated GLUT4 translocation in muscle cells. Drug Des Devel Ther 2018;12:1581 (PMID 29910604, doi:10.2147/DDDT.S164441; 초록 확인)", "29910604", "Dove Medical Press / PubMed Central", "PMC5989705"),
+ pm(23, "A botulinum neurotoxin-like function of Potentilla chinensis extract that inhibits neuronal SNARE complex formation, membrane fusion, neuroexocytosis, and muscle contraction. Pharm Biol 2012;50(9) (PMID 22881141, doi:10.3109/13880209.2012.661743; 초록 확인)", "22881141", "Taylor & Francis / PubMed"),
+ pm(24, "Phytoremediation strategies for heavy metal-contaminated soil by selecting native plants near mining areas in Inner Mongolia. Environ Sci Pollut Res Int 2023 (PMID 37535284, doi:10.1007/s11356-023-29002-w; 초록 확인)", "37535284", "Springer / PubMed"),
+ pm(25, "Roots of forbs sense climate fluctuations in the semi-arid Loess Plateau: Herb-chronology based analysis. Sci Rep 2016;6:28435 (PMID 27323906, doi:10.1038/srep28435; 초록 확인)", "27323906", "Springer Nature / PubMed Central", "PMC4914992"),
+ pm(26, "Host plant use in sympatric closely related flea beetles. Environ Entomol 2007;36(2):468 (PMID 17445383, doi:10.1603/0046-225x(2007)36[468:hpuisc]2.0.co;2; 초록 확인)", "17445383", "Entomological Society of America / PubMed"),
+ pm(27, "Common volatiles are major attractants for neonate larvae of the specialist flea beetle Altica koreana (Coleoptera: Chrysomelidae). Naturwissenschaften 2008 (PMID 18330535, doi:10.1007/s00114-008-0367-y; 초록 확인)", "18330535", "Springer / PubMed"),
+ pm(28, "Plastid phylogenomics of the tribe Potentilleae (Rosaceae). Mol Phylogenet Evol 2023;190:107961 (PMID 37918684, doi:10.1016/j.ympev.2023.107961; 초록 확인 — 딱지꽃 포함 여부는 확인하지 못함)", "37918684", "Elsevier / PubMed"),
+ pm(29, "Higher ploidy is associated with reduced range breadth in the Potentilleae tribe. Am J Bot 2018;105(4):700-710 (PMID 29608209, doi:10.1002/ajb2.1046; 초록 확인 — 딱지꽃의 배수성 값은 확인하지 못함)", "29608209", "Wiley / PubMed"),
+ pm(30, "[Retracted] In vitro antitumor activity of the ethyl acetate extract of Potentilla chinensis in osteosarcoma cancer cells — 철회 공지. Mol Med Rep 2021 (PMID 33955512, doi:10.3892/mmr.2021.12129; 철회 사실 확인용, 내용은 근거로 쓰지 않음)", "33955512", "Spandidos / PubMed Central", "PMC8127058"),
+ pm(31, "Protection against MPP(+)-induced neurotoxicity in SH-SY5Y cells by tormentic acid via the activation of PI3-K/Akt/GSK3β pathway. Neurochem Int 2016 (PMID 26994872, doi:10.1016/j.neuint.2016.03.010; 초록 확인 — 사용한 토멘트산의 기원 식물은 초록에 명시되지 않음)", "26994872", "Elsevier / PubMed"),
+]
+
+sections = [
+{"key": "overview", "title": "한눈에 보기", "body":
+"딱지(딱지꽃, Potentilla chinensis Ser.)는 장미과(Rosaceae) 양지꽃속의 풀로, 중국·일본·한국 등 동아시아에 널리 자란다[1, 3]. 식약처 「식품원료 목록」에는 학명 'Potentilla chinensis Ser. / Potentilla chinensis subsp. trigonodonta Hand.-Mazz.', 영문명 East Asian cinquefoil로 올라 있다[1].\n\n"
+"식품원료로서 딱지는 순과 잎만 쓸 수 있다[1]. 목록의 딱지꽃순(부위 순)과 딱지꽃잎(부위 잎)은 '사용가능부위 : 순, 잎' 조건의 사용가능 원료이고, 같은 조건이 적힌 딱지꽃줄기(부위 줄기)는 사용불가다[1]. 이 종을 원재료로 하는 건강기능식품 고시형 원료는 확인하지 못함.\n\n"
+"연구에서는 잎·지상부의 플라보노이드 글루쿠로나이드(아피제닌-7-O-글루쿠로나이드, 새 화합물 포텐틸로사이드 A 등)와 전초의 트리테르펜(토멘트산·우르솔산 등)이 주로 다뤄졌다[3, 5, 10, 11]. 효과 보고는 세포·동물 실험이 대부분이며, 딱지만 쓴 사람 임상시험은 확인하지 못함."},
+{"key": "history", "title": "이용의 역사", "body":
+"딱지꽃의 지상부는 한국에서 'Potentillae Herba'라는 약재로 이질·객혈·대장염 등에 써 왔다고 한 논문은 소개한다[3]. 중국에서도 딱지꽃은 한약재(Chinese herb)로 소개되며, 그 성분을 분리한 중국어 논문이 2006년에 나왔다[12, 13, 21].\n\n"
+"한약 이름으로 흔히 쓰이는 '위릉채(委陵菜)'와 관련해서는 혼동에 주의해야 한다[2]. 식약처 목록에서 '위릉채'는 딱지가 아니라 사용불가 원료인 양지꽃(P. fragarioides var. major) 행의 다른 이름으로 적혀 있다[2]. 딱지꽃을 위릉채의 기원 식물로 정한 국내 공정서 원문은 이번 조사에서 확인하지 못함.\n\n"
+"식품으로서 딱지꽃순·잎은 식약처 목록에 사용가능 원료로 올라 있으나, 나물로 먹어 온 지역 풍습이나 섭취량을 기록한 공공 자료는 확인하지 못함. 최근 한국에서는 지상부·잎의 30% 에탄올 추출물을 다른 식물 추출물과 섞어 기능성 소재로 개발하려는 연구가 이어졌다[5, 6]."},
+{"key": "biology", "title": "식물학적 특징", "body":
+"딱지꽃은 장미과에 속하며 동아시아, 특히 중국·일본·한국에 널리 분포한다[3]. 여러해살이풀로서 뿌리 목부에 해마다 나이테가 생겨, 중국 황토고원에서는 뿌리 나이테 너비로 기후(가뭄) 영향을 분석한 연구가 있다[25]. 이 연구에서 기온 상승에 따른 물 부족이 딱지꽃 뿌리 생장을 뚜렷하게 줄였다[25].\n\n"
+"딱지꽃은 한 가지 식물만 먹는 벼룩잎벌레(Altica koreana)의 기주 식물로 보고되었다[26, 27]. 같은 지역의 근연 잎벌레(A. fragariae)도 딱지꽃에 알을 낳는 '실수'를 하며, 그 애벌레가 딱지꽃에서 자랄 수 있었다[26].\n\n"
+"중국 내몽골 납·아연 광산 주변 조사에서 딱지꽃은 여러 유해 원소를 지상부에 모으는 능력이 있는 자생 식물로 꼽혔다[24]. 잎의 모양·꽃 크기·개화기 같은 형태 기재는 공식 식물지 원문을 열지 못해 확인하지 못함."},
+{"key": "related_species", "title": "근연종과 혼동 주의", "body":
+"식약처 목록에는 딱지 외에도 양지꽃속 원료가 여럿 있어 이름과 학명을 구분해야 한다[1, 2]. 털딱지꽃잎(P. chinensis var. concolor)은 딱지의 변종이지만 별도 원료로 올라 있고 사용 부위가 잎뿐이다[2]. 물양지꽃(P. cryptotaeniae)은 다른 이름이 '세잎딱지'라 이름이 비슷하지만 다른 종이다[2].\n\n"
+"솜양지꽃(P. discolor)은 뿌리가 사용가능 부위이고, 가락지나물(P. anemonefolia)·흰물싸리(P. fruticosa)·Silverweed(P. anserina)·개소시랑개비(P. supina)·검은낭아초(P. palustris)도 각각 별도 원료다[2]. 양지꽃(P. fragarioides var. major)은 사용불가 원료이며 다른 이름에 '위릉채'가 들어 있다[2]. 이 백과에서 다른 양지꽃속 종의 성분·효능 자료는 딱지에 옮겨 적지 않았다[1, 2].\n\n"
+"중국 연구는 딱지꽃·솜양지꽃과 짚신나물(Agrimonia pilosa)을 '가까운 식물'로 묶어 플라보노이드 6종 함량을 비교했다[9]. 그 결과 아피제닌은 딱지꽃에서만 0.028 mg/g 검출되고 짚신나물·솜양지꽃에서는 검출되지 않았다[9]. 시장에서 근연종이 섞여 유통되는 실태는 확인하지 못함."},
+{"key": "cultivation", "title": "재배·채취", "body":
+"국내 딱지꽃 재배 면적이나 생산량 통계는 농식품부 특용작물 생산실적·통계청 표에서 확인하지 못함. 연구용 시료는 전북 순창군에서 채집한 지상부·잎(2건), 경기 지역 식물원에서 8월에 채집한 잎, 업체에서 구한 말린 잎(2021년 4월) 등으로 확보되었다[3, 4, 5, 6].\n\n"
+"중국 연구에서는 생것과 열풍 건조한 딱지꽃을 비교하여, 생것이 플라보노이드를 더 많이 함유한다고 보고했다[9]. 따라서 말리는 방법이 성분 함량에 영향을 줄 수 있다[9].\n\n"
+"광산 주변처럼 오염된 땅에서 자란 딱지꽃은 카드뮴·비소 등 유해 원소를 지상부에 모을 수 있다[24]. 식용으로 채취할 때는 도로변·광산 주변·오염 우려 지역을 피하는 것이 바람직하다[24]. 가뭄이 심하면 뿌리 생장이 줄어든다는 관찰도 있다[25]."},
+{"key": "processing", "title": "가공·제품", "body":
+"연구에서 많이 쓴 가공법은 30% 에탄올 추출이다[3, 5, 6]. 순창산 지상부·잎을 씻어 말린 뒤 30배량의 30% 에탄올로 80 °C에서 5시간 추출하고 35 Brix까지 농축한 다음 1시간 살균했다[5, 6]. 다른 식물 추출물과 1:1로 섞을 때는 고형분 10%가 되도록 덱스트린을 넣어 분무 건조했다[6].\n\n"
+"말린 잎 3 kg을 30% 에탄올 75 kg으로 60 °C에서 5시간 추출하여 추출물 351.45 g을 얻은 파일럿 규모 사례도 있다[3]. 방광 연구에서는 수율 21%인 시판 열수 추출물을 썼다[7].\n\n"
+"딱지꽃 다당류(PCPW·PCPS1·PCPS2)를 분리하여 분자량과 단당 조성을 밝힌 연구가 있다[20]. 식약처 「식품 등의 생산실적」에서 딱지 원료 제품 실적은 확인하지 못함."},
+{"key": "genetics", "title": "유전·분류", "body":
+"식약처 목록은 이 원료의 학명으로 Potentilla chinensis Ser.와 아종 P. chinensis subsp. trigonodonta Hand.-Mazz.를 함께 적고, 변종 털딱지(var. concolor)는 따로 분류한다[1, 2]. 양지꽃속은 장미과 양지꽃족(Potentilleae)에 속한다[28].\n\n"
+"엽록체 전장 유전체 158개를 이용한 연구에서 양지꽃족은 Fragariinae와 Potentillinae 두 아족으로 나뉘었고, Potentilla sensu stricto 안에서 여러 계통군이 구분되었다[28]. 이 연구에서 딱지꽃이 어느 계통군에 놓였는지는 초록만으로는 확인하지 못함.\n\n"
+"양지꽃족 109종을 분석한 연구에서 배수성은 2배체에서 12배체까지 다양했고, 배수성이 높을수록 분포 범위가 좁은 경향이 있었다[29]. 딱지꽃 자체의 염색체 수·배수성과 엽록체 유전체 정보는 확인하지 못함."},
+{"key": "safety", "title": "안전성", "body":
+"식약처 목록에서 딱지는 순과 잎만 식품원료로 쓸 수 있고 줄기는 사용불가다[1]. 딱지에 대한 공공기관(식약처·농진청 등)의 알레르기·독성·잔류 정보는 확인하지 못함.\n\n"
+"한 연구진은 지상부 30% 에탄올 추출물을 랫드에 한 번 먹인 시험에서 반수치사량이 15,000 mg/kg을 넘었고, 5,000 µg/plate까지 복귀돌연변이(에임스) 시험에서 돌연변이성이 없었다고 적었으나 자료는 공개하지 않았다[5]. 잎 추출물 혼합물(다른 식물과 1:1)을 15주 먹인 비만 생쥐에서 GOT·GPT·BUN은 유의하게 바뀌지 않았다[6]. 열수 추출물 500 mg/kg을 14일 먹인 정상 랫드에서 방광 기능 변화는 없었다[7, 8].\n\n"
+"딱지꽃은 오염 토양에서 카드뮴·비소 등을 지상부에 모을 수 있으므로 채취 장소에 주의해야 한다[24]. 꽃 추출물이 신경전달물질 분비를 막는 보툴리눔 독소 유사 작용을 세포 수준에서 보였다는 보고가 있으나, 사람 섭취와의 관련은 확인하지 못함[23]. 딱지꽃 추출물의 항암 효과를 다룬 논문 1건은 그림 중복 문제로 철회되어 이 백과의 근거에서 뺐다[30]. 사람 대상 안전성·임상시험은 확인하지 못함."},
+]
+
+compounds = [
+ {"name": "Apigenin 7-O-glucuronide", "name_ko": "아피제닌-7-O-글루쿠로나이드", "class": "플라본 글루쿠로나이드", "role": "marker", "part": "지상부·잎", "content_text": "지상부 30% 에탄올 추출물 기준 9.26 mg/g(HPLC)[5]; 잎 30% 에탄올 추출물의 주성분으로 확인(수치는 그림으로만 제시, 확인하지 못함)[6]", "activity_ko": "잎 추출물에서 분리, TNF-α 자극 피부섬유아세포의 ROS 생성 억제(세포)[3, 4]; 추출물 표준화 지표로 사용[5, 6]", "source": [3, 4, 5, 6]},
+ {"name": "Quercetin 3,3'-di-O-glucuronide", "name_ko": "포텐틸로사이드 A(쿼세틴-3,3'-다이-O-β-D-글루쿠로나이드)", "class": "플라보놀 비스글루쿠로나이드", "role": "bioactive", "part": "잎", "content_text": "잎 30% 에탄올 추출물에서 새 화합물로 분리(함량 확인하지 못함)[3]", "activity_ko": "TNF-α 자극 사람 피부섬유아세포에서 ROS·MMP-1 분비 억제, COLIA1 분비 회복, ERK·JNK·c-Jun 인산화 억제(세포)[3, 4]", "source": [3, 4]},
+ {"name": "Quercetin 3-O-glucuronide", "name_ko": "쿼세틴-3-O-글루쿠로나이드", "class": "플라보놀 글루쿠로나이드", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3, 4]", "activity_ko": "TNF-α 자극 피부섬유아세포 ROS 생성 억제(세포)[3, 4]", "source": [3, 4]},
+ {"name": "Kaempferol 3-O-glucuronide", "name_ko": "캠페롤-3-O-글루쿠로나이드", "class": "플라보놀 글루쿠로나이드", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3, 4]", "activity_ko": "TNF-α 자극 피부섬유아세포 ROS 생성 억제(세포)[3, 4]", "source": [3, 4]},
+ {"name": "Luteolin 7-O-glucuronide", "name_ko": "루테올린-7-O-글루쿠로나이드", "class": "플라본 글루쿠로나이드", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3, 4]", "activity_ko": "TNF-α 자극 피부섬유아세포 ROS 생성 억제(세포)[3, 4]", "source": [3, 4]},
+ {"name": "Tiliroside", "name_ko": "틸리로사이드", "class": "아실화 플라보놀 배당체", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3]; 딱지꽃에서 분리된 성분으로 소개[21, 22]", "activity_ko": "합성 유도체가 근육세포에서 AMPK를 거쳐 GLUT4 세포막 이동 증가(세포, 원물질 아닌 유도체)[21, 22]", "source": [3, 21, 22]},
+ {"name": "Ellagic acid", "name_ko": "엘라그산", "class": "폴리페놀(엘라기탄닌 관련)", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3]", "activity_ko": "TNF-α 자극 피부섬유아세포 ROS 생성 억제(세포)[3]", "source": [3]},
+ {"name": "Brevifolin carboxylic acid", "name_ko": "브레비폴린카복실산", "class": "폴리페놀", "role": "bioactive", "part": "잎", "content_text": "잎에서 분리(함량 확인하지 못함)[3]", "activity_ko": "TNF-α 자극 피부섬유아세포 ROS 생성 억제(세포)[3]", "source": [3]},
+ {"name": "Apigenin", "name_ko": "아피제닌", "class": "플라본", "role": "bioactive", "part": "식물체(초록에 부위 명시 없음)", "content_text": "0.028 mg/g(UHPLC; 짚신나물·솜양지꽃에서는 불검출)[9]", "activity_ko": "이 종에서 단독 활성 시험은 확인하지 못함[9]", "source": [9]},
+ {"name": "Tormentic acid", "name_ko": "토멘트산", "class": "우르산형 트리테르펜", "role": "bioactive", "part": "식물체(전초, 초록에 부위 명시 일부 없음)", "content_text": "딱지꽃에서 분리(함량 확인하지 못함)[10, 14]", "activity_ko": "LPS/D-갈락토사민 간부전 생쥐에서 간 보호(동물)[14]; 알츠하이머 모델 생쥐 복강 투여 시 기억 손상·신경염증 완화(동물)[19]; MPP+ 처리 신경세포 보호(세포, 기원 식물 미명시)[31]", "source": [10, 14, 19, 31]},
+ {"name": "Asiatic acid", "name_ko": "아시아틱산", "class": "우르산형 트리테르펜", "role": "bioactive", "part": "식물체(초록에 부위 명시 없음)", "content_text": "딱지꽃에서 얻은 성분으로 시험(함량 확인하지 못함)[15, 16]", "activity_ko": "랫드 만성 알코올 간 손상 완화(2–8 mg/kg 경구, 동물)[15]; 고지방식 비알코올성 지방간 완화(동물·세포)[16]; 급성 간 손상 생쥐 보호(동물)[17]; 알코올성 간염 랫드(동물)[18]", "source": [15, 16, 17, 18]},
+ {"name": "Ursolic acid", "name_ko": "우르솔산", "class": "우르산형 트리테르펜", "role": "bioactive", "part": "식물체(메탄올 추출물)", "content_text": "딱지꽃에서 분리(함량 확인하지 못함)[10, 12]", "activity_ko": "이 종 유래 시료의 단독 활성은 확인하지 못함[10]", "source": [10, 12]},
+ {"name": "3-epi-Corosolic acid", "name_ko": "3-에피-코로솔산", "class": "우르산형 트리테르펜", "role": "bioactive", "part": "식물체(메탄올 추출물)", "content_text": "딱지꽃에서 처음 분리(함량 확인하지 못함)[10]", "activity_ko": "RANKL 유도 파골세포 형성 억제(세포), LPS 유도 골소실 생쥐 보호(동물)[10]", "source": [10]},
+]
+
+assays = [
+ {"role": "literature", "compound": "Apigenin 7-O-glucuronide", "compound_ko": "아피제닌-7-O-β-D-글루쿠로나이드", "part": "지상부(전북 순창 채집) 30% 에탄올 추출물", "content": "추출물 기준 9.26 mg/g; 1:1 혼합 추출물에서 4.63 mg/g[5]",
+  "method": "HPLC-PDA",
+  "conditions": {"instrument": "Waters 2695 HPLC 펌프, Waters 2998 광다이오드 배열 검출기", "column": "Phenomenex Gemini NX C18 110A(4.6 × 250 mm, 5 μm)", "mobile_phase": "A: 0.1% 폼산 아세토니트릴, B: 0.1% 폼산 수용액", "gradient": "A 기준 0–7분 15%; 7–27분 15→20%; 27–45분 20%; 45–52분 20→25.4%; 52–60분 25.4→35%; 60–73분 35→43%; 73–74분 43→100%", "flow": "0.7 mL/min", "temp": "", "detection": "365 nm", "injection": "", "sample_prep": "시료와 검량 용액을 0.2 μm PTFE 막으로 여과", "standard": "분리한 표준품을 DMSO:메탄올(1:9) 2000 ppm으로 녹여 31.25·62.5·125·250·500·1000 ppm으로 희석", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "논문이 이 성분을 딱지 추출물에서 분리하고 주성분으로 정량해 추출물 표준화에 썼다; 머무름 시간이 표준품 42.0분, 추출물 30.0분으로 본문에 서로 다르게 적혀 있다[5]", "source": [5], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10647664/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Apigenin 7-O-glucuronide", "compound_ko": "아피제닌-7-O-β-D-글루쿠로나이드", "part": "잎(전북 순창 채집) 30% 에탄올 추출물", "content": "주성분으로 강한 피크 확인, 머무름 시간 13.1분(함량 수치는 확인하지 못함)[6]",
+  "method": "UHPLC-DAD",
+  "conditions": {"instrument": "Thermo Fisher Vanquish Horizon Duo UHPLC(바이너리 펌프 F, 다이오드 배열 검출기 FG)", "column": "YMC J'sphere ODS-M80(4 μm, 8 nm, 250 × 4.6 mm)", "mobile_phase": "A: 0.1% 폼산 수용액, B: 0.1% 폼산 아세토니트릴", "gradient": "0–7분 25% B; 7–37분 25→65% B; 37–38분 65→100% B; 38–45분 100% B; 45–46분 100→25% B; 46–50분 25% B", "flow": "0.7 mL/min", "temp": "", "detection": "", "injection": "", "sample_prep": "추출물을 50% 메탄올에 50 mg/mL로 녹여 0.2 μm PTFE 필터로 여과", "standard": "DMSO:메탄올(1:9) 2000 ppm 표준액을 31.25–1000 ppm으로 희석", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "잎 추출물에서 분리한 주성분으로, 혼합 소재 표준화의 지표로 쓰였다[6]", "source": [6], "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9505034/", "source_kind": "paper"},
+ {"role": "literature", "compound": "Apigenin", "compound_ko": "아피제닌(루틴·하이퍼로사이드·시나로사이드·쿼세틴·캠페롤과 동시 정량)", "part": "식물체(초록에 부위 명시 없음), 생것·건조품", "content": "아피제닌 0.028 mg/g(루틴·하이퍼로사이드가 대체로 많고 캠페롤은 매우 적음)[9]",
+  "method": "UHPLC-UV",
+  "conditions": {"instrument": "", "column": "Acquity HSS T3(100 mm × 3.0 mm, 1.8 μm)", "mobile_phase": "아세토니트릴–0.3% 빙초산 수용액", "gradient": "", "flow": "0.4 mL/min", "temp": "35 ℃", "detection": "360 nm", "injection": "", "sample_prep": "70% 에탄올로 0.5시간 초음파 추출", "standard": "", "linearity": "", "lod": "", "loq": "", "recovery": ""},
+  "rationale": "근연 약용식물(짚신나물·솜양지꽃)과 구별하는 성분으로 아피제닌이 딱지꽃에서만 검출되었다; 영문 초록만 확인, 전문 확인 못함[9]", "source": [9], "url": "https://pubmed.ncbi.nlm.nih.gov/30132635/", "source_kind": "paper"},
+]
+
+d = {"slug": "potentilla-chinensis", "name_ko": "딱지", "name_en": "East Asian cinquefoil (Chinese cinquefoil)",
+     "scientific_name": "Potentilla chinensis Ser.",
+     "aliases": ["딱지꽃", "딱지꽃순", "딱지꽃잎", "Potentillae Herba", "Chinese cinquefoil", "East Asian cinquefoil", "Potentilla chinensis subsp. trigonodonta Hand.-Mazz."],
+     "sections": sections, "compounds": compounds, "markers": [], "assays": assays, "nutrients": [],
+     "production": [], "world": [], "gi": [], "orgs": [], "sources": sources}
+OUT.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
+print("written")
